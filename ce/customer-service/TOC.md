@@ -12,9 +12,24 @@
 ### [Partner Sales and Marketing](learning-sales.md)
 
 ## User Guides
+
+### Customer Service workspace
+#### [Introduction to Customer Service workspace](csw-overview.md)
+#### [Customer Service workspace system requirements](customer-service-workspace-system-requirements.md)
+#### [Overview of the productivity pane](csw-productivity-pane.md)
+#### [View AI suggested similar cases and knowledge articles](csw-view-ai-suggested-cases-knowledge-articles.md)
+
 ### Customer Service Hub
 #### [Introduction to Customer Service Hub](user-guide-customer-service-hub.md)
 #### [Learn the basics](customer-service-hub-user-guide-basics.md)
+
+#### Work with email
+##### [Using Email](customer-service-hub-user-guide-email-overview.md)
+##### [Configure Email](customer-service-hub-user-guide-email-admin.md)
+#### Work with timeline
+
+##### [Use timeline](customer-service-hub-user-guide-timeline-overview.md)
+##### [Configure timeline](customer-service-hub-user-guide-timeline-admin.md)
 
 #### Work with cases
 ##### [Create a case](customer-service-hub-user-guide-create-a-case.md)
@@ -32,6 +47,7 @@
 #### [Use Customer Service Hub on mobile devices](use-customer-service-hub-on-dynamics-365-mobile.md)
 #### [Upgrade to Customer Service Hub](upgrade-ish-csh.md)
 #### [Keyboard navigation support](keyboard-navigation-support-customer-service-hub.md)
+
 ### [Customer Service Team Member](customer-service-team-member.md)
 ### Customer Service app
 #### [Introduction to Customer Service app](user-guide-customer-service.md)
@@ -56,13 +72,12 @@
 #### [Define subjects to categorize cases](../admin/define-subjects-categorize-cases-products-articles.md)
 
 ### Service Terms
-#### [Define Service Level Agreements (SLAs)](define-service-level-agreements.md)
+#### [Define service-level agreements](define-service-level-agreements.md)
 #### [Enable entities for service level agreements](enable-entities-service-level-agreements.md)
 #### [Create entitlements to define support terms](create-entitlement-define-support-terms-customer.md)
 #### [Create and manage holiday schedule](set-up-holiday-schedule.md)
 #### [Create customer service schedule](create-customer-service-schedule-define-work-hours.md)
 #### [Manage service configuration settings](../admin/system-settings-dialog-box-service-tab.md)
-
 ### Templates
 #### [Set up entitlements using entitlement templates](set-up-entitlements-templates.md)
 #### [Create email templates](../admin/create-templates-email.md)
@@ -82,6 +97,7 @@
 #### [View and understand Customer Service Analytics](customer-service-analytics.md)
 #### [Configure Customer Service Analytics and Insights in Customer Service Hub](configure-customer-service-analytics-insights-csh.md)
 #### [Configure Customer Service Analytics in Power BI](configure-customer-service-analytics-dashboard.md)
+#### [Enable AI suggestions for similar cases and knowledge articles](csw-enable-ai-suggested-cases-knowledge-articles.md)
 
 ## Connected Customer Service (IoT) add-in
 ### [Overview](cs-iot-overview.md)
@@ -106,32 +122,38 @@
 ### [Security roles for Connected Customer Service](cs-iot-security-roles.md)
 
 ## Service Scheduling Guide
-### [Understand Service Scheduling](basics-service-service-scheduling.md)
-### [Set up the new scheduling experience](basics-service-service-scheduling.md#set-up-the-new-service-scheduling-experience)
-### [Manage security roles](manage-security-roles.md)
+### [Overview](scheduling-overview.md)
 
-### Schedule entities
-#### [Create bookable resources](resources-service-scheduling.md)  
-#### [Add facilities and equipment to schedule service](add-facilities-equipment-ss-csh.md)
-#### [Create and manage resource categories](resource-categories-service-scheduling.md)
-#### [Create or edit services](create-edit-service-csh.md)
-#### [Schedule a service activity](schedule-service-activity-csh.md)
-#### [Manage fulfillment preferences](../common-scheduler/fulfillment-preferences.md)
-### Configure using tools
+### Customer Service Scheduling
+#### [Understand Service Scheduling](basics-service-service-scheduling.md)
+#### [Manage security roles](manage-security-roles.md)
+
+#### Schedule entities
+##### [Create bookable resources](resources-service-scheduling.md)  
+##### [Add facilities and equipment to schedule service](add-facilities-equipment-ss-csh.md)
+##### [Create and manage resource categories](resource-categories-service-scheduling.md)
+##### [Create or edit services](create-edit-service-csh.md)
+##### [Schedule a service activity](schedule-service-activity-csh.md)
+##### [Manage fulfillment preferences](../common-scheduler/fulfillment-preferences.md)
+
 #### [Configure service activity using schedule board](use-schedule-board-configure-service-activity.md) 
 
-### Work with settings
-#### [Create and manage organizational units](create-org-units-cs-scheduling.md)
-#### [Schedule business closure](set-when-business-closed-csh.md)
-### Migration tool
-#### [Introduction](introduction-migration-entity-records.md)
-#### [Plan your migration](plan-migration.md)
-#### [Migrate entity records data using migration tool](migrate-entity-records.md)
+#### Work with settings
+##### [Create and manage organizational units](create-org-units-cs-scheduling.md)
+##### [Schedule business closure](set-when-business-closed-csh.md)
 
-### Service Scheduling Developer Guide
-#### [Search Resource Availability and Create Bookings](universal-resource-scheduling.md)
+#### Service Scheduling Developer Guide
+##### [Search Resource Availability and Create Bookings](universal-resource-scheduling.md)
 
-### Legacy Service Scheduling (Customer Service app)
+### [UCI Service Scheduling](uci-scheduling-overview.md)
+#### [Create or edit a service](uci-create-edit-service.md)
+#### [Add facilities and equipment](uci-add-facilities-equipment.md)
+#### [Schedule a service activity](uci-schedule-service-activity.md)
+#### [Create resource groups](uci-create-resource-groups.md)
+#### [Use sites to manage your service locations](uci-create-sites.md)
+#### [Navigate the service calendar](uci-navigate-service-calendar.md)
+
+### [Legacy Service Scheduling](../customer-service/legacy-scheduling.md)
 #### [Set up business closure](set-when-business-closed-cs-app.md)
 #### [Set work hours to define availability](set-work-hours-resource.md)
 #### [Create or change a service](create-edit-service-cs-app.md)
@@ -150,12 +172,31 @@
 ### [Configure interactive dashboards](configure-interactive-dashboards-customer-service-hub.md)
 ### [Modify case resolution dialog box](../customer-service/customer-service-hub-user-guide-modify-case-resolution-dialog.md)
 
+## Migration solutions
+
+### [Migration tool for automatic record creation rules and service-level agreements](migrate-automatic-record-creation-and-sla-agreements.md)
+### [Contract to entitlements migration strategy](contract-to-entitlement-migration.md)
+
+
+### Service Scheduling Migration
+#### [Introduction to service scheduling migration](introduction-migration-entity-records.md)
+#### [Plan service scheduling migration](plan-migration.md)
+#### [Migrate service scheduling](migrate-entity-records.md)
+
+### [Migration tool FAQs](migrate-tool-faqs.md)
+
 ## Troubleshoot
 ### [Issue converting an email to a case](troubleshoot-case-email-issue.md)
 ### [SLA timer does not pause when its state is changed from InProgress to OnHold on a holiday](troubleshoot-sla-timer-issue.md)
 ### [Unable to delete a managed solution consisting an SLA enabled entity](troubleshoot-delete-managed-solution.md)
+### FAQs
+#### [Email FAQs](email-faqs.md)
+#### [Migration tool FAQs](migrate-tool-faqs.md)
+#### [Timeline FAQs](timeline-faqs.md) 
+#### [FAQs on AI-suggested cases and knowledge articles](csw-faqs-ai-suggestions.md)
 
 ## Developer guide
+### [Work with knowledge articles](work-knowledge-articles.md)
 ### [Create knowledge article using template](create-knowledge-article-using-template.md)
 ### [Extend transformer logic on templates](extend-tranformer-logic-template.md)
 

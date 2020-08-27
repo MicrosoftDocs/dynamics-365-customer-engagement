@@ -1,7 +1,7 @@
 ---
 title: "Customize the business card scan control (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Customize how the data from the scanned business cards maps to the fields in the Contact and Lead forms."
-ms.date: 10/01/2019
+ms.date: 06/18/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
@@ -53,13 +53,11 @@ To edit the mappings:
     > ![Business card scanner control in the Field Properties dialog box](media/business-card-scanner-control-field-properties-dialog-box.png "Business card scanner control in the Field Properties dialog box")
 
 9.  Select the property that you want to change the mapping for, and select the **Edit** icon ![Edit icon](media/edit-icon.png "Edit icon") to change the value the field maps to.
-
 10. When done, select **OK**.
 
 
 > [!NOTE]
-> -  Sales people must have the Common Data Service User role assigned to them to use the business card scan control.
-> -  Mapping of address fields is currently not supported.
+> Salespeople must have the Common Data Service User role assigned to them to use the business card scan control.
 
 
 ### See also

@@ -26,7 +26,7 @@ Increase seller productivity by enabling the enhanced experience for searching a
 > - [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
 > - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 
-**To enable the enhanced experience**
+**To enable the enhanced experience from the Sales Hub app**
 
 1. At the bottom of the site map, select **Change area** ![Icon to change the work area](media/change-area-icon.png "Icon to change the work area"), and then select **App Settings**.
 
@@ -38,6 +38,28 @@ Increase seller productivity by enabling the enhanced experience for searching a
     > ![Enhanced 'add product' experience setting](media/enhanced-add-product-experience-setting.png "Enhanced 'add product' experience setting")
 
 4. Select **Apply**.
+
+If you are a custom app, you can enable the enhanced experience from System Settings in the legacy web client. 
+
+**To enable the enhanced experience from System Settings**
+
+1. In your app, select the **Settings** icon, and then select **Advanced Settings**.
+
+    > [!div class="mx-imgBorder"]  
+    > ![Advanced Settings link in the site map](../sales-enterprise/media/advanced-settings-option.png "Advanced Settings link in the site map")
+
+    The **Business Management settings** page opens in a new browser tab.
+
+2. On the navigation bar, select **Settings**, and then select **Administration**.
+
+3. Select **System Settings**.
+
+4. In the **System Settings** dialog box, on the **Sales** tab, set **Enhanced add product experience** to **Yes**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Enhanced add product experience setting](../sales-professional/media/system-settings-sales-tab-enhanced-add-products.png "Enhanced add product experience setting")
+
+4. Select **OK**.
 
 
 ### See also

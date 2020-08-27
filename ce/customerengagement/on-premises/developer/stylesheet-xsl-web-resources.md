@@ -3,7 +3,7 @@ title: "Stylesheet (XSL) web resources (Developer Guide for Dynamics 365 Custome
 description: "Learn about using Stylesheet (XSL) Web resources to transform XML data."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -19,8 +19,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Stylesheet (XSL) web resources
 

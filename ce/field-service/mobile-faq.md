@@ -163,6 +163,10 @@ Try publishing the mobile project again to match the version of the app. For ins
 
 We strongly recommend using the Field Service Mobile app to access Field Service, rather than the Dynamics 365 mobile app with the Unified Interface. While the native Dynamics 365 app does work in offline mode, it doesn't fully support offline mode for Field Service-specific scenarios. For more information, visit our article on Field Service Mobile.
 
+## Does Field Service Mobile support SharePoint integration? 
+
+Yes, Field Service Mobile supports SharePoint integration for accessing and uploading documents. Please note at this time, only Basic authentication with SharePoint is supported; OAuth support is planned for a future app release.
+
 ## How can I correct the error "Your Server customization requires new version of the Application"?
 
 

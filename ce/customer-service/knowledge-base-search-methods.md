@@ -4,7 +4,7 @@ description: Know how the Knowledge base search mechanisms and methods works in 
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 10/01/2018
+ms.date: 06/29/2020
 ms.topic: article
 ms.service: 
   - dynamics-365-customerservice
@@ -36,7 +36,7 @@ See the following section to learn the types of search mechanisms available:
 
 - **Relevance search**:  Lets you search across multiple pre-defined entities and returns result sorted by relevance.  
 
-   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Relevance search](../basics/relevance-search-results.md)
+   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Relevance search](https://docs.microsoft.com/powerapps/user/relevance-search)
    <br> 
 
    See [Configure Relevance search](https://docs.microsoft.com/power-platform/admin/configure-relevance-search-organization) to learn how to configure Relevance search to improve search results and performance.

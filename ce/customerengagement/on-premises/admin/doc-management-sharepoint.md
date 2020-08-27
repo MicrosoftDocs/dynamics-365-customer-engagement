@@ -23,7 +23,7 @@ manager: kvivek
 Dynamics 365 for Customer Engagement apps document management with SharePoint lets users manage common document types, such as Word, Excel, PowerPoint, OneNote, and create folders to save and manage those documents in Dynamics 365 for Customer Engagement apps that are seamlessly stored in [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)]. 
 
 > [!div class="mx-imgBorder"] 
-> ![](../admin/media/sp-ce-doc-management.png "Document management in customer engagement and SharePoint")
+> ![Document management in customer engagement and SharePoint](../admin/media/sp-ce-doc-management.png "Document management in customer engagement and SharePoint")
 
 Depending on your environment, there are several Dynamics 365 for Customer Engagement apps and SharePoint configurations possible. 
 

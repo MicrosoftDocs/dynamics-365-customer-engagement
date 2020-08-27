@@ -16,8 +16,7 @@ ms.author: matp
 manager: brycho
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 # Create business rules and recommendations to apply logic in a form
 
@@ -139,12 +138,12 @@ A business rule may not execute because the field referenced in the business rul
 4.	In the business rule designer select each condition and action to verify all the fields referenced in each condition and action. 
 
      > [!div class="mx-imgBorder"] 
-     > ![](media/business-rule-field.png "Field referenced in business rule exists in entity")
+     > ![Field referenced in business rule exists in entity](media/business-rule-field.png "Field referenced in business rule exists in entity")
 
  5.	Verify that each field referenced in the business rule is also included on the form. If not, add the missing field to the form.
 
      > [!div class="mx-imgBorder"] 
-     > ![](media/account-name-on-form.png "Account name field on form")
+     > ![Account name field on form](media/account-name-on-form.png "Account name field on form")
 
 ## Frequently asked questions (FAQ)
 *Can business rules unlock fields on a read-only form?*

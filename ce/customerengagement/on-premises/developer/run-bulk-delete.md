@@ -3,7 +3,7 @@ title: "Run bulk delete (Developer Guide for Dynamics 365 Customer Engagement (o
 description: "Delete data in bulk by submitting an asynchronous bulk delete job via the BulkDeleteRequest message."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -29,8 +29,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Run bulk delete
 

@@ -16,8 +16,7 @@ ms.author: matp
 manager: kvivek
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 # Customize Dynamics 365 for phones and tablets to work for your business
 

@@ -3,7 +3,7 @@ title: "Sample: Send an email (Developer Guide for Dynamics 365 Customer Engagem
 description: "This sample shows how to send an email SendEmailRequest message"
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -20,8 +20,7 @@ ms.author: nabuthuk
 manager: kvivek
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Sample: Send an email
 

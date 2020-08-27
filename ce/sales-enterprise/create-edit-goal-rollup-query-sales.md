@@ -2,10 +2,8 @@
 title: "Define goal rollup queries (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Collect data about a given goal, including all its related goals, in one view by using rollup query in Dynamics 365 Sales."
 ms.date: 12/22/2019
-ms.service: 
+ms.service:
   - "dynamics-365-sales"
-ms.custom: 
-  - "dyn365-sales"
 ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
@@ -44,8 +42,8 @@ Use the rollup query to gather data about a given goal, including all its relate
     > [!div class="mx-imgBorder"]
     > ![Rollup query form](media/rollup-query-form.png "Rollup query form")
     
-        > [!NOTE]
-        >  If you change this selection after you add your query criteria in the **Query** section, your query criteria will be deleted.  
+      > [!NOTE]
+      >  If you change this selection after you add your query criteria in the **Query** section, your query criteria will be deleted.  
   
 6. In the **Query** section, add the criteria for your query. The criteria you can add depends on the record type. 
 

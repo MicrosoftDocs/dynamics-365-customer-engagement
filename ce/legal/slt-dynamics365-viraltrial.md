@@ -1,195 +1,210 @@
 ---
-title: MICROSOFT SOFTWARE LICENSE TERMS MICROSOFT DYNAMICS 365 GUIDES
+title: SUPPLEMENTAL TERMS FOR TRIAL SERVICES
 author: ReneeW-CPub
 ---
 
-MICROSOFT SOFTWARE LICENSE TERMS<br/>MICROSOFT DYNAMICS 365 GUIDES 
-==================================================================
+<a name="top"></a>
 
-These license terms are an agreement between you and Microsoft Corporation (or
-one of its affiliates). They apply to the software named above and any Microsoft
-services or software updates (except to the extent such services or updates are
-accompanied by new or additional terms, in which case those different terms
-apply prospectively and do not alter your or Microsoft’s rights relating to
-pre-updated software or services). IF YOU COMPLY WITH THESE LICENSE TERMS, YOU
-HAVE THE RIGHTS BELOW. BY USING THE SOFTWARE, YOU ACCEPT THESE TERMS.
+# SUPPLEMENTAL TERMS FOR TRIAL SERVICES
 
-**1. INSTALLATION AND USE RIGHTS.**
+These terms supplement the applicable terms of the [Microsoft Online
+Subscription
+Agreement](https://azure.microsoft.com/support/legal/subscription-agreement/)
+(the “Agreement”) and any terms referenced therein that govern your use of the
+Trial Service. For the purposes of these Supplemental Terms for Trial Services
+(“the **Supplemental Terms**”), any trial of a commercially-available Online
+Service that links to these Supplemental Terms will be referred to as a “**Trial
+Service**”.
 
->   **a) General.** You may install and use any number of copies of the software
->   on Windows devices that you own or control in order to access and interact
->   with the Microsoft Dynamics 365 Guides service to which you have access
->   rights via your company’s Microsoft Dynamics 365 Guides subscription.
->
->   **b) Required** Microsoft Applications and Services. The software requires a
->   license to Microsoft Dynamics 365 Guides, which includes use and access of
->   the Microsoft Common Data Service and Microsoft PowerApps online services.
->   Use of those services may be available to you in connection with the
->   software, but your use and access to those services is governed by and must
->   comply with the separate license terms that apply to you through your
->   company’s subscription. Some functionality may require additional licenses
->   for other Microsoft software or applications. You will not be able to use
->   this functionality unless you have a separate license for such Microsoft
->   software or application.
->
->   **c) Third Party Software.** The software may include third party
->   applications that Microsoft, not the third party, licenses to you under this
->   agreement. Any included notices for third party applications are for your
->   information only. Even if such applications are governed by other
->   agreements, the disclaimer, limitations on, and exclusions of damages below
->   also apply to the extent allowed by applicable law.
+All terms used but not defined will have the same meanings as in the Agreement.
+Any additional legal terms that apply to your use of a specific Trial Service
+(“Specific Terms”) are set forth below. If a Trial Service links to these
+Supplemental Terms but it is not listed below, then that Trial Service does not
+have any Specific Terms.
 
-**2. DATA.**
+For the avoidance of doubt, different Specific Terms may be applicable to you or
+your personnel at different times, and multiple Specific Terms may be applicable
+at one time, all depending on which trial periods are in effect for which Trial
+Services at any given time.
 
->   **a) Data Collection.** The software may collect information about you and
->   your use of the software and send that to Microsoft. Microsoft may use this
->   information to provide services and improve Microsoft’s products and
->   services. Your opt-out rights, if any, are described in the product
->   documentation. Some features in the software may enable collection of data
->   from users of your applications that access or use the software. If you use
->   these features to enable data collection in your applications, you must
->   comply with applicable law, including getting any required user consent, and
->   maintain a prominent privacy policy that accurately informs users about how
->   you use, collect, and share their data. You can learn more about Microsoft’s
->   data collection and use in the product documentation and the Microsoft
->   Privacy Statement at <https://go.microsoft.com/fwlink/?LinkID=521839>. You
->   agree to comply with all applicable provisions of the Microsoft Privacy
->   Statement.
->
->   **b) Processing of Personal Data.** To the extent Microsoft is a processor
->   or subprocessor of personal data in connection with the software, Microsoft
->   makes the commitments in the European Union General Data Protection
->   Regulation Terms in Attachment 4 of the Online Services Terms to all
->   customers effective May 25, 2018, at
->   <https://go.microsoft.com/?linkid=9840733>.
+**Content in this supplement**
 
-**3. SCOPE OF LICENSE.** The software is licensed, not sold. Microsoft reserves
-all other rights. Unless applicable law gives you more rights despite this
-limitation, you will not (and have no right to):
+[Microsoft Dynamics 365 Sales, Marketing, Customer Service, Customer Service Insights, Field Service, and Project Service Automation](#1)
 
->   **a)** work around any technical limitations in the software that only allow
->   you to use it in certain ways;
->
->   **b)** reverse engineer, decompile or disassemble the software;
->
->   **c)** remove, minimize, block, or modify any notices of Microsoft or its
->   suppliers in the software;
->
->   **d)** use the software in any way that is against the law or to create or
->   propagate malware; or
->
->   **e)** share, publish, distribute, or lend the software, provide the
->   software as a stand-alone hosted solution for others to use, or transfer the
->   software or this agreement to any third party.
+[Microsoft Dynamics 365 Business Central](#2)
 
-**4. CAUTIONARY NOTE:** You are responsible for using the software in a safe
-environment and manner. Please use caution and be aware of your surroundings
-when using the software, particularly if you are moving. You should not use the
-software while operating other equipment.
+[Microsoft Dynamics 365 Finance, and Microsoft Dynamics 365 Supply Chain Management](#3)
 
-**5. VIDEO CODECS.** THIS PRODUCT IS LICENSED UNDER THE AVC, THE VC-1, AND THE
-MPEG-4 PART 2 VISUAL PATENT PORTFOLIO LICENSES FOR THE PERSONAL AND
-NON-COMMERCIAL USE OF A CONSUMER TO (i) ENCODE VIDEO IN COMPLIANCE WITH THE
-ABOVE STANDARDS (“VIDEO STANDARDS”) OR (ii) DECODE AVC, VC-1, AND MPEG-4 PART 2
-VIDEO THAT WAS ENCODED BY A CONSUMER ENGAGED IN A PERSONAL AND NON-COMMERCIAL
-ACTIVITY OR WAS OBTAINED FROM A VIDEO PROVIDER LICENSED TO PROVIDE SUCH VIDEO.
-NO LICENSE IS GRANTED OR SHALL BE IMPLIED FOR ANY OTHER USE. ADDITIONAL
-INFORMATION MAY BE OBTAINED FROM MPEG LA, L.L.C. SEE <https://aka.ms/mpegla>.
+[Microsoft Dynamics 365 Commerce](#4)
 
-**6. DOCUMENTATION.** You may copy and use the documentation for your internal,
-reference purposes.
+[Microsoft Dynamics 365 Human Resources](#5)
 
-**7. EXPORT RESTRICTIONS.** You must comply with all domestic and international
-export laws and regulations that apply to the software, which include
-restrictions on destinations, end users, and end use. For further information on
-export restrictions, visit <https://aka.ms/exporting>.
+<a name="1"></a>
+**Specific Terms for Microsoft Dynamics 365 for Sales, Marketing, Customer
+Service, Customer Service Insights, Field Service, and Project Service
+Automation**
 
-**8. SUPPORT SERVICES.** Microsoft is not obligated under this agreement to
-provide any support services for the software. Any support provided is “as is”,
-“with all faults”, and without warranty of any kind.
+**1. Trial Period.** Except for Dynamics 365 for Marketing, which only allows
+one trial per customer organization, there may be up to five concurrent trials
+of the Trial Service at any given time for your organization (each, a “**Trial
+Instance**”), and each such Trial Instance will remain accessible for a 30-day
+period beginning on the date when the first user of a given Trial Instance is
+first given access to it (“**Trial Instance Effective Date**”) until the date
+that is 30 days after such date (each, a “**Trial Period**”). Any given user in
+your organization who wants to gain access to this Trial Service may either
+create a new Trial Instance (if one is then available, subject to the foregoing
+limit on concurrent Trial Instances), in which case the Trial Period applicable
+to that user is 30 days, or that user may join any of the then-existing Trial
+Instances for your organization, in which case the Trial Period applicable to
+that user is the remainder of the 30-day period that began on the Trial Instance
+Effective Date for that Trial Instance. When the Trial Period for any given
+Trial Instance expires, that Trial Instance may be made available to you to
+export data in accordance with Section 5 below, after which that Trial Instance
+will be deleted, and you may create a new Trial Instance in its place (subject
+to the foregoing limit on concurrent Trial Instances).
 
-**9. UPDATES.** The software may periodically check for updates, and download
-and install them for you. You may obtain updates only from Microsoft or
-authorized sources. Microsoft may need to update your system to provide you with
-updates. You agree to receive these automatic updates without any additional
-notice. Updates may not include or support all existing software features,
-services, or peripheral devices.
+Notwithstanding the foregoing, Dynamics 365 Customer Service Insights allows
+unlimited trials per customer organization.
 
-**10. ENTIRE AGREEMENT.** This agreement, and any other terms Microsoft may
-provide for supplements, updates, or third-party applications, is the entire
-agreement for the software.
+**2. Termination.** Without limiting the generality of any applicable terms in
+the Agreement, Microsoft may terminate your access to this Trial Service through
+a given Trial Instance at any time if you fail to access and actively use this
+Trial Service through such Trial Instance for any period of 7 consecutive days
+(and Microsoft may terminate your access to this Trial Service through all Trial
+Instances at any time if you fail to access and actively use this Trial Service
+through all such Trial Instances for any period of 7 consecutive days).
 
-**11. APPLICABLE LAW.**
+**3. Administrator.** Notwithstanding anything to the contrary in the Agreement,
+as applicable to this Trial Service and solely to the extent there is not
+already an administrator associated with your organization, the administrator is
+deemed to be the first user in your organization who creates a Trial Instance,
+subject to later change by anyone authorized to act on behalf of that
+organization who demonstrates administrative control over the domain associated
+with the email for that organization sufficient to manage the domain records.
 
->   **a) United States.** If you acquired the software in the United States,
->   Washington state law governs the interpretation of this agreement and
->   applies to claims for breach of it, regardless of conflict of laws
->   principles. The laws of the state where you live govern all other claims,
->   including claims under state consumer protection laws, unfair competition
->   laws, and in tort.
->
->   **b) Outside the United States.** If you acquired the software in any other
->   country, the laws of that country apply.
+**4. Privacy.** Notwithstanding anything to the contrary in the Agreement, you
+acknowledge (and will inform all users in your domain) that: **(A)** the
+administrator will control all Trial Instances within your domain and will
+manage and have access to all Customer Data within all such Trial Instances;
+**(B)** all users in your domain, when reviewing existing Trial Instances such
+user may want to join, will have access to certain Customer Data for each such
+Trial Instance (including the existence of such Trial Instance, the identity and
+certain personal information of all then-current users participating in such
+Trial Instance, and the name chosen for each Trial Instance); and **(C)** all
+users in your domain participating in a given Trial Instance will have access to
+all Customer Data input into that Trial Instance, without regard to which user
+input such Customer Data.
 
-**12. APPLICABLE LAW AND PLACE TO RESOLVE DISPUTES.** If you acquired the
-software in the United States or Canada, the laws of the state or province where
-you live (or, if a business, where your principal place of business is located)
-govern the interpretation of this agreement, claims for its breach, and all
-other claims (including consumer protection, unfair competition, and tort
-claims), regardless of conflict of laws principles. If you acquired the software
-in any other country, its laws apply. If U.S. federal jurisdiction exists, you
-and Microsoft consent to exclusive jurisdiction and venue in the federal court
-in King County, Washington for all disputes heard in court. If not, you and
-Microsoft consent to exclusive jurisdiction and venue in the Superior Court of
-King County, Washington for all disputes heard in court.
+**5. Exporting Customer Data.** If you have included “live” or production
+Customer Data in any Trial Instance of this Trial Service, and you elect not to
+purchase a subscription to the Microsoft Dynamics 365 for Sales, Customer
+Service, Customer Service Insights, Field Service, Marketing, or Project Service
+Automation service before expiration of the Trial Period for that Trial
+Instance: **(A)** Microsoft has no obligation to return Customer Data to you;
+**(B)** Microsoft will retain such Customer Data for at least 7 days after the
+expiration of the applicable Trial Period for that Trial Instance; and **(C)**
+Microsoft will make commercially reasonable efforts to work with you to export
+such Customer Data. Microsoft will solely own any enhancements or improvements
+to the Trial Service arising from access to and use of Customer Data. Microsoft
+may also use information derived from Customer Data if such use does not include
+Customer Data and no Customer Data can be reverse engineered from such use.
 
-**13. CONSUMER RIGHTS; REGIONAL VARIATIONS.** This agreement describes certain
-legal rights. You may have other rights, including consumer rights, under the
-laws of your state, province, or country. Separate and apart from your
-relationship with Microsoft, you may also have rights with respect to the party
-from which you acquired the software. This agreement does not change those other
-rights if the laws of your state, province, or country do not permit it to do
-so. For example, if you acquired the software in one of the below regions, or
-mandatory country law applies, then the following provisions apply to you:
+**6. Compliance with Applicable Laws.** You shall, as a condition of using the
+“Dynamics 365 for Marketing” online service, comply with all applicable laws and
+regulations governing your dissemination of any promotional materials through
+your use of the “Dynamics 365 for Marketing” online service. Microsoft bears no
+responsibility for your failure to comply with any such applicable laws or
+regulations.
 
->   **a) Australia.** You have statutory guarantees under the Australian
->   Consumer Law and nothing in this agreement is intended to affect those
->   rights.
->
->   **b) Canada.** If you acquired this software in Canada, you may stop
->   receiving updates by turning off the automatic update feature, disconnecting
->   your device from the Internet (if and when you re-connect to the Internet,
->   however, the software will resume checking for and installing updates), or
->   uninstalling the software. The product documentation, if any, may also
->   specify how to turn off updates for your specific device or software.
->
->   **c) Germany and Austria.**
->
-> >   **(i) Warranty.** The properly licensed software will perform substantially as described in any Microsoft materials that accompany the software. However, Microsoft gives no contractual guarantee in relation to the licensed software.
-> > 
-> >   **(ii) Limitation of Liability.** In case of intentional conduct, gross negligence, claims based on the Product Liability Act, as well as, in case of death or personal or physical injury, Microsoft is liable according to the statutory law.
-> >
-> >   Subject to the foregoing clause (ii), Microsoft will only be liable for slight negligence if Microsoft is in breach of such material contractual obligations, the fulfillment of which facilitate the due performance of this agreement, the breach of which would endanger the purpose of this agreement and the compliance with which a party may constantly trust in (so-called "cardinal obligations"). In other cases of slight negligence, Microsoft will not be liable for slight negligence.
+**7. Defense of Claims & Damages.** You agree that you and/or your organization
+will defend Microsoft against all third party claims arising out of, or in
+connection with, **(A)** your use of the Trial Service in a manner that is
+prohibited by these Supplemental Terms, and/or, **(B)** any privacy violation
+alleged to have been committed or spam sent by you through your use of the Trial
+Service. You agree that Microsoft has the right to seek and recover all damages
+caused by you through your use the Trial Service for unlawful purposes, in an
+unlawful manner, or in a manner that violates Microsoft’s acceptable use, and/or
+anti-spam policies. The terms of this section shall survive the expiration or
+termination of your relationship with Microsoft. For the avoidance of doubt, any
+damages arising from the obligations imposed on you by these Specific Terms are
+not subject any exclusion or cap on your liability that may be included in the
+Agreement.
 
-**14. DISCLAIMER OF WARRANTY. THE SOFTWARE IS LICENSED “AS IS.” YOU BEAR THE
-RISK OF USING IT. MICROSOFT GIVES NO EXPRESS WARRANTIES, GUARANTEES, OR
-CONDITIONS. TO THE EXTENT PERMITTED UNDER APPLICABLE LAWS, MICROSOFT EXCLUDES
-ALL IMPLIED WARRANTIES, INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR
-PURPOSE, AND NON-INFRINGEMENT.**
+[Back to Top](#top)
 
-**15. LIMITATION ON AND EXCLUSION OF DAMAGES. IF YOU HAVE ANY BASIS FOR
-RECOVERING DAMAGES DESPITE THE PRECEDING DISCLAIMER OF WARRANTY, YOU CAN RECOVER
-FROM MICROSOFT AND ITS SUPPLIERS ONLY DIRECT DAMAGES UP TO U.S. \$5.00. YOU
-CANNOT RECOVER ANY OTHER DAMAGES, INCLUDING CONSEQUENTIAL, LOST PROFITS,
-SPECIAL, INDIRECT OR INCIDENTAL DAMAGES.**
+<a name="2"></a>
+**Specific Terms for Microsoft Dynamics 365 Business Central**
 
->   **This limitation applies to (a) anything related to the software, services,
->   content (including code) on third party Internet sites, or third party
->   applications; and (b) claims for breach of contract, warranty, guarantee, or
->   condition; strict liability, negligence, or other tort; or any other claim;
->   in each case to the extent permitted by applicable law.**
->
->   **It also applies even if Microsoft knew or should have known about the
->   possibility of the damages. The above limitation or exclusion may not apply
->   to you because your state, province, or country may not allow the exclusion
->   or limitation of incidental, consequential, or other damages.**
+**1. Trial Period.** You may use this Trial Service from the date when you are
+first given access to it: **(A)** solely with demonstration data provided by
+Microsoft, for a period of 6 months until the Agreement or your right to access
+this Trial Service expires or is terminated; and **(B)** with “live” or
+production Customer Data, for 30 days after you first use this Trial Service
+with such Customer Data. The foregoing periods are, collectively, the “**Trial
+Period**”. If the Trial Period in the foregoing clause (B) expires and you have
+not entered into a commercial subscription agreement for the Microsoft Dynamics
+365 Business Central service with a third-party Microsoft cloud service provider
+that will offer and support such commercial version, then you must immediately
+stop using the Trial Service (or any successor service) with such “live” or
+production Customer Data.
+
+**2. Exporting Customer Data.** If you have included “live” or production
+Customer Data in this Trial Service, and you elect not to purchase a
+subscription to the Microsoft Dynamics 365 Business Central service before the
+expiration of the Trial Period for this Trial Service: **(A)** Microsoft has no
+obligation to return Customer Data to you; **(B)** Microsoft will retain such
+Customer Data for at least 90 days after the expiration of the Trial Period; and
+**(C)** Microsoft will make commercially reasonable efforts to work with you to
+export such Customer Data.
+
+**3. Termination.** If you use this Trial Service with demonstration data,
+Microsoft may terminate your access to this Trial Service at any time if you
+fail to access and actively use this Trial Service for any period of 30
+consecutive days.
+
+[Back to Top](#top)
+
+<a name="3"></a>
+**Specific Terms for Microsoft Dynamics 365 Finance; Microsoft Dynamics 365
+Supply Chain Management**
+
+**1. Trial Period.** Subject to Section 2, you may use this Trial Service for a
+period of 30 days from the date when you are first given access to it, solely
+with demonstration data provided by Microsoft or you through your use of this
+Trial Service, until the Agreement or your right to access this Trial Service
+expires or is terminated.
+
+**2. Termination.** Microsoft may terminate your access to this Trial Service at
+any time if you fail to access and actively use this Trial Service for any
+period of 7 consecutive days.
+
+[Back to Top](#top)
+
+<a name="4"></a>
+**Specific Terms for Microsoft Dynamics 365 Commerce**
+
+**1. Trial Period.** Subject to Section 2, you may use this Trial Service for a
+period of 30 days from the date when you are first given access to it, solely
+with demonstration data provided by Microsoft or you through your use of this
+Trial Service, until the Agreement or your right to access this Trial Service
+expires or is terminated.
+
+**2. Termination.** Microsoft may terminate your access to this Trial Service at
+any time if you fail to access and actively use this Trial Service for any
+period of 7 consecutive days.
+
+[Back to Top](#top)
+
+<a name="5"></a>
+**Specific Terms for Microsoft Dynamics 365 Human Resources**
+
+**1. Trial Period.** You may use this Trial Service for a period of 60 days from
+the date when you are first given access to it, solely with demonstration data
+provided by Microsoft or you through your use of this Trial Service, until the
+Agreement or your right to access this Trial Service expires or is terminated.
+
+**2. Termination.** Microsoft may terminate your access to this Trial Service at
+any time if you fail to access and actively use this Trial Service for any
+period of 7 consecutive days.
+
+[Back to Top](#top)

@@ -2,7 +2,7 @@
 title: "Publish records through the go-live process (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Find out which types of records must be published (go live) before you can use them, how to track go-live status, and how to stop processing records that are already live in Dynamics 365 Marketing"
 keywords: publish;live;status;status reason;go live
-ms.date: 02/11/2020
+ms.date: 05/19/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -45,13 +45,13 @@ For customer journeys, the **Status** and **Status reason** fields are managed b
 | Status | Status&nbsp;reason | Description |
 | --- | --- | --- |
 | Active | Draft | The journey has never been live and can be edited, saved, or deleted without restrictions.<br><br>To publish a draft journey, open it and then choose **Go Live** on the command bar. |
-| Active | Live | The journey is currently live. If the current date is between the journey start and end dates, then it's processing contacts. The journey will automatically go to the stopped state when its end date passes.<br><br>To stop a live journey, open it and then choose **Stop** on the command bar.<br><br>To edit a live journey without stopping it, open it and then choose **Edit** on the command bar.<br><br>You can't delete a journey while it's live. |
+| Active | Live | The journey is currently live. If the current date is between the journey start and end dates, then it is processing contacts. The journey will automatically go to the stopped state when its end date passes.<br><br>To stop a live journey, open it and then choose **Stop** on the command bar.<br><br>To edit a live journey without stopping it, open it and then choose **Edit** on the command bar.<br><br>You can't delete a journey while it's live. |
 | Active | Stopped | The journey was once live, and may have already processed some contacts, but is now stopped, so it won't process any more contacts or take any other actions. It may have stopped because the end date passed, or because you stopped it manually.<br><br>30 days after the end date, the journey will automatically change from _active/stopped_ to _inactive/expired_. After a journey has expired, you can no longer edit or restart it, but until then you can extend the end date and restart it if needed.<br><br>While stopped, you can edit and save the journey without going live. Select **Go live** to start running the journey again.<br><br>You can delete a stopped journey even if its end date hasn't passed. |
 | Active | Live, editable | The journey is currently live, but you have chosen to edit it locally. The live journey will continue to process contacts and take other actions while you work with the local version.<br><br>Make the required changes and then choose **Save** to update the live journey automatically (after an error check) and return to the active/live state. You can't delete a journey while it's in this state.|
 | Active | Error | An error occurred while the journey was going live. This issue is usually temporary so you should wait a short time, then try again to go live. |
 | Active | Going live | The journey is currently in the process of going live. |
 | Active | Stopping | The journey has been live but is currently in the process of stopping due to a stop request. |
-| Inactive | Expired | The journey end date passed at least 30 days ago and the journey can't be restarted. You can delete expired journeys if needed. |
+| Inactive | Expired | The journey end date or user-triggered stop date passed at least 30 days ago and the journey can't be restarted. You can delete expired journeys if needed. |
 
 Some customer journey settings become locked (read-only) based on the journey's status reason. Some settings become permanent after you've gone live once. The following table summarizes these effects.
 

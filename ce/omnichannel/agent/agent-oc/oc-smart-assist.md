@@ -18,7 +18,7 @@ ms.topic: article
 
 Smart assist is an intelligent assistant that provides real-time recommendations to you (an agent), helping you to take actions while interacting with customers. It shows relevant recommendations such as knowledge articles, similar cases, and next-best steps.
 
-If your administrator has configured the Productivity pane, then the productivity pane appears and on which the smart assist cards appear. To configure productivity pane, see [Enable productivity pane](../../administrator/smart-assist.md#step-4-enable-productivity-pane).
+If your administrator has configured the Productivity pane, then the productivity pane appears and on which the smart assist cards appear. To configure productivity pane, see [Enable productivity pane](../../administrator/productivity-pane.md).
 
 > [!div class='mx-imgBorder']
 > ![Productivity pane](../../media/productivity-pane-smart-assist.PNG "Productivity pane")

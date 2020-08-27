@@ -1,5 +1,5 @@
 ---
-title: Time, expense, and collaboration guide 
+title: Time, expense, and collaboration guide
 description: A guide to time, expense, and collaboration for Project Service
 author: revathiMuthiah
 manager: kfend
@@ -19,6 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365PS
+  - ProjectOperations
 ---
 # Time, expense, and collaboration guide (Project Service)
 

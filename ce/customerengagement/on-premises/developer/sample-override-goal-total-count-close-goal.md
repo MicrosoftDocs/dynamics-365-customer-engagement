@@ -3,7 +3,7 @@ title: "Sample: Override goal total count and close the goal| MicrosoftDocs"
 description: "This sample demonstrates how to override the goal total count and close the goal"
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -20,8 +20,7 @@ ms.author: nabuthuk
 manager: kvivek
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Sample: Override goal total count and close the goal
 

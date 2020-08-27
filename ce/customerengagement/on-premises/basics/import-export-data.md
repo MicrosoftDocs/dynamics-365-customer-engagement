@@ -13,8 +13,7 @@ author: jimholtz
 ms.author: jimholtz
 search.audienceType: 
   - enduser
-search.app: 
-  - D365CE
+
 ---
 # Import and export data
 

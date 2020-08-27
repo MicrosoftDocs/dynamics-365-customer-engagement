@@ -1,7 +1,7 @@
 ---
 title: "Create segments and lists to establish target markets (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Use segments and lists to target customer journeys and manage subscriptions in Dynamics 365 Marketing"
-ms.date: 03/23/2020
+ms.date: 07/07/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -82,7 +82,7 @@ Read this section to get a basic overview of how to create a segment and start i
 
 1. Select **New** to start creating your new segment, and select the type of segment you would like to create:
 
-  - **Dynamic segment**: Creates a dynamic segment prepared to query contact records, interaction records as well as include, intersect, or exclude contacts in existing segments. While querying on contact records, you can add relations as needed to create a query of arbitrary complexity.
+  - **Dynamic segment**: Creates a dynamic segment that can query contact records and interaction records, as well as include, intersect, or exclude contacts in existing segments. While querying contact records, you can add relations as needed to create a more complex query.
   - **Static segment**: Creates a segment where you manually select each member rather than creating a logical query that automatically adds them. For details about how to work with this kind of segment, see [Design static segments](segments-static.md)
 
 3. If you selected a **dynamic segment**: The **Segment template** dialog box opens, showing a list of available [templates](segments-templates.md). Each template provides a fully or partially defined query designed for a particular purpose, as indicated by the template name. Select any template to read more information about it in the information panel. **Filter** and **Search** features are provided to help you find the template you're looking for. Select a listed template and then choose **Select** to load the template, or choose **Cancel** to start building a new segment from scratch.
@@ -105,6 +105,11 @@ Read this section to get a basic overview of how to create a segment and start i
 1. Use the tools provided by the designer to establish your segment membership criteria, as described elsewhere in this topic, for your selected segment type.
 
 1. When you're done designing the segment, select **Go live** on the toolbar to start running the segment, find all of its members (as needed), and make it available for use with your customer journeys. Once your segment is live, it will include a **Members** tab, where you can go to see exactly which contacts are part of the segment.
+
+> [!NOTE]
+> After you go live with a dynamic segment, you can check when it was last evaluated and the next evaluation time at top of the segment **Members** tab.
+>
+> ![Segment evaluation status](media/segment-lists-subscriptions-evaluated.png "Segment evaluation status")
 
 ## Tabs and settings for segments
 

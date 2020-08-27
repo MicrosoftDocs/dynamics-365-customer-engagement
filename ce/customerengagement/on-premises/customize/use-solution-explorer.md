@@ -18,8 +18,7 @@ ms.author: matp
 manager: kvivek
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 # Use the solution explorer
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Use solutions in Power Apps](/powerapps/maker/common-data-service/use-solution-explorer)

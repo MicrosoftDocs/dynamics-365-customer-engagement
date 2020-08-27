@@ -1,10 +1,10 @@
 ---
 title: "Provision Omnichannel for Customer Service | MicrosoftDocs"
 description: "Provision Omnichannel for Customer Service to add or remove channels"
-author: platkat 
-ms.author: ktaylor
+author: lalexms 
+ms.author: laalexan
 manager: shujoshi
-ms.date: 03/27/2020
+ms.date: 08/14/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -28,14 +28,15 @@ Looking for an upgrade? See [Upgrade Omnichannel for Customer Service](upgrade-o
 
 To allow Omnichannel for Customer Service to read and write data on behalf of users, follow these below steps:
 
-1. Go to [Data access consent URL](https://go.microsoft.com/fwlink/?linkid=2070932).
+1. Go to [Data access consent URL](https://go.microsoft.com/fwlink/p/?linkid=2070932). For Government Community Cloud (GCC), use the [GCC data access consent URL](https://go.microsoft.com/fwlink/p/?linkid=2128838).
 2. Sign in using **Global Tenant Admin** credentials.
-3. Select the checkbox **Consent on behalf of your organization**.
+3. Select the check box **Consent on behalf of your organization**.
 4. Select **Accept** to grant data access consent.
 
     > [!div class=mx-imgBorder]
     > ![Grant consent](../media/data-consent.png)
 
+> For more information about app permissions, see [Azure app Power BI API permissions](https://docs.microsoft.com/power-bi/developer/embedded/power-bi-permissions).
 
 ## Provision Omnichannel for Customer Service application
 
@@ -47,10 +48,11 @@ To allow Omnichannel for Customer Service to read and write data on behalf of us
 > [!NOTE]
 > Ensure that you have provided data access consent before you proceed with the setup. For more information, see [Provide data access consent](#provide-data-access-consent).
 
-1. In **Dynamics 365 Administration Center**, go to the **Applications** tab, select **Omnichannel for Customer Service**, and then select **Manage**.
+1. In **Power Platform Admin Center**, in the left pane, expand **Resources**, and select **Dynamics 365 Apps**.
+2. On the **Dynamics 365 apps** page, select **Omnichannel for Customer Service** in the list, select **More commands**, and then select **Manage**.
       
     > [!div class=mx-imgBorder]
-    > ![Manage omnichannel](../media/manage-oc.png)
+    > ![Manage omnichannel](../media/OC-provisioning-ppadmin.png)
 
     The **Manage Omnichannel environments** page is displayed.
 

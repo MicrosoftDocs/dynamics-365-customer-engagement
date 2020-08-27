@@ -18,12 +18,9 @@ ms.author: matp
 manager: kvivek
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 # iFrame and web resource support for mobile
-
-
 
 You can add iFrames and web resources in forms and dashboards in a custom business app, and they will appear in Dynamics 365 for tablets and phones as well. For example, if you add a news feed to a dashboard in a custom business app, the news feed will also appear in the tablet and phone app. 
 

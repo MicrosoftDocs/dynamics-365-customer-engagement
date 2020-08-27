@@ -2,7 +2,7 @@
 title: "Create products or services for Work Orders | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 11/16/2019
+ms.date: 06/05/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: 
@@ -279,8 +279,30 @@ Another Field Service setting for inventory is **Use Of Products out of Stock**.
 
 - Inventory adjustments products can have a positive or negative quantity to increment or decrement inventory as needed.
 - Integrating work order product inventory with ERP systems is typically executed with work order product, inventory journals, or invoice records.
+
+### Known issues
+
+- **Issue**: Permission error when creating a new product from **Field Service** > **Settings** > **Products** > **Add Product** (in top ribbon).
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the insufficient permissions error window.](./media/error-permission-product-publish.png)
+
+- **Fix**: Adding read privileges to the following entities in the next screenshot allows the user to add and publish products successfully.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the list of security roles.](./media/error-permission-opportunities-fix.png)
+
+- **Issue**: Permission error when adding product-based line items to opportunities.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the insufficient permissions error window.](./media/error-permission-opportunities.png)
+
+- **Fix:** Adding read privileges to the following entities in the next screenshot allows the user to add opportunity line items to opportunities within the Field Service solution.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the list of security roles.](./media/error-permission-opportunities-fix.png)
   
 ### See also  
- - [Create a price list](../field-service/create-price-list.md)    
- - [Create a warehouse](../field-service/create-warehouse.md)   
 
+ - [Create a price list](../field-service/create-price-list.md)
+ - [Create a warehouse](../field-service/create-warehouse.md)

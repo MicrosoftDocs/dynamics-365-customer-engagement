@@ -16,8 +16,7 @@ ms.author: jimholtz
 manager: brycho
 search.audienceType: 
   - enduser
-search.app: 
-  - D365CE
+
 ---
 # Create a signature for your email or for a queue
 

@@ -1,7 +1,7 @@
 ---
 title: "Customize forms (Dynamics 365 Sales Professional) | MicrosoftDocs"
 description: "Change or design the forms to allow your users to enter or find information quickly."
-ms.date: 10/01/2019
+ms.date: 06/22/2020
 ms.service: 
   - dynamics-365-sales
 ms.custom: 
@@ -61,9 +61,7 @@ To access the forms:
 
 4.  To open a form, just choose the form you want in the **Name** column, or select a form, and then choose **Edit** above the search field.
 
-## What types of customizations can you do?
-
-Form customization in Dynamics 365 Sales Professional is limited to basic field customization. You can't customize controls (timeline or Bing maps, for example) or change the layout of a form by adding or removing new form sections or tabs or rearranging sections and tabs. For more information on creating forms, see [Create and design forms](../customize/create-design-forms.md).
+For more information on creating forms, see [Create and design forms](../customize/create-design-forms.md).
 
 
 ### See also

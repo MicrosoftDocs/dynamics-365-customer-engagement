@@ -3,7 +3,7 @@ title: "Support offline execution with Dynamics 365 for Microsoft Office (Develo
 description: "Add support to your plug-in for execution by the Dynamics 365 for Microsoft Office Outlook with Offline Access while the client is offline."
 ms.custom: on-premise
 ms.date: 1/22/2019
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -16,8 +16,7 @@ ms.author: pehecke
 manager: kvivek
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Support offline execution with Dynamics 365 for Microsoft Office
 

@@ -4,7 +4,7 @@ description: "How to show customers their queue position for a chat widget in Om
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 10/25/2019
+ms.date: 05/04/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -24,7 +24,8 @@ When this feature is turned on, a customer who submits a request when other cust
 The number of customers waiting to chat counts down each time a customer in line is served. When no other customers are ahead in the queue, the customer waiting is notified with the following message: **You’re next in line…**.
 
 > [!NOTE]
->  - In a scenario where a customer is waiting in the queue and another customer who has been waiting longer is transferred over by an agent, the customer who has been waiting longer is served first, and the other customer does not see a position change in the queue. 
+>  - The queue position is shown only when there is a queue of customers waiting (for example, when no agents are currently available).
+> - In a scenario where a customer is waiting in the queue and another customer who has been waiting longer is transferred over by an agent, the customer who has been waiting longer is served first, and the other customer does not see a position change in the queue. 
 > - If skill-based routing is configured with exact skill match, the queue position that is displayed to a customer on the chat portal widget might not be accurate; therefore, the assignment of an agent to the customer might take longer than expected.
 
 ## Enable queue position

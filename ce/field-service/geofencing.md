@@ -2,7 +2,7 @@
 title: "Geofencing for Field Service Mobile | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 03/15/2019
+ms.date: 04/02/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -98,16 +98,21 @@ More specific auditing can be configured based on your business needs. You can t
  
 ## Step 4. Enable background location tracking 
 
-
-
 1. Go to the **Location Tracking** section of the project. 
 2. Select **Enable background GPS monitoring**  
-3. Deselect **Enable real-time position flushing via Resco web service**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of enabling background location tracking](./media/mobile-geofence-enable-location-tracking.png)
 
 This allows a technician's location data stream to be sent to Dynamics 365 Field Service, which surfaces a technician’s location on the schedule board.
+
+3. Choose **I Confirm this Organization has the appropriate license**. Location tracking does not require an additional license and is inlcuded with Field Service Mobile.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of disclamer](./media/mobile-geofence-new-disclaimer.png)
+
+4. Deselect **Enable real-time position flushing via Resco web service**.
+
 
 ## Step 5. Test location auditing
 

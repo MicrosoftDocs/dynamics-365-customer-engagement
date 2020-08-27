@@ -20,8 +20,7 @@ tags:
   - MigrationHO
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Tutorials and resources for learning about Customer Engagement (on-premises) development
 

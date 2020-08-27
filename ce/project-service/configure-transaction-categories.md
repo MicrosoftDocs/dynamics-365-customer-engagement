@@ -1,5 +1,5 @@
 ---
-title: Configure transaction categories 
+title: Configure transaction categories
 description: How to set up transaction categories in Project Service
 author: ruhercul
 manager: kfend
@@ -19,6 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365PS
+  - ProjectOperations
 ---
 # Configure transaction categories (Project Service)
 

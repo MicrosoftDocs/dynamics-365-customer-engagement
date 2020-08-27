@@ -86,7 +86,7 @@ Select **Test Send** on the command bar to send your current design to one or mo
 
 - **Email address**: Enter one or more target email addresses (comma-separated). You'll typically just use your own email address here.
 - **Test contact**: Select a contact record to supply values for dynamic content (such as a first name in the salutation). For a live message, these values come from the contact record for each individual recipient.
-- **Test content settings**: Select a content-settings record to supply values for dynamic content (such as subscription-center URL or the sender postal address). For a live message, the content-settings record is specified by the customer journey that sends the message.
+- **Test content settings**: Select a content-settings record to supply values for dynamic content (such as a subscription-center URL or the sender postal address). For a live message, the content-settings record is specified by the customer journey that sends the message.
 
 Select the **Save** button the bottom of the flyout panel to send the message to your specified email address(s).
 

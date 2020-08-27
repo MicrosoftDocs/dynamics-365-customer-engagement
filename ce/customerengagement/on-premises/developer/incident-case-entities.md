@@ -3,7 +3,7 @@ title: "Incident (case) entities (Developer Guide for Dynamics 365 Customer Enga
 description: "Learn about incident (case) entities that performs the incident management by creating an incident and specifying an active SLA record. An incident can be in one of three states: Active, Resolved, or Canceled."
 ms.custom: 
 ms.date: 10/01/2019
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service:
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -33,8 +33,7 @@ ms.author: kvivek
 manager: annbe
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Incident (case) entities
 

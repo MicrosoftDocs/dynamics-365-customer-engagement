@@ -3,7 +3,7 @@ title: Development home page (Project Service Automation 3.x)
 description: This topic provides links to topics that provide development information for Dynamics 365 Project Service Automation (PSA) version 3.x.
 author: makk
 manager: kfend
-ms.custom:
+ms.custom: 
   - dyn365-projectservice
 ms.date: 03/26/2019
 ms.topic: article
@@ -15,7 +15,8 @@ search.audienceType:
   - admin
   - customizer
 search.app: 
-    - D365PS
+  - D365PS
+  - ProjectOperations
 ---
 # Development home page (Project Service Automation 3.x)
 

@@ -1,5 +1,5 @@
 ---
-title: Create organizational units 
+title: Create organizational units
 description: How to create organizational units in Project Service
 author: JohnPBurrows
 manager: kfend
@@ -19,6 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365PS
+  - ProjectOperations
 ---
 # Create organizational units (Project Service)
 

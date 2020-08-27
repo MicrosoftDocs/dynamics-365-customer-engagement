@@ -38,13 +38,13 @@ You can view the entities in the **Omnichannel Administration** site map.
 
 ## How-to topics
 - [Assign roles and enable users for Omnichannel for Customer Service](add-users-assign-roles.md)
-- [Manage a user in Omnichannel](users-user-profiles.md#manage-a-user-in-omnichannel)<br>
+- [Manage a user in Omnichannel](users-user-profiles.md#manage-a-user-in-omnichannel-for-customer-service)<br>
 - [Configure a chat channel](set-up-chat-widget.md) </br>
 - [Configure an SMS channel](configure-sms-channel.md) </br>
 - [Configure a Facebook channel](configure-facebook-channel.md)</br>
 - [Automatically identify customers using pre-chat responses](record-identification-rule.md)<br>
 - [Create custom presence status](presence-custom-presence.md#create-custom-presence-status)<br>
-- [Create a new Omnichannel queue](queues-omnichannel.md#create-a-new-queue)<br>
+- [Create a new Omnichannel queue](queues-omnichannel.md#create-a-queue)<br>
 - [Create a routing rule](routing-rules.md#create-a-routing-rule)<br>
 - [Enable knowledge articles in the Omnichannel for Customer Service](knowledge-management-oc.md) </br>
 - [Add a chat widget](add-chat-widget.md)<br>

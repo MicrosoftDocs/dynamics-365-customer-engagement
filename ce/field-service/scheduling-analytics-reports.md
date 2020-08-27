@@ -28,9 +28,6 @@ search.app:
 
 # Resource scheduling and optimization analytics dashboard
 
-> [!Note]
-> This functionality is available in early access as of February 3, 2020. For more information, visit [this article on opting into early access features](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates).
-
 Resource and operations managers need to be able to monitor key operational metrics so that they can gauge resource and scheduling performance. Metric reports can help explore important business-related questions, like: 
 
 -  Are my resources being effectively utilized over a certain period time? 
@@ -49,8 +46,6 @@ Field Service and resource scheduling optimization (RSO) provide three reports f
 In this article, we'll take a look at these three reports in greater detail. 
 
 ## Prerequisites
-
-- Since this feature is in early access, you must be opted-in to get this functionality. To opt in, visit [this article for instructions](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates). 
 
 - To get the resource and utilization report: 
 
@@ -194,6 +189,7 @@ In order to share the resource and utilization reports, follow steps 1 through 5
 - **Data Refresh for Inactive environments**: If an organization has no active usage of the reports for continuous two weeks, the data refresh will be paused. When the user opens the reports, the data will get refreshed in the next refresh cycle.
 - Data is retained for 24 months. 
 - We do not support environment minimal copy operations that are available for a Sandbox environment. If you perform any of these operations, you may encounter unexpected results. 
+- Storage file size automatically increases with the analytics feature. If this increase causes issues or concerns, contact Microsoft Support.
 
 **Data Availability for Entities**: We are consuming the following list of entities to generate these reports. If there is no data for any of the below entities, then the report may show blank. If you have customized these entities or not using the out of box entities, then the reports will show blank too. 
 

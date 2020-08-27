@@ -4,21 +4,22 @@ description: Introduction and overview of Project Service
 author: stsporen
 manager: kfend
 ms.service: dynamics-365-customerservice
-ms.custom:
+ms.custom: 
   - dyn365-projectservice
 ms.date: 9/23/2019
 ms.topic: article
-ms.prod:
-ms.technology:
+ms.prod: 
+ms.technology: 
 ms.author: jburrows
 audience: Admin
-search.audienceType:
+search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app:
+search.app: 
   - D365CE
   - D365PS
+  - ProjectOperations
 ---
 # What is Dynamics 365 Project Service Automation?
 

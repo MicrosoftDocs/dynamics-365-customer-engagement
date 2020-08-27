@@ -3,7 +3,7 @@ title: "Sample: Query connections by reciprocal roles (early bound) | MicrosoftD
 description: "The sample demonstrates how to create matching roles and find a matching for a particular role."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -20,8 +20,7 @@ ms.author: nabuthuk
 manager: kvivek
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Sample: Query connections by reciprocal roles (early bound)
 

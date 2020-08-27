@@ -3,7 +3,7 @@ title: "Ignore blank values and inactive records in duplicate detection (Develop
 description: "Improve result quality by creating duplicate detection rules that ignore blank values and inactive records."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -16,8 +16,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Ignore blank values and inactive records in duplicate detection
 

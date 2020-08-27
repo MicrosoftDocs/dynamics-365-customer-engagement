@@ -19,8 +19,7 @@ caps.latest.revision: 1
 topic-status: Drafting
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 
 # Create and edit public or system views by using the app designer

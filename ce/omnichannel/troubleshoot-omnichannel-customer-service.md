@@ -1,10 +1,10 @@
 ---
 title: "Troubleshoot Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn how to troubleshoot the issues you may face while working on Omnichannel for Customer Service."
-author: kabala123
-ms.author: kabala
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
-ms.date: 04/08/2020
+ms.date: 08/11/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -49,7 +49,7 @@ To resolve the issue, perform steps 1 through 9 in the [Update entity records wo
 
 **Entity Records Distribution Flow** is not updated automatically. Due to this issue, you can't create an entity records channel and the system shows a business process error.
 
-**The operation failed due to an incorrect configuration in Entity Records Distribution Flow. Ensure the Entity Records Distribution Flow isn't deleted or renamed.**.
+**The operation failed due to an incorrect configuration in Entity Records Distribution Flow. Ensure the Entity Records Distribution Flow isn't deleted or renamed.**
 
    > [!div class=mx-imgBorder]
    > ![Business Process Error](media/business-process-error2.PNG "Business Process Error")
@@ -64,17 +64,17 @@ To workaround the issue, you need to reset the Flow. To reset the Flow, follow t
 
 2. Select **Entity Records** under **Channels**.
 
-3. Select the **+ New** to create a new entity record channel.
+3. Select the **New** to create a new entity record channel.
 
 4. Select **Flow** menu in the command bar, and then select **See your flows**. Power Automate opens in a new browser window.
 
 5. Select **Solutions** in the sitemap, and then select **Default Solution** from the list.
 
-6. Select **+ New**. and then select **Flow**. A new **Flow** is displayed.
+6. Select **New**. and then select **Flow**. A new **Flow** is displayed.
 
 7. Type **Manually trigger a flow** in the search box, and then select the option. The flow component is added.
 
-8. Select **+ New step**. The **Choose an action** flow component is added.
+8. Select **New step**. The **Choose an action** flow component is added.
 
 9. Type **Common Data Service (current environment)** in the search box, and then select the option. The flow component is added.
 
@@ -156,48 +156,57 @@ Reach out to Microsoft support for further investigation.
 
 ### Issue
 
-If your tenant has an expired Office 365 license, then the Omnichannel for Customer Service provisioning fails in your organization.
+If your tenant has an expired Office 365 license, then the provisioning of Omnichannel for Customer Service fails in your organization.
 
 ### Resolution
 
-To avoid the provisioning failure, you must remove the **Teams Service Principal** in **Azure Active Directory**. Follow the steps to remove **Teams Service Principal**.
+To avoid the provisioning failure, you must remove the Teams Service Principal and Skype Teams Calling API Service in Azure Active Directory. Follow the steps to remove the services.
 
-[Step 1: Identify Teams Service Principal in Azure Active Directory](#step-1-identify-teams-service-principal-in-azure-active-directory)
+[Step 1: Identify the services in Azure Active Directory](#step-1-identify-the-services-in-azure-active-directory)
 
-[Step 2: Use PowerShell to remove Microsoft Teams Service Principal](#step-2-use-powershell-to-remove-microsoft-teams-service-principal)
+[Step 2: Use PowerShell to remove Microsoft Teams and Skype Teams Calling API Service](#step-2-use-powershell-to-remove-microsoft-teams-and-skype-teams-calling-api-service)
 
-#### Step 1: Identify Teams Service Principal in Azure Active Directory
+#### Step 1: Identify the services in Azure Active Directory
 
-1.	Sign in to the [Azure portal](https://portal.azure.com/).
-2.	Select **Active Directory** in the left pane.
-3.	Select **Enterprise Applications**.
-4.	Type **Microsoft Teams** in the search box.
-5.	Copy the **Object ID** and **Application ID** against **Microsoft Teams** and save it for future use. Ensure that the Application Id is  `cc15fd57-2c6c-4117-a88c-83b1d56b4bbe` as this Id is same for every tenant.
+1. Sign in to the [Azure portal](https://portal.azure.com/).
+2. Select **Azure Active Directory** in the left pane.
+3. Select **Enterprise Applications**.
+4. In the search criteria, select **All Applications** and **Disabled** in **Application Type** and **Application Status**.
+5. In the search box, enter the application ID `cc15fd57-2c6c-4117-a88c-83b1d56b4bbe` for Microsoft Teams.
 
    > [!div class=mx-imgBorder]
-   > ![Microsoft Teams object and app Id](media/teams-object-appid.png "Microsoft Teams object and app Id")
+   > ![Microsoft Teams object and app IDs](media/teams-object-appid.png "Microsoft Teams object and app IDs")
 
-#### Step 2: Use PowerShell to remove Microsoft Teams Service Principal
+6. In the result that appears, copy the **Object ID**, and save it. Ensure that the application ID is  `cc15fd57-2c6c-4117-a88c-83b1d56b4bbe` as this ID is same for every tenant.
 
-1.	Select **Start**, type **PowerShell**, and right-click **Windows PowerShell** and select **Run as administrator**.  <br>
+7. Now, search for Skype Teams Calling API Service by entering its application ID `26a18ebc-cdf7-4a6a-91cb-beb352805e81` in the search box.
+
+   > [!div class=mx-imgBorder]
+   > ![Skype object and app IDs](media/skype-object-appid.png "Skype object and app IDs")
+
+8. In the result that appears, copy the **Object ID**. Make sure that the application ID is `26a18ebc-cdf7-4a6a-91cb-beb352805e81`.
+
+#### Step 2: Use PowerShell to remove Microsoft Teams and Skype Teams Calling API Service
+
+1. Select **Start**, type **PowerShell**, and right-click **Windows PowerShell** and select **Run as administrator**.  <br>
 ![Run PowerShell as an administrator](media/powershell.png "Run PowerShell as an administrator")
 
-2.	Select **Yes** on the **User Control** dialog to allow the application to make changes.
-3.	Type the `Install-Module AzureAD` command in the Powershell window, and press **Enter**. This command installs the PowerShell commands for interacting with Azure Active Directory. <br>
+2. Select **Yes** on the **User Control** dialog to allow the application to make changes.
+3. Type the `Install-Module AzureAD` command in the Powershell window, and press **Enter**. This command installs the PowerShell commands for interacting with Azure Active Directory. <br>
 ![Execute command](media/powershell2.png "Execute command")
 
-4.	PowerShell prompts whether to trust the repository. Type **Y** for yes and press **Enter**.  <br>
-![Execute command](media/powershell3.png "Execute command")
+4. PowerShell prompts whether to trust the repository. Type **Y** for yes and press **Enter**.  <br>
+![Run command](media/powershell3.png "Run command")
 
-5.	Type the `Connect-AzureAD` command in the PowerShell window, and press **Enter**.
+5. Type the `Connect-AzureAD` command in the PowerShell window, and press **Enter**.
 This establishes a connection with the tenant's Azure Active Directory, so you can manage it using Powershell.
-6.	Sign in to your organization as a tenant admin.
-7.	Type the `Remove-AzureADServicePrincipal -ObjectID <ObjectID>` command in the PowerShell window. Replace **<ObjectID>** with the object ID you had stored earlier. This command deletes the expired Teams service principal from Azure Active Directory.
+6. Sign in to your organization as a tenant admin.
+7. Run the `Remove-AzureADServicePrincipal -ObjectID <ObjectID>` command in the PowerShell window twice, one each for Microsoft Teams and Skype Teams Calling API Service. Replace **<ObjectID>** with the object ID you had stored earlier. This command deletes the expired Teams service and Skype Teams Calling API Service from Azure Active Directory.
 
    > [!Note]
    > Right click in the PowerShell window to paste the Object ID.
 
-The Microsoft Teams Service Principal has been removed from your organization. You can try to provision Omnichannel for Customer Service again.
+The Microsoft Teams Service and Skype Teams Calling API Service are removed from your organization. You can try to provision Omnichannel for Customer Service again.
 
 ## Chat widget icon does not load on the portal
 
@@ -265,7 +274,7 @@ To delete and add **Widget location** for the chat widget, follow these steps:
 4. Select the **Location** tab.
 5. Select a record in the **Widget Location** section, and select **Delete**.
 6. Select **Save**.
-7. Select **+ Add** in the **Widget Location** section to add a record. Quick create pane of the chat widget location appears.
+7. Select **Add** in the **Widget Location** section to add a record. Quick create pane of the chat widget location appears.
 8. Specify the following.
 
    | Field | Value |
@@ -274,6 +283,9 @@ To delete and add **Widget location** for the chat widget, follow these steps:
    | Value | The website domain where the chat widget must be displayed. The domain format should not include the protocol (http or https). For example, the website is  `https://contoso.microsoftcrmportals.com`. Now, the value is  `contoso.microsoftcrmportals.com`. | 
 10. Select **Save** to save the record.
 11. Go to the website and check if the chat widget loads.
+
+> [!Note]
+> The chat widget requires session storage and local storage to be functional in your browser. Make sure you have cookies enabled in your browser so these services can work properly.
 
 ## Dashboards do not appear in Omnichannel for Customer Service active dashboards view
 
@@ -374,9 +386,7 @@ When you enter different credentials, this issue occurs.
 
 ### Resolution
 
-If you use **IE process** to host applications, open Internet Explorer browser, and go to https://login.microsoftonline.com/logout.srf. The URL signs you from office.com. Now, sign in to Unified Service Des client application and try again.
-
-If you use **Chrome process** to host applications, go to `C:\Users\<USER_NAME>\AppData\Roaming\Microsoft\USD` and delete the **CEF** folder. Now, sign in to Unified Service Des client application and try again. 
+If you use **Chrome process** to host applications, go to `C:\Users\<USER_NAME>\AppData\Roaming\Microsoft\USD` and delete the **CEF** folder. Now, sign in to Unified Service Desk client application and try again.
 
 ## Communication panel doesn't load in Omnichannel for Customer Service app
 
@@ -404,7 +414,7 @@ Communication panel doesn't load in Omnichannel for Customer Service app:
 
    To learn how to create a record, see [Configure a channel provider for your Dynamics 365 organization](/dynamics365/customer-engagement/developer/channel-integration-framework/configure-channel-provider-channel-integration-framework).
 
-- To sync the configurations, remove the channel and roles, add it again and save the record.
+- To sync the configurations, remove the channel and roles, add them again and save the record.
 
    1. Sign in to the Dynamics 365 apps.
    2. Select the drop-down button on Dynamics 365 and select **Channel Integration Framework**.
@@ -437,16 +447,18 @@ You must remove the Customer Service Hub app from the channel provider configura
 
 The issue might happen due to the following reasons:
 
+- Cookies are blocked in the browser.
 - Azure Active Directory consent is not available for Omnichannel for Customer Service app.
-- Agent doesn't the Omnichannel agent role privileges.
-- Capacity and Default presence is not.
+- Agent doesn't have the Omnichannel agent role privileges.
+- Capacity and default presence are not set.
 
 ### Resolution
 
 Perform the following:
 
-- Contact your administrator to verify Azure Active Directory consent is given to the Omnichannel for Customer Service application on your tenant. Go to [Authorize access](https://go.microsoft.com/fwlink/?linkid=2070932) to get access. For more information, see [Provision for Omnichannel for Customer Service](administrator/omnichannel-provision-license.md). 
-- Ensure the agent account has **Omnichannel Agent**. For more information, see [Assign roles and enable users for Omnichannel](administrator/add-users-assign-roles.md).
+- Ensure that cookies are not blocked in the browser in any mode so that agent and supervisor presence can work properly.
+- Contact your administrator to verify Azure Active Directory consent is given to the Omnichannel for Customer Service application on your tenant. Go to [Authorize access](https://go.microsoft.com/fwlink/p/?linkid=2070932) to get access. For more information, see [Provision for Omnichannel for Customer Service](administrator/omnichannel-provision-license.md). 
+- Ensure the agent account has the **Omnichannel Agent** role assigned. For more information, see [Assign roles and enable users for Omnichannel](administrator/add-users-assign-roles.md).
 - Ensure the agent account has values set for **Capacity** and **Default presence** within the Omnichannel Administration app. To learn more, see [Create and manage users and user profiles](administrator/users-user-profiles.md).
 
 ## Agent dashboard isn’t loading or is giving an authorization error
@@ -463,7 +475,7 @@ The issue might happen due to the following reasons:
 
 Perform the following:
 
-- Contact your administrator to verify Azure Active Directory consent is given to the Omnichannel for Customer Service application on your tenant. Go to [Authorize access](https://go.microsoft.com/fwlink/?linkid=2070932) to get access. To learn more, see [Provide data access consent](administrator/omnichannel-provision-license.md#provide-data-access-consent).
+- Contact your administrator to verify Azure Active Directory consent is given to the Omnichannel for Customer Service application on your tenant. Go to [Authorize access](https://go.microsoft.com/fwlink/p/?linkid=2070932) to get access. To learn more, see [Provide data access consent](administrator/omnichannel-provision-license.md#provide-data-access-consent).
 - Ensure the agent account has the role **Omnichannel Agent**. For more information about the relevant roles, see [Understand roles and their privileges](administrator/add-users-assign-roles.md#understand-roles-and-their-privileges). 
 - Ensure the agent account is assigned to at least one queue in the Omnichannel Administration app. To learn more, see [Manage users in Omnichannel for Customer Service](administrator/users-user-profiles.md).
 

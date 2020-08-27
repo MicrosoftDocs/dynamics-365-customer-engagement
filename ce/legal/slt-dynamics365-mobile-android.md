@@ -41,7 +41,7 @@ HAVE THE RIGHTS BELOW. BY USING THE SOFTWARE, YOU ACCEPT THESE TERMS.
 >   or subprocessor of personal data in connection with the software, Microsoft
 >   makes the commitments in the European Union General Data Protection
 >   Regulation Terms of the Online Services Terms to all customers effective May
->   25, 2018, at <https://docs.microsoft.com/en-us/legal/gdpr>.
+>   25, 2018, at <https://docs.microsoft.com/legal/gdpr>.
 
 **3. SCOPE OF LICENSE.** The software is licensed, not sold. Microsoft reserves
 all other rights. Unless applicable law gives you more rights despite this

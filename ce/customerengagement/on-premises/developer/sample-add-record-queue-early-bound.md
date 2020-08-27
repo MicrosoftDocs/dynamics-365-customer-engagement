@@ -3,7 +3,7 @@ title: "Sample: Add a record to a queue (early bound) | MicrosoftDocs"
 description: The sample code demonstrates how to add a record to a queue, and creates source and destination queues.
 ms.custom: 
 ms.date: 01/08/2020
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -20,8 +20,7 @@ ms.author: nabuthuk
 manager: kvivek
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Sample: Add a record to a queue (early bound)
 

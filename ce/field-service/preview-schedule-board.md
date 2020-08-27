@@ -26,7 +26,7 @@ search.app:
   - D365FS
 ---
 
-# Preview the new and improved schedule board in Dynamics 365 Field Service
+# Preview the new and improved schedule board in Dynamics 365 Field Service (public preview)
 
 [!INCLUDE[preview-schedule-board.md](../shared/urs/preview-schedule-board.md)]
 

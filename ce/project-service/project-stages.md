@@ -1,12 +1,12 @@
 ---
-title: Project stages 
+title: Project stages
 description: This topic provides information about project stages.
 author: ruhercul
 manager: kfend
 ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-projectservice
-ms.date: 03/01/2019
+ms.date: 06/19/2020
 ms.topic: article
 ms.prod: 
 ms.technology: 
@@ -19,13 +19,14 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365PS
+  - ProjectOperations
 ---
 
 # Project stages 
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Project stages are updated to reflect the state of the project as it progresses. The default business process flow automatically updates some stages of the project while others are manually updated by the project manager. 
+Project stages are designed to reflect the state of the project as it progresses. Customizations can be used to automatically update the stages with business process flows, Power Automate, or plug-in extensions.
 
 The following stages are defined in the default BPF:
 

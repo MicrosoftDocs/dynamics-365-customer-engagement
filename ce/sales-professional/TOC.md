@@ -22,15 +22,17 @@
 #### [Partner Sales and Marketing](learning-sales.md)
 
 ## User guide
-### [Help resources for sales people](user-guide.md)
+### [Help resources for salespeople](user-guide.md)
 ### [Develop sales from lead to cash](develop-sales-lead-to-cash-sales-professional.md)
 #### [Create and manage leads](manage-leads-sales-professional.md)
 #### [Create or edit opportunities](manage-opportunities-sales-professional.md)
 #### [Add products to an opportunity](add-products-opportunity-sp.md)
+#### [Add products to an opportunity by using the enhanced experience](add-products-enhanced-experience-sp.md)
 #### [Work with opportunities in the Kanban view](opportunity-kanban-view-sp.md)
 ### Understand sales transactions
 #### [Understand sales transactions](understanding-sales-transactions-sales-professional.md)
 #### [Create and manage quotes](create-quotes-sales-professional.md)
+#### [Create and manage orders](create-orders-sp.md)
 #### [Create and manage invoices](create-invoices.md)
 #### [Add products to a quote, order, or invoice](add-product-quote-order-invoice-sp.md)
 ### Set up a product catalog
@@ -73,6 +75,7 @@
 #### [Create and manage Excel templates](manage-excel-templates.md)
 #### [Create and manage Word templates](manage-word-templates.md)
 #### [Enable automatic generation of quotes and invoices](enable-automatic-generation-quotes-invoices.md)
+#### [Enable creation of orders from quotes](enable-creation-of-orders-from-quotes.md)
 #### [Export data or template](export-data.md)
 #### [Enable or disable PDF generation from sales records](enable-pdf-generation-quote-sales-professional.md)
 
@@ -83,6 +86,7 @@
 #### [Define lead qualification experience](define-lead-qualification-experience-sp.md)
 #### [Set up enhanced email](set-up-enhanced-email-sp.md)
 #### [Add the Kanban control to Opportunity or Activity entities](add-kanban-control-sp.md)
+#### [Enable the enhanced experience of adding products](enable-enhanced-add-product-experience-sp.md)
 
 ## Customizer guide
 ### [Customize forms](customize-forms.md)

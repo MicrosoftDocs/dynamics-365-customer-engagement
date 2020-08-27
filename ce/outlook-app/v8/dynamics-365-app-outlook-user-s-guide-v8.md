@@ -22,6 +22,11 @@ search.app:
   - D365Outlook
 tags: MigrationHO
 ---
+
+
+<!--from editor: This topic uses numerous "includes" files for Customer Engagement that need to be updated. Also, line 559 mentions a version of Dynamics 365 for Customer Engagement - what should that change to? Finally, there's an image (line 439, dynamics-365-app-outlook-contact-tracking-contact-card.png) that includes the name "James Bond" and "007". That needs to come out of the image - probably a trademark violation.  -->
+
+
 # Dynamics 365 App for Outlook User's Guide, version 8.2 
 
 Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../../includes/pn-ms-dyn-crm-app-for-outlook.md)] to tap the power of [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] while you’re using [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] on the desktop, web, or phone. When  [!INCLUDE[pn_crm_app_for_outlook_short](../../includes/pn-crm-app-for-outlook-short.md)] is installed, depending on which version of  the app you have installed, you'll see a    **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]** pane or window next to a selected [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] email message, or when you're composing an email message or setting up a meeting or appointment.  
@@ -618,37 +623,30 @@ With Dynamics 365 App for Outlook in pinned mode, you can select an email messag
   
 <a name="Access2"></a>   
 ### Access the app for the first time  
- Once the app is installed, it appears as a                  **Dynamics**   
- **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]** tab in the                  [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] reading pane. Just click the tab to access your                  [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] data.  
+ Once the app is installed, it appears as a                  **Dynamics**  **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]** tab in the                  [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] reading pane. Just click the tab to access your                  [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] data.  
   
  ![Choose an email then Dynamics 365 apps](../media/crm-app-outlook-first-access.png "Choose an email then Dynamics 365 apps")  
   
- If you don’t see the                  **Dynamics**   
- **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]** tab, you need to enable the app.  
+ If you don’t see the                  **Dynamics**    **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]** tab, you need to enable the app.  
   
- **If you’re using desktop**   
- **[!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)]:**  
+**If you’re using desktop**    **[!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)]:**  
   
 1. Click                          **File > Manage Apps**.  
   
-2. Sign in, click                          **General > Manage add-ins**, and then select the check box for                          **Dynamics**   
-    **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]**.  
+2. Sign in, click                          **General > Manage add-ins**, and then select the check box for                          **Dynamics**       **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]**.  
   
-   **If you’re using**   
-   **[!INCLUDE[pn_outlook_web_app](../../includes/pn-outlook-web-app.md)]:**  
+**If you’re using**      **[!INCLUDE[pn_outlook_web_app](../../includes/pn-outlook-web-app.md)]:**  
   
-3. Click the                          **Settings** button                          ![Dynamics 365 apps web client Settings button](../media/mp-ua-r16-settings.png "Dynamics 365 apps web client Settings button")**> Manage add-ins**.  
+3. Click the                          **Settings** button                          ![Dynamics 365 apps web client Settings button](../media/mp-ua-r16-settings.png "Dynamics 365 apps web client Settings button")** > Manage add-ins**.  
   
-4. Click                          **General > Manage add-ins**, and then select the                          **Turned on** check box for                          **Dynamics**   
-    **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]**.  
+4. Click                          **General > Manage add-ins**, and then select the                          **Turned on** check box for                          **Dynamics**       **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]**.  
   
    ![Turn on the Dynamics 365 apps add&#45;in](../media/crm-app-outlook-o365-enable-addin.png "Turn on the Dynamics 365 apps add-in")  
   
 <a name="Track2"></a>   
 ### Track an incoming email message from an unknown sender  
   
-1. Select the email message in your Inbox, and then click the                                  **Dynamics**   
-    **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]** tab.  
+1. Select the email message in your Inbox, and then click the **Dynamics**  **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]** tab.  
   
     When an email message is from an unknown sender (the sender isn’t already a contact or lead in                                  [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]), you’ll see the following screen:  
   
@@ -696,16 +694,14 @@ With Dynamics 365 App for Outlook in pinned mode, you can select an email messag
   
      2. In the quick create form, fill out the fields.  
   
-     3. Click                                                  **Save** to save the record if you’re done adding information. To enter more detailed information, click                                                  **Save and edit in**   
-         **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]**.  
+     3. Click                                                  **Save** to save the record if you’re done adding information. To enter more detailed information, click **Save and edit in** **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]**.  
   
      > [!NOTE]
      >  The entities shown on the tracking page have been enabled for mobile and enabled for multi-entity search. For more information on enabling entities, see                                              [TechNet: Entities and Dynamics 365 apps for phones and Dynamics 365 apps for tablets](https://technet.microsoft.com/library/dn531128.aspx#BKMK_PhoneEntities).  
   
 <a name="Compose"></a>   
 ### Create an email message, and then track it  
- You can also track outgoing email. When you create an email message, the                  **Dynamics**   
- **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]** pane appears on the right side of the screen.  
+ You can also track outgoing email. When you create an email message, the                  **Dynamics**    **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]** pane appears on the right side of the screen.  
   
 > [!NOTE]
 >  Tracking email in compose mode is temporarily unavailable for                      [!INCLUDE[pn_ms_outlook_2013_short](../../includes/pn-ms-outlook-2013-short.md)] or                      [!INCLUDE[pn_outlook_2016](../../includes/pn-outlook-2016.md)].                  For more information, see [Can’t track emails in CRM App for Outlook](https://support.microsoft.com/help/3163174/can-t-track-emails-in-crm-app-for-outlook).  
@@ -714,16 +710,14 @@ With Dynamics 365 App for Outlook in pinned mode, you can select an email messag
   
 ##### Track an email message that you create  
   
-1. Click                                  **Track this email?** at the top of the                                  **Dynamics**   
-    **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]** pane.  
+1. Click                                  **Track this email?** at the top of the                                  **Dynamics**      **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]** pane.  
   
 2. If the name you enter on the                                  **To** or                                  **CC** line doesn’t match a contact record in the Dynamics 365 apps database, click                                  **Create new contact** to create a contact record in                                  [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)].  
   
 <a name="Preview"></a>   
 ### Preview information about a sender that’s already stored in Dynamics 365 apps as a lead or contact  
   
-- Select the email message in your Inbox, and then click the                          **Dynamics**   
-   **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]** tab.  
+- Select the email message in your Inbox, and then click the                          **Dynamics**      **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]** tab.  
   
    The information you’ll see includes:  
   
@@ -741,8 +735,7 @@ With Dynamics 365 App for Outlook in pinned mode, you can select an email messag
 <a name="ChangeRegarding"></a>   
 ### Change the regarding record for a tracked email message  
   
-1. Open the email message, and then click the                                  **Dynamics**   
-    **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]** tab.  
+1. Open the email message, and then click the                                  **Dynamics**       **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]** tab.  
   
 2. Click                                  **Change**.  
   
@@ -750,7 +743,7 @@ With Dynamics 365 App for Outlook in pinned mode, you can select an email messag
   
 3. Do one of the following:  
   
-   - To untrack the record, click                                                                                   **Or track without setting a regarding record** .  
+   - To untrack the record, click                                                                                   **Or track without setting a regarding record**.  
   
    - To select a different                                          [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] record, enter a keyword (for example, a company name) in the search box, click                                          **Lookup**![Search symbol](../media/search--button-dynamics-crm-outlook.gif "Search symbol"), and then select a record from the results list.  
   

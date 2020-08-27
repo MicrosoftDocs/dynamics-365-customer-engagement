@@ -45,18 +45,11 @@ This topic describes how to attach Omnichannel Toast Notification related action
 |------------------------------|----------------------------------------|
 | CreateCustomerSession      | Show Session Assignment Toast Notification              |
 |                            | Show Session Error Toast Notification  
-<!--|                              | Expand Right Pane                      |
-|                              | CreateCustomerSession                  |
-|                              | Set Entity Session Property in Context |
-|                              | CollapseLeftPanel                      |
-|                              | Load Form for Case Entity              |
-|                              | OCSetSessionTabIdForEntitySession      |
-| Show Entity Notification | Show Entity Notification                | -->
 
 > [!div class="nextstepaction"]
 > [Next topic: Step 5: Add the hosted controls, events, and action calls to the agent and supervisor configurations](toastnotification-step5-add-hosted-controls-events-action-callsagent-supervisor-configurations.md)
 
-## See also
+### See also
 
 - [Configure toast notification in Unified Service Desk](configure-toast-notification-unified-service-desk.md)
 - [Step 1: Create forms to define layout and behavior of the notification](toastnotification-step1-create-forms-define-layout-behavior-notification.md)

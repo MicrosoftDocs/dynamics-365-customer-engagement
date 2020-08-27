@@ -3,7 +3,7 @@ title: "Use the Organization service (Developer Guide for Dynamics 365 Customer 
 description: "Learn about the techniques available to you when developing managed application code that accesses the Organization service using .NET SDK assemblies. Learn how to access the service, retrieve data, and perform the many supported web service operations"
 ms.custom: on-premise
 ms.date: 09/05/2019
-ms.reviewer: "pehecke"
+ms.reviewer: pehecke
 ms.service: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -17,8 +17,7 @@ ms.author: jdaly
 manager: KumarVivek
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Use the Dynamics 365 Customer Engagement (on-premises) Organization service
 

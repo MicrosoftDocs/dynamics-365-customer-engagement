@@ -3,7 +3,7 @@ title: "Multi-Select Picklist attributes (Developer Guide for Dynamics 365 Custo
 description: "Learn about multi-select picklist attributes that allow storing multiple option choices in a single attribute."
 ms.custom: 
 ms.date: 09/05/2018
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -17,8 +17,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Multi-Select Picklist attributes
 

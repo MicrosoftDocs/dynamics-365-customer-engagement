@@ -1,5 +1,5 @@
 ---
-title: Analysis of project quotes 
+title: Analysis of project quotes
 description: This topic provides information about the analysis of project quotes.
 author: rumant
 manager: kfend
@@ -19,6 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365PS
+  - ProjectOperations
 ---
 
 # Analysis of project quotes

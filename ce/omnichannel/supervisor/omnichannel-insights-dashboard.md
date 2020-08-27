@@ -16,7 +16,7 @@ ms.topic: article
 
 ## Omnichannel Insights  
 
-The Omnichannel Insights dashboard provides KPIs and trends for supervisors to understand the overall state of omnichannel support experience at a glance. It also provides insights on the customer sentiments derived using support-specific machine learning algorithms with an ability to slice through different levels in the organizational hierarchy, which supervisors can rely on to improve the overall customer support experience.  
+The Omnichannel Insights dashboard provides KPIs and trends for supervisors to understand the overall state of the Omnichannel for Customer Service support experience at a glance. It also provides insights on the customer sentiments derived using support-specific machine learning algorithms with an ability to slice through different levels in the organizational hierarchy, which supervisors can rely on to improve the overall customer support experience.  
 
 Typically, the overview dashboard is divided into two sections:
 
@@ -29,7 +29,7 @@ Typically, the overview dashboard is divided into two sections:
 The following illustration is an example of the Omnichannel Insights for Dynamics 365 dashboard:
 
    > [!div class=mx-imgBorder]
-   > ![Omnichannel dashboard](../media/oc-full-dashboard.png "Omnichannel dashboard")
+   > ![Omnichannel for Customer Service dashboard](../media/oc-full-dashboard.png "Omnichannel for Customer Service dashboard")
 
 This section consists of the following conversation KPIs:
 
@@ -177,27 +177,27 @@ This illustration of the Omnichannel Sentiment Analysis report provides 
 
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-Topics are generated when chat transcripts from Omnichannel are analyzed and grouped together and similarities are discovered in the conversations. These are then correlated with the sentiment so that supervisors can better understand how their customers feel about each topic on which they have interacted with the agents.
+Topics are generated when chat transcripts from Omnichannel for Customer Service are analyzed and grouped together, and similarities are discovered among the conversations. These are then correlated with sentiment, so that supervisors can better understand how their customers feel about each topic on which they've interacted with agents.
 
    > [!div class=mx-imgBorder]
-   > ![Topics impacting sentiment](../media/topics-impacting-sentiment.png "Sentiment Analysis detailed report")
+   > ![Topics that affect sentiment](../media/topics-impacting-sentiment.png "Topics that affect sentiment")
 
    > [!NOTE]
    >
-   > - The filters at the top of the report (duration, channel, agent, queue do not have an impact on the topic related tiles).
+   > - The filters at the top of the report (duration, channel, agent, queue) don't have an impact on the topic-related tiles.
    > - This component of the report will display data only when sentiment drivers reporting is enabled and a minimum of 10 chat conversations per organization take place.
 
 
    |Tile             |Description                |
    |-----------------|---------------------------|
-   |Grid             | Displays the discovered topics from the most recent 24 hour period in which chat transcripts were processed. |
+   |Grid             | Displays the discovered topics from the most recent 24-hour period in which chat transcripts were processed. |
    |Keyword          | Displays the keywords that are related to a topic.  |
    |Ribbon chart     | Displays the topics that have been discovered over the course of the most recent full week in which chat transcripts were processed. |
 
 
    |KPI             |Description                |
    |-----------------|---------------------------|
-   |Impact           | Denotes the extent to which conversations related to a topic are driving the overall sentiment up or down. It is determined by factoring out the sentiment of chats for the topic in question and comparing the resulting average to the overall sentiment across all chats. The difference indicates negative or positive impact on sentiment.  |
+   |Impact           | Denotes the extent to which conversations related to a topic are driving overall sentiment up or down. This is determined by factoring out the sentiment of chats for the topic in question and comparing the resulting average to the overall sentiment across all chats. The difference indicates negative or positive impact on sentiment.  |
    |Volume  |Denotes the total number of chat transcripts that are assigned to a topic. |
    |Avg. Sentiment    | Denotes the average sentiment of chat transcripts that correspond to a topic.
 
@@ -205,17 +205,17 @@ Topics are generated when chat transcripts from Omnichannel are analyzed and gro
 
 **Positive sentiment**
 
-Positive sentiment is expressed by the customer writing messages that they are happy, pleased, or positive as a result of the support interaction. Positive sentiment requires the positive words to **convey positive feeling beyond just simple pleasantries or politeness**.
+Positive sentiment is expressed by the customer writing messages that they're happy, pleased, or positive as a result of the support interaction. Positive sentiment requires the positive words to convey positive feeling beyond just simple pleasantries or politeness.
 
-For example, when a customer writes “thank you,” that is just being polite—it doesn’t necessarily mean they are pleased or happy. However, if a customer writes “I can’t thank you enough” or “thank you very much,” that is portraying clear positive feeling. Other examples of simple pleasantries/politeness that shouldn’t be mischaracterized as positive are “Please help” and “Yes."
+For example, when a customer writes "thank you," that's just being polite—it doesn't necessarily mean they're pleased or happy. However, if a customer writes "I can't thank you enough" or "thank you very much," that portrays clear positive feeling. Other examples of simple pleasantries or politeness that shouldn't be mischaracterized as positive are "Please help" and "Yes."
 
 **Negative sentiment**
 
-Negative sentiment is expressed by the customer when they are disappointed with the support interaction. These can be cases where the customer is describing a problem and is frustrated or unhappy because of how it is currently impacting them. For something to be scored with negative sentiment, the words need to clearly convey that the user is unhappy, disappointed, and frustrated.
+Negative sentiment is expressed by the customer when they're disappointed with the support interaction. These can be cases where the customer is describing a problem and is frustrated or unhappy because of how it's currently affecting them. For something to be scored with negative sentiment, the words need to clearly convey that the user is unhappy, disappointed, or frustrated.
 
 **Neutral sentiment**
 
-Neutral sentiment is represented when a customer’s sentiment was neither positive nor negative. A customer’s problem statement isn’t to be scored negative; rather, it should be scored neutral unless it contains words that denote emotion.  This is regardless of how severe the user’s problem is. Messages with non-specific pleasantries and/or politeness are scored as neutral and not as positive.
+Neutral sentiment is represented when a customer's sentiment was neither positive nor negative. A customer's problem statement isn't to be scored as negative; rather, it should be scored neutral unless it contains words that denote emotion. This is true regardless of how severe the user's problem is. Messages with non-specific pleasantries or politeness are scored as neutral and not as positive.
 
 ### View and filter reports
 

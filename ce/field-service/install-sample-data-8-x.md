@@ -1,7 +1,7 @@
 ---
 title: "Sample data installation (Dynamics 365 Field Service) | MicrosoftDocs"
 ms.custom: dyn365-fieldservice
-ms.date: 09/28/2018
+ms.date: 04/24/2020
 ms.reviewer: krbjoran
 ms.suite: 
 ms.technology: 
@@ -256,6 +256,21 @@ Select a user (for example, Spencer Low) and change Spencer's work hours to the 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of active bookable resources](media/sample-data-6.png)
 
+## Sample data for older version of Field Service
+
+The installation package for older versions of Field Service is available on the [Microsoft Download Center](https://go.microsoft.com/fwlink/?linkid=859966).  
+
+Running the Package Deployer install performs the following actions:
   
+-   Creates or sets default parameters that drive behavior of Project Service  
+  
+-   Imports sample data such as Bookable Resources, Roles, Sales and Cost Price lists, Organizational Units, relevant sales process records, Work Orders and Projects    
+  
+> [!IMPORTANT]
+> **There is no way to un-install the demo data.** Therefore, you should only use this package on demonstration, evaluation, training and test systems.
+
+For more information, see this [blog](https://blogs.msdn.microsoft.com/crm/2017/10/24/microsoft-dynamics-365-for-field-service-and-project-service-automation-sample-data).
+
+
 ### See Also  
  [Overview of Field Service](../field-service/overview.md)   

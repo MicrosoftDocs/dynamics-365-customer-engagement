@@ -3,7 +3,7 @@ title: "Use Dynamics 365 Customer Engagement (on-premises) web services (Develop
 description: "This topic introduces available web service APIs that you will use when you write programs for Dynamics 365 Customer Engagement (on-premises) and provides basic information to understand and compare them"
 ms.custom: 
 ms.date: 09/05/2019
-ms.reviewer: "pehecke"
+ms.reviewer: pehecke
 ms.service: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -17,8 +17,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Use Dynamics 365 Customer Engagement (on-premises) web services
 

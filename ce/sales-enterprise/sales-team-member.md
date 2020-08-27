@@ -38,7 +38,7 @@ Users with the Team Member license can go to home.dynamics.com. They'll see the 
 > ![Sales Team Member app](media/sales-team-member-app.png "Sales Team Member app")
     
 > [!IMPORTANT]
-> - During the early access phase, the Sales Team Member app is shown for a user on the Dynamics 365 home page only if they have the Sales Hub or Sales Professional app installed. If the Sales Team Member app isn't available on the Dynamics 365 home page, they can get the Sales Hub or Sales Professional app from Microsoft AppSource.
+> - The Sales Team Member app is available by default in all organizations. System administrators can use security roles to control the visibility of the app, if required.
 > - Assign the Sales Team Member role to the users who will access the app. If you want to give customized permissions to your users, we recommend that you clone the Sales Team Member app role, and give the required permissions in alignment with the Microsoft Dynamics 365 Licensing Guide. 
   > To learn about assigning the role, see [Assign a security roles to a user](/power-platform/admin/create-users-assign-online-security-roles) in the Power Platform documentation.
     

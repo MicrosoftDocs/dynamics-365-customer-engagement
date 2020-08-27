@@ -1,5 +1,5 @@
 ---
-title: View and understand Customer Service Analytics and Insights in Customer Service Hub | Microsoft Docs
+title: View and understand Customer Service analytics and insights in Customer Service Hub | Microsoft Docs
 description: Dashboards and reports provide historical operational metrics and KPIs to manage contact centers.
 author: neeranelli
 ms.author: nenellim
@@ -19,23 +19,23 @@ search.app:
   - D365CS
 ---
 
-# Preview: View and understand Customer Service Analytics and Insights
+# Preview: View and understand Customer Service analytics and insights
 
 [!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-## Customer Service Analytics reports
+## Customer Service analytics reports
 
-The following reports are available for Customer Service Analytics:
+The following reports are available for Customer Service analytics:
 
 - **Case Summary**
 
    > [!div class=mx-imgBorder]
-   > ![Customer Service Analytics Case Summary report](media/cs-case-summary-csh.png "Customer Service Analytics Case Summary report")
+   > ![Customer Service analytics Case Summary report](media/cs-case-summary-csh.png "Customer Service analytics Case Summary report")
 
 - **Agent Summary**
 
    > [!div class=mx-imgBorder]
-   > ![Customer Service Analytics Agent Summary report](media/cs-agent-summary-csh.png "Customer Service Analytics Agent Summary report")
+   > ![Customer Service analytics Agent Summary report](media/cs-agent-summary-csh.png "Customer Service analytics Agent Summary report")
 
 The following KPIs are available.
 
@@ -64,14 +64,14 @@ You can use the following filters in the reports.
 When you select a filter condition, the data is automatically filtered and rendered in the report.
 
    > [!div class=mx-imgBorder]
-   > ![Customer Service Analytics view and filter report](media/cs-analytics-view-filer-report.png "Customer Service Analytics view and filter report")
+   > ![Customer Service analytics view and filter report](media/cs-analytics-view-filer-report.png "Customer Service analytics view and filter report")
 
 > [!NOTE]
 > For the **Date** filter, the **Next** option won't display results in the report.
 
 For detailed information about the reports, see [Case Summary report](customer-service-analytics.md#1-summary) and [Agent Summary report](customer-service-analytics.md#2-agent-and-queue).
 
-## Information you need to know about Customer Service Analytics reports
+## Information you need to know about Customer Service analytics reports
 
 ### Reports refresh, data retention
 
@@ -106,7 +106,7 @@ The following entities are supported:
 > [!NOTE]
 > A report might be blank if you've customized any of the listed entities or didn't use out-of-the-box entities.
 
-## Regions supported in Customer Service Analytics reports
+## Regions supported in Customer Service analytics reports
 
 The Customer Service Analytics reports are supported in the following regions:
 
@@ -156,6 +156,6 @@ To troubleshoot issues when you try to access or view the reports, do the follow
 
 ### See also
 
-[Introduction to Customer Service Analytics and Insights](introduction-customer-service-analytics.md)  
-[Configure Customer Service Analytics and Insights in Customer Service Hub](configure-customer-service-analytics-insights-csh.md)  
+[Introduction to Customer Service analytics and insights](introduction-customer-service-analytics.md)  
+[Configure Customer Service analytics and insights in Customer Service Hub](configure-customer-service-analytics-insights-csh.md)  
 [Configure Customer Service Analytics in Power BI](configure-customer-service-analytics-dashboard.md)

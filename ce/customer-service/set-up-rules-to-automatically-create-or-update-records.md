@@ -4,7 +4,7 @@ description: Know how to set up rules to automatically create or update records 
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 06/01/2018
+ms.date: 08/25/2020
 ms.topic: article
 ms.service: 
   - dynamics-365-customerservice
@@ -80,7 +80,7 @@ These activities can be converted to any default (system) entity records or cust
 > When an automatic record creation (ARC) rule is applied to an Email queue item, it gets deactivated.
   
 ## Rules in solutions  
- The record creation and update rules can be packaged as a part of the Common Data Service platform solution. Customizers and developers distribute solutions so organizations can use the Common Data Service platformto install and uninstall the business functionality defined by the solution.  
+ The record creation and update rules can be packaged as a part of the Common Data Service platform solution. Customizers and developers distribute solutions so organizations can use the Common Data Service platform to install and uninstall the business functionality defined by the solution.
 
  Keep the following things in mind about using rules in solutions:  
 
@@ -162,7 +162,7 @@ If the source type for the rule is set to **Email**, specify the conditions for 
 
     If the sender of the email is a contact with a parent account, the Common Data Service platform creates a record if the contact’s parent account has a valid entitlement, and the contact is listed in the **Contacts** section of the entitlement or if the **Contacts** section is empty (which means the entitlement is applicable to all contacts for the customer).  
 
-3. **Create cases for activities associated with a resolved case**. If you select this check box, the Common Data Service platform creates a case if the email is related to a resolved case. If the email is related to an active case, a new case won’t be created.  
+3. **Create cases for activities associated with a resolved case**. If you select this check box, the Common Data Service platform creates a case if the email is related to a resolved case. If the email is related to an active case, a new case won’t be created. However, if the email is related to a canceled case, a new case will be created.
 
 4. **Create case when the case associated with the activity is resolved since**. If you select the **Create cases for activities associated with a resolved case** check box, select the duration here. the Common Data Service platform creates a case only if the case is resolved earlier than the duration you specify. If the incoming email is related to a case resolved later than the specified duration, the Common Data Service platform only associates the incoming email with the existing resolved case; a new case won’t be created.  
 

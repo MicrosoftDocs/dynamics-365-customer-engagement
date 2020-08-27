@@ -12,13 +12,12 @@ ms.assetid: 982189a4-93a9-44ee-99e0-7b8d85318cf4
 author: JimDaly
 ms.author: jdaly
 manager: amyla
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.suite: 
 ms.tgt_pltfrm: 
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 
 # Silverlight (XAP) web resources

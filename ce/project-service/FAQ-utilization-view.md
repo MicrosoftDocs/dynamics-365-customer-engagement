@@ -1,18 +1,16 @@
 ---
-
 title: View chargeable utilization for resources
 description: This topic provides information about the resource utilization view.
-author: ruhercul                     
+author: ruhercul
 manager: kfend
 ms.service: dynamics-365-customerservice
-ms.custom:
+ms.custom: 
   - dyn365-projectservice
 ms.date: 9/26/2019
 ms.topic: article
 ms.prod: Applies to all versions of Project Service
-ms.service: business-applications
 ms.technology: Applies to all versions of Project Service
-ms.author: ruhercul 
+ms.author: ruhercul
 audience: Admin
 search.audienceType: 
   - admin
@@ -21,6 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365PS
+  - ProjectOperations
 ---
 
 # View chargeable utilization for resources

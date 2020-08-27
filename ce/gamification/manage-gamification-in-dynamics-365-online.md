@@ -2,7 +2,7 @@
 title: "Install and configure Dynamics 365 – Gamification in Dynamics 365 apps | Microsoft Docs"
 description: "Learn how to install the Gamification solution in Dynamics 365 apps and its associated web portal and security roles."
 keywords: install, solution, manage, uninstall
-ms.date: 04/18/2018
+ms.date: 04/30/2020
 ms.service: dynamics-365-sales
 ms.topic: get-started-article
 ms.assetid: eb33a4c5-2dde-417b-34f2-8d46be8c2f10
@@ -72,7 +72,11 @@ More information about KPIs in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-onlin
   
 ## Activate Gamification in Dynamics 365
 
-Before you can sync [!INCLUDE[pn_gamification](../includes/pn-gamification.md)] with [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], a user who has a global admin role in [!INCLUDE[pn_Office_365](../includes/pn-ms-office-365.md)] and a system administrator security role in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] needs to complete the setup process to obtain the security key.  
+Before you can sync [!INCLUDE[pn_gamification](../includes/pn-gamification.md)] with Dynamics 365, a user with the following prerequisites needs to complete the setup process to obtain the security key.  
+
+- The user profile in Office 365 has a non-empty first name, last name, email address 
+- The user has a global admin role in Office 365 
+- The user has a system administrator security role with an [access mode of Read-Write](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles#create-a-read-write-user-account).
 
 
 > [!TIP]
@@ -152,4 +156,5 @@ You need to remove **GamificationUpdate** *before* you remove **Gamification**. 
  [Configure KPIs for Gamification in Dynamics 365 apps](configure-kpis.md)   
  [Import players and fans from Dynamics 365 and manage their security roles](manage-players-fans.md)   
  [Set up and run games in Gamification](run-games.md)   
+ [Troubleshooting guide](troubleshooting-guide.md)    
  [Privacy information and license terms for Gamification](legal-information.md)

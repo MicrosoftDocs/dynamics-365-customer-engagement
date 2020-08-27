@@ -18,6 +18,7 @@ manager: annbe
 
 <h2>Get started</h2>
 
+<li><a href="set-up-dynamics-365-sales.md" data-raw-source="[Set up Dynamics 365 Sales](set-up-dynamics-365-sales.md)">Set up Dynamics 365 Sales</a></li>
 <li><a href="overview.md" data-raw-source="[Dynamics 365 Sales Overview](overview.md)">Dynamics 365 Sales Overview</a></li>
 <li><a href="user-guide-learn-basics.md" data-raw-source="[Learn the basics](user-guide-learn-basics.md)">Learn the basics</a></li>
 <li><a href="use-sales-hub-on-dynamics-365-mobile.md" data-raw-source="[Use Sales Hub on Dynamics 365 for phones and tablets](use-sales-hub-on-dynamics-365-mobile.md)">Use Sales Hub on Dynamics 365 for phones and tablets</a></li>
@@ -42,7 +43,7 @@ manager: annbe
 <li><a href="create-edit-lead-sales.md" data-raw-source="[Create or edit leads](create-edit-lead-sales.md)">Create or edit leads</a></li>
 <li><a href="qualify-lead-convert-opportunity-sales.md" data-raw-source="[Qualify or convert leads](qualify-lead-convert-opportunity-sales.md)">Qualify or convert leads</a></li>
 <li><a href="create-edit-opportunity-sales.md" data-raw-source="[Create or edit opportunities](create-edit-opportunity-sales.md)">Create or edit opportunities</a></li>
-<li><a href="user-guide.md" data-raw-source="[More help resources for sales people...](user guide.md)">More help resources for sales people...</a></li>
+<li><a href="user-guide.md" data-raw-source="[More help resources for salespeople...](user guide.md)">More help resources for salespeople...</a></li>
 
 </td><td>
 <h2>In-app marketing</h2>
@@ -54,8 +55,8 @@ manager: annbe
 <li><a href="track-marketing-campaign-response-using-app-marketing-sales.md" data-raw-source="[Track a marketing campaign response](track-marketing-campaign-response-using-app-marketing-sales.md)">Track a marketing campaign response</a></li>
 
 <tr><td>
-<h2>Troubleshooting</h2>
-<li><a href="troubleshooting.md"> Troubleshooting guide for sales people</a></li>
+<h2>Troubleshooting and FAQs</h2>
+<li><a href="troubleshooting.md"> Troubleshooting guide for Dynamics 365 Sales</a></li>
 <li><a href="faqs-sales.md"> FAQs</a></li>
 
 </td><td>
@@ -74,9 +75,7 @@ manager: annbe
 <li><a href="../sales-enterprise/developer/reference/playbook-entity-reference.md" data-raw-source="[Entity reference for playbooks](../sales-enterprise/developer/reference/playbook-entity-reference.md)">Entity reference for playbooks</a></li>
 <li><a href="../sales-enterprise/developer/custom-plugin-handling-shared-variable.md" data-raw-source="[Custom plug-in handling using shared variable](../sales-enterprise/developer/custom-plugin-handling-shared-variable.md)">Custom plug-in handling using shared variable</a></li>
 </td>
-</tr>
-</td> <td>
-
+<td>
 <h2>GDPR</h2>
 <li><a href="../sales-enterprise/dynamics-365-sales-gdpr.md" data-raw-source="[Dynamics 365 Sales &amp; GDPR](../sales-enterprise/dynamics-365-sales-gdpr.md)">Dynamics 365 Sales &amp; GDPR</a></li>
 

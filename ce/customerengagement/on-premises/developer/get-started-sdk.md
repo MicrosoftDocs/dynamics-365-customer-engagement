@@ -20,8 +20,7 @@ tags:
   - MigrationHO
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Get started with the SDK for Dynamics 365 Customer Engagement (on-premises)
 

@@ -10,7 +10,7 @@ ms.service:
   - dynamics-365-customerservice
 ---
 
-# Customer Service Analytics and Insights
+# Customer Service analytics and insights
 
 Customer service managers and supervisors are responsible for managing the agents who work with customers to resolve every day queries. Customer support supervisors need to be able to know the key operational and customer experience metrics to provide quality support.
 
@@ -29,6 +29,6 @@ As a supervisor, use analytics and insights to perform the following tasks:
 
 [View and understand Customer Service Analytics and Insights](customer-service-analytics.md)
 
-[Configure Customer Service Analytics and Insights in Customer Service Hub](configure-customer-service-analytics-insights-csh.md)
+[Configure Customer Service analytics and insights in Customer Service Hub](configure-customer-service-analytics-insights-csh.md)
 
 [Configure Customer Service Analytics dashboards in Power BI](configure-customer-service-analytics-dashboard.md)

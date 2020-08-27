@@ -1,7 +1,7 @@
 ---
 title: "Install Dynamics 365 Field Service (Dynamics 365 Field Service) | MicrosoftDocs"
 ms.custom: dyn365-fieldservice
-ms.date: 11/15/2019
+ms.date: 08/03/2020
 ms.reviewer: krbjoran
 ms.suite:
 ms.technology:
@@ -30,10 +30,12 @@ To get fully up and running with Field Service, you'll need to:
 3. Install the Woodford mobile configurator
 4. Install and configure the mobile project template
 
-In this article, we'll walk through each of these steps. 
+In this article, we'll walk through each of these steps. See the following video for an additional walkthrough.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4yt5e]
 
 > [!Note]
-> Along with this article, see the video: ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Field Service installation and setup](https://youtu.be/hvcqAbe4g4E)
+> For additional Field Service videos, see [this full playlist](https://aka.ms/fs-videos).
 
 ## Prerequisites
 
@@ -82,11 +84,11 @@ To get the mobile app, download **Field Service Mobile** from the Windows, Apple
 > ![Screenshot of Field Service mobile app download example](media/mobile-field-service-mobile-windows-app-store.png)
 
 
-## Step 3: Install the Field Service Mobile configuration tool
+## Step 3: Install the Field Service Mobile configuration tool (Woodford)
 
 The configuration tool allows app access for field technician users, and allows administrators to customize the mobile experience.
 
-1. [Download the mobile configuration tool](https://www.resco.net/woodford/download) and save to your computer.
+1. [Download the mobile configuration tool (Woodford)](https://www.resco.net/woodford/download) and save to your computer.
 
 2. In the Dynamics 365 organization, go to **Settings** > **Solutions**. Select **Import**. 
 
@@ -127,11 +129,7 @@ The mobile project template contains all customizations for the Field Service Mo
 
   The mobile project is updated periodically; [bookmark this website](https://aka.ms/fsmobile-project) for regular access the latest mobile project.
 
-**For previous mobile apps** for D365 for Field Service, use the following mobile projects:
-
-- [Download mobile project for **Field Service Mobile (2017)** Field Service v6.1](https://go.microsoft.com/fwlink/p/?linkid=836310).
-- [Download mobile project for **Field Service Mobile (2016)** Field Service v6.0](https://go.microsoft.com/fwlink/p/?LinkId=808250).
-
+**For previous mobile apps** for D365 for Field Service, see the topic on [Field Service Mobile project template version history](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-mobile#mobile-project-template-version-history). 
 
 5. Import the mobile project file.
 > [!div class="mx-imgBorder"]
@@ -152,12 +150,12 @@ The mobile project template contains all customizations for the Field Service Mo
 7. Double-click on your newly imported mobile project file. You'll be taken to the project detail page. Select **Publish**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the publish option](media/mobile-install-project-publish.png)
+> ![Screenshot of the publish option](media/mobile-install-project-publish.PNG)
 
 8. Head back to the main Woodford page by selecting the back button in the navigation, as seen in the following screenshot. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Woodford back button](media/mobile-install-project-back-woodford.png)
+> ![Screenshot of the Woodford back button](media/mobile-install-project-back-woodford.PNG)
 
 9.  Select to highlight the mobile project template and select **Derive**.
 
@@ -171,10 +169,15 @@ The mobile project template contains all customizations for the Field Service Mo
 > [!div class="mx-imgBorder"]
 > ![Screenshot of setting details for mobile project](media/mobile-install-project-derive-details.png)
 
-10. Double-click the mobile project template *parent* (not your new derivative), and then select **Publish All**.
 
 > [!Note]
-> For Field Service Mobile v11.2, publish to 11.2.
+> Make sure to publish the project to match the version of Field Service Mobile your technicians are using. For example, if your technicians are using Field Service Mobile v12.1, publish the mobile project template to 12.1. If your technicians are using different versions of the mobile project, publish the project to the lowest common version.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of setting details for mobile project](media/mobile-woodford-publish-version.png)
+
+10. Double-click the mobile project template *parent* (not your new derivative), and then select **Publish All**.
 
 11.  Verify the mobile configurations are published by checking for an arrow next to the projects.
 > [!div class="mx-imgBorder"]
@@ -187,7 +190,8 @@ The mobile project template contains all customizations for the Field Service Mo
 
 ## Next steps
 - [Set up users and security roles](../field-service/view-user-accounts-security-roles.md)
-- [Enable hookable resources for mobile app access](set-up-bookable-resources.md)
+- [Enable bookable resources for mobile app access](set-up-bookable-resources.md)
+- [Enable maps for Field Service Mobile](mobile-enable-maps.md)
 - [Add sample data](../field-service/install-sample-data-8-x.md)
 
 ### See also

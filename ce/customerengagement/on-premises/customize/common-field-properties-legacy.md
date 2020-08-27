@@ -13,8 +13,7 @@ ms.topic: article
 ms.assetid: 2b91ee28-7f09-435e-9fae-5225aa698e22
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 # Common field properties
 

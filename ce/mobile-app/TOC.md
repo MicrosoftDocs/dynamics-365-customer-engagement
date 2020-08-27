@@ -3,12 +3,16 @@
 # Administrator Guide 
 ## [What's supported](support-phones-tablets.md)
 ## [Set up mobile app](set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md)
-## [Set-up mobile offline synchronization](setup-mobile-offline-for-admin.md)
 ## [Manage and secure devices](secure-manage-phones-tablets.md)
+## [Set-up mobile offline synchronization](setup-mobile-offline-for-admin.md)
+## [Preview: Set-up mobile offline synchronization](preview-setup-mobile-offline.md)
+## [Mobile offline capabilities and limitations](mobile-offline-capabilities.md)
 
 # [Install the mobile app](install-dynamics-365-for-phones-and-tablets.md)
 
-# [User Guide](dynamics-365-phones-tablets-users-guide.md)
+# User Guide
+## [Use the mobile app](dynamics-365-phones-tablets-users-guide.md)
+## [Send email from the mobile app (Preview)](send-email.md)
 # [Work offline on your mobile device](work-in-offline-mode.md)
 
 # [Troubleshooting](troubleshooting-things-know-about-phones-tablets.md)
@@ -40,8 +44,7 @@
 
 ## User Guide 
 ### [Install the mobile app](../mobile-app/v8/go-mobile/get-started/install.md)
-### [Signing in and signing out (for iOS users)](../mobile-app/v8/go-mobile/get-started/email-sign-in.md)
-### [Signing in and signing out (for Android users)](../mobile-app/v8/go-mobile/get-started/sign-in-out.md)
+### [Sign in and sign out](../mobile-app/v8/go-mobile/get-started/email-sign-in.md)
 ### [Reconfigure](../mobile-app/v8/go-mobile/get-started/reconfigure.md)
 ### [Basic navigation](../mobile-app/v8/go-mobile/get-started/basic-navigation.md)
 ### [The workspace - your personalized action hub](../mobile-app/v8/go-mobile/get-started/workspace-personalized-action-hub.md)

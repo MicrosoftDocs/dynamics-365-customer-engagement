@@ -2,7 +2,7 @@
 title: "Run Dynamics 365 Marketing with a Dynamics 365 Portal and/or CMS system (Dynamics 365 Marketing) | Microsoft Docs "
 description: "Learn how you can run interactive marketing features for Dynamics 365 Marketing by using an integrated Dynamics 365 Portal or by using your own website or CMS system."
 keywords: 
-ms.date: 08/16/2019
+ms.date: 06/22/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -12,7 +12,7 @@ author: alfergus
 ms.author: alfergus
 manager: shellyha
 ms.reviewer:
-topic-status: Drafting
+topic-status: 
 search.audienceType: 
   - admin
   - customizer
@@ -33,7 +33,7 @@ Read this topic to learn how you can run interactive marketing features for Dyna
 
 Power Apps Portals is a replacement product for Dynamics 365 Portals. Both products will continue to be supported, but soon (or possibly already) only Power Apps Portals will be available for new customers. Both products work on the same basic technical foundation and work in the same way from the perspective of Dynamics 365 Marketing. However, Power Apps Portals provide additional features for users (which don't affect Dynamics 365 Marketing) and are licensed according to consumption (logins and page loads) rather than per instance.
 
-For details about portal licensing, see the [Power Apps and Flow licensing FAQ](https://docs.microsoft.com/power-platform/admin/powerapps-flow-licensing-faq#can-you-share-more-details-regarding-the-new-powerapps-portals-licensing)..
+For details about portal licensing, see the [Power Apps and Flow licensing FAQ](https://docs.microsoft.com/power-platform/admin/powerapps-flow-licensing-faq#can-you-share-more-details-regarding-the-new-powerapps-portals-licensing).
 
 
 Beyond these few differences, Dynamics 365 Portals and Power Apps Portals work exactly the same from the perspective of Dynamics 365 Marketing, so you can consider these two terms to be interchangeable for the remainder of this topic and elsewhere in the Dynamics 365 Marketing documentation.
@@ -70,6 +70,13 @@ If you choose to enable Portals integration when installing Dynamics 365 Marketi
 If you choose the non-portals option, then the setup wizard won't attempt to claim a Dynamics 365 Portal or set up a demo Power Apps Portal.
 
 You can use portal features in parallel with website/CMS features provided you have a portal. You could, for example, start by using a portal for all interactive features and then slowly transition to an external website until you're ready to remove the portal entirely.
+
+> [!NOTE]
+> If have integrated Dynamics 365 Portals with your Dynamics 365 Marketing instance and the Portals suddenly stop working or disappear, the Portals trial license may have expired. To determine whether this is the case: 
+> 1. Navigate to the [Power Apps Portals admin center](https://docs.microsoft.com/powerapps/maker/portals/admin/admin-overview).
+> 2. Go to the [Portal Details](https://docs.microsoft.com/powerapps/maker/portals/admin/admin-overview#add-yourself-as-an-owner-of-the-azure-ad-application) section and check if the Portals license is in an expired state.
+>
+> If the Portals integration is expired, you will need to [purchase a paid license](https://docs.microsoft.com/powerapps/maker/portals/admin/admin-overview#add-yourself-as-an-owner-of-the-azure-ad-application). You will then need to [reset the Portals integration](uninstall-marketing.md#reset-any-dynamics-365-portals-connected-to-the-uninstalled-marketing-app) on the Marketing instance and re-provision.
 
 ## Remove portal integration from an existing Marketing instance
 

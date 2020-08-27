@@ -1,7 +1,7 @@
 ---
 title: "Add products to a quote, order, or invoice (Dynamics 365 Sales Professional) | MicrosoftDocs"
 description: "Include details about the products that your customer is interested in purchasing in your quote, order, or invoice in Dynamics 365 Sales Professional."
-ms.date: 10/01/2019
+ms.date: 06/24/2020
 ms.service: 
   - "dynamics-365-sales"
 ms.custom: 
@@ -37,6 +37,8 @@ The process for adding a product to a quote record is the same as adding a produ
           > - If a price list is selected, and you select a product that isn’t associated with the price list, you'll see an error. Select a product that's associated with the selected price list.
 
         - To create a product, select **Write-In**, and then enter the name of the product.
+          > [!NOTE]
+          > If the **Prices Locked** field on the Invoice form is set to **Yes**, then you won't be able to add write-in products because prices of write-in products are considered as overridden. To be able to add write-in products, make sure that the **Price Locked** field is set to **No**. More information: [Lock or unlock prices of an invoice](create-invoices.md#lock-or-unlock-prices-of-an-invoice), [Sales transactions in Dynamics 365 Sales Professional](understanding-sales-transactions-sales-professional.md)  
 
     2.	Fill in details in the **Pricing** section:
 

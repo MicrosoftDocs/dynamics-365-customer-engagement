@@ -20,8 +20,7 @@ caps.latest.revision: 0
 topic-status: Drafting
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 
 

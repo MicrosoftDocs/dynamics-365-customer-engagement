@@ -20,8 +20,7 @@ caps.latest.revision: 25
 topic-status: Drafting
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 
 # Types of fields and field data types
@@ -145,7 +144,9 @@ More information: [!INCLUDE[proc_more_information](../includes/proc-more-informa
 
   For each currency field you add, another currency field is added with the prefix “_Base” on the name. This field stores the calculation of the value of the currency field you added and the base currency. Again, if this field is added to the form, it can’t be edited.  
 
-  When you configure a currency field you can choose the precision value. There are essentially three options as shown in the following table.  
+  When you configure a currency field you can choose the precision value. There are essentially three options as shown in the following table.
+  > [!NOTE]
+> In the Unified Interface the currency format for a negative value is set by the user settings and does not use the system setting.
 
 |Option|Description|  
 |------------|-----------------|  

@@ -1,6 +1,7 @@
 # [Overview of Universal Resource Scheduling (URS)](schedule-anything-with-universal-resource-scheduling.md)
 
 # Scheduling
+## [Schedule assistant overview](schedule-assistant.md)
 ## [Quick scheduling](quick-scheduling.md)
 ## [Travel time and distance](schedule-travel-time.md)
 ## [Multi-resource scheduling](multi-resource-scheduling-requirement-groups.md)
@@ -10,6 +11,7 @@
 ## [Facility scheduling](facility-scheduling.md)
 ## [Resource pools](resource-pools.md)
 ## [Time constraints](schedule-time-constraints.md)
+## [Advanced filters](schedule-assistant-advanced-filters.md)
 
 # Schedule board configuration
 ## [Enable an entity for scheduling](schedule-new-entity.md)

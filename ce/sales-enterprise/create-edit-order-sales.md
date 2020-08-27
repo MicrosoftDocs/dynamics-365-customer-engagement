@@ -1,11 +1,9 @@
 ---
 title: "Create or edit orders (Dynamics 365 Sales) | MicrosoftDocs"
 description: "A sales order is a quote that your customer has accepted."
-ms.date: 10/01/2019
-ms.service: 
+ms.date: 06/22/2020
+ms.service:
   - "dynamics-365-sales"
-ms.custom: 
-  - "dyn365-sales"
 ms.topic: get-started-article
 author: shubhadaj
 ms.author: shujoshi
@@ -44,7 +42,7 @@ Congratulations! Your hard work nurturing your customer has paid off and they're
 
 > [!NOTE]
 > 
-> Your base record and all its line items must use the same currency. For example, if your order has the currency set to U.S Dollars, you must use the same currency for the price list items that you add to the order. You can’t change the currency of the base record (in this case, an order), unless you remove all the line items associated with the record.
+> Your base record and all its line items must use the same currency. For example, if your order has the currency set to U.S Dollars, you must use the same currency for the price list items that you add to the order. You can't change the currency of the base record (in this case, an order), unless you remove all the line items associated with the record.
 > Similarly, if the order is created from a quote that is generated from an opportunity, it must use the same currency as the opportunity.
 
 
@@ -66,12 +64,15 @@ Congratulations! Your hard work nurturing your customer has paid off and they're
   
 3. On the **Order** form, enter data in the following required fields:
 
-    -	**Name** 
-  
-    -	**Price List** and **Currency**: Select the price list and the currency that will be used to calculate the product prices. 
+   -  **Name**. You must enter a name with a length of 100 characters or fewer. The information should be
+meaningful and unique. By default, these records are sorted by Name in the records list.
+   
+   - **Price List** and **Currency**: Select the price list and the currency that will be used to calculate the product prices. 
 
         > [!NOTE]
         > By default, selecting a price list is required to be able to add products to an order. However, your administrator can change your organization settings to make the Price list field optional.
+
+   -  **Prices Locked**. This field is read-only. You set **Prices Locked** by selecting **Lock Pricing** on the command bar. More information: [Lock or unlock the price for an order or invoice](lock-unlock-price-order-invoice.md), [Sales transactions in Dynamics 365 Sales](sales-transactions.md) 
 
 4. In the **Sales Information** section, in **Potential Customer**, select the customer you're creating this order for.
 
@@ -105,4 +106,5 @@ Congratulations! Your hard work nurturing your customer has paid off and they're
  ![Home button](../sales-enterprise/media/home-button.png "Home button") [Learn about the sales process, nurturing sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md) 
   
 ### See also  
-[Print leads, quotes, and other records](../basics/print-leads-quotes-other-records.md)
+[Print quote, invoice, or other records](print-records.md)  
+[Sales transactions in Dynamics 365 Sales](sales-transactions.md)

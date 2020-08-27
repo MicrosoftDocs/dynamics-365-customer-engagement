@@ -3,7 +3,7 @@ title: "How role-based security can be used to control access to entities (Devel
 description: "A role contains privileges that define a set of actions that can be performed within the organization. All users must be assigned to one or more predefined or custom roles"
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -17,8 +17,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # How role-based security can be used to control access to entities
 

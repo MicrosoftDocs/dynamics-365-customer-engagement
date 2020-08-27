@@ -1,10 +1,10 @@
 ---
 title: "Call options and visual engagement in live chat in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn how to use visual engagement, such as co-browse and screen sharing, and elevating a chat conversation to voice and video call in Omnichannel for Customer Service."
-author: kabala123
-ms.author: kabala
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
-ms.date: 04/06/2020
+ms.date: 05/26/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -29,13 +29,18 @@ With calling options in live chat, you can:
 - Improve customer satisfaction.
 - Develop a positive relationship with customers.
 
-## Prerequisite
+## Prerequisites
 
-Latest version of Microsoft Edge and Google Chrome desktop browsers.
+Make sure that the following prerequisites are met:
+
+- **Browser:** Latest version of Microsoft Edge or Google Chrome. For more information, see the [system requirements](../../system-requirements-omnichannel.md).
+- **Internet bandwidth:**
+  - **Minimum:** 500 KBps upload speed; 1 MBps download speed
+  - **Recommended:** 1 MBps  upload speed; 2 MBps download speed
 
 ### Initiate voice and video call
 
-When you're chatting with the customer, you can initiate the voice or video call. In the communication panel, beside the **End** button, select the ellipsis button ![Ellipsis](../../media/ellipsis.png "Ellipsis"). The **Voice Call** and **Video Call** options are displayed. (Depending on your system configuration, you might see **Voice Call** and **Video Call**, or just **Voice call**.)
+When you're chatting with the customer, you can initiate a voice or video call. In the communication panel, beside the **End** button, select the ellipsis button ![Ellipsis](../../media/ellipsis.png "Ellipsis"). The **Voice Call** and **Video Call** options are displayed. (Depending on your system configuration, you might see **Voice Call** and **Video Call**, or just **Voice call**.)
 
 > [!div class=mx-imgBorder]
 > ![Voice and video call](../../media/chat-voice-video-call.png "Voice and video call")

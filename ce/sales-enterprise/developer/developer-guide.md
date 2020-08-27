@@ -17,8 +17,7 @@ manager: shujoshi
 Welcome to the Dynamics 365 Sales Developer Guide. 
 
 
-> [!IMPORTANT]
-> [!INCLUDE[cc-app-definition-sales-dev](../../includes/cc-app-definition-sales-dev.md)]c
+[!INCLUDE[cc-app-definition-sales-dev](../../includes/cc-app-definition-sales-dev.md)]
 
 <br />
 <table>

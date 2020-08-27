@@ -43,6 +43,15 @@ To enable the device readings chart, administrators need to deploy Azure Time Se
 - Field Service version 8.8.2 or higher
 - Currently available in United States English only. This feature is in **preview** and it is not available in all languages and geographies.
 
+> [!Important]
+> If you are deploying this feature for the first time, there are changes to our underlying service, Azure Time Series Insights.
+>
+> If you are on **Field Service version 8.8.24 or higher**, ignore this message.
+> If you are on a **Field Service version lower than 8.8.24**:
+> - If you are only sending the data type “doubles,” there will be no impact. If you are sending other data types, these other data types will not appear in your device readings chart until you upgrade to Field Service version 8.8.24.
+> For more information about the Azure changes, [see this article](https://docs.microsoft.com/azure/time-series-insights/time-series-insights-long-data-type).
+
+
 ## Enable the device readings chart
 
 1. Open the Connected Field Service [IoT Deployment app (aka.ms/deploycfs).](https://aka.ms/deploycfs) 

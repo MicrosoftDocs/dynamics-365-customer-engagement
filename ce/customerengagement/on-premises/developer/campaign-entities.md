@@ -3,7 +3,7 @@ title: "Campaign entities (Developer Guide for Dynamics 365 Customer Engagement 
 description: "Learn about creating campaign activites, use the marketing lists to distribute the campaign activites, and analyze campaign responses to the campaign activities."
 ms.custom: 
 ms.date: 10/01/2019
-ms.reviewer: nabuthuk
+ms.reviewer: peheckenabuthuk
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -26,8 +26,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Campaign entities
 

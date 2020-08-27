@@ -1,5 +1,5 @@
 ---
-title: Fulfilling resource requirements 
+title: Fulfilling resource requirements
 description: This topic provides information about how to fulfill resource requirements.
 author: ruhercul
 manager: kfend
@@ -19,6 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365PS
+  - ProjectOperations
 ---
 
 # Fulfilling resource requests

@@ -4,12 +4,11 @@ description: This topic provides information about why you can't delete records 
 author: JPBurrows
 manager: kfend
 ms.service: dynamics-365-customerservice
-ms.custom:
+ms.custom: 
   - dyn365-projectservice
 ms.date: 11/6/2018
 ms.topic: article
 ms.prod: Project Service
-ms.service: business-applications
 ms.technology: Applies to all versions of Project Service
 ms.author: Jburrows
 audience: Admin
@@ -20,6 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365PS
+  - ProjectOperations
 ---
 
 # Why can’t I delete records from the Actuals entity?

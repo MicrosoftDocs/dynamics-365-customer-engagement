@@ -4,7 +4,7 @@ description: "Learn how you can try channels in Omnichannel for Customer Service
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 12/13/2019
+ms.date: 05/21/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -14,7 +14,7 @@ ms.topic: article
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-Channels, for example Chat and SMS, are the engagement channels that enable your agents to connect with customers in real-time and provide quick personalized help. Channels can only be subscribed and used if you have an active subscription of Dynamics 365 Customer Service Enterprise in your tenant.
+Channels, for example Chat and SMS, are the engagement channels that enable your agents to connect with customers in real-time and provide quick personalized help. 
 
 There are two options to sign-up for a free 30-day trial of channels:
 
@@ -56,9 +56,9 @@ With this option, you can get a free 30-day trial of Chat, SMS, and Facebook Mes
    > ![Create your own trial and complete setup](media/create-own-trial.png "Create your own trial and complete setup")
 
     > [!NOTE]
-    > The maximum number of allowed trial instances in a tenant is five. If you already have five trial instances in your tenant, you must delete one instance before creating a new trial.
+    > A tenant can have a maximum of five trial instances. If you already have five trial instances in your tenant, you must delete one instance before creating a new trial.
 
-6. If you are redirected to the applications page, select **Customer Service Hub** to open the application once it is setup.
+6. If you are redirected to the applications page, select **Customer Service Hub** to open the application once it is set up.
 
 7. You will now be able to see the newly created instance in Dynamics 365 Administration Center under the **Instances** tab. The instance type will be set to Trial.
 
@@ -78,54 +78,50 @@ If you already have a subscription of Dynamics 365 Customer Service Enterprise o
     > [!div class=mx-imgBorder]
     > ![Power BI (free) subscription](media/powerbi-free.png "Power BI (free) subscription")
 
-### Step 3: Enable Chat, SMS, and Facebook channels in your organization
+### Step 3: Enable Chat, SMS, and social channels in your organization
 
 In Dynamics 365 Administration Center, go to the **Applications** tab, select the **Omnichannel for Customer Service** application and select **Manage**. This will guide you to enable the required channels on one or more instances that you may have. You can enable a channel or multiple channels on any instance type in this step. For more information on provisioning channels through the Dynamics 365 admin center, see [Provision Omnichannel for Customer Service](administrator/omnichannel-provision-license.md).
 
 > [!div class=mx-imgBorder]
 > ![Manage Omnichannel application](media/manage-oc-application.png "Manage Omnichannel application")
 
-Once a channel is enabled in your organization, you can sign in to Dynamics 365 organization, and select the Omnichannel Administration application to start configuring the channel. More information on configuring channels in Omnichannel for Customer Service: [Configure a chat channel](administrator/set-up-chat-widget.md), [Configure an SMS channel](administrator/configure-sms-channel.md), and [Configure a Facebook channel](administrator/configure-facebook-channel.md).
+Once a channel is enabled in your organization, you can sign in to the Dynamics 365 organization, and select the Omnichannel Administration application to start configuring the channel. For more information about configuring channels in Omnichannel for Customer Service, refer to [Overview of channels](administrator/channels.md).
 
 ## Option 2: Channels trial through Microsoft 365 admin center
 
-With this option, you can sign-up for a free 30-day trial of Chat, SMS, and Facebook Messenger channels from the Microsoft 365 admin center only if you have a paid subscription of Dynamics 365 Customer Service Enterprise that has been purchased directly through the Microsoft 365 admin center (that is, Web Direct). If you do not have the pre-requisite subscription, or if you have purchased the pre-requisite subscription other than Web Direct, then the option to try channels will not be available in the Microsoft 365 admin center.
+The Dynamics 365 Customer Service Digital Messaging Add-on Trial is a free 30-day trial of Chat, SMS, and social channels that you can download from the Microsoft 365 admin center. To try channels, you must have obtained one of the following subscriptions through the Microsoft 365 admin center (that is, Web Direct):
 
-The channel you can try depends on the add-on you purchase from the Microsoft 365 admin center. The following add-ons are available for purchase:
+- Paid or trial subscription of Dynamics 365 Customer Service Enterprise 
+- Paid or trial subscription of Dynamics 365 Customer Engagement 
 
-- **Dynamics 365 for Customer Service Chat Trial**: Allows you to try Chat.
-
-- **Dynamics 365 for Customer Service Digital Messaging add-on Trial**: Allows you to try Chat, SMS, and Facebook channels.
+If you do not have one of these subscriptions, or if you purchased your subscription somewhere other than Web Direct, then the option to try channels will not be available in the Microsoft 365 admin center.
 
 > [!NOTE]
-> For more information on the Chat and Digital Messaging licenses, pricing, and prerequisites, please refer to the Dynamics 365 licensing guide [here](https://go.microsoft.com/fwlink/p/?LinkId=866544).
+> For more information about the Digital Messaging license, pricing, and prerequisites, refer to the Dynamics 365 licensing guide [here](https://go.microsoft.com/fwlink/p/?LinkId=866544).
 
 ### Step 1: Get a trial subscription of channels
 
 1. Sign in to [Microsoft 365 admin center](https://admin.microsoft.com) with the global administrator credentials.
 
-2. Go to **Billing** > **Purchase Services**, and select **Add-ons**. 
+2. Go to **Billing** > **Purchase Services**, scroll down, and select **Add-ons**. 
 
     > [!div class=mx-imgBorder]
-    > ![Add-on subscriptions in Microsoft 365 admin center](media/add-on-subscriptions.png "Add-on subscriptions in Microsoft 365 admin center")
+    > ![Add-on subscriptions in Microsoft 365 admin center](media/digital-trial-add-on.png "Add-on subscriptions in Microsoft 365 admin center")
 
-3. Under **Add-ons**, select the required add-on.
+3. Select the required add-on.
     
     > [!div class=mx-imgBorder]
-    > ![Dynamics 365 Customer Service Chat Trial option](media/chat-add-on.png "Dynamics 365 Customer Service Chat Trial option")
+    > ![Dynamics 365 Customer Service Chat Trial option](media/digital-trial-digital-messaging.png "Dynamics 365 Customer Service Digital Trial option")
     
     > [!IMPORTANT]
-    > You must already have a paid license of Dynamics 365 Customer Service Enterprise in your tenant that was purchased directly through the Microsoft 365 admin center (that is, Web Direct), otherwise the Chat and Digital Messaging options won't be visible.
+    > You must have a paid or trial subscription of Dynamics 365 Customer Service Enterprise or Dynamics 365 Customer Engagement in your tenant obtained through the Microsoft 365 admin center (that is, Web Direct), otherwise the Digital Messaging options won't be visible.
 
-4. You can start a 30-day trial of Chat or Digital Messaging with 25 user licenses.
+4. You can start a 30-day trial of Digital Messaging with 25 user licenses.
 
-5. After signing up for a trial, you must assign licenses of Chat or Digital Messaging to the users who need to engage with customers and provide support via Omnichannel for Customer Service. This can be done by selecting one or more active users and editing their product licenses. After you're done, select **Save**.
-
-    > [!div class=mx-imgBorder]
-    > ![Chat product licenses dialog box](media/product-licenses-dialog-box.png "Chat product licenses dialog box")
+5. After signing up for a trial, you must assign licenses of Digital Messaging to the users who need to engage with customers and provide support via Omnichannel for Customer Service. Select one or more active users and edit their product licenses. After you're done, select **Save**.
 
     > [!div class=mx-imgBorder]
-    > ![Digital Messaging product licenses dialog box](media/digital-messaging-prod-license.png "Digital Messaging product licenses dialog box")
+    > ![Digital Messaging product licenses dialog box](media/digital-trial-assign-users.png "Digital Messaging product licenses dialog box")
 
 ### Step 2: Enable channels in your organization
 
@@ -135,7 +131,7 @@ In Dynamics 365 Administration Center, go to the **Applications** tab, select th
 
 ![Manage Omnichannel application](media/manage-oc-application.png "Manage Omnichannel application")
 
-After a channel is enabled in your organization, you can sign in to Dynamics 365 organization, and select the Omnichannel Administration application to start configuring the channel. More information on configuring channels in Omnichannel for Customer Service: [Configure a chat channel](administrator/set-up-chat-widget.md), [Configure an SMS channel](administrator/configure-sms-channel.md), and [Configure a Facebook channel](administrator/configure-facebook-channel.md).
+After a channel is enabled in your organization, you can sign in to the Dynamics 365 organization, and select the Omnichannel Administration application to start configuring the channel. More information on configuring channels in Omnichannel for Customer Service: [Configure a chat channel](administrator/set-up-chat-widget.md), [Configure an SMS channel](administrator/configure-sms-channel.md), and [Configure a Facebook channel](administrator/configure-facebook-channel.md).
 
 ## Videos
 
