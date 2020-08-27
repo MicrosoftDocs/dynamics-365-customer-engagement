@@ -13,7 +13,7 @@ ms.custom:
   - "dyn365-developer"
 ---
 
-# Configure channel provider using App profile manager
+# Configure channel provider using app profile manager
 
 [!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -23,9 +23,9 @@ ms.custom:
 > - This preview may employ reduced or different privacy, security, or compliance commitments than a commercial version. As such, this preview is not meant to be used with any "live" or production Customer Data, Personal Data, or other data that is subject to heightened compliance requirements. Any use of "live" data is at your sole risk and it is your sole responsibility to notify your end users that they should not include sensitive information with their use of the Preview.
 > - This preview, and any support Microsoft may elect to provide, is provided "as-is," "with all faults," "as available," and without warranty. This preview is subject to the [Preview Terms](../legal/supp-dynamics365-preview.md).
 
-The App profile manager is an out-of-the-box solution that lets you create targeted app experiences for agents and supervisors. More information: [App profile manager](../../../../app-profile-manager/overview.md).
+The app profile manager is an out-of-the-box solution that lets you create targeted app experiences for agents and supervisors. More information: [App profile manager](../../../../app-profile-manager/overview.md).
 
-Channel Integration Framework version 2.0 is solution-aware and for multi-session applications. Given below are the steps to configure a new channel provider using the App profile manager.
+Channel Integration Framework version 2.0 is for multi-session applications such as Omnichannel for Customer Service and Customer Service workspace. Given below are the steps to configure a new channel provider using the app profile manager. To configure a third-party voice channel provider with the multi-session application, perform the following steps.
 
 1. Select **App profiles** from the site map and then, select your app profile.
 
@@ -33,15 +33,13 @@ Channel Integration Framework version 2.0 is solution-aware and for multi-sessio
 
 ![Select app profiles](../media/channel-app-profile-manager.PNG "Select app profiles")
 
-3. Select **Add channel providers** and then, select **Create a new channel provider in Unified Interface**.
+3. Select **Add channel providers** and then, select **Create a new channel provider in Unified Interface**. The **New Channel Provider** page opens in a new tab.
 
 ![Create new channel provider](../media/create-new-channel-provider-app-profile-manager.PNG "Create new channel provider")
 
-4. The **New Channel Provider** page opens in a new tab.
+4. Fill in all the required details to configure a new channel provider.
 
 ![Configure channel provider](../media/channel-provider-maker-app.PNG "Configure channel provider")
-
-5. Fill in all the required details to configure a new channel provider.
 
 ## See also
 
