@@ -2,7 +2,7 @@
 title: "Troubleshoot Microsoft Teams integration with customer engagement apps in Dynamics 365| MicrosoftDocs"
 ms.custom: 
 description: "Troubleshoot issues with Microsoft Teams integration."
-ms.date: 8/25/2020
+ms.date: 8/26/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -40,9 +40,9 @@ If you get an error while configuring Microsoft Teams Integration from Dynamics 
 
 - If SharePoint Online admin has enabled control access from unmanaged devices (conditional access policy) to allow/block SharePoint sites from unmanaged devices, then the same restrictions will be applied for Microsoft Teams integration because Microsoft Teams uses SharePoint sites for document management. This might block a user when they try to access a connected team channel file library on an app page. For more information, see [Control access from unmanaged devices](https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices). 
 
-- If you get this error: **You cannot enable Microsoft Teams integration since the environment is integrated with SharePoint on-premises**, this means that you are currently configured to use SharePoint on-premises for document management. You need to set up document management for model-driven apps to use SharePoint Online. For more information, see [Set up model-driven apps to use SharePoint Online](https://docs.microsoft.com/power-platform/admin/set-up-dynamics-365-online-to-use-sharepoint-online).
+- If you get this error: **You cannot enable Microsoft Teams integration since the environment is integrated with SharePoint on-premises**, this means that you are currently configured to use SharePoint on-premises for document management. You need to set up document management for customer engagement apps to use SharePoint Online. For more information, see [Set up apps to use SharePoint Online](https://docs.microsoft.com/power-platform/admin/set-up-dynamics-365-online-to-use-sharepoint-online).
 
-### Error when you pin a record or view of any app to a team channel if the enhanced experience is not configured correctly by your Common Data Service admin.
+### Error when you pin a record or view of any app to a team channel if the enhanced experience is not configured correctly by your customer engagement apps admin.
 
 Error: **The admin has not consented to use user sync feature, you can add them manually**.
 
@@ -63,7 +63,7 @@ To fix the issue, disable the Enhanced Microsoft Teams integration feature.
     > ![Teams error](media/error3.png "Teams error")
 5. Wait for about five minutes and then enable the [Enhanced Microsoft Teams Integration](teams-install-app.md) feature again. This time make sure that you to check the **Consent on behalf of organization** checkbox.
 
-### Error when you pin a record or view of any app to a team channel if your user role permission is not configured correctly by your Common Data Service system admin.
+### Error when you pin a record or view of any app to a team channel if your user role permission is not configured correctly by your customer engagement apps system admin.
 
 Error: **User does not have permissions to create SharePoint Site or Document Location. This record is not connected to Dynamics 365**.
 
@@ -79,8 +79,8 @@ To fix the issue, do the following:
 1. In Microsoft Teams, select the channel with this error.
 2. Select the tab with this error.
 3. Select the down arrow next to the tab, then select **Remove**.
-4. In your app, identify the Common Data Service role which is assigned to this user:
-     1. Sign in as a admin to your Common Data service app.
+4. In your app, identify the role which is assigned to this user:
+     1. Sign in as a admin to your customer engagement app.
      2. Navigate to **Settings** > **Security** > **Users**. 
      3. Find and select the user account that got the error message to open it.
      4. Select **Manage Roles**.
@@ -92,7 +92,7 @@ To fix the issue, do the following:
 8. Give Create, Read, Write, Append, AppendTo and Delete permissions to **SharePoint Site** and **Document Location**.
 9. Select **Save and Close**.
 
-Now, when the user tries to pin the Common Data Service entity to the required Microsoft Teams channel, it should work.
+Now, when the user tries to pin the entity to the required Microsoft Teams channel, it should work.
 
 ## Troubleshoot errors in Microsoft Teams
 
@@ -134,11 +134,11 @@ Or, you may get this error:
 > [!div class="mx-imgBorder"] 
 > ![Environment is not up-to-date](media/teams-error-org-not-latest.png "Environment is not up-to-date")
 
-The Common Data Service environment that you are trying to connect does not support Microsoft Teams integration. You can wait for the environment to be updated or pick a different environment that has been updated to support Microsoft Teams integration.
+The customer engagement app environment that you are trying to connect does not support Microsoft Teams integration. You can wait for the environment to be updated or pick a different environment that has been updated to support Microsoft Teams integration.
 
 ### Error: This record is not connected to Dynamics 365. Repin the tab and try again.
 
-A failed connection means file synchronization is not set up between Microsoft Teams and Dynamics 365 apps; however, changes made to the record in Microsoft Teams will update in the customer engagement apps in Dynamics 365.
+A failed connection means file synchronization is not set up between Microsoft Teams and customer engagement apps in Dynamics 365; however, changes made to the record in Microsoft Teams will update in the customer engagement app.
 
 This is how the error will display on the notification bar:
 
@@ -205,7 +205,7 @@ To work around this issue, open Teams on the web and close the desktop version.
 
 ### Error while creating a team or channel. The property is missing a required prefix/suffix per your organization's Group naming requirements. 
 
-A user may get this error when they try to connect a record or a view to a team channel using the **Collaborate** button in customer engagement apps in Dynamics 365. This happens if your tenant admin has configured group level naming policy from Azure Portal with a prefix and suffix condition 
+A user may get this error when they try to connect a record or a view to a team channel using the **Collaborate** button in a customer engagement app in Dynamics 365. This happens if your tenant admin has configured group level naming policy from Azure Portal with a prefix and suffix condition 
 
    > [!div class="mx-imgBorder"] 
    > ![Prefix error](media/azure_portal_error.png "Prefix error")
@@ -214,17 +214,22 @@ To work around this issue, your tenant admin will need to remove this policy fro
 
 ### Error while creating a team or channel. The displayName cannot contain the blocked word 'blocked' as per company policy.
 
-A user may get this error when they try to connect a record or a view to a team channel using the **Collaborate** button in customer engagement apps in Dynamics 365. This happens when your tenant admin creates a custom blocked word list on Azure Portal.
+A user may get this error when they try to connect a record or a view to a team channel using the **Collaborate** button in a customer engagement app in Dynamics 365. This happens when your tenant admin creates a custom blocked word list on Azure Portal.
 
 To work around this issue, your tenant admin will need to remove this policy from Azure Portal.
 
 
 ### Error: Blocked a frame with origin from accessing a cross-origin frame
 
-There are some pages in model-driven apps that can only be opened in a brower window. If one of these pages is opened within an iframe of any container application such as Teams, then you will get this error message, **Blocked a frame with origin from accessing a cross-origin frame**.
+A few pages in customer engagement apps in Dynamics 365 can only be opened in a browser window as they make use of JavaScript functions trying to access DOM elements and properties through `window.top` are not supported to load within Microsoft Teams. When this page is opened without any iframe then it works fine as top most window’s context is customer engagement app page and required attributes and properties are available. Whereas when this same page is opened within Microsoft Teams, it's actually loaded inside an iframe where `window.top` represent top most window context which is Microsoft Teams window and not the customer engagement app page. Hence it's not able to find relevant attributes and properties which leads to showing of error message **Blocked a frame with origin from accessing a cross-origin frame** in the browser console. For example, if you open the schedule board page for Dynamics 365 Project Service Automation within Microsoft Teams, you will get this error.
 
-To work around this, open the page in the model-driven app and not in Teams.
+To work around this, open the page in your customer engagement app and not in Microsoft Teams.
 
-###  Documents are no longer visible in the pinned tab record when a team member leaves a team
+If the page which is showing the error message, contains a custom resource (javascript, custom control etc.), please ensure `window` is not used in the JavaScript as it may cause the page to not load at all or not load properly. For more information, see [Avoid using window top](https://docs.microsoft.com/powerapps/developer/model-driven-apps/best-practices/business-logic/avoid-window-top).
 
-When a team member leaves a team the documents for the record are not visible in the tab created for the record in Teams. However, you can still view all documents associated with that record for the team in your model-driven app.
+### Documents can be accessed in your customer engagement app using the Documents tab in an entity record even after user has left the team.
+
+Whenever a member leaves the team where a app record was pinned, the **Files** tab in Microsoft Teams which shows the documents shared in the team won’t be visible anymore as the user would lose access to the team. However, the user can still go to the customer engagement app in Dynamics 365 and access the record in the that was pinned in the team and can access files in the **Documents** tab in the **Related** section.
+
+To disable the user from accessing to the documents in the record from the customer engagement app, an admin can remove the access of the record to the user or control the permission using the SharePoint site permissions.
+
