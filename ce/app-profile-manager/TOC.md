@@ -1,6 +1,6 @@
 # [App profile manager](overview.md)
 ## [Use app profile manager](app-profile-manager.md)
-## [Settings]
+## Settings
 ## Templates
 ### [Manage session templates](session-templates.md)
 ### [Manage application tab templates](application-tab-templates.md)
