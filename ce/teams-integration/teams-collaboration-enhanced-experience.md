@@ -2,7 +2,7 @@
 title: "Enhanced Collaboration Experience with Microsoft Teams| MicrosoftDocs"
 ms.custom: 
 description: "Connect with Microsoft Teams and collaborate with team members using the Dynamics 365 app for Microsoft Teams."
-ms.date: 10/26/2020
+ms.date: 8/26/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
