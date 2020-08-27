@@ -56,9 +56,9 @@ To create app profiles for Omnichannel for Customer Service, you must have Chat 
 4. Do the following on the **Productivity pane** tab:
    1. If you want to enable productivity tools, set the toggle to on for **Turn on productivity pane**.
    2. Select the default mode as collapsed or expanded.
-   3. In the **Productivity tools** section, set the toggle to on for **Smart assist tool configuration** and **Agent scripts**.
+   3. In the **Productivity tools** section, set the toggle to on for **Smart assist tool configuration** and **Agent scripts** to allow access to smart assist configuration and agent scripts.
 5. On the **Channels** tab, set the toggle to on for **All active channels**. The channels configured in Omnichannel for Customer Service will be available for the user to whom the profile is assigned.
-6. If you need to configure a third-party channel provider, in the **Voice channels** section, select **Add channel providers**. The channel configuration page opens on a new tab.
+6. If you need to configure a third-party channel provider, in the **Voice channels** section, select **Add channel providers**. The channel configuration page opens on a new tab. More information: [Configure channel provider using app profile manager](..customer-service/channel-integration-framework/v2/configure-channel-provider-app-profile-manager)
   
 ### Assign profiles to users
 
@@ -70,3 +70,8 @@ To create app profiles for Omnichannel for Customer Service, you must have Chat 
 4. On the **Lookup Records** pane, search and select the user.
 5. Select **Add**.
 
+### See also
+
+[Manage session templates](session-templates.md)  
+[Configure channels](../omnichannel/administrator/channels.md)  
+[Manage agent scripts](agent-scripts.md)
