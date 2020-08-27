@@ -27,17 +27,19 @@ The app profile manager is an out-of-the-box solution that lets you create targe
 
 Channel Integration Framework version 2.0 is for multi-session applications such as Omnichannel for Customer Service and Customer Service workspace. Given below are the steps to configure a new channel provider using the app profile manager. To configure a third-party voice channel provider with the multi-session application, perform the following steps.
 
-1. Select **App profiles** from the site map and then, select your app profile.
+1. Log in to your Power Apps portal.
 
-2. Select the **Channels** tab.
+2. Select **App profiles** from the site map and then, select your app profile.
+
+3. Select the **Channels** tab.
 
 ![Select app profiles](../media/channel-app-profile-manager.PNG "Select app profiles")
 
-3. Select **Add channel providers** and then, select **Create a new channel provider in Unified Interface**. The **New Channel Provider** page opens in a new tab.
+4. Select **Add channel providers** and then, select **Create a new channel provider in Unified Interface**. The **New Channel Provider** page opens in a new tab.
 
 ![Create new channel provider](../media/create-new-channel-provider-app-profile-manager.PNG "Create new channel provider")
 
-4. Fill in all the required details to configure a new channel provider.
+5. Fill in all the required details to configure a new channel provider.
 
 ![Configure channel provider](../media/channel-provider-maker-app.PNG "Configure channel provider")
 
@@ -56,10 +58,10 @@ Channel Integration Framework version 2.0 is for multi-session applications such
 > [!NOTE]
 > The `API Version` field is set to `2` when you navigate from the app profile manager.
 
-5. After you have configured the channel provider, go back to the app profile manager and add the newly created channel provider to the app profile.
+6. After you have configured the channel provider, go back to the app profile manager and add the newly created channel provider to the app profile.
   
 ## See also
 
-[Enable outbound communication (ClickToAct)](enable-outbound-communication-clicktoact.md)
-
+[App profile manager](../../../../app-profile-manager/overview.md)<br />
+[Enable outbound communication (ClickToAct)](enable-outbound-communication-clicktoact.md)<br />
 [Microsoft.CIFramework.getEnvironment](../v2/reference/microsoft-ciframework/getEnvironment.md)
