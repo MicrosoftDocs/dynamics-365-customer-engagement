@@ -1,15 +1,15 @@
 # [App profile manager](overview.md)
-## [Use app profile manager](using-app-profile-manager.md)
+## [Use app profile manager](app-profile-manager.md)
 ## [Settings]
 ## Templates
-### [Manage session templates]
-### [Manage application tab templates]
-### [Manage notification templates]
+### [Manage session templates](session-templates.md)
+### [Manage application tab templates](application-tab-templates.md)
+### [Manage notification templates](notification-templates.md)
 ## Productivity tools
 ### [Manage smart assist]
-### [Manage agent scripts]
-### [Manage macros]
+### [Manage agent scripts](agent-scripts.md)
+### [Manage macros](macros.md)
 
-# [Customer Service workspace](customer-service/../../customer-service/csw-overview.md)
-# [Omnichannel for Customer Service](omnichannel/(omnichannel-customer-service-guide.md)
-# [Dynamics 365 Channel Integration Framework Guide](customer-service/channel-integration-framework/channel-integration-framework)
+# [Customer Service workspace](../customer-service/csw-overview.md)
+# [Omnichannel for Customer Service](../omnichannel/omnichannel-customer-service-guide.md)
+# [Dynamics 365 Channel Integration Framework Guide](../customer-service/channel-integration-framework/channel-integration-framework)

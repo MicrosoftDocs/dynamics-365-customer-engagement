@@ -62,36 +62,38 @@ The options to access and manage the following entities are available on the lef
   - Agent scripts
 - Macros
 
+All these options are available in the Unified Interface and open on a new tab when you select any to access it.
+
 > ![Navigation menu](media/app-profile-navigation-items.png "App profiles home page")
 
 Irrespective of the path from where you navigate to any of the elements, such as session templates or application tab templates, you will see templates that you have defined for both Customer Service workspace and Omnichannel for Customer Service. This is because the templates are stored in a common library.
 
 ### Settings
 
-The **Settings** option in **Customer Service workspace** takes you to the **Queues** page of Service Management in Customer Service Hub that opens in a new tab and displays the list of queues in Customer Service.
+The **Settings** option in **Customer Service workspace** opens the **Queues** page on a new tab. For information on queue management, see []
 
-For information on queue management in Customer Service Hub, see 
-
-The **Settings** option in **Omnichannel Administration** takes you to the **Entity Records** page in Omnichannel Administration and displays the list of entity records that are configured.
+The **Settings** option in **Omnichannel Administration** opens the **Entity Records** page on a new tab.
 
 ### Templates
 
 The following template types can be accessed:
 
-- **Session templates:** You can navigate to the custom templates created by you and the out-of-the-box templates.
-- **Application tabs:** 
-- **Notifications:**
+- **Session templates:** Opens the Session templates page where the out-of-the-box templates and custom templates created by you are listed.
+- **Application tabs:** Opens the application tab templates page to create and manage application tab templates.
+- **Notifications:** Opens the notifications templates page to manage the templates.
 
 ### Productivity
 
 You can access the following options in the **Productivity** area:
 
-- **Smart assist:** 
-- **Agent scripts:** 
-- **Macros:** 
+- **Smart assist:** Opens the settings for AI-based suggestions for similar cases, knowledge articles, and ongoing conversations.
+- **Agent scripts:** Opens the agent scripts page for you to create and manage scripts.
+- **Macros:** Opens the macros page for you to create and manage macros.
 
 ## Upgrade experience for existing Omnichannel for Customer Service
 
 When you upgrade your existing environments, the settings for templates, productivity tools, and channels configuration in the out-of-the-box app profile will reflect the existing state of your environment. For example, if productivity pane is enabled and smart assist is configured, the settings will be retained in the out-of-the-box app profile.
 
+### See also
 
+[Create app profiles](app-profile-manager.md)
