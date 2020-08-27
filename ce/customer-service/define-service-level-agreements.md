@@ -4,7 +4,7 @@ description: Know how to define service-level agreements in Dynamics 365 Custome
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 05/14/2020
+ms.date: 09/01/2020
 ms.topic: article
 ms.service: 
   - dynamics-365-customerservice
@@ -76,8 +76,7 @@ With Customer Service, you can create enhanced SLAs for entities that are enable
 With the SLA feature in Customer Service Hub, you can:
 
 - Use out-of-the-box actions in Microsoft Power Automate.
-- Define work hours, and pause and resume SLAs at the SLA item level, which helps track SLA items for different work hours based on priority and criteria.
-  
+- Define work hours, and pause and resume SLAs at the SLA KPI level and SLA item level, which helps track SLA items for different work hours based on priority and criteria. Pausing at SLA KPI level or SLA item level gives you added flexibility to define pause conditions at a more granular level.
 - In a case lifecycle, multiple SLA KPIs can be triggered at different start points. The following illustration depicts how you can define an overall resolution time, and also specify SLA KPIs at different start points.
 
 ![SLA pause and resume](media/SLA-pause-resume.png "SLA pause and resume")
@@ -129,7 +128,13 @@ SLA KPIs are performance indicators, such as First Response or Resolve by, that 
 
    - **Applicable From:** Select a value based on which the warning and failure time will be measured. For example, if you select **Created On**, the warning and failure start time for an SLA will be calculated from the date and time when the entity was created.
 
-5. Select **Save**, and then select **Activate**. The SLA KPI is saved and activated.
+5. Select **Save**.
+
+6. In the **Pause Conditions** section that appears, do the following:
+   1. Set the toggle to **Yes** for **Override Criteria** if you want to override the pause settings that have been applied at the entity level for your org.
+   2. Select **Add** to define the conditions in which the SLA KPI can be paused.
+
+7. Select **Activate**. The SLA KPI is saved and activated.
 
 ## Create an SLA in Customer Service Hub<a name="create-slas"></a>
 
@@ -164,15 +169,20 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 
    - **Name:** Enter a name.
    - **KPI:** Select an SLA KPI.
-   - **Allow Pause and Resume:** (Optional.) Enable this option if you want the SLA to pause during the time the record is on hold. For each entity that's enabled for the SLA, you can set each status that will be considered "on hold" in the **Service Management** > **Service Configuration Settings** page.
+   - **Allow Pause and Resume:** (Optional.) Enable this option if you want the SLA to be paused during the time the record is on hold. For each entity that's enabled for the SLA, you can set each status that will be considered "on hold" in the **Service Management** > **Service Configuration Settings** page.
    - **Business Hours:** (Optional.) Select a value to assign business hours. The SLA is calculated based on the business hours and business closure that you define. More information: [Create customer service schedule and define the work hours](create-customer-service-schedule-define-work-hours.md).
   
-4. In the **Applicable When** section, define the conditions for the entity when the SLA can be applied:
+4. In the **Applicable When** section, define the conditions for the entity when the SLA can be applied.
 
-   - In the **Success Conditions** section, define the conditions that specify the success criteria of the SLA.
-   - In the **Warn and Fail Duration** section, specify the values to trigger notifications when an SLA is missed.
+5. In the **Success Conditions** section, define the conditions that specify the success criteria of the SLA.
 
-5. Select **Save**. A message appears on the top stating that warning and failure actions aren't set.
+6. In the **Pause Configurations** section that appears only when **Allow Pause and Resume** is enabled, do the following:
+   1. Set the toggle to **Yes** for **Override Criteria** if you want to define the conditions when you can pause the SLA item. This setting overrides the pause settings if they have been defined at the entity level in Service Configuration or SLA KPI level.
+   2. Select **Add** to define the conditions for pausing the SLA item.
+    > ![Pause settings at SLA item level](media/csh-sla-item-pause.png "Pause settings at SLA item level")
+7. In the **Warn and Fail Duration** section, specify the values to trigger notifications when an SLA is missed.
+
+8. Select **Save**.
 
 ### Configure actions for the SLA item
 
@@ -187,7 +197,7 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
    b. Select **Continue**. The predefined flow that's specific to the SLA appears.
 
      > [!NOTE]
-     > We recommend that you don't edit the predefined flow. Doing so can cause breaks in the flow, and the SLA might not work as defined.
+     > We recommend that you don't edit the predefined flow, which can cause breaks in the flow, and the SLA might not work as defined.
 
    c. Select **Switch**. The following condition steps are displayed:
 
