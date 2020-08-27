@@ -3,7 +3,7 @@ title: "Sample code for charts (visualizations) (Developer Guide for Dynamics 36
 description: "The section contains code examples that demonstrate how to use visualization entities. "
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

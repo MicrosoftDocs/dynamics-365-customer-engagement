@@ -3,7 +3,7 @@ title: "Use record-based security to control access to records (Developer Guide 
 description: "Provides record-based security to manage access rights to individual Customer Engagement records."
 ms.custom: 
 ms.date: 08/18/2018
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

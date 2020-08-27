@@ -3,7 +3,7 @@ title: "Hierarchical security (position) entity (Developer Guide for Dynamics 36
 description: "Learn about hierarchy security that enables you to model the manager/direct report structure that is often used in businesses. "
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

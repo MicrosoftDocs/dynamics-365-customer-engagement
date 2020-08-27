@@ -12,7 +12,7 @@ ms.assetid: 683204f7-570a-43ab-bf7e-a12d26cec214
 author: KumarVivek
 ms.author: kvivek
 manager: jdaly
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.suite: 
 ms.tgt_pltfrm: 
 caps.latest.revision: 12
