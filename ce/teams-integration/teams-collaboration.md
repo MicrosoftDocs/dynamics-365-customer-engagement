@@ -1,8 +1,8 @@
 ---
-title: "Basic Collaboration experience in customer engagement apps in Dynamics 365 with Microsoft Teams integration| MicrosoftDocs"
+title: "Basic Collaboration experience for Microsoft Teams integration with customer engagement apps in Dynamics 365| MicrosoftDocs"
 ms.custom: 
 description: "Collaborate with team members using the Dynamics 365 app for Microsoft Teams."
-ms.date: 04/15/2020
+ms.date: 08/26/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -21,7 +21,7 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# Basic Collaboration experience in customer engagement apps with Microsoft Teams integration
+# Basic Collaboration experience for Microsoft Teams integration with customer engagement apps in Dynamics 365
 
 ## Collaboration experience in Microsoft Teams
 
@@ -66,7 +66,7 @@ From a team channel, you can connect a customer engagement app (such as Dynamics
 
 The successful connection state indicates that the connection was successfully saved in Dynamics 365 apps so that the link to the connected Microsoft Teams channel appears on the Dynamics 365 apps page and the files used on this channel also appear on the **Documents** tab in Dynamics 365 apps.
 
-A failed connection state indicates that the connection was not successfully sent to Common Data Service. Microsoft Teams users can still use the pinned tab in the channel, but the relationship between the pinned record or view with the team channel is not stored in Common Data Service. For more information, see [Troubleshooting](teams-troubleshoot.md). 
+A failed connection state indicates that the connection was not successfully sent to the customer engagement app. Microsoft Teams users can still use the pinned tab in the channel, but the relationship between the pinned record or view with the team channel is not stored in your customer engagement app. For more information, see [Troubleshooting](teams-troubleshoot.md). 
 
 
  - **View Selection**
@@ -129,7 +129,7 @@ Select the **Files** tab in the connected team channel to associate files with a
 > [!div class="mx-imgBorder"] 
 > ![Shared files in multiple locations](media/teams-error-multiple-locations.png "Shared files in multiple locations")
 
-When there is more than one Microsoft Teams channel connected to an app record, each of the channels appears as a separate document location in Common Data Service. You can switch to a different location by selecting **Document Location** to specify the location of the file.
+When there is more than one Microsoft Teams channel connected to an app record, each of the channels appears as a separate document location in the customer engagement app. You can switch to a different location by selecting **Document Location** to specify the location of the file.
 
 > [!div class="mx-imgBorder"] 
 > ![Change document location](media/teams-change-document-location.png "Change document location")
@@ -205,7 +205,7 @@ Currently, only the following record types support Microsoft Teams collaboration
 -	Team
 -	Work Order
 
-If not enabled, users can still connect customer engagement app records to Microsoft Teams, but the connected Microsoft Teams channel and the file library do not appear in customer engagement apps.
+If not enabled, users can still connect customer engagement app records to Microsoft Teams, but the connected Microsoft Teams channel and the file library do not appear in customer engagement app.
 
 When the feature is enabled, the collaboration feature is enabled only for a selected set of system entities. If you want to enable Microsoft Teams integration for additional entities or custom entities, you can only do it programmatically using the **msdyn_SetTeamsDocumentStatus** Web API action. More information: [Enable or disable Microsoft Teams Integration using code](../developer/integration-dev/teams-integration-using-code.md)
 

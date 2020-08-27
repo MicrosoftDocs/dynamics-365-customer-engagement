@@ -3,7 +3,7 @@ title: "ISV configuration file schema | MicrosoftDocs"
 description: "The topic shows you the schema definition for the ISV Configuration section of an import/export customization file."
 ms.custom: 
 ms.date: 12/22/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

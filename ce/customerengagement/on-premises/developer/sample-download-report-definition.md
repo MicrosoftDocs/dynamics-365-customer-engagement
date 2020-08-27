@@ -3,7 +3,7 @@ title: "Sample: Download report definition | MicrosoftDocs"
 description: "This sample shows how download report definition."
 ms.custom: 
 ms.date: 01/28/2020
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
