@@ -3,7 +3,7 @@ title: "Offline and Outlook filters and templates (Developer Guide for Dynamics 
 description: "Data that should be synchronized between the Dynamics 365 Server and Dynamics 365 for Outlook is determined by Data Filters for Office Outlook"
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

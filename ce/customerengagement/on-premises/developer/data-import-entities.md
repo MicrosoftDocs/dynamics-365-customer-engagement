@@ -3,7 +3,7 @@ title: "Data import entities (Developer Guide for Dynamics 365 Customer Engageme
 description: "Lists the data import entities used to create data maps, configure and run data imports, and log failure information."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

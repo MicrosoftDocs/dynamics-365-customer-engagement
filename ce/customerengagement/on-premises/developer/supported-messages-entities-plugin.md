@@ -3,7 +3,7 @@ title: "Supported messages and entities for plug-ins (Developer Guide for Dynami
 description: "The topic contains information about the message and entity combinations that support execution of plug-ins for Dynamics 365 Customer Engagement (on-premises) Customer Engagement."
 ms.custom: on-premise
 ms.date: 2/5/2019
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

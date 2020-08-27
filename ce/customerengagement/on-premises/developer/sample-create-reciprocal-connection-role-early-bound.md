@@ -3,7 +3,7 @@ title: "Sample: Create a reciprocal connection role (early bound)| MicrosoftDocs
 description: "The sample code demonstrates how to create the reciprocal connection roles."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

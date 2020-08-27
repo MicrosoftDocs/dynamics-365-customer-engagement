@@ -3,7 +3,7 @@ title: "Sample: Convert an opportunity to a quote (early bound) (Developer Guide
 description: "The sample demonstrates how to convert an opportunity that contains products from the product catalog and a write-in product to a quote."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
