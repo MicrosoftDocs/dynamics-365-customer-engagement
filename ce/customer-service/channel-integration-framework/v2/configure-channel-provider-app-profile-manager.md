@@ -41,6 +41,23 @@ Channel Integration Framework version 2.0 is for multi-session applications such
 
 ![Configure channel provider](../media/channel-provider-maker-app.PNG "Configure channel provider")
 
+| Field | Description |
+|-------|-------|
+|Name|Name of the channel provider.|
+|Label|The label is displayed as the title on the widget.|
+|Channel URL|The URL of the provider to host in the widget. See the JavaScript APIs on how to develop communication widget with Dynamics 365 Channel Integration Framework.|
+|Enable Outbound Communication|Clicking on a phone number in the Dynamics 365 Unified Interface page, the widget initiates the call or outbound communication.|
+|Channel Order|The order precedence of the channel providers. That is, the priority to display the channel for the agents and unified Interface Apps.|
+|API Version|The version of the Channel Integration Framework APIs.|
+|Trusted Domain| An additional domain if the initial landing URL and the final domain from which the communication widget is hosted are different. Add the domain (URL) to access the Channel Integration Framework APIs. |
+|Custom Parameter|This takes a text blob as input and `Microsoft.CIFramework.getEnvironment` will return this as value of key `customParams`.|
+|Enable Analytics|Select `Yes` if you wish to enable analytics for your channel provider.|
+
+> [!NOTE]
+> The `API Version` field is set to `2` when you navigate from the app profile manager.
+
+5. After you have configured the channel provider, go back to the app profile manager and add the newly created channel provider to the app profile.
+  
 ## See also
 
 [Enable outbound communication (ClickToAct)](enable-outbound-communication-clicktoact.md)
