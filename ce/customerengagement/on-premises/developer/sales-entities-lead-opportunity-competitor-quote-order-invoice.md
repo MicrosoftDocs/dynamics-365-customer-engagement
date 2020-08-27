@@ -20,7 +20,6 @@ ms.assetid: 0b9ac43d-0b42-4c19-84e1-c81a9ec67d5a
 caps.latest.revision: 16
 author: JimDaly
 ms.author: jdaly
-ms.reviewer: peheckesusikka
 manager: annbe
 search.audienceType: 
   - developer
