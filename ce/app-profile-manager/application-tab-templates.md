@@ -4,7 +4,7 @@ description: "Learn about managing application tab templates in Omnichannel Admi
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 07/31/2020
+ms.date: 08/28/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article

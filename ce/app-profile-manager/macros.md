@@ -4,7 +4,7 @@ description: "Learn about macros and how to configure in the Omnichannel Adminis
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 08/19/2020
+ms.date: 08/28/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article

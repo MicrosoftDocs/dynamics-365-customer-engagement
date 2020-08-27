@@ -4,7 +4,7 @@ description: "Learn how to associate templates with workstreams in the Omnichann
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 08/04/2020
+ms.date: 08/28/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article

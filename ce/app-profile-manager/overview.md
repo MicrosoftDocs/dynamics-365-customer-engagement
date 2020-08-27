@@ -40,7 +40,7 @@ For existing orgs, only steps 4 and 5 are required.
 
 Thereafter, users with the required agent or supervisor role will be able to see and use the settings that are available through the assigned app profile. If you do not assign an app profile, by default, the out-of-the-box app profile will be assigned.
 
-## Experience for accessing templates and productivity tools 
+## Experience for accessing templates and productivity tools
 
 The Power Apps home page for app profiles is an easy-to-use interface that helps you get started with what you can do on the page.
 
@@ -70,7 +70,7 @@ Irrespective of the path from where you navigate to any of the elements, such as
 
 ### Settings
 
-The **Settings** option in **Customer Service workspace** opens the **Queues** page on a new tab. For information on queue management, see []
+The **Settings** option in **Customer Service workspace** opens the **Queues** page on a new tab.
 
 The **Settings** option in **Omnichannel Administration** opens the **Entity Records** page on a new tab.
 

@@ -42,8 +42,8 @@ To create app profiles for Omnichannel for Customer Service, you must have Chat 
    - **Unique name:** A unique identifier in the *<prefix>*_*<name>* format.
      > [!IMPORTANT]
      > The following are required for the unique name:
-     > - Prefix can only be alphanumeric and its length must be between 3 to 8 characters.
-     > - An underscore must be there between the prefix and the name.
+     > - The prefix can only be alphanumeric and its length must be between 3 to 8 characters.
+     > - An underscore must be there between the prefix and name.
    - **Description:** A description for the profile.
 
 ### Add templates and enable productivity pane and channels
@@ -58,7 +58,12 @@ To create app profiles for Omnichannel for Customer Service, you must have Chat 
    2. Select the default mode as collapsed or expanded.
    3. In the **Productivity tools** section, set the toggle to on for **Smart assist tool configuration** and **Agent scripts** to allow access to smart assist configuration and agent scripts.
 5. On the **Channels** tab, set the toggle to on for **All active channels**. The channels configured in Omnichannel for Customer Service will be available for the user to whom the profile is assigned.
-6. If you need to configure a third-party channel provider, in the **Voice channels** section, select **Add channel providers**. The channel configuration page opens on a new tab. More information: [Configure channel provider using app profile manager](..customer-service/channel-integration-framework/v2/configure-channel-provider-app-profile-manager)
+
+   > [!NOTE]
+   > The toggle for channels will be enabled in the out-of-the-box app profile for Omnichannel for Customer Service.
+
+6. To add a third-party channel provider, in the **Voice channels** section, select **Add channel providers**, search for the configured channel, and select it.
+7. If a channel does not exist, select **Create a new channel provider in Unified Interface**. The channel configuration page opens on a new tab. More information: [Configure channel provider using app profile manager](..customer-service/channel-integration-framework/v2/configure-channel-provider-app-profile-manager)
   
 ### Assign profiles to users
 
@@ -69,6 +74,18 @@ To create app profiles for Omnichannel for Customer Service, you must have Chat 
 3. On the **General** tab, select **Add Existing User**.
 4. On the **Lookup Records** pane, search and select the user.
 5. Select **Add**.
+
+### Default profile assignment
+
+When users are assigned roles corresponding to Customer Service workspace or Omnichannel for Customer Service, the default app profiles are assigned as follows.
+
+- **Customer Service workspace:** The out-of-the-box app profile is assigned to users with the following roles:
+  - CSR Manager
+  - Customer Service Representative
+- **Omnichannel for Customer Service:** The out-of-the-box app profile is assigned to users with the following roles:
+  - Omnichannel administrator
+  - Omnichannel supervisor
+  - Omnichannel agent
 
 ### See also
 
