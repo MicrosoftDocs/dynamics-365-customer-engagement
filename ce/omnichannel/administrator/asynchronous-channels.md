@@ -57,7 +57,7 @@ Suggested action is supported fully with the exception that some channels may li
 | Custom messaging (Direct Line) | Yes                 |
 
 ## File attachment support
-You can file attachments on the **General settings** tab of a channel so that customers and agents can send files as attachments. Attachments that customers send to agents are referred to as inbound attachments, and attachments that agents send to customers are referred to as outbound attachments. For more information about file attachments, see [Enable file attachments](enable-file-attachments.md).
+You can enable file attachments on the **General settings** tab of a channel so that customers and agents can send files as attachments. Inbound attachments refer to attachments that customers send to agents, and outbound attachments refer to attachments that agents send to customers. For more information about file attachments, see [Enable file attachments](enable-file-attachments.md).
 
 | Channel              | Inbound attachments                        | Outbound attachments                  |
 |----------------------|--------------------------------------------|---------------------------------------|
@@ -71,9 +71,9 @@ You can file attachments on the **General settings** tab of a channel so that cu
 | WhatsApp             | Image, Audio, Video, PDF                   | Image, Audio, Video, PDF              |
 
 > [!Note]
-> - For Microsoft Teams, when a customer sends an emoji from Teams client, the agent will receive a .png image. When an agent sents a .gif image outbound, the customer will receive a .png image. 
+> - For Microsoft Teams, when a customer sends an emoji from the Teams client, the agent will receive a .png image. When an agent sents a .gif image outbound, the customer will receive a .png image. 
 > - The Direct Line channel supports the above attachment types, but it is up to the client to implement them.
-> - For LINE inbound and outbound, when sending a .gif image, the recipient will receive a .jpg image.
+> - For LINE inbound and outbound, when a .gif image is sent, the recipient will receive a .jpg image.
 
 ## Emoji support 
 
