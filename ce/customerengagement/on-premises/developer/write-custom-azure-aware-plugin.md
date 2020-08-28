@@ -3,7 +3,7 @@ title: "Write a custom Azure-aware plug-in (Developer Guide for Dynamics 365 Cus
 description: "The sample shows how plug-in code can be added to obtain the Azure service provider and initiate posting the execution context to the service bus by calling IExecutionContext)."
 ms.custom: 
 ms.date: 06/16/2018
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

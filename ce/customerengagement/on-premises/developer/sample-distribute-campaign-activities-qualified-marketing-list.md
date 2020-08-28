@@ -3,7 +3,7 @@ title: "Sample: Distribute campaign activities to qualified marketing list (Deve
 description: "The sample code demonstrates how to distribute campaign activities to the qualified members of a marketing list."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

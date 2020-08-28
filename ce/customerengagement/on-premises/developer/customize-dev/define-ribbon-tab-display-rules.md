@@ -3,7 +3,7 @@ title: "Define ribbon tab display rules (Developer Guide for Dynamics 365 Custom
 description: "Learn about defining ribbon tab displays rules."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

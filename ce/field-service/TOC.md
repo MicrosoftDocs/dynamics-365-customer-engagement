@@ -150,6 +150,7 @@
 ### [Publishing + monitoring](rso-schedule-optimization.md)
 ### [Overnight scheduling](rso-overnight-scheduling.md)
 ### [Single resource optimization](single-resource-optimization.md)
+### [Simulations](rso-simulation.md)
 ## [Lock options for bookings](booking-lock-options.md)
 ## [Resolving conflicts for bookings](rso-handling-resolving-booking-conflicts.md)
 ## [Analytics dashboard](scheduling-analytics-reports.md)
@@ -168,6 +169,7 @@
 #### [Prerequisites for Azure subscription](cfs-azure-subscription.md)
 #### [Installation and setup](installation-setup-iothub.md)
 #### [Quickstart: Build your own IoT solution](connected-field-service-overview.md)
+### [Use custom IoT providers](cfs-custom-iot-provider.md)
 ## Analyze
 ### [Receive IoT alerts from Azure IoT Central](cfs-iot-central-alerts.md)
 ### [Associate devices with customer accounts](cfs-iot-central-associate-devices.md)

@@ -6,7 +6,7 @@ manager: kfend
 ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-projectservice
-ms.date: 08/13/2020
+ms.date: 08/21/2020
 ms.topic: article
 ms.prod: 
 ms.technology: 
@@ -30,14 +30,16 @@ The need to track progress against a schedule varies by industry. Some industrie
 
 ## Effort tracking view
 
-The **Effort tracking** view tracks the progress of tasks in the schedule. It compares the actual effort hours spent on a task to the task's planned effort hours. PSA uses the following formulas to calculate the tracking metrics:
+The **Effort tracking** view tracks the progress of tasks in the schedule. It compares the actual effort hours spent on a task to the task's planned effort hours. Project Service Automation uses the following formulas to calculate the tracking metrics:
+
+Initially on the task creation: Planned cost will be set to the Estimated cost at complete. Once Actuals are recorded on the task, the following will be calculation on the Tracking view for Effort
 
 - Progress percentage = Actual effort spent to date ÷ Estimate at complete (EAC) 
-- Estimate to complete (ETC) = Planned effort – Actual effort spent to date 
+- Estimate to complete (ETC) = Estimate at complete (EAC)  – Actual effort spent to date 
 - EAC = Remaining effort + Actual effort spent to date 
 - Projected effort variance = Planned effort – EAC
 
-PSA shows a projection of the effort variance on the task. If the EAC is more than the planned effort, the task is projected to take more time than was originally planned. Therefore, it's behind schedule. If the EAC is less than the planned effort, the task is projected to take less time than was originally planned. Therefore, it's ahead of schedule.
+Project Service Automation shows a projection of the effort variance on the task. If the EAC is more than the planned effort, the task is projected to take more time than was originally planned. Therefore, it's behind schedule. If the EAC is less than the planned effort, the task is projected to take less time than was originally planned. Therefore, it's ahead of schedule.
 
 ## Reprojecting effort
 
@@ -62,23 +64,25 @@ Effort on summary tasks or container tasks can be reprojected. Regardless of whe
 
 ### Cost tracking view 
 
-The **Cost tracking** view compares the actual cost that was spent on a task to the planned cost on a task. 
+The **Cost tracking** view compares the actual cost that was spent on a task to the planned cost. 
 
 > [!NOTE]
 > This view shows only labor costs and doesn’t include costs from the expense estimates. 
 
-PSA uses the following formulas to calculate the tracking metrics:
+Project Service Automation uses the following formulas to calculate the tracking metrics:
 
-- Percentage of cost consumed = Actual cost spent to date ÷ Estimated cost at completion
-- Cost to complete (CTC) = Planned cost – Actual cost spent to date
-- EAC = Remaining cost + Actual cost spent to date
-- Projected cost variance = Planned cost – EAC
+When a task is created, the planned cost is equal to the estimated cost at complete. After actuals are recorded on the task, the following is calculated on the **Tracking** view for cost:
 
-A projection of the cost variance is shown on the task. If the EAC is more than the planned cost, the task is projected to cost more than was originally planned. Therefore, it's trending over budget. If the EAC is less than the planned cost, the task is projected to cost less than was originally planned. Therefore, it's trending under budget.
+ - Percentage of cost consumed = Actual cost spent to date ÷ Estimated cost at complete for the task
+ - Cost to complete (CTC) = Estimated cost at complete – Actual cost spent to date
+ - Estimated cost at complete = CTC + Actual cost spent to date
+ - Projected cost variance = Planned cost – Estimated cost at complete
+
+A projection of the cost variance is shown on the task. If the estimated cost at complete is more than the planned cost, the task is projected to cost more than was originally planned. Therefore, it's trending over budget. If the Estimated cost at complete is less than the planned cost, the task is projected to cost less than was originally planned and is trending under budget.
 
 ## Project manager’s reprojection of cost
 
-When effort is reprojected, the CTC, EAC, percentage of cost consumed, and projected cost variance are all recalculated in the **Cost tracking** view.
+When effort is reprojected, the CTC, Estimated cost at complete, percentage of cost consumed, and projected cost variance are all recalculated in the **Cost tracking** view.
 
 ## Project status summary
 

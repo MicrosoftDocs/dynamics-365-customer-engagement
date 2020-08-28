@@ -3,7 +3,7 @@ title: "Sample: Determine whether a user has a role (Developer Guide for Dynamic
 description: "The sample shows how to determine whether a user in Dynamics 365 Customer Engagement has been associated with a specific role."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

@@ -3,7 +3,7 @@ title: "Sample: End a recurring appointment series | MicrosoftDocs"
 description: "Sample demonstrates how to end a recurring appointment series by using the DeleteOpenInstancesRequest message."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

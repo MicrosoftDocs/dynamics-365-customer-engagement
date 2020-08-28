@@ -1,6 +1,6 @@
 
-# [Administer model-driven apps in Dynamics 365]
-## [Administer model-driven apps in Dynamics 365](admin-guide.md)
+# [Administer customer engagement apps in Dynamics 365]
+## [Administer customer engagement apps in Dynamics 365](admin-guide.md)
 ## Manage instances
 ### [Manage instances](new-instance-management.md)
 ### [Sandbox](manage-sandbox-instances.md)

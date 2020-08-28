@@ -3,7 +3,7 @@ title: "Sample: Close an incident (Developer Guide for Dynamics 365 Customer Eng
 description: "The sample code demonstrates how to process and close an incident (case) with a case resolution."
 ms.custom: 
 ms.date: 10/01/2019
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service:
 ms.suite: 
 ms.tgt_pltfrm: 

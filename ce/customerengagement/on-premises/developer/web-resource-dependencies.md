@@ -3,7 +3,7 @@ title: "Web resource dependencies (Developer Guide for Dynamics 365 Customer Eng
 description: "Learn about defining dependencies between web resources in Dynamics 365 Customer Engagement. "
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
