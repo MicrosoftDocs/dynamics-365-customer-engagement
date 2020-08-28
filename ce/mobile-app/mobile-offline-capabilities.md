@@ -1,7 +1,7 @@
 ---
 title: "Mobile offline capabilities and limitations (Dynamics 365 apps)| MicrosoftDocs"
 ms.custom: 
-ms.date: 6/18/2020
+ms.date: 8/28/2020
 ms.reviewer: kvivek
 ms.service: crm-online
 ms.suite: 
@@ -64,9 +64,11 @@ These entities and corresponding commands are available in offline mode.
 
 - **Offline search**: Available only for offline entities. User can only search one entity at a time. Only categorized search is supported in offline mode and not relevant search.
 
-- **Notes on the Timeline control**: Notes on the Timeline control is available in offline mode. You can take pictures, read notes, and add attachments in offline mode.
+- **Notes on the Timeline control**: Notes on the Timeline control is available in offline mode. You can take pictures, read notes, and add/remove attachments in offline mode.
   > [!NOTE]
   > The **Date** field is not available for mobile offline search.
+  
+ **Sustom entities**: These commands available on edit form, **Mark Complete**, **Refresh**, **Convert To- Opportunity**, and **Delete**.
 
 
 ## Limitations 
