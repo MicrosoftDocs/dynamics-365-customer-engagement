@@ -1,8 +1,9 @@
 ---
-title: "Field Service (Dynamics 365) mobile app | Microsoft Docs"
+title: "Dynamics 365 Field Service mobile applications | Microsoft Docs"
+description: Learn about the two Field Service mobile applications and when to use each one.
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 08/01/2020
+ms.date: 08/28/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -26,37 +27,40 @@ search.app:
   - D365FS
 ---
 
-# Field Service (Dynamics 365) mobile app
+# Implement the right mobile app for your technicians: Field Service Mobile (Xamarin) or Dynamics 365 Field Service mobile (Power App)
 
+Field Service technicians often need to see and update their work orders while onsite at a job. 
 
-Field Service (Dynamics 365) is a mobile app designed and optimized for technicians to view Dynamics 365 Field Service work orders, customer assets, accounts, and contacts. Different than Field Service Mobile (see the following feature comparison), this alternative mobile app is built on Microsoft's Power Platform as a [model-driven app](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-overview) and is customizable to your business needs with the same admin console as all Dynamics 365 business apps.
+There are two mobile apps available for technicians using Dynamics 365 Field Service:
 
-Both the Field Service (Dynamics 365) mobile app _and_ the Field Service Mobile app are included with Field Service.
+- Field Service Mobile, which is built on the Xamarin platform. In our documentation, we refer to this app as "Field Service Mobile (Xamarin). In the app stores, you'll find this app with the following icon:
 
-Available natively for Apple iOS and Google Android phones and tablets, Field Service (Dynamics 365) offers technicians many capabilities they need to perform onsite customer service, such as:  
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the Field Service Mobile Xamarin app in the store.](./media/mobile-power-app-app-store1.png)
 
-- A calendar view of assigned jobs
-- Support for picture, video, and asset barcode scanning
-- Customer signature capture
-- Offline capabilities so technicians can continue viewing and recording work in areas without internet
+- Field Service (Dynamics 365), which is built on the Power Platform. In our documentation, we refer to this app as Field Service mobile (Power App). In the app stores, you'll find this app with the following icon.
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the Dynamics 365 ](./media/mobile-power-app-app-store2.png)
+
+Both Field Service mobile (Power App) _and_ Field Service Mobile (Xamarin) are included with Field Service.
 
 ## Implementation and migration guidance
 
-We recommend to continue using the existing "[Field Service Mobile](./field-service-mobile-app-user-guide.md)" app for current and new deployments of Dynamics 365 Field Service. As development in the Field Service (Dynamics 365) mobile app continues through 2021, capabilities will become comparable to Field Service Mobile and system administrators should use the feature comparison information below to decide which mobile app is right for their organization or department.
+We recommend to continue using the existing "[Field Service Mobile](./field-service-mobile-app-user-guide.md)" app for current and new deployments of Dynamics 365 Field Service. As development in the Field Service mobile (Power App) continues through 2021, capabilities will become comparable to Field Service Mobile (Xamarin) and system administrators should use the feature comparison information below to decide which mobile app is right for their organization or department.
 
-While the new Field Service (Dynamics 365) app continues to evolve, we'll continue to make available and support the current Field Service Mobile app. By June 2021, new deployments must use Field Service (Dynamics 365) mobile app; support for the current Field Service Mobile app will end June 2022. 
+While the new Field Service mobile (Power App) continues to evolve, we'll continue to make available and support the current Field Service Mobile (Xamarin) app. By June 2021, new deployments must use Field Service mobile (Power App); support for the current Field Service Mobile (Xamarin) app will end June 2022. 
 
-## Feature comparison: Field Service (Dynamics 365) versus Field Service Mobile
+## Feature comparison: Dynamics 365 Field Service mobile (Power App) versus Field Service Mobile (Xamarin)
 
-Field Service (Dynamics 365) mobile app is recommended for **simpler** use cases and for organizations that want to get up and running quickly with a mobile solution for technicians because it is built on the Power Platform and uses the same admin console as Field Service web and the same PCF controls. 
+Field Service mobile (Power App) is recommended for **simpler** use cases and for organizations that want to get up and running quickly with a mobile solution for technicians because it is built on the Power Platform and uses the same admin console as Field Service web and the same PCF controls. 
 
-Field Service Mobile is recommended for more **complex** use cases where you may need custom reporting, push notifications, geofencing, and business processes or validations that work offline.
+Field Service Mobile (Xamarin) is recommended for more **complex** use cases where you may need custom reporting, push notifications, geofencing, and business processes or validations that work offline.
 
 Use the following feature comparison table to understand which mobile app is right for your business.
 
 
-| Feature | Category | Field Service (Dynamics 365) | Field Service Mobile | Details |
+| Feature | Category | Field Service mobile Power App | Field Service Mobile | Details |
 | --- | --- | --- | --- | --- |
 | Mobile platform |  | iOS, Android | iOS, Android, Windows | |
 | Camera capture (photo + video) | Technician | Yes | Yes | |
@@ -82,9 +86,7 @@ Use the following feature comparison table to understand which mobile app is rig
 | Bulk-add users  | Admin | 2020 release wave 2 | Yes | Quickly assign offline data sync profile to users. |
 | Check list for service tasks  | Technician | 2020 release wave 2| Yes | Check list for quickly mark task as complete. |
 
-
-
-Check [Release Plans](https://docs.microsoft.com/dynamics365/release-plans/) to stay up to date on upcoming features for Field Service including the Field Service (Dynamics 365) mobile app.
+Check [Release Plans](https://docs.microsoft.com/dynamics365/release-plans/) to stay up to date on upcoming features for Field Service including the Field Service mobile Power App mobile app.
 
 ## Prerequisites
 
@@ -416,9 +418,8 @@ Sometimes you may not see the correct booking form. You may see the following:
 
 If you see something like the previous screenshot, you're viewing the booking form, and *not* the combined booking and work order form.
 
-To solve this issue, make sure the user you're logged in to the mobile app as has the **Field Service - Resource** security role.
-
 ### See also
 
 - [What are model-driven apps in Power Apps?](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-overview)
 - [Enable entities for mobile offline synchronization](https://docs.microsoft.com//dynamics365/mobile-app/setup-mobile-offline-for-admin#step-1-enable-entities-for-mobile-offline-synchronization)
+
