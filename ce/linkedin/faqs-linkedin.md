@@ -40,6 +40,49 @@ No, you can't import leads or accounts from Sales Navigator to Dynamics 365 Sale
 
 Because there's no change to functionality in version 3.x, we aren't upgrading. This will have no effect on your current solution (version 2.x).
 
+## General  
+
+<a name="unable-sync-d365-org-under-admin-tab-linkedin"> </a>
+**I'm unable to sync Dynamics 365 organization with LinkedIn Sales Navigator under Admin tab and an error message is displayed specifying that the start of sync has failed.** 
+
+> [!div class="mx-imgBorder"]  
+> ![Unable to sync Dynamics 365 organization with LinkedIn Sales Navigator error message](media/faq-unable-sync-d365-lsn-error.png "Unable to sync Dynamics 365 organization with LinkedIn Sales Navigator error message")
+
+**Answer**
+
+The error is from the LinkedIn Sales Navigator application. Contact the [LinkedIn Sales Navigator](https://www.linkedin.com/help/sales-navigator/answer/a107028) support to resolve the issue.
+
+<a name="unable-log-in-to-linkedin-control"> </a>
+**I'm unable to sign in to LinkedIn control in Safari browser.**
+
+**Answer**
+
+Contact the [LinkedIn Sales Navigator](https://www.linkedin.com/help/sales-navigator/answer/a107028) support to resolve the issue.
+
+<a name="incorrect-owner-name-displayed"> </a>
+**When I create contact in LinkedIn Sales Navigator, incorrect name is displayed under the owner of the record instead of my name.**
+
+**Answer**
+
+Because the contact creation in LinkedIn Sales Navigator is not a Dynamics 365 feature, the name might not display as defined in Dynamics 365. Contact the [LinkedIn Sales Navigator](https://www.linkedin.com/help/sales-navigator/answer/a107028) support to resolve the issue. 
+
+
+<a name="unable-enable-crm-sync-for-seat"> </a>
+**I'm unable to enable CRM sync for a seat in LinkedIn Sales Navigator.**
+
+**Answer**
+
+The issue might have occurred due to the mismatch of user's email in Dynamics 365 and LinkedIn Sales Navigator. To resolve the issue, follow the steps described in [How Do I Enable CRM Sync if a User's Email is Mismatched?](https://www.linkedin.com/help/sales-navigator/answer/a162746).
+
+If the issue still persists, contact the [LinkedIn Sales Navigator](https://www.linkedin.com/help/sales-navigator/answer/a107028) support to resolve the issue.
+
+<a name="unable-writeback-inmails"> </a>
+**I'm unable to write back emails and messages from LinkedIn Sales Navigator to Dynamics 365 and the Copy message to CRM option is disabled.**
+
+**Answer**
+
+The issue has occurred due to the insufficient permissions in your user account to write back to Dynamics 365 from LinkedIn Sales Navigator. Contact the [LinkedIn Sales Navigator](https://www.linkedin.com/help/sales-navigator/answer/a107028) support to resolve the issue.
+
 ### See also
 
 [Troubleshooting LinkedIn integration errors](ts-linkedin-integration.md)
