@@ -1,9 +1,10 @@
 ---
 title: "Configure the Dynamics 365 Field Service mobile Power App | MicrosoftDocs"
+description: Learn how to configure the Dynamics 365 mobile Power App.
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 08/27/2020
-ms.reviewer: ""
+ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.technology: 
@@ -13,10 +14,10 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: krbjoran
+author: FieldServiceDave
 ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
 caps.latest.revision: 42
-ms.author: FieldServiceDave
+ms.author: daclar
 manager: shellyha
 search.audienceType: 
   - admin
@@ -28,20 +29,19 @@ search.app:
 
 # Configure the Dynamics 365 Field Service mobile Power App
 
-Administrators can edit how Field Service mobile Power App looks and functions for technicians.
+Administrators can edit how the Field Service mobile Power App looks and functions for technicians.
 
 Let's walk through three common configurations:
 
-1. Editing the entities displayed in the home screen (sitemap)
-2. Editing the fields and layout in the work order and booking forms
+1. Editing the entities displayed in the home screen (sitemap).
+2. Editing the fields and layout in the work order and booking forms.
 3. Editing the entities and records downloaded to the mobile phone in offline mode for use without internet access.
-
 
 ## Edit Sitemap entities on home screen
 
 Sign in to Dynamics 365 as a system administrator.
 
-To see your list of apps, go to: 
+To see your list of apps, go to:
 
 ```https://[YOUR-ENVIRONMENT-NAME].crm.dynamics.com/main.aspx?forceUCI=1&pagetype=apps```
 
@@ -49,7 +49,6 @@ Find the Field Service Mobile app and go to the **App Designer**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Dynamics 365, showing the list of apps and showing the option to open Field Service Mobile in the App Designer.](./media/mobile-2020-admin-app-designer.png)
-
 
 Select the edit icon to edit the site map.
 

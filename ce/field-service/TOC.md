@@ -87,10 +87,9 @@
 ### [Schedule board tab settings](schedule-board-tab-settings.md)
 ### [Preview the new schedule board (public preview)](preview-schedule-board.md)
 
-
 # Mobile apps
 ## [Compare mobile apps (Xamarin vs. Power App)](mobile-2020-power-platform.md)
-## Field Service Mobile (Xamarin)
+## Field Service Mobile (Xamarin app)
 ### [Overview](field-service-mobile-overview.md)
 ### [Setup](field-service-mobile-app-user-guide.md)
 ### [Customizations and configurations](mobile-app-configuration-customization.md)
@@ -102,7 +101,7 @@
 ### [Geofencing](geofencing.md)
 ### [Deep linking](mobile-deeplink.md)
 ### [Use Power Automate flows with Field Service Mobile](mobile-workflow-to-flow.md)
-### FAQs (Xamarin)
+### FAQs (Xamarin app)
 #### [What is the latest version of the mobile app and configuration tool?](mobile-faq-latest-version.md)
 #### [Mobile app won't sync to server or crashes immediately](mobile-faq-sync-crash.md)
 #### [Bookings don't appear when logged into the app?](mobile-faq-bookings-not-showing.md)

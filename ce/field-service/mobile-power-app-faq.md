@@ -1,9 +1,10 @@
 ---
 title: "Frequently asked questions for Dynamics 365 Field Service mobile Power App | MicrosoftDocs"
+description: Find answers to commonly asked questions about the Dynamics 365 mobile Power App.
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 08/27/2020
-ms.reviewer: ""
+ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.technology: 
@@ -13,10 +14,10 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: krbjoran
+author: FieldServiceDave
 ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
 caps.latest.revision: 42
-ms.author: FieldServiceDave
+ms.author: daclar
 manager: shellyha
 search.audienceType: 
   - admin
@@ -28,9 +29,9 @@ search.app:
 
 # Frequently asked questions for Dynamics 365 Field Service mobile Power App
 
-## Can I only add and view Field Service entities on Field Service (Dynamics 365)?
+## Can I only add and view Field Service entities on the Field Service mobile Power App?
 
-Because Field Service (Dynamics 365) is a model-driven app on the Power Platform, any entity can be added; users can only see entities and records that they have the licenses and security to access, regardless of whether it's part of the Field Service app or not.
+Because the Field Service mobile Power App is a model-driven app on the Power Platform, any entity can be added; users can only see entities and records that they have the licenses and security to access, regardless of whether it's part of the Field Service app or not.
 
 ## Why is the app saying "You're almost there"?
 
@@ -45,11 +46,11 @@ If you are getting the error "You're almost there" after signing in to the mobil
 
 ## Why doesn't the bookable resource booking form show work order details like **Customer**, **Service**, and **Notes**?
 
-Sometimes you may not see the correct booking form. You may see the following:
+Sometimes you may not see the correct booking form. You may see the following result:
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the wrong from issue.](./media/mobile-2020-faq-wrong-booking-form.png)
 
 If you see something like the previous screenshot, you're viewing the booking form, and *not* the combined booking and work order form.
 
-To solve this issue, make sure the user you're logged in to the mobile app as has the **Field Service - Resource** security role.
+To solve this issue, make sure the user you're signed into the mobile app as has the **Field Service - Resource** security role.

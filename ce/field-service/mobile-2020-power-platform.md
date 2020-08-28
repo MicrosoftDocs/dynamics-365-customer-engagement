@@ -1,8 +1,9 @@
 ---
-title: "Field Service mobile Power App mobile app | Microsoft Docs"
+title: "Dynamics 365 Field Service mobile applications | Microsoft Docs"
+description: Learn about the two Field Service mobile applications and when to use each one.
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 08/01/2020
+ms.date: 08/28/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -28,26 +29,21 @@ search.app:
 
 # Implement the right mobile app for your technicians: Field Service Mobile (Xamarin) or Dynamics 365 Field Service mobile (Power App)
 
-There are two mobile apps available for technicians to use Field Service to view and interact with work orders.
+Field Service technicians often need to see and update their work orders while onsite at a job. 
 
-Field Service Mobile is built on the Xamarin platform and can be found in the app stores with the following icon.This is the current app in market.
+There are two mobile apps available for technicians using Dynamics 365 Field Service:
 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-power-app-app-store1.png)
-
-
-Dynamics 365 Field Service mobile (Power App) is built on the Power Platform and can be found in the app stores with the following icon and titled "Field Service (Dynamics 365)". 
-
+- Field Service Mobile, which is built on the Xamarin platform. In our documentation, we refer to this app as "Field Service Mobile (Xamarin). In the app stores, you'll find this app with the following icon:
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-power-app-app-store2.png)
+> ![Screenshot of the Field Service Mobile Xamarin app in the store.](./media/mobile-power-app-app-store1.png)
 
+- Field Service (Dynamics 365), which is built on the Power Platform. In our documentation, we refer to this app as Field Service mobile (Power App). In the app stores, you'll find this app with the following icon.
 
-Both Field Service mobile (Power App)  _and_ Field Service Mobile (Xamarin) are included with Field Service. 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the Dynamics 365 ](./media/mobile-power-app-app-store2.png)
 
-
-
+Both Field Service mobile (Power App) _and_ Field Service Mobile (Xamarin) are included with Field Service.
 
 ## Implementation and migration guidance
 
