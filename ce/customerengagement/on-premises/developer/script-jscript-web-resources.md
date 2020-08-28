@@ -3,7 +3,7 @@ title: "Script(JScript) web resources (Developer Guide for Dynamics 365 Customer
 description: "Learn about using JavaScript web resources to create a library of JavaScript functions that can be accessed from anywhere. "
 ms.custom: 
 ms.date: 03/02/2018
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

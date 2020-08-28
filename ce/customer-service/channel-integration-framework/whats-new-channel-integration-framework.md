@@ -17,7 +17,7 @@ ms.custom:
 
 This topic provides a list of features that are introduced in the latest version of Dynamics 365 Channel Integration Framework.
 
-## Preview: What's new in Dynamics 365 Channel Integration Framework version 2.0
+## What's new in Dynamics 365 Channel Integration Framework version 2.0
 
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
