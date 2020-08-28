@@ -16,6 +16,7 @@ author: mduelae
 ms.author: mkaur
 manager: kvivek
 search.audienceType: 
+
   - enduser
 search.app: 
   - D365CE
@@ -80,7 +81,7 @@ To fix the issue, do the following:
 2. Select the tab with this error.
 3. Select the down arrow next to the tab, then select **Remove**.
 4. In your app, identify the role which is assigned to this user:
-     1. Sign in as a admin to your customer engagement app.
+     1. Sign in as an admin to your customer engagement app.
      2. Navigate to **Settings** > **Security** > **Users**. 
      3. Find and select the user account that got the error message to open it.
      4. Select **Manage Roles**.
@@ -221,7 +222,7 @@ To work around this issue, your tenant admin will need to remove this policy fro
 
 ### Error: Blocked a frame with origin from accessing a cross-origin frame
 
-A few pages in customer engagement apps in Dynamics 365 can only be opened in a browser window as they make use of JavaScript functions trying to access DOM elements and properties through `window.top` which is not supported to load within Microsoft Teams. When this page is opened without any iframe then it works fine as top most window’s context is customer engagement app page and required attributes and properties are available. Whereas when this same page is opened within Microsoft Teams, it's actually loaded inside an iframe where `window.top` represents top most window context which is Microsoft Teams window and not the customer engagement app page. Hence it's not able to find relevant attributes and properties which leads to showing of error message **Blocked a frame with origin from accessing a cross-origin frame** in the browser console. For example, if you open the schedule board page for Dynamics 365 Project Service Automation within Microsoft Teams, you will get this error.
+A few pages in customer engagement apps in Dynamics 365 can only be opened in a browser window as they make use of JavaScript functions trying to access DOM elements and properties through `window.top` which is not supported to load within Microsoft Teams. When this page is opened without any iframe then it works fine as top most window’s context is customer engagement app page and required attributes and properties are available. Whereas when this same page is opened within Microsoft Teams, it's actually loaded inside an iframe where `window.top` represents top most window context which is Microsoft Teams window and not the customer engagement app page. Hence it's not able to find relevant attributes and properties which lead to showing of error message **Blocked a frame with origin from accessing a cross-origin frame** in the browser console. For example, if you open the schedule board page for Dynamics 365 Project Service Automation within Microsoft Teams, you will get this error.
 
 To work around this, open the page in your customer engagement app and not in Microsoft Teams.
 
