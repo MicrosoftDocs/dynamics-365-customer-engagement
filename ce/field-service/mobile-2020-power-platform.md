@@ -30,7 +30,7 @@ search.app:
 
 There are two mobile apps available for technicians to use Field Service to view and interact with work orders.
 
-Field Service Mobile is built on the Xamarin platform and can be found in the app stores with the following icon.
+Field Service Mobile is built on the Xamarin platform and can be found in the app stores with the following icon.This is the current app in market.
 
 
 > [!div class="mx-imgBorder"]
@@ -51,17 +51,15 @@ Both Field Service mobile (Power App)  _and_ Field Service Mobile (Xamarin) are 
 
 ## Implementation and migration guidance
 
-We recommend to continue using the existing "[Field Service Mobile](./field-service-mobile-app-user-guide.md)" app for current and new deployments of Dynamics 365 Field Service. As development in the Field Service mobile Power App continues through 2021, capabilities will become comparable to Field Service Mobile and system administrators should use the feature comparison information below to decide which mobile app is right for their organization or department.
+We recommend to continue using the existing "[Field Service Mobile](./field-service-mobile-app-user-guide.md)" app for current and new deployments of Dynamics 365 Field Service. As development in the Field Service mobile (Power App) continues through 2021, capabilities will become comparable to Field Service Mobile (Xamarin) and system administrators should use the feature comparison information below to decide which mobile app is right for their organization or department.
 
-While the new Field Service mobile Power App continues to evolve, we'll continue to make available and support the current Field Service Mobile app. By June 2021, new deployments must use Field Service mobile Power App; support for the current Field Service Mobile app will end June 2022. 
-
-In general your entire organization or your entire team should use the same mobile app.
+While the new Field Service mobile (Power App) continues to evolve, we'll continue to make available and support the current Field Service Mobile (Xamarin) app. By June 2021, new deployments must use Field Service mobile (Power App); support for the current Field Service Mobile (Xamarin) app will end June 2022. 
 
 ## Feature comparison: Dynamics 365 Field Service mobile (Power App) versus Field Service Mobile (Xamarin)
 
-Field Service mobile Power App mobile app is recommended for **simpler** use cases and for organizations that want to get up and running quickly with a mobile solution for technicians because it is built on the Power Platform and uses the same admin console as Field Service web and the same PCF controls. 
+Field Service mobile (Power App) is recommended for **simpler** use cases and for organizations that want to get up and running quickly with a mobile solution for technicians because it is built on the Power Platform and uses the same admin console as Field Service web and the same PCF controls. 
 
-Field Service Mobile is recommended for more **complex** use cases where you may need custom reporting, push notifications, geofencing, and business processes or validations that work offline.
+Field Service Mobile (Xamarin) is recommended for more **complex** use cases where you may need custom reporting, push notifications, geofencing, and business processes or validations that work offline.
 
 Use the following feature comparison table to understand which mobile app is right for your business.
 
