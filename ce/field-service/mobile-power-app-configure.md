@@ -1,8 +1,8 @@
 ---
-title: "Install and setup Dynamics 365 for Field Service | MicrosoftDocs"
+title: "Configure the Dynamics 365 Field Service mobile Power App | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 09/30/2020
+ms.date: 08/27/2020
 ms.reviewer: ""
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -26,8 +26,7 @@ search.app:
   - D365FS
 ---
 
-
-## Configure the Field Service (Dynamics 365) mobile app
+# Configure the Dynamics 365 Field Service mobile Power App
 
 Administrators can edit how Field Service (Dynamics 365) looks and functions for technicians.
 
@@ -38,7 +37,7 @@ Let's walk through three common configurations:
 3. Editing the entities and records downloaded to the mobile phone in offline mode for use without internet access.
 
 
-### Edit Sitemap entities on home screen
+## Edit Sitemap entities on home screen
 
 Sign in to Dynamics 365 as a system administrator.
 
@@ -73,7 +72,7 @@ You can even create entirely new groups with more subareas to display different 
 > [!Note]
 > For every entity you display in the sitemap, you can choose the views available on mobile in the App Designer.
 
-### Edit the booking and work order form
+## Edit the booking and work order form
 
 You can add and delete fields displayed on Field Service (Dynamics 365); because the app is built as a model-driven Power App, you can use the Power Apps Control Framework to display different field controls like toggle buttons and sliders.
 
@@ -116,7 +115,7 @@ Add and delete booking fields as needed.
 
 Another way you can add work order information to the booking form is to add a [quick view form](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-quick-view-forms) that displays work order fields. Quick view forms are read-only, but you can go to the related work order form from there.
 
-### Configure offline data and sync filters
+## Configure offline data and sync filters
 
 Administrators can edit the data downloaded to Field Service (Dynamics 365) in offline mode when no internet access is available. 
 
@@ -167,7 +166,7 @@ For another example, the **Work Order Product** entity has a data download filte
 
 For more information, see the article: [Dynamics 365 offline profiles](https://docs.microsoft.com/dynamics365/mobile-app/setup-mobile-offline-for-admin#step-1-enable-entities-for-mobile-offline-synchronization).
 
-#### Create new offline profiles
+### Create new offline profiles
 
 If you create a new offline profile, you'll need to add it to the Field Service Mobile app in the app designer.
 
@@ -181,7 +180,7 @@ Go to **Properties** and add the offline profile.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the app designer, on the Field Service Mobile properties tab.](./media/mobile-2020-add-offline-profiles.png)
 
-### Offline JavaScript
+## Offline JavaScript
 
 In some cases, an organization may want to run validation on certain field values after a technician updates an entity. For example, let's say you want to make sure the duration of a work order booking is at least two hours once a technician saves a record in the Field Service (Dynamics 365) mobile app.
 

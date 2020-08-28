@@ -1,8 +1,8 @@
 ---
-title: "Install and setup Dynamics 365 for Field Service | MicrosoftDocs"
+title: "Frequently asked questions for Dynamics 365 Field Service mobile Power App | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 09/30/2020
+ms.date: 08/27/2020
 ms.reviewer: ""
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -26,13 +26,13 @@ search.app:
   - D365FS
 ---
 
-## FAQs
+# Frequently asked questions for Dynamics 365 Field Service mobile Power App
 
-### Can I only add and view Field Service entities on Field Service (Dynamics 365)?
+## Can I only add and view Field Service entities on Field Service (Dynamics 365)?
 
 Because Field Service (Dynamics 365) is a model-driven app on the Power Platform, any entity can be added; users can only see entities and records that they have the licenses and security to access, regardless of whether it's part of the Field Service app or not.
 
-### Why is the app saying "You're almost there"?
+## Why is the app saying "You're almost there"?
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the "you're almost there" issue.](./media/mobile-2020-youre-almost-there.png)
@@ -43,7 +43,7 @@ If you are getting the error "You're almost there" after signing in to the mobil
 2. Sign in again, pull down the screen to refresh and wait for at least a few minutes
 3. If completing both steps 1 and 2 above do not resolve the issue, [submit a support ticket](https://dynamics.microsoft.com/contact-us/).
 
-### Why doesn't the bookable resource booking form show work order details like **Customer**, **Service**, and **Notes**?
+## Why doesn't the bookable resource booking form show work order details like **Customer**, **Service**, and **Notes**?
 
 Sometimes you may not see the correct booking form. You may see the following:
 
