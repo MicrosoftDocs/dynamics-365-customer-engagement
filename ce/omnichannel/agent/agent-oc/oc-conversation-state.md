@@ -34,7 +34,7 @@ Types of conversation states:
 
 ## Open
 
-The conversation (work items) that is in the queue and not assigned to you (agent) is classified under **Open** state. 
+The conversation (work item) that is in the queue and not assigned to you (agent) is classified under **Open** state. 
 
 The conversation (work item) transitions from **Open** to **Active** or **Closed** state under the following scenarios.
 
