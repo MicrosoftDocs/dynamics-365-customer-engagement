@@ -1,5 +1,5 @@
 ---
-title: View resource availability 
+title: View resource availability
 description: How to view resource availability in Project Service
 author: JohnPBurrows
 manager: kfend
@@ -19,6 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365PS
+  - ProjectOperations
 ---
 # View resource availability (Project Service)
 

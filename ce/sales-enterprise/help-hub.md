@@ -43,7 +43,7 @@ manager: annbe
 <li><a href="create-edit-lead-sales.md" data-raw-source="[Create or edit leads](create-edit-lead-sales.md)">Create or edit leads</a></li>
 <li><a href="qualify-lead-convert-opportunity-sales.md" data-raw-source="[Qualify or convert leads](qualify-lead-convert-opportunity-sales.md)">Qualify or convert leads</a></li>
 <li><a href="create-edit-opportunity-sales.md" data-raw-source="[Create or edit opportunities](create-edit-opportunity-sales.md)">Create or edit opportunities</a></li>
-<li><a href="user-guide.md" data-raw-source="[More help resources for sales people...](user guide.md)">More help resources for sales people...</a></li>
+<li><a href="user-guide.md" data-raw-source="[More help resources for salespeople...](user guide.md)">More help resources for salespeople...</a></li>
 
 </td><td>
 <h2>In-app marketing</h2>

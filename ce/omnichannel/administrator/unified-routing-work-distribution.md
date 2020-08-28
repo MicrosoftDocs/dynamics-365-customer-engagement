@@ -4,7 +4,7 @@ description: Understand about unified routing and work distribution in Omnichann
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.date: 09/22/2019
+ms.date: 07/18/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -24,7 +24,7 @@ Advantages of unified routing and work distribution are as follows:
 
 Unified routing and work distribution is a two-step process:
 
-1. Routing dispatches conversations into the right Omnichannel queues.
+1. Routing dispatches conversations into the right queues.
 2. Work distribution allocates the conversations in a queue to agents in real time, based on capacity and presence.
 
 > [!div class=mx-imgBorder]
@@ -51,7 +51,7 @@ When a conversation is present in a queue, the work distribution system searches
 
 If there are other conversations present in the queues, then the conversation will be added to the end of the queue and will be assigned to the agents after other conversations are assigned.
 
-If there are one or more agents available, then the work distribution system takes a course of action based on the following scenarios.
+If one or more agents are available, then the work distribution system takes a course of action based on the following scenarios.
 
   | Sl no | Scenario | Work distribution system action |
   |---------------|-----------------|---------------------------------------|
@@ -61,7 +61,6 @@ If there are one or more agents available, then the work distribution system tak
 
    > [!Note]
    > - The work distribution system gives higher priority to the agents who have worked and got disconnected from a conversation in the past.
-   >
    > - The work distribution system gives lower to the agents who have rejected, transferred, or timed out the conversation.
 
 ### Agent available trigger
@@ -74,9 +73,9 @@ An agent is available in the following scenarios:
  - When an agent presence status changes from one state to another such as **Away** to **Available**, **Away** to **Busy**, and  **Away** to **DND**.
  - When an agent capacity changes due to the closure of a conversation or assignment of a conversation.
 
-Whenever an agent are available, the work distribution system always retrieves the oldest conversations (longer duration) that is present in the highest priority queue and assigns the conversation to an agent who satisfies the capacity condition.
+Whenever agents are available, the work distribution system always retrieves the oldest conversations (longer duration) that is present in the highest priority queue and assigns the conversation to the agent who satisfies the capacity condition.
 
-When there is more than one conversation that satisfies the capacity, then the work distribution system takes a course of action based on the following scenarios.
+When more than one conversation satisfies the capacity, then the work distribution system takes a course of action based on the following scenarios.
 
   | Sl no | Scenario | Work distribution system action |
   |---------------|-----------------|---------------------------------------|
@@ -108,11 +107,12 @@ Let us see the steps involved in the scenario walk-through.
     - Capacity is **50 units** or more.
     - Presence status is **Available**.
 
-As **Bert** has the required capacity and presence, the system  assigns the conversation to **Bert**. Once Bert starts working on the conversation,  the presence changes to **Busy** and the remaining capacity is updated to **30 units**.
+As **Bert** has the required capacity and presence, the system  assigns the conversation to **Bert**. After Bert starts working on the conversation,  the presence changes to **Busy** and the remaining capacity is updated to **30 units**.
 
 ### Adjusting an agent's capacity based on conversation allocation
 
-An agent's capacity is adjusted when a conversation is allocated. Here are the actions that occur:
+Agent capacity is specified by the administrator in the User settings. See [Manage users](users-user-profiles.md) to learn how to set agent capacity.
+An agent's capacity is adjusted by the system when a conversation is allocated, and the following actions occur:
 
 - The conversation is added to the agent's **My Items** list.
 - The agent's presence status changes to **Busy** or **Busy DND**.
@@ -121,7 +121,7 @@ An agent's capacity is adjusted when a conversation is allocated. Here are the a
 
 ### Adjusting an agent's capacity based on closure of allocated conversation
 
-When an agent has finished working on a conversation, the capacity should be added back to the agent's availability. Here are the actions that occur:
+When an agent has finished working on a conversation, the system adds the capacity back to the agent's availability, and the following actions occur:
 
 - The conversation is removed from the agent's **My Items** list.
 - The agent's presence status changes to **Available**.

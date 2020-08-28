@@ -1,7 +1,7 @@
 ---
 title: "Create segments and lists to establish target markets (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Use segments and lists to target customer journeys and manage subscriptions in Dynamics 365 Marketing"
-ms.date: 07/01/2020
+ms.date: 07/07/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -82,7 +82,7 @@ Read this section to get a basic overview of how to create a segment and start i
 
 1. Select **New** to start creating your new segment, and select the type of segment you would like to create:
 
-  - **Dynamic segment**: Creates a dynamic segment prepared to query contact records, interaction records as well as include, intersect, or exclude contacts in existing segments. While querying on contact records, you can add relations as needed to create a query of arbitrary complexity.
+  - **Dynamic segment**: Creates a dynamic segment that can query contact records and interaction records, as well as include, intersect, or exclude contacts in existing segments. While querying contact records, you can add relations as needed to create a more complex query.
   - **Static segment**: Creates a segment where you manually select each member rather than creating a logical query that automatically adds them. For details about how to work with this kind of segment, see [Design static segments](segments-static.md)
 
 3. If you selected a **dynamic segment**: The **Segment template** dialog box opens, showing a list of available [templates](segments-templates.md). Each template provides a fully or partially defined query designed for a particular purpose, as indicated by the template name. Select any template to read more information about it in the information panel. **Filter** and **Search** features are provided to help you find the template you're looking for. Select a listed template and then choose **Select** to load the template, or choose **Cancel** to start building a new segment from scratch.

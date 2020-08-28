@@ -119,8 +119,11 @@ manager: annbe
 
 </td>
 <td>
-<h2>Integrations</h2>
+<h2>LinkedIn Integrations</h2>
 <li><a href="../linkedin/ts-linkedin-integration.md#error-in-enabling-linkedin-updates" data-raw-source="[Error in enabling LinkedIn updates](../linkedin/ts-linkedin-integration.md#error-in-enabling-linkedin-updates)">Error in enabling LinkedIn updates</a></li>
+<li><a href="../linkedin/ts-linkedin-integration.md#unable-to-upgrade-the-linkedinsalesnavigatorforunifiedclient-solution" data-raw-source="[Unable to upgrade the LinkedInSalesNavigatorForUnifiedClient solution](../linkedin/ts-linkedin-integration.md#unable-to-upgrade-the-linkedinsalesnavigatorforunifiedclient-solution)">Unable to upgrade the LinkedInSalesNavigatorForUnifiedClient solution</a></li>
+
+Unable to upgrade the LinkedInSalesNavigatorForUnifiedClient solution
 </td></tr>
 
 </table>

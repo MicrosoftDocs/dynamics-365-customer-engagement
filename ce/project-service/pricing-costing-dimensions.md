@@ -1,10 +1,9 @@
 ---
-
 title: Pricing and costing dimensions home page
 description: This topic provides an overview of pricing dimensions.
 author: rumant
 manager: kfend
-ms.custom:
+ms.custom: 
   - dyn365-projectservice
 ms.date: 11/19/2018
 ms.topic: article
@@ -17,7 +16,8 @@ search.audienceType:
   - customizer
   - enduser
 search.app: 
-    - D365PS
+  - D365PS
+  - ProjectOperations
 ---
 
 # Pricing and costing dimensions home page

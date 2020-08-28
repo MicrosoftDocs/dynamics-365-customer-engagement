@@ -1,10 +1,10 @@
 ---
 title: "Manage notification templates in Dynamics 365 Channel Integration Framework version 2.0| MicrosoftDocs"
 description: "Learn about managing notification templates in Dynamics 365 Channel Integration Framework version 2.0"
-author: kabala123
-ms.author: kabala
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
-ms.date: 04/01/2020
+ms.date: 08/03/2020
 ms.topic: article
 ms.service: 
   - dynamics-365-customerservice
@@ -67,10 +67,11 @@ Also, as an administrator, you can set the browser notification permission by us
     | General | Title | Provide a title to the notification that you want agents to see at runtime. | Incoming chat conversation |
     | General | Icon | Select a web resource path to add an icon. | /webresources/msdyn_chat_icon_zfp.svg <br><br> **Note:** This is the default value. You can change the icon as per your requirement. |
     | General |Show timeout| Yes |Set **Yes** to show the timer in the notification, or **No** to hide the timer in the notification for the agents. <br><br> **Note:** <br> - Irrespective of whether you set **Yes** or **No** to show or to hide the timeout value for the agent, the timer runs, and after the timeout duration, the notification disappears. <br> - **Yes** is the default value. |
-    | General | Timeout (seconds) | Provide a duration in seconds; after this duration, the notification disappears. | 120 <br><br> **Note:** This is the default value. You can change the duration as per your requirement.
+    | General | Timeout (seconds) | Provide a duration in seconds; after this duration, the notification disappears. | 120 <br><br> **Note:** This is the default value. You can change the duration as per your requirement.|
+    | General | Auto-assign work items | Set to **Yes** to automatically assign the incoming conversation. | The default value is **No**.</li><li>Use the auto-assign setting only if you have the related routing and assignment logic configured.</li></ul> |
     | General | Accept Button | Specify a text for the Accept button. This text appears for the agents to accept a conversation request. | Accept <br><br> **Note:** This is the default value. You can change the text as per your requirement. |
     | General | Reject Button | Set the toggle to **Yes** if you want to show the Reject button to agents. <br> After you set the toggle to Yes, the button text box appears. Specify a text for the Reject button. This text appears for the agents to reject a conversation request. | Reject <br><br> **Note:** This is the default value. You can change the text as per your requirement. |
-    | General | Show desktop notifications | Specify whether you want to show notifications to the agents when the model-driven app not in focus. | When app is in background <br><br> **Note:** <br>- **Never** is the default value. <br> - Currently, this option is on Preview. To learn more, see [Desktop notification when app is in background](#desktop-notifications-when-the-app-is-in-the-background). |
+    | General | Show desktop notifications | Specify whether you want to show notifications to the agents when the model-driven app not in focus. | When app is in background <br><br> **Note:** <br>- **Never** is the default value. <br> To learn more, see [Desktop notification when app is in background](#desktop-notifications-when-the-app-is-in-the-background). |
 
     ![Create a notification template](../media/create-notification-template.png "Create a notification template")
 
@@ -80,7 +81,7 @@ Also, as an administrator, you can set the browser notification permission by us
 
 7.	Select the **Search** icon in the **Look for Records** box. If there are no records, you see a message: **No records found. Create a new record.**
 
-8.	Select **+ New** to create a new notification field. A confirm dialog box appears, asking whether you want to leave the page. Select **OK**.
+8.	Select **New** to create a new notification field. A confirm dialog box appears, asking whether you want to leave the page. Select **OK**.
 
 9.	Specify the following in the **New Notification Field** page.
 

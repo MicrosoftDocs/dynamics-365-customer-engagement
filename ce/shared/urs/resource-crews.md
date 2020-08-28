@@ -100,7 +100,7 @@ For the time range a resource is part of a crew, there is a grey area displayed 
 
 ### 4. Manually schedule the crew
 
-Dragging a single requirement to the crew header resource will create a booking for the crew header resource, along with all child resources that are associated to the crew during that time.
+Dragging a single requirement to the crew header resource will create a booking for the crew header resource, along with all child resources that are associated to the crew during that time and are working for the full duration of the booking. Bookings will not be created for child resources that are not working.
 
 Note that requirement groups can't be manually scheduled to crews; only single requirements can be manually scheduled. 
 

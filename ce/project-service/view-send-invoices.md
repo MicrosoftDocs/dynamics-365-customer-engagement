@@ -1,5 +1,5 @@
 ---
-title: View and send invoices 
+title: View and send invoices
 description: How to view and send invoices in Project Service
 author: rumant
 manager: kfend
@@ -19,6 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365PS
+  - ProjectOperations
 ---
 # View and send invoices (Project Service)
 

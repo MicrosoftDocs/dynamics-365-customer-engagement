@@ -3,7 +3,7 @@ title: "Sample: Complex LINQ queries (Developer Guide for Dynamics 365 Customer 
 description: "This sample shows how to use .NET Language-Integrated Query (LINQ) with Microsoft Dynamics CRM 2015 and Microsoft Dynamics CRM Online 2015 Update"
 ms.custom: 
 ms.date: 02/05/2020
-ms.reviewer: "pehecke"
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

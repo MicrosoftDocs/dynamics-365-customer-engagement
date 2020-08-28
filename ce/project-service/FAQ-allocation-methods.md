@@ -1,17 +1,14 @@
 ---
-
-
 title: Booking allocation methods
 description: This topic provides information about the different ways you can book allocations.
-author: ruhercul                
+author: ruhercul
 manager: kfend
 ms.service: dynamics-365-projectservice
-ms.custom:
+ms.custom: 
   - dyn365-projectservice
 ms.date: 9/26/2019
 ms.topic: article
 ms.prod: 
-ms.service: business-applications
 ms.technology: Microsoft Dynamics 365 Project Service Automation 2.x and 3.x
 ms.author: ruhercul
 audience: Admin
@@ -22,6 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365PS
+  - ProjectOperations
 ---
 
 

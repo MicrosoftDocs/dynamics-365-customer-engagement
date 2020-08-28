@@ -35,21 +35,6 @@ When there is an updated version of the app, you will receive a notification.
 > [!IMPORTANT]
 >  You won't be able to use this app if you don't have the correct privileges. Your system administrator can configure privileges for you: [Find your Dynamics 365 apps administrator or support person](../basics/find-administrator-support.md). If you're an administrator, [learn how to set privileges](../mobile-app/set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md).  
 
-### Required services and resources
-This list identifies all services to which Dynamics 365 for phones and tablets talks and their usages. Your network must not block these services.
-
-| Domain(s) | Protocols | Uses |
-| --- | --- | --- |
-| api.businessappdiscovery.microsoft.com |https |Starting with version 13.19033.0, used for email sign-in and the app list. |
-|<br>login.microsoft.com</br> <br>login.windows.net</br> <br>login.microsoftonline.com</br> <br>secure.aadcdn.microsoftonline-p.com</br>|https |Azure Active Directory - used for authentication (in all versions).
-
-
-This list identifies all resources used by Dynamics 365 for phones and tablets. Your configuration (for example, Azure Active Directory or Intune) must not block these resources.
-
-| Resources(s) | Uses |
-| --- | --- |
-| service.powerapps.com |Starting with version 13.19091.20, used for email sign-in and the app list. |
-
 ## Install the app from your device’s app store
  Choose the download link for your device:
 

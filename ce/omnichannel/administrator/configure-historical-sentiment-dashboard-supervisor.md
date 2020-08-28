@@ -6,7 +6,7 @@ ms.author: nenellim
 manager: shujoshi
 applies_to: 
   - ""
-ms.date: 05/11/2020
+ms.date: 07/10/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -172,7 +172,7 @@ You must share the configured application with your entire organization for supe
 
 Each supervisor must configure their Dynamics 365 Customer Service environment to integrate the Omnichannel Insights and Omnichannel Sentiment Analysis dashboards.
 
-1. Sign in to the Omnichannel Administration app.
+1. Sign in to the Omnichannel for Customer Service app.
 
 2. Select **Overview Dashboard** under **Supervisor Experience**.
 

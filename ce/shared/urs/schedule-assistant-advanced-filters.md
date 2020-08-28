@@ -67,7 +67,7 @@ This filter is similar to the **Ignore proposed bookings** filter, except it's u
 
 ### Default values and sorting
 
-When the schedule assistant is triggered, you'll see that some fields have default values. For example, schedule assistant search results are listed in alphabetical order by default. These default values can be changed in the **Schedules Assistant Retrieve Constraints Query**.
+When the schedule assistant is triggered, you'll see that some fields have default values. For example, schedule assistant search results are listed in alphabetical order by default. These default values can be changed in the **Schedule Assistant Retrieve Constraints Query**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Schedule Assistant Retrieve Constraints Query. ](../../field-service/media/scheduling-schedule-assistant-retreive-resources-query.png)
@@ -75,3 +75,9 @@ When the schedule assistant is triggered, you'll see that some fields have defau
 To get there, double-click on the schedule board tab. Open default settings in the top right. Under the schedule types section, select the gear icon next to **Default Retrieve Constraints Query**.
 
 From here, you can edit the XML to define how the schedule assistant searches for each entity that is available for scheduling.
+
+## Additional notes
+
+Do not edit the schedule assistant **Retrieve Constraints Query** for the territory shown below. It can damage the schedule assistant logic.
+
+```<Territories ufx:select="lookup-to-list(Requirement/msdyn_territory)" />```

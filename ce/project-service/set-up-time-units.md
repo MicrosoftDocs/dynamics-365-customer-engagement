@@ -1,5 +1,5 @@
 ---
-title: Set up time units 
+title: Set up time units
 description: How to set up time units in Project Service
 author: revathimuthiah
 manager: kfend
@@ -19,6 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365PS
+  - ProjectOperations
 ---
 # Set up time units (Project Service)
 

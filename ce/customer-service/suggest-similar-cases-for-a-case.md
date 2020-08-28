@@ -4,7 +4,7 @@ description:
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/03/2020
+ms.date: 08/14/2020
 ms.topic: article
 ms.service: 
   - dynamics-365-customerservice
@@ -97,24 +97,57 @@ See the below table to understand how search results are impacted when Relevance
 |Relevance search disabled  |Relevance search enabled  |
 |---------|---------|
 |Considering similarity rules, search is performed across primary field of an entity.  |   Considering attributes configured in similarity rules,  search is performed on entity attributes configured for relevance search.   |
-|For example,  if similarity rules are configured on Title and Category, comma separated attribute text is passed to look for a match in the Case title of case entity.     |  For example,    if similarity rules are configured on Title and Category, and Relevance search is enabled on Description, the search is performed for Title and Category in the Description field of case entity.     |
+|For example,  if similarity rules are configured on Title and Category, comma-separated attribute text is passed to look for a match in the Case title of case entity.     |  For example,    if similarity rules are configured on Title and Category, and Relevance search is enabled on Description, the search is performed for Title and Category in the Description field of case entity.     |
 |  |         |
 
 ### Enable a field for exact matching of similar cases
 
  Follow the below steps to enable a field for exact match of similar cases.
 
-1. Go to **Settings** > **Customizations** > **Customize the System**.  
+1. In Customer Service Hub, go to **Settings** > **Advanced Settings**. 
+  
+2. Select the **Settings** > **Customizations**.
 
-2. Expand **Entities**, go to **Case** entity and then select **Fields**.  
+3. On the **Customizations** page, select **Customize the System**.
+  
+   The **Information** page is displayed.
 
-3. Select a field and select **Edit** to edit the properties. 
+4. In the left pane, expand **Entities**, go to the entity you want to customize, expand it, and then select **Views**.
+  
+   A view page with a list of items is displayed.
 
-4. In the **Schema** section of the **General** tab, select **Yes** for **Searchable**  in the drop-down list.
+5. Double-click **Quick Find </entity name>** for the entity. (Note: You might need to scroll down to find this option.)
+  
+   ![Views page](media/quick-find-view.png "Select Views") 
+   
+   A view page is displayed.
+  
+6. On the right-hand side, select **Add Find Columns**.
+   
+   ![Add Find Columns](media/add-find-columns.png "Select Add Find Columns")
+  
+   The **Add Find Columns** page is displayed.
+   
+7. Select the checkbox for the entity you want to be an exact match field.
 
-5. Select **Save**, and then select **Save and Close** to save the setting. Publish this customization to enable exact matching for the field.
+   ![Exact match options](media/select-entities-view.png "Select the checkbox for the entity you want to be an exact match")
 
-    ![Setting for exact match](media/exact-match.png)
+8. Select **OK**
+
+   You're returned to the **Quick Find </entity name>** page.
+
+9. Select **Save and Close**.
+
+   You're returned to the **Settings** page.
+   
+9. Select **Publish All Customizations** to finish enabling exact matching for the field.
+
+> [!NOTE]
+ >
+ > For a field to be eligible for exact matching, it must meet the following criteria:
+ > - It can't be a Primary Key.
+ > - It can't be these types: String, Memo, Picklist, Boolean, Whole Number, Two Options, Date and Time, or Floating Point Number.
+ > - It can be these types: Lookup, OptionSet, Customer, Owner, Status, State, Status Reason.
 
 ## See similar case suggestions in the Customer Service Hub
 
@@ -134,6 +167,6 @@ You can view the similar case suggestions in the Related section of the Customer
 
 ### See also  
 
-[Related section in the Customer Service Hub](customer-service-hub-user-guide-basics.md#related-section)
-
+[Enable AI suggestions for similar cases and knowledge articles](csw-enable-ai-suggested-cases-knowledge-articles.md)  
+[Related section in the Customer Service Hub](customer-service-hub-user-guide-basics.md#related-section)  
 [Service Management Guide (Customer Service Hub and Customer Service app)](service-manager-guide.md)

@@ -1,5 +1,5 @@
 ---
-title: Unit groups and units 
+title: Unit groups and units
 description: This topic provides information about unit groups and units.
 author: rumant
 manager: kfend
@@ -19,6 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365PS
+  - ProjectOperations
 ---
 
 # Unit groups and units

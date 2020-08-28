@@ -1,5 +1,5 @@
 ---
-title: Administrator guide 
+title: Administrator guide
 description: Step-by-step instructions for Project Service administration
 author: JohnPBurrows
 manager: kfend
@@ -19,6 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365PS
+  - ProjectOperations
 ---
 # Administrator guide (Project Service)
 

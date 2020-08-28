@@ -6,7 +6,9 @@
       "build_output_subfolder": "customer-engagement",
       "locale": "en-us",
       "monikers": [],
-      "moniker_ranges": [">= dynamics-usd-3"],
+      "moniker_ranges": [
+        ">= dynamics-usd-3"
+      ],
       "xref_query_tags": [
         "/dotnet",
         "/dynamics365/customer-engagement/web-api"
@@ -92,5 +94,8 @@
       "version": "latest"
     }
   ],
-  "need_generate_intellisense": false
+  "need_generate_intellisense": false,
+  "docs_build_engine": {
+    "name": "docfx_v3"
+  }
 }
