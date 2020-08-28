@@ -26,6 +26,17 @@ search.app:
   - D365FS
 ---
 
+# Get started with Dynamics 365 Field Service mobile Power App
+
+Field Service (Dynamics 365) is a mobile app designed and optimized for technicians to view Dynamics 365 Field Service work orders, customer assets, accounts, and contacts. Different than Field Service Mobile (see the following feature comparison), this alternative mobile app is built on Microsoft's Power Platform as a [model-driven app](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-overview) and is customizable to your business needs with the same admin console as all Dynamics 365 business apps.
+
+Available natively for Apple iOS and Google Android phones and tablets, Field Service (Dynamics 365) offers technicians many capabilities they need to perform onsite customer service, such as:  
+
+- A calendar view of assigned jobs
+- Support for picture, video, and asset barcode scanning
+- Customer signature capture
+- Offline capabilities so technicians can continue viewing and recording work in areas without internet
+
 ## Prerequisites
 
 - **Field Service v8.8.22+**. The Field Service (Dynamics 365) mobile app will appear in your list of Dynamics 365 applications.

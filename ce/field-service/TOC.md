@@ -89,7 +89,7 @@
 
 
 # Mobile apps
-## [Compare Xamarin vs. Power App mobile apps](mobile-2020-power-platform.md)
+## [Compare mobile apps (Xamarin vs. Power App)](mobile-2020-power-platform.md)
 ## Field Service Mobile (Xamarin)
 ### [Overview](field-service-mobile-overview.md)
 ### [Setup](field-service-mobile-app-user-guide.md)
