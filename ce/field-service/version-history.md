@@ -43,13 +43,13 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 |Station | Region | Current version | Next version |  Scheduled date
 |------| -------|-------|-----|------|         
 |<strong>Station 2</strong> | |  |  | |
-| | <i>South America</i> | [8.8.25.29](https://docs.microsoft.com/dynamics365/field-service/version-history#882529) | [8.8.26.24](https://docs.microsoft.com/dynamics365/field-service/version-history#882624) | 08/28/2020
-| | <i>Canada</i> | [8.8.25.29](https://docs.microsoft.com/dynamics365/field-service/version-history#882529) | [8.8.26.24](https://docs.microsoft.com/dynamics365/field-service/version-history#882624) | 08/28/2020
-| | <i>India</i> | [8.8.25.29](https://docs.microsoft.com/dynamics365/field-service/version-history#882529) | [8.8.26.24](https://docs.microsoft.com/dynamics365/field-service/version-history#882624) | 08/28/2020
-| | <i>France</i> | [8.8.25.29](https://docs.microsoft.com/dynamics365/field-service/version-history#882529) | [8.8.26.24](https://docs.microsoft.com/dynamics365/field-service/version-history#882624) | 08/28/2020
-| | <i>United Arab Emirates</i> | [8.8.25.29](https://docs.microsoft.com/dynamics365/field-service/version-history#882529) | [8.8.26.24](https://docs.microsoft.com/dynamics365/field-service/version-history#882624) | 08/28/2020
-| | <i>South Africa</i> | [8.8.25.29](https://docs.microsoft.com/dynamics365/field-service/version-history#882529) | [8.8.26.24](https://docs.microsoft.com/dynamics365/field-service/version-history#882624) | 08/28/2020
-| | <i>Germany</i> |[8.8.25.29](https://docs.microsoft.com/dynamics365/field-service/version-history#882529) | [8.8.26.24](https://docs.microsoft.com/dynamics365/field-service/version-history#882624) | 08/28/2020
+| | <i>South America</i> |  [8.8.26.24](https://docs.microsoft.com/dynamics365/field-service/version-history#882624)| TBD | 10/02/2020
+| | <i>Canada</i> | [8.8.26.24](https://docs.microsoft.com/dynamics365/field-service/version-history#882624)| TBD | 10/02/2020
+| | <i>India</i> | [8.8.26.24](https://docs.microsoft.com/dynamics365/field-service/version-history#882624)| TBD | 10/02/2020
+| | <i>France</i> | [8.8.26.24](https://docs.microsoft.com/dynamics365/field-service/version-history#882624)| TBD | 10/02/2020
+| | <i>United Arab Emirates</i> |[8.8.26.24](https://docs.microsoft.com/dynamics365/field-service/version-history#882624)| TBD | 10/02/2020
+| | <i>South Africa</i> | [8.8.26.24](https://docs.microsoft.com/dynamics365/field-service/version-history#882624)| TBD | 10/02/2020
+| | <i>Germany</i> |[8.8.26.24](https://docs.microsoft.com/dynamics365/field-service/version-history#882624)| TBD | 10/02/2020
 |<strong>Station 3</strong> | |  |  | |
 | | <i>Japan</i> |  [8.8.25.30](https://docs.microsoft.com/dynamics365/field-service/version-history#882530)| [8.8.26.24](https://docs.microsoft.com/dynamics365/field-service/version-history#882624) | 09/04/2020
 | | <i>Asia Pacific</i>  |  [8.8.25.30](https://docs.microsoft.com/dynamics365/field-service/version-history#882530)| [8.8.26.24](https://docs.microsoft.com/dynamics365/field-service/version-history#882624) | 09/04/2020
