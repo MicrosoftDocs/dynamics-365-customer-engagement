@@ -3,7 +3,7 @@ title: "Best practices (Developer Guide for Dynamics 365 Customer Engagement (on
 description: "This topic describes best practices for developing with Dynamics 365 Customer Engagement (on-premises)."
 ms.custom: 
 ms.date: 07/24/2019
-ms.reviewer: kvivek
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
