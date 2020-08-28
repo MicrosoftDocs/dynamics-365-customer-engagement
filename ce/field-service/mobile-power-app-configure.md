@@ -204,6 +204,8 @@ Create and add a new JavaScript web resource to the form.
 
 Enter in the following code snippet:
 
+```javascript
+
         function TestOnSave(executionContext) {
 
             var formContext = executionContext.getFormContext(); // get formContext
@@ -217,8 +219,8 @@ Enter in the following code snippet:
         }
     }
 
+```
 
-  
 Ensure the web resource triggers on save of the form.
   
 Save and publish customizations.
