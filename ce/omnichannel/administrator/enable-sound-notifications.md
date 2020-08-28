@@ -6,13 +6,13 @@ ms.author: nenellim
 manager: shujoshi
 applies_to: 
   - ""
-ms.date: 08/03/2020
+ms.date: 09/01/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
 ---
 
-# Enable sound notifications for incoming conversations
+# Enable sound notifications for conversations
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
@@ -20,23 +20,31 @@ ms.topic: article
 
 ## Introduction
 
-Sound notifications for incoming conversations, such as live chat, that require immediate response are helpful in making sure the requests are not missed. Administrators can enable the sound notification settings in the configuration settings of Omnichannel for Customer Service. The option to personalize allows agents to customize their preferences for sound and volume selections, among other things. The sound notifications are available across all channels.
+Sound notifications for incoming conversations, such as live chat, that require immediate response are helpful in making sure the requests are not missed. Administrators can enable the sound notification settings in the configuration settings of Omnichannel for Customer Service. The option to personalize allows agents to customize their preferences for sound and volume selections, among other things. The sound notifications are available across all channels and can also be set for incoming messages for ongoing conversations.
 
 > [!IMPORTANT]
-> Make sure that the browser settings allow sound notifications to be played.
+> Make sure that the browser settings allow sound notifications to be played. For information on how to enable sound notifications for browsers, see the browser-specific documentation.
 
-## Enable sound notifications for incoming conversations
+## Enable sound notifications
+
+When you enable sound settings, the options to personalize settings are available for all the channels that are provisioned in your environment.
 
 1. In the Omnichannel Administration app, select **Notifications** under **Agent Experience** in the site map.
 2. On the Omnichannel Configuration - Notifications page, select **Sound notification settings**.
-3. Set the toggle to **Yes** for **Enable sound notifications**. The **Allow agents to create personal sound settings** toggle is enabled and the **Sound settings** area is displayed with options to configure sound notifications for the different channels that are provisioned in your environment.
-4. Set the toggle to **Yes** for **Allow agents to create personal sound settings** to let agents personalize the settings.
-5. Customize the notification settings for the required channels. The following settings are for Teams chat:
+3. Set the toggle to **Yes** for **Enable sound notifications**. The **Sound settings** area is displayed.
 
-  -  **Enable Sound:** Set the toggle to **Yes**.
-  -  **Loop:** Set the toggle to **Yes** if you want the sound to be played till the agent responds.
-  -  **Notification Sound:** Accept the default setting or search and select a different audio file.
-  -  **Volume:** Accept the default setting or use the slider to adjust the volume.
-     
+4. Customize the notification settings for the required channels. The following settings are for Microsoft Teams:
+
+   - **Play Sound:** Set the toggle to **Yes**.
+   - **Repeat until answered:** Set the toggle to **Yes** if you want the sound to be played till the agent responds.
+   - **Sound:** Accept the default setting or search and select a different audio file. You can use the **New Audio File** option to upload and use an audio file of your choice.
+   - **Volume:** Accept the default setting or use the slider to adjust the volume.
+
      > ![Sound notification settings](../media/sound-notification-settings.png "Sound notification settings")
+5. In the **Incoming messages for open sessions** section, customize the options for sound notifications for messages in open sessions, such as live chat or a social channel.
+    > ![Sound notification settings for open sessions](../media/sound-notification-open-session.png "Sound notification settings for open sessions")
 6. Select **Save.**
+
+### See also
+
+[Personalize notifications](../agent/oc-agent/../agent-oc/oc-personalize-sound-notifications.md)  
