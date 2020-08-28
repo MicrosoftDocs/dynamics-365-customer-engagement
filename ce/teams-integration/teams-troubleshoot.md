@@ -49,7 +49,7 @@ Error: **The admin has not consented to use user sync feature, you can add them 
 When you turn on enhanced Microsoft Teams Integration, there are two dialog boxes that you need to accept. On the second dialog box, when you don't check the **Consent on behalf of organization** check box, then users will get this error when they try to pin an entity record or view to Microsoft Teams and share the tab with another user.
 
    > [!div class="mx-imgBorder"] 
-  > ![Microsoft Teams error](media/error1.png "Microsoft Teams error")
+  > ![Error message, the admin has not consented to use user sync feature, you can add them manually](media/error1.png "Error message, the admin has not consented to use user sync feature, you can add them manually")
 
 To fix the issue, disable the Enhanced Microsoft Teams integration feature.
 
@@ -57,7 +57,7 @@ To fix the issue, disable the Enhanced Microsoft Teams integration feature.
 2. Select **Azure Active Directory** > **Enterprise**.
 3. In the list of apps go to, **Dynamics 365 Microsoft Teams collaboration integration**.
     > [!div class="mx-imgBorder"] 
-    > ![Teams error](media/error2.png "Teams error")
+    > !Go to [Dynamics 365 Microsoft Teams collaboration integration ](media/error2.png "Go toDynamics 365 Microsoft Teams collaboration integration")
 4. Delete the app.
     > [!div class="mx-imgBorder"] 
     > ![Teams error](media/error3.png "Teams error")
@@ -125,14 +125,14 @@ This happens when the external app for Microsoft Teams service is not enabled by
 ### Error: Sorry, the environment you selected is not up-to-date or is not supported. Please select another environment.
 
 > [!div class="mx-imgBorder"] 
-> ![Environment is not up-to-date](media/teams-error-org-not-up-to-date.png "Environment is not up-to-date")
+> ![Errow message, environment is not up-to-date](media/teams-error-org-not-up-to-date.png "Error message, environment is not up-to-date")
 
 Or, you may get this error:
 
 ### Error: Sorry! Your Dynamics 365 environment is not the latest version and is not supported for this feature. Please select a different environment or contact your Dynamics 365 admin to do an update.
 
 > [!div class="mx-imgBorder"] 
-> ![Environment is not up-to-date](media/teams-error-org-not-latest.png "Environment is not up-to-date")
+> ![Error, sorry your Dynamics 365 environment is not the latest version and is not supported for this feature](media/teams-error-org-not-latest.png "Error, sorry your Dynamics 365 environment is not the latest version and is not supported for this feature")
 
 The customer engagement app environment that you are trying to connect does not support Microsoft Teams integration. You can wait for the environment to be updated or pick a different environment that has been updated to support Microsoft Teams integration.
 
