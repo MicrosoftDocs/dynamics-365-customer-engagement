@@ -3,7 +3,7 @@ title: "Sample: Retrieve email attachments for an email template (Developer Guid
 description: "This sample shows how to retrieve email attachments associated with an email template by using the IOrganizationService.QueryBase) method"
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

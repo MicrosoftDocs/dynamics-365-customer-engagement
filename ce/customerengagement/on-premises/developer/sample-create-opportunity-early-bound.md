@@ -3,7 +3,7 @@ title: "Sample: Create an opportunity (early bound) (Developer Guide for Dynamic
 description: "The sample demonstrates how to create an opportunity that contains a product from the product catalog."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
