@@ -20,7 +20,7 @@ ms.topic: article
 
 ## Introduction
 
-You can personalize sound notification settings for incoming messages in conversations using the personalization menu available on the application tab panel. The option to personalize is available only when sound notifications are enabled by your administrator. The sound notifications are available across all channels and can also be set for incoming messages for ongoing conversations.
+You can personalize sound notification settings for incoming conversation requests using the personalization menu available on the application tab panel. The option to personalize is available only when sound notifications are enabled by your administrator. The sound notifications are available across all channels and can also be set for messages for ongoing conversations.
 
 ## Personalize sound notifications
 
@@ -39,7 +39,7 @@ The personalized settings have precedence over the administrator settings. You c
 5. Select **Save**.
 
 > [!IMPORTANT]
-> Make sure that your browser settings allow sound notifications to be played. For information on how to enable sound notifications for browsers, see the browser-specific documentation.
+> Make sure that the setting for sound is set to allow in your browser settings. In Microsoft Edge, sound is allowed by default. For information on how to configure the sound settings in other browsers, see the browser-specific documentation.
 
 ### See also
 
