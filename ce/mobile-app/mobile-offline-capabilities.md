@@ -68,7 +68,7 @@ These entities and corresponding commands are available in offline mode.
   > [!NOTE]
   > The **Date** field is not available for mobile offline search.
   
- **Sustom entities**: These commands available on edit form, **Mark Complete**, **Refresh**, **Convert To- Opportunity**, and **Delete**.
+- **Custom entities**: These commands are available on edit form, **Mark Complete**, **Refresh**, **Convert To- Opportunity**, and **Delete**.
 
 
 ## Limitations 
