@@ -16,6 +16,8 @@ ms.topic: article
 
 ## Overview
 
+<!-- [kabala] - some of the over view specifically talks only about OC scenarios-->
+
 Application tab template in Omnichannel Administration app provides the type of applications you want to open when a session is started. Each application type has a predefined set of parameters associated with it.
 
 The horizontal bar beneath the model-driven app navigation bar is called the application tab panel. Every customer session has at least one application tab that can't be closed; it is called **Anchor Tab**. That is, when a session is started, by default the system opens an application in the application tab panel. In addition, there may be few other applications that system opens by default based on the configuration.
