@@ -24,6 +24,7 @@ ms.topic: article
 
 The app profile manager lets organizations create targeted app experiences for agents and supervisors as an alternative to building and maintaining custom apps. With the app profile manager, administrators can create custom profiles with specific session templates, conversation channels, and productivity tools. These profiles can then be assigned to users.
 
+<!--[kabala] The profiles are available for agents and supervisors who use the Customer Service workspace and/or Omnichannel for Customer Service apps.-->
 The profiles are app agnostic and are available for agents and supervisors who use Customer Service workspace and Omnichannel for Customer Service.
 
 ## How the targeted app experience works
@@ -40,6 +41,26 @@ For existing orgs, only steps 4 and 5 are required.
 
 Thereafter, users with the required agent or supervisor role will be able to see and use the settings that are available through the assigned app profile. If you do not assign an app profile, by default, the out-of-the-box app profile will be assigned.
 
+<!-- [kabala] - new section. pls review -->
+## Security roles of app profile manager
+
+App profile manager has standard security roles.
+
+- App profile manager administrator
+- App profile user
+
+### Security roles forOmnichannel for Customer Service
+
+For **Omnichannel administrator** role, the **App profile manager administrator** previleges are added, and for **Omnichannel agent** and **Omnichannel supervisor** roles, the **App profile user** previleges are added.
+
+If your organization is using custom role, and you want the custom security role user to be an app profile manager, then you can either assign the **App profile manager administrator** role or manually add the **App profile manager administrator** previleges to the custom security role.
+
+### Security roles for Customer Service workspace
+
+For **Customer Service Manager** role, the **App profile manager administrator** previleges are added, and for **Customer Service Representative** role, the **App profile user** previleges are added.
+
+If your organization is using custom role, and you want the custom security role user to be an app profile manager, then you can either assign the App profile manager administrator role or manually add the App profile manager administrator previleges to the custom security role.
+
 ## Experience for accessing templates and productivity tools
 
 The Power Apps home page for app profiles is an easy-to-use interface that helps you get started with what you can do on the page.
@@ -49,8 +70,9 @@ The Power Apps home page for app profiles is an easy-to-use interface that helps
 
 > [!IMPORTANT]
 > Omnichannel for Customer Service is available only when you have the Chat for Dynamics 365 license.
+<!-- [kabala] - Not just chat for D365 but even digital messaging sku -->
 
-The options to access and manage the following entities are available on the left pane of the app profile page:
+The options to access and manage the following entities are available on the left pane of the app profile manager:
 
 - Settings
 - Templates
@@ -66,7 +88,7 @@ All these options are available in the Unified Interface and open on a new tab w
 
 > ![Navigation menu](media/app-profile-navigation-items.png "App profiles home page")
 
-Irrespective of the path from where you navigate to any of the elements, such as session templates or application tab templates, you will see templates that you have defined for both Customer Service workspace and Omnichannel for Customer Service. This is because the templates are stored in a common library.
+Irrespective of the path from where you navigate to any of the components, such as session templates or application tab templates, you will see templates that you have defined for both Customer Service workspace and Omnichannel for Customer Service. This is because the templates are stored in a common library.
 
 ### Settings
 
