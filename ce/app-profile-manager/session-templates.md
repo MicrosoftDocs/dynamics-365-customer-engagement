@@ -11,7 +11,7 @@ ms.topic: article
 ---
 
 # Manage session templates
-
+<!-- [kabala] - remove this statement as templates will be available with OC, right. Make the topic common for both CSW and OC. Some sections like OOB session templates for channels are applicable to Omnichannel. Clearly call out the difference as to what is applicable to CSW and OC accordingly.-->
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 ## Overview
@@ -31,6 +31,7 @@ You can create session templates in the Omnichannel Administration app or use th
   > [!Note]
   > We recommend that you do not modify the out-of-the-box session templates for your customizations; instead, create your own custom templates to avoid losing them during solution upgrades.
 
+<!-- [kabala] - Clearly call out that these OOB templates are applicable to OC channels only. Add another entry for CSW. They are also shipping one OOB case entity session template. For exact name, reach out to Marco.-->
 
 The out-of-the-box session templates are as follows:
 
@@ -49,7 +50,7 @@ The out-of-the-box session templates are as follows:
 
 To create a session template, follow these steps:
 
-1. Sign in to the Omnichannel Administration app.
+1. Sign in to the Omnichannel Administration app. <!-- [kabala] - admins can create templates from CSH SM and OC admin app. -->
 
 2. Select **Sessions** under **Agent Experience** in the sitemap.
 
@@ -68,6 +69,8 @@ To create a session template, follow these steps:
     | General | Description | Provide a description for your reference. | The session template is used for a conversation request from Chat channel. |
     | General | Owner | Search and select an owner. By default, the user who is creating the template is set as the owner | Alan Steiner |
     | General | Anchor tab | Select an application from the list. The application is opened by default when the session starts and can't be closed. <br> **Note:** The anchor tab option is displayed only when **Type** is generic. | Customer summary |
+  
+  <!-- [kabala] - The anchor is not applicable for entity session templates. As the record on which agent clicks will be opened in the anchor tab. -->
 
 5. Select **Save**. After you save, the **Additional tabs** option appears on the page.
 
