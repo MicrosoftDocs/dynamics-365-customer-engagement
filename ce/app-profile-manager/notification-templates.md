@@ -12,6 +12,8 @@ ms.topic: article
 
 # Manage notification settings and templates
 
+<!-- [kabala] - this topic is only applicable to OC channels-->
+
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 ## Overview
