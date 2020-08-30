@@ -11,7 +11,7 @@ ms.topic: article
 ---
 
 # Manage application tab templates
-
+<!-- [kabala] - remove this statement as templates will be available with OC, right. Make the topic common for both CSW and OC. Some sections like OOB apps templates for channels are applicable to Omnichannel. Clearly call out the difference as to what is applicable to CSW and OC accordingly.-->
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 ## Overview
@@ -31,7 +31,7 @@ As an administrator, you can create multiple application tab templates.
 
 ## Create an application tab template
 
-1. Sign in to the Omnichannel Administration app.
+1. Sign in to the Omnichannel Administration app. <!-- [kabala] - admins can create app tab templates from CSH SM and OC admin app.)
 
 2. Select **Application Tabs** under **Agent Experience** in the sitemap.
 
@@ -69,7 +69,8 @@ The types of applications available are as follows:
     - [Entity search](#entity-search)
     - [Web resource](#web-resource)
     - [Website Url](#website-url)
-    - [See also](#see-also)
+
+<!-- [kabala] - Reach out to Aravindan to check which app tab types are only applicable to OC and pls call them out accordingly.)
 
 ### Custom control
 
