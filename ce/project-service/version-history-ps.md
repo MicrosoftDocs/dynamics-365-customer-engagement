@@ -1,5 +1,6 @@
 ---
 title: Update release schedule for Project Service 3.x
+description: This topic provides information about the available and upcoming releases of Dynamics 365 Project Service Automation.
 ms.custom: dyn365-projectservice
 ms.date: 08/10/2020
 ms.reviewer: kfend
