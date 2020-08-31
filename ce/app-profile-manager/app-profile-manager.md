@@ -27,7 +27,7 @@ This topic discusses how to use the app profile manager to create app profiles a
 By default, the following app profiles are available out of the box for Customer Service workspace and Omnichannel for Customer Service. These profiles can't be deleted or modified. When no app profile is assigned to an agent, the default profile is assigned.
 
 - Omnichannel for Customer Service - default profile
-- Customer Service workspace default configuration
+- Customer Service workspace - default profile
 <!-- [kabala] - The name of the app profile for CSW is wrong. It must be Customer Service workspace - default profile. Also, mention that the OC app profile will be available only customers buy either Chat for D365 or Digital messaging SKU.-->
 
 ## Prerequisites

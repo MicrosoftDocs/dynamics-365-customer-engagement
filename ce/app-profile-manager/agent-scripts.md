@@ -1,8 +1,8 @@
 ---
 title: "Agent scripts in the Omnichannel Administration app | MicrosoftDocs"
 description: "Learn about agent scripts and how to configure them in the Omnichannel Administration app."
-author: kabala123
-ms.author: kabala
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.date: 08/28/2020
 ms.service: 
