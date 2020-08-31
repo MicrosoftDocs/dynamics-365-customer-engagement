@@ -72,7 +72,7 @@ The types of applications available are as follows:
     - [Web resource](#web-resource)
     - [Website Url](#website-url)
 
-<!-- [kabala] - Reach out to Aravindan to check which app tab types are only applicable to OC and pls call them out accordingly.)
+<!-- [kabala] - Reach out to Aravindan to check which app tab types are only applicable to OC and pls call them out accordingly.) -->
 
 ### Custom control
 
