@@ -261,9 +261,9 @@ The process is similar for resources with resource type of Account or User. **No
 
 - Only one resource record can be associated to a user record; however, multiple resources can be associated to a single account or contact record. 
 - The start and end location of a resource is used as the resource's location during break hours if a break is configured when working hours are set up for that resource. 
-- The new Workhours control is added to the Bookable Resource out of the box form. But if you have a custom form defined on this entity, you would have to enable the Workhours tab on the form by doing the below
-  1. Create a tab with name as 'workhours'. Create a section in it and add the 'calendar' field to it.
-  2. Double click on the calendar field and change the control to 'Work Hour Control'. Save and publish the form.
+- The new work hours control is added to the bookable resource out-of-the-box form. But if you have a custom form defined on this entity, you must enable the work hours tab on the form by following these steps:
+  1. Create a tab with name as "workhours." Create a section in it and add the "calendar" field to it.
+  2. Double-click on the calendar field, and change the control to "Work Hour Control." Save and publish the form.
 
 
 ### See also   
