@@ -1,6 +1,6 @@
 ---
-title: "msdyn_surveyquestion Entity Reference | MicrosoftDocs"
-description: "Includes schema information and supported messages for the msdyn_surveyquestion entity."
+title: "msdyn_ocfbpage Entity Reference | MicrosoftDocs"
+description: "Includes schema information and supported messages for the msdyn_ocfbpage entity."
 ms.date: 08/31/2020
 ms.service: "crm-online"
 ms.topic: "reference"
@@ -8,48 +8,48 @@ author: "susikka"
 ms.author: "susikka"
 manager: "shujoshi"
 ---
-# msdyn_surveyquestion Entity Reference
+# msdyn_ocfbpage Entity Reference
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
-A library of all survey questions in a work stream
+Facebook pages configured for Omnichannel integration
 
-**Added by**: Omnichannel – Chat Solution
+**Added by**: Omnichannel – Facebook Solution
 
 
 ## Messages
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.1/msdyn_surveyquestions(*msdyn_surveyquestionid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.1/msdyn_surveyquestions<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.1/msdyn_surveyquestions(*msdyn_surveyquestionid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Assign|PATCH [*org URI*]/api/data/v9.1/msdyn_questionsequences(*msdyn_questionsequenceid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Create|POST [*org URI*]/api/data/v9.1/msdyn_questionsequences<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.1/msdyn_questionsequences(*msdyn_questionsequenceid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 |IsValidStateTransition|<xref href="Microsoft.Dynamics.CRM.IsValidStateTransition?text=IsValidStateTransition Function" />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 |ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.1/msdyn_surveyquestions(*msdyn_surveyquestionid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.1/msdyn_surveyquestions<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Retrieve|GET [*org URI*]/api/data/v9.1/msdyn_questionsequences(*msdyn_questionsequenceid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.1/msdyn_questionsequences<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
 |RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
 |RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.1/msdyn_surveyquestions(*msdyn_surveyquestionid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.1/msdyn_surveyquestions(*msdyn_surveyquestionid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|SetState|PATCH [*org URI*]/api/data/v9.1/msdyn_questionsequences(*msdyn_questionsequenceid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.1/msdyn_questionsequences(*msdyn_questionsequenceid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
 |Property|Value|
 |--------|-----|
-|CollectionSchemaName|msdyn_surveyquestions|
-|DisplayCollectionName|Survey Questions|
-|DisplayName|Survey Question|
-|EntitySetName|msdyn_surveyquestions|
+|CollectionSchemaName|msdyn_ocfbpages|
+|DisplayCollectionName|Facebook Pages|
+|DisplayName|Facebook Page|
+|EntitySetName|msdyn_ocfbpages|
 |IsBPFEntity|False|
-|LogicalCollectionName|msdyn_surveyquestions|
-|LogicalName|msdyn_surveyquestion|
+|LogicalCollectionName|msdyn_ocfbpages|
+|LogicalName|msdyn_ocfbpage|
 |OwnershipType|UserOwned|
-|PrimaryIdAttribute|msdyn_surveyquestionid|
-|PrimaryNameAttribute|msdyn_name|
-|SchemaName|msdyn_surveyquestion|
+|PrimaryIdAttribute|msdyn_ocfbpageid|
+|PrimaryNameAttribute|msdyn_fbpagename|
+|SchemaName|msdyn_ocfbpage|
 
 <a name="writable-attributes"></a>
 
@@ -58,13 +58,20 @@ A library of all survey questions in a work stream
 These attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
-- [msdyn_AnswerType](#BKMK_msdyn_AnswerType)
-- [msdyn_LiveWorkStreamToChatQuestion](#BKMK_msdyn_LiveWorkStreamToChatQuestion)
-- [msdyn_name](#BKMK_msdyn_name)
-- [msdyn_PlaceholderText](#BKMK_msdyn_PlaceholderText)
-- [msdyn_QuestionText](#BKMK_msdyn_QuestionText)
-- [msdyn_RatingScale](#BKMK_msdyn_RatingScale)
-- [msdyn_surveyquestionId](#BKMK_msdyn_surveyquestionId)
+- [msdyn_enablefileattachmentsforagents](#BKMK_msdyn_enablefileattachmentsforagents)
+- [msdyn_enablefileattachmentsforcustomers](#BKMK_msdyn_enablefileattachmentsforcustomers)
+- [msdyn_enablehumanagenttag](#BKMK_msdyn_enablehumanagenttag)
+- [msdyn_fbpageaccesstoken](#BKMK_msdyn_fbpageaccesstoken)
+- [msdyn_fbpageid](#BKMK_msdyn_fbpageid)
+- [msdyn_fbpagename](#BKMK_msdyn_fbpagename)
+- [msdyn_liveworkstreamid](#BKMK_msdyn_liveworkstreamid)
+- [msdyn_ocfbapplicationid](#BKMK_msdyn_ocfbapplicationid)
+- [msdyn_ocfbpageId](#BKMK_msdyn_ocfbpageId)
+- [msdyn_ocwidgetlanguage](#BKMK_msdyn_ocwidgetlanguage)
+- [msdyn_PostConversationSurvey](#BKMK_msdyn_PostConversationSurvey)
+- [msdyn_PostConversationSurveyEnable](#BKMK_msdyn_PostConversationSurveyEnable)
+- [msdyn_PostConversationSurveyMessageText](#BKMK_msdyn_PostConversationSurveyMessageText)
+- [msdyn_PostConversationSurveyMode](#BKMK_msdyn_PostConversationSurveyMode)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [OwnerId](#BKMK_OwnerId)
 - [OwnerIdType](#BKMK_OwnerIdType)
@@ -91,120 +98,267 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Integer|
 
 
-### <a name="BKMK_msdyn_AnswerType"></a> msdyn_AnswerType
+### <a name="BKMK_msdyn_enablefileattachmentsforagents"></a> msdyn_enablefileattachmentsforagents
+
+**Added by**: Omnichannel - Facebook Patch Solution
 
 |Property|Value|
 |--------|-----|
-|Description|Type of survey answer|
-|DisplayName|Answer type|
+|Description|Enable file attachments for agents|
+|DisplayName|Enable file attachments for agents|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_answertype|
-|RequiredLevel|ApplicationRequired|
-|Type|Picklist|
+|LogicalName|msdyn_enablefileattachmentsforagents|
+|RequiredLevel|None|
+|Type|Boolean|
 
-#### msdyn_AnswerType Options
+#### msdyn_enablefileattachmentsforagents Options
 
 |Value|Label|
 |-----|-----|
-|192350000|Single line|
-|192350001|Multiple lines|
-|192350002|Option set|
-|192350003|Rating|
-|192350004|User Consent|
+|1|Yes|
+|0|No|
+
+**DefaultValue**: False
 
 
 
-### <a name="BKMK_msdyn_LiveWorkStreamToChatQuestion"></a> msdyn_LiveWorkStreamToChatQuestion
+### <a name="BKMK_msdyn_enablefileattachmentsforcustomers"></a> msdyn_enablefileattachmentsforcustomers
+
+**Added by**: Omnichannel - Facebook Patch Solution
 
 |Property|Value|
 |--------|-----|
-|Description|Unique identifier for Work stream associated with Chat Question.|
-|DisplayName|Work stream|
+|Description|Enable file attachments for customers|
+|DisplayName|Enable file attachments for customers|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_liveworkstreamtochatquestion|
+|LogicalName|msdyn_enablefileattachmentsforcustomers|
+|RequiredLevel|None|
+|Type|Boolean|
+
+#### msdyn_enablefileattachmentsforcustomers Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
+
+**DefaultValue**: False
+
+
+
+### <a name="BKMK_msdyn_enablehumanagenttag"></a> msdyn_enablehumanagenttag
+
+**Added by**: Omnichannel - Facebook Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Turn on your Facebook human agent message tag|
+|DisplayName|Turn on your Facebook human agent message tag|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_enablehumanagenttag|
+|RequiredLevel|None|
+|Type|Boolean|
+
+#### msdyn_enablehumanagenttag Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
+
+**DefaultValue**: False
+
+
+
+### <a name="BKMK_msdyn_fbpageaccesstoken"></a> msdyn_fbpageaccesstoken
+
+|Property|Value|
+|--------|-----|
+|Description|Access token for the Facebook page|
+|DisplayName|Page Access Token|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_fbpageaccesstoken|
+|MaxLength|500|
+|RequiredLevel|ApplicationRequired|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_fbpageid"></a> msdyn_fbpageid
+
+|Property|Value|
+|--------|-----|
+|Description|Page id of the Facebook page|
+|DisplayName|Page Id|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_fbpageid|
+|MaxLength|100|
+|RequiredLevel|ApplicationRequired|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_fbpagename"></a> msdyn_fbpagename
+
+|Property|Value|
+|--------|-----|
+|Description|The name of the Facebook page|
+|DisplayName|Name|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_fbpagename|
+|MaxLength|100|
+|RequiredLevel|ApplicationRequired|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_liveworkstreamid"></a> msdyn_liveworkstreamid
+
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for Work Stream associated with Facebook page|
+|DisplayName|Work Stream|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_liveworkstreamid|
 |RequiredLevel|ApplicationRequired|
 |Targets|msdyn_liveworkstream|
 |Type|Lookup|
 
 
-### <a name="BKMK_msdyn_name"></a> msdyn_name
+### <a name="BKMK_msdyn_ocfbapplicationid"></a> msdyn_ocfbapplicationid
 
 |Property|Value|
 |--------|-----|
-|Description|The name of the custom entity.|
-|DisplayName|Question name|
-|FormatName|Text|
-|IsLocalizable|False|
+|Description|Related Facebook application|
+|DisplayName|Facebook Application|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_name|
-|MaxLength|100|
+|LogicalName|msdyn_ocfbapplicationid|
 |RequiredLevel|ApplicationRequired|
-|Type|String|
+|Targets|msdyn_ocfbapplication|
+|Type|Lookup|
 
 
-### <a name="BKMK_msdyn_PlaceholderText"></a> msdyn_PlaceholderText
-
-|Property|Value|
-|--------|-----|
-|Description|Help text for the survey question|
-|DisplayName|Help Text|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_placeholdertext|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_QuestionText"></a> msdyn_QuestionText
-
-|Property|Value|
-|--------|-----|
-|Description|Question text|
-|DisplayName|Question text|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_questiontext|
-|MaxLength|512|
-|RequiredLevel|ApplicationRequired|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_RatingScale"></a> msdyn_RatingScale
-
-|Property|Value|
-|--------|-----|
-|Description|Rating scale of the question|
-|DisplayName|Rating Scale|
-|Format|None|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_ratingscale|
-|MaxValue|10|
-|MinValue|2|
-|RequiredLevel|None|
-|Type|Integer|
-
-
-### <a name="BKMK_msdyn_surveyquestionId"></a> msdyn_surveyquestionId
+### <a name="BKMK_msdyn_ocfbpageId"></a> msdyn_ocfbpageId
 
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for entity instances|
-|DisplayName|Survey Question|
+|DisplayName|Facebook Page|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |IsValidForUpdate|False|
-|LogicalName|msdyn_surveyquestionid|
+|LogicalName|msdyn_ocfbpageid|
 |RequiredLevel|SystemRequired|
 |Type|Uniqueidentifier|
+
+
+### <a name="BKMK_msdyn_ocwidgetlanguage"></a> msdyn_ocwidgetlanguage
+
+**Added by**: Omnichannel - Facebook Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|The language setting for the Facebook page|
+|DisplayName|Facebook page language|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_ocwidgetlanguage|
+|RequiredLevel|ApplicationRequired|
+|Targets|msdyn_oclanguage|
+|Type|Lookup|
+
+
+### <a name="BKMK_msdyn_PostConversationSurvey"></a> msdyn_PostConversationSurvey
+
+**Added by**: Omnichannel - Facebook Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Lookup to forms pro survey field|
+|DisplayName|Survey|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_postconversationsurvey|
+|RequiredLevel|None|
+|Targets|msfp_survey|
+|Type|Lookup|
+
+
+### <a name="BKMK_msdyn_PostConversationSurveyEnable"></a> msdyn_PostConversationSurveyEnable
+
+**Added by**: Omnichannel - Facebook Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|To enable or disable post conversation survey|
+|DisplayName|Enable|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_postconversationsurveyenable|
+|RequiredLevel|None|
+|Type|Boolean|
+
+#### msdyn_PostConversationSurveyEnable Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
+
+**DefaultValue**: False
+
+
+
+### <a name="BKMK_msdyn_PostConversationSurveyMessageText"></a> msdyn_PostConversationSurveyMessageText
+
+**Added by**: Omnichannel - Facebook Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Prefix text for survey link message that will be sent to the user.|
+|DisplayName|Message|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_postconversationsurveymessagetext|
+|MaxLength|200|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_PostConversationSurveyMode"></a> msdyn_PostConversationSurveyMode
+
+**Added by**: Omnichannel - Facebook Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Mode of the survey to be sent|
+|DisplayName|Survey Mode|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_postconversationsurveymode|
+|RequiredLevel|None|
+|Type|Picklist|
+
+#### msdyn_PostConversationSurveyMode Options
+
+|Value|Label|
+|-----|-----|
+|192350000|Insert survey in conversation|
+|192350001|Send survey link to conversation|
+
 
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
@@ -258,7 +412,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Status of the Survey Question|
+|Description|Status of the Facebook Page|
 |DisplayName|Status|
 |IsValidForCreate|False|
 |IsValidForForm|True|
@@ -280,7 +434,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Reason for the status of the Survey Question|
+|Description|Reason for the status of the Facebook Page|
 |DisplayName|Status Reason|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -348,7 +502,10 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 - [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
 - [ModifiedOnBehalfByName](#BKMK_ModifiedOnBehalfByName)
 - [ModifiedOnBehalfByYomiName](#BKMK_ModifiedOnBehalfByYomiName)
-- [msdyn_LiveWorkStreamToChatQuestionName](#BKMK_msdyn_LiveWorkStreamToChatQuestionName)
+- [msdyn_liveworkstreamidName](#BKMK_msdyn_liveworkstreamidName)
+- [msdyn_ocfbapplicationidName](#BKMK_msdyn_ocfbapplicationidName)
+- [msdyn_ocwidgetlanguageName](#BKMK_msdyn_ocwidgetlanguageName)
+- [msdyn_PostConversationSurveyName](#BKMK_msdyn_PostConversationSurveyName)
 - [OwnerIdName](#BKMK_OwnerIdName)
 - [OwnerIdYomiName](#BKMK_OwnerIdYomiName)
 - [OwningBusinessUnit](#BKMK_OwningBusinessUnit)
@@ -595,7 +752,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Type|String|
 
 
-### <a name="BKMK_msdyn_LiveWorkStreamToChatQuestionName"></a> msdyn_LiveWorkStreamToChatQuestionName
+### <a name="BKMK_msdyn_liveworkstreamidName"></a> msdyn_liveworkstreamidName
 
 |Property|Value|
 |--------|-----|
@@ -605,8 +762,60 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |IsLocalizable|False|
 |IsValidForForm|False|
 |IsValidForRead|True|
-|LogicalName|msdyn_liveworkstreamtochatquestionname|
+|LogicalName|msdyn_liveworkstreamidname|
 |MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_ocfbapplicationidName"></a> msdyn_ocfbapplicationidName
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_ocfbapplicationidname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_ocwidgetlanguageName"></a> msdyn_ocwidgetlanguageName
+
+**Added by**: Omnichannel - Facebook Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_ocwidgetlanguagename|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_PostConversationSurveyName"></a> msdyn_PostConversationSurveyName
+
+**Added by**: Omnichannel - Facebook Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_postconversationsurveyname|
+|MaxLength|450|
 |RequiredLevel|None|
 |Type|String|
 
@@ -711,67 +920,18 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|None|
 |Type|BigInt|
 
-<a name="onetomany"></a>
-
-## One-To-Many Relationships
-
-Listed by **SchemaName**.
-
-- [msdyn__surveyquestion_msdyn_localizedsurveyques](#BKMK_msdyn__surveyquestion_msdyn_localizedsurveyques)
-- [msdyn_msdyn_surveyquestion_msdyn_chatquestionnaireresponseitem](#BKMK_msdyn_msdyn_surveyquestion_msdyn_chatquestionnaireresponseitem)
-- [msdyn_msdyn_surveyquestion_msdyn_questionsequence_SurveyQuestion](#BKMK_msdyn_msdyn_surveyquestion_msdyn_questionsequence_SurveyQuestion)
-
-
-### <a name="BKMK_msdyn__surveyquestion_msdyn_localizedsurveyques"></a> msdyn__surveyquestion_msdyn_localizedsurveyques
-
-Same as msdyn_localizedsurveyquestion entity [msdyn__surveyquestion_msdyn_localizedsurveyques](msdyn_localizedsurveyquestion.md#BKMK_msdyn__surveyquestion_msdyn_localizedsurveyques) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_localizedsurveyquestion|
-|ReferencingAttribute|msdyn_surveyquestionid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn__surveyquestion_msdyn_localizedsurveyques|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_msdyn_surveyquestion_msdyn_chatquestionnaireresponseitem"></a> msdyn_msdyn_surveyquestion_msdyn_chatquestionnaireresponseitem
-
-Same as msdyn_chatquestionnaireresponseitem entity [msdyn_msdyn_surveyquestion_msdyn_chatquestionnaireresponseitem](msdyn_chatquestionnaireresponseitem.md#BKMK_msdyn_msdyn_surveyquestion_msdyn_chatquestionnaireresponseitem) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_chatquestionnaireresponseitem|
-|ReferencingAttribute|msdyn_surveyquestionid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_msdyn_surveyquestion_msdyn_chatquestionnaireresponseitem|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_msdyn_surveyquestion_msdyn_questionsequence_SurveyQuestion"></a> msdyn_msdyn_surveyquestion_msdyn_questionsequence_SurveyQuestion
-
-Same as msdyn_questionsequence entity [msdyn_msdyn_surveyquestion_msdyn_questionsequence_SurveyQuestion](msdyn_questionsequence.md#BKMK_msdyn_msdyn_surveyquestion_msdyn_questionsequence_SurveyQuestion) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_questionsequence|
-|ReferencingAttribute|msdyn_surveyquestion|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_msdyn_surveyquestion_msdyn_questionsequence_SurveyQuestion|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
 <a name="manytoone"></a>
 
 ## Many-To-One Relationships
 
 Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related entity. Listed by **SchemaName**.
 
+
+### <a name="BKMK_msdyn_msdyn_liveworkstream_msdyn_ocfbpage"></a> msdyn_msdyn_liveworkstream_msdyn_ocfbpage
+
+**Added by**: Omnichannel – Base Solution
+
+See msdyn_liveworkstream Entity [msdyn_msdyn_liveworkstream_msdyn_ocfbpage](msdyn_liveworkstream.md#BKMK_msdyn_msdyn_liveworkstream_msdyn_ocfbpage) One-To-Many relationship.
 
 ### See also
 

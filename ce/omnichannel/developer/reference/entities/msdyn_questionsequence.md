@@ -1,7 +1,7 @@
 ---
 title: "msdyn_questionsequence Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_questionsequence entity."
-ms.date: 03/23/2020
+ms.date: 08/31/2020
 ms.service: "crm-online"
 ms.topic: "reference"
 author: "susikka"
@@ -109,7 +109,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Type of survey question|
 |DisplayName|Survey type|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -150,7 +150,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Is a mandatory survey question to be answered|
 |DisplayName|Required|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -187,7 +187,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Name of the survey question|
 |DisplayName|Survey question name|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -248,7 +248,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Sequence number for questions to display in the specified order|
 |DisplayName|Order|
 |Format|None|
 |IsValidForForm|True|
