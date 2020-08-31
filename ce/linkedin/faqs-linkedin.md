@@ -78,6 +78,9 @@ If the issue still persists, contact the [LinkedIn Sales Navigator](https://www.
 <a name="unable-writeback-inmails"> </a>
 **I'm unable to write back inMails and messages from LinkedIn Sales Navigator to Dynamics 365 and the Copy message to CRM option is disabled.**
 
+> [!div class="mx-imgBorder"]  
+> ![Copy message to CRM option disabled](media/faq-unable-writeback-inmails-messages-error.png "Copy message to CRM option disabled")
+
 **Answer**
 
 The issue has occurred due to the insufficient permissions in your user account to write back to Dynamics 365 from LinkedIn Sales Navigator. Contact the [LinkedIn Sales Navigator](https://www.linkedin.com/help/sales-navigator/answer/a107028) support to resolve the issue.
