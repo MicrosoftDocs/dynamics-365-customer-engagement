@@ -1,6 +1,6 @@
 ---
 title: "Enable sales order processing integration (Dynamics 365 Sales) | MicrosoftDocs"
-description: <!--Need a description here.-->
+description: Read how you can enable sales order processing integration to connect Dynamics 365 Sales with an external order processing application.
 ms.date: 07/09/2020
 ms.service: 
   - dynamics-365-sales
@@ -19,7 +19,7 @@ Sales order processing integration makes it convenient to connect Dynamics 365 S
 By default, sales order processing is turned off. When sales order processing is turned off, Dynamics 365 Sales allows invoices to be created from orders. More information: [Create an invoice from an order](../create-edit-invoice-sales.md)
 
 > [!NOTE]
-> Price computation can be triggered by Dynamics 365 Sales only if the sales entities&mdash;like<!--Is this the complete list of sales entities for this context? If so, you don't need "like".--> Opportunity, Quote, Sales order, and Invoice&mdash;are editable.
+> Price computation can be triggered by Dynamics 365 Sales only if the sales entities like Opportunity, Quote, Sales order, and Invoice are editable.
 
 ## Enable sales order processing integration
 
@@ -31,15 +31,15 @@ When sales order processing is turned on:
 
 - The **Create Invoice** button isn't shown on the command bar of the order records. 
 
-- Order records will support a **Submit** order button.<!--What does "will support" mean here? Does the reader need to make this happen, or will the **Submit** button automatically appear?--> When the order is submitted, the status for the order is marked as `Submitted` and the order is made read-only, unless it was created by an integration user. More information: [IsIntegrationUser attribute](../../customerengagement/on-premises/developer/entities/systemuser.md#BKMK_IsIntegrationUser)<!--You don't need this additional cross-reference because you're already pointing the reader to this article.-->
+- Order records will support a **Submit** order button. When the order is submitted, the status for the order is marked as `Submitted` and the order is made read-only, unless it was created by an integration user. More information: [IsIntegrationUser attribute](../../customerengagement/on-premises/developer/entities/systemuser.md#BKMK_IsIntegrationUser)
 
 The following table lists the conditions that need to be satisfied before Dynamics 365 Sales executes price computation for various entities.
-<!--In the following table, I don't know what the hyphen meant. I assume replacing it with "the" is valid. -->
+
 |Entity name|Create|Update|Delete|Recalculate|
 |------|------|------|------|------|
-|Opportunity|Calculate always|Calculate always|Not applicable<!--Via Writing Style Guide-->|Calculate always|
+|Opportunity|Calculate always|Calculate always|Not applicable|Calculate always|
 |Quote|Calculate always|Calculate always|Not applicable|Calculate always|
-|Sales order|Calculation is skipped if the <!--I don't know what the hyphen and line break are meant to indicate here. I don't think you need them.-->[IsSOPIntegrationEnabled](../../customerengagement/on-premises/developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) flag is set to **Yes (1)** and the signed-in user is an integration user|Calculation is skipped if the [IsSOPIntegrationEnabled](../../customerengagement/on-premises/developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) flag is set to **Yes (1)** and the sales order is in a submitted state or the signed-in user is an integration user|Not applicable|Calculation is skipped if the [IsSOPIntegrationEnabled](../../customerengagement/on-premises/developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) flag is set to **Yes (1)** and the sales order is in a submitted state|
+|Sales order|Calculation is skipped if the [IsSOPIntegrationEnabled](../../customerengagement/on-premises/developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) flag is set to **Yes (1)** and the signed-in user is an integration user|Calculation is skipped if the [IsSOPIntegrationEnabled](../../customerengagement/on-premises/developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) flag is set to **Yes (1)** and the sales order is in a submitted state or the signed-in user is an integration user|Not applicable|Calculation is skipped if the [IsSOPIntegrationEnabled](../../customerengagement/on-premises/developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) flag is set to **Yes (1)** and the sales order is in a submitted state|
 |Invoice|Calculation is skipped if the [IsSOPIntegrationEnabled](../../customerengagement/on-premises/developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) flag is set to **Yes (1)** and the signed-in user is an integration user|Calculation is skipped if the [IsSOPIntegrationEnabled](../../customerengagement/on-premises/developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) flag is set to **Yes (1)** and the signed-in user is an integration user|Not applicable|Calculation is skipped if the [IsSOPIntegrationEnabled](../../customerengagement/on-premises/developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) flag is set to **Yes (1)** and the signed-in user is an integration user|
 |Opportunity product|Calculate always|Calculate always|Calculate always|Not applicable|
 |Quote product|Calculate always|Calculate always|Calculate always|Not applicable|
