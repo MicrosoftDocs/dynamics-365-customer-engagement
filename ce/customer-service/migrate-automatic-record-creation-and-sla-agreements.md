@@ -2,6 +2,7 @@
 title: Migrate automatic record creation rules and service-level agreements | MicrosoftDocs
 author: lerobbin
 ms.author: lerobbin
+ms.reviewer: nenellim
 manager: shujoshi
 ms.date: 08/03/2020
 ms.topic: article
@@ -21,15 +22,15 @@ search.app:
 
 [!include[cc-early-access](../includes/cc-early-access.md)]
 
-The Dynamics 365 Customer Service Hub app has several features and functionalities that replace the rules in the legacy Customer Service app. The automatic record creation (ARC) rules and service-level agreements (SLAs) are now supported by Power Automate-based flows to make the transition to the new platform easier to manage.
+The Dynamics 365 Customer Service Hub app has several features and functionalities that replace the rules in the legacy Customer Service app. The automatic record creation rules and service-level agreements (SLAs) are now supported by Power Automate-based flows to make the transition to the new platform easier to manage.
 
-This topic provides an overview of the migration tool that allows legacy rules for ARC and SLAs to be transferred to the Customer Service Hub app for easier access.
+This topic provides an overview of the migration tool that allows legacy rules for automatic record creation rules and SLAs to be transferred to the Customer Service Hub app for easier access.
 
 The migration tool is designed to migrate the existing legacy rules to Unified Interface, ensuring all the rules, items, and actions are converted accordingly into the Unified Interface format. This also includes the conversion of the workflow to a Power Automate-based flow.
 
 The migration tool provides the following functionality:
-- Ability to run the migration tool multiple times and see what your status looks like at any point in time.
-- Flexibility to choose which legacy rules need to be migrated. 
+- Ability to run the migration tool multiple times and see what the status looks like at any point in time.
+- Flexibility to choose which legacy rules need to be migrated.
 - Flexibility to decide when to activate new rules and deactivate the legacy rules so you are not forced to activate all or none.
 - Existing legacy rules are not modified or deactivated automatically. 
 - Messages on potential issues on why a ruled failed the migration process.
@@ -44,30 +45,26 @@ The migration tool provides the following functionality:
 
 ### Working with rules
 
-Before you run the migration tool, it is important to understand how the modern ARC and SLA rules work in the Customer Service Hub app.
+Before you run the migration tool, it is important to understand how the modern automatic record creation and SLA rules work in the Customer Service Hub app.
 
-When you perform your migration, you will only receive detailed results on rules that have failed the premigration checkup or creation, or those that were partially migrated (incomplete).  
+When you perform your migration, you will only receive detailed results on rules that have failed the premigration check or creation, or those that were partially migrated (incomplete).  
 
 To learn more about how to create rules in the Customer Service Hub app, see [Automatically create or update records in Customer Service Hub](automatically-create-update-records.md) and [Define service-level agreements](define-service-level-agreements.md).
 
-
-<!-- editor question: Do you mean Unified Interface instead of UIC? We shouldn't abbreviate Unified Interface. -->
-
-
 > [!Note]
-> When you have successfully migrated a rule, any edits made to that rule on the web client will not be visible in Unified Interface. For the edits to be visible in Unified Interface, you must delete the rule in UIC and migrate it again from the web client.
+> When you have successfully migrated a rule, any edits made to that rule on the web client will not be visible in Unified Interface. For the edits to be visible in Unified Interface, you must delete the rule in Unified Interface and migrate it again from the web client.
 
 ### Editing rules
 
-If you rerun the migration tool, it will pick up any updates or edits in the web client if the rule has been: 
+If you rerun the migration tool, it will pick up any updates or edits in the web client if the rule has been:
 
--  Edited prior to the actual migration in the web client.
--  Edited to resolve errors in the web client that failed during a previous migration attempt.
+- Edited prior to the actual migration in the web client.
+- Edited to resolve errors in the web client that failed during a previous migration attempt.
 
 The following updates or edits to a rule will not be considered if:
 
--  The rule is edited on the web client after it was successfully migrated to Unified Interface.
--  Any edits were made to migrated rules in the Unified Interface client after running the migration tool.
+- The rule is edited on the web client after it was successfully migrated to Unified Interface.
+- Any edits were made to migrated rules in the Unified Interface client after running the migration tool.
 
 ## Accessing the migration tool
 
@@ -76,36 +73,32 @@ The following updates or edits to a rule will not be considered if:
 
 You can access the migration tool using the following steps:
 
-1. Go to **Service**.
+1. In Customer Service Hub, select **Service Management** in **Change area**.
 
-2. Select **Service Management**.
+2. Under **Data Management**, select **ARC & SLA Migration Tool (Preview)**.
 
-3. Under **Data Management**, select **ARC & SLA Migration Tool (Preview)**.
-
-![Access Migration Tool](media/migration-tool-access-location-1.png "Migration tool access locations")
-
-![Access Migration Tool](media/migration-tool-access-location-2.png "Migration tool access locations")
-
+> ![Access Migration Tool](media/migration-tool-access-location.png "Migration tool access locations")
 
 ## Migration process
 
-The migration process consists of the following steps:
+The migration progress is indicated on the page as follows; the colored circle indicates the migration stage.
+> ![Migration stages](media/migration-stages.png "Migration stages")
 
-**Step 1: Category to migrate.** Allows you to pick and choose which rules you wish to migrate.
+1. **Category to migrate:** Allows you to pick and choose the rules you want to migrate.
 
-**Step 2: Premigration checkup.** Provides insights into any potential migration failures you might incur prior to beginning your migration.    
+2. **Pre-migration checkup:** Provides insights into any potential migration failures you might incur prior to beginning your migration.
 
-**Step 3: Rules and items to migrate.** Allows you to select which rules you want to migrate. 
+3. **Rules and items to migrate:** Allows you to select the rules you want to migrate. 
 
-**Step 4: Review.** Provides you with the opportunity to go through any rules that have been identified as having errors or issues and fix these prior to migration.
+4. **Review** Provides you with the opportunity to go through any rules that have been identified as having errors or issues and fix them prior to migration.
 
-**Step 5: Migration.** Post-migration, allows you to review which rules successfully completed the migration process and which ones failed. 
+5. **Migration:** Post-migration, allows you to review the successfully migrated rules and rules that failed migration.
 
-**Step 6: Finish.** Provides you with a summary and status page of rules which have successfully migrated, those that are pending, and failed migration.
+6. **Finish:** Provides you with a summary and status page of the successfully migrated rules, pending rules, and rules that failed migration.
 
-## Use the migration tool 
+## Use the migration tool
 
-When you have successfully accessed the migration tool, choose one of the following two options based on your experience working with the tool: 
+When you have successfully accessed the migration tool, choose one of the following two options based on your experience working with the tool:
 
 **First-time migration tool user**: Follow the steps in this option if you are accessing and using the migration tool for the first time.
 
