@@ -1,15 +1,14 @@
 ---
 title: "msdyn_livechatconfig Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_livechatconfig entity."
-ms.date: 03/23/2020
+ms.date: 08/31/2020
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: 
   - "Dynamics 365 (online)"
-ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "susikka"
 ms.author: "susikka"
-manager: "shujoshi"
+manager: "susikka"
 ---
 # msdyn_livechatconfig Entity Reference
 
@@ -24,19 +23,19 @@ Stores chat widget customizations
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.1/msdyn_livechatconfigs(*msdyn_livechatconfigid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.1/msdyn_livechatconfigs<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.1/msdyn_livechatconfigs(*msdyn_livechatconfigid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Assign|PATCH [*org URI*]/api/data/v9.0/msdyn_livechatconfigs(*msdyn_livechatconfigid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Create|POST [*org URI*]/api/data/v9.0/msdyn_livechatconfigs<br />See [Create](../webapi/create-entity-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_livechatconfigs(*msdyn_livechatconfigid*)<br />See [Delete](../webapi/update-delete-entities-using-web-api.md#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 |IsValidStateTransition|<xref href="Microsoft.Dynamics.CRM.IsValidStateTransition?text=IsValidStateTransition Function" />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 |ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.1/msdyn_livechatconfigs(*msdyn_livechatconfigid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.1/msdyn_livechatconfigs<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_livechatconfigs(*msdyn_livechatconfigid*)<br />See [Retrieve](../webapi/retrieve-entity-using-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_livechatconfigs<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
 |RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
 |RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.1/msdyn_livechatconfigs(*msdyn_livechatconfigid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.1/msdyn_livechatconfigs(*msdyn_livechatconfigid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_livechatconfigs(*msdyn_livechatconfigid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_livechatconfigs(*msdyn_livechatconfigid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
@@ -70,6 +69,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [msdyn_cobrowseprovider](#BKMK_msdyn_cobrowseprovider)
 - [msdyn_Duringnonoperatinghours](#BKMK_msdyn_Duringnonoperatinghours)
 - [msdyn_EmailTemplate](#BKMK_msdyn_EmailTemplate)
+- [msdyn_enablechatreconnect](#BKMK_msdyn_enablechatreconnect)
 - [msdyn_Enablechattranscriptdownload](#BKMK_msdyn_Enablechattranscriptdownload)
 - [msdyn_Enablechattranscriptemail](#BKMK_msdyn_Enablechattranscriptemail)
 - [msdyn_enablecobrowse](#BKMK_msdyn_enablecobrowse)
@@ -85,16 +85,27 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [msdyn_name](#BKMK_msdyn_name)
 - [msdyn_oc_geolocationprovider](#BKMK_msdyn_oc_geolocationprovider)
 - [msdyn_ocWidgetLanguage](#BKMK_msdyn_ocWidgetLanguage)
+- [msdyn_offlinewidgetsubtitle](#BKMK_msdyn_offlinewidgetsubtitle)
+- [msdyn_offlinewidgetthemecolor](#BKMK_msdyn_offlinewidgetthemecolor)
+- [msdyn_offlinewidgettitle](#BKMK_msdyn_offlinewidgettitle)
 - [msdyn_operatinghourid](#BKMK_msdyn_operatinghourid)
+- [msdyn_portalurl](#BKMK_msdyn_portalurl)
 - [msdyn_positioninqueue_enabled](#BKMK_msdyn_positioninqueue_enabled)
 - [msdyn_postchatenabled](#BKMK_msdyn_postchatenabled)
+- [msdyn_PostConversationSurvey](#BKMK_msdyn_PostConversationSurvey)
+- [msdyn_PostConversationSurveyEnable](#BKMK_msdyn_PostConversationSurveyEnable)
+- [msdyn_PostConversationSurveyMessageText](#BKMK_msdyn_PostConversationSurveyMessageText)
+- [msdyn_PostConversationSurveyMode](#BKMK_msdyn_PostConversationSurveyMode)
 - [msdyn_PrechatEnabled](#BKMK_msdyn_PrechatEnabled)
 - [msdyn_PreChatQuestionnaireAuthenticated](#BKMK_msdyn_PreChatQuestionnaireAuthenticated)
 - [msdyn_PreChatQuestionnaireUnauthenticated](#BKMK_msdyn_PreChatQuestionnaireUnauthenticated)
 - [msdyn_proactivechatenabled](#BKMK_msdyn_proactivechatenabled)
+- [msdyn_redirectionurl](#BKMK_msdyn_redirectionurl)
 - [msdyn_requestvisitorlocation](#BKMK_msdyn_requestvisitorlocation)
 - [msdyn_screensharingprovider](#BKMK_msdyn_screensharingprovider)
 - [msdyn_showagentname](#BKMK_msdyn_showagentname)
+- [msdyn_Showwidgetduringofflinehours](#BKMK_msdyn_Showwidgetduringofflinehours)
+- [msdyn_timetoreconnectwithpreviousagent](#BKMK_msdyn_timetoreconnectwithpreviousagent)
 - [msdyn_widgetAppId](#BKMK_msdyn_widgetAppId)
 - [msdyn_WidgetLocale](#BKMK_msdyn_WidgetLocale)
 - [msdyn_widgetPosition](#BKMK_msdyn_widgetPosition)
@@ -275,7 +286,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|During non-operating hours|
 |DisplayName|During non-operating hours|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -293,7 +304,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Email Template|
 |DisplayName|Email Template|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -305,11 +316,36 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|String|
 
 
+### <a name="BKMK_msdyn_enablechatreconnect"></a> msdyn_enablechatreconnect
+
+**Added by**: Omnichannel - Chat Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|This will let customers reconnect to their previous session.|
+|DisplayName|Turn on reconnect to previous chat|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_enablechatreconnect|
+|RequiredLevel|None|
+|Type|Boolean|
+
+#### msdyn_enablechatreconnect Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
+
+**DefaultValue**: False
+
+
+
 ### <a name="BKMK_msdyn_Enablechattranscriptdownload"></a> msdyn_Enablechattranscriptdownload
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Allow download of transcript|
 |DisplayName|Allow download of transcript|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -332,7 +368,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Allow email of transcript|
 |DisplayName|Allow email of transcript|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -380,7 +416,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Enable file attachments for agents|
 |DisplayName|Enable file attachments for agents|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -403,7 +439,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Enable file attachments for customers|
 |DisplayName|Enable file attachments for customers|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -428,7 +464,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Enable Screen sharing|
 |DisplayName|Enable Screen sharing|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -451,7 +487,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Display Agent Generic Name|
 |DisplayName|Display Generic Name|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -467,7 +503,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Label string indicating user to save the record to add location information|
 |DisplayName|infolabel|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -483,7 +519,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Language  in which chat widget is rendered|
 |DisplayName|Language|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -518,7 +554,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Work Stream Identifier|
 |DisplayName|Work stream|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -566,7 +602,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Geo Location Provider API Key|
 |DisplayName|Provider API key|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -592,6 +628,75 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Lookup|
 
 
+### <a name="BKMK_msdyn_offlinewidgetsubtitle"></a> msdyn_offlinewidgetsubtitle
+
+**Added by**: Omnichannel - Chat Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Description for offline widget subtitle attribute|
+|DisplayName|Offline Widget Subtitle|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_offlinewidgetsubtitle|
+|MaxLength|4000|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_offlinewidgetthemecolor"></a> msdyn_offlinewidgetthemecolor
+
+**Added by**: Omnichannel - Chat Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Description for offline widget theme color attribute|
+|DisplayName|Offline Widget Theme Color|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_offlinewidgetthemecolor|
+|RequiredLevel|ApplicationRequired|
+|Type|Picklist|
+
+#### msdyn_offlinewidgetthemecolor Options
+
+|Value|Label|
+|-----|-----|
+|19236001|Red|
+|19236002|Blue|
+|19236003|Green|
+|19236004|Black|
+|192350001|Orange|
+|192350002|Pink|
+|192350003|Grey|
+|192350004|Violet|
+|192350005|Brown|
+|192350006|Clay|
+|192350007|Purple|
+|192360017|Teal|
+
+
+
+### <a name="BKMK_msdyn_offlinewidgettitle"></a> msdyn_offlinewidgettitle
+
+**Added by**: Omnichannel - Chat Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Description for offline widget title attribute|
+|DisplayName|Offline Widegt Title|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_offlinewidgettitle|
+|MaxLength|4000|
+|RequiredLevel|ApplicationRequired|
+|Type|String|
+
+
 ### <a name="BKMK_msdyn_operatinghourid"></a> msdyn_operatinghourid
 
 |Property|Value|
@@ -606,13 +711,31 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Lookup|
 
 
+### <a name="BKMK_msdyn_portalurl"></a> msdyn_portalurl
+
+**Added by**: Omnichannel - Chat Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Provide a link to the web portal where your chat is hosted.|
+|DisplayName|Portal URL|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_portalurl|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
+
+
 ### <a name="BKMK_msdyn_positioninqueue_enabled"></a> msdyn_positioninqueue_enabled
 
 **Added by**: Omnichannel - Chat Patch Solution
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Enable Position In Queue feature|
 |DisplayName|Show position in queue|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -635,7 +758,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Enable Post-Chat (Deprecated)|
 |DisplayName|Post-chat Survey|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -654,11 +777,93 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 
 
+### <a name="BKMK_msdyn_PostConversationSurvey"></a> msdyn_PostConversationSurvey
+
+**Added by**: Omnichannel - Chat Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Lookup to Forms Pro survey field|
+|DisplayName|Survey|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_postconversationsurvey|
+|RequiredLevel|None|
+|Targets|msfp_survey|
+|Type|Lookup|
+
+
+### <a name="BKMK_msdyn_PostConversationSurveyEnable"></a> msdyn_PostConversationSurveyEnable
+
+**Added by**: Omnichannel - Chat Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|To enable or disable post conversation survey|
+|DisplayName|Enable|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_postconversationsurveyenable|
+|RequiredLevel|None|
+|Type|Boolean|
+
+#### msdyn_PostConversationSurveyEnable Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
+
+**DefaultValue**: False
+
+
+
+### <a name="BKMK_msdyn_PostConversationSurveyMessageText"></a> msdyn_PostConversationSurveyMessageText
+
+**Added by**: Omnichannel - Chat Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Prefix text for survey link message that will be sent to the user.|
+|DisplayName|Message|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_postconversationsurveymessagetext|
+|MaxLength|200|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_PostConversationSurveyMode"></a> msdyn_PostConversationSurveyMode
+
+**Added by**: Omnichannel - Chat Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Mode of the survey to be sent|
+|DisplayName|Survey Mode|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_postconversationsurveymode|
+|RequiredLevel|None|
+|Type|Picklist|
+
+#### msdyn_PostConversationSurveyMode Options
+
+|Value|Label|
+|-----|-----|
+|192350000|Insert survey in conversation|
+|192350001|Send survey link to conversation|
+
+
+
 ### <a name="BKMK_msdyn_PrechatEnabled"></a> msdyn_PrechatEnabled
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Enable Pre-chat survey feature|
 |DisplayName|Pre-Chat Survey|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -681,7 +886,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Prechat Question set for authenticated users|
 |DisplayName|Question Set for Authenticated Users|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -695,7 +900,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Prechat Question set for unauthenticated users|
 |DisplayName|Question Set for Unauthenticated Users|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -711,7 +916,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Enable Proactive chat for this chat widget|
 |DisplayName|Proactive-chat|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -730,11 +935,29 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 
 
+### <a name="BKMK_msdyn_redirectionurl"></a> msdyn_redirectionurl
+
+**Added by**: Omnichannel - Chat Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|We'll redirect customers to this webpage.|
+|DisplayName|Redirection URL|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_redirectionurl|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
+
+
 ### <a name="BKMK_msdyn_requestvisitorlocation"></a> msdyn_requestvisitorlocation
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Enable Visitor Location Feature|
 |DisplayName|Request visitor location|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -775,7 +998,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Agent Display Name configuration for the chat widget|
 |DisplayName|Anonymize Agent|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -794,11 +1017,54 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 
 
+### <a name="BKMK_msdyn_Showwidgetduringofflinehours"></a> msdyn_Showwidgetduringofflinehours
+
+**Added by**: Omnichannel - Chat Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Description for show/hide offline widget attribute|
+|DisplayName|Show widget during offline hours|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_showwidgetduringofflinehours|
+|RequiredLevel|ApplicationRequired|
+|Type|Boolean|
+
+#### msdyn_Showwidgetduringofflinehours Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
+
+**DefaultValue**: False
+
+
+
+### <a name="BKMK_msdyn_timetoreconnectwithpreviousagent"></a> msdyn_timetoreconnectwithpreviousagent
+
+**Added by**: Omnichannel - Chat Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|The previous agent's capacity will be held for this time period.|
+|DisplayName|Reconnect to previous agent for|
+|Format|Duration|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_timetoreconnectwithpreviousagent|
+|MaxValue|2147483647|
+|MinValue|0|
+|RequiredLevel|None|
+|Type|Integer|
+
+
 ### <a name="BKMK_msdyn_widgetAppId"></a> msdyn_widgetAppId
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Widget App Identifier used to identify the chat widget|
 |DisplayName|Widget App Id|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -849,7 +1115,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Javascript snippet which can be embedded in a webpage|
 |DisplayName|Widget Snippet|
 |Format|Text|
 |IsLocalizable|False|
@@ -865,7 +1131,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Subtitle for the chat widget|
 |DisplayName|Subtitle|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -881,7 +1147,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Theme color for the chat widget|
 |DisplayName|Theme Color|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -912,7 +1178,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Title for the chat widget|
 |DisplayName|Title|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -1070,6 +1336,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 - [msdyn_oc_geolocationproviderName](#BKMK_msdyn_oc_geolocationproviderName)
 - [msdyn_ocWidgetLanguageName](#BKMK_msdyn_ocWidgetLanguageName)
 - [msdyn_operatinghouridName](#BKMK_msdyn_operatinghouridName)
+- [msdyn_PostConversationSurveyName](#BKMK_msdyn_PostConversationSurveyName)
 - [msdyn_WidgetLocaleName](#BKMK_msdyn_WidgetLocaleName)
 - [OwnerIdName](#BKMK_OwnerIdName)
 - [OwnerIdYomiName](#BKMK_OwnerIdYomiName)
@@ -1399,6 +1666,24 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Type|String|
 
 
+### <a name="BKMK_msdyn_PostConversationSurveyName"></a> msdyn_PostConversationSurveyName
+
+**Added by**: Omnichannel - Chat Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_postconversationsurveyname|
+|MaxLength|450|
+|RequiredLevel|None|
+|Type|String|
+
+
 ### <a name="BKMK_msdyn_WidgetLocaleName"></a> msdyn_WidgetLocaleName
 
 |Property|Value|
@@ -1524,7 +1809,6 @@ Listed by **SchemaName**.
 - [msdyn_livechatconfig_msdyn_questionsequence](#BKMK_msdyn_livechatconfig_msdyn_questionsequence)
 - [msdyn_msdyn_livechatconfig_msdyn_chatquestionnaireresponse](#BKMK_msdyn_msdyn_livechatconfig_msdyn_chatquestionnaireresponse)
 - [msdyn_msdyn_livechatconfig_msdyn_livechatwidgetlocation_livechatconfigid](#BKMK_msdyn_msdyn_livechatconfig_msdyn_livechatwidgetlocation_livechatconfigid)
-- [msdyn_livechatconfig_msdyn_ocsystemmessage](#BKMK_msdyn_livechatconfig_msdyn_ocsystemmessage)
 
 
 ### <a name="BKMK_msdyn_livechatconfig_msdyn_questionsequence"></a> msdyn_livechatconfig_msdyn_questionsequence
@@ -1571,23 +1855,6 @@ Same as msdyn_livechatwidgetlocation entity [msdyn_msdyn_livechatconfig_msdyn_li
 |AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
 |CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
-
-### <a name="BKMK_msdyn_livechatconfig_msdyn_ocsystemmessage"></a> msdyn_livechatconfig_msdyn_ocsystemmessage
-
-**Added by**: Omnichannel - Chat Patch Solution
-
-Same as msdyn_ocsystemmessage entity [msdyn_livechatconfig_msdyn_ocsystemmessage](msdyn_ocsystemmessage.md#BKMK_msdyn_livechatconfig_msdyn_ocsystemmessage) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_ocsystemmessage|
-|ReferencingAttribute|msdyn_widgetid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|msdyn_livechatconfig_msdyn_ocsystemmessage|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
 <a name="manytoone"></a>
 
 ## Many-To-One Relationships
@@ -1595,17 +1862,18 @@ Same as msdyn_ocsystemmessage entity [msdyn_livechatconfig_msdyn_ocsystemmessage
 Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related entity. Listed by **SchemaName**.
 
 - [msdyn_msdyn_authsettings_msdyn_livechatconfig](#BKMK_msdyn_msdyn_authsettings_msdyn_livechatconfig)
-- [msdyn_msdyn_chatwidgetlanguage_msdyn_livechatconfig_WidgetLocale](#BKMK_msdyn_msdyn_chatwidgetlanguage_msdyn_livechatconfig_WidgetLocale)
+- [msdyn_msdyn_liveworkstream_msdyn_livechatconfig_liveworkstreamid](#BKMK_msdyn_msdyn_liveworkstream_msdyn_livechatconfig_liveworkstreamid)
 
 
 ### <a name="BKMK_msdyn_msdyn_authsettings_msdyn_livechatconfig"></a> msdyn_msdyn_authsettings_msdyn_livechatconfig
 
 See msdyn_authenticationsettings Entity [msdyn_msdyn_authsettings_msdyn_livechatconfig](msdyn_authenticationsettings.md#BKMK_msdyn_msdyn_authsettings_msdyn_livechatconfig) One-To-Many relationship.
 
-### <a name="BKMK_msdyn_msdyn_chatwidgetlanguage_msdyn_livechatconfig_WidgetLocale"></a> msdyn_msdyn_chatwidgetlanguage_msdyn_livechatconfig_WidgetLocale
+### <a name="BKMK_msdyn_msdyn_liveworkstream_msdyn_livechatconfig_liveworkstreamid"></a> msdyn_msdyn_liveworkstream_msdyn_livechatconfig_liveworkstreamid
 
-See msdyn_chatwidgetlanguage Entity [msdyn_msdyn_chatwidgetlanguage_msdyn_livechatconfig_WidgetLocale](msdyn_chatwidgetlanguage.md#BKMK_msdyn_msdyn_chatwidgetlanguage_msdyn_livechatconfig_WidgetLocale) One-To-Many relationship.
+**Added by**: Omnichannel – Base Solution
 
+See msdyn_liveworkstream Entity [msdyn_msdyn_liveworkstream_msdyn_livechatconfig_liveworkstreamid](msdyn_liveworkstream.md#BKMK_msdyn_msdyn_liveworkstream_msdyn_livechatconfig_liveworkstreamid) One-To-Many relationship.
 
 ### See also
 

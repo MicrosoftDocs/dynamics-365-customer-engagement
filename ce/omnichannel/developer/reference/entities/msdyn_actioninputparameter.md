@@ -1,6 +1,6 @@
 ---
-title: "msdyn_chatquestionnaireresponse Entity Reference | MicrosoftDocs"
-description: "Includes schema information and supported messages for the msdyn_chatquestionnaireresponse entity."
+title: "msdyn_actioninputparameter Entity Reference | MicrosoftDocs"
+description: "Includes schema information and supported messages for the msdyn_actioninputparameter entity."
 ms.date: 08/31/2020
 ms.service: "crm-online"
 ms.topic: "reference"
@@ -10,48 +10,48 @@ author: "susikka"
 ms.author: "susikka"
 manager: "susikka"
 ---
-# msdyn_chatquestionnaireresponse Entity Reference
+# msdyn_actioninputparameter Entity Reference
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
-Stores survey responses when a customer submits a survey
+Attributes of action input parameters
 
-**Added by**: Omnichannel – Chat Solution
+**Added by**: Macros Solution
 
 
 ## Messages
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.0/msdyn_chatquestionnaireresponses(*msdyn_chatquestionnaireresponseid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/msdyn_chatquestionnaireresponses<br />See [Create](../webapi/create-entity-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_chatquestionnaireresponses(*msdyn_chatquestionnaireresponseid*)<br />See [Delete](../webapi/update-delete-entities-using-web-api.md#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Assign|PATCH [*org URI*]/api/data/v9.1/msdyn_actioninputparameters(*msdyn_actioninputparameterid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Create|POST [*org URI*]/api/data/v9.1/msdyn_actioninputparameters<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.1/msdyn_actioninputparameters(*msdyn_actioninputparameterid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 |IsValidStateTransition|<xref href="Microsoft.Dynamics.CRM.IsValidStateTransition?text=IsValidStateTransition Function" />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 |ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_chatquestionnaireresponses(*msdyn_chatquestionnaireresponseid*)<br />See [Retrieve](../webapi/retrieve-entity-using-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_chatquestionnaireresponses<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Retrieve|GET [*org URI*]/api/data/v9.1/msdyn_actioninputparameters(*msdyn_actioninputparameterid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.1/msdyn_actioninputparameters<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
 |RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
 |RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_chatquestionnaireresponses(*msdyn_chatquestionnaireresponseid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_chatquestionnaireresponses(*msdyn_chatquestionnaireresponseid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|SetState|PATCH [*org URI*]/api/data/v9.1/msdyn_actioninputparameters(*msdyn_actioninputparameterid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.1/msdyn_actioninputparameters(*msdyn_actioninputparameterid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
 |Property|Value|
 |--------|-----|
-|CollectionSchemaName|msdyn_chatquestionnaireresponses|
-|DisplayCollectionName|Survey Responses|
-|DisplayName|Survey Response|
-|EntitySetName|msdyn_chatquestionnaireresponses|
+|CollectionSchemaName|msdyn_actioninputparameters|
+|DisplayCollectionName|Action Input Parameters|
+|DisplayName|Action Input Parameter|
+|EntitySetName|msdyn_actioninputparameters|
 |IsBPFEntity|False|
-|LogicalCollectionName|msdyn_chatquestionnaireresponses|
-|LogicalName|msdyn_chatquestionnaireresponse|
+|LogicalCollectionName|msdyn_actioninputparameters|
+|LogicalName|msdyn_actioninputparameter|
 |OwnershipType|UserOwned|
-|PrimaryIdAttribute|msdyn_chatquestionnaireresponseid|
+|PrimaryIdAttribute|msdyn_actioninputparameterid|
 |PrimaryNameAttribute|msdyn_name|
-|SchemaName|msdyn_chatquestionnaireresponse|
+|SchemaName|msdyn_actioninputparameter|
 
 <a name="writable-attributes"></a>
 
@@ -60,11 +60,11 @@ Stores survey responses when a customer submits a survey
 These attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
-- [msdyn_chatquestionnaireresponseId](#BKMK_msdyn_chatquestionnaireresponseId)
-- [msdyn_livechatconfigid](#BKMK_msdyn_livechatconfigid)
-- [msdyn_mode](#BKMK_msdyn_mode)
+- [msdyn_actioninputparameterId](#BKMK_msdyn_actioninputparameterId)
+- [msdyn_ActionTemplateInputParameterId](#BKMK_msdyn_ActionTemplateInputParameterId)
 - [msdyn_name](#BKMK_msdyn_name)
-- [msdyn_ocliveworkitemid](#BKMK_msdyn_ocliveworkitemid)
+- [msdyn_parametertype](#BKMK_msdyn_parametertype)
+- [msdyn_visibility](#BKMK_msdyn_visibility)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [OwnerId](#BKMK_OwnerId)
 - [OwnerIdType](#BKMK_OwnerIdType)
@@ -91,48 +91,32 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Integer|
 
 
-### <a name="BKMK_msdyn_chatquestionnaireresponseId"></a> msdyn_chatquestionnaireresponseId
+### <a name="BKMK_msdyn_actioninputparameterId"></a> msdyn_actioninputparameterId
 
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for entity instances|
-|DisplayName|Survey Response|
+|DisplayName|Action Input Parameter|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |IsValidForUpdate|False|
-|LogicalName|msdyn_chatquestionnaireresponseid|
+|LogicalName|msdyn_actioninputparameterid|
 |RequiredLevel|SystemRequired|
 |Type|Uniqueidentifier|
 
 
-### <a name="BKMK_msdyn_livechatconfigid"></a> msdyn_livechatconfigid
+### <a name="BKMK_msdyn_ActionTemplateInputParameterId"></a> msdyn_ActionTemplateInputParameterId
 
 |Property|Value|
 |--------|-----|
-|Description|Live Chat Widget Config ID|
-|DisplayName|Chat widget|
+|Description|Unique identifier for Macro Action Template associated with Action Input Parameter.|
+|DisplayName|Action Template Input Parameter|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_livechatconfigid|
+|LogicalName|msdyn_actiontemplateinputparameterid|
 |RequiredLevel|None|
-|Targets|msdyn_livechatconfig|
+|Targets|msdyn_macroactiontemplate|
 |Type|Lookup|
-
-
-### <a name="BKMK_msdyn_mode"></a> msdyn_mode
-
-|Property|Value|
-|--------|-----|
-|Description|Questionnaire Mode|
-|DisplayName|Mode|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_mode|
-|MaxLength|200|
-|RequiredLevel|None|
-|Type|String|
 
 
 ### <a name="BKMK_msdyn_name"></a> msdyn_name
@@ -151,18 +135,43 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|String|
 
 
-### <a name="BKMK_msdyn_ocliveworkitemid"></a> msdyn_ocliveworkitemid
+### <a name="BKMK_msdyn_parametertype"></a> msdyn_parametertype
 
 |Property|Value|
 |--------|-----|
-|Description|Conversation Identifier|
-|DisplayName|Conversation Id|
+|Description|Unique value to store the parameter type|
+|DisplayName|Parameter Type|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_ocliveworkitemid|
+|LogicalName|msdyn_parametertype|
 |RequiredLevel|None|
-|Targets|msdyn_ocliveworkitem|
-|Type|Lookup|
+|Type|Boolean|
+
+#### msdyn_parametertype Options
+
+|Value|Label|
+|-----|-----|
+|1|Mandatory|
+|0|Optional|
+
+**DefaultValue**: False
+
+
+
+### <a name="BKMK_msdyn_visibility"></a> msdyn_visibility
+
+|Property|Value|
+|--------|-----|
+|Description|Action card section that renders these parameters. Possible values: required,advanced,important,internal,read-only|
+|DisplayName|Visibility|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_visibility|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
@@ -216,7 +225,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Status of the Chat Questionnaire Response|
+|Description|Status of the Action Input Parameter|
 |DisplayName|Status|
 |IsValidForCreate|False|
 |IsValidForForm|True|
@@ -238,7 +247,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Reason for the status of the Chat Questionnaire Response|
+|Description|Reason for the status of the Action Input Parameter|
 |DisplayName|Status Reason|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -306,8 +315,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 - [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
 - [ModifiedOnBehalfByName](#BKMK_ModifiedOnBehalfByName)
 - [ModifiedOnBehalfByYomiName](#BKMK_ModifiedOnBehalfByYomiName)
-- [msdyn_livechatconfigidName](#BKMK_msdyn_livechatconfigidName)
-- [msdyn_ocliveworkitemidName](#BKMK_msdyn_ocliveworkitemidName)
+- [msdyn_ActionTemplateInputParameterIdName](#BKMK_msdyn_ActionTemplateInputParameterIdName)
 - [OwnerIdName](#BKMK_OwnerIdName)
 - [OwnerIdYomiName](#BKMK_OwnerIdYomiName)
 - [OwningBusinessUnit](#BKMK_OwningBusinessUnit)
@@ -554,7 +562,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Type|String|
 
 
-### <a name="BKMK_msdyn_livechatconfigidName"></a> msdyn_livechatconfigidName
+### <a name="BKMK_msdyn_ActionTemplateInputParameterIdName"></a> msdyn_ActionTemplateInputParameterIdName
 
 |Property|Value|
 |--------|-----|
@@ -564,24 +572,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |IsLocalizable|False|
 |IsValidForForm|False|
 |IsValidForRead|True|
-|LogicalName|msdyn_livechatconfigidname|
+|LogicalName|msdyn_actiontemplateinputparameteridname|
 |MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_ocliveworkitemidName"></a> msdyn_ocliveworkitemidName
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|msdyn_ocliveworkitemidname|
-|MaxLength|200|
 |RequiredLevel|None|
 |Type|String|
 
@@ -686,37 +678,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|None|
 |Type|BigInt|
 
-<a name="onetomany"></a>
 
-## One-To-Many Relationships
-
-Listed by **SchemaName**.
-
-
-### <a name="BKMK_msdyn_msdyn_chatquestionnaireresponse_msdyn_chatquestionnaireresponseitem_nested"></a> msdyn_msdyn_chatquestionnaireresponse_msdyn_chatquestionnaireresponseitem_nested
-
-Same as msdyn_chatquestionnaireresponseitem entity [msdyn_msdyn_chatquestionnaireresponse_msdyn_chatquestionnaireresponseitem_nested](msdyn_chatquestionnaireresponseitem.md#BKMK_msdyn_msdyn_chatquestionnaireresponse_msdyn_chatquestionnaireresponseitem_nested) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_chatquestionnaireresponseitem|
-|ReferencingAttribute|msdyn_chatquestionnaireresponseid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_msdyn_chatquestionnaireresponse_msdyn_chatquestionnaireresponseitem_nested|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-<a name="manytoone"></a>
-
-## Many-To-One Relationships
-
-Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related entity. Listed by **SchemaName**.
-
-
-### <a name="BKMK_msdyn_msdyn_livechatconfig_msdyn_chatquestionnaireresponse"></a> msdyn_msdyn_livechatconfig_msdyn_chatquestionnaireresponse
-
-See msdyn_livechatconfig Entity [msdyn_msdyn_livechatconfig_msdyn_chatquestionnaireresponse](msdyn_livechatconfig.md#BKMK_msdyn_msdyn_livechatconfig_msdyn_chatquestionnaireresponse) One-To-Many relationship.
 
 ### See also
 
