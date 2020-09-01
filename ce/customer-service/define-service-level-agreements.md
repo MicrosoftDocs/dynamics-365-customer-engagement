@@ -130,8 +130,8 @@ SLA KPIs are performance indicators, such as First Response or Resolve by, that 
 
 5. Select **Save**.
 
-6. In the **Pause Conditions** section that appears, do the following:
-   1. Set the toggle to **Yes** for **Override Criteria** if you want to override the pause settings that have been applied at the entity level for your org.
+6. To set pause criteria at each KPI level, in the **Pause Conditions** section that appears, do the following:
+   1. Set the toggle to **Yes** for **Override Criteria** to override the pause settings that have been applied at the entity level for your org.
    2. Select **Add** to define the conditions in which the SLA KPI can be paused.
 
 7. Select **Activate**. The SLA KPI is saved and activated.
