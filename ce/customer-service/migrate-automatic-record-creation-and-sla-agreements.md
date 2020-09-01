@@ -68,9 +68,6 @@ The following updates or edits to a rule will not be considered if:
 
 ## Accessing the migration tool
 
-> [!NOTE]
-> Only administrators can view and use this option.
-
 You can access the migration tool using the following steps:
 
 1. In Customer Service Hub, select **Service Management** in **Change area**.
