@@ -120,6 +120,8 @@ Making changes to the date or duration of the time entry will update the time-of
 
 ## Configuration considerations
 
+- While our out of the box security roles have been adjusted to allow for time entry usage and time entry automatic creation from time off requests, organizations should expect to add time entry permissions to their custom security roles. Without permissions on time entry, users will be blocked from creating time entries and time off requests due to their interconnected automation, even if they could previously create time off requests.
+
 - If you do not want time entries created automatically for the work order process, go to **Field Service** > **Settings** > **Field Service Settings** and set the **Time Entry Generation Strategy** to **Manual**.
 
 > [!div class="mx-imgBorder"]
