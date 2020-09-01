@@ -6,7 +6,7 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: krbjoran
 ms.custom:
   - dyn365-fieldservice
-ms.date: 08/10/2020
+ms.date: 09/01/2020
 ms.topic: article
 ms.prod:
 ms.technology:
@@ -82,6 +82,8 @@ Field service capabilities include:
 - [NAVCO](https://customers.microsoft.com/story/790284-navco-professional-services-dynamics-365)
 
 - [Rockwell Automation](https://customers.microsoft.com/story/786160-rockwell-automation-manufacturing-dynamics-365)
+
+- [Siemens](https://customers.microsoft.com/story/814362-siemens-manufacturing-dynamics-365-field-service)
 
 ## Field Service roles
 
