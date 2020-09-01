@@ -43,7 +43,7 @@ Because there's no change to functionality in version 3.x, we aren't upgrading. 
 ## General  
 
 <a name="unable-sync-d365-org-under-admin-tab-linkedin"> </a>
-**I'm unable to sync Dynamics 365 organization with LinkedIn Sales Navigator under Admin tab and an error message is displayed specifying that the start of sync has failed.** 
+**Why am I unable to sync Dynamics 365 organization with LinkedIn Sales Navigator under Admin tab and an error message is displayed specifying that the start of sync has failed.** 
 
 > [!div class="mx-imgBorder"]  
 > ![Unable to sync Dynamics 365 organization with LinkedIn Sales Navigator error message](media/faq-unable-sync-d365-lsn-error.png "Unable to sync Dynamics 365 organization with LinkedIn Sales Navigator error message")
@@ -53,13 +53,13 @@ Because there's no change to functionality in version 3.x, we aren't upgrading. 
 The error is from the LinkedIn Sales Navigator application. Contact the [LinkedIn Sales Navigator](https://www.linkedin.com/help/sales-navigator/answer/a107028) support to resolve the issue.
 
 <a name="unable-log-in-to-linkedin-control"> </a>
-**I'm unable to sign in to LinkedIn control in Safari browser.**
+**Why am I unable to sign in to LinkedIn control in Safari browser?**
 
 **Answer**
 Dynamics 365 doesn't own the sign-in of users in to Display Widget. Contact the [LinkedIn Sales Navigator](https://www.linkedin.com/help/sales-navigator/answer/a107028) support to resolve the issue.
 
 <a name="incorrect-owner-name-displayed"> </a>
-**When I create contact in LinkedIn Sales Navigator, incorrect name is displayed under the owner of the record instead of my name.**
+**Why an incorrect name is displayed under the owner of the record instead of my name when I create contact in LinkedIn Sales Navigator?**
 
 **Answer**
 
@@ -67,7 +67,7 @@ Dynamics 365 doesn't own the process of contact creation in LinkedIn Sales Navig
 
 
 <a name="unable-enable-crm-sync-for-seat"> </a>
-**I couldn't enable CRM sync for a seat in LinkedIn Sales Navigator.**
+**Why I couldn't enable CRM sync for a seat in LinkedIn Sales Navigator?**
 
 **Answer**
 
@@ -76,7 +76,7 @@ The issue might have occurred due to the mismatch of user's email in Dynamics 36
 If the issue still persists, contact the [LinkedIn Sales Navigator](https://www.linkedin.com/help/sales-navigator/answer/a107028) support to resolve the issue.
 
 <a name="unable-writeback-inmails"> </a>
-**I'm unable to write back inMails and messages from LinkedIn Sales Navigator to Dynamics 365 and the Copy message to CRM option is disabled.**
+**Why am I unable to write back inMails and messages from LinkedIn Sales Navigator to Dynamics 365 and the Copy message to CRM option is disabled.**
 
 > [!div class="mx-imgBorder"]  
 > ![Copy message to CRM option disabled](media/faq-unable-writeback-inmails-messages-error.png "Copy message to CRM option disabled")
