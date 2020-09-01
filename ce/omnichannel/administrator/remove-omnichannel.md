@@ -28,6 +28,10 @@ You can remove Omnichannel for Customer Service and disable all channels for a D
 To remove the Omnichannel for Customer Service from the organization,
 
 1. In **Power Platform Admin Center**, on the **Environments** page, select the environment in which Omnichannel for Customer Service needs to be removed.
+
+    > [!div class=mx-imgBorder]
+    > ![Manage omnichannel](../media/OC-provisioning-ppadmin.png)
+
 2. In the left pane, expand **Resources**, and select **Dynamics 365 Apps**.
 3. On the **Dynamics 365 apps** page, select **More commands** beside **Omnichannel for Customer Service**, and then select **Manage**.
 4. On the **Manage *<environment_name>*** page, select **Delete**.

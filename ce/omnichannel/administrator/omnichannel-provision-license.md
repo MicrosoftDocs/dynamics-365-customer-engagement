@@ -47,7 +47,7 @@ To allow Omnichannel for Customer Service to read and write data on behalf of us
 1. In **Power Platform Admin Center**, on the **Environments** page, select the environment in which Omnichannel for Customer Service needs to be set up.
 2. In the left pane, expand **Resources**, and select **Dynamics 365 Apps**.
 3. On the **Dynamics 365 apps** page, select **More commands** beside **Omnichannel for Customer Service**, and then select **Manage**.
-   
+
     > [!div class=mx-imgBorder]
     > ![Manage omnichannel](../media/OC-provisioning-ppadmin.png)
 
