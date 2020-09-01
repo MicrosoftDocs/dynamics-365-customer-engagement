@@ -274,7 +274,7 @@ Another client side extensibility point made available in the July 2017 update i
 > A step by step guide with code samples needed for each step is described in [Extending URS: Find resources by language - a step by step guide](extending-urs-step-by-step.md)
 
 ## Additional notes
-- The Filter layout is currently not configurable when Schedulable entity uses an associated Requirement group instead of a Resource Requirement. 
+- The filter layout is currently not configurable when a schedulable entity uses an associated requirement group instead of a resource requirement. 
 
 ### See also
 
