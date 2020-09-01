@@ -38,7 +38,7 @@ To allow Omnichannel for Customer Service to read and write data on behalf of us
 4. Select **Accept** to grant data access consent.
 
     > [!div class=mx-imgBorder]
-    > ![Grant consent](../media/data-consent.png)
+    > ![Grant consent](../media/data-consent.png "Grant consent")
 
 > For more information about app permissions, see [Azure app Power BI API permissions](https://docs.microsoft.com/power-bi/developer/embedded/power-bi-permissions).
 
@@ -49,14 +49,14 @@ To allow Omnichannel for Customer Service to read and write data on behalf of us
 3. On the **Dynamics 365 apps** page, select **More commands** beside **Omnichannel for Customer Service**, and then select **Manage**.
 
     > [!div class=mx-imgBorder]
-    > ![Manage omnichannel](../media/OC-provisioning-ppadmin.png)
+    > ![Manage Omnichannel for Customer Service](../media/OC-provisioning-ppadmin.png "Manage Omnichannel for Customer Service")
 
 4. Select **OK** on the **Manage Omnichannel for Customer Service** message. The **Dynamics 365 Administration Center | Omnichannel** page is displayed on a new tab.
 
 5. On the **Manage Omnichannel Instances** page, select **Add Org** to add an organization. Omnichannel is set up on the organization environment that you add here.
 
     > [!div class=mx-imgBorder]
-    > ![manage instances](../media/manage-environments.png)
+    > ![Manage environments](../media/manage-environments.png "Manage environments")
 
     > [!IMPORTANT]
     > As an admin, you can configure Omnichannel in multiple environments. You can view the status of all organization environments where the Omnichannel app has been configured in the **Manage environments** view.
@@ -64,17 +64,17 @@ To allow Omnichannel for Customer Service to read and write data on behalf of us
 6. Select the environment in the drop-down list.
 
     > [!div class=mx-imgBorder]
-    > ![select org](../media/select-org.png)
+    > ![Select org](../media/select-org.png "Select org")
 
 7. Select the **Chat** tab and set the toggle to Yes to enable the Chat channel for your organization.
 
     > [!div class=mx-imgBorder]
-    > ![Enable chat](../media/enable-chat.png)
+    > ![Enable chat](../media/enable-chat.png "Enable chat")
 
 8. Select the **SMS** tab and set the toggle to Yes to enable SMS. Select the check box to confirm that you agree to the SMS terms.
 
     > [!div class=mx-imgBorder]
-    > ![Enable SMS with Omnichannel](../media/enable-sms-with-omnichannel.png "Enable SMS with Omnichannel")
+    > ![Enable SMS](../media/enable-sms-with-omnichannel.png "Enable SMS")
 
     > [!IMPORTANT]
     > You must select the check box for **SMS Terms** to enable SMS and proceed with the setup.
@@ -82,22 +82,22 @@ To allow Omnichannel for Customer Service to read and write data on behalf of us
 9.  Select the **Social** tab and set the toggle to Yes to enable social channels.
 
     > [!div class=mx-imgBorder]
-    > ![Enable Facebook Messenger with Omnichannel](../media/enable-social.png "Enable social channels with Omnichannel")
+    > ![Enable social channels](../media/enable-social.png "Enable social channels")
 
 10. Select the **Microsoft Teams** tab and set the toggle to Yes to enable Microsoft Teams. 
 
     > [!div class=mx-imgBorder]
-    > ![Enable Facebook Messenger with Omnichannel](../media/enable-teams.png "Enable Microsoft Teams with Omnichannel")
+    > ![Enable Microsoft Teams](../media/enable-teams.png "Enable Microsoft Teams")
 
 11. On the **Confirmation** page, verify your selections, and select **Finish** to provision Omnichannel for Customer Service in your organization.
 
     > [!div class=mx-imgBorder]
-    > ![Summary tab on Manage Omnichannel instances page](../media/manage-omnichannel-summary.png "Confirmation page")
+    > ![Summary tab on Manage Omnichannel instances page](../media/manage-omnichannel-summary.png "Summary tab on Manage Omnichannel instances page")
 
     The setup can take several minutes. You may close the window and check after some time, or refresh to check if it's complete. After the setup is complete, the selected channels are enabled in your environment.
 
     > [!div class=mx-imgBorder]
-    > ![Set up complete](../media/install-complete.png)
+    > ![Set up complete](../media/install-complete.png "Set up complete")
 
 ## Update Omnichannel for Customer Service application
 
@@ -109,14 +109,14 @@ After Omnichannel for Customer Service application is successfully provisioned, 
 4. Select **OK** on the **Manage Omnichannel for Customer Service** message. The **Dynamics 365 Administration Center | Omnichannel** page is displayed on a new tab.
 
     > [!div class=mx-imgBorder]
-    > ![Select the Omnichannel for Customer Service instance](../media/select-oc-instance.PNG "Select the Omnichannel for Customer Service environment")
+    > ![Select the Omnichannel for Customer Service environment](../media/select-oc-instance.PNG "Select the Omnichannel for Customer Service environment")
 
 5. Select the channel to be enabled. For example, in this procedure, we will enable the Social channels.
 
 6. On the **Social** tab, set the toggle to Yes to enable social channels in your environment.
 
     > [!div class=mx-imgBorder]
-    > ![Enable Facebook Messenger channel](../media/select-oc-social.PNG "Enable social channels")
+    > ![Enable Social channels](../media/select-oc-social.PNG "Enable Social channels")
 
 7. Select **Save**. After the update is complete, the status is displayed on the **Summary** tab.
 
