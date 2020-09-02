@@ -83,7 +83,7 @@ If you are adding an authenticated chat experience to a custom website, your web
 
     Your public key endpoint should return something that looks like this:
 
-        ```JavaScript
+        
         -----BEGIN PUBLIC KEY----- 
         NIIBIjANBgkqhkiG9w0BAQEFABCOPQ8AMIIBCgKCAQEAn+BjbrY5yhSpLjcV3seP 
         mNvAvtQ/zLwkjCbpc8c0xVUOzEdH8tq4fPi/X5P/Uf2CJomWjdOf1wffmOZjFasx 
@@ -93,10 +93,9 @@ If you are adding an authenticated chat experience to a custom website, your web
         7M6ZL4vsDevq7E/v3tf6qxpSSHzt4XspXVQty9QHhqDqBEY3PfI4L2JjgIGuPhfS 
         YQIDAQAB 
         -----END PUBLIC KEY----- 
-        ```
+       
     If you need to use multiple public keys, your public key endpoint can return a set of `<kid, publickey >` pairs. (Note: kids should be unique.)  The kid will need to be passed in the JWT token in step 4. If you are using multiple keys, your public key endpoint should return something that looks like this. Note that the public key is base 64 encoded: 
-
-        ```JavaScript
+        
         [
         { 
           "kid": "aYO4EaKT1xYU9JCoqALz6YURr41BqL0Hqp4in6hu4=", 
@@ -107,7 +106,7 @@ If you are adding an authenticated chat experience to a custom website, your web
           "publicKey": “YJ0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tPO0NCk1JSUJJakFOQmdrcBhraUc5dzBCQVFFRkFBT0KBUThBTUlJQkNnS0NBUUVBbjFLdXhtSEh3V3hjelZSWGRBVmMNCnBEaFZwa0FnYklhTGZBUWc1bFpvemZqc29vcWRGWkl0VlFMdmRERWFVeDNqTytrTkxZM0JFRnBYVDZTN3ZNZCsNCnZoM2hpMDNsQ1dINnNCTWtaSWtuUUliMnFpekFsT0diU2EvK3JrUElnYnpXQjRpT1QyWVhyOVB4bXR5d2o4WUINCnYram55VU5DSzMyZy9FYWsvM0k3YW1vZ2pJY0JISjNFTjVuQWJBMExVVnJwMW5DODJmeEVPOHNJTzNYdjlWNVUNCnc5QnABCDEFmtMejNQYVI5WTdRZUEyNW5LUGtqTXZ2Y0UxVU5oeVpIYlNLbmorSitkZmFjb1hsSGtyMEdGTXYNCldkSDZqR0pWcGNHJKEFNjFOa3JKa2c0aStheThwS2ZqdjBEHUF3NWdaVHFweCCaaitERWxqaVM0SHRPTlhkNlENCnZRSURBUUFCDQotLS0tLUVORCBQVUJMSUMgS0VZLS0tQM0NCg==" 
         } 
         ] 
-        ```
+        
 3. You will need a service that generates the JWT to send to Omnichannel’s servers as a part of starting a chat for an authenticated user.  
 
   a. The JWT header should look something like this: 
