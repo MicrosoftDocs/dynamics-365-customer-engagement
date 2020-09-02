@@ -11,8 +11,7 @@ ms.topic: article
 ---
 
 # Manage application tab templates
-<!-- [kabala] - remove this statement as templates will be available with OC, right. Make the topic common for both CSW and OC. Some sections like OOB apps templates for channels are applicable to Omnichannel. Clearly call out the difference as to what is applicable to CSW and OC accordingly.-->
-[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
 
 ## Overview
 
@@ -33,44 +32,42 @@ As an administrator, you can create multiple application tab templates.
 
 ## Create an application tab template
 
-1. Sign in to the Omnichannel Administration app. <!-- [kabala] - admins can create app tab templates from CSH SM and OC admin app.)
+<!-- [kabala] - admins can create app tab templates from CSH SM and OC admin app.)--> 
+<!-- Neeraja: Right but currently, for CSw, the admins have to navigate from the app profile manager if they need to create the template, they do not have a navigation from within CSH to open the create new application tab experience. So, let's assume that whether admin comes from CSw or OCA, they will see Active Application Tab Templates page. Therefore, I am removing the orientation to navigation-->
 
-2. Select **Application Tabs** under **Agent Experience** in the sitemap.
+1. Select **New** in the **Active Application Tab Templates** page.
 
-3. Select **+ New** in the **Active Application Tabs** page.
-
-4. Specify the following in the **New Application Tabs** page.
+2. Specify the following in the **New Application Tab Template** page.
 
     | Tab | Name | Value description | Example |
     |-----------|-------------------|-----------------------------------|-------------------------------------|
-    | General | Name | Specify the name of the application tab. This name wouldn't be visible for the agents at the run-time. | Knowledge article search |
-    | General | Application title | Provide a title for the application that you want the agents to see at the run-time. | Knowledge article search |
-    | General | Application type | Select a application type from the list. Choose one of the following: <br><br> <ul><li>Custom control</li> <li>Dashboard</li> <li>Entity view</li> <li>Entity record</li> <li>Entity search</li> <li>Web resource</li> <li>Website Url</li> </ul> <br> To learn more, see [Application types](#application-types).|  Web resource |
+    | General | Name | The name of the application tab. This name wouldn't be visible for the agents at the run-time. | Knowledge article search |
+    | General | Unique Name | A unique identifier in the *<prefix>*_*<name>* format. <br>**IMPORTANT**<br> The following are required for the unique name: <ul><li>The prefix can only be alphanumeric and its length must be between 3 to 8 characters.</li><li> An underscore must be there between the prefix and name.</li></ul> | contoso_applicationtab |
+    | General | Title | Provide a title for the application that you want the agents to see at the run-time. | Knowledge article search |
+    | General | Page type | Select an application type from the list. |  Web Resource |
     | General | Description | Provide a description for your reference. | The application type is used to display KB Search Page. |
 
-5. Select **Save** to save the application tab template. After you save, the parameters for the application type you selected appear in the **Parameters** section. 
+3. Select **Save** to save the application tab template. After you save, the parameters for the application type you selected appear in the **Parameters** section.
 
     Whenever you edit the application tab template, save the changes so you see the corresponding fields in the **Parameters** section.
 
-6. Select the **Value** field of a parameter to edit and provide the value. See the [Application types in the application templates](#application-types) for the parameters.
+4. Select the **Value** field of a parameter to edit and provide the value. See the [Application types in the application templates](#application-types) for the parameters.
 
-7. Select **Save**.
+5. Select **Save**.
 
 ## Application types
 
 The types of applications available are as follows:
 
-- [Manage application tab templates](#manage-application-tab-templates)
-  - [Overview](#overview)
-  - [Create an application tab template](#create-an-application-tab-template)
-  - [Application types](#application-types)
-    - [Custom control](#custom-control)
-    - [Dashboard](#dashboard)
-    - [Entity view](#entity-view)
-    - [Entity record](#entity-record)
-    - [Entity search](#entity-search)
-    - [Web resource](#web-resource)
-    - [Website Url](#website-url)
+- Entity List
+- Entity Record
+- Web Resource
+- Control
+- Dashboard
+- Search
+- Third Party Website
+
+
 
 <!-- [kabala] - Reach out to Aravindan to check which app tab types are only applicable to OC and pls call them out accordingly.) -->
 
@@ -96,7 +93,7 @@ The application type is used to display the dashboard as an application. The par
 
 ### Entity view
 
-The application type is used to display an entity view that defines how a list of records for a specific entity is displayed in the Omnichannel application. The parameters available for the entity view application type are as follows: 
+The application type is used to display an entity view that defines how a list of records for a specific entity is displayed in the Omnichannel application. The parameters available for the entity view application type are as follows:
 
 | parameter | Example value | Description |
 |----------------------------|---------------------------------|-----------------------------------------------------------------------------|
@@ -140,7 +137,7 @@ The application type is used to display Web resources that represent files, whic
 
 ### Website Url
 
-The application type is used to display first-party and third-party websites as an application. You can use this type to host only the websites that are compatible for iframe hosting.  The parameters available for the website URL application type are as follows:
+The application type is used to display first-party and third-party websites as an application. You can use this type to host only the websites that are compatible for iframe hosting. The parameters available for the website URL application type are as follows:
 
 | parameter | Example value | Description |
 |----------------------------|---------------------------------|-----------------------------------------------------------------------------|

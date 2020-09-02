@@ -67,7 +67,7 @@ All these options are available in the Unified Interface and open on a new tab w
 
 > ![Navigation menu](media/app-profile-navigation-items.png "App profiles home page")
 
-Irrespective of the path from where you navigate to any of the components, such as session templates or application tab templates, you will see templates that you have defined for both Customer Service workspace and Omnichannel for Customer Service. This is because the templates are stored in a common library.
+Irrespective of the path from where you navigate to any of the components, such as session templates or application tab templates, the templates that you have defined for Customer Service workspace and Omnichannel for Customer Service will be displayed because they are stored in a common library.
 
 ### Settings
 

@@ -11,9 +11,8 @@ ms.topic: article
 ---
 
 # Manage session templates
-<!-- [kabala] - remove this statement as templates will be available with OC, right. Make the topic common for both CSW and OC. Some sections like OOB session templates for channels are applicable to Omnichannel. Clearly call out the difference as to what is applicable to CSW and OC accordingly.-->
 
-## Overview
+##  Introduction
 
 A session template is a combination of attributes and application tab information that can be reused.
 
@@ -29,8 +28,6 @@ You can create session templates in the Omnichannel Administration app or use th
 
   > [!Note]
   > We recommend that you do not modify the out-of-the-box session templates for your customizations; instead, create your own custom templates to avoid losing them during solution upgrades.
-
-<!-- [kabala] - Clearly call out that these OOB templates are applicable to OC channels only. Add another entry for CSW. They are also shipping one OOB case entity session template. For exact name, reach out to Marco.-->
 
 The out-of-the-box session template for using in Customer Service workspace is <!-- ask Marco -->
 
@@ -64,23 +61,21 @@ The following out-of-the-box session templates are for use in the Omnichannel fo
     | General | Description | Provide a description for your reference. | The session template is used for a conversation request from Chat channel. |
     | General | Owner | Search and select an owner. By default, the user who is creating the template is set as the owner | Alan Steiner |
     | General | Anchor tab | Select an application from the list. The application is opened by default when the session starts and can't be closed. <br> **Note:** The anchor tab option is displayed only when **Type** is generic. | Customer summary |
-  
-  <!-- [kabala] - The anchor is not applicable for entity session templates. As the record on which agent clicks will be opened in the anchor tab. -->
 
-5. Select **Save**. After you save, the **Additional tabs** option appears on the page.
+3. Select **Save**. After you save, the **Additional tabs** option appears on the page.
 
-6. Select **Add Existing Application Tab Template** to add additional application tabs that you want to be opened when a session is started. Agents can't close this application tab. The **Lookup Records** pane appears.
+4. Select **Add Existing Application Tab Template** to add additional application tabs that you want to be opened when a session is started. Agents can't close this application tab. The **Lookup Records** pane appears.
 
-7. Type the application tab names in the search box and select the search icon. A list of records appears. Select the application tab and select **Add**. The application tab is added to the session.
+5. Type the application tab names in the search box and select the search icon. A list of records appears. Select the application tab and select **Add**. The application tab is added to the session.
 
-8. Select the **Agent scripts** tab, and set the **Enable build expression** toggle to **Yes** to define the expression to set an agent script as default for a particular session template.
+6. Select the **Agent scripts** tab, and set the **Enable build expression** toggle to **Yes** to define the expression to set an agent script as default for a particular session template.
 
-9. Build the expression, and then select **Save and close**. To learn more, see [Set default agent script for agents](agent-scripts.md#set-default-agent-script-for-agents).
+7. Build the expression, and then select **Save and close**. To learn more, see [Set default agent script for agents](agent-scripts.md#set-default-agent-script-for-agents).
 
   > [!Note]
-  > Step 8 and 9 are optional, and applicable only when you've configured agent scripts and enabled the productivity pane. To learn more, see [Agent scripts](agent-scripts.md) and [Enable the productivity pane to provide guidance to agents](productivity-pane.md).
+  > Step 6 and 7 are optional, and applicable only when you've configured agent scripts and enabled the productivity pane. To learn more, see [Agent scripts](agent-scripts.md) and [Enable the productivity pane to provide guidance to agents](productivity-pane.md).
 
-10. Select **Save** to save the changes.
+8. Select **Save**.
 
    > [!div class=mx-imgBorder]
    > ![Session template](media/session-template1.png "Session template")

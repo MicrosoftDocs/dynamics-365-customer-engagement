@@ -21,16 +21,6 @@ The Dynamics 365 Productivity Tools app provides capabilities that help users pe
 
 ### Challenges
 
-In the customer service industry, agents are expected to handle a large volume of customer issues and resolve them quickly with high customer satisfaction value while adhering to the process standards.
-
-Whilst there are challenges such as:
-
-- Too many clicks to perform actions (open a form, fill out the form, save the form, and so on).
-- Repetitive or monotonous tasks (greet a customer, verify a customer, send acknowledgment mail, take notes, and so on).
-- Human errors introduced during copy paste of data across different pages.
-- Process adherence and compliance that are specific to the contact center business organizations.
-- Lack of real-time insights to the customer, knowledge articles, and other relevant needs based on the context of the interaction.
-
 The Dynamics 365 Productivity Tools app contains the following functionality to help with repetitive and monotonous tasks, such as greet customers and fill forms. The tool also helps with displaying AI-based suggestions for knowledge articles and similar cases to agents, and thereby helps users perform day-to-day operations in a fast, efficient, and process-compliant manner.
 
 - [Macros](#macros)
@@ -61,7 +51,7 @@ The productivity pane, when enabled, displays the agent guidance control that sh
 To learn more, see [Enable the productivity pane to provide guidance to agents](productivity-pane.md).
 
 ### Prerequisites
-
+<!--Karthik, are the following prerequisites applicable?-->
 - Identify the Common Data Service environment to which you want to deploy Dynamics 365 Productivity Tools. To know the environment details, sign in to Common Data Service platform > **Settings** > **Customizations** and then select **Developer resources**. To learn more, see [Developer resources page](https://docs.microsoft.com/powerapps/developer/common-data-service/view-download-developer-resources).
 
 - Deploy Chat for Dynamics 365 Customer Service in your environment as Dynamics 365 Productivity Tools works only with the Omnichannel for Customer Service app. To learn more, see [Try channels for Dynamics 365 Customer Service](../try-channels.md) and [Configure a chat channel](set-up-chat-widget.md).

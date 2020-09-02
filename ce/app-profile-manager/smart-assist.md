@@ -1,24 +1,23 @@
 ---
 title: "Smart assist for agents | MicrosoftDocs"
-description: "Learn about how to smartly assist agents with the next-best steps in the Omnichannel Administration app."
+description: "Learn about how to smartly assist agents with the next-best steps in the Customer Service workspace and Omnichannel Administration apps."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/15/2020
+ms.date: 09/04/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
 ---
 
-# Smart assist
+# Enabling smart assist
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-## Overview of smart assist
+## Introduction
 
 The new-age customer service industry is moving toward the vision of being intelligent rather than process-driven while interacting with customers. Pivoting on intelligence capabilities helps unleash the productivity of agents to perform better on key performance indicators and&mdash;at the same time&mdash;deliver better customer experience.
 
-Smart assist is an intelligent assistant that provides real-time recommendations to agents, helping them to take actions while interacting with customers. It allows organizations to build a custom bot and plug-in to their environment. These custom bots interpret conversations in real time and provide relevant recommendations such as knowledge articles, similar cases, and next-best steps to the agent's user interface.
+Smart assist is an intelligent assistant that provides real-time recommendations to agents, helping them take actions while interacting with customers. It allows organizations to build a custom bot and plug-in to their environment. These custom bots interpret conversations in real time and provide relevant recommendations such as knowledge articles, similar cases, and next-best steps to the agent's user interface.
 
 The smart assist feature can be enabled across all channels, such as Chat for Dynamics 365 Customer Service, SMS, and Facebook (excluding Entity Records Channel), making it a consistent experience for agents.
 
@@ -28,7 +27,7 @@ The smart assist feature can be enabled across all channels, such as Chat for Dy
 
 - Plug-in organization-specific recommendations are displayed to agents in real time.
 
-- Action-oriented recommendations are given for agents to send responses or execute automated actions.
+- Action-oriented recommendations are displayed for agents to send responses or run automated actions.
 
 - Intelligence is powered by using Microsoft Azure or third-party capabilities.
 
@@ -39,7 +38,7 @@ The smart assist feature can be enabled across all channels, such as Chat for Dy
 - Productivity pane must be enabled. Out of the box, productivity pane is enabled by default.
 - Smart assist must be enabled.
 - One of the following:
-    - AI-based suggestions for ongoing conversations and knowledge articles should be enabled by your administrator. More information: [Enable AI suggestions for similar cases and knowledge articles](../../customer-service/csw-enable-ai-suggested-cases-knowledge-articles.md)
+    - AI-based suggestions for ongoing conversations and knowledge articles should be enabled by your administrator. More information: [Enable AI suggestions for similar cases and knowledge articles](../customer-service/csw-enable-ai-suggested-cases-knowledge-articles.md)
     - Develop a smart assist bot and integrate it with Omnichannel for Customer Service. The smart-assist bot interprets the conversation context in real time and provides suggestions to agents. For information: [Build a smart assist bot](../developer/how-to/smart-assist-bot.md).
 
 ## Admin settings to enable smart assist for the bot framework
