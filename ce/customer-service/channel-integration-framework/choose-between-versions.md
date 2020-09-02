@@ -51,7 +51,6 @@ The following matrix explains the various aspects of versions 1.0 and 2.0.
 |Feature| Version 1.0 | Version 2.0 |
 |--------------------------------|---------------------------|-------------------------------|
 |Session| Single-session  | Multi-session|
-|Channel | Telephony, messaging (SMS), chat or custom channels | Telephony or custom messaging channels|
 |Model-driven app | Dynamics 365 Customer Service <br> Dynamics 365 Sales <br> Dynamics 365 Project Service <br> Dynamics 365 Field Service | Omnichannel for Customer Service<br />Customer Service Workspace(preview) |
 |Deployment/provisioning(preview)|Using Channel Integration Framework version 1.0 model-driven app|Deployed using app profile manager|
 |Communication panel | Right side | Left side |
