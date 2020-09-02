@@ -81,58 +81,51 @@ If you are adding an authenticated chat experience to a custom website, your web
 
 2. You will need an endpoint that will return your public key(s). The public key(s) will be used by the Omnichannel servers to validate the JWT token passed as a part of authorizing the chat request. The URL of this endpoint will be entered into the Omnichannel Administration app when creating an Authentication setting record.  
 
-Your public key endpoint should return something that looks like this:
+    Your public key endpoint should return something that looks like this:
 
-    ```JavaScript
-    -----BEGIN PUBLIC KEY----- 
-    NIIBIjANBgkqhkiG9w0BAQEFABCOPQ8AMIIBCgKCAQEAn+BjbrY5yhSpLjcV3seP 
-    mNvAvtQ/zLwkjCbpc8c0xVUOzEdH8tq4fPi/X5P/Uf2CJomWjdOf1wffmOZjFasx 
-    ELG+poTqy5uX2dNhH6lOMUsV31QGG36skLivpLBCSK6lWlzsV6WGkb/m8r86aGzp 
-    jtNhw8yvoTYB4updDrJ8pC+tx4EWK0WEmKn1GsW6TjUtxJjcTLI1puSbmcGHbkSi 
-    RSbWkKPqaEVFALprw+W5ZCung5QX3KOkY/rJd+2JwULm7okyQCQaF7qwa5i9Uf65 
-    7M6ZL4vsDevq7E/v3tf6qxpSSHzt4XspXVQty9QHhqDqBEY3PfI4L2JjgIGuPhfS 
-    YQIDAQAB 
-    -----END PUBLIC KEY----- 
-    ```
-If you need to use multiple public keys, your public key endpoint can return a set of `<kid, publickey >` pairs. (Note: kids should be unique.)  The kid will need to be passed in the JWT token in step 4. If you are using multiple keys, your public key endpoint should return something that looks like this. Note that the public key is base 64 encoded: 
+        ```JavaScript
+        -----BEGIN PUBLIC KEY----- 
+        NIIBIjANBgkqhkiG9w0BAQEFABCOPQ8AMIIBCgKCAQEAn+BjbrY5yhSpLjcV3seP 
+        mNvAvtQ/zLwkjCbpc8c0xVUOzEdH8tq4fPi/X5P/Uf2CJomWjdOf1wffmOZjFasx 
+        ELG+poTqy5uX2dNhH6lOMUsV31QGG36skLivpLBCSK6lWlzsV6WGkb/m8r86aGzp 
+        jtNhw8yvoTYB4updDrJ8pC+tx4EWK0WEmKn1GsW6TjUtxJjcTLI1puSbmcGHbkSi 
+        RSbWkKPqaEVFALprw+W5ZCung5QX3KOkY/rJd+2JwULm7okyQCQaF7qwa5i9Uf65 
+        7M6ZL4vsDevq7E/v3tf6qxpSSHzt4XspXVQty9QHhqDqBEY3PfI4L2JjgIGuPhfS 
+        YQIDAQAB 
+        -----END PUBLIC KEY----- 
+        ```
+    If you need to use multiple public keys, your public key endpoint can return a set of `<kid, publickey >` pairs. (Note: kids should be unique.)  The kid will need to be passed in the JWT token in step 4. If you are using multiple keys, your public key endpoint should return something that looks like this. Note that the public key is base 64 encoded: 
 
-    ```JavaScript
-    [
-    { 
-      "kid": "aYO4EaKT1xYU9JCoqALz6YURr41BqL0Hqp4in6hu4=", 
-      "publicKey": “LS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0NCk1JSUJJakFOQmdrcWhraUc5dzBCQVFFRkFBT0NBUThBTUlJQkNnS0NBUUVBbjFLdXhtSEh3V3hjelZABCDEFmMNCnBEaFZwa0FnYklhTGZBUWc1bFpvemZqc29vcWRGWkl0VlFMdmRERWFVeDNqTytrTkxZM0JFRnBYVDZTN3ZNZCsNCnZoM2hpMDNsQ1dINnNCTWtaSWtuUUliMnFpekFsT0diU2EvK3JrUElnYnpXQjRpT1QyWVhyOVB4bXR5d2o4WUINCnYram55VU5DSzMyZy9FYWsvM0k3YW1vZ2pJY0JISjNFTjVuQWJBMExVVnJwMW5DODJmeEVPOHNJTzNYdjlWNVUNCnc5QnVTVVFRSmtMejNQYVI5WTdRZUEyNW5LUGtqTXZ2Y0UxVU5oeVpIYlNLbmorSitkZmFjb1hsSGtyMEdGTXYNCldkSDZqR0pWcGNQMHBkNjFOa3JKa2c0aStheThwS2ZqdjNUOHN3NWdaVHFweFFaaitVRWxqaVM0SHRPTlhkNlENCnZRSURBUUFCDQotLS0tLUVORCBQVUJMSUMgS0VZLS0tLS0NCg==" 
-    }, 
-    { 
-      "kid": "tYL4NaKT1xRO8WCoqALv6DCVr41MqL0Hqp4ik7hu5=", 
-      "publicKey": “YJ0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tPO0NCk1JSUJJakFOQmdrcBhraUc5dzBCQVFFRkFBT0KBUThBTUlJQkNnS0NBUUVBbjFLdXhtSEh3V3hjelZSWGRBVmMNCnBEaFZwa0FnYklhTGZBUWc1bFpvemZqc29vcWRGWkl0VlFMdmRERWFVeDNqTytrTkxZM0JFRnBYVDZTN3ZNZCsNCnZoM2hpMDNsQ1dINnNCTWtaSWtuUUliMnFpekFsT0diU2EvK3JrUElnYnpXQjRpT1QyWVhyOVB4bXR5d2o4WUINCnYram55VU5DSzMyZy9FYWsvM0k3YW1vZ2pJY0JISjNFTjVuQWJBMExVVnJwMW5DODJmeEVPOHNJTzNYdjlWNVUNCnc5QnABCDEFmtMejNQYVI5WTdRZUEyNW5LUGtqTXZ2Y0UxVU5oeVpIYlNLbmorSitkZmFjb1hsSGtyMEdGTXYNCldkSDZqR0pWcGNHJKEFNjFOa3JKa2c0aStheThwS2ZqdjBEHUF3NWdaVHFweCCaaitERWxqaVM0SHRPTlhkNlENCnZRSURBUUFCDQotLS0tLUVORCBQVUJMSUMgS0VZLS0tQM0NCg==" 
-    } 
-    ] 
-    ```
+        ```JavaScript
+        [
+        { 
+          "kid": "aYO4EaKT1xYU9JCoqALz6YURr41BqL0Hqp4in6hu4=", 
+          "publicKey": “LS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0NCk1JSUJJakFOQmdrcWhraUc5dzBCQVFFRkFBT0NBUThBTUlJQkNnS0NBUUVBbjFLdXhtSEh3V3hjelZABCDEFmMNCnBEaFZwa0FnYklhTGZBUWc1bFpvemZqc29vcWRGWkl0VlFMdmRERWFVeDNqTytrTkxZM0JFRnBYVDZTN3ZNZCsNCnZoM2hpMDNsQ1dINnNCTWtaSWtuUUliMnFpekFsT0diU2EvK3JrUElnYnpXQjRpT1QyWVhyOVB4bXR5d2o4WUINCnYram55VU5DSzMyZy9FYWsvM0k3YW1vZ2pJY0JISjNFTjVuQWJBMExVVnJwMW5DODJmeEVPOHNJTzNYdjlWNVUNCnc5QnVTVVFRSmtMejNQYVI5WTdRZUEyNW5LUGtqTXZ2Y0UxVU5oeVpIYlNLbmorSitkZmFjb1hsSGtyMEdGTXYNCldkSDZqR0pWcGNQMHBkNjFOa3JKa2c0aStheThwS2ZqdjNUOHN3NWdaVHFweFFaaitVRWxqaVM0SHRPTlhkNlENCnZRSURBUUFCDQotLS0tLUVORCBQVUJMSUMgS0VZLS0tLS0NCg==" 
+        }, 
+        { 
+          "kid": "tYL4NaKT1xRO8WCoqALv6DCVr41MqL0Hqp4ik7hu5=", 
+          "publicKey": “YJ0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tPO0NCk1JSUJJakFOQmdrcBhraUc5dzBCQVFFRkFBT0KBUThBTUlJQkNnS0NBUUVBbjFLdXhtSEh3V3hjelZSWGRBVmMNCnBEaFZwa0FnYklhTGZBUWc1bFpvemZqc29vcWRGWkl0VlFMdmRERWFVeDNqTytrTkxZM0JFRnBYVDZTN3ZNZCsNCnZoM2hpMDNsQ1dINnNCTWtaSWtuUUliMnFpekFsT0diU2EvK3JrUElnYnpXQjRpT1QyWVhyOVB4bXR5d2o4WUINCnYram55VU5DSzMyZy9FYWsvM0k3YW1vZ2pJY0JISjNFTjVuQWJBMExVVnJwMW5DODJmeEVPOHNJTzNYdjlWNVUNCnc5QnABCDEFmtMejNQYVI5WTdRZUEyNW5LUGtqTXZ2Y0UxVU5oeVpIYlNLbmorSitkZmFjb1hsSGtyMEdGTXYNCldkSDZqR0pWcGNHJKEFNjFOa3JKa2c0aStheThwS2ZqdjBEHUF3NWdaVHFweCCaaitERWxqaVM0SHRPTlhkNlENCnZRSURBUUFCDQotLS0tLUVORCBQVUJMSUMgS0VZLS0tQM0NCg==" 
+        } 
+        ] 
+        ```
 3. You will need a service that generates the JWT to send to Omnichannel’s servers as a part of starting a chat for an authenticated user.  
 
   a. The JWT header should look something like this: 
 
     ```
     { 
-
       "alg": "RS256", 
-
       "typ": "JWT", 
-
     } 
     ```
 
-    If you are using multiple public keys, you will need to pass in the key id (kid). Your header will look something like this: 
+   If you are using multiple public keys, you will need to pass in the key id (kid). Your header will look something like this: 
 
     ```
     { 
-
       "alg": "RS256", 
-
       "typ": "JWT", 
-
       "kid": "qWO4EaKT1xRO7JC/oqALz6DCVr41B/qL0Hqp4in7hu4=" 
-
     } 
     ```
 
