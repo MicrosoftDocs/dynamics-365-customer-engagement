@@ -221,18 +221,18 @@ If you need to use multiple public keys, your public key endpoint can return a s
 
 5. Your developer will need to share the following information with your Omnichannel administrator: 
 
-  a. The URL of the public key service from step 2.  
-    Example: https://www.contoso.com/auth/publickey 
+    a. The URL of the public key service from step 2.  
+      Example: https://www.contoso.com/auth/publickey 
 
-  b. The name of the javascript client function from step 4. This will be called internally by the live chat widget during the start of a chat. 
-    Example: auth.getAuthenticationToken 
+    b. The name of the javascript client function from step 4. This will be called internally by the live chat widget during the start of a chat. 
+      Example: auth.getAuthenticationToken 
 
-  > [!NOTE]
-  > If your user experience exposes the chat button before users are authenticated, make sure to redirect them to your authentication page as needed. This can be done in the method in step 4, or as an earlier step in your user flow. 
+    > [!NOTE]
+    > If your user experience exposes the chat button before users are authenticated, make sure to redirect them to your authentication page as needed. This can be done in the method in step 4, or as an earlier step in your user flow. 
 
-  This diagram walks through the setup: (((Diagram)))
+    This diagram walks through the setup: (((Diagram)))
 
-  Then, you can set up authenticated chat by following these steps: 
+    Then, you can set up authenticated chat by following these steps: 
 
 6. Go to the Omnichannel administration application, and create an authentication settings record with the information from step 5. See [Create a chat authentication setting record](create-chat-auth-settings.md#create-a-chat-authentication-setting-record) for more information. 
 
