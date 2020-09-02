@@ -161,7 +161,7 @@ Using the general properties and scheduling options of the forecast configuratio
       
 4.	Select the **Rollup to hierarchy relationship** attribute to establish a relationship between the rollup and hierarchy entities.
 
-    For example, If you've selected the hierarchy entity as **User**, the attributes in the **Opportunity** entity that has a relationship with the **User** entity are displayed. 
+    For example, if you've selected the hierarchy entity as **User**, the attributes in the **Opportunity** entity that has a relationship with the **User** entity are displayed. 
     
     > [!div class="mx-imgBorder"]
     > ![Select an attribute to define relationship](media/forecast-relationship-entity-attribute.png "Select an attribute to define relationship")
