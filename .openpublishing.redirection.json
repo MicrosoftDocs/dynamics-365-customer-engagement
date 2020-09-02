@@ -1,6 +1,21 @@
 {
   "redirections": [
     {
+      "source_path": "ce/customer-service/customer-service-hub-user-guide-timeline-admin.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/model-driven-apps/set-up-timeline-control",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/timeline-faqs.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/model-driven-apps/faqs-timeline-control",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/customer-service-hub-user-guide-email-admin.md",
+      "redirect_url": "https://docs.microsoft.com/power-platform/admin/settings-email",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/customerengagement/on-premises/developer/use-change-tracking-synchronize-data-external-systems.md",
       "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/use-change-tracking-synchronize-data-external-systems",
       "redirect_document_id": "false"
