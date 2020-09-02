@@ -4,7 +4,7 @@ description: "Learn how to troubleshoot the issues you may face while working on
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 08/11/2020
+ms.date: 09/02/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -260,9 +260,14 @@ To Update default **Allowed Presence** in the Live Work Stream, follow these ste
 
 ### Issue
 
-Chat widget does not load on the portal. The Location option for the chat widget might be configured incorrectly.
+Chat widget does not load on the portal. There are multiple reasons this may happen, below are 5 possible resolutions.
 
-### Resolution
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/chat-portal.png)
+
+### Resolution 1: Location option
+
+The Location option for the chat widget might be configured incorrectly.
 
 Delete the **Widget location** location of the chat widget and again create it.
 
@@ -286,6 +291,30 @@ To delete and add **Widget location** for the chat widget, follow these steps:
 
 > [!Note]
 > The chat widget requires session storage and local storage to be functional in your browser. Make sure you have cookies enabled in your browser so these services can work properly.
+
+### Resolution 2: Remove location
+
+
+### Resolution 3: Clear portal cache
+
+- cahce
+- allow cookies
+
+### Resolution 4:Sync portal customizations
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/chat-portal-edit.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/chat-portal-sync-configuration.png)
+
+### Resolution 5: Restart Portal
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/chat-portal-restart.png)
 
 ## Dashboards do not appear in Omnichannel for Customer Service active dashboards view
 
