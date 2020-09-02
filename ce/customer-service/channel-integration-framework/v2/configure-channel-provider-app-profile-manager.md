@@ -29,17 +29,21 @@ Channel Integration Framework version 2.0 is for multi-session applications such
 
 1. Log in to your Power Apps portal.
 
-2. Select **App profiles** from the site map and then, select your app profile.
+2. Under the available apps, select the ellipsis towards the right of **Omnichannel for Customer Service** or **Customer service workspace (preview)**.
 
-3. Select the **Channels** tab.
+3. Select **App profile manager**.
+
+4. Select **App profiles** from the site map and then, select your app profile.
+
+5. Select the **Channels** tab.
 
 ![Select app profiles](../media/channel-app-profile-manager.PNG "Select app profiles")
 
-4. Select **Add channel providers** and then, select **Create a new channel provider in Unified Interface**. The **New Channel Provider** page opens in a new tab.
+6. Select **Add channel providers** and then, select **Create a new channel provider in Unified Interface**. The **New Channel Provider** page opens in a new tab.
 
 ![Create new channel provider](../media/create-new-channel-provider-app-profile-manager.PNG "Create new channel provider")
 
-5. Fill in all the required details to configure a new channel provider.
+7. Fill in all the required details to configure a new channel provider.
 
 ![Configure channel provider](../media/channel-provider-maker-app.PNG "Configure channel provider")
 
@@ -58,7 +62,7 @@ Channel Integration Framework version 2.0 is for multi-session applications such
 > [!NOTE]
 > The `API Version` field is set to `2` when you navigate from the app profile manager.
 
-6. After you have configured the channel provider, go back to the app profile manager and add the newly created channel provider to the app profile.
+8. After you have configured the channel provider, go back to the app profile manager and add the newly created channel provider to the app profile.
   
 ## See also
 
