@@ -174,7 +174,7 @@ Using the general properties and scheduling options of the forecast configuratio
     Similarly, if there is no direct entity relationship between the rollup entity and the hierarchy entity, you can choose a related attribute to define the relationship. Select the **Related** tab, and then choose a related attribute from the list. The list displays attributes of the hierarchy-defined entities only.
 
     >[!NOTE]
-    >The entities that contains related atributes must be hierarchial type only. For example, If **Opportunity Product** is rollup entity and **User** is heirarchy entity, the relationship between them can't be established through the **Opportunity** entity(*Opportunity Procduct > Opportunity(Opportunity) > Owner(User) > User*), becasue **Opportunity** entity is not a hierarchial type entity.
+    >The entities that contains related attributes must be hierarchical type only. For example, if **Opportunity Product** is rollup entity and **User** is hierarchy entity, the relationship between them can't be established through the **Opportunity** entity(*Opportunity Product > Opportunity(Opportunity) > Owner(User) > User*), because **Opportunity** entity is not a hierarchical type entity.
     
     Here, we're selecting the hierarchy entity as **Territory**. Because there's no direct relationship between the rollup entity (**Opportunity**) and the hierarchy entity (**Territory**), the  relationship attributes are displayed on the **Related** tab. These attributes have an indirect relationship with the rollup entity through the **Account** entity. The **Account** entity is considered to be an intermediate entity for establishing a relationship with the hierarchical entity **Territory**. 
     
