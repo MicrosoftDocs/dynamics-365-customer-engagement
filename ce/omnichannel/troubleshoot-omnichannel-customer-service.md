@@ -341,11 +341,22 @@ Find and select your portal then choose **Edit**.
 > ![Screenshot of ](./media/chat-portal-edit.png)
 
 Choose **Sync Configurations**.
- 
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/chat-portal-sync-configuration.png)
 
 ### Resolution 5: Restart Portal
+
+Restart the portal.
+
+Go to [https://make.powerapps.com](https://make.powerapps.com)
+
+Select your portal and choose **Settings > Administration** under Advanced options. 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/chat-portal-administration.png)
+
+Select Restart Portal.
 
 
 > [!div class="mx-imgBorder"]
