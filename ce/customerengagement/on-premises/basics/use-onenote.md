@@ -24,5 +24,9 @@ search.audienceType:
 
 # Use OneNote integration (on-premises)
 
-Microsoft OneNote integration is only supported with [customer engagement apps in Dynamics 365 (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Marketing, Dynamics 365 Field Service, and Dynamics 365 Project Service Automation](https://docs.microsoft.com/dynamics365/) and [model-driven Power Apps](https://docs.microsoft.com/powerapps/user/onenote).
+Microsoft OneNote integration is not supported in Dynamics 365 Customer Engagement (on-premises).
+
+This feature is only supported in [customer engagement apps in Dynamics 365 (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Marketing, Dynamics 365 Field Service, and Dynamics 365 Project Service Automation](https://docs.microsoft.com/dynamics365/) and [model-driven Power Apps](https://docs.microsoft.com/powerapps/user/onenote). 
+
+
 
