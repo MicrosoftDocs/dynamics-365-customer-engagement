@@ -4,7 +4,7 @@ description: "Instructions to set up quick responses in Omnichannel for Customer
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 08/05/2020
+ms.date: 09/02/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -38,7 +38,6 @@ Quick responses are pre-defined messages that can be created for agents to quick
     |-----------------|-----------------------------|
     | {FullName{Customer}}  | The full name of the customer who initiated the conversation. |
     | {LastName{Customer}}| The last name of the customer.|
-    | {NickName{Customer}}| The nickname for the customer.|
     | {FullName{Agent}}| The full name of the agent who is assigned to the conversation.|
     | {FirstName{Agent}}| The first name of the agent.|
     | {LastName{Agent}}| The last name of the agent.|
