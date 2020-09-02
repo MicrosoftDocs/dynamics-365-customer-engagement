@@ -12,13 +12,12 @@ ms.topic: article
 
 # Manage session templates
 <!-- [kabala] - remove this statement as templates will be available with OC, right. Make the topic common for both CSW and OC. Some sections like OOB session templates for channels are applicable to Omnichannel. Clearly call out the difference as to what is applicable to CSW and OC accordingly.-->
-[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 ## Overview
 
-A session template in the Omnichannel Administration app is a combination of attributes and application tab information that can be reused.
+A session template is a combination of attributes and application tab information that can be reused.
 
-When an agent accepts an incoming conversation request from a customer, a session is started. The system opens the **Customer Summary** application that you (an administrator) defined as an **Anchor Tab** in the application tab panel. The **Anchor Tab** can't be closed. Simultaneously, the system expands the communication panel for you to exchange messages with the customer.  
+In Omnichannel for Customer Service app, when an agent accepts an incoming conversation request from a customer, a session is started. The system opens the **Customer Summary** application that you (an administrator) defined as an **Anchor Tab** in the application tab panel. The **Anchor Tab** can't be closed. Simultaneously, the system expands the communication panel for you to exchange messages with the customer.  
 
 Session templates are used to define the aforementioned session experience, such as:
 
@@ -33,7 +32,9 @@ You can create session templates in the Omnichannel Administration app or use th
 
 <!-- [kabala] - Clearly call out that these OOB templates are applicable to OC channels only. Add another entry for CSW. They are also shipping one OOB case entity session template. For exact name, reach out to Marco.-->
 
-The out-of-the-box session templates are as follows:
+The out-of-the-box session template for using in Customer Service workspace is <!-- ask Marco -->
+
+The following out-of-the-box session templates are for use in the Omnichannel for Customer Service app:
 
 - Chat - Default session
 - SMS - Default session
@@ -48,15 +49,9 @@ The out-of-the-box session templates are as follows:
   
 ## Create a session template
 
-To create a session template, follow these steps:
+1. Select **New** on the **Active Session Templates** page.
 
-1. Sign in to the Omnichannel Administration app. <!-- [kabala] - admins can create templates from CSH SM and OC admin app. -->
-
-2. Select **Sessions** under **Agent Experience** in the sitemap.
-
-3. Select **New** on the **Active Session Templates** page.
-
-4. Specify the following on the **New Session Templates** page.
+2. Specify the following on the **New Session Templates** page.
 
     | Tab | Name | Value description | Example |
     |-----------|-------------------|-----------------------------------|-------------------------------------|
