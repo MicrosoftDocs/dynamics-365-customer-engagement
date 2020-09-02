@@ -4,7 +4,7 @@ description: "Learn how to download, install, and set up Dynamics 365 Channel In
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 02/11/2020
+ms.date: 09/02/2020
 ms.topic: get-started-article
 ms.service: 
   - dynamics-365-customerservice
@@ -15,7 +15,9 @@ ms.custom:
 
 # How to get Dynamics 365 Channel Integration Framework
 
-Dynamics 365 Channel Integration Framework version 2.0 can be obtained by provisioning Omnichannel for Customer Service. More information on provisioning Omnichannel for Customer Service: [Provision Omnichannel for Customer Service](../../../omnichannel/administrator/omnichannel-provision-license.md).
+Dynamics 365 Channel Integration Framework version 2.0 can be obtained by provisioning Omnichannel for Customer Service and Customer Service Workspace(preview).
+
+More information on provisioning Omnichannel for Customer Service: [Provision Omnichannel for Customer Service](../../../omnichannel/administrator/omnichannel-provision-license.md).
 
 ## Prerequisites
 
@@ -28,4 +30,5 @@ Dynamics 365 Channel Integration Framework version 2.0 can be obtained by provis
 [Prerequisites and system requirements for Omnichannel for Customer Service](../../../omnichannel/system-requirements-omnichannel.md)<br />
 [Provision Omnichannel for Customer Service](../../../omnichannel/administrator/omnichannel-provision-license.md)<br />
 [Known issues](../known-issues.md)<br />
+[Preview: Customer Service Workspace Overview](../../csw-overview.md)<br />
 [FAQs for Channel Integration Framework](../faq-channel-integration-framework.md)
