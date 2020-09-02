@@ -109,76 +109,53 @@ If you are adding an authenticated chat experience to a custom website, your web
         
 3. You will need a service that generates the JWT to send to Omnichannel’s servers as a part of starting a chat for an authenticated user.  
 
-  a. The JWT header should look something like this: 
+    a. The JWT header should look something like this: 
+       
+        { 
+          "alg": "RS256", 
+          "typ": "JWT", 
+        } 
+        
+     If you are using multiple public keys, you will need to pass in the key id (kid). Your header will look something like this: 
 
-    ```
-    { 
-      "alg": "RS256", 
-      "typ": "JWT", 
-    } 
-    ```
+        { 
+          "alg": "RS256", 
+          "typ": "JWT", 
+          "kid": "qWO4EaKT1xRO7JC/oqALz6DCVr41B/qL0Hqp4in7hu4=" 
+        } 
 
-   If you are using multiple public keys, you will need to pass in the key id (kid). Your header will look something like this: 
+    b. The JWT payload should include the following: 
 
-    ```
-    { 
-      "alg": "RS256", 
-      "typ": "JWT", 
-      "kid": "qWO4EaKT1xRO7JC/oqALz6DCVr41B/qL0Hqp4in7hu4=" 
-    } 
-    ```
-
-  b. The JWT payload should include the following: 
-
-   - At minimum, these claims: 
-
+     - At minimum, these claims: 
       - Iss: the issuer of the token. 
-
       - Iat: the date the token was issued. This is in numeric date format. 
-
       - Exp: the expiration date of this token. Beyond this date it is no longer valid. This is in numeric date format. 
-
       - Sub: the subject of the claim (we recommend using the GUID of the contact or account record in CRM) 
+     - The lwicontext(s) – the context variables to pass in as a part of the conversation, either for routing purposes or to display to the agent. Learn more about lwicontexts here. 
+     - Any other data you wish to pass. 
 
-   - The lwicontext(s) – the context variables to pass in as a part of the conversation, either for routing purposes or to display to the agent. Learn more about lwicontexts here. 
+       Your payload should look something like this: 
+        
+        { 
 
-   - Any other data you wish to pass. 
+            "sub" : "87b4d06c-abc2-e811-a9b0-000d3a10e09e", 
+            "preferred_username" : "a184fade-d7d0-40e5-9c33-97478491d352", 
+            "phone_number" : "1234567", 
+            "given_name" : "Bert", 
+            "family_name" : "Hair", 
+            "email" : "admin@contosohelp.com", 
+            "lwicontexts" :"{\"msdyn_cartvalue\":\"10000\", \"msdyn_isvip\":\"false\", \"portalcontactid\":\"87b4d06c-abc2-e811-a9b0-000d3a10e09e\”}", 
+            "iat" : 1542622071, 
+            "iss" : "contosohelp.com", 
+            "exp" : 1542625672, 
+            "nbf" : 1542622072 
+        } 
+        
+    c. The JWT signature should be signed by your private key. 
 
-    Your payload should look something like this: 
-
-    ```
-    { 
-
-        "sub" : "87b4d06c-abc2-e811-a9b0-000d3a10e09e", 
-
-        "preferred_username" : "a184fade-d7d0-40e5-9c33-97478491d352", 
-
-        "phone_number" : "1234567", 
-
-        "given_name" : "Bert", 
-
-        "family_name" : "Hair", 
-
-        "email" : "admin@contosohelp.com", 
-
-        "lwicontexts" :"{\"msdyn_cartvalue\":\"10000\", \"msdyn_isvip\":\"false\", \"portalcontactid\":\"87b4d06c-abc2-e811-a9b0-000d3a10e09e\”}", 
-
-        "iat" : 1542622071, 
-
-        "iss" : "contosohelp.com", 
-
-        "exp" : 1542625672, 
-
-        "nbf" : 1542622072 
-
-    } 
-    ```
-
-  c. The JWT signature should be signed by your private key. 
-
-  > [!NOTE]
-  > - If the token is expired or invalid, the chat widget will throw an error event. 
-  > - The setContextProvider method does not need to be used for authenticated chat. You should pass in your lwicontexts as a part of the JWT payload.     
+      > [!NOTE]
+      > - If the token is expired or invalid, the chat widget will throw an error event. 
+      > - The setContextProvider method does not need to be used for authenticated chat. You should pass in your lwicontexts as a part of the JWT payload.     
 
 
 4. Create a javascript function on your website that will accept a callback function and return a JWT to the callback function. This javascript function should return a JWT within 10 seconds. This JWT will: 
