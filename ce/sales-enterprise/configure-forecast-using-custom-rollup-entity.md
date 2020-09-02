@@ -42,7 +42,7 @@ So, we're using the following entities to create the forecast:
 - **Product** as the hierarchy entity
 - **Opportunity** for the forecast category and estimated close date
 
-The following image illustrates the abovementioned data model.
+The following image illustrates the above mentioned data model.
 
 > [!div class="mx-imgBorder"]
 > ![Opportunity product entity relationship with hierarchy and related entities](media/forecast-custom-entity-opportunity-product.png "Opportunity product entity relationship with hierarchy and related entities")
@@ -108,7 +108,7 @@ So, we're using the following entities to create the forecast:
 - **User** as the hierarchy entity
 - **Opportunity** for forecast category and estimated close date
 
-The following diagram illustrates the abovementioned data model.
+The following diagram illustrates the above mentioned data model.
 
 > [!div class="mx-imgBorder"]
 > ![Opportunity split entity relationship with hierarchy and related entities](media/forecast-custom-entity-opportunity-split.png "Opportunity split entity relationship with hierarchy and related entities")
