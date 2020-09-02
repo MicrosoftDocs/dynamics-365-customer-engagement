@@ -294,19 +294,54 @@ To delete and add **Widget location** for the chat widget, follow these steps:
 
 ### Resolution 2: Remove location
 
+Alternatively, try removing the Chat Widget Location.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/chat-portal-location.png)
+
 
 ### Resolution 3: Clear portal cache
 
-- cahce
-- allow cookies
+Clear the portal cache.
 
-### Resolution 4:Sync portal customizations
+Go to your portal and sign in as a portal administrator.
 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/chat-portal-sign-in-admin.png)
+
+Add the following to the end of your portal URL
+
+      /_services/about
+
+An example is 
+
+      https://contoso.powerappsportals.com/_services/about
+
+Select **Clear cache**.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/chat-portal-clear-cache.png)
+
+Reload the portal.
+
+In addition, ensure Third party cookies are allowed in your web browser. 
+
+### Resolution 4:Sync portal configurations
+
+Sync portal configurations. 
+
+Go to [https://make.powerapps.com](https://make.powerapps.com) 
+
+Find and select your portal then choose **Edit**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/chat-portal-edit.png)
 
-
+Choose **Sync Configurations**.
+ 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/chat-portal-sync-configuration.png)
 
