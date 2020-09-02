@@ -131,7 +131,7 @@
         items:  
         - name: Configure channel provider  
           href: v2/configure-channel-provider-channel-integration-framework.md
-        - name: Configure channel provider using app profile manager
+        - name: (Preview) Configure channel provider using app profile manager
           href: v2/configure-channel-provider-app-profile-manager.md
       - name: "Enable outbound communication (ClickToAct)"
         href: v2/enable-outbound-communication-clicktoact.md

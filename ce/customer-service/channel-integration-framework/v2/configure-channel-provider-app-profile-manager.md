@@ -1,5 +1,5 @@
 ---
-title: "Configure channel provider using app profile manager in Channel Integration Framework (CIF) version 2.0| Microsoft Docs"
+title: "Preview: Configure channel provider using app profile manager in Channel Integration Framework (CIF) version 2.0| Microsoft Docs"
 description: "Learn how to configure a channel provider using the app profile manager."
 author: susikka
 ms.author: susikka
@@ -13,7 +13,7 @@ ms.custom:
   - "dyn365-developer"
 ---
 
-# Configure channel provider using app profile manager
+# Preview: Configure channel provider using app profile manager
 
 [!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
