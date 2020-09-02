@@ -329,7 +329,7 @@ Reload the portal.
 
 In addition, ensure Third party cookies are allowed in your web browser. 
 
-### Resolution 4:Sync portal configurations
+### Resolution 4: Sync portal configurations
 
 Sync portal configurations. 
 
@@ -345,7 +345,7 @@ Choose **Sync Configurations**.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/chat-portal-sync-configuration.png)
 
-### Resolution 5: Restart Portal
+### Resolution 5: Restart portal
 
 Restart the portal.
 
