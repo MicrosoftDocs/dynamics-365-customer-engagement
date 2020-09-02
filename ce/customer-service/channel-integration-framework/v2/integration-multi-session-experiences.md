@@ -24,6 +24,8 @@ To learn more, see:
 
 - [Manage sessions in Omnichannel for Customer Service](../../../omnichannel/agent/agent-oc/oc-manage-sessions.md)
 
+- [Preview: Customer Service Workspace](../../csw-overview.md)
+
 ## See also
 
 [Modes and locations for the communication widget](modes-communication-widget.md)
