@@ -50,13 +50,13 @@ When you install Dynamics 365 Marketing, all its solutions are installed by the 
 
 Microsoft releases updates to Dynamics 365 Marketing every month or so, with a major refresh every six months. We announce monthly updates (and other news) in the [What's new in Dynamics 365 Marketing](whats-new-marketing.md) page, where we also summarize all the new features and bug fixes included with each release. Future directions and major releases are furthermore described on the [Dynamics 365 and Power Platform Release Plans](https://docs.microsoft.com/business-applications-release-notes/index) website.
 
-You can also find out when an update is available by checking the status of your apps and solutions in the Dynamics 365 admin center, as described in the following sections.
+You can also find out when an update is available by checking the status of your apps and solutions in the Power Platform admin center, as described in the following sections.
 
 ## Find out which version of Dynamics 365 Marketing you are running
 
 Dynamics 365 Marketing includes several solutions and services, each of which has its own version number. You'll often see versions of Dynamics 365 referred to by the month or season and year they came out, but to find a unique identifier for the version installed on your tenant, check the version number of your **Dynamics 365 Marketing** solution as follows:
 
-1. [Open the Dynamics 365 admin center](dynamics-365-admin-center.md) and go to the **Instances** tab.  
+1. [Open the Power Platform admin center](power-platform-admin-center.md) and go to the **Instances** tab.  
     ![Open the Instances tab](media/update-instances-tab.png "Open the Instances tab")
 
 2. If you have more than one instance, each of them will be listed here. Select the instance where you want to look up your Dynamics 365 Marketing version number.
@@ -71,7 +71,7 @@ Dynamics 365 Marketing includes several solutions and services, each of which ha
 
 To find and apply available updates to all core Marketing solutions, including the LinkedIn Connector:
 
-1. [Open the Dynamics 365 admin center](dynamics-365-admin-center.md).
+1. [Open the Power Platform admin center](power-platform-admin-center.md).
 
 2. Select the **Applications** tab to see a list of applications you have installed.  
     ![Open the Applications tab](media/update-app-tab.png "Open the Applications tab")
@@ -96,7 +96,7 @@ To find and apply available updates to all core Marketing solutions, including t
 
 To update shared (non-core Marketing) solutions, including Voice of the Customer and Dynamics 365 Portals:
 
-1. [Open the Dynamics 365 admin center](dynamics-365-admin-center.md) and go to the **Instances** tab.  
+1. [Open the Power Platform admin center](power-platform-admin-center.md) and go to the **Instances** tab.  
     ![Open the Instances tab](media/update-instances-tab.png "Open the Instances tab")
 
 2. If you have more than one instance, each will be listed here. Select the instance where you have Marketing installed.
@@ -123,6 +123,6 @@ If your event website is [self-hosted](./developer/self-hosted.md), you must [in
 
 ### See also
 
-[Open the Dynamics 365 admin center](dynamics-365-admin-center.md)  
+[Open the Power Platform admin center](power-platform-admin-center.md)  
 [Manage Marketing instances](manage-marketing-instances.md)  
 [Uninstall Marketing](uninstall-marketing.md)
