@@ -46,7 +46,7 @@ To open the Power Platform admin center starting from Dynamics 365 Marketing:
 
 ## Open the Power Platform admin center starting from the Microsoft 365 admin center
 
-To open the Dynamics 365 admin center starting from the Microsoft 365 admin center:
+To open the Power Platform admin center starting from the Microsoft 365 admin center:
 
 1. Sign in to your [Microsoft 365 admin center](https://admin.microsoft.com).
 
