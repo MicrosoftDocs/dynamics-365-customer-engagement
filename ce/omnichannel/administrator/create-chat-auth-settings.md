@@ -127,11 +127,12 @@ If you are adding an authenticated chat experience to a custom website, your web
     b. The JWT payload should include the following: 
 
      - At minimum, these claims: 
-       <br>Iss: the issuer of the token. 
-       <br>Iat: the date the token was issued. This is in numeric date format. 
-       <br>Exp: the expiration date of this token. Beyond this date it is no longer valid. This is in numeric date format. 
-       <br>Sub: the subject of the claim (we recommend using the GUID of the contact or account record in CRM) 
-     - The lwicontext(s) – the context variables to pass in as a part of the conversation, either for routing purposes or to display to the agent. Learn more about lwicontexts here. 
+      | Iss | The issuer of the token. |
+      | Iat | The date the token was issued. This is in numeric date format.  |
+      | Exp | The expiration date of this token. Beyond this date it is no longer valid. This is in numeric date format.  |
+      | Sub | The subject of the claim. (We recommend using the GUID of the contact or account record in CRM.)  |
+
+     - The lwicontext(s): the context variables to pass in as a part of the conversation, either for routing purposes or to display to the agent. To learn more about lwicontexts, see [Manage custom context](](../developer/how-to/send-context-starting-chat.md).
      - Any other data you wish to pass. 
 
       Your payload will look similar to this example: 
