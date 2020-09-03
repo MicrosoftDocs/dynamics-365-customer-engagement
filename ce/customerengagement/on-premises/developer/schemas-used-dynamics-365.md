@@ -3,7 +3,7 @@ title: "Schemas used in Dynamics 365 Customer Engagement (Developer Guide for Dy
 description: "The topic contains links to all the schemas needed for features described in the SDK documentation. "
 ms.custom: 
 ms.date: 12/22/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

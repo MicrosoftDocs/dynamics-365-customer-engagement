@@ -360,7 +360,9 @@
 #### [lcw:threadUpdate](developer/reference/events/lcw-threadUpdate.md)
 #### [lcw:closeChat](developer/reference/events/lcw-closeChat.md)
 ### [Error code reference](developer/reference/error-code-reference.md)
+
 ### [runMacro](developer/reference/methods/runMacro.md)
+
 ### Action Reference
 #### [msdyn_ApplyRoutingRuleEntityRecord](developer/reference/actions/msdyn_ApplyRoutingRuleEntityRecord.md)
 ## Troubleshooting, readme, and FAQs

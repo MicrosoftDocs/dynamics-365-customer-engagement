@@ -3,7 +3,7 @@ title: "Use dialogs for guided processes (Developer Guide for Dynamics 365 Custo
 description: "Dialogs are the synchronous or interactive processes in Dynamics 365 Customer Engagement (on-premises) Customer Engagement that collect and process information by using step-by-step scripts to direct users through a process"
 ms.custom: 
 ms.date: 05/24/2019
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

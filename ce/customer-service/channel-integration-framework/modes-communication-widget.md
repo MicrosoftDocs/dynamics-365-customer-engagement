@@ -13,7 +13,7 @@ ms.custom:
   - "dyn365-developer"
 ---
 
-# Preview: Modes and locations for the communication widget
+# Modes and locations for the communication widget
 
 [!INCLUDE[token-modes-communication-widget](shared/token-modes-communication-widget.md)]
 
