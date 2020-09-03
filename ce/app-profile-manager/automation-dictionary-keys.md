@@ -12,7 +12,6 @@ ms.topic: article
 
 # Use the automation dictionary to pass data parameter keys
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 ## Overview
 
