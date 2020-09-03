@@ -118,7 +118,7 @@ If you are adding an authenticated chat experience to a custom website, your web
     } 
     ```
 
-If you are using multiple public keys, you will need to pass in the key id (kid). Your header will look similar to this example:
+    If you are using multiple public keys, you will need to pass in the key id (kid). Your header will look similar to this example:
 
     ```JavaScript
     { 
