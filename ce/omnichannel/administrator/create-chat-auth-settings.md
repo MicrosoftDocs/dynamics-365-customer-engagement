@@ -74,10 +74,10 @@ If you are adding an authenticated chat experience to a custom website, your web
 
     Here is sample code for generating private/public key pairs.
 
-    ```Powershell
-    openssl genpkey -algorithm RSA -out private_key.pem -pkeyopt rsa_keygen_bits:2048
-    openssl rsa -pubout -in private_key.pem -out public_key.pem
-    ```
+```Powershell
+openssl genpkey -algorithm RSA -out private_key.pem -pkeyopt rsa_keygen_bits:2048
+openssl rsa -pubout -in private_key.pem -out public_key.pem
+```
 
 2. Create an endpoint that will return your public key(s). The public key(s) will be used by the Omnichannel servers to validate the JWT token passed as a part of authorizing the chat request. The URL of this endpoint will be entered into the Omnichannel Administration app when creating an Authentication setting record.  
 
