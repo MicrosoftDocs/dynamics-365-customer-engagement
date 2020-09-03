@@ -112,32 +112,6 @@ This is to make sure that updated data is available for the agent at all times.
 
 Yes, you can integrate custom messaging channels using Direct Line Bot. More information: [Bring your own channel](../../omnichannel/developer/how-to/bring-your-own-channel.md).
 
-## September 2020 Preview
-
-### What is in the preview?
-
-The preview provides you exclusive access to the Omnichannel for Customer Service (preview) with the app profile manager feature.
-	 
-### What do I get out of the preview?
-
-This preview is available for only a few of our valued customers and partners. This allows you to work directly with the product development team to provide feedback, resolve issues, and get your scenarios in the product roadmap.
-	 
-### When is the preview?
-
-We will be rolling out the preview in Sept 2020. Please see the Call to action to enroll in the preview.
-	 
-###	Can I deploy this in production?
-
-No.
-	
-###	How long is the preview?
-
-Duration - 1 month – September 2020
-	
-###	What are the requirements for preview?
-
-Sandbox environment and Tenant ID/Org ID to sign-up for the preview program.
-
 ## See also
 
 [Overview of Dynamics 365 Channel Integration Framework](overview-channel-integration-framework.md)<br />
