@@ -42,7 +42,11 @@ The smart assist feature can be enabled across all channels, such as Chat for Dy
     - AI-based suggestions for ongoing conversations and knowledge articles should be enabled by your administrator. More information: [Enable AI suggestions for similar cases and knowledge articles](../../customer-service/csw-enable-ai-suggested-cases-knowledge-articles.md)
     - Develop a smart assist bot and integrate it with Omnichannel for Customer Service. The smart-assist bot interprets the conversation context in real time and provides suggestions to agents. For information: [Build a smart assist bot](../developer/how-to/smart-assist-bot.md).
 
-## Admin settings to enable smart assist for the bot framework
+## Settings to enable AI-suggested similar cases and knowledge articles
+
+You can enable AI-suggested similar cases and knowledge articles that will appear for agents during ongoing conversations. These settings need to be configured in the Service Management area of Customer Service Hub. More information: [Enable AI suggestions for similar cases and knowledge articles](../../customer-service/csw-enable-ai-suggested-cases-knowledge-articles.md).
+
+## Settings to enable smart assist for the bot framework
 
 [Step 1: Create a bot user](#step-1-create-a-bot-user)
 
