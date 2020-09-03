@@ -74,7 +74,8 @@ If you are adding an authenticated chat experience to a custom website, your web
 
     Here is sample code for generating private/public key pairs.
 
-    ```
+    ```Powershell
+    
     openssl genpkey -algorithm RSA -out private_key.pem -pkeyopt rsa_keygen_bits:2048
     openssl rsa -pubout -in private_key.pem -out public_key.pem
     ```
@@ -141,7 +142,7 @@ If you are adding an authenticated chat experience to a custom website, your web
 
         Your payload will look similar to this example: 
 
-          { 
+            { 
 
               "sub" : "87b4d06c-abc2-e811-a9b0-000d3a10e09e", 
               "preferred_username" : "a184fade-d7d0-40e5-9c33-97478491d352", 
@@ -154,7 +155,7 @@ If you are adding an authenticated chat experience to a custom website, your web
               "iss" : "contosohelp.com", 
               "exp" : 1542625672, 
               "nbf" : 1542622072 
-          } 
+            } 
         
     c. The JWT signature should be signed by your private key. 
 
