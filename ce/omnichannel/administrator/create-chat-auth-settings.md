@@ -118,15 +118,17 @@ If you are adding an authenticated chat experience to a custom website, your web
 } 
 ```
 
-      If you are using multiple public keys, you will need to pass in the key id (kid). Your header will look similar to this example: 
+If you are using multiple public keys, you will need to pass in the key id (kid). Your header will look similar to this example: 
 
-            { 
-              "alg": "RS256", 
-              "typ": "JWT", 
-              "kid": "qWO4EaKT1xRO7JC/oqALz6DCVr41B/qL0Hqp4in7hu4=" 
-            } 
+```JavaScript
+{ 
+  "alg": "RS256", 
+  "typ": "JWT", 
+  "kid": "qWO4EaKT1xRO7JC/oqALz6DCVr41B/qL0Hqp4in7hu4=" 
+} 
+```
 
-    b. The JWT payload should include the following: 
+   b. The JWT payload should include the following: 
 
      - At minimum, these claims: 
 
