@@ -12,7 +12,7 @@ ms.assetid: 1ed89b35-a84d-488e-b58c-4ed6eb26018c
 author: JimDaly
 ms.author: nabuthuk
 manager: kvivek
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.suite: 
 ms.tgt_pltfrm: 
 helpviewer_keywords: 
@@ -25,8 +25,7 @@ helpviewer_keywords:
 topic-status: Drafting
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 
 # Sample: Import data using complex data map

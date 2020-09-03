@@ -1,5 +1,5 @@
 ---
-title: Enter expenses 
+title: Enter expenses
 description: How to enter expenses in Project Service
 author: revathimuthiah
 manager: kfend
@@ -19,6 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365PS
+  - ProjectOperations
 ---
 # Enter expenses (Project Service)
 

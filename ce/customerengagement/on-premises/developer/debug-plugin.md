@@ -19,8 +19,7 @@ caps.latest.revision: 60
 topic-status: Drafting
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 
 # Debug an on-premise registered plug-In

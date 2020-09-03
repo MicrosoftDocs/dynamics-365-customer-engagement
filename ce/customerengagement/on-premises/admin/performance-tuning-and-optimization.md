@@ -17,9 +17,7 @@ ms.author: matp
 manager: kvivek
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - Powerplatform
+
 ---
 # Performance tuning and optimization
 

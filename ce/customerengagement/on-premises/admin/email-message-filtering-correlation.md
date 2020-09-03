@@ -17,9 +17,7 @@ ms.author: jimholtz
 manager: kvivek
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - Powerplatform
+
 ---
 # Use Email message filtering and correlation to specify which emails are tracked 
 

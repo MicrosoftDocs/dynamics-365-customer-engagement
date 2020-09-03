@@ -1,9 +1,9 @@
 ---
-title: Set up custom fields as pricing dimensions 
+title: Set up custom fields as pricing dimensions
 description: This topic provides information about setting up custom pricing dimensions.
 author: Rumant
 manager: kfend
-ms.custom:
+ms.custom: 
   - dyn365-projectservice
 ms.date: 11/20/2018
 ms.topic: article
@@ -16,7 +16,8 @@ search.audienceType:
   - customizer
   - enduser
 search.app: 
-    - D365PS
+  - D365PS
+  - ProjectOperations
 ---
 
 # Set up custom fields as pricing dimensions 

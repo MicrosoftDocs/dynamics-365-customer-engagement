@@ -1,5 +1,5 @@
 ---
-title: Configure resource roles 
+title: Configure resource roles
 description: How to configure resource roles in Project Service
 author: JohnPBurrows
 manager: kfend
@@ -19,6 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365PS
+  - ProjectOperations
 ---
 # Configure resource roles (Project Service)
 

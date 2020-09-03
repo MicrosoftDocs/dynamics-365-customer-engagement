@@ -18,8 +18,7 @@ tags:
   - MigrationHO
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 # Example: Limit the number of items displayed in a chart
 

@@ -16,8 +16,7 @@ ms.author: mduelae
 manager: kvivek
 search.audienceType: 
   - enduser
-search.app: 
-  - D365CE
+
 ---
 # Create, edit, or save an Advanced Find search
 

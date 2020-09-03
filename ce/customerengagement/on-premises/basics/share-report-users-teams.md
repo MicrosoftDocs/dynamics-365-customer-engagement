@@ -16,8 +16,7 @@ ms.author: mkaur
 manager: kvivek
 search.audienceType: 
   - enduser
-search.app: 
-  - D365CE
+
 ---
 # Share a report with other users or teams
 

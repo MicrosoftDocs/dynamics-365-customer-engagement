@@ -3,7 +3,7 @@ title: "Use the Dynamics 365 Customer Engagement Web API (Developer Guide for Dy
 description: "The Dynamics 365 Customer Engagement Web API implements OData v4 and provides a development experience that can be used across a wide variety of programming languages, platforms, and devices"
 ms.custom: 
 ms.date: 04/24/2019
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -17,8 +17,7 @@ ms.author: susikka
 manager: shujoshi
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Use the Dynamics 365 Customer Engagement Web API
 

@@ -16,8 +16,7 @@ ms.author: matp
 manager: brycho
 search.audienceType: 
   - enduser
-search.app: 
-  - D365CE
+
 ---
 # Download a report
 

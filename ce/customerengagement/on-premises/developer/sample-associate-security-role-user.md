@@ -12,15 +12,14 @@ ms.assetid: c962101c-65f0-4e49-8c23-99c2a9e7dcbf
 author: JimDaly
 ms.author: nabuthuk
 manager: kvivek
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.suite: 
 ms.tgt_pltfrm: 
 caps.latest.revision: 17
 topic-status: Drafting
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 
 # Sample: Associate a Security Role to a User

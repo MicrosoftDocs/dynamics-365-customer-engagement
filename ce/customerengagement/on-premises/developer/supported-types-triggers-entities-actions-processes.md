@@ -3,7 +3,7 @@ title: "Supported types, triggers, entities, and actions for processes (Develope
 description: "The topic provides information about the supported types and entities for processes in Dynamics 365 Customer Engagement, supported triggers for workflows, entities that are supported for the CreateEntity activity, and supported actions for workflows. "
 ms.custom: 
 ms.date: 01/25/2019
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -17,8 +17,7 @@ ms.author: kvivek
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Supported types, triggers, entities, and actions for processes
 

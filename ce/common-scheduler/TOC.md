@@ -11,6 +11,7 @@
 ## [Facility scheduling](facility-scheduling.md)
 ## [Resource pools](resource-pools.md)
 ## [Time constraints](schedule-time-constraints.md)
+## [Advanced filters](schedule-assistant-advanced-filters.md)
 
 # Schedule board configuration
 ## [Enable an entity for scheduling](schedule-new-entity.md)

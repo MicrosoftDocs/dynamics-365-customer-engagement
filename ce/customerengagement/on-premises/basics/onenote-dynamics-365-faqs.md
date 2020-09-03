@@ -16,8 +16,7 @@ ms.author: mkaur
 manager: kvivek
 search.audienceType: 
   - enduser
-search.app: 
-  - D365CE
+
 ---
 # OneNote in Dynamics 365 Customer Engagement (on-premises) FAQs
 

@@ -17,9 +17,7 @@ ms.author: jimholtz
 manager: kvivek
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - Powerplatform
+
 ---
 # Create users and assign security roles
 

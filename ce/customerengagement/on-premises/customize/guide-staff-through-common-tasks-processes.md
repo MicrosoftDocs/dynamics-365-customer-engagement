@@ -17,8 +17,7 @@ ms.author: matp
 manager: kvivek
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 # Create custom business logic through processes
 

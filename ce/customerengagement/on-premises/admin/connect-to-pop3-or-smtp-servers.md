@@ -16,9 +16,7 @@ ms.author: jimholtz
 manager: brycho
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - Powerplatform
+
 ---
 # Connect Customer Engagement (on-premises) to POP3 or SMTP servers
 

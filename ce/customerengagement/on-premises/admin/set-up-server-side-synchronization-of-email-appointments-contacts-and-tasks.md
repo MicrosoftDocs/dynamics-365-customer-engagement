@@ -17,9 +17,7 @@ ms.author: jimholtz
 manager: brycho
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - Powerplatform
+
 ---
 # Set up server-side synchronization of email, appointments, contacts, and tasks
 

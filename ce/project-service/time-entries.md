@@ -1,5 +1,4 @@
 ---
-
 title: Create time entries
 description: This topic provides information about how to create time entries.
 author: rumant
@@ -20,6 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365PS
+  - ProjectOperations
 ---
 
 # Create time entries

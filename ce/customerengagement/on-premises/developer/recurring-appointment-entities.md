@@ -3,7 +3,7 @@ title: "Recurring appointment entities (Developer Guide for Dynamics 365 Custome
 description: "Overview of appointments that occur more than once, and follow an occurrence pattern."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -22,8 +22,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Recurring appointment entities
 

@@ -1353,7 +1353,6 @@ Same as msdyn_entityconfig entity [msdyn_msdyn_liveworkstream_msdyn_entityconfig
 
 ### <a name="BKMK_msdyn_msdyn_liveworkstream_msdyn_ocliveworkitem_liveworkstreamid"></a> msdyn_msdyn_liveworkstream_msdyn_ocliveworkitem_liveworkstreamid
 
-Same as msdyn_ocliveworkitem entity [msdyn_msdyn_liveworkstream_msdyn_ocliveworkitem_liveworkstreamid](msdyn_ocliveworkitem.md#BKMK_msdyn_msdyn_liveworkstream_msdyn_ocliveworkitem_liveworkstreamid) Many-To-One relationship.
 
 |Property|Value|
 |--------|-----|
@@ -1368,7 +1367,6 @@ Same as msdyn_ocliveworkitem entity [msdyn_msdyn_liveworkstream_msdyn_oclivework
 
 ### <a name="BKMK_msdyn_msdyn_liveworkstream_msdyn_liveconversation"></a> msdyn_msdyn_liveworkstream_msdyn_liveconversation
 
-Same as msdyn_liveconversation entity [msdyn_msdyn_liveworkstream_msdyn_liveconversation](msdyn_liveconversation.md#BKMK_msdyn_msdyn_liveworkstream_msdyn_liveconversation) Many-To-One relationship.
 
 |Property|Value|
 |--------|-----|

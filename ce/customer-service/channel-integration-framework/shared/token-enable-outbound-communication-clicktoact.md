@@ -1,7 +1,3 @@
-> [!IMPORTANT]
-> Minimum versions required to get this feature working without any customizations.
-> -	Platform version: 
-> -	CIF version:
 
 You can enable outbound communication by these two options.
 

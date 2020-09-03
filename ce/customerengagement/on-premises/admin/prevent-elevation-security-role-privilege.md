@@ -16,9 +16,7 @@ ms.author: jimholtz
 manager: kvivek
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - Powerplatform
+
 ---
 # Create an administrative user and prevent elevation of security role privilege
 

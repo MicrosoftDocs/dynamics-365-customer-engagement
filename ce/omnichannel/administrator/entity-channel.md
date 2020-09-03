@@ -40,7 +40,7 @@ To setup the **Entity Record** channel for cases, follow the steps:
 
 ## Step 1: Create queues and add agents
 
-Create a new omnichannel queue or use an existing omnichannel queue, and then add agents to these queues. To learn more, see [Create a queue](queues-omnichannel.md#create-a-new-queue).
+Create a new omnichannel queue or use an existing omnichannel queue, and then add agents to these queues. To learn more, see [Create a queue](queues-omnichannel.md#create-a-queue).
 
 ## Step 2: Enable entity for activities and queues
 

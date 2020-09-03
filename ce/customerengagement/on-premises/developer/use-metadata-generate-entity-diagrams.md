@@ -3,7 +3,7 @@ title: "Use metadata to generate entity diagrams (Developer Guide for Dynamics 3
 description: "Learn about Metadata Diagram entity to create a diagram that shows a relationship for just one entity, or a complex diagram that includes dozens of related entities, including custom and system entities."
 ms.custom: 
 ms.date: 08/09/2019
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -17,8 +17,7 @@ ms.author: nabuthuk
 manager: kvivek
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 
 # Use metadata to generate entity diagrams

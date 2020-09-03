@@ -3,7 +3,7 @@ title: "Sample: Retrieve an opportunity (early bound) (Developer Guide for Dynam
 description: "The sample demonstrates how to retrieve an opportunity and products related to the opportunity."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -20,8 +20,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Sample: Retrieve an opportunity (early bound)
 

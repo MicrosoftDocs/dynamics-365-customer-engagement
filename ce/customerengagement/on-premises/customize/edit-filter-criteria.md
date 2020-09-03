@@ -18,8 +18,7 @@ ms.author: matp
 manager: kvivek
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 # Edit filter criteria and change sort order in views
 

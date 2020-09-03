@@ -4,7 +4,7 @@ description: "Overview of Connected Customer Service."
 author: lalexms
 ms.author: lalexms
 manager: shujoshi
-ms.date: 04/03/2020
+ms.date: 07/03/2020
 ms.topic: article
 ms.service: 
   - "dynamics-365-customerservice"
@@ -49,7 +49,7 @@ Azure IoT Central requires no extensive cloud development or coding skills to ge
 
 With [Power Automate templates](https://preview.flow.microsoft.com/templates/), users can connect their accounts, take advantage of our pre-built templates, and customize their own flows in an easy visual designer without the need for coding experience.
 
-Check out our [Connected Customer Service for IoT Central tutorial](https://docs.microsoft.com/dynamics365/field-service/cs-iot-tutorial-overview) to get started.
+Check out our [Connected Customer Service for IoT Central tutorial](https://docs.microsoft.com/dynamics365/customer-service/cs-iot-receive-alerts) to get started.
 
 ## Connected Customer Service for Azure IoT Hub
 
@@ -93,7 +93,7 @@ Connected Customer Service uses SQL Azure to store device heartbeat messages for
 
 Queries that Stream Analytics uses are stored to Azure Blob storage.
 
-- [Connected Customer Service Device Readings (Preview)](https://docs.microsoft.com/dynamics365/field-service/cfs-visualizations-iot-hub) uses [Azure Time Series Insight (Preview)](https://docs.microsoft.com/azure/time-series-insights/) to store, process, and query IoT devices measurements from IoT Hub.
+- [Connected Customer Service Device Readings (Preview)](https://docs.microsoft.com/dynamics365/customer-service/cs-iot-visualize-device-readings) uses [Azure Time Series Insight (Preview)](https://docs.microsoft.com/azure/time-series-insights/) to store, process, and query IoT devices measurements from IoT Hub.
 
 ## User experience for Connected Customer Service
 

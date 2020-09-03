@@ -3,7 +3,7 @@ title: "Sample: Search and retrieve articles (Developer Guide for Dynamics 365 C
 description: "The sample code demonstrates how to search by body, keyword, and title, and retrieve articles by topic incident subject and topic incident product."
 ms.custom: 
 ms.date: 10/01/2019
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service:
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -16,8 +16,7 @@ ms.author: kvivek
 manager: annbe
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Sample: Search and retrieve articles
 

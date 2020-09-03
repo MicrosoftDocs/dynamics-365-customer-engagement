@@ -15,8 +15,7 @@ manager: kudesia
 topic-status: Drafting
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 
 # Create auto-number attributes

@@ -3,7 +3,7 @@ title: "Sample: Clone product records (Developer Guide for Dynamics 365 Customer
 description: "Sample demonstrates how to clone a product record."
 ms.custom: 
 ms.date: 06/11/2018
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -17,8 +17,7 @@ ms.author: kvivek
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Sample: Clone product records
 

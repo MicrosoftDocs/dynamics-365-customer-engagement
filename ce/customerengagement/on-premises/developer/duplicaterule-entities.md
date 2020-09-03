@@ -3,7 +3,7 @@ title: "Duplicate rule entities (Developer Guide for Dynamics 365 Customer Engag
 description: "These entities contain data that define duplicate detection rules."
 ms.custom: 
 ms.date: 11/15/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -16,8 +16,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Duplicate Rule entities
 

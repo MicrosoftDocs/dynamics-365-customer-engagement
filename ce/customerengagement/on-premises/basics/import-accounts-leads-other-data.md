@@ -16,8 +16,7 @@ ms.author: mkaur
 manager: kvivke
 search.audienceType: 
   - enduser
-search.app: 
-  - D365CE
+
 searchScope:
   - D365-App-msdynce_saleshub
   - D365-Entity-account

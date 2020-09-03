@@ -12,7 +12,7 @@ ms.assetid: 791aa59d-b217-4e8d-93d3-edd4ecfc8403
 author: JimDaly
 ms.author: nabuthuk
 manager: kvivek
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.suite: 
 ms.tgt_pltfrm: 
 helpviewer_keywords: 
@@ -20,8 +20,7 @@ helpviewer_keywords:
 topic-status: Drafting
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 
 # Sample: Share records using GrantAccess, ModifyAccess and RevokeAccess messages

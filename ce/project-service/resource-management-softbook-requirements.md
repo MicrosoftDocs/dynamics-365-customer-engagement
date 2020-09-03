@@ -1,5 +1,5 @@
 ---
-title: Soft-book requirements 
+title: Soft-book requirements
 description: This topic provides information about how to soft-book requirements.
 author: ruhercul
 manager: kfend
@@ -19,6 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365PS
+  - ProjectOperations
 ---
 
 # Soft-book requirements

@@ -16,8 +16,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Download tools from NuGet 
 
@@ -40,6 +39,7 @@ You can download tools used in development from NuGet using the  powershell scri
 1. Copy and paste the following PowerShell script into the PowerShell window and press Enter.
 
     ```powershell
+    [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
     $sourceNugetExe = "https://dist.nuget.org/win-x86-commandline/latest/nuget.exe"
     $targetNugetExe = ".\nuget.exe"
     Remove-Item .\Tools -Force -Recurse -ErrorAction Ignore

@@ -2,7 +2,7 @@
 title: "Dynamics 365 Field Service inspections (public preview) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 06/29/2020
+ms.date: 08/01/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -26,14 +26,14 @@ search.app:
   - D365FS
 ---
 
-# Add inspections to work orders in Dynamics 365 Field Service (public preview)
+# Add inspections to work orders in Dynamics 365 Field Service
 
 Field Service inspections are digital forms that technicians use to quickly and easily answer a list of questions as part of a work order. The list of questions can include safety protocols, pass and fail tests for a customer asset, an interview with a customer, or other audits and assessments performed before, during, or after a work order.
 
 Compared to work order incident types and service tasks, using inspections has additional benefits:
 
 - **Easier to create**: administrators can quickly create an inspection with a drag-and-drop interface without needing to create new entities and fields.
-- **Easier to fill out**: technicians can quickly enter responses for each inspection question and save all of them with one click, rather than having to open and close multiple records.
+- **Easier to fill out**: technicians can quickly enter responses for each inspection question and save all of them at once, rather than having to open and close multiple records.
 - **More flexible and robust**: Field Service inspections have many question format and validation options, such as multi-option select, mandatory fields, images, attachments, and more. 
 
 Inspections are easy to create and use, involving the following steps: 
@@ -49,7 +49,7 @@ In this article, we'll walk through an example of setting up an inspection using
 ## Prerequisites
 
 > [!Note]
-> Inspection capabilities are released in April 2020 as part of a public preview. Follow the process in the article on [installing or upgrading preview features](field-service-preview.md). In Step 6, look for the preview flight with the display name **FieldService_April2020_PreviewFlight**. You only need to install the public preview once and upgrades to the preview will show in admin center.
+> As of August 2020, inspections are available as an early access feature. For more information, see the article on [how to opt-in to early access features](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates#how-to-enable-early-access-updates).
 
 - Dynamics 365 version 9.1.0000.15015+.
 
@@ -92,6 +92,18 @@ Use the **Required** toggle to make the inspection question mandatory.
 
 By selecting the **Gear** icon, you can add more details for an inspection question.
 
+### Pages
+
+Add pages to your inspection in order to:
+
+1. Group questions together to organize them in a logical way by type, phase, and so on.
+2. Make it easier to add logic to multiple questions at one time. For more information, see the section on branching and conditional logic further into this article.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of pages on an inspection.](./media/inspections-page.png)
+
+Select the page dropdown in the top left of the designer to add one or more pages. Then add a page title and a page description, if needed.
+
 ### Branching and conditional logic
 
 The inspection can be configured to look and act differently based on inspection answers in real time as the technician fills it out.
@@ -103,9 +115,11 @@ Go to the **Logic** section of the designer form to add branching and conditiona
 
 Based on the response to an inspection question, options include:
 
+- **Make page visible**: Make the entire page of questions visible when the condition is true. Otherwise keep it hidden.
+
 - **Show the question**: Make the question visible when the condition is true. Otherwise keep it hidden.
 
-- **Change to Required**: Question becomes required when the condition is true.
+- **Change to required**: Question becomes required when the condition is true.
 
 - **Skip to question**: When the condition is true, then the focus shifts to the selected question.
 
@@ -125,6 +139,25 @@ Use the **Preview** section to see the inspection from a technician's perspectiv
 > ![Screenshot of the Field Service inspection, highlighting both the preview tab and the publish option.](./media/inspections-create-preview-publish.png)
 
 When finished creating the inspection, select **Publish** at the top.
+
+### Export as PDF
+
+Export an inspection as a PDF. Exporting as a PDF is helpful for situations where you need to send the inspection questions via email ahead of time.
+
+From an inspection, select **Export to PDF** in the top ribbon.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the export as PDF option.](./media/inspections-export1.png)
+
+A PDF with the blank inspection questions will be downloaded automatically.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the generated inspection PDF.](./media/inspections-export2.png)
+
+The PDF will be interactive, where you can enter answers and save them to the PDF; the answers will *not* be saved to Dynamics 365 Field Service or Common Data Model. In addition, some question types are limited. For example, the entity lookup question type will not reference the Dynamics 365 database records.
+
+> [!Note]
+> The export to PDF function only exports blank inspections without responses.
 
 ## Associate inspection to service task type
 
@@ -233,6 +266,22 @@ Associating a customer asset allows the technician to see which customer asset n
 > [!Note]
 > If you relate a work order incident type to a customer asset, the related work order service tasks will be related to the customer asset automatically.
 
+## Create new versions of the same inspection
+
+Select the **Revise** ribbon button to edit a published inspection to add new questions, remove obsolete questions, edit the question types, and update the logic.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the revise option on an inspection.](./media/inspections-versions-revise.png)
+
+In the **Versions** section of the inspection form, you'll see the current version of the inspection with a status of **Published**, and a new version that can be edited with a status of **Draft**.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of a published and a draft inspection in the versions section.](./media/inspections-versions2.png)
+
+When the draft version is published, the existing published inspection version will be deactivated.
+
+Existing work orders will display and reference the previous version of the inspection, whereas new work orders will display and reference the new revised version.
+
 ## Inspections on Dynamics 365 Field Service Power App
 
 You can view and complete inspections on the [Dynamics 365 Field Service Power App](mobile-2020-power-platform.md). This requires no mobile project or any additional setup other than upgrading to Field Service v8.8.22+.
@@ -335,7 +384,7 @@ Now we need to convert the response's JSON into a usable format.
 
 Add an **Initialize Variable** action to url decode and base 64 decode the response JSON:
 
-      decodeUriComponent(decodeBase64(variables('responseJson')))
+```decodeUriComponent(decodeBase64(variables('responseJson')))```
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing the Decode the json part of the Power Automate flow.](./media/inspections-workflow-decode-JSON.png)
@@ -346,14 +395,16 @@ Provide the schema with the name of the question you want to run a workflow on.
 
 In our example, the schema is:
 
-    {
-        "type": "object",
-        "properties": {
-            "Followup": {
-                "type": "string"
-            }
-        }
-    }
+```
+{
+    "type": "object",
+    "properties": {
+        "Followup": {
+            "type": "string"
+        }
+    }
+}
+```
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Parse JSON section of the Power Automate flow, showing the schema field populated with the previous snippet.](./media/inspections-workflow-update-schema.png)
@@ -362,7 +413,7 @@ If you're having trouble generating the schema, you can select the **Generate fr
 
 In our example, we can enter:
 
-    {"Followup":"Yes"}
+```{"Followup":"Yes"}```
 
 "Followup" comes from the inspection question's name value, as seen in the following screenshot:
 
@@ -458,5 +509,5 @@ Storing and retrieving each inspection response in Common Data Model is not part
 > ![Screenshot showing a work order service task in Field Service, with attention to the related section being empty.](./media/inspections-known-issue-cant-view-inspection.jpg)
 
 - Inactive inspections and work order service tasks are not available in offline mode. 
-- Inspections do not load in Internet Explorer. Edge or Chrome are recommended. 
+- Inspections do not load in Internet Explorer. Edge or Chrome is recommended. 
 - The question type "Entity lookup" shows inactive records.

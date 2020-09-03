@@ -4,7 +4,7 @@ description: Understand and create work streams in the Omnichannel for Customer 
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 05/08/2020
+ms.date: 07/17/2020
 ms.topic: article
 ms.service: 
   - "dynamics-365-customerservice"
@@ -14,12 +14,13 @@ ms.service:
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-A work stream is a collection of routing and work distribution settings. Routing settings define how conversations should be routed to queues. Work distribution settings define how conversations should be allocated to agents within a queue. 
+A work stream is a collection of routing and work distribution settings. Routing settings define how conversations should be routed to queues. Work distribution settings define how conversations should be allocated to agents within a queue.
 
 In Omnichannel for Customer Service, you can create the following types of work streams:
 
 - Live chat work stream
 - SMS work stream
+- Work stream for social channels
 
 > [!NOTE]
 > A work stream can belong to multiple channels of the same type, like multiple chat channels. In this case, all the conversations from these channels inherit the routing and work distribution settings of the work stream they belong to.
@@ -57,7 +58,7 @@ Follow these steps to create a new work stream in Omnichannel for Customer Servi
 
       - **Capacity**: Specify the units of capacity that are required to process a conversation for the work stream in the text box.
 
-      - **Auto-close after inactivity**: Enter the unit of time after which a conversation is moved from the **Waiting** state to the **Closed** state because of inactivity. 
+      - **Auto-close after inactivity**: Enter the unit of time after which a conversation is moved from the **Waiting** state to the **Closed** state because of inactivity.
 
    2. Select **Save**. The work stream is saved.
 
@@ -69,7 +70,7 @@ Follow these steps to create a new work stream in Omnichannel for Customer Servi
 
          In **Pick** mode, a conversation is dispatched to agents when they explicitly pick a conversation from the **Open work items** in the agent dashboard.
 
-      2. Select **Allowed Presences** from the drop-down list. For more information, see [Configure and manage custom presence](presence-custom-presence.md).
+      2. In **Allowed Presences**, select a base presence, such as "Available" and "Busy" from the list. You can select all options also. Agents will be allocated work items even if the agent presence is set to one of the statuses specified here. If you have enabled [missed notifications](manage-missed-notifications.md), do not select "Away" as an allowed presence. For information, see [Configure and manage custom presence](presence-custom-presence.md).
 
           > [!div class=mx-imgBorder] 
           > ![New work stream](../media/omni-channel-new-work-stream.png)
@@ -85,7 +86,7 @@ Follow these steps to create a new work stream in Omnichannel for Customer Servi
       > [!div class=mx-imgBorder] 
       > ![New context variable](../media/context-variable.png)
 
-5. Define routing rule items in the **Routing rule items** tab. Routing rule items are configured for each work stream, so that conversations can be routed to the correct queues. To learn how to configure a routing rule, see [Create and manage routing rules in Omnichannel](routing-rules.md). 
+5. Define routing rule items in the **Routing rule items** tab. Routing rule items are configured for each work stream, so that conversations can be routed to the correct queues. To learn how to configure a routing rule, see [Create and manage routing rules in Omnichannel](routing-rules.md).
 
 6. Select **Save** to save the work stream.
 

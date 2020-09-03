@@ -1,7 +1,7 @@
 ---
 title: "Monitor and assign conversations as a supervisor | MicrosoftDocs"
 description: "Learn how to monitor conversations as a supervisor"
-ms.date: 04/06/2020
+ms.date: 08/03/2020
 ms.service:
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -48,9 +48,9 @@ By joining the conversation, you provide necessary inputs to both agent and cust
 
 2. From the dashboard view selector, select the **Omnichannel Ongoing Conversations** dashboard.
 
-    The list of conversations currently being handled by your agents is displayed. 
+    The list of conversations currently being handled by your agents is displayed.
 
-3. Choose a conversation to monitor and select **Monitor**.
+3. Choose a conversation to monitor and select **Monitor** on the top-right corner.
 
     > [!div class=mx-imgBorder]
     > ![Select Monitor option](../media/supervisor-select-monitor-conversation.png "Select Monitor option")
@@ -74,30 +74,27 @@ At times, you may need to manually assign a conversation that is in an open stat
 
 2. From the dashboard view selector, select the **Omnichannel Ongoing Conversations** dashboard.
 
-    The list of available agents and their capacities, as well as queues, is displayed. 
+    The list of available agents and their capacities, as well as queues, is displayed.
 
-3. Choose a conversation in an **Open** state, and select **Assign**.
+3. Choose a conversation in an **Open** state, and select **Assign** on the top-right corner.
 
     > [!div class=mx-imgBorder]
     > ![Select Assign option](../media/assign-agents-conversations.png "Select Assign option")
 
 4. Choose one of the following options:
-  - Assign to agent: This assigns the conversation to a particular agent. The agent list contains only those agents who are part of the same queue as the conversation.
-  - Assign to queue: This lists all queues except the queue the conversation is currently part of.
+  - **Assign to agent:** This assigns the conversation to a particular agent. The agent list contains only those agents who are part of the same queue as the conversation.
+  - **Assign to queue:** This lists all queues except the queue the conversation is currently part of.
 
     > [!div class=mx-imgBorder]
     > ![Select agent or queue option](../media/assign-agent-queue.png "Select either agent or queue option")
   
- 5. Depending on which option you chose in Step 4, choose the agent or queue, and then click Assign to send the invitation for the agent or queue to join the conversation.
+ 5. Depending on which option you chose in Step 4, choose the agent or queue, and then select **Assign** to send the invitation for the agent or queue to join the conversation.
  
 Supervisors can assign conversations that result in overallocation for an agent. In such cases, the agent's capacity will show the units by which their capacity is exceeded.
 
 
+### See also
 
-## See also
-
-[Configure Intraday insights dashboard for Unified Service Desk](../administrator/configure-intraday-dashboard-supervisor.md)
-
-[Enable sentiment analysis](../administrator/enable-sentiment-analysis.md)
-
-[Enable supervisors to monitor and assign conversations](../administrator/configure-ongoing-conversations-settings.md)
+[Configure Intraday insights dashboard for Unified Service Desk](../administrator/configure-intraday-dashboard-supervisor.md)  
+[Enable sentiment analysis](../administrator/enable-sentiment-analysis.md)  
+[Enable supervisors to monitor and assign conversations](../administrator/configure-ongoing-conversations-settings.md)  

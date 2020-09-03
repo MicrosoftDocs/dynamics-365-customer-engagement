@@ -12,15 +12,14 @@ ms.assetid: 3272e732-908d-461f-be4d-81a94bfc9afb
 author: KumarVivek
 ms.author: kvivek
 manager: jdaly
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.suite: 
 ms.tgt_pltfrm: 
 caps.latest.revision: 28
 topic-status: Drafting
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 
 # Sample: Enable document management for entities

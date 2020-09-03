@@ -3,7 +3,7 @@ title: "Sample: Create a connection role (early bound)| MicrosoftDocs"
 description: "The sample code demonstrates how to create a connection role that are used for accounts and contacts."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -20,8 +20,7 @@ ms.author: nabuthuk
 manager: kvivek
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Sample: Create a connection role (early bound)
 

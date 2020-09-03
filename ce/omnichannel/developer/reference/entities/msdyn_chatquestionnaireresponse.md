@@ -723,8 +723,6 @@ See msdyn_livechatconfig Entity [msdyn_msdyn_livechatconfig_msdyn_chatquestionna
 
 **Added by**: Active Solution Solution
 
-See msdyn_ocliveworkitem Entity [msdyn_msdyn_ocliveworkitem_msdyn_chatquestionnaireresponse](msdyn_ocliveworkitem.md#BKMK_msdyn_msdyn_ocliveworkitem_msdyn_chatquestionnaireresponse) One-To-Many relationship.
-
 ### See also
 
 [Introduction to Omnichannel for Customer Service](../../../introduction-omnichannel.md)<br />

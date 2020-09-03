@@ -3,12 +3,11 @@ title: How do I customize the Project Stages business process flow?
 description: An overview of how to customize the Project Stages business process flow.
 manager: kfend
 ms.service: dynamics-365-customerservice
-ms.custom:
+ms.custom: 
   - dyn365-projectservice
 ms.date: 10/11/2018
 ms.topic: article
 ms.prod: 
-ms.service: business-applications
 ms.technology: Dynamics 365 Project Service Automation 3.x
 author: JohnPBurrows
 ms.author: john.burrows
@@ -20,7 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365PS
-  
+  - ProjectOperations
 ---
 
 

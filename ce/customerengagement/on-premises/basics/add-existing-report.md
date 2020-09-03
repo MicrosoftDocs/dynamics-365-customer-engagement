@@ -16,8 +16,7 @@ ms.author: mduelae
 manager: kvivek
 search.audienceType: 
   - enduser
-search.app: 
-  - D365CE
+
 ---
 # Add a report from outside Dynamics 365 Customer Engagement (on-premises)
 

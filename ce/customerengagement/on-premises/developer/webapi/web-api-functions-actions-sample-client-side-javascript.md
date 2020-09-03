@@ -3,7 +3,7 @@ title: "Web API Functions and Actions Sample (Client-side JavaScript) (Developer
 description: "This sample demonstrates how to perform bound and unbound functions and actions, including custom actions, using the Dynamics 365 Customer Engagement Web API and client-side JavaScript"
 ms.custom: 
 ms.date: 12/24/2018
-ms.reviewer: susikka
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -16,8 +16,7 @@ author: JimDaly
 ms.author: jdaly
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Web API Functions and Actions Sample (Client-side JavaScript)
 

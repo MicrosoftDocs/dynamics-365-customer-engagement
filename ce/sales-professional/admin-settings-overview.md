@@ -1,7 +1,7 @@
 ---
 title: "Admin settings overview (Dynamics 365 Sales Professional) | MicrosoftDocs"
 description: "Learn about the standard and advanced settings in Dynamics 365 Sales Professional."
-ms.date: 10/01/2019
+ms.date: 07/03/2020
 ms.service: 
   - "dynamics-365-sales"
 ms.custom: 
@@ -38,6 +38,9 @@ The **Standard settings** page provides an intuitive experience of setting up wh
 
 > [!div class="mx-imgBorder"]
 > ![Standard settings page](media/standard-settings-page.png "Standard settings page")
+
+> [!TIP]
+> To learn how to use the site map to go to different areas of the app, see [Site map on the side](learn-basics-sales-professional.md#site-map).
 
 ## Advanced settings
 

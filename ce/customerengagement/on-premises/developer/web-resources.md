@@ -12,15 +12,14 @@ ms.assetid: 8c947e83-6765-41d9-b4b7-c078a68257eb
 author: JimDaly
 ms.author: jdaly
 manager: amyla
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.suite: 
 ms.tgt_pltfrm: 
 caps.latest.revision: 46
 topic-status: Drafting
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 
 # Web resources for Customer Engagement

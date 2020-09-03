@@ -16,8 +16,7 @@ manager: kvivek
 author: Mattp123
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 # Business process flows overview
 

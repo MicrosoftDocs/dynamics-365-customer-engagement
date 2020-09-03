@@ -3,7 +3,7 @@ title: "Web API Helper code: CrmHttpResponseException class (Developer Guide for
 description: "CrmHttpResponseException class is used to represent HTTP status errors generated during Dynamics 365 Customer Engagement Web API calls"
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: susikka
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -16,8 +16,7 @@ author: JimDaly
 ms.author: jdaly
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Web API Helper code: CrmHttpResponseException class
 

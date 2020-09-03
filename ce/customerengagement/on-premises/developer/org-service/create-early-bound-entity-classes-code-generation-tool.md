@@ -12,14 +12,13 @@ ms.assetid: 06abab26-40fc-4b85-9a2a-5e68903ea138
 author: JimDaly
 ms.author: jdaly
 manager: amyla
-ms.reviewer: "pehecke"
+ms.reviewer: pehecke
 ms.suite: 
 ms.tgt_pltfrm: 
 topic-status: Drafting
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 
 # Create early bound entity classes with the code generation tool (CrmSvcUtil.exe)

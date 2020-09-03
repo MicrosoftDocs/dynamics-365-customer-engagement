@@ -133,4 +133,4 @@ When building these advanced booking templates, make sure to test on multiple br
 
 ### See also
 
-- [Add custom resource attributes to the schedule board](/field-service/extend-schedule-board-custom-resource-attribute.md)
+- [Add custom resource attributes to the schedule board](https://docs.microsoft.com/dynamics365/field-service/extend-schedule-board-custom-resource-attribute)

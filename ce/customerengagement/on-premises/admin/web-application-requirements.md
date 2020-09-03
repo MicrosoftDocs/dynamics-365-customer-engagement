@@ -20,9 +20,7 @@ caps.latest.revision: 123
 topic-status: Drafting
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - Powerplatform
+
 ---
 
 # Web application requirements

@@ -10,8 +10,7 @@ author: mduelae
 ms.author: shujoshi
 search.audienceType: 
   - enduser
-search.app: 
-  - D365CE
+
 searchScope:
   - D365-App-*
   - D365-Entity-account

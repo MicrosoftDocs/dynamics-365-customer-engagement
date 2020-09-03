@@ -304,14 +304,6 @@ This topic demonstrates how to create communication panel-related action calls i
   | General | Action     | OmnichannelIncomingSessionRequest |
   | General | Data | ChatPayLoad=\[\[PostData\]\] |
 
-<!-- ## Load Supervisor Dashboard
-
-  | Tab | Field | Value |
-  |------------------|------------------|------------------|
-  | General | Name       | Load Supervisor Dashboard  |
-  | General | Hosted Control | Supervisor Dashboard |
-  | General | Action     | Navigate |
-  | General | Data | url=https://app.powerbi.com/groups/615cd3a0-1220-4a6e-b611-45b88532bfdf/dashboards/1dfe8823-0e81-4f23-a81d-8bb1069ea059?chromeless=1&nosignupcheck=1 | -->
 
 ## Load Agent Home Page
 
@@ -332,15 +324,6 @@ This topic demonstrates how to create communication panel-related action calls i
   | General | Hosted Control | Communication Panel |
   | General | Action     | OmnichannelConversationControlReady |
 
-<!-- ## Load Supervisor Conversations
-
-  | Tab | Field | Value |
-  |------------------|------------------|------------------|
-  | General | Name       | Load Supervisor Conversations |
-  | General | Order | 19 |
-  | General | Hosted Control | Supervisor Conversations |
-  | General | Action     | Navigate | 
-  | General | Data | "url=/main.aspx?pagetype=dashboard&id=7a33c42b-02f9-e811-8161-000d3afe51f1&type=system <br> hideNavigationBar=true" | -->
 
 ## Omnichannel Copy Contact Ids To Context
   | Tab | Field | Value |

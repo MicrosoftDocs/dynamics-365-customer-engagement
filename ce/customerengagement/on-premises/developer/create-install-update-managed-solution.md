@@ -2,7 +2,7 @@
 title: "Create, install, and update a managed solution (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 ms.custom: 
 ms.date: 04/02/2020
-ms.reviewer: "pehecke"
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -24,8 +24,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Create, install, and update a managed solution
 

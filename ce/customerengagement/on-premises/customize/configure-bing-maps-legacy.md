@@ -16,8 +16,7 @@ author: Mattp123
 manager: kvivek
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 # Configure Bing maps
 

@@ -3,7 +3,7 @@ title: "Configure data import (Developer Guide for Dynamics 365 Customer Engagem
 description: "Configuration information that is required for importing data is contained in the data import entity and the import source file entity. "
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -21,8 +21,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Configure data import
 

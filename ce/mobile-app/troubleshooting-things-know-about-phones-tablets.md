@@ -58,9 +58,11 @@ To check for recently-added apps, select Refresh. If you can’t find your app, 
 
 ## Error message: Your device configuration is preventing sign-in
 
-If you receive this message it means that your IT administrator is using Microsoft Intune and requires you to sign-in securely using an authenticator app, but your device configuration is blocking the Dynamics 365 mobile app from launching the authenticator app installed on your device.
+If you receive this message it means that your IT administrator is using Microsoft Intune and requires you to sign-in securely using an authenticator app, but your device configuration is blocking the Dynamics 365 mobile app from launching the authenticator app installed on your device. Microsoft authenticator apps are Authenticator and Company Portal. Your company may also use a third-party authenticator app. If you are unsure, ask your IT administrator which authenticator app you should be using and then follow the instructions below.
+
+Sometimes, manually opening your authenticator app on your device before retrying to sign-in from the Dynamics 365 mobile app is enough to fix the issue.
  
-Steps to resolve the issue are device manufacturer-specific and depend which authenticator app you have installed. Microsoft authenticator apps are Authenticator and Company Portal. Your company may also use a third-party authenticator app. If you are unsure, ask your IT administrator which authenticator app you should be using and then follow the instructions below.
+If the suggestion above did not work, the steps to resolve the issue are device manufacturer-specific and depend which authenticator app you have installed.
 
 For **Huawei** and **Honor** device, do the following:
 

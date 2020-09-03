@@ -16,8 +16,7 @@ ms.custom:
   - dyn365-a11y
 search.audienceType: 
   - enduser
-search.app: 
-  - D365CE
+
 ---
 # Accessibility for people with disabilities
 

@@ -14,8 +14,7 @@ manager: kvivek
 topic-status: Editing
 search.audienceType: 
   - enduser
-search.app: 
-  - D365CE
+
 ---
 
 # Manage your SharePoint documents and document locations from Dynamics 365 Customer Engagement (on-premises).

@@ -16,9 +16,7 @@ author: jimholtz
 ms.author: jimholtz
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - Powerplatform
+
 ---
 # Onboarding cheat sheet for admins
 
