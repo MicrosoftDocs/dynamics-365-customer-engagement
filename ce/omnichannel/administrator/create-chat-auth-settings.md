@@ -123,8 +123,8 @@ If you are using multiple public keys, you will need to pass in the key id (kid)
     ```JavaScript
     { 
       "alg": "RS256", 
-      "typ": "JWT", 
-      "kid": "qWO4EaKT1xRO7JC/oqALz6DCVr41B/qL0Hqp4in7hu4=" 
+      "typ": "JWT",
+      "kid": "qWO4EaKT1xRO7JC/oqALz6DCVr41B/qL0Hqp4in7hu4="
     } 
     ```
 
