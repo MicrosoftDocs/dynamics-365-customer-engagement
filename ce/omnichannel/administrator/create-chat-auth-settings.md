@@ -145,20 +145,22 @@ If you are adding an authenticated chat experience to a custom website, your web
 
         Your payload will look similar to this example: 
 
-            { 
+      ```JavaScript
+      { 
 
-              "sub" : "87b4d06c-abc2-e811-a9b0-000d3a10e09e", 
-              "preferred_username" : "a184fade-d7d0-40e5-9c33-97478491d352", 
-              "phone_number" : "1234567", 
-              "given_name" : "Bert", 
-              "family_name" : "Hair", 
-              "email" : "admin@contosohelp.com", 
-              "lwicontexts" :"{\"msdyn_cartvalue\":\"10000\", \"msdyn_isvip\":\"false\", \"portalcontactid\":\"87b4d06c-abc2-e811-a9b0-000d3a10e09e\”}", 
-              "iat" : 1542622071, 
-              "iss" : "contosohelp.com", 
-              "exp" : 1542625672, 
-              "nbf" : 1542622072 
-            } 
+        "sub" : "87b4d06c-abc2-e811-a9b0-000d3a10e09e", 
+        "preferred_username" : "a184fade-d7d0-40e5-9c33-97478491d352", 
+        "phone_number" : "1234567", 
+        "given_name" : "Bert", 
+        "family_name" : "Hair", 
+        "email" : "admin@contosohelp.com", 
+        "lwicontexts" :"{\"msdyn_cartvalue\":\"10000\", \"msdyn_isvip\":\"false\", \"portalcontactid\":\"87b4d06c-abc2-e811-a9b0-000d3a10e09e\”}", 
+        "iat" : 1542622071, 
+        "iss" : "contosohelp.com", 
+        "exp" : 1542625672, 
+        "nbf" : 1542622072 
+      } 
+      ```     
         
     c. The JWT signature should be signed by your private key. 
 
