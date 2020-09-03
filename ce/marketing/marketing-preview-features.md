@@ -65,7 +65,7 @@ To enable the preview features:
 
     ![The enable-preview flyout and dialog](media/preview-enable-2.png "The enable-preview flyout and dialog")
 
-1. [Open the Power Platform admin center](power-platform-admin-center.md).
+1. [Open the Dynamics 365 admin center](dynamics-365-admin-center.md).
 
 1. Go to the **Applications** tab of the admin center to see a list of applications you have installed.  
     ![Open the Applications tab](media/update-app-tab.png "Open the Applications tab")

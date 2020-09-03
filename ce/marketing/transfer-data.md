@@ -58,7 +58,7 @@ Your source and destination instances must both be running identical versions of
 
 To find your Dynamics 365 Marketing version number:
 
-1. [Open the Power Platform admin center](power-platform-admin-center.md) and go to the **Instances** tab.  
+1. [Open the Dynamics 365 admin center](dynamics-365-admin-center.md) and go to the **Instances** tab.  
 
 2. If you have more than one Dynamics 365 instance, then each of them is listed here. Select the instance where you have Marketing installed and are planning to export data from.
 
