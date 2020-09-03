@@ -127,6 +127,7 @@ If you are adding an authenticated chat experience to a custom website, your web
     b. The JWT payload should include the following: 
 
      - At minimum, these claims: 
+      |-----|-------------------------------------------------------------------------------------------------------------|
       | Iss | The issuer of the token. |
       | Iat | The date the token was issued. This is in numeric date format.  |
       | Exp | The expiration date of this token. Beyond this date it is no longer valid. This is in numeric date format.  |
