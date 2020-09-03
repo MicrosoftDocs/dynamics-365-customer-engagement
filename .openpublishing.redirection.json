@@ -17436,4 +17436,633 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "ce/portals/entity-forms-custom-logic.md
+      "source_path": "ce/portals/entity-forms-custom-logic.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure/entity-forms",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/add-geolocation.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure/add-geolocation",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/add-webpage-render-list-records.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure/entity-lists",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/web-form-properties.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure/web-form-properties",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/web-form-steps.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure/web-form-steps",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/load-form-step.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure/load-form-step",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/add-redirect-step.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure/add-redirect-step",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/add-conditional-step.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure/add-conditional-step",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/add-custom-javascript.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure/add-custom-javascript",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/configure-web-form-metadata.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure/configure-web-form-metadata",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/configure-web-form-subgrid.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure/configure-web-form-subgrid",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/configure-contacts.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/invite-contacts.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure/invite-contacts",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/create-web-roles.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/configure-notes.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure-notes",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/enable-azure-storage.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/enable-azure-storage",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/add-web-resource.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/add-web-resource",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/manage-sharepoint-documents.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/manage-sharepoint-documents",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/custom-templates-dynamic-content.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/liquid/liquid-overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/store-content-web-templates.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/liquid/store-content-web-templates",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/liquid-operators.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/liquid/liquid-operators",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/liquid-types.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/liquid/liquid-types",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/liquid-conditional-operators.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/liquid/liquid-conditional-operators",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/liquid-objects.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/liquid/liquid-objects",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/liquid-tags.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/liquid/liquid-tags",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/control-flow-tags.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/liquid/control-flow-tags",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/iteration-tags.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/liquid/iteration-tags",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/variable-tags.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/liquid/variable-tags",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/template-tags.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/liquid/template-tags",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/dynamics-entity-tags.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/liquid/portals-entity-tags",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/liquid-filters.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/liquid/liquid-filters",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/create-advanced-templates.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/liquid/liquid-overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/create-custom-template.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/liquid/create-custom-template",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/hybrid-navigation-render-page-hierachy.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/liquid/hybrid-navigation-render-page-hierachy",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/render-entity-list-current-page.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/liquid/render-entity-list-current-page",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/render-rss-custom-page-template.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/liquid/render-rss-custom-page-template",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/render-site-header-primary-navigation.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/liquid/render-site-header-primary-navigation",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/oauth-implicit-grant-flow.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/oauth-implicit-grant-flow",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/add-powerbi-report.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/admin/add-powerbi-report",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/live-assist/live-assist-microsoft-dynamics-365-powered-by-cafe-x.md",
+      "redirect_url": "../omnichannel/omnichannel-customer-service-guide",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/websites.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure/websites",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/website-bindings.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure/website-bindings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/web-page.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure/web-page",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/view-email-in-timeline.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure/view-email-in-timeline",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/rate-webpage-blog-post.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure/rate-webpage",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/enable-header-footer-output-caching.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure/enable-header-footer-output-caching",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/faq.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/faq",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/change-dynamics-instance.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/admin/change-dynamics-instance",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/upgrade-portal.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/admin/upgrade-portal",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/implement-gdpr.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure/implement-gdpr",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/cds-portal.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/create-portal",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/view-primary-domain.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/portal-new-content-editor.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/webpage-access-control.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure/webpage-access-control",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/website-access-permission.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure/website-access-permission",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/assign-entity-permissions.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/legacy-portal-faq.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/legacy-portal-faq",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/create-run-advertisement.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure/create-run-advertisement",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/gather-feedback-poll.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure/gather-feedback-poll",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/publishing-states.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/configure/publishing-states",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/administer-manage-portal-dynamics-365.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/monthly-updates-portals.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/release-updates",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/portals/portal-faq.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/maker/portals/faq",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omnichannel/supervisor/assign-conversations.md",
+      "redirect_url": "intro-intraday-insights-dashboard",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omnichannel/administrator/configure-ongoing-conversations-settings.md",
+      "redirect_url": "configure-intraday-dashboard-supervisor",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/channel-integration-framework/onboard-org-flight.md",
+      "redirect_url": "v2/onboard-org-flight",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/channel-integration-framework/sample-softphone-integration-v2.md",
+      "redirect_url": "v2/sample-softphone-integration-v2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/channel-integration-framework/integration-multi-session-experiences.md",
+      "redirect_url": "v2/integration-multi-session-experiences",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/channel-integration-framework/support-multiple-providers.md",
+      "redirect_url": "v2/ support-multiple-providers",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/channel-integration-framework/templates-overview-cif.md",
+      "redirect_url": "v2/templates-overview-cif",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/channel-integration-framework/session-templates-cif.md",
+      "redirect_url": "v2/session-templates-cif",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/channel-integration-framework/application-tab-templates-cif.md",
+      "redirect_url": "v2/application-tab-templates-cif      ",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/channel-integration-framework/notification-templates-cif.md",
+      "redirect_url": "v2/notification-templates-cif",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/channel-integration-framework/automation-dictionary-keys-cif.md",
+      "redirect_url": "v2/automation-dictionary-keys-cif",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/channel-integration-framework/associate-templates-cif.md",
+      "redirect_url": "v2/associate-templates-cif          ",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/channel-integration-framework/channel-analytics.md",
+      "redirect_url": "v2/channel-analytics",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/channel-integration-framework/reference/microsoft-ciframework/notifyevent.md",
+      "redirect_url": "../../v2/reference/microsoft-ciframework/notifyevent",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/channel-integration-framework/reference/microsoft-ciframework/cancreatesession.md",
+      "redirect_url": "../../v2/reference/microsoft-ciframework/cancreatesession",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/channel-integration-framework/reference/microsoft-ciframework/createsession.md",
+      "redirect_url": "../../v2/reference/microsoft-ciframework/createsession",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/channel-integration-framework/reference/microsoft-ciframework/getsession.md",
+      "redirect_url": "../../v2/reference/microsoft-ciframework/getsession",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/channel-integration-framework/reference/microsoft-ciframework/getfocusedsession.md",
+      "redirect_url": "../../v2/reference/microsoft-ciframework/getfocusedsession",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/channel-integration-framework/reference/microsoft-ciframework/getallsessions.md",
+      "redirect_url": "../../v2/reference/microsoft-ciframework/getallsessions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/channel-integration-framework/reference/microsoft-ciframework/setsessiontitle.md",
+      "redirect_url": "../../v2/reference/microsoft-ciframework/setsessiontitle",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/channel-integration-framework/reference/microsoft-ciframework/requestfocussession.md",
+      "redirect_url": "../../v2/reference/microsoft-ciframework/requestfocussession",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/channel-integration-framework/reference/microsoft-ciframework/createtab.md",
+      "redirect_url": "../../v2/reference/microsoft-ciframework/createtab",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/channel-integration-framework/reference/microsoft-ciframework/gettabs.md",
+      "redirect_url": "../../v2/reference/microsoft-ciframework/gettabs  ",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/channel-integration-framework/reference/microsoft-ciframework/focustab.md",
+      "redirect_url": "../../v2/reference/microsoft-ciframework/focustab",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/channel-integration-framework/reference/microsoft-ciframework/getfocusedtab.md",
+      "redirect_url": "../../v2/reference/microsoft-ciframework/getfocusedtab",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/channel-integration-framework/reference/microsoft-ciframework/refreshtab.md",
+      "redirect_url": "../../v2/reference/microsoft-ciframework/refreshtab",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/channel-integration-framework/reference/microsoft-ciframework/settabtitle.md",
+      "redirect_url": "../../v2/reference/microsoft-ciframework/settabtitle",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/channel-integration-framework/reference/microsoft-ciframework/initLogAnalytics.md",
+      "redirect_url": "../../v2/reference/microsoft-ciframework/initLogAnalytics",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/channel-integration-framework/reference/microsoft-ciframework/logAnalyticsEvent.md",
+      "redirect_url": "../../v2/reference/microsoft-ciframework/logAnalyticsEvent",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/channel-integration-framework/reference/events/onSessionSwitched.md",
+      "redirect_url": "../../v2/reference/events/onSessionSwitched",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/channel-integration-framework/reference/events/onSessionClosed.md",
+      "redirect_url": "../../v2/reference/events/onSessionClosed",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/channel-integration-framework/v2/reference/microsoft-ciframework/initLogAnalytics.md",
+      "redirect_url": "updateConversation",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omnichannel/administrator/portal-navigation.md",
+      "redirect_url": "enable-self-service-settings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/migrate-service-activity-org-service.md",
+      "redirect_url": "introduction-migration-entity-records.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/channel-integration-framework/v2/onboard-org-flight.md",
+      "redirect_url": "get-channel-integration-framework",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/sales-enterprise/troubleshooting-admin.md",
+      "redirect_url": "troubleshooting",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/sales-enterprise/create-forecast-definition.md",
+      "redirect_url": "configure-forecast",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/sales-enterprise/developer/reference/manual-forecasting-entity-reference.md",
+      "redirect_url": "custom-actions-manual-forecasting",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/sales-enterprise/developer/reference/entities/msdyn_forecastdefinition.md",
+      "redirect_url": "export-forecast-data",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/sales-enterprise/developer/reference/entities/msdyn_forecastinstance.md",
+      "redirect_url": "export-forecast-data",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/sales-enterprise/developer/reference/entities/msdyn_forecastrecurrence.md",
+      "redirect_url": "export-forecast-data",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/sales-professional/use-lookup-fields-forms.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/user/lookup-field",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/install-routing-rules-preview-solution.md",
+      "redirect_url": "create-rules-automatically-route-cases",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/sales-professional/create-orders.md",
+      "redirect_url": "create-invoices",
+      "redirect_document_id": false
+    },
+    {  
+      "source_path": "ce/sales-enterprise/developer/reference/entities/export-forecast-data.md",
+      "redirect_url": "../custom-actions/msdyn_ForecastApi"
+    },
+    {
+      "source_path": "ce/voice-of-customer/analyze-survey-data.md",
+      "redirect_url": "deprecate",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/voice-of-customer/design-advanced-survey.md",
+      "redirect_url": "deprecate",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/voice-of-customer/design-basic-survey.md",
+      "redirect_url": "deprecate",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/voice-of-customer/distribute-survey.md",
+      "redirect_url": "deprecate",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/voice-of-customer/get-feedback-surveys.md",
+      "redirect_url": "deprecate",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/voice-of-customer/help-hub.md",
+      "redirect_url": "deprecate",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/voice-of-customer/implement-gdpr.md",
+      "redirect_url": "deprecate",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/voice-of-customer/install-solution.md",
+      "redirect_url": "deprecate",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/voice-of-customer/monthly-updates-voc.md",
+      "redirect_url": "deprecate",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/voice-of-customer/plan-survey.md",
+      "redirect_url": "deprecate",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/voice-of-customer/survey-analytics-powerbi.md",
+      "redirect_url": "deprecate",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/voice-of-customer/troubleshoot.md",
+      "redirect_url": "deprecate",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/voice-of-customer/voc-faq.md",
+      "redirect_url": "deprecate",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/sales-enterprise/ts-linkedin-integration.md",
+      "redirect_url": "../linkedin/ts-linkedin-integration.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/admin/enable-use-comprehensive-auditing.md",
+      "redirect_url": "https://docs.microsoft.com/power-platform/admin/enable-use-comprehensive-auditing",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/basics/add-edit-power-bi-visualizations-dashboard.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/user/add-powerbi-dashboards",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/data-export-service.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/data-export-service",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/teams-integration/teams-work-records-and-view.md",
+      "redirect_url": "teams-collaboration",
+      "redirect_document_id": false
+    }
+  ]
+}
