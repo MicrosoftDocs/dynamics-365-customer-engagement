@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "ce/marketing/dynamics-365-admin-center.md",
+      "redirect_url": "power-platform-admin-center",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/customer-service/customer-service-hub-user-guide-timeline-admin.md",
       "redirect_url": "https://docs.microsoft.com/powerapps/maker/model-driven-apps/set-up-timeline-control",
       "redirect_document_id": "false"
