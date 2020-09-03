@@ -189,7 +189,7 @@ If you are adding an authenticated chat experience to a custom website, your web
       //Replace this with a call to your token generating service 
         xhttp.open("GET", "https://contosohelp.com/token", true); 
         xhttp.send(); 
-    } 
+      } 
       ```
 
 5. Your developer will need to share the following information with your Omnichannel administrator: 
