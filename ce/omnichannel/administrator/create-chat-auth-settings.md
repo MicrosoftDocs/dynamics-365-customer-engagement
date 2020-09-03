@@ -145,22 +145,22 @@ If you are adding an authenticated chat experience to a custom website, your web
 
         Your payload will look similar to this example: 
 
-      ```JavaScript
-      { 
+          ```JavaScript
+          { 
 
-        "sub" : "87b4d06c-abc2-e811-a9b0-000d3a10e09e", 
-        "preferred_username" : "a184fade-d7d0-40e5-9c33-97478491d352", 
-        "phone_number" : "1234567", 
-        "given_name" : "Bert", 
-        "family_name" : "Hair", 
-        "email" : "admin@contosohelp.com", 
-        "lwicontexts" :"{\"msdyn_cartvalue\":\"10000\", \"msdyn_isvip\":\"false\", \"portalcontactid\":\"87b4d06c-abc2-e811-a9b0-000d3a10e09e\”}", 
-        "iat" : 1542622071, 
-        "iss" : "contosohelp.com", 
-        "exp" : 1542625672, 
-        "nbf" : 1542622072 
-      } 
-      ```     
+            "sub" : "87b4d06c-abc2-e811-a9b0-000d3a10e09e", 
+            "preferred_username" : "a184fade-d7d0-40e5-9c33-97478491d352", 
+            "phone_number" : "1234567", 
+            "given_name" : "Bert", 
+            "family_name" : "Hair", 
+            "email" : "admin@contosohelp.com", 
+            "lwicontexts" :"{\"msdyn_cartvalue\":\"10000\", \"msdyn_isvip\":\"false\", \"portalcontactid\":\"87b4d06c-abc2-e811-a9b0-000d3a10e09e\”}", 
+            "iat" : 1542622071, 
+            "iss" : "contosohelp.com", 
+            "exp" : 1542625672, 
+            "nbf" : 1542622072 
+          } 
+          ```     
         
     c. The JWT signature should be signed by your private key. 
 
@@ -178,25 +178,25 @@ If you are adding an authenticated chat experience to a custom website, your web
 
       The name of this javascript method will be used to create the Authentication settings record in the Omnichannel Administration app. 
 
-      ```
-      // This is a sample javascript client function  
+        ```JavaScript
+        // This is a sample javascript client function  
 
-      auth.getAuthenticationToken = function(callback){ 
+        auth.getAuthenticationToken = function(callback){ 
 
-        var xhttp = new XMLHttpRequest(); 
-        xhttp.onreadystatechange = function() { 
-            if (this.readyState == 4 && this.status == 200) { 
-                callback(xhttp.responseText); 
-            } 
-        }; 
-        xhttp.onerror = function(error) { 
-            callback(null); 
-        }; 
-      //Replace this with a call to your token generating service 
-        xhttp.open("GET", "https://contosohelp.com/token", true); 
-        xhttp.send(); 
-      } 
-      ```
+          var xhttp = new XMLHttpRequest(); 
+          xhttp.onreadystatechange = function() { 
+              if (this.readyState == 4 && this.status == 200) { 
+                  callback(xhttp.responseText); 
+              } 
+          }; 
+          xhttp.onerror = function(error) { 
+              callback(null); 
+          }; 
+        //Replace this with a call to your token generating service 
+          xhttp.open("GET", "https://contosohelp.com/token", true); 
+          xhttp.send(); 
+        } 
+        ```
 
 5. Your developer will need to share the following information with your Omnichannel administrator: 
 
