@@ -128,14 +128,15 @@ If you are adding an authenticated chat experience to a custom website, your web
 
      - At minimum, these claims: 
 
-
-        |-------|-------------------------------------------------------------------------------------------------------------|
-        | Iss   | The issuer of the token. |
-        | Iat   | The date the token was issued. This is in numeric date format.  |
-        | Exp   | The expiration date of this token. Beyond this date it is no longer valid. This is in numeric date format.  |
-        | Sub   | The subject of the claim. (We recommend using the GUID of the contact or account record in CRM.)  |
+          | Claim | Definition |
+          |-------|-------------------------------------------------------------------------------------------------------------|
+          | Iss   | The issuer of the token. |
+          | Iat   | The date the token was issued. This is in numeric date format.  |
+          | Exp   | The expiration date of this token. Beyond this date it is no longer valid. This is in numeric date format.  |
+          | Sub   | The subject of the claim. (We recommend using the GUID of the contact or account record in CRM.)  |
 
      - The lwicontext(s): the context variables to pass in as a part of the conversation, either for routing purposes or to display to the agent. To learn more about lwicontexts, see [Manage custom context](](../developer/how-to/send-context-starting-chat.md).
+     
      - Any other data you wish to pass. 
 
       Your payload will look similar to this example: 
@@ -161,36 +162,35 @@ If you are adding an authenticated chat experience to a custom website, your web
       > - If the token is expired or invalid, the chat widget will throw an error event. 
       > - The setContextProvider method does not need to be used for authenticated chat. You should pass in your lwicontexts as a part of the JWT payload.     
 
-
 4. Create a javascript function on your website that will accept a callback function and return a JWT to the callback function. This javascript function should return a JWT within 10 seconds. This JWT will: 
 
-  - Contain the header, payload, and signature from Step 3. 
+    - Contain the header, payload, and signature from Step 3. 
 
-  - Be signed by the private key from the key pair in step 1. 
+    - Be signed by the private key from the key pair in step 1. 
 
-  We recommend generating your JWT on your web server. 
+      We recommend generating your JWT on your web server. 
 
-  The name of this javascript method will be used to create the Authentication settings record in the Omnichannel Administration app. 
-  
-  ```
-  // This is a sample javascript client function  
+      The name of this javascript method will be used to create the Authentication settings record in the Omnichannel Administration app. 
 
-  auth.getAuthenticationToken = function(callback){ 
+      ```
+      // This is a sample javascript client function  
 
-    var xhttp = new XMLHttpRequest(); 
-    xhttp.onreadystatechange = function() { 
-        if (this.readyState == 4 && this.status == 200) { 
-            callback(xhttp.responseText); 
-        } 
-    }; 
-    xhttp.onerror = function(error) { 
-        callback(null); 
-    }; 
-  //Replace this with a call to your token generating service 
-    xhttp.open("GET", "https://contosohelp.com/token", true); 
-    xhttp.send(); 
-} 
-  ```
+      auth.getAuthenticationToken = function(callback){ 
+
+        var xhttp = new XMLHttpRequest(); 
+        xhttp.onreadystatechange = function() { 
+            if (this.readyState == 4 && this.status == 200) { 
+                callback(xhttp.responseText); 
+            } 
+        }; 
+        xhttp.onerror = function(error) { 
+            callback(null); 
+        }; 
+      //Replace this with a call to your token generating service 
+        xhttp.open("GET", "https://contosohelp.com/token", true); 
+        xhttp.send(); 
+    } 
+      ```
 
 5. Your developer will need to share the following information with your Omnichannel administrator: 
 
@@ -214,10 +214,10 @@ If you are adding an authenticated chat experience to a custom website, your web
 
 7. Associate the authentication settings to the chat widget that will have an authenticated experience. See [Add authentication to chat widget](create-chat-auth-settings.md#add-authentication-to-chat-widget) for more information. 
 
-  This diagram walks through the call sequence when a user accesses your chat in an authenticated setup:
+    This diagram walks through the call sequence when a user accesses your chat in an authenticated setup:
 
-   > [!div class=mx-imgBorder]
-   > ![Authenticated chat runtime](../media/auth-chat-runtime.png "Authenticated chat runtime")
+     > [!div class=mx-imgBorder]
+     > ![Authenticated chat runtime](../media/auth-chat-runtime.png "Authenticated chat runtime")
 
 
 ### See also
