@@ -4,7 +4,7 @@ description: "Instructions to configure a chat channel in Omnichannel for Custom
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 08/11/2020
+ms.date: 09/03/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -15,6 +15,11 @@ ms.topic: article
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 A chat widget lets your customers connect with your customer service agents and resolve their queries quickly.
+
+The chat widget is supported on the following devices and browsers:
+- iPhone, iPad (Safari)
+- Android phone, Android tablet (Chrome)
+- Desktop and Mac (Chrome, Edge Chrome, Edge Legacy, Firefox)
 
 In this section, you will learn how to:
 
