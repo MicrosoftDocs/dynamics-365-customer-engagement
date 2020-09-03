@@ -58,7 +58,7 @@ Quick replies can be classified and tagged into categories. The categorization c
 3. Select two or more quick replies for which you want to create a tag, and then select **Edit Tags**.
 
 > [!div class=mx-imgBorder]
-> ![Create a quick reply](../media/oc-active-quick-replies.png "Create a quick reply")
+> ![Active quick replies](../media/oc-active-quick-replies.png "Active quick replies")
 
   The **Edit Tags** dialog box appears.
 
