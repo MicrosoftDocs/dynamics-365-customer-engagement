@@ -81,7 +81,7 @@ If you are adding an authenticated chat experience to a custom website, your web
 
 2. You will need an endpoint that will return your public key(s). The public key(s) will be used by the Omnichannel servers to validate the JWT token passed as a part of authorizing the chat request. The URL of this endpoint will be entered into the Omnichannel Administration app when creating an Authentication setting record.  
 
-    Your public key endpoint should return something that looks like this:
+    Your public key endpoint will look similar to this example:
 
         
         -----BEGIN PUBLIC KEY----- 
@@ -109,14 +109,14 @@ If you are adding an authenticated chat experience to a custom website, your web
         
 3. You will need a service that generates the JWT to send to Omnichannel’s servers as a part of starting a chat for an authenticated user.  
 
-    a. The JWT header should look something like this: 
+    a. The JWT header will look similar to this example: 
        
         { 
           "alg": "RS256", 
           "typ": "JWT", 
         } 
         
-     If you are using multiple public keys, you will need to pass in the key id (kid). Your header will look something like this: 
+     If you are using multiple public keys, you will need to pass in the key id (kid). Your header will look similar to this example: 
 
         { 
           "alg": "RS256", 
@@ -134,7 +134,7 @@ If you are adding an authenticated chat experience to a custom website, your web
      - The lwicontext(s) – the context variables to pass in as a part of the conversation, either for routing purposes or to display to the agent. Learn more about lwicontexts here. 
      - Any other data you wish to pass. 
 
-      Your payload should look something like this: 
+      Your payload will look similar to this example: 
         
         { 
 
@@ -199,7 +199,10 @@ If you are adding an authenticated chat experience to a custom website, your web
     > [!NOTE]
     > If your user experience exposes the chat button before users are authenticated, make sure to redirect them to your authentication page as needed. This can be done in the method in step 4, or as an earlier step in your user flow. 
 
-    This diagram walks through the setup: (((Diagram)))
+    This diagram walks through the setup:
+    
+   > [!div class=mx-imgBorder]
+   > ![Authenticated chat setup](../media/auth-chat-setup.png "Authenticated chat setup")
 
     Then, you can set up authenticated chat by following these steps: 
 
@@ -207,7 +210,10 @@ If you are adding an authenticated chat experience to a custom website, your web
 
 7. Associate the authentication settings to the chat widget that will have an authenticated experience. See [Add authentication to chat widget](create-chat-auth-settings.md#add-authentication-to-chat-widget) for more information. 
 
-This diagram walks through the call sequence when a user accesses your chat in an authenticated setup: (((Diagram)))
+  This diagram walks through the call sequence when a user accesses your chat in an authenticated setup:
+
+   > [!div class=mx-imgBorder]
+   > ![Authenticated chat runtime](../media/auth-chat-runtime.png "Authenticated chat runtime")
 
 
 ### See also
