@@ -16,11 +16,6 @@ ms.topic: article
 
 A chat widget lets your customers connect with your customer service agents and resolve their queries quickly.
 
-The chat widget is supported on the following devices and browsers:
-- iPhone, iPad (Safari)
-- Android phone, Android tablet (Chrome)
-- Desktop and Mac (Chrome, Edge Chrome, Edge Legacy, Firefox)
-
 In this section, you will learn how to:
 
 - [Add a chat widget](add-chat-widget.md)
