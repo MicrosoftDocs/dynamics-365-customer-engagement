@@ -75,7 +75,6 @@ If you are adding an authenticated chat experience to a custom website, your web
     Here is sample code for generating private/public key pairs.
 
     ```Powershell
-    
     openssl genpkey -algorithm RSA -out private_key.pem -pkeyopt rsa_keygen_bits:2048
     openssl rsa -pubout -in private_key.pem -out public_key.pem
     ```
