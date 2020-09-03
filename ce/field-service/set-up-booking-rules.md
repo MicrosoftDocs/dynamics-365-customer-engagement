@@ -306,7 +306,9 @@ On the Booking Rule record the “Method Name” must be: MSFSAENG.ScheduleBoard
         return ScheduleBoardHelper;
     }());
     })(MSFSAENG || (MSFSAENG = {}));
-      
+
+## Additional notes
+- The Bookable Resource Booking is enabled to leverage Booking Rules, to create warning or error messages that users see when creating or editing a resource booking record, based on custom conditions. Due to which, Business Process Flows cannot be used on Bookable Resource Booking entity. 
  
 ### See also    
  [Schedule within time constraints](../field-service/schedule-time-constraints.md)   
