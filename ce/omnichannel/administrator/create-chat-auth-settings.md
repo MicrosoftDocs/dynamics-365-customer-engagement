@@ -201,10 +201,12 @@ If you are adding an authenticated chat experience to a custom website, your web
 5. Your developer will need to share the following information with your Omnichannel administrator: 
 
     a. The URL of the public key service from step 2.  
-        Example: https://www.contoso.com/auth/publickey 
+       
+      Example: https://www.contoso.com/auth/publickey 
 
     b. The name of the javascript client function from step 4. This will be called internally by the live chat widget during the start of a chat. 
-        Example: auth.getAuthenticationToken 
+       
+      Example: auth.getAuthenticationToken 
 
     > [!NOTE]
     > If your user experience exposes the chat button before users are authenticated, make sure to redirect them to your authentication page as needed. This can be done in the method in step 4, or as an earlier step in your user flow. 
