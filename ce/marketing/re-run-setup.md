@@ -39,7 +39,7 @@ To re-run the Marketing setup wizard:
 1. Sign into Dynamics 365 Marketing as a user with admin privileges.
 
 1. Go to **Settings** > **Advanced settings** > **Other settings** > **Application management**.  
-    ![Open the Power Platform admin center](media/settings-app-management.png "Open the Power Platform admin center")
+    ![Open the Dynamics 365 admin center](media/settings-app-management.png "Open the Dynamics 365 admin center")
 
 1. Select **Go to the Dynamics 365 admin center**.
 

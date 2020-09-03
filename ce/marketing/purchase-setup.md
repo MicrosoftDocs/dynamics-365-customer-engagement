@@ -2,7 +2,7 @@
 title: "Set up Dynamics 365 Marketing | Microsoft Docs"
 description: "How to run the setup wizard for Dynamics 365 Marketing"
 keywords: setup; licensing; FRE; Azure; privacy; marketing services; marketing-insights service
-ms.date: 09/02/2020
+ms.date: 03/02/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -25,10 +25,10 @@ search.app:
 
 # Purchase and set up Dynamics 365 Marketing
 
-This article explains how to set up a new Dynamics 365 Marketing instance after you have purchased a license.
+This topic explains how to set up a new Dynamics 365 Marketing instance after you have purchased a license.
 
 > [!TIP]
-> A trial version of Dynamics 365 Marketing is also available. If you'd like to set up a trial, see [Sign up for a free trial of Dynamics 365 Marketing](trial-signup.md) for instructions.
+> A trial version of Dynamics 365 Marketing is also available. If you'd like to set up a trial, see [Sign up for a free trial of Dynamics 365 Marketing](trial-signup.md) for instructions. This topic describes how to set up a production version.
 
 <a name="how-licensed"></a>
 
@@ -53,28 +53,31 @@ For more information about Dynamics 365 Marketing licensing, see the [Administra
 
 ## Prerequisites and requirements
 
-To run the setup wizard, you must meet all the following requirements:
-
-- You must already have a Microsoft 365 tenant.
-- An unconfigured Dynamics 365 Marketing app must be available on your tenant.
-- You must not already have a Dynamics 365 Marketing app installed on your Dynamics 365 instance. You can have at most one Dynamics 365 Marketing per instance, and each Dynamics 365 Marketing app can only be used with one Dynamics 365 instance.
-- You must sign into your tenant with a user account that has all the following:
-   - A security role (such as _Global admin_ or _Service support admin_) that allows you to modify the target Dynamics 365 instance. (If you're reinstalling Marketing on an instance where Marketing was previously installed, then _Service support admin_ users must use the same user ID as was used for the initial install. If you're not sure which ID was used for the initial install, or if you're getting errors, then try to install as a _Global admin_.)
-   - Permissions to register applications in Azure. The global administrator always has this right, but other accounts can also have it. See [Do I have permissions to register applications on Azure?](setup-troubleshooting.md#register-apps-azure) for information about how to confirm this setting for your account.
-   - A Dynamics 365 license with the _System Administrator_ security role assigned on your target Dynamics 365 instance. (The Dynamics 365 Marketing license agreement doesn't legally require the installing user to have this license, but a known technical issue currently makes it necessary.)
-- You must be located in a country/region where the product is supported. To read the latest list of countries/regions where you can use Dynamics 365 Marketing, download the [Microsoft Dynamics 365 International Availability](https://go.microsoft.com/fwlink/p/?linkid=875097) document (PDF).
-- Close all other browser windows and tabs before starting.
-- Clear your browser cache before starting.
-
-If you run into trouble while working with the setup wizard, see the [Administration and setup FAQ](setup-troubleshooting.md) for some possible solutions.
+> [!IMPORTANT]
+> To run the setup wizard, you must meet all the following requirements:
+> 
+> - You must already have a Microsoft 365 tenant.
+> - An unconfigured Dynamics 365 Marketing app must be available on your tenant.
+> - You must not already have a Dynamics 365 Marketing app installed on your Dynamics 365 instance. You can have at most one Dynamics 365 Marketing per instance, and each Dynamics 365 Marketing app can only be used with one Dynamics 365 instance.
+> - You must sign into your tenant with a user account that has all the following:
+>   - A security role (such as _Global admin_ or _Service support admin_) that allows you to modify the target Dynamics 365 instance. (If you're reinstalling Marketing on an instance where Marketing was previously installed, then _Service support admin_ users must use the same user ID as was used for the initial install. If you're not sure which ID was used for the initial install, or if you're getting errors, then try to install as a _Global admin_.)
+>   - Permissions to register applications in Azure. The global administrator always has this right, but other accounts can also have it. See [Do I have permissions to register applications on Azure?](setup-troubleshooting.md#register-apps-azure) for information about how to confirm this setting for your account.
+>   - A Dynamics 365 license with the _System Administrator_ security role assigned on your target Dynamics 365 instance. (The Dynamics 365 Marketing license agreement doesn't legally require the installing user to have this license, but a known technical issue currently makes it necessary.)
+> - You must be located in a country/region where the product is supported. To read the latest list of countries/regions where you can use Dynamics 365 Marketing, download the [Microsoft Dynamics 365 International Availability](https://go.microsoft.com/fwlink/p/?linkid=875097) document (PDF).
+> - Close all other browser windows and tabs before starting.
+> - Clear your browser cache before starting.
+> 
+> If you run into trouble while working with the setup wizard, see the [Administration and setup FAQ](setup-troubleshooting.md) for some possible solutions.
 
 > [!IMPORTANT]
 > Your system is constrained by certain limits and quotas that apply to the number of contacts you can market to, monthly email messages you can send, Litmus previews you can view, and more. Please familiarize yourself with the terms and limits of the product before you begin to use it. The limits are different based on whether you are running a trial or subscribed version of the product.
 > 
-> - For subscribed (paid) versions, please download the [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?linkid=866544) and visit the [Fair use policy](fair-use-policy.md) page.
+> - For subscribed (paid) versions, please download the [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?linkid=866544).
 > - For trials, see [Dynamics 365 Marketing limits for trials](trial-preview-limits.md).
 > 
-> You can monitor your usage levels by going to  **Settings**  >  **Advanced settings**  >  **Other settings**  >  **Quota limits**  in Dynamics 365 Marketing. More information: [Quota limits](quota-management.md)
+> You can keep an eye on your usage levels by going to  **Settings**  >  **Advanced settings**  >  **Other settings**  >  **Quota limits**  in Dynamics 365 Marketing. More information: [Quota limits](quota-management.md)
+> 
+> See also the  [Readme](https://go.microsoft.com/fwlink/p/?linkid=864736) document for the latest news and updates.
 
 ## Add a Marketing app to your Microsoft 365 tenant
 
@@ -92,38 +95,30 @@ To set up a new Marketing instance:
 
 1. Go to [admin.microsoft.com](https://admin.microsoft.com) and sign in to your Microsoft 365 tenant using an administrator account that has a Dynamics 365 Marketing license assigned.
 
-1. [Open the Power Platform admin center](power-platform-admin-center.md).
+1. [Open the Dynamics 365 admin center](dynamics-365-admin-center.md).
 
-1. Go to **Resources** > **Dynamics 365 apps** on the left navigation pane.
+1. Go to the **Applications** tab of the Dynamics 365 Marketing admin center.
+   > [!IMPORTANT]
+   > Don't work on the **Instances** tab when setting up Marketing. Though you can open details about an instance there and see that the various Marketing apps and solutions are available, your setup is likely to fail or be incomplete if you try to work from there.
 
-   ![Navigate to the Dynamics 365 apps](media/purchase-setup-ppac-apps2.png "Navigate to the Dynamics 365 apps")
+   ![Set up Marketing using the Applications tab, not the Instances tab](media/purchase-app-tab.png "Set up Marketing using the Applications tab, not the Instances tab")
 
-1. Find and select an unconfigured Dynamics 365 Marketing application in the **Dynamics 365 apps** list. Then select the three dots between the **Name** and the **Status** columns for the Marketing application.
-
-    ![Choose an app and then select the Manage or Details link](media/purchase-setup-ppac-manage.png "Choose an app and then select the Manage or Details link")
-
-    - To launch the Dynamics 365 Marketing setup wizard, choose **Manage** from the pop-up menu. A message will pop up informing you that you are going to the Dynamics 365 Marketing admin page. To go to the page, select **OK**.
-    
-      ![Dynamics 365 Marketing admin page prompt](media/purchase-setup-ppac-prompt.png "Dynamics 365 Marketing admin page prompt")
-    
-    - To view more details about the selected Marketing application, choose **Details** from the pop-up menu.
-
-    You may have more than one type of application available, so be sure to pick the one that meets your present needs. Both types of applications present the same setup wizard, as described in this procedure. They are identified as follows:
-
+1. Find and select an unconfigured Dynamics 365 Marketing application in the list on the **Applications** tab. Then choose **Manage** from the side panel. You may have more than one type of application available, so be sure to pick the one that meets your present needs. Both types of applications present the same setup wizard, as described in this procedure. They are identified as follows:
     - **Dynamics 365 Marketing Application**: This is a full Dynamics 365 Marketing application, including both solutions and services. It is intended for production use, but can also be used during development and testing.
     - **Dynamics 365 Marketing - Solution Only**: This application provides the Dynamics 365 Marketing solutions, including all database entities, but not the services. This means that marketing capabilities aren't available. It provides limited functionality but can be installed on as many test or development instances as needed for no additional charge. More information: [How Marketing is licensed](#how-licensed).
 
+    ![Choose an app and then select the Manage button](media/purchase-manage-button.png "Choose an app and then select the Manage button")
+
    > [!NOTE]
-   > If you see the Marketing app listed several times, you probably have several Marketing apps available on your tenant. Marketing apps that are already configured show an instance ID appended to the app name and show a value of **Configured** in the **Status** column. Marketing apps that aren't assigned show a value of **Not configured** in the **Status** column and don't include an instance ID in their name.
+   > If you see the Marketing app listed several times, then you probably have several Marketing apps available on your tenant. Marketing apps that are already configured show an instance ID appended to the app name and show a value of **Configured** in the **Status** column. Marketing apps that aren't assigned show a value of **Not configured** in the **Status** column and don't include an instance ID in their name.
 
 1. The setup wizard launches, which you will use to make initial settings for the app. The first page of the wizard lets you choose where you will install the app and to choose whether to set up a portal to run your marketing pages and event website.
 
-    ![Choose an organization and name your portal](media/setup-form-3.png "Choose an organization and name your portal")
+    ![Choose an organization and name your portal](media/setup-form-1.png "Choose an organization and name your portal")
 
 1. From the top drop-down list, select the Dynamics 365 organization where you want to add Dynamics 365 Marketing. (A Dynamics 365 *organization* is another name for a Dynamics 365 *instance*.)
 
 1. Select one of the following **Web hosting** options (you can easily [change this later](portal-optional.md), at any time):
-
     - **Use own webserver**: Select this option if you will run your landing pages and event website on an external webserver or CMS system. This option doesn't require a portals license and won't install a portals trial. If you're not sure whether you'll need a portal, then you can choose this option for now and then come back and change it later if needed.
     - **Use Dynamics 365 Portals**: Select this option if you will run your landing pages and event website on a dedicated Dynamics 365 or Power Apps Portal running on your tenant and linked to  your Dynamics 365 Marketing instance. Portals are licensed separately. If you already have an unconfigured Dynamics 365 Portals license on your tenant, then Dynamics 365 Marketing will claim that license and integrate with it. If you don't have any Dynamics 365 Portals licenses available, then the setup wizard will create a trial Power Apps Portals instance and integrate with that. The trial is free, but expires in 30 days, after which you must either begin paying for it or stop using it. (Power Apps Portals licenses are priced according to consumption (logins and page loads), while Dynamics 365 Portals licenses are priced per instance.) For details about portal licensing, see the [Power Apps and Flow licensing FAQ](https://docs.microsoft.com/power-platform/admin/powerapps-flow-licensing-faq#can-you-share-more-details-regarding-the-new-powerapps-portals-licensing).
 
@@ -136,7 +131,8 @@ To set up a new Marketing instance:
 
 1. Select  **Continue**  to continue. Dynamics 365 Marketing includes several services, solutions, and apps, some of which require you to consider and accept various license agreements and privacy statements. The second page of the setup wizard lists each of these and provides links for more information. It also asks you to enter your organization's postal address.
 
-    ![Provide consent and enter your postal address](media/setup-form-4.png "Provide consent and enter your postal address")
+    ![Provide consent and enter your postal address](media/setup-form-2.png "Provide consent and enter your postal address")
+
 
 1. Carefully read the consent text shown for each check box, and follow the links to make sure you understand all the relevant issues. If you agree with the terms, then mark each check box as you go to indicate your consent. Some of these are optional, so you can still use the product without them, though the related features will be disabled. Other features are required, so you won't be able to use Dynamics 365 Marketing without agreeing to them.
 

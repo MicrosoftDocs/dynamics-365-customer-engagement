@@ -99,7 +99,7 @@ when working with Marketing. Some of the common pitfalls include:
 - **Incorrectly assuming that ALM operations will move with the Marketing apps from source to the target.**
 - **Not preparing the source and target environments for the necessary ALM operation.**
 - **Unnecessary uninstalling and reinstalling the Marketing app in the source or target environments against the recommendations in the documentation.**
-- **Assuming that the Marketing trial can be converted to paid by converting the Dynamics 365 trial instance to paid in the Power Platform admin center.** For more information, see the Trials section below.
+- **Assuming that the Marketing trial can be converted to paid by converting the Dynamics 365 trial instance to paid in the Dynamics 365 Admin center.** For more information, see the Trials section below.
 
 ## Uninstallation
 

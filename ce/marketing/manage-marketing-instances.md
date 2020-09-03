@@ -31,7 +31,7 @@ Instance-management operations are a standard feature of model-driven apps in Dy
 > This topic provides details about the exceptions that apply when working with instances where the Marketing app is installed—for all other management tasks, see [Manage instances](https://docs.microsoft.com/dynamics365/admin/new-instance-management), but read this topic first.
 
 > [!NOTE]
-> *Instances* are sometimes also known as *organizations* or *environments*. Each of these terms refers to the same concept. The Power Apps user interface and documentation usually use the term *environment*, while Dynamics 365 Marketing documentation and the Power Platform admin center usually use the term *instance* (though you'll sometimes also see the terms *organization* or *org* here).
+> *Instances* are sometimes also known as *organizations* or *environments*. Each of these terms refers to the same concept. The Power Apps user interface and documentation usually use the term *environment*, while Dynamics 365 Marketing documentation and the Dynamics 365 admin center usually use the term *instance* (though you'll sometimes also see the terms *organization* or *org* here).
 
 ## Elements in a Marketing instance
 
@@ -84,7 +84,7 @@ Because Marketing is more complex than most Dynamics 365 apps, and interacts wit
 
 ### Step 1: Prepare your source instance
 
-The _source instance_ is the Marketing instance you are copying _from_. To prepare your source instance for copying, [Open the Power Platform admin center](power-platform-admin-center.md) and make sure that the Dynamics 365 Marketing application and its related solutions are all up to date on your source instance, as described in [Keep Marketing up to date](apply-updates.md).
+The _source instance_ is the Marketing instance you are copying _from_. To prepare your source instance for copying, [Open the Dynamics 365 admin center](dynamics-365-admin-center.md) and make sure that the Dynamics 365 Marketing application and its related solutions are all up to date on your source instance, as described in [Keep Marketing up to date](apply-updates.md).
 
 
 ### Step 2: Prepare your target instance
@@ -92,12 +92,12 @@ The _source instance_ is the Marketing instance you are copying _from_. To prepa
 The _target instance_ is the instance you are copying _onto_. As with the source instance, you must prepare the target instance before you copy _if Marketing is installed on the source instance, the target instance, or both_.
 
 > [!NOTE]
-> The target instance will almost always be a sandbox instance because copying to a production instance isn't supported (but you can easily [convert a sandbox into a production instance](#switch-sandbox-prod) after copying if you wish). You must already have the target instance available on your tenant, and should be able to see it on the **Instances** tab of the Power Platform admin center. If you don't have one, please  [contact Microsoft Support](https://docs.microsoft.com/power-platform/admin/get-help-support) for assistance.
+> The target instance will almost always be a sandbox instance because copying to a production instance isn't supported (but you can easily [convert a sandbox into a production instance](#switch-sandbox-prod) after copying if you wish). You must already have the target instance available on your tenant, and should be able to see it on the **Instances** tab of the Dynamics 365 admin center. If you don't have one, please  [contact Microsoft Support](https://docs.microsoft.com/power-platform/admin/get-help-support) for assistance.
 
 To prepare your target instance to be copied onto, do the following _before_ starting the copy:
 
 1. If the Marketing instance was [integrated with a Dynamics 365 Portal](portal-optional.md), reset the portal as described in [Reset a portal](../portals/reset-portal.md). This is important because it will free your portal license to be used elsewhere.
-1. After the reset, the portal will still be shown as "configured" in the Power Platform admin center, but you will now be able to select it when you run the Marketing setup wizard to set up a new, copied, or restored instance.
+1. After the reset, the portal will still be shown as "configured" in the Dynamics 365 admin center, but you will now be able to select it when you run the Marketing setup wizard to set up a new, copied, or restored instance.
 
 ### Step 3: Copy the instance
 
@@ -133,7 +133,7 @@ For more information about how to backup marketing-services data to blob storage
 
 You can create an on-demand backup at any time, but when Marketing is installed on your source instance, you must take a few extra precautions by using the following procedure:
 
-1. [Open the Power Platform admin center](/power-platform-admin-center.md) and make sure that the Dynamics 365 Marketing application and its related solutions are all completely up to date on your source instance, as described in [Keep Marketing up to date](apply-updates.md).
+1. [Open the Dynamics 365 admin center](/dynamics-365-admin-center.md) and make sure that the Dynamics 365 Marketing application and its related solutions are all completely up to date on your source instance, as described in [Keep Marketing up to date](apply-updates.md).
 1. Create the on-demand backup as usual, as described in [Backup and restore instances](https://docs.microsoft.com/dynamics365/admin/backup-restore-instances).
 
 As with automatic backups, on-demand backups include the full organizational database, the interaction records or image files stored in the marketing services. For more information about how to backup marketing-services data to blob storage, see [Create custom analytics with Power BI](custom-analytics.md).
@@ -150,7 +150,7 @@ You can easily restore any on-demand or automatic system backup to any available
 
 To restore a backup onto a sandbox instance:
 
-1. If your target instance includes a [Dynamics 365 Portal](portal-optional.md), then reset the portal as described in [Reset a portal](../portals/reset-portal.md). This is important because it will free your portal license to be used elsewhere. After the reset, the portal will still be shown as "configured" in the Power Platform admin center, but you will now be able to select it when you run the Marketing setup wizard to set up a new, copied, or restored instance.
+1. If your target instance includes a [Dynamics 365 Portal](portal-optional.md), then reset the portal as described in [Reset a portal](../portals/reset-portal.md). This is important because it will free your portal license to be used elsewhere. After the reset, the portal will still be shown as "configured" in the Dynamics 365 admin center, but you will now be able to select it when you run the Marketing setup wizard to set up a new, copied, or restored instance.
 
 1. Restore the backup onto the newly prepared sandbox as usual, as described in [Backup and restore instances](https://docs.microsoft.com/dynamics365/admin/backup-restore-instances).
 
@@ -183,7 +183,7 @@ Microsoft Support offers a service for testing pending changes (usually updates)
 
 To copy a production instance to a support instance:
 
-1. If you don't already have a support instance available, then please contact Microsoft Support to request one. Once your support instance is available on your tenant, you'll be able to see it in the Power Platform admin center.
+1. If you don't already have a support instance available, then please contact Microsoft Support to request one. Once your support instance is available on your tenant, you'll be able to see it in the Dynamics 365 admin center.
 
 1. Select the production instance that you want to copy and then select **Copy** in the side panel.
 
@@ -205,9 +205,9 @@ To copy a production instance to a support instance:
 
 ## Delete or reset a Marketing instance
 
-For standard Dynamics 365 instances (without Marketing installed) you can use the Power Platform admin center to delete or reset an instance. However, if you do have Marketing installed, then you should also do the following:
+For standard Dynamics 365 instances (without Marketing installed) you can use the Dynamics 365 admin center to delete or reset an instance. However, if you do have Marketing installed, then you should also do the following:
 
-1. If the Marketing instance was [integrated with a Dynamics 365 Portal](portal-optional.md), then reset the portal as described in [Reset a portal](../portals/reset-portal.md). This is important because it will free your portal license to be used elsewhere. After the reset, the portal will still be shown as "configured" in the Power Platform admin center, but you will now be able to select it when you run the Marketing setup wizard to set up a new, copied, or restored instance.
+1. If the Marketing instance was [integrated with a Dynamics 365 Portal](portal-optional.md), then reset the portal as described in [Reset a portal](../portals/reset-portal.md). This is important because it will free your portal license to be used elsewhere. After the reset, the portal will still be shown as "configured" in the Dynamics 365 admin center, but you will now be able to select it when you run the Marketing setup wizard to set up a new, copied, or restored instance.
 1. Delete or reset the instance as usual. More information: [Delete an instance](https://docs.microsoft.com/dynamics365/admin/delete-instance)
 
 > [!NOTE]
@@ -215,14 +215,14 @@ For standard Dynamics 365 instances (without Marketing installed) you can use th
 
 ## Do not change the URL for an instance with Marketing installed
 
-For standard Dynamics 365 instances (without Marketing installed) you can use the Power Platform admin center to change the URL of an instance. However, _you can't currently do this if you have Marketing installed_.
+For standard Dynamics 365 instances (without Marketing installed) you can use the Dynamics 365 admin center to change the URL of an instance. However, _you can't currently do this if you have Marketing installed_.
 
 > [!IMPORTANT]
 > Do not attempt to change the URL for a Marketing instance. If you require a different URL, then you must set up a new Dynamics 365 instance at the new URL and then reinstall Marketing there.
 
 ### See also
 
-[Open the Power Platform admin center](power-platform-admin-center.md)  
+[Open the Dynamics 365 admin center](dynamics-365-admin-center.md)  
 [Keep Marketing up to date](apply-updates.md)  
 [Uninstall Marketing](uninstall-marketing.md)
 [Transfer data between instances](transfer-data.md)  
