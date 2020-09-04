@@ -1,10 +1,10 @@
 ---
 title: "Create quick replies | MicrosoftDocs"
-description: "Instructions to set up quick responses in Omnichannel for Customer Service."
+description: "Instructions to set up quick replies in Omnichannel for Customer Service."
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 09/02/2020
+ms.date: 09/04/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -14,18 +14,18 @@ ms.topic: article
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-Quick responses are pre-defined messages that can be created for agents to quickly reply to common questions by customers. For information about the agent's quick response experience, see [Send quick responses in the chat](../agent/agent-oc/oc-conversation-control.md#send-predefined-messages-in-chats).  
+Quick replies are predefined messages that can be created for agents to quickly respond to common questions from customers. For information about the agent's quick reply experience, see [Send predefined messages in chats](../agent/agent-oc/oc-conversation-control.md#send-predefined-messages-in-chats).  
 
 1. Sign in to Omnichannel Administration.
 2. Go to **Agent Experience** > **Quick replies**.
-3. Select **New** to add a quick reply. To edit an existing quick response, select the name of the quick reply.
+3. To create a quick reply, select **New**, or to edit an existing quick reply, select the name of the quick reply.
 4. Provide or change the following information:
 
     - **Title:** Enter the title of the message.
     - **Locale:** Specify the language of the message.
     
         > [!NOTE]
-        > Omnichannel for Customer Service does not localize quick reply. To provide quick responses in multiple languages, create a separate quick reply record for each language and select its corresponding locale.
+        > Omnichannel for Customer Service does not localize quick replies. To provide quick replies in multiple languages, create a separate quick reply for each language and select its corresponding locale.
 
     - **Message:** Enter the text of the message.
 
@@ -47,7 +47,7 @@ Quick responses are pre-defined messages that can be created for agents to quick
 
 5. Select **Save**.
 
-## Create or edit tags for common categories of quick responses
+## Create or edit tags for common categories of quick replies
 
 Quick replies can be classified and tagged into categories. The categorization capability can also be leveraged to group quick replies into logical chunks that represent key conversational states for agents. These logical chunks help agents select appropriate messages that correspond to customer issues.
 
@@ -69,9 +69,9 @@ Quick replies can be classified and tagged into categories. The categorization c
 
 5. When finished, select **Close**.
 
-## Associate quick replies to a work stream
+## Associate quick replies with a work stream
 
-For organizations with diverse lines of businesses, agents will send a variety of messages depending on their area of expertise. Administrators can determine which quick replies are necessary for different groups of agents to use. Administrators can associate quick replies with work streams in order show agents only the quick replies that apply to them. If no work stream is associated, the quick reply is available for all agents.
+For organizations with diverse lines of businesses, agents will send a variety of messages, depending on their area of expertise. Administrators can determine which quick replies are necessary for different groups of agents to use. Administrators can associate quick replies with work streams in order show agents only the quick replies that apply to them. If no work stream is associated, the quick reply is available for all agents.
 
 1. Sign in to Omnichannel Administration.
 
