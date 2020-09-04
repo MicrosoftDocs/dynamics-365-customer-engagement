@@ -1,4 +1,5 @@
 # [App profile manager](overview.md)
+## [Roles and permissions](security-roles.md)
 ## [Use app profile manager](app-profile-manager.md)
 ## Settings
 ## Templates
@@ -6,7 +7,7 @@
 ### [Manage application tab templates](application-tab-templates.md)
 ### [Manage notification templates](notification-templates.md)
 ## Productivity tools
-### [Manage smart assist]
+### [Manage smart assist](smart-assist.md)
 ### [Manage agent scripts](agent-scripts.md)
 ### [Manage macros](macros.md)
 

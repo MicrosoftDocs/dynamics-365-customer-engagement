@@ -120,7 +120,7 @@ The out-of-the-box templates are as follows.
 |||||||
 
   > [!Note]
-  > We recommend that you do not modify the out-of-the-box templates for your customizations; instead, create your own custom templates to avoid losing them during solution upgrades.
+  > You can't customize the out-of-the-box notification templates; instead, you'll need to create your own custom templates.
 
 ### Create a notification template
 

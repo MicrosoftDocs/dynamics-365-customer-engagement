@@ -10,7 +10,7 @@ ms.service:
 ms.topic: article
 ---
 
-# Roles and privileges associated with app profile manager
+# Preview: Roles and privileges associated with app profile manager
 
 [!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 

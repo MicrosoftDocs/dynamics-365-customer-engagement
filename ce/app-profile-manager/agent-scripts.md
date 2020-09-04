@@ -10,7 +10,7 @@ ms.service:
 ms.topic: article
 ---
 
-# Guide agents with scripts
+# Preview: Guide agents with scripts
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -34,11 +34,9 @@ Agent scripts reduce the human errors involved in the process, because agents kn
 
 ## Prerequisites
 
-- Install Dynamics 365 Productivity Tools solution.
+- Ensure that you have the **Productivity tools administrator** security role. To learn more, see [Assign roles and enable users](../omnichannel/administrator/add-users-assign-roles.md).
 
-- Ensure that you have the **Productivity tools administrator** security role. To learn more, see [Assign roles and enable users](add-users-assign-roles.md).
-
-- Ensure that agents and supervisors are assigned the **Productivity tools user** security role. To learn more, see [Assign roles and enable users](add-users-assign-roles.md).
+- Ensure that agents and supervisors are assigned the **Productivity tools user** security role. To learn more, see Assign roles and enable users.
 
 ## Walk-through to enable agent scripts
 
@@ -50,13 +48,12 @@ Agent scripts reduce the human errors involved in the process, because agents kn
 
 ## Step 1: Create agent scripts
 
-First, you need to create agent scripts in the Omnichannel Administration app. The following procedure creates an example of an agent script for a chat session. You can modify this procedure for other types of sessions your agents are likely to encounter.
+First, you need to create agent scripts in the Omnichannel Administration or Customer Service Hub app. The following procedure creates an example of an agent script for a chat session. You can modify this procedure for other types of sessions your agents are likely to encounter.
 
-1. Sign in to the Omnichannel Administration app.
+1. Sign in to Power Apps, and go to the app profile manager page.
+2. In the left pane, under **Productivity**, select **Agent scripts**. The Unified Interface opens on a new tab.
 
-2. Under **Agent Experience**, select **Agent Scripts**.
-
-3. On the **Active Agent scripts** page, select **+ New**.
+3. On the **Active Agent scripts** page, select **New**.
 
 4. On the **New Agent script** page, specify the following:
 
@@ -87,7 +84,7 @@ First, you need to create agent scripts in the Omnichannel Administration app. T
 
 8. Select **Save and Close** to add, save, and close the quick-create form.
 
-9. Select **Save** to save the changes.
+9.  Select **Save** to save the changes.
 
     > [!div class=mx-imgBorder] 
     > ![Agent script](../media/create-agent-script1.png "Agent script")

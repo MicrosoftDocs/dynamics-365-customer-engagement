@@ -27,9 +27,9 @@ Session templates are used to define the aforementioned session experience, such
 You can create session templates in the Omnichannel Administration app or use the out-of-the-box templates. In your environment, as an administrator, you can create multiple session templates.
 
   > [!Note]
-  > We recommend that you do not modify the out-of-the-box session templates for your customizations; instead, create your own custom templates to avoid losing them during solution upgrades.
+  > You can't customize the out-of-the-box session templates; instead, you'll need to create your own custom templates.
 
-The out-of-the-box session template for using in Customer Service workspace is <!-- ask Marco -->
+The out-of-the-box session template for using in Customer Service workspace is Case entity session - default template.
 
 The following out-of-the-box session templates are for use in the Omnichannel for Customer Service app:
 
