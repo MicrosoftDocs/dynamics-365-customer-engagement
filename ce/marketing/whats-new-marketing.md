@@ -64,8 +64,6 @@ The September update includes email designer enhancements, social posting improv
 - **Marketing emails**
     - Improved support for background images, call to action buttons, and responsiveness in Microsoft Outlook.
     - Toggle post-processing on or off for custom HTML that is pasted into the email editor.
-- **Shared UX**
-    - 
 - **Social posting**
     - Post directly to a Facebook user account or any Facebook page on which you are an admin.
 
