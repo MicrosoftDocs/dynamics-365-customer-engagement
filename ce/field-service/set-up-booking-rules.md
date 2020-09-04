@@ -1,8 +1,9 @@
 ---
-title: "Set up booking rules (Dynamics 365 Field Service) | MicrosoftDocs"
+title: "Set up booking rules in Dynamics 365 Field Service | MicrosoftDocs"
+description: Learn how to set up booking rules in Dynamics 365 Field Service.
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 09/12/2019
+ms.date: 09/04/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: 
@@ -25,27 +26,27 @@ search.app:
 ---
 # Set up booking rules (Field Service)
 
-Booking rules in Field Service allow a System Administrator to create warning or error messages that users see when creating or editing a resource booking record, based on custom conditions. For example, a booking rule could be created to warn a user when they attempt to book a work order to a resource on the schedule board that doesn't have the skills required for the job.  
+Booking rules in Field Service allow a system administrator to create warning or error messages that users see when creating or editing a resource booking record, based on custom conditions. For example, a booking rule could be created to warn a user when they attempt to book a work order to a resource on the schedule board that doesn't have the skills required for the job.  
 
-Booking rules are custom JavaScript methods that will be executed prior to the Bookable Resource Booking record being created or edited.  The JavaScript method can accept a parameter that will contain information for the Bookable Resource Booking record being created and must return a JavaScript object with the required properties.
+Booking rules are custom JavaScript methods that will be executed prior to the bookable resource booking record being created or edited.  The JavaScript method can accept a parameter that will contain information for the Bookable Resource Booking record being created and must return a JavaScript object with the required properties.
   
- Set up booking rules to validate a booking when it is created or modified.  
+Set up booking rules to validate a booking when it is created or modified.  
 
 ## Create a solution
 
-The first step to setting up your booking rule is to create a custom Jscript web resource.  It is recommended that you create a solution in CRM to add your custom Jscript web resource or use an existing solution you may have for customizations.
+The first step to setting up your booking rule is to create a custom JavaScript web resource. We recommend that you create a solution in CRM to add your custom JavaScript web resource or use an existing solution you may have for customizations.
 
 Create CRM Solution
 
-1.	From the Settings -> Solutions area create a new solution for your booking rule Jscript web resources.
-The following screen shot shows a new solution that has been created.  It is recommended that your solution use a unique publisher rather than the default publisher.
+1.	From the Settings -> Solutions area create a new solution for your booking rule JavaScript web resources.
+The following screenshot shows a new solution that has been created. We recommend that your solution uses a unique publisher rather than the default publisher.
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-booking-rules-solution.png)
 
-2.	After creating the solution click on the Web Resources component and create a new Web Resource.
-3.	On the new Web Resource form enter the following information
+2.	After creating the solution click on the Web Resources component and create a new web resource.
+3.	On the new web resource form enter the following information:
   a.	Name
   b.	Display Name.
   c.	Select “Script (Jscript)” as the Type.
@@ -306,7 +307,9 @@ On the Booking Rule record the “Method Name” must be: MSFSAENG.ScheduleBoard
         return ScheduleBoardHelper;
     }());
     })(MSFSAENG || (MSFSAENG = {}));
-      
+
+## Additional notes
+- The bookable resource booking is enabled to leverage booking rules, in order to create warning or error messages that users see when creating or editing a resource booking record, based on custom conditions. As a result, business process flows can't be used on the bookable resource booking entity. 
  
 ### See also    
  [Schedule within time constraints](../field-service/schedule-time-constraints.md)   
