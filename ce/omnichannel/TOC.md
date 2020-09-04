@@ -122,7 +122,6 @@
 #### [Set up location detection](administrator/geo-location-provider.md)
 #### [Create message templates](administrator/create-message-templates.md)
 #### [Create and manage data masking rules](administrator/data-masking-settings.md)
-#### [Set up location detection](administrator/geo-location-provider.md)
 #### [Create chat authentication settings](administrator/create-chat-auth-settings.md)
 #### [Enable self service settings in conversation summary](administrator/enable-self-service-settings.md)
 #### [Configure automated messages](administrator/configure-automated-message.md)
