@@ -1,6 +1,6 @@
 ---
-title: "Field Service Mobile version history | MicrosoftDocs"
-description: Find a list of important updates for Field Service mobile apps.
+title: "Dynamics 365 Field Service Mobile version history | MicrosoftDocs"
+description: Find a list of important updates for Dynamics 365 Field Service mobile apps.
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 07/14/2020
@@ -27,7 +27,7 @@ search.app:
   - D365FS
 ---
 
-# Field Service Mobile version history
+# Dynamics 365 Field Service Mobile version history
 
 This article chronicles important updates related to Field Service Mobile and associated mobile project templates.
 
