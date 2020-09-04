@@ -46,7 +46,11 @@ The following out-of-the-box session templates are for use in the Omnichannel fo
   
 ## Create a session template
 
-1. Select **New** on the **Active Session Templates** page.
+1. Sign in to make.powerapps.com go to app profile amanger.
+
+2. In the side pane, select Session templates under Customer Service workspace or Omnichannel for Customer Serivce.
+
+2. Select **New** on the **Active Session Templates** page.
 
 2. Specify the following on the **New Session Templates** page.
 
