@@ -212,6 +212,9 @@ In practice, this means IoT alerts for a specific sensor will also tag the relat
 
 You can configure the system to allow customer assets related to accounts other than the work order service account, to be noted on work orders. This enables scenarios where an asset may be owned by a service provider, yet work orders need to be created for the customer who is currently using the asset, like in the case of a rental or lease. This is also applicable to warranty scenarios where an asset may be owned by the consumer yet the work order needs to be associated to the manufacturer account who is responsible for the warranty.
 
+> [!Note]
+> See the video on ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Disable Customer Asset validations and suggest account re-parenting](https://youtu.be/kFgGuO_36oI) for more details.
+
 Go to **Settings > Field Service Settings > Work Order Booking** section.
 
 
