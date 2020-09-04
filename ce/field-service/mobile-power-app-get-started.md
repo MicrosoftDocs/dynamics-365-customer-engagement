@@ -1,6 +1,6 @@
 ---
 title: "Get started with Dynamics 365 Field Service mobile Power App | MicrosoftDocs"
-description: Learn how to get started with the Field Service mobile Power App
+description: Learn how to get started with the Field Service mobile Power App.
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 08/28/2020
@@ -140,4 +140,4 @@ Organizations using Dynamics 365 Remote Assist will see that technicians can tri
 > [!div class="mx-imgBorder"]
 > ![Simulated image showing a phone with Field Service mobile and a menu option to launch Dynamics 365 Remote Assist.](./media/mobile-2020-remote-assist.png)
 
-For more information, see the article: [Using Field Service with Remote Assist](remote-assist-hololens.md).
+For more information, see the article: [Using Field Service with Dynamics 365 Remote Assist](remote-assist-hololens.md).
