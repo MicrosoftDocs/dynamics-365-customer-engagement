@@ -25,11 +25,9 @@
 
 #### Work with email
 ##### [Using Email](customer-service-hub-user-guide-email-overview.md)
-##### [Configure Email](customer-service-hub-user-guide-email-admin.md)
 #### Work with timeline
 
 ##### [Use timeline](customer-service-hub-user-guide-timeline-overview.md)
-##### [Configure timeline](customer-service-hub-user-guide-timeline-admin.md)
 
 #### Work with cases
 ##### [Create a case](customer-service-hub-user-guide-create-a-case.md)
@@ -192,7 +190,6 @@
 ### FAQs
 #### [Email FAQs](email-faqs.md)
 #### [Migration tool FAQs](migrate-tool-faqs.md)
-#### [Timeline FAQs](timeline-faqs.md) 
 #### [FAQs on AI-suggested cases and knowledge articles](csw-faqs-ai-suggestions.md)
 
 ## Developer guide

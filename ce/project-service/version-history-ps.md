@@ -1,5 +1,6 @@
 ---
 title: Update release schedule for Project Service 3.x
+description: This topic provides information about the available and upcoming releases of Dynamics 365 Project Service Automation.
 ms.custom: dyn365-projectservice
 ms.date: 08/10/2020
 ms.reviewer: kfend
@@ -40,13 +41,13 @@ For information about updates to Project Service, see the [Dynamics 365 release 
 | Station  | Region | Current version | Next version |  Scheduled date
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>Station 2</strong> | |  |  | |
-| | <i>South America</i> |[3.10.33.41](whats-new-ur-22.md)|  [3.10.34.30](whats-new-ur-23.md) | August 28, 2020
-| | <i>Canada</i> |[3.10.33.41](whats-new-ur-22.md)| [3.10.34.30](whats-new-ur-23.md) | August 28, 2020 
-| | <i>India</i> |[3.10.33.41](whats-new-ur-22.md)| [3.10.34.30](whats-new-ur-23.md) | August 28, 2020
-| | <i>France</i> |[3.10.33.41](whats-new-ur-22.md)|  [3.10.34.30](whats-new-ur-23.md) | August 28, 2020
-| | <i>United Arab Emirates</i> |[3.10.33.41](whats-new-ur-22.md)|  [3.10.34.30](whats-new-ur-23.md) | August 28, 2020
-| | <i>South Africa</i> |[3.10.33.41](whats-new-ur-22.md)|  [3.10.34.30](whats-new-ur-23.md) | August 28, 2020
-| | <i>Germany</i> |[3.10.33.41](whats-new-ur-22.md)| [3.10.34.30](whats-new-ur-23.md) | August 28, 2020
+| | <i>South America</i> | [3.10.34.30](whats-new-ur-23.md) | TBD | October 2, 2020
+| | <i>Canada</i> | [3.10.34.30](whats-new-ur-23.md) | TBD | October 2, 2020 
+| | <i>India</i> | [3.10.34.30](whats-new-ur-23.md) | TBD | October 2, 2020
+| | <i>France</i> | [3.10.34.30](whats-new-ur-23.md) | TBD | October 2, 2020
+| | <i>United Arab Emirates</i> | [3.10.34.30](whats-new-ur-23.md) | TBD | October 2, 2020
+| | <i>South Africa</i> | [3.10.34.30](whats-new-ur-23.md) | TBD | October 2, 2020
+| | <i>Germany</i> | [3.10.34.30](whats-new-ur-23.md) | TBD | October 2, 2020
 |<strong>Station 3</strong> | |  |  | |
 | | <i>Japan</i> |[3.10.33.48](whats-new-ur-22.md) | [3.10.34.30](whats-new-ur-23.md) | September 4, 2020 
 | | <i>Asia Pacific</i> |[3.10.33.48](whats-new-ur-22.md)| [3.10.34.30](whats-new-ur-23.md) |  September 4, 2020
