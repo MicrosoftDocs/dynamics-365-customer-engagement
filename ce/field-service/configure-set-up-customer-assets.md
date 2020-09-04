@@ -2,7 +2,7 @@
 title: "Asset management in Dynamics 365 Field Service | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 11/20/2019
+ms.date: 09/03/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: 
@@ -137,6 +137,8 @@ The most important work order incident type can be added directly from the main 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a work order showing the primary incident customer asset](./media/customer-asset-primary-incident.png)
 
+See note in Configuration considerations about adding customer assets to work orders that are not related to the work order service account.
+
 Keep in mind you can add multiple work order incidents to a work order by going to **Related** >  **Incidents** > **+New Work Order Incidents** and each incident can be related to the same or different customer assets as long as they all belong to the same service account.
 
 > [!Note]
@@ -187,13 +189,13 @@ CFS has an entity called **Devices**, which represent Internet-connected sensors
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a customer asset showing a list of connected devices](./media/customer-asset-iot-device.png)
 
-From a customer asset, you can relate devices in the **Connected Devices** section.
+From a customer asset, you can relate devices by selecting **Connect Device** in the top ribbon.
 
-Create a new connection and choose the device and the **Connected IoT Device** role. 
+Select your IoT device from the dropdown.
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a new connection showing the Connect To tab](./media/customer-asset-iot-device-connect.png)
+> ![Screenshot of a new connection showing the Connect To tab](./media/customer-asset-connect-device.png)
 
 
 In practice, this means IoT alerts for a specific sensor will also tag the related customer asset, and if a work order is created from the IoT alert, it will note the alert and the asset.
@@ -206,6 +208,29 @@ In practice, this means IoT alerts for a specific sensor will also tag the relat
 - It's common to add custom serial number, barcode, and QR code fields to customer assets for more specific tracking. The Field Service Mobile app supports barcode scanning to populate fields and locate records in the system.
 - Only products where **Field Service Product Type** is set to **Inventory** or **Non-inventory** can be added to work orders. Only those products can be automatically converted to customer assets. However, when manually creating a customer asset, you can add all products. 
 
+### Add customer assets from different accounts to work orders
+
+You can configure the system to allow customer assets related to accounts other than the work order service account, to be noted on work orders. This enables scenarios where an asset may be owned by a service provider, yet work orders need to be created for the customer who is currently using the asset, like in the case of a rental or lease. This is also applicable to warranty scenarios where an asset may be owned by the consumer yet the work order needs to be associated to the manufacturer account who is responsible for the warranty.
+
+Go to **Settings > Field Service Settings > Work Order Booking** section.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/customer-asset-settings-validation.png)
+
+Set **Disable Customer Asset Validation** to _Yes_. 
+
+When adding customer assets to work orders, this setting will allow you to search across all assets in the system, not just assets related to the work order service account.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/customer-asset-work-order-lookup-view.png)
+
+Set **Suggest Reparenting Customer Assets** to _Yes_ to give work order creators the option change the service account of the work order to match the account of the customer asset. 
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/customer-asset-reparent.png)
 
 ## Additional notes
 - [Booking alerts](./booking-alert.md), which can display helpful reminders on the schedule board, can be related to customer assets, among many other records.
@@ -214,5 +239,6 @@ In practice, this means IoT alerts for a specific sensor will also tag the relat
 ### See also    
 - [Create work order templates with incident types](../field-service/configure-incident-types.md) 
 - [Set up agreements to automatically generate work orders and invoices](../field-service/set-up-customer-agreements.md)
-- [Adding 3D models to customer assets](../field-service/3D-viewer.md)    
- 
+- [Adding 3D models to customer assets](../field-service/3D-viewer.md) 
+- [Asset properties](asset-properties.md)
+- [Define asset locations with functional location](assets-functional-location.md)
