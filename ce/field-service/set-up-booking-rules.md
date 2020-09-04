@@ -2,7 +2,7 @@
 title: "Set up booking rules (Dynamics 365 Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 09/12/2019
+ms.date: 09/04/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: 
@@ -308,7 +308,7 @@ On the Booking Rule record the “Method Name” must be: MSFSAENG.ScheduleBoard
     })(MSFSAENG || (MSFSAENG = {}));
 
 ## Additional notes
-- The Bookable Resource Booking is enabled to leverage Booking Rules, to create warning or error messages that users see when creating or editing a resource booking record, based on custom conditions. Due to which, Business Process Flows cannot be used on Bookable Resource Booking entity. 
+- The bookable resource booking is enabled to leverage booking rules, in order to create warning or error messages that users see when creating or editing a resource booking record, based on custom conditions. As a result, business process flows can't be used on the bookable resource booking entity. 
  
 ### See also    
  [Schedule within time constraints](../field-service/schedule-time-constraints.md)   
