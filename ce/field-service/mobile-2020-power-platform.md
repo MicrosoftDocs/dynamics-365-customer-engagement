@@ -74,7 +74,7 @@ Use the following feature comparison table to understand which mobile app is rig
 | Time entry  | Technician | Yes | Yes | |
 | Connected Field Service & IoT alerts | Technician | Yes | Yes | |
 | [Inspections](inspections.md) | Technician | Yes | Yes | Field Service technician can find and capture inspections associated with a work order. |
-| [Remote Assist](https://docs.microsoft.com/dynamics365/mixed-reality/remote-assist/overview-hololens) | Integration | Yes | Yes | Access to help from remote collaborators with integrated Remote Assist. |
+| [Dynamics 365 Remote Assist](https://docs.microsoft.com/dynamics365/mixed-reality/remote-assist/overview-hololens) | Integration | Yes | Yes | Access to help from remote collaborators with integrated Dynamics 365 Remote Assist. |
 | [Push notifications](mobile-push-notifications.md) | Technician | 2020 release wave 2 | Yes | User notifications, such as new booking appointment. |
 | [Geofencing](geofencing.md) | Technician | 2020 release wave 2 | Yes | Ability to autoset booking status as technician arrives or leaves location. |
 | Reporting | Technician | 2020 release wave 2 | Yes | Customer service reports with signature, option to email PDF. |
