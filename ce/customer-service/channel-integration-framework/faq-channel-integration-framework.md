@@ -132,7 +132,9 @@ This is to make sure that updated data is available for the agent at all times.
 
 Yes, you can integrate custom messaging channels using Direct Line Bot. More information: [Bring your own channel](../../omnichannel/developer/how-to/bring-your-own-channel.md).
 
+### Is it possible to view the existing channel providers from Channel Integration Framework version 2.0 model-driven app?
 
+No, you will have to navigate to Channel Integration Framework version 2.0 from app profile manager to view your existing channel providers. More information: [Configure channel provider using app profile manager](v2/configure-channel-provider-app-profile-manager.md).
 
 ## See also
 
