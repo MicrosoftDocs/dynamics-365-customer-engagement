@@ -4,7 +4,7 @@ description: "Learn about how to configure outbound messaging in Omnichannel for
 author: platkat
 ms.author: ktaylor
 manager: shujoshi
-ms.date: 07/28/2020
+ms.date: 08/26/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -43,13 +43,9 @@ Before you configure outbound messaging, make sure that the following prerequisi
 
 After completing the prerequisites, you can send outbound messages from your organization by following these steps:
 
-- [Preview: Configure outbound messaging](#preview-configure-outbound-messaging)
-  - [Overview](#overview)
-  - [Prerequisites](#prerequisites)
   - [Step 1: Set up message templates](#step-1-set-up-message-templates)
   - [Step 2: Set up outbound configuration](#step-2-set-up-outbound-configuration)
   - [Step 3: Set up a Power Automate flow](#step-3-set-up-a-power-automate-flow)
-    - [See also](#see-also)
 
 ## Step 1: Set up message templates
 
@@ -89,7 +85,13 @@ After completing the prerequisites, you can send outbound messages from your org
     
 ## Step 3: Set up a Power Automate flow
 
-Power Automate provides a low code platform for workflow and process automation. For more information, refer to [Power Automate documentation](https://docs.microsoft.com/power-automate/).
+Power Automate provides a low code platform for workflow and process automation. For more information, refer to [Power Automate documentation](https://docs.microsoft.com/power-automate/). You can download and import the following sample flows to get started:
+
+- [Case Creation flow](https://aka.ms/CaseCreation) (ZIP file)
+
+- [Case Resolved flow](https://aka.ms/CaseResolved) (ZIP file)
+
+To set up a Power Automate flow, complete the following steps.
 
 1. Go to https://us.flow.microsoft.com/, sign in to your account, and click **My flows**.
 

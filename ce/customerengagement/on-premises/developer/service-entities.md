@@ -3,7 +3,7 @@ title: "Service entities in Dynamics 365 Customer Engagement (on-premises)(Devel
 description: "Learn about service entites that are targeted at the customer service department of an organization."
 ms.custom: 
 ms.date: 10/01/2019
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service:
 ms.suite: 
 ms.tgt_pltfrm: 

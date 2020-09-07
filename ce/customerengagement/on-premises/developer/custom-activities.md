@@ -3,7 +3,7 @@ title: "Custom activities (Developer Guide for Dynamics 365 Customer Engagement)
 description: "Custom activities support the communication needs of a business such as instant messaging (IM) and Short Message Service (SMS) in Dynamics 365 Customer Engagement"
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
