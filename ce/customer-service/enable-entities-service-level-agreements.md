@@ -4,7 +4,7 @@ description: See how to enable entities for service level agreements in Dynamics
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/24/2020
+ms.date: 09/07/2020
 ms.topic: article
 ms.service: 
   - dynamics-365-customerservice
@@ -25,8 +25,31 @@ Service level agreements are not just important in the customer service space, b
   
 > [!IMPORTANT]
 > Only enhanced SLAs can be created for other entities. A standard SLA can be created only for the Case entity.
+
+## Entities (record types) that support SLAs
+
+With Customer Service, you can create enhanced SLAs for entities that are enabled for SLA. A system administrator or customizer can enable SLAs for the following entities:  
+
+- Account  
+
+- Contact  
+
+- Order  
+
+- Invoice  
+
+- Quote  
+
+- Opportunity  
+
+- Lead
+
+- Activity entities such as Email, PhoneCall, and Appointment&mdash;but not RecurringAppointment or its instances  
+
+  > [!NOTE]
+  >  SLAs can also be enabled for custom entities and custom activities.
   
-#### To enable  an entity for SLA
+### To enable  an entity for SLA
   
 1. [!INCLUDE[proc_permissions_system_admin_and_customizer](../includes/proc-permissions-system-admin-and-customizer.md)]  
   
