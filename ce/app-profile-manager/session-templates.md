@@ -81,7 +81,7 @@ The following out-of-the-box session templates are for use in the Omnichannel fo
 
 8. Select the **Agent scripts** tab, and set the **Enable build expression** toggle to **Yes** to define the expression to set an agent script as default for a particular session template.
 
-9. Build the expression, and then select **Save and close**. To learn more, see [Set default agent script for agents](agent-scripts.md#set-default-agent-script-for-agents).
+9. Build the expression, and then select **Save and close**. To learn more, see [Set default agent script for agents](agent-scripts.md#set-the-default-agent-script-for-agents).
 
   > [!Note]
   > Step 8 and 9 are optional, and applicable only when you've configured agent scripts. To learn more, see [Agent scripts](agent-scripts.md).
