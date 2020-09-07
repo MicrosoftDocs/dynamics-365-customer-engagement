@@ -4,7 +4,7 @@ description: "Learn about the system requirements of Dynamics 365 Channel Integr
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 12/31/2019
+ms.date: 09/07/2020
 ms.topic: article
 ms.service: 
   - dynamics-365-customerservice
@@ -27,7 +27,7 @@ To have multisession capabilities, your organization must use a multi-session ap
 
 ## Supported browsers
 
-- Microsoft Edge
+- Chromium-based Microsoft Edge
 
 - Google Chrome
 
