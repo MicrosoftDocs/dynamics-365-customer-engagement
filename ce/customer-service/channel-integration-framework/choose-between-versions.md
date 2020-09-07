@@ -52,7 +52,7 @@ The following matrix explains the various aspects of versions 1.0 and 2.0.
 |--------------------------------|---------------------------|-------------------------------|
 |Session| Single-session  | Multi-session|
 |Model-driven app | Dynamics 365 Customer Service <br> Dynamics 365 Sales <br> Dynamics 365 Project Service <br> Dynamics 365 Field Service | Omnichannel for Customer Service<br />Customer Service Workspace(preview) |
-|Deployment/provisioning(preview)|Using Channel Integration Framework version 1.0 model-driven app|Deployed using app profile manager|
+|Deployment/provisioning(preview)|Using Channel Integration Framework version 1.0 model-driven app|Deployed with Customer Service workspace (preview) and Omnichannel for Customer Service|
 |Communication panel | Right side | Left side |
 |Communication panel modes | Minimized <br> Expanded | Docked <br> Minimized <br> Hidden |
 |Features| Support for one channel provider at any time <br> Communication panel management |Support for multiple telephony channel providers <br> Communication panel management <br> Channel analytics <br> Notification management templates<br> Application tab management templates<br> Session management templates |
