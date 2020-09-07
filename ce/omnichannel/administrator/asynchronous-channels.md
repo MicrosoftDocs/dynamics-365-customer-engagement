@@ -4,7 +4,7 @@ description: "Adaptive card, emojis, and other support in asynchronous channels 
 author: platkat 
 ms.author: ktaylor
 manager: shujoshi
-ms.date: 08/06/2020
+ms.date: 09/03/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -73,7 +73,8 @@ You can enable file attachments on the **General settings** tab of a channel so 
 > [!Note]
 > - For Microsoft Teams, when a customer sends an emoji from the Teams client, the agent will receive a .png image. When an agent sents a .gif image outbound, the customer will receive a .png image. 
 > - The Direct Line channel supports the above attachment types, but it is up to the client to implement them.
-> - For LINE inbound and outbound, when a .gif image is sent, the recipient will receive a .jpg image.
+> - For LINE inbound and outbound messages, when a .gif image is sent, the recipient will receive a .jpg image.
+> - For WhatsApp messages, when a customer sends an attachment in document format (for example, a .docx, .xlsx, or .txt file), the agent will receive the attachment name as message text. We recommend converting documents to PDFs to send as attachments. 
 
 ## Emoji support 
 

@@ -1,5 +1,6 @@
 ---
-title: "Field Service Mobile version history | MicrosoftDocs"
+title: "Dynamics 365 Field Service Mobile version history | MicrosoftDocs"
+description: Find a list of important updates for Dynamics 365 Field Service mobile apps.
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 07/14/2020
@@ -26,7 +27,7 @@ search.app:
   - D365FS
 ---
 
-# Field Service Mobile version history
+# Dynamics 365 Field Service Mobile version history
 
 This article chronicles important updates related to Field Service Mobile and associated mobile project templates.
 
@@ -50,7 +51,7 @@ This article chronicles important updates related to Field Service Mobile and as
 
 ### Updates
 
-- Enabled capability to launch Remote Assist from iOS.
+- Enabled capability to launch Dynamics 365 Remote Assist from iOS.
 - Accessibility enhancements.
 - Mobile reports usability improvement: default to last report type used.
 - Barcode scanner usability improvement: scan multi-part bar codes.
@@ -133,7 +134,7 @@ This article chronicles important updates related to Field Service Mobile and as
 
 ## 11.3.107
 
-- Support for Remote Assist deep linking (Android).
+- Support for Dynamics 365 Remote Assist deep linking (Android).
 - Fixed saving of offline booking signatures.
 - Fixed update address button error message.
 - Fixed unresponsive iOS buttons.
@@ -153,7 +154,7 @@ To learn more about mobile projects, see our topic on [installing the Field Serv
 | --- | --- | --- | --- | --- |
 | [1.0.4847](https://aka.ms/fsmobile-project)  |  June 2020  |  12.1+ | 12.1+ | 8.8.14 | 
 
-- Added support for Remote Assist deep link on iOS.
+- Added support for Dynamics 365 Remote Assist deep link on iOS.
 - Bug fix to populate fields from service account when creating a new work order associated with that service account.
 
 ## 1.0.4549
@@ -177,7 +178,7 @@ To learn more about mobile projects, see our topic on [installing the Field Serv
 | --- | --- | --- | --- | --- |
 | [1.0.3482](https://aka.ms/fsmobile-project-3482)  |   November 2019  |  11.3+ | 11.3+ | 8.8.6.300 | 
 
-- Added support Remote Assist deep linking (Android)
+- Added support Dynamics 365 Remote Assist deep linking (Android)
 
 ## 1.0.2735
 
