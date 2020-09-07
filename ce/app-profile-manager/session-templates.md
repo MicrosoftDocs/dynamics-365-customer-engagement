@@ -84,9 +84,9 @@ The following out-of-the-box session templates are for use in the Omnichannel fo
 9. Build the expression, and then select **Save and close**. To learn more, see [Set default agent script for agents](agent-scripts.md#set-default-agent-script-for-agents).
 
   > [!Note]
-  > Step 6 and 7 are optional, and applicable only when you've configured agent scripts and enabled the productivity pane. To learn more, see [Agent scripts](agent-scripts.md) and [Enable the productivity pane to provide guidance to agents](productivity-pane.md).
+  > Step 8 and 9 are optional, and applicable only when you've configured agent scripts. To learn more, see [Agent scripts](agent-scripts.md).
 
-8. Select **Save**.
+10. Select **Save**.
 
    > [!div class=mx-imgBorder]
    > ![Session template](media/session-template1.png "Session template")

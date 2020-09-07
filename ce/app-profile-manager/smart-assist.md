@@ -47,7 +47,7 @@ The smart assist feature can be enabled across all channels, such as Chat for Dy
 - Smart assist must be enabled.
 - One of the following:
     - AI-suggested similar cases and knowledge articles should be enabled by your administrator. This feature is currently available in preview mode only.
-    - Develop a smart assist bot and integrate it with Omnichannel for Customer Service. The smart-assist bot interprets the conversation context in real time and provides suggestions to agents. For information: [Build a smart assist bot](../developer/how-to/smart-assist-bot.md).
+    - Develop a smart assist bot and integrate it with Omnichannel for Customer Service. The smart-assist bot interprets the conversation context in real time and provides suggestions to agents. For information: [Build a smart assist bot](../omnichannel/developer/how-to/smart-assist-bot.md).
 
 ## Preview: Enable AI suggestions for similar cases and knowledge articles
 
@@ -65,7 +65,7 @@ To enable AI-suggested similar cases and knowledge articles, see [Enable AI sugg
 
 Create a bot user in the application to work as a smart assistant to the agent. A bot user is created as an application user and assigned the **Omnichannel agent** role. If your bot needs to search for knowledge base articles, then you need to provide either the **Customer Service Manager** or **Customer Service Representative** role.
 
-You can create an application user only in the web client. Use the bot application ID of the smart assist bot to create the bot user. For information: [Create a bot user](configure-bot.md#step-1-create-a-bot-user).
+You can create an application user only in the web client. Use the bot application ID of the smart assist bot to create the bot user. For information: [Create a bot user](../omnichannel/administrator/configure-bot.md#step-1-create-a-bot-user).
 
 ### Step 2: Add a smart assist bot to a work stream<a name="step-2-add-smart-assist-bot-to-a-workstream"></a>
 
@@ -90,7 +90,7 @@ You can add multiple bots to a work stream based on your business requirements.
 
 After you've created the agent script, you need to enable the productivity pane to display the smart-assist card to agents in Omnichannel for Customer Service.
 
-To enable the productivity pane, see [Enable the productivity pane to provide guidance to agents](productivity-pane.md).
+To enable the productivity pane, see [Enable the productivity pane to provide guidance to agents](../omnichannel/administrator/productivity-pane.md).
 
 After you've enabled the productivity pane, users can see the smart-assist cards on the productivity pane in Omnichannel for Customer Service.
 

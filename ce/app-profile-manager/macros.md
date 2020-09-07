@@ -296,7 +296,7 @@ Using the **View run history** option for a particular macro, you can see the co
 For example, you want to open a new form and save it after entering the fields. If the **Product** field in the form has **Surface** as the value, evaluate it as true and then perform the knowledge base article search with the search phrase as **Surface**. If it is evaluated as false, don't perform any further actions.
 
    > [!div class=mx-imgBorder] 
-   > ![Macro conditional builder](../media/macro-condition.png "Macro conditional builder")
+   > ![Macro conditional builder](../omnichannel/media/macro-condition.png "Macro conditional builder")
 
 ## Use the automation dictionary to pass macro context data parameters
 

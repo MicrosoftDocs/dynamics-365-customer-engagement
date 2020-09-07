@@ -1,6 +1,6 @@
 ---
-title: "Agent scripts in the Omnichannel Administration app | MicrosoftDocs"
-description: "Learn about agent scripts and how to configure them in the Omnichannel Administration app."
+title: "Agent scripts to configure | MicrosoftDocs"
+description: "Learn about agent scripts and how to configure them."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -44,7 +44,7 @@ Agent scripts reduce the human errors involved in the process, because agents kn
 
 - Ensure that agents and supervisors are assigned the **Productivity tools user** security role. To learn more, see Assign roles and enable users.
 
-## Step 1: Create agent scripts
+## Create agent scripts
 
 Create agent scripts in the Omnichannel Administration or Customer Service Hub app. The following procedure creates an example of an agent script for a chat session. You can modify this procedure for other types of sessions your agents are likely to encounter.
 
@@ -71,6 +71,9 @@ Create agent scripts in the Omnichannel Administration or Customer Service Hub a
     | Field | Description | Example Value |
     |--------------------|------------------------------|-------------------------------------------|
     | Name | Provide a name for the agent script step; this appears for the agent at runtime. You can use slugs for specifying the name of the step. To learn more, see [Slugs](automation-dictionary-keys.md#slugs-for-productivity-tools-macros-and-agent-scripts). | Example 1: Greet the customer. <br><br> Example 2: Hi {customer}  |
+    |Unique Name |A unique identifier in the <*prefix*>_<*name*> format.<br>**Important:** The following are required for the unique name:<br><ul><li> The prefix can only be alphanumeric and its length must be between 3 to 8 characters.</li> <li>An underscore must be there between the prefix and name.</li></ul>| Greet_script|
+    |Owner|By default, the signed in user is displayed as the owner.| Clay Roddy |
+    |Agent script | The agent script for which the script step is being created.| Chat session script|
     | Order | Specify the order number based on which step is displayed to the agent. | 1 |
     | Action Type | Select an action type from the list: <ul> <li> Text instruction </li> <li> Macro </li> <li> Script </li> |
     | Description | Describe the step briefly for your reference. | This step opens a draft email to send the customer links to knowledge articles. <br><br> **Note:** <br> This field appears only when you select the **Action Type** value as **Target Macro** or **Target script**. |
@@ -87,7 +90,7 @@ Create agent scripts in the Omnichannel Administration or Customer Service Hub a
 
 The agent script is now configured.
 
-## Step 2: Associate an agent script with a session template
+## Associate an agent script with a session template
 
 After you configure the agent script and add the field to a form, you need to associate the agent script with a session template so that the agent script will load for agents based on the type of session they've opened.
 
@@ -109,17 +112,6 @@ After you configure the agent script and add the field to a form, you need to as
 7. Select **Save**.
 
 The agent script is associated with the session template.
-
-## Step 3: Enable the productivity pane
-
-After you've created the agent script, you need to enable the productivity pane to display the script to agents in Omnichannel for Customer Service. For more information, see [Enable the productivity pane to provide guidance to agents](productivity-pane.md).
-
-> [!Note]
-> - If you don't create agent scripts and enable the productivity pane, users won't see the pane in Omnichannel for Customer Service. 
->
-> - We recommend that you remove the agent script control if you've customized a form and added agent script. If you don't remove the agent script control, agents will see the agent script control in the form and also in the productivity pane.
-
-<a name="set-default-agent-script-for-agents"></a>
 
 ## Set the default agent script for agents
 

@@ -37,7 +37,7 @@ Make sure you have the App profile manager administrator role. More information:
 
 ## Create an app profile
 
-1. Sign in to [Power Apps](www.https://make.powerapps.com).
+1. Sign in to [Power Apps](https://go.microsoft.com/fwlink/p/?linkid=2142083).
 2. Select the environment in which you want to create the app profiles.
 3. Do one of the following:
    - On the **Home** page, go to **Your apps** section.
@@ -75,7 +75,7 @@ For an app profile, you can add only one session template for each entity type. 
    > The toggle for channels will be enabled in the out-of-the-box app profile for Omnichannel for Customer Service.
 
 6. To add a third-party channel provider, in the **Voice channels** section, select **Add channel providers**, search for the configured channel, and select it.
-7. If a channel does not exist, select **Create a new channel provider in Unified Interface**. The channel configuration page opens on a new tab. More information: [Configure channel provider using app profile manager](..customer-service/channel-integration-framework/v2/configure-channel-provider-app-profile-manager)
+7. If a channel does not exist, select **Create a new channel provider in Unified Interface**. The channel configuration page opens on a new tab. More information: [Configure channel provider using app profile manager](..customer-service/channel-integration-framework/v2/configure-channel-provider-app-profile-manager.md)
 
    > [!NOTE]
    > Only telephony or voice channels are supported.
