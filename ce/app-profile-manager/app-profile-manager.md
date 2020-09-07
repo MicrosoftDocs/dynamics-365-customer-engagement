@@ -4,7 +4,7 @@ description: "Using app profile manager to create and manage app profiles."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 08/28/2020
+ms.date: 09/07/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -28,7 +28,6 @@ By default, the following app profiles are available out of the box for Customer
 
 - Omnichannel for Customer Service - default profile
 - Customer Service workspace - default profile
-<!-- [kabala] - The name of the app profile for CSW is wrong. It must be Customer Service workspace - default profile. Also, mention that the OC app profile will be available only customers buy either Chat for D365 or Digital messaging SKU.-->
 
 The app profile manager is available in Power Apps where you'll create the app profiles.
 
@@ -65,19 +64,11 @@ For an app profile, you can add only one session template for each entity type. 
    > [!div class=mx-imgBorder]
    > ![App profile session template](media/app-profile-session-template.png "App profile session template")
    
-   <!-- [kabala] - 1. Make it explicit with the that admins can't add session templates of type - Generic. 2. Also, add another note that only one session template per entity can be added. For example - one case entity session template, account, contact, work order, and so on. If admins add any session template of the entity type more than once, then the first entity session template will be considered for initating a session in the runtime. For example, you add **Case entity template - 1** and **Case entity template - 2** in the same order, then for initiating a session, **Case entity template - 1** will be considered. It is recommended that you add one session template per entity per app profile.-->
-
-   <!-- Neeraja: Currently, only entity type templates can be added. Therefore, reiterating the obvious is not required. Similarly, the app restricts adding a template for the same entity twice. Therefore, we need not draw attention to it. -->
-   
 4. Do the following on the **Productivity pane** tab:
    1. If you want to enable productivity tools, set the toggle to on for **Turn on productivity pane**.
    2. Select the default mode as collapsed or expanded.
-   3. In the **Productivity tools** section, set the toggle to on for **Smart assist tool configuration** and **Agent scripts** to allow access to smart assist configuration and agent scripts. <!-- [kabala] - Smart assist tool name is not correct. Also, for new app profiles SA might not. Pls reach out to Neerja Rewal/Sarang Suneri to get more clarity on the Smart assist behavior with new App profiles.-->
+   3. In the **Productivity tools** section, set the toggle to on for **Smart assist tool configuration** and **Agent scripts** to allow access to smart assist configuration and agent scripts.
 5. On the **Channels** tab, set the toggle to on for **All active channels**. The channels configured in Omnichannel for Customer Service will be available for the user to whom the profile is assigned.
-
-<!-- [Kabala] - Add a note. For channel realated configuration such channels, workstreams, a session and notification templates, admins need to configure them in OC admin app. Give a link to OC admin app-->
-
-<!-- Neeraja: In the section introduction, I have added the info that channels should be configured. -->
 
 
    > [!NOTE]
@@ -100,8 +91,6 @@ For an app profile, you can add only one session template for each entity type. 
 5. Select **Add**.
 
 ### Default profile assignment
-
-<!-- [kabala] - Every user (agent or supervisor) of CSW or OCS should have an app profile. However, if any user doesn't have an app profile assigned to them, then based on the security roles, we pick an app profile. If the user has a custom role, then we will provide CSW OOB ap profile -->
 
 When users are assigned roles corresponding to Customer Service workspace or Omnichannel for Customer Service, the default app profiles are assigned as follows.
 

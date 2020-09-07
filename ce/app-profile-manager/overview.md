@@ -48,8 +48,7 @@ The Power Apps home page for app profiles is an easy-to-use interface that helps
   > ![App profiles home page](media/app-profile-home.png "App profiles home page")
 
 > [!IMPORTANT]
-> Omnichannel for Customer Service is available only when you have the Chat for Dynamics 365 license.
-<!-- [kabala] - Not just chat for D365 but even digital messaging sku -->
+> [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 The options to access and manage the following entities are available on the left pane of the app profile manager:
 

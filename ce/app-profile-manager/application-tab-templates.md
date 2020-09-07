@@ -4,7 +4,7 @@ description: "Learn about managing application tab templates in Omnichannel Admi
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 08/28/2020
+ms.date: 09/07/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -12,12 +12,17 @@ ms.topic: article
 
 # Manage application tab templates
 
+[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-## Overview
+> [!IMPORTANT]
+>
+> - This feature is a preview, which means that it is made available to you before general availability so you can test and evaluate the preview and provide feedback to Microsoft.
+> - This preview may employ reduced or different privacy, security, or compliance commitments than a commercial version. As such, this preview is not meant to be used with any "live" or production Customer Data, Personal Data, or other data that is subject to heightened compliance requirements. Any use of "live" data is at your sole risk and it is your sole responsibility to notify your end users that they should not include sensitive information with their use of the Preview.
+> - This preview, and any support Microsoft may elect to provide, is provided "as-is," "with all faults," "as available," and without warranty. This preview is subject to the [Preview Terms](../legal/supp-dynamics365-preview.md).
 
-<!-- [kabala] - some of the over view specifically talks only about OC scenarios-->
+## Introduction
 
-Application tab template in Omnichannel Administration app provides the type of applications you want to open when a session is started. Each application type has a predefined set of parameters associated with it.
+An application tab template in Customer Service lets you specify the type of applications you want to open when a session is started. Each application type has a predefined set of parameters associated with it.
 
 The horizontal bar beneath the model-driven app navigation bar is called the application tab panel. Every customer session has at least one application tab that can't be closed; it is called **Anchor Tab**. That is, when a session is started, by default the system opens an application in the application tab panel. In addition, there may be few other applications that system opens by default based on the configuration.
 
@@ -28,50 +33,45 @@ For example, you can create the **Customer summary** application type and associ
 As an administrator, you can create multiple application tab templates.
 
   > [!Note]
-  > We recommend that you do not modify the out-of-the-box templates for your customizations; instead, create your own custom templates to avoid losing them during solution upgrades.
+  > You can't customize the out-of-the-box templates; instead, you'll need to create your own custom templates.
 
 ## Create an application tab template
 
-<!-- [kabala] - admins can create app tab templates from CSH SM and OC admin app.)--> 
-<!-- Neeraja: Right but currently, for CSw, the admins have to navigate from the app profile manager if they need to create the template, they do not have a navigation from within CSH to open the create new application tab experience. So, let's assume that whether admin comes from CSw or OCA, they will see Active Application Tab Templates page. Therefore, I am removing the orientation to navigation-->
+1. Sign in to [Power Apps](https://go.microsoft.com/fwlink/p/?linkid=2142083), and go to the app profile manager page.
+2. In the left pane, under Templates, select **Application tabs**. The Unified Interface page opens on a new tab.
+3. Select **New** in the **Active Application Tab Templates** page.
 
-1. Select **New** in the **Active Application Tab Templates** page.
-
-2. Specify the following in the **New Application Tab Template** page.
+4. Specify the following in the **New Application Tab Template** page.
 
     | Tab | Name | Value description | Example |
     |-----------|-------------------|-----------------------------------|-------------------------------------|
     | General | Name | The name of the application tab. This name wouldn't be visible for the agents at the run-time. | Knowledge article search |
-    | General | Unique Name | A unique identifier in the *<prefix>*_*<name>* format. <br>**IMPORTANT**<br> The following are required for the unique name: <ul><li>The prefix can only be alphanumeric and its length must be between 3 to 8 characters.</li><li> An underscore must be there between the prefix and name.</li></ul> | contoso_applicationtab |
+    | General | Unique Name | A unique identifier in the <*prefix*>_<*name*> format. <br>**IMPORTANT**<br> The following are required for the unique name: <ul><li>The prefix can only be alphanumeric and its length must be between 3 to 8 characters.</li><li> An underscore must be there between the prefix and name.</li></ul><br> You can select the light bulb icon, and then select **Apply** to verify whether the name you've entered meets the requirements. | contoso_application_tab |
     | General | Title | Provide a title for the application that you want the agents to see at the run-time. | Knowledge article search |
     | General | Page type | Select an application type from the list. |  Web Resource |
-    | General | Description | Provide a description for your reference. | The application type is used to display KB Search Page. |
+    | General | Description | Provide a description for your reference. | The application type is used to display knowledge base search page. |
 
-3. Select **Save** to save the application tab template. After you save, the parameters for the application type you selected appear in the **Parameters** section.
+5. Select **Save**. After you save the template, the parameters for the application type that you selected appear in the **Parameters** section.
 
     Whenever you edit the application tab template, save the changes so you see the corresponding fields in the **Parameters** section.
 
-4. Select the **Value** field of a parameter to edit and provide the value. See the [Application types in the application templates](#application-types) for the parameters.
+6. Select the **Value** field of a parameter to edit and provide the value. See the [Application types in the application templates](#application-types) for the parameters.
 
-5. Select **Save**.
+7. Select **Save**.
 
 ## Application types
 
 The types of applications available are as follows:
 
-- Entity List
-- Entity Record
-- Web Resource
+- Entity list
+- Entity record
+- Web resource
 - Control
 - Dashboard
 - Search
 - Third Party Website
 
-
-
-<!-- [kabala] - Reach out to Aravindan to check which app tab types are only applicable to OC and pls call them out accordingly.) -->
-
-### Custom control
+### Control
 
 The parameters available for the custom control application type are as follows:
 
@@ -91,7 +91,7 @@ The application type is used to display the dashboard as an application. The par
 | entityType  | incident | Entity type of the record. <br> Type = String |
 | type | system | The value is either `system` or `user`. <br> Type = String |
 
-### Entity view
+### Entity list
 
 The application type is used to display an entity view that defines how a list of records for a specific entity is displayed in the Omnichannel application. The parameters available for the entity view application type are as follows:
 
@@ -116,7 +116,7 @@ The parameters available for the entity record application type are as follows:
 | relationship |  | Relationship object of the record. <br> Type = JSON Object |
 | selectStageId | | GUID of the selected stage in business process instance.  <br> Type = String |
 
-### Entity search
+### Search
 
 The parameters available for the entity search application type are as follows:
 
@@ -135,7 +135,7 @@ The application type is used to display Web resources that represent files, whic
 | webresourceName | `msdyn_kbsearchpagehost.html` |Name of the web resource to open. <br> Type = String|
 
 
-### Website Url
+### Third party website
 
 The application type is used to display first-party and third-party websites as an application. You can use this type to host only the websites that are compatible for iframe hosting. The parameters available for the website URL application type are as follows:
 

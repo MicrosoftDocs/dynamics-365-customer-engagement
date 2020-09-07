@@ -4,7 +4,7 @@ description: "Learn about agent scripts and how to configure them in the Omnicha
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 08/28/2020
+ms.date: 09/07/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -12,9 +12,15 @@ ms.topic: article
 
 # Preview: Guide agents with scripts
 
-[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-## Overview of agent scripts
+> [!IMPORTANT]
+>
+> - This feature is a preview, which means that it is made available to you before general availability so you can test and evaluate the preview and provide feedback to Microsoft.
+> - This preview may employ reduced or different privacy, security, or compliance commitments than a commercial version. As such, this preview is not meant to be used with any "live" or production Customer Data, Personal Data, or other data that is subject to heightened compliance requirements. Any use of "live" data is at your sole risk and it is your sole responsibility to notify your end users that they should not include sensitive information with their use of the Preview.
+> - This preview, and any support Microsoft may elect to provide, is provided "as-is," "with all faults," "as available," and without warranty. This preview is subject to the [Preview Terms](../legal/supp-dynamics365-preview.md).
+
+## Introduction
 
 In the customer service industry, agents need to deal with continuous updates both to products and processes. Even after agents have been rigorously trained, recurrent human errors and delays in service delivery occur due to a lack of guidance in real-time customer scenarios. These issues lead to lower productivity and thus negatively affect customer satisfaction levels. To avoid errors and ensure that processes are adhered to, agents need guidance.
 
@@ -38,34 +44,27 @@ Agent scripts reduce the human errors involved in the process, because agents kn
 
 - Ensure that agents and supervisors are assigned the **Productivity tools user** security role. To learn more, see Assign roles and enable users.
 
-## Walk-through to enable agent scripts
-
-[Step 1: Create agent scripts](#step-1-create-agent-scripts)
-
-[Step 2: Associate an agent script with a session template](#step-2-associate-an-agent-script-with-a-session-template)
-
-[Step 3: Enable the productivity pane](#step-3-enable-the-productivity-pane)
-
 ## Step 1: Create agent scripts
 
-First, you need to create agent scripts in the Omnichannel Administration or Customer Service Hub app. The following procedure creates an example of an agent script for a chat session. You can modify this procedure for other types of sessions your agents are likely to encounter.
+Create agent scripts in the Omnichannel Administration or Customer Service Hub app. The following procedure creates an example of an agent script for a chat session. You can modify this procedure for other types of sessions your agents are likely to encounter.
 
-1. Sign in to Power Apps, and go to the app profile manager page.
-2. In the left pane, under **Productivity**, select **Agent scripts**. The Unified Interface opens on a new tab.
+1. Sign in to [Power Apps](https://go.microsoft.com/fwlink/p/?linkid=2142083), and go to the app profile manager page.
+2. In the left pane, under **Productivity**, select **Agent scripts**. The Unified Interface page opens on a new tab.
 
-3. On the **Active Agent scripts** page, select **New**.
+3. On the page that appears, select **New**.
 
 4. On the **New Agent script** page, specify the following:
 
     | Field | Description | Value |
     |------------|------------------------------|-------------------|
-    | Name | Provide a name for the agent script. | Chat session script |
-    | Language | Select a language from the list. The languages that are enabled in Common Data Service appear in the list. | English |
-    | Description | Describe the agent script. | This agent script is used for chat sessions. |
+    | Name | A name for the agent script. | Chat session script |
+    | Unique Name | A unique identifier in the <*prefix*>_<*name*> format.<br>**Important:** The following are required for the unique name:<br><ul><li> The prefix can only be alphanumeric and its length must be between 3 to 8 characters.</li> <li>An underscore must be there between the prefix and name.</li></ul> |Contoso_script|
+    | Language | A language from the list. The languages that are enabled in Common Data Service appear in the list. | English |
+    | Description | Description for the agent script. | This agent script is used for chat sessions. |
 
 5. Select **Save**. The **Agent script steps** appears.
 
-6. In the **Agent script steps** section, select **+ New Agent script step**. **Quick Create: Agent script step** appears.
+6. In the **Agent script steps** section, select **New Agent script step**. **Quick Create: Agent script step** appears.
 
 7. Specify the following in the quick-create form.
 
@@ -79,15 +78,12 @@ First, you need to create agent scripts in the Omnichannel Administration or Cus
     | Target macro | Type the name of the configured macro in the text box, and then select the macro from the lookup results. <br><br> **Note:** <br> This field appears only if you select the **Macro** value for the **Action Type** field. | Email |
     | Target script | Type the name of the configured script in the text box, and then select the script from the lookup results. <br><br> **Note:** <br> This field appears only if you select the **Script** value for the **Action Type** field. | Close the session |
 
-    > [!div class=mx-imgBorder] 
-    > ![Quick create: Agent script - Text](../media/create-agent-script2.png "Quick create: Agent script text step")
-
 8. Select **Save and Close** to add, save, and close the quick-create form.
 
 9.  Select **Save** to save the changes.
 
     > [!div class=mx-imgBorder] 
-    > ![Agent script](../media/create-agent-script1.png "Agent script")
+    > ![Agent script](media/agent-script.png "Agent script")
 
 The agent script is now configured.
 
@@ -108,7 +104,7 @@ After you configure the agent script and add the field to a form, you need to as
 6. In the **Look for Records** box, select the search icon. Select the agent script from the list, and then select **Add**.
 
     > [!div class=mx-imgBorder] 
-    > ![Associate an agent script](../media/associate-agent-script.png "Associate an agent script")
+    > ![Associate an agent script](../omnichannel/media/associate-agent-script.png "Associate an agent script")
 
 7. Select **Save**.
 
@@ -144,7 +140,7 @@ You can build the expression in the **Agent scripts** tab in the sessions templa
 4. Set the **Enable build expression** toggle to **Yes**, and then select **Build Expression** to define the expression. The **Expression builder** page is displayed.
 
     > [!div class=mx-imgBorder] 
-    > ![Build expression](../media/agent-script-build-expression.png "Build expression")
+    > ![Build expression](../omnichannel/media/agent-script-build-expression.png "Build expression")
 
 5. Select the **Condition** step, and then create the condition.
 
@@ -153,12 +149,12 @@ You can build the expression in the **Agent scripts** tab in the sessions templa
 7. Select the **Customer Service** tab, and then select **Set default agent script**.
 
     > [!div class=mx-imgBorder] 
-    > ![Set default agent script](../media/agent-script-build-expression2.png "Set default agent script")
+    > ![Set default agent script](../omnichannel/media/agent-script-build-expression2.png "Set default agent script")
 
 8. Select a script from the **Agent script** list.
 
     > [!div class=mx-imgBorder] 
-    > ![Set default agent script](../media/agent-script-set-default.png "Set default agent script")
+    > ![Set default agent script](../omnichannel/media/agent-script-set-default.png "Set default agent script")
 
 9. Follow steps 5 through 8 for the **If false** step.
 
@@ -178,7 +174,7 @@ To learn more, see [Use the automation dictionary to pass data parameter keys](a
 
 ### See also
 
-[Agent scripts](../agent/agent-oc/oc-agent-scripts.md)<br>
+[Agent scripts](../omnichannel/agent/agent-oc/oc-agent-scripts.md)<br>
 [Macros](macros.md)<br>
 [Smart assist](smart-assist.md)<br>
 [Session templates](session-templates.md)

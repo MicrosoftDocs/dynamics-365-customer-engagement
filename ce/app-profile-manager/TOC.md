@@ -1,7 +1,8 @@
 # [App profile manager](overview.md)
 ## [Roles and permissions](security-roles.md)
 ## [Use app profile manager](app-profile-manager.md)
-## Settings
+## [Settings](settings.md)
+
 ## Templates
 ### [Manage session templates](session-templates.md)
 ### [Manage application tab templates](application-tab-templates.md)

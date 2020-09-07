@@ -4,13 +4,21 @@ description: "Learn about managing session templates in Omnichannel Administrati
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 08/28/2020
+ms.date: 09/07/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
 ---
 
 # Manage session templates
+
+[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
+> [!IMPORTANT]
+>
+> - This feature is a preview, which means that it is made available to you before general availability so you can test and evaluate the preview and provide feedback to Microsoft.
+> - This preview may employ reduced or different privacy, security, or compliance commitments than a commercial version. As such, this preview is not meant to be used with any "live" or production Customer Data, Personal Data, or other data that is subject to heightened compliance requirements. Any use of "live" data is at your sole risk and it is your sole responsibility to notify your end users that they should not include sensitive information with their use of the Preview.
+> - This preview, and any support Microsoft may elect to provide, is provided "as-is," "with all faults," "as available," and without warranty. This preview is subject to the [Preview Terms](../legal/supp-dynamics365-preview.md).
 
 ##  Introduction
 
@@ -46,18 +54,17 @@ The following out-of-the-box session templates are for use in the Omnichannel fo
   
 ## Create a session template
 
-1. Sign in to make.powerapps.com go to app profile amanger.
+1. Sign in to [Power Apps](https://go.microsoft.com/fwlink/p/?linkid=2142083), and go to the app profile manager page.
+2. In the left pane, select **Session templates** under Customer Service workspace or Omnichannel Administration. The Unified Interface page opens on a new tab.
 
-2. In the side pane, select Session templates under Customer Service workspace or Omnichannel for Customer Serivce.
+3. Select **New** on the **Active Session Templates** page.
 
-2. Select **New** on the **Active Session Templates** page.
-
-2. Specify the following on the **New Session Templates** page.
+4. Specify the following on the **New Session Templates** page.
 
     | Tab | Name | Value description | Example |
     |-----------|-------------------|-----------------------------------|-------------------------------------|
     | General | Name | Specify the name of the session. This name won't be visible to the agents at the runtime. | Chat session |
-    | General | Unique Name | Specify a unique name with a prefix. The prefix and suffix should be separated by an underscore. | msdyn_chat_custom |
+    | General | Unique Name | A unique identifier in the <*prefix*>_<*name*> format. <br>**IMPORTANT**<br> The following are required for the unique name: <ul><li>The prefix can only be alphanumeric and its length must be between 3 to 8 characters.</li><li> An underscore must be there between the prefix and name.</li></ul><br> You can select the light bulb icon, and then select **Apply** to verify whether the name you've entered meets the requirements. | msdyn_chat_custom |
     | General | Type | Select one of the following:<br> <ul><li> **Entity:** If you select entity, the **Entity** field is displayed.</li><li>**Generic:** Select when the template is  required to be assigned to any channel. </li>| Entity|
     | General | Entity | Select an entity from the list.<br> **Note:** The option is displayed only when **Type** is entity. | Case |
     | General | Title | Provide the title of the session that you want agents to see at the runtime. | {customerName} |
@@ -66,15 +73,15 @@ The following out-of-the-box session templates are for use in the Omnichannel fo
     | General | Owner | Search and select an owner. By default, the user who is creating the template is set as the owner | Alan Steiner |
     | General | Anchor tab | Select an application from the list. The application is opened by default when the session starts and can't be closed. <br> **Note:** The anchor tab option is displayed only when **Type** is generic. | Customer summary |
 
-3. Select **Save**. After you save, the **Additional tabs** option appears on the page.
+5. Select **Save**. After you save, the **Additional tabs** option appears on the page.
 
-4. Select **Add Existing Application Tab Template** to add additional application tabs that you want to be opened when a session is started. Agents can't close this application tab. The **Lookup Records** pane appears.
+6. Select **Add Existing Application Tab Template** to add additional application tabs that you want to be opened when a session is started. Agents can't close this application tab. The **Lookup Records** pane appears.
 
-5. Type the application tab names in the search box and select the search icon. A list of records appears. Select the application tab and select **Add**. The application tab is added to the session.
+7. Type the application tab names in the search box and select the search icon. A list of records appears. Select the application tab and select **Add**. The application tab is added to the session.
 
-6. Select the **Agent scripts** tab, and set the **Enable build expression** toggle to **Yes** to define the expression to set an agent script as default for a particular session template.
+8. Select the **Agent scripts** tab, and set the **Enable build expression** toggle to **Yes** to define the expression to set an agent script as default for a particular session template.
 
-7. Build the expression, and then select **Save and close**. To learn more, see [Set default agent script for agents](agent-scripts.md#set-default-agent-script-for-agents).
+9. Build the expression, and then select **Save and close**. To learn more, see [Set default agent script for agents](agent-scripts.md#set-default-agent-script-for-agents).
 
   > [!Note]
   > Step 6 and 7 are optional, and applicable only when you've configured agent scripts and enabled the productivity pane. To learn more, see [Agent scripts](agent-scripts.md) and [Enable the productivity pane to provide guidance to agents](productivity-pane.md).
