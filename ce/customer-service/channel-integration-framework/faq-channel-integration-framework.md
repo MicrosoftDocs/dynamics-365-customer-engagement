@@ -15,6 +15,34 @@ ms.custom:
 
 # Frequently asked questions (FAQs) for Dynamics 365 Channel Integration Framework
 
+## September 2020 preview
+
+### What are the new changes to Channel Integration Framework app?
+
+Channel Integration Framework model-driven app is only applicable to configure channel providers for single session Dynamics 365 model-driven apps. The templates (Session, Notification, and Application tab) will not be available in the Channel Integration Framework app.
+
+### Where do I configure voice channel provider for multisession apps?
+
+Organizations can configure voice channel providers from the app profile manager feature.
+
+### My organization is using Channel Integration Framework version 1.0. Does the change impact my organization?
+
+No. There is no impact for Channel Integration Framework version 1.0 users. You can continue to use the Channel Integration Framework app to configure channel providers for single session Dynamics 365 model-driven app.
+	
+### My organization is using voice channel configured using Channel Integration Framework version 2.0. Does the change impact my organization?
+
+Yes. From your channel provider record, you will not be able to see the following two grids:
+
+- Select the Unified Interface Apps for the Channel
+- Select the Roles for the Channel
+	
+### How do I choose the Unified Interface apps for the voice channel provider record?
+
+You don't need to choose the Unified Interface apps. The telephony channel providers are associated with app profiles, which works in the context of the multisession apps such as Omnichannel for Customer Service and Customer Service workspace.
+	
+###	How do I select roles for the voice channel provider record?
+
+Telephony channel providers are associated with app profiles, which in turn are assigned to users in your organization. With the new changes, you need to assign the app profiles to the users who should have access to the telephony channel provider.
 
 ## General FAQs
 
@@ -104,32 +132,7 @@ This is to make sure that updated data is available for the agent at all times.
 
 Yes, you can integrate custom messaging channels using Direct Line Bot. More information: [Bring your own channel](../../omnichannel/developer/how-to/bring-your-own-channel.md).
 
-### What are the new changes to Channel Integration Framework app?
 
-Channel Integration Framework model-driven app is only applicable to configure channel providers for single session Dynamics 365 model-driven apps. The templates (Session, Notification, and Application tab) will not be available in the Channel Integration Framework app from October 2020 update.
-
-### Where do I configure voice channel provider for multisession apps?
-
-Organizations can configure voice channel providers from the app profile manager feature.
-
-### My organization is using Channel Integration Framework version 1.0. Does the change impact my organization?
-
-No. There is no impact for Channel Integration Framework version 1.0 users. You can continue to use the Channel Integration Framework app to configure channel providers for single session Dynamics 365 model-driven app.
-	
-### My organization is using voice channel configured using Channel Integration Framework version 2.0. Does the change impact my organization?
-
-Yes. From your channel provider record, you will not be able to see the following two grids:
-
-- Select the Unified Interface Apps for the Channel
-- Select the Roles for the Channel
-	
-### How do I choose the Unified Interface apps for the voice channel provider record?
-
-You don't need to choose the Unified Interface apps. The telephony channel providers are associated with app profiles, which works in the context of the multisession apps such as Omnichannel for Customer Service and Customer Service workspace.
-	
-###	How do I select roles for the voice channel provider record?
-
-Telephony channel providers are associated with app profiles, which in turn are assigned to users in your organization. With the new changes, you need to assign the app profiles to the users who should have access to the telephony channel provider.
 
 ## See also
 
