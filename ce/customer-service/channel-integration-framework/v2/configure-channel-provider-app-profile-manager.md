@@ -23,7 +23,7 @@ ms.custom:
 > - This preview may employ reduced or different privacy, security, or compliance commitments than a commercial version. As such, this preview is not meant to be used with any "live" or production Customer Data, Personal Data, or other data that is subject to heightened compliance requirements. Any use of "live" data is at your sole risk and it is your sole responsibility to notify your end users that they should not include sensitive information with their use of the Preview.
 > - This preview, and any support Microsoft may elect to provide, is provided "as-is," "with all faults," "as available," and without warranty. This preview is subject to the [Preview Terms](../../../legal/supp-dynamics365-preview.md).
 
-The app profile manager is an out-of-the-box solution that lets you create targeted app experiences for agents and supervisors. More information: [App profile manager](../../../../app-profile-manager/overview.md).
+The app profile manager is an out-of-the-box solution that lets you create targeted app experiences for agents and supervisors. More information: [App profile manager](../../../app-profile-manager/overview.md).
 
 Channel Integration Framework version 2.0 is for multi-session applications such as Omnichannel for Customer Service and Customer Service workspace. Given below are the steps to configure a new channel provider using the app profile manager. To configure a third-party voice channel provider with the multi-session application, perform the following steps.
 
@@ -67,6 +67,6 @@ Channel Integration Framework version 2.0 is for multi-session applications such
   
 ## See also
 
-[App profile manager](../../../../app-profile-manager/overview.md)<br />
+[App profile manager](../../../app-profile-manager/overview.md)<br />
 [Enable outbound communication (ClickToAct)](enable-outbound-communication-clicktoact.md)<br />
 [Microsoft.CIFramework.getEnvironment](../v2/reference/microsoft-ciframework/getEnvironment.md)
