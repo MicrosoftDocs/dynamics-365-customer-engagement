@@ -40,7 +40,7 @@ If your administrator has enabled the AI-suggested similar cases and knowledge a
 - Smart assist feature must be enabled by your administrator. More information: [Smart assist in Customer Service Workspace](csw-productivity-pane.md#smart-assist)
 - The Productivity tools user role must be assigned to you.
 
-## Understand the knowledge article components in Smart assist
+## Understand the knowledge article components in smart assist
 
 When you open an active case to work on it, up to three top knowledge articles that match the case context are displayed in the **Smart assist** pane.
 
@@ -62,7 +62,7 @@ The following table lists the explanation of the smart assist card for AI-sugges
 
 If no knowledge articles match, then the card displays an appropriate message, such as "No suggestions found for knowledge article."
 
-## Understand the similar cases components in Smart assist
+## Understand the similar cases components in smart assist
 
 When you open an active case to work on it, up to top three resolved cases that you have access to are suggested by the AI model and displayed in the **Smart assist** pane. By default, the suggestions are made based on case title and description. Your administrator may change the settings to use other text fields for the AI model to get the case context.
 

@@ -24,7 +24,6 @@ Use the arrow to set the mode of the productivity pane.
 > [!div class='mx-imgBorder']
 > ![Productivity pane](../../media/productivity-pane-control.PNG "Productivity pane in collapsed mode")
 
-
 **Collapsed mode**
 
 > [!div class='mx-imgBorder']
