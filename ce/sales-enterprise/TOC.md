@@ -170,7 +170,7 @@
 
 ## Developer Guide
 
-### [Get started](../sales-enterprise/developer/developer-guide.md)
+### [Resources for developers](../sales-enterprise/developer/developer-guide.md)
 
 ### Sales entities
 
@@ -197,7 +197,6 @@
 #### [Enable sales order processing integration](../sales-enterprise/developer/enable-sales-order-processing-integration.md)
 
 ### Marketing entities 
-
 #### [Marketing entities (campaign, list)](../customerengagement/on-premises/developer/marketing-entities-campaign-list.md)
 #### [Campaign entities](../customerengagement/on-premises/developer/campaign-entities.md)
 #### [List (marketing list) entity](../customerengagement/on-premises/developer/list-marketing-list-entity.md)
@@ -239,15 +238,6 @@
 #### [Overview](../sales-enterprise/developer/reference/custom-actions-manual-forecasting.md)
 #### [DeleteOQOILineWithSkipPricingCalculation](../sales-enterprise/developer/reference/custom-actions/deleteoqoilinewithskippricingcalculation.md)
 
-### Playbooks
-#### [Entity reference](../sales-enterprise/developer/reference/playbook-entity-reference.md)
-##### [msdyn_playbookinstance](../sales-enterprise/developer/reference/playbooks-entities/msdyn_playbookinstance.md)
-##### [msdyn_playbookactivity](../sales-enterprise/developer/reference/playbooks-entities/msdyn_playbookactivity.md)
-##### [msdyn_playbookactivityattribute](../sales-enterprise/developer/reference/playbooks-entities/msdyn_playbookactivityattribute.md)
-##### [msdyn_playbookcategory](../sales-enterprise/developer/reference/playbooks-entities/msdyn_playbookcategory.md)
-##### [msdyn_playbooktemplate](../sales-enterprise/developer/reference/playbooks-entities/msdyn_playbooktemplate.md)
-##### [msdyn_callablecontext](../sales-enterprise/developer/reference/playbooks-entities/msdyn_callablecontext.md)
-
 ### Entity reference
 #### [Account](../customerengagement/on-premises/developer/entities/account.md)
 #### [BulkOperation](../customerengagement/on-premises/developer/entities/bulkoperation.md)
@@ -276,6 +266,14 @@
 #### [OpportunityClose](../customerengagement/on-premises/developer/entities/opportunityclose.md)
 #### [OpportunitySalesProcess](../customerengagement/on-premises/developer/entities/opportunitysalesprocess.md)
 #### [OrderClose](../customerengagement/on-premises/developer/entities/orderclose.md)
+#### Playbooks
+##### [Entity reference](../sales-enterprise/developer/reference/playbook-entity-reference.md)
+###### [msdyn_playbookinstance](../sales-enterprise/developer/reference/playbooks-entities/msdyn_playbookinstance.md)
+###### [msdyn_playbookactivity](../sales-enterprise/developer/reference/playbooks-entities/msdyn_playbookactivity.md)
+###### [msdyn_playbookactivityattribute](../sales-enterprise/developer/reference/playbooks-entities/msdyn_playbookactivityattribute.md)
+###### [msdyn_playbookcategory](../sales-enterprise/developer/reference/playbooks-entities/msdyn_playbookcategory.md)
+###### [msdyn_playbooktemplate](../sales-enterprise/developer/reference/playbooks-entities/msdyn_playbooktemplate.md)
+###### [msdyn_callablecontext](../sales-enterprise/developer/reference/playbooks-entities/msdyn_callablecontext.md)
 #### [PriceLevel](../customerengagement/on-premises/developer/entities/pricelevel.md)
 #### [Product](../customerengagement/on-premises/developer/entities/product.md)
 #### [ProductAssociation](../customerengagement/on-premises/developer/entities/productassociation.md)
