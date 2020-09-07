@@ -281,6 +281,7 @@
 #### [ProductSubstitute](../customerengagement/on-premises/developer/entities/productsubstitute.md)
 #### [Quote](../customerengagement/on-premises/developer/entities/quote.md)
 #### [QuoteClose](../customerengagement/on-premises/developer/entities/quoteclose.md)
+#### [QuoteDetail](../customerengagement/on-premises/developer/entities/quotedetail.md)
 #### [RollupField](../customerengagement/on-premises/developer/entities/rollupfield.md)
 #### [SalesLiterature](../customerengagement/on-premises/developer/entities/salesliterature.md)
 #### [SalesLiteratureItem](../customerengagement/on-premises/developer/entities/salesliteratureitem.md)
@@ -288,7 +289,6 @@
 #### [SalesOrderDetail](../customerengagement/on-premises/developer/entities/salesorderdetail.md)
 #### [UoM](../customerengagement/on-premises/developer/entities/uom.md)
 #### [UoMSchedule](../customerengagement/on-premises/developer/entities/uomschedule.md)
-
 
 
 ### Action Reference
