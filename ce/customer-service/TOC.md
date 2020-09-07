@@ -14,14 +14,18 @@
 ## User Guides
 
 ### Customer Service workspace
-#### [Introduction to Customer Service workspace](csw-overview.md)
-#### [Customer Service workspace system requirements](customer-service-workspace-system-requirements.md)
-#### [Overview of the productivity pane](csw-productivity-pane.md)
-#### [View AI suggested similar cases and knowledge articles](csw-view-ai-suggested-cases-knowledge-articles.md)
+
+#### Agent and supervisor experience
+##### [Introduction to Customer Service workspace](csw-overview.md)
+##### [Customer Service workspace system requirements](customer-service-workspace-system-requirements.md)
+##### [Overview of the productivity pane](csw-productivity-pane.md)
+##### [View AI suggested similar cases and knowledge articles](csw-view-ai-suggested-cases-knowledge-articles.md)
 
 ### Customer Service Hub
 #### [Introduction to Customer Service Hub](user-guide-customer-service-hub.md)
 #### [Learn the basics](customer-service-hub-user-guide-basics.md)
+
+#### [App profile manager for Customer Service workspace](../app-profile-manager/overview.md)
 
 #### Work with email
 ##### [Using Email](customer-service-hub-user-guide-email-overview.md)
