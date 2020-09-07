@@ -169,12 +169,45 @@
 ### [Integrate a sample softphone with Dynamics 365 Sales](sample-softphone-integration.md)
 
 ## Developer Guide
+
 ### [Get started](../sales-enterprise/developer/developer-guide.md)
-### [Enable sales order processing integration](../sales-enterprise/developer/enable-sales-order-processing-integration.md)
+
+### Sales entities
+
+#### [Sales entities (lead, opportunity, competitor, quote, order, invoice)](../customerengagement/on-premises/developer/sales-entities-lead-opportunity-competitor-quote-order-invoice.md)
+
+#### [Competitor entity](../customerengagement/on-premises/developer/competitor-entity.md)
+#### Lead entity
+##### [About Lead entity](../customerengagement/on-premises/developer/lead-entity.md)
+##### [Sample: Qualify a lead](../customerengagement/on-premises/developer/sample-qualify-lead.md)
+#### Opportunity entity
+##### [About Opportunity entity](../customerengagement/on-premises/developer/opportunity-entities.md)
+##### [Create an opportunity](../customerengagement/on-premises/developer/create-opportunity.md)
+##### [Convert an opportunity to a quote, sales order or invoice](../customerengagement/on-premises/developer/convert-opportunity-quote-sales-order-invoice.md)
+##### [Sample: Create an opportunity (early bound)](../customerengagement/on-premises/developer/sample-create-opportunity-early-bound.md)
+##### [Sample: Retrieve an opportunity (early bound)](../customerengagement/on-premises/developer/sample-retrieve-opportunity-early-bound.md)
+##### [Sample: Convert an opportunity to a quote (early bound)](../customerengagement/on-premises/developer/sample-convert-opportunity-quote-early-bound.md)
+
+#### [Quote, order, and invoice entities]
+##### [About Quote, order, and invoice entities](../customerengagement/on-premises/developer/quote-order-invoice-entities.md)
+##### [Sample: Set negative prices in opportunities, quotes, and sales orders](../customerengagement/on-premises/developer/sample-set-negative-prices-opportunities-quotes-sales-orders.md)
+##### [Sample: Process quotes, sales orders and invoices](../customerengagement/on-premises/developer/sample-process-quotes-sales-orders-invoices.md)
+##### [Sample: Fulfill a sales order](../customerengagement/on-premises/developer/sample-fulfill-sales-order.md)
+
+#### [Enable sales order processing integration](../sales-enterprise/developer/enable-sales-order-processing-integration.md)
+
+### Marketing entities 
+
+#### [Marketing entities (campaign, list)](../customerengagement/on-premises/developer/marketing-entities-campaign-list.md)
+#### [Campaign entities](../customerengagement/on-premises/developer/campaign-entities.md)
+#### [List (marketing list) entity](../customerengagement/on-premises/developer/list-marketing-list-entity.md)
+#### [Sample: Distribute a quick campaign](../customerengagement/on-premises/developer/sample-distribute-a-quick-campaign.md)
+#### [Sample: Distribute campaign activities to dynamic and static lists](../customerengagement/on-premises/developer/sample-distribute-campaign-activities-dynamic-static-lists.md)
+#### [Sample: Distribute campaign activities to qualified marketing list](../customerengagement/on-premises/developer/sample-distribute-campaign-activities-qualified-marketing-list.md)
+
 ### Forecasting
 #### [msdyn_ForecastApi](../sales-enterprise/developer/reference/custom-actions/msdyn_ForecastApi.md)
-### Troubleshooting
-#### [Custom plugin handling through shared variable](../sales-enterprise/developer/custom-plugin-handling-shared-variable.md)
+
 ### Custom actions
 #### [Overview](../sales-enterprise/developer/reference/custom-actions-manual-forecasting.md)
 #### [DeleteOQOILineWithSkipPricingCalculation](../sales-enterprise/developer/reference/custom-actions/deleteoqoilinewithskippricingcalculation.md)
@@ -187,8 +220,12 @@
 ##### [msdyn_playbookcategory](../sales-enterprise/developer/reference/playbooks-entities/msdyn_playbookcategory.md)
 ##### [msdyn_playbooktemplate](../sales-enterprise/developer/reference/playbooks-entities/msdyn_playbooktemplate.md)
 ##### [msdyn_callablecontext](../sales-enterprise/developer/reference/playbooks-entities/msdyn_callablecontext.md)
+
 ### Action Reference
 #### [RecalculatePrice Action](../sales-enterprise/developer/reference/recalculateprice-action.md)
+
+### Troubleshooting
+#### [Custom plugin handling through shared variable](../sales-enterprise/developer/custom-plugin-handling-shared-variable.md)
 
 # Resources for other Sales apps
 ## [Help resources for Dynamics 365 Sales (Professional)](../sales-professional/help-hub.md)
