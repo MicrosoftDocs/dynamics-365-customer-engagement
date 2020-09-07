@@ -47,7 +47,7 @@ Make sure you have the App profile manager administrator role. More information:
 6. On the **App profile manager** page, select **New profile**.
 7. On the **New profile** pane, specify the following:
    - **Name:** The app profile name.
-   - **Unique name:** A unique identifier in the *<prefix>*_*<name>* format.
+   - **Unique name:** A unique identifier in the <*prefix*>_<*name*> format.
      > [!IMPORTANT]
      > The following are required for the unique name:
      > - The prefix can only be alphanumeric and its length must be between 3 to 8 characters.

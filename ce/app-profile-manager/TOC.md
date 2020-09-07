@@ -12,6 +12,8 @@
 ### [Manage agent scripts](agent-scripts.md)
 ### [Manage macros](macros.md)
 
+## [Readme](https://go.microsoft.com/fwlink/p/?linkid=2141982)
+
 # [Customer Service workspace](../customer-service/csw-overview.md)
 # [Omnichannel for Customer Service](../omnichannel/omnichannel-customer-service-guide.md)
 # [Dynamics 365 Channel Integration Framework Guide](../customer-service/channel-integration-framework/channel-integration-framework)

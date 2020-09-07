@@ -4,7 +4,7 @@ description: "Learn how to use smart assist feature in the Omnichannel for Custo
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 09/04/2020
+ms.date: 09/07/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -20,9 +20,11 @@ Smart assist is an intelligent assistant that provides real-time recommendations
 
 If your administrator has enabled the Productivity pane, then the productivity pane appears and on which the smart assist cards appear. By default, the productivity pane is enabled out of the box.
 
-## Preview: AI-based suggestions for knowledge articles and similar cases
+## Preview: AI-suggestions for knowledge articles and similar cases
 
-Smart assist comes with a set of pre-trained natural language understanding models that help agents find relevant knowledge articles or similar cases quickly, based on the context of ongoing conversation that your agents are handling. Your administrator can enable AI-suggested similar cases and knowledge articles through a single click. These suggestions are displayed in real time based on the conversation context.
+[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
+
+Smart assist comes with a set of pre-trained natural language understanding models that help agents find relevant knowledge articles or similar cases quickly, based on the context of ongoing conversations that your agents are handling. Your administrator can enable AI-suggested similar cases and knowledge articles through a single click. These suggestions are displayed in real time based on the conversation context.
 > [!div class=mx-imgBorder]
 > ![AI-based suggestions](../../media/ai-based-suggestions-oc.png "AI-based suggestions")
 
@@ -47,7 +49,7 @@ The following table lists the explanation of the smart assist card for AI-sugges
 
 ### Understand the similar cases components in smart assist
 
-When you are interacting with a customer in an ongoing conversation, up to three top similar cases that match the conversation context are displayed in the **Smart assist** pane. The suggestions are dynamically refreshed based on the conversation context. 
+When you are interacting with a customer in an ongoing conversation, up to three top similar cases that match the conversation context are displayed in the **Smart assist** pane. The suggestions are dynamically refreshed based on the conversation context.
 
 > [!div class=mx-imgBorder]
 > ![AI-suggested similar cases](../../media/ai-suggested-similar-cases.png "AI-suggested similar cases")
