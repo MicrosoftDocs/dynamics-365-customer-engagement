@@ -1,6 +1,6 @@
 ---
-title: "Manage session templates in Omnichannel Administration app | MicrosoftDocs"
-description: "Learn about managing session templates in Omnichannel Administration app"
+title: "Manage session templates in Customer Service workspace and Omnichannel Administration app | MicrosoftDocs"
+description: "Learn about managing session templates in Customer Service workspace and Omnichannel Administration app"
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -10,7 +10,7 @@ ms.service:
 ms.topic: article
 ---
 
-# Manage session templates
+# Preview: Manage session templates
 
 [!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 

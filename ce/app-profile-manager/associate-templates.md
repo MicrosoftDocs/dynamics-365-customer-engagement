@@ -10,7 +10,7 @@ ms.service:
 ms.topic: article
 ---
 
-# Associate templates with work streams
+# Preview: Associate templates with work streams
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 

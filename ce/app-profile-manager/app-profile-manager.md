@@ -102,7 +102,7 @@ When users are assigned roles corresponding to Customer Service workspace or Omn
   - Omnichannel supervisor
   - Omnichannel agent
 
-Mpre information: [Security roles](security-roles.md)
+More information: [Security roles](security-roles.md)
 
 ### See also
 

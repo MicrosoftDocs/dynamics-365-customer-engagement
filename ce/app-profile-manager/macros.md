@@ -1,16 +1,16 @@
 ---
-title: "Macros in the Omnichannel Administration app | MicrosoftDocs"
-description: "Learn about macros and how to configure in the Omnichannel Administration app."
+title: "Macros in the Customer Service workspace and Omnichannel Administration app | MicrosoftDocs"
+description: "Learn about macros and how to configure in the Customer Service workspace and Omnichannel Administration app."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 08/28/2020
+ms.date: 09/07/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
 ---
 
-# Automate tasks with macros 
+# Preview: Automate tasks with macros 
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -308,11 +308,10 @@ To learn more, see [Use automation dictionary to pass data parameter keys](../om
 
 ## Create a macro
 
-1. Sign in to the Omnichannel Administration app.
+1. Sign in to [Power Apps](https://go.microsoft.com/fwlink/p/?linkid=2142083), and go to the app profile manager page.
+2. In the left pane, under **Productivity**, select **Agent scripts**. The Unified Interface page opens on a new tab.
 
-2. Under **Agent Experience**, select **Macros**.
-
-3. Select **New**.
+3. On the page that appears, select **New**.
 
 4. On the **Create macros** page, specify the following.
 

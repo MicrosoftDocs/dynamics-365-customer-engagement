@@ -10,7 +10,7 @@ ms.service:
 ms.topic: article
 ---
 
-# Use the automation dictionary to pass data parameter keys
+# Preview: Use the automation dictionary to pass data parameter keys
 
 [!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
