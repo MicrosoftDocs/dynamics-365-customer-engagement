@@ -56,10 +56,6 @@ To configure channel providers:
 **The communication widget in the expanded mode**<br><br>
 ![communication widget in the expanded mode](../media/widget-expanded-mode-v2.PNG "communication widget in the expanded mode")
 
-## Configure channel provider using app profile manager
-
-For information on how to configure a channel provider using app profile manager, see [Configure channel provider using app profile manager](configure-channel-provider-app-profile-manager.md).
-
 ## See also
 
 [Enable outbound communication (ClickToAct)](enable-outbound-communication-clicktoact.md)
