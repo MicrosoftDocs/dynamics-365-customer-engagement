@@ -4,7 +4,7 @@ description: Know how to define service-level agreements in Dynamics 365 Custome
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 05/14/2020
+ms.date: 09/07/2020
 ms.topic: article
 ms.service: 
   - dynamics-365-customerservice
@@ -30,54 +30,12 @@ Alternatively, you can set up a default SLA for the organization.
 > [!NOTE]
 > With the latest release of Customer Service, you can access and manage all service management tasks from the Customer Service Hub site map except **Routing Rule Sets**, **Automatic Record Creation**, and **Service Level Agreements**. To access and manage these three settings, use **Service Management** under **Settings** in the Customer Service app.
 
-## Standard vs. enhanced SLAs: What's the difference?
-
-With Customer Service, you can create two types of SLAs: standard and enhanced. Standard SLAs can only be created for the Case entity. We recommend that you use enhanced SLAs, which have some additional capabilities that standard SLAs don't have. With an enhanced SLA, you can:  
-
-- Create SLAs for entities other than the Case entity.  
-
-- Pause an SLA when a case is on hold, so that the time the case is on hold isn't considered in SLA calculations.  
-
-- Add success actions to an SLA. For example, you might want to send communications internally or outside your organization when the SLA has succeeded. Success actions are initiated only when the success condition is met on time.  
-
-- Track SLA status and times on the case form by default. These details are tracked through the SLA KPI Instance record type.  
-
-> [!NOTE]
-  >
-  > Standard SLAs have been deprecated and replaced with enhanced SLAs. <br><br>More information: [Standard SLAs in Dynamics 365 Customer Service are deprecated](https://docs.microsoft.com/power-platform/important-changes-coming#standard-slas-in-dynamics-365-customer-service-are-deprecated)
-
-## Entities (record types) that support SLAs
-
-With Customer Service, you can create enhanced SLAs for entities that are enabled for SLA. A system administrator or customizer can enable SLAs for the following entities:  
-
-- Account  
-
-- Contact  
-
-- Order  
-
-- Invoice  
-
-- Quote  
-
-- Opportunity  
-
-- Lead
-
-- Activity entities such as Email, PhoneCall, and Appointment&mdash;but not RecurringAppointment or its instances  
-
-  > [!NOTE]
-  >  SLAs can also be enabled for custom entities and custom activities.  
-
- More information: [Enable entities for service-level agreements](enable-entities-service-level-agreements.md)  
-
 ## Configure SLAs in Customer Service Hub
 
 With the SLA feature in Customer Service Hub, you can:
 
 - Use out-of-the-box actions in Microsoft Power Automate.
-- Define work hours, and pause and resume SLAs at the SLA item level, which helps track SLA items for different work hours based on priority and criteria.
-  
+- Define work hours, and pause and resume SLAs at the SLA KPI level and SLA item level, which helps track SLA items for different work hours based on priority and criteria. The pause settings at SLA KPI level or SLA item level gives you added flexibility to define pause conditions at a more granular level.
 - In a case lifecycle, multiple SLA KPIs can be triggered at different start points. The following illustration depicts how you can define an overall resolution time, and also specify SLA KPIs at different start points.
 
 ![SLA pause and resume](media/SLA-pause-resume.png "SLA pause and resume")
@@ -129,7 +87,14 @@ SLA KPIs are performance indicators, such as First Response or Resolve by, that 
 
    - **Applicable From:** Select a value based on which the warning and failure time will be measured. For example, if you select **Created On**, the warning and failure start time for an SLA will be calculated from the date and time when the entity was created.
 
-5. Select **Save**, and then select **Activate**. The SLA KPI is saved and activated.
+5. Select **Save**.
+
+6. To define the pause criteria at the KPI level, in the **Pause Conditions** section that appears, do the following:
+   1. Set the toggle to **Yes** for **Override Criteria**. If any pause settings are applied at the entity level for your org, they will be overridden by the criteria define at the KPI level. For the other KPIs, the entity level pause settings will continue to function if no pause criteria is defined at the KPI level.
+   2. Select **Add** to define the conditions in which the SLA KPI can be paused.
+    > [!NOTE]
+    > The option to configure pause at the KPI-level is available in preview mode.
+7. Select **Activate**. The SLA KPI is saved and activated.
 
 ## Create an SLA in Customer Service Hub<a name="create-slas"></a>
 
@@ -164,15 +129,23 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 
    - **Name:** Enter a name.
    - **KPI:** Select an SLA KPI.
-   - **Allow Pause and Resume:** (Optional.) Enable this option if you want the SLA to pause during the time the record is on hold. For each entity that's enabled for the SLA, you can set each status that will be considered "on hold" in the **Service Management** > **Service Configuration Settings** page.
+   - **Allow Pause and Resume:** (Optional.) Enable this option if you want the SLA to be paused during the time the record is on hold. For each entity that's enabled for the SLA, you can set each status that will be considered "on hold" in the **Service Management** > **Service Configuration Settings** page.
    - **Business Hours:** (Optional.) Select a value to assign business hours. The SLA is calculated based on the business hours and business closure that you define. More information: [Create customer service schedule and define the work hours](create-customer-service-schedule-define-work-hours.md).
   
-4. In the **Applicable When** section, define the conditions for the entity when the SLA can be applied:
+4. In the **Applicable When** section, define the conditions for the entity when the SLA can be applied.
 
-   - In the **Success Conditions** section, define the conditions that specify the success criteria of the SLA.
-   - In the **Warn and Fail Duration** section, specify the values to trigger notifications when an SLA is missed.
+5. In the **Success Conditions** section, define the conditions that specify the success criteria of the SLA.
 
-5. Select **Save**. A message appears on the top stating that warning and failure actions aren't set.
+6. In the **Pause Configurations** section that appears only when **Allow Pause and Resume** is enabled, do the following:
+   1. Set the toggle to **Yes** for **Override Criteria** to pause the SLA item. This setting overrides the pause settings defined at the entity level, if any, in Service Configuration or at the SLA KPI level.
+   2. Select **Add** to define the conditions for pausing the SLA item.
+    > ![Pause settings at SLA item level](media/csh-sla-item-pause.png "Pause settings at SLA item level")
+
+    > [!NOTE]
+    > The option to configure pause at SLA item-level is available in preview mode.
+7. In the **Warn and Fail Duration** section, specify the values to trigger notifications when an SLA is missed.
+
+8. Select **Save**.
 
 ### Configure actions for the SLA item
 
@@ -187,7 +160,7 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
    b. Select **Continue**. The predefined flow that's specific to the SLA appears.
 
      > [!NOTE]
-     > We recommend that you don't edit the predefined flow. Doing so can cause breaks in the flow, and the SLA might not work as defined.
+     > We recommend that you don't edit the predefined flow, which can cause breaks in the flow, and the SLA might not work as defined.
 
    c. Select **Switch**. The following condition steps are displayed:
 
@@ -213,6 +186,10 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 6. Select **Activate**. The SLA is activated.
 
 ## Create a standard SLA (Customer Service app)
+
+> [!NOTE]
+>
+> Standard SLAs have been deprecated and replaced with enhanced SLAs. <br><br>More information: [Standard SLAs in Dynamics 365 Customer Service are deprecated](https://docs.microsoft.com/power-platform/important-changes-coming#standard-slas-in-dynamics-365-customer-service-are-deprecated)
 
 1. [!INCLUDE[proc_permissions_custsvcmgr_sysadmin_and_customizer](../includes/proc-permissions-custsvcmgr-sysadmin-and-customizer.md)]  
 
@@ -315,7 +292,7 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
     > - If failure or warning times are set to less than one hour, processing of the failure or warning actions might be delayed.
     > - Make sure you author SLAs in a way that best suits your company's needs. For example, in the SLA **Applicable When** conditions, avoid using case fields that are updated too frequently, because that might lead to the SLA being computed so frequently that performance is negatively affected.
 
-## Create an enhanced SLA  
+## Create an enhanced SLA in Customer Service Hub 
 
 1. [!INCLUDE[proc_permissions_custsvcmgr_sysadmin_and_customizer](../includes/proc-permissions-custsvcmgr-sysadmin-and-customizer.md)]  
 
@@ -436,7 +413,7 @@ To set an SLA as the default, select an active SLA from the list, and then selec
 > [!NOTE]
 >  If you deactivate a default SLA, you must activate it again before resetting it as the default.  
 
-## Disable an SLA
+## Disable an SLA in Customer Service app
 
 During maintenance activities or when you're importing records and you don't want the SLAs to be applied, you can disable SLAs for your organization. A system administrator can disable SLAs from the **System Settings** dialog box. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [System Settings dialog box - Service tab](../admin/system-settings-dialog-box-service-tab.md)  
 
@@ -471,7 +448,6 @@ The service rep who is working on a case can see the SLA details right on the ca
 > [!IMPORTANT]
 >  To track SLAs for entities other than the Case entity, ask your system administrator or customizer to add an enhanced SLA timer on the entity forms. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add a timer to forms to track time against enhanced SLAs](add-timer-forms-track-time-against-enhanced-sla.md)  
 
-
 ## Recommended procedure for upgrading a solution
 
 We recommend that you perform the following steps to upgrade a solution:
@@ -482,4 +458,4 @@ We recommend that you perform the following steps to upgrade a solution:
 
 ### See also  
 
-[Enable entities for service-level agreements](enable-entities-service-level-agreements.md)
+[Enable entities for service-level agreements](enable-entities-service-level-agreements.md)  
