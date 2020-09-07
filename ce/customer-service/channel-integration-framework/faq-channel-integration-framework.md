@@ -4,7 +4,7 @@ description: "Frequently asked questions about the Dynamics 365 Channel Integrat
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 02/03/2020
+ms.date: 09/07/2020
 ms.topic: reference
 ms.service: 
   - dynamics-365-customerservice
@@ -38,7 +38,7 @@ Yes. From your channel provider record, you will not be able to see the followin
 	
 ### How do I choose the Unified Interface apps for the voice channel provider record?
 
-You don't need to choose the Unified Interface apps. The telephony channel providers are associated with app profiles, which works in the context of the multisession apps such as Omnichannel for Customer Service and Customer Service workspace.
+You don't need to choose the Unified Interface apps. The telephony channel providers are associated with app profiles, which works in the context of the multisession apps such as Omnichannel for Customer Service and Customer Service workspace (preview).
 	
 ###	How do I select roles for the voice channel provider record?
 
