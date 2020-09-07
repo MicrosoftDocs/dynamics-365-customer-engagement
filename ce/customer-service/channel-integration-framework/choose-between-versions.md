@@ -19,7 +19,7 @@ This topic explains the key feature differences between Dynamics 365 Channel Int
 
 ## Dynamics 365 Channel Integration Framework version 1.0
 
-You can use Dynamics 365 Channel Integration Framework version 1.0 to integrate a channel provider of your choice if your organization is using any of the single-session Dynamics 365 model-driven apps, such as: 
+You can use Dynamics 365 Channel Integration Framework version 1.0 to integrate a channel provider of your choice if your organization is using any of the single-session Dynamics 365 model-driven apps, such as:
 
 - Dynamics 365 Customer Service
 - Dynamics 365 Sales
@@ -58,7 +58,7 @@ The following matrix explains the various aspects of versions 1.0 and 2.0.
 |Features| Support for one channel provider at any time <br> Communication panel management |Support for multiple telephony channel providers <br> Communication panel management <br> Channel analytics <br> Notification management templates<br> Application tab management templates<br> Session management templates |
 
 > [!NOTE]
-> For information about how to integrate custom messaging channel providers, see [Bring your own channel](../../omnichannel/developer/how-to/bring-your-own-channel.md).
+> For information about how to integrate custom messaging channel providers with Omnichannel for Customer Service, see [Bring your own channel](../../omnichannel/developer/how-to/bring-your-own-channel.md).
 
 > [!div class="mx-imgBorder"]
 > ![Differences between versions 1.0 and 2.0](media/choose-between-version.png "Differences between versions 1.0 and 2.0")

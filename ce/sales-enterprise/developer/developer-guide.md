@@ -27,7 +27,7 @@ Welcome to the Dynamics 365 Sales Developer Guide.
 </td>
 <td>
 <h2>Action Reference</h2>
-  <li><a href="reference/custom-actions-manual-forecasting.md" data-raw-source="[Custom actions for manual forecasting](reference/custom-actions-manual-forecasting.md)">Custom actions for manual forecasting</a></li>
+  <li><a href="reference/custom-actions/msdyn_ForecastApi.md" data-raw-source="[msdyn_ForecastApi](reference/custom-actions/msdyn_ForecastApi.md)">msdyn_ForecastApi</a></li>
   <li><a href="reference/recalculateprice-action.md" data-raw-source="[RecalculatePrice Action](reference/recalculateprice-action.md)">RecalculatePrice Action</a></li>
 </td></tr>
 </table>

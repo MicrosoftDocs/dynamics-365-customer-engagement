@@ -4,7 +4,7 @@ description: "Instructions to configure a chat channel in Omnichannel for Custom
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 08/11/2020
+ms.date: 09/03/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article

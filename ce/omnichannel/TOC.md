@@ -122,7 +122,6 @@
 #### [Set up location detection](administrator/geo-location-provider.md)
 #### [Create message templates](administrator/create-message-templates.md)
 #### [Create and manage data masking rules](administrator/data-masking-settings.md)
-#### [Set up location detection](administrator/geo-location-provider.md)
 #### [Create chat authentication settings](administrator/create-chat-auth-settings.md)
 #### [Enable self service settings in conversation summary](administrator/enable-self-service-settings.md)
 #### [Configure automated messages](administrator/configure-automated-message.md)
@@ -350,18 +349,16 @@
 ##### [startChat](developer/reference/methods/startChat.md)
 ##### [startProactiveChat](developer/reference/methods/startProactiveChat.md)
 ##### [closeChat](developer/reference/methods/closeChat.md)
-#### Events
-##### [lcw:startChat](developer/reference/events/lcw-startchat.md)
-##### [lcw:ready](developer/reference/events/lcw-ready.md)
-##### [lcw:error](developer/reference/events/lcw-error.md)
-##### [lcw:threadUpdate](developer/reference/events/lcw-threadUpdate.md)
-##### [lcw:closeChat](developer/reference/events/lcw-closeChat.md)
-#### [Error code reference](developer/reference/error-code-reference.md)
-
 ### Real time translation JavaScript API Reference
 #### [initializeNewConversation](developer/reference/methods/initializeNewConversation.md)
 #### [translateMessage](developer/reference/methods/translateMessage.md)
-#### [getTranslationProvider](developer/reference/methods/gettranslationprovider.md)
+### Events
+#### [lcw:startChat](developer/reference/events/lcw-startchat.md)
+#### [lcw:ready](developer/reference/events/lcw-ready.md)
+#### [lcw:error](developer/reference/events/lcw-error.md)
+#### [lcw:threadUpdate](developer/reference/events/lcw-threadUpdate.md)
+#### [lcw:closeChat](developer/reference/events/lcw-closeChat.md)
+### [Error code reference](developer/reference/error-code-reference.md)
 
 ### [runMacro](developer/reference/methods/runMacro.md)
 
