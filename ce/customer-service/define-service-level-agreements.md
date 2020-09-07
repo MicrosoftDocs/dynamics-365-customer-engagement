@@ -137,7 +137,7 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 5. In the **Success Conditions** section, define the conditions that specify the success criteria of the SLA.
 
 6. In the **Pause Configurations** section that appears only when **Allow Pause and Resume** is enabled, do the following:
-   1. Set the toggle to **Yes** for **Override Criteria** if you want to define the conditions when you can pause the SLA item. This setting overrides the pause settings if they have been defined at the entity level in Service Configuration or SLA KPI level.
+   1. Set the toggle to **Yes** for **Override Criteria** to pause the SLA item. This setting overrides the pause settings defined at the entity level, if any, in Service Configuration or at the SLA KPI level.
    2. Select **Add** to define the conditions for pausing the SLA item.
     > ![Pause settings at SLA item level](media/csh-sla-item-pause.png "Pause settings at SLA item level")
 
