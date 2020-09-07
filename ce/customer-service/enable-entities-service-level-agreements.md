@@ -49,7 +49,7 @@ With Customer Service, you can create enhanced SLAs for entities that are enable
   > [!NOTE]
   >  SLAs can also be enabled for custom entities and custom activities.
   
-### To enable  an entity for SLA
+### To enable an entity for SLA
   
 1. [!INCLUDE[proc_permissions_system_admin_and_customizer](../includes/proc-permissions-system-admin-and-customizer.md)]  
   
@@ -71,8 +71,8 @@ With Customer Service, you can create enhanced SLAs for entities that are enable
   
 > [!NOTE]
 >
-> - The maximum number of entities that can have active SLAs for your organization is seven.
-> - The maximum number of SLA KPIs allowed per entity for your organization is five.  
+> - A maximum of seven entities can have active SLAs for your organization.
+> - A maximum of five SLA KPIs is allowed per entity for your organization.  
   
 ### See also
 
