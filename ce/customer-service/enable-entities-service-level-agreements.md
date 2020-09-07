@@ -72,7 +72,7 @@ With Customer Service, you can create enhanced SLAs for entities that are enable
 > [!NOTE]
 >
 > - A maximum of seven entities can have active SLAs for your organization.
-> - A maximum of five SLA KPIs is allowed per entity for your organization.  
+> - A maximum of five SLA KPIs are allowed per entity for your organization.  
   
 ### See also
 
