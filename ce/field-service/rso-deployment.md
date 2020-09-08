@@ -31,15 +31,13 @@ After [getting access to RSO](./rso-get-install.md) either by purchasing a licen
 > ![Screenshot of Field Service in navigation](media/field-service-navigation.png)
 
 
-2. Go to the Dynamics 365 admin center and select the **Applications** tab.
+2. Go to the Power Platform admin center located at [https://admin.powerplatform.microsoft.com/](https://admin.powerplatform.microsoft.com/). In the left pane select **Resources > Dynamics 365 apps**. 
 
-> [!NOTE]
-> **Do not** install the Resource Scheduling Optimization solution from the solution page. Follow the next steps using the RSO deployment app.
 
-3. Select the **Resource Scheduling Optimization** application to configure or manage.
+3. Find Resource Scheduling Optimization and select **Manage**.
 
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot of the Applications tab with RSO highlighted](media/rso-welcome.png)
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the Dynamics 365 admin center](./media/rso-upgrade-manage-powerapps-admin.png)
 
 4. Select the organization where the RSO solution will be installed, review the Terms of Service and select the agreement box, and then select **Deploy** to start the RSO deployment.
 
