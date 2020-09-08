@@ -87,14 +87,6 @@
 #### [Create and manage routing rules](administrator/routing-rules.md)
 
 ### Agent Experience
-### [App profile manager](../app-profile-manager/overview.md)
-#### Productivity tools
-##### [Overview](administrator/productivity-tools.md)
-##### [Macros](administrator/macros.md)
-##### [Use automation dictionary to pass data parameters keys](administrator/automation-dictionary-keys.md)
-##### [Agent scripts](administrator/agent-scripts.md)
-##### [Smart assist](administrator/smart-assist.md)
-##### [Productivity pane](administrator/productivity-pane.md)
 #### [Enable personal quick replies](administrator/enable-personal-quick-replies.md)
 #### [Create quick replies](administrator/create-quick-replies.md)
 #### [Configure and manage custom presence](administrator/presence-custom-presence.md)
@@ -108,6 +100,14 @@
 ##### [Manage notification templates](administrator/notification-templates.md)
 ##### [Use automation dictionary to pass data parameters keys](administrator/automation-dictionary-keys.md)
 ##### [Associate templates with workstreams](administrator/associate-templates.md)
+### [App profile manager](../app-profile-manager/overview.md)
+#### Productivity tools
+##### [Overview](administrator/productivity-tools.md)
+##### [Macros](administrator/macros.md)
+##### [Use automation dictionary to pass data parameters keys](administrator/automation-dictionary-keys.md)
+##### [Agent scripts](administrator/agent-scripts.md)
+##### [Smart assist](administrator/smart-assist.md)
+##### [Productivity pane](administrator/productivity-pane.md)
 
 ### Supervisor Experience
 #### [Configure to view Intraday insights](administrator/configure-intraday-dashboard-supervisor.md)
@@ -116,7 +116,6 @@
 
 #### [Analyze real-time customer sentiment](administrator/enable-sentiment-analysis.md)
 #### [Configure Omnichannel Insights dashboards](administrator/configure-historical-sentiment-dashboard-supervisor.md)
-
 
 ### Settings
 #### [Enable real-time translation of conversations](administrator/enable-real-time-translation.md) 
@@ -193,9 +192,6 @@
 ### Monitor Conversations
 #### [Monitor and assign conversations](supervisor/monitor-conversations.md)
 #### [Sentiment Monitoring](supervisor/supervisor-sentiment-monitoring.md)
-
-
-
 
 ## System customizer guide
 ### [Overview](customizer/omnichannel-customizer.md)
