@@ -13,6 +13,14 @@ manager: shujoshi
 
 This action generates a PDF document.
 
+## Parameters
+
+|Name|Type|Required|Description|
+|----|----|----|----|
+|EntityTypeCode|Integer|Yes|Entity type code.|
+|SelectedTemplate|JSON object|Yes|Entity reference of the template to be used.|
+|SelectedRecords|GUID|Yes|Unique identifier of the entity record that needs to be converted to PDF.|
+
 ## Example
 
 **Request**
