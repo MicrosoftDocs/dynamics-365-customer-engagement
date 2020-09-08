@@ -2,7 +2,7 @@
 title: "Upgrade Field Service | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 01/02/2020
+ms.date: 09/08/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
