@@ -42,10 +42,12 @@ POST [Organization URI]/api/data/v9.1/ExportPdfDocument
 
 **Response**
 
+The response consists of a byte array of contents of the PDF document file which is encoded in Base64 format.
+
 ```json
 {
         "@odata.context": "[Organization URI]/api/data/v9.1/$metadata#Microsoft.Dynamics.CRM.ExportPdfDocumentResponse",
-        "PdfFile": "<token id>"
+        "PdfFile": "<Byte array of PDF document file contents encoded in Base64 format>"
 }
 ```
 
