@@ -87,7 +87,6 @@
 #### [Create and manage routing rules](administrator/routing-rules.md)
 
 ### Agent Experience
-### [App profile manager](../app-profile-manager/overview.md)
 #### Productivity tools
 ##### [Overview](administrator/productivity-tools.md)
 ##### [Macros](administrator/macros.md)
@@ -109,6 +108,8 @@
 ##### [Use automation dictionary to pass data parameters keys](administrator/automation-dictionary-keys.md)
 ##### [Associate templates with workstreams](administrator/associate-templates.md)
 
+### [App profile manager](../app-profile-manager/overview.md)
+
 ### Supervisor Experience
 #### [Configure to view Intraday insights](administrator/configure-intraday-dashboard-supervisor.md)
 #### [Customize KPIs for Intraday insights](administrator/customize-kpis-intraday-insights.md)
@@ -116,7 +117,6 @@
 
 #### [Analyze real-time customer sentiment](administrator/enable-sentiment-analysis.md)
 #### [Configure Omnichannel Insights dashboards](administrator/configure-historical-sentiment-dashboard-supervisor.md)
-
 
 ### Settings
 #### [Enable real-time translation of conversations](administrator/enable-real-time-translation.md) 
@@ -193,9 +193,6 @@
 ### Monitor Conversations
 #### [Monitor and assign conversations](supervisor/monitor-conversations.md)
 #### [Sentiment Monitoring](supervisor/supervisor-sentiment-monitoring.md)
-
-
-
 
 ## System customizer guide
 ### [Overview](customizer/omnichannel-customizer.md)
