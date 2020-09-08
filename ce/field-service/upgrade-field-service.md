@@ -177,21 +177,15 @@ Resource scheduling optimization (RSO) is the app that allows for automated sche
 
 First, check if an RSO update is available. 
 
-From the Dynamics 365 Admin Center, select and highlight the environment that has the RSO app and select solutions.
+From the Power Platform admin center located at [https://admin.powerplatform.microsoft.com/](https://admin.powerplatform.microsoft.com/), go to Environments and select your environment and choose **Dynamics 365 apps**. In the list of solutions, it will indicate if there is an upgrade available for Resource Scheduling Optimization.
+
+
+
+To upgrade RSO, in the left pane select **Resources > Dynamics 365 apps**, then Find Resource Scheduling Optimization and select **Manage**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Dynamics 365 admin center](./media/upgrade-admin-environment.png)
+> ![Screenshot of the Dynamics 365 admin center](./media/rso-upgrade-manage-powerapps-admin.png)
 
-In the list of solutions, it will indicate if there is an upgrade available for RSO.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of an available update for RSO](./media/upgrade-rso-upgrade-available.png)
-
-If so, go to the **Applications** tab at the top, find the RSO application that relates to your environment, and choose **Manage**.
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the manage option for RSO in the admin center](./media/upgrade-rso-applications-manage.png)
 
 Then select **Upgrade to new version**.
 
