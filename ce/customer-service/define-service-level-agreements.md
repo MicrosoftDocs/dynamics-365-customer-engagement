@@ -292,7 +292,7 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
     > - If failure or warning times are set to less than one hour, processing of the failure or warning actions might be delayed.
     > - Make sure you author SLAs in a way that best suits your company's needs. For example, in the SLA **Applicable When** conditions, avoid using case fields that are updated too frequently, because that might lead to the SLA being computed so frequently that performance is negatively affected.
 
-## Create an enhanced SLA in Customer Service Hub 
+## Create an enhanced SLA (Customer Service app) 
 
 1. [!INCLUDE[proc_permissions_custsvcmgr_sysadmin_and_customizer](../includes/proc-permissions-custsvcmgr-sysadmin-and-customizer.md)]  
 
@@ -357,10 +357,8 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
      ![Success criteria for an SLA is Case First Response Sent equals Yes](media/crm-ua-sla-details-success-criteria.png "Success criteria for an SLA is Case First Response Sent equals Yes")  
 
      > [!NOTE]
-     >  Before you specify the failure and warning actions for an SLA, save the SLA item record.
-     <br>
-     <br>
-     >  If the conditions configured in the SLA fields conflict with each other, the SLA is canceled before it meets the success or failure criteria. For example, if the **Case Status** field is set as **Active** in the **Applicable When** section and is set as not equal to **Active** in the **Success Criteria** section, the SLA will be canceled when implemented. 
+     > - Before you specify the failure and warning actions for an SLA, save the SLA item record.
+     > - If the conditions configured in the SLA fields conflict with each other, the SLA is canceled before it meets the success or failure criteria. For example, if the **Case Status** field is set as **Active** in the **Applicable When** section and is set as not equal to **Active** in the **Success Criteria** section, the SLA will be canceled when implemented. 
 
    - In the **Success Action** section, select **Add Step**, and then specify the actions that you want the application to take when the success criteria is met before the violation time. For example, select **Add Step** > **Change Status**, and then in the first drop-down list, select **Case**, and in the next drop-down list, select **Information Provided**.
 
@@ -377,7 +375,7 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 
 ### Samples for creating enhanced SLA KPIs
 
-The following sample SLA KPIs for the Lead entity can help you get familiar with creating SLAs for other entities. 
+The following sample SLA KPIs for the Lead entity can help you get familiar with creating SLAs for other entities.
 
 #### Sample 1: Contact the customer
 
