@@ -4,7 +4,7 @@ description: "Instructions to integrate an Azure bot in Omnichannel for Customer
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 04/23/2020
+ms.date: 09/09/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
