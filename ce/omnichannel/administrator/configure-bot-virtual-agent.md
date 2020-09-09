@@ -4,7 +4,7 @@ description: "Instructions to integrate a bot in Omnichannel for Customer Servic
 author: platkat
 ms.author: ktaylor
 manager: shujoshi
-ms.date: 07/22/2020
+ms.date: 09/09/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -62,9 +62,6 @@ Once the Power Virtual Agents bot is created and configured to work with Omnicha
     - **Create a bot queue and a human agent queue:** If you create two queues, you must create work streams that contain context variables and appropriate routing rules to route the customer queries.
 
 For information about working with queues, see [Work with queues in Omnichannel for Customer Service](queues-omnichannel.md).
-
-> [!NOTE]
-> If you have only one queue with a bot and agents, and you didn't create a routing rule, the customer query is redirected to the same queue in case of escalation and is picked up by an agent.
 
 ### Create a bot queue and a human agent queue
 
