@@ -2,10 +2,8 @@
 title: "Developer Guide for Dynamics 365 Sales | MicrosoftDocs"
 description: "Contains topics that describe how developers can work with Dynamics 365 Sales"
 ms.date: 04/08/2019
-ms.service: 
+ms.service:
   - "dynamics-365-sales"
-ms.custom: 
-  - "dyn365-sales"
 ms.topic: get-started-article
 author: susikka
 ms.author: susikka
@@ -44,7 +42,8 @@ Welcome to the Dynamics 365 Sales Developer Guide.
   <li><a href="../../customerengagement/on-premises/developer/entities/product.md" data-raw-source="[Product](../../customerengagement/on-premises/developer/entities/product.md)">Product</a></li>
   <li><a href="../../customerengagement/on-premises/developer/entities/quote.md" data-raw-source="[Quote](../../customerengagement/on-premises/developer/entities/quote.md)">Quote</a></li>
   <li><a href="reference/playbook-entity-reference.md" data-raw-source="[Playbooks](reference/playbook-entity-reference.md)">Playbooks</a></li>
-  <li><a href="../../customerengagement/on-premises/developer/entities/salesorder.md)" data-raw-source="[SalesOrder](../../customerengagement/on-premises/developer/entities/salesorder.md)">SalesOrder</a></li>
+  <li><a href="../../customerengagement/on-premises/developer/entities/salesorder.md" data-raw-source="[SalesOrder](../../customerengagement/on-premises/developer/entities/salesorder.md)">SalesOrder</a></li>
+
 </td>
 </tr>
 <tr>
