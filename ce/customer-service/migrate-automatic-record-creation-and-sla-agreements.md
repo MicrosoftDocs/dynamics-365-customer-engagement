@@ -29,6 +29,7 @@ This topic provides an overview of the migration tool that allows legacy rules f
 The migration tool is designed to migrate the existing legacy rules to Unified Interface, ensuring all the rules, items, and actions are converted accordingly into the Unified Interface format. This also includes the conversion of the workflow to a Power Automate-based flow.
 
 The migration tool provides the following functionality:
+
 - Ability to run the migration tool multiple times and see what the status looks like at any point in time.
 - Flexibility to choose which legacy rules need to be migrated.
 - Flexibility to decide when to activate new rules and deactivate the legacy rules so you are not forced to activate all or none.
@@ -43,28 +44,7 @@ The migration tool provides the following functionality:
 - For migrating SLAs, your environment must have Customer Service version 9.0.20053.1030 or later to opt in for migration.
 - Administrator permissions.
 
-### Working with rules
 
-Before you run the migration tool, it is important to understand how the modern automatic record creation and SLA rules work in the Customer Service Hub app.
-
-When you perform your migration, you will only receive detailed results on rules that have failed the premigration check or creation, or those that were partially migrated (incomplete).  
-
-To learn more about how to create rules in the Customer Service Hub app, see [Automatically create or update records in Customer Service Hub](automatically-create-update-records.md) and [Define service-level agreements](define-service-level-agreements.md).
-
-> [!Note]
-> When you have successfully migrated a rule, any edits made to that rule on the web client will not be visible in Unified Interface. For the edits to be visible in Unified Interface, you must delete the rule in Unified Interface and migrate it again from the web client.
-
-### Editing rules
-
-If you rerun the migration tool, it will pick up any updates or edits in the web client if the rule has been:
-
-- Edited prior to the actual migration in the web client.
-- Edited to resolve errors in the web client that failed during a previous migration attempt.
-
-The following updates or edits to a rule will not be considered if:
-
-- The rule is edited on the web client after it was successfully migrated to Unified Interface.
-- Any edits were made to migrated rules in the Unified Interface client after running the migration tool.
 
 ## Accessing the migration tool
 
@@ -93,6 +73,30 @@ The migration progress is indicated on the page as follows; the colored circle i
 
 6. **Finish:** Provides you with a summary and status page of the successfully migrated rules, pending rules, and rules that failed migration.
 
+### Working with rules
+
+Before you run the migration tool, it is important to understand how the modern automatic record creation and SLA rules work in the Customer Service Hub app.
+
+When you perform your migration, you will only receive detailed results on rules that have failed the premigration check or creation, or those that were partially migrated (incomplete).  
+
+To learn more about how to create rules in the Customer Service Hub app, see [Automatically create or update records in Customer Service Hub](automatically-create-update-records.md) and [Define service-level agreements](define-service-level-agreements.md).
+
+> [!Note]
+> When you have successfully migrated a rule, any edits made to that rule on the web client will not be visible in Unified Interface. For the edits to be visible in Unified Interface, you must delete the rule in Unified Interface and migrate it again from the web client.
+
+### Editing rules
+
+If you rerun the migration tool, it will pick up any updates or edits in the web client if the rule has been:
+
+- Edited prior to the actual migration in the web client.
+- Edited to resolve errors in the web client that failed during a previous migration attempt.
+
+The following updates or edits to a rule will not be considered if:
+
+- The rule is edited on the web client after it was successfully migrated to Unified Interface.
+- Any edits were made to migrated rules in the Unified Interface client after running the migration tool.
+
+<!-- to delete 
 ## Use the migration tool
 
 When you have successfully accessed the migration tool, choose one of the following two options based on your experience working with the tool:
@@ -100,6 +104,7 @@ When you have successfully accessed the migration tool, choose one of the follow
 **First-time migration tool user**: Follow the steps in this option if you are accessing and using the migration tool for the first time.
 
 **Experienced migration tool user**: Follow the steps in this option if you have accessed and used the migration tool in the past.
+-->
 
 ## Migration tool for first-time users
 
@@ -108,13 +113,13 @@ The migration landing page shown in the next image is what will be displayed for
 <!-- editor comment: Maybe add "Category" in bold to step 1 so it is more like the other steps in the list. -->
 
 
-1.	An overview of the automatic record creation rules and SLAs.
-2.	**Total**: Displays the number of legacy rules available overall.
-3.	**Migrated**: Displays the number of rules you have migrated.
-4.	**Pending**: Displays the number of rules you have pending migration (includes failed rules, partially or incomplete migrated rules, and rules that have not been attempted).
-5.	**Migration status**: Displays whether migration has started.
-6.	**Refresh**: Allows you to update migration status.
-7.	**Start migration**: Allows you to begin the migration process.
+1. **Category**: An overview of the automatic record creation rules and SLAs.
+2. **Total**: Displays the number of legacy rules available overall.
+3. **Migrated**: Displays the number of rules you have migrated.
+4. **Pending**: Displays the number of rules you have pending migration (includes failed rules, partially or incomplete migrated rules, and rules that have not been attempted).
+5. **Migration status**: Displays whether migration has started.
+6. **Refresh**: Allows you to update migration status.
+7. **Start migration**: Allows you to begin the migration process.
 
     ![Migration tool first-time user overview](media/migration-tool-first-time-users-1.png  "Migration tool first-time user overview")
 
