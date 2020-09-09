@@ -132,7 +132,7 @@
 ## [Process a return](process-return.md)
 ## [Manual inventory journals](manual-inventory-journals.md)
 
-# Resource scheduling optimization add-in
+# Resource scheduling optimization add-on
 ## [Overview](rso-overview.md)
 ## [Get resource scheduling optimization](rso-get-install.md)
 ## [Quickstart](rso-quickstart.md)
