@@ -37,7 +37,7 @@ One of issues is that **Entity Records Distribution Flow** connection is not aut
 **Unable to complete the operation due to an error. Try again later. If the issue persists, contact Microsoft support.**
 
    > [!div class=mx-imgBorder]
-   > ![Business Process Error](media/business-process-error1.PNG "Business Process Error")
+   > ![Business process error due to unauthorized connection](media/business-process-error1.PNG "Business process error due to unauthorized connection")
 
 ### Resolution
 
@@ -52,7 +52,7 @@ To resolve the issue, perform steps 1 through 9 in the [Update entity records wo
 **The operation failed due to an incorrect configuration in Entity Records Distribution Flow. Ensure the Entity Records Distribution Flow isn't deleted or renamed.**
 
    > [!div class=mx-imgBorder]
-   > ![Business Process Error](media/business-process-error2.PNG "Business Process Error")
+   > ![Business process error due to incorrect configuration for Entity Records Distribution Flow](media/business-process-error2.PNG "Entity Records Distribution Flow business process error")
 
 In Power Automate, you might see either **Cases Work Distribution Flow** or **Entity Records Distribution Flow**.
 
@@ -433,7 +433,7 @@ When you sign in to Unified Service Desk, you see the following error.
 **APPLICATION_HOST_ERR_NO_CONFIGURED_APPS: applications are configured for your use.**
 
    > [!div class=mx-imgBorder]
-   > ![Unified Service Desk application error](media/oceh/usd-application-host-error.png "Unified Service Desk application error")
+   > ![Unified Service Desk application configuration error](media/oceh/usd-application-host-error.png "Unified Service Desk application configuration error")
 
 The issue is due to the package deployment failure.
 
