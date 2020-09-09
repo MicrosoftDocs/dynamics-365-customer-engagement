@@ -4,7 +4,7 @@ description: "Learn how to delete an Omnichannel solution from an organization."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 06/15/2020
+ms.date: 09/08/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -38,28 +38,30 @@ When you remove Omnichannel for Customer Service from your organization, the Omn
     10. `OmnichannelPrimeFacebookAnchor` 
     11. `OmnichannelPrimeTeams` 
     12. `OmnichannelPrimeSocialChannelsAnchor`
-    13. `OmnichannelPrimeAnchor`
-    14. `msdyn_OmnichannelEngagementHubPatch`
-    15. `OmnichannelEngagementHubPreview`
-    16. `msdyn_OmnichannelPrimePatch`
-    17. `OmnichannelPrime`
-    18. `msdyn_OmnichannelSMSPatch`
-    19. `msdyn_OmnichannelChatPatch`
-    20. `msdyn_OmnichannelFacebookPatch`
-    21. `OmnichannelSMS`
-    22. `OmnichannelTeams`
-    23. `OmnichannelSocialChannels`
-    24. `OmnichannelChat`
-    25. `OmnichannelFacebook`
-    26. `msdyn_OmnichannelBotEnablerPatch`
-    27. `OmnichannelBotEnabler`
-    28. `msdyn_OmnichannelSBRPatch_managed`
-    29. `OmnichannelSBR`
-    30. `msdyn_OmnichannelBasePatch`
-    31. `OmnichannelBase`
-    32. `ScenariosAndChannels`
-    33. `msdyn_CIFrameworkPatch`
-    34. `ChannelAPIIntegrationFramework`
+    13. `OmnichannelPrimeOutboundAnchor`
+    14. `OmnichannelPrimeAnchor`
+    15. `msdyn_OmnichannelEngagementHubPatch`
+    16. `OmnichannelEngagementHubPreview`
+    17. `msdyn_OmnichannelPrimePatch`
+    18. `OmnichannelPrime`
+    19. `msdyn_OmnichannelSMSPatch`
+    20. `msdyn_OmnichannelChatPatch`
+    21. `msdyn_OmnichannelFacebookPatch`
+    22. `OmnichannelOutbound`
+    23. `OmnichannelSMS`
+    24. `OmnichannelTeams`
+    25. `OmnichannelSocialChannels`
+    26. `OmnichannelChat`
+    27. `OmnichannelFacebook`
+    28. `msdyn_OmnichannelBotEnablerPatch`
+    29. `OmnichannelBotEnabler`
+    30. `msdyn_OmnichannelSBRPatch_managed`
+    31. `OmnichannelSBR`
+    32. `msdyn_OmnichannelBasePatch`
+    33. `OmnichannelBase`
+    34. `ScenariosAndChannels`
+    35. `msdyn_CIFrameworkPatch`
+    36. `ChannelAPIIntegrationFramework`
 
 3.	A confirmation message appears that prompts you to uninstall the managed solution. Select **OK**.
 
