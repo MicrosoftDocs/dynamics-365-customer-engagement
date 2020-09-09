@@ -4,7 +4,7 @@ description: "List of Omnichannel for Customer Service entities that have been d
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 03/30/2020
+ms.date: 09/10/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: reference
