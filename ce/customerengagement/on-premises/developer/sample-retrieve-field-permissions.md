@@ -3,7 +3,7 @@ title: "Sample: Retrieve field permissions (Developer Guide for Dynamics 365 Cus
 description: "The sample shows how to retrieve secured fields for a user according to the steps outlined in Field security entities."
 ms.custom: 
 ms.date: 01/08/2020
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

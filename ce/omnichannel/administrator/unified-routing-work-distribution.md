@@ -61,7 +61,7 @@ If one or more agents are available, then the work distribution system takes a c
 
    > [!Note]
    > - The work distribution system gives higher priority to the agents who have worked and got disconnected from a conversation in the past.
-   > - The work distribution system gives lower to the agents who have rejected, transferred, or timed out the conversation.
+   > - The work distribution system gives lower priority to the agents who have rejected, transferred, or timed out the conversation.
 
 ### Agent available trigger
 

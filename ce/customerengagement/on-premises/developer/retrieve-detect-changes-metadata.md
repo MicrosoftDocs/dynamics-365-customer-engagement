@@ -3,7 +3,7 @@ title: "Retrieve and detect changes to metadata (Developer Guide for Dynamics 36
 description: "The classes in the Query namespace and the RetrieveMetadataChangesRequest and RetrieveMetadataChangesResponse classes let you build efficient metadata queries and capture changes to metadata as they occur over time."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

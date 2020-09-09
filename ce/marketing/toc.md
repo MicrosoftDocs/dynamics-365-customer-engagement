@@ -19,7 +19,7 @@
 #### [Sign up for a free trial](trial-signup.md)
 #### [Purchase and set up Dynamics 365 Marketing](purchase-setup.md)
 #### [Integrate Marketing with a CMS system or Dynamics 365 Portal](portal-optional.md)
-#### [Open the Dynamics 365 admin center](dynamics-365-admin-center.md)
+#### [Open the Power Platform admin center](power-platform-admin-center.md)
 #### [Re-run the Marketing setup wizard](re-run-setup.md)
 #### [Manage Marketing instances](manage-marketing-instances.md)
 #### [Transfer data between instances](transfer-data.md)
@@ -30,6 +30,7 @@
 
 ### User administration and access permissions
 #### [Manage user accounts, licenses, and roles](admin-users-licenses-roles.md)
+#### [Fair use policy](fair-use-policy.md)
 #### [Use business units with Marketing](business-units.md)
 
 ### Administration settings
@@ -48,7 +49,7 @@
 ##### [Authenticate your domains](mkt-settings-authenticate-domains.md)
 ##### [Marketing analytics configuration](mkt-settings-analytics.md)
 ##### [Configure landing pages](mkt-settings-landing-pages.md)
-##### [Sync with the marketing-insights service](mkt-settings-sync.md)
+##### [Sync entities and track insights](mkt-settings-sync.md)
 ##### [Set matching strategies](mkt-settings-matching.md)
 ##### [Default marketing settings](mkt-settings-default-marketing.md)
 ##### [Configure your social media accounts](mkt-settings-social-media.md)

@@ -58,9 +58,9 @@ AI suggestions are powered by a set of pre-trained natural language understandin
 
 - Knowledge articles and similar cases can be suggested based on the semantic meaning in case context and knowledge article content.
 - The model pre-processes published knowledge articles and resolved cases every day to prepare suggestion candidates. For the first time pre-processing, up to 3000 published articles and 50,000 recently resolved cases will be processes. Subsequently, newly published articles and resolved cases will be processed. Up to 1 million of latest resolved cases will be processed to serve suggestions.
-- After a case is created or updated, the model finds out matching knowledge articles and similar cases from suggestion candidates.
+- After a case is created or updated, or during an ongoing conversation, the model finds out matching knowledge articles and similar cases from suggestion candidates.
 - A brief summary is auto-generated for each pre-processed knowledge article based on its content. When a knowledge article is suggested, both article title and the auto-generated summary are surfaced to agents, which helps them to get a better idea about the article before agent clicks through it.
-- In addition to the suggestions, agents can also tell why an article or similar case is suggested through a list of key phrases that are auto-extracted from knowledge articles and cases. These key phrases highlights the relevance between a suggestion and an active case, in addition to the confidence score (which is a percentage number that indicates the degree to which an article or similar case matches with the active case).
+- In addition to the suggestions, agents can also tell why an article or similar case is suggested through a list of key phrases that are auto-extracted from knowledge articles and cases. These key phrases highlights the relevance between a suggestion and an active case or an ongoing conversation, in addition to the confidence score (which is a percentage number that indicates the degree to which an article or similar case matches with the active case).
 
 > [!NOTE]
 > - After you enable the settings, it might take up to 24 hours for the models to process data and complete the first time setup.
@@ -94,7 +94,7 @@ Perform the following steps to enable the AI suggestions for related knowledge a
 2. In the **Change area**, select **Service Management** > **Settings (Preview)**. The **Analytics and insights settings** page appears.
 3. Select **Manage** under **Suggestions**. The **Suggestions (preview)** page appears.
 4. In the **Settings** > **Summary** area, set the toggle to **Yes** for **Enable knowledge article suggestions**.
-5. In the **Data mapping** > **Knowledge article data fields** area, make sure that **Title** and **Content** are selected in **Article title** and **Article content** boxes, respectively. The selected options are used by the AI model to understand and find a good match for a case. Article content is used by the AI model to generate a brief article summary that is displayed to the agent at runtime.
+5. In the **Data mapping** > **Knowledge article data fields** area, make sure that **Title** and **Content** are selected in **Article title** and **Article content** boxes, respectively. The selected options are used by the AI model to understand and find a good match for a case or conversation. Article content is used by the AI model to generate a brief article summary that is displayed to the agent at runtime.
 
 6. Select **Save**.
 

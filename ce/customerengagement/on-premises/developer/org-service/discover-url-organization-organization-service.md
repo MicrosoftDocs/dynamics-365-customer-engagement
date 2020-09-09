@@ -3,7 +3,7 @@ title: "Discover the URL for your organization using the Discovery Service (Deve
 description: "For a multi-tenant environment like Dynamics 365 Customer Engagement, you can use Discovery Service to determine the organizations that a user is member of"
 ms.custom: on-premise
 ms.date: 11/14/2017
-ms.reviewer: "pehecke"
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

@@ -3,7 +3,7 @@ title: "Work with knowledge articles (Developer Guide for Dynamics 365 Customer 
 description: "The section provides information about working with the new native Dynamics 365 Customer Engagement (on-premises) knowledge management capabilities."
 ms.custom: 
 ms.date: 05/15/2020
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service:
 ms.suite: 
 ms.tgt_pltfrm: 

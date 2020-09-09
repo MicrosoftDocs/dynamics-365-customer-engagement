@@ -2,7 +2,7 @@
 title: "Dynamics 365 Marketing solution uninstall order (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Lists the correct order in which to remove solutions when uninstalling Dynamics 365 Marketing."
 keywords: administration; sample data
-ms.date: 05/08/2020
+ms.date: 08/10/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -36,6 +36,7 @@ Marketing solution uninstall order:
 1. MicrosoftDynamics_SubscriptionList
 1. MicrosoftDynamics_OrgCleanup_patch
 1. MicrosoftDynamics_OrgCleanup
+1. MicrosoftDynamics_PackageUpgrade_patch
 1. MicrosoftDynamics_PackageUpgrade
 1. MicrosoftDynamics_PersonalizedPages_patch
 1. MicrosoftDynamics_PersonalizedPages
@@ -87,10 +88,6 @@ Marketing solution uninstall order:
 1. MicrosoftDynamics_MktPageTemplates
 1. MicrosoftDynamics_MktEvtMgmtLink_patch
 1. MicrosoftDynamics_MktEvtMgmtLink
-1. MicrosoftDynamics_MktOrchestrationCompatModule_patch
-1. MicrosoftDynamics_MktOrchestrationCompatModule
-1. MicrosoftDynamics_MarketingOrchestrationModule_patch
-1. MicrosoftDynamics_MarketingOrchestrationModule
 1. LinkedInLeadGenIntegration_patch
 1. LinkedInLeadGenIntegration
 1. MicrosoftDynamics_MktLeadManagement_patch
@@ -101,8 +98,6 @@ Marketing solution uninstall order:
 1. MicrosoftDynamics_Marketing
 1. MicrosoftDynamics_EventManagement_patch
 1. MicrosoftDynamics_EventManagement
-1. MicrosoftDynamics_Orchestration_patch
-1. MicrosoftDynamics_Orchestration
 1. MicrosoftDynamics_ReusableBlocks_patch
 1. MicrosoftDynamics_ReusableBlocks
 1. MicrosoftDynamics_DigitalAssets_patch

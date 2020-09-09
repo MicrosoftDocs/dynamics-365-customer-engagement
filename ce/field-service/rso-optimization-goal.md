@@ -4,7 +4,7 @@ author: FieldServiceDave
 ms.author: daclar
 ms.reviewer: krbjoran
 manager: shellyha
-ms.date: 08/01/2020
+ms.date: 08/20/2020
 ms.topic: article
 ms.custom: 
   - dyn365-fieldservice
@@ -235,7 +235,7 @@ For example, if a characteristic (skill) rating model ranges from 1 to 10, and t
 > ![Screenshot of requirement group with two requirements](./media/scheduling-rso-3-0-characteristic-proficiency-objective.png)
 
 > [!Note]
-> In the 2020 release wave 2 update, the **Best matching skill level** objective was enhanced to prioritize assigning jobs to resources with less common skills first. This is valuable for organizations with a workforce with varying skillsets. Assigning jobs to resources with less common skills or lower levels first when there is more capacity than demand allows RSO to reserve capacity for resources with multiple and unique skills for higher priority emergency situations. For example, imagine one resource has installation skills and another resource has installation _and_ repair skills. RSO will initially schedule installation jobs to the first resource who only has installation skills. This is advantageous because if a repair job needs to be scheduled later, the second resource will have capacity whereas if all the installation jobs were schedule to the second resource, then no one would be available for the repair job since the first resource does not have the skills for repairs. This improvement to the **Best Matching Skill** level objective requires no additional configuration and is an update to the algorithm in the background.
+> In the 2020 release wave 2 update, the **Best matching skill level** objective was enhanced to prioritize assigning jobs to resources with fewer skills first. This is valuable for organizations that have a workforce with varying skillsets. Assigning jobs to resources with fewer skills or more common skills first when there is more capacity than demand allows RSO to reserve capacity for resources with multiple and unique skills for higher priority emergency situations. For example, imagine one resource has installation skills and another resource has installation _and_ repair skills. RSO will initially schedule installation jobs to the first resource who only has installation skills. This is advantageous because if a repair job needs to be scheduled later, the second resource will have capacity; if all the installation jobs were scheduled to the second resource, then no one would be available for the repair job since the first resource does not have the skills for repairs. This improvement to the **Best Matching Skill** level objective requires no additional configuration and is an update to the background algorithm.
 
 ### Schedule as soon as possible
 

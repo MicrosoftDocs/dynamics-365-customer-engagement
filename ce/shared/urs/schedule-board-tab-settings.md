@@ -334,3 +334,12 @@ It will then appear in the lower panel.
 > ![Screenshot of Requirement Panels](../../field-service/media/scheduling-schedule-board-tab-settings-requirement-panel-add.png)
 
 Field Service and Universal Resource Scheduling come with default requirement views such as "Open Requirements" and "Unscheduled Work Orders". Select the **Hide default requirement panels** to remove them from the lower pane. 
+
+## Additional notes
+
+Some of the extensible schedule board settings are only available on the hourly view, and not on the daily, weekly, and monthly views. The following configuration settings are only available in the hourly view: 
+
+- Non-working hours color.
+- Booking details view.
+- Booking tooltips view.
+- Booking template.

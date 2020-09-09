@@ -3,7 +3,7 @@ title: "Sample: Create a LINQ query (Developer Guide for Dynamics 365 Customer E
 description: "This sample shows how to create simple .NET Language-Integrated Query (LINQ) queries"
 ms.custom: 
 ms.date: 02/05/2020
-ms.reviewer: "pehecke"
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
