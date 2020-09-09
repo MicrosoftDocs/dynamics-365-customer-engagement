@@ -1,1 +1,0 @@
-Refreshes the grid.

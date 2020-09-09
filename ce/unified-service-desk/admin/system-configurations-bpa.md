@@ -1,20 +1,18 @@
 ---
-title: "System configurations (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "System configurations | MicrosoftDocs"
 description: "Learn about the system configurations that best practices outlines and against which Best Practices Analyzer performs analysis."
-ms.custom: ""
 ms.date: 04/24/2018
-ms.service: "usd"
-ms.topic: "article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
-ms.assetid: 2ED0C60D-0C69-45C7-828A-8BB7D05A9180
-author: "kabala123"
-ms.author: "kabala"
-manager: "sakudes"
+ms.service: 
+  - "dynamics-365-customerservice"
+ms.topic: article
+author: kabala123
+ms.author: kabala
+manager: shujoshi
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - D365USD
 ---
 # System configurations
 
@@ -107,7 +105,7 @@ Review and move any browser hosted controls in **Internal WPF** mode or hybrid m
 ### Mitigation
 
 Install the [!include[pn-ms-windows-short](../../includes/pn-ms-windows-short.md)] KB3092627 update on your computer. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)]
-[KB3092627](https://support.microsoft.com/en-us/help/3092627/september-2015-update-to-fix-windows-or-application-freezes-after-you)
+[KB3092627](https://support.microsoft.com/help/3092627/september-2015-update-to-fix-windows-or-application-freezes-after-you)
 
 ## See also
 
@@ -117,7 +115,7 @@ Install the [!include[pn-ms-windows-short](../../includes/pn-ms-windows-short.md
 
 [Read Best Practices Analyzer report](../admin/read-best-practices-analyzer-report.md)
 
-[Best practice rule categories and parameters](../admin/compliance-categories-parameters-bpa.md)
+[List of rule categories and parameters](../admin/compliance-categories-parameters-bpa.md)
 
 [Internet Explorer settings](../admin/internet-explorer-settings-bpa.md)
 

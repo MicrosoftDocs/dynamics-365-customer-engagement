@@ -1,20 +1,25 @@
 ---
-
-title: Configure additional parameter settings (Dynamics 365 for Project Service) | MicrosoftDocs
+title: Configure additional parameter settings
 description: How to configure additional parameter settings in Project Service
-author: krbjoran
-manager: ShellyHa
+author: JohnPBurrows
+manager: kfend
 ms.service: dynamics-365-customerservice
-ms.custom:
+ms.custom: 
   - dyn365-projectservice
 ms.date: 8/03/2018
 ms.topic: article
 ms.prod: 
-ms.service: business-applications
 ms.technology: 
-ms.author: krbjoran
+ms.author: jburrows
 audience: Admin
-
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365PS
+  - ProjectOperations
 ---
 
 # Configure additional parameter settings (Project Service)
@@ -51,6 +56,9 @@ To set project parameters:
 4. In the **Price List** area, click **+** to add a price list, select a price list in the **Project Parameter Price List** drop-down list, and then click **Save**.  
   
 5. Click the **Save** button in the bottom right corner of the screen.  
-  
+
+> [!NOTE]
+> The project parameter record must be maintained for Project Service to function correcly. This record should not be deleted.
+
 ### See Also  
  [Set up resources](../project-service/set-up-resources.md)

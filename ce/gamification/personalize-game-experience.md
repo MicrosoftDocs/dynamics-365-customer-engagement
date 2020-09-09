@@ -1,16 +1,22 @@
 ---
 title: "Personalize the game experience in Dynamics 365 – Gamification | Microsoft Docs"
 description: "Learn how to manage the settings that apply to all users of Dynamics 365 – Gamification."
-ms.date: 08/18/2017
+ms.date: 09/28/2018
 ms.service: dynamics-365-sales
 ms.topic: article
-applies_to: Dynamics 365 (online)
 ms.assetid: 6603e30d-19bc-4bcf-a48a-c8fb9cb84a54
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
-ms.custom:
+manager: shellyha
+ms.custom: 
   - dyn365-gamification
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Gamification
 ---
 
 # Manage settings to personalize the game experience in Gamification
@@ -19,8 +25,8 @@ As a commissioner, you can upload custom logos, provide a pointer for players to
 
 ## Generate a security key
 
-The security key is required to connect the web portal of [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] with a [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)] organization. If you disconnect the web portal from Dynamics 365 (online) and want to connect it again, click **Generate Security Key** to get a new key.
-If you are already connected to a [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)] organization, you can remove it after all active games are completed. 
+The security key is required to connect the web portal of [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] with a Dynamics 365 organization. If you disconnect the web portal from Dynamics 365 and want to connect it again, click **Generate Security Key** to get a new key.
+If you are already connected to an organization, you can remove it after all active games are completed. 
 
 > [!WARNING]
 > When you remove an organization, all related data such as games, points, KPIs, and user accounts will be permanently deleted.
@@ -130,11 +136,11 @@ You can opt in for early access to newly developed features to evaluate them for
 
    - **Display Waiting Time (Seconds)**: Number of seconds before a smack talk post appears again in a Stream TV.  
 
-   - **Show BAM Posts**: Show all BAM posts on smack talk from a leaderboard shown in a Stream TV.  
+   - **Show BAM Posts**: Show all [BAM posts](glossary.md#bam-posts) on smack talk from a leaderboard shown in a Stream TV.  
 
-   - **BAM Display Count**: Define how many times a BAM post appears in a Stream TV.  
+   - **BAM Display Count**: Define how many times a [BAM post](glossary.md#bam-posts) appears in a Stream TV.  
 
-   - **BAM Display Time (Seconds)**: Number of seconds before a BAM post appears again in a Stream TV.  
+   - **BAM Display Time (Seconds)**: Number of seconds before a [BAM post](glossary.md#bam-posts) appears again in a Stream TV.  
 
    - **Enable Public Stream TV**: Allows game owners to create Stream TVs that people can view without signing in to [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Manage Stream TV games in Gamification](configure-view-tvs.md)  
 

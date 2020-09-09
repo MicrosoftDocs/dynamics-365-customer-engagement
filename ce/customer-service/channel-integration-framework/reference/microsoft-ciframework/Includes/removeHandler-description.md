@@ -1,0 +1,1 @@
+Remove the subscriber from the events.

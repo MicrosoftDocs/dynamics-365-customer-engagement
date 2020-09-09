@@ -1,0 +1,16 @@
+- name: Use Customer Engagement (on-premises) service
+  href: ../use-microsoft-dynamics-365-organization-service.md
+  items:
+  - name: Getting started with on-premises managed code application development
+    href: get-started-managed-code-application-development.md
+  - name: Discover the URL for your organization
+    href: discover-url-organization-organization-service.md
+  - name: Use the Organization Service to read and write data or metadata
+    href: use-organization-service-read-write-data-metadata.md
+    items:
+    - name: Use ExecuteMultiple to improve performance for bulk data load
+      href: use-executemultiple-improve-performance-bulk-data-load.md
+  - name: Create early bound entity classes
+    href: create-early-bound-entity-classes-code-generation-tool.md
+  - name: Offline use of services
+    href: offline-use-services.md

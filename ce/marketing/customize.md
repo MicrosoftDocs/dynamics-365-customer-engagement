@@ -1,95 +1,61 @@
 ---
-title: "Customize Dynamics 365 for Marketing | Microsoft Docs "
-description: "How to customize lists, forms, workflows, business processes, validations, and more in Dynamics 365 for Marketing"
-keywords: "customize;workflow;business process;validation"
-ms.date: 04/01/2018
-ms.service:
-  - "dynamics-365-marketing"
-ms.custom:
-  - "dyn365-cust"
-  - "dyn365-marketing"
+title: "Customize Dynamics 365 Marketing | Microsoft Docs "
+description: "How to customize lists, forms, workflows, business processes, validations, and more in Dynamics 365 Marketing"
+keywords: customize;workflow;business process;validation
+ms.date: 06/07/2019
+ms.service: dynamics-365-marketing
+ms.custom: 
+  - dyn365-cust
+  - dyn365-marketing
 ms.topic: article
-applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
 ms.assetid: a615251f-ce0e-45cf-8e73-3dc74657982a
-author: kamaybac
-ms.author: kamaybac
-manager: sakudes
-ms.reviewer: renwe
+author: alfergus
+ms.author: alfergus
+manager: shellyha
+ms.reviewer:
 topic-status: Drafting
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Mktg
 ---
 
-# Customize [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]
+# Customizing Dynamics 365 Marketing
 
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
+## Basic customizations
+Model-driven apps in Dynamics 365 (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing, and Dynamics 365 Project Service Automation) provide rich possibilities for customization without coding. Customizers can add new fields to existing entities, add or hide fields in list or form views, design custom business processes and workflows, and much more—all while working in their web browser. Other types of customization include installing custom solutions from Microsoft AppSource, such as a third-party SMS solution for Marketing. The system also provides APIs that enable developers to write code that implements even more advanced custom functionality and third-party integration.
 
-## Customize [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]
+> [!WARNING]
+> Do not include sensitive information in your customized schema and display names. Schema and display names for fields, entities, relations, attributes, and other elements are displayed in various interfaces throughout the Marketing application. They may also be referenced by other object definitions and get shared through various other channels. They may also appear in telemetry.
 
-[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] is built on the standard [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] infrastructure, which provides rich possibilities for customization without coding. Customizers can add new fields to existing entities, add or hide fields in list or form views, design custom business processes and workflows, and much more—all while working in their web browser. Other types of customization include installing custom solutions from [!INCLUDE[pn-microsoft-appsource](../includes/pn-microsoft-appsource.md)], such as a third-party SMS solution for [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)]. The system also provides APIs that enable developers to write code that implements even more advanced custom functionality and third-party integration.
+The techniques for customizing Dynamics 365 Marketing are the same as those for customizing other model-driven apps in Dynamics 365. You'll make these customizations using the advanced-settings area. The advanced-settings area provides settings that are common for all Dynamics 365 model-driven apps on your tenant, including user, security, and customization settings.
 
-The techniques for customizing the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] application are like those for customizing other [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] Customer Engagement applications—especially [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]. You can make many of the most common types of customizations while working directly in the **Settings** work area of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], but even more types of customization settings are available in the [!include[](../includes/pn-custom-app-module.md)] app.
+To access the customization settings in the advanced-settings area:
 
-The [!include[pn-custom-app-module](../includes/pn-custom-app-module.md)] app is included with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. It combines features from many of the various [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] apps you have licensed into a single navigation structure (but most [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] end-user features aren’t included here). The custom app operates on the same database as [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], so settings made in the custom app (including for customization, user administration, events, LinkedIn Lead Gen, [!INCLUDE[pn-voice-of-the-customer](../includes/pn-voice-of-the-customer.md)], and more) can affect the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app.
+1. Open the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**. The advanced-settings area then opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator.
+1. Navigate to **Settings** > **Customizations** > **Customizations**.
 
-To go to the customization settings in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], go to the **Settings** work area, choose **Advanced Settings**, and then work in the **Customization** section, where you can edit views and business and process flows. To go to the custom app, which provides access to these customization settings and more, choose **[!INCLUDE[pn-custom-app-module](../includes/pn-custom-app-module.md)]** from the app-selector menu, and then go to **Settings** > **Customization**. The following image shows how to use the app-selector menu to switch between the Marketing and custom apps.
+For complete details about how to customize model-driven apps in Dynamics 365, see the [Power Apps documentation](https://docs.microsoft.com/powerapps/#pivot=home&panel=getstarted).
 
-![The app-selector menu](media/nav-apps-custom-ill.png "The app-selector menu")
+For details about customizations that apply only to the Marketing app (but not other Dynamics 365 apps), see the following topics:
 
-For complete details about how to customize [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], see the [Customization Guide for Dynamics 365 Customer Engagement](../customize/overview.md). That guide describes the interface as you see it in the [!include[](../includes/pn-custom-app-module.md)] app, but the customization features that are also provided in the **Settings** work area of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] implement similar concepts, operate on the same database, and work similarly. For details about customizations that apply only to the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app (but not other [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] apps), see the other sections in this topic.
+- [Create and customize marketing calendars](customize-marketing-calendars.md)
+- [Create and customize template labels](customize-template-labels.md)
 
-For more information about writing code and developing for [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], see the [Developer Guide for Dynamics 365 Customer Engagement](../developer/developer-guide.md).
+## Don't remove status-reason values used by go-live functionality
 
-## Add custom validation rules
+Entities that include [go-live functionality](go-live.md) provide a **Status reason** field that tracks the go-live status of each record. The field is an option set that must include the following values: **Draft**, **Live**, **Stopped**, "**Live, editable**", **Error**, **Going live**, and "**Stopping...**". Be sure not to delete any of these standard values. If you do, the entity will no longer be able to go live.
 
-A standard feature of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]
- is its ability to check published content for errors before going live. You've probably seen this feature at work when designing email messages, customer journeys, forms, lead-scoring models, and other features that use the content designer interface. The validation (**Check for Errors**) feature works by checking for missing content (such as a required setting or a subscription-center link in a marketing email) and errors (such as illogical settings, syntax errors, or messages that won't compile). After the error check, [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] displays the results right on the page, including error messages that should help the user solve the issue.
+## Create a custom app that includes Marketing solutions
 
-![The check-for-errors button and notifications](media/email-validation-result.png "The Check for Errors button and notifications")
+Customizers and developers can create custom app modules that include any number of existing solutions, plus other custom elements, as needed. You can include 
+Dynamics 365 Marketing solutions in custom apps such as these, but the *Marketing email test send* entity won't be included automatically when you add the Marketing solution. As a result, your custom app won't support test sends of marketing emails by default. If you'd like to include this feature in your custom app, then you must add the *Marketing email test send* entity manually to your app after you add the Marketing solution.
 
-The validation feature works by implementing a validation pipeline with a series of rules that the content must pass. For each violation, an error or warning is added to the response and the content won't be allowed to go live. Customizers can extend the pipeline by adding a custom validation stage that implements the required custom checks. You might use this capability to, for example, scrub email text for obscenities or to ensure that a required disclaimer is always present. Custom validation rules require custom coding to create the actual validation logic. Your code must parse the incoming text and generate messages as needed.
+More information: [Design model-driven apps by using the app designer](https://docs.microsoft.com/powerapps/maker/model-driven-apps/design-custom-business-apps-using-app-designer)
 
-### Add a custom action to a validation pipeline
+## Advanced customization through coding
 
-Here's an example for how to add a custom validation step to a pipeline.
-
-1. Each custom action must accept the results of the previous validation action from the **ValidationContext**, and set the cumulative results to the **ValidationResults** output variable. In the following screenshot, **ValidationPipeline** is the envelope custom action, which holds the entire pipeline. The child actions are similar, using the same interface, outputs, and registration.  
-    ![Validation pipeline actions](media/custom-validation-actions.png "Validation pipeline actions")
-
-    Note that after adding a new validation step to the pipeline, you must update the **SetResult** step of the **ValidationPipeline** action to take results from the previously called custom action—in the previous step, this is **Validator2**.
-
-1. Arrange the stages in the validation pipeline as indicated in the following screenshot.  
-    ![Validation pipeline stages](media/custom-validation-stages.png "Validation pipeline stages")
-
-1. Set up the **Validator1** step as follows:  
-    ![The Validator1 step](media/custom-validation-Validator1.png "The Validator1 step")
-
-1. Set up the **Validator2** step as follows:  
-    ![The Validator2 step](media/custom-validation-Validator2.png "The Validator2 step")
-
-1. Set up the **SetResult** step as follows:  
-    ![The SetResult step](media/custom-validation-SetResult.png "The SetResult step")
-
-1. Set the custom action for **Validator1** as follows:  
-    ![Custom action for Validator1](media/custom-validation-Validator1-action.png "Custom action for Validator1")
-
-1. Set the plugin step for **Validator1** as follows:  
-    ![Plugin step for Validator1](media/custom-validation-Validator1-plugin.png "Plugin step for Validator1")
-
-1. Set the custom action for **Validator2** as follows:  
-    ![Custom action for Validator2](media/custom-validation-Validator2-action.png "Custom action for Validator2")
-
-1. Set the plugin step for **Validator2** as follows:  
-    ![Plugin step for Validator2](media/custom-validation-Validator2-plugin.png "Plugin step for Validator2")
-
-### Test the customized validation pipeline
-
-To test your validation pipeline, do the following:
-[/]: # (In step 1, "execute code such as" implies the user has several examples to choose from. If this sample code includes a placeholder that the user needs to replace with a specific value, you'll want to describe it that way. If the code will work as written, "execute the following code" is a better way to word it.)
-
-1. Open a [!include[](../includes/tn-google-chrome.md)] console, and then execute the following code:  
-   **$.ajax({type:&quot;POST&quot;, url:&quot;http://10.166.153.50/StarterPortal/api/data/v8.2/new\_ValidationPipeline&quot;, data: JSON.stringify({ValidationContext: &quot;val-ctx&quot;}), contentType:&quot;application/json&quot;, dataType:&quot;json&quot;})**  
-    ![Google Chrome console](media/custom-validation-test1.png "Google Chrome console")
-
-2. The results will be visible on the **Network** tab.  
-    ![Google Chrome Network tab](media/custom-validation-test2.png "Google Chrome Network tab")
+Advanced customization and integration with external systems is possible through code-based interactions with the system's various APIs. For details about writing code and developing for Dynamics 365 Marketing and other model-driven apps in Dynamics 365, see the [developer documentation for Power Apps](https://docs.microsoft.com/powerapps/#pivot=home&panel=developer).

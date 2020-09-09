@@ -1,25 +1,21 @@
 ---
 title: "Configure session information | MicrosoftDocs"
 description: "Learn about configuring session information."
-ms.custom:
+ms.custom: 
   - dyn365-USD
-ms.date: 08/23/2017
-ms.reviewer: ""
-ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
-ms.assetid: 574034ed-82c1-4db4-ac64-786591397e74
-caps.latest.revision: 5
+ms.date: 12/31/2019
+ms.service: 
+  - dynamics-365-customerservice
+ms.topic: article
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
+search.audienceType: 
+  - customizer
+  - developer
+search.app: 
+  - D365CE
+  - D365USD
 ---
 # Configure session information
 The session information is displayed under tabs in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] under two areas: session tab name and session overview. For an overview about this, see [Session management in Unified Service Desk](../unified-service-desk/session-management-unified-service-desk.md). You can configure the format of the information that displays as the session tab name and overview by creating appropriate session line rules.  
@@ -27,11 +23,11 @@ The session information is displayed under tabs in [!INCLUDE[pn_unified_service_
 <a name="SessionName"></a>   
 ## Configure the session tab name format  
   
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
+1. Sign in to Unified Service Desk Administrator.  
   
-2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
-  
-3. Click **Session Lines**.  
+2. Select **Session Lines** under **Basic Settings**. 
+
+3. Select **+ New**.
   
 4. On new **New Session Information** page:  
   
@@ -47,25 +43,23 @@ The session information is displayed under tabs in [!INCLUDE[pn_unified_service_
   
    ![Configure session tab name](../unified-service-desk/media/usd-configure-session-name.png "Configure session tab name")  
   
-        Alternatively, you can use replacement parameters as well to pick up values at runtime, and dynamically display the tab name. For example, to display the name of the account followed by a dash and ending with the name of the activity that started the session (such as chat, or phonecall). Type the following value: [[account.name]]-[[$Context.InitialEntity]].  
+    Alternatively, you can use replacement parameters as well to pick up values at runtime, and dynamically display the tab name. For example, to display the name of the account followed by a dash and ending with the name of the activity that started the session (such as chat, or phonecall). Type the following value: [[account.name]]-[[$Context.InitialEntity]].  
   
-       > [!NOTE]
-       >  If all replacement values have matching values in it’s dataset, the rule will be used and the system will stop looking for subsequent rules. If one or more replacement values can’t be replaced, because the data doesn’t exist, the rule will fail and the system will try the next rule ordering to the Order field (checked in order of lowest to highest).  
+    > [!NOTE]
+    >  If all replacement values have matching values in it’s dataset, the rule will be used and the system will stop looking for subsequent rules. If one or more replacement values can’t be replaced, because the data doesn’t exist, the rule will fail and the system will try the next rule ordering to the Order field (checked in order of lowest to highest).<br><br>
+    In the preceding example, [[account.name]] will be looking for the name field from an account entity that has been loaded somewhere within the current session. Because we used the lowercased version of “account” that matches to the entity name in the Common Data Service platform, it means that it is looking for the last account page loaded no matter which tab it happens to be loaded within. Because of this, if you load a subaccount and your rules have it loading in a subaccount tab (thus displaying your primary account in the Account tab, and your subaccount in your Sub Account tab), the account name that will be used will be that of the sub account. This is because the subaccount is loaded after the Account tab. If you instead wish to always use the account name of the account that is displayed in the Account tab, you would use the following: **[[Account.name]]**.<br><br>
+    The [[$Context.InitialEntity]] value is replaced at runtime with the InitialEntity context variable. This is a special context variable populated by the system with the entity name that is used to start the session.  
   
-        In the preceding example, [[account.name]] will be looking for the name field from an account entity that has been loaded somewhere within the current session. Because we used the lowercased version of “account” that matches to the entity name in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], it means that it is looking for the last account page loaded no matter which tab it happens to be loaded within. Because of this, if you load a subaccount and your rules have it loading in a subaccount tab (thus displaying your primary account in the Account tab, and your subaccount in your Sub Account tab), the account name that will be used will be that of the sub account. This is because the subaccount is loaded after the Account tab. If you instead wish to always use the account name of the account that is displayed in the Account tab, you would use the following: **[[Account.name]]**.  
-  
-        The [[$Context.InitialEntity]] value is replaced at runtime with the InitialEntity context variable. This is a special context variable populated by the system with the entity name that is used to start the session.  
-  
-5. Click **Save**.  
+5. Select **Save**.  
   
 <a name="SessionOverview"></a>   
 ## Define session overview information  
   
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
+1. Sign in to Unified Service Desk Administrator.  
   
-2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
-  
-3. Click **Session Lines**.  
+2. Select **Session Lines** under **Basic Settings**. 
+
+3. Select **+ New**. 
   
 4. On **New Session Information** page,  
   
@@ -81,7 +75,7 @@ The session information is displayed under tabs in [!INCLUDE[pn_unified_service_
   
    ![Configure session overview](../unified-service-desk/media/usd-configure-session-overview.png "Configure session overview")  
   
-5. Click **Save**.  
+5. Select **Save**.  
   
 <a name="scriptlet"></a>   
 ## Define session overview information using scriptlets  
@@ -116,17 +110,17 @@ The session information is displayed under tabs in [!INCLUDE[pn_unified_service_
  Since there is no code behind for this XAML, we take advantage of another XAML feature, Commands. There is a special command defined in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], “USD:ActionCommands.DoActionCommand”. This command is designed to call a [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-integration-uii.md)] action on any application within the agents currently running session. The CommandParameter is a URL encoded action call, with the following format.  
   
 ```  
-http://uii/[UII Hosted Application]/[Action]?[Parameter]  
+https://uii/[UII Hosted Application]/[Action]?[Parameter]  
 ```  
   
  The action must be configured as a [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] action for the specified [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] hosted application. This button calls the GotoTask action on the AgentScripting application and passes “Welcome” as the parameter. For the AgentScripting application, this call locates the task with the name, “Welcome” and jumps to that task, thus displaying a new agent script.  
   
  The image source uses a special image loader defined in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] called CRMImageLoader and must be defined in the Grid resources.  
   
- Now when you specify a binding expression, you can specify the source as an image resource name. This causes [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] to load the image from the web resources in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and show in the button. Using this method, you can refer to resources from [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] in your [!INCLUDE[pn_ms_Windows_Presentation_Foundation](../includes/pn-ms-windows-presentation-foundation.md)] (WPF) that is in your session overview. You may also specify an insecure URL for the image source. Specifying the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]image via the URL doesn’t work because authentication with the server is required to access it. WPF components do not authenticate against the URL when it attempts to load components.  
+ Now when you specify a binding expression, you can specify the source as an image resource name. This causes [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] to load the image from the web resources in the Common Data Service platform and show in the button. Using this method, you can refer to resources from the Common Data Service platform in your [!INCLUDE[pn_ms_Windows_Presentation_Foundation](../includes/pn-ms-windows-presentation-foundation.md)] (WPF) that is in your session overview. You may also specify an insecure URL for the image source. Specifying the Common Data Service platform image via the URL doesn’t work because authentication with the server is required to access it. WPF components do not authenticate against the URL when it attempts to load components.  
   
 ### See also  
  [Session management in Unified Service Desk](../unified-service-desk/session-management-unified-service-desk.md)   
  [Execute scripts using scriptlets in Unified Service Desk](../unified-service-desk/execute-scripts-using-scriptlets-unified-service-desk.md)   
  [Unified Service Desk Configuration Walkthroughs](../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)   
- [Configure your agent application using Unified Service Desk](../unified-service-desk/configure-agent-application-unified-service-desk.md)
+ [Overview of configuring agent application](../unified-service-desk/configure-agent-application-unified-service-desk.md)

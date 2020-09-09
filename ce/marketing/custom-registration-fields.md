@@ -1,35 +1,36 @@
 ---
-title: "Add custom event-registration fields (Dynamics 365 for Marketing) | Microsoft Docs"
-description: "Add custom fields to the registration form on your event portal, and read the submitted values in Dynamics 365 for Marketing"
-keywords: "custom fields;event portal;portal;registration;events"
-ms.date: 06/01/2018
-ms.service:
-  - "crm-online"
-ms.custom:
-  - "dyn365-marketing"
+title: "Add custom event-registration fields (Dynamics 365 Marketing) | Microsoft Docs"
+description: "Add custom fields to the registration form on your event website, and read the submitted values in Dynamics 365 Marketing"
+keywords: custom fields;event website;portal;registration;events
+ms.date: 12/17/2018
+ms.service: dynamics-365-marketing
+ms.custom: 
+  - dyn365-marketing
 ms.topic: article
-applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
 ms.assetid: 1972c4d0-e335-4a0a-9747-47a020b33132
-author: kamaybac
-ms.author: kamaybac
-manager: sakudes
-ms.reviewer: renwe
+author: alfergus
+ms.author: alfergus
+manager: shellyha
+ms.reviewer:
 topic-status: Drafting
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Mktg
 ---
 
 # Add custom fields to your event registration form
 
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
-
-The default registration form presented by the event portal includes fields for first name, last name, email address, and pass type (for paid events with at least one pass). If you'd like to receive additional information from attendees, such as for special needs, food allergies, or a gift preference, then you can easily add these as custom fields to your registration form. You can choose which custom fields to add to each event, and your registration records will include the values submitted by registrants.
+The default registration form presented by the event website includes fields for first name, last name, email address, and pass type (for paid events with at least one pass). If you'd like to receive additional information from attendees, such as for special needs, food allergies, or a gift preference, then you can easily add these as custom fields to your registration form. You can choose which custom fields to add to each event, and your registration records will include the values submitted by registrants.
 
 ## Set up a custom registration field
 
 Go to the **Custom registration fields** page to view and create all the custom registration fields that are available for use with your various events. You'll be able to choose which of these to include for each of your events. To set up your custom fields:
 
-1. Go to **Events** > **Event** > **Custom registration fields**.
+1. [Open the Events work area](open-events.md) and go to **Events** > **Event** > **Custom registration fields**.
 
 2. A list of your current custom fields is shown. Select **New** from the command bar to add a new field or select any listed field to edit that field.  
     ![Example custom registration field setup](media/event-reg-field-setup.png "Example custom registration field setup")
@@ -38,7 +39,7 @@ Go to the **Custom registration fields** page to view and create all the custom 
 
    - **Owner**: The name of the user who owns this record.
    - **Text**: The field label, exactly as it will be shown on the form.
-   - **Is Required**: Sets whether [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] should require registrants to specify a value for this field. Set this to **Yes** to mark the field as required.
+   - **Is Required**: Sets whether Dynamics 365 Marketing should require registrants to specify a value for this field. Set this to **Yes** to mark the field as required.
    - **Type**: Sets the type of input field created on the form. **Simple text** creates a text field where registrants can type a value. **Boolean** creates a check box (yes or no option); **Single choice** creates a drop-down list, where registrants can choose just one value; and **Multiple choice** creates a set of check boxes, where registrants can enable as many options as they want.
    - **Choices**: This setting is only shown when the **Type** is set to **Single choice** or **Multiple choice**. Enter each available option here, with options separated by a carriage return.
 
@@ -59,7 +60,7 @@ Once you have set up the custom fields you require, you can assign them to event
 Make the following settings:  
      ![Set up the custom field for the current event](media/event-reg-field-add-to-event-2.png "Set up the custom field for the current event")
 
-    - **Custom registration field**: Select an existing custom field that is already set up for your site as described in the previous section.
+    - **Custom registration field**: Select an existing custom field that is already set up for your instance as described in the previous section.
     - **Event**: This is the event where you will add this custom field. The current event should already be shown here.
     - **Order**: Enter an integer to control the position of this field (relative to other custom fields). Lowest values are displayed first in the registration form.
 

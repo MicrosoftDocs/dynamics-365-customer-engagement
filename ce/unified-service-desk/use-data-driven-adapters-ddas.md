@@ -1,25 +1,21 @@
 ---
-title: "Use data driven adapters (DDAs) in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "Use data driven adapters (DDAs) in Unified Service Desk | MicrosoftDocs"
 description: "Learn how to use data-driven adapters (DDAs) in Unified Service Desk."
-ms.custom:
+ms.custom: 
   - dyn365-USD
 ms.date: 08/23/2017
-ms.reviewer: ""
-ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
-ms.assetid: 56bb1a8b-f988-467e-9b59-8951a8809570
-caps.latest.revision: 6
+ms.service: 
+  - dynamics-365-customerservice
+ms.topic: article
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
+search.audienceType: 
+  - customizer
+  - developer
+search.app: 
+  - D365CE
+  - D365USD
 ---
 # Use data driven adapters (DDAs) in Unified Service Desk
 Data-driven adapters (DDAs) are the adapters leveraged generally by the [!INCLUDE[pn_hosted_application_toolkit_hat](../includes/pn-hosted-application-toolkit-hat.md)]. These adapters are generic assemblies that handle only the interaction with the UI and do not contain business processes. The [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] SDK ships with a DDA that provides a common set of functions that allows you to host and access a wide range of applications. However, you might require additional functionality depending on the type of application. There are various ways of extending the existing functionality, such as creating a new DDA (and using it in a composite DDA with outer DDAs) and extending an existing DDA.  

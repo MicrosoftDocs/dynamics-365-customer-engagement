@@ -1,0 +1,1 @@
+Active Directory service required for Active Directory access and authentication. This is used by Server Message Block (SMB) during organization creation  to create a 'template database' from the installation location on the Dynamics 365 Server to a UNC path on the SQL server. 

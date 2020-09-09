@@ -1,23 +1,30 @@
 ---
 title: "Configure another organization to use with Dynamics 365 for Outlook | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 01/11/2016
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - Dynamics 365 (online)
-  - Dynamics 365 (on-premises)
+  - Dynamics 365 apps 
+  - Dynamics 365 apps (on-premises)
   - Dynamics CRM 2015
   - Dynamics CRM 2016
   - Dynamics CRM Online
 ms.assetid: 9053d3af-5b50-4eed-9dfb-eebf4085bb35
 caps.latest.revision: 36
-author: "mduelae"
-ms.author: "mkaur"
-manager: "kvivek"
+author: mduelae
+ms.author: mkaur
+manager: kvivek
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Outlook
 ---
 # Configure another organization to use with Dynamics 365 for Outlook
 If you’re a member of more than one [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] organization, and you’re using [!INCLUDE[pn_crm_2015_outlook](../../includes/pn-crm-2015-outlook.md)] or later, you can use this procedure to configure each organization.  
@@ -30,11 +37,11 @@ If you’re a member of more than one [!INCLUDE[pn_microsoftcrm](../../includes/
   
    - In earlier versions of [!INCLUDE[pn_ms_Windows_short](../../includes/pn-ms-windows-short.md)], choose **Start**, point to **All Programs**, choose **[!INCLUDE[pn_crm_2015](../../includes/pn-crm-2015.md)]** or **[!INCLUDE[pn_crm_2016](../../includes/pn-crm-2016.md)]**> **[!INCLUDE[pn_configuration_wizard](../../includes/pn-configuration-wizard.md)]**.  
   
-3. In the **Microsoft Dynamics CRM 2015 for Outlook Configuration Wizard** or **Microsoft Dynamics 365 2016 for Outlook Configuration Wizard** dialog box, choose the **Add** button to add a new organization.  
+3. In the **Microsoft Dynamics CRM 2015 for Outlook Configuration Wizard** or **Microsoft Dynamics 365 apps 2016 for Outlook Configuration Wizard** dialog box, choose the **Add** button to add a new organization.  
   
     You’ll see the following (or similar) dialog box:  
   
-    ![Outlook Configuration Wizard dialog box in Dynamics 365](../media/crm-outlook-configure.png "Outlook Configuration Wizard dialog box in Dynamics 365")  
+    ![Outlook Configuration Wizard dialog box in Dynamics 365 apps](../media/crm-outlook-configure.png "Outlook Configuration Wizard dialog box in Dynamics 365 apps")  
   
 4. Do one of the following:  
   
@@ -60,6 +67,6 @@ If you’re a member of more than one [!INCLUDE[pn_microsoftcrm](../../includes/
 10. In the wizard, choose **Close**.  
   
 ### See also  
- [Do your Dynamics 365 work in Outlook using Dynamics 365 for Outlook](dynamics-365-work-outlook.md)   
- [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)   
- [Set personal options that affect tracking and synchronization between Dynamics 365 and Outlook or Exchange](set-personal-options-affect-tracking-synchronization-exchange.md)
+ [Do your Dynamics 365 apps work in Outlook using Dynamics 365 for Outlook](dynamics-365-work-outlook.md)   
+ [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 apps and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)   
+ [Set personal options that affect tracking and synchronization between Dynamics 365 apps and Outlook or Exchange](set-personal-options-affect-tracking-synchronization-exchange.md)

@@ -1,41 +1,72 @@
 ---
-title: "Create a unit group and add units to that group (Dynamics 365 for Sales) | MicrosoftDocs"
-description: "Define the quantities or measurements that you sell your products or services in by using units in Dynamics 365 for Sales."
-keywords: "unit, unit group, measurement, quantity"
-ms.date: 05/15/2018
-ms.service:
+title: "Create a unit group and add units to that group (Dynamics 365 Sales) | MicrosoftDocs"
+description: "Define the quantities or measurements that you sell your products or services in by using units in Dynamics 365 Sales."
+ms.date: 10/01/2019
+ms.service: 
   - "dynamics-365-sales"
-ms.custom:
+ms.custom: 
   - "dyn365-sales"
 ms.topic: article
-applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-ms.assetid: af99268c-9dc3-4037-b3cc-3d2a0eb2b296
 author: shubhadaj
 ms.author: shujoshi
-manager: sakudes
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-caps.latest.revision: 18
-topic-status: Drafting
+manager: annbe
 ---
 
 # Create a unit group and add units to that group (Sales and Sales Hub)
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Units are the quantities or measurements that you sell your products or services in. For example, if you sell gardening supplies, you might sell seeds in units of packets, boxes, and pallets. A unit group is a collection of these different units.  
   
  In [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], you first create a unit group and then create units within that group. Let's look at both of these tasks, using seeds as our example.  
  
-## Create a unit group and add units (Sales Hub app)
+## Create a unit group and add units (Sales Hub)
 
-Currently, creating a unit group or adding units isn't supported in the Sales Hub app. To create or edit a unit group and unit, use the Sales app.
+1. [!INCLUDE[proc_permissions_mgr_vp_ceo_busmgr_sysadmin_syscust](../includes/proc-permissions-mgr-vp-ceo-busmgr-sysadmin-syscust.md)]  
+  
+2. Select the site map icon ![Site Map icon](media/site-map-icon.png "Site map icon"), and then select **App Settings**. 
+  
+3. In the **Product Catalog** area, select **Unit Groups**. 
+
+    > [!div class="mx-imgBorder"]
+    > ![Unit groups in site map](media/site-map-unit-group.png "Unit groups in site map")
+
+4. To create a new unit group, on the command bar, select **New**.
+
+    -OR-
+
+    To edit a unit group, open a unit group from the list.
+
+5.	Fill in your information, and select **OK**:
+
+    a.	**Name**. Type a meaningful name for the unit group. In our example, you would type "Televisions."
+
+    b.	**Primary Unit**. Type the lowest common unit of measure that the product will be sold in. In our example, you would type "Piece." Other examples could include box, cartons, ounces, hours, or tons, depending on your product.
+
+    > [!div class="mx-imgBorder"]
+    > ![Create unit group dialog box](media/create-unit-group-dialog-box.png "Create unit group dialog box")
+ 
+      > [!NOTE]
+      > You cannot delete the primary unit in a unit group.
+
+6.	To add units to the unit group, select the **Related** tab, and then select **Units**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Units option on the Related tab](media/units-option-on-related-tab.png "Units option on the Related tab")
+ 
+7.	On the **Units** tab, you’ll see that the primary unit is already added. Select **Add New Unit**.
+
+8.	In the **Quick Create: Unit** form, fill in the following, and select **Save**:
+
+    a.	**Name**. Type a meaningful name for the unit. In our example, you would type "box."
+
+    b.	**Quantity**. Type the quantity that this unit will contain. For example, if a box contains 2 pieces, you would type "2."
+
+    c.	**Base Unit**. Select a base unit. The base unit will establish the lowest unit of measurement for the unit you're creating. Using our example, you would select "Piece."
+
+    > [!div class="mx-imgBorder"]	
+      ![Quick create: Unit form](media/quick-create-form-unit.png "Quick create: Unit form")
 
 
-## Step 1: Create a unit group (Sales app)
+## Create a unit group (Sales app)
   
 1. [!INCLUDE[proc_permissions_mgr_vp_ceo_busmgr_sysadmin_syscust](../includes/proc-permissions-mgr-vp-ceo-busmgr-sysadmin-syscust.md)]  
   
@@ -59,22 +90,25 @@ Currently, creating a unit group or adding units isn't supported in the Sales Hu
   
    - **Name**. Type a meaningful name for the unit group. In our example, you would type "Seeds."  
   
-   - **Primary Unit**. Type the lowest common unit of measure that the product will be sold in. In our example, you would type "packet." Other examples could include ounces, hours, or tons, depending on your product or service.  
-  
-     ![Shows how to create a unit group in Dynamics 365](../sales-enterprise/media/v7-unit-group-mobile-single.png "Shows how to create a unit group in Dynamics 365 for Sales")  
+   - **Primary Unit**. Type the lowest common unit of measure that the product will be sold in. In our example, you would type "packet." Other examples could include ounces, hours, or tons, depending on your product or service.
+   
+      > [!div class="mx-imgBorder"]  
+      > ![Shows how to create a unit group in Dynamics 365 Sales](../sales-enterprise/media/v7-unit-group-mobile-single.png "Shows how to create a unit group in Dynamics 365 Sales")  
   
 6. Select **OK**.  
   
 > [!NOTE]
 >  You cannot delete the primary unit in a unit group.  
   
-## Step 2: Create units in a unit group  (Sales app)
+## Create units in a unit group (Sales)
   
 1. In the unit group record you want to add the units to, on the nav bar, select the arrow next to the record name, and then under **Common**, select **Units**.
 
-   ![Arrow in the Unit Group record](media/arrow-unit-group-record.png "Arrow in the Unit Group record")
+    > [!div class="mx-imgBorder"] 
+    > ![Arrow in the Unit Group record](media/arrow-unit-group-record.png "Arrow in the Unit Group record")
 
-   ![Select Units in the Unit group record](media/add-units-in-unit-group-record.png "Select Units in the Unit group record")
+    > [!div class="mx-imgBorder"] 
+    > ![Select Units in the Unit group record](media/add-units-in-unit-group-record.png "Select Units in the Unit group record")
   
 2. Select **Add New Unit**.  
   
@@ -91,10 +125,12 @@ Currently, creating a unit group or adding units isn't supported in the Sales Hu
         If you then create a unit called "pallet," and one pallet contains 48 boxes, you would type "48" in **Quantity** and select "box" in **Base Unit**.  
   
       Here's how:  
+
+     > [!div class="mx-imgBorder"]   
+     > ![Create a unit in the unit group in Dynamics 365 Sales](../sales-enterprise/media/v7-unit-pack.png "Create a unit in the unit group in Dynamics 365 Sales")  
   
-   ![Create a unit in the unit group in Dynamics 365](../sales-enterprise/media/v7-unit-pack.png "Create a unit in the unit group in Dynamics 365 for Sales")  
-  
-   ![Creating a unit with a base unit in Dynamics 365](../sales-enterprise/media/v7-unit-box.png "Creating a unit with a base unit in Dynamics 365 for Sales")  
+     > [!div class="mx-imgBorder"]   
+     > ![Creating a unit with a base unit in Dynamics 365 Sales](../sales-enterprise/media/v7-unit-box.png "Creating a unit with a base unit in Dynamics 365 Sales")  
   
 4. Select **Save** or **Save and Close**.  
   

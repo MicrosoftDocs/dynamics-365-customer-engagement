@@ -5,4 +5,4 @@ The following license terms describe additional use terms for this supplement. T
 You may use as many copies of this supplement as Valid Licenses you have. Microsoft reserves the right to verify compliance pursuant to the license terms for the software or online service.
 By using this supplement, you accept these terms. If you do not accept them, do not use this supplement.
 If you comply with these license terms, you have the rights below.
-SUPPORT SERVICES FOR SUPPLEMENT. Microsoft provides support services for this software as described at http://support.microsoft.com/common/international.aspx.
+SUPPORT SERVICES FOR SUPPLEMENT. Microsoft provides support services for this software as described at https://support.microsoft.com/common/international.aspx.

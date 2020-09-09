@@ -1,33 +1,38 @@
 ---
 title: "Nurture leads through the sales process in Dynamics 365 for phones and tablets | MicrosoftDocs"
-ms.custom: ""
-ms.date: "2016-11-01"
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 11/01/2016
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - Dynamics 365 (online)
-  - Dynamics 365 (on-premises)
+  - Dynamics 365 apps
+  - Dynamics 365 apps (on-premises)
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016
   - Dynamics CRM Online
-author: "mduelae"
 ms.assetid: 16aefb72-8ff0-462e-8230-85cdedeac826
 caps.latest.revision: 30
-ms.author: "mkaur"
-manager: "kvivek"
+ms.author: mkaur
+author: mduelae
+manager: kvivek
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Sales
 ---
 # Nurture leads through the sales process in Dynamics 365 for phones and tablets
-
-[!INCLUDE[cc-applies-to-update-8-2-0](../../../../includes/cc_applies_to_update_8_2_0.md)]
 
 ## Track leads through the sales process  
  Move customers through the sales process, from lead to close, with the process bar. Once you’ve completed the steps in one stage, you can move on to the next one. The process bar highlights the stage you’re in so you know where you are in the process, and shows you what to do next.  
   
- ![Process bar in Dynamics 365 mobile app](../../../media/process-bar-dynamics-365-mobile-app.png "Process bar in Dynamics 365 mobile app")  
+ ![Process bar in Dynamics 365 apps mobile app](../../../media/process-bar-dynamics-365-mobile-app.png "Process bar in Dynamics 365 apps mobile app")  
   
  For example, in the illustration above, you start the process with a lead. In the first stage (**Qualify**), you qualify or disqualify the lead based on criteria established by your company. If you qualify the lead, it’s converted to an opportunity. The process bar then walks you through the rest of the stages: **Develop**, **Propose**, and **Close**.  
   
@@ -37,4 +42,4 @@ manager: "kvivek"
  To change the status of an opportunity, tap **Qualify**, **Disqualify**, or **Reopen Opportunity** on the command bar.  
   
 ### See also  
- [Dynamics 365 for Phones and Tablets User's Guide](../../../dynamics-365-phones-tablets-users-guide.md)
+ [Dynamics 365 for phones and tablets User's Guide](../../../dynamics-365-phones-tablets-users-guide.md)

@@ -1,0 +1,1 @@
+Removes the currently set authentication token provider, if any.

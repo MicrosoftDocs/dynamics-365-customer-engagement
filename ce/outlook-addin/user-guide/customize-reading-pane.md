@@ -1,24 +1,31 @@
 ---
 title: "Customize the Reading Pane in Dynamics 365 for Outlook | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 01/11/2016
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - Dynamics 365 (online)
-  - Dynamics 365 (on-premises)
+  - Dynamics 365 apps 
+  - Dynamics 365 apps (on-premises)
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016
   - Dynamics CRM Online
 ms.assetid: 45fe5705-b32c-4b8c-a81d-659bd987b02c
 caps.latest.revision: 13
-author: "mduelae"
-ms.author: "mkaur"
-manager: "kvivek"
+author: mduelae
+ms.author: mkaur
+manager: kvivek
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Outlook
 ---
 # Customize the Reading Pane in Dynamics 365 for Outlook
 When you use [!INCLUDE[pn_crm_for_outlook_full](../../includes/pn-crm-for-outlook-full.md)], you can choose the sections in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] records that are displayed in the Reading Pane so that you don't have to open the record to see the details.  
@@ -40,5 +47,5 @@ When you use [!INCLUDE[pn_crm_for_outlook_full](../../includes/pn-crm-for-outloo
 7. Click **OK**.  
   
 ### See also  
- [Do your Dynamics 365 work in Outlook using Dynamics 365 for Outlook](dynamics-365-work-outlook.md)   
+ [Do your Dynamics 365 apps work in Outlook using Dynamics 365 for Outlook](dynamics-365-work-outlook.md)   
  [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)   

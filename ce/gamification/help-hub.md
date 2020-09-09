@@ -1,19 +1,24 @@
 ---
 title: "Help and training for Gamification | Microsoft Docs"
 description: "Find your starting point for help content."
-keywords: ""
+keywords: 
 ms.date: 11/10/2017
 ms.service: dynamics-365-sales
 ms.topic: article
-applies_to:
-  - "Dynamics 365 (online)"
 ms.assetid: 7341ed32-5cf7-4bde-ab7a-d92c2b86e2a1
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
-ms.custom:
+ms.custom: 
   - dyn365-gamification
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Gamification
 ---
 
 # Gamification help and training
@@ -73,7 +78,7 @@ ms.custom:
 <h2> Product updates and links </h2>
 
 <li><a href="../gamification/release-notes.md" data-raw-source="[What&#39;s new in Gamification](../gamification/release-notes.md)">What&#39;s new in Gamification</a></li>
-<li><a href="https://appsource.microsoft.com/en-us/product/dynamics-365/mscrm.f6d23ec7-255c-4bd8-8c99-dc041d5cb8b3" data-raw-source="[Get Gamification from AppSource](https://appsource.microsoft.com/en-us/product/dynamics-365/mscrm.f6d23ec7-255c-4bd8-8c99-dc041d5cb8b3)">Get Gamification from AppSource</a></li>
+<li><a href="https://appsource.microsoft.com/product/dynamics-365/mscrm.f6d23ec7-255c-4bd8-8c99-dc041d5cb8b3" data-raw-source="[Get Gamification from AppSource](https://appsource.microsoft.com/product/dynamics-365/mscrm.f6d23ec7-255c-4bd8-8c99-dc041d5cb8b3)">Get Gamification from AppSource</a></li>
 <li><a href="https://go.microsoft.com/fwlink/p/?linkid=830344" data-raw-source="[Sign in to the Gamification portal](https://go.microsoft.com/fwlink/p/?linkid=830344)">Sign in to the Gamification portal</a></li>
 </td>
 </tr>

@@ -1,26 +1,29 @@
 ---
 title: Understanding and customizing resource matching in Universal Resource Scheduling (URS) | Microsoft Docs
 description: Understanding and customizing resource matching in Universal Resource Scheduling (URS)
-keywords: Universal Resource scheduling; Dynamics 365 for Field Service, Dynamics 365 for Project Service, Field Service, Project Service, Project Service Automation
-author: yonalow
-ms.author: yolow
-manager: shellyha
+author: FieldServiceDave
+ms.author: daclar
 ms.date: 06/14/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+ms.reviewer: krbjoran
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.technology: 
-  - "field-service"
-  - "project-service"  
+  - field-service
+  - project-service
 ms.assetid: 91ab73b2-3f37-4c51-ac4a-1c0bc24c461a
-ms.custom:
+ms.custom: 
   - dyn365-projectservice
   - dyn365-fieldservice
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365PS
+  - D365FS
 ---
 
 # Understanding and customizing resource matching in Universal Resource Scheduling (URS)
@@ -31,7 +34,7 @@ Universal Resource Scheduling (URS), the scheduling engine underlying Field Serv
 
 ### Resources
 
-Core to Universal Resource Scheduling (URS) is the Resource (`bookableresource`) entity. When Booking (`bookableresourcebooking`) records are created, they are associated with a Resource record. To ensure the correct resource is selected, URS ships with many built-in filters and constraints to categorize resources by. Examples are: Resource Type, indicating if the resource is a User, Contact, Account, Equipmant, etc., Characteristic, to filter resources by skills they are proficient in, Territory, to assign resources to specific regions, Organizational Unit to model an organization heirarchy, and many more.
+Core to Universal Resource Scheduling (URS) is the Resource (`bookableresource`) entity. When Booking (`bookableresourcebooking`) records are created, they are associated with a Resource record. To ensure the correct resource is selected, URS ships with many built-in filters and constraints to categorize resources by. Examples are: Resource Type, indicating if the resource is a User, Contact, Account, Equipment, etc., Characteristic, to filter resources by skills they are proficient in, Territory, to assign resources to specific regions, Organizational Unit to model an organization hierarchy, and many more.
 
 A Resource record and its associated constraints are modeled through attributes or relationships to other entities. For example, Name and Resource Type are attributes on the Resource entity.  Resource Characteristics and Resource Territories are child relationships since a resource can be associated with more than one of them. These entities are child relationships to both the Resource AND the Characteristic/Territory entity. Organizational Unit is a lookup attribute on the Resource entity to the Organizational Unit entity.
 
@@ -191,8 +194,8 @@ The Resource Matching API receives as input the constraints property bag and que
 - Manual filtering. Filter Panel > Resource Matching API
 
     1. A user manually adds constraints in the Filter panel
-    1. The constraints are sent to the Resource Matching API
-    1. The filtered list of resources is shown
+    2. The constraints are sent to the Resource Matching API
+    3. The filtered list of resources is shown
 
 - Requirement filtering. Retrieve Requirement Constraints API > Filter Panel > Resource Matching API
 
@@ -243,11 +246,11 @@ Based on the [resource matching flows](#summarizing-the-resource-matching-flows)
 
     The API needs to read our new Required Language and Secondary Language attributes so when a user finds availability for a Requirement our new constraints are retrieved.
 
-1. Filter panel
+2. Filter panel
 
     A user should be able to select from a list of Language records in the Filter panel to filter for matching resources. When finding availability for a Requirement, the Filter panel should show the Required Language and Secondary Language from the Requirement record pre-selected in the list of Languages.
 
-1. Resource Matching API
+3. Resource Matching API
 
     The API will get as input the new Language constraints; it needs to return only resources speaking the selected languages.
 
@@ -269,6 +272,9 @@ Another client side extensibility point made available in the July 2017 update i
 
 > [!div class="nextstepaction"]
 > A step by step guide with code samples needed for each step is described in [Extending URS: Find resources by language - a step by step guide](extending-urs-step-by-step.md)
+
+## Additional notes
+- The filter layout is currently not configurable when a schedulable entity uses an associated requirement group instead of a resource requirement. 
 
 ### See also
 

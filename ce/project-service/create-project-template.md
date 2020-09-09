@@ -1,20 +1,25 @@
 ---
-
-title: Create a project template (Dynamics 365 for Project Service) | MicrosoftDocs
+title: Create a project template
 description: How to create a project template in Project Service
-author: krbjoran
-manager: ShellyHa
+author: ruhercul
+manager: kfend
 ms.service: dynamics-365-customerservice
-ms.custom:
+ms.custom: 
   - dyn365-projectservice
 ms.date: 8/03/2018
 ms.topic: article
 ms.prod: 
-ms.service: business-applications
 ms.technology: 
-ms.author: krbjoran
+ms.author: ruhercul
 audience: Admin
-
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365PS
+  - ProjectOperations
 ---
 # Create a project template (Project Service)
 

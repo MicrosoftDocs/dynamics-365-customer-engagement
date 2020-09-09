@@ -1,28 +1,33 @@
 ---
 title: "Track your progress with charts in Dynamics 365 for phones and tablets | MicrosoftDocs"
-ms.custom: ""
-ms.date: "2016-11-01"
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 11/01/2016
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - Dynamics 365 (online)
-  - Dynamics 365 (on-premises)
+  - Dynamics 365 apps
+  - Dynamics 365 apps (on-premises)
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016
   - Dynamics CRM Online
-author: "mduelae"
 ms.assetid: a35894cf-7d9c-402c-8cdb-7e0edecf4491
 caps.latest.revision: 29
-ms.author: "mkaur"
-manager: "kvivek"
+ms.author: mkaur
+author: mduelae
+manager: kvivek
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Sales
 ---
 # Track your progress with charts in Dynamics 365 for phones and tablets
-
-[!INCLUDE[cc-applies-to-update-8-2-0](../../../../includes/cc_applies_to_update_8_2_0.md)]
   
  Charts give you a quick view of how you’re tracking to your goals. They’re interactive, so you can tap an area of a chart to see the data for that area, or you can tap the area outside the chart to see the data for the entire chart. In the phone app, swipe left and right to view the chart and its associated records.  
   
@@ -49,4 +54,4 @@ manager: "kvivek"
 2.  Select the chart you want to display.  
   
 ### See also  
- [Dynamics 365 for Phones and Tablets User's Guide](../../../dynamics-365-phones-tablets-users-guide.md)
+ [Dynamics 365 for phones and tablets User's Guide](../../../dynamics-365-phones-tablets-users-guide.md)

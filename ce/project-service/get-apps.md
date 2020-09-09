@@ -1,21 +1,28 @@
 ---
-
-title: Get the Dynamics 365 and Project Finder Mobile apps (Dynamics 365 for Project Service) | MicrosoftDocs
-description: How to get the Dynamics 365 and Project Finder Mobile apps
-author: krbjoran
-manager: ShellyHa
-ms.service: dynamics-365-customerservice
-ms.custom:
+title: Get the Dynamics 365 Project Finder Mobile apps | MicrosoftDocs
+description: How to get the Dynamics 365 Project Finder Mobile apps
+author: ruhercul
+manager: kfend
+ms.service: 
+ms.custom: 
   - dyn365-projectservice
 ms.date: 8/03/2018
 ms.topic: article
-ms.prod: 
-ms.service: business-applications
+ms.prod: Dynamics 365 Project Service Automation
 ms.technology: 
-ms.author: krbjoran
+ms.author: ruhercul
 audience: Admin
-
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365PS
+  - ProjectOperations
 ---
+
+
 # Get the apps (Project Service)
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]

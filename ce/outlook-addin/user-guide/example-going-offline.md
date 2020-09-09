@@ -1,31 +1,38 @@
 ---
 title: "Example of going offline with Dynamics 365 for Outlook | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 01/11/2016
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - Dynamics 365 (online)
-  - Dynamics 365 (on-premises)
+  - Dynamics 365 apps 
+  - Dynamics 365 apps (on-premises)
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016
   - Dynamics CRM Online
 ms.assetid: f622fe69-14b3-44e0-a4eb-093959910c70
 caps.latest.revision: 35
-author: "mduelae"
-ms.author: "mkaur"
-manager: "kvivek"
+author: mduelae
+ms.author: mkaur
+manager: kvivek
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Outlook
 ---
 # Example of going offline with Dynamics 365 for Outlook
 Salespeople can make critical customer information available and up-to-date on business trips with filters. By specifying only the data you need to synchronize with your laptop, you can avoid wasting valuable laptop memory, stay current with the head office, and keep information on your laptop fresh. Meanwhile, managers and co-workers are up-to-date.  
   
  Using [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], you can set up and activate filters with criteria similar to Advanced Find by specifying the criteria for the [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] records that you want to be available when you go offline. In addition, you can change what data will be available when you synchronize by activating and deactivating the filters.  
   
- To see what data filters are being applied to your offline synchronization, in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)], on the **File** menu, click or tap **Dynamics 365** > **Go Offline** > **Manage Offline Filters**.  
+ To see what data filters are being applied to your offline synchronization, in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)], on the **File** menu, click or tap **Dynamics 365 apps** > **Go Offline** > **Manage Offline Filters**.  
   
 > [!NOTE]
 >  You can have more than one active filter so you can take larger, combined sets of data offline.  
@@ -50,7 +57,7 @@ Salespeople can make critical customer information available and up-to-date on b
   
 ## Take your data offline and synchronize your data  
   
-- In [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)], on the **Dynamics 365** menu, click or tap **Go Offline**.  
+- In [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)], on the **Dynamics 365 apps** menu, click or tap **Go Offline**.  
   
   While you are offline, you can add new contacts and accounts or update the accounts and contacts on your laptop. When connecting to your company's network again, you can synchronize your data.  
   
@@ -59,7 +66,7 @@ Salespeople can make critical customer information available and up-to-date on b
   
 ## Go back online and synchronize your data  
   
-- In [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)], on the **Dynamics 365** menu, click or tap **Go Online**.  
+- In [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)], on the **Dynamics 365 apps** menu, click or tap **Go Online**.  
   
   Any updated data from your laptop will be synchronized with your company's [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] database. You can now deactivate and activate a new set of filters for your next visits, using the procedures explained earlier in this article.  
   

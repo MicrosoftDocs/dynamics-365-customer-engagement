@@ -1,236 +1,158 @@
 ---
-title: "Create segments and lists to establish target markets (Dynamics 365 for Marketing) | Microsoft Docs"
-description: "How to create segments and lists that you can use to target customer journeys and manage subscriptions in Dynamics 365 for Marketing"
-keywords: "segment; marketing list; subscription; Customer Insights"
-ms.date: 04/01/2018
-ms.service:
-  - "dynamics-365-marketing"
-ms.custom:
-  - "dyn365-marketing"
+title: "Create segments and lists to establish target markets (Dynamics 365 Marketing) | Microsoft Docs"
+description: "Use segments and lists to target customer journeys and manage subscriptions in Dynamics 365 Marketing"
+ms.date: 07/07/2020
+ms.service: dynamics-365-marketing
+ms.custom: 
+  - dyn365-marketing
 ms.topic: article
-applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
 ms.assetid: 2ff81085-af7a-455b-857a-0aa0ade61416
-author: kamaybac
-ms.author: kamaybac
-manager: sakudes
-ms.reviewer: renwe
-topic-status: Drafting
+author: alfergus
+ms.author: alfergus
+manager: shellyha
+ms.reviewer:
+topic-status:
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Mktg
 ---
 
-# Market segmentation, marketing lists, and subscription lists
+# Working with segments
 
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
+Segments let you create groups of related contacts that you can target with customer journeys. Segments are created using the segment designer. One way to build segments is by querying across related entities including contacts, leads, accounts, events, marketing lists, and more. You can also query the marketing-insights service to find contacts that have engaged with your marketing initiatives. The marketing-insights service also allows you to query contacts that you aren't reaching because of issues such as email bounces.
 
-You can define your various target groups by setting up segments and lists. Each list or segment represents a collection of contacts that you can use to target a customer journey. You'll also use marketing lists in your subscription center to enable contacts to manually opt-in or opt-out of various types of newsletters and other marketing communications.
+The segment designer resembles other querying tools found in Dynamics 365 (such as the advanced-find feature), but is more flexible and powerful. The segment designer is the only tool that lets you query interaction records from the marketing-insights service.
 
-## Segments in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]
+> [!NOTE]
+> Marketing *segments* are different than marketing *lists*. More information: [Marketing segments vs. marketing lists](segments-vs-lists.md)
 
-A market segment is the collection of contacts that you target in a marketing campaign. In some cases, you'll simply target all the contacts you have, but in most cases, you'll choose who you want to target based on demographic or firmographic data and other considerations. For example, if you're opening a new store in San Francisco, you'll probably promote the opening-day event at that store only to contacts who live near San Francisco. Or if you're running a sale on dresses, you might only send related marketing email messages to your contacts who are female. Decisions like these will typically also affect the way you communicate with the segment in terms of which channels you'll choose, what kind of graphics you'll pick, which kinds of arguments you make, and more.
+## Segments in Dynamics 365 Marketing
 
-[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] uses segments to target customer journeys. Most customer journeys start with a segment tile, which establishes the collection of contacts who will experience that journey. You can combine multiple segments here.
+A market segment is a collection of contacts that you target with a customer journey. In some cases, you'll target all the contacts you have. But in most cases, you'll choose who you want to target based on demographic, firmographic, behavioral data, and other considerations.
+
+For example, if you're opening a new store in San Francisco, you'll probably promote the opening day event only to contacts who live near San Francisco. Or, if you're running a sale on dresses, you might only send related marketing email messages to your contacts who are female. You may want to target the contacts who have shown interest in the dresses in the past. In this case, you can narrow the segment by only targeting contacts who have opened emails related to dresses in the past. Decisions like these will affect how you communicate with the segment. These decisions will also influence which channels you'll choose, what kind of graphics you'll pick, which kinds of arguments you make, and more.
+
+<a name="segment-types"></a>
 
 ### Types of segments
 
-Segments can be dynamic, static, or compound.
+Segments can be dynamic or static.
 
-- *Dynamic segments* are set up by using logical expressions, such as "all contacts from New York" or "all contacts who like The Mets." Membership in dynamic segments changes constantly to reflect new or removed contacts and updated contact information.
+- *Dynamic segments* are set up by using logical expressions, such as "all contacts from New York" or "all contacts who like The Mets." Membership in dynamic segments changes constantly to reflect new or removed contacts and updated contact information. Both demographic and firmographic segments are examples of dynamic segments.
 - *Static segments* establish a static list of contacts who are selected on a per-contact basis rather than created logically based on field values. Marketers and salespeople might create and populate a static list based on private knowledge or offline interactions.
-- *Compound segments* combine existing (live) segments using logical operators.
 
-### Segments are synced with the customer-insights services
+Segments can have blocks of queries based on profiles, interactions, or other segments.
 
-[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] works together with a set of external customer-insights services that operate using their own, external, customer-interaction database to provide advanced segment definitions and customer analytics. The integration is seamless and results in powerful combined functionality when the two systems work together. Your contact records and marketing lists are continuously synchronized between the two systems, which lets the customer-insights services apply their powerful data processing and analytical tools to your contacts, and combine these with information from other types of [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] records and information from other systems.
+- *Profile blocks* query the _profile_ records stored in the marketing-insights service. Profiles records are synced between your Dynamics 365 organizational database and the marketing-insights service. Profile records include the entities you normally work with in the Dynamics 365 UI, such as contacts, accounts, leads, and any other entities that you [choose to sync](mkt-settings-sync.md).
+- *Behavioral blocks* query the _interaction_ records stored in the marketing-insights service. Each of these records is generated automatically and related to a specific contact record. Interaction records are accessed to generate various insights displays in the Dynamics 365 Marketing UI. Interaction records _aren't_ synced to the Dynamics 365 organizational database. They are generated in response to contact interactions such as opening an email, clicking an email link, submitting a form, or registering for an event.
+
+### Segments are synced with the marketing-insights service
+
+Dynamics 365 Marketing works together with the marketing-insights service, which operates using its own marketing-insights database to provide advanced segment definitions and customer analytics. The integration results in powerful combined functionality when the two systems work together. Your contact records and marketing lists are continuously synchronized between the two systems, which lets the marketing-insights service apply its powerful data processing and analytical tools to your contacts, and combine this information with data from other types of Dynamics 365 records.
 
 > [!IMPORTANT]
-> The customer-insights services process changes to segment membership asynchronously, which means you can't predict the order in which changes are processed. In some cases, such as when processing very large databases, it can take up to six hours for a given segment to get updated. You therefore can't rely on any one segment being processed before or after a specific other segment, so be careful when orchestrating related campaigns and/or using  [suppression segments](customer-journeys-create-automated-campaigns.md#suppression-segment).
+> The marketing-insights service processes changes to segment membership asynchronously, which means you can't predict the order in which changes are processed. In some cases, such as when processing very large databases, it can take up to six hours for a given segment to update. You therefore can't rely on any one segment being processed before or after a specific other segment, so be careful when orchestrating related campaigns or using  [suppression segments](customer-journeys-create-automated-campaigns.md#suppression-segment).
 
 ### Segments must be live before you can use them
 
-When you first create a new segment, it is in a _draft_ state, which means that it is unlocked, so you can work with its definition and other settings, but you won't be able to use it in customer journeys or compound segments. When you are ready to use your segment, you must open it and select **Go Live** from the command bar, which enables it and moves to the _live_ state.
+When you first create a new segment, it is in a _draft_ state, which means that it is unlocked so you can work with its definition and other settings, but you won't be able to use it in customer journeys. When you are ready to use your segment, you must open it and select **Go Live** from the command bar, which enables it and moves to the _live_ state.
 
 > [!IMPORTANT]
-> While you are designing your segment, you can select the **Get estimated segment size** link to get an *estimate* for the number of contacts that will be included in the segment. This is only an estimate, and can be somewhat different from your actual segment size. You must go live with the segment to view its exact size and membership.
+> While you are designing your segment, you can select the **Get estimated segment size** link to get an *estimate* for the number of contacts that will be included in the segment. Usually the estimate will be exact, but sometimes the final size may vary slightly (you must go live with the segment to view its exact size and membership).
 
-If you need to edit a segment after it has gone live, open it and then select **Stop** from the command bar to put it back into the draft state.
+If you need to edit a segment after it has gone live, open it and then select **Edit** from the command bar to put it into the "Live, Editable" state or **Stop** from the command bar to put it back into the "Draft" state.
 
-[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Go live with publishable entities and track their status](go-live.md)
+More information: [Go live with publishable entities and track their status](go-live.md)
 
-## View, create, and manage your segments
+## View and manage your segments
 
-To work with your segments, go to **Marketing** &gt; **Customers** &gt; **Segments**. This opens a standard list view, which you can use to search, sort, filter, create, and delete your segments. Open any segment to view its details, or select **New** to create a new one.
+To work with your segments, go to **Marketing** > **Customers** > **Segments**. This opens a standard list view, which you can use to search, sort, filter, create, and delete your segments. Open any segment to view its details, or select **New** to create a new one.
 
-![The General tab for segments](media/segment-general.png "The General tab for segments")
+<a name="create-segment"></a>
 
-Segment records provide several tabs for describing, defining, and reviewing the segment. Tabs are shown as a set of headings under the header, which shows the name of the segment. Select any of these headings to go to the relevant tab. Each tab is described briefly in the following subsections.
+## Create and go live with a new segment
 
-### The General tab
+Read this section to get a basic overview of how to create a segment and start it running so you can see its members and use it to target a customer journey.
 
-The **General** tab provides general information about the segment, including:
+1. Go to **Marketing** >**Customers** > **Segments** to open a list of current segments.
 
-- **Name**: Enter a name that will make the segment easy for you and others to identify while working in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)].
-- **Segment Type**: Set the segment to dynamic, static, or compound. This setting controls which types of settings you'll see for populating the list on the **Definition** tab.
-- **Status reason**: Shows whether the segment is draft or live. Only live segments are available for use in customer journeys and compound segments.
+1. Select **New** to start creating your new segment, and select the type of segment you would like to create:
+
+  - **Dynamic segment**: Creates a dynamic segment that can query contact records and interaction records, as well as include, intersect, or exclude contacts in existing segments. While querying contact records, you can add relations as needed to create a more complex query.
+  - **Static segment**: Creates a segment where you manually select each member rather than creating a logical query that automatically adds them. For details about how to work with this kind of segment, see [Design static segments](segments-static.md)
+
+3. If you selected a **dynamic segment**: The **Segment template** dialog box opens, showing a list of available [templates](segments-templates.md). Each template provides a fully or partially defined query designed for a particular purpose, as indicated by the template name. Select any template to read more information about it in the information panel. **Filter** and **Search** features are provided to help you find the template you're looking for. Select a listed template and then choose **Select** to load the template, or choose **Cancel** to start building a new segment from scratch.
+
+    ![Choose a segment template](media/segment-choose-template.png "Choose a segment template")
+
+  - If you selected a template, your template will load and you skip this step. If you selected **Cancel** on the **Segment template** dialog, a blank designer opens, allowing you to start your segmentation from scratch. You can begin by selecting a query block (referred to as a profile block above, an interaction block, or a segment. You can add other blocks to this block, and pick the relationship between the blocks. You can choose contacts that appear in either of the blocks by selecting "or," contacts that appear in both blocks by selecting "and also," or contacts that appear in the first block but not in the second by selecting "but not."
+  - Next, the segment designer opens, showing settings and tools that are appropriate for your selection or template. Start by naming your segment at the top of the segmentation canvas.
+
+4. If you selected a **static segment**: A quick create menu appears, asking you to set a name for the segment and select a few primary options. You can create a description for the segment, select the timezone of the segment, and select if the [scope](#the-general-tab) of the contacts queried for the segment includes the entire organization or just your business unit.
+
+  - In the static segment designer, you can handpick contacts individually by selecting the "Add" button on the "General" tab.
+  - You can also use a query to quickly filter your contacts, and then select some (or all) of them to be added to your static segment by selecting the **Add by Query** button. Similarly, you can use a query to quickly select certain contacts that you want to remove from a segment by selecting the **Remove by Query** button.
+    - Using queries to add or remove members from the static segment: When the "Add by Query" or "Remove by Query" option is selected, the Manage Segment Members dialog opens. Here you can craft queries based on contact properties, as well as properties of entities related to the contact (Account, Lead, Event Registration) to fetch a list of contacts who fit that query. **Note that these contacts have not yet been added to your static segment.**
+    - You can select one or multiple contacts from the query results and click on the **Add selected** button to add them to the segment. If you are removing segment members, click the **Remove selected** button. You can also add/remove all the contacts that your query fetched by selecting the **Add all** or **Remove all** button.
+    - If you would like to edit the query that fetched the list of contacts, click on the **Edit query** button.
+
+5. Select **Save** on the toolbar to save your segment.
+
+1. Use the tools provided by the designer to establish your segment membership criteria, as described elsewhere in this topic, for your selected segment type.
+
+1. When you're done designing the segment, select **Go live** on the toolbar to start running the segment, find all of its members (as needed), and make it available for use with your customer journeys. Once your segment is live, it will include a **Members** tab, where you can go to see exactly which contacts are part of the segment.
+
+> [!NOTE]
+> After you go live with a dynamic segment, you can check when it was last evaluated and the next evaluation time at top of the segment **Members** tab.
+>
+> ![Segment evaluation status](media/segment-lists-subscriptions-evaluated.png "Segment evaluation status")
+
+## Tabs and settings for segments
+
+Tabs are shown as a set of headings under the header, which shows the name of the segment. Select any of these headings to go to the relevant tab. Each tab is described briefly in the following subsections.
 
 ### The Definition tab
 
-Use the **Definition** tab to establish membership of the segment. For dynamic segments, you'll get a query builder here. For static segments, you'll select specific contacts one at a time.
+Use the **Definition** tab to establish the membership of the segment. For dynamic segments, you'll find a query builder here. For static segments, you'll select specific contacts one at a time.
 
-The settings on this tab are described in more detail later in this topic.
+### The General tab
+
+The **General** tab provides a few basic settings and general information about the segment. Many of the values here are established when you first create the segment and then become read only. Some fields are only present if your application is configured to use them. All fields are read-only when the segment is live. The fields you see may include some or all of the following:
+
+- **Name**: The name of the segment as it appears in the segment list and when selecting segments for a customer journey.
+- **Created on**: The date the segment was created.
+- **Segment Type**: Shows the [segment type](#segment-types) (dynamic or static). This is permanently established when you first [create the segment](#create-segment).
+- **External source**: For segments that are synced from an external source, such as Dynamics 365 Customer Insights, information about the external source is shown here.
+- **External segment URL**: For segments that are synced from an external source, such as Dynamics 365 Customer Insights, the URL of the external source is shown here.
+- **Time Zone**: Shows the time zone of the segment. This is the timezone that the segment uses to calculate dates relative to the current time. For example, if you choose the partial date operator "All contacts who registered for an event in the last three days," the three-day duration is calculated using the segment time zone.
+- **Activation status**: Shows whether the segment is in a draft or live state. Only live segments are available for use in customer journeys. (This is also referred to as the **Status reason**.)
+- **Owner**: Shows the name of the user who owns the segment.
+- **Scope**: This setting only appears when business-unit scopes are enabled for your instance. When scopes are enabled, this can have a setting of **Business unit** or **Organization**, but only privileged users (such as managers or admins) will be able to change it.  When set to **Business unit**, the segment will only contain contacts that belong to the same business unit as the segment owner, even when the query would normally find more contacts than this. When set to **Organization**, the segment will contain all contacts that match the query, regardless of who owns the contacts or the journey. When this feature is disabled, the segment behaves as though it were set to **Organization**. More information: [Use business units to control access to Marketing records](business-units.md)
+- **Description**: A description of the segment.
+- **Members**: The number of contacts that are currently included in the segment.
+
+### The Members tab
+
+The **Members** tab is only shown after your segment has gone live at least once. Use it to see which contacts are part of the segment. It typically takes a few minutes for the Members tab to populate after you go live with a segment.
+
+### The Insights tab
+
+Many types of entities, including segments, show a tab labeled **Insights** after a record has gone live at least once. This tab shows results, analytics, KPIs, and other information about how that record has been used and how contacts have interacted with it. More information: [Analyze results to gain insights from your marketing activities](insights.md)
 
 ### The Related tab
 
-This is actually a drop-down list that you can use to find other types of records (such as customer journeys) that use or reference the current segment. When you choose an entity name here, a new tab named for that entity opens, showing a list of all found records. The **Related** tab remains available, and you can still use it to find other types of records that reference the current segment.
-
-## Define a static segment
-
-To create a static segment, set its **Segment type** to **Static** on the **General** tab. Then use the **Definition** tab to find and add contacts to it, one at a time.
-
-When you are working with a static segment, the **Definition** tab lists all of the contacts from your database, with a check box shown for each. Select the check box for each contact you want to include in the segment, and clear the check box for all other contacts.
-
-Because your database probably includes a large number of contacts, the **Definition** tab can't show all of them at once. It provides paging controls at the bottom and a search filter at the top. Select the filter button at the top of the list to open a form where you can build a query that can help you find the contacts you want to add.
-
-> [!TIP]
-> Each time you adjust the filter settings, you must select the **Apply** button to update the list.
-
-## Define a dynamic a segment
-
-To create a dynamic segment, set its **Segment type** to **Dynamic** on the **General** tab. Then use the **Definition** tab to build your dynamic segment by combing _groups_ of _logical expressions_, each of which results in a set of contacts. Each group establishes a _path_ through one or more entities that must end at the **Contact** entity (the order matters).
-
-> [!IMPORTANT]
-> Your dynamic-segment queries can reference fields of all data types _other than multiple option set_. The **Designer** and **Explorer** may sometimes show data fields of this type, but your segment won't work if you include them in your queries so avoid selecting these fields.
-
-### Define a segment group
-
-Each group in your segment results in a list of contacts, which are selected by the logic defined in that group. For example, you might build a path as follows:
-
-1. Start with the **Marketing List** entity to find a marketing list named **subscribers**.
-1. Continue to the **Accounts** entity to find the accounts from that list, and find only companies working in the insurance industry.
-1. End at the **Contacts** entity to find the contacts from those accounts, and find only contacts living in California.
-
-Because the path ends with contacts, the result is a list of contacts who live in California and work for insurance companies that are on the **subscribers** list. (Many segment groups that you create will probably query the **Contacts** entity only, but even groups such as these might employ complex logic that combines multiple AND and OR clauses.)
-
-> [!IMPORTANT]
-> While you are designing your segment, you can select the **Get estimated segment size** link to get an *estimate* for the number of contacts that will be included in the segment. This is only an estimate, and can be somewhat different from your actual segment size. You must go live with the segment to view its exact size and membership.
-
-When working in the **Designer** view, you can build this query by using the **+ And** buttons and various drop-down lists to produce the following:
-
-![An example of a segment group definition](media/segment-designer-example.png "An example of a segment group definition")
-
-Another way to work here is to use the **Explore** view, which provides a graphical map of the path you're creating. To use that view, select the **Explore** button for a group on the **Definition** tab. (It's also available on the **Flow** tab; more on that later.)
-
-![The segment explorer](media/segment-explorer-example1.png "The segment explorer")
-
-The map at the top of the explorer shows the entities that are available for use when creating segments. The map is updated as you build your query group to indicate which paths are still valid. It uses the following colors and line weights to indicate this:
-
-- **Turquoise circle**: marks the target entity—all paths must end here (currently, always **Contact**).
-- **Green circle**: marks the currently selected entity. The attributes belonging to this entity are listed below the map. Use the drop-down lists and input fields here to build a query that finds the records you want from the selected entity. After setting up a row, select **+** on the right side to add that expression to the query.
-- **Blue circles**: mark entities that are not yet used, but are still available.
-- **Gray circles**: mark entities that are no longer selectable because of settings you've already made for the current path.
-- **Blue, bold lines**: mark paths that are not yet used, but are still available.
-- **Gray, bold lines**: mark paths that are already part of the query.
-- **Gray, thin lines**: mark paths that are no longer available because of settings you've already made.
-
-Close the **Explore** view by selecting **OK**. Your resulting query is then shown in the **Designer**, just as though you had created it there (as shown previously).
-
-The following image shows the previous query midway through construction, where we're adding the account criterion. Note how the map colors indicate where you are, where you've been, and what you can (and can't) do next.
-
-![The segment explorer map, showing progress](media/segment-explorer-example2.png "The segment explorer map, showing progress")
+Almost all types of entities in Dynamics 365 Marketing include a **Related** tab. Use it to find records that are related to the currently open record. This "tab" is just a drop-down list where you can select the type of related records you'd like to see. On selecting a record type (entity), a new tab named for that entity is added to the page where you can see a list of the related records of the selected type. When you select a new entity from the Related tab, it replaces the one currently shown.
 
 > [!NOTE]
-> On adding the final **Contacts** entity to the expression we've been describing in this example, you'll be asked to choose which of the available paths to use.
-> 
-> ![The multiple-paths dialog](media/segment-explorer-multiple-paths.png "The multiple-paths dialog")
-> 
-> The correct one is **contact\_account\_accountid\__\<suffix\>_**, which establishes how the contact entity relates to the account entity.
-
-### Combine segment groups
-
-A simple segment might have just one group, but you can create and combine as many groups as needed. As a result, you can create highly sophisticated queries.
-
-You combine groups, working first group to last, by using the following operators:
-
-- **Union**: combines all members of a group with the results of the previous group.
-- **Exclude**: removes members of a group from the results of the previous group.
-- **Intersect**: removes all members from the previous group that are not also members of the current group.
-
-When you're working on the **Designer** tab, use the **+ Add Group** button to add a group and choose its operator.
-
-The **Flow** tab provides another view of how your groups are combined. Here, you get a Sankey diagram of how your groups are combined, and how contacts flow into and out of the segment as a result of the operation from each group.
-
-![Sankey diagram on the Flow tab](media/segment-sankey-example.png "Sankey diagram on the Flow tab")
-
-You can also add new groups while working on the **Flow** tab, which provides the same **Explore** view described previously for defining the group.
-
-## Define a compound segment
-
-A compound segment combines one or more existing segments into a single new segment. To create a compound segment:
-
-1. Create or edit a segment and, on the **General** tab, set its **Segment type** to **Compound segment**.
-
-1. Go to the **Definition** tab, which shows a drop-down list for selecting your first member segment. Choose an existing segment and then select the submit button next to the list.  
-    ![Choose the first segment](media/segment-compound-step1.png "Choose the first segment")
-    > [!TIP]
-    > Only existing, live segments are shown in the list. If you don't see a segment here that you are expecting, check to make sure it's live (not draft).
-
-1. Your chosen segment is added, and a new **Add Operation** block is shown. If you want to combine another segment with the current result, then choose an operation here.  
-    ![Choose an operation for combining a new segment with the current result](media/segment-compound-step2.png "Choose an operation for combining a new segment with the current result")
-
-    The operations work as follows:
-    - **Union**: will combine all members of the next segment with the results so far.
-    - **Exclude**: removes members of the next segment from the results so far.
-    - **Intersect**: removes all members from the results so far that are not also members of the next segment.
-
-1. A new block is added, which once again asks you to choose a segment. As before, choose a segment and select the submit button to apply it.  
-    ![Choose a segment to apply using the selected operation](media/segment-compound-step3.png "Choose a segment to apply using the selected operation")
-
-1. Continue to compose your segment by adding more segments as needed and choosing an operation for each. As with the **Flow** view for dynamic, segments, you'll build a Sankey diagram of how your segments are combined, and how contacts flow into and out of the segment as a result of each operation.  
-    ![Sankey diagram for a compound segment](media/segment-compound-step4.png "Sankey diagram for a compound segment")
-    > [!TIP]
-    > To edit or remove a segment already shown in the diagram, hover over the upper-right corner of a displayed tile to reveal edit and delete buttons, which you can select to edit or delete that tile.
-
-## Set up marketing lists for use with subscription centers
-
-Subscription lists enable contacts to add or remove themselves from a static marketing list, which you can then use to create a segment that targets members of that list, for example to deliver a monthly newsletter.
-
-To set up a subscription list, you must use the [!INCLUDE[pn-custom-app-module](../includes/pn-custom-app-module.md)] app to create the static marketing list and mark it as a subscription list. Then you'll be able to set up a segment tile in a customer journey to use that list as a target segment. Lists marked as subscription lists are also available for use on your subscription centers, but static segments are not.
-
-For details about how to create marketing lists and use them in subscription centers and segment tiles, see [Set up subscription lists and subscription centers](set-up-subscription-center.md).
-
-## Create segments based on opportunities
-
-Here's an example of how to define a segment that starts by finding a collection of opportunities and, as usual, ends by finding the contacts that belong to that segment. In this example, we'll find contacts associated with opportunities valued over $10,000.
-
-1. If your [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] instance isn't already set up to sync opportunities with the customer-insights services, talk to your admin about setting this up. If you are the admin, then see [Choose entities to sync with the customer-insights services](marketing-settings.md#dci-sync) for instructions.
-
-1. Go to **Marketing** > **Customers** > **Segments** and select **+ New** from the command bar.
-
-1. Fill out the **General** tab with a name and description for your new segment.
-
-1. Open the **Definition** tab, where you'll find the segment **Designer**. A default contact group is provided, but you don't want a contact group, so select the close button to remove this default group.  
-    ![Close the default group](media/segment-opportunity-close-group.png "Close the default group")
-
-1. The default group closes, leaving behind a **Select a profile or relationship** drop-down list. Select **Opportunity** from here. (If you don't see the **Opportunity** entity listed here, then you probably need to set up syncing for this entity as described in the fist step of this procedure; note that it can take up to six hours for a new entity to appear in this list after the first sync.)  
-    ![Select the waitlist-item entity](media/segment-opportunity-choose-entity.png "Select the waitlist-item entity")
-
-1. Complete the row to create the logical expression:  
-    **Opportunity | Total Amount | &ge; | 10000**.  
-    ![Start with the opportunity entity](media/segment-example-opportunity1.png "Start with the opportunity entity")
-
-1. Select **+And** to add a new clause to the group. Now you must choose the relation between the opportunity entity and the contact entity, which is where we need to end up. Choose **opportunity&#95;contact&#95;customerid&#95;_&lt;suffix&gt;_** and set it to match **All&#42;**.  
-    ![Set the relation from opportunity to contact](media/segment-example-opportunity2.png "Set the relation from opportunity to contact")
-
-1. Select **+And** to add a final clause to the group, which must end with the contact entity. Set the new clause to use the **contact&#95;_&lt;suffix&gt;_** entity and set it to **All&#42;** to find all contacts associated with the selected opportunities.  
-    ![Finish the path to the contact entity](media/segment-example-opportunity3.png "Finish the path to the contact entity")
-
-1. Your group will now find contacts associated with opportunities valued over $10,000.
-
-> [!NOTE]
-> If you leave the **Designer** tab and then come back, you'll notice that the middle (relation) clause has disappeared. Don't worry, it's still there in the background (and you can still see it on the **Query** tab), but the interface hides it to make the group easier to read.
+> The **Related** tab for segments sometimes includes an entry for **Customer journeys**, but this entry only finds journeys where the current segment is a *suppression segment*. It doesn't find journeys that use the current segment as a target segment. The reason for this is that suppression segments are related directly to the customer journey entity, while target segments are linked to journeys less directly, through a tile configuration, and therefore aren't resolved in the **Related** tab.
 
 ### See also
 
+[Work with segment templates](segments-templates.md)  
 [Create a segment](create-segment.md)  
 [Set up subscription lists and subscription centers](set-up-subscription-center.md)  
 [Go live with publishable entities and track their status](go-live.md)

@@ -1,1 +1,0 @@
-Converts a string to an HTML-encoded string.

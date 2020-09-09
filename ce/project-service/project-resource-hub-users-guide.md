@@ -1,20 +1,25 @@
 ---
-
-title: User guide for the Project Resource Hub (Dynamics 365 for Project Service) | MicrosoftDocs
+title: User guide for the Project Resource Hub
 description: An end-user's guide for the Project Resource Hub for Project Service
-author: krbjoran
-manager: ShellyHa
+author: JohnPBurrows
+manager: kfend
 ms.service: dynamics-365-customerservice
-ms.custom:
+ms.custom: 
   - dyn365-projectservice
 ms.date: 8/03/2018
 ms.topic: article
 ms.prod: 
-ms.service: business-applications
 ms.technology: 
-ms.author: krbjoran
+ms.author: jburrows
 audience: Admin
-
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365PS
+  - ProjectOperations
 ---
 # User guide for Project Resource Hub
 
@@ -35,12 +40,12 @@ There are two flavors of [!INCLUDE[pn_dyn_365_project_service_auto](../includes/
 
 
 ## Install the mobile app
-Before you can start using the Project Resource Hub app, you need to install the Dynamics 365 mobile app on your device. 
+Before you can start using the Project Resource Hub app, you need to install the mobile app on your device. 
 
-[!INCLUDE[proc_more_information](.../includes/proc-more-information.md)] [Install Dynamics 365 for phones and tablets](../mobile-app/install-dynamics-365-for-phones-and-tablets.md).
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install Dynamics 365 for phones and tablets](../mobile-app/install-dynamics-365-for-phones-and-tablets.md).
 
 ## Basic Navigation
-1.	When you sign in on the Dynamics 365 mobile app, you’ll see the MyApps page with a list of the apps that you access to. 
+1.	When you sign in on the mobile app, you’ll see the MyApps page with a list of the apps that you access to. 
 2.	Select **Project Resource Hub**.
 
 ![Choose an app](media/chooseApp_1.png "Choose an app")
@@ -88,7 +93,7 @@ Enter your expenses at least weekly—or at the frequency requested by your mana
 5. Continue entering expenses for the week. When you’re done and everything looks correct, tap **Submit**. A manager will review and approve your expenses.
 
 ## General information on how to use the mobile app 
-[!INCLUDE[proc_more_information](.../includes/proc-more-information.md)] [Mobile Basics Guide](../mobile-app/dynamics-365-phones-tablets-users-guide.md).
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Mobile Basics Guide](../mobile-app/dynamics-365-phones-tablets-users-guide.md).
 
 ### See Also  
  [Overview of Project Service](../project-service/overview.md)   

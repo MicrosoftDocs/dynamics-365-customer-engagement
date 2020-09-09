@@ -1,19 +1,26 @@
 ---
 title: "Microsoft Dynamics 365 for Outlook software requirements | MicrosoftDocs"
-ms.custom: ""
-ms.date: 01/13/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 01/25/2019
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - Dynamics 365 (online)
+  - Dynamics 365 apps 
 ms.assetid: bec19b47-d167-4acb-b554-05c45b819c3f
 caps.latest.revision: 66
-author: "mduelae"
-ms.author: "mkaur"
-manager: "kvivek"
+author: mduelae
+ms.author: mkaur
+manager: kvivek
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Outlook
 ---
 # Microsoft Dynamics 365 for Outlook software requirements
 [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] works the way that you do by providing a seamless combination of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] features in the familiar [!INCLUDE[pn_MS_Outlook_Short](../../includes/pn-ms-outlook-short.md)] environment. This section lists software requirements for [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] and [!INCLUDE[pn_crm_outlook_offline_access](../../includes/pn-crm-outlook-offline-access.md)].  
@@ -66,7 +73,7 @@ manager: "kvivek"
 > 
 >  The [!INCLUDE[pn_Indexing_Service](../../includes/pn-indexing-service.md)] (now known as the Windows Search Service, or WSS) is required by users who will set up and use [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] and its Help file in offline mode.  
   
- **Dynamics 365**. One of the following editions of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] must be available so that [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] can connect to it:  
+ **Dynamics 365 apps**. One of the following editions of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] must be available so that [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] can connect to it:  
   
 - On-premises editions of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] Server  
   
@@ -81,7 +88,7 @@ manager: "kvivek"
   > [!NOTE]
   >  Installed from [!INCLUDE[pn_crm_outlook_offline_access](../../includes/pn-crm-outlook-offline-access.md)] only.  
   
-- [!INCLUDE[pn_NET_Framework_452_long](../../includes/pn-net-framework-452-long.md)].  
+- Microsoft .NET Framework 4.6.2.  
   
 - Microsoft Windows Installer 4.5.  
   
@@ -100,9 +107,19 @@ manager: "kvivek"
 - Microsoft SQL Server Compact 4.0.  
   
 - Reporting Services Microsoft ActiveX control. If not installed on the computer, the user will be prompted to install the software at first attempt to print a report. This installer package is named RSClientPrint.cab and can found on the [!INCLUDE[pn_SQL_Server_Reporting](../../includes/pn-sql-server-reporting.md)] server at \<drive>:\Program files\Microsoft SQL Server\\<MSSQL\>\Reporting Services\ReportServer\bin.  
+
+ > [!NOTE]
+  >  Dynamics 365 for Outlook is not supported when remote Proxy Auto-Configuration (PAC) files are used.
+
+### Offline Support
+
+The following operating systems are supported for offline mode.
+
+ ![Offline Support](../media/OfflineSupport.PNG "Offline Support") 
+
   
 ### See Also  
  [Dynamics 365 for Outlook support matrixes](support.md)   
- [Compatibility with Microsoft Dynamics CRM 2016](https://support.microsoft.com/en-us/kb/3124955)   
- [Compatibility with Microsoft Dynamics CRM 2015](https://support.microsoft.com/en-us/kb/3018360)   
- [Compatibility with Microsoft Dynamics CRM 2013](https://support.microsoft.com/en-us/kb/3005167)
+ [Compatibility with Microsoft Dynamics CRM 2016](https://support.microsoft.com/kb/3124955)   
+ [Compatibility with Microsoft Dynamics CRM 2015](https://support.microsoft.com/kb/3018360)   
+ [Compatibility with Microsoft Dynamics CRM 2013](https://support.microsoft.com/kb/3005167)

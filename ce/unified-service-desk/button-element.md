@@ -1,25 +1,21 @@
 ---
 title: "ButtonElement | MicrosoftDocs"
 description: "The topic explains about <ButtonElement> element syntax and the elements, which is one of the binding elements of the WebDDA."
-ms.custom:
+ms.custom: 
   - dyn365-USD
 ms.date: 08/23/2017
-ms.reviewer: ""
-ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
-ms.assetid: a67be8bc-6d28-4c99-a62a-397169a92eec
-caps.latest.revision: 7
+ms.service: 
+  - dynamics-365-customerservice
+ms.topic: article
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
+search.audienceType: 
+  - customizer
+  - developer
+search.app: 
+  - D365CE
+  - D365USD
 ---
 # ButtonElement
 `<ButtonElement>` is one of the binding elements of WebDDA. This topic describes the syntax and the elements of `<ButtonElement>`  

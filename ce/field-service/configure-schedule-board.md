@@ -1,27 +1,29 @@
 ---
-title: "Configure the schedule board (Dynamics 365 for Field Service and Dynamics 365 for Project Service Automation) | MicrosoftDocs"
-ms.custom:
+title: "Configure the schedule board (Dynamics 365 Field Service and Dynamics 365 Project Service Automation) | MicrosoftDocs"
+ms.custom: 
   - dyn365-fieldservice
-ms.date: 09/30/2017
-ms.reviewer: ""
+ms.date: 07/07/2020
+ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
-ms.suite: ""
+ms.suite: 
 ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-author: krbjoran
+  - field-service
+ms.tgt_pltfrm: 
+ms.topic: article
+author: FieldServiceDave
 ms.assetid: a9a65fd8-1d2f-475e-83d2-2c052b9f2573
 caps.latest.revision: 32
-ms.author: krbjoran
+ms.author: daclar
 manager: shellyha
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365FS
 ---
 # Configure the schedule board for resource availability (Field Service)
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 The [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)] schedule board provides an overview of resource availability and bookings you can make.  Before you use the schedule board, it is important to set up the views and filters to your preference.  
   
@@ -33,6 +35,11 @@ The [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)
 > 3. Open the record and scroll down to the **Resource Scheduling Optimization** section.  
 > 4. On the **Connect to Maps** field, choose **Yes**.  
 > 5. Accept the terms and save the record. 
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ynSg]
+
+> [!Note]
+> For additional Field Service videos, see [this full playlist](https://aka.ms/fs-videos).
   
 ## View the schedule board  
   
@@ -45,13 +52,13 @@ The [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)
   
  When you’re looking at the schedule board for the current day, you’ll see a blue line which indicates the current time of day. You can also see a picture of all the resources listed on the schedule board. To quickly view contact information for a resource, hover over their name to view the contact card.  
   
- ![Schedule board color coding in Dynamics 365 field service](../field-service/media/field-service-schedule-board-color-coding-example.png "Schedule board color coding in Dynamics 365 field service")  
+ ![Schedule board color coding in Dynamics 365 Field Service](../field-service/media/field-service-schedule-board-color-coding-example.png "Schedule board color coding in Dynamics 365 Field Service")  
   
 <a name="BKMK_ConfigureFilter-MapOver"></a>   
 ## Configure the filter and map view  
  Map view shows the location of resources, organizational units, bookings, and requirements. The screenshot below shows the color legend.  
   
- ![Schedule board filter and map view in Dynamics 365 field service](../field-service/media/field-service-schedule-board-map-view.png "Schedule board filter and map view in Dynamics 365 field service")  
+ ![Schedule board filter and map view in Dynamics 365 Field Service](../field-service/media/field-service-schedule-board-map-view.png "Schedule board filter and map view in Dynamics 365 Field Service")  
   
 ### Set filters  
   
@@ -71,7 +78,7 @@ The [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)
   
    - **Teams** filters by teams that have been set up.  
   
-   - **Business Units** filters by groups that have specific access to information to do their job. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit a business unit to control access to records](../admin/create-edit-business-unit-control-access-records.md)  
+   - **Business Units** filters by groups that have specific access to information to do their job. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit a business unit to control access to records](../admin/create-edit-business-units.md)  
   
 ### Set default filters  
  ![Schedule Board Default Filters](../field-service/media/field-service-schedule-board-default-filters.png "Schedule Board Default Filters")  
@@ -139,7 +146,7 @@ The [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)
 ## Configure Booking Requirements  
  The booking requirements area is shown at the bottom of the schedule board and lists all unscheduled bookings. You can easily drag and drop unscheduled bookings from the list onto the schedule board.  
   
- You can also right-click on an unscheduled booking and find available resources from those that are listed on the schedule board, or choose from all the resources in the system. When you do this the filters will show the options for the selected booking requirement. [Schedule a work order](../field-service/schedule-work-order.md)  
+ You can also select an unscheduled booking and find available resources from those that are listed on the schedule board, or choose from all the resources in the system. When you do this the filters will show the options for the selected booking requirement. [Schedule a work order](../field-service/schedule-work-order.md)  
   
 -   Go to the list of existing unscheduled booking requirements in the lower pane of the schedule board.  
   
@@ -186,12 +193,24 @@ The [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)
 1.  On the schedule board, double-click **Initial public view.**  
   
 2.  Scroll down to the **Requirement** section to add additional tabs.  
+
+## Keyboard shortcuts
+
+You can use keyboard shortcuts when viewing the schedule board in the list view, shown in the following screenshot and table.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the schedule board, highlighting the keyboard icon.](../field-service/media/schedule-board-keyboard.png)
+
+| Command | Keys |
+|  --- | --- | 
+| Expand collapsed row | SHIFT ALT + | 
+| Collapse expanded row | SHIFT ALT - | 
   
 ## Privacy  
 [!INCLUDE[cc_ disclaimer_crm_bing_maps_mapping_location](../includes/cc-disclaimer-crm-bing-maps-mapping-location.md)]   
 
 ### See also   
-[Overview of Dynamics 365 for Field Service](../field-service/overview.md)   
+[Overview of Dynamics 365 Field Service](../field-service/overview.md)   
 [Create a work order](../field-service/create-work-order.md)   
 [Submit and approve time-off requests](../field-service/submit-approve-time-off-requests.md)   
 [Schedule a work order](../field-service/schedule-work-order.md)

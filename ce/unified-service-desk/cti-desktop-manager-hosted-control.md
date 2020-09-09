@@ -1,25 +1,21 @@
 ---
 title: "CTI Desktop Manager (Hosted Control) | MicrosoftDocs"
 description: "Learn about using the CTI Desktop Manager hosted control type to plug in a computer telephony integration (CTI) adapter into Unified Service Desk to handle screen popping, call routing, softphone control, and other CTI functionalities."
-ms.custom:
+ms.custom: 
   - dyn365-USD
 ms.date: 08/23/2017
-ms.reviewer: ""
-ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
-ms.assetid: 9fb92472-39af-4816-84eb-4d5ffb8b4b4f
-caps.latest.revision: 9
+ms.service: 
+  - dynamics-365-customerservice
+ms.topic: article
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
+search.audienceType: 
+  - customizer
+  - developer
+search.app: 
+  - D365CE
+  - D365USD
 ---
 # CTI Desktop Manager (Hosted Control)
 Use the **CTI Desktop Manager** hosted control type to plug in a computer telephony integration (CTI) adapter into [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] to handle screen popping, call routing, softphone control, and other CTI functionalities.  
@@ -79,7 +75,7 @@ Use the **CTI Desktop Manager** hosted control type to plug in a computer teleph
  This action goes to the initial URL specified for this browser instance.  
 
 ### LoadArea  
- This action loads a specific area from [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. This is equivalent to selecting an area in the navigation pane (such as Sales, Service, and Marketing). The only parameter is the name of the area to click. For example: **areaService**.  
+ This action loads a specific area from the model-driven apps. This is equivalent to selecting an area in the navigation pane (such as Sales, Service, and Marketing). The only parameter is the name of the area to click. For example: **areaService**.  
 
 |Parameter|Description|  
 |---------------|-----------------|  
@@ -95,21 +91,21 @@ Use the **CTI Desktop Manager** hosted control type to plug in a computer teleph
 |panel|Target panel for the hosted control.|  
 
 ### Navigate  
- This action is used to navigate to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] url.  
+ This action is used to navigate to the model-driven apps url.  
 
 
 |     Parameter     |                                                                                                                                                                                                                                       Description                                                                                                                                                                                                                                        |
 |-------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |        url        |                                                                                                                                                                                                                  The URL to navigate to. This is a mandatory parameter.                                                                                                                                                                                                                  |
 |      Noscan       |                                                                                                                                                                                           If this parameter is supplied and **True**, the data parameters will not be captured from the page.                                                                                                                                                                                            |
-|  HideCommandBar   |                                                                                                                                                        If this parameter is supplied and **True**, the inner frame will be displayed without loading the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] command bar.                                                                                                                                                        |
-| HideNavigationBar |                                                                                                                                                          If this parameter is supplied and **True**, the form will be displayed without loading the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] navigation bar.                                                                                                                                                          |
+|  HideCommandBar   |                                                                                                                                                        If this parameter is supplied and **True**, the inner frame will be displayed without loading the model-driven apps command bar.                                                                                                                                                        |
+| HideNavigationBar |                                                                                                                                                          If this parameter is supplied and **True**, the form will be displayed without loading the model-driven apps navigation bar.                                                                                                                                                          |
 |       Frame       |                                                                                                                                                                          When frames exist on the page, this parameter would specify the name of the frame to navigate, rather than navigating the main window.                                                                                                                                                                          |
-|     postdata      |                Data that is sent to the server as part of an HTTPPOST transaction. A POST transaction is typically used to send data gathered by an HTML page. In [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], this data can be received from any event triggered using "<http://event/?>". Example: `[[postdata]+]`<br /><br /> Alternatively, the data can be passed as an encoded string with its header type in the intended format.                 |
+|     postdata      |                Data that is sent to the server as part of an HTTPPOST transaction. A POST transaction is typically used to send data gathered by an HTML page. In [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], this data can be received from any event triggered using "<https://event/?>". Example: `[[postdata]+]`<br /><br /> Alternatively, the data can be passed as an encoded string with its header type in the intended format.                 |
 |      header       | A string value that contains additional HTTP headers to send to the server. When the `postdata` parameter is used in the `Navigate` action, you should also specify an appropriate value for the `header` parameter. Example: `Content-Type:application/x-www-form-urlencoded`<br /><br /> If a [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]POST event triggers the `Navigate` action, the default value of this parameter should be `header=[[header]+]` |
 
 ### New_CRM_Page  
- Creates a page for creating a new [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record of the entity specified, and treats the page as a popup from the specified hosted control. The window navigation rules are evaluated to determine the location where the page to create the entity record is displayed.  
+ Creates a page for creating a new the model-driven apps record of the entity specified, and treats the page as a popup from the specified hosted control. The window navigation rules are evaluated to determine the location where the page to create the entity record is displayed.  
 
 |Parameter|Description|  
 |---------------|-----------------|  
@@ -142,7 +138,7 @@ Use the **CTI Desktop Manager** hosted control type to plug in a computer teleph
  This action takes the currently displayed URL, and sends it through the window navigation rules from the current hosted control as a popup.  
 
 ### RunScript  
- This action injects JavaScript into the main frame of the application. You should avoid using [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] client SDK calls with this action; instead, use the **RunXrmCommand** action.  
+ This action injects JavaScript into the main frame of the application. You should avoid using the Common Data Service platform client SDK calls with this action; instead, use the **RunXrmCommand** action.  
 
 |Parameter|Description|  
 |---------------|-----------------|  
@@ -150,21 +146,21 @@ Use the **CTI Desktop Manager** hosted control type to plug in a computer teleph
 
 <a name="RunXrmCommand"></a>   
 ### RunXrmCommand  
- This action is used to inject [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] SDK JavaScript into the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] form.  
+ This action is used to inject the Common Data Service platform SDK JavaScript into the model-driven apps form.  
 
 |Parameter|Description|  
 |---------------|-----------------|  
 ||The data parameter is the JavaScript that will be injected into the form. **Note:**  The replacement parameters can be used in the script, and they will be replaced before the script is executed.|  
 
 ### Save  
- This action saves the current Dynamics 365 page.  
+ This action saves the current page.  
 
 <a name="SaveAll"></a>   
 ### SaveAll  
  This action saves all forms in hosted control that allows multiple pages to be displayed (**Allow Multiple Pages** = Yes). If the hosted control allows only a single page to be displayed (**Allow Multiple Pages** = No), this is equivalent to the **Save** action.  
 
 ### SaveAndClose  
- This action saves the dirty data on the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] form, and closes the hosted control.  
+ This action saves the dirty data on the model-driven apps form, and closes the hosted control.  
 
 <a name="SetSize"></a>   
 ### SetSize  
@@ -176,7 +172,7 @@ Use the **CTI Desktop Manager** hosted control type to plug in a computer teleph
 |height|The height of the hosted control.|  
 
 ### ToggleNavigation  
- This action collapses or expands the navigation pane on the left panel of the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] window. The navigation must contain a navigation panel for this action to work.  
+ This action collapses or expands the navigation pane on the left panel of the model-driven apps window. The navigation must contain a navigation panel for this action to work.  
 
 ### ToggleRibbon  
  This action collapses or expands the ribbon. If you hide the ribbon in the **Navigate** action, it will not be displayed and this action does not work. This action will work only when the ribbon was initially loaded.  
@@ -185,7 +181,7 @@ Use the **CTI Desktop Manager** hosted control type to plug in a computer teleph
  This action can be used to block the processing until the URL finishes loading.  
 
 > [!NOTE]
->  Some web pages, particularly [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] pages, have multiple frames. This action waits for only the main frame to complete.  
+>  Some web pages, particularly the model-driven apps pages, have multiple frames. This action waits for only the main frame to complete.  
 
 |Parameter|Description|  
 |---------------|-----------------|  

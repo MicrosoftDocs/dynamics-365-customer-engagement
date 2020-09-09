@@ -1,24 +1,31 @@
 ---
 title: "Use a wizard to add and track multiple Outlook contacts in Dynamics 365 for Outlook | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 01/11/2016
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - Dynamics 365 (online)
-  - Dynamics 365 (on-premises)
+  - Dynamics 365 apps 
+  - Dynamics 365 apps (on-premises)
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016
   - Dynamics CRM Online
 ms.assetid: dda44f4b-fe64-4514-bcc1-e02d9a642bd4
 caps.latest.revision: 48
-author: "mduelae"
-ms.author: "mkaur"
-manager: "kvivek"
+author: mduelae
+ms.author: mkaur
+manager: kvivek
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Outlook
 ---
 # Use a wizard to add and track multiple Outlook contacts in Dynamics 365 for Outlook
 You can track your [!INCLUDE[pn_MS_Outlook_Full](../../includes/pn-ms-outlook-full.md)] contacts in [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)]. When you track a contact, a copy of that contact’s record is saved in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] and synchronized with the [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] record. After your contacts are tracked, you’ll see any [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] email, task, or appointment activities associated with those contacts. If you sync [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] on your mobile device, you can also access your contact records on that device.  
@@ -37,7 +44,7 @@ You can track your [!INCLUDE[pn_MS_Outlook_Full](../../includes/pn-ms-outlook-fu
   
 ## Step 2: Run the wizard  
   
-1. Choose **File** > **Dynamics 365** > **Import Contacts** > **Add Contacts**.  
+1. Choose **File** > **Dynamics 365 apps** > **Import Contacts** > **Add Contacts**.  
   
 2. Choose **Next**.  
   
@@ -87,4 +94,4 @@ You can track your [!INCLUDE[pn_MS_Outlook_Full](../../includes/pn-ms-outlook-fu
   
 ### See also  
  [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)   
- [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)
+ [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 apps and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)

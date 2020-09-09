@@ -1,26 +1,29 @@
 ---
 title: Extending URS - Find resources by language - a step by step guide | Microsoft Docs
 description: Extending URS - Find resources by language - a step by step guide
-keywords: Universal Resource scheduling; Dynamics 365 for Field Service, Dynamics 365 for Project Service, Field Service, Project Service, Project Service Automation
-author: yonalow
-ms.author: yolow
-manager: shellyha
+author: FieldServiceDave
+ms.author: daclar
 ms.date: 06/14/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+ms.reviewer: krbjoran
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.technology: 
-  - "field-service"
-  - "project-service"
+  - field-service
+  - project-service
 ms.assetid: b79f00b5-e90e-41d2-b761-92e255ef2da0
-ms.custom:
+ms.custom: 
   - dyn365-projectservice
   - dyn365-fieldservice
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365PS
+  - D365FS
 ---
 
 # Extending URS: Find resources by language - a step by step guide
@@ -36,7 +39,7 @@ In this section we'll create the new schema for the master `Language` entity and
 ### Create a new Publisher
 
 1. In Dynamics 365, under Customizations, create a new Publisher
-1. Fill out the New Publisher form with the below details:
+2. Fill out the New Publisher form with the below details:
 
     Field | Value
     --- | ---
@@ -44,12 +47,12 @@ In this section we'll create the new schema for the master `Language` entity and
     Name | language
     Prefix | lang
 
-1. Click Save and Close
+3. Click Save and Close
 
 ### Create a new Solution
 
 1. In Dynamics 365, under Customizations, create a new Solution
-1. Fill out the New Solution form with the below details:
+2. Fill out the New Solution form with the below details:
 
     Field | Value
     --- | ---
@@ -58,7 +61,7 @@ In this section we'll create the new schema for the master `Language` entity and
     Publisher | Language
     Version | 1.0.0.0
 
-1. Click Save
+3. Click Save
 
 ### Create the Language entity
 
@@ -174,9 +177,9 @@ Name | Description
 In order to keep these changes isolated, we will create a brand new separate Schedule Board and implement the changes, but you can always make these changes on the default Schedule Board so that other Schedule Boards can automatically inherit these changes.
 
 1. In Dynamics 365, in the top navigation bar, go to Resource Scheduling > Schedule Board
-1. In the top right, click the + sign to create a new board
-1. Name the new board Language
-1. At the bottom of the dialog, click Add. The new board will be created.
+2. In the top right, click the + sign to create a new board
+3. Name the new board Language
+4. At the bottom of the dialog, click Add. The new board will be created.
 
 #### Update the Schedule Board Filter Layout
 
@@ -296,7 +299,7 @@ Name | Description
 
 ```xml
 <?xml version="1.0" encoding="utf-8" ?>
-<bag xmlns:ufx="http://schemas.microsoft.com/dynamics/2017/universalfetchxml">
+<bag xmlns:ufx="https://schemas.microsoft.com/dynamics/2017/universalfetchxml">
   <Resources ufx:source="fetch">
     <fetch mapping="logical" aggregate="true">
       <entity name="bookableresource">
@@ -482,7 +485,7 @@ Retrieve Constraints Query:
 
 ```xml
 <?xml version="1.0" encoding="utf-8" ?>
-<bag xmlns:ufx="http://schemas.microsoft.com/dynamics/2017/universalfetchxml">
+<bag xmlns:ufx="https://schemas.microsoft.com/dynamics/2017/universalfetchxml">
   <Requirement ufx:source="fetch" ufx:select="bag[1]">
     <fetch top="1">
       <entity name="msdyn_resourcerequirement">

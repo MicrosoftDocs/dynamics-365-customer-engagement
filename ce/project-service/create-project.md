@@ -1,20 +1,25 @@
 ---
-
-title: Create a project (Dynamics 365 for Project Service) | MicrosoftDocs
+title: Create a project
 description: How to create a project in Project Service
-author: krbjoran
-manager: ShellyHa
+author: ruhercul
+manager: kfend
 ms.service: dynamics-365-customerservice
-ms.custom:
+ms.custom: 
   - dyn365-projectservice
-ms.date: 8/03/2018
+ms.date: 8/13/2020
 ms.topic: article
 ms.prod: 
-ms.service: business-applications
 ms.technology: 
-ms.author: krbjoran
+ms.author: ruhercul
 audience: Admin
-
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365PS
+  - ProjectOperations
 ---
 # Create a project (Project Service)
 
@@ -31,6 +36,9 @@ Create a project using the [!INCLUDE[pn_project_service_auto](../includes/pn-pro
 4.  Click **Save** to create your project so you can continue editing it.  
   
 Next, you’ll create a work breakdown structure for your project to define the tasks, timing, and resource roles needed for the project.  
+
+> [!NOTE]
+> When scheduling, Project Service Automation respects the time zone of the applied **Work Hour** template. However, when viewing the schedule tasks, the start and end dates of a task will be displayed in the user's time zone. This applies to other time-phased views in the **Project** form. If the user's time zone does not match the time zone of the work hour template applied to the project, a warning which explains the difference will occur. 
   
 ### See Also  
  [Project Manager Guide](../project-service/project-manager-guide.md)

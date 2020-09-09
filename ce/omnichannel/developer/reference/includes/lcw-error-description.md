@@ -1,0 +1,1 @@
+This event is raised in case an error occurs during the lifetime of a chat.

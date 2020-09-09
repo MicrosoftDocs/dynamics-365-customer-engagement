@@ -1,40 +1,41 @@
 ---
-title: "Unified Service Desk for Dynamics 365 Unified Interface package | MicrosoftDocs"
-description: "Overview of the Unified Interface sample application." 
-ms.custom: ""
-ms.date: 04/24/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
-  - "Dynamics CRM Online"
-ms.assetid: FA01CA74-AD17-44A1-8AAD-C296B549F8A2
-author: "kabala123"
-ms.author: "kabala"
-manager: "sakudes"
+title: "Unified Service Desk  Unified Interface package | MicrosoftDocs"
+description: "Overview of the Unified Interface sample application."
+ms.date: 08/17/2018
+ms.topic: article
+author: kabala123
+ms.author: kabala
+manager: shujoshi
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - D365USD
 ---
+
 # Unified Interface sample application package
-[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] is a desktop application that helps your customer service agents provide phone, email, and chat support to your customers. [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] provides a configurable framework to quickly build an Agent Desktop application that’s integrated with [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]. With [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] you can quickly make a customized Agent Desktop application by leveraging the User Interface Integration (UII) framework. 
+[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] is a desktop application that helps your customer service agents provide phone, email, and chat support to your customers. [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] provides a configurable framework to quickly build an Agent Desktop application that’s integrated with the Common Data Service platform. With [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] you can quickly make a customized Agent Desktop application by leveraging the User Interface Integration (UII) framework. 
  This package is best used in the following situations:  
   
-- To demonstrate the rich set of customer service capabilities in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] and simplify the customization of your agent desktop application.  
+- To demonstrate the rich set of customer service capabilities in the Common Data Service platform and simplify the customization of your agent desktop application.  
   
-  With the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Dynamics 365 Web Client sample application package, the following components are installed:  
+  With the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Unified Interface sample application package, the following components are installed:  
   
-- User Interface Integration Solution  
+- Unified Service Desk Administrator App (Public preview feature)
+
+::: moniker-end
+
+- User Interface Integration Solution 
   
 - Unified Service Desk Solution
 
-- Customizations for [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] Unified Interface package
-  
-- Data required for [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] and customizations
+::: moniker range=">=dynamics-usd-4"
+
+- Customizations for the Common Data Service platform Unified Interface package
+
+::: moniker-end 
+
+- Data required for the Common Data Service platform and customizations
   
 - The following sample hosted controls  
   
@@ -43,14 +44,19 @@ manager: "sakudes"
   -   Customer Information System  
   
 > [!IMPORTANT]
->  The sample applications aren't supported for production use.  
+> -  The sample applications aren't supported for production use.
+>  
+> - The sample application installs random sample records for entities like Account, Contact, Cases, and so on.
+>
+> - The sample application reactivates already resolved cases and sets up the **Customer Satisfaction** and **Average Handling Time**  to random value and closes them. This sample application's data might interfere with your existing records.
+>
+> - The sample application adds two fields to account (msdyusd_facebook, msdyusd_twitter) and three fields to contact (msdyusd_facebook, msdyusd_twitter, msdyusd_currentprofile) and sets their values randomly.
   
-  
- Here’s what you’ll see when you install the Dynamics 365 Unified Interface package:  
+ Here’s what you’ll see when you install the Unified Interface package:  
   
 1. Left Nav: Opens the left navigation area that you can open or collapse.  
   
-2. Dashboards: Opens the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] customer service dashboard.  
+2. Dashboards: Opens the customer service dashboard.  
 
 > [!NOTE]
 > During login, if you choose Customer Service Hub, customer service dashboard appears in the Dashboard area. 

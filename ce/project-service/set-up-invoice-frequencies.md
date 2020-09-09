@@ -1,20 +1,25 @@
 ---
-
-title: Set up invoice frequencies (Dynamics 365 for Project Service) | MicrosoftDocs
+title: Set up invoice frequencies
 description: How to set up invoice frequencies in Project Service
-author: krbjoran
-manager: ShellyHa
+author: rumant
+manager: kfend
 ms.service: dynamics-365-customerservice
-ms.custom:
+ms.custom: 
   - dyn365-projectservice
 ms.date: 8/03/2018
 ms.topic: article
 ms.prod: 
-ms.service: business-applications
 ms.technology: 
-ms.author: krbjoran
+ms.author: rumant
 audience: Admin
-
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365PS
+  - ProjectOperations
 ---
 # Set up invoice frequencies (Project Service)
 

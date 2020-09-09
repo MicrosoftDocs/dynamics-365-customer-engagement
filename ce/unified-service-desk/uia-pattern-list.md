@@ -1,25 +1,21 @@
 ---
-title: "UIA Pattern List in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "UIA Pattern List in Unified Service Desk | MicrosoftDocs"
 description: "Learn about UIA patterns in Unified Service Desk."
-ms.custom:
+ms.custom: 
   - dyn365-USD
 ms.date: 08/23/2017
-ms.reviewer: ""
-ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
-ms.assetid: a07d78ff-f017-4538-bede-fe722975f434
-caps.latest.revision: 7
+ms.service: 
+  - dynamics-365-customerservice
+ms.topic: article
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
+search.audienceType: 
+  - customizer
+  - developer
+search.app: 
+  - D365CE
+  - D365USD
 ---
 # UIA Pattern List in Unified Service Desk
 This topic lists the UIA patterns.  

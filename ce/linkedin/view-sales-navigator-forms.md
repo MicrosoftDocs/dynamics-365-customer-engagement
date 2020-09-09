@@ -1,26 +1,32 @@
 ---
 title: "Sign in to LinkedIn Sales Navigator | Microsoft Docs"
-description: "Sign in to LinkedIn Sales Navigator in Dynamics 365 to see lead information on forms."
-keywords: "sign in, authenticate, sales navigator, customized form"
-ms.date: 07/12/2018
+description: "Sign in to LinkedIn Sales Navigator in Dynamics 365 Sales to see lead information on forms."
+keywords: sign in, authenticate, sales navigator, customized form
+ms.date: 04/30/2019
 ms.service: crm-online
 ms.topic: article
-applies_to:
-  - "Dynamics 365 Version 9.x"
-  - "Dynamics 365 (online)"
+applies_to: 
+  - Dynamics 365 Sales
 ms.assetid: efbe4fd6-a486-d97d-3b2c-8c4020e9d57b
-author: m-hartmann
-ms.author: mhart
+author: shubhadaj
+ms.author: shujoshi
 manager: shellyha
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365LinkedIn
 ---
 
 # View Sales Navigator controls on forms
 
-To use the Sales Navigator controls, you need to be a [LinkedIn Sales Navigator Seat Holder](https://www.linkedin.com/help/sales-navigator/answer/50233/adding-or-removing-seat-holders-in-sales-navigator) and [a customizer needs to add the controls to a form](add-sales-navigator-controls-forms.md). 
+To use the Sales Navigator controls, an admin needs to [enable the Sales Navigator integration](install-sales-navigator.md) and you need to be a [LinkedIn Sales Navigator Seat Holder](https://www.linkedin.com/help/sales-navigator/answer/50233/adding-or-removing-seat-holders-in-sales-navigator). To customize the form with Sales Navigator controls [a customizer needs to add the controls to a form](add-sales-navigator-controls-forms.md). 
 
 ## View controls on the form
 
-1. In [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)], switch to the Unified Interface app (such as Sales Hub). 
+1. In [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)], open the Sales app. 
 
 2. If your organization has added [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] controls to any of their forms, you'll find the controls embedded on the form. A system administrator or customizer can [add the controls to forms](add-sales-navigator-controls-forms.md).
 

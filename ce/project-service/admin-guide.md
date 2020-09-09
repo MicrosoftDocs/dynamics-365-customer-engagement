@@ -1,26 +1,31 @@
 ---
-
-title: Administrator guide (Dynamics 365 for Project Service) | MicrosoftDocs
+title: Administrator guide
 description: Step-by-step instructions for Project Service administration
-author: krbjoran
-manager: ShellyHa
+author: JohnPBurrows
+manager: kfend
 ms.service: dynamics-365-customerservice
-ms.custom:
+ms.custom: 
   - dyn365-projectservice
 ms.date: 7/31/2018
 ms.topic: article
 ms.prod: 
-ms.service: business-applications
 ms.technology: 
-ms.author: krbjoran
+ms.author: jburrows
 audience: Admin
-
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365PS
+  - ProjectOperations
 ---
 # Administrator guide (Project Service)
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-This guide takes you through the the process of installing and configuing :  
+This guide takes you through the process of installing and configuing :  
   
 - [Install and customize](install-customize.md)
 - [Experiment with demo data](use-demo-data.md)

@@ -1,41 +1,50 @@
 ---
-
 title: Use the Project Service Add-in to plan your work in Microsoft Project | MicrosoftDocs
-description: How to add, configure, and use the Microsoft Project add-in for Project Service
-author: krbjoran
-manager: ShellyHa
-ms.service: dynamics-365-customerservice
-ms.custom:
+description: This topic provides information about how to add, configure, and use the Microsoft Project add-in for Microsoft Project Service.
+author: ruhercul
+manager: kfend
+ms.service: Dynamics 365 Project Service Automation
+ms.custom: 
   - dyn365-projectservice
-ms.date: 7/30/2018
+ms.date: 04/06/2019
 ms.topic: article
 ms.prod: 
-ms.service: business-applications
 ms.technology: 
-ms.author: krbjoran
+ms.author: jburrows
 audience: Admin
-
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365PS
+  - ProjectOperations
 ---
-# Use the Project Service Automation Add-in to plan your work in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]
+
+
+
+
+# Use the Project Service Automation Add-in to plan your work in Microsoft Project
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] makes it easier for you to do your project planning including estimates. You can define the work so that costs, effort, and sales value are clear as the final proposal is submitted.  
+[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] makes it easier for you to do your project planning, including estimates. You can define the work so that costs, effort, and sales value are clear as the final proposal is submitted.  
 
  Now you can install the [!INCLUDE[pn_ms_dyn_365_psa_for_ms_project](../includes/pn-ms-dyn-365-psa-for-ms-project.md)] and do your planning work in the familiar environment of [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]. Use the robust planning and management capabilities of [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] and then update your project plan in Project Service Automation.  
 
 > [!IMPORTANT]
-> - To use the SharePoint document management feature in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Customer Engagement to store your [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] files for [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] projects, your [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] admin will need to turn on document management. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Enable SharePoint document management for specific entities](../admin/enable-sharepoint-document-management-specific-entities.md)  
+> - To use SharePoint document management to store your [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] files for [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] projects, your [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] admin will need to turn on document management. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Enable SharePoint document management for specific entities](../admin/enable-sharepoint-document-management-specific-entities.md)  
 > - The [!INCLUDE[pn_ms_dyn_365_psa_for_ms_project](../includes/pn-ms-dyn-365-psa-for-ms-project.md)] is only compatible with [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] 2016 Professional Edition.  
 
 ## Download and install the add-in  
  Have your [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] sign-in information ready. You will need this information to connect from [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] to [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
-1.  From the download center you can, [download the add-in](https://go.microsoft.com/fwlink/?linkid=828268).  
+1.  From the Download Center, download the add-in for your supported version of Project Service, either [V2.X](https://go.microsoft.com/fwlink/?linkid=828268) or [V3.4+](https://www.microsoft.com/download/details.aspx?id=57956).  
 
 2.  Click the download link.  
 
-3.  Once the download is complete, click **Yes** to install the add-in.  
+3.  When the download is complete, click **Yes** to install the add-in.  
 
 ## Configure the add-in  
 
@@ -99,9 +108,9 @@ The project will import into [!INCLUDE[pn_project_service_auto](../includes/pn-p
 ## Edit a project that’s been imported  
  To make changes to a project plan that's been imported into [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], you have two options:  
 
-- Open the master file and edit it in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]  
+- Open the master file and edit it in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)].  
 
-- Unlink the file and edit it directly in Project Service. By default, a project that’s been uploaded from [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] is locked and can only be edited in Project. To edit the file in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], the file has to been unlinked.  
+- Unlink the file and edit it directly in Project Service. By default, a project that’s been uploaded from [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] is locked and can only be edited in Project. To edit the file in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], the file has to be unlinked.  
 
 ### Edit in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]  
 
@@ -120,7 +129,7 @@ The project will import into [!INCLUDE[pn_project_service_auto](../includes/pn-p
 3. Click **Unlink from MS Project** from the ribbon.  
 
 ## Upload a Project file to SharePoint or Office Groups  
- You can upload your Project file to SharePoint and find it under the Associated Documents for your [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] project.  You need to have your administrator configure SharePoint document management for [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and turn it on for the Project entity. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up SharePoint document management](../admin/set-up-sharepoint-integration.md)  
+ You can upload your Project file to SharePoint and find it under the Associated Documents for your [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] project.  You need to have your administrator configure SharePoint document management and turn it on for the Project entity. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up SharePoint integration](../admin/set-up-sharepoint-integration.md)  
 
  You can also upload your Project file to [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] if you have Office Groups set up. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Collaborate with your colleagues using Office 365 Groups](../basics/collaborate-with-colleagues-using-office-365-groups.md)  
 
@@ -130,11 +139,11 @@ The project will import into [!INCLUDE[pn_project_service_auto](../includes/pn-p
 
 2. Select **To Project Service Automation Project Documents**.  
 
-3. On the **Enable Open in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** dialog select **Yes** or **No**.  
+3. On the **Enable Open in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** dialog, select **Yes** or **No**.  
 
-   - When you click **Yes** you'll be able click on the **Open in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** button in Project Service Automation and launch [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] and load the Project file from the SharePoint document library.  
+   - If you click **Yes**, you'll be able select the **Open in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** button in Project Service Automation, launch [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)], and load the Project file from the SharePoint document library.  
 
-   - When you click **No** the link for the Open in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] button won't work.  
+   - If you click **No**, the link for the **Open in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** button won't work.  
 
 4. The [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] file can be found in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] under **Documents** for the specific [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] project.  
 
@@ -144,11 +153,11 @@ The project will import into [!INCLUDE[pn_project_service_auto](../includes/pn-p
 
 2. Select **To Project Service Automation Project Documents**.  
 
-3. On the **Enable Open in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** dialog select **Yes** or **No**.  
+3. On the **Enable Open in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** dialog, select **Yes** or **No**.  
 
-   - When you click **Yes** you'll be able click on the **Open in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] button in Project Service Automation** and launch [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] and load the Project file from the SharePoint document library.  
+   - If you click **Yes**, you'll be able to select the **Open in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** button in Project Service Automation, launch [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)], and load the Project file from the SharePoint document library.  
 
-   - When you click **No** the link for the Open in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] button won't work.  
+   - If you click **No**, the link for the **Open in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** button won't work.  
 
 4. The [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] file can be found in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] under **Documents** for the specific [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] project.  
 
@@ -159,7 +168,7 @@ The project will import into [!INCLUDE[pn_project_service_auto](../includes/pn-p
 
 2. On the **Publish to a new project in Project Service template** dialog box, enter the **Project template name**.  
 
-3. Optionally, check the **Link project plan to Project Service Automation** to link the plan Project file to [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
+3. Optionally, check the **Link project plan to Project Service Automation** to link the Project file to [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
 4. Click **Publish**.  
 

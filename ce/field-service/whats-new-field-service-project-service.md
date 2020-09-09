@@ -1,30 +1,33 @@
 ---
 title: "What's new in Universal Resource Scheduling for Dynamics 365 | MicrosoftDocs"
-description: "Learn how the latest release makes optimizing resource scheduling and management even more powerful. The new capabilities apply to Universal Resource Scheduling version 2.2.0.49, Field Service version 7.2.0.43, and Project Service Automation version 2.2.0.74 for Dynamics 365."    
-ms.custom:
+description: "Learn how the latest release makes optimizing resource scheduling and management even more powerful. The new capabilities apply to Universal Resource Scheduling version 2.2.0.49, Field Service version 7.2.0.43, and Project Service Automation version 2.2.0.74 for Dynamics 365."
+ms.custom: 
   - dyn365-fieldservice
 ms.date: 12/15/2017
-ms.reviewer: ""
+ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
-ms.suite: ""
+ms.suite: 
 ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-  - "Dynamics 365 Version 8.x"
+  - field-service
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: 70c37c89-fc96-421d-b559-500d26c200b3
 caps.latest.revision: 11
-author: krbjoran
-ms.author: krbjoran
+author: FieldServiceDave
+ms.author: daclar
 manager: shellyha
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365FS
 ---
 
-# What's new in Universal Resource Scheduling for [!include[Dynamics 365](../includes/pn-crm-2016-shortest.md)]
+# What's new in Universal Resource Scheduling (URS)
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]<br/>Applies to Field Service application (version 7.2.0.43)<br/>Applies to Project Service Automation application (version 2.2.0.74)<br/>Applies to Universal Resource Scheduling solution (version 2.2.0.49)
+Applies to Project Service Automation application (version 2.2.0.74)
 
 The team is excited to announce the newest updates released in December 2017. Ranging from improvements to screen layout, all the way to more powerful search queries for resource scheduling, and more. You asked; we listened.
 
@@ -171,7 +174,7 @@ These updates apply to Dynamics 365 (online), version 8.x.
   
     - **Just me** – Only the owner of the schedule board settings record sees it.   
   
-    - **Specific people** – Only users with read access to that schedule board settings record see this of they have higher security rights, or if the record is shared using Dynamics 365 Share functionality.  
+    - **Specific people** – Only users with read access to that schedule board settings record see this of they have higher security rights, or if the record is shared using Dynamics 365 share functionality.  
   
     - **Everyone** – If the user has access to use the schedule board, they will see these boards.  
   
@@ -188,5 +191,5 @@ These updates apply to Dynamics 365 (online), version 8.x.
 - Now you can credit or correct an invoice that was sent to a customer. Quantity of billable hours, bill rates, and other charges and can be corrected or entirely reversed.  
   
 ### See also  
- [Dynamics 365 for Field Service - User's Guide](../field-service/user-guide.md)   
- [Dynamics 365 for Project Service Automation - User's Guide](../project-service/admin-guide.md)
+ [Dynamics 365 Field Service - User's Guide](../field-service/user-guide.md)   
+ [Dynamics 365 Project Service Automation - User's Guide](../project-service/admin-guide.md)

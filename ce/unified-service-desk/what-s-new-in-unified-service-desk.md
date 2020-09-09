@@ -1,34 +1,113 @@
 ---
 title: "What's new in Unified Service Desk for developers and customizers | MicrosoftDocs"
 description: "Learn about the new features for developers and customizers in Unified Service Desk."
-keywords: ""
-ms.date: 08/06/2018
-ms.service:
-  - "dynamics-365-customerservice"
-ms.custom:
-  - "dyn365-USD"
+ms.custom: 
+  - dyn365-USD
+ms.date: 04/10/2019
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
-ms.assetid: 1c6da924-cfef-4cbf-a6d5-63af8f1a640d
 author: kabala123
 ms.author: kabala
-manager: sakudes
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+manager: shujoshi
+search.audienceType: 
+  - customizer
+  - developer
+search.app: 
+  - D365CE
+  - D365USD
 ---
 
 # What's new in Unified Service Desk for developers and customizers
-This topic contains information about changes in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] for developers and system customizers.
+
+::: moniker range="dynamics-usd-4.1"
+
+##  What's new in [!INCLUDE[pn-unified-service-desk-4-1](../includes/pn-unified-service-desk-4-1.md)]
+
+### Use Chrome Process hosting type to host web applications in Unified Service Desk
+
+Use Chrome Process to host web applications in Unified Service Desk client application. The Chrome Process is based on **CefSharp**, an open source framework, which uses the chromium core that powers many modern browsers.
+
+The advantages of using the Chrome process hosting method are as follows:
+
+- Chrome Process is available on different Windows OS versions.
+- Chrome Process is highly reliable.
+- Easy configurations to host the applications in Unified Service Desk.
+- Switch easily from one browser to another for your entire organization.
+- Chrome Process pooling feature that reuses the chrome processes and mimics inline navigation provides enhanced performance and memory optimizations.
+
+More information: [Use Chrome Process to host web applications in Unified Service Desk](chrome-process.md)
+
+### Integrate channel using Channel Integration Framework
+
+Bring your channel providers and integrate them with Unified Service Desk client application using Channel Integration Framework.
+
+If your organization wants to use the cloud-based channel that you have developed using the [Channel Integration Framework](https://docs.microsoft.com/dynamics365/customer-service/channel-integration-framework/channel-integration-framework), you can integrate the same channel in Unified Service Desk with minimal configuration experience. In turn, this eliminates the need for developing multiple channels. 
+
+The User Interface Integration (UII) framework provides a hosted control - **Channel Integration Framework** - for you to host the channel provider within Unified Service Desk client application.
+
+More information: [Integrate channel using Channel Integration Framework](integrate-channel-provider-channel-integration-framework.md)
+
+### Stack notification in Unified Service Desk
+
+You can configure stack notifications in Unified Service Desk to display popup notification messages to your customer service agents that contains general information, customer or process-related information that the agent can act on.
+This facilitates simultaneous toast notifications in a multi-session environment. 
+
+Two new parameters are introduced: **stack** and **stackHeight**, for which you can set the values to show the notifications in a stack with a certain height.
+
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Stack Notifications](configure-notifications-unified-service-desk.md#stack-notifications) and [Popup Notification Hosted Control](popup-notification-hosted-control.md)
+
+### Switch between local sessions, and between local and global sessions
+
+When you are working on a case (local session) and want to review your Dashboard (global session) or another case (local session), you can easily switch from the case to Dashboard or another case, without affecting your session timer. That is, when you switch from local session, your session timer doesn't count until you switch back to the session. This helps in efficiently measure the agents' productivity.
+
+Using **SwitchSession** action, you can now switch between local sessions. Also, you can switch sessions between local and global by passing the global session ID retrieved from the context using the replacement parameter.
+
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [SwitchSession Action](session-tabs-hosted-control.md#switchsession)
+
+::: moniker-end
+
+::: moniker range="dynamics-usd-4"
+
+## What's new in [!INCLUDE[pn-unified-service-desk-4-0](../includes/pn-unified-service-desk-4-0.md)]
+
+This topic contains information about changes in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] for developers and system customizers. 
+
+### General Availability: Support for Unified Interface apps in Unified Service Desk
+
+With the release of [!include[pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)], we've introduced a new user experience -[Unified Interface](/dynamics365/customer-engagement/admin/about-unified-interface), which uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation.  [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] supports the apps built using Unified Interface framework. That is, you can load a URL or page from model-driven app, which is built based on the Unified Interface framework.
+
+A new hosted control type called **Unified Interface Page** is introduced, which you need to set as **USD Component Type** while creating a hosted control to use a URL or page from the model-driven apps.
+
+The experience of the supportability is that the Unified Interface Page hosted control type exposes number of predefined UII actions and events that are unique to handling of model-driven app windows built using Unified Interface framework including list manipulation actions, and a find action for displaying a quick search or advanced search page.
+
+## Preview features
+
+### Stack notification in Unified Service Desk
+
+You can configure stack notifications in Unified Service Desk to display popup notification messages to your customer service agents that contains general information or some customer or process-related information that the agent can act on.
+This facilitates simultaneous toast notifications in a multi-session environment. 
+
+Two new parameters are introduced: **stack** and **stackHeight**, for which you can set the values to show the notifications in a stack with a certain height.
+
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Stack Notifications](configure-notifications-unified-service-desk.md#stack-notifications) and [Popup Notification Hosted Control](popup-notification-hosted-control.md)
+
+### Switch between local sessions, and between local and global sessions
+
+When you are working on a case (local session) and want to review your Dashboard (global session) or another case (local session), you can easily switch from the case to Dashboard or another case, without affecting your session timer. That is, when you switch from local session, your session timer will not be counted until you switch back to the session. This helps in efficiently measure the agents' productivity.
+
+Using **SwitchSession** action, you can now switch between local sessions. Also, you can switch sessions between local and global by passing the global session ID retrieved from the context using the replacement parameter.
+
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [SwitchSession Action](session-tabs-hosted-control.md#switchsession)
+
+::: moniker-end
+
+::: moniker range="dynamics-usd-3"
 
 <a name="WhatsNew33"></a>   
-## What's new in [!INCLUDE [pn-unified-service-desk-3-3](../includes/pn-unified-service-desk-3-3.md)]  
- 
+
+## What's new in [!INCLUDE [pn-unified-service-desk-3-3](../includes/pn-unified-service-desk-3-3.md)]
+
 Developers and customizers will be able to use the following new features in the [!INCLUDE [pn-unified-service-desk-3-3](../includes/pn-unified-service-desk-3-3.md)] release.
 
 ### Videos
@@ -37,11 +116,11 @@ See the video to know [What's New in Unified Service Desk 3.3](https://go.micros
 
 ### Public Preview Feature: Support for Unified Interface Apps in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]
 
-With this release, [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] supports the apps built using Unified Interface framework. That is, you can load a URL or page from Dynamics 365, which is built based on the Unified Interface framework.
+With this release, [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] supports the apps built using Unified Interface framework. That is, you can load a URL or page from model-driven app, which is built based on the Unified Interface framework.
 
-The experience of the supportability is that the Unified Interface Page hosted control type exposes number of predefined UII actions and events that are unique to handling of Dynamics 365 windows built using Unified Interface framework including list manipulation actions, and a find action for displaying a quick search or advanced search page. 
+The experience of the supportability is that the Unified Interface Page hosted control type exposes number of predefined UII actions and events that are unique to handling of model-driven app windows built using Unified Interface framework including list manipulation actions, and a find action for displaying a quick search or advanced search page. 
 
-A new hosted control type called **Unified Interface Page** is introduced, which you need to set as **USD Component Type** while creating a hosted control to use URL or page from [!include[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]. 
+A new hosted control type called **Unified Interface Page** is introduced, which you need to set as **USD Component Type** while creating a hosted control to use URL or page from the model-driven app. 
 
 When you sign in to [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], you can see an app module selection window that is introduced as part of the Unified Interface supportability. You need to select a Unified Interface app from the list and experience the app in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].
 
@@ -54,6 +133,7 @@ The resources in the dictionary refers to other resources that are available on 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure toolbars in your application](../unified-service-desk/configure-toolbars-application.md) and [Toolbars in Unified Service Desk](../unified-service-desk/toolbars-unified-service-desk.md)
 
 <a name="WhatsNew32"></a>   
+
 ## What's new in [!INCLUDE [pn-unified-service-desk-3-2](../includes/pn-unified-service-desk-3-2.md)] 
 
 There are no developer/customizer-specific changes in this release. For a list of new features in this release, see [New feature information for administrators](admin/whats-new-unified-service-desk-administrators.md)
@@ -83,7 +163,6 @@ to help you perform actions as soon as the related information for an entity
 record is loaded in the [!INCLUDE[pn-unified-service-desk](../includes/pn-unified-service-desk.md)] context. 
 
 More information: [CRM Page (Hosted Control)](crm-page-hosted-control.md)
-
 
 ### Asynchronously create entity records to prevent execution blocking
 
@@ -169,6 +248,8 @@ as a workaround, you can create the non-focusable control as a user control
 Also, [!INCLUDE[pn-jaws](../includes/pn-jaws.md)] screen reader doesn’t support reading button tooltip text. But, you can create [!INCLUDE[pn-jaws](../includes/pn-jaws.md)] custom scripts and use  in [!INCLUDE[pn-unified-service-desk](../includes/pn-unified-service-desk.md)] to enable [!INCLUDE[pn-jaws](../includes/pn-jaws.md)] screen reader to read tooltip text.
 
 More information: [Configure JAWS screen reader support](configure-jaws-screen-reader-support.md)
+
+::: moniker-end
 
 ### See also  
  [What’s New in Unified Service Desk for administrators](admin/whats-new-unified-service-desk-administrators.md)   

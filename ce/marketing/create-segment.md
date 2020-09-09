@@ -1,38 +1,41 @@
 ---
-title: "Create a marketing segment (Dynamics 365 for Marketing) | Microsoft Docs"
-description: "A tutorial for how to create a marketing segment and define its membership criteria in Dynamics 365 for Marketing"
-keywords: "tutorial; segments; dynamic segments"
-ms.date: 04/01/2018
-ms.service:
-  - "dynamics-365-marketing"
-ms.custom:
-  - "dyn365-marketing"
+title: "Create a marketing segment (Dynamics 365 Marketing) | Microsoft Docs"
+description: "A tutorial for how to create a marketing segment and define its membership criteria in Dynamics 365 Marketing"
+keywords: tutorial; segments; dynamic segments
+ms.date: 06/02/2020
+ms.service: dynamics-365-marketing
+ms.custom: 
+  - dyn365-marketing
 ms.topic: get-started-article
-applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
 ms.assetid: c4de5589-b20f-4318-8443-7485c5b1a27b
-author: kamaybac
-ms.author: kamaybac
-manager: sakudes
-ms.reviewer: renwe
-topic-status: Drafting
+author: alfergus
+ms.author: alfergus
+manager: shellyha
+ms.reviewer:
+topic-status: 
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Mktg
 ---
 
 # Create a dynamic segment
 
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
+One of the first and most important decisions you'll make when you design any marketing piece is to choose the right audience. Only after you know your audience will you be able to tailor your message to best appeal to that group of people.
 
-One of the first and most important decisions you'll make when you design any marketing piece is to choose the right audience. Only after you know this will you be able to tailor your message to best appeal to that group of people.
+In Dynamics 365 Marketing, you'll set up a collection of segments, which you'll define by using terms that resemble those you already use to describe groups of customers, such as "female wine enthusiasts over 40 living in San Francisco" or "craft beer fans from North Carolina who visited our booth at the festival." Then you'll use these segments to target marketing initiatives like email-marketing campaigns and customer journeys. Segments like these, which you define by using a set of rules and conditions, are called *dynamic segments* because membership in these segments changes constantly and automatically based on information in your database. (Static segments are populated by adding contacts explicitly, one at a time.)
 
-In [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)], you'll set up a collection of segments, which you'll define by using terms that resemble those you already use to describe groups of customers, such as "female wine enthusiasts over 40 living in San Francisco" or "craft beer fans from North Carolina who visited our booth at the festival." Then you'll use these segments to target marketing initiatives like email-marketing campaigns and customer journeys. Segments like these, which you define by using a set of rules and conditions, are called *dynamic segments* because membership in these segments changes constantly and automatically based on information in your customer engagement database. (Static segments are populated by adding contacts explicitly, one at a time.)
+In this exercise, you'll create a couple of fictional contacts with email addresses that you can read, and then set up a test segment that includes those contacts. This test segment will be useful later when you begin to experiment with customer journeys.
 
-In this exercise, you'll create a couple of fictional contacts with email addresses that you can receive mail from, and then set up a test segment that includes those contacts. This test segment will be useful later when you begin to experiment with customer journeys.
+1. Go to **Marketing** > **Customers** > **Contacts**. This takes you to a list of existing contacts. On the command bar, select **New**.
 
-1. Go to **Marketing** &gt; **Customers** &gt; **Contacts**. This takes you to a list of existing contacts. On the command bar, select **New**.  
-    ![Location of the new-contact button](media/new-contact-button-location.png "Location of the New button to create a contact")
+    ![Location of the new-contact button](media/new-contact-button-location2.png "Location of the New button to create a contact")
 
-2. The **New Contact** page opens.  
+1. The **New Contact** page opens.
+
     ![Fill out these fields for your new contact](media/contact-required-fields.png "Fill out these fields for your new contact")  
     Fill out the following fields:
       - **First Name**: Enter a fictional first name.
@@ -40,47 +43,49 @@ In this exercise, you'll create a couple of fictional contacts with email addres
       - **Email**: Enter your own email address (or one that you can receive mail from).
       - **Address 1: City**: Enter a fictional city (for this example, we use **Atlantis**). This will make it easy to create a segment that only includes fictional contacts.
 
-3. On the command bar, select **Save & Close**.
+1. On the command bar, select **Save & Close**.
 
-4. Create a second contact similar to the one you just made. Use the same email address and fictional city, but use a different first and last name.
+1. Create a second contact similar to the one you just made. Use the same email address and fictional city, but use a different first and last name.
 
-5. Go to **Marketing** &gt; **Customers** &gt; **Segments**. This takes you to a list of existing segments. On the command bar, select **New**.  
-    ![Location of the new-segment button](media/new-segment-button-location.png "Location of the New button to create a segment")
+1. Go to **Marketing** > **Customers** > **Segments**. This takes you to a list of existing segments. On the command bar, select **New**.
 
-6. The **New Segment** page opens, with the **General** tab shown. Enter information on the **General** tab to name and describe your new segment. Be sure to leave the **Segment type** set to **Dynamic segment**.  
-    ![The General tab for the segment entity](media/segment-general-settings.png "The General tab for the segment entity")
+1. **New** opens into a dropdown menu, allowing you to choose either a **New Dynamic Segment** or a **New Static Segment**. We're going to create a segment that finds all contacts from our fictional city, **Atlantis**. So, select **New Dynamic Segment**.
 
-7. Open the **Definition** tab. This is where you establish the rules of membership for your segment by building a database query.  
-    ![Location of the Definition tab for the segment entity](media/segment-definition-tab-location.png "Location of the Definition tab for the segment entity")
+1. The **Segment Templates** dialog box opens; select **Skip** to close it and continue to the **New Segment** screen.
 
-8. The **Definition** tab offers three ways to build and view your query: **Flow**, **Designer**, and **Query**. You can use whichever view you prefer—the result will be the same. For this procedure, you'll use the **Designer** view, which is both easy to use and compact.  
-    ![The segment definition Designer view](media/segment-definition-designer.png "The segment definition Designer view")
+    ![Create a dynamic segment](media/create-segment-new-dynamic2.png "Create a dynamic segment")
 
-    > [!TIP]
-    > Each of the three views on the **Definition** tab supports a different way of creating or viewing your segment design:
-    > - **Flow** is optimized for combining segments by using logical operators.
-    > - **Designer** is optimized for defining sets of logical rules and conditions that filter out contacts.
-    > - **Query** presents the query as text, which is very compact and suitable for users who are used to working with database queries.
+1. Select **Add query block** to create a query against the contact entity. You can see the entity being queried by checking the value shown on the drop-down list at the top of the query block.
 
-    > [!IMPORTANT]
-    > While you are designing your segment, you can select the **Get estimated segment size** link to get an *estimate* for the number of contacts that will be included in the segment. This is only an estimate, and can be somewhat different from your actual segment size. You must go live with the segment to view its exact size and membership.
+    ![The entity drop-down list](media/segment-tutorial-contact-add.png "The entity drop-down list")
 
-9. Because you're creating a new segment, you should see a single row in the **Designer**, where the **Contact** entity should already be selected (in the leftmost drop-down list) and set to **All&ast;**. This means that your segment currently finds *all* the contacts in your database, which is probably too many. Let's instead create a segment that just finds contacts who live in specific cities. To do that:  
-   1. Change the drop-down list currently set to **All&ast;** to **addres1\_city**. This changes the query from one that finds all contacts to one that looks for contacts from a specific city or cities. It also adds two more inputs, which you'll use to finish defining this clause.
-   2. Leave the next drop-down list set to **is**. This is the *operator* (other operators include **is not**, **greater than**, **less than**, and more, depending on which type of value you are working with).
-   3. Enter the fictional city name that you chose for your test contacts in the field to the right of the operator list (**Atlantis**), and then select the Enter key on your keyboard. When you select the Enter key, your value becomes a button with an **X** on it. If you like, you can add more city names by entering them here, or remove existing ones by selecting the **X**. If you add several cities, they will be combined with an OR operator, which means you'll find contacts from each of the listed cities.
+1. By default, the new query block creates **Contact** based query with a new row. Your segment currently includes no filters (clause rows), which means it will find all the contacts in your database. But we only want to find the new test contacts that we just created, so let's add a filter.
 
-      Here's an example of how a simple query that finds all contacts from Atlantis might look on the **Designer** tab.  
-      ![Define a segment by city](media/segment-designer-city.png "Define a segment by city")
+1. The row starts with a field containing the ghost test **Select attribute**. Select this field to open a drop-down list that shows all attributes available on the contact entity. Then type "city" to filter the list and choose **Address 1: City** from the list.
 
-      > [!TIP]
-      > You can build very complex queries by using the tools here, combining AND clauses and OR clauses, and adding groups of additional clauses that you can combine with the main clause and other groups by using **Union**, **Exclude**, or **Intersect** operations. You can also move freely between the **Flow**, **Designer**, and **Query** tabs to see how your query looks when presented in these various ways.
+    ![Select the Address 1 City attribute](media/segment-tutorial-contact-city2.png "Select the Address 1 City attribute")
 
-10. On the command bar, select **Save** to save the work you've done on the segment so far.
+1. Two new drop-down lists are now added to the row. Leave the next drop-down list set to **Equals**. This is the *operator*, which defines the way we are going test values in the **Address 1: City** field of the **Contact** entity. Other operators include **Contains**, **Begins with**, **Contains data**, and more, depending on which type of value (string, number, date, and so on) you are working with.
 
-11. On the command bar, select **Go Live** to publish the segment (you won't be able to use it in a customer journey until it goes live, even though you've saved it). [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] checks the segment for errors and reports any problems it finds. If an error is reported, fix it and try again. If no error is found, your segment is copied to the [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] email marketing service, which makes it available for use by a customer journey.
+1. Select the third drop-down list, which contains the ghost text **Enter text** and type the fictional city name that you chose for your test contacts (such as "Atlantis" if that's what you chose).
+
+    ![The completed clause row](media/segment-tutorial-contact-atlantis2.png "The completed clause row")
+
+1. Select the **Name** field at the top of the query and enter a name for your segment (such as "Contacts from Atlantis").
+
+1. Select **Save** on the command bar to save your segment and then select **Go Live** to publish the segment (you won't be able to use it in a customer journey until it goes live, even though you've saved it). Marketing checks the segment for errors and reports any problems it finds. If an error is reported, fix it and try again. If no error is found, your segment is copied to the *marketing services*, which make it available for use by a customer journey.
+
+    ![Select Save and Go live](media/segment-tutorial-save-golive.png "Select Save and Go live")
+
+1. Wait for about a minute and then select **Refresh** on the command bar to refresh the page. You should now see that a **Members** tab has been added (if you don't see it, wait a little longer and try to **Refresh** again until you do). When the **Members** tab appears, open it and note that your segment includes the two fictional contacts that you added earlier.
+
+    ![Refresh and go to the Members tab](media/segment-tutorial-members2.png "Refresh and go to the Members tab")
+
+> [!TIP]
+> You can build very complex queries by using the tools here, creating rows and groups combined with AND clauses and OR clauses, and adding more query blocks that you can combine using **Union**, **Exclude**, or **Intersect** operations. You can even query based on properties of other entities, but each query must ultimately end with the contact entity because segments must always result in a group of contacts. Though segments can't contain lead or account records, you can design your segments to find contacts associated with these types of records. For more, see [Working with segments](segmentation-lists-subscriptions.md) 
+
 
 ### See also
 
-[Market segmentation, marketing lists, and subscription lists](segmentation-lists-subscriptions.md)  
-[Set up subscription lists and subscription centers](set-up-subscription-center.md)
+[Working with segments](segmentation-lists-subscriptions.md)  
+[Design dynamic demographic or firmographic segments](segments-profile.md)

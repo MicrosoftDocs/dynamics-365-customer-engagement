@@ -1,27 +1,22 @@
 ---
-title: "Call center challenges and how Unified Service Desk for Dynamics 365 Customer Engagement can help | MicrosoftDocs"
-description: "Understand how Unified Service Desk can help your service agents." 
-ms.custom:
-  - dyn365-USD, dyn365-admin
+title: "Call center challenges and how Unified Service Desk can help | MicrosoftDocs"
+description: "Understand how Unified Service Desk can help your service agents."
+ms.custom: 
+  - dyn365-USD
+  - dyn365-admin
 ms.date: 08/23/2017
-ms.reviewer: ""
-ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
-ms.assetid: d05a55c8-f73a-4f91-8c33-f5fdbc69b01d
-caps.latest.revision: 4
+ms.service: 
+  - dynamics-365-customerservice
+ms.topic: article
 author: kabala123
 ms.author: kabala
-manager: sakudes
-tags: 
- - "MigrationHO"
+manager: shujoshi
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - D365USD
+tags: MigrationHO
 ---
 # Call center industry concerns
 Before you start with [!INCLUDE[pn_unified_service_desk_for_crm](../../includes/pn-unified-service-desk-for-crm.md)], it’s important to have an overview of the call center industry and its challenges, and how [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] helps address these challenges.  
@@ -53,20 +48,20 @@ Before you start with [!INCLUDE[pn_unified_service_desk_for_crm](../../includes/
   
 <a name="HowUSDHelps"></a>   
 ## How does Unified Service Desk help?  
- [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] provides a configurable framework for quickly building agent applications that provide “unified” access to customer information stored in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]. Some of the value propositions of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] are:  
+ [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] provides a configurable framework for quickly building agent applications that provide “unified” access to customer information stored in the Common Data Service platform. Some of the value propositions of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] are:  
   
-- **Empower agents with unified access to customer information**: [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] provides agents with a single service interface for accessing customer information in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)], which helps them deliver fast and accurate customer service.  
+- **Empower agents with unified access to customer information**: [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] provides agents with a single service interface for accessing customer information in the Common Data Service platform, which helps them deliver fast and accurate customer service.  
   
 - **Configuration-based framework for quickly building agent applications**: Quickly configure a highly customized agent application per your organization requirements without using code. This significantly reduces the time and cost to build and customize agent applications.  
   
   > [!NOTE]
   >  Using [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to configure agent applications is a bit of an art. It provides a highly configurable interface through the use of replacement parameters and window navigation rules that can be used to dynamically display controls and information based on the context of active operation, much of which requires no code (with the possible exception of [!INCLUDE[pn_JavaScript](../../includes/pn-javascript.md)]). To properly configure a solution often requires that the administrator have experience working with different configurations and analyzing the results.  
   
-- **Centrally configure and manage from within [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]**: You can centrally configure and manage your agent applications by using the familiar interface of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
+- **Centrally configure and manage from within the Common Data Service platform**: You can centrally configure and manage your agent applications by using the familiar interface of the Common Data Service platform.  
   
 - **Session-management capabilities**: Your agents can simultaneously handle multiple customer sessions and the application provides you with the ability to preserve contextual information in each session.  
   
-- **Secure access to data based on security in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]**: [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] uses the [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] security model to govern access to the entities and configuration data. Moreover, you can create configurations in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to group entities, and assign them to users to ensure that they can access only the entities within the assigned configuration.  
+- **Secure access to data based on security in the Common Data Service platform: [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] uses the Common Data Service platform security model to govern access to the entities and configuration data. Moreover, you can create configurations in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to group entities, and assign them to users to ensure that they can access only the entities within the assigned configuration.  
   
 - **Reduce operational complexity through agent scripts**: Organizations can provide guidance to their contact center agents through standard instructions (called agent scripts) about what tasks to perform and how to do them, while also handling complex processes during customer interactions. This ensures reduced complexity for contact center agents and a consistent experience for customers, which results in higher customer satisfaction.  
   
@@ -77,5 +72,5 @@ Before you start with [!INCLUDE[pn_unified_service_desk_for_crm](../../includes/
   
 ### See also  
  [Install and Deploy Unified Service Desk](../../unified-service-desk/admin/install-upgrade-deploy-unified-service-desk.md)   
- [Core concepts for configuring Unified Service Desk](../../unified-service-desk/core-concepts-for-configuring-unified-service-desk.md)   
+ [Components of Unified Service Desk](../../unified-service-desk/core-concepts-for-configuring-unified-service-desk.md)   
  [Learn to use Unified Service Desk](../../unified-service-desk/learn-to-use-unified-service-desk.md)

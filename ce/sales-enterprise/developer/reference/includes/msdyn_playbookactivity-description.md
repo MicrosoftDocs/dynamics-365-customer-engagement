@@ -1,0 +1,1 @@
+Stores the details of the activities to be created when a playbook is launched. For internal use only.

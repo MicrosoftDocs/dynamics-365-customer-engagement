@@ -1,28 +1,29 @@
 ---
-title: "Manage sample data (Dynamics 365 for Marketing) | Microsoft Docs"
-description: "For administrators: Add or remove sample data for Dynamics 365 for Marketing."
-keywords: "administration; sample data"
+title: "Manage sample data (Dynamics 365 Marketing) | Microsoft Docs"
+description: "For administrators: Add or remove sample data for Dynamics 365 Marketing."
+keywords: administration; sample data
 ms.date: 04/01/2018
-ms.service:
-  - "dynamics-365-marketing"
-ms.custom:
-  - "dyn365-admin"
-  - "dyn365-marketing"
+ms.service: dynamics-365-marketing
+ms.custom: 
+  - dyn365-admin
+  - dyn365-marketing
 ms.topic: article
-applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
 ms.assetid: 9aad261a-91bb-42e6-b00b-bf0dcd5a6693
-author: kamaybac
-ms.author: kamaybac
-manager: sakudes
-ms.reviewer: renwe
+author: alfergus
+ms.author: alfergus
+manager: shellyha
+ms.reviewer:
 topic-status: Drafting
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Mktg
 ---
 
-# Manage sample data in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]
-
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
+# Manage sample data in Dynamics 365 Marketing
 
 Sample data gives you something to experiment with as you learn, and helps you see how data is organized in the system. If sample data isn't installed on your trial or sandbox instance, you might want to add it for training purposes. 
 

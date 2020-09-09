@@ -1,24 +1,31 @@
 ---
 title: "Choose records to work with offline in Dynamics 365 for Outlook | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 01/11/2016
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - Dynamics 365 (online)
-  - Dynamics 365 (on-premises)
+  - Dynamics 365 apps 
+  - Dynamics 365 apps (on-premises)
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016
   - Dynamics CRM Online
 ms.assetid: 720b3428-867f-4abc-861c-580930b0e43c
 caps.latest.revision: 23
-author: "mduelae"
-ms.author: "mkaur"
-manager: "kvivek"
+author: mduelae
+ms.author: mkaur
+manager: kvivek
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Outlook
 ---
 # Choose records to work with offline in Dynamics 365 for Outlook
 Choose a subset of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] data to take with you when you go offline with [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)] by using offline synchronization filters. By default, these filters copy the appointments, contacts, and tasks records you own to your local drive. You might want to modify the filters to take a smaller subset of data with you or to synchronize particular records. For example, you might want to synchronize all reports since reports you don’t own wouldn’t normally be synchronized.  
@@ -26,7 +33,7 @@ Choose a subset of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)
  You can modify the existing filters or create new filters. You can also delete, deactivate, or activate filters. You can reset the filters every time you go offline.  
   
 > [!TIP]
->  To synchronize data and go online and offline more quickly, you can decrease the interval for automatic synchronization. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Set personal options that affect tracking and synchronization between Dynamics 365 and Outlook or Exchange](set-personal-options-affect-tracking-synchronization-exchange.md)  
+>  To synchronize data and go online and offline more quickly, you can decrease the interval for automatic synchronization. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Set personal options that affect tracking and synchronization between Dynamics 365 apps and Outlook or Exchange](set-personal-options-affect-tracking-synchronization-exchange.md)  
   
 ## Create or modify offline synchronization filters  
   
@@ -40,7 +47,7 @@ Choose a subset of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)
   
    -   In Dynamics 365 for Outlook:  
   
-       -   On the **File** menu, choose **Dynamics 365**.  
+       -   On the **File** menu, choose **Dynamics 365 apps**.  
   
        -   Choose **Options**, and then in the **Set Personal Options** dialog box, choose the **Synchronize** tab.  
   
@@ -62,7 +69,7 @@ Choose a subset of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)
 ## Creating or modifying filter criteria  
  You use a criteria row to create or modify criteria in an offline synchronization filter. Each criteria row contains three values: the field to use in the filter (for example, **City**), an operator (for example, **Equals** or **Contains**), and the value to filter on (for example, **WA**).  
   
- ![Sync or offline filters criteria grid in Dynamics 365](../media/sync-filters-criteria-row.png "Sync or offline filters criteria grid in Dynamics 365")  
+ ![Sync or offline filters criteria grid in Dynamics 365 apps](../media/sync-filters-criteria-row.png "Sync or offline filters criteria grid in Dynamics 365 apps")  
   
 ### Add a criteria row  
   
@@ -87,5 +94,5 @@ Choose a subset of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)
    ![Sync filters dialog box showing grouped criteria](../media/sync-filters-group-criteria.png "Sync filters dialog box showing grouped criteria")  
   
 ### See also  
- [Choose the records to synchronize between Dynamics 365 and Outlook or Exchange](choose-records-synchronize-exchange.md)   
- [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)
+ [Choose the records to synchronize between Dynamics 365 apps and Outlook or Exchange](choose-records-synchronize-exchange.md)   
+ [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 apps and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)

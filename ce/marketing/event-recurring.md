@@ -1,21 +1,24 @@
 ---
-title: "Set up a recurring event (Dynamics 365 for Marketing) | Microsoft Docs "
-description: "Describes how recurring events work in Dynamics 365 for Marketing"
-keywords: "events; waitlist"
-ms.date: 07/06/2018
-ms.service:
-  - "dynamics-365-marketing"
-ms.custom:
-  - "dyn365-marketing"
+title: "Set up a recurring event (Dynamics 365 Marketing) | Microsoft Docs "
+description: "Describes how recurring events work in Dynamics 365 Marketing"
+keywords: events; waitlist
+ms.date: 12/17/2018
+ms.service: dynamics-365-marketing
+ms.custom: 
+  - dyn365-marketing
 ms.topic: article
-applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
 ms.assetid: 5ac46cc6-beef-45b3-941e-38c66519d144
-author: kamaybac
-ms.author: kamaybac
-manager: sakudes
-ms.reviewer: renwe
+author: alfergus
+ms.author: alfergus
+manager: shellyha
+ms.reviewer:
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Mktg
 ---
 
 # Create and manage recurring events
@@ -32,7 +35,7 @@ If you host an event that occurs regularly, such as a monthly partner call, annu
 
 To set up a recurring event:
 
-1. Go to **Events** > **Event** > **Events** to open the events list view.
+1. [Open the Events work area](open-events.md) and go to **Events** > **Event** > **Events** to open the events list view.
 
 1. Select **+ New** on the commend bar to create a new event.
 
@@ -41,17 +44,21 @@ To set up a recurring event:
 
 1. Set up your event by giving it a name and making other basic settings on the **General** tab as usual, but don't leave the **General** tab yet.
 
-  **IMPORTANT**: When you're setting up a recurring event, set the recurring schedule before you add any sessions to the agenda. This ensures that your sessions are correctly created as recurring sessions (with relative start dates) rather than absolute sessions (that have a fixed calendar date and therefore won't recur).
+    > [!IMPORTANT]
+    > When you're setting up a recurring event, set the recurring schedule before you add any sessions to the agenda. This ensures that your sessions are correctly created as recurring sessions (with relative start dates) rather than absolute sessions (that have a fixed calendar date and therefore won't recur).
 
-1. In the **Schedule** section on the **General** tab, set **This is a recurring event** to **Yes**. The **Event Recurrence** section opens.  
+1. In the **Schedule** section on the **General** tab, set **This is a recurring event** to **Yes**. The **Event recurrence** section opens.  
 
     ![Event recurrence settings](media/event-recurring-setup.png "Event recurrence settings")
 
 1. Use the settings in the **Event recurrence** section to establish the pattern for your schedule of occurrences. The example shown in the previous screenshot creates a series where each event runs from 9:00 AM – 5:00 PM on the first Monday every other month, and which ends after 10 occurrences.
 
+    > [!NOTE]
+    > The maximum number of recurrences is 150. If you enter a combination of settings that would produce more than 150 recurrences, you will get a warning and won't be able to save the event until you adjust your settings.
+
 1. Select **Save** in the bottom-right corner of the window.
 
-1. Continue to set up your event using all the available tabs as needed. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Set up an event](set-up-event.md)
+1. Continue to set up your event using all the available tabs as needed. More information: [Set up an event](set-up-event.md)
 
 ## Edit all events in a series
 
@@ -59,7 +66,7 @@ When you set up a recurring event, all the events in that series maintain a link
 
 To edit all non-custom events in a series:
 
-1. Go to **Events** > **Event** > **Events** to open the events list view.
+1. [Open the Events work area](open-events.md) and go to **Events** > **Event** > **Events** to open the events list view.
 1. Do one of the following:
     - Find any occurrence of your target event series in the list and select that event to open it. The **Open recurring item** dialog opens; select **The entire series** to edit the entire series (rather than just the event occurrence you happen to have selected). 
     
@@ -77,7 +84,7 @@ You can customize any individual event that belongs to an event series—for exa
 
 To change a single event that is part of a series:
 
-1. Go to **Events** > **Event** > **Events** to open the events list view.
+1. [Open the Events work area](open-events.md) and go to **Events** > **Event** > **Events** to open the events list view.
 
 1. Set the view selector to **Active Events** (or almost anything other than **Event Series** or **Event Templates**). You should now see a list of individual event occurrences (and non-recurring events).  
 
@@ -95,7 +102,7 @@ Customized event occurrences from a series don't track changes made for the seri
 
 To revert a customized event-series occurrence to a standard occurrence from that series:
 
-1. Go to **Events** > **Event** > **Events** to open the events list view.
+1. [Open the Events work area](open-events.md) and go to **Events** > **Event** > **Events** to open the events list view.
 
 1. Set the view selector to **Active Events** (or almost anything other than **Event Series** or **Event Templates**). You should now see a list of individual event occurrences (and non-recurring events). 
 
@@ -113,5 +120,5 @@ To revert a customized event-series occurrence to a standard occurrence from tha
 
 ### See also
 
-[Event planning and management in Dynamics 365](event-management.md)  
+[Event planning and management](event-management.md)  
 [Set up an event](set-up-event.md)

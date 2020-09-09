@@ -1,9 +1,9 @@
 ---
-title: "Manage blogs on a portal in Dynamics 365 | MicrosoftDocs"
+title: "Manage blogs on a portal | MicrosoftDocs"
 description: "Instructions to manage blogs on a portal."
-ms.custom:
+ms.custom: 
   - dyn365-portal
-ms.date: 06/08/2018
+ms.date: 12/03/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -13,18 +13,25 @@ ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
 manager: shubhadaj
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Portals
 ---
 # Manage blogs
 
-Learn how to manage blog comments and blog posts both within [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] and in your portal.
+Learn how to manage blog comments and blog posts both within Portalsand from the portal content editor.
 
-## Manage blogs in Dynamics 365
+## Manage blogs in Dynamics 365 Portals
 
-[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] users can manage Blog records under the Portals tab after your portal customizations have been imported into your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization.
+Users can manage Blog records under the **Portals** tab after your portal customizations have been imported into your Common Data Service environment.
 
-## Manage blogs on a portal
+## Manage blogs from the portal content editor
 
-Portal users who have blog author permissions can edit or delete blogs by using the portal inline editing interface. If your portal contact has been assigned the necessary permissions, the inline editing interface will appear automatically when you sign in to the portal. Note that although a blog can be edited or deleted through the portal editing interface, it must be created and initially configured in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+Portal users who have blog author permissions can edit or delete blogs by using the portal inline editing interface. If your portal contact has been assigned the necessary permissions, the inline editing interface will appear automatically when you sign in to the portal. Note that although a blog can be edited or deleted through the portal content editing interface, it must be created and initially configured in Dynamics 365 Portals.
 
 To edit a blog, go to the blog's home page, and then select **Edit** on the edit toolbar.
 
@@ -66,11 +73,11 @@ It is important to note that the way in which many of the content/display-orient
 |   Author Roles   |                                                                                                                               Relationship specifying the Web Roles that grant authorship permission on the blog. Any portal users associated with any of these roles will be granted the permission to create new posts, edit and delete their own posts, and edit the attributes and settings of the blog itself.                                                                                                                               |
 |                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 
-## Manage blog posts in Dynamics 365
+## Manage blog posts in Dynamics 365 Portals
 
-For [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] users, Blog Posts can be managed by launching the editor for the desired Blog and then navigating to its related Blog Posts.
+For users, Blog Posts can be managed by launching the editor for the desired Blog and then navigating to its related Blog Posts.
 
-## Manage blogs posts on a portal
+## Manage blogs posts from the portal content editor
 
 For portal users with blog author permissions, blog posts can be managed using the portal inline editing interface. If your user account has been assigned the necessary permissions, the inline editing interface will appear automatically when you sign in to the portal and go to the blog.
 

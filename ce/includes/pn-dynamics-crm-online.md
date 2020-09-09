@@ -1,1 +1,1 @@
-Dynamics 365 (online)
+Dynamics 365 for Customer Engagement

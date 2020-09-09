@@ -1,98 +1,72 @@
 ---
-title: "Uninstall Dynamics 365 for Marketing (Dynamics 365 for Marketing) | Microsoft Docs"
-description: "How to remove Dynamics 365 for Marketing from a Dynamics 365 instance"
-keywords: "uninstall;solutions;administration;instances"
-ms.date: 04/01/2018
-ms.service:
-  - "crm-online"
-ms.custom:
-  - "dyn365-marketing"
+title: "Uninstall Dynamics 365 Marketing (Dynamics 365 Marketing) | Microsoft Docs"
+description: "How to remove Dynamics 365 Marketing from a Dynamics 365 instance"
+keywords: uninstall;solutions;administration;instances
+ms.date: 02/10/2020
+ms.service: dynamics-365-marketing
+ms.custom: 
+  - dyn365-marketing
 ms.topic: article
-applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
 ms.assetid: 76871891-d62c-4496-81f6-60b31bf5e3e6
-author: kamaybac
-ms.author: kamaybac
-manager: sakudes
-ms.reviewer: renwe
-topic-status: Drafting
+author: alfergus
+ms.author: alfergus
+manager: shellyha
+ms.reviewer:
+topic-status:
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Mktg
 ---
 
-# Uninstall [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] from a [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] instance
+# Uninstall Dynamics 365 Marketing
 
-You can remove [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] from any [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] instance where you have installed it. After removing it, you'll end up with a free [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] entitlement (license) that you can install on another [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] instance if needed.
+You can remove the Marketing application from any Dynamics 365 instance where it's installed. After removing it, you'll end up with a Marketing license that you can use on another Dynamics 365 instance, if desired.
 
-The uninstall process has three steps:
-1. Prepare to uninstall by removing sample data and customer journeys.
-2. Uninstall the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] services by running the uninstall wizard.
-3. Clean up the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] solutions in [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)].
 
-## Prepare to uninstall
-Before you uninstall any [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] components, start by removing any sample data and data dependencies from your [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] instance by doing the following:
+## Uninstall Dynamics 365 Marketing services
 
-1. If you have sample data installed, remove it. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Manage sample data](additional-settings.md).
-2. Remove all customer journeys that include launch-workflow and/or record-updated tiles because these introduce data dependencies that can interfere with the uninstall. You might consider deleting all your journeys if you don't need them anymore. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create automated campaigns with customer journeys](customer-journeys-create-automated-campaigns.md)
 
-## Uninstall the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] services
-The [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] uninstall wizard manages most of the uninstall process. It:
+The Marketing uninstall wizard handles most of the uninstall process. The uninstall wizard:
 
-- Removes all [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)], event management, and [!INCLUDE[cc-linkedin-solution](../includes/cc-linkedin-solution.md)] services from your [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] application server.
-- Removes your customer-insights services and their data.
-- Turns off user syncing from [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] for [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)]-only users.
-- Frees your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] entitlement (license) for use with another [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] instance if needed.
+- Removes all services for Marketing, event management, and Dynamics 365 Connector for LinkedIn Lead Gen Forms 
+- Removes the marketing insights service and its data
+- Turns off user syncing from Office 365 for Dynamics 365 Marketing users
+- Frees your Dynamics 365 Marketing license for use with another Dynamics 365 instance
+
+> [!NOTE]
+> If you want to release your Marketing entitlement to use on a different instance, you do not need to uninstall any of the Marketing solutions.
 
 To run the uninstall wizard:
 
-1. [Open the Dynamics 365 admin center](dynamics-365-admin-center.md).
+1. If you have sample data installed, remove it. More information: [Manage sample data](additional-settings.md).
 
-2. To see a list of applications you have installed, select the **Applications** tab.  
-    ![Open the Applications tab](media/update-app-tab.png "Open the Applications tab")
+1. [Run the Marketing setup wizard](re-run-setup.md) for the instance where you want to uninstall the Marketing application. Make sure the correct instance is listed.
 
-    The list shows a row named **Dynamics 365 Marketing Application** for each entitlement (license) you have for [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. Free entitlements (which can't be uninstalled) show a **Status** of **Not configured**. Installed entitlements show a **Status** of **Configured** and include the name of the instance where they are installed as part of their application name.
+    ![Setup wizard for an existing instance with portal integration](media/fre-re-run.png "Setup wizard for an existing instance with portal integration")
 
-3. Select the configured [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] entitlement that you want to uninstall, and then select the **Manage** button ![The Manage button](media/update-manage-button.png "The Manage button") in the side panel. 
+1. From the **Other actions** panel, choose **Uninstall Marketing from this org**.
 
-4. The [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] setup wizard opens.  It shows the name of the Dynamics 365 instance you are about to uninstall. Confirm that you selected the right one.  
-    ![Choose the Uninstall Marketing link](media/uninstall-wizard.png "Choose the Uninstall Marketing link")
+1. Follow the on-screen instructions to confirm and complete the uninstall.
 
-5. Under **Other actions**, select **Uninstall Marketing from this org**.
+<a name="reset-portal"></a>
 
-6. Follow the instructions on your screen to confirm and complete the uninstall.
+## Reset any Dynamics 365 Portals connected to the uninstalled Marketing app
 
-## Remove [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] solutions in [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)]
-The uninstall wizard removes the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] services from your [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] server, but it leaves several solutions on your instance. You should clean these up to help keep your instance lean and running smoothly.
+If the Dynamics 365 Marketing instance that you are uninstalling was connected to a Dynamics 365 Portal (for example to run marketing pages or the events website), then you need to reset the portal to release its license. After the reset, the portal still shows as configured in the Power Platform admin center, but you'll be able to select it when you run the Marketing setup wizard to set up a new, copied, or restored instance.
 
-To remove the services:
+Portals are optional, so you might not have one connected to your Marketing instance. More information: [Integrate Marketing with a CMS system or Dynamics 365 Portal](portal-optional.md)
 
-1. Use the app selector to go to the [!INCLUDE[pn-custom-app-module](../includes/pn-custom-app-module.md)] app.  
-    ![The app-selector menu](media/nav-apps-custom-ill.png "The app-selector menu")
+To reset a portal:
 
-2. To view the list of solutions installed in the custom app, go to **Settings** > **Customizations** > **Solutions**.
-
-3. Find each of the following solutions and remove them, one at a time, in the order listed here. To remove a solution, select its check box, and then select **Delete** on the command bar. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Install, update, or remove a preferred solution](../admin/install-remove-preferred-solution.md)
-    - MicrosoftDynamics_MktEmailTemplates
-    -  MicrosoftDynamics_MktIntegration
-    -  MicrosoftDynamics_MktPageTemplates
-    -  MicrosoftDynamics_MktLeadGenLink
-    -  MicrosoftDynamics_MktConsentManagement
-    -  MicrosoftDynamics_MktQuotaInfo
-    -  MicrosoftDynamics_MktLeadManagement
-    -  MicrosoftDynamics_MktPortalsLink
-    -  MicrosoftDynamics_MktVocLink
-    -  MicrosoftDynamics_MktEvtMgmtLink
-    -  MicrosoftDynamics_Marketing
-    -  MicrosoftDynamics_MarketingAnchorSolution
-    -  MicrosoftDynamics_EvtMgmtVocLink
-    -  MicrosoftDynamics_EvtMgmtPortalsLink
-    -  MicrosoftDynamics_EventManagement
-    -  MicrosoftDynamics_EventManagementAnchorSolution
-    -  LinkedInLeadGenIntegration
-
-4. If you're no longer using portal or [!INCLUDE[pn-voice-of-the-customer](../includes/pn-voice-of-the-customer.md)] functionality, you can also delete their related solutions.
+1. Follow the instructions provided in [Reset a portal](../portals/reset-portal.md).
+1. Portal reset leaves behind its website bindings, which may prevent you from reusing your portal name. Therefore, you should always delete all website bindings that are related to the portals used by your uninstalled Marketing instance. More informatation: [Create and manage website bindings](../portals/website-bindings.md)
 
 ### See also
 
-[Open the Dynamics 365 admin center](dynamics-365-admin-center.md)  
+[Open the Power Platform admin center](power-platform-admin-center.md)  
 [Keep Marketing up to date](apply-updates.md)  
 [Manage Marketing instances](manage-marketing-instances.md)  

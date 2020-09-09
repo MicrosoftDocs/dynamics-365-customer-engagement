@@ -1,23 +1,28 @@
 ---
 title: "Dashboard views in Dynamics 365 for phones and tablets | MicrosoftDocs"
-ms.custom: ""
-ms.date: "07/19/2017"
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 07/19/2017
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics CRM Online"
-author: "jimholtz"
+  - Dynamics 365 apps
+  - Dynamics CRM Online
 ms.assetid: 70afbe24-617d-428f-8067-da3a6f3fbd5c
 caps.latest.revision: 7
-ms.author: "mkaur"
+ms.author: mkaur
+author: jimholtz
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Sales
 ---
 # Dashboard views in Dynamics 365 for phones and tablets
-
-[!INCLUDE[cc-applies-to-update-8-2-0](../../../../includes/cc_applies_to_update_8_2_0.md)]
 
 ## Work with records on the dashboard  
  Where [The workspace, your personalized action hub in Dynamics 365 for phones and tablets](workspace-personalized-action-hub.md) shows you common tasks and daily priorities, dashboards give you an overview of important information. Click the home icon any time to get your dashboards. Here are some of the  ways you can work with them.  
@@ -36,4 +41,4 @@ ms.author: "mkaur"
 - In [!INCLUDE[pn_Mobile_Express_short](../../../../includes/pn-mobile-express-short.md)], tap **…** and tap **Select View** on the command bar.  
 
 ### See also  
- [Dynamics 365 for Phones and Tablets User's Guide](../../../dynamics-365-phones-tablets-users-guide.md)
+ [Dynamics 365 for phones and tablets User's Guide](../../../dynamics-365-phones-tablets-users-guide.md)

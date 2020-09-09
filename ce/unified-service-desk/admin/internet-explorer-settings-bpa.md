@@ -1,21 +1,15 @@
 ---
-title: "Internet Explorer settings (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Internet Explorer settings | MicrosoftDocs"
 description: "Learn about the Internet Explorer settings that best practices outlines and against which Best Practices Analyzer performs analysis."
-ms.custom: ""
-ms.date: 05/07/2018
-ms.service: "usd"
-ms.topic: "article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
-ms.assetid: 104DE14D-F43E-4414-AC83-5C1157E79831
-author: "kabala123"
-ms.author: "kabala"
-manager: "sakudes"
+ms.date: 09/03/2020
+ms.service: 
+  - "dynamics-365-customerservice"
+ms.topic: article
+author: kabala123
+ms.author: kabala
+manager: shujoshi
 ---
+
 # [!include[pn-internet-explorer](../../includes/pn-internet-explorer.md)] settings
 
 In the context of [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] and the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application, certain parameters of [!include[pn-internet-explorer](../../includes/pn-internet-explorer.md)] settings are important for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to work seamlessly.
@@ -31,7 +25,7 @@ Tab Process Growth is the rate at which [!include[pn-internet-explorer](../../in
 Set **TabProcGrowth** value to **16**:
 
 1. Open **C:/** > **[!include[pn-ms-windows-short](../../includes/pn-ms-windows-short.md)]** > **regedit**.
-2. Go to **Computer**\\**HKEY\_CURRENT\_USER**\\**Software**\\**Microsoft**\\**Internet Explorer**\\**Main**.
+2. Go to **Computer**\\**HKEY_CURRENT_USER**\\**Software**\\**Microsoft**\\**Internet Explorer**\\**Main**.
 3. Right-click **TabProcGrowth**, and then select **Modify**.
    > [!Note]
    > If the registry key isn't present, create it:<br>
@@ -52,7 +46,7 @@ Tab Shutdown Delay causes the [!include[pn-internet-explorer](../../includes/pn-
 Set **TabShutdownDelay** value to **0**:
 
 1. Open **C:/** > **[!include[pn-ms-windows-short](../../includes/pn-ms-windows-short.md)]** > **regedit**.
-2. Go to `Computer\HKEY\CURRENT\USER\Software\Microsoft\Internet Explorer\Main`.
+2. Go to `Computer\HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main`.
 3. Right-click **TabShutdownDelay**, and then select **Modify**.
    > [!NOTE]
    > If the registry key isn't present, create it:<br>
@@ -80,7 +74,7 @@ You can disable the option using the Registry Editor or Internet options.
 To disable **Enable Enhanced Protected Mode** using the Registry Editor:
 
 1. Open **C:/** > **[!include[pn-ms-windows-short](../../includes/pn-ms-windows-short.md)]** > **regedit**.
-2. Go to `Computer\HKEY\CURRENT\USER\Software\Microsoft\Internet Explorer\Main`.
+2. Go to `Computer\HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main`.
 3. Right-click **Isolation**, and then select **Modify**.
    > [!Note]
    > If the registry key isn't present, create it:<br>
@@ -114,7 +108,7 @@ You can disable the option using the Registry Editor or Internet options.
 To disable the option using the Registry Editor:
 
 1. Open **C:/** > **[!include[pn-ms-windows-short](../../includes/pn-ms-windows-short.md)]** > **regedit**.
-2. Go to `Computer\HKEY\CURRENT\USER\Software\Microsoft\Internet Explorer\Recovery`.
+2. Go to `Computer\HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Recovery`.
 3. Right-click **AutoRecover**, and then select **Modify**.
    > [!Note]
    > If the registry key isn't present, create it:<br>
@@ -146,7 +140,7 @@ You can enable the option using the Registry Editor or Internet options.
 To enable the option using the Registry Editor:
 
 1. Open **C:/** > **[!include[pn-ms-windows-short](../../includes/pn-ms-windows-short.md)]** > **regedit**.
-2. Go to `Computer\HKEY\CURRENT\USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\\\<numerically named key folder>`. <br>
+2. Go to `Computer\HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\\\<numerically named key folder>`. <br>
    Numerically named folders are as follows:<br>
    - 1 (Intranet zone)
    - 2 (Trusted Sites zone)
@@ -158,7 +152,7 @@ To enable the option using the Registry Editor:
    >     1. Right-click the blank area, and then select **New** > **DWORD (32-bit) Value**. You can a see new file. <br>
    >     2. Type **2500** as the file name, and then select **Modify**.
 
-4. In the **Value data** field, type **0**..
+4. In the **Value data** field, type **0**.
 5. Select **OK**.
 
 To enable the option using Internet options:
@@ -173,6 +167,9 @@ To enable the option using Internet options:
 4. Select the **Enable Protected Mode** check box for the all the zones.
 5. Select **Apply**, and then select **OK**.
 
+> [!TIP]
+> An alternative mitigation is retaining the default settings in the **Security** zones, and adding the instance and authentication URLs to the **Trusted sites**. For more information, see the [blog](https://blogs.msdn.microsoft.com/usd/2016/01/26/ie-process-mode-gives-httpevent-popup/).
+
 ## Cleanup HTCs
 
 [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] checks for the **Cleanup HTCs** registry key and displays an error message when the key is disabled (value set to **No**).
@@ -185,7 +182,7 @@ Set the **Cleanup HTCs** option to **Yes**:
 
 1. Go to **C:/** > **[!include[pn-ms-windows-short](../../includes/pn-ms-windows-short.md)]** > **regedit**
 2. Double-click to open **regedit**.
-3. Go to `Computer\HKEY\CURRENT\USER\Software\Microsoft\Internet Explorer`.
+3. Go to `Computer\HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer`.
 4. Right-click **Cleanup HTCs**, and then select **Modify**.
 5. In the **Value data** field, select **Yes**.
 6. Select **OK**.
@@ -202,7 +199,7 @@ Use the latest version of [!include[pn-internet-explorer](../../includes/pn-inte
 
 If you're running [!include[pn-windows-7](../../includes/pn-windows-7.md)] or earlier, download [!include[pn-ie-11](../../includes/pn-ie-11.md)].
 
-[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Internet Explorer Downloads](https://support.microsoft.com/en-us/help/17621/internet-explorer-downloads)
+[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Internet Explorer Downloads](https://support.microsoft.com/help/17621/internet-explorer-downloads)
 
 ## See also
 
@@ -212,7 +209,7 @@ If you're running [!include[pn-windows-7](../../includes/pn-windows-7.md)] or ea
 
 [Read Best Practices Analyzer report](../admin/read-best-practices-analyzer-report.md)
 
-[Best practice rule categories and parameters](../admin/compliance-categories-parameters-bpa.md)
+[List of rule categories and parameters](../admin/compliance-categories-parameters-bpa.md)
 
 [System configurations](../admin/system-configurations-bpa.md)
 

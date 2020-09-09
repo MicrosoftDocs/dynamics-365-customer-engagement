@@ -1,5 +1,4 @@
 {
-  "need_generate_pdf": true,
   "docsets_to_publish": [
     {
       "docset_name": "customer-engagement",
@@ -7,7 +6,9 @@
       "build_output_subfolder": "customer-engagement",
       "locale": "en-us",
       "monikers": [],
-      "moniker_ranges": [],
+      "moniker_ranges": [
+        ">= dynamics-usd-3"
+      ],
       "xref_query_tags": [
         "/dotnet",
         "/dynamics365/customer-engagement/web-api"
@@ -16,7 +17,9 @@
       "type_mapping": {
         "Conceptual": "Content",
         "ManagedReference": "Content",
-        "RestApi": "Content"
+        "RestApi": "Content",
+        "ContextObject": "Toc",
+        "LandingData": "Content"
       },
       "build_entry_point": "docs",
       "template_folder": "_themes",
@@ -28,42 +31,6 @@
         ]
       },
       "JoinTOCPlugin": [
-        {
-          "ConceptualTOC": "ce/developer/online-management-api/toc.yml",
-          "ReferenceTOCUrl": "/rest/api/dynamics365/toc.json"
-        },
-        {
-          "ConceptualTOC": "ce/developer/webapi/toc.yml",
-          "ReferenceTOCUrl": "/dynamics365/customer-engagement/web-api/toc.json"
-        },
-        {
-          "ConceptualTOC": "ce/developer/org-service/toc.yml",
-          "ReferenceTOCUrl": "/dotnet/api/ce-9-general/toc.json"
-        },
-        {
-          "ConceptualTOC": "ce/developer/deployment-service/toc.yml",
-          "ReferenceTOCUrl": "/dotnet/api/ce-9-deployment/toc.json"
-        },
-        {
-          "ConceptualTOC": "ce/developer/outlook-client/toc.yml",
-          "ReferenceTOCUrl": "/dotnet/api/ce-9-outlookclient/toc.json"
-        },
-        {
-          "ConceptualTOC": "ce/developer/package-deployer/toc.yml",
-          "ReferenceTOCUrl": "/dotnet/api/ce-9-packagedeployer/toc.json"
-        },
-        {
-          "ConceptualTOC": "ce/developer/workflow/toc.yml",
-          "ReferenceTOCUrl": "/dotnet/api/ce-9-workflow/toc.json"
-        },
-        {
-          "ConceptualTOC": "ce/developer/xrm-tooling/toc.yml",
-          "ReferenceTOCUrl": "/dotnet/api/ce-9-xrmtooling/toc.json"
-        },
-        {
-          "ConceptualTOC": "ce/developer/virtual-entities/toc.yml",
-          "ReferenceTOCUrl": "/dotnet/api/ce-9-virtualentity/toc.json"
-        },
         {
           "ConceptualTOC": "ce/unified-service-desk/toc.yml",
           "ReferenceTOCUrl": "/dotnet/api/usd-3-dotnet/toc.json"
@@ -77,7 +44,7 @@
   "git_repository_url_open_to_public_contributors": "https://github.com/MicrosoftDocs/dynamics-365-customer-engagement",
   "git_repository_branch_open_to_public_contributors": "master",
   "skip_source_output_uploading": false,
-  "need_preview_pull_request": false,
+  "need_preview_pull_request": true,
   "contribution_branch_mappings": {},
   "dependent_repositories": [
     {
@@ -106,6 +73,10 @@
     "live": [
       "Publish",
       "Pdf"
+    ],
+    "JimHoltzMatp": [
+      "Publish",
+      "Pdf"
     ]
   },
   "need_generate_pdf_url_template": true,
@@ -123,5 +94,8 @@
       "version": "latest"
     }
   ],
-  "need_generate_intellisense": false
+  "need_generate_intellisense": false,
+  "docs_build_engine": {
+    "name": "docfx_v3"
+  }
 }

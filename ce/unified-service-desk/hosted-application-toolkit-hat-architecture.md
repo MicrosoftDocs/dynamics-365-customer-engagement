@@ -1,25 +1,21 @@
 ---
-title: "Hosted Application Toolkit (HAT) architecture in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
-description: "The topic illustrates the components of Hosted Application Toolkit (HAT) and the application startup process. "
-ms.custom:
+title: "Hosted Application Toolkit (HAT) architecture in Unified Service Desk | MicrosoftDocs"
+description: "The topic illustrates the components of Hosted Application Toolkit (HAT) and the application startup process."
+ms.custom: 
   - dyn365-USD
 ms.date: 08/23/2017
-ms.reviewer: ""
-ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
-ms.assetid: c5774245-31dd-47d0-9737-c5a00954479b
-caps.latest.revision: 5
+ms.service: 
+  - dynamics-365-customerservice
+ms.topic: article
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
+search.audienceType: 
+  - customizer
+  - developer
+search.app: 
+  - D365CE
+  - D365USD
 ---
 # Hosted Application Toolkit (HAT) architecture
 This topic illustrates the components of [!INCLUDE[pn_hosted_application_toolkit_hat](../includes/pn-hosted-application-toolkit-hat.md)] and the application startup process.  

@@ -1,1 +1,0 @@
-Displays the the associated grid for the grid. 

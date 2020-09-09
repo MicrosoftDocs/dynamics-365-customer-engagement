@@ -1,32 +1,20 @@
 ---
-title: "Create or edit a goal (Dynamics 365 for Sales) | MicrosoftDocs"
+title: "Create or edit goals (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Keep track of your progress on achieving target revenue by using goals."
-keywords: "Goal, target"
-ms.date: 04/01/2018
-ms.service: dynamics-365-sales
-ms.custom:
-  - dyn365-sales
+ms.date: 10/01/2019
+ms.service:
+  - "dynamics-365-sales"
 ms.topic: article
-applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-ms.assetid: 161f9a27-3709-42c7-bca0-8538250e5de0
 author: shubhadaj
 ms.author: shujoshi
-manager: sakudes
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-topic-status: Drafting
+manager: annbe
 ---
 
-# Create or edit a goal (Sales and Sales Hub)
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+# Create or edit goals (Sales and Sales Hub)
 
 Use goals to keep track of your progress on achieving target revenue.  
   
-## Create a goal (Sales Hub app)
+## Create a goal (Sales Hub)
   
 1. [!INCLUDE[proc_permissions_mgr_vp_sys_admin_sys_cust](../includes/proc-permissions-mgr-vp-sys-admin-sys-cust.md)]  
   
@@ -34,8 +22,6 @@ Use goals to keep track of your progress on achieving target revenue.
   
 3. On the command bar, select **New**.  
 
-    ![Goal form](media/goal-form.png "Goal form")
-  
 4. Fill in your information. Use the handy tooltips as a guide.
 
    - Name. Type a name that describes the goal. 
@@ -44,11 +30,13 @@ Use goals to keep track of your progress on achieving target revenue.
     
    - Goal Metric. Choose how the goal will be tracked by selecting a metric for the goal.
 
-     > [!NOTE]
-     > 
-     > If you select a parent goal for this goal, you can't select a goal metric. It is automatically populated from the parent goal.
+      > [!NOTE]
+      > If you select a parent goal for this goal, you can't select a goal metric. It is automatically populated from the parent goal.
     
    - Goal Owner. Select the user or team responsible for meeting the goal.
+
+      > [!div class="mx-imgBorder"]
+      > ![Goal form](media/goal-form.png "Goal form")
   
 5. Select **Save**.
 
@@ -58,7 +46,8 @@ Use goals to keep track of your progress on achieving target revenue.
     
    - If **Goal Period** Type is **Custom Period**, select a date in the From and To fields to define a custom period for which the goal is tracked.
 
-     ![Time Period tab on the Goal form](media/time-period-tab-goal-form.png "Time Period tab on the Goal form")
+     > [!div class="mx-imgBorder"]
+     > ![Time Period tab on the Goal form](media/time-period-tab-goal-form.png "Time Period tab on the Goal form")
 
    > [!NOTE]
    > 
@@ -102,7 +91,7 @@ Use goals to keep track of your progress on achieving target revenue.
 
 13.	Select **Save** or **Save & Close**.
 
-## Create a goal (Sales app)
+## Create a goal (Sales)
   
 1. [!INCLUDE[proc_permissions_mgr_vp_sys_admin_sys_cust](../includes/proc-permissions-mgr-vp-sys-admin-sys-cust.md)]  
     #### Check your security role  

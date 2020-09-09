@@ -1,32 +1,28 @@
 ---
-title: "What's new in Dynamics 365 for Sales | MicrosoftDocs"
-description: "Learn about what's new in the latest release of Dynamics 365 for Sales."
-keywords: "what's new, Dynamics 365 for Sales"
-ms.date: 04/01/2018
-ms.service: crm-online
-ms.custom: 
+title: "What's new in Dynamics 365 Sales | MicrosoftDocs"
+description: "Learn about what's new in the latest release of Dynamics 365 Sales."
+ms.date: 08/10/2020
+ms.service:
+  - "dynamics-365-sales"
 ms.topic: article
-applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-ms.assetid: a87d5f37-892f-43a8-97b2-151037132f72
 author: shubhadaj
 ms.author: shujoshi
-manager: sakudes
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-caps.latest.revision: 
-topic-status: Drafting
+manager: annbe
 ---
 
-# What's new in Dynamics 365 for Sales
+# What's new in Dynamics 365 Sales (Enterprise)
 
-Welcome to [!INCLUDE[pn-sales-enterprise-doc-name-shortest](../includes/pn-sales-enterprise-doc-name-shortest.md)]! Visit this page to see what’s added or updated recently. 
+This topic provides resources where you can learn about the new features that have recently released or new features that will be releasing over the next few months.
 
-## Dynamics 365 for Sales, Spring 2018 ([!INCLUDE[pn-crm-9-0-2-online](../includes/pn-crm-9-0-2-online.md)])
+For information about new features releasing over the next few months that you can use for planning, see:
+- [2020 release wave 2 plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/sales/dynamics365-sales/planned-features)
+  To learn more about early access features in the 2020 wave 2 release and how to opt in to early access updates, see [2020 release wave 2 features available for early access](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/features-ready-early-access#dynamics-365-sales), [Opt in to early access updates](/power-platform/admin/opt-in-early-access-updates)
+- [2020 release wave 1 plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-sales/planned-features)  
+- [2019 release wave 2 plan](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-sales/planned-features)
+- [April 2019 release notes](https://docs.microsoft.com/business-applications-release-notes/april19/dynamics365-sales/planned-features)
 
--  **Sales app is built on the Unified Interface framework for consistent user experience**: The new Sales Hub app delivers a consistent, uniform, user interface, and follows responsive design principles for optimal viewing on any screen size or device. Entities used in the sales process, including products, goals, and sales literature, run on this responsive platform and conform to common data model standards. 
-- **Sales insights add-on (Preview)**: Sales insights add-on contains <!--Predictive lead scoring and --> Relationship analytics and is available in the Embedded intelligence (formerly known as Relationship Insights) suite of features. 
-  <!-- - **Predictive lead scoring (Preview)**: Using the predictive lead scoring feature helps you to focus on revenue generation efforts by providing score to prioritize efforts on quality leads. Using this score, you can identify best possible opportunities that are available for you to close deals and achieve your targets.--> 
-  - **Relationship analytics (Preview)**: Relationship analytics continuously analyzes the customer-interaction data that is stored in your Dynamics 365 and Microsoft Exchange systems. This helps you to understand your relationship health and trend, evaluate where to invest your time and discover people who can help you close the deal. 
+
+> [!NOTE]
+> Releases are rolled out to different regions over several days. New or updated functionality might not appear immediately.
+
+To submit and vote on **feature requests** and **product suggestions**, go to the [Dynamics 365 Application Ideas portal](https://experience.dynamics.com/ideas/categories/?forum=5f82c7ac-92b0-e811-a96a-000d3a1bece3&forumName=Dynamics%20365%20Sales).

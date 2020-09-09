@@ -1,25 +1,21 @@
 ---
-title: "Panel Layout (Hosted Control) in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "Panel Layout (Hosted Control) in Unified Service Desk | MicrosoftDocs"
 description: "Learn about using the Panel Layout hosted control to define the arrangement of panels in Unified Service Desk. Panels hold various hosted controls, and a panel layout defines the arrangement of various hosted controls on the main screen of the Unified Service Desk client application."
-ms.custom:
+ms.custom: 
   - dyn365-USD
-ms.date: 08/23/2017
-ms.reviewer: ""
-ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
-ms.assetid: bbc0cc8e-b45c-4ad6-a7e8-616dc1a00f53
-caps.latest.revision: 7
+ms.date: 12/31/2019
+ms.service: 
+  - dynamics-365-customerservice
+ms.topic: article
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
+search.audienceType: 
+  - customizer
+  - developer
+search.app: 
+  - D365CE
+  - D365USD
 ---
 # Panel Layout (Hosted Control)
 Use **Panel Layout** hosted control to define the arrangement of panels in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. Panels hold various hosted controls, and a panel layout defines the arrangement of various hosted controls on the main screen of the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application. [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] comes with several predefined panel types to support various layout options such as tabbed layout, deck, and stacked layout. For more information, see [Panels, panel types, and panel layouts in Unified Service Desk](../unified-service-desk/panels-panel-types-panel-layouts.md).  
@@ -41,7 +37,7 @@ Use **Panel Layout** hosted control to define the arrangement of panels in [!INC
   
  In the **New Hosted Control** screen:  
   
-- From the **USD Component Type** drop-down list, select **Panel Layout**.  
+- From the **Unified Service Desk Component Type** drop-down list, select **Panel Layout**.  
   
 - From the **PanelType** drop-down list, select a panel layout type to create. You can select one from the following: **Standard Main Panel**, **Ribbon Main Panel**, **Vertical Split**, **Horizontal Split**, **XAML**, and **User Defined**. The XAML and User Defined panel layouts are the custom panels that you define. For detailed information about each of the panel layouts, see [Panels, panel types, and panel layouts in Unified Service Desk](../unified-service-desk/panels-panel-types-panel-layouts.md). The fields in this page change based on the selected panel type.  
   
@@ -84,7 +80,7 @@ Use **Panel Layout** hosted control to define the arrangement of panels in [!INC
 |panel|Target panel for the hosted control.|  
   
 ### New_CRM_Page  
- Creates a page for creating a new [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record of the entity specified, and treats the page as a popup from the specified hosted control. The window navigation rules are evaluated to determine the location where the page to create the entity record is displayed.  
+ Creates a page for creating a new record of the entity specified, and treats the page as a popup from the specified hosted control. The window navigation rules are evaluated to determine the location where the page to create the entity record is displayed.  
   
 |Parameter|Description|  
 |---------------|-----------------|  
@@ -132,7 +128,7 @@ Use **Panel Layout** hosted control to define the arrangement of panels in [!INC
 |propertyname|The name of the property for the specified element that you want to set such as `Height`, `Width`, `Visibility`, and `Color`.<br /><br /> For example: `propertyname=Visibility`|  
 |value|Specify the appropriate value for the specified property. Supported value types for this parameter are `string`, `enumeration`, `integer`, or `bool`.<br /><br /> For example: `value=Visible`|  
   
- For an example usage of this message, see [Step 3: Configure action calls to automatically display and hide the knowledge base search panel](../unified-service-desk/walkthrough-8-use-parature-knowledge-base-within-your-agent-application.md#Step3) in [Walkthrough 8: Use Parature knowledge within your agent application](../unified-service-desk/walkthrough-8-use-parature-knowledge-base-within-your-agent-application.md).  
+ For an example usage of this message, see [Step 3: Configure action calls to automatically display and hide the knowledge base search panel](../unified-service-desk/walkthrough-8-use-dynamics-365-knowledge-base-within-agent-application.md#Step3) in [Walkthrough 8: Use Parature knowledge within your agent application](../unified-service-desk/walkthrough-8-use-dynamics-365-knowledge-base-within-agent-application.md).  
   
 > [!NOTE]
 >  By default, this action is exposed only for the **Panel Layout** type of hosted control. To use the `SetVisualProperty` action with all other predefined [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] hosted control types that are derived from the [DynamicsBaseHostedControl](https://docs.microsoft.com/dotnet/api/microsoft.crm.unifiedservicedesk.dynamics.dynamicsbasehostedcontrol) class, you must explicitly add a UII action called `SetVisualProperty` to the respective hosted control. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add UII action for a hosted control](../unified-service-desk/add-uii-action-hosted-control.md)  

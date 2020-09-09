@@ -1,29 +1,28 @@
 ---
-title: "How Unified Service Desk for Dynamics 365 Customer Engagement handles application and system errors | MicrosoftDocs"
+title: "How Unified Service Desk  handles application and system errors | MicrosoftDocs"
 description: "Understand how application and system faults are managed in Unifed Service Desk."
-ms.custom:
-  - dyn365-USD, dyn365-admin
+ms.custom: 
+  - dyn365-USD
+  - dyn365-admin
 ms.date: 08/23/2017
-ms.prod: "usd2.0"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Unified Service Desk 2.0"
-ms.assetid: 01878a81-2b67-44ab-a11d-b19adc407177
-caps.latest.revision: 5
+ms.service: 
+  - dynamics-365-customerservice
+ms.topic: article
 author: kabala123
 ms.author: kabala
-ms.service: dynamics-365-customerservice
-manager: sakudes
+manager: shujoshi
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - D365USD
+ms.prod: usd2.0
 ---
 # Application and system faults
 Having detailed and comprehensive logging and reporting that occurs during a  component, application, or system fault can help identify when and how the fault occurred. The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client can record diagnostics logs, system and application state details, and application memory dumps in the event of an exception in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client.  
   
 > [!NOTE]
-> - The error diagnostics reporting features described here were  first introduced in [!INCLUDE[pn_unified_service_desk_2_2dot2](../../includes/pn-unified-service-desk-2-2dot2.md)].  
->   -   For more information about the error diagnostics reporting files that are mentioned here, see [Error diagnostics reporting](../../unified-service-desk/admin/configure-client-diagnostic-logging-unified-service-desk.md#exceptionlogging).  
+> For more information about the error diagnostics reporting files that are mentioned in this topic, see [Error diagnostics reporting](../../unified-service-desk/admin/configure-client-diagnostic-logging-unified-service-desk.md#exceptionlogging).  
   
  
 <a name="typesofexceptions"></a>   

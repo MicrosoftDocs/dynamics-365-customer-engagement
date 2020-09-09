@@ -1,19 +1,26 @@
 ---
 title: "Install Microsoft Dynamics 365 for Outlook for desktop virtualization | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 11/28/2016
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - Dynamics 365 (online)
+  - Dynamics 365 apps 
 ms.assetid: 4c6960a6-ffe7-478a-88c5-14d4f64f6320
 caps.latest.revision: 46
-author: "mduelae"
-ms.author: "mkaur"
-manager: "kvivek"
+author: mduelae
+ms.author: mkaur
+manager: kvivek
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Outlook
 ---
 # Install Microsoft Dynamics 365 for Outlook for desktop virtualization
 This topic describes how to install [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] with roaming user profiles by using [!INCLUDE[pn_Windows_Server](../../includes/pn-windows-server.md)][!INCLUDE[pn_Remote_Desktop_Services](../../includes/pn-remote-desktop-services.md)]. [!INCLUDE[pn_Remote_Desktop_Services](../../includes/pn-remote-desktop-services.md)], formerly Terminal Services, is a server role in [!INCLUDE[pn_Windows_Server](../../includes/pn-windows-server.md)] that provides technologies that enable users to access session-based desktops, virtual machine-based desktops, or applications in the data center from both within a corporate network and from the Internet.  
@@ -80,12 +87,12 @@ This topic describes how to install [!INCLUDE[pn_crm_for_outlook_short](../../in
 9. Exit Registry Editor.  
   
 <a name="BKMK_Citrix"></a>   
-## Support for Citrix XenApp 6.5 and 7.0-7.6 session virtualization for Microsoft Dynamics 365 for Outlook on a single XenApp instance  
- [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)] will support Citrix XenApp 6.5 and 7.0 -7.6 with session virtualization for [!INCLUDE[pn_crm_2016_outlook](../../includes/pn-crm-2016-outlook.md)] on a single XenApp instance.  
+## Support for Citrix XenApp 6.5 and 7.0-7.18 session virtualization for Microsoft Dynamics 365 for Outlook on a single XenApp instance  
+ [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)] will support Citrix XenApp 6.5 and 7.0 -7.18 with session virtualization for [!INCLUDE[pn_crm_2016_outlook](../../includes/pn-crm-2016-outlook.md)] on a single XenApp instance.  
   
  Please note that Citrix deployment may include a complex configuration topology based on other configurations, and these are not supported. For example, these configurations are not supported:  
   
-- Citrix products like XenApp (except for versions 6.5 and 7.0-7.6), XenDesktop, and XenServer and versions of these products  
+- Citrix products like XenApp (except for versions 6.5 and 7.0-7.18), XenDesktop, and XenServer and versions of these products  
   
 - Application streaming modes  
   
@@ -96,5 +103,5 @@ This topic describes how to install [!INCLUDE[pn_crm_for_outlook_short](../../in
 - Cached Exchange Mode turned off in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] is supported if [!INCLUDE[proc_crm_for_outlook](../../includes/proc-crm-for-outlook.md)] syncs with [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] using server-side synchronization but not supported if [!INCLUDE[proc_crm_for_outlook](../../includes/proc-crm-for-outlook.md)] syncs with [!INCLUDE[proc_crm_for_outlook](../../includes/proc-crm-for-outlook.md)] synchronization. See: [Turn on Cached Exchange Mode](https://support.office.com/article/Turn-on-Cached-Exchange-Mode-7885af08-9a60-4ec3-850a-e221c1ed0c1c?CorrelationId=90246111-3367-4702-a41b-62ab9b65f3f0).  
   
 ### See Also  
- [Install or upgrade language packs for Microsoft Dynamics 365](https://technet.microsoft.com/library/hh699674.aspx)   
- [Planning and installing Dynamics 365 for Outlook for Microsoft Dynamics 365 and Dynamics 365 Online](planning-installing.md)
+ [Install or upgrade language packs for Microsoft Dynamics 365 apps](https://technet.microsoft.com/library/hh699674.aspx)   
+ [Planning and installing Dynamics 365 for Outlook for Microsoft Dynamics 365 apps and Dynamics 365 apps Online](planning-installing.md)

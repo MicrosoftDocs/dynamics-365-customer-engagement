@@ -1,30 +1,25 @@
 ---
-title: "Manage access using Unified Service Desk for Dynamics 365 Customer Engagement configuration | MicrosoftDocs"
-description: "Learn to control how agents use Unified Service Desk for Dynamics 365 Customer Engagement by using configuration."
-ms.custom:
-  - dyn365-USD, dyn365-admin
+title: "Manage access using Unified Service Desk  configuration | MicrosoftDocs"
+description: "Learn to control how agents use Unified Service Desk  by using configuration."
+ms.custom: 
+  - dyn365-USD
+  - dyn365-admin
 ms.date: 08/23/2017
-ms.reviewer: ""
-ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
-ms.assetid: 91772c31-da1f-453b-9934-0179bc50c398
-caps.latest.revision: 10
+ms.service: 
+  - dynamics-365-customerservice
+ms.topic: article
 author: kabala123
 ms.author: kabala
-manager: sakudes
-tags: 
- - "MigrationHO"
+manager: shujoshi
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - D365USD
+tags: MigrationHO
 ---
 # Use Unified Service Desk configuration to manage access
-[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration is a great way to filter things that you want your agents to see without having to manage their security roles. Agents can see only those [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] components in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application that are added in a configuration assigned to them.  
+[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration is a great way to filter things that you want your agents to see without having to manage their security roles. Agents can see only those [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] components in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application that are added in a configuration assigned to them.
   
  You can add the following [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] components in a configuration:  
   
@@ -53,29 +48,44 @@ tags:
 <a name="Create"></a>   
 ## Create a Unified Service Desk configuration  
   
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
+1. Sign in to the Common Data Service platform.
+
+2. Select the down arrow next to Dynamics 365.
+
+3. Select **Unified Service Desk Administrator**.
+
+4. Select **Configuration** under **Advanced Settings** in the site map. 
   
-2. On the nav bar, click **Microsoft Dynamics 365**, and then select **Settings**.  
+5. Select **+ New** on the **Active Configuration** page.  
   
-3. Click **Settings** > **Unified Service Desk** > **Configuration**.  
+6. Type the name of the configuration in the **New Configuration** page.
+
+7. Enter an alphanumeric value as the cache key in the text box of the **Configuration Cache Version** field, and then select **Save**. <br>For example, the alphanumeric value can be updated as **XY12**. To learn more about Configuration Cache Version, see [Cache specific configuration for agents](set-configuration-cache-version.md).
   
-4. On the configuration page, click **New**.  
+   ![Menu with components added to configuration](../../unified-service-desk/unified-interface/media/usd-configuration-1.PNG "Menu with components added to configuration")  
   
-5. On the **New Configuration** page, type the name of the configuration, and then click **Save**.  
+8. Select a component to add it. Each tab has certain components in it. The table provides the components available in different tabs.
+
+    | Tab | Available components to add |
+    |---------------------------------------|--------------------------------------------------|
+    | Hosted Controls, Events and Actions | <ul> <li>Hosted Controls</li> <li>Events</li> <li>Actions</li> </ul> |
+    | Toolbars, Window Navigation Rules and Entity Searches | <ul> <li>Toolbars</li> <li>Window Navigation Rules</li> <li>Entity Searches</li> </ul> |
+    | Session Lines, Agent Scripts and Scriplets | <ul> <li>Session Lines</li> <li>Agent Scripts</li> <li>Scriplets</li> </ul> |
+    | Other Entities | <ul> <li>Customization Files</li> <li>Forms</li> <li>Options</li> </ul> |
   
-6. After the new configuration is saved, on the nav bar, click the down arrow next to the configuration name. This shows the components that can be added to a configuration.  
+9. Select a tab. For example, **Hosted Controls, Events and Actions**.
+
+10. Select  the more commands (...) in the component section, and then select **Add Existing <component name>**. The **Lookup Records** pane appears. Type the name of the component in the search box and then select **Add**. If a record doesn’t exist, select **+ New** to create an instance of the component you want to add.  When you select **+ New**, a confirmation dialog appears. Ensure that you've saved the record before leave the page. Now, when you select **OK**, the component page appears.
   
-   ![Menu with components added to configuration](../../unified-service-desk/media/usd-configuration-1.PNG "Menu with components added to configuration")  
+   ![Add existing component record](../../unified-service-desk/unified-interface/media/usd-configuration-2.PNG "Add existing component record")  
   
-7. Click a component to add it. The entity search page for the corresponding component appears. Click **Add Existing > \<Component Name>** to search for the existing records. For example, if you selected **Action Calls**, click **Add Existing Action Call** on the entity search page.  
+11. After you create the component, select **Configuration** in the site map and select the for record for which you wanted to add the component.
+
+12. Select the tab and select  the more commands (...) in the component section, and then select **Add Existing <component name>**. The **Lookup Records** pane appears. Type the name of the component in the search box and then select **Add**.
   
-8. Type the name of the component in the search box, and then press ENTER or click the search button. If a record doesn’t exist, click **New** in the search results box to create an instance of the component you want to add.  
-  
-   ![Add existing component record](../../unified-service-desk/media/usd-configuration-2.PNG "Add existing component record")  
-  
-9. Repeat this with other components you want to add to the configuration.  
-  
-10. After you have added the components, click the **Save** button ![Auto save button](../../unified-service-desk/media/cust-auto-save-icon.png "Auto save button") to save the configuration.  
+13. Select the **Save** button ![Auto save button](../../unified-service-desk/media/cust-auto-save-icon.png "Auto save button") to save the configuration.
+
+14. Repeat steps 9 to 13 to add other components to the configuration.
   
     > [!IMPORTANT]
     >  If no hosted controls are added to a configuration, or if certain hosted controls are not added, such as the Panel Layout, Global Manager, and Connection Manager hosted controls, assigned users may see a blank [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application window. For more information about how to create a sample configuration, see [Walkthrough 1: Build a simple agent application](../../unified-service-desk/walkthrough-1-build-a-simple-agent-application.md).  
@@ -86,67 +96,69 @@ tags:
   
 ### Set a configuration as the default  
   
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
+1. Sign in to the Common Data Service platform.
+
+2. Select the down arrow next to Dynamics 365.
+
+3. Select **Unified Service Desk Administrator**.
+
+4. Select **Configuration** under **Advanced Settings** in the site map.
   
-2. On the nav bar, click **Main** > **Settings** > **Unified Service Desk**.  
+5. Select the configuration record you want to make the default in the **Active Configuration** list.
   
-3. Click **Configuration**.  
-  
-4. In the Active Configuration list, select for the configuration record you want to make the default.  
-  
-5. Choose **Set As Default** from the actions menu.  
+6. Choose **Set As Default** from the actions menu.  
   
 <a name="auditanddiag"></a>   
 ## Associate auditing and diagnostics with a configuration  
  When you associate an Audit & Diagnostics record with a configuration, only the auditing and diagnostics events specified in the Audit & Diagnostics record are logged, and only for users who are assigned to the configuration. The following procedure describes how to associate an existing Audit & Diagnostics record with a configuration. For information about how to create an Audit & Diagnostics record, see [Configure auditing and diagnostics in Unified Service Desk](../../unified-service-desk/admin/configure-auditing-diagnostics-unified-service-desk.md).  
   
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
+1. Sign in to the Common Data Service platform.
+
+2. Select the down arrow next to Dynamics 365.
+
+3. Select **Unified Service Desk Administrator**.
+
+4. Select **Configuration** under **Advanced Settings** in the site map.
   
-2. On the nav bar, click **Main** > **Settings** > **Unified Service Desk**.  
+5. Select the configuration record you want to add an Audit & Diagnostic record.
   
-3. Click **Configuration**.  
+6. Type the name of the Audit & Diagnostic record in the search box, and then select the record.  
   
-4. In the configuration list, select the configuration record you want to add an Audit & Diagnostic record for.  
-  
-5. Next to **Audit & Diagnostic Settings**, type the name of the Audit & Diagnostic record in the search box, and then press ENTER or click the search button.  
-  
-6. After you add the Audit & Diagnostics record, click the **Save** button ![Auto save button](../../unified-service-desk/media/cust-auto-save-icon.png "Auto save button") to save the configuration.  
+7. After you add the Audit & Diagnostics record, select the **Save** button ![Auto save button](../../unified-service-desk/media/cust-auto-save-icon.png "Auto save button") to save the configuration.  
   
 <a name="Assign"></a>   
 ## Assign users to a Unified Service Desk configuration  
  After you create a [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration, you can assign users to it. The users assigned to a configuration can only access components in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application that are added to the configuration.  
   
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
+1. Sign in to the Common Data Service platform.
+
+2. Select the down arrow next to Dynamics 365.
+
+3. Select **Unified Service Desk Administrator**.
+
+4. Select **Configuration** under **Advanced Settings** in the site map.  
   
-2. On the nav bar, click **Microsoft Dynamics 365**, and then select **Settings**.  
+5. Select the required configuration record in the **Active Configuration** page. To open a configuration definition, either select the configuration name, or select the record, and then select **Edit**. This opens the configuration definition.
   
-3. Click **Settings** > **Unified Service Desk** > **Configuration**.  
+6. Select the **Related** tab, and then select **Assigned Users**. Now, you can either assign the configuration to an existing user, or create a new user and assign the configuration to it.
   
-4. On the configuration page, search for the required configuration record.  
+   ![Navigation to assign users to a configuration](../../unified-service-desk/unified-interface/media/usd-configuration-3.PNG "Navigation to assign users to a configuration")  
   
-5. To open a configuration definition, either click the configuration name, or select the record, and then click **Edit**. This opens the configuration definition.  
+7. Select **Add Existing User**. The **Lookup Records** pane appears.
   
-6. On the nav bar, click the down arrow next to the configuration name, and then click **Assigned Users**.  
+8. Type the name of the required user in the search box and select search. Now, select the user from the list, and then select **Add**.
   
-   ![Navigation to assign users to a configuration](../../unified-service-desk/media/usd-configuration-3.PNG "Navigation to assign users to a configuration")  
+9. Select the **Save** button ![Auto save button](../../unified-service-desk/media/cust-auto-save-icon.png "Auto save button") to save your changes.  
   
-7. On the next page, you can either assign the configuration to an existing user, or create a new user and assign the configuration to it.  
+     If you select the user name under the **Name** column, the user record opens, and you can see that the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration is assigned to the user in the **USD Configuration** field.
   
-8. Type the name of the required user in the search box, and then press ENTER or click the search button.  
-  
-9. Click the names of the required users to add them to the configuration. Click the **Save** button ![Auto save button](../../unified-service-desk/media/cust-auto-save-icon.png "Auto save button") to save your changes.  
-  
-     If you click the user name under the **Name** column, the user record opens, and you can see that the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration is assigned to the user in the **USD Configuration** field.  
-  
-   ![USD configuration assigned to a user](../../unified-service-desk/media/usd-configuration-4.PNG "USD configuration assigned to a user")  
-  
-   A user can only be assigned to one Configuration. To assign a user to a different Configuration, you must first remove the existing Configuration.  
+   A user can only be assigned to one Configuration. To assign a user to a different Configuration, you must first remove the existing Configuration. 
   
 ### Remove a user from a Configuration  
   
 1.  Open the User form for the agent who you want to remove from a Configuration. One way you can do this is through **Settings** > **Security** > **Users**.  
   
-2.  On the user form, click the **USD Configuration**.  
+2.  On the user form, select the **USD Configuration**.  
   
 3.  Press the Delete key to remove the Configuration, and then save the form.  
   
@@ -156,17 +168,25 @@ tags:
   
 ### Clone a configuration  
   
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
+1. Sign in to the Common Data Service platform.
+
+2. Select the down arrow next to Dynamics 365.
+
+3. Select **Unified Service Desk Administrator**.
+
+4. Select **Configuration** under **Advanced Settings** in the site map.  
   
-2. On the nav bar, click **Microsoft Dynamics 365**, and then select **Settings**.  
+5. Select the configuration record you want to clone in the **Active Configuration** page.  
   
-3. Click **Settings** > **Unified Service Desk** > **Configuration**.  
-  
-4. In the configuration list, select for the configuration record you want to clone.  
-  
-5. Choose **Clone** on the actions menu, and when prompted, click **Clone**.  
+6. Choose **Clone** on the actions menu.
+
+7. Select **Clone** in the **Clone Existing Configuration** dialog.  
   
 ## See also  
- [Manage access using custom security roles](../../unified-service-desk/admin/manage-access-using-unified-service-desk-security-roles.md)   
- [Access management in Unified Service Desk](../../unified-service-desk/admin/security-unified-service-desk.md)   
+ [Manage access using custom security roles](../../unified-service-desk/admin/manage-access-using-unified-service-desk-security-roles.md)
+
+ [Access management in Unified Service Desk](../../unified-service-desk/admin/security-unified-service-desk.md)
+
  [Unified Service Desk Configuration Walkthroughs](../../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)
+
+ [Cache specific configuration for agents](set-configuration-cache-version.md)

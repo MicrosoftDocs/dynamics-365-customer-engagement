@@ -1,26 +1,31 @@
 ---
-
-title: Time, expense, and collaboration guide (Dynamics 365 for Project Service) | MicrosoftDocs
+title: Time, expense, and collaboration guide
 description: A guide to time, expense, and collaboration for Project Service
-author: krbjoran
-manager: ShellyHa
+author: revathiMuthiah
+manager: kfend
 ms.service: dynamics-365-customerservice
-ms.custom:
+ms.custom: 
   - dyn365-projectservice
 ms.date: 8/03/2018
 ms.topic: article
 ms.prod: 
-ms.service: business-applications
 ms.technology: 
-ms.author: krbjoran
+ms.author: revathim
 audience: Admin
-
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365PS
+  - ProjectOperations
 ---
 # Time, expense, and collaboration guide (Project Service)
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-Welcome to the [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] app, which helps companies manage their project-based sales. Dynamics 365 stands for customer relationship management, which your company uses to manage relationships with your clients.  
+Welcome to the [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] app, which helps companies manage their project-based sales. 
   
  This guides you through entering your time and expenses for the projects you’re working on. Stay on top of your time and expense entry to make sure:  
   

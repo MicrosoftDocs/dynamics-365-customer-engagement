@@ -1,0 +1,1 @@
+Defines the parameters used for forecasting.

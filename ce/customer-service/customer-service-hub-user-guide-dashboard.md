@@ -1,28 +1,34 @@
 ---
-title: Understanding dashboards in Customer Service Hub in Dynamics 365 | Microsoft Docs
-description: Understand dashboards in Customer Service Hub for Customer Service in Microsoft Dynamics 365
-keywords: Dashboards; Customer Service Hub; Customer Service;  Microsoft Dynamics 365
-author: anjgupta
-applies_to: Dynamics 365 (online)
-ms.author: anjgup
-manager: shellyha
-ms.date: 02/20/2018
+title: Understanding dashboards in Customer Service Hub in Dynamics 365 Customer Service | Microsoft Docs
+description: Understand dashboards in Customer Service Hub for Dynamics 365 Customer Service.
+author: neeranelli
+ms.author: nenellim
+manager: shujoshi
+ms.date: 06/01/2018
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.assetid: df25e314-069c-4361-abbc-e7d0dde2a596
-ms.custom: dyn365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
+ms.custom: 
+  - dyn365-customerservice
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365CS
 ---
 
-# Use interactive dashboards to effectively manage service cases in the Customer Service Hub
+# Manage service cases using interactive dashboards
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+Use interactive dashboards to effectively manage service cases in the Customer Service Hub application.
 
-[!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] interactive experience dashboards are a one-stop workplace where you review your workload and take actions. The information in the interactive dashboard is shown in real time, coming from views and queues. The interactive dashboards with their modern and intuitive interface are optimized for the customer service experience. For example, instead of paging through the application looking for a case, you’ll be able to open and update the case right from the dashboard. This will save you time, help to focus on tasks at hand, and get more work done. You’ll need sufficient permissions to use the interactive dashboards. The permissions will be assigned to you by an administrator.
+Dynamics 365 Customer Service interactive experience dashboards are a one-stop workplace where you review your workload and take actions. The information in the interactive dashboard is shown in real time, coming from views and queues. The interactive dashboards with their modern and intuitive interface are optimized for the customer service experience. For example, instead of paging through the application looking for a case, you’ll be able to open and update the case right from the dashboard. This will save you time, help to focus on tasks at hand, and get more work done. You’ll need sufficient permissions to use the interactive dashboards. The permissions will be assigned to you by an administrator.
 
   
 Watch this video to learn more about dashboards in the Customer Service Hub:
 
-<div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/2a9199d6-67b8-486d-a915-1ed2fb33c80c" frameborder="0" allowfullscreen=""></iframe></div>
+<div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/2a9199d6-67b8-486d-a915-1ed2fb33c80c" frameborder="0" allowfullscreen=""></iframe></div>
 
 
 ## Interactive experience dashboards overview  
@@ -93,8 +99,6 @@ The illustrations given below show multi-stream and single-stream dashboards wit
 A flyout window will open. If there are too many cases to show, the window will have a scrollbar. You can navigate and select a particular case in the list, which will take you straight to the case form. The illustration shows the tiles and underlined cases in the list.  
   
  ![Tiles with the list of cases](../customer-service/media/interactive-dashboards-multi-stream-tiles-flyout-csh.png "Tiles with the list of cases")  
-
-  
 
 ## Visual Filter  
 Visual filters provide a visual snapshot of key metrics, such as cases by priority or by origin. They also help removing clutter from the screen and display information that interests you most. For example, if you select the **High Priority** circle in the **Cases by Priority** chart, the dashboard will refresh and you’ll see only high priority cases in your data streams. You can find different types of charts on your dashboard, such as pie, bar, doughnut, or tag chart. Visual filters and tiles help you see the changes and patterns in data, and act quickly to address the most important issues. 
@@ -189,7 +193,7 @@ In the streams, the color is depicted using the thin vertical line to the left o
  For information on how to configure the interactive dashboards, see [Configure interactive experience dashboards](https://technet.microsoft.com/library/d1446a95-14bf-4b15-a905-72fce07f4c76.aspx)  
   
 
-## See also
+### See also
 
 [Configure interactive dashboards in the Customer Service Hub](configure-interactive-dashboards-customer-service-hub.md)
 

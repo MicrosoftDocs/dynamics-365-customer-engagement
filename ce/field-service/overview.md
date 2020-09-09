@@ -1,92 +1,126 @@
 ---
-title: "Field Service Overview (Dynamics 365 for Field Service) | MicrosoftDocs"
+title: Overview of Dynamics 365 Field Service
+description: A guide to managing resources with Dynamics 365 Field Service.
+author: FieldServiceDave
+ms.service: dynamics-365-customerservice
+ms.reviewer: krbjoran
 ms.custom:
   - dyn365-fieldservice
-ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-author: krbjoran
-ms.assetid: f0191f23-5c01-4d9d-8b4c-907ff490acd2
-caps.latest.revision: 15
-ms.author: krbjoran
-manager: shellyha
+ms.date: 09/01/2020
+ms.topic: article
+ms.prod:
+ms.technology:
+ - field-service
+ms.author: daclar
+audience: Admin
+search.audienceType:
+  - admin
+  - customizer
+  - enduser
+search.app:
+  - D365CE
+  - D365FS
 ---
 
-# Overview of Field Service
+# Overview of Dynamics 365 Field Service
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+The Dynamics 365 Field Service business application helps organizations deliver onsite service to customer locations. The application combines workflow automation, scheduling algorithms, and mobility to set mobile workers up for success when they're onsite with customers fixing issues.
 
-<a name="heroArea"></a> [![Manage your mobile workforce Dynamics 365 for Field Service](../field-service/media/field-service-manage-mobile-workforce.png "Manage your mobile workforce Dynamics 365 for Field Service")](http://go.microsoft.com/fwlink/p/?LinkId=786689)
+The Field Service application enables you to:
 
-## Overview
+- Improve first time fix rate
+- Complete more service calls per technician per week
+- Manage follow-up work and take advantage of upsell and cross sell opportunities
+- Reduce travel time, mileage, and vehicle wear and tear
+- Organize and track resolution of customer issues
+- Communicate an accurate arrival time to customers
+- Provide accurate account and equipment history to the field technician
+- Keep customers updated with the status of their service call and when it's resolved
+- Schedule onsite visits when it's convenient for the customer
+- Avoid equipment downtime through preventative maintenance
 
-[!INCLUDE[pn_field_service](../includes/pn-field-service.md)] capabilities extend [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] to provide a complete [!INCLUDE[pn_field_service](../includes/pn-field-service.md)] management solution, including service locations, customer assets, preventative maintenance, work order management, resource management, product inventory, scheduling and dispatch, mobility, collaboration, customer billing, and analytics. 
+Here are some examples of the types of organizations that use the application to manage their field service:
 
-[!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)] helps you:  
-  
--   Optimize your service schedule with efficient routing, resource skill matching, and reduced travel time.  
-  
--   Increase first time fix rates and on-time delivery performance.  
-  
--   Enhance real-time communication and collaboration between customer service, dispatch, field agents, and customers.  
-  
-> [!NOTE]
-> [!INCLUDE[cc_capabilities_require_online_8_1_0](../includes/cc-capabilities-require-online-8-1-0.md)]  
-  
- **Work order management**  
-  
- Quickly generate work orders, encompassing all of the information you need to dispatch field agents to service locations.  
-  
- **Schedule board and dispatch**  
-  
- A flexible drag-and-drop schedule board lets dispatchers assign resources and set up schedules for multiple work orders using a list or map view.  
-  
- **Resource management**  
-  
- Configure resource information to allow [!INCLUDE[pn_field_service](../includes/pn-field-service.md)] to efficiently match the best field agent to a work order based on availability, proximity to service location, and required skills.  
-  
- **Service locations and customer assets**  
-  
- Store and manage information about your customers’ service locations and serviceable customer assets.  
-  
- **Preventative maintenance**  
-  
- Configure service agreements for your customers that will automatically generate recurring work orders to ensure equipment is properly maintained before issues occur.  
-  
- **Inventory management**  
-  
- Extend the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] product catalog with an inventory management system that tracks real-time inventory levels by warehouse, including mobile truck stock.  
-  
- **Customer billing**  
-  
- Completed work orders can be turned into customer invoices for customer billing.  
-  
- **Mobile app**  
-  
- The mobile app gives field techs quick and easy access to everything they need to execute a work order, including schedule information, customer contact information, turn by directions, and more.  
- 
-## Available anywhere, on any device
+- **Manufacturing** -  A medical device manufacturer sells machines to hospitals and clinics, and uses the application to manage maintenance services over the lifetime of the machines.
+- **Utilities** -  A fiber optic cable utility company uses the application to respond to outages by dispatching technicians to problem areas.
+- **Health care**  - An  in-home health care service provider uses the application to schedule and dispatch healthcare workers to administer medicine and other care to multiple patients.
+- **Equipment maintenance** -  A facilities manager uses the application to deliver maintenance and repair services for heating and cooling equipment.
 
-There are two flavors of [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)]: 
+## Key capabilities
 
-- If you’re using a desktop browser, you’ll use the Field Service app. [!INCLUDE[proc_more_information](.../includes/proc-more-information.md)] [User Guide (Field Service)](../field-service/user-guide.md).
+Field service capabilities include:
 
-- If you’re a field tech using a smartphone or tablet, you’ll use the Field Resource Hub app which is a subset of the Field Service app. The Field Resource Hub app is built on the Unified Interface framework, which uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation. [!INCLUDE[proc_more_information](.../includes/proc-more-information.md)] [User Guide (Field Resource Hub)](../field-service/field-resource-hub-users-guide.md).
+- **Work orders** to define the service work needed primarily (but not exclusively) at customer locations.
+- **Scheduling and dispatch tools** to manage resources and equipment needed for customer service, visualize onsite appointments, and optimize service schedules with efficient routing and resource skill matching.
+- **Communication tools** to enhance collaboration between customer service agents, dispatchers, field technicians, customers, and other stakeholders.
+- **An easy-to-use mobile application** that guides technicians through schedule changes and service work.
+- **Asset management** capabilities to keep track of customer equipment and service history.
+- **Preventive maintenance** by automatically generating recurring maintenance appointments for equipment.
+- **Inventory, purchasing, and returns capabilities** to manage truck stock, purchase order requests and fulfillment, and product returns.
+- **Billing capabilities** to generate invoices based on products and services delivered to customers.
+- **Time tracking** to help you track how resources are spending their time, whether they're traveling, on break, or working.
+- **Analytics for reporting** on key performance indicators for managing work orders, scheduling activities, and interacting with customers.
 
-> [!NOTE]
-> If you're looking for the full-featured Field Service mobile app, it’s a different mobile app called Field Service Mobile. [!INCLUDE[proc_more_information](.../includes/proc-more-information.md)] [Field Service Mobile App User Guide](../field-service/field-service-mobile-app-user-guide.md).
-  
-### See also  
- [Install](../field-service/install-field-service.md)   
- [View user accounts and security roles](../field-service/view-user-accounts-security-roles.md)   
- [Configure default settings](../field-service/configure-default-settings.md)   
- [Turn on auto geocoding](../field-service/turn-on-auto-geocoding.md)<br>
- [Dynamics 365 Basics Guide](../basics/basics-guide.md)
+## Customer Stories
+
+- ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Sodexo – Facilities Management](https://youtu.be/awSwCtgZvXE)
+
+- ![Video symbol](../field-service/media/video-icon.png "Video symbol") [DMS Health Technologies – Health Services](https://www.youtube.com/watch?v=-H4wwuOfdOg&feature=youtu.be)
+
+- ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Yougenio Italy – Facilities Management](https://www.youtube.com/watch?v=URZueU-eFvo)
+
+- ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Sandvik Coromant](https://www.youtube.com/watch?v=Oq6z3UALoYI)
+
+- ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Nurse Maude](https://www.youtube.com/watch?v=q0aZsdokOv8)
+
+- [RASCO](https://customers.microsoft.com/story/828538-rasco-discrete-manufacturing-dynamics365-en-croatia?_lrsc=28be62af-daf6-4315-9dc7-845eb10f60a1)
+
+- [Toyota](https://customers.microsoft.com/en-us/story/toyota-industries-corporation)
+
+- [Real Estate & Facilities (within Microsoft)](https://www.microsoft.com/itshowcase/blog/microsoft-field-technicians-get-their-mobility-back-with-dynamics-365-app/?elevate-lv&_lrsc=80ec2291-74e8-4a9f-ab2b-4edf95f2ab48)
+
+- [NAVCO](https://customers.microsoft.com/story/790284-navco-professional-services-dynamics-365)
+
+- [Rockwell Automation](https://customers.microsoft.com/story/786160-rockwell-automation-manufacturing-dynamics-365)
+
+- [Siemens](https://customers.microsoft.com/story/814362-siemens-manufacturing-dynamics-365-field-service)
+
+## Field Service roles
+
+The Field Service application provides tools for these key roles on your service team:
+
+- **Customer service agents** triage incoming requests and determine when to create work orders for onsite visits. Agents primarily use the application through a web browser.
+- **Service managers** track performance metrics and oversee service delivery, finding ways to increase efficiency and standardize processes. Service managers primarily use the application through a web browser.
+- **Dispatchers** review and schedule work orders, and assign them to resources on the schedule board through resource availability searches, and through a fully automated resource scheduling optimization add-in. Dispatchers primarily use the application through a web browser.
+- **Field technicians** manage their assigned work orders using the mobile app on a phone or tablet, and perform maintenance and repairs onsite at customer locations.
+- **Inventory managers** ensure field technicians have what they need to complete their service calls. Inventory managers also handle product returns and purchase new inventory. Inventory managers primarily use the application through a web browser.
+
+## Using the Field Service application
+Work orders describe the work that a technician needs to perform at a customer location. In the Field Service application, a typical work order lifecycle looks like this:
+
+1. Work orders generate from service cases, sales orders, emails, phone calls, service agreements, web portals, or Internet of Things (IoT) telemetry and then display in Field Service. Work orders are typically grouped by geographical territory and lines of business. Work order details consist of a checklist of tasks, parts to use, labor to bill to the customer, and skills required.
+
+    Most work orders also include a location based on the related customer account and/or equipment that needs attention; this location routes the field technician from job to job. Finally, incoming work orders that are marked as ready for assignment are passed along to a dispatcher for scheduling.
+ > ![Screenshot of Active Work Orders](media/work-order-process-1.png)
+
+2. An interactive schedule board helps dispatchers assign work orders to the best resources based on location, availability, skill set, priority, and more. This is done via a manual drag-and-drop method, a semi-automated scheduling assistant, or fully automated with Resource Scheduling Optimization.
+
+    The schedule board displays each resource--whether an employee, contractor, or equipment--and their scheduled work orders. Resources and their assigned jobs are also displayed on a map along with routes and traffic patterns in real time. The schedule board is extensible and can be used to schedule anything within Dynamics 365, including work orders, sales orders, projects, and custom entities. Additionally, Office 365 integration allows for emailing and skype calling to available resources.
+> ![Screenshot of schedule board](media/work-order-process-2.png) 
+
+1. An easy-to-use mobile app for iOS, Android, and Windows devices guides field technicians through the process of resolving assigned work orders. For each work order, the field technician can view important information such as location, step-by-step instructions, customer assets, and service history, and can use his or her device to take pictures and videos or record a digital customer signature. Field technicians can also automatically download important information to their devices for offline work when internet is not available. 
+
+
+    After performing the work, the technician can mark the work order as complete or as requiring a follow up; the dispatcher can then see this change on the schedule board.
+> ![Screenshot of mobile app](media/work-order-process-3.png)
+
+4. As technicians submit completed work orders, equipment service history and inventory levels update automatically. This allows service managers to manage and track inventory needed, as well as track movement of parts from order to inventory to onsite installation.
+
+    For example, if an equipment part is installed at a customer's location during an installation or repair, the system will document a reduction in inventory from the related warehouse or truck and document the part as a new customer asset along with installation/repair details. Closing a work order will then generate an invoice for any used parts or labor.
+> ![Screenshot of completed work order](media/work-order-process-4.png)
+
+## Watch an overview video
+In this video, see how the interactive schedule board and other tools help a service team resolve a customer's issue.
+
+ <a name="heroArea"></a> [![Video showing how to manage your mobile workforce Dynamics 365 Field Service](../field-service/media/field-service-manage-mobile-workforce.PNG "Manage your mobile workforce with Dynamics 365 Field Service")](https://go.microsoft.com/fwlink/p/?LinkId=786689)
+

@@ -1,20 +1,25 @@
 ---
-
-title: Configure expense categories (Dynamics 365 for Project Service) | MicrosoftDocs
+title: Configure expense categories
 description: How to configure expense categories in Project Service
-author: krbjoran
-manager: ShellyHa
+author: revathiMuthiah
+manager: kfend
 ms.service: dynamics-365-customerservice
-ms.custom:
+ms.custom: 
   - dyn365-projectservice
 ms.date: 8/03/2018
 ms.topic: article
 ms.prod: 
-ms.service: business-applications
 ms.technology: 
-ms.author: krbjoran
+ms.author: revathim
 audience: Admin
-
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365PS
+  - ProjectOperations
 ---
 # Configure expense categories (Project Service)
 

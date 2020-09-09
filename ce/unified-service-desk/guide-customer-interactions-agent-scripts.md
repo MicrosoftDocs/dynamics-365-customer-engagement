@@ -1,25 +1,21 @@
 ---
-title: "Guide customer interactions with agent scripts in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "Guide customer interactions with agent scripts in Unified Service Desk | MicrosoftDocs"
 description: "Agent scripting in Unified Service Desk provides guidance to agents about what they should say on calls or what they should type on chat conversations. It includes a script that can use values from any loaded entity on the agent application, hosted control, or the Unified Service Desk context (using replacement parameters)."
-ms.custom:
+ms.custom: 
   - dyn365-USD
 ms.date: 08/23/2017
-ms.reviewer: ""
-ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
-ms.assetid: 2e6af283-c0c9-4cce-92b1-88485748e0a8
-caps.latest.revision: 5
+ms.service: 
+  - dynamics-365-customerservice
+ms.topic: article
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
+search.audienceType: 
+  - customizer
+  - developer
+search.app: 
+  - D365CE
+  - D365USD
 ---
 # Guide customer interactions with agent scripts in Unified Service Desk
 Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] provides guidance to agents about what they should say on calls or what they should type on chat conversations. It includes a script that can use values from any loaded entity on the agent application, hosted control, or the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] context (using replacement parameters). Agent scripting also provides a mechanism to display instructions to the agent on what and how to perform the tasks necessary to complete their work.  

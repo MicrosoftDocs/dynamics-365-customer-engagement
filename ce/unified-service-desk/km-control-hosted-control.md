@@ -1,28 +1,24 @@
 ---
-title: "KM Control (Hosted Control) in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
-description: "Learn using the KM Control type of hosted control to display knowledge base articles in Dynamics 365 or Parature in your agent application."
-ms.custom:
+title: "KM Control (hosted control) in Unified Service Desk | MicrosoftDocs"
+description: "Learn how to use the KM Control type of hosted control to display knowledge base articles in your agent application."
+ms.custom: 
   - dyn365-USD
-ms.date: 02/15/2017
-ms.reviewer: ""
-ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
-ms.assetid: 8c4b9dd8-d37c-4256-b6c1-f2e42105c52b
-caps.latest.revision: 12
+ms.date: 12/31/2019
+ms.service: 
+  - dynamics-365-customerservice
+ms.topic: article
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
+search.audienceType: 
+  - customizer
+  - developer
+search.app: 
+  - D365CE
+  - D365USD
 ---
-# KM Control (Hosted Control)
-Use the **KM Control** type of hosted control to display knowledge base articles in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] or [!INCLUDE[pn_parature](../includes/pn-parature.md)] in your agent application. Using the new hosted control, your service agents can search for articles, associate or disassociate an article with a case, copy a link to an article, and send it through email or in chat without having to switch applications. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use Dynamics 365 knowledge base for effective customer engagement](../unified-service-desk/use-dynamics-365-knowledge-effective-customer-engagement.md) and [Configure Unified Service Desk to use Dynamics 365 knowledge](../unified-service-desk/configure-unified-service-desk-use-dynamics-365-knowledge.md)  
+# KM Control (hosted control)
+Use the **KM Control** type of hosted control to display knowledge base articles in your agent application. Using the new hosted control, your service agents can search for articles, associate or disassociate an article with a case, copy a link to an article, and send it through email or in chat without having to switch applications. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use knowledge for effective customer engagement](../unified-service-desk/use-dynamics-365-knowledge-effective-customer-engagement.md) and [Configure Unified Service Desk to use model-driven apps](../unified-service-desk/configure-unified-service-desk-use-dynamics-365-knowledge.md)
 
 <a name="Create"></a>   
 ## Create a KM Control hosted control  
@@ -32,25 +28,26 @@ Use the **KM Control** type of hosted control to display knowledge base articles
 
  In the **New Hosted Control** screen:  
 
-- Under **Unified Service Desk** area, select **KM Control** from the **USD Component Type** drop-down list.  
+- Under **Unified Service Desk** area, select **KM Control** from the **Unified Service Desk Component Type** drop-down list.  
 
 - The **Allow Multiple Pages** drop-down list is not supported for this hosted control type.  
 
-- The **Hosting Type** drop-down list specifies how you want this control to be hosted. You can **IE Process** (default) or **Internal WPF**. For more information, see [Select a hosting method for hosted controls](../unified-service-desk/select-a-hosting-method-for-your-controls.md).  
+- The **Hosting Type** drop-down list specifies how you want this control to be hosted. You can select **Chrome Process**. For more information, see [Select a hosting method for hosted controls](../unified-service-desk/select-hosting-method-controls.md).  
 
 - Under the **Common Properties** area, select the **Application is Global** check box to set the hosted control as global. Global hosted controls can be displayed outside of a customer session. Controls like the agents’ dashboard, wall or search are common uses for global hosted controls. Global hosted controls do not have session-specific state so when you change sessions, these same global hosted controls remain. If the check box is not selected, the hosted control becomes session based. Session-based controls exist in the context of the customer session. If the user changes to another session, all the session pages from the previous session are hidden.  
 
-- The **Display Group** field displays the panel where this hosted control will be displayed. In the knowledge management package, the KM Control is displayed in the **RighPanel**; however, you can choose to display it in the **LeftPanel** or **MainPanel** as per your requirement. For information about various panels available in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], see [Panels, panel types, and panel layouts in Unified Service Desk](../unified-service-desk/panels-panel-types-panel-layouts.md).  
+- The **Display Group** field displays the panel where this hosted control will be displayed. In the knowledge management package, the KM Control is displayed in the **RightPanel**; however, you can choose to display it in the **LeftPanel** or **MainPanel** as per your requirement. For information about various panels available in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], see [Panels, panel types, and panel layouts in Unified Service Desk](../unified-service-desk/panels-panel-types-panel-layouts.md).  
 
   For information about other **General** fields, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).  
 
 <a name="actions"></a>   
 ## Predefined UII actions  
- These are the predefined actions for this hosted control type.  
+
+These are the predefined actions for this hosted control type.  
 
 <a name="Associate"></a>   
 ### Associate  
- Associates a knowledge base record in Dynamics 365 or [!INCLUDE[pn_parature](../includes/pn-parature.md)] with the parent entity record in **KM Control**.  
+ Associates a knowledge base record in the Common Data Service platform with the parent entity record in **KM Control**.  
 
 
 |     Parameter     |                                                                                                                                                                                                                                                                Description                                                                                                                                                                                                                                                                 |
@@ -59,8 +56,7 @@ Use the **KM Control** type of hosted control to display knowledge base articles
 |     recordid      |                                                                                                                                                                                                                               The ID of the parent entity record to associate the knowledge base record to.                                                                                                                                                                                                                                |
 |  articleuniqueid  |                                                                                                                                                                                                              The unique ID of the article in that you want to associate. For example: `articleuniqueid=7924/8112/Article/41`                                                                                                                                                                                                               |
 |   articletitle    |                                                                                                                                                                                                A string value representing article's title that you want to associate. For example: `articletitle=Diffused Sunlight and Weather Conditions`                                                                                                                                                                                                |
-| articleprivateurl |                                                                                                      The private URL of the article in Parature that you want to associate. For example: `articleprivateurl=https://demo.parature.com/ics/km/kmRefEdit.asp?questionID=41` **Note:**  This parameter is not applicable if you are using the native Dynamics 365 knowledge base; it’s only applicable for the Parature knowledge base.                                                                                                       |
-| articlepublicurl  | The public URL of the article that you want to associate. If you are using native [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] knowledge base, the articles should have already been published to an external portal (select **Use an external portal** in the **Knowledge Base management Settings** dialog box in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]) so that you can use the article URL in this parameter.<br /><br /> For example: `articlepublicurl=http://support.microsoft.com/kb/{kbnum}` |
+| articlepublicurl  | The public URL of the article that you want to associate. If you are using native the Common Data Service platform knowledge base, the articles should have already been published to an external portal (select **Use an external portal** in the **Knowledge Base management Settings** dialog box in the Common Data Service platform) so that you can use the article URL in this parameter.<br /><br /> For example: `articlepublicurl=https://support.microsoft.com/kb/{kbnum}` |
 
 <a name="Close"></a>   
 ### Close  
@@ -113,7 +109,7 @@ Use the **KM Control** type of hosted control to display knowledge base articles
 
 | Parameter  |                                                                                                                                                                                                                                                               Description                                                                                                                                                                                                                                                               |
 |------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|   query    |                                                                                                                 A string value to be searched in the hosted control. For example: `query=contoso`. This will fetch all the knowledge articles from [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] or [!INCLUDE[pn_parature](../includes/pn-parature.md)] that have names starting with the word "contoso".                                                                                                                 |
+|   query    |                                                                                                                 A string value to be searched in the hosted control. For example: `query=contoso`. This will fetch all the knowledge articles from the model-driven apps that have names starting with the word "contoso".                                                                                                                 |
 |  results   |                                                                                     An integer value to indicate the number of search results to be displayed in the hosted control. For example, specifying `results=5` will display 5 search results in the hosted control. If no value or a wrong value is provided for this data parameter, then the default value (10) will be used. The maximum value allowed for this data parameter is 20.                                                                                      |
 |   filter   |                         An integer value to indicate the knowledge base article type to be displayed in the hosted control:<br /><br /> -   `1`: All (Default)<br />-   `2`: All Draft<br />-   `3`: All Published<br />-   `4`: Published-Private<br />-   `5`: Published-Public<br />-   `6`: Published-Expired<br /><br /> For example, specify `filter=3` to display only published knowledge base articles.<br /><br /> If no value or a wrong value is provided, then the default value (1) will be used.                         |
 | blockClick | An integer value to indicate whether to block displaying the content inline when a search result is clicked in the hosted control. Set it to `0` to open the content inline when clicked; set it `1` to block opening the content inline. For example: `blocked=1`<br /><br /> If no value or a wrong value is provided, then the default value (0) will be used. If you have the set the value to 1 to block the content, the [ResultOpen](../unified-service-desk/km-control-hosted-control.md#ResultOpen) event will still be fired. |
@@ -185,7 +181,7 @@ Use the **KM Control** type of hosted control to display knowledge base articles
 |`postdata`|The formdata object containing a set of key/value pairs representing form fields and their values for a knowledge article.|  
 
 ### See also  
- [Leverage Parature knowledge for effective customer engagement](../unified-service-desk/use-dynamics-365-knowledge-effective-customer-engagement.md)   
- [Configure Parature knowledge in Unified Service Desk](../unified-service-desk/configure-unified-service-desk-use-dynamics-365-knowledge.md)   
- [Walkthrough 8: Use Parature knowledge within your agent application](../unified-service-desk/walkthrough-8-use-parature-knowledge-base-within-your-agent-application.md)   
- [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)
+ [Use knowledge for effective customer engagement](../unified-service-desk/use-dynamics-365-knowledge-effective-customer-engagement.md)   
+ [Configure Unified Service Desk to use model-driven apps](../unified-service-desk/configure-unified-service-desk-use-dynamics-365-knowledge.md)   
+ [Walkthrough 8: Use knowledge base within your agent application](../unified-service-desk/walkthrough-8-use-dynamics-365-knowledge-base-within-agent-application.md)   
+ [Hosted control types, action, and event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)

@@ -1,20 +1,25 @@
 ---
-
-title: Create a project contract (Dynamics 365 for Project Service) | MicrosoftDocs
+title: Create a project contract
 description: How to create a project contract in Project Service
-author: krbjoran
-manager: ShellyHa
+author: ruhercul
+manager: kfend
 ms.service: dynamics-365-customerservice
-ms.custom:
+ms.custom: 
   - dyn365-projectservice
 ms.date: 8/03/2018
 ms.topic: article
 ms.prod: 
-ms.service: business-applications
 ms.technology: 
-ms.author: krbjoran
+ms.author: ruhercul
 audience: Admin
-
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365PS
+  - ProjectOperations
 ---
 # Create a project contract (Project Service)
 
@@ -30,7 +35,7 @@ Now that you’ve won the quote for your project, it’s time to create a contra
   
 4. When you’re done editing, click the **Save** button at the bottom right of the screen.  
   
-5. When you’re ready to send the quote to your customer, click **More** (…), click **Run Report**, and then click **Order**. Save the report as a [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)] document, edit as necessary, and then send the contract to your customer.  
+5. When you’re ready to send the contract to your customer, click **More** (…), click **Run Report**, and then click **Order**. Save the report as a [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)] document, edit as necessary, and then send the contract to your customer.  
   
 6. If your customer confirms your contract, click **Confirm** at the top of the **Project Contract** screen. If your customer wants you to change some items, create a new contract. If your customer decides not to use your services at this time, click **Close as Lost** at the top of the **Project Contract** screen.  
   

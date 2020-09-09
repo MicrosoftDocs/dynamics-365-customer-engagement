@@ -1,34 +1,35 @@
 ---
-
 title: FAQ and troubleshooting tips
-author: shellyhaverkamp
-manager: shellyha
-ms.date: 06/08/2018
+author: FieldServiceDave
+ms.reviewer: krbjoran
+ms.date: 08/27/2019
 ms.topic: article
-ms.custom:
+ms.custom: 
   - dyn365-fieldservice
 ms.service: dynamics-365-customerservice
-ms.author: shellyha
-
+ms.author: daclar
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365FS
 ---
 
-FAQ and troubleshooting tips
-================================
+# FAQ and troubleshooting tips
 
-Why doesn’t RSO on Org B work anymore after I copied Dynamics 365 Org A to Org B (with RSO deployed)? 
-------------------------------------------------------------------------------------------------------
+## Why doesn’t RSO on Org B work anymore after I copied Dynamics 365 Org A to Org B (with RSO deployed)? 
 
 RSO Endpoint, which is used for connecting Dynamics 365 org and RSO Azure resources on Org B, will be broken after copying an org or rest org. The recommended approach is to delete the current RSO deployment (this will not delete anything inside of the Dynamics 365 Org), copy and reset the org, and then redeploy RSO to target the Dynamics 365 org as needed.
 
-My RSO deployment takes a long time and won’t finish. What should I do?
------------------------------------------------------------------------
+## My RSO deployment takes a long time and won’t finish. What should I do?
 
 If your RSO deployment won’t complete (it neither fails nor succeeds), you will need to contact the Microsoft Support team.
 
-My RSO deployment or upgrade failed. What should I do?
-------------------------------------------------------
+## My RSO deployment or upgrade failed. What should I do?
 
-If you’re able to see the **Delete Current Deployment** option through the RSO deployment app, you can try to delete the existing deployment first (this will not delete anything inside of the Dynamics 365 Org) and then try to redeploy the latest version. If it fails again, check the admin settings. If the settings are correct but it still fails, contact the Microsoft Support team.
+If you’re able to see the **Delete Current Deployment** option through the RSO deployment app, you can try to delete the existing deployment first (this will not delete anything inside of the Dynamics 365 org) and then try to redeploy the latest version. If it fails again, check the admin settings. If the settings are correct but it still fails, contact the Microsoft Support team.
 
 - Make sure your Dynamics 365 org is NOT in administration mode.
 
@@ -38,36 +39,30 @@ If you’re able to see the **Delete Current Deployment** option through the RSO
 - Check to see that the RSO add-on user has the Resource Scheduling
     Optimization security role.
 
-Installing the RSO solution failed through the Dynamics 365 admin center solution management page. What are my options?
------------------------------------------------------------------------------------------------------------------------
+## Installing the RSO solution failed through the Dynamics 365 admin center solution management page. What are my options?
 
 You shouldn’t install the RSO solution from the solution management page. You should use the RSO deployment app to deploy RSO. This includes both the Dynamics 365 side solution as well as Azure resources. 
 
-Can I modify the out-of-box Resource Scheduling Optimization security role?
----------------------------------------------------------------------------
+## Can I modify the out-of-box Resource Scheduling Optimization security role?
 
 Modifying the out-of-box Resource Scheduling Optimization security role can cause issues such as RSO upgrade failure, RSO job not pulling requirements/bookings as expected, and more. We don’t recommend modifying the out-of-box security role directly. Instead, copy it as a new role and customize as needed.
 
-How do I cancel a long-running schedule or blocked schedule?
-------------------------------------------------------------
+## How do I cancel a long-running schedule or blocked schedule?
 
 If your schedule has been running for a long time and seems stuck or blocked, use the **Reset Resource Scheduling Optimization** button to clear the blocked job and reset the schedules into a good state.
 
-I’m seeing the message “SASKey has not been configured” when I publish a schedule. Is this ok?
-----------------------------------------------------------------------------------------------
+## I’m seeing the message “SASKey has not been configured” when I publish a schedule. Is this ok?
 
 This means the RSO Azure resources are not set up correctly. We recommend going to the RSO deployment app to check the RSO deployment status. Redeploy as needed to fix the issue.
 
 > [!div class="mx-imgBorder"]
 > ![](media/6e42a1e32814b0bb5fd4e39134c5b5a1.png)
 
-An optimization request failed and gave the message “Object reference not set to an instance of an object.” What does that mean? 
----------------------------------------------------------------------------------------------------------------------------------
+## An optimization request failed and gave the message “Object reference not set to an instance of an object.” What does that mean? 
 
 This typically means a custom plug-in ran into an unhandled null value. This can occur because of a custom plug-in that is triggered synchronously on the creation of a booking, the update of a work order, or other booking-related record, or one of the other records that could be impacted when the results are returned by an optimization run. System customizers can leverage the plug-in trace log capability to identify which plug-in is failing. Warning: don’t forget to disable plug-in trace logging as soon as debugging is over to avoid overloading the organization’s database.
 
-An optimization request failed with the message “System failed to modify some bookings.” How should I handle this?
-------------------------------------------------------------------------------------------------------------------
+## An optimization request failed with the message “System failed to modify some bookings.” How should I handle this?
 
 Sometimes you see this message for the following scenarios:
 
@@ -86,16 +81,14 @@ Sometimes you see this message for the following scenarios:
     - If you have only one schedule, is there any other user or workflow
         trying to update a booking during the run?
 
-An optimization request failed with the message “The start time of a time window must be less than or equal to the end time.” What should I do?
------------------------------------------------------------------------------------------------------------------------------------------------
+## An optimization request failed with the message “The start time of a time window must be less than or equal to the end time.” What should I do?
 
 This indicates some invalid booking data got included in the optimization scope—the following is an example. The user can query a booking entity to see if any booking record has an invalid estimated travel duration. These are the expressions you can specify for the view:
 
 - *Estimated travel duration \> Booking.EndTime - Booking.StartTime*
 - *Estimated travel duration \> Booking.Duration*
 
-Why aren’t my resources getting any bookings assigned? 
--------------------------------------------------------
+## Why aren’t my resources getting any bookings assigned? 
 
 There are various reasons for this. First, review the optimization results from the schedule board and corresponding optimization request \> resource view to look for reasons why bookings are not being scheduled. Here are more details to analyze:
 
@@ -126,8 +119,7 @@ There are various reasons for this. First, review the optimization results from 
 - Status:
     - Is the resource’s status **Active**?
 
-Why aren’t my work orders/requirements being scheduled?
--------------------------------------------------------
+## Why aren’t my work orders/requirements being scheduled?
 
 There are various reasons why requirements might not get booked. First, review
 the optimization results from the schedule board and corresponding optimization
@@ -216,8 +208,7 @@ Here are more details to analyze:
     more time to optimize. Consider increasing the engine’s effort level to give
     it more time to find a suitable assignment.
 
-Why are my completed, canceled, or other bookings being optimized when they shouldn’t be moved?
------------------------------------------------------------------------------------------------
+## Why are my completed, canceled, or other bookings being optimized when they shouldn’t be moved?
 
 Booking Status has a **Scheduling Method** field that dictates how RSO should consider booking records of that status:
 
@@ -238,8 +229,7 @@ Booking Status has a **Scheduling Method** field that dictates how RSO should co
         where you want RSO to consider moving the work around should be set to
         **Optimize**.
 
-Why are some of my past bookings being removed?
------------------------------------------------
+## Why are some of my past bookings being removed?
 
 A booking from the past might be moved if its booking status indicated that it should be optimized and if this booking is included in the optimization scope’s booking view. Because of this, it might appear (especially in a testing scenario where no one is actually completing work) that all of the bookings from the past are being rescheduled if no one changed the booking to a booking status that would keep the record from being moved. Here are a few ways you can block RSO from moving past bookings:
 
@@ -249,8 +239,10 @@ A booking from the past might be moved if its booking status indicated that it s
 - Set a promised date from/to or date from/to while enabling the time window
     constraint.
 
-Why are some of my past or future bookings that are outside of the optimization start and end range being removed?
-------------------------------------------------------------------------------------------------------------------
+## What happens if I remove the "Schedule within Working Hours" constraint?
+When you remove this constraint, RSO will still respect working hours, but not as strictly. It won't leave time at the end of the day to travel to the resource's ending location and bookings will end at or near the end of a resource's working day and may spill over into non-working hours. Bookings, however, won't disregard working hours and won't be scheduled 24-7.
+
+## Why are some of my past or future bookings that are outside of the optimization start and end range being removed?
 
 With extensible scope, optimization range settings (Range Reference, Range Offset, Range Duration (days)) are the time range where bookings can be created, updated, or deleted. It has nothing to do with the scope of bookings. Here are some scenarios:
 
@@ -310,8 +302,7 @@ With extensible scope, optimization range settings (Range Reference, Range Offse
     > [!div class="mx-imgBorder"]
     > ![](media/9353549197ca4e3cb80867d3001d4ea5.png)
 
-Why are so many bookings in simulation status? 
------------------------------------------------
+## Why are so many bookings in simulation status? 
 
 If any exception or error happens when an optimization schedule is still running, you might see some overlap on the schedule board because some bookings are created or updated from the latest run while other bookings from the previous run failed to be deleted due to an exception. To avoid this, we are making the optimization process atomic and transactional by introducing a **Simulation** status. During the optimization process, the create, update, and deleted operations are now visible. All new, updated, and to-be-deleted bookings are in a **Simulation** staging area. If the whole optimization request is completed and correct, these simulation bookings will be flipped into real bookings. Before the optimization request completes, you can see some simulation status (transparent) bookings move around the schedule board until the run is complete. Then all simulation bookings will be flipped into real bookings (solid blue). If an exception occurs and the optimization request fails, these simulation bookings will remain in simulation status for troubleshooting purposes unless you manually delete them. Otherwise, a system job will delete them automatically every two weeks.
 
@@ -321,8 +312,7 @@ If any exception or error happens when an optimization schedule is still running
 > [!div class="mx-imgBorder"]
 > ![](media/f1f4fe1d470e6897e8d0a3c548d52649.png)
 
-Why is RSO scheduling bookings that overlap with resource break times? 
------------------------------------------------------------------------
+## Why is RSO scheduling bookings that overlap with resource break times? 
 
 Right now, RSO can’t split travel time from the booking from a visual perspective. It looks like RSO is scheduling bookings that overlap break time, but actually they are not because RSO can’t split travel time from its working duration tile from the schedule board visualized view perspective. What you see on the schedule board may look like this:
 

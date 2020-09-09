@@ -1,1 +1,0 @@
-Retrieves the display state for the business process control.

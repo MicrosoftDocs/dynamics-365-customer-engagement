@@ -1,213 +1,129 @@
 ---
-title: "Dynamics 365 for Sales troubleshooting guide for sales people | MicrosoftDocs"
-description: "Follow the instructions in this topic to troubleshoot the issues you may face while working on Dynamics 365 for Sales."
-keywords: "Dynamics 365 for Sales, troubleshoot, FAQ, issue, resolution"
-ms.date: 07/20/2018
+title: "Dynamics 365 Sales troubleshooting guide  | MicrosoftDocs"
+description: "A starting point for browsing troubleshooting content for Dynamics 365 Sales."
+ms.date: 05/26/2020
 ms.service:
   - "dynamics-365-sales"
-ms.custom:
-  - "dyn365-sales"
 ms.topic: article
-applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-ms.assetid: 6a381b64-497c-476a-8d4c-98bf5da742b5
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-topic-status: Drafting
 ---
 
-# Dynamics 365 for Sales troubleshooting guide for sales people
 
-Use the following list of troubleshooting topics to quickly find information to solve your issue.
+# Dynamics 365 Sales troubleshooting guide
 
-## Lead qualification issues and resolution
+<table>
 
-### How do I convert or qualify my leads?
+<tr><td>
 
-When you determine that the lead you’ve nurtured has a potential to turn into business, you qualify a lead. When you qualify a lead, it becomes an opportunity.
-To qualify a lead, select **Qualify** on the command bar of the lead record.
+<h2>Leads </h2>
 
-![Qualify button on the Lead form](media/qualify-button-lead-form.png "Qualify button on the Lead form")
+<li><a href="ts-leads.md#cant_qualify_lead" data-raw-source="[I can't qualify a lead](ts-leads.md#cant_qualify_lead)">I can't qualify a lead</a></li>
+<li><a href="ts-leads.md#insufficientpermissions" data-raw-source="[Insufficient permissions or Access denied error when a user is trying to qualify a lead)](ts-leads.md#insufficientpermissions)">Insufficient permissions or Access denied error when a user is trying to qualify a lead</a></li>
+<li><a href="ts-leads.md#qualify-lead-not-available" data-raw-source="[The Qualify lead command is not available on the Lead record)](ts-leads.md#qualify-lead-not-available)">The Qualify lead command is not available on the Lead record</a></li>
+<li><a href="ts-leads.md#account-contact-fields-not-populating" data-raw-source="[Account or contact-related fields aren't populating on the Lead form)](ts-leads.md#account-contact-fields-not-populating)">Account or contact-related fields aren't populating on the Lead form</a></li>
 
-You can also qualify a lead from the list of leads. Go to **Sales** > **Leads**. Select the lead you want to qualify and on the command bar, select **Qualify**.
+</td><td>
 
-### Why am I not able to qualify a lead?
-There could be multiple errors you may get while you qualify a lead. 
-1.  [Duplicate warning - There might already be a match for this account or contact. If so, please select it](troubleshooting.md#duplicate)
-2.  [To move to the next stage, complete the required steps](troubleshooting.md#CompleteSteps)
-3.  [Active stage is not on 'lead' entity](troubleshooting.md#NoActiveStage)
-4.  [Access denied or Insufficient permissions](troubleshooting.md#AccessDenied)
+<h2>Opportunities</h2>
 
-The following sections talk about each of these errors and how you can resolve them.
 
-<a name="duplicate"> </a>
-#### 1. Duplicate warning - There might already be a match for this account or contact. If so, please select it.
+<li><a href="ts-opportunities.md#close_opportunity" data-raw-source="[I can't close an opportunity](ts-opportunities.md#close_opportunity)">I can't close an opportunity</a></li>
+<li><a href="ts-opportunities.md#access_denied" data-raw-source="[Insufficient permissions or Access denied error when a user is trying to close an opportunity](ts-opportunities.md#access_denied)">Insufficient permissions or Access denied error when a user is trying to close an opportunity</a></li>
+<li><a href="ts-opportunities.md#edit_opportunity" data-raw-source="[I can't edit an opportunity)](ts-opportunities.md#edit_opportunity">I can't edit an opportunity</a></li>
+<li><a href="ts-opportunities.md#add_products" data-raw-source="[I can't add products to an opportunity](ts-opportunities.md#add_products)">I can't add products to an opportunity</a></li>
+<li><a href="ts-opportunities.md#cant-see-connection-records-from-stakeholders-subgrid" data-raw-source="[I can't see the connection records added from the Stakeholders subgrid](ts-opportunities.md#cant-see-connection-records-from-stakeholders-subgrid)">I can't see the connection records added from the Stakeholders subgrid</a></li>
 
 
-![Duplicate warning while qualifying lead](media/duplicate-warning.png "Duplicate warning while qualifying lead")
+</td></tr>
 
+<tr><td>
 
-**Reason:**
+<h2>Orders </h2>
 
-When the lead is qualified to an opportunity, it automatically creates a corresponding account and/or contact and there may already be a match for this account or contact.
+<li><a href="ts-orders.md#no_create_invoice_button" data-raw-source="[I don't see the Create invoice button on my order forms?](ts-orders.md#no_create_invoice_button)">I don't see the Create invoice button on my order forms</a></li>
+</td><td>
 
-**Resolution:**
+<h2>Products </h2>
 
-On the **Duplicate warning** dialog box, select the existing account or contact to avoid creating duplicates. To create a new record instead, click **Continue**.
+<li><a href="ts-products.md#reparenting_not_working" data-raw-source="[Reparenting isn't working, or the Parent field isn't visible](ts-products.md#reparenting_not_working)">Re-parenting isn't working, or the Parent field isn't visible</a></li>
+<li><a href="ts-products.md#decimal-supported-not-honored" data-raw-source="[List Price, Standard Cost, or Current Cost fields don't honor Decimal Supported field precision value.](ts-products.md#decimal-supported-not-honored)">List Price, Standard Cost, or Current Cost fields don't honor Decimal Supported field precision value.</a></li>
+<li><a href="ts-products.md#decimal-value-not-accepted" data-raw-source="[I get an error when setting the Quantity field to a decimal value in the Order Product, Quote Product, Invoice Product records.](ts-products.md#decimal-value-not-accepted)">I get an error when setting the Quantity field to a decimal value in the Order Product, Quote Product, Invoice Product records.</a></li>
+<li><a href="ts-products.md#decimal-supported-value-error" data-raw-source="[I get an error while opening or saving a Product record when the Decimal Supported field has value > 2.](ts-products.md#decimal-supported-value-error)">I get an error while opening or saving a Product record when the Decimal Supported field has value > 2.</a></li>
+</td></tr>
 
-<a name="CompleteSteps"> </a>
-#### 2. To move to the next stage, complete the required steps
+<tr><td>
 
-**Reason:** 
+<h2>Forecasting</h2>
 
-You have not filled in data in all the business-required fields in the current stage of the process stage.
+<li><a href="ts-forecasts.md#territory_based_forecast_issues" data-raw-source="[Territory-based forecast issues and resolution](ts-forecasts.md#territory_based_forecast_issues)">Territory-based forecast issues and resolution</a></li>
+<li><a href="ts-forecasts.md#hide_forecast_category_field" data-raw-source="[Unable to hide forecast category field in Opportunity forms](ts-forecasts.md#hide_forecast_category_field)">Unable to hide forecast category field in Opportunity form</a></li>
+<li><a href="ts-forecasts.md#unable_view_forecasts" data-raw-source="[Unable to view forecasts](ts-forecasts.md#unable_view_forecasts)">Unable to view forecasts</a></li>
 
-**Resolution:**
+</td><td>
 
-Fill in data in all the mandatory fields in the current stage, save the record, and then try qualifying the lead again.
+<h2>Views </h2>
 
-<a name="NoActiveStage"> </a>
-#### 3. Active stage is not on 'lead' entity
+<li><a href="ts-views.md#no_data_in_views" data-raw-source="[I can't see data in certain columns in entity views](ts-views.md#no_data_in_views)">I can't see data in certain columns in entity views</a></li>
+<li><a href="ts-views.md#records_missing_in_views" data-raw-source="[I can't see some records in the entity views](ts-views.md#records_missing_in_views)">I can't see some records in the entity views</a></li>
+<li><a href="ts-views.md#missing-records" data-raw-source="[I can't see some records in opportunity, quote, order, or invoice subgrids](ts-views.md#missing-records)">I can't see some records in opportunity, quote, order, or invoice subgrids</a></li>
+<li><a href="ts-views.md#cannot_update_nested_bundle_items" data-raw-source="[I can't update nested bundle items on the Product tab ](ts-views.md#cannot_update_nested_bundle_items)">I can't update nested bundle items on the Product tab</a></li>
+<li><a href="ts-views.md#default-view-not-set" data-raw-source="[I can't see opportunity records in the legacy web client while I can see them in Unified Interface](ts-views.md#default-view-not-set)">I can't see opportunity records in the legacy web client while I can see them in Unified Interface</a></li>
 
-**Reason:**
+</td></tr>
 
-The lead that you are trying to qualify isn’t in the Active state. This may happen when an already-qualified lead has been reactivated.
+<tr><td>
 
-**Resolution:**
+<h2>Unified Interface</h2>
 
-1.	Open the lead record.
-2.	On the process stage, select the Set **Active** button.
 
-    ![Set Active button in the Qualify stage of lead form](media/set-active-button-qualify-stage.png "Set Active button in the Qualify stage of lead form")
+<li><a href="ts-unified-interface.md#read_only" data-raw-source="[Out-of-the-box or custom entities appear as read-only in Unified Interface apps](ts-unified-interface.md#read_only)">Out-of-the-box or custom entities appear as read-only in Unified Interface apps</a></li>
 
-<a name="AccessDenied"> </a> 
-#### 4. Access denied or Insufficient permissions
+</td><td>
 
-**Reason:**
 
-You do not have sufficient permissions on the lead record. 
+<h2>Common issues across entities </h2>
 
-**Resolution:**
+<li><a href="ts-oqoi.md#error_on_entities" data-raw-source="[Error or unexpected behavior while working on entities](ts-oqoi.md#error_on_entities)">Error or unexpected behavior while working on entities</a></li>
+<li><a href="ts-views.md#missing-records" data-raw-source="[I can't see some records in opportunity, quote, order, or invoice subgrids](ts-views.md#missing-records)">I can't see some records in opportunity, quote, order, or invoice subgrids</a></li>
 
-Ask your system administrator to grant you the necessary permissions.
+</td><td>
 
+</td></tr>
 
-If there’s no error, and you are still not able to qualify a lead, please contact the technical support here.
+<tr>
+<td>
+<h2>Currency and price list</h2>
 
+<li><a href="ts-currency-pricelist.md#update_currency_existing-oqoi" data-raw-source="[I can't update the currency or price list for an opportunity, quote, order, or invoice](ts-currency-pricelist.md#update_currency_existing-oqoi)">I can't update the currency or price list for an opportunity, quote, order, or invoice</a></li>
 
-## Opportunity issues and resolution
+</td>
+<td>
 
-### How do I close an opportunity?
-      
-Whether your customer has accepted or rejected your proposal, it is a good practice to close the opportunity as won or lost. 
-When you close an opportunity, the opportunity is marked as complete, and can’t be changed. If you want to make further changes to an opportunity, you can reopen it. At the time of closing the opportunity, enter the Actual Revenue and Actual Close Date. The Actual Revenue is used for reporting purposes in charts and reports in Dynamics 365 for Sales.
+<h2>Sales pipeline chart</h2>
 
-To close an opportunity, open the opportunity record, and on the command bar, select **Close as Won** or **Close as Lost**.
 
+<li><a href="ts-sales-pipeline.md#different_sequence" data-raw-source="[I see multiple pipeline phases with different sequences, such as 6-Close and 7-Close](ts-sales-pipeline.md#different_sequence)">I see multiple pipeline phases with different sequences, such as 6-Close and 7-Close</a></li>
+<li><a href="ts-sales-pipeline.md#values_from_multiple_bpfs" data-raw-source="[I see pipeline phase values from multiple business process flow definitions](ts-sales-pipeline.md#values_from_multiple_bpfs)">I see pipeline phase values from multiple business process flow definitions</a></li>
+<li><a href="ts-sales-pipeline.md#different_ordering" data-raw-source="[The sales pipeline chart ordering is displayed differently in Unified Interface vs. the legacy web client](ts-sales-pipeline.md#different_ordering)">The sales pipeline chart ordering is displayed differently in Unified Interface vs. the legacy web client</a></li>
 
-![Close opportunity as Won or Lost](media/close-opportunity.png "Close opportunity as Won or Lost")
+</td>
+</tr>
 
-### Why am I not able to closing an opportunity?
+<tr>
+<td>
 
-Here are some errors that you may see while you close an opportunity. 
-1.  [The opportunity cannot be closed](troubleshooting.md#CannotBeClosed)
-2.  [Access denied or Insufficient permissions](troubleshooting.md#AccessDeniedOpportunity)
-3.  [The opportunity has already been closed](troubleshooting.md#AlreadyClosed)
+<h2>Developer</h2>
+<li><a href="developer/custom-plugin-handling-shared-variable.md" data-raw-source="[Custom plug-in handling using shared variable](developer/custom-plugin-handling-shared-variable.md)">Price calculation service gets triggered upon retrieving details from OQOI entities</a></li>
 
-The following sections talk about each of these errors and how you can resolve them.
+</td>
+<td>
+<h2>LinkedIn Integrations</h2>
+<li><a href="../linkedin/ts-linkedin-integration.md#error-in-enabling-linkedin-updates" data-raw-source="[Error in enabling LinkedIn updates](../linkedin/ts-linkedin-integration.md#error-in-enabling-linkedin-updates)">Error in enabling LinkedIn updates</a></li>
+<li><a href="../linkedin/ts-linkedin-integration.md#unable-to-upgrade-the-linkedinsalesnavigatorforunifiedclient-solution" data-raw-source="[Unable to upgrade the LinkedInSalesNavigatorForUnifiedClient solution](../linkedin/ts-linkedin-integration.md#unable-to-upgrade-the-linkedinsalesnavigatorforunifiedclient-solution)">Unable to upgrade the LinkedInSalesNavigatorForUnifiedClient solution</a></li>
 
-<a name="CannotBeClosed"> </a> 
-#### 1. The opportunity cannot be closed
+Unable to upgrade the LinkedInSalesNavigatorForUnifiedClient solution
+</td></tr>
 
-**Reason:**
-
-There may be active or draft quotes associated with the opportunity.
-
-**Resolution:**
-
-1.	In the Opportunity record, go to the Quotes tab (or Quotes line item tab).
-2.	Make sure none of the quotes are in the Draft or Active status.
-
-    ![Quotes in the Draft status](media/quotes-in-draft-state.png "Quotes in the Draft status")
-
-
-<a name="AccessDeniedOpportunity"> </a> 
-#### 2. Access denied or Insufficient permissions.
-
-**Reason:**
-
-You do not have sufficient permissions to the opportunity you are trying to close.
-
-**Resolution:**
-
-Ask your system administrator to grant you the necessary permissions.
-
-<a name="AlreadyClosed"> </a>
-#### 3. The opportunity has already been closed.
-
-**Reason:**
-
-The opportunity that you are trying to close is already marked as Won or Lost. 
-
-**Resolution:**
-
-If you want to make changes to the already-closed opportunity, reopen the opportunity, make changes, and close it again.
-
-### I am unable to edit an opportunity?
-
-If you have already closed an opportunity as Won or Lost, it becomes read-only and you can no more change it. If you want to make any changes to the opportunity, reopen the opportunity. 
-
-To reopen, open the opportunity, and on the command bar, select **Reopen Opportunity**.
- 
-![Reopen opportunity](media/reopen-opportunity.png "Reopen opportunity")
-
-### I am unable to add products to opportunity? 
-
-Here are some errors that you may see while you add products to an opportunity. 
-1.  [You must select a price list before attempting to add a product](troubleshooting.md#SelectPriceList)
-2.  [You must provide a value for product description](troubleshooting.md#ProductName)
-3.  [You can only add active products](troubleshooting.md#ActiveProducts)
-
-<a name="SelectPriceList"></a>
-#### 1. You must select a price list before attempting to add a product.
-
-**Reason**: 
-
-You've not selected a price list for the opportunity. Selecting a price list is required to be able to add products to an opportunity. 
-
-**Resolution:**
-
-1.  In the Opportunity record, go to the **Product Line Item** tab.
-2.  In the Price List field, select a price list for the opportunity.  
-
-<a name="ProductName"></a>
-#### 2. You must provide a value for product description.
-
-**Reason**: 
-
-While creating a write-in product, you've not entered the product name.  
-
-**Resolution:**
-
-Enter the product name.   
-
-<a name="ActiveProducts"></a>
-#### 3. You can only add active products.
-
-**Reason**: 
-
-While adding an existing product, you selected a product in the **Draft** status.  
-
-**Resolution:**
-
-Make sure the product you want to add is in the Active state, and then add the product.   
-
-
-### See Also
-
-[Dynamics 365 for Sales troubleshooting guide for administrators](troubleshooting-admin.md)
+</table>

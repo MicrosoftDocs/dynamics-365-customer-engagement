@@ -1,26 +1,21 @@
 ---
-title: "Unified Service Desk Guide for Dynamics 365 Customer Enagagement | MicrosoftDocs"
-description: "Unified Service Desk helps you configure call center agent applications that provide customer service agents with immediate and unified access to business critical customer information stored in your Dynamics 365 Customer Engagement instance."
-keywords: ""
+title: "Unified Service Desk Guide | MicrosoftDocs"
+description: "Unified Service Desk helps you configure call center agent applications that provide customer service agents with immediate and unified access to business critical customer information stored in your instance."
+ms.custom: 
+  - dyn365-USD
 ms.date: 08/06/2018
-ms.service:
-  - "dynamics-365-customerservice"
-ms.custom:
-  - "dyn365-USD"
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
-ms.assetid: 5a29a96e-4271-4e25-a42f-e36d7d707882
 author: kabala123
 ms.author: kabala
-manager: sakudes
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+manager: shujoshi
+search.audienceType: 
+  - customizer
+  - developer
+search.app: 
+  - D365CE
+  - D365USD
 ---
 
 # Unified Service Desk Guide
@@ -86,11 +81,25 @@ ms.tgt_pltfrm:
 <li><a href="debug-custom-code-unified-service-desk.md" data-raw-source="[Debug your custom code](debug-custom-code-unified-service-desk.md)">Debug your custom code</a></li>
 </td>
 </tr>
+
+<tr>
+<td>
+<h2>Related apps & framework</h2>
+
+<li><a href="https://docs.microsoft.com/dynamics365/customer-service/help-hub" data-raw-source="[Customer Service Hub Help](https://docs.microsoft.com/dynamics365/customer-service/help-hub)">Customer Service Hub Help</a></li>
+<li><a href="https://docs.microsoft.com/dynamics365/omnichannel/omnichannel-customer-service-guide" data-raw-source="[Omnichannel for Customer Service Guide](https://docs.microsoft.com/dynamics365/omnichannel/omnichannel-customer-service-guide)">Omnichannel for Customer Service Guide</a></li>
+<li><a href="https://docs.microsoft.com/dynamics365/customer-service/channel-integration-framework/channel-integration-framework" data-raw-source="[Dynamics 365 Channel Integration Framework Guide](https://docs.microsoft.com/dynamics365/customer-service/channel-integration-framework/channel-integration-framework)">Dynamics 365 Channel Integration Framework Guide</a></li>
+
+</td>
+</tr>
 </table>
 
+::: moniker range="dynamics-usd-3"
 ### Videos
 
 See the video to know [What's New in Unified Service Desk 3.3](https://go.microsoft.com/fwlink/?linkid=2008774).
+::: moniker-end
 
-### See also<br/>
- <a href="http://blogs.msdn.com/b/usd/" data-raw-source="[Unified Service Desk Team Blog](http://blogs.msdn.com/b/usd/)">Unified Service Desk Team Blog</a>
+### See also
+
+ <a href="https://blogs.msdn.com/b/usd/" data-raw-source="[Unified Service Desk Team Blog](https://blogs.msdn.com/b/usd/)">Unified Service Desk Team Blog</a>

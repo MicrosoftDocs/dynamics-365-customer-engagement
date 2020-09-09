@@ -1,1 +1,0 @@
-Encodes the specified string so that it can be used in an HTML attribute.

@@ -1,25 +1,19 @@
 ---
-title: "UII adapters in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
-description: "Learn about three UII adapters in Unified Service Desk."
-description: ""
-ms.custom: ""
+title: "UII adapters in Unified Service Desk | MicrosoftDocs"
+description: 
 ms.date: 08/23/2017
-ms.reviewer: ""
-ms.service: "usd"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
-ms.assetid: 59d89ca1-469d-42e3-98cf-e444c0438ec3
-caps.latest.revision: 5
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "jdaly"
+ms.service: 
+  - "dynamics-365-customerservice"
+ms.topic: article
+author: KumarVivek
+ms.author: kvivek
+manager: jdaly
+search.audienceType: 
+  - customizer
+  - developer
+search.app: 
+  - D365CE
+  - D365USD
 ---
 # UII adapters in Unified Service Desk
 A [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-integration-uii.md)] adapter allows you to modify the behavior of the application without access to its source code. [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] provides adapters for web applications, external (Windows-based) applications, and the [!INCLUDE[pn_hosted_application_toolkit_hat](../includes/pn-hosted-application-toolkit-hat.md)], which can be extended to build additional application adapter capabilities.  

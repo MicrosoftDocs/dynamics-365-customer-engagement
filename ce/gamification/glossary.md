@@ -1,19 +1,23 @@
 ---
 title: "Terminology glossary for Dynamics 365 – Gamification | Microsoft Docs"
 description: "Review specific terms used in Dynamics 365 – Gamification."
-keywords: "glossary, terms, terminology"
-ms.date: 01/11/2018
+keywords: glossary, terms, terminology
+ms.date: 09/28/2018
 ms.service: dynamics-365-sales
 ms.topic: get-started-article
-applies_to:
-  - "Dynamics 365 (online)"
 ms.assetid: 10c6a538-985a-4ea2-b8d9-4efc67f7363f
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
-topic-status: Drafting
-ms.custom:
+manager: shellyha
+ms.custom: 
   - dyn365-gamification
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Gamification
 ---
 
 # Gamification terminology
@@ -64,7 +68,7 @@ Gamification as a concept applies gaming elements and principles to non-game con
 
 ## BAM posts
 
-BAM posts are post on the Smack Talk board that announce a special achievement, a new award, or a promotion. These posts usually draw more attention, so we suggest you use them when appropriate. You can choose one of the predefined animations to make the BAM post visually appealing. 
+BAM posts are a special type of posts on the Smack Talk board that announce a special achievement, a new award, or a promotion. These posts usually draw more attention, so we suggest you use them when appropriate. You can choose one of the predefined animations to make the BAM post visually appealing. 
 
 ## Stream TV
 

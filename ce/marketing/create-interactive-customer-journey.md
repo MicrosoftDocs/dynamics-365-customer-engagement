@@ -1,50 +1,51 @@
 ---
-title: "Create an interactive customer journey (Dynamics 365 for Marketing) | Microsoft Docs"
-description: "A tutorial for how to create an interactive customer journey featuring signups and triggers in Dynamics 365 for Marketing"
-keywords: "tutorial; customer journey; trigger; landing page; signup; page"
+title: "Create an interactive customer journey (Dynamics 365 Marketing) | Microsoft Docs"
+description: "A tutorial for how to create an interactive customer journey featuring signups and triggers in Dynamics 365 Marketing"
+keywords: tutorial; customer journey; trigger; landing page; signup; page
 ms.date: 04/01/2018
-ms.service:
-  - "dynamics-365-marketing"
-ms.custom:
-  - "dyn365-marketing"
+ms.service: dynamics-365-marketing
+ms.custom: 
+  - dyn365-marketing
 ms.topic: get-started-article
-applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
 ms.assetid: 4c42b94d-7bd1-41fa-80de-819f00bede33
-author: kamaybac
-ms.author: kamaybac
-manager: sakudes
-ms.reviewer: renwe
+author: alfergus
+ms.author: alfergus
+manager: shellyha
+ms.reviewer:
 topic-status: Drafting
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Mktg
 ---
 
 # Create an interactive customer journey with triggers and signup
 
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
-
-<div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/d73cc179-5984-4a32-ad84-0755f56b0399" frameborder="0" allowfullscreen=""></iframe></div>
+<div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/d73cc179-5984-4a32-ad84-0755f56b0399" frameborder="0" allowfullscreen=""></iframe></div>
 
 In [Create a simple customer journey with email messaging](create-simple-customer-journey.md), you created the simplest possible customer journey, which simply sends an email message to all contacts in a segment. Now we'll go a bit deeper into customer journeys to see how to add interactive features and decision points by including landing pages and triggers in the design.
 
-1. Go to **Marketing** &gt; **Marketing Execution** &gt; **Marketing Emails** and create a new email message like the one you made in [Create a marketing email and go live](create-marketing-email.md). Be sure to include all the minimum requirements&mdash;name, subject, from-contact, subscription center link, and sender physical address—but don't go live yet.
+1. Go to **Marketing** > **Marketing Execution** > **Marketing Emails** and create a new email message like the one you made in [Create a marketing email and go live](create-marketing-email.md). Be sure to include all the minimum requirements&mdash;name, subject, from-contact, subscription center link, and sender physical address—but don't go live yet.
 
     > [!TIP]
     > Consider choosing a non-blank email template this time. These templates not only have sample content, graphics, and column layouts, but also include all mandatory elements such as the subscription center link and physical address.
 
-2. This message will invite recipients to pick up a free download from your website. To get the free download, they'll need to visit the landing page, submit a form, and then wait for a follow-up email that contains the download link. (The message content would normally explain all of this, but for this exercise it's not necessary.) With your new email message still open, drag a **Marketing Page** block from the **Toolbox** onto the design canvas.  
-    ![Add a marketing-page block to a message](media/email-add-page-block.png "Add a Marketing Page block to a message")
+2. This message will invite recipients to pick up a free download from your website. To get the free download, they'll need to visit the landing page, submit a form, and then wait for a follow-up email that contains the download link. (The message content would normally explain all of this, but for this exercise it's not necessary.) With your new email message still open, drag a **Marketing Page** design element from the **Toolbox** onto the design canvas.  
+    ![Add a marketing-page element to a message](media/email-add-page-block.png "Add a Marketing Page element to a message")
 
-3. When you drop the **Marketing Page** block in place, it's automatically selected and the **Properties** tab opens to show its settings.  
-    ![Assign a page to the page block](media/email-page-block-properties.png "Assign a page to the page block")
+3. When you drop the **Marketing Page** element in place, it's automatically selected and the **Properties** tab opens to show its settings.  
+    ![Assign a page to the page element](media/email-page-block-properties.png "Assign a page to the page element")
 
     Set the **Marketing Page** field to the name of the landing page you made in [Create a landing page with a form](create-landing-page.md) (or any valid landing page).  
 
 4. Continue to style and format your button as follows:
-   - Edit and style the button text by working directly on the canvas and using the floating toolbar, just as you would with a **Text** block. You might enter text such as **Click here to register for your download**.
+   - Edit and style the button text by working directly on the canvas and using the floating toolbar, just as you would with a **Text** element. You might enter text such as **Click here to register for your download**.
    - Working on the **Properties** tab, choose a background color, text color, height, and width for the button.
 
-     ![A page block with styles applied](media/email-page-block-styled.png "A page block with styles applied")
+     ![A page element with styles applied](media/email-page-block-styled.png "A page element with styles applied")
 
 5. As before, **Save** your message, choose **Check for Errors**, fix any issues, and then **Go Live**.
 
@@ -54,13 +55,13 @@ In [Create a simple customer journey with email messaging](create-simple-custome
 
      Remember to include all required elements and to go live with each of them.
 
-7. Go to **Marketing** &gt; **Marketing Execution** &gt; **Customer Journeys** and create a new customer journey like the one you made in [Create a simple customer journey with email messaging](create-simple-customer-journey.md). As before, add the following:
-   - Place a **Segment Group** tile in the first position, and configure its child **Segment** tile to reference the segment of test contacts you made in [Create a dynamic segment](create-segment.md).
+7. Go to **Marketing** > **Marketing Execution** > **Customer Journeys** and create a new customer journey like the one you made in [Create a simple customer journey with email messaging](create-simple-customer-journey.md). As before, add the following:
+   - Place a **Segment Group** tile in the first position, and configure its nested **Segment** tile to reference the segment of test contacts you made in [Create a dynamic segment](create-segment.md).
    - Add an **Email** tile right after the **Segment Group**, and configure it to reference the first email message you made for this exercise (with the landing page button).
 
      ![A customer journey with a simple email campaign](media/journey-email-only.png "A customer journey with a simple email campaign")  
 
-8. Although your email message includes a link to a landing page, the journey is not aware of that link, nor even of the landing page itself. This journey should react to landing page submissions, so you need to reference the page and link it to the message by adding a marketing-page tile as a child to the email tile. Drag a **Marketing Page** tile from the **Toolbox**, and drop it directly onto the **Marketing Email Message** tile.  
+8. Although your email message includes a link to a landing page, the journey is not aware of that link, nor even of the landing page itself. This journey should react to landing page submissions, so you need to reference the page and link it to the message by nesting a marketing-page tile under the email tile. Drag a **Marketing Page** tile from the **Toolbox**, and drop it directly onto the **Marketing Email Message** tile.  
     ![Add a marketing page to an email tile](media/journey-add-page.png "Add a marketing page to an email tile")
 
 9. Expand the **Marketing Email Message** tile by choosing the expansion button in its lower-right corner. Now you can see the **Marketing Page** tile that you just added.  
@@ -101,11 +102,11 @@ In [Create a simple customer journey with email messaging](create-simple-custome
     - **Bottom tile**: This message is sent to contacts who haven't submitted the form within three days of receiving the initial offer. Configure it to send the follow-up reminder message that you created earlier in this procedure.
 
       > [!TIP]
-      > For the purposes of this exercise, you can stop here. But in a real campaign, you would probably repeat most of this pipeline along the bottom path, so that you have a marketing page as a child to the follow-up reminder and then a trigger that waits for page submissions. You can reuse the same landing page and download-link message.
+      > For the purposes of this exercise, you can stop here. But in a real campaign, you would probably repeat most of this pipeline along the bottom path, so that you have a follow-up reminder and then a trigger that waits for page submissions. You can reuse the same landing page and download-link message.
       > 
       > ![An example of how to complete the follow-up path](media/journey-trigger-example.png "An example of how to complete the follow-up path")
 
-15. Save your customer journey. Then, as you've done before, go to the **General** tab to give the journey a name and schedule. Finally, **Check for Errors** and **Go Live**. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create a simple customer journey with email messaging](create-simple-customer-journey.md)
+15. Save your customer journey. Then, as you've done before, go to the **General** tab to give the journey a name and schedule. Finally, **Check for Errors** and **Go Live**. More information: [Create a simple customer journey with email messaging](create-simple-customer-journey.md)
 
 ### See also
 
@@ -114,4 +115,4 @@ In [Create a simple customer journey with email messaging](create-simple-custome
 [Create an inbound customer journey](create-inbound-customer-journey.md)  
 [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)  
 [Customer journey tiles reference](customer-journey-tiles-reference.md)  
-[Segmentation, lists, and subscriptions](segmentation-lists-subscriptions.md)
+[Working with segments](segmentation-lists-subscriptions.md)

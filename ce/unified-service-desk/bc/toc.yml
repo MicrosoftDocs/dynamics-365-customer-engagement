@@ -1,0 +1,7 @@
+- name: Dynamics 365
+  tocHref: /dynamics365/
+  topicHref: /dynamics365/
+  items:
+    - name: Unified Service Desk
+      tocHref: /dynamics365/unified-service-desk/
+      topicHref: /dynamics365/unified-service-desk/unified-service-desk

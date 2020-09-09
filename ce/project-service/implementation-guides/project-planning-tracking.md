@@ -1,20 +1,25 @@
 ---
-
-title: Project Planning and Tracking
-description: An English-language guide to project planning and tracking in Project Service Automation for Dynamics 365
-author: krbjoran
-manager: ShellyHa
+title: Project planning and tracking
+description: This topic provides a link to information about planning and tracking in Project Service Automation.
+author: kfend
+manager: kfend
 ms.service: dynamics-365-customerservice
-ms.custom:
+ms.custom: 
   - dyn365-projectservice
-ms.date: 7/30/2018
+ms.date: 2/04/2019
 ms.topic: article
 ms.prod: 
-ms.service: business-applications
 ms.technology: 
-ms.author: RevathiMuthiah
+ms.author: kfend
 audience: Admin
-
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365PS
+  - ProjectOperations
 ---
 # Project planning and tracking
 
@@ -22,7 +27,15 @@ audience: Admin
 
 The Project Service application helps service organizations identify opportunities, submit bids, reach contractual agreements, manage resources, track time and expenses, invoice customers, and deliver projects on time and within budget. 
 
-This English-language document explains how to use the Project Service app to estimate work, project costs, and forecast resource requirements:
+The PDF link that was previously in this topic has been removed and the content has been moved to the following topics:
 
-> [!div class="nextstepaction"]
-> [Download PDF of the project planning and tracking guide](https://go.microsoft.com/fwlink/?linkid=2006685)
+- [Project schedules](../project-creating.md)
+- [Project costs and revenue](../project-estimating.md)
+- [Sales estimates and projects](../project-leveraging.md)
+- [Project progress and cost consumption](../project-tracking.md)
+- [Project templates](../project-templates.md)
+- [Project stages](../project-stages.md)
+- [Project settings](../project-settings.md)
+
+> [!NOTE]
+> This topic will be removed in a future documentation update. 

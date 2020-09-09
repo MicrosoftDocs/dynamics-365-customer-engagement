@@ -1,1 +1,0 @@
-Adds a function as an event handler for the [OnStageSelected](../../../events/onstageselected.md) event so that it will be called when a business process flow stage is selected.

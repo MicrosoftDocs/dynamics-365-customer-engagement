@@ -1,30 +1,18 @@
 ---
-title: "Translate product names and properties into multiple languages (Dynamics 365 for Sales) | MicrosoftDocs"
-description: "Make all the relevant information like cross-sell or upsell suggestions, or properties, available to sales users in their preferred language by translating product names and properties in Dynamics 365 for Sales."
-keywords: "Translate, langaguge"
-ms.date: 04/01/2018
-ms.service: dynamics-365-sales
-ms.custom:
+title: "Translate product names and properties into multiple languages (Dynamics 365 Sales) | MicrosoftDocs"
+description: "Make all the relevant information like cross-sell or upsell suggestions, or properties, available to sales users in their preferred language by translating product names and properties in Dynamics 365 Sales."
+ms.date: 10/01/2019
+ms.service: 
+  - dynamics-365-sales
+ms.custom: 
   - dyn365-sales
 ms.topic: article
-applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-author: "shubhadaj"
-ms.assetid: 6eb8263b-b8a0-4d8b-8383-956d380a203d
 author: shubhadaj
 ms.author: shujoshi
 manager: sakudes
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-caps.latest.revision: 21
-topic-status: Drafting
 ---
 
 # Translate product names and properties into multiple languages (Sales)
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 When you sell your products in different regions, it is important that you translate significant product details into multiple languages. Help sales agents find things they need easily by making all the relevant details like cross-sell or upsell suggestions, or properties, available to them in their preferred language.   
   
@@ -53,7 +41,7 @@ When you sell your products in different regions, it is important that you trans
   
 <a name="bkmk_Import"></a>   
 ## Step 2: Import translated data  
- When you get the localized data back from translation, import it into [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
+ When you get the localized data back from translation, import it into [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)].  
   
 > [!IMPORTANT]
 >  It is important to provision the language packs first. If you import translated values for languages that aren't provisioned in the organization, they'll be discarded. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install or upgrade Language Packs](https://technet.microsoft.com/library/hh699674.aspx)  
@@ -83,7 +71,7 @@ When you sell your products in different regions, it is important that you trans
   
 <a name="bkmk_LanguageSelection"></a>   
 ## Selection of language in different scenarios  
- This section explains how the duplicate detection and workflow logic affect translation in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]:  
+ This section explains how the duplicate detection and workflow logic affect translation in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]:  
   
 -   Calculated fields logic, including conditional clauses, uses only the base language. The label for the user's preferred language (user interface language) is used if present. Otherwise, the base language is used.  
   

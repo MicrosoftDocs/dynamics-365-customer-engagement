@@ -1,19 +1,23 @@
 ---
 title: "Manage Stream TVs in Dynamics 365 – Gamification | Microsoft Docs"
 description: "Learn how to keep your employees engaged by showing a slide show for daily, weekly, and monthly KPIs on TVs and screens around the office."
-keywords: ""
+keywords: 
 ms.date: 03/27/2018
 ms.service: dynamics-365-sales
 ms.topic: get-started-article
-applies_to:
-  - "Dynamics 365 (online)"
 ms.assetid: 31346f85-42c9-4675-a8dd-062da7b94d4f
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
-topic-status: Drafting
-ms.custom:
+ms.custom: 
   - dyn365-gamification
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Gamification
 ---
 
 # Manage Stream TV games in Gamification
@@ -22,7 +26,7 @@ Display a slide show for daily, weekly, and monthly KPIs on TVs and screens arou
 To create a Stream TV from multiple active games, see [Stream results from active games](configure-view-tvs.md#stream-results-from-active-games).
 
 
-<div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/18883a39-c003-4d2c-b2af-c5e4c2d93ed3" frameborder="0" allowfullscreen=""></iframe></div>
+<div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/18883a39-c003-4d2c-b2af-c5e4c2d93ed3" frameborder="0" allowfullscreen=""></iframe></div>
 
 ## Set up a Stream TV game
 

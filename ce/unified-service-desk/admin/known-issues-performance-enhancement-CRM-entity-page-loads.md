@@ -1,24 +1,21 @@
 ---
 title: "Known issues of performance enhancement for CRM entity page loads | MicrosoftDocs"
 description: "Learn about the known issues of the Internet Explorer pooling feature."
-ms.custom:
-  - dyn365-USD, dyn365-admin
+ms.custom: 
+  - dyn365-USD
+  - dyn365-admin
 ms.date: 02/15/2018
-ms.reviewer: ""
-ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
-ms.assetid: D552D7B4-61F0-43D3-AB7E-E2E2D0E8321F
+ms.service: 
+  - dynamics-365-customerservice
+ms.topic: article
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - D365USD
 ---
 # Known issues of performance enhancement for CRM entity page loads
 

@@ -3,15 +3,19 @@
 # Administrator Guide 
 ## [What's supported](support-phones-tablets.md)
 ## [Set up mobile app](set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md)
-## [Configure mobile offline synchronization](configure-mobile-offline-synchronization-dynamics-365-phones-tablets.md)
 ## [Manage and secure devices](secure-manage-phones-tablets.md)
-## [Dynamics 365 for Good device encryption](secure-mobile-data-dynamics-365-good.md)
-## [Company News Timeline](../company-news-timeline/get-company-news-timeline-dynamics-365-phones-tablets.md)
-## [Troubleshooting](troubleshooting-things-know-about-phones-tablets.md)
+## [Set-up mobile offline synchronization](setup-mobile-offline-for-admin.md)
+## [Preview: Set-up mobile offline synchronization](preview-setup-mobile-offline.md)
+## [Mobile offline capabilities and limitations](mobile-offline-capabilities.md)
 
 # [Install the mobile app](install-dynamics-365-for-phones-and-tablets.md)
 
-# [User Guide](dynamics-365-phones-tablets-users-guide.md)
+# User Guide
+## [Use the mobile app](dynamics-365-phones-tablets-users-guide.md)
+## [Send email from the mobile app (Preview)](send-email.md)
+# [Work offline on your mobile device](work-in-offline-mode.md)
+
+# [Troubleshooting](troubleshooting-things-know-about-phones-tablets.md)
 
 # Older version (8.x)
 ## [Overview](../mobile-app/v8/about-this-content.md)
@@ -33,14 +37,14 @@
 ### Things to know and troubleshooting
 #### [Get the Company News Timeline](v8/go-mobile/admin-troubleshoot/get-company-news-timeline.md)
 #### [Reconfigure](../mobile-app/v8/go-mobile/admin-troubleshoot/reconfigure.md)
-#### [Secure your mobile data with Microsoft Dynamics 365 for Good](../mobile-app/v8/go-mobile/admin-troubleshoot/secure-mobile-data-dynamics-365-good.md)
+#### [Secure your mobile data with Microsoft Dynamics 365 apps for Good](../mobile-app/v8/go-mobile/admin-troubleshoot/secure-mobile-data-dynamics-365-good.md)
 #### [iFrame and web resource support](../mobile-app/v8/go-mobile/admin-troubleshoot/iframe-web-resource-support.md)
 #### [Troubleshoot a startup error](../mobile-app/v8/go-mobile/admin-troubleshoot/troubleshoot-dynamics-365-windows-app-start-up-error.md)
 #### [Troubleshoot error code 800c0019 on Windows Phones](../mobile-app/v8/go-mobile/admin-troubleshoot/troubleshoot-error-code-800c0019-windows-phones.md)
 
 ## User Guide 
 ### [Install the mobile app](../mobile-app/v8/go-mobile/get-started/install.md)
-### [Signing in and signing out](../mobile-app/v8/go-mobile/get-started/sign-in-out.md)
+### [Sign in and sign out](../mobile-app/v8/go-mobile/get-started/email-sign-in.md)
 ### [Reconfigure](../mobile-app/v8/go-mobile/get-started/reconfigure.md)
 ### [Basic navigation](../mobile-app/v8/go-mobile/get-started/basic-navigation.md)
 ### [The workspace - your personalized action hub](../mobile-app/v8/go-mobile/get-started/workspace-personalized-action-hub.md)

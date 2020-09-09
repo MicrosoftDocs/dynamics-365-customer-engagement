@@ -1,20 +1,25 @@
 ---
-
-title: Enter expenses (Dynamics 365 for Project Service) | MicrosoftDocs
+title: Enter expenses
 description: How to enter expenses in Project Service
-author: krbjoran
-manager: ShellyHa
+author: revathimuthiah
+manager: kfend
 ms.service: dynamics-365-customerservice
-ms.custom:
+ms.custom: 
   - dyn365-projectservice
 ms.date: 8/03/2018
 ms.topic: article
 ms.prod: 
-ms.service: business-applications
 ms.technology: 
-ms.author: krbjoran
+ms.author: revathim
 audience: Admin
-
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365PS
+  - ProjectOperations
 ---
 # Enter expenses (Project Service)
 

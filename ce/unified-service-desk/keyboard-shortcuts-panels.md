@@ -1,20 +1,22 @@
 ---
-title: "Keyboard shortcuts for panels in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "Keyboard shortcuts for panels in Unified Service Desk | MicrosoftDocs"
 description: "Learn about the keyboard shortcuts for panels in Unified Service Desk"
-ms.custom:
+ms.custom: 
   - dyn365-a11y
   - dyn365-USD
 ms.date: 08/23/2017
-ms.reviewer: ""
-ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-ms.assetid: 539aa1c3-faa3-4e54-ad14-f7da96529e91
-caps.latest.revision: 15
+ms.service: 
+  - dynamics-365-customerservice
+ms.topic: article
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
+search.audienceType: 
+  - customizer
+  - developer
+search.app: 
+  - D365CE
+  - D365USD
 ---
 # Keyboard shortcuts for panels in Unified Service Desk
 [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] now lets you cycle through all the active panels using a predefined keyboard shortcut and also define keyboard shortcuts to directly access individual panels in the panel layout.  
@@ -22,7 +24,9 @@ manager: sakudes
   
   
 <a name="traverse"></a>   
+
 ## Keyboard shortcut to traverse through panels  
+
  Use the Ctrl+0 (default) keyboard shortcut to cyclically traverse through all the active panels in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client. To change the default shortcut key, use the **PanelNavigationShortcut** UII option to specify shortcut keys of your choice. More information: [Manage Options for Unified Service Desk](admin/manage-options-unified-service-desk.md)  
   
  Some key points to consider while using the shortcut key to traverse through panels are:  
@@ -36,7 +40,9 @@ manager: sakudes
 -   You cannot traverse to a panel that has the `Focusable` attribute set to `False`.  
   
 <a name="assign"></a>   
+
 ## Assign keyboard shortcut to panel  
+
  Assigning keyboard shortcuts to panels in a [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] panel layout helps customer service agents *directly* navigate to a panel in the client application by using keyboard. You can assign keyboard shortcut to a panel in a custom panel layout by using the `USD:PanelNavigation.KeyboardShortcut` attribute in the panel element definition of the panel layout XAML.  
   
  You must also set the `Focusable` attribute to `True` in the panel element definition for which you are defining the shortcut. Otherwise, you won't be able to access the panel using the assigned keyboard shortcut even after defining it in the panel layout XAML.  
@@ -58,9 +64,9 @@ manager: sakudes
 ## Things to consider while using keyboard shortcut for panel  
  Any key combination that is used by [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)] (for example Ctrl+S) or general Windows operations (such as Ctrl+C, Ctrl+V) can cause conflicts with keyboard shortcuts that you assign to [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] panels.  
   
- Therefore, as a developer or customizer, the foremost thing is to identify and assign  keyboard shortcuts to panels that do not conflict with [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)] or Windows. Also, ensure that you do not assign duplicate keyboard shortcut to panels that conflict within [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. In case of a duplicate keyboard shortcut, [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] will set the keyboard shortcut  for the panel as the active shortcut key that was registered earlier during the execution sequence. Further, information about duplicate shortcut key is logged in the `UnifiedSeviceDesk.log` file (typically available at c:\Users\\*\<UserName>*\AppData\Roaming\Microsoft\Microsoft Dynamics 365 Unified Service Desk\\*\<Version>*), which can be used by developers and customizers to resolve the duplicate keyboard shortcut issue in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] configuration.  
+ Therefore, as a developer or customizer, the foremost thing is to identify and assign  keyboard shortcuts to panels that do not conflict with [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)] or Windows. Also, ensure that you do not assign duplicate keyboard shortcut to panels that conflict within [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. In case of a duplicate keyboard shortcut, [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] will set the keyboard shortcut  for the panel as the active shortcut key that was registered earlier during the execution sequence. Further, information about duplicate shortcut key is logged in the `UnifiedSeviceDesk.log` file (typically available at `c:\Users\<UserName>\AppData\Roaming\Microsoft\Microsoft Dynamics 365 Unified Service Desk\<Version>`), which can be used by developers and customizers to resolve the duplicate keyboard shortcut issue in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] configuration.  
   
- Even after assigning non-conflicting keyboard shortcuts to your panels, the shortcut will not work if the current focus is on a control in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client that is hosted as a [IE Process](../unified-service-desk/select-a-hosting-method-for-your-controls.md#IEProcess) control because the focus is in a different process. However, this issue is not applicable to controls hosted using the [Internal WPF](../unified-service-desk/select-a-hosting-method-for-your-controls.md#InternalWPF) control.  
+ Even after assigning non-conflicting keyboard shortcuts to your panels, the shortcut will not work if the current focus is on a control in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client that is hosted as a [IE Process](../unified-service-desk/ie-process.md) control because the focus is in a different process. However, this issue is not applicable to controls hosted using the [Internal WPF](../unified-service-desk/internal-wpf.md) control.  
   
  The workaround is to inform your [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client users, if you use the `IE Process` hosting for your controls, to use the CTRL+UP ARROW keyboard shortcut to move the focus from a `IE Process` hosted control to the main window *before* using the desired panel keyboard shortcut key to ensure that [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] honors the shortcut.  
   

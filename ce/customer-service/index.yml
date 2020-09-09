@@ -1,0 +1,53 @@
+### YamlMime:Hub
+
+title: Microsoft Dynamics 365 Customer Service documentation # < 60 chars
+# brand: aspnet | azure | dotnet | dynamics | m365 | office | sql | windows | visual-studio | xamarin
+brand: dynamics
+
+metadata:
+  title: Microsoft Dynamics 365 Customer Service documentation # Required; page title displayed in search results. Include the brand. < 60 chars.
+  description: Learn how to deploy, customize, manage and use Microsoft Dynamics 365 Customer Service services and applications. Get documentation, tutorials, and more. # Required; article description that is displayed in search results. < 160 chars.
+  ms.service: dynamics-365-crossapp #Required; service per approved list. service slug assigned to your service by ACOM.
+  ms.topic: hub-page # Required
+  author: buck1ey #Required; your GitHub user alias, with correct capitalization.
+  ms.author: buckg #Required; microsoft alias of author; optional team alias.
+  ms.date: 10/01/2019 #Required; mm/dd/yyyy format.
+  hide_bc: false
+
+# productDirectory section (optional)
+productDirectory:
+  items:
+    # Card
+    - title: Dynamics 365 Customer Service
+      # imageSrc should be square in ratio with no whitespace
+      imageSrc: /dynamics365/images/Customer_Service_color.svg
+      links:
+        - url: /dynamics365/customer-service/help-hub
+          text: Documentation
+        - url: https://docs.microsoft.com/learn/browse/?products=dynamics-customer-service
+          text: Learn Dynamics 365 Customer Service
+    # Card
+    - title: Dynamics 365 Customer Service Insights
+      imageSrc: /dynamics365/images/CustomerServiceInsights_color.svg
+      links:
+        - url: https://docs.microsoft.com/dynamics365/ai/customer-service-insights/overview
+          text: Documentation    
+
+additionalContent:
+  # Supports up to 3 sections
+  sections:
+    - title: Add-in solutions and apps
+      items:
+        # Card
+        - title: Omnichannel for Customer Service
+          summary: Enable organizations to instantly connect and engage with their customers via channels like Live Chat and SMS.
+          url: /dynamics365/omnichannel/omnichannel-customer-service-guide
+        # Card
+        - title: Unified Service Desk
+          summary: Quickly build applications for call centers so that agents can get a unified view of the customer data stored in the model-driven apps in Dynamics 365.
+          url: /dynamics365/unified-service-desk/unified-service-desk?view=dynamics-usd-4.1
+        # Card
+        - title: Dynamics 365 Channel Integration Framework
+          summary: "Integrate any third-party channel provider or channel aggregators into Unified Interface Apps."
+          url: /dynamics365/customer-service/channel-integration-framework/channel-integration-framework
+    

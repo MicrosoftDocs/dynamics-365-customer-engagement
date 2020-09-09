@@ -1,35 +1,43 @@
 ---
-title: "Create a work order (Dynamics 365 for Field Service) | MicrosoftDocs"
-ms.custom:
+title: "Create a work order in Dynamics 365 Field Service | Microsoft Docs"
+ms.custom: 
   - dyn365-fieldservice
-ms.date: 09/30/2017
-ms.reviewer: ""
+ms.date: 07/15/2020
+ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
-ms.suite: ""
+ms.suite: 
 ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-author: krbjoran
+  - field-service
+ms.tgt_pltfrm: 
+ms.topic: article
+author: FieldServiceDave
 ms.assetid: 9279d5ba-505c-4cf3-9e3f-1436ab7f52a4
 caps.latest.revision: 24
-ms.author: krbjoran
+ms.author: daclar
 manager: shellyha
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365FS
 ---
-# Create a work order to coordinate and schedule resources and activities (Field Service)
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+# Create a work order to coordinate and schedule resources and activities
 
 A work order in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)] has information on what work needs to be done. It is used to coordinate and schedule resources and activities. It can be used for different types of work, such as installations, repairs, or preventive maintenance.  
   
- A work order is usually created from a case or opportunity. It is then scheduled either manually or using the schedule assistant and then dispatched. Once the work is complete, it is reviewed and approved by a manager.  
+ A work order is often created from a case or opportunity. It is then scheduled either manually or using the schedule assistant and then dispatched. Once the work is complete, it is reviewed and approved by a manager.  
+ 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ynSf]
+
+> [!Note]
+> For additional Field Service videos, see [this full playlist](https://aka.ms/fs-videos).
   
-> [!NOTE]
+> [!Note]
 >  Products, service tasks, and characteristics are added automatically when you create a work order from an incident. Otherwise you can add them manually when you create a work order.   
   
+
 <a name="BKMK_workorderlifecycle"></a>   
 ## Work order lifecycle  
   
@@ -49,9 +57,9 @@ A work order in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field
   
 ||||||||  
 |-|-|-|-|-|-|-|  
-|**What happens**|New work order is created.<br /><br /> Assigned incident, product, services, skills, territory, etc.|Work order schedule is created.<br /><br /> Resources assigned to the work order.<br /><br /> Date and time specified.|Field agent notified of work order.<br /><br /> Field agent may review and accept/decline the work order.|Work order is carried out.<br /><br /> Information about what is performed in the field is entered through the mobile app.|Supervisor verifies that all work was done properly, and that all information regarding the work order is correct.|Invoice is created based on products and services used.<br /><br /> Inventory adjustments are made.<br /><br /> Products converted into equipment (if applicable)|  
-|**Who performs the task**|Agreement is automatically generated on a recurring basis.<br /><br /> Case: By customer support.<br /><br /> Sales order: By sales/scheduling.<br /><br /> Ad-hoc: By field agent or centralized scheduling.|Dispatcher<br /><br /> Field Agent<br /><br /> Dispatcher with help of scheduling assistant<br /><br /> Routing engine|Notification sent by system automatically to field agent, customer, and other parties. **Note:**  Notifications need to set up in the system.|Field agent|Field supervisor/manager,<br /><br /> back-office accounting|Automatically sent by system|  
-|**Work order status**|Open - unscheduled|Open - unscheduled|Open - unscheduled|Open - unscheduled, then open-completed|Open - completed then closed-posted|Closed-posted|  
+|**What happens**|New work order is created.<br /><br /> Assigned incident, product, services, skills, territory, etc.|Work order schedule is created.<br /><br /> Resources assigned to the work order.<br /><br /> Date and time specified.|Field agent notified of work order.<br /><br /> Field agent may review and accept/decline the work order.|Work order is carried out.<br /><br /> Information about what is performed in the field is entered through the mobile app.|Supervisor verifies that all the work was done properly, and that all information regarding the work order is correct.|Invoice is created based on products and services used.<br /><br /> Inventory adjustments are made.<br /><br /> Products converted into equipment (if applicable)|  
+|**Who performs the task**|Agreement is automatically generated on a recurring basis.<br /><br /> Case: By customer support.<br /><br /> Sales order: By sales/scheduling.<br /><br /> Ad hoc: By field agent or centralized scheduling.|Dispatcher<br /><br /> Field Agent<br /><br /> Dispatcher with help of scheduling assistant<br /><br /> Routing engine|Notification sent by system automatically to field agent, customer, and other parties. **Note:**  Notifications need to set up in the system.|Field agent|Field supervisor/manager,<br /><br /> back-office accounting|Automatically sent by system|  
+|**Work order status**|Open - unscheduled|Open - scheduled|Open - scheduled|Open - unscheduled, then open-completed|Open - completed then closed-posted|Closed-posted|  
 |**Work order schedule status**|N/A|Scheduled|Scheduled|Scheduled<br /><br /> Accepted/Declined<br /><br /> Custom Status|Completed|Completed|  
   
 <a name="BKMK_newworkorder"></a>   
@@ -75,8 +83,8 @@ A work order in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field
   
         - **General**: Specify the category the work order may fall into. Also, fill in important information regarding the location of the work order, price list, service territory, and more.  
   
-        - **Sales tax**: Sales tax information is inherited from the service account.  
-  
+        - **Sales tax**: Sales tax can be added to the total amount of the work order based on work order details like service account, billing account, and work order type. The **Taxable** field will be set to yes if work order type is **Taxable** and the billing account is **Not Tax Exempt**. If the work order is taxable, a **Sales Tax Code** lookup field will display and inherit a value from the service account. It can also be updated manually.
+
         - **Preferences**: Enter the resource and time information for the work order.  
   
         - **Follow up**: Shows instructions of how to proceed if desired, or whether the work order calls for a follow-up.  
@@ -101,10 +109,31 @@ A work order in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field
   
   > [!NOTE]
   >  When you add a product, remember that if you want to reserve a product for the work order, set **Allocated** to **Yes**.  
-  
+
+### Alternative method
+
+Configure work order subentities to pop out as dialog boxes and edit them without having to leave the work order form. This configuration helps dispatchers maintain context through navigation.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of a popout work order product creation form.](./media/work-order-mfd-wop.png)
+
+From the Field Service app, go to **Settings** > **Field Service Settings** > **Other section** and set the **Work Order Subgrid Records Open as Popups** field to **Yes**.
+
+Popup navigation will now be enabled when the following entities are selected from a work order.
+
+- Work order product
+- Work order service
+- Work order service task
+- Work order incident
+- Bookable resource booking
+- Time entry
+
+> [!Note]
+> This feature is available in the Unified Interface only.
+
 ### See also  
     
- [Overview of Dynamics 365 for Field Service](../field-service/overview.md)   
+ [Overview of Dynamics 365 Field Service](../field-service/overview.md)   
  [Submit and approve time-off requests](../field-service/submit-approve-time-off-requests.md)   
  [Schedule a work order](../field-service/schedule-work-order.md)   
  [Configure the schedule board](../field-service/configure-schedule-board.md)<br>
