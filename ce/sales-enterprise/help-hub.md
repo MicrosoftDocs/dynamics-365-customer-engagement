@@ -70,7 +70,11 @@ manager: annbe
 <tr><td>
 
 <h2>Develop</h2>
+<li><a href="../customerengagement/on-premises/developer/sales-entities-lead-opportunity-competitor-quote-order-invoice.md" data-raw-source="[Sales entities (lead, opportunity, competitor, quote, order, invoice)](../customerengagement/on-premises/developer/sales-entities-lead-opportunity-competitor-quote-order-invoice.md)">Enable sales order processing integration</a></li>
 <li><a href="../sales-enterprise/developer/enable-sales-order-processing-integration.md" data-raw-source="[Enable sales order processing integration](../sales-enterprise/developer/enable-sales-order-processing-integration.md)">Enable sales order processing integration</a></li>
+<li><a href="../customerengagement/on-premises/developer/marketing-entities-campaign-list.md" data-raw-source="[Marketing entities (campaign, list)](../customerengagement/on-premises/developer/marketing-entities-campaign-list.md)">Marketing entities (campaign, list)</a></li>
+<li><a href="../customerengagement/on-premises/developer/goal-management-entities.md" data-raw-source="[Goal management entities](../customerengagement/on-premises/developer/goal-management-entities.md)">Goal management entities</a></li>
+<li><a href="../customerengagement/on-premises/developer/product-catalog-entities.md" data-raw-source="[Product catalog entities](../customerengagement/on-premises/developer/product-catalog-entities.md)">Product catalog entities</a></li>
 <li><a href="../sales-enterprise/developer/reference/entities/export-forecast-data.md" data-raw-source="[msdyn_ForecastInstanceActions](../sales-enterprise/developer/reference/entities/export-forecast-data.md)">msdyn_ForecastInstanceActions</a></li>
 <li><a href="../sales-enterprise/developer/reference/playbook-entity-reference.md" data-raw-source="[Entity reference for playbooks](../sales-enterprise/developer/reference/playbook-entity-reference.md)">Entity reference for playbooks</a></li>
 <li><a href="../sales-enterprise/developer/custom-plugin-handling-shared-variable.md" data-raw-source="[Custom plug-in handling using shared variable](../sales-enterprise/developer/custom-plugin-handling-shared-variable.md)">Custom plug-in handling using shared variable</a></li>
