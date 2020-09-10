@@ -1,5 +1,5 @@
 ---
-title: "QuickStart for Resource Scheduling Optimization (RSO) | MicrosoftDocs"
+title: "QuickStart for Resource Scheduling Optimization | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 08/22/2019
@@ -26,15 +26,15 @@ search.app:
   - D365FS
 ---
 
-# Quickstart for Resource Scheduling Optimization (RSO)
+# Quickstart for Resource Scheduling Optimization
 
-Resource Scheduling Optimization (RSO) automatically schedules work orders, cases, opportunities, and even custom entities to the resources that are most available and best qualified. Many field service organizations that perform work orders on site at their customers' locations benefit from automatic scheduling because it optimizes the routes and travel times of field technicians as they travel from work order to work order.
+Resource Scheduling Optimization automatically schedules work orders, cases, opportunities, and even custom entities to the resources that are most available and best qualified. Many field service organizations that perform work orders on site at their customers' locations benefit from automatic scheduling because it optimizes the routes and travel times of field technicians as they travel from work order to work order.
 
 In this quickstart, we will configure RSO to schedule and optimize a group of work orders to a predefined list of resources (field technicians). We will do this by setting up a scope, goal, and schedule that will run once a day to schedule work orders in the Washington state service territory to resources in that territory up to 48 hours in advance to minimize travel time. 
 
 For a guided walkthrough, see the following video.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ylx7
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ylx7]
 
 > [!Note]
 > For additional Field Service videos, see [this full playlist](https://aka.ms/fs-videos).
