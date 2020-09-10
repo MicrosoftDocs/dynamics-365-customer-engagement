@@ -2,7 +2,7 @@
 title: "Integrate Dynamics 365 Marketing with forms published on an external website (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to publish a form on an external site and capture the submissions in Dynamics 365 Marketing"
 keywords: marketing form, embed
-ms.date: 05/11/2020
+ms.date: 09/10/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -94,7 +94,7 @@ To design a form in Dynamics 365 Marketing that you can embed on an external web
         - **Domain name**: Enter the name of the domain you want to authenticate.
         - Select **Enable prefilled forms** check box.
 
-1. If your form **does** use prefill (including all subscription center forms), then you must authenticate the domain(s) where you'll use the form, Follow the steps in: [Enable prefilling on embedded forms](#form-prefil)
+1. If your form **does** use prefill (including all subscription center forms), you must authenticate the domain(s) where you'll use the form. More information: [Enable prefilling on embedded forms](#form-prefil)
 
 1. Select the form page name in the **Related marketing form pages** column to open its settings and view the embed code.
 
