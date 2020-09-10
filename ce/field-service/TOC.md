@@ -75,8 +75,6 @@
 ### [Facilities](facility-scheduling.md)
 ### [Advanced filters](schedule-assistant-advanced-filters.md)
 
-
-
 ## Schedule board 
 ### [Configure the schedule board](configure-schedule-board.md)
 ### [Share schedule board tabs](share-schedule-board-tab.md)
@@ -88,7 +86,7 @@
 ### [Preview the new schedule board (public preview)](preview-schedule-board.md)
 
 # Mobile apps
-## [Compare mobile apps (Xamarin vs. Power App)](mobile-2020-power-platform.md)
+## [Compare mobile apps (Xamarin vs. Microsoft Power Platform)](mobile-2020-power-platform.md)
 ## Field Service Mobile (Xamarin app)
 ### [Overview](field-service-mobile-overview.md)
 ### [Setup](field-service-mobile-app-user-guide.md)
@@ -107,10 +105,10 @@
 #### [Bookings don't appear when logged into the app?](mobile-faq-bookings-not-showing.md)
 #### [Bookings not scheduled to me show up when logged into the mobile app](mobile-faq-bookings-not-scheduled-to-me.md)
 #### [More FAQs](mobile-faq.md)
-## Dynamics 365 Field Service mobile (Power App)
+## Dynamics 365 Field Service mobile app (Microsoft Power Platform)
 ### [Install and get started](mobile-power-app-get-started.md)
 ### [Configure](mobile-power-app-configure.md)
-### [FAQs (Power App)](mobile-power-app-faq.md)
+### [FAQs](mobile-power-app-faq.md)
 ## [Get help](mobile-get-help.md) 
 
 # Agreements and preventive maintenance
