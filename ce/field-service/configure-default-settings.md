@@ -1,8 +1,9 @@
 ---
 title: "Configure default settings (Dynamics 365 Field Service) | MicrosoftDocs"
+description: Learn how to set defaults for work orders, bookings, the schedule board, and agreements in Dynamics 365 Field Service.
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 08/01/2020
+ms.date: 09/10/2020
 ms.service: dynamics-365-customerservice
 ms.suite: 
 ms.technology: 
@@ -93,7 +94,7 @@ The Field Service Settings page allows system administrators to set default sett
   
 |       Options       |                                                                                                                                                                                                       Description                                                                                                                                                                                                        |
 |---------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|     RTV prefix      | Select a default prefix for a return to vender (RTV). The prefix will  be added to the beginning of the RTV number. This  helps you easily identify  an RTV from other types of service requests in the system. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Process a return](../field-service/process-return.md). |
+|     RTV prefix      | Select a default prefix for a return to vendor (RTV). The prefix will  be added to the beginning of the RTV number. This  helps you easily identify  an RTV from other types of service requests in the system. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Process a return](../field-service/process-return.md). |
 | RTV starting number |                                  Select a starting number for RTVs. For example, if you choose 2000, then your first RTV will be 2000, and second one will be 2001, and so on. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Process a return](../field-service/process-return.md).                               |
   
 ### Agreements  
