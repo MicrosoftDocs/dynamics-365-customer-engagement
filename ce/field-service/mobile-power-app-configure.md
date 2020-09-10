@@ -1,6 +1,6 @@
 ---
-title: "Configure the Dynamics 365 Field Service mobile Power App | MicrosoftDocs"
-description: Learn how to configure the Dynamics 365 mobile Power App.
+title: "Configure the Field Service (Dynamics 365) mobile app | MicrosoftDocs"
+description: Learn how to configure the Field Service (Dynamics 365) mobile app.
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 08/27/2020
@@ -27,9 +27,9 @@ search.app:
   - D365FS
 ---
 
-# Configure the Dynamics 365 Field Service mobile Power App
+# Configure the Field Service (Dynamics 365) mobile app
 
-Administrators can edit how the Field Service mobile Power App looks and functions for technicians.
+Administrators can edit how the Field Service (Dynamics 365) mobile app looks and functions for technicians.
 
 Let's walk through three common configurations:
 
@@ -55,7 +55,7 @@ Select the edit icon to edit the site map.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the App Designer in Power Apps, showing the Field Service Mobile site map option.](./media/mobile-2020-admin-sitemap1.png)
 
-The groups  **My Work**, **Customers**, and **Other** correspond with the home screen of Field Service mobile Power App and you can rearrange, delete, or edit the display names.
+The groups  **My Work**, **Customers**, and **Other** correspond with the home screen of Field Service (Dynamics 365) mobile app and you can rearrange, delete, or edit the display names.
 
 Rearrange the entities displayed within each group with the drag and drop interface, or add new entities by adding new **Subareas**.
 
@@ -73,13 +73,13 @@ You can even create entirely new groups with more subareas to display different 
 
 ## Edit the booking and work order form
 
-You can add and delete fields displayed on Field Service mobile Power App; because the app is built as a model-driven Power App, you can use the Power Apps Control Framework to display different field controls like toggle buttons and sliders.
+You can add and delete fields displayed on Field Service (Dynamics 365) mobile app; because the app is built with Power Apps, you can use the Power Apps Control Framework to display different field controls like toggle buttons and sliders.
 
 Administrators who want to customize the booking and work order forms must know they are combined in the mobile app where work order forms are displayed within the booking form. That means when a technician views a booking form, they're also viewing the related work order form. In the following screenshot, the **General** section displays **Bookable Resource Booking** ("Booking") fields and the **Customer**, **Service**, and **Notes** sections display work order fields.
 
 
 > [!div class="mx-imgBorder"]
-> ![Simulated image showing a device with Field Service mobile Power App, showing a screenshot of a Bookable Resource Booking on the General tab. ](./media/mobile-2020-work-order-form-all-sections.png)
+> ![Simulated image showing a device with Field Service (Dynamics 365) mobile app, showing a screenshot of a Bookable Resource Booking on the General tab. ](./media/mobile-2020-work-order-form-all-sections.png)
 
 To edit the work order portion of the form, go to **Settings** > **Customizations** > **Customize the System** and find the **Work Order** entity in the Power Apps admin console.
 
@@ -92,7 +92,7 @@ In the **Form** section, there are three forms that correspond to the three sect
 2. Work Order - Service
 3. Work Order - Notes
 
-Edit each form as needed and publish. The changes will display in Field Service mobile Power App.
+Edit each form as needed and publish. The changes will display in Field Service (Dynamics 365) mobile app.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Power Apps showing the work order form details.](./media/mobile-2020-admin-work-order-form-tabs.png)
@@ -116,13 +116,13 @@ Another way you can add work order information to the booking form is to add a [
 
 ## Configure offline data and sync filters
 
-Administrators can edit the data downloaded to Field Service mobile Power App in offline mode when no internet access is available. 
+Administrators can edit the data downloaded to Field Service (Dynamics 365) mobile app in offline mode when no internet access is available. 
 
 > [!Note]
 > When internet access is available, users will simply see all data on the server they have access to via their security role.
 
 > [!div class="mx-imgBorder"]
-> ![Simulated image showing Field Service mobile Power App on a mobile device, showing the offline status screen.](./media/mobile-2020-offline-list.png)
+> ![Simulated image showing Field Service (Dynamics 365) mobile app on a mobile device, showing the offline status screen.](./media/mobile-2020-offline-list.png)
 
 Go to **Settings** > **Mobile Offline**.
 
@@ -181,11 +181,11 @@ Go to **Properties** and add the offline profile.
 
 ## Offline JavaScript
 
-In some cases, an organization may want to run validation on certain field values after a technician updates an entity. For example, let's say you want to make sure the duration of a work order booking is at least two hours once a technician saves a record in the Field Service mobile Power App mobile app.
+In some cases, an organization may want to run validation on certain field values after a technician updates an entity. For example, let's say you want to make sure the duration of a work order booking is at least two hours once a technician saves a record in the Field Service (Dynamics 365) mobile app.
 
 Validation can be done with the help of some JavaScript and doing so works online and offline.
 
-See the video on![Video symbol](../field-service/media/video-icon.png "Video symbol") [Field Service mobile Power App: Offline JavaScript](https://youtu.be/tUdL5YZA29A) for more details.
+See the video on![Video symbol](../field-service/media/video-icon.png "Video symbol") [Field Service (Dynamics 365) mobile app: Offline JavaScript](https://youtu.be/tUdL5YZA29A) for more details.
 
 Go to **Settings** > **Customizations**.
 

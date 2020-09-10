@@ -1,6 +1,6 @@
 ---
-title: "Frequently asked questions for Dynamics 365 Field Service mobile Power App | MicrosoftDocs"
-description: Find answers to commonly asked questions about the Dynamics 365 mobile Power App.
+title: "Frequently asked questions for Field Service (Dynamics 365) mobile app | MicrosoftDocs"
+description: Find answers to commonly asked questions about the Field Service (Dynamics 365) mobile app.
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 08/27/2020
@@ -27,11 +27,11 @@ search.app:
   - D365FS
 ---
 
-# Frequently asked questions for Dynamics 365 Field Service mobile Power App
+# Frequently asked questions for Field Service (Dynamics 365) mobile app
 
-## Can I only add and view Field Service entities on the Field Service mobile Power App?
+## Can I only add and view Field Service entities on the Field Service (Dynamics 365) mobile app?
 
-Because the Field Service mobile Power App is a model-driven app on the Power Platform, any entity can be added; users can only see entities and records that they have the licenses and security to access, regardless of whether it's part of the Field Service app or not.
+Because the Field Service (Dynamics 365) mobile app is a model-driven app on the Power Platform, any entity can be added; users can only see entities and records that they have the licenses and security to access, regardless of whether it's part of the Field Service app or not.
 
 ## Why is the app saying "You're almost there"?
 

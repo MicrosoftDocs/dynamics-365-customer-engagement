@@ -1,6 +1,6 @@
 ---
-title: "Get started with Dynamics 365 Field Service mobile Power App | MicrosoftDocs"
-description: Learn how to get started with the Field Service mobile Power App.
+title: "Get started with Field Service (Dynamics 365) mobile app | MicrosoftDocs"
+description: Learn how to get started with the Field Service (Dynamics 365) mobile app.
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 08/28/2020
@@ -27,11 +27,11 @@ search.app:
   - D365FS
 ---
 
-# Get started with Dynamics 365 Field Service mobile Power App
+# Get started with Field Service (Dynamics 365) mobile app
 
-The Dynamics 365 Field Service mobile Power App is a mobile app designed and optimized for technicians to view Dynamics 365 Field Service work orders, customer assets, accounts, and contacts. Different than Field Service Mobile (see the following feature comparison), this alternative mobile app is built on Microsoft's Power Platform as a [model-driven app](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-overview) and is customizable to your business needs with the same admin console as all Dynamics 365 business apps.
+The Field Service (Dynamics 365) mobile app is a mobile app designed and optimized for technicians to view Dynamics 365 Field Service work orders, customer assets, accounts, and contacts. Different than Field Service Mobile (see the following feature comparison), this alternative mobile app is built on Microsoft's Power Platform as a [model-driven app](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-overview) and is customizable to your business needs with the same admin console as all Dynamics 365 business apps.
 
-Available natively for Apple iOS and Google Android phones and tablets, the Dynamics 365 Field Service mobile Power App offers technicians many capabilities they need to perform onsite customer service, such as:  
+Available natively for Apple iOS and Google Android phones and tablets, the Field Service (Dynamics 365) mobile app offers technicians many capabilities they need to perform onsite customer service, such as:  
 
 - A calendar view of assigned jobs
 - Support for picture, video, and asset barcode scanning
@@ -40,14 +40,14 @@ Available natively for Apple iOS and Google Android phones and tablets, the Dyna
 
 ## Prerequisites
 
-- **Field Service v8.8.22+**. The Dynamics 365 Field Service mobile Power App will appear in your list of Dynamics 365 applications.
+- **Field Service v8.8.22+**. The Field Service (Dynamics 365) mobile app will appear in your list of Dynamics 365 applications.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Dynamics 365 list of apps, showing the Field Service Mobile solution in the list.](./media/mobile-2020-admin-assign-role-app.png)
 
 - Select the ellipses icon on the **Field Service Mobile** application, then choose **Manage Roles** and assign the app to the Field Service-Resource, Field Service-Administrator, and other relevant roles that will need access to the mobile app.
 
-- Set up a Dynamics 365 Field Service user with the **Field Service-Resource** security role. This user will sign in to the Field Service mobile Power App as a technician.
+- Set up a Dynamics 365 Field Service user with the **Field Service-Resource** security role. This user will sign in to the Field Service (Dynamics 365) mobile app as a technician.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Manage Roles dialogue in Dynamics 365.](./media/mobile-2020-resource-security-role.png)
@@ -57,7 +57,7 @@ Available natively for Apple iOS and Google Android phones and tablets, the Dyna
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the schedule board, showing a list of unscheduled work orders.](./media/mobile-2020-scheduled-work-orders.png)
 
-## Install and sign into the Field Service mobile Power App
+## Install and sign into the Field Service (Dynamics 365) mobile app
 
 Go to the app store on your iOS or Android device and search for **Field Service mobile**.
 
@@ -69,7 +69,7 @@ Download the app called **Field Service (Dynamics 365)**, as seen in the followi
 Launch the app and sign in with your username and password, which should be the user credentials of the technician user with the **Field Service - Resource** security role.
 
 
-## Use the Field Service mobile Power App
+## Use the Field Service (Dynamics 365) mobile app
 
 Once you sign in, the app will prompt you to download offline data (your scheduled work orders) to the device. If you anticipate not having internet access, select **Download**. Otherwise you can **Skip for now**. If you're unsure, we recommend downloading the offline data just in case. 
 
@@ -124,14 +124,14 @@ When **Status** is set to **Available**, you'll have all the data you need to wo
 
 Then toggle the **Work in offline mode** to on. If you lose internet connection unexpectedly, the app will automatically work in offline mode if you previously downloaded data.
 
-### Connected Field Service on Field Service mobile Power App
+### Connected Field Service on Field Service (Dynamics 365) mobile app
 
-For organizations using Connected Field Service, technicians can view and interact with IoT data and actions in the Field Service mobile Power App.
+For organizations using Connected Field Service, technicians can view and interact with IoT data and actions in the Field Service (Dynamics 365) mobile app.
  
 > [!div class="mx-imgBorder"]
 > ![Simulated image showing three phones with Field Service mobile app and IoT device readings.](./media/mobile-2020-cfs.png)
 
-For more information, see the article on [Connected Field Service for the Field Service mobile Power App](cfs-mobile-powerapp.md).
+For more information, see the article on [Connected Field Service for the Field Service (Dynamics 365) mobile app](cfs-mobile-powerapp.md).
 
 ### Trigger Dynamics 365 Remote Assist
 
