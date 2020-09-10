@@ -70,7 +70,7 @@ manager: annbe
 <tr><td>
 
 <h2>Develop</h2>
-<li><a href="../customerengagement/on-premises/developer/sales-entities-lead-opportunity-competitor-quote-order-invoice.md" data-raw-source="[Sales entities (lead, opportunity, competitor, quote, order, invoice)](../customerengagement/on-premises/developer/sales-entities-lead-opportunity-competitor-quote-order-invoice.md)">Enable sales order processing integration</a></li>
+<li><a href="../customerengagement/on-premises/developer/sales-entities-lead-opportunity-competitor-quote-order-invoice.md" data-raw-source="[Sales entities (lead, opportunity, competitor, quote, order, invoice)](../customerengagement/on-premises/developer/sales-entities-lead-opportunity-competitor-quote-order-invoice.md)">Sales entities (lead, opportunity, competitor, quote, order, invoice)</a></li>
 <li><a href="../sales-enterprise/developer/enable-sales-order-processing-integration.md" data-raw-source="[Enable sales order processing integration](../sales-enterprise/developer/enable-sales-order-processing-integration.md)">Enable sales order processing integration</a></li>
 <li><a href="../customerengagement/on-premises/developer/marketing-entities-campaign-list.md" data-raw-source="[Marketing entities (campaign, list)](../customerengagement/on-premises/developer/marketing-entities-campaign-list.md)">Marketing entities (campaign, list)</a></li>
 <li><a href="../customerengagement/on-premises/developer/goal-management-entities.md" data-raw-source="[Goal management entities](../customerengagement/on-premises/developer/goal-management-entities.md)">Goal management entities</a></li>
