@@ -85,11 +85,11 @@ To design a form in Dynamics 365 Marketing that you can embed on an external web
 
 1. If your form **does not** use prefill, complete the following steps:
 
-    1. In the **Whitelist rules** column, select **Add new form whitelist rule** (open the ellipsis menu here to find this command if you don't see it). A quick-create flyout slides in. 
+    1. In the **allow list rules** column, select **Add new form allow list rule** (open the ellipsis menu here to find this command if you don't see it). A quick-create flyout slides in. 
 
-    1. In the **Name** field, enter the domain name of the website where you will host the form. You can whitelist as many domains as you want, but your form will only work on those domains that you whitelist.
+    1. In the **Name** field, enter the domain name of the website where you will host the form. You can allow list as many domains as you want, but your form will only work on those domains that you allow list.
 
-1. If your form **does** use prefill (including all subscription center forms), then you must authenticate the domain(s) where you'll use the form rather than use the whitelist, so the **Whitelist rules** column isn't shown here for forms with prefill enabled. More information: [Enable prefilling on embedded forms](#form-prefil)
+1. If your form **does** use prefill (including all subscription center forms), then you must authenticate the domain(s) where you'll use the form rather than use the allow list, so the **Allow list rules** column isn't shown here for forms with prefill enabled. More information: [Enable prefilling on embedded forms](#form-prefil)
 
 1. Select the form page name in the **Related marketing form pages** column to open its settings and view the embed code.
 
@@ -115,7 +115,7 @@ To create a form with prefilling that you can embed on an external website:
 
 1. Enable prefilling for the form as described in [Enable prefilling for forms](form-prefill.md).
 
-1. Save the form and then go to the **Form hosting** tab (first available on save) to set up a _form page_ for it as described in [Create an embedded form](#create-embedded). Note that you don't need to add authenticated domains to the whitelist on the **Form hosting** tab because authenticated domains provide even better security than the whitelist provided here.
+1. Save the form and then go to the **Form hosting** tab (first available on save) to set up a _form page_ for it as described in [Create an embedded form](#create-embedded). Note that you don't need to add authenticated domains to the allow list on the **Form hosting** tab because authenticated domains provide even better security than the allow list provided here.
 
 1. As described in [Create an embedded form](#create-embedded), copy the JavaScript code generated for the new form page and paste it onto a web page or CMS page for your website.
 
