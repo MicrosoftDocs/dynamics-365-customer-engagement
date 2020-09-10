@@ -86,22 +86,22 @@ Custom channels use the existing extensibility infrastructure and tooling in Dyn
 > The legacy tiles listed below will be phased out and removed at a future date. Each description details how to achieve the same results as the legacy tiles in the updated customer journey designer.
 
 - **Event**: Event tiles are typically referenced in email tiles, where they represent a link to an event website that is included in the message's content. In the old designer, event tiles were used also to enable trigger tiles placed later in the pipeline to “know” about the event link and to react to contact interactions with the link (registered or attended). 
-    - In the new designer, the same can be achieved by adding an given event as a dependency to an email (in the properties of the email tile). 
-- **Marketing form**: The marketing form tile represents an embedded or captured form hosted on an external website. In the old designer this tile could be used as a nested tile under email tiles to represent a link to an external page that is included in the email message’s content (the external page had to include the captured or embedded marketing form represented by the tile). The marketing form tile could also be used to enable trigger tiles placed later in the pipeline to “know” about the external-page link and to react to contact interactions with the link. 
+    - In the new designer, the same can be achieved by adding a given event as a dependency to an email (in the properties of the email tile). 
+- **Marketing form**: The marketing form tile represents an embedded or captured form hosted on an external website. In the old designer, this tile could be used as a nested tile under email tiles to represent a link to an external page that is included in the email message’s content (the external page had to include the captured or embedded marketing form represented by the tile). The marketing form tile could also be used to enable trigger tiles placed later in the pipeline to “know” about the external-page link and to react to contact interactions with the link. 
     - In the new designer, the same can be achieved by adding a Marketing form entity as a dependency to an email (in the properties of the email tile).
 
-    In the old designer the marketing form tile was also placed at the start of a journey to create an inbound campaign. When placed at the start of a journey, all new or existing contacts who submitted the form were sent on that journey.
+    In the old designer, the marketing form tile was also placed at the start of a journey to create an inbound campaign. When placed at the start of a journey, all new or existing contacts who submitted the form were sent on that journey.
     - With the new designer, this is no longer needed as the audience can be defined using a form, by selecting the form submitted as a source. Alternatively, an audience can be defined by using a segment of all the people who submitted a given form.
 - **Marketing page**: The marketing page tile represents a native marketing page designed in Dynamics 365 Marketing and running on a Dynamics 365 Portal. In the old designer, this tile could be used as a nested tile under email tiles to represent a marketing page link that is included in the email message’s content. It could also be used to enable trigger tiles placed later in the pipeline to “know” about the marketing link and to react to contact interactions with it. 
     - In the new designer, the same can be achieved by adding a Marketing page entity as a dependency to an email (in the properties of the email tile).
 
-    In the old designer this tile was also placed at the start of a journey to create an inbound campaign. When placed at the start of a journey, all new or existing contacts who submitted the page were sent on the journey.
+    In the old designer, this tile was also placed at the start of a journey to create an inbound campaign. When placed at the start of a journey, all new or existing contacts who submitted the page were sent on the journey.
     - With the new designer, this is no longer needed as the audience can be defined with the form submitted as a source. Alternatively, an audience can be defined using a segment of all the people who submitted a given page.
 
 > [!NOTE]
 > The Marketing survey tile has been removed from the designer. Marketing surveys should instead be referenced in an email tile or used as a condition when defining a segment.
 
-## Create a simple customer journey with email messaging
+## Create a customer journey with email messaging
 
 A simple customer journey can include just two steps: identifying the target segment and creating an activity that addresses the members of that segment. In the following procedure, you'll set up a simple customer journey that sends an email message to all the members of a target segment.
 
@@ -113,10 +113,24 @@ Before you start, you'll need:
 To create a customer journey that executes a one-time email blast:
 
 1. Go to **Marketing** > **Marketing Execution** > **Customer Journeys**. This takes you to a list of existing customer journeys. Select **New** on the command bar.
+
+    ![Select new in the command bar](media/customer-journey-new.png "Select new in the command bar")
+
 1. The **New Customer Journey** page opens with the **Select a Customer Journey Template** dialog box shown. Each template provides a starting point for designing a particular type of customer journey. The template dialog box provides tools for searching, browsing, and previewing your template collection. Select the **Skip** button to start creating the journey from scratch.
+
+    ![Customer journey templates screen](media/customer-journey-templates.png "Customer journey templates screen")
+
 1. Now you are looking at the customer journey designer. Here, you will assemble a pipeline that defines each step of the journey. Like all journeys, this one starts with the participants, who in this case are the people you specify as part of a market segment.
+
+    ![Customer journey select audience screen](media/customer-journey-audience.png "Customer journey select audience screen")
+
 1. Select **Set audience** (or, alternatively, select the **+** button). The **Audience** properties pane will appear on the right side of the page. Leave the default settings there (for example, **Segment** selected as the audience source type). Select the segment that you want to target with your campaign in the segment lookup field.
+
+    ![Customer journey segment lookup](media/customer-journey-segment.png "Customer journey segment lookup")
+
 1. After you select a segment, the first tile populates with the segment name and the **Audience** pane displays the segment properties.
+
+    ![Customer journey segment populate](media/customer-journey-audience-populate.png "Customer journey segment populate")
 
     > [!TIP]
     > When your customer journey is live, all contacts start at the **Audience** tile (the initial step). Contacts move forward depending on the tile rules, similar to a board game. Some tiles hold on to contacts for a while, while other tiles complete an action immediately and send the contact to the next tile in the pipeline. Other tiles can split the path based on contact information or interactions. When the journey is live, you'll be able to see how many contacts are waiting at each tile, along with a few key results associated with the tile.
@@ -124,7 +138,13 @@ To create a customer journey that executes a one-time email blast:
     > In this example, you will add one more tile—an **Email** tile—which sends an email message to each contact who enters the tile.
 
 1. Select **+** on the canvas, then select **Send an email** from the contextual menu.
+
+    ![Customer journey send an email tile](media/customer-journey-email.png "Customer journey send an email tile")
+
 1. Select the email tile on the canvas and select the email message that you want to send. You can use the sample email message you created earlier in [Create a marketing email and go live](create-marketing-email.md).
+
+    ![Customer journey select an email](media/customer-journey-select-email.png "Customer journey send an email")
+
 1. Once the email is selected, the **Send an email** tile populates with the email name and the **Send an email** properties pane displays the segment preview and properties.
 
     > [!TIP]
@@ -139,7 +159,9 @@ To create a customer journey that executes a one-time email blast:
     1. **End Date Time:** Enter the time at which the journey should stop processing contacts. All actions will stop at this time, even if some contacts are still in the middle of the journey. If you're just testing, allow a couple of weeks.
     1. **Time Zone:** Select your local time zone (if needed). The other dates and times on the page will be displayed relative to this zone.
     1. **Content Settings:** This should already be set to the default content settings record set for your instance. These settings affect the dynamic content of marketing emails sent by this journey (as mentioned in [Create a marketing email and go live](create-marketing-email.md)).
-    
+
+    ![Customer journey General tab](media/customer-journey-general.png "Customer journey General tab")
+
     > [!TIP]
     > While your journey is running, it will continue to process new contacts that join its segment, even if they join after the start date. This means that new contacts can join in at any time until the end date arrives.
 
@@ -148,11 +170,23 @@ To create a customer journey that executes a one-time email blast:
 
     If errors were found, you'll see a message at the top of the window and various indicators to show where the problems are. For example, if one of your tiles is misconfigured, you'll see an error icon in the relevant tile, and you can read details about the error by selecting the tile and opening its **Properties** tab. If you followed this procedure and your email message is live, your journey should pass the error check. If it doesn't, read the error message, fix the reported issue, and try again until it passes.
 
+    ![Customer journey error notification](media/customer-journey-error.png "Customer journey error notification")
+
 1. Your journey is now ready to go. To start the journey, publish it by selecting **Go live** on the command bar.
 
     Dynamics 365 Marketing copies the journey to its email marketing service, which executes the journey by processing contacts, performing actions, and collecting results during the time it is set to run. The journey's **Status Reason** is updated to **Live**.
+
+    ![Customer journey Go live](media/customer-journey-go-live.png "Customer journey Go live")
 
 1. If you have sent test messages to yourself, it might take several minutes for your messages to send, so allow some time for them to arrive in your inbox. After they do, open them and load the images. Then you can go back to Dynamics 365 Marketing and see how your journey is going. The **Designer** tab now shows information and results for each tile from your pipeline. Open the **Insights** tab to see detailed analytics.
 
     > [!TIP]
     > Many entities in Dynamics 365 Marketing provide an **Insights** tab for analyzing the results of your marketing initiatives. For example, try opening the email message you sent with this customer journey and check its **Insights** tab for even more information.
+
+### See also
+
+[Generate activities from a customer journey](generate-activities-from-customer-journey.md)  
+[Create an interactive customer journey](create-interactive-customer-journey.md)  
+[Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)  
+[Customer journey tiles reference](customer-journey-tiles-reference.md)  
+[Working with segments](segmentation-lists-subscriptions.md)
