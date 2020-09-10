@@ -6,7 +6,7 @@ ms.author: ktaylor
 manager: shujoshi
 ms.date: 09/09/2020
 ms.service: 
-  - "dynamics-365-customerservice"
+  "dynamics-365-customerservice"
 ms.topic: article
 ---
 
