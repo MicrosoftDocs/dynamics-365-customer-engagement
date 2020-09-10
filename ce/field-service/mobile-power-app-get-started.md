@@ -1,5 +1,5 @@
 ---
-title: "Get started with Field Service (Dynamics 365) mobile app | MicrosoftDocs"
+title: "Get started with the Field Service (Dynamics 365) mobile app | MicrosoftDocs"
 description: Learn how to get started with the Field Service (Dynamics 365) mobile app.
 ms.custom: 
   - dyn365-fieldservice
@@ -27,7 +27,7 @@ search.app:
   - D365FS
 ---
 
-# Get started with Field Service (Dynamics 365) mobile app
+# Get started with the Field Service (Dynamics 365) mobile app
 
 The Field Service (Dynamics 365) mobile app is a mobile app designed and optimized for technicians to view Dynamics 365 Field Service work orders, customer assets, accounts, and contacts. Different than Field Service Mobile (see the following feature comparison), this alternative mobile app is built on Microsoft's Power Platform as a [model-driven app](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-overview) and is customizable to your business needs with the same admin console as all Dynamics 365 business apps.
 
@@ -124,7 +124,7 @@ When **Status** is set to **Available**, you'll have all the data you need to wo
 
 Then toggle the **Work in offline mode** to on. If you lose internet connection unexpectedly, the app will automatically work in offline mode if you previously downloaded data.
 
-### Connected Field Service on Field Service (Dynamics 365) mobile app
+### Connected Field Service on the Field Service (Dynamics 365) mobile app
 
 For organizations using Connected Field Service, technicians can view and interact with IoT data and actions in the Field Service (Dynamics 365) mobile app.
  

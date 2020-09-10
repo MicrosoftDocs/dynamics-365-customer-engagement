@@ -27,7 +27,7 @@ search.app:
   - D365FS
 ---
 
-# Frequently asked questions for Field Service (Dynamics 365) mobile app
+# Frequently asked questions for the Field Service (Dynamics 365) mobile app
 
 ## Can I only add and view Field Service entities on the Field Service (Dynamics 365) mobile app?
 
