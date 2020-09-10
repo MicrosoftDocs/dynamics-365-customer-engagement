@@ -126,6 +126,27 @@ The Field Service Settings page allows system administrators to set default sett
 |inventory transfer starting number|Select a starting number for inventory transfer numbers. For example, if you choose 5000, then your first inventory transfer number will be 5000, and second one will be 5001, and so on.|  
 |inventory adjustment starting number|Select a starting number for inventory adjustment numbers. For example, if you choose 6000, then your first inventory adjustment number will be 6000, and second one will be 6001, and so on.|  
   
+## Intelligence settings
+
+|Options|Description|  
+|-------------|-----------------|  
+|Enable Suggested Duration|When enabled, this setting will look at historical booking data and suggest an average duration on a daily or on-demand basis at the Incident Type level to improve accuracy of an Incident Type's established duration.|
+|Historical Data Filter|This setting is used for both the suggested duration and Incident Type Suggestions functionality. This setting is used to establish the data scope for analysis when looking at historical data to provide suggestions.| 
+|Enable Incident Type Suggestion|When enabled, this setting will drive a prompt to ensure users are aware that this feature is in preview. If accepted, this feature will begin to drive analysis of historical work order and work order sub-record data to suggest ways to improve an organization's usage of incident type. Once enabled, a subgrid will become visible on the tab to show the suggestions from this intelligent analysis. From the subgrid, a user can dislike or apply the suggestions from the model.| 
+
+## Time Entry settings
+
+|Options|Description|  
+|-------------|-----------------|  
+|Time Entry Generation Strategy|This setting drives whether the environment will automatically generate time entries based on bookings or not. If the setting is null, the system assumes manual generation. Regardless of whether this is set to manual or automatic generation, time entries can always be created manually.|
+|Time Cost Actuals|Actuals are generated as part of the natural Field Service motion. Some actuals would be generated at various stages of the work order and invoice lifecycle. This field controls whether cost actuals related to time are generated from booking journals when the work order is set to "Closed - Posted" or from Time Entries when the time entry is marked as approved. If this setting is null, the system will assume it should generate these time and cost focused actuals from booking journals when the work order is "Closed - Posted."| 
+
+## Remote Assist settings
+
+|Options|Description|  
+|-------------|-----------------|  
+|Disable Booking Status Changes|Depending on this setting, Dynamics 365 Remote Assist on Hololens will either allow a booking's booking status to be changed from within the Hololens experience or it will not.|
+  
 ## Other settings
   
 |             Options             |                                                                                                                                                 Description                                                                                                                                                 |
