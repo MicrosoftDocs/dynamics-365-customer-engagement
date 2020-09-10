@@ -85,9 +85,14 @@ To design a form in Dynamics 365 Marketing that you can embed on an external web
 
 1. If your form **does not** use prefill, complete the following steps:
 
-    1. In the **Whitelist rules** column, select **Add new form whitelist rule** (open the ellipsis menu here to find this command if you don't see it). A quick-create flyout slides in. 
+    1. Go to **Settings** > **Advanced settings** > **Marketing settings** > **Authenticated domains**. A list of existing authenticated domains opens.
 
-    1. In the **Name** field, enter the domain name of the website where you will host the form. You can whitelist as many domains as you want, but your form will only work on those domains that you whitelist.
+    1. Select **New** on the command bar to add a new domain.
+
+    1. A new authenticated domain record opens. Make the following settings:
+
+        - **Domain name**: Enter the name of the domain you want to authenticate. This must be a domain that your organization owns, and which you can access through your DNS provider.
+        - Select **Enable prefilled forms** check box.
 
 1. If your form **does** use prefill (including all subscription center forms), then you must authenticate the domain(s) where you'll use the form rather than use the whitelist, so the **Whitelist rules** column isn't shown here for forms with prefill enabled. More information: [Enable prefilling on embedded forms](#form-prefil)
 
