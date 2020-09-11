@@ -31,11 +31,37 @@ If your organization uses custom roles, and you want a user with the custom role
 
 ## Roles for Customer Service workspace
 
-By default, the privileges pertaining to the App profile user role have been added to the Customer Service Representative role out of the box. You need to manually provide the App profile manger administrator role to the user who'll create app profiles, templates, productivity tools, and channel provider configurations.
+By default, the privileges pertaining to the App profile user role have been added to the Customer Service Representative and Customer Service Manager roles out of the box. You need to manually provide the App profile manger administrator role to the user who'll create app profiles, templates, productivity tools, and channel provider configurations.
 
 ## Roles for Omnichannel for Customer Service
 
-Out of the box, for the **Omnichannel administrator** role, the privileges pertaining to the **App profile manager administrator** role have been added, and for the **Omnichannel agent** and **Omnichannel supervisor** roles, the privileges pertaining to the **App profile user** role have been added.
+Out of the box, for the Omnichannel administrator role, the privileges pertaining to the App profile manager administrator role have been added, and for the Omnichannel agent and Omnichannel supervisor roles, the privileges pertaining to the App profile user role have been added.
+
+## Roles and their privileges
+
+The actions and privileges for the roles in app profile manager are as follows.
+
+| Action | Privileges| Role: App profile manager administrator | Role: App profile user |
+|----|--------|---------|------|
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
+
 
 ### See also
 
