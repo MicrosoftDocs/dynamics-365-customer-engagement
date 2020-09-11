@@ -92,6 +92,8 @@
 
 ### [Set up the timeline control](https://go.microsoft.com/fwlink/p/?linkid=2142940)
 
+### [Set up the email control](https://go.microsoft.com/fwlink/p/?linkid=2142941)
+
 ### Similar Record Suggestions
 #### [Use advanced similarity rules to view similar case suggestions](suggest-similar-cases-for-a-case.md)
 
