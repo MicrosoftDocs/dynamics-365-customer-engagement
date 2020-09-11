@@ -27,7 +27,9 @@ search.app:
 
 Users on the Dynamics 365 phones and tablets app can now use the [Power Apps mobile app](https://docs.microsoft.com/powerapps/user/run-canvas-and-model-apps-on-mobile).
 
-It is recommended that you install Power Apps mobile app and test it out to make sure your apps work with Power Apps mobile. Follow the step below to ensure a smooth transition  to the new app.
+Once you install Power Apps mobile, find and run your app and make sure it works properly.
+
+Follow the steps below to ensure a smooth transition to the new app.
 
 
 1. Download Power Apps from the [App Store](https://itunes.apple.com/app/powerapps/id1047318566?mt=8) or [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.msapps) onto an iPhone, iPad, or Android device running a [supported operating system](../maker/canvas-apps/limits-and-config.md). 
