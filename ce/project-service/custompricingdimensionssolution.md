@@ -41,6 +41,7 @@ You will need to add the following Project Service entities to your pricing solu
 - Actual
 - Bookable Resource
 - Estimate Line
+- Project Task
 - Invoice Line Detail
 - Journal Line
 - Project Contract Line Detail
