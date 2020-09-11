@@ -36,6 +36,10 @@ It is recommended that you install Power Apps mobile app and test you apps to ma
 
    ![Sign in to Power Apps](media/powerapps_mobile_app_signin_screen.png "Sign in to Power Apps")
 
-
 If you have the Microsoft Authenticator app installed on your mobile device, simply enter your username when prompted, and then approve the notification sent to your device.
+
+3. When you sign in to the app, the **My apps** filter is set by default. If you don't find the app you're looking for, you can open the **Power Apps** menu, and then select a different filter. 
+
+   ![App filters](media/filter-menu.png "App filters")
+
 
