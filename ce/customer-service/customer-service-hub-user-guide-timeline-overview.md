@@ -3,7 +3,7 @@ title: "Timeline Overview for Users | MicrosoftDocs"
 description: "Timeline Overview for Users"
 ms.date: 08/13/2020
 ms.service:
-  - "dynamics-365-customerservice"
+   "dynamics-365-customerservice"
 ms.topic: article
 author: lerobbin
 ms.author: lerobbin
@@ -357,5 +357,5 @@ You can add an attachment, such as a file, to a note in timeline to share with u
     ![Add an attachment to a note in timeline](media\timeline-add-an-attachment-to-a-note.png "Add an attachment to a note in timeline")
 
 ### See Also
-
+[Configure timeline](https://go.microsoft.com/fwlink/p/?linkid=2142940)  
 [Timeline FAQs](timeline-faqs.md)  
