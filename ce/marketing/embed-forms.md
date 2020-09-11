@@ -2,7 +2,7 @@
 title: "Integrate Dynamics 365 Marketing with forms published on an external website (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to publish a form on an external site and capture the submissions in Dynamics 365 Marketing"
 keywords: marketing form, embed
-ms.date: 05/11/2020
+ms.date: 09/10/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -85,11 +85,16 @@ To design a form in Dynamics 365 Marketing that you can embed on an external web
 
 1. If your form **does not** use prefill, complete the following steps:
 
-    1. In the **allow list rules** column, select **Add new form allow list rule** (open the ellipsis menu here to find this command if you don't see it). A quick-create flyout slides in. 
+    1. Go to **Settings** > **Advanced settings** > **Marketing settings** > **Authenticated domains**. A list of existing authenticated domains opens.
 
-    1. In the **Name** field, enter the domain name of the website where you will host the form. You can allow list as many domains as you want, but your form will only work on those domains that you allow list.
+    1. Select **New** on the command bar to add a new domain.
 
-1. If your form **does** use prefill (including all subscription center forms), then you must authenticate the domain(s) where you'll use the form rather than use the allow list, so the **Allow list rules** column isn't shown here for forms with prefill enabled. More information: [Enable prefilling on embedded forms](#form-prefil)
+    1. A new authenticated domain record opens. Make the following settings:
+
+        - **Domain name**: Enter the name of the domain you want to authenticate.
+        - Select **Enable prefilled forms** check box.
+
+1. If your form **does** use prefill (including all subscription center forms), you must authenticate the domain(s) where you'll use the form. More information: [Enable prefilling on embedded forms](#form-prefil)
 
 1. Select the form page name in the **Related marketing form pages** column to open its settings and view the embed code.
 
