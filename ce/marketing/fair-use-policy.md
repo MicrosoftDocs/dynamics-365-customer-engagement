@@ -2,7 +2,7 @@
 title: "Fair use policy (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn about usage limits and quotas in Dynamics 365 Marketing"
 keywords:
-ms.date: 08/06/2020
+ms.date: 09/04/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -31,7 +31,7 @@ The table below shows the current usage limits for Marketing features.
 
 | Feature               | Attribute                                          | Maximum                                                 |
 |-----------------------|--------------------------------------------------------|-------------------------------------------------------------|
-| Segmentation          | Number of live segments per org                        | 1,000 (both user defined and system created)                |
+| Segmentation          | Number of live dynamic segments per org                        | 1,000 (both user defined and system created)                |
 | Segmentation          | Total number of segments                               | 10,000                                                      |
 | Email sending         | Emails sent per day                                        | 1,000,000                                                   |
 | Email sending         | Emails sent  per month                                      | 10,000,000                                                  |
