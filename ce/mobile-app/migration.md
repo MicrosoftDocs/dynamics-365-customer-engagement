@@ -43,7 +43,6 @@ Follow the steps below to ensure a smooth transition to the new app.
 
    ![App filters](media/filter-menu.png "App filters")
    
-4. To run your app select the app tile. 
-5. Run your app and test it to make sure everything is working. For more information on how to use Power Apps mobile, see [User guide for model-driven apps running on the Power Apps mobile app](https://docs.microsoft.com/powerapps/user/use-custom-model-driven-app-on-mobile).
+4. To run your app select the app tile. Then test your app to make sure everything is working. For more information on how to use Power Apps mobile, see [User guide for model-driven apps running on the Power Apps mobile app](https://docs.microsoft.com/powerapps/user/use-custom-model-driven-app-on-mobile).
 
 
