@@ -69,7 +69,7 @@ The header settings are available at the top of the page no matter which tab is 
 - **Update contacts/leads**: Choose which types of records can be created or updated in response to a form submission. Usually you should leave this set to **Contacts and leads**, which will update both types of records and link them together as needed to support lead scoring and insights. However, you might instead choose to update **Only contacts** or **Only leads** if you want to prevent one of these types of records from being changed. If you choose **Only contacts** or **Only leads**, you can even allow form submissions without updating the contact or lead. This gives you the option to collect form data, then export to Excel create a custom Workflow or Flow to map the data to an entity of your choosing. More information: [How form settings affect lead scoring and interaction records](#form-setting-effects)
 - **Status reason**: Shows the current go-live status of the form. A form must be live before you can use it in a marketing page or embed it on an external site. You can't change this setting here; use buttons on the command bar instead. More information: [Go live to make your marketing form available for use](#form-go-live)
 
-![Form settings in the header](media/form-header-settings.png "Form settings in the header")
+    ![Form settings in the header](media/form-header-settings.png "Form settings in the header")
 
 ### Settings on the Summary tab
 
@@ -93,7 +93,7 @@ The following settings and information are provided on the **Summary** tab:
 - **Related marketing pages**: Here you can see a list of marketing pages where this form is used. Select any listed page to open it.
 - **Related fields**: Here you can see a list of fields used in this form. Select any listed field to open its definition.
 
-![Form Summary tab](media/form-summary.png "Form Summary tab")
+    ![Form Summary tab](media/form-summary.png "Form Summary tab")
 
 <a name="form-setting-effects"></a>
 
