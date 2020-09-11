@@ -33,6 +33,7 @@ The following table is a comprehensive list of the out-of-the box forms and view
 |  Role Price Markup|• Information|• Active Role Price Markup<br>• Role Price Markup Associated View|
 |  Quote line detail|• Project Information<br>• Project Quick Create|• Active Quote Line Detail<br>• Combined Quote Line Details<br>• Quote Line Detail associated view|
 |  Project Contract line detail|• Project Information<br>• Project Quick Create|• Combined Contract line Details<br>• Active Contract Line Details<br>• Contract Line Detail associated view|
+|  Project Task|• Information<br>• New Form||
 |  Project Team Member|• Information<br>• New Form|• Active Project Team Members<br>• Project Team Members<br>• Project Team members associated View|
 |  Time Entry|• Information<br>• Create Time Entry|• My Time Entries By Date<br>• My time Entries for this week<br>• Time entries for approval|
 |  Journal Line|• Information<br>• Quick create|• Active journal lines<br>• Journal Line associated view|
