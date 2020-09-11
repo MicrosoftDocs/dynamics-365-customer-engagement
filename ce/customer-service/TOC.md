@@ -90,6 +90,8 @@
 #### [Create and manage categories](create-manage-categories.md)
 #### [Create knowledge article template](create-templates-knowledge-article.md)
 
+### [Set up the timeline control](https://go.microsoft.com/fwlink/p/?linkid=2142940)
+
 ### Similar Record Suggestions
 #### [Use advanced similarity rules to view similar case suggestions](suggest-similar-cases-for-a-case.md)
 
