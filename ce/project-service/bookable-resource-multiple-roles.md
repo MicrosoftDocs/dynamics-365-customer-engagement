@@ -1,6 +1,6 @@
 ---
-title: Setup for a bookable resource to be priced or costed for mulitple roles on the same project 
-description: This topic provides an overview of pricing dimensions.
+title: Estimating the sales and cost of the project when a bookable resource plays mulitple roles on the same project 
+description: This topic provides an overview of how pricing dimensions can be used to support pricing and costing for a resource that plays mulitple roles on a project.
 author: rumant
 manager: kfend
 ms.custom: 
@@ -56,11 +56,11 @@ Proceed to select the Team Member row for Consulting Lead and click on "Book". T
 Proceed to select the Team member row for Network Technician and click on "Book". The schedule board opens and book the same as above resource on that requirement as well.
 
 ### Team Member grid Experience
-Back on the Team Member grid, you will notice that the 2 generic Team member records and deleted and have been replaced one resource that was booked for both. There one role on the Team Member grid that shows one default role and organizational unit values.
-Now expand the row of that Team Member record. Distinct assignments of the Team member record for both of those tasks are shown.    
+Back on the Team Member grid, you will notice that the 2 generic Team member records are deleted and have been replaced one resource that was booked for both. There is one set of values on the Team Member grid row for that resource that shows a default set of values for role and organizational unit.
+Now expand the row of that Team Member record. Distinct assignments of the Team member record for both of those tasks are shown. Each assignment row has Task specific values for Role and ORganizational Unit    
 ### Estimates grid Experience
 When you navigate to the Estimates grid, you will notice that both assignments for the same resource are priced differently.
-The assignment for the resource on Task A is priced using the Role attribute value of Consulting Lead and the assignment for the same resource on Task B is priced using the Tole attribute value of Network Technician.
+The assignment for the resource on Task A is priced using the Role attribute value of Consulting Lead and the assignment for the same resource on Task B is priced using the Role attribute value of Network Technician.
 
 
 
