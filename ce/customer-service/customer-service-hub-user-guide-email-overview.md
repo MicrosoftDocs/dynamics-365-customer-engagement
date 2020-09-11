@@ -3,7 +3,7 @@ title: "Use email in customer engagement apps | MicrosoftDocs"
 description: "Learn how to use email in customer engagement apps. "
 ms.date: 08/03/2020
 ms.service:
-  - "dynamics-365-customerservice"
+  "dynamics-365-customerservice"
 ms.topic: article
 author: lerobbin
 ms.author: lerobbin
@@ -556,4 +556,5 @@ To change your default email signature setting:
 
 ### See Also
 
-[Email FAQs](email-faqs.md)
+[Configure email](https://go.microsoft.com/fwlink/p/?linkid=2142941)  
+[Email FAQs](email-faqs.md)  
