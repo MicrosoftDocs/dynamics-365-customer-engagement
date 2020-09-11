@@ -3,7 +3,7 @@ title: "Timeline Overview for Users | MicrosoftDocs"
 description: "Timeline Overview for Users"
 ms.date: 08/13/2020
 ms.service:
-  - "dynamics-365-customerservice"
+   "dynamics-365-customerservice"
 ms.topic: article
 author: lerobbin
 ms.author: lerobbin
