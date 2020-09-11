@@ -57,6 +57,7 @@ The September update includes email designer enhancements, social posting improv
     - [Docs](customer-journey.md)
 - **Collect data from form submissions more easily with expanded entity options**
     - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/capture-data-more-easily-simplified-forms-requirements)
+    - [Docs](marketing-forms.md#do-not-createupdate-contacts-or-leads)
 
 ### Monthly enhancements
 
