@@ -28,9 +28,10 @@
 #### [App profile manager for Customer Service workspace](../app-profile-manager/overview.md)
 
 #### Work with email
-##### [Using Email](customer-service-hub-user-guide-email-overview.md)
+#### [Configure email](https://go.microsoft.com/fwlink/p/?linkid=2142941)
+##### [Use Email](customer-service-hub-user-guide-email-overview.md)
 #### Work with timeline
-
+##### [Configure timeline](https://go.microsoft.com/fwlink/p/?linkid=2142940)
 ##### [Use timeline](customer-service-hub-user-guide-timeline-overview.md)
 
 #### Work with cases
@@ -89,10 +90,6 @@
 #### [Set up knowledge management using embedded knowledge search](set-up-knowledge-management-embedded-knowledge-search.md)
 #### [Create and manage categories](create-manage-categories.md)
 #### [Create knowledge article template](create-templates-knowledge-article.md)
-
-### [Set up the timeline control](https://go.microsoft.com/fwlink/p/?linkid=2142940)
-
-### [Set up the email control](https://go.microsoft.com/fwlink/p/?linkid=2142941)
 
 ### Similar Record Suggestions
 #### [Use advanced similarity rules to view similar case suggestions](suggest-similar-cases-for-a-case.md)
