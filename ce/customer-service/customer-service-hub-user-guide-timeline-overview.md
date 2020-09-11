@@ -357,5 +357,5 @@ You can add an attachment, such as a file, to a note in timeline to share with u
     ![Add an attachment to a note in timeline](media\timeline-add-an-attachment-to-a-note.png "Add an attachment to a note in timeline")
 
 ### See Also
-
+[Configure timeline](https://go.microsoft.com/fwlink/p/?linkid=2142940)  
 [Timeline FAQs](timeline-faqs.md)  
