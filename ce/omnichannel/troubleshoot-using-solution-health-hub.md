@@ -6,7 +6,7 @@ ms.author: nenellim
 manager: shujoshi
 ms.date: 09/11/2020
 ms.service: 
-  - "dynamics-365-customerservice"
+  "dynamics-365-customerservice"
 ms.topic: article
 ---
 
@@ -64,7 +64,7 @@ The details of the results are displayed in a table as follows:
 You can do the following:
 
 1. Select a rule whose status appears as failed. The results of the analysis of the objects that failed are displayed in the **Failing Records** area.
-      > ![Analysis job results for a rule](./media/oc-solution-health-results.png "Analysis job results for a rule")
+    > ![Analysis job results for a rule](./media/oc-solution-health-results.png "Analysis job results for a rule")
 2. Optionally, select the **Summary** tab for an overview of the results.
 
 > [!NOTE]
