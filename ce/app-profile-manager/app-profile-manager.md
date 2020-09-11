@@ -54,7 +54,7 @@ Make sure you have the App profile manager administrator role. More information:
      > - An underscore must be there between the prefix and name.
    - **Description:** A description for the profile.
   
-### Add templates and enable productivity pane and channels
+### Add templates and enable productivity pane and channels<a name="enable-prod-pane"></a>
 
 For an app profile, you can add only one session template for each entity type. Typically, you will add one session template for each entity type, such as one each session template for accounts, contacts, and cases. The settings that you enable for the app profile will be available for agents and supervisor only when you configure the corresponding templates and settings in the Customer Service Hub app or Omnichannel Administration app. For example, channels must be provisioned in Omnichannel for Customer Service and channel instances must be configured.
 

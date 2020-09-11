@@ -22,15 +22,30 @@ ms.topic: article
 
 ## Introduction
 
-Smart assist is an intelligent assistant that provides real-time recommendations to you, helping you take actions during your interactions with customers.
+The AI suggestions are displayed in smart assist, which is an intelligent assistant that provides real-time recommendations to you, helping you take actions during your interactions with customers.
 
-Smart assist that displays AI-suggestions for similar cases and knowledge articles comes with a set of pre-trained natural language understanding models that help agents find relevant knowledge articles or similar cases quickly, based on the context of ongoing conversations that your agents are handling. Your administrator can enable AI-suggested similar cases and knowledge articles through a single click. These suggestions are displayed in real time based on the conversation context.
+The AI-suggestions for similar cases and knowledge articles are powered by a set of pre-trained natural language understanding models that help you find relevant knowledge articles or similar cases quickly, based on the context of ongoing conversations that you are handling. Your administrator can enable AI-suggested similar cases and knowledge articles through a single click. These suggestions are displayed in real time based on the conversation context.
 > [!div class=mx-imgBorder]
 > ![AI-based suggestions](../../media/ai-based-suggestions-oc.png "AI-based suggestions")
 
-If your administrator has enabled the Productivity pane, then the productivity pane appears and on which the smart assist cards appear. By default, the productivity pane is enabled out of the box.
+If the productivity pane has been enabled for you, then the smart assist cards appear on the productivity pane when you are interacting with a customer in an ongoing conversation. By default, the productivity pane is enabled out of the box.
 
-### Understand the knowledge article components in smart assist
+## Sign up for the insider preview
+
+To use the smart assist suggestions using AI (preview), you need to do the following:
+
+- Register at [Insider preview](https://experience.dynamics.com/Account/Login/Register?returnUrl=%2Finsider%2F).
+- Submit the form [Sign-up - Survey](https://customervoice.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR5mjjZ3rRrtBn7meF_Sg_vlURFBMM0g4T1ZIUUIzNFRJSU0yTkhNMlJWWC4u).
+-	Use a sandbox environment and tenant or Org ID to sign-up for the preview program. We do not recommend using the production environment for signing up for preview.
+
+After you sign up, the participation goes through an approval process. It may take up to 48 hours for you to be onboarded to the preview program.
+
+After your participation is approved, you will be able to see the program listed in **My Programs** at [**My Insider Programs**](https://experience.dynamics.com/insider/).
+
+> [!IMPORTANT]
+> Upgrade of the preview environment to the production environment is not supported.
+
+## Understand the knowledge article components in smart assist
 
 When you are interacting with a customer in an ongoing conversation, up to three top knowledge articles that match the conversation context are displayed in the **Smart assist** pane. The suggestions are dynamically refreshed based on the conversation context.
 
@@ -49,7 +64,7 @@ The following table lists the explanation of the smart assist card for AI-sugges
 | 6 | When selected, the link to the knowledge article is pasted in the conversation window that the agent can share with the customer. |
 |  |  |
 
-### Understand the similar cases components in smart assist
+## Understand the similar cases components in smart assist
 
 When you are interacting with a customer in an ongoing conversation, up to three top similar cases that match the conversation context are displayed in the **Smart assist** pane. The suggestions are dynamically refreshed based on the conversation context.
 

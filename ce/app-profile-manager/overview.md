@@ -28,7 +28,7 @@ The profiles are available for agents and supervisors who use the Customer Servi
 
 The system requirements for the app profile manager are same as those for Customer Service workspace (preview). More information: [System requirements for Customer Service workspace](../customer-service/customer-service-workspace-system-requirements.md)
 
-## Sign up for the insider preview for app profile manager
+## Sign up for the insider preview
 
 To use Omnichannel for Customer Service (preview) with app profile manager, you need to do the following:
 - Register at [Insider preview](https://experience.dynamics.com/Account/Login/Register?returnUrl=%2Finsider%2F).

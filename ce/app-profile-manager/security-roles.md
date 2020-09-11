@@ -43,7 +43,7 @@ The actions and privileges for the roles in app profile manager are as follows.
 
 | Action | Privileges| Role: App profile manager administrator | Role: App profile user |
 |----|--------|---------|------|
-|||||
+| Read/Write Solution |  prvReadSolution<br>prvWriteSolution |||
 |||||
 |||||
 |||||

@@ -29,7 +29,9 @@ search.app:
 
 ## Introduction
 
-If your administrator has enabled the AI-suggested similar cases and knowledge articles, you can view the similarly resolved cases and knowledge articles that are displayed on the Smart assist pane when you open an active case.
+If your administrator has enabled the AI-suggested similar cases and knowledge articles, you can view the similarly resolved cases and knowledge articles when you open an active case.
+
+The AI suggestions are displayed in smart assist, which is an intelligent assistant that provides real-time recommendations to you, helping you take actions on active cases or during your interactions with customers in ongoing conversations.
 
 > [!IMPORTANT]
 > The **Smart assist** pane is displayed only when you open the case in a new session tab by using the Shift+mouse click action. If you open to view a resolved case in an app tab when your in-progress case is open, smart assist will not be refreshed for the resolved case.
