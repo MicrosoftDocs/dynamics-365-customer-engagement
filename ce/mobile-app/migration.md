@@ -32,11 +32,10 @@ It is recommended that you install Power Apps mobile app and test it out to make
 
 1. Download Power Apps from the [App Store](https://itunes.apple.com/app/powerapps/id1047318566?mt=8) or [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.msapps) onto an iPhone, iPad, or Android device running a [supported operating system](../maker/canvas-apps/limits-and-config.md). 
 
-2. Open Power Apps on your mobile device, and sign in by using your Azure Active Directory credentials.
+2. Open Power Apps on your mobile device, and sign in by using your Azure Active Directory credentials. If you have the Microsoft Authenticator app installed on your mobile device, simply enter your username when prompted, and then approve the notification sent to your device.
 
    ![Sign in to Power Apps](media/powerapps_mobile_app_signin_screen.png "Sign in to Power Apps")
 
-  If you have the Microsoft Authenticator app installed on your mobile device, simply enter your username when prompted, and then approve the notification sent to your device.
 
 3. When you sign in to the app, the **My apps** filter is set by default. If you don't find the app you're looking for, you can open the **Power Apps** menu, and then select a different filter. 
 
