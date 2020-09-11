@@ -43,22 +43,63 @@ The actions and privileges for the roles in app profile manager are as follows.
 
 | Action | Privileges| Role: App profile manager administrator | Role: App profile user |
 |----|--------|---------|------|
-| Read/Write Solution |  prvReadSolution<br>prvWriteSolution |||
-|||||
-|||||
-|||||
-|||||
-|||||
-|||||
-|||||
-|||||
-|||||
-|||||
-|||||
-|||||
-|||||
-|||||
-|||||
+| Read/Write Solution |  prvReadSolution<br>prvWriteSolution | Yes ||
+||prvPublishCustomization<br>prvReadCustomization<br>prvWriteCustomization  |||
+|| prvReadQuery<br>prvWriteQuery |||
+|| prvReadSavedQueryVisualizations |||
+||prvReadSystemForm|||
+||prvWriteEntity|||
+||prvWriteAttribute|||
+||prvWriteRelationship|||
+||prvWriteAppModule<br>prvReadAppModule  |||
+||prvAppendUser |||
+||prvAssignRole |||
+||prvWritemsdyn_channelprovider<br>prvReadmsdyn_channelprovider<br>prvDeletemsdyn_channelprovider<br> prvCreatemsdyn_channelprovider |||
+||prvAppendmsdyn_appconfiguration|||
+||prvAppendmsdyn_applicationextension|||
+||prvAppendmsdyn_applicationtabtemplate|||
+||prvAppendmsdyn_notificationfield |||
+||prvAppendmsdyn_notificationtemplate|||
+||prvAppendmsdyn_sessiontemplate |||
+||prvAppendmsdyn_templateparameter |||
+||prvAppendTomsdyn_appconfiguration |||
+||prvAppendTomsdyn_applicationextension |||
+||prvAppendTomsdyn_applicationtabtemplate|||
+||prvAppendTomsdyn_notificationfield |||
+||prvAppendTomsdyn_notificationtemplate|||
+||prvAppendTomsdyn_sessiontemplate|||
+||prvAppendTomsdyn_templateparameter |||
+||prvCreatemsdyn_appconfiguration <br>prvDeletemsdyn_appconfiguration 
+prvCreatemsdyn_applicationextension 
+prvReadmsdyn_applicationtabtemplate  <br> prvWritemsdyn_applicationtabtemplate <br> prvCreatemsdyn_applicationtabtemplate <br>prvDeletemsdyn_applicationtabtemplate
+prvReadmsdyn_notificationfield <br> prvCreatemsdyn_notificationfield <br> prvWritemsdyn_notificationfield
+prvReadmsdyn_notificationtemplate <br> prvCreatemsdyn_notificationtemplate <br> prvWritemsdyn_notificationtemplate 
+prvReadmsdyn_sessiontemplate<br> prvCreatemsdyn_sessiontemplate<br>prvWritemsdyn_sessiontemplate 
+prvCreatemsdyn_templateparameter <br> prvDeletemsdyn_templateparameter 
+ 
+prvDeletemsdyn_applicationextension 
+ 
+prvDeletemsdyn_notificationfield 
+prvDeletemsdyn_notificationtemplate 
+prvDeletemsdyn_sessiontemplate 
+ 
+prvReadmsdyn_appconfiguration 
+prvReadmsdyn_applicationextension 
+
+
+ 
+ 
+prvReadmsdyn_templateparameter 
+prvReadRole 
+prvReadUser 
+prvWritemsdyn_appconfiguration 
+prvWritemsdyn_applicationextension 
+ 
+
+
+ 
+prvWritemsdyn_templateparameter
+|||
 |||||
 |||||
 
