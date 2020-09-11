@@ -7,9 +7,9 @@ manager: shujoshi
 ms.date: 08/03/2020
 ms.topic: article
 ms.service: 
-  - dynamics-365-customerservice
+   dynamics-365-customerservice
 ms.custom: 
-  - dyn365-customerservice
+   dyn365-customerservice
 search.audienceType: 
   - admin
 search.app: 
