@@ -28,11 +28,11 @@
 #### [App profile manager for Customer Service workspace](../app-profile-manager/overview.md)
 
 #### Work with email
-##### [Configure email](https://go.microsoft.com/fwlink/p/?linkid=2142941)
-##### [Use email](customer-service-hub-user-guide-email-overview.md)
+##### [Configuring email](https://go.microsoft.com/fwlink/p/?linkid=2142941)
+##### [Using email](customer-service-hub-user-guide-email-overview.md)
 #### Work with timeline
-##### [Configure timeline](https://go.microsoft.com/fwlink/p/?linkid=2142940)
-##### [Use timeline](customer-service-hub-user-guide-timeline-overview.md)
+##### [Configuring timeline](https://go.microsoft.com/fwlink/p/?linkid=2142940)
+##### [Using timeline](customer-service-hub-user-guide-timeline-overview.md)
 
 #### Work with cases
 ##### [Create a case](customer-service-hub-user-guide-create-a-case.md)
