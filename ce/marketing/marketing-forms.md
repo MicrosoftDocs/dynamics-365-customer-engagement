@@ -2,7 +2,7 @@
 title: "Set up and manage marketing forms for use in marketing pages (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn about various types of marketing forms and how to create them in Dynamics 365 Marketing"
 keywords: marketing form, fields
-ms.date: 07/21/2020
+ms.date: 09/10/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -66,7 +66,7 @@ The header settings are available at the top of the page no matter which tab is 
 
 - **Name**: Enter a name for the form. This is the name you'll see in the forms list and when adding the form to a marketing page.
 - **Form type**: Choose whether the form should function as a **Landing page**, **Subscription center**, or **Forward to a friend** form. This setting affects the requirements for what your form must contain and where you can use it. More information: [Marketing form types](#form-types) and [Design and validate your form content](#form-content)
-- **Update contacts/leads**: Choose which types of records can be created or updated in response to a form submission. Usually you should leave this set to **Contacts and leads**, which will update both types of records and link them together as needed to support lead scoring and insights. However, you might instead choose to update **Only contacts** or **Only leads** if you want to prevent one of these types of records from being changed. More information: [How form settings affect lead scoring and interaction records](#form-setting-effects)
+- **Update contacts/leads**: Choose which types of records can be created or updated in response to a form submission. Usually you should leave this set to **Contacts and leads**, which will update both types of records and link them together as needed to support lead scoring and insights. However, you might instead choose to update **Only contacts** or **Only leads** if you want to prevent one of these types of records from being changed. If you choose **Only contacts** or **Only leads**, you can even allow form submissions without updating the contact or lead. This gives you the option to collect form data, then export to Excel create a custom Workflow or Flow to map the data to an entity of your choosing. More information: [How form settings affect lead scoring and interaction records](#form-setting-effects)
 - **Status reason**: Shows the current go-live status of the form. A form must be live before you can use it in a marketing page or embed it on an external site. You can't change this setting here; use buttons on the command bar instead. More information: [Go live to make your marketing form available for use](#form-go-live)
 
 ![Form settings in the header](media/form-header-settings.png "Form settings in the header")
