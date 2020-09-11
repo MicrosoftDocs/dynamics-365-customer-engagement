@@ -556,4 +556,5 @@ To change your default email signature setting:
 
 ### See Also
 
-[Email FAQs](email-faqs.md)
+[Configure email](https://go.microsoft.com/fwlink/p/?linkid=2142941)  
+[Email FAQs](email-faqs.md)  
