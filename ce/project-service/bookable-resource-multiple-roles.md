@@ -20,7 +20,7 @@ search.app:
   - ProjectOperations
 ---
 
-# Pricing or costing a single bookable resource for multiple roles on a project 
+# Estimating the sales and cost of the project when a bookable resource plays mulitple roles on the same project
 
 Often, project- based companies will see the need for a single resource to perform mulitple roles on a project. Each of these roles could priced and costed differently in which case, the same resource's time on the project could get a different financial estimate depending on the bill rates and cost rate for each of the 2 roles. PSA application enables you to achieve this quite simply by allowing the setup of the values on the Team member record for the named resource and allowing different overrides on each of the tasks that the team member is assigned to.
 
