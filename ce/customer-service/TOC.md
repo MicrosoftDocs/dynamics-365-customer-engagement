@@ -28,7 +28,7 @@
 #### [App profile manager for Customer Service workspace](../app-profile-manager/overview.md)
 
 #### Work with email
-#### [Configure email](https://go.microsoft.com/fwlink/p/?linkid=2142941)
+##### [Configure email](https://go.microsoft.com/fwlink/p/?linkid=2142941)
 ##### [Use Email](customer-service-hub-user-guide-email-overview.md)
 #### Work with timeline
 ##### [Configure timeline](https://go.microsoft.com/fwlink/p/?linkid=2142940)
