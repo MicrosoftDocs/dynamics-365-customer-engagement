@@ -55,7 +55,7 @@ We recommend to adhere to the following limits when working with [!INCLUDE[pn_ga
   
 2. Sign in to your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] system admin account, if you aren't already signed in.  
   
-3. Click **Get** to start installing the solution.  
+3. Select **Get** to start installing the solution.  
    If you have more than one Dynamics 365 organization, select the organization you want to install this solution to.
   
 4. Review and accept the disclaimer and the terms of service.  
@@ -86,15 +86,15 @@ Before you can sync [!INCLUDE[pn_gamification](../includes/pn-gamification.md)] 
   
 1. In [!INCLUDE[pn_microsoftcrm](../includes/pn-crm-2016.md)], go to **Settings** > **Solutions**, and then double-click the **Gamification** solution.  
   
-2. Click **Start Activation**, and then sign in with your admin credentials.  
+2. Select **Start Activation**, and then sign in with your admin credentials.  
   
 3. Accept the disclaimer, and then provide a **Name** and a **Location** for your instance of the Gamification portal.  
   
-4. Click **Register** to start the activation and obtain the security key.  
+4. Select **Register** to start the activation and obtain the security key.  
   
 5. Copy the **Security Key**, and then paste it in the input box.  
   
-6. Click **Authorize** to complete the connection between [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] and [!INCLUDE[pn_gamification](../includes/pn-gamification.md)].  
+6. Select **Authorize** to complete the connection between [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] and [!INCLUDE[pn_gamification](../includes/pn-gamification.md)].  
   
    You'll receive an email with additional details, and then you can access your organization's [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] instance.  
   
@@ -110,15 +110,15 @@ Before you can sync [!INCLUDE[pn_gamification](../includes/pn-gamification.md)] 
   
 1. Sign in to [https://admin.microsoft.com](https://admin.microsoft.com) with your global administrator or [!INCLUDE[pn_microsoftcrm](../includes/pn-crm-2016.md)] system administrator credentials.  
   
-2. Click **Admin centers** > **Dynamics 365**.  
+2. Select **Admin centers** > **Dynamics 365**.  
   
-3. Click the **Instances** tab, and then select the instance the solution is connected to.  
+3. Select the **Instances** tab, and then select the instance the solution is connected to.  
   
-4. Click **Solutions**.  
+4. Select **Solutions**.  
   
-5. Select the solution you want to update, and then click **Upgrade**.  
+5. Select the solution you want to update, and then select **Upgrade**.  
   
-6. In [!INCLUDE[pn_microsoftcrm](../includes/pn-crm-2016.md)], go to **Gamification** > **Gamification Settings**, and then click **Configure App** to update all dependencies to the latest version.  
+6. In [!INCLUDE[pn_microsoftcrm](../includes/pn-crm-2016.md)], go to **Gamification** > **Gamification Settings**, and then select **Configure App** to update all dependencies to the latest version.  
   
    > [!IMPORTANT]
    >  This step is required to keep all synchronization processes running.  
@@ -136,7 +136,7 @@ Before you can sync [!INCLUDE[pn_gamification](../includes/pn-gamification.md)] 
   
 1. In [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], go to **Gamification** > **Games**.  
   
-2. In the list of games, click the name of the game you want to see details about.  
+2. In the list of games, select the name of the game you want to see details about.  
   
 3. In the **Game Details** section, you'll find basic information about the game, like the name and the start and end date.  
   

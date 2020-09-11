@@ -46,7 +46,7 @@ There are various ways to create useful KPIs based on the data of a [!INCLUDE[pn
 
 1. In Dynamics 365, go to **Gamification** > **KPIs**.
 
-2. In the **Active KPIs** section, click the KPI you want to configure.
+2. In the **Active KPIs** section, select the KPI you want to configure.
 
     KPIs you've configured will have a status of **Set up**, while KPIs whose configuration is pending will appear as **Not set up**.
 
@@ -75,7 +75,7 @@ There are various ways to create useful KPIs based on the data of a [!INCLUDE[pn
 
 8. Optionally, you can set up an additional query parameter for a KPI by creating a saved view.
 
-    Go to **Advanced Find**, select the fields you want to filter on, and then click **Save as new View**. Next, you can edit the KPI, select the saved view, and then click **Save** to apply your changes.
+    Go to **Advanced Find**, select the fields you want to filter on, and then select **Save as new View**. Next, you can edit the KPI, select the saved view, and then select **Save** to apply your changes.
 
     For example, if you want to award points only for appointments about a specific product, you can add the product name to the appointment description, and then add a query parameter to select an appointment for scoring only when the **Description** field contains the product name.
 
@@ -97,7 +97,7 @@ There are various ways to create useful KPIs based on the data of a [!INCLUDE[pn
 
 10. Optionally, set the **Time scoring** in the **Additional Scoring Settings** section. By default, KPIs are scored all day, every day. You can specify the hours and days when the KPI is scored.
 
-11. To apply your configuration, click **Save**.
+11. To apply your configuration, select **Save**.
 
 ### Next steps
 
@@ -109,13 +109,13 @@ If you want to score a KPI manually, you can use Excel point scoring. [!INCLUDE[
 
 1. In Dynamics 365, go to **Gamification** > **KPIs**.  
 
-2. Click the KPI you want to edit.
+2. Select the KPI you want to edit.
 
-3. In the **KPI Parameters** section, click **Edit**.
+3. In the **KPI Parameters** section, select **Edit**.
 
 4. Change the parameters of the KPI to meet your requirements.
 
-5. To apply your changes, click **Save**.
+5. To apply your changes, select **Save**.
 
 > [!NOTE]
 > Before you can edit a KPI that was automatically created when [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] was installed, you must assign it an owner. Only the KPI owner can edit the values of a KPI.
