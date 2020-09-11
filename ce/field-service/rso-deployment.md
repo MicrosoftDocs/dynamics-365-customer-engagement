@@ -1,5 +1,5 @@
 ---
-title: Deployment
+title: Deploy resource scheduling optimization for Dynamics 365 Field Service
 ms.date: 09/10/2019
 ms.topic: article
 ms.reviewer: krbjoran
@@ -20,7 +20,7 @@ search.app:
   - D365FS
 ---
 
-# Deploy Resource Scheduling Optimization (RSO)
+# Deploy resource scheduling optimization for Dynamics 365 Field Service
 
 After [getting access to RSO](./rso-get-install.md) either by purchasing a license or through your local Microsoft representative, you must deploy it to your Dynamics 365 Field Service environment.
 
@@ -31,10 +31,10 @@ After [getting access to RSO](./rso-get-install.md) either by purchasing a licen
 > ![Screenshot of Field Service in navigation](media/field-service-navigation.png)
 
 
-2. Go to the Power Platform admin center located at [https://admin.powerplatform.microsoft.com/](https://admin.powerplatform.microsoft.com/). In the left pane select **Resources > Dynamics 365 apps**. 
+2. Go to the Power Platform admin center: [https://admin.powerplatform.microsoft.com/](https://admin.powerplatform.microsoft.com/). In the left pane, select **Resources** > **Dynamics 365 apps**. 
 
 
-3. Find Resource Scheduling Optimization and select **Manage**.
+3. Find resource scheduling optimization and select **Manage**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Dynamics 365 admin center](./media/rso-upgrade-manage-powerapps-admin.png)
