@@ -18,7 +18,7 @@ ms.reviewer: nenellim
 Having the ability to communicate effectively with customers can lead to increased sales and customer satisfaction. The email capability in customer engagement apps empowers users with the ability to respond and provide timely customer interaction effortlessly through quick email access with enhanced features and functionality. Users can compose, reply, and review emails, as well as quickly attach and send images that add value and support to customer communication using streamlined functionality. You can also ensure interactions between users and customers are consistent and professional by using email templates with rich text and images. 
 
 The following is an overview of email features and functionality that shows you: 
-- [Understand the email experience](customer-service-hub-user-guide-email-overview.md.#understand-the-email-experience)
+- [Understand the email experience](customer-service-hub-user-guide-email-overview.md#understand-the-email-experience)
 - [How to view, compose, and respond to emails](customer-service-hub-user-guide-email-overview.md#how-to-view-compose-and-respond-to-emails)
 - [How to use rich text editor toolbar in email](customer-service-hub-user-guide-email-overview.md#how-to-use-the-rich-text-editor-toolbar-in-email)
 - [How to use email templates](customer-service-hub-user-guide-email-overview.md#how-to-use-email-templates)
