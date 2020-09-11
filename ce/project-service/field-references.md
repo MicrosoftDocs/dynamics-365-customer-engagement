@@ -51,7 +51,7 @@ In the sales and estimation phases for a project, estimates of the work effort t
 3. Expand the **Quote Line Detail** entity, and select **Fields**.
 4. Click **New** to create a new field called **Resource Work Location** and select the field type, **Option set**. 
 5. Select **Use an existing Option set** and **Resource Work Location**, and then click **Save**.
-6. Repeat steps 1 - 5 to add this field to the **Project Contract line detail**, **Project Team Member**, and **Estimate Line** entities.
+6. Repeat steps 1 - 5 to add this field to the **Project Contract line detail**,**Project Task**, **Project Team Member**, and **Estimate Line** entities.
 7. Repeat steps 1 - 6 for the **Resource Work Hours** option set. 
 
 > ![Adding Resource Work Location to Estimate Line](media/RWL-Default-Value.png)
@@ -93,10 +93,11 @@ In the sales and estimation phases for the project, to price the Quote/Project, 
 
 - **Quote line Detail**
 - **Project Contract Line Detail**
+- **Project Task**
 - **Project Team Member**
 - **Estimate Line**
 
-5. Repeat steps 1 - 5 to create 1:N relationships from **Standard Title** to **Quote line Detail**, **Project Contract Line Detail**, **Project Team Member**, and **Estimate Line**.
+5. Repeat steps 1 - 5 to create 1:N relationships from **Standard Title** to **Quote line Detail**, **Project Contract Line Detail**, **Project Task**, **Project Team Member**, and **Estimate Line**.
 
 > ![Adding Standard Title as a reference field to Estimate Line](media/ST-Estimate-Line.png)
 
@@ -134,6 +135,7 @@ The following table provides a comprehensive list of out-of-the-box forms and vi
 |  Role Price Markup|• Information|• Active Role Price Markup<br>• Role Price Markup Associated View|
 |  Quote line detail|• Project Information<br>• Project Quick Create|• Active Quote Line Detail<br>• Combined Quote Line Details<br>• Quote Line Detail associated view|
 |  Project Contract line detail|• Project Information<br>• Project Quick Create|• Combined Contract Line Details<br>• Active Contract Line Details<br>• Contract Line Details Associated View|
+|  Project Task|• Information<br>• New Form||
 |  Project Team Member|• Information<br>• New Form|• Active Project Team Members<br>• Project Team Members<br>• Project Team members associated View|
 |  Time Entry|• Information<br>• Create Time Entry|• My Time Entries By Date<br>• My time Entries for this week<br>• Time entries for approval|
 |  Journal Line|• Information<br>• Quick create|• Active journal lines<br>• Journal Line associated view|
