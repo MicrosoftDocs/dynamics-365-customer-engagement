@@ -19,4 +19,5 @@ search.app:
   - D365CS
 ---
 
-# Set up a search provider in Customer Service Hub
+# Set up a search provider in Customer Service Hub (Preview)
+
