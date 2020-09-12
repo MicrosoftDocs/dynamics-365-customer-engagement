@@ -176,6 +176,9 @@ When a landing page type form is submitted with **Update contact/leads** set to 
 
     ![No update credit card example](media/marketing-forms-credit-card.png "No update credit card example")
 
+> [!NOTE]
+> Advanced users can create custom [Workflows](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/workflow-processes) to map form data collected through the **No update** option to custom entities. Learn more: [Map form data to entities with custom Workflows](entity-mapping.md)
+
 <a name="form-content"></a>
 
 ## Design and validate your form content
