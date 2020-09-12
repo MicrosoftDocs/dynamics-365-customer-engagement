@@ -4,9 +4,9 @@ description: "Overview of the app profile manager."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 09/07/2020
+ms.date: 09/11/2020
 ms.service: 
-  - "dynamics-365-customerservice"
+   "dynamics-365-customerservice"
 ms.topic: article
 ---
 
@@ -27,6 +27,20 @@ The app profile manager lets organizations create targeted app experiences for a
 The profiles are available for agents and supervisors who use the Customer Service workspace or Omnichannel for Customer Service apps.
 
 The system requirements for the app profile manager are same as those for Customer Service workspace (preview). More information: [System requirements for Customer Service workspace](../customer-service/customer-service-workspace-system-requirements.md)
+
+## Sign up for the insider preview
+
+To use Omnichannel for Customer Service (preview) with app profile manager, you need to do the following:
+- Register at [Insider preview](https://experience.dynamics.com/Account/Login/Register?returnUrl=%2Finsider%2F).
+- Submit the form [Sign-up - Survey](https://customervoice.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR5mjjZ3rRrtBn7meF_Sg_vlURFBMM0g4T1ZIUUIzNFRJSU0yTkhNMlJWWC4u).
+-	Use a sandbox environment and tenant or Org ID to sign-up for the preview program. We do not recommend using the production environment for signing up for preview.
+
+After you sign up, the participation goes through an approval process. It may take up to 48 hours for you to be onboarded to the preview program.
+
+After your participation is approved, you will be able to see the program listed in **My Programs** at [**My Insider Programs**](https://experience.dynamics.com/insider/).
+
+> [!IMPORTANT]
+> Upgrade of the preview environment to the production environment is not supported.
 
 ## How the app profile experience works
 
