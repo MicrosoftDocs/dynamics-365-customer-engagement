@@ -146,6 +146,7 @@
 #### [Create personal quick replies](agent/agent-oc/create-personal-quick-replies.md)
 #### Productivity tools
 ##### [Use agent scripts](agent/agent-oc/oc-agent-scripts.md)
+##### [View smart assist suggestions for articles and similar cases using AI](agent/agent-oc/oc-view-ai-suggested-cases-articles.md)
 ##### [View smart assist cards](agent/agent-oc/oc-smart-assist.md)
 ##### [Use productivity pane](agent/agent-oc/oc-productivity-pane.md)
 #### [Create a record](agent/agent-oc/oc-create-record.md)
