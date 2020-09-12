@@ -34,7 +34,7 @@ Create a Workflow to extract the values from a form submission. You can use this
 
 To create a Workflow:
 
-1. Go to **Process Center** > **Processes** in Dynamics 365 Customer Engagement (on-premises) this path is easiest to access and allows you to use views defined for the Process entity, including any custom views.
+1. In the navigation bar, go to **Settings** > **Process Center** > **Processes**.
 
     ![Go to the Process center](media/entity-mapping-process-center.png "Go to the Process center")
 
@@ -42,8 +42,16 @@ To create a Workflow:
 
     ![Create a Workflow](media/entity-mapping-create-process.png "Create a Workflow")
 
-1. Next, you will start adding steps to your Workflow. You will find flexible options to handle entities under **Add Step** > **Dynamics 365 Marketing**
+1. Next, you will start adding steps to your Workflow. You will find flexible options to handle entities under **Add Step** > **Dynamics 365 Marketing**.
 
     For example, you can start with **Extract a submitted value by field** to find a value inside a submission that you would like to store. Add a **Match entity** step to match the marketing form submission to the entity that you want to update. Add a **Json set property** step to be used in the other steps’ JSON properties.
 
     ![Add steps to your Workflow](media/entity-mapping-add-step.png "Add steps to your Workflow")
+
+## Example Workflow: Collecting credit card applications
+
+In this example, We'll create a Workflow to update a custom entity called “Credit Card Applications.” The Workflow will allow a user to collect credit card applications through a Marketing form and store the data under the new customer entity.
+
+1. To create a custom entity, in the navigation bar, go to **Settings** > **Customize the System** > **Entities**.
+1. Create fields under your new custom entity to be used inside your form.
+1. Go to **Settings** > **Processes** and create a new **Workflow** type process. In the **Entity** field, select the entity triggers your Workflow. In this case, we'll select **Marketing form submission**. Select **OK**.
