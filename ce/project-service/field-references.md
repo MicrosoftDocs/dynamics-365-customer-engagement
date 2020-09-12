@@ -44,7 +44,7 @@ When a custom pricing dimension is option set-based, add it as a field to key Pr
 
 > ![Adding Resource Work Location to Role Price](media/RWL-Field.png)
 
-In the sales and estimation phases for a project, estimates of the work effort that is required to complete **Local** and **Onsite** work, in **Regular hours** and **Overtime hours**  are used to estimate the value of the Quote/Project. The fields **Resource Work Location** and **Resource Work Hours** will be added to the estimation entities, **Quote Line Detail**, **Contract Line detail**, **Project Team Member**, and **Estimate Line**.
+In the sales and estimation phases for a project, estimates of the work effort that is required to complete **Local** and **Onsite** work, in **Regular hours** and **Overtime hours**  are used to estimate the value of the Quote/Project. The fields **Resource Work Location** and **Resource Work Hours** will be added to the estimation entities, **Quote Line Detail**, **Contract Line detail**, **Project Task**, **Project Team Member**, and **Estimate Line**.
 
 1. In PSA, click **Settings** > **Solutions**, and then double-click **\<your organization name> pricing dimensions**. 
 2. In Solution Explorer, on the left navigation pane, select **Entities > Quote Line Detail**.
