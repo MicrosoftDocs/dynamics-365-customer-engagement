@@ -21,9 +21,6 @@ search.app:
 
 # Create or edit a service
 
-> [!Note]
-> This topic is pre-release documentation and is subject to change.
-
 To make scheduling services quick and easy, it’s helpful to predefine the specifics of the services you’d provide to customers. By using the service records in Dynamics 365 Customer Service, you can define: 
 
 - How long a service activity lasts 
