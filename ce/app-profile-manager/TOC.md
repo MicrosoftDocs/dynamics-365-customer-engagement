@@ -11,6 +11,7 @@
 ### [Manage smart assist](smart-assist.md)
 ### [Manage agent scripts](agent-scripts.md)
 ### [Manage macros](macros.md)
+### [Automation dictionary to pass parameters](automation-dictionary-keys.md)
 
 ## [Readme](https://go.microsoft.com/fwlink/p/?linkid=2141982)
 
