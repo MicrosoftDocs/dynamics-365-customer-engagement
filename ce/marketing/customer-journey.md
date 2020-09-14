@@ -2,7 +2,7 @@
 title: "Preview: Create a customer journey using the new canvas experience (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to create a customer journey using the new canvas experience for Dynamics 365 Marketing"
 keywords: customer journey
-ms.date: 09/09/2020
+ms.date: 09/11/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -130,7 +130,7 @@ To create a customer journey that executes a one-time email blast:
 
 1. After you select a segment, the first tile populates with the segment name and the **Audience** pane displays the segment properties.
 
-    ![Customer journey segment populate](media/customer-journey-audience-populate.png "Customer journey segment populate")
+    ![Customer journey segment populate](media/customer-journey-audience-populate2.png "Customer journey segment populate")
 
     > [!TIP]
     > When your customer journey is live, all contacts start at the **Audience** tile (the initial step). Contacts move forward depending on the tile rules, similar to a board game. Some tiles hold on to contacts for a while, while other tiles complete an action immediately and send the contact to the next tile in the pipeline. Other tiles can split the path based on contact information or interactions. When the journey is live, you'll be able to see how many contacts are waiting at each tile, along with a few key results associated with the tile.
@@ -160,7 +160,7 @@ To create a customer journey that executes a one-time email blast:
     1. **Time Zone:** Select your local time zone (if needed). The other dates and times on the page will be displayed relative to this zone.
     1. **Content Settings:** This should already be set to the default content settings record set for your instance. These settings affect the dynamic content of marketing emails sent by this journey (as mentioned in [Create a marketing email and go live](create-marketing-email.md)).
 
-    ![Customer journey General tab](media/customer-journey-general.png "Customer journey General tab")
+    ![Customer journey General tab](media/customer-journey-general2.png "Customer journey General tab")
 
     > [!TIP]
     > While your journey is running, it will continue to process new contacts that join its segment, even if they join after the start date. This means that new contacts can join in at any time until the end date arrives.
