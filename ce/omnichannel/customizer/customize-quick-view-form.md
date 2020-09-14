@@ -1,12 +1,12 @@
 ---
 title: "Customize quick view forms | MicrosoftDocs"
 description: "Learn how to customize the quick view forms present in the Customer Summary page."
-author: kabala123
-ms.author: kabala
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.date: 07/01/2019
 ms.service: 
-  - "dynamics-365-customerservice"
+   "dynamics-365-customerservice"
 ms.topic: article
 ---
 # Customize quick view forms
@@ -16,7 +16,7 @@ ms.topic: article
 You customize the quick view form in the section by navigating to the respective entities and quick view forms.
 
 > [!NOTE]
-> This procedure shows how to modify the **Customer Profile** section in the Customer summary form of the **Conversation** entity. However, the process is similar for other forms in the sections.
+> This procedure shows how to modify the **Customer Profile** section in the Customer summary form of the **Conversation** entity. The process is similar for other forms in the sections.
 
 1.  Sign in to the Common Data Service platform.
 
@@ -49,7 +49,7 @@ You can also use the previous procedure to add or remove fields in other section
 > [!div class="nextstepaction"]
 > [Next topic: Customize the session form](customize-session-form.md)
 
-## See also
+### See also
 
 - [Omnichannelsystem customizers](omnichannel-customizer.md)
 - [Customize Customer summary form](customize-customer-summary.md)
