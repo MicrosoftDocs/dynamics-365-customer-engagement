@@ -21,9 +21,6 @@ search.app:
 
 # Navigate the service calendar
 
-> [!Note]
-> This topic is pre-release documentation and is subject to change.
-
 In the Service calendar, you can do the following tasks and activities: 
 
 - View your organization's hourly schedule of appointments and service activities. 
