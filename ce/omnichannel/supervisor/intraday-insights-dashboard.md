@@ -4,7 +4,7 @@ description: "Learn about the intraday insights dashboard for supervisors"
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 08/12/2020
+ms.date: 09/14/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -87,6 +87,7 @@ This section of the dashboard consists of the following KPIs.
 | Conversation status reason | The status of the latest conversation between the agent and a customer. | 
 | Avg handle time per session | The agent’s average amount of time per session. |
 | Avg response time per session | The agent’s average amount of response time. | 
+| Participation mode | The split of sessions which are of three types: Primary indicates the agent who's assigned to the session, Consult indicates agents who are engaged in a consulting session, and supervisors who are monitoring are treated as Monitor sessions. |
 
 You can filter on a specific queue or set of queues to view more specific information about an agent or group of agents, and if needed, modify their presence. You can also hover over an agent’s name and a pop-up dialog will display, showing details such as the agent’s presence, their current conversations, and the sentiments of those conversations.
 
@@ -99,7 +100,6 @@ This section of the dashboard consists of the following KPIs:
 
 | KPI | Description |
 |-------|-------|
-| Participation mode | The split of sessions which are of three types: Primary indicates the agent who's assigned to the session, Consult indicates agents who are engaged in a consulting session, and supervisors who are monitoring are treated as Monitor sessions. |
 | Agent name | A list of the agent names for the queue. |
 | Status | The current presence of the agent: available, offline, do not disturb, or busy. |
 | Available capacity | The current free capacity with the agent. |
@@ -117,20 +117,23 @@ The agent's details are displayed, as shown on the following screen.
 > [!div class=mx-imgBorder]
 > ![View agent's specific details](../media/view-agent-details.png "View agent's specific details")
 
-This section of the dashboard consists of the following KPIs:
+This section of the dashboard consists of the following details:
 
-| KPI | Description |
+| Detail | Description |
 |-------|-------|
-| Email ID | The email ID of the agent so a supervisor can distinguish agents with same full names. |
-| Status | The current presence of the agent: available, offline, do not disturb, or busy. |
+| Email ID | The email address of the agent. |
+| Status | The agent's current presence: available, offline, do not disturb, or busy. |
 | Status since | The amount of time that this agent has been in their current presence. |
 | Available capacity | The agent's current free capacity. | 
 | Total capacity | The total capacity configured for an agent. |
 | Queues | The queues that the agent is mapped to. |
 | Skills | The skills that are assigned to the agent.|
-| Subject | The authenticated customer subject is the customer's name. For an unauthenticated customer, static text is displayed with a "Visitor" label. |
-| Participation mode | Primary indicates that this is assigned the session. Consult means the agent is engaged in a consulting session with another agent. Monitor means this agent is monitoring the session. |
-| Workstream | The wworkstream that the conversation is assigned to. |
+| Conversation status reason | The status of the latest conversation between the agent and a customer. | 
+| Avg handle time per session | The agent’s average amount of time per session. |
+| Avg response time per session | The agent’s average amount of response time. | 
+| Subject | For an authenticated customer, the customer's name is displayed with the subject. For an unauthenticated customer, static text is displayed with a "Visitor" label. |
+| Participation mode | Primary indicates that agent is engaged in a session. Consult means the agent is engaged in a consulting session with another agent. Monitor means this agent is monitoring the session. |
+| Workstream | The workstream that the conversation is assigned to. |
 | Channel | The channel that the conversation was created from. |
 | Queue | The queue that the conversation is currently part of. |
 | State | The current conversation state. |
