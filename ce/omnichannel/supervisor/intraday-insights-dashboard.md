@@ -131,7 +131,7 @@ This section of the dashboard consists of the following details:
 | Conversation status reason | The status of the latest conversation between the agent and a customer. | 
 | Avg handle time per session | The agent’s average amount of time per session. |
 | Avg response time per session | The agent’s average amount of response time. | 
-| Subject | For an identified customer, the customer's name is displayed with the subject. For unidentified customers, static text is displayed with a "Visitor" label. For information about identified customers, see [Automatically identify customers](../administrator/record-identification-rule.md) |
+| Subject | For an identified customer, the customer's name is displayed with the subject. For unidentified customers, static text is displayed with a "Visitor" label. For information about identified customers, see [Automatically identify customers](../administrator/record-identification-rule.md). |
 | Participation mode | Primary indicates that agent is engaged in a session. Consult means the agent is engaged in a consulting session with another agent. Monitor means this agent is monitoring the session. |
 | Workstream | The workstream that the conversation is assigned to. |
 | Channel | The channel that the conversation was created from. |
