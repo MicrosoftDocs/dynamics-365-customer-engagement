@@ -40,11 +40,9 @@ Find the right online training, in person workshops, and events for your role in
     [Exam](learning-bus-user.md#exam)
 
     :::column-end:::
-
-        :::column-end:::
-    :::row-end:::
-    :::row:::
-        :::column:::
+:::row-end:::
+:::row:::
+    :::column:::
         
     ### Implementation project managers
 
@@ -64,7 +62,6 @@ Find the right online training, in person workshops, and events for your role in
 
 :::row:::
 
-     :::column-end:::
     :::column:::
 
     ### Administrators
@@ -73,10 +70,10 @@ Find the right online training, in person workshops, and events for your role in
 
     [Administrators learning catalog](learning-administrator.md)
 
-     :::column-end:::
-    :::row-end:::
-    :::row:::
-        :::column:::
+    :::column-end:::
+:::row-end:::
+:::row:::
+    :::column:::
 
     ### Developers
 
@@ -88,7 +85,7 @@ Find the right online training, in person workshops, and events for your role in
 
     [Extend](learning-developer.md#extend)
 
-       :::column-end:::
+    :::column-end:::
     :::column:::
 
     ### Functional consultants
@@ -103,10 +100,10 @@ Find the right online training, in person workshops, and events for your role in
 
     [Exams](learning-functional-consultant.md#exam)
 
-        :::column-end:::
-    :::row-end:::
-    :::row:::
-        :::column:::
+    :::column-end:::
+:::row-end:::
+:::row:::
+    :::column:::
 
     ### Partner sales and marketing
 
@@ -119,6 +116,6 @@ Find the right online training, in person workshops, and events for your role in
 
     [Exam](learning-sales.md#exam)
 
-     :::column-end:::
+    :::column-end:::
     
 :::row-end:::
