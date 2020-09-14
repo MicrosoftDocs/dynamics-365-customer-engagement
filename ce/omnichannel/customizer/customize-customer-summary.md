@@ -18,10 +18,10 @@ ms.topic: article
 You can customize some quick view forms that are displayed on the **Customer summary** page by navigating to the entity quick view forms. You can do the following:
 
 - Add or remove existing controls
-- Add default attributes from entity
+- Add default attributes from an entity
 - Customize the layout
 
-By default, the **Customer summary** page shows the sections that are listed in this topic.
+By default, the **Customer summary** page displays the sections that are listed in this topic.
 
 ## Customer profile
 
