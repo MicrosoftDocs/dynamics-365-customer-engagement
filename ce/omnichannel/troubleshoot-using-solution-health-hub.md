@@ -1,12 +1,12 @@
 ---
-title: "Troubleshoot with Solution Health Hub in Omnichannel for Customer Service | MicrosoftDocs"
+title: "Troubleshoot issues in Omnichannel for Customer Service with Solution Health Hub | MicrosoftDocs"
 description: "Learn how to troubleshoot issues in Omnichannel for Customer Service using the Solution Health Hub."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 08/04/2020
+ms.date: 09/14/2020
 ms.service: 
-  - "dynamics-365-customerservice"
+  "dynamics-365-customerservice"
 ms.topic: article
 ---
 
@@ -16,15 +16,15 @@ ms.topic: article
 
 ## Introduction
 
-Solution Health Hub allows you to get a better picture of the state of your environment and detect issues with your Dynamics 365 environment. The Solution Health Hub runs rules within an instance to validate the environment's configuration, which might change over time through natural system operations. Some of the rules are specific to Omnichannel for Customer Service; you can run the rules on demand when you run into an issue. Some rules automatically trigger when Omnichannel for Customer Service is installed or updated. You can regularly run the Omnichannel for Customer Service ruleset to monitor the health of your environment.
+You can use Solution Health Hub to get a better picture of the state of your Dynamics 365 environment and detect any issues it might have. Solution Health Hub runs rules within an instance to validate the environment's configuration, which might change over time through natural system operations. Some of the rules are specific to Omnichannel for Customer Service; you can run the rules on demand when you run into an issue. Some rules are automatically triggered when Omnichannel for Customer Service is installed or updated. You can regularly run the Omnichannel for Customer Service rule set to monitor the health of your environment.
 
-The Solution Health Hub helps detect the following issues:
+Solution Health Hub helps detect the following issues:
 
-- Check for missed or wrong configurations
+- Missed or wrong configurations
 - Queues with no agents
 - Agents with no capacity
-- Agents who are not part of any queues
-- Work stream configuration check
+- Agents who aren't part of any queues
+- Work stream configuration problems
 
 ## Prerequisites
 
@@ -34,9 +34,9 @@ Omnichannel for Customer Service.
 
 Perform the following steps to run an analysis job to check for issues in Omnichannel for Customer Service:
 
-1. Open the Solution Health Hub app.
+1. Open Solution Health Hub app.
 2. Select **Analysis Jobs** > **New**.
-3. On the **Create Analysis Job** dialog box, select **Omnichannel** in **Rule Set**, and select **OK**. The analysis job starts.
+3. In the **Create Analysis Job** dialog box under **Rule Set**, select **Omnichannel**, and then select **OK**.
 
 ## Analyze the health check results
 
@@ -44,50 +44,69 @@ Perform the following steps to run an analysis job to check for issues in Omnich
 
 The following information is available:
 
-- **Name:** Name of the analysis job.
-- **Status:** Indicates the status of the run.
-- **Start Time:** Indicates the date and time when the job was started.
-- **End Time:** Indicates the date and time when the job completed its run.
-- **Failed Rules:** Indicates the number of rules that failed.
-- **Warnings:** Indicates the number of rules that resulted in warnings.
-- **Passed Rules:** Indicates the number of rules that have passed successfully.
-- **Total Rules** Indicates the number of available rules.
-- **Rule Run Count:** Indicates the count of rules that have been run.
+- **Name:** The name of the analysis job.
+- **Status:** The status of the run.
+- **Start Time:** The date and time when the job was started.
+- **End Time:** The date and time when the job completed its run.
+- **Failed Rules:** The number of rules that failed.
+- **Warnings:** The number of rules that resulted in warnings.
+- **Passed Rules:** The number of rules that passed successfully.
+- **Total Rules** The number of available rules.
+- **Rule Run Count:** The count of rules that have been run.
 
-The result details of the rules are displayed in a table as follows:
+The details of the results are displayed in a table as follows:
 
-- **Name:** Name of the rule.
-- **Message:** Includes a brief summary of the result.
+- **Name:** The name of the rule.
+- **Message:** A brief summary of the result.
 - **Return Status:** Whether the rule passed, failed, or returned a warning.
-- **Severity:** Indicates the severity level.
+- **Severity:** The severity level.
 
 You can do the following:
 
-1. Select a rule whose status appears as failed. The analysis results of the objects that failed are displayed in the **Failing Records** area.
-      > ![Analysis job results for a rule](./media/oc-solution-health-results.png "Analysis job results for a rule")
-2. Optionally, select the **Summary** tab to view the overview of the results.
+1. Select a rule whose status appears as failed. The results of the analysis of the objects that failed are displayed in the **Failing Records** area.
+    > ![Analysis job results for a rule](./media/oc-solution-health-results.png "Analysis job results for a rule")
+2. Optionally, select the **Summary** tab for an overview of the results.
 
 > [!NOTE]
 > If you see any discrepancy in the health check results, rerun the job.
 
 ## Out-of-the-box rule sets
 
-When you run the analysis job, the following out-of-the-box rules that cannot be edited are run.
+When you run the analysis job, the following out-of-the-box rules are run. These rules can't be edited.
 
 | Rule | Description |
 |----|--------|
-| Agents should have capacity | Verifies that capacity is defined for agents. More information: [Manage users](administrator/users-user-profiles.md) |
+| Agents should have capacity | Verifies that capacity has been defined for agents. More information: [Manage users](administrator/users-user-profiles.md) |
+| Bots should have capacity | Verifies that bot's capacity is greater than zero. More information: [Configure a bot](administrator/configure-bot.md)|
+| Bots should not have potentially low capacity  | Verifies that bot's capacity is at least a hundred times the capacity of the work stream. |
+| Custom channel configuration should have work stream | Verifies that all custom channels have an active work stream. More information: [Configure a custom channel](administrator/configure-custom-channel.md) |
+| Custom channel settings should have all required fields | Verifies that custom channel settings have the messaging endpoint URL field. |
+| Facebook page configuration should have work stream | Verifies that all Facebook pages have an active work stream. More information: [Configure a Facebook channel](administrator/configure-facebook-channel.md) |
+| Facebook settings should have all required fields | Verifies that Facebook channel settings have the messaging endpoint URL field. |
+|Line channel configuration should have work stream | Verifies that all LINE channel configurations have an active work stream. More information: [Configure a LINE channel](administrator/configure-line-channel.md) |
+| Line settings should have all required fields  | Verifies that LINE settings webhook URL is not empty. |
+|Live chat channel configuration should have work stream | Verifies that Live Chat has an active work stream. More information:[Configure a chat channel](administrator/add-chat-widget.md) |
 | Omnichannel service endpoint should be configured | Verifies that the underlying services needed for the functioning of Omnichannel for Customer Service are configured correctly. More information: [Provisioning Omnichannel for Customer Service](administrator/omnichannel-provision-license.md) |
 | Queues should have agents | Verifies that the queues that are assigned to the work streams have agents assigned. More information: [Manage queues](administrator/queues-omnichannel.md) |
-| SDK message/plugins should be active | Verifies that the SDK messages or plugins are active. More information: [Workaround for repeated messages](omnichannel-readme.md#messages-repeated-in-the-quick-replies-menu) |
-| Work stream capacity should be less than agents | Verifies that the capacity defined for agents is more than what is defined for the work streams. More information: [Understand work streams](administrator/work-streams-introduction.md) |
+| SDK message/plugins should be active | Verifies that the SDK messages or plug-ins are active. More information: [Workaround for repeated messages](omnichannel-readme.md#messages-repeated-in-the-quick-replies-menu) |
+|SMS channel configuration should have work stream | Verifies that SMS channel has an active work stream. More information: [Configure an SMS channel for TeleSign](administrator/configure-sms-channel.md) and [Configure an SMS channel for Twilio](administrator/Configure-sms-channel-twilio.md) |
+| SMS settings should have all required fields | Verifies that SMS settings don't have empty customer ID and API key fields. |
+|Teams channel configuration should have work stream | Verifies that the Microsoft Teams channel configuration has an active work stream. More information: [Configure a Microsoft Teams channel](administrator/configure-microsoft-teams.md) |
+|Teams settings should have all required fields | Verifies that the bot ID field is not missing from the Teams settings. |
+|Twitter handle configuration should have work stream | Verifies that al Twitter handles have an active work stream. More information: [Configure a Twitter channel](administrator/configure-twitter-channel.md) |
+| Twitter settings should have all required fields | Verifies that Twitter settings don't have an empty callback URL field. |
+|WeChat channel configuration should have work stream | Verifies that all WeChat channel configurations have an active work stream. |
+| WeChat settings should have all required fields | Verifies that the **IP whitelist** and **Server address (URL)** fields aren't empty in the WeChat settings. More information: [Configure a WeChat channel](administrator/configure-wechat-channel.md) |
+|WhatsApp channel configuration should have work stream | Verifies that all WhatsApp phone numbers have an active work stream. More information: [Configure a WhatsApp channel](administrator/configure-whatsapp-channel.md) |
+| WhatsApp settings should have all required fields | Verifies that WhatsApp settings have a valid Twilio inbound URL and validation has not failed. |
+| Work stream capacity should be less than agents | Verifies that the capacity defined for agents is more than that defined for the work streams. More information: [Understand work streams](administrator/work-streams-introduction.md) |
 | Work stream should have notification templates set | Verifies that notification templates have been set for work streams. More information: [Associate templates with work streams](administrator/associate-templates.md) |
 | Work stream should have session template set | Verifies that session templates have been set for work streams. More information: [Associate templates with work streams](administrator/associate-templates.md) |
 | Work stream should not have duplicate context variables | Verifies that duplicate context variables haven't been defined for work streams. More information: [Create a work stream](administrator/work-streams-introduction.md#create-a-work-stream)  |
 | Work stream should not have empty routing rules above rules with condition | Verifies that empty routing rules haven't been defined for a work stream that prevent routing rules with a lower priority from running. More information: [Create and manage routing rules](administrator/routing-rules.md) |
-| Work stream with push mode should not allow offline mode | Verifies that offline is not an allowed presence for work streams that have push mode enabled. More information: [Create a work stream](administrator/work-streams-introduction.md#create-a-work-stream) |
+| Work stream with push mode should not allow offline mode | Verifies that "Offline" isn't an allowed presence for work streams that have push mode enabled. More information: [Create a work stream](administrator/work-streams-introduction.md#create-a-work-stream) |
 
 ### See also
 
-[Troubleshooting Omnichannel for Customer Service](troubleshoot-omnichannel-customer-service.md)  
+[Troubleshoot issues in Omnichannel for Customer Service](troubleshoot-omnichannel-customer-service.md)  
 [Frequently asked questions](faqs.md)  

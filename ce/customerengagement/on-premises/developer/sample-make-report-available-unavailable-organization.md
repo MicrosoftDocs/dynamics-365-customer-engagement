@@ -3,7 +3,7 @@ title: "Sample: Make a report available or unavailable to organization | Microso
 description: "This sample shows how make a report available or unavailable to an organization."
 ms.custom: 
 ms.date: 01/28/2020
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

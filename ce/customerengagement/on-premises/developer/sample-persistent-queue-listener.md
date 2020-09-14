@@ -3,7 +3,7 @@ title: "Sample: Persistent queue listener (Developer Guide for Dynamics 365 Cust
 description: "The sample shows how to write a Azure Service Bus listener application for a persistent queue endpoint contract. "
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

@@ -14,22 +14,25 @@
 ## User Guides
 
 ### Customer Service workspace
-#### [Introduction to Customer Service workspace](csw-overview.md)
-#### [Customer Service workspace system requirements](customer-service-workspace-system-requirements.md)
-#### [Overview of the productivity pane](csw-productivity-pane.md)
-#### [View AI suggested similar cases and knowledge articles](csw-view-ai-suggested-cases-knowledge-articles.md)
+
+#### Agent and supervisor experience
+##### [Introduction to Customer Service workspace](csw-overview.md)
+##### [Customer Service workspace system requirements](customer-service-workspace-system-requirements.md)
+##### [Overview of the productivity pane](csw-productivity-pane.md)
+##### [View AI suggested similar cases and knowledge articles](csw-view-ai-suggested-cases-knowledge-articles.md)
 
 ### Customer Service Hub
 #### [Introduction to Customer Service Hub](user-guide-customer-service-hub.md)
 #### [Learn the basics](customer-service-hub-user-guide-basics.md)
 
-#### Work with email
-##### [Using Email](customer-service-hub-user-guide-email-overview.md)
-##### [Configure Email](customer-service-hub-user-guide-email-admin.md)
-#### Work with timeline
+#### [App profile manager for Customer Service workspace](../app-profile-manager/overview.md)
 
-##### [Use timeline](customer-service-hub-user-guide-timeline-overview.md)
-##### [Configure timeline](customer-service-hub-user-guide-timeline-admin.md)
+#### Work with email
+##### [Configuring email](customer-service-hub-user-guide-email-admin.md)
+##### [Using email](customer-service-hub-user-guide-email-overview.md)
+#### Work with timeline
+##### [Configuring timeline](customer-service-hub-user-guide-timeline-admin.md)
+##### [Using timeline](customer-service-hub-user-guide-timeline-overview.md)
 
 #### Work with cases
 ##### [Create a case](customer-service-hub-user-guide-create-a-case.md)
@@ -72,13 +75,12 @@
 #### [Define subjects to categorize cases](../admin/define-subjects-categorize-cases-products-articles.md)
 
 ### Service Terms
-#### [Define service level agreements (SLAs)](define-service-level-agreements.md)
+#### [Define service-level agreements](define-service-level-agreements.md)
 #### [Enable entities for service level agreements](enable-entities-service-level-agreements.md)
 #### [Create entitlements to define support terms](create-entitlement-define-support-terms-customer.md)
 #### [Create and manage holiday schedule](set-up-holiday-schedule.md)
 #### [Create customer service schedule](create-customer-service-schedule-define-work-hours.md)
 #### [Manage service configuration settings](../admin/system-settings-dialog-box-service-tab.md)
-#### [Contract to entitlements migration strategy](contract-to-entitlement-migration.md)
 ### Templates
 #### [Set up entitlements using entitlement templates](set-up-entitlements-templates.md)
 #### [Create email templates](../admin/create-templates-email.md)
@@ -173,11 +175,11 @@
 ### [Configure interactive dashboards](configure-interactive-dashboards-customer-service-hub.md)
 ### [Modify case resolution dialog box](../customer-service/customer-service-hub-user-guide-modify-case-resolution-dialog.md)
 
-## Migration tools
+## Migration solutions
 
-### [Automatic Record Creation (ARC) and Service Level Agreement (SLA) migration](migrate-automatic-record-creation-and-sla-agreements.md)
+### [Migration tool for automatic record creation rules and service-level agreements](migrate-automatic-record-creation-and-sla-agreements.md)
+### [Contract to entitlements migration strategy](contract-to-entitlement-migration.md)
 
-### [Contracts to entitlements migration](contract-to-entitlement-migration.md)
 
 ### Service Scheduling Migration
 #### [Introduction to service scheduling migration](introduction-migration-entity-records.md)
@@ -192,8 +194,8 @@
 ### [Unable to delete a managed solution consisting an SLA enabled entity](troubleshoot-delete-managed-solution.md)
 ### FAQs
 #### [Email FAQs](email-faqs.md)
+#### [Timeline FAQs](timeline-faqs.md)
 #### [Migration tool FAQs](migrate-tool-faqs.md)
-#### [Timeline FAQs](timeline-faqs.md) 
 #### [FAQs on AI-suggested cases and knowledge articles](csw-faqs-ai-suggestions.md)
 
 ## Developer guide

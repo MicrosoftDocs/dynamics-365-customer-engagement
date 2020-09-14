@@ -3,7 +3,7 @@ title: "Sample: Rollup records related to a specific record (Developer Guide for
 description: "The sample demonstrates how to roll up opportunities by the parent account. "
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

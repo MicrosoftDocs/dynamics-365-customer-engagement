@@ -3,7 +3,7 @@ title: "Sample: Convert a fax to a task| MicrosoftDocs"
 description: "This sample shows how to create a task for a fax by using the IOrganizationService.Entity method"
 ms.custom: 
 ms.date: 01/07/2020
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

@@ -3,7 +3,7 @@ title: "Sample: Work with attribute metadata (Developer Guide for Dynamics 365 C
 description: "The sample shows how to perform various actions on attributes."
 keywords: 
 ms.date: 10/31/2017
-ms.reviewer: "pehecke"
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.custom: 
 ms.topic: samples

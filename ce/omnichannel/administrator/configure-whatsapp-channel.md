@@ -4,9 +4,9 @@ description: "Learn about the WhatsApp channel through Twilio and how to configu
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 08/06/2020
+ms.date: 09/09/2020
 ms.service: 
-  - "dynamics-365-customerservice"
+  "dynamics-365-customerservice"
 ms.topic: article
 ---
 
@@ -91,7 +91,7 @@ To create a WhatsApp channel, follow these steps:
    > [!div class=mx-imgBorder]
    > ![Copy the Twilio inbound URL](../media/whatsapp-channel-2.png "Copy the Twilio inbound URL") 
 
-5. Go to your Twilio console, and select **Phone Numbers** and then select the WhatsApp phone number. Under **Messaging**, paste the URL you copied from step 4 in the **Twilio inbound URL** field.
+5. Go to your Twilio console, and select **Senders** and then select the WhatsApp phone number. Under **Messaging**, paste the URL you copied from step 4 in the **Twilio inbound URL** field.
 
     > [!div class=mx-imgBorder]
     > ![Paste the Twilio inbound URL](../media/whatsapp-channel-6.png "Paste the Twilio inbound URL") 
