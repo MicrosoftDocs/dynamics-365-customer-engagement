@@ -21,9 +21,6 @@ search.app:
 
 # Use sites to manage your service locations
 
-> [!Note]
-> This topic is pre-release documentation and is subject to change.
-
 Create sites to define the locations where you provide service to your customers. When you’re scheduling resources, you can define which resources will work on which site.
 
 ## Create a site
