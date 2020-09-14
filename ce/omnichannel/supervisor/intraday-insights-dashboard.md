@@ -138,7 +138,7 @@ This section of the dashboard consists of the following details:
 | Queue | The queue that the conversation is currently part of. |
 | State | The current conversation state. |
 | Customer sentiment | The current sentiment. |
-| Created on | The time of the converstation creation. |
+| Created on | The conversation creation time. |
 | Capacity and status timeline | Every change in capacity or status is plotted on the timeline. Negative capacity is displayed if a supervisor assigns a conversation to an agent that is beyond the agent's available capacity. |
 
 ## View and filter report
