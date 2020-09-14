@@ -8,7 +8,7 @@ applies_to:
   - "Dynamics 365 (online)"
 author: "susikka"
 ms.author: "susikka"
-manager: "susikka"
+manager: "shujoshi"
 ---
 # msdyn_chatquestionnaireresponseitem Entity Reference
 

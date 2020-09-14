@@ -3,7 +3,7 @@ title: "Overview for Omnichannel for Customer Service entity reference documenta
 description: "Information on entities introduced as part of Omnichannel for Customer Service"
 author: "susikka"
 ms.author: "susikka"
-manager: "susikka"
+manager: "shujoshi"
 ms.date: 12/04/2019
 ms.service: 
   - crm-online
