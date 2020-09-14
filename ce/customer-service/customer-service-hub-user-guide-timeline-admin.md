@@ -342,6 +342,6 @@ Timelines can be configured and put on a dashboard. However, dashboards are not 
 You can create custom entities to display on the timeline by enabling specific options during the creation of the entity. See [How to create and add custom activities](https://docs.microsoft.com/powerapps/maker/model-driven-apps/set-up-timeline-control#enable-custom-activity-in-timeline) for a step-by-step guide.	
 
 ### See also
-
+ 
+[Use Timeline](customer-service-hub-user-guide-timeline-overview.md)  
 [Timeline FAQs](timeline-faqs.md)  
-[Use Timeline](customer-service-hub-user-guide-timeline-overview.md)
