@@ -8,7 +8,7 @@ applies_to:
   - ""
 ms.date: 08/20/2020
 ms.service: 
-  - "dynamics-365-customerservice"
+  "dynamics-365-customerservice"
 ms.topic: article
 ms.custom: 
   - ""
