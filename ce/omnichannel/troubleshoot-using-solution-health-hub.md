@@ -1,12 +1,12 @@
 ---
-title: "Troubleshoot with Solution Health Hub in Omnichannel for Customer Service | MicrosoftDocs"
+title: "Troubleshoot issues in Omnichannel for Customer Service with Solution Health Hub | MicrosoftDocs"
 description: "Learn how to troubleshoot issues in Omnichannel for Customer Service using the Solution Health Hub."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 08/15/2020
+ms.date: 09/14/2020
 ms.service: 
-  - "dynamics-365-customerservice"
+  "dynamics-365-customerservice"
 ms.topic: article
 ---
 
@@ -64,7 +64,7 @@ The details of the results are displayed in a table as follows:
 You can do the following:
 
 1. Select a rule whose status appears as failed. The results of the analysis of the objects that failed are displayed in the **Failing Records** area.
-      > ![Analysis job results for a rule](./media/oc-solution-health-results.png "Analysis job results for a rule")
+    > ![Analysis job results for a rule](./media/oc-solution-health-results.png "Analysis job results for a rule")
 2. Optionally, select the **Summary** tab for an overview of the results.
 
 > [!NOTE]
@@ -77,9 +77,28 @@ When you run the analysis job, the following out-of-the-box rules are run. These
 | Rule | Description |
 |----|--------|
 | Agents should have capacity | Verifies that capacity has been defined for agents. More information: [Manage users](administrator/users-user-profiles.md) |
+| Bots should have capacity | Verifies that bot's capacity is greater than zero. More information: [Configure a bot](administrator/configure-bot.md)|
+| Bots should not have potentially low capacity  | Verifies that bot's capacity is at least a hundred times the capacity of the work stream. |
+| Custom channel configuration should have work stream | Verifies that all custom channels have an active work stream. More information: [Configure a custom channel](administrator/configure-custom-channel.md) |
+| Custom channel settings should have all required fields | Verifies that custom channel settings have the messaging endpoint URL field. |
+| Facebook page configuration should have work stream | Verifies that all Facebook pages have an active work stream. More information: [Configure a Facebook channel](administrator/configure-facebook-channel.md) |
+| Facebook settings should have all required fields | Verifies that Facebook channel settings have the messaging endpoint URL field. |
+|Line channel configuration should have work stream | Verifies that all LINE channel configurations have an active work stream. More information: [Configure a LINE channel](administrator/configure-line-channel.md) |
+| Line settings should have all required fields  | Verifies that LINE settings webhook URL is not empty. |
+|Live chat channel configuration should have work stream | Verifies that Live Chat has an active work stream. More information:[Configure a chat channel](administrator/add-chat-widget.md) |
 | Omnichannel service endpoint should be configured | Verifies that the underlying services needed for the functioning of Omnichannel for Customer Service are configured correctly. More information: [Provisioning Omnichannel for Customer Service](administrator/omnichannel-provision-license.md) |
 | Queues should have agents | Verifies that the queues that are assigned to the work streams have agents assigned. More information: [Manage queues](administrator/queues-omnichannel.md) |
 | SDK message/plugins should be active | Verifies that the SDK messages or plug-ins are active. More information: [Workaround for repeated messages](omnichannel-readme.md#messages-repeated-in-the-quick-replies-menu) |
+|SMS channel configuration should have work stream | Verifies that SMS channel has an active work stream. More information: [Configure an SMS channel for TeleSign](administrator/configure-sms-channel.md) and [Configure an SMS channel for Twilio](administrator/Configure-sms-channel-twilio.md) |
+| SMS settings should have all required fields | Verifies that SMS settings don't have empty customer ID and API key fields. |
+|Teams channel configuration should have work stream | Verifies that the Microsoft Teams channel configuration has an active work stream. More information: [Configure a Microsoft Teams channel](administrator/configure-microsoft-teams.md) |
+|Teams settings should have all required fields | Verifies that the bot ID field is not missing from the Teams settings. |
+|Twitter handle configuration should have work stream | Verifies that al Twitter handles have an active work stream. More information: [Configure a Twitter channel](administrator/configure-twitter-channel.md) |
+| Twitter settings should have all required fields | Verifies that Twitter settings don't have an empty callback URL field. |
+|WeChat channel configuration should have work stream | Verifies that all WeChat channel configurations have an active work stream. |
+| WeChat settings should have all required fields | Verifies that the **IP whitelist** and **Server address (URL)** fields aren't empty in the WeChat settings. More information: [Configure a WeChat channel](administrator/configure-wechat-channel.md) |
+|WhatsApp channel configuration should have work stream | Verifies that all WhatsApp phone numbers have an active work stream. More information: [Configure a WhatsApp channel](administrator/configure-whatsapp-channel.md) |
+| WhatsApp settings should have all required fields | Verifies that WhatsApp settings have a valid Twilio inbound URL and validation has not failed. |
 | Work stream capacity should be less than agents | Verifies that the capacity defined for agents is more than that defined for the work streams. More information: [Understand work streams](administrator/work-streams-introduction.md) |
 | Work stream should have notification templates set | Verifies that notification templates have been set for work streams. More information: [Associate templates with work streams](administrator/associate-templates.md) |
 | Work stream should have session template set | Verifies that session templates have been set for work streams. More information: [Associate templates with work streams](administrator/associate-templates.md) |
@@ -89,5 +108,5 @@ When you run the analysis job, the following out-of-the-box rules are run. These
 
 ### See also
 
-[Troubleshooting Omnichannel for Customer Service](troubleshoot-omnichannel-customer-service.md)  
+[Troubleshoot issues in Omnichannel for Customer Service](troubleshoot-omnichannel-customer-service.md)  
 [Frequently asked questions](faqs.md)  
