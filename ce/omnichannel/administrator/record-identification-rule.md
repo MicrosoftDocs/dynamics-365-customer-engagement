@@ -1,8 +1,8 @@
 ---
 title: Automatically identify customers using pre-chat responses and setContext API method | MicrosoftDocs
 description: See how you can Automatically identify customers using pre-chat responses in the Omnichannel for Customer Service
-author: kabala
-ms.author: kabala123
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.date: 02/14/2020
 ms.topic: article
@@ -16,7 +16,7 @@ ms.service:
 
 Identify and assist customers better by showing their details on the **Customer summary** page. To automatically identify and load customer and case details for an incoming conversation, you need to set up pre-chat questions in the relevant chat widgets. Customer responses are used to search for details in the records and display the results. For an Account or Contact, the search is performed on the **Name**, **Email**, or **Phone Number** field. For Cases, the search is performed on the **Case Number** field.
 
-For every incoming conversation request agent receives a notification appears that includes contextual information for the request, including customer details if available. After the agent accepts the incoming notification, the **Customer summary** page opens, and shows the details of the identified customer and case. 
+For every incoming conversation request agent receives, a notification appears that includes contextual information for the request and customer details, if available. After the agent accepts the incoming notification, the **Customer summary** page opens, and shows the details of the identified customer and case. 
 
 For more information, see [View Customer summary for an incoming engagement request](../agent/agent-oc/oc-view-customer-summary-incoming-conversation-request.md).
 
@@ -44,6 +44,5 @@ You can automatically identify records using custom context set using setContext
 
 ### See also
 
-[Understand and create work streams](work-streams-introduction.md)
-
-[setContextProvider](../developer/reference/methods/setcontextprovider.md)
+[Understand and create work streams](work-streams-introduction.md)  
+[setContextProvider](../developer/reference/methods/setcontextprovider.md)  
