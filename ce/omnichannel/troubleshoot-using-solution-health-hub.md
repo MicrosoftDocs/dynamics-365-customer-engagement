@@ -1,10 +1,10 @@
 ---
-title: "Troubleshoot with Solution Health Hub in Omnichannel for Customer Service | MicrosoftDocs"
+title: "Troubleshoot issues in Omnichannel for Customer Service with Solution Health Hub | MicrosoftDocs"
 description: "Learn how to troubleshoot issues in Omnichannel for Customer Service using the Solution Health Hub."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 09/11/2020
+ms.date: 09/14/2020
 ms.service: 
   "dynamics-365-customerservice"
 ms.topic: article
@@ -108,5 +108,5 @@ When you run the analysis job, the following out-of-the-box rules are run. These
 
 ### See also
 
-[Troubleshooting Omnichannel for Customer Service](troubleshoot-omnichannel-customer-service.md)  
+[Troubleshoot issues in Omnichannel for Customer Service](troubleshoot-omnichannel-customer-service.md)  
 [Frequently asked questions](faqs.md)  
