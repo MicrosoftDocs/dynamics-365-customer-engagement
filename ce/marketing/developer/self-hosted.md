@@ -46,7 +46,7 @@ To learn how to set up AAD B2C tenant and configure the event management to work
 
 ## Development
 
-Open Command Prompt or PowerShell and run the command from the root directory to build and locally serve the website. Additionally, this command prints the URL and port where you can reach the application (The default location is `localhost:4200`).
+Open Command Prompt or Windows PowerShell and run the command from the root directory to build and locally serve the website. Additionally, this command prints the URL and port where you can reach the application (The default location is `localhost:4200`).
 
 ```CLI
 ng serve
@@ -64,7 +64,7 @@ ng serve --configuration=self-hosted
 
 ## Building
 
-Open Command Prompt or PowerShell and run the command from the root directory to build the website for production.
+Open Command Prompt or Windows PowerShell and run the command from the root directory to build the website for production.
 
 ```CLI
 ng build --prod

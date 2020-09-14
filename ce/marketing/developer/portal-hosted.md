@@ -53,7 +53,7 @@ You need to bypass the **anti-CSRF** token for local development. To do that, na
 
 To serve the application locally, you need to follow the steps below:
 
-1. Open Command Prompt or PowerShell.
+1. Open Command Prompt or Windows PowerShell.
 
 1. Run the command to install all the dependencies.
 

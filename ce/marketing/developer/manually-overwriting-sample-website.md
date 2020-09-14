@@ -30,6 +30,9 @@ See the following table to download the appropriate zip file containing data. If
 
 Manually overwriting the event management website overwrites the possible customizations that are made on the website, copy those customizations in a repository outside of the instance. After overwriting the website files, you can use standard `DeployToDynamics365Instance.ps1` script to bring your customizations back to the instance. More information:  [Deploy your portal hosted websites](https://docs.microsoft.com/dynamics365/marketing/developer/portal-hosted#deployment).
 
+> [!NOTE]
+> Newer versions of Portal Data will be available once new features and fixes will be released.
+
 | Release Version |Download link|
 |--|--|
 | 1.12.10027 (September 2020 Release)| [Download](https://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/PortalData-Sept20-1.12.10027.1013.zip) |
