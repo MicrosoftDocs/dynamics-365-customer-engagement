@@ -1,10 +1,11 @@
 ---
 title: Sales Professional and Enterprise Learning Catalog 
 description: Find all the training options for Dynamics 365 Sales Professional and Enterprise. 
-author: loreleishannonmsft
+author: MargoC
 ms.topic: article
 ms.date: 01/08/2020
-ms.author: v-lshann
+ms.service: dynamics-365-sales
+ms.author: margoc
 ---
 
 # Sales Professional and Enterprise Learning Catalog
@@ -40,11 +41,9 @@ Find the right online training, in person workshops, and events for your role in
     [Exam](learning-bus-user.md#exam)
 
     :::column-end:::
-
-        :::column-end:::
-    :::row-end:::
-    :::row:::
-        :::column:::
+:::row-end:::
+:::row:::
+    :::column:::
         
     ### Implementation project managers
 
@@ -56,15 +55,10 @@ Find the right online training, in person workshops, and events for your role in
 
     [Core Platform Knowlege](learning-project-manager.md#core-platform)
 
-    [Exams](learning-developer.md#exam)
+    [Exams](learning-project-manager.md#exams)
 
     :::column-end:::
-    
-:::row-end:::
 
-:::row:::
-
-     :::column-end:::
     :::column:::
 
     ### Administrators
@@ -73,10 +67,10 @@ Find the right online training, in person workshops, and events for your role in
 
     [Administrators learning catalog](learning-administrator.md)
 
-     :::column-end:::
-    :::row-end:::
-    :::row:::
-        :::column:::
+    :::column-end:::
+:::row-end:::
+:::row:::
+    :::column:::
 
     ### Developers
 
@@ -88,7 +82,7 @@ Find the right online training, in person workshops, and events for your role in
 
     [Extend](learning-developer.md#extend)
 
-       :::column-end:::
+    :::column-end:::
     :::column:::
 
     ### Functional consultants
@@ -103,10 +97,10 @@ Find the right online training, in person workshops, and events for your role in
 
     [Exams](learning-functional-consultant.md#exam)
 
-        :::column-end:::
-    :::row-end:::
-    :::row:::
-        :::column:::
+    :::column-end:::
+:::row-end:::
+:::row:::
+    :::column:::
 
     ### Partner sales and marketing
 
@@ -119,6 +113,6 @@ Find the right online training, in person workshops, and events for your role in
 
     [Exam](learning-sales.md#exam)
 
-     :::column-end:::
+    :::column-end:::
     
 :::row-end:::
