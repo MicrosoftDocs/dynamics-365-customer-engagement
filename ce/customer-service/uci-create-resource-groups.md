@@ -21,9 +21,6 @@ search.app:
 
 # Create resource groups
 
-> [!Note]
-> This topic is pre-release documentation and is subject to change.
-
 Use resource groups to group users, facilities, and equipment as part of the selection rules for a service.
 
 ## Create a resource group
