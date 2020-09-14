@@ -353,8 +353,8 @@
 #### [msdyn_ocprovisioningstate](developer/reference/entities/msdyn_ocprovisioningstate.md)
 
 #### [msdyn_ocrequest](developer/reference/entities/msdyn_ocrequest.md)
-#### [msdyn_ocsentimentaldailytopic](developer/reference/entities/msdyn_ocsentimentaldailytopic.md)
-#### [msdyn_ocsentimentaldailytopickeyword](developer/reference/entities/msdyn_ocsentimentaldailytopickeyword.md)
+#### [msdyn_ocsentimentdailytopic](developer/reference/entities/msdyn_ocsentimentdailytopic.md)
+#### [msdyn_ocsentimentdailytopickeyword](developer/reference/entities/msdyn_ocsentimentdailytopickeyword.md)
 
 #### [msdyn_ocsessioncharacteristic](developer/reference/entities/msdyn_ocsessioncharacteristic.md)
 #### [msdyn_ocsessionsentiment](developer/reference/entities/msdyn_ocsessionsentiment.md)
