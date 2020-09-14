@@ -98,7 +98,12 @@ The following sections describe how to configure display options, records to sho
 
 - **Records shown in page**: This field allows you to define the number of records to show in the timeline section at runtime. If there are more records than the number you define here, users will see an option to load more records. By default, this field is set to 10. 	
 
-  The following image shows the timeline at runtime when the **Records shown on page** field is set to 10.	
+  The following image shows the timeline at runtime when the **Records shown on page** field is set to 10.
+
+    |Configuration|Runtime|
+    |--------|-------------|
+    |![Display options - Records shown on page](media/timeline-record-shown-on-page.png "Display options - Records shown on page")|![Display options - Records shown on page](media/timeline-records-shown-on-page-runtime.png "Display options - Records shown on page")|
+    |||
 
   | Configuration | Runtime | 	
   | ------------------ | ------------ | 	
@@ -113,12 +118,12 @@ The following sections describe how to configure display options, records to sho
         - **Auto Posts**. These are system-generated and notify you of account activity that has occurred. 	
         - **User Posts**. These are used to communicate with other users in your organization.	
 
-    The following image shows that because you selected **Activities**, **Notes**, and **Posts** in the **Record types to show** section of timeline properties, users will see an option to create these record types at runtime. The records of these record types will also be shown in the Timeline section at runtime.  	
+    The following image shows that because you selected **Activities**, **Notes**, and **Posts** in the **Record types to show** section of timeline properties, users will see an option to create these record types at runtime. The records of these record types will also be shown in the Timeline section at runtime.
 
-    | Configuration | Runtime | 	
-    | ------------------ | ------------ | 	
-    | ![Select the record types to show in timeline](media/timeline-record-types-to-show-config.png "Select the record types to show in timeline")  | ![Option to create the record types that are selected in timeline properties](media/timeline-record-type-to-show-runtime.png "Record types shown based on the record types selected in timeline properties")  |	
-    |||	
+    |Configuration|Runtime|
+    |--------|-------------|
+    |![Select the record types to show in timeline](media/timeline-record-types-to-show-config.png "Select the record types to show in timeline")|![Option to create the record types that are selected in timeline properties](media/timeline-record-type-to-show-runtime.png "Record types shown based on the record types selected in timeline properties")|
+    |||
 
     The timeline shows an icon before the activity, post, note, and custom entity making it easy for you to identify the record type. Dates and timestamps are shown for each activity, note, or post in the timeline. 	
 
