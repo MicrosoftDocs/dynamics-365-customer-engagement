@@ -94,6 +94,7 @@ There are three entities stored in Common Data Service:
 2. Customer Voice survey response: a response to an insepction
 3. Customer voice survey question response: each individual response to each inspection question
 
+Go to **Field Service app > Settings > Field Service Settings > Inspection tab**
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/0-inspection-snapshot-parse-response.png)
@@ -132,6 +133,13 @@ There are three entities stored in Common Data Service:
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/9-CDS-data-upon-completion.jpg)
+
+
+Deserialization of Inspection Definition flow:
+This flow deserializes the Inspection Definition records and is shipped with Inspection Solution. 
+This flow is not bounded by the frequency settings introduced in Inspections tab in FS settings.
+Every Inspection form (questionnaire), once published, the deserialized inspection definition JSON data is immediately ingested into the Forms Pro entity msfp_question. This flow gets triggered on state changed to published and performs the same. 
+
 
 
 > [!div class="mx-imgBorder"]
