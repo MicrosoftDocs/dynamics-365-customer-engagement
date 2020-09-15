@@ -2,7 +2,7 @@
 title: "Set up and manage marketing forms for use in marketing pages (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn about various types of marketing forms and how to create them in Dynamics 365 Marketing"
 keywords: marketing form, fields
-ms.date: 07/21/2020
+ms.date: 09/10/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -66,10 +66,10 @@ The header settings are available at the top of the page no matter which tab is 
 
 - **Name**: Enter a name for the form. This is the name you'll see in the forms list and when adding the form to a marketing page.
 - **Form type**: Choose whether the form should function as a **Landing page**, **Subscription center**, or **Forward to a friend** form. This setting affects the requirements for what your form must contain and where you can use it. More information: [Marketing form types](#form-types) and [Design and validate your form content](#form-content)
-- **Update contacts/leads**: Choose which types of records can be created or updated in response to a form submission. Usually you should leave this set to **Contacts and leads**, which will update both types of records and link them together as needed to support lead scoring and insights. However, you might instead choose to update **Only contacts** or **Only leads** if you want to prevent one of these types of records from being changed. More information: [How form settings affect lead scoring and interaction records](#form-setting-effects)
+- **Update contacts/leads**: Choose which types of records can be created or updated in response to a form submission. Usually you should leave this set to **Contacts and leads**, which will update both types of records and link them together as needed to support lead scoring and insights. However, you might instead choose to update **Only contacts** or **Only leads** if you want to prevent one of these types of records from being changed. If you choose **Only contacts** or **Only leads**, you can even allow form submissions without updating the contact or lead. This gives you the option to collect form data, then export to Excel create a custom Workflow or Flow to map the data to an entity of your choosing. More information: [How form settings affect lead scoring and interaction records](#form-setting-effects)
 - **Status reason**: Shows the current go-live status of the form. A form must be live before you can use it in a marketing page or embed it on an external site. You can't change this setting here; use buttons on the command bar instead. More information: [Go live to make your marketing form available for use](#form-go-live)
 
-![Form settings in the header](media/form-header-settings.png "Form settings in the header")
+    ![Form settings in the header](media/form-header-settings.png "Form settings in the header")
 
 ### Settings on the Summary tab
 
@@ -93,7 +93,7 @@ The following settings and information are provided on the **Summary** tab:
 - **Related marketing pages**: Here you can see a list of marketing pages where this form is used. Select any listed page to open it.
 - **Related fields**: Here you can see a list of fields used in this form. Select any listed field to open its definition.
 
-![Form Summary tab](media/form-summary.png "Form Summary tab")
+    ![Form Summary tab](media/form-summary.png "Form Summary tab")
 
 <a name="form-setting-effects"></a>
 
@@ -142,6 +142,42 @@ When a form is submitted with **Update contact/leads** set to **Only contacts**:
   - If a matching contact is found, update its fields to match the submission.
   - If no contact is found, then create a new one based on the submission.
 - The system generates a form-submitted interaction record that includes the found/created contact ID (but the lead ID is null).
+
+#### Do not create/update contacts or leads
+
+You can also collect form data, but choose not to create new contacts or update contacts or leads. This feature allows you to access data from form submissions in a form submission entity. It does not map or update any fields to an entity at the time of the form submission. This option provides advanced users the flexibility to decide how to handle the form submission entity without changing any contact or lead data in the CRM database.
+
+> [!IMPORTANT]
+> Forms created without updating contacts or leads cannot be used in customer journeys, as the contact or lead will not be mapped and the journey cannot provide a matching strategy. The submission record created can, however, be exported to Excel, or be linked to update any entity record via a Workflow or a Flow.
+
+To prevent mapping form data to contacts or leads, go to **Settings** > **Advanced settings** > **Marketing settings** > **Landing pages** > **Default Marketing page configuration** and switch on **Allow for form submissions without update to contact/lead**.
+
+![Enable allowing form submissions without updating contact/lead](media/marketing-forms-allow-no-update.png "Enable allowing form submissions without updating contact/lead")
+
+After you enable allowing form submissions without updating contacts or leads, you will have the option to select **No update** in the marketing form settings.The submission records are created at the time of submission, however the process stops before any contact or lead is updated.
+
+![No update in marketing form settings](media/marketing-forms-no-update.png "No update in marketing form settings")
+
+When a landing page type form is submitted with **Update contact/leads** set to **No update**:
+
+- Contacts and leads are not created or updated, so the **Lead matching strategy** and **Contact matching strategy** setting is not required and has no effect.
+- The system generates a form-submitted interaction record with the field submission values, but leaves the lead ID null. The contact ID will also be left null unless it is available from previous interactions such as a form submission or email link click.
+- The no update setting only works with landing page form types.
+- While not updating any contact or lead, no update enables selection of form fields of entities other than a contact or lead. This provides users with a rich selection of form fields and allows the possibility to use the option sets under these fields. The no update setting does not map the fields or create any matching strategy, and works as a prototype selection for data collection purposes only.
+- The fields used in the form can be from any entity, however they will not map to the specific entity. The fields will only be used for data collection purposes.
+- The unmapped fields can be created when needed to use as an option set from any entity, such as custom fields and custom entities.
+    
+    For example, if you want to use a “Card type” custom field inside your form, under a “Credit card application” custom entity, you would use the following parameters when creating the form field:
+
+    - Unmapped entity = Credit Card Application
+    - Unmapped attribute = Card Type
+
+    As shown in the image below, this would give you a field with “Debit” and “Credit” options that you created previously, which you could then use as a dropdown field for collecting credit card applications without updating contacts or leads.
+
+    ![No update credit card example](media/marketing-forms-credit-card.png "No update credit card example")
+
+> [!NOTE]
+> Advanced users can create custom [Workflows](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/workflow-processes) to map form data collected through the **No update** option to custom entities. Learn more: [Map form data to entities with custom Workflows](entity-mapping.md)
 
 <a name="form-content"></a>
 

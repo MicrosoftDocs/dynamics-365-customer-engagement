@@ -4,7 +4,7 @@ description: "Learn the architecture overview of Dynamics 365 Channel Integratio
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 12/31/2019
+ms.date: 09/07/2020
 ms.topic: get-started-article
 ms.service: 
   - dynamics-365-customerservice
@@ -23,8 +23,8 @@ Dynamics 365 Channel Integration Framework version 2.0 provides an extensible fr
 **1 - Microsoft Dynamics 365**<br>
 Dynamics 365 environment where the Dynamics 365 Channel Integration Framework app is present to create and manage the configurations required for a telephony channel to interact with the Dynamics 365 model-driven app.
 
-**2 - Omnichannel for Customer Service app**<br>
-The Omnichannel for Customer Service app exposes the Dynamics 365 Channel integration Framework panel to host the telephony channel.
+**2 - Multisession apps**<br>
+The Customer Service workspace and Omnichannel for Customer Service apps expose the Dynamics 365 Channel integration Framework panel to host the telephony channel.
 
 **3 - Channel Integration Framework Adapter**<br>
 The Channel Integration Framework Adapter enables the communication between Dynamics 365 model-driven app and the capabilities of the telephony channel.

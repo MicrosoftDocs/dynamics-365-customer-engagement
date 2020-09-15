@@ -14,20 +14,25 @@
 ## User Guides
 
 ### Customer Service workspace
-#### [Introduction to Customer Service workspace](csw-overview.md)
-#### [Customer Service workspace system requirements](customer-service-workspace-system-requirements.md)
-#### [Overview of the productivity pane](csw-productivity-pane.md)
-#### [View AI suggested similar cases and knowledge articles](csw-view-ai-suggested-cases-knowledge-articles.md)
+
+#### Agent and supervisor experience
+##### [Introduction to Customer Service workspace](csw-overview.md)
+##### [Customer Service workspace system requirements](customer-service-workspace-system-requirements.md)
+##### [Overview of the productivity pane](csw-productivity-pane.md)
+##### [View AI suggested similar cases and knowledge articles](csw-view-ai-suggested-cases-knowledge-articles.md)
 
 ### Customer Service Hub
 #### [Introduction to Customer Service Hub](user-guide-customer-service-hub.md)
 #### [Learn the basics](customer-service-hub-user-guide-basics.md)
 
-#### Work with email
-##### [Using Email](customer-service-hub-user-guide-email-overview.md)
-#### Work with timeline
+#### [App profile manager for Customer Service workspace](../app-profile-manager/overview.md)
 
-##### [Use timeline](customer-service-hub-user-guide-timeline-overview.md)
+#### Work with email
+##### [Configuring email](customer-service-hub-user-guide-email-admin.md)
+##### [Using email](customer-service-hub-user-guide-email-overview.md)
+#### Work with timeline
+##### [Configuring timeline](customer-service-hub-user-guide-timeline-admin.md)
+##### [Using timeline](customer-service-hub-user-guide-timeline-overview.md)
 
 #### Work with cases
 ##### [Create a case](customer-service-hub-user-guide-create-a-case.md)
@@ -189,6 +194,7 @@
 ### [Unable to delete a managed solution consisting an SLA enabled entity](troubleshoot-delete-managed-solution.md)
 ### FAQs
 #### [Email FAQs](email-faqs.md)
+#### [Timeline FAQs](timeline-faqs.md)
 #### [Migration tool FAQs](migrate-tool-faqs.md)
 #### [FAQs on AI-suggested cases and knowledge articles](csw-faqs-ai-suggestions.md)
 
