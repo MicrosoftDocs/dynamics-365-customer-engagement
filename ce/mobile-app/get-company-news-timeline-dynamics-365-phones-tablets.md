@@ -1,5 +1,6 @@
 ---
 title: "Get the Company News Timeline for Dynamics 365 for phones and tablets | MicrosoftDocs"
+description: Learn about Company News Timeline for Dynamics 365 for phones and tablets
 ms.custom: dyn365-mobile-app
 ms.date: 09/10/2020
 ms.reviewer: 
