@@ -6,9 +6,9 @@ ms.author: nenellim
 manager: shujoshi
 applies_to: 
   - ""
-ms.date: 09/01/2020
+ms.date: 09/15/2020
 ms.service: 
-  - "dynamics-365-customerservice"
+ "dynamics-365-customerservice"
 ms.topic: article
 ---
 
