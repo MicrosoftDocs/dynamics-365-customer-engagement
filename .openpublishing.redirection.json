@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "ce/company-news-timeline/get-company-news-timeline-dynamics-365-phones-tablets.md",
+      "redirect_url": "../mobile-app/get-company-news-timeline-dynamics-365-phones-tablets",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/marketing/dynamics-365-admin-center.md",
       "redirect_url": "power-platform-admin-center",
       "redirect_document_id": "false"
