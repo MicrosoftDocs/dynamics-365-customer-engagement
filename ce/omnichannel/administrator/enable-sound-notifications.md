@@ -40,9 +40,9 @@ When you enable sound settings, the options to personalize settings are availabl
    - **Sound:** Accept the default setting or search and select a different audio file. You can use the **New Audio File** option to upload and use an audio file of your choice.
    - **Volume:** Accept the default setting or use the slider to adjust the volume.
 
-     > ![Sound notification settings](../media/sound-notification-settings.png "Sound notification settings")
+    > ![Sound notification settings](../media/sound-notification-settings.png "Sound notification settings")
 5. In the **Incoming messages for open sessions** section, customize the options for sound notifications for messages in open sessions, such as live chat or a social channel.
-    > ![Sound notification settings for open sessions](../media/sound-notification-open-session.png "Sound notification settings for open sessions")
+  > ![Sound notification settings for open sessions](../media/sound-notification-open-session.png "Sound notification settings for open sessions")
 6. Select **Save.**
 
 ### See also
