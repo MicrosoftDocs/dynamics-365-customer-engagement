@@ -83,49 +83,53 @@ Existing work orders will display and reference the previous version of the insp
 
 ## Understand, view, and report inspection responses
 
+// https://msit.microsoftstream.com/video/85e9a3ff-0400-96f3-957b-f1eaf3cb7e4d
+
+// more details - https://msit.microsoftstream.com/video/401ba4ff-0400-96f3-103c-f1eaf3bb7a39
+
 There are three entities stored in Common Data Model:
 1. Inspection: the set of questions.
 1. Inspection question: each individual question entry in the inspection.
 2. inspection response: overall answer containing answers to all the questions in the overall inspection.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/1-inspections-snapshot-1.png)
+> ![Screenshot of ](./media/1-inspections-snapshot-1.jpg)
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/2-inspections-snapshot-2.png)
+> ![Screenshot of ](./media/2-inspections-snapshot-2.jpg)
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/3-inspections-snapshot-3.png)
+> ![Screenshot of ](./media/3-inspections-snapshot-3.jpg)
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/4-snapshot-before-publish-inspection.png)
+> ![Screenshot of ](./media/4-snapshot-before-publish-inspection.jpg)
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/5-snapshot-after-publish-inspection.png)
+> ![Screenshot of ](./media/5-snapshot-after-publish-inspection.jpg)
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/6-response-snapshot-before-completion.png)
+> ![Screenshot of ](./media/6-response-snapshot-before-completion.jpg)
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/7-snapshot-after-response-1.png)
+> ![Screenshot of ](./media/7-snapshot-after-response-1.jpg)
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/8-response-snapshot-after-completion-2.png)
+> ![Screenshot of ](./media/8-response-snapshot-after-completion-2.jpg)
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/9-CDS-data-upon-completion.png)
+> ![Screenshot of ](./media/9-CDS-data-upon-completion.jpg)
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/10-Flow-for-published-questions.png)
+> ![Screenshot of ](./media/10-Flow-for-published-questions.jpg)
 
 ## Configuration considerations
 
