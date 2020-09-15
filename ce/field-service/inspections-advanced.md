@@ -83,14 +83,20 @@ Existing work orders will display and reference the previous version of the insp
 
 ## Understand, view, and report inspection responses
 
+After technicians answer inspection questions and mark the work order service task as complete, inspection answers are stored in the Common Data Service for reporting purposes.
+
 // https://msit.microsoftstream.com/video/85e9a3ff-0400-96f3-957b-f1eaf3cb7e4d
 
 // more details - https://msit.microsoftstream.com/video/401ba4ff-0400-96f3-103c-f1eaf3bb7a39
 
-There are three entities stored in Common Data Model:
-1. Inspection: the set of questions.
-1. Inspection question: each individual question entry in the inspection.
-2. inspection response: overall answer containing answers to all the questions in the overall inspection.
+There are three entities stored in Common Data Service:
+1. Customer Voice survey question: each inspection question
+2. Customer Voice survey response: a response to an insepction
+3. Customer voice survey question response: each individual response to each inspection question
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/0-inspection-snapshot-parse-response.png)
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/1-inspections-snapshot-1.jpg)
