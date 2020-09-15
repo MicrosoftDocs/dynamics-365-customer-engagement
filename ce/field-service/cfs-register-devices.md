@@ -28,6 +28,8 @@ search.app:
 
 # Register IoT devices in Field Service
 
+// https://msit.microsoftstream.com/video/fb66a1ff-0400-96f3-cfd2-f1eaf201f9a8
+
 
 ## Prerequisites
 > [!Note]
