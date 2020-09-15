@@ -2,7 +2,7 @@
 title: "Installation & setup for Connected Field Service for IoT Hub (Dynamics 365 Field Service) | MicrosoftDocs"
 ms.custom:
   - dyn365-fieldservice
-ms.date: 10/09/2019
+ms.date: 09/14/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite:
@@ -79,8 +79,14 @@ Next, deploy and connect Azure IoTHub to your Field Service environment by going
 Before proceeding, make sure all required Azure resources are successfully deployed and that the overall deployment status is **Success**.  
 
 After you’ve installed all required Azure resources, click **Authorize** to configure the Dynamics 365 connector connection API. When you configure the connection API you’ll need to enter your Dynamics 365 subscription account. See more details in the topic on [Authorize API connection between Dynamics 365 and AzureIoT](./cfs-authorize-api-connection.md).
+
+Back in Dynamics 365 Field Service go to Settings > Providers to see your Azure IoT Hub subscription connected as an IoT Provider.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/cfs-deploy-providers.png)
   
 ### Set up the sample simulator (optional)  
+
  To find the simulator URL , sign in to your Azure subscription, and then click the App Service resource type under the newly created resource group. You’ll see the URL is in the top right corner. Copy the URL and complete the following steps:  
   
 1. Paste the URL into your browser’s address bar to load the page.  
@@ -127,6 +133,7 @@ To monitor a device, you need to create and register an asset.
 8.  When the device is registered, it will appear as a registered asset. To verify the registration, from the main menu click **Field Service**  > **Registered Assets**.  
   
 ### Set up a Power BI chart (optional)  
+
  Set up Power BI  accounts and open the sample .pbix report.  
   
 1. Go to [https://powerbi.microsoft.com](https://powerbi.microsoft.com) and create a free Power BI account .  
@@ -373,6 +380,7 @@ To monitor a device, you need to create and register an asset.
     -   The third chart shows alerts along with the action taken to resolve the issue.
 
 <a name="bkmk_step3 "></a>
+
 ## Privacy notice
  [!INCLUDE[cc_privacy_crm_connected_field_service](../includes/cc-privacy-crm-connected-field-service.md)]
 
