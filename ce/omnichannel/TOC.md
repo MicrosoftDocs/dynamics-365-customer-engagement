@@ -327,9 +327,9 @@
 #### [msdyn_macrosession](developer/reference/entities/msdyn_macrosession.md)
 #### [msdyn_macrosolutionconfiguration](developer/reference/entities/msdyn_macrosolutionconfiguration.md)
 
-#### [msdyn_ocbotchannelconfiguration](developer/reference/entities/msdyn_ocbotchannelconfiguration.md)
+#### [msdyn_ocbotchannelregistration](developer/reference/entities/msdyn_ocbotchannelregistration.md)
 #### [msdyn_ocfbpage](developer/reference/entities/msdyn_ocfbpage.md)
-#### [msdyn_occhannelregistration](developer/reference/entities/msdyn_occhannelregistration.md)
+#### [msdyn_occhannelconfiguration](developer/reference/entities/msdyn_occhannelconfiguration.md)
 #### [msdyn_occustommessagingchannel](developer/reference/entities/msdyn_occustommessagingchannel.md)
 
 #### [msdyn_occhannelstateconfiguration](developer/reference/entities/msdyn_occhannelstateconfiguration.md)
