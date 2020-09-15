@@ -195,7 +195,7 @@ Customization allows you to add **Bookable resource** to the create and edit exp
 
     -or-
 
-    Create a custom view (that includes **Bookable resource** column) to view only time entries that are created for the resource. Publish the customizations on the app module designer for this view to show up under **View selector** on the **Time entries** page. There are two plug-ins that handle setting the manager for non-project time entries:
+    Create a custom view, that includes the **Bookable resource** column, to view only time entries that are created for the resource. Publish the customizations on the app module designer for this view to show up under **View selector** on the **Time entries** page. There are two plug-ins that handle setting the manager for non-project time entries:
 
     - PreValidateTimeEntryCreate
     - PreValidateTimeEntryUpdate
