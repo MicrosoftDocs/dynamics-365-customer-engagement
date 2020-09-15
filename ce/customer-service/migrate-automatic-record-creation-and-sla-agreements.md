@@ -7,7 +7,7 @@ manager: shujoshi
 ms.date: 08/03/2020
 ms.topic: article
 ms.service: 
-  - dynamics-365-customerservice
+   dynamics-365-customerservice
 ms.custom: 
   - dyn365-customerservice
 search.audienceType: 
@@ -112,7 +112,7 @@ The migration landing page shown in the next image is what will be displayed for
 
 ## Migration Summary
 
-When you select ARC & SLA Migration in the left pane, the **Summary** page is displayed as follows.
+When you select **ARC & SLA Migration** in the left pane, the **Summary** page is displayed as follows.
 
 > ![Migration summary page](media/migration-summary-page.png  "Migration summary page")
 
@@ -129,29 +129,9 @@ The annotations are explained as follows.
 |7|**Start migration**: Allows you to begin the migration process.|
 |||
 
-## Migrate the automatic record creation rules and SLAs
+## Migrate the automatic record creation rules and SLA items
 
-You can migrate both the automatic record creation rules and SLAs together or separately.
-
-<!-- 
-Perform the following steps to migrate the records:
-
-1. On the Summary page, select **Start migration**.
-2. On the **Step 2** page, **Select the category to migrate** section, and select the check boxes pertaining to automatic record creation rules and or SLAs.
-3. Select **Next**. If you have selected both automatic record creation rules and SLAs, the Step 3.1 page appears. 
-4. The **Step 3** page displays the option to download the log files of the pre-migration check.
-5. Optionally, select **Download all logs** to verify the pre-migration status.
-6. Select **Next**. On the **Step 4 **page that appears, you are prompted to review your selection and have the option to go back and make additional changes, if any.
-7. Select **Start Migration**. If the migration is successful, the **Step 6** page is displayed.
-    > ![Migration completed](media/sla-arc-finish-migration.png "Migration completed")
-8. Select **Finish**. The **Summary** page displays the migration status.
-
-    > ![Post-migration summary](media/post-migration-summary.png "Post-migration summary")
-
-When you select **Start migration**, the migration tool takes you through the migration process, which consists of the following steps:
-
-
--->
+You can migrate both the automatic record creation rules and SLA items together or separately.
 
 ### Category to migrate
 
