@@ -33,33 +33,53 @@ search.app:
 > [!Note]
 >
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+
 
 ## Create and register an IoT device from IoT Hub
 
-cfs-register-device-iothub
 
-cfs-register-device-iothub-new
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/cfs-register-device-iothub.png)
 
-cfs-register-device-iothub-new-form
 
-cfs-register-device-iothub-import
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/cfs-register-device-iothub-new.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/cfs-register-device-iothub-new-form.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/cfs-register-device-iothub-import.png)
 
 ## Create and register an IoT device from Field Service
-cfs-register-device-fs-new-register
 
-cfs-register-device-fs-new-register2
 
-cfs-register-device-fs-new-register3
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/cfs-register-device-fs-new-register.png)
 
-cfs-register-device-fs-new-register-iothub
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/cfs-register-device-fs-new-register2.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/cfs-register-device-fs-new-register3.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/cfs-register-device-fs-new-register-iothub.png)
 
 ## Connect to asset
 
-cfs-register-device-fs-associate-asset
 
-cfs-register-device-fs-associate-asset-more
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/cfs-register-device-fs-associate-asset.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/cfs-register-device-fs-associate-asset-more.png)
 
 ## Configuration considerations
 ## Additional Notes
