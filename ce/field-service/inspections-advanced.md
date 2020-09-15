@@ -85,6 +85,8 @@ Existing work orders will display and reference the previous version of the insp
 
 After technicians answer inspection questions and mark the work order service task as complete, inspection answers are stored in the Common Data Service for reporting purposes.
 
+// @kristina this is where i need your help
+
 // https://msit.microsoftstream.com/video/85e9a3ff-0400-96f3-957b-f1eaf3cb7e4d
 
 // more details - https://msit.microsoftstream.com/video/401ba4ff-0400-96f3-103c-f1eaf3bb7a39
@@ -135,6 +137,7 @@ After publishing an inspection you will see the questions are stored in CDS in t
 
 
 Deserialization of Inspection Definition flow:
+
 This flow deserializes the Inspection Definition records and is shipped with Inspection Solution. 
 This flow is not bounded by the frequency settings introduced in Inspections tab in FS settings.
 Every Inspection form (questionnaire), once published, the deserialized inspection definition JSON data is immediately ingested into the Forms Pro entity msfp_question. This flow gets triggered on state changed to published and performs the same. 

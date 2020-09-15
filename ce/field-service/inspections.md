@@ -224,6 +224,7 @@ Find the inspection form and enter answers. Technicians can upload files, take p
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service Mobile app showing a sample inspection.](./media/inspections-mobile-r-2.png)
 
+
 When finished, the technician can select **Mark Complete** or set **Complete %** to 100.
 
 > [!div class="mx-imgBorder"]
@@ -268,7 +269,7 @@ Find the inspection form and enter answers.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service (Dynamics 365) mobile app showing a sample inspection.](./media/inspections-fsm-new2.png)
 
-Technicians can upload files, take pictures, or upload pictures from the phone's camera roll.
+Technicians can upload files, take pictures, or upload pictures from the phone's camera roll. When uploading a file or image, select the caption icon to add a comment. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service (Dynamics 365) mobile app showing the upload photos option on inspections.](./media/inspections-fsm-new3.png)
