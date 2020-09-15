@@ -28,10 +28,11 @@
 #### [App profile manager for Customer Service workspace](../app-profile-manager/overview.md)
 
 #### Work with email
-##### [Using Email](customer-service-hub-user-guide-email-overview.md)
+##### [Configuring email](customer-service-hub-user-guide-email-admin.md)
+##### [Using email](customer-service-hub-user-guide-email-overview.md)
 #### Work with timeline
-
-##### [Use timeline](customer-service-hub-user-guide-timeline-overview.md)
+##### [Configuring timeline](customer-service-hub-user-guide-timeline-admin.md)
+##### [Using timeline](customer-service-hub-user-guide-timeline-overview.md)
 
 #### Work with cases
 ##### [Create a case](customer-service-hub-user-guide-create-a-case.md)
@@ -193,6 +194,7 @@
 ### [Unable to delete a managed solution consisting an SLA enabled entity](troubleshoot-delete-managed-solution.md)
 ### FAQs
 #### [Email FAQs](email-faqs.md)
+#### [Timeline FAQs](timeline-faqs.md)
 #### [Migration tool FAQs](migrate-tool-faqs.md)
 #### [FAQs on AI-suggested cases and knowledge articles](csw-faqs-ai-suggestions.md)
 
