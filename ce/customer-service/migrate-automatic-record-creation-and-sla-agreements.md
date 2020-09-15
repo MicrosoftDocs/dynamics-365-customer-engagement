@@ -44,9 +44,7 @@ The migration tool provides the following functionality:
 - For migrating SLAs, your environment must have Customer Service version 9.0.20053.1030 or later to opt in for migration.
 - Administrator permissions.
 
-
-
-## Accessing the migration tool
+## Access the migration tool
 
 You can access the migration tool using the following steps:
 
@@ -104,220 +102,226 @@ When you have successfully accessed the migration tool, choose one of the follow
 **First-time migration tool user**: Follow the steps in this option if you are accessing and using the migration tool for the first time.
 
 **Experienced migration tool user**: Follow the steps in this option if you have accessed and used the migration tool in the past.
--->
+
 
 ## Migration tool for first-time users
 
 The migration landing page shown in the next image is what will be displayed for first-time users. It provides the following: 
-
+-->
 <!-- editor comment: Maybe add "Category" in bold to step 1 so it is more like the other steps in the list. -->
 
+## Migration Summary
 
-1. **Category**: An overview of the automatic record creation rules and SLAs.
-2. **Total**: Displays the number of legacy rules available overall.
-3. **Migrated**: Displays the number of rules you have migrated.
-4. **Pending**: Displays the number of rules you have pending migration (includes failed rules, partially or incomplete migrated rules, and rules that have not been attempted).
-5. **Migration status**: Displays whether migration has started.
-6. **Refresh**: Allows you to update migration status.
-7. **Start migration**: Allows you to begin the migration process.
+When you select ARC & SLA Migration in the left pane, the **Summary** page is displayed as follows.
 
-    ![Migration tool first-time user overview](media/migration-tool-first-time-users-1.png  "Migration tool first-time user overview")
+> ![Migration summary page](media/migration-summary-page.png  "Migration summary page")
+
+The annotations are explained as follows.
+
+|label|Description|
+|-------|----------|
+|1|**Category**: An overview of the automatic record creation rules and SLAs.|
+|2|**Total**: Displays the number of legacy rules available overall.|
+|3|**Migrated**: Displays the number of rules you have migrated.|
+|4|**Pending**: Displays the number of rules you have pending migration (includes failed rules, partially or incomplete migrated rules, and rules that have not been attempted).|
+|5|**Migration status**: Displays whether migration has started.|
+|6|**Refresh**: Allows you to update migration status.|
+|7|**Start migration**: Allows you to begin the migration process.|
+|||
+
+## Migrate the automatic record creation rules and SLAs
+
+You can migrate both the automatic record creation rules and SLAs together or separately.
+
+<!-- 
+Perform the following steps to migrate the records:
+
+1. On the Summary page, select **Start migration**.
+2. On the **Step 2** page, **Select the category to migrate** section, and select the check boxes pertaining to automatic record creation rules and or SLAs.
+3. Select **Next**. If you have selected both automatic record creation rules and SLAs, the Step 3.1 page appears. 
+4. The **Step 3** page displays the option to download the log files of the pre-migration check.
+5. Optionally, select **Download all logs** to verify the pre-migration status.
+6. Select **Next**. On the **Step 4 **page that appears, you are prompted to review your selection and have the option to go back and make additional changes, if any.
+7. Select **Start Migration**. If the migration is successful, the **Step 6** page is displayed.
+    > ![Migration completed](media/sla-arc-finish-migration.png "Migration completed")
+8. Select **Finish**. The **Summary** page displays the migration status.
+
+    > ![Post-migration summary](media/post-migration-summary.png "Post-migration summary")
 
 When you select **Start migration**, the migration tool takes you through the migration process, which consists of the following steps:
 
-<!-- editor comment: The following steps already were listed above, starting on line 97. I suggest adding links to that section and getting ride of the following section.  -->
 
+-->
 
-**Step 1:** [Category to migrate](migrate-automatic-record-creation-and-sla-agreements.md#step-1-category-to-migrate)  <br>
-**Step 2:** [Premigration checkup](migrate-automatic-record-creation-and-sla-agreements.md#step-2-premigration-checkup) <br>
-**Step 3:** [Rules and items to migrate](migrate-automatic-record-creation-and-sla-agreements.md#step-3-rules-and-items-to-migrate)<br> 
-**Step 4:** [Review](migrate-automatic-record-creation-and-sla-agreements.md#step-4-review)<br>
-**Step 5:** [Migration](migrate-automatic-record-creation-and-sla-agreements.md#step-5-migration)<br> 
-**Step 6:** [Finish](migrate-automatic-record-creation-and-sla-agreements.md#step-6-finish)
+### Category to migrate
 
-## Step 1: Category to migrate
+When you select **Start migration**, the **Step 1** page is displayed. Select the categories that you want to migrate.
 
-The **Step 1** screen provides:
+![Migration tool for first-time user - Step 1 - Next button](media/migration-tool-step-1-first-time-users-2.png "Migration tool for first-time user - Step 1 - Next button")
 
-1.	A tracker that is displayed on the left, showing you where you are in the migration process at all times.
-2.	Category options that allow you to select which rules you want to migrate by selecting a box. You can elect to migrate ARC and SLAs separately, or migrate both at the same time. 
-3.	You must select a category for migration before you can proceed.   
+The annotations are explained as follows.
 
-    ![Migration tool for first-time user - Step 1 - Select a category](media/migration-tool-step-1-first-time-users-1.png "Migration tool for first-time user - Step 1 - Select a category")
+|Label|Description|
+|------|------|
+|1 |A tracker that is displayed on the left, shows you where you are in the migration process at any time.|
+|2| You can migrate the automatic record creation rules and SLAs separately or both at the same time. |
+|3|	You must select a category for migration before you can proceed. select **Next** to go to the next stage.|
+|||
 
-4.	When you select the category you want to migrate, the selection is confirmed by a check mark.
+### Premigration checkup
 
-5.	The **Next** button at the bottom will turn blue when you select a category. 
+The **Step 2** page provides a premigration check that displays what the actual migration results will look like so you can mitigate potential migration failures before you begin.  
 
-    ![Migration tool for first-time user - Step 1 - Next button](media/migration-tool-step-1-first-time-users-2.png "Migration tool for first-time user - Step 1 - Next button")
+The check can be done on automatic record creation rules and or SLAs, depending on your selection from the previous screen.
 
-## Step 2: Premigration checkup
+When you run the migration process for the first time, you won't have any insights until you complete the premigration checkup. After the premigration check is complete, the following overview is displayed.
 
-The **Step 2** screen provides a premigration check that displays what the actual migration results will look like so you can mitigate potential migration failures before you begin.  
+![Migration tool - Step 2](media/migration-tool-step-2-first-time-users-1.png "Migration Tool - Step 2")
 
-The **Premigration checkup** can be performed on ARC or SLA or both, depending on your selection from the previous screen.
+|Label|Description|
+|-------|-------|
+|1|	The number of rules that will successfully complete migration.|
+|2|	The number of rules that might fail the migration.|
+|||
 
-As a first-time user, you won't have any insights until you complete the premigration checkup. When the premigration checkup is complete, the following overview is displayed. It shows:
 
-1.	The number of rules that will successfully complete migration, displayed by category.
+### Rules and items to migrate
 
-2.	The number of rules that might fail if migrated, displayed by category.
+If you have selected both automatic record creation rules and SLAs, the step 3 page is divided into **Step 3.1** and **Step 3.2** pages, one each for automatic record creation rules and SLAs.
 
-3.	The **Next** button, which you select to continue to **Step 3** to view which rules passed and which failed.
+By default, the rules and items that successfully complete the premigration check are selected to be migrated. You can select the rules and items that you want to migrate.  
 
-    ![Migration tool for first-time user - Step 2](media/migration-tool-step-2-first-time-users-1.png "Migration Tool for first-time user - Step 2")
+The rules and items that fail the premigration check can still be migrated; however, the data will not completely migrate. If you want to migrate both passed and failed rules, use the **Migrate all rules** option to override any current selection and migrate all rules.
 
-## Step 3: Rules and items to migrate
+#### Automatic record creation and update rules
 
-The **Step 3** screen shows the rules that successfully passed are automatically selected to move forward for migration. However, you can control which rules you want to migrate by selecting or deselecting them.  
+In this section, the Step 3.1 page that appears for the rules that you select for migration is shown as a sample.
 
-Rules that fail can still be migrated; however, the data will not completely migrate. You can fix any errors prior to migration or fix the rule in the Customer Service Hub app when you've completed your migration. If you want to migrate both passed and failed rules, use the **Migrate all rules** option to override any current selection and migrate all rules.
+![Migration Tool for first-time user](media/migration-tool-step-3-first-time-users-1.png "Migration Tool for a first-time user")
 
+Label|Description
+|----|------|
+|1|	Rules that pass are automatically selected for migration. You can clear the selection for any rules that you don't want to migrate. Rules that failed are not selected for migration. To understand why a rule failed, you can select it and view the details about the failure and use the information to fix the failure prior to or after migration.|
+|2|	**Migrate all rules** provides you the ability to override the current selection to select all rules, regardless of their premigration check result. |
+|3|	This alert notifies you that while you can migrate rules that failed the premigration check, the data on failed rules will not migrate completely and provides the option to **unselect rules** that failed.|
+|4|	Lets you **download all logs** for review and troubleshooting purposes.|
 
-<!-- Editor comment: It's confusing here with two Step 3 headings, even at different levels. I suggest removing "Step 3" from this next heading. -->
+#### View details of rules that failed
 
+When you select a rule that failed the premigration check, you have a choice of **Basic** and **Advanced** views to understand why a rule failed. You can use this information to either troubleshoot and fix the ruled that failed, or choose to migrate the rule and fix it in Customer Service Hub after migration is complete.
 
-### Step 3: Automatic record creation and update rules
+**Basic view**
 
-Use the following to complete Step 3:   
+The **Basic** view provides an overview for each individual rule that failed.
 
-1.	The tracker displays which set of rules you are working on for migration to ensure clarity.
+![Migration tool - Basic detail screen for failed rules](media/migration-tool-step-3-basic-screen-first-time-users-1.png "Migration tool - Basic detail screen for failed rules")
 
-2.	Rules that pass are automatically selected for migration. You can deselect any rules you don't want to migrate.
+|Label|Description|
+|---|--------|
+|1|	High-level details on rules that fail.|
+|2|	**Pre-migration checkup details** shows results along with details of why a rule failed.|
+|||
 
-3.	Rules that failed are not selected for migration; however, you can still select them but they might not migrate completely. To understand why a rule failed, you can select it and view the details about the failure and use the information to fix the failure prior to or after migration. See [View Details for Rule Failure](#view-details-for-rule-failure) for more details. 
+##### Advanced view
 
-4.	**Migrate all rules** provides you the ability to override the current selection in order to select all rules, regardless of their premigration checkup result.
+The **Advanced** view provides the problem details on rules that failed.
 
-5.	Allows you to **download all logs** that failed for review and troubleshooting purposes.  
+![Migration tool - Advanced detail screen for failed rules](media/migration-tool-step-3-advanced-screen-first-time-users-1.png "Migration tool - Advanced detail screen for failed rules")
 
-6.	This alert notifies you that while you can migrate rules that failed the premigration checkup, the data on failed rules will not migrate completely and provides the option to **unselect rules** that failed.
+|Label|Description|
+|---|----|
+|1|	Additional details about why the rule might have failed migration, which you can use to troubleshoot and resolve prior to migration.|
+|2|	The **Download log** provides a list of failed rules to review and troubleshoot.|
+|||  
 
-7.	When you have selected or deselected all of the rules you want to migrate, select **Next** to continue to Step 4.
 
-    ![Migration Tool for first-time user](media/migration-tool-step-3-first-time-users-1.png "Migration Tool for a first-time user")
+### Review
 
+When you have selected the automatic record creation rules and SLA items, a list is displayed for your review.
 
+![Migration tool - Step 4](media/migration-tool-step-4-first-time-users-1.png "Migration tool - Step 4") 
 
-<!-- editor comment: I'm pushing the next three headings down one level so they aren't at the same level as the Step headings. Otherwise, it looks like the steps end at Step 3. -->
+|Label|Description|
+|---|----|
+|1|	View a list of all the rules that you've selected for migration.
+|2|	Select **Back** to return to the previous step to make additional changes.|
+|3|	Select **Start migration** to begin the migration.|
+|||
 
+### Migration
 
-### View details for rule failure
+After you begin your migration, the details are displayed on the page.
 
-When you select a rule that failed the premigration checkup, you have a choice of **Basic** and **Advanced** views to better understand why a rule failed. You can use this information to either troubleshoot and fix the ruled that failed, or choose to migrate the rule and fix it in the Customer Service Hub after migration is complete.
+![Migration tool - Step 5](media/migration-tool-step-5-first-time-users-1.png "Migration tool - Step 5")
 
-#### Basic view
+The migration details are displayed after the migration is complete.
 
-The **Basic** view provides the following overview for each individual rule that failed, including:
+![Migration tool - Step 5](media/migration-tool-step-5-first-time-users-2.png "Migration tool  - Step 5")
 
-1.	High-level details on rules that fail.
+|Label|Description|
+|---|----|
+|1|	**Selected**: Displays the total number of rules that were selected for the current migration run.|
+|2|	**Migrated**: Displays the total number of rules that successfully completed migration.|
+|3|	**Incomplete**: Displays the total number of rules that encountered errors and didn't successfully complete migration.|
+|4|	**Migration Status**: Displays either a green check mark ![green check mark](media\migration-tool-step-5-green-check-first-time-users-3.png "green check mark"), which represents rules successfully migrated, or a red exclamation mark ![red exclamation mark](media\migration-tool-step-5-red-check-first-time-users-3.png "red exclamation mark"),   which represents some or all rules did not successfully complete migration.|
+|5|	**Finish**: Completes the migration process when finished.|
+|||
 
-2.	**Pre-migration checkup** shows results along with details of why a rule failed.
+#### Incomplete migration details
 
-    ![Migration tool for first-time user - Basic detail screen for failed rules](media/migration-tool-step-3-basic-screen-first-time-users-1.png "Migration tool for first-time user - Basic detail screen for failed rules")
+To view ARC or SLA rules that did not successfully complete migration, you can select **Incomplete** in the **Migration status** section.  
 
-#### Advanced view
+![Migration tool - Step 5 - Incomplete migration details](media/migration-tool-step-5-first-time-users-3.png "Migration tool - Step 5 - Incomplete migration details")
 
-The **Advanced** view provides the following overview on rules that failed, including:
+|Label|Description|
+|---|----|
+|1|	**Name**: Displays each individual rule that failed.|
+|2|	**Migration status**: Displays the status as incomplete.|
+|3|	**Problem details**: Displays why the rule failed and has a **Download log** option that provides more details.
+|4|	**Download all logs**: Let you download the logs of the rules that you can use for reviewing and troubleshooting.|
+|||
 
-1.	Additional details about why the rule might have failed migration, which you can use to troubleshoot and resolve prior to migration.
+### Finish
 
-2.	The **Download log** provides a list of failed rules to review and troubleshoot.  
+When you've completed your first run and selected **Finish**, a migration **Summary** page is displayed.
 
-    ![Migration tool for first-time user - Advanced detail screen for failed rules](media/migration-tool-step-3-advanced-screen-first-time-users-1.png "Migration tool for first-time user - Advanced detail screen for failed rules")
+![Migration tool - Step 6](media/migration-tool-step-6-first-time-users-1.png "Migration tool - Step 6")
 
-## Step 4: Review
-
-When you have selected the rules you want to migrate for ARC or SLAs, a list displays for your review, which allows you to:  
-
-1.	View a list of all the rules you have selected for migration. 
-
-2.	Select **Back** to return to the previous step to make additional changes.
-
-3.	Select **Start migration** to begin the migration.
-
-    ![Migration tool for first-time user - Step 4](media/migration-tool-step-4-first-time-users-1.png "Migration tool for first-time user - Step 4")
-
-## Step 5: Migration
-
-After you begin your migration, the following screen displays with the details:
-
-1. A message that your migration is in progress.
-2. The **Next** button is disabled during the migration process. When the migration is completed you will be taken to the next step automatically.
-
-   ![Migration tool for first-time user - Step 5](media/migration-tool-step-5-first-time-users-1.png "Migration tool for first-time user - Step 5")
-
-When migration is complete, the following screen displays with the following details:
-
-1.	**Selected**: Displays the total number of rules that were selected for the current migration run.
-2.	**Migrated**: Displays the total number of rules that successfully completed migration.
-3.	**Incomplete**: Displays the total number of rules that encountered errors and didn't successfully complete migration. See [Incomplete Migration Details](#incomplete-migration-details) for more information.
-4.	**Migration Status**: Displays either a green check mark ![green check mark](media\migration-tool-step-5-green-check-first-time-users-3.png "green check mark"), which represents rules successfully migrated, or a red exclamation mark ![red exclamation mark](media\migration-tool-step-5-red-check-first-time-users-3.png "red exclamation mark"),   which represents some or all rules did not successfully complete migration.
-5.	**Finish**: Completes the migration process when finished.
-
-    ![Migration tool for first-time user - Step 5](media/migration-tool-step-5-first-time-users-2.png "Migration tool for first-time user - Step 5")
-
-### Incomplete migration details
-
-To view ARC or SLA rules that did not successfully complete migration, you can select **Incomplete** in the **Migration status** section. This displays a list of all rules that did not pass, including:  
-
-1.	**Name**: Displays each individual rule that failed.
-2.	**Migration status**: Displays whether a rule successfully migrated or was unsuccessful and is therefore considered incomplete.
-3.	**Problem details**: Displays why the rule failed and has a **Download log** option that provides more details.
-4.	**Download all logs**: Allows you to download a list of the rules that failed migration that you can use for review and troubleshooting.  
-
-    ![Migration tool for first-time user - Step 5 - Incomplete migration details](media/migration-tool-step-5-first-time-users-3.png "Migration tool for first-time user - Step 5 - Incomplete migration details")
-
-## Step 6: Finish
-
-When you've completed your first run and selected **Finish**, a migration **Summary** page displays with the following information:
-
-1.	**Total**: Displays the number of legacy rules present overall.
-2.	**Migrated**: Displays the number of rules you have completely migrated to date.
-3.	**Pending**: Displays the number of rules you have pending migration (includes failed rules, partially/incomplete migrated rules, and rules that have not been attempted).
-4.	**Refresh**: Allows you to view your update migration status.
-5.	**Next Step**: Provides links to all of the ARC and SLA rules where you can review the migrated rules and choose to activate them. See [Review and activate new rules](#review-and-activate-migrated-rules) for more information. 
-
-    ![Migration tool for first-time user - Step 6](media/migration-tool-step-6-first-time-users-1.png "Migration tool for first-time user - Step 6")
-
-
-
-<!-- editor question: Should the following section be part of the "Finish" step, or is it not part of any step? If part of Finish, push the heading level down. -->
+|Label|Description|
+|---|----|
+|1|	**Total**: Displays the number of legacy rules present overall.|
+|2|	**Migrated**: Displays the number of rules you have completely migrated to date.|
+|3|	**Pending**: Displays the number of rules you have pending migration (includes failed rules, partially/incomplete migrated rules, and rules that have not been attempted).|
+|4|	**Refresh**: Lets you view your updated migration status.|
+|5|	**Next Step**: Provides links to all the automatic record creation rules and SLA items that you can review and choose to activate them.|
+|||
 
 ## Review and activate migrated rules
 
-When you activate new rules for either ARC or SLA, the following screen displays:
+You can view the migrated automatic record creation rules or SLA items by selecting the links on the migration summary page. On the respective pages, you can activate the migrated rules or items.
 
-1.	**Rule name**: Displays migrated rules with an underscore (\_) to make it easier to identify the migrated rules. For example: **\_migrated**.
+![Migration tool - Step 6 - Activate new rules](media/migration-tool-step-6-first-time-users-2.png "Migration tool  - Step 6 - Activate new rules")
 
-    ![Migration tool for first-time user - Step 6 - Activate new rules](media/migration-tool-step-6-first-time-users-2.png "Migration tool for first-time user - Step 6 - Activate new rules")
+|Label|Description|
+|---|----|
+|1|	**Rule name**: Displays migrated rules with an underscore (\_) to make it easier to identify the migrated rules. For example: **\_migrated**.|
+|||
 
-### Migration detail section
+### Working with partially migrated rules
 
-<!-- editor comment: It would help to have some text here, maybe explaining what the next two subsections are. Try to avoid consecutive headings with no text in between. -->
+Select a rule with the **\_migrated** suffix to view its details.
 
+![Migration tool - Step 6 - Migration status](media/migration-tool-step-6-first-time-users-3.png "Migration tool - Step 6 - Migration status")
 
-#### Working with partially migrated rules
+|Label|Description|
+|---|----|
+|1|  The **Migration details** tab.|
+|2|	**Mark as complete**: Contains a toggle feature that identifies whether a rule has completed  (**Yes**) or not completed migration or has only partially completed migration (**No**). The administrator can review the incomplete rule and choose to resolve the issue and move the toggle to **Yes**, which then updates the migration status to **Migrated**.<br>**Note**:<ul><li> When an administrator moves the toggle to **Yes**, this confirms that the rule has been successfully migrated and therefore won't be picked up in subsequent migrations.</li><li> If the administrator doesn't take any action on an incomplete rule, the rule continues to be picked up in subsequent migrations. Also, the rule will be replaced when it is selected to migrate again.</li></ul>|
+|3| **Migration status**: Displays the status of the rule as either **Migrated** or **Incomplete**.|
+|4| **Problem Details**: Provides high-level detail on any errors encountered for the rule during migration.|
+|||
 
-When you select a **Rule name** ending in **\_migrated**, the following displays:
-
-
-<!-- editor question: Does the user need to select the tab? -->
-
-1.  The **Migration details** tab. 
-2.	**Mark as complete**: Contains a toggle feature that identifies whether a rule has completed migration (**Yes**), or has not completed or has only partially completed migration (**No**). 
-
-    The administrator can review the incomplete rule and choose to resolve the issue and move the toggle to **Yes**, which then updates the migration status to **Migrated**. 
-
-    > [!Note]
-    > - When an administrator moves the toggle to **Yes**, this confirms that the rule has been successfully migrated and therefore won't be picked up in subsequent migrations.
-    > - If the administrator doesn't take any action on an incomplete rule, the rule continues to be picked up in subsequent migrations. Also, the rule will be replaced when it is selected to migrate again. 
-3. **Migration status**: Displays the status of the rule as either **Migrated** or **Incomplete**.
-4. **Problem Details**: Provides high-level detail on any errors encountered for the rule during migration. 
-
-   ![Migration tool for first-time user - Step 6 - Migration status](media/migration-tool-step-6-first-time-users-3.png "Migration tool for first-time user - Step 6 - Migration status")
-
-#### Working with successfully migrated rules
+### Working with successfully migrated rules
 
 1. **Mark as complete**: Toggled to **Yes** by default.
 2. **Migration status**: Displays the status of the rule as either **Migrated** or **Incomplete**.
