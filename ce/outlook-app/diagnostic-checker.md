@@ -39,8 +39,7 @@ Use the Outlook Checker to run a diagnostics check and scan for potential issues
     > [!div class="mx-imgBorder"] 
     > ![Run the diagnostics checker](media/run-checker.png "Run the diagnostics checker")
     
-5. The checker will show a detailed status of all the components. 
-6. If you run into issue, you can export the log files annd send it to your administrator. Select **Export logs**.
+5. The checker will show a detailed status of all the components. If you run into issue, select **Export logs** to export the log files annd send it to your administrator.
 
     > [!div class="mx-imgBorder"] 
     > ![Export logs](media/send-logs.png "Export logs")
