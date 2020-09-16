@@ -24,7 +24,7 @@ search.app:
 ---
 # Run the diagnostics checker and scan for potential issues 
 
-Use the Outlook Checker to run a diagnostics check and scan for potential issues for Dynamics 365 App for Outlook. If you run into an issue, you can send the log files to your administrator to help troublehsoot the issue.
+Use the Outlook Checker to run a diagnostic check and scan for potential issues for Dynamics 365 App for Outlook. If you run into an issue, you can send the log files to your administrator to help troubleshoot the issue.
 
 
 1. To run the checker, in Microsoft Outlook select **Dynamics 365** to open the Dynamics 365 pane.
@@ -33,8 +33,8 @@ Use the Outlook Checker to run a diagnostics check and scan for potential issues
     > ![Open Outook pane](media/outlook-pane.png "Open Outlook pane")
     
     
-2. When you see the **Dynamics 365** pane, press **ALT** + **CTRL** + **Y** on your keyboard to bring up the **Outook Checker**.
-3. Use the **Show** or **Hide** toggle to show or hide the checker icon in the commbar bar.
+2. When you see the **Dynamics 365** pane, press **ALT** + **CTRL** + **Y** on your keyboard to bring up the **Outlook Checker**.
+3. Use the **Show** or **Hide** toggle to show or hide the checker icon in the command bar.
   
     > [!div class="mx-imgBorder"] 
     > ![Outook Checker pane](media/outloook-checker-pane.png "Outlook Checker pane")
@@ -44,7 +44,7 @@ Use the Outlook Checker to run a diagnostics check and scan for potential issues
     > [!div class="mx-imgBorder"] 
     > ![Run the diagnostics checker](media/run-checker.png "Run the diagnostics checker")
     
-5. The checker will show a detailed status of all the components. If you run into issues, select **Export logs** to export the log files annd send it to your administrator.
+5. The checker will show a detailed status of all the components. If you run into issues, select **Export logs** to export the log files and send it to your administrator.
 
     > [!div class="mx-imgBorder"] 
     > ![Export logs](media/send-logs.png "Export logs")
