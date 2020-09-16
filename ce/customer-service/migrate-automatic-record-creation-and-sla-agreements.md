@@ -4,7 +4,7 @@ author: lerobbin
 ms.author: lerobbin
 ms.reviewer: nenellim
 manager: shujoshi
-ms.date: 08/03/2020
+ms.date: 09/17/2020
 ms.topic: article
 ms.service: 
    dynamics-365-customerservice
@@ -43,16 +43,6 @@ The migration tool provides the following functionality:
 - For migrating automatic record creation rules, your environment must have Customer Service version 9.0.20034.20XX or later to opt in for migration.
 - For migrating SLAs, your environment must have Customer Service version 9.0.20053.1030 or later to opt in for migration.
 - Administrator permissions.
-
-## Access the migration tool
-
-You can access the migration tool using the following steps:
-
-1. In Customer Service Hub, select **Service Management** in **Change area**.
-
-2. Under **Data Management**, select **ARC & SLA Migration Tool (Preview)**.
-
-> ![Access Migration Tool](media/migration-tool-access-location.png "Migration tool access locations")
 
 ## Migration process
 
@@ -94,22 +84,16 @@ The following updates or edits to a rule will not be considered if:
 - The rule is edited on the web client after it was successfully migrated to Unified Interface.
 - Any edits were made to migrated rules in the Unified Interface client after running the migration tool.
 
-<!-- to delete 
-## Use the migration tool
+## Access the migration tool
 
-When you have successfully accessed the migration tool, choose one of the following two options based on your experience working with the tool:
+You can access the migration tool using the following steps:
 
-**First-time migration tool user**: Follow the steps in this option if you are accessing and using the migration tool for the first time.
+1. In Customer Service Hub, select **Service Management** in **Change area**.
 
-**Experienced migration tool user**: Follow the steps in this option if you have accessed and used the migration tool in the past.
+2. Under **Data Management**, select **ARC & SLA Migration Tool (Preview)**.
 
-
-## Migration tool for first-time users
-
-The migration landing page shown in the next image is what will be displayed for first-time users. It provides the following: 
--->
-<!-- editor comment: Maybe add "Category" in bold to step 1 so it is more like the other steps in the list. -->
-
+> ![Access Migration Tool](media/migration-tool-access-location.png "Migration tool access locations")
+> 
 ## Migration Summary
 
 When you select **ARC & SLA Migration** in the left pane, the **Summary** page is displayed as follows.
@@ -316,74 +300,24 @@ A successfully migrated rule's migration status is set to migrated by default.
 
 ## Rerun the migration tool
 
-If you have already been through the migration process, your experience will be very similar to that of the first-time user, with a few exceptions.
+If you have many rules and items to migrate and want to perform the migration in batches or want to attempt to migrate the unsuccessfuly migrated rules and items again, you can rerun the migration tool. If you need to migrate a successfully migrated rule or item again, make sure you delete the migrated rule in Customer Service Hub, and then run the migration process.
 
-1.	**ARC & SLA Migration tool**: Access the migration tool under **Data management**.
-2.	**Previous migration data**: The **Summary page** will have updated data based on your previous migration. 
-3.	**Start migration**: Begins the migration process. Select to continue. 
-
-    ![Migration tool for experienced users](media/migration-tool-step-1-experienced-users-1.png "Migration tool for experienced users")
-
-## Step 1: Category to migrate (Experienced user)
-
-This step allows you to select the rules you want to migrate.
-
-## Step 2: Premigration checkup (Experienced user)
-
-When preparing to rerun the **Premigration checkup** process step, it only reviews the rules that previously did not pass. You can download the details provided to troubleshoot errors and make updates in the Unified Interface or legacy system before you rerun your migration.
-
-1.	**Yellow notification message**: Reminds you that rules that were previously migrated successfully will automatically be skipped in a rerun of the premigration checkup process. This also includes rules that the administrator has confirmed.
-2.	**Total**: Shows the number of rules that are available for migration. The premigration checkup process only focuses on running rules that have not been migrated completely, not attempted previously, or failed to create, which is reflected in the total count.
-
-    ![Migration tool for experienced users - step 2](media/migration-tool-step-2-experienced-users-1.png "Migration tool for experienced users - step 2")
-
-## Step 3: Rules and items to migrate (Experienced user)
-
-This step allows you to select the rules you want to migrate, including:
+1. Select **ARC & SLA Migration tool (Preview)** in the left pane in **Service Management**. The **Summary** page displays the status of the previous migration. The number of rules and items that are pending migration are listed in the **Pending** column.
  
-1.	**Migrate all rules**: Allows you to override all previous selections.
-2.	**Checkup Results**: Displays whether your rule passed or failed the premigration.
-3.	**Failed**: Allows you to review the rules that failed by selecting them.
-4.	**Download all logs**: Allows you to view individual problem details.
+    ![Rerun migration tool](media/rerun-migration.png "Rerun migration tool")
+2. Select **Start migration**, and perform the steps to run the migration of the rules and items again.
 
-    ![Migration tool for experienced users - step 3](media/migration-tool-step-3-experienced-users-1.png "Migration tool for experienced users - step 3")
+The steps to rerun the migration are same as when you run the migration for the first time. More information: [Migrate the automatic record creation rules and SLA items](#migrate-the-automatic-record-creation-rules-and-sla-items)
 
-Only rules that were not attempted, did not completely migrate, or failed to migrate will appear in **Step 3**. If you want to attempt migration of a successfully migrated rule again, delete the corresponding rule from Unified Interface and rerun the migration tool for it to appear in the list again. 
+In the **Premigration checkup** stage, the tool reviews only those rules that were previously not migrated, partially migrated, or failed migration. The **Total** column lists the number of rules that are available for migration.
 
-## Step 4: Review (Experienced user)
-
-This step gives you the opportunity to review and fix any rules that have errors or issues prior to migration.
-
-## Step 5: Migration (Experienced user)
-
-This step confirms when migration is complete and provides a summary of the number of rules that successfully completed migration, as well as the number of rules that failed.
-
-1.	**Selected**, **Migrated**, and **Incomplete**: Provide the migration results for the current migration run.
-2.	**Migration status**: Displays the status of your current migration run and allows you to view the details on the **Incomplete** rules that could not be migrated.
-
-
-    <!-- editor comment: There's a typo in the image ("imcomplete"). Actually, it might be better to remove that text in the top of the image - it adds clutter to the image. -->
-
-
-    ![Migration tool for experienced users - step 5](media/migration-tool-step-5-experienced-users-1.png "Migration tool for experienced users - step 5")
-
-## Step 6: Finish (Experienced user)
-
-When you finish your migration, an updated **Summary** page will be displayed that includes:
-
-1.	**Summary**: Provides the overall summary of all the migration details to date. 
-2.	**Start**: Select to rerun the migration process.
-
-    ![Migration tool for experienced users - step 6](media/migration-tool-step-6-experienced-users-1.png "Migration tool for experienced users - step 6")
-
+![Premigration check](media/premigration-check-rerun-migration.png "Premigration check")
 
 ### See also
 
 [Migration tool FAQs](migrate-tool-faqs.md)
 
-[Set up rules to automatically create or update records](set-up-rules-to-automatically-create-or-update-records.md)
-
-[Define service-level agreements](define-service-level-agreements.md)
-
-[Important changes (deprecations) coming](https://docs.microsoft.com/power-platform/important-changes-coming) 
+[Set up rules to automatically create or update records](set-up-rules-to-automatically-create-or-update-records.md)  
+[Define service-level agreements](define-service-level-agreements.md)  
+[Important changes (deprecations) coming](https://docs.microsoft.com/power-platform/important-changes-coming)  
 
