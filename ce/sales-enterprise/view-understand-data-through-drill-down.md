@@ -14,6 +14,8 @@ manager: shujoshi
 
 # View and understand data through drill down
 
+[!INCLUDE [cc-early-access](../includes/cc-early-access.md)]
+
 Through a forecast, you will have a visibility into the pipeline amounts that your sellers are projecting for the period. Now, you might want to know which accounts contribute to a specific seller’s Committed value or maybe you want to know which products are contributing to a different seller’s Won value. The drill down feature allows you to break down your seller’s forecast projections as a function of the contributing factors that you care about such as Account and Product. The drill down feature looks at the underlying records that are contributing to the value of the rollup column and groups them according to the selected drill down type.
 
 By viewing drill down data, you can understand how the records in each group are performing and set the next course of action. This helps you to plan better and achieve the targets as set in the forecast.
