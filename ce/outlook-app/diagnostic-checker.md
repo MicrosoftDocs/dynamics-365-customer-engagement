@@ -1,6 +1,6 @@
 ---
-title: "Dynamics 365 App for Outlook diagnostic checker (Dynamics 365 apps) | MicrosoftDocs"
-description: How to use the Dynamics 365 App for Outlook diagnostic checker 
+title: "Check for issues using the Outlook Checker for Dynamics 365 App for Outlook (Dynamics 365 apps) | MicrosoftDocs"
+description: How to run the Outook Checker to run a diagnostic check 
 ms.custom: 
 ms.date: 09/15/2019
 ms.reviewer: 
@@ -22,8 +22,27 @@ search.app:
   - D365CE
   - D365Outlook
 ---
-# Use the Dynamics 365 App for Outlook diagnostic checker
+# Run the diagnostics checker and scan for potential issues 
 
-he new Dynamics 365 App for Outlook is a great new way of linking emails and tracking appointments to Dynamics 365 on all devices. Occasionally users may get an issue with the ‘app’, there is a new way to run diagnostics within Outlook and scan for potential issues.
+Use the Outlook Checker to run a diagnostics check and scan for potential issues for Dynamics 365 App for Outlook.
 
-The quick way to access the ‘App for Outlook Checker’ and to run diagnostics on Outlook is to open the Dynamics 365 pane (launch the Dynamics 365):
+
+1. To run the checker, open the **Dynamics 365** pane.
+2. When you see the **Dynamics 365** pane, press **ALT** + **CTRL** + **Y** on your keyboard to bring up the **Outook Checker**.
+3. Use the **Show** or **Hide** toggle to show or hide the checker icon in the commbar bar.
+  
+    > [!div class="mx-imgBorder"] 
+    > ![Outook Checker pane](media/outlook-checker-pane.png "Outlook Checker pane")
+    
+4. Select **Run diagnostics** to run the checker.
+
+    > [!div class="mx-imgBorder"] 
+    > ![Run the diagnostics checker](media/run-checker.png "Run the diagnostics checker")
+    
+5. The checker will show a detailed status of all the components. 
+6. If you run into issue, you can export the log files annd send it to your administrator. Select **Export logs**.
+
+    > [!div class="mx-imgBorder"] 
+    > ![Export logs](media/send-logs.png "Export logs")
+
+
