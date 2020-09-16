@@ -4,7 +4,7 @@ description: "Information on entities introduced as part of Omnichannel for Cust
 author: "susikka"
 ms.author: "susikka"
 manager: "shujoshi"
-ms.date: 12/04/2019
+ms.date: 09/16/2020
 ms.service: 
   - crm-online
 ms.topic: "reference"
