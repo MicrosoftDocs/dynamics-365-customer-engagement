@@ -49,7 +49,7 @@ For example, you know that opportunities related to **Adatum Corporation** and r
 </td><td>
 
 > [!div class="nextstepaction"] 
-> [Next step: Activate and upload simple columns data](activate-upload-simple-columns-data-forecast.md)
+> [Next step: Configure and manage drill downs](configure-manage-drill-downs.md)
 </td></tr>
 </table>
 
