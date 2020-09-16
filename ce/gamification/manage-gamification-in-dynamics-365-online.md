@@ -51,17 +51,38 @@ We recommend to adhere to the following limits when working with [!INCLUDE[pn_ga
 
 ### Install the solution from AppSource  
   
-1. In [AppSource](https://go.microsoft.com/fwlink/p/?linkid=830919), select **[!INCLUDE[pn_gamification](../includes/pn-gamification.md)]**.  
+1. Go to the [Microsoft Dynamics 365 - Gamification app](https://go.microsoft.com/fwlink/p/?linkid=830919) on Microsoft AppSource.
   
 2. Sign in to your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] system admin account, if you aren't already signed in.  
   
-3. Select **Get** to start installing the solution.  
-   If you have more than one Dynamics 365 organization, select the organization you want to install this solution to.
-  
-4. Review and accept the disclaimer and the terms of service.  
-  
-   It might take a few minutes for the solution to be installed.  
-  
+3. Select **Get it now** to start installing the solution. 
+
+4. In the **One more thing...** pop-up window, select **Continue**.
+
+    You'll be redirected to [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
+
+5. In the **Install Microsoft Dynamics 365 - Gamification** panel, select the environment in which you want to install this app, select both check boxes, and then select **Install**.
+
+   You'll be redirected to the **Dynamics 365 apps** page.
+
+6. Find the **Microsoft Dynamics 365 - Gamification** app, and check the status of it. If the status says **Installing**, wait until the status is changed to **Installed**.
+
+
+### Sign in to Dynamics 365 - Gamification
+
+1. Go to [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
+
+2. Enter your Dynamics 365 instance credentials, and sign in.
+
+3. In the left pane, select **Environments**.
+
+4. On the **Environments** page, select your environment.
+
+5. On the toolbar at the top of the page, select **Open environment**.
+
+6. From the list of apps, select **Gamification**.
+
+
 ## Game Manager security role
 
  When you install [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)], a security role called **Game Manager** is created in Dynamics 365. System admins can assign this security role to users who the admins want to enable to create KPIs.  
@@ -134,11 +155,13 @@ Before you can sync [!INCLUDE[pn_gamification](../includes/pn-gamification.md)] 
   
 ### View active games  
   
-1. In [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], go to **Gamification** > **Games**.  
+1. Sign in to Dynamics 365 Gamification.
+
+2. In the left pane, select **Games**.
   
-2. In the list of games, select the name of the game you want to see details about.  
+3. On the **Active Games** page, select the name of the game you want to see details about.  
   
-3. In the **Game Details** section, you'll find basic information about the game, like the name and the start and end date.  
+4. In the **Game Details** section, you'll find basic information about the game, like the name and the start and end date.  
   
     In the **Setup KPIs** section, you can see the KPIs and their setup status in the selected game. More information about KPIs in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)]: [Configure KPIs for Gamification in Dynamics 365 apps](configure-kpis.md)  
 
