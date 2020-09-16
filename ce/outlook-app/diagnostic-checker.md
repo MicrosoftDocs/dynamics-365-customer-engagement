@@ -37,12 +37,12 @@ Use the Outlook Checker to run a diagnostic check and scan for potential issues 
 3. Use the **Show** or **Hide** toggle to show or hide the checker icon in the command bar.
   
     > [!div class="mx-imgBorder"] 
-    > ![Outook Checker pane](media/outloook-checker-pane.png "Outlook Checker pane")
-    
-    
-      > [!NOTE]
-      > This is how the check icon appears on the command bar. 
-      > ![Outook Checker on the command bar](media/checker-commandbar.png "Outlook Checker on the command bar")
+    > ![Outook Checker pane](media/outloook-checker-pane.png "Outlook Checker pane") 
+
+   This is how the check icon appears on the command bar. 
+   
+     > [!div class="mx-imgBorder"] 
+     > ![Outook Checker on the command bar](media/checker-commandbar.png "Outlook Checker on the command bar")
      
     
 4. Select **Run diagnostics** to run the checker.
