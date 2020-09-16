@@ -30,7 +30,7 @@ Use the Outlook Checker to run a diagnostics check and scan for potential issues
 1. To run the checker, select **Dynamics 365** to open the Dynamics 365 pane.
 
     > [!div class="mx-imgBorder"] 
-    > ![Open Outook pane](media/outloook-pane.png "Open Outlook pane")
+    > ![Open Outook pane](media/outlook-pane.png "Open Outlook pane")
     
     
 2. When you see the **Dynamics 365** pane, press **ALT** + **CTRL** + **Y** on your keyboard to bring up the **Outook Checker**.
