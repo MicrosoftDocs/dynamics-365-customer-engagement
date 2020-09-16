@@ -98,6 +98,7 @@
 #### [Create quick replies](administrator/create-quick-replies.md)
 #### [Configure and manage custom presence](administrator/presence-custom-presence.md)
 #### [Share knowledge articles](administrator/knowledge-management-oc.md)
+#### [Enable sound notifications](administrator/enable-sound-notifications.md)
 #### [Enable missed notifications](administrator/manage-missed-notifications.md)
 #### [Enable auto-assignment of conversations](administrator/enable-auto-assign-conversations.md)
 #### Templates
@@ -143,6 +144,7 @@
 #### [Monitor real-time customer sentiment](agent/agent-oc/oc-monitor-real-time-customer-sentiment-sessions.md)
 #### [Manage sessions](agent/agent-oc/oc-manage-sessions.md)
 #### [Manage applications](agent/agent-oc/oc-manage-applications.md)
+#### [Personalize sound notifications](agent/agent-oc/oc-personalize-sound-notifications.md)
 #### [Create personal quick replies](agent/agent-oc/create-personal-quick-replies.md)
 #### Productivity tools
 ##### [Use agent scripts](agent/agent-oc/oc-agent-scripts.md)
