@@ -105,8 +105,8 @@ This list identifies all resources used by Dynamics 365 for phones and tablets. 
   
   
 <a name="BKMK_Configure"></a>   
-## Configure the mobile app 
- 
+## Configure the mobile model-driven apps  
+ It is now required to configure the model-driven apps that will be available within the Dynamics for phones and tablets mobile application.   
  - For Common Data Service, see [Create a custom entity](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-create-entity).
  - For Dynamics 365 Customer Engagement (on-premises), see [App making and customization overview](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/overview) 
   
