@@ -91,7 +91,7 @@ We recommend to adhere to the following limits when working with [!INCLUDE[pn_ga
  More information about security roles and privileges: [TechNet: Security roles and privileges](https://technet.microsoft.com/library/dn531090.aspx)  
 More information about KPIs in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)]: [Configure KPIs for Gamification in Dynamics 365 apps](configure-kpis.md) 
   
-## Dynamics 365 Gamification settings
+## Dynamics 365 - Gamification settings
 
 Use the **Gamification Settings** page to perform administrator tasks such as refreshing data for new or existing games, updating Gamification with Dynamics 365 user data, and so on. You must have the System Administrator role assigned to perform these tasks.
 
@@ -183,7 +183,7 @@ Before you can sync [!INCLUDE[pn_gamification](../includes/pn-gamification.md)] 
   
 ### View active games  
   
-1. Sign in to Dynamics 365 Gamification.
+1. [Sign in to Dynamics 365 - Gamification](#sign-in-to-dynamics-365---gamification).
 
 2. In the left pane, select **Games**.
   

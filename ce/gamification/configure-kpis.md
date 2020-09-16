@@ -42,7 +42,7 @@ There are various ways to create useful KPIs based on the data of a [!INCLUDE[pn
 
 ### Configure a KPI
 
-1. Sign in to Dynamics 365 Gamification.
+1. [Sign in to Dynamics 365 - Gamification](manage-gamification-in-dynamics-365-online.md#sign-in-to-dynamics-365---gamification).
 
 2. In the left pane, select **KPIs**.
 
@@ -113,7 +113,7 @@ If you want to score a KPI manually, you can use Excel point scoring. [!INCLUDE[
 
 ## Edit a KPI
 
-1. Sign in to Dynamics 365 Gamification.
+1. [Sign in to Dynamics 365 - Gamification](manage-gamification-in-dynamics-365-online.md#sign-in-to-dynamics-365---gamification).
 
 2. In the left pane, select **KPIs**.
 
