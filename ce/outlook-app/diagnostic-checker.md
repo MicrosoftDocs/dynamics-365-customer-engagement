@@ -24,7 +24,7 @@ search.app:
 ---
 # Run the diagnostics checker and scan for potential issues 
 
-Use the Outlook Checker to run a diagnostics check and scan for potential issues for Dynamics 365 App for Outlook.
+Use the Outlook Checker to run a diagnostics check and scan for potential issues for Dynamics 365 App for Outlook. If you run into an issue, you can send the log files to your administrator to help troublehsoot the issue.
 
 
 1. To run the checker, select **Dynamics 365** to open the Dynamics 365 pane.
