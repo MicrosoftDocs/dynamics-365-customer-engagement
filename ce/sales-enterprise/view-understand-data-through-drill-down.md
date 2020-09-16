@@ -16,7 +16,7 @@ manager: shujoshi
 
 [!INCLUDE [cc-early-access](../includes/cc-early-access.md)]
 
-Through a forecast, you will have a visibility into the pipeline amounts that your sellers are projecting for the period. Now, you might want to know which accounts contribute to a specific seller’s Committed value or maybe you want to know which products are contributing to a different seller’s Won value. The drill down feature allows you to break down your seller’s forecast projections as a function of the contributing factors that you care about such as Account and Product. The drill down feature looks at the underlying records that are contributing to the value of the rollup column and groups them according to the selected drill down type.
+Through a forecast, you will have a visibility into the pipeline amounts that your sellers are projecting for the period. Now, you might want to know which accounts contribute to a specific seller’s Committed value or maybe you want to know which products are contributing to a different seller’s Won value. The drill down feature allows you to break down your seller’s forecast projections as a function of the contributing factors that you care about such as Account and Product. The drill down feature looks at the underlying records that are contributing to the value of the rollup column and groups them according to the selected drill down.
 
 By viewing drill down data, you can understand how the records in each group are performing and set the next course of action. This helps you to plan better and achieve the targets as set in the forecast.
 
@@ -25,9 +25,9 @@ Let’s look at an example. **Amber Rodriguez** is a seller and she’s engaged 
 > [!div class="mx-imgBorder"]
 > ![Forecast drill down view](media/forecast-drill-down-view.png "Forecast drill down view")
 
-Before you start using the feature, an administrator or forecast manager must add the drill down attributes to the forecast. To learn more, see [Configure and manage drill downs](configure-manage-drill-downs.md).
+Before you start using the feature, an administrator or forecast manager must add the drill downs to the forecast. To learn more, see [Configure and manage drill downs](configure-manage-drill-downs.md).
 
-When a drill down attribute is added to your forecast, a drop-down list is displayed below the **Grid** tab. The following screenshot is an example:
+When a drill down is added to your forecast, a drop-down list is displayed below the **Grid** tab. The following screenshot is an example:
 
 > [!div class="mx-imgBorder"]
 > ![Drill down option in forecast](media/forecast-drill-down-sample-screen.png "Drill down option in forecast")
@@ -43,7 +43,7 @@ By default, when you open a forecast, no drill down is selected and the icon cor
     > [!div class="mx-imgBorder"]
     > ![Select account drill down](media/forecast-drill-down-selection.png "Select account drill down")
 
-    The icon corresponding to each row is active and turns Blue. The data in the forecast is broken down into multiple groups according to the selected drill down type (**Account**).
+    The icon corresponding to each row is active and turns Blue. The data in the forecast is broken down into multiple groups according to the selected drill down (**Account**).
 
     > [!div class="mx-imgBorder"]
     > ![Drill down is active](media/forecast-drill-down-active.png "Drill down is active")
