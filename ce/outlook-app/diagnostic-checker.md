@@ -39,7 +39,7 @@ Use the Outlook Checker to run a diagnostic check and scan for potential issues 
     > [!div class="mx-imgBorder"] 
     > ![Outook Checker pane](media/outloook-checker-pane.png "Outlook Checker pane") 
 
-   This is how the check icon appears on the command bar. 
+   - This is how the checker icon appears on the command bar. 
    
      > [!div class="mx-imgBorder"] 
      > ![Outook Checker on the command bar](media/checker-commandbar.png "Outlook Checker on the command bar")
