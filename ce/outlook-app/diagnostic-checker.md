@@ -27,7 +27,12 @@ search.app:
 Use the Outlook Checker to run a diagnostics check and scan for potential issues for Dynamics 365 App for Outlook.
 
 
-1. To run the checker, open the **Dynamics 365** pane.
+1. To run the checker, select **Dynamics 365** to open the Dynamics 365 pane.
+
+    > [!div class="mx-imgBorder"] 
+    > ![Open Outook pane](media/outloook-pane.png "Open Outlook pane")
+    
+    
 2. When you see the **Dynamics 365** pane, press **ALT** + **CTRL** + **Y** on your keyboard to bring up the **Outook Checker**.
 3. Use the **Show** or **Hide** toggle to show or hide the checker icon in the commbar bar.
   
