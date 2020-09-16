@@ -46,8 +46,8 @@ We recommend to adhere to the following limits when working with [!INCLUDE[pn_ga
 - Up to **4000** users across all connected organizations.
   
 > [!NOTE]
-> To avoid timeout issues when syncing the data of more than 2000 users, you need to change the number of users sent per page in the [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] settings.    
-> In Dynamics 365, select **Advanced Find**. Look for **Gamification Settings** and select **Results**. Open the **Gamification Settings** and lower the value for **Users sent per page**.
+> - To avoid timeout issues when syncing the data of more than 2000 users, you need to change the number of users sent per page in the [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] settings.    
+> - In Dynamics 365, select **Advanced Find**. Look for **Gamification Settings** and select **Results**. Open the **Gamification Settings** and lower the value for **Users sent per page**.
 
 ### Install the solution from AppSource  
   
@@ -91,6 +91,34 @@ We recommend to adhere to the following limits when working with [!INCLUDE[pn_ga
  More information about security roles and privileges: [TechNet: Security roles and privileges](https://technet.microsoft.com/library/dn531090.aspx)  
 More information about KPIs in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)]: [Configure KPIs for Gamification in Dynamics 365 apps](configure-kpis.md) 
   
+## Dynamics 365 Gamification settings
+
+Use the **Gamification Settings** page to perform administrator tasks such as refreshing data for new or existing games, updating Gamification with Dynamics 365 user data, and so on. You must have the System Administrator role assigned to perform these tasks.
+
+### Activation
+
+After installing the Microsoft Dynamics 365 - Gamification app from Microsoft AppSource, you must activate the Gamification portal. When activated, the Gamification portal will be connected to your Dynamics 365 environment. To activate Gamification, select **Activate now**.
+
+### Refresh data
+
+If you recently added a new game or made changes to an existing game, and want to immediately synchronize the data between the Dynamics 365 environment and the Gamification portal, you must refresh the data. To refresh data, select **Refresh Data**.
+
+### Reset jobs
+
+If the game data has stopped updating, the **Sync status** is shown as **Not Running**. You can reset all the processes to start the sync process. To reset all current processes, select **Reset Jobs**.
+
+### Send users
+
+If a new user is created in Dynamics 365, its data should to be sent to the Gamification portal. To send Dynamics 365 user data to Gamification, select **Send Users**.
+
+### Create default KPIs
+
+If the default KPIs are deleted, you can restore them by selecting **Create Default KPIs**.
+
+### Recalculate active games
+
+If you want to recalculate the scores of all active games from their start date till the current date, select **Recalculate active games**.
+
 ## Activate Gamification in Dynamics 365
 
 Before you can sync [!INCLUDE[pn_gamification](../includes/pn-gamification.md)] with Dynamics 365, a user with the following prerequisites needs to complete the setup process to obtain the security key.  
