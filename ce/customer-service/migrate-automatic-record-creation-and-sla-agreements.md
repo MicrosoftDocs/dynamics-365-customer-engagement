@@ -278,7 +278,7 @@ When you've completed your first run and selected **Finish**, a migration **Summ
 
 ## Review and activate migrated rules
 
-You can view the migrated automatic record creation rules or SLA items by selecting the links on the migration summary page. On the respective pages, you can activate the migrated rules or items.
+You can select the links on the migration summary page to view the automatic record creation rules or SLA items in Customer Service Hub. On the respective pages that appear, you can review and activate the migrated rules or items.
 
 ![Migration tool - Step 6 - Activate new rules](media/migration-tool-step-6-first-time-users-2.png "Migration tool  - Step 6 - Activate new rules")
 
@@ -287,30 +287,36 @@ You can view the migrated automatic record creation rules or SLA items by select
 |1|	**Rule name**: Displays migrated rules with an underscore (\_) to make it easier to identify the migrated rules. For example: **\_migrated**.|
 |||
 
-### Working with partially migrated rules
+### Take action on partially migrated rules
 
-Select a rule with the **\_migrated** suffix to view its details.
+Select a rule with the **\_migrated** suffix to view its details. On the **Migration details** tab, you can review the problem details and set the **Mark as complete** toggle to Yes after resolving the migration issue.
 
 ![Migration tool - Step 6 - Migration status](media/migration-tool-step-6-first-time-users-3.png "Migration tool - Step 6 - Migration status")
 
 |Label|Description|
 |---|----|
 |1|  The **Migration details** tab.|
-|2|	**Mark as complete**: Contains a toggle feature that identifies whether a rule has completed  (**Yes**) or not completed migration or has only partially completed migration (**No**). The administrator can review the incomplete rule and choose to resolve the issue and move the toggle to **Yes**, which then updates the migration status to **Migrated**.<br>**Note**:<ul><li> When an administrator moves the toggle to **Yes**, this confirms that the rule has been successfully migrated and therefore won't be picked up in subsequent migrations.</li><li> If the administrator doesn't take any action on an incomplete rule, the rule continues to be picked up in subsequent migrations. Also, the rule will be replaced when it is selected to migrate again.</li></ul>|
+|2|	**Mark as complete**: If set to yes, the migration status changes to **Migrated**.<br>**Note**:<ul><li> When the toggle is **Yes**, the rule won't be picked up in subsequent migrations.</li><li> If you don't take any action on an incomplete rule, the rule continues to be picked up in subsequent migrations. Also, the rule will be replaced when it is selected to migrate again.</li></ul>|
 |3| **Migration status**: Displays the status of the rule as either **Migrated** or **Incomplete**.|
 |4| **Problem Details**: Provides high-level detail on any errors encountered for the rule during migration.|
 |||
 
-### Working with successfully migrated rules
+### View successfully migrated rules
 
-1. **Mark as complete**: Toggled to **Yes** by default.
-2. **Migration status**: Displays the status of the rule as either **Migrated** or **Incomplete**.
+A successfully migrated rule's migration status is set to migrated by default.
 
-   ![Migration tool for first-time user - Step 6 - Migration status](media/migration-tool-step-6-first-time-users-3a.png "Migration tool for first-time user - Step 6 - Migration status")
+![Migration tool - Step 6 - Migration status](media/migration-tool-step-6-first-time-users-3a.png "Migration tool - Step 6 - Migration status")
 
-## Migration tool for experienced users
+|Label|Description|
+|---|----|
+|1| **Mark as complete**: Toggled to **Yes** by default.|
+|2| **Migration status**: Displays the status of the rule as either **Migrated** or **Incomplete**.|
+|||
 
-If you have already been through the migration process, your experience will be very similar to that of the first-time user, with a few exceptions.   
+
+## Rerun the migration tool
+
+If you have already been through the migration process, your experience will be very similar to that of the first-time user, with a few exceptions.
 
 1.	**ARC & SLA Migration tool**: Access the migration tool under **Data management**.
 2.	**Previous migration data**: The **Summary page** will have updated data based on your previous migration. 
