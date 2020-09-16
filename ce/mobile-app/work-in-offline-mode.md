@@ -61,7 +61,11 @@ When your admin has [enabled mobile offline](setup-mobile-offline-for-admin.md
    
 ## Work in offline mode
 
-Once offline download is complete, you can start working in offline mode.
+Once offline download is complete, you can start working in offline. 
+
+With no connectivity, you'll automatically have access to the downloaded data and you'll be able to continue to work on the go. The data will be automatically synced as soon as the connectivity is restored. 
+
+With intermittent connectivity, it is recommended to switch in offline mode (See steps below). As long as the offline mode is activated, the update you'll make on the device  will not be propagated to the server and you will continue to work on your local data. In oder to propagate your changes and refresh the local data, you'll have to switch off the offline mode using the same toggle.   
 
 1. From the nav bar, select ![Dynamics 365 apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 apps ellipsis") > **Offline Status**.
 
