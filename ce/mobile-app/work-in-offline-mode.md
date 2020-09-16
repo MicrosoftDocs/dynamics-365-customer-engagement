@@ -1,7 +1,8 @@
 ---
 title: "Work offline on your mobile device (Dynamics 365 apps)| MicrosoftDocs"
+description: How to work on your mobile device in offline mode using the Dynamics 365 for phones and tablets app 
 ms.custom: 
-ms.date: 8/5/2020
+ms.date: 9/16/2020
 ms.reviewer: kvivek
 ms.service: crm-online
 ms.suite: 
@@ -61,7 +62,11 @@ When your admin has [enabled mobile offline](setup-mobile-offline-for-admin.md
    
 ## Work in offline mode
 
-Once offline download is complete, you can start working in offline mode.
+Once the offline download is complete, you can use the mobile app in offline mode.
+
+With no connectivity, you'll automatically have access to the downloaded data so you can continue working while you're on the go. The data will be automatically synced with the server as soon as the connectivity is restored.
+
+With intermittent connectivity, it is recommended to switch to offline mode. As long as the offline mode is turned on, the updates that you make on your device will not be synced with the server and you can continue to work with the local data on your device. To push the changes you've made to the server and refresh your local data, set the **Work in offline mode** toggle to Off.
 
 1. From the nav bar, select ![Dynamics 365 apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 apps ellipsis") > **Offline Status**.
 
@@ -123,7 +128,7 @@ If you used the mobile app on a phone or tablet temporarily and want to remove a
 - From the nav bar, select ![Dynamics 365 apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 apps ellipsis")  > **User Information** > **Reconfigure**. 
 
      > [!div class="mx-imgBorder"] 
-     > ![Reconfigure](media/reconfigure.png "Reconfigure mobile app")
+     > ![Reconfigure the mobile app](media/reconfigure.png "Reconfigure the mobile app")
 
 Reconfiguring deletes data and metadata for the current organization from the cache, however do not rely on this as a security measure.
 
