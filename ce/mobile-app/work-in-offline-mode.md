@@ -1,7 +1,8 @@
 ---
 title: "Work offline on your mobile device (Dynamics 365 apps)| MicrosoftDocs"
+description: How to work on your mobile device in offline mode using the Dynamics 365 for phones and tablets app 
 ms.custom: 
-ms.date: 8/5/2020
+ms.date: 9/16/2020
 ms.reviewer: kvivek
 ms.service: crm-online
 ms.suite: 
@@ -127,7 +128,7 @@ If you used the mobile app on a phone or tablet temporarily and want to remove a
 - From the nav bar, select ![Dynamics 365 apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 apps ellipsis")  > **User Information** > **Reconfigure**. 
 
      > [!div class="mx-imgBorder"] 
-     > ![Reconfigure](media/reconfigure.png "Reconfigure mobile app")
+     > ![Reconfigure the mobile app](media/reconfigure.png "Reconfigure the mobile app")
 
 Reconfiguring deletes data and metadata for the current organization from the cache, however do not rely on this as a security measure.
 
