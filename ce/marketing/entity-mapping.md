@@ -2,7 +2,7 @@
 title: "Map form data to entities with custom Workflows (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to map form data to entities with custom Workflows"
 keywords: customer journey
-ms.date: 09/14/2020
+ms.date: 09/15/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -52,6 +52,14 @@ To create a Workflow:
 
 In this example, we'll create a Workflow to update a custom entity called “Credit card applications.” The Workflow will allow a user to collect credit card applications through a Marketing form and store the data under the new custom entity.
 
+The credit card application Workflow requires the following general processes:
+- Check if the submission is coming from a form the workflow can handle. The simplest method to do this is selecting submissions from a specific form.
+- Extract the submitted values so that they available in the Workflow (extract value).
+- Combine multiple values into a single structure that is suitable for entity matching or creation (**set JSON property**).
+- Create an entity with properties that were set in the previous step. Alternatively, the Workflow can search for a matching entity and either update the found entity or create a new one if not found (**create entity**, **update entity**, and **match entity actions**).
+
+The following steps detail the actions required to create the credit card application Workflow:
+
 1. To create a custom entity, in the navigation bar, go to **Settings** > **Customize the System** > **Entities**.
 1. Create a marketing form for the credit card applications containing the fields you want to use. Create fields under the new custom entity to use inside the form. Make sure the form is set to [not update contacts or leads](marketing-forms.md#do-not-createupdate-contacts-or-leads).
 1. Next, you will create a Workflow to process the custom entities. Go to **Settings** > **Processes** and create a new **Workflow** process. In the **Entity** field, select the entity that triggers your Workflow. In this case, we'll select **Marketing form submission**. Then select **OK**.
@@ -78,13 +86,13 @@ In this example, we'll create a Workflow to update a custom entity called “Cre
 1. Continue adding the previously set JSON values one by one.
     1. Insert the logical name.
     1. Insert the result from the **Extracted value from** field.
-    1. Choose a previous JSON value to add on top of the extracted value (optional).
+    1. Choose a previous JSON value to add on top of the extracted value. This ensures that you will combine all of the JSON entries into a combined value that will be used at the end.
 
         ![Look for extract value from form submission](media/entity-mapping-json-extract.png "Look for extract value from form submission")
 
 1. Select the **Save and Close** button.
-1. Create another entity called Credit card application. Set the **JSON properties** value column to **Result of the last JSON set property**.
-1. Insert an initial step to your process to filter submissions to only those coming from the form that is collecting the credit card applications.
+1. To create a credit card application record that results from each form submission, select **Dynamics 365 Marketing** > **Create Entity**. Set the **JSON properties** value column to **Result of the last JSON set property**.
+1. To insert an initial step into your process to filter submissions to only those coming from the form that is collecting the credit card applications, select **Add Step** > **Check condition**.
 
       ![Filter submissions](media/entity-mapping-filter.png "Filter submissions")
 
