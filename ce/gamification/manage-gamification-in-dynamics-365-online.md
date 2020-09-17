@@ -93,7 +93,17 @@ More information about KPIs in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-onlin
   
 ## Dynamics 365 - Gamification settings
 
-Use the **Gamification Settings** page to perform administrator tasks such as refreshing data for new or existing games, updating Gamification with Dynamics 365 user data, and so on. You must have the System Administrator role assigned to perform these tasks.
+As an administrator, you can use the **Gamification Settings** page to perform tasks such as refreshing data for new or existing games, updating Gamification with Dynamics 365 user data, and so on. You must have the System Administrator role assigned to perform these tasks.
+
+**To access Dynamics 365 - Gamification settings**
+
+1. [Sign in to Dynamics 365 - Gamification](#sign-in-to-dynamics-365---gamification).
+
+2. In the left pane, select **Settings**.
+
+    The **Gamification Settings** page is displayed.
+
+3. Perform the tasks as described in the following sections.
 
 ### Activation
 
