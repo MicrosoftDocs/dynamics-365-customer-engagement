@@ -71,21 +71,26 @@ Go to the schedule board and use the toggle button in the top right of the sched
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/scheduling-new-assistance-preview.png)
+> ![Screenshot of ](../../field-service/media/scheduling-new-assistance-preview.png)
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/scheduling-new-suggest-resources.png)
+> ![Screenshot of ](../../field-service/media/scheduling-new-suggest-resources.png)
 
 ## Daily view
 
+The new schedule board supports a daily view of scheduled job and supports fragging and dropping to schedule.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/scheduling-new-daily-view.png)
+> ![Screenshot of ](../../field-service/media/scheduling-new-daily-view-schedule1.png)
 
+Scheduled requirements with a short duration will display across the entire day to make it easier to view details. Hover over the requirement or double click in to see the actual duration. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/scheduling-new-daily-view-schedule1.png)
+> ![Screenshot of ](../../field-service/media/scheduling-new-daily-view.png)
+
+
+
 
 ## Configuration considerations
 
@@ -96,9 +101,9 @@ Go to the schedule board and use the toggle button in the top right of the sched
 
 ### When to use the new versus current schedule board
 
-Users who perform simple drag and drop scheduling or users who only need to view the schedule board can use the new schedule board during preview. Other users should continue to use the current schedule board.
+Users who perform simple drag and drop scheduling or users who only need to view the schedule board can use the new schedule board during preview. Also, organizations using Resource Scheduling Optimization (RSO) should consider using the new schedule board because RSO capabilities are embbeded. 
 
-Continue to use the **current** schedule board for common functions like:
+Other users should continue to use the current schedule board. Continue to use the **current** schedule board for common functions like:
 - Creating and deleting schedule board tabs. 
 - Schedule board tab settings.
 - Schedule board configurations like number of days in a view or applying filter territories.

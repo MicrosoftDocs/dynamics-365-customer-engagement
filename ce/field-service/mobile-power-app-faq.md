@@ -3,7 +3,7 @@ title: "Frequently asked questions for Field Service (Dynamics 365) mobile app |
 description: Find answers to commonly asked questions about the Field Service (Dynamics 365) mobile app.
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 08/27/2020
+ms.date: 09/17/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -54,3 +54,10 @@ Sometimes you may not see the correct booking form. You may see the following re
 If you see something like the previous screenshot, you're viewing the booking form, and *not* the combined booking and work order form.
 
 To solve this issue, make sure the user you're signed into the mobile app as has the **Field Service - Resource** security role.
+
+## I cannot see the calendar or the wrong calendar is showing
+
+To fix this, ensure the **Booking Calendar Control** is enabled for Phone and Tablet from the Bookable Resource Booking entity.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-booking-calendar-control.png)
