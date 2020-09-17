@@ -1,11 +1,9 @@
 ---
 title: "Provision your Dynamics 365 Sales Professional environment (Dynamics 365 Sales Professional) | MicrosoftDocs"
 description: "Learn about the standard and advanced settings in Dynamics 365 Sales Professional."
-ms.date: 10/01/2019
-ms.service: 
-  - dynamics-365-sales
-ms.custom: 
-  - dyn365-sales
+ms.date: 09/16/2020
+ms.service:
+  - "dynamics-365-sales"
 ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
@@ -27,54 +25,87 @@ Before you can start using the Sales Professional application you need to
 
 You need a Dynamics 365 environment to install the Sales Professional application. If you already have a Dynamics environment, say from using another Dynamics 365 application that you are already using, and you want to install the Sales Professional app on that environment, see the steps in the Install the Sales Professional solution on a Dynamics 365 environment section.
 
-To provision a new Dynamics 365 environment
+To provision a new Dynamics 365 environment:
 
-1.	In the Microsoft 365 admin center, select **Admin Centers** > **Dynamics 365**.
+1.	Go to [Microsoft 365 admin center](https://admin.microsoft.com/AdminPortal/Home#/homepage), and in the navigation pane, select **Show All**. 
 
-    ![Dynamics 365 option under Admin centers](../sales-professional/media/dynamics365-option-in-admin-center-sitemap.png "Dynamics 365 option under Admin centers")
+    > [!div class="mx-imgBorder"]
+    > ![Select the Show all option in the Microsoft 365 admin center navigation pane](../sales-professional/media/microsoft-365-admin-center-sitemap-show-all.png "Select the Show all option in the Microsoft 365 admin center navigation pane")
 
-2.	If you have a Dynamics 365 environment already, but are eligible for a new Dynamics 365 environment, you will be taken to the Dynamics 365 admin center showing an environment to configure. Select **Configure**.
+2. In the navigation pane, under **Admin centers**, select **All admin centers**.
 
-    ![Configure option on Dynamics 365 admin center](media/dynamics365-admin-center-with-configure-option.png "Configure option on Dynamics 365 admin center")
+    > [!div class="mx-imgBorder"]
+    > ![Select All admin centers in the navigation pane](../sales-professional/media/all-admin-centers-in-microsoft365-admin-center.png "Select All admin centers in the navigation pane")
 
-    If you do not have any Dynamics environment yet, you will be taken to configure your Dynamics 365 environment automatically.
+3. Select **Dynamics 365**.
 
-    ![Configure instance page](media/configure-environment-page.png "Configure instance page")
- 
-3.	Review the information in **Target version**, **Name**, **Instance type**, **Security Group**, **Language**, and **Currency**. Provide a URL and purpose for the environment. Select **Configure**.
- 
-    The Dynamics 365 environment will be provisioned and you will be returned to the Dynamics 365 administration center where you can review the environment you just created.
+    > [!div class="mx-imgBorder"]
+    > ![Dynamics 365 option in the All admin centers page](../sales-professional/media/dynamics-365-admin-center-all-admin-centers.png "Dynamics 365 option in the All admin centers page")
 
-    ![Dynamics 365 Admin center with provisioned environment](media/dynamics365-admin-center-with-provisioned-environment.png "Dynamics 365 Admin center with provisioned environment")
+    The Power Platform admin center opens.
 
+4.	If you have a Dynamics 365 environment already, but are eligible for a new Dynamics 365 environment, you'll see an option to configure the environment. Select **Configure**.
 
-For more details on managing your Dynamics 365 environments, see [Manage Dynamics 365 apps (online)](../admin/manage-online-instances.md) and [Add an environment to your subscription](../admin/add-instance-subscription.md).
+    > [!div class="mx-imgBorder"]
+    > ![Configure option on Dynamics 365 admin center](media/dynamics365-admin-center-with-configure-option.png "Configure option on Dynamics 365 admin center")
 
-## Install the Sales Professional solution on a Dynamics 365 environment
+    If you don't have any Dynamics environment yet, you'll need to create a new one. On the **Environments** page, select **New**.
+
+    > [!div class="mx-imgBorder"] 
+    > ![Select New in Environments page](media/new-in-environments-page-m365-admin-center.png "Select New in Environments page")
+
+5. Enter the following, and then select **Next**.
+   
+   |Setting  |Description  |
+   |---------|---------|
+   |Name     | The name of your environment.        |
+   |Type     | Choose production, trial, or sandbox.        |
+   |Region     | Choose a region for the environment.        |
+   |Purpose     | A description of the environment.         |
+   |Create a database for this environment? | Select **Yes**. |
+
+   > [!div class="mx-imgBorder"] 
+   > ![Configure instance page](media/new-environment-page1.png "Configure instance page")
+
+6. Enter or review the following, and then select **Save**.
+
+   |Setting  |Description  |
+   |---------|---------|
+   |Language     | The default language for this environment. More information: [Common Data Service language collations](language-collations.md)     |
+   |Currency     | The base currency used for reporting.         |
+   |Enable Dynamics 365 apps | Select **Yes**. If this is set to **No**, a Common Data Service environment will be created and you won't be able to install Sales Professional on this environment. |
+   |Security group | Select a security group to restrict access to this environment. |
+
+   > [!div class="mx-imgBorder"] 
+   > ![Create new environment settings](media/new-environment-page2-enable-apps.png "Create new environment settings")
+
+For more details on managing your Dynamics 365 environments, see [Create and manage environments in the Power Platform admin center](/power-platform/admin/create-environment).
+
+## Install the Sales Professional solution on a Dynamics 365 environment<a name="install-app"> </a>
 
 To install the Sales Professional solution on a Dynamics 365 environment
 
-1.	In the Microsoft 365 admin center, select **Admin Centers** > **Dynamics 365**.
+1.	Sign in to the Power Platform admin center at [https://admin.powerplatform.microsoft.com](https://admin.powerplatform.microsoft.com) as an admin (Dynamics 365 admin, Global admin, or Power Platform admin).
 
-    ![Dynamics 365 option under Admin centers](media/dynamics365-option-in-admin-center-sitemap.png "Dynamics 365 option under Admin centers")
-    
-    The Dynamics 365 Administration Center opens.
+2. In the navigation pane, select **Environments**. 
 
-2.	On the **Instances** tab, select your Dynamics 365 environment, and on the environment tile, select the**Manage your solutions** ![Icon for Manage your solutions](../admin/media/manage-solution.png "Icon for Manage your solutions") icon.
+3.	Open the environment in which you want to install the Sales Professional app, and select **Dynamics 365 apps**.
 
-    ![Production environment on Instances tab](../sales-enterprise/media/production-instance-on-instances-tab.png "Production environment on Instances tab")
- 
-3.	On the **Manage your solutions** page, select **Dynamics 365 Sales Pro Application**, and on the tile, select **Install**.
-    
-    You can review the status of the installation by refreshing the Manage your solutions page and reviewing the status column on the page.
+   > [!div class="mx-imgBorder"] 
+   > ![Select Dynamics 365 apps resource](media/resources-select-dynamics-365-apps.png "Select Dynamics 365 apps resource")
 
-    ![Open option on the environment tile](media/open-option-on-environment-tile.png "Open option on the environment tile")
+4.	On the command bar, select **Install app**.
 
-4.	After the installation, return to the environment tile and select **Open**.
-                   
-    Alternatively, go to Dynamics 365 home. 
+   > [!div class="mx-imgBorder"] 
+   > ![Select Install app](media/select-install-app-dynamics365-apps-resource.png "Select Install app")
 
-5.	In the list of application, select **Sales Professional**. 
+5. In the **Install Dynamics 365 apps** panel, select 'Dynamics 365 Sales, Professional', and select **Next**.
+
+6. Agree to the terms of service, and then select **Install**.
+
+7.	After the installation, go to Dynamics 365 home. 
+
+8.	In the list of application, select **Sales Professional**. 
  
     ![Sales Professional app tile](media/sales-professional-app-tile.png "Sales Professional app tile")
 

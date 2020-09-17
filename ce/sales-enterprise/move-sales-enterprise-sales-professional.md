@@ -2,10 +2,8 @@
 title: "Move from Dynamics 365 Sales Enterprise edition to Dynamics 365 Sales Professional (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Follow the steps in this topic to move from Dynamics 365 Sales Enterprise edition to Dynamics 365 Sales Professional."
 ms.date: 10/01/2019
-ms.service: 
-  - dynamics-365-sales
-ms.custom: 
-  - dyn365-sales
+ms.service:
+  - "dynamics-365-sales"
 ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
@@ -27,29 +25,29 @@ manager: annbe
 
 ## Purchase Dynamics 365 Sales Professional subscription
 
-1.  Sign in to Office 365 at admin.microsoft.com with the Dynamics 365 account that has admin permissions.
+1.  Sign in to [Microsoft 365 admin center](https://admin.microsoft.com) with the Dynamics 365 account that has admin permissions.
 
-2.  Select **Billing** > **Subscriptions**.
+2.  In the navigation pane, select **Purchase Services**, and then select the Dynamics 365 Sales Professional tile. 
 
-    ![Select Subscriptions](media/subscription-office-365-admin-center.png "Select Subscriptions")
+    > [!div class="mx-imgBorder"]
+    > ![Select Dynamics 365 Sales Professional tile](media/select-dynamics365-sales-pro-tile.png "Select Dynamics 365 Sales Professional tile") 
 
-    You’ll see the active subscriptions. 
+3.  Select **Buy**, and then follow the steps to purchase new licenses. 
 
-3.  Select **Add subscriptions**.
+    > [!div class="mx-imgBorder"]
+    > ![Select Buy](media/buy-sales-professional.png "Select Buy") 
 
-    The **Purchase Services** page opens. You’ll see a tile for [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] Professional Edition.
-
-4.	In the **[!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] Professional Edition** tile, move your mouse over the Ellipses icon and select **Buy Now**, and then follow the steps to purchase new licenses. 
 
 ## Assign licenses to your users
 
 After you’ve purchased the licenses, assign the licenses to users. 
 
-1.	On the Microsoft 365 admin center, select **Users** > **Active users**.
+1.	Go to Microsoft 365 admin center, and in the navigation pane, select **Users** > **Active users**.
 
-2.	Select multiple users, and then select **Edit product licenses**. 
+2.	Select multiple users, and then select **Manage product licenses**. 
     
-    ![Bulk action to edit multiple product licenses](media/bulk-actions-edit-product-licenses.png "Bulk action to edit multiple product licenses")
+    > [!div class="mx-imgBorder"]
+    > ![Assign licenses to multiple users](media/assign-licenses-multiple-users.png "Assign licenses to multiple users")
 
 3.	Select **Replace existing product license assignments**, and then select **Next**. 
 
@@ -61,17 +59,7 @@ After you’ve purchased the licenses, assign the licenses to users.
 
 ## Install Dynamics 365 Sales Professional solution
 
-1.	In the Microsoft 365 admin center, select **Admin Centers** > **Dynamics 365**.
-
-    ![Dynamics 365 admin center in Office 365 nav bar](media/select-admin-center.png "Dynamics 365 admin center in Office 365 nav bar")
-    
-    The **Dynamics 365 Administration Center** opens.
-
-2.	On the **Instances** tab, select your production instance, and on the product instance tile, select the **Manage your solutions** ![Manage your solutions](media/manage-your-solutions.png "Manage your solutions") icon.
-
-    ![Production instance on the Instances tab](media/production-instance-on-instances-tab.png "Production instance on the Instances tab")
-
-3.	On the **Manage your solutions** page, select **Dynamics 365 Sales Pro Application**, and on the tile, select **Install**.
+Go to the Microsoft 365 admin center to install Dynamics 365 Sales app (solution) to your production environment. For more information, see [Install Dynamics 365 Sales Professional](../sales-professional/provision-sales-professional-instance.md#install-app)
 
 After you complete these steps, your organization will be effectively moved to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] Professional.
 
