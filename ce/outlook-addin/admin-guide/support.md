@@ -1,5 +1,6 @@
 ---
 title: "Dynamics 365 for Outlook support | MicrosoftDocs"
+description: Dynamics 365 for Outlook support 
 ms.custom: 
 ms.date: 09/17/2020
 ms.reviewer: 
