@@ -49,7 +49,7 @@ This topic contains links to information about the supported software requiremen
  If you are not sure which users are accessing the add-in, you can use Advanced Find to query **Mailboxes** entity. This will identify the users currently configured to use Outlook COM add-in.
  
  The advanced find query on mailboxes should filter on whether the mailbox has Microsoft Dynamics 365 for Outlook as the synchronization method for **Incoming email** or **Outgoing email** or **Appointments**, **Contacts**, and **Tasks**. 
-Subsequently, you should filter out **Owning User (User)**, if it contains data and if the **Access Mode** is not configured to **Support User** or **Delegated Admin**
+Subsequently, you should filter out **Owning User (User)**, if it contains data and if the **Access Mode** is not configured to **Support User** or **Delegated Admin**.
 
 
  The screenshot illustrates the filter criteria.
