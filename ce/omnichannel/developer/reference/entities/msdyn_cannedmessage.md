@@ -114,6 +114,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |1025|ar-SA|
 |1026|bg-BG|
 |1027|ca-ES|
+|1028|zh-TW|
 |1029|cs-CZ|
 |1030|da-DK|
 |1031|de-DE|
@@ -133,18 +134,27 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |1048|ro-RO|
 |1049|ru-RU|
 |1050|hr-HR|
+|1051|sk-SK|
 |1053|sv-SE|
 |1054|th-TH|
 |1055|tr-TR|
 |1057|id-ID|
 |1058|uk-UA|
+|1060|sl-SI|
 |1061|et-EE|
+|1062|lv-LV|
+|1063|lt-LT|
+|1066|vi-VN|
+|1069|eu-ES|
 |1081|hi-IN|
+|1086|ms-MY|
+|1087|kk-KZ|
 |1110|gl-ES|
 |2052|zh-CN|
 |2070|pt-PT|
 |3076|zh-HK|
 |3082|es-ES|
+|3098|sr-Cyrl-CS|
 
 
 
