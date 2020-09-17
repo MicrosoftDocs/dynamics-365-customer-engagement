@@ -70,7 +70,7 @@ To get started with customizing the demo event website, you need to follow these
 ## Download sample event website
 
 > [!NOTE]
-> Newer versions of Event Website will be available once new features and fixes will be released.
+> Newer versions of Event Website will be available once new features and bug fixes are be released.
 
 Select the version you would like to download from the table below.
 
