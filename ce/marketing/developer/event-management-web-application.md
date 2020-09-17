@@ -1,20 +1,18 @@
 ---
-title: "Overview | MicrosoftDocs"
-description: "Provides information about how you can extend event management  web application functionality."
+title: "Event management web application overview | MicrosoftDocs"
+description: "Provides information about how you can extend event management web application functionality."
 ms.custom:
   - dyn365-developer
   - dyn365-marketing
-ms.date: 09/06/2019
+ms.date: 09/16/2020
 ms.service: dynamics-365-marketing
-ms.technology:
-  - "marketing"
 ms.topic: "article"
-author: Nkrb
-ms.author: nabuthuk
-manager: kvivek
+author: alfergus
+ms.author: alfergus
+manager: shellyha
 ---
 
-# Overview
+# Event management web application overview
 
 The event management feature helps you to organize, manage, and process the events. When you install the event management solution, you get an event portal which gives the users a web application where they can get to know more about the event details. More information: [Event Portal](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/set-up-event-portal).
 
