@@ -1,17 +1,15 @@
 ---
 title: "Self-hosted custom event website | MicrosoftDocs"
-description: "Provides information about how you can extend event management web application functionality."
+description: "Learn how you can extend event management web application functionality for self-hosted custom event websites in Dynamics 365 Marketing."
 ms.custom:
   - dyn365-developer
   - dyn365-marketing
-ms.date: 05/20/2019
+ms.date: 09/16/2020
 ms.service: dynamics-365-marketing
-ms.technology: 
-  - "marketing"
 ms.topic: "article"
-author: Nkrb
-ms.author: nabuthuk
-manager: kvivek
+author: alfergus
+ms.author: alfergus
+manager: shellyha
 ---
 
 # Self-hosted custom event website
@@ -22,7 +20,7 @@ The frontend can be fully customized and hosted by yourself. Additionally, you c
 
 If you choose to develop your backend service, you need to take care of the Dynamics 365 Marketing authentication and the web services by yourself. If you want the event registration linked to the appropriate user who created it, make sure that you create the Dynamics 365 Marketing contact record for every new website user.  
 
-![Self-hosted](../media/self-hosted.png "Self-hosted")
+![Self-hosted instance (same domain) diagram](../media/self-hosted.png "Self-hosted instance (same domain) diagram")
 
 To give users full control of the event website, you can host the frontend by yourself.
 
