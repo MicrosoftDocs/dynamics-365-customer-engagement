@@ -10,7 +10,7 @@ ms.service:
 ms.topic: article
 ---
 
-# View smart assist for agents
+# View smart assist suggestions for agents configured using bot user
 
 [!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
