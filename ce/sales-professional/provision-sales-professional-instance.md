@@ -71,7 +71,7 @@ To provision a new Dynamics 365 environment:
 
    |Setting  |Description  |
    |---------|---------|
-   |Language     | The default language for this environment. More information: [Common Data Service language collations](language-collations.md)     |
+   |Language     | The default language for this environment. More information: [Common Data Service language collations](/power-platform/admin/language-collations)     |
    |Currency     | The base currency used for reporting.         |
    |Enable Dynamics 365 apps | Select **Yes**. If this is set to **No**, a Common Data Service environment will be created and you won't be able to install Sales Professional on this environment. |
    |Security group | Select a security group to restrict access to this environment. |
