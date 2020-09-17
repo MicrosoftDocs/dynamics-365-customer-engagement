@@ -69,17 +69,24 @@ Go to the schedule board and use the toggle button in the top right of the sched
 
 ## Schedule resources
 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](../../field-service/media/scheduling-new-assistance-preview.png)
+Beyond manual drag and drop scheduling, organizations using Resource Scheduling Optimization (RSO) can select one or more requirements from the new schedule board and either have the system **Suggest resources** or **Book resources**.
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](../../field-service/media/scheduling-new-suggest-resources.png)
 
+Selecting _Suggest resources_ will display recommended resource(s) in the right panel for the dispatcher to book.
+
+Selecting _Book resources_ will simply find the most optimal resource(s) and book them without additional actions from the dispatcher.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](../../field-service/media/scheduling-new-assistance-preview.png)
+
+Suggest resources and Book resource capabilities on the new schedule board are currently only available for organizations using Resource Scheduling Optimization (RSO).
+
 ## Daily view
 
-The new schedule board supports a daily view of scheduled job and supports fragging and dropping to schedule.
+The new schedule board supports a daily view of scheduled jobs and supports gragging and dropping to schedule.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](../../field-service/media/scheduling-new-daily-view-schedule1.png)
