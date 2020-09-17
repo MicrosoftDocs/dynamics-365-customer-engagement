@@ -45,5 +45,13 @@ This topic contains links to information about the supported software requiremen
 ## Microsoft Windows  
  For versions of [!INCLUDE[pn_ms_Windows_long](../../includes/pn-ms-windows-long.md)]that are supported for [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], see [Microsoft Dynamics 365 for Outlook software requirements](software-requirements.md).  
   
+## How to find the users using Outlook COM add-in in your environment?
+ If you are not sure which users are accessing the add-in, you can use Advanced Find to query “Mailboxes” entity. This will identify the users currently configured to use Outlook COM add-in.<br/>
+ The advanced find query on Mailboxes should filter on whether the mailbox has Microsoft Dynamics 365 for Outlook as the synchronization method for “Incoming email” or “Outgoing email” or “Appointments, Contacts, and Tasks”. 
+Subsequently, you should filter out “Owning User (User)”, if it contains data and if the Access Mode is not configured to “Support User” or “Delegated Admin”
+<br/><BR/>
+ Below screenshot illustrates the filter criteria – 
+ MINTS TO ADD IMAGE
+
 ### See Also  
  [Microsoft Dynamics 365 for Outlook hardware requirements](hardware-requirements.md)   
