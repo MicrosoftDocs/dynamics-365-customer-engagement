@@ -71,12 +71,12 @@ To install the Sales Enterprise solution on a Dynamics 365 environment:
 3.	Open the environment in which you want to install the Sales Enterprise solution, and select **Dynamics 365 apps**.
 
    > [!div class="mx-imgBorder"] 
-   > ![Select Dynamics 365 apps resource](media/resources-select-dynamics-365-apps.png "Select Dynamics 365 apps resource")
+   > ![Select Dynamics 365 apps resource](../sales-professional/media/resources-select-dynamics-365-apps.png "Select Dynamics 365 apps resource")
 
 4.	On the command bar, select **Install app**.
 
    > [!div class="mx-imgBorder"] 
-   > ![Select Install app](media/select-install-app-dynamics365-apps-resource.png "Select Install app")
+   > ![Select Install app](../sales-professional/media/select-install-app-dynamics365-apps-resource.png "Select Install app")
 
 5. In the **Install Dynamics 365 apps** panel, select 'Dynamics 365 Sales, Enterprise Edition app', and select **Next**.
 
