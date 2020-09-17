@@ -46,7 +46,7 @@ Use the Outlook Checker to run a diagnostic check and scan for potential issues 
     > ![Open Outook pane](media/outlook-pane.png "Open Outlook pane")
     
     
-2. When you see the **Dynamics 365** pane, press **ALT** + **CTRL** + **Y** on your keyboard to bring up the **Outlook Checker**.
+2. Select the **Dynamics 365** pane and then press **ALT** + **CTRL** + **Y** on your keyboard to bring up the **Outlook Checker**.
 3. Use the **Show** or **Hide** toggle to show or hide the checker icon in the command bar.
   
     > [!div class="mx-imgBorder"] 
