@@ -54,7 +54,7 @@ Subsequently, you should filter out “Owning User (User)”, if it contains dat
  The screenshot illustrates the filter criteria.
 
    > [!div class="mx-imgBorder"] 
-   > ![Open Outook pane](outlook-addin/media/addin_filter.jpg "Open Outlook pane")
+   > ![Open Outook pane](../media/addin_filter.jpg "Open Outlook pane")
  
  
  
