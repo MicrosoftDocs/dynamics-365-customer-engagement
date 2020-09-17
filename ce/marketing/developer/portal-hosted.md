@@ -1,6 +1,6 @@
 ---
 title: "Dynamics 365 Portal hosted custom event website | MicrosoftDocs"
-description: "Learn how you can extend event management web application functionality in Dynamics 365 Marketing."
+description: "Learn how you can extend event management web application functionality for Portal hosted event websites in Dynamics 365 Marketing."
 ms.custom:
   - dyn365-developer
   - dyn365-marketing
