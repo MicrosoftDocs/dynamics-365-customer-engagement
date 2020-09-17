@@ -12,6 +12,7 @@
 ## [Limitations when customizing the app](limitations-when-customizing-app-for-outlook.md)   
 
 # [Using the app](dynamics-365-app-outlook-user-s-guide.md)
+# [Run the diagnostics checker](diagnostic-checker.md)
 # [FAQs](faq.md)
 
 # Version 8.x
