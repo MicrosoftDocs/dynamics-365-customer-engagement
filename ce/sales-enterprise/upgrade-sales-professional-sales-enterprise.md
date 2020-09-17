@@ -96,11 +96,9 @@ After you complete these steps, your organization will be effectively upgraded t
 4.	Select the [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] Professional solution and select **Delete**. 
 
     > [!NOTE]
-
     > When you delete this solution, the Sales Pro app module is deleted, and any configuration specific to this app module such as its site map and form preferences are also lost.
 
 > [!IMPORTANT]
-> 
 > As per contractual agreement, you can't mix and match Enterprise and Professional users on the same instance. If you plan to keep Professional licenses, make sure you abide by the contractual requirements. More information: [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544)
 
 
