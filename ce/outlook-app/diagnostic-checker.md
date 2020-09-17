@@ -51,8 +51,8 @@ Use the Outlook Checker to run a diagnostic check and scan for potential issues 
   
     > [!div class="mx-imgBorder"] 
     > ![Outook Checker pane](media/outloook-checker-pane.png "Outlook Checker pane") 
-
-   This is how the checker icon appears on the command bar. 
+b
+- If you moved the toggle to **Show**, the checker icon is added to the command bar and the **Search** button ![Search button in Outlook pane](media/searchicon_outlook.png "Search button in Outlook pane") will move under **More commands** ![More commands button in Outlook pane](media/morecommands_outlook.png "More commands in Outlook pane")
    
      > [!div class="mx-imgBorder"] 
      > ![Outook Checker on the command bar](media/checker-commandbar.png "Outlook Checker on the command bar")
