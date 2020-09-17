@@ -67,6 +67,26 @@ Go to the schedule board and use the toggle button in the top right of the sched
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the schedule board showing the preview toggle in the top right set to "On."](../../field-service/media/schedule-board-new-enable-preview.png)
 
+## Schedule resources
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-new-assistance-preview.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-new-suggest-resources.png)
+
+## Daily view
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-new-daily-view.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-new-daily-view-schedule1.png)
+
 ## Configuration considerations
 
 - During preview, the new schedule board is only available in English. 
@@ -83,7 +103,6 @@ Continue to use the **current** schedule board for common functions like:
 - Schedule board tab settings.
 - Schedule board configurations like number of days in a view or applying filter territories.
 - Map view and scheduling.
-- Days, weeks, and months view.
 
 ### Add new schedule board to custom sitemap area
 
