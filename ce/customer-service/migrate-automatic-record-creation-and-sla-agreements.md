@@ -297,7 +297,7 @@ A successfully migrated rule's migration status is set to migrated by default.
 
 ## Rerun the migration tool
 
-If you have many rules and items to migrate and want to perform the migration in batches or want to attempt to migrate the unsuccessfuly migrated rules and items again, you can rerun the migration tool. If you need to migrate a successfully migrated rule or item again, make sure you delete the migrated rule in Customer Service Hub, and then run the migration process.
+If you have many rules and items to migrate and want to perform the migration in batches or want to attempt to migrate the unsuccessfully migrated rules and items again, you can rerun the migration tool. If you need to migrate a successfully migrated rule or item again, make sure you delete the migrated rule in Customer Service Hub, and then run the migration process.
 
 1. Select **ARC & SLA Migration tool (Preview)** in the left pane in **Service Management**. The **Summary** page displays the status of the previous migration. In the **Pending** column, the number indicates the rules and items that are pending migration. These include failed rules, partially or incomplete migrated rules, and rules that have not been attempted.
  
@@ -312,8 +312,7 @@ In the **Premigration checkup** state, the tool reviews only those rules that we
 
 ### See also
 
-[Migration tool FAQs](migrate-tool-faqs.md)
-
+[Migration tool FAQs](migrate-tool-faqs.md)  
 [Set up rules to automatically create or update records](set-up-rules-to-automatically-create-or-update-records.md)  
 [Define service-level agreements](define-service-level-agreements.md)  
 [Important changes (deprecations) coming](https://docs.microsoft.com/power-platform/important-changes-coming)  
