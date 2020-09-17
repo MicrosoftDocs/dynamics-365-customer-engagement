@@ -1,6 +1,6 @@
 ---
 title: "Migration tool FAQs | MicrosoftDocs"
-description: "Migration tool FAQs for: Automatic record creation rules and service-level agreements"
+description: "Migration tool FAQs for: Automatic record creation rules and service-level agreement items"
 ms.date: 09/17/2020
 ms.service:
   - "dynamics-365-customerservice"
@@ -16,7 +16,7 @@ manager: shujoshi
 
 ### Who can access or run the migration tool?
 
-Currently, only administrators can run the migration tool. 
+Currently, only administrators can run the migration tool.
 
 ### Are migrated rules automatically activated post-migration?
 
@@ -59,8 +59,8 @@ You can either fix the rule in the web client based on the problem details and r
 
 Yes, you can rerun the migration tool for a specific migrated rule based on the following:
     
-- For incomplete or failed migration rules: Reselect the same rule when you rerun the migration tool. It automatically replaces the existing failed or incomplete rule with the newly migrated one.
-- For successfully migrated rules: Delete the migrated rule in the Unified Interface version before rerunning the migration tool.
+- **For incomplete or failed migration rules:** Select the same rule when you rerun the migration tool. It automatically replaces the existing failed or incomplete rule with the newly migrated one.
+- **For successfully migrated rules:** Delete the migrated rule in the Unified Interface before rerunning the migration tool.
 
 
 ## Known condition conversion issues
@@ -69,7 +69,7 @@ The following are key scenarios where rules or items will not successfully compl
 
 ### If my rule items or conditions have related entities inside a nested group clause (and/or), will they be migrated to Unified Interface?
 
-No. We currently only support one level of the related entity hierarchy. For such rule items or conditions to successfully migrate, you need to remove any related entity in group clause premigration. If you don't take any action, the rule will fail during the **Premigration checkup** step, and if you then choose to continue with the migration, the rule will have an empty condition for the respective item.
+No. We currently only support one level of the related entity hierarchy. For such rule items or conditions to successfully migrate, you need to remove any related entity in group clause before you migrate. If you don't take any action, the rule will fail during the **Premigration checkup** step, and if you then choose to continue with the migration, the rule will have an empty condition for the respective item.
     
 **Example: Premigration view**
   

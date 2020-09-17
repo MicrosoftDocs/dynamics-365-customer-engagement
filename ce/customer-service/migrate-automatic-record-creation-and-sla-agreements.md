@@ -44,7 +44,30 @@ The migration tool provides the following functionality:
 - For migrating SLAs, your environment must have Customer Service version 9.0.20053.1030 or later to opt in for migration.
 - Administrator permissions.
 
-## Migration process
+## Things to consider
+
+Before you run the migration tool, it is important to understand how the modern automatic record creation and SLA rules work in the Customer Service Hub app.
+
+- **Working with rules or items:** When you perform your migration, you will be able to view detailed results only for rules that have failed the premigration check or those that were partially migrated (incomplete). 
+
+  To learn more about how to create rules in the Customer Service Hub app, see [Automatically create or update records in Customer Service Hub](automatically-create-update-records.md) and [Define service-level agreements](define-service-level-agreements.md).
+
+  > [!Note]
+  > After you successfully migrate a rule, any edits made to the rule in the web client will not be visible in Unified Interface. For the edits to be visible in Unified Interface, you must delete the rule in Unified Interface and migrate it again from the web client.
+
+- **Editing rules or items:** If you rerun the migration tool, it will pick up any updates or edits in the web client if the rule has been:
+
+    - Edited in the web client prior to the actual migration.
+    - Edited in the web client to resolve errors after a failed migration attempt.
+
+  The following updates or edits to a rule will not be considered if:
+
+    - The rule is edited on the web client after it is successfully migrated to Unified Interface.
+    - Any edits were made in the migrated rules in Unified Interface as well.
+
+- Only one level of related entity hierarchy in a rule or item is supported for migration. If any rule or item contains related entity in group clause, you need to remove them before migrating the rule.
+
+## How the migration process works
 
 The migration progress is indicated on the page as follows; the colored circle indicates the migration stage.
 > ![Migration stages](media/migration-stages.png "Migration stages")
@@ -60,29 +83,6 @@ The migration progress is indicated on the page as follows; the colored circle i
 5. **Migration:** Post-migration, allows you to review the successfully migrated rules and rules that failed migration.
 
 6. **Finish:** Provides you with a summary and status page of the successfully migrated rules, pending rules, and rules that failed migration.
-
-### Working with rules
-
-Before you run the migration tool, it is important to understand how the modern automatic record creation and SLA rules work in the Customer Service Hub app.
-
-When you perform your migration, you will only receive detailed results on rules that have failed the premigration check or creation, or those that were partially migrated (incomplete).  
-
-To learn more about how to create rules in the Customer Service Hub app, see [Automatically create or update records in Customer Service Hub](automatically-create-update-records.md) and [Define service-level agreements](define-service-level-agreements.md).
-
-> [!Note]
-> When you have successfully migrated a rule, any edits made to that rule on the web client will not be visible in Unified Interface. For the edits to be visible in Unified Interface, you must delete the rule in Unified Interface and migrate it again from the web client.
-
-### Editing rules
-
-If you rerun the migration tool, it will pick up any updates or edits in the web client if the rule has been:
-
-- Edited prior to the actual migration in the web client.
-- Edited to resolve errors in the web client that failed during a previous migration attempt.
-
-The following updates or edits to a rule will not be considered if:
-
-- The rule is edited on the web client after it was successfully migrated to Unified Interface.
-- Any edits were made to migrated rules in the Unified Interface client after running the migration tool.
 
 ## Access the migration tool
 
@@ -115,7 +115,7 @@ The annotations are explained as follows.
 
 ## Migrate the automatic record creation rules and SLA items
 
-You can migrate both the automatic record creation rules and SLA items together or separately.
+You can migrate both the automatic record creation rules and SLA items together or separately. The information in the following sections is organized according to the [migration process](#how-the-migration-process-works) on the left of the migration pages that leads you through the migration states.
 
 ### Category to migrate
 
@@ -148,7 +148,6 @@ When you run the migration process for the first time, you won't have any insigh
 |2|	The number of rules that might fail the migration.|
 |||
 
-
 ### Rules and items to migrate
 
 If you have selected both automatic record creation rules and SLAs, the step 3 page is divided into **Step 3.1** and **Step 3.2** pages, one each for automatic record creation rules and SLAs.
@@ -159,13 +158,13 @@ The rules and items that fail the premigration check can still be migrated; howe
 
 #### Automatic record creation and update rules
 
-In this section, the Step 3.1 page that appears for the rules that you select for migration is shown as a sample.
+In this section, the Step 3.1 page that appears for the rules that you select for migration is shown as an example.
 
-![Migration Tool for first-time user](media/migration-tool-step-3-first-time-users-1.png "Migration Tool for a first-time user")
+![Rules and items to migrate](media/migration-tool-step-3-first-time-users-1.png "Rules and items to migrate")
 
-Label|Description
+|Label|Description|
 |----|------|
-|1|	Rules that pass are automatically selected for migration. You can clear the selection for any rules that you don't want to migrate. Rules that failed are not selected for migration. To understand why a rule failed, you can select it and view the details about the failure and use the information to fix the failure prior to or after migration.|
+|1|	Rules that pass are automatically selected for migration. You can clear the selection for any rules that you don't want to migrate. Rules that failed are not selected for migration. To understand why a rule failed, you can select it and [view the details about the failure](#view-details-of-rules-that-failed), and then use the information to fix the failure prior to or after migration.|
 |2|	**Migrate all rules** provides you the ability to override the current selection to select all rules, regardless of their premigration check result. |
 |3|	This alert notifies you that while you can migrate rules that failed the premigration check, the data on failed rules will not migrate completely and provides the option to **unselect rules** that failed.|
 |4|	Lets you **download all logs** for review and troubleshooting purposes.|
@@ -174,7 +173,7 @@ Label|Description
 
 When you select a rule that failed the premigration check, you have a choice of **Basic** and **Advanced** views to understand why a rule failed. You can use this information to either troubleshoot and fix the ruled that failed, or choose to migrate the rule and fix it in Customer Service Hub after migration is complete.
 
-**Basic view**
+##### Basic view
 
 The **Basic** view provides an overview for each individual rule that failed.
 
@@ -197,7 +196,6 @@ The **Advanced** view provides the problem details on rules that failed.
 |1|	Additional details about why the rule might have failed migration, which you can use to troubleshoot and resolve prior to migration.|
 |2|	The **Download log** provides a list of failed rules to review and troubleshoot.|
 |||  
-
 
 ### Review
 
@@ -253,18 +251,18 @@ When you've completed your first run and selected **Finish**, a migration **Summ
 
 |Label|Description|
 |---|----|
-|1|	**Total**: Displays the number of legacy rules present overall.|
-|2|	**Migrated**: Displays the number of rules you have completely migrated to date.|
-|3|	**Pending**: Displays the number of rules you have pending migration (includes failed rules, partially/incomplete migrated rules, and rules that have not been attempted).|
-|4|	**Refresh**: Lets you view your updated migration status.|
+|1|	**Refresh**: Lets you view your updated migration status.|
+|2|	**Total**: Displays the number of legacy rules present overall.|
+|3|	**Migrated**: Displays the number of rules you have completely migrated to date.|
+|4|	**Pending**: Displays the number of rules you have pending migration (includes failed rules, partially/incomplete migrated rules, and rules that have not been attempted).|
 |5|	**Next Step**: Provides links to all the automatic record creation rules and SLA items that you can review and choose to activate them.|
 |||
 
-## Review and activate migrated rules
+## Review and activate migrated rules in Customer Service Hub
 
 You can select the links on the migration summary page to view the automatic record creation rules or SLA items in Customer Service Hub. On the respective pages that appear, you can review and activate the migrated rules or items.
 
-![Migration tool - Step 6 - Activate new rules](media/migration-tool-step-6-first-time-users-2.png "Migration tool  - Step 6 - Activate new rules")
+![Migration tool - Activate new rules](media/migration-tool-step-6-first-time-users-2.png "Migration tool - Activate new rules")
 
 |Label|Description|
 |---|----|
@@ -297,19 +295,18 @@ A successfully migrated rule's migration status is set to migrated by default.
 |2| **Migration status**: Displays the status of the rule as either **Migrated** or **Incomplete**.|
 |||
 
-
 ## Rerun the migration tool
 
 If you have many rules and items to migrate and want to perform the migration in batches or want to attempt to migrate the unsuccessfuly migrated rules and items again, you can rerun the migration tool. If you need to migrate a successfully migrated rule or item again, make sure you delete the migrated rule in Customer Service Hub, and then run the migration process.
 
-1. Select **ARC & SLA Migration tool (Preview)** in the left pane in **Service Management**. The **Summary** page displays the status of the previous migration. The number of rules and items that are pending migration are listed in the **Pending** column.
+1. Select **ARC & SLA Migration tool (Preview)** in the left pane in **Service Management**. The **Summary** page displays the status of the previous migration. In the **Pending** column, the number indicates the rules and items that are pending migration. These include failed rules, partially or incomplete migrated rules, and rules that have not been attempted.
  
     ![Rerun migration tool](media/rerun-migration.png "Rerun migration tool")
 2. Select **Start migration**, and perform the steps to run the migration of the rules and items again.
 
 The steps to rerun the migration are same as when you run the migration for the first time. More information: [Migrate the automatic record creation rules and SLA items](#migrate-the-automatic-record-creation-rules-and-sla-items)
 
-In the **Premigration checkup** stage, the tool reviews only those rules that were previously not migrated, partially migrated, or failed migration. The **Total** column lists the number of rules that are available for migration.
+In the **Premigration checkup** state, the tool reviews only those rules that were previously not migrated, partially migrated, or failed the migration. On this page, the **Total** column lists the number of rules that are available for migration.
 
 ![Premigration check](media/premigration-check-rerun-migration.png "Premigration check")
 
@@ -320,4 +317,3 @@ In the **Premigration checkup** stage, the tool reviews only those rules that we
 [Set up rules to automatically create or update records](set-up-rules-to-automatically-create-or-update-records.md)  
 [Define service-level agreements](define-service-level-agreements.md)  
 [Important changes (deprecations) coming](https://docs.microsoft.com/power-platform/important-changes-coming)  
-
