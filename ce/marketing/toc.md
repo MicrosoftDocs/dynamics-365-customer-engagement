@@ -198,7 +198,7 @@
 
 ### Engage contacts with portals and surveys
 #### [Create interactive features with or without portals](portals.md)
-#### [Integrate Forms Pro with Dynamics 365 Marketing](forms-pro.md)
+#### [Integrate Customer Voice with Dynamics 365 Marketing](customer-voice.md)
 #### [Create and run online surveys](surveys.md)
 
 ### Marketing on social media
