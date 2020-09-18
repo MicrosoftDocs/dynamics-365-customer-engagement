@@ -88,12 +88,6 @@ Existing work orders will display and reference the previous version of the insp
 
 After technicians answer inspection questions and mark the work order service task as complete, inspection answers are stored in Common Data Service for reporting purposes.
 
-// @kristina this is where i need your help
-
-// https://msit.microsoftstream.com/video/85e9a3ff-0400-96f3-957b-f1eaf3cb7e4d
-
-// more details - https://msit.microsoftstream.com/video/401ba4ff-0400-96f3-103c-f1eaf3bb7a39
-
 There are three entities stored in Common Data Service:
 
 1. Dynamics 365 Customer Voice survey question: each inspection question
@@ -105,51 +99,53 @@ First, we'll define how often inspection answers should be parsed and organized 
 Go to **Field Service app** > **Settings** > **Field Service Settings** > **Inspection tab**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/0-inspection-snapshot-parse-response.png)
+> ![Screenshot of the Field Service settings page.](./media/0-inspection-snapshot-parse-response.png)
 
-Next create and publish an inspection. Here is an example.
+Make sure **Analytics enabled** is set to **Yes**. Set **Analytics frequency** to:
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/1-inspections-snapshot-1.jpg)
+- **Daily** to gather analytics from inspections once per day.
+- **Immediately** to gather analytics as soon as an inspection is submitted.
+- **Custom** to define your own parameters.
 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/2-inspections-snapshot-2.jpg)
-
-
-After publishing an inspection you will see the questions are stored in CDS in the Customer Voice survey question entity.
-
+Next, we need to create and publish an inspection. See the following screenshot for an example.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/5-snapshot-after-publish-inspection.jpg)
+> ![Screenshot of a sample inspection in Field Service.](./media/1-inspections-snapshot-1.jpg)
 
+In our example, we've created an inspection with four questions.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the sample inspection, showing additional questions.](./media/2-inspections-snapshot-2.jpg)
+
+After publishing an inspection, the questions are stored in Common Data Service, and can be found in the **Customer Voice survey question** entity in Power Apps. Here, you can see entries for each question on an inspection.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Power Apps, showing the Customer Voice survey question entity detail page.](./media/5-snapshot-after-publish-inspection.jpg)
+
+If a question on an inspection has no response, the **Customer Voice survey question response** entity detail will remain empty.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/6-response-snapshot-before-completion.jpg)
 
+Back on our sample inspection, we added some values for the questions, as seen in the following screenshot, and saved the inspection. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/7-snapshot-after-response-1.jpg)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/8-response-snapshot-after-completion-2.jpg)
-
+> ![Screenshot of an inspection with questions answered.](./media/7-snapshot-after-response-1.jpg)
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/9-CDS-data-upon-completion.jpg)
+> ![Screenshot of an inspection with additional questions answered.](./media/8-response-snapshot-after-completion-2.jpg)
 
-
-Deserialization of Inspection Definition flow:
-
-This flow deserializes the Inspection Definition records and is shipped with Inspection Solution. 
-This flow is not bounded by the frequency settings introduced in Inspections tab in FS settings.
-Every Inspection form (questionnaire), once published, the deserialized inspection definition JSON data is immediately ingested into the Forms Pro entity msfp_question. This flow gets triggered on state changed to published and performs the same. 
-
-
+Back in Power Apps, on the **Customer Voice survey question response** entity, you'll see the values to each submitted response from the inspection.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/10-Flow-for-published-questions.jpg)
+> ![Screenshot of Power Apps showing the inspection responses in the Customer Voice survey question response entity.](./media/9-CDS-data-upon-completion.jpg)
+
+> [!Note]
+> All the logic described in this section of the article is driven by a Power Automate flow to deserialize inspection definitions, and is shipped by default with the inspections feature.
+>
+> Upon publish of an inspection, the deserialized inspection definition JSON data is ingested into the Dynamics 365 Customer Voice entity **msfp_question**. This flow gets triggered on state changed to published and performs the same.
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the inspection deserialization flow in Power Automate.](./media/10-Flow-for-published-questions.jpg)
 
 ## Configuration considerations
 
