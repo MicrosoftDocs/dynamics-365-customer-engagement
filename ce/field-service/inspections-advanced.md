@@ -90,9 +90,9 @@ After technicians answer inspection questions and mark the work order service ta
 
 There are three entities stored in Common Data Service:
 
-1. Dynamics 365 Customer Voice survey question: each inspection question
-2. Dynamics 365 Customer Voice survey response: a response to an inspection
-3. Dynamics 365 Customer Voice survey question response: each individual response to each inspection question
+1. **Customer Voice survey question**: each inspection question
+2. **Customer Voice survey response**: a response to an inspection
+3. **Customer Voice survey question response**: each individual response to each inspection question
 
 First, we'll define how often inspection answers should be parsed and organized in Common Data Service.
 
