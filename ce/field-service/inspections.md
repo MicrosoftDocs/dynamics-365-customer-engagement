@@ -1,5 +1,6 @@
 ---
-title: "Dynamics 365 Field Service inspections (public preview) | MicrosoftDocs"
+title: "Dynamics 365 Field Service inspections | MicrosoftDocs"
+description: Learn about how to use inspections in Dynamics 365 Field Service.
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 08/01/2020
@@ -297,7 +298,7 @@ If an inspection question is required, the technician will not be able to mark *
 ## Configuration considerations
 
 > [!Note]
-> During the inspections preview period Microsoft may make schema changes that may render inspections and related records to enter a state where they can no longer be used. As of August 2020 inspections are no longer in preview and are available as early access before general availability in October 2020.  
+> During the inspections preview period, Microsoft may make schema changes that may render inspections and related records to enter a state where they can no longer be used. As of August 2020 inspections are no longer in preview, and are available as early access before general availability in October 2020. 
 
 - Only single responses are supported and a technician cannot fill out the same inspection twice for a single work order service task. If the responses are cleared or answered again, the original responses are deleted and only the latest responses are saved.
 
