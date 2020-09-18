@@ -3,7 +3,7 @@ title: "Dynamics 365 Field Service Mobile version history | MicrosoftDocs"
 description: Find a list of important updates for Dynamics 365 Field Service mobile apps.
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 07/14/2020
+ms.date: 09/18/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -35,67 +35,67 @@ This article chronicles important updates related to Field Service Mobile and as
 
 ### Updates
 
-- Moving Authentication Library from ADAL.Net to MSAL 
-- Updating Intune SDKs for Android & iOS 
+- Moving authentication library from ADAL.Net to MSAL.
+- Updating Intune SDKs for Android and iOS.
 - Azure Image Recognition: Integrate with Azure's Custom Vision service to classify images.  
-- Buttons on Entity Forms: Ability to add custom buttons on forms, adding the ability to execute actions directly from form's UI. A rule can be provided to implement custom business logic.  
-- Brand new look & feel of Charts: Charts in the mobile application get a visual makeover as the app now uses a different visualization library. The old look can be enabled as a legacy option in Woodford.   
+- Buttons on entity forms: Ability to add custom buttons on forms, adding the ability to execute actions directly from form's UI. A rule can be provided to implement custom business logic.  
+- Brand new look and feel of charts: Charts in the mobile application get a visual makeover as the app now uses a different visualization library. The old look can be enabled as a legacy option in Woodford.
 - Rules support square root and other math operators  
-- Rules editor now natively supports more complex math operations on top of your data, such as using the Nth root, exponentiation, and logarithm, directly in the rules.   
-- Mobile Audit is uploaded last to ensure that any referenced records are uploaded first.  
-- REFACTOR: iOS: RTL ordering of panels  
-- Mobile Reports: When emailing report from multiselect, pass first record reference as relationship variable  
+- Rules editor now natively supports more complex math operations on top of your data, such as using the *Nth* root, exponentiation, and logarithm, directly in the rules.
+- Mobile audit is uploaded last to ensure that any referenced records are uploaded first.  
+- REFACTOR: iOS: RTL ordering of panels. 
+- Mobile reports: When emailing report from multiselect, pass first record reference as relationship variable.
 - Sync: Custom upload order: It is now possible to specify a custom upload order. You can specify which entities are uploaded at the beginning and which entities are uploaded at the end of the upload process.  
-- Report: Excel: Use style with text wrapping enabled for texts with multiple lines  
+- Report: Excel: Use style with text wrapping enabled for texts with multiple lines. 
 
 ### Bug Fixes
 
-- Win10: MonthCalendar handled every cell click twice  
-- Win10: Refresh global search placeholder after app language has changed  
-- MobileCRM.Win10: Stacked chart display old chart onHover  
-- MobileCRM.Win10: Bar charts doesn't support Stacked nor Grouped view  
-- Win10: Forward button included (serves as Back button in RTL)  
-- Win10: RTL-related fixes  
-- Android: SendEmail action fixed to support both Gmail & Outlook  
-- Android: Do not show download progress in status bar on devices with top cutout (notch) and Anroid 9+ in portrait  
-- Report: Excel: Fixed assignment of horizontal alignment constants to vertical alignment. Fixed warning  
-- All: Use correct color for home icons if custom home theme is used  
-- Scheduler: FilterStatus and other items in ButtonsBar were not reduced or hidden properly when ButtonsBar width was not sufficient  
-- Report: Excel: Fixed assignment of horizontal alignment constants to vertical alignment  
-- Android: Hide tab bar when content was scrolled externally  
-- MobileCRM.Win10: Charts: Missing Axis Labels (only every second is displayed)  
-- Fixed incorrect date formats  
-- Charts labels overlap + error when charts use year grouping  
-- Win10: Drilldown window in the center of view when the chart is too large  
-- Incorrect implementation of RemoveItemCampaign/RemoveItemCampaignActivity web requests (Dynamics)  
-- Failure to sync the entity ServiceEndpoint (and other entities without RowVersion field) if the sync type is 'Incremental Sync'  
-- iOS13 - App crashes when uploading videos to Cloud storage  
-- iOS13 - App crashes if notifications are disabled for the app  
-- Mobile Report does not work with Cloud Documents in Online mode  
-- iOS: Expand/Collapse button should only be available on New Form UI  
-- iOS13 - App crash when appointment set to "Complete"  
-- Source has been attached to any resource when there has not been valid resource (in mode 'Source To Owner relationship')  
-- SharePoint: Sync problems when adding and deleting SharePoint docs  
-- Accessibility: VoiceOver: iOS: Can't edit already filled Lookup fields  
-- LOCALIZATIONS: Remove unnecessary translations of DetailView tabs (en-US and es-ES)  
-- Mobile CRM: Windows Store app cannot open Lookup Dialog window  
-- Mobile CRM: App crashes when exporting records  
-- Unable to save signature as PNG 
-- iOS: Lookup control - typed characters are invisible in the text input
-- Android: App crashing when returning from Tasks form.
-- Android: App crashes when trying to print notes
-- iOS: App intermittently not loading saved password on iOS 13.x. We have changed the default configuration to access keychain data. From 'AccessibleWhenUnlockedThisDeviceOnly' to 'AccessibleAfterFirstUnlockThisDeviceOnly'
-- Android: Intermittent app crash on barcode scan
-- Android: Fix for extra lines appearing in PDF report
-- Mismatch in behavior of Day Picker for Duration Field in Work Order Service for Android and Windows
-- Android App crashes when scanning barcode
-- Android App crashes when trying to print notes
-- Android App crashing when returning from Tasks form.
-- Android App crashes when resource not 'Enabled for mobile' logs in
-- Android [Intune] Go back button doesn’t work properly when we transfer data from other apps
-- All platforms UX Improvement:  Session Id on error dialog box
-- Android App crashes when trying to login without password
-- Android Updated 'MGF1 digest' encryption methodology from SHA-1 to SHA-256
+- Win10: MonthCalendar handled every cell click twice.
+- Win10: Refresh global search placeholder after app language has changed.
+- MobileCRM.Win10: Stacked chart display old chart on hover. 
+- MobileCRM.Win10: Bar charts doesn't support stacked or grouped view.
+- Win10: Forward button included (serves as back button in RTL). 
+- Win10: RTL-related fixes.
+- Android: SendEmail action fixed to support both Gmail and Outlook.
+- Android: Do not show download progress in status bar on devices with top cutout (notch) and Anroid 9+ in portrait.
+- Report: Excel: Fixed assignment of horizontal alignment constants to vertical alignment. Fixed warning. 
+- All: Use correct color for home icons if custom home theme is used.
+- Scheduler: FilterStatus and other items in ButtonsBar were not reduced or hidden properly when ButtonsBar width was not sufficient.
+- Report: Excel: Fixed assignment of horizontal alignment constants to vertical alignment.
+- Android: Hide tab bar when content was scrolled externally.  
+- MobileCRM.Win10: Charts: Missing axis Labels (only every second is displayed).
+- Fixed incorrect date formats.
+- Charts labels overlap and error when charts use year grouping.  
+- Win10: Drilldown window in the center of view when the chart is too large.  
+- Incorrect implementation of RemoveItemCampaign/RemoveItemCampaignActivity web requests (Dynamics 365).
+- Failure to sync the entity ServiceEndpoint (and other entities without RowVersion field) if the sync type is 'Incremental Sync.'  
+- iOS13 - App crashes when uploading videos to cloud storage.
+- iOS13 - App crashes if notifications are disabled for the app.
+- Mobile Report does not work with cloud Documents in online mode.  
+- iOS: Expand/Collapse button should only be available on New Form UI.
+- iOS13 - App crash when appointment set to "Complete."  
+- Source has been attached to any resource when there has not been valid resource (in mode 'Source To Owner relationship').  
+- SharePoint: Sync problems when adding and deleting SharePoint docs.  
+- Accessibility: VoiceOver: iOS: Can't edit already filled Lookup fields.
+- LOCALIZATIONS: Remove unnecessary translations of DetailView tabs (en-US and es-ES).
+- Mobile CRM: Windows Store app cannot open lookup dialog window.  
+- Mobile CRM: App crashes when exporting records.  
+- Unable to save signature as a .png file.
+- iOS: Lookup control - typed characters are invisible in the text input.
+- Android: App crashing when returning from tasks form.
+- Android: App crashes when trying to print notes.
+- iOS: App intermittently not loading saved password on iOS 13.x. We have changed the default configuration to access keychain data. From 'AccessibleWhenUnlockedThisDeviceOnly' to 'AccessibleAfterFirstUnlockThisDeviceOnly.'
+- Android: Intermittent app crash on barcode scan.
+- Android: Fix for extra lines appearing in PDF report.
+- Mismatch in behavior of day picker for duration field in work order service for Android and Windows.
+- Android app crashes when scanning barcode.
+- Android app crashes when trying to print notes.
+- Android app crashing when returning from tasks form.
+- Android app crashes when resource not 'Enabled for mobile' signs in.
+- Android Intune: Go back button doesn’t work properly when we transfer data from other apps.
+- All platforms UX Improvement: Session Id on error dialog box.
+- Android App crashes when trying to login without password.
+- Android updated 'MGF1 digest' encryption methodology from SHA-1 to SHA-256.
 
 ## 12.1.224
 
