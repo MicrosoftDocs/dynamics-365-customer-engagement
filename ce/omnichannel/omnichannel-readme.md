@@ -21,7 +21,7 @@ The topic explains the known issues and limitations of Omnichannel for Customer 
 
 ## Productivity pane is disabled after the upgrade of Omnichannel for Customer Service
 
-If you have enabled the **Productivity pane** in Omnichannel for Customer Service, it'll be disabled after the upgrade. The productivity pane settings are now managed at app profile-level. 
+If you have enabled the **Productivity pane** in Omnichannel for Customer Service, it'll be disabled after the upgrade. The productivity pane settings are now managed at the app profile level in the app profile manager. The Productivity pane option in the Omnichannel Administrator app will be unavailable.
 
 ## Loss of agent script state
 
