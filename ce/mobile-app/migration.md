@@ -2,7 +2,7 @@
 title: "How to migrate from Dynamics 365 phones and tablets app to the Power Apps mobile app (Dynamics 365 apps)| MicrosoftDocs"
 description: How to migrate from Dynamics 365 phones and tablets app to the Power Apps mobile app. 
 ms.custom: 
-ms.date: 9/11/2020
+ms.date: 9/23/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
