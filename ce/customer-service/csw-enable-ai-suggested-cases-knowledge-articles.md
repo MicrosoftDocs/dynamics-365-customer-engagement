@@ -75,7 +75,7 @@ Make sure that the following requirements are met:
 
 - Customer Service workspace is installed and accessible. More information: [Customer Service workspace](csw-overview.md)
 - To use AI suggestions for conversations in Omnichannel for Customer Service, you need to sign up for the insider preview program. More information: [Sign up for the insider preview](../omnichannel/agent/agent-oc/oc-view-ai-suggested-cases-articles.md#sign-up-for-the-insider-preview).
-- The	productivity pane is enabled. By default, the productivity pane is enabled out of the box. More information: [Enable productivity pane](../app-profile-manager/app-profile-manager.md#enable-prod-pane)
+- The	productivity pane is enabled. By default, the productivity pane is enabled out of the box. More information: [Enable productivity pane](../app-profile-manager/app-profile-manager.md#enable-prod-pane).
 - The System Administrator role is granted.
 
 ## Enable AI suggestions for similar cases
