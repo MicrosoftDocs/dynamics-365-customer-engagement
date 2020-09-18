@@ -1,6 +1,6 @@
 ---
-title: "How to migrate from Dynamics 365 phone and tablet app to the Power Apps mobile app (Dynamics 365 apps)| MicrosoftDocs"
-description: How to migrate from Dynamics 365 phone and tablet app to the Power Apps mobile app. 
+title: "How to migrate from Dynamics 365 phones and tablets app to the Power Apps mobile app (Dynamics 365 apps)| MicrosoftDocs"
+description: How to migrate from Dynamics 365 phones and tablets app to the Power Apps mobile app. 
 ms.custom: 
 ms.date: 9/11/2020
 ms.reviewer: 
@@ -45,4 +45,7 @@ Follow the steps below to ensure a smooth transition to the new app.
    
 4. To run your app select the app tile. Then test your app and make sure everything is working. For more information on how to use Power Apps mobile, see [User guide for model-driven apps running on the Power Apps mobile app](https://docs.microsoft.com/powerapps/user/use-custom-model-driven-app-on-mobile).
 
+
+> [!NOTE]
+> The Dynamics 365 phones and tablets app always opened the recent app that you used. The Power Apps mobile app works differently in that it opens the list of  apps that you have access to and you can select the app that you want to use. Or, you can pin the app that you use most on your home screen. For more information, see [Pin an app to the home screen](https://docs.microsoft.com/powerapps/user/run-canvas-and-model-apps-on-mobile#pin-an-app-to-the-home-screen).
 
