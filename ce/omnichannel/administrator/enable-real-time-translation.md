@@ -48,4 +48,5 @@ You must add a web resource and make sure that the required language translation
 
 ### See also
 
+[Add a web resource for real-time translation](../developer/how-to/add-web-resource-real-time-translation.md)  
 [Real-time language translation of conversations for agents and customers](../agent/agent-oc/oc-real-time-translation.md)  
