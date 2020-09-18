@@ -47,7 +47,7 @@ If you select the notification message body and not a button, the Omnichannel fo
 
 The wait time that's configured by your administrator applies to the desktop notification, but doesn't display the wait time on the desktop notification.
 
-That is, your administrator has configured the wait time as 90 seconds and set the **Show Timeout** field to **No**. Now, when you get a notification, the wait time won't be displayed on the notification. However, you've 90 seconds to take action. [Administrator configuration of notification templates](../administrator/notification-templates.md)  
+That is, your administrator has configured the wait time as 90 seconds and set the **Show Timeout** field to **No**. Now, when you get a notification, the wait time won't be displayed on the notification. However, you've 90 seconds to take action. [Administrator configuration of notification templates](../../administrator/notification-templates.md)  
 
 The desktop notification theme is based on the Windows operating system theme and settings.
 
