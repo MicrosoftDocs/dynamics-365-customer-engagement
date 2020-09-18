@@ -32,11 +32,11 @@ Perform the following steps to upload the web resource file for real time transl
    1. In the **General** section, enter a name for the web resource.
    2. In the **Content** section, select Script (JScript) for **Type**.
    3. For **Upload File**, select **Choose File** to upload the JavaScript file that you customized.
-   4. Copy the link in the **URL** field. You will provide this link in the administrator settings in Omnichannel Administration for configuring real-time translation.
-   5. Save the form, select the option to publish all customizations.
+   4. Save the form, select the option to publish all customizations.
+   5. Copy the link in the **URL** field. You will provide this link in the administrator settings in Omnichannel Administration for configuring real-time translation.
    6. Select the option to publish all customizations on the **Solution** page, and close the form.
 6. In the site map of Omnichannel Administration, select **Real Time Translation**.
-7. In the **Web resource URL** field, paste the link that you had copied.
+7. In the **Web resource URL** field, paste the link that you had copied, and save the changes.
 
    ![Add a web resource](../../media/real-time-translation-web-resource.png "Add a web resource")
 
