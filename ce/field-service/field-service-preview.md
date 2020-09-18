@@ -1,5 +1,6 @@
 ---
-title: "Install preview features for Field Service | MicrosoftDocs"
+title: "Install preview features for Dynamics 365 Field Service | MicrosoftDocs"
+description: Learn how to install and use features available in preview for Dynamics 365 Field Service
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/18/2020
