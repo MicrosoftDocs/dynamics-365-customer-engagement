@@ -1,9 +1,10 @@
 ---
-title: "Advanced options for Field Service Inspections | MicrosoftDocs"
+title: "Advanced options for inspections in Dynamics 365 Field Service | MicrosoftDocs"
+description: Learn how to configure more advanced scenarios for inspections in Dynamics 365 Field Service.
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 09/30/2020
-ms.reviewer: ""
+ms.date: 09/19/2020
+ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.technology: 
@@ -13,10 +14,10 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: krbjoran
+author: FieldServiceDave
 ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
 caps.latest.revision: 42
-ms.author: FieldServiceDave
+ms.author: daclar
 manager: shellyha
 search.audienceType: 
   - admin
@@ -26,11 +27,13 @@ search.app:
   - D365FS
 ---
 
-# Advanced options for Field Service Inspections
+# Advanced options for inspections in Dynamics 365 Field Service
+
+In this article, we'll take a look at more advanced scenarios for using inspections in Dynamics 365 Field Service. For general information about inspections, see [this article on inspections](inspections.md).
 
 ## Inspections for customer assets
 
-To relate the inspection to a customer asset and build out service history, enter the customer asset in the **Service Task Relates To** section of the work order service **Task** that holds the inspection.
+To relate an inspection to a customer asset and build out service history, enter the customer asset in the **Service Task Relates To** section of the work order service **Task** that holds the inspection.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the work order service task showing the service task relates to section, highlighting an associated customer asset.](./media/inspections-wost-customer-asset.png)
@@ -48,7 +51,7 @@ Associating a customer asset allows the technician to see which customer asset n
 Let's say a technician needs to inspect 10 customer assets at a customer's location. To accommodate this scenario, administrators can:
 
 - Create one inspection with 10 questions - one for each asset - and associate the single inspection to a single service task, or
-- Create 10 work order service tasks, each with one inspection. 
+- Create 10 work order service tasks, each with one inspection.
  
 When deciding, keep in mind work order service tasks can be associated to customer assets to build service history, viewable on the customer asset record. This means creating 10 service tasks each related to a different customer asset has the advantage of helping you build service history. The advantage of utilizing a single service task with multiple questions has the benefit of being easier to add to a work order and quicker to fill out. 
 
@@ -56,7 +59,7 @@ When deciding, keep in mind work order service tasks can be associated to custom
 
 You can make a copy of an inspection. This is helpful if your organization has multiple inspections that are mostly similar.
 
-From the list of inspections: 
+From the list of inspections:
 
 - Select an inspection (seen as "1" in the following screenshot).
 - Select **Copy** in the top ribbon (seen as "2" in the following screenshot).
@@ -83,7 +86,7 @@ Existing work orders will display and reference the previous version of the insp
 
 ## Understand, view, and report inspection responses
 
-After technicians answer inspection questions and mark the work order service task as complete, inspection answers are stored in the Common Data Service for reporting purposes.
+After technicians answer inspection questions and mark the work order service task as complete, inspection answers are stored in Common Data Service for reporting purposes.
 
 // @kristina this is where i need your help
 
@@ -92,13 +95,14 @@ After technicians answer inspection questions and mark the work order service ta
 // more details - https://msit.microsoftstream.com/video/401ba4ff-0400-96f3-103c-f1eaf3bb7a39
 
 There are three entities stored in Common Data Service:
-1. Customer Voice survey question: each inspection question
-2. Customer Voice survey response: a response to an insepction
-3. Customer voice survey question response: each individual response to each inspection question
 
-First define how often inspection answers should be parsed and organized in CDS.
+1. Dynamics 365 Customer Voice survey question: each inspection question
+2. Dynamics 365 Customer Voice survey response: a response to an inspection
+3. Dynamics 365 Customer Voice survey question response: each individual response to each inspection question
 
-Go to **Field Service app > Settings > Field Service Settings > Inspection tab**
+First, we'll define how often inspection answers should be parsed and organized in Common Data Service.
+
+Go to **Field Service app** > **Settings** > **Field Service Settings** > **Inspection tab**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/0-inspection-snapshot-parse-response.png)
