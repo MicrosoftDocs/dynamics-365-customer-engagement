@@ -52,7 +52,7 @@ By not considering travel time as part of a technician's working hours, schedule
 In this article, we'll walk through how to enable **Allow travel time outside of working hours** in resource scheduling optimization.
 For more information, see the following video for a walkthrough.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4Fe9O]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Fe9O]
 
 ## Prerequisites
 

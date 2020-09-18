@@ -40,7 +40,7 @@ For a comparison of features between Dynamics 365 workflows versus Power Automat
 
 For more information, see the following video.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4FlUS]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4FlUS]
 
 > [!Note]
 > As of August 2020, this feature is available as early access. For more information, see the article on [how to opt-in to early access features](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates#how-to-enable-early-access-updates).
