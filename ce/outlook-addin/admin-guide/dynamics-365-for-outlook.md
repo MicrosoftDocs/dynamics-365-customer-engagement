@@ -1,5 +1,6 @@
 ---
 title: "Dynamics 365 for Outlook Administrator Guide | MicrosoftDocs"
+description: Dynamics 365 for Outlook Administrator Guide
 ms.custom: 
 ms.date: 9/18/2020
 ms.reviewer: 
