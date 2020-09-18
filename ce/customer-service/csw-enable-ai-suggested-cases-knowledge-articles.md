@@ -4,7 +4,7 @@ description: Enable AI suggestions for cases and knowledge articles in Dynamics 
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 08/03/2020
+ms.date: 08/18/2020
 ms.topic: article
 ms.service: 
    dynamics-365-customerservice
@@ -65,6 +65,7 @@ The AI suggestions are powered by a set of pre-trained natural language understa
 - In addition to the suggestions, agents can also tell why an article or similar case is suggested through a list of key phrases that are auto-extracted from knowledge articles and cases. These key phrases highlights the relevance between a suggestion and an active case or an ongoing conversation, in addition to the confidence score (which is a percentage number that indicates the degree to which an article or similar case matches with the active case).
 
 > [!NOTE]
+>
 > - After you enable the settings, it might take up to 24 hours for the models to process data and complete the first time setup.
 > - After you enable or disable the settings, they will be in place only after agents refresh or reopen their browser and not in the currently active sessions nor on session switch.
 
@@ -73,6 +74,7 @@ The AI suggestions are powered by a set of pre-trained natural language understa
 Make sure that the following requirements are met:
 
 - Customer Service workspace is installed and accessible. More information: [Customer Service workspace](csw-overview.md)
+- To use AI suggestions for conversations in Omnichannel for Customer Service, you need to sign up for the insider preview program. More information: [Sign up for the insider preview](../omnichannel/agent/agent-oc/oc-view-ai-suggested-cases-articles.md#sign-up-for-the-insider-preview).
 - The	productivity pane is enabled. By default, the productivity pane is enabled out of the box. More information: [Enable productivity pane](../app-profile-manager/app-profile-manager.md#enable-prod-pane)
 - The System Administrator role is granted.
 
