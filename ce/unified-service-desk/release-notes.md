@@ -1,7 +1,7 @@
 ---
 title: "Unified Service Desk Release Notes | MicrosoftDocs"
 description: "Learn about the known issues and limitations in Unified Service Desk."
-ms.date: 08/03/2020
+ms.date: 09/17/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -227,6 +227,23 @@ The following features are not available in Unified Service Desk:
 #### Work around
 
 Upgrade to the latest version of Omnichannel for Customer Service to get all the new features. Agents should avoid transferring conversations from the Omnichannel for Customer Service app (web client) to a Unified Service Desk client.
+
+### Audio limitations in Unified Service Desk
+
+The following audio file types are supported in Unified Service Desk:
+
+- flac 
+- mp3 
+- pcm 
+- wav 
+
+The following audio file types are not supported in Unified Service Desk:
+
+- aac 
+- aiff 
+- alac 
+- mp2 
+- wma
 
 ## See also
 
