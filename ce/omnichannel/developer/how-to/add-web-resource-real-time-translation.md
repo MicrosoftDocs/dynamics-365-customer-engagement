@@ -35,13 +35,12 @@ Perform the following steps to upload the web resource file for real time transl
    4. Copy the link in the **URL** field. You will provide this link in the administrator settings in Omnichannel Administration for configuring real-time translation.
    5. Save the form, select the option to publish all customizations.
    6. Select the option to publish all customizations on the **Solution** page, and close the form.
-6. Open the  app.
-7. In the site map of Omnichannel Administration, select **Real Time Translation**.
-8. In the **Web resource URL** field, paste the link that you had copied.
+6. In the site map of Omnichannel Administration, select **Real Time Translation**.
+7. In the **Web resource URL** field, paste the link that you had copied.
 
    ![Add a web resource](../../media/real-time-translation-web-resource.png "Add a web resource")
 
-9. Select **Save**.
+8. Select **Save**.
 
 ### See also
 
