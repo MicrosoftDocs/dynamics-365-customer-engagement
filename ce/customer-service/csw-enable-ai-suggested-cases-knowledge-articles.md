@@ -4,7 +4,7 @@ description: Enable AI suggestions for cases and knowledge articles in Dynamics 
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 08/18/2020
+ms.date: 09/18/2020
 ms.topic: article
 ms.service: 
    dynamics-365-customerservice

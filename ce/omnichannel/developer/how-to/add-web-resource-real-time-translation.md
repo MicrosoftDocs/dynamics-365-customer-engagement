@@ -20,7 +20,7 @@ More information: [Web resources in model-driven apps](/powerapps/developer/mode
 
 You'll need to define the translation provider, language of the agent, when to turn translation on, and when to turn it off. More information: [initializeNewConversation](../reference/methods/initializeNewConversation.md) method and [translateMessage](../reference/methods/translateMessage.md) method
 
-Perform the following steps to upload the web resource file for real time translation:
+Perform the following steps to upload the web resource file for real-time translation:
 
 1. In Omnichannel Administration app, select **Settings**, and select **Advanced Settings**.
 2. On the page that appears on a new tab, select **Settings**, and then select **Solutions**.
