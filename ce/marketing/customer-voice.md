@@ -1,8 +1,8 @@
 ---
-title: "Integrate Dynamics 365 Customer Voice with Dynamics 365 Marketing| Microsoft Docs  "
+title: "Add surveys to your Dynamics 365 Marketing campaigns | Microsoft Docs  "
 description: "Learn how to create surveys in Dynamics 365 Marketing using Microsoft Dynamics 365 Customer Voice."
 keywords: Dynamics 365 Customer Voice; survey
-ms.date: 09/17/2020
+ms.date: 09/18/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -22,31 +22,31 @@ search.app:
   - D365Mktg
 ---
 
-# Dynamics 365 Customer Voice integration with Dynamics 365 Marketing
-
-Surveys are a critical feedback component for customer-obsessed organizations. Dynamics 365 Marketing with [Dynamics 365 Customer Voice](https://docs.microsoft.com/dynamics365/customer-voice) integration brings a rich set of capabilities for asking for feedback about your customers' needs. These survey capabilities help you make data-driven decisions and apply your findings to your marketing initiatives. Marketers can automate survey experiences and use data generated from surveys for advanced segmentation and customer profiling.
+# Add surveys to your marketing campaigns
 
 > [!NOTE]
+> Microsoft Forms Pro has evolved into Dynamics 365 Customer Voice, providing you with additional survey capabilities and business benefits. The change is being introduced in phases and will be available in all geographical regions in the next few weeks, except for US Government Community Cloud customers. Dynamics 365 Customer Voice will be available on US Government Community Cloud by October 2020. For more information, see the [Dynamics 365 Customer Voice](https://docs.microsoft.com/dynamics365/customer-voice) documentation.
+
+Dynamics 365 Marketing includes built in support for adding surveys to your marketing campaigns. Build surveys using [Dynamics 365 Customer Voice](https://dynamics.microsoft.com/customer-voice) and access them directly from Marketing components including the segment builder, the email designer, and the customer journey design. You can use surveys to make data-driven decisions and apply your findings to your marketing initiatives. You can even automate survey experiences and use data generated from surveys for advanced segmentation and customer profiling.
+
+> [!IMPORTANT]
 > You will need your administrator to [turn on the feature switch](admin-feature-switches.md) for the "Dynamics 365 Customer Voice Marketing integration" functionality before you are able to access it.
 
-## Create your survey in Dynamics 365 Customer Voice
+## Step one: Create a survey in Dynamics 365 Customer Voice
 
-All surveys that you [create in a Dynamics 365 Customer Voice environment](https://docs.microsoft.com/dynamics365/customer-voice/create-survey) are ready to use in Marketing. All survey data are available in CDS for segmentation.
+All surveys that you create in a Dynamics 365 Customer Voice environment are ready to use in Marketing. To learn about creating surveys, refer to the [Create a survey](https://docs.microsoft.com/dynamics365/customer-voice/create-survey) article.
 
-## Dynamics 365 Customer Voice segmentation options
+## Use surveys with dynamic segments
 
-You can segment based on previous Dynamics 365 Customer Voice surveys, which allows you to act based on feedback from your customers. Your entire Dynamics 365 Customer Voice dataset is available for your marketing scenarios. With Dynamics 365 Customer Voice data, you can segment based on surveys, survey responses, specific questions answered, etc.
+Your entire Dynamics 365 Customer Voice dataset is available for your Marketing scenarios. With survey data, you can segment based on surveys, survey responses, specific questions answered, etc.
 
-To use Dynamics 365 Customer Voice survey data in segments:
+To use survey data in segments:
 
 1. Go to **Customers** > **Segments** in the left navigation bar.
 1. Create a new [dynamic segment](segmentation-lists-subscriptions.md#create-and-go-live-with-a-new-segment) by clicking **New** > **New Dynamic Segment** in the top menu.
 1. You can choose from Dynamics 365 Customer Voice data options depending on whether you create an [interaction based or a profile based segment](segmentation-lists-subscriptions.md#segments-in-dynamics-365-marketing).
 
-    Interaction-based segment Dynamics 365 Customer Voice options:
-
-    > [!NOTE]
-    > There is known a UI bug that lists Dynamics 365 Customer Voice options as Forms Pro options for interaction-based segments. The screenshot below shows the current state of the UI.
+    Interaction-based segment Dynamics 365 Customer Voice options (these may still be listed as Forms Pro options in the menu):
 
     ![Interaction-based segment Dynamics 365 Customer Voice](media/forms-pro-interaction.png "Interaction based segment Dynamics 365 Customer Voice")
 
@@ -71,7 +71,7 @@ After you choose a survey, you can customize the email styling just as you would
 Marketing gives you the option to automate customer journey actions based on Dynamics 365 Customer Voice survey data.
 
 To add a Dynamics 365 Customer Voice survey to customer journey:
-1. Go to the [customer journey designer](customer-journeys-create-automated-campaigns.md#design-your-journey). Then create or choose an existing customer journey with an email tile. Make sure the email tile is associated with an existing email.
+1. Go to the [customer journey designer](customer-journey.md). Then create or choose an existing customer journey with an email tile. Make sure the email tile is associated with an existing email.
 
     ![Choose a customer journey with an email tile](media/customer-voice-email-journey.png "Choose a customer journey with an email tile")
 
