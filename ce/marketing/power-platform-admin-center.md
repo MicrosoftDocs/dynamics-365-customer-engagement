@@ -77,5 +77,5 @@ To open the Power Platform admin center starting from the Microsoft 365 admin ce
 ### See also
 
 [Keep Marketing up to date](apply-updates.md)  
-[Manage Marketing instances](manage-marketing-instances.md)  
+[Manage Marketing environments](manage-marketing-environments.md)  
 [Uninstall Marketing](uninstall-marketing.md)

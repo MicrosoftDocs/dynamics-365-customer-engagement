@@ -129,5 +129,5 @@ If your event website is [self-hosted](./developer/self-hosted.md), you must [in
 ### See also
 
 [Open the Power Platform admin center](power-platform-admin-center.md)  
-[Manage Marketing instances](manage-marketing-instances.md)  
+[Manage Marketing environments](manage-marketing-environments.md)  
 [Uninstall Marketing](uninstall-marketing.md)

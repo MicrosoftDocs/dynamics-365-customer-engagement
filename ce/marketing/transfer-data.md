@@ -145,7 +145,7 @@ To import data to your destination instance:
 1. When the import is done, select **Exit** to close the import page.
 
 ### See also
-[Manage your Marketing instances](manage-marketing-instances.md)  
+[Manage your Marketing environments](manage-marketing-environments.md)  
 [Transfer customizations between instances](transfer-solution.md)  
 [Administer Power Apps](https://docs.microsoft.com/power-platform/admin/admin-guide)  
 [Manage instances](https://docs.microsoft.com/dynamics365/admin/new-instance-management)  

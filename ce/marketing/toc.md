@@ -21,7 +21,7 @@
 #### [Integrate Marketing with a CMS system or Dynamics 365 Portal](portal-optional.md)
 #### [Open the Power Platform admin center](power-platform-admin-center.md)
 #### [Re-run the Marketing setup wizard](re-run-setup.md)
-#### [Manage Marketing instances](manage-marketing-instances.md)
+#### [Manage Marketing environments](manage-marketing-environments.md)
 #### [Transfer data between instances](transfer-data.md)
 #### [Transfer customizations between instances](transfer-solution.md)
 #### [Tenant to tenant migration](tenant-to-tenant.md)

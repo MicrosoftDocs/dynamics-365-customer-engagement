@@ -26,7 +26,7 @@ search.app:
 
 Dynamics 365 is highly customizable. You can use its online tools to modify or create fields, entities, business processes, and more. Usually, you'll do your customization work on a sandbox instance, test them, and then transfer the final customizations to your production instances when they're ready. Best practices recommend that you proceed as follows:
 
-1. [Create a copy](manage-marketing-instances.md#copy-to-sandbox) of your current production instance onto a sandbox instance where you can work without affecting your ongoing operations.
+1. [Create a copy](manage-marketing-environments.md#copy-to-sandbox) of your current production instance onto a sandbox instance where you can work without affecting your ongoing operations.
 1. [Create a new managed solution](https://docs.microsoft.com/powerapps/maker/common-data-service/create-solution) on the sandbox and implement your customizations there. This lets you add customizations without affecting the underlying system, and you can revert your customizations at any time by removing the solution.
 1. Test the customized solution on your sandbox until you've confirmed it's working correctly.
 1. [Export](https://docs.microsoft.com/powerapps/maker/common-data-service/import-update-export-solutions) the custom solution from your sandbox and then [Import](https://docs.microsoft.com/powerapps/maker/common-data-service/import-update-export-solutions) it on your production instance.
@@ -141,7 +141,7 @@ To import a solution:
 1. To confirm the import, go to the Marketing app, open a marketing form record and look for the new customized field on the **Summary** tab.
 
 ### See also
-[Manage your Marketing instances](manage-marketing-instances.md)  
+[Manage your Marketing environments](manage-marketing-environments.md)  
 [Transfer data between instances](transfer-data.md)  
 [Administer Power Apps](https://docs.microsoft.com/power-platform/admin/admin-guide)  
 [Manage instances](https://docs.microsoft.com/dynamics365/admin/new-instance-management)  
