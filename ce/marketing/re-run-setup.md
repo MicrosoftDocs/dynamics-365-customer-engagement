@@ -2,7 +2,7 @@
 title: "Re-run the setup wizard (Dynamics 365 Marketing) | Microsoft Docs  "
 description: "How to run the setup wizard so you can update, uninstall, or modify an existing Dynamics 365 Marketing instance"
 keywords: administration;admin center
-ms.date: 06/17/2019
+ms.date: 09/19/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -12,7 +12,7 @@ author: alfergus
 ms.author: alfergus
 manager: shellyha
 ms.reviewer:
-topic-status: Drafting
+topic-status: 
 search.audienceType: 
   - admin
   - customizer
@@ -36,22 +36,25 @@ In addition to helping you install Dynamics 365 Marketing for the first time, th
 
 To re-run the Marketing setup wizard:
 
-1. Sign into Dynamics 365 Marketing as a user with admin privileges.
+1. Go to [admin.powerplatform.microsoft.com](https://admin.powerplatform.microsoft.com) and sign in to your Microsoft 365 tenant using an administrator account that has a Dynamics 365 Marketing license assigned.
 
-1. Go to **Settings** > **Advanced settings** > **Other settings** > **Application management**.  
-    ![Open the Power Platform admin center](media/settings-app-management.png "Open the Power Platform admin center")
+1. Go to **Resources** > **Dynamics 365 apps** on the left navigation pane.
 
-1. Select **Go to the Dynamics 365 admin center**.
+   ![Navigate to the Dynamics 365 apps](media/purchase-setup-ppac-apps2.png "Navigate to the Dynamics 365 apps")
 
-1. Select the **Applications** tab to see a list of applications you have installed.  
-    ![Open the Applications tab](media/update-app-tab.png "Open the Applications tab")
+1. The list shows a row marked **Dynamics 365 Marketing Application** for each entitlement (license) you have for Dynamics 365 Marketing. Installed entitlements show a **Status** of **Configured**.
 
-    The list shows a row marked **Dynamics 365 Marketing Application** for each entitlement (license) you have for Dynamics 365 Marketing. Installed entitlements show a **Status** of **Configured** and include the name of the instance where they are installed as part of their application name.
+1. Select the configured entitlement that you want to manage and select the three dots between the **Name** and the **Status** columns for the Marketing application.
 
-1. Select the configured entitlement that you want to manage and then select the **Manage** button ![The Manage button](media/update-manage-button.png "The Manage button") in the side panel. 
+    ![Choose an app and then select the Manage or Details link](media/purchase-setup-ppac-manage.png "Choose an app and then select the Manage or Details link")
 
-1. The Marketing setup wizard opens.  It shows the name of the Dynamics 365 Marketing instance you selected.  
-    ![Setup wizard running on an existing Marketing instance](media/fre-re-run.png "Setup wizard running on an existing Marketing instance")
+1. To launch the Dynamics 365 Marketing setup wizard, choose **Manage** from the pop-up menu. A message will pop up informing you that you are going to the Dynamics 365 Marketing admin page. To go to the page, select **OK**.
+
+    ![Dynamics 365 Marketing admin page prompt](media/purchase-setup-ppac-prompt.png "Dynamics 365 Marketing admin page prompt")
+
+1. The Marketing setup wizard opens.  It shows the name of the Dynamics 365 Marketing instance you selected.
+
+    ![Setup wizard running on an existing Marketing instance](media/fre-re-run2.png "Setup wizard running on an existing Marketing instance")
 
     If an update is available, then you'll see a notice and an **Install** button at the top of the page. More information: [Keep Marketing up to date](apply-updates.md)
 
