@@ -59,7 +59,7 @@ Dynamics 365 Marketing includes several solutions and services, each of which ha
 
 1. In the quick setup form, verify the status of your application. If the application isn’t up to date, you can choose to update it from here.
 
-    ![Select the Manage your solutions button](media/apply-updates-version2.png "Select the Manage your solutions button")
+    ![Apply updates](media/apply-updates-version2.png "Apply updates")
 
 ## Find and apply updates for core Marketing solutions
 
@@ -107,7 +107,7 @@ To update shared (non-core Marketing) solutions, including Customer Voice and Dy
 
 1. You will now be on a page showing environment details include **Access** permissions, **Auditing** information, the database **Version**, **Updates**, and **Resources**. You also convert your environment to a sandbox or create a backup from this page. To view the solutions installed in this environment, go to **Resources** > **Dynamics 365 apps**.
 
-    ![Select the Manage your solutions button](media/apply-updates-dynamics-365-apps.png "Select the Manage your solutions button")
+    ![Select Dynamics 365 apps in your environment](media/apply-updates-dynamics-365-apps.png "Select Dynamics 365 apps in your environment")
 
 1. A list of solutions installed on your selected environment is shown. Look in the **Status** column for any solutions that show a value of "Update available." The solutions that are relevant for Marketing are "Dynamics 365 Portals – Base Portal" and "Dynamics 365 Customer Voice."  
 

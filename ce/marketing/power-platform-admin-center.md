@@ -35,10 +35,10 @@ To open the Power Platform admin center starting from Dynamics 365 Marketing:
 1. Sign into Dynamics 365 Marketing as a user with admin privileges.
 
 1. Go to **Settings** > **Advanced settings** > **Other settings** > **Application management**.
-  
-    ![Open the Power Platform admin center](media/ppac-go-to.png "Open the Power Platform admin center")
 
 1. Select **Go to the Dynamics 365 admin center**.
+
+    ![Open the Power Platform admin center](media/ppac-go-to.png "Open the Power Platform admin center")
 
 1. The Power Platform admin center opens.
 
@@ -60,7 +60,7 @@ To open the Power Platform admin center starting from the Microsoft 365 admin ce
 
 1. A list of all available admin centers opens. Select **Power Apps**.
 
-    ![Open the Power Platform admin center](media/ms365-admin-center-center-list.png "Open the Power Platform admin center")
+    ![Select Power Apps](media/ms365-admin-center-center-list.png "Select Power Apps")
 
 1. The Power Platform admin center opens, showing a list of Power Platform environments available on your tenant. (Environments are usually referred to as "instances" in Dynamics 365 Marketing documentation, and are also sometimes called "organizations.")
 
