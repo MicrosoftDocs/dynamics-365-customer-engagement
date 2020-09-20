@@ -101,7 +101,7 @@ To prepare your target environment, do the following _before_ starting the copy:
 
 ### Step 3: Copy the environment
 
-Once your source and target environments are prepared, you're ready to make the copy following the procedure described in [Copy an environment](https://docs.microsoft.com/en-us/power-platform/admin/copy-environment).
+Once your source and target environments are prepared, you're ready to make the copy following the procedure described in [Copy an environment](https://docs.microsoft.com/power-platform/admin/copy-environment).
 
 Pay special attention when choosing whether to create an [Everything or Customizations and schemas only copy](#target-content).
 
