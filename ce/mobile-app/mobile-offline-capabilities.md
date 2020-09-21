@@ -54,6 +54,8 @@ These entities and corresponding commands are available in offline mode.
 |Team |Read only	|
 |User |Read only	|
 
+> [!Note]
+> Custom ribbon buttons are not supported in offline mode.
 
 ## Supported capabilities 
 
