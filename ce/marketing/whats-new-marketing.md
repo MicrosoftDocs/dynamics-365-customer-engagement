@@ -372,9 +372,9 @@ The Dynamics 365 Marketing April 2020 update includes several feature enhancemen
 - **Spam checker**
     - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-marketing/spam-checker)
     - [Docs](spam-checker.md)
-- **Support for surveys using Microsoft Forms Pro**
+- **Support for surveys using Microsoft Dynamics 365 Customer Voice**
     - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-marketing/support-surveys-using-forms-pro)
-    - [Docs](forms-pro.md)
+    - [Docs](customer-voice.md)
 - **Export marketing results data to Excel for further analysis**
     - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-marketing/export-data-excel-further-analysis)
     - [Docs](export-journey.md)

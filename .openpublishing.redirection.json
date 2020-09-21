@@ -6,6 +6,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/marketing/forms-pro.md",
+      "redirect_url": "customer-voice",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/marketing/dynamics-365-admin-center.md",
       "redirect_url": "power-platform-admin-center",
       "redirect_document_id": "false"
