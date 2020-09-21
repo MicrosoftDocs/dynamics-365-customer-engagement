@@ -24,7 +24,7 @@ search.app:
 
 # Preview: Create a customer journey using the new canvas experience
 
-We've simplified the process of creating multi-step campaigns by completely redesigning the customer journey canvas. An enhanced UI, improved preview capabilities, a new view of journey insights, and more options to adjust the canvas view result in a more intuitive and efficient user experience.
+We've simplified the process of creating multistep campaigns by completely redesigning the customer journey canvas. An enhanced UI, improved preview capabilities, a new view of journey insights, and more options to adjust the canvas view result in a more intuitive and efficient user experience.
 
 The new customer journey experience includes:
 
