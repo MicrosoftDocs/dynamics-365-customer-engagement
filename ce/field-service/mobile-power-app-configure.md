@@ -114,6 +114,13 @@ Add and delete booking fields as needed.
 
 Another way you can add work order information to the booking form is to add a [quick view form](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-quick-view-forms) that displays work order fields. Quick view forms are read-only, but you can go to the related work order form from there.
 
+## Customize global search and enable scan to search 
+
+By default, Dynamics 365 Field Service is configured to search against Account, Contact, User, and Activity.  You can customize global search to include additional entities, such as Customer Asset and Product, which will enable technicians to search and find by keyword and scan to search by barcode, UPC, or QR code.
+
+For more info, go to [How to Setup Global Search](https://community.dynamics.com/crm/b/xrm/posts/how-to-set-up-global-search-in-microsoft-dynamics-365).
+
+
 ## Configure offline data and sync filters
 
 Administrators can edit the data downloaded to the Field Service (Dynamics 365) mobile app in offline mode when no internet access is available. 
