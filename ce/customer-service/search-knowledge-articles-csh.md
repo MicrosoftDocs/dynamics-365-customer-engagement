@@ -132,7 +132,7 @@ Agents can do the following:
 To configure the ability to copy and send article URLs, see [Configure knowledge base article URLs](#configure-knowledge-base-article-url).
 
   > [!div class=mx-imgBorder]
-  > ![Independent KB search](media/kb-independent-search.png "Search knowledge articles outside of cases)
+  > ![Independent KB search](media/kb-independent-search.png "Search knowledge articles outside of cases")
 
   1. In the sitemap, select **Knowledge Search**.
   2. In search box, type keywords of an article.  
@@ -157,7 +157,7 @@ To configure a knowledge base article URL, do the following:
 
 2. Under **Support Portal Connection**, set **Use an external portal** to **Yes**.
 
-3. Under **URL Format**, enter the URL name.
+3. In the **URL Format** field, enter the URL name.
 
    > [!div class=mx-imgBorder]
    > ![Select URL format](media/kb-url-format.png "Select the URL format to use")
