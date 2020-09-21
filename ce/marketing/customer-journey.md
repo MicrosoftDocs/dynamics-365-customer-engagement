@@ -142,28 +142,33 @@ To create a customer journey that executes a one-time email blast:
 
 1. Now you are looking at the customer journey designer. Here, you will assemble a pipeline that defines each step of the journey. Like all journeys, this one starts with the participants, who in this case are the people you specify as part of a market segment.
 
-    ![Customer journey select audience screen](media/customer-journey-audience.png "Customer journey select audience screen")
+    > [!div class="mx-imgBorder"]
+    > ![Customer journey select audience screen](media/customer-journey-audience.png "Customer journey select audience screen")
 
-1. Select **Set audience** (or, alternatively, select the **+** button). The **Audience** properties pane will appear on the right side of the page. Leave the default settings there (for example, **Segment** selected as the audience source type). Select the segment that you want to target with your campaign in the segment lookup field.
+1. Select **Set audience** (or, alternatively, select **+**). The **Audience** properties pane will appear on the right side of the page. Leave the default settings there (for example, **Segment** selected as the audience source type). Select the segment that you want to target with your campaign in the segment lookup field.
 
-    ![Customer journey segment lookup](media/customer-journey-segment.png "Customer journey segment lookup")
+    > [!div class="mx-imgBorder"]
+    > ![Customer journey segment lookup](media/customer-journey-segment.png "Customer journey segment lookup")
 
 1. After you select a segment, the first tile populates with the segment name and the **Audience** pane displays the segment properties.
 
-    ![Customer journey segment populate](media/customer-journey-audience-populate2.png "Customer journey segment populate")
+    > [!div class="mx-imgBorder"]
+    > ![Customer journey segment populate](media/customer-journey-audience-populate2.png "Customer journey segment populate")
 
     > [!TIP]
     > When your customer journey is live, all contacts start at the **Audience** tile (the initial step). Contacts move forward depending on the tile rules, similar to a board game. Some tiles hold on to contacts for a while, while other tiles complete an action immediately and send the contact to the next tile in the pipeline. Other tiles can split the path based on contact information or interactions. When the journey is live, you'll be able to see how many contacts are waiting at each tile, along with a few key results associated with the tile.
     >
     > In this example, you will add one more tile—an **Email** tile—which sends an email message to each contact who enters the tile.
 
-1. Select **+** on the canvas, then select **Send an email** from the contextual menu.
+1. Select **+** on the canvas, and then select **Send an email** from the contextual menu.
 
-    ![Customer journey send an email tile](media/customer-journey-email.png "Customer journey send an email tile")
+    > [!div class="mx-imgBorder"]
+    > ![Customer journey send an email tile](media/customer-journey-email.png "Customer journey send an email tile")
 
 1. Select the email tile on the canvas and select the email message that you want to send. You can use the sample email message you created earlier in [Create a marketing email and go live](create-marketing-email.md).
 
-    ![Customer journey select an email](media/customer-journey-select-email.png "Customer journey send an email")
+    > [!div class="mx-imgBorder"]
+    > ![Customer journey select an email](media/customer-journey-select-email.png "Customer journey select an email")
 
 1. Once the email is selected, the **Send an email** tile populates with the email name and the **Send an email** properties pane displays the segment preview and properties.
 
@@ -173,7 +178,7 @@ To create a customer journey that executes a one-time email blast:
 1. Until now, you've been working in the **Designer** tab. Now go to the **General** tab, where you can name your journey and configure its run schedule.
     
     Make the following settings in the **General** tab:
-
+    >
     1. **Name:** Enter a name for the customer journey that you can easily recognize later. This name is internal-only.
     1. **Start Date Time:** Enter the time when the journey should begin processing contacts. When you select the field, a suggested default time is provided.
     1. **End Date Time:** Enter the time at which the journey should stop processing contacts. All actions will stop at this time, even if some contacts are still in the middle of the journey. If you're just testing, allow a couple of weeks.
