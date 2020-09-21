@@ -98,21 +98,28 @@ The content that your customer journey delivers to contacts as they traverse the
 
 - **Event**: Event tiles are typically referenced in email tiles, where they represent a link to an event website that is included in the message's content. In the old designer, event tiles were used also to enable trigger tiles placed later in the pipeline to “know” about the event link and to react to contact interactions with the link (registered or attended). 
 
+
     - In the new designer, the same can be achieved by adding a given event as a dependency to an email (in the properties of the email tile). <br>
     
-- **Marketing form**: The marketing form tile represents an embedded or captured form hosted on an external website. In the old designer, this tile could be used as a nested tile under email tiles to represent a link to an external page that is included in the email message’s content (the external page had to include the captured or embedded marketing form represented by the tile). The marketing form tile could also be used to enable trigger tiles placed later in the pipeline to “know” about the external-page link and to react to contact interactions with the link. <br>
+- **Marketing form**: The marketing form tile represents an embedded or captured form hosted on an external website. In the old designer, this tile could be used as a nested tile under email tiles to represent a link to an external page that is included in the email message’s content (the external page had to include the captured or embedded marketing form represented by the tile). The marketing form tile could also be used to enable trigger tiles placed later in the pipeline to “know” about the external-page link and to react to contact interactions with the link. 
 
-    - In the new designer, the same can be achieved by adding a Marketing form entity as a dependency to an email (in the properties of the email tile). <br>
 
-    In the old designer, the marketing form tile was also placed at the start of a journey to create an inbound campaign. When placed at the start of a journey, all new or existing contacts who submitted the form were sent on that journey. <br>
+    - In the new designer, the same can be achieved by adding a Marketing form entity as a dependency to an email (in the properties of the email tile). 
+
+    In the old designer, the marketing form tile was also placed at the start of a journey to create an inbound campaign. When placed at the start of a journey, all new or existing contacts who submitted the form were sent on that journey. 
     
-    - With the new designer, this is no longer needed as the audience can be defined using a form, by selecting the form submitted as a source. Alternatively, an audience can be defined by using a segment of all the people who submitted a given form. <br>
     
-- **Marketing page**: The marketing page tile represents a native marketing page designed in Dynamics 365 Marketing and running on a Dynamics 365 portal. In the old designer, this tile could be used as a nested tile under email tiles to represent a marketing page link that is included in the email message’s content. It could also be used to enable trigger tiles placed later in the pipeline to “know” about the marketing link and to react to contact interactions with it. <br>
+    - With the new designer, this is no longer needed as the audience can be defined using a form, by selecting the form submitted as a source. Alternatively, an audience can be defined by using a segment of all the people who submitted a given form. 
 
-    - In the new designer, the same can be achieved by adding a Marketing page entity as a dependency to an email (in the properties of the email tile). <br>
 
-    In the old designer, this tile was also placed at the start of a journey to create an inbound campaign. When placed at the start of a journey, all new or existing contacts who submitted the page were sent on the journey. <br>
+- **Marketing page**: The marketing page tile represents a native marketing page designed in Dynamics 365 Marketing and running on a Dynamics 365 portal. In the old designer, this tile could be used as a nested tile under email tiles to represent a marketing page link that is included in the email message’s content. It could also be used to enable trigger tiles placed later in the pipeline to “know” about the marketing link and to react to contact interactions with it. 
+
+
+    - In the new designer, the same can be achieved by adding a Marketing page entity as a dependency to an email (in the properties of the email tile). 
+    
+
+    In the old designer, this tile was also placed at the start of a journey to create an inbound campaign. When placed at the start of a journey, all new or existing contacts who submitted the page were sent on the journey. 
+    
     
     - With the new designer, this is no longer needed because the audience can be defined with the form submitted as a source. Alternatively, an audience can be defined using a segment of all the people who submitted a given page.
 
@@ -132,11 +139,13 @@ To create a customer journey that executes a one-time email blast:
 
 1. Go to **Marketing** > **Marketing Execution** > **Customer Journeys**. This takes you to a list of existing customer journeys. Select **New** on the command bar.
 
-    ![Select new in the command bar](media/customer-journey-new.png "Select new in the command bar")
+    > [!div class="mx-imgBorder"]
+    > ![Select New in the command bar](media/customer-journey-new.png "Select New in the command bar")
 
-1. The **New Customer Journey** page opens with the **Select a Customer Journey Template** dialog box shown. Each template provides a starting point for designing a particular type of customer journey. The template dialog box provides tools for searching, browsing, and previewing your template collection. Select the **Skip** button to start creating the journey from scratch.
+1. The **New Customer Journey** page opens with the **Select a Customer Journey Template** dialog box shown. Each template provides a starting point for designing a particular type of customer journey. The template dialog box provides tools for searching, browsing, and previewing your template collection. Select **Skip** to start creating the journey from scratch.
 
-    ![Customer journey templates screen](media/customer-journey-templates.png "Customer journey templates screen")
+    > [!div class="mx-imgBorder"]
+    > ![Customer journey templates screen](media/customer-journey-templates.png "Customer journey templates screen")
 
 1. Now you are looking at the customer journey designer. Here, you will assemble a pipeline that defines each step of the journey. Like all journeys, this one starts with the participants, who in this case are the people you specify as part of a market segment.
 
