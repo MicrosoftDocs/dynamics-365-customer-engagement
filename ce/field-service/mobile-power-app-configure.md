@@ -116,9 +116,9 @@ Another way you can add work order information to the booking form is to add a [
 
 ## Customize global search and enable scan to search 
 
-By default, Dynamics 365 Field Service is configured to search against Account, Contact, User, and Activity.  You can customize global search to include additional entities, such as Customer Asset and Product, which will enable technicians to search and find by keyword and scan to search by barcode, UPC, or QR code.
+By default, Dynamics 365 Field Service is configured to search against account, contact, user, and activity. You can customize global search to include additional entities, such as customer asset and product, which helps technicians search, find by keyword, and scan to search by barcode, UPC, or QR code.
 
-For more info, go to [How to Setup Global Search](https://community.dynamics.com/crm/b/xrm/posts/how-to-set-up-global-search-in-microsoft-dynamics-365).
+For more information, see: [How to Setup Global Search](https://community.dynamics.com/crm/b/xrm/posts/how-to-set-up-global-search-in-microsoft-dynamics-365)
 
 
 ## Configure offline data and sync filters
