@@ -2,7 +2,7 @@
 title: "Frequently asked questions for Field Service Mobile | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 09/11/2020
+ms.date: 09/21/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
