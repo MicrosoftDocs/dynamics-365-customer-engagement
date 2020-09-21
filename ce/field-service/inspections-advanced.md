@@ -86,7 +86,7 @@ Existing work orders will display and reference the previous version of the insp
 
 ## Understand, view, and report inspection responses
 
-After technicians answer inspection questions and mark the work order service task as complete, all responses entered by the technician are stored in Common Data Service for reporting purposes.
+All the responses entered by technicians are stored in Common Data Service. They can configure analytics settings in **Field Service settings**, which lets them parse the inspection responses into individual question responses.
 
 There are three entities stored in Common Data Service:
 
