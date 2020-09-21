@@ -41,6 +41,10 @@ The following definitions explain how to work with each type of tile available f
 
 ### Audience
 
+
+<!-- from editor: Is it OK to change "down the customer journey" to "along the customer journey" in lines 49 and 54? "Along" just seems more natural. -->
+
+
 - **Segment**: A segment is a collection of contacts grouped according to a common attribute or explicit assignment. More information: [Working with segments](segmentation-lists-subscriptions.md)
 - **Form submitted**: All new or existing contacts who submit the form will be sent down the customer journey. More information: [Create an inbound customer journey](create-inbound-customer-journey.md). You can also create an audience based on a submitted form by creating a segment comprised of people who submitted the form.
 
@@ -185,7 +189,8 @@ To create a customer journey that executes a one-time email blast:
     - **Time zone**: Select your local time zone (if needed). The other dates and times on the page will be displayed relative to this zone.
     - **Content settings**: This should already be set to the default content settings record set for your instance. These settings affect the dynamic content of marketing emails sent by this journey (as mentioned in [Create a marketing email and go live](create-marketing-email.md)).
 
-    ![Customer journey General tab](media/customer-journey-general2.png "Customer journey General tab")
+    > [!div class="mx-imgBorder"]
+    > ![Customer journey General tab](media/customer-journey-general2.png "Customer journey General tab")
 
     > [!TIP]
     > While your journey is running, it will continue to process new contacts that join its segment, even if they join after the start date. This means that new contacts can join in at any time until the end date arrives.
@@ -194,14 +199,16 @@ To create a customer journey that executes a one-time email blast:
 1. To make sure your journey includes all required content and settings, select **Check for errors** in the command bar. Dynamics 365 Marketing examines the customer journey and then displays results. 
 
     If errors were found, you'll see a message at the top of the window and various indicators to show where the problems are. For example, if one of your tiles is misconfigured, you'll see an error icon in the relevant tile, and you can read details about the error by selecting the tile and opening its **Properties** tab. If you followed this procedure and your email message is live, your journey should pass the error check. If it doesn't, read the error message, fix the reported issue, and try again until it passes.
-
-    ![Customer journey error notification](media/customer-journey-error.png "Customer journey error notification")
+    
+    > [!div class="mx-imgBorder"]
+    > ![Customer journey error notification](media/customer-journey-error.png "Customer journey error notification")
 
 1. Your journey is now ready to go. To start the journey, publish it by selecting **Go live** on the command bar.
 
     Dynamics 365 Marketing copies the journey to its email marketing service, which executes the journey by processing contacts, performing actions, and collecting results during the time it is set to run. The journey's **Status Reason** is updated to **Live**.
 
-    ![Customer journey Go live](media/customer-journey-go-live.png "Customer journey Go live")
+    > [!div class="mx-imgBorder"]
+    > ![Customer journey Go live](media/customer-journey-go-live.png "Customer journey Go live")
 
 1. If you have sent test messages to yourself, it might take several minutes for your messages to send, so allow some time for them to arrive in your inbox. After they do, open them and load the images. Then you can go back to Dynamics 365 Marketing and see how your journey is going. The **Designer** tab now shows information and results for each tile from your pipeline. Open the **Insights** tab to see detailed analytics.
 
