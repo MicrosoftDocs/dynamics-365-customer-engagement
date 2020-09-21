@@ -12,6 +12,24 @@ manager: shubhadaj
 
 # Frequently asked questions
 
+## Entity: Activity
+
+**Question**:<br>Why are **Follow** and **Unfollow** buttons displayed together on the command bar?
+
+**Answer**:<br>This is a by-design behavior. If you navigate to an entity in Unified Interface and select a record, the **Follow** and **Unfollow** buttons are displayed together on the command bar even if the selected record is in the same state of being follows or unfollwed.
+
+**Question**:<br>Why are appointments saved automatically even if system administrator has added a custom script to stop auto save?
+
+**Answer**:<br>If your system administrator has added a custom script to prevent the default save option for appointments, the system will still override the custom script and save the appointments automatically.
+
+**Question**:<br>Why the **Open Record Set** button disappears when an appointment is saved?
+
+**Answer**:<br>When you select the **Save** button to save an appointment the [Open Record Set](https://docs.microsoft.com/powerapps/user/navigation#record-set-navigation) button disappears. You can refresh the page and the **Open Record Set** button will appear again.
+
+**Question**:<br>Why can't I see the What's new functionality in the Unified Interface?
+
+**Answer**:<br>The What's new functionality is only available in the legacy web client. However, you can see it in the timeline control of all entities.
+
 ## Entity: Opportunity
 
 **Question**:<br>When can I edit the **Est.Revenue** value in the **Opportunity** form?
