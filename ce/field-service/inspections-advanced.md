@@ -110,7 +110,7 @@ Make sure **Analytics enabled** is set to **Yes**. For **Analytics frequency**, 
 - **Custom**: Define your own frequency in number of days. See the following screenshot for an example.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the analytics section on inspection settings, showing custom configurations.](./media/custom-frequency.jpg)
+> ![Screenshot of the analytics section on inspection settings, showing custom configurations.](./media/customFrequency.jpg)
 
 Next, we need to create and publish an inspection. See the following screenshot for an example.
 
