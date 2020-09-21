@@ -86,13 +86,15 @@ Existing work orders will display and reference the previous version of the insp
 
 ## Understand, view, and report inspection responses
 
-After technicians answer inspection questions and mark the work order service task as complete, inspection answers are stored in Common Data Service for reporting purposes.
+After technicians answer inspection questions and mark the work order service task as complete, all responses entered by the technician are stored in Common Data Service for reporting purposes.
 
 There are three entities stored in Common Data Service:
 
 1. **Customer Voice survey question**: each inspection question
 2. **Customer Voice survey response**: a response to an inspection
 3. **Customer Voice survey question response**: each individual response to each inspection question
+
+In this section, we'll walk through how to configure the analytics settings in order to parse individual inspection responses into individual question responses.
 
 First, we'll define how often inspection answers should be parsed and organized in Common Data Service.
 
@@ -101,11 +103,14 @@ Go to **Field Service app** > **Settings** > **Field Service Settings** > **Insp
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Field Service settings page.](./media/0-inspection-snapshot-parse-response.png)
 
-Make sure **Analytics enabled** is set to **Yes**. Set **Analytics frequency** to:
+Make sure **Analytics enabled** is set to **Yes**. For **Analytics frequency**, consider the following options:
 
-- **Daily** to gather analytics from inspections once per day.
-- **Immediately** to gather analytics as soon as an inspection is submitted.
-- **Custom** to define your own parameters.
+- **Daily**: Every day on the **Record generation start time**, the **Deserialization of Inspection Response – Recurrent** flow triggers and updates the deserialized inspection response JSON in ```msfp_surveyresponse``` and creates new records for responses and corresponding questions in the ```msfp_questionresponse``` entity.
+- **Immediately**:  As soon as a work order service task is marked complete, the **Deserialization of Inspection Response** flow triggers and updates the deserialized inspection response JSON in ```msfp_surveyresponse```, and also creates new records for responses and corresponding questions in ```msfp_questionresponse``` entity.
+- **Custom**: Define your own frequency in number of days. See the following screenshot for an example.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the analytics section on inspection settings, showing custom configurations.](./media/custom-frequency.jpg)
 
 Next, we need to create and publish an inspection. See the following screenshot for an example.
 
@@ -164,6 +169,9 @@ When a technician fills out an inspection, the answers to each inspection questi
 Use a Power Automate flow to run a workflow on inspection responses.
 
 In the following example, if a technician responds "Yes" to the inspection question "Is a follow-up required?" then a new follow-up work order service task is added to the related work order.
+
+> [!Note]
+> Out-of-the-box flows cannot be customized. You must create or copy a Power Automate flow in order to customize it.
 
 ### Create a flow
 
