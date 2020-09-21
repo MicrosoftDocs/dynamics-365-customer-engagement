@@ -48,7 +48,7 @@ To use survey data in segments:
 
     Interaction-based segment Dynamics 365 Customer Voice options (these may still be listed as Forms Pro options in the menu):
 
-    ![Interaction-based segment Dynamics 365 Customer Voice](media/forms-pro-interaction.png "Interaction based segment Dynamics 365 Customer Voice")
+    ![Interaction-based segment Dynamics 365 Customer Voice](media/forms-pro-interaction2.png "Interaction based segment Dynamics 365 Customer Voice")
 
     Profile-based segment Dynamics 365 Customer Voice options:
 
