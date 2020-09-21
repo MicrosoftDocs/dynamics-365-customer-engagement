@@ -157,14 +157,14 @@ To configure a knowledge base article URL, do the following:
 
 2. Under **Support Portal Connection**, set **Use an external portal** to **Yes**.
 
-3. In the **URL Format** field, enter the URL name.
+3. In the **URL format** field, enter the URL name.
 
    > [!div class=mx-imgBorder]
    > ![Select URL format](media/kb-url-format.png "Select the URL format to use")
 
 4. Select **Save**.
 
-The knowledge base article URL is now active and can be copied and shared.
+The knowledge base article link is now active and can be copied and shared.
 
 ### Filter knowledge articles
 
