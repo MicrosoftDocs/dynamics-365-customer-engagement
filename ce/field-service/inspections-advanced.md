@@ -112,6 +112,9 @@ Make sure **Analytics enabled** is set to **Yes**. For **Analytics frequency**, 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the analytics section on inspection settings, showing custom configurations.](./media/customFrequency.jpg)
 
+> [!Note]
+> When analytics frequency is set to **Immediately**, the inspection response is parsed and persisted as soon as the service task is completed; the parsed responses won't be updated even if the technician makes changes and completes the inspection again. However, if the analytics frequency is set to **Daily** or **Custom**, the responses are stored from the latest completion of the service task *before* the flow start time.
+
 Next, we need to create and publish an inspection. See the following screenshot for an example.
 
 > [!div class="mx-imgBorder"]
