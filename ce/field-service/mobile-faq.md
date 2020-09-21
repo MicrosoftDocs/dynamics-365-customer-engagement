@@ -2,7 +2,7 @@
 title: "Frequently asked questions for Field Service Mobile | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 04/01/2020
+ms.date: 09/21/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -253,3 +253,38 @@ To correct:
 This error notes that your AAD security settings have a conditional access block which disallows Field Service Mobile from reaching authentication servers. 
  
 To correct, you'll need to discuss with your network security team and evaluate Conditional Access policies which may be blocking Dynamics 365. For more information, see the article [Troubleshoot Conditional Access](https://docs.microsoft.com/azure/active-directory/conditional-access/troubleshoot-conditional-access-what-if).
+
+## Why won't my password save?
+
+To avoid having to enter a password each time someone uses the application, administrators can set the **Save Password** to _True_ in **Configurations** in the Field Service Mobile Configuration tool (Woodford). 
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of mobile configurations in the configuration tool.](./media/mobile-configuration-save-password.png)
+
+However, Android users who have **Save password** set to true will be prompted for the password every time they launch the latest version (12.3.x) of the Field Service Mobile (Xamarin) app. This will impact all Android users with **Save password** set to true who migrate to the latest version (12.3.203) of the Field Service Mobile (Xamarin) app. This issue will also occur when user upgrades from the present version 12.1.224 to the upcoming version 12.3.x.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the save password prompt.](./media/mobile-save-password-prompt.png)
+
+The issue is due to a necessary security upgrade of encryption method on Field Service Mobile (Xamarin) and a bug in the Android operating system, which has been marked as “Won’t Fix” by Google. Link to the issue: [Android bug link](https://issuetracker.google.com/issues/37075898). 
+
+### Solution:
+
+There are two options to avoid the issue:
+
+1. Uninstall the application from the device and re-install the application from the [Field Service Mobile android App store](https://play.google.com/store/apps/details?id=com.microsoft.d365.fs.mobile).
+2. Go to Android settings and clear app data for the Field Service Mobile (Xamarin) app to avoid the recurrent password prompt. Note: This will not lead to any permanent data loss within the application; users will need to sync to get all data from the servers.
+
+Steps to clear app data:
+
+1.	Go to **Settings** > **Apps & Notifications**.
+2.	Choose **Field Service Mobile App**.
+3.	Go to **Storage & Cache**.
+4.	Choose the option **Clear Cache**.
+5.	Choose the option **Clear Storage**.
+6.	When prompted to **Delete app data?** Choose **OK**.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the clear data dialogue for mobile passwords.](./media/mobile-password-clear-data.png)
