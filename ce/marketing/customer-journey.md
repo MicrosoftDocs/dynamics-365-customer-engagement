@@ -178,12 +178,12 @@ To create a customer journey that executes a one-time email blast:
 1. Until now, you've been working in the **Designer** tab. Now go to the **General** tab, where you can name your journey and configure its run schedule.
     
     Make the following settings in the **General** tab:
-    >
-    1. **Name:** Enter a name for the customer journey that you can easily recognize later. This name is internal-only.
-    1. **Start Date Time:** Enter the time when the journey should begin processing contacts. When you select the field, a suggested default time is provided.
-    1. **End Date Time:** Enter the time at which the journey should stop processing contacts. All actions will stop at this time, even if some contacts are still in the middle of the journey. If you're just testing, allow a couple of weeks.
-    1. **Time Zone:** Select your local time zone (if needed). The other dates and times on the page will be displayed relative to this zone.
-    1. **Content Settings:** This should already be set to the default content settings record set for your instance. These settings affect the dynamic content of marketing emails sent by this journey (as mentioned in [Create a marketing email and go live](create-marketing-email.md)).
+    
+    - **Name**: Enter a name for the customer journey that you can easily recognize later. This name is internal-only.
+    - **Start date and time**: Enter the time when the journey should begin processing contacts. When you select the field, a suggested default time is provided.
+    - **End date and time**: Enter the time at which the journey should stop processing contacts. All actions will stop at this time, even if some contacts are still in the middle of the journey. If you're just testing, allow a couple of weeks.
+    - **Time zone**: Select your local time zone (if needed). The other dates and times on the page will be displayed relative to this zone.
+    - **Content settings**: This should already be set to the default content settings record set for your instance. These settings affect the dynamic content of marketing emails sent by this journey (as mentioned in [Create a marketing email and go live](create-marketing-email.md)).
 
     ![Customer journey General tab](media/customer-journey-general2.png "Customer journey General tab")
 
