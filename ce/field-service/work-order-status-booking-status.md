@@ -180,7 +180,7 @@ Here is a table summarizing the out-of-the-box relationship between work order s
 | Open-In Progress | In Progress | |
 | Open-In Progress | On Break | |
 | Open-Completed | Completed | |
-| Closed-Posted | -- | No booking status can change the work order system status to **Closed-Posted**; changing the system status to **Closed-Posted** does not affect bookings. |
+| Closed-Posted | -- | No booking status can change the work order system status to **Closed-Posted**. If there are any bookings with aa incomplete or non-canceled status, changing the system status to **Closed-Posted** will update those bookings to a canceled state.|
 | Closed-Canceled | Canceled | If the work order system status is changed to **Closed-Canceled**, all bookings with a status of **Scheduled** will change to **Canceled**. You can't cancel a work order if in progress bookings exist. Completed bookings will remain as completed. |
 | Open-Unscheduled | Canceled | If the booking status is **Canceled**, and is the only booking, the work order system status will revert to **Open-Unscheduled**. If one of multiple bookings is canceled, the work order system status will revert to **Open-Scheduled**, **Open-In Progress**, or **Open-Completed** based on the other remaining uncanceled bookings. |
 
