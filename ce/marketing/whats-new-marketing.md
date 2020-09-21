@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 09/10/2020
+ms.date: 09/21/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -68,6 +68,24 @@ The September update includes email designer enhancements, social posting improv
     - Toggle post-processing on or off for custom HTML that is pasted into the email editor.
 - **Social posting**
     - Post directly to a Facebook user account or any Facebook page on which you are an admin.
+
+### Bug fixes
+
+- **Customer journeys**
+
+- **Event management**
+    - Fixed an error where sessions were occasionally displayed for registrations for events without sessions.
+- **Marketing emails**
+    - Resolved an error where email sections with top or bottom padding did not render background images properly.
+    - Fixed an issue with CKEditor where images did not render properly if a width and height was not specified.
+- **Marketing pages**
+
+- **Segmentation**
+
+- **Shared UX**
+
+- **Social posting**
+
 
 ## August 2020 update
 
