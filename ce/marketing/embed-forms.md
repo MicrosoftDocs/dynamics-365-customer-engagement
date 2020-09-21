@@ -120,7 +120,7 @@ To create a form with prefilling that you can embed on an external website:
 
 1. Enable prefilling for the form as described in [Enable prefilling for forms](form-prefill.md).
 
-1. Save the form and then go to the **Form hosting** tab (first available on save) to set up a _form page_ for it as described in [Create an embedded form](#create-embedded). Note that you don't need to add authenticated domains to the whitelist on the **Form hosting** tab because authenticated domains provide even better security than the whitelist provided here.
+1. Save the form and then go to the **Form hosting** tab (first available on save) to set up a _form page_ for it as described in [Create an embedded form](#create-embedded). Note that you don't need to add authenticated domains to the allow list on the **Form hosting** tab because authenticated domains provide even better security than the allow list provided here.
 
 1. As described in [Create an embedded form](#create-embedded), copy the JavaScript code generated for the new form page and paste it onto a web page or CMS page for your website.
 
