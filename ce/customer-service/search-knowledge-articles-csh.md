@@ -129,7 +129,7 @@ Agents can do the following:
 - Send an article pop out 
 - Copy and send article URLs (when preconfigured)
 
-To configure the ability to copy and send article URLs, see [Configure knowledge base article URLs](#configure-knowledge-base-article-url).
+To configure the ability to copy and send article URLs, see [Configure knowledge base article URLs](#configure-knowledge-base-article-urls).
 
   > [!div class=mx-imgBorder]
   > ![Independent KB search](media/kb-independent-search.png "Search knowledge articles outside of cases")
@@ -146,7 +146,7 @@ To configure the ability to copy and send article URLs, see [Configure knowledge
 Knowledge articles can be configured with their own URLs, which agents can copy and share. 
 
 > [!NOTE]
-> Before you can configure knowledge articles with their own URLs, you must create a portal using your domain name. For information on how create a portal, see [Create a portal in an environment containing customer engagement apps](https://docs.microsoft.com/en-us/powerapps/maker/portals/create-dynamics-portal).
+> Before you can configure knowledge articles with their own URLs, you must create a portal using your domain name. For information on how create a portal, see [Create a portal in an environment containing customer engagement apps](https://docs.microsoft.com/powerapps/maker/portals/create-dynamics-portal).
 
 To configure a knowledge base article URL, do the following:
 
