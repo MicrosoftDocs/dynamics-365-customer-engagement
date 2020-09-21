@@ -62,9 +62,9 @@ To get desktop notifications, you need to allow your browser (Microsoft Edge or 
 
 There are two types of notifications:
 
-- **Toast notifications:** A toast notification or floating notification is a notification message type where you receive information in a dialog, which disappears after a stipulated time. This type notifications appear for conversation (work item) assignments, conversation escalations, and conversation transfer scenarios and so on.
+- **Toast notifications:** A toast notification or floating notification is a notification message type where you receive information in a dialog, which disappears after a stipulated time. This type of notifications appear for conversation (work item) assignments, conversation escalations, and conversation transfer scenarios.
 
-- **Alert notifications:** An alert notification is a type of notification where a dialog appears with actionable buttons. When you select the **Accept** button, a screen pops up with Customer summary details. You need to take an action within the stipulated time and the notification disappears when the time is up.
+- **Alert notifications:** An alert notification is a type of notification where a dialog appears with actionable buttons. When you select the **Accept** button, a screen pops up with the customer summary details. You need to take an action within the stipulated time and the notification disappears when the time is up.
 
 ## Incoming chat notification
 

@@ -1,6 +1,5 @@
 ---
-
-title: Customize weekly time entry 
+title: Customize weekly time entry
 description: This topic provides information about how to implement custom business rules that support an organization's practices.
 author: stsporen
 manager: kfend
@@ -20,6 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365PS
+  - ProjectOperations
 ---
 
 # Customize weekly time entry 

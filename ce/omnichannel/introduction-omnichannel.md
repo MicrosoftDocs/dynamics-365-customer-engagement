@@ -49,7 +49,7 @@ To view more videos on Omnichannel for Customer Service, see [Videos](videos.md)
 
 ### See also
 
-[Pre-requisites and system requirements](system-requirements-omnichannel.md)  
+[Prerequisites and system requirements](system-requirements-omnichannel.md)  
 [Assign roles and enable users for Omnichannel for Customer Service](administrator/add-users-assign-roles.md)  
 [Try channels for Dynamics 365 Customer Service](try-channels.md)  
 [Configure an SMS channel](administrator/configure-sms-channel.md)  

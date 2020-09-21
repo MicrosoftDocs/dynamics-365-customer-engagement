@@ -14,17 +14,25 @@
 ## User Guides
 
 ### Customer Service workspace
-#### [Introduction to Customer Service workspace](csw-overview.md)
-#### [Customer Service workspace system requirements](customer-service-workspace-system-requirements.md)
-#### [Overview of the productivity pane](csw-productivity-pane.md)
-#### [View AI suggested similar cases and knowledge articles](csw-view-ai-suggested-cases-knowledge-articles.md)
+
+#### Agent and supervisor experience
+##### [Introduction to Customer Service workspace](csw-overview.md)
+##### [Customer Service workspace system requirements](customer-service-workspace-system-requirements.md)
+##### [Overview of the productivity pane](csw-productivity-pane.md)
+##### [View AI suggested similar cases and knowledge articles](csw-view-ai-suggested-cases-knowledge-articles.md)
 
 ### Customer Service Hub
 #### [Introduction to Customer Service Hub](user-guide-customer-service-hub.md)
 #### [Learn the basics](customer-service-hub-user-guide-basics.md)
+
+#### [App profile manager for Customer Service workspace](../app-profile-manager/overview.md)
+
+#### Work with email
+##### [Configuring email](customer-service-hub-user-guide-email-admin.md)
+##### [Using email](customer-service-hub-user-guide-email-overview.md)
 #### Work with timeline
-##### [Use timeline](customer-service-hub-user-guide-timeline-overview.md)
-##### [Configure timeline](customer-service-hub-user-guide-timeline-admin.md)
+##### [Configuring timeline](customer-service-hub-user-guide-timeline-admin.md)
+##### [Using timeline](customer-service-hub-user-guide-timeline-overview.md)
 
 #### Work with cases
 ##### [Create a case](customer-service-hub-user-guide-create-a-case.md)
@@ -67,13 +75,12 @@
 #### [Define subjects to categorize cases](../admin/define-subjects-categorize-cases-products-articles.md)
 
 ### Service Terms
-#### [Define service level agreements (SLAs)](define-service-level-agreements.md)
+#### [Define service-level agreements](define-service-level-agreements.md)
 #### [Enable entities for service level agreements](enable-entities-service-level-agreements.md)
 #### [Create entitlements to define support terms](create-entitlement-define-support-terms-customer.md)
 #### [Create and manage holiday schedule](set-up-holiday-schedule.md)
 #### [Create customer service schedule](create-customer-service-schedule-define-work-hours.md)
 #### [Manage service configuration settings](../admin/system-settings-dialog-box-service-tab.md)
-#### [Contract to entitlements migration strategy](contract-to-entitlement-migration.md)
 ### Templates
 #### [Set up entitlements using entitlement templates](set-up-entitlements-templates.md)
 #### [Create email templates](../admin/create-templates-email.md)
@@ -138,12 +145,6 @@
 ##### [Create and manage organizational units](create-org-units-cs-scheduling.md)
 ##### [Schedule business closure](set-when-business-closed-csh.md)
 
-#### Migration tool
-##### [Introduction](introduction-migration-entity-records.md)
-##### [Plan your migration](plan-migration.md)
-##### [Migrate entity records data using migration tool](migrate-entity-records.md)
-
-
 #### Service Scheduling Developer Guide
 ##### [Search Resource Availability and Create Bookings](universal-resource-scheduling.md)
 
@@ -174,12 +175,27 @@
 ### [Configure interactive dashboards](configure-interactive-dashboards-customer-service-hub.md)
 ### [Modify case resolution dialog box](../customer-service/customer-service-hub-user-guide-modify-case-resolution-dialog.md)
 
+## Migration solutions
+
+### [Migrate automatic record creation rules and service-level agreements](migrate-automatic-record-creation-and-sla-agreements.md)
+### [Contract to entitlements migration strategy](contract-to-entitlement-migration.md)
+
+
+### Service Scheduling Migration
+#### [Introduction to service scheduling migration](introduction-migration-entity-records.md)
+#### [Plan service scheduling migration](plan-migration.md)
+#### [Migrate service scheduling](migrate-entity-records.md)
+
+### [Migration tool FAQs](migrate-tool-faqs.md)
+
 ## Troubleshoot
 ### [Issue converting an email to a case](troubleshoot-case-email-issue.md)
 ### [SLA timer does not pause when its state is changed from InProgress to OnHold on a holiday](troubleshoot-sla-timer-issue.md)
 ### [Unable to delete a managed solution consisting an SLA enabled entity](troubleshoot-delete-managed-solution.md)
 ### FAQs
-#### [Timeline FAQs](timeline-faqs.md) 
+#### [Email FAQs](email-faqs.md)
+#### [Timeline FAQs](timeline-faqs.md)
+#### [Migration tool FAQs](migrate-tool-faqs.md)
 #### [FAQs on AI-suggested cases and knowledge articles](csw-faqs-ai-suggestions.md)
 
 ## Developer guide

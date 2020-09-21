@@ -27,7 +27,7 @@ search.app:
 Surveys are a critical feedback component for customer-obsessed organizations. Dynamics 365 Marketing with [Forms Pro](https://docs.microsoft.com/forms-pro/) integration brings a rich set of capabilities for asking for feedback about your customers' needs. These survey capabilities help you make data-driven decisions and apply your findings to your marketing initiatives. Marketers can automate survey experiences and use data generated from surveys for advanced segmentation and customer profiling.
 
 > [!NOTE]
-> You will need your administrator to [turn on the feature switch](admin-feature-switches.md) for the "Forms Pro Marketing integration" functionality before you are able to access it in the email designer.
+> You will need your administrator to [turn on the feature switch](admin-feature-switches.md) for the "Forms Pro Marketing integration" functionality before you are able to access it.
 
 ## Create your survey in Forms Pro
 

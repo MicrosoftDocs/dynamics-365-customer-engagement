@@ -3,7 +3,7 @@ title: "Modify the messages for an entity (Developer Guide for Dynamics 365 Cust
 description: "Learn about editing the entity messages by exporting, editing, and importing translations."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

@@ -4,7 +4,7 @@ description: "Learn what a custom channel is and how to configure the channel, o
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 07/07/2020
+ms.date: 08/06/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -100,9 +100,9 @@ To create a custom channel, follow these steps:
 
 2. Select **Custom (preview)** under **Channels**.
 
-3. Select **+ New** in the **Active Custom messaging account** view.
+3. Select **New** in the **Active Custom messaging account** view.
 
-4. In the new **Custom messaging account** page, specify the values for the following fields:
+4. In the **New Custom messaging account** page, specify the values for the following fields:
 
     | Section | Field | Description | Example  value |
     |-------------|-------------------|---------------------------|--------------------------------------|
@@ -123,12 +123,11 @@ To create a custom channel, follow these steps:
 
 7. Go to the **Azure Portal** > **Bot Channel Registration** page, paste the URL into the **Message endpoint** field, and save the changes.
 
-8. In the **Channels** section, select **+ Add Custom messaging channel**. The **New Custom messaging channel** page is displayed.
+8. In the **Channels** section, select **New Custom messaging channel**. The **New Custom messaging channel** page is displayed.
 
    After you create a **Custom messaging account**, you need to create a custom messaging channel, which is the actual channel from which Omnichannel for Customer Service agents will receive messages from the customer.
 
-
-9. In the **New Custom messaging account** page, specify the values for the following fields:
+9. On the **New Custom messaging account** page, specify the values for the following fields:
 
     | Section | Field | Description | Example  value |
     |-------------|-------------------|---------------------------|--------------------------------------|  
@@ -144,17 +143,18 @@ To create a custom channel, follow these steps:
     > [!div class=mx-imgBorder]
     > ![Create a custom channel](../media/custom-channel-3.png "Create a custom channel") 
 
-10. Select **Save** to save the custom messaging channel.
+10. Optionally, on the **Surveys** tab, [configure a post-conversation survey](configure-post-conversation-survey.md).
 
-11. Select the back button on the browser to go to the custom messaging account page. You can see that the custom messaging channel is added in the **Channels** section. 
+11. Select **Save** to save the custom messaging channel.
 
-12. Select **Save** to save the configurations.
+12. Select the back button on the browser to go to the custom messaging account page. You can see that the custom messaging channel is added in the **Channels** section.
 
+13. Select **Save** to save the configurations.
 
     > [!div class=mx-imgBorder]
     > ![Create a custom channel](../media/custom-channel-4.png "Create a custom channel")
 
-## Test your channel 
+## Test your channel
 
 For more information, see the developer guide, [Bring your own custom messaging channel: Test Client HTML](../developer/how-to/bring-your-own-channel-sample-html.md).
 
@@ -165,6 +165,30 @@ If you want to help your customers using your line-of-business (in-house) messag
 The Bot Framework **Direct Line** channel helps you to integrate your line-of-business (in-house) messaging channels into the Omnichannel for Customer Service app.
 
 For more information, see the developer guide, [Bring your own custom messaging channel: Direct Line bot](../developer/how-to/bring-your-own-channel.md).
+
+## Modify settings for a specific custom channel
+
+1. In the Omnichannel Administration app, go to **Custom** and select the custom channel you want to modify. 
+
+2. On the **General settings** tab, provide the following information:
+    
+    - **Language**: Select the preferred language for your custom channel.
+    
+    - **Work stream**: Select an existing work stream or create a new one.
+
+    - **Enable file attachments for customers**: Set to **Yes** to allow customers to send file attachments to agents. Otherwise, set **No**. 
+
+    - **Enable file attachments for agents**: Set to **Yes** to allow agents to send file attachments to customers. When the agent sends an attachment, the app sends the blob storage URL to the channel. Otherwise, set **No**. 
+    
+       To learn more about attachments, see [Enable file attachments](enable-file-attachments.md). 
+       
+       To learn more about uploading media in Direct Line, see [Azure Bot Service documentation](https://docs.microsoft.com/azure/bot-service/rest-api/bot-framework-rest-direct-line-3-0-send-activity?view=azure-bot-service-4.0). 
+       
+       To learn more about uploading media in Telegram, see the [Telegram Bot API](https://core.telegram.org/bots/api#available-types).
+
+3. On the **Automated messages** tab, [configure automated messages](configure-automated-message.md). 
+    
+4. On the **Surveys** tab, [configure a post-conversation survey](configure-post-conversation-survey.md).
 
 ### See also
 

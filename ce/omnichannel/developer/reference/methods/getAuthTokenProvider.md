@@ -29,8 +29,6 @@ None
 
 ## Return Value
 
-<!--note from editor: change "auth-token" to "authentication-token"   -->
-
 Returns the currently set authentication token provider, if any. If there is no registered authentication token provider, then it returns null.
 
 ## Example

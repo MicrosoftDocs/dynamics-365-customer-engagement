@@ -1,15 +1,14 @@
 ---
 title: Assign a resource to a task
 description: This topic provides information about how to assign resources to tasks.
-author: ruhercul   
+author: ruhercul
 manager: kfend
 ms.service: dynamics-365-customerservice
-ms.custom:
+ms.custom: 
   - dyn365-projectservice
 ms.date: 9/27/2019
 ms.topic: article
 ms.prod: Project Service
-ms.service: business-applications
 ms.technology: Dynamics 365 Project Service Automation 3.x
 ms.author: ruhercul
 audience: Admin
@@ -20,6 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365PS
+  - ProjectOperations
 ---
 
 

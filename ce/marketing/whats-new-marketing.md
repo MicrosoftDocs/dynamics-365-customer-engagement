@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 08/03/2020
+ms.date: 09/10/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -30,9 +30,48 @@ Marketing updates are [pushed to all customers automatically](https://cloudblogs
 > [!Note]
 > To submit and vote on **feature requests** and **product suggestions**, go to the [Dynamics 365 Application Ideas portal](https://experience.dynamics.com/ideas/categories/?forum=bee3d862-df65-e811-a95d-000d3a1be7ad&forumName=Dynamics%20365%20Marketing).
 
+## September 2020 update
+
+The September update includes email designer enhancements, social posting improvements, improved localization of events, an updated template gallery, and 23 bug fixes, improving reliability and stability. The early access release includes [2020 release wave 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/planned-features) features, including a new customer journey designer and flexible options for data after form submissions.
+
+### Version number
+
+| App              | GA release      | Early access    |
+|------------------|-----------------|-----------------|
+| Marketing        | 1.35.10065.1064 | 1.35.10065.2064 |
+
+> [!Tip]
+> To check your current version number, refer to [Find out which version of Dynamics 365 Marketing you are running](https://docs.microsoft.com/dynamics365/marketing/apply-updates#find-out-which-version-of-dynamics-365-marketing-you-are-running).
+
+### Early access features
+
+> [!IMPORTANT]
+> Early access features are currently available only on opted-in instances. You can opt in for early access on any instance, but we recommend that you do so only on trial, test, or sandbox instances, which will give you a chance to learn the new functionality before it shows up on your production instances later this year.
+>
+> For instructions on how to opt in and enable early access, see [Opt in to early access updates](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates). For more information about the 2020 release wave 2 schedule, and for answers to frequently asked questions about the early access program, see [2020 release wave 2 features available for early access](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/features-ready-early-access).
+>
+> We encourage all customers to provide feedback related to early access features on the [Dynamics 365 Marketing Forum](https://community.dynamics.com/365/marketing/f/dynamics-365-for-marketing-forum), your Microsoft contact or partner, and/or through [Microsoft Support](https://docs.microsoft.com/power-platform/admin/get-help-support).
+
+- **Build customer journeys more efficiently using the new canvas experience**
+    - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/new-improved-customer-journey-canvas-experience)
+    - [Docs](customer-journey.md)
+- **Collect data from form submissions more easily with expanded entity options**
+    - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/capture-data-more-easily-simplified-forms-requirements)
+    - [Docs](marketing-forms.md#do-not-createupdate-contacts-or-leads)
+
+### Monthly enhancements
+
+- **Event management**
+    - With localization improvements, event websites reflect the time zone of where the event is taking place.
+- **Marketing emails**
+    - Improved support for background images, call to action buttons, and responsiveness in Microsoft Outlook.
+    - Toggle post-processing on or off for custom HTML that is pasted into the email editor.
+- **Social posting**
+    - Post directly to a Facebook user account or any Facebook page on which you are an admin.
+
 ## August 2020 update
 
-The August update includes email designer enhancements and 33 bug fixes, improving reliability and stability. The early access release includes [2020 release wave 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/planned-features) features, including built in Teams functionality for events, improved social posting, and email designer improvements.
+The August update includes a preview of built-in Teams functionality for events, email designer enhancements, and 33 bug fixes, improving reliability and stability. The early access release includes [2020 release wave 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/planned-features) features, including improved social posting and email designer improvements.
 
 ### Version number
 
@@ -52,9 +91,6 @@ The August update includes email designer enhancements and 33 bug fixes, improvi
 >
 > We encourage all customers to provide feedback related to early access features on the [Dynamics 365 Marketing Forum](https://community.dynamics.com/365/marketing/f/dynamics-365-for-marketing-forum), your Microsoft contact or partner, and/or through [Microsoft Support](https://docs.microsoft.com/power-platform/admin/get-help-support).
 
-- **Run webinars and meetings using built in Microsoft Teams functionality**
-    - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/teams-integration-webinar)
-    - [Docs](teams-webinar.md)
 - **Create and manage content-rich social media posts and easily monitor performance**
     - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/improved-social-posting)
     - [Docs](social-posting.md)
@@ -62,12 +98,66 @@ The August update includes email designer enhancements and 33 bug fixes, improvi
     - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/create-customized-emails-faster)
     - [Docs](email-design.md)
 
+### Preview feature
+
+> [!IMPORTANT]
+> This is a preview feature. A preview feature is a feature that is not complete, but is made available before it's officially in a release so customers can get early access and provide feedback. Preview features aren't meant for production use and may have limited or restricted functionality.
+>
+> Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won't be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate supplemental terms of use.
+
+- **Run webinars and meetings using built in Microsoft Teams functionality**
+    - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/teams-integration-webinar)
+    - [Docs](teams-webinar.md)
+
 ### Monthly enhancements
 
 - **Marketing emails**
     - Adding event, survey, marketing page, and Teams buttons to emails is easier with improved drag and drop functionality, enhanced appearance, and easily editable text.
     - Placeholders for images, videos, and content blocks now have a more consistent appearance and uniform icons.
-    - Add up to ten columns with improved custom column configuration controls.
+    - Add up to 10 columns with improved custom column configuration controls.
+
+### Bug fixes
+
+- **Customer journeys**
+    - Fixed an error where the customer journeys scheduler occasionally did not parse live updates properly.
+- **Event management**
+    - Fixed a stability error related to an event handler malfunction.
+    - Resolved an issue where check-ins occasionally did not record properly for session registration.
+    - You can no longer select the same building for simultaneous events.
+- **Marketing emails**
+    - Resolved an issue in Outlook where two or three-column email layouts sometimes did not display content or background images correctly.
+    - Resolved an issue in Outlook where a double border appeared when a solid border was selected in the email designer.
+    - Fixed an error where column widths sometimes rendered inconsistently in Outlook.
+    - Resolved an issue where QR code and custom tile setting were sometimes removed after refreshing the email designer.
+    - Fixed an error in the email designer that resulted from putting "0" as the min-height for columns.
+    - Resolved an issue where padding at the top of an image did not render correctly in Outlook 2016.
+    - Fixed an error where two-column layouts did not render properly in Outlook when background images were used.
+    - Resolved an error where background images did not scale properly in Outlook 2019 when using a 120 DPI setting.
+    - Resolved a rare issue where custom code added to marketing emails sometimes vanished.
+    - Fixed an error where video thumbnails in emails were not scaled properly on some mobile devices.
+    - Fixed an error where defined image sizes rendered inconsistently in Outlook.
+    - Resolved an issue where padding after a content block sometimes rendered incorrectly in Outlook.
+    - Improved column min. height rendering in Outlook.
+- **Marketing pages**
+    - Fixed an issue where a CSS error displayed a two-column layout as a single column.
+    - Updated forms and tracked content do not allow IP lists.
+    - Improved marketing form responsiveness.
+    - Resolved an issue where a privacy banner would occasionally block a text content block in the preview view.
+    - Resolved an issue where a privacy banner would occasionally block a text content block in the live view.
+    - Resolved an error where the background color of a column disappeared after deleting one column from a three-column layout.
+    - Fixed an error that occasionally resulted in inconsistent rendering of the shipping address form and subscription form when used in page template "Product Page 2."
+    - Enabled the use of metadata size limits on marketing pages to override the hardcoded marketing page side validation limit of 64 K.
+    - Updated incorrect error messages when prefill is enabled.
+    - Resolved an error where users with only system admin roles could not go live on forms with custom registration fields.
+    - Updated form capture components.
+    - Improved the reliability of subscription tracking for marketing lists.
+- **Segmentation**
+    - Resolved an issue where a segment did not recover to a healthy state after a subsegment failure, even after the subsegment was repaired.
+- **Shared UX**
+    - Improved Element List compatibility with the NVDA tool.
+    - Fixed a loading error that sometimes occurred when switching the Template Gallery to the grid layout then selecting a record.
+- **Social posting**
+    - Improved the UI on the calendar to create separation between adjacent items.
 
 ## July 2020 update
 

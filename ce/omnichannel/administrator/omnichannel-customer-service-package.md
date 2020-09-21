@@ -4,9 +4,9 @@ description: "Learn how to deploy Unified Service Desk - Omnichannel for Custome
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 06/22/2020
+ms.date: 09/16/2020
 ms.service: 
-  - "dynamics-365-customerservice"
+   "dynamics-365-customerservice"
 ms.topic: article
 ---
 
@@ -22,10 +22,10 @@ Microsoft Dynamics 365 Package Deployer enables you to deploy the **Unified Serv
 
 Download:
 
+- [Unified Service Desk - Omnichannel for Customer Service package 3.0](https://go.microsoft.com/fwlink/p/?linkid=2143446)
+- [Unified Service Desk - Omnichannel for Customer Service package 2.3](https://go.microsoft.com/fwlink/p/?linkid=2141358)
 - [Unified Service Desk - Omnichannel for Customer Service package 2.2](https://go.microsoft.com/fwlink/p/?linkid=2133575)
 - [Unified Service Desk - Omnichannel for Customer Service package 2.0](https://go.microsoft.com/fwlink/p/?linkid=2110335)
-- [Unified Service Desk - Omnichannel for Customer Service package 1.1](https://go.microsoft.com/fwlink/p/?linkid=2133629)
-- [Unified Service Desk - Omnichannel for Customer Service package 1.0](https://go.microsoft.com/fwlink/p/?linkid=2097302)
 
 Download the **OmnichannelUnifiedServiceDeskPackage.zip**, and save it on your computer. When you extract the contents into a folder, the following are listed:
 
@@ -63,7 +63,7 @@ The **Upgrade** package updates the Customization files and creates the newly in
 > [!Note]
 >
 > - If you are using the **Unified Service Desk - Omnichannel for Customer Service** package with no customizations, then we recommend you not to upgrade. Instead, deploy the **Unified Service Desk - Omnichannel for Customer Service**.
-> - The **Upgrade** package doesn't provide any additional configuration data such as Windows Navigation Rules, Action Calls, and Entity Searches.
+> - The **Upgrade** package doesn't provide any additional configuration data, such as Windows Navigation Rules, Action Calls, and Entity Searches.
 
 ## Deploy package on Dynamics 365 Customer Service app
 
@@ -74,17 +74,17 @@ The **Upgrade** package updates the Customization files and creates the newly in
 
 1. Run the **PackageDeployer.exe** file.
 
-2. On the connect screen, provide authentication details to connect to the instance where you want to deploy the package.
+2. On the connect page, provide authentication details to connect to the instance where you want to deploy the package. Information about the packages is displayed.
 
-3. The next screen displays information about the packages. Select the **Unified Service Desk - Omnichannel for Customer Service - Add-On** or **Unified Service Desk - Omnichannel for Customer Service** to install on your instance. Review the information and choose **Next**.
+3. Select the **Unified Service Desk - Omnichannel for Customer Service - Add-On** or **Unified Service Desk - Omnichannel for Customer Service** to install on your instance. Review the information and choose **Next**.
 
-4. The **Ready to Install** screen displays the package name for deployment and name of the organization. Review the information, and choose **Next**.
+4. Review the information on the **Ready to Install** page that displays the package name for deployment and name of the organization, and choose **Next**. The validation status of the package is displayed.
 
-5. The next screen displays the validation status of the package. After the validation completes successfully, choose **Next**.
+5. After the validation completes successfully, choose **Next**. The package deployment status is displayed. After deployment is successful, a confirmation message appears.
 
-6. The next page displays the package deployment status. A confirmation message is displayed on successful deployment of the package. Select **Next**.
+6. Select **Next**.
 
-7. The **Installation Complete** screen displays the name and information about the package that you deployed. Review the information and choose **Finish** to exit the Package Deployer tool.
+7. Review the name and information about the package on the **Installation Complete** page, and choose **Finish** to exit the Package Deployer tool.
 
 To learn more, see [Deploy a sample Unified Service Desk package using Package Deployer](/dynamics365/unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer?view=dynamics-usd-4#deploy-a-sample-unified-service-desk-package-using-package-deployer).
 
@@ -144,5 +144,5 @@ When you deploy an Omnichannel for Customer Service package in an organization, 
 
 ### See also
 
-- [Omnichannel for Customer Service on Unified Service Desk](omnichannel-customer-service-unified-service-desk.md)
-- [Configure recommended settings for Unified Service Desk](configure-settings-unified-service-desk.md)
+[Omnichannel for Customer Service on Unified Service Desk](omnichannel-customer-service-unified-service-desk.md)  
+[Configure recommended settings for Unified Service Desk](configure-settings-unified-service-desk.md)  

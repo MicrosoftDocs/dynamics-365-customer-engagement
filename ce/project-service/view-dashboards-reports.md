@@ -1,5 +1,5 @@
 ---
-title: View dashboards and reports 
+title: View dashboards and reports
 description: How to view dashboards and reports in Project Service
 author: JohnPBurrows
 manager: kfend
@@ -19,6 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365PS
+  - ProjectOperations
 ---
 # View dashboards and reports (Project Service)
 

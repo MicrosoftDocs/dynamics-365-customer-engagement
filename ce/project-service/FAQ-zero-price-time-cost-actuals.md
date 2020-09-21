@@ -1,16 +1,14 @@
 ---
-
-title: Why is the price defaulting to zero on time cost actuals? 
+title: Why is the price defaulting to zero on time cost actuals?
 description: Troubleshooting why a price is defaulting to 0 on time cost actuals.
 author: rumant
 manager: kfend
 ms.service: dynamics-365-customerservice
-ms.custom:
+ms.custom: 
   - dyn365-projectservice
 ms.date: 8/21/2018
 ms.topic: article
 ms.prod: Project Service
-ms.service: business-applications
 ms.technology: 
 ms.author: rumant
 audience: Admin
@@ -21,6 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365PS
+  - ProjectOperations
 ---
 
 # Why is the price defaulting to zero on time cost actuals?

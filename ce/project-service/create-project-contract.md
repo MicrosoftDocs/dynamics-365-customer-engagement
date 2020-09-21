@@ -1,5 +1,5 @@
 ---
-title: Create a project contract 
+title: Create a project contract
 description: How to create a project contract in Project Service
 author: ruhercul
 manager: kfend
@@ -19,6 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365PS
+  - ProjectOperations
 ---
 # Create a project contract (Project Service)
 

@@ -1,7 +1,7 @@
 ---
 title: "Known issues and workarounds (Dynamics 365 Marketing) | Microsoft Docs"
 description: "This article documents known issues and workarounds for Dynamics 365 Marketing"
-ms.date: 07/15/2020
+ms.date: 09/10/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -46,8 +46,8 @@ This document provides important, late-breaking information about known issues a
 
 - Metadata used for building conditions and drop-downs shown on the designer isn't localized for non-English organizations. <!-- 992449 -->
 - When trying to estimate the size of a segment where the query doesn't end in a contact, the system displays a server communication error. To correct this error, make sure your segment definition ends with a clause that links to the contact entity as described in [Design dynamic demographic or firmographic segments](segments-profile.md). <!-- 1226384 -->
-- Static segments are limited to a maximum of 1,000 members.
 - Segments that are created, activated, and exported from Customer Insights, then published in Marketing will not always display the segment members in Marketing. <!-- 1874598 -->
+- If you create a new static segment and then refresh the page before saving the segment at least once, it will revert to a dynamic segment and you'll need to start over to create a new static one. <!--- 1666195 -->
 
 ## Email marketing
 

@@ -2,7 +2,7 @@
 title: "Web API Query Data Sample (Client-side JavaScript) | MicrosoftDocs"
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: susikka
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
