@@ -22,7 +22,7 @@ search.app:
   - D365CE
   - D365Outlook
 ---
-# Run the diagnostics checker and scan for potential issues 
+# Run the App for Outlook checker to troubleshoot and resolve potential issues
 
 Use the Outlook Checker to run a diagnostic check and scan for potential issues for Dynamics 365 App for Outlook. If you run into an issue, you can send the log files to your administrator to help troubleshoot the problem.
 
