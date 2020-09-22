@@ -32,7 +32,7 @@ Once you install Power Apps mobile, find and run your app and make sure it works
 Follow the steps below to ensure a smooth transition to the new app.
 
 
-1. Download Power Apps from the [App Store](https://itunes.apple.com/app/powerapps/id1047318566?mt=8) or [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.msapps) onto an iPhone, iPad, or Android device running a [supported operating system](../maker/canvas-apps/limits-and-config.md). 
+1. Download Power Apps from the [App Store](https://itunes.apple.com/app/powerapps/id1047318566?mt=8) or [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.msapps) onto an iPhone, iPad, or Android device running a [supported operating system](https://docs.microsoft.com/powerapps/maker/canvas-apps/limits-and-config). 
 
 2. Open Power Apps on your mobile device and sign in by using your Azure Active Directory credentials. If you have the Microsoft Authenticator app installed on your mobile device, enter your username when prompted, and then approve the notification sent to your device.
 
