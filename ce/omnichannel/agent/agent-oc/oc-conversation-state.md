@@ -4,7 +4,7 @@ description: "Learn what the conversation states are in Omnichannel."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 08/26/2020
+ms.date: 10/02/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -14,19 +14,19 @@ ms.topic: article
 
 [!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
-The topic explains the various states of the conversation (work item) in Omnichannel for Customer Service.
+This topic explains the various states of the conversation (work item) in Omnichannel for Customer Service.
 
 The conversation states are as follows:
 
  - [Open](#open)
-
- - [Closed](#closed) 
+ - [Closed](#closed)
 
 A conversation can have the following status reasons:
+
 - Open
-- Active
-- Waiting
-- Wrapup
+- [Active](#active)
+- [Waiting](#waiting)
+- [Wrapup](#wrap-up)
 - Closed
 
  ![Omnichannel conversation states](../../media/oc-conversation-state1.png "Conversation states")
@@ -35,7 +35,7 @@ A conversation can have the following status reasons:
 
 ## Open
 
-The conversation (work item) that is in the queue and not assigned to you (agent) is classified under **Open** state. 
+The conversation (work item) that is in the queue and not assigned to you (agent) is classified under **Open** state.
 
 The conversation (work item) transitions from **Open** to **Active** or **Closed** under the following scenarios.
 
@@ -129,9 +129,9 @@ For the chat channel, a conversation is in open state at 1100 hours of Jan 10, 2
 
 ### Conversation in waiting
 
-For chat and SMS channel, a conversation in **Waiting** is moved to the **Closed** state when the conversation is inactive for a specified time. **Auto-close after inactivity** is the option in the work stream configuration based on which the conversation is moved to the closed state. 
+For chat and SMS channel, a conversation in **Waiting** is moved to the **Closed** state when the conversation is inactive for a specified time. The inactive time can be set in the work stream for the **Auto-close after inactivity** option, based on which the conversation will be moved to the closed state after the criteria is met.
 
-For example, set the **Auto-close after inactivity** as 5 minutes, and if the conversation is in **Waiting** state for more than 5 minutes, then the conversation is moved to the **Closed** state.
+For example, when you set **Auto-close after inactivity** to five minutes, the conversation is moved to the **Closed** state if it has been in **Waiting** for more than five minutes.
 
 To learn more, see [Create a work stream](../../administrator/work-streams-introduction.md#create-a-work-stream).
 
