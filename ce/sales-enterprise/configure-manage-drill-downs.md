@@ -1,6 +1,6 @@
 ---
-title: "Configure and manage drill downs for a forecast (Dynamics 365 Sales) | MicrosoftDocs"
-description: "Configure and manage drill downs for a forecast in Dynamics 365 Sales."
+title: "Configure and manage drill-down entities for a forecast (Dynamics 365 Sales) | MicrosoftDocs"
+description: "Configure and manage drill-down entities for a forecast in Dynamics 365 Sales."
 ms.date: 09/18/2020
 ms.service: 
   - "dynamics-365-sales"
@@ -13,11 +13,11 @@ manager: shujoshi
 ---
 
 
-<!-- editor note: "Drill down" should be used only as a verb (two words) or an adjective (hyphenated). Here and in the other topic it's used as a noun. I am updated the wording so that it is used either as a verb or adjective, so please check these changes to make sure they are accurate. Here's a link to the style guide topic: https://styleguides.azurewebsites.net/Styleguide/Read?id=2700&topicid=44385 -->
+<!-- editor note: "Drill down" should be used only as a verb (two words) or an adjective (hyphenated). Here and in the other topic it's used as a noun. I am updating the wording so that it is used either as a verb or adjective, but I'm having some trouble understanding what drill-down describes, so please check my changes. Here's a link to the style guide topic: https://styleguides.azurewebsites.net/Styleguide/Read?id=2700&topicid=44385 -->
 
 
 
-# Configure and manage drill downs
+# Configure and manage drill-down entities
 
 [!INCLUDE [cc-early-access](../includes/cc-early-access.md)]
 
@@ -32,10 +32,10 @@ As an administrator or forecast manager, you can enable and configure the drill-
 
 
 
-<!-- You might need to update the link title if the title of the following topic changes. -->
+<!-- You might need to update this link title if the title of the following topic changes. -->
 
 > [!NOTE]
-> To understand how drill-down selections are used, see [View and understand data through drill-down selections](view-understand-data-through-drill-down.md).
+> To understand how drill-down selections are used, see [View and understand data through drill-down entities](view-understand-data-through-drill-down.md).
 
 ## Things you must know
 
@@ -52,7 +52,7 @@ Before you configure a drill-down choice, we recommend you understand the follow
 
 With the forecasting feature, we have provided [out-of-the-box drill-down templates](#templates) to configure the on the rollup and hierarchy entities.
 
-To understand how you manage the drill-down feature, see [Manage drill-down options](#manage-drill-downs).
+To understand how to manage the drill-down feature, see [Manage drill-down options](#manage-drill-downs).
 
 ### Drill-down type
 
@@ -106,14 +106,14 @@ Using these templates, you can break down your forecast values by accounts, prod
 
 ### Manage drill-down options 
 
--	You can [add](#add-a-drill-down-selection) or [edit](#edit-a-drill-down-entity) drill-down choices and make them available for users even after the forecast has been activated. 
+-	You can [add](#add-a-drill-down-entity) or [edit](#edit-a-drill-down-entity) drill-down choices and make them available for users even after the forecast has been activated. 
 -	You can [delete](#delete-a-drill-down-entity) the drill-down choice if it is no longer required in a forecast. 
 
 
-<!-- I'm not certain what the drill-down is - a choice? a feature? Making a guess below. -->
+<!-- I'm not certain what the drill-down is - a choice? a feature? an entity?  -->
 
 
-## Add a drill-down selection
+## Add a drill-down entity
 
 1.	In the **Drill down** step, select **Add drill down**.
 
@@ -191,23 +191,23 @@ Using these templates, you can break down your forecast values by accounts, prod
 
 You can edit your drill-down entities for your forecast at any point in time. Follow these steps:
 
-1.	Open the forecast for which you want to edit the drill down.
+1.	Open the forecast for which you want to edit the drill-down entity.
 
 2.	On the configuration wizard, select the **Drill down** step. 
 
-3.	Select the drill down you want to edit and perform the steps 2 to 4 from [Add a drill down](#add-a-drill-down) as required.
+3.	Select the drill-down option you want to edit and perform steps 2 to 4 from [Add a drill-down entity](#add-a-drill-down-entity) as required.
 
 4.	Save and close the configuration.
 
 ## Delete a drill-down entity
 
-You can delete a drill down that is no longer required in a forecast. Follow these steps: 
+You can delete a drill-down entity that is no longer required in a forecast. Follow these steps: 
 
-1.	Open the forecast for which you want to edit the drill down.
+1.	Open the forecast for which you want to edit the drill-down entity.
 
 2.	On the configuration wizard, select the **Drill down** step. 
 
-3.	Select the drill down you want to remove and then select the **Delete** icon. The drill down is then deleted from the forecast.
+3.	Select the drill-down option you want to remove and then select the **Delete** icon. The drill-down option is then deleted from the forecast.
 
 4.	Save and close the configuration.
 
@@ -215,19 +215,19 @@ You can delete a drill down that is no longer required in a forecast. Follow the
 
 Understand the relationships many-to-1 and 1-to-many in detail:
 
-**In drill down type**
+**In drill-down type**
 
-- **Many-to-1 relationship entity**: The drill downs that are defined based on many-to-1 relationship with rollup entity are simpler to configure as the drill down entity is directly related to rollup entity, and an intermediary relationship needs to be established. For example, if you select the rollup entity as Opportunity and the drill down entity as Account, the relationship rollup entity (Opportunity) has Many-to-1 relationship with the drill down entity (Account) and this type of drill downs are easy to break into groups. 
+- **Many-to-1 relationship entity**: The drill-down types that are defined based on a many-to-1 relationship with rollup entity are simpler to configure because the drill-down entity is directly related to the rollup entity, and an intermediary relationship needs to be established. For example, if you select the rollup entity as Opportunity and the drill-down entity as Account, the relationship rollup entity (Opportunity) has a many-to-1 relationship with the drill-down entity (Account) and this type of drill-down entity is easy to break into groups. 
 
-- **1-to-many relationship entity**: The drill downs that are defined based on 1-to-many relationship with rollup entity are often complex to break as the drill down entity is a related entity of rollup entity. For example, if you select the rollup entity as Opportunity and the drill down entity as Product, the relationship rollup entity (Opportunity) has 1-to-many relationship with the drill down entity (Product) and this type of drill downs are complex to break into groups.
+- **1-to-many relationship entity**: The drill-down types that are defined based on a 1-to-many relationship with rollup entity are often complex to break because the drill-down entity is a related entity of the rollup entity. For example, if you select the rollup entity as Opportunity and the drill-down entity as Product, the relationship rollup entity (Opportunity) has a 1-to-many relationship with the drill-down entity (Product) and this type of drill-down entity is complex to break into groups.
 
 **In account entity**
 
-- If the selected drill down entity has many-to-1 relationship with rollup entity and the amount entity is same as rollup entity, the amount fields are automatically configured as these values are taken from the amount fields that are configured in forecast columns. These amount fields can’t be edited. For example, if you select Account as the drill down entity and rollup entity as Opportunity. Select the amount entity as Opportunity, which is same as the rollup entity. For each column, the amount fields are automatically taken from the amount fields that are used while configuring the forecast columns.
+- If the selected drill-down entity has a many-to-1 relationship with a rollup entity and the amount entity is the same as the rollup entity, the amount fields are automatically configured because these values are taken from the amount fields that are configured in forecast columns. These amount fields can’t be edited—for example, if you select Account as the drill-down entity and the rollup entity as Opportunity. Select the amount entity as Opportunity, which is the same as the rollup entity. For each column, the amount fields are automatically taken from the amount fields that are used while configuring the forecast columns.
 
-- If the selected drill down entity has 1-to-many relationship with rollup entity and the amount entity is different from the rollup entity, the amount fields must be manually configured. After you select the amount entity, the possible amount fields that are used to aggregate the rollup columns are displayed. For example, if you select Product as drill down and rollup entity is Opportunity, the amount fields for the product are available in Opportunity Product entity and is selected as amount entity. 
+- If the selected drill-down entity has a 1-to-many relationship with a rollup entity and the amount entity is different from the rollup entity, the amount fields must be manually configured. After you select the amount entity, the possible amount fields that are used to aggregate the rollup columns are displayed. For example, if you select Product as a drill-down entity and the rollup entity is Opportunity, the amount fields for the product are available in the Opportunity Product entity and are selected as the amount entity. 
 
-To learn more on entity relationships, see [Entity relationships](https://docs.microsoft.com/powerapps/maker/common-data-service/create-edit-entity-relationships).
+To learn more about entity relationships, go to [Entity relationships](https://docs.microsoft.com/powerapps/maker/common-data-service/create-edit-entity-relationships).
 
 
 <table>
@@ -247,6 +247,6 @@ To learn more on entity relationships, see [Entity relationships](https://docs.m
 
 ### See also
 
-[View and understand data through drill down](view-understand-data-through-drill-down.md)
+[View and understand data through drill-down entities](view-understand-data-through-drill-down.md)
 
 [Configure forecasts in your organization](configure-forecast.md)
