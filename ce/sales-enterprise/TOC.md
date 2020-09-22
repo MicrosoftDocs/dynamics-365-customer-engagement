@@ -236,6 +236,7 @@
 
 ### Custom actions
 #### [Overview](../sales-enterprise/developer/reference/custom-actions-manual-forecasting.md)
+#### [getFormContext](../sales-enterprise/developer/reference/custom-actions/getFormContext.md)
 #### [DeleteOQOILineWithSkipPricingCalculation](../sales-enterprise/developer/reference/custom-actions/deleteoqoilinewithskippricingcalculation.md)
 #### [exportPdf action](../sales-enterprise/developer/exportpdf-api.md)
 
