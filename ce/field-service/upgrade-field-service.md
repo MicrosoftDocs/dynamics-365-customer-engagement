@@ -3,7 +3,7 @@ title: "Upgrade Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn how to upgrade Dynamics 365 Field Service.
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 09/11/2020
+ms.date: 09/21/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -58,20 +58,25 @@ Go to **Admin**.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the admin option](./media/upgrade-admin.png)
 
-Then go to the Dynamics 365 Admin Center.
+Then go to the Dynamics 365 Admin Center. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Dynamics 365 admin center](./media/upgrade-admin-d365.png)
 
-Select and highlight the environment that has the Field Service app you want to upgrade.
+
+
+You can also go directly to [https://admin.powerplatform.microsoft.com/environments](https://admin.powerplatform.microsoft.com/environments)
+
+Select and highlight the environment that has the Field Service app you want to upgrade and in the top ribbon select **Resources > Dynamics 365 apps**. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Dynamics 365 admin center ](./media/upgrade-admin-environment.png)
+> ![Screenshot of the Dynamics 365 admin center ](./media/upgrade-fs-new-ppac.jpg)
 
-In the list of solutions, find and select the Field Service app. It will indicate if an upgrade is available. Then select the **Upgrade** icon.
+In the list of solutions, find and select the Field Service app. It will indicate if an upgrade is available. Then select the **Update** in the top.
+
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a list of solutions in the admin center noting there's an upgrade available for Field Service](./media/admin-upgrade-to-latest-admin-center.png)
+> ![Screenshot of a list of solutions in the admin center noting there's an upgrade available for Field Service](./media/upgrade-fs-new-popup.jpg)
 
 
 In addition, once your organization begins receiving automatic updates with version **8.8.6+**, you can manually upgrade the app in the seven days between the update release and when the automatic update applies. This is done via the admin center process above.
