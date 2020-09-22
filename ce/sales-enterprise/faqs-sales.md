@@ -16,15 +16,23 @@ manager: shubhadaj
 
 **Question**:<br>Why are **Follow** and **Unfollow** buttons displayed together on the command bar?
 
-**Answer**:<br>This is a by-design behavior. If you navigate to an entity in Unified Interface and select a record, the **Follow** and **Unfollow** buttons are displayed together on the command bar even if the selected record is in the same state of being follows or unfollwed.
+**Answer**:<br>This is a by-design behavior. If you navigate to an entity in Unified Interface and select a record, the **Follow** and **Unfollow** buttons are displayed together on the command bar even if the selected record is in the same state of being followed or not followed.
 
-**Question**:<br>Why are appointments saved automatically even if system administrator has added a custom script to stop auto save?
+**Question**:<br>If the SchedulingEngine feature is enabled for appointments, why am I redirected to the default tab in an appointment when I save from a non-default tab?
+
+**Answer**:<br>This is a by-design behavior. When you save an appointment from a non-default tab, you are redirected to the default environment when the appointment is saved.
+
+**Question**:<br>If the SchedulingEngine feature is enabled for appointments, why are appointments saved automatically even if the system administrator has added a custom script to stop auto save?
 
 **Answer**:<br>If your system administrator has added a custom script to prevent the default save option for appointments, the system will still override the custom script and save the appointments automatically.
 
-**Question**:<br>Why the **Open Record Set** button disappears when an appointment is saved?
+**Question**:<br>If the SchedulingEngine feature is enabled for appointments, why the **Open Record Set** button disappears when an appointment is saved?
 
 **Answer**:<br>When you select the **Save** button to save an appointment the [Open Record Set](https://docs.microsoft.com/powerapps/user/navigation#record-set-navigation) button disappears. You can refresh the page and the **Open Record Set** button will appear again.
+
+**Question**:<br>Why are the synchronized appointments from Outlook shown as not saved in Dynamics 365?
+
+**Answer**:<br>You can create an appointment in Outlook and then track it to synchronize it with Dynamics 365. If auto-save is enabled and you open the appointment in Dynamics 365, the changes are shown as unsaved. You can disable auto-save to see the changes synchronized from Outlook and saved to Dynamics 365.
 
 **Question**:<br>Why can't I see the What's new functionality in the Unified Interface?
 
