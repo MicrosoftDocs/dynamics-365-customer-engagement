@@ -72,20 +72,36 @@ The September update includes email designer enhancements, social posting improv
 ### Bug fixes
 
 - **Customer journeys**
-
+    - Fixed an error that occasionally caused a subscription list selected in a segment tile to not populate the tile name.
+    - Improved ability to reuse segments between iterations of customer journeys.
+    - Fixed an issue that occasionally prevented deactivation and deletion of a subscription marketing list.
+    - Fixed an error that caused no "OK" button to appear in a warning dialog regarding marketing list deactivation.
 - **Event management**
     - Fixed an error where sessions were occasionally displayed for registrations for events without sessions.
+    - Improved resolved an error that sometimes caused business process flows to not copy correctly when creating an event from a template.
+- **First run experience**
+    - Resolved an issue that sometimes prevented upgrades to solution-only environments.
 - **Marketing emails**
     - Resolved an error where email sections with top or bottom padding did not render background images properly.
     - Fixed an issue with CKEditor where images did not render properly if a width and height was not specified.
+    - Improved column width rendering in Outlook.
+    - Improved handling of transparent background images in Outlook.
+    - Improved handling of backgrounds with both a background color and an image in Outlook.
+    - Improved image height rendering in Outlook.
 - **Marketing pages**
-
+    - Improved domain validation reliability.
+    - Improved UI functionality when adding form fields from the "Field" lookup.
+    - Fixed an error that prevented some installs from going live with the default marketing page because of a duplicate partial URL.
+    - Resolved an issue that prevented form allow list migration when the domain records were already in the customer cache.
 - **Segmentation**
-
+    - Resolved an error that sometimes caused Export to Excel functionality to fail.
+    - Fixed an error that sometimes prevented the segment members tab from loading properly.
+    - Improved language compatibility in segment form error messages.
 - **Shared UX**
-
+    - Improved handling of height and width settings of images in text elements.
+    - Resolved an error that deleted other images when deleting an image added from CKEditor.
 - **Social posting**
-
+    - Resolved an issue where a LinkedInLeadGen patch was deleting upgrade logs.
 
 ## August 2020 update
 
