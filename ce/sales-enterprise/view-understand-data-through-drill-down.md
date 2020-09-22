@@ -29,7 +29,7 @@ Through a forecast, you'll have visibility into the pipeline amounts that your s
 By viewing drill-down data, you can understand how the records in each group are performing and set the next course of action. This helps you to plan better and achieve the targets as set in the forecast.
 
 
-<!-- Please ensure that Amber Rodriguez and Kevin Smith are from an approved fictitious names list. -->
+<!-- Just a reminder that Amber Rodriguez and Kevin Smith should be from an approved fictitious names list. (Looks like they are, so I'm not worried.) -->
 
 
 Let’s look at an example. **Amber Rodriguez** is a seller who's associated with four accounts. Her projected revenue for the current period is $400,000. **Kevin Smith**, her sales manager, wants to understand how her revenue of $400,000 is broken down by each account. On the forecast page, Kevin chooses the Account drill-down option from the drop-down menu. Then he selects the drill-down icon beside Amber’s record to view a list of accounts that make each of Amber’s forecast pipeline values.
