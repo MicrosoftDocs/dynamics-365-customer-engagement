@@ -106,8 +106,8 @@ Using these templates, you can break down your forecast values by accounts, prod
 
 ### Manage drill-down options 
 
--	You can [add](#add-a-drill-down-selection) or [edit]() drill-down choices and make them available for users even after the forecast has been activated. 
--	You can [delete]() the drill-down choice if it is no longer required in a forecast. 
+-	You can [add](#add-a-drill-down-selection) or [edit](#edit-a-drill-down-entity) drill-down choices and make them available for users even after the forecast has been activated. 
+-	You can [delete](#delete-a-drill-down-entity) the drill-down choice if it is no longer required in a forecast. 
 
 
 <!-- I'm not certain what the drill-down is - a choice? a feature? Making a guess below. -->
@@ -165,27 +165,31 @@ Using these templates, you can break down your forecast values by accounts, prod
        
 4.	In the **Entity relationship** section, select the relationship as described if:
 
-    -	**Amount and rollup entities are the same**: Select the **Amount entity to drill down entity relationship** from the drop-down menu to establish a relationship between the drill down and amount entities.
-        
-        In this example, the amount entity is **Opportunity** that is also the rollup entity and the drill down entity is **Account**. A relationship between amount and drill down entities can be established through the **Account** attribute. The relationship is mapped as *Opportunity > Account (Account) > Account*. The mapping specifies that the **Opportunity** and **Account** entities can be connected by the shared attribute **Account**. 
 
-    -	**Amount and rollup entities are different**: If the amount entity is different from the rollup entity, you must establish a relationship between amount and rollup entities. Then you must establish a relationship between the amount and drill down entities. Select **Amount to rollup entity relationship** from the drop-down menu to establish a relationship between amount and rollup entities. The values displayed in the list are based on the selected amount entity. 
+    <!-- editor comment: I'm confused here, because the previous sentence says to select the relationship as described if" and then gives two choices. Are these the only two choices, or are there other choices, in which case you would do something different? --> 
+
+
+    -	**Amount and rollup entities are the same**: Select the **Amount entity to drill down entity relationship** from the drop-down menu to establish a relationship between the drill-down and amount entities.
         
-        In this example, the amount entity is **Opportunity Product** and relationship is established through **Opportunity**. Select **Amount** entity to drill down entity relationship attribute to establish a relationship between the drill down and amount entities. The values displayed in the list are also based on the selected amount entity. 
+        In this example, the amount entity is **Opportunity**, which is also the rollup entity, and the drill-down entity is **Account**. A relationship between amount and drill-down entities can be established through the **Account** attribute. The relationship is mapped as **Opportunity** > **Account (Account)** > **Account**. The mapping specifies that the **Opportunity** and **Account** entities can be connected by the shared attribute **Account**. 
+
+    -	**Amount and rollup entities are different**: If the amount entity is different from the rollup entity, you must establish a relationship between amount and rollup entities. Then you must establish a relationship between the amount and drill-down entities. Select **Amount to rollup entity relationship** from the drop-down menu to establish a relationship between amount and rollup entities. The values displayed in the list are based on the selected amount entity. 
         
-        The amount entity is **Opportunity Product** and relationship is established through **Product** attribute. The relationship is mapped as **Opportunity Product > Existing Product (Product) > Product**. The mapping specifies that there is an attribute **Product** in the **Opportunity Product** entity that's related to the **Existing Product** entity that in turn is related to **Product** attribute. 
+        In this example, the amount entity is **Opportunity Product** and relationship is established through **Opportunity**. Select **Amount** entity to drill-down entity relationship attribute to establish a relationship between the drill-down and amount entities. The values displayed in the list are also based on the selected amount entity. 
+        
+        The amount entity is **Opportunity Product** and relationship is established through the **Product** attribute. The relationship is mapped as **Opportunity Product** > **Existing Product (Product)** > **Product**. The mapping specifies that there is an attribute **Product** in the **Opportunity Product** entity that's related to the **Existing Product** entity that in turn is related to the **Product** attribute. 
 
         > [!div class="mx-imgBorder"]
         > ![Entity relationships](media/forecast-drill-down-entity-relationship.png "Entity relationships")        
 
-    To learn more, see [Entity relationship](#entity-relationship).
+    To learn more, go to [Entity relationship](#entity-relationship).
 
 <a name="step-5"> </a> 
 5.	Save and select **Next**.
 
-## Edit a drill down
+## Edit a drill-down entity
 
-You can edit your drill downs for your forecast at any point in time. Follow these steps:
+You can edit your drill-down entities for your forecast at any point in time. Follow these steps:
 
 1.	Open the forecast for which you want to edit the drill down.
 
@@ -195,7 +199,7 @@ You can edit your drill downs for your forecast at any point in time. Follow the
 
 4.	Save and close the configuration.
 
-## Delete a drill down
+## Delete a drill-down entity
 
 You can delete a drill down that is no longer required in a forecast. Follow these steps: 
 
