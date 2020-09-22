@@ -25,7 +25,7 @@ search.app:
 
 # How to migrate from Dynamics 365 phones and tablets app to the Power Apps mobile app 
 
-Users on the Dynamics 365 phones and tablets app can now use the [Power Apps mobile app](https://docs.microsoft.com/powerapps/user/run-canvas-and-model-apps-on-mobile).
+Users on the Dynamics 365 phones and tablets app can now use the [Power Apps mobile](https://docs.microsoft.com/powerapps/user/run-canvas-and-model-apps-on-mobile) app.
 
 Once you install Power Apps mobile, find and run your app and make sure it works properly.
 
