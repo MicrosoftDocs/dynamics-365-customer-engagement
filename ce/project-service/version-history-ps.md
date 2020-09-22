@@ -2,12 +2,11 @@
 title: Update release schedule for Project Service 3.x
 description: This topic provides information about the available and upcoming releases of Dynamics 365 Project Service Automation.
 ms.custom: dyn365-projectservice
-ms.date: 08/10/2020
+ms.date: 09/18/2020
 ms.reviewer: kfend
 ms.service: dynamics-365-projectservice
 ms.suite: ""
 ms.technology: 
-  - "project-service"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
@@ -49,16 +48,16 @@ For information about updates to Project Service, see the [Dynamics 365 release 
 | | <i>South Africa</i> | [3.10.34.30](whats-new-ur-23.md) | TBD | October 2, 2020
 | | <i>Germany</i> | [3.10.34.30](whats-new-ur-23.md) | TBD | October 2, 2020
 |<strong>Station 3</strong> | |  |  | |
-| | <i>Japan</i> |[3.10.33.48](whats-new-ur-22.md) | [3.10.34.30](whats-new-ur-23.md) | September 4, 2020 
-| | <i>Asia Pacific</i> |[3.10.33.48](whats-new-ur-22.md)| [3.10.34.30](whats-new-ur-23.md) |  September 4, 2020
-| | <i>Great Britain</i> |[3.10.33.48](whats-new-ur-22.md)| [3.10.34.30](whats-new-ur-23.md) |  September 4, 2020
-| | <i>Oceana</i> |[3.10.33.48](whats-new-ur-22.md)| [3.10.34.30](whats-new-ur-23.md) |  September 4, 2020
+| | <i>Japan</i> |[3.10.34.30](whats-new-ur-23.md) | TBD | October 9, 2020 
+| | <i>Asia Pacific</i> |[3.10.34.30](whats-new-ur-23.md) | TBD | October 9, 2020
+| | <i>Great Britain</i> |[3.10.34.30](whats-new-ur-23.md) | TBD | October 9, 2020
+| | <i>Oceana</i> |[3.10.34.30](whats-new-ur-23.md) | TBD | October 9, 2020
 |<strong>Station 4</strong> | |  |  | |
-| | <i>Europe</i> | [3.10.33.48](whats-new-ur-22.md)| [3.10.34.30](whats-new-ur-23.md) |  September 11, 2020
+| | <i>Europe</i> |[3.10.34.30](whats-new-ur-23.md) | TBD | October 16, 2020
 |<strong>Station 5</strong> | |  |  | |
-| | <i>North America</i> |[3.10.33.48](whats-new-ur-22.md)| [3.10.34.30](whats-new-ur-23.md) | September 18, 2020
+| | <i>North America</i> |[3.10.34.30](whats-new-ur-23.md) | TBD | October 23, 2020
 |<strong>Station 6</strong> | |  |  | |
-| | <i>Government Community Cloud</i> |[3.10.33.48](whats-new-ur-22.md)|  [3.10.34.30](whats-new-ur-23.md)  | September 18, 2020
+| | <i>Government Community Cloud</i> |[3.10.34.30](whats-new-ur-23.md) | TBD | October 30, 2020
 
 >[!Note]
 > - Dates in all regions except Government Community Cloud (GCC) indicate the timing of the next automatic update. Dates in GCC indicate version availability; at this time, there is no automatic update for these regions.

@@ -606,13 +606,6 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related entity. Listed by **SchemaName**.
 
-- [msdyn_msdyn_provider_msdyn_channelcapability_Provider](#BKMK_msdyn_msdyn_provider_msdyn_channelcapability_Provider)
-- [msdyn_msdyn_conversationaction_msdyn_channelcapability_ConversationAction](#BKMK_msdyn_msdyn_conversationaction_msdyn_channelcapability_ConversationAction)
-
-
-### <a name="BKMK_msdyn_msdyn_provider_msdyn_channelcapability_Provider"></a> msdyn_msdyn_provider_msdyn_channelcapability_Provider
-
-See msdyn_provider Entity [msdyn_msdyn_provider_msdyn_channelcapability_Provider](msdyn_provider.md#BKMK_msdyn_msdyn_provider_msdyn_channelcapability_Provider) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_msdyn_conversationaction_msdyn_channelcapability_ConversationAction"></a> msdyn_msdyn_conversationaction_msdyn_channelcapability_ConversationAction
 

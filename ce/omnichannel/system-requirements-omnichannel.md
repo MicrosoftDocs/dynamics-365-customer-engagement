@@ -8,7 +8,7 @@ applies_to:
   - ""
 ms.date: 08/20/2020
 ms.service: 
-  - "dynamics-365-customerservice"
+  "dynamics-365-customerservice"
 ms.topic: article
 ms.custom: 
   - ""
@@ -83,6 +83,10 @@ If your organization is using a URL filter to block a category of websites or UR
 
 Add the following URLs for your users to access the Omnichannel for Customer Service app and live chat widget in the portal:
 
+-
+- `https://login.microsoft.net`
+- `https://login.microsoftonline.com`
+- `https://login.windows.net`
 - `https://*.teams.microsoft.com`
 - `https://ecs.office.com`
 - `https://*.skype.com`

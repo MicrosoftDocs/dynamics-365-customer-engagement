@@ -44,7 +44,7 @@ After tenant to tenant migration, the Marketing instance will be in the followin
 ### See also
 
 [Tenant to tenant migration](https://docs.microsoft.com/dynamics365/admin/move-instance-tenant)<br>
-[Manage your Marketing instances](manage-marketing-instances.md)<br> 
+[Manage your Marketing environments](manage-marketing-environments.md)<br> 
 [Transfer data between instances](transfer-data.md)<br>
 [Transfer customizations between instances](transfer-solution.md)<br>
 [Administer Power Apps](https://docs.microsoft.com/power-platform/admin/admin-guide)<br>

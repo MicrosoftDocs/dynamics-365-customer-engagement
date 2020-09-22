@@ -59,6 +59,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [msdyn_analyticsId](#BKMK_msdyn_analyticsId)
+- [msdyn_ispaasenabled](#BKMK_msdyn_ispaasenabled)
 - [msdyn_KeyvaultUri](#BKMK_msdyn_KeyvaultUri)
 - [msdyn_nativeappid](#BKMK_msdyn_nativeappid)
 - [msdyn_ocanalyticspreviewenable](#BKMK_msdyn_ocanalyticspreviewenable)
@@ -104,6 +105,31 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Uniqueidentifier|
 
 
+### <a name="BKMK_msdyn_ispaasenabled"></a> msdyn_ispaasenabled
+
+**Added by**: Omnichannel - Base Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Use preconfigured Power BI workspace|
+|DisplayName|Use preconfigured Power BI workspace|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_ispaasenabled|
+|RequiredLevel|None|
+|Type|Boolean|
+
+#### msdyn_ispaasenabled Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
+
+**DefaultValue**: False
+
+
+
 ### <a name="BKMK_msdyn_KeyvaultUri"></a> msdyn_KeyvaultUri
 
 |Property|Value|
@@ -142,8 +168,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Enable for multi-session experience|
-|DisplayName|Enable for multi-session experience|
+|Description|This will create the intraday insights tab for supervisors|
+|DisplayName|Show intraday insights|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|msdyn_ocanalyticspreviewenable|
