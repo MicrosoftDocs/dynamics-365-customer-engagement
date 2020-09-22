@@ -3,7 +3,7 @@ title: "Create a theme for your portal | MicrosoftDocs"
 description: "Instructions to create a theme for your portal quickly and easily brand these portals for your organization."
 ms.custom: 
   - dyn365-portal
-ms.date: 02/07/2020
+ms.date: 09/22/2020
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
