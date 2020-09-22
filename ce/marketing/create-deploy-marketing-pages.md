@@ -2,7 +2,7 @@
 title: "Design, check, and publish marketing pages (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to design and deploy landing, forwarding, and subscription pages in Dynamics 365 Marketing"
 keywords: landing page; subscription center; forward to a friend; form; field; matching
-ms.date: 09/15/2020
+ms.date: 09/22/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -98,7 +98,9 @@ After choosing a template, you'll be in the page content designer, which resembl
 
 - When you select a design element on the canvas, you'll usually see a pop-up toolbar just above the element. The tools it offers vary depending on which type of design element you've selected. The toolbar typically provides commands to move, copy, or delete the selected element. For text elements, the toolbar offers commands for applying basic text formatting as you would in Microsoft Word.
 
-- To style the overall page with basic fonts, colors, and background, open the **Content** > **Designer** > **Styles** tab.
+- To style the overall page with basic fonts, colors, and background, select anywhere in the background of your marketing page in the designer. After you select the background, the **Properties** tab will display **General layout** options.
+
+    ![General layout options](media/marketing-pages-general-layout2.png "General layout options")
 
 - Use the **Designer** > **HTML** tab to edit the raw HTML directly. You might use this to paste in an existing HTML design, or to fine-tune the code in ways the graphical editor doesn't support (such as custom attributes or logic).
 
