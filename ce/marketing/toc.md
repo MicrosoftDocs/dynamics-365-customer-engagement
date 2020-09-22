@@ -159,7 +159,7 @@
 #### [Use Customer Insights segments in Marketing](customer-insights-segments.md)
 
 ### Work with customer journeys
-#### [Preview: Create a customer journey using the new canvas experience](customer-journey.md)
+#### [Early access: Create a customer journey using the new canvas experience](customer-journey.md)
 #### [Create automated campaigns with customer journeys](customer-journeys-create-automated-campaigns.md)
 #### [Export to Excel for further analysis](export-journey.md)
 #### [Set expiration dates for emails](email-expire.md)

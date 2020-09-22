@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 09/21/2020
+ms.date: 09/22/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -57,7 +57,7 @@ The September update includes email designer enhancements, social posting improv
     - [Docs](customer-journey.md)
 - **Collect data from form submissions more easily with expanded entity options**
     - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/capture-data-more-easily-simplified-forms-requirements)
-    - [Docs](marketing-forms.md#do-not-createupdate-contacts-or-leads)
+    - [Docs](marketing-forms.md#early-access-do-not-createupdate-contacts-or-leads)
 
 ### Monthly enhancements
 
