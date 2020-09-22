@@ -136,7 +136,7 @@ Legend:
 1. **Marketing page**: Shows a marketing page dependency.
 1. **Event**: Shows an event dependency.
 1. **Voice of the Customer survey**: Shows a Voice of the Customer survey dependency.
-1. **Customer Voice survey**: Shows a Customer Voice survey dependency.
+1. **Dynamics 365 Customer Voice survey**: Shows a Dynamics 365 Customer Voice survey dependency.
 1. **Marketing form**: Shows a marketing form dependency.
 
 For even more information about what happened on a tile, select it from the pipeline and look at the **Data** panel. The information shown here depends on the tile type.
