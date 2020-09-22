@@ -52,7 +52,7 @@ Before you configure a drill-down choice, we recommend you understand the follow
 
 With the forecasting feature, we have provided [out-of-the-box drill-down templates](#templates) to configure the on the rollup and hierarchy entities.
 
-To understand how to manage the drill-down feature, see [Manage drill-down options](#manage-drill-downs).
+To understand how to manage the drill-down feature, see [Manage drill-down options](#manage-drill-down-options).
 
 ### Drill-down type
 
@@ -125,7 +125,7 @@ Using these templates, you can break down your forecast values by accounts, prod
 
 2.	In the **General properties** section, choose the drill-down type.
 
-    To learn more, see [Drill-down type]((#drill-down-type)).
+    To learn more, see [Drill-down type](#drill-down-type).
 
     -	**Drill down by entity**: Displays a list of entities that are directly related to the rollup entity and its related entity.
         
@@ -150,8 +150,8 @@ Using these templates, you can break down your forecast values by accounts, prod
       -	For **Best case**, **Committed**, **Omitted**, and **Pipeline** as **Est. Revenue**.
       -	For **Won** and **Lost** as **Actual Revenue**.
 
-      > [!div class="mx-imgBorder"]
-      > ![Account field autoselection](media/forecast-drill-down-account-field-auto-selection.png "Account field autoselection")     
+        > [!div class="mx-imgBorder"]
+        > ![Account field autoselection](media/forecast-drill-down-account-field-auto-selection.png "Account field autoselection")     
 
     -	If the amount and rollup entities are different, you must manually configure the amount fields. Select and add the appropriate amount field for each forecast column from the drop-down list in the Amount field. In this example, the amount entity is selected as **Opportunity product** and is different from the rollup entity. Therefore, the amount fields for each forecast column are selected manually as **Extended Amount**.
         
@@ -234,7 +234,7 @@ To learn more about entity relationships, go to [Entity relationships](https://d
 <tr><td>
 
 > [!div class="nextstepaction"] 
-> [Previous step: Apply additional filter](add-additional-filters.md)
+> [Previous step: Apply additional filters](add-additional-filters.md)
 </td><td>
 
 > [!div class="nextstepaction"] 
