@@ -35,7 +35,7 @@ As a supervisor, you see the following tabs when you open the Omnichannel for Cu
 
 - **Omnichannel intraday insights dashboard**: This tab provides an overview of information about the health and KPIs of agents in your organization. The information in this dashboard is displayed based on the last 24 hours conversations. To learn more, see [Omnichannel intraday insights dashboard](intraday-insights-dashboard.md).
 
-- **Ongoing Conversations dashboard**: This tab provides information about the conversations that agents are handling and are in active, open, wrap up, and waiting states. To learn more, see [Ongoing Conversations dashboard](ongoing-conversations-dashboard.md).
+- **Ongoing Conversations dashboard**: This tab provides information about the conversations that agents are handling and are in active, open, wrap up, and waiting status reason. To learn more, see [Ongoing Conversations dashboard](ongoing-conversations-dashboard.md).
 
 > [!NOTE]
 > Contact your system administrator, for configuration errors or if you are unable to view the dashboards. to learn more, see [Configure to view intraday insights dashboard](../administrator/configure-intraday-dashboard-supervisor.md).
