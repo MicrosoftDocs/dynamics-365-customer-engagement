@@ -1,6 +1,6 @@
 ---
-title: "View and understand drill down in a forecast (Dynamics 365 Sales) | MicrosoftDocs"
-description: "View and understand drill down in a forecast in Dynamics 365 Sales."
+title: "View and understand data through drill-down entities (Dynamics 365 Sales) | MicrosoftDocs"
+description: "View and understand drill-down entities in a forecast in Dynamics 365 Sales."
 ms.date: 09/18/2020
 ms.service: 
   - dynamics-365-sales
@@ -13,11 +13,11 @@ manager: shujoshi
 ---
 
 
-<!-- editor comment: The title appears to use "drill down" as a noun, but the style guide shows it only as a verb (two words) or an adjective (hyphenated). Perhaps it could change to "by drilling down" or "by using the drill-down feature." -->
+<!-- editor comment: The title appears to use "drill down" as a noun, but the style guide shows it only as a verb (two words) or an adjective (hyphenated). Perhaps it could change to "by drilling down" or "through drill-down entities"? I'm guessing because I'm not certain what drill-down describes.  -->
 
 
 
-# View and understand data through drill down
+# View and understand data through drill-down entities
 
 [!INCLUDE [cc-early-access](../includes/cc-early-access.md)]
 
@@ -101,6 +101,10 @@ To learn more about the underlying opportunities, go to [View and manage underly
 
 ## See also
 
+
+<!-- note that I updated the title of the second link based on the change I made to that topic. If that title doesn't stick, we need to change it here, too. -->
+
+
 [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md) 
 
-[Configure and manage drill downs](configure-manage-drill-downs.md)
+[Configure and manage drill-down entities](configure-manage-drill-downs.md)
