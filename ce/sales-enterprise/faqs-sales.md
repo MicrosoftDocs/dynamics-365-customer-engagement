@@ -36,7 +36,30 @@ manager: shubhadaj
 
 **Question**:<br>Why can't I see the What's new functionality in the Unified Interface?
 
-**Answer**:<br>The What's new functionality is only available in the legacy web client. However, you can see it in the timeline control of all entities.
+**Answer**:<br>This is a by-design behavior. The What's new functionality is only available in the legacy web client. The equivalent in the Unified Interface is to insert the Timeline control (with posts enabled) on the dashboard.
+
+To insert the Timeline control on dashboard:
+
+1. In your app, select the **Settings** icon, and then select **Advanced Settings**.
+
+    The **Business Management** page opens in a new browser tab.
+
+2. On the navigation bar, select **Settings**, and then under **Customization**, select **Customizations**.
+
+3. Select **Customize the System**.
+
+4. Under **Components** in the solution explorer, select **Dashboards**.
+
+5. Select and open the dashboard in which you want to add the Timeline control.
+
+6. On the toolbar at the top of the page, select **Timeline**.
+
+7. In the **Timeline Control Properties** dialog box, update the values as required, and then select **OK**.
+
+8. Save the dashboard and publish the customization.
+
+    The Timeline control will be available on the dashboard.
+
 
 ## Entity: Opportunity
 
