@@ -3,7 +3,6 @@ title: "Activate and upload simple columns data for a forecast (Dynamics 365 Sal
 description: "Activate and upload simple columns data for a forecast in Dynamics 365 Sales."
 ms.date: 02/03/2020
 ms.service:
-  - "dynamics-365-sales"
 ms.topic: article
 author: udaykirang
 ms.author: udag
