@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 09/22/2020
+ms.date: 09/23/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -81,6 +81,8 @@ The September update includes email designer enhancements, social posting improv
     - Improved resolved an error that sometimes caused business process flows to not copy correctly when creating an event from a template.
 - **First run experience**
     - Resolved an issue that sometimes prevented upgrades to solution-only environments.
+- **Lead management**
+    - Addressing [user feedback](https://experience.dynamics.com/ideas/idea/?ideaid=1c121690-48b2-ea11-8b71-0003ff68c1c4), lead scores for new lead scoring models are now reset and re-calculated when the underlying entity record is modified.
 - **Marketing emails**
     - Resolved an error where email sections with top or bottom padding did not render background images properly.
     - Fixed an issue with CKEditor where images did not render properly if a width and height was not specified.
