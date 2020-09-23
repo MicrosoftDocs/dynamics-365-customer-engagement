@@ -1,7 +1,7 @@
 ---
 title: "Frequently asked questions (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Frequently asked questions for Dynamics 365 Sales"
-ms.date: 04/30/2020
+ms.date: 09/23/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
@@ -32,7 +32,7 @@ manager: shubhadaj
 
 **Question**:<br>Why are the synchronized appointments from Outlook shown as not saved in Dynamics 365?
 
-**Answer**:<br>You can create an appointment in Outlook and then track it to synchronize it with Dynamics 365. If auto-save is enabled and you open the appointment in Dynamics 365, the changes are shown as unsaved. You can disable auto-save to see the changes synchronized from Outlook and saved to Dynamics 365.
+**Answer**:<br>When you create an appointment or edit any existing appointment in Outlook and synchronize it with Dynamics 365, the appointment is created in Dynamics 365 but is shown as not saved. You can disable the auto-save option in Dynamics 365 to see the synchronized appointments from Outlook saved into Dynamics 365.
 
 **Question**:<br>Why can't I see the What's new functionality in the Unified Interface?
 
