@@ -164,7 +164,9 @@ At this point, you might not get any instances in your response as there are non
   
 ### Create a business process flow entity record (process instance) 
 
-Create a business process flow entity record (process instance) programmatically if you want to switch to another business process flow for an entity record without using the UI. 
+Create a business process flow entity record (process instance) programmatically if you want to switch to another business process flow for an entity record without using the UI.
+> (!NOTE)
+> When you create a record in the Unified Interface and you do not want to have a Business Process Flow associated to the record, create an onload script an use the setActiveProcess and use an empty processID (GUID). Code Example formcontext.data.process.setActiveProcess('00000000-0000-0000-0000-000000000000', (a)=>{​​alert("changed -- " + a)}​​)
 
 To create a business process flow entity record, you need to specify the following values: 
 - Associate the business process flow entity record to a primary entity record by setting the single-valued navigation property using the `@odata.bind` annotation. To find out the navigation-property name that points to the primary entity record for your business process flow definition, use the [CSDL $metadata document](/powerapps/developer/common-data-service/webapi/web-api-types-operations#csdl-metadata-document). 
