@@ -1,7 +1,7 @@
 ---
 title: "Provision your Dynamics 365 Sales Professional environment (Dynamics 365 Sales Professional) | MicrosoftDocs"
 description: "Learn about the standard and advanced settings in Dynamics 365 Sales Professional."
-ms.date: 09/16/2020
+ms.date: 09/23/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
@@ -44,10 +44,7 @@ To provision a new Dynamics 365 environment:
 
     The Power Platform admin center opens.
 
-4.	If you have a Dynamics 365 environment already, but are eligible for a new Dynamics 365 environment, you'll see an option to configure the environment. Select **Configure**.
-
-    > [!div class="mx-imgBorder"]
-    > ![Configure option on Dynamics 365 admin center](media/dynamics365-admin-center-with-configure-option.png "Configure option on Dynamics 365 admin center")
+4.	If you already have a Dynamics 365 environment and want to install Sales Professional in this environment, follow the steps in [Install the Sales Professional solution on a Dynamics 365 environment](#install-app).
 
     If you don't have any Dynamics environment yet, you'll need to create a new one. On the **Environments** page, select **New**.
 
@@ -75,6 +72,7 @@ To provision a new Dynamics 365 environment:
    |Currency     | The base currency used for reporting.         |
    |Enable Dynamics 365 apps | Select **Yes**. If this is set to **No**, a Common Data Service environment will be created and you won't be able to install Sales Professional on this environment. |
    |Security group | Select a security group to restrict access to this environment. |
+   |Automatically deploy these apps | Select **Sales Professional** to install the Sales Professional app during the environment creation. Alternately, follow the steps in [Install the Sales Professional solution on a Dynamics 365 environment](#install-app) | 
 
    > [!div class="mx-imgBorder"] 
    > ![Create new environment settings](media/new-environment-page2-enable-apps.png "Create new environment settings")
