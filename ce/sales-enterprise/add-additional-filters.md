@@ -3,7 +3,6 @@ title: "Add additional filters to a forecast (Dynamics 365 Sales) | MicrosoftDoc
 description: "Add additional filters to a forecast in Dynamics 365 Sales."
 ms.date: 08/01/2020
 ms.service: 
-  - "dynamics-365-sales"
 ms.custom: 
   - "dyn365-sales"
 ms.topic: article
