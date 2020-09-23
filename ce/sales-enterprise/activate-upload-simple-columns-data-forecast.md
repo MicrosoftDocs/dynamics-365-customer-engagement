@@ -65,7 +65,7 @@ You're directed to the **Forecast configuration** home page, where your organiza
 <tr><td>
 
 > [!div class="nextstepaction"] 
-> [Previous step: Configure and manage drill downs](configure-manage-drill-downs.md)
+> [Previous step: Configure and manage drill-down entities](configure-manage-drill-downs.md)
 </td></tr>
 </table>
 

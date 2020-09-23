@@ -12,35 +12,20 @@ ms.author: udag
 manager: shujoshi
 ---
 
-
-<!-- editor comment: The title appears to use "drill down" as a noun, but the style guide shows it only as a verb (two words) or an adjective (hyphenated). Perhaps it could change to "by drilling down" or "through drill-down entities"? I'm guessing because I'm not certain what drill-down describes.  -->
-
-
-
 # View and understand data through drill-down entities
 
 [!INCLUDE [cc-early-access](../includes/cc-early-access.md)]
 
-Through a forecast, you'll have visibility into the pipeline amounts that your sellers are projecting for the period. Now you might want to know which accounts contribute to a specific seller’s Committed value or maybe you want to know which products are contributing to a different seller’s Won value. The drill-down feature allows you to break down your seller’s forecast projections as a function of the contributing factors that you care about such as Account and Product. The drill-down feature looks at the underlying records that are contributing to the value of the rollup column and groups them according to the selected drill-down data.
-
-<!-- please note the wording change at the end of the previous sentence. -->
-
+Through a forecast, you'll have visibility into the pipeline amounts that your sellers are projecting for the period. Now you might want to know which accounts contribute to a specific seller’s Committed value or maybe you want to know which products are contributing to a different seller’s Won value. The drill-down feature allows you to break down your seller’s forecast projections as a function of the contributing factors that you care about such as Account and Product. The drill-down feature looks at the underlying records that are contributing to the value of the rollup column and groups them according to the selected drill-down option.
 
 By viewing drill-down data, you can understand how the records in each group are performing and set the next course of action. This helps you to plan better and achieve the targets as set in the forecast.
-
-
-<!-- Just a reminder that Amber Rodriguez and Kevin Smith should be from an approved fictitious names list. (Looks like they are, so I'm not worried.) -->
-
 
 Let’s look at an example. **Amber Rodriguez** is a seller who's associated with four accounts. Her projected revenue for the current period is $400,000. **Kevin Smith**, her sales manager, wants to understand how her revenue of $400,000 is broken down by each account. On the forecast page, Kevin chooses the Account drill-down option from the drop-down menu. Then he selects the drill-down icon beside Amber’s record to view a list of accounts that make each of Amber’s forecast pipeline values.
 
 > [!div class="mx-imgBorder"]
 > ![Forecast drill-down view](media/forecast-drill-down-view.png "Forecast drill-down view")
 
-
-<!-- Please review the wording changes to "drill down" in the next two paragraphs. -->
-
-Before you start using the feature, an administrator or forecast manager must add the drill-down options to the forecast. To learn more, go to [Configure and manage drill downs](configure-manage-drill-downs.md).
+Before you start using the feature, an administrator or forecast manager must add the drill-down options to the forecast. To learn more, go to [Configure and manage drill-down entities](configure-manage-drill-downs.md).
 
 When a drill-down option is added to your forecast, a drop-down list is displayed below the **Grid** tab. The following screenshot is an example:
 
@@ -51,17 +36,9 @@ When a drill-down option is added to your forecast, a drop-down list is displaye
 
 By default, when you open a forecast, no drill-down choice is selected and the icon corresponding to each row is disabled. To enable and view the details, you must select a drill-down option. That enables the icons corresponding to each row. Select the icon to view the forecast data in a drill-down mode. To select a drill-down option, follow these steps:
 
-
-<!-- please check wording change in step 1. -->
-
-
 1.	Open a forecast with the drill-down feature added.
 
-
-<!-- Wondering if "break down" the data is better wording. --> 
-
-
-2.	Select the **Drill down by** list and choose the drill-down option on which you want to break the data. For example, **Account**.
+2.	Select the **Drill down by** list and choose the drill-down option on which you want to break down the data. For example, **Account**.
  
     > [!div class="mx-imgBorder"]
     > ![Select Account as drill-down choice](media/forecast-drill-down-selection.png "Select Account as drill-down choice")
@@ -91,19 +68,12 @@ To view the opportunities that are affecting the forecast values of an account, 
 -	Select an account row to show all opportunities, regardless of forecast category.
 -	Select a cell of an account to show only the opportunities that are affecting roll-up column value.
 
-
-<!-- please check rewording in the Note. -->
-
 > [!NOTE]
 > If you edit the underlying opportunities in drill-down view, the updated values won't show in the drill-down selection. To view the updated values, close the drill-down selection and open it again. 
 
 To learn more about the underlying opportunities, go to [View and manage underlying opportunities](view-and-manage-underlying-opportunities.md).
 
 ## See also
-
-
-<!-- note that I updated the title of the second link based on the change I made to that topic. If that title doesn't stick, we need to change it here, too. -->
-
 
 [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md) 
 

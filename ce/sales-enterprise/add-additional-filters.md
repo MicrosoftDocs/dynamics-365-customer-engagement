@@ -49,7 +49,7 @@ For example, you know that opportunities related to **Adatum Corporation** and r
 </td><td>
 
 > [!div class="nextstepaction"] 
-> [Next step: Configure and manage drill downs](configure-manage-drill-downs.md)
+> [Next step: Configure and manage drill-down entities](configure-manage-drill-downs.md)
 </td></tr>
 </table>
 

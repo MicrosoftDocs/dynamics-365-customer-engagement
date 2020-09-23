@@ -12,11 +12,6 @@ ms.author: udag
 manager: shujoshi
 ---
 
-
-<!-- editor note: "Drill down" should be used only as a verb (two words) or an adjective (hyphenated). Here and in the other topic it's used as a noun. I am updating the wording so that it is used either as a verb or adjective, but I'm having some trouble understanding what drill-down describes, so please check my changes. Here's a link to the style guide topic: https://styleguides.azurewebsites.net/Styleguide/Read?id=2700&topicid=44385 -->
-
-
-
 # Configure and manage drill-down entities
 
 [!INCLUDE [cc-early-access](../includes/cc-early-access.md)]
@@ -30,10 +25,6 @@ Let’s look at an example. **Amber Rodriguez** is a seller who's associated wit
 
 As an administrator or forecast manager, you can enable and configure the drill-down option using the **Drill down** step in the forecast configuration. By configuring the drill-down choices that match your organizational requirements, you can break down your forecast values into any of the configured drill-down options. This allows users to understand what values are constituting their forecast projections.
 
-
-
-<!-- You might need to update this link title if the title of the following topic changes. -->
-
 > [!NOTE]
 > To understand how drill-down selections are used, see [View and understand data through drill-down entities](view-understand-data-through-drill-down.md).
 
@@ -45,12 +36,7 @@ Before you configure a drill-down choice, we recommend you understand the follow
 -	[Amount entity](#amount-entity)
 -	[Entity relationship](#entity-relationship)
 
-
-
-<!-- In the next sentence, should it change to "to configure the rollup and hierarchy entities."? -->
-
-
-With the forecasting feature, we have provided [out-of-the-box drill-down templates](#templates) to configure the on the rollup and hierarchy entities.
+With the forecasting feature, we have provided [out-of-the-box drill-down templates](#templates) to configure the rollup and hierarchy entities.
 
 To understand how to manage the drill-down feature, see [Manage drill-down options](#manage-drill-down-options).
 
@@ -91,16 +77,12 @@ The entity relationship is established to connect drill-down and rollup entities
 
 The following out-of-the-box templates are provided for you to configure drill-down views. You can add these templates according to the rollup and hierarchy entities that you have used to configure the forecast.
 
-
-<!-- In the last row, should there be a comma after Product? -->
-
-
 |Rollup entity | Hierarchy entity | Drill-down templates |
 |--------------|------------------|----------------------| 
 | Opportunity |	User | Account, Product, and Parent Product |
 | Opportunity | Territory | User, Account, Product, and Parent Product |
 | Opportunity |	Account | User, Product, and Parent Product |
-| Opportunity | Product | Product	Account and Owner |
+| Opportunity | Product | Product, Account, and Owner |
 
 Using these templates, you can break down your forecast values by accounts, products, parent products, users, owners, and territory.
 
@@ -108,9 +90,6 @@ Using these templates, you can break down your forecast values by accounts, prod
 
 -	You can [add](#add-a-drill-down-entity) or [edit](#edit-a-drill-down-entity) drill-down choices and make them available for users even after the forecast has been activated. 
 -	You can [delete](#delete-a-drill-down-entity) the drill-down choice if it is no longer required in a forecast. 
-
-
-<!-- I'm not certain what the drill-down is - a choice? a feature? an entity?  -->
 
 
 ## Add a drill-down entity
@@ -163,11 +142,7 @@ Using these templates, you can break down your forecast values by accounts, prod
     >
     > ![Apply same account field to multiple columns](media/forecast-drill-down-account-field-multiple-selection.png "Apply same account field to multiple columns")
        
-4.	In the **Entity relationship** section, select the relationship as described if:
-
-
-    <!-- editor comment: I'm confused here, because the previous sentence says to select the relationship as described if" and then gives two choices. Are these the only two choices, or are there other choices, in which case you would do something different? --> 
-
+4.	In the **Entity relationship** section, select the relationship as described:
 
     -	**Amount and rollup entities are the same**: Select the **Amount entity to drill down entity relationship** from the drop-down menu to establish a relationship between the drill-down and amount entities.
         
@@ -241,8 +216,6 @@ To learn more about entity relationships, go to [Entity relationships](https://d
 > [Next step: Activate and upload simple columns data](activate-upload-simple-columns-data-forecast.md)
 </td></tr>
 </table>
-
-
 
 
 ### See also

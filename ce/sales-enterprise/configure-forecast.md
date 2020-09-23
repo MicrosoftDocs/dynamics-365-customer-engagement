@@ -94,7 +94,7 @@ To configure a forecast in your organization, follow these steps:
 
 6.	[Apply additional filter](add-additional-filters.md)
 
-7.	[Configure and manage drill downs](configure-manage-drill-downs.md) 
+7.	[Configure and manage drill-down entities](configure-manage-drill-downs.md) 
 
 8.	[Activate and upload simple columns data](activate-upload-simple-columns-data-forecast.md)
 
