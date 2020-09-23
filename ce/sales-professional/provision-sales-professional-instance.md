@@ -13,7 +13,7 @@ manager: annbe
 # Provision your Dynamics 365 Sales Professional environment
 Congratulations on the purchase of the Sales Professional application. 
 
-Before you can start using the Sales Professional application you need to
+Before you can start using the Sales Professional application you need to:
 
 1.	Provision a new Dynamics 365 environment (instance)
 2.	Install the Sales Professional solution on a Dynamics 365 environment (instance).
@@ -23,7 +23,7 @@ Before you can start using the Sales Professional application you need to
 
 ## Provision a new Dynamics 365 environment
 
-You need a Dynamics 365 environment to install the Sales Professional application. If you already have a Dynamics environment, say from using another Dynamics 365 application that you are already using, and you want to install the Sales Professional app on that environment, see the steps in the Install the Sales Professional solution on a Dynamics 365 environment section.
+You need a Dynamics 365 environment to install the Sales Professional application. If you already have a Dynamics environment, say from using another Dynamics 365 application that you are already using, and you want to install the Sales Professional app on that environment, see the steps in the [Install the Sales Professional solution on a Dynamics 365 environment](#install-app) section.
 
 To provision a new Dynamics 365 environment:
 
@@ -72,7 +72,7 @@ To provision a new Dynamics 365 environment:
    |Currency     | The base currency used for reporting.         |
    |Enable Dynamics 365 apps | Select **Yes**. If this is set to **No**, a Common Data Service environment will be created and you won't be able to install Sales Professional on this environment. |
    |Security group | Select a security group to restrict access to this environment. |
-   |Automatically deploy these apps | Select **Sales Professional** to install the Sales Professional app during the environment creation. Alternately, follow the steps in [Install the Sales Professional solution on a Dynamics 365 environment](#install-app) | 
+   |Automatically deploy these apps | Select **Sales Pro** to install the Sales Professional app during the environment creation. Alternately, follow the steps in [Install the Sales Professional solution on a Dynamics 365 environment](#install-app) | 
 
    > [!div class="mx-imgBorder"] 
    > ![Create new environment settings](media/new-environment-page2-enable-apps.png "Create new environment settings")
@@ -106,6 +106,9 @@ To install the Sales Professional solution on a Dynamics 365 environment
 8.	In the list of application, select **Sales Professional**. 
  
     ![Sales Professional app tile](media/sales-professional-app-tile.png "Sales Professional app tile")
+
+    > [!IMPORTANT]
+    > You can't install the Sales Professional app on Common Data Service environments. When you try to install Dynamics 365 Sales, Professional on a Common Data Service environment, you'll be asked to select a different environment. 
 
 ### See also
 [Overview of Dynamics 365 Sales Professional](sales-professional-overview.md)  
