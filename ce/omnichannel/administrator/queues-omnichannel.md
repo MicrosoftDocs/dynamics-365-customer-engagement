@@ -4,7 +4,7 @@ description: See how you can create and manage queues in Omnichannel for Custome
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 08/01/2020
+ms.date: 10/01/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -18,23 +18,31 @@ ms.topic: article
 
 Omnichannel queues are used to collect and distribute workload among agents. Workload includes conversations, such as Chat or SMS. Agents are added as queue members to the queues and the workload is distributed among these agents.
 
-Omnichannel queues are proxies for skills or domains. For example, you can create separate queues for billing issues, investment issues, products, and so on. When a customer query comes for these issue types, it is routed to its designated queue. You can also set up customer support availability matrix by using a combination of queues, operating hour schedules, and routing rules.
+Queues in Omnichannel for Customer Service are proxies for skills or domains. For example, you can create separate queues for billing issues, investment issues, products, and so on. When a customer query comes for these issue types, it is routed to its designated queue. You can also set up customer support availability matrix by using a combination of queues, operating hour schedules, and routing rules.
+
+To simplify the routing experience for administrators, queues are categorised into messaging and entity records. When you define queue type as messaging, conversations pertaining to the chat and social channels only can be routed to the messaging queues. When the queue type is entity records, the cases pertaining to entity records only can be routed to the entity records queues. Similarly, when you are creating a routing rule item, based on the channel for which the work stream has been created, only the corresponding queues will be available for selection.
+
+
     
 > [!div class=mx-imgBorder]
 > ![Omnichannel queues](../media/oc-queues.png)
 
-You can assign priority to queues. All conversations in a queue take the priority of the queue and higher priority conversations are allocated first. For example, if there are two chat conversations coming from two queues with priorities assigned as Priority 1 and Priority 2 respectively, chat conversation with Priority 1 will be allocated to an agent first.
+You can assign priority to queues. All conversations in a queue take the priority that is defined for the queue; higher priority conversations are allocated first. For example, if there are two chat conversations coming from two queues with priorities assigned as Priority 1 and Priority 2 respectively, chat conversation with Priority 1 will be allocated to an agent first.
 
-## Default queue
+## Default queues
 
-There is a default Omnichannel queue for each organization. Admins can't delete the default queue. By default, all Omnichannel users are members of the default queue. Therefore, the membership of this queue can't be changed.
+Out of the box, the following default queues are available in Omnichannel for Customer Service:
+- **Default entity queue:** The queue that is available for routing entity records.
+- **Default messaging queue:** The queue that is available for routing conversations pertaining to the Live Chat and social channels.
+
+The default queues can't be edited or deleted. All Omnichannel for Customer Service users are members of the default queues. Therefore, the membership of these default queues also can't be changed.
 
   > [!NOTE]
-  > When no queues or routing rules are defined, all conversations are directed to the **Default** queue.
+  > When no queues or routing rules are defined, all conversations are directed to one of the out-of-the-box default queues.
 
 ## Create a queue
 
-Follow these steps to create an Omnichannel queue.
+Perform the following steps to create a queue in Omnichannel for Customer Service:
 
 1. In the Omnichannel Administration site map, go to **Queues & Users** > **Queues**. The **Omnichannel queues** view is displayed.
 2. On the command bar, select **New**.
@@ -42,6 +50,7 @@ Follow these steps to create an Omnichannel queue.
 
     - **Name**: Enter a name for the queue.
     - **Priority**: Assign a priority to define how quickly a conversation should be picked from the queue.
+    - **Queue type:** Select either **Messaging** or **Entity**. You can't edit the queue type after you save the queue.
     - **Owner:** Search and select an owner for the queue if you do not want to use the default owner.
     - **Operating Hours:** Search and select an operating hour schedule that you want to specify for the queue.
 

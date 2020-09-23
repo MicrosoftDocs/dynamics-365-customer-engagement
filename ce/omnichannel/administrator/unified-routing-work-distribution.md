@@ -32,7 +32,7 @@ Unified routing and work distribution is a two-step process:
 
 ## Overview of routing system
 
-A customer initiates a conversation from the portal, and the conversation reaches the Omnichannel system. Now, based on the routing rules condition defined in the routing system, it starts routing the conversation to the appropriate queues. 
+A customer initiates a conversation from the portal, and the conversation reaches the Omnichannel system. Now, based on the routing rules condition defined in the routing system, it starts routing the conversation to the appropriate queues.
 
 The routing rules condition is based on the channel, CRM, and customer context that you, as an administrator, define in the Omnichannel Administration app.
 
@@ -70,7 +70,7 @@ The work distribution system assigns one of the existing conversations that is i
 An agent is available in the following scenarios:
 
  - When an agent signs in to the Omnichannel for Customer Service app.
- - When an agent presence status changes from one state to another such as **Away** to **Available**, **Away** to **Busy**, and  **Away** to **DND**.
+ - When an agent presence status changes from one state to another, such as **Away** to **Available**, **Away** to **Busy**, and  **Away** to **DND**. An agent is also available depending on the allowed presence that is configured for the work stream.
  - When an agent capacity changes due to the closure of a conversation or assignment of a conversation.
 
 Whenever agents are available, the work distribution system always retrieves the oldest conversations (longer duration) that is present in the highest priority queue and assigns the conversation to the agent who satisfies the capacity condition.

@@ -27,7 +27,7 @@ In Omnichannel for Customer Service, you can create the following types of work 
 
 ## Create a work stream
 
-Follow these steps to create a new work stream in Omnichannel for Customer Service:
+Perform the following steps to create a work stream in Omnichannel for Customer Service:
 
 1. In the Omnichannel site map, go to **Work Distribution Management** > **Work Streams**.
 
@@ -78,7 +78,7 @@ Follow these steps to create a new work stream in Omnichannel for Customer Servi
       3. If you have selected **Push** in **Work distribution mode**, set the toggle to **Yes** for **Enable selecting from push-based work streams**. The agents can assign work items to themselves irrespective of constraints, such as capacity and presence.
 4. View and create context variables in the **Context variables** tab. Context variables enrich conversations with pre-chat data, channel data, and custom context data. These attributes can then be used to define routing rules to route conversations into different queues.
 
-   1. Select **New** to create a new context variable in the **Quick Create** window.
+   1. Select **New** to create a context variable in the **Quick Create** window.
    2. Enter **Display Name** for the new variable. The **Name** field is populated accordingly.
    3. Select the **Type** of variable from the drop-down list. You can choose from **Text** or **Number**.
 
