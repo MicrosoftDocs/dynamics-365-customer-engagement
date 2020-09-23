@@ -240,6 +240,10 @@
 #### [DeleteOQOILineWithSkipPricingCalculation](../sales-enterprise/developer/reference/custom-actions/deleteoqoilinewithskippricingcalculation.md)
 #### [exportPdf action](../sales-enterprise/developer/exportpdf-api.md)
 
+### Events
+#### [onRowLoad](../customerengagement/on-premises/developer/events/onRowLoad.md)
+#### [onSave](../customerengagement/on-premises/developer/events/onSave.md)
+
 ### Entity reference
 #### [Account](../customerengagement/on-premises/developer/entities/account.md)
 #### [BulkOperation](../customerengagement/on-premises/developer/entities/bulkoperation.md)
