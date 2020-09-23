@@ -2,7 +2,7 @@
 title: "Map form data to entities with custom Workflows (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to map form data to entities with custom Workflows"
 keywords: customer journey
-ms.date: 09/15/2020
+ms.date: 09/22/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -25,7 +25,7 @@ search.app:
 # Map form data to entities with custom Workflows
 
 If you have configured a marketing form to collect form submissions without updating contacts or leads, you can create a Workflow to map the form submission data to any entity.
-- Learn more about collecting form data without updating contacts or leads: [Create, view, and manage marketing forms](marketing-forms.md#do-not-createupdate-contacts-or-leads)
+- Learn more about collecting form data without updating contacts or leads: [Create, view, and manage marketing forms](marketing-forms.md#early-access-do-not-createupdate-contacts-or-leads)
 - Learn more about building workflows: [Use Workflow processes to automate processes that don't require user interaction](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/workflow-processes)
 
 ## Creating a Workflow
@@ -54,14 +54,14 @@ In this example, we'll create a Workflow to update a custom entity called “Cre
 
 The credit card application Workflow requires the following general processes:
 - Check if the submission is coming from a form the workflow can handle. The simplest method to do this is selecting submissions from a specific form.
-- Extract the submitted values so that they available in the Workflow (extract value).
+- Extract the submitted values so that they available in the Workflow (**extract value**).
 - Combine multiple values into a single structure that is suitable for entity matching or creation (**set JSON property**).
 - Create an entity with properties that were set in the previous step. Alternatively, the Workflow can search for a matching entity and either update the found entity or create a new one if not found (**create entity**, **update entity**, and **match entity actions**).
 
 The following steps detail the actions required to create the credit card application Workflow:
 
 1. To create a custom entity, in the navigation bar, go to **Settings** > **Customize the System** > **Entities**.
-1. Create a marketing form for the credit card applications containing the fields you want to use. Create fields under the new custom entity to use inside the form. Make sure the form is set to [not update contacts or leads](marketing-forms.md#do-not-createupdate-contacts-or-leads).
+1. Create a marketing form for the credit card applications containing the fields you want to use. Create fields under the new custom entity to use inside the form. Make sure the form is set to [not update contacts or leads](marketing-forms.md#early-access-do-not-createupdate-contacts-or-leads).
 1. Next, you will create a Workflow to process the custom entities. Go to **Settings** > **Processes** and create a new **Workflow** process. In the **Entity** field, select the entity that triggers your Workflow. In this case, we'll select **Marketing form submission**. Then select **OK**.
 1. To add a step, select **Add Step**, then go to **Dynamics 365 Marketing** > **Extract submitted value by field**. This will allow you to extract a value from a form submission.
     1. Add a name for the step. We will name our step "Extract value from form submission (E-mail)."
@@ -109,7 +109,7 @@ The following steps detail the actions required to create the credit card applic
 
           ![Complete Workflow steps](media/entity-mapping-complete-workflow.png "Complete Workflow steps")
 
-1. You can find the submissions related to your custom entity by selecting the **Advanced find** button ![Advanced find button](media/advanced_filter_icon.png "Advanced find button") on the top ribbon in the Marketing app. In each submission, you can find submission values under the **Form** > **Submissions** tab.
+<!-- 1. You can find the submissions related to your custom entity by selecting the **Advanced find** button ![Advanced find button](media/advanced_filter_icon.png "Advanced find button") on the top ribbon in the Marketing app. In each submission, you can find submission values under the **Form** > **Submissions** tab. -->
 
 ### See also
 

@@ -92,7 +92,7 @@ might face when working with multiple Marketing apps/environments:
 ## ALM operations
 
 Dynamics 365 Marketing supports most of the Dynamics 365 platform’s Application
-Lifecycle Management (ALM) capabilities such as copy, backup, and restore. Learn more about ALM capabilities in [Manage Marketing instances](https://docs.microsoft.com/dynamics365/marketing/manage-marketing-instances).
+Lifecycle Management (ALM) capabilities such as copy, backup, and restore. Learn more about ALM capabilities in [Manage Marketing environments](https://docs.microsoft.com/dynamics365/marketing/manage-marketing-environments).
 There are specifics to these operations, however, which you should adhere to
 when working with Marketing. Some of the common pitfalls include:
 

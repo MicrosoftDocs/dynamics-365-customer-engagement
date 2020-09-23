@@ -1,8 +1,18 @@
 {
   "redirections": [
     {
+      "source_path": "ce/marketing/manage-marketing-instances.md",
+      "redirect_url": "manage-marketing-environments",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/company-news-timeline/get-company-news-timeline-dynamics-365-phones-tablets.md",
       "redirect_url": "../mobile-app/get-company-news-timeline-dynamics-365-phones-tablets",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/marketing/forms-pro.md",
+      "redirect_url": "customer-voice",
       "redirect_document_id": "false"
     },
     {

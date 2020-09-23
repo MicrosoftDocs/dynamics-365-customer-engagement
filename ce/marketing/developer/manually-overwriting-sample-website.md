@@ -4,14 +4,12 @@ description: "Provides information about how you can manually overwrite event ma
 ms.custom:
   - dyn365-developer
   - dyn365-marketing
-ms.date: 07/23/2019
+ms.date: 09/16/2020
 ms.service: dynamics-365-marketing
-ms.technology:
-  - "marketing"
 ms.topic: "article"
-author: tohomanms
-ms.author: tohomanms
-manager: dariosap
+author: alfergus
+ms.author: alfergus
+manager: shellyha
 ---
 
 # Manually overwriting sample website
@@ -29,6 +27,9 @@ If the event management solution version is `1.12.1006`, then search for **Micro
 See the following table to download the appropriate zip file containing data. If the build number differs from the one in the table, for example, `1.12.2326` instead of `1.12.2327`, you can still use the archive having the corresponding major and minor version, in this case, you can still use `1.12.2327` archive.
 
 Manually overwriting the event management website overwrites the possible customizations that are made on the website, copy those customizations in a repository outside of the instance. After overwriting the website files, you can use standard `DeployToDynamics365Instance.ps1` script to bring your customizations back to the instance. More information:  [Deploy your portal hosted websites](https://docs.microsoft.com/dynamics365/marketing/developer/portal-hosted#deployment).
+
+> [!NOTE]
+> Newer versions of Portal Data will be available once new features and bug fixes are released.
 
 | Release Version |Download link|
 |--|--|

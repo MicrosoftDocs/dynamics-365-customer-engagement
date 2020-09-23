@@ -12,7 +12,7 @@ author: alfergus
 ms.author: alfergus
 manager: shellyha
 ms.reviewer:
-topic-status: Drafting
+topic-status:
 search.audienceType: 
   - admin
   - customizer
@@ -62,10 +62,12 @@ To find your Dynamics 365 Marketing version number:
 
 2. If you have more than one Dynamics 365 instance, then each of them is listed here. Select the instance where you have Marketing installed and are planning to export data from.
 
-3. The side panel shows information about your selected instance, including a list of solutions installed there. Select the **Manage your solutions** button ![The Manage your solutions button](media/update-manage-button.png "The Manage your solutions button") next to the **Solutions** heading here.  
+3. The side panel shows information about your selected instance, including a list of solutions installed there. Select the **Manage your solutions** button ![The Manage your solutions button](media/update-manage-button.png "The Manage your solutions button") next to the **Solutions** heading here.
+
     ![Select the Manage your solutions button](media/update-open-manage-solutions.png "Select the Manage your solutions button")
 
-4. A list of solutions installed on your selected instance is shown. Find the solution called **Dynamics 365 Marketing** and check the value shown in the **Version** column.  
+4. A list of solutions installed on your selected instance is shown. Find the solution called **Dynamics 365 Marketing** and check the value shown in the **Version** column.
+ 
     ![Find the version number](media/admin-mkt-version.png "Find the version number")
 
 ## Generate a database schema for your source instance
@@ -94,24 +96,29 @@ To export data from your source instance:
 1. Open the folder where you [installed the tools](#install-tools). Find and run the **DataMigrationUtility.exe** file here.
 
 1. The tool launches. Select **Export data** and then **Continue**.  
+
     ![Select Export data and continue](media/dmt-export1.png "Select Export data and continue")
 
-1. Set the **Deployment type** to **Office 365** and then select **Login**.  
+1. Set the **Deployment type** to **Office 365** and then select **Login**.
+
     ![Select Office 365 and then Login](media/dmt-export2.png "Select Office 365 and then Login")
 
 1. Follow the instructions on your screen to sign in using the user name and password for the tenant where your source instance is running.
 
-1. If multiple instances are available on the tenant you signed in to, then choose your source instance and select **Login** to continue. (If only one instance is available, then you'll skip this step.)  
-    ![Select Office 365 and then Login](media/dmt-export2b.png "Select Office 365 and then Login")
+1. If multiple instances are available on the tenant you signed in to, then choose your source instance and select **Login** to continue. (If only one instance is available, then you'll skip this step.)
 
-1. On successful sign in, you're asked to choose a schema and export file name.  
+    ![Choose your source instance and then Login](media/dmt-export2b.png "Choose your source instance and then Login")
+
+1. On successful sign in, you're asked to choose a schema and export file name.
+  
     ![Choose a schema and export file name](media/dmt-export3.png "Choose a schema and export file name")
 
     Make the following settings:
     - **Schema file**: Select the ellipsis button to open a file browser, and then navigate to and select the schema file that you generated for your source instance.
     - **Save to data file**: Select the ellipsis button to open a file browser, and then navigate to the folder where you want to save the exported data, together with a file name.
 
-1. Select **Export data** to continue. The tool tracks the progress of your export and, when it's done, creates a zip file containing both the schema and your data.  
+1. Select **Export data** to continue. The tool tracks the progress of your export and, when it's done, creates a zip file containing both the schema and your data.
+
     ![Export complete](media/dmt-export4.png "Export complete")
 
 1. When the export is done, select **Exit** to close the export page.
@@ -122,30 +129,35 @@ To import data to your destination instance:
 
 1. If the Configuration Migration tool isn't still running, then open the folder where you [installed the tools](#install-tools). Find and run the **DataMigrationUtility.exe** file here.
 
-1. Select **Import data** and then **Continue**.  
+1. Select **Import data** and then **Continue**.
+
     ![Select Import data and continue](media/dmt-import1.png "Select Import data and continue")
 
-1. Set the **Deployment type** to **Office 365** and then select **Login**.  
-    ![Select Office 365 and then Login](media/dmt-export2.png "Select Office 365 and then Login")
+1. Set the **Deployment type** to **Office 365** and then select **Login**.
+ 
+    ![Select the Deployment type and then Login](media/dmt-export2.png "Select the Deployment type and then Login")
 
 1. Follow the instructions on your screen to sign in using the user name and password for the tenant where your destination instance is running.
 
-1. If multiple instances are available on the tenant you signed in to, then choose your destination instance and select **Login** to continue. (If only one instance is available, then you'll skip this step.)  
-    ![Select Office 365 and then Login](media/dmt-import2b.png "Select Office 365 and then Login")
+1. If multiple instances are available on the tenant you signed in to, then choose your destination instance and select **Login** to continue. (If only one instance is available, then you'll skip this step.)
 
-1. On successful sign in, you're asked to choose a file to import. Select the ellipsis button next to the **Zip file** field to open a file browser, and then navigate to the folder where you saved the export file from your source instance. This file contains both data and the schema you used for export  
+    ![Choose the destination instance and then Login](media/dmt-import2b.png "Choose the destination instance and then Login")
+
+1. On successful sign in, you're asked to choose a file to import. Select the ellipsis button next to the **Zip file** field to open a file browser, and then navigate to the folder where you saved the export file from your source instance. This file contains both data and the schema you used for export
+ 
     ![Choose a file to import](media/dmt-import3.png "Choose a file to import")
 
     > [!IMPORTANT]
     > As mentioned previously, your source and destination instances must use exactly the same schema for the data being transferred, so they must be running identical versions of Dynamics 365 Marketing, and all relevant schema customizations must be identical on both instances. If the schemas don't match, you will get an error and the import will fail. <!-- but can we use just a partial schema? -->
 
-1. Select **Import data** to continue. The tool tracks the progress of your import.  
+1. Select **Import data** to continue. The tool tracks the progress of your import.
+
     ![Import complete](media/dmt-import4.png "Import complete")
 
 1. When the import is done, select **Exit** to close the import page.
 
 ### See also
-[Manage your Marketing instances](manage-marketing-instances.md)  
+[Manage your Marketing environments](manage-marketing-environments.md)  
 [Transfer customizations between instances](transfer-solution.md)  
 [Administer Power Apps](https://docs.microsoft.com/power-platform/admin/admin-guide)  
 [Manage instances](https://docs.microsoft.com/dynamics365/admin/new-instance-management)  

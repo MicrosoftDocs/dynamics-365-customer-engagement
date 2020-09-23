@@ -39,8 +39,8 @@ Tracks the interactions between the agents and customer
 |Property|Value|
 |--------|-----|
 |CollectionSchemaName|msdyn_liveconversations|
-|DisplayCollectionName|Ongoing conversations (Deprecated)|
-|DisplayName|Ongoing conversation (Deprecated)|
+|DisplayCollectionName|Ongoing conversations|
+|DisplayName|Ongoing conversation|
 |EntitySetName|msdyn_liveconversations|
 |IsBPFEntity|False|
 |LogicalCollectionName|msdyn_liveconversations|
@@ -307,7 +307,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|Id of this ongoing conversation record|
-|DisplayName|OngoingConversationId (Deprecated)|
+|DisplayName|OngoingConversationId|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |LogicalName|msdyn_liveconversationid|
@@ -1135,7 +1135,23 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|None|
 |Type|BigInt|
 
+<a name="manytoone"></a>
 
+## Many-To-One Relationships
+
+Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related entity. Listed by **SchemaName**.
+
+- [msdyn_msdyn_liveworkstream_msdyn_liveconversation](#BKMK_msdyn_msdyn_liveworkstream_msdyn_liveconversation)
+- [msdyn_msdyn_omnichannelqueue_msdyn_liveconversation](#BKMK_msdyn_msdyn_omnichannelqueue_msdyn_liveconversation)
+
+
+### <a name="BKMK_msdyn_msdyn_liveworkstream_msdyn_liveconversation"></a> msdyn_msdyn_liveworkstream_msdyn_liveconversation
+
+See msdyn_liveworkstream Entity [msdyn_msdyn_liveworkstream_msdyn_liveconversation](msdyn_liveworkstream.md#BKMK_msdyn_msdyn_liveworkstream_msdyn_liveconversation) One-To-Many relationship.
+
+### <a name="BKMK_msdyn_msdyn_omnichannelqueue_msdyn_liveconversation"></a> msdyn_msdyn_omnichannelqueue_msdyn_liveconversation
+
+See msdyn_omnichannelqueue Entity [msdyn_msdyn_omnichannelqueue_msdyn_liveconversation](msdyn_omnichannelqueue.md#BKMK_msdyn_msdyn_omnichannelqueue_msdyn_liveconversation) One-To-Many relationship.
 
 ### See also
 
