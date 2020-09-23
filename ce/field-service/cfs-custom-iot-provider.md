@@ -29,9 +29,9 @@ search.app:
 
 # Extensible IoT data sources for Connected Field Service
 
-The IoT providers feature in Connected Field Service (CFS) allows different IoT vendors to seamlessly integrate their device capabilities within the Field Service experience. For example, IoT alerts can appear in the same list, regardless of where the alerts originated. When you select the **Pull Device Data** button on an IoT device record, CFS looks up the provider of the device and routes the command appropriately to the corresponding IoT system. This action allows users to interact with IoT devices in a consistent way, regardless of the underlying provider.
+The IoT providers feature in Connected Field Service (CFS) allows different IoT vendors to seamlessly integrate their device capabilities within the Field Service experience. For example, IoT alerts can appear in the same list, regardless of where the alerts originated. When you select **Pull Device Data** on an IoT device record, CFS looks up the provider of the device and routes the command appropriately to the corresponding IoT system. This action allows users to interact with IoT devices in a consistent way, regardless of the underlying provider.
 
-By default, CFS uses this IoT providers feature to integrate with Azure IoT Hub and Azure IoT Central. Now this feature is available for developers and independent software vendors (ISVs) to build their own IoT provider model, integrating any IoT provider with CFS. ISVs can also publish their custom IoT provider as a solution in [Microsoft AppSource](https://appsource.microsoft.com/) for easier distribution and usage by customers.
+By default, CFS uses this IoT providers feature to integrate with Azure IoT Hub. Now this feature is available for developers and independent software vendors (ISVs) to build their own IoT provider model, integrating any IoT provider with CFS. ISVs can also publish their custom IoT provider as a solution in [Microsoft AppSource](https://appsource.microsoft.com/) for easier distribution and usage by customers.
 
 ## When to use custom IoT providers
 
