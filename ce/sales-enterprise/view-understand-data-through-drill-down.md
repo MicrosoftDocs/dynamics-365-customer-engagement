@@ -3,7 +3,6 @@ title: "View and understand data through drill-down entities (Dynamics 365 Sales
 description: "View and understand drill-down entities in a forecast in Dynamics 365 Sales."
 ms.date: 09/18/2020
 ms.service: 
-  - dynamics-365-sales
 ms.custom: 
   - dyn365-sales
 ms.topic: article
