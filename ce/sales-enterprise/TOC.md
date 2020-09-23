@@ -241,8 +241,8 @@
 #### [exportPdf action](../sales-enterprise/developer/exportpdf-api.md)
 
 ### Events
-#### [onRowLoad](../customerengagement/on-premises/developer/events/onRowLoad.md)
-#### [onSave](../customerengagement/on-premises/developer/events/onSave.md)
+#### [onRowLoad](../sales-enterprise/developer/reference/events/onRowLoad.md)
+#### [onSave](../sales-enterprise/developer/reference/events/onSave.md)
 
 ### Entity reference
 #### [Account](../customerengagement/on-premises/developer/entities/account.md)
