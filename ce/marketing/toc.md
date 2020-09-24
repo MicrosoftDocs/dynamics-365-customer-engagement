@@ -135,7 +135,7 @@
 #### [Create marketing forms](marketing-forms.md)
 #### [Use marketing forms for event registration](event-forms.md)
 #### [Enable prefilling for forms](form-prefill.md)
-#### [Integrate with landing pages on external websites](embed-forms.md)
+#### [Embed forms on external websites](embed-forms.md)
 #### [Create input fields for forms](marketing-fields.md)
 #### [Set up a subscription center](set-up-subscription-center.md)
 #### [Edit and resubmit form submissions](failed-submissions.md)
