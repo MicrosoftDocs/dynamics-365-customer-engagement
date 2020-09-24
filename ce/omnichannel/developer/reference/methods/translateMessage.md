@@ -14,7 +14,7 @@ ms.topic: article
 
 [!include[cc-beta-prerelease-disclaimer](../../../../includes/cc-beta-prerelease-disclaimer.md)]
 
-This method is called for every conversation message exchanged between the customer and the agent, if translation is on and if the message has not been translated earlier in the conversation.
+This method is called for every conversation message exchanged between the customer and the agent, if translation is on and if the message has not been translated earlier in the conversation for the given destination language.
 
 > [!IMPORTANT]
 > See this [sample web resource](TODO add a link) for more information on how to implement the `translateMessage` API.
