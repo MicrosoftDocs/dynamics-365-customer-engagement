@@ -110,7 +110,7 @@ A work order in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field
   > [!NOTE]
   >  When you add a product, remember that if you want to reserve a product for the work order, set **Allocated** to **Yes**.  
 
-### Open Work Order subgrids as popup dialogue boxes
+### Open work order subgrids as popup dialogue boxes
 
 Configure work order subentities to pop out as dialog boxes and edit them without having to leave the work order form. This configuration helps dispatchers maintain context through navigation.
 
