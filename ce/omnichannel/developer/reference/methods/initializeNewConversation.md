@@ -21,7 +21,7 @@ This method is required to be implemented in web resource. It is called once, as
 3. It provides you information about the conversation to take certain decisions, e.g. which translation API engine should be used for a given conversation. 
 
 > [!IMPORTANT]
-> See this [sample web resource](TODO add a link) for more information on how to implement the `initializeNewConversation` API.
+> See this [sample web resource](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/06e9c84263bac81e7411f95365c5e792aca15122/customer-service/omnichannel/real-time-translation/webResourceV2.js#L212) for more information on how to implement the `initializeNewConversation` API.
 
 ## Syntax
 
