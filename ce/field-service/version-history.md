@@ -21,7 +21,7 @@ manager: shellyha
 search.audienceType:
   - admin
   - customizer
-  - enduser
+  - enduser 
 search.app:
   - D365CE
   - D365FS
