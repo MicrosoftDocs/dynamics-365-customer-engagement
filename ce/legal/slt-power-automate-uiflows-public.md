@@ -102,7 +102,7 @@ These rights survive this agreement.
 >   or subprocessor of personal data in connection with the software, Microsoft
 >   makes the commitments in the European Union General Data Protection
 >   Regulation Terms of the Online Services Terms to all customers effective May
->   25, 2018, at <https://go.microsoft.com/fwlink/?linkid=2135030?>.
+>   25, 2018, at <https://go.microsoft.com/fwlink/?linkid=2135030>.
 
 **7. EXPORT RESTRICTIONS.** You must comply with all domestic and international
 export laws and regulations that apply to the software, which include
