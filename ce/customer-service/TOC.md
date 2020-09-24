@@ -177,7 +177,7 @@
 
 ## Migration solutions
 
-### [Migration tool for automatic record creation rules and service-level agreements](migrate-automatic-record-creation-and-sla-agreements.md)
+### [Migrate automatic record creation rules and service-level agreements](migrate-automatic-record-creation-and-sla-agreements.md)
 ### [Contract to entitlements migration strategy](contract-to-entitlement-migration.md)
 
 

@@ -45,7 +45,7 @@ The following capabilities are available in the different app experiences, depen
 | Service Scheduling  |  | N/A | X |  | X |
 | Connected Service with IoT  |  |  | X  |  |  |
 | Extensibility  | Channel Integration Framework version 2.0, BYOC | Channel Integration Framework version 2.0, BYOC, Mobile SDK | Channel Integration Framework version 1.0 |  |  |
-| Unified Interface (UCI) Compliant  | X | X | X | X |  |
+| Unified Interface compliant  | X | X | X | X |  |
 | Basic Administration  | Customer Service Hub -> Service Management | Omnichannel Administration |  |  | Settings -> Service Management |
 | Case Routing & Queue Configuration  | Customer Service Hub -> Service Management | Omnichannel Administration |  |  | Settings -> Service Management |
 | Add & Configure Channels  | Omnichannel Administration  | Omnichannel Administration |  |  |  |

@@ -30,7 +30,7 @@ search.app:
 <h2>Administer the system</h2>
 <li><a href="trial-signup.md" data-raw-source="[Sign up for a free trial](trial-signup.md)">Sign up for a free trial</a></li>
 <li><a href="purchase-setup.md" data-raw-source="[Purchase and set up Dynamics 365 Marketing](purchase-setup.md)">Purchase and set up Dynamics 365 Marketing</a></li>
-<li><a href="manage-marketing-instances.md" data-raw-source="[Manage Marketing instances](manage-marketing-instances.md)">Manage Marketing instances</a></li>
+<li><a href="manage-marketing-environments.md" data-raw-source="[Manage Marketing environments](manage-marketing-environments.md)">Manage Marketing environments</a></li>
 <li><a href="apply-updates.md" data-raw-source="[Keep Marketing up to date](apply-updates.md)">Keep Marketing up to date</a></li>
 <li><a href="open-advanced-settings.md" data-raw-source="[Open the Settings work area](open-advanced-settings.md)">Open the Settings work area</a></li>
 <li><a href="organization-settings.md" data-raw-source="[Organization settings](organization-settings.md)">Organization settings</a></li>
