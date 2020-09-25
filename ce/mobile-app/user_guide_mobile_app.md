@@ -48,7 +48,7 @@ Legend:
 
 ## Site map 
 
-From the Home screen, select the site map ![Site map icon](media/pa_mobile_sitemap_icon.png "Site map icon") to access entities, favorite or most-used records, other apps, and settings.
+From the Home screen, select the site map ![Site map icon](media/d365_mobile_sitemap_icon.png "Site map icon") to access entities, favorite or most-used records, other apps, and settings.
 
  
    > [!div class="mx-imgBorder"]
@@ -76,7 +76,7 @@ Legend
 
 The **Pinned** and **Recent** lists provide quick access to records that you've recently used or pinned to favorites. Use the **Recent** list to pin favorite records.  
 
-1. From the site map ![Site map icon](media/pa_mobile_sitemap_icon.png "Site map icon"), select **Recent** ![Recent record icon](media/pa_mobile_recent_icon.png "Recent records icon").
+1. From the site map ![Site map icon](media/d365_mobile_sitemap_icon.png "Site map icon"), select **Recent** ![Recent record icon](media/d365_mobile_recent_icon.png "Recent records icon").
 
 2. On the **Recent** records screen, select the push-pin icon next to a record to add it to your favorites (pinned records).
 
@@ -89,9 +89,9 @@ The **Pinned** and **Recent** lists provide quick access to records that you've 
 
 ### Unpin a record
 
-1. From the site map ![Site map icon](media/pa_mobile_sitemap_icon.png "Site map icon"), select **Pinned** ![Pinned favorites icon](media/mobile_pinned_favs_icon.png "Pinned favorites icon").
+1. From the site map ![Site map icon](media/d365_mobile_sitemap_icon.png "Site map icon"), select **Pinned** ![Pinned favorites icon](media/mobile_pinned_favs_icon.png "Pinned favorites icon").
 
-2. Select the remove-pin icon ![Remove pin icon](media/pa_mobile_remove_pin_icon.png "Remove pin icon") next to a record to remove it from favorites (pinned records).
+2. Select the remove-pin icon ![Remove pin icon](media/d365_mobile_remove_pin_icon.png "Remove pin icon") next to a record to remove it from favorites (pinned records).
 
 
    > [!div class="mx-imgBorder"]
@@ -117,13 +117,13 @@ The **Pinned** and **Recent** lists provide quick access to records that you've 
    > ![Create a record](media/pamobile_add_record_1.gif "This image demonstrates how create a new record")
 
 
--  To save and open the record that you created, select **More** ![More commands icon](media/pa_mobile_more_commands_icon.png "More commnads icon"), and then select **Save and Open**.
+-  To save and open the record that you created, select **More** ![More commands icon](media/d365_mobile_more_commands_icon.png "More commnads icon"), and then select **Save and Open**.
 
-- To save and create another record, select **More** ![More commands icon](media/pa_mobile_more_commands_icon.png "More commands icon"), and then select **Save and Create new**.
+- To save and create another record, select **More** ![More commands icon](media/d365_mobile_more_commands_icon.png "More commands icon"), and then select **Save and Create new**.
 
 
    > [!div class="mx-imgBorder"]
-   > ![Create a record](media/pa_mobile_save_create_new.gif "This image demonstrates how to save a record and open it or save and create a new record")
+   > ![Create a record](media/d365_mobile_save_create_new.gif "This image demonstrates how to save a record and open it or save and create a new record")
 
 
 ## View commands for a record (Android)
@@ -133,7 +133,7 @@ The **Pinned** and **Recent** lists provide quick access to records that you've 
 
 
    > [!div class="mx-imgBorder"]
-   > ![Commands on a record](media/pa_mobile_view_record_commands.gif "This image demonstrates how to access more commands on a record")
+   > ![Commands on a record](media/d365_mobile_view_record_commands.gif "This image demonstrates how to access more commands on a record")
 
 
 ## Edit a record
@@ -149,8 +149,8 @@ The **Pinned** and **Recent** lists provide quick access to records that you've 
 
 ## Go back to the Home screen
 
-- To get back to the Home screen when you're in a record, select **Back** ![Back icon](media/pa_mobile_back_icon.png "Back icon").
-- At any point, press and hold **Back** ![Back icon](media/pa_mobile_back_icon.png "Back icon") to go back to the Home screen. 
+- To get back to the Home screen when you're in a record, select **Back** ![Back icon](media/d365_mobile_back_icon.png "Back icon").
+- At any point, press and hold **Back** ![Back icon](media/d365_mobile_back_icon.png "Back icon") to go back to the Home screen. 
 
    > [!div class="mx-imgBorder"]
    > ![Go back to the Home screen](media/go_back_home.gif "This image demonstrates how to go back to the home screen by pressing and holding the back icon")
@@ -158,4 +158,4 @@ The **Pinned** and **Recent** lists provide quick access to records that you've 
 
 ## Sign out
 
-From the site map ![Site map icon](media/pa_mobile_sitemap_icon.png "Site map icon"), select the profile icon ![Profile icon](media/profile_icon.png "Site map icon"), and then select **Sign out**.
+From the site map ![Site map icon](media/d365_mobile_sitemap_icon.png "Site map icon"), select the profile icon ![Profile icon](media/d365_profile_icon.png "Site map icon"), and then select **Sign out**.
