@@ -52,13 +52,13 @@ From the Home screen, select the site map ![Site map icon](media/pa_mobile_sitem
 
  
    > [!div class="mx-imgBorder"]
-   > ![Site map screen](media/go_to_sitemap_iphone.gif "This image demonstrates how to get to the site map screen")
+   > ![Site map screen](media/homescreen_d365.gif "This image demonstrates how to get to the site map screen")
    
 
 
 The following illustration shows the primary navigation elements on the site map screen. 
 
-![Site map screen](media/site_map_iphone.png "Site map screen")
+![Site map screen](media/site_map_iphone_d365.png "Site map screen")
 
 Legend
 
