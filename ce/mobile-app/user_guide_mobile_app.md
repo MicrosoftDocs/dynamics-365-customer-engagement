@@ -123,7 +123,7 @@ The **Pinned** and **Recent** lists provide quick access to records that you've 
 
 
    > [!div class="mx-imgBorder"]
-   > ![Create a record](media/d365_mobile_save_create_new.gif "This image demonstrates how to save a record and open it or save and create a new record")
+   > ![Create a record](media/create_new_record_more_options.gif "This image demonstrates how to save a record and open it or save and create a new record")
 
 
 ## View commands for a record (Android)
