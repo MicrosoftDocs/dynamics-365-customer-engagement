@@ -45,6 +45,33 @@ Enter a number in the **minimum number of resources per territory** field to def
 
 ## Bookings and requirements
 
+### Key performance indicators (KPIs)
+
+Number of resources	KPI to show number of resources involved in bookings.
+Number of bookings	KPI to show number of completed bookings.
+Overestimated bookings	KPI to show number of bookings which are over estimated than actual duration.
+Underestimated bookings	KPI to show number of bookings which are under estimated than actual duration.
+
+### Charts
+
+Booking volume	Visual to show number of bookings over the period.
+Booking duration	Visual to compare over and under estimated bookings over the period.
+Resource metrics	Jobs completed: 
+Number of completed bookings by the resource.
+Incident type metrics	Jobs completed: 
+Number of completed bookings of an incident type or a resource.
+
+Est. duration:
+Average estimated duration of completed bookings of an incident type or a resource.
+
+Avg. duration:
+Average actual duration of completed bookings of an incident type or a resource.
+
+Difference
+Difference between estimated and actual durations.
+
+
+
 ### Filters (slicers)
 
 Duration	Slicer control to list pre-defined durations to filter data in all visuals. It has 4 values:
@@ -69,6 +96,43 @@ Duration	Slicer control to list pre-defined durations to filter data in all visu
 Incident type	Slicer control to list incident types.
 Territory	Slicer control to list service territories.
 Skill	Slicer control to list resource skill and proficiency level. It filters resources and related metrics.
+
+### Key performance indicators (KPIs)
+
+Number of resources	KPI to show number of resources involved in bookings.
+Number of bookings	KPI to show number of completed bookings.
+Overestimated bookings	KPI to show number of bookings which are over estimated than actual duration.
+Underestimated bookings	KPI to show number of bookings which are under estimated than actual duration.
+Overall proficiency score	 
+
+### Charts
+
+Booking volume	Visual to show number of bookings over the period.
+Booking duration	Visual to compare over and under estimated bookings over the period.
+Customer metrics	Bookings: 
+Number of completed bookings per customer.
+
+Difference
+Difference between estimated and actual durations.
+
+Under estimate:
+Number of bookings which are under estimated than actual duration
+
+Over estimate:
+Number of bookings which are over estimated than actual duration
+Incident type metrics	Jobs completed: 
+Number of completed bookings of an incident type or a territory.
+
+Est. duration:
+Average estimated duration of completed bookings of an incident type or a territory.
+
+Avg. duration:
+Average actual duration of completed bookings of an incident type or a territory.
+
+Difference
+Difference between estimated and actual durations.
+Territory metrics	Jobs completed: 
+Number of completed bookings in a territory.
 
 
 ## Configuration considerations
