@@ -109,12 +109,12 @@ The **Pinned** and **Recent** lists provide quick access to records that you've 
 
 ## Add a record quickly
 
-1. From the Home screen, select **New** ![Create record button](media/create-record-button.png "Create record button").
+1. From the Home screen, select **New** ![Create record button](media/d365_create-record-button.png "Create record button").
 2. Fill in the fields, and then select **Save**.
 3. After the record is created, you can view the new record. 
 
    > [!div class="mx-imgBorder"]
-   > ![Create a record](media/pamobile_add_record_1.gif "This image demonstrates how create a new record")
+   > ![Create a record](media/create_new_record.gif "This image demonstrates how create a new record")
 
 
 -  To save and open the record that you created, select **More** ![More commands icon](media/d365_mobile_more_commands_icon.png "More commnads icon"), and then select **Save and Open**.
