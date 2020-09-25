@@ -80,7 +80,7 @@ The **Pinned** and **Recent** lists provide quick access to records that you've 
 
 2. On the **Recent** records screen, select the push-pin icon next to a record to add it to your favorites (pinned records).
 
-3. To view the newly pinned records, select ![Go back icon](media/mobile_go_back_icon.png "Go back icon"), and then select **Pinned** ![Pinned favorites icon](media/mobile_pinned_favs_icon.png "Pinned favorites icon").
+3. To view the newly pinned records, select **X**, and then select **Pinned** ![Pinned favorites icon](media/d365_mobile_pinned_favs_icon.png "Pinned favorites icon").
 
    
    > [!div class="mx-imgBorder"]
