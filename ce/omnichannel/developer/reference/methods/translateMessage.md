@@ -14,10 +14,10 @@ ms.topic: article
 
 [!include[cc-beta-prerelease-disclaimer](../../../../includes/cc-beta-prerelease-disclaimer.md)]
 
-This method is called for every conversation message exchanged between the customer and the agent, if translation is on and if the message has not been translated earlier in the conversation for the given destination language.
+This method is required to be implemented in web resource. This method is called for every conversation message exchanged between the customer and the agent, if translation is on and if the message has not been translated earlier in the conversation for the given destination language.
 
 > [!IMPORTANT]
-> See this [sample web resource](TODO add a link) for more information on how to implement the `translateMessage` API.
+> See this [sample web resource](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/06e9c84263bac81e7411f95365c5e792aca15122/customer-service/omnichannel/real-time-translation/webResourceV2.js#L279) for more information on how to implement the `translateMessage` API.
 
 ## Syntax
 
@@ -83,25 +83,36 @@ translationConfig = {
 
 ## Return Value
 
-Returns the translated message, the source language and the destination language.
-
-The `inviteLocale` parameter in `InviteParams` interface represents a Locale ID. More information: [Locale ID](https://docs.microsoft.com/openspecs/office_standards/ms-oe376/6c085406-a698-4e12-9d4d-c3b0ee3dbc4a).
+Returns a promise which resolves to a Javascript object implementing `TranslatedMessageResponse` interface.
 
 **Interface object**
 
 ```
 export interface ErrorObject{ 
-        isError: boolean;               // represents yes for error and no otherwise.
-        errorCode: ErrorCodes;   //represents the type of error based on errorCode
+        isError: boolean; //mandatory field, represents true for error while executing this function else no
+        errorCode: ErrorCodes; //mandatory field, represents the type of error based on errorCode
 } 
 
 export interface TranslatedMessageResponse { 
-        translatedMessage: string;  // contains the translated message
-        sourceLanguage: string;       //represents the language locale of the original content 
-        destinationLanguage: string;  // represents the language locale of the translated content
-        errorObject?: ErrorObject;  //represents the error object for any error scenarios
+        translatedMessage: string;  //mandatory field, Contains the translated message
+        sourceLanguage: string;       //mandatory field, represents the language locale of the original content 
+        destinationLanguage: string;  //mandatory field, represents the language locale of the translated content
+        errorObject?: ErrorObject;  //optional field, represents the error object for any error scenarios
 }
 ```
+
+The `errorCode` parameter in `ErrorObject` represents the errors only from the following list.
+|Error message|Error code|Description|
+|-----|-----|-----|
+|MESSAGE_TOO_LONG|100|Error code for very long message which the translation service cannot translate|
+|LANGUAGE_NOT_SUPPORTED|101|Error Code for language not supported by the translation service|
+|MESSAGE_NOT_TRANSLATED|102|Error Code for message not translated by the translation service|
+|TRANSLATION_SERVICE_LIMIT_EXCEEDED|103|Error code if the quota limit exceeded for the translation service|
+|TRANSLATION_FAILED|104|Error Code if the translation service failed to translate a message|
+|UNRECOGNIZED_TEXT|105|Error Code if the text is not recognized by the translation service|
+|UNRECOGNIZED_ERROR|200|Error Code if there is any error other than the listed one.|
+
+The `sourceLanguage` and `destinationLanguage` parameter in `TranslatedMessageResponse` interface represents a Locale ID. More information: [Locale ID](https://docs.microsoft.com/openspecs/office_standards/ms-oe376/6c085406-a698-4e12-9d4d-c3b0ee3dbc4a).
 
 **Sample response**
 
@@ -117,23 +128,12 @@ export interface TranslatedMessageResponse {
 }
 ```
 
-## Error codes
+## Additional Information
 
-|Error message|Error code|Description|
-|-----|-----|-----|
-|MESSAGE_TOO_LONG|100|Error code for very long message which the translation service cannot translate|
-|LANGUAGE_NOT_SUPPORTED|101|Error Code for language not supported by the translation service|
-|MESSAGE_NOT_TRANSLATED|102|Error Code for message not translated by the translation service|
-|TRANSLATION_SERVICE_LIMIT_EXCEEDED|103|Error code if the quota limit exceeded for the translation service|
-|TRANSLATION_FAILED|104|Error Code if the translation service failed to translate a message|
-|UNRECOGNIZED_TEXT|105|Error Code if the text is not recognized by the translation service|
-|UNRECOGNIZED_ERROR|200|Error Code if there is any error other than the listed one.|
-
-In case of an exception while calling this method, Omnichannel for Customer Service will not retry and instead will display a translation failed error message in a dialog box.
-
-In case the return value is invalid, an error message on the translation banner will appear in the conversation control.
-
-If this method is not implemented, then the message will not be translated and the following error will be displayed to the agent.
+1. In case of an exception during execution of this method, Omnichannel for Customer Service will not retry and instead will display a translation failed error message.
+2. Error while executing this method can be notified via `errorObject`. In case of an error, Omnichannel for Customer Service will not retry and instead will display a the error message based on the provided error codes.
+3. In case the returned response is invalid or incomplete, an error message on the translation banner will appear in the conversation control.
+4. If this method is not implemented, then the message will not be translated and the following error will be displayed to the agent.
 
 ![translateMessage error message](../../../media/translatemessage-api-error.png "translateMessage error message")
 
