@@ -2,7 +2,7 @@
 title: "Predictive work duration | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 09/30/2020
+ms.date: 10/01/2020
 ms.reviewer: ""
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -28,6 +28,10 @@ search.app:
 
 # Predictive work duration
 
+// Predictive work duration helps dispatchers understand how the duration of their work orders and other jobs varies based on different factors and informs managers how the estimated duration compares to actual duration based on AI and ML data models. 
+
+// https://msit.microsoftstream.com/video/09fba3ff-0400-96f3-c720-f1eaff6ef643
+
 > [!Note]
 > This feature is available as a public preview
 
@@ -36,14 +40,22 @@ search.app:
 - Go to Settings then under Analytics and insights section select Settings
 Enable Predictive Work Duration preview
 
-Enter a number in the **minimum number of resources per territory** field to define how big a territory must be in roder to be used in the report. This is important for provacy considerations because if 
-
+Enter a number in the **minimum number of resources per territory** field to define how big a territory must be in order to be used in the report. This is important for provacy considerations because if 
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+> ![Screenshot of ](./media/analytics-work-duration-settings.png)
+
 
 ## Bookings and requirements
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/analytics-work-duration-upcoming-work.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/analytics-work-duration-upcoming-work2.png)
 
 ### Key performance indicators (KPIs)
 
@@ -53,7 +65,7 @@ Overestimated bookings	KPI to show number of bookings which are over estimated t
 Underestimated bookings	KPI to show number of bookings which are under estimated than actual duration.
 
 > [!Note]
-> Estimated duration is calculated by, actual duration is calculated by
+> Estimated duration is calculated by..., actual duration is calculated by...
 
 ### Charts
 
@@ -88,6 +100,14 @@ Skill	Slicer control to list resource skill and proficiency level. It filters re
 
 
 ## Territory duration analysis
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/analytics-work-duration-territory.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/analytics-work-duration-territory2.png)
 
 ### Filters (slicers)
 
@@ -136,6 +156,16 @@ Difference
 Difference between estimated and actual durations.
 Territory metrics	Jobs completed: 
 Number of completed bookings in a territory.
+
+## Resource duration
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/analytics-resource-duration.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/analytics-resource-duration2.png)
 
 
 ## Configuration considerations
