@@ -52,7 +52,7 @@ From the Home screen, select the site map ![Site map icon](media/pa_mobile_sitem
 
  
    > [!div class="mx-imgBorder"]
-   > ![Site map screen](media/homescreen_d365.gif "This image demonstrates how to get to the site map screen")
+   > ![Site map screen](media/homesceen_d365.gif "This image demonstrates how to get to the site map screen")
    
 
 
