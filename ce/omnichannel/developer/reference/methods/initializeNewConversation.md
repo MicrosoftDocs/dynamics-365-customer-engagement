@@ -98,9 +98,11 @@ The `c1Language` parameter in resolved Javascript object represents a Locale ID 
 ## Additional Information
 1. On exception in this method or invalid return values, Omnichannel for Customer Service will keep translation off for the conversation. For example: if resolved Javascript object from the returned promise does not contains `keepTranslationOn` field or `c1Language` field contains a value which is not from above list of Locale ids the conversation will start with translation turned off.
 
-![initializeNewConversation error message](../../../media/initializeconversation-api-error.png "initializeNewConversation error message")
-
 2. Please do minimal processing in this function, as it makes the UI wait before rendering. If the execution time of this function exceeds 30 sec, the conversation will start with translation turned off, irrespective of the values of returned promise.
+
+3. If this method is not implemented, the following error will be displayed to the agent.
+
+![initializeNewConversation error message](../../../media/initializeconversation-api-error.png "initializeNewConversation error message")
 
 
 ### See also
