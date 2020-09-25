@@ -100,11 +100,11 @@ The **Pinned** and **Recent** lists provide quick access to records that you've 
 
 ## Change views
 
-- From the Home screen, select the down arrow ![Change view icon](media/mobile_view_selector_icon.png "Change view icon") next to the current view, and then select a new view.
+- From the Home screen, select the down arrow ![Change view icon](media/d365_mobile_view_selector_icon.png "Change view icon") next to the current view, and then select a new view.
 
 
    > [!div class="mx-imgBorder"]
-   > ![Change views](media/change_views_iphone.gif "This image demonstrates how to select a different view")
+   > ![Change views](media/change_views.gif "This image demonstrates how to select a different view")
 
 
 ## Add a record quickly
