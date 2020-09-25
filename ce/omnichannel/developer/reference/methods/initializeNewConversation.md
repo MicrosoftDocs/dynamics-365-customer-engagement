@@ -53,7 +53,16 @@ The `inviteLocale` parameter in `InviteParams` interface represents a Locale ID.
 The `channelType` parameter in `InviteParams` interface represents a supported channel in Omnichannel for Customer Service. List of channels are:
 |Name|Description|
 |----|----|
-|`"lcw"`|For live chat widget channel| 
+|`"lcw"`|For Live Chat Widget channel| 
+|`"sms"`|For SMS channel| 
+|`"facebook"`|For Facebook channel| 
+|`"twitter"`|For Twitter channel| 
+|`"custom"`|For custom made channel| 
+|`"wechat"`|For WeChat channel| 
+|`"whatsapp"`|For WhatsApp channel| 
+|`"msteams"`|For Microsoft Teams channel| 
+|`"line"`|For Line channel| 
+|`"phonecall"`|For phone call channel| 
 
 
 Given below is a sample of the `conversationConfig` parameter.
