@@ -32,16 +32,19 @@ Use Dynamics 365 for phones and tablets to run your customer engagement apps in 
 
 ## Home screen 
 
-It's easy to get around in the Power Apps mobile app. The following illustration shows the primary navigation elements on the Home screen. 
+It's easy to get around in the Dynamics 365 mobile app. The following illustration shows the primary navigation elements on the Home screen. 
 
-![Navigation controls, expanded view](media/home_screen_iphone.png "Navigation controls, expanded view")
+![Navigation controls, expanded view](media/home_screen_iphone_d365.png "Navigation controls, expanded view")
 
 Legend:
 
 1. **Site map**: Open the menu and move between apps, get to your favorite and recently used records, access settings, and more.
-2. **Search**: Search for app records in Common Data Service.
+2. **Search**: Search for all records in the app.
 3. **New**: Create a new record and quickly enter almost any type of information into the system.
-4. **Relationship Assistant**: Use the assistant to monitor and track daily actions and communications. It helps you stay on top of your day with insight cards that are displayed prominently throughout the app to provide tailored and actionable insights.
+4. **Search**: Search for records in the current view.
+5. **Show Chart**: Show the list of records in a chart view.
+6. **Task**: Create a new task record.
+7. **More**: Access more commands such as add activities, start a task flow, use the assistant, and more.
 
 ## Site map 
 
@@ -65,7 +68,7 @@ Legend
 4. **Recent records**: View a list of records you were recently using. 
 5. **Pinned records**: View and open your favorite (pinned) records. 
 6. **Entity navigator**: This area lists the entity available in the app.
-7. **Help**: Access help content for more information about how to use the Power Apps mobile app.
+7. **Help**: Access help content for more information about how to use the app.
 8. **Offline status**: Work with your data in offline mode, even when you don't have internet access. More information: [Work offline on your mobile device](https://docs.microsoft.com/dynamics365/mobile-app/work-in-offline-mode)
 9. **Settings**: Access settings.
 
