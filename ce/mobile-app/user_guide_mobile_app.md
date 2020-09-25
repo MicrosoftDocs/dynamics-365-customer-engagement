@@ -24,10 +24,11 @@ search.app:
 
 # User Guide for Dynamics 365 for phones and tablets app
 
-Use Dynamics 365 for phones and tablets to run your apps on your mobile device. For more information about how to install the app, see [Install Dynamics 365 for phones and tablets](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets).
+Use the Dynamics 365 for phones and tablets mobile app to run your customer engagement apps in Dynamics 365 (such as Dynamics 365 Sales and Dynamics 365 Customer Service), on your mobile device. For more information about how to install the app, see [Install Dynamics 365 for phones and tablets](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets).
 
-> [!IMPORTANT]
-> Model-driven apps for Dynamics 365 Sales, Dynamics 365 Customer Service, and Dynamics 365 Field Service don't run in the Power Apps mobile app. Instead, you use the Dynamics 365 for phones and tablets app. For more information, see [User Guide for Dynamics 365 for phones and tablets](https://docs.microsoft.com/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).
+> [!NOTE]
+> - There are separate mobile apps for [!INCLUDE[pn_field_service](../includes/pn-field-service.md)] and Operations. More information: [Field Service mobile app](https://go.microsoft.com/fwlink/?linkid=846157) and [Finance and Operations mobile app](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-app-home-page). 
+> - There is a different mobile app for model-driven apps and canvas apps. For more information, see [Run canvas apps and model-driven apps on a mobile device](https://docs.microsoft.com/powerapps/user/run-canvas-and-model-apps-on-mobile).
 
 ## Home screen 
 
