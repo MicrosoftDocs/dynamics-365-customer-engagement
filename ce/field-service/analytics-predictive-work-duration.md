@@ -34,31 +34,31 @@ search.app:
 
 // please make the following better 
 
-Summary: Predict the duration of a work order using artificial intelligence to increase scheduling efficiency and utilization.
+        Summary: Predict the duration of a work order using artificial intelligence to increase scheduling efficiency and utilization.
 
-Business Value: Currently, dispatchers assign a fixed duration for a job type, regardless of the various factors that may lengthen or shorten the work order. This can potentially cause cascading delays or low utilization, reducing the effectiveness of schedules.Feature Detail:  This feature predicts the duration for a given booking or requirement, based on various factors like resource performance, incident type, customer location, territorial differences, and seasonal changes. Powered by AI models, this feature learns from the historical booking completion times to compute a realistic duration. It also provides a blended efficiency rating for territories and incident types based on their completion times and allows dispatchers and service managers to drill down to detailed ratings for different technicians across incident types. This helps dispatchers easily identify the right technician for a given job at a customer location.
+        Business Value: Currently, dispatchers assign a fixed duration for a job type, regardless of the various factors that may lengthen or shorten the work order. This can potentially cause cascading delays or low utilization, reducing the effectiveness of schedules.Feature Detail:  This feature predicts the duration for a given booking or requirement, based on various factors like resource performance, incident type, customer location, territorial differences, and seasonal changes. Powered by AI models, this feature learns from the historical booking completion times to compute a realistic duration. It also provides a blended efficiency rating for territories and incident types based on their completion times and allows dispatchers and service managers to drill down to detailed ratings for different technicians across incident types. This helps dispatchers easily identify the right technician for a given job at a customer location.
 
 
-Benefits
+        Benefits
 
-Improve service for customers 
+        Improve service for customers 
 
-Increase efficiency during high-demand seasons by allocating technicians that can perform the jobs faster
-Identifying ‘at-risk’ bookings that may overrun and have a cascading delay
-Provide realistic commitments on SLA
+        Increase efficiency during high-demand seasons by allocating technicians that can perform the jobs faster
+        Identifying ‘at-risk’ bookings that may overrun and have a cascading delay
+        Provide realistic commitments on SLA
 
-Grow technician skillset
+        Grow technician skillset
 
-Identify coaching & mentorship opportunities with new technicians and an aging workforce
-Provide fair and transparent analysis for improved performance
-Get technicians aligned with standardized duration instead of pushing them all to be faster
+        Identify coaching & mentorship opportunities with new technicians and an aging workforce
+        Provide fair and transparent analysis for improved performance
+        Get technicians aligned with standardized duration instead of pushing them all to be faster
 
-Preventatively address unforeseen issues
+        Preventatively address unforeseen issues
 
-Isolate customers that take longer and work with for resolving time sinks
-Distinguish assets that have been historically problematic, taking longer time to fix
-Learn weather and seasonal effects on duration to gradually adjust as circumstances change
-Correct any broad inaccuracies on work duration
+        Isolate customers that take longer and work with for resolving time sinks
+        Distinguish assets that have been historically problematic, taking longer time to fix
+        Learn weather and seasonal effects on duration to gradually adjust as circumstances change
+        Correct any broad inaccuracies on work duration
 
 
 
@@ -214,5 +214,13 @@ Difference
 Difference between estimated and actual durations.
 
 
-## Configuration considerations
+
 ## Additional Notes
+
+### Understanding estimated duration, actual duration, and predicted duration
+
+**Estimated duration** - how much time your organization expects a job to take. In the system this value comes from the duration (msdyn_duration) of the resource requirement. Pro tip: the duration of the resource requirement is derived from the total duration of all work order incident types. 
+
+**Actual duration** - how much time was actually spent working on a requirement. This is calculated by _End time_ of Booking - _actual arrival time_ of Booking - On break duration of the Booking Journal related to the Booking (formally called the "Bookable Resource Booking").
+
+**Predicted duration** - how much time the AI model "thinks" the job will take based on hisotrical information. 
