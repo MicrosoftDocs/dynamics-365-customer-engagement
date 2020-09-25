@@ -84,12 +84,12 @@ The **Pinned** and **Recent** lists provide quick access to records that you've 
 
    
    > [!div class="mx-imgBorder"]
-   > ![Pin a record to favorites](media/pin_to_fav.gif "This image demonstrates how to pin favorite records")
+   > ![Pin a record to favorites](media/pin_to_favs.gif "This image demonstrates how to pin favorite records")
    
 
 ### Unpin a record
 
-1. From the site map ![Site map icon](media/d365_mobile_sitemap_icon.png "Site map icon"), select **Pinned** ![Pinned favorites icon](media/mobile_pinned_favs_icon.png "Pinned favorites icon").
+1. From the site map ![Site map icon](media/d365_mobile_sitemap_icon.png "Site map icon"), select **Pinned** ![Pinned favorites icon](media/d365_mobile_pinned_favs_icon.png "Pinned favorites icon").
 
 2. Select the remove-pin icon ![Remove pin icon](media/d365_mobile_remove_pin_icon.png "Remove pin icon") next to a record to remove it from favorites (pinned records).
 
