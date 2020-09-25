@@ -52,6 +52,9 @@ Number of bookings	KPI to show number of completed bookings.
 Overestimated bookings	KPI to show number of bookings which are over estimated than actual duration.
 Underestimated bookings	KPI to show number of bookings which are under estimated than actual duration.
 
+> [!Note]
+> Estimated duration is calculated by, actual duration is calculated by
+
 ### Charts
 
 Booking volume	Visual to show number of bookings over the period.
