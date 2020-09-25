@@ -88,22 +88,6 @@ Enter a number in the **minimum number of resources per territory** field to def
 > ![Screenshot of ](./media/analytics-work-duration-upcoming-work2.png)
 
 
-> [!Note]
-> Estimated duration is calculated by..., actual duration is calculated by...
-
-### Key performance indicators (KPIs)
-
-Under allocated bookings	Number of bookings allocated under predicted duration.
-Under allocated requirements	Number of requirements allocated under predicted duration.
-
-
-### Charts
-
-Scheduled bookings	Allocated duration:
-Total allocation duration of a booking.
-UnScheduled requirements	Requirement duration:
-Total allocated duration of a requirement.
-
 
 ### Filters (slicers)
 
@@ -115,6 +99,30 @@ Duration	Slicer control to list pre-defined durations to filter data in all visu
 Incident type	Slicer control to list incident types.
 Territory	Slicer control to list resource territories. It filters resources and related metrics.
 Skill	Slicer control to list resource skill and proficiency level. It filters resources and related metrics.
+
+### Key performance indicators (KPIs)
+
+| Under allocated bookings |	Number of bookings allocated under predicted duration. |
+Under allocated requirements	Number of requirements allocated under predicted duration.
+
+
+### Charts
+
+Scheduled bookings	Allocated duration:
+Total allocation duration of a booking.
+UnScheduled requirements	Requirement duration:
+Total allocated duration of a requirement.
+
+
+
+
+## Metrics
+
+
+| Confidence | How likely the actual duration will be close to the predicted duration. A higher score (closer to 100%) signifies a better chance of the prediction being correct, while lower score (close to 0%) means the prediction may be incorrect. |
+
+Prediction Factors Insights into factors that were considered when predicting and how they affect the prediction.  
+
 
 
 ## Territory duration
@@ -140,11 +148,11 @@ Skill	Slicer control to list resource skill and proficiency level. It filters re
 
 ### Key performance indicators (KPIs)
 
-Number of resources	KPI to show number of resources involved in bookings.
+| Number of resources |	KPI to show number of resources involved in bookings. |
 Number of bookings	KPI to show number of completed bookings.
 Overestimated bookings	KPI to show number of bookings which are over estimated than actual duration.
 Underestimated bookings	KPI to show number of bookings which are under estimated than actual duration.
-Overall proficiency score	 
+Overall proficiency score	 overall Al proficiency across all territories |
 
 ### Charts
 
@@ -175,6 +183,38 @@ Difference between estimated and actual durations.
 Territory metrics	Jobs completed: 
 Number of completed bookings in a territory.
 
+## Metrics
+
+
+### Incident type metrics
+
+| Overall Proficiency score  | overall Al proficiency across all territories |
+
+
+Proficiency score  A score indicating the likelihood of completing a booking within the estimated duration,  for the selected  incident type. A higher score indicates a high likelihood of completing a booking within the estimated duration and a lower score indicates vice-versa. 
+
+
+
+Confidence  How likely the Proficiency Score calculated from the samples is close to the true Proficiency Score. A higher score indicates the proficiency score being closer to the truth and a lower score indicates the proficiency  score being farther away from the original.   
+
+### Territory metrics
+
+
+Proficiency score  A score indicating the likelihood of completing a booking within the estimated duration for the selected territory. A higher score indicates a high likelihood of completing a booking within the estimated duration and a lower score indicates vice-versa. 
+
+
+
+Confidence  
+
+How likely the Proficiency Score calculated from the samples is close to the true Proficiency Score. A higher score indicates the proficiency score being closer to the truth and a lower score indicates the proficiency  score being farther away from the original.   
+
+
+Contributing factors 
+
+Summary of factors such as incident types (if territory is selected), service accounts, day of week, and skills & rating match that contribute to the proficiency score. 
+
+
+
 ## Resource duration
 
 
@@ -188,7 +228,7 @@ Number of completed bookings in a territory.
 
 ### Key performance indicators (KPIs)
 
-Number of resources	KPI to show number of resources involved in bookings.
+| Number of resources	| KPI to show number of resources involved in bookings. |
 Number of bookings	KPI to show number of completed bookings.
 Overestimated bookings	KPI to show number of bookings which are over estimated than actual duration.
 Underestimated bookings	KPI to show number of bookings which are under estimated than actual duration.
@@ -212,6 +252,17 @@ Average actual duration of completed bookings of an incident type or a resource.
 
 Difference
 Difference between estimated and actual durations.
+
+## Metrics
+
+
+
+| Proficiency score | A score indicating the likelihood of completing a booking within the estimated duration. A higher score indicates a high likelihood of completing a booking within the estimated duration and a lower score indicates vice-versa. 
+
+| Confidence  | How likely the Proficiency Score calculated from the samples is close to the true Proficiency Score. A higher score indicates the proficiency score being closer to the truth and a lower score indicates the proficiency score being farther away from the original.   |
+
+| Proficiency Factors | Summary of factors such as incident types, service accounts, day of week and skills & rating match that contribute to the efficiency score. |
+
 
 
 
