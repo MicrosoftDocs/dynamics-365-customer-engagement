@@ -39,7 +39,7 @@ When you integrate an Azure bot with Omnichannel for Customer Service, you get t
 To integrate a bot with Omnichannel for Customer Service, you must:
 
 1.	[Create a bot user](#step-1-create-a-bot-user).
-2.	[Add a bot user to the queue(s)](#step-2-add-a-bot-user-to-the-queues).
+2.	[Add a bot user to the queues](#step-2-add-a-bot-user-to-the-queues).
 3.  [Add code snippet to engage a bot](#step-3-add-code-snippet-to-engage-a-bot).
 4.	[Set escalation rules](#step-4-set-escalation-rules).
 
@@ -94,7 +94,7 @@ To create a bot user:
     > [!NOTE]
     > By default, the bot user is assigned the same capacity as other users. You must assign the maximum capacity to the bot user among all users in a queue if you want the bot to handle the customer queries first. The capacity of a bot user isn't reduced when a query is handled by it.
 
-### Step 2: Add a bot user to the queue(s)
+### Step 2: Add a bot user to the queues
 
 Queues distribute the incoming customer queries among bots and agents. You must ensure that the bot user has the highest capacity among all users in the queue. This ensures that the bot user receives the customer query first.
 

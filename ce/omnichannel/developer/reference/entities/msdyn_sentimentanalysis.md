@@ -29,8 +29,6 @@ Sentiment analysis configuration
 |SetState|PATCH [*org URI*]/api/data/v9.1/msdyn_sentimentanalysises(*msdyn_sentimentanalysisid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
 |Update|PATCH [*org URI*]/api/data/v9.1/msdyn_sentimentanalysises(*msdyn_sentimentanalysisid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Entity Properties
-
 |Property|Value|
 |--------|-----|
 |CollectionSchemaName|msdyn_sentimentanalysises|
@@ -106,7 +104,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |1|Yes|
 |0|No|
 
-**DefaultValue**: False
+**DefaultValue**: True
 
 
 
@@ -141,8 +139,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Specifies whether historic sentiment driver analysis is enabled|
-|DisplayName|Drivers Enabled|
+|Description|Specifies whether sentiment drivers are reported in Omnichannel Insights|
+|DisplayName|Report sentiment drivers in Omnichannel Insights|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|msdyn_driversenabled|
@@ -195,7 +193,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForRead|True|
 |LogicalName|msdyn_name|
 |MaxLength|100|
-|RequiredLevel|ApplicationRequired|
+|RequiredLevel|None|
 |Type|String|
 
 

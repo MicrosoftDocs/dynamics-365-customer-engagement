@@ -153,7 +153,7 @@ The new user account is now available on your tenant, where it is also assigned 
 
 Now the new user needs to sign up for the Marketing trial. You can either set this up for them or ask them to do it themselves. Either way, you'll need to approve the new user afterwards. The procedure is as follows:
 
-1. Open a web browser and go to [trials.dynamics.com/Dynamics365/marketing](https://trials.dynamics.com/Dynamics365/marketing).
+1. Open a web browser and go to [trials.dynamics.com/dynamics365/marketing](https://trials.dynamics.com/dynamics365/marketing).
 1. A form opens asking for your email address and phone number. Use the email address for the new user that you just set up in Office 365.
 1. A page opens to tell you that you already have an Office 365 account, so just select **Sign in**.
 1. Sign in using the Office 365 email address and password that you created for the new user. 

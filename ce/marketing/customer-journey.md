@@ -2,7 +2,7 @@
 title: "Preview: Create a customer journey using the new canvas experience (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to create a customer journey using the new canvas experience for Dynamics 365 Marketing"
 keywords: customer journey
-ms.date: 09/09/2020
+ms.date: 09/11/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -22,7 +22,14 @@ search.app:
   - D365Mktg
 ---
 
-# Preview: Create a customer journey using the new canvas experience
+# Early access: Create a customer journey using the new canvas experience
+
+> [!IMPORTANT]
+> Early access features are currently available only on opted-in instances. You can opt in for early access on any instance, but we recommend that you do so only on trial, test, or sandbox instances, which will give you a chance to learn the new functionality before it shows up on your production instances later this year.
+>
+> For instructions on how to opt in and enable early access, see [Opt in to early access updates](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates). For more information about the 2020 release wave 2 schedule, and for answers to frequently asked questions about the early access program, see [2020 release wave 2 features available for early access](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/features-ready-early-access).
+>
+> We encourage all customers to provide feedback related to early access features on the [Dynamics 365 Marketing Forum](https://community.dynamics.com/365/marketing/f/dynamics-365-for-marketing-forum), your Microsoft contact or partner, and/or through [Microsoft Support](https://docs.microsoft.com/power-platform/admin/get-help-support).
 
 We've simplified the process of creating multi-step campaigns by completely redesigning the customer journey canvas. An enhanced UI, improved preview capabilities, a new view of journey insights, and more options to adjust the canvas view result in a more intuitive and efficient user experience.
 
@@ -130,7 +137,7 @@ To create a customer journey that executes a one-time email blast:
 
 1. After you select a segment, the first tile populates with the segment name and the **Audience** pane displays the segment properties.
 
-    ![Customer journey segment populate](media/customer-journey-audience-populate.png "Customer journey segment populate")
+    ![Customer journey segment populate](media/customer-journey-audience-populate2.png "Customer journey segment populate")
 
     > [!TIP]
     > When your customer journey is live, all contacts start at the **Audience** tile (the initial step). Contacts move forward depending on the tile rules, similar to a board game. Some tiles hold on to contacts for a while, while other tiles complete an action immediately and send the contact to the next tile in the pipeline. Other tiles can split the path based on contact information or interactions. When the journey is live, you'll be able to see how many contacts are waiting at each tile, along with a few key results associated with the tile.
@@ -160,7 +167,7 @@ To create a customer journey that executes a one-time email blast:
     1. **Time Zone:** Select your local time zone (if needed). The other dates and times on the page will be displayed relative to this zone.
     1. **Content Settings:** This should already be set to the default content settings record set for your instance. These settings affect the dynamic content of marketing emails sent by this journey (as mentioned in [Create a marketing email and go live](create-marketing-email.md)).
 
-    ![Customer journey General tab](media/customer-journey-general.png "Customer journey General tab")
+    ![Customer journey General tab](media/customer-journey-general2.png "Customer journey General tab")
 
     > [!TIP]
     > While your journey is running, it will continue to process new contacts that join its segment, even if they join after the start date. This means that new contacts can join in at any time until the end date arrives.

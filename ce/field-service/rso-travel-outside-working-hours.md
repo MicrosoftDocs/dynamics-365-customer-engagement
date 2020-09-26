@@ -1,5 +1,6 @@
 ---
 title: "Travel outside working hours with resource scheduling optimization| MicrosoftDocs"
+description: Learn how to configure resource scheduling optimization to consider travel outside of working hours in Dynamics 365 Field Service
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 08/01/2020
@@ -50,6 +51,9 @@ By not considering travel time as part of a technician's working hours, schedule
 > ![Screenshot of ](./media/rso-travel-outside-utilization.png)
 
 In this article, we'll walk through how to enable **Allow travel time outside of working hours** in resource scheduling optimization.
+For more information, see the following video for a walkthrough.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Fe9O]
 
 ## Prerequisites
 
