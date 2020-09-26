@@ -2,7 +2,7 @@
 title: "Set up Dynamics 365 Marketing | Microsoft Docs"
 description: "How to run the setup wizard for Dynamics 365 Marketing"
 keywords: setup; licensing; FRE; Azure; privacy; marketing services; marketing-insights service
-ms.date: 09/02/2020
+ms.date: 09/19/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -90,9 +90,7 @@ After purchasing your license for Dynamics 365 Marketing, you'll have an unconfi
 
 To set up a new Marketing instance:
 
-1. Go to [admin.microsoft.com](https://admin.microsoft.com) and sign in to your Microsoft 365 tenant using an administrator account that has a Dynamics 365 Marketing license assigned.
-
-1. [Open the Power Platform admin center](power-platform-admin-center.md).
+1. Go to [admin.powerplatform.microsoft.com](https://admin.powerplatform.microsoft.com) and sign in to your Microsoft 365 tenant using an administrator account that has a Dynamics 365 Marketing license assigned.
 
 1. Go to **Resources** > **Dynamics 365 apps** on the left navigation pane.
 
