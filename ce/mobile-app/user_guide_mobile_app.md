@@ -104,7 +104,7 @@ The **Pinned** and **Recent** lists provide quick access to records that you've 
 
 
    > [!div class="mx-imgBorder"]
-   > ![Change views](media/change_views_1.gif "This image demonstrates how to select a different view")
+   > ![Change views](media/change_views.gif "This image demonstrates how to select a different view")
 
 
 ## Add a record quickly
