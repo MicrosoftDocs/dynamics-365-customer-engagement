@@ -143,7 +143,7 @@ The **Pinned** and **Recent** lists provide quick access to records that you've 
 
 
    > [!div class="mx-imgBorder"]
-   > ![Edit a record](media/save_on_iphone.gif "This image demonstrates how to edit and then save a record")
+   > ![Edit a record](media/edit_record.gif "This image demonstrates how to edit and then save a record")
 
 
 
