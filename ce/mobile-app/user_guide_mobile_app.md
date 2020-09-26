@@ -126,14 +126,14 @@ The **Pinned** and **Recent** lists provide quick access to records that you've 
    > ![Create a record](media/create_new_record_more_options.gif "This image demonstrates how to save a record and open it or save and create a new record")
 
 
-## View commands for a record (Android)
+## View commands for a record
 
 1. From the Home screen, open a record.
-2. On the open record, select **More** ![More record commands icon"](media/access_record_commands_icon.png "More record commands icon") to access more commands.
+2. On the open record, select **More** to access more commands.
 
 
    > [!div class="mx-imgBorder"]
-   > ![Commands on a record](media/d365_mobile_view_record_commands.gif "This image demonstrates how to access more commands on a record")
+   > ![Commands on a record](media/open_record_more_options.gif "This image demonstrates how to access more commands on a record")
 
 
 ## Edit a record
