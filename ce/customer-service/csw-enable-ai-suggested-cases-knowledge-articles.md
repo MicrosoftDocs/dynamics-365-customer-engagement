@@ -17,15 +17,7 @@ search.app:
   - D365CS
 ---
 
-# Preview: Enable AI suggestions for similar cases and knowledge articles
-
-[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
-> [!IMPORTANT]
->
-> - A preview is a feature that is not complete, as it may employ reduced privacy, security, and/or compliance commitments, but is made available before it is officially released for general availability so customers can get early access and provide feedback. Previews are provided "as-is," "with all faults," "as available," and without warranty.
-> - This preview feature does not come with technical support and Microsoft Dynamics 365 Technical Support won't be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.
-> - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk. All previews are subject to separate [Terms and Conditions](../legal/supp-dynamics365-preview.md).
+# Enable AI suggestions for similar cases and knowledge articles
 
 ## Introduction
 
@@ -47,7 +39,6 @@ The key highlights of the feature are as follows:
 >   - United Kingdom
 >   - Europe
 >   - Japan
->   - India
 >   - Asia Pacific
 >   - Australia
 > - The AI suggestions feature supports only English content and is available only in organizations that have the base language set as English.
@@ -63,6 +54,7 @@ The AI suggestions are powered by a set of pre-trained natural language understa
 - After a case is created or updated, or during an ongoing conversation, the model finds out matching knowledge articles and similar cases from suggestion candidates.
 - A brief summary is auto-generated for each pre-processed knowledge article based on its content. When a knowledge article is suggested, both article title and the auto-generated summary are surfaced to agents, which helps them to get a better idea about the article before agent clicks through it.
 - In addition to the suggestions, agents can also tell why an article or similar case is suggested through a list of key phrases that are auto-extracted from knowledge articles and cases. These key phrases highlights the relevance between a suggestion and an active case or an ongoing conversation, in addition to the confidence score (which is a percentage number that indicates the degree to which an article or similar case matches with the active case).
+- The feedback provided by agents on the relevance of the similar cases and knowledge articles suggestions is used by the AI model to retrain and improve the suggestions over time.
 
 > [!NOTE]
 >
@@ -74,7 +66,6 @@ The AI suggestions are powered by a set of pre-trained natural language understa
 Make sure that the following requirements are met:
 
 - Customer Service workspace is installed and accessible. More information: [Customer Service workspace](csw-overview.md)
-- To use AI suggestions for conversations in Omnichannel for Customer Service, you need to sign up for the insider preview program. More information: [Sign up for the insider preview](../omnichannel/agent/agent-oc/oc-view-ai-suggested-cases-articles.md#sign-up-for-the-insider-preview).
 - The	productivity pane is enabled. By default, the productivity pane is enabled out of the box. More information: [Enable productivity pane](../app-profile-manager/app-profile-manager.md#enable-prod-pane).
 - The System Administrator role is granted.
 
