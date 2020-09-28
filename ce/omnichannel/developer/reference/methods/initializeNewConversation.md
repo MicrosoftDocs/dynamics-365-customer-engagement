@@ -25,7 +25,7 @@ This method is required to be implemented in web resource. It is called once, as
 
 ## Syntax
 
-`Microsoft.Omnichannel.TranslationFramework.initializeNewConversation(conversationConfig)`
+`function (conversationConfig): Object`
 
 ## Parameters
 
