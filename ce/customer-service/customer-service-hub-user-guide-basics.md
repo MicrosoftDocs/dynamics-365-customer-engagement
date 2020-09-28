@@ -1,7 +1,7 @@
 ---
 title: "Learn the basics of the Customer Service Hub app | MicrosoftDocs"
 description: "Learn the basics of the Customer Service Hub for Customer Service"
-ms.date: 08/03/2020
+ms.date: 10/05/2020
 ms.service:
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -298,9 +298,7 @@ In the Customer Service Hub sitemap, select **Service** > **Activities**. The **
 - To view the status of an activity, click the activity record and see bottom-left in the activity form. 
 
 
-### Preview: Insert a knowledge article into an email
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+### Insert a knowledge article into an email
 
 While working on an email, you can quickly help customers by searching and selecting a relevant knowledge article to include in your email. You can insert the article and/or share a link to it in the body of your message.
 
