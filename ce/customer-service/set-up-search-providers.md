@@ -58,4 +58,4 @@ To set up a search provider, do the following:
     > [!div class=mx-imgBorder]
     > ![Select the search provider type and organization](media/search-provider-details.png "Select the search provider type and organization")
 
-6. When you are finished, select **Save** in the lower right-hand corner.
+6. When you are finished, select **Save** in the lower-right corner.
