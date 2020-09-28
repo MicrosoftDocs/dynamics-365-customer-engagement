@@ -14,35 +14,33 @@ manager: shubhadaj
 
 ## Entity: Activity
 
-**Question**:<br>Why are **Follow** and **Unfollow** buttons displayed together on the command bar?
+**Question**:<br>Why are the **Follow** and **Unfollow** buttons displayed together on the command bar?
 
-**Answer**:<br>This is a by-design behavior. If you navigate to an entity in Unified Interface and select a record, the **Follow** and **Unfollow** buttons are displayed together on the command bar even if the selected record is in the same state of being followed or not followed.
+**Answer**:<br>This is by design. If you go to an entity in Unified Interface and select a record, the **Follow** and **Unfollow** buttons are displayed together on the command bar no matter which state the selected record is in, followed or not followed.<!--note from editor: Edit okay? I couldn't tell what "the same state" meant here. -->
 
-**Question**:<br>If the SchedulingEngine feature is enabled for appointments, why am I redirected to the default tab in an appointment when I save from a non-default tab?
+**Question**:<br>If the SchedulingEngine feature is enabled for appointments, why am I redirected to the default tab in an appointment when I save it from a non-default tab?
 
-**Answer**:<br>This is a by-design behavior. When you save an appointment from a non-default tab, you are redirected to the default environment when the appointment is saved.
+**Answer**:<br>This is by design. When you save an appointment from a non-default tab, you are redirected to the default environment when the appointment is saved.
 
-**Question**:<br>If the SchedulingEngine feature is enabled for appointments, why are appointments saved automatically even if the system administrator has added a custom script to stop auto save?
+**Question**:<br>If the SchedulingEngine feature is enabled for appointments, why are appointments saved automatically even if the system administrator has added a custom script to stop auto-save?
 
 **Answer**:<br>If your system administrator has added a custom script to prevent the default save option for appointments, the system will still override the custom script and save the appointments automatically.
 
-**Question**:<br>If the SchedulingEngine feature is enabled for appointments, why the **Open Record Set** button disappears when an appointment is saved?
+**Question**:<br>If the SchedulingEngine feature is enabled for appointments, why does the **Open Record Set** button disappear when an appointment is saved?
 
-**Answer**:<br>When you select the **Save** button to save an appointment the [Open Record Set](https://docs.microsoft.com/powerapps/user/navigation#record-set-navigation) button disappears. You can refresh the page and the **Open Record Set** button will appear again.
+**Answer**:<br>When you select **Save** to save an appointment, the **Open Record Set** button disappears. When you refresh the page, the button reappears. More information: [Open Record Set](https://docs.microsoft.com/powerapps/user/navigation#record-set-navigation)<!--note from editor: Edits suggested.-->
 
-**Question**:<br>Why are the synchronized appointments from Outlook shown as not saved in Dynamics 365?
+**Question**:<br>Why are the synchronized appointments from Outlook shown as not saved<!--Is "not saved" something that actually appears in the UI? Or do the appointments simply not show up in Dynamics 365? Or would it be accurate to say "appointments from Outlook aren't shown as having been saved in Dynamics 365"? I can't quite picture what "shown as not saved" means, but maybe this will be clear to the reader. --> in Dynamics 365?
 
-**Answer**:<br>When you create an appointment or edit any existing appointment in Outlook and synchronize it with Dynamics 365, the appointment is created in Dynamics 365 but is shown as not saved. You can disable the auto-save option in Dynamics 365 to see the synchronized appointments from Outlook saved into Dynamics 365.
+**Answer**:<br>When you create an appointment or edit any existing appointment in Outlook and synchronize it with Dynamics 365, the appointment is created in Dynamics 365 but is shown as not saved<!--Or "isn't shown as having been saved."?-->. You can disable the auto-save option in Dynamics 365 to see the synchronized appointments from Outlook saved into Dynamics 365.
 
-**Question**:<br>Why can't I see the What's new functionality in the Unified Interface?
+**Question**:<br>Why can't I see the What's new functionality in Unified Interface?
 
-**Answer**:<br>This is a by-design behavior. The What's new functionality is only available in the legacy web client. The equivalent in the Unified Interface is to insert the Timeline control (with posts enabled) on the dashboard.
+**Answer**:<br>This is by design. The What's new functionality is only available in the legacy web client. The equivalent in Unified Interface is to insert the Timeline control (with posts enabled) on the dashboard:
 
-To insert the Timeline control on dashboard:
+1. In your app, select **Settings** ![Settings](media/settings-icon.png),<!--Edit okay? This is what the Writing Style Guide prefers.--> and then select **Advanced Settings**.
 
-1. In your app, select the **Settings** icon, and then select **Advanced Settings**.
-
-    The **Business Management** page opens in a new browser tab.
+   The **Business Management** page opens in a new browser tab.
 
 2. On the navigation bar, select **Settings**, and then under **Customization**, select **Customizations**.
 
@@ -50,16 +48,13 @@ To insert the Timeline control on dashboard:
 
 4. Under **Components** in the solution explorer, select **Dashboards**.
 
-5. Select and open the dashboard in which you want to add the Timeline control.
+5. Select and open the dashboard to which you want to add the Timeline control.
 
 6. On the toolbar at the top of the page, select **Timeline**.
 
 7. In the **Timeline Control Properties** dialog box, update the values as required, and then select **OK**.
 
-8. Save the dashboard and publish the customization.
-
-    The Timeline control will be available on the dashboard.
-
+8. Save the dashboard, and publish the customization.
 
 ## Entity: Opportunity
 
