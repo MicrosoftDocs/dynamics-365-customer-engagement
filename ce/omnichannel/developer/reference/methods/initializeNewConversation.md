@@ -14,11 +14,11 @@ ms.topic: article
 
 [!include[cc-beta-prerelease-disclaimer](../../../../includes/cc-beta-prerelease-disclaimer.md)]
 
-This method is required to be implemented in web resource. It is called once, as soon as a new conversation invitation is accepted or existing conversation is opened from Agent Dashboard. 
+This method is required to be implemented in web resource. It is called once, as soon as a new conversation invitation is accepted or an existing conversation is opened from Agent Dashboard. 
 
-1. You can choose to turn off or turn on the translation for a particular conversation using certain conditions; for example, you would like to turn the translation on if the agent and customer's languages are different. 
-2. You can also override the agent's(C1) language to be used in translation for the conversation. 
-3. It provides you information about the conversation to take certain decisions, e.g. which translation API engine should be used for a given conversation. 
+1. You can choose to turn off or turn on the translation for a particular conversation using certain conditions; for example, you would like to turn the translation on if the agent and customer languages are different. 
+2. You can also override the agent's language to be used in translation for the conversation. 
+3. It provides you information about the conversation to take certain decisions, for exampl,e the translation API engine that should be used for a conversation. 
 
 > [!IMPORTANT]
 > See this [sample web resource](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/06e9c84263bac81e7411f95365c5e792aca15122/customer-service/omnichannel/real-time-translation/webResourceV2.js#L212) for more information on how to implement the `initializeNewConversation` API.
@@ -65,7 +65,7 @@ The `channelType` parameter in `InviteParams` interface represents a supported c
 |`"phonecall"`|For phone call channel| 
 
 
-Given below is a sample of the `conversationConfig` parameter.
+A sample of the `conversationConfig` parameter is as follows.
 
 ```json
 conversationConfig = {
@@ -81,7 +81,7 @@ conversationConfig = {
 
 ## Return Value
 
-Returns a promise which resolves to a following Javascript object.
+Returns a promise that resolves to the following Javascript object.
 
 ```
 {
@@ -148,9 +148,9 @@ The `c1Language` parameter in resolved Javascript object represents a Locale ID 
 ```
 
 ## Additional Information
-1. On exception in this method or invalid return values, Omnichannel for Customer Service will keep translation off for the conversation. For example: if resolved Javascript object from the returned promise does not contains `keepTranslationOn` field or `c1Language` field contains a value which is not from above list of Locale ids the conversation will start with translation turned off.
+1. On exception in this method or invalid return values, Omnichannel for Customer Service will keep translation off for the conversation. For example: if resolved Javascript object from the returned promise does not contains `keepTranslationOn` field or `c1Language` field contains a value that is not from list of Locale ids, the conversation will start with translation turned off.
 
-2. Please do minimal processing in this function, as it makes the UI wait before rendering. If the execution time of this function exceeds 30 sec, the conversation will start with translation turned off, irrespective of the values of returned promise.
+2. Consider including minimal processing in this function, because it makes the UI wait before rendering. If the execution time of this function exceeds 30 sec, the conversation will start with translation turned off, irrespective of the values of the returned promise.
 
 3. If this method is not implemented, the following error will be displayed to the agent.
 
@@ -159,4 +159,4 @@ The `c1Language` parameter in resolved Javascript object represents a Locale ID 
 
 ### See also
 
-[Add a web resource for real-time translation](../../how-to/add-web-resource-real-time-translation.md)
+[Add a web resource for real-time translation](../../how-to/add-web-resource-real-time-translation.md)  
