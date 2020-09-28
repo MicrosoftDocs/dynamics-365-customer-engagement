@@ -23,15 +23,16 @@ search.app:
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-You can use search providers to federate the search of files, documents, or articles from data sources outside of your current Dynamics 365 organization.
+As a knowledge manager, you can use search providers to federate the search of files, documents, or articles from data sources outside of your current Dynamics 365 organization.
 
 There are three types of search providers you can set up: 
   -	**Cross-organizational search**: This option allows you to specify a different organization under the same tenant of the current organization and search the articles from that organization. The list from the current tenant is automatically identified. 
   -	**Sharepoint**: This option requires you to enter the SharePoint URL. 
-  -	**Microsoft search connector**: This option is for organizations that already use Microsoft search to index all Microsoft 365 or external data. You only need to specify the unique connection Id when you create the connector. To learn more about Microsoft search connectors, see [Overview of Microsoft Graph connectors](https://docs.microsoft.com/microsoftsearch/connectors-overview). 
-From an authentication perspective, the agents must have access to external content or they will be unable to view search results. 
+  -	**Microsoft search connector**: This option is for organizations that already use Microsoft search to index all Microsoft Dynamics 365 or external data. You only need to specify the unique connection ID when you create the connector. To learn more about Microsoft search connectors, see [Overview of Microsoft Graph connectors](https://docs.microsoft.com/microsoftsearch/connectors-overview).
+  
+From an authentication perspective, your agents must have access to external content or they won't be able to view search results. 
 
-As a knowledge manager, you can set up the search provider you want by using the following steps:
+To set up a search provider, do the following:
 
 1.	Open the **Customer Service Hub** app and select **Change area > Service Management**.
 
