@@ -1,5 +1,5 @@
 ---
-title: Apps for Power Platform Terms of Use
+title: Apps for Power Platform Terms of Use (Medical)
 author: ReneeW-CPub
 robots: noindex,nofollow
 ---
@@ -56,17 +56,17 @@ services with the App. In addition to the following, your use of those services
 is subject to the terms provided to you by the App Provider and/or your wireless
 carrier.
 
-**a. Consent for Internet-Based or Wireless Services.** The App connects to
-computer systems over an Internet-based or wireless network. In some cases, you
-will not receive a separate notice when they connect. Using the App operates as
-your consent to the transmission of standard device information (including but
-not limited to technical information about your device, system and App software,
-and peripherals) for Internet-based or wireless services.
+a. Consent for Internet-Based or Wireless Services. The App connects to computer
+systems over an Internet-based or wireless network. In some cases, you will not
+receive a separate notice when they connect. Using the App operates as your
+consent to the transmission of standard device information (including but not
+limited to technical information about your device, system and App software, and
+peripherals) for Internet-based or wireless services.
 
-**b. Misuse of Internet-based Services.** You may not use any Internet-based
-service in any way that could harm it or impair anyone else’s use of it or the
-wireless network. You may not use any Internet-based service to try to gain
-unauthorized access to any service, data, account or network by any means.
+b. Misuse of Internet-based Services. You may not use any Internet-based service
+in any way that could harm it or impair anyone else’s use of it or the wireless
+network. You may not use any Internet-based service to try to gain unauthorized
+access to any service, data, account or network by any means.
 
 **3. SCOPE OF LICENSE.** The App is licensed, not sold. This agreement only
 gives you some rights to use the App. The App Provider reserves all other
@@ -86,8 +86,8 @@ applicable law, despite this limitation; or
 • publish or otherwise make the App available for others to copy or use; or
 transfer, rent, lease, or lend the App.
 
-**4. ACCEPTABLE USE.** Neither you nor those that access the App through you may
-use the App:
+4. ACCEPTABLE USE. Neither you nor those that access the App through you may use
+the App:
 
 • in a way prohibited by law, regulation, governmental order, or decree;
 
@@ -183,17 +183,17 @@ DISTRIBUTOR.**
 
 **This limitation applies to**
 
-• **anything related to the App, or services made available through the App, or
+**• anything related to the App, or services made available through the App, or
 content (including code) on third-party Internet sites; and**
 
-• **claims for breach of contract, breach of warranty, guarantee or condition,
+**• claims for breach of contract, breach of warranty, guarantee or condition,
 strict liability, negligence, or other tort to the extent permitted by
 applicable law.**
 
 **It also applies even if**
 
-• **repair, replacement or a refund for the App does not fully compensate you
+**• repair, replacement or a refund for the App does not fully compensate you
 for any losses; or**
 
-• **Distributor knew or should have known about the possibility of the
+**• Distributor knew or should have known about the possibility of the
 damages.**
