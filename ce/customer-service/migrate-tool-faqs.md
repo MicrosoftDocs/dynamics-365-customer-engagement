@@ -109,7 +109,7 @@ The **Not on** operator for the **Date** data type is not supported in Unified I
 
 ### Why does the data in my DateTime field change during migration?
 
-A separate time field doesn't exist in the Unified Client Interface (UCI), so the DateTime field will change from a calendar control to text field. Input should be in a specific format as shown in the text box below:
+A separate time field doesn't exist in the Unified Interface, so the DateTime field will change from a calendar control to text field. Input should be in a specific format as shown in the text box below:
     
 **Example: Premigration view**
     

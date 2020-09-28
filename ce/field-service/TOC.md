@@ -35,12 +35,15 @@
 ## [Products and services](create-product-or-service.md)
 ## [Service task types](set-up-service-task-types.md)
 ## [Work order summary reports](reports.md)
-## [Inspections](inspections.md)
+## Inspections
+### [Create and view inspections](inspections.md)
+### [Advanced inspection options](inspections-advanced.md)
 ## [Work order templates (incident types)](configure-incident-types.md)
 ## [Work order completion surveys](work-order-surveys.md)
 
 # Bookable resources
 ## [Set up bookable resources](set-up-bookable-resources.md)
+## [Apply a calendar to a bookable resource](calendar-resource.md)
 ## [Bookable resource categories](set-up-bookable-resource-categories.md)
 ## [Characteristics](set-up-characteristics.md)
 ## [Resource pay types](set-up-resource-pay-types.md)
