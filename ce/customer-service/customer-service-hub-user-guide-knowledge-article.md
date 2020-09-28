@@ -192,6 +192,22 @@ You can preview the content to view its compatibility on multiple devices, like 
 
 > [!NOTE]
 > This is an indicative preview. Content rendered can be different in the actual device or screen.
+
+### Add the rich text editor control to another form
+By default, the rich text editor functionality is available for use with knowledge articles and emails, but if you want to use it with a different form somewhere else, you can add it by doing the following:
+
+1. Go to the form where you want to add the rich text editor control. 
+
+2. Select the RTE control, and then on the ribbon, select **Change properties**.
+
+3. Go to the **Controls** tab, and then select the rich text editor control.
+
+4. On the properties page, select the pencil icon next to **RichTextEditorControl_URL**. 
+
+5. Enter the following text: "/webResources/msdyncrm_/RichTextEditorControl/KnowledgeArticleRTEconfig.js" 
+
+6. Select **OK**, and then select **Save and Publish**.
+
   
 ## Mark a knowledge article for review  
  To make sure the content you’ve created is accurate, have someone review it.  
