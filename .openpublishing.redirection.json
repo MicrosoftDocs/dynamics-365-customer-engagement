@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "ce/legal/apps-for-power-platform-tou-rtw.mdd",
+      "redirect_url": "apps-for-power-platform-tou",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/marketing/manage-marketing-instances.md",
       "redirect_url": "manage-marketing-environments",
       "redirect_document_id": "false"
