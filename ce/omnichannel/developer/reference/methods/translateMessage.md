@@ -21,7 +21,7 @@ This method is required to be implemented in web resource. This method is called
 
 ## Syntax
 
-`Microsoft.Omnichannel.TranslationFramework.translateMessage(conversationId, translationConfig)`
+`function (conversationId, translationConfig): Object`
 
 ## Parameters
 
