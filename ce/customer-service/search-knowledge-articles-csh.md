@@ -4,7 +4,7 @@ description: See how you can effectively search knowledge articles in the Custom
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 09/13/2020
+ms.date: 09/28/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: dyn365-customerservice
@@ -143,7 +143,7 @@ To configure the ability to copy and send article URLs, see [Configure knowledge
 
 ### Configure knowledge base article URLs
 
-Knowledge articles can be configured with their own URLs, which agents can copy and share. 
+Knowledge articles can be configured with their portal URLs, and then agents can copy and share the URL links. 
 
 > [!NOTE]
 > Before you can configure knowledge articles with their own URLs, you must create a portal using your domain name. For information on how create a portal, see [Create a portal in an environment containing customer engagement apps](https://docs.microsoft.com/powerapps/maker/portals/create-dynamics-portal).
