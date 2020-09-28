@@ -51,9 +51,11 @@ To set up a search provider, do the following:
     > [!div class=mx-imgBorder]
     > ![Enter general information for a new search provider](media/new-search-provider.png "Enter the general information for the new search provider")
     
-4. Under **Details**, from the drop-down menu, select the type of search provider you want to use and the organization.
+4. If you want this search provider to be your default provider, toggle **Set as default** to **Yes**.
+    
+5. Under **Details**, from the drop-down menu, select the type of search provider you want to use and the organization.
 
     > [!div class=mx-imgBorder]
     > ![Select the search provider type and organization](media/search-provider-details.png "Select the search provider type and organization")
 
-When you are finished, select **Save** in the lower right-hand corner.
+6. When you are finished, select **Save** in the lower right-hand corner.
