@@ -15,12 +15,11 @@
 
 ### Customer Service workspace
 
-#### Agent and supervisor experience
-##### [Introduction to Customer Service workspace](csw-overview.md)
-##### [Customer Service workspace system requirements](customer-service-workspace-system-requirements.md)
-##### [Overview of productivity pane](csw-productivity-pane.md)
-##### [View AI suggested similar cases and knowledge articles](csw-view-ai-suggested-cases-knowledge-articles.md)
-##### [Search knowledge articles in productivity pane](csw-search-knowledge-articles.md)
+#### [Introduction to Customer Service workspace](csw-overview.md)
+#### [Customer Service workspace system requirements](customer-service-workspace-system-requirements.md)
+#### [Overview of productivity pane](csw-productivity-pane.md)
+#### [View AI suggested similar cases and knowledge articles](csw-view-ai-suggested-cases-knowledge-articles.md)
+#### [Search knowledge articles in productivity pane](csw-search-knowledge-articles.md)
 
 ### Customer Service Hub
 #### [Introduction to Customer Service Hub](user-guide-customer-service-hub.md)
