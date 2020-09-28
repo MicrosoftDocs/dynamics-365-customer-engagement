@@ -14,7 +14,7 @@ ms.topic: article
 
 [!include[cc-beta-prerelease-disclaimer](../../../../includes/cc-beta-prerelease-disclaimer.md)]
 
-This method is required to be implemented in web resource. This method is called for every conversation message exchanged between the customer and the agent, if translation is on and if the message has not been translated earlier in the conversation for the given destination language.
+This method is required to be implemented in web resource. This method is called for every conversation message exchanged between the customer and the agent, if translation is on and if the message has not been translated earlier in the conversation for the destination language.
 
 > [!IMPORTANT]
 > See this [sample web resource](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/06e9c84263bac81e7411f95365c5e792aca15122/customer-service/omnichannel/real-time-translation/webResourceV2.js#L279) for more information on how to implement the `translateMessage` API.
@@ -83,7 +83,7 @@ translationConfig = {
 
 ## Return Value
 
-Returns a promise which resolves to a Javascript object implementing `TranslatedMessageResponse` interface.
+Returns a promise that resolves to a Javascript object implementing `TranslatedMessageResponse` interface.
 
 **Interface object**
 
@@ -131,9 +131,9 @@ The `sourceLanguage` and `destinationLanguage` parameter in `TranslatedMessageRe
 ## Additional Information
 
 1. In case of an exception during execution of this method, Omnichannel for Customer Service will not retry and instead will display a translation failed error message.
-2. Error while executing this method can be notified via `errorObject`. In case of an error, Omnichannel for Customer Service will not retry and instead will display a the error message based on the provided error codes.
+2. Error while executing this method can be notified via `errorObject`. In case of an error, Omnichannel for Customer Service will not retry and instead will display the error message based on the provided error codes.
 3. In case the returned response is invalid or incomplete, an error message on the translation banner will appear in the conversation control.
-4. If this method is not implemented, then the message will not be translated and the following error will be displayed to the agent.
+4. If this method is not implemented, then the message will not be translated and the following error message will be displayed to the agent.
 
 ![translateMessage error message](../../../media/translatemessage-api-error.png "translateMessage error message")
 
