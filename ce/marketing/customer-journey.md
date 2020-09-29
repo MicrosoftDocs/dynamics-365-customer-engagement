@@ -2,7 +2,7 @@
 title: "Preview: Create a customer journey using the new canvas experience (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to create a customer journey using the new canvas experience for Dynamics 365 Marketing"
 keywords: customer journey
-ms.date: 09/11/2020
+ms.date: 09/28/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
