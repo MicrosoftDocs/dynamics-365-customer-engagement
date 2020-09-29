@@ -4,7 +4,7 @@ description: "Learn how to customize the quick view forms present in the Custome
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 07/01/2019
+ms.date: 09/29/2020
 ms.service: 
    "dynamics-365-customerservice"
 ms.topic: article
@@ -22,27 +22,24 @@ You customize the quick view form in the section by navigating to the respective
 
 2.  Go to **Settings** > **Customization** > **Customize the system**.
 
-3.  Expand **Components** > **Entities** > **Account** and select **Forms**.
+3.  Expand **Components** > **Entities** > **Conversation** and select **Forms**.
 
-4.  Select **Customer summary**, which is of the form type **Quick View Form**.
+4.  Select **Customer summary**.
 
 5.  In the form, select the section for which you want to add a field, and then in the **Field Explorer** pane, double-click the field you want to add to the form. For example, double-click the **Address 1: Address Type** field from the **Field Explorer** pane. The field is added to the section.
 
- > [!div class=mx-imgBorder]
- > ![Customize quick view form](../media/oc-crm-add-remove-fields-customer360.png "Customize quick view form")  
-
-6.  Select **Save** and then select **Publish**.
+6.  Select **Save**, and then select **Publish**.
 
 > [!TIP]
 > To edit a quick view form, see [Edit a quick view form](https://docs.microsoft.com/dynamics365/customer-engagement/customize/create-edit-quick-view-forms#edit-a-quick-view-form)  
 
 You can also use the previous procedure to add or remove fields in other sections. In step 3, select the entity that is shown in the following table, and then, in step 4, select the quick view form that is shown. Then follow steps 5 through 6.
 
-| **Card**         | **Entity**         | **Quick View Form** |
-|------------------|--------------------|----------------------|
-| Customer profile | Account > Forms | Customer summary         |
-| Customer profile | Contact > Forms | Customer summary         |
-| Issue snapshot   | Case > Forms    | Issue Snapshot       |
+| **Card**         | **Entity**      | **Quick View Form** |
+|------------------|-----------------|---------------------|
+| Customer profile | Account > Forms | Customer profile    |
+| Customer profile | Contact > Forms | Customer profile    |
+| Issue snapshot   | Case > Forms    | Issue Snapshot      |
 | Recent cases     | Account > Forms |  Cases for customer |
 | Recent cases     | Contact > Forms |  Cases for customer |
 
