@@ -105,6 +105,6 @@ Perform the following steps to view the similar cases and related articles for t
 
 ### See also
 
-[Knowledge base search control powered by Relevance search](search-knowledge-articles-csh.md)  
+[Enable AI-suggestions for similar cases and knowledge articles](csw-enable-ai-suggested-cases-knowledge-articles.md)  [Knowledge base search control powered by Relevance search](search-knowledge-articles-csh.md)  
 [Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)  
 [See similar case suggestions in Customer Service Hub](suggest-similar-cases-for-a-case.md#see-similar-case-suggestions-in-the-customer-service-hub)  

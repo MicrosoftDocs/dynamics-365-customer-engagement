@@ -42,5 +42,5 @@ Make sure that the case is opened in a session tab. To open it in a session tab,
 
 ### See also
 
-[Enable AI-suggestions for similar cases and knowledge articles ](csw-enable-ai-suggested-cases-knowledge-articles.md)  
+[Enable AI-suggestions for similar cases and knowledge articles](csw-enable-ai-suggested-cases-knowledge-articles.md)  
 [View AI-suggested similar cases and knowledge articles](csw-view-ai-suggested-cases-knowledge-articles.md)  
