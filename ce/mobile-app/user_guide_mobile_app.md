@@ -57,7 +57,7 @@ From the Home screen, select the site map ![Site map icon](media/d365_mobile_sit
 
  
    > [!div class="mx-imgBorder"]
-   > ![Site map screen](media/homesceen_d365.gif "This image demonstrates how to get to the site map screen")
+   > ![How to get to the home screen](media/homesceen_d365.gif "This image demonstrates how to get to the site map screen")
    
 
 
@@ -119,7 +119,7 @@ The **Pinned** and **Recent** lists provide quick access to records that you've 
 3. After the record is created, you can view the new record. 
 
    > [!div class="mx-imgBorder"]
-   > ![Create a record](media/create_new_record.gif "This image demonstrates how create a new record")
+   > ![Create a new record](media/create_new_record.gif "This image demonstrates how create a new record")
 
 
 -  To save and open the record that you created, select **More** ![More commands icon](media/d365_mobile_more_commands_icon.png "More commnads icon"), and then select **Save and Open**.
@@ -128,7 +128,7 @@ The **Pinned** and **Recent** lists provide quick access to records that you've 
 
 
    > [!div class="mx-imgBorder"]
-   > ![Create a record](media/create_new_record_more_options.gif "This image demonstrates how to save a record and open it or save and create a new record")
+   > ![How to create a record](media/create_new_record_more_options.gif "This image demonstrates how to save a record and open it or save and create a new record")
 
 
 ## View commands for a record
