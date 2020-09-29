@@ -6,7 +6,7 @@ ms.author: nenellim
 manager: shujoshi
 applies_to: 
   - ""
-ms.date: 07/10/2020
+ms.date: 09/28/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -41,12 +41,14 @@ As an administrator, you must download the Omnichannel Insights for Dynamics 365
 
 ### Step 1: Review prerequisites
 
-Review the following prerequisites before configuring the dashboard:
+Make sure the following prerequisites have been met before configuring the dashboard:
 
 - You have administrative privileges for Dynamics 365 Customer Service and Power BI.
-- You have a Power BI Pro license for all supervisors.
-- You must enable embedding of Power BI reports in Dynamics 365 Customer Service.
-
+- You have Power BI Pro license that is required to do the following:
+  - To get Omnichannel insights from app store and install it in your organization.
+  - For users to use the template app or to share it with other Power BI Pro users.
+- You have assigned template app workspace to a premium capacity so that every free user in the organization can consume the report. For information, see [Ways to collaborate and share in Power BI](https://docs.microsoft.com/power-bi/collaborate-share/service-how-to-collaborate-distribute-dashboards-reports).
+- You have enabled the embedding of Power BI reports in Dynamics 365 Customer Service by doing the following:
   1. Sign in to **Dynamics 365 Customer Service** and go to **Settings** > **Administration** > **System Settings**.
   2. Go to the **Reporting** tab and select **Yes** for **Allow Power BI visualization embedding**.
 
@@ -96,7 +98,7 @@ If a previous version of Omnichannel Insights was installed, we strongly recomme
     > [!div class=mx-imgBorder]
     > ![Select Connect on configuration page](../media/supervisor-admin-historical-select-connect-data.png "Select Connect on configuration page")
 
-2. On the connect data page, enter your organization's CRM OData feed URL and select **Next**.
+2. On the connect data page, enter your organization's CRM OData feed URL, and select **Next**.
 
     > [!div class=mx-imgBorder]
     > ![Enter CRM OData feed URL](../media/oc-config2.png "Enter CRM OData feed URL")

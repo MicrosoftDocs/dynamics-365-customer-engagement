@@ -1,10 +1,10 @@
 ---
-title: MICROSOFT SOFTWARE LICENSE TERMS MICROSOFT POWER AUTOMATE UI FLOWS, VERSION 2.0 PUBLIC PREVIEW
+title: MICROSOFT SOFTWARE LICENSE TERMS MICROSOFT POWER AUTOMATE UI FLOWS, VERSION 1.0
 author: ReneeW-CPub
 robots: noindex,nofollow
 ---
 
-# MICROSOFT SOFTWARE LICENSE TERMS<br>MICROSOFT POWER AUTOMATE UI FLOWS, VERSION 2.0<br>PUBLIC PREVIEW
+# MICROSOFT SOFTWARE LICENSE TERMS<br>MICROSOFT POWER AUTOMATE UI FLOWS, VERSION 1.0
 
 These license terms are an agreement between you and Microsoft Corporation (or
 one of its affiliates). They apply to the software named above and any Microsoft
@@ -16,9 +16,8 @@ HAVE THE RIGHTS BELOW. BY USING THE SOFTWARE, YOU ACCEPT THESE TERMS.
 
 **1. INSTALLATION AND USE RIGHTS.**
 
->   **a) General.** You may install and use any number of copies of the software
->   on your devices. You may not use the software in a live operating
->   environment unless Microsoft permits you to do so under another agreement.
+>   **a) General.** You may install and use any number of copies of the
+>   software.
 >
 >   **b) Included Microsoft Applications.** The software may include other
 >   Microsoft applications. These license terms apply to those included
@@ -28,29 +27,26 @@ HAVE THE RIGHTS BELOW. BY USING THE SOFTWARE, YOU ACCEPT THESE TERMS.
 >   **c) Third Party Components.** The software may include third party
 >   components with separate legal notices or governed by other agreements, as
 >   may be described in the ThirdPartyNotices file(s) accompanying the software.
->
->   **d) Competitive Benchmarking.** If you are a direct competitor, and you
->   access or use the software for purposes of competitive benchmarking,
->   analysis, or intelligence gathering, you waive as against Microsoft, its
->   subsidiaries, and its affiliated companies (including prospectively) any
->   competitive use, access, and benchmarking test restrictions in the terms
->   governing your software to the extent your terms of use are, or purport to
->   be, more restrictive than Microsoft’s terms. If you do not waive any such
->   purported restrictions in the terms governing your software, you are not
->   allowed to access or use this software, and will not do so.
 
-**2. TIME-SENSITIVE SOFTWARE.**
+**2. DATA.**
 
->   **a) Period.** This agreement is effective on your acceptance and terminates
->   on the earlier of (i) 30 days following first availability of a commercial
->   release of the software or (ii) upon termination by Microsoft. Microsoft may
->   extend this agreement in its discretion.
+>   **a) Data Collection.** The software may collect information about you and
+>   your use of the software, and send that to Microsoft. Microsoft may use this
+>   information to provide services and improve our products and services. You
+>   may opt-out of many of these scenarios, but not all, as described in the
+>   product documentation. There are also some features in the software that may
+>   enable you to collect data from users of your applications. If you use these
+>   features to enable data collection in your applications, you must comply
+>   with applicable law, including providing appropriate notices to users of
+>   your applications. You can learn more about data collection and use in the
+>   help documentation and the privacy statement at <https://aka.ms/privacy>.
+>   Your use of the software operates as your consent to these practices.
 >
->   **b) Notice.** You may receive periodic reminder notices of this date
->   through the software.
->
->   **c) Access to data.** You may not be able to access data used in the
->   software when it stops running.
+>   **b) Processing of Personal Data.** To the extent Microsoft is a processor
+>   or subprocessor of personal data in connection with the software, Microsoft
+>   makes the commitments in the European Union General Data Protection
+>   Regulation Terms of the Online Services Terms to all customers effective May
+>   25, 2018, at <https://go.microsoft.com/fwlink/?linkid=2135030>.
 
 **3. SCOPE OF LICENSE.** The software is licensed, not sold. Microsoft reserves
 all other rights. Unless applicable law gives you more rights despite this
@@ -74,62 +70,27 @@ limitation, you will not (and have no right to):
 >   software as a stand-alone offering for others to use, or transfer the
 >   software or this agreement to any third party.
 
-**4. PRE-RELEASE SOFTWARE.** The software is a pre-release version. It may not
-operate correctly. It may be different from the commercially released version.
-
-**5. FEEDBACK.** If you give feedback about the software to Microsoft, you give
-to Microsoft, without charge, the right to use, share and commercialize your
-feedback in any way and for any purpose. You will not give feedback that is
-subject to a license that requires Microsoft to license its software or
-documentation to third parties because Microsoft includes your feedback in them.
-These rights survive this agreement.
-
-**6. DATA.**
-
->   **a) Data Collection.** The software may collect information about you and
->   your use of the software, and send that to Microsoft. Microsoft may use this
->   information to provide services and improve our products and services. You
->   may opt-out of many of these scenarios, but not all, as described in the
->   product documentation. There are also some features in the software that may
->   enable you to collect data from users of your applications. If you use these
->   features to enable data collection in your applications, you must comply
->   with applicable law, including providing appropriate notices to users of
->   your applications. You can learn more about data collection and use in the
->   help documentation and the privacy statement at <https://aka.ms/privacy>.
->   Your use of the software operates as your consent to these practices.
->
->   **b) Processing of Personal Data.** To the extent Microsoft is a processor
->   or subprocessor of personal data in connection with the software, Microsoft
->   makes the commitments in the European Union General Data Protection
->   Regulation Terms of the Online Services Terms to all customers effective May
->   25, 2018, at <https://go.microsoft.com/fwlink/?linkid=2135030>.
-
-**7. EXPORT RESTRICTIONS.** You must comply with all domestic and international
+**4. EXPORT RESTRICTIONS.** You must comply with all domestic and international
 export laws and regulations that apply to the software, which include
 restrictions on destinations, end users, and end use. For further information on
 export restrictions, visit <https://aka.ms/exporting>.
 
-**8. SUPPORT SERVICES.** Microsoft is not obligated under this agreement to
+**5. SUPPORT SERVICES.** Microsoft is not obligated under this agreement to
 provide any support services for the software. Any support provided is “as is”,
 “with all faults”, and without warranty of any kind.
 
-**9. UPDATES.** The software may periodically check for updates, and download
+**6. UPDATES.** The software may periodically check for updates, and download
 and install them for you. You may obtain updates only from Microsoft or
 authorized sources. Microsoft may need to update your system to provide you with
 updates. You agree to receive these automatic updates without any additional
 notice. Updates may not include or support all existing software features,
 services, or peripheral devices.
 
-**10. TERMINATION.** Without prejudice to any other rights, Microsoft may
-terminate this agreement if you fail to comply with any of its terms or
-conditions. In such event, you must destroy all copies of the software and all
-of its component parts.
-
-**11. ENTIRE AGREEMENT.** This agreement, and any other terms Microsoft may
+**7. ENTIRE AGREEMENT.** This agreement, and any other terms Microsoft may
 provide for supplements, updates, or third-party applications, is the entire
 agreement for the software.
 
-**12. APPLICABLE LAW AND PLACE TO RESOLVE DISPUTES.** If you acquired the
+**8. APPLICABLE LAW AND PLACE TO RESOLVE DISPUTES.** If you acquired the
 software in the United States or Canada, the laws of the state or province where
 you live (or, if a business, where your principal place of business is located)
 govern the interpretation of this agreement, claims for its breach, and all
@@ -141,7 +102,7 @@ in King County, Washington for all disputes heard in court. If not, you and
 Microsoft consent to exclusive jurisdiction and venue in the Superior Court of
 King County, Washington for all disputes heard in court.
 
-**13. CONSUMER RIGHTS; REGIONAL VARIATIONS.** This agreement describes certain
+**9. CONSUMER RIGHTS; REGIONAL VARIATIONS.** This agreement describes certain
 legal rights. You may have other rights, including consumer rights, under the
 laws of your state, province, or country. Separate and apart from your
 relationship with Microsoft, you may also have rights with respect to the party
@@ -181,13 +142,13 @@ mandatory country law applies, then the following provisions apply to you:
 >>   "cardinal obligations"). In other cases of slight negligence, Microsoft will
 >>   not be liable for slight negligence.
 
-**14. DISCLAIMER OF WARRANTY. THE SOFTWARE IS LICENSED “AS IS.” YOU BEAR THE
+**10. DISCLAIMER OF WARRANTY. THE SOFTWARE IS LICENSED “AS IS.” YOU BEAR THE
 RISK OF USING IT. MICROSOFT GIVES NO EXPRESS WARRANTIES, GUARANTEES, OR
 CONDITIONS. TO THE EXTENT PERMITTED UNDER APPLICABLE LAWS, MICROSOFT EXCLUDES
 ALL IMPLIED WARRANTIES, INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR
 PURPOSE, AND NON-INFRINGEMENT.**
 
-**15. LIMITATION ON AND EXCLUSION OF DAMAGES. IF YOU HAVE ANY BASIS FOR
+**11. LIMITATION ON AND EXCLUSION OF DAMAGES. IF YOU HAVE ANY BASIS FOR
 RECOVERING DAMAGES DESPITE THE PRECEDING DISCLAIMER OF WARRANTY, YOU CAN RECOVER
 FROM MICROSOFT AND ITS SUPPLIERS ONLY DIRECT DAMAGES UP TO U.S. \$5.00. YOU
 CANNOT RECOVER ANY OTHER DAMAGES, INCLUDING CONSEQUENTIAL, LOST PROFITS,

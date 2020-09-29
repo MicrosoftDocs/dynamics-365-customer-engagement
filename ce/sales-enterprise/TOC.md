@@ -58,6 +58,7 @@
 #### [Provide viewing permissions](provide-permissions-forecast.md)
 #### [Choose layout and columns](choose-layout-and-columns-forecast.md)
 #### [Apply additional filter](add-additional-filters.md)
+#### [Configure and manage drill-down entities](configure-manage-drill-downs.md)
 #### [Activate and upload simple columns data](activate-upload-simple-columns-data-forecast.md)
 #### [Configure forecast using custom rollup entity](configure-forecast-using-custom-rollup-entity.md)
 #### [Capture forecast category for opportunity](capture-forecast-category-opportunity.md)
@@ -128,6 +129,7 @@
 ### Sales forecasting
 #### [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)  
 #### [View a forecast](view-forecasts.md)
+#### [View and understand data through drill-down entities](view-understand-data-through-drill-down.md)
 #### [View and manage underlying opportunities](view-and-manage-underlying-opportunities.md)
 #### [Adjust values in a forecast](adjust-values-in-forecast.md)
 #### [Maintain up to date forecast data](keep-forecast-data-up-to-date.md)
