@@ -1,7 +1,7 @@
 ---
 title: "Frequently asked questions (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Frequently asked questions for Dynamics 365 Sales"
-ms.date: 09/23/2020
+ms.date: 09/29/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
@@ -16,7 +16,7 @@ manager: shubhadaj
 
 **Question**:<br>Why are the **Follow** and **Unfollow** buttons displayed together on the command bar?
 
-**Answer**:<br>This is by design. If you go to an entity in Unified Interface and select a record, the **Follow** and **Unfollow** buttons are displayed together on the command bar no matter which state the selected record is in, followed or not followed.<!--note from editor: Edit okay? I couldn't tell what "the same state" meant here. -->
+**Answer**:<br>This is by design. If you go to an entity in Unified Interface and select a record, the **Follow** and **Unfollow** buttons are displayed together on the command bar no matter which state the selected record is in, followed or not followed.
 
 **Question**:<br>If the SchedulingEngine feature is enabled for appointments, why am I redirected to the default tab in an appointment when I save it from a non-default tab?
 
@@ -28,17 +28,17 @@ manager: shubhadaj
 
 **Question**:<br>If the SchedulingEngine feature is enabled for appointments, why does the **Open Record Set** button disappear when an appointment is saved?
 
-**Answer**:<br>When you select **Save** to save an appointment, the **Open Record Set** button disappears. When you refresh the page, the button reappears. More information: [Open Record Set](https://docs.microsoft.com/powerapps/user/navigation#record-set-navigation)<!--note from editor: Edits suggested.-->
+**Answer**:<br>When you select **Save** to save an appointment, the **Open Record Set** button disappears. When you refresh the page, the button reappears. More information: [Open Record Set](https://docs.microsoft.com/powerapps/user/navigation#record-set-navigation)
 
-**Question**:<br>Why are the synchronized appointments from Outlook shown as not saved<!--Is "not saved" something that actually appears in the UI? Or do the appointments simply not show up in Dynamics 365? Or would it be accurate to say "appointments from Outlook aren't shown as having been saved in Dynamics 365"? I can't quite picture what "shown as not saved" means, but maybe this will be clear to the reader. --> in Dynamics 365?
+**Question**:<br>Why are the synchronized appointments from Outlook shown as unsaved in Dynamics 365?
 
-**Answer**:<br>When you create an appointment or edit any existing appointment in Outlook and synchronize it with Dynamics 365, the appointment is created in Dynamics 365 but is shown as not saved<!--Or "isn't shown as having been saved."?-->. You can disable the auto-save option in Dynamics 365 to see the synchronized appointments from Outlook saved into Dynamics 365.
+**Answer**:<br>When you create an appointment or edit any existing appointment in Outlook and synchronize it with Dynamics 365, the appointment is created in Dynamics 365 but is shown as unsaved. You can disable the auto-save option in Dynamics 365 to see the synchronized appointments from Outlook saved into Dynamics 365.
 
 **Question**:<br>Why can't I see the What's new functionality in Unified Interface?
 
 **Answer**:<br>This is by design. The What's new functionality is only available in the legacy web client. The equivalent in Unified Interface is to insert the Timeline control (with posts enabled) on the dashboard:
 
-1. In your app, select **Settings** ![Settings](media/settings-icon.png),<!--Edit okay? This is what the Writing Style Guide prefers.--> and then select **Advanced Settings**.
+1. In your app, select **Settings** ![Settings](media/settings-icon.png), and then select **Advanced Settings**.
 
    The **Business Management** page opens in a new browser tab.
 
