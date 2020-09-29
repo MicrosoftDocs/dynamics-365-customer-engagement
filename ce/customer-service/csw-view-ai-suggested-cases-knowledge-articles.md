@@ -100,7 +100,7 @@ Perform the following steps to view the similar cases and related articles for t
    - Select a case title to drill through the details of the resolved case.
    - Select more commands to do the following:
      - **Copy resolution:** Select to copy the resolution notes information from the resolved case to the clipboard. 
-     - **Email agent:** Select to open the email compose form to send your questions to the agent who handled the similar case.
+     - **Email agent:** Select to open the email compose form to send your questions to the agent who handled the similar case. The mail form opens on a new tab with the pertinent information and link to the resolved case filled in.
    - Select the link icon to link or clear the link with the similar case.
 
 ### See also
