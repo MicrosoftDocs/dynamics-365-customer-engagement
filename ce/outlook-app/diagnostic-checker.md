@@ -37,7 +37,7 @@ Use the Outlook Checker to run a diagnostic check and scan for potential issues 
  
  1. **Export logs**: After you run the checker, export the error logs and send the log files to your support team or admin for further troubleshooting.
  2. **Clear cache**: This will clear any errors in the App for Outlook cache. Cache will rebuild the next time you sign in. 
- 3. **Hide or Show**: Move the toggle to **Show** to add the **Outlook Checker** on the command bar. If the toggle is set to **Hide**, press **Alt**+**Ctrl**+**Y** on your keyboard to bring up the **Outlook Checker**.
+ 3. **Hide or Show**: Move the toggle to **Show** to add the **Outlook Checker** on the command bar. If the toggle is set to **Hide**, press **ALT**+**CTRL**+**Y** on your keyboard to bring up the **Outlook Checker**.
  4. **Run diagnostics**: This will run the diagnostics checker and scan for potential issues. 
  
  
@@ -49,7 +49,7 @@ Use the Outlook Checker to run a diagnostic check and scan for potential issues 
     > ![Open Outlook pane.](media/outlook-pane.png "Open Outlook pane")
     
     
-2. Select the **Dynamics 365** pane and then press **Alt**+**Ctrl**+**Y** on your keyboard to bring up the **Outlook Checker**.
+2. Select the **Dynamics 365** pane and then press **ALT**+**CTRL**+**Y** on your keyboard to bring up the **Outlook Checker**.
 3. Use the **Show** or **Hide** toggle to show or hide the checker icon in the command bar.
   
     > [!div class="mx-imgBorder"] 
@@ -66,7 +66,7 @@ Use the Outlook Checker to run a diagnostic check and scan for potential issues 
     > [!div class="mx-imgBorder"] 
     > ![Run the diagnostics checker.](media/run-checker.png "Run the diagnostics checker")
     
-5. The checker will show a detailed status of all the components. If you run into issues, select **Export logs** to export the log files and send them to your administrator.
+5. The checker will show a detailed status of all the components. If you run into issues, select the **Export logs** icon to export the log files and send them to your administrator.
 
     > [!div class="mx-imgBorder"] 
     > ![Export logs.](media/send-logs.png "Export logs")
@@ -74,6 +74,10 @@ Use the Outlook Checker to run a diagnostic check and scan for potential issues 
 ## Common issues
 
 1. If you don't have sufficient privileges to use Dynamics 365 App for Outlook, see [A privilege error occurs when attempting to use Dynamics 365 App for Outlook](https://go.microsoft.com/fwlink/p/?linkid=2135239).
+
+
+  <!-- I don't find the topic "The view is not available error message" when I go to that link. -->
+
 
 2. If you deactivated one of the views used by Dynamics 365 App for Outlook and get an error, see [The view is not available error message](https://go.microsoft.com/fwlink/p/?linkid=213547).
 
