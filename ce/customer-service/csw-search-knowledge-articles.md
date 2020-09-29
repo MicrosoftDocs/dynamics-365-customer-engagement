@@ -21,20 +21,17 @@ search.app:
 
 # Search for knowledge articles
 
-In Customer Service workspace, knowledge base search lets you search for relevant knowledge articles to resolve a case. The knowledge area is available on the productivity pane. The search results are automatically populated based on a field your administrator configured in the **Knowledge Base Management** area of Customer Service Hub. For a case, this is the title of the case record.
+In Customer Service workspace, knowledge base search lets you search for relevant knowledge articles to resolve a case. The knowledge area is available on the productivity pane.
 
 ## Prerequisites
 
-The following prerequisites are applicable:
-
-- The productivity pane and knowledge base search must be enabled in app profile manager.
-- Relevance search is configured for the case entity in the Service Management area of Customer Service Hub.
+The productivity pane and knowledge base search must be enabled in app profile manager.
 
 ## Use the knowledge pane to search articles
 
 In Customer Service workspace, for a case, when you select the knowledge tab, knowledge articles that match the case title are displayed on the **Knowledge** pane. These articles are displayed based on relevance and full-text search mechanisms.
 
-The knowledge articles are applicable for only cases and conversations.
+The knowledge articles are applicable for all knowledge-enabled entities.
 
 By default, the full text search displays 10 results and relevance search displays 50 results.
 
@@ -44,8 +41,8 @@ By default, the full text search displays 10 results and relevance search displa
   |Label|Description|
   |-----|-----------|
   |1.| Knowledge tab|
-  |2.| Lets you link or unlink the article to the case.|
-  |3.| Text appears when the article is linked to the case.|
+  |2.| Lets you link or unlink the article to the entity, such as the case.|
+  |3.| Text appears when the article is linked to the entity.|
   |4.| Number of times the article has been viewed.|
   |||
 
@@ -76,10 +73,7 @@ You can perform the following actions for the knowledge article:
 ### Filter knowledge articles
 
 With the help of text and visual filters, you can filter the knowledge articles. To see knowledge articles in specific states, use the **Status** filter. You can filter search results to see all draft, published, or approved articles. See articles that are categorized as internal and external. You can also filter the articles based on date and language.
-<!-- >
-  > [!div class=mx-imgBorder]
-  > ![Knowledge article filter](media/csw-filter-km.png "Knowledge article filter")  
- < --> 
+
 When you select the filter icon, you can see the **Filter by** menu where you can filter the items based on the following categories.
 
   | Category | Sub-category |

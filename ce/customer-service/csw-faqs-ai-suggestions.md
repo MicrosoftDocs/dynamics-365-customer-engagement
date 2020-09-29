@@ -26,10 +26,11 @@ A few answers to common questions on the AI-suggested similar cases and knowledg
 It may be caused by one of the following reasons:
 
 - If it’s the first time you've enabled suggestions, it may take up to 24 hours to complete the pre-processing from your existing published knowledge articles and resolved cases before suggestions will be displayed.
-- The first time pre-process operation handles up to 3000 published knowledge articles and 50000 resolved cases from the most recent ones. Older articles and resolved cases are not picked up from the first time pre-processing, so they won’t be surfaced as suggestions.
+- The first time pre-process operation handles up to 1,500 published knowledge articles and 10,000 resolved cases from the most recent ones. Older articles and resolved cases are not picked up from the first time pre-processing, so they won’t be surfaced as suggestions.
 - Suggestions are displayed for only active cases. Suggestions are updated when an active case is created or updated.
 - The case title or description is not clear enough to describe the problem, therefore, the model can't find articles or similar cases that match what's described.
 - Only English content is supported. For knowledge articles, the locale must be English.
+- To see suggestions, User Interface Language must be set to English in users' personalization settings.
 
 ## I've added more details about the problem in an active case, but the suggestions are not refreshed at all
 

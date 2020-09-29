@@ -41,7 +41,7 @@ The key highlights of the feature are as follows:
 >   - Japan
 >   - Asia Pacific
 >   - Australia
-> - The AI suggestions feature supports only English content and is available only in organizations that have the base language set as English.
+> - The AI suggestions feature supports only English content and is available for administrators to set up only in organizations that have the base language set as English. For agents to view the suggested knowledge articles and similar cases, you must also set the User Interface Language as English in the users' personalization settings. Otherwise, "No suggestions" will be displayed in smart assist.
 
 ## How AI suggestions for similar cases and knowledge articles works
 
@@ -50,7 +50,7 @@ The AI suggestions are displayed in smart assist, which is an intelligent assist
 The AI suggestions are powered by a set of pre-trained natural language understanding models that help agents find relevant knowledge articles or similar cases quickly, based on the context of active cases or ongoing conversations. The AI models work as follows:
 
 - Knowledge articles and similar cases can be suggested based on the semantic meaning in case context and knowledge article content.
-- The model pre-processes published knowledge articles and resolved cases every day to prepare suggestion candidates. For the first time pre-processing, up to 3000 published articles and 50,000 recently resolved cases will be processes. Subsequently, newly published articles and resolved cases will be processed. Up to 1 million of latest resolved cases will be processed to serve suggestions.
+- The model pre-processes published knowledge articles and resolved cases every day to prepare suggestion candidates. For the first time pre-processing, up to 1,500 published articles and 10,000 recently resolved cases will be processes. Subsequently, newly published articles and resolved cases will be processed. Up to 1 million of latest resolved cases will be processed to serve suggestions.
 - After a case is created or updated, or during an ongoing conversation, the model finds out matching knowledge articles and similar cases from suggestion candidates.
 - A brief summary is auto-generated for each pre-processed knowledge article based on its content. When a knowledge article is suggested, both article title and the auto-generated summary are surfaced to agents, which helps them to get a better idea about the article before agent clicks through it.
 - In addition to the suggestions, agents can also tell why an article or similar case is suggested through a list of key phrases that are auto-extracted from knowledge articles and cases. These key phrases highlights the relevance between a suggestion and an active case or an ongoing conversation, in addition to the confidence score (which is a percentage number that indicates the degree to which an article or similar case matches with the active case).
@@ -74,10 +74,14 @@ Make sure that the following requirements are met:
 Perform the following steps to enable the AI suggestions for similar cases:
 
 1. Sign in to the Customer Service Hub app.
-2. In the **Change area**, select **Service Management** > **Settings (Preview)**. The **Analytics and insights settings** page appears.
-3. Select **Manage** under **Suggestions**. The **Suggestions** page appears.
+2. In the **Change area**, select **Service Management** > **Settings**. The **Analytics and insights settings** page appears.
+3. In the **Premium AI capabilities** section, select** **Manage** under **Suggestions**. The **Suggestions** page appears.
 4. In the **Settings** > **Summary** area, set the toggle to **Yes** for **Enable similar case suggestions**.
-5. In the **Data mapping** > **Case entity data fields** area, select values for the **Case summary** and **Case details** boxes respectively if you do not want to use **Case Title** and **Description** that are set by default. The AI model uses the data corresponding to the selected boxes to understand the case context to provide similar case suggestions. By default,  are selected.
+5. In the **Data mapping** > **Case entity data fields** area, select values for the **Case summary** and **Case details** boxes respectively if you do not want to use **Case Title** and **Description** that are set by default. The AI model uses the data corresponding to the selected boxes to understand the case context to provide similar case suggestions. By default, Case Title and Description fields are selected.
+
+   > [!NOTE]
+   > We recommend that you use text fields with plain text because suggestions might not be generated for text fields that are enabled for rich text format.
+
 6. Select **Save**.
 
    > ![Enable AI-suggested similar cases](media/csw-enable-ai-suggested-cases.png "Enable AI-suggested similar cases")
