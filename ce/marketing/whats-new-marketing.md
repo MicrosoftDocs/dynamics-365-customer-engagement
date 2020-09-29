@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 09/23/2020
+ms.date: 10/01/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -32,7 +32,7 @@ Marketing updates are [pushed to all customers automatically](https://cloudblogs
 
 ## October 2020 update
 
-The October update includes email designer enhancements, social posting improvements, improved localization of events, an updated template gallery, and 23 bug fixes, improving reliability and stability. The early access release includes [2020 release wave 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/planned-features) features, including a new customer journey designer and flexible options for data after form submissions.
+The Dynamics 365 Marketing October 2020 update includes several feature enhancements, performance upgrades, and bug fixes. Several [2020 release wave 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/planned-features) features have been made generally available in the October update, including a new customer journey designer, built-in Teams functionality for events, email designer enhancements, flexible options for data after form submissions, in-place editing of email and forms, and expanded social posting options. This release also includes a preview of natural language input for creating segments.
 
 ### Version number
 
@@ -43,31 +43,37 @@ The October update includes email designer enhancements, social posting improvem
 > [!Tip]
 > To check your current version number, refer to [Find out which version of Dynamics 365 Marketing you are running](https://docs.microsoft.com/dynamics365/marketing/apply-updates#find-out-which-version-of-dynamics-365-marketing-you-are-running).
 
-### Early access features
-
-> [!IMPORTANT]
-> Early access features are currently available only on opted-in instances. You can opt in for early access on any instance, but we recommend that you do so only on trial, test, or sandbox instances, which will give you a chance to learn the new functionality before it shows up on your production instances later this year.
->
-> For instructions on how to opt in and enable early access, see [Opt in to early access updates](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates). For more information about the 2020 release wave 2 schedule, and for answers to frequently asked questions about the early access program, see [2020 release wave 2 features available for early access](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/features-ready-early-access).
->
-> We encourage all customers to provide feedback related to early access features on the [Dynamics 365 Marketing Forum](https://community.dynamics.com/365/marketing/f/dynamics-365-for-marketing-forum), your Microsoft contact or partner, and/or through [Microsoft Support](https://docs.microsoft.com/power-platform/admin/get-help-support).
+### General availability enhancements
 
 - **Build customer journeys more efficiently using the new canvas experience**
     - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/new-improved-customer-journey-canvas-experience)
     - [Docs](customer-journey.md)
+- **Run webinars and meetings using built in Microsoft Teams functionality**
+    - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/teams-integration-webinar)
+    - [Docs](teams-webinar.md)
+- **Create engaging, customized emails faster**
+    - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/create-customized-emails-faster)
+    - [Docs](email-design.md)
 - **Collect data from form submissions more easily with expanded entity options**
     - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/capture-data-more-easily-simplified-forms-requirements)
     - [Docs](marketing-forms.md#early-access-do-not-createupdate-contacts-or-leads)
+- **In-place editing of email and forms**
+    - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/in-place-editing-email-forms)
+    - [Docs]()
+- **Create and manage content-rich social media posts and easily monitor performance**
+    - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/improved-social-posting)
+    - [Docs](social-posting.md)
 
-### Monthly enhancements
+### Preview feature
 
-- **Event management**
-    - With localization improvements, event websites reflect the time zone of where the event is taking place.
-- **Marketing emails**
-    - Improved support for background images, call to action buttons, and responsiveness in Microsoft Outlook.
-    - Toggle post-processing on or off for custom HTML that is pasted into the email editor.
-- **Social posting**
-    - Post directly to a Facebook user account or any Facebook page on which you are an admin.
+> [!IMPORTANT]
+> This is a preview feature. A preview feature is a feature that is not complete, but is made available before it's officially in a release so customers can get early access and provide feedback. Preview features aren't meant for production use and may have limited or restricted functionality.
+>
+> Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won't be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate supplemental terms of use.
+
+- **Use natural language to create targeted segments**
+    - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/create-consume-segments-using-natural-language)
+    - [Docs](customer-journey.md)
 
 ### Bug fixes
 
