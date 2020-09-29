@@ -5,16 +5,17 @@
 ## [Set up mobile app](set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md)
 ## [Manage and secure devices](secure-manage-phones-tablets.md)
 ## [Set-up mobile offline synchronization](setup-mobile-offline-for-admin.md)
-## [Preview: Set-up mobile offline synchronization](preview-setup-mobile-offline.md)
+## [Set-up mobile offline synchronization (Preview)](preview-setup-mobile-offline.md)
 ## [Mobile offline capabilities and limitations](mobile-offline-capabilities.md)
 
 # [Install the mobile app](install-dynamics-365-for-phones-and-tablets.md)
 # [Migrate to Power Apps mobile](migration.md)
 
-# User Guide
-## [Use the mobile app](dynamics-365-phones-tablets-users-guide.md)
+# User Guides
+## [User Guide for Dynamics 365 for phones and tablets](dynamics-365-phones-tablets-users-guide.md)
+## [Basic navigation in Dynamics 365 for phones and tablets (Preview)](user_guide_mobile_app.md)
 ## [Send email from the mobile app (Preview)](send-email.md)
-# [Work offline on your mobile device](work-in-offline-mode.md)
+## [Work offline on your mobile device](work-in-offline-mode.md)
 
 # [Troubleshooting](troubleshooting-things-know-about-phones-tablets.md)
 
