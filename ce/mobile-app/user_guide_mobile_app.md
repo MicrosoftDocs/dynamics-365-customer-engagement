@@ -1,7 +1,7 @@
 ---
 title: "Dynamics 365 for phones and tablets User's Guide (Dynamics 365 apps)| MicrosoftDocs"
 ms.custom: 
-ms.date: 9/26/2020
+ms.date: 9/29/2020
 ms.reviewer: kvivek
 ms.service: crm-online
 ms.suite: 
@@ -23,6 +23,9 @@ search.app:
 ---
 
 # User Guide for Dynamics 365 for phones and tablets app
+
+
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 Use Dynamics 365 for phones and tablets to run your customer engagement apps in Dynamics 365 (such as Dynamics 365 Sales and Dynamics 365 Customer Service), on your mobile device. For more information on how to install the app, see [Install Dynamics 365 for phones and tablets](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets).
 
