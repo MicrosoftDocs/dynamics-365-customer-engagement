@@ -22,7 +22,7 @@ search.app:
   - D365Sales
 ---
 
-# User Guide for Dynamics 365 for phones and tablets app
+# Preview: User Guide for Dynamics 365 for phones and tablets app
 
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
