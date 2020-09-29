@@ -123,7 +123,7 @@ If a new user is created in Dynamics 365, its data should to be sent to the Gami
 
 ### Create default KPIs
 
-If the default KPIs are deleted, you can restore them by selecting **Create Default KPIs**.
+If the default KPIs are deleted or modified, you can restore them by selecting **Create Default KPIs**.
 
 ### Recalculate active games
 
