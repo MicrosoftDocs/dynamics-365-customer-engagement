@@ -1,5 +1,6 @@
 ---
-title: "Dynamics 365 for phones and tablets User's Guide (Dynamics 365 apps)| MicrosoftDocs"
+title: "Basic navigation in Dynamics 365 for phones and tablets (Dynamics 365 apps)| MicrosoftDocs"
+description: How to use the Dynamics 365 for phones and tablets app
 ms.custom: 
 ms.date: 9/29/2020
 ms.reviewer: kvivek
@@ -22,7 +23,7 @@ search.app:
   - D365Sales
 ---
 
-# Preview: User Guide for Dynamics 365 for phones and tablets 
+# Preview: Basic navigation in Dynamics 365 for phones and tablets 
 
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
