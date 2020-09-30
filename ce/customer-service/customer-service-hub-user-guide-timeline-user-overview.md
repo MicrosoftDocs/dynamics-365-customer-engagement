@@ -38,13 +38,11 @@ The icons displayed in the top right nav in the Timeline gives quick access to t
 
 When enabled by your system administrator, the **Create a timeline record** feature allows you to quickly create appointments, tasks, send emails, make notes and posts and associate them with other records. 
 
-1. Select **Create a timeline record** icon
+1. Select **Create a timeline record** icon<BR><BR>
+![](media\timeline-create-a-record-icon1a.png "Create a timeline record") 
 
-  ![](media\timeline-create-a-record-icon1a.png "Create a timeline record") 
-
-2. Select the type of record you want to create from the display options available. 
-
-    ![Create a timeline record](media\timeline-create-a-timeline-record-1c.png "Create a timeline record")
+2. Select the type of record you want to create from the display options available. <BR><BR>
+![Create a timeline record](media\timeline-create-a-timeline-record-1c.png "Create a timeline record")
 
 For information on timeline record configuration, see [Configure activity record types](customer-service-hub-user-guide-timeline-admin.md#configure-activity-record-types).
 
@@ -206,6 +204,7 @@ When enabled by your system administrator, the **Post** field is also displayed 
 When you hover your cursor on or expand an activity, post, or note, the command bar appears in the top right corner of the record with the specific options that support that activity, such as assigning it to others, adding it to a queue, converting it to a case, liking or replying to a post, editing a note, or deleting an activity. However, not all records can perform the same actions. 
 
 **Command actions by record**
+
 ![Command bar actions in timeline](media\timeline-access-command-bar-actions-1a.png "Command bar actions")
 
 Legend
@@ -323,7 +322,7 @@ Legend
 
 To add a reference such as links in a post to a timeline record, select the **Create a timeline record** ![](media\timeline-create-a-record-icon.png "Create a timeline record") icon and select **Post**, then follow the steps below:
 
-![Add a link](media\timeline-add-link-1a.png "Add a link")
+![Add a link](media\timeline-add-link-1a.png"Add a link")
 
 Legend
 1. Links can be added to a record by typing **#** which will display a flyout menu with a list of records recently accessed. Type a keyword after the # tag and the display refreshes in the flyout menu via the **Dynamics 365 Quick Find** search engine that's operating in the background.
