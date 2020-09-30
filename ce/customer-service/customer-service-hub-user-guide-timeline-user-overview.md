@@ -257,7 +257,7 @@ Select the paperclip ![](media\timelilne-paperclip-icon.png "paperclip icon") ic
 
 Once you attach a file to your note, the **Edit note** screen will display, and attachmentes display at the bottom of the **Edit note** screen.
 
-![Edit note screen](media\timeline-add-an-attachment-to-a-note1.png "Edit note screen")
+![Edit note screen](media\timeline-select-user-advanced-find.png "Edit note screen")
 
 > [!IMPORTANT]
 > - You can only add one attachment to a note that is attached to a record. 
@@ -307,7 +307,7 @@ When enabled by your system administrator, you can either add a **Post** to a re
 ### Add a mention or reference a team member in a Post
 <BR>
 
-![Add a mention or reference to a team member in a post on timeline](media\timeline-select-user-advanced-find.png "Add a mention or reference to a team member in a post on timeline")
+![Add a mention or reference to a team member in a post on timeline](media\timeline-select-user-advanced-find-1a.png "Add a mention or reference to a team member in a post on timeline")
 
 Legend
 1. Typing the @ sign in the **Post** field will display a flyout menu with a list of users that have been recently used.
