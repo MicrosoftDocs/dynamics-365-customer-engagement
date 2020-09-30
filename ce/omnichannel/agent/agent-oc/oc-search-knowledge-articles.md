@@ -32,7 +32,7 @@ You can launch KB Search in the following ways:
 
 The productivity pane and knowledge base search must be enabled in app profile manager. 
 
-### Use the knowledge pane to search articles
+### Use the knowledge pane to search for articles
 
 In Omnichannel for Customer Service, when you are engaged in a conversation with a customer, you can use the **Knowledge** pane to search for knowledge articles and refer to them.
 
