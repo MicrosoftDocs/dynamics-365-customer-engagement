@@ -2,7 +2,7 @@
 title: "Preview: Create a customer journey using the new canvas experience (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to create a customer journey using the new canvas experience for Dynamics 365 Marketing"
 keywords: customer journey
-ms.date: 09/11/2020
+ms.date: 09/30/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -41,24 +41,13 @@ The following definitions explain how to work with each type of tile available f
 
 ### Audience
 
-
-<!-- from editor: Is it OK to change "down the customer journey" to "along the customer journey" in lines 49 and 54? "Along" just seems more natural. -->
-
-
 - **Segment**: A segment is a collection of contacts grouped according to a common attribute or explicit assignment. More information: [Working with segments](segmentation-lists-subscriptions.md)
-- **Form submitted**: All new or existing contacts who submit the form will be sent down the customer journey. More information: [Create an inbound customer journey](create-inbound-customer-journey.md). You can also create an audience based on a submitted form by creating a segment comprised of people who submitted the form.
-
-
-<!-- from editor: I'm guessing that "contacts" are people, which is why I changed "that" to "who," but if I'm wrong, then "that" is OK. -->
-
-- **Record updated**: Use the record-updated tile to monitor all records belonging to a specific entity, and then find the contact associated with any of those records who gets created, deleted, or updated while the journey is running. All contacts found by this tile will be sent down the customer journey.
+- **Form submitted**: All new or existing contacts who submit the form will be sent along the customer journey. More information: [Create an inbound customer journey](create-inbound-customer-journey.md). You can also create an audience based on a submitted form by creating a segment comprised of people who submitted the form.
+- **Record updated**: Use the record-updated tile to monitor all records belonging to a specific entity, and then find the contact associated with any of those records that gets created, deleted, or updated while the journey is running. All contacts found by this tile will be sent along the customer journey.
 
 ### Messages
 
-<!-- from editor: "Messages tiles" sounds off. Can it instead be "Message tiles"? -->
-
-
-The content that your customer journey delivers to contacts as they traverse the pipeline. Messages tiles include email for now.
+The content that your customer journey delivers to contacts as they traverse the pipeline. Message tiles include email for now.
 
 - **Send an email**: This tile sends a marketing email message to each contact who enters it.
 
@@ -69,7 +58,7 @@ The content that your customer journey delivers to contacts as they traverse the
     > [!IMPORTANT]
     > To be able to define a condition, you need to first define at least one other tile in a journey. This is necessary so that its entity (or any of the entity’s dependencies) can be selected as a condition source.
 
-- **Split**: This tile has replaced the **Splitter** and **Splitter-branch** tiles. The Split tile adds a fork to the customer journey pipeline, sending a random selection of contacts down each available path.
+- **Split**: This tile has replaced the **Splitter** and **Splitter-branch** tiles. The Split tile adds a fork to the customer journey pipeline, sending a random selection of contacts along each available path.
 
 ### Wait/delay
 
@@ -88,10 +77,7 @@ The content that your customer journey delivers to contacts as they traverse the
 
 ### Custom tiles
 
-
-<!-- from editor: After the colon, should it instead be "Custom channel tiles..."? -->
-
-- **Custom channel**: Custom content tiles provide similar capabilities to the standard tiles described earlier (such as sending communication, tracking customer interactions, and adding triggers) but are created by partners and third-party developers to extend the marketing capabilities in Dynamics 365 Marketing. These custom tiles will appear in the designer if you have installed a partner-developed custom channel for customer journeys or have created and deployed your own custom channel for your Dynamics 365 Marketing instance.
+- **Custom channel**: Custom channel tiles provide similar capabilities to the standard tiles described earlier (such as sending communication, tracking customer interactions, and adding triggers) but are created by partners and third-party developers to extend the marketing capabilities in Dynamics 365 Marketing. These custom tiles will appear in the designer if you have installed a partner-developed custom channel for customer journeys or have created and deployed your own custom channel for your Dynamics 365 Marketing instance.
 
   Custom channels use the existing extensibility infrastructure and tooling in Dynamics 365, such as custom entities, workflows, and plug-ins, which allow developers and partners to leverage their knowledge of Dynamics 365. More information: [Extend customer journeys using custom channels](https://docs.microsoft.com/dynamics365/marketing/developer/extend-customer-journeys-custom-channels)
 
