@@ -69,34 +69,32 @@ Go to the schedule board and use the toggle button in the top right of the sched
 
 ## Schedule resources
 
-Beyond manual drag and drop scheduling, organizations using Resource Scheduling Optimization (RSO) can select one or more requirements from the new schedule board and either have the system **Suggest resources** or **Book resources**.
+Beyond manual drag and drop scheduling, organizations using resource scheduling optimization can select one or more requirements from the new schedule board and either have the system **Suggest resources** or **Book resources**.
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](../../field-service/media/scheduling-new-suggest-resources.png)
+> ![Screenshot of the suggest resources option.](../../field-service/media/scheduling-new-suggest-resources.png)
 
-Selecting _Suggest resources_ will display recommended resource(s) in the right panel for the dispatcher to book.
+Selecting **Suggest resources** will display recommended resources in the right panel for the dispatcher to book.
 
-Selecting _Book resources_ will simply find the most optimal resource(s) and book them without additional actions from the dispatcher.
+Selecting **Book resources** will find the most optimal resources and book them without additional actions from the dispatcher.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](../../field-service/media/scheduling-new-assistance-preview.png)
+> ![Screenshot of the scheduling assistance preview.](../../field-service/media/scheduling-new-assistance-preview.png)
 
-Suggest resources and Book resource capabilities on the new schedule board are currently only available for organizations using Resource Scheduling Optimization (RSO).
+**Suggest resources** and **Book resource** capabilities on the new schedule board are currently only available for organizations using resource scheduling optimization.
 
 ## Daily view
 
-The new schedule board supports a daily view of scheduled jobs and supports gragging and dropping to schedule.
+The new schedule board supports a daily view of scheduled jobs and supports dragging and dropping to the schedule.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](../../field-service/media/scheduling-new-daily-view-schedule1.png)
+> ![Screenshot of the daily schedule view on the new schedule board.](../../field-service/media/scheduling-new-daily-view-schedule1.png)
 
-Scheduled requirements with a short duration will display across the entire day to make it easier to view details. Hover over the requirement or double click in to see the actual duration. 
+Scheduled requirements with a short duration will display across the entire day to make it easier to view details. Hover over the requirement or double-click to see the actual duration. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](../../field-service/media/scheduling-new-daily-view.png)
-
-
+> ![Screenshot of the new schedule board showing another daily view detail.](../../field-service/media/scheduling-new-daily-view.png)
 
 
 ## Configuration considerations
