@@ -1,8 +1,9 @@
 ---
 title: "Asset properties in Dynamics 365 Field Service | MicrosoftDocs"
+description: Learn about how to use asset properties in Dynamics 365 Field Service.
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 08/01/2020
+ms.date: 10/01/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -35,9 +36,6 @@ Asset properties allow you to record information about assets stored in Dynamics
 Properties are flexible, and can be defined in multiple ways, as we'll look at in this article.
 
 ## Prerequisites
-
-> [!Note]
-> As of August 2020, asset properties are available as an early access feature. For more information, see the article on [how to opt-in to early access features](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates#how-to-enable-early-access-updates).
 
 - You'll need one or more existing assets in Field Service. For more information, see the article on [customer assets](configure-set-up-customer-assets.md).
 
