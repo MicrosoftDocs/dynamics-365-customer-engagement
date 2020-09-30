@@ -292,37 +292,34 @@ Admins have the ability to enable activity types so they can be created directly
 
 |Configuration View | | Display View |
 |-------------------|-|--------------|
-|![Configure the ability to create directly from timeline](media\timeline-enable-ability-to-create-directly-from-timeline-1.png "Configure the ability to create directly from timeline") || ![Configure the ability to create directly from timeline](media\timeline-enable-ability-to-create-directly-from-timeline-1.png "Configure the ability to create directly from timeline") |
-|	Ton enable users to create activity types directly from timeline, check the box next to **Create directly from timeline** to enable.||	When enabled, the activity type will appear in a drop down box when you click on the ![](media\timeline-create-a-record-icon.png "Create a timeline record") **Create a timeline record** icon in the top right nav in the timeline section of the entity record.|
-
+|![Configure the ability to create directly from timeline](media\timeline-enable-ability-to-create-directly-from-timeline-1a.png "Configure the ability to create directly from timeline") || ![Configure the ability to create directly from timeline](media\timeline-enable-ability-to-create-directly-from-timeline-1b.png "Configure the ability to create directly from timeline") |
+|	To enable users to create activity types directly from timeline, check the box next to **Create directly from timeline**.||	When enabled, the activity type will appear in a drop down box on the  **Create a timeline record** ![](media\timeline-create-a-record-icon.png "Create a timeline record") icon in the top right nav in the timeline.|
 
 ### Create and use card forms in timeline
 
 Records are displayed using the default setting for each activity type. However, if you want to display record information for an appointment or email, for example, you can either edit the existing card form, use a different card form from record settings, or customize your own. 
 
-12.	You can change the default card settings to a different card form if one has been created.  
-13.	If you create a new card form, you must go to the parent entity and add the new form of card type there before it will appear in the timeline list for configuration.  If **Default** is displayed, you are not using the card form.  You can not use the **Email card form** in timeline unless you select and publish it first.	
+|Configure View ||Display View|
+|---------------|-|-------------------|
+|![Create and use card forms in timeline](media\timeline-create-and-use-card-forms-display-options-advanced-1a.png "Create and use card forms in timeline")||![Create and use card forms in timeline](media\timeline-create-and-use-card-forms-display-options-advanced-1b.png "Create and use card forms in timeline") |
+|You can change the default card settings to a different card form if one has been created.  ||If you create a new card form, you must go to the parent entity and add the new form of card type there before it will appear in the timeline list for configuration.  If **Default** is displayed, you are not using the card form.  You can not use the **Email card form** in timeline unless you select and publish it first.|
 
 > [!NOTE]
 > Not all activity types allow you to create card types, so the default selection will be you’re only option for those records.
-
-![Display options - Advanced - Create and use card forms in timeline](media\timeline-create-and-use-card-forms-display-options-advanced-1.png "Display options - Advanced - Create and use card forms in timeline")
 
 ### How to customize a card from in timeline
 
 All card forms are broken out into the following four (4) sections:
 
-**a.** **ColorStrip Section.** This section does not appear on the timeline record. The **ColorStrip** is located on the left of the card form.<br>
+![Display options - Advanced - How to customize a card from in timeline](media\timeline-customize-card-form-display-option-advanced-1a.png "Display options - Advanced - How to customize a card from in timeline")
 
-**b.** **Header Section.** This section is displayed on the timeline record, however only the first two fields are displayed on the timeline record. For this example, only the **Subject** and **Modified On** fields are visible.<br>
+1. **ColorStrip Section.** This section does not appear on the timeline record. The **ColorStrip** is located on the left of the card form.<br>
+2. **Header Section.** This section is displayed on the timeline record, however only the first two fields are displayed on the timeline record. For this example, only the **Subject** and **Modified On** fields are visible.<br>
+3. **Details Section.** This section is displayed on timeline record, however only the first three fields are displayed on the timeline record. For this example, only the **To**, **CC**, and **Description** fields are visible on the timeline record.<br>
+4. **Footer Section.**	This section is not displayed on the timeline record.<br>
+5. **Entity Fields.** You can select which fields you want to add to your card form from the field options listed on the right.  You can customize your card form by dragging and dropping the fields you want to use into the sections you want that field to appear in on the timeline record.
 
-**c.** **Details Section.** This section is displayed on timeline record, however only the first three fields are displayed on the timeline record. For this example, only the **To**, **CC**, and **Description** fields are visible on the timeline record.<br>
 
-**d.** **Footer Section.**	This section is not displayed on the timeline record.<br>
-
-**e.** **Entity Fields.** You can select which fields you want to add to your card form from the field options listed on the right.  You can customize your card form by dragging and dropping the fields you want to use into the sections you want that field to appear in on the timeline record.
-
-![Display options - Advanced - How to customize a card from in timeline](media\timeline-customize-card-form-display-option-advanced-1.png "Display options - Advanced - How to customize a card from in timeline")
 
 Each individual card form has to be customized for each activity record such as email, tasks, posts, etc. 
 
