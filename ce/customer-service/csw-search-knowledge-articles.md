@@ -110,7 +110,7 @@ When configured, you can link an article to case. You can associate and dissocia
 
 Use the following options to share the knowledge article link or knowledge article content through mail:
 
-- **Email URL:** The new email form opens with the link to the article in the mail boxy.
+- **Email URL:** The new email form opens with the link to the article in the mail box.
 - **Email Content:** The article content is populated in the mail body. The fields are automatically populated based on the case and customer details.
 
 Add other information as needed, and then on the command bar, select **Send**.
