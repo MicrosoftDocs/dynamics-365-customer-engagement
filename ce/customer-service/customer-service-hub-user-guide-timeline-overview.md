@@ -20,7 +20,7 @@ Timeline allows you to:
 - Filter and view important activities using multiple filter options.
 - View and manage email conversation threads with ease. 
 
- > ![Timeline Browser Overview](media\timeline-browser-view.png "Timeline Browser Overview")
+![Timeline Browser Overview](media\timeline-browser-view.png "Timeline Browser Overview")
 
 ## How to use timeline functionality
 
@@ -39,7 +39,7 @@ The icons displayed in the top right nav in the Timeline gives quick access to t
 
 When enabled by your system administrator, the **Create a timeline record** feature allows you to quickly create appointments, tasks, send emails, make notes and posts and associate them with other records. 
 
- > ![Create a timeline record](media\timeline-create-a-timeline-record.png "Create a timeline record")
+![Create a timeline record](media\timeline-create-a-timeline-record.png "Create a timeline record")
 Legend:
 1. Select **Create a timeline record** ![](media\timeline-create-a-record-icon.png "Create a timeline record") icon
 2. Select the type of record you want to create from the display options available. 
@@ -289,11 +289,11 @@ Legend
 2.	You can select one of the user records, or start typing the keyword. When you start typing, the records in the flyout menu are refreshed to match the keyword. In the background, the **Dynamics 365 Quick Find** search is in use.
 3.	If you don’t find a record, you can switch to different views. To do this, select **Advanced**. The **Lookup Records** pane opens.
 
-    ![Select a user or use advanced find](media\timeline-select-user-advanced-find.png "Select a user or use advanced find")
+![Select a user or use advanced find](media\timeline-select-user-advanced-find.png "Select a user or use advanced find")
 
 4.	In the **Lookup Records** pane, you can switch between the **Recent records** and **All records** view to find a record.
 
-    ![Lookup Records pane](media\timeline-lookup-team-member.png "Lookup Records pane")
+![Lookup Records pane](media\timeline-lookup-team-member.png "Lookup Records pane")
 
 > [!NOTE]
 > You can mention only a system user in a post.
@@ -306,19 +306,19 @@ To add a reference to a timeline record in a **Post**, use the following steps:
 
 2.	Select **Post**.
 
-    ![Select the Post option](media\timeline-select-post-option.png "Select the Post option")
+![Select the Post option](media\timeline-select-post-option.png "Select the Post option")
 
 3.	To add a link, type **#** in the box that appears.
 
 4.	When you type #, a flyout menu opens with a list of records that you have recently accessed. These records could be of any record type, such as accounts, contacts or leads.
 
-    ![Add a link](media\timeline-add-link.png "Add a link")
+![Add a link](media\timeline-add-link.png "Add a link")
 
 5.	You can select one of the records or start typing the keyword. When you start typing, the records in the flyout menu are refreshed to match the keyword. In this case, too, the search happens using the **Dynamics 365 Quick Find** search. The icons beside the record names in the flyout menu indicate the record types, which help you determine the record to select.  
 
 6.	If you don’t find a record, you can either switch to different views or create a new record. To do this, select **Advanced**.
 
-    ![Select a record or use advanced find](media\timeline-select-record-advanced-find.png "Select a record or use advanced find")
+![Select a record or use advanced find](media\timeline-select-record-advanced-find.png "Select a record or use advanced find")
 
 7.	In the **Lookup Records** pane, switch between the **Recent records** and **All records view** to find a record.  
 
@@ -326,7 +326,7 @@ To add a reference to a timeline record in a **Post**, use the following steps:
 
 9.	If you don’t find a record you are looking for, select **New Record** to create a record.
 
-    ![Lookup Records pane](media\timeline-add-links-to-records-1.png "Lookup Records pane")
+![Lookup Records pane](media\timeline-add-links-to-records-1.png "Lookup Records pane")
 
 For more information on Notes and Post functionality and configuration, see:
 - [Display options](customer-service-hub-user-guide-timeline-admin.md#display-options).
@@ -342,15 +342,15 @@ You can add an attachment, such as a file, to a note in timeline to share with u
 
 1. Select the ![](media\timelilne-paperclip-icon.png "paperclip icon") paperclip icon to attach a file to a note. You can only add an attachment to a note that is attached to a record. 
 
-    ![Attachment icon](media\timeline-attachment-icon.png "Attachment icon")
+![Attachment icon](media\timeline-attachment-icon.png "Attachment icon")
 
 2. Select the file you want to attach. You can only add one file per note.
 
-   The Edit note screen will appear, and your attachment will be displayed at the bottom of the Edit note screen.
+The Edit note screen will appear, and your attachment will be displayed at the bottom of the Edit note screen.
    
 3. Select **Add note** to save and close the Edit note screen.
 
-    ![Add an attachment to a note in timeline](media\timeline-add-an-attachment-to-a-note.png "Add an attachment to a note in timeline")
+![Add an attachment to a note in timeline](media\timeline-add-an-attachment-to-a-note.png "Add an attachment to a note in timeline")
 
 
 ### See Also
