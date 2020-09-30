@@ -104,13 +104,13 @@ The following overview provides a detailed breakdown of each timeline feature, w
 
 The **Name** field under the **Properties** tab in  **Display options** serves only for Admin reference. 
 
- | Configuration      | | Display          |
- |--------------------|-|----------------|
- |![Display options - Timeline component name](media\timeline-component-name-display-options-1a.png "Display options - Timeline component name")| | ![Display options - Timeline component name](media\timeline-component-name-display-options-1c.png "Display options - Timeline component name")|
- |<li>The timeline **Name** field allows you to create a unique name as a maker's reference. In this example we changed the **Name** field to, **Timeline for Account (1)**</li>.<BR><BR><BR> | | <li>The name, **Timeline for Account (1)**’ does not display on the rendered form.  The name is for Admin reference only.</li> <BR>|
+| Configuration      | | Display          |
+|--------------------|-|----------------|
+|![Display options - Timeline component name](media\timeline-component-name-display-options-1a.png "Display options - Timeline component name")| | ![Display options - Timeline component name](media\timeline-component-name-display-options-1c.png "Display options - Timeline component name")|
+|<li>The timeline **Name** field allows you to create a unique name as a maker's reference. In this example we changed the **Name** field to, **Timeline for Account (1)**</li>.<BR><BR><BR> | | <li>The name, **Timeline for Account (1)**’ does not display on the rendered form.  The name is for Admin reference only.</li> <BR><BR> |
 
- >[!NOTE]
- > There are field limitations in the **Name** field.  For example, you cannot use spaces between words, you must use an underscore (_). 
+>[!NOTE]
+> There are field limitations in the **Name** field.  For example, you cannot use spaces between words, you must use an underscore (_). 
 
 ### Records shown on page
 
