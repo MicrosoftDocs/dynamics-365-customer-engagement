@@ -46,7 +46,7 @@ Here are a few examples of how the integration is useful.
 
 1. **Asset management**: When creating a work order for repair or maintenance on a customer asset, the integration will allow dispatchers to pick from a full list of customer assets, regardless of which system it was created in.
 2. **Nearby warehouses**: Integration provides technicians with a complete list of nearby warehouses and relevant details.
-3. **Purchase orders**: A purchase order is created in supply chain management and a technician documents receipt of the products in the Field Service app while onsite a tthe customers location. 
+3. **Purchase orders**: A purchase order is created in supply chain management and a technician documents receipt of the products in the Field Service app while onsite a the customer's location. 
 
 ## Prerequisites
 
