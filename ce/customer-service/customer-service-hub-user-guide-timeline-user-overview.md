@@ -72,16 +72,17 @@ Filters are valuable for sorting data. You can easily filter through records and
 
 The following category and sub-category options are available on the filer menu:
 
-|Category              |Sub-category   |
-|----------------------|---------------|
-|Record type           |<li>Notes</li><li>Posts</li><li>Activities</li>|
+| Category              | Sub-category   |
+|-----------------------|----------------|
+| Record type           |<li>Notes</li><li>Posts</li><li>Activities</li>|
 |Activity type         |<li>Appointment</li><li>Campaign Activity</li><li>Campaign Response</li><li>Email</li><li>Fax</li><li>Case Resolution</li><li>Letter</li><li>Opportunity Case</li><li>Order Case</li><li>Phone Call</li><li>Quote Close</li><li>Recurring Appointment</li><li>Social Activity</li><li>Task</li><li>Project Service Approval</li><li>Booking Alert</li><li>Conversation</li><li>Session</li><li>Customer Voice survey invite</li><li>Customer Voice survey response</li><li>Custom activities (as configured by your system admin)</li> |
-|Activity status            |<li>Active</li><li>Overdue</li><li>Closed</li>  |               
+|Activity status            |<li>Active</li><li>Overdue</li><li>Closed</li>|               
 |Activity due date (active) |<li>Next 30 days</li><li>Next 7 days</li><li>Next 24 hours</li><li>Last 24 hours</li><li>Last 7 days</li><li>Last 30 days</li> |
-|Posts by                   |<li>Auto post</li><li>Users</li>  |
+|Posts by                   |<li>Auto post</li><li>Users</li> |
 |Modified date              |<li>Last 24 hours</li><li>Last 7 days</li><li>Last 30 days</li> |
+|
 
-## Work with records
+## Work with records  
 
 When working with records, you can view key information at a glance or expand records to view more details. When you hover over a record, actions display you can use.
 
