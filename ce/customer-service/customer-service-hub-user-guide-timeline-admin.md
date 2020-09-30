@@ -1,7 +1,7 @@
 ---
 title: "Configuring Timeline | MicrosoftDocs"
 description: "Timeline configuration overview for administrators"
-ms.date: 07/27/2020
+ms.date: 10/05/2020
 ms.service:
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -20,14 +20,14 @@ This experience gives system administrators the ability to configure the informa
 
 Timelines are located on forms within entities. To access timeline configurations, you must start with the entity list.  You can access the entity list a couple of ways depending on the model-driven app you are using.
 
-To access the entities list via **Power Apps**, go to:
-1.	Go to **Power Apps** URL: [make.powerapps.com](https://make.powerapps.com "make.powerapps.com")
-2.	Under **Data** section.
-3.	Select **Entities**.
+### Access entities list via Power Apps
+![How to navigate to timeline configurations - Option 2](media\timeline-access-option-2a.png "How to navigate to timeline configurations - Option 2")
 
-  ![How to navigate to timeline configurations - Option 2](media\timeline-access-option-2.png "How to navigate to timeline configurations - Option 2")
+1. Go to **Power Apps** URL: [make.powerapps.com](https://make.powerapps.com "make.powerapps.com")
+2. Go to **Data** section
+3. Select **Entities**
 
-> [!Important] 
+> [!Important]
 > When accessing timeline, if you are not taken to the new form designer experience in Power Apps, you are not using the latest experience.
 
 ### Select an entity form for timeline configuration
@@ -35,50 +35,49 @@ To access the entities list via **Power Apps**, go to:
 Every instance of the timeline that’s applied on a form can be configured.  Example: An Account entity will have forms, and each form can have a timeline that can be configured.  However, there’s only one timeline per form.  
 
 To begin, select the entity and form where you want to add and configure your timeline. 
-1.	The following is a list of entities. You can add a timeline to any entity.
-2.	For this example, we selected the **Account** entity.
-3.	From the **Account** entity landing page there is list of tabs at the top, select **Forms**.
-4.	The **Forms** landing page displays a list of **Form types**. Timelines can only be used on **Main** form types.
-5.	For this example, we selected **Account for Interactive experiences**. 
 
-![How to navigate to timeline configurations](media\timeline-configuration-1.png "How to navigate to timeline configurations")
+#### Select an entity for timeline configuration
+![Select an entity for timeline configuration](media\timeline-configuration-1a.png "Select an entity for timeline configuration")
+1. You can add a timeline to any entity.
+2. In this example, we selected the **Account** entity.
 
-![How to navigate to timeline configurations](media\timeline-configuration-2.png "How to navigate to timeline configurations")
-
-![How to navigate to timeline configurations](media\timeline-configuration-3.png "How to navigate to timeline configurations")
-
-![How to navigate to timeline configurations](media\timeline-configuration-4.png "How to navigate to timeline configurations")
+#### Select a form for timeline configuration
+![Select a form for timeline configuration](media\timeline-configuration-2a.png "Select a form for timeline configuration")
+1. Select **Forms** from the **Account** entity. This will display a list of **Form types** on the **Forms** landing page. 
+Timelines can only be used on **Main** form types.
+2. In this example, we selected **Account for Interactive experiences**. 
 
 ### Adding or removing a timeline from an entity form
 
-Timeline is a component and you will need to access **Components** to make timeline configurations. Once you have selected a **Main** form type, the following landing page will appear:
+Timeline is a component, so you will need to access **Components** to make timeline configurations. Once you have selected a **Main** form type, the following landing page will appear:
 
-1. From the left nav, select **Components**.  
-2. In the left nav, scroll down to the **Timeline** component, then drag and drop in a section on the form. 
-3. If **Timeline** component is greyed out, it means it already exists on the form. You can only have one timeline per form.
-4. To remove the **Timeline** component from a form, highlight the inside **Timeline** component area and hit the **Delete** key.  This will remove the **Timeline** component from the form.
+#### Add or remove a timeline from an entity form
+![Adding or removing a timeline from an entity form](media\timeline-add-or-remove-entity-from-form-1a.png "Adding or removing a timeline from an entity form")
 
-![Adding or removing a timeline from an entity form](media\timeline-add-or-remove-entity-from-form-1.png "Adding or removing a timeline from an entity form")
+1. Select **Components** from the left nav.
+2. Scroll down to the **Timeline** component and drag and drop it in a section on the form. 
 
-![Adding or removing a timeline from an entity form](media\timeline-add-or-remove-entity-from-form-2.png "Adding or removing a timeline from an entity form")
-
-![Adding or removing a timeline from an entity form](media\timeline-add-or-remove-entity-from-form-3.png "Adding or removing a timeline from an entity form")
+- If the **Timeline** component is greyed out, it means a timeline already exists on the form. You can only have one timeline per form. 
+- To remove the **Timeline** component from a form, highlight the inside of the **Timeline** component area and hit the **Delete** key.  This will remove the **Timeline** component from the form.
 
 > [!Note] 
-> Since the timeline component relies exclusively on underlying related data, it will always say Almost there when added to the timeline section. Since we are in a create and/or edit state on the form, there’s no underlying data, therefore the area is blank.
+> Since the timeline component relies exclusively on underlying related data, it will always say **Almost there** when added to the timeline section. 
+> Also, as we are in a create and/or edit state on the form, there is no underlying data, so the area is blank.
 
 ## Understanding the timeline component on the form
 
-In the body of the entity form located in the center there is an area titled TIMELINE section and within that section is another area titled Timeline.  The following outlines and clarifies the different between these two:     
+In the body of the entity form located in the center there is an area titled **TIMELINE**. Within this section is another area titled **Timeline**. The following outlines and clarifies the different between these two sections.
 
-1.	The outside section (titled **TIMELINE**) is what houses the **Timeline** component. 
-2.	When you select **TIMELINE**, the **Display options** under the **Properties** tab in the right nav change to support the **TIMELINE** section.
-3.	Inside the **TIMELINE** section is where the **Timeline** component is located.
-4.	When you select the **Timeline** component, the **Display options** under the **Properties** tab in the right nav change to support the **Timeline** component items.
+#### Timeline component section resides in the Maker App
+![Understanding the timeline component on the form](media\timeline-component-1a.png "Understanding the timeline component on the form")
+1. The outside section (titled **TIMELINE**) is what houses the **Timeline** component. 
+2. When you select **TIMELINE**, the **Display options** under the **Properties** tab in the right nav change to support the **TIMELINE** section.
 
-![Understanding the timeline component on the form](media\timeline-component-1.png "Understanding the timeline component on the form")
+#### Timeline component section access
+![Understanding the timeline component on the form](media\timeline-component-2a.png "Understanding the timeline component on the form")
 
-![Understanding the timeline component on the form](media\timeline-component-2.png "Understanding the timeline component on the form")
+1. Inside the **TIMELINE** section is where the **Timeline** component is located.
+2. When you select the **Timeline** component, the **Display options** under the **Properties** tab in the right nav changes to support the **Timeline** component items.
 
 ## How to configure timeline component
 
@@ -103,16 +102,15 @@ The following overview provides a detailed breakdown of each timeline feature, w
 
 ### Timeline component name
 
-The **Name** field under the **Properties** tab in the **Display options** section is only there as Admin’s reference. 
+The **Name** field under the **Properties** tab in  **Display options** serves only for Admin reference. 
 
-1.	In the **Name** field, you can change Timeline to another name.
-2.	For this example we changed the **Name** field to, **Bob**. 
-3.	The **Name** ‘Bob’ does not display on the rendered form.  The name change is for Admin reference only. 
-4.	If you use the Name feature, there are character limitations.  For example, you cannot have spaces, you must use underscores (_).
+ | Configuration                | | Display          |
+ |-----------------------------|-|----------------|
+ |![Display options - Timeline component name](media\timeline-component-name-display-options-1a.png "Display options - Timeline component name")| | ![Display options - Timeline component name](media\timeline-component-name-display-options-1c.png "Display options - Timeline component name")|
+ |<li>The timeline **Name** field allows you to create a unique name as a maker's reference. In this example we changed the **Name** field to, **Timeline for Account (1)**</li>.<BR><BR><BR> | | <li>The name, **Timeline for Account (1)**’ does not display on the rendered form.  The name is for Admin reference only.</li> <BR>|
 
-![Display options - Timeline component name](media\timeline-component-name-display-options-1.png "Display options - Timeline component name")
-
-![Display options - Timeline component name](media\timeline-component-name-display-options-2.png "Display options - Timeline component name")
+ >[!NOTE]
+ > There are field limitations in the **Name** field.  For example, you cannot use spaces between words, you must use an underscore (_). 
 
 ### Records shown on page
 

@@ -290,7 +290,7 @@ When enabled by your system administrator, you can either add a **Post** to a re
 
 Legend
 1. In the **Post** field, type the @ sign which will display a flyout menu with a list of users you’ve recently used.
-2. Select a user record, or type the name of a user. As soon as you begin typing, records will refresh in the flyout menu and display matching records which are generated via the **Dynamics 365 Quick Find** search engine that's opertating in the background.
+2. Select a user record, or type the name of a user. As soon as you begin typing, records will refresh in the flyout menu and display matching records which are generated via the **Dynamics 365 Quick Find** search engine that's operating in the background.
 3. If you don’t see the record you are looking for, you can switch views by selecting **Advanced** to display the **Lookup Records** pane. In the **Lookup Records** pane, you can switch between the **Recent records** and **All records** view to search records.
 
 > [!NOTE]
@@ -298,12 +298,12 @@ Legend
 
 ### Add references in a post in timeline records
 
-To add a reference such as links in a post to a timeline recored, select the **Create a timeline recored** ![](media\timeline-create-a-record-icon.png "Create a timeline record") icon and select **Post**, then follow the steps below:
+To add a reference such as links in a post to a timeline record, select the **Create a timeline record** ![](media\timeline-create-a-record-icon.png "Create a timeline record") icon and select **Post**, then follow the steps below:
 
 ![Add a link](media\timeline-add-link-1a.png "Add a link")
 
 Legend
-1. To add a link to a record, type **#** in the box that appears, this will display a flyout menu with a list of records you recently accessed. You can select one of the records or type a keyword after the # tag, which refreshs the records displayed in the flyout menu which are generated via the **Dynamics 365 Quick Find** search engine that's opertating in the background.
+1. To add a link to a record, type **#** in the box that appears, this will display a flyout menu with a list of records you recently accessed. You can select one of the records or type a keyword after the # tag, which refreshes the records displayed in the flyout menu which are generated via the **Dynamics 365 Quick Find** search engine that's operating in the background.
 2. Records displayed can be of any record type, such as accounts, contacts or leads.
 3. The icons beside the record names in the flyout menu indicate the record types, which helps you determine which record to select.  
 4. If you don’t find a record, you can either switch to different views or create a new record. To do this, select **Advanced**.
