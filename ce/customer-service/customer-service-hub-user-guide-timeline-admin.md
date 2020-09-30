@@ -104,9 +104,9 @@ The following overview provides a detailed breakdown of each timeline feature, w
 
 The **Name** field under the **Properties** tab in  **Display options** serves only for Admin reference. 
 
-| Configuration      | | Display          |
+| Configuration View     | | Display View          |
 |--------------------|-|----------------|
-|![Display options - Timeline component name](media\timeline-component-name-display-options-1a.png "Display options - Timeline component name")| | ![Display options - Timeline component name](media\timeline-component-name-display-options-1c.png "Display options - Timeline component name")|
+|![Configure Timeline component name](media\timeline-component-name-display-options-1a.png "Configure Timeline component name")| | ![Display  Timeline component name](media\timeline-component-name-display-options-1c.png "Display Timeline component name")|
 |<li>The timeline **Name** field allows you to create a unique name as a maker's reference. In this example we changed the **Name** field to, **Timeline for Account (1)**</li>.<BR><BR><BR> | | <li>The name, **Timeline for Account (1)**’ does not display on the rendered form.  The name is for Admin reference only.</li> <BR><BR> |
 
 >[!NOTE]
@@ -116,50 +116,43 @@ The **Name** field under the **Properties** tab in  **Display options** serves o
 
 This section allows you to control the number records that appear before displaying Load more at the bottom of the section.
 
-1.	The default setting on the Records shown on page is set to 10 records. You can update this to any number, there is no limit.
-2.	Pre the default setting shown in this example, the form shows a max. of 10 records, but you can display up to 50 records.
-3.	Once records exceed 10, Load more feature appears at the bottom of the form to display more records. 
-
-![Display options - Records shown on page](media\timeline-records-shown-on-page-display-options-1.png "Display options - Records shown on page")
+|Configuration View | | Display View |
+|-------------------|-|--------------|
+|
+![Configure Records shown on page](media\timeline-records-shown-on-page-display-options-1a.png "Configure Records shown on page")<BR><BR><BR><BR><BR><BR>| | ![Display Records shown on page](media\timeline-records-shown-on-page-display-options-1b.png "Display Records shown on page")|
+|<li>The default setting on the **Records shown on page** field is set to 10 records. You can change this to any number, there is no limit.</li><BR><BR><BR><BR> | |1. Per the default setting shown in this example, the form displays a max. of 10 records, but you can display up to 50 records. <BR> 2. Once records exceed 10, the **Load more** option appears at the bottom of the form.|
 
 ### Record types shown
 
 There are three (3) primary record types which include: activities, notes, and posts.  All record types are enabled by default.
 
 - **Activities** can have a large number of customizable sub-activity record types to support business needs. Depending on what you have installed, Admin can create, add, and display a number of different customized sub-activity record types under the Activity section of the drop-down menu on the timeline.    
-- **Notes** allow you to capture notes related to the entity record. Use notes to grab thoughts, summary information, and provide feedback on a case for example and include edits whenever you want. 
+- **Notes** allow you to capture notes related to the entity record. For example, you can use notes to grab thoughts, summarize information, and provide feedback on a case and make edits whenever you want. 
 - **Posts.**  There are two types of posts, Auto Posts and User Posts. 
-    - **Auto Posts** are system generated and notify you of account activity that has occurred. 
+    - **Auto Posts** are system generated posts that notify you of account activity that has occurred. 
     - **User Posts** allows you leave a message for another user on a record.
 
-This section allows you to enable these record types to display in timeline. 
+This section allows you to enable these record types to be displayed in the timeline. 
 
-1.	To enable **Record types shown** for Activities, Notes, and Posts on a form simply check the box next to the record  type you want to show.
-2.	To confirm the record type is displaying on the form, click on the ![](media\timeline-create-a-record-icon.png "Create a timeline record icon") (Create a timeline record icon) in the top right nav in timeline. 
-3.	A drop down will appear and display the list of enabled record types.
-4.	When you enable **Activities**, you see **Activity** record types: Applications, email, phone calls, tasks on the form.
-5.	When you enable **Notes**, you see Note record types on the form.
-6.	When you enable **Posts**, you see Post record types on the form.
-
-![Display options - Record types shown](media\timeline-record-types-shown-display-options-1.png "Display options - Record types shown")
+|Configuration View | | Display View  |
+|-------------------|-|---------------|
+|![Display options - Record types shown](media\timeline-record-types-shown-display-options-1a.png "Display options - Record types shown")<BR><BR><BR><BR><BR><BR><BR><BR>||![Display options - Record types shown](media\timeline-record-types-shown-display-options-1b.png "Display options - Record types shown")|
+|<li>To enable **Record types shown** for **Activities**, **Notes**, and **Posts** on a form, check the box next to the record type.</li><BR><BR><BR><BR><BR><BR><BR>||1. To confirm the record type is displaying on the form, click on the **Create a timeline record** ![](media\timeline-create-a-record-icon.png "Create a timeline record icon") (Create a timeline record icon) icon in the top right nav in the timeline and a drop down menu will appear displaying the list of enabled record types.<BR>2. When **Activities** are enabled you will see **Activity** record types for appointments, email, phone calls, and tasks.<BR> 3. When **Notes** are enabled, you will see the Note record types on the form.<BR> 4. When **Posts** are enable you will also see the Post record types on the form.|
 
 > [!Note]
-> Activities, noted, and posts are standard entities. If your administrator or system customizer has configured other entities, then those will appear.
+> Activities, Notes, and Posts are standard entities. If your administrator or system customizer has configured other entities, then those will also appear.
 
 ### Activity, note, post icons and date / timestamp display on timelines
 
-The timeline shows a simple icon before the activity, post, note, and custom entity making it easy for you to identify the record type. Dates and timestamps will always appear on each record on the bottom right of the preview.
+The timeline shows a simple icon before the activity, post, note, and custom entity, making it easy for you to identify the record type. 
 
-1. Activity record icons
-2. Note icons
-3. Post icons
-4. Date/timestamp display can be viewed at all times.
-
-![Display options - Activity, note, post icons and date / timestamp display on timelines](media\timeline-activity-note-post-icons-and-timestamp-display-display-options-1.png "Display options - Activity, note, post icons and date / timestamp display on timelines")
+Dates and timestamps  always appear on each record on the bottom right of the preview and can be viewed at all times.
 
 ## Advanced
 
-The **Advanced** feature works across and is independent of all record types and is collapsed by default. Also, when enabling and disabling **Advanced** features you will not be able to view updates (even though it may appear there is activity occurring on the timeline component) until you save and publish your configuration updates and refresh the entity form. 
+The **Advanced** feature works across and is independent of all record types and is collapsed by default. 
+
+When enabling and disabling **Advanced** features you will not be able to view updates (even though it may appear there is activity occurring on the timeline component) until you save and publish your configuration updates and refresh the entity form. 
 
 **Advanced** covers common settings that span across an activity, note, or post, which are the three (3) primary record types that appear in the timeline section. 
 
@@ -167,43 +160,35 @@ The **Advanced** feature works across and is independent of all record types and
 
 The following is a detailed overview of the **Advanced** configuration options starting with selecting your **quick entry record type**:
 
-1.	Select **Advanced** to expand this feature in the configuration view.
-2.	The **Quick entry record** type provides you with quick access to create either a **Note** or a **Post**.  The default setting for this feature is set to **Notes**.  
-3.	When you select **Notes** it will display under the search bar in timeline. Also, you will see a paperclip icon which allows you to attach files. You can only attach files to Notes.
-4.	When you select **Posts** it will display under the search bar in timeline. 
-5.	The **Sort order default** feature controls the order of how all data is sorted on the timeline.  The default setting for this feature is set to Descending. 
-
-![Display options - Advanced - Quick entry record type and sort order default](media\timeline-quick-entry-record-type-and-sort-order-default-display-settings-advanced-1.png "Display options - Advanced - Quick entry record type and sort order default")
+|Configuration View | |Display View |
+|-------------------|-|-------------|
+|![Configure Quick entry record type and sort order default](media\timeline-quick-entry-record-type-and-sort-order-default-display-settings-advanced-1a.png "Configure Quick entry record type and sort order default")| |![Display Quick entry record type and sort order default](media\timeline-quick-entry-record-type-and-sort-order-default-display-settings-advanced-1b.png "Display Quick entry record type and sort order default")<BR><BR><BR><BR>|
+|1.Select **Advanced** to expand this feature in the configuration view. The **Quick entry record** type provides you with quick access to create either a **Note** or a **Post**.  The default setting for this feature is set to **Notes**.<BR>2.The **Sort order default** feature controls the order of how all data is sorted on the timeline.  The default setting for this feature is set to Descending. ||1. When you select **Notes** it will display under the **Search** bar in timeline. Also, you will see a paperclip ![Paperclip icon](media\timelilne-paperclip-icon.png "Paperclip icon") icon which allows you to attach files. You can only attach files to Notes.<BR>2.	When you select **Posts** it also will display under the **Search** bar in timeline.<BR><BR>|
 
 ### Enable filter pane
 
 Using filters provides a quick option to sort and look for specific data quickly. 
- 
-6.	The **filter pane** feature allows you to enable or disable filter functionality on timeline. It is enabled by default.
-7.	Enable the **filter pane** by checking the box next to the feature.  This will enable the filter icon to display on the timeline.
-8.	To disable the **filter pane**, uncheck the box next to the feature and the filter icon will no longer appear on the timeline. 
 
-![Display options - Advanced - Enable filter pane](media\timeline-enable-filter-pane-display-options-advanced-1.png "Display options - Advanced - Enable filter pane")
+|Configuration View | | Enabled View | |Disabled View|
+|-------------------|-|--------------|-|-------------|
+|![Configure filter pane](media\timeline-enable-filter-pane-display-options-advanced-1a.png "Configure Enable filter pane")||![ Enable filter pane](media\timeline-enable-filter-pane-display-options-advanced-1b.png "Enable filter pane")||![Disable filter pane](media\timeline-enable-filter-pane-display-options-advanced-1c.png "Disable filter pane")|
+|The **filter pane** feature allows you to enable or disable filter functionality on timeline. It is enabled by default.|| Enable the **filter pane** by checking the box next to the feature.  This will enable the filter icon to display on the timeline.  || To disable the **filter pane**, uncheck the box next to the feature and the filter icon will no longer appear on the timeline.    |
 
 ### How to filter activity types on timeline
 
 Filters are valuable for sorting data. You can quickly filter activities, posts, and notes with multiple options to see what matters to you. The filter is available for the activities, posts, notes, and custom entities that are present in timeline. Timeline filters and displays the records and the count that are present in the timeline.
 
-You can customize data using the data filters and either choose to keep filters in place or clear them when you are done.
+When you select filters based on an activity status then those activities, notes, and posts are displayed in your timeline. You can customize data using data filters and either choose to keep filters in place or clear them when you are done.
 
-a. When the **Filter** icon is transparent on the entity form, it means there are no items that have been chosen to filter by and there the filter is unpopulated.<br>
+- When the **Filter** icon is transparent ![Transparent filter icon](media\timeline-filter-icon.png "Transparent filter icon") on the entity form, it means no items have been selected, therefore the filter pane is empty.<br>
 
-b. When the **Filter** icon is filled in, it means filters has been selected and set. To view what filters have been selected you can just click on the ![](media\timeline-filter-icon.png "Filter icon") **Filter** icon and the display will open showing which filters have been set.</li>
+- When the **Filter** icon is dark ![Dark filter icon](media\timeline-filter-applied-1.png "Dark filter icon"), it means filters have been set. To view which filters have been selected, click on the ![](media\timeline-filter-icon.png "Filter icon") **Filter** icon and the filter pane will display showing which filters have been set.</li>
 
-c. When you select the ![](media\timeline-filter-icon.png "Filter icon") **Filter** icon the following list appears.<br> 
+- You can select how you want to filter data by checking the box next to the filter.<br>
 
-d. You can select how you want to filter your data by checking the box next to the filter.<br>
+- You can clear filters by using the **Clear all filters** ![](media\timeline-clear-all-filters-icon.png "Clear all filters icon") icon on the filter pane.
 
-e. You can clear filters by clicking on the ![](media\timeline-clear-all-filters-icon.png "Clear all filters icon") **Clear all filters** icon.
-
-![Display options - Advanced - How to filter activity types on timeline](media\timeline-how-to-filter-activity-types-display-options-advanced-1.png "Display options - Advanced - How to filter activity types on timeline")
-
-When you select the filter icon, the Filter by menu is displayed and you can filter items based on the following categories:
+The following category and sub-category options are available on the filer menu:
 
 |Category                   |Sub-category                            |
 |---------------------------|----------------------------------------|
@@ -214,48 +199,33 @@ When you select the filter icon, the Filter by menu is displayed and you can fil
 |Posts by                   |<li>Auto post</li><li>Users</li>                          |
 |Modified date              |<li>Last 24 hours</li><li>Last 7 days</li><li>Last 30 days</li>                   |
 
-When you use the filter based on an activity status then those activities, notes, and posts are displayed:
-
-**a.** Select an activity item. In this example we selected <b>Overdue</b>.
-<br>
-
-**b.** Based on our selection, all activity items with an <b>overdue status</b> now appear.<br>
-
-**c.** <b>Filter</b> icon is filled in telling you a filter item has been selected.<br>
-
-**d.** To clear filter selections, click on the ![](media\timeline-clear-all-filters-icon.png "Clear all filters icon") <b>Clear all filters</b> icon to clear all filters.
-
-![Display options - Advanced - How to filter activity types on timeline](media\timeline-how-to-filter-activity-types-display-options-advanced-2.png "Display options - Advanced - How to filter activity types on timeline")
 
 ### Expand filter pane 
 
-The **Expand filter pane** feature provides quick access to sorting options within timeline.  It is enabled by default.
+The **Expand filter pane** feature provides quick access to sorting options within the timeline.  It is enabled by default.
 
-9.	The **Expand filter pane by default** feature displays an expanded filter pane at the top of the form anytime it is opened and refreshed and is disabled by default.
-10.	Enable the **Expand filter pane** by checking the box next to the feature.  This will enable the filter pane to appear at the top of the form anytime the form is opened and refreshed.
-11.	To disable the **Expand filter pane**, uncheck the box next to the feature and the filter pane will not appear on the timeline.
-
-![Display options - Advanced - Expand filter pane ](media\timeline-expand-filter-pane-display-options-advanced-1.png "Display options - Advanced - Expand filter pane")
+|Configure View | |Enabled View | | Disabled View|
+|---------------|-|-------------|-|--------------|
+|![Configure filter pane ](media\timeline-expand-filter-pane-display-options-advanced-1a.png "Configure filter pane")| |![Enable filter pane ](media\timeline-expand-filter-pane-display-options-advanced-1b.png "Enable filter pane")| |![Disable filter pane ](media\timeline-expand-filter-pane-display-options-advanced-1c.png "Disable filter pane")|
+The <B>Expand filter pane by default</B> feature displays an expanded filter pane at the top of the form anytime it is opened and refreshed.  It is disabled by default.<BR><BR><BR><BR><BR>||Enable the **Expand filter pane** by checking the box next to the feature.  This will enable the filter pane to appear at the top of the form anytime the form is opened and refreshed.<BR><BR><BR><BR><BR>||To disable the **Expand filter pane**, uncheck the box next to the feature and the filter pane will not appear on the timeline.<BR><BR>|
 
 ### Enable search bar
 
 You can easily search for records in the timeline. When you search for a phrase in the timeline, it searches in the title of the record or body and description fields of the record then displays the record for you. 
 
-12.	The **search bar** feature enables the **Search timeline** bar functionality and is enabled by default.
-13.	Enable the **search bar** feature and it will display a **search bar** at the top of the timeline form.
-14.	To disable the search bar uncheck the box next to the feature and the search bar will no longer on the timeline. 
-
-![Display options - Advanced - Enable search bar](media\timeline-enable-search-bar-display-options-advanced-1.png "Display options - Advanced - Enable search bar")
+|Configure View | | Enable View | | Disable View|
+|---------------|-|-------------|-|-------------|
+|![Configure search bar](media\timeline-enable-search-bar-display-options-advanced-1a.png "Configue search bar")| |![Enable search bar](media\timeline-enable-search-bar-display-options-advanced-1b.png "Enable search bar")| |![Disable search bar](media\timeline-enable-search-bar-display-options-advanced-1c.png "Disable search bar")|
+|The **search bar** feature enables the **Search timeline** bar functionality. It is enabled by default.||Enable the **search bar** feature and it will display a **search bar** at the top of the timeline form.||Disable the search bar by unchecking the box next to the feature and the search bar will no longer display on the timeline.| 
 
 ### Expand all records in timeline
 
 **Expand all records by default** displays all activities in an expanded view in timeline. 
 
-15.	**Expand all records** is disabled by default.
-16.	Enable the **Expand all records** by checking the box next to the feature, this will now allow records to expand and display in the form by default each time it is opened. 
-17.	To disable **Expand all records**, clear the box next to the feature it will no longer display activities in an expanded view.
-
-![Display options - Advanced - Expand all records in timeline](media\timeline-expand-all-records-display-options-advanced-1.png "Display options - Advanced - Expand all records in timeline")
+|Configure View | | Enabled View | | Disabled View|
+|---------------|-|--------------|-|--------------|
+|![Display options - Advanced - Expand all records in timeline](media\timeline-expand-all-records-display-options-advanced-1.png "Display options - Advanced - Expand all records in timeline")||![Display options - Advanced - Expand all records in timeline](media\timeline-expand-all-records-display-options-advanced-1.png "Display options - Advanced - Expand all records in timeline")||![Display options - Advanced - Expand all records in timeline](media\timeline-expand-all-records-display-options-advanced-1.png "Display options - Advanced - Expand all records in timeline")|
+|**Expand all records** is disabled by default.<BR><BR><BR><BR><BR><BR><BR><BR>||	Enable the **Expand all records** by checking the box next to the feature, this will now allow records to expand and display in the form by default each time it is opened. ||To disable **Expand all records**, clear the box next to the feature it will no longer display activities in an expanded view.<BR><BR>|
 
 ### Expand records with images in timeline
 
