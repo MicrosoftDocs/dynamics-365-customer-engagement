@@ -43,12 +43,12 @@ Resource scheduling optimization can use historic traffic information in order t
 
 To turn on predictive travel time calculations, go to a resource scheduling optimization goal.
 
-For the field **Travel Time Calculation**, select **Bing Maps with historical traffic**.
+For the field **Travel Time Calculation**, select **Bing Maps with historical traffic (Preview)**.
 
 Save and publish.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a scheduling optimization goal.](./media/rso-predictive-travel-flag.png)
+> ![Screenshot of a scheduling optimization goal with predictive travel.](./media/rso-predictive-travel-flag-goal.jpg)
 
 ## Run resource scheduling optimization
 
