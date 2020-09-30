@@ -34,21 +34,21 @@ Field service dispatchers often assign a fixed duration for a job type, despite 
 With predictive work duration, dispatchers can predict the duration of any given booking or requirement, based on factors like:
 
 - Resource performance
-- Incidient type
+- Incident type
 - Customer location
 - Territorial differences
 - Seasonal changes
 
 Powered by artificial intelligence models, predictive work durations learn from historical booking completion times in order to compute a more realistic duration.
 
-In this article, we'll take a look at how to set up and use predictive work durations in Field Service.
+In this article, we'll take a look at how to setup and use predictive work durations in Field Service.
 
 ## Prerequisites
 
 - Dynamics 365 Field Service v8.x.x.
 - As of October 2020, this feature is in public preview. Turn turn on the preview, go to **Settings**. Under the **Analytics and insights** section, select **Settings** > 
 **Enable Predictive Work Duration preview**. 
-- Enter a number in the **Minimum number of resources per territory** field to define how big a territory must be in order to be used in the report.
+- Enter a number in the **Minimum number of resources per territory** field to define how large a territory must be in order to be used in the report.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the predictive work duration preview settings.](./media/analytics-work-duration-settings.png)
@@ -151,7 +151,7 @@ Beneath the filters, you'll see some key performance indicators.
 
 ### Charts
 
-Next in the report are charts.
+The following charts can be found in the territory duration report.
 
 | Label | Description |
 |----------|----------|
@@ -207,14 +207,14 @@ You'll find the following charts on the resource duration reports.
 
 ## Configuration considerations
 
-- The setting **Minimum number of resources in a territory** lets you set restrictions on analyses and reports. If the value is set to 10, territories that have 10 or fewer resources will be excluded from territory analyses and reports, which helps protect technician privacy.
+- The setting **Minimum number of resources in a territory** lets you set restrictions on analyses and reports. If the value is set to 10, territories that have 10 or fewer resources will be excluded from territory analyses and reports; the limitation can help protect technician privacy.
 
 ## Additional Notes
 
 ### Understanding estimated duration, actual duration, and predicted duration
 
-- **Estimated duration**: How much time your organization expects a job to take. In the system, this value comes from the duration (msdyn_duration) of the resource requirement. The duration of the resource requirement is derived from the total duration of all work order incident types.
+- **Estimated duration**: How much time your organization expects a job to take. In the system, the value comes from the duration (msdyn_duration) of the resource requirement. The duration of the resource requirement is derived from the total duration of all work order incident types.
 
-- **Actual duration**: How much time was actually spent working on a requirement. This is calculated by _End time_ of booking minus the _actual arrival time_ of booking minus the *On break* duration of the booking journal related to the booking (formally called the **Bookable** Resource Booking).
+- **Actual duration**: How much time was actually spent working on a requirement. This value is calculated by _End time_ of booking minus the _actual arrival time_ of booking minus the *On break* duration of the booking journal related to the booking (formally called the **Bookable** Resource Booking).
 
 - **Predicted duration** How much time the AI model "thinks" the job will take based on historical information.
