@@ -40,6 +40,7 @@ The icons displayed in the top right nav in the Timeline gives quick access to t
 When enabled by your system administrator, the **Create a timeline record** feature allows you to quickly create appointments, tasks, send emails, make notes and posts and associate them with other records. 
 
 ![Create a timeline record](media\timeline-create-a-timeline-record.png "Create a timeline record")
+
 Legend:
 1. Select **Create a timeline record** ![](media\timeline-create-a-record-icon.png "Create a timeline record") icon
 2. Select the type of record you want to create from the display options available. 
@@ -51,6 +52,7 @@ For information on timeline record configuration, see [Configure activity record
 When enabled by your system administrator, the timeline **Filter** further streamlines your productivity by allowing you to customize your experience and view data relevant to you. 
 
 ![Timeline filter functionality](media\timeline-filter-1.png "Timeline filter functionality")
+
 Legend:
 1. Select the timeline **Filter** ![](media\timeline-filter-icon.png "Filter") icon
 2. Filter display pane appears
@@ -70,10 +72,10 @@ Filters are valuable for sorting data. You can easily filter through records and
 ### Filter options
 
 The following category and sub-category options are available on the filer menu:
-    
-|Category|Sub-category |
-|----------------------|---------------------------|
-|Record type         |<li>Notes</li>                    <li>Posts</li><li>Activities</li>                     |
+
+| Category              | Sub-category   |
+|----------------------|---------------|
+|Record type           | <li>Notes</li>                    <li>Posts</li><li>Activities</li>                     |
 |Activity type       |<li>Appointment</li><li>Campaign Activity</li> <li>Campaign Response</li><li>Email</li><li>Fax</li><li>Case Resolution</li><li>Letter</li><li>Opportunity Case</li>   <li>Order Case</li><li>Phone Call</li><li>Quote Close</li>           <li>Recurring Appointment</li><li>Social Activity</li><li>Task</li>   <li>Project Service Approval</li><li>Booking Alert</li><li>Conversation</li><li>Session</li><li>Customer Voice survey invite</li><li>Customer Voice survey response</li><li>Custom activities (as configured by your system admin)</li>|
 |Activity status            |<li>Active</li><li>Overdue</li>       <li>Closed</li>                         |    |Activity due date (active) |<li>Next 30 days</li><li>Next 7 days</li><li>Next 24 hours</li><li>Last 24 hours</li><li>Last 7 days</li>   <li>Last 30 days</li>               |
 |Posts by         |<li>Auto post</li><li>Users</li>               |
