@@ -104,13 +104,13 @@ The following overview provides a detailed breakdown of each timeline feature, w
 
 The **Name** field under the **Properties** tab in  **Display options** serves only for Admin reference. 
 
-| Configuration View     | | Display View          |
+| Configuration View | | Display View   |
 |--------------------|-|----------------|
 |![Configure Timeline component name](media\timeline-component-name-display-options-1a.png "Configure Timeline component name")| | ![Display  Timeline component name](media\timeline-component-name-display-options-1c.png "Display Timeline component name")|
-|<li>The timeline **Name** field allows you to create a unique name as a maker's reference. In this example we changed the **Name** field to, **Timeline for Account (1)**</li>. | | <li>The name, **Timeline for Account (1)**’ does not display on the rendered form.  The name is for Admin reference only.</li> |
+|The timeline **Name** field allows you to create a unique name as a maker's reference. In this example we changed the **Name** field to, **Timeline for Account (1)**. | | The name, **Timeline for Account (1)**’ does not display on the rendered form.  The name is for Admin reference only. |
 
 >[!NOTE]
-> There are field limitations in the **Name** field.  For example, you cannot use spaces between words, you must use an underscore (_). 
+> There are field limitations in the **Name** field.  For example, you cannot use spaces between words, you must use an underscore (_).
 
 ### Records shown on page
 
@@ -119,7 +119,7 @@ This section allows you to control the number records that appear before display
 |Configuration View | | Display View |
 |-------------------|-|--------------|
 ![Configure Records shown on page](media\timeline-records-shown-on-page-display-options-1a.png "Configure Records shown on page")| | ![Display Records shown on page](media\timeline-records-shown-on-page-display-options-1b.png "Display Records shown on page")|
-|<li>The default setting on the **Records shown on page** field is set to 10 records. You can change this to any number, there is no limit.</li> | |1. Per the default setting shown in this example, the form displays a max. of 10 records, but you can display up to 50 records. <BR> 2. Once records exceed 10, the **Load more** option appears at the bottom of the form.|
+|The default setting on the **Records shown on page** field is set to 10 records. You can change this to any number, there is no limit. | |1. Per the default setting shown in this example, the form displays a max. of 10 records, but you can display up to 50 records. <BR> 2. Once records exceed 10, the **Load more** option appears at the bottom of the form.|
 
 ### Record types shown
 
@@ -168,10 +168,10 @@ The following is a detailed overview of the **Advanced** configuration options s
 
 Using filters provides a quick option to sort and look for specific data quickly. 
 
-|Configuration View | | Enabled View | |Disabled View|
-|-------------------|-|--------------|-|-------------|
-|![Configure filter pane](media\timeline-enable-filter-pane-display-options-advanced-1a.png "Configure Enable filter pane")||![ Enable filter pane](media\timeline-enable-filter-pane-display-options-advanced-1b.png "Enable filter pane")||![Disable filter pane](media\timeline-enable-filter-pane-display-options-advanced-1c.png "Disable filter pane")|
-|The **filter pane** feature allows you to enable or disable filter functionality on timeline. It is enabled by default.|| Enable the **filter pane** by checking the box next to the feature.  This will enable the filter icon to display on the timeline.  || To disable the **filter pane**, uncheck the box next to the feature and the filter icon will no longer appear on the timeline.    |
+|Configuration View | | Display View |
+|-------------------|-|--------------|
+|![Configure filter pane](media\timeline-enable-filter-pane-display-options-advanced-1a.png "Configure Enable filter pane")||![ Enable filter pane](media\timeline-enable-filter-pane-display-options-advanced-1b.png "Enable filter pane")|
+|The **filter pane** feature allows you to enable or disable filter functionality on timeline. It is enabled by default.|| Enable the **filter pane** by checking the box next to the feature.  This will enable the filter icon to display on the timeline.  <BR><BR> To disable the **filter pane**, uncheck the box next to the feature and the filter icon will no longer appear on the timeline.    |
 
 ### How to filter activity types on timeline
 
@@ -203,28 +203,28 @@ The following category and sub-category options are available on the filer menu:
 
 The **Expand filter pane** feature provides quick access to sorting options within the timeline.  It is enabled by default.
 
-|Configure View | |Enabled View | | Disabled View|
-|---------------|-|-------------|-|--------------|
-|![Configure filter pane ](media\timeline-expand-filter-pane-display-options-advanced-1a.png "Configure filter pane")| |![Enable filter pane ](media\timeline-expand-filter-pane-display-options-advanced-1b.png "Enable filter pane")| |![Disable filter pane ](media\timeline-expand-filter-pane-display-options-advanced-1c.png "Disable filter pane")|
-The <B>Expand filter pane by default</B> feature displays an expanded filter pane at the top of the form anytime it is opened and refreshed.  It is disabled by default.||Enable the **Expand filter pane** by checking the box next to the feature.  This will enable the filter pane to appear at the top of the form anytime the form is opened and refreshed.||To disable the **Expand filter pane**, uncheck the box next to the feature and the filter pane will not appear on the timeline.|
+|Configure View | |Display View |
+|---------------|-|-------------|
+|![Configure filter pane ](media\timeline-expand-filter-pane-display-options-advanced-1a.png "Configure filter pane")| |![Enable filter pane ](media\timeline-expand-filter-pane-display-options-advanced-1b.png "Enable filter pane")| 
+The <B>Expand filter pane by default</B> feature displays an expanded filter pane at the top of the form anytime it is opened and refreshed.  It is disabled by default.||Enable the **Expand filter pane** by checking the box next to the feature.  This will enable the filter pane to appear at the top of the form anytime the form is opened and refreshed.<BR><BR>To disable the **Expand filter pane**, uncheck the box next to the feature and the filter pane will not appear on the timeline.|
 
 ### Enable search bar
 
 You can easily search for records in the timeline. When you search for a phrase in the timeline, it searches in the title of the record or body and description fields of the record then displays the record for you. 
 
-|Configure View | | Enable View | | Disable View|
-|---------------|-|-------------|-|-------------|
-|![Configure search bar](media\timeline-enable-search-bar-display-options-advanced-1a.png "Configue search bar")| |![Enable search bar](media\timeline-enable-search-bar-display-options-advanced-1b.png "Enable search bar")| |![Disable search bar](media\timeline-enable-search-bar-display-options-advanced-1c.png "Disable search bar")|
-|The **search bar** feature enables the **Search timeline** bar functionality. It is enabled by default.||Enable the **search bar** feature and it will display a **search bar** at the top of the timeline form.||Disable the search bar by unchecking the box next to the feature and the search bar will no longer display on the timeline.| 
+|Configure View | | Display View |
+|---------------|-|-------------|
+|![Configure search bar](media\timeline-enable-search-bar-display-options-advanced-1a.png "Configue search bar")| |![Enable search bar](media\timeline-enable-search-bar-display-options-advanced-1b.png "Enable search bar")| 
+|The **search bar** feature enables the **Search timeline** bar functionality. It is enabled by default.||Enable the **search bar** feature and it will display a **search bar** at the top of the timeline form.<BR><BR>Disable the search bar by unchecking the box next to the feature and the search bar will no longer display on the timeline.| 
 
 ### Expand all records in timeline
 
 **Expand all records by default** displays all activities in an expanded view in timeline. 
 
-|Configure View | | Enabled View | | Disabled View|
-|---------------|-|--------------|-|--------------|
-|![Configure Expand all records in timeline](media\timeline-expand-all-records-display-options-advanced-1a.png "Configure Expand all records in timeline")||![Enable Expand all records in timeline](media\timeline-expand-all-records-display-options-advanced-1b.png "Enable Expand all records in timeline")||![Disable Expand all records in timeline](media\timeline-expand-all-records-display-options-advanced-1c.png "Disable Expand all records in timeline")|
-|You can enable the **Expand all records** feature by checking the box next to the feature. This sets the default view to display all records in the expanded view format in the form each time the timeline is opened. The **Expand all records** is disabled by default.||1. When enabled, the **Expand all records** icon is displayed in the top right corner of the timeline nav. 2. Records can be expanded or collapsed by using the **Expand all records** icon. When expanded, all records are displayed in the expanded view in the form each time it is opened. When you clear the box next to the **Expand all records** feature it will no longer display activities in an expanded view.||1. When disabled, the **Expand all records** icon will not display in the top right nav of the timeline. <BR>2. Records will always be displayed in a collapsed view.|
+|Configure View | | Display View |
+|---------------|-|--------------|
+|![Configure Expand all records in timeline](media\timeline-expand-all-records-display-options-advanced-1a.png "Configure Expand all records in timeline")||![Enable Expand all records in timeline](media\timeline-expand-all-records-display-options-advanced-1b.png "Enable Expand all records in timeline")||
+|You can enable the **Expand all records** feature by checking the box next to the feature. This sets the default view to display all records in the expanded view format in the form each time the timeline is opened. The **Expand all records** is disabled by default.||1. When enabled, the **Expand all records** icon is displayed in the top right corner of the timeline nav. <BR>2. Records can be expanded or collapsed by using the **Expand all records** icon. When expanded, all records are displayed in the expanded view in the form each time it is opened. When you clear the box next to the **Expand all records** feature it will no longer display activities in an expanded view.<BR><BR> When disabled, the **Expand all records** icon will not display in the top right nav of the timeline. Records will always be displayed in a collapsed view.|
 
 ### Expand records with images in timeline
 
@@ -243,10 +243,10 @@ If you don’t see a message and the image is not displaying, see [Timeline FAQs
 
 **What you’ve missed** helps you stay on top of updates and changes made records by displaying updates at the top of the timeline when you access a record. 
 
-|Configure View | | Enabled View | | Disabled View|
-|---------------|-|--------------|-|--------------|
-|![Configure “What you’ve missed” summary](media\timeline-what-you-missed-display-options-advanced-1a.png "Configure “What you’ve missed” summary") || ![Enable “What you’ve missed” summary](media\timeline-what-you-missed-display-options-advanced-1b.png "Enable “What you’ve missed” summary") || ![Disable “What you’ve missed” summary](media\timeline-what-you-missed-display-options-advanced-1c.png "Disable “What you’ve missed” summary") |
-|The **What you’ve missed** feature displays new records you have not seen. It is disabled by default. To enable **What you’ve missed**, select the box next to the feature. To disable, uncheck the box next to the feature ||Once enabled, now when you view a customer’s account, a box will appear at the top of the timeline section notifying you updates. || When disabled, notifications will not display when you access an account.|
+|Configure View | | Display View|
+|---------------|-|--------------|
+|![Configure “What you’ve missed” summary](media\timeline-what-you-missed-display-options-advanced-1a.png "Configure “What you’ve missed” summary")| |![Disable “What you’ve missed” summary](media\timeline-what-you-missed-display-options-advanced-1b.png "Disable “What you’ve missed” summary") |
+|The **What you’ve missed** feature displays new records you have not seen. It is disabled by default. To enable **What you’ve missed**, select the box next to the feature. To disable, uncheck the box next to the feature ||Once enabled, now when you view a customer’s account, a box will appear at the top of the timeline section notifying you updates.<BR><BR> When disabled, notifications will not display when you access an account.|
 
 ## Record Settings
 
@@ -269,34 +269,32 @@ To enable or disable a record type simply check or uncheck the box and that reco
 
 When you expand the **Activities record settings** on the timeline component section a list will display showing all the activity types that can be either enabled or disabled on the entity form. 
 
-|Configuration View ||Enabled View || Disabled View||Display View|
-|-------------------|-|------------|-|------------|-|---|
-|![How to configure activity record types](media\timeline-how-to-configure-activity-record-types-display-options-advanced-1a.png "How to configure activity record types")||![How to enable activity record types](media\timeline-how-to-configure-activity-record-types-display-options-advanced-1b.png "How to enable activity record types")||![How to disable activity record types](media\timeline-how-to-configure-activity-record-types-display-options-advanced-1c.png "How to disable activity record types")||![Activity record types](media\timeline-how-to-configure-activity-record-types-display-options-advanced-1d.png "activity record types")|
-|1. Expand and view the **Activities** under the **Record settings** section using the caret (^).<BR> 2. A list of **Activity types** is displayed in the expanded view. <BR> 3. You can enable or disable and activity by selecting an activity type. In this example we selected **Email**|| To enable an **Activity type**, click the box next to **Enable** and select **Done**.||To disable an **Activity type**, uncheck the box next to **Enable** and select **Done**. This will grey out all other items in the box and disable the activity type from displaying on the timeline.  This also disables the activity type from being created or viewed in timeline.  || 1. When you enable an **Activity type**, it will appear under the **Create a timeline record** ![](media\timeline-create-a-record-icon.png "Create a timeline record") icon. <BR> 2. The activity type will be displayed in the drop down. <BR> 3. Also, the **Activity type** can be viewed in the body of the timeline.| 
+|Configuration View ||Display View|
+|-------------------|-|------------|
+|![How to configure activity record types](media\timeline-how-to-configure-activity-record-types-display-options-advanced-1a.png "How to configure activity record types")||![Activity record types](media\timeline-how-to-configure-activity-record-types-display-options-advanced-1d.png "activity record types")|
+|1. Expand and view **Activities** under the **Record settings** section using the caret (^).<BR> 2. A list of **Activity types** is displayed in the expanded view. <BR> 3. You can enable or disable activity by selecting an activity type. In this example we selected **Email**<BR><BR> To enable an **Activity type**, check the box next to **Enable** and select **Done**.<BR><BR>To disable an **Activity type**, uncheck the box next to **Enable** and select **Done**. This will grey out all other items in the box and disable the activity type from displaying on the timeline.  This also disables the activity type from being created or viewed in the timeline.  || 1. When enabled, an **Activity type** will appear under the **Create a timeline record** ![](media\timeline-create-a-record-icon.png "Create a timeline record"). <BR> 2. The activity type will be displayed as an option the user can choose from the drop down. <BR> 3. Also, the **Activity type** record is displayed in the body of the timeline.| 
 
 > [!NOTE]
-> A check mark appears on the right next to enabled **Activity types**.  Additional settings for a record type are disabled until you enable the record type.  
+> A check mark appears to the right next to enabled **Activity types**.  Additional record type settings are disabled until enabled under that specific  record type.  
 
 ### Enable status tags on activity record types
 
-Status tags match the status filter and displays in the timeline to help you to see at a glance the **Active**, **Overdue**, or **Closed** state of the activity record, such as on a task, appointment or email.  Admin can enable or disable status tags for any **Activity type** in the **Record settings**. Status tags are enabled by default.
+Status tags match the status filter that display in the timeline to help you to see at a glance if the state of an activity record is **Active**, **Overdue**, or **Closed** on a task, appointment or email.  Admin can enable or disable status tags for any **Activity type** in the **Record settings**. Status tags are enabled by default.
 
-|Configuration View || Enabled View || Display View||
-|------------------|-|--------------|-|-----------||
-|![Display options - Advanced - Enable status tags on activity record types](media\timeline-enable-status-tags-on-activity-record-types-display-options-advanced-1.png "Display options - Advanced - Enable status tags on activity record types")
-
-8.	Check the box next to **Enable status tag** functionality to display status tags on activity types on the timeline.  
-9.	When enabled, status tags such as **Active**, **Overdue**, or **Closed** will appear in the timeline for that activity.
-
+|Configuration View | | Display View|
+|-------------------|-|-------------|
+|![Enable status tags on activity record types](media\timeline-enable-status-tags-on-activity-record-types-display-options-advanced-1a.png "Enable status tags on activity record types")||![Display status tags on activity record types](media\timeline-enable-status-tags-on-activity-record-types-display-options-advanced-1b.png "Display status tags on activity record types")|
+| To display email status tags, check the box next to **Enable status tag**. ||  When enabled, status tags such as **Active**, **Overdue**, or **Closed** will appear in the timeline next to that activity record.    |
 
 ### Enable the ability to create directly from timeline
 
-Having the ability to quickly click and create an activity such as, an email, task, appointment, etc. streamlines productivity.  Admins have the ability to enable activity types so they can be created directly on the timeline.    
+Admins have the ability to enable activity types so they can be created directly on the timeline. Having the ability to quickly click and create an activity such as, email, tasks, and appointments, streamlines productivity.  
 
-10.	Check the box next to **Create directly from timeline** to enable.
-11.	When enabled, the activity type will appear in a drop down box when you click on the ![](media\timeline-create-a-record-icon.png "Create a timeline record") **Create a timeline record** icon in the top right nav in the timeline section of the entity record.
+|Configuration View | | Display View |
+|-------------------|-|--------------|
+|![Configure the ability to create directly from timeline](media\timeline-enable-ability-to-create-directly-from-timeline-1.png "Configure the ability to create directly from timeline") || ![Configure the ability to create directly from timeline](media\timeline-enable-ability-to-create-directly-from-timeline-1.png "Configure the ability to create directly from timeline") |
+|	Ton enable users to create activity types directly from timeline, check the box next to **Create directly from timeline** to enable.||	When enabled, the activity type will appear in a drop down box when you click on the ![](media\timeline-create-a-record-icon.png "Create a timeline record") **Create a timeline record** icon in the top right nav in the timeline section of the entity record.|
 
-![Display options - Advanced - Enable the ability to create directly from timeline](media\timeline-enable-ability-to-create-directly-from-timeline-1.png "Display options - Advanced - Enable the ability to create directly from timeline")
 
 ### Create and use card forms in timeline
 
