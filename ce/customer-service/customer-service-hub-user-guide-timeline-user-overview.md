@@ -255,9 +255,7 @@ Select the paperclip ![](media\timelilne-paperclip-icon.png "paperclip icon") ic
 
 ### Edit Note
 
-Once you attach a file to your note, the **Edit note** screen will display.
-
-Attachmentes display at the bottom of the **Edit note** screen.
+Once you attach a file to your note, the **Edit note** screen will display, and attachmentes display at the bottom of the **Edit note** screen.
 
 ![Edit note screen](media\timeline-add-an-attachment-to-a-note1.png "Edit note screen")
 
