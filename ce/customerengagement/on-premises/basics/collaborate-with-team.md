@@ -1,5 +1,6 @@
 ---
 title: "Collaborate with your team (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+description: Learn about the collaboration integration features with Dynamics 365 Customer Engagement (on-premises)
 ms.custom: 
 ms.date: 9/15/2019
 ms.reviewer: 
