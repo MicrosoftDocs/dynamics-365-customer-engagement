@@ -1,8 +1,9 @@
 ---
 title: "Predictive travel times for resource scheduling optimization| MicrosoftDocs"
+description: Learn how to use predictive travel times for resource scheduling optimiation in Dynamics 365 Field Service.
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 08/01/2020
+ms.date: 10/01/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -33,9 +34,6 @@ In order to predict accurate travel times for technicians, it's important to rem
 Resource scheduling optimization can use historic traffic information in order to predict more accurate travel times for technicians. Better travel time predictions mean more accurate and realistic scheduling for dispatchers and technicians alike.
 
 ## Prerequisites
-
-> [!Note]
-> As of August 2020, predictive travel time is available as an early access feature. For more information, see the article on [how to opt-in to early access features](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates#how-to-enable-early-access-updates).
 
 - **Connect to Maps** must be set to **Yes**. Go to **Resource Scheduling App** > **Settings** > **Administration** > **Scheduling Parameters** to make sure.
 - Predictive travel times that use historical data is only available for scheduling with resource scheduling optimization (RSO); the feature is not currently supported for the schedule assistant or manual scheduling.
