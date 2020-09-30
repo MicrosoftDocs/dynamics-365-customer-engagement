@@ -1,5 +1,5 @@
 ---
-title: "Configuring Timeline | MicrosoftDocs"
+title: "Configure Timeline | MicrosoftDocs"
 description: "Timeline configuration overview for administrators"
 ms.date: 10/05/2020
 ms.service:
@@ -10,7 +10,7 @@ ms.author: lerobbin
 manager: shujoshi
 ---
 
-# Configuring Timeline 
+# Configure Timeline 
 
 The timeline control provides an easy and immersive experience to view information related to an entity, such as cases, accounts, or contacts which gives users a better understanding  and helps them deliver more personalized service in an efficient and effective manner. 
 
@@ -207,7 +207,7 @@ The **Expand filter pane** feature provides quick access to sorting options with
 
 |Configure View | |Display View |
 |---------------|-|-------------|
-|![Configure filter pane ](media\timeline-expand-filter-pane-display-options-advanced-1a.png "Configure filter pane")| |![Enable filter pane ](media\timeline-expand-filter-pane-display-options-advanced-1b.png "Enable filter pane")| 
+|![Configure filter pane ](media\timeline-expand-filter-pane-display-options-advanced-1a.PNG "Configure filter pane")| |![Enable filter pane ](media\timeline-expand-filter-pane-display-options-advanced-1b.PNG "Enable filter pane")| 
 The <B>Expand filter pane by default</B> feature displays an expanded filter pane at the top of the form anytime it is opened and refreshed.  It is disabled by default.||Enable the **Expand filter pane** by checking the box next to the feature.  This will enable the filter pane to appear at the top of the form anytime the form is opened and refreshed.<BR><BR>To disable the **Expand filter pane**, uncheck the box next to the feature and the filter pane will not appear on the timeline.|
 
 ### Enable search bar
@@ -216,7 +216,7 @@ You can easily search for records in the timeline. When you search for a phrase 
 
 |Configure View | | Display View |
 |---------------|-|-------------|
-|![Configure search bar](media\timeline-enable-search-bar-display-options-advanced-1a.png "Configue search bar")| |![Enable search bar](media\timeline-enable-search-bar-display-options-advanced-1b.png "Enable search bar")| 
+|![Configure search bar](media\timeline-enable-search-bar-display-options-advanced-1a.PNG "Configue search bar")| |![Enable search bar](media\timeline-enable-search-bar-display-options-advanced-1b.PNG "Enable search bar")| 
 |The **search bar** feature enables the **Search timeline** bar functionality. It is enabled by default.||Enable the **search bar** feature and it will display a **search bar** at the top of the timeline form.<BR><BR>Disable the search bar by unchecking the box next to the feature and the search bar will no longer display on the timeline.| 
 
 ### Expand all records in timeline
@@ -225,7 +225,7 @@ You can easily search for records in the timeline. When you search for a phrase 
 
 |Configure View | | Display View |
 |---------------|-|--------------|
-|![Configure Expand all records in timeline](media\timeline-expand-all-records-display-options-advanced-1a.png "Configure Expand all records in timeline")||![Enable Expand all records in timeline](media\timeline-expand-all-records-display-options-advanced-1b.png "Enable Expand all records in timeline")||
+|![Configure Expand all records in timeline](media\timeline-expand-all-records-display-options-advanced-1a.PNG "Configure Expand all records in timeline")||![Enable Expand all records in timeline](media\timeline-expand-all-records-display-options-advanced-1b.PNG "Enable Expand all records in timeline")||
 |You can enable the **Expand all records** feature by checking the box next to the feature. This sets the default view to display all records in the expanded view format in the form each time the timeline is opened. The **Expand all records** is disabled by default.||1. When enabled, the **Expand all records** icon is displayed in the top right corner of the timeline nav. <BR>2. Records can be expanded or collapsed by using the **Expand all records** icon. When expanded, all records are displayed in the expanded view in the form each time it is opened. When you clear the box next to the **Expand all records** feature it will no longer display activities in an expanded view.<BR><BR> When disabled, the **Expand all records** icon will not display in the top right nav of the timeline. Records will always be displayed in a collapsed view.|
 
 ### Expand records with images in timeline
