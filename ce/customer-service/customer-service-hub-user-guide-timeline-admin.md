@@ -60,7 +60,7 @@ Use the following steps to add or remove a timeline from an entity form:
 >- If the **Timeline** component is greyed out, it means a timeline already exists on the form. You can only have one timeline per form. 
 >- To remove the **Timeline** component from a form, highlight the inside of the **Timeline** component area and hit the **Delete** key.  This will remove the **Timeline** component from the form.
 
-![Adding or removing a timeline from an entity form](media\timeline-add-or-remove-entity-from-form-1a.png "Adding or removing a timeline from an entity form")
+![Adding or removing a timeline from an entity form](media\timeline-add-or-remove-entity-from-form-1b.png "Adding or removing a timeline from an entity form")
 
 > [!Note] 
 > Since the timeline component relies exclusively on underlying related data, it will always say **Almost there** when added to the timeline section. 
@@ -137,7 +137,7 @@ This section allows you to enable these record types to be displayed in the time
 
 |Configuration View | | Display View  |
 |-------------------|-|---------------|
-|![Display options - Record types shown](media\timeline-record-types-shown-display-options-1a.png "Display options - Record types shown")<BR><BR><BR><BR><BR><BR><BR><BR>||![Display options - Record types shown](media\timeline-record-types-shown-display-options-1b.png "Display options - Record types shown")|
+|![Display options - Record types shown](media\timeline-record-types-shown-display-options-2a.png "Display options - Record types shown")||![Display options - Record types shown](media\timeline-record-types-shown-display-options-3b.png "Display options - Record types shown")|
 |<li>To enable **Record types shown** for **Activities**, **Notes**, and **Posts** on a form, check the box next to the record type.</li>||1. To confirm the record type is displaying on the form, click on the **Create a timeline record** ![](media\timeline-create-a-record-icon.png "Create a timeline record icon") (Create a timeline record icon) icon in the top right nav in the timeline and a drop down menu will appear displaying the list of enabled record types.<BR>2. When **Activities** are enabled you will see **Activity** record types for appointments, email, phone calls, and tasks.<BR> 3. When **Notes** are enabled, you will see the Note record types on the form.<BR> 4. When **Posts** are enable you will also see the Post record types on the form.|
 
 > [!Note]
@@ -163,7 +163,7 @@ The following is a detailed overview of the **Advanced** configuration options s
 
 |Configuration View | |Display View |
 |-------------------|-|-------------|
-|![Configure Quick entry record type and sort order default](media\timeline-quick-entry-record-type-and-sort-order-default-display-settings-advanced-1a.png "Configure Quick entry record type and sort order default")| |![Display Quick entry record type and sort order default](media\timeline-quick-entry-record-type-and-sort-order-default-display-settings-advanced-1b.png "Display Quick entry record type and sort order default")|
+|![Configure Quick entry record type and sort order default](media\timeline-quick-entry-record-type-and-sort-order-default-display-settings-advanced-2a.png "Configure Quick entry record type and sort order default")| |![Display Quick entry record type and sort order default](media\timeline-quick-entry-record-type-and-sort-order-default-display-settings-advanced-3b.png "Display Quick entry record type and sort order default")|
 |1.Select **Advanced** to expand this feature in the configuration view. The **Quick entry record** type provides you with quick access to create either a **Note** or a **Post**.  The default setting for this feature is set to **Notes**.<BR> 2.The **Sort order default** feature controls the order of how all data is sorted on the timeline.  The default setting for this feature is set to Descending. ||1. When you select **Notes** it will display under the **Search** bar in timeline. Also, you will see a paperclip ![Paperclip icon](media\timelilne-paperclip-icon.png "Paperclip icon") icon which allows you to attach files. You can only attach files to Notes.<BR>2.	When you select **Posts** it also will display under the **Search** bar in timeline.|
 
 ### Enable filter pane
@@ -172,7 +172,7 @@ Using filters provides a quick option to sort and look for specific data quickly
 
 |Configuration View | | Display View |
 |-------------------|-|--------------|
-|![Configure filter pane](media\timeline-enable-filter-pane-display-options-advanced-1a.png "Configure Enable filter pane")||![ Enable filter pane](media\timeline-enable-filter-pane-display-options-advanced-1b.png "Enable filter pane")|
+|![Configure filter pane](media\timeline-enable-filter-pane-display-options-advanced-2a.png "Configure Enable filter pane")||![ Enable filter pane](media\timeline-enable-filter-pane-display-options-advanced-3b.png "Enable filter pane")|
 |The **filter pane** feature allows you to enable or disable filter functionality on timeline. It is enabled by default.|| Enable the **filter pane** by checking the box next to the feature.  This will enable the filter icon to display on the timeline.  <BR><BR> To disable the **filter pane**, uncheck the box next to the feature and the filter icon will no longer appear on the timeline.    |
 
 ### How to filter activity types on timeline
