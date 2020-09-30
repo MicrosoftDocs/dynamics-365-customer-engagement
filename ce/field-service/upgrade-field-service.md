@@ -3,7 +3,7 @@ title: "Upgrade Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn how to upgrade Dynamics 365 Field Service.
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 09/21/2020
+ms.date: 10/01/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -67,7 +67,7 @@ Then go to the Dynamics 365 Admin Center.
 
 You can also go directly to [https://admin.powerplatform.microsoft.com/environments](https://admin.powerplatform.microsoft.com/environments)
 
-Select and highlight the environment that has the Field Service app you want to upgrade and in the top ribbon select **Resources > Dynamics 365 apps**. 
+Select and highlight the environment that has the Field Service app you want to upgrade. In the top ribbon, select **Resources** > **Dynamics 365 apps**. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Dynamics 365 admin center ](./media/upgrade-fs-new-ppac.jpg)
