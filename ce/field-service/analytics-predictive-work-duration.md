@@ -1,5 +1,5 @@
 ---
-title: "Predictive work duration in Dynamics 365 Field Service | MicrosoftDocs"
+title: "Predictive work duration reports in Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn about using predictive work duration in Dynamics 365 Field Service.
 ms.custom: 
   - dyn365-fieldservice
@@ -27,7 +27,7 @@ search.app:
   - D365FS
 ---
 
-# Predictive work duration in Dynamics 365 Field Service
+# Predictive work duration reports in Dynamics 365 Field Service
 
 Field service dispatchers often assign a fixed duration for a job type, despite various factors that may impact the time required to complete the work. Using a fixed duration can potentially cause cascading delays or lower utilization, reducing the overall effectiveness of scheduling.
 
