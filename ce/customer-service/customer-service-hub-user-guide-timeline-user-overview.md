@@ -306,7 +306,7 @@ When enabled by your system administrator, you can either add a **Post** to a re
 
 ### Add a mention or reference a team member in a Post
 
-![Add a mention or reference to a team member in a post on timeline](media\timeline-select-user-advanced-find-1a.png "Add a mention or reference to a team member in a post on timeline")
+![Add a mention or reference to a team member in a post on timeline](media\timeline-select-user-advanced-find-1b.png "Add a mention or reference to a team member in a post on timeline")
 
 Legend
 1. Typing the @ sign in the **Post** field will display a flyout menu with a list of users that have been recently used.
@@ -330,7 +330,7 @@ Legend
 
 ### Lookup records in a posts in timeline
 
-![Lookup Records pane](media\timeline-add-links-to-records-1b.png "Lookup Records pane")
+![Lookup Records pane](media\timeline-add-links-to-records-1c.png "Lookup Records pane")
 
 Legend
 1. The **Lookup Records** pane provides users with options to switch between the **Recent records** and **All records** view to find a record.  
