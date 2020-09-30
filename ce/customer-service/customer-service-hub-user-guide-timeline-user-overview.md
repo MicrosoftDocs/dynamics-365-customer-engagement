@@ -39,7 +39,7 @@ The icons displayed in the top right nav in the Timeline gives quick access to t
 When enabled by your system administrator, the **Create a timeline record** feature allows you to quickly create appointments, tasks, send emails, make notes and posts and associate them with other records. 
 
 1. Select **Create a timeline record** icon<BR><BR>
-![](media\timeline-create-a-record-icon1a.png "Create a timeline record") 
+![](media\timeline-create-a-record-icon1b.png "Create a timeline record") 
 
 2. Select the type of record you want to create from the display options available. <BR><BR>
 ![Create a timeline record](media\timeline-create-a-timeline-record-1c.png "Create a timeline record")
@@ -50,7 +50,7 @@ For information on timeline record configuration, see [Configure activity record
 
 When enabled by your system administrator, the timeline **Filter** further streamlines your productivity by allowing you to customize your experience and view data relevant to you. 
 
-![Timeline filter functionality](media\timeline-filter-1.png "Timeline filter functionality")
+![Timeline filter functionality](media\timeline-filter-1a.png "Timeline filter functionality")
 
 Legend:
 1. Timeline **Filter** ![](media\timeline-filter-icon.png "Filter") icon is located in the top right nav on the timeline.
@@ -205,7 +205,7 @@ When you hover your cursor on or expand an activity, post, or note, the command 
 
 **Command actions by record**
 
-![Command bar actions in timeline](media\timeline-access-command-bar-actions-1a.png "Command bar actions")
+![Command bar actions in timeline](media\timeline-access-command-bar-actions-1b.png "Command bar actions")
 
 Legend
 1. Each record displays a different set of associated actions.
@@ -257,7 +257,7 @@ Select the paperclip ![](media\timelilne-paperclip-icon.png "paperclip icon") ic
 
 Once you attach a file to your note, the **Edit note** screen will display, and attachmentes display at the bottom of the **Edit note** screen.
 
-![Edit note screen](media\timeline-select-user-advanced-find.png "Edit note screen")
+![Edit note screen](media\timeline-select-user-advanced-find-1c.png "Edit note screen")
 
 > [!IMPORTANT]
 > - You can only add one attachment to a note that is attached to a record. 
