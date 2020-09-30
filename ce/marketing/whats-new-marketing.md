@@ -56,7 +56,7 @@ The Dynamics 365 Marketing October 2020 update includes several feature enhancem
     - [Docs](email-design.md)
 - **Collect data from form submissions more easily with expanded entity options**
     - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/capture-data-more-easily-simplified-forms-requirements)
-    - [Docs](marketing-forms.md#early-access-do-not-createupdate-contacts-or-leads)
+    - [Docs](marketing-forms.md#do-not-createupdate-contacts-or-leads)
 - **In-place editing of email and forms**
     - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/in-place-editing-email-forms)
     - [Docs](customer-journeys-create-automated-campaigns.md)
@@ -123,7 +123,7 @@ The September update includes email designer enhancements, social posting improv
     - [Docs](create-simple-customer-journey.md)
 - **Collect data from form submissions more easily with expanded entity options**
     - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/capture-data-more-easily-simplified-forms-requirements)
-    - [Docs](marketing-forms.md#early-access-do-not-createupdate-contacts-or-leads)
+    - [Docs](marketing-forms.md#do-not-createupdate-contacts-or-leads)
 
 ### Monthly enhancements
 
