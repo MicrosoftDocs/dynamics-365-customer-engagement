@@ -305,7 +305,6 @@ For more information, see [Enable rich-text editor for notes in timeline](https:
 When enabled by your system administrator, you can either add a **Post** to a record or mention to another user or timeline.
 
 ### Add a mention or reference a team member in a Post
-<BR>
 
 ![Add a mention or reference to a team member in a post on timeline](media\timeline-select-user-advanced-find-1a.png "Add a mention or reference to a team member in a post on timeline")
 
