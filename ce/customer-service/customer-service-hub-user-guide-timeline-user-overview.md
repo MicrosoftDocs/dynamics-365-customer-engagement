@@ -310,7 +310,7 @@ Legend
 
 ### Lookup records in a posts in timeline
 
-![Lookup Records pane](media\timeline-add-links-to-records-1a.png "Lookup Records pane")
+![Lookup Records pane](media\timeline-add-links-to-records-1b.png "Lookup Records pane")
 
 Legend
 1. In the **Lookup Records** pane, you can switch between the **Recent records** and **All records** view to find a record.  
