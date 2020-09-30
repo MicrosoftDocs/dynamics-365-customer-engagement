@@ -48,17 +48,7 @@ For the field **Travel Time Calculation**, select **Bing Maps with historical tr
 Save and publish.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/rso-predictive-travel-flag.png)
-
-## Set range duration to one day or less on optimization scope
-
-On a scheduling optimization scope, go to the section **Optimization Range Settings**. 
-
-Set **Range Duration** to **1 day** or less.
-Set **Range Reference** and **Range Offset** based on your business needs. 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a scheduling optimization scope.](./media/rso-predictive-travel-range.png)
+> ![Screenshot of a scheduling optimization goal.](./media/rso-predictive-travel-flag.png)
 
 ## Run resource scheduling optimization
 
@@ -85,7 +75,7 @@ With predictive travel enabled, the estimated travel times are recalculated base
 
 - Predictive travel time can only be applied to optimization scopes with fewer than 500 requirements _and_ 500 resources during early access. If your optimization scope exceeds this threshold, the optimization will still run but without predictive travel times. If you have more resources or requirements, consider splitting the scope into smaller scopes and apply predictive travel time to each related optimization goal.
 
-- We don't recommend using predictive travel with [single resource optimization](rso-single-resource-optimization.md), but it is possible. To use predictive travel with single resource optimization, add the travel time calculation to the default goal for single resource optimization.
+- Single resource optimization](rso-single-resource-optimization.md) does not currently support predictive travel times.
 
 - Predictive travel time is only available for Bing Maps.
 
