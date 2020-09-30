@@ -118,7 +118,6 @@ This section allows you to control the number records that appear before display
 
 |Configuration View | | Display View |
 |-------------------|-|--------------|
-|
 ![Configure Records shown on page](media\timeline-records-shown-on-page-display-options-1a.png "Configure Records shown on page")<BR><BR><BR><BR><BR><BR>| | ![Display Records shown on page](media\timeline-records-shown-on-page-display-options-1b.png "Display Records shown on page")|
 |<li>The default setting on the **Records shown on page** field is set to 10 records. You can change this to any number, there is no limit.</li><BR><BR><BR><BR> | |1. Per the default setting shown in this example, the form displays a max. of 10 records, but you can display up to 50 records. <BR> 2. Once records exceed 10, the **Load more** option appears at the bottom of the form.|
 
@@ -224,49 +223,42 @@ You can easily search for records in the timeline. When you search for a phrase 
 
 |Configure View | | Enabled View | | Disabled View|
 |---------------|-|--------------|-|--------------|
-|![Display options - Advanced - Expand all records in timeline](media\timeline-expand-all-records-display-options-advanced-1.png "Display options - Advanced - Expand all records in timeline")||![Display options - Advanced - Expand all records in timeline](media\timeline-expand-all-records-display-options-advanced-1.png "Display options - Advanced - Expand all records in timeline")||![Display options - Advanced - Expand all records in timeline](media\timeline-expand-all-records-display-options-advanced-1.png "Display options - Advanced - Expand all records in timeline")|
-|**Expand all records** is disabled by default.<BR><BR><BR><BR><BR><BR><BR><BR>||	Enable the **Expand all records** by checking the box next to the feature, this will now allow records to expand and display in the form by default each time it is opened. ||To disable **Expand all records**, clear the box next to the feature it will no longer display activities in an expanded view.<BR><BR>|
+|![Configure Expand all records in timeline](media\timeline-expand-all-records-display-options-advanced-1a.png "Configure Expand all records in timeline")||![Enable Expand all records in timeline](media\timeline-expand-all-records-display-options-advanced-1b.png "Enable Expand all records in timeline")||![Disable Expand all records in timeline](media\timeline-expand-all-records-display-options-advanced-1c.png "Disable Expand all records in timeline")|
+|You can enable the **Expand all records** feature by checking the box next to the feature. This sets the default view to display all records in the expanded view format in the form each time the timeline is opened. The **Expand all records** is disabled by default.<BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR>||1. When enabled, the **Expand all records** icon is displayed in the top right corner of the timeline nav. <BR>2. Records can be expanded or collapsed by using the **Expand all records** icon. When expanded, all records are displayed in the expanded view in the form each time it is opened. <BR><BR>When you clear the box next to the **Expand all records** feature it will no longer display activities in an expanded view.||1. When disabled, the **Expand all records** icon will not display in the top right nav of the timeline. <BR>2. Records will always be displayed in a collapsed view.<BR><BR><BR><BR><BR><BR> |
 
 ### Expand records with images in timeline
 
 You can send and receive records with images, but they will not display when the record is collapsed. Records with images must be expanded to be viewed.
 
-**a.** Records when collapsed provide a visual summary.<br>
-
-**b.** To expand an individual record, click anywhere on the timeline record to expand and collapse.  In the bottom right corner of the record there is a caret:  
-<li>When the caret is facing downward (˅) the record is collapsed.</li> 
-<li>When the caret is facing upward (^) the record it expanded.</li> 
-
-**c.** Records with images will often display the following notice. When you click on this message the warning will go away. 
-
-![Expand records with images in timeline](media\timeline-expand-records-with-images-display-optiones-advanced-1.png)
+![Expand records with images in timeline](media\timeline-expand-records-with-images-display-optiones-advanced-2a.png "Expand records with images in timeline")
+1. Records when collapsed provide a visual summary. To expand an individual record, click anywhere on the timeline record to expand and collapse a record view.  In the bottom right corner of the record there is a caret:  
+> - When the caret is facing downward (˅) the record is collapsed.
+> - When the caret is facing upward (^) the record it expanded. 
+2. Records with images will often display the following notice. ![Expand records with images in timeline](media\timeline-expand-records-with-images-display-optiones-advanced-1.png), 
+3. When you click on this message the warning goes  away and the image appears. 
 
 If you don’t see a message and the image is not displaying, see [Timeline FAQs](timeline-faqs.md) for more information.
-<li> Once you click on the warning message, the image will display.</li>
-
-![Display options - Advanced - Expand records with images in timeline](media\timeline-expand-records-with-images-display-optiones-advanced-2.png "Display options - Advanced - Expand records with images in timeline")
 
 ### Enable “What you’ve missed” summary
 
 **What you’ve missed** helps you stay on top of updates and changes made records by displaying updates at the top of the timeline when you access a record. 
 
-18.	The **What you’ve missed** feature displays new records you have not seen and it is disabled by default.
-19.	To enable **What you’ve missed**, select the box next to the feature. Now when you view a customer’s account, a box will appear at the top of the timeline section notifying you updates. 
-20.	To disable **What you’ve missed**, uncheck the box next to the feature and you will notifications will not display when you access an account.
-
-![Display options - Advanced - Enable “What you’ve missed” summary](media\timeline-what-you-missed-display-options-advanced-1.png "Display options - Advanced - Enable “What you’ve missed” summary")
+|Configure View | | Enabled View | | Disabled View|
+|---------------|-|--------------|-|--------------|
+|![Configure “What you’ve missed” summary](media\timeline-what-you-missed-display-options-advanced-1a.png "Configure “What you’ve missed” summary") || ![Enable “What you’ve missed” summary](media\timeline-what-you-missed-display-options-advanced-1b.png "Enable “What you’ve missed” summary") || ![Disable “What you’ve missed” summary](media\timeline-what-you-missed-display-options-advanced-1c.png "Disable “What you’ve missed” summary") |
+|The **What you’ve missed** feature displays new records you have not seen. It is disabled by default. <BR><BR>To enable **What you’ve missed**, select the box next to the feature. To disable, uncheck the box next to the feature ||Once enabled, now when you view a customer’s account, a box will appear at the top of the timeline section notifying you updates. <BR><BR><BR><BR><BR><BR><BR><BR>|| When disabled, notifications will not display when you access an account.<BR><BR><BR><BR><BR><BR><BR>|
 
 ## Record Settings
 
 The **Record types to show** is tied to the **Record settings** which supports Activities, Notes, and Posts in the timeline.
+
+![Display options - Advanced - Record Settings](media\timeline-record-settings-display-options-advanced-1.png "Display options - Advanced - Record Settings")
 
 1.	The **Record settings** allows you manage the settings within the record types. 
 2.	**Activities** record type is tied to **Activities** in record settings.
 3.	**Notes** record type is tied to **Notes** in record settings.
 4.	**Posts** record type is tied to **Posts** in record settings.
 5.	To enable or disable a record type simply check or uncheck the box and that record type will either display or no longer appear in the **Record settings** section.
-
-![Display options - Advanced - Record Settings](media\timeline-record-settings-display-options-advanced-1.png "Display options - Advanced - Record Settings")
 
 ### How to configure activity record types
 
