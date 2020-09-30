@@ -97,7 +97,7 @@ Legend
 1. The ![](media\timeline-expand-icon.png "Expand all records") icon is used to expand all records listed on the timeline.
 2. Carats in the bottom right corner of records allow you to expand (^) or minimize (v) display views.
 3. Each record has a list of commands relevant to their record type that displays in the top right corner for ease of use. 
-4. Record backgrounds change to grey when you hover over it and becmes transparent again when you hover away.
+4. Record backgrounds change to grey when you hover over it and becomes transparent again when you hover away.
 
 ## More Commands
 
@@ -142,11 +142,11 @@ You can enable the threaded email view using the **More Commands** feature ![](m
 
 **Enable threaded email through the More Commands option**
 
+Steps:
+1. Use the **More commands** ![](media\timeline-more-commands.icon.png "More commands") icon on timeline which displays a flyout menu.
+2. Select **Always show email as conversations** to  thread and group all emails in that specific timeline. 
+
 ![Enable threaded email view - option 1](media\timeline-threaded-email-views-4a.PNG "Enable threaded email view - option 1")
-
-1. The **More commands** ![](media\timeline-more-commands.icon.png "More commands") icon on timeline displays a flyout menu with sort options.
-2. When selected, **Always show email as conversations** will thread together and group all emails in that specific timeline. 
-
 
 **Option 2:**
 
@@ -154,12 +154,12 @@ You can enable the threaded email view using the **More Commands** feature ![](m
 
 To enable threaded email via this option, go to the command bar and select **Settings**, then **Personalization Settings**. This will display the **Set Personal Options** dialog box so you can use  the following steps to enable threaded email view on timeline.
 
-![Enable threaded email view - option 2](media\timeline-threaded-email-views-3a.PNG "Enable threaded email view - option 2")
-
+Steps:
 1. Select the **Email** tab.
 2. Select the **Show emails as conversation on Timeline** check box.
 3. Select **OK**.
 
+![Enable threaded email view - option 2](media\timeline-threaded-email-views-3a.PNG "Enable threaded email view - option 2")
 
 > [!Note]
 > The **emails as conversation view** is based on the user's preference. Personal setting are tied to the user and not the form, which means once you enable the threaded email view, the setting is applied to all your timeline views. 
