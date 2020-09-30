@@ -21,11 +21,13 @@ This experience gives system administrators the ability to configure the informa
 Timelines are located on forms within entities. To access timeline configurations, you must start with the entity list.  You can access the entity list a couple of ways depending on the model-driven app you are using.
 
 ### Access entities list via Power Apps
-![How to navigate to timeline configurations - Option 2](media\timeline-access-option-2a.png "How to navigate to timeline configurations - Option 2")
 
+Steps:
 1. Go to **Power Apps** URL: [make.powerapps.com](https://make.powerapps.com "make.powerapps.com")
 2. Go to **Data** section
 3. Select **Entities**
+
+  ![Access entities list via Power Apps](media\timeline-access-option-2a.png "Access entities list via Power Apps")
 
 > [!Important]
 > When accessing timeline, if you are not taken to the new form designer experience in Power Apps, you are not using the latest experience.
@@ -36,29 +38,29 @@ Every instance of the timeline that’s applied on a form can be configured.  Ex
 
 To begin, select the entity and form where you want to add and configure your timeline. 
 
-#### Select an entity for timeline configuration
+#### Select an entity for timeline configuration example:
 ![Select an entity for timeline configuration](media\timeline-configuration-1a.png "Select an entity for timeline configuration")
-1. You can add a timeline to any entity.
+1. Timelines can be added to any entity.
 2. In this example, we selected the **Account** entity.
 
-#### Select a form for timeline configuration
+#### Select a form for timeline configuration example:
 ![Select a form for timeline configuration](media\timeline-configuration-2a.png "Select a form for timeline configuration")
-1. Select **Forms** from the **Account** entity. This will display a list of **Form types** on the **Forms** landing page. 
-Timelines can only be used on **Main** form types.
-2. In this example, we selected **Account for Interactive experiences**. 
+1. In this example we selected **Forms** under the **Account** entity, which displayed a list of **Form types**. 
+2. Since timelines can only be used on **Main** form types, we selected **Account for Interactive experiences**. 
 
 ### Adding or removing a timeline from an entity form
 
-Timeline is a component, so you will need to access **Components** to make timeline configurations. Once you have selected a **Main** form type, the following landing page will appear:
+Use the following steps to add or remove a timeline from an entity form:
 
-#### Add or remove a timeline from an entity form
+1. Timeline is a component, so you will need to access **Components** in PowerApps to make timeline configurations. 
+
+2. Once you have selected a **Main** form type, a landing page will appear.
+
+3. scroll down to the **Timeline** component on the left nav and drag and drop it in a section on the form. 
+>- If the **Timeline** component is greyed out, it means a timeline already exists on the form. You can only have one timeline per form. 
+>- To remove the **Timeline** component from a form, highlight the inside of the **Timeline** component area and hit the **Delete** key.  This will remove the **Timeline** component from the form.
+
 ![Adding or removing a timeline from an entity form](media\timeline-add-or-remove-entity-from-form-1a.png "Adding or removing a timeline from an entity form")
-
-1. Select **Components** from the left nav.
-2. Scroll down to the **Timeline** component and drag and drop it in a section on the form. 
-
-- If the **Timeline** component is greyed out, it means a timeline already exists on the form. You can only have one timeline per form. 
-- To remove the **Timeline** component from a form, highlight the inside of the **Timeline** component area and hit the **Delete** key.  This will remove the **Timeline** component from the form.
 
 > [!Note] 
 > Since the timeline component relies exclusively on underlying related data, it will always say **Almost there** when added to the timeline section. 
@@ -71,13 +73,13 @@ In the body of the entity form located in the center there is an area titled **T
 #### Timeline component section resides in the Maker App
 ![Understanding the timeline component on the form](media\timeline-component-1a.png "Understanding the timeline component on the form")
 1. The outside section (titled **TIMELINE**) is what houses the **Timeline** component. 
-2. When you select **TIMELINE**, the **Display options** under the **Properties** tab in the right nav change to support the **TIMELINE** section.
+2. When **TIMELINE** is selected, the **Display options** under the **Properties** tab in the right nav change to support the **Maker App**.
 
 #### Timeline component section access
 ![Understanding the timeline component on the form](media\timeline-component-2a.png "Understanding the timeline component on the form")
 
 1. Inside the **TIMELINE** section is where the **Timeline** component is located.
-2. When you select the **Timeline** component, the **Display options** under the **Properties** tab in the right nav changes to support the **Timeline** component items.
+2. When the **Timeline** component is selected, the **Display options** under the **Properties** tab in the right nav changes to support the **Timeline** component.
 
 ## How to configure timeline component
 
