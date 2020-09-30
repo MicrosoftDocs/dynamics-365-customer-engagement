@@ -2,7 +2,7 @@
 title: "Connected Field Service on Field Service (Dynamics 365) mobile app | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 08/01/2020
+ms.date: 10/01/2020
 ms.reviewer: ""
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -42,9 +42,6 @@ With the latest version of Field Service and the Field Service (Dynamics 365) mo
 > ![Simulated image of a mobile phone, showing IoT alerts in the Field Service mobile app.](./media/cfs-fsm-powerapp-site-map.png)
 
 ## Prerequisites
-
-> [!Note]
-> As of August 2020, this feature is available as early access. For more information, see the article on [how to opt-in to early access features](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates#how-to-enable-early-access-updates).
 
 - Connected Field Service is included with Field Service.
 - Make sure that Connected Field Service is set up.
