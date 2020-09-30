@@ -89,7 +89,7 @@ When working with records, you can view key information at a glance or expand re
 
 When enabled by your system administrator, you can view timeline records quickly in a collapsed format or expand a record to see more details for ease of use.
 
-![Expand all records functionality](media\timeline-expand-all-records-1.png "Expand all records functionality")
+![Expand all records functionality](media\timeline-expand-all-records-1a.png "Expand all records functionality")
 
 Legend
 1. Select the ![](media\timeline-expand-icon.png "Expand all records") icon to expand all the records listed on your timeline.
@@ -101,7 +101,7 @@ Legend
 
 The **More commands** option contains refresh, sort, and email functionalities.
 
-![More commands timeline functionality](media\timeline-more-commands.png "More commands timeline functionality")
+![More commands timeline functionality](media\timeline-more-commands-1.png "More commands timeline functionality")
 
 Legend
 1. Select the **More commands** ![](media\timeline-more-commands.icon.png "More commands") icon to expand additional functionality options.
@@ -114,7 +114,7 @@ Legend
 Use the threaded email view option to save valuable space when you have emails with multiple replies. This view consolidates email threads when collapsed.
 
 **Collapsed threaded email view**
-![Collapsed threaded email view](media\timeline-threaded-email-views-1.png "Collapsed threaded email view")
+![Collapsed threaded email view](media\timeline-threaded-email-views-1a.png "Collapsed threaded email view")
 
 Legend
 1. When enabled via the **Always show email as conversations** option under **More commands** ![](media\timeline-more-commands.icon.png "More commands icon"), emails with multiple responses are grouped together into threaded emails.
@@ -122,7 +122,7 @@ Legend
 
 **Expanded threaded email view**
 
-![Expanded threaded email view](media\timeline-threaded-email-views-2.png "Expanded threaded email view")
+![Expanded threaded email view](media\timeline-threaded-email-views-2a.png "Expanded threaded email view")
 
 Legend
 1. When expanded, the most recent 10 email responses in the thread will display.  To display more, select **Show more** to expand the view again.
@@ -137,7 +137,7 @@ You can use the following options to enable threaded email views in timeline:
 **Option 1:** 
 
 **Enable treaded email through the More Commands option**
-![Enable threaded email view - option 1](media\timeline-threaded-email-views-4.PNG "Enable threaded email view - option 1")
+![Enable threaded email view - option 1](media\timeline-threaded-email-views-4a.PNG "Enable threaded email view - option 1")
 Legend
 1. Select the **More commands** ![](media\timeline-more-commands.icon.png "More commands") icon on timeline. This will display a flyout menu.
 2. Select **Always show email as conversations**. Now your emails will display in that specific timeline as threaded together.
@@ -148,7 +148,7 @@ Legend
 
 To enable threaded email via this option, go to the command bar and select **Settings**, then **Personalization Settings**. This will display the **Set Personal Options** dialog box so you can use  the following steps to enable threaded email view on timeline.
 
-![Enable threaded email view - option 2](media\timeline-threaded-email-views-3.PNG "Enable threaded email view - option 2")
+![Enable threaded email view - option 2](media\timeline-threaded-email-views-3a.PNG "Enable threaded email view - option 2")
 
 Legend
 1. Select the **Email** tab.
@@ -162,7 +162,7 @@ Legend
 
 When enabled by your system administrator, you can easily search for records in the timeline. When you search for a phrase in the timeline, it searches in the title, subject of the record, body, or description fields of the record and displays the record for you.
 
-![Enable threaded email timeline view - option 2](media\timeline-search-records-1.PNG "Enable threaded email timeline view - option 2")
+![Enable threaded email timeline view - option 2](media\timeline-search-records-1a.png "Enable threaded email timeline view - option 2")
 
 Legend
 1. Use the **Search** bar to quickly find records. When you enter keywords or phrases, the search feature will retrieve and display results below the search bar.
@@ -189,7 +189,7 @@ When enabled by your system administrator, the **Note** field is displayed under
 **Post display view**
 
 When enabled by your system administrator, the **Post** field is also displayed under the **Search** feature on timeline.
-![Add a post to a record on timeline](media\timeline-add-a-post-to-a-record.PNG "Add a post to a record on timeline")
+![Add a post to a record on timeline](media\timeline-add-a-post-to-a-record-1.png "Add a post to a record on timeline")
 
 > [!NOTE] 
 > You can not add an attachment in a post.
@@ -199,7 +199,7 @@ When enabled by your system administrator, the **Post** field is also displayed 
 When you hover your cursor on or expand an activity, post, or note, the command bar appears in the top right corner of the record with the specific options that support that activity, such as assigning it to others, adding it to a queue, converting it to a case, liking or replying to a post, editing a note, or deleting an activity. However, not all records can perform the same actions. 
 
 **Command actions by record**
-![Command bar actions in timeline](media\timeline-access-command-bar-actions-1.PNG "Command bar actions")
+![Command bar actions in timeline](media\timeline-access-command-bar-actions-1a.png "Command bar actions")
 
 Legend
 1. Each record displays a different set of associated actions.
@@ -225,7 +225,7 @@ The following is an overview of the command bar icons and the actions they suppo
 
 The **Note** message box has a rich text editor that enables you to use rich text and create well-formatted content.
 
-![Timeline notes rich text editor](media\timeline-take-a-note.PNG "Timeline notes rich text editor")
+![Timeline notes rich text editor](media\timeline-take-a-note-1.png "Timeline notes rich text editor")
 
 Legend
 1. Title field
