@@ -234,8 +234,9 @@ You can send and receive records with images, but they will not display when the
 
 ![Expand records with images in timeline](media\timeline-expand-records-with-images-display-optiones-advanced-2a.png "Expand records with images in timeline")
 1. Records when collapsed provide a visual summary. To expand an individual record, click anywhere on the timeline record to expand and collapse a record view.  In the bottom right corner of the record there is a caret:  
-> - When the caret is facing downward (˅) the record is collapsed.
-> - When the caret is facing upward (^) the record it expanded. 
+<ul><li> When the caret is facing downward (˅) the record is collapsed.</li>
+<li>When the caret is facing upward (^) the record it expanded. </li></ul>
+
 2. Records with images will often display the following notice. ![Expand records with images in timeline](media\timeline-expand-records-with-images-display-optiones-advanced-1.png)
 3. When you click on the message the warning goes  away and the image appears. 
 
