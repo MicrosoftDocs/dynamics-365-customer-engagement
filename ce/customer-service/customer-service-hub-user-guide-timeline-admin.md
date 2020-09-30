@@ -57,8 +57,8 @@ Use the following steps to add or remove a timeline from an entity form:
 2. Once you have selected a **Main** form type, a landing page will appear.
 
 3. scroll down to the **Timeline** component on the left nav and drag and drop it in a section on the form. 
->- If the **Timeline** component is greyed out, it means a timeline already exists on the form. You can only have one timeline per form. 
->- To remove the **Timeline** component from a form, highlight the inside of the **Timeline** component area and hit the **Delete** key.  This will remove the **Timeline** component from the form.
+<ul><li> If the **Timeline** component is greyed out, it means a timeline already exists on the form. You can only have one timeline per form. </li>
+<li> To remove the **Timeline** component from a form, highlight the inside of the **Timeline** component area and hit the **Delete** key.  This will remove the **Timeline** component from the form.</li></ul>
 
 ![Adding or removing a timeline from an entity form](media\timeline-add-or-remove-entity-from-form-1b.png "Adding or removing a timeline from an entity form")
 
@@ -138,7 +138,7 @@ This section allows you to enable these record types to be displayed in the time
 |Configuration View | | Display View  |
 |-------------------|-|---------------|
 |![Display options - Record types shown](media\timeline-record-types-shown-display-options-2b.png "Display options - Record types shown")||![Display options - Record types shown](media\timeline-record-types-shown-display-options-3b.png "Display options - Record types shown")|
-|<li>To enable **Record types shown** for **Activities**, **Notes**, and **Posts** on a form, check the box next to the record type.</li>||1. To confirm the record type is displaying on the form, click on the **Create a timeline record** ![](media\timeline-create-a-record-icon.png "Create a timeline record icon") (Create a timeline record icon) icon in the top right nav in the timeline and a drop down menu will appear displaying the list of enabled record types.<BR>2. When **Activities** are enabled you will see **Activity** record types for appointments, email, phone calls, and tasks.<BR> 3. When **Notes** are enabled, you will see the Note record types on the form.<BR> 4. When **Posts** are enable you will also see the Post record types on the form.|
+|To enable **Record types shown** for **Activities**, **Notes**, and **Posts** on a form, check the box next to the record type.||1. To confirm the record type is displaying on the form, click on the **Create a timeline record** ![](media\timeline-create-a-record-icon.png "Create a timeline record icon") (Create a timeline record icon) icon in the top right nav in the timeline and a drop down menu will appear displaying the list of enabled record types.<BR>2. When **Activities** are enabled you will see **Activity** record types for appointments, email, phone calls, and tasks.<BR> 3. When **Notes** are enabled, you will see the Note record types on the form.<BR> 4. When **Posts** are enable you will also see the Post record types on the form.|
 
 > [!Note]
 > Activities, Notes, and Posts are standard entities. If your administrator or system customizer has configured other entities, then those will also appear.
