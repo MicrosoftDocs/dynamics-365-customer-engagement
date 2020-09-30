@@ -42,14 +42,13 @@ Leveraging the common data model and common data service in Dynamics 365, you ca
 - **Purchase Order Receiept**
 - **Purchase Order Receiept Product**
 
-This first round of integration is important for two key scenarios:
+Here are a few examples of how the integration is useful.
 
 1. **Asset management**: When creating a work order for repair or maintenance on a customer asset, the integration will allow dispatchers to pick from a full list of customer assets, regardless of which system it was created in.
 2. **Nearby warehouses**: Integration provides technicians with a complete list of nearby warehouses and relevant details.
+3. **Purchase orders**: A purchase order is created in supply chain management and a technician documents receipt of the products in the Field Service app while onsite a tthe customers location. 
 
 ## Prerequisites
-
-- As of February 3, 2020, this feature is available in public preview
 
 - To view integrated data, you need the required license and security for one system. Only a few IT administrators will need access to both Dynamics 365 Field Service *and* Supply Chain Management. In other words, users only need a license for the interface in which they are accessing the data.
 
