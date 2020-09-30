@@ -1,5 +1,6 @@
 ---
 title: "Integrate Dynamics 365 Field Service and Supply Chain Management | MicrosoftDocs"
+description: Learn about intergration between Dynamics 365 Field Service and Dynamics 365 Supply Chain Management.
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 10/01/2020
@@ -55,9 +56,9 @@ Here are a few examples of how the integration is useful.
 
 ## How it works
 
-The integration is made possible because Field Service is built on top of Common Data Service and [Dual Write](https://powerapps.microsoft.com/blog/announcing-dual-write-preview/), which writes changes in Dynamics 365 Supply Chain Management to Common Data Service and vice versa.
+The integration is made possible because Field Service is built on top of Common Data Service and [dual-write](https://powerapps.microsoft.com/blog/announcing-dual-write-preview/), which writes changes in Dynamics 365 Supply Chain Management to Common Data Service and vice versa.
 
-After Dual Write is enabled, a solution is imported into Field Service that adds the required fields to make the entities in each system integratable. 
+After dual-write is enabled, a solution is imported into Field Service that adds the required fields to make the entities in each system integratable. 
 
 For example, in Field Service, you'll see new fields added to the warehouse entity that are required in Supply Chain Management.
 
@@ -77,28 +78,26 @@ Business rules and validations in either system are respected in the other syste
 
 Here is an another example.
 
-A Purchase Order is created in either system, in the image below a purchase order was created in Supply Chain Management.
+A purchase order is created in either system. In the following example, a purchase order was created in Supply Chain Management.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of purchase order form in supply chain management](./media/scm-po-form.jpg)
+> ![Screenshot of purchase order form in supply chain management.](./media/scm-po-form.jpg)
 
-In Dual Write you can see the integration is running.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of list of dual write entities](./media/scm-dual-write-map-list.jpg)
-
-For each entity in the integration the relevant fields are mapped to the other system. The image below shows the mapping between Purchase Orders in Supply Chain Management and Purchase Orders in Field Service.
-
+In dual-write, you can see the integration is running.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of dual write mapping details](./media/scm-pomap-details.jpg)
+> ![Screenshot of list of dual-write entities.](./media/scm-dual-write-map-list.jpg)
 
+For each entity in the integration, the relevant fields are mapped to the other system. The following screenshot shows the mapping between purchase orders in Supply Chain Management and purchase orders in Field Service.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of dual-write mapping details](./media/scm-pomap-details.jpg)
 
 As the last part of the process, a purchase order is created in Field Service with relevant information from both systems. 
 
-
 > [!div class="mx-imgBorder"]
-> ![Screenshot of purchase order in Field Service](./media/scm-po-form-fs.jpg)
+> ![Screenshot of purchase order in Field Service.](./media/scm-po-form-fs.jpg)
 
 ## Additional Notes
 
