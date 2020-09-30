@@ -2,10 +2,7 @@
 title: "Configure forecasting (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Define the data and period to use for the purpose of forecasting in Dynamics 365 Sales."
 ms.date: 05/25/2020
-ms.service: 
-  - "dynamics-365-sales"
-ms.custom: 
-  - "dyn365-sales"
+ms.service: dynamics-365-sales
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -94,7 +91,9 @@ To configure a forecast in your organization, follow these steps:
 
 6.	[Apply additional filter](add-additional-filters.md)
 
-7.	[Activate and upload simple columns data](activate-upload-simple-columns-data-forecast.md)
+7.	[Configure and manage drill-down entities](configure-manage-drill-downs.md) 
+
+8.	[Activate and upload simple columns data](activate-upload-simple-columns-data-forecast.md)
 
 
 >[!IMPORTANT]

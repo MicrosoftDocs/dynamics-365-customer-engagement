@@ -107,6 +107,7 @@ This list identifies all resources used by Dynamics 365 for phones and tablets. 
   
 <a name="BKMK_Configure"></a>   
 ## Configure customer engagement apps in Dynamics 365  
+
  You must configure apps that will be available for Dynamics 365 for phones and tablets mobile app.  
 
  - For Common Data Service, see [Create a custom entity](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-create-entity).

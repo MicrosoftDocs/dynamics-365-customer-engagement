@@ -262,12 +262,12 @@ To avoid having to enter a password each time someone uses the application, admi
 > [!div class="mx-imgBorder"]
 > ![Screenshot of mobile configurations in the configuration tool.](./media/mobile-configuration-save-password.png)
 
-However, Android users who have **Save password** set to true will be prompted for the password every time they launch the latest version (12.3.x) of the Field Service Mobile (Xamarin) app. This will impact all Android users with **Save password** set to true who migrate to the latest version (12.3.203) of the Field Service Mobile (Xamarin) app. This issue will also occur when user upgrades from the present version 12.1.224 to the upcoming version 12.3.x.
+However, Android users who have **Save password** set to true will be prompted for the password every time they launch the latest version (12.3.x) of the Field Service Mobile (Xamarin) app. This will impact all Android users with **Save password** set to true who migrate to the latest version (12.3.203) of the Field Service Mobile (Xamarin) app. This issue will also occur when user upgrades from the present version 12.1.224 to the upcoming version 12.3.206.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the save password prompt.](./media/mobile-save-password-prompt.png)
 
-The issue is due to a necessary security upgrade of encryption method on Field Service Mobile (Xamarin) and a bug in the Android operating system, which has been marked as “Won’t Fix” by Google. Link to the issue: [Android bug link](https://issuetracker.google.com/issues/37075898). 
+The issue is due to a necessary security upgrade of encryption method on Field Service Mobile (Xamarin) and a bug in the Android operating system.
 
 ### Solution:
 
