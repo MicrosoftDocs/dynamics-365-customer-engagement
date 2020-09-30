@@ -323,7 +323,7 @@ Legend
 
 To add a reference such as links in a post to a timeline record, select the **Create a timeline record** ![](media\timeline-create-a-record-icon.png "Create a timeline record") icon and select **Post**, then follow the steps below:
 
-![Add a link](media\timeline-add-link-1a.png"Add a link")
+![Add a link](media\timeline-add-link-1a.png "Add a link")
 
 Legend
 1. Links can be added to a record by typing **#** which will display a flyout menu with a list of records recently accessed. Type a keyword after the # tag and the display refreshes in the flyout menu via the **Dynamics 365 Quick Find** search engine that's operating in the background.
