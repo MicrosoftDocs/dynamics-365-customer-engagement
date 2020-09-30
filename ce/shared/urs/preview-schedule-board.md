@@ -106,9 +106,9 @@ Scheduled requirements with a short duration will display across the entire day 
 
 ### When to use the new versus current schedule board
 
-Users who perform simple drag and drop scheduling or users who only need to view the schedule board can use the new schedule board during preview. Also, organizations using Resource Scheduling Optimization (RSO) should consider using the new schedule board because RSO capabilities are embbeded. 
+Users who perform simple drag and drop scheduling or users who only need to view the schedule board can use the new schedule board during preview. Also, organizations using resource scheduling optimization should consider using the new schedule board because the resource scheduling optimization capabilities are embbeded. 
 
-Other users should continue to use the current schedule board. Continue to use the **current** schedule board for common functions like:
+Other users should continue to use the current schedule board. Continue to use the current schedule board for common functions like:
 - Creating and deleting schedule board tabs. 
 - Schedule board tab settings.
 - Schedule board configurations like number of days in a view or applying filter territories.
