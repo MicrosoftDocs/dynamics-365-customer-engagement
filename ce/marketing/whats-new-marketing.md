@@ -59,7 +59,7 @@ The Dynamics 365 Marketing October 2020 update includes several feature enhancem
     - [Docs](marketing-forms.md#early-access-do-not-createupdate-contacts-or-leads)
 - **In-place editing of email and forms**
     - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/in-place-editing-email-forms)
-    - [Docs]()
+    - [Docs](customer-journey.md)
 - **Create and manage content-rich social media posts and easily monitor performance**
     - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/improved-social-posting)
     - [Docs](social-posting.md)
