@@ -159,7 +159,6 @@
 #### [Use Customer Insights segments in Marketing](customer-insights-segments.md)
 
 ### Work with customer journeys
-#### [Early access: Create a customer journey using the new canvas experience](customer-journey.md)
 #### [Create automated campaigns with customer journeys](customer-journeys-create-automated-campaigns.md)
 #### [Export to Excel for further analysis](export-journey.md)
 #### [Set expiration dates for emails](email-expire.md)
@@ -202,7 +201,7 @@
 #### [Create and run online surveys](surveys.md)
 
 ### Marketing on social media
-#### [Early access: Schedule and post messages on social media](social-posting.md)
+#### [Schedule and post messages on social media](social-posting.md)
 #### [Marketing on LinkedIn with Dynamics 365](linkedin-overview.md)
 #### [LinkedIn Lead Gen integration](LinkedIn-Lead-Gen-integration.md)
 
