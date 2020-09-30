@@ -39,7 +39,7 @@ The icons displayed in the top right nav in the Timeline gives quick access to t
 When enabled by your system administrator, the **Create a timeline record** feature allows you to quickly create appointments, tasks, send emails, make notes and posts and associate them with other records. 
 
 1. Select **Create a timeline record** icon<BR><BR>
-![](media\timeline-create-a-record-icon1b.png "Create a timeline record") 
+![](media\timeline-create-a-record-icon1c.png "Create a timeline record") 
 
 2. Select the type of record you want to create from the display options available. <BR><BR>
 ![Create a timeline record](media\timeline-create-a-timeline-record-1c.png "Create a timeline record")
@@ -205,7 +205,7 @@ When you hover your cursor on or expand an activity, post, or note, the command 
 
 **Command actions by record**
 
-![Command bar actions in timeline](media\timeline-access-command-bar-actions-1b.png "Command bar actions")
+![Command bar actions in timeline](media\timeline-access-command-bar-actions-1c.png "Command bar actions")
 
 Legend
 1. Each record displays a different set of associated actions.
