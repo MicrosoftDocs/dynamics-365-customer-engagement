@@ -73,6 +73,32 @@ When a warehouse record is created or updated in either system, the change will 
 
 Business rules and validations in either system are respected in the other system. For example, imagine a warehouse can't be created in Supply Chain Management without a specific field value. When a user attempts to create the warehouse in Field Service, an error will appear based on the validation logic in Supply Chain Management.
 
+## Purchase Orders
+
+Here is an another example.
+
+A Purchase Order is created in either system, in the image below a purchase order was created in Supply Chain Management.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of purchase order form in supply chain management](./media/scm-po-form.jpg)
+
+In Dual Write you can see the integration is running.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of list of dual write entities](./media/scm-dual-write-map-list.jpg)
+
+For each entity in the integration the relevant fields are mapped to the other system. The image below shows the mapping between Purchase Orders in Supply Chain Management and Purchase Orders in Field Service.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of dual write mapping details](./media/scm-pomap-details.jpg)
+
+
+As the last part of the process, a purchase order is created in Field Service with relevant information from both systems. 
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of purchase order in Field Service](./media/scm-po-form-fs.jpg)
 
 ## Additional Notes
 
