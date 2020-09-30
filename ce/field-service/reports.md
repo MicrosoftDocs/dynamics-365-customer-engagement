@@ -1,8 +1,9 @@
 ---
-title: Reports in Dynamics 365 Field Service (early access) | MicrosoftDocs"
+title: Reports in Dynamics 365 Field Service | MicrosoftDocs"
+description: Learn about how to use work order summary reports in Dynamics 365 Field Service.
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 08/01/2020
+ms.date: 10/01/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -26,7 +27,7 @@ search.app:
   - D365FS
 ---
 
-# Work order summary reports in Dynamics 365 Field Service (early access)
+# Work order summary reports in Dynamics 365 Field Service
 
 Operations managers are responsible for managing work orders in order to provide timely support for their customers. To better understand what actions may be needed for better field service performance, these managers need to be able to monitor key operational metrics. 
 
@@ -38,9 +39,6 @@ Reports in Dynamics 365 Field Service can help you get a birds-eye understanding
 - Whether or not you are meeting customer expectations around travel time or other needs
 - How an individual technician performs on all key metrics
 - Insights around specific territories, from work order volume to travel time and more
-
-> [!Note]
-> As of August 2020, work order summary reports are available as an early access feature. For more information, see the article on [how to opt-in to early access features](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates#how-to-enable-early-access-updates).
 
 ## Reports overview
 
