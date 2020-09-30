@@ -246,6 +246,25 @@ Legend
 > - The rich text editor is available only for Unified Interface.
 > - If you create a rich text editor note in Unified Interface and then view the note in the Web Client, it will display in HTML syntax.
 
+### Add an attachment to a note in timeline
+
+When enabled by your system administrator, you can add an attachment, such as a file, to a note in timeline to share with users.
+
+Select the paperclip ![](media\timelilne-paperclip-icon.png "paperclip icon") icon to attach a file to a note. 
+
+![Attachment icon](media\timeline-add-a-note-to-a-record.png "Attachment icon")
+
+### Edit Note
+
+Once you attach a file to your note, the **Edit note** screen will display.
+
+Attachmentes display at the bottom of the **Edit note** screen.
+
+![Edit note screen](media\timeline-add-an-attachment-to-a-note1.png "Edit note screen")
+
+> [!IMPORTANT]
+> - You can only add one attachment to a note that is attached to a record. 
+> - Also, you can only add one file per note.
 For more information on the rich text editor feature, the following is a list of functionality:
   
 |Icon | Name | Shortcut key | Description |
@@ -326,23 +345,7 @@ For more information on Notes and Post functionality and configuration, see:
 - [Record Settings](customer-service-hub-user-guide-timeline-admin.md#record-settings-section) 
 - [Notes on timeline](customer-service-hub-user-guide-timeline-admin.md#notes-on-timeline)
 
-## Add an attachment to a note in timeline
 
-When enabled by your system administrator, you can add an attachment, such as a file, to a note in timeline to share with users.
-
-Select the paperclip ![](media\timelilne-paperclip-icon.png "paperclip icon") icon to attach a file to a note. 
-![Attachment icon](media\timeline-add-a-note-to-a-record.png "Attachment icon")
-
-### Edit Note
-
-Once you attach a file to your note, the **Edit note** screen will display.
-
-Attachmentes display at the bottom of the **Edit note** screen.
-![Edit note screen](media\timeline-add-an-attachment-to-a-note1.png "Edit note screen")
-
-> [!IMPORTANT]
-> - You can only add one attachment to a note that is attached to a record. 
-> - Also, you can only add one file per note.
 
 ### See Also
 
