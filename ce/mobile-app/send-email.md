@@ -33,9 +33,6 @@ Use the Dynamics 365 for phones and tablets app to compose an email within the a
 > [!NOTE]
 > This feature isn't available for mobile offline.
 
- 
-## Use the feature
-
 1. You can create emails from home page grid or by using quick create. 
 
     1. **Home page grid**: On the home page, select the site map button in the the top-left corner > **Activities**, and then select the **More** button > **Email**.
