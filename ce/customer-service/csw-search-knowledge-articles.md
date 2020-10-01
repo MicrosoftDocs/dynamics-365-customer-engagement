@@ -25,7 +25,7 @@ In Customer Service workspace, knowledge base search lets you search for relevan
 
 ## Prerequisites
 
-The productivity pane and knowledge base search must be enabled in app profile manager.
+The productivity pane and knowledge search must be enabled in app profile manager.
 
 ## Use the knowledge pane to search articles
 
