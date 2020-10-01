@@ -67,6 +67,36 @@ Go to the schedule board and use the toggle button in the top right of the sched
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the schedule board showing the preview toggle in the top right set to "On."](../../field-service/media/schedule-board-new-enable-preview.png)
 
+## Schedule resources
+
+Beyond manual drag and drop scheduling, organizations using resource scheduling optimization can select one or more requirements from the new schedule board and either have the system **Suggest resources** or **Book resources**.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the suggest resources option.](../../field-service/media/scheduling-new-suggest-resources.png)
+
+Selecting **Suggest resources** will display recommended resources in the right panel for the dispatcher to book.
+
+Selecting **Book resources** will find the most optimal resources and book them without additional actions from the dispatcher.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the scheduling assistance preview.](../../field-service/media/scheduling-new-assistance-preview.png)
+
+**Suggest resources** and **Book resource** capabilities on the new schedule board are currently only available for organizations using resource scheduling optimization.
+
+## Daily view
+
+The new schedule board supports a daily view of scheduled jobs and supports dragging and dropping to the schedule.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the daily schedule view on the new schedule board.](../../field-service/media/scheduling-new-daily-view-schedule1.png)
+
+Scheduled requirements with a short duration will display across the entire day to make it easier to view details. Hover over the requirement or double-click to see the actual duration. 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the new schedule board showing another daily view detail.](../../field-service/media/scheduling-new-daily-view.png)
+
+
 ## Configuration considerations
 
 - During preview, the new schedule board is only available in English. 
@@ -76,14 +106,13 @@ Go to the schedule board and use the toggle button in the top right of the sched
 
 ### When to use the new versus current schedule board
 
-Users who perform simple drag and drop scheduling or users who only need to view the schedule board can use the new schedule board during preview. Other users should continue to use the current schedule board.
+Users who perform simple drag and drop scheduling or users who only need to view the schedule board can use the new schedule board during preview. Also, organizations using resource scheduling optimization should consider using the new schedule board because the resource scheduling optimization capabilities are embbeded. 
 
-Continue to use the **current** schedule board for common functions like:
+Other users should continue to use the current schedule board. Continue to use the current schedule board for common functions like:
 - Creating and deleting schedule board tabs. 
 - Schedule board tab settings.
 - Schedule board configurations like number of days in a view or applying filter territories.
 - Map view and scheduling.
-- Days, weeks, and months view.
 
 ### Add new schedule board to custom sitemap area
 

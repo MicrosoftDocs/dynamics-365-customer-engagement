@@ -13,7 +13,7 @@
 
 # User Guides
 ## [User Guide for Dynamics 365 for phones and tablets](dynamics-365-phones-tablets-users-guide.md)
-## [Basic navigation in Dynamics 365 for phones and tablets (Preview)](user_guide_mobile_app.md)
+## [Basic navigation in Dynamics 365 for phones and tablets (Preview)](user-guide-mobile-app.md)
 ## [Send email from the mobile app (Preview)](send-email.md)
 ## [Work offline on your mobile device](work-in-offline-mode.md)
 
