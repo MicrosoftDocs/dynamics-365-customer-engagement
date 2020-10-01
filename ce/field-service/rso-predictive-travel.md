@@ -79,7 +79,7 @@ With predictive travel enabled, the estimated travel times are recalculated base
 
 - Predictive travel time is only available for Bing Maps.
 
-## Additional Notes
+## Additional notes
 
 - Running resource scheduling optimization with predictive travel times can result in different travel times and different sequences of schedules.
 
