@@ -1,6 +1,6 @@
 ---
 title: "Predictive work duration reports in Dynamics 365 Field Service | MicrosoftDocs"
-description: Learn about using predictive work duration in Dynamics 365 Field Service.
+description: Learn about using predictive work duration reports in Dynamics 365 Field Service.
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 10/01/2020
@@ -90,8 +90,8 @@ Below the filters are key performance indicators.
 
 | Label  |  Description  |  
 |---------|--------------|
-| Under allocated bookings |	Number of bookings allocated under predicted duration. |
-| Under allocated requirements	| Number of requirements allocated under predicted duration. |
+| **Under allocated bookings** |	Number of bookings allocated under predicted duration. |
+| **Under allocated requirements**	| Number of requirements allocated under predicted duration. |
 
 
 ### Charts
@@ -100,8 +100,8 @@ Beneath the key performance indicators, you'll find the following charts.
 
 | Label | Description |
 | ------ | -------------|
-| Scheduled bookings | Shows a list of scheduled bookings, with information and prediction factors for each. |
-| Unscheduled requirements | Shows a list of requirements that have not been scheduled, with information and prediction factors for each. | 
+| **Scheduled bookings** | Shows a list of scheduled bookings, with information and prediction factors for each. |
+| **Unscheduled requirements** | Shows a list of requirements that have not been scheduled, with information and prediction factors for each. | 
 
 
 ### Metrics
@@ -110,8 +110,8 @@ Within the charts previously listed, you'll find the following information.
 
 | Metric | Description |
 |--------|----------------------|
-| Confidence | How likely the actual duration will be close to the predicted duration. A higher score (closer to 100%) signifies a better chance of the prediction being correct, while lower score (close to 0%) means the prediction may be incorrect. |
-|Prediction Factors |  Insights into factors that were considered when predicting and how they affect the prediction. |
+| **Confidence** | How likely the actual duration will be close to the predicted duration. A higher score (closer to 100%) signifies a better chance of the prediction being correct, while lower score (close to 0%) means the prediction may be incorrect. |
+|**Prediction Factors** |  Insights into factors that were considered when predicting and how they affect the prediction. |
 
 ## Territory duration
 
@@ -180,10 +180,10 @@ At the top of the report, you'll see the following key performance indicators.
 
 | Label | Description | 
 | -------|---------|
-| Number of resources	| Shows number of resources involved in bookings. |
-| Number of bookings	| Shows number of completed bookings. | 
-| Overestimated bookings	| Shows number of bookings that are overestimated compared with actual duration. | 
-| Underestimated bookings	| Shows number of bookings that are underestimated compared with actual duration.
+| **Number of resources**	| Shows number of resources involved in bookings. |
+| **Number of bookings**	| Shows number of completed bookings. | 
+| **Overestimated bookings**	| Shows number of bookings that are overestimated compared with actual duration. | 
+| **Underestimated bookings**	| Shows number of bookings that are underestimated compared with actual duration.
 
 ### Charts
 
