@@ -4,19 +4,20 @@ description: See how you can effectively search knowledge articles in the Custom
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 08/26/2020
+ms.date: 10/05/2020
 ms.topic: article
 ms.service: 
-  - dynamics-365-customerservice
+  dynamics-365-customerservice
 ms.custom: 
-  - dyn365-customerservice
+  dyn365-customerservice
 search.audienceType: 
-  - admin
-  - customizer
-  - enduser
+  admin
+  customizer
+  enduser
 search.app: 
-  - D365CE
-  - D365CS
+  D365CE
+  D365CS
+  
 ---
 
 # Search for knowledge articles in the Customer Service Hub
@@ -96,6 +97,15 @@ In the knowledge base search control, you perform the following:
 - Link and unlink the knowledge article to a record
 - Email the knowledge article
 - View the knowledge article inline in the search control
+
+### View results from an external sources
+
+If your administrator has configured the ability for you to search for files, documents, or articles from data sources outside of your current Dynamics 365 organization, you can view those results by selecting the provider from the drop-down list under **Knowledge**.
+
+   > [!div class=mx-imgBorder]
+   > ![Agent view of search providers](media/search-provider-agent.png "Agent view of available search providers")
+
+For more information on setting up search providers, see [Set up a search provider in Customer Service Hub](set-up-search-providers.md)
 
 ### Display knowledge article pop outs 
 
