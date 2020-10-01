@@ -16,7 +16,7 @@
 
 ## Developer guide
 ### [Overview of JavaScript API reference](reference/microsoft-apm.md)
-### Methods
+#### Methods
 #### [createTab](reference/microsoft-apm/createTab.md)
 #### [focusTab](reference/microsoft-apm/focusTab.md)
 #### [refreshTab](reference/microsoft-apm/refreshTab.md)
