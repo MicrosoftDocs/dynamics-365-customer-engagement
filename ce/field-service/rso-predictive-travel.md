@@ -75,7 +75,7 @@ With predictive travel enabled, the estimated travel times are recalculated base
 
 - Predictive travel time can only be applied to optimization scopes with fewer than 500 requirements _and_ 500 resources during early access. If your optimization scope exceeds this threshold, the optimization will still run but without predictive travel times. If you have more resources or requirements, consider splitting the scope into smaller scopes and apply predictive travel time to each related optimization goal.
 
-- Single resource optimization](rso-single-resource-optimization.md) does not currently support predictive travel times.
+- [Single resource optimization](rso-single-resource-optimization.md) does not currently support predictive travel times.
 
 - Predictive travel time is only available for Bing Maps.
 
