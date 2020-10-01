@@ -208,4 +208,4 @@ Technicians can:
 
 ### Use the Field Service mobile Power App
 
-As part of the August 2020 early access update, technicians can deep link from the [Field Service (Dynamics 365) mobile app](mobile-2020-power-platform.md) to the Dynamics 365 Remote Assist mobile app. For more information, see the article: [how to opt in to early access features](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates#how-to-enable-early-access-updates). 
+Technicians can deep link from the [Field Service (Dynamics 365) mobile app](mobile-2020-power-platform.md) to the Dynamics 365 Remote Assist mobile app. 

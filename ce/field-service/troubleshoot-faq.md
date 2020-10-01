@@ -72,12 +72,14 @@ This issue happens when a booking is assigned from a resource (not crew or group
 
 No. Modifying, editing, or deleting date fields and statuses can affect business logic and may disrupt solution upgrades. Examples of work order date fields include date window start, date window end, time from promised, and time to promised. Examples of status fields include work order system status and agreement system status.
 
-## Why do I get the error message "This form can only be used on service-maintenance based records. Record is read only"
+## Why do I get the error message "This form can only be used on service-maintenance based records. Record is read only"?
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the error on the opportunity form](./media/faq-opportunity-read-only.png)
 
-Field Service makes the opportunity, lead, quote, and invoice forms read-only once Field Service detects the record is not a service-maintenance based record. Field Service forms or the forms copied from Field Service forms do not support opportunity, lead, quote, and invoice records other than Field Service opportunity, lead, quote, and invoice. If you want to use an opportunity form for non-Field Service-related opportunities, use the out-of-the-box opportunity (**Opportunity: Opportunity**) form shipped by Dynamics 365 Sales or copy this form for further customization. The same is true for lead, quote, and invoice.
+Field Service makes the out-of-the-box Field Service opportunity, lead, quote, and invoice forms read-only once Field Service detects the record is not a service-maintenance based record. Field Service forms or the forms copied from Field Service forms do not support opportunity, lead, quote, and invoice records other than Field Service opportunity, lead, quote, and invoice. If you want to use an opportunity form for non-Field Service-related opportunities, use the out-of-the-box opportunity (**Opportunity: Opportunity**) form shipped by Dynamics 365 Sales or copy this form for further customization. The same is true for lead, quote, and invoice.
+
+In addition, some organizations may see this error after upgrading from versions of Field Service earlier than version 8. In this scenario, the issue is usually with copied forms on these entities; customers might have to update the event handlers to call either the x.Library.load for Field Service forms or x.Library.loadStandardForm handlers for these entities’ standard, out-of-the-box forms.
 
 ## Why do I get an AttributeMap error when upgrading and how do I fix it?  
 

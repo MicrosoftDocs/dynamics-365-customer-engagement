@@ -39,6 +39,7 @@
 ### [Create and view inspections](inspections.md)
 ### [Advanced inspection options](inspections-advanced.md)
 ## [Work order templates (incident types)](configure-incident-types.md)
+## [Predictive work duration reports (Preview)](analytics-predictive-work-duration.md)
 ## [Work order completion surveys](work-order-surveys.md)
 
 # Bookable resources
