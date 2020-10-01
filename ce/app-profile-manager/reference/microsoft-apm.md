@@ -12,7 +12,7 @@ ms.topic: reference
 
 # Microsoft.Apm methods (JavaScript API reference)
 
-Provides methods to use JavaScript API to manage the app tabs in a session for the multi-session apps, which are Omnichannel for Customer Service and Customer Service workspace.
+Provides methods to use the JavaScript API to manage the app tabs in a session. The APIs can be used the app tab management in the multi-session apps.
 
 ## Session management APIs
 
