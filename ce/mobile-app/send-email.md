@@ -1,5 +1,6 @@
 ---
 title: "Preview: Send email using the Dynamics 365 for phones and tablets app | MicrosoftDocs"
+description: Send email using the Dynamics 365 for phones and tablets app
 ms.custom: 
 ms.date: 10/1/2020
 ms.reviewer: 
