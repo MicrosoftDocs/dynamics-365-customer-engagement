@@ -31,7 +31,7 @@ Use the Dynamics 365 for phones and tablets app to compose an email within the a
 - Search for and apply a predefined template to an email. 
 
 > [!NOTE]
-> - This feature isn't available for mobile offline.
+> This feature isn't available for mobile offline.
 
  
 ## Use the feature
