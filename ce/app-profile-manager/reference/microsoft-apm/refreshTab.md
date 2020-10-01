@@ -9,3 +9,35 @@ ms.service:
    "dynamics-365-customerservice"
 ms.topic: reference
 ---
+
+# refreshTab
+
+Refreshes the app tab in the current session.
+
+## Syntax
+
+`Microsoft.Apm.refreshTab(tabId).then(successCallback, errorCallback);`
+
+## Parameters
+
+| **Name**        | **Type** | **Required** | **Description**                                      |
+|-----------------|----------|--------------|------------------------------------------------------|
+| tabId           | String   | Yes          | Unique identifier of the tab that has to be refreshed. |
+| successCallback | Function | No           | A function to call when a record is retrieved.       |
+| errorCallback   | Function | No           | A function to call when the operation fails.         |
+
+## Return Value
+
+None
+
+## Example
+
+```JavaScript
+Microsoft.Apm.focusTab("tab-id-8").then(
+function(result) {
+return Promise.resolve(result);
+},
+function(error) {
+return Promise.reject(error)
+};
+```
