@@ -9,21 +9,13 @@ ms.service:
   - "dynamics-365-customerservice"
 ms.topic: article
 ---
-# Preview: Configure outbound messaging
+# Configure outbound messaging
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
-
-> [!IMPORTANT]
->
-> - A preview is a feature that is not complete, as it may employ reduced privacy, security, and/or compliance commitments, but is made available before it is officially released for general availability so customers can get early access and provide feedback. Previews are provided "as-is," "with all faults," "as available," and without warranty.​
-> - This preview feature does not come with technical support and Microsoft Dynamics 365 Technical Support won't be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.​
-> - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk.  All previews are subject to separate [Terms and Conditions](../../legal/dynamics-insider-agreement.md).
-
 ## Overview
 
-Outbound messaging enables organizations to send messages to their customers based on system-triggered or user-defined events through supported channels. In this preview, Omnichannel for Customer Service supports the sending of outbound messages through the SMS channel only.
+Outbound messaging enables organizations to send messages to their customers based on system-triggered or user-defined events through supported channels. 
 
 With outbound messaging, organizations can do the following:
 
@@ -37,8 +29,8 @@ Organizations can send messages to customers automatically based on a system eve
 
 Before you configure outbound messaging, make sure that the following prerequisites are met:
 
-- You must have the SMS channel provisioned in your environment. For information, see [Provision Omnichannel for Customer Service](omnichannel-provision-license.md).
-- You must configure the SMS channel using an account with an SMS provider, either Twilio or TeleSign. 
+- You must have the channel provisioned in your environment. For information, see [Provision Omnichannel for Customer Service](omnichannel-provision-license.md).
+- To send outbound messages through SMS, you must configure the SMS channel using an account with an SMS provider, either Twilio or TeleSign. 
 - You must have a Power Automate account.
 
 After completing the prerequisites, you can send outbound messages from your organization by following these steps:
