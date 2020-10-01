@@ -45,6 +45,7 @@ To begin, select the entity and form where you want to add and configure your ti
 
 #### Select a form for timeline configuration example:
 ![Select a form for timeline configuration](media\timeline-configuration-2a.png "Select a form for timeline configuration")
+
 1. In this example we selected **Forms** under the **Account** entity, which displayed a list of **Form types**. 
 2. Since timelines can only be used on **Main** form types, we selected **Account for Interactive experiences**. 
 
@@ -57,8 +58,8 @@ Use the following steps to add or remove a timeline from an entity form:
 2. Once you have selected a **Main** form type, a landing page will appear.
 
 3. scroll down to the **Timeline** component on the left nav and drag and drop it in a section on the form. 
-<ul><li> If the **Timeline** component is greyed out, it means a timeline already exists on the form. You can only have one timeline per form. </li>
-<li> To remove the **Timeline** component from a form, highlight the inside of the **Timeline** component area and hit the **Delete** key.  This will remove the **Timeline** component from the form.</li></ul>
+<ul><li> If the <b>Timeline</b> component is greyed out, it means a timeline already exists on the form. You can only have one timeline per form. </li>
+<li> To remove the <b>Timeline</b> component from a form, highlight the inside of the **Timeline** component area and hit the <b>Delete</b> key.  This will remove the <b>Timeline</b> component from the form.</li></ul>
 
 ![Adding or removing a timeline from an entity form](media\timeline-add-or-remove-entity-from-form-1b.png "Adding or removing a timeline from an entity form")
 
@@ -109,7 +110,7 @@ The **Name** field under the **Properties** tab in  **Display options** serves o
 | Configuration View | | Display View   |
 |--------------------|-|----------------|
 |![Configure Timeline component name](media\timeline-component-name-display-options-1a.png "Configure Timeline component name")| | ![Display  Timeline component name](media\timeline-component-name-display-options-1c.png "Display Timeline component name")|
-|The timeline **Name** field allows you to create a unique name as a maker's reference. In this example we changed the **Name** field to, **Timeline for Account (1)**. | | The name, **Timeline for Account (1)**’ does not display on the rendered form.  The name is for Admin reference only. |
+|The timeline **Name** field allows you to create a unique name as a maker's reference. In this example we changed the **Name** field to, **Timeline_for_ Account**. | | The name, **Timeline_for_Account** does not display on the rendered form.  The name is for Admin reference only. |
 
 >[!NOTE]
 > There are field limitations in the **Name** field.  For example, you cannot use spaces between words, you must use an underscore (_).
@@ -237,7 +238,7 @@ You can send and receive records with images, but they will not display when the
 <ul><li> When the caret is facing downward (˅) the record is collapsed.</li>
 <li>When the caret is facing upward (^) the record it expanded. </li></ul>
 
-2. Records with images will often display the following notice. ![Expand records with images in timeline](media\timeline-expand-records-with-images-display-optiones-advanced-1.png)
+2. Records with images will often display the following notice. ![Expand records with images in timeline](media\timeline-expand-records-with-images-display-optiones-advanced-1a.png)
 3. When you click on the message the warning goes  away and the image appears. 
 
 If you don’t see a message and the image is not displaying, see [Timeline FAQs](timeline-faqs.md) for more information.
@@ -248,7 +249,7 @@ If you don’t see a message and the image is not displaying, see [Timeline FAQs
 
 |Configure View | | Display View|
 |---------------|-|--------------|
-|![Configure “What you’ve missed” summary](media\timeline-what-you-missed-display-options-advanced-1a.png "Configure “What you’ve missed” summary")| |![Disable “What you’ve missed” summary](media\timeline-what-you-missed-display-options-advanced-1b.png "Disable “What you’ve missed” summary") |
+|![Configure “What you’ve missed” summary](media\timeline-what-you-missed-display-options-advanced-11a.png "Configure “What you’ve missed” summary")| |![Disable “What you’ve missed” summary](media\timeline-what-you-missed-display-options-advanced-11b.png "Disable “What you’ve missed” summary") |
 |The **What you’ve missed** feature displays new records you have not seen. It is disabled by default. To enable **What you’ve missed**, select the box next to the feature. To disable, uncheck the box next to the feature ||Once enabled, now when you view a customer’s account, a box will appear at the top of the timeline section notifying you updates.<BR><BR> When disabled, notifications will not display when you access an account.|
 
 ## Record Settings
@@ -274,7 +275,7 @@ When you expand the **Activities record settings** on the timeline component sec
 
 |Configuration View ||Display View|
 |-------------------|-|------------|
-|![How to configure activity record types](media\timeline-how-to-configure-activity-record-types-display-options-advanced-1a.png "How to configure activity record types")||![Activity record types](media\timeline-how-to-configure-activity-record-types-display-options-advanced-1d.png "activity record types")|
+|![How to configure activity record types](media\timeline-how-to-configure-activity-record-types-display-options-advanced-11a.png "How to configure activity record types")||![Activity record types](media\timeline-how-to-configure-activity-record-types-display-options-advanced-11d.png "activity record types")|
 |1. Expand and view **Activities** under the **Record settings** section using the caret (^).<BR> 2. A list of **Activity types** is displayed in the expanded view. <BR> 3. You can enable or disable activity by selecting an activity type. In this example we selected **Email**<BR><BR> To enable an **Activity type**, check the box next to **Enable** and select **Done**.<BR><BR>To disable an **Activity type**, uncheck the box next to **Enable** and select **Done**. This will grey out all other items in the box and disable the activity type from displaying on the timeline.  This also disables the activity type from being created or viewed in the timeline.  || 1. When enabled, an **Activity type** will appear under the **Create a timeline record** ![](media\timeline-create-a-record-icon.png "Create a timeline record"). <BR> 2. The activity type will be displayed as an option the user can choose from the drop down. <BR> 3. Also, the **Activity type** record is displayed in the body of the timeline.| 
 
 > [!NOTE]
@@ -286,7 +287,7 @@ Status tags match the status filter that display in the timeline to help you to 
 
 |Configuration View | | Display View|
 |-------------------|-|-------------|
-|![Enable status tags on activity record types](media\timeline-enable-status-tags-on-activity-record-types-display-options-advanced-1a.png "Enable status tags on activity record types")||![Display status tags on activity record types](media\timeline-enable-status-tags-on-activity-record-types-display-options-advanced-1b.png "Display status tags on activity record types")|
+|![Enable status tags on activity record types](media\timeline-enable-status-tags-on-activity-record-types-display-options-advanced-11a.png "Enable status tags on activity record types")||![Display status tags on activity record types](media\timeline-enable-status-tags-on-activity-record-types-display-options-advanced-11b.png "Display status tags on activity record types")|
 | To display email status tags, check the box next to **Enable status tag**. ||  When enabled, status tags such as **Active**, **Overdue**, or **Closed** will appear in the timeline next to that activity record.    |
 
 ### Enable the ability to create directly from timeline
@@ -295,7 +296,7 @@ Admins have the ability to enable activity types so they can be created directly
 
 |Configuration View | | Display View |
 |-------------------|-|--------------|
-|![Configure the ability to create directly from timeline](media\timeline-enable-ability-to-create-directly-from-timeline-1a.png "Configure the ability to create directly from timeline") || ![Configure the ability to create directly from timeline](media\timeline-enable-ability-to-create-directly-from-timeline-1b.png "Configure the ability to create directly from timeline") |
+|![Configure the ability to create directly from timeline](media\timeline-enable-ability-to-create-directly-from-timeline-11a.png "Configure the ability to create directly from timeline") || ![Configure the ability to create directly from timeline](media\timeline-enable-ability-to-create-directly-from-timeline-11b.png "Configure the ability to create directly from timeline") |
 |	To enable users to create activity types directly from timeline, check the box next to **Create directly from timeline**.||	When enabled, the activity type will appear in a drop down box on the  **Create a timeline record** ![](media\timeline-create-a-record-icon.png "Create a timeline record") icon in the top right nav in the timeline.|
 
 ### Create and use card forms in timeline
@@ -304,7 +305,7 @@ Records are displayed using the default setting for each activity type. However,
 
 |Configure View ||Display View|
 |---------------|-|-------------------|
-|![Create and use card forms in timeline](media\timeline-create-and-use-card-forms-display-options-advanced-1a.png "Create and use card forms in timeline")||![Create and use card forms in timeline](media\timeline-create-and-use-card-forms-display-options-advanced-1b.png "Create and use card forms in timeline") |
+|![Create and use card forms in timeline](media\timeline-create-and-use-card-forms-display-options-advanced-11a.png "Create and use card forms in timeline")||![Create and use card forms in timeline](media\timeline-create-and-use-card-forms-display-options-advanced-11b.png "Create and use card forms in timeline") |
 |You can change the default card settings to a different card form if one has been created.  ||If you create a new card form, you must go to the parent entity and add the new form of card type there before it will appear in the timeline list for configuration.  If **Default** is displayed, you are not using the card form.  You can not use the **Email card form** in timeline unless you select and publish it first.|
 
 > [!NOTE]
