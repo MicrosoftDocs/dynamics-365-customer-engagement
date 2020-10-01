@@ -55,7 +55,7 @@ You can customize automated messages at the channel instance level. For example,
     > [!div class=mx-imgBorder]
     > ![Configure automated messages](../media/automated-messages.png "Configure automated messages")
 
-4. Enter the name of your message, select the message trigger, and then type your message. The **Language Code** field is determined by the language set in the **General settings** tab of the channel instance and cannot be modified.
+4. Enter the name of your message, select the message trigger, and then type your message. The **Language Code** field is determined by the language set in the **General settings** tab of the channel instance and cannot be modified. The **Message Trigger** field contains the system events that prompt an automated message to be sent.
 5. Select **Save**.
 
     > [!div class=mx-imgBorder]
