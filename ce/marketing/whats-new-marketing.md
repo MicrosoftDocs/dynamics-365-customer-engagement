@@ -57,7 +57,7 @@ The Dynamics 365 Marketing October 2020 update includes several feature enhancem
 - **Collect data from form submissions more easily with expanded entity options**
     - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/capture-data-more-easily-simplified-forms-requirements)
     - [Docs](marketing-forms.md#do-not-createupdate-contacts-or-leads)
-- **In-place editing of email and forms**
+- **In-place editing of email and forms in customer journeys**
     - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/in-place-editing-email-forms)
     - [Docs](customer-journeys-create-automated-campaigns.md)
 - **Create and manage content-rich social media posts and easily monitor performance**
@@ -75,7 +75,7 @@ The Dynamics 365 Marketing October 2020 update includes several feature enhancem
     - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/create-consume-segments-using-natural-language)
     - [Docs](segmentation-lists-subscriptions.md)
 
-### Bug fixes
+<!-- ### Bug fixes
 
 - **Customer journeys**
 
@@ -94,7 +94,7 @@ The Dynamics 365 Marketing October 2020 update includes several feature enhancem
 
 - **Shared UX**
 
-- **Social posting**
+- **Social posting** -->
 
 ## September 2020 update
 
