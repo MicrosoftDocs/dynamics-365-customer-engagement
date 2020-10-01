@@ -63,6 +63,6 @@ To set up a search provider, do the following:
 After you have configured the search providers, agents who are using search can see a drop-down option with links to those providers in their search results.
 
     > [!div class=mx-imgBorder]
-    > ![Select search providers](media/search-provider-agent.png "Select search providers")
+    > ![Agent view of search providers](media/search-provider-agent.png "Agent view of available search providers")
 
 For more information about the agent search experience, see [Search for knowledge articles in the Customer Service Hub](search-knowledge-articles-csh.md).
