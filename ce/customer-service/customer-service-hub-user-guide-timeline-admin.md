@@ -233,12 +233,13 @@ You can easily search for records in the timeline. When you search for a phrase 
 
 You can send and receive records with images, but they will not display when the record is collapsed. Records with images must be expanded to be viewed.
 
-![Expand records with images in timeline](media\timeline-expand-records-with-images-display-optiones-advanced-2a.png "Expand records with images in timeline")
+![Expand records with images in timeline](media\timeline-expand-records-with-images-display-optiones-advanced-2b.png "Expand records with images in timeline")
 1. Records when collapsed provide a visual summary. To expand an individual record, click anywhere on the timeline record to expand and collapse a record view.  In the bottom right corner of the record there is a caret:  
-<ul><li> When the caret is facing downward (˅) the record is collapsed.</li>
-<li>When the caret is facing upward (^) the record it expanded. </li></ul>
+> - When the caret is facing downward (˅) the record is collapsed.
+> - When the caret is facing upward (^) the record it expanded.
 
-2. Records with images will often display the following notice. ![Expand records with images in timeline](media\timeline-expand-records-with-images-display-optiones-advanced-1a.png)
+2. Records with images will often display the following notice. <BR>
+![Expand records with images in timeline](media\timeline-expand-records-with-images-display-optiones-advanced-1a.png)
 3. When you click on the message the warning goes  away and the image appears. 
 
 If you don’t see a message and the image is not displaying, see [Timeline FAQs](timeline-faqs.md) for more information.
@@ -315,7 +316,7 @@ Records are displayed using the default setting for each activity type. However,
 
 All card forms are broken out into the following four (4) sections:
 
-![Display options - Advanced - How to customize a card from in timeline](media\timeline-customize-card-form-display-option-advanced-1a.png "Display options - Advanced - How to customize a card from in timeline")
+![Display options - Advanced - How to customize a card from in timeline](media\timeline-customize-card-form-display-option-advanced-2a.png "Display options - Advanced - How to customize a card from in timeline")
 
 Legend
 
@@ -401,7 +402,7 @@ Warning notice will display when you select more than 10 activity types:
 
 |Configuration View | |Display View|
 |-------------------|-|------------|
-|![Notes on timeline](media\timeline-notes-1a.png "Notes on timeline") | | ![Notes on timeline](media\timeline-notes-2.png "Notes on timeline")|
+|![Notes on timeline](media\timeline-notes-1a.png "Notes on timeline") | | ![Notes on timeline](media\timeline-notes-3.png "Notes on timeline")|
 |The **Notes** the section expands when enabled and  allows you to:<BR>1. **Sort notes by** date created or date modified on. The Modified On date is the default setting. <BR>2. **Rich text editor configuration URL** allows you to add a relative web resource path for customized note capability.  ||1. When enabled, Notes can be access via the **Create a timeline record** ![](media\timeline-create-a-record-icon.png "Create a timeline record") icon.<BR>2. A dropdown will appear where you can access **Notes**.<BR>3. Use the Notes feature to create a note to add to a record using  rich text editing.|
 
 ## Posts on timeline
