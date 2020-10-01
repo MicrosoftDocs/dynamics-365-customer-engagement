@@ -31,7 +31,7 @@ search.app:
 
 In order to predict accurate travel times for technicians, it's important to remember that travel times can vary because of traffic conditions.
 
-Resource scheduling optimization can use historic traffic information in order to predict more accurate travel times for technicians. Better travel time predictions mean more accurate and realistic scheduling for dispatchers and technicians alike.
+Resource scheduling optimization can use historical traffic information in order to predict more accurate travel times for technicians. Better travel time predictions mean more accurate and realistic scheduling for dispatchers and technicians alike.
 
 ## Prerequisites
 
