@@ -30,7 +30,9 @@ Email must be enabled for users so they can view and access it. Unless email is 
 To enable email:	
 
 1.	Go to **Settings** > **Advanced Settings**.	
-2.	Select **Settings** > **Customizations** > **Customize the System**.	
+![How to enable email](media\email-how-to-enable-email-1.png "How to enable email")	
+2.	Select **Settings** > **Customizations** > **Customize the System**.
+![How to enable email](media\email-how-to-enable-email-2.png "How to enable email")	
 3.	Expand **Entities**, select and expand **Email**, and then select **Forms**.	
 4.	On the command bar, select **Form Order**. A drop-down list appears.	
 5.	Select **Main Form Set**.	
@@ -39,8 +41,8 @@ To enable email:
 7.	Select **OK**	
 8.	You must **Publish All Customizations** for changes to appear; otherwise they will not display.	
 
-![How to enable email](media\email-how-to-enable-email-1.png "How to enable email")	
-![How to enable email](media\email-how-to-enable-email-2.png "How to enable email")	
+
+
 ![How to enable email](media\email-how-to-enable-email-3.png "How to enable email")	
 ![How to enable email](media\email-how-to-enable-email-4.png "How to enable email")	
 ![How to enable email](media\email-how-to-enable-email-5.png "How to enable email")	
