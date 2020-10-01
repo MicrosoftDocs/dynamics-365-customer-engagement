@@ -208,7 +208,7 @@ You'll find the following charts on the resource duration reports.
 
 - The setting **Minimum number of resources in a territory** lets you set restrictions on analyses and reports. If the value is set to 10, territories that have 10 or fewer resources will be excluded from territory analyses and reports; the limitation can help protect technician privacy.
 
-## Additional Notes
+## Additional notes
 
 ### Understanding estimated duration, actual duration, and predicted duration
 
@@ -216,4 +216,4 @@ You'll find the following charts on the resource duration reports.
 
 - **Actual duration**: How much time was actually spent working on a requirement. This value is calculated by _End time_ of booking minus the _actual arrival time_ of booking minus the *On break* duration of the booking journal related to the booking (formally called the **Bookable** Resource Booking).
 
-- **Predicted duration** How much time the AI model "thinks" the job will take based on historical information.
+- **Predicted duration**: How much time the AI model "thinks" the job will take based on historical information.
