@@ -1,7 +1,8 @@
 ---
 title: "Install Dynamics 365 for Outlook | MicrosoftDocs"
+description: How to install Dynamics 365 for Outlook
 ms.custom:
-ms.date: 06/07/2019
+ms.date: 10/01/2020
 ms.reviewer:
 ms.service: crm-online
 ms.suite:
