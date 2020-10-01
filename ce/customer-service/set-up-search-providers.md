@@ -60,7 +60,7 @@ To set up a search provider, do the following:
 
 6. When you are finished, select **Save** in the lower-right corner.
 
-After the search provider is configured, agents who are using search can see a drop-down option with links to the search options you have configured in their search results.
+After you have configured the search providers, agents who are using search can see a drop-down option with links to those providers in their search results.
 
     > [!div class=mx-imgBorder]
     > ![Select search providers](media/search-provider-agent.png "Select search providers")
