@@ -398,39 +398,26 @@ Warning notice will display when you select more than 10 activity types:
 
 ## Notes on timeline
 
-Use the following steps for **Notes**:
-
 |Configuration View | |Display View|
 |-------------------|-|------------|
-|![Notes on timeline](media\timeline-notes-1.png "Notes on timeline") | | ![Notes on timeline](media\timeline-notes-1.png "Notes on timeline")|
-|1. Select **Notes**
-2. The section will expand to see **Coming soon** which indicates you have **Notes** enabled. 
-3. Once enabled, you can now click on the ![](media\timeline-create-a-record-icon.png "Create a timeline record") (Create a timeline record) icon 
-4. Flyout will appear. Select **Notes**
-5. Begin writing your **Note** using rich text and just click **Add Note** at the bottom to save.
-
-
+|![Notes on timeline](media\timeline-notes-1a.png "Notes on timeline") | | ![Notes on timeline](media\timeline-notes-2.png "Notes on timeline")|
+|The **Notes** the section expands when enabled and  allows you to:<BR>1. **Sort notes by** date created or date modified on. The Modified On date is the default setting. <BR>2. **Rich text editor configuration URL** allows you to add a relative web resource path for customized note capability.  ||1. When enabled, Notes can be access via the **Create a timeline record** ![](media\timeline-create-a-record-icon.png "Create a timeline record") icon.<BR>2. A dropdown will appear where you can access **Notes**.<BR>3. Use the Notes feature to create a note to add to a record using  rich text editing.|
 
 ## Posts on timeline
 
-Use the following steps for **Posts**:
-
-1. Select **Post**
-2. The section will expand to see **Coming soon** which indicates you have **Post** enabled. 
-3. Once enabled, you can now click on the ![](media\timeline-create-a-record-icon.png "Create a timeline record") (Create a timeline record) icon 
-4. Flyout will appear. Select **Posts**
-5. Begin writing your **Post**.
-
-![Posts on timeline](media\timeline-posts-1.png "Posts on timeline")
+|Configuration View | | Display View|
+|-------------------|-|-------------|
+|![Posts on timeline](media\timeline-posts-1a.png "Posts on timeline") ||![Posts on timeline](media\timeline-posts-1b.png "Posts on timeline")|
+|The **Posts** the section expands when enabled and  allows you to **Sort notes by** date created or date modified on. Date Created On is the default setting. || 1. When enabled, Posts can be access via the **Create a timeline record** ![](media\timeline-create-a-record-icon.png "Create a timeline record") icon.<BR>2. A dropdown will appear where you can access **Posts**.<BR>3. Use the Post feature to create a post to add to a record.|
 
 ## Save and publish timeline updates and changes
 
 Before you can view any configuration changes on the entity form, you must save and publish your updates first on the timeline component. 
 
-1.	Before you can publish, you must **Save** any changes made in the timeline component first
-2.	Once your configuration changes are saved, select **Publish**.  Timeline updates are now live in your timeline environment and can be viewed.
+![Save and publish timeline updates and changes](media\timeline-save-and-publish-updates-and-changes-1b.png "Save and publish timeline updates and changes")
 
-    ![Save and publish timeline updates and changes](media\timeline-save-and-publish-updates-and-changes-1.png "Save and publish timeline updates and changes")
+1.	Before you can publish, you must **Save** any changes made in the timeline component first
+2.	Once your configuration changes are saved, you can  **Publish**.  Timeline updates are now live in your timeline environment and can be viewed.
 
 ## How to configure dashboard timelines
 
