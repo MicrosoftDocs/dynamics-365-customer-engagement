@@ -1,6 +1,6 @@
 ---
 title: "Predictive travel times for resource scheduling optimization| MicrosoftDocs"
-description: Learn how to use predictive travel times for resource scheduling optimiation in Dynamics 365 Field Service.
+description: Learn how to use predictive travel times for resource scheduling optimization in Dynamics 365 Field Service.
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 10/01/2020
