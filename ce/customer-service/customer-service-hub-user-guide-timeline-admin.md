@@ -267,7 +267,7 @@ To enable or disable a record type simply check or uncheck the box and that reco
 ![Display options - Advanced - Record Settings](media\timeline-record-settings-display-options-advanced-1a.png "Display options - Advanced - Record Settings")
 
 1. When **Posts** is checked in the **Record types to show** section, it is enabled in the **Record settings** section below.
-2. When **Posts** is unchecke in the **Record types to show** section, it is disabled in the **Record settings** section below.
+2. When **Posts** is unchecked in the **Record types to show** section, it is disabled in the **Record settings** section below.
 
 ### How to configure activity record types
 
@@ -345,7 +345,7 @@ The Card Details section displays in the body of your the timeline email record.
 |Configuration View ||Display View|
 |------------------|-|------------|
 |![Customize a card from in timeline - Details section](media\timeline-create-and-use-card-forms-details-1a.png "Customize a card from in timeline - Details section") | |![Customize a card from in timeline - Details section](media\timeline-create-and-use-card-forms-details-display-1a.png "Customize a card from in timeline - Details section")|
-|The Card Details will always appear below the Header regardless of the field you choose.<BR><BR>**Field 1**<BR>1. In the card details Field 1 acts as a sub-header on the timeline record. For this example we selected **To** for this field.<BR><BR>**Field 2**<BR>2. This field will only display one line of text in a summary view on the timeline record.  When you expand your timeline record,  content in this field is fully displayed and formatted. For this example we selected **CC** for this field.<BR><BR>**Field 3**<BR>3. This field follows the content of Field 2 and is part of the main body of your timeline record that is only viewable when you expand the record. For this example we selected **Description** for this field.||**Field 1**<BR>1. This field always displays in this section and acts as a sub-header on the timeline record. <BR><BR>**Field 2**<BR>2. This field always displays in this section and only displays one line of text in the summary view but when expanded, content is fully displayed. <BR><BR>**Field 3**<BR>3. This field will always display in this section and is only viewable when the record is expanced.|
+|The Card Details will always appear below the Header regardless of the field you choose.<BR><BR>**Field 1**<BR>1. In the card details Field 1 acts as a sub-header on the timeline record. For this example we selected **To** for this field.<BR><BR>**Field 2**<BR>2. This field will only display one line of text in a summary view on the timeline record.  When you expand your timeline record,  content in this field is fully displayed and formatted. For this example we selected **CC** for this field.<BR><BR>**Field 3**<BR>3. This field follows the content of Field 2 and is part of the main body of your timeline record that is only viewable when you expand the record. For this example we selected **Description** for this field.||**Field 1**<BR>1. This field always displays in this section and acts as a sub-header on the timeline record. <BR><BR>**Field 2**<BR>2. This field always displays in this section and only displays one line of text in the summary view but when expanded, content is fully displayed. <BR><BR>**Field 3**<BR>3. This field will always display in this section and is only viewable when the record is expanded.|
 
 **Footer Section**<br>
 This section is not visible on the timeline record.  
@@ -353,7 +353,7 @@ This section is not visible on the timeline record.
 |Configuration View | |Display View|
 |-------------------|-|------------|
 |![Customize a card from in timeline - Footer section](media\timeline-create-and-use-card-forms-details-footer-1a.png "Customize a card from in timeline - Footer section")| ||
-|**Field 1**<BR>1. For this example we selected **Owner** for this field.<br><BR>**Field 2**<BR>2. For this example we selected **Regarding** for this field.<br><BR>**Field 3**<BR>3. For this example we selected **Priority** for this field.| |These fields are not visable on the timeline record |
+|**Field 1**<BR>1. For this example we selected **Owner** for this field.<br><BR>**Field 2**<BR>2. For this example we selected **Regarding** for this field.<br><BR>**Field 3**<BR>3. For this example we selected **Priority** for this field.| |These fields are not visible on the timeline record |
 
 ### How to set date in the sort activities by feature in timeline
 
@@ -372,10 +372,10 @@ There are some unique date fields, for example:
 </ul>
 
 > [!IMPORTANT]
-> Sort date is intended for users to programatically program and map each activity with a date of choice to have more control.  It’s a cusomization option that allows you to sort activities any way you want by whatever date you want.  You will have to populate each field and it requires that you update all activities to populate the Sort date with a value.  However, once you complete configurability you have flexiblity to sort anyway you want.  
+> Sort date is intended for users to programmatically  program and map each activity with a date of choice to have more control.  It’s a customization  option that allows you to sort activities any way you want by whatever date you want.  You will have to populate each field and it requires that you update all activities to populate the Sort date with a value.  However, once you complete configurability you have flexibility  to sort anyway you want.  
 
 > [!NOTE]
-> Sort dates have to be configured for each timeline instance and set up must be completed in all three main forms for the Account enity in order to work.
+> Sort dates have to be configured for each timeline instance and set up must be completed in all three main forms for the Account entity in order to work.
 
 
 ### How to set create activities form type in timeline
@@ -394,6 +394,7 @@ There are some unique date fields, for example:
 You only want to enable activities that you need on this form. When working with 10 or more **Activity types**, you will receive a warning notice letting you know the number of activity types you have selected impacts the performance speed on your timeline.  To improve timeline performance speed, consider limiting activity types to 10 or less. 
 
 Warning notice will display when you select more than 10 activity types:
+
 ![Timeline performance impacts](media\timeline-performance-impacts-1a.png "Timeline performance impacts")
 
 ## Notes on timeline
