@@ -1,25 +1,26 @@
 ---
-title: Set up knowledge management using embedded knowledge search (Dynamics 365 Customer Service) | MicrosoftDocs
-description: See how to set up knowledge management using embedded knowledge search in Dynamics 365 Customer Service
-author: kabala123
-ms.author: kabala
+title: Use settings to set up knowledge management (Dynamics 365 Customer Service) | MicrosoftDocs
+description: See how to set up settings in knowledge management in Dynamics 365 Customer Service
+author: lalexms
+ms.author: laalexan
 manager: shujoshi
-ms.date: 10/19/2019
+ms.date: 10/05/2020
 ms.topic: article
 ms.service: 
-  - dynamics-365-customerservice
+  dynamics-365-customerservice
 ms.custom: 
-  - dyn365-customerservice
+  dyn365-customerservice
 search.audienceType: 
-  - admin
-  - customizer
-  - enduser
+  admin
+  customizer
+  enduser
 search.app: 
-  - D365CE
-  - D365CS
+  D365CE
+  D365CS
+  
 ---
 
-# Use embedded knowledge search to set up knowledge management
+# Use settings to set up knowledge management
 
 A comprehensive knowledge base is a key to increased customer satisfaction and improved productivity of users. Give users quick access to the knowledge base by setting up knowledge management in Dynamics 365 Customer Service.
 
