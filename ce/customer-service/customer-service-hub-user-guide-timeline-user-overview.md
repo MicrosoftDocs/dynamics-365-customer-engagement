@@ -42,7 +42,7 @@ When enabled by your system administrator, the **Create a timeline record** feat
 ![](media\timeline-create-a-record-icon1c.png "Create a timeline record") 
 
 2. Select the type of record you want to create from the display options available. <BR><BR>
-![Create a timeline record](media\timeline-create-a-timeline-record-1c.png "Create a timeline record")
+![Create a timeline record](media\timeline-create-a-timeline-record-1e.png "Create a timeline record")
 
 For information on timeline record configuration, see [Configure activity record types](customer-service-hub-user-guide-timeline-admin.md#configure-activity-record-types).
 
@@ -50,7 +50,7 @@ For information on timeline record configuration, see [Configure activity record
 
 When enabled by your system administrator, the timeline **Filter** further streamlines your productivity by allowing you to customize your experience and view data relevant to you. 
 
-![Timeline filter functionality](media\timeline-filter-1a.png "Timeline filter functionality")
+![Timeline filter functionality](media\timeline-filter-1b.png "Timeline filter functionality")
 
 Legend:
 1. Timeline **Filter** ![](media\timeline-filter-icon.png "Filter") icon is located in the top right nav on the timeline.
@@ -90,7 +90,7 @@ When working with records, you can view key information at a glance or expand re
 
 When enabled by your system administrator, you can view timeline records quickly in a collapsed format or expand a record to see more details for ease of use.
 
-![Expand all records functionality](media\timeline-expand-all-records-1a.png "Expand all records functionality")
+![Expand all records functionality](media\timeline-expand-all-records-1c.png "Expand all records functionality")
 
 Legend
 1. The ![](media\timeline-expand-icon.png "Expand all records") icon is used to expand all records listed on the timeline.
@@ -205,11 +205,12 @@ When you hover your cursor on or expand an activity, post, or note, the command 
 
 **Command actions by record**
 
-![Command bar actions in timeline](media\timeline-access-command-bar-actions-1c.png "Command bar actions")
+![Command bar actions in timeline](media\timeline-access-command-bar-actions-1d.png "Command bar actions")
 
 Legend
-1. Each record displays a different set of associated actions.
-2. Only the actions associated with that record are displayed in the top right command bar displayed in the record. 
+1. Only the actions associated with that record are displayed in the top right command bar displayed in the record. 
+2. Each record displays a different set of associated actions. Not all actions work on all record.
+
 
 The following is an overview of the command bar icons and the actions they support: 
 
@@ -306,7 +307,7 @@ When enabled by your system administrator, you can either add a **Post** to a re
 
 ### Add a mention or reference a team member in a Post
 
-![Add a mention or reference to a team member in a post on timeline](media\timeline-select-user-advanced-find-1b.png "Add a mention or reference to a team member in a post on timeline")
+![Add a mention or reference to a team member in a post on timeline](media\timeline-add-a-mention-1.png "Add a mention or reference to a team member in a post on timeline")
 
 Legend
 1. Typing the @ sign in the **Post** field will display a flyout menu with a list of users that have been recently used.
@@ -320,7 +321,7 @@ Legend
 
 To add a reference such as links in a post to a timeline record, select the **Create a timeline record** ![](media\timeline-create-a-record-icon.png "Create a timeline record") icon and select **Post**, then follow the steps below:
 
-![Add a link](media\timeline-add-link-1a.png "Add a link")
+![Add a link](media\timeline-add-link-11a.png "Add a link")
 
 Legend
 1. Links can be added to a record by typing **#** which will display a flyout menu with a list of records recently accessed. Type a keyword after the # tag and the display refreshes in the flyout menu via the **Dynamics 365 Quick Find** search engine that's operating in the background.
