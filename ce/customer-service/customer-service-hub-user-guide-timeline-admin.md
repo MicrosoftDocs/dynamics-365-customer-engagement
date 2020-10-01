@@ -342,7 +342,6 @@ The Card Header displays the title/subject in your timeline email form. You can 
 
 The Card Details section displays in the body of your the timeline email record. You can have up to four (4) fields in the **Detail** section, but only the first three (3) fields are seen on the timeline record.
 
-
 |Configuration View ||Display View|
 |------------------|-|------------|
 |![Customize a card from in timeline - Details section](media\timeline-create-and-use-card-forms-details-1a.png "Customize a card from in timeline - Details section") | |![Customize a card from in timeline - Details section](media\timeline-create-and-use-card-forms-details-display-1a.png "Customize a card from in timeline - Details section")|
@@ -381,38 +380,36 @@ There are some unique date fields, for example:
 
 ### How to set create activities form type in timeline
 
-The **Create activities** feature allows you to choose which type of form you want to work in based on your business needs.  
+![How to set create activities form type in timeline](media\timeline-how-to-set-create-activities-form-type-1a.png "How to set create activities form type in timeline")
 
-- **Quick create form** appears in a model on the right. There are some activities which do not support quick create that will always use email for example. For more information, see [Create or edit model-driven app quick create forms for a streamlined data entry experience](https://docs.microsoft.com/powerapps/maker/model-driven-apps/create-edit-quick-create-forms).
-
-- **Main form** navigates you to the activity entity main form. For more information, see [Create or edit a model-driven app main form for an entity](https://docs.microsoft.com/powerapps/maker/model-driven-apps/create-edit-main-forms).
-
-17.	 Select **Create activities** using feature to select either a **Quick create form** or **Main form**.
+1. The **Create activities** feature allows you to choose which type of form you want to work in based on your business needs.  
+2. **Quick create form** appears in a model on the right. There are some activities which do not support quick create that will always use email for example. For more information, see [Create or edit model-driven app quick create forms for a streamlined data entry experience](https://docs.microsoft.com/powerapps/maker/model-driven-apps/create-edit-quick-create-forms).
+<BR>**Main form** navigates you to the activity entity main form. For more information, see [Create or edit a model-driven app main form for an entity](https://docs.microsoft.com/powerapps/maker/model-driven-apps/create-edit-main-forms).  
 
 > [!NOTE]
 > If a **quick create** form for an activity has not been created, then the main form will be used. If **quick create** form is not supported, such as with email, the **main form** will always be used. 
-
-![Display options - Advanced - How to set create activities form type in timeline](media\timeline-how-to-set-create-activities-form-type-1.png "Display options - Advanced - How to set create activities form type in timeline")
 
 ### Timeline performance impacts
 
 You only want to enable activities that you need on this form. When working with 10 or more **Activity types**, you will receive a warning notice letting you know the number of activity types you have selected impacts the performance speed on your timeline.  To improve timeline performance speed, consider limiting activity types to 10 or less. 
 
-18.	Warning notice will display when you select more than 10 activity types
-
-![Display options - Advanced - Timeline performance impacts](media\timeline-performance-impacts-1.png "Display options - Advanced - Timeline performance impacts")
+Warning notice will display when you select more than 10 activity types:
+![Timeline performance impacts](media\timeline-performance-impacts-1a.png "Timeline performance impacts")
 
 ## Notes on timeline
 
 Use the following steps for **Notes**:
 
-1. Select **Notes**
+|Configuration View | |Display View|
+|-------------------|-|------------|
+|![Notes on timeline](media\timeline-notes-1.png "Notes on timeline") | | ![Notes on timeline](media\timeline-notes-1.png "Notes on timeline")|
+|1. Select **Notes**
 2. The section will expand to see **Coming soon** which indicates you have **Notes** enabled. 
 3. Once enabled, you can now click on the ![](media\timeline-create-a-record-icon.png "Create a timeline record") (Create a timeline record) icon 
 4. Flyout will appear. Select **Notes**
 5. Begin writing your **Note** using rich text and just click **Add Note** at the bottom to save.
 
-![Notes on timeline](media\timeline-notes-1.png "Notes on timeline")
+
 
 ## Posts on timeline
 
