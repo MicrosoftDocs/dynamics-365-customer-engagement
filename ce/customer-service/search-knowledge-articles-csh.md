@@ -98,14 +98,6 @@ In the knowledge base search control, you perform the following:
 - Email the knowledge article
 - View the knowledge article inline in the search control
 
-### View search results from external sources
-
-If your administrator has configured the ability for you to search for files, documents, or articles from data sources outside of your current Dynamics 365 organization, you can view those results by selecting the provider from the drop-down list under **Knowledge**.
-
-   > [!div class=mx-imgBorder]
-   > ![Agent view of search providers](media/search-provider-agent.png "Agent view of available search providers")
-
-For more information on setting up search providers, see [Set up a search provider in Customer Service Hub](set-up-search-providers.md)
 
 ### Display knowledge article pop outs 
 
@@ -172,7 +164,8 @@ Knowledge articles can be configured to their own URLs, which agents can copy an
     > [!div class=mx-imgBorder]
     > ![Add URL name and save](media/kb-independent-search-url-2.png "Add the URL and then save)
 
-Knowledge based (KB) article URL is now active and can be copied and shared.
+The knowledge base article URL is now active and can be copied and shared.
+
 
 ### Filter knowledge articles
 
@@ -204,6 +197,7 @@ The knowledge base search control provides sort the knowledge articles interacti
 
   > [!div class=mx-imgBorder]
   > ![Knowledge article sort](media/km-sort.png "Knowledge article sort")
+  
 
 ### Link and unlink the knowledge article to a record
 
@@ -238,7 +232,7 @@ Select a article title to see its full content rendered in the same control. The
 >
 > - Copy Link, Email Link, and Email options can be used only for published and expired articles.
 
-## View auto filtered results
+## View auto-filtered results
 
 As a customer service agent, to view the most relevant results, you can have knowledge articles automatically filtered based on the case data. This helps in identifying the most relevant articles so that you can resolve customer queries quickly and accurately. You can further have an option to disable the auto-filter results and search the entire knowledge base.  
 
@@ -264,6 +258,15 @@ In the below illustration, the case subject is **Xbox**. If automatic filtering 
 However, if the Auto filter results check box is not selected, you can see more articles that are not related to subject. These are the results from the entire knowledge base.
 
 ![Deselect Auto filter results](media/ka-deselect-auto-filter-results.png "Deselect Auto filter results")
+
+### View search results from external sources
+
+If your administrator has configured the ability for you to search for files, documents, or articles from data sources outside of your current Dynamics 365 organization, you can view those results by selecting the provider from the drop-down list under **Knowledge**.
+
+   > [!div class=mx-imgBorder]
+   > ![Agent view of search providers](media/search-provider-agent.png "Agent view of available search providers")
+
+For more information on setting up search providers, see [Set up a search provider in Customer Service Hub](set-up-search-providers.md)
     
 ## Submit ratings and feedback for knowledge articles
 
