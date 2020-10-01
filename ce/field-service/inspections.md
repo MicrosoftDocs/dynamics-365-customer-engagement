@@ -49,9 +49,6 @@ In this article, we'll walk through an example of setting up an inspection using
 
 ## Prerequisites
 
-> [!Note]
-> As of August 2020, inspections are available as an early access feature. For more information, see the article on [how to opt-in to early access features](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates#how-to-enable-early-access-updates).
-
 - Dynamics 365 version 9.1.0000.15015+.
 
 - Knowledge of work order [incident types and service tasks](configure-incident-types.md) is encouraged.
