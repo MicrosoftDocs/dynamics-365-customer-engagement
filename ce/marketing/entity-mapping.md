@@ -2,7 +2,7 @@
 title: "Map form data to entities with custom Workflows (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to map form data to entities with custom Workflows"
 keywords: customer journey
-ms.date: 09/16/2020
+ms.date: 09/22/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -25,7 +25,7 @@ search.app:
 # Map form data to entities with custom Workflows
 
 If you have configured a marketing form to collect form submissions without updating contacts or leads, you can create a Workflow to map the form submission data to any entity.
-- Learn more about collecting form data without updating contacts or leads: [Create, view, and manage marketing forms](marketing-forms.md#do-not-createupdate-contacts-or-leads)
+- Learn more about collecting form data without updating contacts or leads: [Create, view, and manage marketing forms](marketing-forms.md#early-access-do-not-createupdate-contacts-or-leads)
 - Learn more about building workflows: [Use Workflow processes to automate processes that don't require user interaction](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/workflow-processes)
 
 ## Creating a Workflow
@@ -61,7 +61,7 @@ The credit card application Workflow requires the following general processes:
 The following steps detail the actions required to create the credit card application Workflow:
 
 1. To create a custom entity, in the navigation bar, go to **Settings** > **Customize the System** > **Entities**.
-1. Create a marketing form for the credit card applications containing the fields you want to use. Create fields under the new custom entity to use inside the form. Make sure the form is set to [not update contacts or leads](marketing-forms.md#do-not-createupdate-contacts-or-leads).
+1. Create a marketing form for the credit card applications containing the fields you want to use. Create fields under the new custom entity to use inside the form. Make sure the form is set to [not update contacts or leads](marketing-forms.md#early-access-do-not-createupdate-contacts-or-leads).
 1. Next, you will create a Workflow to process the custom entities. Go to **Settings** > **Processes** and create a new **Workflow** process. In the **Entity** field, select the entity that triggers your Workflow. In this case, we'll select **Marketing form submission**. Then select **OK**.
 1. To add a step, select **Add Step**, then go to **Dynamics 365 Marketing** > **Extract submitted value by field**. This will allow you to extract a value from a form submission.
     1. Add a name for the step. We will name our step "Extract value from form submission (E-mail)."

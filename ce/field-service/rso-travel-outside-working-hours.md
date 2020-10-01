@@ -3,7 +3,7 @@ title: "Travel outside working hours with resource scheduling optimization| Micr
 description: Learn how to configure resource scheduling optimization to consider travel outside of working hours in Dynamics 365 Field Service
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 08/01/2020
+ms.date: 10/01/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -57,10 +57,7 @@ For more information, see the following video for a walkthrough.
 
 ## Prerequisites
 
-> [!Note]
-> As of August 2020, this feature is available as early access. For more information, see the article on [how to opt-in to early access features](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates#how-to-enable-early-access-updates).
-
-- Resource Scheduling Optimization v3.x+ (Field Service v8.x+).
+- Resource scheduling optimization v3.x+ (Field Service v8.x+).
 
 ## Edit resource scheduling optimization constraints
 
