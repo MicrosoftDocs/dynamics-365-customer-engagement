@@ -98,7 +98,7 @@ In the knowledge base search control, you perform the following:
 - Email the knowledge article
 - View the knowledge article inline in the search control
 
-### View results from an external sources
+### View search results from external sources
 
 If your administrator has configured the ability for you to search for files, documents, or articles from data sources outside of your current Dynamics 365 organization, you can view those results by selecting the provider from the drop-down list under **Knowledge**.
 
