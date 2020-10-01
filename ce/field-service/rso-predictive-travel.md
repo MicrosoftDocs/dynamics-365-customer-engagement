@@ -52,7 +52,7 @@ Save and publish.
 
 ## Run resource scheduling optimization
 
-After adding predictive travel to the optimization goal and adjusting the optimization scope to be less than or equal to 1 day, the next step is to run the optimization  manually, through a schedule, or via a workflow.
+After adding predictive travel to the optimization goal, set up your optimization scope according to your business needs, and run the optimization manually, through a schedule, or via a workflow.
 
 Without predictive travel times, resource scheduling optimization will calculate the travel time between two locations as the same, no matter the time of day the work is scheduled.
 
@@ -73,7 +73,7 @@ With predictive travel enabled, the estimated travel times are recalculated base
 
 - Since optimizations can take longer when considering historical traffic information, use predictive travel times for [automated overnight scheduling](rso-overnight-scheduling.md) where the optimization runs during non-working hours for the following working day.
 
-- Predictive travel time can only be applied to optimization scopes with fewer than 500 requirements _and_ 500 resources during early access. If your optimization scope exceeds this threshold, the optimization will still run but without predictive travel times. If you have more resources or requirements, consider splitting the scope into smaller scopes and apply predictive travel time to each related optimization goal.
+- Predictive travel time can only be applied to optimization scopes with fewer than 500 requirements _and_ 500 resources. If your optimization scope exceeds this threshold, the optimization will still run but without predictive travel times. If you have more resources or requirements, consider splitting the scope into smaller scopes and apply predictive travel time to each related optimization goal.
 
 - [Single resource optimization](rso-single-resource-optimization.md) does not currently support predictive travel times.
 
