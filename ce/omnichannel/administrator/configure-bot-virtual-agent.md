@@ -99,6 +99,10 @@ Ensure to map the routing rules to the correct queues so that the queries are ro
 
 Authentication cards are not supported in bots integrated with Omnichannel for Customer Service.
 
+| Description     | Limitation     |
+|-----------------|----------------|
+| Other publication channels: Support for hand-off to a live agent across multiple publication channels (such as Teams, Facebook, web).	| Each channel deals with hand-off in their own unique way. The Omnichannel for Customer Service hand-off experience must leverage an engagement hub that supports Omnichannel for Customer Service. |
+
 For more information about known limitations of this feature, see [Known limitations](https://docs.microsoft.com/dynamics365/ai/customer-service-virtual-agent/configuration-hand-off-omnichannel#known-limitations).
 
 ## Privacy notice
