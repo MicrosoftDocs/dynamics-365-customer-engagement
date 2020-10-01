@@ -1,8 +1,9 @@
 ---
 title: "Functional location in Dynamics 365 Field Service| MicrosoftDocs"
+description: Learn how to use functional location for assets in Dynamics 365 Field Service.
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 08/01/2020
+ms.date: 10/01/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -46,11 +47,6 @@ In this article, we'll look at how to define functional relationships within Fie
 
 ## Prerequisites
 
-> [!Note]
-> As of August 2020, functional location is available as an early access feature. For more information, see the article on [how to opt-in to early access features](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates#how-to-enable-early-access-updates).
-
-- Functional location is in early access as of August 1, 2020.
-- This feature will be generally available October 1, 2020.
 - Field Service v8.8.x.
 
 ## Create a service account
