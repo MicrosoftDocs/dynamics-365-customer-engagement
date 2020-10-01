@@ -50,7 +50,7 @@ For information on timeline record configuration, see [Configure activity record
 
 When enabled by your system administrator, the timeline **Filter** further streamlines your productivity by allowing you to customize your experience and view data relevant to you. 
 
-![Timeline filter functionality](media\timeline-filter-1b.png "Timeline filter functionality")
+![Timeline filter functionality](media\timeline-filter-12b.png "Timeline filter functionality")
 
 Legend:
 1. Timeline **Filter** ![](media\timeline-filter-icon.png "Filter") icon is located in the top right nav on the timeline.
@@ -90,7 +90,7 @@ When working with records, you can view key information at a glance or expand re
 
 When enabled by your system administrator, you can view timeline records quickly in a collapsed format or expand a record to see more details for ease of use.
 
-![Expand all records functionality](media\timeline-expand-all-records-1c.png "Expand all records functionality")
+![Expand all records functionality](media\timeline-expand-all-records-1d.png "Expand all records functionality")
 
 Legend
 1. The ![](media\timeline-expand-icon.png "Expand all records") icon is used to expand all records listed on the timeline.
@@ -205,7 +205,7 @@ When you hover your cursor on or expand an activity, post, or note, the command 
 
 **Command actions by record**
 
-![Command bar actions in timeline](media\timeline-access-command-bar-actions-1d.png "Command bar actions")
+![Command bar actions in timeline](media\timeline-access-command-bar-actions-1e.png "Command bar actions")
 
 Legend
 1. Only the actions associated with that record are displayed in the top right command bar displayed in the record. 
@@ -231,7 +231,7 @@ The following is an overview of the command bar icons and the actions they suppo
 
 The **Note** message box has a rich text editor that enables you to use rich text and create well-formatted content.
 
-![Timeline notes rich text editor](media\timeline-take-a-note-1.png "Timeline notes rich text editor")
+![Timeline notes rich text editor](media\timeline-take-a-note-2.png "Timeline notes rich text editor")
 
 Legend
 1. Note title field for adding headings and subjects.
