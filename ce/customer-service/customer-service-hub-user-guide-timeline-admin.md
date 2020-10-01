@@ -317,6 +317,8 @@ All card forms are broken out into the following four (4) sections:
 
 ![Display options - Advanced - How to customize a card from in timeline](media\timeline-customize-card-form-display-option-advanced-1a.png "Display options - Advanced - How to customize a card from in timeline")
 
+Legend
+
 1. **ColorStrip Section.** This section does not appear on the timeline record. The **ColorStrip** is located on the left of the card form.<br>
 2. **Header Section.** This section is displayed on the timeline record, however only the first two fields are displayed on the timeline record. For this example, only the **Subject** and **Modified On** fields are visible.<br>
 3. **Details Section.** This section is displayed on timeline record, however only the first three fields are displayed on the timeline record. For this example, only the **To**, **CC**, and **Description** fields are visible on the timeline record.<br>
@@ -327,53 +329,48 @@ All card forms are broken out into the following four (4) sections:
 
 Each individual card form has to be customized for each activity record such as email, tasks, posts, etc. 
 
-**Header Section**<br>
-The displays the title/subject in your timeline email form. You can have up to six (6) fields in the Header section, only the first two (2) fields will be seen on the timeline record. Also empty fields will be ignored by the form in all sections.<br>
+**Header Section**
 
-<ol>
-<b>f.  Header - Field 1.</b> Regardless of the field you choose, it will appear as a bold header at the top of your timeline record. For this example we selected <b>Subject</b> for this field.<br>
+The Card Header displays the title/subject in your timeline email form. You can have up to six (6) fields in the Header section, only the first two (2) fields will be seen on the timeline record. Also empty fields will be ignored by the form in all sections.
 
-**g.**	**Header - Field 2.** Again regardless of the field you choose, this field appears in the bottom right corner of the timeline record.  For this example we selected **Modified On** for this field.
-</ol>
+|Configuration View || Display View|
+|-------------------|-|------------|
+|![Customize a card from in timeline - Header](media\timeline-create-and-use-card-forms-header-1a.png "Customize a card from in timeline - Header")||![Card from in timeline - Header Display](media\timeline-create-and-use-card-forms-header-display-1a.png "Card from in timeline - Header Display")|
+| **Field 1** <BR>1. Regardless of the field you choose for this section, it will appear as a bold header at the top of your timeline record. For this example, we selected **Subject** for this field. <br><BR>**Field 2** <BR>2. Again regardless of the field you choose for this section as well, this field will always appears in the bottom right corner of the timeline record. For this example we selected **Modified On** for this field. ||**Field 1**<BR>1. Field 1 from the card header is always displayed in this section of the timeline record.<BR><BR>**Field 2**<BR>2. Field 2 from the card header is always displayed in this section of the timeline record. |
 
-**Details Section** <br>
-This displays in the body of your the timeline email record. You can have up to four (4) fields in the **Detail** section, but only the first three (3) fields are seen on the timeline record.
+**Details Section**
 
-<ol>
-<b>h.	Details - Field 1.</b> As before, regardless of the field you choose, this field will always appear below the Header - Field 1 as a sub-header on the timeline record. For this example we selected <b>To</b> for this field.<br>
+The Card Details section displays in the body of your the timeline email record. You can have up to four (4) fields in the **Detail** section, but only the first three (3) fields are seen on the timeline record.
 
-**i.**	**Details - Field 2.** This field will display one line of text in a summary view on the timeline record.  When you expand your timeline record,  content in this field is fully displayed with format. For this example we selected **CC** for this field.<br>
-
-**j.**	**Details - Field 3.** This field follows the content in Details -Field 2 and is part of the main body of your timeline record that is only viewable when you expand the record. For this example we selected **Description** for this field.
-</ol>
+|Configuration View | | Display View|
+|-------------------|-|------------|
+|![Customize a card from in timeline - Details section](media\timeline-create-and-use-card-forms-details-1a.png "Customize a card from in timeline - Details section")| 
+|The Card Details will always appear below the Header regardless of the field you choose.<BR><BR> **Field 1**<BR>1. In the card details Field 1 acts as a sub-header on the timeline record. For this example we selected **To** for this field.<br><BR>**Field 2**<BR> 2. This field will only display one line of text in a summary view on the timeline record.  When you expand your timeline record,  content in this field is fully displayed and formatted. For this example we selected **CC** for this field.<br><BR>**Field 3**<BR>3. This field follows the content of Field 2 and is part of the main body of your timeline record that is only viewable when you expand the record. For this example we selected **Description** for this field.| |**Field 1**<BR> 1. This field always displays in this section and acts as a sub-header on the timeline record.<BR><BR>**Field 2**<BR>2. This field always displays in this section and only displays one line of text in the summary view but when expanded, content is fully displayed. <BR><BR>**Field 3**<BR>3. This field will always display in this section and is only viewable when the record is expanced.|
+<BR>
 
 **Footer Section**<br>
 This section is not visible on the timeline record.  
 
-<ol>
-<b>k.	Footer – Field 1.</b> For this example we selected **Owner** for this field.<br>
-
-**l.**	**Footer – Field 2.** For this example we selected **Regarding** for this field.<br>
-
-**m.**	**Footer – Field 3.** For this example we selected **Priority** for this field.
-</ol>
-
-![Display options - Advanced - How to customize a card from in timeline](media\timeline-how-to-configure-activity-record-types-display-options-advanced-2.png "Display options - Advanced - How to customize a card from in timeline")
+|Configuration View | |Display View|
+|-------------------|-|------------|
+|![Customize a card from in timeline - Footer section](media\timeline-create-and-use-card-forms-details-footer-1a.png "Customize a card from in timeline - Footer section")| ||
+|**Field 1**<BR>1. For this example we selected **Owner** for this field.<br><BR>**Field 2**<BR>2. For this example we selected **Regarding** for this field.<br><BR>**Field 3**<BR>3. For this example we selected **Priority** for this field.| |These fields are not visable on the timeline record |
 
 ### How to set date in the sort activities by feature in timeline
 
-How you view data is important and setting a default display view of your data varies based on the needs of your business. Admins can choose how data is sorted and create a default sort setting for **Activity types** in **Record settings**. **Last Updated** is on all activities which is why it is set as the default in ascending order.    
+How you view data is important and setting a default display view of your data varies based on the needs of your business. Admins can choose how data is sorted and create a default setting for **Activity types** in **Record settings**. **Last Updated** is on all activities which is why it is set as the default in ascending order.
 
-14.	The **Sort activity by** feature in the **Activities record settings** allows you to control how data is sorted in timeline.  
-15.	When you select the **Sort activities by** field, a list appears. You can select from this list how you want your data to be sorted and displayed on timeline in the form.
+![How to set date in the sort activities by feature in timeline](media\timeline-how-to-set-date-in-sort-activities-by-feature-1a.png "Display options - Advanced - How to set date in the sort activities by feature in timeline")
 
-There are some unique date fields, for example:<br> 
+Legend
 
-<ol>
-16a. <b>Date sent.</b> This only occurs in email. If you sort by Date sent, most activities will not contain a Date Sent and therefore will be grouped together without any ordering.<br>
+1. The **Sort activity by** feature in the **Activities record settings** allows you to control how data is sorted in timeline.  
+2. The **Sort activities by** field displays a list when selected. You can select from this list how you want your data to be sorted and displayed on timeline in the form.<BR><BR>
+There are some unique date fields, for example: 
 
-16b. **Sort date.**  You cannot create a custom date field.  If you create one, it will not display, so in answer to this, **Sort date** was created.  It does not have a value and therefore allows you to choose your own.  Is empty by default.
-</ol>
+<ul> <li><b>Date sent</b> This field only occurs in email. If you sort by <b>Date sent</b>, most activities will not contain a <b>Date Sent</b> and therefore will be grouped together without any ordering.</li>
+<li><b>Sort date</b> You cannot create a custom date field.  If you create one, it will not display, so in answer to this, <b>Sort date</b> was created.  It does not have a value and therefore allows you to choose your own.  Is empty by default.</li>
+</ul>
 
 > [!IMPORTANT]
 > Sort date is intended for users to programatically program and map each activity with a date of choice to have more control.  It’s a cusomization option that allows you to sort activities any way you want by whatever date you want.  You will have to populate each field and it requires that you update all activities to populate the Sort date with a value.  However, once you complete configurability you have flexiblity to sort anyway you want.  
@@ -381,7 +378,6 @@ There are some unique date fields, for example:<br>
 > [!NOTE]
 > Sort dates have to be configured for each timeline instance and set up must be completed in all three main forms for the Account enity in order to work.
 
-![Display options - Advanced - How to set date in the sort activities by feature in timeline](media\timeline-how-to-set-date-in-sort-activities-by-feature-1.png "Display options - Advanced - How to set date in the sort activities by feature in timeline")
 
 ### How to set create activities form type in timeline
 
