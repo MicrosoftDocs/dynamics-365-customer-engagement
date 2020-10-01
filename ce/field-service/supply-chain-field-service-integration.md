@@ -47,7 +47,7 @@ Here are a few examples of how the integration is useful.
 
 1. **Asset management**: When creating a work order for repair or maintenance on a customer asset, the integration will allow dispatchers to pick from a full list of customer assets, regardless of which system it was created in.
 2. **Nearby warehouses**: Integration provides technicians with a complete list of nearby warehouses and relevant details.
-3. **Purchase orders**: A purchase order is created in supply chain management and a technician documents receipt of the products in the Field Service app while onsite a the customer's location. 
+3. **Purchase orders**: A purchase order is created in Supply Chain Management; then a technician documents receipt of the products in the Field Service app while onsite at the customer's location. 
 
 ## Prerequisites
 
@@ -101,9 +101,9 @@ As the last part of the process, a purchase order is created in Field Service wi
 
 ## Additional Notes
 
-- Dual Write allows organizations to integrate Supply Chain Management with Common Data Service, even without Field Service. 
+- Dual-write allows organizations to integrate Supply Chain Management with Common Data Service, even without Field Service. 
 
-- The Dual Write integration described in this article is separate and more robust than the previously released [Prospect to Cash](https://docs.microsoft.com/dynamics365/supply-chain/sales-marketing/prospect-to-cash) data integrator that is one-direction, batch, asynchronous, and does not respect business rules and validations. 
+- The dual-write integration described in this article is separate and more robust than the previously released [prospect to cash](https://docs.microsoft.com/dynamics365/supply-chain/sales-marketing/prospect-to-cash) data integrator that is one-direction, batch, asynchronous, and does not respect business rules and validations. 
 
 ## See also
 
