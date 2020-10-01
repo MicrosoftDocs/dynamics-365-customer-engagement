@@ -1,7 +1,7 @@
 ---
 title: "Use email in customer engagement apps | MicrosoftDocs"
 description: "Learn how to use email in customer engagement apps. "
-ms.date: 08/03/2020
+ms.date: 10/05/2020
 ms.service:
   "dynamics-365-customerservice"
 ms.topic: article
@@ -11,10 +11,6 @@ ms.reviewer: nenellim
 ---
 
 # Use email
-
-[!include[cc-early-access](../includes/cc-early-access.md)]
-
-
 Having the ability to communicate effectively with customers can lead to increased sales and customer satisfaction. The email capability in customer engagement apps empowers users with the ability to respond and provide timely customer interaction effortlessly through quick email access with enhanced features and functionality. Users can compose, reply, and review emails, as well as quickly attach and send images that add value and support to customer communication using streamlined functionality. You can also ensure interactions between users and customers are consistent and professional by using email templates with rich text and images. 
 
 The following is an overview of email features and functionality that shows you: 

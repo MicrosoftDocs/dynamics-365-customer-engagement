@@ -1,7 +1,7 @@
 ---	
 title: "Configure email | Microsoft Docs"	
 description: "Learn how to configure email."	
-ms.date: 08/03/2020	
+ms.date: 10/05/2020	
 ms.service:	
     "dynamics-365-customerservice"	
 ms.topic: article	
@@ -11,8 +11,6 @@ manager: shujoshi
 ---	
 
 # Configure email
-
-[!include[cc-early-access](../includes/cc-early-access.md)]	
 
 > [!Note] 	
 > The existing enhanced email form will be deactivated with the general availability of the 2020 release wave 2 features. In the latest version of the Sales app (build 9.0.2006.5005), you'll notice that the name of the existing enhanced email form is changed to Enhanced Email (deprecated). A new form named Enhanced Email has been introduced with the new enhanced capabilities like quick preview or multiple email attachments. If you don't opt in for early access of the 2020 release wave 2 features, this form will be presented in a Read-only mode.	
