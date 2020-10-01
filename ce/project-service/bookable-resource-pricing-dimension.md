@@ -5,7 +5,7 @@ author: Rumant
 manager: kfend
 ms.custom: 
   - dyn365-projectservice
-ms.date: 11/06/2018
+ms.date: 10/01/2020
 ms.topic: article
 ms.service: business-applications
 ms.author: rumant
