@@ -28,7 +28,7 @@ You can use search providers to federate the search of files, documents, or arti
 There are three types of search providers you can set up: 
   -	**Cross-Organizational Search**: This option allows you to specify a different organization under the same tenant of the current organization and search the articles from that organization. The list from the current tenant is automatically identified. 
   -	**Sharepoint**: This option requires you to enter the SharePoint URL. 
-  -	**Microsoft Search Connector**: This option is for organizations that already use Microsoft search to index all external data. You only need to specify the unique connection ID when you create the connector. To learn more about Microsoft search connectors, see [Overview of Microsoft Graph connectors](https://docs.microsoft.com/microsoftsearch/connectors-overview).
+  -	**Microsoft Search Connector**: This option is for organizations that already use Microsoft search to index all external data. You only need to specify the unique connection ID when you create the connector. To learn more about Microsoft search connectors, see [Overview of Microsoft Graph connectors](https://docs.microsoft.com/microsoftsearch/connectors-overview). **Note**: For the public preview release of search provider, only enterprise websites and the MediaWiki connector will work. Other connectors will be added in future releases.
   
 From an authentication perspective, your agents must have access to external content or they won't be able to view search results. 
 
@@ -59,3 +59,10 @@ To set up a search provider, do the following:
     > ![Select the search provider type and organization](media/search-provider-details.png "Select the search provider type and organization")
 
 6. When you are finished, select **Save** in the lower-right corner.
+
+After the search provider is configured, agents who are using search can see a drop-down option with links to the search options you have configured in their search results.
+
+    > [!div class=mx-imgBorder]
+    > ![Select search providers](media/search-provider-agent.png "Select search providers")
+
+For more information about the agent search experience, see [Search for knowledge articles in the Customer Service Hub](search-knowledge-articles-csh.md).
