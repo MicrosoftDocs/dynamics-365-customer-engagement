@@ -36,9 +36,9 @@ The Dynamics 365 Marketing October 2020 update includes several feature enhancem
 
 ### Version number
 
-| App              | GA release      | Early access    |
-|------------------|-----------------|-----------------|
-| Marketing        | 1.35.10065.1064 | 1.35.10065.2064 |
+| App              | GA release      |
+|------------------|-----------------|
+| Marketing        | 1.35.10066.1057 |
 
 > [!Tip]
 > To check your current version number, refer to [Find out which version of Dynamics 365 Marketing you are running](https://docs.microsoft.com/dynamics365/marketing/apply-updates#find-out-which-version-of-dynamics-365-marketing-you-are-running).
