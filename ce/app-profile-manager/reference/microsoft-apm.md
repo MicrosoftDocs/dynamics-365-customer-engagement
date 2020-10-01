@@ -23,4 +23,4 @@ These APIs allow you to manage sessions in a multi-session apps.
 | [createTab](microsoft-apm/createTab.md) | Creates a new app tab in the session that is currently in focus and returns the unique identifier (ID) of the app tab that was created. |
 | [refreshTab](microsoft-apm/refreshTab.md) | Refreshes an app tab whose unique identifier (ID) is passed as a parameter.  |
 | [focusTab](microsoft-apm/focusTab.md) | Sets the focus on the app tab whose unique identifier (ID) is passed as a parameter. |
-| [closeTab](microsoft-apm/closeTab.md) | Closes the app tab whose unique identifier is passed as a parameter. |
+| [closeTab](microsoft-apm/closeTab.md) | Closes the app tab whose unique identifier (ID) is passed as a parameter. |
