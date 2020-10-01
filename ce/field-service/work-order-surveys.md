@@ -1,5 +1,6 @@
 ---
-title: "Work order completion surveys with Customer Voice (Forms Pro) | MicrosoftDocs"
+title: "Work order completion surveys with Dynamics 365 Customer Voice (Microsoft Forms Pro) | MicrosoftDocs"
+description: Send work order completion surveys in Dynamics 365 Field Service with Dynamics 365 Customer Voice.
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 10/01/2020
@@ -26,19 +27,19 @@ search.app:
   - D365FS
 ---
 
-# Work order completion surveys with Customer Voice (formerly Forms Pro)
+# Work order completion surveys with Dynamics 365 Customer Voice (formerly Microsoft Forms Pro)
 
-Send surveys and questionnaires to customers when a work order is completed to learn about customer satisfaction, how to improve onsite service, and more! With Customer Voice (formerly Forms Pro), create custom surveys based on your business needs. Then with Power Automate flow templates, automatically send those surveys to the primary contact on a Dynamics 365 Field Service work order.
+Send surveys and questionnaires to customers when a work order is completed to learn about customer satisfaction, how to improve onsite service, and more! With Dynamics 365 Customer Voice (formerly Forms Pro), create custom surveys based on your business needs. Then with Power Automate flow templates, automatically send those surveys to the primary contact on a Dynamics 365 Field Service work order.
 
 ## Prerequisites
 
-- Access and licenses to use Dynamics 365 Field Service, Customer Voice, and Power Automate.
+- Access and licenses to use Dynamics 365 Field Service, Dynamics 365 Customer Voice, and Power Automate.
 
-## Create a survey with Customer Voice
+## Create a survey with Dynamics 365 Customer Voice
 
 Create a survey that you would like to send once a work order in complete.
 
-If you're an existing Customer Voice user, use [https://forms.office.com](https://forms.office.com) to sign in. To purchase Forms Pro licenses, see the article: [Purchase Microsoft Forms Pro](https://docs.microsoft.com/forms-pro/purchase).
+If you're an existing Dynamics 365 Customer Voice user, use [https://forms.office.com](https://forms.office.com) to sign in. To purchase Forms Pro licenses, see the article: [Purchase Microsoft Forms Pro](https://docs.microsoft.com/forms-pro/purchase).
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Forms Pro showing the my forms screen.](./media/work-order-survey-new-form.png)

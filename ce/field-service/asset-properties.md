@@ -83,7 +83,7 @@ To create a property template, go to **Settings** > **Templates for Properties**
 Give the template a name, and **Save**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/assets-properties-templates-properties-only.png)
+> ![Screenshot of a template for properties.](./media/assets-properties-templates-properties-only.png)
 
 From the template, you can associate defined properties. From the properties section, select New Property Template, and add properties that will always apply to this type of asset. In our example, we made a property template for laptops, which will always include:
 
@@ -130,7 +130,7 @@ In our example, we gave our laptop a value for RAM.
 > ![Screenshot of the quick create dialog for adding a property log.](./media/assets-properties-log-lookup.png)
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/assets-properties-log-lookup2.png)
+> ![Screenshot of the quick create dialog fully populated.](./media/assets-properties-log-lookup2.png)
 
 Repeat this process for all the asset properties you want to define.
 
