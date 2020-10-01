@@ -59,7 +59,7 @@ Without predictive travel times, resource scheduling optimization will calculate
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a schedule with no predictive travel.](./media/rso-predictive-travel-schedule-without.png)
 
-With predictive travel enabled, the estimated travel times are recalculated based on the time of day, season, and other historical factors. 
+With predictive travel enabled, resource scheduling optimization will generate a schedule that uses time-of-day dependent travel time that takes into account historical traffic.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a schedule with predictive travel times.](./media/rso-predictive-travel-schedule-with.png)
