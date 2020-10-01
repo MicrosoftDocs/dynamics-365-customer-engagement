@@ -47,9 +47,10 @@ Both the Field Service (Dynamics 365) mobile app _and_ Field Service Mobile (Xam
 
 ## Implementation and migration guidance
 
-The feature comparison table below for the new Field Service (Dynamics 365) and the existing Field Service Mobile (Xamarin) is provided to help select the best app for your organization. We recommend using the new Field Service (Dynamics 365) mobile app to benefit from the single maker platform and our new features, and to avoid future migration, which must happen by June 2022.  
+We recommend using the Field Service (Dynamics 365) mobile app to benefit from the new features and continuous investments in the platform, as well as to avoid future migration, which must occur by June 2022. To learn about the existing and the upcoming capabilities, refer to the feature comparison table in this article for the Field Service (Dynamics 365) and the existing Field Service Mobile (Xamarin) apps.
 
-While the new Field Service (Dynamics 365) mobile app continues to evolve, we'll continue to make available and support the current Field Service Mobile (Xamarin) app. By June 2021, new deployments must use the Field Service (Dynamics 365) mobile app; support for the current Field Service Mobile (Xamarin) app will end June 2022. 
+While the new Field Service (Dynamics 365) mobile app continues to evolve, we'll continue to make available and support the current Field Service Mobile (Xamarin) app. By June 2021, new deployments must use the Field Service (Dynamics 365) mobile app; support for the current Field Service Mobile (Xamarin) app will end June 2022.
+
 
 ## Feature comparison: Field Service (Dynamics 365) mobile app versus Field Service Mobile (Xamarin)
 
