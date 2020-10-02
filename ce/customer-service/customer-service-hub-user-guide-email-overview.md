@@ -141,7 +141,7 @@ If your system administrator has enabled email, the email option displays on the
 
 Accessing email in entities:
 
-![How to respond to an email](media\email-how-to-respond-to-an-email-1a.png "How to respond to an email")
+![How to respond to an email](media\email-how-to-respond-to-an-email-1b.png "How to respond to an email")
 
 1. From the navigation bar, select the plus ![](media\email-plus-icon.png "email icon") icon.
 
