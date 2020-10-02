@@ -502,18 +502,19 @@ The following is a list of file image types that are supported:
 |PDF.pdf     | Yes (preview not supported on IE) | No         |
 
 ## How to view and insert images in email
+
 The use of visual aids helps users convey a tremendous amount of information with just a glance. Having the ability to view and insert inline images in email using the drag-and-drop or copy-and-paste functionality is a very powerful tool for users.  
 
-When you drag-and-drop or copy and paste the image into the email:
+You can drag-and-drop or copy-and-paste images into the email.
 
-1.	You can adjust the image size.  
+![How to view and insert images in email](media\email-how-to-view-and-insert-images-in-email-1b.png "How to view and insert images in email")
 
-2.	When you have completed your edits, select **Save** or **Save & Close**.
+1. **Email images** You can adjust the image size.  
+2. **Save**. When you complete your edits, select **Save** or **Save & Close**.
 
 > [!Note]
 > There is a 1 MB file size limitation when adding an inline image to an email.
 
-![How to view and insert images in email](media\email-how-to-view-and-insert-images-in-email-1.png "How to view and insert images in email")
 
 ## How to create a signature for emails and queues
 Email signatures are an important and valuable tool for users. Email signatures are like electronic business cards you include when you send an email, and can promote professional branding for your company.  
@@ -521,54 +522,50 @@ Email signatures are an important and valuable tool for users. Email signatures 
 ### How to add an email signature
 Adding an email signature is easy and can be done at any point while you are composing an email.
 
-To add an email signature:
-
-1.	On the command bar, select **Insert Signature**.
-   The **Insert Signature** page is displayed.
-   
-2.	From the drop-down list, select an existing signature or select **New Email Signature** to create one.
-
-![How to add an email signature](media\email-how-to-add-an-email-signature-1.png "How to add an email signature")
+**Add an email signature**
+- On the command bar, select **Insert Signature**.  
+- From the drop-down list, select an existing signature or select **New Email Signature**.<BR>
+![How to add an email signature](media\email-how-to-add-an-email-signature-1a.png "How to add an email signature")
 
 ### How to create an email signature
 You can quickly create an email signature at any point while you are composing an email.
 
-When you select **New Email Signature**
+**New Email Signature**
 
-1.	In the **Details** section, enter the name of the email signature.
+You can add a new email signature by:
 
-2.	In the **Signature editor**, create your email signature.
+![Manage email signature lists](media\email-how-to-create-an-email-signature-1b.png "Manage email signature lists")
 
-3.	When you are finished, select **Save**.
-
-![How to create an email signature](media\email-how-to-create-an-email-signature-1.png "How to create an email signature")
+1. **Details** in this section, enter the name of the email signature.
+2. **Signature editor**. This allows you to create your email signature and **Save** when finished. 
 
 > [!Note] 
 > You can include inline images, such as a business logo, in an email signatures, as long as they are under 1 MB in size.
 
 ### Manage email signature lists
 
-To view the list of email signatures you have created:
+You can view and manage email signatures you have created.
 
-1.	Under **Templates** section, select **Email signatures**.
-    **My Email Signatures** displays, showing all you email signatures you can edit and update.
+![Manage email signature lists](media\email-manage-email-signature-lists-1a.png "Manage email signature lists")
+
+Ledgend
+
+1. Under **Templates** select **Email signatures**.
+
+2. **My Email Signatures** list displays, showing all your email signatures you can edit and update.
     
-2.	Select your default signature for email. Only one signature per user can be set as **Is Default**.
-
-    Email signatures can only be **Viewable By** the user.
-
-![Manage email signature lists](media\email-manage-email-signature-lists-1.png "Manage email signature lists")
+3. You can select a default signature for email. Only one signature per user can be set as **Is Default**. 
+4. Email signatures can only be **Viewable By** the individual user.
 
 ### Change email signature default setting
 While you can create multiple email signatures depending on you needs, only one can be set as your default email.   
 
+![Change email signature default setting](media\email-change-email-signature-default-setting-1a.png "Change email signature default setting")
+
 To change your default email signature setting:
-1.	Select the email signature you want to set as default. This will change the command bar to display **Edit**.
+1. Select the email signature you want to set as default. This will change the command bar to display **Edit**.
 
-2.	Select **Edit**.
-    A new page opens, where you can update the email default setting. While you are on this page, you can also delete one or multiple email signatures just by selecting them.
-
-![Change email signature default setting](media\email-change-email-signature-default-setting-1.png "Change email signature default setting")
+2. Select **Edit**. A new page opens, where you can update the email default setting. While you are on this page, you can also delete one or multiple email signatures just by selecting them.
 
 ### See Also
 
