@@ -84,7 +84,7 @@ To manage email attachment size limitations, use the following steps:
 
 1. Select **System Settings**
 
-2. In the **System Settings** display window that appears, go to the **Email** tab. Scroll down to the  **Set file size limit for attachments** section and set file size on attachments. 
+2. In the **System Settings** display window that appears, go to the **Email** tab. Scroll down to the  **Set file size limit for attachments** section and set file size on attachments. Then select **OK**.
 
     ![How to configure email attachment size limitations](media\email-how-to-configure-email-attachment-size-limitations-1z.png "How to configure email attachment size limitations")	
 
