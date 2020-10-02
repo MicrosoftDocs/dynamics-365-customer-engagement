@@ -258,7 +258,7 @@ Legend
 
 ### How to create an email template
 
-Email templates are a fast and easy way to send repetitive and reoccuring emails to multiple customers. You can view, create, and edit any email templates you have created.
+Email templates are a fast and easy way to send repetitive and reoccurring emails to multiple customers. You can view, create, and edit any email templates you have created.
 
 When creating a template, you have the option to work with a blank or existing template:
 
@@ -295,7 +295,7 @@ When you create a **New Customer Template**, the following example page displays
 
 Legend 
 
-1. **New Attachments**. Allows you to include attachements to your template. 
+1. **New Attachments**. Allows you to include attachments to your template. 
 
 2. **Subject**. Allows you to change the subject line.
 
@@ -383,14 +383,14 @@ Legend
 
 3. **Field name**. You can customize the field names. Default is set to account name.
 
-4. **More Commands**. The **More commands** ![More commands icon](media\timeline-more-commands-icon.png "more commands icon") icon sllows you to edit the order of the record types using the **Move Up** or **Move down** functionality to align records in a customized order.
+4. **More Commands**. The **More commands** ![More commands icon](media\timeline-more-commands-icon.png "more commands icon") icon allows you to edit the order of the record types using the **Move Up** or **Move down** functionality to align records in a customized order.
 
 5. **Default text**. Allows you to select the style of text for the subject and body of your email template. If no text is selected, it will display using the default text.
 
 6. Select **Insert** to save the form.
 
 > [!Note] 
-> If you click in an area on the form that does not support dyanmic text, it displays **Unable to insert**.
+> If you click in an area on the form that does not support dynamic text, it displays **Unable to insert**.
 
 For more information on creating email templates and configurations, see [Create templates for email](https://docs.microsoft.com/power-platform/admin/create-templates-email).
 
@@ -401,7 +401,7 @@ Having the ability to attach file(s) to a message is one of the most useful feat
 ![How to attach a file to email](media\email-how-to-attach-file-to-email-1a.png "How to attach a file to email")
 
 1. **Attach file**. Located in the top nav bar, **Attach file** allows you to do file attachments.
-2. **New Attachments**. Located above the rich text editor, the **New Attachements** ![](media\email-new-attachment-icon.png "new attachment") icon allows you to use drag-and-drop or copy-and-paste functionality. 
+2. **New Attachments**. Located above the rich text editor, the **New Attachments** ![](media\email-new-attachment-icon.png "new attachment") icon allows you to use drag-and-drop or copy-and-paste functionality. 
 
 > [!Note] 
 > Once you save your email, you can use **Attach file** and **New Attachments** interchangeably.
@@ -421,7 +421,7 @@ You can attach an unlimited number of files to an email; however, there are file
 
 File attachments display differently, depending on the email form you are working in. You can switch email forms without losing information.
 
-**Email form file attachement** 
+**Email form file attachment** 
 
 ![Work with attachments](media\email-work-with-attachments-2a.png "Work with attachments")
 
@@ -436,11 +436,11 @@ File attachments display differently, depending on the email form you are workin
 
 1. **Enhanced Email**. This display confirms you are working in the **Enhanced email** form.
 
-2. **Attached files**. This section displays all your email attachements in a tile view above your message horizontally. The defaulted setting for the maxiumn number of files that can display is five attachments before displaying the page forward functionality.
+2. **Attached files**. This section displays all your email  attachments in a tile view above your message horizontally. The defaulted setting for the maximum number of files that can display is five attachments before displaying the page forward functionality.
 
 3. **File count**. This displays when you have files that occupy more than two rows and allows you to see the total number of attached files on the left side under the last attachment they the option to page over to see more images.
 
-4. **Attachment Commands**. This allow you to use the select, select all, sort, delete, and download functionality when working with your file attachements.  
+4. **Attachment Commands**. This allow you to use the select, select all, sort, delete, and download functionality when working with your file attachments.  
 
 ### Working with the attachment command bar
 When you’ve attached one or more files to a message, you can manage them using the file attachment commands.  
@@ -451,7 +451,7 @@ The **Select** commands allow you to select individual files or multiple files a
 
 ![Working with the attachment command bar](media\email-working-with-the-attachment-command-bar-1a.png "Working with the attachment command bar")
 
-1. **Select All**. This commande is located on the right, above your attached files and allows you to select all file attachements at once. 
+1. **Select All**. This command is located on the right, above your attached files and allows you to select all file attachments at once. 
 
 > [!Note] 
 > **Select All** only selects files that are visible. If you have multiple pages of file attachments, you will need to go to that page and select those files independently.
@@ -548,7 +548,7 @@ You can view and manage email signatures you have created.
 
 ![Manage email signature lists](media\email-manage-email-signature-lists-1a.png "Manage email signature lists")
 
-Ledgend
+Legend
 
 1. Under **Templates** select **Email signatures**.
 
