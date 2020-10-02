@@ -425,7 +425,7 @@ File attachments display differently, depending on the email form you are workin
 
 ![Work with attachments](media\email-work-with-attachments-2a.png "Work with attachments")
 
-1. **Emmail**. This display confirms which email form you are working in. 
+1. **Email**. This display confirms which email form you are working in. 
 
 2. **Attachment**. This section displays a list of file attachments in a vertical view and only displays the first three attachments.
 
@@ -447,46 +447,47 @@ When you’ve attached one or more files to a message, you can manage them using
 
 ### Select commands
 
-The **Select** command allows you to select individual files or multiple files at once.
+The **Select** commands allow you to select individual files or multiple files at once.
 
--	**Select All command** is located on the right, above your attached files.
+![Working with the attachment command bar](media\email-working-with-the-attachment-command-bar-1a.png "Working with the attachment command bar")
 
--	When you use **Select All**, it highlights all of the selected files.
-
--	You can verify which files have been selected by viewing whether the checkbox in the top-right corner of the file attachment is selected. 
+1. **Select All**. This commande is located on the right, above your attached files and allows you to select all file attachements at once. 
 
 > [!Note] 
-> **Select All** only selects the files that are visible. If you have multiple pages of file attachments, you will need to go to that page and select those files independently.     
+> **Select All** only selects files that are visible. If you have multiple pages of file attachments, you will need to go to that page and select those files independently.
 
-![Working with the attachment command bar](media\email-working-with-the-attachment-command-bar-1.png "Working with the attachment command bar")
+2. **Tile Color Transparency**. The background color of selected file attachments changes to light grey to identify which files have been selected.
 
-Formatting of file attachments in email can realign based on the device it’s being viewed on and the format it is being worked in.
+3. **Check box** You can also verify which files have been selected by viewing whether the checkbox in the top-right corner of the file attachment is selected. 
 
-- Regardless of format display, file attachments will only display the number of files that are enabled by your system administrator.
+Formatting of file attachments in email can be realign based on the device being used and format it is being worked in.
 
-=	Page view functionality that provides the total number of email attachments will always display under the files. 
+![Working with the attachment command bar](media\email-working-with-the-attachment-command-bar-2a.png "Working with the attachment command bar")
 
-![Working with the attachment command bar](media\email-working-with-the-attachment-command-bar-2.png "Working with the attachment command bar")
+1. **Format Display** Regardless of format display, file attachments will only display the number of files that are enabled by your system administrator.
 
-#### Delete and download commands
+2. **Page view**. The page view displays the total number of email attachments and always is displayed under the file attachments. 
+
+### Delete and download commands
 These are two of the most important commands when working with images. 
 
--	The **Delete** command works with the **Select** commands. You must first select a file before you can delete it. A confirmation request appears, requiring you to confirm whether you want to delete the file(s) you’ve selected.
--	The **Download** command also works with the **Select** commands and your browser download settings, allowing you to download an individual file or multiple files at once.  
+![Working with the attachment command bar](media\email-working-with-the-attachment-command-bar-3a.png "Working with the attachment command bar")
 
-![Working with the attachment command bar](media\email-working-with-the-attachment-command-bar-3.png "Working with the attachment command bar")
+1. **Delete**. This command works with the **Select** commands. You must first select a file before you can delete it. A confirmation request appears, requiring you to confirm you want to delete the file(s) you’ve selected.
+
+2. **Download**. This command also works with the **Select** commands and your browser download settings, allowing you to download an individual file or multiple files at once.  
 
 ### How to preview images attachments
 
-Use the following commands to preview attached images:
-
--	**More options** command provides a list of actions for that file type.
-
--	**Non-preview image** types only allow you to either download or delete the attached file.
-
--	**Preview image types** allow you to **preview, download,** or **delete** the attached file. When you select the **preview** option, a pop-up window appears, displaying the image with the image name listed below.
-
 ![How to preview images attachments](media\email-how-to-preview-images-attachments-1.png "How to preview images attachments")
+
+1. **More options** command provides a list of actions for that file type.
+
+2. **Non-preview image** types only allow you to either download or delete the attached file.
+
+3. **Preview image types** allow you to **preview, download,** or **delete** the attached file. When you select the **preview** option, a pop-up window appears, displaying the image with the image name listed below.
+
+
 
 ### Supported email file attachments
 The following is a list of file image types that are supported:
