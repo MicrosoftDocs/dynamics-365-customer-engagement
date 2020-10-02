@@ -30,23 +30,23 @@ Email must be enabled for users so they can view and access it. Unless email is 
 To enable email:
 
 1. Under **Settings** select **Advanced Settings**
-    ![How to enable email](media\email-how-to-enable-email-1.png "How to enable email")	
+    ![How to enable email](media\email-how-to-enable-email-1.PNG "How to enable email")	
 2. In the top nav, select the **Settings** carat (v),  then select **Customizations** 
-    ![How to enable email](media\email-how-to-enable-email-2.png "How to enable email")	
+    ![How to enable email](media\email-how-to-enable-email-2.PNG "How to enable email")	
 3. Select **Customize the System**
-    ![How to enable email](media\email-how-to-enable-email-2a.png "How to enable email")
+    ![How to enable email](media\email-how-to-enable-email-2a.PNG "How to enable email")
 4. Expand **Entities**, select and expand **Email**, then select **Forms**
 5. On the command bar, select **Form Order** and select **Main Form Set** from the drop-down list
-    ![How to enable email](media\email-how-to-enable-email-2b.png "How to enable email")
+    ![How to enable email](media\email-how-to-enable-email-2b.PNG "How to enable email")
 6. The **Form Order** window appears, which displays enabled email forms that are available. If **Enhanced email** doesn't display at the top of the list, use the arrows to move it up so it displays first on the list. Select **OK**
 
-    ![How to enable email](media\email-how-to-enable-email-2c.png "How to enable email")
+    ![How to enable email](media\email-how-to-enable-email-2c.PNG "How to enable email")
 
     > [!Note] 
     > Both the 'Navigate-to' to and 'Contextual' (pop-up) email experience work off of the same **Form Order**.
 
 7.	Once you complete updates you must **Publish All Customizations** located in the top left corner for changes to appear; otherwise they will not display.
-    ![How to enable email](media\email-how-to-enable-email-5.png "How to enable email")	
+    ![How to enable email](media\email-how-to-enable-email-5.PNG "How to enable email")	
 
 ## How to enable the enhanced email experience	
 Enhanced email is the default setting, but you must enable email for users to access and use the feature. 
@@ -54,10 +54,10 @@ Enhanced email is the default setting, but you must enable email for users to ac
 Sign in to https://<YourOrgURL>.dynamics.com/apps and open a customer engagement app. In the app:	
 1. Go to **Settings** and select **Advanced Settings** 
 2. In the top nav, select the **Settings** carat (v) then select **Administration** 
-   ![How to enable email](media\email-how-to-enable-email-5a.png "How to enable email")	
+   ![How to enable email](media\email-how-to-enable-email-5a.PNG "How to enable email")	
 3. Select **System Settings**.  
 4. In the **System Settings** display window that appears, go to the **Email** tab. Scroll down to the **Enhanced email for Timeline** section and check the box.  
-    ![How to enable the enhanced email experience](media\email-how-to-enable-the-enhanced-email-experience-3a.png "How to enable the enhanced email experience")	
+    ![How to enable the enhanced email experience](media\email-how-to-enable-the-enhanced-email-experience-3a.PNG "How to enable the enhanced email experience")	
 6.	Select **OK** to save your global organizational setting and close.	
 
 ## How to configure email attachment size limitations
