@@ -40,16 +40,19 @@ You can work in either the **navigate-to** email or the **contextual** email exp
 > The existing enhanced email form will be deactivated with the general availability of the 2020 release wave 2 features. In the latest version of the Sales app (build 9.0.2006.5005), you'll notice that the name of the existing enhanced email form is changed to Enhanced Email (deprecated). A new form named Enhanced Email has been introduced with the new enhanced capabilities like quick preview or multiple email attachments. If you don't opt in for early access of the 2020 release wave 2 features, this form will be presented in a Read-only mode.
 
 The following highlights the difference between the **navigate-to** and **contextual** email experience in the Timeline based on how your system administrator has configured your email:
-1.	Select the **Create a timeline record** icon.
 
-2.	Select **Email**.
+1.	Select **Create a timeline record**
 
-3.	**Navigate-to** email will display in a new screen.
+  ![Navigate to email vs contextual email experience](media\create-a-record-icon1a.png "Navigate to email vs contextual email experience")
 
-4.	**Contextual** email will display in a pop-up window on your current screen.
+2. Select **Email**
 
-![Navigate to email vs contextual email experience](media\email-navigate-vs-contextual-email-1.png "Navigate to email vs contextual email experience")
-![Navigate to email vs contextual email experience](media\email-navigate-vs-contextual-email-2.png "Navigate to email vs contextual email experience")
+  ![Navigate to email vs contextual email experience](create-a-timeline-record-1.png "Navigate to email vs contextual email experience")
+
+|Navigate-to Email Experience | | Contextual Email Experience|
+|-----------------------------|-|----------------|
+| ![Navigate to email vs contextual email experience](media\navigate-to-email-view-1.png "Navigate to email vs contextual email experience") ||  ![Navigate to email vs contextual email experience](media\contextual-email-view-1.png "Navigate to email vs contextual email experience")|
+|The **Navigate-to** email will display in a new screen.||The **Contextual** email will display in a pop-up window on your current screen.|
 
 > [!Important]
 > - The pop-up window only opens when the height and width of your screen size is at least 400 x 650 pixels or greater. If lower, **navigate-to** email will be the default experience.
@@ -68,6 +71,7 @@ Users can view, create, and send emails faster with streamlined access that help
 You can view and respond to emails across your Dynamics 365 app.
 
 For example, users can view and access emails the Customer Service hub by going to **Service**, then using the following steps:
+
 1.	Select **Activities**.
 
 2.	When select **All Activities** a drop-down list appears. 
