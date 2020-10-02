@@ -37,7 +37,9 @@ There are three types of search providers you can set up:
   -	**Sharepoint**: This option requires you to enter the SharePoint URL. 
   -	**Microsoft Search Connector**: This option is for organizations that already use Microsoft search to index all external data. You only need to specify the unique connection ID when you create the connector. To learn more about Microsoft search connectors, see [Overview of Microsoft Graph connectors](https://docs.microsoft.com/microsoftsearch/connectors-overview). **Note**: For the public preview release of search provider, only enterprise websites and the MediaWiki connector will work. Other connectors will be added in future releases.
   
-From an authentication perspective, your agents must have access to external content or they won't be able to view search results. 
+From an authentication perspective, your agents must have access to external content or they won't be able to view search results.
+
+## Set up a search provider
 
 To set up a search provider, do the following:
 
@@ -67,9 +69,25 @@ To set up a search provider, do the following:
 
 6. When you are finished, select **Save** in the lower-right corner.
 
+## Post-configuration agent experience
+
 After you have configured the search providers, agents who are using search can see a drop-down option with links to those providers in their search results.
 
    > [!div class=mx-imgBorder]
    > ![Agent view of search providers](media/search-provider-agent.png "Agent view of available search providers")
+   
+   
+### See also
+
+[Search for knowledge articles in the Customer Service Hub](search-knowledge-articles-csh.md)
+
+[Add the Knowledge Base Search control to forms](add-knowledge-base-search-control-forms.md)
+
+[Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)
+
+[Understand knowledge base search mechanisms](knowledge-base-search-methods.md)
+
+   
+   
 
 For more information about the agent search experience, see [Search for knowledge articles in the Customer Service Hub](search-knowledge-articles-csh.md).
