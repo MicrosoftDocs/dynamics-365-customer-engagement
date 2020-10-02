@@ -91,7 +91,7 @@ For example, you can create emails by going to **Service**, and using the follow
 
    ![How to compose an email](media\email-how-to-compose-an-email-1a.png "How to compose an email")
 
-Anatomy of the email form: 
+#### Anatomy of the email form
 
 ![How to compose an email](media\email-how-to-compose-an-email-1g.png "How to compose an email")
 
@@ -136,7 +136,7 @@ Depending on where you are in your app, how you reply to an email will function 
 
 If your system administrator has enabled email, the email option displays on the navigation bar and in the activities command bar. When composing an email in entity records from **Activities**, you must set the reply field.  
 
-Accessing email in entities:
+#### Accessing email in entities
 
 ![How to respond to an email](media\email-how-to-respond-to-an-email-1b.png "How to respond to an email")
 
@@ -234,7 +234,7 @@ Email templates provide multiple benefits. Using email templates saves users tim
 
 Once you select **Insert Template**, the following window appears displaying a list of existing **Email templates** that are available to use.
 
-**Email template selection window**
+#### Email template selection window
 
 ![How to insert an email template](media\email-how-to-insert-an-email-template-1b.png "How to insert an email template")
 
@@ -284,7 +284,7 @@ Legend
 
 5. **Create**. Once an email is formatted, you can create it to a template.
 
-**New customer template overview**
+#### New customer template overview
 
 When you create a **New Customer Template**, the following example page displays that allows you to make edits. 
 
@@ -302,11 +302,11 @@ Legend
 
 **Start with existing templates** will automatically be populated with the pre-established meta-data from the existing template that you can customize. 
 
-**Create a new email template overview**
+#### Create a new email template overview
 
 The following **Create a new email template** screen appears, which allows you to customize your template
 
-![Start with existing templates](media\email-start-with-existing-templates-1a.png "Start with existing templates")
+  ![Start with existing templates](media\email-start-with-existing-templates-1a.png "Start with existing templates")
 
 1. **search**. Allows you to search for templates. Search does not support regular expressions and it works on the template name only.
 
@@ -340,7 +340,7 @@ When you have composed and formatted an email message that you would like to sav
 
   ![How to convert an email to a template](media\email-how-to-insert-an-email-template-1c.png "How to convert an email to a template")
 
-**Convert an email to a template overview**  
+#### Convert an email to a template overview
 
 The following window will display with a list you can customize.
 
@@ -418,7 +418,7 @@ You can attach an unlimited number of files to an email; however, there are file
 
 File attachments display differently, depending on the email form you are working in. You can switch email forms without losing information.
 
-**Email form file attachment** 
+#### Email form file attachment
 
 ![Work with attachments](media\email-work-with-attachments-2a.png "Work with attachments")
 
@@ -428,7 +428,7 @@ File attachments display differently, depending on the email form you are workin
 
 3. **File count**. This displays when you have more files than what can be viewed and allows you to see the total number of attached files on the left side under the last attachment with the option to page over to see more images.
 
-**Enhanced Email form file attachment** 
+#### Enhanced Email form file attachment
 ![Work with attachments](media\email-work-with-attachments-3b.png "Work with attachments")
 
 1. **Enhanced Email**. This display confirms you are working in the **Enhanced email** form.
@@ -484,7 +484,6 @@ These are two of the most important commands when working with images.
 
 3. **Preview image types**. Allow you to **preview, download,** or **delete** the attached file. When you select the **preview** option, a pop-up window appears, displaying the image with the image name listed below.
 
-
 ### Supported email file attachments
 The following is a list of file image types that are supported:
 
@@ -512,14 +511,13 @@ You can drag-and-drop or copy-and-paste images into the email.
 > [!Note]
 > There is a 1 MB file size limitation when adding an inline image to an email.
 
-
 ## How to create a signature for emails and queues
 Email signatures are an important and valuable tool for users. Email signatures are like electronic business cards you include when you send an email, and can promote professional branding for your company.  
 
 ### How to add an email signature
 Adding an email signature is easy and can be done at any point while you are composing an email.
 
-**Add an email signature**
+#### Add an email signature
 - On the command bar, select **Insert Signature**.  
 - From the drop-down list, select an existing signature or select **New Email Signature**.<BR>
 ![How to add an email signature](media\email-how-to-add-an-email-signature-1a.png "How to add an email signature")
@@ -527,7 +525,7 @@ Adding an email signature is easy and can be done at any point while you are com
 ### How to create an email signature
 You can quickly create an email signature at any point while you are composing an email.
 
-**New Email Signature**
+#### New Email Signature
 
 You can add a new email signature by:
 
@@ -546,11 +544,8 @@ You can view and manage email signatures you have created.
 ![Manage email signature lists](media\email-manage-email-signature-lists-1a.png "Manage email signature lists")
 
 Legend
-
 1. Under **Templates** select **Email signatures**.
-
 2. **My Email Signatures** list displays, showing all your email signatures you can edit and update.
-    
 3. You can select a default signature for email. Only one signature per user can be set as **Is Default**. 
 4. Email signatures can only be **Viewable By** the individual user.
 
