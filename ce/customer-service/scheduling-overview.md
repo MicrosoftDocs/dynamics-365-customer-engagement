@@ -4,14 +4,10 @@ description: "Overview of Service Scheduling migration options in Dynamics 365 C
 author: lalexms
 ms.author: lalexms
 manager: shujoshi
-ms.date: 05/08/2020
+ms.date: 10/1/2020
 ms.topic: article
-ms.service: 
-  - "dynamics-365-customerservice"
-ms.custom: 
-  - ""
-applies_to: 
-  - ""
+ms.service: dynamics-365-customerservice
+
 ---
 
 # Upcoming changes to the Service Scheduling experience
@@ -32,8 +28,9 @@ Consider the following pros and cons before deciding to migrate.
 - Appointment, Recurring Service Appointment, and Customer preferred selection are not supported.
 - Schedule boards are not customizable.
 - There isn't a public extended API for supporting Appointment and Recurring Service Appointment features.
+- Service Restriction is not supported.
 - Legacy customer administrators must run the migration tool and install the Core Service Scheduling package before using URS.
-- You can't roll back once the migration tool executes.
+- You can't roll back once the migration tool starts.
 
 ## Option #2: Wait for the "UCIfied" Service Scheduling experience in August 2020
 
