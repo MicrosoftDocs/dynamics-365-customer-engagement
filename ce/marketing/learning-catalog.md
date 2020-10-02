@@ -1,10 +1,11 @@
 ---
 title: Marketing learning catalog
 description: Find all the training options for marketing.
-author: loreleishannonmsft
+author: MargoC
 ms.topic: article
+ms.service: dynamics-365-marketing
 ms.date: 01/08/2020
-ms.author: v-lshann
+ms.author: margoc
 ---
 
 # Marketing Learning Catalog
@@ -34,6 +35,7 @@ ms.author: v-lshann
     Are you in charge of making sure your company’s implementation goes smoothly?
 
     [Project Managers Learning Catalog](learning-project-manager.md)
+    
     [Marketing](learning-project-manager.md#marketing)
 
     [Exams](learning-project-manager.md#exam)
@@ -87,6 +89,8 @@ ms.author: v-lshann
     [Build](learning-developer.md#build)
 
     [Extend](learning-developer.md#extend)
+    
+    [Exams](learning-developer.md#exam)
 
      :::column-end:::
 :::row-end:::

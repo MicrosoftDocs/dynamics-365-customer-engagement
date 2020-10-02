@@ -1,8 +1,8 @@
 ---
-title: "Integrate Dynamics 365 Marketing with forms published on an external website (Dynamics 365 Marketing) | Microsoft Docs"
+title: "Embed forms on external websites (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to publish a form on an external site and capture the submissions in Dynamics 365 Marketing"
 keywords: marketing form, embed
-ms.date: 05/11/2020
+ms.date: 09/23/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -22,7 +22,7 @@ search.app:
   - D365Mktg
 ---
 
-# Integrate with landing pages published on an external website
+# Embed forms on external websites
 
 Dynamics 365 Marketing provides a complete solution for designing, publishing, and hosting landing pages on a Dynamics 365 Portal running on your Dynamics 365 Marketing instance. However, you can also create or embed forms on your own external website that submit values back to Dynamics 365 Marketing. These external pages function similarly to native Dynamics 365 Marketing landing pages, so they will generate contacts and/or leads in your database when submitted. However, a few limitations apply, depending on how you implement the external forms.
 
@@ -74,8 +74,9 @@ To design a form in Dynamics 365 Marketing that you can embed on an external web
 
 1. Save the form and go live.
 
-1. On going live, a **Form hosting** tab appears. Open it.    
-  ![The form hosting tab](media/marketing-form-hosting.png "The form hosting tab")
+1. On going live, a **Form hosting** tab appears. Open it.
+
+    ![The form hosting tab](media/marketing-form-hosting2.png "The form hosting tab")
 
 1. In the **Related marketing form pages** column, select **Add new form page** (open the ellipsis menu here to find this command if you don't see it). A quick-create flyout slides in. A _form page_ is a virtual page where you can make a few extra configuration settings for forms that will be embedded externally.
 
@@ -85,17 +86,23 @@ To design a form in Dynamics 365 Marketing that you can embed on an external web
 
 1. If your form **does not** use prefill, complete the following steps:
 
-    1. In the **Whitelist rules** column, select **Add new form whitelist rule** (open the ellipsis menu here to find this command if you don't see it). A quick-create flyout slides in. 
+    1. Go to **Settings** > **Advanced settings** > **Marketing settings** > **Authenticated domains**. A list of existing authenticated domains opens.
 
-    1. In the **Name** field, enter the domain name of the website where you will host the form. You can whitelist as many domains as you want, but your form will only work on those domains that you whitelist.
+    1. Select **New** on the command bar to add a new domain.
 
-1. If your form **does** use prefill (including all subscription center forms), then you must authenticate the domain(s) where you'll use the form rather than use the whitelist, so the **Whitelist rules** column isn't shown here for forms with prefill enabled. More information: [Enable prefilling on embedded forms](#form-prefil)
+    1. A new authenticated domain record opens. Make the following settings:
+
+        - **Domain name**: Enter the name of the domain you want to authenticate.
+        - Select **Enable prefilled forms** check box.
+
+1. If your form **does** use prefill (including all subscription center forms), you must authenticate the domain(s) where you'll use the form. More information: [Enable prefilling on embedded forms](#form-prefil)
 
 1. Select the form page name in the **Related marketing form pages** column to open its settings and view the embed code.
 
 1. Copy the embed code and paste it onto the page of your website where you want to use it.
-     > [!NOTE]
-     > Depending on what type of web server and CMS system you are using, you may need to adjust the code (for example, by escaping some special characters), or adjust your system settings to allow scripts such as this one to be pasted in. See your web server and CMS documentation for details.
+
+ > [!NOTE]
+ > Depending on what type of web server and CMS system you are using, you may need to adjust the code (for example, by escaping some special characters), or adjust your system settings to allow scripts such as this one to be pasted in. See your web server and CMS documentation for details.
 
 <a name="form-prefil"></a>
 
@@ -115,7 +122,7 @@ To create a form with prefilling that you can embed on an external website:
 
 1. Enable prefilling for the form as described in [Enable prefilling for forms](form-prefill.md).
 
-1. Save the form and then go to the **Form hosting** tab (first available on save) to set up a _form page_ for it as described in [Create an embedded form](#create-embedded). Note that you don't need to add authenticated domains to the whitelist on the **Form hosting** tab because authenticated domains provide even better security than the whitelist provided here.
+1. Save the form and then go to the **Form hosting** tab (first available on save) to set up a _form page_ for it as described in [Create an embedded form](#create-embedded). Note that you don't need to add authenticated domains to the allow list on the **Form hosting** tab because authenticated domains provide even better security than the allow list provided here.
 
 1. As described in [Create an embedded form](#create-embedded), copy the JavaScript code generated for the new form page and paste it onto a web page or CMS page for your website.
 

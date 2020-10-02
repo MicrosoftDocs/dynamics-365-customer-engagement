@@ -3,7 +3,7 @@ title: "Sample: Pass multiple values to a  web resource through the data paramet
 description: "The sample represents a technique to pass the additional values within a single parameter and then process them within your web resource."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

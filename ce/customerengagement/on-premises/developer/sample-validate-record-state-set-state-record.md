@@ -3,7 +3,7 @@ title: "Sample: Validate record state and set the state of the record (Developer
 description: "The sample demonstrates how to validate a change of state of an entity and set a state of an entity."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

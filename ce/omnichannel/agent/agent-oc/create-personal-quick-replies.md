@@ -7,7 +7,7 @@ manager: shujoshi
 ms.date: 08/14/2020
 ms.topic: article
 ms.service: 
-  - dynamics-365-customerservice
+  dynamics-365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -46,6 +46,8 @@ You can create, edit, and delete the personal quick replies you own. The quick r
    > ![Create a personal quick reply](../../media/oceh/create-personal-quick-reply.png "Create a personal quick reply")
 4. In the **Tags** area, enter the keyword you want to associate with the quick reply, and then select ![plus sign](../../media/oceh/plus-sign.png). If you want to use the number sign (#), don't use it anywhere else in the keyword except at the beginning.
 5. Select **Save**.
+
+It can take up to 15 minutes for the quick replies to be available for your use.
 
 ## Use personal quick replies
 

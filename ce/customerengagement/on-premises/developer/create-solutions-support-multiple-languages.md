@@ -12,7 +12,7 @@ ms.assetid: 2f601c9e-b1d1-47be-a8ea-afca16780751
 author: JimDaly
 ms.author: jdaly
 manager: amyla
-ms.reviewer: "pehecke"
+ms.reviewer: pehecke
 ms.suite: 
 ms.tgt_pltfrm: 
 search.audienceType: 

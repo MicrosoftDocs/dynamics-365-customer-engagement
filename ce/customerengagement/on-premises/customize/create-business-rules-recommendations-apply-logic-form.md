@@ -152,7 +152,7 @@ A business rule may not execute because the field referenced in the business rul
 *How do I troubleshoot a business rule that isn't working?* 
 - See [Is your business rule not firing for a form?](#is-your-business-rule-not-firing-for-a-form) in this topic.
 
-*Do business rules react to changes made by an onLoad script?
+*Do business rules react to changes made by an onLoad script?*
 - No, they will execute before an onload script is executed.
 
 ### See also  

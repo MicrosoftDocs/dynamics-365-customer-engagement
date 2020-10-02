@@ -3,7 +3,7 @@ title: "Use managed properties (Developer Guide for Dynamics 365 Customer Engage
 description: "Managed properties help you define which of the managed solution components can be customized"
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: "pehecke"
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

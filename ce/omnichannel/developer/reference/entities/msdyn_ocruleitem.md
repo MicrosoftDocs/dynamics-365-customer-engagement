@@ -872,17 +872,6 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|None|
 |Type|BigInt|
 
-<a name="manytoone"></a>
-
-## Many-To-One Relationships
-
-Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related entity. Listed by **SchemaName**.
-
-
-### <a name="BKMK_msdyn_liveworkstream_ocruleitem"></a> msdyn_liveworkstream_ocruleitem
-
-See msdyn_liveworkstream Entity [msdyn_liveworkstream_ocruleitem](msdyn_liveworkstream.md#BKMK_msdyn_liveworkstream_ocruleitem) One-To-Many relationship.
-
 ### See also
 
 [Introduction to Omnichannel for Customer Service](../../../introduction-omnichannel.md)<br />

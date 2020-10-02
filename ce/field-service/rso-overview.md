@@ -85,7 +85,7 @@ RSO is configurable based on your business needs and you have the option of runn
 
 ## How it works
 
-Resource Scheduling Optimization (RSO) is an enhanced application of the famous "traveling salesman problem" that asks the following question: "Given a list of cities and the distances between each pair of cities, what is the shortest possible route that visits each city and returns to the origin city?". It's a mathematical problem and the solution is a large part of the RSO computation. Nevertheless, RSO goes beyond finding the shortest routes because it also considers things like skills, territory, roles, priorities, resource preferences, promised time windows, and more. 
+Resource Scheduling Optimization (RSO) is an enhanced application of the famous "traveling salesperson problem" that asks the following question: "Given a list of cities and the distances between each pair of cities, what is the shortest possible route that visits each city and returns to the origin city?". It's a mathematical problem and the solution is a large part of the RSO computation. Nevertheless, RSO goes beyond finding the shortest routes because it also considers things like skills, territory, roles, priorities, resource preferences, promised time windows, and more. 
 
 Here's how it works.
 

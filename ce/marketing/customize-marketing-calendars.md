@@ -2,7 +2,7 @@
 title: "Add and customize marketing calendars for any form or entity (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to add a marketing calendar to an entity or form and then customize its features in Dynamics 365 Marketing"
 keywords: marketing execution;email;landing page;marketing page;customer journey
-ms.date: 06/07/2019
+ms.date: 09/10/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -88,7 +88,7 @@ You can add a marketing calendar to any form where you think it could be useful.
 
 1. In the **Data Source** section, choose the type of entity that you want to show in your calendar. Make the following settings:
     - **Records:** Choose **All record types** to show any type of record, or choose **Only related records** to show only records that have a relation to a currently shown record (such as rooms reserved for a displayed event, or engagements assigned to a displayed speaker).
-    - **Entity**: Chose the type of entity you want to show in the calendar. The entity you choose must include fields for a start date and end date, and must also have a quick-create form available.
+    - **Entity**: Choose the type of entity you want to show in the calendar. The entity you choose must include fields for a start date and end date, and must also have a quick-create form available.
     - **Default view**: Choose a system view defined for your selected entity. This setting will filter the collection of records shown on the calendar.
 
 1. Go to the **Controls** tab and select **Add control**.
@@ -213,11 +213,11 @@ Each item displayed on the calendar uses a background color to indicate which ty
 
 ## Set up record-level custom colors
 
-In addition to the default entity color, you can also customize a calendar to enable users to select a custom color for each record as they add it. If no custom color is selected for a new record then the [default color](#entity-color) for the entity will be used.
+In addition to the default entity color, you can also customize a calendar to enable users to select a custom color for each record as they add it. If no custom color is selected for a new record, the [default color](#entity-color) for the entity will be used.
 
 ![A calendar with several custom-colored events](media/calendar-custom-colors.png "A calendar with several custom-colored events")
 
-To set up record-level custom colors:
+To set up record-level custom colors using a free text field:
 
 1. [Add a custom field](https://docs.microsoft.com/powerapps/maker/common-data-service/create-edit-fields) to the entity where you want to enable for record-level custom colors. This is the target entity (such as Event) to be displayed by the calendar you are customizing. This field will hold the custom color value assigned to each record, so give it name such as "Calendar color". The field must be of type **Single line of text**.
 
@@ -233,3 +233,20 @@ Users can choose any of the available HTML standards when entering color values,
 - Hex value (must start with #) (such as `#FF0000`)
 - Short hex value (for colors that support it) (such as `#F00`)
 - RGB value (such as `rgb(255,0,0)`)
+
+To set up record-level custom colors using an option set:
+
+1. Choose an **option set** field from the entity under which you would like to change the color of the record. This is the target entity (such as an event) that will display by the calender you are customizing.
+
+1. [Ensure that the option set for the field has the colors you like for the options](https://docs.microsoft.com/powerapps/maker/common-data-service/create-edit-global-option-sets-solution-explorer#create-a-global-option-set). These colors will be displayed for the record on the calendar when that option is set for the field.
+
+Users can choose any of the available HTML standards when entering color values, including:
+
+- Color name (such as `red`)
+- Hex value (must start with #) (such as `#FF0000`)
+- Short hex value (for colors that support it) (such as `#F00`)
+- RGB value (such as `rgb(255,0,0)`)
+
+1. [Configure your calendar](#config-calendar) to identify the color field for the target entity.
+
+1. Publish your customizations.
