@@ -29,6 +29,12 @@ Work with your data in offline mode even when you don't have internet access. Th
 
 If you're working on a record and lose network connection, any updates made to the record are saved in offline mode and will be synchronized to Dynamics 365 app once you're back online. When the record is synchronized with the app, it follows the filter rule for availability in offline mode.
 
+## Early access feature
+
+If you have enabled early access, then you will have a different navigation experience. This topic calls out both experiences.
+
+Your administrator has to opt in to early access updates for your environment and then install the updates to get this feature. More information: [Opt in to early access updates](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates)
+
 
 > [!NOTE]
 > - The mobile offline feature is only available for iOS and Android devices.
@@ -42,13 +48,20 @@ When your admin has [enabled mobile offline](setup-mobile-offline-for-admin.md
 
 1. When you see the dialog box that asks you to download updates to work offline, choose **Download**. 
 
-    > [!div class="mx-imgBorder"] 
-    > ![Download updates on your mobile device for mobile offline](media/DownloadUpdates.png "Download updates on your mobile device for mobile offline")
- 
- Offline data starts to download in the background. Do not close the app or disconnect from the internet until the download is complete.
+|Current  |Early access  |
+|---------|---------|
+| ![Download updates on your mobile device for mobile offline](media/DownloadUpdates.png "Download updates on your mobile device for mobile offline")     |     ![User menu](media/usermenu_2.png "User menu")   |
 
-  > [!NOTE]
-  > If you choose **Skip for now**, you will not be able to use the app in offline mode until you manually download the updates. To manually download updates, from the nav bar, select ![Dynamics 365 apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 apps ellipsis") > **Offline Status**. 
+ 
+2. Offline data starts to download in the background. Do not close the app or disconnect from the internet until the download is complete.
+
+## Download offline data later
+
+If didn’t want to download offline data and choose **Skip for now**, you will not be able to use the app in offline mode until you manually download the updates. 
+
+1. To manually download updates, do the following:
+    - **Current**: From the nav bar, select ![Dynamics 365 apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 apps ellipsis") > **Offline Status**. 
+    - **Early access**: 
 
 2. To see the download status, from the nav bar, select ![Dynamics 365 apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 apps ellipsis") > **Offline Status**.
 
