@@ -4,19 +4,20 @@ description: Understand Knowledge Management in Customer Service Hub for Custome
 author: lalexms
 ms.author: lalexms
 manager: shujoshi
-ms.date: 08/03/2020
+ms.date: 10/05/2020
 ms.topic: article
 ms.service: 
-  - dynamics-365-customerservice
+  dynamics-365-customerservice
 ms.custom: 
-  - dyn365-customerservice
+  dyn365-customerservice
 search.audienceType: 
-  - admin
-  - customizer
-  - enduser
+  admin
+  customizer
+  enduser
 search.app: 
-  - D365CE
-  - D365CS
+  D365CE
+  D365CS
+  
 ---
 
 # Create and manage knowledge articles
@@ -194,19 +195,25 @@ You can preview the content to view its compatibility on multiple devices, like 
 > This is an indicative preview. Content rendered can be different in the actual device or screen.
 
 ### Add the rich text editor control to another form
-By default, the rich text editor functionality is available for use with knowledge articles and emails, but if you want to use it with a different form somewhere else, you can add it by doing the following:
+By default, the rich text editor functionality is available for use with knowledge articles and emails, but if you want to use it with a different form, you can add it by doing the following:
 
-1. Go to the form where you want to add the rich text editor control. 
+1. Go to the form where you want to add the rich text editor control, and double-click a field where you can enter single or multiple lines of text to open **Field Properties**. 
 
-2. Select the RTE control, and then on the ribbon, select **Change properties**.
+2. On the **Field Properties** dialog, select the **Controls** tab.
 
-3. Go to the **Controls** tab, and then select the rich text editor control.
+3. Under **Control**, select **Rich Text Editor Control.
 
-4. On the properties page, select the pencil icon next to **RichTextEditorControl_URL**. 
+    > [!div class=mx-imgBorder]
+    > ![Select the Controls tab on the properties page](media/ka-select-service-management.png "Select the Controls tab, and then select the rich text editor control")
 
-5. Enter the following text: "/webResources/msdyncrm_/RichTextEditorControl/KnowledgeArticleRTEconfig.js" 
+3. Under **Rich Text Editor Control** properties, select the pencil icon next to **RichTextEditorControl_URL**. 
+    
+    > [!div class=mx-imgBorder]
+    > ![Select Rich Text Editor Control](media/ka-select-service-management.png "Select the Rich Text Editor Control and pencil icon to edit")
 
-6. Select **OK**, and then select **Save and Publish**.
+4. Enter the following text: **webResources/msdyncrm_/RichTextEditorControl/KnowledgeArticleRTEconfig.js** 
+
+5. Select **OK**, and then select **Save and Publish**.
 
   
 ## Mark a knowledge article for review  
