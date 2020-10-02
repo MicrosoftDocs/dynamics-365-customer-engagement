@@ -6,7 +6,7 @@ This onboarding article describes Dynamics 365 CXP private preview Power Automat
 
 ## Prerequisites
 
-Provide information about any prerequisites that are required to use this connector. For example, an account on your website, a paid service plan, and so on. 
+Dynamics-365-marketing connector is only available to CXP private preview customers.
 
 ## How to get credentials?
 
