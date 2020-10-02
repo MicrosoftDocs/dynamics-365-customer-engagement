@@ -49,6 +49,8 @@ The following highlights the difference between the **navigate-to** and **contex
 
   ![Navigate to email vs contextual email experience](media\create-a-record-icon-1a.png "Navigate to email vs contextual email experience")
 
+Depending on the experience you are using, your email will display as follows:
+
 |Navigate-to Email Experience | | Contextual Email Experience|
 |-----------------------------|-|----------------|
 | ![Navigate to email vs contextual email experience](media\navigate-to-email-view-1c.png "Navigate to email vs contextual email experience") ||  ![Navigate to email vs contextual email experience](media\contextual-email-view-1a.png "Navigate to email vs contextual email experience")|
@@ -68,63 +70,62 @@ For more information, see:
 Users can view, create, and send emails faster with streamlined access that helps users compose, reply, and send emails using rich text editing and drag-and-drop attachment features and functionalities.
 
 ### How to view an email
-You can view and respond to emails across your Dynamics 365 app.
+You can view and respond to emails across your Dynamics 365 app. 
 
-For example, users can view and access emails the Customer Service hub by going to **Service**, then using the following steps:
+For example, users can view and access emails in the Customer Service hub by going to **Service** and  using the following steps:
 
-1.	Select **Activities**.
+1. Select **Activities**
+2. Select **All Activities** and select an email list you want to view from the drop down.
 
-2.	When select **All Activities** a drop-down list appears. 
+  ![How to view an email](media\email-how-to-view-an-email-1b.png "How to view an email")
 
-3.	Select an email list you want to view.
+4. When the email list appears, select the email you want to open and view. 
 
-4.	When your email list appears, select the email you want to open and view. 
-
-![How to view an email](media\email-how-to-view-an-email-1.png "How to view an email")
-
-![How to view an email](media\email-how-to-view-an-email-2.png "How to view an email")
+  ![How to view an email](media\email-how-to-view-an-email-1c.png "How to view an email")
 
 ### How to compose an email
 Email capabilities like rich text editing and drag-and-drop or copy-and-paste images enriches customer interactions.
 
-For example, you can create emails by going to **Service**, and then using the following steps:
+For example, you can create emails by going to **Service**, and using the following steps:
 
-1.	Select **Activities**
+1. Select **Activities**
 
-2.	On the command bar, select **Email**. It opens an email in a new window. 
+2. On the command bar, select **Email**. It opens an email in a new window. 
 
-![How to compose an email](media\email-how-to-compose-an-email-1.png "How to compose an email")
+![How to compose an email](media\email-how-to-compose-an-email-1a.png "How to compose an email")
 
-On the email form: 
+Anatomy of the email form: 
 
-1.	The name displayed in the **From** field is automatically populated based on the user who is currently signed in.
+  ![How to compose an email](media\email-how-to-compose-an-email-1f.png "How to compose an email")
 
-2.	Use the Expand icon ![Expand icon](media\email-expand-icon.png "expand email") to maximize the screen to compose your email in a full-screen view and minimize.
+Legend
 
-3.	Use the body of the email to compose and/or reply to emails. 
+1. The name displayed in the **From** field is automatically populated based on the user who is currently signed in.
 
-4.	You can select **Insert Template** to apply an email template. <br /> 
+2. The **Expand** ![Expand icon](media\email-expand-icon.png "expand email") icon allows you to compose your email in a full-screen view and minimize when done.
 
+3. The **rich text editor** tool bar helps you  format emails. The editor is displayed as a single line that can be expanded to view the full list of editing features by default.<BR>
+  For more information, see [Editor functionality](customer-service-hub-user-guide-email-overview.md#formatting-options) and [Accessibility shortcuts](customer-service-hub-user-guide-email-overview.md#accessibility-shortcuts). 
+
+4. The body is where you compose and/or reply to an emails.
+
+5. Use **Insert Signature** to personalize your message.  
+
+6. The **Insert Template** is used to apply an email template. <BR>
 For more information, see [Insert an email template](customer-service-hub-user-guide-email-overview.md#how-to-insert-an-email-template).
 
 > [!Note]
 > The **To** box must contain a recipient to select a template.
 
-5.	Use the rich text editor to format emails. The editor is displayed as a single line that can be expanded to view the full list of editing features by default. <br />
-  For more information, see [Editor functionality](customer-service-hub-user-guide-email-overview.md#formatting-options) and [Accessibility shortcuts](customer-service-hub-user-guide-email-overview.md#accessibility-shortcuts). 
-  
-6.	Add ![Email attachment icon](media\email-new-attachment-icon.png "email attachment icon") **New Attachments** using the drag-and-drop or copy-and-paste functionality. 
+7. Use **New Attachment** to add a file to your email.
 
-7.	Use **Attach file** to add a file to your email.<br />
+8. The **Attach File** ![attach file icon](media\email-new-attachment-icon.png "attach file icon") icon functionality is used to drag-and-drop or copy-and-paste attachments. 
 
 > [!Note] 
 > After you save your email, you can use Attach file and New Attachments interchangeably.
 
-8.	Use **Insert Signature** to personalize your message.  
-
 9.	Select ![Send email icon](media\email-send-icon.png "Send email icon")  **Send** when you are done.
 
-![How to compose and email](media\email-compose-email-1.png "How to compose and email")
 
 >[!Important]
 > - The **From** and **To** fields are automatically populated based on the user and the account and contact of the original record.
@@ -134,35 +135,33 @@ For more information on enhanced email and configurations, see [Enable the enhan
 ### How to respond to an email
 Depending on where you are in your app, how you reply to an email will function differently. An example from the Customer Service hub is provided below.
 
-- **Composing an email in activities and cases**
+**Composing an email in activities and cases**
 
 If your system administrator has enabled email, the email option displays on the navigation bar and in the activities command bar. When composing an email in entity records from **Activities**, you must set the reply field.  
 
-Use the following to access email in entities:
+Accessing email in entities:
 
-1.	On the navigation bar, select the [](media\email-plus-icon.png "email icon") plus icon.
+![How to respond to an email](media\email-how-to-respond-to-an-email-1a.png "How to respond to an email")
 
-2.	From the drop-down list, select **Activities**, and then **email**. 
+1. From the navigation bar, select the plus ![](media\email-plus-icon.png "email icon") icon.
 
-3.	You can also select **Email** on the command bar.
+2. From the drop-down list, select **Activities**, then **email**
+
+3. You can also select **Email** on the command bar.
 
 >[!Note]
 > Email option will only appear in the drop-down list and the command bar when enabled by your system administrator.
 
-![How to respond to an email](media\email-how-to-respond-to-an-email-1.png "How to respond to an email")
-
 ### Responding to emails in timeline
 When replying to emails in Timeline, the command bar in the top-right corner provides you with reply options. When you select an option, your email automatically is set and opens in that state ready for you to begin your message.  
 
-You can Use the following command options when working with emails in Timeline:
+Use the following command options when working with emails in the timeline:
 
- -  Reply
+![Respond to emails in timeline](media\email-respond-in-timeline-1a.png "Responding to emails in timeline") 
 
- -	Reply All
- 
- -	Forward 
-
-![Respond to emails in timeline](media\email-respond-in-timeline-1.png "Responding to emails in timeline") 
+1. Reply
+2. Reply All
+3. Forward 
 
 ## How to use the rich text editor toolbar in email
 The rich text editor toolbar provides features and functionality that allows you to work with rich text formats in emails to better communicate with your customers.    
