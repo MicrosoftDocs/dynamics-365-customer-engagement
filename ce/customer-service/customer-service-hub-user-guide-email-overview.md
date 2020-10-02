@@ -47,7 +47,7 @@ The following highlights the difference between the **navigate-to** and **contex
 
 2. Select **Email**
 
-  ![Navigate to email vs contextual email experience](create-a-timeline-record-1.png "Navigate to email vs contextual email experience")
+  ![Navigate to email vs contextual email experience](media\create-a-record-icon-1a.png "Navigate to email vs contextual email experience")
 
 |Navigate-to Email Experience | | Contextual Email Experience|
 |-----------------------------|-|----------------|
