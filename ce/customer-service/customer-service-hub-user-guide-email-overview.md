@@ -479,14 +479,13 @@ These are two of the most important commands when working with images.
 
 ### How to preview images attachments
 
-![How to preview images attachments](media\email-how-to-preview-images-attachments-1.png "How to preview images attachments")
+![How to preview images attachments](media\email-how-to-preview-images-attachments-1a.png "How to preview images attachments")
 
-1. **More options** command provides a list of actions for that file type.
+1. **More options**. This command provides a list of actions for that file type.
 
-2. **Non-preview image** types only allow you to either download or delete the attached file.
+2. **Non-preview image**. Only non-preview image types allow you to either download or delete the attached file.
 
-3. **Preview image types** allow you to **preview, download,** or **delete** the attached file. When you select the **preview** option, a pop-up window appears, displaying the image with the image name listed below.
-
+3. **Preview image types**. Allow you to **preview, download,** or **delete** the attached file. When you select the **preview** option, a pop-up window appears, displaying the image with the image name listed below.
 
 
 ### Supported email file attachments
