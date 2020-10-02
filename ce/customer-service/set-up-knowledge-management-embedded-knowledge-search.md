@@ -64,7 +64,7 @@ After knowledge management is set up, users will be able to:
 
 1. [!INCLUDE[proc_permissions_system_admin_and_customizer](../includes/proc-permissions-system-admin-and-customizer.md)] You must also be the tenant administrator of [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)].  
   
-2. [!INCLUDE[proc_settings_service_management](../includes/proc-settings-service-management.md)]  
+2. Go to **Settings** > **Service Management**. 
   
 3. Under **Knowledge Base Management**, select **Embedded Knowledge Search**.  
   
