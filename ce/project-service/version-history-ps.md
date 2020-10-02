@@ -32,7 +32,7 @@ search.app:
 
 | Solution  | Latest version |
 |-------|----|
-| Project Service Automation    |  3.10.34.30  |
+| Project Service Automation    |  3.10.42.43  |
 | Project Service Automation desktop add-in                | 3.15          |
 
 For information about updates to Project Service, see the [Dynamics 365 release plans](https://docs.microsoft.com/dynamics365/release-plans/). 
