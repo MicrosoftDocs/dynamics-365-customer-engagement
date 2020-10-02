@@ -204,12 +204,12 @@ By default, the rich text editor functionality is available for use with knowled
 3. Under **Control**, select **Rich Text Editor Control.
 
     > [!div class=mx-imgBorder]
-    > ![Select the Controls tab on the properties page](media/ka-select-service-management.png "Select the Controls tab, and then select the rich text editor control")
+    > ![Select the Controls tab on the properties page](media/csh-rte-add-form.png "Select the Controls tab, and then select the rich text editor control")
 
 3. Under **Rich Text Editor Control** properties, select the pencil icon next to **RichTextEditorControl_URL**. 
     
     > [!div class=mx-imgBorder]
-    > ![Select Rich Text Editor Control](media/ka-select-service-management.png "Select the Rich Text Editor Control and pencil icon to edit")
+    > ![Select Rich Text Editor Control](media/csh-rte-edit-control.png "Select the Rich Text Editor Control and pencil icon to add text")
 
 4. Enter the following text: **webResources/msdyncrm_/RichTextEditorControl/KnowledgeArticleRTEconfig.js** 
 
