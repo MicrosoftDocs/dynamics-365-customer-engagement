@@ -291,7 +291,7 @@ Legend
 
 When you create a **New Customer Template**, the following example page displays that allows you to make edits. 
 
-![New Customer Template](media\email-new-customer-template-1a.png "New Customer Template")
+![New Customer Template](media\email-new-customer-template-1b.png "New Customer Template")
 
 Legend 
 
