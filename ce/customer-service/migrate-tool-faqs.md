@@ -165,11 +165,16 @@ However, there is a limitation with Unified Interface SLA rules, and once a rule
 
  No. The migration tool only supports enhanced SLA rules. Standard SLA rules have been deprecated and are no longer supported in Unified Interface and therefore aren't supported in the migration tool. For more information, go to [Standard SLAs in Dynamics 365 Customer Service are deprecated](https://docs.microsoft.com/power-platform/important-changes-coming#standard-slas-in-dynamics-365-customer-service-are-deprecated). 
 
-### Migration doesn't support multiple items or conditions having the same "applicable when" within same SLA.
-
-In the web client, multiple items can be defined with the same "applicable when" condition and different success criteria for an SLA. However, the same capability is not supported in Unified Interface. Therefore, during migration, the second or subsequent such SLA item with the same "applicable when" condition will not be created.
 
 ## Known flow issues
+
+### Migration doesn't support multiple items or conditions having the same "applicable when" within same SLA.
+
+In the web client, multiple items can be defined with the same "applicable when" condition and different success criteria for an SLA. However, the same capability is not supported in Unified Interface. Therefore, during migration, the second or subsequent such SLA item with the same "applicable when" condition will not be created. The following screenshots capture the scenario that is not supported in Unified Interface.
+![Applicable when condition with success criteria one](media/applicable-when.png "Applicable when condition with success criteria one")
+
+![Same applicable when condition with different success criteria](media/different-success-condition.png "Same applicable when condition with different success criteria")
+
 
 ### Activity party-type attribute issues during workflow-to-flow conversion.
 

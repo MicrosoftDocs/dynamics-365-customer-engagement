@@ -28,7 +28,7 @@ The migration tool provides the following functionality:
 - Flexibility to choose the rules in the web client that need to be migrated.
 - Messages on potential issues on why a ruled failed the migration process.
 
-The existing rules in the web client are not modified or deactivated automatically and will continue to run on existing cases. You have the flexibility to decide the actions for the rules in the web client and are not forced to activate all or none.
+The migration tool does not change the functioning of the existing rules or items in the web client and they will continue to run on existing cases as configured. You have the flexibility to decide the actions for the rules.
 
 ## Prerequisites
 
@@ -42,17 +42,15 @@ When you perform your migration, you will be able to view detailed results only 
 
 When you rerun the migration tool, it will pick up any updates or edits in the web client if the rule or item has been:
 
-    - Edited in the web client prior to the actual migration.
-    - Edited in the web client to resolve errors after a failed migration attempt.
+  - Edited in the web client prior to the actual migration.
+  - Edited in the web client to resolve errors after a failed migration attempt.
 
-  The following updates or edits to a rule or item made in the web client will not be considered if:
+The following updates or edits to a rule or item made in the web client will not be considered if:
 
-    - The rule is edited in the web client after it is successfully migrated to Unified Interface.
-    - Any edits were made in the migrated rules in Unified Interface as well.
+  - The rule is edited in the web client after it is successfully migrated to Unified Interface.
+  - Any edits were made in the migrated rules in Unified Interface as well.
 
-After migrating a rule or item, if you edit it in the web client, the changes will not be visible in Unified Interface. For the edits to be visible in Unified Interface, you must delete the migrated rule or item in Unified Interface and migrate it again from the web client.
-
-Only one level of related entity hierarchy in a rule or item is supported for migration. If any rule or item contains related entity in group clause, you need to remove them before migrating the rule.
+After migrating a rule or item successfully, if you edit it in the web client, the changes will not be visible in Unified Interface. For the edits to be visible in Unified Interface, you must delete the successfully migrated rule or item in Unified Interface and migrate it again from the web client.
 
 To learn about how to create rules in the Customer Service Hub app, see [Automatically create or update records in Customer Service Hub](automatically-create-update-records.md) and [Define service-level agreements](define-service-level-agreements.md).
 
