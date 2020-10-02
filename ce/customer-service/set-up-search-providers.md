@@ -76,10 +76,9 @@ After you have configured the search providers, agents who are using search can 
    > [!div class=mx-imgBorder]
    > ![Agent view of search providers](media/search-provider-agent.png "Agent view of available search providers")
    
+For more information about the agent search experience, see [Search for knowledge articles in the Customer Service Hub](search-knowledge-articles-csh.md).
    
 ### See also
-
-[Search for knowledge articles in the Customer Service Hub](search-knowledge-articles-csh.md)
 
 [Add the Knowledge Base Search control to forms](add-knowledge-base-search-control-forms.md)
 
@@ -87,7 +86,4 @@ After you have configured the search providers, agents who are using search can 
 
 [Understand knowledge base search mechanisms](knowledge-base-search-methods.md)
 
-   
-   
-
-For more information about the agent search experience, see [Search for knowledge articles in the Customer Service Hub](search-knowledge-articles-csh.md).
+[Search for knowledge articles in the Customer Service Hub](search-knowledge-articles-csh.md)
