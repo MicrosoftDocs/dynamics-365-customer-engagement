@@ -12,19 +12,19 @@ robots: noindex,nofollow
 
 # Power Automate connectors
 
-This onboarding article describes Dynamics 365 CXP private preview Power Automate connector prerequisites, credentials, and known issues. This article also explains how to engage with Microsoft throughout the private preview. Nothing in this documentation is meant to—or should be construed to modify the terms of your agreements with Microsoft, including your preview terms.
+This onboarding article describes Dynamics 365 CXP preview Power Automate connector prerequisites, credentials, and known issues. This article also explains how to engage with Microsoft throughout the CXP preview process. Nothing in this documentation is meant to—or should be construed to modify the terms of your agreements with Microsoft, including your preview terms.
 
 > [!IMPORTANT]
 > This article is pre-release documentation and is subject to change.
 
 ## Prerequisites
 
-Dynamics-365-marketing connector is only available to CXP private preview customers.
+The Dynamics-365-marketing Power Automate connector is only available to CXP preview customers.
 
-## How to get credentials?
+## Credentials for the Power Automate connector
 
-Connection should be provisioned for customers during product installation. Dynamics-365-marketing connector does not support log-in with user credentials. Please contact technical support for credentials.
+The Power Automate connection must be provisioned during Dynamics 365 CXP installation. The Dynamics-365-marketing connector does not support logging in with user credentials. Contact technical support for login credentials.
 
 ## Known issues and limitations
 
-Dynamics-365-marketing connector does not support log-in with user credentials.
+The Dynamics-365-marketing connector does not support logging in with user credentials.
