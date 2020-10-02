@@ -36,18 +36,15 @@ You can work in either the **navigate-to** email or the **contextual** email exp
 <li>Minimize the email window to return to the records you were working on.</li>
 <li>Simultaneously view, compose, and reply to five emails in pop-up windows when enabled. </li></ul></ul>
 
-> [!Note] 
-> The existing enhanced email form will be deactivated with the general availability of the 2020 release wave 2 features. In the latest version of the Sales app (build 9.0.2006.5005), you'll notice that the name of the existing enhanced email form is changed to Enhanced Email (deprecated). A new form named Enhanced Email has been introduced with the new enhanced capabilities like quick preview or multiple email attachments. If you don't opt in for early access of the 2020 release wave 2 features, this form will be presented in a Read-only mode.
-
 The following highlights the difference between the **navigate-to** and **contextual** email experience in the Timeline based on how your system administrator has configured your email:
 
 1.	Select **Create a timeline record**
 
-  ![Navigate to email vs contextual email experience](media\create-a-record-icon-1.png "Navigate to email vs contextual email experience")
+    ![Navigate to email vs contextual email experience](media\create-a-record-icon-1.png "Navigate to email vs contextual email experience")
 
 2. Select **Email**
 
-  ![Navigate to email vs contextual email experience](media\create-a-record-icon-1a.png "Navigate to email vs contextual email experience")
+    ![Navigate to email vs contextual email experience](media\create-a-record-icon-1a.png "Navigate to email vs contextual email experience")
 
 Depending on the experience you are using, your email will display as follows:
 
@@ -77,11 +74,11 @@ For example, users can view and access emails in the Customer Service hub by goi
 1. Select **Activities**
 2. Select **All Activities** and select an email list you want to view from the drop down.
 
-  ![How to view an email](media\email-how-to-view-an-email-1b.png "How to view an email")
+    ![How to view an email](media\email-how-to-view-an-email-1b.png "How to view an email")
 
 3. When the email list appears, select the email you want to open and view. 
 
-  ![How to view an email](media\email-how-to-view-an-email-1c.png "How to view an email")
+    ![How to view an email](media\email-how-to-view-an-email-1c.png "How to view an email")
 
 ### How to compose an email
 Email capabilities like rich text editing and drag-and-drop or copy-and-paste images enriches customer interactions.
@@ -92,11 +89,11 @@ For example, you can create emails by going to **Service**, and using the follow
 
 2. On the command bar, select **Email**. It opens an email in a new window. 
 
-![How to compose an email](media\email-how-to-compose-an-email-1a.png "How to compose an email")
+   ![How to compose an email](media\email-how-to-compose-an-email-1a.png "How to compose an email")
 
 Anatomy of the email form: 
 
-  ![How to compose an email](media\email-how-to-compose-an-email-1g.png "How to compose an email")
+![How to compose an email](media\email-how-to-compose-an-email-1g.png "How to compose an email")
 
 Legend
 
@@ -264,7 +261,7 @@ When creating a template, you have the option to work with a blank or existing t
 
 - When you select **New** from the  **Email Templates** command bar a drop-down list appears with the option to **Start with a blank template** or **Start with existing templates**.
 
-![How to create an email template](media\email-how-to-create-an-email-template-1a.png "How to create an email to a template")
+  ![How to create an email template](media\email-how-to-create-an-email-template-1a.png "How to create an email to a template")
 
 
 ### Start with a blank template option
