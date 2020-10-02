@@ -74,7 +74,7 @@ Marketing gives you the option to automate customer journey actions based on Dyn
 > As of the October 2020 Marketing release, the Dynamics 365 Customer Voice tile no longer appears in the contextual window that appears when adding a new tile to the canvas. To add the tile, you must set the options for an email tile as shown below.
 
 To add a Dynamics 365 Customer Voice survey to customer journey:
-1. Go to the [customer journey designer](customer-journey.md). Then create or choose an existing customer journey with an email tile. Make sure the email tile is associated with an existing email.
+1. Go to the [customer journey designer](customer-journeys-create-automated-campaigns.md). Then create or choose an existing customer journey with an email tile. Make sure the email tile is associated with an existing email.
 
     ![Choose a customer journey with an email tile](media/customer-voice-email-journey.png "Choose a customer journey with an email tile")
 

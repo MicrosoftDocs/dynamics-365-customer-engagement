@@ -134,7 +134,7 @@ One of the most important choices you'll make when setting up a customer journey
 The most common way to target a customer journey is to start with a segment tile and then choose a segment for it. You can combine several segments and choose the relevant logic for combining them (such as union/intersection or include/exclude).
 
 - For information about how to create a segment, see [Working with segments](segmentation-lists-subscriptions.md)
-- For information about how to configure a segment tile and set logic for combining segments, see [Customer journey tiles reference](customer-journey-tiles-reference.md#segment)
+- For information about how to configure a segment tile and set logic for combining segments, see [Customer journey tiles reference](customer-journey-tiles-reference.md#audience)
 
 <a name="target-subscription-list"></a>
 
