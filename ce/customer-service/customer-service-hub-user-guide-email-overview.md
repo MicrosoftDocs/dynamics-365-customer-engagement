@@ -111,21 +111,20 @@ Legend
 6. The **Insert Template** is used to apply an email template. <BR>
 For more information, see [Insert an email template](customer-service-hub-user-guide-email-overview.md#how-to-insert-an-email-template).
 
-> [!Note]
-> The **To** box must contain a recipient to select a template.
+   > [!Note]
+   > The **To** box must contain a recipient to select a template.
 
 7. Use **New Attachment** to add a file to your email.
 
 8. The **Attach File** ![attach file icon](media\email-new-attachment-icon.png "attach file icon") icon functionality is used to drag-and-drop or copy-and-paste attachments. 
 
-> [!Note] 
-> After you save your email, you can use Attach file and New Attachments interchangeably.
+   > [!Note] 
+   > After you save your email, you can use Attach file and New Attachments interchangeably.
 
 9.	Select ![Send email icon](media\email-send-icon.png "Send email icon")  **Send** when you are done.
 
-
->[!Important]
-> - The **From** and **To** fields are automatically populated based on the user and the account and contact of the original record.
+   >[!Important]
+   > - The **From** and **To** fields are automatically populated based on the user and the account and contact of the original record.
  
 For more information on enhanced email and configurations, see [Enable the enhanced email experience](customer-service-hub-user-guide-email-admin.md#how-to-enable-the-enhanced-email-experience).
 
@@ -146,8 +145,8 @@ If your system administrator has enabled email, the email option displays on the
 
 3. You can also select **Email** on the command bar.
 
->[!Note]
-> Email option will only appear in the drop-down list and the command bar when enabled by your system administrator.
+   >[!Note]
+   > Email option will only appear in the drop-down list and the command bar when enabled by your system administrator.
 
 ### Responding to emails in timeline
 When replying to emails in Timeline, the command bar in the top-right corner provides you with reply options. When you select an option, your email automatically is set and opens in that state ready for you to begin your message.  
@@ -250,8 +249,8 @@ Legend
 
 5. **Apply template** to insert the content to your  email.
 
-> [!Note] 
-> If you try to insert an email template on a device with a smaller screen size, you'll only see an option to search and select a template.
+   > [!Note] 
+   > If you try to insert an email template on a device with a smaller screen size, you'll only see an option to search and select a template.
 
 ### How to create an email template
 
@@ -310,9 +309,7 @@ The following **Create a new email template** screen appears, which allows you t
 
 1. **search**. Allows you to search for templates. Search does not support regular expressions and it works on the template name only.
 
-2. **Browse**. Allows you to browse through out-of-the-box email templates. 
-
-A list of available out-of-the-box email templates (global and entity specific) will display in alphabetical order. Global templates are shown as the type User. If you've created a custom email template, it will also be displayed here. 
+2. **Browse**. Allows you to browse through out-of-the-box email templates. <BR><BR>A list of available out-of-the-box email templates (global and entity specific) will display in alphabetical order. Global templates are shown as the type User. If you've created a custom email template, it will also be displayed here. 
 
 3. **Details**. Allows you to preview the email template.  When you select an email template, you can preview the content so you can pick the template that best meets your needs. After inserting an email template, you can modify the template content as needed.
 
@@ -386,8 +383,8 @@ Legend
 
 6. Select **Insert** to save the form.
 
-> [!Note] 
-> If you click in an area on the form that does not support dynamic text, it displays **Unable to insert**.
+  > [!Note] 
+  > If you click in an area on the form that does not support dynamic text, it displays **Unable to insert**.
 
 For more information on creating email templates and configurations, see [Create templates for email](https://docs.microsoft.com/power-platform/admin/create-templates-email).
 
@@ -400,11 +397,11 @@ Having the ability to attach file(s) to a message is one of the most useful feat
 1. **Attach file**. Located in the top nav bar, **Attach file** allows you to do file attachments.
 2. **New Attachments**. Located above the rich text editor, the **New Attachments** ![](media\email-new-attachment-icon.png "new attachment") icon allows you to use drag-and-drop or copy-and-paste functionality. 
 
-> [!Note] 
-> Once you save your email, you can use **Attach file** and **New Attachments** interchangeably.
+   > [!Note] 
+   > Once you save your email, you can use **Attach file** and **New Attachments** interchangeably.
 
-> [!Important] 
-> The default file size limit for an email file attachment is 5MB. The size limitations on email file attachments can be increased by your system administrators. 
+   > [!Important] 
+   > The default file size limit for an email file attachment is 5MB. The size limitations on email file attachments can be increased by your system administrators. 
 
 ### Work with attachments
 
@@ -450,8 +447,8 @@ The **Select** commands allow you to select individual files or multiple files a
 
 1. **Select All**. This command is located on the right, above your attached files and allows you to select all file attachments at once. 
 
-> [!Note] 
-> **Select All** only selects files that are visible. If you have multiple pages of file attachments, you will need to go to that page and select those files independently.
+   > [!Note] 
+   > **Select All** only selects files that are visible. If you have multiple pages of file attachments, you will need to go to that page and select those files independently.
 
 2. **Tile Color Transparency**. The background color of selected file attachments changes to light grey to identify which files have been selected.
 
@@ -508,8 +505,8 @@ You can drag-and-drop or copy-and-paste images into the email.
 1. **Email images** You can adjust the image size.  
 2. **Save**. When you complete your edits, select **Save** or **Save & Close**.
 
-> [!Note]
-> There is a 1 MB file size limitation when adding an inline image to an email.
+   > [!Note]
+   > There is a 1 MB file size limitation when adding an inline image to an email.
 
 ## How to create a signature for emails and queues
 Email signatures are an important and valuable tool for users. Email signatures are like electronic business cards you include when you send an email, and can promote professional branding for your company.  
@@ -534,8 +531,8 @@ You can add a new email signature by:
 1. **Details** in this section, enter the name of the email signature.
 2. **Signature editor**. This allows you to create your email signature and **Save** when finished. 
 
-> [!Note] 
-> You can include inline images, such as a business logo, in an email signatures, as long as they are under 1 MB in size.
+   > [!Note] 
+   > You can include inline images, such as a business logo, in an email signatures, as long as they are under 1 MB in size.
 
 ### Manage email signature lists
 
