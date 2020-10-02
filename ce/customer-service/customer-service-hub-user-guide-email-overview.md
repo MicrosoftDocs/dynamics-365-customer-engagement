@@ -79,7 +79,7 @@ For example, users can view and access emails in the Customer Service hub by goi
 
   ![How to view an email](media\email-how-to-view-an-email-1b.png "How to view an email")
 
-4. When the email list appears, select the email you want to open and view. 
+3. When the email list appears, select the email you want to open and view. 
 
   ![How to view an email](media\email-how-to-view-an-email-1c.png "How to view an email")
 
@@ -96,7 +96,7 @@ For example, you can create emails by going to **Service**, and using the follow
 
 Anatomy of the email form: 
 
-  ![How to compose an email](media\email-how-to-compose-an-email-1f.png "How to compose an email")
+  ![How to compose an email](media\email-how-to-compose-an-email-1g.png "How to compose an email")
 
 Legend
 
