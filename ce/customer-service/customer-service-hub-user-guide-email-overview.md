@@ -334,7 +334,7 @@ When you select an existing template, the following display appears:
 
 - **Template Editor**. All of the data is carried over from the existing template which can be edited and modify.
 
-### How to convert an email to a template
+## How to convert an email to a template
 When you have composed an email that you would like to reuse with other customers, you can convert it to an email template to use in the future.
 
 ### Convert an email into a template 
@@ -373,77 +373,74 @@ You can view a complete list of all the email templates you have created by:
 
 ### How to insert dynamic text in an email template form
 
-1.	When you **Add data fields**, it adds **Record type** and **Field name** fields below. You can add as many data fields you want.
+![How to insert dynamic text in an email template form](media\email-how-to-insert-dynamic-text-1a.png "How to insert dynamic text in an email template form")
 
-2.	You can then customize the **Record type**. 
+Legend 
 
-3.	You can customize the **Field name**.
+1. **Add data fields**. When you add data fields, the template adds **Record type** and **Field name** fields below. You can add as many data fields you want.
 
-4.	**Set Default** text for the subject and body. If no text is selected, it will display using the default text.
+2. **Record type**. You can then customize the record types. Default is set to account.
 
-5.	The **More Commands** ![More commands icon](media\timeline-more-commands-icon.png "more commands icon") icon allows you to edit the order of the record types.
+3. **Field name**. You can customize the field names. Default is set to account name.
 
-6.	Use the **Move Up** or **Move down** to align records in a customized order.
+4. **More Commands**. The **More commands** ![More commands icon](media\timeline-more-commands-icon.png "more commands icon") icon sllows you to edit the order of the record types using the **Move Up** or **Move down** functionality to align records in a customized order.
 
-7.	Select **Insert** to save the form.
+5. **Default text**. Allows you to select the style of text for the subject and body of your email template. If no text is selected, it will display using the default text.
+
+6. Select **Insert** to save the form.
 
 > [!Note] 
 > If you click in an area on the form that does not support dyanmic text, it displays **Unable to insert**.
 
-![How to insert dynamic text in an email template form](media\email-how-to-insert-dynamic-text-1.png "How to insert dynamic text in an email template form")
-
 For more information on creating email templates and configurations, see [Create templates for email](https://docs.microsoft.com/power-platform/admin/create-templates-email).
 
 ## How to attach a file to email
-Having the ability to attach file(s) to a message is one of the most useful features of email. 
 
-You can attach a file using one of the two options:
+Having the ability to attach file(s) to a message is one of the most useful features of email. You can attach a file using one of the two ways:
 
--	Use **Attach file** to add a file to your email.
+![How to attach a file to email](media\email-how-to-attach-file-to-email-1a.png "How to attach a file to email")
 
--	Add ![Attachment icon](media\email-new-attachment-icon.png "new attachment") **New Attachments** using the drag-and-drop or copy-and-paste functionality. 
+1. **Attach file**. Located in the top nav bar, **Attach file** allows you to do file attachments.
+2. **New Attachments**. Located above the rich text editor, the **New Attachements** ![](media\email-new-attachment-icon.png "new attachment") icon allows you to use drag-and-drop or copy-and-paste functionality. 
 
 > [!Note] 
-> When you save your email, you can use **Attach file** and **New Attachments** interchangeably.
+> Once you save your email, you can use **Attach file** and **New Attachments** interchangeably.
 
 > [!Important] 
-> The default file size limit for an email file attachment is 5 MB. The size limitations on email file attachments can be increased by your system administrators. 
-
-![How to attach a file to email](media\email-how-to-attach-file-to-email-1.png "How to attach a file to email")
+> The default file size limit for an email file attachment is 5MB. The size limitations on email file attachments can be increased by your system administrators. 
 
 ### Work with attachments
+
 You can attach an unlimited number of files to an email; however, there are file size limitations that are managed by your system administrator. 
 
-The **Enhanced Email** is the default form; however, you can easily switch forms by doing the following:
+**Enhanced email** is the default email form, however you can switch forms by doing the following:
 
-1.	In your email, just under the email subject name, click on the caret next to **Email** (V).
-2.	A drop-down appears with a list of email form options you can choose from.
-
-![Work with attachments](media\email-work-with-attachments-1.png "Work with attachments")
+1. Under the email subject name, click on the caret (v) next to **Email**
+2.	A drop-down appears with a list of email form options you can choose from.<BR><BR>
+![Work with attachments](media\email-work-with-attachments-1a.png "Work with attachments")
 
 File attachments display differently, depending on the email form you are working in. You can switch email forms without losing information.
 
-The **Email form** is displayed as follows:
+**Email form file attachement** 
 
--	The display confirms which email form you are working in. 
+![Work with attachments](media\email-work-with-attachments-2a.png "Work with attachments")
 
--	The **Attachment** section displays a list of file attachments in a vertical view and only displays the first three attachments.
+1. **Emmail**. This display confirms which email form you are working in. 
 
--	**File count** displays when you have more files than what can be viewed and allows you to see the total number of attached files on the left side under the last attachment with the option to page over to see more images.
+2. **Attachment**. This section displays a list of file attachments in a vertical view and only displays the first three attachments.
 
-![Work with attachments](media\email-work-with-attachments-2.png "Work with attachments")
+3. **File count**. This displays when you have more files than what can be viewed and allows you to see the total number of attached files on the left side under the last attachment with the option to page over to see more images.
 
-**Enhanced Email form** file attachment view is laid out as follows:
+**Enhanced Email form file attachment** 
+![Work with attachments](media\email-work-with-attachments-3b.png "Work with attachments")
 
--	**Enhanced Email** confirms you are working out of the **Enhanced Email** form.
+1. **Enhanced Email**. This display confirms you are working in the **Enhanced email** form.
 
--	**Attached files** are displayed in a tile view above your message horizontally. The defaulted setting displays five file attachments before displaying the page forward functionality.
+2. **Attached files**. This section displays all your email attachements in a tile view above your message horizontally. The defaulted setting for the maxiumn number of files that can display is five attachments before displaying the page forward functionality.
 
--	**File count** displays when you have files that occupy more than two rows and allows you to see the total number of attached files on the left side under the last attachment they the option to page over to see more images.
+3. **File count**. This displays when you have files that occupy more than two rows and allows you to see the total number of attached files on the left side under the last attachment they the option to page over to see more images.
 
--	**Attachment Commands** allow you to select, select all, sort, delete, and download.
-
-![Work with attachments](media\email-work-with-attachments-3.png "Work with attachments")
+4. **Attachment Commands**. This allow you to use the select, select all, sort, delete, and download functionality when working with your file attachements.  
 
 ### Working with the attachment command bar
 When you’ve attached one or more files to a message, you can manage them using the file attachment commands.  
