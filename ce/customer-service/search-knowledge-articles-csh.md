@@ -259,7 +259,7 @@ However, if the Auto filter results check box is not selected, you can see more 
 
 ![Deselect Auto filter results](media/ka-deselect-auto-filter-results.png "Deselect Auto filter results")
 
-### View search results from external sources
+## View search results from external sources
 
 If your administrator has configured the ability for you to search for files, documents, or articles from data sources outside of your current Dynamics 365 organization, you can view those results by selecting the provider from the drop-down list under **Knowledge**.
 
@@ -299,3 +299,5 @@ To set up the feedback control, see [Enable feedback control](set-up-knowledge-m
 [Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)
 
 [Understand knowledge base search mechanisms](knowledge-base-search-methods.md)
+
+[Set up a search provider in Customer Service Hub](set-up-search-providers.md)
