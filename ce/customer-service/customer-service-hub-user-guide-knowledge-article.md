@@ -221,7 +221,7 @@ By default, the rich text editor functionality is available for use with knowled
 5. Select **OK** > **OK**, and then select **Save and Publish**.
 
 
-For more information about rich text control properties, see [Rich text editor control configuration options](https://docs.microsoft.com/powerapps/maker/model-driven-apps/rich-text-editor-control#rich-text-editor-control-configuration-options)
+For more information about rich text control properties, see [Rich text editor control configuration options](https://docs.microsoft.com/powerapps/maker/model-driven-apps/rich-text-editor-control#rich-text-editor-control-configuration-options).
 
   
 ## Mark a knowledge article for review  
