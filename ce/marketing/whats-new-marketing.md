@@ -75,26 +75,41 @@ The Dynamics 365 Marketing October 2020 update includes several feature enhancem
     - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/create-consume-segments-using-natural-language)
     - [Docs](segmentation-lists-subscriptions.md)
 
-<!-- ### Bug fixes
+### Bug fixes
 
 - **Customer journeys**
-
+    - Resolved an issue where custom channels occasionally did not appear after upgrading the customer journey designer.
+    - Resolved an error that prevented live customer journeys from being assigned to another user or team.
+    - Fixed an error that caused customer journeys to crash when changing the **Bypass email duplication** setting to **Yes**.
+    - Resolved an error in the new customer journey designer caused by legacy trigger tiles in custom templates.
+    - Resolved a stability issue when creating an email using the lookup control and taking a customer journey live.
+    - Improved stability when editing segments in live customer journeys.
 - **Event management**
-
+    - Fixed an error that cause event end dates and messages to be improperly handled in PublicAPI and websites.
 - **First run experience**
-
+    - Fixed an issue where "Update available" for Dynamics 365 Marketing erroneously appeared in the Power Platform Admin Center.
+    - Fixed an issue where the setup wizard allowed more than 24 characters for the Portals host name.
 - **Lead management**
-    - Addressing [user feedback](https://experience.dynamics.com/ideas/idea/?ideaid=1c121690-48b2-ea11-8b71-0003ff68c1c4), lead scores for new lead scoring models are now reset and re-calculated when the underlying entity record is modified.
-
+    - Addressing [user feedback](https://experience.dynamics.com/ideas/idea/?ideaid=1c121690-48b2-ea11-8b71-0003ff68c1c4), lead scores for new lead scoring models are now reset and recalculated when the underlying entity record is modified.
 - **Marketing emails**
-
+    - Resolved an issue where videos did not scale to 100% column width in Outlook.
+    - Improved rendering of image height and width on iPhones.
+    - Fixed an error that caused buttons to change the size of columns.
+    - Fixed a rendering error in Outlook caused by adding **background-image: initial** to an email.
+    - Improved image rendering consistency in the Windows Mail app.
+    - Resolved an error where the links sometimes did not populate when using assist edit.
+    - Fixed an error that caused improper indentation on the second line of bullets in Outlook.
+    - Fixed an issue that prevented video and button elements from being processed in Outlook when added using drag and drop functionality in the designer.
 - **Marketing pages**
-
+    - Fixed an error caused when lookup values pointed to non-existent records.
+    - Resolved an issue where the **Required error message** field failed to save.
+    - Added troubleshooting tips when marketing forms are unable to load.
+    - Fixed an issue that caused hidden fields not to display in form templates.
+    - Resolved an issue that caused the designer to occasionally not load when opening a template.
+- **Quota**
+    - Fixed an error that caused a Contact Addon package installation failure.
 - **Segmentation**
-
-- **Shared UX**
-
-- **Social posting** -->
+    - Resolved an error that caused the **New** segment button to appear even for users without **Create** permissions for segments.
 
 ## September 2020 update
 
