@@ -231,125 +231,145 @@ Email templates provide multiple benefits. Using email templates saves users tim
 
 ### How to insert an email template
 
-If you already have a template create, to insert a template:
+- If you have created an email template, it can be accessed from the command bar by selecting **Insert Template**. <BR><BR>![How to insert an email template](media\email-how-to-insert-an-email-template-1a.png "How to insert an email template")
 
-1.	On the command bar, select **Insert Template**.
+**Insert an email template overview**  
 
-   A list of available **Email templates** will display in a window displaying existing templates. 
-   
-2.	To see templates of a particular language, select a language from the **Language** list. The templates are loaded as per the selected language.
+Once you select **Insert Template**, the following window appears displaying a list of existing **Email templates** that are available to use.
 
-3.	You can either **search** for a template or browse through the list and select it. The search does not support regular expressions and it works on the template name only.  
+**Email template selection window**
 
-4.	When you select an email template, a preview is displayed on the right side of the window. The preview shows you the content so you can pick the template that best meets your needs. After inserting an email template, you can modify the content as needed.
+![How to insert an email template](media\email-how-to-insert-an-email-template-1b.png "How to insert an email template")
 
-5.	Select **Apply template** to insert the content in the email.
+Legend
+
+1. **Language**. Templates are loaded as per the selected language.
+
+2. **search**. You can use search to find a template. Search does not support regular expressions and only works when using the name of that specific template.  
+
+3. **All templates**. All existing templates that have been created are displayed in this window  which you can browse and choose from.
+
+4. **Preview**. When you select an email template, a preview of the template is displayed here. The preview shows you the content so you can pick the template that best meets your needs. After inserting an email template, you can modify the content as needed.
+
+5. **Apply template** to insert the content to your  email.
 
 > [!Note] 
 > If you try to insert an email template on a device with a smaller screen size, you'll only see an option to search and select a template.
 
-![How to insert an email template](media\email-how-to-insert-an-email-template-1.png "How to insert an email template")
+### How to create an email template
+
+Email templates are a fast and easy way to send repetitive and reoccuring emails to multiple customers. You can view, create, and edit any email templates you have created.
+
+When creating a template, you have the option to work with a blank or existing template:
+
+- When you select **New** from the  **Email Templates** command bar a drop-down list appears with the option to **Start with a blank template** or **Start with existing templates**.
+
+![How to create an email template](media\email-how-to-create-an-email-template-1a.png "How to create an email to a template")
+
+
+### Start with a blank template option
+
+When you **Start with a blank template** you will need to build and add all the data to the template.
+
+The following screen appears when you **Create an email template**:
+
+![Start with a blank template option](media\email-create-an-email-template-1a.png "Start with a blank template option")
+
+Legend 
+
+1. **Template name**. Assign your email template a detailed name you want to save for future use.
+
+2. **Permission level**. You can share the template you create with your **Organization** or as  **Individual** for personal use.
+
+3. **Category**. The default for this field is set to **User**.
+
+4. **Language**. You can display your installed language packs in this field. **Language** also helps to categorize your templates. 
+
+5. **Create**. Once an email is formatted, you can create it to a template.
+
+**New customer template overview**
+
+When you create a **New Customer Template**, the following example page displays that allows you to make edits. 
+
+![New Customer Template](media\email-new-customer-template-1a.png "New Customer Template")
+
+Legend 
+
+1. **New Attachments**. Allows you to include attachements to your template. 
+
+2. **Subject**. Allows you to change the subject line.
+
+3. **Insert dynamic text**. Allows you to use dynamic text in both the Subject line and body of the email.
+
+### Start with existing templates
+
+**Start with existing templates** will automatically be populated with the pre-established meta-data from the existing template that you can customize. 
+
+**Create a new email template overview**
+
+The following **Create a new email template** screen appears, which allows you to customize your template
+
+![Start with existing templates](media\email-start-with-existing-templates-1a.png "Start with existing templates")
+
+1. **search**. Allows you to search for templates. Search does not support regular expressions and it works on the template name only.
+
+2. **Browse**. Allows you to browse through out-of-the-box email templates. 
+
+A list of available out-of-the-box email templates (global and entity specific) will display in alphabetical order. Global templates are shown as the type User. If you've created a custom email template, it will also be displayed here. 
+
+3. **Details**. Allows you to preview the email template.  When you select an email template, you can preview the content so you can pick the template that best meets your needs. After inserting an email template, you can modify the template content as needed.
+
+3. **Select**. Allows you to insert the template content into your email.
+
+> [!Important] 
+> When you begin working in the new environment, do not edit your templates in the old legacy web client; otherwise you will lose your inline images and strip out some of the advanced formatting and functionality.
+
+### Working with existing templates
+
+When you select an existing template, the following display appears:
+
+![Creating email template copies](media\email-template-copy-1a.png "Creating email template copies")
+
+- **Name**. The new template you created from the existing template will display **– Copy** at the end of the template name to identify it is a copy of an existing template.
+
+- **Template Editor**. All of the data is carried over from the existing template which can be edited and modify.
 
 ### How to convert an email to a template
 When you have composed an email that you would like to reuse with other customers, you can convert it to an email template to use in the future.
 
-To convert an email into a template: 
+### Convert an email into a template 
 
-1.	When you have the message composed as you want it, select the downward-facing caret (V) next to **Insert Template**.
+When you have composed and formatted an email message that you would like to save as template, select the downward-facing caret (v) next to **Insert Template** and select **Convert to an email template** from the drop-down list.
 
-2.	In the drop-down list, select **Convert to an email template**.
+  ![How to convert an email to a template](media\email-how-to-insert-an-email-template-1c.png "How to convert an email to a template")
 
-    A window will display with a list you can customize.
+**Convert an email to a template overview**  
 
-3.	Enter the **Template name** you want to save your new template as.
+The following window will display with a list you can customize.
 
-4.	Enter a **Permission level** to share with the **Organization** or just use as an **Individual**.
+  ![How to convert an email to a template](media\email-how-to-insert-an-email-template-1d.png "How to convert an email to a template")
 
-5.	Select a **Category** type. The default is set to **User**.
+Legend 
 
-6.	**Language** displays your installed language packs. **Language** helps to categorize your templates. 
+1. **Template name**. Assign your email template a detailed name you want to save for future use.
 
-7.	Select **Connect** when you are finished.
+2. **Permission level**. You can share the template you create with your **Organization** or as  **Individual** for personal use.
 
-![How to convert an email to a template](media\email-how-to-convert-an-email-to-a-template-1.png "How to convert an email to a template")
+3. **Category**. The default for this field is set to **User**.
 
-### How to create an email template
-Email templates are a fast and easy way to send repetitive emails to multiple customers. You can view, create, and edit any email template you have created.
+4. **Language**. You can display your installed language packs in this field. **Language** also helps to categorize your templates. 
 
-When creating a template, you have the option to work with a blank or existing template:
-
-1.	From the **Email Templates** command bar at the top, select **New**.
-
-2.	A drop-down appears with the choice to select either **Start with a blank template** or **Start with existing templates**.
-
-![How to create an email template](media\email-how-to-create-an-email-template-1.png "How to create an email to a template")
-
-### Start with existing templates
-If you select to **Start with existing templates**, it will automatically be populated with the pre-established meta-data from the existing template that you can customize. 
-
-When the **Create a new email template** screen appears:
-
-1.	You can either **search** for a template or browse through the list and select it. The search does not support regular expressions and it works on the template name only.
-
-  A list of available **Email templates** will display in a window that displays a list of all out-of-the-box email templates (global and entity specific), in alphabetical order. Global templates are shown as the type User. If you've created a custom email template, it will also be available here. 
-
-2.	When you select an email template, a **Details** field that provides a preview on the right side of the window. The preview shows you the content so you can pick the template that best meets your needs. After inserting an email template, you can modify the content as needed.
-
-3.	**Select** to apply template to insert the content in the email.
-
-> [!Important]
-> As you begin working in the new environment, do not edit your templates in the old legacy web client; otherwise you will lose your inline images and strip some of the advanced formatting and functionality.
-
-![Start with existing templates](media\email-start-with-existing-templates-1.png "Start with existing templates")
-
-When you have selected an existing template, it will display as follows:
-
-- The new template you created from the existing template will display with a **– Copy** at the end of the template name to identify it is a copy of an existing template.
-
-- All of the data is carried over, which you can edit and modify.
-
-![Creating email template copies](media\email-template-copy-1.png "Creating email template copies")
-
-### Start with a blank template option
-
-If you select to **Start with a blank template** you will need to build and add all the data to the template.
-
-When the **Create an email template** screen appears:
-
-1.	Enter the **Template name** you want to save your new template as.
-
-2.	Enter a **Permission level** to share with the **Organization** or just use as an **Individual**.
-
-3.	Select a **Category type**. The default is set to **User**.
-
-4.	**Language** displays your installed language packs. **Language** helps to categorize your templates. 
-
-5.	When you are finished, select **Create**.
-
-![Start with a blank template option](media\email-create-an-email-template-1.png "Start with a blank template option")
-
-When you create a **New Customer Template**, it displays in a page that allows you to make edits, such as: 
-
-- Add a **Subject** field.
-
-- Add **New Attachments** if you would like to include files.
-
-- **Insert dynamic text** both for the Subject line and body of the email.
-
-![New Customer Template](media\email-new-customer-template-1.png "New Customer Template")
+5. **Convert**. Once an email is formatted, you can convert it to an email template.
 
 ## Working with email templates
 
 ### View an email template
-You can see a complete list of all the email templates you created.  
 
-To view your email signatures:
+You can view a complete list of all the email templates you have created by: 
 
-1.	Under the **Templates** section, select **Email templates**.
-
-2.	**All Email Templates** is displayed, which allows you to edit and update.
-
-![Working with email templates](media\email-view-an-email-templates-1.png "Working with email templates")
+- Go to the **Templates** section on the left nav 
+- Select **Email templates**
+- A list of **All Email Templates** is displayed, which you can edit and update.
 
 ### How to insert dynamic text in an email template form
 
