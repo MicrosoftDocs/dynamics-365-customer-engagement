@@ -1,6 +1,6 @@
 ---
 title: "Power Automate connectors (Dynamics 365 CXP) | Microsoft Docs"
-description: "Learn how to experiment and refine journeys in Dynamics 365 CXP."
+description: "Learn how to use Power Automate connectors in Dynamics 365 CXP."
 author: alfergus
 ms.author: alfergus
 manager: shellyha

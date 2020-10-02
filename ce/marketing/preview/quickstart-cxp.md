@@ -5,7 +5,6 @@ author: alfergus
 ms.author: alfergus
 manager: shellyha
 ms.date: 08/20/2020
-ms.service: marketing
 ms.topic: conceptual
 ms.service: dynamics-365-marketing
 robots: noindex,nofollow
