@@ -15,6 +15,7 @@
 # Developer resources
 <!-- ## [Web SDK tutorial](get-started-websdk.md) -->
 <!-- ## [Web SDK sample](websdk-sample.md) -->
+## [Power Automate connectors](connectors.md)
 
 # GDPR requests and compliance
 ## [Manage cookies and user consent](user-consent-storage.md)

@@ -1,3 +1,15 @@
+---
+title: "Power Automate connectors (Dynamics 365 CXP) | Microsoft Docs"
+description: "Learn how to experiment and refine journeys in Dynamics 365 CXP."
+author: alfergus
+ms.author: alfergus
+manager: shellyha
+ms.date: 10/02/2020
+ms.topic: conceptual
+robots: noindex,nofollow
+---
+
+# Power Automate connectors
 
 This onboarding article describes Dynamics 365 CXP private preview Power Automate connector prerequisites, credentials, and known issues. This article also explains how to engage with Microsoft throughout the private preview. Nothing in this documentation is meant to—or should be construed to modify the terms of your agreements with Microsoft, including your preview terms.
 
