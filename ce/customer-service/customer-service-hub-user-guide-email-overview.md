@@ -74,18 +74,15 @@ Legend
 1. Select **Activities**
 2. Select **All Activities** 
 3. Under **Activity Type** select **Email**
-4. email list appears below to select the email you want to open and view.
+4. Email list appears in the screen below
 
 ### How to compose an email
 Email capabilities like rich text editing and drag-and-drop or copy-and-paste images enriches customer interactions.
 
-For example, you can create emails by going to **Service**, and using the following steps:
-
-1. Select **Activities**
-
-2. On the command bar, select **Email**. It opens an email in a new window. 
-
-   ![How to compose an email](media\email-how-to-compose-an-email-1a.png "How to compose an email")
+#### Create and compose an email
+   ![How to compose an email](media\email-how-to-compose-an-email-11b.png "How to compose an email")
+   1. Select **Activities**
+   2. On the command bar, select **Email**. An email then opens in a new window where you can begin composing. 
 
 #### Anatomy of the email form
 
@@ -94,16 +91,11 @@ For example, you can create emails by going to **Service**, and using the follow
 Legend
 
 1. The name displayed in the **From** field is automatically populated based on the user who is currently signed in.
-
 2. The **Expand** ![Expand icon](media\email-expand-icon.png "expand email") icon allows you to compose your email in a full-screen view and minimize when done.
-
 3. The **rich text editor** tool bar helps you  format emails. The editor is displayed as a single line that can be expanded to view the full list of editing features by default.<BR>
   For more information, see [Editor functionality](customer-service-hub-user-guide-email-overview.md#formatting-options) and [Accessibility shortcuts](customer-service-hub-user-guide-email-overview.md#accessibility-shortcuts). 
-
 4. The body is where you compose and/or reply to an emails.
-
 5. Use **Insert Signature** to personalize your message.  
-
 6. The **Insert Template** is used to apply an email template. <BR>
 For more information, see [Insert an email template](customer-service-hub-user-guide-email-overview.md#how-to-insert-an-email-template).
 
@@ -111,7 +103,6 @@ For more information, see [Insert an email template](customer-service-hub-user-g
    > The **To** box must contain a recipient to select a template.
 
 7. Use **New Attachment** to add a file to your email.
-
 8. The **Attach File** ![attach file icon](media\email-new-attachment-icon.png "attach file icon") icon functionality is used to drag-and-drop or copy-and-paste attachments. 
 
    > [!Note] 
@@ -133,16 +124,23 @@ If your system administrator has enabled email, the email option displays on the
 
 #### Accessing email in entities
 
-![How to respond to an email](media\email-how-to-respond-to-an-email-1b.png "How to respond to an email")
+You can access email a couple of ways
+
+**Option 1:**
+
+   ![How to respond to an email](media\email-how-to-respond-to-an-email-1c.png "How to respond to an email")
+
+- Select **Email** on the command bar.
+
+  >[!Note]
+  > Email option will only appear in the drop-down list and the command bar when enabled by your system administrator.
+
+**Option 2:**
+
+   ![How to respond to an email](media\email-how-to-respond-to-an-email-1d.png "How to respond to an email")
 
 1. From the navigation bar, select the plus ![](media\email-plus-icon.png "email icon") icon.
-
-2. From the drop-down list, select **Activities**, then **email**
-
-3. You can also select **Email** on the command bar.
-
-   >[!Note]
-   > Email option will only appear in the drop-down list and the command bar when enabled by your system administrator.
+2. Select **Email** from the drop-down menu.
 
 ### Responding to emails in timeline
 When replying to emails in Timeline, the command bar in the top-right corner provides you with reply options. When you select an option, your email automatically is set and opens in that state ready for you to begin your message.  
