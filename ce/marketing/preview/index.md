@@ -33,6 +33,7 @@ Welcome to the Dynamics 365 CXP private preview documentation.
 
 <!--- [Web SDK tutorial](get-started-websdk.md) -->
 <!--- [Web SDK sample](websdk-sample.md) -->
+- [Power Automate connectors](connectors.md)
 
 ## GDPR requests and compliance
 
