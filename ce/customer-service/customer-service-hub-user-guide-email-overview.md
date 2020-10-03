@@ -26,7 +26,7 @@ The following is an overview of email features and functionality that shows you:
 You can work in either the **navigate-to** email or the **contextual** email experience. The difference between the navigate-to vs. contextual email experience is where the email displays on your screen. Both experiences use the same **Enhanced Email** form, which is enabled by default out-of-the-box (OOTB).
 
 > [!Important]
-> **Contextual** email is also referred to as **Enhanced** email. Please be aware there is no special functionality associated with the **Contextual / Enhanced** email experience, other than it is a pop-up experience. 
+> - **Contextual** email is also referred to as **Enhanced** email. Please be aware there is no special functionality associated with the **Contextual / Enhanced** email experience, other than it is a pop-up experience. 
 
 <ul>
 <li><b>Navigate-to email experience</b>: always displays in a new screen. </li>
@@ -60,8 +60,7 @@ Depending on the experience you are using, your email will display as follows:
 >[!Note]
 > - If you use customized forms in email, you will still be able to see and use them. The **Enhanced Email** form showcases various email capabilities and functionality and just a standard form. 
 
-For more information, see: 
-- [Enable the enhanced email experience](customer-service-hub-user-guide-email-admin.md#how-to-enable-the-enhanced-email-experience)
+For more information, see [Enable the enhanced email experience](customer-service-hub-user-guide-email-admin.md#how-to-enable-the-enhanced-email-experience)
 
 ## How to view, compose and respond to emails
 Users can view, create, and send emails faster with streamlined access that helps users compose, reply, and send emails using rich text editing and drag-and-drop attachment features and functionalities.
@@ -69,16 +68,13 @@ Users can view, create, and send emails faster with streamlined access that help
 ### How to view an email
 You can view and respond to emails across your Dynamics 365 app. 
 
-For example, users can view and access emails in the Customer Service hub by going to **Service** and  using the following steps:
-
+#### Access and view emails
+![How to view an email](media\email-how-to-view-an-email-11a.png "How to view an email")
+Legend
 1. Select **Activities**
-2. Select **All Activities** and select an email list you want to view from the drop down.
-
-    ![How to view an email](media\email-how-to-view-an-email-1b.png "How to view an email")
-
-3. When the email list appears, select the email you want to open and view. 
-
-    ![How to view an email](media\email-how-to-view-an-email-1c.png "How to view an email")
+2. Select **All Activities** 
+3. Under **Activity Type** select **Email**
+4. email list appears below to select the email you want to open and view.
 
 ### How to compose an email
 Email capabilities like rich text editing and drag-and-drop or copy-and-paste images enriches customer interactions.
