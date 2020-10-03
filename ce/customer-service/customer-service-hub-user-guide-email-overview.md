@@ -289,7 +289,8 @@ The following **Create a new email template** screen appears, which allows you t
 
   ![Start with existing templates](media\email-start-with-existing-templates-1a.png "Start with existing templates")
 
-   1. **search**. Allows you to search for templates. Search does not support regular expressions and it works on the template name only.
+   Legend
+   1. **Search**. Allows you to search for templates. Search does not support regular expressions and it works on the template name only.
    2. **Browse**. Allows you to browse through out-of-the-box email templates. A list of available out-of-the-box email templates (global and entity specific) will display in alphabetical order. Global templates are shown as the type User. If you've created a custom email template, it will also be displayed here. 
    3. **Details**. Allows you to preview the email template.  When you select an email template, you can preview the content so you can pick the template that best meets your needs. After inserting an email template, you can modify the template content as needed.
    3. **Select**. Allows you to insert the template content into your email.
@@ -311,18 +312,16 @@ When you have composed an email that you would like to reuse with other customer
 
 ### Convert an email into a template 
 
-When you have composed and formatted an email message that you would like to save as template, select the downward-facing caret (v) next to **Insert Template** and select **Convert to an email template** from the drop-down list.
+   ![How to convert an email to a template](media\email-how-to-insert-an-email-template-1c.png "How to convert an email to a template")
 
-  ![How to convert an email to a template](media\email-how-to-insert-an-email-template-1c.png "How to convert an email to a template")
+   When you have composed and formatted an email message that you would like to save as template, select the downward-facing caret (v) next to **Insert Template** and select **Convert to an email template** from the drop-down list.
 
 #### Convert an email to a template overview
-
 The following window will display with a list you can customize.
 
    ![How to convert an email to a template](media\email-how-to-insert-an-email-template-1d.png "How to convert an email to a template")
 
 Legend 
-
    1. **Template name**. Assign your email template a detailed name you want to save for future use.
    2. **Permission level**. You can share the template you create with your **Organization** or as  **Individual** for personal use.
    3. **Category**. The default for this field is set to **User**.
@@ -405,17 +404,17 @@ When you’ve attached one or more files to a message, you can manage them using
 
 ### Select commands
 
-The **Select** commands allow you to select individual files or multiple files at once.
+Select commands allow you to select individual files or multiple files at once.
 
    ![Working with the attachment command bar](media\email-working-with-the-attachment-command-bar-11a.png "Working with the attachment command bar")
 
+   Legend
    1. **Select All**. This command is located on the right, above your attached files and allows you to select all file attachments at once. 
 
       > [!Note] 
       > **Select All** only selects files that are visible. If you have multiple pages of file attachments, you will need to go to that page and select those files independently.
 
    2. **Tile Color Transparency**. The background color of selected file attachments changes to light grey to identify which files have been selected.
-
    3. **Check box** You can also verify which files have been selected by viewing whether the checkbox in the top-right corner of the file attachment is selected. 
 
 Formatting of file attachments in email can be realign based on the device being used and format it is being worked in.
@@ -423,7 +422,6 @@ Formatting of file attachments in email can be realign based on the device being
   ![Working with the attachment command bar](media\email-working-with-the-attachment-command-bar-12a.png "Working with the attachment command bar")
 
    1. **Format Display** Regardless of format display, file attachments will only display the number of files that are enabled by your system administrator.
-
    2. **Page view**. The page view displays the total number of email attachments and always is displayed under the file attachments. 
 
 ### Delete and download commands
@@ -432,7 +430,6 @@ These are two of the most important commands when working with images.
    ![Working with the attachment command bar](media\email-working-with-the-attachment-command-bar-13a.png "Working with the attachment command bar")
 
    1. **Delete**. This command works with the **Select** commands. You must first select a file before you can delete it. A confirmation request appears, requiring you to confirm you want to delete the file(s) you’ve selected.
-
    2. **Download**. This command also works with the **Select** commands and your browser download settings, allowing you to download an individual file or multiple files at once.  
 
 ### How to preview images attachments
@@ -440,9 +437,7 @@ These are two of the most important commands when working with images.
    ![How to preview images attachments](media\email-how-to-preview-images-attachments-11a.png "How to preview images attachments")
 
    1. **More options**. This command provides a list of actions for that file type.
-
    2. **Non-preview image**. Only non-preview image types allow you to either **export selected records**, **download**, or **delete** the attached file.
-
    3. **Preview image types**. Allow you to **export selected record**, **preview**, **download**, or **delete** the attached file. When you select the **preview** option, a pop-up window appears, displaying the image with the image name listed below.
 
 ### Supported email file attachments
