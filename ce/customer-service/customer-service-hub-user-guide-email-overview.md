@@ -46,19 +46,19 @@ The following highlights the difference between the **navigate-to** and **contex
 
     ![Navigate to email vs contextual email experience](media\create-a-record-icon-1a.png "Navigate to email vs contextual email experience")
 
-Depending on the experience you are using, your email will display as follows:
+   Depending on the experience you are using, your email will display as follows:
 
-|Navigate-to Email Experience | | Contextual Email Experience|
-|-----------------------------|-|----------------|
-| ![Navigate to email vs contextual email experience](media\navigate-to-email-view-1c.png "Navigate to email vs contextual email experience") ||  ![Navigate to email vs contextual email experience](media\contextual-email-view-1c.png "Navigate to email vs contextual email experience")|
-|The **Navigate-to** email will display in a new screen.||The **Contextual** email will display in a pop-up window on your current screen.|
+   |Navigate-to Email Experience | | Contextual Email Experience|
+   |-----------------------------|-|----------------|
+   | ![Navigate to email vs contextual email experience](media\navigate-to-email-view-1c.png "Navigate to email vs contextual email experience") ||  ![Navigate to email vs contextual email experience](media\contextual-email-view-1c.png "Navigate to email vs contextual email experience")|
+   |The **Navigate-to** email will display in a new screen.||The **Contextual** email will display in a pop-up window on your current screen.|
 
-> [!Important]
-> - The pop-up window only opens when the height and width of your screen size is at least 400 x 650 pixels or greater. If lower, **navigate-to** email will be the default experience.
-> - The **Contextual** email experience is available only for Timeline.
+   > [!Important]
+   > - The pop-up window only opens when the height and width of your screen size is at least 400 x 650 pixels or greater. If lower, **navigate-to** email will be the default experience.
+   > - The **Contextual** email experience is available only for Timeline.
 
->[!Note]
-> - If you use customized forms in email, you will still be able to see and use them. The **Enhanced Email** form showcases various email capabilities and functionality and just a standard form. 
+   >[!Note]
+   > - If you use customized forms in email, you will still be able to see and use them. The **Enhanced Email** form showcases various email capabilities and functionality and just a standard form. 
 
 For more information, see [Enable the enhanced email experience](customer-service-hub-user-guide-email-admin.md#how-to-enable-the-enhanced-email-experience).
 
