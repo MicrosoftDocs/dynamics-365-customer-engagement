@@ -34,8 +34,8 @@ Use Dynamics 365 for phones and tablets to run your customer engagement apps in 
 > [!NOTE]
 > There are separate mobile apps for:
 >   - Dynamics 365 Field Service: [Field Service mobile app](https://go.microsoft.com/fwlink/?linkid=846157)
->   - Finance and Operations applications: [Finance and Operations mobile app](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-app-home-page). 
->   - Canvas and model-driven apps in Power Apps: [Power Apps mobile app](https://docs.microsoft.com/powerapps/user/run-canvas-and-model-apps-on-mobile).
+>   - Finance and Operations applications: [Finance and Operations mobile app](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-app-home-page) 
+>   - Canvas and model-driven apps in Power Apps: [Power Apps mobile app](https://docs.microsoft.com/powerapps/user/run-canvas-and-model-apps-on-mobile)
 
 ## Home screen 
 
