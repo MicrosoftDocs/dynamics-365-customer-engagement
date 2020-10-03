@@ -450,11 +450,11 @@ The **Select** commands allow you to select individual files or multiple files a
 
 Formatting of file attachments in email can be realign based on the device being used and format it is being worked in.
 
-![Working with the attachment command bar](media\email-working-with-the-attachment-command-bar-12a.png "Working with the attachment command bar")
+  ![Working with the attachment command bar](media\email-working-with-the-attachment-command-bar-12a.png "Working with the attachment command bar")
 
-1. **Format Display** Regardless of format display, file attachments will only display the number of files that are enabled by your system administrator.
+   1. **Format Display** Regardless of format display, file attachments will only display the number of files that are enabled by your system administrator.
 
-2. **Page view**. The page view displays the total number of email attachments and always is displayed under the file attachments. 
+   2. **Page view**. The page view displays the total number of email attachments and always is displayed under the file attachments. 
 
 ### Delete and download commands
 These are two of the most important commands when working with images. 
