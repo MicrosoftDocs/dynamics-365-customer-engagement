@@ -60,14 +60,13 @@ Depending on the experience you are using, your email will display as follows:
 >[!Note]
 > - If you use customized forms in email, you will still be able to see and use them. The **Enhanced Email** form showcases various email capabilities and functionality and just a standard form. 
 
-For more information, see [Enable the enhanced email experience](customer-service-hub-user-guide-email-admin.md#how-to-enable-the-enhanced-email-experience)
+For more information, see [Enable the enhanced email experience](customer-service-hub-user-guide-email-admin.md#how-to-enable-the-enhanced-email-experience).
 
 ## How to view, compose and respond to emails
 Users can view, create, and send emails faster with streamlined access that helps users compose, reply, and send emails using rich text editing and drag-and-drop attachment features and functionalities.
 
 ### How to view an email
 You can view and respond to emails across your Dynamics 365 app. 
-
 #### Access and view emails
 ![How to view an email](media\email-how-to-view-an-email-11a.png "How to view an email")
 Legend
@@ -77,14 +76,16 @@ Legend
 4. Email list appears in the screen below
 
 ### How to compose an email
-Email capabilities like rich text editing and drag-and-drop or copy-and-paste images enriches customer interactions.
+Email capabilities, like rich text editing and drag-and-drop or copy-and-paste images enriches customer interactions when composing emails. 
 
-#### Create and compose an email
+When enabled by your system administrator, you can access email from the top nav bar.
+
+#### Compose an email
    ![How to compose an email](media\email-how-to-compose-an-email-11b.png "How to compose an email")
    1. Select **Activities**
    2. On the command bar, select **Email**. An email then opens in a new window where you can begin composing. 
 
-#### Anatomy of the email form
+#### Anatomy of an email form
 
 ![How to compose an email](media\email-how-to-compose-an-email-1g.png "How to compose an email")
 
@@ -110,42 +111,41 @@ For more information, see [Insert an email template](customer-service-hub-user-g
 
 9.	Select ![Send email icon](media\email-send-icon.png "Send email icon")  **Send** when you are done.
 
-   >[!Important]
-   > - The **From** and **To** fields are automatically populated based on the user and the account and contact of the original record.
- 
+    >[!Important]
+    > - The **From** and **To** fields are automatically populated based on the user and the account and contact of the original record.
+
 For more information on enhanced email and configurations, see [Enable the enhanced email experience](customer-service-hub-user-guide-email-admin.md#how-to-enable-the-enhanced-email-experience).
 
 ### How to respond to an email
-Depending on where you are in your app, how you reply to an email will function differently. An example from the Customer Service hub is provided below.
+Depending on where you are in your app, how you reply to an email will function differently. 
 
-**Composing an email in activities and cases**
+When enabled by your system administrator, the email option displays in the top navigation bar and in the activities command bar.
 
-If your system administrator has enabled email, the email option displays on the navigation bar and in the activities command bar. When composing an email in entity records from **Activities**, you must set the reply field.  
+> [!NOTE]
+> - When composing an email from **Activities**, you must set the reply field.  
 
 #### Access email
 
-There are a couple of options you can use to access email. 
+When accessing email, there are a couple of options you can use. 
 
-**Option 1:**
-
+-  **Option 1:**<BR>
    ![How to respond to an email](media\email-how-to-respond-to-an-email-1c.png "How to respond to an email")
 
-- Select **Email** on the command bar.
+    - Select **Email** on the command bar.
 
-  >[!Note]
-  > Email option will only appear in the drop-down list and the command bar when enabled by your system administrator.
+   >[!Note]
+   > Email option will only appear in the drop-down list and the command bar when enabled by your system administrator.
 
-**Option 2:**
-
+-  **Option 2:**<BR>
    ![How to respond to an email](media\email-how-to-respond-to-an-email-1d.png "How to respond to an email")
 
-1. From the navigation bar, select the plus ![](media\email-plus-icon.png "email icon") icon.
-2. Select **Email** from the drop-down menu.
+   1. From the navigation bar, select the plus ![](media\email-plus-icon.png "email icon") icon.
+   2. Select **Email** from the drop-down menu.
 
 ### Responding to emails in timeline
 When replying to emails in Timeline, the command bar in the top-right corner provides you with reply options. When you select an option, your email automatically is set and opens in that state ready for you to begin your message.  
 
-Use the following command options when working with emails in the timeline:
+You can use the following command options when working with emails in the timeline.
 
 ![Respond to emails in timeline](media\email-respond-in-timeline-1a.png "Responding to emails in timeline") 
 
@@ -281,7 +281,7 @@ Legend
 
 When you create a **New Customer Template**, the following example page displays that allows you to make edits. 
 
-![New Customer Template](media\email-new-customer-template-1b.png "New Customer Template")
+![New Customer Template](media\email-new-customer-template-1c.png "New Customer Template")
 
 Legend 
 
@@ -437,7 +437,7 @@ When you’ve attached one or more files to a message, you can manage them using
 
 The **Select** commands allow you to select individual files or multiple files at once.
 
-![Working with the attachment command bar](media\email-working-with-the-attachment-command-bar-1a.png "Working with the attachment command bar")
+![Working with the attachment command bar](media\email-working-with-the-attachment-command-bar-11a.png "Working with the attachment command bar")
 
 1. **Select All**. This command is located on the right, above your attached files and allows you to select all file attachments at once. 
 
@@ -459,7 +459,7 @@ Formatting of file attachments in email can be realign based on the device being
 ### Delete and download commands
 These are two of the most important commands when working with images. 
 
-![Working with the attachment command bar](media\email-working-with-the-attachment-command-bar-3a.png "Working with the attachment command bar")
+![Working with the attachment command bar](media\email-working-with-the-attachment-command-bar-13a.png "Working with the attachment command bar")
 
 1. **Delete**. This command works with the **Select** commands. You must first select a file before you can delete it. A confirmation request appears, requiring you to confirm you want to delete the file(s) you’ve selected.
 
@@ -467,13 +467,13 @@ These are two of the most important commands when working with images.
 
 ### How to preview images attachments
 
-![How to preview images attachments](media\email-how-to-preview-images-attachments-1a.png "How to preview images attachments")
+![How to preview images attachments](media\email-how-to-preview-images-attachments-11a.png "How to preview images attachments")
 
 1. **More options**. This command provides a list of actions for that file type.
 
-2. **Non-preview image**. Only non-preview image types allow you to either download or delete the attached file.
+2. **Non-preview image**. Only non-preview image types allow you to either **export selected records**, **download**, or **delete** the attached file.
 
-3. **Preview image types**. Allow you to **preview, download,** or **delete** the attached file. When you select the **preview** option, a pop-up window appears, displaying the image with the image name listed below.
+3. **Preview image types**. Allow you to **export selected record**, **preview**, **download**, or **delete** the attached file. When you select the **preview** option, a pop-up window appears, displaying the image with the image name listed below.
 
 ### Supported email file attachments
 The following is a list of file image types that are supported:
