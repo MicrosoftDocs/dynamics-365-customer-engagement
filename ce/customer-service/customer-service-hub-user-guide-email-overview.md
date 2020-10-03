@@ -530,9 +530,9 @@ You can add a new email signature by:
 
 ### Manage email signature lists
 
-You can view and manage email signatures you have created.
+You can view and manage email signatures you have created to make edits, change default, and who can view your signatures.
 
-![Manage email signature lists](media\email-manage-email-signature-lists-1a.png "Manage email signature lists")
+![Manage email signature lists](media\email-manage-email-signature-lists-11a.png "Manage email signature lists")
 
 Legend
 1. Under **Templates** select **Email signatures**.
