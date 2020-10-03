@@ -122,9 +122,9 @@ Depending on where you are in your app, how you reply to an email will function 
 
 If your system administrator has enabled email, the email option displays on the navigation bar and in the activities command bar. When composing an email in entity records from **Activities**, you must set the reply field.  
 
-#### Accessing email in entities
+#### Access email
 
-You can access email a couple of ways
+There are a couple of options you can use to access email. 
 
 **Option 1:**
 
