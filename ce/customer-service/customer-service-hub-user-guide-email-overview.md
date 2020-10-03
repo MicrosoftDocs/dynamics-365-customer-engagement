@@ -420,7 +420,7 @@ File attachments display differently, depending on the email form you are workin
 3. **File count**. This displays when you have more files than what can be viewed and allows you to see the total number of attached files on the left side under the last attachment with the option to page over to see more images.
 
 #### Enhanced Email form file attachment
-![Work with attachments](media\email-work-with-attachments-3b.png "Work with attachments")
+![Work with attachments](media\email-work-with-attachments-13b.png "Work with attachments")
 
 1. **Enhanced Email**. This display confirms you are working in the **Enhanced email** form.
 
