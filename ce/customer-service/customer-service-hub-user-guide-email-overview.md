@@ -91,25 +91,25 @@ When enabled by your system administrator, you can access email from the top nav
 
 Legend
 
-1. The name displayed in the **From** field is automatically populated based on the user who is currently signed in.
-2. The **Expand** ![Expand icon](media\email-expand-icon.png "expand email") icon allows you to compose your email in a full-screen view and minimize when done.
-3. The **rich text editor** tool bar helps you  format emails. The editor is displayed as a single line that can be expanded to view the full list of editing features by default.<BR>
+1. **Form**. The name displayed in the **From** field is automatically populated based on the user who is currently signed in.
+2. **Expand**. The **Expand** ![Expand icon](media\email-expand-icon.png "expand email") icon allows you to compose your email in a full-screen view and minimize when done.
+3. **Rich text editor**. This tool bar helps you  format emails. The editor is displayed as a single line that can be expanded to view the full list of editing features by default.<BR>
   For more information, see [Editor functionality](customer-service-hub-user-guide-email-overview.md#formatting-options) and [Accessibility shortcuts](customer-service-hub-user-guide-email-overview.md#accessibility-shortcuts). 
-4. The body is where you compose and/or reply to an emails.
-5. Use **Insert Signature** to personalize your message.  
-6. The **Insert Template** is used to apply an email template. <BR>
+4. **Body**. The body is where you compose and/or reply to an emails.
+5. **Insert Signature**. Use this command to personalize your message.  
+6. **Insert Template**. This is used to apply an email template. <BR>
 For more information, see [Insert an email template](customer-service-hub-user-guide-email-overview.md#how-to-insert-an-email-template).
 
    > [!Note]
    > The **To** box must contain a recipient to select a template.
 
-7. Use **New Attachment** to add a file to your email.
-8. The **Attach File** ![attach file icon](media\email-new-attachment-icon.png "attach file icon") icon functionality is used to drag-and-drop or copy-and-paste attachments. 
+7. **New Attachment**. This command is used to add a file to your email.
+8. **Attach File**.  This command uses the 'plus' ![attach file icon](media\email-new-attachment-icon.png "attach file icon") icon functionality is used to drag-and-drop or copy-and-paste attachments. 
 
    > [!Note] 
    > After you save your email, you can use Attach file and New Attachments interchangeably.
 
-9.	Select ![Send email icon](media\email-send-icon.png "Send email icon")  **Send** when you are done.
+9.	**Send**. Select ![Send email icon](media\email-send-icon.png "Send email icon")  **Send** when you are done.
 
     >[!Important]
     > - The **From** and **To** fields are automatically populated based on the user and the account and contact of the original record.
@@ -375,7 +375,7 @@ Legend
 
 5. **Default text**. Allows you to select the style of text for the subject and body of your email template. If no text is selected, it will display using the default text.
 
-6. Select **Insert** to save the form.
+6. **Insert**. When done this command inserts and saves your form.
 
   > [!Note] 
   > If you click in an area on the form that does not support dynamic text, it displays **Unable to insert**.
