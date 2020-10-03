@@ -109,7 +109,7 @@ For more information, see [Insert an email template](customer-service-hub-user-g
    > [!Note] 
    > After you save your email, you can use Attach file and New Attachments interchangeably.
 
-9.	**Send**. Select ![Send email icon](media\email-send-icon.png "Send email icon")  **Send** when you are done.
+9.	**Send**. Select this icon ![Send email icon](media\email-send-icon.png "Send email icon")  to **Send** your email when you are done.
 
     >[!Important]
     > - The **From** and **To** fields are automatically populated based on the user and the account and contact of the original record.
