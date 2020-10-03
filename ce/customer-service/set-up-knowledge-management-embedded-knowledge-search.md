@@ -91,7 +91,7 @@ After knowledge management is set up, users will be able to:
 
 This option allows users to provide feedback on knowledge articles opened from knowledge search control. 
 
-1. In the Customer Service Hub site map, go to **Service Management** and select **Knowledge Base Management** > **Embedded Knowledge Search**. 
+1. In the Customer Service Hub site map, go to **Service Management** and select **Knowledge Base Management** > **Settings**. 
 
 2. In the **Knowledge Articles Feedback** section, set **Enable users to provide feedback on knowledge articles from search control** to **Yes**.
 
