@@ -450,7 +450,7 @@ The **Select** commands allow you to select individual files or multiple files a
 
 Formatting of file attachments in email can be realign based on the device being used and format it is being worked in.
 
-![Working with the attachment command bar](media\email-working-with-the-attachment-command-bar-2a.png "Working with the attachment command bar")
+![Working with the attachment command bar](media\email-working-with-the-attachment-command-bar-12a.png "Working with the attachment command bar")
 
 1. **Format Display** Regardless of format display, file attachments will only display the number of files that are enabled by your system administrator.
 
