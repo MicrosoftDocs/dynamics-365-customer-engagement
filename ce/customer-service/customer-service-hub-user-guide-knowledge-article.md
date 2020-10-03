@@ -194,7 +194,7 @@ You can preview the content to view its compatibility on multiple devices, like 
 > [!NOTE]
 > This is an indicative preview. Content rendered can be different in the actual device or screen.
 
-### Add a knowledge article rich text editor control to a form
+## Add a knowledge article rich text editor control to a form
 By default, the rich text editor functionality is available for use with knowledge articles and emails, but if you want to use it in another form, you can add it by doing the following:
 
 1. In Power Apps, go to the form where you want to add the rich text editor control, and double-click a field where you can enter single or multiple lines of text to open **Field Properties**. 
