@@ -1,6 +1,6 @@
 ---
-title: "Customer Service analytics and insights | MicrosoftDocs"
-description: "Learn about Customer Service Analytics"
+title: "Customer Service insights | MicrosoftDocs"
+description: "Learn about Customer Service Insights"
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
