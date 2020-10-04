@@ -1,16 +1,16 @@
 ---
-title: "Customer Service insights | MicrosoftDocs"
-description: "Learn about Customer Service insights"
+title: "Customer Service Insights | MicrosoftDocs"
+description: "Learn about Customer Service Insights"
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
 ms.date: 10/05/2020
 ms.topic: article
 ms.service: 
-  - dynamics-365-customerservice
+  dynamics-365-customerservice
 ---
 
-# Customer Service insights
+# Customer Service Insights
 
 Customer service managers and supervisors are responsible for managing the agents who work with customers to resolve everyday queries. Customer support supervisors need to know the key operational and customer experience metrics to provide quality support.
 
