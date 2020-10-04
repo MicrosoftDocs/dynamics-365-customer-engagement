@@ -4,7 +4,7 @@ description: Create or edit a service in Dynamics 365 Customer Service.
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 08/03/2020
+ms.date: 10/05/2020
 ms.topic: article
 ms.service: 
   dynamics-365-customerservice
