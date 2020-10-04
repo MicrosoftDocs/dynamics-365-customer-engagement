@@ -264,7 +264,7 @@ To execute this search against your organization, you need to download the [samp
 
 5. After you choose a specific time slot set (Set number 1 in this example), update your new_msdyn_CreateRequirementGroupBookingsSample.js web resource in your org to pass the Resource Assignments (Requirement guid, Resource guid) and the Requirement Group as shown in the example below:    
 
-![Modify the hard-coded input parameters](media/ur-scheduling-10-new.PNG)
+![Update web resource to pass resource assignments](media/ur-scheduling-10-new.PNG)
 
 > [!IMPORTANT]
 > Find the complete sample code here: [Create Requirement Group](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/service-scheduling/search-resource-availability-create-bookings).
@@ -283,7 +283,7 @@ To execute this search against your organization, you need to download the [samp
 
 ![Check the associated bookings](media/ur-scheduling-14-new.png)
 
-![Modify the hard-coded input parameters](media/ur-scheduling-15-new.png)
+![Verify bookings were created successfully](media/ur-scheduling-15-new.png)
 
 Other possible scenarios that might leverage these APIs are:   
 - Build a custom web app or a Dynamics 365 portal to provide appointment scheduling for users. The app will show available time slots for the service or product being offered by using multiresource requirements (requirement groups).
