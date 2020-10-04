@@ -165,8 +165,8 @@
 ##### [Create document location records](create-edit-document-location-records.md)
 ##### [Permissions required](permissions-required-document-management-tasks.md)
 #### Troubleshoot
-##### [Troubleshooting server-based authentication](troubleshooting-server-based-authentication.md)
-##### [Troubleshoot SharePoint integration](troubleshoot-set-up-sharepoint-online.md) -->
+##### [Troubleshooting server-based authentication](troubleshooting-server-based-authentication.md)-->
+#### [Troubleshoot SharePoint integration](troubleshoot-set-up-sharepoint-online.md)
 ### Connect to Microsoft Social Engagement
 #### [Connect, assign licenses, and reset](connect-microsoft-social-engagement.md)
 #### [Install the Social Selling Assistant](install-social-selling-assistant.md)

@@ -4,7 +4,7 @@ description: "Learn about the supported formats to pass parameter values in the 
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 09/07/2020
+ms.date: 09/17/2020
 ms.service: 
    "dynamics-365-customerservice"
 ms.topic: article
@@ -197,6 +197,7 @@ A *slug* is a replacement parameter that the system populates at runtime based o
 
 | Slug | Description |
 |------------|-----------------------------------|
+|`{anchor.<attribute_name>}`|Is used to access attributes of the record that is loaded in the anchor tab.|
 | `{customerName}` | The name of the customer who initiated the conversation. |
 | `{caseId}` | The unique ID of a case. The system displays the case ID only if the case is linked to the conversation. |
 | `{caseTitle}` | The title of the case. The system displays the title of the case only if the case is linked to the conversation. |

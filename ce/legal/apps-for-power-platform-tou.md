@@ -1,24 +1,25 @@
 ---
-title: Apps for Power Platform Terms of Use 
-author: MSFTMan
+title: Apps for Power Platform Terms of Use
+author: ReneeW-CPub
+robots: noindex,nofollow
 ---
 
-# Apps for Power Platform<br>Terms of Use 
+# Apps for Power Platform<br>Terms of Use
 
 These terms of use are an agreement between you and the App Provider. Please
 read them. They apply to the add-in, connector, or other software application
-for use with the o Platform that you download or install from AppSource or
-acquire from within the settings of the Power Platform (the “App”), including
-any updates or supplements for the App, unless the App comes with separate
-terms, in which case those terms apply.
+for use with Power Platform services that you download or install from AppSource
+or acquire from within the settings of Power Platform services (the “App”),
+including any updates or supplements for the App, unless the App comes with
+separate terms, in which case those terms apply.
 
 **BY DOWNLOADING, INSTALLING, OR USING THE APP, OR ATTEMPTING TO DO ANY OF
 THESE, YOU ACCEPT THESE TERMS. IF YOU DO NOT ACCEPT THEM, YOU HAVE NO RIGHT TO
 AND MUST NOT DOWNLOAD, INSTALL, OR USE THE APP.**
 
->   **Except for the above, if the App enables access to any Internet-based
->   services, your use of those services will be subject to the
->   separately-provided terms of use.**
+**Except for the above, if the App enables access to any Internet-based
+services, your use of those services will be subject to the separately-provided
+terms of use.**
 
 **In this agreement “App Provider” means the entity licensing the App to you, as
 identified in AppSource or the App’s description. If the App is licensed to you
@@ -29,22 +30,17 @@ one of its affiliates).**
 
 **1. INSTALLATION AND USE RIGHTS.**
 
-a. You may install and use the App with your Power Platform cloud service
-subscription. You may not install or use a copy of the App with a Power Platform
-cloud service subscription you do not own or control.
+a) You may install and use the App with your applicable Power Platform cloud
+service subscription. You may not install or use a copy of the App with a Power
+Platform cloud service subscription you do not own or control.
 
-b. This App is a sample and may be used with the Microsoft Power Platform for
-dissemination of reference information only. This App is not intended or made
-available for use as a medical device, clinical support, diagnostic tool, or
-other technology intended to be used in the diagnosis, cure, mitigation,
-treatment, or prevention of disease or other conditions, and no license or right
-is granted by Microsoft to use this App for such purposes. This app is not
-designed or intended to be a substitute for professional medical advice,
-diagnosis, treatment, or judgment and should not be used as such. You bear the
-sole risk and responsibility for any use of this App. Microsoft does not warrant
-that the App or any materials provided in connection therewith will be
-sufficient for any medical purposes or meet the health or medical requirements
-of any person.
+b) This app is a sample and is provided "as is" without warranty of any kind.
+Customer bears the sole risk and responsibility for any use of this app.
+Customer is expected to update and customize this app as appropriate for its own
+needs, and is responsible for ensuring that its implementation complies with all
+laws and regulations applicable to Customer's use. Microsoft is not responsible
+for the performance, accuracy or results from the use of the app or any
+modifications to the app.
 
 Sample data included in this app are for illustration only and are fictitious.
 No real association is intended or inferred.
@@ -137,7 +133,7 @@ of the Third Party Service.
 **10. ENTIRE AGREEMENT.** This agreement and the terms for supplements and
 updates are the entire agreement between you and the App Provider for the App.
 If Microsoft is the App Provider, this agreement cannot be construed to change
-the terms of any other agreement you may have with Microsoft with regard to the
+the terms of any other agreement you may have with Microsoft with regard to
 Microsoft Power Platform, Dynamics 365, Office, AppSource, or any other
 Microsoft product or service (which are governed by the software license terms,
 online services terms or other terms of use or agreement that accompanied or are
@@ -181,17 +177,17 @@ DISTRIBUTOR.**
 
 **This limitation applies to**
 
-• **anything related to the App, or services made available through the App, or
+**• anything related to the App, or services made available through the App, or
 content (including code) on third-party Internet sites; and**
 
-• **claims for breach of contract, breach of warranty, guarantee or condition,
+**• claims for breach of contract, breach of warranty, guarantee or condition,
 strict liability, negligence, or other tort to the extent permitted by
 applicable law.**
 
 **It also applies even if**
 
-• **repair, replacement or a refund for the App does not fully compensate you
+**• repair, replacement or a refund for the App does not fully compensate you
 for any losses; or**
 
-• **Distributor knew or should have known about the possibility of the
+**• Distributor knew or should have known about the possibility of the
 damages.**

@@ -2,7 +2,7 @@
 title: "Set up and manage marketing forms for use in marketing pages (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn about various types of marketing forms and how to create them in Dynamics 365 Marketing"
 keywords: marketing form, fields
-ms.date: 09/10/2020
+ms.date: 10/01/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -175,6 +175,9 @@ When a landing page type form is submitted with **Update contact/leads** set to 
     As shown in the image below, this would give you a field with “Debit” and “Credit” options that you created previously, which you could then use as a dropdown field for collecting credit card applications without updating contacts or leads.
 
     ![No update credit card example](media/marketing-forms-credit-card.png "No update credit card example")
+
+> [!NOTE]
+> Advanced users can create custom [Workflows](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/workflow-processes) to map form data collected through the **No update** option to custom entities. Learn more: [Map form data to entities with custom Workflows](entity-mapping.md)
 
 <a name="form-content"></a>
 

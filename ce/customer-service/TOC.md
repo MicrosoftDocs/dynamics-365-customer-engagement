@@ -28,10 +28,10 @@
 #### [App profile manager for Customer Service workspace](../app-profile-manager/overview.md)
 
 #### Work with email
-##### [Configuring email](https://go.microsoft.com/fwlink/p/?linkid=2142941)
+##### [Configuring email](customer-service-hub-user-guide-email-admin.md)
 ##### [Using email](customer-service-hub-user-guide-email-overview.md)
 #### Work with timeline
-##### [Configuring timeline](https://go.microsoft.com/fwlink/p/?linkid=2142940)
+##### [Configuring timeline](customer-service-hub-user-guide-timeline-admin.md)
 ##### [Using timeline](customer-service-hub-user-guide-timeline-overview.md)
 
 #### Work with cases
@@ -178,7 +178,7 @@
 
 ## Migration solutions
 
-### [Migration tool for automatic record creation rules and service-level agreements](migrate-automatic-record-creation-and-sla-agreements.md)
+### [Migrate automatic record creation rules and service-level agreements](migrate-automatic-record-creation-and-sla-agreements.md)
 ### [Contract to entitlements migration strategy](contract-to-entitlement-migration.md)
 
 
@@ -195,6 +195,7 @@
 ### [Unable to delete a managed solution consisting an SLA enabled entity](troubleshoot-delete-managed-solution.md)
 ### FAQs
 #### [Email FAQs](email-faqs.md)
+#### [Timeline FAQs](timeline-faqs.md)
 #### [Migration tool FAQs](migrate-tool-faqs.md)
 #### [FAQs on AI-suggested cases and knowledge articles](csw-faqs-ai-suggestions.md)
 

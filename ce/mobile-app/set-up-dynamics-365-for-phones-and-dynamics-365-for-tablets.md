@@ -1,7 +1,8 @@
 ---
 title: "Set up Dynamics 365 for phones and tablets | MicrosoftDocs"
+description: How to set up Dynamics 365 for phones and tablets
 ms.custom:
-ms.date: 06/5/2020
+ms.date: 09/16/2020
 ms.reviewer:
 ms.service: crm-online
 ms.suite:
@@ -105,8 +106,10 @@ This list identifies all resources used by Dynamics 365 for phones and tablets. 
   
   
 <a name="BKMK_Configure"></a>   
-## Configure the mobile app 
- 
+## Configure customer engagement apps in Dynamics 365  
+
+ You must configure apps that will be available for Dynamics 365 for phones and tablets mobile app.  
+
  - For Common Data Service, see [Create a custom entity](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-create-entity).
  - For Dynamics 365 Customer Engagement (on-premises), see [App making and customization overview](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/overview) 
   
@@ -182,7 +185,7 @@ You can assign security roles to a dashboard, so the dashboard appears only to u
  
 1. Go to **Settings** > **Customizations** > **Customize the System**. 
 2. Expand **Entities** in the left pane.  
-3. Select the entity you want to enable for in the Un (for example, **Account**).  
+3. Select the entity you want to enable for mobile app (for example, **Account**).  
   
 4. Under **Outlook & Mobile**, select **Enable for Unified Client**. 
  

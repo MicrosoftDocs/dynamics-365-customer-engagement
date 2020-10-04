@@ -36,7 +36,7 @@ The following table lists each available feature together with its preview statu
 | Business unit scoping | Production | [Use business units to control access to Marketing records](business-units.md)|
 | Event registration forms | Preview | [Marketing forms for event registration](event-forms.md)|
 | Online events on Teams | Preview | [Enables Microsoft Teams as a streaming provider for events](teams-webinar.md)|
-| Customer Voice marketing integration | Production | [Customer Voice integration with Dynamics 365 Marketing](forms-pro.md) |
+| Dynamics 365 Dynamics 365 Customer Voice marketing integration | Production | [Dynamics 365 Customer Voice integration with Dynamics 365 Marketing](customer-voice.md) |
 
 > [!IMPORTANT]
 > [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]
