@@ -1,6 +1,6 @@
 ---
 title: "Customer Service insights | MicrosoftDocs"
-description: "Learn about Customer Service Insights"
+description: "Learn about Customer Service insights"
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
