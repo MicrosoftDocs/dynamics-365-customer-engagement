@@ -4,7 +4,7 @@ description: How to add facilities and equipment in UCI-based Scheduling Service
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 08/03/2020
+ms.date: 10/05/2020
 ms.topic: article
 ms.service: 
   dynamics-365-customerservice
@@ -17,6 +17,7 @@ search.audienceType:
 search.app: 
   D365CE
   D365CS
+  
 ---
 
 # Add facilities and equipment resources
