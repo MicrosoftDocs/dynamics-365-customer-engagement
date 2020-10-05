@@ -105,7 +105,7 @@ The **More commands** option contains refresh, sort, and email functionalities.
 ![More commands timeline functionality](media\timeline-more-commands-1.png "More commands timeline functionality")
 
 Legend
-1. The **More commands** ![](media\timeline-more-commands.icon.png "More commands") icon when expand provides additional functionality options.
+1. The **More commands** ![](media\timeline-more-commands-icon.png "More commands") icon when expand provides additional functionality options.
 2. The **Refresh timeline** command updates record details in the timeline.
 3. The **Sort newer to older** or **Sort older to newer** command is used to sort records.
 4. The **Always show email as conversations** or **Always show email as individual messages** command is used to enable or disables threaded email views.
@@ -118,7 +118,7 @@ Use the threaded email view option to save valuable space when you have emails w
 ![Collapsed threaded email view](media\timeline-threaded-email-views-1a.png "Collapsed threaded email view")
 
 Legend
-1. When enabled via the **Always show email as conversations** option under **More commands** ![](media\timeline-more-commands.icon.png "More commands icon"), emails with multiple responses are grouped together into threaded emails.
+1. When enabled via the **Always show email as conversations** option under **More commands** ![](media\timeline-more-commands-icon.png "More commands icon"), emails with multiple responses are grouped together into threaded emails.
 2. The **Show more** link appears in the bottom left corner of the last visible email in the thread to view the complete string of email responses. 
 
 **Expanded threaded email view**
@@ -137,12 +137,12 @@ Threaded email views can be enabled in timeline via two options:
 
 **Option 1:**
 
-You can enable the threaded email view using the **More Commands** feature ![](media\timeline-more-commands.icon.png "More commands") located in the right nav in timeline.
+You can enable the threaded email view using the **More Commands** feature ![](media\timeline-more-commands-icon.png "More commands") located in the right nav in timeline.
 
 **Enable threaded email through the More Commands option**
 
 Steps:
-1. Use the **More commands** ![](media\timeline-more-commands.icon.png "More commands") icon on timeline which displays a flyout menu.
+1. Use the **More commands** ![](media\timeline-more-commands-icon.png "More commands") icon on timeline which displays a flyout menu.
 2. Select **Always show email as conversations** to  thread and group all emails in that specific timeline. 
 
 ![Enable threaded email view - option 1](media\timeline-threaded-email-views-4a.PNG "Enable threaded email view - option 1")
