@@ -43,9 +43,9 @@ The Customer Service Hub app is available to use on a desktop browser and on a m
    ![Navigate to the application settings for Customer Service Hub](media/open-csh.png "Open the Customer Service Hub")
  
   
-2. In the Dynamics 365 Customer Service sitemap, navigate to the app switcher, and then select **Customer Service Hub**.
+2. In the Dynamics 365 Customer Service site map, navigate to the app switcher, and then select **Customer Service Hub**.
 
-  ![Open the Customer Service Hub sitemap](media/open-csh-sitemap.png "Customer Service Hub sitemap")
+  ![Open the Customer Service Hub site map](media/open-csh-sitemap.png "Customer Service Hub site map")
   
 **Mobile device**
 
@@ -72,17 +72,17 @@ To access the Customer Service Hub app on a mobile device:
 - Queues  
 - Knowledge Articles
 
-The Customer Service Hub comes with an enhanced sitemap to enable easy navigation of the interface. To learn more, see [Understand the sitemap navigation](#understand-the-sitemap-navigation).
+The Customer Service Hub comes with an enhanced site map to enable easy navigation of the interface. To learn more, see [Understand the site map navigation](#understand-the-site-map-navigation).
   
-## Understand the sitemap navigation
+## Understand the site map navigation
 
-1. Select the sitemap icon ![sitemap icon](media/sitemap-icon.png "Sitemap"). Select Service, and then select an entity record type.
+1. Select the site map icon ![site map icon](media/sitemap-icon.png "Site map"). Select Service, and then select an entity record type.
 
   > ![Navigate Records](media/v9-navigate-records.png "Navigate Records")
 
 When you select a record type from the menu, such as Accounts, Contacts, or Cases, you'll see a list of corresponding customer records (also known as Entity grid).
 
-To view recently opened records, select the down-arrow next to the record type in the sitemap.
+To view recently opened records, select the down-arrow next to the record type in the site map.
 
 Here is what each entity record type is used for:
 
@@ -281,7 +281,7 @@ In Dynamics 365 Customer Service, the following activities are supported:
 
 #### Open Activities view
 
-In the Customer Service Hub sitemap, select **Service** > **Activities**. The **My Activities** view is displayed. 
+In the Customer Service Hub site map, select **Service** > **Activities**. The **My Activities** view is displayed. 
 
 ![activities-email](media/activities-csh-email.png "Activities view")
 
@@ -336,7 +336,7 @@ Use queues to organize, prioritize, and monitor the progress of your work. In Dy
 
 **Open Queues view**
 
-In the Customer Service Hub sitemap, select **Service** > **Queues**. The queues view is displayed.
+In the Customer Service Hub site map, select **Service** > **Queues**. The queues view is displayed.
 
 ![Queues view](media/queues-view.png "Queues view")
 
