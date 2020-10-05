@@ -21,14 +21,16 @@ Provides the functionality to create a tab in the focused session.
 
 | Parameter | Type | Description |
 | ---- | ---- | ---- |
-| tabInput | AppTabInput | ```AppTabInput {
+| tabInput | AppTabInput | - Unique name of the Application Tab Template<br>- Additional context for tab creation and tab slugs<br>- Should this tab be focused after creation | 
+
+```AppTabInput {
         //Unique Name of the Application Tab Template
         templateName: string;
 	//additional context for tab creation and tab slugs
         appContext: Map<string, string>;
 	//should this tab be focused after creation
         isFocused?: boolean;
-    }``` |
+    }``` 
 
 ## Return Value
 
