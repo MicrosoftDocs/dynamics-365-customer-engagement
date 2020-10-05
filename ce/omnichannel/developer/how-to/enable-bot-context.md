@@ -1,5 +1,5 @@
 ---
-title: "Enable bot context | Microsoft Docs"
+title: "Enable bot context NuGet package | Microsoft Docs"
 description: "Enable a bot to understand context while authoring a bot flow"
 author: platkat
 ms.author: ktaylor
@@ -9,7 +9,7 @@ ms.service:
   - "dynamics-365-customerservice"
 ms.topic: reference
 ---
-# Enable bot context
+# Enable bot context NuGet package
 
 [!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
