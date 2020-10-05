@@ -4,7 +4,7 @@ description: "Instructions for configuring an SMS channel for Twilio in Omnichan
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 08/19/2020
+ms.date: 10/05/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -78,7 +78,7 @@ Perform the following steps to create a work stream for the SMS channel for Twil
 
     - **Number**: Specify the support phone number that you purchased from Twilio in the *<country_code><phone_number>* format, such as 14252306549. Make sure that you don't enter blank spaces or special characters.
     - **SMS number language**: This is the preferred language that will be used when you configure automated messages on the **Automated messages** tab. 
-    - **Type**: Select **Long code**.
+    - **Type**: Select **Long code**, **Short code**, or **Toll free**.
     - **Description**: Specify a description for the number. (Optional) 
     - **Operating Hours**: Specify the business hours when the customer support team is active and available to serve customers.
 

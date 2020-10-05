@@ -4,7 +4,7 @@ description: "Instructions for configuring an SMS channel in Omnichannel for Cus
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 04/20/2020
+ms.date: 10/05/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -84,7 +84,7 @@ To sign up for TeleSign
 
     - **Number**: Specify the support phone number that you purchased from Twilio in the *<country_code><phone_number>* format, such as 14252306549. Make sure that you don't enter blank spaces or special characters.
     - **SMS number language**: This is the preferred language that will be used when you configure automated messages on the **Automated messages** tab. 
-    - **Type**: Select **Long code**.
+    - **Type**: Select **Long code**, **Short code**, or **Toll free**.
     - **Description**: Specify a description for the number. (Optional) 
     - **Operating Hours**: Specify the business hours when the customer support team is active and available to serve customers.
 
