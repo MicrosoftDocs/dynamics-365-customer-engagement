@@ -16,11 +16,9 @@ search.app:
   - D365CS
 ---
  
-# Preview: Enable personal quick replies for agents
+# Enable personal quick replies for agents
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
-
-[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
 ## Introduction
 
