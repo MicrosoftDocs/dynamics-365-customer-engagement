@@ -111,6 +111,3 @@ Dynamics 365 App for Outlook needs Internet Explorer 11 or higher to be installe
 
 ## My app for Oulook launch takes time every time I load it for mail item.
 For frequently used pages, pin the app so that it will stay loaded even when you switch to other mail items. 
-
-## User is not able to configure *Follow this email* button on the top pane in Dynamics 365 App for Outlook.
-This feature is no longer available for configuration.
