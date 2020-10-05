@@ -49,9 +49,8 @@ Use this procedure if you have created your bot using Azure bot template or Azur
     Use(new OmnichannelMiddleware()); 
     ```
 
-![Add import statement](../../media/bot-context-add-import.png "Add import statement")
+    ![Add import statement](../../media/bot-context-add-import.png "Add import statement")
 
-For more information, see [setContextProvider method](../reference/methods/setContextProvider.md) and [Conversation summary](../../agent/agent-oc/oc-customer-summary.md#conversation-summary).
 
 ### See also
 
