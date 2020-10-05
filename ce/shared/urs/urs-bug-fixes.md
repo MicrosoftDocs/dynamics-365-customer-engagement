@@ -1,29 +1,30 @@
 ## Version 3.12.31.50 (2020 wave 2 general availability)
 
-The following Universal Resource Scheduling 2020 Wave 2 features in GA are included in this release.
+The following Universal Resource Scheduling 2020 Wave 2 features in general availability are included in this release.
+
 - Next generation schedule board experience
 - Predictive work duration (Preview)
 - Enhanced calendar for requirements
 - Embedded optimizer within schedule board (Preview)
 
-This release also includes all the fixes included in the [2020 wave 2 early access](https://docs.microsoft.com/en-us/dynamics365/common-scheduler/bug-fixes#version-312295-2020-wave-2-early-access) and [2020 wave 2 early access update 1](https://docs.microsoft.com/en-us/dynamics365/common-scheduler/bug-fixes#version-3123011-2020-wave-2-early-access-update-1).
-- Fixed a bug on the Map view of the Schedule Board Map view, where scheduled Requirements with Remaining duration = 0 are still being shown as unscheduled requirement pin, leading to double requirements. With this fix, once a requirement is scheduled and Remaining duration = 0, the pin will not be displayed as a requirement pin. 
-- The Days on the Daily view of the Schedule Board are shown in Right to Left orientation for the right to left (RTL) languages like Hebrew, Arabic. 
-- Fixed a bug where a new Requirement record is created, the status of the Requirement record created is not respecting the **Default Requirement Active State** value of the associated Booking Setup Metadata record of the Requirement. This bug is now fixed, and the default status of the newly created Requirement record will be based on the Default Requirement Active Status of the associated Booking Setup Metadata record.
-- When creating a Booking for Requirement groups using the Quick Scheduling feature, fixed a bug where the resulting errors (if any) were not surfaced to the end user. Now if there are any errors during the creation of the Bookings, error message will be displayed on the Quick Book interface. 
-- When fulfilment preferences (Intervals) are used on Requirements, the schedule assistant shows the timeslots, and the first timeslot will be shown after the **Intervals begin** time. 
+This release also includes all the fixes included in the [2020 wave 2 early access](https://docs.microsoft.com/dynamics365/common-scheduler/bug-fixes#version-312295-2020-wave-2-early-access) and [2020 wave 2 early access update 1](https://docs.microsoft.com/dynamics365/common-scheduler/bug-fixes#version-3123011-2020-wave-2-early-access-update-1).
+- Fixed a bug on the map view of the schedule board, where scheduled requirements with remaining duration equals 0 are still being shown as unscheduled requirement pin, leading to double requirements. With this fix, once a requirement is scheduled and Remaining duration equals 0, the pin will not be displayed as a requirement pin. 
+- The days on the daily view of the schedule board are shown in right-to-left orientation for the right-to-left languages like Hebrew, Arabic. 
+- Fixed a bug where a new requirement record is created, the status of the requirement record created is not respecting the **Default Requirement Active State** value of the associated booking setup metadata record of the requirement. This bug is now fixed, and the default status of the newly created Requirement record will be based on the default requirement active status of the associated booking setup metadata record.
+- When creating a booking for requirement groups using the quick scheduling feature, fixed a bug where the resulting errors (if any) were not surfaced to the end user. Now if there are any errors during the creation of the Bookings, error message will be displayed on the quick book interface. 
+- When fulfilment preferences (intervals) are used on requirements, the schedule assistant shows the timeslots, and the first timeslot will be shown after the **Intervals begin** time. 
 - Fixed a bug in the msdyn_SearchResourceAvailabilityForRequirementGroup API, where the last available timeslot of a time range are not being returned. 
-- Added new additional solution health rules to detect if the following records are missing 
- - Default Schedule Board setting.
- - Schedule Board setting for the Resource Utilization view of the Schedule Board. 
- - Unsupported modification of the OOB web resources
-- When a Resource on the Booking is substituted with another Resource on the Schedule Board and then Find Availability is used, fixed a bug where an error was thrown. With this fix, error is fixed. 
-- The Date field on the Schedule Assistant List view is now fixed to respect the date formatting preferences of the User. 
-- Fixed a bug where a Booking is created using **Find Availability** functionality, and the Booking method field is displayed as **Schedule Board**. This is fixed to show the Booking method as **Schedule Assistant**.
-- Fixed a bug where looking for available resources on the Requirement Groups, and **Least Busy** option on the Schedule Assistant is used, Resources returned were not in the right order. This is fixed and only the least busy resources are returned on the top. 
-- When Preferred Resource of Resource preferences is used on the Resource Requirement record, the Preferred resources are not returned on the top of the recommended resources using Quick scheduling. This bug is fixed, and the preferred resources are returned on the top. 
-- Fixed a bug on the Schedule Board Maps view, where the Date picker is not displayed when number of days displayed on the board is greater than 1. This is now fixed, and the Map View will display the Date picker to show the map data of a specific day. 
-- On the new Schedule Board, fixed an issue, where a resource is marked as **Display on Schedule Board** as **No**, Resource is still being shown on the Schedule Board.
+- Added new additional solution health rules to detect if the following records are missing: 
+ - Default schedule board setting.
+ - Schedule board setting for the resource utilization view of the schedule board. 
+ - Unsupported modification of the OOB web resources.
+- When a resource on the booking is substituted with another resource on the schedule board and then find availability is used, fixed a bug where an error was thrown. 
+- The date field on the schedule assistant list view is now fixed to respect the date formatting preferences of the user. 
+- Fixed a bug where a booking is created using **Find Availability** functionality, and the booking method field is displayed as **Schedule Board**. This is fixed to show the booking method as **Schedule Assistant**.
+- Fixed a bug where looking for available resources on the requirement groups, and **Least Busy** option on the schedule assistant is used, Resources returned were not in the right order. This is fixed and only the least busy resources are returned on the top. 
+- When preferred resource of resource preferences is used on the resource requirement record, the preferred resources are not returned on the top of the recommended resources using quick scheduling. This bug is fixed, and the preferred resources are returned on the top. 
+- Fixed a bug on the schedule board maps view, where the date picker is not displayed when number of days displayed on the board is greater than one. This is now fixed, and the map view will display the date picker to show the map data of a specific day. 
+- On the new schedule board, fixed an issue, where a resource is marked as **Display on Schedule Board** as **No**, resource is still being shown on the schedule board.
 
 ## Version 3.12.25.5
 
