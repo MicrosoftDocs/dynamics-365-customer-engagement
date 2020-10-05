@@ -2,7 +2,7 @@
 title: "Guide your prospects through an interactive customer journey (Dynamics 365 Marketing) | Microsoft Docs "
 description: "How to create a customer journey by assembling a pipeline of automated communications, activities, and conditional pathways in Dynamics 365 Marketing"
 keywords: customer journey; campaign; email; segment; go live; pipeline
-ms.date: 09/30/2020
+ms.date: 10/05/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -24,29 +24,27 @@ search.app:
 
 # Use customer journeys to create automated campaigns
 
-<div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/d73cc179-5984-4a32-ad84-0755f56b0399" frameborder="0" allowfullscreen=""></iframe></div>
+Dynamics 365 Marketing can help you visualize and automate the journey that customers take on their way to making a purchase. A simple customer journey could include a short interaction, such as a single email campaign. A complex journey might include the full process from discovery, through nurturing, and on to identifying qualified leads. Customer journeys can also generate and assign tasks (such as a scheduled follow-up phone call) and trigger business workflows.
 
-Dynamics 365 Marketing can help you visualize and automate the journey that customers will take on their way to making a purchase. A simple customer journey could include a short interaction, such as a single email campaign. A complex journey might include the full process from discovery, through nurturing, and on to marketing-qualified leads. Customer journeys can also generate and assign tasks (such as a scheduled follow-up phone call) and trigger business workflows.
-
-Marketing provides a graphical journey modeler that works something like a simple board game. Each contact starts on the first square (by becoming part of a target segment), and then progresses through one square at a time, with each square representing a marketing initiative, decision point, or internal action item.
+Dynamics 365 Marketing provides a graphical journey modeler that works like a simple board game. Each contact starts on the first square (by becoming part of a target segment), and then progresses through one square at a time, with each square representing a marketing initiative, decision point, or internal action item.
 
 ![An example of a customer journey](media/customer-journey.png "An example of a customer journey")
 
 The previous figure shows how a simple customer journey might look. A more complex example could work like this:
 
-1. A new contact from New York wants to subscribe to your newsletter and fills out a marketing page. This results in a new contact record in your database.
+1. A new contact from New York wants to subscribe to your newsletter and fills out a form on a marketing page. This results in a new contact record in your database.
 
-2. You have a dynamic segment that finds all newsletter subscribers from New York, so the new contact automatically joins that list.
+2. A dynamic segment finds all newsletter subscribers from New York, so the new contact automatically joins that list.
 
-3. You've created a customer journey that starts with the New York subscribers' segment as tile one, so the contact starts there and moves directly to the next tile.
+3. You've created a customer journey that starts with the New York subscribers segment as tile one, so the contact starts there and moves directly to the next tile.
 
-4. The next tile in the journey is an email tile, so the system automatically sends a marketing email to the new contact, and the contact moves on to the next tile. The email message offers a free white paper for download.
+4. The next tile is an email tile, so the system automatically sends a marketing email to the new contact, and the contact moves on to the next tile. The email message offers a free white paper for download.
 
-5. The next tile is an if/then (condition) tile. It keeps the contact here until either a week goes by, or they click the download link. The trigger branches the path, so if the contact clicks to download the paper, they'll take the "true" path immediately; but if a week goes by without a click, they'll go down the "false" path.
+5. The next tile is an if/then (condition) tile. The tile keeps the contact here until either a week goes by, or the contact clicks the download link. The if/then tile branches the path, so if the contact clicks to download the paper, they'll take the "true" path immediately. But if a week goes by without a click, the contact will follow the "false" path.
 
-6. The top ("true") path continues with more tiles designed to nurture the lead further. Because the contact clicked the link, Dynamics 365 Marketing generated a lead for that contact, which represents their expression of interest in the product promoted in that white paper. Some tiles along this path might initiate or evaluate lead interactions (such as event invitations), while others might generate internal events (like assigning a task or launching a workflow in the CRM system). As the contact interacts with your initiatives, the lead builds up its score until it's ready to forward to sales.
+6. The top ("true") path continues with more tiles designed to nurture the lead further. Because the contact clicked the link, Dynamics 365 Marketing generated a lead for that contact, which represents their expression of interest in the product promoted in the white paper. Some tiles along this path might initiate or evaluate lead interactions (such as event invitations), while others might generate internal events (like assigning a task or launching a workflow in the CRM system). As the contact interacts with your initiatives, the lead builds up its score until it's ready to forward to sales.
 
-7. The bottom ("false") path starts with another email tile, which sends a reminder with a second chance to get the download, after which the contact might continue down the same type of nurturing path if they respond, or get dropped for now if they don't.
+7. The bottom ("false") path starts with another email tile, which sends a reminder with a second chance to download the white paper, after which the contact might continue down the same type of nurturing path if they respond, or get dropped for now if they don't.
 
 ## Set up a customer journey
 
@@ -54,13 +52,13 @@ To view and create your customer journeys, go to **Marketing** > **Marketing Exe
 
 To create a new journey, select **New** on the command bar.
 
-When you create a new customer journey, you'll first be presented with a list of customer-journey templates, which can help you get started quickly. The **Journey templates** dialog box provides a categorized overview of templates and a search form to help you find the one you're looking for. Each template represents a particular type of campaign, and includes a preconfigured pipeline and a few related settings that will help you create a customer journey of the selected type.
+When you create a new customer journey, you'll first be presented with a list of customer journey templates, which can help you get started quickly. The **Journey templates** dialog box provides a categorized overview of templates and a search form to help you find the one you're looking for. Each template represents a particular type of campaign and includes a preconfigured pipeline and a few related settings that will help you create a customer journey of the selected type.
 
 ![Select a Journey Template dialog](media/customer-journey-template.png "Select a journey template")
 
 You can also choose to start from scratch instead of using a template. The pipelines provided by a template represent the form and logic of your campaign, but you'll still need to configure the various tiles by&mdash;for example&mdash;assigning the specific marketing email message that should be sent by each email tile.
 
-When creating or editing a customer journey, you'll be working on the customer-journey form page. On the first tab ("Designer"), you'll see the canvas, where you'll build up your campaign pipeline by adding, arranging, and configuring the tiles that represent each step in the journey. General settings and fields for metadata are available on the second tab ("General").
+When creating or editing a customer journey, you'll be working on the customer journey form page. On the first tab ("Designer"), you'll see the canvas, where you'll build up your campaign pipeline by adding, arranging, and configuring the tiles that represent each step in the journey. General settings and fields for metadata are available on the second tab ("General").
 
 ## Design your journey
 
@@ -72,22 +70,22 @@ You can add tiles to the pipeline by selecting them from the **in-place menu** s
 
 ![Drag a tile from the Toolbox to the canvas](media/cj-drag-ill.png "Drag a tile from the Toolbox to the canvas")
 
-The first tile in the pipeline establishes the target audience for the customer journey. This is what determines which contacts get sent down the pipeline. You'll typically start with a segment tile, which finds contacts based on a logical query (a dynamic segment) or on a static segment, where individual contacts are added and removed manually.
+The first tile in the pipeline establishes the target audience for the customer journey. This is what determines which contacts are sent down the pipeline. You'll typically start with a segment tile, which finds contacts based on a logical query (a dynamic segment) or on a static segment, where individual contacts are added and removed manually.
 
-After they are added, most tiles provide features such as those illustrated in the following figure.
+After you establish the target audience, most tiles provide features such as those illustrated in the following figure.
 
 ![Features of a customer-journey tile](media/cj-tile-features-ill.png "Features of a customer-journey tile")
 
 Legend:
 
-1. **Tile type**: Shows what type of tile it is ("Send an email", "Wait for", "Phone call" and so on). The icon inside the tile also indicate this.
-1. **Entity name**: Shows the name assigned to a selected entity, e.g. name of the email ("Contoso Chairs").
-1. **Tile configuration status**: Shows if the tile is configured already or not. The unconfigured status is indicated by a white-colored tile with a call to action (e.g. "Choose an email"), whereas a configured status is indicated by a colored tile with selected entity name.
+1. **Tile type**: Shows what type of tile it is ("Send an email," "Wait for," "Phone call," and so on). The icon inside the tile also indicates the tile type.
+1. **Entity name**: Shows the name assigned to a selected entity, for example, the name of the email ("Contoso Chairs").
+1. **Tile configuration status**: Shows if the tile is configured already or not. The unconfigured status is indicated by a white-colored tile with a call to action (for example, "Choose an email"). A configured status is indicated by a colored tile with the selected entity name.
 
-Please note:
-In order to create a condition based off of the element inside an email (e.g. checking if your recipient clicked on a Customer Voice survey linked inside your email), go to Email properties and select an appropriate element (e.g. a Customer Voice survey) inside the "Email elements" category.
+> [!NOTE]
+> To create a condition based off of the element inside an email (such as checking if your recipient clicked on a Customer Voice survey linked inside your email), go to **Send an email** > **Properties** and select an appropriate element (such as a Customer Voice survey) inside the **Email elements** category.
 
-For a complete list of all available tiles, and information about how to use them, see the [Customer journey tiles reference](customer-journey-tiles-reference.md).
+For a complete list of available tiles and information about how to use them, see the [Customer journey tiles reference](customer-journey-tiles-reference.md).
 
 ### Add tiles by using the arrow keys
 
