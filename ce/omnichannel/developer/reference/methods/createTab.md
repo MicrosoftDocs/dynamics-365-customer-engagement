@@ -30,7 +30,8 @@ Provides the functionality to create a tab in the focused session.
         appContext: Map<string, string>;
 	//should this tab be focused after creation
         isFocused?: boolean;
-    }``` 
+}
+``` 
 
 ## Return Value
 
