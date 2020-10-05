@@ -26,7 +26,7 @@ The following is an overview of email features and functionality that shows you:
 You can work in either the **navigate-to** email or the **contextual** email experience. The difference between the navigate-to vs. contextual email experience is where the email displays on your screen. Both experiences use the same **Enhanced Email** form, which is enabled by default out-of-the-box (OOTB).
 
 > [!Important]
-> - **Contextual** email is also referred to as **Enhanced** email. Please be aware there is no special functionality associated with the **Contextual / Enhanced** email experience, other than it is a pop-up experience. 
+> - **Contextual** email is also referred to as **Enhanced** email. Please be aware that there isn't any special functionality associated with the **Contextual / Enhanced** email experience, other than it is a pop-up experience. 
 
 <ul>
 <li><b>Navigate-to email experience</b>: always displays in a new screen. </li>
@@ -40,17 +40,17 @@ The following highlights the difference between the **navigate-to** and **contex
 
 1.	Select **Create a timeline record**
 
-    ![Navigate to email vs contextual email experience](media\create-a-record-icon-1.png "Navigate to email vs contextual email experience")
+    ![Select Create a timeline record](media\create-a-record-icon-1.png "Select Create a timeline record")
 
 2. Select **Email**
 
-    ![Navigate to email vs contextual email experience](media\create-a-record-icon-1a.png "Navigate to email vs contextual email experience")
+    ![Select email](media\create-a-record-icon-1a.png "Select email.")
 
    Depending on the experience you are using, your email will display as follows:
 
    |Navigate-to Email Experience | | Contextual Email Experience|
    |-----------------------------|-|----------------|
-   | ![Navigate to email vs contextual email experience](media\navigate-to-email-view-1c.png "Navigate to email vs contextual email experience") ||  ![Navigate to email vs contextual email experience](media\contextual-email-view-1c.png "Navigate to email vs contextual email experience")|
+   | ![Navigate-to email experience](media\navigate-to-email-view-1c.png "View of the navigate-to email experience") ||  ![Contextual email experience](media\contextual-email-view-1c.png "View of the contextual email experience.")|
    |The **Navigate-to** email will display in a new screen.||The **Contextual** email will display in a pop-up window on your current screen.|
 
    > [!Important]
@@ -69,7 +69,7 @@ Users can view, create, and send emails faster with streamlined access that help
 You can view and respond to emails across your Dynamics 365 app. 
 
 #### Access and view emails
-   ![How to view an email](media\email-how-to-view-an-email-11a.png "How to view an email")
+   ![Access and view email](media\email-how-to-view-an-email-11a.png "Access and view email.")
    Legend
    1. Select **Activities**
    2. Select **All Activities** 
@@ -82,18 +82,18 @@ Email capabilities, like rich text editing and drag-and-drop or copy-and-paste i
 When enabled by your system administrator, you can access email from the top nav bar.
 
 #### Compose an email
-   ![How to compose an email](media\email-how-to-compose-an-email-11b.png "How to compose an email")
+   ![Compose an email](media\email-how-to-compose-an-email-11b.png "Compose an email")
    1. Select **Activities**
    2. On the command bar, select **Email**. An email then opens in a new window where you can begin composing. 
 
 #### Anatomy of an email form
 
-![How to compose an email](media\email-how-to-compose-an-email-1g.png "How to compose an email")
+![Anatomy of email](media\email-how-to-compose-an-email-1g.png "Anatomy of an email form.")
 
 Legend
 
 1. **Form**. The name displayed in the **From** field is automatically populated based on the user who is currently signed in.
-2. **Expand**. The **Expand** ![Expand icon](media\email-expand-icon.png "expand email") icon allows you to compose your email in a full-screen view and minimize when done.
+2. **Expand**. The **Expand** ![Expand icon](media\email-expand-icon.png "xpand email") icon allows you to compose your email in a full-screen view and minimize when done.
 3. **Rich text editor**. This tool bar helps you  format emails. The editor is displayed as a single line that can be expanded to view the full list of editing features by default.<BR>
   For more information, see [Editor functionality](customer-service-hub-user-guide-email-overview.md#formatting-options) and [Accessibility shortcuts](customer-service-hub-user-guide-email-overview.md#accessibility-shortcuts). 
 4. **Body**. The body is where you compose and/or reply to an emails.
@@ -147,7 +147,7 @@ When replying to emails in Timeline, the command bar in the top-right corner pro
 
 You can use the following command options when working with emails in the timeline.
 
-   ![Respond to emails in timeline](media\email-respond-in-timeline-1a.png "Responding to emails in timeline") 
+   ![Respond to emails in timeline](media\email-respond-in-timeline-1a.png "Respond to emails in timeline.") 
 
    1. **Reply**. Use this command to reply directly the the sender of the email you received.
    2. **Reply All**. Use this command to replay to everyone on an email you received.
@@ -221,7 +221,7 @@ Email templates provide multiple benefits. Using email templates saves users tim
 
 ### How to insert an email template
 
-   ![How to insert an email template](media\email-how-to-insert-an-email-template-1a.png "How to insert an email template")
+   ![Insert an email template](media\email-how-to-insert-an-email-template-1a.png "How to insert an email template")
 
    - If you have created an email template, it can be accessed from the command bar by selecting **Insert Template**. <BR><BR>
 
@@ -231,7 +231,7 @@ Once you select **Insert Template**, the following window appears displaying a l
 
 #### Email template selection window
 
-   ![How to insert an email template](media\email-how-to-insert-an-email-template-1b.png "How to insert an email template")
+   ![Email template selection window](media\email-how-to-insert-an-email-template-1b.png "Email template selection window")
 
    Legend
    1. **Language**. Templates are loaded as per the selected language.
@@ -249,7 +249,7 @@ Email templates are a fast and easy way to send repetitive and reoccurring email
 
 When creating a template, you have the option to work with a blank or existing template:
 
-   ![How to create an email template](media\email-how-to-create-an-email-template-1a.png "How to create an email to a template")
+   ![Create an email template](media\email-how-to-create-an-email-template-1a.png "Create an email template")
 
    - When you select **New** from the  **Email Templates** command bar a drop-down list appears with the option to **Start with a blank template** or **Start with existing templates**.
 
