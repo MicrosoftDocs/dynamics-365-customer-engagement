@@ -2,6 +2,9 @@
 
 # What's new
 ## [Update Release schedule for Project Service 3.x](version-history-ps.md)
+## [What's new or changed in Update Release 24, V3](whats-new-ur-24.md)
+## [What's new or changed in Update Release 23, V3](whats-new-ur-23.md)
+## [What's new or changed in Update Release 22, V3](whats-new-ur-22.md)
 ## [What's new or changed in Update Release 21, V3](whats-new-ur-21.md)
 ## [What's new or changed in Update Release 20, V3](whats-new-ur-20.md)
 ## [What's new or changed in Update Release 19, V3](whats-new-ur-19.md)
@@ -43,6 +46,7 @@
 ### [Project stages](project-stages.md)
 ### [Project settings](project-settings.md)
 ## [Pricing and costing dimensions](pricing-costing-dimensions.md)
+### [Create a solution for custom pricing dimensions](custompricingdimensionssolution.md)
 ### [Create custom fields and entities](create-custom-fields-entities.md)
 ### [Add custom fields to price setup and transactional entities ](field-references.md)
 ### [Set up custom fields as pricing dimensions ](set-up-pricing-dimensions.md)
@@ -50,6 +54,7 @@
 ### [Use an existing field in Project Service as a pricing dimension](use-existing-field.md)
 #### [Use bookable resource as a pricing dimension](bookable-resource-pricing-dimension.md)
 #### [Use transaction category as a pricing dimension](transaction-category-pricing-dimension.md)
+### [Bookable resource playing multiple roles on a project](bookable-resource-multiple-roles.md)
 ### [Turn off a pricing dimension](turn-off-pricing-dimension.md)
 ## [Quoting, pricing, and billing](quote-bill-price.md)
 ### [Sales processes](basic-sales-process.md)

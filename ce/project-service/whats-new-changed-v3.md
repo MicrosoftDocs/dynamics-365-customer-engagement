@@ -3,12 +3,11 @@ title: What's new or changed in Project Service Automation version 3
 description: This topic provides information about what is new and changed in Project Service Automation version 3.
 manager: kfend
 ms.service: dynamics-365-projectservice
-ms.custom:
+ms.custom: 
   - dyn365-projectservice
 ms.date: 11/28/2018
 ms.topic: article
 ms.prod: 
-ms.service: business-applications
 ms.technology: Dynamics 365 Project Service Automation 3.x
 author: JohnPBurrows
 ms.author: john.burrows
@@ -20,7 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365PS
-  
+  - ProjectOperations
 ---
 
 
@@ -196,7 +195,7 @@ Customization allows you to add **Bookable resource** to the create and edit exp
 
     -or-
 
-    Create a custom view to view only time entries that are created for the resource. Publish the customizations on the app module designer for this view to show up under **View selector** on the **Time entries** page. There are two plug-ins that handle setting the manager for non-project time entries:
+    Create a custom view, that includes the **Bookable resource** column, to view only time entries that are created for the resource. Publish the customizations on the app module designer for this view to show up under **View selector** on the **Time entries** page. There are two plug-ins that handle setting the manager for non-project time entries:
 
     - PreValidateTimeEntryCreate
     - PreValidateTimeEntryUpdate

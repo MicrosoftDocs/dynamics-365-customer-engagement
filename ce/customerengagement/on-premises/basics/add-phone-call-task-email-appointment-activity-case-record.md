@@ -85,7 +85,7 @@ All activities that you add from within a record appear in the **Activities** ar
  To add an appointment activity to a record, you must first save the record you are adding the activity to.  
  
 > [!NOTE]
-> Recurring appointments are not supported on the Dynamics 365 App for Outlook, Dynamics 365 for phones app, and when you run the model-driven apps web client on your mobile phone web browser. 
+> Recurring appointments are not supported on the Dynamics 365 App for Outlook, Dynamics 365 for phones app, and when you run the web client on your mobile phone web browser. 
   
 1. Open the record you want to add the activity to.  
   

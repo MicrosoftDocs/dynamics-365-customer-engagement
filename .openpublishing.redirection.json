@@ -1,6 +1,51 @@
 {
   "redirections": [
     {
+      "source_path": "ce/marketing/customer-journey.md",
+      "redirect_url": "create-simple-customer-journey",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/apps-for-power-platform-tou-rtw.md",
+      "redirect_url": "apps-for-power-platform-tou",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/marketing/manage-marketing-instances.md",
+      "redirect_url": "manage-marketing-environments",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/company-news-timeline/get-company-news-timeline-dynamics-365-phones-tablets.md",
+      "redirect_url": "../mobile-app/get-company-news-timeline-dynamics-365-phones-tablets",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/marketing/forms-pro.md",
+      "redirect_url": "customer-voice",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/marketing/dynamics-365-admin-center.md",
+      "redirect_url": "power-platform-admin-center",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/use-change-tracking-synchronize-data-external-systems.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/use-change-tracking-synchronize-data-external-systems",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/use-upsert-insert-update-record.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/use-upsert-insert-update-record",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/teams-integration/teams-bot-search.md",
+      "redirect_url": "https://docs.microsoft.com/power-platform/important-changes-coming#dynamic-365-sales-bot-is-deprecated",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/marketing/readme.md",
       "redirect_url": "known-issues",
       "redirect_document_id": "false"

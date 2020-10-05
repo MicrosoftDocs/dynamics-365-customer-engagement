@@ -1,5 +1,5 @@
 ---
-title: User guide for the Project Resource Hub 
+title: User guide for the Project Resource Hub
 description: An end-user's guide for the Project Resource Hub for Project Service
 author: JohnPBurrows
 manager: kfend
@@ -19,6 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365PS
+  - ProjectOperations
 ---
 # User guide for Project Resource Hub
 

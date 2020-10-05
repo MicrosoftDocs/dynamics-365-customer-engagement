@@ -3,7 +3,7 @@ title: "Timeline Overview for Users | MicrosoftDocs"
 description: "Timeline Overview for Users"
 ms.date: 10/05/2020
 ms.service:
-  - "dynamics-365-customerservice"
+   "dynamics-365-customerservice"
 ms.topic: article
 author: lerobbin
 ms.author: lerobbin
@@ -349,4 +349,4 @@ For more information on Notes and Post functionality and configuration, see:
 
 [Configure Timeline](customer-service-hub-user-guide-timeline-admin.md)
 
-[Timeline FAQs](timeline-faqs.md)  
+[Timeline FAQs](timeline-faqs.md)

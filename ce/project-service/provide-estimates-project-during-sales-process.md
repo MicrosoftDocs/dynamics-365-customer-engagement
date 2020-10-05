@@ -1,5 +1,5 @@
 ---
-title: Provide work estimates for a project during the sales process 
+title: Provide work estimates for a project during the sales process
 description: How to provide work estimates for a project during the sales process in Project Service
 author: ruhercul
 manager: kfend
@@ -19,6 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365PS
+  - ProjectOperations
 ---
 # Provide work estimates for a project during the sales process (Project Service)
 

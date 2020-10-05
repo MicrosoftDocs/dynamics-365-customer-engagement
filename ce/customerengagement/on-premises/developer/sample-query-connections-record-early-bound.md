@@ -3,7 +3,7 @@ title: "Sample: Query connections by a record (early bound) | MicrosoftDocs"
 description: "The sample demonstrates how to query connections for a particular record after creating connections between a contact and two accounts."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

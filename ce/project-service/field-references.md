@@ -1,13 +1,12 @@
 ---
-title: Add custom fields to price setup and transactional entities 
-description: This topic provides information about adding custom fields to price setup and transactional entities. 
+title: Add custom fields to price setup and transactional entities
+description: This topic provides information about adding custom fields to price setup and transactional entities.
 author: Rumant
 manager: kfend
-ms.custom:
+ms.custom: 
   - dyn365-projectservice
-ms.date: 11/26/2018
+ms.date: 10/01/2020
 ms.topic: article
-ms.prod: Project Service
 ms.service: business-applications
 ms.author: rumant
 audience: Admin
@@ -16,7 +15,8 @@ search.audienceType:
   - customizer
   - enduser
 search.app: 
-    - D365PS
+  - D365PS
+  - ProjectOperations
 ---
 
 # Add custom fields to price setup and transactional entities 
@@ -43,14 +43,14 @@ When a custom pricing dimension is option set-based, add it as a field to key Pr
 
 > ![Adding Resource Work Location to Role Price](media/RWL-Field.png)
 
-In the sales and estimation phases for a project, estimates of the work effort that is required to complete **Local** and **Onsite** work, in **Regular hours** and **Overtime hours**  are used to estimate the value of the Quote/Project. The fields **Resource Work Location** and **Resource Work Hours** will be added to the estimation entities, **Quote Line Detail**, **Contract Line detail**, **Project Team Member**, and **Estimate Line**.
+In the sales and estimation phases for a project, estimates of the work effort that is required to complete **Local** and **Onsite** work, in **Regular hours** and **Overtime hours**  are used to estimate the value of the Quote/Project. The fields **Resource Work Location** and **Resource Work Hours** will be added to the estimation entities, **Quote Line Detail**, **Contract Line detail**, **Project Task**, **Project Team Member**, and **Estimate Line**.
 
 1. In PSA, click **Settings** > **Solutions**, and then double-click **\<your organization name> pricing dimensions**. 
 2. In Solution Explorer, on the left navigation pane, select **Entities > Quote Line Detail**.
 3. Expand the **Quote Line Detail** entity, and select **Fields**.
 4. Click **New** to create a new field called **Resource Work Location** and select the field type, **Option set**. 
 5. Select **Use an existing Option set** and **Resource Work Location**, and then click **Save**.
-6. Repeat steps 1 - 5 to add this field to the **Project Contract line detail**, **Project Team Member**, and **Estimate Line** entities.
+6. Repeat steps 1 - 5 to add this field to the **Project Contract line detail**,**Project Task**, **Project Team Member**, and **Estimate Line** entities.
 7. Repeat steps 1 - 6 for the **Resource Work Hours** option set. 
 
 > ![Adding Resource Work Location to Estimate Line](media/RWL-Default-Value.png)
@@ -92,10 +92,11 @@ In the sales and estimation phases for the project, to price the Quote/Project, 
 
 - **Quote line Detail**
 - **Project Contract Line Detail**
+- **Project Task**
 - **Project Team Member**
 - **Estimate Line**
 
-5. Repeat steps 1 - 5 to create 1:N relationships from **Standard Title** to **Quote line Detail**, **Project Contract Line Detail**, **Project Team Member**, and **Estimate Line**.
+5. Repeat steps 1 - 5 to create 1:N relationships from **Standard Title** to **Quote line Detail**, **Project Contract Line Detail**, **Project Task**, **Project Team Member**, and **Estimate Line**.
 
 > ![Adding Standard Title as a reference field to Estimate Line](media/ST-Estimate-Line.png)
 
@@ -133,6 +134,7 @@ The following table provides a comprehensive list of out-of-the-box forms and vi
 |  Role Price Markup|• Information|• Active Role Price Markup<br>• Role Price Markup Associated View|
 |  Quote line detail|• Project Information<br>• Project Quick Create|• Active Quote Line Detail<br>• Combined Quote Line Details<br>• Quote Line Detail associated view|
 |  Project Contract line detail|• Project Information<br>• Project Quick Create|• Combined Contract Line Details<br>• Active Contract Line Details<br>• Contract Line Details Associated View|
+|  Project Task|• Information<br>• New Form||
 |  Project Team Member|• Information<br>• New Form|• Active Project Team Members<br>• Project Team Members<br>• Project Team members associated View|
 |  Time Entry|• Information<br>• Create Time Entry|• My Time Entries By Date<br>• My time Entries for this week<br>• Time entries for approval|
 |  Journal Line|• Information<br>• Quick create|• Active journal lines<br>• Journal Line associated view|

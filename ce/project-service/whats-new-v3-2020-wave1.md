@@ -1,15 +1,14 @@
 ---
-title: What's new or changed in Project Service Automation version 3.x wave 1 2020 
+title: What's new or changed in Project Service Automation version 3.x wave 1 2020
 description: This topic provides information about what is new and changed in Project Service Automation version 3 wave 1 2020.
 manager: kfend
 ms.service: dynamics-365-projectservice
-ms.custom:
+ms.custom: 
   - dyn365-projectservice
 ms.date: 05/15/2020
 ms.topic: article
 ms.prod: 
-ms.service: business-applications
-ms.technology: Dynamics 365 Project Service Automation 3.x wave 1 2020 
+ms.technology: Dynamics 365 Project Service Automation 3.x wave 1 2020
 author: stsporen
 ms.author: stsporen
 audience: Admin
@@ -20,7 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365PS
-  
+  - ProjectOperations
 ---
 
 

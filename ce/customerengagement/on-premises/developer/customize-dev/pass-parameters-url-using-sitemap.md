@@ -3,7 +3,7 @@ title: "Pass parameters to a URL using the SiteMap  (Developer Guide for Dynamic
 description: "Learn about passing parameters to a URL using the SiteMap"
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

@@ -1,5 +1,5 @@
 ---
-title: Experiment with demo data 
+title: Experiment with demo data
 description: How to download and experiment with demo data for Project Service Automation.
 author: JohnPBurrows
 manager: kfend
@@ -19,6 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365PS
+  - ProjectOperations
 ---
 # Experiment with demo data (Project Service)
 

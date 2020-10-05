@@ -94,9 +94,9 @@ To fix this, do one of the following:
 
 ## It looks like Marketing is set up on my instance, but why does it generate so many errors?
 
-If Marketing is visible on your instance, but nothing is working, then you might have just a partial installation. This can happen if you use the Dynamics 365 admin center to set up Marketing as a service (on the **Instances** tab) rather than as an app (on the **Applications** tab). As a result, you might have the Marketing service installed, but not its many supporting components.
+If Marketing is visible on your instance, but nothing is working, then you might have just a partial installation. This can happen if you use the Power Platform admin center to set up Marketing as a service (on the **Instances** tab) rather than as an app (on the **Applications** tab). As a result, you might have the Marketing service installed, but not its many supporting components.
 
-To fix this, go back to the [Dynamics 365 admin center](dynamics-365-admin-center.md) and reinstall from the **Applications** tab as described in [Purchase and set up Dynamics 365 Marketing](purchase-setup.md). The setup wizard should fix your installation.
+To fix this, go back to the [Power Platform admin center](power-platform-admin-center.md) and reinstall from the **Applications** tab as described in [Purchase and set up Dynamics 365 Marketing](purchase-setup.md). The setup wizard should fix your installation.
 
 ![Set up Marketing using the Applications tab, not the Instances tab](media/purchase-app-tab.png "Set up Marketing using the Applications tab, not the Instances tab")
 
@@ -107,7 +107,7 @@ To fix this, go back to the [Dynamics 365 admin center](dynamics-365-admin-cente
 If your setup fails for some reason, you'll be notified by email and/or by a status message in your web browser (if you keep it open during the installation). Often, part of the solution will be to rerun the setup wizard after waiting for an hour or so. To rerun the setup wizard, do one of the following:
 
 - If you are setting up a [trial](trial-signup.md), then you should have received a welcome email that included a link to the setup wizard. Find your welcome mail and click that link to launch the wizard.
-- If you are setting up a production instance, then launch the setup wizard from the **Applications** tab in the Dynamics 365 admin center, as described in [Re-run the Marketing setup wizard](re-run-setup.md).
+- If you are setting up a production instance, then launch the setup wizard from the **Applications** tab in the Power Platform admin center, as described in [Re-run the Marketing setup wizard](re-run-setup.md).
 
 <a name="fix-portal"></a>
 
@@ -196,7 +196,7 @@ If clearing the cache didn't fix your portal issues, then restarting it may help
 
 To restart your portal:
 
-1. [Open the Dynamics 365 admin center](dynamics-365-admin-center.md) and go to the **Applications** tab.
+1. [Open the Power Platform admin center](power-platform-admin-center.md) and go to the **Applications** tab.
 
 2. Each configured portal app is listed in the **Application** column using the name of the Dynamics 365 instance it is assigned to (so it probably doesn't have "portal" in its name), and shows a value of **Configured** in the **Status** column. Find and select your portal in the list and then select **Manage** in the side panel.  
 
@@ -212,9 +212,9 @@ To restart your portal:
 
 ## How can I fix my portal after changing my instance name?
 
-The Dynamics 365 admin center enables you to change the  name of any of your instances at any time. If you do so, then the URL for the affected instance will also change to match and, as a result, your portal will no longer be configured correctly and will stop working. To fix it, you must reconfigure your portal as follows:
+The Power Platform admin center enables you to change the  name of any of your instances at any time. If you do so, then the URL for the affected instance will also change to match and, as a result, your portal will no longer be configured correctly and will stop working. To fix it, you must reconfigure your portal as follows:
 
-1. [Open the Dynamics 365 admin center](dynamics-365-admin-center.md) and go to the **Applications** tab.
+1. [Open the Power Platform admin center](power-platform-admin-center.md) and go to the **Applications** tab.
 
 2. Each configured portal app is listed in the **Application** column using the name of the Dynamics 365 instance it is assigned to (so it probably doesn't have "portal" in its name), and shows a value of **Configured** in the **Status** column. Find and select your portal in the list and then select **Manage** in the side panel.  
 
@@ -232,7 +232,7 @@ The Dynamics 365 admin center enables you to change the  name of any of your ins
 
 If you don't see the **Survey** tile in the **Toolbox** of your [customer journey designer](customer-journeys-create-automated-campaigns.md), or if it isn't working properly, then the Dynamics 365 Marketing setup wizard might have failed to set up the Voice of the Customer app correctly. If this was the only error that occurred during installation, then you might not have received any messages about it. To fix this, do the following:
 
-1. [Open the Dynamics 365 admin center](dynamics-365-admin-center.md).
+1. [Open the Power Platform admin center](power-platform-admin-center.md).
 
 1. Go to the **Applications** tab, select any **Voice of the Customer** application in the applications list, and then select the **Manage** button in the side panel.
 
@@ -248,7 +248,7 @@ If you don't see the **Survey** tile in the **Toolbox** of your [customer journe
 
 1. Select **Install**. A message at the bottom of the page announces that the installation has successfully started.
 
-1. To track the installation progress, go back to your Dynamics 365 admin center and open the **Instances** tab. Select your instance in the list and then select the **Solutions** button in the side panel.
+1. To track the installation progress, go back to your Power Platform admin center and open the **Instances** tab. Select your instance in the list and then select the **Solutions** button in the side panel.
 
     ![Manage the solutions installed on your instances](media/admin-voc-instances.png "Manage the solutions installed on your instances")
 

@@ -1,5 +1,5 @@
 ---
-title: Propose project resources 
+title: Propose project resources
 description: This topic provides information about how to propose project resources.
 author: ruhercul
 manager: kfend
@@ -19,6 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365PS
+  - ProjectOperations
 ---
 
 # Propose project resources

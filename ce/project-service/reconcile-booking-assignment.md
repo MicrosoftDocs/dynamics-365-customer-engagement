@@ -1,6 +1,6 @@
 ---
 title: Reconcile bookings and assignments
-description: This topic provides information about actuals. 
+description: This topic provides information about actuals.
 author: ruhercul
 manager: kfend
 ms.service: dynamics-365-customerservice
@@ -19,6 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365PS
+  - ProjectOperations
 ---
 
 # Reconcile bookings and assignments

@@ -4,7 +4,7 @@ description: "Dynamics 365 Customer Engagement client applications include the w
 ms.custom: 
   - dyn365-deflc
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

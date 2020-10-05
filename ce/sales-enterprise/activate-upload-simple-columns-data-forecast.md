@@ -2,8 +2,7 @@
 title: "Activate and upload simple columns data for a forecast (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Activate and upload simple columns data for a forecast in Dynamics 365 Sales."
 ms.date: 02/03/2020
-ms.service:
-  - "dynamics-365-sales"
+ms.service: dynamics-365-sales
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -65,7 +64,7 @@ You're directed to the **Forecast configuration** home page, where your organiza
 <tr><td>
 
 > [!div class="nextstepaction"] 
-> [Previous step: Choose layout and columns](choose-layout-and-columns-forecast.md)
+> [Previous step: Configure and manage drill-down entities](configure-manage-drill-downs.md)
 </td></tr>
 </table>
 

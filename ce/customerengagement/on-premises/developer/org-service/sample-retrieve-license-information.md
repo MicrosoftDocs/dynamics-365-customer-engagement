@@ -12,7 +12,7 @@ ms.assetid: 7c8bd1ce-59e0-4884-b7bf-e809d7fd0b75
 author: JimDaly
 ms.author: jdaly
 manager: jdaly
-ms.reviewer: "pehecke"
+ms.reviewer: pehecke
 ms.suite: 
 ms.tgt_pltfrm: 
 topic-status: Drafting

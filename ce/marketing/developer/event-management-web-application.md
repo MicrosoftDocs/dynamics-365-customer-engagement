@@ -1,20 +1,18 @@
 ---
-title: "Overview | MicrosoftDocs"
-description: "Provides information about how you can extend event management  web application functionality."
+title: "Event management web application overview | MicrosoftDocs"
+description: "Learn how you can extend event management web application functionality in Dynamics 365 Marketing."
 ms.custom:
   - dyn365-developer
   - dyn365-marketing
-ms.date: 09/06/2019
+ms.date: 09/16/2020
 ms.service: dynamics-365-marketing
-ms.technology:
-  - "marketing"
 ms.topic: "article"
-author: Nkrb
-ms.author: nabuthuk
-manager: kvivek
+author: alfergus
+ms.author: alfergus
+manager: shellyha
 ---
 
-# Overview
+# Event management web application overview
 
 The event management feature helps you to organize, manage, and process the events. When you install the event management solution, you get an event portal which gives the users a web application where they can get to know more about the event details. More information: [Event Portal](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/set-up-event-portal).
 
@@ -43,7 +41,7 @@ To get started with customizing the demo event website, you need to follow these
 
 2. Install [Node.js](https://nodejs.org/en/download) version 10.x or higher.
 
-3. Open Command Prompt or Powershell and run the command to check whether the installation is successful or not.
+3. Open Command Prompt or Windows Powershell and run the command to check whether the installation is successful or not.
 
    ```CLI
     node -v
@@ -71,10 +69,14 @@ To get started with customizing the demo event website, you need to follow these
 
 ## Download sample event website
 
+> [!NOTE]
+> Newer versions of Event Website will be available once new features and bug fixes are be released.
+
 Select the version you would like to download from the table below.
 
 | Name | Release | Changes | Uploaded |
 |--|--|--|--|
+|Sample Event Website| 1.27.0 (September release)| - Added possibility to configure the display of the dates. <br/>- Minor improvements and bug fixes.| [Download](https://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/200909-EventWebsite.zip)
 |Sample Event Website| 1.24.0 (June release)| - Updated deployment script to allow single file deployment for Portals. <br/>- Minor improvements and bug fixes.| [Download](https://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/200605-EventWebsite.zip)
 |Sample Event Website| 1.23.0 (May release)| - Fix accesibility issues. <br/>- Minor improvements and bug fixes.| [Download](https://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/200505-EventWebsite.zip)
 |Sample Event Website| 1.22.0 (April release)| - Fix accesibility issues. <br/>- Minor improvements and bug fixes.| [Download](https://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/200403-EventWebsite.zip)

@@ -3,12 +3,11 @@ title: Upgrade home page
 description: This topic shows where to find important information about the new and changed features in Dynamics 365 Project Service Automation, and the process for upgrading to the newest version.
 manager: kfend
 ms.service: dynamics-365-customerservice
-ms.custom:
+ms.custom: 
   - dyn365-projectservice
 ms.date: 05/30/2019
 ms.topic: article
 ms.prod: 
-ms.service: business-applications
 ms.technology: Dynamics 365 for Project Service 3.x
 author: rumant
 ms.author: rumant
@@ -20,7 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365PS
-  
+  - ProjectOperations
 ---
 
 # Upgrade home page

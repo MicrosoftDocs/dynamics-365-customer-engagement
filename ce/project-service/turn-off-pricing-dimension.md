@@ -1,9 +1,9 @@
 ---
 title: Turn off a pricing dimension
-description: This topic shows how to set up pricing dimensions in the Project Service solution. 
+description: This topic shows how to set up pricing dimensions in the Project Service solution.
 author: Rumant
 manager: kfend
-ms.custom:
+ms.custom: 
   - dyn365-projectservice
 ms.date: 11/06/2018
 ms.topic: article
@@ -16,7 +16,8 @@ search.audienceType:
   - customizer
   - enduser
 search.app: 
-    - D365PS
+  - D365PS
+  - ProjectOperations
 ---
 
 

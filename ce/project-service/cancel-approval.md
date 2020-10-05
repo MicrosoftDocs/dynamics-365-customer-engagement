@@ -4,12 +4,11 @@ description: This topic provides information about how to cancel an approved pro
 author: rumant
 manager: kfend
 ms.service: dynamics-365-customerservice
-ms.custom:
+ms.custom: 
   - dyn365-projectservice
 ms.date: 03/07/2019
 ms.topic: article
 ms.prod: 
-ms.service: business-applications
 ms.technology: Microsoft Dynamics 365 Project Service Automation
 audience: Admin
 search.audienceType: 
@@ -19,6 +18,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365PS
+  - ProjectOperations
 ---
 
 

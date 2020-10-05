@@ -1,6 +1,6 @@
 ---
-title: Business transactions 
-description: This topic provides information about business transactions.  
+title: Business transactions
+description: This topic provides information about business transactions.
 author: rumant
 manager: kfend
 ms.service: dynamics-365-customerservice
@@ -19,6 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365PS
+  - ProjectOperations
 ---
 
 # Business transactions

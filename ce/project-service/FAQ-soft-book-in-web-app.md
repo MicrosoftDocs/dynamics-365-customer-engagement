@@ -1,16 +1,14 @@
 ---
-
-title: How do I "soft book" resources in app version 2.x? 
+title: How do I "soft book" resources in app version 2.x?
 description: This article describes how to soft book project team members with Project Service.
-author: JohnPBurrows 
+author: JohnPBurrows
 manager: kfend
 ms.service: dynamics-365-customerservice
-ms.custom:
+ms.custom: 
   - dyn365-projectservice
 ms.date: 8/21/2018
 ms.topic: article
 ms.prod: Applies to Project Service version 2.x
-ms.service: business-applications
 ms.technology: 
 ms.author: john.burrows
 audience: Admin
@@ -21,6 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365PS
+  - ProjectOperations
 ---
 
 # How do I "soft book" resources in the web app (Project Service app v2.x)?

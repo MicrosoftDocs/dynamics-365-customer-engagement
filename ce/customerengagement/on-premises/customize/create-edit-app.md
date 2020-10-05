@@ -28,11 +28,11 @@ search.audienceType:
 
 Create single-entity or multiple-entity apps quickly by using the tile-based app designer. Create once and run your app on large screen devices. 
 > [!div class="mx-imgBorder"] 
-> ![](media/fundraiser-app.png "Fundraiser sample app") 
+> ![Fundraiser sample app](media/fundraiser-app.png "Fundraiser sample app") 
 
 As well as mobile devices.  
 > [!div class="mx-imgBorder"] 
-> ![](media/fundraiser-mobile.png "Fundraiser sample app on a mobile device")
+> ![Fundraiser sample app on a mobile device](media/fundraiser-mobile.png "Fundraiser sample app on a mobile device")
 
   
 ## Prerequisites
@@ -84,12 +84,12 @@ As well as mobile devices.
 3. Define the sitemap. The sitemap determines how users will navigate your app. Select ![Open site map](media/site-map-designer.png) to open the site map designer. More information: [Create a site map for an app using the site map designer](create-site-map-app.md)
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/app-designer-sitemap-location.PNG "Site map designer")    
+   > ![Site map designer](media/app-designer-sitemap-location.PNG "Site map designer")    
 
 4. Add components or edit existing components. Components include entities and related items, such as forms, views, charts, dashboards, and business process flows. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add or edit app components](../customize/add-edit-app-components.md)  
   
    > [!div class="mx-imgBorder"] 
-   > ![](media/app-designer.png "App designer tile-based interface")   
+   > ![App designer tile-based interface](media/app-designer.png "App designer tile-based interface")   
 
 <a name="editApp"></a>   
 
@@ -100,7 +100,7 @@ As well as mobile devices.
 1. From Dynamics 365 Customer Engagement (on-premises) go to **Settings** > **My Apps**, select **...** on the app you want, and then select **Open in App Designer**. Alternatively, go to the **Apps** area of solution explorer and select the app that you want to edit.  
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/edit-app.png "Edit app")   
+   > ![Edit app](media/edit-app.png "Edit app")   
 
 2. Add or edit components to the app, as required. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add or edit app components](../customize/add-edit-app-components.md)  
 
@@ -117,7 +117,7 @@ App users can run published apps from Dynamics 365 Customer Engagement (on-premi
 Customizers and app designers can also copy and share the app URL from the **Properties** tab in app designer. More information: [Manage app properties in the app designer](manage-app-properties.md)
 
 > [!div class="mx-imgBorder"] 
-> ![](media/app-url.png "App URL")   
+> ![App URL](media/app-url.png "App URL")   
 
 
 ### See also  

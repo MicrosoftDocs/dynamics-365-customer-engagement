@@ -1,16 +1,16 @@
 ---
-title: "Configure a pre-chat survey | MicrosoftDocs"
-description: "Instructions to configure a pre-chat survey in Omnichannel for Customer Service."
+title: "Configure a pre-conversation survey | MicrosoftDocs"
+description: "Instructions to configure a pre-conversation survey in Omnichannel for Customer Service."
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 03/04/2020
+ms.date: 08/03/2020
 ms.service: 
   - "dynamics-365-customerservice"
-ms.topic: article
+ms.topic: article 
 ---
 
-# Configure a pre-chat survey
+# Configure a pre-conversation survey
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
@@ -18,8 +18,8 @@ You can configure your chat widget to show users a survey that they must respond
 
 1. Sign in to Omnichannel Administration.
 2. Go to **Channels** &gt; **Chat**.
-3. Open the chat widget in which you want to configure a pre-chat survey, and select **Pre-chat survey**.
-4. In the **Pre-chat survey** box, select **Yes**. The options to add questions and refresh the page are displayed.
+3. Open the chat widget in which you want to configure a pre-chat survey, and select **Surveys**.
+4. In the **Pre-conversation survey** area, set the **Turn on** toggle to  **Yes**. The options to add questions and refresh the page are displayed.
 5. Select **Add question**.
 
     > [!NOTE]
@@ -55,7 +55,7 @@ You can configure your chat widget to show users a survey that they must respond
     > [!div class=mx-imgBorder]
     > ![Change the order of a question in a pre-chat survey](../media/oc-change-question-order.png "Change the order of a question in a pre-chat survey")
 
-A sample screenshot of the pre-chat survey that will be displayed for customers is as follows.
+A sample screenshot of the pre-conversation survey that will be displayed for customers is as follows.
 
 > [!div class=mx-imgBorder]
 > ![Sample pre-chat survey](../media/oc-pre-chat-survey.png "Sample pre-chat survey")

@@ -33,7 +33,7 @@ Follow the steps in this [KB article](https://support.microsoft.com/help/4468755
 
 
 > [!div class="mx-imgBorder"] 
-> ![](media/server-side-sync-failures-dashboard.png "Server-side sync failures dashboard")
+> ![Server-side sync failures dashboard](media/server-side-sync-failures-dashboard.png "Server-side sync failures dashboard")
 
  
 <a name="BKMK_PerformanceDashboard"></a>   
