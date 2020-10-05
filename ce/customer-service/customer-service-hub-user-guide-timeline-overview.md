@@ -44,7 +44,7 @@ When enabled by your system administrator, the **Create a timeline record** feat
 2. Select the type of record you want to create from the display options available. <BR><BR>
 ![Create a timeline record](media\timeline-create-a-timeline-record-1f.png "Create a timeline record")
 
-For information on timeline record configuration, see [Configure activity record types](customer-service-hub-user-guide-timeline-admin.md#configure-activity-record-types).
+For information on timeline record configuration, see [Configure activity record types](customer-service-hub-user-guide-timeline-admin.md#how-to-configure-activity-record-types). 
 
 ## Work with filters
 
