@@ -4,9 +4,9 @@ description: See how you can create and manage queues in Omnichannel for Custome
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/01/2020
+ms.date: 10/12/2020
 ms.service: 
-  - "dynamics-365-customerservice"
+  "dynamics-365-customerservice"
 ms.topic: article
 ---
 
@@ -16,12 +16,13 @@ ms.topic: article
 
 ## Introduction
 
-Omnichannel queues are used to collect and distribute workload among agents. Workload includes conversations, such as Chat or SMS. Agents are added as queue members to the queues and the workload is distributed among these agents.
+Omnichannel queues are used to collect and distribute workload among agents. Workload includes conversations, such as Chat or SMS. Agents are added as members to the queues and the workload is distributed among these agents.
 
-Queues in Omnichannel for Customer Service are proxies for skills or domains. For example, you can create separate queues for billing issues, investment issues, products, and so on. When a customer query comes for these issue types, it is routed to its designated queue. You can also set up customer support availability matrix by using a combination of queues, operating hour schedules, and routing rules.
+## How conversations are routed to queues
 
-To simplify the routing experience for administrators, queues are categorised into messaging and entity records. When you define queue type as messaging, conversations pertaining to the chat and social channels only can be routed to the messaging queues. When the queue type is entity records, the cases pertaining to entity records only can be routed to the entity records queues. Similarly, when you are creating a routing rule item, based on the channel for which the work stream has been created, only the corresponding queues will be available for selection.
+Queues in Omnichannel for Customer Service are proxies for skills or domains. You can create separate queues for each line of business, such as billing, investment, and products. When a customer query is raised for any of the areas, it is routed to the corresponding designated queue. You can also set up customer support availability matrix by using a combination of queues, operating hour schedules, and routing rules.
 
+To simplify the routing experience for administrators, queues are categorised into messaging and entity records. When you define the queue type as messaging, conversations pertaining to the chat and social channels only can be routed to the messaging queues. When the queue type is entity records, the cases pertaining to entity records only can be routed to the entity records queues. Therefore, when you are creating a routing rule item, based on the channel for which the work stream has been created, only the corresponding queues will be available for selection. A work stream for a social channel can be associated only with the messaging queue and a work stream for entity can be associated only with the entity queue.
 
     
 > [!div class=mx-imgBorder]
