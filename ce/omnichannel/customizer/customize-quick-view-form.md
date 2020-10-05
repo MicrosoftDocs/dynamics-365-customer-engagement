@@ -4,7 +4,7 @@ description: "Learn how to customize the quick view forms present in the Custome
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/01/2020
+ms.date: 10/05/2020
 ms.service: 
    "dynamics-365-customerservice"
 ms.topic: article
@@ -20,8 +20,8 @@ You customize the quick view form in the section by navigating to the respective
 | Customer profile | Account > Forms | Customer profile    |
 | Customer profile | Contact > Forms | Customer profile    |
 | Issue snapshot   | Case > Forms    | Issue Snapshot      |
-| Recent cases     | Account > Forms |  Cases for customer |
-| Recent cases     | Contact > Forms |  Cases for customer |
+| Recent cases     | Account > Forms | Cases for customer |
+| Recent cases     | Contact > Forms | Cases for customer |
 ||||
 
 The following procedure shows how to modify the **Customer profile** quick view form of the **Account** entity. The process is similar for other forms that are listed in the preceding table.

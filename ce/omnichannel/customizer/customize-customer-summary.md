@@ -4,7 +4,7 @@ description: "Learn on how to customize the Customer summary form in Omnichannel
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 09/29/2020
+ms.date: 10/05/2020
 ms.service: 
  "dynamics-365-customerservice"
 ms.topic: article
