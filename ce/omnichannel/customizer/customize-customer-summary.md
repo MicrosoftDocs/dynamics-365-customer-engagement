@@ -4,7 +4,7 @@ description: "Learn on how to customize the Customer summary form in Omnichannel
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 09/14/2020
+ms.date: 10/05/2020
 ms.service: 
  "dynamics-365-customerservice"
 ms.topic: article
@@ -15,17 +15,20 @@ ms.topic: article
 
 ## Introduction
 
-You can customize some quick view forms that are displayed on the **Customer summary** page by navigating to the entity quick view forms. You can do the following:
+You can customize the following for the **Customer summary** page:
 
-- Add or remove existing controls
-- Add default attributes from an entity
+- Add or remove existing or custom controls
+- Add a web resource or iFrame to the form
 - Customize the layout
 
-By default, the **Customer summary** page displays the sections that are listed in this topic.
+> [!NOTE]
+> However, for a conversation entity, you can't add custom fields, forms, or views.
+
+By default, the **Customer summary** page displays the sections that are listed in this topic. For information on how to customize these sections, see [Customize quick view forms](customize-quick-view-form.md).
 
 ## Customer profile
 
-The **Customer profile** section provides details about the customer or account. These details include the name of the customer or account, the category or job, the title, the relationship type, the city, and the preferred channel of engagement. You can modify the quick view forms in this section by navigating to respective entity forms. To learn more, see [Customize quick view forms](customize-quick-view-form.md).
+The **Customer profile** section provides details about the customer or account. These details include the name of the customer or account, category or job, title, relationship type, city, and the preferred channel of engagement. You can modify the quick view forms in this section by navigating to respective entity forms. 
 
 ## Conversation summary
 
@@ -39,11 +42,11 @@ If the customer signs in to the portal to initiate a chat with the support, then
 
 ## Issue snapshot
 
-For an incoming conversation request, the system links an existing case to the conversation and shows it on the **Issue Snapshot** section. This section shows information such as the title of the case, the priority, the status of the case, the product, and the owner. You can modify the quick view forms in this section by navigating to respective entity forms. To learn more, see [Customize quick view forms](customize-quick-view-form.md).
+For an incoming conversation request, the system links an existing case to the conversation and shows it on the **Issue Snapshot** section. This section shows information such as the title of the case, the priority, the status of the case, the product, and the owner. You can modify the quick view forms in this section by navigating to respective entity forms.
 
 ## Recent cases
 
-This form section displays the recent cases that relate to the customer. You can modify the quick view forms in this section by navigating to respective entity forms. To learn more, see [Customize quick view forms](customize-quick-view-form.md).
+This form section displays the recent cases that relate to the customer. You can modify the quick view forms in this section by navigating to respective entity forms.
 
 ## Timeline
 
