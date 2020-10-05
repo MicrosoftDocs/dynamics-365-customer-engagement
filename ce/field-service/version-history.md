@@ -3,7 +3,7 @@ title: "Dynamics 365 Field Service version history | MicrosoftDocs"
 description: Version history for Dynamics 365 Field Service
 ms.custom:
   - dyn365-fieldservice
-ms.date: 08/21/2020
+ms.date: 10/05/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -72,17 +72,17 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 
 ## 8.8.30.103
 (Includes Universal Resource Scheduling version [3.12.31.50](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling#3123150))
-This version introduces the [Field Service 2020 Wave 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/service/dynamics365-field-service/planned-features) new and updated features outlined as Generally Available. It also introduces all of the changes from the EA versions. In addition, it introduces the following:
-- Resolved an issue which had the potential to cause timeouts based on resource location updates from Field Service Mobile.
+This version introduces the [Field Service 2020 Wave 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/service/dynamics365-field-service/planned-features) new and updated features outlined as generally available. It also introduces all of the changes from the early access versions. In addition, it introduces the following:
+- Resolved an issue that had the potential to cause timeouts based on resource location updates from Field Service Mobile.
 - Improved update logic to a work order product's currency field to ensure that non-currency related changes did not appear as also making an update to the currency field.
 - Corrected an issue where, under certain circumstances, the system could auto-generate duplicate agreement booking date records when updating **Auto Generate Work Order**.
 - Corrected behavior where it was possible to have the value of **Date Window Start** reverted on save if a user followed a specific record update pattern and got a form validation.
 - Resolved an issue where, if a user provided a name to a work order incident record that was different than the automatically provided value, then deactivated and reactivated the record, the name would revert to the automatic value.
-- Resolved an issue that impacted certain solution update scenarios based on conflicting settings to the CanCreateAttributes attribute in the Unit, Unit Group, and Price List Item entities.
-- Improved form logic to allow for manual Time Entry record saving when an org has both Field Service and Project Operations installed.
+- Resolved an issue that impacted certain solution update scenarios based on conflicting settings to the CanCreateAttributes attribute in the unit, unit group, and price list item entities.
+- Improved form logic to allow for manual time entry record saving when an org has both Field Service and Project Operations installed.
 - Improved the save/save and close behaviors of a record from within a modal form dialog (MFD) to ensure that the contextual record would automatically refresh so a user can see the immediate impacts of their efforts. An example scenario: a user creates a new booking from a work order, the booking form will now open in an MFD by default. When the user saves and closes the booking form, the contextual work order will refresh. The work order's status will change from unscheduled to scheduled, immediately.
 - Enabled the "Customer Asset Quick Create" and "Asset Work Order Quick View Form" forms to be customizable; initially, they were released as non-customizable.
-- Corrected a problem which could present when bulk editing work order records.
+- Corrected a problem that could present when bulk editing work order records.
 
 ## 8.8.26.24
 (Includes Universal Resource Scheduling version [3.12.25.5](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling#312255)) 
