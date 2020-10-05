@@ -1,5 +1,5 @@
 ---
-title: "createTab (Omnichannel for Customer Service JavaScript API reference) | MicrosoftDocs"
+title: "createTab (Omnichannel for Customer Service Session API reference) | MicrosoftDocs"
 description: 
 author: platkat
 ms.author: ktaylor
