@@ -1,7 +1,12 @@
 {
   "redirections": [
     {
-      "source_path": "ce/legal/apps-for-power-platform-tou-rtw.mdd",
+      "source_path": "ce/marketing/customer-journey.md",
+      "redirect_url": "create-simple-customer-journey",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/apps-for-power-platform-tou-rtw.md",
       "redirect_url": "apps-for-power-platform-tou",
       "redirect_document_id": "false"
     },

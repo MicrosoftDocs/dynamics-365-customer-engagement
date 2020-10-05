@@ -53,7 +53,7 @@ You can configure customer journey triggers to react when contacts on that journ
 
 You'll often use this feature in combination with a LinkedIn Matched Audience that's based on one of your Dynamics 365 Marketing segments. That way, you can target the same segment of contacts with your customer journey as you do with the LinkedIn campaign linked to the LinkedIn-campaign tile.
 
-For more information about the LinkedIn campaign tile for customer journeys, see [LinkedIn campaign](customer-journey-tiles-reference.md#linkedin-tile).
+For more information about the LinkedIn campaign tile for customer journeys, see [LinkedIn campaign](customer-journey-tiles-reference.md#actions).
 
 For more information about customer journeys in general, see [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md).
 

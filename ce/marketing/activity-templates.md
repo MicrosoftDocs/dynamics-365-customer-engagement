@@ -49,4 +49,4 @@ Other settings for activity marketing templates vary by activity type and, like 
 
 [Generate activities from a customer journey](generate-activities-from-customer-journey.md)  
 [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)  
-[Action tiles](customer-journey-tiles-reference.md#action-tiles)
+[Action tiles](customer-journey-tiles-reference.md#actions)
