@@ -2,7 +2,7 @@
 title: "Set up and manage marketing forms for use in marketing pages (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn about various types of marketing forms and how to create them in Dynamics 365 Marketing"
 keywords: marketing form, fields
-ms.date: 09/22/2020
+ms.date: 10/01/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -143,14 +143,7 @@ When a form is submitted with **Update contact/leads** set to **Only contacts**:
   - If no contact is found, then create a new one based on the submission.
 - The system generates a form-submitted interaction record that includes the found/created contact ID (but the lead ID is null).
 
-#### Early access: Do not create/update contacts or leads
-
-> [!IMPORTANT]
-> Early access features are currently available only on opted-in instances. You can opt in for early access on any instance, but we recommend that you do so only on trial, test, or sandbox instances, which will give you a chance to learn the new functionality before it shows up on your production instances later this year.
->
-> For instructions on how to opt in and enable early access, see [Opt in to early access updates](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates). For more information about the 2020 release wave 2 schedule, and for answers to frequently asked questions about the early access program, see [2020 release wave 2 features available for early access](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/features-ready-early-access).
->
-> We encourage all customers to provide feedback related to early access features on the [Dynamics 365 Marketing Forum](https://community.dynamics.com/365/marketing/f/dynamics-365-for-marketing-forum), your Microsoft contact or partner, and/or through [Microsoft Support](https://docs.microsoft.com/power-platform/admin/get-help-support).
+#### Do not create/update contacts or leads
 
 You can also collect form data, but choose not to create new contacts or update contacts or leads. This feature allows you to access data from form submissions in a form submission entity. It does not map or update any fields to an entity at the time of the form submission. This option provides advanced users the flexibility to decide how to handle the form submission entity without changing any contact or lead data in the CRM database.
 

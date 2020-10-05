@@ -3,7 +3,7 @@ title: "Dynamics 365 Field Service mobile applications | Microsoft Docs"
 description: Learn about the two Field Service mobile applications and when to use each one.
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 09/17/2020
+ms.date: 10/01/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -47,15 +47,12 @@ Both the Field Service (Dynamics 365) mobile app _and_ Field Service Mobile (Xam
 
 ## Implementation and migration guidance
 
-The feature comparison table below for the new Field Service (Dynamics 365) and the existing Field Service Mobile (Xamarin) is provided to help select the best app for your organization. We recommend using the new Field Service (Dynamics 365) mobile app to benefit from the single maker platform and our new features, and to avoid future migration, which must happen by June 2022.  
+We recommend using the Field Service (Dynamics 365) mobile app to benefit from the new features and continuous investments in the platform, as well as to avoid future migration, which must occur by June 2022. To learn about the existing and the upcoming capabilities, refer to the feature comparison table in this article for the Field Service (Dynamics 365) and the existing Field Service Mobile (Xamarin) apps.
 
-While the new Field Service (Dynamics 365) mobile app continues to evolve, we'll continue to make available and support the current Field Service Mobile (Xamarin) app. By June 2021, new deployments must use the Field Service (Dynamics 365) mobile app; support for the current Field Service Mobile (Xamarin) app will end June 2022. 
+While the new Field Service (Dynamics 365) mobile app continues to evolve, we'll continue to make available and support the current Field Service Mobile (Xamarin) app. By June 2021, new deployments must use the Field Service (Dynamics 365) mobile app; support for the current Field Service Mobile (Xamarin) app will end June 2022.
+
 
 ## Feature comparison: Field Service (Dynamics 365) mobile app versus Field Service Mobile (Xamarin)
-
-The Field Service (Dynamics 365) mobile app is recommended for **simpler** use cases and for organizations that want to get up and running quickly with a mobile solution for technicians because it is built on the Power Platform and uses the same admin console as Field Service web and the same PCF controls. 
-
-Field Service Mobile (Xamarin) is recommended for more **complex** use cases where you may need custom reporting, push notifications, geofencing, and business processes or validations that work offline.
 
 Use the following feature comparison table to understand which mobile app is right for your business.
 

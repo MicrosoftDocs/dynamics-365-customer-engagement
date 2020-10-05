@@ -39,6 +39,7 @@
 ### [Create and view inspections](inspections.md)
 ### [Advanced inspection options](inspections-advanced.md)
 ## [Work order templates (incident types)](configure-incident-types.md)
+## [Predictive work duration reports (Preview)](analytics-predictive-work-duration.md)
 ## [Work order completion surveys](work-order-surveys.md)
 
 # Bookable resources
@@ -90,6 +91,10 @@
 
 # Mobile apps
 ## [Compare mobile apps (Xamarin vs. Microsoft Power Platform)](mobile-2020-power-platform.md)
+## Dynamics 365 Field Service mobile app (Microsoft Power Platform)
+### [Install and get started](mobile-power-app-get-started.md)
+### [Configure](mobile-power-app-configure.md)
+### [FAQs](mobile-power-app-faq.md)
 ## Field Service Mobile (Xamarin app)
 ### [Overview](field-service-mobile-overview.md)
 ### [Setup](field-service-mobile-app-user-guide.md)
@@ -108,10 +113,6 @@
 #### [Bookings don't appear when logged into the app?](mobile-faq-bookings-not-showing.md)
 #### [Bookings not scheduled to me show up when logged into the mobile app](mobile-faq-bookings-not-scheduled-to-me.md)
 #### [More FAQs](mobile-faq.md)
-## Dynamics 365 Field Service mobile app (Microsoft Power Platform)
-### [Install and get started](mobile-power-app-get-started.md)
-### [Configure](mobile-power-app-configure.md)
-### [FAQs](mobile-power-app-faq.md)
 ## [Get help](mobile-get-help.md) 
 
 # Agreements and preventive maintenance
