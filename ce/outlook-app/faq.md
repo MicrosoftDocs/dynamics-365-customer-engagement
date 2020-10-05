@@ -113,4 +113,4 @@ Dynamics 365 App for Outlook needs Internet Explorer 11 or higher to be installe
 For frequently used pages, pin the app so that it will stay loaded even when you switch to other mail items. 
 
 ## User is not able to configure *Follow this email* button on the top pane in Dynamics 365 App for Outlook.
-This feature will not be available for configuration, if not already available.
+This feature is no longer available for configuration.
