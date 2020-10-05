@@ -340,13 +340,10 @@ Legend
 
 For more information on Notes and Post functionality and configuration, see:
 - [Display options](customer-service-hub-user-guide-timeline-admin.md#display-options)
-- [Record Settings](customer-service-hub-user-guide-timeline-admin.md#record-settings-section) 
+- [Record Settings](customer-service-hub-user-guide-timeline-admin.md#record-settings)
 - [Notes on timeline](customer-service-hub-user-guide-timeline-admin.md#notes-on-timeline)
-
-
 
 ### See Also
 
-[Configure Timeline](customer-service-hub-user-guide-timeline-admin.md)
-
-[Timeline FAQs](timeline-faqs.md)
+[Configure Timeline](customer-service-hub-user-guide-timeline-admin.md)  
+[Timeline FAQs](timeline-faqs.md)  
