@@ -189,7 +189,7 @@ You must configure the Power BI workspace using the **Omnichannel Administration
     > [!div class=mx-imgBorder]
     > ![Select access](../media/supervisor-admin-powerbi-select-access.png "Select access")
 
-5. Add email address of the security groups, distribution lists, Office 365 groups, or individuals to these workspaces as members, contributors, or admins.  
+5. Add email address of the security groups, distribution lists, Microsoft 365 groups, or individuals to these workspaces as members, contributors, or admins.  
 
     > [!div class=mx-imgBorder]
     > ![Add members to workspace](../media/supervisor-admin-power-bi-workspace-add-members.png "Add members to workspace")

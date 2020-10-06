@@ -154,7 +154,7 @@ The demo data package requires six users. For the package to install correctly, 
 
 3. On the next window:
 
-   a. Select deployment type **Office 365**.
+   a. Select deployment type **Microsoft 365**.
 
    b. Use the user and password of the system administrator user configured in "Create or configure users" ("Spencer Low" with "spencerl" username).
 

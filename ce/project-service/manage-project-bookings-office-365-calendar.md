@@ -1,6 +1,6 @@
 ---
-title: Manage projects and bookings in your Office 365 calendar
-description: How to manage projects and bookings in your Office 365 calendar
+title: Manage projects and bookings in your Microsoft 365 calendar
+description: How to manage projects and bookings in your Microsoft 365 calendar
 author: ruhercul
 manager: kfend
 ms.service: dynamics-365-projectservice

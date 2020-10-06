@@ -109,7 +109,7 @@ Regarding password storage, the app can be configured to either:
 - Store the password in the device's secure storage so that the user does not need to type it in repeatedly
 
 ### Multi-factor authentication (MFA)
-Multi-factor authentication based on the related Office 365 tenant Azure active directory can be enabled for Field Service Mobile. This adds a second layer of security with a phone call or text message for user sign-in and transactions.  
+Multi-factor authentication based on the related Microsoft 365 tenant Azure active directory can be enabled for Field Service Mobile. This adds a second layer of security with a phone call or text message for user sign-in and transactions.  
 
 ## Security
 

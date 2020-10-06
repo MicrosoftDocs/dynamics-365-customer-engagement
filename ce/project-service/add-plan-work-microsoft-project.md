@@ -131,7 +131,7 @@ The project will import into [!INCLUDE[pn_project_service_auto](../includes/pn-p
 ## Upload a Project file to SharePoint or Office Groups  
  You can upload your Project file to SharePoint and find it under the Associated Documents for your [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] project.  You need to have your administrator configure SharePoint document management and turn it on for the Project entity. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up SharePoint integration](../admin/set-up-sharepoint-integration.md)  
 
- You can also upload your Project file to [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] if you have Office Groups set up. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Collaborate with your colleagues using Office 365 Groups](../basics/collaborate-with-colleagues-using-office-365-groups.md)  
+ You can also upload your Project file to [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] if you have Office Groups set up. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Collaborate with your colleagues using Microsoft 365 Groups](../basics/collaborate-with-colleagues-using-office-365-groups.md)  
 
 ### Upload a file for SharePoint  
 

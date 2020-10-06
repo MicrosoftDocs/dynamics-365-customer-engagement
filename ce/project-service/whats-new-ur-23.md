@@ -42,7 +42,7 @@ The following issues have been fixed:
 The following issues have been fixed:
 
 - The **Resource utilization grid resource card** shows incorrect data when the time scale is more than five days.
-- When customers create a bookable resource, the plug-in intermittently fails to automatically add the resource to a Microsoft Office 365 group.
+- When customers create a bookable resource, the plug-in intermittently fails to automatically add the resource to a Microsoft 365 group.
 - **Reconciliation** view displays manual contours incorrectly in the **Week** or **Month** view.
 
 **Project Management**

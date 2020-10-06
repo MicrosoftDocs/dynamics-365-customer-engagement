@@ -40,7 +40,7 @@ To configure Exchange, you must have:
 
 -   System Administrator or Sales Professional Manager role
 
--   Office 365 subscription.
+-   Microsoft 365 subscription.
 
 -   Exchange Online subscription
 
@@ -51,7 +51,7 @@ instances](https://go.microsoft.com/fwlink/?linkid=730725).
 
 2.  If your organization has an Exchange subscription, skip to Step 5.
 
-3.  If you don’t have an Office 365 subscription, you’ll be prompted to purchase one. Select the link to purchase an Office 365 subscription.
+3.  If you don’t have an Microsoft 365 subscription, you’ll be prompted to purchase one. Select the link to purchase an Microsoft 365 subscription.
 
     > [!div class="mx-imgBorder"]
     > ![Link to sign up for Microsoft Exchange](media/get-microsoft-exchange.png "Link to sign up for Microsoft Exchange")

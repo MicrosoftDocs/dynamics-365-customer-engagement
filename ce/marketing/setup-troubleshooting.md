@@ -72,16 +72,16 @@ When you are setting up your Marketing app, the setup wizard asks you to choose 
 
 ## Do I have permissions to register applications on Azure?
 
-One of the requirements for running the [setup wizard](purchase-setup.md) for Dynamics 365 Marketing is that you must sign in to Office 365 with a user account that has permissions to register applications on Azure. To find out if you have these permissions, do the following:
+One of the requirements for running the [setup wizard](purchase-setup.md) for Dynamics 365 Marketing is that you must sign in to Microsoft 365 with a user account that has permissions to register applications on Azure. To find out if you have these permissions, do the following:
 
-1. Go to [portal.azure.com](https://portal.azure.com) and sign in with the Office 365 account that you want to use to install Dynamics 365 Marketing.
+1. Go to [portal.azure.com](https://portal.azure.com) and sign in with the Microsoft 365 account that you want to use to install Dynamics 365 Marketing.
 1. Select **Azure Active Directory** in the side navigator and the **User settings** in the second side navigator.
     ![Azure user settings](media/faq-azure-user-settings.png "Azure user settings") 
 1. Check the **App registrations** section on this page. If the **Yes** box is highlighted here, then you have permissions to register applications on Azure. If the **No** box is highlighted instead, try to select the **Yes** box and then select **Save**; if you don't have permissions to make this change, then please talk to your global administrator for assistance.
 
 ## Why do I get an authorization-failed message when I try to run the setup wizard?
 
-In some cases, when you sign up for a trial of Dynamics 365 or Office 365, you will receive an organization that is in an *unmanaged* state, which means (among other things) that you can't get permission to install third-party solutions&mdash;including Dynamics 365 Marketing. As a result, you'll see the following error message when you run the setup wizard for Marketing.
+In some cases, when you sign up for a trial of Dynamics 365 or Microsoft 365, you will receive an organization that is in an *unmanaged* state, which means (among other things) that you can't get permission to install third-party solutions&mdash;including Dynamics 365 Marketing. As a result, you'll see the following error message when you run the setup wizard for Marketing.
 
 ![Unmanaged organization error](media/setup-ts-unmanaged-aad.png "Unmanaged organization error")
 
