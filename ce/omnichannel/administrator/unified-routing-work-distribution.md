@@ -143,8 +143,8 @@ To effectively route and distribute work to agents, admins can set up the follow
 - [Create and manage routing rules](routing-rules.md)
 - [Configure and manage custom presence](presence-custom-presence.md)
 
-###  See also
+### See also
 
-[Omnichannel for Customer Service for administrators](omnichannel-administrator.md)
+[Omnichannel for Customer Service for administrators](omnichannel-administrator.md)  
 
 

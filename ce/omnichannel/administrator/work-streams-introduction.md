@@ -4,10 +4,10 @@ description: Understand and create work streams in the Omnichannel for Customer 
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 07/17/2020
+ms.date: 10/12/2020
 ms.topic: article
 ms.service: 
-  - "dynamics-365-customerservice"
+  "dynamics-365-customerservice"
 ---
 
 # Understand and create work streams 
@@ -66,9 +66,9 @@ Perform the following steps to create a work stream in Omnichannel for Customer 
 
       1. Select whether the **Work distribution mode** should be **Push** or **Pick** for agents to take up a conversation.
 
-         In **Push** mode, a conversation is dispatched to agents automatically via a screen-pop. You can configure a push conversation to be explicitly picked up.
+      - In **Push** mode, a conversation is dispatched to agents automatically using a message alert. You can configure a push conversation to be explicitly picked up.
 
-         In **Pick** mode, a conversation is dispatched to agents when they explicitly pick a conversation from the **Open work items** in the agent dashboard.
+      - In **Pick** mode, a conversation is dispatched to agents when they explicitly pick a conversation from the **Open work items** in the agent dashboard.
 
       2. In **Allowed Presences**, select a base presence, such as "Available" and "Busy" from the list. You can select all options also. Agents will be allocated work items even if the agent presence is set to one of the statuses specified here. If you have enabled [missed notifications](manage-missed-notifications.md), do not select "Away" as an allowed presence. For information, see [Configure and manage custom presence](presence-custom-presence.md).
 
@@ -76,6 +76,11 @@ Perform the following steps to create a work stream in Omnichannel for Customer 
           > ![New work stream](../media/omni-channel-new-work-stream.png)
 
       3. If you have selected **Push** in **Work distribution mode**, set the toggle to **Yes** for **Enable selecting from push-based work streams**. The agents can assign work items to themselves irrespective of constraints, such as capacity and presence.
+      4. If you want an ongoing conversation to be assigned to the same agent when the conversation status changes from waiting to active, make sure the **Enable Agent Affinity** is set to yes. By default, the toggle is enabled for social channels.
+    
+    > [!NOTE]
+    > The **Enable Agent Affinity** option is available only when the work distribution mode is push. More information: [Agent affinity](#agent-affinity).
+
 4. View and create context variables in the **Context variables** tab. Context variables enrich conversations with pre-chat data, channel data, and custom context data. These attributes can then be used to define routing rules to route conversations into different queues.
 
    1. Select **New** to create a context variable in the **Quick Create** window.
@@ -88,7 +93,7 @@ Perform the following steps to create a work stream in Omnichannel for Customer 
 
 5. Define routing rule items in the **Routing rule items** tab. Routing rule items are configured for each work stream, so that conversations can be routed to the correct queues. To learn how to configure a routing rule, see [Create and manage routing rules in Omnichannel](routing-rules.md).
 
-6. Select **Save** to save the work stream.
+6. Select **Save**. The work stream is saved.
 
 ## Associate work streams with channel artifacts
 
@@ -98,6 +103,17 @@ To learn more about how to set up channels and associate work streams, see the f
 
 - [Configure a chat channel](set-up-chat-widget.md)
 - [Configure an SMS channel](configure-sms-channel.md)
+
+### Agent affinity
+
+When a conversation becomes active from the waiting status, it might not be assigned to the same agent who had previously handled it. The agent affinity option that can be set at the work stream level helps you reassign the conversation to the agent who had worked on it earlier and sets the context of the issue details without the need for orientation. The agent affinity works as follows:
+
+- Is enabled by default for social channels.
+- Conversations are reassigned to the same agent regardless of agent's capacity.
+- Is available only for push type of work distribution.
+- Agent presence is not a determining factor.
+
+Because the conversation assignment takes place using the notification alert, the agent has the option to reject the assignment.
 
 ### See also
 
