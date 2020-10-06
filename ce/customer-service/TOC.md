@@ -87,9 +87,10 @@
 #### [Create article templates](../admin/create-templates-articles.md)
 
 ### Knowledge Base Management
-#### [Set up knowledge management using embedded knowledge search](set-up-knowledge-management-embedded-knowledge-search.md)
+#### [Set up knowledge management using settings](set-up-knowledge-management-embedded-knowledge-search.md)
 #### [Create and manage categories](create-manage-categories.md)
 #### [Create knowledge article template](create-templates-knowledge-article.md)
+#### [Set up search providers](set-up-search-providers.md)
 
 ### Similar Record Suggestions
 #### [Use advanced similarity rules to view similar case suggestions](suggest-similar-cases-for-a-case.md)
