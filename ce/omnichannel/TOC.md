@@ -424,14 +424,12 @@
 #### [lcw:threadUpdate](developer/reference/events/lcw-threadUpdate.md)
 #### [lcw:closeChat](developer/reference/events/lcw-closeChat.md)
 
-### Omnichannel session JavaScript API Reference
-#### [createTab](developer/reference/methods/createTab.md)
-#### [closeTab](developer/reference/methods/closeTab.md)
-#### [focusTab](developer/reference/methods/focusTab.md)
-#### [refreshTab](developer/reference/methods/refreshTab.md)
-#### [getConversationID](developer/reference/methods/getConversationId.md)
-#### [linkToConversation](developer/reference/methods/linkToConversation.md)
-#### [unlinkFromConversation](developer/reference/methods/unlinkFromConversation.md)
+### Omnichannel JavaScript API Reference
+#### [Overview](developer/omnichannel-api-reference.md)
+#### [Methods]()
+##### [getConversationID](developer/reference/methods/getConversationId.md)
+##### [linkToConversation](developer/reference/methods/linkToConversation.md)
+##### [unlinkFromConversation](developer/reference/methods/unlinkFromConversation.md)
 
 ### [Error code reference](developer/reference/error-code-reference.md)
 
