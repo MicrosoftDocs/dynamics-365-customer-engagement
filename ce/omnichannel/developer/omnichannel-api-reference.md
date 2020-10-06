@@ -19,9 +19,9 @@ The following JavaScript methods can be used to perform various operations with 
 
 | Method | Description |
 |---------|-------------|
-| [getConversationId](reference/methods/getConversationId.md) | [!INCLUDE[setContextProvider-description](reference/includes/setContextProvider-description.md)] |
-| [linkToConversation](reference/methods/linkToConversation.md) | [!INCLUDE[getContextProvider-description](reference/includes/getContextProvider-description.md)] |
-| [unlinkFromConversation](reference/methods/unlinkFromConversation.md) | [!INCLUDE[setContextProvider-description](reference/includes/removeContextProvider-description.md)] |
+| [getConversationId](reference/methods/getConversationId.md) | This function can be called to fetch the unique GUID of the current ongoing conversation in a session. The conversation id stays the same post conversation close as well. This id can be used to fetch the conversation record programmatically. |
+| [linkToConversation](reference/methods/linkToConversation.md) | This function can be used to link account, contact or incident records to a conversation. The linked record will be reflected in the customer summary page for the current conversation as soon as it has been linked. Only one account or contact and one case can be linked to a conversation at a time. If a new customer or case record is linked, it will override the previous record link for the conversation. |
+| [unlinkFromConversation](reference/methods/unlinkFromConversation.md) | This function can be used to unlink an already linked entity record of type customer (account or contact) or case from a conversation. |
 
 
 
