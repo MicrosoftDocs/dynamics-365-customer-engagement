@@ -11,11 +11,7 @@ ms.topic: article
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
-Provides the functionality to link entity records to the ongoing conversation. Supported entities:
-
-- Contact
-- Account
-- Incident/Case
+This function can be used to link account, contact, or incident records to a conversation. The linked record will be reflected in the customer summary page for the current conversation as soon as it has been linked. Only one account or contact and one case can be linked to a conversation at a time. If a new customer or case record is linked, it will override the previous record link for the conversation. 
 
 ## Syntax
 
