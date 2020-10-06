@@ -13,7 +13,7 @@ ms.topic: reference
 
 [!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
-As a bot author, you can enable a bot to understand context while authoring a bot flow. Bot context includes context name-value pairs for the current conversation and custom context passed by API programmatically. The bot can transfer the context to Omnichannel for Customer Service by setting context name-value pairs and then display conversation context to an agent.
+As a bot author, you can enable your Azure bot to understand context while authoring a bot flow. Bot context includes context name-value pairs for the current conversation and custom context passed by API programmatically. The Azure bot can transfer the context to Omnichannel for Customer Service by setting context name-value pairs and then display conversation context to an agent.
 
 ## Install the bot SDK in your project
 
