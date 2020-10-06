@@ -56,49 +56,38 @@ In [Create a simple customer journey with email messaging](create-simple-custome
      Remember to include all required elements and to go live with each of them.
 
 7. Go to **Marketing** > **Marketing Execution** > **Customer Journeys** and create a new customer journey like the one you made in [Create a simple customer journey with email messaging](create-simple-customer-journey.md). As before, add the following:
-   - Place a **Segment Group** tile in the first position, and configure its nested **Segment** tile to reference the segment of test contacts you made in [Create a dynamic segment](create-segment.md).
-   - Add an **Email** tile right after the **Segment Group**, and configure it to reference the first email message you made for this exercise (with the landing page button).
+   - Configure an **Audience** tile in the first position by selecting the **Segment** you made in [Create a dynamic segment](create-segment.md) as the source of the audience.
+   - Add an **Email** tile right after the **Audience** tile, and configure it to reference the first email message you made for this exercise (with the landing page button).
 
      ![A customer journey with a simple email campaign](media/journey-email-only.png "A customer journey with a simple email campaign")  
 
-8. Although your email message includes a link to a landing page, the journey is not aware of that link, nor even of the landing page itself. This journey should react to landing page submissions, so you need to reference the page and link it to the message by nesting a marketing-page tile under the email tile. Drag a **Marketing Page** tile from the **Toolbox**, and drop it directly onto the **Marketing Email Message** tile.  
+8. Although your email message includes a link to a landing page, the journey is not aware of that link, nor even of the landing page itself. This journey should react to landing page submissions, so you need to reference the marketing page inside the email tile properties. Go to Send an email tile **Properties** and add the right **Page** item inside the **Email elements** category.  
     ![Add a marketing page to an email tile](media/journey-add-page.png "Add a marketing page to an email tile")
 
-9. Expand the **Marketing Email Message** tile by choosing the expansion button in its lower-right corner. Now you can see the **Marketing Page** tile that you just added.  
-    ![Assign a marketing page to a page tile](media/journey-page-properties.png "Assign a marketing page to a page tile")
-
-    Select the **Marketing Page** tile, open the **Properties** tab, and make the following settings:
-    - **Marketing Page**: Set to the name of the landing page you made in [Create a landing page with a form](create-landing-page.md).  
-    - **Name**: Set to a value that you will recognize later (such as **Free download registration page**).
-
-10. Now add a trigger tile. *Trigger tiles* add interactivity to the journey by splitting the pipeline and establishing logical criteria for deciding which path each contact will take. Drag a **Trigger** tile from the **Toolbox** to the space immediately to the right of the **Marketing Email Message** tile.  
+9. Now add a condition ("If/then") tile. *If/then tiles* add interactivity to the journey by splitting the pipeline and establishing logical criteria for deciding which path each contact will take. Select a **If/then** tile from the in-place menu on canvas and add immediately to the right of the **Send an email** tile.  
      ![Add a trigger tile](media/journey-add-trigger-tile.png "Add a trigger tile")
 
-11. Select the new **Trigger** tile on the canvas, and then open the **Properties** tab.  
-     ![Set the trigger timeout](media/journey-trigger-timeout.png "Set the trigger timeout")
-
-     Set the **Timeout** to establish how long contacts will wait on this tile before being sent down the false (bottom) path if they don't submit the registration form. Three days is a typical timeout value, but the best choice depends on your actual circumstances.
-
-12. With the **Trigger** tile still selected and the **Properties** tab still open, select **+New** next to the **Set Rules** heading.  
-     ![Add a trigger rule](media/journey-trigger-rule-add.png "Add a trigger rule")  
-
-13. A new rule, called **Rule 1**, is added for the trigger.  
+10. The **Properties** for the **If/then** tile will automatically show up on the righ side of the canvas.  
      ![Define the trigger rule](media/journey-trigger-rule-define.png "Define the trigger rule")
 
-     Make the following settings for **Rule 1**:
-    - **Source**: Choose the name of the **Marketing Page** tile you added to the **Marketing Email Message** tile (we suggested **Free download registration page**). Note that this references the name of the *tile*, not the name of the marketing page itself.
-    - **Condition**: Set to **User registered**.
+     Make the following settings for **Condition**:
+    - **Source**: Choose the name of the **Marketing Page** tile you added to the **Send an email** tile properties. Note that this references the name of the marketing page itself.
+    - **Condition**: Set to **have registration**.      
 
-      This expression evaluates to true as soon as a contact submits valid information by using the referenced landing page. Each contact will wait at this trigger tile either until its logic evaluates to true or until the timeout period has elapsed, whichever comes first. As soon as a contact fulfills the requirements, it's sent down the true (top) path; if the timeout expires first, the contact is sent down the false (bottom) path instead.
+10. With the **If/then** tile still selected and the **Properties** tab still open, set the **Wait up to** to establish how long contacts will wait on this tile before being sent down the false (bottom) path if they don't submit the registration form. Three days is a typical timeout value, but the best choice depends on your actual circumstances.
+![Set the trigger timeout](media/journey-trigger-timeout.png "Set the trigger timeout")
+     ![Add a trigger rule](media/journey-trigger-rule-add.png "Add a trigger rule")  
+
+This expression evaluates to true as soon as a contact submits valid information by using the referenced landing page. Each contact will wait at this condition tile either until its logic evaluates to true or until the **Wait up to** period has elapsed, whichever comes first. As soon as a contact fulfills the requirements, it's sent down the true (top) path; if the Wait up to expires first, the contact is sent down the false (bottom) path instead.
 
       > [!TIP]
-      > Many types of trigger rules are possible, depending on which types of tiles are available along the pipeline leading to the trigger. For example, you might define a trigger when a contact just opens the landing page, or define a trigger on the email message itself when a contact selects a link or opens the message. You can also establish complex logic by adding several rules and combining them using AND or OR operators.
+      > Many types of trigger rules are possible, depending on which types of tiles are available along the pipeline leading to the if/then tile. For example, you might define an if/then condition when a contact just opens the landing page, or define an if/then condition on the email message itself when a contact selects a link or opens the message. You can also establish complex logic by adding several rules and combining them using AND or OR operators.
 
-14. Add two more **Marketing Email Message** tiles after the trigger, one on the top path and one on the bottom path.  
+14. Add two more **Send an email** tiles after the if/then condition, one on the top path and one on the bottom path.  
      ![Add an email tile to each path](media/journey-trigger-paths.png "Add an email tile to each path")  
 
      Configure them as follows:
-    - **Top tile**: This message is sent to contacts who submit the form (when the trigger evaluates to true). Configure it to send the download link message that you created earlier in this procedure.
+    - **Top tile**: This message is sent to contacts who submit the form (when the if/then condition evaluates to true). Configure it to send the download link message that you created earlier in this procedure.
     - **Bottom tile**: This message is sent to contacts who haven't submitted the form within three days of receiving the initial offer. Configure it to send the follow-up reminder message that you created earlier in this procedure.
 
       > [!TIP]
