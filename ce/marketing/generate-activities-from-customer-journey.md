@@ -26,7 +26,7 @@ search.app:
 
 <div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/d73cc179-5984-4a32-ad84-0755f56b0399" frameborder="0" allowfullscreen=""></iframe></div>
 
-Use activities to plan and record customer interactions such as phone calls, tasks, or appointments. Your customer journeys can also generate these for you—usually for planning purposes. For example, you might create a journey like the one you made in [Create an interactive customer journey with triggers and signup](create-interactive-customer-journey.md), and then add an **Activity** tile behind the trigger that creates a phone-call task associated with each contact who submits the registration form.  
+Use activities to plan and record customer interactions such as phone calls, tasks, or appointments. Your customer journeys can also generate these for you—usually for planning purposes. For example, you might create a journey like the one you made in [Create an interactive customer journey with triggers and signup](create-interactive-customer-journey.md), and then add an **Activity** tile behind the if/then condition that creates a phone-call task associated with each contact who submits the registration form.  
 
 ![Example customer journey with an activity tile](media/journey-generate-activities.png "Example customer journey with an activity tile")  
 
@@ -49,28 +49,27 @@ For this exercise, you'll set up a template to create task activities, and then 
 
 6. On the command bar, select **+New** to create a new journey.
 
-7. The **Select a Customer Journey Template** dialog box opens. Choose the **Blank Template** and then **Select**.  
+7. The **Customer Journey templates** dialog box opens. Choose the **Skip** button to work without a template (and create a customer journey from scratch).  
     ![Select a customer journey template](media/journey-select-template.png "Select a customer journey template")
 
-8. Drag a **Segment Group** tile to the first position on the canvas, and then add an **Activity** tile right after it.  
+8. Add a **Task** tile right after the **Audience** tile using the **in-place menu**.  
     ![A simple journey to generate activities](media/journey-generate-simple.png "A simple journey to generate activities")  
 
-9. Expand the **Segment Group** tile to expose its nested **Segment** tile. Then select the nested tile, open the **Properties** tab, and configure the tile to reference the segment you want to target.  
+9. Select the the **Audience** tile to set it up. The audience **Properties** pane will automatically show up. Configure the the audience tile to reference the segment you want to target.  
     ![Assign a segment to the segment tile](media/journey-assign-segment.png "Assign a segment to the segment tile")
 
     More information: [Create a simple customer journey with email messaging](create-simple-customer-journey.md)
 
-10. Select the **Activity** tile, and then open the **Properties** tab.  
+10. Select the **Task** tile to set it up. The task **Properties** pane will automatilly show up.  
      ![Set up the activity tile](media/journey-activity-properties.png "Set up the activity tile")  
 
      Make the following settings:
-     - **Activity Type**: Set to **Task**.
-     - **Activity Template**: Set to the name of the template you created earlier in this procedure.
-     - **Assigned To**: You might need to scroll down in the **Properties** tab to find this setting. This is the person to whom each task will be assigned. As you can see from the options here, you can assign each task to the customer journey owner, the owner of each contact, or to the creator of each contact. The best choice will depend on how your company is organized. For this exercise, choose **Customer journey owner** (which is you); this means that all tasks will be assigned to the same person—the other choices allow tasks to be assigned to different people based on values from the relevant contact record.
+     - **Task**: Select the template you created earlier in this procedure.
+     - **Assign to**: This is the person to whom each task will be assigned. As you can see from the options here, you can assign each task to the customer journey owner, the owner of each contact, or to the creator of each contact. The best choice will depend on how your company is organized. For this exercise, choose **Customer journey owner** (which is you); this means that all tasks will be assigned to the same person—the other choices allow tasks to be assigned to different people based on values from the relevant contact record.
 
 11. On the command bar, select **Save**.
 
-12. Go to the **General** tab, and set the **Name**, **Time Zone**, **Start Date and Time,** and **End Date and Time**. You can set it to start right away, but allow it a few hours to run, just in case.  
+12. Go to the **General** tab, and set the **Name**, **Time zone**, **Start date and time,** and **End date and time**. You can set it to start right away, but allow it a few hours to run, just in case.  
      ![Name and schedule the journey](media/journey-general-settings2.png "Name and schedule the journey")
 
      > [!TIP]
