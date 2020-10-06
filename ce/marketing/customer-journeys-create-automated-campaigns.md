@@ -28,7 +28,7 @@ Dynamics 365 Marketing can help you visualize and automate the journey that cust
 
 Dynamics 365 Marketing provides a graphical journey modeler that works like a simple board game. Each contact starts on the first square (by becoming part of a target segment), and then progresses through one square at a time, with each square representing a marketing initiative, decision point, or internal action item.
 
-![An example of a customer journey](media/customer-journey.png "An example of a customer journey")
+![An example of a customer journey](media/customer-journey-full2.png "An example of a customer journey")
 
 The previous figure shows how a simple customer journey might look. A more complex example could work like this:
 
@@ -52,9 +52,9 @@ To view and create your customer journeys, go to **Marketing** > **Marketing Exe
 
 To create a new journey, select **New** on the command bar.
 
-When you create a new customer journey, you'll first be presented with a list of customer journey templates, which can help you get started quickly. The **Journey templates** dialog box provides a categorized overview of templates and a search form to help you find the one you're looking for. Each template represents a particular type of campaign and includes a pre-configured pipeline and a few related settings that will help you create a customer journey of the selected type.
+When you create a new customer journey, you'll first be presented with a list of customer journey templates, which can help you get started quickly. The **Customer journey templates** dialog box provides a categorized overview of templates and a search form to help you find the one you're looking for. Each template represents a particular type of campaign and includes a pre-configured pipeline and a few related settings that will help you create a customer journey of the selected type.
 
-![Select a Journey Template dialog](media/customer-journey-template.png "Select a journey template")
+![Select a Journey Template dialog](media/customer-journey-template2.png "Select a journey template")
 
 You can also choose to start from scratch instead of using a template. The pipelines provided by a template represent the form and logic of your campaign, but you'll still need to configure the various tiles by&mdash;for example&mdash;assigning the specific marketing email message that should be sent by each email tile.
 
@@ -68,19 +68,19 @@ Use the **Design** tab to design your campaign by adding tiles into a logical fl
 
 You can add tiles to the pipeline by selecting them from the **in-place menu** shown each time you select the "+" button on the canvas.
 
-![Drag a tile from the Toolbox to the canvas](media/cj-drag-ill.png "Drag a tile from the Toolbox to the canvas")
+![Drag a tile from the Toolbox to the canvas](media/customer-journey-segment-start.png "Drag a tile from the Toolbox to the canvas")
 
 The first tile in the pipeline establishes the target audience for the customer journey. This is what determines which contacts are sent down the pipeline. You'll typically start with a segment tile, which finds contacts based on a logical query (a dynamic segment) or on a static segment, where individual contacts are added and removed manually.
 
 After you establish the target audience, most tiles provide features such as those illustrated in the following figure.
 
-![Features of a customer-journey tile](media/cj-tile-features-ill.png "Features of a customer-journey tile")
+![Features of a customer-journey tile](media/customer-journey-tile-features.png "Features of a customer-journey tile")
 
 Legend:
 
 1. **Tile type**: Shows what type of tile it is ("Send an email," "Wait for," "Phone call," and so on). The icon inside the tile also indicates the tile type.
 1. **Entity name**: Shows the name assigned to a selected entity, for example, the name of the email ("Contoso Chairs").
-1. **Tile status**: Shows key statistics about the tile, such as how many contacts are waiting here or how many messages it has sent so far. The information shown varies by tile type.
+1. **Tile status**: Shows key statistics about the tile, such as how many contacts are waiting here or how many messages it has sent so far. The information shown varies by tile type. This information only displays when a customer journey is live.
 1. **Tile configuration status**: Shows if the tile is configured already or not. The unconfigured status is indicated by a white-colored tile with a call to action (for example, "Choose an email"). A configured status is indicated by a colored tile with the selected entity name.
 
 > [!NOTE]
@@ -96,30 +96,31 @@ Though most people add and arrange tiles by selecting them from the in-place men
 
 1. Press the **Enter** key on your keyboard and choose the type of tile you want to add from the drop-down list using your mouse or arrow keys. After you select the tile, press the **Enter** key.
 
-    ![Add a tile from the toolbar](media/cj-add-menu-ill.png "Choose the type of tile you want to add")
+    ![Add a tile from the drop-down list](media/customer-journey-add-menu.png "Choose the type of tile you want to add")
 
 1. The pipeline is now updated to show all the available insertion points where you can drop your new tile. Use your mouse or arrow keys and the Enter key to choose the location and drop the tile there.
-
-    ![Choose where to add the new tile](media/cj-add-location-ill.png "Choose where to add the new tile")
 
 More information: [Accessibility and keyboard shortcuts](designer-shortcuts.md)
 
 ### Configure tile settings
 
-Each tile represents a step in the customer journey. You'll make configuration settings to establish what happens at each of these steps. Most tiles interact with some other type of record in Dynamics 365 Marketing, such as a target segment, marketing email message, landing page, event, or action. Other types of tiles&mdash;like wait tiles ("Wait for," "Wait until"), conditions ("If/then"), and splitters&mdash;react to things that happen during the journey itself and control the path that each contact takes when these things happen.
+Each tile represents a step in the customer journey. You'll make configuration settings to establish what happens at each of these steps. Most tiles interact with some other type of record in Dynamics 365 Marketing, such as a target segment, marketing email message, event, or action. Other types of tiles&mdash;like wait tiles ("Wait for," "Wait until"), conditions ("If/then"), and splitters&mdash;react to things that happen during the journey itself and control the path that each contact takes when these things happen.
 
-To configure a tile, select it in the pipeline, then go to the **Properties** tab to the right of the canvas. The **Properties** tab will show you all the settings that apply to the type of tile you've selected. When you add a new tile, its **Properties** tab is automatically activated so you can start configuring the tile right away.
+To configure a tile, select it in the pipeline, then go to the tile settings tab to the right of the canvas. The settings tab will show you all the settings that apply to the type of tile you've selected. When you add a new tile, its settings tab is automatically activated so you can start configuring the tile right away.
+
+> [!NOTE]
+> For live or stopped journeys, the tile settings are listed in the **Properties** tab to the right of the canvas.
 
 For tiles that must refer to some other record in Dynamics 365 Marketing, such as emails or events, you can choose to leave the record unspecified, choose an existing record, or create a new record to use with the tile. All tiles of this type include the **Properties** settings highlighted in the following figure.
 
-![An example of common tile settings](media/cj-tile-details-ill.png "An example of common tile settings")
+![An example of common tile settings](media/customer-journey-tile-details.png "An example of common tile settings")
 
 Legend:
 
 1. **New** actions are available when you select the search button then choose the new record you want to create ("New Marketing email," "New Appointment activity," and so on). "New" actions create a new record of the type required by the selected tile. Selecting a "new" action opens an in-place editor. The editor slides over the journey canvas, allowing you to create a new record, such as an email, without leaving the customer journey designer. When you finish creating your new record, the record will be linked to your selected tile.
 1. **Search button**: Select to find an existing record of the type required by the current tile. To narrow the search, start by entering part of the record name you are looking for in the field next to the search button, then select the button.
 1. **Current record**: If the tile is already configured, this shows the name of the record associated with the current tile. As mentioned, you can also use this as a search field, together with the search button, to look for other existing records.
-1. **Edit**: If the tile is already associated with a record, select the record name (inside the search button or at the top of properties section) to open the in-place form for editing that record. From there, you'll have full access to the record's information and settings.
+1. **Edit**: If the tile is already associated with a record, select the record name to open the in-place form for editing that record. From there, you'll have full access to the record's information and settings.
 
 More information: [Customer journey tiles reference](customer-journey-tiles-reference.md)
 
@@ -144,9 +145,9 @@ To set up a segment tile to target a subscription list:
 
 1. Create a customer journey that targets an audience based off of a segment (segment being a source type of the audience).
 
-1. Set the **Segment** field to **Subscription List**, which activates the **Subscription List** field. Then set the **Subscription List** to the name of the subscription list you want to use for this journey.
+1. Set the **Segment** field to **Subscription List**, which activates the **Look for Marketing list** field. Then use the **Look for Marketing list** field to find the subscription list you want to use for this journey.
   
-    ![Set a segment tile to load a subscription list](media/cj-target-subscription-list.png "Set a segment tile to load a subscription list")
+    ![Set a segment tile to load a subscription list](media/customer-journey-subscription-list.png "Set a segment tile to load a subscription list")
 
 > [!IMPORTANT]
 > When a customer journey targets a subscription list, any contact that unsubscribes from that list using a subscription center will automatically be removed from that journey within about 24 hours, even if they are already partway through it. However, if a user removes a contact from the list manually using the Dynamics 365 Marketing interface, that contact will continue to be processed by any journeys they already are on, and may continue to receive messages until all active journeys are complete. For this reason, it is usually best to request that all contacts manage their own subscriptions using the subscription center.
@@ -267,7 +268,7 @@ As soon as your journey starts running, it will begin to generate and collect in
 
 Customer journeys pass through many states while you create, edit, and run them. You can now view a full history of these milestones for any customer journey. To see the milestone history, open any live or previously live journey, go to the **Designer** tab, and view the **Journey milestones** panel on the right side of the page.
  
-![Journey events list](media/journey-events.png "Journey events list")
+![Journey events list](media/customer-journey-milestones.png "Journey events list")
 
 ### See also
 
