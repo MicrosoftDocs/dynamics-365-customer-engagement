@@ -7,16 +7,17 @@ manager: shujoshi
 ms.date: 08/05/2020
 ms.topic: article
 ms.service: 
-  - dynamics-365-customerservice
+  dynamics-365-customerservice
 ms.custom: 
-  - dyn365-customerservice
+  dyn365-customerservice
 search.audienceType: 
-  - admin
-  - customizer
-  - enduser
+  admin
+  customizer
+  enduser
 search.app: 
-  - D365CE
-  - D365CS
+  D365CE
+  D365CS
+  
 ---
 
 # Search resource availability and create bookings for requirement groups
@@ -182,7 +183,7 @@ In the following scenario, you schedule a requirement group via API. You'll need
 
 ### Service configuration 
 
-![Service configuration ](media/ur-scheduling-1-new.png "Service configuration")
+![Service configuration](media/ur-scheduling-1-new.png "Service configuration")
 
   1. In the site map, under **Scheduling**, select **Service**.
   2. Go to **Resource Requirements**.
@@ -239,23 +240,23 @@ To execute this search against your organization, you need to download the [samp
 
 1. Modify the hard-coded input parameters in the msdyn_SearchResourceAvailabilityForRequirementGroupSample.js file to reflect the GUIDs of records in your org. (Example: requirement group, resources, organizational unit).    
 
-![Modify the hard-coded input parameters](media/ur-scheduling-5.PNG)
+![Modify the hard-coded input parameters to reflect record GUIDs](media/ur-scheduling-5.PNG)
 
 [Sample Search Requirement Group](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/sushant-service-scheduling/customer-service/master/search-resource-availability-create-bookings)
 
 2. Add the files in the sample folder as web resources in your organization 
 
-![Modify the hard-coded input parameters](media/ur-scheduling-6-new.png)
+![Modify the hard-coded input parameters to add the files in the sample folder](media/ur-scheduling-6-new.png)
 
-![Modify the hard-coded input parameters](media/ur-scheduling-7-new.PNG)
+![Modify the hard-coded input parameters for the sample folder](media/ur-scheduling-7-new.PNG)
 
 3. Navigate to the newly added new_msdyn_SearchResourceAvailabilityForRequirementGroupSample.htm page. Example: <<YourOrgURL>>//WebResources/new_msdyn_SearchResourceAvailabilityForRequirementGroupSample.htm   
 
-![Modify the hard-coded input parameters](media/ur-scheduling-8.PNG)
+![Navigate to the newly added page](media/ur-scheduling-8.PNG)
 
 4. Open the browser's developer tools by using the F12 function key. Set breakpoints as needed, and inspect the request/responses in the developer tool's console.  
 
-![Modify the hard-coded input parameters](media/ur-scheduling-9.PNG)
+![Open the browser developer tools](media/ur-scheduling-9.PNG)
 
   We can see there are multiple sets of time slots that are returned with each Set corresponding to a matching available Resource mapped to the underlying Requirement of the Requirement Group.   
 
@@ -263,26 +264,26 @@ To execute this search against your organization, you need to download the [samp
 
 5. After you choose a specific time slot set (Set number 1 in this example), update your new_msdyn_CreateRequirementGroupBookingsSample.js web resource in your org to pass the Resource Assignments (Requirement guid, Resource guid) and the Requirement Group as shown in the example below:    
 
-![Modify the hard-coded input parameters](media/ur-scheduling-10-new.PNG)
+![Update web resource to pass resource assignments](media/ur-scheduling-10-new.PNG)
 
 > [!IMPORTANT]
 > Find the complete sample code here: [Create Requirement Group](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/service-scheduling/search-resource-availability-create-bookings).
 
-![Modify the hard-coded input parameters](media/ur-scheduling-11-new.png)
+![Find the sample code](media/ur-scheduling-11-new.png)
 
 6. Navigate to the newly added new_ msdyn_CreateRequirementGroupBookingsSample.htm page. (Example: <<YourOrgURL>>//WebResources/new_msdyn_CreateRequirementGroupBookingsSample.htm) to invoke a call to the Booking API and create the booking.
 
-![Modify the hard-coded input parameters](media/ur-scheduling-12.png)
+![Invoke a call to the Booking API](media/ur-scheduling-12.png)
 
 7. Open the browser's developer tools by using the F12 function key. Here you'll see that the Handler executed value is set to True, indicating that the bookings were created successfully.    
 
-![Modify the hard-coded input parameters](media/ur-scheduling-13.png)
+![Handler executed value set to True](media/ur-scheduling-13.png)
 
   We can also verify this by going back into the organization and checking the associated bookings of the Service/Requirement group we created, as shown in the following illustrations.    
 
-![Modify the hard-coded input parameters](media/ur-scheduling-14-new.png)
+![Check the associated bookings](media/ur-scheduling-14-new.png)
 
-![Modify the hard-coded input parameters](media/ur-scheduling-15-new.png)
+![Verify bookings were created successfully](media/ur-scheduling-15-new.png)
 
 Other possible scenarios that might leverage these APIs are:   
 - Build a custom web app or a Dynamics 365 portal to provide appointment scheduling for users. The app will show available time slots for the service or product being offered by using multiresource requirements (requirement groups).
@@ -550,7 +551,7 @@ response.Dump();
 <a name="bkmk_seealso"></a>
 ### Additional resources
 
-|||
+| Resource | Description |
 |----|---|
 |[Service Scheduling Guide](basics-service-service-scheduling.md)| Read how you can plan and schedule service activities for your customers.|
 |[Service scheduling FAQ](service-scheduling-faq.md)| Frequently asked questions on service scheduling|
