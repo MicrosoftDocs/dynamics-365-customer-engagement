@@ -43,7 +43,7 @@ To save an existing customer journey as a template:
 
 1. Open your existing customer journey.
 
-1. Select **Save as template** on the command bar.
+1. Select **Save as template** on the command bar (available after clicking a shevron  next to **Save**).
 
     ![Select 'Save as template" on the command bar](media/cj-template-save-as.png "Select 'Save as template' on the command bar")
 
