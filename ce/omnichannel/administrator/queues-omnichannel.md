@@ -22,24 +22,29 @@ Omnichannel queues are used to collect and distribute workload among agents. Wor
 
 Queues in Omnichannel for Customer Service are proxies for skills or domains. You can create separate queues for each line of business, such as billing, investment, and products. When a customer query is raised for any of the areas, it is routed to the corresponding designated queue. You can also set up customer support availability matrix by using a combination of queues, operating hour schedules, and routing rules.
 
-To simplify the routing experience for administrators, queues are categorised into messaging and entity records. When you define the queue type as messaging, conversations pertaining to the chat and social channels only can be routed to the messaging queues. When the queue type is entity records, the cases pertaining to entity records only can be routed to the entity records queues. Therefore, when you are creating a routing rule item, based on the channel for which the work stream has been created, only the corresponding queues will be available for selection. A work stream for a social channel can be associated only with the messaging queue and a work stream for entity can be associated only with the entity queue.
+To simplify the routing experience for administrators, queues are categorised into the following types:
 
-    
-> [!div class=mx-imgBorder]
-> ![Omnichannel queues](../media/oc-queues.png)
+- **Messaging:** To route conversations pertaining to the live chat and social channels.
+- **Entity records:** To route cases pertaining to entity records.
+
+When you configure work streams and routing rule items, the queues that will be available for selection will be based on the applicable queue type. For example, if you are configuring a work stream for the WhatsApp channel, the queues that will be available for selection will be those that are of the messaging type. Similarly, in a conversation transfer scenario, you can transfer a chat conversation only to a messaging queue and a case to an entity queue.
 
 You can assign priority to queues. All conversations in a queue take the priority that is defined for the queue; higher priority conversations are allocated first. For example, if there are two chat conversations coming from two queues with priorities assigned as Priority 1 and Priority 2 respectively, chat conversation with Priority 1 will be allocated to an agent first.
+
+  > [!IMPORTANT]
+  > In an upgraded environment, the existing queues will be defaulted to the messaging type. Therefore, to seamlessly handle entity conversations in a transfer scenario, make sure that you have created queues of entity records type.
 
 ## Default queues
 
 Out of the box, the following default queues are available in Omnichannel for Customer Service:
+
 - **Default entity queue:** The queue that is available for routing entity records.
 - **Default messaging queue:** The queue that is available for routing conversations pertaining to the Live Chat and social channels.
 
 The default queues can't be edited or deleted. All Omnichannel for Customer Service users are members of the default queues. Therefore, the membership of these default queues also can't be changed.
 
   > [!NOTE]
-  > When no queues or routing rules are defined, all conversations are directed to one of the out-of-the-box default queues.
+  > When no custom queues or routing rules are defined, all conversations are directed to one of the out-of-the-box default queues.
 
 ## Create a queue
 
