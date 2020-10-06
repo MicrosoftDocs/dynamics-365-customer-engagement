@@ -18,7 +18,7 @@ Routing rules define how conversations are routed to different queues. Each rout
  > [!Important]
  > Routing rules for entity records are defined at the entity record channel level. To learn more, see [Entity records routing](entity-channel.md).
 
-A single work stream can have multiple routing rules, and these are evaluated in the order of definition. For example, if a work stream called **Chat** contains 5 routing rules, an incoming chat conversation will be evaluated against all the 5 routing rules in the defined order. 
+A single work stream can have multiple routing rules that are evaluated in the order of definition. For example, if a work stream called **Chat** contains 5 routing rules, an incoming chat conversation will be evaluated against all the 5 routing rules in the defined order. While you can write as many rules as your business requires, the application processes only the first 100 rules.
 
 > [!div class=mx-imgBorder] 
 > ![Routing rules](../media/oc-routing-rules.png)
