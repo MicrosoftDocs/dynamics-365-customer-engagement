@@ -199,8 +199,8 @@
 
 ## System customizer guide
 ### [Overview](customizer/omnichannel-customizer.md)
-### Customize quick view forms for Customer summary
-#### [Overview](customizer/customize-customer-summary.md)
+### Customize Customer summary form
+#### [Overview of customer summary form](customizer/customize-customer-summary.md)
 #### [Customize quick view forms](customizer/customize-quick-view-form.md)
 
 ### [Customize the session forms](customizer/customize-session-form.md)

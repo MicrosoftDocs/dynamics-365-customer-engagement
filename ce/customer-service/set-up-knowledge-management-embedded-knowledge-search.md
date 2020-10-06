@@ -1,25 +1,26 @@
 ---
-title: Set up knowledge management using embedded knowledge search (Dynamics 365 Customer Service) | MicrosoftDocs
-description: See how to set up knowledge management using embedded knowledge search in Dynamics 365 Customer Service
-author: kabala123
-ms.author: kabala
+title: Use settings to set up knowledge management (Dynamics 365 Customer Service) | MicrosoftDocs
+description: See how to set up settings in knowledge management in Dynamics 365 Customer Service
+author: lalexms
+ms.author: laalexan
 manager: shujoshi
-ms.date: 10/19/2019
+ms.date: 10/05/2020
 ms.topic: article
 ms.service: 
-  - dynamics-365-customerservice
+  dynamics-365-customerservice
 ms.custom: 
-  - dyn365-customerservice
+  dyn365-customerservice
 search.audienceType: 
-  - admin
-  - customizer
-  - enduser
+  admin
+  customizer
+  enduser
 search.app: 
-  - D365CE
-  - D365CS
+  D365CE
+  D365CS
+  
 ---
 
-# Use embedded knowledge search to set up knowledge management
+# Use settings to set up knowledge management
 
 A comprehensive knowledge base is a key to increased customer satisfaction and improved productivity of users. Give users quick access to the knowledge base by setting up knowledge management in Dynamics 365 Customer Service.
 
@@ -41,7 +42,7 @@ After knowledge management is set up, users will be able to:
   
 [!INCLUDE[proc_permissions_system_admin_and_customizer](../includes/proc-permissions-system-admin-and-customizer.md)] You must also be the tenant administrator of [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)].
   
-1. In the Customer Service Hub sitemap, go to **Service Management** and select **Knowledge Base Management** > **Embedded Knowledge Search**. 
+1. In the Customer Service Hub sitemap, go to **Service Management** and select **Knowledge Base Management** > **Settings**. 
   
 2. In the **Knowledge Base Management Settings** wizard, in **Record Types**, select the record types you want to turn on knowledge management for. The list will include all entities that are available for an N:N relationship. Knowledge management is enabled for case entity by default.  
 
@@ -63,7 +64,7 @@ After knowledge management is set up, users will be able to:
 
 1. [!INCLUDE[proc_permissions_system_admin_and_customizer](../includes/proc-permissions-system-admin-and-customizer.md)] You must also be the tenant administrator of [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)].  
   
-2. [!INCLUDE[proc_settings_service_management](../includes/proc-settings-service-management.md)]  
+2. Go to **Settings** > **Service Management**. 
   
 3. Under **Knowledge Base Management**, select **Embedded Knowledge Search**.  
   
@@ -90,7 +91,7 @@ After knowledge management is set up, users will be able to:
 
 This option allows users to provide feedback on knowledge articles opened from knowledge search control. 
 
-1. In the Customer Service Hub site map, go to **Service Management** and select **Knowledge Base Management** > **Embedded Knowledge Search**. 
+1. In the Customer Service Hub site map, go to **Service Management** and select **Knowledge Base Management** > **Settings**. 
 
 2. In the **Knowledge Articles Feedback** section, set **Enable users to provide feedback on knowledge articles from search control** to **Yes**.
 

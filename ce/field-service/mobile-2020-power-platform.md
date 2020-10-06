@@ -33,15 +33,16 @@ Field Service technicians often need to see and update their work orders while o
 
 There are two mobile apps available for technicians using Dynamics 365 Field Service:
 
+- Field Service (Dynamics 365), which is built on the Microsoft Power Platform. In our documentation, we refer to this app as the Field Service (Dynamics 365) mobile app. In the app stores, you'll find this app with the following icon.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the Dynamics 365 ](./media/mobile-power-app-app-store2.png)
+
 - Field Service Mobile, which is built on the Xamarin platform. In our documentation, we refer to this app as "Field Service Mobile (Xamarin). In the app stores, you'll find this app with the following icon:
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Field Service Mobile Xamarin app in the store.](./media/mobile-power-app-app-store1.png)
 
-- Field Service (Dynamics 365), which is built on the Microsoft Power Platform. In our documentation, we refer to this app as the Field Service (Dynamics 365) mobile app. In the app stores, you'll find this app with the following icon.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the Dynamics 365 ](./media/mobile-power-app-app-store2.png)
 
 Both the Field Service (Dynamics 365) mobile app _and_ Field Service Mobile (Xamarin) are included with Field Service.
 

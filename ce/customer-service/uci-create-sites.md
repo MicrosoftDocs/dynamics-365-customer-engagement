@@ -4,25 +4,23 @@ description: How to use sites to manage your service locations in Dynamics 365 C
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 08/03/2020
+ms.date: 10/05/2020
 ms.topic: article
 ms.service: 
-  - dynamics-365-customerservice
+  dynamics-365-customerservice
 ms.custom: 
-  - dyn365-customerservice
+  dyn365-customerservice
 search.audienceType: 
-  - admin
-  - customizer
-  - enduser
+  admin
+  customizer
+  enduser
 search.app: 
-  - D365CE
-  - D365CS
+  D365CE
+  D365CS
+  
 ---
 
 # Use sites to manage your service locations
-
-> [!Note]
-> This topic is pre-release documentation and is subject to change.
 
 Create sites to define the locations where you provide service to your customers. When you’re scheduling resources, you can define which resources will work on which site.
 
