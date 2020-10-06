@@ -4,10 +4,10 @@ description: Know how to define service-level agreements in Dynamics 365 Custome
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 09/07/2020
+ms.date: 10/05/2020
 ms.topic: article
 ms.service: 
-  - dynamics-365-customerservice
+  dynamics-365-customerservice
 ms.custom: 
   - dyn365-customerservice
 search.audienceType: 
@@ -92,8 +92,7 @@ SLA KPIs are performance indicators, such as First Response or Resolve by, that 
 6. To define the pause criteria at the KPI level, in the **Pause Conditions** section that appears, do the following:
    1. Set the toggle to **Yes** for **Override Criteria**. If any pause settings are applied at the entity level for your org, they will be overridden by the criteria define at the KPI level. For the other KPIs, the entity level pause settings will continue to function if no pause criteria is defined at the KPI level.
    2. Select **Add** to define the conditions in which the SLA KPI can be paused.
-    > [!NOTE]
-    > The option to configure pause at the KPI-level is available in preview mode.
+
 7. Select **Activate**. The SLA KPI is saved and activated.
 
 ## Create an SLA in Customer Service Hub<a name="create-slas"></a>
@@ -141,8 +140,7 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
    2. Select **Add** to define the conditions for pausing the SLA item.
     > ![Pause settings at SLA item level](media/csh-sla-item-pause.png "Pause settings at SLA item level")
 
-    > [!NOTE]
-    > The option to configure pause at SLA item-level is available in preview mode.
+
 7. In the **Warn and Fail Duration** section, specify the values to trigger notifications when an SLA is missed.
 
 8. Select **Save**.

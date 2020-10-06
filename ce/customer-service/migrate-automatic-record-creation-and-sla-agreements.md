@@ -4,7 +4,7 @@ author: lerobbin
 ms.author: lerobbin
 ms.reviewer: nenellim
 manager: shujoshi
-ms.date: 09/17/2020
+ms.date: 10/05/2020
 ms.topic: article
 ms.service: 
    dynamics-365-customerservice
@@ -18,54 +18,41 @@ search.app:
   - D365CS
 ---
 
-# Preview: Migrate automatic record creation rules and service-level agreements
+# Migrate automatic record creation rules and service-level agreements
 
-[!include[cc-early-access](../includes/cc-early-access.md)]
-
-The Dynamics 365 Customer Service Hub app has several features and functionalities that replace the rules in the legacy Customer Service app. The automatic record creation rules and service-level agreements (SLAs) are now supported by Power Automate-based flows to make the transition to the new platform easier to manage.
-
-This topic provides an overview of the migration tool that allows legacy rules for automatic record creation rules and SLAs to be transferred to the Customer Service Hub app for easier access.
-
-The migration tool is designed to migrate the existing legacy rules to Unified Interface, ensuring all the rules, items, and actions are converted accordingly into the Unified Interface format. This also includes the conversion of the workflow to a Power Automate-based flow.
+The migration tool for automatic record creation rules and service-level agreements (SLAs) helps migrate the rules in the web client to Unified Interface. This also includes the conversion of the workflows to Power Automate-based flows.
 
 The migration tool provides the following functionality:
 
-- Ability to run the migration tool multiple times and see what the status looks like at any point in time.
-- Flexibility to choose which legacy rules need to be migrated.
-- Flexibility to decide when to activate new rules and deactivate the legacy rules so you are not forced to activate all or none.
-- Existing legacy rules are not modified or deactivated automatically. 
+- Ability to run the migration tool multiple times and view the status at any point in time.
+- Flexibility to choose the rules in the web client that need to be migrated.
 - Messages on potential issues on why a ruled failed the migration process.
-- Legacy rules continue to run on existing cases until the rules are deactivated. 
+
+The migration tool does not change the functioning of the existing rules or items in the web client and they will continue to run on existing cases as configured. You have the flexibility to decide the actions for the rules.
 
 ## Prerequisites
 
-- Customer Service license.
 - For migrating automatic record creation rules, your environment must have Customer Service version 9.0.20034.20XX or later to opt in for migration.
 - For migrating SLAs, your environment must have Customer Service version 9.0.20053.1030 or later to opt in for migration.
 - Administrator permissions.
 
 ## Things to consider
 
-Before you run the migration tool, it is important to understand how the modern automatic record creation and SLA rules work in the Customer Service Hub app.
+When you perform your migration, you will be able to view detailed results only for rules or items that have failed the premigration check or those that were partially migrated (incomplete).
 
-- **Working with rules or items:** When you perform your migration, you will be able to view detailed results only for rules that have failed the premigration check or those that were partially migrated (incomplete). 
+When you rerun the migration tool, it will pick up any updates or edits in the web client if the rule or item has been:
 
-  To learn more about how to create rules in the Customer Service Hub app, see [Automatically create or update records in Customer Service Hub](automatically-create-update-records.md) and [Define service-level agreements](define-service-level-agreements.md).
+  - Edited in the web client prior to the actual migration.
+  - Edited in the web client to resolve errors after a failed migration attempt.
 
-  > [!Note]
-  > After you successfully migrate a rule, any edits made to the rule in the web client will not be visible in Unified Interface. For the edits to be visible in Unified Interface, you must delete the rule in Unified Interface and migrate it again from the web client.
+The following updates or edits to a rule or item made in the web client will not be considered if:
 
-- **Editing rules or items:** If you rerun the migration tool, it will pick up any updates or edits in the web client if the rule has been:
+  - The rule is edited in the web client after it is successfully migrated to Unified Interface.
+  - Any edits were made in the migrated rules in Unified Interface as well.
 
-    - Edited in the web client prior to the actual migration.
-    - Edited in the web client to resolve errors after a failed migration attempt.
+After migrating a rule or item successfully, if you edit it in the web client, the changes will not be visible in Unified Interface. For the edits to be visible in Unified Interface, you must delete the successfully migrated rule or item in Unified Interface and migrate it again from the web client.
 
-  The following updates or edits to a rule will not be considered if:
-
-    - The rule is edited on the web client after it is successfully migrated to Unified Interface.
-    - Any edits were made in the migrated rules in Unified Interface as well.
-
-- Only one level of related entity hierarchy in a rule or item is supported for migration. If any rule or item contains related entity in group clause, you need to remove them before migrating the rule.
+To learn about how to create rules in the Customer Service Hub app, see [Automatically create or update records in Customer Service Hub](automatically-create-update-records.md) and [Define service-level agreements](define-service-level-agreements.md).
 
 ## How the migration process works
 
@@ -93,7 +80,7 @@ You can access the migration tool using the following steps:
 2. Under **Data Management**, select **ARC & SLA Migration Tool (Preview)**.
 
 > ![Access Migration Tool](media/migration-tool-access-location.png "Migration tool access locations")
-> 
+  
 ## Migration Summary
 
 When you select **ARC & SLA Migration** in the left pane, the **Summary** page is displayed as follows.
@@ -105,9 +92,9 @@ The annotations are explained as follows.
 |label|Description|
 |-------|----------|
 |1|**Category**: An overview of the automatic record creation rules and SLAs.|
-|2|**Total**: Displays the number of legacy rules available overall.|
+|2|**Total**: Displays the number of rules available overall in the web client.|
 |3|**Migrated**: Displays the number of rules you have migrated.|
-|4|**Pending**: Displays the number of rules you have pending migration (includes failed rules, partially or incomplete migrated rules, and rules that have not been attempted).|
+|4|**Pending**: Displays the number of rules in the web client that are pending migration (includes failed rules, partially or incomplete migrated rules, and rules that have not been attempted).|
 |5|**Migration status**: Displays whether migration has started.|
 |6|**Refresh**: Allows you to update migration status.|
 |7|**Start migration**: Allows you to begin the migration process.|
@@ -115,7 +102,7 @@ The annotations are explained as follows.
 
 ## Migrate the automatic record creation rules and SLA items
 
-You can migrate both the automatic record creation rules and SLA items together or separately. The information in the following sections is organized according to the [migration process](#how-the-migration-process-works) on the left of the migration pages that leads you through the migration states.
+You can migrate both the automatic record creation rules and SLA items together or separately from the web client. The information in the following sections is organized according to the [migration process](#how-the-migration-process-works) on the left of the migration pages that leads you through the migration states.
 
 ### Category to migrate
 
@@ -313,6 +300,6 @@ In the **Premigration checkup** state, the tool reviews only those rules that we
 ### See also
 
 [Migration tool FAQs](migrate-tool-faqs.md)  
-[Set up rules to automatically create or update records](set-up-rules-to-automatically-create-or-update-records.md)  
+[Automatically create or update records in Customer Service Hub](automatically-create-update-records.md)  
 [Define service-level agreements](define-service-level-agreements.md)  
 [Important changes (deprecations) coming](https://docs.microsoft.com/power-platform/important-changes-coming)  
