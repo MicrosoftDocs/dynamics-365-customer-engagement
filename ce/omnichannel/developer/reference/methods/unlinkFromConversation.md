@@ -11,11 +11,7 @@ ms.topic: article
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
-Provides the functionality to unlink the already linked entity record from the ongoing conversation. Supported entities:
-
-- Contact
-- Account
-- Incident/Case
+This function can be used to unlink an already linked entity record of type customer (account or contact) or case from a conversation. 
 
 ## Syntax
 
