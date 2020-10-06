@@ -19,6 +19,7 @@ search.app:
 ---
 
 # Search for knowledge articles in the Customer Service Hub
+
 Knowledge base search in the Customer Service Hub app lets you search for relevant knowledge articles to resolve a case. To search for knowledge articles in a case form, select the **Knowledge Base Search** search box in the **Knowledge Base Search control** of the **Related** section.
 
 The search results are automatically populated based on a field your administrator configured in the **Knowledge Base Search** control properties. Out of the box, for a case this is the title of the case record.
@@ -95,6 +96,7 @@ In the knowledge base search control, you can do the following:
 - Link and unlink a knowledge article to a record
 - Email a knowledge article
 - View the knowledge article inline in the search control
+
 
 ### Display knowledge article pop outs 
 
@@ -196,6 +198,7 @@ The knowledge base search control provides sort the knowledge articles interacti
 
   > [!div class=mx-imgBorder]
   > ![Knowledge article sort](media/km-sort.png "Knowledge article sort")
+  
 
 ### Link and unlink a knowledge article to a record
 
@@ -256,6 +259,15 @@ In the below illustration, the case subject is **Xbox**. If automatic filtering 
 However, if the Auto filter results check box is not selected, you can see more articles that are not related to subject. These are the results from the entire knowledge base.
 
 ![Deselect Auto filter results](media/ka-deselect-auto-filter-results.png "Deselect Auto filter results")
+
+## View search results from external sources
+
+If your administrator has configured the ability for you to search for files, documents, or articles from data sources outside of your current Dynamics 365 organization, you can view those results by selecting the provider from the drop-down list under **Knowledge**.
+
+   > [!div class=mx-imgBorder]
+   > ![Agent view of search providers](media/search-provider-agent.png "Agent view of available search providers")
+
+For more information on setting up search providers, see [Set up a search provider in Customer Service Hub](set-up-search-providers.md).
     
 ## Submit ratings and feedback for knowledge articles
 
@@ -288,3 +300,5 @@ To set up the feedback control, see [Enable feedback control](set-up-knowledge-m
 [Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)
 
 [Understand knowledge base search mechanisms](knowledge-base-search-methods.md)
+
+[Set up a search provider in Customer Service Hub](set-up-search-providers.md)
