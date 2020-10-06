@@ -11,7 +11,7 @@ ms.topic: article
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
-Provides the functionality to fetch the currently ongoing conversation id.
+This function can be called to fetch the unique GUID of the current ongoing conversation in a session. The conversation id stays the same post conversation close as well. This id can be used to fetch the conversation record programmatically.
 
 ## Syntax
 
@@ -23,7 +23,7 @@ None
 
 ## Return Value
 
-String resolved with currently ongoing conversation id.
+Guid of the current ongoing conversation
 
 ## Example
 
