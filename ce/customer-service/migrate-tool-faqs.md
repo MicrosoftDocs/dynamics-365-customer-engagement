@@ -1,9 +1,9 @@
 ---
 title: "Migration tool FAQs | MicrosoftDocs"
 description: "Migration tool FAQs for: Automatic record creation rules and service-level agreement items"
-ms.date: 09/17/2020
+ms.date: 10/05/2020
 ms.service:
-  - "dynamics-365-customerservice"
+  "dynamics-365-customerservice"
 ms.topic: article 
 author: lerobbin
 ms.author: lerobbin
@@ -152,23 +152,31 @@ For lookup data types, only the **equal / not equal, null /not null** operators 
 > - The "not-on" operator for the Date data type is not supported.
 > - For the lookups data type, only the "equal," "not equal," "null," and "not null" operators are supported. The "under" and "not-under" operators are not supported.
 
-## Known SLA issues
+## Known issues
  
 ### Can I migrate a rule again after it’s been activated?
 
- - **Yes, for ARC rules.** You can migrate an activated rule again, but you must first deactivate and delete it from Unified Interface before you can migrate it again.
- - **No for SLA rules.** Once a migrated SLA rule is activated, it is linked to another entity (such as a case or is in use). To attempt to migrate an activated rule (which is a successfully migrated rule by default) again, you'd need to delete that specific rule. 
-    
+ - **Yes, for automatic record creation rules.** You can migrate an activated rule again, but you must first deactivate and delete it from Unified Interface before you can migrate it again.
+ - **No for SLAs.** After a migrated SLA rule is activated, it is linked to another entity (such as a case or is in use). To attempt to migrate an activated rule (which is a successfully migrated rule by default) again, you'd need to delete that specific rule. 
+
 However, there is a limitation with Unified Interface SLA rules, and once a rule is associated with a case or entity (that is, if it has been activated even once), you cannot delete the rule even if it is deactivated. Therefore, the rule cannot be migrated again if it has been previously activated or applied.
 
 ### Can I migrate deprecated standard SLA rules?
 
  No. The migration tool only supports enhanced SLA rules. Standard SLA rules have been deprecated and are no longer supported in Unified Interface and therefore aren't supported in the migration tool. For more information, go to [Standard SLAs in Dynamics 365 Customer Service are deprecated](https://docs.microsoft.com/power-platform/important-changes-coming#standard-slas-in-dynamics-365-customer-service-are-deprecated). 
 
+
 ## Known flow issues
 
-### Activity party-type attribute issues during workflow-to-flow conversion.
+### Migration doesn't support multiple items or conditions having the same "applicable when" within same SLA.
 
+In the web client, multiple items can be defined with the same "applicable when" condition and different success criteria for an SLA. However, the same capability is not supported in Unified Interface. Therefore, during migration, the second or subsequent such SLA item with the same "applicable when" condition will not be created. The following screenshots capture the scenario that is not supported in Unified Interface.
+![Applicable when condition with success criteria one](media/applicable-when.png "Applicable when condition with success criteria one")
+
+![Same applicable when condition with different success criteria](media/different-success-condition.png "Same applicable when condition with different success criteria")
+
+
+### Activity party-type attribute issues during workflow-to-flow conversion.
 
 Any activity party-type attribute assigned to another activity party-type field (the most commonly impacted fields are: to, from, cc, and bcc, in emails) will not migrate during the workflow-to-flow conversion, as Flow currently doesn't support this scenario. Although the migration of the rule will not fail, the data value for such activity party-type fields that relies on another activity party-type attribute will be empty post-migration. 
         
