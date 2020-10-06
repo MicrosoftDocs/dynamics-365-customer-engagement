@@ -40,7 +40,7 @@ The previous figure shows how a simple customer journey might look. A more compl
 
 1. The next tile is an email tile, so the system automatically sends a marketing email to the new contact, and the contact moves on to the next tile. The email message offers a free white paper for download.
 
-1. The next tile is an if/then (condition) tile. The tile keeps the contact here until either a week goes by, or the contact selects the download link. The if/then tile branches the path, so if the contact selects to download the paper, they'll take the "true" path immediately. But if a week goes by without a the contact making a selection, the contact will follow the "false" path.
+1. The next tile is an if/then (condition) tile. The tile keeps the contact here until either a week goes by, or the contact selects the download link. The if/then tile branches the path, so if the contact selects to download the paper, they'll take the "true" path immediately. But if a week goes by without the contact making a selection, the contact will follow the "false" path.
 
 1. The top ("true") path continues with more tiles designed to nurture the lead further. Because the contact selected the link, Dynamics 365 Marketing generated a lead for that contact, which represents their expression of interest in the product promoted in the white paper. Some tiles along this path might initiate or evaluate lead interactions (such as event invitations), while others might generate internal events (like assigning a task or launching a workflow in the CRM system). As the contact interacts with your initiatives, the lead builds up its score until it's ready to forward to sales.
 
