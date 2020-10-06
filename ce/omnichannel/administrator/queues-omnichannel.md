@@ -63,7 +63,7 @@ Perform the following steps to create a queue in Omnichannel for Customer Servic
 4. Select **Save**. The **Users (Agents)** section is displayed.
 
     > [!div class=mx-imgBorder]
-    > ![omnichannel queue](../media/oc-create-new-queue.PNG)
+    > ![omnichannel queue](../media/oc-create-queue.png)
 
 5. In the **Users (Agents)** section, select **Add Existing User** to add existing agents to the queue.
 6. On the **Lookup Records** flyout menu, select the agents to add, and then select **Add**.

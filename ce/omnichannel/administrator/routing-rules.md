@@ -1,13 +1,13 @@
 ---
 title: Create and manage routing rules in Omnichannel for Customer Service | MicrosoftDocs
 description: Understand how to create and manage routing rules in Omnichannel for Customer Service
-author: kabala
-ms.author: kabala123
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.date: 12/27/2019
 ms.topic: article
 ms.service: 
-  - "dynamics-365-customerservice"
+   "dynamics-365-customerservice"
 ---
 # Create and manage routing rules
 
@@ -28,7 +28,7 @@ Routing rules are evaluated from top to bottom. If a rule condition is evaluated
 Routing rule conditions could be based on channel context, pre-chat context, and contact, account, or case context. For example, you can define a routing rule so that chats from high priority customers who have specific queries about investments can be routed to a specific queue.
 
 > [!IMPORTANT]
-> If all the rule conditions are evaluated as False for a conversation, it goes to the **Default** queue. For more information, see [Default queue](queues-omnichannel.md#default-queue).
+> If all the rule conditions are evaluated as False for a conversation, it goes to the **Default** queue. For more information, see [Default queue](queues-omnichannel.md#default-queues).
 
 ## Create a routing rule
 
