@@ -143,7 +143,7 @@ To set up [!INCLUDE[pn_crm_for_outlook_full](../../includes/pn-crm-for-outlook-f
 
    You might need to enable the following  AD FS endpoint: **/adfs/service/trust/13/windowstransport**
 
-   For information on enabling an endpoint, see [Sign in to Office 365, Azure, or Intune fails after you change the federation service endpoint](https://support.microsoft.com/help/2712957/sign-in-to-office-365,-azure,-or-intune-fails-after-you-change-the-federation-service-endpoint).
+   For information on enabling an endpoint, see [Sign in to Microsoft 365, Azure, or Intune fails after you change the federation service endpoint](https://support.microsoft.com/help/2712957/sign-in-to-office-365,-azure,-or-intune-fails-after-you-change-the-federation-service-endpoint).
 
 ### See Also
  [Dynamics 365 for Outlook support](support.md)

@@ -56,8 +56,8 @@
 ## [Send bulk email](../basics/send-bulk-email-customers.md)
 
 # [Collaboration](../basics/collaborate-with-team.md)
-## [Office 365 Groups](../basics/collaborate-with-colleagues-using-office-365-groups.md)
-## [Office 365 Groups FAQ](../basics/office-365-groups-dynamics-365-faqs.md)
+## [Microsoft 365 Groups](../basics/collaborate-with-colleagues-using-office-365-groups.md)
+## [Microsoft 365 Groups FAQ](../basics/office-365-groups-dynamics-365-faqs.md)
 ## [OneDrive for Business](../basics/use-onedrive-business-manage-private-documents.md)
 <!-- OneNote isn't supported with on-premises ## [OneNote](../basics/use-onenote.md)
 ## [OneNote FAQs](../basics/onenote-dynamics-365-faqs.md)-->
