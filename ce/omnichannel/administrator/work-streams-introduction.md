@@ -108,8 +108,8 @@ To learn more about how to set up channels and associate work streams, see the f
 
 When a conversation becomes active from the waiting status, it might not be assigned to the same agent who had previously handled it. The agent affinity option that can be set at the work stream level helps you reassign the conversation to the agent who had worked on it earlier and sets the context of the issue details without the need for orientation. The agent affinity works as follows:
 
-- Is enabled by default for social channels.
-- Conversations are reassigned to the same agent regardless of agent's capacity.
+- Is enabled by default for SMS and social channels.
+- Conversations are reassigned to the same agent irrespective of agent's capacity.
 - Is available only for push type of work distribution.
 - Agent presence is not a determining factor.
 
