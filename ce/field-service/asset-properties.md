@@ -39,9 +39,9 @@ Properties are flexible, and can be defined in multiple ways, as we'll look at i
 
 - You'll need one or more existing assets in Field Service. For more information, see the article on [customer assets](configure-set-up-customer-assets.md).
 
-## Create and assign asset categories
+## Create and assign asset categories (optional)
 
-First, create an **Asset Category**. In our example, we're using the category **Laptop - high performance**.
+First, create an **Asset Category** to group your assets. This is optional, if you organization does not use asset categories then proceed to the next step of creating property definitions. In our example, we're using the category **Laptop - high performance**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a customer asset category.](./media/assets-categories.png)
