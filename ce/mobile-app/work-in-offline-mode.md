@@ -99,29 +99,30 @@ With intermittent connectivity, it is recommended to switch to offline mode. As 
    > [!div class="mx-imgBorder"] 
    > ![Work in offline mode](media/set_offline_toggle.png "Set toggle to work in offline mode")
 
-## Check offline status
+## See if offline mode is availables
 
-When offline updates are complete, you can check to see if mobile offline is available.
+When offline updates are complete, you can check to see if mobile offline is available. 
 
-- From the nav bar, select ![Dynamics 365 apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 apps ellipsis") > **Offline Status**.
+- To check the offline status, do one of the following:   
+
+    - **Current**: From the nav bar, select ![Dynamics 365 apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 apps ellipsis") > **Offline Status**. 
+    - **Early access**: From the Home screen, select the site map ![Site map icon](media/d365_mobile_sitemap_icon.png "Site map icon") > Offline ![Offline button.](media/offline_button.png "Offline button").
   
-   > [!div class="mx-imgBorder"] 
-   > ![Mobile Offline Status](../mobile-app/media/OfflineStatusSettings.png "Mobile Offline Status")   
+    > [!div class="mx-imgBorder"] 
+    > ![Mobile offline status](media/OfflineStatus.png "Mobile offline status")
 
+Legend:
 
-
-  -  **Status** tracks the offline status of the whole app, and also the status of each entity individually. When the status shows as  **Available**, it indicates offline is available and data has synced successfully.
+1. **Status**: Tracks the offline status of the whole app, and also the status of each entity individually. When the status shows as  **Available**, it indicates offline is available and data has synced successfully.
 
    > [!NOTE] 
    > The status here can be **Not Available** due to an error or if you missed downloading offline updates. If the status is **Not Available** due to missing the latest offline updates, then try downloading the updates again.
    
- 
-  -  **Entity** provides the offline status of each entity individually. For the available entities, you can also track the last time the entity synced. Data is synced periodically in the background to ensure that you have access to the latest data whenever you go offline.
+ 2. **Entity**: Provides the offline status of each entity individually. For the available entities, you can also track the last time the entity synced. Data is synced periodically in the background to ensure that you have access to the latest data whenever you go offline.
    
-  -  **Last Sync Date** indicates the last time your data was synced with the server.
+ 3. **Last Sync Date**: Indicates the last time your data was synced with the server.
  
-     > [!div class="mx-imgBorder"] 
-     > ![Mobile offline status](media/OfflineStatus.png "Mobile offline status")
+
  
 ### Check offline status from the main menu
 
