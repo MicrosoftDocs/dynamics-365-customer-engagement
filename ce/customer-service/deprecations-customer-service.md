@@ -47,13 +47,13 @@ Effective from October 01, 2020, the service-level agreements (SLAs) are depreca
 
 The existing service scheduling functionality is deprecated, and will no longer be available on December 1, 2020. The new scheduling experience, built on Universal Resource Scheduling (URS), is now available in the Unified Interface.
 
-Existing service scheduling users will be provided advance notice for a timebound migration to the new scheduling capabilities.
+Existing service scheduling users will be provided advance notice for a time bound migration to the new scheduling capabilities.
 
 There are two approaches to migrate to the scheduling experience:
 
 Follow the guidance in the [Service Scheduling Guide](basics-service-service-scheduling.md) to set up the new scheduling experience for an existing Dynamics 365 Customer Service organization.
 
-If your organization requires features that rely on legacy APIs, the product team is offering an incremental migration option and will update your organization to the Unified Interface experience while continuing to allow the use of the legacy APIs. This approach is available in 2020 release wave 2 with Eary Access in August, 2020.
+If your organization requires features that rely on legacy APIs, the product team is offering an incremental migration option and will update your organization to the Unified Interface experience while continuing to allow the use of the legacy APIs. This approach is available in 2020 release wave 2 with Early Access in August, 2020.
 
 ## Contracts, Contract Line Items, and Contract Templates entities are deprecated
 
