@@ -55,11 +55,12 @@ When your admin has [enabled mobile offline](setup-mobile-offline-for-admin.md
 
 ## Download offline data later
 
-If didn’t want to download offline data and choose **Skip for now**, you will not be able to use the app in offline mode until you manually download the updates. 
+If did not want to download offline data and choose **Skip for now**, you will not be able to use the app in offline mode until you manually download the updates. 
 
 1. To manually download updates, do the following:
+
     - **Current**: From the nav bar, select ![Dynamics 365 apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 apps ellipsis") > **Offline Status**. 
-    - **Early access**: 
+    - **Early access**: From the Home screen, select the site map ![Site map icon](media/d365_mobile_sitemap_icon.png "Site map icon") > Offline ![Offline button.](media/offline_button.png "Offline button") 
 
 2. To see the download status, from the nav bar, select ![Dynamics 365 apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 apps ellipsis") > **Offline Status**.
 
