@@ -60,12 +60,17 @@ If did not want to download offline data and choose **Skip for now**, you will n
 1. To manually download updates, do the following:
 
     - **Current**: From the nav bar, select ![Dynamics 365 apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 apps ellipsis") > **Offline Status**. 
-    - **Early access**: From the Home screen, select the site map ![Site map icon](media/d365_mobile_sitemap_icon.png "Site map icon") > Offline ![Offline button.](media/offline_button.png "Offline button") 
+    - **Early access**: From the Home screen, select the site map ![Site map icon](media/d365_mobile_sitemap_icon.png "Site map icon") > Offline ![Offline button.](media/offline_button.png "Offline button").
 
-2. To see the download status, from the nav bar, select ![Dynamics 365 apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 apps ellipsis") > **Offline Status**.
+2. On the **Offline Status** screen, select **Download offline updates**.
 
    > [!div class="mx-imgBorder"] 
-   > ![Start download updates](media/mobile_offline_download_updates_complete.png "Start download updates")
+   > ![Start offline download.](media/start-offline-download.png "Start offline download")
+
+3. The download will start and the status will change to **Initializing**.
+
+   > [!div class="mx-imgBorder"] 
+   > ![Start download updates.](media/mobile_offline_download_updates_complete.png "Start download updates.")
    
 3. When Offline download is completed, you will get a notification indicating that you can start working in offline mode.
 
