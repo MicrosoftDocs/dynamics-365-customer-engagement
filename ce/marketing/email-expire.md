@@ -29,7 +29,7 @@ Some of your customer journeys may include email messages with time-sensitive co
 
 1. Select the email tile in your customer journey.
 
-2. Switch the **Email expiration** toggle within **Email properties** to **On**.
+2. Open the **Expiration** category within **Email properties** and switch the **Email expiration** toggle to **On**.
 
 3. Set your static **Expiration date and time** (for example, March 31, 2020 at 22:00). Specified expiry times use the customer journey's time zone.
 
