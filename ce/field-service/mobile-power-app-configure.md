@@ -3,7 +3,7 @@ title: "Configure the Field Service (Dynamics 365) mobile app | MicrosoftDocs"
 description: Learn how to configure the Field Service (Dynamics 365) mobile app.
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 08/27/2020
+ms.date: 10/07/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -128,6 +128,8 @@ Administrators can edit the data downloaded to the Field Service (Dynamics 365) 
 > [!Note]
 > When internet access is available, users will simply see all data on the server they have access to via their security role.
 
+For more information see the topic on [setting up mobile offline synchronization](https://docs.microsoft.com/dynamics365/mobile-app/preview-setup-mobile-offline). 
+
 > [!div class="mx-imgBorder"]
 > ![Simulated image showing the Field Service (Dynamics 365) mobile app on a mobile device, showing the offline status screen.](./media/mobile-2020-offline-list.png)
 
@@ -236,3 +238,21 @@ Save and publish customizations.
 
 - [What are model-driven apps in Power Apps?](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-overview)
 - [Enable entities for mobile offline synchronization](https://docs.microsoft.com/dynamics365/mobile-app/setup-mobile-offline-for-admin#step-1-enable-entities-for-mobile-offline-synchronization)
+
+## More features
+
+Because the Dynamics 365 Field Service mobile app is built on Microsoft's Power Platform, administrators and developers can use the same tools that are available for configuring Dynamics 365 and Power Apps.
+
+Below are a few examples.
+
+| Area	| Power Platofrm reference doc |
+| --- | --- |
+| Form layout	 | Entity Views: https://docs.microsoft.com/en-us/powerapps/developer/model-driven-apps/customize-entity-views Entity Forms: https://docs.microsoft.com/en-us/powerapps/developer/model-driven-apps/customize-entity-forms | 
+| Views | 	https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/create-edit-views-app-designer
+| Custom iframe integration | 	https://docs.microsoft.com/en-us/powerapps/developer/model-driven-apps/use-iframe-and-web-resource-controls-on-a-form | 
+| Custom HTML pages | 	https://docs.microsoft.com/en-us/powerapps/developer/model-driven-apps/webpage-html-web-resources 
+| Commands on forms and views	 |  Command Representation: https://docs.microsoft.com/en-us/powerapps/developer/model-driven-apps/command-bar-ribbon-presentation Command Actions: https://docs.microsoft.com/en-us/powerapps/developer/model-driven-apps/define-ribbon-actions
+| Event Handling (On Save, On Load, etc.) | 	https://docs.microsoft.com/en-us/powerapps/developer/model-driven-apps/clientapi/events-forms-grids | 
+| Business Logic / Javascript	 | https://docs.microsoft.com/en-us/powerapps/developer/model-driven-apps/client-scripting | 
+| Client Scripting | 	https://docs.microsoft.com/en-us/powerapps/developer/model-driven-apps/client-scripting | 
+
