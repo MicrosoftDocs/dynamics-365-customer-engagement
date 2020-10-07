@@ -81,6 +81,19 @@ You can also sign in using your web address for the Dynamics 365 app and user na
   > [!div class="mx-imgBorder"] 
   > ![Sign out](media/previewsignout.png "Sign out")
   
+## Clear cache from the device
+
+If you used the mobile app on a phone or tablet temporarily and want to remove all your cached data before giving the device to someone else, you need to reconfigure the app.
+
+- From the nav bar, select ![Dynamics 365 apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 apps ellipsis")  > **User Information** > **Reconfigure**. 
+
+     > [!div class="mx-imgBorder"] 
+     > ![Reconfigure the mobile app](media/reconfigure.png "Reconfigure the mobile app")
+
+Reconfiguring deletes data and metadata for the current organization from the cache, however do not rely on this as a security measure.
+
+Make sure you use the **Reconfigure** option before you sign out. If you sign in to another organization but you wanted to delete data for the previous organization that you were logged into, then you will need to sign back into that organization and use the **Reconfigure** option to delete data and metadata for that organization from the cache. 
+  
 ## Navigation
 
 For phones, portrait mode is set as the default screen orientation. For tablets, landscape mode is set as the default. Screen orientation for phone and tablet apps cannot be changed. 
