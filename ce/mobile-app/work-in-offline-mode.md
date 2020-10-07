@@ -29,17 +29,18 @@ Work with your data in offline mode even when you don't have internet access. Th
 
 If you're working on a record and lose network connection, any updates made to the record are saved in offline mode and will be synchronized to Dynamics 365 app once you're back online. When the record is synchronized with the app, it follows the filter rule for availability in offline mode.
 
+
+> [!NOTE]
+> - The mobile offline feature is only available for iOS and Android devices.
+> - To use the mobile offline feature, download the latest version of the Dynamics 365 for phones and tablet app from the app store. For iOS, version 13.19043.32 or later is supported; for Android, version 4.3.19043.33 or later supported.
+> - The offline feature isn't supported for Dynamics 365 Customer Engagement (on-premises). 
+
 ## Early access feature
 
 If you have enabled early access, then you will have a different navigation experience. This topic calls out both experiences.
 
 Your administrator has to opt in to early access updates for your environment and then install the updates to get this feature. More information: [Opt in to early access updates](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates)
 
-
-> [!NOTE]
-> - The mobile offline feature is only available for iOS and Android devices.
-> - To use the mobile offline feature, download the latest version of the Dynamics 365 for phones and tablet app from the app store. For iOS, version 13.19043.32 or later is supported; for Android, version 4.3.19043.33 or later supported.
-> - The offline feature isn't supported for Dynamics 365 Customer Engagement (on-premises). 
 
 ## Download updates to work in offline mode
 
@@ -138,14 +139,12 @@ You can also see which entities are available in offline mode from the main menu
      > [!div class="mx-imgBorder"] 
      > ![Available entities for mobile offline](media/available_entites.png "Available entities for mobile offline")
      
-   
 
 ## Sync conflict resolution
 
 Conflict errors can resolved based on the settings set by the admin. If your admin has set the conflict resolution to **No**, then the data value on your client device wins and there will be no sync errors. 
 
 If your admin has set the conflict resolution to **Yes**, then the data value on the server wins. In this case, while syncing changes to the server, you might see some errors that are automatically resolved. Client changes are overwritten by server values.
-
 
 
 ## Mobile offline capabilities and limitations
