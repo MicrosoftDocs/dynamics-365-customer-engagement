@@ -2,7 +2,7 @@
 title: "Work offline on your mobile device (Dynamics 365 apps)| MicrosoftDocs"
 description: How to work on your mobile device in offline mode using the Dynamics 365 for phones and tablets app 
 ms.custom: 
-ms.date: 9/16/2020
+ms.date: 10/8/2020
 ms.reviewer: kvivek
 ms.service: crm-online
 ms.suite: 
