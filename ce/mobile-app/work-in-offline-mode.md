@@ -147,18 +147,6 @@ Conflict errors can resolved based on the settings set by the admin. If your adm
 If your admin has set the conflict resolution to **Yes**, then the data value on the server wins. In this case, while syncing changes to the server, you might see some errors that are automatically resolved. Client changes are overwritten by server values.
 
 
-## Clear cache from the device
-
-If you used the mobile app on a phone or tablet temporarily and want to remove all your cached data before giving the device to someone else, you need to reconfigure the app.
-
-- From the nav bar, select ![Dynamics 365 apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 apps ellipsis")  > **User Information** > **Reconfigure**. 
-
-     > [!div class="mx-imgBorder"] 
-     > ![Reconfigure the mobile app](media/reconfigure.png "Reconfigure the mobile app")
-
-Reconfiguring deletes data and metadata for the current organization from the cache, however do not rely on this as a security measure.
-
-Make sure you use the **Reconfigure** option before you sign out. If you sign in to another organization but you wanted to delete data for the previous organization that you were logged into, then you will need to sign back into that organization and use the **Reconfigure** option to delete data and metadata for that organization from the cache. 
 
 ## Mobile offline capabilities and limitations
 
