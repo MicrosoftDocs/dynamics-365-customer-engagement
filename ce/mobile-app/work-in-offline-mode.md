@@ -125,7 +125,7 @@ Legend:
  
 
  
-### Check offline status from the main menu
+### Check offline status from the main menu (current release only)
 
 You can also see which entities are available in offline mode from the main menu.
 
