@@ -114,6 +114,8 @@ Add and delete booking fields as needed.
 
 Another way you can add work order information to the booking form is to add a [quick view form](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-quick-view-forms) that displays work order fields. Quick view forms are read-only, but you can go to the related work order form from there.
 
+For more information see the article on [customizing entity forms](Entity Forms: https://docs.microsoft.com/powerapps/developer/model-driven-apps/customize-entity-forms).
+
 ## Customize global search and enable scan to search 
 
 By default, Dynamics 365 Field Service is configured to search against account, contact, user, and activity. You can customize global search to include additional entities, such as customer asset and product, which helps technicians search, find by keyword, and scan to search by barcode, UPC, or QR code.
@@ -172,7 +174,7 @@ For another example, the **Work Order Product** entity has a data download filte
 > [!Note]
 > By default, work orders related to downloaded bookable resource bookings are available offline. This creates a chain of entities and records that are offline: bookings > work orders > work order products. This means that bookings scheduled to you are downloaded, work orders related to those bookings are downloaded, and work order products related to those work orders are downloaded.
 
-For more information, see the article: [Dynamics 365 offline profiles](https://docs.microsoft.com/dynamics365/mobile-app/setup-mobile-offline-for-admin#step-1-enable-entities-for-mobile-offline-synchronization).
+For more information see the article on [Dynamics 365 offline profiles](https://docs.microsoft.com/dynamics365/mobile-app/setup-mobile-offline-for-admin#step-1-enable-entities-for-mobile-offline-synchronization).
 
 ### Create new offline profiles
 
@@ -241,18 +243,15 @@ Save and publish customizations.
 
 ## More features
 
-Because the Dynamics 365 Field Service mobile app is built on Microsoft's Power Platform, administrators and developers can use the same tools that are available for configuring Dynamics 365 and Power Apps.
-
-Below are a few examples.
+Because the Dynamics 365 Field Service mobile app is built on Microsoft's Power Platform, administrators and developers can use the same tools that are available for configuring Dynamics 365 and Power Apps. Below are a few examples.
 
 | Area	| Power Platofrm reference doc |
 | --- | --- |
-| Form layout	 | Entity Views: https://docs.microsoft.com/en-us/powerapps/developer/model-driven-apps/customize-entity-views Entity Forms: https://docs.microsoft.com/en-us/powerapps/developer/model-driven-apps/customize-entity-forms | 
-| Views | 	https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/create-edit-views-app-designer
-| Custom iframe integration | 	https://docs.microsoft.com/en-us/powerapps/developer/model-driven-apps/use-iframe-and-web-resource-controls-on-a-form | 
-| Custom HTML pages | 	https://docs.microsoft.com/en-us/powerapps/developer/model-driven-apps/webpage-html-web-resources 
-| Commands on forms and views	 |  Command Representation: https://docs.microsoft.com/en-us/powerapps/developer/model-driven-apps/command-bar-ribbon-presentation Command Actions: https://docs.microsoft.com/en-us/powerapps/developer/model-driven-apps/define-ribbon-actions
-| Event Handling (On Save, On Load, etc.) | 	https://docs.microsoft.com/en-us/powerapps/developer/model-driven-apps/clientapi/events-forms-grids | 
-| Business Logic / Javascript	 | https://docs.microsoft.com/en-us/powerapps/developer/model-driven-apps/client-scripting | 
-| Client Scripting | 	https://docs.microsoft.com/en-us/powerapps/developer/model-driven-apps/client-scripting | 
+| Views | 	https://docs.microsoft.com/powerapps/maker/model-driven-apps/create-edit-views-app-designer, https://docs.microsoft.com/powerapps/developer/model-driven-apps/customize-entity-views
+| Custom iframe integration | 	https://docs.microsoft.com/powerapps/developer/model-driven-apps/use-iframe-and-web-resource-controls-on-a-form | 
+| Custom HTML pages | 	https://docs.microsoft.com/powerapps/developer/model-driven-apps/webpage-html-web-resources 
+| Commands on forms and views	 |  Command Representation: https://docs.microsoft.com/powerapps/developer/model-driven-apps/command-bar-ribbon-presentation Command Actions: https://docs.microsoft.com/powerapps/developer/model-driven-apps/define-ribbon-actions
+| Event Handling (On Save, On Load, etc.) | 	https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/events-forms-grids | 
+| Business Logic / Javascript	 | https://docs.microsoft.com/powerapps/developer/model-driven-apps/client-scripting | 
+| Client Scripting | 	https://docs.microsoft.com/powerapps/developer/model-driven-apps/client-scripting | 
 
