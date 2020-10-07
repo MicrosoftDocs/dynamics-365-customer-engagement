@@ -81,25 +81,6 @@ If did not want to download offline data and choose **Skip for now**, you will n
   | ![Download updates complete](media/mobile_offline_download_updates_complete_1.png "Download updates complete")    |     ![Download updates complete](media/mobile_offline_download_updates_complete_updated.png "Download updates complete")     |
 
 
-## Work in offline mode
-
-Once the offline download is complete, you can use the mobile app in offline mode.
-
-With no connectivity, you'll automatically have access to the downloaded data so you can continue working while you're on the go. The data will be automatically synced with the server as soon as the connectivity is restored.
-
-With intermittent connectivity, it is recommended to switch to offline mode. As long as the offline mode is turned on, the updates that you make on your device will not be synced with the server and you can continue to work with the local data on your device. To push the changes you've made to the server and refresh your local data, set the **Work in offline mode** toggle to Off.
-
-
-1. To start working in offline mode, do one of the following:
-
-    - **Current**: From the nav bar, select ![Dynamics 365 apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 apps ellipsis") > **Offline Status**. 
-    - **Early access**: From the Home screen, select the site map ![Site map icon](media/d365_mobile_sitemap_icon.png "Site map icon") > Offline ![Offline button.](media/offline_button.png "Offline button").
-
-2. Set the **Work in offline mode** toggle to On.
-
-   > [!div class="mx-imgBorder"] 
-   > ![Work in offline mode](media/set_offline_toggle.png "Set toggle to work in offline mode")
-
 ## See if offline mode is availables
 
 When offline updates are complete, you can check to see if mobile offline is available. 
@@ -125,7 +106,24 @@ Legend:
  3. **Last Sync Date**: Indicates the last time your data was synced with the server.
  
 
- 
+## Work in offline mode
+
+Once the offline download is complete, you can use the mobile app in offline mode.
+
+With no connectivity, you'll automatically have access to the downloaded data so you can continue working while you're on the go. The data will be automatically synced with the server as soon as the connectivity is restored.
+
+With intermittent connectivity, it is recommended to switch to offline mode. As long as the offline mode is turned on, the updates that you make on your device will not be synced with the server and you can continue to work with the local data on your device. To push the changes you've made to the server and refresh your local data, set the **Work in offline mode** toggle to Off.
+
+
+1. To start working in offline mode, do one of the following:
+
+    - **Current**: From the nav bar, select ![Dynamics 365 apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 apps ellipsis") > **Offline Status**. 
+    - **Early access**: From the Home screen, select the site map ![Site map icon](media/d365_mobile_sitemap_icon.png "Site map icon") > Offline ![Offline button.](media/offline_button.png "Offline button").
+
+2. Set the **Work in offline mode** toggle to On.
+
+   > [!div class="mx-imgBorder"] 
+   > ![Work in offline mode](media/set_offline_toggle.png "Set toggle to work in offline mode") 
 ### Check offline status from the main menu (current release only)
 
 You can also see which entities are available in offline mode from the main menu.
