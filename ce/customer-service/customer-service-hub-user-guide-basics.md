@@ -1,13 +1,14 @@
 ---
 title: "Learn the basics of the Customer Service Hub app | MicrosoftDocs"
 description: "Learn the basics of the Customer Service Hub for Customer Service"
-ms.date: 08/03/2020
+ms.date: 10/05/2020
 ms.service:
-  - "dynamics-365-customerservice"
+  "dynamics-365-customerservice"
 ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
+
 ---
 
 # Learn the basics of the Customer Service Hub
@@ -37,25 +38,26 @@ The Customer Service Hub app is available to use on a desktop browser and on a m
 
 **Desktop browser**
   
-- In the Common Data Service platform, go to **Settings** > **Application** > **My Apps** >  **Customer Service Hub**.
+1. In the Common Data Service platform, go to **Settings** > **Application** > **My Apps** >  **Customer Service Hub**.
 
-   ![open-csh](media/open-csh.png "Open the Customer Service Hub")
+   ![Navigate to the application settings for Customer Service Hub](media/open-csh.png "Open the Customer Service Hub")
  
   
-- In the Dynamics 365 Customer Service site map, navigate to the app switcher, and then select **Customer Service Hub**.
+2. In the Dynamics 365 Customer Service site map, navigate to the app switcher, and then select **Customer Service Hub**.
 
-  ![open-csh-sitemap](media/open-csh-sitemap.png "Customer Service Hub sitemap")
+  ![Open the Customer Service Hub site map](media/open-csh-sitemap.png "Customer Service Hub site map")
   
 **Mobile device**
 
 To access the Customer Service Hub app on a mobile device:
 
-- Install the Dynamics 365 Customer Service mobile app.
+1. Install the Dynamics 365 Customer Service mobile app.
   
   To install the Dynamics 365 Customer Service mobile app, see [Install Dynamics 365 for phones and tablets](../mobile-app/install-dynamics-365-for-phones-and-tablets.md)
-- From the My Apps page, select **Customer Service Hub**.
 
-   ![choose-on-mobile](media/ChooseAnApp_1.png "Customer Service Hub on mobile")
+2. From the My Apps page, select **Customer Service Hub**.
+
+   ![Select Customer Service Hub on a mobile device](media/ChooseAnApp_1.png "Customer Service Hub on mobile")
 
 ## Work with case management record types, dashboards, and tools
 
@@ -70,17 +72,17 @@ To access the Customer Service Hub app on a mobile device:
 - Queues  
 - Knowledge Articles
 
-The Customer Service Hub comes with an enhanced sitemap to enable easy navigation of the interface. To learn more, see [Understand the sitemap navigation](#understand-the-sitemap-navigation).
+The Customer Service Hub comes with an enhanced site map to enable easy navigation of the interface. To learn more, see [Understand the site map navigation](#understand-the-site-map-navigation).
   
-## Understand the sitemap navigation
+## Understand the site map navigation
 
-1. Select the sitemap icon ![sitemap icon](media/sitemap-icon.png "Sitemap"). Select Service, and then select an entity record type.
+1. Select the site map icon ![site map icon](media/sitemap-icon.png "Site map"). Select Service, and then select an entity record type.
 
   > ![Navigate Records](media/v9-navigate-records.png "Navigate Records")
 
 When you select a record type from the menu, such as Accounts, Contacts, or Cases, you'll see a list of corresponding customer records (also known as Entity grid).
 
-To view recently opened records, select the down-arrow next to the record type in the sitemap.
+To view recently opened records, select the down-arrow next to the record type in the site map.
 
 Here is what each entity record type is used for:
 
@@ -123,7 +125,7 @@ When you're viewing a record:
 
 2. A side panel opens where you can view other records. You can directly select the records from the panel and view the details of the  record.
 
-    ![record set list](channel-integration-framework/media/Nav-fly-out-2.png "record set list") 
+    ![record set list](channel-integration-framework/media/Nav-fly-out-2.png "Record set list") 
  
 > [!NOTE]
 > The option Open Record Set will not be available on devices with comparatively smaller screen sizes.
@@ -135,7 +137,7 @@ More information: [Create and manage queues](https://docs.microsoft.com/dynamics
 - To create records quickly by filling in only the most basic information, select the **New** button ![Create button](../customer-service/media/quick-create-button.png "Create button") given on the nav bar.
 
   > [!TIP]
-  > On a mobile device, from the nav bar, tap ![ellipsis](media/ellipsis.png) and then tap **Quick Create Menu**.
+  > On a mobile device, from the nav bar, tap ![Tap the ellipsis](media/ellipsis.png "Tap the ellipsis") and then tap **Quick Create Menu**.
 
 ## Email a link
 
@@ -155,7 +157,7 @@ When you select a process stage on the process bar, you'll see the steps to take
 
 The stages in the business process flow are displayed in floating mode, or docked mode. Stages can  be aligned in a vertical layout, instead of horizontal, which makes it easier to see what steps are required to move forward. You can also choose to include an optional step in the business process flow and define criteria to trigger it.
 
-![business-process-flow](media/business-process-flow.png "Business process flows")
+![Business process flows](media/business-process-flow.png "Business process flows")
   
 If there is more than one process to follow, you can switch between them by selecting **Process** > **Switch Process** on the command bar, and then selecting the process you want to use.  Or you can choose to abandon the process if it no longer applies.
   
@@ -190,7 +192,7 @@ For example, here's a view of how the tabs appear on the case form:
 
 See a complete view of your customer's touch points in the Contact card. This card is available in the **General Information** section of the **Summary** tab.  
   
-![contact-card](media/contact-card.png "Contact card")
+![Contact card](media/contact-card.png "Contact card")
 
 You can add a picture to the account or contact record in the Common Data Service platform, and it will appear on this card. You can make calls to customers from the Contact card using Skype for Business – IP telephony.
   
@@ -200,7 +202,7 @@ For account records, the card shows contact details for the primary contact asso
 
 Use queues to organize, prioritize, and monitor the progress of your work. In Dynamics 365 Customer Service, queues are containers used to store anything that needs to be completed or requires an action, for example completing a task or closing a case. To know more about creating and managing queues, see [Create and manage queues](set-up-queues-manage-activities-cases.md).
 
-![queues-view](media/queues-view.png "Queues view")
+![Work with queues](media/queues-view.png "Queues view")
 
 
 To know how to add a case to a queue, see [Add a case to a queue](customer-service-hub-user-guide-case-queues-and-routing.md).
@@ -223,14 +225,14 @@ In the **Related** section (also known as Reference panel), use the tabs to see 
 
 By default, the first tab in the Related section of a case record shows the **Recent Cases and Entitlements** for the current case record you're working on. 
   
-![reference-panel](media/reference-panel.png "Reference panel")
+![Reference panel](media/reference-panel.png "Reference panel")
 
 The second tab in the Related section of a case record is the **Knowledge Base search**. Knowledge Base search lets you search for the knowledge articles related to a specific record. It also lets you view automatic suggestions. You can filter the search results to display articles that are Published, Draft, or Approved. For more information, see [Search for Knowledge articles](search-knowledge-articles-csh.md). 
   
 
 The third tab in the Related section of a case record displays **Similar Cases**. Select **...** on a record to follow or unfollow the case, and explore other options. 
 
-![similar-cases](media/similar-cases.png "Similar cases in Reference panel")
+![Similar cases](media/similar-cases.png "Similar cases in Reference panel")
 
 Watch this video to learn more about the Reference Panel in the Customer Service Hub:
 
@@ -279,7 +281,7 @@ In Dynamics 365 Customer Service, the following activities are supported:
 
 #### Open Activities view
 
-In the Customer Service Hub sitemap, select **Service** > **Activities**. The **My Activities** view is displayed. 
+In the Customer Service Hub site map, select **Service** > **Activities**. The **My Activities** view is displayed. 
 
 ![activities-email](media/activities-csh-email.png "Activities view")
 
@@ -298,9 +300,7 @@ In the Customer Service Hub sitemap, select **Service** > **Activities**. The **
 - To view the status of an activity, click the activity record and see bottom-left in the activity form. 
 
 
-### Preview: Insert a knowledge article into an email
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+### Insert a knowledge article into an email
 
 While working on an email, you can quickly help customers by searching and selecting a relevant knowledge article to include in your email. You can insert the article and/or share a link to it in the body of your message.
 
@@ -330,17 +330,15 @@ While working on an email, you can quickly help customers by searching and selec
   > ![Insert a link to the content into email](media/email-knowledge-article-insert-url.png "Insert a link to an article into an emaill by selecting either the Insert URL icon from the search results or Insert URL at the top of the preview pane") 
 
 
-
-
-## Work with Queues
+## Create and Manage Queues
 
 Use queues to organize, prioritize, and monitor the progress of your work. In Dynamics 365 Customer Service, queues are containers used to store anything that needs to be completed or requires an action, for example completing a task or closing a case. To know more about creating and managing queues, see [Create and manage queues](set-up-queues-manage-activities-cases.md).
 
 **Open Queues view**
 
-In the Customer Service Hub sitemap, select **Service** > **Queues**. The queues view is displayed.
+In the Customer Service Hub site map, select **Service** > **Queues**. The queues view is displayed.
 
-![queues-view](media/queues-view.png "Queues view")
+![Queues view](media/queues-view.png "Queues view")
 
 - Use the drop-down lists to switch between the views and the various queues.
 - Select a record in the queues view to:
@@ -351,15 +349,15 @@ In the Customer Service Hub sitemap, select **Service** > **Queues**. The queues
 
 To know how to add a case to a queues, see [Add a case to a queue](customer-service-hub-user-guide-case-queues-and-routing.md).
 
-## Understand Site
+## Create a new site
 
-To create a new site, you need to go to **Advanced find** ![Advanced find](media/advanced-find-icon.png "Advanced find").  Then you can customize other entity forms (e.g. Account) by adding this site field.
+To create a new site, go to **Advanced find** ![Advanced find](media/advanced-find-icon.png "Advanced find"). Then you can customize other entity forms (for example, Account) by adding this site field.
 
-  ![Create New Site](media/add-site-to-any-entity-1a.png "Create New Site")
+  ![Create a new site](media/add-site-to-any-entity-1a.png "Create New Site")
  
-## Understand Facility/Equipment
+## Create a facility/equipment item
 
- To create a new Facility/Equipment item, you need to go to **Advanced find** ![Advanced find](media/advanced-find-icon.png "Advanced find"), where you can create Facility/Equipment.
+To create a new Facility/Equipment item, go to **Advanced find** ![Advanced find](media/advanced-find-icon.png "Advanced find"), where you can create Facility/Equipment.
 
   ![Create New Facility/Equipment](media/add-site-to-any-entity-1b.png "Create New Facility/Equipment")
 
