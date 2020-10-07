@@ -1,16 +1,16 @@
 ---
 title: "Configure automated messages | MicrosoftDocs"
-description: "Instructions to configure automated messages in Omnichannel for Customer Service."
+description: "Instructions to configure automated messages in Omnichannel for Customer Service"
 author: platkat
 ms.author: ktaylor
 manager: shujoshi
-ms.date: 08/03/2020
+ms.date: 10/07/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
 ---
 
-# Preview: Configure automated messages
+# Configure automated messages
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
@@ -67,6 +67,22 @@ To deactivate messages at the channel instance level, select one or more message
 
 > [!div class=mx-imgBorder]
 > ![Deactivate automated messages](../media/automated-messages-deactivate.png "Deactivate automated messages")
+
+## Preconfigured automated message trigger definitions
+
+| Message trigger                            | Definition                                                                                    | When to trigger                  |
+|--------------------------------------------|-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Agent assigned to a conversation           | Message displayed to the customer when the customer's conversation is created                 | When the customer's conversation is created                                                                                                                                                               |
+| Agent couldn’t be assigned to conversation | Message displayed to the customer  when agent assignment fails                                | When work distribution fails (for example, no agents are linked to the queue, or the default queue is not found)  or when routing is unable to add the agent to the chat due to system (CBB/IC3) failure. |
+| Agent disconnected from the conversation   | Message displayed to the customer  when the agent gets disconnected                           | When the agent gets disconnected due to browser tab closure, browser closure, offline agent presence, internet disconnected                                                                               |
+| Agent ended the conversation               | Message displayed to the customer when the agent ends the conversation                        | When the agent clicks the End button                                                                                                                                                                      |
+| Agent joined the conversation              | Message displayed to the customer  when the agent joins a conversation                        | When the agent accepts the notification                                                                                                                                                                   |
+| Consult accepted                           | Message displayed to the customer  when another agent is consulted successfully               | When another agent accepts the consult request                                                                                                                                                            |
+| Consult session ended                      | Message displayed to the customer when consulted agent ends the session                       | When the consulted agent closes the session                                                                                                                                                               |
+| Holiday message to customer                | Message displayed to the customer on holidays                                                 | When the customer initiates a conversation on holidays set up for the Live Chat, channel, or queue                                                                                                        |
+| Out of operating hour message to customer  | Message displayed to the customer outside of the business hours                               | When customer initiates a conversation outside of business hours set up for the Live Chat, channel, or queue                                                                                              |
+| Session ended                              | Message displayed to the customer when the agent ends the conversation and closes the session | When the agent ends the conversation and closes the session                                                                                                                                               |
+| Transfer to agent accepted                 | Message displayed to the customer  when the conversation is transferred successfully          | When another agent accepts the transfer request                                                                                                                                                           |
 
 ### See also
 
