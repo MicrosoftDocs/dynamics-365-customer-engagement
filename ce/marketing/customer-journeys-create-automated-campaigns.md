@@ -147,7 +147,7 @@ To set up a segment tile to target a subscription list:
 
 1. Set the **Segment** field to **Subscription List**, which activates the **Look for Marketing list** field. Then use the **Look for Marketing list** field to find the subscription list you want to use for this journey.
   
-    ![Set a segment tile to load a subscription list](media/customer-journey-subscription-list.png "Set a segment tile to load a subscription list")
+    ![Set a segment tile to load a subscription list](media/customer-journey-subscription-list3.png "Set a segment tile to load a subscription list")
 
 > [!IMPORTANT]
 > When a customer journey targets a subscription list, any contact that unsubscribes from that list using a subscription center will automatically be removed from that journey within about 24 hours, even if they are already partway through it. However, if a user removes a contact from the list manually using the Dynamics 365 Marketing interface, that contact will continue to be processed by any journeys they already are on, and may continue to receive messages until all active journeys are complete. For this reason, it is usually best to request that all contacts manage their own subscriptions using the subscription center.
