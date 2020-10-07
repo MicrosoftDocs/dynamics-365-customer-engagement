@@ -76,9 +76,9 @@ If did not want to download offline data and choose **Skip for now**, you will n
 3. When Offline download is completed, you will get a notification indicating that you can start working in offline mode.
 
 
-  |Current  |Early access  |
-  |---------|---------|
-  | ![Download updates complete](media/mobile_offline_download_updates_complete_1.png "Download updates complete")    |     ![Download updates complete](media/mobile_offline_download_updates_complete_updated.png "Download updates complete")     |
+   |Current  |Early access  |
+   |---------|---------|
+   | ![Download updates complete](media/mobile_offline_download_updates_complete_1.png "Download updates complete")    |     ![Download updates complete](media/mobile_offline_download_updates_complete_updated.png "Download updates complete")     |
 
 
 ## See if offline mode is availables
