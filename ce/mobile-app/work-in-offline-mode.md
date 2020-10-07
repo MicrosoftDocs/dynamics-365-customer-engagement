@@ -57,7 +57,7 @@ When your admin has [enabled mobile offline](setup-mobile-offline-for-admin.md
 
 If did not want to download offline data and choose **Skip for now**, you will not be able to use the app in offline mode until you manually download the updates. 
 
-1. To manually download updates, do the following:
+1. To manually download updates, do one of the following:
 
     - **Current**: From the nav bar, select ![Dynamics 365 apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 apps ellipsis") > **Offline Status**. 
     - **Early access**: From the Home screen, select the site map ![Site map icon](media/d365_mobile_sitemap_icon.png "Site map icon") > Offline ![Offline button.](media/offline_button.png "Offline button").
@@ -88,7 +88,11 @@ With no connectivity, you'll automatically have access to the downloaded data so
 
 With intermittent connectivity, it is recommended to switch to offline mode. As long as the offline mode is turned on, the updates that you make on your device will not be synced with the server and you can continue to work with the local data on your device. To push the changes you've made to the server and refresh your local data, set the **Work in offline mode** toggle to Off.
 
-1. From the nav bar, select ![Dynamics 365 apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 apps ellipsis") > **Offline Status**.
+
+1. To start working in offline mode, do one of the following:
+
+    - **Current**: From the nav bar, select ![Dynamics 365 apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 apps ellipsis") > **Offline Status**. 
+    - **Early access**: From the Home screen, select the site map ![Site map icon](media/d365_mobile_sitemap_icon.png "Site map icon") > Offline ![Offline button.](media/offline_button.png "Offline button").
 
 2. Set the **Work in offline mode** toggle to On.
 
