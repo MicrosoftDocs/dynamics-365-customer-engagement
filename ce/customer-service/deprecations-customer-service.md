@@ -4,7 +4,7 @@ description: Visit this page to see what's recently deprecated in Dynamics 365 C
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/09/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: 
   dynamics-365-customerservice
@@ -21,11 +21,9 @@ search.app:
 
 # Deprecations in Customer Service
 
-The deprecations in Customer Service are listed in this article.
+The features that have been deprecated in Customer Service are listed in this article.
 
-Administrators and IT professionals can use this information to prepare for future releases. This article was first published on October 10, 2020.
-
-For deprecation information on other Dynamics 365 apps, see [Important changes (deprecations) coming in Power Apps, Power Automate, and customer engagement apps](https://go.microsoft.com/fwlink/p/?linkid=2126541).
+Administrators and IT professionals can use this information to prepare for future releases.
 
 > [!Important]
 >
@@ -57,3 +55,10 @@ The Contracts, Contract Line Items, and Contract Templates entities are deprecat
 ## Standard SLAs in Dynamics 365 Customer Service are deprecated
 
 Standard service level agreements (SLA Type field is set to Standard) are deprecated and will be removed in a future major release. Standard SLAs are replaced by enhanced SLAs. More information: [Enhanced service level agreements](https://technet.microsoft.com/library/dn887187.aspx).
+
+### See also
+
+[Automatically create or update records in Customer Service Hub](automatically-create-update-records.md)  
+[Define service-level agreements](define-service-level-agreements.md)  
+[Strategy for migrating from contracts to entitlements](contract-to-entitlement-migration.md)  
+[Important changes (deprecations) coming in Power Apps, Power Automate](https://go.microsoft.com/fwlink/p/?linkid=2126541)  
