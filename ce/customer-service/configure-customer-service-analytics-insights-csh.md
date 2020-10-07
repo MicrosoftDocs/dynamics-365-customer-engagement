@@ -1,16 +1,14 @@
 ---
 title: "Configure Customer Service analytics and insights for Dynamics 365 in Customer Service Hub| MicrosoftDocs"
 description: "Learn about Customer Service Analytics"
-author: neeranelli
-ms.author: nenellim
+author: lalexms
+ms.author: laalexan
 manager: shujoshi
-ms.date: 06/26/2020
+ms.date: 10/05/2020
 ms.topic: article
 ms.service: 
-  - "dynamics-365-customerservice"
+  "dynamics-365-customerservice"
 ms.custom:
-  - ""
-applies_to:
 ---
 
 # Preview: Configure Customer Service analytics and insights in Customer Service Hub
@@ -28,7 +26,14 @@ applies_to:
 You can configure the Customer Service analytics and Customer Service Insights reports in Customer Service Hub and share them with service managers, who can then view and analyze the different activities performed in Customer Service Hub. The following reports are available out of the box:
 
 - **Analytics reports:** Customers can view BI analytics and metrics for their customer service organization.
-- **Insights reports:** Customers can view Customer Service Insights reports with a combination of BI analytics and AI insights for their organization. The reports use natural language understanding to automatically detect the language used in your support cases and group related support cases into topics. More information: [Customer Service Insights overview](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/overview)
+- **Insights reports:** Customers can view Customer Service Insights reports with a combination of BI analytics and AI insights for their organization. The reports use natural language understanding to automatically detect the language used in your support cases and group related support cases into topics.
+
+The following historical reports are available:
+
+- **Summary**  
+- **Agent**
+- **Topics** 
+- **Knowledge search insights** 
 
 ## Configure Customer Service analytics reports in Customer Service Hub
 
@@ -37,11 +42,20 @@ Make sure that you have administrator permissions for Dynamics 365.
 ### Enable Customer Service analytics reports
 
 1. Sign in to Dynamics 365 as an administrator, and go to Customer Service Hub.
-2. In the **Change area**, select **Service Management** > **Settings (Preview)**. The **Analytics and insights settings** page appears.
+2. In the **Change area**, select **Service Management** > **Settings (Preview)**. The **Analytics and insights settings** page is displayed.
     > [!div class=ms-imgBorder]
     > ![Customer Service analytics installation](media/cs-analyticsinsights-configure.png "Customer Service analytics installation")
 
 3. In **Analytics reporting**, switch the toggle to **Enabled**. A provisioning message appears, and then **Share reports** appears after the provisioning is complete.
+
+### Enable Customer Service historical analytics reports
+
+1. Sign in to Dynamics 365 as an administrator, and go to Customer Service Hub.
+2. In the **Change area**, select **Service Management** > **Settings (Preview)**. The **Analytics and insights settings** page is displayed.
+3. On the right side of **Customer Service Historical Analytics**, choose **Manage**.
+4. For **Customer Service Historical Analytics report**, set the toggle to **Enabled**.
+
+This configuration will enable AI-discovered topics from cases with default settings.
 
 ### Share Customer Service analytics reports
 
@@ -137,6 +151,67 @@ You can view the following reports:
 - **New cases:** Gives an overview of the new cases in your customer service system. It uses AI technology to help you identify popular and emerging issues.
 - **Customer satisfaction:** Gives an overview of customer satisfaction and uses AI technology to show you topics that are having the greatest impact on customer satisfaction scores.
 - **Resolutions:** Gives you an overview of your customer service system's case resolution performance. It uses AI technology to show you topics that are having the greatest positive or negative impact on resolution time.
+
+## Configure topics from cases
+Customer Service historical analytics uses AI to automatically group your cases into topics using natural language understanding. Topics help you discover and adapt to current and emerging trends, improve brand sentiment, and identify problem areas. By pinpointing and fixing issues before they impact customers, you can deliver better customer service experiences. 
+
+The AI-driven technology empowers informed decision making about how to improve resolution rates, reduce wait times, and decrease customer service costs. You can use case resolution insights, backlog trends, and historical comparisons to evaluate agent performance and business impact, and address inefficiencies in your system. 
+
+### Summary and Model Run Summary
+
+The Summary and Model Run Summary views provide key information about how the topic model is operating.  
+
+| Status | Whether the feature is enabled or disabled |  
+|-----------------|------------------|  
+| Data attributes used | Which text field from the Case entity is used for topic generation. |
+|Topics generated | The total number of topics generated by the model. |
+| Cases associated to a topic |  The percentage of cases that were considered for topic generation and classified to a topic. |
+| Last successful run | Timestamp of the last time new cases were processed. |
+| Run frequency | The cadence in which new cases are processed and tagged with topics. |
+
+  > [!div class=ms-imgBorder]
+  > ![Summary and Model Run Summary](media/model-run-summary.png "View the Summary and Model Run Summary")
+
+
+## Configure data mapping
+
+Data mapping enables you to choose which text field where agents in your organization are most likely to describe the reason why a customer reached out to support. By default, the Case Title attribute is used, but this setting enables you to select and string attribute in the Case entity.
+
+  > [!div class=ms-imgBorder]
+  > ![Configure data mapping](media/configure-data-mapping.png "Configure data mapping")
+
+
+## Improve data quality by cleaning support case data 
+
+Customer Service Insights uses AI to give you insights into your customer service data by grouping support cases as topics that are a collection of related cases. This can help you identify areas for improvement that can have the greatest impact on system performance. 
+
+The AI Insights charts displayed on the Customer Service Insights dashboards are generated by applying language understanding technology to the titles of support cases. However, the results can be misleading if the titles include extraneous information such as product name, case status, or ticket number tags. You can improve the quality of the results displayed in AI Insights charts by specifying Data Cleaning settings to disregard tags in titles when they are grouped into topics, as well as specific phrases that should be ignored. Note that when you choose to apply both options, sections are ignored first, followed by phrases.
+
+  > [!div class=ms-imgBorder]
+  > ![Configure data cleaning settings](media/configure-data-cleaning-settings.png "Configure data cleaning settings")
+  
+## Language availability for topics
+
+The topics capability in the Customer Service historical analytics reports comes with a natural language understanding model that can understand the text semantics and intent in the following languages: 
+
+- English 
+- French 
+- German 
+- Italian 
+- Japanese 
+- Portuguese 
+- Simplified Chinese 
+- Spanish 
+
+Each language model also has the capability to process English cases in addition to the other language it’s optimized for. For other languages that are not listed above, Customer Service Insights still tries to group the cases using natural language processing, but without the understanding of text semantics and intent. 
+
+The language-specific models enable better language understanding capability for the corresponding languages. When Customer Service Insights refreshes your workspace and processes the case data, it will automatically detect the primary languages used in your cases. 
+
+If more than 70% of the cases are in languages supported by a specific language model, that model will be used to discover topics from all of your cases; otherwise, a mixed-language model is used. 
+
+For example, if you have more than 70% of cases detected in English, the English language model will be used to process all of your cases. If more than 70% of your cases are in Spanish, or most in Spanish with some English cases (since all language models have the capability to process English), the Spanish model will be used to process all of your cases. 
+
+If you have questions, find issues, or have general inquiries, please refer to our [forum](https://community.dynamics.com/365/aicustomerservice/f/dynamics-365-customer-service-insights).
 
 ### See also
 
