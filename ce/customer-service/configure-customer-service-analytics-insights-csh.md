@@ -43,6 +43,7 @@ Make sure that you have administrator permissions for Dynamics 365.
 
 1. Sign in to Dynamics 365 as an administrator, and go to Customer Service Hub.
 2. In the **Change area**, select **Service Management** > **Settings (Preview)**. The **Analytics and insights settings** page is displayed.
+
     > [!div class=ms-imgBorder]
     > ![Customer Service analytics installation](media/cs-analyticsinsights-configure.png "Customer Service analytics installation")
 
