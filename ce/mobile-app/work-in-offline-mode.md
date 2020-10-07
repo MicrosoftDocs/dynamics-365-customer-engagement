@@ -48,10 +48,8 @@ When your admin has [enabled mobile offline](setup-mobile-offline-for-admin.md
 
 1. When you see the dialog box that asks you to download updates to work offline, choose **Download**. 
 
-|Current  |Early access  |
-|---------|---------|
-| ![Download updates on your mobile device for mobile offline](media/DownloadUpdates.png "Download updates on your mobile device for mobile offline")     |     ![User menu](media/usermenu_2.png "User menu")   |
-
+   > [!div class="mx-imgBorder"] 
+   > ![Download updates on your mobile device for mobile offline](media/DownloadUpdates.png "Download updates on your mobile device for mobile offline")  
  
 2. Offline data starts to download in the background. Do not close the app or disconnect from the internet until the download is complete.
 
