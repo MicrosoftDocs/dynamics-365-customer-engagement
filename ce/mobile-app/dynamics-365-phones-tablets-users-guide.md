@@ -1,7 +1,7 @@
 ---
 title: "Dynamics 365 for phones and tablets User's Guide (Dynamics 365 apps)| MicrosoftDocs"
 ms.custom: 
-ms.date: 5/12/2020
+ms.date: 10/7/2020
 ms.reviewer: kvivek
 ms.service: crm-online
 ms.suite: 
