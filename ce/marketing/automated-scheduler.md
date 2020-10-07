@@ -38,36 +38,24 @@ The automated scheduling feature applies artificial intelligence to identify the
 
 ## Create a customer journey that automatically sends messages at the optimal time
 
-When you use manual scheduling, the customer journey processes all the contacts in its target segment at once and delivers messages according to its run schedule without regard to each contact's interaction history. However, with automated scheduling, you can use AI to apply delivery times optimized for each individual recipient. This can often help improve your open rates.
+Normally, the customer journey processes all the contacts in its target segment at once and delivers messages according to its run schedule without regard to each contact's interaction history. However, with automated scheduling, you can use AI to apply delivery times optimized for each individual recipient. This can often help improve your open rates.
 
 To create a journey that uses optimized delivery times:
 
 1. Go to **Marketing** > **Marketing execution** > **Customer journeys**, and then either create or open a journey.
 
-1. Design your journey as usual but add a scheduler tile in front of each email tile where you want to use automated scheduling.
+1. Design your journey as usual but turn on the **Automated scheduling** for each email tile where you want to use automated scheduling.
 
     ![Place a scheduler before your email tile](media/Smart_scheduler_April2020.PNG "Place a scheduler before your email tile")
+    
+    To turn on Automated scheduling for your email:
+    
+    - Select an email on journey canvas -> go to email properties and open the **Schedule** category -> set the **Automated scheduling** slider to "on" 
 
-1. Select a scheduler tile and open the **Properties** tab.
-
-    ![Set scheduler properties](media/Smart_scheduler_April2020_2.PNG "Set scheduler properties")
-
-    Make the following settings:
-
-    - Set the **Automate the scheduling** slider to "on" to enable the automated scheduler.
-    - To use a date-and-time schedule (in which all contacts will be forwarded by the scheduler on the same day(s), regardless of when they arrive (such as on October 12, 2019, &plusmn;3 days)) do the following:
-        - Set the **Scheduler type** to **Date and time**.
-        - Set the **Date and time** to the approximate date and time you'd like to send messages to these contacts.
-        - The AI will check the email interaction record for each individual contact and use that information to choose the best date and time within this defined time window.
-    - To use a duration schedule (in which each contact waits here for an amount of time related to the day they entered the tile (such as 7 &plusmn;3 days)) do the following:
-        - Set the **Scheduler type** to **Duration**.
-        - Set the **Duration** to the approximate time that contacts should wait here. Specify both an integer and a unit (hours, days, weeks, or months).
-        - The AI will check the email interaction record for each individual contact and use that information to choose the best date and time within this defined time window.
-        
-1. Repeat the previous step for each scheduler in your journey.
+1. Repeat the previous step for each email in your journey where you want to use automated scheduling.
 
 > [!NOTE]
-> When selecting more than 24 hours (or 1 day), the model will default to -12h/+12h optimization window rather than 0-12 hours. Similarly when selecting days that are greater than 1 week (7 days or more), the model will default to the -1d/+1d optimzation window rather than the -12/+12h window associated with days.
+> Automated scheduling establishes a time window around the specified date and time, and then holds each contact here until an optimal time arrives.
 
 ## View email interaction details and delivery recommendations for a contact
 
