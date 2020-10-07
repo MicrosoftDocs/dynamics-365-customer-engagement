@@ -2,21 +2,22 @@
 title: Understanding Knowledge Management in Customer Service Hub in Dynamics 365 Customer Service | Microsoft Docs
 description: Understand Knowledge Management in Customer Service Hub for Customer Service Dynamics 365 Customer Service
 author: lalexms
-ms.author: lalexms
+ms.author: laalexan
 manager: shujoshi
-ms.date: 08/03/2020
+ms.date: 10/05/2020
 ms.topic: article
 ms.service: 
-  - dynamics-365-customerservice
+  dynamics-365-customerservice
 ms.custom: 
-  - dyn365-customerservice
+  dyn365-customerservice
 search.audienceType: 
-  - admin
-  - customizer
-  - enduser
+  admin
+  customizer
+  enduser
 search.app: 
-  - D365CE
-  - D365CS
+  D365CE
+  D365CS
+  
 ---
 
 # Create and manage knowledge articles
@@ -79,7 +80,7 @@ Turn your customer questions, issues, and feedback into knowledge articles, so o
     You can  mark the article complete by selecting the checkbox at this stage.
 
 > [!TIP]
-> Select the icon ![flyout](media/flyout.png)  to pin the stage flyout vertically.
+> Select the icon ![flyout icon](media/flyout.png) to pin the stage flyout vertically.
   
 Posts about knowledge article-related activities will begin appearing in the **Timeline** section.  
 
@@ -181,17 +182,47 @@ You can choose a specific format or style for the content you’re writing. The 
 
 You can author and edit the article in the HTML tab of the Content editor panel, using HTML tags.
 
-![html-panel](media/html-panel.png "HTML pane in content editor for knowledge article")
+![HTML panel](media/html-panel.png "HTML pane in content editor for knowledge article")
 
 
 **Preview**
 
 You can preview the content to view its compatibility on multiple devices, like Tablets, or Phones.
 
-![preview-panel](media/preview-panel.png "Preview pane in content editor for knowledge article")
+![Preview panel](media/preview-panel.png "Preview pane in content editor for knowledge article")
 
 > [!NOTE]
 > This is an indicative preview. Content rendered can be different in the actual device or screen.
+
+## Add a knowledge article rich text editor control to a form
+By default, the rich text editor functionality is available for use with knowledge articles and emails, but if you want to use it in another form, you can add it by doing the following:
+
+1. In Power Apps, go to the form where you want to add the rich text editor control, and double-click a field where you can enter single or multiple lines of text to open **Field Properties**. 
+
+2. On the **Field Properties** dialog, select the **Controls** tab.
+
+3. Under **Control**, select **Rich Text Editor Control.
+
+    > [!div class=mx-imgBorder]
+    > ![Select the Controls tab on the properties page](media/csh-rte-add-form.png "Select the Controls tab, and then select the rich text editor control")
+
+3. Under **Rich Text Editor Control** properties, select the pencil icon next to **RichTextEditorControl_URL**. 
+    
+    > [!div class=mx-imgBorder]
+    > ![Select the Rich Text Editor control](media/csh-rte-edit-control.png "Select the Rich Text Editor Control and pencil icon to add text")
+    
+    The properties configuration page is displayed.
+
+4. In the **Bind to a static value** field, enter the following text: **webResources/msdyncrm_/RichTextEditorControl/KnowledgeArticleRTEconfig.js** 
+
+    > [!div class=mx-imgBorder]
+    > ![Enter value in Bind to a static filed](media/csh-rte-enter-static-value.png "Enter the value in the Bind to a static value field")
+
+5. Select **OK** > **OK**, and then select **Save and Publish**.
+
+
+For more information about rich text control properties, see [Rich text editor control configuration options](https://docs.microsoft.com/powerapps/maker/model-driven-apps/rich-text-editor-control#rich-text-editor-control-configuration-options).
+
   
 ## Mark a knowledge article for review  
  To make sure the content you’ve created is accurate, have someone review it.  

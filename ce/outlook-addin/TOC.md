@@ -28,7 +28,7 @@
 ## Set up and configure 
 ### [Set up](user-guide/set-up.md)
 ### [Configure another organization](user-guide/configure-another-organization.md)
-### [Set up and configure Dynamics 365 for Outlook from Office 365](user-guide/set-up-configure-dynamics-365-outlook-office-365.md)
+### [Set up and configure Dynamics 365 for Outlook from Microsoft 365](user-guide/set-up-configure-dynamics-365-outlook-office-365.md)
 ### [The Outlook email address should be the same as the Dynamics 365 apps email address](user-guide/outlook-email-address-should-same.md)
 
 ## Get started
