@@ -107,6 +107,7 @@ When offline updates are complete, you can check to see if mobile offline is ava
 
     - **Current**: From the nav bar, select ![Dynamics 365 apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 apps ellipsis") > **Offline Status**. 
     - **Early access**: From the Home screen, select the site map ![Site map icon](media/d365_mobile_sitemap_icon.png "Site map icon") > Offline ![Offline button.](media/offline_button.png "Offline button").
+    
   
     > [!div class="mx-imgBorder"] 
     > ![Mobile offline status](media/OfflineStatus.png "Mobile offline status")
