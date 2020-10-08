@@ -199,7 +199,7 @@ You need to be a member of the connected team channel to view files. Contact the
 
 ### Embedded Power Apps canvas apps don't work 
 
-You can [embed a canvas app](https://docs.microsoft.com/powerapps/maker/model-driven-apps/embed-canvas-app-in-form) in customer engagement apps (such as Dynamics 365 Sales and Dynamics 365 Customer Service) because they have the same design and underlying architrecture of a [model-driven app](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-overview). However, when you embed a customer engagement app in Microsoft Teams, the canvas app embedded in the customer engagement app won't work. 
+You can [embed a canvas app](https://docs.microsoft.com/powerapps/maker/model-driven-apps/embed-canvas-app-in-form) in customer engagement apps (such as Dynamics 365 Sales and Dynamics 365 Customer Service) as they have the same design and underlying architecture of a [model-driven app](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-overview). However, when you embed a customer engagement app in Microsoft Teams, the embedded canvas app won't work. 
 
 ### Authentication issue in Teams when you have embedded apps within Dynamics 365
 
