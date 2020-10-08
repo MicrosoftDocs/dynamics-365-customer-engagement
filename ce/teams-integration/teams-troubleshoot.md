@@ -99,7 +99,7 @@ Now, when the user tries to pin the entity to the required Microsoft Teams chann
 
 ### Error: I can't find the Dynamics 365 app in the Microsoft Teams app store.
 
-This happens when the external app for Microsoft Teams service is not enabled by your Office 365 admin. To fix the issue, do the following:
+This happens when the external app for Microsoft Teams service is not enabled by your Microsoft 365 admin. To fix the issue, do the following:
 
 1. Sign in to [https://portal.office.com](https://portal.office.com).
 2. From the list of apps, select **Admin**.

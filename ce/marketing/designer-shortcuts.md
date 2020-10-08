@@ -154,7 +154,7 @@ When a text element is selected, you are able to enter and style text within tha
 
 Most of the standard navigation and selection keyboard commands also work when you are designing a customer journey or lead scoring model. In addition, some special assistance is provided to let you work with the tiles and arrange them on the canvas.
 
-![An example of a customer journey](media/customer-journey.png "An example of a customer journey")
+![An example of a customer journey](media/customer-journey-full2.png "An example of a customer journey")
 
 <a name="canvas-tabs"></a>
 
@@ -175,9 +175,8 @@ To navigate the side panel:
 1. Press space to open the **Add** menu.
 1. Use the arrow keys to select a tile type from the **Add** menu.
 1. Press space to choose the tile type currently selected in the **Add** menu.  
-    ![Add a tile from the toolbar](media/cj-add-menu-ill.png "Choose the type of tile you want to add")
+    ![Add a tile from the toolbar](media/customer-journey-add-menu.png "Choose the type of tile you want to add")
 1. Use the arrow keys to select where you want to insert the new tile in the pipeline. Select a new-tile position to place the tile in a new position, or select an existing tile to place the tile as a child of that tile.  
-    ![Choose where to add the new tile](media/cj-add-location-ill.png "Choose where to add the new tile")
 1. Press space to place the tile in the selected position.
 
 ### Delete a tile
