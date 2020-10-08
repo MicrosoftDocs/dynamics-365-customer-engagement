@@ -6,7 +6,7 @@ ms.author: nenellim
 manager: shujoshi
 ms.date: 10/09/2020
 ms.service: 
-  - "dynamics-365-customerservice"
+  "dynamics-365-customerservice"
 ms.topic: article
 ---
 
@@ -28,6 +28,9 @@ A conversation can have the following status reasons:
 - [Waiting](#waiting)
 - [Wrapup](#wrap-up)
 - Closed
+
+> [!NOTE]
+> Additionally, the conversation might have the resolved or scheduled status reason, which is for internal use only.
 
  ![Omnichannel conversation states](../../media/oc-conversation-state1.png "Conversation states")
  
@@ -138,13 +141,6 @@ To learn more, see [Create a work stream](../../administrator/work-streams-intro
 ### Set default time using APIs
 
 Programmatically, you can change the default time and set it as per your organization's requirements using the Web APIs. To learn more, see [Automatic closure of a conversation](../../developer/auto-close-conversation.md).
-
-## Conversations in resolved, scheduled status
-
-When a conversation is in progress with an agent in any of the statuses and the corresponding case is marked as resolved by somebody else in Customer Service Hub, the in-progress conversation status will be updated as resolved in Omnichannel for Customer Service. While the status of the conversation might appear as resolved, the agent capacity is not released and other attributes of the conversation remain unchanged. A conversation in resolved status will go back to the status it was in prior to being moved to resolved. For example, if the conversation was in the active status before being updated as resolved, it will go back to the active state soon as there is any activity by the agent or customer. In such a case, the agent can confirm with the customer if the conversation can be closed because the corresponding case has been marked as resolved or canceled.
-
-> [!NOTE]
-> The scheduled status is for internal use only.
 
 ### See also
 
