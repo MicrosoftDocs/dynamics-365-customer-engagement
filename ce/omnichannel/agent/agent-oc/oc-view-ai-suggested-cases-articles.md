@@ -63,21 +63,6 @@ The following table lists the explanation of the smart assist card for AI-sugges
 
 If no cases match, then the card displays an appropriate message, such as "No suggestions found for similar cases."
 
-## Sign up for the insider preview
-
-To use the smart assist suggestions using AI (preview), as an administrator, you need to do the following:
-
-- Register at [Insider preview](https://experience.dynamics.com/Account/Login/Register?returnUrl=%2Finsider%2F).
-- Submit the form [Sign-up - Survey](https://customervoice.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR5mjjZ3rRrtBn7meF_Sg_vlURFBMM0g4T1ZIUUIzNFRJSU0yTkhNMlJWWC4u).
--	Use a sandbox environment and tenant or Org ID to sign-up for the preview program. We do not recommend using the production environment for signing up for preview.
-
-After you sign up, the participation goes through an approval process. It may take up to 48 hours for you to be onboarded to the preview program.
-
-After your participation is approved, you will be able to see the program listed in **My Programs** at [**My Insider Programs**](https://experience.dynamics.com/insider/).
-
-> [!IMPORTANT]
-> Upgrade of the preview environment to the production environment is not supported.
-
 ### See also
 
 [Enable AI-suggested cases and knowledge articles](../../../customer-service/csw-enable-ai-suggested-cases-knowledge-articles.md)  
