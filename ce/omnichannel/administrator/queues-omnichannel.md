@@ -16,23 +16,22 @@ ms.topic: article
 
 ## Introduction
 
-Omnichannel queues are used to collect and distribute workload among agents. Workload includes conversations, such as Chat or SMS. Agents are added as members to the queues and the workload is distributed among these agents.
+Omnichannel queues are used for collecting and distributing workload among agents. Workload includes conversations, such as Chat or SMS. Agents are added as members to the queues and the workload is distributed among these agents.
 
 ## How conversations are routed to queues
 
 Queues in Omnichannel for Customer Service are proxies for skills or domains. You can create separate queues for each line of business, such as billing, investment, and products. When a customer query is raised for any of the areas, it is routed to the corresponding designated queue. You can also set up customer support availability matrix by using a combination of queues, operating hour schedules, and routing rules.
 
-To simplify the routing experience for administrators, queues are categorised into the following types:
+In an enterprise scenario, you can have various supervisors to handle different issues, and therefore, different types of queues are required to handle the various scenarios. Accordingly, routing rules are set up based on the complexity of issues that need to be handled.
+
+To simplify the routing experience for administrators and supervisors, queues are categorised based on the channel types as follows:
 
 - **Messaging:** To route conversations pertaining to the live chat and social channels.
 - **Entity records:** To route cases pertaining to entity records.
 
-When you configure work streams and routing rule items, the queues that will be available for selection will be based on the applicable queue type. For example, if you are configuring a work stream for the WhatsApp channel, the queues that will be available for selection will be those that are of the messaging type. Similarly, in a conversation transfer scenario, you can transfer a chat conversation only to a messaging queue and a case to an entity queue.
+The queue types help ensure issues to be routed correctly and help avoid cross-queue assignments. When you configure work streams and routing rule items, the queues that will be available for selection will be based on the applicable queue type. For example, if you are configuring a work stream for the WhatsApp channel, the queues that will be available for selection will be those that are of the messaging type. Similarly, in a conversation transfer scenario, you can transfer a chat conversation only to a messaging queue and a case to an entity queue.
 
 You can assign priority to queues. All conversations in a queue take the priority that is defined for the queue; higher priority conversations are allocated first. For example, if there are two chat conversations coming from two queues with priorities assigned as Priority 1 and Priority 2 respectively, chat conversation with Priority 1 will be allocated to an agent first.
-
-  > [!IMPORTANT]
-  > In an upgraded environment, the existing queues will be defaulted to the messaging type. Therefore, to seamlessly handle entity conversations in a transfer scenario, make sure that you have created queues of entity records type.
 
 ## Default queues
 
