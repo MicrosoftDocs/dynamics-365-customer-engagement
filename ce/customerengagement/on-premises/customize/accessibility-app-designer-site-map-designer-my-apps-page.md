@@ -5,6 +5,7 @@ keywords: App designer; site map designer; my apps; Dynamics 365 for Customer En
 author: Mattp123
 ms.author: matp
 manager: kvivek
+ms.service: crm-online
 ms.date: 11/08/2018
 ms.topic: article
 applies_to: 
