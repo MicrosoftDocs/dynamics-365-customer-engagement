@@ -32,7 +32,7 @@ Some senders, however, might prefer to send emails through a dedicated IP addres
 
 ### Definitions
 
-**Shared IP**: Multiple senders use the same IP pool (multiple shared IPs). This is the default Dynamics 365 approach.
+**Shared IP**: Multiple senders use the same IP pool (multiple shared IPs). This is the default Dynamics 365 approach.<br>
 **Dedicated IP**: A single IP address that is used by a single sender.
 
 ### Pros and cons of dedicated vs shared IPs
