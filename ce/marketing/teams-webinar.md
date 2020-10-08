@@ -31,7 +31,7 @@ search.app:
 This article explains how to use Microsoft Teams as an online meetings provider for Dynamics 365 Marketing events. Teams event functionality is now incorporated directly into Marketing, allowing you to host Teams live events for webinars and Teams meetings for interactive online meetings.
 
 > [!NOTE]
-> To use Microsoft Teams as a webinar provider, you have must a [Microsoft 365 license](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description) that allows you access to the Teams service.
+> To use Microsoft Teams as a webinar provider, you must have a [Microsoft 365 license](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description) that allows you access to the Teams service.
 
 ## Create an online event
 
