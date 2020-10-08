@@ -72,8 +72,8 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 
 ## 8.8.30.113
 This is a hotfix on Field Service version [8.8.30.103](https://docs.microsoft.com/dynamics365/field-service/version-history#8830103).
-- Resolved an issue with Agreement Invoice Setups introduced during early access that caused an error in the primary invoice date and invoice generation process which could stop invoice generation from agreements.
-- Corrected a javascript error when trying to create a work order through the quick create form.
+- Resolved an issue with agreement invoice setups introduced during early access that caused an error in the primary invoice date and invoice generation process, which could stop invoice generation from agreements.
+- Corrected a JavaScript error when trying to create a work order through the quick create form.
 - Resolved an issue with inspection name value being empty in the parsed inspection record tables.
 
 ## 8.8.30.103
