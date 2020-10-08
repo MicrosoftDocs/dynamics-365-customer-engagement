@@ -36,7 +36,7 @@ Installing a custom channel installs a [managed solution](/powerapps/developer/c
 
 For information about creating a customer journey, see the following topics in the Marketing User Guide:
 - [Create a simple customer journey with email messaging](../../marketing/create-simple-customer-journey.md)
-- [Create an interactive customer journey with triggers and signup](../../marketing/create-interactive-customer-journey.md)
+- [Create an interactive customer journey with conditions and signup](../../marketing/create-interactive-customer-journey.md)
 
 ### See also
 

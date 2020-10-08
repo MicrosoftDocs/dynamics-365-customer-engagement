@@ -70,4 +70,4 @@ More information: [Manage attendee logistics and accommodation availability](man
 [Create automated campaigns](customer-journeys-create-automated-campaigns.md)  
 [Customer journey tiles reference](customer-journey-tiles-reference.md)  
 [Set up the event website](set-up-event-portal.md)  
-[Create an interactive customer journey with triggers and signup](create-interactive-customer-journey.md)
+[Create an interactive customer journey with conditions and signup](create-interactive-customer-journey.md)

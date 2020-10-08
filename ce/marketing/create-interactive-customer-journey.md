@@ -22,7 +22,7 @@ search.app:
   - D365Mktg
 ---
 
-# Create an interactive customer journey with triggers and signup
+# Create an interactive customer journey with conditions and signup
 
 <div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/d73cc179-5984-4a32-ad84-0755f56b0399" frameborder="0" allowfullscreen=""></iframe></div>
 
