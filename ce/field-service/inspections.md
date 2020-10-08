@@ -49,9 +49,6 @@ In this article, we'll walk through an example of setting up an inspection using
 
 ## Prerequisites
 
-> [!Note]
-> As of August 2020, inspections are available as an early access feature. For more information, see the article on [how to opt-in to early access features](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates#how-to-enable-early-access-updates).
-
 - Dynamics 365 version 9.1.0000.15015+.
 
 - Knowledge of work order [incident types and service tasks](configure-incident-types.md) is encouraged.
@@ -205,6 +202,55 @@ An inspection completed by a technician will be visible on the bottom of the wor
 
 ## Perform inspections on mobile
 
+You can view and complete inspections on the [Field Service (Dynamics 365) mobile app](mobile-2020-power-platform.md). This requires no mobile project or any additional setup other than upgrading to Field Service v8.8.22+.
+
+Sign in with your Dynamics 365 URL, username, and password, and go to the assigned work order.
+
+Select the **Work Order Service Task** that has the related inspection.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Field Service (Dynamics 365) mobile app showing service tasks](media/inspections-fsm-new1.png)
+
+Find the inspection form and enter answers.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Field Service (Dynamics 365) mobile app showing a sample inspection.](./media/inspections-fsm-new2.png)
+
+Technicians can upload files, take pictures, or upload pictures from the phone's camera roll. When uploading a file or image, select the caption icon to add a comment. 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Field Service (Dynamics 365) mobile app showing the upload photos option on inspections.](./media/inspections-fsm-new3.png)
+
+When finished, the technician can select **Mark Complete** or set **Complete %** to 100.
+
+Enter a **Result** to report on the overall inspection:
+
+- Pass
+- Fail
+- Partial Success
+- NA
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Field Service (Dynamics 365) mobile app showing percent complete on an inspection.](./media/inspections-fsm-new4.png)
+
+**Actual Duration**: Enter an actual duration the work order service task took to complete that can be compared to estimated duration.
+
+If an inspection question is required, the technician will not be able to mark **Complete** or set **% Completed** to 100 until it is answered.
+
+**Clear Responses**: If needed, a technician can select  **More** > **Clear Responses** to start over. This will permanently delete all responses for this service task inspection.
+
+
+Inspections can also be viewed and completed on the Field Service Mobile (Xamarin) app. For more information, see the end of this article.
+
+## View responses
+
+Back in Dynamics 365, a dispatcher will see inspection responses.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Field Service on a desktop, showing the work order service task and the completed inspection form at the bottom.](./media/inspections-complete-web.png)
+
+## Inspections on Field Service Mobile (Xamarin)
+
 After the work order is scheduled to the appropriate technician, they can see and complete the inspection from the work order on the [Field Service Mobile](field-service-mobile-overview.md) app.
 
 > [!Note]
@@ -243,57 +289,6 @@ Enter a **Result** to report on the overall inspection:
 If an inspection question is required, the technician will not be able to mark **Complete** or set **% Completed** to 100 until it is answered.
 
 **Clear Responses**: If needed, a technician can select  **More** > **Clear Responses** to start over. This will permanently delete all responses for this service task inspection.
-
-Inspections can also be viewed and completed on the [Dynamics 365 Field Service Power App](https://docs.microsoft.com/dynamics365/field-service/inspections#inspections-on-Dynamics-365-Field-Service-PowerApp). For more information, see the end of this article.
-
-## View responses
-
-Back in Dynamics 365, a dispatcher will see inspection responses.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service on a desktop, showing the work order service task and the completed inspection form at the bottom.](./media/inspections-complete-web.png)
-
-
-## Inspections on Dynamics 365 Field Service Power App
-
-You can view and complete inspections on the [Dynamics 365 Field Service Power App](mobile-2020-power-platform.md). This requires no mobile project or any additional setup other than upgrading to Field Service v8.8.22+.
-
-Sign in with your Dynamics 365 URL, username, and password, and go to the assigned work order.
-
-Select the **Work Order Service Task** that has the related inspection.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service (Dynamics 365) mobile app showing service tasks](media/inspections-fsm-new1.png)
-
-Find the inspection form and enter answers.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service (Dynamics 365) mobile app showing a sample inspection.](./media/inspections-fsm-new2.png)
-
-Technicians can upload files, take pictures, or upload pictures from the phone's camera roll. When uploading a file or image, select the caption icon to add a comment. 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service (Dynamics 365) mobile app showing the upload photos option on inspections.](./media/inspections-fsm-new3.png)
-
-When finished, the technician can select **Mark Complete** or set **Complete %** to 100.
-
-Enter a **Result** to report on the overall inspection:
-
-- Pass
-- Fail
-- Partial Success
-- NA
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service (Dynamics 365) mobile app showing percent complete on an inspection.](./media/inspections-fsm-new4.png)
-
-**Actual Duration**: Enter an actual duration the work order service task took to complete that can be compared to estimated duration.
-
-If an inspection question is required, the technician will not be able to mark **Complete** or set **% Completed** to 100 until it is answered.
-
-**Clear Responses**: If needed, a technician can select  **More** > **Clear Responses** to start over. This will permanently delete all responses for this service task inspection.
-
-
 
 ## Configuration considerations
 

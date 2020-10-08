@@ -185,7 +185,7 @@ You can assign security roles to a dashboard, so the dashboard appears only to u
  
 1. Go to **Settings** > **Customizations** > **Customize the System**. 
 2. Expand **Entities** in the left pane.  
-3. Select the entity you want to enable for in the Un (for example, **Account**).  
+3. Select the entity you want to enable for mobile app (for example, **Account**).  
   
 4. Under **Outlook & Mobile**, select **Enable for Unified Client**. 
  

@@ -142,7 +142,7 @@ Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../../includes/pn-ms-dyn-crm-app-fo
   
     ![Manage the Dynamics 365 App for Outlook add&#45;in](../media/manage-the-dynamics-365-app-outlook-add-in.png "Manage the Dynamics 365 App for Outlook add-in")  
   
-    This opens the **Office 365** dialog box where you can see all your [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] add-ins. If you click the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] row, you can see which [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance the app is connected to.  
+    This opens the **Microsoft 365** dialog box where you can see all your [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] add-ins. If you click the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] row, you can see which [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance the app is connected to.  
   
 2. Do one of the following:  
   

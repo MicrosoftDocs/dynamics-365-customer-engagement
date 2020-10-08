@@ -36,9 +36,8 @@ If you're familiar with [Microsoft Teams](https://products.office.com/microsoft-
 Dynamics 365 for Microsoft Teams integration enables users to easily work with customer information in customer engagement apps (such as Dynamics 365 Sales and Dynamics 365 Customer Service) and share files directly from Microsoft Teams. This helps them to be more productive and get work done more effectively. 
 
 - **Collaboration hub**: Access a shared workspace for Office apps that most of us already use to work sales opportunities.  
-- **Cross-functional collaboration**: Work together with customers and any colleague across functions, even if they aren’t a Dynamics 365 apps user.
-- **File integration**: Co-author documents using Office 365 and automatically sync with customer engagement apps in Dynamics 365. 
-- **Dynamics 365 assistant application for Microsoft Teams**: The Dynamics 365 assistant app is available on Microsoft Teams as part of the existing Dynamics 365 app. The app provides sellers with a simple-to-use experience by combining data from multiple sources such as Office 365 and Dynamics 365. For more information, see [Dynamics 365 assistant application for Microsoft Teams](https://docs.microsoft.com/dynamics365/ai/sales/overview-dynamics-365-assistant-app-teams).
+- **File integration**: Co-author documents using Microsoft 365 and automatically sync with customer engagement apps in Dynamics 365. 
+- **Dynamics 365 assistant application for Microsoft Teams**: The Dynamics 365 assistant app is available on Microsoft Teams as part of the existing Dynamics 365 app. The app provides sellers with a simple-to-use experience by combining data from multiple sources such as Microsoft 365 and Dynamics 365. For more information, see [Dynamics 365 assistant application for Microsoft Teams](https://docs.microsoft.com/dynamics365/ai/sales/overview-dynamics-365-assistant-app-teams).
 
 
 > [!div class="mx-imgBorder"] 
@@ -64,7 +63,7 @@ By installing and allowing access to use of the bot, you agree to allow the LUIS
 
 The content of user’s queries and messages is retained in LUIS system for a maximum of 30 days, encrypted at rest and is not used for training or service improvement. Read more about Cognitive Services [here](https://azure.microsoft.com/services/cognitive-services/language-understanding-intelligent-service/). 
 
-To manage admin settings for apps in Microsoft Teams, go to the Microsoft 365 admin center and open **Settings** > **Services & add-ins**, then choose Microsoft Teams. If you're signed in as an Office 365 admin, you can access these controls [here](https://admin.microsoft.com/adminportal/home#/Settings/ServicesAndAddIns), including the ability to uninstall.
+To manage admin settings for apps in Microsoft Teams, go to the Microsoft 365 admin center and open **Settings** > **Services & add-ins**, then choose Microsoft Teams. If you're signed in as an Microsoft 365 admin, you can access these controls [here](https://admin.microsoft.com/adminportal/home#/Settings/ServicesAndAddIns), including the ability to uninstall.
 
 
 ### See also

@@ -159,7 +159,6 @@
 #### [Use Customer Insights segments in Marketing](customer-insights-segments.md)
 
 ### Work with customer journeys
-#### [Early access: Create a customer journey using the new canvas experience](customer-journey.md)
 #### [Create automated campaigns with customer journeys](customer-journeys-create-automated-campaigns.md)
 #### [Export to Excel for further analysis](export-journey.md)
 #### [Set expiration dates for emails](email-expire.md)
@@ -184,7 +183,7 @@
 #### [Create and manage recurring events](event-recurring.md)
 #### [Create and use event templates](event-templates.md)
 #### [Event management dashboard](event-management-dashboard.md)
-#### [Preview: Set up a Microsoft Teams webinar](teams-webinar.md)
+#### [Set up a Microsoft Teams webinar](teams-webinar.md)
 #### [Set up a webinar](set-up-webinar.md)
 #### [Manage event sponsorships](manage-event-sponsorships.md)
 #### [Manage attendee logistics and accommodation](manage-event-logistic.md)
@@ -202,7 +201,7 @@
 #### [Create and run online surveys](surveys.md)
 
 ### Marketing on social media
-#### [Early access: Schedule and post messages on social media](social-posting.md)
+#### [Schedule and post messages on social media](social-posting.md)
 #### [Marketing on LinkedIn with Dynamics 365](linkedin-overview.md)
 #### [LinkedIn Lead Gen integration](LinkedIn-Lead-Gen-integration.md)
 

@@ -1,5 +1,5 @@
 ---
-title: "Preview the new schedule board in Dynamics 365 Field Service | MicrosoftDocs"
+title: "Next generation schedule board experience in Dynamics 365 Field Service | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 04/01/2020
@@ -26,7 +26,7 @@ search.app:
   - D365FS
 ---
 
-# Preview the new and improved schedule board in Dynamics 365 Field Service (public preview)
+# Experience the new and improved schedule board in Dynamics 365 Field Service (generally available)
 
 [!INCLUDE[preview-schedule-board.md](../shared/urs/preview-schedule-board.md)]
 
