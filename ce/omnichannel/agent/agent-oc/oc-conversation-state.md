@@ -141,7 +141,10 @@ Programmatically, you can change the default time and set it as per your organiz
 
 ## Conversations in resolved, scheduled status
 
-When a conversation is in progress with an agent in any of the statuses and the corresponding case is marked as resolved by somebody else in Customer Service Hub, the in-progress conversation status will be updated as resolved in Omnichannel for Customer Service. While the status of the conversation might appear as resolved, the agent capacity is not released and other attributes of the conversation remain unchanged. A conversation in resolved status will go back to the status it was in prior to moving to resolved. For example, if the conversation was in active status before being updated as resolved, it will go back to active state soon as there is any activity by the agent or customer.
+When a conversation is in progress with an agent in any of the statuses and the corresponding case is marked as resolved by somebody else in Customer Service Hub, the in-progress conversation status will be updated as resolved in Omnichannel for Customer Service. While the status of the conversation might appear as resolved, the agent capacity is not released and other attributes of the conversation remain unchanged. A conversation in resolved status will go back to the status it was in prior to being moved to resolved. For example, if the conversation was in the active status before being updated as resolved, it will go back to the active state soon as there is any activity by the agent or customer. In such a case, the agent can confirm with the customer if the conversation can be closed because the corresponding case has been marked as resolved or canceled.
+
+> [!NOTE]
+> The scheduled status is for internal use only.
 
 ### See also
 
