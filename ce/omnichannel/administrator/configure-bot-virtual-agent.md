@@ -4,7 +4,7 @@ description: "Instructions to integrate a bot in Omnichannel for Customer Servic
 author: platkat
 ms.author: ktaylor
 manager: shujoshi
-ms.date: 09/09/2020
+ms.date: 10/09/2020
 ms.service: 
   "dynamics-365-customerservice"
 ms.topic: article
@@ -99,14 +99,17 @@ Ensure to map the routing rules to the correct queues so that the queries are ro
  
 | Description     | Limitation     |
 |-----------------|----------------|
-| **Adaptive cards:** An adaptive card is a customizable card that can contain any combination of text, speech, images, buttons, and input fields.|	Power Virtual Agents supports adaptive cards for CSAT surveys and they will display text only. Adaptive card styling is not supported. You can build an adaptive card by adding a skill through PVA. For more information, see [Use Microsoft Bot Framework Skills in Power Virtual Agents](https://docs.microsoft.com/en-us/power-virtual-agents/advanced-use-skills). |
-| **Authentication cards:** Authentication cards verify the identity of a user or device. | Authentication cards are not supported in bots integrated with Omnichannel for Customer Service. |
-| **Typing:** A bot receives a typing activity to indicate that the user is typing a response. A bot may send a typing activity to indicate to the user that it is working to fulfill a request or compile a response. |Typing indicators will not appear. |
-| **Suggested actions:** Suggested actions enable your bot to present buttons that the user can tap to provide input. Suggested actions appear close to the composer and enhance user experience. They enable the user to answer a question or make a selection with a simple tap of a button, rather than having to type a response with a keyboard. |	Suggested actions will only display vertically. |
-| **Markdown with images and text:** Power Virtual Agents does not support markdown with images and text. | Power Virtual Agents does not support markdown with images and text. |
-| **Extra space between lines in client side when bot send markdown with text** | Power Virtual Agents does not support markdown with images and text. |
+| **Adaptive cards:** An adaptive card is a customizable card that can contain any combination of text, speech, images, buttons, and input fields.|	Power Virtual Agents supports adaptive cards for CSAT surveys and they will display text only. For more information, see the [Channel experience reference table](https://docs.microsoft.com/en-us/power-virtual-agents/publication-fundamentals-publish-channels#channel-experience-reference-table). 
 
-For more information about known limitations of this feature, see [Known limitations](https://docs.microsoft.com/dynamics365/ai/customer-service-virtual-agent/configuration-hand-off-omnichannel#known-limitations).
+You can build an adaptive card by adding a skill through PVA. For more information, see [Use Microsoft Bot Framework Skills in Power Virtual Agents](https://docs.microsoft.com/en-us/power-virtual-agents/advanced-use-skills). 
+
+Adaptive card styling is not supported. |
+| **Single sign-on (SSO):** Chatbots can sign the user in if they're in to the page where the bot is deployed. | SSO is not supported. |
+| **Typing:** A bot receives a typing activity to indicate that the user is typing a response. A bot may send a typing activity to indicate to the user that it is working to fulfill a request or compile a response. | Typing indicators will not appear. |
+| **Suggested actions:** Suggested actions enable your bot to present buttons that the user can tap to provide input. Suggested actions appear close to the composer and enhance user experience. They enable the user to answer a question or make a selection with a simple tap of a button, rather than having to type a response with a keyboard. |	Suggested actions will only display vertically. |
+| **Format bot messages:** You can set the optional TextFormat property to control how your message's text content is rendered. | Power Virtual Agents does not support markdown with images and text. When Power Virtual Agents sends markdown text, there is extra space between lines.|
+
+<!--For more information about known limitations of this feature, see [Known limitations](https://docs.microsoft.com/dynamics365/ai/customer-service-virtual-agent/configuration-hand-off-omnichannel#known-limitations). -->
 
 ## Privacy notice
 
