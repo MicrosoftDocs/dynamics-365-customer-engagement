@@ -54,7 +54,7 @@ To create a new journey, select **New** on the command bar.
 
 When you create a new customer journey, you'll first be presented with a list of customer journey templates, which can help you get started quickly. The **Customer journey templates** dialog box provides a categorized overview of templates and a search form to help you find the one you're looking for. Each template represents a particular type of campaign and includes a pre-configured pipeline and a few related settings that will help you create a customer journey of the selected type.
 
-![Select a Journey Template dialog](media/customer-journey-template2.png "Select a journey template")
+![Select a Journey Template dialog](media/customer-journey-template.png "Select a journey template")
 
 You can also choose to start from scratch instead of using a template. The pipelines provided by a template represent the form and logic of your campaign, but you'll still need to configure the various tiles by&mdash;for example&mdash;assigning the specific marketing email message that should be sent by each email tile.
 
