@@ -65,7 +65,7 @@ In [Create a simple customer journey with email messaging](create-simple-custome
 
     ![Add a marketing page to an email tile](media/journey-add-page.png "Add a marketing page to an email tile")
 
-9. Now add a condition ("If/then") tile. *If/then tiles* add interactivity to the journey by splitting the pipeline and establishing logical criteria for deciding which path each contact will take. Select an **If/then** tile from the in-place menu on the canvas and add it immediately to the right of the **Send an email** tile.
+9. Now add a condition ("If/then") tile. If/then tiles add interactivity to the journey by splitting the pipeline and establishing logical criteria for deciding which path each contact will take. Select an **If/then** tile from the in-place menu on the canvas and add it immediately to the right of the **Send an email** tile.
 
      ![Add a trigger tile](media/journey-add-trigger-tile.png "Add a trigger tile")
 
