@@ -2,10 +2,8 @@
 title: "Context custom action (Dynamics 365 Sales) | MicrosoftDocs"
 description: Context custom action for Dynamics 365 Sales
 ms.date: 10/12/2020
-ms.service: 
-  - dynamics-365-sales
-ms.custom: 
-  - dyn365-sales
+ms.service: dynamics-365-sales
+ms.custom: dyn365-sales
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -51,7 +49,8 @@ function OnSave(executionContext){
 
         if(estValAttr && estValAttr.getIsDirty() && estValAttr.getValue() < 10){
 
-            executionContext.getEventArgs().preventDefault(); // This call will prevent the save event from proceeding
+            // This call will prevent the save event from proceeding
+            executionContext.getEventArgs().preventDefault(); 
             alert("Estimated revenue cannot be less than 10");
 
         }
@@ -117,28 +116,23 @@ This returns a control object mapping to attribute and has the following methods
 
 **Example:**
 
+Let's create a JavaScript to handle different entities for the loaded forecast configuration. 
+For an Opportunity entity, the script will disable the following: 
+- Name column
+- actualRevenue and actualCloseData if the forecastCategory value is in bestcase, committed, omitted, or pipeline.
+- estimatedRevenue & estimatedCloseDate if forecastCategory value is in won or lost.
+Similarly, the script will disable name column for Account entity and disable all columns for other entities.
+Also, the `onRowLoad` function is called for each row when the is grid loaded and saved successfully.
+ 
 
+```JavaScript
 
-```javaScript
-/**
- *  HandlerDescription : 
- *  "onRowLoad" will be called for each row when grid loads & when save completes successfully
- * 
- *  Functionality Description :
- *  Scripting API logic handling different entities for the loaded ForecatConfiguration.
- *     1. For Opportunity Entity, 
- *              1.1 This script will disable name column
- *              1.2 Disables actualRevenue & actualCloseData if the forecastCategory value is in [Bestcase, committed, omitted, pipeline]
- *              1.3 Disables estimatedRevenue & estimatedCloseDate if forecastCategory value is in [Won, Lost]
- *     2. For Account Entity, This script will only disable name column.
- *     3. For all other entities, This script will disable all columns.
- */
 function OnRowLoad(executionContext) {
 		 
     // Get the logical name of the loaded entity as part of forecasting editable grid.
     var entityName = executionContext.getFormContext().data.entity.getEntityName();
     
-    // If loaded logical name of entity in editable grid is opportunity,
+    // If loaded logical name of entity in editable grid is opportunity.
     if (entityName === "opportunity") {
         
        var allAttrs = executionContext.getFormContext().data.entity.attributes;
@@ -151,14 +145,14 @@ function OnRowLoad(executionContext) {
 
        var fcatAttr = allAttrs.getByName("msdyn_forecastcategory");
        if (fcatAttr) {
-           // Disable actualRevenue, actualCloseDate for forecastcategory Bestcase, committed, omitted, pipeline.
+           // Disable actualRevenue, actualCloseDate for forecastcategory Bestcase, committed, omitted, or pipeline.
            if (fcatAttr.getValue() <= 100000004 && fcatAttr.getValue() >= 100000001) {
                    var actualRevenueAttr = allAttrs.getByName("actualvalue");
                    var actualCloseDateAttr = allAttrs.getByName("actualclosedate");
                    if (actualRevenueAttr) actualRevenueAttr.controls.get(0).setDisabled(true);
                    if (actualCloseDateAttr) actualCloseDateAttr.controls.get(0).setDisabled(true);
            }
-           // Disable estimatedRevenue, estimatedCloseDate for forecastCategory won, lost.
+           // Disable estimatedRevenue, estimatedCloseDate for forecastCategory won or lost.
            else if (fcatAttr.getValue() == 100000005 || fcatAttr.getValue() == 100000006) {
                    var estimatedRevenueAttr = allAttrs.getByName("estimatedvalue");
                    var estimatedCloseDateAttr = allAttrs.getByName("estimatedclosedate");
@@ -168,7 +162,7 @@ function OnRowLoad(executionContext) {
        }
    } 
    
-   // Else disable name column, if loaded logical name of entity is account.
+   // Else disable name column, if loaded logical name of entity is Account.
    else if (entityName === "account"){
        var attrNameObj = executionContext.getFormContext().data.entity.attributes.getByName("name");
        if (attrNameObj) {
@@ -193,7 +187,7 @@ This returns a `webApiContext` object and has the following methods:
 
 | Method | Description |
 |--------|-------------|
-| `retrieveRecord(entityLogicalName, id, options)'<br>'then (successCallback, errorCallback);'` | Retrieves an entity record. More information: [retrieveRecord (Client API reference)](https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/xrm-webapi/retrieverecord). |
+| `retrieveRecord(entityLogicalName, id, options)`<br>`then (successCallback, errorCallback);` | Retrieves an entity record. More information: [retrieveRecord (Client API reference)](https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/xrm-webapi/retrieverecord). |
 | `updateRecord(entityLogicalName, id, data)`<br>`then(successCallback, errorCallback);` | Updates an entity record. More information: [updateRecord (Client API reference)](https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/xrm-webapi/updaterecord). |
 | `createRecord(entityLogicalName, data)`<br>`then(successCallback, errorCallback);` | Creates an entity record. More information: [createRecord (Client API reference)](https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/xrm-webapi/createrecord). |
 | `deleteRecord(entityLogicalName, id)`<br>`then(successCallback, errorCallback);` | Deletes an entity record. More information: [deleteRecord (Client API reference)](https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/xrm-webapi/deleterecord). |
