@@ -21,7 +21,7 @@ search.audienceType:
 ---
 # Access a view definition in Dynamics 365 Customer Engagement (on-premises)
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Access a model-driven app view definition in Power Apps](/powerapps/maker/model-driven-apps/accessing-view-definitions)
 
 <a name="BKMK_AccessingViewDefinitions"></a>   
 
