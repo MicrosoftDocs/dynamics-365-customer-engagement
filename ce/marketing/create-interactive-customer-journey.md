@@ -28,8 +28,8 @@ In [Create a simple customer journey with email messaging](create-simple-custome
 
 1. Go to **Marketing** > **Marketing Execution** > **Marketing Emails** and create a new email message like the one you made in [Create a marketing email and go live](create-marketing-email.md). Be sure to include all the minimum requirements&mdash;name, subject, from-contact, subscription center link, and sender physical address—but don't go live yet.
 
-    > [!TIP]
-    > Consider choosing a non-blank email template this time. These templates not only have sample content, graphics, and column layouts, but also include all mandatory elements such as the subscription center link and physical address.
+> [!TIP]
+> Consider choosing a non-blank email template this time. These templates not only have sample content, graphics, and column layouts, but also include all mandatory elements such as the subscription center link and physical address.
 
 1. This message will invite recipients to pick up a free download from your website. To get the free download, they'll need to visit the landing page, submit a form, and then wait for a follow-up email that contains the download link. (The message content would normally explain all of this, but for this exercise it's not necessary.) With your new email message still open, drag a **Marketing Page** design element from the **Toolbox** onto the design canvas.
 
@@ -85,8 +85,8 @@ In [Create a simple customer journey with email messaging](create-simple-custome
 
 This expression evaluates to true as soon as a contact submits valid information by using the referenced landing page. Each contact will wait at this condition tile either until its logic evaluates to true or until the **Wait up to** period has elapsed, whichever comes first. As soon as a contact fulfills the requirements, it's sent down the true (top) path; if the Wait up to expires first, the contact is sent down the false (bottom) path instead.
 
-      > [!TIP]
-      > Many types of trigger rules are possible, depending on which types of tiles are available along the pipeline leading to the if/then tile. For example, you might define an if/then condition when a contact just opens the landing page, or define an if/then condition on the email message itself when a contact selects a link or opens the message. You can also establish complex logic by adding several rules and combining them using AND or OR operators.
+> [!TIP]
+> Many types of trigger rules are possible, depending on which types of tiles are available along the pipeline leading to the if/then tile. For example, you might define an if/then condition when a contact just opens the landing page, or define an if/then condition on the email message itself when a contact selects a link or opens the message. You can also establish complex logic by adding several rules and combining them using AND or OR operators.
 
 1. Add two more **Send an email** tiles after the if/then condition, one on the top path and one on the bottom path.  
      ![Add an email tile to each path](media/journey-trigger-paths.png "Add an email tile to each path")  
@@ -95,10 +95,10 @@ This expression evaluates to true as soon as a contact submits valid information
     - **Top tile**: This message is sent to contacts who submit the form (when the if/then condition evaluates to true). Configure it to send the download link message that you created earlier in this procedure.
     - **Bottom tile**: This message is sent to contacts who haven't submitted the form within three days of receiving the initial offer. Configure it to send the follow-up reminder message that you created earlier in this procedure.
 
-      > [!TIP]
-      > For the purposes of this exercise, you can stop here. But in a real campaign, you would probably repeat most of this pipeline along the bottom path, so that you have a follow-up reminder and then a trigger that waits for page submissions. You can reuse the same landing page and download-link message.
-      > 
-      > ![An example of how to complete the follow-up path](media/journey-trigger-example.png "An example of how to complete the follow-up path")
+> [!TIP]
+> For the purposes of this exercise, you can stop here. But in a real campaign, you would probably repeat most of this pipeline along the bottom path, so that you have a follow-up reminder and then a trigger that waits for page submissions. You can reuse the same landing page and download-link message.
+> 
+> ![An example of how to complete the follow-up path](media/journey-trigger-example.png "An example of how to complete the follow-up path")
 
 15. Save your customer journey. Then, as you've done before, go to the **General** tab to give the journey a name and schedule. Finally, **Check for Errors** and **Go Live**. More information: [Create a simple customer journey with email messaging](create-simple-customer-journey.md)
 
