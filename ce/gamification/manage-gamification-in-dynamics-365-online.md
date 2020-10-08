@@ -2,7 +2,7 @@
 title: "Install and configure Dynamics 365 – Gamification in Dynamics 365 apps | Microsoft Docs"
 description: "Learn how to install the Gamification solution in Dynamics 365 apps and its associated web portal and security roles."
 keywords: install, solution, manage, uninstall
-ms.date: 04/30/2020
+ms.date: 10/08/2020
 ms.service: dynamics-365-sales
 ms.topic: get-started-article
 ms.assetid: eb33a4c5-2dde-417b-34f2-8d46be8c2f10
@@ -107,7 +107,7 @@ As an administrator, you can use the **Gamification Settings** page to perform t
 
 ### Activation
 
-After installing the Microsoft Dynamics 365 - Gamification app from Microsoft AppSource, you must activate the Gamification portal. When activated, the Gamification portal will be connected to your Dynamics 365 environment. To activate Gamification, select **Activate now**.
+After installing the Microsoft Dynamics 365 - Gamification app from Microsoft AppSource, you must activate the Gamification portal. When activated, the Gamification portal will be connected to your Dynamics 365 environment. To know how to activate Gamification, see [Activate Gamification in Dynamics 365](#activate-gamification-in-dynamics-365).
 
 ### Refresh data
 
@@ -137,55 +137,50 @@ Before you can sync [!INCLUDE[pn_gamification](../includes/pn-gamification.md)] 
 - The user has a global admin role in Office 365 
 - The user has a system administrator security role with an [access mode of Read-Write](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles#create-a-read-write-user-account).
 
-
 > [!TIP]
 > Starting with Gamification solution update 17.10, you can connect multiple organizations (business units) of the same Office 365 tenant to a shared Gamification web portal. Repeat the installation and activation for every organization you want to connect to your shared Gamification portal. Users with the Game Manager security role in Organization A can create games for Organization A in Gamification. If they are regular users in Organization B, they can participate as players or fans in games in Organization B. [Learn how to set up and run games.](run-games.md)
   
 ### Activate the Gamification portal for your organization  
+
+When you sign in to Dynamics 365 - Gamification for the first time, the **Settings** page is opened and the activation wizard starts.
+
+1. Select **Start Activation**.
+
+    ![Select Start Activation](media/start-activation-button.png "Select Start Activation")
+
+2. Select **Generate Security Key** to start the activation and obtain the security key.
+
+    ![Select Generate Security Key](media/generate-security-key.png "Select Generate Security Key")
+
+3. Copy the value from the **Security Key** field, and then paste it in the input box.
+
+4. Select **Activate now**.
+
+    ![Select Activate now](media/activate-gamification.png "Select Activate now")
+
+The system creates a set of default KPIs in so you can quickly get started with the first game in [!INCLUDE[cc_gamification_portal](../includes/cc-gamification-portal.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Configure KPIs for Gamification in Dynamics 365 apps](configure-kpis.md)  
   
-1. In [!INCLUDE[pn_microsoftcrm](../includes/pn-crm-2016.md)], go to **Settings** > **Solutions**, and then double-click the **Gamification** solution.  
-  
-2. Select **Start Activation**, and then sign in with your admin credentials.  
-  
-3. Accept the disclaimer, and then provide a **Name** and a **Location** for your instance of the Gamification portal.  
-  
-4. Select **Register** to start the activation and obtain the security key.  
-  
-5. Copy the **Security Key**, and then paste it in the input box.  
-  
-6. Select **Authorize** to complete the connection between [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] and [!INCLUDE[pn_gamification](../includes/pn-gamification.md)].  
-  
-   You'll receive an email with additional details, and then you can access your organization's [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] instance.  
-  
-   Additionally, the system creates a set of default KPIs in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] so you can quickly get started with the first game in [!INCLUDE[cc_gamification_portal](../includes/cc-gamification-portal.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Configure KPIs for Gamification in Dynamics 365 apps](configure-kpis.md)  
-  
-   To sign in as the first Commissioner, go to [Gamification sign-in](https://go.microsoft.com/fwlink/p/?linkid=830344).  
+To sign in as the first Commissioner, go to [Gamification sign-in](https://go.microsoft.com/fwlink/p/?linkid=830344).  
   
 ## Update the Gamification solution
 
- A system administrator can update the solution.
+A system administrator can update the solution.
   
- If an update is available, a notification is displayed on the **Gamification Settings** page.   
+If an update is available, a notification is displayed on the **Gamification Settings** page.   
   
-1. Sign in to [https://admin.microsoft.com](https://admin.microsoft.com) with your global administrator or [!INCLUDE[pn_microsoftcrm](../includes/pn-crm-2016.md)] system administrator credentials.  
-  
-2. Select **Admin centers** > **Dynamics 365**.  
-  
-3. Select the **Instances** tab, and then select the instance the solution is connected to.  
-  
-4. Select **Solutions**.  
-  
-5. Select the solution you want to update, and then select **Upgrade**.  
-  
-6. In [!INCLUDE[pn_microsoftcrm](../includes/pn-crm-2016.md)], go to **Gamification** > **Gamification Settings**, and then select **Configure App** to update all dependencies to the latest version.  
-  
-   > [!IMPORTANT]
-   >  This step is required to keep all synchronization processes running.  
-  
-   The system will apply all necessary changes and validate the update to ensure that data keeps flowing smoothly.  
-  
-> [!NOTE]
->  You need to repeat the preceding steps whenever you update the solution.  
+1. Sign in to [Power Platform admin center](https://admin.powerplatform.microsoft.com/) with your global administrator or system administrator credentials.
+
+2. In the left pane, select **Environments**.
+
+3. On the **Environments** page, select your environment.
+
+4. On the toolbar at the top of the page, select **Resources** > **Dynamics 365 apps**.
+
+5. On the **Dynamics 365 apps** page, find the **Microsoft Dynamics 365 - Gamification** app, and check the status of it.
+
+6. In the **Status** column of the app, select **Update available**.
+
+7. In the **Update Microsoft Dynamics 365 - Gamification** panel, select **I agree to the terms and service**, and then select **Update**. The status changes to **Installing**. Wait until the status is changed to **Installed**.
   
 ## View active games in Dynamics 365 apps  
 
