@@ -113,9 +113,6 @@ When you interact with a customer in the conversation control, you can use the *
 3. Select **Send Link**. The link is displayed in the message area of the communication panel.
 4. Select **Send** in the communication panel.
 
-<!-->
-![Search knowledge articles using the option from conversation control](../../media/oceh-oc-search-knowledge-articles-cc.png "Search knowledge articles using the option from conversation control")
--->
 ### See also
 
 - [Take notes specific to conversation](oc-take-notes.md)
