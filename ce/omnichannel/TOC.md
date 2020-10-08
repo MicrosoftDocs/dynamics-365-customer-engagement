@@ -423,6 +423,7 @@
 #### [lcw:error](developer/reference/events/lcw-error.md)
 #### [lcw:threadUpdate](developer/reference/events/lcw-threadUpdate.md)
 #### [lcw:closeChat](developer/reference/events/lcw-closeChat.md)
+#### [Error code reference](developer/reference/error-code-reference.md)
 
 ### Omnichannel JavaScript API Reference
 #### [Overview](developer/omnichannel-api-reference.md)
@@ -431,7 +432,7 @@
 ##### [linkToConversation](developer/reference/methods/linkToConversation.md)
 ##### [unlinkFromConversation](developer/reference/methods/unlinkFromConversation.md)
 
-### [Error code reference](developer/reference/error-code-reference.md)
+
 
 ### [runMacro](developer/reference/methods/runMacro.md)
 
