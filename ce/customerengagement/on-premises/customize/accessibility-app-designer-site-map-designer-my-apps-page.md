@@ -17,7 +17,7 @@ search.audienceType:
 
 # Accessibility in Dynamics 365 Customer Engagement (on-premises) app designer, site map designer, and My Apps page
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Accessibility in Power Apps app designer, site map designer, and My Apps page](/powerapps/maker/model-driven-apps/accessibility-app-designer-site-map-designer-my-apps-page)
 
 Microsoft is committed to making its products and services easier for everyone. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Microsoft accessibility](https://www.microsoft.com/enable/default.aspx)  
 
