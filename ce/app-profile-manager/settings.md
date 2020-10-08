@@ -14,9 +14,9 @@ ms.topic: article
 
 ## Introduction
 
-The Settings option under Customer Service workspace (preview) or Omnichannel Administration lets you manage the settings required to run or use Customer Service workspace (preview) or Omnichannel for Customer Service.
+The Settings option under Customer Service workspace or Omnichannel Administration lets you manage the settings required to run or use Customer Service workspace or Omnichannel for Customer Service.
 
-### Customer Service workspace (preview)
+### Customer Service workspace
 
 When you select settings from Customer Service workspace (preview) in the left pane, the **Queues** page is opened on a new tab. In Service Management, you can manage cases, accounts, service schedules, and other settings.
 

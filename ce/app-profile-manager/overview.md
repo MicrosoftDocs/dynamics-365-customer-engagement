@@ -20,20 +20,6 @@ The profiles are available for agents and supervisors who use the Customer Servi
 
 The system requirements for the app profile manager are same as those for Customer Service workspace (preview). More information: [System requirements for Customer Service workspace](../customer-service/customer-service-workspace-system-requirements.md)
 
-## Sign up for the insider preview
-
-To use Omnichannel for Customer Service (preview) with app profile manager, you need to do the following:
-- Register at [Insider preview](https://experience.dynamics.com/Account/Login/Register?returnUrl=%2Finsider%2F).
-- Submit the form [Sign-up - Survey](https://customervoice.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR5mjjZ3rRrtBn7meF_Sg_vlURFBMM0g4T1ZIUUIzNFRJSU0yTkhNMlJWWC4u).
--	Use a sandbox environment and tenant or Org ID to sign-up for the preview program. We do not recommend using the production environment for signing up for preview.
-
-After you sign up, the participation goes through an approval process. It may take up to 48 hours for you to be onboarded to the preview program.
-
-After your participation is approved, you will be able to see the program listed in **My Programs** at [**My Insider Programs**](https://experience.dynamics.com/insider/).
-
-> [!IMPORTANT]
-> Upgrade of the preview environment to the production environment is not supported.
-
 ## How the app profile experience works
 
 Managing the app profiles is as follows. The tasks in every step will be done by administrators who have different roles. It could be one administrator or a set of administrators.
@@ -81,6 +67,10 @@ Irrespective of the path from where you navigate to any of the components, such 
 The **Settings** option in **Customer Service workspace** opens the **Queues** page on a new tab.
 
 The **Settings** option in **Omnichannel Administration** opens the **Entity Records** page on a new tab.
+
+### Channel provider
+
+The **Channel provider** option in **Customer Service workspace** or **Omnichannel Administration** opens the channels view on a new tab where you can configure a new channel or update the settings of the existing providers.
 
 ### Templates
 

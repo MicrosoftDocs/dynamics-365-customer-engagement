@@ -34,7 +34,7 @@ Make sure you have the App profile manager administrator role. More information:
 3. Do one of the following:
    - On the **Home** page, go to **Your apps** section.
    - In the left pane, select **Apps**.
-4. Select **More commands** beside **Omnichannel for Customer Service** or **Customer Service workspace (Preview)**, and then select **App profile manager** on the menu that appears.
+4. Select **More commands** beside **Omnichannel for Customer Service** or **Customer Service workspace**, and then select **App profile manager** on the menu that appears.
 5. In the left pane, select **App profiles**.
 6. On the **App profile manager** page, select **New profile**.
 7. On the **New profile** pane, specify the following:
@@ -59,9 +59,11 @@ For an app profile, you can add only one session template for each entity type. 
 4. Do the following on the **Productivity pane** tab:
    1. If you want to enable productivity tools, set the toggle to on for **Turn on productivity pane**.
    2. Select the default mode as collapsed or expanded.
-   3. In the **Productivity tools** section, set the toggle to on for **Smart assist tool configuration** and **Agent scripts** to allow access to smart assist configuration and agent scripts.
+   3. In the **Productivity tools** section, set the toggle to on for the following:
+      - **Smart assist tool configuration**
+      - **Knowledge search tool configuration**
+      - **Agent scripts** to allow access to smart assist configuration and agent scripts.
 5. On the **Channels** tab, set the toggle to on for **All active channels**. The channels configured in Omnichannel for Customer Service will be available for the user to whom the profile is assigned.
-
 
    > [!NOTE]
    > The toggle for channels will be enabled in the out-of-the-box app profile for Omnichannel for Customer Service.

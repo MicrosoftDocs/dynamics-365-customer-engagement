@@ -33,16 +33,17 @@ The out-of-the-box session template for using in Customer Service workspace is C
 
 The following out-of-the-box session templates are for use in the Omnichannel for Customer Service app:
 
-- Chat - Default session
-- SMS - Default session
-- Entity routing - Default session
-- Custom Messaging - Default session
-- Facebook - Default session
-- LINE - Default session
-- Teams - Default session
-- Twitter - Default session
-- WeChat - Default session
-- WhatsApp - Default session
+- Case entity session - default template
+- Chat session - default
+- Custom messaging session - default
+- Entity records session - default
+- Facebook session - default
+- LINE session - default
+- SMS session - default
+- Teams session - default
+- Twitter session - default
+- WeChat session - default
+- WhatsApp session - default
   
 ## Create a session template
 
