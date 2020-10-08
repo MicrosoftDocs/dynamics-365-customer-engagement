@@ -9,17 +9,9 @@ ms.service:
   - "dynamics-365-customerservice"
 ms.topic: article
 ---
-# Preview: Configure a Microsoft Teams channel
+# Configure a Microsoft Teams channel
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
-
-[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
-
-> [!IMPORTANT]
->
-> - A preview is a feature that is not complete, as it may employ reduced privacy, security, and/or compliance commitments, but is made available before it is officially released for general availability so customers can get early access and provide feedback. Previews are provided "as-is," "with all faults," "as available," and without warranty.​
-> - This preview feature does not come with technical support and Microsoft Dynamics 365 Technical Support won't be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.​
-> - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk.  All previews are subject to separate [Terms and Conditions](../../legal/dynamics-insider-agreement.md).
 
 ## Microsoft Teams channel
 
@@ -78,26 +70,26 @@ Make sure that the following prerequisites are met:
 1. In the Omnichannel Administration app, go to **Microsoft Teams** and select the account you want to modify. 
 
 2. On the **General settings** tab, provide the following information:
-    
+
     - **Language**: Select the preferred language for your Teams account.
-    
+
     - **Work stream**: Select an existing work stream or create a new one.
 
-    - **Enable file attachments for customers**: Set to **Yes** to allow customers to send file attachments to agents. Otherwise, set **No**. 
+    - **Enable file attachments for customers**: Set to **Yes** to allow customers to send file attachments to agents. Otherwise, set **No**.
 
     - **Enable file attachments for agents**: Set to **Yes** to allow agents to send file attachments to customers. When the agent attempts to send an attachment, the app requests the customer's consent. The attachment is stored in the customer's OneDrive. Otherwise, set **No**.  
-    
-       To learn more about attachments, see [Enable file attachments](enable-file-attachments.md). 
-       
+
+       To learn more about attachments, see [Enable file attachments](enable-file-attachments.md).
+
        To learn more about uploading media in Microsoft Teams, see [Microsoft Teams documentation](https://docs.microsoft.com/microsoftteams/platform/resources/bot-v3/bots-files).
 
-3. On the **Automated messages** tab, [configure automated messages](configure-automated-message.md). 
-    
+3. On the **Automated messages** tab, [configure automated messages](configure-automated-message.md).
+
 4. On the **Surveys** tab, [configure a post-conversation survey](configure-post-conversation-survey.md).
 
 ### See also
 
-[Channels in Omnichannel for Customer Service](channels.md)<br />
-[Configure automated messages](configure-automated-message.md)<br />
-[Use a Microsoft Teams channel](../agent/agent-oc/teams-channel.md)<br>
-[Delete a configured channel](delete-channel.md)
+[Channels in Omnichannel for Customer Service](channels.md)  
+[Configure automated messages](configure-automated-message.md)  
+[Use a Microsoft Teams channel](../agent/agent-oc/teams-channel.md)  
+[Delete a configured channel](delete-channel.md)  

@@ -4,7 +4,7 @@ description: "Learn how to set your presence status in Omnichannel for Customer 
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/09/2020
+ms.date: 10/12/2020
 ms.service: 
   "dynamics-365-customerservice"
 ms.topic: article
@@ -20,7 +20,7 @@ Knowledge management plays an important part in the customer service process, an
 
 Omnichannel for Customer Service enables you to use the rich knowledge base so you can quickly search for relevant information while working on a case and provide accurate answers to customers without having to switch applications.
 
-You can launch KB Search in the following ways:
+You can launch Knowledge Search in the following ways:
 
 - Productivity pane.
 - Application tab menu.
@@ -43,10 +43,10 @@ By default, the full text search displays 10 results and relevance search displa
   |Label|Description|
   |-----|-----------|
   |1.| Knowledge tab|
-  |2.| Lets you link or unlink the article to the entity, such as the case.|
-  |3.| Text appears when the article is linked to the entity.|
-  |4.| Number of times the article has been viewed.|
-  |||
+  |2.| Number of times the article has been viewed.|
+  |3.| Copy URL lets you copy the article link to the clipboard when selected.|
+  |4.| Send URL pastes the article link in the conversation window when selected. |
+  |5.| Opens the article on a new application tab when selected. |
 
 On the **Knowledge** pane, you can perform the following actions:
 
@@ -55,9 +55,8 @@ On the **Knowledge** pane, you can perform the following actions:
 - Select the filter icon to display the options based on which the articles can be filtered.
 - Select sort icon to display the options based on which results can be displayed.
 - Select the ellipses to display the following actions that can be performed:
-  - Copy URL
-  - Email URL
-  - Email Content
+  - Copy the article URL
+  - Send URL
 
     These actions can be performed for only published or expired articles.
 
@@ -67,7 +66,7 @@ Select an article title to view it in an application tab.  You can view up to 10
 
 You can perform the following actions for the knowledge article:
 
-- Copy URL to copy the external URL of the article so you can share it with your customers over channels like chat or email.
+- Copy the article URL to copy the external URL of the article so you can share it with your customers in a chat.
 - Provide feedback by selecting the thumbs up or thumbs down icon.
   - Make sure that the knowledge article entity is enabled for feedback. To learn more, see [Enable an entity for feedback/ratings](/dynamics365/customer-engagement/customize/enable-entity-feedback).
   - Customer service agents and customer service managers can create, or view feedbacks based on their role and privileges on feedback entity. Out of the box, customer service agents can create, view, or edit their own feedback only. Customer service managers or knowledge managers can view feedback submitted by all agents.
@@ -96,32 +95,14 @@ The knowledge base search control provides sort the knowledge articles interacti
 - Last modified date (newest first) 
 - Last modified date (oldest first)
 
-### Link and unlink the knowledge article to a record
+## Launch knowledge articles from the application tab menu
 
-When configured, you can link an article to case. You can associate and dissociate the knowledge article with a record.
-
-- By default the articles are not linked to the case.
-- When you select to link the article to the case, the link icon changes, and **Linked to Case** is displayed for the article.
-
-### Email options
-
-Use the following options to share the knowledge article link or knowledge article content through mail:
-
-- **Email URL:** The new email form opens with the link to the article in the mail box.
-- **Email Content:** The article content is populated in the mail body. The fields are automatically populated based on the case and customer details.
-
-Add other information as needed, and then on the command bar, select **Send**.
-
-## Launch the KB Search from the application tab menu
-
-When working on a session, you can use the **+** button on the application table panel to launch **KB Search**. You can search for a KB article using the **KB Search** tab, and then view the article and use the **Send Link** option to share the link with the customer.
+When working on a session, you can use the **+** button on the application table panel to launch **Knowledge Articles**. 
 
 1. Select the + button in the application tab panel.
-2. From the menu, select **KB Search**. The KB Search opens as a new tab in the application tab panel.
+2. From the menu, select **Knowledge articles**. The KB Search opens as a new tab in the application tab panel.
 3. Search for the KB articles and view.
 4. Select **Send Link** to share the KB article with the customer.
-
-![Search Knowledge articles](../../media/oceh-oc-knowledge-articles-search.png "Search Knowledge articles")
 
 ## Launch the KB Search from the communication panel
 
