@@ -41,7 +41,7 @@ Properties are flexible, and can be defined in multiple ways, as we'll look at i
 
 ## Create and assign asset categories (optional)
 
-First, create an **Asset Category** to group your assets. This is optional, if you organization does not use asset categories then proceed to the next step of creating property definitions. In our example, we're using the category **Laptop - high performance**.
+First, create an **Asset Category** to group your assets. This is optional; if your organization doesn't use asset categories, go to the next step to create property definitions. In our example, we're using the category **Laptop - high performance**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a customer asset category.](./media/assets-categories.png)
