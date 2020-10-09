@@ -40,10 +40,12 @@ Make sure you have the App profile manager administrator role. More information:
 7. On the **New profile** pane, specify the following:
    - **Name:** The app profile name.
    - **Unique name:** A unique identifier in the <*prefix*>_<*name*> format.
+     
      > [!IMPORTANT]
      > The following are required for the unique name:
      > - The prefix can only be alphanumeric and its length must be between 3 to 8 characters.
      > - An underscore must be there between the prefix and name.
+   
    - **Description:** A description for the profile.
   
 ### Add templates and enable productivity pane and channels<a name="enable-prod-pane"></a>
@@ -82,7 +84,9 @@ For an app profile, you can add only one session template for each entity type. 
    > ![Assign users](media/assign-users.png "Assign users")
 3. On the **General** tab, select **Add Existing User**.
 4. On the **Lookup Records** pane, search and select the user.
-5. Select **Add**.
+
+> [!NOTE]
+> You can select **Assign users** on the ***<profile_name>*** page to view the list of users who have been assigned to the profile.
 
 ### Default profile assignment
 

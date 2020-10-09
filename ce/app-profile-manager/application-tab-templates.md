@@ -138,6 +138,17 @@ The application type is used to display first-party and third-party websites as 
 
 To learn more, see [Third-party application tab refreshes when focus is changed](../omnichannel/omnichannel-readme.md#third-party-application-tab-refreshes-when-focus-is-changed).
 
+### Out-of-the-box application tab templates
+
+The out-of-the-box application tab templates are as follows:
+
+- Customer Summary
+- Entity record
+- Knowledge Search
+- Omnichannel Conversations Dashboard
+- Power BI
+- Search
+
 ### See also
 
 [Manage session templates](session-templates.md)  

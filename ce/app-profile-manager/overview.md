@@ -47,6 +47,7 @@ The Power Apps home page for app profiles is an easy-to-use interface that helps
 The options to access and manage the following entities are available on the left pane of the app profile manager:
 
 - Settings
+- Channel provider
 - Templates
   - Session templates
   - Application tabs

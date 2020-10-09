@@ -104,17 +104,17 @@ The out-of-the-box templates are as follows.
 
 | Channel/Entity | Consult | Authenticated | Unauthenticated | Transfer | Other
 |---------|--------------------|-----------------------|------------------------|--------------------|--------------------|
-| Chat | Chat - Default consult | Chat - Default incoming authenticated | Chat - Default incoming unauthenticated | Chat - Default transfer |
-|Custom Messaging | Custom Messaging - Default consult | Custom Messaging - Default incoming authenticated | Custom Messaging - Default incoming unauthenticated | Custom Messaging - Default transfer  |
-| Facebook | Facebook - Default consult | Facebook - Default incoming authenticated | Facebook - Default incoming unauthenticated | Facebook - Default transfer |
-| LINE | LINE - Default consult | LINE - Default incoming authenticated | LINE - Default incoming unauthenticated | LINE - Default transfer |
-| SMS | SMS - Default consult | SMS - Default incoming authenticated | SMS - Default incoming unauthenticated | SMS - Default transfer |
-| Microsoft Teams | Teams - Default consult | Teams - Default incoming authenticated | Teams - Default incoming unauthenticated | Teams - Default transfer |
-| Twitter | Twitter - Default consult | Twitter - Default incoming authenticated | Twitter - Default incoming unauthenticated | Twitter - Default transfer |
-| WeChat | WeChat - Default consult | WeChat - Default incoming authenticated | WeChat - Default incoming unauthenticated | WeChat - Default transfer |
-|CDS entity|||||CDS entity - Default assigned |
-|Customized||||| Customized Notification Template |
-|Sentiment||||| Sentiment threshold alert - Supervisor |
+| Chat | Chat - consult - default | Chat - incoming authenticated - default | Chat - incoming unauthenticated - default | Chat - transfer - default |
+| Custom messaging | Custom messaging - consult - default | Custom messaging - incoming authenticated - default | Custom messaging - incoming unauthenticated - default | Custom messaging - transfer - default |
+| Facebook | Facebook - consult - default | Facebook - incoming authenticated - default | Facebook - incoming unauthenticated - default | Facebook - transfer - default |
+| LINE | LINE - consult - default | LINE - incoming authenticated - default | LINE - incoming unauthenticated - default | LINE - transfer - default |
+| SMS | SMS - consult - default | SMS - incoming authenticated - default | SMS - incoming unauthenticated - default | SMS - transfer - default |
+| Microsoft Teams | Teams - consult - default | Teams - incoming authenticated - default | Teams - incoming unauthenticated - default | Teams - transfer - default |
+| Twitter | Twitter - consult - default | Twitter - incoming authenticated - default | Twitter - incoming unauthenticated - default | Twitter -  transfer - default |
+| WeChat | WeChat - consult - default | WeChat - incoming authenticated - default | WeChat -  incoming unauthenticated - default | WeChat - transfer - default |
+| CDS entity |||||Entity record - assign - default |
+| Customized ||||| Customized notification template |
+| Sentiment ||||| Sentiment threshold alert - supervisor |
 |||||||
 
   > [!Note]
