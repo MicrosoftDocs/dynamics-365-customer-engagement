@@ -20,7 +20,7 @@ window.addEventListener("lcw:onMinimize", function handleWidgetMinimizeEvent(){ 
 
 ### See also
 
-[lcw:onMinimize](lcw-onminimize.md)<br />
+[lcw:onMaximize](lcw-onmaximize.md)<br />
 [lcw:ready](lcw-ready.md)<br />
 [lcw:error](lcw-error.md)<br />
 [Live chat SDK JavaScript API reference](../../omnichannel-reference.md)
