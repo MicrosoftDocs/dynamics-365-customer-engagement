@@ -20,6 +20,7 @@ window.addEventListener("lcw:onMessageSent", function handleWidgetMessageSentEve
 
 ### See also
 
+[lcw:onMessageReceived](lcw-onmessagereceived.md)<br />
 [lcw:ready](lcw-ready.md)<br />
 [lcw:error](lcw-error.md)<br />
 [Live chat SDK JavaScript API reference](../../omnichannel-reference.md)
