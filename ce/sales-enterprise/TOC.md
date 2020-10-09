@@ -234,14 +234,14 @@
 ### Forecasting
 #### [msdyn_ForecastApi](../sales-enterprise/developer/reference/custom-actions/msdyn_ForecastApi.md)
 
+### Forecasting client API
+#### [Context object for event handlers in editable grid](../sales-enterprise/developer/reference/custom-actions/context.md)
+#### [Events](../sales-enterprise/developer/reference/events/forecasting-events.md)
+
 ### Custom actions
 #### [Overview](../sales-enterprise/developer/reference/custom-actions-manual-forecasting.md)
-#### [Context object for event handlers in editable grid](../sales-enterprise/developer/reference/custom-actions/context.md)
 #### [DeleteOQOILineWithSkipPricingCalculation](../sales-enterprise/developer/reference/custom-actions/deleteoqoilinewithskippricingcalculation.md)
 #### [exportPdf action](../sales-enterprise/developer/exportpdf-api.md)
-
-### Events
-#### [Forecasting related events](../sales-enterprise/developer/reference/events/forecasting-events.md)
 
 ### Entity reference
 #### [Account](../customerengagement/on-premises/developer/entities/account.md)

@@ -50,6 +50,10 @@ This returns a control object mapping to attribute and has the following methods
 | `setNotification(message: string, uniqueId?: string)` | Boolean | Displays an error message for the control to indicate that data isn’t valid. When this method is used,  a red cross icon appears next to the control within the cell. Hovering over the error icon will display the provided message. Selecting the error icon will reload the row and undo any changes. The `uniqueId` is used to clear this message when using the `clearNotification` method. |
 | `clearNotification(uniqueId?: string)` | Boolean | Removes a message that is already displayed for a control. If no unique ID is provided, all notifications for that control are removed. |
 
+
+> [!NOTE]
+> The function names in JavaScript file should match the event names and must accept context object parameter. More information: [Forecasting related events](../events/forecasting-events.md).  
+
 **Example 1:**
 
 Let's create a JavaScript to make an editable forecasting grid READ-ONLY. Also, the `onRowLoad` function is called for each row when the grid is loaded and saved successfully. 
@@ -241,4 +245,4 @@ function OnSave(executionContext){
 
 ### See also
 
-[Forecasting related events](forecasting-events.md)
+[Forecasting related events](../events/forecasting-events.md)

@@ -13,26 +13,26 @@ manager: shujoshi
 
 # Forecasting related events
 
-Events occur in forecasting grids whenever a grid loads, data is changed, or saved. You execute your JavaScript code by associating it with an events so that it is executed when the event occurs. The following events are supported in forecasting:
+Events occur in forecasting editable grid whenever a grid loads, data is changed, or saved. You execute your JavaScript code by associating it with an event so that it is executed when the event occurs. The following events are supported in forecasting:
 - [OnRowLoad](#onrowload-event)
 - [OnSave](#onsave-event)
 - [OnChange](#onchange-event)
 
 ## OnRowLoad event
 
-This event is triggered when a row (record) of the forecasting editable grid is loaded.
+The `OnRowLoad` event is triggered when a row (record) of the forecasting editable grid is loaded.
 
 ## OnSave event
 
-This event is triggered when any field for forecasting editable grid is changed. OnChange of any field, will automatically trigger save for forecasting editable grid.
-- There is a change in the record selection.
-- The user explicitly triggers a save operation using the editable grid’s save button.
-- The user applies a sort, filter, group, pagination, or navigation operation from the editable grid while there are pending changes.
+The `OnSave` event occurs when a field is changed in forecasting editable grid and triggers save operation. This event will not trigger if notifications are added using the `OnChange` handler.
 
 ## OnChange event
 
-The OnChange event occurs when a value is changed in a cell in the editable grid and the cell loses focus. This event can also occur when an attribute value is updated using the setValue method
+The `OnChange` event occurs when a value is changed in a cell in the editable grid and the cell loses focus.
+
+> [!NOTE]
+> The function names in JavaScript file should match these event names and must accept context object parameter. More information: [Context object for event handlers in editable grid](../custom-actions/context.md). 
 
 ### See also
 
-[Context object for event handlers in editable grid](../sales-enterprise/developer/reference/custom-actions/context.md)
+[Context object for event handlers in editable grid](../custom-actions/context.md)
