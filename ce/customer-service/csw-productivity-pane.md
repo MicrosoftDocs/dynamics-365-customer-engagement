@@ -27,7 +27,7 @@ Currently, the productivity pane includes controls to help agents quickly view a
 > [!Important]
 > The productivity pane only displays information (for example, knowledge article and similar case suggestions) for the first tab (referred to as the anchor tab) of an active case session.
 
-![Productivity pane view](media/csw-productivity-pane-mode.png "View of the productivity pane")
+![Productivity pane view](media/csw-productivity-pane.png "View of the productivity pane")
 
 ## Productivity pane modes
 
