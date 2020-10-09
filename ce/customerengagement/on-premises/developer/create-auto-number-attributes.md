@@ -215,7 +215,8 @@ _serviceProxy.Execute(updateRequest);
 
 By default, all auto-number sequential values start with 1000 and use 0 as the prefix depending on the length. In this way, the length of the value is always same. If you want to change the initial value, you need to change the initial seed value using the API below to set the next number that are used for the sequential segment.
 
-For example, when the length of the sequential number is 5, you may want to start with an initial value of 10000 instead of the default value of 00001. 
+For example, if you did not use a seed value, or if you set the seed value to a single digit, your first number would be a single digit with a prefix of zeros added to equal the number length. A single digit seed with a display length of 5 would result in displaying "5" as "00005". Using a seed value allows you to start with a larger initial value, so if you set your seed as "10000" a value of 5 would show as "10005".
+
 If you want to choose a different starting value after creating the auto-numbering attribute, use the **SetAutoNumberSeed** message. Use the **SetAutoNumberSeedRequest** class when using the SDK assemblies and **SetAutoNumberSeed** action when using the Web API.
 
 The **AutoNumberSeed** message has the following parameters:
