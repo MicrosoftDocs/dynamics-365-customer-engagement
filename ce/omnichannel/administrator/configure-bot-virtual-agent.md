@@ -4,7 +4,7 @@ description: "Instructions to integrate a bot in Omnichannel for Customer Servic
 author: platkat
 ms.author: ktaylor
 manager: shujoshi
-ms.date: 09/09/2020
+ms.date: 10/12/2020
 ms.service: 
   "dynamics-365-customerservice"
 ms.topic: article
@@ -94,6 +94,39 @@ Ensure to map the routing rules to the correct queues so that the queries are ro
 
 > [!NOTE]
 > When you run a report on Power Virtual Agent activity, the number of bot sessions may differ from the number of sessions in Omnichannel for Customer Service.
+
+## Configure context variables for a bot
+
+Before customers initiate a conversation, the context of the activities they perform can be made available for the bot to intelligently provide responses and handle the conversations. You can configure context variables for the bot in Power Virtual Agents. For information on context variables that can be configured, see [Context variables](#context-variables).
+
+In Power Virtual Agents, do the following:
+
+1. On the **Topics** page, select **New topic**.
+2. On the **Setup** tab, enter a name and description, and save the topic.
+3. Select **Go to authoring canvas**.
+4. Select **Add node**, choose an appropriate action, such as **Ask a question**.
+5. Edit **Save response as**, and update the value for **Name** with the required context variable. Make sure **Bot (any topic can access)** and **External sources can set values** are selected.
+    > ![Configure context variable in a topic](../media/Configure-bot-context-variable.png "Configure context variable in a topic")
+
+6. Save and publish the changes.
+
+At run time, the required information is captured in the context variable that can then be used for further actions based on the workflow you configure.
+
+### Context variables
+
+The following table contains the keys that can help configure the context variables. Make sure the key names are used as is when authoring flows in Power Virtual Agents or Azure bots.
+
+|Scenarios|Keys|Description|Data type|
+|-----|-----|-------|-------|
+|Prechat |Customer creates the variable. Admin needs to use the same name as the variable created while authoring flows in  Power Virtual Agents or Azure bots.|The context variables for pre-conversation answers store the customer answers for questions in the pre-conversation survey. |String|
+|Custom Context – (Livechat SDK set context provider) |Customer creates the variable.|These are custom context variables that can be created and passed through the Livechat SDK. | String|
+|Liveworkitem ID |msdyn_liveworkitemid|This context variable contains the conversation ID for the ongoing conversation and can be used to fetch and perform operations on the record in common data service.|String|
+|Authenticated chat 
+Record identification – Contact
+|msdyn_contact_msdyn_ocliveworkitem_Customer|This context variable contains the record ID for the customer (contact or account) record that is linked to the conversation. If this variable is set, the customer will be linked to the conversation post flush.|String|
+|Record identification – Case|msdyn_incident_msdyn_ocliveworkitem|This context variable contains the record ID for the case record that is linked to the conversation. If this variable is set, the case will be linked to the conversation post flush.|String|
+|Engagement Context |msdyn_msdyn_ocliveworkitem_msdyn_livechatengagementctx_liveworkitemid|These context variables contain information, such as the browser type and language that is passed when the conversation is initiated. |String|
+|||||
 
 ## Known limitations
 
