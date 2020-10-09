@@ -4,7 +4,7 @@ description: Overview of the productivity pane in Dynamics 365 Customer Service 
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 10/05/2020
+ms.date: 10/09/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: dyn365-customerservice
@@ -22,14 +22,16 @@ search.app:
 
 The productivity pane in the Customer Service workspace is an auxiliary work area that contains productivity tools that support or expedite an agent's tasks when resolving customer issues.
 
-For the Wave 2 2020 Early Access release, the productivity pane includes the **Smart assist** control, where agents can quickly view and interact with relevant AI-generated knowledge articles and similar cases suggestions for the case they are working on. Other productivity pane controls will be added in upcoming releases.
+Currently, the productivity pane includes controls to help agents quickly view and interact with relevant AI-generated knowledge articles and similar cases suggestions for the case they are working on, as well as agent scripts and macros.
 
 > [!Important]
 > The productivity pane only displays information (for example, knowledge article and similar case suggestions) for the first tab (referred to as the anchor tab) of an active case session.
 
-The productivity pane has two modes: expanded and collapsed. You can use the arrow to set the mode of the productivity pane, and the mode you choose is preserved in different sessions. For example, say in session A you expanded the pane, but while in session B, you collapsed it. When you switch from session A to session B, the pane mode changes from expanded to collapsed. Then if you switch back to session A, the pane is still in its expanded mode.
+![Productivity pane view](media/csw-productivity-pane-mode.png "View of the productivity pane")
 
-![Productivity pane mode](media/csw-productivity-pane-mode.png "View of the productivity pane")
+## Productivity pane modes
+
+The productivity pane has two modes: expanded and collapsed. Depending on which settings your administrator has configured, you can use the arrow to set the mode of the productivity pane, and the mode you choose is preserved in different sessions. For example, say in session A you expanded the pane, but while in session B, you collapsed it. When you switch from session A to session B, the pane mode changes from expanded to collapsed. Then if you switch back to session A, the pane is still in its expanded mode.
 
 Expanded mode:
 
@@ -39,18 +41,23 @@ Collapsed mode:
 
 ![Productivity pane collapsed view](media/csw-productivity-pane-collapsed-mode.png "View of the productivity pane mode in collapsed mode")
 
+Two things to keep in mind about the productivity pane modes:
+
+- The productivity pane stays collapsed for entities that don't have productivity controls configured to use it. For example, if you open an account record, which typically doesn't have smart assist or knowledge enabled for it, or if agent scripts or macros aren't enabled by your administrator, the pane remains collapsed.
+
+- The productivity pane places focus on the first control that has data for any entity. Typically, the order is smart assist, agent scripts and macros, and then knowledge controls. For example, if you open an account record that has only scripts configured, when the record opens, the productivity pane expands and the focus is on the agent scripts and macros. 
+
 ## Smart assist
 
-Smart assist is an intelligent assistant that is designed to help agents resolve customer issues quickly by providing real-time suggestions of the best course of actions to take while working on an assigned case. It shows relevant, AI-generated suggestions, such as knowledge articles and similar cases that match the context of the active case.
-
-In the Customer Service workspace application, **Smart assist** appears in the productivity pane on the right-hand side of the session.
-
-> [!Important]
-> For the preview release, the **productivity pane** is automatically enabled and will expand, showing the **Smart assist** tab whenever an active case is opened as a new session using the Shift+click action.
-
-![Smart assist tab](media/csw-smart-assist-tab.png "View of the Smart assist tab on the productivity pane")
+Smart assist is an intelligent assistant that provides real-time recommendations to help you take actions while interacting with customers. It allows organizations to build a custom bot and plug-in to their environment. These custom bots interpret conversations in real time and provide relevant recommendations such as knowledge articles, similar cases, and next-best steps to the agent's user interface..
 
 Smart assist displays the relevant suggestions as individual cards that are grouped as either **Knowledge article suggestions** or **Similar cases suggestions**. For more information, see [View AI-suggested similar cases and knowledge articles](csw-view-ai-suggested-cases-knowledge-articles.md).
+
+### Agent scripts and macros
+
+Agent scripts in Customer Service workspace help provide guidance for what you should do when they have a customer issue, and helps ensure that you share only accurate and company-endorsed information. These scripts help you to be accurate and effective while also being faster and more efficient in terms of customer handling. For more information, see [Overview of agent scripts](https://docs.microsoft.com/dynamics365/omnichannel/agent/agent-oc/oc-agent-scripts#overview-of-agent-scripts).
+
+A macro is a set of instructions that tells the system how to complete a task. When a macro runs, the system performs each instruction. Macros in agent scripts show a title, instruction that system performs, and the macro icon. For more information, see [Macro](https://docs.microsoft.com/dynamics365/omnichannel/agent/agent-oc/oc-agent-scripts#macro).
 
 ### See also
 
