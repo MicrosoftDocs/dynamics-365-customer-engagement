@@ -6,7 +6,7 @@ ms.author: ktaylor
 manager: shujoshi
 ms.topic: article
 ---
-# lcw:closeChat (Omnichannel for Customer Service JavaScript API reference)
+# lcw:onClose (Omnichannel for Customer Service JavaScript API reference)
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
