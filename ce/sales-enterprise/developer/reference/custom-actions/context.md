@@ -67,7 +67,7 @@ function OnRowLoad(executionContext) {
 
 **Example 2:**
 
-Let's create a JavaScript to disable all fields except few for Opportunity entity only. Also, the `onRowLoad` function is called for each row when the grid is loaded and saved successfully.
+Let's create a JavaScript to disable all fields except few for Opportunity entity only. Also, the `OnRowLoad` function is called for each row when the grid is loaded and saved successfully.
 
 ```JavaScript
 function OnRowLoad(executionContext) {
@@ -103,7 +103,7 @@ For an Opportunity entity, the script will disable the following:
 
 Similarly, the script will disable name column for Account entity and disable all columns for other entities.
 
-Also, the `onRowLoad` function is called for each row when the grid is loaded and saved successfully.
+Also, the `OnRowLoad` function is called for each row when the grid is loaded and saved successfully.
  
 
 ```JavaScript
@@ -241,3 +241,4 @@ function OnSave(executionContext){
 
 ### See also
 
+[Forecasting related events](forecasting-events.md)

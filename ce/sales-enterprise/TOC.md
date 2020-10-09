@@ -126,7 +126,7 @@
 #### [Add products to quotes, orders, or invoices](../sales-enterprise/add-product-quote-order-invoice.md)
 
 ### Sales forecasting
-#### [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)  
+#### [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting-events.md)  
 #### [View a forecast](view-forecasts.md)
 #### [View and manage underlying opportunities](view-and-manage-underlying-opportunities.md)
 #### [Adjust values in a forecast](adjust-values-in-forecast.md)
@@ -236,13 +236,12 @@
 
 ### Custom actions
 #### [Overview](../sales-enterprise/developer/reference/custom-actions-manual-forecasting.md)
-#### [context](../sales-enterprise/developer/reference/custom-actions/context.md)
+#### [Context object for event handlers in editable grid](../sales-enterprise/developer/reference/custom-actions/context.md)
 #### [DeleteOQOILineWithSkipPricingCalculation](../sales-enterprise/developer/reference/custom-actions/deleteoqoilinewithskippricingcalculation.md)
 #### [exportPdf action](../sales-enterprise/developer/exportpdf-api.md)
 
 ### Events
-#### [onRowLoad](../sales-enterprise/developer/reference/events/onRowLoad.md)
-#### [onSave](../sales-enterprise/developer/reference/events/onSave.md)
+#### [Forecasting related events](../sales-enterprise/developer/reference/events/forecasting-events.md)
 
 ### Entity reference
 #### [Account](../customerengagement/on-premises/developer/entities/account.md)
