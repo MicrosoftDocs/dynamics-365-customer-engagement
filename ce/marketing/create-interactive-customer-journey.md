@@ -28,8 +28,8 @@ In [Create a simple customer journey with email messaging](create-simple-custome
 
 1. Go to **Marketing** > **Marketing Execution** > **Marketing Emails** and create a new email message like the one you made in [Create a marketing email and go live](create-marketing-email.md). Be sure to include all the minimum requirements&mdash;name, subject, from-contact, subscription center link, and sender physical address—but don't go live yet.
 
-    > [!TIP]
-    > Consider choosing a non-blank email template this time. These templates not only have sample content, graphics, and column layouts, but also include all mandatory elements such as the subscription center link and physical address.
+> [!TIP]
+> Consider choosing a non-blank email template this time. These templates not only have sample content, graphics, and column layouts, but also include all mandatory elements such as the subscription center link and physical address.
 
 1. This message will invite recipients to pick up a free download from your website. To get the free download, they'll need to visit the landing page, submit a form, and then wait for a follow-up email that contains the download link. (The message content would normally explain all of this, but for this exercise it's not necessary.) With your new email message still open, drag a **Marketing Page** design element from the **Toolbox** onto the design canvas.
   
