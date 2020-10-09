@@ -53,7 +53,7 @@ Smart assist is an intelligent assistant that provides real-time recommendations
 
 Smart assist displays the relevant suggestions as individual cards that are grouped as either **Knowledge article suggestions** or **Similar cases suggestions**. For more information, see [View AI-suggested similar cases and knowledge articles](csw-view-ai-suggested-cases-knowledge-articles.md).
 
-### Agent scripts and macros
+## Agent scripts and macros
 
 Agent scripts in Customer Service workspace help provide guidance for what you should do when they have a customer issue, and helps ensure that you share only accurate and company-endorsed information. These scripts help you to be accurate and effective while also being faster and more efficient in terms of customer handling. For more information, see [Overview of agent scripts](https://docs.microsoft.com/dynamics365/omnichannel/agent/agent-oc/oc-agent-scripts#overview-of-agent-scripts).
 
