@@ -3,7 +3,7 @@ title: "Get started with the Field Service (Dynamics 365) mobile app | Microsoft
 description: Learn how to get started with the Field Service (Dynamics 365) mobile app.
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 08/28/2020
+ms.date: 10/09/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
