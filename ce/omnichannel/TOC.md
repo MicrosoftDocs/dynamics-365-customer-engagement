@@ -423,6 +423,11 @@
 #### [lcw:error](developer/reference/events/lcw-error.md)
 #### [lcw:threadUpdate](developer/reference/events/lcw-threadUpdate.md)
 #### [lcw:closeChat](developer/reference/events/lcw-closeChat.md)
+#### [lcw:onMessageReceived](developer/reference/events/lcw-onmessagereceived.md)
+#### [lcw:onMessageSent](developer/reference/events/lcw-onmessagesent.md)
+#### [lcw:onMinimize](developer/reference/events/lcw-onminimize.md)
+#### [lcw:onMaximize](developer/reference/events/lcw-onmaximize.md)
+#### [lcw:onClose](developer/reference/events/lcw-onclose.md)
 #### [Error code reference](developer/reference/error-code-reference.md)
 
 ### Omnichannel JavaScript API Reference
