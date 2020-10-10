@@ -2,7 +2,7 @@
 title: Update release schedule for Project Service 3.x
 description: This topic provides information about the available and upcoming releases of Dynamics 365 Project Service Automation.
 ms.custom: dyn365-projectservice
-ms.date: 09/18/2020
+ms.date: 10/09/2020
 ms.reviewer: kfend
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -50,10 +50,10 @@ For information about updates to Project Service, see the [Dynamics 365 release 
 | | <i>South Africa</i> | [3.10.42.43](whats-new-ur-24.md) | TBD | October 30, 2020
 | | <i>Germany</i> | [3.10.42.43](whats-new-ur-24.md) | TBD | October 30, 2020
 |<strong>Station 3</strong> | |  |  | |
-| | <i>Japan</i> |[3.10.34.30](whats-new-ur-23.md) | [3.10.42.43](whats-new-ur-24.md) | October 9, 2020 
-| | <i>Asia Pacific</i> |[3.10.34.30](whats-new-ur-23.md) | [3.10.42.43](whats-new-ur-24.md) | October 9, 2020
-| | <i>Great Britain</i> |[3.10.34.30](whats-new-ur-23.md) | [3.10.42.43](whats-new-ur-24.md) | October 9, 2020
-| | <i>Oceana</i> |[3.10.34.30](whats-new-ur-23.md) | [3.10.42.43](whats-new-ur-24.md) | October 9, 2020
+| | <i>Japan</i> | [3.10.42.43](whats-new-ur-24.md) | TBD | November 6, 2020
+| | <i>Asia Pacific</i> | [3.10.42.43](whats-new-ur-24.md) | TBD | November 6, 2020
+| | <i>Great Britain</i> | [3.10.42.43](whats-new-ur-24.md) | TBD | November 6, 2020
+| | <i>Oceana</i> | [3.10.42.43](whats-new-ur-24.md) | TBD | November 6, 2020
 |<strong>Station 4</strong> | |  |  | |
 | | <i>Europe</i> |[3.10.34.30](whats-new-ur-23.md) | [3.10.42.43](whats-new-ur-24.md) | October 16, 2020
 |<strong>Station 5</strong> | |  |  | |
