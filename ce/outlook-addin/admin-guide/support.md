@@ -52,8 +52,8 @@ This topic contains links to information about the supported software requiremen
  The advanced find query on mailboxes should filter on whether the mailbox has Microsoft Dynamics 365 for Outlook as the synchronization method for **Incoming email** or **Outgoing email** or **Appointments**, **Contacts**, and **Tasks**. 
 Subsequently, you should filter out **Owning User (User)**, if it contains data and if the **Access Mode** is not configured to **Support User** or **Delegated Admin**.
 
-
- The screenshot illustrates the filter criteria.
+1. On the command bar, the select **Advanced Find** button ![Advanced find button](../media/advanced_filter_icon.png "Advanced find button").
+2. The screenshot illustrates the filter criteria.
 
    > [!div class="mx-imgBorder"] 
    > ![Filter criteria](../media/addin_filter.jpg "Filter criteria")

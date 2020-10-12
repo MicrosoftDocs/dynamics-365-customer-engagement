@@ -65,7 +65,7 @@ search.app:
 <li><a href="create-marketing-email.md" data-raw-source="[Create a marketing email and go live](create-marketing-email.md)">Create a marketing email and go live</a></li>
 <li><a href="create-simple-customer-journey.md" data-raw-source="[Create a simple customer journey with email messaging](create-simple-customer-journey.md)">Create a simple customer journey with email messaging</a></li>
 <li><a href="create-landing-page.md" data-raw-source="[Create a landing page with a form](create-landing-page.md)">Create a landing page with a form</a></li>
-<li><a href="create-interactive-customer-journey.md" data-raw-source="[Create an interactive customer journey with triggers and signup](create-interactive-customer-journey.md)">Create an interactive customer journey with triggers and signup</a></li>
+<li><a href="create-interactive-customer-journey.md" data-raw-source="[Create an interactive customer journey with conditions and signup](create-interactive-customer-journey.md)">Create an interactive customer journey with conditions and signup</a></li>
 <li><a href="set-up-lead-scoring.md" data-raw-source="[Set up automatic lead generation and scoring](set-up-lead-scoring.md)">Set up automatic lead generation and scoring</a></li>
 
 </td><td>
