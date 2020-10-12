@@ -4,7 +4,7 @@ description: "Learn what the conversation states are in Omnichannel."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/09/2020
+ms.date: 10/12/2020
 ms.service: 
   "dynamics-365-customerservice"
 ms.topic: article
@@ -14,20 +14,15 @@ ms.topic: article
 
 [!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
-This topic explains the various states of the conversation (work item) in Omnichannel for Customer Service.
+This topic explains the various states and status reasons of the conversation (work item) in Omnichannel for Customer Service.
 
-The conversation states are as follows:
+The conversation can be in an open or closed state and can have the following status reasons:
 
- - [Open](#open)
- - [Closed](#closed)
-
-A conversation can have the following status reasons:
-
-- Open
+- [Open](#open)
 - [Active](#active)
 - [Waiting](#waiting)
 - [Wrapup](#wrap-up)
-- Closed
+- [Closed](#closed)
 
 > [!NOTE]
 > Additionally, the conversation might have the resolved or scheduled status reason, which is for internal use only.
