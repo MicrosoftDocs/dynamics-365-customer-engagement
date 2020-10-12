@@ -59,7 +59,7 @@ In Omnichannel for Customer Service, macros provide three connectors:
 
 - [Omnichannel connector](#omnichannel-connector): Provides actions to perform Omnichannel for Customer Service&ndash;related operations.
 
-- [Flow connector](#flow-connector): Provides actions to run Power Automate flows from within agent scripts in Omnichannel for Customer Service.
+- [Flow connector](#flow-connector): Provides an action to run Power Automate flows from within agent scripts in Omnichannel for Customer Service.
 
 ### Productivity automation
 
