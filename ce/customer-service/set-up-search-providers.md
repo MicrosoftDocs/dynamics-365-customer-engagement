@@ -77,7 +77,8 @@ After you have configured the search providers, agents who are using search can 
    
 For more information about the agent search experience, see [Search for knowledge articles in the Customer Service Hub](search-knowledge-articles-csh.md).
 
-> [!Note:] 
+> [!NOTE]
+>
 > Custom roles must have read access to the following entities in order to see search results from other search providers:
 > - Knowledge Federated Article
 > -	Knowledge FederatedArticle Incident
