@@ -1,27 +1,26 @@
 ---
-title: View and understand Customer Service analytics and insights in Customer Service Hub | Microsoft Docs
+title: Insights dashboard overview | Microsoft Docs
 description: Dashboards and reports provide historical operational metrics and KPIs to manage contact centers.
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/03/2020
+ms.date: 10/12/2020
 ms.topic: article
 ms.service: 
-  - dynamics-365-customerservice
+  dynamics-365-customerservice
 ms.custom: 
-  - dyn365-customerservice
+  dyn365-customerservice
 search.audienceType: 
-  - admin
-  - customizer
-  - enduser
+  admin
+  customizer
+  enduser
 search.app: 
-  - D365CE
-  - D365CS
+  D365CE
+  D365CS
+  
 ---
 
-# Preview: View and understand Customer Service analytics and insights
-
-[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+# View and understand Customer Service analytics and insights
 
 ## Customer Service analytics reports
 
@@ -124,9 +123,7 @@ The Customer Service Analytics reports are supported in the following regions:
 
 Dynamics 365 Customer Service Insights gives you actionable insights into critical performance metrics, operational data, and emerging trends from your customer service system. Built-in dashboards, interactive charts, and visual filters provide views into support operations data across channels, and highlight areas for improvement that can have the greatest impact, helping you quickly evaluate and respond to KPIs and customer satisfaction levels. More information: [Customer Service Insights](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/overview)
 
-## Preview: Use the Customer Service Insights reports in Customer Service Hub
-
-[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+## Use the Customer Service Insights reports in Customer Service Hub
 
 ### Create and view reports
 
