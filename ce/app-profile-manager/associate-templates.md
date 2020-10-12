@@ -4,19 +4,13 @@ description: "Learn how to associate templates with work streams in the Omnichan
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 09/07/2020
+ms.date: 10/12/2020
 ms.service: 
    "dynamics-365-customerservice"
 ms.topic: article
 ---
 
-# Preview: Associate templates with work streams
-
-[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
-
-After creating the session, notification, and application tab templates, you must associate them with a work stream so that the Omnichannel system uses the corresponding templates for an incoming conversation.
-
-After an agent accepts the conversation request, a session starts for which the session template is used. In the session, certain application tabs are required such as dashboard, knowledge article search, case pages, and so on. These application tabs are configured using the application tab templates and are associated with a session.
+# Associate templates with work streams
 
 ## Attach templates in work streams
 
