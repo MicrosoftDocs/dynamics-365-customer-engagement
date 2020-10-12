@@ -6,7 +6,7 @@ ms.author: nenellim
 manager: shujoshi
 applies_to: 
   - ""
-ms.date: 10/06/2020
+ms.date: 10/12/2020
 ms.service: 
    "dynamics-365-customerservice"
 ms.topic: article
@@ -22,8 +22,7 @@ Sound notifications for incoming conversation requests, such as live chat, that 
 
 > [!IMPORTANT]
 >
-> - In preview mode, you can enable sound notifications on a trial instance or your current instance only if you have not [opted in to early access updates](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates).
-> - Make sure that the browser settings allow sounds to be played. In Microsoft Edge, sound is allowed by default. For information on how to enable sound notifications for browsers, see the browser-specific documentation.
+> Make sure that the browser settings allow sounds to be played. In Microsoft Edge, sound is allowed by default. For information on how to enable sound notifications for browsers, see the browser-specific documentation.
 
 ## Enable sound notifications
 
