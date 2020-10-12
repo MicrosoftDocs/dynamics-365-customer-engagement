@@ -25,7 +25,7 @@ search.audienceType:
 
 # Create a site map for an app using the site map designer
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Create a model-driven app site map using the site map designer](/powerapps/maker/model-driven-apps/create-site-map-app)
 
 Site maps define the navigation for your app. Create a site map for your app with ease by using the tile-based site map designer. Use the designer to drag components onto the design canvas, preview your work, and instantly publish the site map. Administrators and any user with the required privileges can quickly create site maps for apps.  
   
