@@ -10,11 +10,9 @@ ms.service:
 ms.topic: article
 ---
 
-# Preview: Enable conversations to be assigned automatically
+# Enable conversations to be assigned automatically
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
-
-[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
 ## Introduction
 

@@ -1,10 +1,10 @@
 ---
 title: "WhatsApp channel agent experience in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about WhatsApp channel through Twilio agent experience in Omnichannel for Customer Service."
-author: kabala123
-ms.author: kabala
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
-ms.date: 04/06/2020
+ms.date: 10/12/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -13,13 +13,6 @@ ms.topic: article
 # Use WhatsApp channel
 
 [!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
-
-[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
-
-> [!IMPORTANT]
-> - A preview is a feature that is not complete, as it may employ reduced privacy, security, and/or compliance commitments, but is made available before it is officially released for general availability so customers can get early access and provide feedback. Previews are provided “as-is,” “with all faults,” “as available,” and without warranty.​
-> - This preview feature does not come with technical support and Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.​
-> - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk.  All previews are subject to separate [Terms and Conditions](../../../legal/dynamics-insider-agreement.md).
 
 ## WhatsApp channel overview
 
@@ -73,6 +66,6 @@ In Omnichannel for Customer Service, you can:
 - **24 hours session rule**: A messaging session starts when you receive a message from a customer or reply to an incoming message from a customer. When the customer sends a message, you have 24 hours to reply to the customer from the time you received it. However, after 24 hours, if you try to send a message to the customer, an error is displayed: **This conversation has exceeded the 24 hour limit to respond to the customer.**
 
 
-## See also
+### See also
 
 [Configure a WhatsApp channel](../../administrator/configure-whatsapp-channel.md)

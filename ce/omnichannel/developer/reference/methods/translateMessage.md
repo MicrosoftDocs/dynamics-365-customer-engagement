@@ -8,11 +8,9 @@ ms.date: 08/05/2020
 ms.topic: article
 ---
 
-# Preview: translateMessage
+# translateMessage
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
-
-[!include[cc-beta-prerelease-disclaimer](../../../../includes/cc-beta-prerelease-disclaimer.md)]
 
 This method is called for every conversation message exchanged between the customer and the agent, if translation is on and if the message has not been translated earlier.
 

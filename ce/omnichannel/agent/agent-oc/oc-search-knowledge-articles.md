@@ -23,14 +23,14 @@ Omnichannel for Customer Service enables you to use the rich knowledge base so y
 You can launch Knowledge Search in the following ways:
 
 - Productivity pane.
-- Application tab menu.
 - Communication panel.
 
 ## Knowledge tab on productivity pane
 
 ### Prerequisites
 
-The productivity pane and knowledge base search must be enabled in app profile manager. 
+- The productivity pane and knowledge base search must be enabled in app profile manager.
+- The anchor tab should be a case or conversation for the knowledge pane to be displayed.
 
 ### Use the knowledge pane to search for articles
 
@@ -95,28 +95,19 @@ The knowledge base search control provides sort the knowledge articles interacti
 - Last modified date (newest first) 
 - Last modified date (oldest first)
 
-## Launch knowledge articles from the application tab menu
+## Launch the knowledge articles search from the communication panel
 
-When working on a session, you can use the **+** button on the application table panel to launch **Knowledge Articles**. 
+When you interact with a customer in the conversation control, you can use the **Knowledge articles** option to launch the **Knowledge articles** tab. Then you can search and share the knowledge articles.
 
-1. Select the + button in the application tab panel.
-2. From the menu, select **Knowledge articles**. The KB Search opens as a new tab in the application tab panel.
-3. Search for the KB articles and view.
-4. Select **Send Link** to share the KB article with the customer.
-
-## Launch the KB Search from the communication panel
-
-When you interact with a customer in the conversation control, you can use the **Knowledge articles** option to launch the **KB Search** tab. Then you can search and share the KB articles.
-
-1. Select the KB Search option in the communication panel. The KB Search tab opens in the application tab panel.
-2. Search for the KB articles and view.
+1. Select the Knowledge Articles option in the communication panel. The Knowledge article tab opens in the application tab panel.
+2. Search for the knowledge articles and view.
 3. Select **Send Link**. The link is displayed in the message area of the communication panel.
 4. Select **Send** in the communication panel.
 
 ### See also
 
-- [Take notes specific to conversation](oc-take-notes.md)
-- [View communication panel](oc-conversation-control.md)
-- [Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md)
-- [View conversation and session activity types in the model-driven apps](oc-view-activity-types.md)
-- [View customer summary](oc-customer-summary.md)
+[Take notes specific to conversation](oc-take-notes.md)  
+[View communication panel](oc-conversation-control.md) 
+[Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md)  
+[View conversation and session activity types in the model-driven apps](oc-view-activity-types.md)  
+[View customer summary](oc-customer-summary.md)  
