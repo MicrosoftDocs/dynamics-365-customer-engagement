@@ -4,7 +4,7 @@ description: Create personal quick replies in Omnichannel for Customer Service
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 08/14/2020
+ms.date: 10/12/2020
 ms.topic: article
 ms.service: 
   dynamics-365-customerservice
@@ -17,11 +17,9 @@ search.app:
   - D365CS
 ---
 
-# Preview: Create personal quick replies
+# Create personal quick replies
 
 [!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
-
-[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
 ## Introduction
 
