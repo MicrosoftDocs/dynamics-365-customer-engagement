@@ -2,7 +2,7 @@
 title: "Guide your prospects through an interactive customer journey (Dynamics 365 Marketing) | Microsoft Docs "
 description: "How to create a customer journey by assembling a pipeline of automated communications, activities, and conditional pathways in Dynamics 365 Marketing"
 keywords: customer journey; campaign; email; segment; go live; pipeline
-ms.date: 10/05/2020
+ms.date: 10/08/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -28,7 +28,7 @@ Dynamics 365 Marketing can help you visualize and automate the journey that cust
 
 Dynamics 365 Marketing provides a graphical journey modeler that works like a simple board game. Each contact starts on the first square (by becoming part of a target segment), and then progresses through one square at a time, with each square representing a marketing initiative, decision point, or internal action item.
 
-![An example of a customer journey](media/customer-journey-full2.png "An example of a customer journey")
+![An example of a customer journey](media/customer-journey-full3.png "An example of a customer journey")
 
 The previous figure shows how a simple customer journey might look. A more complex example could work like this:
 
@@ -54,7 +54,7 @@ To create a new journey, select **New** on the command bar.
 
 When you create a new customer journey, you'll first be presented with a list of customer journey templates, which can help you get started quickly. The **Customer journey templates** dialog box provides a categorized overview of templates and a search form to help you find the one you're looking for. Each template represents a particular type of campaign and includes a pre-configured pipeline and a few related settings that will help you create a customer journey of the selected type.
 
-![Select a Journey Template dialog](media/customer-journey-template2.png "Select a journey template")
+![Select a Journey Template dialog](media/customer-journey-template.png "Select a journey template")
 
 You can also choose to start from scratch instead of using a template. The pipelines provided by a template represent the form and logic of your campaign, but you'll still need to configure the various tiles by&mdash;for example&mdash;assigning the specific marketing email message that should be sent by each email tile.
 
@@ -74,13 +74,12 @@ The first tile in the pipeline establishes the target audience for the customer 
 
 After you establish the target audience, most tiles provide features such as those illustrated in the following figure.
 
-![Features of a customer-journey tile](media/customer-journey-tile-features.png "Features of a customer-journey tile")
+![Features of a customer-journey tile](media/customer-journey-tile-features2.png "Features of a customer-journey tile")
 
 Legend:
 
 1. **Tile type**: Shows what type of tile it is ("Send an email," "Wait for," "Phone call," and so on). The icon inside the tile also indicates the tile type.
 1. **Entity name**: Shows the name assigned to a selected entity, for example, the name of the email ("Contoso Chairs").
-1. **Tile status**: Shows key statistics about the tile, such as how many contacts are waiting here or how many messages it has sent so far. The information shown varies by tile type. This information only displays when a customer journey is live.
 1. **Tile configuration status**: Shows if the tile is configured already or not. The unconfigured status is indicated by a white-colored tile with a call to action (for example, "Choose an email"). A configured status is indicated by a colored tile with the selected entity name.
 
 > [!NOTE]

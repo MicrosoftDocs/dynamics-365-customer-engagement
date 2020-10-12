@@ -112,8 +112,8 @@
 ### [App profile manager](../app-profile-manager/overview.md)
 
 ### Supervisor Experience
-#### [Configure to view Intraday insights](administrator/configure-intraday-dashboard-supervisor.md)
-#### [Customize KPIs for Intraday insights](administrator/customize-kpis-intraday-insights.md)
+#### [Configure intraday insights](administrator/configure-intraday-dashboard-supervisor.md)
+#### [Customize KPIs for intraday insights](administrator/customize-kpis-intraday-insights.md)
 #### [Provide access to Ongoing Conversations dashboard](administrator/configure-ongoing-conversations-dashbaord.md)
 
 #### [Analyze real-time customer sentiment](administrator/enable-sentiment-analysis.md)

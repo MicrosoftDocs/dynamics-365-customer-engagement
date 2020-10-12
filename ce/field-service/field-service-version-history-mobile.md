@@ -214,11 +214,28 @@ Mobile projects hold configurations and customizations of the Field Service Mobi
 
 To learn more about mobile projects, see our topic on [installing the Field Service Mobile Configuration Tool](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/install-field-service#install-the-field-service-mobile-configuration-tool).
 
+
+## 1.0.5912
+
+| Download link | Release date | Relates to Field Service Mobile version | Publish to Woodford version | Minimum Field Service version |
+| --- | --- | --- | --- | --- |
+| [1.0.5912](https://aka.ms/fsmobile-project)  |  October 2020  |  12.1+ | 12.1+ | 8.8.30 | 
+
+Features
+- Inspections support on Field Service Mobile
+- Functional Location support on Field Service Mobile
+- Asset properties support on Field Service Mobile
+
+Bug Fixes:
+- Travel calculation corrected in scenarios where actual arrival time is late
+- Added defensive checks to prevent creating duplicate timestamps
+
+
 ## 1.0.4847
 
 | Download link | Release date | Relates to Field Service Mobile version | Publish to Woodford version | Minimum Field Service version |
 | --- | --- | --- | --- | --- |
-| [1.0.4847](https://aka.ms/fsmobile-project)  |  June 2020  |  12.1+ | 12.1+ | 8.8.14 | 
+| [1.0.4847](https://aka.ms/fsmobile-project-4847)  |  June 2020  |  12.1+ | 12.1+ | 8.8.14 | 
 
 - Added support for Dynamics 365 Remote Assist deep link on iOS.
 - Bug fix to populate fields from service account when creating a new work order associated with that service account.
