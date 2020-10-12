@@ -291,9 +291,9 @@ This action is used to trigger Power Automate flows using macros in agent script
 
 | Field                | Description                             | Parameter  |
 |----------------------|-----------------------------------------|------------|
-| Entity logical name	 | Specify the logical name of the entity that you want to link. This is a mandatory field. Any CDS entity, e.g. Account, can be used based on business needs. |  &nbsp;   |
-| Entity record id     | Specify the entity record ID of the entity that you want to link. This is a mandatory field. Ids or slugs, e.g. {customerRecordId}, can be used. While this field is labeled as entity record id, any value to be processed can be passed. While the field is required, values do not have to be functional unless required for the flow logic. |  &nbsp;    |
-| Select flow	         | Specify the Power Automate flow to be run by this action. When a record is created, updated, deleted, or selected, e.g. *When a record is selected*, flow triggers of type *instant*, are supported. | &nbsp;  |
+| Entity logical name	 | Specify the logical name of the entity that you want to link. This is a mandatory field. Any CDS entity, e.g. Account, can be used based on business needs. | Account   |
+| Entity record id     | Specify the entity record ID of the entity that you want to link. This is a mandatory field. Ids or slugs, e.g. {customerRecordId}, can be used. While this field is labeled as entity record id, any value to be processed can be passed. While the field is required, values do not have to be functional unless required for the flow logic. | {customerRecordId}   |
+| Select flow	         | Specify the Power Automate flow to be run by this action. When a record is created, updated, deleted, or selected, e.g. *When a record is selected*, flow triggers of type *instant*, are supported. |    |
 
 #### Power Automate flow permissions
 
