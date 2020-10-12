@@ -4,7 +4,7 @@ description: "How to configure intraday insights for Unified Service Desk and Om
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 08/03/2020
+ms.date: 10/12/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -21,7 +21,7 @@ Supervisors have a dual responsibility with respect to agents and customers. T
 
 You can use intraday insights in the following ways: 
 
-- (Preview feature) As a preconfigured Power BI workspace that doesn't require a Power BI license; intraday insights can’t be customized. **Note**: The preconfigured Power BI workspace version of intraday insights is only available for organizations that are provisioned in a public cloud and isn't available in Unified Service Desk (USD). 
+- As a preconfigured Power BI workspace that doesn't require a Power BI license; intraday insights can’t be customized. **Note**: The preconfigured Power BI workspace version of intraday insights is only available for organizations that are provisioned in a public cloud and isn't available in Unified Service Desk (USD). 
 
 - Using a Power BI Pro or Power BI Premium license for supervisors and administrators; intraday insights can be customized. 
 
