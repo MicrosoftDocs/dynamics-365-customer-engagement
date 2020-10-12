@@ -29,6 +29,7 @@
 ### [Delete solutions](administrator/delete-solution.md)
 ### [Integrate an Azure bot](administrator/configure-bot.md)
 ### [Integrate a Power Virtual Agents bot](administrator/configure-bot-virtual-agent.md)
+### [Context variables for a bot](administrator/context-variables-for-bot.md)
 
 ### Channels
 #### [Overview of channels](administrator/channels.md)
@@ -41,7 +42,7 @@
 ##### [Configure a pre-chat survey](administrator/configure-pre-chat-survey.md)
 ##### [Automatically identify customers](administrator/record-identification-rule.md)
 ##### [Configure file attachment capability](administrator/configure-file-attachment.md)
-##### [Embed chat widget in Power Apps portals](administrator/embed-chat-widget-portal.md)
+##### [Embed chat widget in portals](administrator/embed-chat-widget-portal.md)
 ##### [Configure proactive chat](administrator/proactive-chat.md)
 ##### [Configure reconnection to a previous chat session](administrator/configure-reconnect-chat.md)
 #### SMS channels
@@ -112,8 +113,8 @@
 ### [App profile manager](../app-profile-manager/overview.md)
 
 ### Supervisor Experience
-#### [Configure to view Intraday insights](administrator/configure-intraday-dashboard-supervisor.md)
-#### [Customize KPIs for Intraday insights](administrator/customize-kpis-intraday-insights.md)
+#### [Configure intraday insights](administrator/configure-intraday-dashboard-supervisor.md)
+#### [Customize KPIs for intraday insights](administrator/customize-kpis-intraday-insights.md)
 #### [Provide access to Ongoing Conversations dashboard](administrator/configure-ongoing-conversations-dashbaord.md)
 
 #### [Analyze real-time customer sentiment](administrator/enable-sentiment-analysis.md)
@@ -275,6 +276,7 @@
 #### [Initiate a chat](developer/how-to/initiate-chat-wait-time.md)
 #### [Start chat proactively](developer/how-to/start-proactive-chat.md)
 #### [Enable a bot to escalate and end conversation](developer/bot-escalate-end-conversation.md)
+#### [Enable bot context](developer/how-to/enable-bot-context.md)
 #### [Auto-close a conversation](developer/auto-close-conversation.md)
 #### [Render live chat widget on mobile app](developer/how-to/render-live-chat-widget-mobile.md)
 #### [Download attachments from your Azure bot](developer/download-attachments-bot.md)
@@ -414,6 +416,7 @@
 ##### [startProactiveChat](developer/reference/methods/startProactiveChat.md)
 ##### [closeChat](developer/reference/methods/closeChat.md)
 ### Real time translation JavaScript API Reference
+#### [translationprovider](developer/reference/methods/getTranslationProvider.md)
 #### [initializeNewConversation](developer/reference/methods/initializeNewConversation.md)
 #### [translateMessage](developer/reference/methods/translateMessage.md)
 ### Events
@@ -422,7 +425,21 @@
 #### [lcw:error](developer/reference/events/lcw-error.md)
 #### [lcw:threadUpdate](developer/reference/events/lcw-threadUpdate.md)
 #### [lcw:closeChat](developer/reference/events/lcw-closeChat.md)
-### [Error code reference](developer/reference/error-code-reference.md)
+#### [lcw:onMessageReceived](developer/reference/events/lcw-onmessagereceived.md)
+#### [lcw:onMessageSent](developer/reference/events/lcw-onmessagesent.md)
+#### [lcw:onMinimize](developer/reference/events/lcw-onminimize.md)
+#### [lcw:onMaximize](developer/reference/events/lcw-onmaximize.md)
+#### [lcw:onClose](developer/reference/events/lcw-onclose.md)
+#### [Error code reference](developer/reference/error-code-reference.md)
+
+### Omnichannel JavaScript API Reference
+#### [Overview](developer/omnichannel-api-reference.md)
+#### [Methods]()
+##### [getConversationID](developer/reference/methods/getConversationId.md)
+##### [linkToConversation](developer/reference/methods/linkToConversation.md)
+##### [unlinkFromConversation](developer/reference/methods/unlinkFromConversation.md)
+
+
 
 ### [runMacro](developer/reference/methods/runMacro.md)
 

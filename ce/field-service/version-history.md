@@ -43,32 +43,38 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 |Station | Region | Current version | Next version |  Scheduled date
 |------| -------|-------|-----|------|         
 |<strong>Station 1</strong> | |  |  | |
-| | <i>First Release</i> |  [8.8.26.24](https://docs.microsoft.com/dynamics365/field-service/version-history#882624)| [8.8.30.103](https://docs.microsoft.com/dynamics365/field-service/version-history#8830103) | 10/02/2020
+| | <i>First Release</i> | [8.8.30.103](https://docs.microsoft.com/dynamics365/field-service/version-history#8830103) | TBD | 10/23/2020
 |<strong>Station 2</strong> | |  |  | |
-| | <i>South America</i> |  [8.8.26.24](https://docs.microsoft.com/dynamics365/field-service/version-history#882624)| [8.8.30.103](https://docs.microsoft.com/dynamics365/field-service/version-history#8830103) | 10/02/2020
-| | <i>Canada</i> | [8.8.26.24](https://docs.microsoft.com/dynamics365/field-service/version-history#882624)| [8.8.30.103](https://docs.microsoft.com/dynamics365/field-service/version-history#8830103) | 10/02/2020
-| | <i>India</i> | [8.8.26.24](https://docs.microsoft.com/dynamics365/field-service/version-history#882624)| [8.8.30.103](https://docs.microsoft.com/dynamics365/field-service/version-history#8830103) | 10/02/2020
-| | <i>France</i> | [8.8.26.24](https://docs.microsoft.com/dynamics365/field-service/version-history#882624)| [8.8.30.103](https://docs.microsoft.com/dynamics365/field-service/version-history#8830103) | 10/02/2020
-| | <i>United Arab Emirates</i> |[8.8.26.24](https://docs.microsoft.com/dynamics365/field-service/version-history#882624)| [8.8.30.103](https://docs.microsoft.com/dynamics365/field-service/version-history#8830103) | 10/02/2020
-| | <i>South Africa</i> | [8.8.26.24](https://docs.microsoft.com/dynamics365/field-service/version-history#882624)| [8.8.30.103](https://docs.microsoft.com/dynamics365/field-service/version-history#8830103) | 10/02/2020
-| | <i>Germany</i> |[8.8.26.24](https://docs.microsoft.com/dynamics365/field-service/version-history#882624)| [8.8.30.103](https://docs.microsoft.com/dynamics365/field-service/version-history#8830103) | 10/02/2020
+| | <i>South America</i> | [8.8.30.103](https://docs.microsoft.com/dynamics365/field-service/version-history#8830103) | TBD | 10/30/2020
+| | <i>Canada</i> | [8.8.30.103](https://docs.microsoft.com/dynamics365/field-service/version-history#8830103) | TBD | 10/30/2020
+| | <i>India</i> | [8.8.30.103](https://docs.microsoft.com/dynamics365/field-service/version-history#8830103) | TBD | 10/30/2020
+| | <i>France</i> | [8.8.30.103](https://docs.microsoft.com/dynamics365/field-service/version-history#8830103) | TBD | 10/30/2020
+| | <i>United Arab Emirates</i> | [8.8.30.103](https://docs.microsoft.com/dynamics365/field-service/version-history#8830103) | TBD | 10/30/2020
+| | <i>South Africa</i> | [8.8.30.103](https://docs.microsoft.com/dynamics365/field-service/version-history#8830103) | TBD | 10/30/2020
+| | <i>Germany</i> | [8.8.30.103](https://docs.microsoft.com/dynamics365/field-service/version-history#8830103) | TBD | 10/30/2020
 |<strong>Station 3</strong> | |  |  | |
-| | <i>Japan</i> | [8.8.26.24](https://docs.microsoft.com/dynamics365/field-service/version-history#882624)| TBD | 10/09/2020
-| | <i>Asia Pacific</i>  |  [8.8.26.24](https://docs.microsoft.com/dynamics365/field-service/version-history#882624)| TBD | 10/09/2020
-| | <i>Great Britain</i>  |  [8.8.26.24](https://docs.microsoft.com/dynamics365/field-service/version-history#882624)| TBD | 10/09/2020
-| | <i>Oceana</i>  | [8.8.26.24](https://docs.microsoft.com/dynamics365/field-service/version-history#882624)| TBD | 10/09/2020
+| | <i>Japan</i> | [8.8.30.113](https://docs.microsoft.com/dynamics365/field-service/version-history#8830113) | TBD | 11/6/2020
+| | <i>Asia Pacific</i> | [8.8.30.113](https://docs.microsoft.com/dynamics365/field-service/version-history#8830113) | TBD | 11/6/2020
+| | <i>Great Britain</i> | [8.8.30.113](https://docs.microsoft.com/dynamics365/field-service/version-history#8830113) | TBD | 11/6/2020
+| | <i>Oceana</i> | [8.8.30.113](https://docs.microsoft.com/dynamics365/field-service/version-history#8830113) | TBD | 11/6/2020
 |<strong>Station 4</strong> | |  |  | |
-| | <i>Europe</i> | [8.8.26.24](https://docs.microsoft.com/dynamics365/field-service/version-history#882624)| TBD | 10/16/2020
+| | <i>Europe</i> | [8.8.26.24](https://docs.microsoft.com/dynamics365/field-service/version-history#882624)| [8.8.30.113](https://docs.microsoft.com/dynamics365/field-service/version-history#8830113) | 10/16/2020
 |<strong>Station 5</strong> | |  |  | |
-| | <i>North America</i> | [8.8.26.24](https://docs.microsoft.com/dynamics365/field-service/version-history#882624)| TBD | 10/23/2020
+| | <i>North America</i> | [8.8.26.24](https://docs.microsoft.com/dynamics365/field-service/version-history#882624)| [8.8.30.113](https://docs.microsoft.com/dynamics365/field-service/version-history#8830113) | 10/23/2020
 |<strong>Station 6</strong> | |  |  | |
-| | <i>Government Community Cloud</i> |  [8.8.26.24](https://docs.microsoft.com/dynamics365/field-service/version-history#882624)| TBD | 10/30/2020
-| | <i>China</i> | [8.8.26.24](https://docs.microsoft.com/dynamics365/field-service/version-history#882624)| TBD | 10/30/2020
-| | <i>Dedicated Scale Groups</i> | [8.8.26.24](https://docs.microsoft.com/dynamics365/field-service/version-history#882624)| TBD | 10/30/2020
+| | <i>Government Community Cloud</i> |  [8.8.26.24](https://docs.microsoft.com/dynamics365/field-service/version-history#882624)| [8.8.30.113](https://docs.microsoft.com/dynamics365/field-service/version-history#8830113) | 10/30/2020
+| | <i>China</i> | [8.8.26.24](https://docs.microsoft.com/dynamics365/field-service/version-history#882624)| [8.8.30.113](https://docs.microsoft.com/dynamics365/field-service/version-history#8830113) | 10/30/2020
+| | <i>Dedicated Scale Groups</i> | [8.8.26.24](https://docs.microsoft.com/dynamics365/field-service/version-history#882624)| [8.8.30.113](https://docs.microsoft.com/dynamics365/field-service/version-history#8830113) | 10/30/2020
 
 >[!Note]
 > - Dates in all regions except Government Community Cloud (GCC) and China indicate the timing of the next automatic update. Dates in GCC and China indicate version availability; at this time, there is no automatic update for these regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
+
+## 8.8.30.113
+This is a hotfix on Field Service version [8.8.30.103](https://docs.microsoft.com/dynamics365/field-service/version-history#8830103).
+- Resolved an issue with agreement invoice setups introduced during early access that caused an error in the primary invoice date and invoice generation process, which could stop invoice generation from agreements.
+- Corrected a JavaScript error when trying to create a work order through the quick create form.
+- Resolved an issue with inspection name value being empty in the parsed inspection record tables.
 
 ## 8.8.30.103
 (Includes Universal Resource Scheduling version [3.12.31.50](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling#3123150))
@@ -84,6 +90,14 @@ This version introduces the [Field Service 2020 Wave 2](https://docs.microsoft.c
 - Enabled the "Customer Asset Quick Create" and "Asset Work Order Quick View Form" forms to be customizable; initially, they were released as non-customizable.
 - Corrected a problem that could present when bulk editing work order records.
 
+## 8.8.29.333 (2020 Wave 2 early access update)
+(Includes Universal Resource Scheduling version [3.12.30.11](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling#version-3123011-2020-wave-2-early-access-update-1))
+
+The release is only applied when an environment is opted into early access and introduces the [Field Service 2020 Wave 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/service/dynamics365-field-service/planned-features) new and updated features.
+
+In addition, this release includes the following changes:
+- Resolved an issue with agreement invoice setups introduced during early access that caused an error in the primary invoice date and invoice generation process which could stop invoice generation from agreements.
+
 ## 8.8.26.24
 (Includes Universal Resource Scheduling version [3.12.25.5](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling#312255)) 
 -	Corrected an issue where, under certain circumstances, the **Discount %** in work order product form is automatically cleared on save.
@@ -95,7 +109,7 @@ This version introduces the [Field Service 2020 Wave 2](https://docs.microsoft.c
 -	When using tab to navigate away from the **Estimate Total Amount** field on a work order service record after making an update, the system was inappropriately throwing the error "Enter an amount between $0.00 and $1,000,000,000.00."
 -	Corrected a bug where, when the work order service’s **Line Status** was changed from "Estimated" to "Used," the **Estimated Discount %** field was not getting copied to the **Discount %**.
 
-## 8.8.29.226 (2020 Wave 2 early access, update 1)
+## 8.8.29.226 (2020 Wave 2 early access update)
 (Includes Universal Resource Scheduling version [3.12.30.11](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling#version-3123011-2020-wave-2-early-access-update-1))
 
 The release is only applied when an environment is opted into early access and introduces the [Field Service 2020 Wave 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/service/dynamics365-field-service/planned-features) new and updated features.

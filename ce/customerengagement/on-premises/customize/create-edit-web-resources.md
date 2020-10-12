@@ -21,6 +21,8 @@ search.audienceType:
 ---
 # Create or edit web resources to extend an app
 
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Create or edit model-driven app web resources to extend an app](/powerapps/maker/model-driven-apps/create-edit-web-resources)
+
 Web resources are typically used by developers to extend an app using files that are used in web development. App users may need to manage web resources provided by a developer or designer.  
 
 > [!TIP]

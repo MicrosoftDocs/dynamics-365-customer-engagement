@@ -4,17 +4,15 @@ description: "Learn about managing notifications that are missed in Omnichannel 
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 07/20/2020
+ms.date: 10/12/2020
 ms.service:
-  - "dynamics-365-customerservice"
+  "dynamics-365-customerservice"
 ms.topic: article
 ---
 
-# Preview: Enable missed notifications
+# Enable missed notifications
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
-
-[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
 With the missed notifications feature, you can now choose to automatically set agent presence to inactive, so that no new tasks will be assigned when agents miss notifications for incoming chat requests. In addition to the status change, a message bar indicating that a notification has been missed will be displayed on the agent dashboard. Agents can reset their status by using the reset presence option that's displayed with the notification or by manually changing their status.
 

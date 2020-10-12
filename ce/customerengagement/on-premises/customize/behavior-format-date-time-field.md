@@ -20,7 +20,7 @@ search.audienceType:
 ---
 # Behavior and format of the Date and Time field
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Behavior and format of the date and time field](/powerapps/maker/portals/configure/behavior-format-date-time-field)
 
 In Dynamics 365 Customer Engagement (on-premises), the Date and Time data type is used in many system entity fields. For example, you can show when an account was last used in a marketing campaign or the date and time when a case was escalated. You can also create custom entities that include the date and time fields. Depending on what the field represents, you can choose several different field behaviors: **User Local**, **Date Only** or **Time-Zone Independent**.  
 
