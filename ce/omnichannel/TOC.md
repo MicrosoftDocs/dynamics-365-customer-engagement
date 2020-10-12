@@ -112,8 +112,8 @@
 ### [App profile manager](../app-profile-manager/overview.md)
 
 ### Supervisor Experience
-#### [Configure to view Intraday insights](administrator/configure-intraday-dashboard-supervisor.md)
-#### [Customize KPIs for Intraday insights](administrator/customize-kpis-intraday-insights.md)
+#### [Configure intraday insights](administrator/configure-intraday-dashboard-supervisor.md)
+#### [Customize KPIs for intraday insights](administrator/customize-kpis-intraday-insights.md)
 #### [Provide access to Ongoing Conversations dashboard](administrator/configure-ongoing-conversations-dashbaord.md)
 
 #### [Analyze real-time customer sentiment](administrator/enable-sentiment-analysis.md)
@@ -199,8 +199,8 @@
 
 ## System customizer guide
 ### [Overview](customizer/omnichannel-customizer.md)
-### Customize quick view forms for Customer summary
-#### [Overview](customizer/customize-customer-summary.md)
+### Customize Customer summary form
+#### [Overview of customer summary form](customizer/customize-customer-summary.md)
 #### [Customize quick view forms](customizer/customize-quick-view-form.md)
 
 ### [Customize the session forms](customizer/customize-session-form.md)

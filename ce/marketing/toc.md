@@ -21,7 +21,7 @@
 #### [Integrate Marketing with a CMS system or Dynamics 365 Portal](portal-optional.md)
 #### [Open the Power Platform admin center](power-platform-admin-center.md)
 #### [Re-run the Marketing setup wizard](re-run-setup.md)
-#### [Manage Marketing instances](manage-marketing-instances.md)
+#### [Manage Marketing environments](manage-marketing-environments.md)
 #### [Transfer data between instances](transfer-data.md)
 #### [Transfer customizations between instances](transfer-solution.md)
 #### [Tenant to tenant migration](tenant-to-tenant.md)
@@ -72,6 +72,7 @@
 ### Email administration
 #### [Best practices for email marketing](get-ready-email-marketing.md)
 #### [Email bounce categories](email-bounce-categories.md)
+#### [Dedicated vs shared IPs for email delivery](dedicated-vs-shared-ip.md)
 #### [Email policies and suspension standards](email-policies.md)
 
 ### Privacy and compliance
@@ -135,7 +136,7 @@
 #### [Create marketing forms](marketing-forms.md)
 #### [Use marketing forms for event registration](event-forms.md)
 #### [Enable prefilling for forms](form-prefill.md)
-#### [Integrate with landing pages on external websites](embed-forms.md)
+#### [Embed forms on external websites](embed-forms.md)
 #### [Create input fields for forms](marketing-fields.md)
 #### [Set up a subscription center](set-up-subscription-center.md)
 #### [Edit and resubmit form submissions](failed-submissions.md)
@@ -159,7 +160,6 @@
 #### [Use Customer Insights segments in Marketing](customer-insights-segments.md)
 
 ### Work with customer journeys
-#### [Preview: Create a customer journey using the new canvas experience](customer-journey.md)
 #### [Create automated campaigns with customer journeys](customer-journeys-create-automated-campaigns.md)
 #### [Export to Excel for further analysis](export-journey.md)
 #### [Set expiration dates for emails](email-expire.md)
@@ -184,7 +184,7 @@
 #### [Create and manage recurring events](event-recurring.md)
 #### [Create and use event templates](event-templates.md)
 #### [Event management dashboard](event-management-dashboard.md)
-#### [Preview: Set up a Microsoft Teams webinar](teams-webinar.md)
+#### [Set up a Microsoft Teams webinar](teams-webinar.md)
 #### [Set up a webinar](set-up-webinar.md)
 #### [Manage event sponsorships](manage-event-sponsorships.md)
 #### [Manage attendee logistics and accommodation](manage-event-logistic.md)
@@ -198,11 +198,11 @@
 
 ### Engage contacts with portals and surveys
 #### [Create interactive features with or without portals](portals.md)
-#### [Integrate Forms Pro with Dynamics 365 Marketing](forms-pro.md)
+#### [Integrate Dynamics 365 Customer Voice with Dynamics 365 Marketing](customer-voice.md)
 #### [Create and run online surveys](surveys.md)
 
 ### Marketing on social media
-#### [Early access: Schedule and post messages on social media](social-posting.md)
+#### [Schedule and post messages on social media](social-posting.md)
 #### [Marketing on LinkedIn with Dynamics 365](linkedin-overview.md)
 #### [LinkedIn Lead Gen integration](LinkedIn-Lead-Gen-integration.md)
 

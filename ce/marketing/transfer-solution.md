@@ -12,7 +12,7 @@ author: alfergus
 ms.author: alfergus
 manager: shellyha
 ms.reviewer:
-topic-status: Drafting
+topic-status:
 search.audienceType: 
   - admin
   - customizer
@@ -26,7 +26,7 @@ search.app:
 
 Dynamics 365 is highly customizable. You can use its online tools to modify or create fields, entities, business processes, and more. Usually, you'll do your customization work on a sandbox instance, test them, and then transfer the final customizations to your production instances when they're ready. Best practices recommend that you proceed as follows:
 
-1. [Create a copy](manage-marketing-instances.md#copy-to-sandbox) of your current production instance onto a sandbox instance where you can work without affecting your ongoing operations.
+1. [Create a copy](manage-marketing-environments.md#copy-to-sandbox) of your current production instance onto a sandbox instance where you can work without affecting your ongoing operations.
 1. [Create a new managed solution](https://docs.microsoft.com/powerapps/maker/common-data-service/create-solution) on the sandbox and implement your customizations there. This lets you add customizations without affecting the underlying system, and you can revert your customizations at any time by removing the solution.
 1. Test the customized solution on your sandbox until you've confirmed it's working correctly.
 1. [Export](https://docs.microsoft.com/powerapps/maker/common-data-service/import-update-export-solutions) the custom solution from your sandbox and then [Import](https://docs.microsoft.com/powerapps/maker/common-data-service/import-update-export-solutions) it on your production instance.
@@ -43,31 +43,39 @@ To create a custom solution:
 
 1. Open the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**. The advanced-settings area then opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator.
 
-1. Navigate to **Settings** > **Customization** > **Solutions**. A list of existing solutions opens.    
+1. Navigate to **Settings** > **Customization** > **Solutions**. A list of existing solutions opens.
+
     ![The solutions list](media/solution-list.png "The solutions list")
 
 1. Select **New** on the command bar to create a new solution. 
 
-1. A new **Power Apps** window opens. Provide a **Display name**, **Name**, **Publisher**, and **Version** and then select **Save** on the command bar to save your solution.  
+1. A new **Power Apps** window opens. Provide a **Display name**, **Name**, **Publisher**, and **Version** and then select **Save** on the command bar to save your solution.
+ 
     ![The new solution form](media/solution-new-1.png "The new solution form")
 
-1. For this example, we're going to copy an existing entity and then customize it, so open the **Add Existing** drop-down list and select **Entity**.    
+1. For this example, we're going to copy an existing entity and then customize it, so open the **Add Existing** drop-down list and select **Entity**.
+
     ![Add an existing entity](media/solution-new-2.png "Add an existing entity")
 
-1. A dialog opens, showing all the available entities. Here you can add any number of entities to your new solution. For this example, just select the **Marketing form** check box and then select **OK** to add it to your solution.    
+1. A dialog opens, showing all the available entities. Here you can add any number of entities to your new solution. For this example, just select the **Marketing form** check box and then select **OK** to add it to your solution.
+
     ![Select the Marketing form entity](media/solution-new-3.png "Select the Marketing form entity")
 
-1. You're now asked to choose which aspects of the selected entity you'd like to include. In this case, we want to include everything related to marketing forms, so select the **Add all assets** check box and then select **Finish**.    
+1. You're now asked to choose which aspects of the selected entity you'd like to include. In this case, we want to include everything related to marketing forms, so select the **Add all assets** check box and then select **Finish**.
+
     ![Add all assets](media/solution-new-4.png "Add all assets")
 
-1. If your selected entity requires additional components, then you'll be asked whether to include them. Select **Yes, include required components** and then select **OK**.    
-    ![Add all assets](media/solution-new-5.png "Add all assets")
+1. If your selected entity requires additional components, then you'll be asked whether to include them. Select **Yes, include required components** and then select **OK**.
 
-1. You now return to your new solution, which now includes all of the entities and related components that you selected to include. In side panel, expand **Entities** to see the entities you added, and then expand the **Marketing form** entity and select **Fields**.    
-    ![Add all assets](media/solution-new-6.png "Add all assets")
+    ![Include required components](media/solution-new-5.png "Include required components")
 
-1. For this example, we'll customize the Marketing form entity by adding a new field. Select **New** to create a new field and enter a **Display Name**. Leave the other settings at the default values (we'll allow this to be a text field).    
-    ![Add all assets](media/solution-new-7.png "Add all assets")
+1. You now return to your new solution, which now includes all of the entities and related components that you selected to include. In side panel, expand **Entities** to see the entities you added, and then expand the **Marketing form** entity and select **Fields**.
+
+    ![Select Fields](media/solution-new-6.png "Select Fields")
+
+1. For this example, we'll customize the Marketing form entity by adding a new field. Select **New** to create a new field and enter a **Display Name**. Leave the other settings at the default values (we'll allow this to be a text field).
+
+    ![Create a new field and enter a Display Name](media/solution-new-7.png "Create a new field and enter a Display Name")
 
 1. When you're done making all the required settings, select **Save and close** on the command bar.
 
@@ -75,10 +83,12 @@ To create a custom solution:
 
 1. In the side panel of the **Power Apps** window, go to **Components** > **Entities** > **Marketing form** > **Forms**. We need to add our new custom field to a form to make it visible to users in the app.
 
-1. Open the from named **Information** with a **Form type** of **Main** by selecting its name. This is the form that users see when they create or open a marketing-form record.    
+1. Open the from named **Information** with a **Form type** of **Main** by selecting its name. This is the form that users see when they create or open a marketing-form record.
+
     ![The forms list](media/solution-new-8.png "The forms list")
 
-1. A new **Power Apps** window opens showing your selected form setup. In the central pane of this window, scroll down to the **Summary** section. Then drag your new custom field from the **Field explorer** panel to the **General information** section under the **Summary**.    
+1. A new **Power Apps** window opens showing your selected form setup. In the central pane of this window, scroll down to the **Summary** section. Then drag your new custom field from the **Field explorer** panel to the **General information** section under the **Summary**.
+
     ![Add a field to the form](media/solution-new-9.png "Add a field to the form")
 
 1. Select **Save and close** on the ribbon.
@@ -96,18 +106,22 @@ If you'd like to confirm your changes, you can go to the Marketing app, open a m
 When you're done customizing your solution and ready to move it to another instance, the next thing you must do is export the custom solution. Here's how:
 
 1. If you're not already there after the last exercise, go to the advanced-settings area by opening the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and then select **Advanced settings**.
-1. Navigate to **Settings** > **Customizations** > **Solutions**.    
+1. Navigate to **Settings** > **Customizations** > **Solutions**.
+
     ![The solutions list](media/solution-list.png "The solutions list")
 
 1. Select the check box for the solution you want to export, and then select **Export** on the command bar.
 
-1. The system now reminds you that only published changes will be exported. If you followed the procedure in the previous section, then you should already have published everything, but if you're not sure, you can publish now. When you're ready to continue, select **Next**.    
+1. The system now reminds you that only published changes will be exported. If you followed the procedure in the previous section, then you should already have published everything, but if you're not sure, you can publish now. When you're ready to continue, select **Next**.
+
     ![Export-solution wizard, page 1](media/solution-export-1.png "Export-solution wizard, page 1")
 
-1. You can now choose to include various system settings in the export. System settings will be applied permanently on the destination instance, and will remain there even if you later remove the solution. Normally, you shouldn't include any system settings, and if you are just doing this procedure as an exercise, then don't select any of these check boxes now. Select **Next** to continue.    
+1. You can now choose to include various system settings in the export. System settings will be applied permanently on the destination instance, and will remain there even if you later remove the solution. Normally, you shouldn't include any system settings, and if you are just doing this procedure as an exercise, then don't select any of these check boxes now. Select **Next** to continue.
+
     ![Export-solution wizard, page 2](media/solution-export-2.png "Export-solution wizard, page 2")
 
-1. Select **Managed** and then select **Export**.    
+1. Select **Managed** and then select **Export**.
+
     ![Export-solution wizard, page 3](media/solution-export-3.png "Export-solution wizard, page 3")
 
 1. The solution now downloads as a zip file named after the solution name.
@@ -122,18 +136,22 @@ To import a solution:
 
 1. Open the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**. The advanced-settings area then opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator.
 
-1. Navigate to **Settings** > **Customization** > **Solutions**. A list of existing solutions opens.    
+1. Navigate to **Settings** > **Customization** > **Solutions**. A list of existing solutions opens.
+
     ![The solutions list](media/solution-list.png "The solutions list")
 
-1. Select **Import** on the command bar. The import dialog launches.    
+1. Select **Import** on the command bar. The import dialog launches.
+
     ![Import dialog, page 1](media/solution-import-1.png "Import dialog, page 1")
 
 1. Select **Choose file** to open a file browser. Find and select the solution file that you exported from the source instance.
 
-1. Select **Next** to continue.    
+1. Select **Next** to continue.
+
     ![Import dialog, page 2](media/solution-import-2.png "Import dialog, page 2")
 
-1. Select **Import** to begin importing the selected solution. A progress bar opens in a pop-up window, which closes automatically when the import is done. Then the import dialog updates to show the result.    
+1. Select **Import** to begin importing the selected solution. A progress bar opens in a pop-up window, which closes automatically when the import is done. Then the import dialog updates to show the result.
+
     ![Import dialog, page 3](media/solution-import-3.png "Import dialog, page 3")
 
 1. Select **Close** to close the import dialog.
@@ -141,7 +159,7 @@ To import a solution:
 1. To confirm the import, go to the Marketing app, open a marketing form record and look for the new customized field on the **Summary** tab.
 
 ### See also
-[Manage your Marketing instances](manage-marketing-instances.md)  
+[Manage your Marketing environments](manage-marketing-environments.md)  
 [Transfer data between instances](transfer-data.md)  
 [Administer Power Apps](https://docs.microsoft.com/power-platform/admin/admin-guide)  
 [Manage instances](https://docs.microsoft.com/dynamics365/admin/new-instance-management)  

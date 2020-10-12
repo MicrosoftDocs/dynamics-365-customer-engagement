@@ -4,23 +4,15 @@ description: "Learn about managing session templates in Customer Service workspa
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 09/07/2020
+ms.date: 10/12/2020
 ms.service: 
    "dynamics-365-customerservice"
 ms.topic: article
 ---
 
-# Preview: Manage session templates
+# Manage session templates
 
-[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
-> [!IMPORTANT]
->
-> - This feature is a preview, which means that it is made available to you before general availability so you can test and evaluate the preview and provide feedback to Microsoft.
-> - This preview may employ reduced or different privacy, security, or compliance commitments than a commercial version. As such, this preview is not meant to be used with any "live" or production Customer Data, Personal Data, or other data that is subject to heightened compliance requirements. Any use of "live" data is at your sole risk and it is your sole responsibility to notify your end users that they should not include sensitive information with their use of the Preview.
-> - This preview, and any support Microsoft may elect to provide, is provided "as-is," "with all faults," "as available," and without warranty. This preview is subject to the [Preview Terms](../legal/supp-dynamics365-preview.md).
-
-##  Introduction
+## Introduction
 
 A session template is a combination of attributes and application tab information that can be reused.
 
@@ -41,16 +33,17 @@ The out-of-the-box session template for using in Customer Service workspace is C
 
 The following out-of-the-box session templates are for use in the Omnichannel for Customer Service app:
 
-- Chat - Default session
-- SMS - Default session
-- Entity routing - Default session
-- Custom Messaging - Default session
-- Facebook - Default session
-- LINE - Default session
-- Teams - Default session
-- Twitter - Default session
-- WeChat - Default session
-- WhatsApp - Default session
+- Case entity session - default template
+- Chat session - default
+- Custom messaging session - default
+- Entity records session - default
+- Facebook session - default
+- LINE session - default
+- SMS session - default
+- Teams session - default
+- Twitter session - default
+- WeChat session - default
+- WhatsApp session - default
   
 ## Create a session template
 
