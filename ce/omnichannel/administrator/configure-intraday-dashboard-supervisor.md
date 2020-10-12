@@ -4,10 +4,11 @@ description: "How to configure intraday insights for Unified Service Desk and Om
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 08/03/2020
+ms.date: 10/12/2020
 ms.service: 
-  - "dynamics-365-customerservice"
+  "dynamics-365-customerservice"
 ms.topic: article
+
 ---
 
 # Configure intraday insights for supervisors
@@ -21,7 +22,7 @@ Supervisors have a dual responsibility with respect to agents and customers. T
 
 You can use intraday insights in the following ways: 
 
-- (Preview feature) As a preconfigured Power BI workspace that doesn't require a Power BI license; intraday insights can’t be customized. **Note**: The preconfigured Power BI workspace version of intraday insights is only available for organizations that are provisioned in a public cloud and isn't available in Unified Service Desk (USD). 
+- As a preconfigured Power BI workspace that doesn't require a Power BI license; intraday insights can’t be customized. **Note**: The preconfigured Power BI workspace version of intraday insights is only available for organizations that are provisioned in a public cloud and isn't available in Unified Service Desk (USD). 
 
 - Using a Power BI Pro or Power BI Premium license for supervisors and administrators; intraday insights can be customized. 
 
@@ -29,13 +30,13 @@ As an administrator, you must configure intraday insights before supervisors can
 
 | Provisioning scenario | Need to customize intraday insights? | Details |
 |----------------------|-------------------------|-----------------------------|
-| New organization created in August 2020 or later | No | Intraday insights is preconfigured and non-customizable by default. For more information, see [Preview: Intraday insights in a preconfigured Power BI workspace](#preview-intraday-insights-in-a-preconfigured-power-bi-workspace). |
+| New organization created in August 2020 or later | No | Intraday insights is preconfigured and non-customizable by default. For more information, see [Intraday insights in a preconfigured Power BI workspace](#intraday-insights-in-a-preconfigured-power-bi-workspace). |
 | Existing organization with customized intraday insights | Yes | No further action needed. |
-| Existing organization with customized reports wanting to switch to preconfigured Power BI workspace version | No | Convert your reports to a non-customized version of intraday insights by following the steps in [Preview: Intraday insights in a preconfigured Power BI workspace](#preview-intraday-insights-in-a-preconfigured-power-bi-workspace). |
+| Existing organization with customized reports wanting to switch to preconfigured Power BI workspace version | No | Convert your reports to a non-customized version of intraday insights by following the steps in [Intraday insights in a preconfigured Power BI workspace](#intraday-insights-in-a-preconfigured-power-bi-workspace). |
 | Existing or new organization with need for customized intraday insights | Yes | Follow the steps in [Configure customized intraday insights reports](#configure-customized-intraday-insights-reports). | 
 
 
-## Preview: Intraday insights in a preconfigured Power BI workspace
+## Intraday insights in a preconfigured Power BI workspace
 
 As an administrator for a new organization, intraday insights is configured by default, so you don’t need to take extra steps to configure it, but if you want to switch from using customized reports to using the preconfigured Power BI workspace, follow the steps in this section. The preconfigured Power BI workspace feature allows you to access intraday insights without customizing the reports.
 
@@ -55,7 +56,7 @@ To enable the preconfigured Power BI workspace:
 
 3.  Select **+ New**. 
 
-    The **Power BI Configuration** form opens, where you can verify that **Use preconfigured Power BI workspace** is enabled or select it to enable it.
+    The **Power BI Configuration** form opens, where you can verify that **Use preconfigured Power BI workspace** is enabled or you can toggle it to **Yes** to enable it.
 
     > [!div class=mx-imgBorder]
     > ![Preconfigured Power BI workspace configuration settings page](../media/supervisor-admin-preconfigured-powerbi-configuration-settings.png "Preconfigured Power BI workspace configuration settings page")
@@ -99,7 +100,7 @@ Review the following prerequisites before configuring the supervisor insights: 
       d. Select **Apply**.
 
 
-### Configure Intraday insights for the Omnichannel for Customer Service app on the web
+### Configure intraday insights for the Omnichannel for Customer Service app on the web
 
 Follow these steps to configure Intraday insights for the Omnichannel for Customer Service app on the web:
 
@@ -131,7 +132,7 @@ You must configure the Power BI workspace using the **Omnichannel Administration
     > [!div class=mx-imgBorder]
     > ![Power BI workspace configuration settings page](../media/supervisor-admin-powerbi-configuration-settings.png "Power BI workspace configuration settings page")
 
-4. Set the **Show intraday insights** option to **Yes** to make intraday insights an app tab on the home session for supervisors. 
+4. Set the **Show intraday insights** toggle to **Yes** to make intraday insights an app tab on the home session for supervisors. 
 
     > [!div class=mx-imgBorder]
     > ![Enable display of intraday insights on Omnichannel for Customer Service app](../media/supervisor-admin-intraday-insights-dashboard-oc-on-web.png "Enable display of intraday insights on Omnichannel for Customer Service app")
@@ -317,6 +318,6 @@ To learn more, see [Client caching overview](https://docs.microsoft.com/dynamics
 
 ### See also
 
-[Introduction to Intraday insights](../supervisor/intro-intraday-insights-dashboard.md)
+[Introduction to intraday insights](../supervisor/intro-intraday-insights-dashboard.md)
 
-[Customize KPIs for Intraday insights](customize-kpis-intraday-insights.md)
+[Customize KPIs for intraday insights](customize-kpis-intraday-insights.md)

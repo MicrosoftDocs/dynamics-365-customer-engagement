@@ -21,7 +21,7 @@ search.audienceType:
 ---
 # Additional controls for Dynamics 365 for phones and tablets 
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Custom controls available](/powerapps/maker/model-driven-apps/additional-controls-for-dynamics-365-for-phones-and-tablets)
 
  You can use a rich set of additional controls to create a more touch-friendly experience on Dynamics 365 for phones and tablets. These include sliders, switches, multimedia player, input masks, calendar, and other controls.  
 

@@ -2,38 +2,31 @@
 title: Overview of the Customer Service Workspace application for Dynamics 365 Customer Service | Microsoft Docs
 description: Overview of the Customer Service Workspace application for Dynamics 365 Customer Service
 author: lalexms
-ms.author: lalexms
+ms.author: laalexan
 manager: shujoshi
-ms.date: 08/20/2020
+ms.date: 10/05/2020
 ms.topic: article 
 ms.service: 
-  - dynamics-365-customerservice
+  dynamics-365-customerservice
 ms.custom: 
-  - dyn365-customerservice
+  dyn365-customerservice
 search.audienceType: 
-  - admin
-  - customizer
-  - enduser
+  admin
+  customizer
+  enduser
 search.app: 
-  - D365CE
-  - D365CS
+  D365CE
+  D365CS
+  
 ---
 
-# Preview: Customer Service workspace
+# Customer Service workspace
 
-[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+Welcome to the Customer Service workspace app module, where we're increasing agent productivity for core customer service with the ability to work on multiple sessions at a time in a single workspace experience. If you choose to expand your customer service offering to provide chat and channels, the Customer Service workspace seamlessly adjusts to support managing conversations as well.
 
-> [!IMPORTANT]
->
-> - A preview is a feature that is not complete, as it may employ reduced privacy, security, and/or compliance commitments, but is made available before it is officially released for general availability so customers can get early access and provide feedback. Previews are provided "as-is," "with all faults," "as available," and without warranty.
-> - This preview feature does not come with technical support and Microsoft Dynamics 365 Technical Support won't be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.
-> - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk. All previews are subject to separate [Terms and Conditions](../legal/supp-dynamics365-preview.md).
+If you've used Customer Service Hub or Omnichannel for Customer Service before, much of the behavior for managing cases and activities in the Customer Service workspace app module works the same way, with some exceptions to accommodate the multisession and conversation capabilities. This article walks you through the Customer Service workspace experience and explains how to navigate the app.
 
-Welcome to the Customer Service workspace app module, where we're increasing agent productivity for core customer service with the ability to work on multiple sessions at a time in a single workspace experience. And in the future, should your business choose to expand your customer service offering to provide chat and channels, the Customer Service workspace seamlessly adjusts to support managing conversations as well (Public Preview 09/01/2020).
-
-If you have used Customer Service Hub or Omnichannel for Customer Service before, much of the behavior for managing cases and activities in the Customer Service workspace app module works the same way with some exceptions to accommodate the multisession and conversation capabilities. In this article, we'll walk you through the Customer Service workspace experience and explain how to navigate.
-
-Before we dive in, a quick note about administration of Customer Service workspace: Currently, there isn't a dedicated administrator experience for Customer Service workspace. As such, configuring and managing core customer service capabilities, such as queues and routing rules, is done in the Customer Service Hub > [Service Management](https://docs.microsoft.com/dynamics365/customer-service/service-manager-guide) experience. Channel configuration is done in [Omnichannel Administration](https://docs.microsoft.com/dynamics365/omnichannel/administrator/omnichannel-administrator). Because all of these apps are on the [Common Data Service (CDS)](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro), the data created through these experiences is accessible.
+Before we begin, a quick note about administration of Customer Service workspace: Currently, there isn't a dedicated administrator experience for Customer Service workspace. As such, configuring and managing core customer service capabilities, such as queues and routing rules, is done in the Customer Service Hub > [Service Management](https://docs.microsoft.com/dynamics365/customer-service/service-manager-guide) experience. Channel configuration is done in [Omnichannel Administration](https://docs.microsoft.com/dynamics365/omnichannel/administrator/omnichannel-administrator). Because all of these apps are on the [Common Data Service (CDS)](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro), the data created through these experiences is accessible.
 
 ## Introduction to Customer Service workspace
 
@@ -85,7 +78,7 @@ From the Customer Service Agent Dashboard in Customer Service workspace, you can
 | 5 | Delete selected cases. 
 | 6 | Apply a routing rule to route cases to a queue. 
 | 7 | Open the menu for additional actions including Assign, Add to Queue, Run Report, Email a Link, Share, Follow, or Unfollow cases. 
-|
+
 
 #### Editing case data
 
@@ -98,7 +91,7 @@ Let's explore the fields you can edit on the **Case Summary** tab:
 | 1 | In the Case Details, you can update the Case Title, Customer, Subject, Priority, Case Status, Product, and Description.
 | 2 | These are attributes that are set when the case is created by the system including Case Number, Origin, and Created On Date that won't change. You can change the case owner here.
 | 3 | Select the plus sign (+) on the timeline to expand the menu of timeline actions. 
-|
+
 
 Let's explore the fields you can edit on the **Case Additional Details** tab:
 
@@ -112,7 +105,7 @@ Let's explore the fields you can edit on the **Case Additional Details** tab:
 | 4 | View and export the list of Similar Cases.
 | 5 | View, add associations, and export Child Cases. 
 | 6 | View and export the list of Merged Cases.
-|
+
 
 ### Work with activities
 
@@ -139,7 +132,7 @@ From the Customer Service Agent Dashboard in Customer Service workspace, you can
 |------------ | -------------|
 | 1 | Select the plus sign (+) to expand the tab menu.|
 | 2 | Select Knowledge Article or Knowledge Search. You can also create and manage knowledge articles in other ways. For more information, see [Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md).|
-|
+
 
 Intelligent knowledge suggestions are displayed in the productivity pane while working on a case. 
 
@@ -153,16 +146,17 @@ From the Customer Service Agent Dashboard in Customer Service workspace, you can
 | ------------ | -------------
 | 1 | Select the plus sign (+) to expand the tab menu. 
 | 2 | Select Email Templates and Email Signatures.
-|
 
 ### Productivity pane with Smart Assist
 
-While working on a case, the productivity pane on the right side of the Customer Service workspace displays intelligence-driven suggestions to help agents better help customers. For Wave 2 2020 Early Release on 08/01/2020, the productivity pane hosts Smart assist, which suggests related cases and knowledge articles that could be relevant to the current case. The productivity pane will continue to evolve to contain additional supporting tools, such as agent scripts to guide agents through a consistent series of steps with potentially automated actions through macros in future releases. Learn more about the [Productivity pane](csw-productivity-pane.md). 
+While working on a case, the productivity pane on the right side of the Customer Service workspace displays intelligence-driven suggestions to help agents better help customers. The productivity pane hosts Smart assist, which suggests related cases and knowledge articles that could be relevant to the current case, as well as agent scripts to guide agents through a consistent series of steps with potentially automated actions through macros. 
+
+For more information, see [Productivity pane](csw-productivity-pane.md).
 
 :::image type="content" source="media/productivity-pane-overview.png" alt-text="Productivity pane with Smart Assist" border="false":::
 
 ### See also
 
-[Work with cases in Customer Service Hub](customer-service-hub-user-guide-create-a-case.md)  
-[Work with activities in Customer Service Hub](customer-service-hub-user-guide-manage-timeline-activities.md)  
-[Overview of the productivity pane](csw-productivity-pane.md)  
+[Work with cases in Customer Service Hub](customer-service-hub-user-guide-create-a-case.md)
+[Work with activities in Customer Service Hub](customer-service-hub-user-guide-manage-timeline-activities.md)
+[Overview of the productivity pane](csw-productivity-pane.md)

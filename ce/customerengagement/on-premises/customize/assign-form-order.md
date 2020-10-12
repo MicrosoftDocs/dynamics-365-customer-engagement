@@ -22,7 +22,7 @@ search.audienceType:
 ---
 # Assign form order
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Set the form order](/powerapps/maker/model-driven-apps/control-access-forms#set-the-form-order)
 
  When you have multiple main, quick create, quick view, or card forms for an entity, you can assign a form order. The form order determines which of the available forms will be shown by default. The available main forms can be further controlled by assigning security roles to forms. See [Control access to forms](control-access-forms.md) for more information.  
   
