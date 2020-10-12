@@ -1,6 +1,6 @@
 ---
-title: "msdyn_ocliveworkstreamcontextvariable Entity Reference | MicrosoftDocs"
-description: "Includes schema information and supported messages for the msdyn_ocliveworkstreamcontextvariable entity."
+title: "msdyn_ocfbapplication Entity Reference | MicrosoftDocs"
+description: "Includes schema information and supported messages for the msdyn_ocfbapplication entity."
 ms.date: 10/02/2020
 ms.service: "crm-online"
 ms.topic: "reference"
@@ -13,48 +13,48 @@ search.app:
   - PowerApps
   - D365CE
 ---
-# msdyn_ocliveworkstreamcontextvariable Entity Reference
+# msdyn_ocfbapplication Entity Reference
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
-Stores the context variables for a work stream.
+Facebook applications for Omnichannel integration
 
-**Added by**: Omnichannel – Base Solution
+**Added by**: Omnichannel – Facebook Solution
 
 
 ## Messages
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.0/msdyn_ocliveworkstreamcontextvariables(*msdyn_ocliveworkstreamcontextvariableid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/msdyn_ocliveworkstreamcontextvariables<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_ocliveworkstreamcontextvariables(*msdyn_ocliveworkstreamcontextvariableid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Assign|PATCH [*org URI*]/api/data/v9.0/msdyn_ocfbapplications(*msdyn_ocfbapplicationid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Create|POST [*org URI*]/api/data/v9.0/msdyn_ocfbapplications<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_ocfbapplications(*msdyn_ocfbapplicationid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 |IsValidStateTransition|<xref href="Microsoft.Dynamics.CRM.IsValidStateTransition?text=IsValidStateTransition Function" />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 |ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_ocliveworkstreamcontextvariables(*msdyn_ocliveworkstreamcontextvariableid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_ocliveworkstreamcontextvariables<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_ocfbapplications(*msdyn_ocfbapplicationid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_ocfbapplications<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
 |RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
 |RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_ocliveworkstreamcontextvariables(*msdyn_ocliveworkstreamcontextvariableid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_ocliveworkstreamcontextvariables(*msdyn_ocliveworkstreamcontextvariableid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_ocfbapplications(*msdyn_ocfbapplicationid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_ocfbapplications(*msdyn_ocfbapplicationid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
 |Property|Value|
 |--------|-----|
-|CollectionSchemaName|msdyn_ocliveworkstreamcontextvariables|
-|DisplayCollectionName|Context variables|
-|DisplayName|Context variable|
-|EntitySetName|msdyn_ocliveworkstreamcontextvariables|
+|CollectionSchemaName|msdyn_ocfbapplications|
+|DisplayCollectionName|Facebook Applications|
+|DisplayName|Facebook Application|
+|EntitySetName|msdyn_ocfbapplications|
 |IsBPFEntity|False|
-|LogicalCollectionName|msdyn_ocliveworkstreamcontextvariables|
-|LogicalName|msdyn_ocliveworkstreamcontextvariable|
+|LogicalCollectionName|msdyn_ocfbapplications|
+|LogicalName|msdyn_ocfbapplication|
 |OwnershipType|UserOwned|
-|PrimaryIdAttribute|msdyn_ocliveworkstreamcontextvariableid|
+|PrimaryIdAttribute|msdyn_ocfbapplicationid|
 |PrimaryNameAttribute|msdyn_name|
-|SchemaName|msdyn_ocliveworkstreamcontextvariable|
+|SchemaName|msdyn_ocfbapplication|
 
 <a name="writable-attributes"></a>
 
@@ -63,17 +63,12 @@ Stores the context variables for a work stream.
 These attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
-- [msdyn_datatype](#BKMK_msdyn_datatype)
-- [msdyn_displayname](#BKMK_msdyn_displayname)
-- [msdyn_entitylogicalname](#BKMK_msdyn_entitylogicalname)
-- [msdyn_isdisplayable](#BKMK_msdyn_isdisplayable)
-- [msdyn_islist](#BKMK_msdyn_islist)
-- [msdyn_ismodifiable](#BKMK_msdyn_ismodifiable)
-- [msdyn_issystemdefined](#BKMK_msdyn_issystemdefined)
-- [msdyn_liveworkstreamid](#BKMK_msdyn_liveworkstreamid)
+- [msdyn_fbapplicationid](#BKMK_msdyn_fbapplicationid)
+- [msdyn_fbapplicationsecret](#BKMK_msdyn_fbapplicationsecret)
+- [msdyn_fbcallbackuri](#BKMK_msdyn_fbcallbackuri)
+- [msdyn_fbverifytoken](#BKMK_msdyn_fbverifytoken)
 - [msdyn_name](#BKMK_msdyn_name)
-- [msdyn_ocliveworkstreamcontextvariableId](#BKMK_msdyn_ocliveworkstreamcontextvariableId)
-- [msdyn_relationshipname](#BKMK_msdyn_relationshipname)
+- [msdyn_ocfbapplicationId](#BKMK_msdyn_ocfbapplicationId)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [OwnerId](#BKMK_OwnerId)
 - [OwnerIdType](#BKMK_OwnerIdType)
@@ -100,164 +95,68 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Integer|
 
 
-### <a name="BKMK_msdyn_datatype"></a> msdyn_datatype
+### <a name="BKMK_msdyn_fbapplicationid"></a> msdyn_fbapplicationid
 
 |Property|Value|
 |--------|-----|
-|Description|Data type of context variable (int, string, entity reference)|
-|DisplayName|Type|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_datatype|
-|RequiredLevel|ApplicationRequired|
-|Type|Picklist|
-
-#### msdyn_datatype Options
-
-|Value|Label|
-|-----|-----|
-|192350000|Text|
-|192350001|Number|
-|192350100|Entity Reference|
-
-
-
-### <a name="BKMK_msdyn_displayname"></a> msdyn_displayname
-
-|Property|Value|
-|--------|-----|
-|Description|Display Name for context variable.|
-|DisplayName|Display Name|
+|Description|Application Id of Facebook application|
+|DisplayName|Application Id|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_displayname|
+|LogicalName|msdyn_fbapplicationid|
+|MaxLength|100|
+|RequiredLevel|ApplicationRequired|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_fbapplicationsecret"></a> msdyn_fbapplicationsecret
+
+|Property|Value|
+|--------|-----|
+|Description|Application secret of the Facebook application|
+|DisplayName|Application Secret|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_fbapplicationsecret|
+|MaxLength|100|
+|RequiredLevel|ApplicationRequired|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_fbcallbackuri"></a> msdyn_fbcallbackuri
+
+|Property|Value|
+|--------|-----|
+|Description|Callback Uri to be configured on the Facebook application|
+|DisplayName|Callback Uri|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_fbcallbackuri|
 |MaxLength|100|
 |RequiredLevel|None|
 |Type|String|
 
 
-### <a name="BKMK_msdyn_entitylogicalname"></a> msdyn_entitylogicalname
+### <a name="BKMK_msdyn_fbverifytoken"></a> msdyn_fbverifytoken
 
 |Property|Value|
 |--------|-----|
-|Description|Logical Name of Entity Reference.|
-|DisplayName|Entity Logical Name|
+|Description|Verify token to be configured on the Facebook application|
+|DisplayName|Verify Token|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_entitylogicalname|
+|LogicalName|msdyn_fbverifytoken|
 |MaxLength|100|
 |RequiredLevel|None|
 |Type|String|
-
-
-### <a name="BKMK_msdyn_isdisplayable"></a> msdyn_isdisplayable
-
-|Property|Value|
-|--------|-----|
-|Description|(Currently Unused)|
-|DisplayName|Displayable|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_isdisplayable|
-|RequiredLevel|None|
-|Type|Boolean|
-
-#### msdyn_isdisplayable Options
-
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
-
-**DefaultValue**: True
-
-
-
-### <a name="BKMK_msdyn_islist"></a> msdyn_islist
-
-|Property|Value|
-|--------|-----|
-|Description|(Currently Unused)|
-|DisplayName|IsList|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_islist|
-|RequiredLevel|None|
-|Type|Boolean|
-
-#### msdyn_islist Options
-
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
-
-**DefaultValue**: False
-
-
-
-### <a name="BKMK_msdyn_ismodifiable"></a> msdyn_ismodifiable
-
-|Property|Value|
-|--------|-----|
-|Description|(Currently Unused)|
-|DisplayName|Modifiable|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_ismodifiable|
-|RequiredLevel|None|
-|Type|Boolean|
-
-#### msdyn_ismodifiable Options
-
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
-
-**DefaultValue**: True
-
-
-
-### <a name="BKMK_msdyn_issystemdefined"></a> msdyn_issystemdefined
-
-|Property|Value|
-|--------|-----|
-|Description|(Currently Unused)|
-|DisplayName|System Defined|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_issystemdefined|
-|RequiredLevel|None|
-|Type|Boolean|
-
-#### msdyn_issystemdefined Options
-
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
-
-**DefaultValue**: False
-
-
-
-### <a name="BKMK_msdyn_liveworkstreamid"></a> msdyn_liveworkstreamid
-
-|Property|Value|
-|--------|-----|
-|Description|Unique identifier of the associated workstream|
-|DisplayName|Work stream|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_liveworkstreamid|
-|RequiredLevel|ApplicationRequired|
-|Targets|msdyn_liveworkstream|
-|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_name"></a> msdyn_name
@@ -276,34 +175,18 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|String|
 
 
-### <a name="BKMK_msdyn_ocliveworkstreamcontextvariableId"></a> msdyn_ocliveworkstreamcontextvariableId
+### <a name="BKMK_msdyn_ocfbapplicationId"></a> msdyn_ocfbapplicationId
 
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for entity instances|
-|DisplayName|Context variable|
+|DisplayName|Facebook Application|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |IsValidForUpdate|False|
-|LogicalName|msdyn_ocliveworkstreamcontextvariableid|
+|LogicalName|msdyn_ocfbapplicationid|
 |RequiredLevel|SystemRequired|
 |Type|Uniqueidentifier|
-
-
-### <a name="BKMK_msdyn_relationshipname"></a> msdyn_relationshipname
-
-|Property|Value|
-|--------|-----|
-|Description|Name of the relationship between LiveWorkItem and Referenced Entity|
-|DisplayName|Relation Ship Name|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_relationshipname|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
 
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
@@ -357,7 +240,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Status of the Context variable|
+|Description|Status of the Facebook Application|
 |DisplayName|Status|
 |IsValidForCreate|False|
 |IsValidForForm|True|
@@ -379,7 +262,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Reason for the status of the Context variable|
+|Description|Reason for the status of the Facebook Application|
 |DisplayName|Status Reason|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -447,7 +330,6 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 - [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
 - [ModifiedOnBehalfByName](#BKMK_ModifiedOnBehalfByName)
 - [ModifiedOnBehalfByYomiName](#BKMK_ModifiedOnBehalfByYomiName)
-- [msdyn_liveworkstreamidName](#BKMK_msdyn_liveworkstreamidName)
 - [OwnerIdName](#BKMK_OwnerIdName)
 - [OwnerIdYomiName](#BKMK_OwnerIdYomiName)
 - [OwningBusinessUnit](#BKMK_OwningBusinessUnit)
@@ -694,22 +576,6 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Type|String|
 
 
-### <a name="BKMK_msdyn_liveworkstreamidName"></a> msdyn_liveworkstreamidName
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|msdyn_liveworkstreamidname|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
 ### <a name="BKMK_OwnerIdName"></a> OwnerIdName
 
 **Added by**: Active Solution Solution
@@ -816,42 +682,42 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related entity. Listed by **SchemaName**.
 
-- [lk_msdyn_ocliveworkstreamcontextvariable_createdby](#BKMK_lk_msdyn_ocliveworkstreamcontextvariable_createdby)
-- [lk_msdyn_ocliveworkstreamcontextvariable_createdonbehalfby](#BKMK_lk_msdyn_ocliveworkstreamcontextvariable_createdonbehalfby)
-- [lk_msdyn_ocliveworkstreamcontextvariable_modifiedby](#BKMK_lk_msdyn_ocliveworkstreamcontextvariable_modifiedby)
-- [lk_msdyn_ocliveworkstreamcontextvariable_modifiedonbehalfby](#BKMK_lk_msdyn_ocliveworkstreamcontextvariable_modifiedonbehalfby)
-- [user_msdyn_ocliveworkstreamcontextvariable](#BKMK_user_msdyn_ocliveworkstreamcontextvariable)
+- [lk_msdyn_ocfbapplication_createdby](#BKMK_lk_msdyn_ocfbapplication_createdby)
+- [lk_msdyn_ocfbapplication_createdonbehalfby](#BKMK_lk_msdyn_ocfbapplication_createdonbehalfby)
+- [lk_msdyn_ocfbapplication_modifiedby](#BKMK_lk_msdyn_ocfbapplication_modifiedby)
+- [lk_msdyn_ocfbapplication_modifiedonbehalfby](#BKMK_lk_msdyn_ocfbapplication_modifiedonbehalfby)
+- [user_msdyn_ocfbapplication](#BKMK_user_msdyn_ocfbapplication)
 
 
-### <a name="BKMK_lk_msdyn_ocliveworkstreamcontextvariable_createdby"></a> lk_msdyn_ocliveworkstreamcontextvariable_createdby
-
-**Added by**: System Solution Solution
-
-See systemuser Entity [lk_msdyn_ocliveworkstreamcontextvariable_createdby](systemuser.md#BKMK_lk_msdyn_ocliveworkstreamcontextvariable_createdby) One-To-Many relationship.
-
-### <a name="BKMK_lk_msdyn_ocliveworkstreamcontextvariable_createdonbehalfby"></a> lk_msdyn_ocliveworkstreamcontextvariable_createdonbehalfby
+### <a name="BKMK_lk_msdyn_ocfbapplication_createdby"></a> lk_msdyn_ocfbapplication_createdby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_msdyn_ocliveworkstreamcontextvariable_createdonbehalfby](systemuser.md#BKMK_lk_msdyn_ocliveworkstreamcontextvariable_createdonbehalfby) One-To-Many relationship.
+See systemuser Entity [lk_msdyn_ocfbapplication_createdby](systemuser.md#BKMK_lk_msdyn_ocfbapplication_createdby) One-To-Many relationship.
 
-### <a name="BKMK_lk_msdyn_ocliveworkstreamcontextvariable_modifiedby"></a> lk_msdyn_ocliveworkstreamcontextvariable_modifiedby
-
-**Added by**: System Solution Solution
-
-See systemuser Entity [lk_msdyn_ocliveworkstreamcontextvariable_modifiedby](systemuser.md#BKMK_lk_msdyn_ocliveworkstreamcontextvariable_modifiedby) One-To-Many relationship.
-
-### <a name="BKMK_lk_msdyn_ocliveworkstreamcontextvariable_modifiedonbehalfby"></a> lk_msdyn_ocliveworkstreamcontextvariable_modifiedonbehalfby
+### <a name="BKMK_lk_msdyn_ocfbapplication_createdonbehalfby"></a> lk_msdyn_ocfbapplication_createdonbehalfby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_msdyn_ocliveworkstreamcontextvariable_modifiedonbehalfby](systemuser.md#BKMK_lk_msdyn_ocliveworkstreamcontextvariable_modifiedonbehalfby) One-To-Many relationship.
+See systemuser Entity [lk_msdyn_ocfbapplication_createdonbehalfby](systemuser.md#BKMK_lk_msdyn_ocfbapplication_createdonbehalfby) One-To-Many relationship.
 
-### <a name="BKMK_user_msdyn_ocliveworkstreamcontextvariable"></a> user_msdyn_ocliveworkstreamcontextvariable
+### <a name="BKMK_lk_msdyn_ocfbapplication_modifiedby"></a> lk_msdyn_ocfbapplication_modifiedby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [user_msdyn_ocliveworkstreamcontextvariable](systemuser.md#BKMK_user_msdyn_ocliveworkstreamcontextvariable) One-To-Many relationship.
+See systemuser Entity [lk_msdyn_ocfbapplication_modifiedby](systemuser.md#BKMK_lk_msdyn_ocfbapplication_modifiedby) One-To-Many relationship.
+
+### <a name="BKMK_lk_msdyn_ocfbapplication_modifiedonbehalfby"></a> lk_msdyn_ocfbapplication_modifiedonbehalfby
+
+**Added by**: System Solution Solution
+
+See systemuser Entity [lk_msdyn_ocfbapplication_modifiedonbehalfby](systemuser.md#BKMK_lk_msdyn_ocfbapplication_modifiedonbehalfby) One-To-Many relationship.
+
+### <a name="BKMK_user_msdyn_ocfbapplication"></a> user_msdyn_ocfbapplication
+
+**Added by**: System Solution Solution
+
+See systemuser Entity [user_msdyn_ocfbapplication](systemuser.md#BKMK_user_msdyn_ocfbapplication) One-To-Many relationship.
 
 ### See also
 

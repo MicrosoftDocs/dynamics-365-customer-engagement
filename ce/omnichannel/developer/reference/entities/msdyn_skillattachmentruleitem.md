@@ -1,6 +1,6 @@
 ---
-title: "msdyn_ocliveworkstreamcontextvariable Entity Reference | MicrosoftDocs"
-description: "Includes schema information and supported messages for the msdyn_ocliveworkstreamcontextvariable entity."
+title: "msdyn_skillattachmentruleitem Entity Reference | MicrosoftDocs"
+description: "Includes schema information and supported messages for the msdyn_skillattachmentruleitem entity."
 ms.date: 10/02/2020
 ms.service: "crm-online"
 ms.topic: "reference"
@@ -13,48 +13,48 @@ search.app:
   - PowerApps
   - D365CE
 ---
-# msdyn_ocliveworkstreamcontextvariable Entity Reference
+# msdyn_skillattachmentruleitem Entity Reference
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
-Stores the context variables for a work stream.
 
-**Added by**: Omnichannel – Base Solution
+
+**Added by**: Omnichannel - Skill Based Routing Solution
 
 
 ## Messages
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.0/msdyn_ocliveworkstreamcontextvariables(*msdyn_ocliveworkstreamcontextvariableid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/msdyn_ocliveworkstreamcontextvariables<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_ocliveworkstreamcontextvariables(*msdyn_ocliveworkstreamcontextvariableid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Assign|PATCH [*org URI*]/api/data/v9.0/msdyn_skillattachmentruleitems(*msdyn_skillattachmentruleitemid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Create|POST [*org URI*]/api/data/v9.0/msdyn_skillattachmentruleitems<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_skillattachmentruleitems(*msdyn_skillattachmentruleitemid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 |IsValidStateTransition|<xref href="Microsoft.Dynamics.CRM.IsValidStateTransition?text=IsValidStateTransition Function" />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 |ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_ocliveworkstreamcontextvariables(*msdyn_ocliveworkstreamcontextvariableid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_ocliveworkstreamcontextvariables<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_skillattachmentruleitems(*msdyn_skillattachmentruleitemid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_skillattachmentruleitems<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
 |RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
 |RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_ocliveworkstreamcontextvariables(*msdyn_ocliveworkstreamcontextvariableid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_ocliveworkstreamcontextvariables(*msdyn_ocliveworkstreamcontextvariableid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_skillattachmentruleitems(*msdyn_skillattachmentruleitemid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_skillattachmentruleitems(*msdyn_skillattachmentruleitemid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
 |Property|Value|
 |--------|-----|
-|CollectionSchemaName|msdyn_ocliveworkstreamcontextvariables|
-|DisplayCollectionName|Context variables|
-|DisplayName|Context variable|
-|EntitySetName|msdyn_ocliveworkstreamcontextvariables|
+|CollectionSchemaName|msdyn_skillattachmentruleitems|
+|DisplayCollectionName|Skill Attachment Rules|
+|DisplayName|Skill Attachment Rule|
+|EntitySetName|msdyn_skillattachmentruleitems|
 |IsBPFEntity|False|
-|LogicalCollectionName|msdyn_ocliveworkstreamcontextvariables|
-|LogicalName|msdyn_ocliveworkstreamcontextvariable|
+|LogicalCollectionName|msdyn_skillattachmentruleitems|
+|LogicalName|msdyn_skillattachmentruleitem|
 |OwnershipType|UserOwned|
-|PrimaryIdAttribute|msdyn_ocliveworkstreamcontextvariableid|
+|PrimaryIdAttribute|msdyn_skillattachmentruleitemid|
 |PrimaryNameAttribute|msdyn_name|
-|SchemaName|msdyn_ocliveworkstreamcontextvariable|
+|SchemaName|msdyn_skillattachmentruleitem|
 
 <a name="writable-attributes"></a>
 
@@ -63,17 +63,13 @@ Stores the context variables for a work stream.
 These attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
-- [msdyn_datatype](#BKMK_msdyn_datatype)
-- [msdyn_displayname](#BKMK_msdyn_displayname)
-- [msdyn_entitylogicalname](#BKMK_msdyn_entitylogicalname)
-- [msdyn_isdisplayable](#BKMK_msdyn_isdisplayable)
-- [msdyn_islist](#BKMK_msdyn_islist)
-- [msdyn_ismodifiable](#BKMK_msdyn_ismodifiable)
-- [msdyn_issystemdefined](#BKMK_msdyn_issystemdefined)
-- [msdyn_liveworkstreamid](#BKMK_msdyn_liveworkstreamid)
+- [msdyn_condition](#BKMK_msdyn_condition)
+- [msdyn_description](#BKMK_msdyn_description)
+- [msdyn_expression](#BKMK_msdyn_expression)
+- [msdyn_liveworkstream](#BKMK_msdyn_liveworkstream)
 - [msdyn_name](#BKMK_msdyn_name)
-- [msdyn_ocliveworkstreamcontextvariableId](#BKMK_msdyn_ocliveworkstreamcontextvariableId)
-- [msdyn_relationshipname](#BKMK_msdyn_relationshipname)
+- [msdyn_rulejson](#BKMK_msdyn_rulejson)
+- [msdyn_skillattachmentruleitemId](#BKMK_msdyn_skillattachmentruleitemId)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [OwnerId](#BKMK_OwnerId)
 - [OwnerIdType](#BKMK_OwnerIdType)
@@ -100,161 +96,63 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Integer|
 
 
-### <a name="BKMK_msdyn_datatype"></a> msdyn_datatype
+### <a name="BKMK_msdyn_condition"></a> msdyn_condition
 
 |Property|Value|
 |--------|-----|
-|Description|Data type of context variable (int, string, entity reference)|
-|DisplayName|Type|
+|Description|The Skill Attachment Rule's Condition|
+|DisplayName|Condition|
+|Format|Text|
+|IsLocalizable|False|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_datatype|
-|RequiredLevel|ApplicationRequired|
-|Type|Picklist|
-
-#### msdyn_datatype Options
-
-|Value|Label|
-|-----|-----|
-|192350000|Text|
-|192350001|Number|
-|192350100|Entity Reference|
+|LogicalName|msdyn_condition|
+|MaxLength|10000|
+|RequiredLevel|None|
+|Type|Memo|
 
 
-
-### <a name="BKMK_msdyn_displayname"></a> msdyn_displayname
+### <a name="BKMK_msdyn_description"></a> msdyn_description
 
 |Property|Value|
 |--------|-----|
-|Description|Display Name for context variable.|
-|DisplayName|Display Name|
+|Description|The Skill Attachment Rule's Description|
+|DisplayName|Description|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_displayname|
+|LogicalName|msdyn_description|
 |MaxLength|100|
 |RequiredLevel|None|
 |Type|String|
 
 
-### <a name="BKMK_msdyn_entitylogicalname"></a> msdyn_entitylogicalname
+### <a name="BKMK_msdyn_expression"></a> msdyn_expression
 
 |Property|Value|
 |--------|-----|
-|Description|Logical Name of Entity Reference.|
-|DisplayName|Entity Logical Name|
-|FormatName|Text|
+|Description|The Skill Attachment Rule's Expression|
+|DisplayName|Expression|
+|Format|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_entitylogicalname|
-|MaxLength|100|
+|LogicalName|msdyn_expression|
+|MaxLength|10000|
 |RequiredLevel|None|
-|Type|String|
+|Type|Memo|
 
 
-### <a name="BKMK_msdyn_isdisplayable"></a> msdyn_isdisplayable
+### <a name="BKMK_msdyn_liveworkstream"></a> msdyn_liveworkstream
 
 |Property|Value|
 |--------|-----|
-|Description|(Currently Unused)|
-|DisplayName|Displayable|
+|Description|Unique identifier for Work Stream associated with Skill Attachment Rule.|
+|DisplayName|Work Stream|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_isdisplayable|
-|RequiredLevel|None|
-|Type|Boolean|
-
-#### msdyn_isdisplayable Options
-
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
-
-**DefaultValue**: True
-
-
-
-### <a name="BKMK_msdyn_islist"></a> msdyn_islist
-
-|Property|Value|
-|--------|-----|
-|Description|(Currently Unused)|
-|DisplayName|IsList|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_islist|
-|RequiredLevel|None|
-|Type|Boolean|
-
-#### msdyn_islist Options
-
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
-
-**DefaultValue**: False
-
-
-
-### <a name="BKMK_msdyn_ismodifiable"></a> msdyn_ismodifiable
-
-|Property|Value|
-|--------|-----|
-|Description|(Currently Unused)|
-|DisplayName|Modifiable|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_ismodifiable|
-|RequiredLevel|None|
-|Type|Boolean|
-
-#### msdyn_ismodifiable Options
-
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
-
-**DefaultValue**: True
-
-
-
-### <a name="BKMK_msdyn_issystemdefined"></a> msdyn_issystemdefined
-
-|Property|Value|
-|--------|-----|
-|Description|(Currently Unused)|
-|DisplayName|System Defined|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_issystemdefined|
-|RequiredLevel|None|
-|Type|Boolean|
-
-#### msdyn_issystemdefined Options
-
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
-
-**DefaultValue**: False
-
-
-
-### <a name="BKMK_msdyn_liveworkstreamid"></a> msdyn_liveworkstreamid
-
-|Property|Value|
-|--------|-----|
-|Description|Unique identifier of the associated workstream|
-|DisplayName|Work stream|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_liveworkstreamid|
+|LogicalName|msdyn_liveworkstream|
 |RequiredLevel|ApplicationRequired|
 |Targets|msdyn_liveworkstream|
 |Type|Lookup|
@@ -276,34 +174,34 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|String|
 
 
-### <a name="BKMK_msdyn_ocliveworkstreamcontextvariableId"></a> msdyn_ocliveworkstreamcontextvariableId
+### <a name="BKMK_msdyn_rulejson"></a> msdyn_rulejson
+
+|Property|Value|
+|--------|-----|
+|Description|The Skill Attachment Rule's output|
+|DisplayName|Rule Json|
+|Format|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_rulejson|
+|MaxLength|10000|
+|RequiredLevel|None|
+|Type|Memo|
+
+
+### <a name="BKMK_msdyn_skillattachmentruleitemId"></a> msdyn_skillattachmentruleitemId
 
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for entity instances|
-|DisplayName|Context variable|
+|DisplayName|Skill Attachment Rule|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |IsValidForUpdate|False|
-|LogicalName|msdyn_ocliveworkstreamcontextvariableid|
+|LogicalName|msdyn_skillattachmentruleitemid|
 |RequiredLevel|SystemRequired|
 |Type|Uniqueidentifier|
-
-
-### <a name="BKMK_msdyn_relationshipname"></a> msdyn_relationshipname
-
-|Property|Value|
-|--------|-----|
-|Description|Name of the relationship between LiveWorkItem and Referenced Entity|
-|DisplayName|Relation Ship Name|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_relationshipname|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
 
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
@@ -357,7 +255,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Status of the Context variable|
+|Description|Status of the Skill Attachment Rule|
 |DisplayName|Status|
 |IsValidForCreate|False|
 |IsValidForForm|True|
@@ -379,7 +277,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Reason for the status of the Context variable|
+|Description|Reason for the status of the Skill Attachment Rule|
 |DisplayName|Status Reason|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -447,7 +345,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 - [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
 - [ModifiedOnBehalfByName](#BKMK_ModifiedOnBehalfByName)
 - [ModifiedOnBehalfByYomiName](#BKMK_ModifiedOnBehalfByYomiName)
-- [msdyn_liveworkstreamidName](#BKMK_msdyn_liveworkstreamidName)
+- [msdyn_liveworkstreamName](#BKMK_msdyn_liveworkstreamName)
 - [OwnerIdName](#BKMK_OwnerIdName)
 - [OwnerIdYomiName](#BKMK_OwnerIdYomiName)
 - [OwningBusinessUnit](#BKMK_OwningBusinessUnit)
@@ -694,7 +592,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Type|String|
 
 
-### <a name="BKMK_msdyn_liveworkstreamidName"></a> msdyn_liveworkstreamidName
+### <a name="BKMK_msdyn_liveworkstreamName"></a> msdyn_liveworkstreamName
 
 |Property|Value|
 |--------|-----|
@@ -704,7 +602,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |IsLocalizable|False|
 |IsValidForForm|False|
 |IsValidForRead|True|
-|LogicalName|msdyn_liveworkstreamidname|
+|LogicalName|msdyn_liveworkstreamname|
 |MaxLength|100|
 |RequiredLevel|None|
 |Type|String|
@@ -810,48 +708,69 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|None|
 |Type|BigInt|
 
+<a name="onetomany"></a>
+
+## One-To-Many Relationships
+
+Listed by **SchemaName**.
+
+
+### <a name="BKMK_msdyn_skillattachmentruleitem_target"></a> msdyn_skillattachmentruleitem_target
+
+Same as msdyn_skillattachmenttarget entity [msdyn_skillattachmentruleitem_target](msdyn_skillattachmenttarget.md#BKMK_msdyn_skillattachmentruleitem_target) Many-To-One relationship.
+
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_skillattachmenttarget|
+|ReferencingAttribute|msdyn_skillattachmentruleitemid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_skillattachmentruleitem_target|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
+
 <a name="manytoone"></a>
 
 ## Many-To-One Relationships
 
 Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related entity. Listed by **SchemaName**.
 
-- [lk_msdyn_ocliveworkstreamcontextvariable_createdby](#BKMK_lk_msdyn_ocliveworkstreamcontextvariable_createdby)
-- [lk_msdyn_ocliveworkstreamcontextvariable_createdonbehalfby](#BKMK_lk_msdyn_ocliveworkstreamcontextvariable_createdonbehalfby)
-- [lk_msdyn_ocliveworkstreamcontextvariable_modifiedby](#BKMK_lk_msdyn_ocliveworkstreamcontextvariable_modifiedby)
-- [lk_msdyn_ocliveworkstreamcontextvariable_modifiedonbehalfby](#BKMK_lk_msdyn_ocliveworkstreamcontextvariable_modifiedonbehalfby)
-- [user_msdyn_ocliveworkstreamcontextvariable](#BKMK_user_msdyn_ocliveworkstreamcontextvariable)
+- [lk_msdyn_skillattachmentruleitem_createdby](#BKMK_lk_msdyn_skillattachmentruleitem_createdby)
+- [lk_msdyn_skillattachmentruleitem_createdonbehalfby](#BKMK_lk_msdyn_skillattachmentruleitem_createdonbehalfby)
+- [lk_msdyn_skillattachmentruleitem_modifiedby](#BKMK_lk_msdyn_skillattachmentruleitem_modifiedby)
+- [lk_msdyn_skillattachmentruleitem_modifiedonbehalfby](#BKMK_lk_msdyn_skillattachmentruleitem_modifiedonbehalfby)
+- [user_msdyn_skillattachmentruleitem](#BKMK_user_msdyn_skillattachmentruleitem)
 
 
-### <a name="BKMK_lk_msdyn_ocliveworkstreamcontextvariable_createdby"></a> lk_msdyn_ocliveworkstreamcontextvariable_createdby
-
-**Added by**: System Solution Solution
-
-See systemuser Entity [lk_msdyn_ocliveworkstreamcontextvariable_createdby](systemuser.md#BKMK_lk_msdyn_ocliveworkstreamcontextvariable_createdby) One-To-Many relationship.
-
-### <a name="BKMK_lk_msdyn_ocliveworkstreamcontextvariable_createdonbehalfby"></a> lk_msdyn_ocliveworkstreamcontextvariable_createdonbehalfby
+### <a name="BKMK_lk_msdyn_skillattachmentruleitem_createdby"></a> lk_msdyn_skillattachmentruleitem_createdby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_msdyn_ocliveworkstreamcontextvariable_createdonbehalfby](systemuser.md#BKMK_lk_msdyn_ocliveworkstreamcontextvariable_createdonbehalfby) One-To-Many relationship.
+See systemuser Entity [lk_msdyn_skillattachmentruleitem_createdby](systemuser.md#BKMK_lk_msdyn_skillattachmentruleitem_createdby) One-To-Many relationship.
 
-### <a name="BKMK_lk_msdyn_ocliveworkstreamcontextvariable_modifiedby"></a> lk_msdyn_ocliveworkstreamcontextvariable_modifiedby
-
-**Added by**: System Solution Solution
-
-See systemuser Entity [lk_msdyn_ocliveworkstreamcontextvariable_modifiedby](systemuser.md#BKMK_lk_msdyn_ocliveworkstreamcontextvariable_modifiedby) One-To-Many relationship.
-
-### <a name="BKMK_lk_msdyn_ocliveworkstreamcontextvariable_modifiedonbehalfby"></a> lk_msdyn_ocliveworkstreamcontextvariable_modifiedonbehalfby
+### <a name="BKMK_lk_msdyn_skillattachmentruleitem_createdonbehalfby"></a> lk_msdyn_skillattachmentruleitem_createdonbehalfby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_msdyn_ocliveworkstreamcontextvariable_modifiedonbehalfby](systemuser.md#BKMK_lk_msdyn_ocliveworkstreamcontextvariable_modifiedonbehalfby) One-To-Many relationship.
+See systemuser Entity [lk_msdyn_skillattachmentruleitem_createdonbehalfby](systemuser.md#BKMK_lk_msdyn_skillattachmentruleitem_createdonbehalfby) One-To-Many relationship.
 
-### <a name="BKMK_user_msdyn_ocliveworkstreamcontextvariable"></a> user_msdyn_ocliveworkstreamcontextvariable
+### <a name="BKMK_lk_msdyn_skillattachmentruleitem_modifiedby"></a> lk_msdyn_skillattachmentruleitem_modifiedby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [user_msdyn_ocliveworkstreamcontextvariable](systemuser.md#BKMK_user_msdyn_ocliveworkstreamcontextvariable) One-To-Many relationship.
+See systemuser Entity [lk_msdyn_skillattachmentruleitem_modifiedby](systemuser.md#BKMK_lk_msdyn_skillattachmentruleitem_modifiedby) One-To-Many relationship.
+
+### <a name="BKMK_lk_msdyn_skillattachmentruleitem_modifiedonbehalfby"></a> lk_msdyn_skillattachmentruleitem_modifiedonbehalfby
+
+**Added by**: System Solution Solution
+
+See systemuser Entity [lk_msdyn_skillattachmentruleitem_modifiedonbehalfby](systemuser.md#BKMK_lk_msdyn_skillattachmentruleitem_modifiedonbehalfby) One-To-Many relationship.
+
+### <a name="BKMK_user_msdyn_skillattachmentruleitem"></a> user_msdyn_skillattachmentruleitem
+
+**Added by**: System Solution Solution
+
+See systemuser Entity [user_msdyn_skillattachmentruleitem](systemuser.md#BKMK_user_msdyn_skillattachmentruleitem) One-To-Many relationship.
 
 ### See also
 
