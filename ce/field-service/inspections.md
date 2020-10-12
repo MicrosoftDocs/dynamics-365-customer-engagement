@@ -33,7 +33,33 @@ Field Service inspections are digital forms that technicians use to quickly and 
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/inspections-mobile-2020-tablet-phone.png)
+> ![Screenshot of an inspection on a tablet and a phone](./media/inspections-mobile-2020-tablet-phone.png)
+
+With a simple drag and drop interface, inspections are much easier to create than other digital forms and easier for technicians to fill out compared to paper forms; plus inspection answers are stored in the Common Data Service (CDS) making it easy to report on results and fit inspections into your automated business processes.
+
+Other important inspection capabilities include: 
+
+1. Offline -
+2. Customer assets - Inspection can be associated to an asset and customer can track history of inspections for the asset. 
+3. Version management - which enable customers to make future additions to questions without getting partner involved
+4. 
+
+
+1,2,5,8,10
+
+1.	Version management 
+
+3.	Upcoming support for barcode scans, media capture, creating compact question experience on mobile, follow up actions, standalone inspections to name a few.
+4.	In future, out of box analytics capabilities that they would not need to invest it.
+5.	
+6.	Migration costs would be there if they decide to shift in future. 
+7.	Its more of a trade off between choosing right approach today even with few gaps rather than going custom and then investing constantly or missing on investments that we are making.
+8.	They can go with a hybrid where they use our OOB inspections and whatever is missing like populating certain more data ..they can use custom entities for that.
+9.	As for Powerapps vs Inspections I see one major difference that if the customer has multiple inspection forms then OOB one makes more sense than Powerapps. 
+
+11. multiple inspections as part of a work order
+
+ 
 
 Compared to work order incident types and service tasks, using inspections has additional benefits:
 
