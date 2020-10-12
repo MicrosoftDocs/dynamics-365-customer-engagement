@@ -6,7 +6,7 @@ ms.author: nenellim
 manager: shujoshi
 ms.date: 08/03/2020
 ms.service: 
-  - "dynamics-365-customerservice"
+  "dynamics-365-customerservice"
 ms.topic: article
 ---
 
@@ -26,8 +26,8 @@ Further, you can filter the conversations using the **Filter by queues** or **Fi
 
 The **Omnichannel Ongoing Conversations** is available in:
 
--	[Unified Service Desk](#unified-service-desk)
--	[Omnichannel for Customer Service](#omnichannel-for-customer-service)
+- [Unified Service Desk](#unified-service-desk)
+- [Omnichannel for Customer Service](#omnichannel-for-customer-service)
 
 ### Unified Service Desk
 
