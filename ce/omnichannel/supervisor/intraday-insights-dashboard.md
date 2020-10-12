@@ -40,17 +40,17 @@ This section of the dashboard consists of the following KPIs.
 | KPI | Description |
 |-------|-------|
 | Average wait time per conversation | For a conversation, its wait time is defined as the cumulative wait times of its individual sessions. This KPI is calculated as an average that considers only closed conversations. Session wait time is defined as the elapsed time between the session's creation and the time an agent is assigned. |
-| Exceeding 5 mins wait time | The number of conversations that are in an open state and have exceeded the time in the queue threshold of 5 minutes. |
+| Exceeding 5 mins wait time | The number of conversations that are in an open status reason and have exceeded the time in the queue threshold of 5 minutes. |
 | Average handle time per conversation | For a conversation, its handle time is defined as the cumulative handle times of its individual sessions. This KPI is calculated as an average that considers only closed conversations. Session handle time is defined as the elapsed time between the session's creation and the time it is closed. |
 | Exceeding 5 mins handle time | The number of active conversations that are exceeding the handle time threshold of five minutes. |
-| Conversation by status | The distribution of conversations across open, active, waiting, wrap up, and closed state. |
+| Conversation by status | The distribution of conversations across open, active, waiting, wrap up, and closed status reason. |
 | Open conversations | The distribution of open conversations in pick mode and push mode respectively. |
 
 ## Agent insights
 
 The **Agent insights** section provides information on the latest KPIs, the health of queues, the status of agents on a given day.
 
-The following screen shows an example of the **Agent insights** section.
+An example of the **Agent insights** section is as follows.
 
 > [!div class=mx-imgBorder]
 > ![Agent insights dashboard](../media/supervisor-agent-insights-dashboard.png "Agent insights dashboard")
@@ -96,7 +96,7 @@ The following screen shows the options for viewing agent information in a specif
 > [!div class=mx-imgBorder]
 > ![View agent information](../media/view-agent-info-queues.png "View agent information")
 
-This section of the dashboard consists of the following KPIs:
+This section of the dashboard consists of the following KPIs.
 
 | KPI | Description |
 |-------|-------|
@@ -104,7 +104,7 @@ This section of the dashboard consists of the following KPIs:
 | Status | The current presence of the agent: available, offline, do not disturb, or busy. |
 | Available capacity | The current free capacity with the agent. |
 | Total capacity | The total capacity configured for an agent. |
-| Ongoing Conversations | All the conversations that are currently in active, waiting or wrap-up states. |
+| Ongoing Conversations | All the conversations that are currently in active, waiting or wrap-up status reason. |
 | Avg handle time (min) | The average of an individual agent's handle time in minutes for all closed conversations that the agent is involved in. |
 
 You can also view specific details about an agent by right-clicking the agent's name, and then selecting **Drill through** > **Agent details**, as shown on the following screen.
@@ -121,7 +121,6 @@ This section of the dashboard consists of the following details:
 
 | Detail | Description |
 |-------|-------|
-| Email ID | The email address of the agent. |
 | Status | The agent's current presence: available, offline, do not disturb, or busy. |
 | Status since | The amount of time that this agent has been in their current presence. |
 | Available capacity | The agent's current free capacity. | 
@@ -140,7 +139,7 @@ This section of the dashboard consists of the following details:
 | Workstream | The workstream that the conversation is assigned to. |
 | Channel | The channel that the conversation was created from. |
 | Queue | The queue that the conversation is currently part of. |
-| State | The current conversation state. |
+| Status reason | The current conversation status. |
 | Customer sentiment | The current sentiment. |
 | Created on | The conversation creation time. |
 | Capacity and status timeline | Every change in capacity or status is plotted on the timeline. Negative capacity is displayed if a supervisor assigns a conversation to an agent that is beyond the agent's available capacity. |
