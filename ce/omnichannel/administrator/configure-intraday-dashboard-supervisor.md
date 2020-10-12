@@ -132,7 +132,7 @@ You must configure the Power BI workspace using the **Omnichannel Administration
     > [!div class=mx-imgBorder]
     > ![Power BI workspace configuration settings page](../media/supervisor-admin-powerbi-configuration-settings.png "Power BI workspace configuration settings page")
 
-4. Set the **Show intraday insights** option to **Yes** to make intraday insights an app tab on the home session for supervisors. 
+4. Set the **Show intraday insights** toggle to **Yes** to make intraday insights an app tab on the home session for supervisors. 
 
     > [!div class=mx-imgBorder]
     > ![Enable display of intraday insights on Omnichannel for Customer Service app](../media/supervisor-admin-intraday-insights-dashboard-oc-on-web.png "Enable display of intraday insights on Omnichannel for Customer Service app")
