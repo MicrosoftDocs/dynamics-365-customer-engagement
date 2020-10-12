@@ -1,16 +1,16 @@
 ---
 title: Share knowledge articles in the Omnichannel for Customer Service | MicrosoftDocs
-description: Understand how you can share knowledge articles in the Omnichannel for Customer Service
-author: kabala
-ms.author: kabala123
+description: Understand how you can share knowledge articles in Omnichannel for Customer Service
+author: platkat 
+ms.author: ktaylor
 manager: shujoshi
-ms.date: 12/27/2019
+ms.date: 10/09/2020
 ms.topic: article
 ms.service: 
   - "dynamics-365-customerservice"
 ---
 
-# Share knowledge articles in the Omnichannel for Customer Service
+# Share knowledge articles in Omnichannel for Customer Service
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
