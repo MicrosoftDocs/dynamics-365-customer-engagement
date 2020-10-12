@@ -79,7 +79,7 @@ For more information about the agent search experience, see [Search for knowledg
 
 > [!NOTE]
 >
-> Custom roles must have **Read**, **Create**, **Append**, and **AppendTo** access to the following entities in order to see search results from other search providers:
+> Custom roles must have **Read**, **Create**, **Append**, and **AppendTo** access to the following entities to see search results from other search providers:
 > - Knowledge Federated Article
 > -	Knowledge FederatedArticle Incident
    
