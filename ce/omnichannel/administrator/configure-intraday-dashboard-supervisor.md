@@ -100,7 +100,7 @@ Review the following prerequisites before configuring the supervisor insights: 
       d. Select **Apply**.
 
 
-### Configure Intraday insights for the Omnichannel for Customer Service app on the web
+### Configure intraday insights for the Omnichannel for Customer Service app on the web
 
 Follow these steps to configure Intraday insights for the Omnichannel for Customer Service app on the web:
 
@@ -318,6 +318,6 @@ To learn more, see [Client caching overview](https://docs.microsoft.com/dynamics
 
 ### See also
 
-[Introduction to Intraday insights](../supervisor/intro-intraday-insights-dashboard.md)
+[Introduction to intraday insights](../supervisor/intro-intraday-insights-dashboard.md)
 
-[Customize KPIs for Intraday insights](customize-kpis-intraday-insights.md)
+[Customize KPIs for intraday insights](customize-kpis-intraday-insights.md)
