@@ -37,30 +37,13 @@ Field Service inspections are digital forms that technicians use to quickly and 
 
 With a simple drag and drop interface, inspections are much easier to create than other digital forms and easier for technicians to fill out compared to paper forms; plus inspection answers are stored in the Common Data Service (CDS) making it easy to report on results and fit inspections into your automated business processes.
 
-Other important inspection capabilities include: 
+Other reasons organizations choose to use Field Service Inspections include: 
 
-1. Offline -
-2. Customer assets - Inspection can be associated to an asset and customer can track history of inspections for the asset. 
-3. Version management - which enable customers to make future additions to questions without getting partner involved
-4. 
-
-
-1,2,5,8,10
-
-1.	Version management 
-
-3.	Upcoming support for barcode scans, media capture, creating compact question experience on mobile, follow up actions, standalone inspections to name a few.
-4.	In future, out of box analytics capabilities that they would not need to invest it.
-5.	
-6.	Migration costs would be there if they decide to shift in future. 
-7.	Its more of a trade off between choosing right approach today even with few gaps rather than going custom and then investing constantly or missing on investments that we are making.
-8.	They can go with a hybrid where they use our OOB inspections and whatever is missing like populating certain more data ..they can use custom entities for that.
+1. **Offline support** - technicians can view and fill out inspections on their mobile phones or tablet without internet access and sync answers once connectivity is restored (cellular or WiFi). 
+2. **Customer assets** - inspections can be associated to assets allowing users to see a history of all inspections for a particular piece of equipment. 
+3. **Version management** - adminstrators can continuously update and publish inspections to accommodate changing processes and evolving business needs.
 
 
-11. multiple inspections as part of a work order
-
-
- 
 
 Inspections are easy to create and use, involving the following steps: 
 
@@ -363,7 +346,7 @@ If an inspection question is required, the technician will not be able to mark *
 
 ### Field Service Inspections vs Power Apps inspections
 
-9.	As for Powerapps vs Inspections I see one major difference that if the customer has multiple inspection forms then OOB one makes more sense than Powerapps. 
+Field Service Inspections are designed to be easy for business users to create and use and require no additional training. As an exmaple, if you can create a survey with Microsoft Forms Pro you can create an inspection. This is different from Power App inspections that require extensive knowledge of the Power Apps platform and may require coding. Furthermore, it is easy to associate multiple Field Service Inspections to multiple assets all as part of a single work order and version management capabilities make it easy to keep edit inspections.
 
 
 ### Field Service Inspections vs Work Order Service Tasks
@@ -371,5 +354,5 @@ If an inspection question is required, the technician will not be able to mark *
 Compared to work order incident types and service tasks, using inspections has additional benefits:
 
 - **Easier to create**: administrators can quickly create an inspection with a drag-and-drop interface without needing to create new entities and fields.
-- **Easier to fill out**: technicians can quickly enter responses for each inspection question and save all of them at once, rather than having to open and close multiple records.
-- **More flexible and robust**: Field Service inspections have many question format and validation options, such as multi-option select, mandatory fields, images, attachments, and more.
+- **Easier to fill out**: technicians can quickly enter responses for each inspection question and save all of them at once, rather than having to open and close multiple Work Order Service Task records.
+- **More flexible and robust**: Field Service inspections have many question formats and validation options, such as multi-option select, mandatory fields, images, attachments, and more.
