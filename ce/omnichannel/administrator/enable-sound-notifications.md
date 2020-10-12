@@ -36,10 +36,13 @@ When you enable sound settings, the options to personalize settings are availabl
 
    - **Play Sound:** Set the toggle to **Yes**.
    - **Repeat until answered:** Set the toggle to **Yes** if you want the sound to be played till the agent responds.
-   - **Sound:** Accept the default setting or search and select a different audio file. You can use the **New Audio File** option to upload and use an audio file of your choice.
+   - **Sound:** Accept the default setting or search and select a different audio file. You can use the **New Audio File** option to upload and use an audio file of your choice. You also have the option to test and listen the audio file before finalizing on setting it as the audio.
    - **Volume:** Accept the default setting or use the slider to adjust the volume.
 
      > ![Sound notification settings](../media/sound-notification-settings.png "Sound notification settings")
+  
+  - **Reset to default settings:** When you customize any setting, the button is enabled for you to reset to the out-of-the-box settings.
+
 5. In the **Incoming messages for open sessions** section, customize the options for sound notifications for messages in open sessions, such as live chat or a social channel.
     > ![Sound notification settings for open sessions](../media/sound-notification-open-session.png "Sound notification settings for open sessions")
 6. Select **Save.**
