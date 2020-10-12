@@ -14,7 +14,7 @@ manager: "shujoshi"
 
 Service request case associated with a contract.
 
-**Added by**: Service Solution
+**Added by**: Service Solution 
 
 
 ## Messages
