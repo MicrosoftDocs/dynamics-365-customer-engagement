@@ -6,7 +6,7 @@ ms.author: kabala
 manager: shujoshi
 ms.date: 02/03/2020
 ms.service: 
-  - "dynamics-365-customerservice"
+  "dynamics-365-customerservice"
 ms.topic: article
 ---
 # View a customer summary to get available information about a customer
@@ -116,9 +116,7 @@ This section displays activities related to the case and the customer in the for
 > [!div class='mx-imgBorder']
 > ![The Timeline section on the Customer summary page](../../media/customer-summary-recent-activities.PNG "The Timeline section on the Customer summary page")
 
-## Preview: Agent script
-
-[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
+## Agent script
 
 An agent script in Omnichannel for Customer Service provides guidance for what you, the agent, should do when you get a customer issue. It helps ensure that you share only information that's been endorsed by your company. Agent scripts help you to be accurate and effective, while being faster and more efficient in terms of customer handling.
 

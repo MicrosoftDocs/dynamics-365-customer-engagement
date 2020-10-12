@@ -4,7 +4,7 @@ description: "Learn about the intraday insights dashboard for supervisors"
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 09/14/2020
+ms.date: 10/12/2020
 ms.service: 
   "dynamics-365-customerservice"
 ms.topic: article
@@ -17,7 +17,6 @@ ms.topic: article
 The Omnichannel intraday insights dashboard provides information about the health and key performance indicators (KPIs) for your organization. This dashboard consists of two sections:
 
 -	[Conversations insights](#conversations-insights)
-
 -	[Agent insights](#agent-insights)
 
 The information displayed in these sections are displayed based on the conversations closed in the last 24 hours and refreshes every 15 minutes.
@@ -60,15 +59,16 @@ This section of the dashboard consists of the following KPIs.
 
 | KPI | Description |
 |-------|-------|
+| Agent availability | The distribution of agents by presence status. The presence status of agents can be available, busy, busy-do not disturb, away, offline, or your custom defined status. |
 | Average handle time per session | The average time that an agent takes to handle a session for conversation. |
 | Average response time per session | The average time that an agent takes to accept a conversation from when assigned. |
-| Agent sessions abandon rate | The percentage of conversation sessions abandoned by agents due to timed-out or rejected requests. | 
-| Agent availability | The distribution of agents by presence status. The presence status of agents can be available, busy, busy-do not disturb, away, offline, or your custom defined status. |
-| Sessions abandoned by agents | The number of sessions that are abandoned by agents. | 
+| Agent sessions abandon rate | The percentage of conversation sessions abandoned by agents due to timed-out or rejected requests. |
 | Agents with longest handle time | The list of agents with highest handle time. |
-| Total sessions transferred | The number of sessions that are transferred to agents and supervisors, along with the break up between the two. | 
+| Sessions abandoned by agents | The number of sessions that are abandoned by agents. |
+| Total sessions transferred | The number of sessions that are transferred to agents and supervisors, along with the break up between the two. |
 | Average consult time | The average time spent by agents on consultation for other agents or supervisor, across sessions. |
-| Conversations per online agent | The average number of active conversations and being handled by agents whose status is currently available, busy or busy-do not disturb. | 
+| Conversations per online agent | The average number of active conversations and being handled by agents whose status is currently available, busy or busy-do not disturb. |
+|||
 
 ### Agent Performance
 
@@ -125,11 +125,15 @@ This section of the dashboard consists of the following details:
 | Status since | The amount of time that this agent has been in their current presence. |
 | Available capacity | The agent's current free capacity. | 
 | Total capacity | The total capacity configured for an agent. |
+| Logged in duration 24 hrs | The total duration for which the agent had been logged in during the past 24 hours.|
+|Logged off duration 24 hrs | The total duration for which the agent had been logged out during the past 24 hours. |
+| Logged in duration 12 hrs | The total duration for which the agent had been logged in during the past 12 hours.|
+|Logged off duration 12 hrs | The total duration for which the agent had been logged out during the past 12 hours. |
 | Queues | The queues that the agent is mapped to. |
 | Skills | The skills that are assigned to the agent.|
 | Conversation status reason | The status of the latest conversation between the agent and a customer. | 
 | Avg handle time per session | The agent’s average amount of time per session. |
-| Avg response time per session | The agent’s average amount of response time. | 
+| Logged in states duration | The agent's presence when the agent is logged on. The state reflects the base presence and not the custom presence.|
 | Subject | For an identified customer, the customer's name is displayed with the subject. For unidentified customers, static text is displayed with a "Visitor" label. For information about identified customers, see [Automatically identify customers](../administrator/record-identification-rule.md). |
 | Participation mode | Primary indicates that agent is engaged in a session. Consult means the agent is engaged in a consulting session with another agent. Monitor means this agent is monitoring the session. |
 | Workstream | The workstream that the conversation is assigned to. |
@@ -148,8 +152,8 @@ You can filter the information by selecting the Queues that are custom defined f
 > ![Queue selection](../media/supervisor-queue-selector.png "Queue selection")
 
 
+
 ### See also
 
--  [Introduction to intraday insights dashboard](intro-intraday-insights-dashboard.md)
-
--  [View and understand Ongoing Conversations dashboard](ongoing-conversations-dashboard.md)
+[Introduction to intraday insights dashboard](intro-intraday-insights-dashboard.md)  
+[View and understand Ongoing Conversations dashboard](ongoing-conversations-dashboard.md)  

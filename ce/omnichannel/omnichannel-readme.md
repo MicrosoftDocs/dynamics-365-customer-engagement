@@ -41,7 +41,7 @@ In your entity records channel, if you see an error that states: **You must inst
 
 - If you use Omnichannel for Customer Service in a production environment, go to your Omnichannel for Customer Service provisioning page and install the latest version. If there are no upgrade available, contact Microsoft support.
 
-- If you use Omnichannel for Customer Service preview or trial version, contact Microsoft support.
+- If you use trial version of Omnichannel for Customer Service, contact Microsoft support.
 
 ## Closed conversations don't appear in the Closed work items stream and Closed conversations view
 
