@@ -2,7 +2,7 @@
 title: "Map form data to entities with custom Workflows (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to map form data to entities with custom Workflows"
 keywords: customer journey
-ms.date: 09/15/2020
+ms.date: 09/22/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -54,7 +54,7 @@ In this example, we'll create a Workflow to update a custom entity called “Cre
 
 The credit card application Workflow requires the following general processes:
 - Check if the submission is coming from a form the workflow can handle. The simplest method to do this is selecting submissions from a specific form.
-- Extract the submitted values so that they available in the Workflow (extract value).
+- Extract the submitted values so that they available in the Workflow (**extract value**).
 - Combine multiple values into a single structure that is suitable for entity matching or creation (**set JSON property**).
 - Create an entity with properties that were set in the previous step. Alternatively, the Workflow can search for a matching entity and either update the found entity or create a new one if not found (**create entity**, **update entity**, and **match entity actions**).
 
@@ -109,7 +109,7 @@ The following steps detail the actions required to create the credit card applic
 
           ![Complete Workflow steps](media/entity-mapping-complete-workflow.png "Complete Workflow steps")
 
-1. You can find the submissions related to your custom entity by selecting the **Advanced find** button ![Advanced find button](media/advanced_filter_icon.png "Advanced find button") on the top ribbon in the Marketing app. In each submission, you can find submission values under the **Form** > **Submissions** tab.
+<!-- 1. You can find the submissions related to your custom entity by selecting the **Advanced find** button ![Advanced find button](media/advanced_filter_icon.png "Advanced find button") on the top ribbon in the Marketing app. In each submission, you can find submission values under the **Form** > **Submissions** tab. -->
 
 ### See also
 

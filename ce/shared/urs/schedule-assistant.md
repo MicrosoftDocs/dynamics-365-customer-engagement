@@ -152,9 +152,6 @@ To learn more about the schedule assistant and the many ways it can be put to us
 
 ### Time zone for schedule assistant search results
 
-> [!Note]
-> As of August 2020, this feature is available as early access. For more information, see the article on [how to opt-in to early access features](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates#how-to-enable-early-access-updates).
-
 You can view and edit the time zone the schedule assistant's search results are displayed in by triggering the schedule assistant and selecting the gear icon in the top-right corner.
 
 > [!div class="mx-imgBorder"]

@@ -1,6 +1,7 @@
 # [Dynamics 365 Customer Service](help-hub.md)
 ## [Overview](overview.md)
 ## [What's new](whats-new-customer-service.md)
+## [Deprecations in Customer Service](deprecations-customer-service.md)
 ## [Availability of Customer Service Hub](availability-customer-service-hub.md)
 ## [Learning Catalog](learning-catalog.md)
 ### [Business Decision Maker](learning-bdm.md)
@@ -15,11 +16,11 @@
 
 ### Customer Service workspace
 
-#### Agent and supervisor experience
-##### [Introduction to Customer Service workspace](csw-overview.md)
-##### [Customer Service workspace system requirements](customer-service-workspace-system-requirements.md)
-##### [Overview of the productivity pane](csw-productivity-pane.md)
-##### [View AI suggested similar cases and knowledge articles](csw-view-ai-suggested-cases-knowledge-articles.md)
+#### [Introduction to Customer Service workspace](csw-overview.md)
+#### [Customer Service workspace system requirements](customer-service-workspace-system-requirements.md)
+#### [Overview of productivity pane](csw-productivity-pane.md)
+#### [View AI suggested similar cases and knowledge articles](csw-view-ai-suggested-cases-knowledge-articles.md)
+#### [Search knowledge articles in productivity pane](csw-search-knowledge-articles.md)
 
 ### Customer Service Hub
 #### [Introduction to Customer Service Hub](user-guide-customer-service-hub.md)
@@ -70,8 +71,8 @@
 #### [Define parent and child case settings](define-settings-parent-child-cases.md)
 #### [Automatically route cases using routing rule sets](create-rules-automatically-route-cases.md)
 #### [Automatically create or update records in Customer Service Hub](automatically-create-update-records.md)
-#### [Automatically create and update records](set-up-rules-to-automatically-create-or-update-records.md)
-#### [Automatically create a case from an email](automatically-create-case-from-email.md)
+#### [Set up rules to automatically create or update records](set-up-rules-to-automatically-create-or-update-records.md)
+##### [Automatically create a case from an email in web client](automatically-create-case-from-email.md)
 #### [Define subjects to categorize cases](../admin/define-subjects-categorize-cases-products-articles.md)
 
 ### Service Terms
@@ -87,9 +88,10 @@
 #### [Create article templates](../admin/create-templates-articles.md)
 
 ### Knowledge Base Management
-#### [Set up knowledge management using embedded knowledge search](set-up-knowledge-management-embedded-knowledge-search.md)
+#### [Set up knowledge management using settings](set-up-knowledge-management-embedded-knowledge-search.md)
 #### [Create and manage categories](create-manage-categories.md)
 #### [Create knowledge article template](create-templates-knowledge-article.md)
+#### [Set up search providers](set-up-search-providers.md)
 
 ### Similar Record Suggestions
 #### [Use advanced similarity rules to view similar case suggestions](suggest-similar-cases-for-a-case.md)
@@ -177,7 +179,7 @@
 
 ## Migration solutions
 
-### [Migration tool for automatic record creation rules and service-level agreements](migrate-automatic-record-creation-and-sla-agreements.md)
+### [Migrate automatic record creation rules and service-level agreements](migrate-automatic-record-creation-and-sla-agreements.md)
 ### [Contract to entitlements migration strategy](contract-to-entitlement-migration.md)
 
 
@@ -206,3 +208,5 @@
 ## [Omnichannel for Customer Service Guide](https://docs.microsoft.com/dynamics365/omnichannel/omnichannel-customer-service-guide)
 ## [Unified Service Desk Guide](https://docs.microsoft.com/dynamics365/unified-service-desk/unified-service-desk)
 ## [Dynamics 365 Channel Integration Framework Guide](https://docs.microsoft.com/dynamics365/customer-service/channel-integration-framework/channel-integration-framework)
+
+## [Dynamics 365 Customer Service Insights](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/overview)

@@ -4,23 +4,23 @@ description: See how you can effectively search knowledge articles in the Custom
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 08/26/2020
+ms.date: 10/05/2020
 ms.topic: article
-ms.service: 
-  - dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
+ms.service: dynamics-365-customerservice
+ms.custom: dyn365-customerservice
 search.audienceType: 
-  - admin
-  - customizer
-  - enduser
+  admin
+  customizer
+  enduser
 search.app: 
-  - D365CE
-  - D365CS
+  D365CE
+  D365CS
+  
 ---
 
 # Search for knowledge articles in the Customer Service Hub
- Knowledge base search in the Customer Service Hub app lets you search for relevant knowledge articles to resolve a case. To search for knowledge articles in a case form, select the **Knowledge Base Search** search box in the **Knowledge Base Search control** of the **Related** section.
+
+Knowledge base search in the Customer Service Hub app lets you search for relevant knowledge articles to resolve a case. To search for knowledge articles in a case form, select the **Knowledge Base Search** search box in the **Knowledge Base Search control** of the **Related** section.
 
 The search results are automatically populated based on a field your administrator configured in the **Knowledge Base Search** control properties. Out of the box, for a case this is the title of the case record.
 
@@ -28,30 +28,30 @@ For more information, see [Knowledge Base Search control](#knowledge-base-search
 
 ## Knowledge base search control powered by Relevance search 
 
-Knowledge base search in the Customer Service Hub comes with improved search functionality. The knowledge base search is enabled to use Relevance search mechanism in the knowledge base search control area, in addition to the global search area where the Relevance search mechanism was already enabled.
+Knowledge base search in the Customer Service Hub comes with improved search functionality. The knowledge base search is enabled to use Relevance Search in the knowledge base search control area, in addition to the global search area where Relevance Search is already enabled.
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [How Relevance Search works](https://docs.microsoft.com/power-platform/admin/configure-relevance-search-organization)
 
-Relevance search mechanism uses Azure search service to index and search records.  Relevance search provides improved search functionality like better relevance, highlighted search keyword text, and search within attachments and notes. With Relevance search, you can also configure searchable fields in the knowledge article entity. 
+Relevance Search uses Azure search service to index and search records. Relevance Search provides improved search functionality, like better relevance, highlighted search keyword text, and the ability to search within attachments and notes. With Relevance Search, you can also configure searchable fields in the knowledge article entity. 
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure searchable fields for Relevance Search](https://docs.microsoft.com/power-platform/admin/configure-relevance-search-organization)
 
 
 > [!NOTE]
-> To enable Relevance search for knowledge article entity, see [Enable Relevance Search](https://docs.microsoft.com/power-platform/admin/configure-relevance-search-organization) and [Select entities for Relevance Search](https://docs.microsoft.com/power-platform/admin/configure-relevance-search-organization).</br>
+> To enable Relevance Search for the knowledge article entity, see [Enable Relevance Search](https://docs.microsoft.com/power-platform/admin/configure-relevance-search-organization) and [Select entities for Relevance Search](https://docs.microsoft.com/power-platform/admin/configure-relevance-search-organization).</br>
 If Relevance search is not enabled for the entity, standard Full-text search is used. 
 
 For more information, see [Understand knowledge base search mechanisms](knowledge-base-search-methods.md).
 
 
-### Before you begin using Relevance search
+### Before you begin using Relevance Search
 
-Relevance search uses the scoring concepts as defined by Azure search. To be able to search the knowledge base using Relevance search, certain view columns should be mandatorily configured in the Quick Find view columns list. If any of these columns are deleted or missing, the search query displays an error.
+Relevance Search uses the scoring concepts as defined by Azure search. To be able to search the knowledge base using Relevance Search, certain view columns must be configured in the Quick Find view columns list. If any of these columns are deleted or missing, the search query displays an error.
 
 > [!NOTE]
 > An admin can configure the knowledge article quick find view columns list by navigating to **Settings > Customizations > Entities > Knowledge Article > Views > Quick Find View > View Columns**.
 
-Here are the required view columns:
+The following are required view columns:
 
 - Article Public Number
 - Title 
@@ -67,7 +67,7 @@ Here are the required view columns:
 
 ## Knowledge Base Search control
 
-The Customer Service Hub comes with an enhanced Knowledge Base Search that shows you the articles arranged in a single stream. Searching, sorting, and filtering the articles in the search control will be faster and more responsive with improvements to article viewability and usability.
+Customer Service Hub comes with an enhanced Knowledge Base Search that shows you articles arranged in a single stream. Searching, sorting, and filtering the articles in the search control is faster and more responsive, with improvements to article viewability and usability.
 
 When you select the **Knowledge Base Search** option in the **RELATED** section, the **Knowledge Base Search** control loads, and you can view the following:
 
@@ -89,13 +89,14 @@ When you select the **Knowledge Base Search** option in the **RELATED** section,
   13. Article date
 
 
-In the knowledge base search control, you perform the following:
+In the knowledge base search control, you can do the following:
 - Search for knowledge articles
-- Filter the articles with multiple filter options
-- Sort the knowledge articles
-- Link and unlink the knowledge article to a record
-- Email the knowledge article
+- Filter articles using multiple filter options
+- Sort knowledge articles
+- Link and unlink a knowledge article to a record
+- Email a knowledge article
 - View the knowledge article inline in the search control
+
 
 ### Display knowledge article pop outs 
 
@@ -114,9 +115,9 @@ Type a keyword in the search box to search for knowledge articles.
   > [!div class=mx-imgBorder]
   > ![Search for knowledge articles](media/search-kb-article.PNG "Search for knowledge articles using keywords")
 
-- If Relevance search is not enabled, the keywords that you enter will initiate  a search (using Full-text search mechanism) in the following fields of a knowledge article: **Title**, **Content**, **Keywords**, **Description**, and **Article Public Number**.
+- If Relevance Search is not enabled, the keywords that you enter will initiate a search (using the Full-text search mechanism) in the following fields of a knowledge article: **Title**, **Content**, **Keywords**, **Description**, and **Article Public Number**.
 
-- If Relevance search is enabled, you can configure the fields based that you want to be searched upon. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure searchable fields for Relevance Search](https://docs.microsoft.com/power-platform/admin/configure-relevance-search-organization) 
+- If Relevance Search is enabled, you can configure the fields based that you want to be searched for. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure searchable fields for Relevance Search](https://docs.microsoft.com/power-platform/admin/configure-relevance-search-organization) 
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add the Knowledge Base Search control to Main forms](add-knowledge-base-search-control-forms.md#add-the-knowledge-base-search-control-to-main-forms)
 
@@ -130,39 +131,42 @@ Agents can do the following:
 - Send an article pop out 
 - Copy and send article URLs (when preconfigured)
 
-To configure, see [Configure knowledge base article URLs](#configure-knowledge-base-article-url).
+To configure the ability to copy and send article URLs, see [Configure knowledge base article URLs](#configure-knowledge-base-article-urls).
 
   > [!div class=mx-imgBorder]
-  > ![Independent KB search](media/kb-independent-search.png "Search knowledge articles outside of cases)
+  > ![Independent KB search](media/kb-independent-search.png "Search knowledge articles outside of cases")
 
   1. In the sitemap, select **Knowledge Search**.
   2. In search box, type keywords of an article.  
   3. Select copy URL icon to copy the article URL.
-  4. Select to pop out icon to open an article in a new window action.
-  5. Select the button **Copy URL** button to copy the article URL.
-  6. Select the button **Pop out** to open the article in a new window.  
+  4. To open an article in a new window, select the pop-out icon.
+  5. To copy the article URL, select **Copy URL**.
+  6. To open the article in a new window, select **Pop out**.  
 
-### Configure knowledge base article URL
+### Configure knowledge base article URLs
 
-Knowledge articles can be configured to their own URLs, which agents can copy and share.  To configure a knowledge based article URL, use the following steps:
+Knowledge articles can be configured with their portal URLs, and then agents can copy and share the URL links. 
 
-1. In the sitemap, under **Knowledge Base Management** select **Embedded Knowledge URL**.
+> [!NOTE]
+> Before you can configure knowledge articles with their own URLs, you must create a portal using your domain name. For information on how create a portal, see [Create a portal in an environment containing customer engagement apps](https://docs.microsoft.com/powerapps/maker/portals/create-dynamics-portal).
 
-2. Select the URL format.
+To configure a knowledge base article URL, do the following:
+
+1. In the sitemap, under **Knowledge Base Management** select **Settings**.
 
    > [!div class=mx-imgBorder]
-   > ![Select URL format](media/kb-independent-search-url-1.png "Select the URL format to use")
+   > ![Select Knowledge Base Management settings](media/kb-management-settings.png "Navigate to Knowledge Base Management settings in the sitemap")
 
-3. Under **Support Portal Connection**, select **Yes**
+2. Under **Support Portal Connection**, set **Use an external portal** to **Yes**.
 
-4. Under URL Format, enter URL name.
+3. In the **URL format** field, enter the URL name.
 
-5. Select **Save**.
+   > [!div class=mx-imgBorder]
+   > ![Select URL format](media/kb-url-format.png "Select the URL format to use")
 
-    > [!div class=mx-imgBorder]
-    > ![Add URL name and save](media/kb-independent-search-url-2.png "Add the URL and then save)
+4. Select **Save**.
 
-Knowledge based (KB) article URL is now active and can be copied and shared.
+The knowledge base article link is now active and can be copied and shared.
 
 ### Filter knowledge articles
 
@@ -194,16 +198,17 @@ The knowledge base search control provides sort the knowledge articles interacti
 
   > [!div class=mx-imgBorder]
   > ![Knowledge article sort](media/km-sort.png "Knowledge article sort")
+  
 
-### Link and unlink the knowledge article to a record
+### Link and unlink a knowledge article to a record
 
-When configured, you can link an article to case. You can associate and dissociate the knowledge article with a record.
+When configured, you can link an article to a case. You can associate and dissociate the knowledge article with a record.
 
   > [!div class=mx-imgBorder]
   > ![Link to case](media/knowledge-base-search-2.png "Link or unlink a knowledge article with a record")
 
   
-1. In the top right of the article, there's a link icon. 
+1. In the top-right of the article, there's a link icon. 
 2. If linking is preconfigured, you can select the link icon and it will link the article to your case.
 3. Articles that are linked to a case will display  **Linked to Case** in blue in the bottom left and the link icon will update to show the link.
 
@@ -228,7 +233,7 @@ Select a article title to see its full content rendered in the same control. The
 >
 > - Copy Link, Email Link, and Email options can be used only for published and expired articles.
 
-## View auto filtered results
+## View auto-filtered results
 
 As a customer service agent, to view the most relevant results, you can have knowledge articles automatically filtered based on the case data. This helps in identifying the most relevant articles so that you can resolve customer queries quickly and accurately. You can further have an option to disable the auto-filter results and search the entire knowledge base.  
 
@@ -254,6 +259,15 @@ In the below illustration, the case subject is **Xbox**. If automatic filtering 
 However, if the Auto filter results check box is not selected, you can see more articles that are not related to subject. These are the results from the entire knowledge base.
 
 ![Deselect Auto filter results](media/ka-deselect-auto-filter-results.png "Deselect Auto filter results")
+
+## View search results from external sources
+
+If your administrator has configured the ability for you to search for files, documents, or articles from data sources outside of your current Dynamics 365 organization, you can view those results by selecting the provider from the drop-down list under **Knowledge**.
+
+   > [!div class=mx-imgBorder]
+   > ![Agent view of search providers](media/search-provider-agent.png "Agent view of available search providers")
+
+For more information on setting up search providers, see [Set up a search provider in Customer Service Hub](set-up-search-providers.md).
     
 ## Submit ratings and feedback for knowledge articles
 
@@ -273,7 +287,7 @@ When you are working on a case and refer to an article from the **Knowledge Base
 
     ![Provide feedback](media/ka-rating-feedback-thubms-up-down.png "Provide feedback")
 
-    If the article is not helpful, you can also provide your comments in the comment box on how the article can be improved. The comment box is displayed when you select **Thumbs down** button.
+    If the article is not helpful, you can also provide your comments in the comment box on how the article can be improved. The comment box is displayed when you select **Thumbs down**.
 
     ![Provide comments](media/ka-rating-feedback-provide-comments.png "Provide comments")
 
@@ -286,3 +300,5 @@ To set up the feedback control, see [Enable feedback control](set-up-knowledge-m
 [Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)
 
 [Understand knowledge base search mechanisms](knowledge-base-search-methods.md)
+
+[Set up a search provider in Customer Service Hub](set-up-search-providers.md)

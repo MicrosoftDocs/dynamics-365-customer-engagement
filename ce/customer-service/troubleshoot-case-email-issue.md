@@ -7,7 +7,7 @@ manager: shujoshi
 ms.date: 10/04/2018
 ms.topic: article
 ms.service: 
-  - dynamics-365-customerservice
+  dynamics-365-customerservice
 ms.custom: 
   - dyn365-customerservice
 search.audienceType: 
@@ -21,12 +21,30 @@ search.app:
 
 # Issue converting an email to a case
 
-## Issue
+## Case creation fails when mail is sent from queue address to same queue address on which automatic record creation rule is configured
 
-Incoming email is not being converted to a case.
+### Scenario
 
+1. configure an automatic record creation rule for a queue in the web client.
+2. In the rule, set customer value as null (Channel properties).
+3. Send mail from sender as queue mail address to recipient as queue mail address. The case creation fails with the following error message: "Case is missing customer"
 
-## Troubleshooting steps
+### Reason
+
+The automatic record creation rule in the web client considers the queue as a known sender and does not create a contact. Subsequently, the case creation fails because no account or contact is associated with the email.
+
+This is an expected behavior.
+
+### Resolution
+
+Perform the following steps as a workaround:
+
+1. Migrate your rule from the web client to Unified Interface. More information: [Migrate automatic record creation rules and service-level agreements](migrate-automatic-record-creation-and-sla-agreements.md).
+2. Follow the information in [Configure advanced settings for rules](automatically-create-update-records.md#configure-advanced-settings-for-rules) to manage emails from unknown senders.
+
+## Incoming email is not being converted to a case
+
+### Troubleshooting steps
  
 If the email to case conversion is not working, follow the below troubleshooting steps to diagnose and fix the issue:
 
@@ -59,7 +77,7 @@ For more information about configuration failure scenarios and resolution for sa
 
 **Step 6**: Ensure that the queue email address is in the **To** or **Cc** fields of incoming mails. Emails sent with the queue address in the **Bcc** field will not be processed.
 
-## Configuration failure scenarios and resolutions
+### Configuration failure scenarios and resolutions
 
 Given below is a list of some common issue scenarios and their resolutions.
  
@@ -104,7 +122,7 @@ This results in the following error in system jobs:
 
 To resolve this issue, leave contact field blank and set Customer field either to blank or to **{Sender(Email)}**.
 
-## Validation steps
+### Validation steps
 
 You must validate the configuration and validation steps given in the following table to understand the main cause of the issue, and resolve it:
 
@@ -121,6 +139,5 @@ You must validate the configuration and validation steps given in the following 
 |  |         |         |         |
 
  
-## More help
-
-[Automatically create a case from an email](automatically-create-case-from-email.md)
+### See also
+[Automatically create a case from an email](automatically-create-case-from-email.md)  

@@ -4,10 +4,10 @@ description: Service Management Guide for Dynamics 365 Customer Service.
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/01/2018
+ms.date: 10/05/2018
 ms.topic: get-started-article
 ms.service: 
-  - dynamics-365-customerservice
+  dynamics-365-customerservice
 ms.custom: 
   - dyn365-customerservice
 search.audienceType: 
@@ -37,7 +37,7 @@ Use the Service Management to set up various admin tasks for customer service.
 
 In the bottom left pane, select the change area, and select Service Management.
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand the sitemap navigation](customer-service-hub-user-guide-basics.md#understand-the-sitemap-navigation)
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand the site map navigation](customer-service-hub-user-guide-basics.md#understand-the-site-map-navigation)
 
 ![access-service-managemen-csh](media/access-service-management-csh.png)
 
@@ -45,7 +45,7 @@ In the bottom left pane, select the change area, and select Service Management.
 
 In the Customer Service app, navigate to **Settings > Service Management**.
 
-![access-service-management-cs](media/access-service-management-cs.png)
+![Access service management in Customer Service app](media/access-service-management-cs.png "Access service management in Customer Service app")
 
 ## Case settings
 

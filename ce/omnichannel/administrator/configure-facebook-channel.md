@@ -157,7 +157,7 @@ If a customer initiates a conversation from the Facebook page and then later swi
 
 The agent receives the notification of the incoming conversation request. More information: [Use Facebook channel](../agent/agent-oc/facebook.md)
 
-If the customer is identified based on name, the conversation is automatically linked to the contact record and the customer summary is populated. More information: [View customer summary](../agent/agent-oc/oc-customer-summary.md)
+Once the Facebook social profile is linked to an user customer/contact record by the agent, subsequent Facebook conversations are linked to the customer records and the customer summary is populated.
 
 If the customer is not identified based on name, a new contact record can be created.
 

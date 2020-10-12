@@ -4,25 +4,23 @@ description: How to schedule a service activity in the UCI-based Scheduling Serv
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 08/03/2020
+ms.date: 10/05/2020
 ms.topic: article
 ms.service: 
-  - dynamics-365-customerservice
+  dynamics-365-customerservice
 ms.custom: 
-  - dyn365-customerservice
+  dyn365-customerservice
 search.audienceType: 
-  - admin
-  - customizer
-  - enduser
+  admin
+  customizer
+  enduser
 search.app: 
-  - D365CE
-  - D365CS
+  D365CE
+  D365CS
+  
 ---
 
-# Schedule a service activity
-
-> [!Note]
-> This topic is pre-release documentation and is subject to change.
+# Use the Service Schedule Activity form to schedule a service activity
 
 Use this form to search for an available time for a service activity. You can either search for an open time using search criteria that, at a minimum, includes selecting a service, or you can define a more complex set of criteria. You can also create a service activity without checking for conflicts in the scheduled service. The service activity appears as a color block on the service calendar.
 
