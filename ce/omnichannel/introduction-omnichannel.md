@@ -6,7 +6,7 @@ ms.author: nenellim
 manager: shujoshi
 ms.date: 06/18/2020
 ms.service: 
-  - "dynamics-365-customerservice"
+  "dynamics-365-customerservice"
 ms.topic: article
 ---
 # Introduction to Omnichannel for Customer Service

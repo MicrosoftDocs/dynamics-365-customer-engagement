@@ -4,7 +4,7 @@ description: Enable personal quick replies in agent experience for Omnichannel f
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 08/14/2020
+ms.date: 10/12/2020
 ms.topic: article
 ms.service: 
   - dynamics-365-customerservice

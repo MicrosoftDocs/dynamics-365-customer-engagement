@@ -4,9 +4,9 @@ description: "Overview of language translation for agent and customer chats in t
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 08/21/2020
+ms.date: 10/12/2020
 ms.service: 
-  - "dynamics-365-customerservice"
+  "dynamics-365-customerservice"
 ms.topic: article
 ---
 

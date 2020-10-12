@@ -6,7 +6,7 @@ ms.author: kabala
 manager: shujoshi
 ms.date: 02/03/2020
 ms.service: 
-  - "dynamics-365-customerservice"
+  "dynamics-365-customerservice"
 ms.topic: article
 ---
 # View a customer summary to get available information about a customer

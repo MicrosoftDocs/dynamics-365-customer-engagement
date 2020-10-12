@@ -99,7 +99,7 @@ Ensure to map the routing rules to the correct queues so that the queries are ro
 
 ## Configure context variables for a bot
 
-Before customers initiate a conversation, the context of the activities they perform can be made available for the bot to intelligently provide responses and handle the conversations. You can configure context variables for the bot in Power Virtual Agents. For information on context variables that can be configured, see [Context variables](#context-variables).
+Before customers initiate a conversation, the context of the activities they perform can be made available for the bot to intelligently provide responses and handle the conversations. You can configure context variables for the bot in Power Virtual Agents. For information on context variables that can be configured, see [Context variables](context-variables-for-bot.md).
 
 In Power Virtual Agents, do the following:
 
