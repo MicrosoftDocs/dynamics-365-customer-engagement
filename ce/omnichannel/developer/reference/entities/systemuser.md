@@ -1,7 +1,7 @@
 ---
 title: "SystemUser Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the SystemUser entity."
-ms.date: 10/02/2020
+ms.date: 10/12/2020
 ms.service: "crm-online"
 ms.topic: "reference"
 author: "platkat"
@@ -3071,6 +3071,22 @@ Listed by **SchemaName**.
 - [lk_msdyn_usersetting_createdonbehalfby](#BKMK_lk_msdyn_usersetting_createdonbehalfby)
 - [lk_msdyn_usersetting_modifiedby](#BKMK_lk_msdyn_usersetting_modifiedby)
 - [lk_msdyn_usersetting_modifiedonbehalfby](#BKMK_lk_msdyn_usersetting_modifiedonbehalfby)
+- [lk_msdyn_paneconfiguration_createdby](#BKMK_lk_msdyn_paneconfiguration_createdby)
+- [lk_msdyn_paneconfiguration_createdonbehalfby](#BKMK_lk_msdyn_paneconfiguration_createdonbehalfby)
+- [lk_msdyn_paneconfiguration_modifiedby](#BKMK_lk_msdyn_paneconfiguration_modifiedby)
+- [lk_msdyn_paneconfiguration_modifiedonbehalfby](#BKMK_lk_msdyn_paneconfiguration_modifiedonbehalfby)
+- [lk_msdyn_panetabconfiguration_createdby](#BKMK_lk_msdyn_panetabconfiguration_createdby)
+- [lk_msdyn_panetabconfiguration_createdonbehalfby](#BKMK_lk_msdyn_panetabconfiguration_createdonbehalfby)
+- [lk_msdyn_panetabconfiguration_modifiedby](#BKMK_lk_msdyn_panetabconfiguration_modifiedby)
+- [lk_msdyn_panetabconfiguration_modifiedonbehalfby](#BKMK_lk_msdyn_panetabconfiguration_modifiedonbehalfby)
+- [lk_msdyn_panetoolconfiguration_createdby](#BKMK_lk_msdyn_panetoolconfiguration_createdby)
+- [lk_msdyn_panetoolconfiguration_createdonbehalfby](#BKMK_lk_msdyn_panetoolconfiguration_createdonbehalfby)
+- [lk_msdyn_panetoolconfiguration_modifiedby](#BKMK_lk_msdyn_panetoolconfiguration_modifiedby)
+- [lk_msdyn_panetoolconfiguration_modifiedonbehalfby](#BKMK_lk_msdyn_panetoolconfiguration_modifiedonbehalfby)
+- [lk_msdyn_conversationsuggestionrequestpayload_createdby](#BKMK_lk_msdyn_conversationsuggestionrequestpayload_createdby)
+- [lk_msdyn_conversationsuggestionrequestpayload_createdonbehalfby](#BKMK_lk_msdyn_conversationsuggestionrequestpayload_createdonbehalfby)
+- [lk_msdyn_conversationsuggestionrequestpayload_modifiedby](#BKMK_lk_msdyn_conversationsuggestionrequestpayload_modifiedby)
+- [lk_msdyn_conversationsuggestionrequestpayload_modifiedonbehalfby](#BKMK_lk_msdyn_conversationsuggestionrequestpayload_modifiedonbehalfby)
 
 
 ### <a name="BKMK_lk_queue_modifiedonbehalfby"></a> lk_queue_modifiedonbehalfby
@@ -4097,6 +4113,278 @@ Same as msdyn_usersetting entity [lk_msdyn_usersetting_modifiedonbehalfby](msdyn
 |IsHierarchical|False|
 |IsCustomizable|True|
 |ReferencedEntityNavigationPropertyName|lk_msdyn_usersetting_modifiedonbehalfby|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
+
+
+### <a name="BKMK_lk_msdyn_paneconfiguration_createdby"></a> lk_msdyn_paneconfiguration_createdby
+
+**Added by**: Active Solution Solution
+
+Same as msdyn_paneconfiguration entity [lk_msdyn_paneconfiguration_createdby](msdyn_paneconfiguration.md#BKMK_lk_msdyn_paneconfiguration_createdby) Many-To-One relationship.
+
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_paneconfiguration|
+|ReferencingAttribute|createdby|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|lk_msdyn_paneconfiguration_createdby|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
+
+
+### <a name="BKMK_lk_msdyn_paneconfiguration_createdonbehalfby"></a> lk_msdyn_paneconfiguration_createdonbehalfby
+
+**Added by**: Active Solution Solution
+
+Same as msdyn_paneconfiguration entity [lk_msdyn_paneconfiguration_createdonbehalfby](msdyn_paneconfiguration.md#BKMK_lk_msdyn_paneconfiguration_createdonbehalfby) Many-To-One relationship.
+
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_paneconfiguration|
+|ReferencingAttribute|createdonbehalfby|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|lk_msdyn_paneconfiguration_createdonbehalfby|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
+
+
+### <a name="BKMK_lk_msdyn_paneconfiguration_modifiedby"></a> lk_msdyn_paneconfiguration_modifiedby
+
+**Added by**: Active Solution Solution
+
+Same as msdyn_paneconfiguration entity [lk_msdyn_paneconfiguration_modifiedby](msdyn_paneconfiguration.md#BKMK_lk_msdyn_paneconfiguration_modifiedby) Many-To-One relationship.
+
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_paneconfiguration|
+|ReferencingAttribute|modifiedby|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|lk_msdyn_paneconfiguration_modifiedby|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
+
+
+### <a name="BKMK_lk_msdyn_paneconfiguration_modifiedonbehalfby"></a> lk_msdyn_paneconfiguration_modifiedonbehalfby
+
+**Added by**: Active Solution Solution
+
+Same as msdyn_paneconfiguration entity [lk_msdyn_paneconfiguration_modifiedonbehalfby](msdyn_paneconfiguration.md#BKMK_lk_msdyn_paneconfiguration_modifiedonbehalfby) Many-To-One relationship.
+
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_paneconfiguration|
+|ReferencingAttribute|modifiedonbehalfby|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|lk_msdyn_paneconfiguration_modifiedonbehalfby|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
+
+
+### <a name="BKMK_lk_msdyn_panetabconfiguration_createdby"></a> lk_msdyn_panetabconfiguration_createdby
+
+**Added by**: Active Solution Solution
+
+Same as msdyn_panetabconfiguration entity [lk_msdyn_panetabconfiguration_createdby](msdyn_panetabconfiguration.md#BKMK_lk_msdyn_panetabconfiguration_createdby) Many-To-One relationship.
+
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_panetabconfiguration|
+|ReferencingAttribute|createdby|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|lk_msdyn_panetabconfiguration_createdby|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
+
+
+### <a name="BKMK_lk_msdyn_panetabconfiguration_createdonbehalfby"></a> lk_msdyn_panetabconfiguration_createdonbehalfby
+
+**Added by**: Active Solution Solution
+
+Same as msdyn_panetabconfiguration entity [lk_msdyn_panetabconfiguration_createdonbehalfby](msdyn_panetabconfiguration.md#BKMK_lk_msdyn_panetabconfiguration_createdonbehalfby) Many-To-One relationship.
+
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_panetabconfiguration|
+|ReferencingAttribute|createdonbehalfby|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|lk_msdyn_panetabconfiguration_createdonbehalfby|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
+
+
+### <a name="BKMK_lk_msdyn_panetabconfiguration_modifiedby"></a> lk_msdyn_panetabconfiguration_modifiedby
+
+**Added by**: Active Solution Solution
+
+Same as msdyn_panetabconfiguration entity [lk_msdyn_panetabconfiguration_modifiedby](msdyn_panetabconfiguration.md#BKMK_lk_msdyn_panetabconfiguration_modifiedby) Many-To-One relationship.
+
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_panetabconfiguration|
+|ReferencingAttribute|modifiedby|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|lk_msdyn_panetabconfiguration_modifiedby|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
+
+
+### <a name="BKMK_lk_msdyn_panetabconfiguration_modifiedonbehalfby"></a> lk_msdyn_panetabconfiguration_modifiedonbehalfby
+
+**Added by**: Active Solution Solution
+
+Same as msdyn_panetabconfiguration entity [lk_msdyn_panetabconfiguration_modifiedonbehalfby](msdyn_panetabconfiguration.md#BKMK_lk_msdyn_panetabconfiguration_modifiedonbehalfby) Many-To-One relationship.
+
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_panetabconfiguration|
+|ReferencingAttribute|modifiedonbehalfby|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|lk_msdyn_panetabconfiguration_modifiedonbehalfby|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
+
+
+### <a name="BKMK_lk_msdyn_panetoolconfiguration_createdby"></a> lk_msdyn_panetoolconfiguration_createdby
+
+**Added by**: Active Solution Solution
+
+Same as msdyn_panetoolconfiguration entity [lk_msdyn_panetoolconfiguration_createdby](msdyn_panetoolconfiguration.md#BKMK_lk_msdyn_panetoolconfiguration_createdby) Many-To-One relationship.
+
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_panetoolconfiguration|
+|ReferencingAttribute|createdby|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|lk_msdyn_panetoolconfiguration_createdby|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
+
+
+### <a name="BKMK_lk_msdyn_panetoolconfiguration_createdonbehalfby"></a> lk_msdyn_panetoolconfiguration_createdonbehalfby
+
+**Added by**: Active Solution Solution
+
+Same as msdyn_panetoolconfiguration entity [lk_msdyn_panetoolconfiguration_createdonbehalfby](msdyn_panetoolconfiguration.md#BKMK_lk_msdyn_panetoolconfiguration_createdonbehalfby) Many-To-One relationship.
+
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_panetoolconfiguration|
+|ReferencingAttribute|createdonbehalfby|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|lk_msdyn_panetoolconfiguration_createdonbehalfby|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
+
+
+### <a name="BKMK_lk_msdyn_panetoolconfiguration_modifiedby"></a> lk_msdyn_panetoolconfiguration_modifiedby
+
+**Added by**: Active Solution Solution
+
+Same as msdyn_panetoolconfiguration entity [lk_msdyn_panetoolconfiguration_modifiedby](msdyn_panetoolconfiguration.md#BKMK_lk_msdyn_panetoolconfiguration_modifiedby) Many-To-One relationship.
+
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_panetoolconfiguration|
+|ReferencingAttribute|modifiedby|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|lk_msdyn_panetoolconfiguration_modifiedby|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
+
+
+### <a name="BKMK_lk_msdyn_panetoolconfiguration_modifiedonbehalfby"></a> lk_msdyn_panetoolconfiguration_modifiedonbehalfby
+
+**Added by**: Active Solution Solution
+
+Same as msdyn_panetoolconfiguration entity [lk_msdyn_panetoolconfiguration_modifiedonbehalfby](msdyn_panetoolconfiguration.md#BKMK_lk_msdyn_panetoolconfiguration_modifiedonbehalfby) Many-To-One relationship.
+
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_panetoolconfiguration|
+|ReferencingAttribute|modifiedonbehalfby|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|lk_msdyn_panetoolconfiguration_modifiedonbehalfby|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
+
+
+### <a name="BKMK_lk_msdyn_conversationsuggestionrequestpayload_createdby"></a> lk_msdyn_conversationsuggestionrequestpayload_createdby
+
+**Added by**: Active Solution Solution
+
+Same as msdyn_conversationsuggestionrequestpayload entity [lk_msdyn_conversationsuggestionrequestpayload_createdby](msdyn_conversationsuggestionrequestpayload.md#BKMK_lk_msdyn_conversationsuggestionrequestpayload_createdby) Many-To-One relationship.
+
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_conversationsuggestionrequestpayload|
+|ReferencingAttribute|createdby|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|lk_msdyn_conversationsuggestionrequestpayload_createdby|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
+
+
+### <a name="BKMK_lk_msdyn_conversationsuggestionrequestpayload_createdonbehalfby"></a> lk_msdyn_conversationsuggestionrequestpayload_createdonbehalfby
+
+**Added by**: Active Solution Solution
+
+Same as msdyn_conversationsuggestionrequestpayload entity [lk_msdyn_conversationsuggestionrequestpayload_createdonbehalfby](msdyn_conversationsuggestionrequestpayload.md#BKMK_lk_msdyn_conversationsuggestionrequestpayload_createdonbehalfby) Many-To-One relationship.
+
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_conversationsuggestionrequestpayload|
+|ReferencingAttribute|createdonbehalfby|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|lk_msdyn_conversationsuggestionrequestpayload_createdonbehalfby|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
+
+
+### <a name="BKMK_lk_msdyn_conversationsuggestionrequestpayload_modifiedby"></a> lk_msdyn_conversationsuggestionrequestpayload_modifiedby
+
+**Added by**: Active Solution Solution
+
+Same as msdyn_conversationsuggestionrequestpayload entity [lk_msdyn_conversationsuggestionrequestpayload_modifiedby](msdyn_conversationsuggestionrequestpayload.md#BKMK_lk_msdyn_conversationsuggestionrequestpayload_modifiedby) Many-To-One relationship.
+
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_conversationsuggestionrequestpayload|
+|ReferencingAttribute|modifiedby|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|lk_msdyn_conversationsuggestionrequestpayload_modifiedby|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
+
+
+### <a name="BKMK_lk_msdyn_conversationsuggestionrequestpayload_modifiedonbehalfby"></a> lk_msdyn_conversationsuggestionrequestpayload_modifiedonbehalfby
+
+**Added by**: Active Solution Solution
+
+Same as msdyn_conversationsuggestionrequestpayload entity [lk_msdyn_conversationsuggestionrequestpayload_modifiedonbehalfby](msdyn_conversationsuggestionrequestpayload.md#BKMK_lk_msdyn_conversationsuggestionrequestpayload_modifiedonbehalfby) Many-To-One relationship.
+
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_conversationsuggestionrequestpayload|
+|ReferencingAttribute|modifiedonbehalfby|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|lk_msdyn_conversationsuggestionrequestpayload_modifiedonbehalfby|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 |CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 

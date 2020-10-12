@@ -1,7 +1,7 @@
 ---
 title: "Queue Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the Queue entity."
-ms.date: 10/02/2020
+ms.date: 10/12/2020
 ms.service: "crm-online"
 ms.topic: "reference"
 author: "platkat"
@@ -74,6 +74,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [msdyn_isomnichannelqueue](#BKMK_msdyn_isomnichannelqueue)
 - [msdyn_operatinghourid](#BKMK_msdyn_operatinghourid)
 - [msdyn_priority](#BKMK_msdyn_priority)
+- [msdyn_queuetype](#BKMK_msdyn_queuetype)
 - [Name](#BKMK_Name)
 - [OutgoingEmailDeliveryMethod](#BKMK_OutgoingEmailDeliveryMethod)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
@@ -341,6 +342,29 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |MinValue|1|
 |RequiredLevel|ApplicationRequired|
 |Type|Integer|
+
+
+### <a name="BKMK_msdyn_queuetype"></a> msdyn_queuetype
+
+**Added by**: Omnichannel - Base Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Defines the type of channels handled by this queue|
+|DisplayName|Queue type|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_queuetype|
+|RequiredLevel|ApplicationRequired|
+|Type|Picklist|
+
+#### msdyn_queuetype Options
+
+|Value|Label|
+|-----|-----|
+|192350000|Messaging|
+|192350001|Entity|
+
 
 
 ### <a name="BKMK_Name"></a> Name

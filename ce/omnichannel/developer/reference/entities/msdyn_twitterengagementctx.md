@@ -1,7 +1,7 @@
 ---
 title: "msdyn_twitterengagementctx Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_twitterengagementctx entity."
-ms.date: 10/02/2020
+ms.date: 10/12/2020
 ms.service: "crm-online"
 ms.topic: "reference"
 author: "platkat"

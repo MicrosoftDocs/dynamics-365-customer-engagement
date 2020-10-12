@@ -1,6 +1,6 @@
 ---
-title: "msdyn_skillattachmenttarget Entity Reference | MicrosoftDocs"
-description: "Includes schema information and supported messages for the msdyn_skillattachmenttarget entity."
+title: "msdyn_conversationsuggestionrequestpayload Entity Reference | MicrosoftDocs"
+description: "Includes schema information and supported messages for the msdyn_conversationsuggestionrequestpayload entity."
 ms.date: 10/12/2020
 ms.service: "crm-online"
 ms.topic: "reference"
@@ -13,48 +13,42 @@ search.app:
   - PowerApps
   - D365CE
 ---
-# msdyn_skillattachmenttarget Entity Reference
+# msdyn_conversationsuggestionrequestpayload Entity Reference
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
+Conversation Suggestion Request Payload
 
-
-**Added by**: Omnichannel - Skill Based Routing Solution
+**Added by**: OmnichannelIntelligence Solution
 
 
 ## Messages
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.0/msdyn_skillattachmenttargets(*msdyn_skillattachmenttargetid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/msdyn_skillattachmenttargets<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_skillattachmenttargets(*msdyn_skillattachmenttargetid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
+|Create|POST [*org URI*]/api/data/v9.0/msdyn_conversationsuggestionrequestpayloads<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_conversationsuggestionrequestpayloads(*msdyn_conversationsuggestionrequestpayloadid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |IsValidStateTransition|<xref href="Microsoft.Dynamics.CRM.IsValidStateTransition?text=IsValidStateTransition Function" />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
-|ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_skillattachmenttargets(*msdyn_skillattachmenttargetid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_skillattachmenttargets<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
-|RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
-|RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_skillattachmenttargets(*msdyn_skillattachmenttargetid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_skillattachmenttargets(*msdyn_skillattachmenttargetid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_conversationsuggestionrequestpayloads(*msdyn_conversationsuggestionrequestpayloadid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_conversationsuggestionrequestpayloads<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_conversationsuggestionrequestpayloads(*msdyn_conversationsuggestionrequestpayloadid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_conversationsuggestionrequestpayloads(*msdyn_conversationsuggestionrequestpayloadid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
 |Property|Value|
 |--------|-----|
-|CollectionSchemaName|msdyn_skillattachmenttargets|
-|DisplayCollectionName|Attach Skills|
-|DisplayName|Attach Skill|
-|EntitySetName|msdyn_skillattachmenttargets|
+|CollectionSchemaName|msdyn_conversationsuggestionrequestpayloads|
+|DisplayCollectionName|conversationsuggestionsrequestpayload|
+|DisplayName|conversationsuggestionrequestpayload|
+|EntitySetName|msdyn_conversationsuggestionrequestpayloads|
 |IsBPFEntity|False|
-|LogicalCollectionName|msdyn_skillattachmenttargets|
-|LogicalName|msdyn_skillattachmenttarget|
-|OwnershipType|UserOwned|
-|PrimaryIdAttribute|msdyn_skillattachmenttargetid|
+|LogicalCollectionName|msdyn_conversationsuggestionrequestpayloads|
+|LogicalName|msdyn_conversationsuggestionrequestpayload|
+|OwnershipType|OrganizationOwned|
+|PrimaryIdAttribute|msdyn_conversationsuggestionrequestpayloadid|
 |PrimaryNameAttribute|msdyn_name|
-|SchemaName|msdyn_skillattachmenttarget|
+|SchemaName|msdyn_conversationsuggestionrequestpayload|
 
 <a name="writable-attributes"></a>
 
@@ -63,14 +57,12 @@ search.app:
 These attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
-- [msdyn_characteristicid](#BKMK_msdyn_characteristicid)
+- [msdyn_conversationid](#BKMK_msdyn_conversationid)
+- [msdyn_conversationsuggestionrequestpayloadId](#BKMK_msdyn_conversationsuggestionrequestpayloadId)
 - [msdyn_name](#BKMK_msdyn_name)
-- [msdyn_ratingvalueid](#BKMK_msdyn_ratingvalueid)
-- [msdyn_skillattachmentruleitemid](#BKMK_msdyn_skillattachmentruleitemid)
-- [msdyn_skillattachmenttargetId](#BKMK_msdyn_skillattachmenttargetId)
+- [msdyn_requestpayload](#BKMK_msdyn_requestpayload)
+- [msdyn_responsepayload](#BKMK_msdyn_responsepayload)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
-- [OwnerId](#BKMK_OwnerId)
-- [OwnerIdType](#BKMK_OwnerIdType)
 - [statecode](#BKMK_statecode)
 - [statuscode](#BKMK_statuscode)
 - [TimeZoneRuleVersionNumber](#BKMK_TimeZoneRuleVersionNumber)
@@ -94,18 +86,32 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Integer|
 
 
-### <a name="BKMK_msdyn_characteristicid"></a> msdyn_characteristicid
+### <a name="BKMK_msdyn_conversationid"></a> msdyn_conversationid
 
 |Property|Value|
 |--------|-----|
-|Description|Unique identifier for Characteristic associated with Skill Attachment Target.|
-|DisplayName|Name|
+|Description|Unique identifier for Conversation associated with conversationsuggestionrequestpayload.|
+|DisplayName|conversationid|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_characteristicid|
+|LogicalName|msdyn_conversationid|
 |RequiredLevel|ApplicationRequired|
-|Targets|characteristic|
+|Targets|msdyn_ocliveworkitem|
 |Type|Lookup|
+
+
+### <a name="BKMK_msdyn_conversationsuggestionrequestpayloadId"></a> msdyn_conversationsuggestionrequestpayloadId
+
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for entity instances|
+|DisplayName|conversationsuggestionrequestpayload|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|msdyn_conversationsuggestionrequestpayloadid|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_msdyn_name"></a> msdyn_name
@@ -124,46 +130,36 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|String|
 
 
-### <a name="BKMK_msdyn_ratingvalueid"></a> msdyn_ratingvalueid
+### <a name="BKMK_msdyn_requestpayload"></a> msdyn_requestpayload
 
 |Property|Value|
 |--------|-----|
-|Description|Unique identifier for Rating Value associated with Skill Attachment Target.|
-|DisplayName|Rating value|
+|Description|Request Payload|
+|DisplayName|requestpayload|
+|Format|Text|
+|IsLocalizable|False|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_ratingvalueid|
-|RequiredLevel|None|
-|Targets|ratingvalue|
-|Type|Lookup|
+|LogicalName|msdyn_requestpayload|
+|MaxLength|9999|
+|RequiredLevel|ApplicationRequired|
+|Type|Memo|
 
 
-### <a name="BKMK_msdyn_skillattachmentruleitemid"></a> msdyn_skillattachmentruleitemid
+### <a name="BKMK_msdyn_responsepayload"></a> msdyn_responsepayload
 
 |Property|Value|
 |--------|-----|
-|Description|Unique identifier for Skill Attachment Rule associated with Attach Skill.|
-|DisplayName|Skill Attachment Rule Item|
+|Description|Response Payload|
+|DisplayName|Response Payload|
+|Format|Text|
+|IsLocalizable|False|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_skillattachmentruleitemid|
-|RequiredLevel|None|
-|Targets|msdyn_skillattachmentruleitem|
-|Type|Lookup|
-
-
-### <a name="BKMK_msdyn_skillattachmenttargetId"></a> msdyn_skillattachmenttargetId
-
-|Property|Value|
-|--------|-----|
-|Description|Unique identifier for entity instances|
-|DisplayName|Skill Attachment Target|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|IsValidForUpdate|False|
-|LogicalName|msdyn_skillattachmenttargetid|
-|RequiredLevel|SystemRequired|
-|Type|Uniqueidentifier|
+|LogicalName|msdyn_responsepayload|
+|MaxLength|9999|
+|RequiredLevel|ApplicationRequired|
+|Type|Memo|
 
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
@@ -182,42 +178,11 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|DateTime|
 
 
-### <a name="BKMK_OwnerId"></a> OwnerId
-
-**Added by**: Active Solution Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Owner Id|
-|DisplayName|Owner|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|ownerid|
-|RequiredLevel|SystemRequired|
-|Targets|systemuser,team|
-|Type|Owner|
-
-
-### <a name="BKMK_OwnerIdType"></a> OwnerIdType
-
-**Added by**: Active Solution Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Owner Id Type|
-|DisplayName||
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|owneridtype|
-|RequiredLevel|SystemRequired|
-|Type|EntityName|
-
-
 ### <a name="BKMK_statecode"></a> statecode
 
 |Property|Value|
 |--------|-----|
-|Description|Status of the Skill Attachment Target|
+|Description|Status of the conversationsuggestionrequestpayload|
 |DisplayName|Status|
 |IsValidForCreate|False|
 |IsValidForForm|True|
@@ -239,7 +204,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Reason for the status of the Skill Attachment Target|
+|Description|Reason for the status of the conversationsuggestionrequestpayload|
 |DisplayName|Status Reason|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -307,14 +272,9 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 - [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
 - [ModifiedOnBehalfByName](#BKMK_ModifiedOnBehalfByName)
 - [ModifiedOnBehalfByYomiName](#BKMK_ModifiedOnBehalfByYomiName)
-- [msdyn_characteristicidName](#BKMK_msdyn_characteristicidName)
-- [msdyn_ratingvalueidName](#BKMK_msdyn_ratingvalueidName)
-- [msdyn_skillattachmentruleitemidName](#BKMK_msdyn_skillattachmentruleitemidName)
-- [OwnerIdName](#BKMK_OwnerIdName)
-- [OwnerIdYomiName](#BKMK_OwnerIdYomiName)
-- [OwningBusinessUnit](#BKMK_OwningBusinessUnit)
-- [OwningTeam](#BKMK_OwningTeam)
-- [OwningUser](#BKMK_OwningUser)
+- [msdyn_conversationidName](#BKMK_msdyn_conversationidName)
+- [OrganizationId](#BKMK_OrganizationId)
+- [OrganizationIdName](#BKMK_OrganizationIdName)
 - [VersionNumber](#BKMK_VersionNumber)
 
 
@@ -556,7 +516,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Type|String|
 
 
-### <a name="BKMK_msdyn_characteristicidName"></a> msdyn_characteristicidName
+### <a name="BKMK_msdyn_conversationidName"></a> msdyn_conversationidName
 
 |Property|Value|
 |--------|-----|
@@ -566,126 +526,44 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |IsLocalizable|False|
 |IsValidForForm|False|
 |IsValidForRead|True|
-|LogicalName|msdyn_characteristicidname|
-|MaxLength|100|
+|LogicalName|msdyn_conversationidname|
+|MaxLength|200|
 |RequiredLevel|None|
 |Type|String|
 
 
-### <a name="BKMK_msdyn_ratingvalueidName"></a> msdyn_ratingvalueidName
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|msdyn_ratingvalueidname|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_skillattachmentruleitemidName"></a> msdyn_skillattachmentruleitemidName
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|msdyn_skillattachmentruleitemidname|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_OwnerIdName"></a> OwnerIdName
+### <a name="BKMK_OrganizationId"></a> OrganizationId
 
 **Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
-|Description|Name of the owner|
+|Description|Unique identifier for the organization|
+|DisplayName|Organization Id|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|organizationid|
+|RequiredLevel|None|
+|Targets|organization|
+|Type|Lookup|
+
+
+### <a name="BKMK_OrganizationIdName"></a> OrganizationIdName
+
+**Added by**: Active Solution Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
 |DisplayName||
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|False|
 |IsValidForRead|True|
-|LogicalName|owneridname|
+|LogicalName|organizationidname|
 |MaxLength|100|
 |RequiredLevel|SystemRequired|
 |Type|String|
-
-
-### <a name="BKMK_OwnerIdYomiName"></a> OwnerIdYomiName
-
-**Added by**: Active Solution Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Yomi name of the owner|
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|owneridyominame|
-|MaxLength|100|
-|RequiredLevel|SystemRequired|
-|Type|String|
-
-
-### <a name="BKMK_OwningBusinessUnit"></a> OwningBusinessUnit
-
-**Added by**: Active Solution Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Unique identifier for the business unit that owns the record|
-|DisplayName|Owning Business Unit|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|owningbusinessunit|
-|RequiredLevel|None|
-|Targets|businessunit|
-|Type|Lookup|
-
-
-### <a name="BKMK_OwningTeam"></a> OwningTeam
-
-**Added by**: Active Solution Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Unique identifier for the team that owns the record.|
-|DisplayName|Owning Team|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|owningteam|
-|RequiredLevel|None|
-|Targets|team|
-|Type|Lookup|
-
-
-### <a name="BKMK_OwningUser"></a> OwningUser
-
-**Added by**: Active Solution Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Unique identifier for the user that owns the record.|
-|DisplayName|Owning User|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|owninguser|
-|RequiredLevel|None|
-|Targets|systemuser|
-|Type|Lookup|
 
 
 ### <a name="BKMK_VersionNumber"></a> VersionNumber
@@ -710,47 +588,35 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related entity. Listed by **SchemaName**.
 
-- [lk_msdyn_skillattachmenttarget_createdby](#BKMK_lk_msdyn_skillattachmenttarget_createdby)
-- [lk_msdyn_skillattachmenttarget_createdonbehalfby](#BKMK_lk_msdyn_skillattachmenttarget_createdonbehalfby)
-- [lk_msdyn_skillattachmenttarget_modifiedby](#BKMK_lk_msdyn_skillattachmenttarget_modifiedby)
-- [lk_msdyn_skillattachmenttarget_modifiedonbehalfby](#BKMK_lk_msdyn_skillattachmenttarget_modifiedonbehalfby)
-- [user_msdyn_skillattachmenttarget](#BKMK_user_msdyn_skillattachmenttarget)
-- [msdyn_skillattachmentruleitem_target](#BKMK_msdyn_skillattachmentruleitem_target)
+- [lk_msdyn_conversationsuggestionrequestpayload_createdby](#BKMK_lk_msdyn_conversationsuggestionrequestpayload_createdby)
+- [lk_msdyn_conversationsuggestionrequestpayload_createdonbehalfby](#BKMK_lk_msdyn_conversationsuggestionrequestpayload_createdonbehalfby)
+- [lk_msdyn_conversationsuggestionrequestpayload_modifiedby](#BKMK_lk_msdyn_conversationsuggestionrequestpayload_modifiedby)
+- [lk_msdyn_conversationsuggestionrequestpayload_modifiedonbehalfby](#BKMK_lk_msdyn_conversationsuggestionrequestpayload_modifiedonbehalfby)
 
 
-### <a name="BKMK_lk_msdyn_skillattachmenttarget_createdby"></a> lk_msdyn_skillattachmenttarget_createdby
+### <a name="BKMK_lk_msdyn_conversationsuggestionrequestpayload_createdby"></a> lk_msdyn_conversationsuggestionrequestpayload_createdby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_msdyn_skillattachmenttarget_createdby](systemuser.md#BKMK_lk_msdyn_skillattachmenttarget_createdby) One-To-Many relationship.
+See systemuser Entity [lk_msdyn_conversationsuggestionrequestpayload_createdby](systemuser.md#BKMK_lk_msdyn_conversationsuggestionrequestpayload_createdby) One-To-Many relationship.
 
-### <a name="BKMK_lk_msdyn_skillattachmenttarget_createdonbehalfby"></a> lk_msdyn_skillattachmenttarget_createdonbehalfby
-
-**Added by**: System Solution Solution
-
-See systemuser Entity [lk_msdyn_skillattachmenttarget_createdonbehalfby](systemuser.md#BKMK_lk_msdyn_skillattachmenttarget_createdonbehalfby) One-To-Many relationship.
-
-### <a name="BKMK_lk_msdyn_skillattachmenttarget_modifiedby"></a> lk_msdyn_skillattachmenttarget_modifiedby
+### <a name="BKMK_lk_msdyn_conversationsuggestionrequestpayload_createdonbehalfby"></a> lk_msdyn_conversationsuggestionrequestpayload_createdonbehalfby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_msdyn_skillattachmenttarget_modifiedby](systemuser.md#BKMK_lk_msdyn_skillattachmenttarget_modifiedby) One-To-Many relationship.
+See systemuser Entity [lk_msdyn_conversationsuggestionrequestpayload_createdonbehalfby](systemuser.md#BKMK_lk_msdyn_conversationsuggestionrequestpayload_createdonbehalfby) One-To-Many relationship.
 
-### <a name="BKMK_lk_msdyn_skillattachmenttarget_modifiedonbehalfby"></a> lk_msdyn_skillattachmenttarget_modifiedonbehalfby
-
-**Added by**: System Solution Solution
-
-See systemuser Entity [lk_msdyn_skillattachmenttarget_modifiedonbehalfby](systemuser.md#BKMK_lk_msdyn_skillattachmenttarget_modifiedonbehalfby) One-To-Many relationship.
-
-### <a name="BKMK_user_msdyn_skillattachmenttarget"></a> user_msdyn_skillattachmenttarget
+### <a name="BKMK_lk_msdyn_conversationsuggestionrequestpayload_modifiedby"></a> lk_msdyn_conversationsuggestionrequestpayload_modifiedby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [user_msdyn_skillattachmenttarget](systemuser.md#BKMK_user_msdyn_skillattachmenttarget) One-To-Many relationship.
+See systemuser Entity [lk_msdyn_conversationsuggestionrequestpayload_modifiedby](systemuser.md#BKMK_lk_msdyn_conversationsuggestionrequestpayload_modifiedby) One-To-Many relationship.
 
-### <a name="BKMK_msdyn_skillattachmentruleitem_target"></a> msdyn_skillattachmentruleitem_target
+### <a name="BKMK_lk_msdyn_conversationsuggestionrequestpayload_modifiedonbehalfby"></a> lk_msdyn_conversationsuggestionrequestpayload_modifiedonbehalfby
 
-See msdyn_skillattachmentruleitem Entity [msdyn_skillattachmentruleitem_target](msdyn_skillattachmentruleitem.md#BKMK_msdyn_skillattachmentruleitem_target) One-To-Many relationship.
+**Added by**: System Solution Solution
+
+See systemuser Entity [lk_msdyn_conversationsuggestionrequestpayload_modifiedonbehalfby](systemuser.md#BKMK_lk_msdyn_conversationsuggestionrequestpayload_modifiedonbehalfby) One-To-Many relationship.
 
 ### See also
 

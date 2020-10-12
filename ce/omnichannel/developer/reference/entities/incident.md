@@ -1,7 +1,7 @@
 ---
 title: "Incident Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the Incident entity."
-ms.date: 10/02/2020
+ms.date: 10/12/2020
 ms.service: "crm-online"
 ms.topic: "reference"
 author: "platkat"
@@ -188,7 +188,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_Adx_CreatedByIPAddress"></a> Adx_CreatedByIPAddress
 
-**Added by**: Dynamics 365 Portal – Portal Application Dependencies Solution
+**Added by**: Dynamics 365 Portals - Portal Dependencies Solution
 
 |Property|Value|
 |--------|-----|
@@ -206,7 +206,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_Adx_CreatedByUsername"></a> Adx_CreatedByUsername
 
-**Added by**: Dynamics 365 Portal – Portal Application Dependencies Solution
+**Added by**: Dynamics 365 Portals - Portal Dependencies Solution
 
 |Property|Value|
 |--------|-----|
@@ -224,7 +224,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_Adx_ModifiedByIPAddress"></a> Adx_ModifiedByIPAddress
 
-**Added by**: Dynamics 365 Portal – Portal Application Dependencies Solution
+**Added by**: Dynamics 365 Portals - Portal Dependencies Solution
 
 |Property|Value|
 |--------|-----|
@@ -242,7 +242,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_Adx_ModifiedByUsername"></a> Adx_ModifiedByUsername
 
-**Added by**: Dynamics 365 Portal – Portal Application Dependencies Solution
+**Added by**: Dynamics 365 Portals - Portal Dependencies Solution
 
 |Property|Value|
 |--------|-----|
@@ -953,7 +953,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_msa_partnercontactid"></a> msa_partnercontactid
 
-**Added by**: Dynamics 365 Portal – Portal Application Dependencies Solution
+**Added by**: Dynamics 365 Portals - Portal Dependencies Solution
 
 |Property|Value|
 |--------|-----|
@@ -969,7 +969,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_msa_partnerid"></a> msa_partnerid
 
-**Added by**: Dynamics 365 Portal – Portal Application Dependencies Solution
+**Added by**: Dynamics 365 Portals - Portal Dependencies Solution
 
 |Property|Value|
 |--------|-----|
@@ -2201,7 +2201,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_msa_partnercontactidName"></a> msa_partnercontactidName
 
-**Added by**: Dynamics 365 Portal – Portal Application Dependencies Solution
+**Added by**: Dynamics 365 Portals - Portal Dependencies Solution
 
 |Property|Value|
 |--------|-----|
@@ -2219,7 +2219,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_msa_partnercontactidYomiName"></a> msa_partnercontactidYomiName
 
-**Added by**: Dynamics 365 Portal – Portal Application Dependencies Solution
+**Added by**: Dynamics 365 Portals - Portal Dependencies Solution
 
 |Property|Value|
 |--------|-----|
@@ -2237,7 +2237,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_msa_partneridName"></a> msa_partneridName
 
-**Added by**: Dynamics 365 Portal – Portal Application Dependencies Solution
+**Added by**: Dynamics 365 Portals - Portal Dependencies Solution
 
 |Property|Value|
 |--------|-----|
@@ -2255,7 +2255,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_msa_partneridYomiName"></a> msa_partneridYomiName
 
-**Added by**: Dynamics 365 Portal – Portal Application Dependencies Solution
+**Added by**: Dynamics 365 Portals - Portal Dependencies Solution
 
 |Property|Value|
 |--------|-----|
