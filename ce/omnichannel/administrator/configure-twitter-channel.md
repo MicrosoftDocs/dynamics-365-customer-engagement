@@ -136,7 +136,7 @@ The agent receives the notification of the incoming chat request, along with cus
 > [!div class=mx-imgBorder]
 > ![Twitter chat agent notification](../media/twitter-chat-agent-notify.png "Twitter chat agent notification")
 
-If the customer is identified by name, the conversation is automatically linked to the contact record and the customer summary is populated. More information: [View customer summary](../agent/agent-oc/oc-customer-summary.md)
+Once the Twitter social profile is linked to an user customer/contact record by the agent, subsequent Twitter conversations are linked to the customer records and the customer summary is populated. 
 
 If the customer isn't identified by name, a new contact record can be created.
 
