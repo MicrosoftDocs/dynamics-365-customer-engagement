@@ -29,6 +29,7 @@
 ### [Delete solutions](administrator/delete-solution.md)
 ### [Integrate an Azure bot](administrator/configure-bot.md)
 ### [Integrate a Power Virtual Agents bot](administrator/configure-bot-virtual-agent.md)
+### [Context variables for a bot](administrator/context-variables-for-bot.md)
 
 ### Channels
 #### [Overview of channels](administrator/channels.md)
@@ -415,6 +416,7 @@
 ##### [startProactiveChat](developer/reference/methods/startProactiveChat.md)
 ##### [closeChat](developer/reference/methods/closeChat.md)
 ### Real time translation JavaScript API Reference
+#### [translationprovider](developer/reference/methods/getTranslationProvider.md)
 #### [initializeNewConversation](developer/reference/methods/initializeNewConversation.md)
 #### [translateMessage](developer/reference/methods/translateMessage.md)
 ### Events

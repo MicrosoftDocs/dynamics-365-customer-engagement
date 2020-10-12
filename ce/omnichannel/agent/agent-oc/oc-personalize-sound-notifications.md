@@ -6,7 +6,7 @@ ms.author: nenellim
 manager: shujoshi
 applies_to: 
   - ""
-ms.date: 09/15/2020
+ms.date: 10/12/2020
 ms.service: 
  "dynamics-365-customerservice"
 ms.topic: article
@@ -15,8 +15,6 @@ ms.topic: article
 # Personalize sound notification settings
 
 [!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
-
-[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
 ## Introduction
 

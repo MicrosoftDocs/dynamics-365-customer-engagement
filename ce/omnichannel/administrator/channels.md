@@ -4,9 +4,9 @@ description: "Learn about channels in Omnichannel for Customer Service."
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.date: 08/03/2020
+ms.date: 10/12/2020
 ms.service: 
-  - "dynamics-365-customerservice"
+  "dynamics-365-customerservice"
 ms.topic: article
 ---
 
@@ -45,7 +45,7 @@ There are two options:
 If you want to help your customers using social channels, you can use the social channels.
 
 - [Facebook](configure-facebook-channel.md)
-- [Preview: WhatsApp through Twilio](configure-whatsapp-channel.md)
+- [WhatsApp through Twilio](configure-whatsapp-channel.md)
 - [Twitter](configure-twitter-channel.md)
 - [WeChat](configure-wechat-channel.md)
 - [LINE](configure-line-channel.md)
@@ -56,11 +56,11 @@ If you want to help your customers using social channels that are not supported 
 
 If you want to help your customers using your Line of Business (in-house) messaging channels, you can use the [Direct Line](configure-custom-channel.md#bring-channels-using-direct-line) Bot Framework method.
 
-## Preview: Microsoft Teams
+## Microsoft Teams
 
 If you want to help your customers using a standard collaboration channel, you can use the Microsoft Teams channel.
 
-To learn more, see [Preview: Configure Microsoft Teams](configure-microsoft-teams.md).
+To learn more, see [Configure Microsoft Teams](configure-microsoft-teams.md).
 
 ## Entity records
 
