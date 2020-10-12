@@ -407,4 +407,3 @@ All customers are advised to upgrade all legacy versions of Field Service and Pr
 ### See also
 
 - [New and upcoming features](new-upcoming.md)
-- [Self-enabling install of the Unified Interface versions of Field and Project Service](https://cloudblogs.microsoft.com/dynamics365/it/2019/08/01/how-to-enable-unified-interface-apps-of-field-service-and-project-service-automation/)
