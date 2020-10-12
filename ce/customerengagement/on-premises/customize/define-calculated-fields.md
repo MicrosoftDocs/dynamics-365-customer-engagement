@@ -22,7 +22,7 @@ search.audienceType:
 ---
 # Define calculated fields to automate manual calculations
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Define calculated fields to automate manual calculations](/powerapps/maker/common-data-service/define-calculated-fields)
 
 Calculated fields let you automate manual calculations used in your business processes. For example, a salesperson may want to know the weighted revenue for an opportunity which is based on the estimated revenue from an opportunity multiplied by the probability. Or, they want to automatically apply a discount, if an order is greater than $500. A calculated field can contain values resulting from simple math operations, or conditional operations, such as greater than or if-else, and many others. You can accomplish all this by using the calculated fields feature; no need to write code.  
   

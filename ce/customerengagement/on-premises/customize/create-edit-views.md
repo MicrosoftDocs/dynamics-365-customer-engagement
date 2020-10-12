@@ -24,7 +24,7 @@ search.audienceType:
 
 # Understand views (lists) 
 
- 
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Understand model-driven app views](/powerapps/maker/model-driven-apps/create-edit-views) 
 
 With Dynamics 365 Customer Engagement (on-premises), use views to define how a list of records for a specific entity is displayed in the application. A view defines:  
 -  The columns to display    
