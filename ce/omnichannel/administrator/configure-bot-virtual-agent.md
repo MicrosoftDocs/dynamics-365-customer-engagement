@@ -12,6 +12,8 @@ ms.topic: article
 
 # Integrate a Power Virtual Agents bot
 
+[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+
 Microsoft Power Virtual Agents allows organizations to automate routine conversations, letting agents focus on high-value interactions. When a conversation is escalated from a bot to a human agent, agents can see the full transcript of bot conversations and have complete context while engaging with customers.
 
 After you have created your bot and connected it to an Omnichannel for Customer Service environment, you can go to the Omnichannel Administration app in order to add your bot to queues and configure context variables to route chat sessions to queues. 
@@ -110,23 +112,7 @@ In Power Virtual Agents, do the following:
 
 6. Save and publish the changes.
 
-At run time, the required information is captured in the context variable that can then be used for further actions based on the workflow you configure.
-
-### Context variables
-
-The following table contains the keys that can help configure the context variables. Make sure the key names are used as is when authoring flows in Power Virtual Agents or Azure bots.
-
-|Scenarios|Keys|Description|Data type|
-|-----|-----|-------|-------|
-|Prechat |Customer creates the variable. Admin needs to use the same name as the variable created while authoring flows in  Power Virtual Agents or Azure bots.|The context variables for pre-conversation answers store the customer answers for questions in the pre-conversation survey. |String|
-|Custom Context – (Livechat SDK set context provider) |Customer creates the variable.|These are custom context variables that can be created and passed through the Livechat SDK. | String|
-|Liveworkitem ID |msdyn_liveworkitemid|This context variable contains the conversation ID for the ongoing conversation and can be used to fetch and perform operations on the record in common data service.|String|
-|Authenticated chat 
-Record identification – Contact
-|msdyn_contact_msdyn_ocliveworkitem_Customer|This context variable contains the record ID for the customer (contact or account) record that is linked to the conversation. If this variable is set, the customer will be linked to the conversation post flush.|String|
-|Record identification – Case|msdyn_incident_msdyn_ocliveworkitem|This context variable contains the record ID for the case record that is linked to the conversation. If this variable is set, the case will be linked to the conversation post flush.|String|
-|Engagement Context |msdyn_msdyn_ocliveworkitem_msdyn_livechatengagementctx_liveworkitemid|These context variables contain information, such as the browser type and language that is passed when the conversation is initiated. |String|
-|||||
+At run time, the required information is captured in the context variable that can then be used for further actions based on the workflow you configure. More information [Context variables for a bot](context-variables-for-bot.md).
 
 ## Known limitations
 
