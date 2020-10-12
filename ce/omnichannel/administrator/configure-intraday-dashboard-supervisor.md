@@ -56,7 +56,7 @@ To enable the preconfigured Power BI workspace:
 
 3.  Select **+ New**. 
 
-    The **Power BI Configuration** form opens, where you can verify that **Use preconfigured Power BI workspace** is enabled or select it to enable it.
+    The **Power BI Configuration** form opens, where you can verify that **Use preconfigured Power BI workspace** is enabled or you can toggle it to **Yes** to enable it.
 
     > [!div class=mx-imgBorder]
     > ![Preconfigured Power BI workspace configuration settings page](../media/supervisor-admin-preconfigured-powerbi-configuration-settings.png "Preconfigured Power BI workspace configuration settings page")
