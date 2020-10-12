@@ -4,7 +4,7 @@ description: "Learn about the createTab API for the multi-session apps such as O
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.date: 10/05/2020
+ms.date: 10/12/2020
 ms.service: 
    "dynamics-365-customerservice"
 ms.topic: reference
