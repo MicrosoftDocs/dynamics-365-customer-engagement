@@ -3,7 +3,7 @@ title: "Dynamics 365 Field Service inspections | MicrosoftDocs"
 description: Learn about how to use inspections in Dynamics 365 Field Service.
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 08/01/2020
+ms.date: 10/12/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -30,6 +30,10 @@ search.app:
 # Add inspections to work orders in Dynamics 365 Field Service
 
 Field Service inspections are digital forms that technicians use to quickly and easily answer a list of questions as part of a work order. The list of questions can include safety protocols, pass and fail tests for a customer asset, an interview with a customer, or other audits and assessments performed before, during, or after a work order.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/inspections-mobile-2020-tablet-phone.png)
 
 Compared to work order incident types and service tasks, using inspections has additional benefits:
 
