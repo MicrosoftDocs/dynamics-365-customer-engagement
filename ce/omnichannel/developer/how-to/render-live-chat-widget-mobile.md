@@ -4,7 +4,7 @@ description: "Render a live chat widget on your mobile app using a code snippet 
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 07/09/2020
+ms.date: 10/12/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: reference
