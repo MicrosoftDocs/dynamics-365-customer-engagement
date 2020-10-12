@@ -22,7 +22,7 @@ Sets the focus on a tab in the current session.
 
 | **Name**        | **Type** | **Required** | **Description**                                      |
 |-----------------|----------|--------------|------------------------------------------------------|
-| tabId           | String   | Yes          | Unique identifier of the tab that has to be focussed. |
+| tabId           | String   | Yes          | Unique identifier of the tab that has to be focused. |
 | successCallback | Function | No           | A function to call when a record is retrieved.       |
 | errorCallback   | Function | No           | A function to call when the operation fails.         |
 
