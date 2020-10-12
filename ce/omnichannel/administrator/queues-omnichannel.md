@@ -26,10 +26,10 @@ In an enterprise scenario, you can have various supervisors to handle different 
 
 To simplify the routing experience for administrators and supervisors, queues are categorised based on the channel types as follows:
 
-- **Messaging:** To route conversations pertaining to the live chat and social channels.
+- **Messaging:** To route all messaging conversations pertaining to the Live Chat, SMS, and social channels.
 - **Entity records:** To route cases pertaining to entity records.
 
-The queue types help ensure issues to be routed correctly and help avoid cross-queue assignments. When you configure work streams and routing rule items, the queues that will be available for selection will be based on the applicable queue type. For example, if you are configuring a work stream for the WhatsApp channel, the queues that will be available for selection will be those that are of the messaging type. Similarly, in a conversation transfer scenario, you can transfer a chat conversation only to a messaging queue and a case to an entity queue.
+The queue types help ensure issues to be routed correctly and help avoid cross-queue assignments. When you configure work streams and routing rule items, the queues that will be available for selection will be based on the channel type for the work stream. For example, for routing rules for a Live Chat work stream, only messaging type queues will be shown for selection. Similarly, in a conversation transfer scenario, you can transfer a chat conversation only to a messaging queue and a case to an entity queue.
 
 You can assign priority to queues. All conversations in a queue take the priority that is defined for the queue; higher priority conversations are allocated first. For example, if there are two chat conversations coming from two queues with priorities assigned as Priority 1 and Priority 2 respectively, chat conversation with Priority 1 will be allocated to an agent first.
 
@@ -38,12 +38,12 @@ You can assign priority to queues. All conversations in a queue take the priorit
 Out of the box, the following default queues are available in Omnichannel for Customer Service:
 
 - **Default entity queue:** The queue that is available for routing entity records.
-- **Default messaging queue:** The queue that is available for routing conversations pertaining to the Live Chat and social channels.
+- **Default messaging queue:** The queue that is available for routing all messaging conversations pertaining to the Live Chat, SMS, and social channels.
 
 The default queues can't be edited or deleted. All Omnichannel for Customer Service users are members of the default queues. Therefore, the membership of these default queues also can't be changed.
 
   > [!NOTE]
-  > When no custom queues or routing rules are defined, all conversations are directed to one of the out-of-the-box default queues.
+  > When no custom queues or routing rules are defined, all conversations are directed to one of the out-of-the-box default queue based on the work item type.
 
 ## Create a queue
 
