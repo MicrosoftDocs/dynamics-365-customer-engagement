@@ -55,17 +55,12 @@ Other important inspection capabilities include:
 6.	Migration costs would be there if they decide to shift in future. 
 7.	Its more of a trade off between choosing right approach today even with few gaps rather than going custom and then investing constantly or missing on investments that we are making.
 8.	They can go with a hybrid where they use our OOB inspections and whatever is missing like populating certain more data ..they can use custom entities for that.
-9.	As for Powerapps vs Inspections I see one major difference that if the customer has multiple inspection forms then OOB one makes more sense than Powerapps. 
+
 
 11. multiple inspections as part of a work order
 
+
  
-
-Compared to work order incident types and service tasks, using inspections has additional benefits:
-
-- **Easier to create**: administrators can quickly create an inspection with a drag-and-drop interface without needing to create new entities and fields.
-- **Easier to fill out**: technicians can quickly enter responses for each inspection question and save all of them at once, rather than having to open and close multiple records.
-- **More flexible and robust**: Field Service inspections have many question format and validation options, such as multi-option select, mandatory fields, images, attachments, and more. 
 
 Inspections are easy to create and use, involving the following steps: 
 
@@ -363,3 +358,18 @@ If an inspection question is required, the technician will not be able to mark *
 - Inactive inspections and work order service tasks are not available in offline mode. 
 - Inspections do not load in Internet Explorer. Edge or Chrome is recommended. 
 - The question type "Entity lookup" shows inactive records.
+
+## Additional notes
+
+### Field Service Inspections vs Power Apps inspections
+
+9.	As for Powerapps vs Inspections I see one major difference that if the customer has multiple inspection forms then OOB one makes more sense than Powerapps. 
+
+
+### Field Service Inspections vs Work Order Service Tasks
+
+Compared to work order incident types and service tasks, using inspections has additional benefits:
+
+- **Easier to create**: administrators can quickly create an inspection with a drag-and-drop interface without needing to create new entities and fields.
+- **Easier to fill out**: technicians can quickly enter responses for each inspection question and save all of them at once, rather than having to open and close multiple records.
+- **More flexible and robust**: Field Service inspections have many question format and validation options, such as multi-option select, mandatory fields, images, attachments, and more.
