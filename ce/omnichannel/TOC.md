@@ -339,7 +339,7 @@
 
 #### [msdyn_occhannelstateconfiguration](developer/reference/entities/msdyn_occhannelstateconfiguration.md)
 #### [msdyn_oc_geolocationprovider](developer/reference/entities/msdyn_oc_geolocationprovider.md)
-#### [msdyn_ocfbapplication](developer/reference/entities/msdyn_ocfbapplication.md) 
+#### [msdyn_ocfbapplication](developer/reference/entities/msdyn_ocfbapplication.md)
 #### [msdyn_oclanguage](developer/reference/entities/msdyn_oclanguage.md)
 #### [msdyn_oclinechannelconfig](developer/reference/entities/msdyn_oclinechannelconfig.md)
 
