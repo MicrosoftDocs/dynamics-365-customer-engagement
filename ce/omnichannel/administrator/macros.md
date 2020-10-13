@@ -4,9 +4,9 @@ description: "Learn about macros and how to configure in the Omnichannel Adminis
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 08/19/2020
+ms.date: 10/12/2020
 ms.service: 
-  - "dynamics-365-customerservice"
+   "dynamics-365-customerservice"
 ms.topic: article
 ---
 
@@ -41,11 +41,13 @@ The macros in Omnichannel for Customer Service have the following:
 
 ## Prerequisites
 
-- Install Dynamics 365 Productivity Tools solution.
+- Install the Dynamics 365 Productivity Tools solution.
 
 - Ensure that you have the **Productivity tools administrator** security role. To learn more, see [Assign roles and enable users](add-users-assign-roles.md).
 
 - Ensure that agents and supervisors are assigned the **Productivity tools user** security role. To learn more, see [Assign roles and enable users](add-users-assign-roles.md).
+
+- (Upgrading users only) [Accept data access permissions](omnichannel-provision-license.md#provide-data-access-consent) for using the **flow connector action**. This consent is only required for upgrading users because it is included with the data access consent when provisioning a new environment.
 
 ## Predefined automation actions
 
@@ -56,6 +58,8 @@ In Omnichannel for Customer Service, macros provide three connectors:
 - [Session connector](#session-connector): Provides actions to perform session-related operations.
 
 - [Omnichannel connector](#omnichannel-connector): Provides actions to perform Omnichannel for Customer Service&ndash;related operations.
+
+- [Flow connector](#flow-connector): Provides an action to run Power Automate flows from within agent scripts in Omnichannel for Customer Service.
 
 ### Productivity automation
 
@@ -273,6 +277,35 @@ This action is used to unlink a record from the conversation when the customer i
    | Entity record id| Specify the entity record ID of the entity that you want to unlink. <br>This is a mandatory field.| |
    | Entity primary Name | Specify the primary name of the entity that you want to unlink. <br>This is a mandatory field.| |
    |||
+
+### Flow connector
+
+As an administrator, you can use this action any number of times across different macros to automate and perform operations related to Omnichannel for Customer Service.
+
+   > [!div class=mx-imgBorder] 
+   > ![Flow connector](../media/flow-connector.png "Flow connector")
+   
+#### Run Flow
+
+This action is used to trigger Power Automate flows using macros in agent scripts. This action contains the following fields.
+
+| Field                | Description                             | Parameter  |
+|----------------------|-----------------------------------------|------------|
+| Entity logical name	 | Specify the logical name of the entity that you want to link. This is a mandatory field. Any CDS entity, e.g. Account, can be used based on business needs. | Account   |
+| Entity record id     | Specify the entity record ID of the entity that you want to link. This is a mandatory field. Ids or slugs, e.g. {customerRecordId}, can be used. While this field is labeled as entity record id, any value to be processed can be passed. While the field is required, values do not have to be functional unless required for the flow logic. | {customerRecordId}   |
+| Select flow	         | Specify the Power Automate flow to be run by this action. Requires flows with *When a record is selected* flow triggers. |    |
+
+#### Power Automate flow permissions
+
+Referenced flows require valid connection and run permissions for the Omnichannel for Customer Service tenant and agents that run the flow from within agent scripts.
+
+   > [!div class=mx-imgBorder] 
+   > ![Flow permissions](../media/flow-permissions.png "Flow permissions")
+
+On **Run flow** action execute, flows are run within the embedded flow widget on Omnichannel for Customer Service.
+
+   > [!div class=mx-imgBorder] 
+   > ![Run Flow](../media/run-flow.png "Run Flow")
 
 ## Built-in
 

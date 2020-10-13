@@ -25,7 +25,6 @@ The information displayed in these sections are displayed based on the conversat
 > [!IMPORTANT]
 > Best practices should be followed to ensure that metrics displayed on the dashboard are not adversely affected. To learn more, see [Best practices to use Omnichannel for Customer Service](../best-practices.md).
 
-
 ## Conversations insights
 
 The **Conversations insights** section provides insights on conversation requests that are generated in the past 24 hours with KPIs such as state of conversations and number of conversations.

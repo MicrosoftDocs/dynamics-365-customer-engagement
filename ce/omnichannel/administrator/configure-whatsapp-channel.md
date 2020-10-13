@@ -4,15 +4,17 @@ description: "Learn about the WhatsApp channel through Twilio and how to configu
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 09/09/2020
+ms.date: 10/13/2020
 ms.service: 
   "dynamics-365-customerservice"
 ms.topic: article
 ---
 
-# Configure a WhatsApp channel through Twilio
+# Preview: Configure a WhatsApp channel through Twilio
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+
+[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
 ## Overview of WhatsApp channel through Twilio
 

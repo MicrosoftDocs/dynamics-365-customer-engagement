@@ -1,6 +1,6 @@
 ---
-title: "msdyn_ocliveworkstreamcontextvariable Entity Reference | MicrosoftDocs"
-description: "Includes schema information and supported messages for the msdyn_ocliveworkstreamcontextvariable entity."
+title: "msdyn_twitterengagementctx Entity Reference | MicrosoftDocs"
+description: "Includes schema information and supported messages for the msdyn_twitterengagementctx entity."
 ms.date: 10/12/2020
 ms.service: "crm-online"
 ms.topic: "reference"
@@ -13,48 +13,48 @@ search.app:
   - PowerApps
   - D365CE
 ---
-# msdyn_ocliveworkstreamcontextvariable Entity Reference
+# msdyn_twitterengagementctx Entity Reference
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
-Stores the context variables for a work stream.
+Twitter Engagement Context
 
-**Added by**: Omnichannel – Base Solution
+**Added by**: Omnichannel – SocialChannels Solution
 
 
 ## Messages
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.0/msdyn_ocliveworkstreamcontextvariables(*msdyn_ocliveworkstreamcontextvariableid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/msdyn_ocliveworkstreamcontextvariables<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_ocliveworkstreamcontextvariables(*msdyn_ocliveworkstreamcontextvariableid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Assign|PATCH [*org URI*]/api/data/v9.0/msdyn_twitterengagementctxes(*msdyn_twitterengagementctxid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Create|POST [*org URI*]/api/data/v9.0/msdyn_twitterengagementctxes<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_twitterengagementctxes(*msdyn_twitterengagementctxid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 |IsValidStateTransition|<xref href="Microsoft.Dynamics.CRM.IsValidStateTransition?text=IsValidStateTransition Function" />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 |ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_ocliveworkstreamcontextvariables(*msdyn_ocliveworkstreamcontextvariableid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_ocliveworkstreamcontextvariables<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_twitterengagementctxes(*msdyn_twitterengagementctxid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_twitterengagementctxes<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
 |RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
 |RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_ocliveworkstreamcontextvariables(*msdyn_ocliveworkstreamcontextvariableid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_ocliveworkstreamcontextvariables(*msdyn_ocliveworkstreamcontextvariableid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_twitterengagementctxes(*msdyn_twitterengagementctxid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_twitterengagementctxes(*msdyn_twitterengagementctxid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
 |Property|Value|
 |--------|-----|
-|CollectionSchemaName|msdyn_ocliveworkstreamcontextvariables|
-|DisplayCollectionName|Context variables|
-|DisplayName|Context variable|
-|EntitySetName|msdyn_ocliveworkstreamcontextvariables|
+|CollectionSchemaName|msdyn_twitterengagementctxes|
+|DisplayCollectionName|Twitter Engagement Contexts|
+|DisplayName|Twitter Engagement Context|
+|EntitySetName|msdyn_twitterengagementctxes|
 |IsBPFEntity|False|
-|LogicalCollectionName|msdyn_ocliveworkstreamcontextvariables|
-|LogicalName|msdyn_ocliveworkstreamcontextvariable|
+|LogicalCollectionName|msdyn_twitterengagementctxes|
+|LogicalName|msdyn_twitterengagementctx|
 |OwnershipType|UserOwned|
-|PrimaryIdAttribute|msdyn_ocliveworkstreamcontextvariableid|
+|PrimaryIdAttribute|msdyn_twitterengagementctxid|
 |PrimaryNameAttribute|msdyn_name|
-|SchemaName|msdyn_ocliveworkstreamcontextvariable|
+|SchemaName|msdyn_twitterengagementctx|
 
 <a name="writable-attributes"></a>
 
@@ -63,17 +63,15 @@ Stores the context variables for a work stream.
 These attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
-- [msdyn_datatype](#BKMK_msdyn_datatype)
-- [msdyn_displayname](#BKMK_msdyn_displayname)
-- [msdyn_entitylogicalname](#BKMK_msdyn_entitylogicalname)
-- [msdyn_isdisplayable](#BKMK_msdyn_isdisplayable)
-- [msdyn_islist](#BKMK_msdyn_islist)
-- [msdyn_ismodifiable](#BKMK_msdyn_ismodifiable)
-- [msdyn_issystemdefined](#BKMK_msdyn_issystemdefined)
-- [msdyn_liveworkstreamid](#BKMK_msdyn_liveworkstreamid)
+- [msdyn_customername](#BKMK_msdyn_customername)
+- [msdyn_followerscount](#BKMK_msdyn_followerscount)
+- [msdyn_friendscount](#BKMK_msdyn_friendscount)
+- [msdyn_handleid](#BKMK_msdyn_handleid)
+- [msdyn_liveworkitemid](#BKMK_msdyn_liveworkitemid)
 - [msdyn_name](#BKMK_msdyn_name)
-- [msdyn_ocliveworkstreamcontextvariableId](#BKMK_msdyn_ocliveworkstreamcontextvariableId)
-- [msdyn_relationshipname](#BKMK_msdyn_relationshipname)
+- [msdyn_screenname](#BKMK_msdyn_screenname)
+- [msdyn_twitterengagementctxId](#BKMK_msdyn_twitterengagementctxId)
+- [msdyn_twitterengagementid](#BKMK_msdyn_twitterengagementid)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [OwnerId](#BKMK_OwnerId)
 - [OwnerIdType](#BKMK_OwnerIdType)
@@ -100,163 +98,81 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Integer|
 
 
-### <a name="BKMK_msdyn_datatype"></a> msdyn_datatype
+### <a name="BKMK_msdyn_customername"></a> msdyn_customername
 
 |Property|Value|
 |--------|-----|
-|Description|Data type of context variable (int, string, entity reference)|
-|DisplayName|Type|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_datatype|
-|RequiredLevel|ApplicationRequired|
-|Type|Picklist|
-
-#### msdyn_datatype Options
-
-|Value|Label|
-|-----|-----|
-|192350000|Text|
-|192350001|Number|
-|192350100|Entity Reference|
-
-
-
-### <a name="BKMK_msdyn_displayname"></a> msdyn_displayname
-
-|Property|Value|
-|--------|-----|
-|Description|Display Name for context variable.|
-|DisplayName|Display Name|
+|Description|Twitter Customer Name|
+|DisplayName|Customer Name|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_displayname|
+|LogicalName|msdyn_customername|
 |MaxLength|100|
 |RequiredLevel|None|
 |Type|String|
 
 
-### <a name="BKMK_msdyn_entitylogicalname"></a> msdyn_entitylogicalname
+### <a name="BKMK_msdyn_followerscount"></a> msdyn_followerscount
 
 |Property|Value|
 |--------|-----|
-|Description|Logical Name of Entity Reference.|
-|DisplayName|Entity Logical Name|
+|Description|Twitter Customer Followers Count|
+|DisplayName|Followers Count|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_entitylogicalname|
+|LogicalName|msdyn_followerscount|
 |MaxLength|100|
 |RequiredLevel|None|
 |Type|String|
 
 
-### <a name="BKMK_msdyn_isdisplayable"></a> msdyn_isdisplayable
+### <a name="BKMK_msdyn_friendscount"></a> msdyn_friendscount
 
 |Property|Value|
 |--------|-----|
-|Description|(Currently Unused)|
-|DisplayName|Displayable|
+|Description|Twitter Customer Friends Count|
+|DisplayName|Friends Count|
+|FormatName|Text|
+|IsLocalizable|False|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_isdisplayable|
+|LogicalName|msdyn_friendscount|
+|MaxLength|100|
 |RequiredLevel|None|
-|Type|Boolean|
-
-#### msdyn_isdisplayable Options
-
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
-
-**DefaultValue**: True
+|Type|String|
 
 
-
-### <a name="BKMK_msdyn_islist"></a> msdyn_islist
+### <a name="BKMK_msdyn_handleid"></a> msdyn_handleid
 
 |Property|Value|
 |--------|-----|
-|Description|(Currently Unused)|
-|DisplayName|IsList|
+|Description|Twitter Customer Handle Id|
+|DisplayName|Twitter Handle Id|
+|FormatName|Text|
+|IsLocalizable|False|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_islist|
+|LogicalName|msdyn_handleid|
+|MaxLength|100|
 |RequiredLevel|None|
-|Type|Boolean|
-
-#### msdyn_islist Options
-
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
-
-**DefaultValue**: False
+|Type|String|
 
 
-
-### <a name="BKMK_msdyn_ismodifiable"></a> msdyn_ismodifiable
+### <a name="BKMK_msdyn_liveworkitemid"></a> msdyn_liveworkitemid
 
 |Property|Value|
 |--------|-----|
-|Description|(Currently Unused)|
-|DisplayName|Modifiable|
+|Description|Lookup to Conversation|
+|DisplayName|Conversation|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_ismodifiable|
+|LogicalName|msdyn_liveworkitemid|
 |RequiredLevel|None|
-|Type|Boolean|
-
-#### msdyn_ismodifiable Options
-
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
-
-**DefaultValue**: True
-
-
-
-### <a name="BKMK_msdyn_issystemdefined"></a> msdyn_issystemdefined
-
-|Property|Value|
-|--------|-----|
-|Description|(Currently Unused)|
-|DisplayName|System Defined|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_issystemdefined|
-|RequiredLevel|None|
-|Type|Boolean|
-
-#### msdyn_issystemdefined Options
-
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
-
-**DefaultValue**: False
-
-
-
-### <a name="BKMK_msdyn_liveworkstreamid"></a> msdyn_liveworkstreamid
-
-|Property|Value|
-|--------|-----|
-|Description|Unique identifier of the associated workstream|
-|DisplayName|Work stream|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_liveworkstreamid|
-|RequiredLevel|ApplicationRequired|
-|Targets|msdyn_liveworkstream|
+|Targets|msdyn_ocliveworkitem|
 |Type|Lookup|
 
 
@@ -276,31 +192,47 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|String|
 
 
-### <a name="BKMK_msdyn_ocliveworkstreamcontextvariableId"></a> msdyn_ocliveworkstreamcontextvariableId
+### <a name="BKMK_msdyn_screenname"></a> msdyn_screenname
 
 |Property|Value|
 |--------|-----|
-|Description|Unique identifier for entity instances|
-|DisplayName|Context variable|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|IsValidForUpdate|False|
-|LogicalName|msdyn_ocliveworkstreamcontextvariableid|
-|RequiredLevel|SystemRequired|
-|Type|Uniqueidentifier|
-
-
-### <a name="BKMK_msdyn_relationshipname"></a> msdyn_relationshipname
-
-|Property|Value|
-|--------|-----|
-|Description|Name of the relationship between LiveWorkItem and Referenced Entity|
-|DisplayName|Relation Ship Name|
+|Description|Twitter Customer Handle Name|
+|DisplayName|Customer Screen Name|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_relationshipname|
+|LogicalName|msdyn_screenname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_twitterengagementctxId"></a> msdyn_twitterengagementctxId
+
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for entity instances|
+|DisplayName|Twitter Engagement Ctx|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|msdyn_twitterengagementctxid|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
+
+
+### <a name="BKMK_msdyn_twitterengagementid"></a> msdyn_twitterengagementid
+
+|Property|Value|
+|--------|-----|
+|Description|Twitter Engagement Id|
+|DisplayName|Twitter Engagement Id|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_twitterengagementid|
 |MaxLength|100|
 |RequiredLevel|None|
 |Type|String|
@@ -357,7 +289,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Status of the Context variable|
+|Description|Status of the Twitter Engagement Ctx|
 |DisplayName|Status|
 |IsValidForCreate|False|
 |IsValidForForm|True|
@@ -379,7 +311,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Reason for the status of the Context variable|
+|Description|Reason for the status of the Twitter Engagement Ctx|
 |DisplayName|Status Reason|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -447,7 +379,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 - [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
 - [ModifiedOnBehalfByName](#BKMK_ModifiedOnBehalfByName)
 - [ModifiedOnBehalfByYomiName](#BKMK_ModifiedOnBehalfByYomiName)
-- [msdyn_liveworkstreamidName](#BKMK_msdyn_liveworkstreamidName)
+- [msdyn_liveworkitemidName](#BKMK_msdyn_liveworkitemidName)
 - [OwnerIdName](#BKMK_OwnerIdName)
 - [OwnerIdYomiName](#BKMK_OwnerIdYomiName)
 - [OwningBusinessUnit](#BKMK_OwningBusinessUnit)
@@ -694,7 +626,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Type|String|
 
 
-### <a name="BKMK_msdyn_liveworkstreamidName"></a> msdyn_liveworkstreamidName
+### <a name="BKMK_msdyn_liveworkitemidName"></a> msdyn_liveworkitemidName
 
 |Property|Value|
 |--------|-----|
@@ -704,8 +636,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |IsLocalizable|False|
 |IsValidForForm|False|
 |IsValidForRead|True|
-|LogicalName|msdyn_liveworkstreamidname|
-|MaxLength|100|
+|LogicalName|msdyn_liveworkitemidname|
+|MaxLength|200|
 |RequiredLevel|None|
 |Type|String|
 
@@ -816,42 +748,42 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related entity. Listed by **SchemaName**.
 
-- [lk_msdyn_ocliveworkstreamcontextvariable_createdby](#BKMK_lk_msdyn_ocliveworkstreamcontextvariable_createdby)
-- [lk_msdyn_ocliveworkstreamcontextvariable_createdonbehalfby](#BKMK_lk_msdyn_ocliveworkstreamcontextvariable_createdonbehalfby)
-- [lk_msdyn_ocliveworkstreamcontextvariable_modifiedby](#BKMK_lk_msdyn_ocliveworkstreamcontextvariable_modifiedby)
-- [lk_msdyn_ocliveworkstreamcontextvariable_modifiedonbehalfby](#BKMK_lk_msdyn_ocliveworkstreamcontextvariable_modifiedonbehalfby)
-- [user_msdyn_ocliveworkstreamcontextvariable](#BKMK_user_msdyn_ocliveworkstreamcontextvariable)
+- [lk_msdyn_twitterengagementctx_createdby](#BKMK_lk_msdyn_twitterengagementctx_createdby)
+- [lk_msdyn_twitterengagementctx_createdonbehalfby](#BKMK_lk_msdyn_twitterengagementctx_createdonbehalfby)
+- [lk_msdyn_twitterengagementctx_modifiedby](#BKMK_lk_msdyn_twitterengagementctx_modifiedby)
+- [lk_msdyn_twitterengagementctx_modifiedonbehalfby](#BKMK_lk_msdyn_twitterengagementctx_modifiedonbehalfby)
+- [user_msdyn_twitterengagementctx](#BKMK_user_msdyn_twitterengagementctx)
 
 
-### <a name="BKMK_lk_msdyn_ocliveworkstreamcontextvariable_createdby"></a> lk_msdyn_ocliveworkstreamcontextvariable_createdby
-
-**Added by**: System Solution Solution
-
-See systemuser Entity [lk_msdyn_ocliveworkstreamcontextvariable_createdby](systemuser.md#BKMK_lk_msdyn_ocliveworkstreamcontextvariable_createdby) One-To-Many relationship.
-
-### <a name="BKMK_lk_msdyn_ocliveworkstreamcontextvariable_createdonbehalfby"></a> lk_msdyn_ocliveworkstreamcontextvariable_createdonbehalfby
+### <a name="BKMK_lk_msdyn_twitterengagementctx_createdby"></a> lk_msdyn_twitterengagementctx_createdby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_msdyn_ocliveworkstreamcontextvariable_createdonbehalfby](systemuser.md#BKMK_lk_msdyn_ocliveworkstreamcontextvariable_createdonbehalfby) One-To-Many relationship.
+See systemuser Entity [lk_msdyn_twitterengagementctx_createdby](systemuser.md#BKMK_lk_msdyn_twitterengagementctx_createdby) One-To-Many relationship.
 
-### <a name="BKMK_lk_msdyn_ocliveworkstreamcontextvariable_modifiedby"></a> lk_msdyn_ocliveworkstreamcontextvariable_modifiedby
-
-**Added by**: System Solution Solution
-
-See systemuser Entity [lk_msdyn_ocliveworkstreamcontextvariable_modifiedby](systemuser.md#BKMK_lk_msdyn_ocliveworkstreamcontextvariable_modifiedby) One-To-Many relationship.
-
-### <a name="BKMK_lk_msdyn_ocliveworkstreamcontextvariable_modifiedonbehalfby"></a> lk_msdyn_ocliveworkstreamcontextvariable_modifiedonbehalfby
+### <a name="BKMK_lk_msdyn_twitterengagementctx_createdonbehalfby"></a> lk_msdyn_twitterengagementctx_createdonbehalfby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_msdyn_ocliveworkstreamcontextvariable_modifiedonbehalfby](systemuser.md#BKMK_lk_msdyn_ocliveworkstreamcontextvariable_modifiedonbehalfby) One-To-Many relationship.
+See systemuser Entity [lk_msdyn_twitterengagementctx_createdonbehalfby](systemuser.md#BKMK_lk_msdyn_twitterengagementctx_createdonbehalfby) One-To-Many relationship.
 
-### <a name="BKMK_user_msdyn_ocliveworkstreamcontextvariable"></a> user_msdyn_ocliveworkstreamcontextvariable
+### <a name="BKMK_lk_msdyn_twitterengagementctx_modifiedby"></a> lk_msdyn_twitterengagementctx_modifiedby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [user_msdyn_ocliveworkstreamcontextvariable](systemuser.md#BKMK_user_msdyn_ocliveworkstreamcontextvariable) One-To-Many relationship.
+See systemuser Entity [lk_msdyn_twitterengagementctx_modifiedby](systemuser.md#BKMK_lk_msdyn_twitterengagementctx_modifiedby) One-To-Many relationship.
+
+### <a name="BKMK_lk_msdyn_twitterengagementctx_modifiedonbehalfby"></a> lk_msdyn_twitterengagementctx_modifiedonbehalfby
+
+**Added by**: System Solution Solution
+
+See systemuser Entity [lk_msdyn_twitterengagementctx_modifiedonbehalfby](systemuser.md#BKMK_lk_msdyn_twitterengagementctx_modifiedonbehalfby) One-To-Many relationship.
+
+### <a name="BKMK_user_msdyn_twitterengagementctx"></a> user_msdyn_twitterengagementctx
+
+**Added by**: System Solution Solution
+
+See systemuser Entity [user_msdyn_twitterengagementctx](systemuser.md#BKMK_user_msdyn_twitterengagementctx) One-To-Many relationship.
 
 ### See also
 
