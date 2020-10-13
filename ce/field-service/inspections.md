@@ -346,7 +346,9 @@ If an inspection question is required, the technician will not be able to mark *
 
 ### Field Service Inspections vs Power Apps inspections
 
-Field Service Inspections are designed to be easy for business users to create and use and require no additional training. As an exmaple, if you can create a survey with Microsoft Forms Pro you can create an inspection. This is different from Power App inspections that require extensive knowledge of the Power Apps platform and may require coding. Furthermore, it is easy to associate multiple Field Service Inspections to multiple assets all as part of a single work order and version management capabilities make it easy to keep edit inspections.
+- **Easier to create and use**: Field Service Inspections require no additional training to use and are designed to be easy for business users. As an example, if you can create a survey with Microsoft Forms Pro then you can create an inspection. This is different from Power App inspections that require extensive knowledge of the Power Apps platform and may require coding. 
+- **More scalable**: If your organization has many different inspections it is easier to create Field Service inspections with a drag and drop interface and with dynamic branching rather than create Power App inspectiosn that require creating new entities and forms for each inspection which is very time consuming. 
+- **Better integrated with Dynamics 365**: Field Service inspections are built into the work order and asset servicing capabilites. Furthermore, version management capabilities help administrators track and manage changes to each inspection. 
 
 
 ### Field Service Inspections vs Work Order Service Tasks
