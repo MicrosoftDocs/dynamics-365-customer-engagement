@@ -89,11 +89,8 @@ manager: shujoshi
     | Visual engagement | Screen sharing | Select whether to enable third-party screen sharing. You must install a third-party provider from AppSource to use the feature. | Enabled |
     | Visual engagement | Screen sharing provider | Select the provider from the list.| *Screen sharing provider* |
     | Visual engagement | Co-browse | Select whether to enable third-party co-browse. You must install a third-party provider from AppSource to use the feature. | Enabled |
-    | Visual engagement | Co-browse provider | Select the provider from the list. | *Co-browse provider* |
-    
-   > [!div class=mx-imgBorder]
-   > ![Enable third-party co-browse and screen sharing through conversation options in a chat widget](../media/chat-widget-conversation-options.png "Enable third-party co-browse and screen sharing through conversation options in a chat widget")
-        
+    | Visual engagement | Co-browse provider | Select the provider from the list. | *Co-browse provider* |   
+       
    > [!NOTE]
    > You can select one co-browse provider and/or one screen sharing provider for each chat widget. Only co-browse and screen sharing providers that have published a solution on AppSource will appear in the drop-down lists. 
    
@@ -112,13 +109,10 @@ manager: shujoshi
     |Offline | Title | Specify a title to be displayed. | We're offline. |
     | Offline | Subtitle | Optionally, specify a subtitle. | No agents are available. |
     |||||
-
-    > [!div class=mx-imgBorder]
-    > ![Configure the design of a chat widget](../media/oc-chat-widget-design-tab.png "Configure the design of a chat widget")
     
 10. On the **Location** tab, do the following:
-   1. In the **Widget location** section, select **Add** to specify the website domain where the chat widget must be shown. The domain format should not include the protocol (for example, **http** or **https**).
-   2. In the **Visitor location** section, specify whether you need to detect the visitor's location, and then select a **Geo Location Provider**. More information: [Set up location detection](geo-location-provider.md)
+    a. In the **Widget location** section, select **Add** to specify the website domain where the chat widget must be shown. The domain format should not include the protocol (for example, **http** or **https**).
+    b. In the **Visitor location** section, specify whether you need to detect the visitor's location, and then select a **Geo Location Provider**. More information: [Set up location detection](geo-location-provider.md)
 
     > [!NOTE]
     > If no domains are specified, the chat widget can be embedded on any website without restrictions. If you specify a domain, the chat widget can be hosted only on the specified domain.
