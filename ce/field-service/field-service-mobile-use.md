@@ -43,7 +43,7 @@ In this article let's take a look at common tasks and actions technicians will p
   
    ![Sync the Field Service Mobile app device](../field-service/media/field-service-sync-mobile-device.PNG "Sync the Field Service Mobile app device")  
   
-<a name="bkmk_online"></a>   
+
 ## Work online or offline  
  [!INCLUDE[pn_fieldservice_mobile_app_short](../includes/pn-fieldservice-mobile-app-short.md)] (mobile) lets you work online or offline. Online mode requires an Internet connection; offline mode does not.  
   

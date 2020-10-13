@@ -53,13 +53,11 @@ To get the mobile app, search and download **Field Service Mobile** from the Win
 
   ![Download the Field Service Mobile app](../field-service/media/mobile-field-service-mobile-windows-app-store.png "Download the Field Service Mobile app")
 
-  > [!Note]
-  > To use Field Service Mobile, the bookable resource (field technician) record must have **Enabled for Field Service Mobile** set to **Yes**.
+
 
 ## Step 2: Download the Field Service Mobile app on a phone or tablet
 
-> [!Note]
-> You will not be able to use the Field Service Mobile application with your Dynamics 365 organization until you have followed all of the steps below and set up users and [bookable resources enabled for mobile app access](set-up-bookable-resources.md).
+
 
 Dynamics 365 Field Service provides the cross-platform, multi-device Field Service Mobile application that is crafted to the field service worker's needs. The mobile application is entirely customizable and extensible, allowing any organization to brand the application as its own, define what types of data field service workers can access, and much more.
 
@@ -174,6 +172,11 @@ The mobile project template contains all customizations for the Field Service Mo
 
 > [!Note]
 > This is a trial license and is valid for 30 days. The trial can be extended by following the guidance in this topic: [Extend Field Service Mobile configuration tool trial](../field-service/activate-fs-mobile-app-license.md).
+
+## Next steps
+
+> [!Note]
+> You will not be able to use the Field Service Mobile application with your Dynamics 365 organization until you have [set up users](view-user-accounts-security-roles.md) and [bookable resources enabled for mobile app access](set-up-bookable-resources.md) in addition to the steps in this article. To use Field Service Mobile, the bookable resource (field technician) record must have **Enabled for Field Service Mobile** set to **Yes**.
 
 ### See also
 
