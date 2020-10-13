@@ -23,18 +23,17 @@ search.app:
   - D365CE
   - D365FS
 ---
-# Field Service Mobile Setup
+# Field Service Mobile Install and Setup
 
 The [!INCLUDE[pn_fieldservice_mobile_app_long](../includes/pn-fieldservice-mobile-app-long.md)] app gives field technicians the information they need to get to a customer location and complete work orders quickly.
 
- Before field technicians can use the [!INCLUDE[pn_fieldservice_mobile_app_short](../includes/pn-fieldservice-mobile-app-short.md)] app, a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrator needs to install the Field Service Mobile configuration tool and related mobile project.
+Before technicians can use the [!INCLUDE[pn_fieldservice_mobile_app_short](../includes/pn-fieldservice-mobile-app-short.md)] app, a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrator needs to install the Field Service Mobile configuration tool and related mobile project.
 
 To get fully up and running with Field Service Mobile, you'll need to:
 
-1. Install the core Field Service application
-2. Install the Field Service Mobile app
-3. Install the Woodford mobile configuration tool
-4. Install and configure the mobile project template
+1. Install the Field Service Mobile app
+2. Install the Woodford mobile configuration tool
+3. Install and configure the mobile project template
 
 In this article, we'll walk through each of these steps. See the following video for an additional walkthrough.
 
@@ -43,21 +42,7 @@ In this article, we'll walk through each of these steps. See the following video
 > [!Note]
 > For additional Field Service videos, see [this full playlist](https://aka.ms/fs-videos).
 
-## Install the mobile app on a phone or tablet
-
-To get the mobile app, search and download **Field Service Mobile** from the Windows, Apple, or Google Play app stores, or visit the following links. **Field Service Mobile** requires Field Service versions **7.5.5** or **8.2+**.
-
-- [Download for Windows](https://aka.ms/fsmobile-windows)
-- [Download for iOS (Apple)](https://aka.ms/fsmobile-iOS)
-- [Download for Android](https://aka.ms/fsmobile-android)
-
-  ![Download the Field Service Mobile app](../field-service/media/mobile-field-service-mobile-windows-app-store.png "Download the Field Service Mobile app")
-
-
-
-## Step 2: Download the Field Service Mobile app on a phone or tablet
-
-
+## Step 1: Download the Field Service Mobile app on a phone or tablet
 
 Dynamics 365 Field Service provides the cross-platform, multi-device Field Service Mobile application that is crafted to the field service worker's needs. The mobile application is entirely customizable and extensible, allowing any organization to brand the application as its own, define what types of data field service workers can access, and much more.
 
@@ -71,7 +56,7 @@ To get the mobile app, download **Field Service Mobile** from the Windows, Apple
 > ![Screenshot of Field Service mobile app download example](media/mobile-field-service-mobile-windows-app-store.png)
 
 
-## Step 3: Install the Field Service Mobile configuration tool (Woodford)
+## Step 2: Install the Field Service Mobile configuration tool (Woodford)
 
 The configuration tool allows app access for field technician users, and allows administrators to customize the mobile experience.
 
@@ -97,7 +82,7 @@ The configuration tool allows app access for field technician users, and allows 
 > ![Screenshot of Woodford under Settings menu in Dynamics 365 drop-down menu](media/field-service-mobile-solution-import-dropdown.png)  
 
 
-## Step 4: Import the mobile project template
+## Step 3: Import the mobile project template
 
 Next, download and import a mobile project that allows you to configure the mobile app for your organization.
 
