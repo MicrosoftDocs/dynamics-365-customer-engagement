@@ -82,6 +82,7 @@ If you are adding an authenticated chat experience to a custom website, your web
 2. Create an endpoint that will return your public key(s). The public key(s) will be used by the Omnichannel servers to validate the JWT token passed as a part of authorizing the chat request. The URL of this endpoint will be entered into the Omnichannel Administration app when creating an Authentication setting record.  
 
     Your public key endpoint will look similar to this example:
+    
         ```
         -----BEGIN PUBLIC KEY----- 
         NIIBIjANBgkqhkiG9w0BAQEFABCOPQ8AMIIBCgKCAQEAn+BjbrY5yhSpLjcV3seP 
@@ -93,6 +94,7 @@ If you are adding an authenticated chat experience to a custom website, your web
         YQIDAQAB 
         -----END PUBLIC KEY----- 
         ```      
+        
     If you need to use multiple public keys, your public key endpoint can return a set of `<kid, publickey >` pairs. (Note that key ID pairs must be unique.)  The kid will need to be passed in the JWT token in step 4. If you are using multiple keys, your public key endpoint should return something that looks like this. Note that the public key is base 64 encoded: 
         
         [
