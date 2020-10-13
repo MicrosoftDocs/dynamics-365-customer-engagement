@@ -54,14 +54,15 @@ In previous versions, Field Service appears in the Dynamics 365 custom applicati
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service in Dynamics 365 dropdown menu](media/field-service-menu.png) 
 
+## Download mobile app
 
+## Set up mobile user
 
 
 
 ## Next steps
 - [Set up users and security roles](../field-service/view-user-accounts-security-roles.md)
 - [Enable bookable resources for mobile app access](set-up-bookable-resources.md)
-- [Enable maps for Field Service Mobile](mobile-enable-maps.md)
-- [Add sample data](../field-service/install-sample-data-8-x.md)
+
 
 
