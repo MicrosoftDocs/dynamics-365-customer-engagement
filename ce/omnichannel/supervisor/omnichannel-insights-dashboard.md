@@ -4,7 +4,7 @@ description: "Learn about Omnichannel Insights dashboards for supervisors"
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/07/2020
+ms.date: 10/13/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -59,13 +59,29 @@ Reporting structure consists of five sections:
 
 ### Conversation
 
-   This section provides historical visibility into the overall support operations across various channels: 
+   This section provides historical visibility into the overall support operations across various channels.
 
    > [!div class=mx-imgBorder]
    > ![Conversation](../media/conversation-report.png "Conversation")
 
-   This section consists of the following conversation KPIs: 
+   The KPIs for conversations and channels are listed in the following table. These are applicable to scenarios in which bots escalate to agents or agents directly handle customer calls.
 
+   | KPI | Description | Derivation | Measure | 
+   |------|----------|------------|---------|
+   | Incoming conversations | The number of conversations initiated by the customers that can be presented to agents. | All conversations are considered. | FactConversation[InComingConversationCount] |
+   | Conversations engaged|Offered conversations that are engaged by an agent. Customer-to-agent communication can begin at this point. | All conversations are considered. | FactConversation[Engaged] |
+   | Abandon rate | The percentage of conversations that are not engaged by agents. | All conversations are considered. | FactConversation[AbandonedRate] |
+   | Transfer rate | The percentage of conversations that are transferred to another agent or queue. || Conversations engaged and conversations that are in the closed state are considered. | FactConversation[TransferRate] |
+   | Conversation active time | Cumulative session active time for a conversation. | Conversations engaged and conversations that are in the closed state are considered. | FactConversation[ConversationActiveTime] |
+   | Conversation inactive time | Cumulative session inactive time for a conversation. |||
+   |||||
+   |||||
+   |||||
+
+
+
+
+<!--
    | KPI visuals    |   Description              |
    |----------------|----------------------------|
    |Incoming conversation vs. Conversations engaged  |This visual compares the volume of conversations initiated by the customers and engaged by an agent.             |
@@ -74,6 +90,7 @@ Reporting structure consists of five sections:
    |Average handle time                            |This visual shows the trend of average handle time over a period selected by a user with the average handle time for each day. |
    |Average customer effort time                   |This visual shows the trend of average customer effort time over a period selected by a user with the average handle time for each day.|
    |Average Customer Sentiment Pulse (CSP)         |The predicted customer sentiment in the timeframe for a set queue/agent, which indicates the degree of positive sentiment expressed by customers at the end of their interactions  |
+-->
 
 ### Channel
 
