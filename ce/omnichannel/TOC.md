@@ -339,7 +339,7 @@
 
 #### [msdyn_occhannelstateconfiguration](developer/reference/entities/msdyn_occhannelstateconfiguration.md)
 #### [msdyn_oc_geolocationprovider](developer/reference/entities/msdyn_oc_geolocationprovider.md)
-#### [msdyn_ocfbapplication](msdyn_ocfbapplication.md)
+#### [msdyn_ocfbapplication](developer/reference/entities/msdyn_ocfbapplication.md) 
 #### [msdyn_oclanguage](developer/reference/entities/msdyn_oclanguage.md)
 #### [msdyn_oclinechannelconfig](developer/reference/entities/msdyn_oclinechannelconfig.md)
 
@@ -413,7 +413,7 @@
 #### [msdyn_usersetting](developer/reference/entities/msdyn_usersetting.md)
 #### [msdyn_visitorjourney](developer/reference/entities/msdyn_visitorjourney.md)
 #### [msdyn_wechatengagementctx](developer/reference/entities/msdyn_wechatengagementctx.md)
-#### [msdyn_whatsappengagementctx](developer/reference/entities/msdyn_whatsappengagementctx)
+#### [msdyn_whatsappengagementctx](developer/reference/entities/msdyn_whatsappengagementctx.md)
 #### [queue](developer/reference/entities/queue.md)
 #### [socialprofile](developer/reference/entities/socialprofile.md)
 #### [systemuser](developer/reference/entities/systemuser.md)
