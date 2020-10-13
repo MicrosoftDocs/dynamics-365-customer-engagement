@@ -60,6 +60,7 @@
 #### [Apply additional filter](add-additional-filters.md)
 #### [Configure and manage drill-down entities](configure-manage-drill-downs.md)
 #### [Activate and upload simple columns data](activate-upload-simple-columns-data-forecast.md)
+#### [Deactivate and delete forecast](deactivate-delete-forecast.md)
 #### [Configure forecast using custom rollup entity](configure-forecast-using-custom-rollup-entity.md)
 #### [Capture forecast category for opportunity](capture-forecast-category-opportunity.md)
 #### [Add forecast grid and configuration options in site map](add-forecast-site-map.md)
