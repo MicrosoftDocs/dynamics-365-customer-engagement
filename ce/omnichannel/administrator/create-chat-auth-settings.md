@@ -84,7 +84,7 @@ If you are adding an authenticated chat experience to a custom website, your web
     Your public key endpoint will look similar to this example:
 
 
-        -----BEGIN PUBLIC KEY----- 
+        ```-----BEGIN PUBLIC KEY----- 
         NIIBIjANBgkqhkiG9w0BAQEFABCOPQ8AMIIBCgKCAQEAn+BjbrY5yhSpLjcV3seP 
         mNvAvtQ/zLwkjCbpc8c0xVUOzEdH8tq4fPi/X5P/Uf2CJomWjdOf1wffmOZjFasx 
         ELG+poTqy5uX2dNhH6lOMUsV31QGG36skLivpLBCSK6lWlzsV6WGkb/m8r86aGzp 
@@ -92,7 +92,7 @@ If you are adding an authenticated chat experience to a custom website, your web
         RSbWkKPqaEVFALprw+W5ZCung5QX3KOkY/rJd+2JwULm7okyQCQaF7qwa5i9Uf65 
         7M6ZL4vsDevq7E/v3tf6qxpSSHzt4XspXVQty9QHhqDqBEY3PfI4L2JjgIGuPhfS 
         YQIDAQAB 
-        -----END PUBLIC KEY----- 
+        -----END PUBLIC KEY----- ```
 
         
     If you need to use multiple public keys, your public key endpoint can return a set of `<kid, publickey >` pairs. (Note that key ID pairs must be unique.)  The kid will need to be passed in the JWT token in step 4. If you are using multiple keys, your public key endpoint should return something that looks like this. Note that the public key is base 64 encoded: 
