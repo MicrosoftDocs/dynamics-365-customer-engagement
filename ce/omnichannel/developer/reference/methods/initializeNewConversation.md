@@ -66,6 +66,7 @@ Returns the `InitializedConversationResponse` object, which contains the Boolean
 ```
 InitializedConversationResponse  {
         keepTranslationOn: Boolean;
+        c1Language: string;
 }
 ```
 
@@ -75,6 +76,7 @@ InitializedConversationResponse  {
 InitializedConversationResponse = 
 {
   "keepTranslationOn": true
+  "c1Language": "1032"
 }
 ```
 
