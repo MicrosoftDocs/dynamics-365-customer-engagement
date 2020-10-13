@@ -71,7 +71,7 @@ Reporting structure consists of five sections:
    | Incoming conversations | The number of conversations initiated by the customers that can be presented to agents. | All conversations are considered. | FactConversation[InComingConversationCount] |
    | Conversations engaged|Offered conversations that are engaged by an agent. Customer-to-agent communication can begin at this point. | All conversations are considered. | FactConversation[Engaged] |
    | Abandon rate | The percentage of conversations that are not engaged by agents. | All conversations are considered. | FactConversation[AbandonedRate] |
-   | Transfer rate | The percentage of conversations that are transferred to another agent or queue. || Conversations engaged and conversations that are in the closed state are considered. | FactConversation[TransferRate] |
+   | Transfer rate | The percentage of conversations that are transferred to another agent or queue. |Conversations engaged and conversations that are in the closed state are considered.| FactConversation[TransferRate] |
    | Conversation active time | Cumulative session active time for a conversation. | Conversations engaged and conversations that are in the closed state are considered. | FactConversation[ConversationActiveTime] |
    | Conversation inactive time | Cumulative session inactive time for a conversation. |||
    |||||
