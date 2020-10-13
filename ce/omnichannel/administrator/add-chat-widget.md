@@ -50,7 +50,7 @@ manager: shujoshi
     | **Chat Transcripts** | **Allow download of transcript** | Select whether to allow chat transcripts to be downloaded. <br> More information: [Configure download and email of chat transcripts](download-email-chat-transcripts.md) | Yes |
     | | **Allow email of transcript** |Select whether to allow chat transcripts to be emailed. <br> More information: [Configure download and email of chat transcripts](download-email-chat-transcripts.md) | Yes |
     | | **Email Template** |If you selected **Yes** for the **Allow email of transcript** field, the **Email Template** field is displayed. Select the email template you want to use to send the chat transcript as an email to the customer. | Conversation transcript email template |
-    | | **From mailbox ** | If you selected **Yes** for the **Allow email of transcript** field, the **"From" mailbox** field is displayed. Select the mailbox from which you want to send the chat transcript email to the customer. | Contoso |
+    | | **From mailbox** | If you selected **Yes** for the **Allow email of transcript** field, the **"From" mailbox** field is displayed. Select the mailbox from which you want to send the chat transcript email to the customer. | Contoso |
     |||
 
 
@@ -68,7 +68,36 @@ manager: shujoshi
     > [!div class=mx-imgBorder]
     > ![Configure the basic details of a chat widget](../media/oc-chat-widget-basic-details-tab.png "Configure the basic details of a chat widget")
 
-5. On the **Design** tab, specify the information for the following fields. The offline settings are available only when the operating hours are set.
+6. On the **Automated messages** tab, set up automated messages for your chat widget. More information: [Configure automated messages](configure-automated-message.md)
+
+7. On the **Surveys** tab, specify the information for the following fields.
+
+    | Section | Field | Description | Example value |
+    |---------------|------------------------|-----------------------------------|---------------------|
+    | Pre-conversation survey | Pre-conversation survey | Select whether to set up a pre-chat survey in the chat widget. The survey will be shown to users before a conversation is initiated. | Yes |
+    | Pre-chat unauthenticated questions | Pre-chat unauthenticated questions | If you set **Yes** for the **Pre-conversation survey** field, the **Pre-chat unauthenticated questions** section is displayed. <br> Add the pre-chat questionnaires <br> More information: [Configure a pre-conversation survey](configure-pre-chat-survey.md) | Product |
+    |Post-conversation survey| Turn on | If you set to **Yes**, you can configure a post-conversation survey to be presented to customers. More information: [Configure a post-conversation survey](configure-post-conversation-survey.md) |
+
+    > [!div class=mx-imgBorder]
+    > ![Configure a pre-conversation survey in a chat widget](../media/oc-chat-widget-survey-tab.png "Configure a pre-conversation survey in a chat widget")
+
+8. On the **Conversation options** tab, specify the information for the following fields.
+
+    | Section | Field | Description | Example value |
+    |---------------|------------------------|-----------------------------------|---------------------|
+    |Voice and video calls | Call options | Select a call option from the list: <ul>**No calling**: <br>Agents can't make voice or video calls. </ul><br> <ul>**Video and voice calling**:<br> Agents can make both voice and video calls. **Note:** Video calling is not available in Unified Service Desk. </ul><br><ul>**Voice only**:<br> Agents can make only voice calls.  </ul>| Video and voice calling |
+    | Visual engagement | Screen sharing | Select whether to enable third-party screen sharing. You must install a third-party provider from AppSource to use the feature. | Enabled |
+    | Visual engagement | Screen sharing provider | Select the provider from the list.| *Screen sharing provider* |
+    | Visual engagement | Co-browse | Select whether to enable third-party co-browse. You must install a third-party provider from AppSource to use the feature. | Enabled |
+    | Visual engagement | Co-browse provider | Select the provider from the list. | *Co-browse provider* |
+    
+   > [!div class=mx-imgBorder]
+   > ![Enable third-party co-browse and screen sharing through conversation options in a chat widget](../media/chat-widget-conversation-options.png "Enable third-party co-browse and screen sharing through conversation options in a chat widget")
+        
+   > [!NOTE]
+   > You can select one co-browse provider and/or one screen sharing provider for each chat widget. Only co-browse and screen sharing providers that have published a solution on AppSource will appear in the drop-down lists. 
+   
+9. On the **Design** tab, specify the information for the following fields. The offline settings are available only when the operating hours are set.
 
     | Section | Field | Description | Example value |
     |---------------|------------------------|-----------------------------------|---------------------|
@@ -86,52 +115,17 @@ manager: shujoshi
 
     > [!div class=mx-imgBorder]
     > ![Configure the design of a chat widget](../media/oc-chat-widget-design-tab.png "Configure the design of a chat widget")
-
-6. On the **Surveys** tab, specify the information for the following fields.
-
-    | Section | Field | Description | Example value |
-    |---------------|------------------------|-----------------------------------|---------------------|
-    | Pre-conversation survey | Pre-conversation survey | Select whether to set up a pre-chat survey in the chat widget. The survey will be shown to users before a conversation is initiated. | Yes |
-    | Pre-chat unauthenticated questions | Pre-chat unauthenticated questions | If you set **Yes** for the **Pre-conversation survey** field, the **Pre-chat unauthenticated questions** section is displayed. <br> Add the pre-chat questionnaires <br> More information: [Configure a pre-conversation survey](configure-pre-chat-survey.md) | Product |
-    |Post-conversation survey| Turn on | If you set to **Yes**, you can configure a post-conversation survey to be presented to customers. More information: [Configure a post-conversation survey](configure-post-conversation-survey.md) |
-
-    > [!div class=mx-imgBorder]
-    > ![Configure a pre-conversation survey in a chat widget](../media/oc-chat-widget-survey-tab.png "Configure a pre-conversation survey in a chat widget")
-
-7. On the **Location** tab, do the following:
+    
+10. On the **Location** tab, do the following:
    1. In the **Widget location** section, select **Add** to specify the website domain where the chat widget must be shown. The domain format should not include the protocol (for example, **http** or **https**).
    2. In the **Visitor location** section, specify whether you need to detect the visitor's location, and then select a **Geo Location Provider**. More information: [Set up location detection](geo-location-provider.md)
 
     > [!NOTE]
     > If no domains are specified, the chat widget can be embedded on any website without restrictions. If you specify a domain, the chat widget can be hosted only on the specified domain.
 
-8. On the **Conversation options** tab, specify the information for the following fields.
+11. On the **Related** tab, view activity associated with your chat widget, such as survey responses, chat widget locations, and system messages. 
 
-    | Section | Field | Description | Example value |
-    |---------------|------------------------|-----------------------------------|---------------------|
-    |Voice and video calls | Call options | Select a call option from the list: <ul>**No calling**: <br>Agents can't make voice or video calls. </ul><br> <ul>**Video and voice calling**:<br> Agents can make both voice and video calls. **Note:** Video calling is not available in Unified Service Desk. </ul><br><ul>**Voice only**:<br> Agents can make only voice calls.  </ul>| Video and voice calling |
-    | Visual engagement | Screen sharing | Select whether to enable third-party screen sharing. You must install a third-party provider from AppSource to use the feature. | Enabled |
-    | Visual engagement | Screen sharing provider | Select the provider from the list.| *Screen sharing provider* |
-    | Visual engagement | Co-browse | Select whether to enable third-party co-browse. You must install a third-party provider from AppSource to use the feature. | Enabled |
-    | Visual engagement | Co-browse provider | Select the provider from the list. | *Co-browse provider* |
-    
-   > [!div class=mx-imgBorder]
-   > ![Enable third-party co-browse and screen sharing through conversation options in a chat widget](../media/chat-widget-conversation-options.png "Enable third-party co-browse and screen sharing through conversation options in a chat widget")
-        
-   > [!NOTE]
-   > You can select one co-browse provider and/or one screen sharing provider for each chat widget. Only co-browse and screen sharing providers that have published a solution on AppSource will appear in the drop-down lists. 
-
-9. On the **Custom messages** tab, view and add custom system messages that will appear in the chat widget. To learn more, see [Set up custom messages](chat-custom-messages.md).
-
-   > [!div class=mx-imgBorder]
-   > ![Custom messages in a chat widget](../media/oc-chat-widget-custom-messages-tab.png "View and add custom messages in a chat widget")
-
-10. On the **Related** tab, view activity associated with your chat widget, such as survey responses, chat widget locations, and system messages. 
-
-   > [!div class=mx-imgBorder]
-   > ![Related chat widget activity](../media/oc-chat-widget-related-tab.png "Related chat widget activity")
-
-11. Select **Save** to save the configurations.
+12. Select **Save** to save the configurations.
 
 After you configure, agents can get the capabilities while they are in a conversation. To learn more, see [Call options and visual engagement in live chat](../agent/agent-oc/call-options-visual-engagement.md).
 
@@ -144,5 +138,5 @@ After you configure, agents can get the capabilities while they are in a convers
 [Create quick replies](create-quick-replies.md) <br>
 [Create and manage operating hours](create-operating-hours.md) <br>
 [Create chat authentication settings](create-chat-auth-settings.md) <br> 
-[Embed chat widget in Power Apps portals](embed-chat-widget-portal.md) <br>
+[Embed chat widget in your website or portal](embed-chat-widget-portal.md) <br>
 [Embed chat widget in mobile experiences](../developer/how-to/render-live-chat-widget-mobile.md)
