@@ -40,7 +40,7 @@ This offline experience uses [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-
 > [!IMPORTANT]
 > The set-up and configuration process for mobile offline is the same for [Power Apps mobile](https://docs.microsoft.com/powerapps/mobile/run-powerapps-on-mobile) and Dynamics 365 for phones and tablets app. To enable mobile offline synchronization for Power Apps mobile or Dynamics 365 mobile, follow the steps in this toipc.
 
-## Supported devices for Dynamics 365 for phones and tablets
+## Install the app and supported platforms for Dynamics 365 for phones and tablets
 
 Mobile offline for the Dynamics 365 mobile app is currently available for iOS and Android devices. To use the mobile offline feature, download the latest version of the Dynamics 365 mobile app for your phone or tablet from the app store. 
 
@@ -49,7 +49,13 @@ Mobile offline for the Dynamics 365 mobile app is currently available for iOS an
 
 To install the app, see [Install the app from your device’s app store](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets#install-the-app-from-your-devices-app-store).
 
- 
+## Install the app and supported platforms for Power Apps mobile
+
+For information on supported platforms for Power Apps mobile app, see [Supported platforms](https://docs.microsoft.com/powerapps/maker/canvas-apps/limits-and-config#supported-platforms-for-running-canvas-apps-using-the-power-apps-mobile-app).
+
+To install the app, see [Install the Power Apps mobile app](https://docs.microsoft.com/powerapps/mobile/run-powerapps-on-mobile#install-the-power-apps-mobile-app).
+
+
 ## Step 1: Enable entities for mobile offline synchronization 
  
 One of the first things you need to do is enable entities that will be available to mobile users when they're using the mobile app in offline mode. You can disable or enable any of the supported entities for offline mode.
