@@ -44,33 +44,30 @@ There are a few ways you can get access to Dynamics 365 Field Service:
 
 ### Verify the installation is complete
 
-If the installation is complete, the Field Service app will appear in the Dynamics 365 main menu when logged in as a system administrator.
+If the installation is complete, the "Field Service" and "Field Service Mobile" apps will appear in the list of apps when you log in. You can find these apps by going to:
+
+    https://[your-environment-name].crm.dynamics.com/apps
    
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service in navigation](media/field-service-navigation.png)
-
-In previous versions, Field Service appears in the Dynamics 365 custom application sitemap.
+> ![Screenshot of Field Service apps](media/admin-apps.png)
  
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service in Dynamics 365 dropdown menu](media/field-service-menu.png) 
 
 ## Install and set up the Dynamics 365 Field Service mobile app
 
 Next you need to set up the mobile app that technicians will use to view and complete work orders in the field. This involves:
 
-1. Downloading the "Field Service (Dynamics 365)" mobile app onto your phone and tablet
-
-See the topic on [Get started with the Field Service (Dynamics 365) mobile app](mobile-power-app-get-started.md)
-
-
-
+See the topic on [Get started with the Field Service (Dynamnics 365) mobile app](mobile-power-app-get-started.md)
 
 
 
 ## Next steps
+
+After installing Field Service and the Field Service mobile app, 
+
 - [Perform initial configurations](perform-initial-configurations-setup.md)
 - [Set up users and security roles](../field-service/view-user-accounts-security-roles.md)
 - [Create a Bookable Resource](set-up-bookable-resources.md)
+- [Quickstart: Schedule a work order and view it on the mobile application](quickstart-schedule-work-order.md)
 
 
 
