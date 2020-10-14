@@ -40,7 +40,7 @@ Available natively for Apple iOS and Google Android phones and tablets, the Fiel
 
 ## Prerequisites
 
-- **Field Service v8.8.22+**. The Field Service (Dynamics 365) mobile app will appear in your list of Dynamics 365 applications.
+- **Field Service v8.8.22+**. The Field Service mobile app will appear in your list of Dynamics 365 applications as "Field Service Mobile".
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Dynamics 365 list of apps, showing the Field Service Mobile solution in the list.](./media/mobile-2020-admin-assign-role-app.png)
@@ -59,7 +59,7 @@ Available natively for Apple iOS and Google Android phones and tablets, the Fiel
 
 ## Install and sign into the Field Service (Dynamics 365) mobile app
 
-Go to the app store on your iOS or Android device and search for **Field Service mobile**.
+Go to the app store on your iOS or Android device and search for **Dynamics 365 Field Service**.
 
 Download the app called **Field Service (Dynamics 365)**, as seen in the following screenshot. It's the mobile app built on the Power Platform.
 

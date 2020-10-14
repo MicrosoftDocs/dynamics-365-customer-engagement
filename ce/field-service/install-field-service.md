@@ -54,15 +54,23 @@ In previous versions, Field Service appears in the Dynamics 365 custom applicati
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service in Dynamics 365 dropdown menu](media/field-service-menu.png) 
 
-## Download mobile app
+## Install and set up the Dynamics 365 Field Service mobile app
 
-## Set up mobile user
+Next you need to set up the mobile app that technicians will use to view and complete work orders in the field. This involves:
+
+1. Downloading the "Field Service (Dynamics 365)" mobile app onto your phone and tablet
+
+See the topic on [Get started with the Field Service (Dynamics 365) mobile app](mobile-power-app-get-started.md)
+
+
+
 
 
 
 ## Next steps
+- [Perform initial configurations](perform-initial-configurations-setup.md)
 - [Set up users and security roles](../field-service/view-user-accounts-security-roles.md)
-- [Enable bookable resources for mobile app access](set-up-bookable-resources.md)
+- [Create a Bookable Resource](set-up-bookable-resources.md)
 
 
 
