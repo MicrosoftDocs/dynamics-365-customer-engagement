@@ -1,6 +1,6 @@
 ---
-title: "Preview: Configure mobile offline synchronization in Dynamics 365 for phones and tablets | MicrosoftDocs"
-ms.custom: 
+title: "Preview: Configure mobile offline synchronization | MicrosoftDocs"
+ms.custom: Configure mobile offline synchronization in Dynamics 365 for phones and tablets
 ms.date: 07/10/2020
 ms.reviewer: 
 ms.service: crm-online
@@ -23,17 +23,19 @@ search.app:
 ---
 
 
-# Preview: Configure mobile offline synchronization in Dynamics 365 for phones and tablets
+# Preview: Configure mobile offline synchronization 
 
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 
-Set up mobile offline synchronization to allow users to work in offline mode on their mobile device. Mobile offline allows your users to use the Dynamics 365 for phones and tablets in offline mode to interact with their data, even when they are not connected to the internet. The Dynamics 365 mobile app provides a rich offline experience and helps you to stay productive. You can use basic commands such as create, read, update, and delete when you are offline. Once you are back online, the changes you made on the Dynamics 365 mobile app are automatically synchronized with Common Data Service.
+Set up mobile offline synchronization to allow users to work in offline mode on their mobile device. Mobile offline allows your users to use the Dynamics 365 for phones and tablets in offline mode to interact with their data, even when they are not connected to the internet. 
+
+The Dynamics 365 mobile app provides a rich offline experience and helps you to stay productive. You can use basic commands such as create, read, update, and delete when you are offline. Once you are back online, the changes you made on the Dynamics 365 mobile app are automatically synchronized with Common Data Service.
 
 > [!Note]
 > - Mobile offline is currently available for iOS and Android devices.
-> - To use the mobile offline feature, download the latest version of the Dynamics 365 mobile app for your phone or tablet from the app store. For iOS, version 13.19043.32 or later is supported; for Android, version 4.3.19043.33 or later supported.
+> - To use the mobile offline feature, download the latest version of the Dynamics 365 mobile app for your phone or tablet from the app store. For iOS, version 13.19043.32 or later is supported; for Android, version 4.3.19043.33 or later supported. For more information, see [Install the app from your device’s app store](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets#install-the-app-from-your-devices-app-store).
 
 For information on entities and corresponding commands that are available in offline mode, see [Mobile offline capabilities and limitations](mobile-offline-capabilities.md).
 
