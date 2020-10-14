@@ -37,28 +37,23 @@ To create a customer journey that executes a one-time email blast:
 
 1. Go to **Marketing** > **Marketing Execution** > **Customer Journeys**. This takes you to a list of existing customer journeys. Select **New** on the command bar.
 
-    > [!div class="mx-imgBorder"]
-    > ![Select New in the command bar](media/customer-journey-new.png "Select New in the command bar")
+    ![Select New in the command bar](media/customer-journey-new.png "Select New in the command bar")
 
 1. The **New Customer Journey** page opens with the **Select a Customer Journey Template** dialog box shown. Each template provides a starting point for designing a particular type of customer journey. The template dialog box provides tools for searching, browsing, and previewing your template collection. Select **Skip** to start creating the journey from scratch.
 
-    > [!div class="mx-imgBorder"]
-    > ![Customer journey templates screen](media/customer-journey-templates.png "Customer journey templates screen")
+    ![Customer journey templates screen](media/customer-journey-templates.png "Customer journey templates screen")
 
 1. Now you are looking at the customer journey designer. Here, you will assemble a pipeline that defines each step of the journey. Like all journeys, this one starts with the participants, who in this case are the people you specify as part of a market segment.
 
-    > [!div class="mx-imgBorder"]
-    > ![Customer journey select audience screen](media/customer-journey-audience.png "Customer journey select audience screen")
+    ![Customer journey select audience screen](media/customer-journey-audience.png "Customer journey select audience screen")
 
 1. Select **Set audience** (or, alternatively, select **+**). The **Audience** properties pane will appear on the right side of the page. Leave the default settings there (for example, **Segment** selected as the audience source type). Select the segment that you want to target with your campaign in the segment lookup field.
 
-    > [!div class="mx-imgBorder"]
-    > ![Customer journey segment lookup](media/customer-journey-segment.png "Customer journey segment lookup")
+    ![Customer journey segment lookup](media/customer-journey-segment.png "Customer journey segment lookup")
 
 1. After you select a segment, the first tile populates with the segment name and the **Audience** pane displays the segment properties.
 
-    > [!div class="mx-imgBorder"]
-    > ![Customer journey segment populate](media/customer-journey-audience-populate2.png "Customer journey segment populate")
+    ![Customer journey segment populate](media/customer-journey-audience-populate2.png "Customer journey segment populate")
 
     > [!TIP]
     > When your customer journey is live, all contacts start at the **Audience** tile (the initial step). Contacts move forward depending on the tile rules, similar to a board game. Some tiles hold on to contacts for a while, while other tiles complete an action immediately and send the contact to the next tile in the pipeline. Other tiles can split the path based on contact information or interactions. When the journey is live, you'll be able to see how many contacts are waiting at each tile, along with a few key results associated with the tile.
@@ -67,13 +62,11 @@ To create a customer journey that executes a one-time email blast:
 
 1. Select **+** on the canvas, and then select **Send an email** from the contextual menu.
 
-    > [!div class="mx-imgBorder"]
-    > ![Customer journey send an email tile](media/customer-journey-email.png "Customer journey send an email tile")
+    ![Customer journey send an email tile](media/customer-journey-email.png "Customer journey send an email tile")
 
 1. Select the email tile on the canvas and select the email message that you want to send. You can use the sample email message you created earlier in [Create a marketing email and go live](create-marketing-email.md).
 
-    > [!div class="mx-imgBorder"]
-    > ![Customer journey select an email](media/customer-journey-select-email.png "Customer journey select an email")
+    ![Customer journey select an email](media/customer-journey-select-email.png "Customer journey select an email")
 
 1. Once the email is selected, the **Send an email** tile populates with the email name and the **Send an email** properties pane displays the segment preview and properties.
 
@@ -90,8 +83,7 @@ To create a customer journey that executes a one-time email blast:
     - **Time zone**: Select your local time zone (if needed). The other dates and times on the page will be displayed relative to this zone.
     - **Content settings**: This should already be set to the default content settings record set for your instance. These settings affect the dynamic content of marketing emails sent by this journey (as mentioned in [Create a marketing email and go live](create-marketing-email.md)).
 
-    > [!div class="mx-imgBorder"]
-    > ![Customer journey General tab](media/customer-journey-general2.png "Customer journey General tab")
+    ![Customer journey General tab](media/customer-journey-general2.png "Customer journey General tab")
 
     > [!TIP]
     > While your journey is running, it will continue to process new contacts that join its segment, even if they join after the start date. This means that new contacts can join in at any time until the end date arrives.
@@ -101,15 +93,13 @@ To create a customer journey that executes a one-time email blast:
 
     If errors were found, you'll see a message at the top of the window and various indicators to show where the problems are. For example, if one of your tiles is misconfigured, you'll see an error icon in the relevant tile, and you can read details about the error by selecting the tile and opening its **Properties** tab. If you followed this procedure and your email message is live, your journey should pass the error check. If it doesn't, read the error message, fix the reported issue, and try again until it passes.
     
-    > [!div class="mx-imgBorder"]
-    > ![Customer journey error notification](media/customer-journey-error.png "Customer journey error notification")
+    ![Customer journey error notification](media/customer-journey-error.png "Customer journey error notification")
 
 1. Your journey is now ready to go. To start the journey, publish it by selecting **Go live** on the command bar.
 
     Dynamics 365 Marketing copies the journey to its email marketing service, which executes the journey by processing contacts, performing actions, and collecting results during the time it is set to run. The journey's **Status Reason** is updated to **Live**.
 
-    > [!div class="mx-imgBorder"]
-    > ![Customer journey Go live](media/customer-journey-go-live.png "Customer journey Go live")
+    ![Customer journey Go live](media/customer-journey-go-live.png "Customer journey Go live")
 
 1. If you have sent test messages to yourself, it might take several minutes for your messages to send, so allow some time for them to arrive in your inbox. After they do, open them and load the images. Then you can go back to Dynamics 365 Marketing and see how your journey is going. The **Designer** tab now shows information and results for each tile from your pipeline. Open the **Insights** tab to see detailed analytics.
 
