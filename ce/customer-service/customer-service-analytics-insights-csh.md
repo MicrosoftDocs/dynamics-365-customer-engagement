@@ -1,10 +1,10 @@
 ---
 title: Insights dashboard overview | Microsoft Docs
 description: Dashboards and reports provide historical operational metrics and KPIs to manage contact centers.
-author: neeranelli
-ms.author: nenellim
+author: lalexms
+ms.author: laalexan
 manager: shujoshi
-ms.date: 10/12/2020
+ms.date: 10/14/2020
 ms.topic: article
 ms.service: 
   dynamics-365-customerservice
@@ -20,7 +20,15 @@ search.app:
   
 ---
 
-# View and understand Customer Service analytics and insights
+# Dashboard Overview
+
+The Insights dashboards for Customer Service contain a variety of charts and metrics to help you to understand the factors that have the greatest impact on your customer service. Key performance indicators and graphical breakdowns of your system's support cases are coupled with AI-generated Insights on cases and topics that contribute to overall trends.
+
+Customer Service Management dashboards give you a performance summary in addition to detailed reports on agents and topics.  
+
+Right-clicking on a chart entry and hovering over **Drill through**, selecting **Agent Details** or **Topic details** brings up a more detailed report that's specific to the selected agent or topic.
+
+By navigating to the Knowledge Management tab, you can view the **Search Term Insights** dashboard to understand what search terms agents and smart agent assist are using to find knowledge articles related to cases. 
 
 ## Customer Service analytics reports
 
