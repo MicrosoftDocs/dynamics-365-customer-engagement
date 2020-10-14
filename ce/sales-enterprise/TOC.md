@@ -89,7 +89,6 @@
 ### [Gain insights with dashboards](dashboards.md)
 ### [Understand the sales pipeline chart and its phases](sales-pipeline-chart.md)
 ### [Send email using the enhanced email experience](enhanced-email.md)
-### [Insert an email template](insert-email-template.md)
 ### [Create PDF documents](create-quote-pdf.md)
 ### [Print quote, invoice, or other records](print-records.md)
 ### [Assign or share records](/powerapps/user/assign-or-share-records)
