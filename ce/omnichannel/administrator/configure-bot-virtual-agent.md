@@ -112,7 +112,7 @@ In Power Virtual Agents, do the following:
 
 6. Save and publish the changes.
 
-At run time, the required information is captured in the context variable that can then be used for further actions based on the workflow you configure. More information [Context variables for a bot](context-variables-for-bot.md).
+At run time, the required information is captured in the context variable that can then be used for further actions based on the workflow you configure. For more information, see [Context variables for a bot](context-variables-for-bot.md).
 
 ## Known limitations
  

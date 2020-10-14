@@ -1,6 +1,16 @@
 {
   "redirections": [
     {
+      "source_path": "ce/omnichannel/administrator/chat-custom-messages.md",
+      "redirect_url": "configure-automated-message",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/insert-email-template.md",
+      "redirect_url": "../customer-service/customer-service-hub-user-guide-email-overview",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/customerengagement/on-premises/admin/set-up-onenote-integration-in-dynamics-365.md",
       "redirect_url": "../basics/collaborate-with-team",
       "redirect_document_id": "false"

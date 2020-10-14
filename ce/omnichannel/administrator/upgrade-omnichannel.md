@@ -4,7 +4,7 @@ description: Understand how you can upgrade Omnichannel for Customer Service
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 05/14/2020
+ms.date: 10/13/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -20,29 +20,18 @@ See [What's new in Omnichannel for Customer Service](https://go.microsoft.com/fw
 
 Do the following steps to upgrade Omnichannel for Customer Service:
 
-1. Log in to the [Dynamics 365 Admin Center](https://admin.microsoft.com/adminportal/home#/homepage).
-2. Select **Admin centers** > **Dynamics 365**. The **Manage your Dynamics 365 instances** page appears.
-3. Select the **APPLICATIONS** tab, navigate to the **Omnichannel for Customer Service** application, and select **MANAGE**. The **Omnichannel environments** page appears.
+1. Log in to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
+2. Expand **Resources**, and select **Dynamics 365 apps**.
+3. On the **Dynamics 365 apps** page, scroll to the **Omnichannel for Customer Service** application, select the ellipses (**...**), and then select **Manage**. The **Omnichannel environments** page opens on a new tab.
 4. Select your environment under **Manage environments** in the left pane.
-5. Check for an upgrade notification for your environment. If an upgrade is available, select **Upgrade available**.
+5. Select the **Upgrade** button that is enabled when an upgrade is available. 
 
-     > [!div class=mx-imgBorder] 
-     > ![Upgrade Omnichannel](../media/upgrade-oc.PNG)
-
-6. Select the **Upgrade** button.
-         
-     > [!div class=mx-imgBorder] 
-     > ![Upgrade in progress](../media/upgrade-oc-button.PNG)
-     
     The system begins the upgrade and displays the message **Omnichannel upgrade is currently in progress**.
      
-     > [!div class=mx-imgBorder] 
-     > ![Upgrade in progress](../media/upgrade-progress.PNG)
-
     When the upgrade process is completed successfully, your environment is upgraded to the latest version, and the message **Omnichannel for Customer Service upgrade was completed successfully** is displayed with the date.
 
-    > [!div class=mx-imgBorder] 
-    > ![Upgrade complete](../media/upgrade-complete.png)
+   > [!div class=mx-imgBorder] 
+   > ![Upgrade complete](../media/upgrade-complete.png)
 
 ## Upgrade Omnichannel for Customer Service package on Unified Service Desk
 
