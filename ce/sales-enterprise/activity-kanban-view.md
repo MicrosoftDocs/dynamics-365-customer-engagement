@@ -1,7 +1,7 @@
 ---
 title: "Work with activities in the Kanban view (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Use the opportunity Kanban view to visualize all your activities with a card-based view and manage these activities quickly by moving them across the swim lanes."
-ms.date: 10/12/2020
+ms.date: 10/14/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
