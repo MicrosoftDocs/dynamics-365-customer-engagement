@@ -51,7 +51,7 @@ To install the app, see [Install the app from your device’s app store](https:/
 
 ## Install the app and supported platforms for Power Apps mobile
 
-For information on supported platforms for Power Apps mobile app, see [Supported platforms](https://docs.microsoft.com/powerapps/maker/canvas-apps/limits-and-config#supported-platforms-for-running-canvas-apps-using-the-power-apps-mobile-app).
+For information on supported platforms for Power Apps mobile app, see [Supported platforms for running model-driven apps using the Power Apps mobile app](https://docs.microsoft.com/powerapps/mobile/supported-platforms).
 
 To install the app, see [Install the Power Apps mobile app](https://docs.microsoft.com/powerapps/mobile/run-powerapps-on-mobile#install-the-power-apps-mobile-app).
 
