@@ -66,8 +66,7 @@ Download the app called **Field Service (Dynamics 365)**, as seen in the followi
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a mobile device app store, showing two Field Service Mobiles in the list, and highlighting the Field Service (Dynamics 365) app.](./media/mobile-2020-download-signin.jpg)
 
-Launch the app and sign in with your username and password, which should be the user credentials of the technician user with the **Field Service - Resource** security role.
-
+Launch the app and sign in with your username and password, which should be the user credentials of the technician user with the **Field Service - Resource** security role. View the topics on [setting up users and security roles](../field-service/view-user-accounts-security-roles.md) and [creating a Bookable Resource](set-up-bookable-resources.md) for help. 
 
 ## Use the Field Service (Dynamics 365) mobile app
 
@@ -141,3 +140,13 @@ Organizations using Dynamics 365 Remote Assist will see that technicians can tri
 > ![Simulated image showing a phone with Field Service mobile and a menu option to launch Dynamics 365 Remote Assist.](./media/mobile-2020-remote-assist.png)
 
 For more information, see the article: [Using Field Service with Dynamics 365 Remote Assist](remote-assist-hololens.md).
+
+
+### Next steps
+
+After installing Field Service and the Field Service mobile app, view the following topics to configure the system to create, schedule, view, and complete work orders.
+
+- [Perform initial configurations](perform-initial-configurations-setup.md)
+- [Set up users and security roles](../field-service/view-user-accounts-security-roles.md)
+- [Create a Bookable Resource](set-up-bookable-resources.md)
+- [Quickstart: Schedule a work order and view it on the mobile application](quickstart-schedule-work-order.md)

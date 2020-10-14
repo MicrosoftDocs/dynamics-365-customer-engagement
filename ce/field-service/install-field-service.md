@@ -23,8 +23,6 @@ search.app:
 
 This article describes how to install the Dynamics 365 Field Service application for Dynamics 365 (online). 
 
-
-
 ## Prerequisites
 
 To follow the steps in this article, you will need: 
