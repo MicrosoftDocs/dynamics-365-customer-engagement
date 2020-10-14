@@ -37,8 +37,7 @@ The new schedule board provides the foundation for future releases that will pro
 ## Prerequisites
 
 > [!Note]
-> The new schedule board is generally available in October 2020. More incremental features are going to be released in the future updates. 
-
+> The new schedule board is generally available in October 2020(Dynamics 365 Field Service version 8.8.30.103 or later). More incremental features are going to be released in the future updates.
  
 
 ## Enable new schedule board
