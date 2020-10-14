@@ -57,62 +57,43 @@ Reporting structure consists of five sections:
 - [Agent](#agent)
 - [Bot insights (BYOB)](#botinsightsbyob)
 
-### Conversation
+### Conversations and channels
 
-   This section provides historical visibility into the overall support operations across various channels.
+   This section provides historical visibility into the overall support operations across various conversations and channels.
+   
+   **Conversation report**
 
    > [!div class=mx-imgBorder]
    > ![Conversation](../media/conversation-report.png "Conversation")
+   
+   **Channel report**
+   
+     > [!div class=mx-imgBorder]
+   > ![Channel report](../media/channel.png "Channel report")
 
-   The KPIs for conversations and channels are listed in the following table. These are applicable to scenarios in which bots escalate to agents or agents directly handle customer calls.
+The KPIs for conversations and channels are listed in the following table. For conversations, these are applicable to scenarios in which bots escalate to agents or agents directly handle customer calls. For channels, the KPIs represent support operations by each channel to help supervisors easily understand how each support channel (for example, SMS or chat) are performing, and take appropriate actions to improve the overall support experience for customers.
 
    | KPI | Description | Derivation | Measure | 
    |------|----------|------------|---------|
    | Incoming conversations | The number of conversations initiated by the customers that can be presented to agents. | All conversations are considered. | FactConversation[InComingConversationCount] |
-   | Conversations engaged|Offered conversations that are engaged by an agent. Customer-to-agent communication can begin at this point. | All conversations are considered. | FactConversation[Engaged] |
+   | Conversations engaged | Offered conversations that are engaged by an agent. Customer-to-agent communication can begin at this point. | All conversations are considered. | FactConversation[Engaged] |
    | Abandon rate | The percentage of conversations that are not engaged by agents. | All conversations are considered. | FactConversation[AbandonedRate] |
    | Transfer rate | The percentage of conversations that are transferred to another agent or queue. |Conversations engaged and conversations that are in the closed state are considered.| FactConversation[TransferRate] |
    | Conversation active time | Cumulative session active time for a conversation. | Conversations engaged and conversations that are in the closed state are considered. | FactConversation[ConversationActiveTime] |
-   | Conversation inactive time | Cumulative session inactive time for a conversation. |||
-   |||||
-   |||||
-   |||||
+   | Conversation inactive time | Cumulative session inactive time for a conversation. | Conversations engaged and conversations that are in the closed state are considered. | FactConversation[ConversationInactiveTime]|
+   | Conversation wrap time | Cumulative time from the conversation wrap up start time until the conversation close time. | Conversations engaged and conversations that are in the closed state are considered. | FactConversationFirstAgentParticipant[ConversationWrapupTime] |
+   | Conversation handle time | Cumulative session active time for a conversation. | Conversations engaged and conversations that are in the closed state are considered. | FactConversation[ConversationActiveTime] |
+   | Average Conversation active time | Total conversation active time divided by the number of conversations handled. | Conversations engaged and conversations that are in the closed state are considered. | FactConversation[AvgActiveTime(mins) ] |
+   | Average Conversation inactive time | Total conversation inactive time divided by the number of conversations handled. | Conversations engaged and conversations that are in the closed state are considered. | FactConversation[AverageConversationInactiveTime] |
+   | Average Conversation wrap time | Total conversation wrap time divided by the number of conversations handled. | Conversations engaged and conversations that are in the closed state are considered. | FactConversation[AverageConversationWrapupTime)] |
+   | Average Conversation time | Average time from the conversation start to conversation end. | Conversations engaged and conversations that are in the closed state are considered. | FactConversation[AvgConversationTime] |
+   | Average Customer Effort time  | Average time from the conversation start to conversation wrap up start time. | Conversations engaged and conversations that are in the closed state are considered. | FactConversation[AvgCustomerEffort] |
+   | Speed to answer | The average time customers have waited in the queue before connecting to an agent. | Conversations engaged and conversations that are in the closed state are considered. | FactConversation[AvgSpeedtoAnswer] |
+   | SLA - Speed to answer | Number of SLAs met divided by the number of conversations handled. For example, if the Speed to answer is less than 180 seconds, then this is considered met. Otherwise, it is not met. | Conversations engaged and conversations that are in the closed state are considered. | FactMessage[SLASpeedtoAnswer] |
+   | Customer wait time  | The average time customers have waited before connecting to agents. This is similar to “Speed to answer” but includes the time waited on each session within a conversation. | Conversations engaged are considered. | FactConversationParticipant[AvgWaittime(mins)] |
+   
 
-
-
-
-<!--
-   | KPI visuals    |   Description              |
-   |----------------|----------------------------|
-   |Incoming conversation vs. Conversations engaged  |This visual compares the volume of conversations initiated by the customers and engaged by an agent.             |
-   |Avg wait time vs. Abandon rate                  |This visual gives supervisors a correlation between the time a customer waited in the queue and abandon rate.                        |
-   |Transfer rate                                  |This visual compares the transfer rate over a period selected by a user with the transfer rate for each day. This helps supervisors know if there are any specific days contributing to the overall spike in the transfer rate.|
-   |Average handle time                            |This visual shows the trend of average handle time over a period selected by a user with the average handle time for each day. |
-   |Average customer effort time                   |This visual shows the trend of average customer effort time over a period selected by a user with the average handle time for each day.|
-   |Average Customer Sentiment Pulse (CSP)         |The predicted customer sentiment in the timeframe for a set queue/agent, which indicates the degree of positive sentiment expressed by customers at the end of their interactions  |
--->
-
-### Channel
-
-   This section provides historical visibility on support operations by each channel that helps supervisors easily understand how each support channel (for example, SMS or chat) are performing and take appropriate actions to improve the overall support experience for customers.  
-
-   > [!div class=mx-imgBorder]
-   > ![Channel report](../media/channel.png "Channel report")
-
-   This section consists of these visuals: 
-
-   |  KPI visual            | Description      | 
-   |------------------|-----------------|
-   |Incoming conversations by channel   |This visual provides the volume of incoming conversations by the channels supported in each organization.      |
-   |Conversations engaged by channel    |This visual provides the trend of conversations engaged in each channel. |
-   |Average Wait Time (mins) by channel |This visual provides the trend of the average time customers waited in the queue before connecting to an agent in each channel.  |
-   |Abandon Rate by channel             |This visual provides the trend of abandon rate in each channel.  |
-   |Average Handle Time (mins) by channel  |This visual provides the trend of average handle time in each channel.|
-   |Transfer rate                      |The percentage of conversations that are transferred to another agent/queue.  |
-   |Conversation metrics by channel  | The grid provides the list of metrics across each channel.   |
-   |Conversation metrics by date     | This grid provides the trend of each metric across channels.  |
-
-### Queue
+### Queues and agents
 
    This section provides historical visibility into how each queue is performing so supervisors can take appropriate steps to improve the overall support experience for the customer.  
 
