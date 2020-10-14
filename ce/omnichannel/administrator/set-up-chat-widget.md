@@ -22,7 +22,7 @@ In this section, you will learn how to:
 - [Configure agent display name](agent-display-name.md)
 - [Configure a pre-chat survey](configure-pre-chat-survey.md)
 - [Configure file attachment capability](configure-file-attachment.md)
-- [Embed chat widget in Power Apps portals](embed-chat-widget-portal.md)
+- [Embed chat widget in your website or portal](embed-chat-widget-portal.md)
 
 > [!NOTE]
 > The chat widget requires session storage and local storage to be functional in your customers’ browsers. Make sure to notify your customers to enable cookies in their browsers so these services can work properly.
