@@ -62,7 +62,7 @@ See the topic on [Get started with the Field Service (Dynamnics 365) mobile app]
 
 ## Next steps
 
-After installing Field Service and the Field Service mobile app, 
+After installing Field Service and the Field Service mobile app, view the following topics to configure the system to create, schedule, view, and complete work orders.
 
 - [Perform initial configurations](perform-initial-configurations-setup.md)
 - [Set up users and security roles](../field-service/view-user-accounts-security-roles.md)
