@@ -35,12 +35,12 @@ The mobile app provides a rich offline experience and helps you to stay producti
 
 To allows users to use this feature, an administrator will need to set up mobile offline for their organization as outlined below.
   
-This offline experience uses [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] services to periodically synchronize entities with the mobile app so synchronized records are available when users’ mobile devices are disconnected. To enable mobile offline synchronization, follow the steps below.
+This offline experience uses [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] services to periodically synchronize entities with the mobile app so synchronized records are available when users’ mobile devices are disconnected. 
 
 > [!Important]
-> The set-up and configuration process for mobile offline is the same for [Power Apps mobile](https://docs.microsoft.com/powerapps/mobile/run-powerapps-on-mobile).
+> The set-up and configuration process for mobile offline is the same for [Power Apps mobile](https://docs.microsoft.com/powerapps/mobile/run-powerapps-on-mobile) and Dynamics 365 for phones and tablets app. To enable mobile offline synchronization for Power Apps mobile or Dynamics 365 mobile, follow the steps in this toipc.
 
-## Supported devices
+## Supported devices for Dynamics 365 for phones and tablets
 
 Mobile offline for the Dynamics 365 mobile app is currently available for iOS and Android devices. To use the mobile offline feature, download the latest version of the Dynamics 365 mobile app for your phone or tablet from the app store. 
 
