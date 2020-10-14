@@ -1,7 +1,7 @@
 ---
 title: "Preview: Configure mobile offline synchronization | MicrosoftDocs"
 ms.custom: Configure mobile offline synchronization in Dynamics 365 for phones and tablets
-ms.date: 07/10/2020
+ms.date: 10/14/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -49,8 +49,6 @@ Mobile offline for the Dynamics 365 mobile app is currently available for iOS an
 
 To install the app, see [Install the app from your device’s app store](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets#install-the-app-from-your-devices-app-store).
 
-For information on entities and corresponding commands that are available in offline mode, see [Mobile offline capabilities and limitations](mobile-offline-capabilities.md).
- 
  
 ## Step 1: Enable entities for mobile offline synchronization 
  
