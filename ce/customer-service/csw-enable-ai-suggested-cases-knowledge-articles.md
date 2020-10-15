@@ -4,7 +4,7 @@ description: Enable AI suggestions for cases and knowledge articles in Dynamics 
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/05/2020
+ms.date: 10/15/2020
 ms.topic: article
 ms.service: 
    dynamics-365-customerservice
@@ -67,7 +67,11 @@ Make sure that the following requirements are met:
 
 - Customer Service workspace is installed and accessible. More information: [Customer Service workspace](csw-overview.md)
 - The	productivity pane is enabled. By default, the productivity pane is enabled out of the box. More information: [Enable productivity pane](../app-profile-manager/app-profile-manager.md#enable-prod-pane).
-- The System Administrator role is granted.
+- To update settings, the System Administrator role is granted.
+- For the AI model to process data, the System Customizer role is granted with full permission to the following custom entities:
+  - Process
+  - AI Model
+  - AI Template 
 
 ## Enable AI suggestions for similar cases
 
