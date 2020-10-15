@@ -94,21 +94,50 @@ The KPIs for conversations and channels are listed in the following table. For c
    | Average consult time | Total consult time divided by the total consult sessions. | Only consult sessions are considered as a denominator. | FactSessionParticipant[AvgConsultTime] |
    | Total monitor time | The time spent on the monitor from when the agent joined to when they left in session participant. | Only monitor sessions are considered as a denominator. | |
    | Average monitor time | The total monitor time divided by the total of monitor sessions. | Only monitor sessions are considered as a denominator. | FactSessionParticipant[AvgMonitorTime] |
-   
+   | Average Customer sentiment pulse (CSP) | The predicted customer sentiment in a given timeframe for a set queue/agent, which indicates the degree of positive sentiment expressed by customers at the end of their interactions. | Conversations engaged are considered. | Average of FactConversationSentiment[msdyn_sentimentpulse] |
+
 
 ### Queues and agents
 
-This section provides historical visibility into how each queue is performing and how each agent is performing across different channels and queues so supervisors can take appropriate steps to improve the overall support experience for the customer. Metrics in this section are computed at the session granularity. Each customer contact is defined as a conversation. Each conversation is defined as a session and can be handled by one or more agents.
+This section provides historical visibility into how each queue is performing and how each agent is performing across different channels and queues so supervisors can take appropriate steps to improve the overall support experience for the customer. 
 
    > [!div class=mx-imgBorder]
    > ![Queue report](../media/queue-report.png "Queue report")
 
    > [!div class=mx-imgBorder]
    > ![Agent report](../media/agent.png "Agent report")
+   
+The KPIs for queues and agents are listed in the following table. Metrics in this section are computed at the session granularity. Each customer contact is defined as a conversation. Each conversation is defined as a session and can be handled by one or more agents.
 
 | KPI | Description | Derivation | Measure | 
 |------|----------|------------|---------|
-|  |  |  |  |
+| Consult sessions | The number of sessions accepted by a user in mode = consult. | Only consult sessions are considered as a denominator |  |
+ | Total consult time | The time spent on the consult from when the agent joined to when they left in session participant. | Only consult sessions are considered as a denominator. |  |
+   | Average consult time | The total consult time divided by the total consult sessions. | Only consult sessions are considered as a denominator. | FactSessionParticipant[AvgConsultTime] |
+   | Monitor sessions | The number of sessions accepted by a user in mode = monitor. | Only monitor sessions are considered as a denominator. |  |
+   | Total monitor time | The time spent on the monitor from when the agent joined to when they left in session participant. | Only monitor sessions are considered as a denominator. | |
+   | Average monitor time | The total monitor time divided by the total of monitor sessions. | Only monitor sessions are considered as a denominator. | FactSessionParticipant[AvgMonitorTime] |
+| Sessions engaged | # Sessions presented to an agent and accepted by an agent | Conversations engaged are considered and all conversation states are considered. | FactSession[EngagedByAgentSessionCount] |
+| Session rejection rate | The number of sesssions presented to an agent and are not accepted by an agent. | Conversations engaged are considered and all conversation state are considered. | FactSession[SessionRejectionRate] |
+| Transfer rate | The number of sessions tranferred by an agent. | Conversations engaged are considered and all conversation states are considered. | FactSession[QueueTransferRate] |
+| Consult sessions | The number of sessions where the agent has participated in consult mode. | Conversations engaged are considered and all conversation states are considered. | FactSessionParticipant[ConsultSessionCount] |
+| Monitor sessions | The number of sessions where the agent has participated in monitor mode. | Conversations engaged are considered and all conversation states are considered. | FactSessionParticipant[MonitorSessionCount] |
+| Average Session active time | The total session active time divided by the number of sessions engaged (primary). | Conversations engaged are considered and all conversation states are considered. | FactSession[AvgActivetime]  |
+| Average Session inactive time | the total session inactive time divided by the number of sessions engaged (primary). | Conversations engaged are considered and all conversation states are considered. | FactConversationFirstAgentParticipant[AverageSessionInactiveTime] |
+| Average Session handle time | The total session active time divided by the number of sessions engaged (primary). | Conversations engaged are considered and all conversation states are considered. | FactSession[AvgSessionHandleTime] |
+| Average Session time | The average time from the session start to session end for sessions engaged divided by the sessions engaged (primary). | Conversations engaged are considered and all conversation states are considered. | FactConversationFirstAgentParticipant[AvgSessionTime] |
+| Average consult time | The average time the agent spent on a session in consulting mode. | The sum of consult time divided by consult sessions. | FactSessionParticipant[AvgConsultTime] |
+| Average monitor time | The session level average time the agent spent on a session in monitoring mode. | The sum of monitor time divided by monitor sessions. | FactSessionParticipant[AvgMonitorTime] |
+| Session active time | The time an agent actively spent on a session. | Conversations engaged are considered and all conversation states are considered. |  |
+| Session inactive time. | The time an agent is not actively working on a session. | Conversations engaged are considered and all conversation states are considered. |  |
+| Session handle time | the time an agent activley spent on a session. | Conversations engaged are considered and all conversation states are considered. |  |
+| Agent total login time | The total time the agent is signed in. Note: This metric cannot be analyzed in any dimension other than from Date and Agent. | This is based on the agent signin and signout timestamp, and cannot be analyzed by any other metrics other than from Date and Agent. | FactAgentStatusHistory[AgentTotalLoginTime(hrs)] |
+| Agent Total Login Time (hrs) | The time an agent is signed in to to Omnichannel application. | This is based on the agent signin and signout timestamp, and cannot be analyzed by any other metrics other than from Date and Agent. | FactAgentStatusHistory[AgentTotalLoginTime(hrs)] |
+| Agent Available Duration (hrs) | The time an agent is in the available state in the Omnichannel application. | This is based on the agent signin and signout timestamp, and cannot be analyzed by any other metrics other than from Date and Agent. | FactAgentStatusHistory[AgentAvailableDuration(hrs)] |
+| Agent Busy Duration (hrs) | Time an agent in the busy state in Omnichannel application. | This is based on the agent signin and signout timestamp, and cannot be analyzed by any other metrics other than from Date and Agent. | FactAgentStatusHistory[AgentBusyDuration(hrs))] |
+| Agent Busy DND Duration (hrs) | The time an agent is in the Busy DND state in the Omnichannel application. | This is based on the agent signin and signout timestamp, and cannot be analyzed by any other metrics other than from Date and Agent. | FactAgentStatusHistory[AgentBusyDNDDuration(hrs)] |
+| Agent Away Duration (hrs) | The time an agent is in the Away state in the Omnichannel application | This is based on the agent signin and signout timestamp, and cannot be analyzed by any other metrics other than from Date and Agent.  | FactAgentStatusHistory[AgentAwayDuration(hrs))] |
+| Agent Offline Duration (hrs) | The time an agent signed out of the Omnichannel applicaton. | This is based on the agent signin and signout timestamp, and cannot be analyzed by any other metrics other than from Date and Agent. | FactAgentStatusHistory[AgentOfflineDuration(hrs) )] |
 
   
 ### Bot insights (BYOB)
