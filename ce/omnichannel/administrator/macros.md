@@ -165,8 +165,7 @@ This action is used for cloning an existing record that is open in the current t
 
    | Field | Description | Parameter |
    |-----------------|-----------------------------|--------------------------|
-   | Record title | Specify the title of the record that you want to clone. <br> This is a mandatory field. | |
-   |||
+   | Record title | Specify the title of the record that you want to clone. <br> This is a mandatory field. | My demo case |
 
 #### Open knowledge base article
 
@@ -174,8 +173,7 @@ This action is used to open the knowledge base article. The action contains the 
 
    | Field | Description | Parameter |
    |-----------------|-----------------------------|--------------------------|
-   | Entity record ID  | Specify the entity ID of the knowledge base article that you want to open. <br> This is a mandatory field.|  |
-   |||
+   | Entity record ID  | Specify the entity ID of the knowledge base article that you want to open. <br> This is a mandatory field.| 482f11b6-0afb-ea11-a815-000d3a8c9dd1 |
 
 #### Save the record
 
@@ -187,10 +185,9 @@ This action is used for cloning an existing record. The action only copies the f
 
    | Field | Description | Parameter |
    |-----------------|-----------------------------|--------------------------|
-   | Entity logical name | Specify the logical name of the entity that you want to clone. <br> This is a mandatory field. |
-   | Entity record ID | Specify the ID of the entity record. <br> This is a mandatory field.|
-   |Record title| Specify the record title.
-   |||
+   | Entity logical name | Specify the logical name of the entity that you want to clone. <br> This is a mandatory field. | incident |
+   | Entity record ID | Specify the ID of the entity record. <br> This is a mandatory field.| c940722c-f057-400b-99ae-903ec4cb82a2 |
+   |Record title| Specify the record title. | My demo case |
 
 ### Session connector
 
@@ -205,11 +202,10 @@ This action is used to open the specified application in a new tab with the attr
 
    | Field | Description | Parameter |
    |-----------------|-----------------------------|--------------------------|
-   | Page type | Specify  the application type to be opened. More information: [Application types](application-tab-templates.md#application-types) <br> This is a mandatory field.  |
-   | Application Template ID  | Specify the ID of the application template. <br> This is a mandatory field. |
-   | Attribute Name | Specify the attribute logical name you want to update.| |
-   | Attribute Value | Specify the attribute value that will be updated for the above-mentioned attribute. | |
-   |||
+   | Page type | Specify  the application type to be opened. More information: [Application types](application-tab-templates.md#application-types) <br> This is a mandatory field.  | Entity list |
+   | Application Template ID  | Specify the ID of the application template. <br> This is a mandatory field. | 3bf46218-9511-4f8e-9c57-8c593dcdb2b4 |
+   | Attribute Name | Specify the attribute logical name you want to update.| entityName |
+   | Attribute Value | Specify the attribute value that will be updated for the above-mentioned attribute. | incident |
 
 #### Refresh the tab
 
@@ -217,8 +213,7 @@ This action is used to refresh a tab in the Omnichannel for Customer Service ses
 
    | Field | Description | Parameter |
    |-----------------|-----------------------------|--------------------------|
-   | Tab ID | Specify the ID of the tab that you want to refresh. <br> This is a mandatory field.| 
-   |||
+   | Tab ID | Specify the ID of the tab that you want to refresh. <br> This is a mandatory field.| tab-id-1 |
 
 #### Focus on the tab
 
@@ -226,8 +221,7 @@ This action is used to focus on a tab in the Omnichannel for Customer Service se
 
    | Field | Description | Parameter |
    |-----------------|-----------------------------|--------------------------|
-   | Tab ID | Specify the ID of the tab that you want to give focus to. <br> This is a mandatory field.|
-   |||
+   | Tab ID | Specify the ID of the tab that you want to give focus to. <br> This is a mandatory field.| tab-id-1 |
 
 #### Get the current tab
 
@@ -246,8 +240,7 @@ This action is used to paste a knowledge base article in the conversation chat w
 
    | Field | Description | Parameter |
    |-----------------|-----------------------------|--------------------------|
-   | Entity record ID  | Specify the ID of the entity record. <br> This is a mandatory field. |
-   |||
+   | Entity record ID  | Specify the ID of the entity record. <br> This is a mandatory field. | Printer |
 
 #### Link record to the conversation
 
@@ -256,9 +249,8 @@ This action is used to link a record to the conversation when the customer is co
    | Field | Description | Parameter |
    |-----------------|-----------------------------|--------------------------|
    | Entity Logical Name |  Specify the logical name of the entity that you want to link. <br> This is a mandatory field. | incident |
-   | Entity record id| Specify the entity record ID of the entity that you want to link. <br>This is a mandatory field.| |
-   | Entity primary Name | Specify the primary name of the entity that you want to link. <br>This is a mandatory field.| |
-   |||
+   | Entity record id| Specify the entity record ID of the entity that you want to link. <br>This is a mandatory field.| c940722c-f057-400b-99ae-903ec4cb82a2 |
+   | Entity primary Name | Specify the primary name of the entity that you want to link. <br>This is a mandatory field.| cases |
 
 #### Unlink record from the conversation
 
@@ -267,8 +259,8 @@ This action is used to unlink a record from the conversation when the customer i
    | Field | Description | Parameter |
    |-----------------|-----------------------------|--------------------------|
    | Entity Logical Name |  Specify the logical name of the entity that you want to unlink. <br> This is a mandatory field. | incident |
-   | Entity record id| Specify the entity record ID of the entity that you want to unlink. <br>This is a mandatory field.| |
-   | Entity primary Name | Specify the primary name of the entity that you want to unlink. <br>This is a mandatory field.| |
+   | Entity record id| Specify the entity record ID of the entity that you want to unlink. <br>This is a mandatory field.| c940722c-f057-400b-99ae-903ec4cb82a2|
+   | Entity primary Name | Specify the primary name of the entity that you want to unlink. <br>This is a mandatory field.| cases |
    |||
 
 ### Flow connector
