@@ -1,5 +1,5 @@
 ---
-title: "Configure Smart Sssist for agents | MicrosoftDocs"
+title: "Configure Smart Assist for agents | MicrosoftDocs"
 description: "Learn about how to smartly assist agents with the next-best steps in the Omnichannel Administration app."
 author: neeranelli
 ms.author: nenellim
