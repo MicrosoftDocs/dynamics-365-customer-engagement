@@ -62,7 +62,7 @@ After completing the prerequisites, you can send outbound messages from your org
     |---------------------|--------------------------------------|
     | Name                | Case create message                  |
     | Show in timeline    | Yes                                  |
-    | Channel type        | SMS                                  |
+    | Channel type        | SMS or WhatsApp                                 |
     | Channel             | (the preconfigured channel number)   |
     | Message template    | (your previously created template)   |
 
