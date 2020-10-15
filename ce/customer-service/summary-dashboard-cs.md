@@ -17,29 +17,31 @@ search.audienceType:
 search.app: 
   D365CE
   D365CS
+  
 ---
 
-# Summary Dashboard
+# Summary dashboard
 
-The Summary Dashboard gives you a broad overview of the customer service experience in your organization. It uses artificial intelligence (AI) technology to show you topics that are generating the highest volume and emerging topics with the highest rate of change in volume. 
+The Summary dashboard gives you a broad overview of the customer service experience in your organization. It uses artificial intelligence (AI) technology to show you topics that are generating the highest volume and emerging topics with the highest rate of change in volume.
+
+!(Summary dashboard](media/cs-insights-page.png "View the summary dashboard")
 
 The KPI summary dashboard includes a variety of charts with graphical views of your system's key performance indicators. For information about each chart, click the link for the chart in the following list or scroll to locate the chart later in this topic. 
 
-![KPI summary dashboard](media/kpi-summary-dash.png)
-
-The KPI (key performance indicator) summary dashboard gives you a broad overview of the customer service experience at your organization. It uses artificial intelligence (AI) technology to show you topics that are generating the highest volume and emerging topics with the highest rate of change in volume.
-
-The KPI summary dashboard includes a variety of charts with graphical views of your system's key performance indicators. For information about each chart, click the link for the chart in the following list or scroll to locate the chart later in this topic.
-
-- [Key insights card](#key-insights-card)
-- [KPI summary charts](#kpi-summary-charts)
-- [Case breakdown chart](#case-breakdown-chart)
-- [Case priority chart](#case-priority-chart)
-- [Case channel chart](#case-channel-chart)
-- [Case tracking chart](#case-tracking-chart)
-- [Unresolved cases by age chart](#unresolved-cases-by-age-chart)
-- [Case volume drivers chart](#case-volume-drivers-chart)
-- [Emerging topics chart](#emerging-topics-chart)
+- [Key insights card](#key-insights-card) 
+- KPI summary charts and additional KPI charts
+- Case volume over duration chart
+- Open cases by priority chart
+- Incoming cases by channel chart 
+- Open cases by base age chart 
+- Case volume by status chart
+- Avg. CSAT trend chart
+- Avg. sentiment trend chart
+- Top 10 volume topics chart
+- Emerging case volume by topic chart
+- Emerging case volume by topic chart
+- Avg. incoming case time 24 hrs chart
+- Case metrics by channel chart 
 
 The Case volume drivers and Emerging topics charts use natural language understanding to group support cases as *topics* that are a collection of related cases. These charts show you the customer support topics that are generating the most volume and emerging topics with the highest rate of change in volume, helping you identify areas for improvement that can have the greatest impact on system performance.
 
@@ -47,9 +49,25 @@ By default, the dashboard shows you KPIs for the past month and for all products
 
 To filter data by product, channel, business unit, or team, select a value from the **Product**, **Channel**, **Business Unit**, or **Team** drop-down list. If you switch to a different dashboard, the filter you specify persists and is applied to the data on all dashboards. For more information on working with filters, see [Work with Customer Service Insights dashboards](use-dashboard-sample-data.md).
 
+## Key insights card
+
+![Key Insights Discovery card](media/key-insights-card.png)
+
+The Key Insights Discovery card has two areas:
+
+- KPI insights: Important subjects that impact performance 
+
+- Topics to watch: Topics that rank high across the following three key areas are shown under **Topics to watch**, to make it easier for customer service managers to discover top issues:
+  
+- **Volume driver** shows topics with the largest volume of cases created in the selected time period.
+- **Negative CSAT impact** shows topics that have the greatest negative impact on your total CSAT score. CSAT data is collected from surveys.
+- The emerging rate gives you a "heads-up" about topics that have a high rate of new incoming cases in the selected time period.
+
+When you select the light bulb ![Light bulb](media/light-bulb.png "Light bulb"), a short inline explanation of the reason for showing these topics is displayed with recommendations of possible actions to take.
+
 ## KPI summary charts
 
-![KPI summary charts](media/kpi-charts.png)
+![KPI summary charts](media/kpi-summary.png)
 
 The KPI summary charts summarize the key performance indicators for the specified time period and the percent change over the period.
 
