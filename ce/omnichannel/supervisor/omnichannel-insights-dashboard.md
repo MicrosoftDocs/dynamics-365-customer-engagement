@@ -67,7 +67,7 @@ This section provides historical visibility into the overall support operations 
    > [!div class=mx-imgBorder]
    > ![Channel report](../media/channel.png "Channel report")
 
-The KPIs for conversations and channels are listed in the following table. For conversations, these are applicable to scenarios in which bots escalate to agents or agents directly handle customer calls. For channels, the KPIs represent support operations by each channel to help supervisors easily understand how each support channel (for example, SMS or chat) are performing, and take appropriate actions to improve the overall support experience for customers.
+The KPIs for conversations and channels are listed in the following table. For conversations, these are applicable to scenarios in which bots escalate to agents or agents directly handle customer calls. For channels, the KPIs represent support operations by each channel to help supervisors easily understand how each support channel (for example, SMS or chat) are performing, and take appropriate actions to improve the overall support experience for customers. <\br>
 
 
    | KPI | Description | Derivation | Measure | 
@@ -151,7 +151,6 @@ The KPIs for bots are listed in the following table:
 | KPI | Description | Derivation | Measure | 
 |------|----------|------------|---------|
 | Sessions engaged | The number of conversations initiated by the customer and handled by a bot. | All conversations are considered. | FactSession[QueueSessions] |
-| Resolution Rate  | The percentage of conversations that were resolved by a bot out of all conversations handed by a bot. | All conversations are considered. | FactSession[BOTResolutionRate] |
 | Resolution Rate  | The percentage of conversations that were resolved by a bot out of all conversations handed by a bot. | All conversations are considered. | FactSession[BOTResolutionRate] |
 | Resolution time (mins) | The length of time, in minutes, a customer interacted with a bot before the issue was resolved. | All conversations are considered. | FactSession[AvgResolutionTime] |
 | Escalation rate  | The percentage of conversations that are escalated by a bot to a human agent. | All conversations are considered. | FactSession[BotEscalationRate] |
