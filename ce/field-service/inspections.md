@@ -342,19 +342,17 @@ If an inspection question is required, the technician will not be able to mark *
 - Inspections do not load in Internet Explorer. Edge or Chrome is recommended. 
 - The question type "Entity lookup" shows inactive records.
 
-## Additional notes
+### Field Service inspections vs. Power Apps inspections
 
-### Field Service Inspections vs Power Apps inspections
-
-- **Easier to create and use**: Field Service Inspections require no additional training to use and are designed to be easy for business users. As an example, if you can create a survey with Microsoft Forms Pro then you can create an inspection. This is different from Power App inspections that require extensive knowledge of the Power Apps platform and may require coding. 
-- **More scalable**: If your organization has many different inspections it is easier to create Field Service inspections with a drag and drop interface and with dynamic branching rather than create Power App inspectiosn that require creating new entities and forms for each inspection which is very time consuming. 
-- **Better integrated with Dynamics 365**: Field Service inspections are built into the work order and asset servicing capabilities. Furthermore, version management capabilities help administrators track and manage changes to each inspection. 
+- **Easier to create and use**: Field Service inspections require no additional training to use and are designed to be easy for business users. For example, if you can create a survey with Microsoft Customer Voice, you can create an inspection. This is different from Power Apps inspections, which require extensive knowledge of the Power Apps platform and may require coding. 
+- **More scalable**: If your organization has many different inspections, it's easier to create Field Service inspections with a drag-and-drop interface and with dynamic branching. Power Apps inspections require creating new entities and forms for each inspection, which is more time consuming. 
+- **Better integrated with Dynamics 365**: Field Service inspections are built into the work order and asset servicing capabilities. Version management capabilities help administrators track and manage changes to each inspection. 
 
 
-### Field Service Inspections vs Work Order Service Tasks
+### Field Service inspections vs. work order service tasks
 
-Compared to work order incident types and service tasks, using inspections has additional benefits:
+Compared to work order incident types and service tasks, inspections have additional benefits:
 
-- **Easier to create**: administrators can quickly create an inspection with a drag-and-drop interface without needing to create new entities and fields.
-- **Easier to fill out**: technicians can quickly enter responses for each inspection question and save all of them at once, rather than having to open and close multiple Work Order Service Task records.
+- **Easier to create**: Administrators can quickly create an inspection with a drag-and-drop interface without needing to create new entities and fields.
+- **Easier to fill out**: Technicians can quickly enter responses for each inspection question and save all of them at once, rather than having to open and close multiple work order service task records.
 - **More flexible and robust**: Field Service inspections have many question formats and validation options, such as multi-option select, mandatory fields, images, attachments, and more.
