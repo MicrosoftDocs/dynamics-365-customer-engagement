@@ -80,6 +80,9 @@ This action is used to open a new form to create a record. The action contains t
    | Entity form ID | Specify the form ID.<br> This is an optional field. | 915F6055-2E07-4276-AE08-2B96C8D02C57 |
    | Attribute Name | Specify the attribute logical name. You need to provide the attribute name to prepopulate the field with a value.| title |
    | Attribute Value | Specify the attribute value. You need to provide the attribute value to prepopulate the attribute field. | My demo case |
+   
+> [!Note]
+> Template and other ids can be fetched from URLs via the id property, e.g. &id=0232898b-7f0d-eb11-a813-000d3a8ca4c3.
 
 #### Open an existing record
 
