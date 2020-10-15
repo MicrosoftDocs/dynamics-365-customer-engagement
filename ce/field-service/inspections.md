@@ -3,7 +3,7 @@ title: "Dynamics 365 Field Service inspections | MicrosoftDocs"
 description: Learn about how to use inspections in Dynamics 365 Field Service.
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 08/01/2020
+ms.date: 10/12/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -31,11 +31,19 @@ search.app:
 
 Field Service inspections are digital forms that technicians use to quickly and easily answer a list of questions as part of a work order. The list of questions can include safety protocols, pass and fail tests for a customer asset, an interview with a customer, or other audits and assessments performed before, during, or after a work order.
 
-Compared to work order incident types and service tasks, using inspections has additional benefits:
 
-- **Easier to create**: administrators can quickly create an inspection with a drag-and-drop interface without needing to create new entities and fields.
-- **Easier to fill out**: technicians can quickly enter responses for each inspection question and save all of them at once, rather than having to open and close multiple records.
-- **More flexible and robust**: Field Service inspections have many question format and validation options, such as multi-option select, mandatory fields, images, attachments, and more. 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of an inspection on a tablet and a phone](./media/inspections-mobile-2020-tablet-phone.png)
+
+With a drag-and-drop interface, inspections are easy to create, and are easier for technicians to fill out compared to paper forms. Inspection answers are stored in Common Data Service, making it easy to report on results and fit inspections into your automated business processes.
+
+Inspections in Field Service also provide: 
+
+1. **Offline support**: Technicians can view and fill out inspections on their mobile phones or tablets without internet access. Answers are synced when connectivity is restored (cellular or WiFi). 
+2. **Customer assets**: Inspections can be associated with assets, allowing users to see a history of all inspections for a particular piece of equipment. 
+3. **Version management**: Administrators can continuously update and publish inspections to accommodate changing processes and evolving business needs.
+
+
 
 Inspections are easy to create and use, involving the following steps: 
 
@@ -333,3 +341,18 @@ If an inspection question is required, the technician will not be able to mark *
 - Inactive inspections and work order service tasks are not available in offline mode. 
 - Inspections do not load in Internet Explorer. Edge or Chrome is recommended. 
 - The question type "Entity lookup" shows inactive records.
+
+### Field Service inspections vs. Power Apps inspections
+
+- **Easier to create and use**: Field Service inspections require no additional training to use and are designed to be easy for business users. For example, if you can create a survey with Microsoft Customer Voice, you can create an inspection. This is different from Power Apps inspections, which require extensive knowledge of the Power Apps platform and may require coding. 
+- **More scalable**: If your organization has many different inspections, it's easier to create Field Service inspections with a drag-and-drop interface and with dynamic branching. Power Apps inspections require creating new entities and forms for each inspection, which is more time consuming. 
+- **Better integrated with Dynamics 365**: Field Service inspections are built into the work order and asset servicing capabilities. Version management capabilities help administrators track and manage changes to each inspection. 
+
+
+### Field Service inspections vs. work order service tasks
+
+Compared to work order incident types and service tasks, inspections have additional benefits:
+
+- **Easier to create**: Administrators can quickly create an inspection with a drag-and-drop interface without needing to create new entities and fields.
+- **Easier to fill out**: Technicians can quickly enter responses for each inspection question and save all of them at once, rather than having to open and close multiple work order service task records.
+- **More flexible and robust**: Field Service inspections have many question formats and validation options, such as multi-option select, mandatory fields, images, attachments, and more.

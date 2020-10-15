@@ -24,8 +24,7 @@ search.audienceType:
 
 # Choose and configure columns in views
 
-
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Choose and configure columns in model-driven app views](/powerapps/maker/model-driven-apps/choose-and-configure-columns)
   
 <a name="BKMK_ChooseAndConfigureColumns"></a>   
 

@@ -22,7 +22,7 @@ search.audienceType:
 
 # Create or edit a quick view form to view information about a related entity
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Create a model-driven app quick view form to view information about a related entity](/powerapps/maker/model-driven-apps/create-edit-quick-view-forms)
 
 A quick view form can be added to another form as a quick view control. It provides a template to view information about a related entity record within a form for another entity record. This means your app users do not need to navigate to a different record to see the information needed to do their work.  
   

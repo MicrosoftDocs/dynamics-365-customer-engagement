@@ -7,11 +7,9 @@ manager: shujoshi
 ms.date: 08/07/2020
 ms.topic: article
 ---
-# Preview: getTranslationProvider
+# getTranslationProvider
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
-
-[!include[cc-beta-prerelease-disclaimer](../../../../includes/cc-beta-prerelease-disclaimer.md)]
 
 Use this method to register your own functions corresponding to [initializeNewConversation](initializeNewConversation.md) and [translateMessage](translateMessage.md) methods.
 
