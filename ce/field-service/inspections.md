@@ -41,7 +41,7 @@ Inspections in Field Service also provide:
 
 1. **Offline support**: Technicians can view and fill out inspections on their mobile phones or tablets without internet access. Answers are synced when connectivity is restored (cellular or WiFi). 
 2. **Customer assets**: Inspections can be associated with assets, allowing users to see a history of all inspections for a particular piece of equipment. 
-3. **Version management**: Adminstrators can continuously update and publish inspections to accommodate changing processes and evolving business needs.
+3. **Version management**: Administrators can continuously update and publish inspections to accommodate changing processes and evolving business needs.
 
 
 
@@ -348,7 +348,7 @@ If an inspection question is required, the technician will not be able to mark *
 
 - **Easier to create and use**: Field Service Inspections require no additional training to use and are designed to be easy for business users. As an example, if you can create a survey with Microsoft Forms Pro then you can create an inspection. This is different from Power App inspections that require extensive knowledge of the Power Apps platform and may require coding. 
 - **More scalable**: If your organization has many different inspections it is easier to create Field Service inspections with a drag and drop interface and with dynamic branching rather than create Power App inspectiosn that require creating new entities and forms for each inspection which is very time consuming. 
-- **Better integrated with Dynamics 365**: Field Service inspections are built into the work order and asset servicing capabilites. Furthermore, version management capabilities help administrators track and manage changes to each inspection. 
+- **Better integrated with Dynamics 365**: Field Service inspections are built into the work order and asset servicing capabilities. Furthermore, version management capabilities help administrators track and manage changes to each inspection. 
 
 
 ### Field Service Inspections vs Work Order Service Tasks
