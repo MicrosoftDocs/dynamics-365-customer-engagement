@@ -67,7 +67,7 @@ This section provides historical visibility into the overall support operations 
    > [!div class=mx-imgBorder]
    > ![Channel report](../media/channel.png "Channel report")
 
-The KPIs for conversations and channels are listed in the following table. For conversations, these are applicable to scenarios in which bots escalate to agents or agents directly handle customer calls. For channels, the KPIs represent support operations by each channel to help supervisors easily understand how each support channel (for example, SMS or chat) are performing, and take appropriate actions to improve the overall support experience for customers. <br><\br>
+The KPIs for conversations and channels are listed in the following table. For conversations, these are applicable to scenarios in which bots escalate to agents or agents directly handle customer calls. For channels, the KPIs represent support operations by each channel to help supervisors easily understand how each support channel (for example, SMS or chat) are performing, and take appropriate actions to improve the overall support experience for customers. <br>
 
 
    | KPI | Description | Derivation | Measure | 
