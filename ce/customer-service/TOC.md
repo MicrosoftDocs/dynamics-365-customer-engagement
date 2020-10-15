@@ -97,7 +97,7 @@
 ### Customer Service Analytics and Insights
 #### [Introduction to Customer Service Insights](introduction-customer-service-analytics.md)
 #### Historical analytics reports
-##### [Dashboards overview](dashboards-overview.md)
+##### [Dashboards overview](customer-service-analytics-insights-csh.md)
 ##### [Summary dashboard](summary-dashboard-cs.md)
 ##### [Agent dashboard](agent-dashboard-cs.md)
 ##### [Topics dashboard](topics-dashboard-cs.md)
