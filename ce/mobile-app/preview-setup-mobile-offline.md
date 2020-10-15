@@ -60,7 +60,7 @@ To install the app, see [Install the Power Apps mobile app](https://docs.microso
  
 One of the first things you need to do is enable entities that will be available to mobile users when they're using the mobile app in offline mode. You can disable or enable any of the supported entities for offline mode.
 
-To enable an entity for mobile offline synchronization follow the steps below.
+To enable an entity for mobile offline synchronization, follow the steps below.
 
 1. Sign in to [Power Apps](https://make.powerapps.com).
 
@@ -83,7 +83,7 @@ To enable an entity for mobile offline synchronization follow the steps below.
    >![Select settings](media/select_settings.png "Select setting")
  
   
-5. On the **Edit entity** pane, expand **More settings** > **Offline** and then select the **Enable for mobile offline** check box and then select **Done**.
+5. On the **Edit entity** pane, expand **More settings** > **Offline** and then make sure **Enable for mobile offline** check box is selected and then select **Done**.
 
    > [!div class="mx-imgBorder"]
    >![Select enable mobile offline check box](media/enable_mobileoffline_checkbox.png "Select enable mobile offline check box")
@@ -123,7 +123,7 @@ To create a profile follow the steps below.
    >![Mobile Offline Profile screen](media/mol_new_profile.png "Crearte new Mobile Offline Profile")
 
   
-6. Enter a name and description for your mobile offline profile. Select **Create** to create the mobile offline profile. Once the profile is created select it to open the profile so you can continue to editing it.  
+6. Enter a name and description for your mobile offline profile. Select **Create** to create the mobile offline profile. Once the profile is created select it to open the profile so you can continue editing it.  
     
    > [!div class="mx-imgBorder"]
    >![Name your mobile offline profile](media/mol_sample_profile.png "Name your mobile offline profile")
@@ -200,9 +200,9 @@ A user can only be added to one offline profile at a time. Each time a user is a
 
 ### Step 2.2: Publish a mobile offline profile
 
-The profile that was set up in the previous step is still in draft mode, until it is published. In order to deploy your changes to a the user's device, the draft profile needs to be published.
+The profile that was set up in the previous step is still in draft mode, until it is published. In order to deploy your changes to a user's device, the draft profile needs to be published.
 
-When you pubish the profile, it will be available to your users and they will get the mobile offline experience that you have defined in the profile.
+When you publish the profile, it will be available to your users and they will get the mobile offline experience that you have defined in the profile.
 
 > [!NOTE]
 > Remember each time user is added to the mobile offline profile, mobile offline profile needs to be published again. 
