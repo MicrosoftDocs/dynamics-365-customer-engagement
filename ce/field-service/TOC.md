@@ -87,7 +87,7 @@
 ### [Edit booking templates](booking-template.md)
 ### [Booking alerts](booking-alert.md)
 ### [Schedule board tab settings](schedule-board-tab-settings.md)
-### [Preview the new schedule board (public preview)](preview-schedule-board.md)
+### [Next-generation schedule board experience](preview-schedule-board.md)
 
 # Mobile apps
 ## [Compare mobile apps (Xamarin vs. Microsoft Power Platform)](mobile-2020-power-platform.md)
