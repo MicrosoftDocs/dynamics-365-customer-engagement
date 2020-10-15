@@ -8,6 +8,7 @@ ms.date: 10/15/2020
 ms.service: 
   "dynamics-365-customerservice"
 ms.topic: article
+
 ---
 
 # View and understand Omnichannel Insights dashboards
@@ -49,17 +50,15 @@ This section consists of the following conversation KPIs:
 
 Omnichannel Insights reports provide comprehensive information on how overall support is performing across channels. The reports provide administrators and supervisors with a rich visualization and ability to filter across channels, queues, agents, and date ranges to better understand performance and troubleshoot problem areas.
 
-Reporting structure consists of five sections:
+The reporting structure consists of the following sections:
 
-- [Conversation](#conversation)
-- [Channel](#channel)
-- [Queue](#queue)
-- [Agent](#agent)
+- [Conversations and channels](#conversations-and-channels)
+- [Queue and agents](#queues-and-agents)
 - [Bot insights (BYOB)](#botinsightsbyob)
 
 ### Conversations and channels
 
-   This section provides historical visibility into the overall support operations across various conversations and channels.
+This section provides historical visibility into the overall support operations across various conversations and channels.
    
    > [!div class=mx-imgBorder]
    > ![Conversation](../media/conversation-report.png "Conversation")
@@ -112,11 +111,11 @@ The KPIs for queues and agents are listed in the following table. Metrics in thi
 | KPI | Description | Derivation | Measure | 
 |------|----------|------------|---------|
 | Consult sessions | The number of sessions accepted by a user in mode = consult. | Only consult sessions are considered as a denominator |  |
- | Total consult time | The time spent on the consult from when the agent joined to when they left in session participant. | Only consult sessions are considered as a denominator. |  |
-   | Average consult time | The total consult time divided by the total consult sessions. | Only consult sessions are considered as a denominator. | FactSessionParticipant[AvgConsultTime] |
-   | Monitor sessions | The number of sessions accepted by a user in mode = monitor. | Only monitor sessions are considered as a denominator. |  |
-   | Total monitor time | The time spent on the monitor from when the agent joined to when they left in session participant. | Only monitor sessions are considered as a denominator. | |
-   | Average monitor time | The total monitor time divided by the total of monitor sessions. | Only monitor sessions are considered as a denominator. | FactSessionParticipant[AvgMonitorTime] |
+| Total consult time | The time spent on the consult from when the agent joined to when they left in session participant. | Only consult sessions are considered as a denominator. |  |
+| Average consult time | The total consult time divided by the total consult sessions. | Only consult sessions are considered as a denominator. | FactSessionParticipant[AvgConsultTime] |
+| Monitor sessions | The number of sessions accepted by a user in mode = monitor. | Only monitor sessions are considered as a denominator. |  |
+| Total monitor time | The time spent on the monitor from when the agent joined to when they left in session participant. | Only monitor sessions are considered as a denominator. | |
+| Average monitor time | The total monitor time divided by the total of monitor sessions. | Only monitor sessions are considered as a denominator. | FactSessionParticipant[AvgMonitorTime] |
 | Sessions engaged | # Sessions presented to an agent and accepted by an agent | Conversations engaged are considered and all conversation states are considered. | FactSession[EngagedByAgentSessionCount] |
 | Session rejection rate | The number of sesssions presented to an agent and are not accepted by an agent. | Conversations engaged are considered and all conversation state are considered. | FactSession[SessionRejectionRate] |
 | Transfer rate | The number of sessions tranferred by an agent. | Conversations engaged are considered and all conversation states are considered. | FactSession[QueueTransferRate] |
@@ -147,15 +146,17 @@ This section provides historical visibility into how bots are performing to�
    > [!div class=mx-imgBorder]
    > ![Bot insights (BYOB)](../media/bot-insights.png "Bot insights (BYOB)")  
 
-   This section consists of the following KPIs: 
+The KPIs for bots are listed in the following table: 
 
-   |KPI           |Description                    |
-   |--------------|-------------------------------|
-   |Bot conversation           |The number of conversations initiated by the customer and handled by a bot.  |
-   |Bot Resolution Rate        |The percentage of conversations that were resolved by a bot out of all conversations handed by a bot.  |
-   |Bot Resolution time (mins) |The length of time, in minutes, a customer interacted with a bot before the issue was resolved.   |
-   |Bot escalation rate        |The percentage of conversations that are escalated by a bot to a human agent.  |
-   |Bot escalation time (mins) |Average length of time that a bot took to complete the conversation with a customer before escalating to a human agent.   |
+| KPI | Description | Derivation | Measure | 
+|------|----------|------------|---------|
+| Sessions engaged | The number of conversations initiated by the customer and handled by a bot. | All conversations are considered. | FactSession[QueueSessions] |
+| Resolution Rate  | The percentage of conversations that were resolved by a bot out of all conversations handed by a bot. | All conversations are considered. | FactSession[BOTResolutionRate] |
+| Resolution Rate  | The percentage of conversations that were resolved by a bot out of all conversations handed by a bot. | All conversations are considered. | FactSession[BOTResolutionRate] |
+| Resolution time (mins) | The length of time, in minutes, a customer interacted with a bot before the issue was resolved. | All conversations are considered. | FactSession[AvgResolutionTime] |
+| Escalation rate  | The percentage of conversations that are escalated by a bot to a human agent. | All conversations are considered. | FactSession[BotEscalationRate] |
+| Escalation time (mins)  | Average length of time that a bot took to complete the conversation with a customer before escalating to a human agent. | All conversations are considered. | FactSession[BotEscalationTime] |
+
 
 ## Omnichannel Sentiment Analysis dashboard
 
