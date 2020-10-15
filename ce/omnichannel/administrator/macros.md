@@ -4,7 +4,7 @@ description: "Learn about macros and how to configure in the Omnichannel Adminis
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/12/2020
+ms.date: 10/15/2020
 ms.service: 
    "dynamics-365-customerservice"
 ms.topic: article
@@ -77,10 +77,9 @@ This action is used to open a new form to create a record. The action contains t
    | Field | Description | Parameter |
    |-----------------|-----------------------------|--------------------------|
    | Entity logical name |  Specify the logical name of the entity that you want to open.<br> This is a mandatory field. | incident |
-   | Entity form ID | Specify the form ID.<br> This is an optional field. |
-   | Attribute Name | Specify the attribute logical name. You need to provide the attribute name to prepopulate the field with a value.| |
-   | Attribute Value | Specify the attribute value. You need to provide the attribute value to prepopulate the attribute field. | |
-   |||
+   | Entity form ID | Specify the form ID.<br> This is an optional field. | 915F6055-2E07-4276-AE08-2B96C8D02C57 |
+   | Attribute Name | Specify the attribute logical name. You need to provide the attribute name to prepopulate the field with a value.| title |
+   | Attribute Value | Specify the attribute value. You need to provide the attribute value to prepopulate the attribute field. | My demo case |
 
 #### Open an existing record
 
