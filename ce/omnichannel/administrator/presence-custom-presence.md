@@ -4,10 +4,10 @@ description: See how you can configure and manage presence and custom presence i
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 07/17/2019
+ms.date: 10/12/2019
 ms.topic: article
 ms.service: 
-  - "dynamics-365-customerservice"
+  "dynamics-365-customerservice"
 ---
 # Configure and manage custom presence
 
@@ -41,7 +41,7 @@ Omnichannel for Customer Service provides the following presence statuses out of
 - Inactive
 - Offline
 
-The inactive presence is not available for manual selection by the agents; if the missed notifications feature (preview) is enabled, the agent status will be changed to inactive when agents do not respond to the incoming conversation request notification.
+The inactive presence is not available for manual selection by the agents; if the missed notifications feature is enabled, the agent status will be changed to inactive when agents do not respond to the incoming conversation request notification.
 
 > [!div class=mx-imgBorder]
 > ![Presence view](../media/oc-presence-view.png)

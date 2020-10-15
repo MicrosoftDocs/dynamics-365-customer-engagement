@@ -1,5 +1,5 @@
 ---
-title: "Embed chat widget in your portal | MicrosoftDocs"
+title: "Embed chat widget in your website or portal | MicrosoftDocs"
 description: "Instructions to embed chat widget in your website or Power Apps portal."
 author: lalexms
 ms.author: laalexan
@@ -10,7 +10,7 @@ ms.service:
 ms.topic: article
 ---
 
-# Embed chat widget in your website or Power Apps portal
+# Embed chat widget in your website or portal
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
@@ -44,6 +44,8 @@ To embed a chat widget in Power Apps portals:
     >[!div class=mx-imgBorder]
     > ![Paste code snippet of a chat widget](../media/paste-snippet.png "Paste code snippet of a chat widget")
 10.	Save the changes. The chat widget is now embedded into the portal.
+
+If you don't see your chat widget in the portal, see [Troubleshoot Omnichannel for Customer Service](../troubleshoot-omnichannel-customer-service.md).
 
 ## Embed chat widget in mobile experiences
 
@@ -93,5 +95,4 @@ After the chat widget is configured, it has the following capabilities:
 [Create quick replies](create-quick-replies.md) <br>
 [Create and manage operating hours](create-operating-hours.md) <br>
 [Create chat authentication settings](create-chat-auth-settings.md) <br>
-[Embed chat widget in your website or Power Apps portal](embed-chat-widget-portal.md)<br>
 [Render a live chat widget on the mobile app](../developer/how-to/render-live-chat-widget-mobile.md) 

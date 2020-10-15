@@ -208,4 +208,5 @@ You understand that your data may be transmitted and shared with external system
 [Work with queues in Omnichannel for Customer Service](queues-omnichannel.md)<br>
 [Create and manage routing rules](routing-rules.md)<br>
 [Add a chat widget](add-chat-widget.md)<br>
-[Enable a bot to escalate and end conversation](../developer/bot-escalate-end-conversation.md)
+[Enable a bot to escalate and end conversation](../developer/bot-escalate-end-conversation.md)  
+[Context variables for a bot](context-variables-for-bot.md)  

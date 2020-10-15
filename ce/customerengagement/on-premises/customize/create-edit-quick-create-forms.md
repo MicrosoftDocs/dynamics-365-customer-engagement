@@ -21,7 +21,7 @@ search.audienceType:
 ---
 # Create or edit quick create forms for a streamlined data entry experience
 
- 
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Create or edit model-driven app quick create forms for a streamlined data entry experience](/powerapps/maker/model-driven-apps/create-edit-quick-create-forms) 
 
  With quick create forms, your app can have a streamlined data entry experience with full support for logic defined by form scripts and business rules. In Dynamics 365 Customer Engagement (on-premises), quick create forms appear when you select the **Create** button in the navigation bar or when you choose **+ New** when creating a new record from a lookup or sub-grid.
   

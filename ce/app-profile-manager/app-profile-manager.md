@@ -4,21 +4,13 @@ description: "Using app profile manager to create and manage app profiles."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 09/07/2020
+ms.date: 10/12/2020
 ms.service: 
    "dynamics-365-customerservice"
 ms.topic: article
 ---
 
-# Preview: Create and use app profiles to manage apps
-
-[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
-> [!IMPORTANT]
->
-> - This feature is a preview, which means that it is made available to you before general availability so you can test and evaluate the preview and provide feedback to Microsoft.
-> - This preview may employ reduced or different privacy, security, or compliance commitments than a commercial version. As such, this preview is not meant to be used with any "live" or production Customer Data, Personal Data, or other data that is subject to heightened compliance requirements. Any use of "live" data is at your sole risk and it is your sole responsibility to notify your end users that they should not include sensitive information with their use of the Preview.
-> - This preview, and any support Microsoft may elect to provide, is provided "as-is," "with all faults," "as available," and without warranty. This preview is subject to the [Preview Terms](../legal/supp-dynamics365-preview.md).
+# Create and use app profiles to manage apps
 
 ## Introduction
 
@@ -42,16 +34,18 @@ Make sure you have the App profile manager administrator role. More information:
 3. Do one of the following:
    - On the **Home** page, go to **Your apps** section.
    - In the left pane, select **Apps**.
-4. Select **More commands** beside **Omnichannel for Customer Service** or **Customer Service workspace (Preview)**, and then select **App profile manager** on the menu that appears.
+4. Select **More commands** beside **Omnichannel for Customer Service** or **Customer Service workspace**, and then select **App profile manager** on the menu that appears.
 5. In the left pane, select **App profiles**.
 6. On the **App profile manager** page, select **New profile**.
 7. On the **New profile** pane, specify the following:
    - **Name:** The app profile name.
    - **Unique name:** A unique identifier in the <*prefix*>_<*name*> format.
+     
      > [!IMPORTANT]
      > The following are required for the unique name:
      > - The prefix can only be alphanumeric and its length must be between 3 to 8 characters.
      > - An underscore must be there between the prefix and name.
+   
    - **Description:** A description for the profile.
   
 ### Add templates and enable productivity pane and channels<a name="enable-prod-pane"></a>
@@ -67,9 +61,11 @@ For an app profile, you can add only one session template for each entity type. 
 4. Do the following on the **Productivity pane** tab:
    1. If you want to enable productivity tools, set the toggle to on for **Turn on productivity pane**.
    2. Select the default mode as collapsed or expanded.
-   3. In the **Productivity tools** section, set the toggle to on for **Smart assist tool configuration** and **Agent scripts** to allow access to smart assist configuration and agent scripts.
+   3. In the **Productivity tools** section, set the toggle to on for the following:
+      - **Smart assist tool configuration**
+      - **Knowledge search tool configuration**
+      - **Agent scripts** to allow access to smart assist configuration and agent scripts.
 5. On the **Channels** tab, set the toggle to on for **All active channels**. The channels configured in Omnichannel for Customer Service will be available for the user to whom the profile is assigned.
-
 
    > [!NOTE]
    > The toggle for channels will be enabled in the out-of-the-box app profile for Omnichannel for Customer Service.
@@ -88,7 +84,9 @@ For an app profile, you can add only one session template for each entity type. 
    > ![Assign users](media/assign-users.png "Assign users")
 3. On the **General** tab, select **Add Existing User**.
 4. On the **Lookup Records** pane, search and select the user.
-5. Select **Add**.
+
+> [!NOTE]
+> You can select **Assign users** on the ***<profile_name>*** page to view the list of users who have been assigned to the profile.
 
 ### Default profile assignment
 

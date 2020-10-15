@@ -21,9 +21,9 @@ search.audienceType:
 ---
 # Create or edit a view
 
-
-
 <a name="BKMK_CreatingAndEditingViews"></a>   
+
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Create and edit public or system model-driven app views](/powerapps/maker/model-driven-apps/create-edit-views-app-designer)
 
  You can create custom public views by editing existing views and saving them with a different name or by creating a new view.  
   

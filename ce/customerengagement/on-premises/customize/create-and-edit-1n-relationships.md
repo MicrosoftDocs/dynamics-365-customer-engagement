@@ -22,9 +22,9 @@ search.audienceType:
 ---
 # Create 1:N (one-to-many) or N:1 (many-to-one) relationships
 
-
-
 <a name="BKMK_CreateEditN1Relationships"></a>   
+
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Create and edit One-to-many or Many-to-one entity relationships using Power Apps portal](/powerapps/maker/common-data-service/create-edit-1n-relationships-portal)
 
  The easiest way to create a 1:N relationship is to create a new lookup field for an entity. This allows you to set the common field values for the lookup field as well as two additional options when you set the **Type** to **Lookup**. Those additional fields are **Target Record Type** and **Relationship Name**.  
   
