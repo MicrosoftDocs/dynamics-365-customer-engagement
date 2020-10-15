@@ -88,9 +88,8 @@ This action is used to open an existing record form. The action contains the fol
    | Field | Description | Parameter |
    |-----------------|-----------------------------|--------------------------|
    | Entity logical name |  Specify the logical name of the entity that you want to open. <br> This is a mandatory field. | incident |
-   | Entity record ID| Specify the entity record ID. <br>This is a mandatory field.| |
-   | Entity form ID | Specify the form ID. <br>This is an optional field. | |
-   |||
+   | Entity record ID| Specify the entity record ID. <br>This is a mandatory field.| c940722c-f057-400b-99ae-903ec4cb82a2 |
+   | Entity form ID | Specify the form ID. <br>This is an optional field. | 915F6055-2E07-4276-AE08-2B96C8D02C57 |
 
 #### Open a record grid
 
@@ -99,9 +98,8 @@ This action is used to open a record grid. The action contains the following fie
    | Field | Description | Parameter |
    |-----------------|-----------------------------|--------------------------|
    | Entity logical name |  Specify the logical name of the entity for which you want to open the grid. <br> This is a mandatory field. | incident |
-   | View ID| Specify the ID of the view that you want to open.<br> This is a mandatory field. | |
-   | View type | Specify the view type. <br>This is a mandatory field. | |
-   |||
+   | View ID| Specify the ID of the view that you want to open.<br> This is a mandatory field. | 00000000-0000-0000-00aa-000010001028 |
+   | View type | Specify the view type. <br>This is a mandatory field. | 1039 |
 
 #### Search the knowledge base for the populated phrase
 
@@ -109,8 +107,7 @@ This action is used for searching knowledge articles based on the populated phra
 
    | Field | Description | Parameter |
    |-----------------|-----------------------------|--------------------------|
-   | Search string |  Provide the phrase based on which you want to search for knowledge articles. You can provide the context data. For example, the context data parameter can be a case title. |  |
-   ||
+   | Search string |  Provide the phrase based on which you want to search for knowledge articles. You can provide the context data. For example, the context data parameter can be a case title. | Printer |
 
 #### Do a relevance search based on the phrase
 
@@ -118,8 +115,7 @@ This action is used for searching knowledge articles based on the populated phra
 
    | Field | Description | Parameter |
    |-----------------|-----------------------------|--------------------------|
-   | Search string |  Provide the phrase based on which you want to do a relevance search. You can provide the context data. For example, the context data parameter can be a case title. <br> This is a mandatory field.  |  |
-   ||
+   | Search string |  Provide the phrase based on which you want to do a relevance search. You can provide the context data. For example, the context data parameter can be a case title. <br> This is a mandatory field.  |  My demo case |
 
 #### Update an existing record
 
@@ -128,10 +124,9 @@ This action is used to update an existing record. The action contains the follow
    | Field | Description | Parameter |
    |-----------------|-----------------------------|--------------------------|
    | Entity logical name |  Specify the logical name of the entity that you want to update. <br> This is a mandatory field. | incident |
-   | Entity record ID| Specify the entity record ID. <br>This is a mandatory field.| |
-   | Attribute Name | Specify the attribute logical name you want to update.| |
-   | Attribute Value | Specify the attribute value that will be updated for the above-mentioned attribute. | |
-   |||
+   | Entity record ID| Specify the entity record ID. <br>This is a mandatory field.| c940722c-f057-400b-99ae-903ec4cb82a2 |
+   | Attribute Name | Specify the attribute logical name you want to update.| title |
+   | Attribute Value | Specify the attribute value that will be updated for the above-mentioned attribute. | My demo case updated |
 
 #### Open an email form with predefined template
 
@@ -140,10 +135,9 @@ This action is used to open an email with a predefined template. The action cont
    | Field | Description | Parameter |
    |-----------------|-----------------------------|--------------------------|
    | Entity logical name |  Specify the logical name of the entity. <br> This is a mandatory field. | incident |
-   | Entity record ID| Specify the entity record ID. <br>This is a mandatory field.| |
-   | Email recipients | Specify the recipients to whom you want the mail to be sent. <br> This is a mandatory field. | |
-   | Template ID | Specify the ID of the template that must displayed in the email. <br> This is a mandatory field. | |
-   |||
+   | Entity record ID| Specify the entity record ID. <br>This is a mandatory field.| c940722c-f057-400b-99ae-903ec4cb82a2 |
+   | Email recipients | Specify the recipients to whom you want the mail to be sent. <br> This is a mandatory field. | name@example.com |
+   | Template ID | Specify the ID of the template that must displayed in the email. <br> This is a mandatory field. | dfd4fdf0-902e-450b-a4d6-71feb7bd0b41 |
 
 #### Resolve a case
 
@@ -151,9 +145,9 @@ This action is used to resolve a case. The action contains the following fields.
 
    | Field | Description | Parameter |
    |-----------------|-----------------------------|--------------------------|
-   | Billable time |  Specify the time that is billable. <br> This is a mandatory field. | incident |
-   | Incident ID| Specify the ID of the case that you want to close. <br>This is a mandatory field.| |
-   | Resolution | Specify the reason to resolve the case. <br> This is a mandatory field. | |
+   | Billable time |  Specify the time that is billable. <br> This is a mandatory field. | 0 |
+   | Incident ID| Specify the ID of the case that you want to close. <br>This is a mandatory field.| c940722c-f057-400b-99ae-903ec4cb82a2 |
+   | Resolution | Specify the reason to resolve the case. <br> This is a mandatory field. | Save and close the widget |
    |||
 
 #### Autofill form fields
