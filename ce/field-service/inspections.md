@@ -35,13 +35,13 @@ Field Service inspections are digital forms that technicians use to quickly and 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of an inspection on a tablet and a phone](./media/inspections-mobile-2020-tablet-phone.png)
 
-With a simple drag and drop interface, inspections are much easier to create than other digital forms and easier for technicians to fill out compared to paper forms; plus inspection answers are stored in the Common Data Service (CDS) making it easy to report on results and fit inspections into your automated business processes.
+With a drag-and-drop interface, inspections are easy to create, and are easier for technicians to fill out compared to paper forms. Inspection answers are stored in Common Data Service, making it easy to report on results and fit inspections into your automated business processes.
 
-Other reasons organizations choose to use Field Service Inspections include: 
+Inspections in Field Service also provide: 
 
-1. **Offline support** - technicians can view and fill out inspections on their mobile phones or tablet without internet access and sync answers once connectivity is restored (cellular or WiFi). 
-2. **Customer assets** - inspections can be associated to assets allowing users to see a history of all inspections for a particular piece of equipment. 
-3. **Version management** - adminstrators can continuously update and publish inspections to accommodate changing processes and evolving business needs.
+1. **Offline support**: Technicians can view and fill out inspections on their mobile phones or tablets without internet access. Answers are synced when connectivity is restored (cellular or WiFi). 
+2. **Customer assets**: Inspections can be associated with assets, allowing users to see a history of all inspections for a particular piece of equipment. 
+3. **Version management**: Adminstrators can continuously update and publish inspections to accommodate changing processes and evolving business needs.
 
 
 
