@@ -4,9 +4,9 @@ description: "Learn about Omnichannel Insights dashboards for supervisors"
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/13/2020
+ms.date: 10/15/2020
 ms.service: 
-  - "dynamics-365-customerservice"
+  "dynamics-365-customerservice"
 ms.topic: article
 ---
 
@@ -61,17 +61,15 @@ Reporting structure consists of five sections:
 
    This section provides historical visibility into the overall support operations across various conversations and channels.
    
-   **Conversation report**
-
    > [!div class=mx-imgBorder]
    > ![Conversation](../media/conversation-report.png "Conversation")
    
-   **Channel report**
-   
-     > [!div class=mx-imgBorder]
+  
+   > [!div class=mx-imgBorder]
    > ![Channel report](../media/channel.png "Channel report")
 
 The KPIs for conversations and channels are listed in the following table. For conversations, these are applicable to scenarios in which bots escalate to agents or agents directly handle customer calls. For channels, the KPIs represent support operations by each channel to help supervisors easily understand how each support channel (for example, SMS or chat) are performing, and take appropriate actions to improve the overall support experience for customers.
+
 
    | KPI | Description | Derivation | Measure | 
    |------|----------|------------|---------|
@@ -83,56 +81,39 @@ The KPIs for conversations and channels are listed in the following table. For c
    | Conversation inactive time | Cumulative session inactive time for a conversation. | Conversations engaged and conversations that are in the closed state are considered. | FactConversation[ConversationInactiveTime]|
    | Conversation wrap time | Cumulative time from the conversation wrap up start time until the conversation close time. | Conversations engaged and conversations that are in the closed state are considered. | FactConversationFirstAgentParticipant[ConversationWrapupTime] |
    | Conversation handle time | Cumulative session active time for a conversation. | Conversations engaged and conversations that are in the closed state are considered. | FactConversation[ConversationActiveTime] |
-   | Average Conversation active time | Total conversation active time divided by the number of conversations handled. | Conversations engaged and conversations that are in the closed state are considered. | FactConversation[AvgActiveTime(mins) ] |
+   | Average Conversation active time | Total conversation active time divided by the number of conversations handled. | Conversations engaged and conversations that are in the closed state are considered. | FactConversation[AvgActiveTime(mins)] |
    | Average Conversation inactive time | Total conversation inactive time divided by the number of conversations handled. | Conversations engaged and conversations that are in the closed state are considered. | FactConversation[AverageConversationInactiveTime] |
    | Average Conversation wrap time | Total conversation wrap time divided by the number of conversations handled. | Conversations engaged and conversations that are in the closed state are considered. | FactConversation[AverageConversationWrapupTime)] |
+   | Average Conversation handle time | Total Conversation active time divided by the number of conversations handled. | Conversations engaged and conversations that are in the closed state are considered. | FactConversation[AvgConversationTime] |
    | Average Conversation time | Average time from the conversation start to conversation end. | Conversations engaged and conversations that are in the closed state are considered. | FactConversation[AvgConversationTime] |
-   | Average Customer Effort time  | Average time from the conversation start to conversation wrap up start time. | Conversations engaged and conversations that are in the closed state are considered. | FactConversation[AvgCustomerEffort] |
+   | Average Customer Effort time  | Average time from the conversation start to the conversation wrap up start time. | Conversations engaged and conversations that are in the closed state are considered. | FactConversation[AvgCustomerEffort] |
    | Speed to answer | The average time customers have waited in the queue before connecting to an agent. | Conversations engaged and conversations that are in the closed state are considered. | FactConversation[AvgSpeedtoAnswer] |
    | SLA - Speed to answer | Number of SLAs met divided by the number of conversations handled. For example, if the Speed to answer is less than 180 seconds, then this is considered met. Otherwise, it is not met. | Conversations engaged and conversations that are in the closed state are considered. | FactMessage[SLASpeedtoAnswer] |
    | Customer wait time  | The average time customers have waited before connecting to agents. This is similar to “Speed to answer” but includes the time waited on each session within a conversation. | Conversations engaged are considered. | FactConversationParticipant[AvgWaittime(mins)] |
+   | Total consult time | The time spent on the consult from when the agent joined to when they left in session participant. | Only consult sessions are considered as a denominator. |  |
+   | Average consult time | Total consult time divided by the total consult sessions. | Only consult sessions are considered as a denominator. | FactSessionParticipant[AvgConsultTime] |
+   | Total monitor time | The time spent on the monitor from when the agent joined to when they left in session participant. | Only monitor sessions are considered as a denominator. | |
+   | Average monitor time | The total monitor time divided by the total of monitor sessions. | Only monitor sessions are considered as a denominator. | FactSessionParticipant[AvgMonitorTime] |
    
 
 ### Queues and agents
 
-   This section provides historical visibility into how each queue is performing so supervisors can take appropriate steps to improve the overall support experience for the customer.  
+This section provides historical visibility into how each queue is performing and how each agent is performing across different channels and queues so supervisors can take appropriate steps to improve the overall support experience for the customer. Metrics in this section are computed at the session granularity. Each customer contact is defined as a conversation. Each conversation is defined as a session and can be handled by one or more agents.
 
    > [!div class=mx-imgBorder]
    > ![Queue report](../media/queue-report.png "Queue report")
 
-   This section consists of the following KPIs:
-
-   | KPI visual        | Description                   |
-   |--------------|-------------------------------|
-   |Highest session volumes      |This visual provides the top queues where the most sessions are handled.  |
-   |Longest average handle time  |This visual provides a list of queues that have high average handle times per session. This helps supervisors focus on queues and staff agents appropriately.  |
-   |Highest abandon rates        |This visual provides a list of queues that have high abandon rates. This helps supervisors focus on queues and staff agents appropriately.   |
-   |Longest average wait times (min)   |This visual provides a list of queues that have the longest wait times.    |
-   |Session metrics by queue     |Grid provides the top metrics across all queues. This helps to compare metrics across each queue.  |
-   |Session metrics by date      |Grid provides a list of metrics by dates.   |
-
-### Agent
-
-   This section provides historical visibility into how each agent is performing across different channels/queues so supervisors can take appropriate action to improve the overall support experience for customers.  
-
    > [!div class=mx-imgBorder]
    > ![Agent report](../media/agent.png "Agent report")
 
-   Metrics in this section are computed at the session granularity.  Each customer contact is defined as a conversation.  Each conversation is defined as a session and can be handled by one or more agents.    
+| KPI | Description | Derivation | Measure | 
+|------|----------|------------|---------|
+|  |  |  |  |
 
-   |Visual     |Description              |
-   |------------|------------------------|
-   |Highest session volumes       |This visual provides the top agents handling the most sessions  |
-   |Longest average handle time   |This visual provides a list of agents who have high average handle times per session. This helps supervisors to focus on these agents to help drive the cost down.  |
-   |Highest transfer rates        |This visual provides the list of agents who had the highest transfer rates. This helps supervisors to dig deeper into the reasons behind the transfers and make corrective actions.  |
-   |Top sentiment pulse           |This visual helps supervisors know which agents had high customer sentiments for the sessions engaged.  |
-   |Sessions engaged by channel  |This visual provides the split of sessions engaged by an agent across channels.  |
-   |Session metrics by agent     |Grid provides the top metrics across all agents. This helps to compare agents across each metrics.|
-   |Session metrics by date      |Grid provides list of metrics by dates. |
-
+  
 ### Bot insights (BYOB)
 
-   This section provides historical visibility into how bots are performing to help resolve customer support issues. 
+This section provides historical visibility into how bots are performing to help resolve customer support issues. 
 
    > [!div class=mx-imgBorder]
    > ![Bot insights (BYOB)](../media/bot-insights.png "Bot insights (BYOB)")  
