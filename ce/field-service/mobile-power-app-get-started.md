@@ -3,7 +3,7 @@ title: "Get started with the Field Service (Dynamics 365) mobile app | Microsoft
 description: Learn how to get started with the Field Service (Dynamics 365) mobile app.
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 08/28/2020
+ms.date: 10/15/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -107,12 +107,12 @@ To get to the sitemap, select the menu icon from the calendar view. From here, y
 
 ## Global search (search with barcode)
 
-Select the global search icon to search for records across accounts, contacts, work orders, customer assets, or any entity. Technicians can also search by scanning a barcode with their phone's camera. This will find records that have a matching barcode field. 
+Select the global search icon to search for records across accounts, contacts, work orders, customer assets, or any other entity. Technicians can also search by scanning a barcode with their phone's camera. The barcode scan will find records that have a matching barcode field.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-2020-global-search-use.png)
+> ![Simulated image showing four mobile devices in different stages of the barcode scan process.](./media/mobile-2020-global-search-use.png)
 
-[Configure global search](https://docs.microsoft.com/dynamics365/field-service/mobile-power-app-configure#customize-global-search-and-enable-scan-to-search)
+For more information, see the article on [configuring global search](https://docs.microsoft.com/dynamics365/field-service/mobile-power-app-configure#customize-global-search-and-enable-scan-to-search).
 
 
 ### Work offline
