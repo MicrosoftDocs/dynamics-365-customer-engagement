@@ -1,6 +1,6 @@
 ---
 title: "Work offline on your mobile device (Dynamics 365 apps)| MicrosoftDocs"
-description: How to work on your mobile device in offline mode using the Dynamics 365 for phones and tablets app 
+description: How to work on your mobile device in offline mode using the Dynamics 365 for phones and tablets app and Power Apps mobile
 ms.custom: 
 ms.date: 10/8/2020
 ms.reviewer: kvivek
@@ -25,21 +25,38 @@ search.app:
 
 # Work offline on your mobile device
 
-Work with your data in offline mode even when you don't have internet access. The Dynamics 365 for phones and tablets app provides a rich offline experience that lets you work with commands like create, read, update, and delete along with some special commands—so you always stay productive. Once you're back online, changes you've made are synchronized with your apps in the Common Data Service environment.
+Work with your data in offline mode even when you don't have internet access. The mobile app provides a rich offline experience that lets you work with commands like create, read, update, and delete along with some special commands—so you always stay productive. Once you're back online, changes you've made are synchronized with your apps in the Common Data Service environment.
 
-If you're working on a record and lose network connection, any updates made to the record are saved in offline mode and will be synchronized to Dynamics 365 app once you're back online. When the record is synchronized with the app, it follows the filter rule for availability in offline mode.
+If you're working on a record and lose network connection, any updates made to the record are saved in offline mode and will be synchronized to the app once you're back online. When the record is synchronized with the app, it follows the filter rule for availability in offline mode.
 
+> [!IMPORTANT]
+> The topic covers how to use the Dynamics 365 for phones and tablets app and [Power Apps mobile](https://docs.microsoft.com/powerapps/mobile/run-powerapps-on-mobile) in offline mode. The process is the same for both apps.
 
-> [!NOTE]
-> - The mobile offline feature is only available for iOS and Android devices.
-> - To use the mobile offline feature, download the latest version of the Dynamics 365 for phones and tablet app from the app store. For iOS, version 13.19043.32 or later is supported; for Android, version 4.3.19043.33 or later supported.
-> - The offline feature isn't supported for Dynamics 365 Customer Engagement (on-premises). 
 
 ## Early access feature
 
 If you have enabled early access, then you will have a different navigation experience. This topic calls out both experiences.
 
 Your administrator has to opt in to early access updates for your environment and then install the updates to get this feature. More information: [Opt in to early access updates](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates)
+
+
+## Install Dynamics 365 for phones and tablets app
+
+Mobile offline for the Dynamics 365 mobile app is currently available for iOS and Android devices. To use the mobile offline feature, download the latest version of the Dynamics 365 mobile app for your phone or tablet from the app store. 
+
+- For iOS, version 13.19043.32 or later is supported.
+- for Android, version 4.3.19043.33 or later supported. 
+
+To install the app, see [Install the app from your device’s app store](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets#install-the-app-from-your-devices-app-store).
+
+> [!NOTE]
+> - The offline feature isn't supported for Dynamics 365 Customer Engagement (on-premises). 
+
+## Install Power Apps mobile app
+
+For information on supported devices for Power Apps mobile app, see [Supported devices](https://docs.microsoft.com/powerapps/mobile/run-powerapps-on-mobile#supported-devices).
+
+To install the app, see [Install the Power Apps mobile app](https://docs.microsoft.com/powerapps/mobile/run-powerapps-on-mobile#install-the-power-apps-mobile-app).
 
 
 ## Download updates to work in offline mode
@@ -60,7 +77,7 @@ If did not want to download offline data and choose **Skip for now**, you will n
 
 1. To manually download updates, do one of the following:
 
-    - **Current**: From the nav bar, select ![Dynamics 365 apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 apps ellipsis") > **Offline Status**. 
+    - **Current**: From the nav bar, select ![Moble app ellipsis](../mobile-app/media/mobile-ellipsis.png "Mobile app ellipsis") > **Offline Status**. 
     - **Early access**: From the Home screen, select the site map ![Site map icon](media/d365_mobile_sitemap_icon.png "Site map icon") > Offline ![Offline button.](media/offline_button.png "Offline button").
 
 2. On the **Offline Status** screen, select **Download offline updates**.
@@ -87,7 +104,7 @@ When offline updates are complete, you can check to see if mobile offline is ava
 
 - To check the offline status, do one of the following:   
 
-    - **Current**: From the nav bar, select ![Dynamics 365 apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 apps ellipsis") > **Offline Status**. 
+    - **Current**: From the nav bar, select ![Mobile app ellipsis](../mobile-app/media/mobile-ellipsis.png "Mobile app ellipsis") > **Offline Status**. 
     - **Early access**: From the Home screen, select the site map ![Site map icon](media/d365_mobile_sitemap_icon.png "Site map icon") > Offline ![Offline button.](media/offline_button.png "Offline button").
     
   
@@ -117,7 +134,7 @@ With intermittent connectivity, it is recommended to switch to offline mode. As 
 
 1. To start working in offline mode, do one of the following:
 
-    - **Current**: From the nav bar, select ![Dynamics 365 apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 apps ellipsis") > **Offline Status**. 
+    - **Current**: From the nav bar, select ![Mobile app ellipsis](../mobile-app/media/mobile-ellipsis.png "Mobile app  ellipsis") > **Offline Status**. 
     - **Early access**: From the Home screen, select the site map ![Site map icon](media/d365_mobile_sitemap_icon.png "Site map icon") > Offline ![Offline button.](media/offline_button.png "Offline button").
 
 2. Set the **Work in offline mode** toggle to On.
