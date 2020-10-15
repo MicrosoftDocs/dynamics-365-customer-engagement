@@ -96,11 +96,21 @@
 
 ### Customer Service Analytics and Insights
 #### [Introduction to Customer Service Insights](introduction-customer-service-analytics.md)
-#### [View and understand Customer Service Analytics and Insights in Customer Service Hub](customer-service-analytics-insights-csh.md)
-#### [View and understand Customer Service Analytics](customer-service-analytics.md)
+#### Historical analytics reports
+##### [Dashboards overview](dashboards-overview.md)
+##### [Summary dashboard](summary-dashboard-cs.md)
+##### [Agent dashboard](agent-dashboard-cs.md)
+##### [Topics dashboard](topics-dashboard-cs.md)
+##### [Knowledge search insights](knowledge-search-insights-cs.md)
+#### [Customer Service Analytics in Power BI](customer-service-analytics.md)
+#### Manage service configuration settings
+##### [Historical analytics reports](customer-service-analytics-insights-csh.md)
+##### [AI topics]
+##### [AI suggestions](csw-enable-ai-suggested-cases-knowledge-articles.md)
+##### [Knowledge search insights](knowledge-search-insights-cs.md)
+
 #### [Configure Customer Service Analytics and Insights in Customer Service Hub](configure-customer-service-analytics-insights-csh.md)
 #### [Configure Customer Service Analytics in Power BI](configure-customer-service-analytics-dashboard.md)
-#### [Enable AI suggestions for similar cases and knowledge articles](csw-enable-ai-suggested-cases-knowledge-articles.md)
 
 ## Connected Customer Service (IoT) add-in
 ### [Overview](cs-iot-overview.md)
