@@ -4,7 +4,7 @@ description:
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 08/05/2020
+ms.date: 10/12/2020
 ms.topic: article
 ---
 
@@ -12,64 +12,57 @@ ms.topic: article
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
-This method is called for every conversation message exchanged between the customer and the agent, if translation is on and if the message has not been translated earlier.
+This method is required to be implemented in web resource. This method is called for every conversation message exchanged between the customer and the agent, if translation is on and if the message has not been translated earlier in the conversation for the destination language.
 
 > [!IMPORTANT]
-> See this [sample web resource](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/real-time-translation) for more information on how to implement the `translateMessage` API.
+> See this [sample web resource](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/06e9c84263bac81e7411f95365c5e792aca15122/customer-service/omnichannel/real-time-translation/webResourceV2.js#L279) for more information on how to implement the `translateMessage` API.
 
 ## Syntax
 
-`Microsoft.Omnichannel.TranslationFramework.translateMessage(conversationId, translationConfig)`
+`function (conversationId, translationConfig): Object`
 
 ## Parameters
 
 |Name|Type|Description|
 |----|----|----|
-|`translationConfig`|JSON object| Consists of `conversationId`, `messagePayload` and `translateToC1orC2` key-value pairs.|
-
-Given below are the key-value pairs that we need to provide in the `translationConfig` object.
-
-|Name|Type|Description|
-|----|----|----|
-|`ConversationId`|String|Unique ID for live work item in Omnichannel for Customer Service|
-|`messagePayload`|JSON object|Payload for the message to be translated|
-|`translateToC1orC2`|JSON object|Represents for whom the message has to be translated|
+|`translationConfig`|Javascript object| Consists of `conversationId`, `messagePayload` and `translateToC1orC2` key-value pairs.|
 
 Here is the structure of `translationConfig` parameter.
 
 ```json
-interface translationConfig { 
-        conversationId: string;   //Unique Id for live work item in Omnichannel for Customer Service
-        messagePayload: MessagePayload;  //Payload for the message to be translated
-        translateToC1orC2: TranslateTo;   //Represents for whom the message has to be translated 
- } 
-
-interface MessagePayload { 
-        content: string;                 //Contains the content to be translated
-        contentType: MessageContentType;  //Contains the type of content
-        sender: Sender; // Represents the sender of the message
-} 
-     
-interface Sender { 
-        userType: UserType;  //Represents the type of user who is sending this message
-} 
 
 export class UserType { 
-        public static readonly C1 = "Agent"; 
-        public static readonly C2 = "Customer"; 
-        public static readonly CONSULT = "CONSULT"; 
+        public static readonly C1 = "Agent"; //Used if the sender of the message is agent
+        public static readonly C2 = "Customer"; //Used if the sender of the message is customer
+        public static readonly CONSULT = "Consult Agent"; //Used if the sender of the message is other than agent or customer
 } 
  
 export class TranslateTo { 
-        public static readonly C1 = "Agent"; 
-        public static readonly C2 = "Customer"; 
+        public static readonly C1 = "Agent"; //Used if message is translated for agent
+        public static readonly C2 = "Customer"; //Used if message is translated for customer
 } 
  
 export class MessageContentType { 
-        public static readonly Text = "Text"; 
+        public static readonly Text = "Text"; //Used if the content type is text
+} 
+     
+interface Sender { 
+        userType: UserType;  //Points to any static field in UserType type,Represents the type of the user who is sending this message
 } 
 
+interface MessagePayload { 
+        content: string;                 //Contains the content to be translated
+        contentType: MessageContentType;  //Points to any static field in MessageContentType type,Represents the type of message content. For example: "Text" etc.
+        sender: Sender; //Implements Sender interface, Represents the sender of the message
+} 
+
+interface translationConfig { 
+        conversationId: string;   //Unique Id for conversation in Omnichannel for Customer Service
+        messagePayload: MessagePayload;  //Implements MessagePayload interface, Represents the payload for the message to be translated
+        translateToC1orC2: TranslateTo;   //Points to any static field in TranslateTo type,Represents for whom the message has to be translated 
+ } 
 ```
+
 Given below is a sample of the `conversationConfig` parameter.
 
 ```json
@@ -88,22 +81,36 @@ translationConfig = {
 
 ## Return Value
 
-Returns the translated message, the source language, and the destination language.
+Returns a promise that resolves to a Javascript object implementing `TranslatedMessageResponse` interface.
 
 **Interface object**
 
 ```
+export interface ErrorObject{ 
+        isError: boolean; //mandatory field, represents true for error while executing this function else no
+        errorCode: ErrorCodes; //mandatory field, represents the type of error based on errorCode
+} 
+
 export interface TranslatedMessageResponse { 
-translatedMessage: string;  // contains the translated message
-sourceLanguage: string;       //represents the language locale of the original content 
-destinationLanguage: string;  // represents the language locale of the translated content
-errorObject?: ErrorObject;  //represents the error object for any error scenarios
-} 
- export interface ErrorObject{ 
-isError: boolean;               // represents yes for error and no otherwise.
-errorCode: ErrorCodes;   //represents the type of error based on errorCode
-} 
+        translatedMessage: string;  //mandatory field, Contains the translated message
+        sourceLanguage: string;       //mandatory field, represents the language locale of the original content 
+        destinationLanguage: string;  //mandatory field, represents the language locale of the translated content
+        errorObject?: ErrorObject;  //optional field, represents the error object for any error scenarios
+}
 ```
+
+The `errorCode` parameter in `ErrorObject` represents the errors only from the following list.
+|Error message|Error code|Description|
+|-----|-----|-----|
+|MESSAGE_TOO_LONG|100|Error code for very long message which the translation service cannot translate|
+|LANGUAGE_NOT_SUPPORTED|101|Error Code for language not supported by the translation service|
+|MESSAGE_NOT_TRANSLATED|102|Error Code for message not translated by the translation service|
+|TRANSLATION_SERVICE_LIMIT_EXCEEDED|103|Error code if the quota limit exceeded for the translation service|
+|TRANSLATION_FAILED|104|Error Code if the translation service failed to translate a message|
+|UNRECOGNIZED_TEXT|105|Error Code if the text is not recognized by the translation service|
+|UNRECOGNIZED_ERROR|200|Error Code if there is any error other than the listed one.|
+
+The `sourceLanguage` and `destinationLanguage` parameter in `TranslatedMessageResponse` interface represents a Locale ID. More information: [Locale ID](https://docs.microsoft.com/openspecs/office_standards/ms-oe376/6c085406-a698-4e12-9d4d-c3b0ee3dbc4a).
 
 **Sample response**
 
@@ -119,23 +126,12 @@ errorCode: ErrorCodes;   //represents the type of error based on errorCode
 }
 ```
 
-## Error codes
+## Additional Information
 
-|Error message|Error code|Description|
-|-----|-----|-----|
-|MESSAGE_TOO_LONG|100|Error code for very long message which the translation service cannot translate|
-|LANGUAGE_NOT_SUPPORTED|101|Error Code for language not supported by the translation service|
-|MESSAGE_NOT_TRANSLATED|102|Error Code for message not translated by the translation service|
-|TRANSLATION_SERVICE_LIMIT_EXCEEDED|103|Error code if the quota limit exceeded for the translation service|
-|TRANSLATION_FAILED|104|Error Code if the translation service failed to translate a message|
-|UNRECOGNIZED_TEXT|105|Error Code if the text is not recognized by the translation service|
-|UNRECOGNIZED_ERROR|200|Error Code if there is any error other than the listed one.|
-
-In case of an exception while calling this method, Omnichannel for Customer Service will not retry and instead will display a translation failed error message in a dialog box.
-
-In case the return value is invalid, an error message on the translation banner will appear in the conversation control.
-
-If this method is not implemented, then the message will not be translated and the following error will be displayed to the agent.
+1. In case of an exception during execution of this method, Omnichannel for Customer Service will not retry and instead will display a translation failed error message.
+2. Error while executing this method can be notified via `errorObject`. In case of an error, Omnichannel for Customer Service will not retry and instead will display the error message based on the provided error codes.
+3. In case the returned response is invalid or incomplete, an error message on the translation banner will appear in the conversation control.
+4. If this method is not implemented, then the message will not be translated and the following error message will be displayed to the agent.
 
 ![translateMessage error message](../../../media/translatemessage-api-error.png "translateMessage error message")
 
