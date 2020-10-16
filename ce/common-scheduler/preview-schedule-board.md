@@ -1,5 +1,5 @@
 ---
-title: "Preview the new schedule board in Universal Resource Scheduling | MicrosoftDocs"
+title: "Next generation schedule board experience in Universal Resource Scheduling | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 04/01/2020
@@ -26,7 +26,7 @@ search.app:
   - D365FS
 ---
 
-# Preview the new and improved schedule board in Universal Resource Scheduling
+# Experience the new and improved schedule board in Universal Resource Scheduling
 
 [!INCLUDE[preview-schedule-board.md](../shared/urs/preview-schedule-board.md)]
 
