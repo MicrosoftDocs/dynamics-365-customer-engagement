@@ -12,13 +12,11 @@ ms.topic: article
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
-[!include[cc-beta-prerelease-disclaimer](../../../../includes/cc-beta-prerelease-disclaimer.md)]
-
 This method is required to be implemented in web resource. It is called once, as soon as a new conversation invitation is accepted or an existing conversation is opened from Agent Dashboard. 
 
 1. You can choose to turn off or turn on the translation for a particular conversation using certain conditions; for example, you would like to turn the translation on if the agent and customer languages are different. 
 2. You can also override the agent's language to be used in translation for the conversation. 
-3. It provides you information about the conversation to take certain decisions, for exampl,e the translation API engine that should be used for a conversation. 
+3. It provides you information about the conversation to take certain decisions, for example, the translation API engine that should be used for a conversation. 
 
 > [!IMPORTANT]
 > See this [sample web resource](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/06e9c84263bac81e7411f95365c5e792aca15122/customer-service/omnichannel/real-time-translation/webResourceV2.js#L212) for more information on how to implement the `initializeNewConversation` API.
@@ -31,13 +29,13 @@ This method is required to be implemented in web resource. It is called once, as
 
 |Name|Required|Type|Description|
 |----|----|----|----|
-|`conversationConfig`|Yes| Javascript object| Provides details about conversation. Such as conversation id, default agent input language (From Realtime translation administrator configuration) etc. <br /> More details are available in the following paragraphs.|
+|`conversationConfig`|Yes| Javascript object| Provides details about conversation. Such as conversation id, default agent input language (From Real-time translation administrator configuration) etc. <br /> More details are available in the following paragraphs.|
 
 Here is the structure of `conversationConfig` parameter.
 
 ```json
 interface InviteParams {// Parameters received on a conversation invite 
-        inviteLocale: string;  //Language locale of the channel from where conversation is received. This contains locale id, example- "1033" for english.
+        inviteLocale: string;  //Language locale of the channel from where conversation is received. This contains locale ID, example- "1033" for english.
         channelType: string;   //The type of the channel, example- "lcw" for chat widget, "facebook" for facebook.
 } 
 
@@ -85,7 +83,7 @@ Returns a promise that resolves to the following Javascript object.
 
 ```
 {
-        keepTranslationOn: boolean;// mandatory field, if true the translation would be turn on for the given conversation and vice-versa
+        keepTranslationOn: boolean;// mandatory field, if true the translation would be turned on for the conversation and vice-versa
         c1Language?: string;// optional field, return the agent's language if input param conversationConfig.c1Language needs to be overriden for the conversation
 }
 ```
@@ -150,9 +148,9 @@ The `c1Language` parameter in resolved Javascript object represents a Locale ID 
 ```
 
 ## Additional Information
-1. On exception in this method or invalid return values, Omnichannel for Customer Service will keep translation off for the conversation. For example: if resolved Javascript object from the returned promise does not contains `keepTranslationOn` field or `c1Language` field contains a value that is not from list of Locale ids, the conversation will start with translation turned off.
+1. On exception in this method or invalid return values, Omnichannel for Customer Service will keep translation off for the conversation. For example: if resolved Javascript object from the returned promise does not contains `keepTranslationOn` field or `c1Language` field contains a value that is not from list of Locale IDs, the conversation will start with translation turned off.
 
-2. Consider including minimal processing in this function, because it makes the UI wait before rendering. If the execution time of this function exceeds 30 seconds, the conversation will start with translation turned off, irrespective of the values of the returned promise.
+2. Consider including minimal processing in this function, because it makes the UI wait before rendering. If the run time of this function exceeds 30 seconds, the conversation will start with translation turned off, irrespective of the values of the returned promise.
 
 3. If this method is not implemented, the following error will be displayed to the agent.
 
