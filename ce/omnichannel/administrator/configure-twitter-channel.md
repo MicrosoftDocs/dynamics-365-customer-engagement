@@ -55,7 +55,7 @@ After completing the prerequisites, you can add the Twitter channel for your org
     - **Environment name**: Environment of the Twitter application. Go to the Twitter developer portal > Dev environments > **Dev environment label** (make sure that the dev environment was created under **Account Activity API**).
     
       > [!IMPORTANT]
-      > The **Environment name** field cannot be a random string and must match the **Dev environment label** in Twitter developer portal.
+      > The **Environment name** field cannot be a random string and must match the **Dev environment label** in the Twitter developer portal.
 
     More information about the Twitter app: [Setting up your Twitter app](https://developer.twitter.com/en/docs/basics/apps/overview)
   
