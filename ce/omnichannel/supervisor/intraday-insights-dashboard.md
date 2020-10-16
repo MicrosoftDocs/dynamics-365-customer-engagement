@@ -4,9 +4,8 @@ description: "Learn about the intraday insights dashboard for supervisors"
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 10/12/2020
-ms.service: 
-  "dynamics-365-customerservice"
+ms.date: 10/16/2020
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ---
 
@@ -135,7 +134,7 @@ This section of the dashboard consists of the following details:
 | Logged in states duration | The agent's presence when the agent is logged on. The state reflects the base presence and not the custom presence.|
 | Subject | For an identified customer, the customer's name is displayed with the subject. For unidentified customers, static text is displayed with a "Visitor" label. For information about identified customers, see [Automatically identify customers](../administrator/record-identification-rule.md). |
 | Participation mode | Primary indicates that agent is engaged in a session. Consult means the agent is engaged in a consulting session with another agent. Monitor means this agent is monitoring the session. |
-| Workstream | The workstream that the conversation is assigned to. |
+| Workstream | The work stream that the conversation is assigned to. |
 | Channel | The channel that the conversation was created from. |
 | Queue | The queue that the conversation is currently part of. |
 | Status reason | The current conversation status. |
@@ -150,9 +149,13 @@ You can filter the information by selecting the Queues that are custom defined f
 > [!div class=mx-imgBorder]
 > ![Queue selection](../media/supervisor-queue-selector.png "Queue selection")
 
-## Active handle time of agents
+## Active handle time
 
-When agents interact with customers through various channels, for SMS and social channels, the duration of the conversation sometimes spans more than 24 hours that results in skewed numbers when average handle time is calculated. The active handle time is calculated based on the time the agents actively spend on a conversation and does not take into account the inactive time for the conversation even if it is in the open state. The active time is calculated based on agent activity. If the agent simultaneously handles two conversations in a time period, the active time will be derived from the actual time the agent was actively conversing in the chat. The inactive timer starts after the agent idle threshold is reached, which is configured at 40 seconds.
+When agents interact with customers through various channels, for SMS and social channels, the conversation duration sometimes spans more than 24 hours that includes the active, inactive, and idle time. The conversation handle time in such cases can give a skewed representation while the time the agent actively spent on it might be only a few minutes.
+
+To provide a realistic representation, the active handle time is calculated based on the time the agent actively spends in a session from the time the conversation is active till it is closed. It includes the wrap-up time. When the average handle time is calculated for the agent, it takes into account only the active session time. The KPI does not include the wait time when the agent is inactive, idle, or handling another session simultaneously.
+
+In a transfer or consult scenario, the active time spent by all agents who are involved is summed up to compute the active handle time for the conversation. At the agent level, only the active time spent by the agent in the session is accounted for deriving any KPIs.
 
 ### See also
 
