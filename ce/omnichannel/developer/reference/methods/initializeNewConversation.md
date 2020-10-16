@@ -4,7 +4,7 @@ description:
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 09/28/2020
+ms.date: 10/12/2020
 ms.topic: article
 ---
 
@@ -142,8 +142,10 @@ The `c1Language` parameter in resolved Javascript object represents a Locale ID 
 
 ```json
 {
+
   "keepTranslationOn": true,
   "c1Language": "1033"
+
 }
 ```
 

@@ -4,15 +4,13 @@ description:
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 09/28/2020
+ms.date: 10/12/2020
 ms.topic: article
 ---
 
 # translateMessage
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
-
-[!include[cc-beta-prerelease-disclaimer](../../../../includes/cc-beta-prerelease-disclaimer.md)]
 
 This method is required to be implemented in web resource. This method is called for every conversation message exchanged between the customer and the agent, if translation is on and if the message has not been translated earlier in the conversation for the destination language.
 

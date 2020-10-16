@@ -4,7 +4,7 @@ description: "Learn about the known issues and limitations in Omnichannel for Cu
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 07/31/2020
+ms.date: 10/15/2020
 ms.service: 
   "dynamics-365-customerservice"
 ms.topic: article
@@ -18,10 +18,6 @@ The topic explains the known issues and limitations of Omnichannel for Customer 
 
 > [!Important]
 > We recommend updating Omnichannel for Customer Service to the latest version for the best experience. More information: [Upgrade Omnichannel for Customer Service](administrator/upgrade-omnichannel.md)
-
-## Productivity pane is disabled after the upgrade of Omnichannel for Customer Service
-
-If you have enabled the **Productivity pane** in Omnichannel for Customer Service, it'll be disabled after the upgrade. The productivity pane settings are now managed at the app profile level in the app profile manager. The Productivity pane option in the Omnichannel Administrator app will be unavailable.
 
 ## Loss of agent script state
 
@@ -41,7 +37,7 @@ In your entity records channel, if you see an error that states: **You must inst
 
 - If you use Omnichannel for Customer Service in a production environment, go to your Omnichannel for Customer Service provisioning page and install the latest version. If there are no upgrade available, contact Microsoft support.
 
-- If you use Omnichannel for Customer Service preview or trial version, contact Microsoft support.
+- If you use trial version of Omnichannel for Customer Service, contact Microsoft support.
 
 ## Closed conversations don't appear in the Closed work items stream and Closed conversations view
 

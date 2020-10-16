@@ -1,5 +1,5 @@
 ---
-title: "Smart assist for agents | MicrosoftDocs"
+title: "Smart assist for agents configured using custom Axure bot | MicrosoftDocs"
 description: "Learn how to use smart assist feature in the Omnichannel for Customer Service app."
 author: neeranelli
 ms.author: nenellim
@@ -10,7 +10,7 @@ ms.service:
 ms.topic: article
 ---
 
-# View smart assist suggestions for agents configured using bot user
+# View smart assist suggestions for agents configured using custom Azure bot
 
 [!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
@@ -20,7 +20,7 @@ Smart assist is an intelligent assistant that provides real-time recommendations
 
 If your administrator has enabled the Productivity pane, then the productivity pane appears and on which the smart assist cards appear. By default, the productivity pane is enabled out of the box.
 
-## Smart assist suggestions configured using bot user
+## Smart assist suggestions configured using custom Azure bot user
 
 The smart assist bot interprets the conversation in the communication panel and provides real-time recommendations.
 

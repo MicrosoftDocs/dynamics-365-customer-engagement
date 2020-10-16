@@ -1,12 +1,12 @@
 ---
-title: "Smart assist for agents | MicrosoftDocs"
+title: "Configure Smart Assist for agents | MicrosoftDocs"
 description: "Learn about how to smartly assist agents with the next-best steps in the Omnichannel Administration app."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 09/04/2020
+ms.date: 10/12/2020
 ms.service: 
-  - "dynamics-365-customerservice"
+  "dynamics-365-customerservice"
 ms.topic: article
 ---
 
@@ -42,17 +42,17 @@ The smart assist feature can be enabled across all channels, such as Chat for Dy
     - AI-based suggestions for ongoing conversations and knowledge articles should be enabled by your administrator. More information: [Enable AI suggestions for similar cases and knowledge articles](../../customer-service/csw-enable-ai-suggested-cases-knowledge-articles.md)
     - Develop a smart assist bot and integrate it with Omnichannel for Customer Service. The smart-assist bot interprets the conversation context in real time and provides suggestions to agents. For information: [Build a smart assist bot](../developer/how-to/smart-assist-bot.md).
 
-## Preview: Settings to enable AI-suggested similar cases and knowledge articles
+## Settings to enable AI-suggested similar cases and knowledge articles
 
 You can enable AI-suggested similar cases and knowledge articles that will appear for agents during ongoing conversations. These settings need to be configured in the Service Management area of Customer Service Hub. More information: [Enable AI suggestions for similar cases and knowledge articles](../../customer-service/csw-enable-ai-suggested-cases-knowledge-articles.md).
 
-## Settings to enable smart assist for the bot framework
+## Settings to enable smart assist using custom Azure bot
 
 [Step 1: Create a bot user](#step-1-create-a-bot-user)
 
 [Step 2: Add smart assist bot to a workstream](#step-2-add-smart-assist-bot-to-a-workstream)
 
-[Step 3: Enable the productivity pane](#step-3-enable-the-productivity-pane)
+[Step 3: Enable Smart Assist](#step-3-enable-smart-assist)
 
 ### Step 1: Create a bot user<a name="step-1-create-a-bot-user"></a>
 
@@ -79,13 +79,13 @@ You can add multiple bots to a work stream based on your business requirements.
 
 7. Select **Save**.
 
-### Step 3: Enable the productivity pane<a name="step-3-enable-productivity-pane"></a>
+### Step 3: Enable Smart Assist<a name="step-3-enable-smart-assist"></a>
 
-After you've created the agent script, you need to enable the productivity pane to display the smart-assist card to agents in Omnichannel for Customer Service.
+After you've created the agent script, you need to enable it in the productivity pane to display the smart-assist card to agents in Omnichannel for Customer Service.
 
-To enable the productivity pane, see [Enable the productivity pane to provide guidance to agents](productivity-pane.md).
+To learn more about the productivity pane, see [Productivity pane overview](productivity-pane.md). You can enable agent productivity tools in the [App profile manager](../../app-profile-manager/overview.md) in the Power Apps portal.
 
-After you've enabled the productivity pane, users can see the smart-assist cards on the productivity pane in Omnichannel for Customer Service.
+After you've enabled Smart Assist in the app profile manager, agents can see the smart-assist cards in Omnichannel for Customer Service.
 
 > [!Note]
 > - If you don't create smart-assist cards and enable the productivity pane, users won't see the pane in Omnichannel for Customer Service.

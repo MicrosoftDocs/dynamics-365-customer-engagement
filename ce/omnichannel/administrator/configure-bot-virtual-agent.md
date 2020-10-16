@@ -4,13 +4,15 @@ description: "Instructions to integrate a bot in Omnichannel for Customer Servic
 author: platkat
 ms.author: ktaylor
 manager: shujoshi
-ms.date: 09/09/2020
+ms.date: 10/12/2020
 ms.service: 
   "dynamics-365-customerservice"
 ms.topic: article
 ---
 
 # Integrate a Power Virtual Agents bot
+
+[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 Microsoft Power Virtual Agents allows organizations to automate routine conversations, letting agents focus on high-value interactions. When a conversation is escalated from a bot to a human agent, agents can see the full transcript of bot conversations and have complete context while engaging with customers.
 
@@ -95,11 +97,33 @@ Ensure to map the routing rules to the correct queues so that the queries are ro
 > [!NOTE]
 > When you run a report on Power Virtual Agent activity, the number of bot sessions may differ from the number of sessions in Omnichannel for Customer Service.
 
+## Configure context variables for a bot
+
+Before customers initiate a conversation, the context of the activities they perform can be made available for the bot to intelligently provide responses and handle the conversations. You can configure context variables for the bot in Power Virtual Agents. For information on context variables that can be configured, see [Context variables](context-variables-for-bot.md).
+
+In Power Virtual Agents, do the following:
+
+1. On the **Topics** page, select **New topic**.
+2. On the **Setup** tab, enter a name and description, and save the topic.
+3. Select **Go to authoring canvas**.
+4. Select **Add node**, choose an appropriate action, such as **Ask a question**.
+5. Edit **Save response as**, and update the value for **Name** with the required context variable. Make sure **Bot (any topic can access)** and **External sources can set values** are selected.
+    > ![Configure context variable in a topic](../media/Configure-bot-context-variable.png "Configure context variable in a topic")
+
+6. Save and publish the changes.
+
+At run time, the required information is captured in the context variable that can then be used for further actions based on the workflow you configure. For more information, see [Context variables for a bot](context-variables-for-bot.md).
+
 ## Known limitations
-
-Authentication cards are not supported in bots integrated with Omnichannel for Customer Service.
-
-For more information about known limitations of this feature, see [Known limitations](https://docs.microsoft.com/dynamics365/ai/customer-service-virtual-agent/configuration-hand-off-omnichannel#known-limitations).
+ 
+| Description     | Limitation     |
+|-----------------|----------------|
+| **Adaptive cards:** An adaptive card is a customizable card that can contain any combination of text, speech, images, buttons, and input fields.|	Power Virtual Agents supports adaptive cards for CSAT surveys and they will display text only. For more information, see the [Channel experience reference table](https://docs.microsoft.com/power-virtual-agents/publication-fundamentals-publish-channels#channel-experience-reference-table). <br>You can build an adaptive card by adding a skill through Power Virtual Agents. For more information, see [Use Microsoft Bot Framework Skills in Power Virtual Agents](https://docs.microsoft.com/power-virtual-agents/advanced-use-skills). <br>Adaptive card styling is not supported. |
+| **Single sign-on (SSO):** Chatbots can sign the user in if they're in to the page where the bot is deployed. | SSO is not supported. |
+| **Typing:** A bot receives a typing activity to indicate that the user is typing a response. A bot may send a typing activity to indicate to the user that it is working to fulfill a request or compile a response. | Typing indicators will not appear. |
+| **Suggested actions:** Suggested actions enable your bot to present buttons that the user can tap to provide input. Suggested actions appear close to the composer and enhance user experience. They enable the user to answer a question or make a selection with a simple tap of a button, rather than having to type a response with a keyboard. |	Suggested actions cannot display vertically. |
+| **Format bot messages:** You can set the optional TextFormat property to control how your message's text content is rendered. | Power Virtual Agents does not support markdown with images and text. <br>When Power Virtual Agents sends markdown text, there is extra space between lines. <br>Carousel layout is not supported. |
+| **File attachments:** Once file attachments are enabled in Omnichannel, customers can send file attachments. | Power Virtual Agents cannot operate on Omnichannel file attachments. |
 
 ## Privacy notice
 
