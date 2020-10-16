@@ -275,7 +275,6 @@
 #### [Initiate a chat](developer/how-to/initiate-chat-wait-time.md)
 #### [Start chat proactively](developer/how-to/start-proactive-chat.md)
 #### [Enable a bot to escalate and end conversation](developer/bot-escalate-end-conversation.md)
-#### [Enable bot context](developer/how-to/enable-bot-context.md)
 #### [Auto-close a conversation](developer/auto-close-conversation.md)
 #### [Render live chat widget on mobile app](developer/how-to/render-live-chat-widget-mobile.md)
 #### [Download attachments from your Azure bot](developer/download-attachments-bot.md)
