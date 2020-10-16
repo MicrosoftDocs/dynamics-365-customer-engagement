@@ -157,6 +157,13 @@ To provide a realistic representation, the active handle time is calculated base
 
 In a transfer or consult scenario, the active time spent by all agents who are involved is summed up to compute the active handle time for the conversation. At the agent level, only the active time spent by the agent in the session is accounted for deriving any KPIs.
 
+The KPIs will be affected if expectations around the following activities are not set for agents:
+
+- Agents should close the conversations at the end of their shift.
+- If agents change the computer time, the KPIs will be inaccurate.
+
+
+
 ### See also
 
 [Introduction to intraday insights dashboard](intro-intraday-insights-dashboard.md)  
