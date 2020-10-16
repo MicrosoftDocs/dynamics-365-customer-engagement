@@ -25,7 +25,6 @@ A few answers to common questions on the AI-suggested similar cases and knowledg
 
 It may be caused by one of the following reasons:
 
-- The AI model requires adequate permissions to process your data and generate suggestions. Make sure that the System Customizer role in your organization is granted with full permission to the following custom entities: Process, AI Model, and AI Template.
 - If it’s the first time you've enabled suggestions, it may take up to 24 hours to complete the pre-processing from your existing published knowledge articles and resolved cases before suggestions will be displayed.
 - The first time pre-process operation handles up to 1,500 published knowledge articles and 10,000 resolved cases from the most recent ones. Older articles and resolved cases are not picked up from the first time pre-processing, so they won’t be surfaced as suggestions.
 - Suggestions are displayed for only active cases. Suggestions are updated when an active case is created or updated.
