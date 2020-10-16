@@ -233,10 +233,8 @@
 
 ### Forecasting
 #### [msdyn_ForecastApi](../sales-enterprise/developer/reference/custom-actions/msdyn_ForecastApi.md)
+#### [Events and context objects for underlying records grid](../sales-enterprise/developer/reference/custom-actions/events-context.md)
 
-### Forecasting client API
-#### [Context object for event handlers in editable grid](../sales-enterprise/developer/reference/custom-actions/context.md)
-#### [Events](../sales-enterprise/developer/reference/events/forecasting-events.md)
 
 ### Custom actions
 #### [Overview](../sales-enterprise/developer/reference/custom-actions-manual-forecasting.md)

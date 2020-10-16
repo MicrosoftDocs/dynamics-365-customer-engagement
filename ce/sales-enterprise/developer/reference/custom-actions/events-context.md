@@ -10,15 +10,44 @@ ms.author: udag
 manager: shujoshi
 
 ---
-# Context object for event handlers in editable grid
+# Events and context object
+
+
+
+Note: Forecasting context object that is referred here is different from the execution context of platform. Forecasting context object is specific to forecasting and supports the advanced configurations of underlying records grid. More information: Events and context object.  
+
+## Events for underlying records grid
+
+Events occur in forecasting for underlying records grid whenever a grid loads, data is changed, or saved. 
+
+
+You execute your JavaScript code by associating it with an event so that it is executed when the event occurs. The following events are supported in forecasting:
+- [OnRowLoad](#onrowload-event)
+- [OnSave](#onsave-event)
+- [OnChange](#onchange-event)
+
+### OnRowLoad event
+
+The `OnRowLoad` function is triggered for every underlying record in a forecast cell is selected. For example, on selecting a cell of a forecast that contains 20 underlying records, the `OnRowLoad` function is invoked and passes different context object that are specific to each record.
+
+### OnChange event
+
+The `OnChange` event occurs when a value is changed in a cell in the editable grid and the cell loses focus.
+
+### OnSave event
+
+The `OnSave` event occurs when a field is changed in forecasting editable grid and triggers save operation. This event will not trigger if notifications are added using the `OnChange` handler.
+
+
+## Context object for event handlers in editable grid
 
 This context object is passed to the event handlers in the forecasting editable grid view. 
 
-## context.getFormContext method
+### context.getFormContext method
 
 Returns a reference to a record on the forecasting editable grid.
 
-### context.getFormContext().data.entity
+#### context.getFormContext().data.entity
 
 This returns an entity object and has the following methods:
 
@@ -28,7 +57,7 @@ This returns an entity object and has the following methods:
 | `getId()` | String | Returns a string representing the GUID value for the record. |
 | `attributes` | List |Returns a list of attributes that are related to the view and entity that is loaded as part of forecasting editable grid. You can perform the following operations:<br>- `context.getFormContext().data.entity.attributes.forEach` <br>- `context.getFormContext().data.entity.attributes.getByName(arg)`<br>- `context.getFormContext().data.entity.attributes.get(index)` |
 
-### context.getFormContext().data.entity.attributes.getByName("Attribute Name")
+#### context.getFormContext().data.entity.attributes.getByName("Attribute Name")
 
 This returns an attribute object and has the following methods:
 
@@ -39,7 +68,7 @@ This returns an attribute object and has the following methods:
 | `getIsDirty()` | Boolean | Returns a boolean value indicating if there are any unsaved changes to the attribute value. |
 | `controls` | List | Returns a list of controls for each attribute object. <br> **Note**: Controls object list length is always 1 and get(0) can be directly used. |
 
-### context.getFormContext().data.entity.attributes.getByName("Attribute Name").controls.get(0)
+#### context.getFormContext().data.entity.attributes.getByName("Attribute Name").controls.get(0)
 
 This returns a control object mapping to attribute and has the following methods:
 
@@ -201,7 +230,7 @@ function OnChange(executionContext) {
 }
 ```
 
-## context.getWebApiContext()
+### context.getWebApiContext()
 
 This returns a `webApiContext` object and has the following methods:
 
@@ -212,7 +241,7 @@ This returns a `webApiContext` object and has the following methods:
 | `createRecord(entityLogicalName, data)`<br>`then(successCallback, errorCallback);` | Creates an entity record. More information: [createRecord (Client API reference)](https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/xrm-webapi/createrecord). |
 | `deleteRecord(entityLogicalName, id)`<br>`then(successCallback, errorCallback);` | Deletes an entity record. More information: [deleteRecord (Client API reference)](https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/xrm-webapi/deleterecord). |
 
-## context.getEventArgs().preventDefault()
+### context.getEventArgs().preventDefault()
 
 The `preventDefault()` method is available only within the `OnSave` event. Calling this method within `OnSave` prevents the save event from proceeding. 
 
