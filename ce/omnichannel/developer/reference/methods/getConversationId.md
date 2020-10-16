@@ -4,7 +4,7 @@ description:
 author: platkat
 ms.author: ktaylor
 manager: shujoshi
-ms.date: 10/05/2020
+ms.date: 10/15/2020
 ms.topic: article
 ---
 # getConversationId
@@ -23,7 +23,7 @@ None
 
 ## Return Value
 
-Guid of the current ongoing conversation
+A string resolved with currently ongoing conversation id.
 
 ## Example
 
