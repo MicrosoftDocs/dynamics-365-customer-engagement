@@ -122,7 +122,7 @@ This section of the dashboard consists of the following details:
 |-------|-------|
 | Status | The agent's current presence: available, offline, do not disturb, or busy. |
 | Status since | The amount of time that this agent has been in their current presence. |
-| Available capacity | The agent's current free capacity. | 
+| Available capacity | The agent's current free capacity. |
 | Total capacity | The total capacity configured for an agent. |
 | Logged in duration 24 hrs | The total duration for which the agent had been logged in during the past 24 hours.|
 |Logged off duration 24 hrs | The total duration for which the agent had been logged out during the past 24 hours. |
@@ -150,7 +150,9 @@ You can filter the information by selecting the Queues that are custom defined f
 > [!div class=mx-imgBorder]
 > ![Queue selection](../media/supervisor-queue-selector.png "Queue selection")
 
+## Active handle time of agents
 
+When agents interact with customers through various channels, for SMS and social channels, the duration of the conversation sometimes spans more than 24 hours that results in skewed numbers when average handle time is calculated. The active handle time is calculated based on the time the agents actively spend on a conversation and does not take into account the inactive time for the conversation even if it is in the open state. The active time is calculated based on agent activity. If the agent simultaneously handles two conversations in a time period, the active time will be derived from the actual time the agent was actively conversing in the chat. The inactive timer starts after the agent idle threshold is reached, which is configured at 40 seconds.
 
 ### See also
 
