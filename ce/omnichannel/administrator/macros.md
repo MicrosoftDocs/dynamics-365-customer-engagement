@@ -68,7 +68,7 @@ As an administrator, you can use the actions any number of times across differen
 The following screenshot shows the actions that are explained in the subsequent sections.
 
    > [!div class=mx-imgBorder] 
-   > ![Macro actions](../media/macro-actions.png "Macro actions")
+   > ![Macro actions](../media/macro-actions.png "Macro actions to automate and perform model-driven app operations")
 
 #### Open a new form to create a record
 
@@ -197,7 +197,7 @@ This action is used for cloning an existing record. The action only copies the f
 As an administrator, you can use the actions any number of times across different macros to automate and perform operations related to a session in Omnichannel for Customer Service.
 
    > [!div class=mx-imgBorder] 
-   > ![Macro actions](../media/macro-session-connector.png "Macro actions")
+   > ![Macro session connector](../media/macro-session-connector.png "Macro session connector")
 
 #### Open application tab
 
@@ -235,7 +235,7 @@ This action is used to get the details of the current tab in Omnichannel for Cus
 As an administrator, you can use the actions any number of times across different macros to automate and perform operations related to Omnichannel for Customer Service.
 
    > [!div class=mx-imgBorder] 
-   > ![Macro actions](../media/macro-omnichannel-connector.png "Macro actions")
+   > ![Macro actions for Omnichannel operations](../media/macro-omnichannel-connector.png "Macro actions")
 
 #### Send KB article in chat
 
@@ -363,7 +363,7 @@ To learn more, see [Use automation dictionary to pass data parameter keys](autom
     |||
 
    > [!div class=mx-imgBorder] 
-   > ![Macro actions](../media/macro-actions.png "Macro actions")    
+   > ![Macro actions for productivity automation](../media/macro-actions.png "Macro actions for productivity automation")    
 
    For example, select **Open a new form to create a record**, and the step appears. To learn more, see [Productivity automation](#productivity-automation).
 
@@ -377,7 +377,7 @@ To learn more, see [Use automation dictionary to pass data parameter keys](autom
     |||
 
    > [!div class=mx-imgBorder] 
-   > ![Macro actions](../media/macro-session-connector.png "Macro actions")    
+   > ![Macro actions for session connector](../media/macro-session-connector.png "Macro actions for session connector")    
 
    To learn more, see [Session connector](#session-connector).
 
@@ -390,7 +390,7 @@ To learn more, see [Use automation dictionary to pass data parameter keys](autom
     |||
 
    > [!div class=mx-imgBorder] 
-   > ![Macro actions](../media/macro-omnichannel-connector.png "Macro actions") 
+   > ![Macro actions for Omnichannel connector](../media/macro-omnichannel-connector.png "Macro actions for Omnichannel connector") 
 
    To learn more, see [Omnichannel connector](#omnichannel-connector).
 
@@ -439,7 +439,7 @@ As an administrator, you can view the macro run history, which shows how many ti
    For example, when you select on the **Open a new form to create a record** step, select **Show more**, and you can view that the mandatory fields don't have values, which are mandatory to save the record. Due to this reason, the macro run failed at the **Save the record** step.
 
    > [!div class=mx-imgBorder] 
-   > ![Review the macro action steps](../media/macro-run-history-fail-reason.png "Review the macro action steps")
+   > ![Review the macro action steps that caused failure](../media/macro-run-history-fail-reason.png "Review the macro action steps that caused the failure")
 
 7. Fix the macro step action that you think might have caused the failure, and then try running it again. For example, since the values are not resolved, go to the macro designer and then check on the slugs, and then try running the macro again.
 
