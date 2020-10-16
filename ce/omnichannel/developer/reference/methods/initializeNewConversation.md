@@ -31,7 +31,7 @@ This method is required to be implemented in web resource. It is called once, as
 
 |Name|Required|Type|Description|
 |----|----|----|----|
-|`conversationConfig`|Yes| Javascript object| Provides details about conversation. Such as conversation id, default agent input language (From Realtime translation administrator configuration) etc. <br />Please find more details in next paragraphs.|
+|`conversationConfig`|Yes| Javascript object| Provides details about conversation. Such as conversation id, default agent input language (From Realtime translation administrator configuration) etc. <br /> More details are available in the following paragraphs.|
 
 Here is the structure of `conversationConfig` parameter.
 
