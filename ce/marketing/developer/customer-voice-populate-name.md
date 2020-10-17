@@ -22,7 +22,7 @@ search.app:
 
 # Attach names and emails to Customer Voice surveys sent from Dynamics 365 Marketing
 
-When a [Customer Voice](customer-voice.md) survey is sent from Dynamics 365 Marketing, the survey responses always return as anonymous. The responses do not include names or email addresses. This is a known limitation of Marketing's functionality with Customer Voice. To address this issue, we have created the two part workaround detailed below.
+When a [Customer Voice](../customer-voice.md) survey is sent from Dynamics 365 Marketing, the survey responses always return as anonymous. The responses do not include names or email addresses. This is a known limitation of Marketing's functionality with Customer Voice. To address this issue, we have created the two part workaround detailed below.
 
 > [!NOTE]
 > Standalone Customer Voice surveys function as expected, returning names and email addresses when a survey is filled out. The steps below only apply to Customer Voice surveys sent from Dynamics 365 Marketing.
@@ -94,4 +94,4 @@ To export survey data from Customer Voice to Excel:
 
 ### See also
 
-[Use Dynamics 365 Customer Voice surveys with Dynamics 365 Marketing](customer-voice.md)  
+[Use Dynamics 365 Customer Voice surveys with Dynamics 365 Marketing](../customer-voice.md)  
