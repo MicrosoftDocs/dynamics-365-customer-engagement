@@ -47,9 +47,9 @@ search.audienceType:
   
 ### Edit a view  
   
-1. Open solution explorer.
+1. Open solution explorer. In the Dynamics 365 Customer Engagement (on-premises) app, select **Settings** > **Settings** > **Customizations** > **Customize the system**.
   
-2.  Under **Components**, expand **Entities**, and then expand the entity you want.  
+2. Under **Components**, expand **Entities**, and then expand the entity you want.  
   
 3.  Select **Views**.  
   
