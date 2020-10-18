@@ -1,5 +1,5 @@
 ---
-title: "Map names and emails to surveys with a custom Power Automate flow (Dynamics 365 Marketing) | Microsoft Docs"
+title: "Attach names and emails to Dynamics 365 Customer Voice surveys sent from customer journeys (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to map names and emails to surveys with a custom Power Automate flow"
 keywords: dynamics 365 customer voice
 ms.date: 10/18/2020
@@ -20,7 +20,7 @@ search.app:
   - D365Mktg
 ---
 
-# Attach names and emails to Dynamics 365 Customer Voice surveys sent from Dynamics 365 Marketing
+# Attach names and emails to Dynamics 365 Customer Voice surveys sent from customer journeys
 
 When a [Dynamics 365 Customer Voice](../customer-voice.md) survey is sent from a Dynamics 365 Marketing customer journey, the survey responses always return as anonymous. The survey responses do not include names or email addresses. This is a known limitation of Marketing integration with Dynamics 365 Customer Voice. To address this issue, we have created the two-part workaround detailed below.
 
