@@ -1,8 +1,8 @@
 ---
 title: "Map names and emails to surveys with a custom Power Automate flow (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to map names and emails to surveys with a custom Power Automate flow"
-keywords: customer voice
-ms.date: 10/16/2020
+keywords: dynamics 365 customer voice
+ms.date: 10/18/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -20,12 +20,12 @@ search.app:
   - D365Mktg
 ---
 
-# Attach names and emails to Customer Voice surveys sent from Dynamics 365 Marketing
+# Attach names and emails to Dynamics 365 Customer Voice surveys sent from Dynamics 365 Marketing
 
-When a [Customer Voice](../customer-voice.md) survey is sent from Dynamics 365 Marketing, the survey responses always return as anonymous. The responses do not include names or email addresses. This is a known limitation of Marketing's functionality with Customer Voice. To address this issue, we have created the two part workaround detailed below.
+When a [Dynamics 365 Customer Voice](../customer-voice.md) survey is sent from a Dynamics 365 Marketing customer journey, the survey responses always return as anonymous. The survey responses do not include names or email addresses. This is a known limitation of Marketing integration with Dynamics 365 Customer Voice. To address this issue, we have created the two-part workaround detailed below.
 
 > [!NOTE]
-> Standalone Customer Voice surveys function as expected, returning names and email addresses when a survey is filled out. The steps below only apply to Customer Voice surveys sent from Dynamics 365 Marketing.
+> Standalone Dynamics 365 Customer Voice surveys function as expected, returning names and email addresses when a survey is filled out. The steps below only apply to Dynamics 365 Customer Voice surveys sent from Dynamics 365 Marketing.
 
 ## Step 1: Create a Power Automate flow to populate respondent names and email addresses
 
@@ -39,14 +39,14 @@ When a [Customer Voice](../customer-voice.md) survey is sent from Dynamics 365 M
 
     ![Choose the flow trigger](../media/populate-name-flow-trigger.png "Choose the flow trigger")
 
-    > [!NOTE]
+    > [!TIP]
     > Ensure that you are connected to the same environment as the CDS org.
 
-1. Your flow should look like the image below.
+    Your flow should look like the image below:
 
     ![Layout of the selected flow](../media/populate-name-flow.png "Layout of the selected flow")
 
-1. For each title, select the three dots on the right side and set the "peek code" as follows:
+1. For each title, select the three dots on the right side of the tile and set the "peek code" as follows:
 
     - **When survey response created**:
 
@@ -78,15 +78,21 @@ When a [Customer Voice](../customer-voice.md) survey is sent from Dynamics 365 M
 
         ![Update survey tile](../media/populate-name-survey-response.png "Update survey tile")
 
-## Step 2: In the Customer Voice app, export named responses to Microsoft Excel
+## Step 2: Export Dynamics 365 Customer Voice survey responses to Microsoft Excel
 
-Customer Voice includes the capability to export survey responses to Excel. The export to Excel feature uses CDS information to join and pull the contact record information for Marketing integration customers, making it available in Excel.
+The export to Excel feature uses CDS information to join and pull the contact record information for Marketing integration customers, making it available in Excel.
 
-To export survey data from Customer Voice to Excel:
+To export survey response data to Excel:
 
-1. Enter the following URL into your browser, replacing the value for {surveyid} with the ID of your chosen survey:
+1. Enter the following URL into your browser, replacing the value for {surveyidentifier} with the ID of your chosen survey:
 
-    ```https://forms.office.com/FormsPro/Pages/DesignPage.aspx?experienceType=Pro#Analysis=true&FormId={suveyid}```
+    ```https://forms.office.com/FormsPro/Pages/DesignPage.aspx?experienceType=Pro#Analysis=true&FormId={suveyidentifier}```
+
+    > [!NOTE]
+    > Do not confuse the survey identifier with the GUID. To find the survey identifier in the Dynamics 365 Customer Voice survey entity, look in the **Source survey identifier** field.
+	>
+    > The survey identifier will look like the following string: <br>
+    ```v4j5cvGGr0GRqy180BHbR8HxyywSGiFAkJ7eG-r1E-9UODI0UzIzUFBOM1FTUENON0pQV1UzV0VTNi4u```
 
 1. After the page loads, select the **Responses** tile.
 
