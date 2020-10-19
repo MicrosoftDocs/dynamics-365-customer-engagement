@@ -149,13 +149,13 @@ You can filter the information by selecting the Queues that are custom defined f
 > [!div class=mx-imgBorder]
 > ![Queue selection](../media/supervisor-queue-selector.png "Queue selection")
 
-## Active handle time
+## Average handle time
 
 When agents interact with customers through various channels, for SMS and social channels, the conversation duration sometimes spans more than 24 hours that includes the active, inactive, and idle time. The conversation handle time in such cases can give a skewed representation while the time the agent actively spent on it might be only a few minutes.
 
-To provide a realistic representation, the active handle time is calculated based on the time the agent actively spends in a session from the time the conversation is active till it is closed. It includes the wrap-up time. When the average handle time is calculated for the agent, it takes into account only the active session time. The KPI does not include the wait time when the agent is inactive, idle, or handling another session simultaneously.
+To provide a realistic representation, the average handle time is calculated based on the time the agent actively spends in a session from the time the conversation is active till it is closed. It includes the wrap-up time. When the average handle time is calculated for the agent, it takes into account only the active session time. The KPI does not include the wait time when the agent is inactive, idle, or handling another session simultaneously.
 
-In a transfer or consult scenario, the active time spent by all agents who are involved is summed up to compute the active handle time for the conversation. At the agent level, only the active time spent by the agent in the session is accounted for deriving any KPIs.
+In a transfer scenario, the active time spent by all agents who are involved is summed up to compute the active handle time for the conversation. At the agent level, only the active time spent by the agent in the session is accounted for deriving any KPIs.
 
 The KPIs will be affected if expectations around the following activities are not set for agents:
 

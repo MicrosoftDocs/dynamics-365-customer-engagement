@@ -81,10 +81,12 @@ You must have obtained one of the following subscriptions through the Microsoft 
 - Paid or trial subscription of Dynamics 365 Customer Service Enterprise
 - Paid or trial subscription of Dynamics 365 Customer Engagement
 
-If you do not have one of these subscriptions, or if you purchased your subscription somewhere other than Web Direct, then the option to try channels will not be available in the Microsoft 365 admin center. The trial option is not applicable if the subscription for Dynamics 365 Customer Service Enterprise or Dynamics 365 Customer Engagement in your tenant is obtained through Volume Licensing Service Center.
+If you do not have one of these subscriptions, or if you purchased your subscription somewhere other than Web Direct, then the option to try channels will not be available in the Microsoft 365 admin center.
 
-> [!NOTE]
-> For more information about the Digital Messaging license, pricing, and prerequisites, refer to the Dynamics 365 licensing guide [here](https://go.microsoft.com/fwlink/p/?LinkId=866544).
+> [!IMPORTANT]
+> The trial option is not applicable if the subscription for Dynamics 365 Customer Service Enterprise or Dynamics 365 Customer Engagement in your tenant is obtained through Volume Licensing Service Center. 
+
+For information about the Digital Messaging license, pricing, and prerequisites, refer to the Dynamics 365 licensing guide [here](https://go.microsoft.com/fwlink/p/?LinkId=866544).
 
 ### Get a trial subscription of channels
 
