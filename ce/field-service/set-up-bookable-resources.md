@@ -252,7 +252,7 @@ For example, the following screenshot shows a bookable resource with resource ty
 
 After going to the related contact record, you can add an address and then select the geo code button to populate latitude and longitude values that are used as the resource's start and end location for scheduling and routing purposes. This is also the resource's location displayed on the schedule board map.
 
-The process is similar for resources with resource type of Account or User. **Note** that editing a user record address may have to be done in the Office 365 admin center.
+The process is similar for resources with resource type of Account or User. **Note** that editing a user record address may have to be done in the Microsoft 365 admin center.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of geo coding a contact record](media/resource-contact-location-example.png)

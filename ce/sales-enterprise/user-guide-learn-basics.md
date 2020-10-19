@@ -19,7 +19,7 @@ Start here to onboard quickly and learn about the different offerings of Sales a
 1. Sign in to [!INCLUDE[pn-office-365](../includes/pn-office-365.md)], select the [!INCLUDE[pn-office-365](../includes/pn-office-365.md)] app launcher, and then select the icon for **[!INCLUDE[pn-dyn-365](../includes/pn-dyn-365.md)]**.
 
    > [!div class="mx-imgBorder"]
-   > ![Office 365 App Launcher pane](media/app-launcher-pane.png "Office 365 App Launcher pane")  
+   > ![Microsoft 365 App Launcher pane](media/app-launcher-pane.png "Microsoft 365 App Launcher pane")  
 
    > [!Note]
    > 

@@ -24,9 +24,9 @@ search.app:
 
 You should be able to install and activate Gamification if the pre-requisites in [Activate Gamification in Dynamics 365](manage-gamification-in-dynamics-365-online.md#activate-gamification-in-dynamics-365) are met. If you are still facing an issue, please try the following options: 
 
-- The signed in user has a non-empty first name, last name and email address in Office 365. For more information, see [Manage Office 365 User Information](https://docs.microsoft.com/microsoft-365/admin/add-users/change-a-user-name-and-email-address).
+- The signed in user has a non-empty first name, last name and email address in Microsoft 365. For more information, see [Manage Microsoft 365 User Information](https://docs.microsoft.com/microsoft-365/admin/add-users/change-a-user-name-and-email-address).
 
-- The signed in user has a Global admin role in Office 365. For more information, see [Manage O365 User Roles](https://docs.microsoft.com/microsoft-365/admin/add-users/assign-admin-roles).
+- The signed in user has a Global admin role in Microsoft 365. For more information, see [Manage O365 User Roles](https://docs.microsoft.com/microsoft-365/admin/add-users/assign-admin-roles).
 
 - The signed in user has a System Administrator role in Dynamics 365. For more information, see [Manage User Roles in Dynamics 365](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user)
 

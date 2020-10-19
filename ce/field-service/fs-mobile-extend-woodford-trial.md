@@ -27,7 +27,7 @@ If you need to extend your trial for the Woodford solution, you need to submit a
 ## What you need to know before you submit an activation request
 There are a few important details to know before you submit a request to activate [!include[Dynamics 365 Field Service](../includes/pn-dyn-365-field-service.md)] mobile licenses:
 
-- You need Office 365 global admin privileges to manage licenses for a Dynamics 365 organization.
+- You need Microsoft 365 global admin privileges to manage licenses for a Dynamics 365 organization.
 
 - Field service mobile licenses are allocated to one organization at a time, based on the organization ID.
 
