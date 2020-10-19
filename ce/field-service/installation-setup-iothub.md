@@ -80,10 +80,10 @@ Before proceeding, make sure all required Azure resources are successfully deplo
 
 After you’ve installed all required Azure resources, click **Authorize** to configure the Dynamics 365 connector connection API. When you configure the connection API you’ll need to enter your Dynamics 365 subscription account. See more details in the topic on [Authorize API connection between Dynamics 365 and AzureIoT](./cfs-authorize-api-connection.md).
 
-Back in Dynamics 365 Field Service go to Settings > Providers to see your Azure IoT Hub subscription connected as an IoT Provider.
+Back in Dynamics 365 Field Service, go to **Settings** > **Providers** to see your Azure IoT Hub subscription connected as an IoT provider.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/cfs-deploy-providers.png)
+> ![Screenshot of Field Service, showing active IoT provider instances.](./media/cfs-deploy-providers.png)
   
 ### Set up the sample simulator (optional)  
 
