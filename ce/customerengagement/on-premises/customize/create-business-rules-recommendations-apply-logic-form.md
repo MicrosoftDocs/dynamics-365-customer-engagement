@@ -40,6 +40,9 @@ You can create business rules and recommendations to apply form logic without wr
 
 -   Create business recommendations based on business intelligence.  
 
+> [!NOTE]
+> Business rules don’t work with multi-select option sets.
+
 ## Create a business rule or business recommendation
 
 1. [!INCLUDE[proc_permissions_system_admin_and_customizer](../includes/proc-permissions-system-admin-and-customizer.md)]  
