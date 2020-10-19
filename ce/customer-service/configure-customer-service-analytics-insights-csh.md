@@ -1,6 +1,6 @@
 ---
-title: "Configure Customer Service analytics and insights for Dynamics 365 in Customer Service Hub and Customer Service workspace | MicrosoftDocs"
-description: "Learn how to configure Customer Service analytics and insights in Customer Service Hub and Customer Service workspace"
+title: "Configure Customer Service insights for Dynamics 365 in Customer Service Hub and Customer Service workspace | MicrosoftDocs"
+description: "Learn how to configure Customer Service Insights in Customer Service Hub and Customer Service workspace"
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
@@ -11,7 +11,7 @@ ms.service:
 ms.custom:
 ---
 
-# Preview: Configure Customer Service analytics and insights in Customer Service Hub and Customer Service workspace
+# Preview: Configure Customer Service Insights in Customer Service Hub and Customer Service workspace
 
 [!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -23,7 +23,7 @@ ms.custom:
 
 ## Overview
 
-You can configure the Customer Service analytics and Customer Service Insights reports in Customer Service Hub and share them with service managers, who can then view and analyze the different activities performed in Customer Service Hub. The following reports are available out of the box:
+You can configure the Customer Service Insights reports in Customer Service Hub and Customer Service workspace and share them with service managers, who can then view and analyze the different activities performed. The following reports are available out of the box:
 
 - **Analytics reports:** Customers can view BI analytics and metrics for their customer service organization.
 - **Insights reports:** Customers can view Customer Service Insights reports with a combination of BI analytics and AI insights for their organization. The reports use natural language understanding to automatically detect the language used in your support cases and group related support cases into topics.
@@ -35,7 +35,7 @@ The following historical reports are available:
 - **Topics** 
 - **Knowledge search insights** 
 
-## Configure Customer Service analytics reports in Customer Service Hub
+## Configure Customer Service analytics reports in Customer Service Hub and Customer Service workspace
 
 Make sure that you have administrator permissions for Dynamics 365.
 
