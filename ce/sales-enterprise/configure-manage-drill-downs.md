@@ -210,7 +210,7 @@ To learn more about entity relationships, go to [Entity relationships](https://d
 </td><td>
 
 > [!div class="nextstepaction"] 
-> [Next step: Activate and upload simple columns data](activate-upload-simple-columns-data-forecast.md)
+> [Next step: Configure advanced settings](forecast-configure-advanced-settings.md)
 </td></tr>
 </table>
 
