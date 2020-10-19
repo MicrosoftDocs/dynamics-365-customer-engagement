@@ -128,7 +128,7 @@
 #### [Add products to quotes, orders, or invoices](../sales-enterprise/add-product-quote-order-invoice.md)
 
 ### Sales forecasting
-#### [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting-events.md)  
+#### [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)  
 #### [View a forecast](view-forecasts.md)
 #### [View and understand data through drill-down entities](view-understand-data-through-drill-down.md)
 #### [View and manage underlying opportunities](view-and-manage-underlying-opportunities.md)
