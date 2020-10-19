@@ -128,7 +128,7 @@
 #### [Add products to quotes, orders, or invoices](../sales-enterprise/add-product-quote-order-invoice.md)
 
 ### Sales forecasting
-#### [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)  
+#### [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting-events.md)  
 #### [View a forecast](view-forecasts.md)
 #### [View and understand data through drill-down entities](view-understand-data-through-drill-down.md)
 #### [View and manage underlying opportunities](view-and-manage-underlying-opportunities.md)
@@ -236,6 +236,8 @@
 
 ### Forecasting
 #### [msdyn_ForecastApi](../sales-enterprise/developer/reference/custom-actions/msdyn_ForecastApi.md)
+#### [Events and context objects for underlying records grid](../sales-enterprise/developer/reference/custom-actions/events-context.md)
+
 
 ### Custom actions
 #### [Overview](../sales-enterprise/developer/reference/custom-actions-manual-forecasting.md)

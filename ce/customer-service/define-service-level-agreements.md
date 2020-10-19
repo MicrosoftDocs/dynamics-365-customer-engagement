@@ -256,7 +256,7 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 
       For example, the conditions might be as shown in the following image.
 
-      ![Customer (Account) Category equals Corporate; Case Priority equals High](media/crm-ua-sla-details-applicable-when.png "Customer (Account) category equals Corporate; Case priority equals High")
+      ![Customer (Account) Category equals Corporate; Case Priority equals High](media/crm-ua-sla-details-csw-annotated-smart-assist-similar-cases.png "Customer (Account) category equals Corporate; Case priority equals High")
 
      > [!NOTE]
      >  If there are multiple clauses, and you don't use AND or OR grouping, by default the clauses will use the AND grouping.  
