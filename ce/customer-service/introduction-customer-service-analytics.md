@@ -4,10 +4,11 @@ description: "Learn about Customer Service Insights"
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 10/14/2020
+ms.date: 10/19/2020
 ms.topic: article
 ms.service: 
   dynamics-365-customerservice
+  
 ---
 
 # Customer Service Insights
@@ -16,7 +17,7 @@ Customer Service Insights is now part of the embedded experience for Customer Se
 
 Customer Service Insights uses AI-generated topics to automatically group your cases, including across different channels and using natural language understanding. As a supervisor, you can see view notable trends in metrics sorted by topics, channels, queues, and agents. By better understanding what impacts your support operations, you can feel empowered to make more informed decisions about how to improve resolution rates, reduce wait times, and decrease customer service costs.
 
-For a walkthrough of how to enable Customer Service Insights for your customer support system, see the admin guide to Configure Customer Service Analytics and Insights.
+For a walkthrough of how to enable Customer Service Insights for your customer support system, see [Configure Customer Service Analytics and Insights](configure-customer-service-analytics-insights-csh.md).
 
 By pinpointing and fixing issues before they impact customers, you can adapt to current and emerging trends, improve brand sentiment, and deliver better customer service experiences.
 
@@ -24,13 +25,13 @@ For more information about dashboards and reports, see Dashboard Overview.
 
 For more details about specific Customer Service Insights dashboards, see the following: 
 
-Summary Dashboard 
+- [Summary Dashboard](summary-dashboard-cs.md) 
 
-Agent Dashboard 
+- [Agent Dashboard](agent-dashboard-cs.md) 
 
-Topics Dashboard 
+- [Topics Dashboard](topics-dashboard-cs.md) 
 
-In addition to the dashboards above, organizations can now gain insights into how agents are using knowledge article to resolve cases. These insights can help you identify outdated documentation, improve existing articles, and create new ones to empower your support team. To preview this feature, see Opting in to KM. 
+In addition to the above dashboards, organizations can now gain insights into how agents are using knowledge article to resolve cases. These insights can help you identify outdated documentation, improve existing articles, and create new ones to empower your support team. To preview this feature, see Opting in to KM. 
 
 For more information on enabling knowledge search analytics, see Knowledge search analytics documentation.
 
