@@ -170,6 +170,7 @@
 ### [Azure IoT Hub](developer/connected-field-service-developer-guide.md)
 #### [Prerequisites for Azure subscription](cfs-azure-subscription.md)
 #### [Installation and setup](installation-setup-iothub.md)
+#### [Register IoT devices](cfs-register-devices.md)
 #### [Quickstart: Build your own IoT solution](connected-field-service-overview.md)
 ### [Use custom IoT providers](cfs-custom-iot-provider.md)
 ## Analyze
