@@ -198,7 +198,7 @@
 
 ### Engage contacts with portals and surveys
 #### [Create interactive features with or without portals](portals.md)
-#### [Integrate Dynamics 365 Customer Voice with Dynamics 365 Marketing](customer-voice.md)
+#### [Use Dynamics 365 Customer Voice surveys with Dynamics 365 Marketing](customer-voice.md)
 #### [Create and run online surveys](surveys.md)
 
 ### Marketing on social media
@@ -257,6 +257,7 @@
 ### [Work with segments using code](developer/extend-segments.md)
 ### [Work with customer journeys using an API](developer/basic-operations-on-customer-journey.md)
 #### [Extend customer journeys using code](developer/extend-customer-journey-using-code.md)
+### [Attach names and emails to Dynamics 365 Customer Voice surveys sent from customer journeys](developer/customer-voice-populate-name.md)
 ### [Entity mapping with custom workflows](entity-mapping.md)
 ### [Retrieve interactions for a contact](developer/retrieve-interactions-contact.md)
 ### [Extend Marketing forms using client side scripting](developer/marketing-form-client-side-extensibility.md)

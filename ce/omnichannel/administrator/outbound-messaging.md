@@ -6,7 +6,7 @@ ms.author: ktaylor
 manager: shujoshi
 ms.date: 10/12/2020
 ms.service: 
-  - "dynamics-365-customerservice"
+  "dynamics-365-customerservice"
 ms.topic: article
 ---
 
@@ -62,7 +62,7 @@ After completing the prerequisites, you can send outbound messages from your org
     |---------------------|--------------------------------------|
     | Name                | Case create message                  |
     | Show in timeline    | Yes                                  |
-    | Channel type        | SMS                                  |
+    | Channel type        | SMS or WhatsApp                                 |
     | Channel             | (the preconfigured channel number)   |
     | Message template    | (your previously created template)   |
 

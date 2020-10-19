@@ -149,7 +149,7 @@
 #### Productivity tools
 ##### [Use agent scripts](agent/agent-oc/oc-agent-scripts.md)
 ##### [View smart assist suggestions for articles and similar cases using AI](agent/agent-oc/oc-view-ai-suggested-cases-articles.md)
-##### [View smart assist cards](agent/agent-oc/oc-smart-assist.md)
+##### [View smart assist suggestions configured using custom Azure bot](agent/agent-oc/oc-smart-assist.md) 
 ##### [Use productivity pane](agent/agent-oc/oc-productivity-pane.md)
 #### [Create a record](agent/agent-oc/oc-create-record.md)
 #### [Search, link, and unlink a record](agent/agent-oc/oc-search-link-unlink-record.md)
@@ -275,7 +275,6 @@
 #### [Initiate a chat](developer/how-to/initiate-chat-wait-time.md)
 #### [Start chat proactively](developer/how-to/start-proactive-chat.md)
 #### [Enable a bot to escalate and end conversation](developer/bot-escalate-end-conversation.md)
-#### [Enable bot context](developer/how-to/enable-bot-context.md)
 #### [Auto-close a conversation](developer/auto-close-conversation.md)
 #### [Render live chat widget on mobile app](developer/how-to/render-live-chat-widget-mobile.md)
 #### [Download attachments from your Azure bot](developer/download-attachments-bot.md)
