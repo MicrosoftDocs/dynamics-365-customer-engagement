@@ -55,7 +55,7 @@ For more information on FAQs, see [Frequently Asked Questions about Dynamics 365
 |**Browser (Outlook Web Access)**     | <li>Microsoft Edge (with Exchange on premise 2016 or higher and Exchange Online)</li><br/> <li>Internet Explorer 11 (with Exchange on premise 2016 or higher and Exchange Online)</li><br/> <li>Google Chrome</li><br/>   <li>Mozilla Firefox</li><br/>      |
 
 > [!NOTE]
-> Support for 2013 versions of Microsoft 365 ProPlus ended on February 28, 2017. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [See here.](https://support.microsoft.com/help/3199744/support-for-the-2013-versions-of-office-365-proplus-ends-february-28-2)    
+> Support for 2013 versions of Microsoft Office ProPlus ended on February 28, 2017. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [See here.](https://support.microsoft.com/help/3199744/support-for-the-2013-versions-of-office-365-proplus-ends-february-28-2)    
 
 - Dynamics 365 apps, version 9.x (such as Dynamics 365 Sales and Dynamics 365 Customer Service apps), [Common Data Service](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro), or [Dynamics 365 Customer Engagement (on-premises)](../customerengagement/on-premises/overview.md).
 
