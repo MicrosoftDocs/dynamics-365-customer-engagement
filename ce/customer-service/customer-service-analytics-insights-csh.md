@@ -4,7 +4,7 @@ description: Dashboards and reports provide historical operational metrics and K
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 10/14/2020
+ms.date: 10/19/2020
 ms.topic: article
 ms.service: 
   dynamics-365-customerservice
@@ -126,27 +126,6 @@ The Customer Service Analytics reports are supported in the following regions:
 - Japan
 - India
 - Great Britain
-
-## Understand Customer Service Insights reports
-
-Dynamics 365 Customer Service Insights gives you actionable insights into critical performance metrics, operational data, and emerging trends from your customer service system. Built-in dashboards, interactive charts, and visual filters provide views into support operations data across channels, and highlight areas for improvement that can have the greatest impact, helping you quickly evaluate and respond to KPIs and customer satisfaction levels. More information: [Customer Service Insights](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/overview)
-
-## Use the Customer Service Insights reports in Customer Service Hub
-
-### Create and view reports
-
-If you have access to Dynamics 365 Customer Service, and if Customer Service Insights reports haven't been created for you or shared with you, you can create the reports in Customer Service Hub. Navigate to **Service** > **Insights (Preview)**, and then select **Complete** on the **Analytics and insights settings** page.
-
-> [!NOTE]
-> You must be assigned to a security role that has permission to view the site map for Customer Service Insights reports. Also, you must have a valid Customer Service Insights license to create, view, and share the reports. You can select **Share** at the top of the report to share it.
-
-The report consist of five pivots as follows:
-
-- [Home](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/keyinsights)
-- [KPI summary](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/dashboard-kpi-summary)
-- [New cases](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/dashboard-incoming-cases)
-- [Customer satisfaction](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/dashboard-csat)
-- [Resolutions](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/dashboard-case-resolutions)
 
 ## Troubleshooting
 
