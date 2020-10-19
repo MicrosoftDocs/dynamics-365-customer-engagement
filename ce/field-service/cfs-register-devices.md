@@ -1,5 +1,6 @@
 ---
 title: "Register IoT devices in Dynamics 365 Field Service | Microsoft Docs"
+description: Learn about IoT devices and how to register them in Dynamics 365 Field Service.
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 10/19/2020
@@ -46,7 +47,7 @@ For a guided walkthrough, check out the following video.
 
 ## Prerequisites
 
-- Connect Field Service must be connected to Azure IoT Hub or another custom IoT provider. For more information, see the [article on getting set up with Azure IoT Hub](installation-setup-iothub), or the article on [setting up custom IoT providers](cfs-custom-iot-provider.md).
+- Connect Field Service must be connected to Azure IoT Hub or another custom IoT provider. For more information, see the [article on getting set up with Azure IoT Hub](installation-setup-iothub.md), or the article on [setting up custom IoT providers](cfs-custom-iot-provider.md).
 
 
 ## Create and register an IoT device from IoT Hub

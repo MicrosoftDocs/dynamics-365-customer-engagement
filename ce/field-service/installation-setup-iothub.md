@@ -1,5 +1,6 @@
 ---
-title: "Installation & setup for Connected Field Service for IoT Hub (Dynamics 365 Field Service) | MicrosoftDocs"
+title: "Installation and setup for Connected Field Service for Azure IoT Hub (Dynamics 365 Field Service) | Microsoft Docs"
+description: Learn how connect and setup Dynamics 365 Field Service with Azure IoT Hub.
 ms.custom:
   - dyn365-fieldservice
 ms.date: 09/14/2020
@@ -23,7 +24,7 @@ search.app:
   - D365CE
   - D365FS
 ---
-# Installation and setup - Connected Field Service for IoT Hub
+# Installation and setup - Connected Field Service for Azure IoT Hub
 
 This guide provides all the steps required for getting up and running with Connected Field Service (CFS) for IoT Hub. If you're looking for information about CFS for IoT Central, be sure to visit our tutorial on getting set up.
 
@@ -32,7 +33,7 @@ This guide provides all the steps required for getting up and running with Conne
   
 - Dynamics 365 Field Service. For more information, visit the [topic on installing Dynamics 365 Field Service](../field-service/install-field-service.md).
   
-- Dynamics 365 system administrator credentials. For users with Office 365 global administrator access, they must be assigned the **System Administrator** security role within the Dynamics 365 organization.
+- Dynamics 365 system administrator credentials. For users with Microsoft 365 global administrator access, they must be assigned the **System Administrator** security role within the Dynamics 365 organization.
   
 - An IoT – Administrator role in the IoT solution (to access IoT entities and IoT functionality), plus another role, like Field Service – Dispatcher (to access Dynamics 365).  
   
@@ -96,12 +97,12 @@ Back in Dynamics 365 Field Service, go to **Settings** > **Providers** to see yo
 3. Enter the IoT hub host name and key. The host is simply the name of the IoT Hub resource in Azure portal. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the IoT deployment app](./media/cfs-iothub-thermostadt-simulator.png)
+> ![Screenshot of the "configure connection" dialog in Azure.](./media/cfs-iothub-thermostadt-simulator.png)
 
  The key can be accessed by clicking on the IoT Hub resource and going to the shared access policies, then copying the primary key for **iothubowner** as seen in the following screenshot.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the IoT deployment app](./media/cfs-iothub-resource-azure-portal.png)
+> ![Screenshot of Azure IoT Hub showing the primary key.](./media/cfs-iothub-resource-azure-portal.png)
   
 4. Select the IoT hub in the **Resource Group**.  
   
