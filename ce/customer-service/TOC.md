@@ -103,7 +103,7 @@
 ##### [Topics dashboard](topics-dashboard-cs.md)
 ##### [Knowledge search insights](knowledge-search-insights-cs.md)
 #### [Customer Service Analytics in Power BI](customer-service-analytics.md)
-#### Manage service configuration settings
+#### [Manage service configuration settings](configure-customer-service-analytics-insights-csh}
 ##### [AI topics]
 ##### [AI suggestions](csw-enable-ai-suggested-cases-knowledge-articles.md)
 ##### [Knowledge search insights](knowledge-search-insights-cs.md)
