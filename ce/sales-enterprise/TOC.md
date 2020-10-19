@@ -135,7 +135,6 @@
 #### [Adjust values in a forecast](adjust-values-in-forecast.md)
 #### [Maintain up to date forecast data](keep-forecast-data-up-to-date.md)
 
-
 ### Playbooks
 #### [Enforce best practices with playbooks](enforce-best-practices-playbooks.md)
 #### [Launch a playbook to carry out activities consistently](launch-playbook.md)  
