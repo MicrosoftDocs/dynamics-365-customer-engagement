@@ -1,17 +1,17 @@
 ---
-title: "Configure Customer Service analytics and insights for Dynamics 365 in Customer Service Hub| MicrosoftDocs"
-description: "Learn about Customer Service Analytics"
+title: "Configure Customer Service analytics and insights for Dynamics 365 in Customer Service Hub and Customer Service workspace | MicrosoftDocs"
+description: "Learn how to configure Customer Service analytics and insights in Customer Service Hub and Customer Service workspace"
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 10/05/2020
+ms.date: 10/19/2020
 ms.topic: article
 ms.service: 
   "dynamics-365-customerservice"
 ms.custom:
 ---
 
-# Preview: Configure Customer Service analytics and insights in Customer Service Hub
+# Preview: Configure Customer Service analytics and insights in Customer Service Hub and Customer Service workspace
 
 [!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
