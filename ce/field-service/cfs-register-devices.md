@@ -43,11 +43,11 @@ In this article, we’re going to look at a few ways to register a new IoT devic
 
 For a guided walkthrough, check out the following video.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1XVQS]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4GEjn]
 
 ## Prerequisites
 
-- Connect Field Service must be connected to Azure IoT Hub or another custom IoT provider. For more information, see the [article on getting set up with Azure IoT Hub](installation-setup-iothub.md), or the article on [setting up custom IoT providers](cfs-custom-iot-provider.md).
+- Connected Field Service must be connected to Azure IoT Hub or another custom IoT provider. For more information, see the [article on getting set up with Azure IoT Hub](installation-setup-iothub.md), or the article on [setting up custom IoT providers](cfs-custom-iot-provider.md).
 
 
 ## Create and register an IoT device from IoT Hub
