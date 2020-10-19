@@ -101,16 +101,13 @@
 ##### [Summary dashboard](summary-dashboard-cs.md)
 ##### [Agent dashboard](agent-dashboard-cs.md)
 ##### [Topics dashboard](topics-dashboard-cs.md)
-##### [Knowledge search insights](knowledge-search-analytics-cs.md)
+##### [Knowledge search analytics dashboard](knowledge-search-analytics-cs.md)
 #### [Customer Service Analytics in Power BI](customer-service-analytics.md)
 #### [Manage service configuration settings]
 ##### [Configure customer service analytics and insights](configure-customer-service-analytics-insights-csh.md)
 ##### [AI topics]
 ##### [AI suggestions](csw-enable-ai-suggested-cases-knowledge-articles.md)
-##### [Knowledge search insights](knowledge-search-analytics-cs.md)
-
-#### [Configure Customer Service Analytics and Insights in Customer Service Hub](configure-customer-service-analytics-insights-csh.md)
-#### [Configure Customer Service Analytics in Power BI](configure-customer-service-analytics-dashboard.md)
+##### [Configure Customer Service Analytics in Power BI](configure-customer-service-analytics-dashboard.md)
 
 ## Connected Customer Service (IoT) add-in
 ### [Overview](cs-iot-overview.md)
