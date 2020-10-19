@@ -41,7 +41,7 @@ The `OnChange` event is triggered when a value is changed in a cell of forecasti
 
 >[!NOTE]
 >- For forecasting editable grid, any field change will trigger `OnChange` and `OnSave` event handlers, if exists.
->- The save will not be triggered if a field is set with an error notifications using clientAPI in `OnChange` handler. For notification related to forecasting client APIs, see [context.getFormContext().data.entity.attributes.getByName("Attribute Name").controls.get(0)](#context.getformcontext-data-entity-attributes-getbyname-controls-get).
+>- The save will not be triggered if a field is set with an error notifications using the client API in `OnChange` handler. For notification related to forecasting client APIs, see [context.getFormContext().data.entity.attributes.getByName("Attribute Name").controls.get(0)](#context.getformcontext-data-entity-attributes-getbyname-controls-get).
 >- As there is no mapping between attribute to `OnChange` handler, any field change can trigger `OnChange` handler with context object parameter. To identify the attribute that triggered the handler, use `getIsDirty` function on attribute object. More information: [context.getFormContext().data.entity.attributes.getByName("Attribute Name")](#context-getformcontext-data-entity-attributes-getbyname)
 
 The following is a sample scenario that you can perform using `OnChange` handler:
@@ -56,7 +56,7 @@ The `OnSave` handler is invoked before the actual save of field.
 
 >[!NOTE]
 >- For forecasting editable grid, any field change will trigger `OnChange` and `OnSave` event handlers, if exists.
->- The save will not be triggered if a field is set with an error notifications using clientAPI in `onSave` handler. For notification related to forecasting client APIs, see [context.getFormContext().data.entity.attributes.getByName("Attribute Name").controls.get(0)](#context.getformcontext-data-entity-attributes-getbyname-controls-get).
+>- The save will not be triggered if a field is set with an error notifications using the client API in `onSave` handler. For notification related to forecasting client APIs, see [context.getFormContext().data.entity.attributes.getByName("Attribute Name").controls.get(0)](#context.getformcontext-data-entity-attributes-getbyname-controls-get).
 >- As there is no mapping between attribute to `onSave` handler, any field change can trigger `onSave` handler with context object parameter. To identify the attribute that triggered the handler, use `getIsDirty` function on attribute object. More information: [context.getFormContext().data.entity.attributes.getByName("Attribute Name")](#context-getformcontext-data-entity-attributes-getbyname)
 
 The following is a sample scenario that you can perform using `OnSave` handler:
