@@ -6,6 +6,8 @@ ms.author: anbisht
 manager: gibapana
 ms.date: 10/05/2020
 ms.topic: article
+ms.service: dynamics-365-customerservice
+
 ---
 
 # getTranslationProvider
