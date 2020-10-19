@@ -1,5 +1,6 @@
 ---
 title: "Create business rules and recommendations | MicrosoftDocs"
+description: Learn how to create a business rule
 ms.custom: 
 ms.date: 10/23/2019
 ms.reviewer: 
@@ -39,6 +40,9 @@ You can create business rules and recommendations to apply form logic without wr
 -   Validate data and show error messages  
 
 -   Create business recommendations based on business intelligence.  
+
+> [!NOTE]
+> Business rules don’t work with multi-select option sets.
 
 ## Create a business rule or business recommendation
 
