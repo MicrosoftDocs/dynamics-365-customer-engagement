@@ -49,7 +49,7 @@ The details of upcoming major and minor releases are listed in the [upcoming rel
 
 As of Field Service version **8.8.6+**, the Field Service app will be updated automatically as part of the Dynamics 365 platform [One version](https://cloudblogs.microsoft.com/dynamics365/bdm/2018/07/06/modernizing-the-way-we-update-dynamics-365/) initiative.
 
-Before your organization updates to 8.8.6+ or later, you can manually apply updates by going to the Microsoft 365 (Microsoft 365) Admin Center.
+Before your organization updates to 8.8.6+ or later, you can manually apply updates by going to the Microsoft 365 Admin Center.
 
 Log in to [https://login.microsoftonline.com](https://login.microsoftonline.com) with administrator credentials. 
 
