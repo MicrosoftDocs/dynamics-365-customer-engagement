@@ -3,7 +3,7 @@ title: "Authenticate to Dynamics 365 Customer Engagement with the Web API (Devel
 description: "Learn about the different ways to manage authentication when using the Web API"
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: susikka
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -17,8 +17,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Authenticate to Dynamics 365 Customer Engagement with the Web API
 

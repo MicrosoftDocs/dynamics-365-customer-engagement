@@ -16,8 +16,7 @@ ms.author: matp
 manager: brycho
 search.audienceType: 
   - enduser
-search.app: 
-  - D365CE
+
 ---
 # Edit the default filter of a report
 

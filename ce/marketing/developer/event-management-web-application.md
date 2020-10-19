@@ -1,20 +1,18 @@
 ---
-title: "Overview | MicrosoftDocs"
-description: "Provides information about how you can extend event management  web application functionality."
+title: "Event management web application overview | MicrosoftDocs"
+description: "Learn how you can extend event management web application functionality in Dynamics 365 Marketing."
 ms.custom:
   - dyn365-developer
   - dyn365-marketing
-ms.date: 09/06/2019
+ms.date: 09/16/2020
 ms.service: dynamics-365-marketing
-ms.technology:
-  - "marketing"
 ms.topic: "article"
-author: Nkrb
-ms.author: nabuthuk
-manager: kvivek
+author: alfergus
+ms.author: alfergus
+manager: shellyha
 ---
 
-# Overview
+# Event management web application overview
 
 The event management feature helps you to organize, manage, and process the events. When you install the event management solution, you get an event portal which gives the users a web application where they can get to know more about the event details. More information: [Event Portal](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/set-up-event-portal).
 
@@ -43,7 +41,7 @@ To get started with customizing the demo event website, you need to follow these
 
 2. Install [Node.js](https://nodejs.org/en/download) version 10.x or higher.
 
-3. Open Command Prompt or Powershell and run the command to check whether the installation is successful or not.
+3. Open Command Prompt or Windows Powershell and run the command to check whether the installation is successful or not.
 
    ```CLI
     node -v
@@ -71,10 +69,15 @@ To get started with customizing the demo event website, you need to follow these
 
 ## Download sample event website
 
+> [!NOTE]
+> Newer versions of Event Website will be available once new features and bug fixes are be released.
+
 Select the version you would like to download from the table below.
 
 | Name | Release | Changes | Uploaded |
 |--|--|--|--|
+|Sample Event Website| 1.28.0 (October release)| - Added possibility to opt in for local date conversion. <br/>- Added additional website language configurations.| [Download](https://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/201005-EventWebsite.zip)
+|Sample Event Website| 1.27.0 (September release)| - Added possibility to configure the display of the dates. <br/>- Minor improvements and bug fixes.| [Download](https://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/200909-EventWebsite.zip)
 |Sample Event Website| 1.24.0 (June release)| - Updated deployment script to allow single file deployment for Portals. <br/>- Minor improvements and bug fixes.| [Download](https://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/200605-EventWebsite.zip)
 |Sample Event Website| 1.23.0 (May release)| - Fix accesibility issues. <br/>- Minor improvements and bug fixes.| [Download](https://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/200505-EventWebsite.zip)
 |Sample Event Website| 1.22.0 (April release)| - Fix accesibility issues. <br/>- Minor improvements and bug fixes.| [Download](https://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/200403-EventWebsite.zip)
@@ -108,6 +111,8 @@ Some of the parameters that you need to understand before you start configuring 
 |**useAadB2C** | Specifies whether you want to use **Azure Active Directory B2C identity management** for authentication. If you want to use **Dynamics 365 Portals identity management** then this flag needs to be set to false. If AAD B2C is enabled, then you need to configure the `aadB2CConfig` variable.|
 |**aadB2CConfig** | Configuration object used by event management application when **AAD B2C identity management** is enabled. |
 |**useMockData** | This setting can be used to return mock objects instead of making real API calls.|
+|**dateSettings** | This setting can be used to configure how the dates will be formatted in the website. If `convertToLocalDate` flag is set to true, all dates will be automatically converted to the end users local time. |
+|**languageSettings** | This setting can be used to configure how languages will be loaded in the website. If `forceSingleLanguage` flag is set to true, the website will be loaded in the language specified in `websiteLanguageLcid`. The `showLanguageDropdown` flag allows to show or hide the language dropdown. By default, language dropdown is visible and the website will use the end users browser language. |
 
 ## Backend customization
 

@@ -3,7 +3,7 @@ title: "Publish, revise, revert, retire, and activate products--product lifecycl
 description: "Programmatically control the product lifecycle through the draft, active, under revision, and retired states."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -15,8 +15,7 @@ ms.author: kvivek
 manager: annbe
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Publish, revise, revert, retire, and activate products (product lifecycle)
 

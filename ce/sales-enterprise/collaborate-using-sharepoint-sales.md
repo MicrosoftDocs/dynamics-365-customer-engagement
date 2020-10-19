@@ -55,12 +55,12 @@ Additionally, by default, the **Files** and **Documents** tab are added to the *
     The document file appears in the **Document Associated Grid** view. 
 
     > [!div class="mx-imgBorder"] 
-    > ![](media/add-doc-sharepoint.png "Add document to SharePoint")
+    > ![Add document to SharePoint](media/add-doc-sharepoint.png "Add document to SharePoint")
 
     The document also appears on the SharePoint site folder location. 
 
     > [!div class="mx-imgBorder"] 
-    > ![](media/doc-on-sharepoint.png "Document on SharePoint")
+    > ![Document on SharePoint](media/doc-on-sharepoint.png "Document on SharePoint")
 
 ## Manage SharePoint locations
 
@@ -79,7 +79,7 @@ You can create new or edit existing SharePoint locations from a model-driven app
 5. The **Add Location** dialog box appears.
 
     > [!div class="mx-imgBorder"] 
-    > ![](media/add-location-dialog-box.png "Add location dialog box")
+    > ![Add location dialog box](media/add-location-dialog-box.png "Add location dialog box")
 
 6. The display name, parent site, and folder name are automatically populated. Change the details if required, and then select **Save**.
 

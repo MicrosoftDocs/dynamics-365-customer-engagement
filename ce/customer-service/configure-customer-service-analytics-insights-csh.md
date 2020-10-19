@@ -4,7 +4,7 @@ description: "Learn about Customer Service Analytics"
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/03/2020
+ms.date: 06/26/2020
 ms.topic: article
 ms.service: 
   - "dynamics-365-customerservice"
@@ -21,7 +21,7 @@ applies_to:
 >
 > - A preview is a feature that is not complete, as it may employ reduced privacy, security, and/or compliance commitments, but is made available before it is officially released for general availability so customers can get early access and provide feedback. Previews are provided "as-is," "with all faults," "as available," and without warranty.
 > - This preview feature does not come with technical support and Microsoft Dynamics 365 Technical Support won't be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.
-> - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk.  All previews are subject to separate [Terms and Conditions](../legal/dynamics-insider-agreement.md).
+> - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk. All previews are subject to separate [Terms and Conditions](../legal/supp-dynamics365-preview.md).
 
 ## Overview
 
@@ -140,8 +140,6 @@ You can view the following reports:
 
 ### See also
 
-[Introduction to Customer Service analytics and insights](introduction-customer-service-analytics.md)
-
-[View and understand Customer Service analytics and insights in Customer Service Hub](customer-service-analytics-insights-csh.md)
-
-[View and understand Customer Service analytics](customer-service-analytics.md)
+[Introduction to Customer Service analytics and insights](introduction-customer-service-analytics.md)  
+[View and understand Customer Service analytics and insights in Customer Service Hub](customer-service-analytics-insights-csh.md)  
+[View and understand Customer Service analytics](customer-service-analytics.md)  

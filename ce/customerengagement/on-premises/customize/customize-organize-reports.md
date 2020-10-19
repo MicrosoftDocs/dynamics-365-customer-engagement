@@ -16,12 +16,11 @@ ms.author: matp
 manager: kvivek
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 # Customize and organize reports
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Add reporting features to your model-driven app](/powerapps/maker/model-driven-apps/add-reporting-to-app)
 
 Analyze data in Dynamics 365 Customer Engagement (on-premises) by using reports. Dynamics 365 Customer Engagement (on-premises) includes default reports for many common business needs. However, most organizations customize the default reports and add custom reports for specific needs.  
   

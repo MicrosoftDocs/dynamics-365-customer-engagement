@@ -4,7 +4,7 @@ description: Know how to create and manage users and user profiles in the Omnich
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 05/26/2020
+ms.date: 06/22/2020
 ms.topic: article
 ms.service: 
   - "dynamics-365-customerservice"
@@ -14,11 +14,11 @@ ms.service:
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-All users who are assigned the **Omnichannel Administration**, **Omnichannel supervisor**, or **Omnichannel agent** security role are enabled for Omnichannel and become Omnichannel users.
+All users who are assigned the **Omnichannel administrator**, **Omnichannel supervisor**, or **Omnichannel agent** security role are enabled to use Omnichannel for Customer Service.
 
 For more information on how to create users and assign security roles, see [Assign roles and enable users for Omnichannel for Customer Service](add-users-assign-roles.md).
 
-Navigate to **Queues & Users > Users** to view the list of Omnichannel users in the **Omnichannel Users** view.
+Navigate to **Queues & Users > Users** to view the list of Omnichannel for Customer Service users in the **Omnichannel Users** view.
 
 > [!div class=mx-imgBorder]
 > ![Omnichannel users](../media/omni-channel-users.png)

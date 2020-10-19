@@ -1,6 +1,947 @@
 {
   "redirections": [
     {
+      "source_path": "ce/project-service/accept-reject-proposed-resource.md",
+      "redirect_url": "/dynamics365/project-operations/psa/accept-reject-proposed-resource",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/account-manager-guide.md",
+      "redirect_url": "/dynamics365/project-operations/psa/account-manager-guide",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/actuals.md",
+      "redirect_url": "/dynamics365/project-operations/psa/actuals",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/add-documents-project.md",
+      "redirect_url": "/dynamics365/project-operations/psa/add-documents-project",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/add-plan-work-microsoft-project.md",
+      "redirect_url": "/dynamics365/project-operations/psa/add-plan-work-microsoft-project",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/add-resource-roles.md",
+      "redirect_url": "/dynamics365/project-operations/psa/add-resource-roles",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/add-resource-skills.md",
+      "redirect_url": "/dynamics365/project-operations/psa/add-resource-skills",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/add-resources.md",
+      "redirect_url": "/dynamics365/project-operations/psa/add-resources",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/admin-guide.md",
+      "redirect_url": "/dynamics365/project-operations/psa/admin-guide",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/advanced-actuals.md",
+      "redirect_url": "/dynamics365/project-operations/psa/advanced-actuals",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/advanced-currency.md",
+      "redirect_url": "/dynamics365/project-operations/psa/advanced-currency",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/advanced-organizational.md",
+      "redirect_url": "/dynamics365/project-operations/psa/advanced-organizational",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/advanced-units.md",
+      "redirect_url": "/dynamics365/project-operations/psa/advanced-units",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/allow-someone-else-enter-time-entry-expense.md",
+      "redirect_url": "/dynamics365/project-operations/psa/allow-someone-else-enter-time-entry-expense",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/apply-calendar-resource.md",
+      "redirect_url": "/dynamics365/project-operations/psa/apply-calendar-resource",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/approve-time-expenses.md",
+      "redirect_url": "/dynamics365/project-operations/psa/approve-time-expenses",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/assign-generic-bookable-resource.md",
+      "redirect_url": "/dynamics365/project-operations/psa/assign-generic-bookable-resource",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/assign-named-bookable-resource.md",
+      "redirect_url": "/dynamics365/project-operations/psa/assign-named-bookable-resource",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/associate-skills-with-resource-roles.md",
+      "redirect_url": "/dynamics365/project-operations/psa/associate-skills-with-resource-roles",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/associate-skills-with-resources.md",
+      "redirect_url": "/dynamics365/project-operations/psa/associate-skills-with-resources",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/basic-analyzing-quotes.md",
+      "redirect_url": "/dynamics365/project-operations/psa/basic-analyzing-quotes",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/basic-business-transactions.md",
+      "redirect_url": "/dynamics365/project-operations/psa/basic-business-transactions",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/basic-pricing.md",
+      "redirect_url": "/dynamics365/project-operations/psa/basic-pricing",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/basic-quote-lines.md",
+      "redirect_url": "/dynamics365/project-operations/psa/basic-quote-lines",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/basic-sales-process.md",
+      "redirect_url": "/dynamics365/project-operations/psa/basic-sales-process",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/book-named-resource.md",
+      "redirect_url": "/dynamics365/project-operations/psa/book-named-resource",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/bookable-resource-multiple-roles.md",
+      "redirect_url": "/dynamics365/project-operations/psa/bookable-resource-multiple-roles",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/bookable-resource-pricing-dimension.md",
+      "redirect_url": "/dynamics365/project-operations/psa/bookable-resource-pricing-dimension",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/bulk-corrections-actuals-created-by-approved-time-expense-entries.md",
+      "redirect_url": "/dynamics365/project-operations/psa/bulk-corrections-actuals-created-by-approved-time-expense-entries",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/cancel-approval.md",
+      "redirect_url": "/dynamics365/project-operations/psa/cancel-approval",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/collaborate-project-team-members-office-365-groups.md",
+      "redirect_url": "/dynamics365/project-operations/psa/collaborate-project-team-members-office-365-groups",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/configure-additional-parameters-settings.md",
+      "redirect_url": "/dynamics365/project-operations/psa/configure-additional-parameters-settings",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/configure-expense-categories.md",
+      "redirect_url": "/dynamics365/project-operations/psa/configure-expense-categories",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/configure-resource-roles.md",
+      "redirect_url": "/dynamics365/project-operations/psa/configure-resource-roles",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/configure-transaction-categories.md",
+      "redirect_url": "/dynamics365/project-operations/psa/configure-transaction-categories",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/configure.md",
+      "redirect_url": "/dynamics365/project-operations/psa/configure",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/create-custom-fields-entities.md",
+      "redirect_url": "/dynamics365/project-operations/psa/create-custom-fields-entities",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/create-customer-account.md",
+      "redirect_url": "/dynamics365/project-operations/psa/create-customer-account",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/create-office-365-group-project.md",
+      "redirect_url": "/dynamics365/project-operations/psa/create-office-365-group-project",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/create-organizational-units.md",
+      "redirect_url": "/dynamics365/project-operations/psa/create-organizational-units",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/create-price-list.md",
+      "redirect_url": "/dynamics365/project-operations/psa/create-price-list",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/create-product-catalog-items.md",
+      "redirect_url": "/dynamics365/project-operations/psa/create-product-catalog-items",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/create-project-contract.md",
+      "redirect_url": "/dynamics365/project-operations/psa/create-project-contract",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/create-project-opportunity.md",
+      "redirect_url": "/dynamics365/project-operations/psa/create-project-opportunity",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/create-project-quote.md",
+      "redirect_url": "/dynamics365/project-operations/psa/create-project-quote",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/create-project-template.md",
+      "redirect_url": "/dynamics365/project-operations/psa/create-project-template",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/create-project.md",
+      "redirect_url": "/dynamics365/project-operations/psa/create-project",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/create-work-hours-template.md",
+      "redirect_url": "/dynamics365/project-operations/psa/create-work-hours-template",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/custompricingdimensionssolution.md",
+      "redirect_url": "/dynamics365/project-operations/psa/custompricingdimensionssolution",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/determine-project-cost-revenue-estimates.md",
+      "redirect_url": "/dynamics365/project-operations/psa/determine-project-cost-revenue-estimates",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/enable-project-finder-mobile-app-features.md",
+      "redirect_url": "/dynamics365/project-operations/psa/enable-project-finder-mobile-app-features",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/enter-expenses.md",
+      "redirect_url": "/dynamics365/project-operations/psa/enter-expenses",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/enter-time.md",
+      "redirect_url": "/dynamics365/project-operations/psa/enter-time",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/estimates.md",
+      "redirect_url": "/dynamics365/project-operations/psa/estimates",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/FAQ-allocation-methods.md",
+      "redirect_url": "/dynamics365/project-operations/psa/FAQ-allocation-methods",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/FAQ-assign-resources-to-tasks-in-web-app.md",
+      "redirect_url": "/dynamics365/project-operations/psa/FAQ-assign-resources-to-tasks-in-web-app",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/FAQ-assign-resources-to-tasks.md",
+      "redirect_url": "/dynamics365/project-operations/psa/FAQ-assign-resources-to-tasks",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/FAQ-bookings-and-assignments.md",
+      "redirect_url": "/dynamics365/project-operations/psa/FAQ-bookings-and-assignments",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/FAQ-customize-bpf.md",
+      "redirect_url": "/dynamics365/project-operations/psa/FAQ-customize-bpf",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/FAQ-deleting-actuals.md",
+      "redirect_url": "/dynamics365/project-operations/psa/FAQ-deleting-actuals",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/FAQ-project-booking-schedule-board.md",
+      "redirect_url": "/dynamics365/project-operations/psa/FAQ-project-booking-schedule-board",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/FAQ-soft-book-in-web-app.md",
+      "redirect_url": "/dynamics365/project-operations/psa/FAQ-soft-book-in-web-app",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/FAQ-soft-book.md",
+      "redirect_url": "/dynamics365/project-operations/psa/FAQ-soft-book",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/FAQ-utilization-view.md",
+      "redirect_url": "/dynamics365/project-operations/psa/FAQ-utilization-view",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/FAQ-zero-price-expense-cost-actuals.md",
+      "redirect_url": "/dynamics365/project-operations/psa/FAQ-zero-price-expense-cost-actuals",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/FAQ-zero-price-expense-sales-actuals.md",
+      "redirect_url": "/dynamics365/project-operations/psa/FAQ-zero-price-expense-sales-actuals",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/FAQ-zero-price-time-cost-actuals.md",
+      "redirect_url": "/dynamics365/project-operations/psa/FAQ-zero-price-time-cost-actuals",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/FAQ-zero-price-time-sales-actuals.md",
+      "redirect_url": "/dynamics365/project-operations/psa/FAQ-zero-price-time-sales-actuals",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/field-references.md",
+      "redirect_url": "/dynamics365/project-operations/psa/field-references",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/find-next-project-finder-mobile-app.md",
+      "redirect_url": "/dynamics365/project-operations/psa/find-next-project-finder-mobile-app",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/get-apps.md",
+      "redirect_url": "/dynamics365/project-operations/psa/get-apps",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/install-customize.md",
+      "redirect_url": "/dynamics365/project-operations/psa/install-customize",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/install-sample-data-3-x.md",
+      "redirect_url": "/dynamics365/project-operations/psa/install-sample-data-3-x",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/invoicing.md",
+      "redirect_url": "/dynamics365/project-operations/psa/invoicing",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/manage-project-bookings-office-365-calendar.md",
+      "redirect_url": "/dynamics365/project-operations/psa/manage-project-bookings-office-365-calendar",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/manage-resource-requests.md",
+      "redirect_url": "/dynamics365/project-operations/psa/manage-resource-requests",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/manage-resources.md",
+      "redirect_url": "/dynamics365/project-operations/psa/manage-resources",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/overview.md",
+      "redirect_url": "/dynamics365/project-operations/psa/overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/pricing-costing-dimensions.md",
+      "redirect_url": "/dynamics365/project-operations/psa/pricing-costing-dimensions",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/product-based-quote-lines.md",
+      "redirect_url": "/dynamics365/project-operations/psa/product-based-quote-lines",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/product-catalog-pricing.md",
+      "redirect_url": "/dynamics365/project-operations/psa/product-catalog-pricing",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/project-creating.md",
+      "redirect_url": "/dynamics365/project-operations/psa/project-creating",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/project-estimating.md",
+      "redirect_url": "/dynamics365/project-operations/psa/project-estimating",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/project-leveraging.md",
+      "redirect_url": "/dynamics365/project-operations/psa/project-leveraging",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/project-manager-guide.md",
+      "redirect_url": "/dynamics365/project-operations/psa/project-manager-guide",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/project-planning.md",
+      "redirect_url": "/dynamics365/project-operations/psa/project-planning",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/project-resource-hub-users-guide.md",
+      "redirect_url": "/dynamics365/project-operations/psa/project-resource-hub-users-guide",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/project-settings.md",
+      "redirect_url": "/dynamics365/project-operations/psa/project-settings",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/project-stages.md",
+      "redirect_url": "/dynamics365/project-operations/psa/project-stages",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/project-templates.md",
+      "redirect_url": "/dynamics365/project-operations/psa/project-templates",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/project-tracking.md",
+      "redirect_url": "/dynamics365/project-operations/psa/project-tracking",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/provide-estimates-project-during-sales-process.md",
+      "redirect_url": "/dynamics365/project-operations/psa/provide-estimates-project-during-sales-process",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/quote-bill-price.md",
+      "redirect_url": "/dynamics365/project-operations/psa/quote-bill-price",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/recall-approved.md",
+      "redirect_url": "/dynamics365/project-operations/psa/recall-approved",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/reconcile-booking-assignment.md",
+      "redirect_url": "/dynamics365/project-operations/psa/reconcile-booking-assignment",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/reports-dashboards.md",
+      "redirect_url": "/dynamics365/project-operations/psa/reports-dashboards",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/reports-key-concepts.md",
+      "redirect_url": "/dynamics365/project-operations/psa/reports-key-concepts",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/reports-reporting-dynamics-365-project-service.md",
+      "redirect_url": "/dynamics365/project-operations/psa/reports-reporting-dynamics-365-project-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/reports-working-project-service-data-model.md",
+      "redirect_url": "/dynamics365/project-operations/psa/reports-working-project-service-data-model",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/resource-management-book-resources-scheduleboard.md",
+      "redirect_url": "/dynamics365/project-operations/psa/resource-management-book-resources-scheduleboard",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/resource-management-faq.md",
+      "redirect_url": "/dynamics365/project-operations/psa/resource-management-faq",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/resource-management-fulfill-requests.md",
+      "redirect_url": "/dynamics365/project-operations/psa/resource-management-fulfill-requests",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/resource-management-home-page.md",
+      "redirect_url": "/dynamics365/project-operations/psa/resource-management-home-page",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/resource-management-propose-resources.md",
+      "redirect_url": "/dynamics365/project-operations/psa/resource-management-propose-resources",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/resource-management-skills-proficiency.md",
+      "redirect_url": "/dynamics365/project-operations/psa/resource-management-skills-proficiency",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/resource-management-softbook-requirements.md",
+      "redirect_url": "/dynamics365/project-operations/psa/resource-management-softbook-requirements",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/resource-management.md",
+      "redirect_url": "/dynamics365/project-operations/psa/resource-management",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/resource-manager-guide.md",
+      "redirect_url": "/dynamics365/project-operations/psa/resource-manager-guide",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/review-invoicing-backlog.md",
+      "redirect_url": "/dynamics365/project-operations/psa/review-invoicing-backlog",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/review-project-actuals.md",
+      "redirect_url": "/dynamics365/project-operations/psa/review-project-actuals",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/schedule-project-work-breakdown-structure.md",
+      "redirect_url": "/dynamics365/project-operations/psa/schedule-project-work-breakdown-structure",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/schedule-resources-project.md",
+      "redirect_url": "/dynamics365/project-operations/psa/schedule-resources-project",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/schedule-time-off.md",
+      "redirect_url": "/dynamics365/project-operations/psa/schedule-time-off",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/set-up-currencies-exchange-rates.md",
+      "redirect_url": "/dynamics365/project-operations/psa/set-up-currencies-exchange-rates",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/set-up-invoice-frequencies.md",
+      "redirect_url": "/dynamics365/project-operations/psa/set-up-invoice-frequencies",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/set-up-pricing-dimensions.md",
+      "redirect_url": "/dynamics365/project-operations/psa/set-up-pricing-dimensions",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/set-up-proficiency-models.md",
+      "redirect_url": "/dynamics365/project-operations/psa/set-up-proficiency-models",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/set-up-resources.md",
+      "redirect_url": "/dynamics365/project-operations/psa/set-up-resources",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/set-up-time-units.md",
+      "redirect_url": "/dynamics365/project-operations/psa/set-up-time-units",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/sign-in.md",
+      "redirect_url": "/dynamics365/project-operations/psa/sign-in",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/submit-resource-request.md",
+      "redirect_url": "/dynamics365/project-operations/psa/submit-resource-request",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/submit-resource-requests.md",
+      "redirect_url": "/dynamics365/project-operations/psa/submit-resource-requests",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/time-entries.md",
+      "redirect_url": "/dynamics365/project-operations/psa/time-entries",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/time-entry-calendar.md",
+      "redirect_url": "/dynamics365/project-operations/psa/time-entry-calendar",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/time-entry-extensibility-v3.md",
+      "redirect_url": "/dynamics365/project-operations/psa/time-entry-extensibility-v3",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/time-expense-collaboration-guide.md",
+      "redirect_url": "/dynamics365/project-operations/psa/time-expense-collaboration-guide",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/track-project-progress-cost.md",
+      "redirect_url": "/dynamics365/project-operations/psa/track-project-progress-cost",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/track-project-status.md",
+      "redirect_url": "/dynamics365/project-operations/psa/track-project-status",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/transaction-category-pricing-dimension.md",
+      "redirect_url": "/dynamics365/project-operations/psa/transaction-category-pricing-dimension",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/turn-off-pricing-dimension.md",
+      "redirect_url": "/dynamics365/project-operations/psa/turn-off-pricing-dimension",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/update-plug-in-attributes.md",
+      "redirect_url": "/dynamics365/project-operations/psa/update-plug-in-attributes",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/upgrade-considerations-tasks.md",
+      "redirect_url": "/dynamics365/project-operations/psa/upgrade-considerations-tasks",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/upgrade-psa-home-page.md",
+      "redirect_url": "/dynamics365/project-operations/psa/upgrade-psa-home-page",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/upgrade-v3.md",
+      "redirect_url": "/dynamics365/project-operations/psa/upgrade-v3",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/use-demo-data.md",
+      "redirect_url": "/dynamics365/project-operations/psa/use-demo-data",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/use-existing-field.md",
+      "redirect_url": "/dynamics365/project-operations/psa/use-existing-field",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/version-history-ps.md",
+      "redirect_url": "/dynamics365/project-operations/psa/version-history-ps",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/view-dashboards-reports.md",
+      "redirect_url": "/dynamics365/project-operations/psa/view-dashboards-reports",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/view-edit-project-estimates.md",
+      "redirect_url": "/dynamics365/project-operations/psa/view-edit-project-estimates",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/view-project-team-members-manage-bookings.md",
+      "redirect_url": "/dynamics365/project-operations/psa/view-project-team-members-manage-bookings",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/view-resource-availability.md",
+      "redirect_url": "/dynamics365/project-operations/psa/view-resource-availability",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/view-resource-utilization.md",
+      "redirect_url": "/dynamics365/project-operations/psa/view-resource-utilization",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/view-schedule.md",
+      "redirect_url": "/dynamics365/project-operations/psa/view-schedule",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/view-send-invoices.md",
+      "redirect_url": "/dynamics365/project-operations/psa/view-send-invoices",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/whats-new-changed-v3.md",
+      "redirect_url": "/dynamics365/project-operations/psa/whats-new-changed-v3",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/whats-new-ur-12.md",
+      "redirect_url": "/dynamics365/project-operations/psa/whats-new-ur-12",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/whats-new-ur-13.md",
+      "redirect_url": "/dynamics365/project-operations/psa/whats-new-ur-13",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/whats-new-ur-14.md",
+      "redirect_url": "/dynamics365/project-operations/psa/whats-new-ur-14",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/whats-new-ur-15.md",
+      "redirect_url": "/dynamics365/project-operations/psa/whats-new-ur-15",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/whats-new-ur-16.md",
+      "redirect_url": "/dynamics365/project-operations/psa/whats-new-ur-16",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/whats-new-ur-17-5.md",
+      "redirect_url": "/dynamics365/project-operations/psa/whats-new-ur-17-5",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/whats-new-ur-17.md",
+      "redirect_url": "/dynamics365/project-operations/psa/whats-new-ur-17",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/whats-new-ur-18.md",
+      "redirect_url": "/dynamics365/project-operations/psa/whats-new-ur-18",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/whats-new-ur-19.md",
+      "redirect_url": "/dynamics365/project-operations/psa/whats-new-ur-19",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/whats-new-ur-20.md",
+      "redirect_url": "/dynamics365/project-operations/psa/whats-new-ur-20",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/whats-new-ur-21.md",
+      "redirect_url": "/dynamics365/project-operations/psa/whats-new-ur-21",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/whats-new-ur-22.md",
+      "redirect_url": "/dynamics365/project-operations/psa/whats-new-ur-22",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/whats-new-ur-23.md",
+      "redirect_url": "/dynamics365/project-operations/psa/whats-new-ur-23",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/whats-new-ur-24.md",
+      "redirect_url": "/dynamics365/project-operations/psa/whats-new-ur-24",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/whats-new-v3-2020-wave1.md",
+      "redirect_url": "/dynamics365/project-operations/psa/whats-new-v3-2020-wave1",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/white-papers.md",
+      "redirect_url": "/dynamics365/project-operations/psa/white-papers",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/developer-guides/add-custom-qoi-forms-v2.x.md",
+      "redirect_url": "/dynamics365/project-operations/psa/add-custom-qoi-forms-v2.x",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/developer-guides/entity-changes-v3.x.md",
+      "redirect_url": "/dynamics365/project-operations/psa/entity-changes-v3.x",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/developer-guides/overview-dev-notes-v3.x.md",
+      "redirect_url": "/dynamics365/project-operations/psa/overview-dev-notes-v3.x",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/developer-guides/resource-management-changes-v3.x.md",
+      "redirect_url": "/dynamics365/project-operations/psa/resource-management-changes-v3.x",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/developer-guides/time-expense-changes-v3.x.md",
+      "redirect_url": "/dynamics365/project-operations/psa/time-expense-changes-v3.x",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/developer-guides/web-resources-deprecated-v3.x.md",
+      "redirect_url": "/dynamics365/project-operations/psa/web-resources-deprecated-v3.x",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/implementation-guides/adv-quoting-pricing-billing.md",
+      "redirect_url": "/dynamics365/project-operations/psa/adv-quoting-pricing-billing",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/implementation-guides/begin-quoting-pricing-billing.md",
+      "redirect_url": "/dynamics365/project-operations/psa/begin-quoting-pricing-billing",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/implementation-guides/project-planning-tracking.md",
+      "redirect_url": "/dynamics365/project-operations/psa/project-planning-tracking",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/implementation-guides/reporting-guide.md",
+      "redirect_url": "/dynamics365/project-operations/psa/reporting-guide",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/implementation-guides/resource-management-guide.md",
+      "redirect_url": "/dynamics365/project-operations/psa/resource-management-guide",
+      "redirect_document_id": "false"
+    },
+
+    {
+      "source_path": "ce/omnichannel/administrator/chat-custom-messages.md",
+      "redirect_url": "configure-automated-message",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/insert-email-template.md",
+      "redirect_url": "../customer-service/customer-service-hub-user-guide-email-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/admin/set-up-onenote-integration-in-dynamics-365.md",
+      "redirect_url": "../basics/collaborate-with-team",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/basics/use-onenote.md",
+      "redirect_url": "../basics/collaborate-with-team",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/basics/onenote-dynamics-365-faqs.md",
+      "redirect_url": "../basics/collaborate-with-team",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/marketing/customer-journey.md",
+      "redirect_url": "create-simple-customer-journey",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/legal/apps-for-power-platform-tou-rtw.md",
+      "redirect_url": "apps-for-power-platform-tou-med",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/marketing/manage-marketing-instances.md",
+      "redirect_url": "manage-marketing-environments",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/company-news-timeline/get-company-news-timeline-dynamics-365-phones-tablets.md",
+      "redirect_url": "../mobile-app/get-company-news-timeline-dynamics-365-phones-tablets",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/marketing/forms-pro.md",
+      "redirect_url": "customer-voice",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/marketing/dynamics-365-admin-center.md",
+      "redirect_url": "power-platform-admin-center",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/use-change-tracking-synchronize-data-external-systems.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/use-change-tracking-synchronize-data-external-systems",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/use-upsert-insert-update-record.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/use-upsert-insert-update-record",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/teams-integration/teams-bot-search.md",
+      "redirect_url": "https://docs.microsoft.com/power-platform/important-changes-coming#dynamic-365-sales-bot-is-deprecated",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/marketing/readme.md",
+      "redirect_url": "known-issues",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/marketing/segments-compound.md",
+      "redirect_url": "segmentation-lists-subscriptions",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/customerengagement/on-premises/developer/create-packages-package-deployer.md",
       "redirect_url": "https://docs.microsoft.com/power-platform/alm/package-deployer-tool",
       "redirect_document_id": "false"
@@ -649,9 +1590,8 @@
       "source_path": "ce/sales-enterprise/dynamics365-ai-sales.md",
       "redirect_url": "/dynamics365/ai/sales/overview",
       "redirect_document_id": "false"
-    },    
+    },
     {
-
       "source_path": "ce/project-service/new-upcoming.md",
       "redirect_url": "overview",
       "redirect_document_id": "false"
@@ -17871,54 +18811,153 @@
       "redirect_url": "enable-self-service-settings",
       "redirect_document_id": false
     },
-    {  
+    {
       "source_path": "ce/customer-service/migrate-service-activity-org-service.md",
       "redirect_url": "introduction-migration-entity-records.md",
       "redirect_document_id": false
     },
-    {  
+    {
       "source_path": "ce/customer-service/channel-integration-framework/v2/onboard-org-flight.md",
       "redirect_url": "get-channel-integration-framework",
       "redirect_document_id": false
     },
-    {  
+    {
       "source_path": "ce/sales-enterprise/troubleshooting-admin.md",
       "redirect_url": "troubleshooting",
       "redirect_document_id": false
     },
-    {  
+    {
       "source_path": "ce/sales-enterprise/create-forecast-definition.md",
       "redirect_url": "configure-forecast",
       "redirect_document_id": false
     },
-    {  
+    {
       "source_path": "ce/sales-enterprise/developer/reference/manual-forecasting-entity-reference.md",
       "redirect_url": "custom-actions-manual-forecasting",
       "redirect_document_id": false
     },
-    {  
+    {
       "source_path": "ce/sales-enterprise/developer/reference/entities/msdyn_forecastdefinition.md",
       "redirect_url": "export-forecast-data",
       "redirect_document_id": false
     },
-    {  
+    {
       "source_path": "ce/sales-enterprise/developer/reference/entities/msdyn_forecastinstance.md",
       "redirect_url": "export-forecast-data",
       "redirect_document_id": false
     },
-    {  
+    {
       "source_path": "ce/sales-enterprise/developer/reference/entities/msdyn_forecastrecurrence.md",
       "redirect_url": "export-forecast-data",
       "redirect_document_id": false
     },
-    {  
+    {
       "source_path": "ce/sales-professional/use-lookup-fields-forms.md",
       "redirect_url": "https://docs.microsoft.com/powerapps/user/lookup-field",
       "redirect_document_id": false
     },
-    {  
+    {
       "source_path": "ce/customer-service/install-routing-rules-preview-solution.md",
       "redirect_url": "create-rules-automatically-route-cases",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/sales-professional/create-orders.md",
+      "redirect_url": "create-invoices",
+      "redirect_document_id": false
+    },
+    {  
+      "source_path": "ce/sales-enterprise/developer/reference/entities/export-forecast-data.md",
+      "redirect_url": "../custom-actions/msdyn_ForecastApi"
+    },
+    {
+      "source_path": "ce/voice-of-customer/analyze-survey-data.md",
+      "redirect_url": "deprecate",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/voice-of-customer/design-advanced-survey.md",
+      "redirect_url": "deprecate",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/voice-of-customer/design-basic-survey.md",
+      "redirect_url": "deprecate",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/voice-of-customer/distribute-survey.md",
+      "redirect_url": "deprecate",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/voice-of-customer/get-feedback-surveys.md",
+      "redirect_url": "deprecate",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/voice-of-customer/help-hub.md",
+      "redirect_url": "deprecate",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/voice-of-customer/implement-gdpr.md",
+      "redirect_url": "deprecate",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/voice-of-customer/install-solution.md",
+      "redirect_url": "deprecate",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/voice-of-customer/monthly-updates-voc.md",
+      "redirect_url": "deprecate",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/voice-of-customer/plan-survey.md",
+      "redirect_url": "deprecate",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/voice-of-customer/survey-analytics-powerbi.md",
+      "redirect_url": "deprecate",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/voice-of-customer/troubleshoot.md",
+      "redirect_url": "deprecate",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/voice-of-customer/voc-faq.md",
+      "redirect_url": "deprecate",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/sales-enterprise/ts-linkedin-integration.md",
+      "redirect_url": "../linkedin/ts-linkedin-integration.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/admin/enable-use-comprehensive-auditing.md",
+      "redirect_url": "https://docs.microsoft.com/power-platform/admin/enable-use-comprehensive-auditing",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/basics/add-edit-power-bi-visualizations-dashboard.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/user/add-powerbi-dashboards",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/data-export-service.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/data-export-service",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/teams-integration/teams-work-records-and-view.md",
+      "redirect_url": "teams-collaboration",
       "redirect_document_id": false
     }
   ]

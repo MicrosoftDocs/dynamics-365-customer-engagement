@@ -2,7 +2,7 @@
 title: "Dynamics 365 Marketing solution uninstall order (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Lists the correct order in which to remove solutions when uninstalling Dynamics 365 Marketing."
 keywords: administration; sample data
-ms.date: 05/08/2020
+ms.date: 08/10/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -32,15 +32,18 @@ To delete Dynamics 365 from an instance, first open the Marketing setup wizard a
 Marketing solution uninstall order:
 
 1. MicrosoftDynamics_MktCompleteAnchorSolution
+1. MicrosoftDynamics_SubscriptionList_patch
+1. MicrosoftDynamics_SubscriptionList
 1. MicrosoftDynamics_OrgCleanup_patch
 1. MicrosoftDynamics_OrgCleanup
+1. MicrosoftDynamics_PackageUpgrade_patch
 1. MicrosoftDynamics_PackageUpgrade
 1. MicrosoftDynamics_PersonalizedPages_patch
 1. MicrosoftDynamics_PersonalizedPages
-1. MicrosoftDynamics_SocialPosting_patch
-1. MicrosoftDynamics_SocialPosting
 1. MicrosoftDynamics_MarketableContactSupport_patch
 1. MicrosoftDynamics_MarketableContactSupport
+1. MicrosoftDynamics_MarketingFormsProLink_patch
+1. MicrosoftDynamics_MarketingFormsProLink
 1. MicrosoftDynamics_MktVocIntegration_patch
 1. MicrosoftDynamics_MktVocIntegration
 1. MicrosoftDynamics_EvtMgmtVocLink_patch
@@ -51,6 +54,8 @@ Marketing solution uninstall order:
 1. MicrosoftDynamics_MktPortalsLink
 1. MicrosoftDynamics_EvtMgmtPortalsLink_patch
 1. MicrosoftDynamics_EvtMgmtPortalsLink
+1. MicrosoftDynamics_QuickSend_patch
+1. MicrosoftDynamics_QuickSend
 1. MicrosoftDynamics_ABTesting_patch
 1. MicrosoftDynamics_ABTesting
 1. MicrosoftDynamics_GwennolSegmentBooster_patch
@@ -65,6 +70,8 @@ Marketing solution uninstall order:
 1. MicrosoftDynamics_GwennolOptimalEmailSendingTime
 1. MicrosoftDynamics_MktIntegration_patch
 1. MicrosoftDynamics_MktIntegration
+1. MicrosoftDynamics_SocialPosting_patch
+1. MicrosoftDynamics_SocialPosting
 1. MicrosoftDynamics_SocialEngagement_patch
 1. MicrosoftDynamics_SocialEngagement
 1. MicrosoftDynamics_LinkedInMatchedAudiences_patch
@@ -97,6 +104,7 @@ Marketing solution uninstall order:
 1. MicrosoftDynamics_DigitalAssets
 1. MicrosoftDynamics_Calendar_patch
 1. MicrosoftDynamics_Calendar
-1. MicrosoftDynamics_PreImport
+1. MicrosoftDynamics_HealthChecker_patch
+1. MicrosoftDynamics_HealthChecker
 
 If you see any other "anchor" solutions that start with "MicrosoftDynamics_", you can delete these too. They are probably left over from an earlier version that you upgraded. You can remove these in any order after you've uninstalled the other solutions.

@@ -1,16 +1,16 @@
 ---
-title: "Embed chat widget in your portal | MicrosoftDocs"
+title: "Embed chat widget in your website or portal | MicrosoftDocs"
 description: "Instructions to embed chat widget in your website or Power Apps portal."
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 05/21/2020
+ms.date: 08/04/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
 ---
 
-# Embed chat widget in your website or Power Apps portal
+# Embed chat widget in your website or portal
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
@@ -45,6 +45,19 @@ To embed a chat widget in Power Apps portals:
     > ![Paste code snippet of a chat widget](../media/paste-snippet.png "Paste code snippet of a chat widget")
 10.	Save the changes. The chat widget is now embedded into the portal.
 
+If you don't see your chat widget in the portal, see [Troubleshoot Omnichannel for Customer Service](../troubleshoot-omnichannel-customer-service.md).
+
+## Embed chat widget in mobile experiences
+
+To embed a chat widget in a mobile app:
+
+1. Create the code snippet. Refer to [Render a live chat widget on the mobile app](../developer/how-to/render-live-chat-widget-mobile.md) for samples showing how to enable rendering of the web version of the live chat widget on mobile devices.
+2.	Sign in to Omnichannel Administration.
+3.	Go to **Channels** &gt; **Chat**.
+4.	Open the chat widget you want to embed in your website or create a new one.
+5.	On the **Basic details** tab, copy the widget snippet code you created or modified into the **Code snippet** section.
+6.  Copy the widget snippet code from the **Code snippet** section and paste it in the source code of your mobile operating system. 
+
 ## Customer experience of chat widget
 
 After the chat widget is configured, it has the following capabilities:
@@ -61,6 +74,8 @@ After the chat widget is configured, it has the following capabilities:
     > [!div class=mx-imgBorder]
     > ![System events in the chat widget](../media/chat-widget-system-events.png "System events in the chat widget")
 
+- **Keyboard shortcut**: During the chat session, the customer can press **Ctrl+/** to return the cursor to the message send box from elsewhere on the page. 
+
 - **Pre-chat survey**: If a survey has been configured by an admin, it's shown to the user before the conversation is started. This survey also helps the user connect to an appropriate agent.
 
     > [!div class=mx-imgBorder]
@@ -69,7 +84,7 @@ After the chat widget is configured, it has the following capabilities:
 - **End chat**: A customer can end the chat by selecting the **Close chat** button. A confirmation message is displayed before ending the chat.
 
 > [!NOTE]
-> For advanced configuration like embedding chat widget on specific web pages, see [Manage portal content](../../portals/manage-portal-content.md).
+> For advanced configuration like embedding chat widget on specific web pages, see [Manage portal content](../../portals/manage-portal-content.md). 
 
 ### See also
 
@@ -80,3 +95,4 @@ After the chat widget is configured, it has the following capabilities:
 [Create quick replies](create-quick-replies.md) <br>
 [Create and manage operating hours](create-operating-hours.md) <br>
 [Create chat authentication settings](create-chat-auth-settings.md) <br>
+[Render a live chat widget on the mobile app](../developer/how-to/render-live-chat-widget-mobile.md) 

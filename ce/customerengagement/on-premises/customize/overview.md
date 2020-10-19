@@ -18,8 +18,7 @@ ms.author: matp
 manager: kvivek
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 
 # App making and customization overview for Dynamics 365 Customer Engagement (on-premises), version 9

@@ -19,9 +19,9 @@
 #### [Sign up for a free trial](trial-signup.md)
 #### [Purchase and set up Dynamics 365 Marketing](purchase-setup.md)
 #### [Integrate Marketing with a CMS system or Dynamics 365 Portal](portal-optional.md)
-#### [Open the Dynamics 365 admin center](dynamics-365-admin-center.md)
+#### [Open the Power Platform admin center](power-platform-admin-center.md)
 #### [Re-run the Marketing setup wizard](re-run-setup.md)
-#### [Manage Marketing instances](manage-marketing-instances.md)
+#### [Manage Marketing environments](manage-marketing-environments.md)
 #### [Transfer data between instances](transfer-data.md)
 #### [Transfer customizations between instances](transfer-solution.md)
 #### [Tenant to tenant migration](tenant-to-tenant.md)
@@ -30,6 +30,7 @@
 
 ### User administration and access permissions
 #### [Manage user accounts, licenses, and roles](admin-users-licenses-roles.md)
+#### [Fair use policy](fair-use-policy.md)
 #### [Use business units with Marketing](business-units.md)
 
 ### Administration settings
@@ -48,7 +49,7 @@
 ##### [Authenticate your domains](mkt-settings-authenticate-domains.md)
 ##### [Marketing analytics configuration](mkt-settings-analytics.md)
 ##### [Configure landing pages](mkt-settings-landing-pages.md)
-##### [Sync with the marketing-insights service](mkt-settings-sync.md)
+##### [Sync entities and track insights](mkt-settings-sync.md)
 ##### [Set matching strategies](mkt-settings-matching.md)
 ##### [Default marketing settings](mkt-settings-default-marketing.md)
 ##### [Configure your social media accounts](mkt-settings-social-media.md)
@@ -68,6 +69,12 @@
 #### [Create and customize marketing calendars](customize-marketing-calendars.md)
 #### [Create and customize template labels](customize-template-labels.md)
 
+### Email administration
+#### [Best practices for email marketing](get-ready-email-marketing.md)
+#### [Email bounce categories](email-bounce-categories.md)
+#### [Dedicated vs shared IPs for email delivery](dedicated-vs-shared-ip.md)
+#### [Email policies and suspension standards](email-policies.md)
+
 ### Privacy and compliance
 #### [Data protection and GDPR](gdpr.md)
 #### [Set up global double opt-in](double-opt-in.md)
@@ -75,9 +82,8 @@
 #### [How the app uses cookies](cookies.md)
 
 ### [Best practices for administration](admin-best-practices.md)
-### [Best practices for email marketing](get-ready-email-marketing.md)
-### [Email policies and suspension standards](email-policies.md)
 ### [Administration and setup FAQ](setup-troubleshooting.md)
+### [Known issues and workarounds](known-issues.md)
 
 ## [User Guide](user-guide.md)
 
@@ -128,8 +134,9 @@
 #### [Create and deploy marketing pages](create-deploy-marketing-pages.md)
 #### [Provide personalized page content](personalized-page-content.md)
 #### [Create marketing forms](marketing-forms.md)
+#### [Use marketing forms for event registration](event-forms.md)
 #### [Enable prefilling for forms](form-prefill.md)
-#### [Integrate with landing pages on external websites](embed-forms.md)
+#### [Embed forms on external websites](embed-forms.md)
 #### [Create input fields for forms](marketing-fields.md)
 #### [Set up a subscription center](set-up-subscription-center.md)
 #### [Edit and resubmit form submissions](failed-submissions.md)
@@ -148,7 +155,6 @@
 #### [Export dynamic-segment members to Excel](segments-export-members.md)
 #### [Design static segments](segments-static.md)
 #### [Manage segment memberships from a contact record](manage-segments-from-contacts.md)
-#### [Combine segments into a compound segment](segments-compound.md)
 #### [Work with segment templates](segments-templates.md)
 #### [Market to Dynamics 365 segments on LinkedIn ](linkedin-matched-audience.md)
 #### [Use Customer Insights segments in Marketing](customer-insights-segments.md)
@@ -171,7 +177,6 @@
 
 ### Event planning and management
 #### [Event management overview](event-management.md)
-#### [Early access: Improved event management experience](event-forms.md)
 #### [Open the event management work area](open-events.md)
 #### [Set up an event](set-up-event.md)
 #### [Set up session-level registration and waitlisting](session-level-registration.md)
@@ -179,6 +184,7 @@
 #### [Create and manage recurring events](event-recurring.md)
 #### [Create and use event templates](event-templates.md)
 #### [Event management dashboard](event-management-dashboard.md)
+#### [Set up a Microsoft Teams webinar](teams-webinar.md)
 #### [Set up a webinar](set-up-webinar.md)
 #### [Manage event sponsorships](manage-event-sponsorships.md)
 #### [Manage attendee logistics and accommodation](manage-event-logistic.md)
@@ -192,13 +198,13 @@
 
 ### Engage contacts with portals and surveys
 #### [Create interactive features with or without portals](portals.md)
-#### [Integrate Forms Pro with Dynamics 365 Marketing](forms-pro.md)
+#### [Integrate Dynamics 365 Customer Voice with Dynamics 365 Marketing](customer-voice.md)
 #### [Create and run online surveys](surveys.md)
 
 ### Marketing on social media
+#### [Schedule and post messages on social media](social-posting.md)
 #### [Marketing on LinkedIn with Dynamics 365](linkedin-overview.md)
 #### [LinkedIn Lead Gen integration](LinkedIn-Lead-Gen-integration.md)
-#### [Schedule and post messages on social media](social-posting.md)
 
 ### [Register link clicks and website visits](register-engagement.md)
 ### [Work with marketing calendars](marketing-calendar.md)
@@ -242,15 +248,16 @@
 ##### [Overview](developer/portal-hosted.md)
 ##### [Manually overwriting sample website](developer/manually-overwriting-sample-website.md)
 #### Events API
-##### [Using Events API](developer/using-events-api.md)
+##### [Using the events API](developer/using-events-api.md)
 ##### [Register your web application](developer/register-web-application-events-api.md)
 ##### [User authentication](developer/user-authentication-events-api.md)
-##### [Customize Events API response](developer/customize-events-api-response.md)
+##### [Customize the events API response](developer/customize-events-api-response.md)
 #### [Finalizing registration for paid events](developer/finalizing-registrations-for-paid-events.md)
 #### [Localization](developer/event-portal-localization.md)
-### [Work with Segments using code](developer/extend-segments.md)
-### [Work with Customer Journeys using API](developer/basic-operations-on-customer-journey.md)
-#### [Extend Customer journey using code](developer/extend-customer-journey-using-code.md)
+### [Work with segments using code](developer/extend-segments.md)
+### [Work with customer journeys using an API](developer/basic-operations-on-customer-journey.md)
+#### [Extend customer journeys using code](developer/extend-customer-journey-using-code.md)
+### [Entity mapping with custom workflows](entity-mapping.md)
 ### [Retrieve interactions for a contact](developer/retrieve-interactions-contact.md)
 ### [Extend Marketing forms using client side scripting](developer/marketing-form-client-side-extensibility.md)
 ### [Metadata reference for your organization](developer/marketing-organization-metadata.md)

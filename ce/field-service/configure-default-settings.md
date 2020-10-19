@@ -1,8 +1,9 @@
 ---
 title: "Configure default settings (Dynamics 365 Field Service) | MicrosoftDocs"
+description: Learn how to set defaults for work orders, bookings, the schedule board, and agreements in Dynamics 365 Field Service.
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 12/12/2019
+ms.date: 09/24/2020
 ms.service: dynamics-365-customerservice
 ms.suite: 
 ms.technology: 
@@ -93,7 +94,7 @@ The Field Service Settings page allows system administrators to set default sett
   
 |       Options       |                                                                                                                                                                                                       Description                                                                                                                                                                                                        |
 |---------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|     RTV prefix      | Select a default prefix for a return to vender (RTV). The prefix will  be added to the beginning of the RTV number. This  helps you easily identify  an RTV from other types of service requests in the system. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Process a return](../field-service/process-return.md). |
+|     RTV prefix      | Select a default prefix for a return to vendor (RTV). The prefix will  be added to the beginning of the RTV number. This  helps you easily identify  an RTV from other types of service requests in the system. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Process a return](../field-service/process-return.md). |
 | RTV starting number |                                  Select a starting number for RTVs. For example, if you choose 2000, then your first RTV will be 2000, and second one will be 2001, and so on. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Process a return](../field-service/process-return.md).                               |
   
 ### Agreements  
@@ -126,6 +127,27 @@ The Field Service Settings page allows system administrators to set default sett
 |inventory transfer starting number|Select a starting number for inventory transfer numbers. For example, if you choose 5000, then your first inventory transfer number will be 5000, and second one will be 5001, and so on.|  
 |inventory adjustment starting number|Select a starting number for inventory adjustment numbers. For example, if you choose 6000, then your first inventory adjustment number will be 6000, and second one will be 6001, and so on.|  
   
+## Intelligence settings
+
+|Options|Description|  
+|-------------|-----------------|  
+|Enable Suggested Duration|When enabled, this setting will look at historical booking data and suggest an average duration on a daily or on-demand basis at the incident type level to improve accuracy of an incident type's established duration.|
+|Historical Data Filter|This setting is used for both the suggested duration and incident type suggestions functionality. This setting is used to establish the data scope for analysis when looking at historical data to provide suggestions.| 
+|Enable Incident Type Suggestion|When enabled, this setting will drive a prompt to ensure users are aware that this feature is in preview. If accepted, this feature will begin to drive analysis of historical work order and work order sub-record data to suggest ways to improve an organization's usage of incident type. Once enabled, a subgrid will become visible on the tab to show the suggestions from this intelligent analysis. From the subgrid, a user can dislike or apply the suggestions from the model.| 
+
+## Time entry settings
+
+|Options|Description|  
+|-------------|-----------------|  
+|Time Entry Generation Strategy|This setting drives whether the environment will automatically generate time entries based on bookings or not. If the setting is null, the system assumes manual generation. Regardless of whether this is set to manual or automatic generation, time entries can always be created manually.|
+|Time Cost Actuals|Actuals are generated as part of the natural Field Service motion. Some actuals would be generated at various stages of the work order and invoice lifecycle. This field controls whether cost actuals related to time are generated from booking journals when the work order is set to "Closed - Posted" or from time entries when the time entry is marked as approved. If this setting is null, the system will assume it should generate these time and cost focused actuals from booking journals when the work order is "Closed - Posted."| 
+
+## Dynamics 365 Remote Assist settings
+
+|Options|Description|  
+|-------------|-----------------|  
+|Disable Booking Status Changes|Depending on this setting, Dynamics 365 Remote Assist on Hololens will either allow a booking's booking status to be changed from within the Hololens experience or it will not.|
+  
 ## Other settings
   
 |             Options             |                                                                                                                                                 Description                                                                                                                                                 |
@@ -135,7 +157,8 @@ The Field Service Settings page allows system administrators to set default sett
 | Auto allocate estimate products | When products are added to a work order before the work begins, then the line status of the work order product record defaults to **Estimated**. This setting determines whether the work order product record is set to **Allocated** when the line status is still **Estimated**, as opposed to **Used**. |
 |     Auto geo code addresses     |               Specify whether the system should automatically add the appropriate latitude and longitude values based on the account's address. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Turn on auto geocoding](../field-service/turn-on-auto-geocoding.md)                |
 |       Product cost order        | Select the order for product cost.   |
-| Use Enhanced Background Processing | When the Field Service app is installed, so too are many workflows that run in the background. This setting utilizes Power Automate flows in place of some of the background Dynamics 365 Field Service workflows. Power Automate has many benefits, including the ability to connect and run workflows within Dynamics 365 and between other outside applications, the ability to delete records and schedule jobs, and robust approvals, among others. For Field Service specifically, using Power Automate in place of background processes related to agreements improves performance for long-waiting agreements and fixes complications in the event an owner of an agreement no longer has access to Dynamics 365 (if they leave the company, for example). This setting is in preview and more background workflows are expected to be moved to Power Automate flows in subsequent releases.|
+|       Work order subgrid records open as popups      | Specify if work order sub entities (work order product, work order service, work order service task, work order incident, bookable resource booking, time entry) should open as a popup overlay on top of the work order form, rather than navigating away. The default setting for this field will enable the subgrid records to open in dialog popups.   |
+| Use Enhanced Background Processing | When the Field Service app is installed, so too are many workflows that run in the background. This setting utilizes Power Automate flows in place of some of the background Dynamics 365 Field Service workflows. Power Automate has many benefits, including the ability to connect and run workflows within Dynamics 365 and between other outside applications, the ability to delete records and schedule jobs, and robust approvals, among others. For Field Service specifically, using Power Automate in place of background processes related to agreements improves performance for long-waiting agreements and fixes complications in the event an agreement's owner no longer has access to Dynamics 365 (if they leave the company, for example). For Field Service Mobile, you can use Power Automate for geofence, geofence alerts, and push notification process. For more information, see the article on [using Power Automate flows with Field Service Mobile](mobile-workflow-to-flow.md). This setting is in preview, and more background workflows are expected to be moved to Power Automate flows in subsequent releases.|
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the administration settings on the other section.](./media/administration-settings-other-section.png) 

@@ -2,7 +2,7 @@
 title: "Resource scheduling optimization version history | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 04/20/2020
+ms.date: 07/20/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -28,6 +28,12 @@ search.app:
 
 # Resource scheduling optimization version history
 
+## 3.1.3.17
+
+- Fixed bug where 'Created On' field in optimization panel of resource scheduling optimization schedule board does not respect date format of user setting. 
+- Fixed issue where optimization request status was not set correctly when resource scheduling optimization is run as a simulation. 
+
+
 ## 3.0.19316.2
 
 - ConsiderTravelTime parameter for SA API msdyn_SearchResourceAvailability is not working as expected. Use the following steps to understand the impact of this bug fix:
@@ -35,8 +41,8 @@ search.app:
   - Create a resource A with four hours available hour on their calendar; make sure there are a few minutes travel time between the location between resource and requirement.
   - Use msdyn_SearchResourceAvailability with the ConsiderTravelTime parameter set to false, and to find availability for this requirement. Before this, no potential bookable slot was returned; now there is potential bookable slot returned from resource A since resource A has enough available hours.
 - Resource scheduling optimization booking details: **Operation Details** field doesn't show message anymore if user is missing the Field Service - Administrator security role.
-- Booking status form showing false scheduling method the first time RSO is opened after initial setup.
-- Fixed upgrade issue from RSO v3.0.18341.1 to latest in-market version.
+- Booking status form showing false scheduling method the first time resource scheduling optimization is opened after initial setup.
+- Fixed upgrade issue from resource scheduling optimization v3.0.18341.1 to latest in-market version.
 
 ## 3.0.19263.1
 
@@ -56,4 +62,4 @@ search.app:
 
 ## 2.6
 
-[2.6](https://cloudblogs.microsoft.com/dynamics365/it/2018/05/09/whats-new-for-dynamics-365-resource-scheduling-optimization-v2-6-release/)
+[Read a blog post about this update.](https://cloudblogs.microsoft.com/dynamics365/it/2018/05/09/whats-new-for-dynamics-365-resource-scheduling-optimization-v2-6-release/)

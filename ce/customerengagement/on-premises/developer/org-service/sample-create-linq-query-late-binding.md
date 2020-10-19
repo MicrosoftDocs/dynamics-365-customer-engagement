@@ -3,7 +3,7 @@ title: "Sample: Create a LINQ query with late binding (Developer Guide for Dynam
 description: "This sample shows how to create .NET Language-Integrated Query (LINQ) queries using late-bound entities"
 ms.custom: 
 ms.date: 02/05/2020
-ms.reviewer: "pehecke"
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -25,8 +25,7 @@ ms.author: kvivek
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Sample: Create a LINQ query with late binding
 

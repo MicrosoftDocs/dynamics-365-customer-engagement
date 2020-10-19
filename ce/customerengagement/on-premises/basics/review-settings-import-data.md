@@ -15,8 +15,7 @@ ms.author: mduelae
 manager: kvivek
 search.audienceType: 
   - enduser
-search.app: 
-  - D365CE
+
 ---
 # Review settings and import data
 

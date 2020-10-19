@@ -3,7 +3,7 @@ title: "Sample: Add products to a bundle (Developer Guide for Dynamics 365 Custo
 description: "Sample demonstrates how to add products to a product bundle."
 ms.custom: 
 ms.date: 06/11/2018
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -15,8 +15,7 @@ ms.author: kvivek
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Sample: Add products to a bundle
 

@@ -1,7 +1,7 @@
 ---
 title: "Support and billing | MicrosoftDocs"
 ms.custom: 
-ms.date: 10/01/2019
+ms.date: 09/12/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -14,12 +14,9 @@ ms.assetid: 93c342d6-8d16-4eca-add1-688e04546d42
 caps.latest.revision: 4
 author: jimholtz
 ms.author: jimholtz
-manager: kvivek
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - Powerplatform
+
 ---
 # Support overview
 
@@ -114,7 +111,7 @@ ProDirect, however, is more limited than Premier Advisory Support. ProDirect adv
 
 Microsoft may provide access to Dynamics 365 preview, beta, or other prerelease features, services, software, or regions, to obtain feedback and for evaluation purposes. There are many different kinds of preview services and features for Dynamics 365, with service availability and program access being the biggest differentiators:
 
-- **Public Preview**: Made available to Dynamics 365 subscribers through the Dynamics 365 admin center, these services are intended to give subscribers an early look into what is coming and a chance to test upcoming services and features.
+- **Public Preview**: Made available to Dynamics 365 subscribers through the Power Platform admin center, these services are intended to give subscribers an early look into what is coming and a chance to test upcoming services and features.
 - **Private Preview**: Provided only to a small subset of customers, in direct contact with the Dynamics 365 engineering teams, focused on direct and constant feedback during the development phase of a service.
 - **Limited Preview**: A fixed and limited number of customers can have access to this preview program, and once a maximum threshold is met, no more users are allowed into the program.
 

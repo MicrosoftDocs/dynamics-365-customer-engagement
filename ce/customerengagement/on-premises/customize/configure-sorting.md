@@ -16,12 +16,13 @@ ms.author: matp
 manager: kvivek
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 # Sort records in a view
 
 <a name="BKMK_ConfigureSorting"></a>    
+
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Sort records in a model-driven app view](/powerapps/maker/model-driven-apps/configure-sorting)
   
 1.  When you create or edit the view, select **Configure Sorting**.  
   

@@ -1,7 +1,7 @@
 ---
 title: "Add the Kanban control to Opportunity or Activity entities (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Add the Kanban control to the Opportunity or Activity entity. The Kanban control enables salespeople to monitor their pipeline, see where opportunities are in a business process flow, or track their activities efficiently."
-ms.date: 04/24/2020
+ms.date: 10/14/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
@@ -12,10 +12,12 @@ manager: annbe
 
 # Add the Kanban control to Opportunity or Activity entities
 
-Kanban views help salespeople to manage their opportunities and activities effectively. Add the Kanban control to the Opportunity and Activity entity so salespeople can use the Kanban views.
+Kanban views help salespeople to manage their opportunities and activities effectively. Add the Kanban control to the Opportunity and Activity entity so salespeople can use the Kanban views. Similar to other custom controls, Kanban control is supported on all views.
 
 > [!IMPORTANT]
-> The Kanban control works only on the Opportunity and Activity entity.
+> - The Kanban control works only on the Opportunity and Activity entities.
+> - The Kanban control is supported only on the main grid. It isn't currently supported on subgrids.
+> - The Kanban control is not supported in the **Dynamics 365 for Phones** mobile app.
 
 To add the control:
 1. In your app, select the **Settings** icon, and then select **Advanced Settings**.

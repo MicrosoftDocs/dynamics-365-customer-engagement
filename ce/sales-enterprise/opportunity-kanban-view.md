@@ -1,13 +1,20 @@
 ---
 title: "Work with opportunities in the Kanban view (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Use the opportunity Kanban view to effectively monitor the pipeline and see the opportunities in their different statuses or stages of business process flow."
-ms.date: 04/16/2020
+ms.date: 10/14/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
+searchScope:
+  - D365-App-msdynce_saleshub
+  - D365-Entity-opportunity
+  - D365-UI-*
+  - Customer Engagement
+  - Dynamics 365
+  - Sales
 ---
 
 # Work with opportunities in the Kanban view
@@ -17,6 +24,9 @@ Use the Kanban view to effectively keep tabs on the sales pipeline.
 The Kanban view shows opportunities as cards. The lanes in the Kanban view represent the default statuses or business process flow stages of opportunities. The opportunity cards within the swim lanes show where in the process the opportunities are. 
 
 You can drag the opportunities to different lanes to move them from one status or stage to another.
+
+> [!NOTE]
+> The Kanban view is not supported in the **Dynamics 365 for Phones** mobile app.
 
 ## Open a Kanban view
 

@@ -3,7 +3,7 @@ title: "Azure integration with Dynamics 365 Customer Engagement (Developer Guide
 description: "Learn about connecting Dynamics 365 Customer Engagement (on-premises) with the Azure platform by coupling the Dynamics 365 Customer Engagement (on-premises) event execution pipeline to the Azure Service Bus."
 ms.custom: 
 ms.date: 09/19/2018
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -19,8 +19,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Azure integration with Customer Engagement
 

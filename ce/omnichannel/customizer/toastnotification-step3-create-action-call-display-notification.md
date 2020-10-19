@@ -52,80 +52,6 @@ ms.topic: article
 
 7. Repeat steps 4 through 6 to create the following additional action calls.
  
-<!-- ## Show Entity Notification
-
- | Tab             | Field           | Value                                        |
- |-----------------|-----------------|----------------------------------------------|
- | General | Name            | Show Entity Notification                   |
- | General | Order           | 10                                           |
- | General | Hosted Control  | Omnichannel Toast Notification              |
- | General | Action          | Show                                         |
- | General | Data            | formname=EntityNotification <br> top=85 <br> left=95 <br> timeout=60 <br> stack=true <br> stackHeight=50 <br> EntityDisplayName=\[\[EntityDisplayName\]+\] <br> EntityLogicalName=\[\[EntityLogicalName\]+\] <br> EntityId=\[\[EntityId\]+\] <br> ConversationId=\[\[ConversationId\]+\] |
-
-
-## Expand Right Pane
-
- | Tab             | Field           | Value                          |
- |-----------------|-----------------|--------------------------------|
- | General | Name            | Expand Right Pane              |
- | General | Hosted Control  | Custom Panel                   |
- | General | Action          | SetVisualProperty              |
- | General | Data            | elementName=RightPanelExpander <br> propertyname=IsExpanded <br> value=true |
-
-## Create Customer Session
-
- | Tab             | Field           | Value                 |
- |-----------------|-----------------|-----------------------|
- | General | Name            | Create Customer Session |
- | General | Order           | 10                    |
- | General | Hosted Control  | CRM Global Manager    |
- | General | Action          | CreateSession    |
- | Advanced | Condition | \[\[$GlobalDictionary.CurrentSessionCount\]+\] < \[\[$Global.maxNumberOfSessions\]+\]  && '\[\[CanActivateSession\]+\]' != 'True' |
-
-## Set Entity Session Property in Context
-
- | Tab             | Field           | Value                                  |
- |-----------------|-----------------|----------------------------------------|
- | General | Name            | Set Entity Session Property in Context |
- | General | Order           | 11                                     |
- | General | Hosted Control  | CRM Global Manager                     |
- | General | Action          | CopyToContext                          |
- | General | Data            | ISENTITYSESSION=True <br> CRMCONTACTID=010101                 |
-
-## Collapse Left Panel
-
- | Tab             | Field           | Value            |
- |-----------------|-----------------|------------------|
- | General | Name            | Collapse Left Panel |
- | General | Order           | 12                |
- | General | Hosted Control  | Custom Panel      |
- | General | Action          | SetVisualProperty |
- | General | Data            | elementname=LeftPanelParent <br>  propertyname=Visibility <br> value=$Expression('\[\[$Context.IsCaseSession\]+\]'=='True' \|\| '\[\[$Context.ISENTITYSESSION\]+\]'=='True' \|\| '\[\[$Session.IsGlobal\]+\]'=='True' \|\| '\[\[$Context.cticallincoming\]+\]'=='1'? "Collapsed" : "Visible")  |
-
-## Load Form for Entity 
-
- | Tab             | Field           | Value                                  |
- |-----------------|-----------------|----------------------------------------|
- | General | Name            | Load Form for Entity              |
- | General | Order           | 30                                     |
- | General | Hosted Control  | Entity Page                        |
- | General | Action          | Open\_CRM\_Page                        |
- | General | Data            | LogicalName=\[\[EntityLogicalName\]+\] <br> id=\[\[EntityId\]+\]  |
- | Advanced | Condition | \[\[$GlobalDictionary.CurrentSessionCount\]+\] < \[\[$Global.maxNumberOfSessions\]+\] |
-
-## Omnichannel Set Session Tab Id For Entity Session
-
- | Tab             | Field           | Value                                       |
- |-----------------|-----------------|---------------------------------------------|
- | General | Name            | Omnichannel Set Session Tab Id For Entity Session           |
- | General | Order           | 45                                          |
- | General | Hosted Control  | Communication Panel                    |
- | General | Action          | OmnichannelSetSessionTabIdForEntitySession  |
- | General | Data            | ConversationId=\[\[ConversationId\]\] <br> SessionTabId=\[\[$Session.ActiveSession\]\] |
- | Advanced | Condition | \[\[$GlobalDictionary.CurrentSessionCount\]+\] < \[\[$Global.maxNumberOfSessions\]+\] | 
-
-  -->
-
 ## Show Session Error Toast Notification
 
  | Tab | Field | Value |
@@ -137,42 +63,11 @@ ms.topic: article
  | General | Data | formname=ToastNotification <br> top=85 <br> left=82 <br> timeout=7 <br> stack=true <br> stackHeight=56 <br> placementmode=absolute <br> ToastNotificationText=To open this incoming conversation in a session, close an existing session. <br> NotificationIcon=new_omni_toast_error_icon |
  | Advanced | Condition | \[\[$GlobalDictionary.CurrentSessionCount\]+\] >= \[\[$Global.maxNumberOfSessions\]+\] && '\[\[CanActivateSession\]+\]' != 'True' |
 
-<!--
-## Omnichannel Session Timeout 
-
- | Tab             | Field           | Value                       |
- |-----------------|-----------------|-----------------------------|
- | General | Name            | Omnichannel Session Timeout            |
- | General | Order           | 16                          |
- | General | Hosted Control  | OmnichannelHostedControl    |
- | General | Action          | OCSessionTimeout            |
- | General | Data            | ConversationId=\[\[cid\]\]  |
-
-
-## Load Case session Agent Script
-
- | Tab             | Field           | Value                       |
- |-----------------|-----------------|-----------------------------|
- | General | General | Name            | Load Case session Agent Script           |
- | General | Order           | 20                          |
- | General | Hosted Control  | Agent Script HC   |
- | General | Action          | GoToTask           |
- | General | Data            | Case Resolution Script  |
- | Advanced | Condition | \[\[$GlobalDictionary.CurrentSessionCount\]+\] < \[\[$Global.maxNumberOfSessions\]+\] |
-
- | Tab             | Field           | Value                            |
- |-----------------|-----------------|----------------------------------|
- | General | Name            | Close Toast Notification        |
- | General | Hosted Control  | Omnichannel Toast Notification  |
- | General | Action          | Close                            |
-
- -->
-
 
 > [!div class="nextstepaction"]
 > [Next topic: Step 4: Attach Omnichannel Toast Notification-related action calls to events](toastnotification-step4-add-action-calls-events.md)
 
-## See also
+### See also
 
 - [Configure toast notification in Unified Service Desk](configure-toast-notification-unified-service-desk.md)
 - [Step 1: Create forms to define layout and behavior of the notification](toastnotification-step1-create-forms-define-layout-behavior-notification.md)

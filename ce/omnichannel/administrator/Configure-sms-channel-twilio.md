@@ -4,9 +4,9 @@ description: "Instructions for configuring an SMS channel for Twilio in Omnichan
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/06/2020
+ms.date: 10/05/2020
 ms.service: 
-  - "dynamics-365-customerservice"
+   "dynamics-365-customerservice"
 ms.topic: article
 ---
 
@@ -40,7 +40,7 @@ An SMS channel is enabled within Omnichannel for Customer Service by integrating
 2. Purchase support phone numbers through your Twilio account.
 
 > [!NOTE]
-> In this release, only long-code&ndash;type US phone numbers are supported.
+> Only US phone numbers are supported.
 
 ### Create a work stream
 
@@ -77,18 +77,23 @@ Perform the following steps to create a work stream for the SMS channel for Twil
 8. On the **SMS Numbers** tab, select **New SMS Number**, and then enter the following details:
 
     - **Number**: Specify the support phone number that you purchased from Twilio in the *<country_code><phone_number>* format, such as 14252306549. Make sure that you don't enter blank spaces or special characters.
-    - **Type**: Select **Long code**.
-    - **Description**: Specify a description for the number (optional).
-    - **Operating Hours**: Specify the business hours when the customer support team is active and available to serve customers. You can specify this value only when the **Allow automated messages** option is set to **Yes** on the **Work Distribution** tab.
+    - **SMS number language**: This is the preferred language that will be used when you configure automated messages on the **Automated messages** tab. 
+    - **Type**: Select **Long code**, **Short code**, or **Toll free**.
+    - **Description**: Specify a description for the number. (Optional) 
+    - **Operating Hours**: Specify the business hours when the customer support team is active and available to serve customers.
 
     > [!NOTE]
     > You can configure only one phone number per work stream.
 
 9. Select **Save**.
 
-10. On the command bar, select **Validate API Key**. The Twilio account and phone number are validated.
+10. Optionally, on the **Automated messages** tab, [configure automated messages](configure-automated-message.md).
 
-11. Configure the routing rules on the **Routing rule items** tab. The routing rule for SMS works on **Mobile Phone** of the **Contact** entity. The customer is identified based on **Mobile Phone**, and the conversation is automatically linked to the contact record.
+11. Optionally, on the **Surveys** tab, [configure a post-conversation survey](configure-post-conversation-survey.md).
+
+12. On the command bar, select **Validate API Key**. The Twilio account and phone number are validated.
+
+13. Configure the routing rules on the **Routing rule items** tab. The routing rule for SMS works on **Mobile Phone** of the **Contact** entity. The customer is identified based on **Mobile Phone**, and the conversation is automatically linked to the contact record.
 
     > [!NOTE]
     > To configure routing rules and other options in the work stream for Twilio, see the following:
@@ -123,5 +128,6 @@ When you validate the SMS settings while setting up the SMS channel, a call is m
 
 ### See also
 
+[Channels in Omnichannel for Customer Service](channels.md)  
+[Delete a configured channel](delete-channel.md)  
 [SMS FAQ](../faqs.md#sms)  
-[Channels in Omnichannel for Customer Service](channels.md)

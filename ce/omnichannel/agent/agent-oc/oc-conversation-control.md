@@ -4,9 +4,9 @@ description: "Conversation control is a communication panel in Omnichannel where
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 06/12/2020
+ms.date: 10/12/2020
 ms.service: 
-  - "dynamics-365-customerservice"
+   "dynamics-365-customerservice"
 ms.topic: article
 ---
 
@@ -37,7 +37,7 @@ In the communication panel, you can see the following options:
 |------|------------------|-----------------------------------------------|----------|
 |  1   | Public           | Send messages to public | `/p` |
 |  2   | Internal         | Send messages to internal users | `/i` |
-|  3   | Quick replies    | Send templatized messages  | `/q` |
+|  3   | Quick replies    | Send templatized messages created by you as personal quick replies or quick replies created by your administrator | `/q` |
 |  4   | Consult          | View list to consult with other users | `/c` |
 |  5   | Transfer         | View list to transfer the request | `/t` and `/tq` |
 |  6   | Notes            | Take notes specific to conversation | |
@@ -62,21 +62,30 @@ You can use the keyboard commands to send internal and public messages:
 
 - **/p** – Type the forward slash (/) key and the letter **p** to send a public message to all the participants in the interaction.
 
-## Send template-based messages in chats
+## Send predefined messages in chats
 
-The communication panel allows you to send predefined messages to a customer with whom you're interacting. These predefined  message templates are stored as quick replies. Select the **Quick replies** button to retrieve the messages and send them to the customers and/or internal participants.
+The communication panel allows you to send predefined messages to a customer with whom you're interacting. These predefined  messages are stored as quick replies. Select the **Quick replies** button to retrieve the messages and send them to the customers and or internal participants.
 
  > [!div class=mx-imgBorder] 
- > ![Use quick replies option to send faster replies to customers](../../media/oceh-send-quick-replies-chat.png "Use quick replies option to send faster replies to customers")  
+ > ![Use quick replies option to optimize your replies to customers](../../media/oceh-send-quick-replies-chat.png "Use quick replies option to optimize your replies to customers")  
 
 You can use a keyboard command to see the list of quick replies. Type the forward slash (/) key and the letter q (**/q**). When you type **/q**, the **Quick replies** panel is displayed.
 
+The quick replies can be created either by the administrator or by you. You can create personal quick replies if the administrator has enabled the option. The quick replies created by you are available on the **Personal** tab of the **Quick replies** panel. For more information about personal quick replies, see [Create personal quick replies](create-personal-quick-replies.md).
+
 ### Search for messages
 
-After you type **/q** in the communication panel messaging area, you can continue typing any keywords and if the **Quick replies** library has at least one message associated with the word, it is filtered and displayed to you.
+After you type **/q** in the communication panel messaging area, you can continue typing any keywords and if the **Quick replies** library has at least one message associated with the word, it is filtered and displayed to you. You can also use the number (#) sign to search for the predefined messages.
 
- > [!div class=mx-imgBorder] 
+ > [!div class=mx-imgBorder]
  > ![Type /q and the keyword to filter the replies](../../media/oceh-send-quick-replies-filter.png "Filter replies")  
+
+### Share reconnection link with customers
+
+If the reconnection link is configured by your administrator, you can share the link with customers during the session that they can use to connect back to the chat when they are disconnected for some reason, such as loss of connectivity or restart of their computer. The reconnection link information is available as a quick response.
+
+> [!IMPORTANT]
+> You can share the reconnection link only when you don't end the chat session using the **End** button.
 
 ## Consult with agent or supervisor
 

@@ -4,7 +4,7 @@ description: "Learn how to configure a channel provider install and setup Channe
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 02/14/2020
+ms.date: 08/26/2020
 ms.topic: article
 ms.service: 
   - dynamics-365-customerservice

@@ -1,7 +1,7 @@
 ---
 title: "Learn the basics of Dynamics 365 Sales | Microsoft Docs"
 description: "Quickly onboard and learn about Dynamics 365 Sales and its user interface."
-ms.date: 10/14/2019
+ms.date: 07/16/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: get-started-article
@@ -29,6 +29,18 @@ Start here to onboard quickly and learn about the different offerings of Sales a
 
    > [!div class="mx-imgBorder"]
    > ![Tile for Sales Hub](media/saleshub_tile_unified_interface.png "Tile for Sales Hub")
+
+## Navigate using the site map
+
+The following image shows the site map or menu of the Sales Hub that helps you navigate to the different areas of the app.
+
+![Menu of the Sales Hub app](../sales-enterprise/media/menu-sales-hub-app.png "Menu of the Sales Hub app")
+
+![Menu item 1](media/number-1.png "Menu item 1")  **Open or collapse the site map**.  
+![Menu item 2](media/number-2.png "Menu item 2")   Access the recent items you've worked on or the customers you've pinned.  
+![Menu item 3](media/number-3.png "Menu item 3")  Access everything that you need to communicate with customers, manage your sales-related records, and so on.  
+![Menu item 4](media/number-4.png "Menu item 4") Switch between **Sales**, **Settings**, and **Training** area. 
+
 
    
 ## Understand the data in the app

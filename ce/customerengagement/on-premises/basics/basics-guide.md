@@ -16,8 +16,7 @@ author: mduelae
 ms.author: shujoshi
 search.audienceType: 
   - enduser
-search.app: 
-  - D365CE
+
 ---
 # Basics Guide for Dynamics 365 Customer Engagement (on-premises), version 9
 

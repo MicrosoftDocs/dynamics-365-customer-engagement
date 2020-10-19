@@ -12,15 +12,14 @@ ms.assetid: 4ee28c9c-4d78-47b1-911b-782527bcda45
 author: JimDaly
 ms.author: nabuthuk
 manager: kvivek
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.suite: 
 ms.tgt_pltfrm: 
 caps.latest.revision: 28
 topic-status: Drafting
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 
 # Sample: Retrieve all charts attached to an entity

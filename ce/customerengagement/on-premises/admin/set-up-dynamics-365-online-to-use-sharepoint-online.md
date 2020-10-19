@@ -17,9 +17,7 @@ ms.author: jimholtz
 manager: kvivek
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - Powerplatform
+
 ---
 # Set up Dynamics 365 for Customer Engagement to use SharePoint Online
 

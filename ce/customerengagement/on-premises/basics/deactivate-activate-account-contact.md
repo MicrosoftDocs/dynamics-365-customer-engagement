@@ -16,8 +16,7 @@ ms.author: anbichse
 manager: brycho
 search.audienceType: 
   - enduser
-search.app: 
-  - D365CE
+
 searchScope:
   - D365-App-*
   - D365-Entity-account

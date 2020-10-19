@@ -13,12 +13,11 @@ ms.topic: article
 ms.assetid: 2b91ee28-7f09-435e-9fae-5225aa698e22
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 # Common field properties
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Model-driven app common field properties](/powerapps/maker/model-driven-apps/common-field-properties-legacy)
 
  Fields in a form display controls people use to view or edit data in an entity record. Fields can be formatted to occupy up to four columns within a section.  
 

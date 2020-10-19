@@ -1,7 +1,7 @@
 ---
 title: "Create or edit invoices (Dynamics 365 Sales) | MicrosoftDocs"
 description: "An invoice is an order that has been billed to the customer."
-ms.date: 10/01/2019
+ms.date: 06/22/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
@@ -57,6 +57,9 @@ Typically, you convert an order into an invoice; however, you can also create an
 
         > [!NOTE]
         > By default, selecting a price list is required to be able to add products to an invoice; however, your administrator can change your organization settings to make the Price List field optional. 
+
+   -  **Prices Locked**. This field is read-only. You set **Prices Locked** by selecting **Lock Pricing** on the command bar. More information: [Lock or unlock the price for an order or invoice](lock-unlock-price-order-invoice.md), [Sales transactions in Dynamics 365 Sales](sales-transactions.md) 
+
   
 4. In the **Sales Information** section, in **Potential Customer**, select the customer you're creating this invoice for.
   

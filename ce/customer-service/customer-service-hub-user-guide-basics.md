@@ -1,13 +1,14 @@
 ---
-title: "Learn the basics of the Customer Service Hub app | Microsoft Docs"
+title: "Learn the basics of the Customer Service Hub app | MicrosoftDocs"
 description: "Learn the basics of the Customer Service Hub for Customer Service"
-ms.date: 05/26/2020
+ms.date: 10/05/2020
 ms.service:
-  - "dynamics-365-customerservice"
+  "dynamics-365-customerservice"
 ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
+
 ---
 
 # Learn the basics of the Customer Service Hub
@@ -30,32 +31,33 @@ The Customer Service Hub's intuitive interface brings together vital information
 
 ## Open the Customer Service Hub
 
-The Customer Service Hub app is available to use on a desktop browser and on a mobile device for managing knowledge articles and case management. You can open the Customer Service Hub in the following ways:  
+The Customer Service Hub app is available to use on a desktop browser and on a mobile device for managing knowledge articles and case management. You can open the Customer Service Hub in one the following ways:  
 
 > [!NOTE]
 > These options are available only to users with the Customer Service app access role, System Administrator role, or System Customizer role.
 
 **Desktop browser**
   
-- In the Common Data Service platform, go to **Settings** > **Application** > **My Apps** >  **Customer Service Hub**.   
+1. In the Common Data Service platform, go to **Settings** > **Application** > **My Apps** >  **Customer Service Hub**.
 
-   ![open-csh](media/open-csh.png "Open the Customer Service Hub")
+   ![Navigate to the application settings for Customer Service Hub](media/open-csh.png "Open the Customer Service Hub")
  
   
-- In the Dynamics 365 Customer Service sitemap, navigate to the app switcher and then select **Customer Service Hub**.
+2. In the Dynamics 365 Customer Service site map, navigate to the app switcher, and then select **Customer Service Hub**.
 
-  ![open-csh-sitemap](media/open-csh-sitemap.png "Customer Service Hub sitemap")
+  ![Open the Customer Service Hub site map](media/open-csh-sitemap.png "Customer Service Hub site map")
   
 **Mobile device**
 
 To access the Customer Service Hub app on a mobile device:
 
-- Install the Dynamics 365 Customer Service mobile app. 
+1. Install the Dynamics 365 Customer Service mobile app.
   
   To install the Dynamics 365 Customer Service mobile app, see [Install Dynamics 365 for phones and tablets](../mobile-app/install-dynamics-365-for-phones-and-tablets.md)
-- From the MyApps page, select **Customer Service Hub**.
 
-   ![choose-on-mobile](media/ChooseAnApp_1.png "Customer Service Hub on mobile")
+2. From the My Apps page, select **Customer Service Hub**.
+
+   ![Select Customer Service Hub on a mobile device](media/ChooseAnApp_1.png "Customer Service Hub on mobile")
 
 ## Work with case management record types, dashboards, and tools
 
@@ -70,17 +72,17 @@ To access the Customer Service Hub app on a mobile device:
 - Queues  
 - Knowledge Articles
 
-The Customer Service Hub comes with an enhanced sitemap to enable easy navigation of the interface. To learn more, see [Understand the sitemap navigation](#understand-the-sitemap-navigation).
+The Customer Service Hub comes with an enhanced site map to enable easy navigation of the interface. To learn more, see [Understand the site map navigation](#understand-the-site-map-navigation).
   
-## Understand the sitemap navigation
+## Understand the site map navigation
 
-1. Select the sitemap icon ![sitemap icon](media/sitemap-icon.png "Sitemap"). Select Service, and then select an entity record type.
+1. Select the site map icon ![site map icon](media/sitemap-icon.png "Site map"). Select Service, and then select an entity record type.
 
   > ![Navigate Records](media/v9-navigate-records.png "Navigate Records")
 
 When you select a record type from the menu, such as Accounts, Contacts, or Cases, you'll see a list of corresponding customer records (also known as Entity grid).
 
-To view recently opened records, select the down-arrow next to the record type in the sitemap.
+To view recently opened records, select the down-arrow next to the record type in the site map.
 
 Here is what each entity record type is used for:
 
@@ -93,19 +95,21 @@ Here is what each entity record type is used for:
   - **Queues** keep a track of cases waiting for you to work on.
   - **Knowledge Articles** capture your customer's questions, issues, feedback, and resolutions, so that other service reps can benefit from them.
 
-2. Select **...** to go to **Training** and access the documentation site to view the **Help Center**. 
-3. You can also access **Service Management** from the sitemap. Service Management lets you define all the customer service admin settings from the Customer Service Hub sitemap.  Select **...** to go to **Service Management**.
+
+2. Select **...** to go to **Training**, and access the documentation site to view the **Help Center**. 
+
+3. You can also access **Service Management** from the site map. Service Management lets you define all the customer service admin settings from the Customer Service Hub site map.  Select **...** to go to **Service Management**.
 
    [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Service Manager Guide (Customer Service Hub and Customer Service app)](service-manager-guide.md).
 4. Select **Favorites and Recent** button ![recent-button](media/fav-and-recent.png)  to see recently viewed records, or to see views that have been pinned as favorites.
 
-   For a mobile device, the sitemap is displayed as illustrated in the following image:
+   For a mobile device, the site map is displayed as illustrated in the following image:
 
-   ![mobile-sitemap](media/mobile-sitemap.png "Customer Service Hub sitemap on mobile")
+   ![mobile-site map](media/mobile-sitemap.png "Customer Service Hub site map on mobile")
 
 ## Open the default dashboard for a record type
 
-When you're viewing the list of records for a specific record type, select **Open Dashboards** in the command bar to switch to the default dashboard for that record type. 
+When you're viewing the list of records for a specific record type, select **Open Dashboards** in the command bar to switch to the default dashboard for that record type.
 
 To return to the list of records, select **Open Views** in the command bar.
   
@@ -121,7 +125,7 @@ When you're viewing a record:
 
 2. A side panel opens where you can view other records. You can directly select the records from the panel and view the details of the  record.
 
-    ![record set list](channel-integration-framework/media/Nav-fly-out-2.png "record set list") 
+    ![record set list](channel-integration-framework/media/Nav-fly-out-2.png "Record set list") 
  
 > [!NOTE]
 > The option Open Record Set will not be available on devices with comparatively smaller screen sizes.
@@ -133,7 +137,7 @@ More information: [Create and manage queues](https://docs.microsoft.com/dynamics
 - To create records quickly by filling in only the most basic information, select the **New** button ![Create button](../customer-service/media/quick-create-button.png "Create button") given on the nav bar.
 
   > [!TIP]
-  > On a mobile device, from the nav bar, tap ![ellipsis](media/ellipsis.png) and then tap **Quick Create Menu**.
+  > On a mobile device, from the nav bar, tap ![Tap the ellipsis](media/ellipsis.png "Tap the ellipsis") and then tap **Quick Create Menu**.
 
 ## Email a link
 
@@ -153,7 +157,7 @@ When you select a process stage on the process bar, you'll see the steps to take
 
 The stages in the business process flow are displayed in floating mode, or docked mode. Stages can  be aligned in a vertical layout, instead of horizontal, which makes it easier to see what steps are required to move forward. You can also choose to include an optional step in the business process flow and define criteria to trigger it.
 
-![business-process-flow](media/business-process-flow.png "Business process flows")
+![Business process flows](media/business-process-flow.png "Business process flows")
   
 If there is more than one process to follow, you can switch between them by selecting **Process** > **Switch Process** on the command bar, and then selecting the process you want to use.  Or you can choose to abandon the process if it no longer applies.
   
@@ -188,199 +192,47 @@ For example, here's a view of how the tabs appear on the case form:
 
 See a complete view of your customer's touch points in the Contact card. This card is available in the **General Information** section of the **Summary** tab.  
   
-![contact-card](media/contact-card.png "Contact card")
+![Contact card](media/contact-card.png "Contact card")
 
 You can add a picture to the account or contact record in the Common Data Service platform, and it will appear on this card. You can make calls to customers from the Contact card using Skype for Business – IP telephony.
   
 For account records, the card shows contact details for the primary contact associated with the account. For contact records, the card appears if the contact is the customer value on the case form.  
 
-### Timeline
+## Work with Queues
 
-See a combined view of your customer's interactions across various channels, such as phone, email, or even social activities in the Timeline. The Timeline enables you to create notes and posts, and also, to view any related notes or system posts.  The Timeline control makes collaboration with other users easy and efficient.
+Use queues to organize, prioritize, and monitor the progress of your work. In Dynamics 365 Customer Service, queues are containers used to store anything that needs to be completed or requires an action, for example completing a task or closing a case. To know more about creating and managing queues, see [Create and manage queues](set-up-queues-manage-activities-cases.md).
 
-You can do the following:
+![Work with queues](media/queues-view.png "Queues view")
 
-- Identify the key activities with simple icons.
-- Quick access to the command bar to perform common actions on an activity with ease.
-- Filter activities on the timeline with multiple filter options.
-- View and manage email conversation threads on the timeline with ease.
-- Expand and collapse activities in the timeline with ease.
 
-The Customer Service Hub comes with an enhanced timeline that shows you all customer interactions arranged in a single stream. Managing activities in the timeline wall will be faster and more responsive with improvements to data viewability and usability.
+To know how to add a case to a queue, see [Add a case to a queue](customer-service-hub-user-guide-case-queues-and-routing.md).
 
-  ![Timeline shows customer activities across channels](../customer-service/media/v9-case-form-timeline.png "Timeline shows customer activities across channels")
+## Understand Site
 
-  1. Search Records
-  2. Take notes
-  3. Add info and activities
-  4. Filter
-  5. More commands
-  6. Activity status
-  7. Activity icons
-  8. Date and time
+To create a new site, you need to go to **Advanced find** ![Advanced find](media/advanced-find-icon.png "Advanced find").  Then you can customize other entity forms (e.g. Account) by adding this site field.
 
-The timeline section is available on the **Summary** tab for account, contact, case records, and for knowledge articles, and it shows the following:
-- Activity
-  - Appointment
-  - Email
-  - Phone Call
-  - Task
-- Note
-- Post
+  ![Create New Site](media/add-site-to-any-entity-1a.png "Create New Site")
+ 
+## Understand Facility/Equipment
 
-> [!Note]
-> The activities, note, and post are standard entities. If your administrator or system customizer has configured other entities, then those will appear. 
+ To create a new Facility/Equipment item, you need to go to **Advanced find** ![Advanced find](media/advanced-find-icon.png "Advanced find"), where you can create Facility/Equipment.
 
-You can create, edit, and delete an activity, note, post, and other interactions from the timeline itself. Additionally, you can filter and sort the interactions. In the timeline area, you can see three actions: **Add info and activities**, **Open filter pane**, and **More commands**. Use these options to add, filter, and sort the interactions on the timeline.
-
-- **Add activities, posts, and notes:** Select the **+** icon in the timeline area to quickly open an form or quick create form to create and save. The item you created appears in the timeline. The standard activities that you can currently create with **+** button in the timeline are as follows:
-
-    - Appointment
-    - Task
-    - Phone Call
-    - Email
-
-    If your administrator has the enabled enhanced email experience, then you can compose the email in the enhanced email pop-up window. To learn more, see [Create and send email using the enhanced email experience](#create-and-send-email-using-the-enhanced-email-experience).
-
-  Based on your administrator configuration, other entities may appear.
-
-- **Filter the activities, post, and note:** With the help of text and visual filters, you can filter by activities, notes, posts, and other custom entities in the timeline. You can also view the items from the previous day or week, and you can filter the interactions using the filter icon in the timeline area. To learn more, see [Filter activities, posts, and notes on the timeline](#filter-activities-posts-and-notes-on-the-timeline).
-
-- **More commands:** The timeline provides the options to refresh so you see the updated list of activities, notes, and posts and sort the timeline interactions. Select the ellipsis (**...**) in the timeline to refresh and sort the timeline by choosing one of the two: **Sort newer to older** and **Sort older to newer**.
-
-  ![timeline-ellipsis](media/timeline-ellipsis.png "Timeline ellipsis to filter activities")
-
-#### **Take a note**
-
-You can select the **Enter a note** box in the timeline and specify a title and message. The message box has a rich text editor that enables you to create rich and well-formatted content for the notes with emphasis.  
-
-  ![Timeline notes rich text editor](media/timeline-notes1.png "Timeline notes rich text editor")
-  
-  The editor offers the following functionality:
-  
-  |Icon | Name | Shortcut key | Description |
-|----------------------|-------------------------|-----------------------------|-----------------------------|
-|![Format Painter](../customer-service/media/format-painter.png "Format Painter")| Format Painter | Ctrl+Shift+C, Ctrl+Shift+V | Apply the look of a particular section to another section. |
-|![Font](../customer-service/media/format-font.png "Font") | Font | Ctrl+Shift+F | Select your desired font. The default font is Segoe UI.<br /><br /> **Note**: When you select any formatted content, the font name for that content displays. If your selection contains multiple fonts, the topmost font name of your selection is displayed. |
-|![Font Size](../customer-service/media/font-size.png "Font Size") | Font size | Ctrl+Shift+P | Change the size of your text. The default size is 12.<br /><br /> **Note**: When you select any formatted content, the font size for that content displays. If your selection contains multiple font sizes, the topmost font name of your selection is displayed.|
-|![Bold](../customer-service/media/format-bold.png "Bold")| Bold | Ctrl+B | Make your text bold. |
-|![Italic](../customer-service/media/format-italic.png "Italic")| Italic | Ctrl+I | Italicize your text. |
-|![Underline](../customer-service/media/format-underline.png "Underline")| Underline | Ctrl+U | Underline your text. |
-|![Text Highlight Color](../customer-service/media/text-highlight-color.png "Text Highlight Color")| Text Highlight Color |  | Make your text stand out by highlighting it in a bright color. |
-|![Font Color](../customer-service/media/font-color.png "Font Color")| Font Color |  | Change the color of your text. |
-|![Bullets](../customer-service/media/format-bullets.png "Bullets")| Bullets |  | Create a bulleted list. |
-|![Numbering](../customer-service/media/format-numbering.png "Numbering")| Numbering |  | Create a numbered list. |
-|![Decrease Indent](../customer-service/media/decrease-indent.png "Decrease Indent")| Decrease Indent |  | Move your paragraph closer to the margin. |
-|![Increase Indent](../customer-service/media/increase-indent.png "Increase Indent")| Increase Indent |  | Move your paragraph farther away from the margin. |
-|![Block Quote](../customer-service/media/block-quote.png "Block Quote")| Block Quote |  | Apply a block-level quotation format in your content. |
-|![Align Left](../customer-service/media/align-left.png "Align Left")| Align Left | Ctrl+L | Align your content with the left margin. (Commonly used for body text to make it easier to read.) |
-|![Align Center](../customer-service/media/align-center.png "Align Center")| Align Center | Ctrl+E | Center your content on the page. (Commonly used for a formal appearance.) |
-|![Align Right](../customer-service/media/align-right.png "Align Right")| Align Right | Ctrl+R | Center your content on the page. (Commonly used for a formal appearance.) |
-|![Link](../customer-service/media/format-link.png "Link")| Link |  | Create a link in your document for quick access to web pages and files.<br /><br />Pasted or typed URL text is converted into a link. For example, "http://myexample.com" will become "<a href="http://myexample.com">http://myexample.com</a>".<br /><br /> In the **Link** dialog box, choose the type of link you'd like to insert.<br /><br />The **Link Info** tab allows you to choose the link type as well as set the link protocol and URL.<br /><br />The **Target** tab is only available for the URL link type. It specifies the location where the link will open after you select it. |
-|![Remove Link](../customer-service/media/remove-link.png "Unlink")| Unlink |  | Delete a link in your email or document.<br /><br />When you place the cursor on a link, the **Unlink** button on the toolbar becomes active. Select the button to remove the link and make it plain text. |
-|![Superscript](../customer-service/media/format-superscript.png "Superscript")| Superscript |  | Type very small letters just above the line of text. |
-|![Subscript](../customer-service/media/format-subscript.png "Subscript")| Subscript |  | Type very small letters just below the line of text. |
-|![Strikethrough](../customer-service/media/format-strikethrough.png "Strikethrough")| Strikethrough |  | Cross out text by drawing a line through it. |
-|![Left to Right](../customer-service/media/left-to-right.png "Left to Right")| Left to Right |  | Change the text to left-to-right for content such as a paragraph, header, table, or list. Commonly used for bi-directional language content. This is the default setting.|
-|![Right to Left](../customer-service/media/right-to-left.png "Right to Left")| Right to Left |  | Change the text to right-to-left for content such as a paragraph, header, table, or list. Commonly used for bi-directional language content. The default setting is left-to-right. |
-|![Undo Typing](../customer-service/media/undo-typing.png "Undo Typing")| Undo Typing |  | Undo changes you made to the content. |
-|![Redo Typing](../customer-service/media/redo-typing.png "Redo Typing")| Redo Typing |  | Redo changes you made to the content. |
-|![Clear All Formatting](../customer-service/media/clear-formatting.png "Clear All Formatting")| Clear All Formatting |  | Remove all formatting from a selection of text, leaving only the normal, unformatted text. |
-|![Add a Table](../customer-service/media/add-table.png "Add a Table")| Add a Table |  | Add a table to your content. <br /><br />After adding a table, you can do any of the following:<br /><br /><ul><li>Resize table columns by clicking and dragging your mouse to resize to the columns to the desired width.</li><li>Select one or several cells within a table and apply specific formatting, add links to the selection, or cut, copy, or paste entire rows or columns.</li><li>Right-click to access the properties. This supports features such as cell type, width and height, word wrapping, alignment, merging and splitting cells horizontally and vertically, inserting or deleting rows and columns, row and column span, and cell and border color.</li></ul>|
-|![Expand Toolbar](../customer-service/media/show-more.png "Expand Toolbar")| Expand Toolbar |  | Displays when the toolbar is collapsed and not all options appear. Click to expand the toolbar and make all options visible. |
-
-The feature is enabled by default, your administrator can enable or disable rich-text editor for you. To learn more, see [Enable rich-text editor for notes in timeline](https://docs.microsoft.com/powerapps/maker/model-driven-apps/set-up-timeline-control#enable-or-disable-rich-text-editor-for-notes-in-timeline).
-
-  > [!Note]
-  > You can format only the message (body), and not the title.
-
-You can also add an attachment to your notes, and the attachment is displayed below the note. At anytime, you can attach one file. Before adding the note, if you want upload another file than the one you've selected, you can again browse and choose another file. This will replace the already selected file.
-
-  ![Timeline notes and attachment](media/timeline-attachment.png "Timeline notes and attachment")
-
-  > [!Note]
-  > - The notes rich-text editor is available only for Unified Interface and not for web client.
-  > - If you create a note with the rich-text editor formatting in Unified Interface, and when you see the note in Web Client, the note is displayed to you with HTML syntax.
-
-#### **Identify the activities, notes, and posts with icons along with time stamp**
-
-The timeline shows a simple icon before the activity, post, note, and custom entity making it easy for you to identify the type.
-
-Also, you can view the timestamp at all times. Activities, posts, and notes that were created or updated today will reflect only the time and created or updated on other days will reflect the date and time.
-
-  ![Timeline activity icons](../customer-service/media/activity-icons.png "Timeline activity icons")
-
-#### **Access command bar to perform actions**
-
-When you hover the cursor on or expand an activity, post, and note, the command bar appears with the options specific to the activity, such as marking an activity complete, assigning it to others, adding it to a queue, converting it to a case, liking a post, replying to a post, editing a note, or deleting the activity.
-
-  ![Timeline command bar options](../customer-service/media/timeline-options1.png "Timeline command bar options")
-  ![Timeline command bar options](../customer-service/media/timeline-options2.png "Timeline command bar options")
-  ![Timeline command bar options](../customer-service/media/timeline-options3.png "Timeline command bar options")
-  ![Timeline command bar options](../customer-service/media/timeline-options4.png "Timeline command bar options")
-
-#### **Filter activities, posts, and notes on the timeline**
-
-Quickly filter the activities, posts, and notes with multiple filter options to see what matters to you. The filter is available for the activities, posts, notes, and custom entities that are present in timeline. The timeline filters and displays the records and the count of those records that are present in the timeline. 
-
-When you select the filter icon, you can see the **Filter by** menu where you can filter the items based on the following categories.
-
-  | Category | Sub-category |
-  |-----------------------|-----------------------|
-  | Record type | <ul> <li> Notes </li> <li> Posts </li> <li> Activities </li> </ul> |
-  | Activity type | <ul> <li> Appointment </li> <li> Email </li> <li> Phone Call </li> <li> Task</li> <li>Custom activities (as configured by your administrator) </li> </ul> |
-  | Activity status | <ul> <li> Active </li> <li> Overdue </li> <li> Closed </li> </ul> |
-  | Activity due date (active) | <ul> <li> Next 30 days </li> <li> Next 7 days </li> <li> Next 24 hours </li> <li> Last 24 hours </li> <li> Last 7 days </li> <li> Last 30 days </li> </ul> |
-  | Posts by | <ul> <li> Auto post </li> <li> Users </li> </ul> |
-  | Modified date | <ul> <li> Last 24 hours </li> <li> Last 7 days </li> <li> Last 30 days </li> </ul> |
-
-  ![Timeline activity filter](../customer-service/media/timeline-filter2.png "Timeline activity filter") ![Timeline activity filter](../customer-service/media/timeline-filter5.png "Timeline activity filter")
-
-  When you filter based on the activity status, then those activities, notes, and posts in a particular status are displayed to you.
-
-  ![Timeline activity filter](../customer-service/media/timeline-filter6.png "Timeline activity filter")
-
-#### **Search for records**
-
-You can easily search for records in the timeline. When you search for a phrase, the timeline searches the title or subject and description or body of the content, and then displays the record to you.
-
-  ![Timeline keyword search](../customer-service/media/timeline-keyword-search.png "Timeline keyword search")
-
-#### **View and manage email conversations**
-
-You can easily set email messages to show as conversation threads on the timeline, significantly reducing usability (scroll and clicks) when managing email activities.
-
-#### **Expand and collapse timeline activities**
-
-Select an activity from the timeline to expand and view. 
-
-  In the collapsed view, rich-text formatting is not displayed:  
-
-  ![Timeline card in collapsed mode](media/email-hover.png "Timeline card in collapsed mode")
-  
-  In the expanded view, any rich-text formatting that has been applied is displayed:  
-
-  ![Timeline card in expanded mode](media/email-expanded.png "Timeline card in expanded mode")
-  
-  
-#### Configure Timeline section for your users
-
-To learn more about configuration, see [Set up timeline section (control)](https://docs.microsoft.com/powerapps/maker/model-driven-apps/set-up-timeline-control) and [FAQs for timeline control](https://docs.microsoft.com/powerapps/maker/model-driven-apps/faqs-timeline-control) in the Microsoft Power Apps documentation.
+  ![Create New Facility/Equipment](media/add-site-to-any-entity-1b.png "Create New Facility/Equipment")
 
 ### Related section
 
-In the **Related** section (also known as Reference panel), use the tabs to see related records for the current record. This section is enabled by default for account, contact, case, and knowledge article records. Your customizer can add this section for all entities (including custom entities) that are enabled for interactive experience. The reference panel is also available in model-driven apps, for information, see  [Reference Panel in model-driven apps ](https://docs.microsoft.com/powerapps/user/navigation#reference-panel).
+In the **Related** section (also known as Reference panel), use the tabs to see related records for the current record. This section is enabled by default for account, contact, case, and knowledge article records. Your customizer can add this section for all entities (including custom entities) that are enabled for interactive experience. The reference panel is also available in model-driven apps, for information, see [Reference Panel in model-driven apps ](https://docs.microsoft.com/powerapps/user/navigation#reference-panel).
 
 By default, the first tab in the Related section of a case record shows the **Recent Cases and Entitlements** for the current case record you're working on. 
   
-![reference-panel](media/reference-panel.png "Reference panel")
+![Reference panel](media/reference-panel.png "Reference panel")
 
 The second tab in the Related section of a case record is the **Knowledge Base search**. Knowledge Base search lets you search for the knowledge articles related to a specific record. It also lets you view automatic suggestions. You can filter the search results to display articles that are Published, Draft, or Approved. For more information, see [Search for Knowledge articles](search-knowledge-articles-csh.md). 
   
 
 The third tab in the Related section of a case record displays **Similar Cases**. Select **...** on a record to follow or unfollow the case, and explore other options. 
 
-![similar-cases](media/similar-cases.png "Similar cases in Reference panel")
+![Similar cases](media/similar-cases.png "Similar cases in Reference panel")
 
 Watch this video to learn more about the Reference Panel in the Customer Service Hub:
 
@@ -429,7 +281,7 @@ In Dynamics 365 Customer Service, the following activities are supported:
 
 #### Open Activities view
 
-In the Customer Service Hub sitemap, select **Service** > **Activities**. The **My Activities** view is displayed. 
+In the Customer Service Hub site map, select **Service** > **Activities**. The **My Activities** view is displayed. 
 
 ![activities-email](media/activities-csh-email.png "Activities view")
 
@@ -447,227 +299,46 @@ In the Customer Service Hub sitemap, select **Service** > **Activities**. The **
 
 - To view the status of an activity, click the activity record and see bottom-left in the activity form. 
 
-## View and create email
 
-Dynamics 365 Customer Service lets agents interact with customers through email. Email functionality allows agents to:
+### Insert a knowledge article into an email
 
-- View and respond to emails. 
+While working on an email, you can quickly help customers by searching and selecting a relevant knowledge article to include in your email. You can insert the article and/or share a link to it in the body of your message.
 
-- Utilize common email toolbar functionality and rich text editor controls. 
+1. From an email form where you are drafting, place your cursor where you want to place the knowledge article or its link, and then select **Insert Knowledge Article**.
 
-- View and insert images inline using drag-and-drop or copy-and-paste functionality. 
+   The **Select knowledge article to insert** screen is displayed. 
+   
+  > [!div class="mx-imgBorder"]
+  > ![Select knowledge article to insert](media/email-insert-knowledge-article.png "Select knowledge article to insert page") 
 
-- Create email in a pop-up window.  
+2. Search for the article you want to include. For more information about searching for knowledge articles, see [Search for knowledge articles in the Customer Service Hub](search-knowledge-articles-csh.md).
 
-- Preview templates before applying them. 
+   A list of available articles will be displayed. You can select an article in the search results to view it in the preview pane.
+  
+3. When you have found the article you want to include, do one of the following : 
 
-### View your email
-
-To view your email:
-
-1. In the Customer Service Hub sitemap, go to **Service** > **Activities**. 
-
-2. Select the **All Activities** drop-down list, and then select **My Received Emails**.
-
-   > [!div class=mx-imgBorder]
-   > ![Display received emails](media/csh-view-emails.png "Display received emails")
-
-3. Select the email you want to view to open it. When the email opens, you can reply to the sender and recipients or forward it.
-
-### Create email
-
-The following steps detail how to create an email.
-
-1. In the Customer Service Hub sitemap, go to **Service** > **Activities**.
-
-2. On the command bar, select **Email**. A new email window opens.
-
-   > [!div class=mx-imgBorder]
-   > ![Create a new email](media/csh-create-email.png "Create a new email")
-
-   The **From** field is automatically populated based on the currently logged-in user.
-
-3. Write your email directly in the composer or select **Insert Template** to search for and apply a template.
-
-4. To compose your email in a full-screen window, select the expand icon.
-
-   > [!div class=mx-imgBorder]
-   > ![csh-email-expand-window](media/csh-email-expand-window.png "Expand the email window")
-
-   The message box has a rich text editor that enables you to create rich and well-formatted content for the emails with emphasis. By default, the editor displays as a single line that you can expand to see all of the functionality. For details about the features in the editor, see [Editor functionality and accessibility shortcuts](#editor-functionality-and-accessibility-shortcuts).
-
-  > [!div class=mx-imgBorder]
-  > ![csh-email-toolbar](media/csh-new-email-toolbar.png "Use the rich text editor features")
-
-5. When you're done, select **Send**.
-
-### Create and send email using the enhanced email experience
-
-An alternate way of creating email is to use the enhanced email experience, which allows you to compose email without leaving the record you are working on. With the enhanced email experience, you can:
-
-- Navigate to different pages without losing the email content.
-- Minimize the email window to get back to the records you were working on.
-- Expand the email editor pop-up window to see more email options.
-- Simultaneously open three compose email pop-up windows.
-- Search for and apply a predefined template to an email you're composing.
-- Insert attachments to email.
-
-> [!IMPORTANT]
-> - Your system administrator must enable the enhanced email experience before you can use it. Follow the steps in [Enable the enhanced email experience](#enable-the-enhanced-email-experience).
-> - The enhanced email experience is available only for email activities created from the **Timeline** section of any model-driven app. 
-
-#### Enable the enhanced email experience
-
-1. Sign in to your [https://\<YourOrgURL\>.dynamics.com/apps](https://<YourOrgURL>.dynamics.com/apps) environment.
-
-2. Open a model-driven app, and then on the command bar, select **Settings**.
-
-3. Under **System Settings**, select **Email Configuration**.
-
-    > [!div class="mx-imgBorder"]  
-    > ![Email Configuration link on the system settings page](../customer-service/media/system-settings-email-configuration.png "Email Configuration link on the system settings page")
-
-    The **Email Configuration** page opens.
-
-4. Select **Email Configuration Settings**.
-
-    > [!div class="mx-imgBorder"]  
-    > ![Email Configuration page in the system settings](../customer-service/media/email-configuration-page.png "Email Configuration page in the system settings")
-
-5. On the **Email** tab of the **System Settings** dialog box, scroll down to find **Enhanced email for Timeline**, and then select the **Multitask, compose, and save drafts, using email pop-up windows, when creating email from timeline** check box to enable it.
-
-    > [!div class="mx-imgBorder"]  
-    > ![Email tab on system settings page](../customer-service/media/email-configuration-settings.png "Email tab on system settings page with enhanced email checkbox highlighted")
-
-6. Select **OK**.
-
-#### Compose an email using the enhanced experience:
-
-   > [!Note]
-   > This section assumes the administrator has already enabled this feature. For steps on how to enable it, see [Enable the enhanced email experience](#enable-the-enhanced-email-experience).
-
-1. In the **Timeline** section of records such as account or contact, select **+** and then under **Activities**, select **Email**.
-
-   A new email pop-up window opens. 
-
-   > [!IMPORTANT]
-   > The enhanced email pop-up window opens only when the height and width of your screen size is at least 400 x 650 pixels or greater. If lower, you will be taken to the standard form instead of the enhanced email experience. 
-
+   - To insert an article into the email, select the **Insert content** icon for the article in the search results or in the article preview pane, select **Insert article content** at the top of the pane. This will insert the content into the body of your email and close the **Select knowledge article to insert** page.
+   
    > [!div class="mx-imgBorder"]
-   > ![Enhanced email pop-up window](media/csh-enhanced-email-new.png "Enhanced email pop-up window")
+  > ![Insert content into email](media/email-knowledge-article-insert-content.png "Insert an article into email by selecting either the Insert content icon from the search results or Insert article content from the preview pane") 
+   
+   -OR-
 
-   The **From** and **To** fields are automatically populated based on the user and the account and contact of the original record.
+  - If your administrator has set up an external portal that supports a URL format, you can include a link. For more information, see [Set up knowledge management (Customer Service Hub)](set-up-knowledge-management-embedded-knowledge-search.md). To insert an article as a link in the email, select the **URL** icon for the article in the search results or in the article preview pane, select **Insert URL** at the top of the pane. This will insert a link to the article into the body of your email and close the **Select knowledge article to insert** page. 
+   
+  > [!div class="mx-imgBorder"]
+  > ![Insert a link to the content into email](media/email-knowledge-article-insert-url.png "Insert a link to an article into an emaill by selecting either the Insert URL icon from the search results or Insert URL at the top of the preview pane") 
 
-2. Write your email from scratch or select **Insert Template** to search for and apply a template. For more information on inserting an email template, see [Insert an email template](#insert-an-email-template).
 
-3. Select **Attach file** if you want to add attachments.
-
-4. Select **Insert signature** to search for and add your signature.
-
-5. When you're done, select **Send**. 
-
-### Insert an email template
-
-You can use an email template—a preformatted email message—to quickly create and send email messages. You can insert the template while composing an email by selecting **Insert Template** on the command bar. The list of available templates is displayed in the **Email templates** window. In the **Recently used** section, the four most recently used templates by you are displayed. The **All templates** section displays a list of all out-of-the-box email templates (global and entity specific), in alphabetical order. Global templates are shown as the type User. If you've created a custom email template, it will also be available here. For information about creating a custom email template, see [Create templates for email](https://docs.microsoft.com/power-platform/admin/create-templates-email).
-
-You can see templates of a particular language by selecting a language from the **Language** list. You can either search for a template or browse through the list and select it. When you select an email template, a preview is displayed on the right side of the window. The preview shows you the content so you can pick the template that best meets your needs. After inserting an email template, you can modify the content as needed, and then send the email.
-
-> [!NOTE]
-> The search does not support regular expressions and it works on the template name only.
-
-**To insert an email template**
-
-1. In the email editor, select **Insert Template** on the command bar.
-
-     > [!div class="mx-imgBorder"]
-     > ![Insert template button](media/insert-email-template-button.png "Insert template button") 
-
-    The **Email templates** window opens.
-
-2. To see templates of a different locale, select a language from the **Language** list. The templates are loaded as per the selected language.    
-
-3. Browse for the template you want. Select the template, and preview the content of the template.
-
-4. Optionally, you can select the drop-down arrow on the name of the template to see a description of its content.
-
-5. Select **Apply template** to insert the content in the email.
-
-     > [!div class="mx-imgBorder"]
-     > ![Email templates window](media/csh-email-template-new.png "Email templates window")
-
-   If you try to insert an email template on a device with a smaller screen size, you'll only see an option to search and select a template.
-
-> [!div class="mx-imgBorder"]
-> ![Search template](media/search-template.png "Search template") 
-
-### Editor functionality and accessibility shortcuts
-
-The following table outlines the different formatting options of the rich text editor.
-
-   > [!Note]
-   > You can access your browser's context menu by pressing **Ctrl** + right-click. This is useful if you need to use your browser's built-in spell checker. Otherwise, you can use the right-click to provide contextual formatting for any element you might be using.
-
-|Icon | Name | Shortcut key | Description |
-|----------------------|-------------------------|-----------------------------|-----------------------------|
-|![Format Painter](../customer-service/media/format-painter.png "Format Painter")| Format Painter | Ctrl+Shift+C, Ctrl+Shift+V | Apply the look of a particular section to another section. |
-|![Font](../customer-service/media/format-font.png "Font") | Font | Ctrl+Shift+F | Select your desired font. The default font is Segoe UI.<br /><br /> **Note**: When you select any formatted content, the font name for that content displays. If your selection contains multiple fonts, the topmost font name of your selection is displayed. |
-|![Font Size](../customer-service/media/font-size.png "Font Size") | Font size | Ctrl+Shift+P | Change the size of your text. The default size is 12.<br /><br /> **Note**: When you select any formatted content, the font size for that content displays. If your selection contains multiple font sizes, the topmost font name of your selection is displayed.|
-|![Bold](../customer-service/media/format-bold.png "Bold")| Bold | Ctrl+B | Make your text bold. |
-|![Italic](../customer-service/media/format-italic.png "Italic")| Italic | Ctrl+I | Italicize your text. |
-|![Underline](../customer-service/media/format-underline.png "Underline")| Underline | Ctrl+U | Underline your text. |
-|![Text Highlight Color](../customer-service/media/text-highlight-color.png "Text Highlight Color")| Text Highlight Color |  | Make your text stand out by highlighting it in a bright color. |
-|![Font Color](../customer-service/media/font-color.png "Font Color")| Font Color |  | Change the color of your text. |
-|![Bullets](../customer-service/media/format-bullets.png "Bullets")| Bullets |  | Create a bulleted list. |
-|![Numbering](../customer-service/media/format-numbering.png "Numbering")| Numbering |  | Create a numbered list. |
-|![Decrease Indent](../customer-service/media/decrease-indent.png "Decrease Indent")| Decrease Indent |  | Move your paragraph closer to the margin. |
-|![Increase Indent](../customer-service/media/increase-indent.png "Increase Indent")| Increase Indent |  | Move your paragraph farther away from the margin. |
-|![Block Quote](../customer-service/media/block-quote.png "Block Quote")| Block Quote |  | Apply a block-level quotation format in your content. |
-|![Align Left](../customer-service/media/align-left.png "Align Left")| Align Left | Ctrl+L | Align your content with the left margin. (Commonly used for body text to make it easier to read.) |
-|![Align Center](../customer-service/media/align-center.png "Align Center")| Align Center | Ctrl+E | Center your content on the page. (Commonly used for a formal appearance.) |
-|![Align Right](../customer-service/media/align-right.png "Align Right")| Align Right | Ctrl+R | Center your content on the page. (Commonly used for a formal appearance.) |
-|![Link](../customer-service/media/format-link.png "Link")| Link |  | Create a link in your document for quick access to web pages and files.<br /><br />Pasted or typed URL text is converted into a link. For example, "http://myexample.com" will become "<a href="http://myexample.com">http://myexample.com</a>".<br /><br /> In the **Link** dialog box, choose the type of link you'd like to insert.<br /><br />The **Link Info** tab allows you to choose the link type as well as set the link protocol and URL.<br /><br />The **Target** tab is only available for the URL link type. It specifies the location where the link will open after you select it. |
-|![Remove Link](../customer-service/media/remove-link.png "Unlink")| Unlink |  | Delete a link in your email or document.<br /><br />When you place the cursor on a link, the **Unlink** button on the toolbar becomes active. Select the button to remove the link and make it plain text. |
-|![Superscript](../customer-service/media/format-superscript.png "Superscript")| Superscript |  | Type very small letters just above the line of text. |
-|![Subscript](../customer-service/media/format-subscript.png "Subscript")| Subscript |  | Type very small letters just below the line of text. |
-|![Strikethrough](../customer-service/media/format-strikethrough.png "Strikethrough")| Strikethrough |  | Cross out text by drawing a line through it. |
-|![Image](../customer-service/media/insert-picture.png "Image") | Image | | Insert an image.<br /><br /> You can insert an image by directly copying and pasting it inline in the editor, dragging and dropping it from your desktop or local folder directly into the editor, or by typing a URL. The following formats are supported: .PNG, .JPG., or .GIF.<br /><br />To insert an image inline in your article:<ol><li>Drag and drop the image or or copy and paste it directly into the article.</li><li>Drag any corner of the image to resize it.</li></ol><br /><br />To insert an image using a URL or navigating to the local image:<ol><li>Choose Insert Image.</li><li>In the **Image** property dialog, choose from the following options:</li></ol><ul><li>Specify the web address of the image, and also specify properties to define how the image will appear in the email or article. **Note:**      If the image is located on the external server, use the full absolute path. If the image is located on a local server, you can use a relative path. If you want the image to be a selectable link, add a URL for the image. You can also specify if you want the targeted page to open in a new window, topmost window, same window, or parent window.</li><li>Select **Browse** to navigate to the image on your computer.</li></ul>|
-|![Left to Right](../customer-service/media/left-to-right.png "Left to Right")| Left to Right |  | Change the text to left-to-right for content such as a paragraph, header, table, or list. Commonly used for bi-directional language content. This is the default setting.|
-|![Right to Left](../customer-service/media/right-to-left.png "Right to Left")| Right to Left |  | Change the text to right-to-left for content such as a paragraph, header, table, or list. Commonly used for bi-directional language content. The default setting is left-to-right. |
-|![Undo Typing](../customer-service/media/undo-typing.png "Undo Typing")| Undo Typing |  | Undo changes you made to the content. |
-|![Redo Typing](../customer-service/media/redo-typing.png "Redo Typing")| Redo Typing |  | Redo changes you made to the content. |
-|![Clear All Formatting](../customer-service/media/clear-formatting.png "Clear All Formatting")| Clear All Formatting |  | Remove all formatting from a selection of text, leaving only the normal, unformatted text. |
-|![Add a Table](../customer-service/media/add-table.png "Add a Table")| Add a Table |  | Add a table to your content. <br /><br />After adding a table, you can do any of the following:<br /><br /><ul><li>Resize table columns by clicking and dragging your mouse to resize to the columns to the desired width.</li><li>Select one or several cells within a table and apply specific formatting, add links to the selection, or cut, copy, or paste entire rows or columns.</li><li>Right-click to access the properties. This supports features such as cell type, width and height, word wrapping, alignment, merging and splitting cells horizontally and vertically, inserting or deleting rows and columns, row and column span, and cell and border color.</li></ul>|
-|![Expand Toolbar](../customer-service/media/show-more.png "Expand Toolbar")| Expand Toolbar |  | Displays when the toolbar is collapsed and not all options appear. Click to expand the toolbar and make all options visible. |
-
-The following table outlines a list of accessibility shortcuts available when using email. You can access this list while composing email by pressing **Alt+0**.
-
-|Type | Shortcut key | Description |
-|----------------------|-------------------------|-----------------------------|
-| General | Alt+F11 | Toggle full-screen view. |
-| Tab navigation | Alt+Ctrl+0 | Go to menu bar. |
-| Tab navigation | Alt+1 | Go to the rich-text editor. |
-| Tab navigation | Alt+2 | Go to the HTML editor. |
-| Tab navigation | Alt+3 | Go to the preview view. |
-| General editor commands | Alt+F10 | Navigate to the editor toolbar. Move to the next and previous toolbar group with Tab and Shift+Tab. Move to the next and previous toolbar button with Right Arrow or Left Arrow. Press Space or Enter to activate the toolbar button. |
-| General editor commands |  | Editor dialog: Inside a dialog, press Tab to navigate to the next dialog element, press Shift+Tab to move to the previous dialog element, press Enter to submit the dialog, press ESC to cancel the dialog. When a dialog has multiple tabs, the tab list can be reached either with Alt+F10 or with Tab, following the dialog tabbing order. With a tab list focused, move to the next and previous tab with Right and Left Arrow, respectively.. |
-| General editor commands |  | Editor list box: Inside a list box, move to next list item with Tab or Down Arrow. Move to previous list item with Shift+Tab or Up Arrow. Press Space or Enter to select the list option. Press ESC to close the list box. |
-| Base commands | Ctrl+Z | Undo command. |
-| Base commands | Shift+Ctrl+Z | Redo command. |
-| Base commands | Ctrl+B | Bold command. |
-| Base commands | Ctrl+I | Italic command. |
-| Base commands | Ctrl+U | Underline command. |
-| Base commands | Alt+0 | Accessibility help. |
-| Base commands | Esc | Cancel operation. |
-
-## Work with Queues
+## Create and Manage Queues
 
 Use queues to organize, prioritize, and monitor the progress of your work. In Dynamics 365 Customer Service, queues are containers used to store anything that needs to be completed or requires an action, for example completing a task or closing a case. To know more about creating and managing queues, see [Create and manage queues](set-up-queues-manage-activities-cases.md).
 
 **Open Queues view**
 
-In the Customer Service Hub sitemap, select **Service** > **Queues**. The queues view is displayed.
+In the Customer Service Hub site map, select **Service** > **Queues**. The queues view is displayed.
 
-![queues-view](media/queues-view.png "Queues view")
+![Queues view](media/queues-view.png "Queues view")
 
 - Use the drop-down lists to switch between the views and the various queues.
 - Select a record in the queues view to:
@@ -678,19 +349,20 @@ In the Customer Service Hub sitemap, select **Service** > **Queues**. The queues
 
 To know how to add a case to a queues, see [Add a case to a queue](customer-service-hub-user-guide-case-queues-and-routing.md).
 
-## Understand Site
+## Create a new site
 
-To create a new site, you need to go to **Advanced find** ![Advanced find](media/advanced-find-icon.png "Advanced find").  Then you can customize other entity forms (e.g. Account) by adding this site field.
+To create a new site, go to **Advanced find** ![Advanced find](media/advanced-find-icon.png "Advanced find"). Then you can customize other entity forms (for example, Account) by adding this site field.
 
-  ![Create New Site](media/add-site-to-any-entity-1a.png "Create New Site")
+  ![Create a new site](media/add-site-to-any-entity-1a.png "Create New Site")
  
-## Understand Facility/Equipment
+## Create a facility/equipment item
 
- To create a new Facility/Equipment item, you need to go to **Advanced find** ![Advanced find](media/advanced-find-icon.png "Advanced find"), where you can create Facility/Equipment.
+To create a new Facility/Equipment item, go to **Advanced find** ![Advanced find](media/advanced-find-icon.png "Advanced find"), where you can create Facility/Equipment.
 
   ![Create New Facility/Equipment](media/add-site-to-any-entity-1b.png "Create New Facility/Equipment")
 
 ### See also
 
+
 [Create and design forms for Customer Service Hub](create-design-forms-customer-service-hub.md)  
-[Track your cases efficiently and act on them quickly](customer-service-hub-user-guide-case-sla.md)
+[Track your cases efficiently and act on them quickly](customer-service-hub-user-guide-case-sla.md)  

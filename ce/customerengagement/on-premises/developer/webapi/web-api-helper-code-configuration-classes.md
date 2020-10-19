@@ -3,7 +3,7 @@ title: "Web API Helper code: Configuration classes (Developer Guide for Dynamics
 description: "Configuration class hierarchy can be used to specify the required connection data for accessing Dynamics 365 Customer Engagement web services from your application"
 ms.custom: 
 ms.date: 01/25/2019
-ms.reviewer: susikka
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -16,8 +16,7 @@ author: JimDaly
 ms.author: jdaly
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Web API Helper code: Configuration classes
 

@@ -6,7 +6,7 @@ ms.author: nenellim
 manager: shujoshi
 ms.date: 06/18/2020
 ms.service: 
-  - "dynamics-365-customerservice"
+  "dynamics-365-customerservice"
 ms.topic: article
 ---
 # Introduction to Omnichannel for Customer Service
@@ -39,7 +39,7 @@ SMS is an engagement channel that supports asynchronous mode of communication, a
 
 ### Social channels
 
-Social channels such as Facebook, LINE, Twitter, and WeChat give you an incredible opportunity to capitalize on the social media trend and engage with your customers in a seamless and personalized experience. In addition to the aforementioned generally available channels, WeChat and Custom channels are currently available in preview. For more information, see [Try channels for Dynamics 365 Customer Service](try-channels.md).
+Social channels such as Facebook, LINE, Twitter, and WeChat give you an incredible opportunity to capitalize on the social media trend and engage with your customers in a seamless and personalized experience. In addition to the aforementioned generally available channels, Custom channels are currently available in preview. For more information, see [Try channels for Dynamics 365 Customer Service](try-channels.md).
 
 ## Videos
 
@@ -49,7 +49,7 @@ To view more videos on Omnichannel for Customer Service, see [Videos](videos.md)
 
 ### See also
 
-[Pre-requisites and system requirements](system-requirements-omnichannel.md)  
+[Prerequisites and system requirements](system-requirements-omnichannel.md)  
 [Assign roles and enable users for Omnichannel for Customer Service](administrator/add-users-assign-roles.md)  
 [Try channels for Dynamics 365 Customer Service](try-channels.md)  
 [Configure an SMS channel](administrator/configure-sms-channel.md)  

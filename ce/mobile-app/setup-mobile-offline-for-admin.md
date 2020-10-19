@@ -1,7 +1,7 @@
 ---
 title: "Configure mobile offline synchronization in Dynamics 365 for phones and tablets | MicrosoftDocs"
 ms.custom: 
-ms.date: 06/18/2020
+ms.date: 07/10/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -253,7 +253,7 @@ Enable mobile offline for a specific app from MyApps page.
 
 ## Mobile offline capabilities and limitations
 
-For informatoin on capabilities and limitations of mobile offline, see [Mobile offline capabilities and limitations](mobile-offline-capabilities.md).
+For information on capabilities and limitations of mobile offline, see [Mobile offline capabilities and limitations](mobile-offline-capabilities.md).
 
 
 

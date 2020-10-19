@@ -1,7 +1,8 @@
 ---
-title: "Set up Dynamics 365 for phones and Dynamics 365 for tablets | MicrosoftDocs"
+title: "Set up Dynamics 365 for phones and tablets | MicrosoftDocs"
+description: How to set up Dynamics 365 for phones and tablets
 ms.custom:
-ms.date: 06/5/2020
+ms.date: 09/16/2020
 ms.reviewer:
 ms.service: crm-online
 ms.suite:
@@ -89,17 +90,26 @@ This list identifies all services to which Dynamics 365 for Phones and Tablets t
 
 | Domain(s) | Protocols | Uses |
 | --- | --- | --- |
-| management.azure.com |https |Between version 13.19022.10 and 13.19081.22, used to fetch the list of apps to populate the app list. |
-| api.businessappdiscovery.microsoft.com |https |Starting with version 13.19091.0, used to fetch the list of apps to populate the app list. |
-
+| management.azure.com |https |Between versions 4.3.19022.10 and 4.3.19081.22 (Android) or 13.19022.10 and 13.19081.22 (iOS), used to fetch the list of apps to populate the app list. |
+| api.businessappdiscovery.microsoft.com |https |Between versions 4.3.19091.0 and 4.3.20081.1 (Android) or 13.19091.0 and 13.20081.1 (iOS), used to fetch the list of apps to populate the app list. |
+| api.powerapps.com |https |Starting with version 4.3.20081.2 (Android) and 13.20081.2 (iOS), used to fetch the list of apps to populate the app list. |
+|<br>login.microsoft.com</br> <br>login.windows.net</br> <br>login.microsoftonline.com</br> <br>secure.aadcdn.microsoftonline-p.com</br>|https |Azure Active Directory - used for authentication (in all versions).
   
+This list identifies all resources used by Dynamics 365 for phones and tablets. Your configuration (for example, Azure Active Directory or Intune) must not block these resources.
+
+| Resources(s) | Uses |
+| --- | --- |
+| service.powerapps.com |Starting with version 13.19091.20, used for email sign-in and the app list. |
+
 ### Security privileges  
  Both Common Data Service and Dynamics 365 Customer Engagement (on-premises) use a security privilege, **Dynamics 365 apps for mobile**, to provides access to [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]. This privilege is pre-configured for Sales roles, but not other security roles, so you may want to add to other roles for your teams. For more information on how to share apps in Common Data Service, see [Share a model-driven app using Power Apps](https://docs.microsoft.com/powerapps/maker/model-driven-apps/share-model-driven-app).
   
   
 <a name="BKMK_Configure"></a>   
-## Configure the mobile app 
- 
+## Configure customer engagement apps in Dynamics 365  
+
+ You must configure apps that will be available for Dynamics 365 for phones and tablets mobile app.  
+
  - For Common Data Service, see [Create a custom entity](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-create-entity).
  - For Dynamics 365 Customer Engagement (on-premises), see [App making and customization overview](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/overview) 
   
@@ -175,7 +185,7 @@ You can assign security roles to a dashboard, so the dashboard appears only to u
  
 1. Go to **Settings** > **Customizations** > **Customize the System**. 
 2. Expand **Entities** in the left pane.  
-3. Select the entity you want to enable for in the Un (for example, **Account**).  
+3. Select the entity you want to enable for mobile app (for example, **Account**).  
   
 4. Under **Outlook & Mobile**, select **Enable for Unified Client**. 
  

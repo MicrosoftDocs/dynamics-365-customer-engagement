@@ -18,8 +18,7 @@ ms.author: matp
 manager: kvivek
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 # Use segmented solutions and patches to export selected entity assets
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Use segmented solutions and patches](/powerapps/maker/common-data-service/use-segmented-solutions-patches-simplify-updates)

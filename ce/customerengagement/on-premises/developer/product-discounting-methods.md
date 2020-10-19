@@ -3,7 +3,7 @@ title: "Product discounting methods (Developer Guide for Dynamics 365 Customer E
 description: "The Organization.DiscountCalculationMethod attribute specifies the discount method: either line item or unit level."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -17,8 +17,7 @@ ms.author: kvivek
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Product discounting methods
 

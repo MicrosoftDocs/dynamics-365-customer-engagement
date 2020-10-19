@@ -1,8 +1,9 @@
 ---
-title: Reports in Dynamics 365 Field Service (public preview) | MicrosoftDocs"
+title: Reports in Dynamics 365 Field Service | MicrosoftDocs"
+description: Learn about how to use work order summary reports in Dynamics 365 Field Service.
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 04/28/2020
+ms.date: 10/01/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -26,7 +27,7 @@ search.app:
   - D365FS
 ---
 
-# Work order summary reports in Dynamics 365 Field Service (public preview)
+# Work order summary reports in Dynamics 365 Field Service
 
 Operations managers are responsible for managing work orders in order to provide timely support for their customers. To better understand what actions may be needed for better field service performance, these managers need to be able to monitor key operational metrics. 
 
@@ -39,16 +40,13 @@ Reports in Dynamics 365 Field Service can help you get a birds-eye understanding
 - How an individual technician performs on all key metrics
 - Insights around specific territories, from work order volume to travel time and more
 
-> [!Note]
-> Work order summary reports are released in April 2020 as part of a public preview. Follow the process in the article on [installing or upgrading preview features](field-service-preview.md). In Step 6, look for the preview flight with the display name **FieldService_April2020_PreviewFlight**.
-
 ## Reports overview
 
 To find reports, go to **Field Service** > **Service** > **Analytics and Insights** > **Reports (Preview)**.
 
-![Screenshot showing a sample work order summary report](./media/report-overview-example.png)
+![Screenshot showing a sample work order summary report.](./media/report-overview-example.png)
 
-![Screenshot showing a sample work order summary report](./media/report-overview-example-2.png)
+![Screenshot showing additional information on a sample work order summary report.](./media/report-overview-example-2.png)
 
 Let's take a look at what you can see from these work order summary reports.
 

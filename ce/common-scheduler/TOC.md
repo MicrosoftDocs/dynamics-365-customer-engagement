@@ -11,6 +11,7 @@
 ## [Facility scheduling](facility-scheduling.md)
 ## [Resource pools](resource-pools.md)
 ## [Time constraints](schedule-time-constraints.md)
+## [Advanced filters](schedule-assistant-advanced-filters.md)
 
 # Schedule board configuration
 ## [Enable an entity for scheduling](schedule-new-entity.md)
@@ -20,7 +21,7 @@
 ## [Edit booking template](booking-template.md)
 ## [Booking alerts](booking-alert.md)
 ## [Schedule board tab settings](schedule-board-tab-settings.md)
-## [Preview the new schedule board](preview-schedule-board.md)
+## [Next-generation schedule board experience](preview-schedule-board.md)
 
 # Extensibility
 ## [Extensibility updates](developer/extensibility-release-notes.md)

@@ -20,8 +20,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Connect with Microsoft Office 365 and Dynamics 365 Customer Engagement (on-premises)
 

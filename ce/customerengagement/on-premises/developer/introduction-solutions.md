@@ -3,7 +3,7 @@ title: "Introduction to solutions (Developer Guide for Dynamics 365 Customer Eng
 description: "Developers and authors create, package and maintain units that extend Dynamics 365 Customer Engagement (on-premises)"
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: "pehecke"
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -12,13 +12,12 @@ applies_to:
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: e41e1785-7dcd-46b9-a2eb-e4e848c3154c
 caps.latest.revision: 59
-author: JimDaly
+author: shmcarth
 ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Introduction to solutions
 

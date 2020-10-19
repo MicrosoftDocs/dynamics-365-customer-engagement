@@ -3,7 +3,7 @@ title: "Incident (case) hierarchies (Developer Guide for Dynamics 365 Customer E
 description: "Learn about incident (case) hierarchies that allow you to create parent and child case settings and rules for deactivating cases."
 ms.custom: 
 ms.date: 10/01/2019
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service:
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -16,8 +16,7 @@ ms.author: kvivek
 manager: annbe
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Incident (case) hierarchies
 

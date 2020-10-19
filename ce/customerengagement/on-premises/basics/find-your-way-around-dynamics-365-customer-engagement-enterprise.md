@@ -11,8 +11,7 @@ ms.topic: article
 ms.assetid: bb4e7609-3e32-46b3-8b19-ce700f99715c
 search.audienceType: 
   - enduser
-search.app: 
-  - D365CE
+
 ---
 # Find your way around Dynamics 365 Customer Engagement (on-premises)
 
@@ -129,7 +128,7 @@ search.app:
   
  **14**. Several Dynamics 365 Customer Engagement (on-premises) features use **System Jobs** to perform tasks automatically, including workflows, import, and duplicate detection. Monitor your system jobs here.  
   
- **15**. Use **Document Management** to set up SharePoint integration. With SharePoint, your team can work together on the same documents. SharePoint integration is also required if you want to use other collaboration features like OneNote, OneDrive for Business, or Office 365 Groups with Dynamics 365 Customer Engagement (on-premises).  
+ **15**. Use **Document Management** to set up SharePoint integration. With SharePoint, your team can work together on the same documents. SharePoint integration is also required if you want to use other collaboration features like OneNote, OneDrive for Business, or Microsoft 365 Groups with Dynamics 365 Customer Engagement (on-premises).  
   
  **16**. Enable **Auditing** to track changes made to your business data.  
   

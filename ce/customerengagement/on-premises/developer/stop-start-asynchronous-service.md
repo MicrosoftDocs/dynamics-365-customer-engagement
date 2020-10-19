@@ -4,7 +4,7 @@ description: "Learn about stopping and starting the asynchronous service by usin
 ms.custom: 
 ms.date: 04/10/2019
 ms.prod: crm-2016
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -17,8 +17,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Stop and start the asynchronous service
 

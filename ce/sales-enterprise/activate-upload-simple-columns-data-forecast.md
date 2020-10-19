@@ -2,8 +2,7 @@
 title: "Activate and upload simple columns data for a forecast (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Activate and upload simple columns data for a forecast in Dynamics 365 Sales."
 ms.date: 02/03/2020
-ms.service:
-  - "dynamics-365-sales"
+ms.service: dynamics-365-sales
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -15,7 +14,8 @@ manager: shujoshi
 Use the **Activate & add quotas** step to activate the forecast and make it available for users. After the forecast is active, you can download a template (Excel workbook) and upload it back with data, such as quotas and sample column types for all users who are defined in the forecast hierarchy.
 
 > [!IMPORTANT]
-> At a time, you can have only six active forecasts in your organization.
+> - At a time, you can have only six active forecasts in your organization.
+> - Don’t activate a forecast through any other options such as **Advanced find**. Use only forecast configuration page to activate forecasts.
 
 1. In the **Activate forecast** section, select **Activate forecast**. The configured forecast starts calculating the values for forecast and becomes available for users in your organization. The activation might take a few minutes.
     
@@ -58,14 +58,19 @@ Use the **Activate & add quotas** step to activate the forecast and make it avai
 
 You're directed to the **Forecast configuration** home page, where your organization's forecasts are listed.
 
+>[!NOTE]
+>You can also upload data to simple columns using the **msdyn_ForecastApi** action. To learn more, see [msdyn_ForecastApi](../sales-enterprise/developer/reference/custom-actions/msdyn_ForecastApi.md).
+
 <table>
 <tr><td>
 
 > [!div class="nextstepaction"] 
-> [Previous step: Choose layout and columns](choose-layout-and-columns-forecast.md)
+> [Previous step: Configure and manage drill-down entities](configure-manage-drill-downs.md)
 </td></tr>
 </table>
 
 ### See also
 
 [Configure forecasts in your organization](configure-forecast.md)
+
+[msdyn_ForecastApi](../sales-enterprise/developer/reference/custom-actions/msdyn_ForecastApi.md)

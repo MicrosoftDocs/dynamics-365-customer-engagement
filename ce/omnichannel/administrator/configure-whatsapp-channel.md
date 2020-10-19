@@ -4,9 +4,9 @@ description: "Learn about the WhatsApp channel through Twilio and how to configu
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 06/18/2020
+ms.date: 10/13/2020
 ms.service: 
-  - "dynamics-365-customerservice"
+  "dynamics-365-customerservice"
 ms.topic: article
 ---
 
@@ -15,12 +15,6 @@ ms.topic: article
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
-
-> [!IMPORTANT]
->
-> - A preview is a feature that is not complete, as it may employ reduced privacy, security, and/or compliance commitments, but is made available before it is officially released for general availability so customers can get early access and provide feedback. Previews are provided “as-is,” “with all faults,” “as available,” and without warranty.​
-> - This preview feature does not come with technical support and Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.​
-> - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk.  All previews are subject to separate [Terms and Conditions](../../legal/dynamics-insider-agreement.md).
 
 ## Overview of WhatsApp channel through Twilio
 
@@ -41,9 +35,9 @@ The WhatsApp channel feature lets you integrate WhatsApp through Twilio with Omn
 
 - Connect Twilio Number to your WhatsApp Business Profile. To learn more, see [Connect your Twilio Number to your WhatsApp Business Profile](https://www.twilio.com/docs/sms/whatsapp/tutorial/connect-number-business-profile).
 
-## WhatsApp message type and 24 hours session rule
+## WhatsApp message types and 24 hours session rule
 
-- **Template messages:** These are the outbound messages that agents send through Twilio using one of the pre-approved templates. They are typically transactional messages, such as delivery alerts and appointment reminders, sent to users who have opted in to receive messages from your organization.
+- **Template messages:** These are the outbound messages that agents send through Twilio using one of the pre-approved templates. They are typically transactional messages, such as delivery alerts and appointment reminders, sent to users who have opted in to receive messages from your organization. For messages requiring localization, you must get the message approved by WhatsApp in each language. For more information about WhatsApp message templates, see [WhatsApp documentation](https://developers.facebook.com/docs/whatsapp/message-templates/).
 
 - **Session messages:** According to WhatsApp, session messages are incoming messages from a customer or outgoing replies by an agent to the incoming messages, within 24 hours. A messaging session starts when agents receive a message from a customer. It lasts for 24 hours from the most recently received message. Session messages do not need to follow a template, and can include media attachments.
 
@@ -54,6 +48,10 @@ The WhatsApp channel feature lets you integrate WhatsApp through Twilio with Omn
 [Step 1: Fetch Twilio account details](#fetch-twilio-account-details)
 
 [Step 2: Create a WhatsApp channel](#create-a-whatsapp-channel)
+
+[Step 3: Create routing rules](#create-routing-rules)
+
+[Step 4: Modify settings for a specific WhatsApp phone number](#modify-settings-for-a-specific-whatsapp-phone-number)
 
 ## Fetch Twilio account details
 
@@ -69,7 +67,7 @@ To create a WhatsApp channel, follow these steps:
 
 1. Sign in to Omnichannel Administrator.
 
-2. Select **WhatsApp (preview)** under **Channels**.
+2. Select **WhatsApp** under **Channels**.
 
 3. In the **New WhatsApp** page, specify the values for the following fields:
 
@@ -87,19 +85,19 @@ To create a WhatsApp channel, follow these steps:
    > [!div class=mx-imgBorder]
    > ![Copy the Twilio inbound URL](../media/whatsapp-channel-2.png "Copy the Twilio inbound URL") 
 
-5. Go to your Twilio console, and select **Phone Numbers** and then select the WhatsApp phone number. Under **Messaging**, paste the URL you copied from step 4 in the **Twilio inbound URL** field.
+5. Go to your Twilio console, and select **Senders** and then select the WhatsApp phone number. Under **Messaging**, paste the URL you copied from step 4 in the **Twilio inbound URL** field.
 
     > [!div class=mx-imgBorder]
     > ![Paste the Twilio inbound URL](../media/whatsapp-channel-6.png "Paste the Twilio inbound URL") 
 
-6. In the **WhatsApp phone numbers** section, select **+ Add New WhatsApp Number**. The **New Custom Messaging Channel** page is displayed.
+6. In the **WhatsApp phone numbers** section, select **New WhatsApp Number**. The **New WhatsApp Number** page is displayed.
 
-7. In the **New WhatsApp Number** page, specify the values for the following fields:
+7. Specify the values for the following fields:
 
     | Section | Field | Description | Example  value |
     |-------------|-------------------|---------------------------|--------------------------------------|  
     | Phone number details | Name | Specify a name for the WhatsApp channel. | WhatsApp phone number |
-    | Phone number details | WhatsApp Account | The **WhatsApp Account** field is populated. However, you can change the value using the lookup. | WhatsApp channel |
+    | Phone number details | WhatsApp Account | The **WhatsApp Account** field is populated by default. However, you can change the value using the lookup. | WhatsApp channel |
     | Phone number details | WhatsApp Number | Specify the WhatsApp number. | 123456989 |
     | Work distribution | Work stream | Select the out-of-the-box work stream from the lookup. <br> To create a new work stream, see [Create work streams](work-streams-introduction.md). | WhatsApp channel work stream |
 
@@ -123,9 +121,69 @@ To create a WhatsApp channel, follow these steps:
 2. In the **WHEN A MESSAGE COMES IN** box, enter the Twilio inbound URL that you generated in Omnichannel for Customer Service, and save the changes.
 3. To test the WhatsApp channel with the Twilio sandbox, you can send a WhatsApp message to the number provided by Twilio with a unique code that is also provided by Twilio. You can also use the sandbox message template provided by Twilio to test sending messages outside of the 24-hour window.
 
+## Create routing rules
+
+1.	Go to **Work Distribution Management** > **Work Streams**.
+2.	Open the out-of-the-box work stream or the one you created.
+3.	On the **Routing rules items** tab, you can create a routing rule to transfer the message to an appropriate agent. Select the entity as **WhatsApp Engagement Context**. For example, you can create a rule to transfer WhatsApp chat from a customer to the default queue.
+
+When you create conditions for routing rules, the **WhatsApp Engagement Context (Conversation)** entity enables you to set the **Customer Phone Number** and **Customer First Message** attributes. The **Customer First Message** attribute lets you create a pre-filled message that will automatically appear in the text field of a customer chat, which can be used for routing.
+
+## Modify settings for a specific WhatsApp phone number 
+
+1. In the Omnichannel Administration app, go to your WhatsApp application and select the WhatsApp phone number you want to modify. 
+
+2. On the **General settings** tab, provide the following information:
+    
+    - **Language**: Select the preferred language for your WhatsApp phone number.
+    
+    - **Work stream**: Select an existing work stream or create a new one.
+
+    - **Enable file attachments for customers**: Set to **Yes** to allow customers to send file attachments to agents. Otherwise, set **No**. 
+
+    - **Enable file attachments for agents**: Set to **Yes** to allow agents to send file attachments to customers. When the agent sends an attachment, the app sends the blob storage URL to the channel. Otherwise, set **No**. 
+    
+       To learn more about attachments, see [File attachments](enable-file-attachments.md). 
+       
+       To learn more about uploading media in WhatsApp, see [Twilio support documentation](https://support.twilio.com/hc/en-us/articles/360017961894-Sending-and-Receiving-Media-with-WhatsApp-Messaging-on-Twilio-Beta-).
+    
+3. On the **Automated messages** tab, [configure automated messages](configure-automated-message.md). 
+
+4. On the **Message templates** tab, you can configure agents' ability to send WhatsApp-approved messages. If 24 hours pass after a customer's last message, agents will only be able to send messages from WhatsApp approved templates until the customer responds.      
+
+    > [!NOTE]
+    >
+    > Create your message templates in your Twilio account and have them approved by WhatsApp before you add them in Omnichannel for Customer Service.
+
+    Click **New** to create a new template and complete the following fields:
+
+    - **Name**: Label the group of messages that will go in this template.
+    
+    - **Message trigger**: Select the event that will trigger the message to be sent.
+    
+    - **Message description**: Give the message template a description.
+    
+    > [!div class=mx-imgBorder]
+    > ![Create WhatsApp message template](../media/whatsapp-message-template-new-message.png "Create WhatsApp message template")
+    
+    Click **Save** and the **Localization Data (Message template)** panel appears. Click **New localization** and complete the following fields:
+    
+    - **Language code**: Select the language for the message.
+    
+    - **Localized text**: Write the message in the language specified. You must create a new localization for each translation of the message.
+    
+    > [!div class=mx-imgBorder]
+    > ![Create WhatsApp message template localized message](../media/whatsapp-message-template-new-message-locale.png "Create WhatsApp message template localized message")
+    
+5. On the **Surveys** tab, [configure a post-conversation survey](configure-post-conversation-survey.md).
+
 ### See also
 
-[Skill-based routing](overview-skill-work-distribution.md)  
-[Productivity tools](productivity-tools.md)  
-[Smart assist](smart-assist.md)  
-[Templates](templates-overview.md)
+[Understand and create work streams](work-streams-introduction.md)<br>
+[Create and manage routing rules](routing-rules.md)<br>
+[Configure automated messages](configure-automated-message.md)<br> 
+[Configure a post-conversation survey](configure-post-conversation-survey.md)<br>
+[Skill-based routing](overview-skill-work-distribution.md)<br>
+[Create message templates](create-message-templates.md)<br>
+[Templates](templates-overview.md)<br>
+[Delete a configured channel](delete-channel.md)

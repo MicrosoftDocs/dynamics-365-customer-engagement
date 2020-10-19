@@ -15,8 +15,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Use JavaScript with Customer Engagement (on-premises)
 
@@ -146,6 +145,6 @@ search.app:
  [Client scripting in Customer Engagement (on-premises) using JavaScript](clientapi/client-scripting.md)<br />
  [Customize the Ribbon for Dynamics 365 Customer Engagement (on-premises)](customize-dev/customize-commands-ribbon.md)<br />
  [Web Resources for Dynamics 365 Customer Engagement (on-premises)](web-resources.md)<br />
- [Use the Web API with web resources](webapi/get-started-web-api-client-side-javascript.md)<br />
+ <!--[Use the Web API with web resources](webapi/get-started-web-api-client-side-javascript.md)<br />-->
  [Understand the Client API Object Model](clientapi/understand-clientapi-object-model.md)<br />
- [Blog: Debugging JavaScript code in CRM using browser developer tools](https://go.microsoft.com/fwlink/p/?LinkId=715699)<br />
+ 

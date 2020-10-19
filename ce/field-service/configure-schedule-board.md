@@ -2,7 +2,7 @@
 title: "Configure the schedule board (Dynamics 365 Field Service and Dynamics 365 Project Service Automation) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 09/30/2017
+ms.date: 07/07/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: 
@@ -36,8 +36,10 @@ The [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)
 > 4. On the **Connect to Maps** field, choose **Yes**.  
 > 5. Accept the terms and save the record. 
 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ynSg]
+
 > [!Note]
-> Along with this article, see [this video on the schedule board](https://youtu.be/-noHEU7wgiQ).
+> For additional Field Service videos, see [this full playlist](https://aka.ms/fs-videos).
   
 ## View the schedule board  
   
@@ -191,6 +193,18 @@ The [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)
 1.  On the schedule board, double-click **Initial public view.**  
   
 2.  Scroll down to the **Requirement** section to add additional tabs.  
+
+## Keyboard shortcuts
+
+You can use keyboard shortcuts when viewing the schedule board in the list view, shown in the following screenshot and table.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the schedule board, highlighting the keyboard icon.](../field-service/media/schedule-board-keyboard.png)
+
+| Command | Keys |
+|  --- | --- | 
+| Expand collapsed row | SHIFT ALT + | 
+| Collapse expanded row | SHIFT ALT - | 
   
 ## Privacy  
 [!INCLUDE[cc_ disclaimer_crm_bing_maps_mapping_location](../includes/cc-disclaimer-crm-bing-maps-mapping-location.md)]   

@@ -13,13 +13,14 @@ ms.assetid: 00e62904-2ce9-4730-a113-02b1fedbf22e
 caps.latest.revision: 31
 author: Mattp123
 ms.author: matp
-manager: brycho
+manager: kvivek
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 # Create business rules and recommendations to apply logic in a form
+
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Create a business rule for an entity](/powerapps/maker/common-data-service/data-platform-create-business-rule)
 
 You can create business rules and recommendations to apply form logic without writing [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] code or creating plug-ins.  Business rules provide a simple interface to implement and maintain fast-changing and commonly used rules. They can be applied to Main and Quick Create forms, and they work in Dynamics 365 Customer Engagement (on-premises), [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web apps, [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)], and [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] (online or offline mode).  
 
@@ -139,12 +140,12 @@ A business rule may not execute because the field referenced in the business rul
 4.	In the business rule designer select each condition and action to verify all the fields referenced in each condition and action. 
 
      > [!div class="mx-imgBorder"] 
-     > ![](media/business-rule-field.png "Field referenced in business rule exists in entity")
+     > ![Field referenced in business rule exists in entity](media/business-rule-field.png "Field referenced in business rule exists in entity")
 
  5.	Verify that each field referenced in the business rule is also included on the form. If not, add the missing field to the form.
 
      > [!div class="mx-imgBorder"] 
-     > ![](media/account-name-on-form.png "Account name field on form")
+     > ![Account name field on form](media/account-name-on-form.png "Account name field on form")
 
 ## Frequently asked questions (FAQ)
 *Can business rules unlock fields on a read-only form?*
@@ -153,7 +154,7 @@ A business rule may not execute because the field referenced in the business rul
 *How do I troubleshoot a business rule that isn't working?* 
 - See [Is your business rule not firing for a form?](#is-your-business-rule-not-firing-for-a-form) in this topic.
 
-*Do business rules react to changes made by an onLoad script?
+*Do business rules react to changes made by an onLoad script?*
 - No, they will execute before an onload script is executed.
 
 ### See also  

@@ -19,13 +19,12 @@ caps.latest.revision: 1
 topic-status: Drafting
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 
 # Create and edit public or system views by using the app designer
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Work with views in app designer](/powerapps/maker/model-driven-apps/create-edit-views-app-designer#work-with-views-in-app-designer)
 
 In Dynamics 365 Customer Engagement (on-premises), views define how records for a specific entity are  displayed. A view defines the following:
 -  The columns (attributes) to display

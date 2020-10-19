@@ -1,12 +1,12 @@
 ---
 title: Work with queues in Omnichannel for Customer Service | MicrosoftDocs
 description: See how you can create and manage queues in Omnichannel for Customer Service
-author: kabala123
-ms.author: kabala
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
-ms.date: 08/29/2019
+ms.date: 10/12/2020
 ms.service: 
-  - "dynamics-365-customerservice"
+  "dynamics-365-customerservice"
 ms.topic: article
 ---
 
@@ -14,38 +14,55 @@ ms.topic: article
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-Omnichannel queues are used to collect and distribute workload among agents. Workload includes conversations, such as Chat or SMS. Agents are added as queue members to the queues and the workload is distributed among these agents.
+## Introduction
 
-Omnichannel queues are proxies for skills or domains. For example, you can create separate queues for billing issues, investment issues, and so on. When a customer query comes for these issue types, it is routed to its designated queue.
-    
-> [!div class=mx-imgBorder]
-> ![Omnichannel queues](../media/oc-queues.png)
+Omnichannel queues are used for collecting and distributing workload among agents. Workload includes conversations, such as Chat or SMS. Agents are added as members to the queues and the workload is distributed among these agents.
 
-You can assign priority to queues. All conversations in a queue take the priority of the queue and higher priority conversations are allocated first. For example, if there are two chat conversations coming from two queues with priorities assigned as Priority 1 and Priority 2 respectively, chat conversation with Priority 1 will be allocated to an agent first.
+## How conversations are routed to queues
 
-## Default queue
-There is a default Omnichannel queue for each organization. Admins can't delete the default queue. By default, all Omnichannel users are members of the default queue. Therefore, the membership of this queue can't be changed.
+Queues in Omnichannel for Customer Service are proxies for skills or domains. You can create separate queues for each line of business, such as billing, investment, and products. When a customer query is raised for any of the areas, it is routed to the corresponding designated queue. You can also set up customer support availability matrix by using a combination of queues, operating hour schedules, and routing rules.
+
+In an enterprise scenario, you can have various supervisors to handle different issues, and therefore, different types of queues are required to handle the various scenarios. Accordingly, routing rules are set up based on the complexity of issues that need to be handled.
+
+To simplify the routing experience for administrators and supervisors, queues are categorised based on the channel types as follows:
+
+- **Messaging:** To route all messaging conversations pertaining to the Live Chat, SMS, and social channels.
+- **Entity records:** To route cases pertaining to entity records.
+
+The queue types help ensure issues to be routed correctly and help avoid cross-queue assignments. When you configure work streams and routing rule items, the queues that will be available for selection will be based on the channel type for the work stream. For example, for routing rules for a Live Chat work stream, only messaging type queues will be shown for selection. Similarly, in a conversation transfer scenario, you can transfer a chat conversation only to a messaging queue and a case to an entity queue.
+
+You can assign priority to queues. All conversations in a queue take the priority that is defined for the queue; higher priority conversations are allocated first. For example, if there are two chat conversations coming from two queues with priorities assigned as Priority 1 and Priority 2 respectively, chat conversation with Priority 1 will be allocated to an agent first.
+
+## Default queues
+
+Out of the box, the following default queues are available in Omnichannel for Customer Service:
+
+- **Default entity queue:** The queue that is available for routing entity records.
+- **Default messaging queue:** The queue that is available for routing all messaging conversations pertaining to the Live Chat, SMS, and social channels.
+
+The default queues can't be edited or deleted. All Omnichannel for Customer Service users are members of the default queues. Therefore, the membership of these default queues also can't be changed.
 
   > [!NOTE]
-  > When no queues or routing rules are defined, all conversations are directed to the **Default** queue.
+  > When no custom queues or routing rules are defined, all conversations are directed to one of the out-of-the-box default queue based on the work item type.
 
-## Create a new queue
+## Create a queue
 
-Follow these steps to create a new Omnichannel queue.
+Perform the following steps to create a queue in Omnichannel for Customer Service:
 
-1. In the Omnichannel Administration site map, go to **Queues & Users** > **Omnichannel Queues**.
-
-    The **Active Omnichannel Queue** view is shown.
-
-2. On the command bar, select **New** to create an Omnichannel queue.
+1. In the Omnichannel Administration site map, go to **Queues & Users** > **Queues**. The **Omnichannel queues** view is displayed.
+2. On the command bar, select **New**.
 3. On the **Summary** tab, in the **General Information** section, provide the following information:
 
-    1. **Name**: Enter a name for the queue.
-    2. **Priority**: Assign a priority to define how quickly a conversation should be picked from the queue.
+    - **Name**: Enter a name for the queue.
+    - **Priority**: Assign a priority to define how quickly a conversation should be picked from the queue.
+    - **Queue type:** Select either **Messaging** or **Entity**. You can't edit the queue type after you save the queue.
+    - **Owner:** Search and select an owner for the queue if you do not want to use the default owner.
+    - **Operating Hours:** Search and select an operating hour schedule that you want to specify for the queue.
 
-4. Select **Save** to save the new queue.
+4. Select **Save**. The **Users (Agents)** section is displayed.
 
-    The **Users (Agents)** section is shown for the queue.
+    > [!div class=mx-imgBorder]
+    > ![omnichannel queue](../media/oc-create-queue.png)
 
 5. In the **Users (Agents)** section, select **Add Existing User** to add existing agents to the queue.
 6. On the **Lookup Records** flyout menu, select the agents to add, and then select **Add**.
@@ -53,12 +70,8 @@ Follow these steps to create a new Omnichannel queue.
     > [!TIP]
     > To select users from other views, you can change the view by selecting **Change View**.
 
-> [!div class=mx-imgBorder]
-> ![omnichannel queue](../media/oc-new-queue.PNG)
-
-
 ### See also
 
-[Understand and create work streams](work-streams-introduction.md)
-
-[Understand unified routing and work distribution](unified-routing-work-distribution.md)
+[Understand and create work streams](work-streams-introduction.md)  
+[Understand unified routing and work distribution](unified-routing-work-distribution.md)  
+[Create operating hours](create-operating-hours.md)  

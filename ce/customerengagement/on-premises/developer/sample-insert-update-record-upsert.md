@@ -3,7 +3,7 @@ title: "Sample: Insert or update a record using Upsert (Developer Guide for Dyna
 description: "This sample code shows how to insert or update records by using the Upsert message"
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -17,8 +17,7 @@ ms.author: nkrb
 manager: kvivek
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 
 # Sample: Insert or update a record using Upsert

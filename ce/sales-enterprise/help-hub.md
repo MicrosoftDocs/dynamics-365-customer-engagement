@@ -18,10 +18,10 @@ manager: annbe
 
 <h2>Get started</h2>
 
+<li><a href="set-up-dynamics-365-sales.md" data-raw-source="[Set up Dynamics 365 Sales](set-up-dynamics-365-sales.md)">Set up Dynamics 365 Sales</a></li>
 <li><a href="overview.md" data-raw-source="[Dynamics 365 Sales Overview](overview.md)">Dynamics 365 Sales Overview</a></li>
 <li><a href="user-guide-learn-basics.md" data-raw-source="[Learn the basics](user-guide-learn-basics.md)">Learn the basics</a></li>
 <li><a href="use-sales-hub-on-dynamics-365-mobile.md" data-raw-source="[Use Sales Hub on Dynamics 365 for phones and tablets](use-sales-hub-on-dynamics-365-mobile.md)">Use Sales Hub on Dynamics 365 for phones and tablets</a></li>
-
 
 </td><td>
 
@@ -43,7 +43,7 @@ manager: annbe
 <li><a href="create-edit-lead-sales.md" data-raw-source="[Create or edit leads](create-edit-lead-sales.md)">Create or edit leads</a></li>
 <li><a href="qualify-lead-convert-opportunity-sales.md" data-raw-source="[Qualify or convert leads](qualify-lead-convert-opportunity-sales.md)">Qualify or convert leads</a></li>
 <li><a href="create-edit-opportunity-sales.md" data-raw-source="[Create or edit opportunities](create-edit-opportunity-sales.md)">Create or edit opportunities</a></li>
-<li><a href="user-guide.md" data-raw-source="[More help resources for sales people...](user guide.md)">More help resources for sales people...</a></li>
+<li><a href="user-guide.md" data-raw-source="[More help resources for salespeople...](user guide.md)">More help resources for salespeople...</a></li>
 
 </td><td>
 <h2>In-app marketing</h2>
@@ -70,10 +70,12 @@ manager: annbe
 <tr><td>
 
 <h2>Develop</h2>
+<li><a href="../customerengagement/on-premises/developer/sales-entities-lead-opportunity-competitor-quote-order-invoice.md" data-raw-source="[Sales entities (lead, opportunity, competitor, quote, order, invoice)](../customerengagement/on-premises/developer/sales-entities-lead-opportunity-competitor-quote-order-invoice.md)">Sales entities (lead, opportunity, competitor, quote, order, invoice)</a></li>
 <li><a href="../sales-enterprise/developer/enable-sales-order-processing-integration.md" data-raw-source="[Enable sales order processing integration](../sales-enterprise/developer/enable-sales-order-processing-integration.md)">Enable sales order processing integration</a></li>
-<li><a href="../sales-enterprise/developer/reference/entities/export-forecast-data.md" data-raw-source="[msdyn_ForecastInstanceActions](../sales-enterprise/developer/reference/entities/export-forecast-data.md)">msdyn_ForecastInstanceActions</a></li>
-<li><a href="../sales-enterprise/developer/reference/playbook-entity-reference.md" data-raw-source="[Entity reference for playbooks](../sales-enterprise/developer/reference/playbook-entity-reference.md)">Entity reference for playbooks</a></li>
-<li><a href="../sales-enterprise/developer/custom-plugin-handling-shared-variable.md" data-raw-source="[Custom plug-in handling using shared variable](../sales-enterprise/developer/custom-plugin-handling-shared-variable.md)">Custom plug-in handling using shared variable</a></li>
+<li><a href="../customerengagement/on-premises/developer/marketing-entities-campaign-list.md" data-raw-source="[Marketing entities (campaign, list)](../customerengagement/on-premises/developer/marketing-entities-campaign-list.md)">Marketing entities (campaign, list)</a></li>
+<li><a href="../customerengagement/on-premises/developer/goal-management-entities.md" data-raw-source="[Goal management entities](../customerengagement/on-premises/developer/goal-management-entities.md)">Goal management entities</a></li>
+<li><a href="../customerengagement/on-premises/developer/product-catalog-entities.md" data-raw-source="[Product catalog entities](../customerengagement/on-premises/developer/product-catalog-entities.md)">Product catalog entities</a></li>
+<li><a href="developer/developer-guide.md" data-raw-source="[More help resources for developers...](developer/developer-guide.md)">More help resources for developers...</a></li>
 </td>
 <td>
 <h2>GDPR</h2>

@@ -14,8 +14,7 @@ ms.custom:
   - dyn365-a11y
 search.audienceType: 
   - enduser
-search.app: 
-  - D365CE
+
 ---
 # Use a screen reader in Unified Interface apps in Dynamics 365 Customer Engagement (on-premises)
 

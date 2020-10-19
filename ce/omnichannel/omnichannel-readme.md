@@ -4,9 +4,9 @@ description: "Learn about the known issues and limitations in Omnichannel for Cu
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 06/05/2020
+ms.date: 10/15/2020
 ms.service: 
-  - "dynamics-365-customerservice"
+  "dynamics-365-customerservice"
 ms.topic: article
 ---
 
@@ -18,18 +18,6 @@ The topic explains the known issues and limitations of Omnichannel for Customer 
 
 > [!Important]
 > We recommend updating Omnichannel for Customer Service to the latest version for the best experience. More information: [Upgrade Omnichannel for Customer Service](administrator/upgrade-omnichannel.md)
-
-## Cases are routed to agents with higher skill rating value even when agents with exact skill rating value are available
-
-When skill-based routing is configured, cases will be routed to agents who have a higher rating on skills even when agents with exact match are available. This known issue occurs only when exact match is configured with minimum rating value model.
-
-### Workaround
-
-As a workaround, decrease the minimum rating value of the rating model by at least one (1).
-
-## Productivity pane is disabled after the upgrade of Omnichannel for Customer Service
-
-If you have enabled the **Productivity pane** in Omnichannel for Customer Service, it'll be disabled after the upgrade. You need to enable it again to be able to provide guidance to agents. For information about enabling the **Productivity pane**, see [Enable productivity pane](administrator/productivity-pane.md).
 
 ## Loss of agent script state
 
@@ -49,7 +37,7 @@ In your entity records channel, if you see an error that states: **You must inst
 
 - If you use Omnichannel for Customer Service in a production environment, go to your Omnichannel for Customer Service provisioning page and install the latest version. If there are no upgrade available, contact Microsoft support.
 
-- If you use Omnichannel for Customer Service preview or trial version, contact Microsoft support.
+- If you use trial version of Omnichannel for Customer Service, contact Microsoft support.
 
 ## Closed conversations don't appear in the Closed work items stream and Closed conversations view
 
