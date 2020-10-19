@@ -36,9 +36,9 @@ This section consists of the following conversation KPIs:
 
 | KPI                  | Description              |
 |----------------------|--------------------------|
-|Incoming conversation | The number of conversations initiated by the customer.|
+|Incoming conversations | The number of conversations initiated by the customer.|
 |Conversations engaged | Offered conversations that are engaged by an agent. Customer-to-agent communication can begin at this point.  |
-|Average Wait Time (mins) | The length of time, in minutes, a customer is waiting in a queue. |
+|Average wait time (mins) | The length of time, in minutes, a customer is waiting in a queue. |
 |Average wait time | Total length of time (in minutes) / Offered |
 |Abandon Rate | The percentage of conversations that are not engaged by agents.|
 |Average Handle Time (mins) |Average length of time an agent takes to complete a conversation with a customer. This time considers the time spent by one or more agents to help the customer.|
