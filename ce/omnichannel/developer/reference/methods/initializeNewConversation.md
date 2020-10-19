@@ -42,13 +42,14 @@ interface InviteParams {// Parameters received on a conversation invite
 
 interface conversationConfig { 
         conversationId: string,  // Unique Id for conversation in Omnichannel for Customer Service
-        c1Language: string;      // Default agent input language (From Realtime translation administrator configuration)
+        c1Language: string;      // Default agent input language (From Real time translation administrator configuration)
         inviteParams: InviteParams;  // Implements InviteParams interface, Represents the parameters received on a conversation invite  
 }
 ```
 The `inviteLocale` parameter in `InviteParams` interface represents a Locale ID. More information: [Locale ID](https://docs.microsoft.com/openspecs/office_standards/ms-oe376/6c085406-a698-4e12-9d4d-c3b0ee3dbc4a).
 
-The `channelType` parameter in `InviteParams` interface represents a supported channel in Omnichannel for Customer Service. List of channels are:
+The `channelType` parameter in `InviteParams` interface represents a supported channel in Omnichannel for Customer Service. The channels are listed as follows.
+
 |Name|Description|
 |----|----|
 |`"lcw"`|For Live Chat Widget channel| 
@@ -76,7 +77,6 @@ conversationConfig = {
 }
 ```
 
-
 ## Return Value
 
 Returns a promise that resolves to the following Javascript object.
@@ -89,52 +89,53 @@ Returns a promise that resolves to the following Javascript object.
 ```
 The `c1Language` parameter in resolved Javascript object represents a Locale ID only from the following list.
 
-|Locale Id|Language|
+|Locale ID|Language|
 |----|----|
-|`"1033"`|English| 
-|`"1025"`|Arabic| 
-|`"1069"`|Basque| 
-|`"1027"`|Catalan| 
-|`"1026"`|Bulgarian| 
-|`"1050"`|Croatian| 
-|`"1029"`|Czech| 
-|`"1030"`|Danish| 
-|`"1043"`|Dutch| 
-|`"1061"`|Estonian| 
-|`"1035"`|Finnish| 
-|`"1036"`|French| 
-|`"1110"`|Galician| 
-|`"1031"`|German| 
-|`"1032"`|Greek| 
-|`"1037"`|Hebrew| 
-|`"1081"`|Hindi| 
-|`"1038"`|Hungarian| 
-|`"1040"`|Italian| 
-|`"1057"`|Indonesian| 
-|`"1041"`|Japanese| 
-|`"1087"`|Kazakh| 
-|`"1042"`|Korean| 
-|`"1062"`|Latvian| 
-|`"1063"`|Lithuanian| 
-|`"1086"`|Malay| 
-|`"1044"`|Norwegian Bokmal| 
-|`"1045"`|Polish| 
-|`"1046"`|Portuguese - Brazil| 
-|`"2070"`|Portuguese - Portugal| 
-|`"1048"`|Romanian| 
-|`"1049"`|Russian| 
-|`"3098"`|Serbian (Cyrillic)| 
-|`"2074"`|Serbian (Latin)| 
-|`"1051"`|Slovak| 
-|`"1060"`|Slovenian| 
-|`"3082"`|Spanish| 
-|`"1053"`|Swedish| 
-|`"1054"`|Thai| 
-|`"1055"`|Turkish| 
-|`"1058"`|Ukrainian| 
-|`"1066"`|Vietnamese| 
+|`"1033"`|English|
+|`"1025"`|Arabic|
+|`"1069"`|Basque|
+|`"1027"`|Catalan|
+|`"1026"`|Bulgarian|
+|`"1050"`|Croatian|
+|`"1029"`|Czech|
+|`"1030"`|Danish|
+|`"1043"`|Dutch|
+|`"1061"`|Estonian|
+|`"1035"`|Finnish|
+|`"1036"`|French|
+|`"1110"`|Galician|
+|`"1031"`|German|
+|`"1032"`|Greek|
+|`"1037"`|Hebrew|
+|`"1081"`|Hindi|
+|`"1038"`|Hungarian|
+|`"1040"`|Italian|
+|`"1057"`|Indonesian|
+|`"1041"`|Japanese|
+|`"1087"`|Kazakh|
+|`"1042"`|Korean|
+|`"1062"`|Latvian|
+|`"1063"`|Lithuanian|
+|`"1086"`|Malay|
+|`"1044"`|Norwegian Bokmal|
+|`"1045"`|Polish|
+|`"1046"`|Portuguese - Brazil|
+|`"2070"`|Portuguese - Portugal|
+|`"1048"`|Romanian|
+|`"1049"`|Russian|
+|`"3098"`|Serbian (Cyrillic)|
+|`"2074"`|Serbian (Latin)|
+|`"1051"`|Slovak|
+|`"1060"`|Slovenian|
+|`"3082"`|Spanish|
+|`"1053"`|Swedish|
+|`"1054"`|Thai|
+|`"1055"`|Turkish|
+|`"1058"`|Ukrainian|
+|`"1066"`|Vietnamese|
 |`"2052"`|Chinese - China|  
-|`"3076"`|Chinese - Hong Kong| 
+|`"3076"`|Chinese - Hong Kong|
+||
 
 **Sample expected response**
 
@@ -148,14 +149,14 @@ The `c1Language` parameter in resolved Javascript object represents a Locale ID 
 ```
 
 ## Additional Information
-1. On exception in this method or invalid return values, Omnichannel for Customer Service will keep translation off for the conversation. For example: if resolved Javascript object from the returned promise does not contains `keepTranslationOn` field or `c1Language` field contains a value that is not from list of Locale IDs, the conversation will start with translation turned off.
 
-2. Consider including minimal processing in this function, because it makes the UI wait before rendering. If the run time of this function exceeds 30 seconds, the conversation will start with translation turned off, irrespective of the values of the returned promise.
+- On exception in this method or invalid return values, Omnichannel for Customer Service will keep translation off for the conversation. For example: if resolved Javascript object from the returned promise does not contains `keepTranslationOn` field or `c1Language` field contains a value that is not from list of Locale IDs, the conversation will start with translation turned off.
 
-3. If this method is not implemented, the following error will be displayed to the agent.
+- Consider including minimal processing in this function because it makes the UI wait before rendering. If the run time of this function exceeds 30 seconds, the conversation will start with translation turned off, irrespective of the values of the returned promise.
+
+- If this method is not implemented, the following error will be displayed to the agent.
 
 ![initializeNewConversation error message](../../../media/initializeconversation-api-error.png "initializeNewConversation error message")
-
 
 ### See also
 
