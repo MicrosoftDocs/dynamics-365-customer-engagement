@@ -6,8 +6,7 @@ ms.author: laalexan
 manager: shujoshi
 ms.date: 10/05/2020
 ms.topic: article 
-ms.service: 
-  dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.custom: 
   dyn365-customerservice
 search.audienceType: 
@@ -44,7 +43,7 @@ Let's explore the elements of the Customer Service workspace and how to navigate
 
 | Label | Description|
 | ------------ | ------------- |
-| 1 | The session pane lists all of the sessions you are actively working on. Select the tabs to navigate between sessions. |
+| 1 | The session pane lists all of the sessions you are actively working on. Select the tabs to navigate between sessions.  |
 | 2 | The Home session returns you to the Customer Service Agent Dashboard view.|
 | 3 | Each session has a tab in the session panel. Select a tab to navigate to the session you want to work on. |
 | 4 | Select Shift + mouse click to open a new session for a case. A single click on a case replaces your view with the case form. Select the back arrow in the upper-left corner of the form to get back to your previous view.|
