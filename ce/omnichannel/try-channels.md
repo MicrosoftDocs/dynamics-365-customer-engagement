@@ -48,20 +48,17 @@ With this option, you can get a free 30-day trial of Omnichannel for Customer Se
     > [!div class=mx-imgBorder]
     > ![Create a Customer Service trial](media/cs-trial.png "Create a Customer Service trial")
 
-4. Sign in with your global administrator credentials and accept the terms and privacy policy. If you already have trial instances (Dynamics 365 instances with Instance Type set to Trial), you'll be asked create your own trial. If you do not use global administrator credentials, you can join an existing trial organization with approval of organization owner.
+4. Sign in with your global administrator credentials and accept the terms and privacy policy. If you already have trial instances (Dynamics 365 instances with Instance Type set to Trial), you'll be asked create your own trial. If you do not use global administrator credentials, you can join an existing trial organization with approval of the organization owner.
 
 5. Select **Create your own trial**, and then select **Create New Trial**.
 6. Select **Customer service** and then select **Complete Setup**.
 
-   > [!div class=mx-imgBorder]
-   > ![Create your own trial and complete setup](media/create-own-trial.png "Create your own trial and complete setup")
-
     > [!NOTE]
-    > A tenant can have a maximum of five trial instances. If you already have five trial instances in your tenant, you must delete one instance before creating a new trial.
+    > A tenant can have a maximum of five trial instances. If you already have five trial instances in your tenant, you must delete one instance before creating another trial.
 
 6. If you are redirected to the applications page, select **Customer Service Hub** to open the application after it is set up.
 
-7. You will now be able to see the newly instance in Dynamics 365 Administration Center under the **Instances** tab. The instance type will be set to Trial.
+7. You will now be able to see the new instance in Dynamics 365 Administration Center under the **Instances** tab. The instance type will be set to Trial.
 
 ### Step 2: Get a Power BI (free) subscription
 
@@ -118,11 +115,9 @@ After you have the subscription for the required channels and assigned licenses 
 
 In Dynamics 365 Administration Center, go to the **Applications** tab, select the **Omnichannel for Customer Service** application and select **Manage**. This will guide you to enable the required channels on one or more instances that you may have. You can enable a channel or multiple channels on any instance type in this step. For more information on provisioning channels through the Dynamics 365 admin center, see [Provision Omnichannel for Customer Service](administrator/omnichannel-provision-license.md).
 
-![Manage Omnichannel application](media/manage-oc-application.png "Manage Omnichannel application")
-
 After a channel is enabled in your organization, you can sign in to the Dynamics 365 organization, and select the Omnichannel Administration application to start configuring the channel. More information on configuring channels in Omnichannel for Customer Service: [Configure a chat channel](administrator/set-up-chat-widget.md), [Configure an SMS channel](administrator/configure-sms-channel.md), and [Configure a Facebook channel](administrator/configure-facebook-channel.md).
 
-## Videos
+### Videos
 
 [Try channels in Omnichannel for Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2114715)
 
@@ -132,8 +127,6 @@ To view more videos on Omnichannel for Customer Service, see [Videos](videos.md)
 
 [Provision Omnichannel for Customer Service](administrator/omnichannel-provision-license.md)
 
-[Configure a chat channel](administrator/set-up-chat-widget.md)
-
-[Configure an SMS channel](administrator/configure-sms-channel.md)
-
-[Configure a Facebook channel](administrator/configure-facebook-channel.md)
+[Configure a chat channel](administrator/set-up-chat-widget.md)  
+[Configure an SMS channel](administrator/configure-sms-channel.md)  
+[Configure a Facebook channel](administrator/configure-facebook-channel.md)  
