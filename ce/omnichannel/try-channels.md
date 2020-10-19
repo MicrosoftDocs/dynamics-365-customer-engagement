@@ -98,18 +98,12 @@ If you do not have one of these subscriptions, or if you purchased your subscrip
 
 1. Sign in to [Microsoft 365 admin center](https://admin.microsoft.com) with the global administrator credentials.
 
-2. Go to **Billing** > **Purchase Services**, scroll down, and select **Add-ons**. 
+2. Go to **Billing** > **Purchase Services**, scroll down, and select **Add-ons**.
 
-    > [!div class=mx-imgBorder]
-    > ![Add-on subscriptions in Microsoft 365 admin center](media/digital-trial-add-on.png "Add-on subscriptions in Microsoft 365 admin center")
+3. Select **Dynamics 365 Customer Service Digital Messaging add-on Trial**.
 
-3. Select the required add-on.
-    
-    > [!div class=mx-imgBorder]
-    > ![Dynamics 365 Customer Service Chat Trial option](media/digital-trial-digital-messaging.png "Dynamics 365 Customer Service Digital Trial option")
-    
     > [!IMPORTANT]
-    > You must have a paid or trial subscription of Dynamics 365 Customer Service Enterprise or Dynamics 365 Customer Engagement in your tenant obtained through the Microsoft 365 admin center (that is, Web Direct), otherwise the Digital Messaging options won't be visible.
+    > You must have a paid or trial subscription of Dynamics 365 Customer Service Enterprise or Dynamics 365 Customer Engagement in your tenant obtained through the Microsoft 365 admin center (that is, Web Direct), otherwise the Digital Messaging trial options won't be visible. The trial option is not applicable if the subscription for Dynamics 365 Customer Service Enterprise or Dynamics 365 Customer Engagement in your tenant is obtained through Volume Licensing Service Center.
 
 4. You can start a 30-day trial of Digital Messaging with 25 user licenses.
 
