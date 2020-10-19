@@ -6,6 +6,8 @@ ms.author: anbisht
 manager: gibapana
 ms.date: 10/05/2020
 ms.topic: article
+ms.service: dynamics-365-customerservice
+
 ---
 
 # getTranslationProvider
@@ -23,7 +25,7 @@ This property is required to be set in web resource. It is called once, after ag
 
 `window.Microsoft.Omnichannel.TranslationFramework.getTranslationProvider`
 
-## Type of object to be assingned 
+## Type of object to be assigned
 
 A function is required to be assigned to the property. The function should have no input parameters and should return a JavaScript object implementing following interface:
 

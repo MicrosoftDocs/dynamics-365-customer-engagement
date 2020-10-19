@@ -100,6 +100,7 @@ export interface TranslatedMessageResponse {
 ```
 
 The `errorCode` parameter in `ErrorObject` represents the errors only from the following list.
+
 |Error message|Error code|Description|
 |-----|-----|-----|
 |MESSAGE_TOO_LONG|100|Error code for very long message which the translation service cannot translate|
