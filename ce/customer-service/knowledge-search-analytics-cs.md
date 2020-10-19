@@ -28,7 +28,7 @@ The knowledge search analytics dashboard is designed to provide your organizatio
 
 As a knowledge manager, it's your responsibility to maintain and improve your organization's overall knowledge base article offerings. By identifying searches that have low success or return no results, the knowledge search analytics dashboard can help you identify knowledge gaps, improve search results, and surface the most relevant articles.  
 
-For more information about specific metrics in this dashboard, select the link for the chart in the following list or locate the chart later in this article. 
+The following are specific metrics represented on this dashboard: 
 
 - KPI Summary charts 
 - Search count over duration chart 
