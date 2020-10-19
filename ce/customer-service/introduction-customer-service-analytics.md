@@ -21,7 +21,7 @@ For a walkthrough of how to enable Customer Service Insights for your customer s
 
 By pinpointing and fixing issues before they impact customers, you can adapt to current and emerging trends, improve brand sentiment, and deliver better customer service experiences.
 
-For more information about dashboards and reports, see Dashboard Overview.
+For more information about dashboards and reports, see [Dashboard Overview](customer-service-analytics.md).
 
 For more details about specific Customer Service Insights dashboards, see the following: 
 
