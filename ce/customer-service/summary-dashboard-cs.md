@@ -4,7 +4,7 @@ description: Learn about the Summary dashboard insights overview to better under
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 10/14/2020
+ms.date: 10/19/2020
 ms.topic: article
 ms.service: 
   dynamics-365-customerservice
@@ -29,19 +29,13 @@ The Summary dashboard gives you a broad overview of the customer service experie
 The KPI summary dashboard includes a variety of charts with graphical views of your system's key performance indicators. For information about each chart, click the link for the chart in the following list or scroll to locate the chart later in this topic. 
 
 - [Key insights card](#key-insights-card) 
-- KPI summary charts and additional KPI charts
-- Case volume over duration chart
-- Open cases by priority chart
-- Incoming cases by channel chart 
-- Open cases by base age chart 
-- Case volume by status chart
-- Avg. CSAT trend chart
-- Avg. sentiment trend chart
-- Top 10 volume topics chart
-- Emerging case volume by topic chart
-- Emerging case volume by topic chart
-- Avg. incoming case time 24 hrs chart
-- Case metrics by channel chart 
+- [KPI summary charts and additional KPI charts](#kpi-summary-charts)
+- [Case volume over duration chart](#case-breakdown-chart)
+- [Open cases by priority chart](#case-priority-chart)
+- [Incoming cases by channel chart](#case-channel-chart)
+- [Open cases by base age chart](#unresolved-cases-by-age-chart)
+- [Case volume by status chart](#case-tracking-chart)
+- [Emerging case volume by topic chart](emerging-topics-chart)
 
 The Case volume drivers and Emerging topics charts use natural language understanding to group support cases as *topics* that are a collection of related cases. These charts show you the customer support topics that are generating the most volume and emerging topics with the highest rate of change in volume, helping you identify areas for improvement that can have the greatest impact on system performance.
 
@@ -63,7 +57,6 @@ The Key Insights Discovery card has two areas:
 - **Negative CSAT impact** shows topics that have the greatest negative impact on your total CSAT score. CSAT data is collected from surveys.
 - The emerging rate gives you a "heads-up" about topics that have a high rate of new incoming cases in the selected time period.
 
-When you select the light bulb ![Light bulb](media/light-bulb.png "Light bulb"), a short inline explanation of the reason for showing these topics is displayed with recommendations of possible actions to take.
 
 ## KPI summary charts
 
