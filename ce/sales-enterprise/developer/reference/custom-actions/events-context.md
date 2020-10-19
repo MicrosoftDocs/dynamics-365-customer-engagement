@@ -33,7 +33,7 @@ The following are the sample scenarios that you can perform using `OnRowLoad` ha
 -	[Disable editing of fields based on logic and entity](#disable-editing-of-fields-based-on-logic-and-entity).
 
 >[!NOTE]
->For forecast configuration, underlying records of different entities are viewed by selecting **Groupby** attribute in forecasting editable grid. Hence, to handle logic based on entities, see samples, [Always enable only few fields based on entity]() and [Disable editing of fields based on logic and entity]().
+>For forecast configuration, underlying records of different entities are viewed by selecting **Groupby** attribute in forecasting editable grid. Hence, to handle logic based on entities, see samples, [Always enable only few fields based on entity](#always-enable-only-few-fields-based-on-entity) and [Disable editing of fields based on logic and entity](#disable-editing-of-fields-based-on-logic-and-entity).
 
 ### OnChange event
 
