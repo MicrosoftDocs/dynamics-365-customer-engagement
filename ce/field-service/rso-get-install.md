@@ -38,7 +38,7 @@ There are two ways to get Resource Scheduling Optimization (RSO):
 
 In order to get access to RSO, you must first have access to Field Service. If you already have Field Service installed, skip to step 4.   
 
-1. Purchase Field Service. Go to the **Microsoft 365 (Microsoft 365) Admin Center** > **Billing > Purchase Services**.
+1. Purchase Field Service. Go to the **Microsoft 365 Admin Center** > **Billing > Purchase Services**.
    
 2. Find and buy whichever Field Service license works best for you and your organization. Visit the [Field Service pricing page](https://dynamics.microsoft.com/pricing/#FieldService) for more information. And for even more details, visit the [Dynamics 365 Licensing Guide (PDF)](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409).   
 
@@ -52,7 +52,7 @@ In order to get access to RSO, you must first have access to Field Service. If y
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Dynamics 365 admin center on the Instances tab](./media/admin-install-fs-instances.png)
 
-4. Purchase RSO. Go to the **Microsoft 365 (Microsoft 365) Admin Center** > **Billing** > **Purchase services**. The price of RSO is based on the number of resources whose schedules are optimized.
+4. Purchase RSO. Go to the **Microsoft 365 Admin Center** > **Billing** > **Purchase services**. The price of RSO is based on the number of resources whose schedules are optimized.
 
 ## Option 2: Request trial
 
