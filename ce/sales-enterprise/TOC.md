@@ -59,6 +59,7 @@
 #### [Choose layout and columns](choose-layout-and-columns-forecast.md)
 #### [Apply additional filter](add-additional-filters.md)
 #### [Configure and manage drill-down entities](configure-manage-drill-downs.md)
+#### [Configure advanced settings](forecast-configure-advanced-settings.md)
 #### [Activate and upload simple columns data](activate-upload-simple-columns-data-forecast.md)
 #### [Deactivate and delete forecast](deactivate-delete-forecast.md)
 #### [Configure forecast using custom rollup entity](configure-forecast-using-custom-rollup-entity.md)
