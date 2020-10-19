@@ -120,7 +120,3 @@ Once the IoT device has been associated with the asset, a new section will appea
 
 > [!Note]
 > Multiple IoT devices can be associated with a single customer asset. On the asset, go to **Related** > **Connections** to associate additional IoT devices.
-
-## Configuration considerations
-
-## Additional notes
