@@ -58,21 +58,6 @@ Make sure that you have administrator permissions for Dynamics 365.
 
 This configuration will enable AI-discovered topics from cases with default settings.
 
-### Share Customer Service analytics reports
-
-You can share the reports from the **Service Management** > **Settings (Preview)** > **Analytics and insights settings** page or the **Service** > **Analytics and Insights** > **Reports (Preview)** > **Data Analytics Reports** page.
-
-1. On the **Analytics and insights settings** page, select **Share reports**. The **Data Analytics Reports** page displays the list of available reports.
-    > [!div class=mx-imgBorder]
-    > ![Customer Service data analytics report](media/cs-data-analytics-reports.PNG "Customer Service data analytics report")
-
-2. Select a report. The report opens on a new page.
-3. Select **Share**. The **Share data analytics report** dialog box appears.
-    > [!div class=mx-imgBorder]
-    > ![Customer Service share data analytics report](media/cs-share-report.png "Customer Service share data analytics report")
-4. Select **Add User/Team**. The **Look Up Records** dialog box appears.
-5. Search for users, and then add them. The users appear in the table.
-6. Select the permissions&mdash;such as Read, Write, and Share&mdash;that you want to grant on the report, and then select **Share**. The report is shared with the selected users.
 
 ### View Customer Service analytics reports
 
@@ -83,15 +68,6 @@ You can see the following reports by navigating to the **Service** > **Analytics
 - [Case Summary report](customer-service-analytics.md#1-summary)
 - [Agent Summary report](customer-service-analytics.md#2-agent-and-queue)
 
-## Configure Customer Service Insights reports
-
-Make sure that the following prerequisites are met:
-
-- Administrator permissions for Dynamics 365
-- A valid Customer Service Insights license
-
-  > [!NOTE]
-  > The Customer Service Insights license is needed for customers who have licenses for Dynamics 365 Customer Service Enterprise.
 
 ### Install Customer Service Insights reports
 
@@ -203,8 +179,6 @@ The topics capability in the Customer Service historical analytics reports comes
 - Portuguese 
 - Simplified Chinese 
 - Spanish 
-
-Each language model also has the capability to process English cases in addition to the other language it’s optimized for. For other languages that are not listed above, Customer Service Insights still tries to group the cases using natural language processing, but without the understanding of text semantics and intent. 
 
 The language-specific models enable better language understanding capability for the corresponding languages. When Customer Service Insights refreshes your workspace and processes the case data, it will automatically detect the primary languages used in your cases. 
 
