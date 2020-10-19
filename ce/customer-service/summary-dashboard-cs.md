@@ -49,14 +49,10 @@ To filter data by product, channel, business unit, or team, select a value from 
 
 The Key Insights Discovery card has two areas:
 
-- KPI insights: Important subjects that impact performance 
+- **KPI insights**: Important subjects that impact performance 
 
-- Topics to watch: Topics that rank high across the following three key areas are shown under **Topics to watch**, to make it easier for customer service managers to discover top issues:
+- **Topics to watch**: Topics that rank high across the following three key areas are shown under **Topics to watch**, to make it easier for customer service managers to discover top issues:
   
-- **Volume driver** shows topics with the largest volume of cases created in the selected time period.
-- **Negative CSAT impact** shows topics that have the greatest negative impact on your total CSAT score. CSAT data is collected from surveys.
-- The emerging rate gives you a "heads-up" about topics that have a high rate of new incoming cases in the selected time period.
-
 
 ## KPI summary charts
 
