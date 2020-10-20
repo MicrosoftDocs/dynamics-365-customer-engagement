@@ -46,7 +46,7 @@ Here are the flavors [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md
 
 - Manage customers and deals wherever you are, on any device (phone, tablet, PC, or Mac).
 
-- Get productive faster by using familiar tools. [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] is tightly integrated with [!include[Office 365](../includes/pn-office-365.md)] apps, which makes it easier to get going more quickly:
+- Get productive faster by using familiar tools. [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] is tightly integrated with [!include[Microsoft 365](../includes/pn-office-365.md)] apps, which makes it easier to get going more quickly:
 
   - Use [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] to store and view documents like presentations or notes in the context of a record, such as an opportunity, so anyone working on the opportunity can view them. 
   

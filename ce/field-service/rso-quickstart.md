@@ -43,7 +43,7 @@ For a guided walkthrough, see the following video.
 
 - The images and definitions in this quickstart reflect **Field Service v8.7** and **RSO v3.0**.
 
-- This quickstart assumes you already have RSO deployed into your Field Service environment. You can do this by first purchasing a Field Service license and then purchasing a Resource Scheduling Optimization (RSO) license in the "Purchase Services" section of Office 365. For more details, visit the topic on [Deployment of the Resource Scheduling Optimization (RSO) solution](rso-deployment.md).
+- This quickstart assumes you already have RSO deployed into your Field Service environment. You can do this by first purchasing a Field Service license and then purchasing a Resource Scheduling Optimization (RSO) license in the "Purchase Services" section of Microsoft 365. For more details, visit the topic on [Deployment of the Resource Scheduling Optimization (RSO) solution](rso-deployment.md).
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of RSO app](media/rso-quickstart-app.png)

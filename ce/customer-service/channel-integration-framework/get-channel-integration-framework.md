@@ -23,7 +23,7 @@ You can get the solution from within Dynamics 365 or directly from Microsoft App
 
 - Identify the Dynamics 365 instance for which you want to use the Dynamics 365 Channel Integration Framework application.
 
-- You need global administrator permissions in Office 365 to download and install the Dynamics 365 Channel Integration Framework application (solution).
+- You need global administrator permissions in Microsoft 365 to download and install the Dynamics 365 Channel Integration Framework application (solution).
 
 [!INCLUDE[token-get-channel-integration-framework](shared/token-get-channel-integration-framework.md)]
 

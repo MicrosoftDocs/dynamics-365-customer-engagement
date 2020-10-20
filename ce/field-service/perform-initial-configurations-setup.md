@@ -78,8 +78,6 @@ Go to **Resource Scheduling > Administration > Scheduling Parameters**.
 
 Set **Connect to Maps** to **Yes**.
 
-The API key will populate automatically and use the Bing Maps API.
-
 > [!div class="mx-imgBorder"]
 > ![Screenshot of setting connect to maps to yes](media/Perform-Initial-Configurations-image7.png)  
 

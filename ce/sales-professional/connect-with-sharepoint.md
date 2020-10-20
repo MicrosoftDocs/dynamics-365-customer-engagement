@@ -26,7 +26,7 @@ To be able to configure SharePoint, you must have:
 
 -   Sales Professional Manager or System Administrator role
 
--   Office 365 subscription
+-   Microsoft 365 subscription
 
 -   SharePoint Online subscription
 
