@@ -163,7 +163,7 @@ To define the layout, select an option set and then add the rollup columns accor
 2.	Choose an option set entity from the rollup entity or from its related entities. The selected entity consists of option sets that are necessary to add columns to the forecast. In this example, the **Opportunity (Opportunity)** option set entity is selected from **Related Entities**. The list shows only the option sets defined on the opportunity entity.
 
     > [!div class="mx-imgBorder"]
-    > ![Select opportiunity entity from related entities](media/forecast-ce-select-opportunity-entity.png "Select opportiunity entity from related entities")
+    > ![Select opportunity entity from related entities](media/forecast-ce-select-opportunity-entity.png "Select opportunity entity from related entities")
 
 3.	Choose an option set and then select **Choose selected**. In this example, **Forecast category** option set is selected. The option set values are added as columns for you to configure.
 
@@ -239,16 +239,32 @@ Select the column **Type** as **Rollup**. The following options are available to
 <a name="configure-calculated-type"> </a>
 #### Calculated type
 
-When you select column **Type** as **Calculated**, the values for the column are calculated and displayed based on a formula that you define. The following options are available to configure.
+Calculated columns can be identified in your forecast by looking for the information icon in the column header. Hovering over the icon will display the formula that is defined for the column. When you select column **Type** as **Calculated**, the values for the column are calculated and displayed based on a formula that you define. The following options are available to configure.
 
 | Parameter | Description |
 |-----------|-------------|
 | Data type	| Select a data type for the column that you want to display on the forecast grid, based on the formula. You can select the value **Currency** or **Decimal**, depending on your requirements. |
 | Calculation | Enter a formula to calculate values for the column. When you start typing a formula, suggestions are displayed for your convenience. The names shown are the column's unique name and value. For example, if you want to see the best case forecast in this column, enter the formula as **Closed + Commit + Best Case**. <br> If you enter an invalid formula, an appropriate error message appears below the **Calculation** field. |
 | Description | Enter a description for the column. This description appears as a tooltip on the column header of the forecast grid, to help your users understand what the column contains. |
+| Allow adjustments | Enable this setting to let users manually edit the value of a calculated column directly in the forecast grid. When you select the column as adjustable, the formula you have created for this column must satisfy certain conditions that allows a proper rollup of values in the forecast. If not satisfied, an error is displayed, and you can’t proceed to the next step. To learn more about the conditions and its corresponding errors, see [Adjustment column conditions](#adjustment-column-conditions).<br> When this setting is enabled, you'll see a pencil icon next to the forecasted value in that column. To learn more, see [Adjust values in a forecast](adjust-values-in-forecast.md). |
 | Show progress compared to quota | Enable this option to compare the column's value against the quota column. When enabled, a progress bar indicating the attainment percentage is shown below the forecast value in that column.|
 | Show in Trend Chart | Enable this option to show the value in the **Trend Chart**. This option is available only when predictive forecasting is enabled for your organization. To learn more about trend charts, see [Understand forecast projection through trend chart](https://docs.microsoft.com/dynamics365/ai/sales/understand-forecast-projection-through-trend-chart). |
 | Unique name | The unique name is used to identify the column when you're writing a formula for a **Calculated** column. |	
+
+#### Adjustment column conditions
+
+To configure a calculated column as adjustable, it must satisfy certain conditions. These conditions are applicable on columns that are used to create the formula. If the conditions are not satisfied, an error will be displayed, and you will not be able to proceed further. The conditions are:
+
+| Condition	| Description | Error type | Resolution |
+|-----------|-------------|------------|------------|
+| No column with adjustments | In the **Calculation** box, the formula must not contain columns that have adjustment defined. <br> **Example:** You want to configure **committed** column as calculated field with adjustments and entered the formula as **won + forecast**. Here forecast column is configured as adjustable.<br> When you select **Allow adjustments**, an error is displayed. | **Error:** The formula is invalid. The column reference - *column* results in a circular dependency.<br>![Error message for column with adjustments](media/forecast-column-no-column-with-adjustments.png "Error message for column with adjustments") | Remove the column that is configured as adjustable from the formula and add non-adjustable columns. |
+| No simple or prediction column | In the **Calculation** box, the formula must not contain any columns that are of type simple or prediction.<br> **Example:** You want to configure **forecast** column as calculated field with adjustments and entered the formula as **won + quota**. Here quota is a simple column.<br>When you select **Allow adjustments** and then save the configurations, an error is displayed. | An error of type Error while saving column is displayed with the message – You can't mark this column as adjustable because the column type of *"<Column(display name)>"* in the formula is not supported.<br>![Error message for simple or prediction column](media/forecast-column-no-simple-prediction-column.png "Error message for simple or prediction column")<br> Select **OK** to continue. | Remove the simple or prediction columns from the formula. |
+| No Hierarchy related column | In the **Calculation** box, the formula must not contain any columns that are of type **Hierarchy related**. These types of columns will not be available as autocomplete text in the Calculation box; manually typing them will end in an error. <br>**Example:** You want to configure **committed** column as a calculated field with adjustments and entered the formula as **won + user**. Though the **user** column is of type hierarchy related and not displayed in the suggested list, you entered it manually.<br> When you select **Allow adjustments**, an error is displayed. | **Error:** The formula contains invalid column reference - *column* at position *number*.<br>![Error message for hierarchy related column](media/forecast-column-no-hierarchy-related-column.png "Error message for hierarchy related column") | Never use columns that are of type **Hierarchy related**. |
+
+
+
+
+
 
 <a name="configure-simple-type"> </a>
 #### Simple type
