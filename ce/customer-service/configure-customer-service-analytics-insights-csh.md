@@ -49,7 +49,7 @@ Make sure that you have administrator permissions for Dynamics 365.
 3. Under **Analytics and Insights**, select **Settings**. The **Analytics and insights settings** page is displayed.
 
     > [!div class=ms-imgBorder]
-    > ![Customer Service analytics installation](media/cs-analyticsinsights-configure.png "Enable Customer Service analytics")
+    > ![Customer Service analytics installation](media/cs-enable-analyticsinsights.png "Enable Customer Service historical analytics")
 
 4. On the right side of **Customer Service historical analytics (preview)**, select **Manage**.
 
@@ -80,13 +80,20 @@ You can see the following reports by navigating to the **Service** > **Analytics
 3. Under **Analytics and Insights**, select **Settings**. The **Analytics and insights settings** page is displayed.
 
     > [!div class=ms-imgBorder]
-    > ![Enable knowledge search analytics](media/cs-analyticsinsights-configure.png "Enable knowledge search analytics")
+    > ![Enable knowledge search analytics](media/cs-enable-analyticsinsights.png "Enable knowledge search analytics")
 
 4. On the right side of **Knowledge search analytics (preview)**, select **Manage**.
 
 5. On the **Knowledge search analytics (preview)** page, toggle **Status** to **Enabled**.
 
 6. Select **Save** or **Save & Close**.
+
+
+### View Customer Service knowledge search analytics (preview) reports
+
+The service managers must have the admin or service manager role to view the reports. Users with the CSR Manager role will be able to view the reports only after the reports are shared with them.
+
+You can see the following reports by navigating to the **Service** > **Analytics and Insights** > **Knowledge search analytics (preview)** page. Search term insights are displayed.
 
 
 ### See also
