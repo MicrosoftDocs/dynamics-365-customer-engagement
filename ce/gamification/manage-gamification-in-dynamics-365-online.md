@@ -74,13 +74,13 @@ More information about KPIs in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-onlin
 
 Before you can sync [!INCLUDE[pn_gamification](../includes/pn-gamification.md)] with Dynamics 365, a user with the following prerequisites needs to complete the setup process to obtain the security key.  
 
-- The user profile in Office 365 has a non-empty first name, last name, email address 
-- The user has a global admin role in Office 365 
+- The user profile in Microsoft 365 has a non-empty first name, last name, email address 
+- The user has a global admin role in Microsoft 365 
 - The user has a system administrator security role with an [access mode of Read-Write](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles#create-a-read-write-user-account).
 
 
 > [!TIP]
-> Starting with Gamification solution update 17.10, you can connect multiple organizations (business units) of the same Office 365 tenant to a shared Gamification web portal. Repeat the installation and activation for every organization you want to connect to your shared Gamification portal. Users with the Game Manager security role in Organization A can create games for Organization A in Gamification. If they are regular users in Organization B, they can participate as players or fans in games in Organization B. [Learn how to set up and run games.](run-games.md)
+> Starting with Gamification solution update 17.10, you can connect multiple organizations (business units) of the same Microsoft 365 tenant to a shared Gamification web portal. Repeat the installation and activation for every organization you want to connect to your shared Gamification portal. Users with the Game Manager security role in Organization A can create games for Organization A in Gamification. If they are regular users in Organization B, they can participate as players or fans in games in Organization B. [Learn how to set up and run games.](run-games.md)
   
 ### Activate the Gamification portal for your organization  
   

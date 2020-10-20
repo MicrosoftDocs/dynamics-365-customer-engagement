@@ -99,9 +99,9 @@ To export data from your source instance:
 
     ![Select Export data and continue](media/dmt-export1.png "Select Export data and continue")
 
-1. Set the **Deployment type** to **Office 365** and then select **Login**.
+1. Set the **Deployment type** to **Microsoft 365** and then select **Login**.
 
-    ![Select Office 365 and then Login](media/dmt-export2.png "Select Office 365 and then Login")
+    ![Select Microsoft 365 and then Login](media/dmt-export2.png "Select Microsoft 365 and then Login")
 
 1. Follow the instructions on your screen to sign in using the user name and password for the tenant where your source instance is running.
 
@@ -133,7 +133,7 @@ To import data to your destination instance:
 
     ![Select Import data and continue](media/dmt-import1.png "Select Import data and continue")
 
-1. Set the **Deployment type** to **Office 365** and then select **Login**.
+1. Set the **Deployment type** to **Microsoft 365** and then select **Login**.
  
     ![Select the Deployment type and then Login](media/dmt-export2.png "Select the Deployment type and then Login")
 

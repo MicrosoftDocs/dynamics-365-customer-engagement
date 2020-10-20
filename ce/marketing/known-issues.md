@@ -27,7 +27,7 @@ This document provides important, late-breaking information about known issues a
 
 - Trials are subject to the [Dynamics 365 Marketing trial limits and restrictions](https://go.microsoft.com/fwlink/p/?linkid=864735).
 - You can't use the sign-up process to add more users to a Marketing trial that is running on a trial tenant without a mailbox set up for the organization admin. Instead, each new user must be added in a specific way. For more information, see [Add more users to a Marketing trial running on a trial tenant](trial-signup.md#add-users).
-- You can't sign up using an \@microsoft.com email address. If you are a Microsoft employee and would like to sign up for a trial, start by setting up an Office 365 E3 trial, which will provide you both with a trial tenant (where you can install the Marketing trial) and a new email address that you can use to sign up for the Marketing trial. More information: [Sign up for a free trial](trial-signup.md).
+- You can't sign up using an \@microsoft.com email address. If you are a Microsoft employee and would like to sign up for a trial, start by setting up an Microsoft 365 E3 trial, which will provide you both with a trial tenant (where you can install the Marketing trial) and a new email address that you can use to sign up for the Marketing trial. More information: [Sign up for a free trial](trial-signup.md).
 
 ## Configuration, installation, and first-run experience
 
