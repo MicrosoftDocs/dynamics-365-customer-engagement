@@ -6,7 +6,7 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: krbjoran
 ms.custom:
   - dyn365-fieldservice
-ms.date: 10/15/2018
+ms.date: 09/01/2020
 ms.topic: article
 ms.prod:
 ms.technology:
@@ -61,6 +61,30 @@ Field service capabilities include:
 - **Time tracking** to help you track how resources are spending their time, whether they're traveling, on break, or working.
 - **Analytics for reporting** on key performance indicators for managing work orders, scheduling activities, and interacting with customers.
 
+## Customer Stories
+
+- ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Sodexo – Facilities Management](https://youtu.be/awSwCtgZvXE)
+
+- ![Video symbol](../field-service/media/video-icon.png "Video symbol") [DMS Health Technologies – Health Services](https://www.youtube.com/watch?v=-H4wwuOfdOg&feature=youtu.be)
+
+- ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Yougenio Italy – Facilities Management](https://www.youtube.com/watch?v=URZueU-eFvo)
+
+- ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Sandvik Coromant](https://www.youtube.com/watch?v=Oq6z3UALoYI)
+
+- ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Nurse Maude](https://www.youtube.com/watch?v=q0aZsdokOv8)
+
+- [RASCO](https://customers.microsoft.com/story/828538-rasco-discrete-manufacturing-dynamics365-en-croatia?_lrsc=28be62af-daf6-4315-9dc7-845eb10f60a1)
+
+- [Toyota](https://customers.microsoft.com/en-us/story/toyota-industries-corporation)
+
+- [Real Estate & Facilities (within Microsoft)](https://www.microsoft.com/itshowcase/blog/microsoft-field-technicians-get-their-mobility-back-with-dynamics-365-app/?elevate-lv&_lrsc=80ec2291-74e8-4a9f-ab2b-4edf95f2ab48)
+
+- [NAVCO](https://customers.microsoft.com/story/790284-navco-professional-services-dynamics-365)
+
+- [Rockwell Automation](https://customers.microsoft.com/story/786160-rockwell-automation-manufacturing-dynamics-365)
+
+- [Siemens](https://customers.microsoft.com/story/814362-siemens-manufacturing-dynamics-365-field-service)
+
 ## Field Service roles
 
 The Field Service application provides tools for these key roles on your service team:
@@ -81,10 +105,10 @@ Work orders describe the work that a technician needs to perform at a customer l
 
 2. An interactive schedule board helps dispatchers assign work orders to the best resources based on location, availability, skill set, priority, and more. This is done via a manual drag-and-drop method, a semi-automated scheduling assistant, or fully automated with Resource Scheduling Optimization.
 
-    The schedule board displays each resource--whether an employee, contractor, or equipment--and their scheduled work orders. Resources and their assigned jobs are also displayed on a map along with routes and traffic patterns in real time. The schedule board is extensible and can be used to schedule anything within Dynamics 365, including work orders, sales orders, projects, and custom entities. Additionally, Office 365 integration allows for emailing and skype calling to available resources.
+    The schedule board displays each resource--whether an employee, contractor, or equipment--and their scheduled work orders. Resources and their assigned jobs are also displayed on a map along with routes and traffic patterns in real time. The schedule board is extensible and can be used to schedule anything within Dynamics 365, including work orders, sales orders, projects, and custom entities. Additionally, Microsoft 365 integration allows for emailing and skype calling to available resources.
 > ![Screenshot of schedule board](media/work-order-process-2.png) 
 
-1. An easy-to-use mobile app for iOS, Android, and Windows devices guides field technicians through the process of resolving assigned work orders. For each work order, the field technician can view important information such as location, step-by-step instructions, customer assets, and service history, and can use his or her device to take pictures and videos or record a digital customer signature. Field technicians can also automatically download important information to their devices for offline work when internet is not available. 
+3. An easy-to-use mobile app for iOS, Android, and Windows devices guides field technicians through the process of resolving assigned work orders. For each work order, the field technician can view important information such as location, step-by-step instructions, customer assets, and service history, and can use his or her device to take pictures and videos or record a digital customer signature. Field technicians can also automatically download important information to their devices for offline work when internet is not available. 
 
 
     After performing the work, the technician can mark the work order as complete or as requiring a follow up; the dispatcher can then see this change on the schedule board.

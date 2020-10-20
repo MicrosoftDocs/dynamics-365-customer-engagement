@@ -1,12 +1,12 @@
 ---
 title: Understand unified routing and work distribution | MicrosoftDocs
 description: Understand about unified routing and work distribution in Omnichannel for Customer Service
-author: kabala123
-ms.author: kabala
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
-ms.date: 09/22/2019
+ms.date: 10/12/2020
 ms.service: 
-  - "dynamics-365-customerservice"
+   "dynamics-365-customerservice"
 ms.topic: article
 ---
 
@@ -24,7 +24,7 @@ Advantages of unified routing and work distribution are as follows:
 
 Unified routing and work distribution is a two-step process:
 
-1. Routing dispatches conversations into the right Omnichannel queues.
+1. Routing dispatches conversations into the right queues.
 2. Work distribution allocates the conversations in a queue to agents in real time, based on capacity and presence.
 
 > [!div class=mx-imgBorder]
@@ -32,7 +32,7 @@ Unified routing and work distribution is a two-step process:
 
 ## Overview of routing system
 
-A customer initiates a conversation from the portal, and the conversation reaches the Omnichannel system. Now, based on the routing rules condition defined in the routing system, it starts routing the conversation to the appropriate queues. 
+A customer initiates a conversation from the portal, and the conversation reaches the Omnichannel system. Now, based on the routing rules condition defined in the routing system, it starts routing the conversation to the appropriate queues.
 
 The routing rules condition is based on the channel, CRM, and customer context that you, as an administrator, define in the Omnichannel Administration app.
 
@@ -51,7 +51,7 @@ When a conversation is present in a queue, the work distribution system searches
 
 If there are other conversations present in the queues, then the conversation will be added to the end of the queue and will be assigned to the agents after other conversations are assigned.
 
-If there are one or more agents available, then the work distribution system takes a course of action based on the following scenarios.
+If one or more agents are available, then the work distribution system takes a course of action based on the following scenarios.
 
   | Sl no | Scenario | Work distribution system action |
   |---------------|-----------------|---------------------------------------|
@@ -61,8 +61,7 @@ If there are one or more agents available, then the work distribution system tak
 
    > [!Note]
    > - The work distribution system gives higher priority to the agents who have worked and got disconnected from a conversation in the past.
-   >
-   > - The work distribution system gives lower to the agents who have rejected, transferred, or timed out the conversation.
+   > - The work distribution system gives lower priority to the agents who have rejected, transferred, or timed out the conversation.
 
 ### Agent available trigger
 
@@ -71,12 +70,13 @@ The work distribution system assigns one of the existing conversations that is i
 An agent is available in the following scenarios:
 
  - When an agent signs in to the Omnichannel for Customer Service app.
- - When an agent presence status changes from one state to another such as **Away** to **Available**, **Away** to **Busy**, and  **Away** to **DND**.
+ - When an agent presence status changes from one state to another, such as **Away** to **Available**, **Away** to **Busy**, and  **Away** to **DND**. An agent is also available depending on the allowed presence that is configured for the work stream.
  - When an agent capacity changes due to the closure of a conversation or assignment of a conversation.
+ - The agent affinity is set to yes for a work stream.
 
-Whenever an agent are available, the work distribution system always retrieves the oldest conversations (longer duration) that is present in the highest priority queue and assigns the conversation to an agent who satisfies the capacity condition.
+Whenever agents are available, the work distribution system always retrieves the oldest conversations (longer duration) that is present in the highest priority queue and assigns the conversation to the agent who satisfies the capacity condition.
 
-When there is more than one conversation that satisfies the capacity, then the work distribution system takes a course of action based on the following scenarios.
+When more than one conversation satisfies the capacity, then the work distribution system takes a course of action based on the following scenarios.
 
   | Sl no | Scenario | Work distribution system action |
   |---------------|-----------------|---------------------------------------|
@@ -88,14 +88,14 @@ When there is more than one conversation that satisfies the capacity, then the w
 
 ## Scenario walk-through of unified routing and work distribution 
 
-Refer the following scenario to understand how unified routing and work distribution works and how conversations are assigned to agents.
+The following section outlines a scenario to understand unified routing and work distribution and how conversations are assigned to agents.
 
 A customer initiates a conversation (chat) regarding **Billing**. Now, unified routing and work distribution help route the conversation to the **Billing** queue, and assign the conversation to an agent who is a member of the queue with the required presence and capacity. This is shown in the following illustration.
 
 > [!div class=mx-imgBorder]
 > ![Routing and work distribution scenario](../media/oc-scenario.png)
 
-Let us see the steps involved in the scenario walk-through. 
+Let us see the steps involved in the scenario walk-through.
 
 - When a chat conversation originates from the customer, the system identifies the channel, and the routing and work distribution configuration details are applied. These configuration details are defined in the workstreams. Learn more, see [Understand and create work streams](../administrator/work-streams-introduction.md).
 
@@ -108,11 +108,12 @@ Let us see the steps involved in the scenario walk-through.
     - Capacity is **50 units** or more.
     - Presence status is **Available**.
 
-As **Bert** has the required capacity and presence, the system  assigns the conversation to **Bert**. Once Bert starts working on the conversation,  the presence changes to **Busy** and the remaining capacity is updated to **30 units**.
+As **Bert** has the required capacity and presence, the system  assigns the conversation to **Bert**. After Bert starts working on the conversation,  the presence changes to **Busy** and the remaining capacity is updated to **30 units**.
 
 ### Adjusting an agent's capacity based on conversation allocation
 
-An agent's capacity is adjusted when a conversation is allocated. Here are the actions that occur:
+Agent capacity is specified by the administrator in the User settings. See [Manage users](users-user-profiles.md) to learn how to set agent capacity.
+An agent's capacity is adjusted by the system when a conversation is allocated, and the following actions occur:
 
 - The conversation is added to the agent's **My Items** list.
 - The agent's presence status changes to **Busy** or **Busy DND**.
@@ -121,7 +122,7 @@ An agent's capacity is adjusted when a conversation is allocated. Here are the a
 
 ### Adjusting an agent's capacity based on closure of allocated conversation
 
-When an agent has finished working on a conversation, the capacity should be added back to the agent's availability. Here are the actions that occur:
+When an agent has finished working on a conversation, the system adds the capacity back to the agent's availability, and the following actions occur:
 
 - The conversation is removed from the agent's **My Items** list.
 - The agent's presence status changes to **Available**.
@@ -142,8 +143,8 @@ To effectively route and distribute work to agents, admins can set up the follow
 - [Create and manage routing rules](routing-rules.md)
 - [Configure and manage custom presence](presence-custom-presence.md)
 
-###  See also
+### See also
 
-[Omnichannel for Customer Service for administrators](omnichannel-administrator.md)
+[Omnichannel for Customer Service for administrators](omnichannel-administrator.md)  
 
 

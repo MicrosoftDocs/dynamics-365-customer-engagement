@@ -3,7 +3,7 @@ title: "Sample: Create an on-premises user (Developer Guide for Dynamics 365 Cus
 ms.custom: 
 description: "The sample shows how to create a new system user in Active Directory and Customer Engagement."
 ms.date: 1/23/2020
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -17,8 +17,7 @@ ms.author: kvivek
 manager: KumarVivek
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Sample: Create an on-premises user
 

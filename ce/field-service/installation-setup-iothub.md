@@ -1,8 +1,9 @@
 ---
-title: "Installation & setup for Connected Field Service for IoT Hub (Dynamics 365 Field Service) | MicrosoftDocs"
+title: "Installation and setup for Connected Field Service for Azure IoT Hub (Dynamics 365 Field Service) | Microsoft Docs"
+description: Learn how connect and setup Dynamics 365 Field Service with Azure IoT Hub.
 ms.custom:
   - dyn365-fieldservice
-ms.date: 10/09/2019
+ms.date: 09/14/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite:
@@ -23,7 +24,7 @@ search.app:
   - D365CE
   - D365FS
 ---
-# Installation and setup - Connected Field Service for IoT Hub
+# Installation and setup - Connected Field Service for Azure IoT Hub
 
 This guide provides all the steps required for getting up and running with Connected Field Service (CFS) for IoT Hub. If you're looking for information about CFS for IoT Central, be sure to visit our tutorial on getting set up.
 
@@ -32,7 +33,7 @@ This guide provides all the steps required for getting up and running with Conne
   
 - Dynamics 365 Field Service. For more information, visit the [topic on installing Dynamics 365 Field Service](../field-service/install-field-service.md).
   
-- Dynamics 365 system administrator credentials. For users with Office 365 global administrator access, they must be assigned the **System Administrator** security role within the Dynamics 365 organization.
+- Dynamics 365 system administrator credentials. For users with Microsoft 365 global administrator access, they must be assigned the **System Administrator** security role within the Dynamics 365 organization.
   
 - An IoT – Administrator role in the IoT solution (to access IoT entities and IoT functionality), plus another role, like Field Service – Dispatcher (to access Dynamics 365).  
   
@@ -79,8 +80,14 @@ Next, deploy and connect Azure IoTHub to your Field Service environment by going
 Before proceeding, make sure all required Azure resources are successfully deployed and that the overall deployment status is **Success**.  
 
 After you’ve installed all required Azure resources, click **Authorize** to configure the Dynamics 365 connector connection API. When you configure the connection API you’ll need to enter your Dynamics 365 subscription account. See more details in the topic on [Authorize API connection between Dynamics 365 and AzureIoT](./cfs-authorize-api-connection.md).
+
+Back in Dynamics 365 Field Service, go to **Settings** > **Providers** to see your Azure IoT Hub subscription connected as an IoT provider.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Field Service, showing active IoT provider instances.](./media/cfs-deploy-providers.png)
   
 ### Set up the sample simulator (optional)  
+
  To find the simulator URL , sign in to your Azure subscription, and then click the App Service resource type under the newly created resource group. You’ll see the URL is in the top right corner. Copy the URL and complete the following steps:  
   
 1. Paste the URL into your browser’s address bar to load the page.  
@@ -90,12 +97,12 @@ After you’ve installed all required Azure resources, click **Authorize** to co
 3. Enter the IoT hub host name and key. The host is simply the name of the IoT Hub resource in Azure portal. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the IoT deployment app](./media/cfs-iothub-thermostadt-simulator.png)
+> ![Screenshot of the "configure connection" dialog in Azure.](./media/cfs-iothub-thermostadt-simulator.png)
 
  The key can be accessed by clicking on the IoT Hub resource and going to the shared access policies, then copying the primary key for **iothubowner** as seen in the following screenshot.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the IoT deployment app](./media/cfs-iothub-resource-azure-portal.png)
+> ![Screenshot of Azure IoT Hub showing the primary key.](./media/cfs-iothub-resource-azure-portal.png)
   
 4. Select the IoT hub in the **Resource Group**.  
   
@@ -127,6 +134,7 @@ To monitor a device, you need to create and register an asset.
 8.  When the device is registered, it will appear as a registered asset. To verify the registration, from the main menu click **Field Service**  > **Registered Assets**.  
   
 ### Set up a Power BI chart (optional)  
+
  Set up Power BI  accounts and open the sample .pbix report.  
   
 1. Go to [https://powerbi.microsoft.com](https://powerbi.microsoft.com) and create a free Power BI account .  
@@ -373,6 +381,7 @@ To monitor a device, you need to create and register an asset.
     -   The third chart shows alerts along with the action taken to resolve the issue.
 
 <a name="bkmk_step3 "></a>
+
 ## Privacy notice
  [!INCLUDE[cc_privacy_crm_connected_field_service](../includes/cc-privacy-crm-connected-field-service.md)]
 

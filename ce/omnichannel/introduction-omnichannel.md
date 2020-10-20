@@ -1,12 +1,12 @@
 ---
 title: "Introduction to Omnichannel for Customer Service | MicrosoftDocs"
 description: 
-author: kabala123
-ms.author: kabala
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
-ms.date: 07/01/2019
+ms.date: 06/18/2020
 ms.service: 
-  - "dynamics-365-customerservice"
+  "dynamics-365-customerservice"
 ms.topic: article
 ---
 # Introduction to Omnichannel for Customer Service
@@ -21,6 +21,10 @@ Supervisors get real-time and historical visibility and insights into the operat
 
 The enterprise-grade routing and work distribution engine allows customers to configure agent presence, availability, and routing rules, thus ensuring agents are working on the most relevant engagements.
 
+> [!IMPORTANT]
+>
+> [!INCLUDE[cc-cookies-in-omnichannel](../includes/cc-cookies-in-omnichannel.md)]
+
 ## Channels available with Omnichannel for Customer Service
 
 You can enable the following channels in your organization with Omnichannel for Customer Service.
@@ -33,9 +37,9 @@ Chat is an engagement channel that enables your agents to connect with customers
 
 SMS is an engagement channel that supports asynchronous mode of communication, and allows your organization to connect to customers by using text messages. The SMS channel is generally available now. For more information, see [Try channels for Dynamics 365 Customer Service](try-channels.md) and [Configure an SMS channel](administrator/configure-sms-channel.md).
 
-### Facebook
+### Social channels
 
-The Facebook channel gives you an incredible opportunity to capitalize on the social media trend and engage with your customers in a seamless and personalized experience. The Facebook channel is currently available in preview. For more information, see [Try channels for Dynamics 365 Customer Service](try-channels.md) and [Configure a Facebook channel](administrator/configure-facebook-channel.md).
+Social channels such as Facebook, LINE, Twitter, and WeChat give you an incredible opportunity to capitalize on the social media trend and engage with your customers in a seamless and personalized experience. In addition to the aforementioned generally available channels, Custom channels are currently available in preview. For more information, see [Try channels for Dynamics 365 Customer Service](try-channels.md).
 
 ## Videos
 
@@ -43,17 +47,17 @@ The Facebook channel gives you an incredible opportunity to capitalize on the so
 
 To view more videos on Omnichannel for Customer Service, see [Videos](videos.md).
 
-## See also
+### See also
 
-- [Pre-requisites and system requirements](system-requirements-omnichannel.md)
-- [Assign roles and enable users for Omnichannel for Customer Service](administrator/add-users-assign-roles.md)
-- [Try channels for Dynamics 365 Customer Service](try-channels.md)
-- [Configure an SMS channel](administrator/configure-sms-channel.md)
-- [Configure a Facebook channel](administrator/configure-facebook-channel.md)
-- [Quickly configure a chat widget](administrator/configure-live-chat.md)
-- [Understand unified routing and work distribution](administrator/unified-routing-work-distribution.md)
-- [Administrators guide](administrator/omnichannel-administrator.md)
-- [Agents using Unified Service Desk](agent/agent-usd/omnichannel-agent.md)
-- [Agents using Omnichannel for Customer Service app](agent/agent-oc/omnichannel-customer-service-app-agent.md)
-- [System customizers guide](customizer/omnichannel-customizer.md)
-- [Developer guide](developer/omnichannel-developer.md)
+[Prerequisites and system requirements](system-requirements-omnichannel.md)  
+[Assign roles and enable users for Omnichannel for Customer Service](administrator/add-users-assign-roles.md)  
+[Try channels for Dynamics 365 Customer Service](try-channels.md)  
+[Configure an SMS channel](administrator/configure-sms-channel.md)  
+[Configure a Facebook channel](administrator/configure-facebook-channel.md)  
+[Quickly configure a chat widget](administrator/configure-live-chat.md)  
+[Understand unified routing and work distribution](administrator/unified-routing-work-distribution.md)  
+[Administrators guide](administrator/omnichannel-administrator.md)  
+[Agents using Unified Service Desk](agent/agent-usd/omnichannel-agent.md)  
+[Agents using Omnichannel for Customer Service app](agent/agent-oc/omnichannel-customer-service-app-agent.md)  
+[System customizers guide](customizer/omnichannel-customizer.md)  
+[Developer guide](developer/omnichannel-developer.md)

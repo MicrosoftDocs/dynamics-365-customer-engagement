@@ -1,18 +1,16 @@
 ---
-title: "Help resources for sales people (Dynamics 365 Sales Professional) | MicrosoftDocs"
+title: "Help resources for salespeople (Dynamics 365 Sales Professional) | MicrosoftDocs"
 description: "Contains topics that describe how to do common sales tasks in Dynamics 365 Sales Professional."
 ms.date: 10/01/2019
-ms.service: 
+ms.service:
   - "dynamics-365-sales"
-ms.custom: 
-  - "dyn365-sales"
 ms.topic: get-started-article
 author: shubhadaj
 ms.author: shujoshi
 manager: sakudes
 ---
 
-# Help resources for sales people (Dynamics 365 Sales Professional)
+# Help resources for salespeople (Dynamics 365 Sales Professional)
 
 Focus on the right leads, contacts, and opportunities as you build out your team's sales pipeline with Dynamics 365 Sales Professional. Built-in processes guide you from one stage of the sales process to the next, and  easy-to-use dashboards help you set goals and provide actionable insights to help you close more deals.  
   
@@ -35,6 +33,7 @@ Focus on the right leads, contacts, and opportunities as you build out your team
 <li><a href="manage-leads-sales-professional.md" data-raw-source="[Manage leads](manage-leads-sales-professional.md)">Manage leads</a></li>
 <li><a href="manage-opportunities-sales-professional.md" data-raw-source="[Manage opportunities](manage-opportunities-sales-professional.md)">Manage opportunities</a></li>
 <li><a href="create-quotes-sales-professional.md" data-raw-source="[Create quotes](create-quotes-sales-professional.md)">Create quotes</a></li>
+<li><a href="create-orders.md" data-raw-source="[Create orders](create-orders-sp.md)">Create orders</a></li>
 <li><a href="create-invoices.md" data-raw-source="[Create invoices](create-invoices.md)">Create invoices</a></li>
 <li><a href="create-products.md" data-raw-source="[Create products](create-products.md)">Create products</a></li>
 <li><a href="create-price-list.md" data-raw-source="[Create a price list](create-price-list.md)">Create a price list</a></li>
@@ -47,7 +46,7 @@ Focus on the right leads, contacts, and opportunities as you build out your team
 <li><a href="gain-insights-dashboards-sales-professional.md" data-raw-source="[Gain insights with dashboards](gain-insights-dashboards-sales-professional.md)">Gain insights with dashboards</a></li>
 <li><a href="assign-records-sales-professional.md" data-raw-source="[Assign records](assign-records-sales-professional.md)">Assign records</a></li>
 <li><a href="use-document-templates-sales-professional.md" data-raw-source="[Use document templates](use-document-templates-sales-professional.md)">Use document templates</a></li>
-<li><a href="use-lookup-fields-forms.md" data-raw-source="[Manage your SharePoint documents](manage-sharepoint-documents-sales-professional.md)">Manage your SharePoint documents</a></li>
+<li><a href="manage-sharepoint-documents-sales-professional.md" data-raw-source="[Manage your SharePoint documents](manage-sharepoint-documents-sales-professional.md)">Manage your SharePoint documents</a></li>
 
 
 </td><td>

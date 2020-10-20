@@ -1,17 +1,17 @@
 ---
 title: "Extend Marketing forms using code(Dynamics 365 Marketing Developer Guide) | MicrosoftDocs"
-description: "Extend Marketing forms with Javascript to apply custom business logic in Dynamics 365 Marketing."
+description: "Extend Marketing forms with JavaScript to apply custom business logic in Dynamics 365 Marketing."
 ms.custom: 
   - dyn365-developer
   - dyn365-marketing
-ms.date: 10/29/2019
+ms.date: 04/14/2020
 ms.service: dynamics-365-marketing
 ms.technology: 
   - marketing
 ms.topic: conceptual
 ms.assetid: cfaee020-a29d-4297-8f73-e8fb378843dc
-author: nkrb
-ms.author: nabuthuk
+author: alfergus
+ms.author: alfergus
 manager: kvivek
 search.audienceType: 
   - developer
@@ -26,9 +26,9 @@ A marketing form defines a set of input fields arranged into a form layout. You'
 
 Marketing forms can be extended using JavaScript to perform custom business actions in the [Dynamics 365 Marketing](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/overview). Following are the methods that are available to extend marketing forms.
 
-## Javascript API
+## JavaScript API
 
-We're consuming the latest version of Javascript API. Make sure that your references to `form-loader.js` or `loader.js` script look like `https://mktdplp102cdn.azureedge.net/public/latest/js/form-loader.js?v=...` or `https://mktdplp102cdn.azureedge.net/public/latest/js/loader.js?v=...` respectively. 
+We're consuming the latest version of JavaScript API. Make sure that your references to `form-loader.js` or `loader.js` script look like `https://mktdplp102cdn.azureedge.net/public/latest/js/form-loader.js?v=...` or `https://mktdplp102cdn.azureedge.net/public/latest/js/loader.js?v=...` respectively. 
 
 ### MsCrmMkt.MsCrmFormLoader methods
 
@@ -56,10 +56,11 @@ For each event callback following methods are available:
 |Method Name|Description|Return type|
 |----|----|----|
 |`.getType()`|Gets the event type|`string`, one of `"afterFormLoad"`, `"afterFormRender"`, `"afterFormSubmit"`, `"formLoad"`, `"formRender"`, `"formSubmit"` 
-|`.getFormPageId()`|Gets the form page id - this relates to `msdyncrm_formpage` entity unique identifier|`string`
+|`.getFormPageId()`|Gets the form page ID - this relates to `msdyncrm_formpage` entity unique identifier|`string`
 |`.getFormPlaceholder()`|Gets the DOM element representing the form| DOM element
 |`.preventDefault()`|Cancels the form submission, valid only for event of `formSubmit` type|`undefined`
 |`.preventFormLoadingProgressBar()`|Hides the spinner while the form is loading, valid only for event `formLoad` type|`undefined`
+|`.setFormNotification(function (n) {})`|Overrides a callback for rendering form notification (like a form submission message). Without a function body, no notifications will be rendered. Valid only for an event of `formLoad` type.| `undefined`
 
 ### Form capturing behavior customization
 

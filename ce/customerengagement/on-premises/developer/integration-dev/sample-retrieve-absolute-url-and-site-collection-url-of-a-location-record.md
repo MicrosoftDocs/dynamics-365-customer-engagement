@@ -12,15 +12,14 @@ ms.assetid: f40b22d9-89fc-4b9f-a158-c7944c768d1b
 author: KumarVivek
 ms.author: kvivek
 manager: jdaly
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.suite: 
 ms.tgt_pltfrm: 
 caps.latest.revision: 19
 topic-status: Drafting
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 
 # Sample: Retrieve absolute URL and site collection URL of a location record

@@ -6,7 +6,7 @@ ms.author: nenellim
 manager: shujoshi
 ms.date: 06/22/2019
 ms.service: 
-  - "dynamics-365-customerservice"
+  "dynamics-365-customerservice"
 ms.topic: article
 ---
 
@@ -15,7 +15,7 @@ ms.topic: article
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 > [!IMPORTANT]
-> Customers must ensure they comply with all applicable laws relating to monitoring, recording, and storing communications with their end users. This includes adequately notifying end users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
+> This feature is intended to help customer service managers or supervisors enhance their team’s performance and improve customer satisfaction. This feature is not intended for use in making, and should not be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
 
 Customer service managers or supervisors are responsible for managing the agents who work with customers to resolve queries every day through various service channels.
 
@@ -35,7 +35,7 @@ As a supervisor, you see the following tabs when you open the Omnichannel for Cu
 
 - **Omnichannel intraday insights dashboard**: This tab provides an overview of information about the health and KPIs of agents in your organization. The information in this dashboard is displayed based on the last 24 hours conversations. To learn more, see [Omnichannel intraday insights dashboard](intraday-insights-dashboard.md).
 
-- **Ongoing Conversations dashboard**: This tab provides information about the conversations that agents are handling and are in active, open, wrap up, and waiting states. To learn more, see [Ongoing Conversations dashboard](ongoing-conversations-dashboard.md).
+- **Ongoing Conversations dashboard**: This tab provides information about the conversations that agents are handling and are in active, open, wrap up, and waiting status reason. To learn more, see [Ongoing Conversations dashboard](ongoing-conversations-dashboard.md).
 
 > [!NOTE]
 > Contact your system administrator, for configuration errors or if you are unable to view the dashboards. to learn more, see [Configure to view intraday insights dashboard](../administrator/configure-intraday-dashboard-supervisor.md).
@@ -55,10 +55,7 @@ To view more videos on Omnichannel for Customer Service, see [Videos](../videos.
 
 ### See also
 
--  [Configure to view intraday insights dashboard](../administrator/configure-intraday-dashboard-supervisor.md)
-
--  [View and understand Omnichannel intraday insights dashboard](intraday-insights-dashboard.md) 
-
--  [View and understand Ongoing Conversations dashboard](ongoing-conversations-dashboard.md)
- 
--  [Monitor conversations](monitor-conversations.md)
+[Configure to view intraday insights dashboard](../administrator/configure-intraday-dashboard-supervisor.md)  
+[View and understand Omnichannel intraday insights dashboard](intraday-insights-dashboard.md)  
+[View and understand Ongoing Conversations dashboard](ongoing-conversations-dashboard.md)  
+[Monitor conversations](monitor-conversations.md)  

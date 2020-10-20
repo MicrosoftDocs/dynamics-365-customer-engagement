@@ -1,4 +1,4 @@
-﻿---
+---
 title: Configure server-based authentication with Customer Engagement (on-premises) and SharePoint on-premises
 ms:assetid: 26cad581-33b0-4025-9964-d289363c4245
 ms.date: 10/01/2019
@@ -59,16 +59,14 @@ Before you configure Customer Engagement (on-premises) and SharePoint On-Premise
       - SharePoint 2016 On-Premises.
 
       - Microsoft SharePoint 2013 On-Premises with Service Pack 1 (SP1) or later version with the following updates.
-        
-          - [Hotfix KB2883081 for SharePoint Foundation 2013 August 12, 2014 (Sts-x-none.msp)](https://support2.microsoft.com/kb/2883081)
-        
-          - The following updates are prerequisites to KB2883081 and may also be required.
+
+          - Install the April 2019 Cumulative Update (CU) for the SharePoint 2013 product family. This April 2019 CU includes all SharePoint 2013 fixes (including all SharePoint 2013 security fixes) released since SP1. The April 2019 CU does not include SP1. You need to install SP1 before installing the April 2019 CU.
             
-              - <https://support2.microsoft.com/kb/2768000>
-            
-              - <https://support.microsoft.com/kb/2767999>
-            
-              - <https://support.microsoft.com/kb/2880963>
+              - [KB4464512](https://support.microsoft.com/help/4464512/april-9-2019-cumulative-update-for-sharepoint-foundation-2013-kb446451) – SharePoint Foundation 2013 April 2019 CU
+
+              - [KB4464514](https://support.microsoft.com/help/4464514/april-9-2019-cumulative-update-for-sharepoint-enterprise-server-2013-k) – SharePoint Server 2013 April 2019 CU
+
+              - [KB4464513](https://support.microsoft.com/help/4464513/april-9-2019-cumulative-update-for-project-server-2013-kb4464513) – Project Server 2013 April 2019 CU
 
   - SharePoint configuration
     
@@ -300,12 +298,12 @@ By default, server-based authentication between Customer Engagement (on-premises
 2. On the toolbar, select **…**, and then select **Form Editor**.
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/open-form-editor.png "Open editor for user form")
+   > ![Open editor for user form](media/open-form-editor.png "Open editor for user form")
 
 3. Find the **SharePoint Email Address** field in the **Field Explorer** pane and drag and drop it on the **User Information** section of the user form.  
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/add-sharepoint-email-user-form.png "Add SharePoint email address field on user form")
+   > ![Add SharePoint email address field on user form](media/add-sharepoint-email-user-form.png "Add SharePoint email address field on user form")
 
 4. On the form editor toolbar select **Save**, and then select **Publish**. 
 5. Close the form editor and refresh the web browser tab to display the newly added field on the user record. 

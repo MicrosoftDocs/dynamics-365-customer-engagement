@@ -4,7 +4,7 @@ description: "Learn how to manage sessions using the session panel in Omnichanne
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.date: 12/27/2019
+ms.date: 04/06/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -101,11 +101,49 @@ At all times, the **Home** session is anchored and you can't close it. The Home 
     > [!div class=mx-imgBorder]
     > ![Session title](../../media/oceh/oceh-session-title.png "Session title")
 
-> [!div class="nextstepaction"]
-> [Next topic: Manage applications](oc-manage-applications.md)
+## Session sentiment alert and unread message count
+
+- **Sentiment alert**
+
+    When you are working on multiple customer sessions, there may be a scenario where a customer may not be happy. Since you are working simultaneously on multiple sessions, and if that session is not focused, you need a way to identify the sentiment of that session. 
+
+    Session sentiment displays an alert to you when the sentiment reaches the threshold value as set by your administrator. For example, your administrator has set the threshold as **Slightly negative**. So, when the sentiment reaches **Slightly negative**, you can see an alert in the session panel on the session icon. An exclamation icon is displayed on top of the session icon to indicate that the requires your attention. When you hover the cursor on the session icon, you can see a tooltip, which displays a message in the following format: 
+    
+    **\<session title>. Urgent attention is needed in your conversation.**
+
+    Example 1: **Visitor 7. Urgent attention is needed in your conversation.**
+
+    Example 2: **Kenny Smith. Urgent attention is needed in your conversation.**
+
+    > [!div class=mx-imgBorder]
+    > ![Session icon](../../media/oceh/sentiment-agent1.png "Session icon")
+
+- **Unread message count**
+
+    When you are working on multiple customer sessions, there may be a scenario where a you may receive many messages across different sessions. Since you are working simultaneously on multiple sessions, and if that session is focused, you need a way to identify the number of messages you received for a particular session. 
+
+    A count of unread messages is displayed on the session icon in the session panel. If the number of messages are 10 or more, then a plus icon (+) is displayed.
+
+    When you hover the cursor on the session icon, you can see a tooltip, which displays a message in the following format: 
+    
+    **\<session title>. \<X> new updates in your conversation**
+    
+    **X** - count of unread messages
+
+    Example 1: **Visitor 7. 5 new updates in your conversation.**
+
+    Example 2: **Kenny Smith. 5 new updates in your conversation.**
+
+    when you hover your cursor on the session icon, you can a tooltip, which displays a message in the following format: “Session Title. X new updates in your conversation” where x is the count of unread messages.
+
+    When you select a session with unread messages,the session will be focused and the unread message count will disappear from the session icon.
+
+    > [!div class=mx-imgBorder]
+    > ![Unread message count](../../media/oceh/unread-message.png "Session icon")
 
 ## See also
 
+- [Manage applications](oc-manage-applications.md)
 - [Understand conversation states](oc-conversation-state.md)
 - [View communication panel](oc-conversation-control.md)
 - [View agent dashboard and conversations (work items)](oc-agent-dashboard.md)

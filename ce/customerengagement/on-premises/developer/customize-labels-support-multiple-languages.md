@@ -3,7 +3,7 @@ title: "Customize labels to support multiple languages (Developer Guide for Dyna
 description: "Learn about customizing labels to support multiple languages."
 ms.custom: 
 ms.date: 11/03/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -40,8 +40,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 
 # Customize labels to support multiple languages

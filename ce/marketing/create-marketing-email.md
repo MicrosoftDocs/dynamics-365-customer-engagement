@@ -2,7 +2,7 @@
 title: "Create a marketing email (Dynamics 365 Marketing) | Microsoft Docs"
 description: "A tutorial for how to create a marketing email in Dynamics 365 Marketing"
 keywords: tutorial; email; marketing email; assist edit; dynamic content
-ms.date: 10/28/2019
+ms.date: 05/07/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -26,7 +26,7 @@ search.app:
 
 <div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/17c3476e-9383-413b-98ec-0b1ac6659824" frameborder="0" allowfullscreen=""></iframe></div>
 
-Email is a vital marketing channel for most modern organizations. It's also a core feature of Dynamics 365 Marketing, which provides tools for creating graphically rich marketing emails with dynamic, personalized content. Dynamics 365 Marketing can send large volumes of personalized marketing emails, monitor how each recipient interacts with them, drive customer-journey automation based on these interactions, and present results both for individual contacts and with aggregate statistical analytics.
+Email is a vital marketing channel for most modern organizations. It's also a core feature of Dynamics 365 Marketing, which provides tools for creating graphically rich marketing emails with dynamic, personalized content. Marketing can send large volumes of personalized marketing emails, monitor how each recipient interacts with them, drive customer-journey automation based on these interactions, and present results both for individual contacts and with aggregate statistical analytics.
 
 > [!TIP]
 > **Process overview**&mdash;to set up and execute a simple email campaign, you must do the following:
@@ -39,7 +39,7 @@ Email is a vital marketing channel for most modern organizations. It's also a co
 
 To create a marketing email and go live:
 
-1. Go to **Marketing** > **Marketing Execution** > **Marketing Emails**. This takes you to a list of existing marketing emails. Select **New** on teh command bar.
+1. Go to **Marketing** > **Marketing Execution** > **Marketing Emails**. You will see a list of existing marketing emails. Select **New** on the command bar.
 
     ![Location of the new-email button](media/new-email-button-location.png "Location of the new-email button")
 
@@ -56,7 +56,7 @@ To create a marketing email and go live:
 
     ![Enter a name for your new email](media/email-edit-header-fields.png "Enter a name for your new email")
 
-1. Enter a **Subject** for your message. This is a very important setting because this is one of the first things recipients will see when they receive the email, and they may use this to decide whether or not to read the message.
+1. Enter a **Subject** for your message. The subject is an important setting because it is one of the first things recipients will see when they receive the email. Recipients may use the subject to decide whether to open or read the message.
 
     ![Enter a subject for your new email](media/email-edit-subject.png "Enter a subject for your new email")
 
@@ -91,7 +91,7 @@ To create a marketing email and go live:
 
         ![Assist edit, page 2](media/assist-edit-email-tutorial-p2.png "Assist edit, page 2")
 
-    1. On the previous page, you choose the contact entity (in context). On this page you must choose which field from that entity you want to place. We're building the salutation, so we'd like to show the recipient's first name here. Select the **Property** radio button and then start to type "first" into the combo box here. This searches the available fields for those that include the text "first", which greatly reduces the number of fields you need to look through. Select **First Name** from the list as soon as you can see it.
+    1. On the previous page, you choose the contact entity (in context). On this page, you must choose which field from that entity you want to place. We're building the salutation, so we'd like to show the recipient's first name here. Select the **Property** radio button and then start to type "first" into the combo box here. This searches the available fields for those that include the text "first," which greatly reduces the number of fields you need to look through. Select **First Name** from the list as soon as you can see it.
 
     1. Select OK to place the expression you've built and close the assist-edit tool. The full salutation now looks like this: **Dear {{contact.firstname}},**. (If you prefer, you can enter that code directly without using assist edit.)
 
@@ -110,7 +110,7 @@ To create a marketing email and go live:
 
     ![Where to set the Source for an image](media/email-image-source.png "Where to set the source for an image")
 
-1. On the **Properties** tab, select the **Image gallery** button ![The browse button](media/email-browse-button.png "The browse button") at the right side of the **Source** field . The **Select an file** dialog box opens.
+1. On the **Properties** tab, select the **Image gallery** button ![The browse button](media/email-browse-button.png "The browse button") at the right side of the **Source** field. The **Select a file** dialog box opens.
 
     ![The image library browser](media/image-library.png "The image library browser")  
 

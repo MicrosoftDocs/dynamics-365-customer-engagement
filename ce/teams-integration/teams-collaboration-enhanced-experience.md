@@ -2,7 +2,7 @@
 title: "Enhanced Collaboration Experience with Microsoft Teams| MicrosoftDocs"
 ms.custom: 
 description: "Connect with Microsoft Teams and collaborate with team members using the Dynamics 365 app for Microsoft Teams."
-ms.date: 10/16/2019
+ms.date: 8/26/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -23,13 +23,13 @@ search.app:
 ---
 # Enhanced Collaboration Experience with Microsoft Teams
 
-Easily connect a model-driven app record or view to a Microsoft Teams channel using the **Collaborate** button on the record or view page. The step-by-step process will help you connect the selected record or view to a Microsoft Teams channel.
+Easily connect customer engagement apps in Dynamics 365 (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing, or Dynamics 365 Project Service Automation) records or views to a Microsoft Teams channel using the **Collaborate** button on the record or view page. The step-by-step process will help you connect the selected record or view to a Microsoft Teams channel.
 
-The [basic collaboration experience](teams-collaboration.md) only lets you pin a record or a view to a team channel from within Microsoft Teams. The enhanced collaboration experience includes everything in the [basic collaboration experience](teams-collaboration.md) and also lets you pin connect a record or a view to a team channel while you are working in model-driven apps in Dynamics 365. 
+The [basic collaboration experience](teams-collaboration.md) only lets you pin a record or a view to a team channel from within Microsoft Teams. The enhanced collaboration experience includes everything in the [basic collaboration experience](teams-collaboration.md) and also lets you pin connect a record or a view to a team channel while you are working in customer engagement apps in Dynamics 365 (such as Dynamics 365 Sales and Dynamics 365 Customer Service). 
 
-## Connect a record or a view to a team channel from model-driven apps in Dynamics 365
+## Connect a record or a view to a team channel from customer engagement apps in Dynamics 365
 
-1. In your model-driven app, open a record or view.
+1. In customer engagement apps (such as Dynamics 365 Sales and Dynamics 365 Customer Service), open a record or view.
 2. When the record or view is open, on the command bar, select **Collaborate**.
 
    > [!div class="mx-imgBorder"]
@@ -80,10 +80,10 @@ The [basic collaboration experience](teams-collaboration.md) only lets you pin a
       > > ![Enter name](media/teams-add-channel-6.png "Enter a team name")
 
 
-   **Step 3**- **Add recommended team members**: If you are the owner of the selected team then you can add recommended Common Data Service teammates who either own the record or the record has been shared with them to the team member group. From the list, select any or all listed Common Data Service teammates. You can also use the search option to find the teammates in the list. When you are done, select **Finish**.
+   **Step 3**- **Add recommended team members**: If you are the owner of the selected team then you can add recommended teammates who either own the record or the record has been shared with them to the team member group. From the list, select any or all listed teammates. You can also use the search option to find the teammates in the list. When you are done, select **Finish**.
 
    > [!NOTE]
-   > You will only see this step only if you are the owner of the selected team while connecting to a model-driven app record. If you are connecting a view of model-driven app to a Microsoft Teams channel, you will skip this step. For more information on how to share a record, see [Assign or share records.](https://docs.microsoft.com/powerapps/user/assign-or-share-records).
+   > You will only see this step only if you are the owner of the selected team while connecting to a customer engagement app record. If you are connecting a view of customer engagement app to a Microsoft Teams channel, you will skip this step. For more information on how to share a record, see [Assign or share records.](https://docs.microsoft.com/powerapps/user/assign-or-share-records).
 
    > [!div class="mx-imgBorder"]
    > ![Choose teammates](media/teams-choose-teammates-7.png "Choose teammates")

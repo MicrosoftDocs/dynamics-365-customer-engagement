@@ -1,26 +1,32 @@
 ---
 title: "Work with opportunities in the Kanban view (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Use the opportunity Kanban view to effectively monitor the pipeline and see the opportunities in their different statuses or stages of business process flow."
-ms.date: 02/03/2020
+ms.date: 10/14/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
+searchScope:
+  - D365-App-msdynce_saleshub
+  - D365-Entity-opportunity
+  - D365-UI-*
+  - Customer Engagement
+  - Dynamics 365
+  - Sales
 ---
 
 # Work with opportunities in the Kanban view
-
-[!INCLUDE [cc-early-access-2020w1](../includes/cc-early-access-2020w1.md)]  
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 Use the Kanban view to effectively keep tabs on the sales pipeline. 
 
 The Kanban view shows opportunities as cards. The lanes in the Kanban view represent the default statuses or business process flow stages of opportunities. The opportunity cards within the swim lanes show where in the process the opportunities are. 
 
 You can drag the opportunities to different lanes to move them from one status or stage to another.
+
+> [!NOTE]
+> The Kanban view is not supported in the **Dynamics 365 for Phones** mobile app.
 
 ## Open a Kanban view
 
@@ -71,6 +77,10 @@ Here are some important things to know about your Kanban view:
     > ![Sum of estimated revenue](media/total-estimated-revenue.png "Sum of estimated revenue")
 
     It also shows a count of opportunity cards in that lane. At any given point, only the first 10 records or cards will be shown in any lane. If there are more than 10 opportunity cards in a lane—for example, 50—the count shows 10/50. To see more cards, scroll down in the lane. When you scroll down, the count changes to show 20/50, and so on.
+    
+    > [!NOTE]
+    > Aggregation of more than 50,000 records is not supported in a single swim lane. If there are more than 50,000 records, the aggregated estimated revenue is shown as blank and the total number of records are shown as 50000+. 
+
 
 -  Selecting the card title opens the opportunity Main form. The Main form also opens when you move cards across business process flow stages. When you close the Main form, the whole Kanban view is refreshed.
 
@@ -116,6 +126,7 @@ Here are some important things to know about your Kanban view:
     - When you're dragging a card to move to another lane, the lanes where the card can't be dropped appear dimmed.
     
     - For all closed opportunities a lock icon is shown. The lock icon means that you can't change the information on the card inline, but you can still move the cards from one lane to another.
+
 
 
 ### See also

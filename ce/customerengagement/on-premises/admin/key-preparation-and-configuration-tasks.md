@@ -17,9 +17,7 @@ ms.author: matp
 manager: brycho
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - Powerplatform
+
 ---
 # Key preparation and configuration tasks
 
@@ -183,9 +181,8 @@ Every time you visit a website, [!INCLUDE[pn_Internet_Explorer](../includes/pn-i
   
   When possible, provide log files (if you know how to find them). This applies to applications such as [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] or [!INCLUDE[pn_CRM_E-Mail_Router](../includes/pn-crm-e-mail-router.md)]. The following table lists the location of the log or trace files for these applications.  
   
-|                                                                                     |                                                                      |
-|-------------------------------------------------------------------------------------|----------------------------------------------------------------------|
-|                                 **Logs or Traces**                                  |                        **Log File Location**                         |
+|   Logs or Traces                |   Log File Location                            |
+|-----------------------------|-------------|
 |    Customer Engagement (on-premises) for Outlook logs     |  %Userprofile%\Local Settings\Application Data\Microsoft\MSCRM\Logs  |
 | Customer Engagement (on-premises) for Outlook Trace files | %Userprofile%\Local Settings\Application Data\Microsoft\MSCRM\Traces |
 |   Customer Engagement (on-premises) E-mail Router logs    |          %Userprofile%\AppData\Roaming\Microsoft\MSCRM\Logs          |

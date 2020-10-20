@@ -33,7 +33,7 @@ To enable or disable saving of a business card image:
 5. Select **OK**.
 
 > [!IMPORTANT]
-> With the February 2020 early access release, you can find this setting in the Sales Hub App Settings area itself. To go to this setting:
+> With the April 2020 release, this setting is also available in the **App Settings** area of the Sales Hub app itself. To go to this setting:
 > 1. At the bottom of the site map, select **Change area** ![Icon to change the work area](media/change-area-icon.png "Icon to change the work area") and then select **App Settings**. 
 > 2. In the site map, select **Overview**, and on the **Overview** page, select **Manage** for **A quick, easy way to capture business card info**.
 

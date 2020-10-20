@@ -5,6 +5,7 @@ keywords: App designer; site map designer; my apps; Dynamics 365 for Customer En
 author: Mattp123
 ms.author: matp
 manager: kvivek
+ms.service: crm-online
 ms.date: 11/08/2018
 ms.topic: article
 applies_to: 
@@ -12,13 +13,12 @@ applies_to:
 ms.assetid: 26c79c20-2987-476e-983a-406e0db13034
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 
 # Accessibility in Dynamics 365 Customer Engagement (on-premises) app designer, site map designer, and My Apps page
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Accessibility in Power Apps app designer, site map designer, and My Apps page](/powerapps/maker/model-driven-apps/accessibility-app-designer-site-map-designer-my-apps-page)
 
 Microsoft is committed to making its products and services easier for everyone. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Microsoft accessibility](https://www.microsoft.com/enable/default.aspx)  
 

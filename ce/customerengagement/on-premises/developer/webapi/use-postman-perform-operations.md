@@ -3,7 +3,7 @@ title: "Use Postman to perform operations with the Web API (Developer Guide for 
 description: "Learn how to compose and send Web API requests using Postman."
 ms.custom: 
 ms.date: 04/15/2019
-ms.reviewer: susikka
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -17,8 +17,7 @@ ms.author: susikka
 manager: shujoshi
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 
 # Use Postman to perform operations with the Web API

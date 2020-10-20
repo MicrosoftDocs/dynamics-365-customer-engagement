@@ -19,8 +19,7 @@ tags:
   - MigrationHO
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Programming models for Dynamics 365 Customer Engagement (on-premises)
 

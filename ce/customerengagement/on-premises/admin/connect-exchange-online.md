@@ -2,7 +2,7 @@
 title: "Connect Dynamics 365 for Customer Engagement apps (online) to Exchange Online | MicrosoftDocs"
 description: "Connect Dynamics 365 for Customer Engagement apps (online) to Exchange Online"
 ms.custom: 
-ms.date: 05/29/2019
+ms.date: 05/14/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -18,16 +18,15 @@ ms.author: jimholtz
 manager: kvivek
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - Powerplatform
+
 ---
 # Connect Dynamics 365 for Customer Engagement apps (online) to Exchange Online 
 
 With both [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps and [!INCLUDE[pn_Microsoft_Exchange_Online](../includes/pn-microsoft-exchange-online.md)] hosted as online services, connecting the two is a simpler, more straightforward configuration.  
   
 > [!TIP]
-> ![Video symbol](../admin/media/video-thumbnail-4.png "Video symbol") Check out the following video: [Connect Dynamics 365 for Customer Engagement apps (online) to Exchange Online using server-side sync](https://go.microsoft.com/fwlink/p/?linkid=836831).  
+> ![Video symbol](../admin/media/video-thumbnail-4.png "Video symbol") Check out the following video: [Connect Dynamics 365 (online) to Exchange Online using server-side sync](https://go.microsoft.com/fwlink/p/?linkid=836831).  
+
 > 
 > [!IMPORTANT]
 > [!INCLUDE[cc_feature_requires_office_365](../includes/cc-feature-requires-office-365.md)]  
@@ -136,7 +135,7 @@ To approve emails for Dynamics 365 for Customer Engagement apps, a Dynamics 365 
 
 Decide which approach you want your organization to follow for mailbox approval.
 
-![](media/approval-flow-chart.png "Decide on mailbox approval approach")
+![Decide on mailbox approval approach](media/approval-flow-chart.png "Decide on mailbox approval approach")
 
 ### Permission model
 The following table describes the permissions required to approve emails.
@@ -220,7 +219,7 @@ To manually assign the **Approve Email Addresses for Users or Queues** privilege
 3. Under **Miscellaneous Privileges**, set the privilege level for **Approve Email Addresses for Users or Queues**.
   
 > [!div class="mx-imgBorder"] 
-> ![](media/approve-email-address-for-user-queues.png "Approve Email Address for User or Queues")
+> ![Approve Email Address for User or Queues](media/approve-email-address-for-user-queues.png "Approve Email Address for User or Queues")
 
 #### Approve mailboxes
 
@@ -243,7 +242,7 @@ Admins, as described in the Permission model table, can change the settings so m
 3. Select **OK**.
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/email-processing-for-unapproved.png "Email processing for unapproved user and queues")   
+   > ![Email processing for unapproved user and queues](media/email-processing-for-unapproved.png "Email processing for unapproved user and queues")   
 
 <a name="BKMK_TestConfiguration"></a>   
 
@@ -256,7 +255,7 @@ Admins, as described in the Permission model table, can change the settings so m
 3. Select the mailboxes you want to test, and then select **Test & Enable Mailbox**.  
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/test-enable-mailbox85.png "Test and enable mailboxes")
+   > ![Test and enable mailboxes](media/test-enable-mailbox85.png "Test and enable mailboxes")
   
    This tests the incoming and outgoing email configuration of the selected mailboxes and enables them for email processing. If an error occurs in a mailbox, an alert is shown on the Alerts wall of the mailbox and the profile owner. Depending on the nature of the error, [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps tries to process the email again after some time or disables the mailbox for email processing.  
   

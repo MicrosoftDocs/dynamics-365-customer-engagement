@@ -28,10 +28,10 @@ The field technician can view field service bookings from Remote Assist and call
 To learn more about using the Field Service application with Remote Assist, see the [Remote Assist user guide](https://docs.microsoft.com/dynamics365/mixed-reality/remote-assist/user-guide#use-dynamics-365-for-field-service-from-remote-assist).
 
 ### See also
-[Buy and deploy Remote Assist](https://docs.microsoft.com/en-us/dynamics365/mixed-reality/licensing/buy-and-deploy)
+[Buy and deploy Remote Assist](https://docs.microsoft.com/dynamics365/mixed-reality/licensing/buy-and-deploy)
 
-[Remote Assist FAQ](https://docs.microsoft.com/en-us/dynamics365/mixed-reality/layout/faq)
+[Remote Assist FAQ](https://docs.microsoft.com/dynamics365/mixed-reality/layout/faq)
 
-[Remote Assist user guide](https://docs.microsoft.com/en-us/dynamics365/mixed-reality/remote-assist/user-guide/)
+[Remote Assist user guide](https://docs.microsoft.com/dynamics365/mixed-reality/remote-assist/user-guide/)
 
 [FAQ about using Skype for HoloLens](https://support.skype.com/en/faq/FA34641/frequently-asked-questions-about-using-skype-for-hololens/)

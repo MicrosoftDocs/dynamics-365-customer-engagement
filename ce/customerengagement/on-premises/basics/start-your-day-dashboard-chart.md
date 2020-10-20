@@ -1,7 +1,7 @@
 ---
 title: "Start your day with a dashboard or chart | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/15/2019
+ms.date: 05/05/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -15,12 +15,13 @@ author: mduelae
 ms.author: mkaur
 search.audienceType: 
   - enduser
-search.app: 
-  - D365CE
+
 ---
 # Start your day with a dashboard
 
-Each time you sign in to the system you’ll see a dashboard, which gives you easy-to-read charts and graphs that help you see how you and your team are doing with key metrics (also known as key performance indicators, or KPIs).  
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Track your progress with dashboards and charts](/powerapps/user/track-your-progress-with-dashboard-and-charts)
+
+Each time you sign in to the system you'll see a dashboard, which gives you easy-to-read charts and graphs that help you see how you and your team are doing with key metrics (also known as key performance indicators, or KPIs).  
   
 ## Choose from different dashboard layouts  
  The system comes with several dashboard layouts tailored for your role. For example, on the Sales Activity Dashboard, you'll see the status of open opportunities in the pipeline, progress toward goals, open leads and opportunities, the Sales Leaderboard, and your activities.  
@@ -41,7 +42,7 @@ Each time you sign in to the system you’ll see a dashboard, which gives you ea
 ## Drill in to chart data  
  You can view the list of the records used to calculate the metrics shown in a chart.  
   
-- Point to the chart, and then select the **Drill in** button ![Drill in button](../basics/media/crm-ua-basicsguide-drill-in-button.png "Drill in button"). (You won’t see the button until you point to the chart.)  
+- Point to the chart, and then select the **Drill in** button ![Drill in button](../basics/media/crm-ua-basicsguide-drill-in-button.png "Drill in button"). (You won't see the button until you point to the chart.)  
   
   ![Chart button that shows records used to build the chart](../basics/media/chart-button-that-shows-records-for-chart.png "Chart button that shows records used to build the chart")  
   
@@ -61,14 +62,14 @@ Each time you sign in to the system you’ll see a dashboard, which gives you ea
 3. Select the layout that you want, such as the **3-Column Regular Dashboard**, and then select **Create**. 
 
     > [!div class="mx-imgBorder"] 
-    > ![](media/choose-layout.png "Choose layout")
+    > ![Choose layout](media/choose-layout.png "Choose layout")
 
 4. To add a chart, select the tile where you want the chart and then on the toolbar select **Chart**. 
 
 5. Select a chart from the list, such as **New Accounts By Month**, and then select **Add**. To create your own chart, see [Create or edit a chart](create-edit-chart.md).
 
     > [!div class="mx-imgBorder"] 
-    > ![](media/select-chart.png "Select a chart")
+    > ![Select a chart](media/select-chart.png "Select a chart")
     
 6. Repeat the steps to add additional charts on to your dashboard. You can also add the following components on a dashboard tile. 
     - List. Display a view on a tile of the dashboard.
@@ -80,5 +81,5 @@ Each time you sign in to the system you’ll see a dashboard, which gives you ea
      Your dashboard is displayed in the **Dashboards** area where you can share or assign it to another user or team. You can also set it as your default dashboard. 
 
      > [!div class="mx-imgBorder"] 
-     > ![](media/my-dashboard.png "Personal dashboard") 
+     > ![Personal dashboard](media/my-dashboard.png "Personal dashboard") 
 

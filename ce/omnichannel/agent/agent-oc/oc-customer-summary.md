@@ -1,10 +1,10 @@
 ---
 title: "View a customer summary in Omnichannel for Dynamics 365 | MicrosoftDocs"
 description: "Customer summary is a page where you can get all available information about the customer with whom you're going to interact."
-author: kabala123
-ms.author: kabala
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
-ms.date: 02/03/2020
+ms.date: 08/19/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -20,13 +20,13 @@ Having this information ready can help support agents reduce the hold time that 
 
 ## What is a customer summary?
 
-**Customer summary** is a page that gives you complete information about a customer. The page appears when you accept an incoming request from any channel. The default **Customer summary** view provides the following sections:
+**Customer summary** is a page that appears when you accept an incoming request from any channel and gives you complete information about a customer. The default **Customer summary** view provides the following sections:
 
- - Customer (Contact or Account)
- - Conversation summary
- - Case
- - Recent cases
- - Timeline
+- Customer (Contact or Account)
+- Conversation summary
+- Case
+- Recent cases
+- Timeline
 
 > [!div class='mx-imgBorder']
 > ![View Customer summary](../../media/customer-summary.png "View the Customer summary page")
@@ -96,7 +96,7 @@ To learn more, see [Create chat authentication settings](../../administrator/cre
 
 ### Additional details
 
-If your administrator or developer has configured the **Additional details** tab and if any additional context variables exist, they're displayed on the **Additional details** tab. 
+If your administrator or developer has configured the **Additional details** tab and if any additional context variables exist, they're displayed on the **Additional details** tab.
 
 To learn more, see [setContextProvider](../../developer/reference/methods/setContextProvider.md).
 
@@ -128,12 +128,10 @@ The **Linked records** field shows the record that's linked to the conversation.
 > [!div class='mx-imgBorder']
 > ![View only the linked records in the drop-down](../../media/oceh/customer-summary-linked-records.PNG "View only the linked records in the drop-down list")
 
-> [!div class="nextstepaction"]
-> [Next topic: Search for and share knowledge articles](oc-search-knowledge-articles.md)
-
 ### See also
 
-- [View communication panel](oc-conversation-control.md)
-- [Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md)
-- [View customer summary for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)
-- [setContextProvider](../../developer/reference/methods/setContextProvider.md)
+[Search for and share knowledge articles](oc-search-knowledge-articles.md)  
+[View communication panel](oc-conversation-control.md)  
+[Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md)  
+[View customer summary for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)  
+[setContextProvider](../../developer/reference/methods/setContextProvider.md)  

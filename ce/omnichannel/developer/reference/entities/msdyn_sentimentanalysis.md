@@ -1,19 +1,18 @@
 ---
 title: "msdyn_sentimentanalysis Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_sentimentanalysis entity."
+ms.date: 03/23/2020
+ms.service: "crm-online"
+ms.topic: "reference"
 author: "susikka"
 ms.author: "susikka"
 manager: "shujoshi"
-ms.date: 08/29/2019
-ms.service: 
-  - crm-online
-ms.topic: "reference"
 ---
 # msdyn_sentimentanalysis Entity Reference
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
-
+Sentiment analysis configuration
 
 **Added by**: Omnichannel – Base Solution
 
@@ -30,13 +29,11 @@ ms.topic: "reference"
 |SetState|PATCH [*org URI*]/api/data/v9.1/msdyn_sentimentanalysises(*msdyn_sentimentanalysisid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
 |Update|PATCH [*org URI*]/api/data/v9.1/msdyn_sentimentanalysises(*msdyn_sentimentanalysisid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Entity Properties
-
 |Property|Value|
 |--------|-----|
 |CollectionSchemaName|msdyn_sentimentanalysises|
-|DisplayCollectionName|Sentiment Analysis|
-|DisplayName|Sentiment Analysis|
+|DisplayCollectionName|Sentiment analysis|
+|DisplayName|Sentiment analysis|
 |EntitySetName|msdyn_sentimentanalysises|
 |IsBPFEntity|False|
 |LogicalCollectionName|msdyn_sentimentanalysises|
@@ -53,9 +50,15 @@ ms.topic: "reference"
 These attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
+- [msdyn_additionallanguagesenabled](#BKMK_msdyn_additionallanguagesenabled)
+- [msdyn_agentthreshold](#BKMK_msdyn_agentthreshold)
+- [msdyn_driversenabled](#BKMK_msdyn_driversenabled)
 - [msdyn_enabled](#BKMK_msdyn_enabled)
 - [msdyn_name](#BKMK_msdyn_name)
 - [msdyn_sentimentanalysisId](#BKMK_msdyn_sentimentanalysisId)
+- [msdyn_supervisorthreshold](#BKMK_msdyn_supervisorthreshold)
+- [msdyn_supervisorthresholdalerttimeoutseconds](#BKMK_msdyn_supervisorthresholdalerttimeoutseconds)
+- [msdyn_thresholdalertsenabled](#BKMK_msdyn_thresholdalertsenabled)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [statecode](#BKMK_statecode)
 - [statuscode](#BKMK_statuscode)
@@ -80,12 +83,87 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Integer|
 
 
+### <a name="BKMK_msdyn_additionallanguagesenabled"></a> msdyn_additionallanguagesenabled
+
+**Added by**: Omnichannel - Base Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Whether multi-language support is enabled|
+|DisplayName|Multi-language support enabled|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_additionallanguagesenabled|
+|RequiredLevel|None|
+|Type|Boolean|
+
+#### msdyn_additionallanguagesenabled Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
+
+**DefaultValue**: True
+
+
+
+### <a name="BKMK_msdyn_agentthreshold"></a> msdyn_agentthreshold
+
+**Added by**: Omnichannel - Base Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|The agent threshold for sentiment threshold alerts|
+|DisplayName|Agent alert threshold|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_agentthreshold|
+|RequiredLevel|None|
+|Type|Picklist|
+
+#### msdyn_agentthreshold Options
+
+|Value|Label|
+|-----|-----|
+|0|Don't show alerts|
+|7|Very negative|
+|8|Negative|
+|9|Slightly negative|
+
+
+
+### <a name="BKMK_msdyn_driversenabled"></a> msdyn_driversenabled
+
+**Added by**: Omnichannel - Base Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Specifies whether sentiment drivers are reported in Omnichannel Insights|
+|DisplayName|Report sentiment drivers in Omnichannel Insights|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_driversenabled|
+|RequiredLevel|None|
+|Type|Boolean|
+
+#### msdyn_driversenabled Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
+
+**DefaultValue**: False
+
+
+
 ### <a name="BKMK_msdyn_enabled"></a> msdyn_enabled
 
 |Property|Value|
 |--------|-----|
-|Description||
-|DisplayName|Enabled|
+|Description|Whether real-time customer sentiment monitoring is enabled|
+|DisplayName|Monitor real-time customer sentiment|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|msdyn_enabled|
@@ -115,7 +193,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForRead|True|
 |LogicalName|msdyn_name|
 |MaxLength|100|
-|RequiredLevel|ApplicationRequired|
+|RequiredLevel|None|
 |Type|String|
 
 
@@ -124,13 +202,81 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for entity instances|
-|DisplayName|Sentiment Analysis|
+|DisplayName|Sentiment analysis|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |IsValidForUpdate|False|
 |LogicalName|msdyn_sentimentanalysisid|
 |RequiredLevel|SystemRequired|
 |Type|Uniqueidentifier|
+
+
+### <a name="BKMK_msdyn_supervisorthreshold"></a> msdyn_supervisorthreshold
+
+**Added by**: Omnichannel - Base Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|The supervisor threshold for sentiment threshold alerts|
+|DisplayName|Supervisor alert threshold|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_supervisorthreshold|
+|RequiredLevel|None|
+|Type|Picklist|
+
+#### msdyn_supervisorthreshold Options
+
+|Value|Label|
+|-----|-----|
+|0|Don't send notifications|
+|7|Very negative|
+|8|Negative|
+|9|Slightly negative|
+
+
+
+### <a name="BKMK_msdyn_supervisorthresholdalerttimeoutseconds"></a> msdyn_supervisorthresholdalerttimeoutseconds
+
+**Added by**: Omnichannel - Base Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|This field is deprecated|
+|DisplayName|(Deprecated) Supervisor alert timeout in seconds|
+|Format|None|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_supervisorthresholdalerttimeoutseconds|
+|MaxValue|500|
+|MinValue|1|
+|RequiredLevel|None|
+|Type|Integer|
+
+
+### <a name="BKMK_msdyn_thresholdalertsenabled"></a> msdyn_thresholdalertsenabled
+
+**Added by**: Omnichannel - Base Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|This field is deprecated|
+|DisplayName|(Deprecated) Threshold alerts enabled|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_thresholdalertsenabled|
+|RequiredLevel|None|
+|Type|Boolean|
+
+#### msdyn_thresholdalertsenabled Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
+
+**DefaultValue**: False
+
 
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
@@ -153,7 +299,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Status of the Sentiment Analysis|
+|Description|Status of the sentiment analysis|
 |DisplayName|Status|
 |IsValidForCreate|False|
 |IsValidForForm|True|

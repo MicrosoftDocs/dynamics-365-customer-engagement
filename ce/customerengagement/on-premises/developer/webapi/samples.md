@@ -1,9 +1,9 @@
 ---
-title: "Web API Samples (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Web API Samples (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "The Dynamics 365 Customer Engagement (on-premises) SDK provides a matrix of samples demonstrating how to use the Web API in a number of different ways. Find here the C# and JavaScript implementations of Basic Operations, Query Data, Conditional Operations and Functions and Actions sample"
 ms.custom: 
 ms.date: 04/22/2019
-ms.reviewer: susikka
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -16,8 +16,7 @@ author: susikka
 ms.author: susikka
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Web API samples
 
@@ -42,6 +41,6 @@ The following table lists the topics that cover language specific implementation
 
 ### See also
 
-[What is Power Apps?](/powerapps/powerapps-overview)
-[What is Common Data Service?](/powerapps/maker/common-data-service/data-platform-intro)
+[What is Power Apps?](/powerapps/powerapps-overview)<br/>
+[What is Common Data Service?](/powerapps/maker/common-data-service/data-platform-intro)<br/>
 [Common Data Service Developer Guide](/powerapps/developer/common-data-service/overview)

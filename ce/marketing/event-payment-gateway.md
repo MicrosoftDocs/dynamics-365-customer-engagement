@@ -2,7 +2,7 @@
 title: "Add a payment gateway to your event website (Dynamics 365 Marketing) | Microsoft Docs "
 description: "Describes how to set up a payment gateway for the event website, so contacts can pay for a ticket while registering in  Dynamics 365 Marketing"
 keywords: events; payment
-ms.date: 06/07/2019
+ms.date: 09/16/2020
 ms.service: dynamics-365-marketing
 ms.custom:
   - dyn365-marketing
@@ -133,6 +133,8 @@ You'll probably need assistance from a developer to create the custom back-end s
 Your back-end service must authenticate against your Dynamics 365 Marketing instance to enable the service to execute the custom actions needed to finalize the workflow. More information: [Authenticate to Common Data Service with the Web API](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/authenticate-web-api)
 
 Depending on your payment provider, your back-end service may also be able to apply additional checks to the transaction. This isn't strictly required to finalize the registration, but it is good practice. If you need additional purchase details to verify the transaction, you can get the data by executing the custom action `msevtmgt_GetPurchaseDetailsAction`. It expects the input parameter `PurchaseId`, which is the ID of the temporary event registration. The output result of this custom action returns the event name, purchase amount, currency name, ISO currency code, and currency symbol.
+
+Starting with version 1.12.10024 (June 2020), the custom action `msevtmgt_ListDetailedPurchaseInfo` can be used to retrieve additional purchase details. It expects the input parameter `PurchaseId`, which is the ID of the temporary event registration. The output result of this custom action returns the event name, purchase amount, currency name, ISO currency code, currency symbol, and a list of attendees.
 
 After your back-end solution has verified payment, it must invoke the `msevtmgt_FinalizeExternalRegistrationRequest` (or `adx_FinalizeExternalRegistrationRequest` if you are using a version prior to 1.13 (April release 2019)) custom action against your Dynamics 365 Marketing instance. This custom action requires the following input parameters:
 

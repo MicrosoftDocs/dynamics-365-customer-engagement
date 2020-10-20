@@ -29,8 +29,8 @@ Primary entity for session data
 |Property|Value|
 |--------|-----|
 |CollectionSchemaName|msdyn_SessionDatas|
-|DisplayCollectionName|Sessions Data|
-|DisplayName|Session Data|
+|DisplayCollectionName|Sessions Data (Deprecated)|
+|DisplayName|Session Data (Deprecated)|
 |EntitySetName|msdyn_sessionsdata|
 |IsBPFEntity|False|
 |LogicalCollectionName|msdyn_sessiondatas|
@@ -225,7 +225,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Unique identifier of the provider session|
 |DisplayName|Provider Session Id|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -274,7 +274,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|Additional data related to the session|
-|DisplayName|Session Additional Data|
+|DisplayName|Additional Data|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
@@ -291,7 +291,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |--------|-----|
 |DateTimeBehavior|UserLocal|
 |Description|Timestamp at which the agent was assigned to the session|
-|DisplayName|Session Agent Assigned Timestamp|
+|DisplayName|Agent Assigned Timestamp|
 |Format|DateAndTime|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -305,7 +305,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|Channel for the session|
-|DisplayName|Session Channel|
+|DisplayName|Channel|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
@@ -322,7 +322,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |--------|-----|
 |DateTimeBehavior|UserLocal|
 |Description|Timestamp at which the session was created|
-|DisplayName|Session Created Timestamp|
+|DisplayName|Created Timestamp|
 |Format|DateAndTime|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -336,7 +336,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|Reason for the session creation|
-|DisplayName|Session Creation Reason|
+|DisplayName|Creation Reason|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
@@ -367,7 +367,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |--------|-----|
 |DateTimeBehavior|UserLocal|
 |Description|Timestamp at which the queue was assigned to the session|
-|DisplayName|Session Queue Assigned Timestamp|
+|DisplayName|Queue Assigned Timestamp|
 |Format|DateAndTime|
 |IsValidForForm|True|
 |IsValidForRead|True|

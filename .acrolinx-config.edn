@@ -1,2 +1,16 @@
 {:allowed-branchname-matches ["^master$" "^master-omnichannel$"]
- :allowed-filename-matches ["ce"]}
+ :allowed-filename-matches ["(?i)^ce/(?:(?!customerengagement/on-premises/developer/entities/systemuser.md))"]
+ :guidance-profile "dc59e3ef-24fd-46d7-9156-0491aaae6bef" ;; Profile ID for "BAG-specific" 
+ :acrolinx-check-settings
+ {
+  "languageId" "en"
+  "ruleSetName" "Standard"
+  "requestedFlagTypes" ["SPELLING" "GRAMMAR" "STYLE"
+                        "TERMINOLOGY_DEPRECATED"
+                        "TERMINOLOGY_VALID"
+                        "VOICE_GUIDANCE"
+                        ]
+  "termSetNames" ["BAG" "Microsoft" "Products"]
+ }
+}
+

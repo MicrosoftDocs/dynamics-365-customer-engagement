@@ -14,8 +14,7 @@ ms.topic: article
 ms.assetid: 2d3af6e9-e8a4-4129-b708-383b2740c015
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 # Section properties
 

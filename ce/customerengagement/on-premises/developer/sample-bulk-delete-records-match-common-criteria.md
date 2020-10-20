@@ -12,7 +12,7 @@ ms.assetid: 1e5fb8b0-5938-4af7-a21d-7365b27b6e1e
 author: JimDaly
 ms.author: nabuthuk
 manager: kvivek
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.suite: 
 ms.tgt_pltfrm: 
 helpviewer_keywords: 
@@ -25,8 +25,7 @@ helpviewer_keywords:
 topic-status: Drafting
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 
 # Sample: Bulk delete records that match common criteria

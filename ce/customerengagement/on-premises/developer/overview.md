@@ -2,8 +2,8 @@
 title: "Developer Guide for Dynamics 365 Customer Engagement (on-premises)| MicrosoftDocs"
 description: "This SDK contains a wealth of resources, including code samples, which are designed to help you build powerful vertical applications using the Customer Engagement (on-premises) platform. It is a guide for developers writing solutions, server-side code, client applications and extensions, custom business logic, plug-ins, integration modules, custom workflow modules and more. The SDK contains an architectural overview of Customer Engagement, the entity model, security model, web services, and sample code."
 ms.custom: 
-ms.date: 09/30/2019
-ms.reviewer: 
+ms.date: 04/20/2020
+ms.reviewer: pehecke
 ms.service: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -17,14 +17,15 @@ tags:
   - MigrationHO
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Developer Guide for Dynamics 365 Customer Engagement (on-premises), version 9
 
 Welcome to the Dynamics 365 Customer Engagement (on-premises) Developer Guide.
 
-For documentation of earlier versions (8.x and earlier), see <https://docs.microsoft.com/previous-versions/dynamics/>.
+- For documentation of earlier on-premises versions (8.x and earlier), see <https://docs.microsoft.com/previous-versions/dynamics/>.
+
+- If you are using our online apps that are built on Common Data Service (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Marketing, Dynamics 365 Field Service, and Dynamics 365 Project Service Automation), see the [Common Data Service Developer Guide](https://docs.microsoft.com/powerapps/developer/common-data-service/overview) along with the respective app's developer docs.
 
 <table>
 <tr>
@@ -94,7 +95,7 @@ For documentation of earlier versions (8.x and earlier), see <https://docs.micro
 <td>
 <h2> Package extensions and customizations </h2>
 <li><a href="package-distribute-extensions-use-solutions.md" data-raw-source="[Use solutions](package-distribute-extensions-use-solutions.md)">Use solutions</a></li>
-<li><a href="create-packages-package-deployer.md" data-raw-source="[Use Package Deployer](create-packages-package-deployer.md)">Use Package Deployer</a></li>
+<li><a href="/power-platform/alm/package-deployer-tool" data-raw-source="[Use Package Deployer](/power-platform/alm/package-deployer-tool)">Use Package Deployer</a></li>
 <li><a href="compress-extract-solution-file-solutionpackager.md" data-raw-source="[Use SolutionPackager](compress-extract-solution-file-solutionpackager.md)">Use SolutionPackager</a></li>
 <li><a href="publish-app-appsource.md" data-raw-source="[Publish your app on AppSource](publish-app-appsource.md)">Publish your app on AppSource</a></li>
 </td>

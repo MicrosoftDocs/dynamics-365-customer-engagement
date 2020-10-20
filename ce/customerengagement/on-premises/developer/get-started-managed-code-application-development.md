@@ -3,7 +3,7 @@ title: "Getting started with on-premise managed code application development (De
 description: "This guide shows you how to write application code that connects to the Dynamics 365 Customer Engagement (on-premises) web services and invoke web methods to perform common business data operations like create, delete, update, and find"
 ms.custom: on-premise
 ms.date: 09/05/2019
-ms.reviewer: "pehecke"
+ms.reviewer: pehecke
 ms.service: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -17,10 +17,9 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
-# Getting started with on-premise managed code application development
+# Getting started with on-premises managed code application development
 
 This guide shows you how to write application code that connects to the Dynamics 365 Customer Engagement (on-premises) web services and invoke web methods to perform common business data operations like create, delete, update, and find. You will also be shown how to set up a project in [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)] with the required namespaces, and how to handle exceptions returned from the web services. After completing this guide, you will have learned enough information to explore the many other business operations that are supported by the web services.
 

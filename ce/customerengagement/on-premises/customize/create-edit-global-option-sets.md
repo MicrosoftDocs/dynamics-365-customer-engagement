@@ -16,12 +16,11 @@ manager: kvivek
 author: Mattp123
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 # Create and edit global option sets (picklists)
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Create an Option set](/powerapps/maker/common-data-service/custom-picklists)
 
 An option set is a type of field that can be included in an entity. It defines a set of options. When an option set is displayed in a form it uses a drop-down list control. When displayed in Advanced Find it uses a picklist control. Sometimes option sets are called picklists by developers.  
   
@@ -42,7 +41,7 @@ An option set is a type of field that can be included in an entity. It defines a
   
      The **Name** field value will be generated based on the value of the **Display Name** you enter.  
   
-     The **Name** field value will include the customization prefix for the solution publisher for the solution you are working in. If the customization prefix is important to you, make sure you are working in the context of a solution that has the customization prefix you want for this global option set. See [Solution Publisher](../customize/change-solution-publisher-prefix.md#BKMK_SolutionPublisher) for information about how to change the customization prefix.  
+     The **Name** field value will include the customization prefix for the solution publisher for the solution you are working in. If the customization prefix is important to you, make sure you are working in the context of a solution that has the customization prefix you want for this global option set. See [Change the solution publisher prefix](../customize/change-solution-publisher-prefix.md) for information about how to change the customization prefix.  
   
      The **Name** field value must be unique. If the generated value is the same as an existing global option set, you will need to change it before you can save.  
   

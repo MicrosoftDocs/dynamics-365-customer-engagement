@@ -3,7 +3,7 @@ title: "Entity relationship behavior (Developer Guide for Dynamics 365 Customer 
 descriptions: Cascading of behaviors may arise in case of one-to-many entity relationships and they can be configured to preserve data integrity and automate business processes
 ms.custom: 
 ms.date: 11/03/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -32,8 +32,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Entity relationship behavior
 

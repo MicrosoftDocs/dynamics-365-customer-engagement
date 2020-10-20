@@ -17,9 +17,7 @@ ms.author: shujoshi
 manager: shujoshi
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - Powerplatform
+
 ---
 # System Settings dialog box - Service tab
 

@@ -3,7 +3,7 @@ title: "Organize your team to develop solutions (Developer Guide for Dynamics 36
 description: "This document lists down some strategies to use when multiple developers are working on the same solution"
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: "pehecke"
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -22,10 +22,11 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Organize your team to develop solutions
+
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Organize your team to develop solutions](/powerapps/developer/common-data-service/organize-team-develop-solutions).
 
 When multiple developers have to work on the same solution, you may want to create an environment where each developer can create customizations that will not interfere with the work of other developers. You may also need to move your solution from development environments to test environments and user acceptance testing (UAT) environments.  
   
@@ -45,11 +46,11 @@ When multiple developers have to work on the same solution, you may want to crea
   
 <a name="BKMK_SingleOrgMultipleDeveloper"></a>   
 ### Single organization: Multiple developer solutions + master solution  
- In a single organization, you can create separate unmanaged solutions for each developer. Each solution contains a sub set of a master solution. Each solution component exists in only one unmanaged solution. Developers do not add existing solution components to the unmanaged solutions assigned to them. This provides a clear separation of components that are being modified. You do not have to merge changes because each developer’s solution contains a reference to components that are contained in the master solution.  
+ In a single organization, you can create separate unmanaged solutions for each developer. Each solution contains a sub set of a master solution. Each solution component exists in only one unmanaged solution. Developers do not add existing solution components to the unmanaged solutions assigned to them. This provides a clear separation of components that are being modified. You do not have to merge changes because each developer's solution contains a reference to components that are contained in the master solution.  
   
 <a name="BKMK_OneOrgPerDev"></a>   
 ### One organization per developer  
- Each developer can work on their own organization. To check their changes into Dynamics 365 Customer Engagement (on-premises), they must export their solution as an unmanaged solution. The solution from each developer’s organization is then imported into a master solution. Use the master solution to export the managed solution.  
+ Each developer can work on their own organization. To check their changes into Dynamics 365 Customer Engagement (on-premises), they must export their solution as an unmanaged solution. The solution from each developer's organization is then imported into a master solution. Use the master solution to export the managed solution.  
   
 <a name="BKMK_DeployingSolutionsFromDevThroughToProduction"></a>   
 ## Deploy solutions from development through test and production environments  

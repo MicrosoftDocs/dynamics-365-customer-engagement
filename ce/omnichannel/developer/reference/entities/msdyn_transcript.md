@@ -1,13 +1,12 @@
 ---
 title: "msdyn_transcript Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_transcript entity."
+ms.date: 03/23/2020
+ms.service: "crm-online"
+ms.topic: "reference"
 author: "susikka"
 ms.author: "susikka"
 manager: "shujoshi"
-ms.date: 08/29/2019
-ms.service: 
-  - crm-online
-ms.topic: "reference"
 ---
 # msdyn_transcript Entity Reference
 
@@ -646,8 +645,6 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 ### <a name="BKMK_msdyn_msdyn_ocliveworkitem_msdyn_transcript"></a> msdyn_msdyn_ocliveworkitem_msdyn_transcript
 
 **Added by**: Active Solution Solution
-
-See msdyn_ocliveworkitem Entity [msdyn_msdyn_ocliveworkitem_msdyn_transcript](msdyn_ocliveworkitem.md#BKMK_msdyn_msdyn_ocliveworkitem_msdyn_transcript) One-To-Many relationship.
 
 ### See also
 

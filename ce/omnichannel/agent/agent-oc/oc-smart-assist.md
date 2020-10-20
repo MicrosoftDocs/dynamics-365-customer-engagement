@@ -1,33 +1,32 @@
 ---
-title: "Smart assist for agents | MicrosoftDocs"
+title: "Smart assist for agents configured using custom Axure bot | MicrosoftDocs"
 description: "Learn how to use smart assist feature in the Omnichannel for Customer Service app."
-author: kabala123
-ms.author: kabala
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
-ms.date: 01/31/2020
+ms.date: 09/07/2020
 ms.service: 
-  - "dynamics-365-customerservice"
+  "dynamics-365-customerservice"
 ms.topic: article
 ---
 
-# Smart assist for agents
+# View smart assist suggestions for agents configured using custom Azure bot
 
 [!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
-## Overview of smart assist
+## Introduction
 
-Smart assist is an intelligent assistant that provides real-time recommendations to you (an agent), helping you to take actions while interacting with customers. It shows relevant recommendations such as knowledge articles, similar cases, and next-best steps.
+Smart assist is an intelligent assistant that provides real-time recommendations to you (an agent), helping you to take actions during your interactions with customers. It shows relevant recommendations such as knowledge articles, similar cases, and next-best steps.
 
-If your administrator has configured the Productivity pane, then the productivity pane appears and on which the smart assist cards appear. To configure productivity pane, see [Enable productivity pane](../../administrator/smart-assist.md#step-4-enable-productivity-pane).
+If your administrator has enabled the Productivity pane, then the productivity pane appears and on which the smart assist cards appear. By default, the productivity pane is enabled out of the box.
 
-> [!div class='mx-imgBorder']
-> ![Productivity pane](../../media/productivity-pane-smart-assist.PNG "Productivity pane")
+## Smart assist suggestions configured using custom Azure bot user
 
 The smart assist bot interprets the conversation in the communication panel and provides real-time recommendations.
 
 The recommendations appear in the user interface as cards. The most recent card (recommendation) appears at the top on the control. If you feel a recommendation doesn't meet the context of the conversation, you can choose to dismiss the card.
 
-For a macro recommendation card, if the execution is successful, a success message is displayed; otherwise, an error message is displayed in the user interface.
+For a macro recommendation card, if the run is successful, a success message is displayed; otherwise, an error message is displayed in the user interface.
 
 When a conversation is escalated from a bot, the agent needs to accept the request and start the conversation with the customer. Now, from this instance, the smart assist bot interprets the conversation in real-time and provides recommendations.
 
@@ -36,4 +35,5 @@ When a conversation is escalated from a bot, the agent needs to accept the reque
 
 ## See also
 
-[Smart assist for agents (admin)](../../administrator/smart-assist.md)
+[Smart assist for agents (admin)](../../administrator/smart-assist.md)  
+[View smart assist suggestions using AI](oc-view-ai-suggested-cases-articles.md)  

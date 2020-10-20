@@ -21,8 +21,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Walkthrough: Register a Dynamics 365 Customer Engagement app with Active Directory
 

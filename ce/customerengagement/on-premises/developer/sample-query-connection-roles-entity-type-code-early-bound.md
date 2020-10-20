@@ -3,7 +3,7 @@ title: "Sample: Query connection roles by entity type code (early bound) | Micro
 description: "The sample demonstrates how to use a query to find a connection role for an account entity by specifying an entity type code."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -20,8 +20,7 @@ ms.author: nabuthuk
 manager: kvivek
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Sample: Query connection roles by entity type code (early bound)
 

@@ -18,14 +18,13 @@ manager: kvivek
 tags: 
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 # Create N:N (many-to-many) relationships
 
-
-
 <a name="BKMK_CreateEditNNRelationships"></a>   
+
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Create Many-to-many entity relationships in Common Data Service using Power Apps portal](/powerapps/maker/common-data-service/create-edit-nn-relationships-portal)
 
  1:N entity relationships establish a hierarchy between records. With N:N (many-to-many) relationships there is no explicit hierarchy. There are no lookup fields or behaviors to configure. Records created using N:N relationships can be considered peers and the relationship is reciprocal.  
   

@@ -110,7 +110,7 @@ Next, add the following HTML and CSS text to **Booking Template** field in **Sch
     </div>
     </div>
     <div class="repair-back" style="color: #AAAAAA; position: relative; display:inline-block; padding-left:10px; vertical-align:text-top;">
-        <i class="fa fa-wrench aria-hidden="true""></i>
+        <i class="fa fa-wrench" aria-hidden="true"></i>
     <div class="repair" style="width:{msdyn_msdyn_workorder_bookableresourcebooking_WorkOrder.new_isservicecall}00%; color: #FFBC0B; position: absolute; top: 0; left:0; padding-left:10px; overflow: hidden; display:-webkit-box">
         <i class="fa fa-wrench" aria-hidden="true"></i>
     </div>
@@ -133,4 +133,4 @@ When building these advanced booking templates, make sure to test on multiple br
 
 ### See also
 
-- [Add custom resource attributes to the schedule board](/field-service/extend-schedule-board-custom-resource-attribute.md)
+- [Add custom resource attributes to the schedule board](https://docs.microsoft.com/dynamics365/field-service/extend-schedule-board-custom-resource-attribute)

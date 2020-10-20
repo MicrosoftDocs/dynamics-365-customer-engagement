@@ -35,6 +35,9 @@ You can view and edit underlying opportunities in two ways:
 
 ## View and edit in a table view
 
+>[!NOTE]
+>If you have opted in for early access, the grid view has changed to include enhanced features, such as group the opportunities based on related entity. To learn more, see [View and edit related entity underlying records in early access](#view-and-edit-related-entity-underlying-records-in-early-access).
+
 1.	Open a forecast. In this example, we're opening **Kenny's Org FY 2020 Forecast** for current quarter **FY2020 Q1**.
 
     > [!div class="mx-imgBorder"]
@@ -64,6 +67,37 @@ You can view and edit underlying opportunities in two ways:
 
     > [!NOTE]
     > You can open an opportunity by double-clicking in the non-editable space of the row. The opportunity opens in a new page, where you can edit and save the opportunity.
+
+### View and edit related entity underlying records in early access
+
+[!INCLUDE [cc-early-access](../includes/cc-early-access.md)]
+
+With the enhanced grid, you can view and edit related entity records also.
+
+The following screen is an example of the enhanced grid view of underlying records:
+
+> [!div class="mx-imgBorder"]
+> ![View underlying opportunity grid](media/forecast-view-grid-group-option.png "View underlying opportunity grid")
+
+1. **General information**: You can identify whom the underlying records belongs to, and by their team or individual. Also, you can see the category of underlying records, such as won, committed, and pipeline along with its total value.
+
+2. **View selector**: You can change the view of these records. By default, the view that was selected when the forecast was configured is displayed.
+
+3. **Group by**: You can view and edit the records of related entity. Select the **Group by** option and choose a valid related attribute to view appropriate related entity records. 
+
+    For example, opportunity split forecast is created based on the data model as illustrated below, where, opportunity split is the rollup entity and opportunity is the related entity.
+
+    By default, when users open the underlying records grid the opportunities in the opportunity split (rollup entity) are listed. As the records of opportunity split are derived from opportunity (related entity), users might want to edit the records directly in opportunity (related entity). Therefore, users must select attributes of opportunity, which is the related entity in this data model.
+
+    To support such scenarios, the **Group by** drop-down lists the related entity attributes of opportunity split (rollup entity), so that users can select relevant opportunity attribute, and then view and edit related opportunity records.    
+
+    > [!div class="mx-imgBorder"]
+    > ![Opportunity split data model](media/forecast-opportunity-split-data-model.png "Opportunity split data model")
+
+    The following image is an example when you choose to group the records based on opportunity attribute from the related opportunity entity of an opportunity split forecast.
+
+    > [!div class="mx-imgBorder"]
+    > ![Opportunity split group by example](media/forecast-opportunity-split-groupby-example.png "Opportunity split group by example")
 
 
 ## View and edit in a kanban view

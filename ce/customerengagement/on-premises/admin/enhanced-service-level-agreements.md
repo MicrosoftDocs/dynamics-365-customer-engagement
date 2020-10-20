@@ -17,9 +17,7 @@ ms.author: shujoshi
 manager: shujoshi
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - Powerplatform
+
 ---
 # Enhanced service level agreements
 

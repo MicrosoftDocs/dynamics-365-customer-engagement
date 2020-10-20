@@ -4,7 +4,7 @@ description: "Learn about the architecture of Connected Customer Service with Io
 author: lalexms
 ms.author: lalexms
 manager: shujoshi
-ms.date: 02/03/2020
+ms.date: 04/03/2020
 ms.topic: article
 ms.service: 
   - "dynamics-365-customerservice"
@@ -15,8 +15,6 @@ applies_to:
 ---
 
 # Architecture of Connected Customer Service with IoTHub
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 Connected Customer Service with IoTHub brings together AzureIoT and Dynamics 365 Customer Service. In this topic, you will find an explanation of the architecture and how it all works together.
 
@@ -47,7 +45,7 @@ For this topic, the words **data** and **telemetry** refer to information sent f
 
 - **Logic App Azure to Dynamics**: Connects Azure with Dynamics 365 (and other applications and platforms). Serves as a way to apply more logic, map entities, and trigger the appropriate actions in Dynamics 365, such as the creation of an **IoT Alert** record. Compare this to IoTCentral, which uses Power Automate.
 
-- **IoT Alert**: Faults are passed from IoTHub to Dynamics 365 in the form of IoT alerts, which is an entity in Field Service. An IoT alert is the first part of the process inside Dynamics 365. An IoT alert is a subset of all device data that requires attention and potentially an action from the customer service or customer service department.
+- **IoT Alert**: Faults are passed from IoTHub to Dynamics 365 in the form of IoT alerts, which is an entity in Customer Service. An IoT alert is the first part of the process inside Dynamics 365. An IoT alert is a subset of all device data that requires attention and potentially an action from the customer service or customer service department.
 
 - **Connected Customer Service Model Driven App**: A set of entities and processes built on Dynamics 365 Customer Service. Among other things, Connected Customer Service allows you to connect IoT devices (sensors) with Customer Service customer assets.
 

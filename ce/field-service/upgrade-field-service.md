@@ -1,8 +1,9 @@
 ---
-title: "Upgrade Field Service | MicrosoftDocs"
+title: "Upgrade Dynamics 365 Field Service | MicrosoftDocs"
+description: Learn how to upgrade Dynamics 365 Field Service.
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 01/02/2020
+ms.date: 10/01/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -46,9 +47,9 @@ The details of upcoming major and minor releases are listed in the [upcoming rel
 
 ### How do I upgrade my environment?
 
-As of Field Service version **8.8.6+**, the Field Service app will be updated automatically as part of the Dynamics 365 platform [One version](https://cloudblogs.microsoft.com/dynamics365/bdm/2018/07/06/modernizing-the-way-we-update-dynamics-365/) initiative.
+The Field Service app will be updated automatically as part of the Dynamics 365 platform [One version](https://cloudblogs.microsoft.com/dynamics365/bdm/2018/07/06/modernizing-the-way-we-update-dynamics-365/) initiative.
 
-Before your organization updates to 8.8.6+ or later, you can manually apply updates by going to the Microsoft 365 (Office 365) Admin Center.
+Before your organization updates to 8.8.6+ or later, you can manually apply updates by going to the Microsoft 365 Admin Center.
 
 Log in to [https://login.microsoftonline.com](https://login.microsoftonline.com) with administrator credentials. 
 
@@ -57,20 +58,25 @@ Go to **Admin**.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the admin option](./media/upgrade-admin.png)
 
-Then go to the Dynamics 365 Admin Center.
+Then go to the Dynamics 365 Admin Center. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Dynamics 365 admin center](./media/upgrade-admin-d365.png)
 
-Select and highlight the environment that has the Field Service app you want to upgrade.
+
+
+You can also go directly to [https://admin.powerplatform.microsoft.com/environments](https://admin.powerplatform.microsoft.com/environments)
+
+Select and highlight the environment that has the Field Service app you want to upgrade. In the top ribbon, select **Resources** > **Dynamics 365 apps**. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Dynamics 365 admin center ](./media/upgrade-admin-environment.png)
+> ![Screenshot of the Dynamics 365 admin center ](./media/upgrade-fs-new-ppac.jpg)
 
-In the list of solutions, find and select the Field Service app. It will indicate if an upgrade is available. Then select the **Upgrade** icon.
+In the list of solutions, find and select the Field Service app. It will indicate if an upgrade is available. Then select the **Update** in the top.
+
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a list of solutions in the admin center noting there's an upgrade available for Field Service](./media/admin-upgrade-to-latest-admin-center.png)
+> ![Screenshot of a list of solutions in the admin center noting there's an upgrade available for Field Service](./media/upgrade-fs-new-popup.jpg)
 
 
 In addition, once your organization begins receiving automatic updates with version **8.8.6+**, you can manually upgrade the app in the seven days between the update release and when the automatic update applies. This is done via the admin center process above.
@@ -173,25 +179,19 @@ All UFX queries, both custom ones your organization creates and those included w
 
 ## Resource scheduling optimization
 
-Resource scheduling optimization (RSO) is the app that allows for automated scheduling of work orders, projects tasks, cases, and more. Major and minor updates are released throughout the year. Unlike Resource Scheduling, RSO can be upgraded independently.
+Resource scheduling optimization is the app that allows for automated scheduling of work orders, projects tasks, cases, and more. Major and minor updates are released throughout the year. Unlike Resource Scheduling, RSO can be upgraded independently.
 
-First, check if an RSO update is available. 
+First, check if a resource scheduling optimization update is available. 
 
-From the Dynamics 365 Admin Center, select and highlight the environment that has the RSO app and select solutions.
+From the Power Platform admin center located at [https://admin.powerplatform.microsoft.com/](https://admin.powerplatform.microsoft.com/), go to **Environments**, select your environment, and choose **Dynamics 365 apps**. In the list of solutions, it will indicate if there is an upgrade available for resource scheduling optimization.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the Dynamics 365 admin center](./media/upgrade-admin-environment.png)
 
-In the list of solutions, it will indicate if there is an upgrade available for RSO.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of an available update for RSO](./media/upgrade-rso-upgrade-available.png)
-
-If so, go to the **Applications** tab at the top, find the RSO application that relates to your environment, and choose **Manage**.
-
+To upgrade resource scheduling optimization, in the left pane select **Resources** > **Dynamics 365 apps**, find resource scheduling optimization, and select **Manage**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the manage option for RSO in the admin center](./media/upgrade-rso-applications-manage.png)
+> ![Screenshot of the Dynamics 365 admin center](./media/rso-upgrade-manage-powerapps-admin.png)
+
 
 Then select **Upgrade to new version**.
 

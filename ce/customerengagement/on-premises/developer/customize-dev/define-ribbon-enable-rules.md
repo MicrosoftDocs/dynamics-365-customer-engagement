@@ -3,7 +3,7 @@ title: "Define ribbon enable rules (Developer Guide for Dynamics 365 Customer En
 description: "Learn about defining specific rules to control when the ribbon elements are enabled during configuration of ribbon elements. "
 ms.custom: 
 ms.date: 02/08/2019
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -14,13 +14,12 @@ helpviewer_keywords:
   - ribbon, enable controls
 ms.assetid: f17819f8-e963-43e1-8895-36bf0cc32b0f
 caps.latest.revision: 27
-author: JesseParsons
-ms.author: jeparson
+author: hazhouMSFT
+ms.author: hazhou
 manager: annbe
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Define ribbon enable rules
 

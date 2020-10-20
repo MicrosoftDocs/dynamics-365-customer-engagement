@@ -16,12 +16,11 @@ manager: kvivek
 author: Mattp123
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 # Create and edit fields (attributes)
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [How to create and edit fields](/powerapps/maker/common-data-service/create-edit-fields)
 
 With Dynamics 365 Customer Engagement (on-premises), fields define the individual data items that can be used to store data in an entity. Fields are sometimes called attributes by developers. You can use the customization tools in the solution explorer to edit system fields that allow customization, or to create, edit, or delete custom entities.  
   

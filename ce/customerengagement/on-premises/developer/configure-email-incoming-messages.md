@@ -3,7 +3,7 @@ title: "Configure email for incoming messages (Developer Guide for Dynamics 365 
 description: "Learn about configuring email for the incoming messages to deliver directly to a queue."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -22,8 +22,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Configure email for incoming messages
 

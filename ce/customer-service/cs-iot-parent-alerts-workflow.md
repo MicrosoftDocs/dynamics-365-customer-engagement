@@ -4,7 +4,7 @@ description: "Links potential redundant IoT alerts to an existing parent alert."
 author: lalexms
 ms.author: lalexms
 manager: shujoshi
-ms.date: 02/03/2020
+ms.date: 04/03/2020
 ms.topic: article
 ms.service: 
   - "dynamics-365-customerservice"
@@ -15,8 +15,6 @@ applies_to:
 ---
 
 # IoT - Parent IoT Alerts workflow
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 The **IoT - Parent IoT Alerts** workflow links potential redundant alerts to an existing parent alert.  
   

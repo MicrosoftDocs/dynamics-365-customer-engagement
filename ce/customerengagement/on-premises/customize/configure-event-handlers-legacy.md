@@ -13,12 +13,11 @@ ms.topic: article
 ms.assetid: dc0ebb3f-0c00-413a-968f-9cfd107055c0
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 # Configure event handlers
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Configure model-driven app form event handlers](/powerapps/maker/model-driven-apps/configure-event-handlers-legacy)
 
  Form event handlers for Dynamics 365 Customer Engagement (on-premises) forms can be configured for the following areas in a form:  
 

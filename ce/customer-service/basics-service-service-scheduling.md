@@ -1,22 +1,13 @@
 ---
-title: Overview of Service Scheduling (Dynamics 365 Customer Service) | MicrosoftDocs
-description: Know the basics of service and service scheduling in Dynamics 365 Customer Service
+title: "Overview of Service Scheduling (Dynamics 365 Customer Service) | MicrosoftDocs"
+description: "Know the basics of service and service scheduling in Dynamics 365 Customer Service"
+ms.date: 06/17/2019
+ms.service:
+  - "dynamics-365-customerservice"
+ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 06/17/2019
-ms.topic: article
-ms.service: 
-  - dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
-search.app: 
-  - D365CE
-  - D365CS
 ---
 
 # Service Scheduling Guide
@@ -95,10 +86,10 @@ Let's see how Contoso accomplishes the task:
    The availability of the resources is defined in the work hours section. 
 
    |Scheduling  |
-   |---------|---------|
-   |   ![set-work-hours](media/set-work-hours-csh.png)     |
+   |---------|
+   |   ![set-work-hours](media/set-work-hours-csh-1a.png)     |
    | [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set work hours for the resources](resources-service-scheduling.md#set-work-hours-for-the-resources)|
-   |   |         |
+   
   
 **Step 4: Create resource groups** </br>
    The resources are aligned in resource groups. 
@@ -156,7 +147,7 @@ The set up experience is different based on the following scenarios:
 - For an existing Dynamics 365 Customer Service organization, you must install the service scheduling solutions from the Microsoft 365 admin center. To learn more, see [Install the Scheduling solutions](#install-the-scheduling-solutions).
 
 > [!IMPORTANT]
-> Once you have the new service scheduling available in your org, the legacy scheduling experience in Customer Service app (based on web application) and the new scheduling experience (built atop URS) in Customer Service Hub co-exist. However, the following limitations apply: </br> - Bookings data and configurations in these experiences do not sync with each other. For example, a service created in legacy experience can be scheduled in legacy scheduling experience only while a service created in the new experience can be scheduled in URS based scheduling experience only.  </br> - You can edit bookings data and configurations in the experience it is originally created in. </br> </br> Bookings created in the legacy experience don’t reflect in the new experience and vice versa is also true.
+> Once you have the new service scheduling available in your org, the legacy scheduling experience in Customer Service app (based on web application) and the new scheduling experience (built atop URS) in Customer Service Hub co-exist. However, the following limitations apply: </br> - Bookings data and configurations in these experiences do not sync with each other. For example, a service created in legacy experience can be scheduled in legacy scheduling experience only while a service created in the new experience can be scheduled in URS based scheduling experience only.  </br> - You can edit bookings data and configurations in the experience it is originally created in. </br> </br> Bookings created in the legacy experience don't reflect in the new experience and vice versa is also true.
 
 ### Prerequisites
 
@@ -234,7 +225,7 @@ Scheduling entities are grouped under the following logical groups:
   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and set up bookable resources](resources-service-scheduling.md)
 
 - **Facilities/Equipment**  </br>
-   Facilities and equipment are resources you’d use to perform services for your customers. Facilities can be physical spaces like service bays or conference rooms and equipment could be tools or other assets. 
+   Facilities and equipment are resources you'd use to perform services for your customers. Facilities can be physical spaces like service bays or conference rooms and equipment could be tools or other assets. 
 
    [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add facilities and equipments to schedule service](add-facilities-equipment-ss-csh.md)
 
@@ -244,7 +235,7 @@ Scheduling entities are grouped under the following logical groups:
    [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and manage resource categories](resource-categories-service-scheduling.md)
 
 - **Services**  </br>
-   To make scheduling services quick and easy, it’s helpful to predefine the specifics of the services you’d provide to customers. 
+   To make scheduling services quick and easy, it's helpful to predefine the specifics of the services you'd provide to customers. 
 
    [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit a service](create-edit-service-csh.md)
 

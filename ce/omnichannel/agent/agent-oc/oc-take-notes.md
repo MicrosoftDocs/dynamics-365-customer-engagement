@@ -38,11 +38,9 @@ When you are working on multiple customer sessions, and while capturing notes, y
 
 Again, when you switch back to the session, launch the notes panel and take the notes. After you add the notes, these notes will be appended to the previously added notes in the timeline.
 
-> [!div class="nextstepaction"]
-> [Next topic: View conversation and session activity types in the model-driven apps](oc-view-activity-types.md)
-
 ## See also
 
+- [View conversation and session activity types in the model-driven apps](oc-view-activity-types.md)
 - [View Communication panel](oc-conversation-control.md)
 - [Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md)
 - [View customer summary and know everything about customers](oc-customer-summary.md)

@@ -3,7 +3,7 @@ title: "Use field security to control access to field values (Developer Guide fo
 description: "Provides field-level security to restrict access to high business impact (custom and OOB) fields to specific users and teams."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -31,8 +31,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 
 # Use field security to control access to field values

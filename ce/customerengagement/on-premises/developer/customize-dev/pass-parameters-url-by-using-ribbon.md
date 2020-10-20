@@ -3,7 +3,7 @@ title: "Pass parameters to a URL by using the ribbon (Developer Guide for Dynami
 description: "Learn about passing parameters to a URL by using the ribbon"
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -19,8 +19,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Pass parameters to a URL by using the ribbon
 

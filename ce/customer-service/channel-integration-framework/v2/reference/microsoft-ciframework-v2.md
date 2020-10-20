@@ -1,18 +1,16 @@
 ---
 title: "Microsoft.CIFramework (JavaScript API Reference) for Channel Integration Framework (CIF) version 2.0 | Microsoft Docs"
-description: ""
+description: "Read about the APIs of Dynamics 365 Channel Integration Framework"
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 12/10/2018
+ms.date: 02/28/2020
 ms.topic: reference
 ms.service: 
   - dynamics-365-customerservice
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
-applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
 ---
 
 # Microsoft.CIFramework methods (CIF JavaScript API reference)
@@ -84,6 +82,15 @@ Channel Analytics APIs enable you to track event analytics.
 |---------|-------------|
 | [initLogAnalytics](microsoft-ciframework/initLogAnalytics.md) | Invoke this method on an incoming conversation to log analytics.|
 | [logAnalyticsEvent](microsoft-ciframework/logAnalyticsEvent.md) | Invoke this method to log analytics for custom events.|
+
+## Session Indicator APIs
+
+Session indicator APIs indicate a KPI breach and can be used to update the number of new activities in a particular session.
+
+| Methods | Description |
+|---------|-------------|
+| [notifyKpiBreach](microsoft-ciframework/notifyKPIBreach.md) | This method is used to indicate a KPI breach. When this KPI is used, a red circle appears on the display image of the contact when a KPI breach has occurred.|
+| [notifyNewActivity](microsoft-ciframework/notifyNewActivity.md) | This method is used to update the number of new activities in a particular session.|
 
 ## Miscellaneous Methods
 

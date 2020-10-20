@@ -1,10 +1,10 @@
 ---
 title: "Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about Omnichannel for Customer Service."
-author: kabala123
-ms.author: kabala
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
-ms.date: 07/01/2019
+ms.date: 04/14/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -20,7 +20,7 @@ ms.topic: article
 
 <h2> Get started </h2>
 <li><a href="introduction-omnichannel.md" data-raw-source="[Omnichannel for Customer Service introduction](introduction-omnichannel.md)">Omnichannel for Customer Service introduction</a></li>
-<li><a href="system-requirements-omnichannel.md" data-raw-source="[Pre-requisites and system requirements](system-requirements-omnichannel.md)">Pre-requisites and system requirements</a></li>
+<li><a href="system-requirements-omnichannel.md" data-raw-source="[Pre-requisites and system requirements](system-requirements-omnichannel.md)">Prerequisites and system requirements</a></li>
 <li><a href="administrator/omnichannel-provision-license.md" data-raw-source="[Provision Omnichannel for Customer Service](administrator/omnichannel-provision-license.md)">Provision Omnichannel for Customer Service</a></li>
 <li><a href="administrator/upgrade-omnichannel.md" data-raw-source="[Upgrade Omnichannel for Customer Service](administrator/upgrade-omnichannel.md)">Upgrade Omnichannel for Customer Service</a></li>
 <li><a href="administrator/add-users-assign-roles.md" data-raw-source="[Assign roles and enable users](administrator/add-users-assign-roles.md)">Assign roles and enable users</a></li>
@@ -100,5 +100,13 @@ To orient yourself with Omnichannel for Customer Service, watch the videos that 
 
 </td>
 </tr>
+<tr>
+<td>
 
+<h2> Learn resources</h2>
+
+Find the right online training, in-person workshops, and events for your role in Omnichannel for Customer Service at [learn resources](https://docs.microsoft.com/learn/browse/?term=omnichannel).
+
+</td>
+</tr>
 </table>

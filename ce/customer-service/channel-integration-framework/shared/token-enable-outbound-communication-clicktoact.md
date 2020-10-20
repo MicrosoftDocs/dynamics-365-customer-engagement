@@ -1,3 +1,10 @@
+
+You can enable outbound communication by these two options.
+
+1. Using customizations on the phone control. Follow steps 1, 2, 3 and 4.
+2. Without any customizations. Follow steps 1, 3 and 4.
+
+
 To enable outbound communication for your channel, you must perform the following:
 
 - **Step 1:** In the channel provider configurations, set the **Enable Outbound Communication** field to **Yes**.
@@ -5,6 +12,8 @@ To enable outbound communication for your channel, you must perform the followin
 - **Step 2:** In the Unified Interface form, add the **Channel communication control** to the **Phone** field for which you want to enable outbound communication (ClickToAct), and publish the customizations.
 
 - **Step 3:** Register the addhandler in your JavaScript code using `Microsoft.CIFramework.addHandler("onclicktoact", <handlerFunction>)` 
+
+- **Step 4:** Select on the mobile phone icon to trigger the `onclicktoact` event.
 
 ## Step 1: Set the Enable Outbound Communication field value in the channel provider configuration
 
@@ -24,7 +33,7 @@ You can add the Channel Communication Control based on your organization and bus
 
 2. Go to **Settings** > **Customizations**.
 
-3. Expand **Entites** > **Contact** and select **Forms**.<br>
+3. Expand **Entities** > **Contact** and select **Forms**.<br>
 ![Expand contact entity and select forms](../media/contact-entity-forms.PNG "Expand contact entity and select forms")
 
 4. Select the **Contact** form of the **Main** type from the list.<br>
@@ -54,5 +63,15 @@ function initCTI() {
     log("Added clickToActhandler to the panel");
 }
 ```
+Make sure to add `initCTI`, which is an initialization method in the softphone sample code, in your own initialization code.
+
+## Step 4: Select the mobile phone icon to trigger the onclicktoact event
+
+Select the mobile phone icon to trigger the `onclicktoact` event, as shown below.
+
+|Mobile phone with customizations|Mobile phone icon without customizations|
+|----|----|
+|![Select the mobile phone icon to trigger the onclicktoact event](../media/custom-control-phone-icon.PNG "Select the mobile phone icon to trigger the onclicktoact event") |![Select the mobile phone icon to trigger the onclicktoact event](../media/oob-phone-icon.PNG "Select the mobile phone icon to trigger the onclicktoact event")|
+
 > [!Note]
 > Channel Integration Framework invokes the onclicktoact event only if you programmatically set the `setClickToAct` API to `true` or by configuring the **Enable Outbound Communication** to **Yes** in the channel provider configurations.
