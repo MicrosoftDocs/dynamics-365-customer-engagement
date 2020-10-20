@@ -3,7 +3,7 @@ title: "Predictive work duration and resource proficiency suggestions in Dynamic
 description: Learn about using predictive work duration reports in Dynamics 365 Field Service.
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 10/01/2020
+ms.date: 10/20/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
