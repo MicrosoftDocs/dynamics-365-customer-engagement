@@ -27,7 +27,7 @@ search.app:
   - D365FS
 ---
 
-# Predictive work duration reports in Dynamics 365 Field Service
+# Predictive work duration and resource proficiency suggestions in Dynamics 365 Field Service
 
 Field service dispatchers often assign a fixed duration for a job type, despite various factors that may impact the time required to complete the work. Using a fixed duration can potentially cause cascading delays or lower utilization, reducing the overall effectiveness of scheduling.
 
@@ -35,9 +35,10 @@ With predictive work duration, dispatchers can predict the duration of any given
 
 - Resource performance
 - Incident type
-- Customer location
+- Service account
+- Work order type
 - Territorial differences
-- Seasonal changes
+- Time-related changes
 
 Powered by artificial intelligence models, predictive work durations learn from historical booking completion times in order to compute a more realistic duration.
 
@@ -45,7 +46,7 @@ In this article, we'll take a look at how to setup and use predictive work durat
 
 ## Prerequisites
 
-- As of October 2020, this feature is in public preview. Turn turn on the preview, go to **Settings**. Under the **Analytics and insights** section, select **Settings** > 
+- As of October 2020, this feature is in public preview. To turn on the preview, go to **Settings**. Under the **Analytics and insights** section, select **Settings** > 
 **Enable Predictive Work Duration preview**. 
 - Enter a number in the **Minimum number of resources per territory** field to define how large a territory must be in order to be used in the report. Minimum number of resources in a territory lets you set restrictions on analyses and reports. If the value is set to 10, territories that have 10 or fewer resources will be excluded from territory analyses and reports; the limitation can help protect technician privacy.
 
@@ -76,13 +77,9 @@ Learn more about the metrics in the following sections.
 
 At the top of the report, you'll find a few ways to filter or slice the data.
 
-- **Date**: This filter sets the duration, which includes the following options:
-  - Last 3 months
-  - Last 6 months
-  - Last 1 year
-  - Last 2 years
-- **Territory**: This filter lists resource territories and filters resources.
-- **Incident type**: This filter lets you sort by a list of incident types.
+- **Date**: This filter lets you select the future date (next seven days).
+- **Territory**: This filter lets you select from the list of resource territories.
+- **Incident type**: This filter lets you select from the list of incident types.
 
 ### Key performance indicators (KPIs)
 
@@ -111,7 +108,7 @@ Within the charts previously listed, you'll find the following information.
 | Metric | Description |
 |--------|----------------------|
 | **Confidence** | How likely the actual duration will be close to the predicted duration. A higher score (closer to 100%) signifies a better chance of the prediction being correct, while lower score (close to 0%) means the prediction may be incorrect. |
-|**Prediction Factors** |  Insights into factors that were considered when predicting and how they affect the prediction. |
+|**Prediction Factors** |  Insights into factors that were considered when predicting the duration and how they affect the prediction. |
 
 ## Territory duration
 
@@ -154,8 +151,8 @@ The following charts can be found in the territory duration report.
 
 | Label | Description |
 |----------|----------|
-| **Booking volume** | 	Shows number of bookings over the chosen period.| 
-| **Booking duration**	| Compares over and under estimated bookings over the chosen period.
+| **Booking volume** | 	Shows number of bookings over the chosen filters (duration, territory, etc).| 
+| **Booking duration**	| Compares over and under estimated bookings over the chosen filters (duration, territory, etc).
 | **Customer metrics**	|  Shows bookings, difference, and over and under estimates by customer. | 
 | **Incident type metrics** | Shows jobs completed, estimated duration, average duration, difference, proficiency score, confidence, and proficiency factors by incident type. | 
 | **Territory** | Map that visualizes metrics by defined territories. | 
@@ -201,7 +198,7 @@ You'll find the following charts on the resource duration reports.
 | Metric | Description |
 |---------|-------------|
 | **Proficiency score** | A score indicating the likelihood of completing a booking within the estimated duration. A higher score indicates a high likelihood of completing a booking within the estimated duration and a lower score indicates vice-versa. |
-| **Confidence**  | How likely the proficiency score calculated from the samples is close to the true proficiency score. A higher score indicates the proficiency score being closer to the truth and a lower score indicates the proficiency score being farther away from the original.   |
+| **Confidence**  | How likely the proficiency score calculated from the samples is close to the true proficiency score. A higher score indicates the proficiency score being closer to the truth and a lower score indicates the proficiency score being farther away from the truth.   |
 | **Proficiency factors** | Summary of factors such as incident types, service accounts, day of week, and skills and rating match that contribute to the efficiency score. |
 
 ## Configuration considerations
