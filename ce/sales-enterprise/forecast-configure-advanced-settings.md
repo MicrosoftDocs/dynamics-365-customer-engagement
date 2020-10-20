@@ -41,14 +41,17 @@ As an administrator or forecast manager, you can select the option **Auto-hide p
 
 ## Enable multi-currency selection
 
-When your sales teams are distributed across different countries and viewing the forecast with default currency might cause confusion for users in other countries to analyze and understand forecast. By enabling the multi-currency selection option, sales teams have an option to choose and convert the forecast data in real time to their convenient currencies defined in their organization which help in better planning, organizing, and understanding the current forecast state.
+When your sales teams are distributed across different countries and viewing the forecast with default currency might cause confusion for users in other countries to analyze and understand forecast. By enabling the multi-currency selection option, sales teams have an option to choose and convert the forecast data in real time to their convenient currencies defined in your organization, which help in better planning, organizing, and understanding the current forecast state.
 
-For example, you have sales teams in the US and Europe. The default currency for your organization is defined as US Doller and also, Euro is defined as currency. When you create forecast with multi currency enabled, sales teams in Europe can see the forecast data in Euro and the conversion of currency happens in real time. When the data is adjusted based on Euro, the updated data will be converted into Doller in real time. 
+For example, you have sales teams in the US and Europe. The default currency for your organization is defined as US Dollar and also, Euro is defined as currency. When you create forecast with multi currency enabled, sales teams in Europe can see the forecast data in Euro and the conversion of currency happens in real time. When the data is adjusted based on Euro, the updated data will be converted into Dollar in real time. 
 
 > [!div class="mx-imgBorder"]
 > ![Select currency drop-down](media/forecast-multi-currency-select.png "Select currency drop-down")
 
 As an administrator or forecast manager, select the **Multi-currency selection** toggle under **Advanced** step of the forecast configuration to allow users to view the forecast data in any currency that are defined for your organization. 
+
+> [!div class="mx-imgBorder"]
+> ![Enable multi currency selection](media/forecast-multi-currency-enable.png "Enable multi currency selection")
 
 ## Customize underlying records
 
