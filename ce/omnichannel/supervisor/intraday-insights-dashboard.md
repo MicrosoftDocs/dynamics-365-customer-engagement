@@ -28,7 +28,7 @@ The information displayed in these sections are displayed based on the conversat
 
 The **Conversations insights** section provides insights on conversation requests that are generated in the past 24 hours with KPIs such as state of conversations and number of conversations.
 
-The following screen is an example of the **Conversations insights** section.
+The following screenshot is an example of the **Conversations insights** section.
 
 > [!div class=mx-imgBorder]
 > ![Conversations insights dashboard](../media/supervisor-conversations-insights-dashboard.png "Conversations insights dashboard")
@@ -39,7 +39,7 @@ This section of the dashboard consists of the following KPIs.
 |-------|-------|
 | Average wait time per conversation | For a conversation, its wait time is defined as the cumulative wait times of its individual sessions. This KPI is calculated as an average that considers only closed conversations. Session wait time is defined as the elapsed time between the session's creation and the time an agent is assigned. |
 | Exceeding 5 mins wait time | The number of conversations that are in an open status reason and have exceeded the time in the queue threshold of 5 minutes. |
-| Average handle time per conversation | For a conversation, its handle time is defined as the cumulative handle times of its individual sessions. This KPI is calculated as an average that considers only closed conversations. Session handle time is defined as the elapsed time between the session's creation and the time it is closed. More information: [Average handle time](#average-handle-time).|
+| Average handle time per conversation | For a conversation, its handle time is defined as the cumulative handle times of its individual sessions. Session handle time is defined as the elapsed time between the session's creation and the time it is closed. More information: [Average handle time](#average-handle-time).|
 | Exceeding 5 mins handle time | The number of active conversations that are exceeding the handle time threshold of five minutes. |
 | Conversation by status | The distribution of conversations across open, active, waiting, wrap up, and closed status reason. |
 | Open conversations | The distribution of open conversations in pick mode and push mode respectively. |
@@ -155,16 +155,19 @@ You can filter the information by selecting the Queues that are custom defined f
 
 ## Average handle time
 
-When agents interact with customers through various channels, for SMS and social channels, the conversation duration sometimes spans more than 24 hours that includes the active, inactive, and idle time. The conversation handle time in such cases can give a skewed representation when agents actively spend time on a session for only a few minutes and are simultaneously handling multiple customers.
+The average handle time for an agent is calculated based on the active time the agent spends in a session from the time the conversation is active till it is closed and includes the time the agents takes to wrap-up. When agents are concurrently handling multiple customers, and switch sessions, the active time for the previous session is paused and the active time for the current session resumes.
 
-To provide a realistic representation, the average handle time is calculated based on the time the agent actively spends in a session from the time the conversation is active till it is closed and includes the wrap-up time. When the average handle time is calculated for the agent, it takes into account only the active session time. The KPI does not include the wait time when the agent is inactive, idle, or handling another session simultaneously.
+If the agent spends time in providing consultation, it is included in the agent's average handle time. Similarly, for supervisors, the monitor time is included in the supervisor's average handle time.
 
-In a transfer scenario, the active time spent by all agents who are involved is summed up to compute the active handle time for the conversation. At the agent level, only the active time spent by the agent in the session is accounted for deriving any KPIs.
+The average handle time for a conversation is defined as the cumulative handle times of its individual sessions. The session handle times take into account only the active time of agents.
 
-The KPIs will be affected if expectations around the following activities are not set for agents:
+In a transfer scenario, the active time spent by all agents who are involved is summed up to compute the handle time for the conversation.
 
-- Agents should close the conversations at the end of their shift.
-- If agents change the computer time, the KPIs will be inaccurate.
+The average handle time will be accurately calculated if you ensure the following:
+
+- Agents close the sessions by selecting the close button at the end of their shift. More information: [Conversation in waiting status](../agent/agent-oc/oc-conversation-state.md).
+- Agents do not change the computer time.
+- Agents do not use incognito mode in Google Chrome or private browsing in Microsoft Edge.
 
 ### See also
 
