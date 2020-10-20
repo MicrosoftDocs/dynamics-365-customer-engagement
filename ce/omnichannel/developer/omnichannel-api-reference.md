@@ -1,6 +1,6 @@
 ---
 title: "Omnichannel JavaScript API Reference | Microsoft Docs"
-description: ""
+description: "Omnichannel JavaScript API Reference"
 author: platkat
 ms.author: ktaylor
 manager: shujoshi
