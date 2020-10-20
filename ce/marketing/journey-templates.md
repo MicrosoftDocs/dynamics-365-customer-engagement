@@ -1,7 +1,7 @@
 ---
 title: "Work with customer journey templates (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to save a customer journey as a template; create, edit, disable, enable, and delete new templates; and use templates to copy a customer journey in Dynamics 365 Marketing"
-ms.date: 03/08/2019
+ms.date: 10/19/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -11,7 +11,7 @@ author: alfergus
 ms.author: alfergus
 manager: shellyha
 ms.reviewer:
-topic-status: Drafting
+topic-status: 
 search.audienceType: 
   - admin
   - customizer
@@ -25,7 +25,7 @@ search.app:
 
 Each time you create a new customer journey, you're asked to select from a gallery of _customer journey templates_ that are available on your instance.
 
-![The customer journey template gallery](media/cj-template-gallery.png "The customer journey template gallery")
+![The customer journey template gallery](media/customer-journey-template.png "The customer journey template gallery")
 
 Each template is assigned a language and purpose, and you can filter the gallery by these values to make the template you're looking for easier to find. You can view details about any listed template by selecting it in the list.
 
@@ -45,23 +45,23 @@ To save an existing customer journey as a template:
 
 1. Select **Save as template** on the command bar.
 
-    ![Select 'Save as template" on the command bar](media/cj-template-save-as.png "Select 'Save as template' on the command bar")
+    ![Select 'Save as template" on the command bar](media/journey-templates-save.png "Select 'Save as template' on the command bar")
 
 1. A quick-create form opens at the side of the window.
 
-    ![Customer journey quick-create form](media/cj-template-quick-create.png "Customer journey quick-create form")
+    ![Customer journey quick-create form](media/journey-templates-quick-create.png "Customer journey quick-create form")
 
     Make the following settings:
 
-    - **Name** : Specify a name for the template. Users will see this name when selecting the template from the template gallery on creating a new journey.
-    - **Owner** : Specify the user that owns the template (by default, this will be you). This can affect which other users will be able to see and use the template.
-    - **Purpose** : Select the word that best describes how and where to use this template. Users can filter the template gallery based on this value to make it easier to find in the right template.
-    - **Target** : Choose whether this template should [target contacts or accounts](customer-journeys-create-automated-campaigns.md#general-options). This value is taken from the current customer journey that you are saving as a template.
-    - **Language** : Chose the language the template is in. Users can filter the template gallery based on this value to make it easier to find in the right template.
-    - **Description** : Enter a brief description of the template and what it's for. This description is shown in the template gallery when a template is selected.
-    - **Is recurring** : Choose whether the template should create a [recurring journey](customer-journeys-create-automated-campaigns.md#general-options) or not. This value is taken from the current customer journey that you are saving as a template.
+    - **Name**: Specify a name for the template. Users will see this name when selecting the template from the template gallery on creating a new journey.
+    - **Owner**: Specify the user that owns the template (by default, this will be you). This can affect which other users will be able to see and use the template.
+    - **Purpose**: Select the word that best describes how and where to use this template. Users can filter the template gallery based on this value to make it easier to find in the right template.
+    - **Target**: Choose whether this template should [target contacts or accounts](customer-journeys-create-automated-campaigns.md#general-options). This value is taken from the current customer journey that you are saving as a template.
+    - **Language**: Choose the language the template is in. Users can filter the template gallery based on this value to make it easier to find in the right template.
+    - **Description**: Enter a brief description of the template and what it's for. This description is shown in the template gallery when a template is selected.
+    - **Is recurring**: Choose whether the template should create a [recurring journey](customer-journeys-create-automated-campaigns.md#general-options) or not. This value is taken from the current customer journey that you are saving as a template.
 
-1. Select **Save** to create your template.
+1. Select **Save and Close** to create your template.
 
 ## Create a new template from scratch
 
@@ -95,6 +95,6 @@ To reactivate an inactive template:
 
 1. Open the system-view selector and switch to the **Inactive customer journey templates** view.
 
-    ![The system-view selector](media/cj-template-form-view.png "The system-view selector")
+    ![The system-view selector](media/journey-templates-inactive.png "The system-view selector")
 
 1. Mark the template that you want to reactivate by selecting any part of the row other than the template name. Then select **Activate** on the command bar. This moves the selected template back to the **Active customer journey templates** system view and will also make it available in the customer journey template gallery.
