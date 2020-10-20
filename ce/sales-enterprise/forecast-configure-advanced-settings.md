@@ -19,7 +19,7 @@ Using the **Advanced** step, you can configure the following for a forecast:
 
 ## Automatically hide parent row
 
-When you open a forecast, each parent node has a dedicated contributor row under the tree where individual simple columns such as quota and revenue contribution are shown. For certain organizations, these dedicated contributor rows might have null value simple columns with no revenue contributions. With **Advanced** settings, you can hide these dedicated contributor rows of parent node.
+When you open a forecast, each parent node has a dedicated contributor row under the tree where individual simple columns, such as quota, and revenue contribution are shown. For certain organizations, these dedicated contributor rows might have null value simple columns with no revenue contributions. With **Advanced** settings, you can hide these dedicated contributor rows of parent node.
 
 For example, you have configured a forecast based on **User** hierarchy. When the manager **Kenny Smith**, opens the forecast, he can see a row dedicated for himself with null values along with other users, though he doesn’t have any associated opportunities including simple columns. 
 
@@ -41,10 +41,18 @@ As an administrator or forecast manager, you can select the option **Auto-hide p
 
 ## Enable multi-currency selection
 
+When your sales teams are distributed across different countries and viewing the forecast with default currency might cause confusion for users in other countries to analyze and understand forecast. By enabling the multi-currency selection option, sales teams have an option to choose and convert the forecast data in real time to their convenient currencies defined in their organization which help in better planning, organizing, and understanding the current forecast state.
+
+For example, you have sales teams in the US and Europe. The default currency for your organization is defined as US Doller and also, Euro is defined as currency. When you create forecast with multi currency enabled, sales teams in Europe can see the forecast data in Euro and the conversion of currency happens in real time. When the data is adjusted based on Euro, the updated data will be converted into Doller in real time. 
+
+> [!div class="mx-imgBorder"]
+> ![Select currency drop-down](media/forecast-multi-currency-select.png "Select currency drop-down")
+
+As an administrator or forecast manager, select the **Multi-currency selection** toggle under **Advanced** step of the forecast configuration to allow users to view the forecast data in any currency that are defined for your organization. 
 
 ## Customize underlying records
 
-You can customize the underlying records, by adding a JavaScript library. The customizations include disable fields based on a logic, prevent autosave of fields, and set error notification for the fields. Before you upload, the JavaScript library must be created as per the schemas defined in [events and context object](../sales-enterprise/developer/reference/custom-actions/events-context.md). 
+You can customize the underlying records by adding a JavaScript library. The customizations include disable fields based on a logic, prevent autosave of fields, and set error notification for the fields. Before you upload, the JavaScript library must be created as per the schemas defined in [events and context object](../sales-enterprise/developer/reference/custom-actions/events-context.md). 
 
 To create and upload a JavaScript library, follow these steps:
 
@@ -91,7 +99,7 @@ To create and upload a JavaScript library, follow these steps:
 3.	Upload the JavaScript library to forecast configuration.
     
     >[!NOTE]
-    >At a time, you can have only one JavaScript file for a forecast. To upload a new file, you must remove the existing file and then upload. Also, you can upload the file anytime to a forecast.
+    >You can have only one JavaScript file at a time for a forecast. To upload a new file, you must first remove the existing file. You can upload a file to a forecast at any time.
     
     1.	In the forecast configuration page, go to the **Advanced** step and under **Customize underlying records** section, select **Add a javascript library**.
 

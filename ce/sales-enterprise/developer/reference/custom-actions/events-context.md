@@ -22,9 +22,17 @@ Events occur in forecasting for underlying records grid whenever a grid loads, d
 - [OnSave](#onsave-event)
 - [OnChange](#onchange-event)
 
+The following samples scenarios are created based on the supported event handlers:
+
+-	[Make grid read-only by disabling all fields](#make-grid-read-only). 
+-	[Always enable only few fields based on entity](#always-enable-only-few-fields-based-on-entity).
+-	[Disable editing of fields based on logic and entity](#disable-editing-of-fields-based-on-logic-and-entity).
+-	[Show error notification based on value](#show-error-notification-based-on-revenue-value). 
+-	[Block autosave based on estimated value using preventDefault and open a window event](#block-autosave-based-on-estimated-revenue-value). 
+
 ### OnRowLoad event
 
-The `OnRowLoad` event is triggered for every underlying record of the selected forecast cell. The context object that is passed to `OnRowLoad` event handler contains APIs that are specific to the underlying record and gets invoked for all underlying records of the selected cell. 
+The `OnRowLoad` event is triggered for every underlying record loaded in the grid. The context object that is passed to `OnRowLoad` event handler contains APIs that are specific to the underlying record. 
 
 The following are the sample scenarios that you can perform using `OnRowLoad` handler:
 
@@ -46,7 +54,7 @@ The `OnChange` event is triggered when value of a cell of forecasting editable g
 
 The following is a sample scenario that you can perform using `OnChange` handler:
 
--	[Show error notification based on revenue value](#show-error-notification-based-on-revenue-value). 
+-	[Show error notification based on value](#show-error-notification-based-on-revenue-value). 
 
 ### OnSave event
 
@@ -61,7 +69,7 @@ The `OnSave` handler is invoked before the actual save of field.
 
 The following is a sample scenario that you can perform using `OnSave` handler:
 
--	[Block autosave based on estimated revenue value using preventDefault](#block-autosave-based-on-estimated-revenue-value). 
+-	[Block autosave based on estimated value using preventDefault and open a window event](#block-autosave-based-on-estimated-revenue-value). 
 
 ## Context object for event handlers in editable grid
 
