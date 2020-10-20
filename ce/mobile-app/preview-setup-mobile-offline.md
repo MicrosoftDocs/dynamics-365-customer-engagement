@@ -37,20 +37,27 @@ This offline experience uses [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-
 > [!IMPORTANT]
 > The set-up and configuration process for mobile offline is the same for [Power Apps mobile](https://docs.microsoft.com/powerapps/mobile/run-powerapps-on-mobile) and Dynamics 365 for phones and tablets app. To enable mobile offline synchronization for Power Apps mobile or Dynamics 365 mobile, follow the steps in this toipc.
 
-## Install Dynamics 365 for phones and tablets app
+# Install the mobile app
 
-Mobile offline for the Dynamics 365 mobile app is currently available for iOS and Android devices. To use the mobile offline feature, download the latest version of the Dynamics 365 mobile app for your phone or tablet from the app store. 
+Mobile offline is currently available for iOS and Android devices. To use the mobile offline feature, download the latest version of the mobile app from the app store. 
+
+### Install Dynamics 365 phones and table app (for customer engagement apps in Dynamics 365 )
+
+For customer engagement apps in Dynamics 365 (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing, and Dynamics 365 Project Service Automation) install the [install the Dynamics 365 phones and table app](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets#install-the-app-from-your-devices-app-store).
+
+These are the supported devices to use mobile offline:
 
 - For iOS, version 13.19043.32 or later is supported.
-- for Android, version 4.3.19043.33 or later supported. 
+- for Android, version 4.3.19043.33 or later supported.
 
-To install the app, see [Install the app from your device’s app store](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets#install-the-app-from-your-devices-app-store).
+> [!NOTE]
+> - The offline feature isn't supported for Dynamics 365 Customer Engagement (on-premises). 
 
-## Install Power Apps mobile app
+### Install Power Apps mobile app (for Power Apps)
+
+For model-drvien app and canvas apps [Install the Power Apps mobile app](https://docs.microsoft.com/powerapps/mobile/run-powerapps-on-mobile#install-the-power-apps-mobile-app).
 
 For information on supported devices for Power Apps mobile app, see [Supported devices](https://docs.microsoft.com/powerapps/mobile/run-powerapps-on-mobile#supported-devices).
-
-To install the app, see [Install the Power Apps mobile app](https://docs.microsoft.com/powerapps/mobile/run-powerapps-on-mobile#install-the-power-apps-mobile-app).
 
 
 ## Step 1: Enable entities for mobile offline synchronization 
