@@ -35,7 +35,7 @@ With predictive work duration, dispatchers can predict the duration of any given
 
 - Resource performance
 - Incident type
-- Service account
+- Customer (service account)
 - Work order type
 - Territorial differences
 - Time-related changes
@@ -48,7 +48,7 @@ In this article, we'll take a look at how to setup and use predictive work durat
 
 - As of October 2020, this feature is in public preview. To turn on the preview, go to **Settings**. Under the **Analytics and insights** section, select **Settings** > 
 **Enable Predictive Work Duration preview**. 
-- Enter a number in the **Minimum number of resources per territory** field to define how large a territory must be in order to be used in the report. Minimum number of resources in a territory lets you set restrictions on analyses and reports. If the value is set to 10, territories that have 10 or fewer resources will be excluded from territory analyses and reports; the limitation can help protect technician privacy.
+- Enter a number in the **Minimum number of resources per territory** field. Minimum number of resources in a territory lets you set restrictions on analyses and reports. If the value is set to 10, territories that have 10 or fewer resources will be excluded from territory analyses and reports; the limitation can help protect technician privacy.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the predictive work duration preview settings.](./media/analytics-work-duration-settings.png)
