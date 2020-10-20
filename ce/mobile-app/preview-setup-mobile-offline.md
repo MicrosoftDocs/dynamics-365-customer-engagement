@@ -1,7 +1,7 @@
 ---
 title: "Preview: Configure mobile offline synchronization | MicrosoftDocs"
 ms.custom: Configure mobile offline synchronization in Dynamics 365 for phones and tablets
-ms.date: 10/14/2020
+ms.date: 10/30/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -23,10 +23,7 @@ search.app:
 ---
 
 
-# Preview: Configure mobile offline synchronization 
-
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+# Configure mobile offline synchronization 
 
 
 Set up mobile offline synchronization to allow users to work in offline mode on their mobile device. Mobile offline allows your users to use the mobile app in offline mode to interact with their data, even when they are not connected to the internet. 
