@@ -40,17 +40,22 @@ The following historical reports are available:
 
 Make sure that you have administrator permissions for Dynamics 365.
 
-### Enable Customer Service analytics reports
+### Enable Customer Service historical analytics reports
 
 1. Sign in to Dynamics 365 as an administrator, and go to Customer Service Hub.
+
 2. In the **Change area**, select **Service Management**.
+
 3. Under **Analytics and Insights**, select **Settings**. The **Analytics and insights settings** page is displayed.
 
     > [!div class=ms-imgBorder]
     > ![Customer Service analytics installation](media/cs-analyticsinsights-configure.png "Enable Customer Service analytics")
 
 4. On the right side of **Customer Service historical analytics (preview)**, select **Manage**.
+
 5. On the **Customer Service historical analytics** page, toggle **Status** to **Enabled**.
+
+6. Select **Save** or **Save & Close**.
 
 This configuration will enable AI-discovered topics from cases with default settings.
 
@@ -64,6 +69,24 @@ You can see the following reports by navigating to the **Service** > **Analytics
 - [Summary report](customer-service-analytics.md#1-summary)
 - [Agent report](customer-service-analytics.md#2-agent-and-queue)
 - [Topics report](customer-service-analytics.md#3-topics)
+
+
+### Enable Knowledge search analytics (preview)
+
+1. Sign in to Dynamics 365 as an administrator, and go to Customer Service Hub.
+
+2. In the **Change area**, select **Service Management**.
+
+3. Under **Analytics and Insights**, select **Settings**. The **Analytics and insights settings** page is displayed.
+
+    > [!div class=ms-imgBorder]
+    > ![Enable knowledge search analytics](media/cs-analyticsinsights-configure.png "Enable knowledge search analytics")
+
+4. On the right side of **Knowledge search analytics (preview)**, select **Manage**.
+
+5. On the **Knowledge search analytics (preview)** page, toggle **Status** to **Enabled**.
+
+6. Select **Save** or **Save & Close**.
 
 
 ### See also
