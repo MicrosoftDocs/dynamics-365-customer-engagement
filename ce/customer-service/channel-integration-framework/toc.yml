@@ -128,11 +128,7 @@
     - name: How-to
       items:
       - name: "Configure channel provider for your Dynamics 365 organization"
-        items:  
-        - name: Configure channel provider  
-          href: v2/configure-channel-provider-channel-integration-framework.md
-        - name: (Preview) Configure channel provider using app profile manager
-          href: v2/configure-channel-provider-app-profile-manager.md
+        href: v2/configure-channel-provider-app-profile-manager.md
       - name: "Enable outbound communication (ClickToAct)"
         href: v2/enable-outbound-communication-clicktoact.md
       - name: "Add Channel Integration Framework solution as a dependent solution"
