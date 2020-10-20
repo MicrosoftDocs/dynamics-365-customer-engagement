@@ -76,6 +76,21 @@ For example, you created a forecast by using the **Org chart forecast** template
 
 To see the rolled-up forecast for everyone in the hierarchy, expand a specific forecast.
 
+## Select a currency
+
+When your sales teams are distributed across different geographies and viewing the forecast with organization's base currency might cause confusion for users in other geographies to analyze and understand forecast. The multi-currency selection option helps the sales teams to choose and convert the forecast data in real time based on the latest conversation rate to their convenient currencies defined in your organization, which help in better planning, organizing, and understanding the current forecast state.
+
+>[!NOTE]
+>The real time conversation of forecast data always takes place based on the latest conversation rate defined in your organization. 
+
+For example, you have sales teams in the US and Europe. The base currency for your organization is defined as US Dollar and also, Euro is defined as one of the currencies. When you create forecast with multi currency enabled, sales teams open the forecast the data is displayed in Dollar. Sales teams in Europe can select currency as Euro and the forecast data is displayed in Euro. The conversion of currency happens in real time based on the current conversation rate. Also, manual adjustments can be made on the chosen currency. 
+
+> [!div class="mx-imgBorder"]
+> ![Select currency drop-down](media/forecast-multi-currency-select.png "Select currency drop-down")
+
+>[!NOTE]
+>Administrator or forecast manager must enable the option to select currency. More information: [Enable multi-currency selection](forecast-configure-advanced-settings.md#enable-multi-currency-selection)
+
 ## Tasks you can do on the forecast grid
 
 Using the forecast grid, you can do the following tasks:
