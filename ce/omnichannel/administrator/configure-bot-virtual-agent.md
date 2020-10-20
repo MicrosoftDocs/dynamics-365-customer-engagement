@@ -5,8 +5,7 @@ author: platkat
 ms.author: ktaylor
 manager: shujoshi
 ms.date: 10/12/2020
-ms.service: 
-  "dynamics-365-customerservice"
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ---
 
@@ -99,7 +98,7 @@ Ensure to map the routing rules to the correct queues so that the queries are ro
 
 ## Configure context variables for a bot
 
-Before customers initiate a conversation, the context of the activities they perform can be made available for the bot to intelligently provide responses and handle the conversations. You can configure context variables for the bot in Power Virtual Agents. For information on context variables that can be configured, see [Context variables](context-variables-for-bot.md).
+When customers initiate a conversation, the relevant context related to thee customer, the issue they are facing, and recent activities performed by them can be made available for the bot to intelligently provide contextual responses to resolve customer issues in a quick and efficient manner. For example, the bot can use the logged in user information to look up recent case information or order history of the customer and provide a response. Similarly, the pre-conversation information, custom context, or recent pages browsed on a website by the customer can be passed on to the bot by configuring context variables for the bot in Power Virtual Agents. For information on context variables that can be configured, see [Context variables](context-variables-for-bot.md).
 
 In Power Virtual Agents, do the following:
 

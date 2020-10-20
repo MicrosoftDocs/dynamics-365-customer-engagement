@@ -5,8 +5,7 @@ author: neeranelli
 ms.author: nenellim
 manager: shujoshi
 ms.date: 10/12/2020
-ms.service: 
-  "dynamics-365-customerservice"
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ---
 
@@ -18,13 +17,16 @@ This topic lists the context variables that you can configure for a bot in Power
 
 ## Context variables
 
-The following table contains the keys that can help configure the context variables. Make sure the key names are used as is when authoring flows in Power Virtual Agents or Azure bots.
+The following table contains the names that can help you configure the context variables.
 
-|Scenarios|Keys|Description|Data type|
+> [!IMPORTANT]
+> Make sure the names are not changed and used as is when you are authoring flows in Power Virtual Agents or Azure bots.
+
+| Scenario | Name | Description | Data type |
 |-----|-----|-------|-------|
-|Prechat |Customer creates the variable. Admin needs to use the same name as the variable created while authoring flows in  Power Virtual Agents or Azure bots.|The context variables for pre-conversation answers store the customer answers for questions in the pre-conversation survey. |String|
-|Custom Context – (Livechat SDK set context provider) |Customer creates the variable.|These are custom context variables that can be created and passed through the Livechat SDK. | String|
-|Liveworkitem ID |msdyn_liveworkitemid|This context variable contains the conversation ID for the ongoing conversation and can be used to fetch and perform operations on the record in common data service.|String|
+| Pre conversation | Customer creates the variable. | The context variables for pre-conversation answers store the customer answers for questions in the pre-conversation survey. |String |
+| Custom Context – (Livechat SDK set context provider) | Customer creates the variable. | These are custom context variables that can be created and passed through the Livechat SDK. | String |
+| Liveworkitem ID |msdyn_liveworkitemid|This context variable contains the conversation ID for the ongoing conversation and can be used to fetch and perform operations on the record in common data service.|String|
 |Authenticated chat Record identification – Contact|msdyn_contact_msdyn_ocliveworkitem_Customer|This context variable contains the record ID for the customer (contact or account) record that is linked to the conversation. If this variable is set, the customer will be linked to the conversation post flush.|String|
 |Record identification – Case|msdyn_incident_msdyn_ocliveworkitem| This context variable contains the record ID for the case record that is linked to the conversation. If this variable is set, the case will be linked to the conversation post flush.|String|
 |Engagement Context |msdyn_msdyn_ocliveworkitem_<br>msdyn_livechatengagementctx_liveworkitemid|These context variables contain information, such as the browser type and language that is passed when the conversation is initiated. |String|

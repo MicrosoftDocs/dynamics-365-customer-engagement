@@ -36,7 +36,7 @@ When you enable sound settings, the options to personalize settings are availabl
 
    - **Play Sound:** Set the toggle to **Yes**.
    - **Repeat until answered:** Set the toggle to **Yes** if you want the sound to be played till the agent responds.
-   - **Sound:** Accept the default setting or search and select a different audio file. You can use the **New Audio File** option to upload and use an audio file of your choice. You also have the option to test and listen the audio file before finalizing on setting it as the audio.
+   - **Sound:** Accept the default setting or search and select a different audio file. You can use the **New Audio File** option to upload and use an audio file of your choice. You also have the option to preview the audio.
    - **Volume:** Accept the default setting or use the slider to adjust the volume.
 
      > ![Sound notification settings](../media/sound-notification-settings.png "Sound notification settings")
