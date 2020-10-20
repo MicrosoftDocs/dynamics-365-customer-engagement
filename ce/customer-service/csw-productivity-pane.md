@@ -27,7 +27,7 @@ The productivity pane in the Customer Service workspace is an auxiliary work are
 Currently, the productivity pane includes controls to help agents quickly view and interact with relevant AI-generated knowledge articles and similar cases suggestions for the case they are working on, work with agent scripts and macros, and search for knowledge base articles.
 
 > [!Important]
-> - The productivity pane only displays information (for example, knowledge article and similar case suggestions) for the first tab (referred to as the anchor tab) of an active case session.
+> The productivity pane only displays information (for example, knowledge article and similar case suggestions) for the first tab (referred to as the anchor tab) of an active case session.
 
 ![Productivity pane](media/csw-productivity-pane.png "View of the productivity pane")
 
@@ -58,7 +58,7 @@ Smart assist displays the relevant suggestions as individual cards that are grou
 ## Agent scripts and macros 
 
 > [!Important]
-> - In the out-of-box Customer Service workspace application, you must first create a custom profile before you can enable agent scripts. Only the Smart assist and knowledge article search functions are available in the out of box experience.
+> - In the out-of-box Customer Service workspace application, you must first create a custom profile before you can enable agent scripts. Only the Smart assist and knowledge article search functions are available in the out of box experience. For information about creating custom profiles, see [Overview of app profile manager](https://docs.microsoft.com/dynamics365/app-profile-manager/overview).
 
 Agent scripts in Customer Service workspace help provide guidance for what you should do when they have a customer issue, and helps ensure that you share only accurate and company-endorsed information. These scripts help you to be accurate and effective while also being faster and more efficient in terms of customer handling. For more information, see [Guide agents with scripts](https://docs.microsoft.com/dynamics365/app-profile-manager/agent-scripts).
 
