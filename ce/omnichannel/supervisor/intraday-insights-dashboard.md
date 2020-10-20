@@ -4,9 +4,8 @@ description: "Learn about the intraday insights dashboard for supervisors"
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 10/12/2020
-ms.service: 
-  "dynamics-365-customerservice"
+ms.date: 10/20/2020
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ---
 
@@ -16,8 +15,8 @@ ms.topic: article
 
 The Omnichannel intraday insights dashboard provides information about the health and key performance indicators (KPIs) for your organization. This dashboard consists of two sections:
 
--	[Conversations insights](#conversations-insights)
--	[Agent insights](#agent-insights)
+- [Conversations insights](#conversations-insights)
+- [Agent insights](#agent-insights)
 
 The information displayed in these sections are displayed based on the conversations closed in the last 24 hours and refreshes every 15 minutes.
 
@@ -40,10 +39,11 @@ This section of the dashboard consists of the following KPIs.
 |-------|-------|
 | Average wait time per conversation | For a conversation, its wait time is defined as the cumulative wait times of its individual sessions. This KPI is calculated as an average that considers only closed conversations. Session wait time is defined as the elapsed time between the session's creation and the time an agent is assigned. |
 | Exceeding 5 mins wait time | The number of conversations that are in an open status reason and have exceeded the time in the queue threshold of 5 minutes. |
-| Average handle time per conversation | For a conversation, its handle time is defined as the cumulative handle times of its individual sessions. This KPI is calculated as an average that considers only closed conversations. Session handle time is defined as the elapsed time between the session's creation and the time it is closed. |
+| Average handle time per conversation | For a conversation, its handle time is defined as the cumulative handle times of its individual sessions. This KPI is calculated as an average that considers only closed conversations. Session handle time is defined as the elapsed time between the session's creation and the time it is closed. More information: [Average handle time](#average-handle-time).|
 | Exceeding 5 mins handle time | The number of active conversations that are exceeding the handle time threshold of five minutes. |
 | Conversation by status | The distribution of conversations across open, active, waiting, wrap up, and closed status reason. |
 | Open conversations | The distribution of open conversations in pick mode and push mode respectively. |
+|||
 
 ## Agent insights
 
@@ -59,7 +59,7 @@ This section of the dashboard consists of the following KPIs.
 | KPI | Description |
 |-------|-------|
 | Agent availability | The distribution of agents by presence status. The presence status of agents can be available, busy, busy-do not disturb, away, offline, or your custom defined status. |
-| Average handle time per session | The average time that an agent takes to handle a session for conversation. |
+| Average handle time per session | The average time that an agent takes to handle a session for conversation. More information: [Average handle time](#average-handle-time). |
 | Average response time per session | The average time that an agent takes to accept a conversation from when assigned. |
 | Agent sessions abandon rate | The percentage of conversation sessions abandoned by agents due to timed-out or rejected requests. |
 | Agents with longest handle time | The list of agents with highest handle time. |
@@ -84,9 +84,10 @@ This section of the dashboard consists of the following KPIs.
 |-------|-------|
 | Agent status | The availability status of the agent. |
 | Conversation status reason | The status of the latest conversation between the agent and a customer. | 
-| Avg handle time per session | The agent’s average amount of time per session. |
+| Avg handle time per session | The agent’s average amount of time per session. More information: [Average handle time](#average-handle-time).|
 | Avg response time per session | The agent’s average amount of response time. | 
 | Participation mode | The split of sessions which are of three types: Primary indicates the agent who's assigned to the session, Consult indicates agents who are engaged in a consulting session, and supervisors who are monitoring are treated as Monitor sessions. |
+|||
 
 You can filter on a specific queue or set of queues to view more specific information about an agent or group of agents, and if needed, modify their presence. You can also hover over an agent’s name and a pop-up dialog will display, showing details such as the agent’s presence, their current conversations, and the sentiments of those conversations.
 
@@ -104,7 +105,8 @@ This section of the dashboard consists of the following KPIs.
 | Available capacity | The current free capacity with the agent. |
 | Total capacity | The total capacity configured for an agent. |
 | Ongoing Conversations | All the conversations that are currently in active, waiting or wrap-up status reason. |
-| Avg handle time (min) | The average of an individual agent's handle time in minutes for all closed conversations that the agent is involved in. |
+| Avg handle time (min) | The average of an individual agent's handle time in minutes for all closed conversations that the agent is involved in. More information: [Average handle time](#average-handle-time). |
+|||
 
 You can also view specific details about an agent by right-clicking the agent's name, and then selecting **Drill through** > **Agent details**, as shown on the following screen.
 
@@ -122,7 +124,7 @@ This section of the dashboard consists of the following details:
 |-------|-------|
 | Status | The agent's current presence: available, offline, do not disturb, or busy. |
 | Status since | The amount of time that this agent has been in their current presence. |
-| Available capacity | The agent's current free capacity. | 
+| Available capacity | The agent's current free capacity. |
 | Total capacity | The total capacity configured for an agent. |
 | Logged in duration 24 hrs | The total duration for which the agent had been logged in during the past 24 hours.|
 |Logged off duration 24 hrs | The total duration for which the agent had been logged out during the past 24 hours. |
@@ -131,17 +133,18 @@ This section of the dashboard consists of the following details:
 | Queues | The queues that the agent is mapped to. |
 | Skills | The skills that are assigned to the agent.|
 | Conversation status reason | The status of the latest conversation between the agent and a customer. | 
-| Avg handle time per session | The agent’s average amount of time per session. |
+| Avg handle time per session | The agent’s average amount of time per session. More information: [Average handle time](#average-handle-time). |
 | Logged in states duration | The agent's presence when the agent is logged on. The state reflects the base presence and not the custom presence.|
 | Subject | For an identified customer, the customer's name is displayed with the subject. For unidentified customers, static text is displayed with a "Visitor" label. For information about identified customers, see [Automatically identify customers](../administrator/record-identification-rule.md). |
 | Participation mode | Primary indicates that agent is engaged in a session. Consult means the agent is engaged in a consulting session with another agent. Monitor means this agent is monitoring the session. |
-| Workstream | The workstream that the conversation is assigned to. |
+| Workstream | The work stream that the conversation is assigned to. |
 | Channel | The channel that the conversation was created from. |
 | Queue | The queue that the conversation is currently part of. |
 | Status reason | The current conversation status. |
 | Customer sentiment | The current sentiment. |
 | Created on | The conversation creation time. |
 | Capacity and status timeline | Every change in capacity or status is plotted on the timeline. Negative capacity is displayed if a supervisor assigns a conversation to an agent that is beyond the agent's available capacity. |
+|||
 
 ## View and filter report
 
@@ -150,7 +153,18 @@ You can filter the information by selecting the Queues that are custom defined f
 > [!div class=mx-imgBorder]
 > ![Queue selection](../media/supervisor-queue-selector.png "Queue selection")
 
+## Average handle time
 
+When agents interact with customers through various channels, for SMS and social channels, the conversation duration sometimes spans more than 24 hours that includes the active, inactive, and idle time. The conversation handle time in such cases can give a skewed representation when agents actively spend time on a session for only a few minutes and are simultaneously handling multiple customers.
+
+To provide a realistic representation, the average handle time is calculated based on the time the agent actively spends in a session from the time the conversation is active till it is closed and includes the wrap-up time. When the average handle time is calculated for the agent, it takes into account only the active session time. The KPI does not include the wait time when the agent is inactive, idle, or handling another session simultaneously.
+
+In a transfer scenario, the active time spent by all agents who are involved is summed up to compute the active handle time for the conversation. At the agent level, only the active time spent by the agent in the session is accounted for deriving any KPIs.
+
+The KPIs will be affected if expectations around the following activities are not set for agents:
+
+- Agents should close the conversations at the end of their shift.
+- If agents change the computer time, the KPIs will be inaccurate.
 
 ### See also
 
