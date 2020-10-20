@@ -17,7 +17,7 @@ manager: shujoshi
 
 ## Events for underlying records grid
 
-Events occur in forecasting for underlying records grid whenever a grid loads, data is changed, or saved. You can execute the JavaScript code by associating it with a handler when the event occurs. The following events are supported in forecasting:
+Events occur in forecasting for underlying records grid whenever a grid loads, data is changed, or saved. The application executes JavaScript code by associating it with a handler when the event occurs. The following events are supported in forecasting:
 - [OnRowLoad](#onrowload-event)
 - [OnSave](#onsave-event)
 - [OnChange](#onchange-event)
@@ -33,16 +33,16 @@ The following are the sample scenarios that you can perform using `OnRowLoad` ha
 -	[Disable editing of fields based on logic and entity](#disable-editing-of-fields-based-on-logic-and-entity).
 
 >[!NOTE]
->For forecast configuration, underlying records of different entities are viewed by selecting **Groupby** attribute in forecasting editable grid. Hence, to handle logic based on entities, see samples, [Always enable only few fields based on entity](#always-enable-only-few-fields-based-on-entity) and [Disable editing of fields based on logic and entity](#disable-editing-of-fields-based-on-logic-and-entity).
+>For forecast configuration, underlying records of different entities are viewed by selecting **Groupby** attribute in forecasting editable grid. To handle logic based on these entities, see samples [Always enable only few fields based on entity](#always-enable-only-few-fields-based-on-entity) and [Disable editing of fields based on logic and entity](#disable-editing-of-fields-based-on-logic-and-entity).
 
 ### OnChange event
 
-The `OnChange` event is triggered when a value is changed in a cell of forecasting editable grid or the cell is out of focus.
+The `OnChange` event is triggered when value of a cell of forecasting editable grid is updated and the cell is out of focus.
 
 >[!NOTE]
 >- For forecasting editable grid, any field change will trigger `OnChange` and `OnSave` event handlers, if exists.
->- The save will not be triggered if a field is set with an error notifications using the client API in `OnChange` handler. For notification related to forecasting client APIs, see [context.getFormContext().data.entity.attributes.getByName("Attribute Name").controls.get(0)](#context.getformcontext-data-entity-attributes-getbyname-controls-get).
->- As there is no mapping between attribute to `OnChange` handler, any field change can trigger `OnChange` handler with context object parameter. To identify the attribute that triggered the handler, use `getIsDirty` function on attribute object. More information: [context.getFormContext().data.entity.attributes.getByName("Attribute Name")](#context-getformcontext-data-entity-attributes-getbyname)
+>- The save will not be triggered if a field is set with an error notifications using the client API in `OnChange` handler. For notification related to forecasting client APIs, see `setNotification` API in [context.getFormContext().data.entity.attributes.getByName("Attribute Name").controls.get(0)](#context.getformcontext-data-entity-attributes-getbyname-controls-get).
+>- There is no mapping between attribute to `OnChange` handler and any field change will trigger `OnChange` handler with context object parameter. To identify the attribute that triggered the handler, use `getIsDirty` function on attribute object. More information: [context.getFormContext().data.entity.attributes.getByName("Attribute Name")](#context-getformcontext-data-entity-attributes-getbyname)
 
 The following is a sample scenario that you can perform using `OnChange` handler:
 
@@ -50,18 +50,18 @@ The following is a sample scenario that you can perform using `OnChange` handler
 
 ### OnSave event
 
-The `onSave` event is triggered when a value is changed in a cell of forecasting editable grid or the cell is out of focus. However, if `OnChange` handler exists for the same forecast configuration, `OnSave` handler is invoked after `OnChange` handler.
+The `onSave` event is triggered when a value is changed in a cell of forecasting editable grid and the cell is out of focus. However, if `OnChange` handler exists for the same forecast configuration, `OnSave` handler is invoked after `OnChange` handler.
 
 The `OnSave` handler is invoked before the actual save of field.
 
 >[!NOTE]
 >- For forecasting editable grid, any field change will trigger `OnChange` and `OnSave` event handlers, if exists.
->- The save will not be triggered if a field is set with an error notifications using the client API in `onSave` handler. For notification related to forecasting client APIs, see [context.getFormContext().data.entity.attributes.getByName("Attribute Name").controls.get(0)](#context.getformcontext-data-entity-attributes-getbyname-controls-get).
->- As there is no mapping between attribute to `onSave` handler, any field change can trigger `onSave` handler with context object parameter. To identify the attribute that triggered the handler, use `getIsDirty` function on attribute object. More information: [context.getFormContext().data.entity.attributes.getByName("Attribute Name")](#context-getformcontext-data-entity-attributes-getbyname)
+>- The save will not be triggered if a field is set with an error notifications using the client API in `onSave` handler. For notification related to forecasting client APIs, see `setNotification` API in [context.getFormContext().data.entity.attributes.getByName("Attribute Name").controls.get(0)](#context.getformcontext-data-entity-attributes-getbyname-controls-get).
+>- There is no mapping between attribute to `onSave` handler and any field change will trigger `onSave` handler with context object parameter. To identify the attribute that triggered the handler, use `getIsDirty` function on attribute object. More information: [context.getFormContext().data.entity.attributes.getByName("Attribute Name")](#context-getformcontext-data-entity-attributes-getbyname)
 
 The following is a sample scenario that you can perform using `OnSave` handler:
 
--	[Block autosave based on estimated revenue value](#block-autosave-based-on-estimated-revenue-value). 
+-	[Block autosave based on estimated revenue value using preventDefault](#block-autosave-based-on-estimated-revenue-value). 
 
 ## Context object for event handlers in editable grid
 
