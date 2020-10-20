@@ -59,7 +59,7 @@ This section of the dashboard consists of the following KPIs.
 | KPI | Description |
 |-------|-------|
 | Agent availability | The distribution of agents by presence status. The presence status of agents can be available, busy, busy-do not disturb, away, offline, or your custom defined status. |
-| Average handle time per session | The average time that an agent takes to handle a session for conversation. More information: [Average handle time](#average-handle-time). |
+| Average handle time per session | The average handle time for an agent is calculated based on the active time the agent spends in a session from the time the conversation is active till it is closed and includes the time the agents takes to wrap-up. More information: [Average handle time](#average-handle-time). |
 | Average response time per session | The average time that an agent takes to accept a conversation from when assigned. |
 | Agent sessions abandon rate | The percentage of conversation sessions abandoned by agents due to timed-out or rejected requests. |
 | Agents with longest handle time | The list of agents with highest handle time. |
@@ -84,7 +84,7 @@ This section of the dashboard consists of the following KPIs.
 |-------|-------|
 | Agent status | The availability status of the agent. |
 | Conversation status reason | The status of the latest conversation between the agent and a customer. | 
-| Avg handle time per session | The agent’s average amount of time per session. More information: [Average handle time](#average-handle-time).|
+| Avg handle time per session | The average handle time for an agent is calculated based on the active time the agent spends in a session from the time the conversation is active till it is closed and includes the time the agents takes to wrap-up. More information: [Average handle time](#average-handle-time).|
 | Avg response time per session | The agent’s average amount of response time. | 
 | Participation mode | The split of sessions which are of three types: Primary indicates the agent who's assigned to the session, Consult indicates agents who are engaged in a consulting session, and supervisors who are monitoring are treated as Monitor sessions. |
 |||
@@ -133,7 +133,7 @@ This section of the dashboard consists of the following details:
 | Queues | The queues that the agent is mapped to. |
 | Skills | The skills that are assigned to the agent.|
 | Conversation status reason | The status of the latest conversation between the agent and a customer. | 
-| Avg handle time per session | The agent’s average amount of time per session. More information: [Average handle time](#average-handle-time). |
+| Avg handle time per session | The average handle time for an agent is calculated based on the active time the agent spends in a session from the time the conversation is active till it is closed and includes the time the agents takes to wrap-up. More information: [Average handle time](#average-handle-time). |
 | Logged in states duration | The agent's presence when the agent is logged on. The state reflects the base presence and not the custom presence.|
 | Subject | For an identified customer, the customer's name is displayed with the subject. For unidentified customers, static text is displayed with a "Visitor" label. For information about identified customers, see [Automatically identify customers](../administrator/record-identification-rule.md). |
 | Participation mode | Primary indicates that agent is engaged in a session. Consult means the agent is engaged in a consulting session with another agent. Monitor means this agent is monitoring the session. |
