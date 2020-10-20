@@ -41,9 +41,12 @@ As an administrator or forecast manager, you can select the option **Auto-hide p
 
 ## Enable multi-currency selection
 
-When your sales teams are distributed across different countries and viewing the forecast with default currency might cause confusion for users in other countries to analyze and understand forecast. By enabling the multi-currency selection option, sales teams have an option to choose and convert the forecast data in real time to their convenient currencies defined in your organization, which help in better planning, organizing, and understanding the current forecast state.
+When your sales teams are distributed across different geographies and viewing the forecast with organization's base currency might cause confusion for users in other geographies to analyze and understand forecast. By enabling the multi-currency selection option, sales teams have an option to choose and convert the forecast data in real time based on current conversation rate to their convenient currencies defined in your organization, which help in better planning, organizing, and understanding the current forecast state.
 
-For example, you have sales teams in the US and Europe. The default currency for your organization is defined as US Dollar and also, Euro is defined as currency. When you create forecast with multi currency enabled, sales teams open the forecast the data is displayed in Dollar. Sales teams in Europe can select currency as Euro and the forecast data is displayed in Euro. The conversion of currency happens in real time. When the data is adjusted based on Euro, the updated data will also be converted into Dollar in real time. 
+>[!NOTE]
+>The real time conversation of forecast data always takes place based on the latest conversation rate defined in your organization. 
+
+For example, you have sales teams in the US and Europe. The base currency for your organization is defined as US Dollar and also, Euro is defined as one of the currencies. When you create forecast with multi currency enabled, sales teams open the forecast the data is displayed in Dollar. Sales teams in Europe can select currency as Euro and the forecast data is displayed in Euro. The conversion of currency happens in real time based on the current conversation rate. Also, manual adjustments can be made on the chosen currency. 
 
 > [!div class="mx-imgBorder"]
 > ![Select currency drop-down](media/forecast-multi-currency-select.png "Select currency drop-down")
