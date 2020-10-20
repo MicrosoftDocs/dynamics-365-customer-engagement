@@ -6,8 +6,6 @@ ms.custom:
   - dyn365-marketing
 ms.date: 10/19/2020
 ms.service: dynamics-365-marketing
-ms.technology: 
-  - marketing
 ms.topic: conceptual
 ms.assetid: 01bb6aef-5162-4c7c-8cce-f80996bdd150
 author: KumarVivek
