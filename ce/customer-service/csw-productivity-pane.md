@@ -63,7 +63,7 @@ A macro is a set of instructions that tells the system how to complete a task. W
 
 ## Knowledge article search 
 
-The knowledge base search lets you search for relevant knowledge articles to resolve a case. These articles are displayed based on relevance and full-text search mechanisms. For more information, see [Search for knowledge articles](search-knowledge-articles-csh). 
+The knowledge base search lets you search for relevant knowledge articles to resolve a case. These articles are displayed based on relevance and full-text search mechanisms. For more information, see [Search for knowledge articles](search-knowledge-articles-csh.md). 
 
 ### See also
 
