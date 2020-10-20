@@ -4,7 +4,7 @@ description: "Learn how you can try channels in Omnichannel for Customer Service
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/19/2020
+ms.date: 10/20/2020
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ---
@@ -54,7 +54,6 @@ With this option, you can get a free 30-day trial of Omnichannel for Customer Se
     > A tenant can have a maximum of five trial instances. If you already have five trial instances in your tenant, you must delete one instance before creating another trial.
 
 6. If you are redirected to the applications page, select **Customer Service Hub** to open the application after it is set up.
-
 7. You will now be able to see the new instance in Dynamics 365 Administration Center under the **Instances** tab. The instance type will be set to Trial.
 
 ### Get a Power BI (free) subscription
@@ -84,7 +83,7 @@ You must have obtained one of the following subscriptions through the Microsoft 
 If you do not have one of these subscriptions, or if you purchased your subscription somewhere other than Web Direct, then the option to try channels will not be available in the Microsoft 365 admin center.
 
 > [!IMPORTANT]
-> If the subscription for Dynamics 365 Customer Service Enterprise or Dynamics 365 Customer Engagement in your tenant is obtained through Volume Licensing Service Center, use the trial option specified in [Channels trial through trials.dynamics.com](#channels-trial-through-trialsdynamicscom).
+> If you've obtained the subscription for Dynamics 365 Customer Service Enterprise or Dynamics 365 Customer Engagement in your tenant through Volume Licensing Service Center, use the trial option specified in [Channels trial through trials.dynamics.com](#channels-trial-through-trialsdynamicscom).
 
 For information about the Digital Messaging license, pricing, and prerequisites, refer to the Dynamics 365 licensing guide [here](https://go.microsoft.com/fwlink/p/?LinkId=866544).
 
@@ -117,8 +116,7 @@ To view more videos on Omnichannel for Customer Service, see [Videos](videos.md)
 
 ### See also
 
-[Provision Omnichannel for Customer Service](administrator/omnichannel-provision-license.md)
-
+[Provision Omnichannel for Customer Service](administrator/omnichannel-provision-license.md)  
 [Configure a chat channel](administrator/set-up-chat-widget.md)  
 [Configure an SMS channel](administrator/configure-sms-channel.md)  
 [Configure a Facebook channel](administrator/configure-facebook-channel.md)  
