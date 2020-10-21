@@ -99,7 +99,7 @@ Make sure you use the **Reconfigure** option before you sign out. If you sign in
 
 For phones, portrait mode is set as the default screen orientation. For tablets, landscape mode is set as the default. Screen orientation for phone and tablet apps cannot be changed. 
 
-Use the navigation bar to get to your work area, create a new record, search, swithc app, and more. 
+Use the navigation bar to get to your work area, create a new record, search, switch app, and more. 
 
   > [!div class="mx-imgBorder"] 
   > ![Nav Bar](media/NavBar_2.png "Nav Bar")
@@ -200,7 +200,7 @@ Activities are details that you add to a record which include things like notes,
     > [!div class="mx-imgBorder"] 
     > ![Choose record](media/actionmenu1.png "Choose record").
 
-2. On the open record, next to **Summary** selct ![Dynamics 365 apps ellipsis](../mobile-app/media/mobile-ellipsis.png) > **Timeline**.
+2. On the open record, next to **Summary** select ![Dynamics 365 apps ellipsis](../mobile-app/media/mobile-ellipsis.png) > **Timeline**.
 
     > [!div class="mx-imgBorder"] 
     > ![Choose the timeline](media/timeline3.png "Choose the timeline").
@@ -234,7 +234,7 @@ Call or send email to your customers easily from the mobile app. Open a customer
 
 ## Update an image for a record
 
-To add a new image, open the record and selct the current image for the record. Choose **Use Camera** to take a new pictuere or **Upload Image** to choose an existing image on your device. Then follow the prompts on your device to add the new image.
+To add a new image, open the record and select the current image for the record. Choose **Use Camera** to take a new picture or **Upload Image** to choose an existing image on your device. Then follow the prompts on your device to add the new image.
 
    > [!div class="mx-imgBorder"] 
    > ![Dynamics 365 for phones and tablets update image on a record](media/UpdateImageForRecord_12.png "Dynamics 365 for phones and tablets update image on a record")
@@ -249,7 +249,7 @@ Business process flows help you enter data consistently and follow the same step
 
 ## Task Flows
 
-Use Task Flows to complete common set of tasks. For example, if you need to perform a series of follow-up steps on a regular basis then select on the nav bar, selct the Task Flow button ![Dynamics 365 for phones and tablets task flows button](media/taskflowbutton.png "Dynamics 365 for phones and tablets task flows button"). This will lead you through the entire task from start to finish so, you don't forget an important step.
+Use Task Flows to complete common set of tasks. For example, if you need to perform a series of follow-up steps on a regular basis then select on the nav bar, select the Task Flow button ![Dynamics 365 for phones and tablets task flows button](media/taskflowbutton.png "Dynamics 365 for phones and tablets task flows button"). This will lead you through the entire task from start to finish so, you don't forget an important step.
 
   > [!div class="mx-imgBorder"] 
   > ![Dynamics 365 for phones and tablets task flows](media/TaskBasedFlow.png "Dynamics 365 for phones and tablets task flows")
