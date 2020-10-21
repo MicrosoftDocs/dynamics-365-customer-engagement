@@ -4,7 +4,7 @@ description: "Learn about macros and how to configure in the Customer Service wo
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 09/07/2020
+ms.date: 10/20/2020
 ms.service: 
    "dynamics-365-customerservice"
 ms.topic: article
@@ -379,6 +379,9 @@ To learn more, see [Use automation dictionary to pass data parameter keys](../om
    > ![Macro actions for Omnichannel](../omnichannel/media/macro-omnichannel-connector.png "Macro actions for Omnichannel") 
 
    To learn more, see [Omnichannel connector](#omnichannel-connector).
+   
+   > [!NOTE]
+   > Omnichannel connector is not available in Customer Service workspace.
 
 8. Specify the values in the fields. To learn how to specify the values, see [Use automation dictionary to pass data parameters keys](automation-dictionary-keys.md).
 
