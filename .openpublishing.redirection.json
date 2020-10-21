@@ -18959,6 +18959,11 @@
       "source_path": "ce/teams-integration/teams-work-records-and-view.md",
       "redirect_url": "teams-collaboration",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omnichannel/developer/reference/methods/getTranslationProvider.md",
+      "redirect_url": "../properties/getTranslationProvider",
+      "redirect_document_id": false
     }
   ]
 }
