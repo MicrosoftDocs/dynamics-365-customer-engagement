@@ -1,7 +1,7 @@
 ---
 title: "Preview: Configure mobile offline synchronization | MicrosoftDocs"
 ms.custom: Configure mobile offline synchronization
-description: set-up mobile offline for Dynamics 365 phones and tablets app and Power Apps mobile
+description: Set-up mobile offline for Dynamics 365 phones and tablets app and Power Apps mobile
 ms.date: 10/30/2020
 ms.reviewer: 
 ms.service: crm-online
@@ -42,9 +42,9 @@ This offline experience uses [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-
 
 Mobile offline is available for iOS and Android devices. To use the mobile offline feature, download the latest version of the mobile app from the app store. 
 
-### Install Dynamics 365 phones and table app (for customer engagement apps in Dynamics 365 )
+### Install Dynamics 365 phones and table app (for customer engagement apps in Dynamics 365)
 
-For customer engagement apps in Dynamics 365 (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing, and Dynamics 365 Project Service Automation) install the [install the Dynamics 365 phones and table app](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets#install-the-app-from-your-devices-app-store).
+For customer engagement apps in Dynamics 365 (Dynamics 365 Sales, Dynamics 365 Customer Service, and Dynamics 365 Marketing) install the [install the Dynamics 365 phones and table app](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets#install-the-app-from-your-devices-app-store).
 
 These are the supported devices to use mobile offline:
 
@@ -251,7 +251,7 @@ Enable mobile offline for a specific app from MyApps page.
 1. Sign in to [Power Apps](https://make.powerapps.com).
 
 
-2. On the left nav select **Apps** and then select the app that you want open. Then on the comomand bar select **Edit**. This will open the app in the **App Designer**.
+2. On the left nav select **Apps** and then select the app that you want open. Then on the command bar select **Edit**. This will open the app in the **App Designer**.
 
    > [!div class="mx-imgBorder"]
    >![Open App Designer](media/mol_edit_apps.png "Open App Designer")
