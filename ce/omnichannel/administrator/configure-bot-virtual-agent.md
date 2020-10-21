@@ -4,7 +4,7 @@ description: "Instructions to integrate a bot in Omnichannel for Customer Servic
 author: platkat
 ms.author: ktaylor
 manager: shujoshi
-ms.date: 10/21/2020
+ms.date: 10/12/2020
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ---
