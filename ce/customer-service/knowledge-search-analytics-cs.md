@@ -49,6 +49,6 @@ The following are specific KPIs represented in this dashboard:
 
 ### See also
 
-[Search for knowledge articles](search-knowledge-articles-csh.md)
-[Understand knowledge base search mechanisms](knowledge-base-search-methods.md)
+[Search for knowledge articles](search-knowledge-articles-csh.md) <br>
+[Understand knowledge base search mechanisms](knowledge-base-search-methods.md) <br>
 [Use embedded knowledge search to set up knowledge management](set-up-knowledge-management-embedded-knowledge-search.md)
