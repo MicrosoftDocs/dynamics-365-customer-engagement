@@ -88,7 +88,7 @@ Select the **File** tab to add/view the following options:
 ## Home tab  
  The **Home** tab displays the commands listed in the following table:
 
-![home-tab](media/home-tab.png)
+![Home tab](media/home-tab.png)
 
 
 |    Group    |          Command          |                                                                                                                                                                                                                                                                                                         Description                                                                                                                                                                                                                                                                                                          |
@@ -114,7 +114,7 @@ Select the **File** tab to add/view the following options:
 | **Upgrade** |      **Merge forms**      |                                                                                                                                                                                                                                                         If applicable, this option lets you merge this form with a form from a previous version of Dynamics 365 Customer Engagement (on-premises) form                                                                                                                                                                                                                                                         |
 
 ## Insert tab  
-![insert-tab](media/insert-tab.png)
+![Insert tab](media/insert-tab.png)
 
 The Insert tab displays the commands in the following table:
 

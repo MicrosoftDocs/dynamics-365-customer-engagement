@@ -140,7 +140,7 @@ Each Rollup field creates two accessory fields with `<fieldname`>_date and `<fie
   
  The following example shows how to calculate an average estimated revenue from related opportunities over a hierarchy of accounts. An average estimated revenue can be seen at each level in the hierarchy.  
   
- ![Average estimated revenue in Dynamics 365 for Customer Engagement](../customize/media/cust-rollup-enhancements-avg-over-hierarchy.png "Average estimated revenue in Dynamics 365 for Customer Engagement")  
+ ![Average estimated revenue](../customize/media/cust-rollup-enhancements-avg-over-hierarchy.png "Average estimated revenue")  
   
 <a name="BKMK_considerations"></a>   
 ## Rollup field considerations  
