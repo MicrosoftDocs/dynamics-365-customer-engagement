@@ -22,7 +22,7 @@ search.audienceType:
 ---
 # Get started with app making and customization
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [What are model-driven apps in Power Apps?](/powerapps/maker/model-driven-apps/model-driven-app-overview)
 
 You can tailor an app to more closely fit your organization’s industry, nomenclature, and unique business processes. You can implement many customizations without writing any code.  
   

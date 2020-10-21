@@ -70,7 +70,7 @@ Dynamics 365 Customer Engagement (on-premises) includes four types of processes,
   
 <a name="useMSFlow"></a>   
 ## When to use Power Automate  
- Use Power Automate when you need to create automated workflows that perform actions between your environment and favorite app or service, such as [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], [!INCLUDE[tn_twitter](../includes/tn-twitter.md)], Dropbox, Google services, [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)], and [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)]. You can trigger a flow based on a specific action, or invoke from within your app. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use Power Automate to automate processes across services](/powerapps/user/use-flows)  
+ Use Power Automate when you need to create automated workflows that perform actions between your environment and favorite app or service, such as [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], [!INCLUDE[tn_twitter](../includes/tn-twitter.md)], Dropbox, Google services, Microsoft 365, and [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)]. You can trigger a flow based on a specific action, or invoke from within your app. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use Power Automate to automate processes across services](/powerapps/user/use-flows)  
   
 <a name="BKMK_Where"></a>   
 ## Where do I go to create processes?  
