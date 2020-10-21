@@ -1,12 +1,11 @@
 ---
 title: "Use automation dictionary to pass parameter keys | MicrosoftDocs"
-description: "Learn about the supported formats to pass parameter values in the Omnichannel Administration app for Templates and Macros."
+description: "Learn about the supported formats to pass parameter values in the templates and macros."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/12/2020
-ms.service: 
-   "dynamics-365-customerservice"
+ms.date: 10/20/2020
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ---
 
@@ -124,6 +123,9 @@ Macros and agent scripts support the following slugs:
 | `${customerEntityName}` | The name of the entity (contact or account), if the customer is authenticated. |
 | `${customerRecordId}` | The unique ID of the entity (contact or account), if the customer is authenticated. |
 | `${<name of the pre-chat survey questions>}` | All the pre-chat survey questions that are configured for a work stream will have the slug name as the name of the question. |
+
+> [!NOTE]
+> Only the `{anchor.<attribute_name>}` slug is supported in the macros and scripts for Customer Service workspace.
 
 #### Slug for reconnection link
 
