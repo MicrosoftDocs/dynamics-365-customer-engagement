@@ -3,7 +3,7 @@ title: "Dynamics 365 Field Service inspections | MicrosoftDocs"
 description: Learn about how to use inspections in Dynamics 365 Field Service.
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 10/12/2020
+ms.date: 10/21/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -54,6 +54,8 @@ Inspections are easy to create and use, involving the following steps:
 5. View the inspection results.
 
 In this article, we'll walk through an example of setting up an inspection using a maintenance checklist on a customer asset.
+
+For a guided walkthrough, see the following video: ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Module 8: Inspections](https://youtu.be/aDfwIP7rT-U)
 
 ## Prerequisites
 
