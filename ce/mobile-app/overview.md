@@ -24,7 +24,8 @@ search.app:
 
 # Overview of Dynamics 365 for phones and tablets 
 
-Use the [!INCLUDE[pn_dyn-365_phones](../includes/pn-dyn-365-phones.md)] and [!INCLUDE[pn_dyn-365_tablets](../includes/pn-dyn-365-tablets.md)] apps for your sales, customer service, field service, and other tasks when you're on the go. With one download from your app store, you’ll automatically have access to all the apps you need for your role. You will see apps with the new Unified Interface on your mobile device.  
+Use the [!INCLUDE[pn_dyn-365_phones](../includes/pn-dyn-365-phones.md)] and [!INCLUDE[pn_dyn-365_tablets](../includes/pn-dyn-365-tablets.md)] to run customer engagement apps (such as Dynamics 365 Sales and Dynamics 365 Customer Service) on your mobile device. Once you download the app, you'll have access to all your apps that you have access to on your mobile device.
+
 
 > [!NOTE]
 > - [!INCLUDE[pn_dyn-365_phones](../includes/pn-dyn-365-phones.md)] and [!INCLUDE[pn_dyn-365_tablets](../includes/pn-dyn-365-tablets.md)] apps support model-driven apps, such as Dynamics 365 Sales and Dynamics 365 Customer Service, built on Common Data Service and Dynamics 365 Customer Engagement (on-premises).
