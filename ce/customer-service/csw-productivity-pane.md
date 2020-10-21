@@ -60,7 +60,7 @@ Smart assist displays the relevant suggestions as individual cards that are grou
 > [!Important]
 > - In the out-of-box Customer Service workspace application, you must first create a custom profile before you can enable agent scripts. Only the Smart assist and knowledge article search functions are available in the out-of-box experience. For information about creating custom profiles, see [Overview of app profile manager](https://docs.microsoft.com/dynamics365/app-profile-manager/overview).
 
-Agent scripts in Customer Service workspace help provide guidance for what you should do when you have a customer issue, and helps ensure that you share only accurate and company-endorsed information. These scripts help you to be accurate and effective while also being faster and more efficient in terms of customer handling. For more information, see [Guide customer interaction with agent scripts](https://docs.microsoft.com/en-us/dynamics365/omnichannel/agent/agent-oc/oc-agent-scripts). For administrator information about configuring scripts, see [Guide agents with scripts](https://docs.microsoft.com/dynamics365/app-profile-manager/agent-scripts).
+Agent scripts in Customer Service workspace help provide guidance for what you should do when you have a customer issue, and helps ensure that you share only accurate and company-endorsed information. These scripts help you to be accurate and effective while also being faster and more efficient in terms of customer handling. For more information, see [Guide customer interaction with agent scripts](https://docs.microsoft.com/dynamics365/omnichannel/agent/agent-oc/oc-agent-scripts). For administrator information about configuring scripts, see [Guide agents with scripts](https://docs.microsoft.com/dynamics365/app-profile-manager/agent-scripts).
 
 A macro is a set of instructions that tells the system how to complete a task. When a macro runs, the system performs each instruction. Macros in agent scripts show a title, instruction that system performs, and the macro icon. For administrator information about configuring macros, see [Automate tasks with macros](https://docs.microsoft.com/dynamics365/app-profile-manager/macros). 
 
@@ -72,6 +72,6 @@ The knowledge base search lets you search for relevant knowledge articles to res
 
 [Customer Service workspace - overview](csw-overview.md) <br>
 [View AI-suggested similar cases and knowledge articles](csw-view-ai-suggested-cases-knowledge-articles.md) <br>
-[Guide customer interaction with agent scripts](https://docs.microsoft.com/en-us/dynamics365/omnichannel/agent/agent-oc/oc-agent-scripts) <br>
+[Guide customer interaction with agent scripts](https://docs.microsoft.com/dynamics365/omnichannel/agent/agent-oc/oc-agent-scripts) <br>
 [Automate tasks with macros](https://docs.microsoft.com/dynamics365/app-profile-manager/macros) <br>
 [Search for knowledge articles](search-knowledge-articles-csh.md)
