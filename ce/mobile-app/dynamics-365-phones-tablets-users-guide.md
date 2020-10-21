@@ -1,6 +1,7 @@
 ---
 title: "Dynamics 365 for phones and tablets User's Guide (Dynamics 365 apps)| MicrosoftDocs"
 ms.custom: 
+description: How to use the Dynamics 365 for phones and tablets app
 ms.date: 10/7/2020
 ms.reviewer: kvivek
 ms.service: crm-online
