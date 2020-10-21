@@ -96,50 +96,6 @@ Ensure to map the routing rules to the correct queues so that the queries are ro
 > [!NOTE]
 > When you run a report on Power Virtual Agent activity, the number of bot sessions may differ from the number of sessions in Omnichannel for Customer Service.
 
-## Enable a human agent to transfer a conversation back to a bot
-
-The previous section explained how to configure a single conversation transfer from a Power Virtual Agents bot to a human agent. Some support scenarios may require a human agent to transfer a conversation back to a Power Virtual Agents bot after delivering personalized support. This second transfer from human agent to bot may be used to provide further assistance with basic, repetitive tasks or to collect additional data, for example, in a customer survey.
-
-There are two ways to facilitate a human agent transfer of a conversation back to a bot:
-
-- Create two bots that reside in two queues
-- Create two bots that reside in the same queue
-
-### Two bots in two queues
-
-In this scenario, a bot has transferred a conversation to a human agent. The human agent will transfer the conversation again to another bot in another queue.
-
-1. A customer initiates a conversation.
-2. The conversation routed to Queue 1.
-3. The first bot (Bot A) accepts the conversation.
-4. The customer requests to chat with a human agent.
-5. The conversation is transferred to a human agent within Queue 1.
-6. The customer converses with the human agent.
-7. The human is finished delivering support and wants to hand off the conversation to a second bot (Bot B), which resides in Queue 2.
-8. The human agent is disconnected from the conversation.
-9. The conversation routed to Bot B in Queue 2.
-10.	The system triggers Bot B to send a greeting message.
-11. The customer now converses with Bot B.
-
-### Two bots in one queue
-
-In this scenario, a bot has transferred a conversation to a human agent. The human agent will transfer the conversation again to another bot in the same queue. In order for the conversation to flow correctly, you must set the first bot (Bot A) with the highest capacity, the human agent with second-highest capacity, and the second bot (Bot B) with the lowest capacity. 
-
-1. A customer initiates a conversation.
-2. The conversation routed to the queue.
-3. The first bot (Bot A) accepts the conversation, as it has the highest capacity.
-4. The customer requests to chat with a human agent.
-5. The conversation is transferred to a human agent, as the agent has second-highest capacity.
-6. The customer converses with the human agent.
-7. The human is finished delivering support and wants to hand off the conversation to a second bot (Bot B), which resides in the same queue.
-8. The human agent is disconnected from the conversation.
-9. The conversation routed to Bot B.
-10.	Bot B receives the following messages in order: 
-    - A conversation update that the “Bot added”
-    - The Omnichannel Set context event
-11.	The system triggers Bot B to send a greeting message.
-12. The customer now converses with Bot B.
-
 ## Configure context variables for a bot
 
 When customers initiate a conversation, the relevant context related to the customer, the issue they are facing, and recent activities performed by them can be made available for the bot to intelligently provide contextual responses to resolve customer issues in a quick and efficient manner. For example, the bot can use the logged in user information to look up recent case information or the order history of the customer and provide a response. Similarly, the pre-conversation information, custom context, or recent pages browsed on a website by the customer can be passed to the bot by configuring context variables for the bot in Power Virtual Agents. For information on context variables that can be configured, see [Context variables](context-variables-for-bot.md).
