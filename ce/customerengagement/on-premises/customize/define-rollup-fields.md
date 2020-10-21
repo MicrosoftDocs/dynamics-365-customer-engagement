@@ -23,7 +23,7 @@ search.audienceType:
 
 # Define rollup fields that aggregate values
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Define rollup fields in Power Apps](/powerapps/maker/common-data-service/define-rollup-fields)
 
 Rollup fields are designed to help users obtain insights into data by monitoring key business metrics. A rollup field contains an aggregate value computed over the records related to a specified record, such as open opportunities of an account. Also, you’ll be able to aggregate data from the activities directly related to a record, such as emails and appointments, and activities indirectly related to a record via the Activity Party entity. In more complex scenarios, you can aggregate data over the hierarchy of records. As an administrator or customizer, you can define rollup fields by using the feature without needing a developer to write code.  
   
@@ -60,7 +60,7 @@ Rollup fields are designed to help users obtain insights into data by monitoring
   
 Each Rollup field creates two accessory fields with `<fieldname`>_date and `<fieldname>`_state suffix pattern. The _date field is of the Datetime data type and _state field is of the integer data type. The _state field has the following values:  
   
-|||  
+|State|Description|  
 |-|-|  
 |0 => NotCalculated|The field value is yet to be calculated.|  
 |1 => Calculated|The field value has been calculated per the last update time in _date field.|  
@@ -140,7 +140,7 @@ Each Rollup field creates two accessory fields with `<fieldname`>_date and `<fie
   
  The following example shows how to calculate an average estimated revenue from related opportunities over a hierarchy of accounts. An average estimated revenue can be seen at each level in the hierarchy.  
   
- ![Average estimated revenue in Dynamics 365 for Customer Engagement](../customize/media/cust-rollup-enhancements-avg-over-hierarchy.png "Average estimated revenue in Dynamics 365 for Customer Engagement")  
+ ![Average estimated revenue](../customize/media/cust-rollup-enhancements-avg-over-hierarchy.png "Average estimated revenue")  
   
 <a name="BKMK_considerations"></a>   
 ## Rollup field considerations  
