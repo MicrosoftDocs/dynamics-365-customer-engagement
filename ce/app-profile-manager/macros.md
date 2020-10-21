@@ -380,7 +380,7 @@ To learn more, see [Use automation dictionary to pass data parameter keys](../om
 
    To learn more, see [Omnichannel connector](#omnichannel-connector).
    
-   > [!NOTE]
+   > [!Note]
    > Omnichannel connector is not available in Customer Service workspace.
 
 8. Specify the values in the fields. To learn how to specify the values, see [Use automation dictionary to pass data parameters keys](automation-dictionary-keys.md).
