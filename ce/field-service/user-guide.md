@@ -3,7 +3,7 @@ title: "User guide for Dynamics 365 Field Service | MicrosoftDocs"
 description: Use this guide to get a high-level view of Dynamics 365 Field Service and see a collection of resources to learn more.
 ms.custom:
   - dyn365-fieldservice
-ms.date: 10/01/2020
+ms.date: 10/21/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite:
@@ -45,6 +45,7 @@ Before we begin, here are the top places for information about Field Service:
   - ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Module 5: Schedule board](https://youtu.be/-noHEU7wgiQ)
   - ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Module 6: Schedule assistant](https://youtu.be/QOrePYZ9fds)
   - ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Module 7: Dynamics 365 Field Service mobile app (Microsoft Power Platform)](https://youtu.be/tcDt_vJ5csI)
+  - ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Module 8: Inspections](https://youtu.be/aDfwIP7rT-U)
   - ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Module 8a: Automated scheduling scenarios with Field Service](https://youtu.be/fcQwIXgmnqk)
   - ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Module 8b: Set up automatic scheduling for work orders](https://youtu.be/oJ-3HTJWRMo)
   - ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Module 9: Set up Connected Field Service with Azure IoTCentral](https://youtu.be/Sp7_JoXjHDk)
