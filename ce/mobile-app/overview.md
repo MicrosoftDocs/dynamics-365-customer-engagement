@@ -1,6 +1,7 @@
 ---
 title: "Dynamics 365 for phones and tablets (Dynamics 365 apps)| MicrosoftDocs"
 ms.custom: 
+description: Overview information for Dynamics 365 for phones and tablets app
 ms.date: 10/30/2020
 ms.reviewer: 
 ms.service: crm-online
