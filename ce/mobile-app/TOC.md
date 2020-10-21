@@ -11,8 +11,8 @@
 ## [Mobile offline capabilities and limitations](mobile-offline-capabilities.md)
 
 # Install the mobile app
-## [Install the mobile app](install-dynamics-365-for-phones-and-tablets.md)
-## [Migrate to Power Apps mobile](migration.md)
+## [Install Dynamics 365 for phones and tablets](install-dynamics-365-for-phones-and-tablets.md)
+## [Migrate to the Power Apps mobile app](migration.md)
 
 # User Guides
 ## [Basic navigation in Dynamics 365 for phones and tablets (Preview)](user-guide-mobile-app.md)
