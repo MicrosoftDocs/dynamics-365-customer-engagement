@@ -23,7 +23,7 @@ search.app:
 ---
 # What's supported
 
-You can access Common Data Service or Dynamics 365 Customer Engagement (on-premises) data from mobile devices in different ways. You can install and use the Dynamics 365 for phones and tablets mobile app on your iOS, [!INCLUDE[tn_android](../includes/tn-android.md)], and Windows 10 devices, or you can use your tablet’s web browser to run the model-driven apps as long as your device has sufficiently high screen resolution.
+You can access data for customer engagement apps (such as Dynamics 365 Sales, Dynamics 365 Customer Service, and Dynamics 365 Marketing), built on Common Data Service and Dynamics 365 Customer Engagement (on-premises). Install and use the Dynamics 365 for phones and tablets mobile app on your iOS, [!INCLUDE[tn_android](../includes/tn-android.md)], and Windows 10 devices, or you can use your tablet’s web browser to run the model-driven apps as long as your device has sufficiently high screen resolution.
   
 ## Supported devices for the mobile app
   
@@ -41,7 +41,7 @@ To install the app see, [Install the app from your device’s app store](https:/
 
    
 
-## Supported tablets to run model-driven apps in your web browser 
+## Supported tablets to run customer engagement apps in your web browser 
 
 For full functionality and optimized experience, we strongly recommend that you use the Dynamics 365 for phones and tablets mobile app. If you don't have the Dynamics 365 for phones and tablets app installed, you can still use the web browser on your tablet to run the model-driven apps. 
 
