@@ -7,6 +7,7 @@ author: Mattp123
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
   - powerapps
+ms.service: crm-online
 ms.author: matp
 manager: kvivek
 ms.assetid: 146f8035-4fcd-4572-8e71-4270cd150495

@@ -21,12 +21,8 @@ search.audienceType:
 ---
 # Create custom business logic through processes
 
-
-
 Defining and enforcing consistent business processes is one of the main reasons people use Dynamics 365 Customer Engagement (on-premises). Consistent processes help make sure people using the system can focus on their work and not on remembering to perform a set of manual steps. Processes can be simple or complex and can change over time.  
 
-
-  
 Dynamics 365 Customer Engagement (on-premises) includes four types of processes, each designed for a different purpose:  
   
 - Business process flows  
@@ -44,7 +40,8 @@ Dynamics 365 Customer Engagement (on-premises) includes four types of processes,
 
 
 <a name="BKMK_BP"></a>   
-## When to use business process flows  
+## When to use business process flows
+
  Use a business process flow when you want staff to move through the same stages and follow the same steps to interact with a customer. For example, use a business process flow if you want everyone to handle customer service requests the same way, or to require staff to gain approval for an invoice before submitting an order.  
   
  Your environment includes several ready-to-use business process flows for common sales, service, and marketing tasks that you can use with little or no changes required. Or, you can create your own. See the following topics for more information on business process flows:  
@@ -55,7 +52,8 @@ Dynamics 365 Customer Engagement (on-premises) includes four types of processes,
 -   [Add ready-to-use business processes](../customize/add-ready-use-business-processes.md)    
   
 <a name="BKMK_TF"></a>   
-## When to use mobile task flows  
+## When to use mobile task flows
+
  You can also design a type of business process flow called a task flow in [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] or [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] based on common tasks your users perform. For example, if they need to regularly perform a series of follow-up steps after client meetings, create a task flow. When users tap the new task in their mobile app, it will lead them through from start to finish so they don't forget an important step. For more information on task flows, see the following topics:  
   
 -   [Create a mobile task flow](../customize/create-mobile-task-flow.md)   
@@ -88,9 +86,8 @@ Dynamics 365 Customer Engagement (on-premises) includes four types of processes,
   
  The following table shows the access level of processes based on default security roles.  
   
-|||  
-|-|-|  
 |**Security role**|**Access level**|  
+|-|-|  
 |CEO-Business Manager|Organization|  
 |System Administrator|Organization|  
 |System Customizer|Organization|  

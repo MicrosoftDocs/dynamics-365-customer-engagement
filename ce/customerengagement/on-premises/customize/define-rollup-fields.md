@@ -60,7 +60,7 @@ Rollup fields are designed to help users obtain insights into data by monitoring
   
 Each Rollup field creates two accessory fields with `<fieldname`>_date and `<fieldname>`_state suffix pattern. The _date field is of the Datetime data type and _state field is of the integer data type. The _state field has the following values:  
   
-|||  
+|State|Description|  
 |-|-|  
 |0 => NotCalculated|The field value is yet to be calculated.|  
 |1 => Calculated|The field value has been calculated per the last update time in _date field.|  
