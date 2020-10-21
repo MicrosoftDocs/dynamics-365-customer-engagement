@@ -43,10 +43,10 @@ To install the app see, [Install the app from your device’s app store](https:/
 
 ## Supported tablets to run customer engagement apps in your web browser 
 
-For full functionality and optimized experience, we strongly recommend that you use the Dynamics 365 for phones and tablets mobile app. If you don't have the Dynamics 365 for phones and tablets app installed, you can still use the web browser on your tablet to run the model-driven apps. 
+For full functionality and optimized experience, we strongly recommend that you use the Dynamics 365 for phones and tablets mobile app. If you don't have the Dynamics 365 for phones and tablets app installed, you can still use the web browser on your tablet to run your apps. 
 
 > [!NOTE]
-> Using the web browser on your phone to run your model-driven apps isn't supported; you must use the Dynamics 365 for phones app. 
+> Using the web browser on your phone to run your customer engagement apps is not supported; you must use the Dynamics 365 for phones app. 
 
 
 ## Supported tablets to use the web browser
@@ -59,7 +59,7 @@ For full functionality and optimized experience, we strongly recommend that you 
         
 
   
-Model-driven apps running on a web browser on an iOS or Android tablet provides a similar experience to using it with a web browser on your desktop or laptop computer. However, some features are not available on the mobile app or mobile web browser, including:
+Customer engagement apps running on a web browser on an iOS or Android tablet provides a similar experience to using it with a web browser on your desktop or laptop computer. However, some features are not available on the mobile app or mobile web browser, including:
   
 - Pinch and zoom  
   
