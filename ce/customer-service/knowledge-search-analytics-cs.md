@@ -47,3 +47,8 @@ The following are specific KPIs represented in this dashboard:
 | Search volume by application | The percentage of searches across multiple applications. |
 | Search volume by search type | The percentage of searches based on whether they were manual or automatic searches. |
 
+### See also
+
+[Search for knowledge articles](search-knowledge-articles-csh.md)
+[Understand knowledge base search mechanisms](knowledge-base-search-methods.md)
+[Use embedded knowledge search to set up knowledge management](set-up-knowledge-management-embedded-knowledge-search.md)
