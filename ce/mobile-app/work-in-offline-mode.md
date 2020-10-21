@@ -37,7 +37,7 @@ If you're working on a record and lose network connection, any updates made to t
 
 Mobile offline is currently available for iOS and Android devices. To use the mobile offline feature, download the latest version of the mobile app from the app store. 
 
-### Install Dynamics 365 phones and table app (for customer engagement apps in Dynamics 365 )
+### Install Dynamics 365 phones and tablets app (for customer engagement apps in Dynamics 365 )
 
 For customer engagement apps in Dynamics 365 (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Marketing) install the [install the Dynamics 365 phones and table app](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets#install-the-app-from-your-devices-app-store).
 
