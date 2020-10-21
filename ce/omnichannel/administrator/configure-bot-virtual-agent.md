@@ -102,7 +102,7 @@ The previous section explained how to configure a single conversation transfer f
 
 There are two ways to facilitate a human agent transfer of a conversation back to a bot:
 
-- Create two bots that reside in two queues
+- Create two bots that reside in two queues 
 - Create two bots that reside in the same queue
 
 ### Two bots in two queues
