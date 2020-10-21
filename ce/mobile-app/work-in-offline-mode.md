@@ -93,7 +93,7 @@ If did not want to download offline data and choose **Skip for now**, you will n
    | ![Download updates complete](media/mobile_offline_download_updates_complete_1.png "Download updates complete")    |     ![Download updates complete](media/mobile_offline_download_updates_complete_updated.png "Download updates complete")     |
 
 
-## See if offline mode is availables
+## See if offline mode is available
 
 When offline updates are complete, you can check to see if mobile offline is available. 
 
