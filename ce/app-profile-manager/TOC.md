@@ -12,6 +12,15 @@
 ### [Manage smart assist](smart-assist.md)
 ### [Manage agent scripts](agent-scripts.md)
 ### [Manage macros](macros.md)
+### [Automation dictionary to pass parameters](automation-dictionary-keys.md)
+
+## Developer guide
+### [Overview of JavaScript API reference](reference/microsoft-apm.md)
+#### Methods
+#### [createTab](reference/microsoft-apm/createTab.md)
+#### [focusTab](reference/microsoft-apm/focusTab.md)
+#### [refreshTab](reference/microsoft-apm/refreshTab.md)
+#### [closeTab](reference/microsoft-apm/closeTab.md)
 
 ## [Readme](https://go.microsoft.com/fwlink/p/?linkid=2141982)
 

@@ -279,6 +279,7 @@ Another Field Service setting for inventory is **Use Of Products out of Stock**.
 
 - Inventory adjustments products can have a positive or negative quantity to increment or decrement inventory as needed.
 - Integrating work order product inventory with ERP systems is typically executed with work order product, inventory journals, or invoice records.
+- Product bundling, introduced in Dynamics 365 Sales, does not currently extend to Field Service scenarios. For more information, see this article about [product bundles in Dynamics 365 Sales](https://docs.microsoft.com/dynamics365/sales-enterprise/create-product-bundles-sell-multiple-items-together).
 
 ### Known issues
 
@@ -301,6 +302,7 @@ Another Field Service setting for inventory is **Use Of Products out of Stock**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the list of security roles.](./media/error-permission-opportunities-fix.png)
+
   
 ### See also  
 

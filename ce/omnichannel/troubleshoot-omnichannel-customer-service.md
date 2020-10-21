@@ -156,7 +156,7 @@ Reach out to Microsoft support for further investigation.
 
 ### Issue
 
-If your tenant has an expired Office 365 license, then the provisioning of Omnichannel for Customer Service fails in your organization.
+If your tenant has an expired Microsoft 365 license, then the provisioning of Omnichannel for Customer Service fails in your organization.
 
 ### Resolution
 

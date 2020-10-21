@@ -137,7 +137,7 @@ Wondering what capabilities you can demo with the demo data? See the Fabrikam sc
 
     | Field | Value | Description |
     |-------------------------|------------------------|------------------------|
-    | Deployment Type | Office 365 | To connect to a Common Data Service environment. |
+    | Deployment Type | Microsoft 365 | To connect to a Common Data Service environment. |
     | Display list of available organizations | Select the check box. |
     Show Advanced | Select the check box. |
     |  Online Region | North America | Select the organization that you want to connect to. |

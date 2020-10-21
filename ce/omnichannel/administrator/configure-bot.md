@@ -22,7 +22,7 @@ In Omnichannel for Customer Service, you can integrate a bot to start the conver
 
 When you integrate an Azure bot with Omnichannel for Customer Service, you get the following capabilities for bot conversations:
 
-- Seamlessly integrate your Azure bot with all channels&mdash without needing to add channel-specific code in the bot.
+- Seamlessly integrate your Azure bot with all channels without needing to add channel-specific code in the bot.
 - Transfer bot conversations to human agents, and include the full context of the conversation.
 - Analyze the bot transcript that's available in Common Data Service after the chat is completed.
 - Configure routing rules to selectively route incoming requests to bots based on context, such as issue type or customer type. For example, you can route low-complexity issues to bots, or route the conversation to a sales or support bot based on the webpage browsing history of the customer.
@@ -208,4 +208,5 @@ You understand that your data may be transmitted and shared with external system
 [Work with queues in Omnichannel for Customer Service](queues-omnichannel.md)<br>
 [Create and manage routing rules](routing-rules.md)<br>
 [Add a chat widget](add-chat-widget.md)<br>
-[Enable a bot to escalate and end conversation](../developer/bot-escalate-end-conversation.md)
+[Enable a bot to escalate and end conversation](../developer/bot-escalate-end-conversation.md)  
+[Context variables for a bot](context-variables-for-bot.md)  

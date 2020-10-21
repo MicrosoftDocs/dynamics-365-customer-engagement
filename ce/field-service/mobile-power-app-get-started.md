@@ -3,7 +3,7 @@ title: "Get started with the Field Service (Dynamics 365) mobile app | Microsoft
 description: Learn how to get started with the Field Service (Dynamics 365) mobile app.
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 08/28/2020
+ms.date: 10/15/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -29,7 +29,11 @@ search.app:
 
 # Get started with the Field Service (Dynamics 365) mobile app
 
-The Field Service (Dynamics 365) mobile app is a mobile app designed and optimized for technicians to view Dynamics 365 Field Service work orders, customer assets, accounts, and contacts. Different than Field Service Mobile (see the following feature comparison), this alternative mobile app is built on Microsoft's Power Platform as a [model-driven app](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-overview) and is customizable to your business needs with the same admin console as all Dynamics 365 business apps.
+The Field Service (Dynamics 365) mobile app is designed and optimized for technicians to view Dynamics 365 Field Service work orders, customer assets, accounts, and contacts. This mobile app is built on Microsoft Power Platform as a [model-driven app](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-overview) and is customizable to your business needs with the same admin console as all Dynamics 365 business apps.
+
+
+> [!div class="mx-imgBorder"]
+> ![Simulated image of the Field Service (Dynamics 365) mobile app on a phone and a tablet.](./media/mobile-2020-tablet-website.png)
 
 Available natively for Apple iOS and Google Android phones and tablets, the Field Service (Dynamics 365) mobile app offers technicians many capabilities they need to perform onsite customer service, such as:  
 
@@ -37,6 +41,7 @@ Available natively for Apple iOS and Google Android phones and tablets, the Fiel
 - Support for picture, video, and asset barcode scanning
 - Customer signature capture
 - Offline capabilities so technicians can continue viewing and recording work in areas without internet
+
 
 ## Prerequisites
 
@@ -104,6 +109,16 @@ To get to the sitemap, select the menu icon from the calendar view. From here, y
 
 > [!div class="mx-imgBorder"]
 > ![Simulated image showing two mobile devices with screenshots of Field Service (Dynamics 365). The device on the left shows the full menu for Field Service (Dynamics 365). The device on the right shows an account detail page.](./media/mobile-2020-sitemap-account.jpg)
+
+## Global search (search with barcode)
+
+Select the global search icon to search for records across accounts, contacts, work orders, customer assets, or any other entity. Technicians can also search by scanning a barcode with their phone's camera. The barcode scan will find records that have a matching barcode field.
+
+> [!div class="mx-imgBorder"]
+> ![Simulated image showing four mobile devices in different stages of the barcode scan process.](./media/mobile-2020-global-search-use.png)
+
+For more information, see the article on [configuring global search](https://docs.microsoft.com/dynamics365/field-service/mobile-power-app-configure#customize-global-search-and-enable-scan-to-search).
+
 
 ### Work offline
 

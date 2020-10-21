@@ -32,7 +32,7 @@ The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md
 
    ![Unified Service Desk client login screen](../../unified-service-desk/media/usd-login.PNG "Unified Service Desk client login screen")  
 
-   - For the Common Data Service platform, select **Office 365**.  
+   - For the Common Data Service platform, select **Microsoft 365**.  
 
    - For Customer Engagement (on-premises) deployments, select **On-premises** and choose from the following **Authentication Sources**:
 

@@ -140,7 +140,7 @@ If you're using sample data, you can skip this step. Otherwise, you need to crea
 ### Set up geo-coding for the field technician user
 Next you need to set up geo-coding for the field technician user. Field technician location is used for scheduling and routing.
 
-1. Navigate to **Settings** > **Users**, and then open the user record to verify there is an address. Addresses are based on the address for the user's record set in Office 365. 
+1. Navigate to **Settings** > **Users**, and then open the user record to verify there is an address. Addresses are based on the address for the user's record set in Microsoft 365. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot shohowing a user address](media/qs-1-img18.png)  
@@ -148,12 +148,12 @@ Next you need to set up geo-coding for the field technician user. Field technici
 2. If there isn't an address for the user, navigate to the Admin center. Find the user record.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot showing the user record in Office 365](media/qs-1-img19.png)  
+> ![Screenshot showing the user record in Microsoft 365](media/qs-1-img19.png)  
 
 1. Enter an address, and then choose **Save**. To see the updated address in the Dynamics 365 organization, go back to the field technician user record and refresh the page.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot showing the address fields for the user in Office 365](media/qs-1-img20.png)  
+> ![Screenshot showing the address fields for the user in Microsoft 365](media/qs-1-img20.png)  
 
 ### Set up geo-coding for the organization
 

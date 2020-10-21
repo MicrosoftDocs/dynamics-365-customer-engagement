@@ -4,9 +4,9 @@ description: "Learn about notifications and their types. Agents will see notific
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 07/20/2020
+ms.date: 10/12/2020
 ms.service: 
-  - "dynamics-365-customerservice"
+  "dynamics-365-customerservice"
 ms.topic: article
 ---
 
@@ -86,9 +86,7 @@ The identification of a customer happens based on the **Mobile Phone** field pre
 
 The details you'll see for a SMS channel are as configured by your administrator.
 
-## Preview: Missed notification alerts
-
-[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
+## Missed notification alerts
 
 > [!IMPORTANT]
 > - The alert is displayed only when the missed notifications feature is enabled by your administrator.

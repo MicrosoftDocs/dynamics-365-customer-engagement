@@ -8,6 +8,13 @@ ms.date: 06/28/2019
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365CS
 ---
 
 # Best practices to use Omnichannel for Customer Service
