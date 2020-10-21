@@ -1,6 +1,7 @@
 ---
 title: "Preview: Configure mobile offline synchronization | MicrosoftDocs"
-ms.custom: Configure mobile offline synchronization in Dynamics 365 for phones and tablets
+ms.custom: Configure mobile offline synchronization
+description: set-up mobile offline for Dynamics 365 phones and tablets app and Power Apps mobile
 ms.date: 10/30/2020
 ms.reviewer: 
 ms.service: crm-online
@@ -23,7 +24,7 @@ search.app:
 ---
 
 
-# Configure mobile offline synchronization 
+# Configure mobile offline synchronization for your mobile app
 
 
 Set up mobile offline synchronization to allow users to work in offline mode on their mobile device. Mobile offline allows your users to use the mobile app in offline mode to interact with their data, even when they are not connected to the internet. 
@@ -37,9 +38,9 @@ This offline experience uses [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-
 > [!IMPORTANT]
 > The set-up and configuration process for mobile offline is the same for [Power Apps mobile](https://docs.microsoft.com/powerapps/mobile/run-powerapps-on-mobile) and Dynamics 365 for phones and tablets app. To enable mobile offline synchronization for Power Apps mobile or Dynamics 365 mobile, follow the steps in this toipc.
 
-# Install the mobile app
+## Install the mobile app
 
-Mobile offline is currently available for iOS and Android devices. To use the mobile offline feature, download the latest version of the mobile app from the app store. 
+Mobile offline is available for iOS and Android devices. To use the mobile offline feature, download the latest version of the mobile app from the app store. 
 
 ### Install Dynamics 365 phones and table app (for customer engagement apps in Dynamics 365 )
 
@@ -136,13 +137,13 @@ To create a profile follow the steps below.
 7. In the **Data available offline** area, select **Add entity** to add an entity to the profile. 
 
    > [!div class="mx-imgBorder"]
-   >![Add entity](media/mol_add_entity.png "Add entity")
+   >![Add entity to the profile](media/mol_add_entity.png "Add entity to the profile")
    
   
 8. Select an entity from the list of entities shown. Only entities that can be enabled for mobile offline appear in the **Entity** list and then select **Next**.
 
    > [!div class="mx-imgBorder"]
-   >![Add entity](media/mol_add_entity_1.png "Add entity")
+   >![Entity list](media/mol_add_entity_1.png "Entity list")
  
 
 9. Select a filter based on the ownership type for the entity. Entity ownership is decided when you create the entity. For more information, see [Types of entities and entity ownership](https://docs.microsoft.com/powerapps/maker/common-data-service/types-of-entities).
