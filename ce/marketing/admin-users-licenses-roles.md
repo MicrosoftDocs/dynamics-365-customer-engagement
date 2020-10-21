@@ -29,7 +29,7 @@ Read this topic to learn how to work with user accounts, user licenses, and secu
 
 ## Create user accounts and assign licenses
 
-Like most model-driven apps in Dynamics 365 (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing, and Dynamics 365 Project Service Automation), Dynamics 365 Marketing integrates with the user management and licensing features of the Microsoft 365 admin center. To get started, each user who requires access to Marketing must have a user account on your Microsoft 365 tenant. More information: [Add users individually or in bulk to Office 365](https://docs.microsoft.com/office365/admin/add-users/add-users)
+Like most model-driven apps in Dynamics 365 (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing, and Dynamics 365 Project Service Automation), Dynamics 365 Marketing integrates with the user management and licensing features of the Microsoft 365 admin center. To get started, each user who requires access to Marketing must have a user account on your Microsoft 365 tenant. More information: [Add users individually or in bulk to Microsoft 365](https://docs.microsoft.com/office365/admin/add-users/add-users)
 
 Unlike most Dynamics 365 apps, Dynamics 365 Marketing is licensed per instance (also based on certain quotas, such as the number of marketing contacts and monthly email messages) but it isn't licensed per seat, which means that you can add as many users to each Marketing instance as you like for no extra charge because Marketing user licenses are free.
 
@@ -67,7 +67,7 @@ To purchase and assign a free Marketing user license:
 1. Assign the appropriate security roles to grant the new user access to the required Marketing features, as described in the next section. The app doesn't allow access to any user who does not have at least one relevant security role.
 
 More information: 
-[Assign licenses to users in Office 365 for business](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users)
+[Assign licenses to users in Microsoft 365 for business](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users)
 
 <a name="assign-role"></a>
 
@@ -211,5 +211,5 @@ The system uses this account when performing important internal tasks, and Marke
 [Create users and assign security roles](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles)  
 [Security roles and privileges](https://docs.microsoft.com/power-platform/admin/security-roles-privileges)  
 [Manage teams](manage-teams.md)  
-[Add users individually or in bulk to Office 365](https://docs.microsoft.com/office365/admin/add-users/add-users)  
-[Assign licenses to users in Office 365 for business](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users)
+[Add users individually or in bulk to Microsoft 365](https://docs.microsoft.com/office365/admin/add-users/add-users)  
+[Assign licenses to users in Microsoft 365 for business](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users)

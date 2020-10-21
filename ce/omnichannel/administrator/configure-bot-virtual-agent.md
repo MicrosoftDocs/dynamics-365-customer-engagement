@@ -5,8 +5,7 @@ author: platkat
 ms.author: ktaylor
 manager: shujoshi
 ms.date: 10/12/2020
-ms.service: 
-  "dynamics-365-customerservice"
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ---
 
@@ -99,7 +98,7 @@ Ensure to map the routing rules to the correct queues so that the queries are ro
 
 ## Configure context variables for a bot
 
-Before customers initiate a conversation, the context of the activities they perform can be made available for the bot to intelligently provide responses and handle the conversations. You can configure context variables for the bot in Power Virtual Agents. For information on context variables that can be configured, see [Context variables](context-variables-for-bot.md).
+When customers initiate a conversation, the relevant context related to the customer, the issue they are facing, and recent activities performed by them can be made available for the bot to intelligently provide contextual responses to resolve customer issues in a quick and efficient manner. For example, the bot can use the logged in user information to look up recent case information or the order history of the customer and provide a response. Similarly, the pre-conversation information, custom context, or recent pages browsed on a website by the customer can be passed to the bot by configuring context variables for the bot in Power Virtual Agents. For information on context variables that can be configured, see [Context variables](context-variables-for-bot.md).
 
 In Power Virtual Agents, do the following:
 
@@ -124,6 +123,7 @@ At run time, the required information is captured in the context variable that c
 | **Suggested actions:** Suggested actions enable your bot to present buttons that the user can tap to provide input. Suggested actions appear close to the composer and enhance user experience. They enable the user to answer a question or make a selection with a simple tap of a button, rather than having to type a response with a keyboard. |	Suggested actions cannot display vertically. |
 | **Format bot messages:** You can set the optional TextFormat property to control how your message's text content is rendered. | Power Virtual Agents does not support markdown with images and text. <br>When Power Virtual Agents sends markdown text, there is extra space between lines. <br>Carousel layout is not supported. |
 | **File attachments:** Once file attachments are enabled in Omnichannel, customers can send file attachments. | Power Virtual Agents cannot operate on Omnichannel file attachments. |
+|||
 
 ## Privacy notice
 

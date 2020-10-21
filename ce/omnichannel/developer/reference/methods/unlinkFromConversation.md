@@ -1,10 +1,10 @@
 ---
 title: "unlinkFromConversation (Omnichannel for Customer Service Session API reference) | MicrosoftDocs"
-description: 
+description: "Omnichannel for Customer Service Session API reference"
 author: platkat
 ms.author: ktaylor
 manager: shujoshi
-ms.date: 10/05/2020
+ms.date: 10/20/2020
 ms.topic: article
 ---
 # unlinkFromConversation
@@ -26,30 +26,18 @@ This function can be used to unlink an already linked entity record of type cust
 
 ## Return Value
 
-ISuccessObject.
-
-ISuccessObject can be defined as:
-
-```
-export interface ISuccessObject {
-        entityLogicalName: string,
-        recordId: string,
-        liveWorkItemId: string,
-        message: string,
-        status: string,
-        additionalDetails: any,
-        currentReqId: string,
-    }
-```
+A resolved/reject promise on the basis of the outcome of the operation. 
 
 ## Example
 
 ```javascript
-Microsoft.Omnichannel.unlinkFromConversation("incident", "6e8a786f-59e0-ea11a813-000d3a8b1f3b").then((response)=>{
-    console.log(response);
-}, (error)=>{
-    console.log(error);
-});
+//Unlinking an already linked incident record from the current conversation 
+Microsoft.Omnichannel.unlinkFromConversation("incident", "6b726d86-d37c-43b8-b3a4-c4056ddd2e07").then((response) => { 
+    // Refreshing the tab UI  
+    Microsoft.Apm.refreshTab("tab-id-3"); 
+}, (error) => { 
+    console.log(error); 
+}); 
 ```
 
 ## See also

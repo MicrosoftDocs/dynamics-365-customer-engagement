@@ -271,6 +271,7 @@
 ### How to
 #### [Manage custom context](developer/how-to/send-context-starting-chat.md)
 #### [Display custom context](developer/how-to/display-custom-context.md)
+#### [Enable bot context NuGet package](developer/how-to/enable-bot-context.md)
 #### [Send authentication token](developer/how-to/send-auth-token-starting-chat.md)
 #### [Initiate a chat](developer/how-to/initiate-chat-wait-time.md)
 #### [Start chat proactively](developer/how-to/start-proactive-chat.md)
@@ -429,7 +430,7 @@
 ##### [startProactiveChat](developer/reference/methods/startProactiveChat.md)
 ##### [closeChat](developer/reference/methods/closeChat.md)
 ### Real time translation JavaScript API Reference
-#### [translationprovider](developer/reference/methods/getTranslationProvider.md)
+#### [translationprovider](developer/reference/properties/getTranslationProvider.md)
 #### [initializeNewConversation](developer/reference/methods/initializeNewConversation.md)
 #### [translateMessage](developer/reference/methods/translateMessage.md)
 ### Events

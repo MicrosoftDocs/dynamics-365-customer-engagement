@@ -22,7 +22,7 @@ The documents that you create in the Sales app are stored on SharePoint and are 
 >Before you can use SharePoint to store documents, it must be enabled by your system administrator.
 
 >[!IMPORTANT]
->This feature requires that you have an Office 365 subscription or a subscription to an online service such as SharePoint.
+>This feature requires that you have a Microsoft 365 subscription or a subscription to an online service such as SharePoint.
 
 ## What record types support document management?
 
