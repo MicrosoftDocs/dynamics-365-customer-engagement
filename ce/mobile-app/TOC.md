@@ -1,6 +1,6 @@
 # [Overview](overview.md)
 
-# Administrator Basics 
+# Administrator basics 
 ## [What's supported](support-phones-tablets.md)
 ## [Set up mobile app](set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md)
 ## [Manage and secure devices](secure-manage-phones-tablets.md)
