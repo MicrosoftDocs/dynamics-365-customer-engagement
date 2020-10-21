@@ -307,7 +307,7 @@ The assistant reminds you of upcoming activities; it evaluates your communicatio
 
 The assistant draws your attention to your most important items and tasks, drawn from all areas of the app.
 
-- To access the assistant, on the nav bar, slect the More button  ![Dynamics 365 apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 apps ellipsis") > **Relationship Assistant**.
+- To access the assistant, on the nav bar, select the More button  ![Dynamics 365 apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 apps ellipsis") > **Relationship Assistant**.
 
     > [!div class="mx-imgBorder"] 
     > ![Dynamics 365 for phones and tablets Relationship Assistant](media/RelationshipAssistant.png "Dynamics 365 for phones and tablets Relationship Assistant")
