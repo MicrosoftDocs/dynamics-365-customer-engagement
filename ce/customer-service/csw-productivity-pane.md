@@ -70,8 +70,8 @@ The knowledge base search lets you search for relevant knowledge articles to res
 
 ### See also
 
-[Customer Service workspace - overview](csw-overview.md) <\br>
-[View AI-suggested similar cases and knowledge articles](csw-view-ai-suggested-cases-knowledge-articles.md) <\br>
-[Guide customer interaction with agent scripts](https://docs.microsoft.com/en-us/dynamics365/omnichannel/agent/agent-oc/oc-agent-scripts) <\br>
-[Automate tasks with macros](https://docs.microsoft.com/dynamics365/app-profile-manager/macros) <\br>
+[Customer Service workspace - overview](csw-overview.md) <br>
+[View AI-suggested similar cases and knowledge articles](csw-view-ai-suggested-cases-knowledge-articles.md) <br>
+[Guide customer interaction with agent scripts](https://docs.microsoft.com/en-us/dynamics365/omnichannel/agent/agent-oc/oc-agent-scripts) <br>
+[Automate tasks with macros](https://docs.microsoft.com/dynamics365/app-profile-manager/macros) <br>
 [Search for knowledge articles](search-knowledge-articles-csh.md)
