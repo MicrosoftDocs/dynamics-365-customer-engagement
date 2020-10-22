@@ -24,6 +24,20 @@ ms.custom:
 
 The knowledge search analytics dashboard is designed to provide your organization's customer service supervisors and knowledge workers with valuable insights into how your support agents are finding and using knowledge articles.
 
+> [!NOTE]
+>
+> - The knowledge search analytics dashboard is currently available only in the following geographical locations:
+>   - North America
+>   - South America
+>   - Canada
+>   - United Kingdom
+>   - Europe
+>   - Japan
+>   - India
+>   - Asia Pacific
+>   - Australia
+> - The knowledge base analytics dashboard supports only English content and is available only in organizations that have the base language set as English.
+
 ## Configure the Knowledge search analytics dashboard
 
 To enable the Knowledge search analytics dashboard:
