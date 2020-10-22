@@ -20,7 +20,7 @@ search.app:
   
 ---
 
-# Dashboard Overview
+# Dashboard overview
 
 The Insights dashboards for Customer Service contain a variety of charts and metrics to help you to understand the factors that have the greatest impact on your customer service. Key performance indicators and graphical breakdowns of your system's support cases are coupled with AI-generated Insights on cases and topics that contribute to overall trends.
 
