@@ -4,7 +4,7 @@ description: "Learn how to configure Knowledge search insights in Customer Servi
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 10/20/2020
+ms.date: 10/22/2020
 ms.topic: article
 ms.service: 
   "dynamics-365-customerservice"
