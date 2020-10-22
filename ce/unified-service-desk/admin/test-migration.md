@@ -68,7 +68,7 @@ For example, the selected configuration elements are as follows:
 
 ### Verify window navigation rules
 
-The page navigation in web client and unified interface are different. In web client, for window navigation rules, you might've set up the **Route-type** as **Pop-up** for the originating hosted control, and when you convert the hosted control, the migration tool replaces the **Pop-up** to **Inplace** route type. Based on your earlier configuration, if required, you might want to update the window navigation rules.
+The page navigation in web client and Unified Interface are different. In web client, for window navigation rules, you might've set up the **Route-type** as **Pop-up** for the originating hosted control, and when you convert the hosted control, the migration tool replaces the **Pop-up** to **Inplace** route type. Based on your earlier configuration, if required, you might want to update the window navigation rules.
 
 **Verify page navigation behavior:**
 
@@ -79,9 +79,9 @@ You view an account page in a browser or in Unified Service Desk client applicat
 
 ### Reconfigure events
 
-The **BrowserDocumentComplete** event in web client is converted to the **PageReady** event in unified interface.
+The **BrowserDocumentComplete** event in web client is converted to the **PageReady** event in Unified Interface.
 
-The **PageLoadComplete** event maps to **DataReady** event in web client. After conversion of the **BrowserDocumentComplete** to the **PageReady** event, the **DataReady** event is fired in unified interface. In this case, your page might not be ready for DOM interactions, so if you have any Runscript action calls on the **DataReady** event, we recommend moving the Runscript action calls to the **PageReady** event.
+The **PageLoadComplete** event maps to **DataReady** event in web client. After conversion of the **BrowserDocumentComplete** to the **PageReady** event, the **DataReady** event is fired in Unified Interface. In this case, your page might not be ready for DOM interactions, so if you have any Runscript action calls on the **DataReady** event, we recommend moving the Runscript action calls to the **PageReady** event.
 
 ### Reconfigure associated view action call
 
@@ -111,7 +111,7 @@ You need to update parameters of the **AssociatedView** action call in the Unifi
 
 ### Reconfigure RunXrmCommands
 
-In web client, you can pass a script as data in an action call. In unified interface, you need write the function in the web resource and pass the Unified Service Desk data parameters as parameters to that function.
+In web client, you can pass a script as data in an action call. In Unified Interface, you need write the function in the web resource and pass the Unified Service Desk data parameters as parameters to that function.
 
 The migration tool converts all your action calls and replaces the data parameters with the variables in the function. Ensure to test and validate each action call in the Unified Interface app.
 
@@ -124,9 +124,9 @@ All the data parameters are passed as strings in quotes. For example, `‘[[inci
 
 It is recommended to update your Hosting Type to Chrome. To learn more, see [Update Unified Service Desk Component type to Chrome](../chrome-process.md).
 
-### Set unified interface theme
+### Set Unified Interface theme
 
-Set the Unified Interface theme for the Unified Service Desk client application after you migrate your configurations from web client to unified interface.
+Set the Unified Interface theme for the Unified Service Desk client application after you migrate your configurations from web client to Unified Interface.
 
 Create a **Unified Interface Settings** record with the theme as **Unified Blue**.
 
