@@ -114,7 +114,7 @@ Omnichannel for Customer Service creates a social profile for incoming requests 
 
 With social profiles, you can do the following:
 
-- [Automatically identify customers](record-identification-rule.md) for social channels
+- [Automatically identify customers](record-identification-rule.md) on social channels
 - Display the customer name or phone number with conversations on the agent dashboard
 - Send outbound messages
 
