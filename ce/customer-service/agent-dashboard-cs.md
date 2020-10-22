@@ -4,7 +4,7 @@ description: Learn about the Agent dashboard insights to better understand agent
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 10/15/2020
+ms.date: 10/22/2020
 ms.topic: article
 ms.service: 
   dynamics-365-customerservice
@@ -30,20 +30,35 @@ search.app:
 > - This preview feature does not come with technical support and Microsoft Dynamics 365 Technical Support won't be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.
 > - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk. All previews are subject to separate [Terms and Conditions](../legal/supp-dynamics365-preview.md).
 
-![Agent dashboard](media/agent-dashboard-insights.png "Agent dashboard")
+The Agent dashboard shows charts and KPIs that you can use to guide agents and understand overall agent performance.
+
+![Agent dashboard](media/agent-dashboard-analytics-cs.png "Agent dashboard")
 
 Navigate to the Agent dashboard by clicking **Agent** at the top of the workspace. The dashboard shows charts and KPIs for individual agents and overall agent performance, and includes the following insights:
 
-- Agent Dashboard 
+## Key insights discovered card
 
-- Key Insights card 
+Agents that rank high or low across specific indicators to make it easier for customer service managers to discover top issues in agent performance.
+  
 
-- KPI Summary charts 
+## KPI summary details
 
-- Case volume over duration chart 
+The KPI summary charts summarize the key performance indicators for the specified time period and the percent change over the period. You can filters these areas by duration, channel, queue, and agent.
 
-- Avg. resolution time trend 
+Insights for the following areas are displayed:
 
-- CSAT and Avg. sentiment by agent chart 
+- Active cases
+- Resolved cases
+- Escalated cases
+- Average resolve time
+- Average CSAT
+- Average survey sentiment
 
-- Agent metrics chart 
+KPIs are displayed as follows:
+
+- Case volume over duration
+- Average resolve time
+- CSAT and survey sentiment by agent
+- Agent metrics
+
+
