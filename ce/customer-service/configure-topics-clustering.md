@@ -1,6 +1,6 @@
 ---
-title: "Configure topic clustering for cases in Dynamics 365 in Customer Service Hub and Customer Service workspace | MicrosoftDocs"
-description: "Learn how to configure and view the topics dashboard in Customer Service Hub and Customer Service workspace"
+title: "Configure AI topic clustering for cases in Dynamics 365 in Customer Service Hub and Customer Service workspace | MicrosoftDocs"
+description: "Learn how to configure and view the topics clustering dashboard in Customer Service Hub and Customer Service workspace"
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
@@ -12,7 +12,7 @@ ms.custom:
 
 ---
 
-# Preview: Configure topic clustering for cases in for Customer Service Hub and Customer Service workspace
+# Preview: Configure AI topic clustering for cases in for Customer Service Hub and Customer Service workspace
 
 [!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
