@@ -37,7 +37,7 @@ The Summary dashboard gives you a broad overview of the customer service experie
 
 The KPI summary dashboard includes a variety of charts with graphical views of your system's key performance indicators. 
 
-The Case volume drivers and Emerging case volume by topic charts use natural language understanding to group support cases as *topics* that are a collection of related cases. These charts show you the customer support topics that are generating the most volume and emerging topics with the highest rate of change in volume, helping you identify areas for improvement that can have the greatest impact on system performance.
+The case volume drivers and emerging case volume by topic charts use natural language understanding to group support cases as *topics* that are a collection of related cases. These charts show you the customer support topics that are generating the most volume and emerging topics with the highest rate of change in volume, helping you identify areas for improvement that can have the greatest impact on system performance.
 
 By default, the dashboard shows you KPIs for the past month and for all products, channels, business units, and teams in your system. To change the time period, select a value from the **Time period** drop-down list at the top of the dashboard. You can select either past day, past week, or past month.
 
