@@ -1,10 +1,10 @@
 ---
-title: "Post-requisites steps for migration of configurations | MicrosoftDocs"
+title: "Post-migration steps | MicrosoftDocs"
 description: "Test migration of web client configurations to the unified interface app."
 ms.custom: 
   - dyn365-USD
   - dyn365-admin
-ms.date: 11/04/2019
+ms.date: 10/22/2020
 ms.service: 
   - dynamics-365-customerservice
 ms.topic: article
@@ -18,11 +18,19 @@ search.app:
   - D365USD
 ---
 
-# Post-requisites steps for migration of configurations
+# Post-migration steps
 
-This topic describes the steps you need to perform after you migrate the configurations from web client to unified interface app.
+This topic describes the steps you need to perform after you migrate the configurations from the legacy web client to the Unified Interface app.
 
-## Test the configurations on the target Unified Interface app.
+## Clear the CEF cache folder
+
+Clear the CEF cache folder before you sign into Unified Service Desk application.
+
+1. Go to c:\\Users\<user name>\Roaming\Microsoft\USD\CEF
+
+2. Delete the contents of the folder.
+
+## Test configurations in the target Unified Interface app
 
 1. Sign in to the Common Data Service platform.
 
