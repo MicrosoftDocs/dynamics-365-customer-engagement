@@ -30,7 +30,7 @@ search.app:
 > - This preview feature does not come with technical support and Microsoft Dynamics 365 Technical Support won't be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.
 > - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk. All previews are subject to separate [Terms and Conditions](../legal/supp-dynamics365-preview.md).
 
-The Topics dashboard shows a detailed breakdown of cases and their assigned topics.
+The Topics dashboard shows a detailed breakdown of cases and their assigned topics. Customer Service Insights uses AI-generated topics to automatically group your cases, including across different channels and using natural language understanding to help you better understand the key information agents are searching for in your organization.
 
 ![Topics dashboard](media/topics-dashboard-analytics-cs.png "Topics dashboard")
 
