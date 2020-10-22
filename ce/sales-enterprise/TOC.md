@@ -62,6 +62,7 @@
 #### [Configure advanced settings](forecast-configure-advanced-settings.md)
 #### [Activate and upload simple columns data](activate-upload-simple-columns-data-forecast.md)
 #### [Deactivate and delete forecast](deactivate-delete-forecast.md)
+#### [What is hybrid forecast](hybrid-forecast.md)
 #### [Configure forecast using custom rollup entity](configure-forecast-using-custom-rollup-entity.md)
 #### [Capture forecast category for opportunity](capture-forecast-category-opportunity.md)
 #### [Add forecast grid and configuration options in site map](add-forecast-site-map.md)

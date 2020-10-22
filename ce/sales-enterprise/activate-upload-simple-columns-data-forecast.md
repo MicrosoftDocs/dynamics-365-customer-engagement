@@ -18,7 +18,7 @@ Use the **Activate & add quotas** step to activate the forecast and make it avai
 > - Don’t activate a forecast through any other options such as **Advanced find**. Use only forecast configuration page to activate forecasts.
 
 <a name=select-primary-data-type></a>
-1. If you have used multiple data types for columns in the forecast, an error is displayed on the top of the **Activate forecast** section. You must resolve the issue to publish and display the data in kanban view, deal flows, and trend charts. The following screen is an example of error:
+1. If you have used different data types for columns in the forecast, an error is displayed on the top of the **Activate forecast** section. You must resolve the issue to publish and display the data in kanban view, deal flows, and trend charts. The following screen is an example of error:
     
     > [!div class="mx-imgBorder"]
     > ![Multiple data type error](media/forecast-publish-multiple-data-type-error.png "Multiple data type error")
