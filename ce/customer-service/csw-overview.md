@@ -4,7 +4,7 @@ description: Overview of the Customer Service Workspace application for Dynamics
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 10/05/2020
+ms.date: 10/21/2020
 ms.topic: article 
 ms.service: dynamics-365-customerservice
 ms.custom: dyn365-customerservice
@@ -52,7 +52,7 @@ Let's explore the elements of the Customer Service workspace and how to navigate
 | 8 | Select Shift + mouse click to open a new session for an activity. A single click replaces your view with the activity form. Select the back arrow in the upper-left corner of the form to go back to your previous view. |
 |||
 
-### Viewing and editing records
+### View and edit records
 
 There are new navigation behaviors to be aware of in Customer Service workspace. All other basic model-driven app functionality behaves the same way as it does in the Customer Service Hub and Omnichannel for Customer Service apps.
 
@@ -78,7 +78,7 @@ From the Customer Service Agent Dashboard in Customer Service workspace, you can
 | 7 | Open the menu for additional actions including Assign, Add to Queue, Run Report, Email a Link, Share, Follow, or Unfollow cases. 
 
 
-#### Editing case data
+#### Edit case data
 
 Let's explore the fields you can edit on the **Case Summary** tab:
 
@@ -155,6 +155,6 @@ For more information, see [Productivity pane](csw-productivity-pane.md).
 
 ### See also
 
-[Work with cases in Customer Service Hub](customer-service-hub-user-guide-create-a-case.md)
-[Work with activities in Customer Service Hub](customer-service-hub-user-guide-manage-timeline-activities.md)
+[Work with cases in Customer Service Hub](customer-service-hub-user-guide-create-a-case.md) <br>
+[Work with activities in Customer Service Hub](customer-service-hub-user-guide-manage-timeline-activities.md) <br>
 [Overview of the productivity pane](csw-productivity-pane.md)

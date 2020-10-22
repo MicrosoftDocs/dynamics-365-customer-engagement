@@ -1,7 +1,7 @@
 ---
 title: "Set expiration dates on email messages (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Prevent customer journeys from delivering out-of-date information by assigning an expiration date for email tiles."
-ms.date: 06/26/2020
+ms.date: 10/20/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -29,15 +29,13 @@ Some of your customer journeys may include email messages with time-sensitive co
 
 1. Select the email tile in your customer journey.
 
-2. Switch the **Email expiration** toggle within **Email properties** to **On**.
+2. Select the email tile, then open the **Expiration** category in the email properties pane on the right side of the window. Switch the **Email expiration** toggle to **On**.
 
-3. Set your static **Expiration date and time** (for example, March 31, 2020 at 22:00). Specified expiry times use the customer journey's time zone.
+3. Set the static expiration **Date and time** (for example, October 5, 2020 at 12:00 AM). Specified expiry times use the customer journey's time zone.
 
-    ![Journey email-tile expiration date and time](./media/email-expire-date-time.png "Journey email-tile expiration date and time")
+    ![Journey email-tile expiration date and time](./media/email-expire-settings.png "Journey email-tile expiration date and time")
 
 4. Once a journey is live, the expiration date is shown above the email tile:
-
-    ![Journey expiration date and time above tile](./media/email-expire-tile.png "Journey expiration date and time above tile")
 
 ## Identify expired-message results in insights
 

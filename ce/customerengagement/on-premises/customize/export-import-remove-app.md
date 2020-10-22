@@ -25,6 +25,7 @@ search.audienceType:
 
 # Export, import, or remove an app
 
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Export solutions](/powerapps/maker/common-data-service/export-solutions)
 
 App created in Dynamics 365 Customer Engagement (on-premises) are distributed as solution components. After you have created an app, you can make it available for other organizations to use by packaging the app into a solution and then exporting it into a zip file. After the solution (.zip file) is successfully imported by the organization, the packaged app is available for use.
 

@@ -31,7 +31,7 @@ To enable the synchronization of lead data from [!include[LinkedIn](../includes/
 
 ## Prerequisites
 
-* To install, update, or remove the solution, you’ll need global admin permissions in Office 365, and be a system administrator or have a customizer security role in Dynamics 365 apps.
+* To install, update, or remove the solution, you’ll need global admin permissions in Microsoft 365, and be a system administrator or have a customizer security role in Dynamics 365 apps.
 
 * To sync leads from [!include[LinkedIn](../includes/pn-linkedin.md)] and run campaigns on [!include[LinkedIn](../includes/pn-linkedin.md)], you need access to a [!include[LinkedIn](../includes/pn-linkedin.md)] Advertising Account that can manage ads by using [!include[LinkedIn](../includes/pn-linkedin.md)] Campaign Manager.    
   More information: [LinkedIn: Campaign Manager Overview](https://www.linkedin.com/help/lms/answer/56969), [LinkedIn: Creating an Account for Campaigns](https://www.linkedin.com/help/lms/topics/8121/8122/5749), [LinkedIn: Adding, Editing, and Removing User Permissions on Advertising Accounts](https://www.linkedin.com/help/lms/answer/5753)
@@ -48,7 +48,7 @@ First, an administrator needs to install the solution.
 
 3. Select **Get** to start installing the solution.
 
-4. Review and accept the disclaimer, required permissions, and service terms to install the connector. You need to be a global admin in this Office 365 tenant to authorize S2S inbound. More information about S2S: [MSDN: Build web applications using Server-to-Server (S2S) authentication](https://msdn.microsoft.com/library/mt790168.aspx)  
+4. Review and accept the disclaimer, required permissions, and service terms to install the connector. You need to be a global admin in this Microsoft 365 tenant to authorize S2S inbound. More information about S2S: [MSDN: Build web applications using Server-to-Server (S2S) authentication](https://msdn.microsoft.com/library/mt790168.aspx)  
    It takes a few minutes to install the solution. To monitor the status of the installation, or update or remove a managed solution, go to the [Microsoft 365 admin center](https://admin.microsoft.com/).
    More information: [TechNet: Use the Microsoft 365 admin center to manage your subscription](https://technet.microsoft.com/library/dn973004.aspx).
 

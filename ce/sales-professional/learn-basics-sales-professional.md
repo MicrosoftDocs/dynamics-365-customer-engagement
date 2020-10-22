@@ -18,10 +18,10 @@ Start here to onboard quickly and learn about the Sales Professional app and its
 
 ## Go to the Sales Professional app
 
-1.  Sign in to Office 365, select the Office 365 app launcher, and then select **Dynamics 365**.
+1.  Sign in to Microsoft 365, select the Microsoft 365 app launcher, and then select **Dynamics 365**.
 
     > [!div class="mx-imgBorder"]
-    > ![Office 365 App Launcher pane](media/office365-app-launcher-pane.png "Office 365 App Launcher pane")
+    > ![Microsoft 365 App Launcher pane](media/office365-app-launcher-pane.png "Microsoft 365 App Launcher pane")
 
     >[!NOTE]
     >The selection of apps available to you in the app launcher will depend on your subscription.

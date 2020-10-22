@@ -50,7 +50,7 @@ There are a few ways you can get access to Dynamics 365 Field Service:
 
 - Sign up for an entirely new trial environment. Head to [the Dynamics 365 trials site](https://trials.dynamics.com), select **Field Service**, and follow the instructions.
 
-- Purchase Field Service by going to your **Office 365 admin center** > **Billing** > **Purchase Services** and select **Dynamics 365 Field Service** and **Buy Now**. You can also get Field Service from this [Dynamics 365 purchasing page](https://dynamics.microsoft.com/pricing/#FieldService).
+- Purchase Field Service by going to your **Microsoft 365 admin center** > **Billing** > **Purchase Services** and select **Dynamics 365 Field Service** and **Buy Now**. You can also get Field Service from this [Dynamics 365 purchasing page](https://dynamics.microsoft.com/pricing/#FieldService).
 
 - Add a Field Service trial to an existing Dynamics 365 organization by going to **Settings** > **Microsoft AppSource**. Search for **Field Service trial**, select **Dynamics 365 Field Service trial**, and then select **Free Trial**.
 
