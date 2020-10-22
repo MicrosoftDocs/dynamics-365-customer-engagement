@@ -22,7 +22,7 @@ search.audienceType:
 ---
 # Edit filter criteria and change sort order in views
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Edit filter criteria and change sort order in model-driven app views](/powerapps/maker/model-driven-apps/edit-filter-criteria)
 
 <a name="BKMK_EditFilterCriteria"></a>   
 
