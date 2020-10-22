@@ -1,6 +1,6 @@
 ---
-title: "msdyn_KPIEventData Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "Includes schema information and supported messages for the msdyn_KPIEventData entity."
+title: "msdyn_channelprovider Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+description: "Includes schema information and supported messages for the msdyn_channelprovider entity."
 ms.date: 10/21/2020
 ms.service: "crm-online"
 ms.topic: "reference"
@@ -11,48 +11,48 @@ author: "JimDaly"
 ms.author: "jdaly"
 manager: "jdaly"
 ---
-# msdyn_KPIEventData Entity Reference
+# msdyn_channelprovider Entity Reference
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-Primary entity for a kpi event
+Entity that will hold the information (configuration) about a channel provider
 
-**Added by**: Channel API Integration Framework Analytics Solution
+**Added by**: Channel Integration Framework version 2.0 Solution
 
 
 ## Messages
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.0/msdyn_kpieventsdata(*msdyn_kpieventdataid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/msdyn_kpieventsdata<br />See [Create](../webapi/create-entity-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_kpieventsdata(*msdyn_kpieventdataid*)<br />See [Delete](../webapi/update-delete-entities-using-web-api.md#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Assign|PATCH [*org URI*]/api/data/v9.0/msdyn_channelproviders(*msdyn_channelproviderid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Create|POST [*org URI*]/api/data/v9.0/msdyn_channelproviders<br />See [Create](../webapi/create-entity-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_channelproviders(*msdyn_channelproviderid*)<br />See [Delete](../webapi/update-delete-entities-using-web-api.md#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 |IsValidStateTransition|<xref href="Microsoft.Dynamics.CRM.IsValidStateTransition?text=IsValidStateTransition Function" />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 |ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_kpieventsdata(*msdyn_kpieventdataid*)<br />See [Retrieve](../webapi/retrieve-entity-using-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_kpieventsdata<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_channelproviders(*msdyn_channelproviderid*)<br />See [Retrieve](../webapi/retrieve-entity-using-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_channelproviders<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
 |RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
 |RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_kpieventsdata(*msdyn_kpieventdataid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_kpieventsdata(*msdyn_kpieventdataid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_channelproviders(*msdyn_channelproviderid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_channelproviders(*msdyn_channelproviderid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
 |Property|Value|
 |--------|-----|
-|CollectionSchemaName|msdyn_KPIEventDatas|
-|DisplayCollectionName|KPI Event Data|
-|DisplayName|KPI Event Data|
-|EntitySetName|msdyn_kpieventsdata|
+|CollectionSchemaName|msdyn_channelproviders|
+|DisplayCollectionName|Channel Providers|
+|DisplayName|Channel Provider|
+|EntitySetName|msdyn_channelproviders|
 |IsBPFEntity|False|
-|LogicalCollectionName|msdyn_kpieventdatas|
-|LogicalName|msdyn_kpieventdata|
+|LogicalCollectionName|msdyn_channelproviders|
+|LogicalName|msdyn_channelprovider|
 |OwnershipType|UserOwned|
-|PrimaryIdAttribute|msdyn_kpieventdataid|
+|PrimaryIdAttribute|msdyn_channelproviderid|
 |PrimaryNameAttribute|msdyn_name|
-|SchemaName|msdyn_KPIEventData|
+|SchemaName|msdyn_channelprovider|
 
 <a name="writable-attributes"></a>
 
@@ -61,26 +61,18 @@ Primary entity for a kpi event
 These attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
-- [msdyn_AdditionalData](#BKMK_msdyn_AdditionalData)
-- [msdyn_cifSessionId](#BKMK_msdyn_cifSessionId)
-- [msdyn_ClientSessionId](#BKMK_msdyn_ClientSessionId)
-- [msdyn_ConversationId](#BKMK_msdyn_ConversationId)
-- [msdyn_CustomAttribute1](#BKMK_msdyn_CustomAttribute1)
-- [msdyn_CustomAttribute2](#BKMK_msdyn_CustomAttribute2)
-- [msdyn_CustomAttribute3](#BKMK_msdyn_CustomAttribute3)
-- [msdyn_CustomAttribute4](#BKMK_msdyn_CustomAttribute4)
-- [msdyn_CustomAttribute5](#BKMK_msdyn_CustomAttribute5)
-- [msdyn_EventTimestamp](#BKMK_msdyn_EventTimestamp)
-- [msdyn_ExternalCorrelationId](#BKMK_msdyn_ExternalCorrelationId)
-- [msdyn_KPIEventDataId](#BKMK_msdyn_KPIEventDataId)
-- [msdyn_KPIEventId](#BKMK_msdyn_KPIEventId)
-- [msdyn_KPIEventName](#BKMK_msdyn_KPIEventName)
-- [msdyn_KPIEventReason](#BKMK_msdyn_KPIEventReason)
-- [msdyn_Name](#BKMK_msdyn_Name)
-- [msdyn_ParticipantId](#BKMK_msdyn_ParticipantId)
-- [msdyn_ProviderId](#BKMK_msdyn_ProviderId)
-- [msdyn_ProviderSessionId](#BKMK_msdyn_ProviderSessionId)
-- [msdyn_sessionId](#BKMK_msdyn_sessionId)
+- [IsCustomizable](#BKMK_IsCustomizable)
+- [msdyn_apiversion](#BKMK_msdyn_apiversion)
+- [msdyn_channelproviderId](#BKMK_msdyn_channelproviderId)
+- [msdyn_channelurl](#BKMK_msdyn_channelurl)
+- [msdyn_customparams](#BKMK_msdyn_customparams)
+- [msdyn_enableanalytics](#BKMK_msdyn_enableanalytics)
+- [msdyn_enableoutbound](#BKMK_msdyn_enableoutbound)
+- [msdyn_Label](#BKMK_msdyn_Label)
+- [msdyn_name](#BKMK_msdyn_name)
+- [msdyn_SortOrder](#BKMK_msdyn_SortOrder)
+- [msdyn_trusteddomain](#BKMK_msdyn_trusteddomain)
+- [msdyn_UniqueName](#BKMK_msdyn_UniqueName)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [OwnerId](#BKMK_OwnerId)
 - [OwnerIdType](#BKMK_OwnerIdType)
@@ -91,6 +83,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 
 ### <a name="BKMK_ImportSequenceNumber"></a> ImportSequenceNumber
+
+**Added by**: Basic Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -107,248 +101,154 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Integer|
 
 
-### <a name="BKMK_msdyn_AdditionalData"></a> msdyn_AdditionalData
+### <a name="BKMK_IsCustomizable"></a> IsCustomizable
+
+**Added by**: Basic Solution Solution
 
 |Property|Value|
 |--------|-----|
-|Description|Additional data related to the kpi event|
-|DisplayName|Additional Data|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
+|Description|For internal use only.|
+|DisplayName|Is Customizable|
+|IsValidForForm|False|
 |IsValidForRead|True|
-|LogicalName|msdyn_additionaldata|
-|MaxLength|2000|
-|RequiredLevel|None|
-|Type|String|
+|LogicalName|iscustomizable|
+|RequiredLevel|SystemRequired|
+|Type|ManagedProperty|
 
 
-### <a name="BKMK_msdyn_cifSessionId"></a> msdyn_cifSessionId
+### <a name="BKMK_msdyn_apiversion"></a> msdyn_apiversion
 
 |Property|Value|
 |--------|-----|
-|Description|Unique identifier for Channel Integration Framework session|
-|DisplayName|User Session Id|
-|FormatName|Text|
-|IsLocalizable|False|
+|Description|CIF version|
+|DisplayName|Api Version|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_cifSessionId|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
+|LogicalName|msdyn_apiversion|
+|RequiredLevel|ApplicationRequired|
+|Type|Picklist|
+
+#### msdyn_apiversion Options
+
+|Value|Label|
+|-----|-----|
+|162450000|2|
 
 
-### <a name="BKMK_msdyn_ClientSessionId"></a> msdyn_ClientSessionId
 
-|Property|Value|
-|--------|-----|
-|Description|Client session identifier|
-|DisplayName|Client Session Id|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_clientsessionid|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_ConversationId"></a> msdyn_ConversationId
-
-|Property|Value|
-|--------|-----|
-|Description|Conversation Identifier|
-|DisplayName|Conversation Id|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_conversationid|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_CustomAttribute1"></a> msdyn_CustomAttribute1
-
-|Property|Value|
-|--------|-----|
-|Description|Custom Attribute 1|
-|DisplayName|Custom Attribute 1|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_customattribute1|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_CustomAttribute2"></a> msdyn_CustomAttribute2
-
-|Property|Value|
-|--------|-----|
-|Description|Custom Attribute 2|
-|DisplayName|Custom Attribute 2|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_customattribute2|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_CustomAttribute3"></a> msdyn_CustomAttribute3
-
-|Property|Value|
-|--------|-----|
-|Description|Custom Attribute 3|
-|DisplayName|Custom Attribute 3|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_customattribute3|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_CustomAttribute4"></a> msdyn_CustomAttribute4
-
-|Property|Value|
-|--------|-----|
-|Description|Custom Attribute 4|
-|DisplayName|Custom Attribute 4|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_customattribute4|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_CustomAttribute5"></a> msdyn_CustomAttribute5
-
-|Property|Value|
-|--------|-----|
-|Description|Custom Attribute 5|
-|DisplayName|Custom Attribute 5|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_customattribute5|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_EventTimestamp"></a> msdyn_EventTimestamp
-
-|Property|Value|
-|--------|-----|
-|DateTimeBehavior|UserLocal|
-|Description|Timestamp at which the event occurred|
-|DisplayName|Event Timestamp|
-|Format|DateAndTime|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_eventtimestamp|
-|RequiredLevel|None|
-|Type|DateTime|
-
-
-### <a name="BKMK_msdyn_ExternalCorrelationId"></a> msdyn_ExternalCorrelationId
-
-|Property|Value|
-|--------|-----|
-|Description|External System Correlation Id|
-|DisplayName|External Correlation Id|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_externalcorrelationid|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_KPIEventDataId"></a> msdyn_KPIEventDataId
+### <a name="BKMK_msdyn_channelproviderId"></a> msdyn_channelproviderId
 
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for entity instances|
-|DisplayName|KPI Event Data Id|
+|DisplayName|CI Provider|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |IsValidForUpdate|False|
-|LogicalName|msdyn_kpieventdataid|
+|LogicalName|msdyn_channelproviderid|
 |RequiredLevel|SystemRequired|
 |Type|Uniqueidentifier|
 
 
-### <a name="BKMK_msdyn_KPIEventId"></a> msdyn_KPIEventId
+### <a name="BKMK_msdyn_channelurl"></a> msdyn_channelurl
 
 |Property|Value|
 |--------|-----|
-|Description|Unique identifier for the KPI Event|
-|DisplayName|KPI Event Id|
+|Description|The url of the title|
+|DisplayName|Channel URL|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_kpieventid|
+|LogicalName|msdyn_channelurl|
+|MaxLength|1024|
+|RequiredLevel|ApplicationRequired|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_customparams"></a> msdyn_customparams
+
+|Property|Value|
+|--------|-----|
+|Description|This takes a text blob as input and Microsoft.CIFramework.getEnvironment will return this as value of the key customParams|
+|DisplayName|Custom Params|
+|Format|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_customparams|
+|MaxLength|2000|
+|RequiredLevel|None|
+|Type|Memo|
+
+
+### <a name="BKMK_msdyn_enableanalytics"></a> msdyn_enableanalytics
+
+|Property|Value|
+|--------|-----|
+|Description|Select yes if you want to enable Analytics for your channel provider|
+|DisplayName|Enable Analytics|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_enableanalytics|
+|RequiredLevel|None|
+|Type|Boolean|
+
+#### msdyn_enableanalytics Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
+
+**DefaultValue**: False
+
+
+
+### <a name="BKMK_msdyn_enableoutbound"></a> msdyn_enableoutbound
+
+|Property|Value|
+|--------|-----|
+|Description|Is outbound communication enabled|
+|DisplayName|Enable Out Bound|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_enableoutbound|
+|RequiredLevel|ApplicationRequired|
+|Type|Boolean|
+
+#### msdyn_enableoutbound Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
+
+**DefaultValue**: False
+
+
+
+### <a name="BKMK_msdyn_Label"></a> msdyn_Label
+
+|Property|Value|
+|--------|-----|
+|Description|Title of the session.|
+|DisplayName|Label|
+|FormatName|Text|
+|IsLocalizable|True|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_label|
 |MaxLength|100|
 |RequiredLevel|ApplicationRequired|
 |Type|String|
 
 
-### <a name="BKMK_msdyn_KPIEventName"></a> msdyn_KPIEventName
+### <a name="BKMK_msdyn_name"></a> msdyn_name
 
 |Property|Value|
 |--------|-----|
-|Description|Name of the  associated KPI event|
-|DisplayName|KPI Event Name|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_kpieventname|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_KPIEventReason"></a> msdyn_KPIEventReason
-
-|Property|Value|
-|--------|-----|
-|Description|Reason due to which the KPI event was created|
-|DisplayName|KPI Event Reason|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_kpieventreason|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_Name"></a> msdyn_Name
-
-|Property|Value|
-|--------|-----|
-|Description|Required name field|
+|Description|Name of the channel provider|
 |DisplayName|Name|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -360,67 +260,52 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|String|
 
 
-### <a name="BKMK_msdyn_ParticipantId"></a> msdyn_ParticipantId
+### <a name="BKMK_msdyn_SortOrder"></a> msdyn_SortOrder
 
 |Property|Value|
 |--------|-----|
-|Description|Identifier of the agent for whom the event was fired|
-|DisplayName|Participant Id|
+|Description|Select Channel Order as 0 for this Channel to take precedence over others.|
+|DisplayName|Channel Order|
+|Format|None|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_sortorder|
+|MaxValue|1000|
+|MinValue|0|
+|RequiredLevel|ApplicationRequired|
+|Type|Integer|
+
+
+### <a name="BKMK_msdyn_trusteddomain"></a> msdyn_trusteddomain
+
+|Property|Value|
+|--------|-----|
+|Description|Domain to be whitelisted|
+|DisplayName|Trusted Domain|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_participantid|
-|MaxLength|100|
+|LogicalName|msdyn_trusteddomain|
+|MaxLength|2000|
 |RequiredLevel|None|
 |Type|String|
 
 
-### <a name="BKMK_msdyn_ProviderId"></a> msdyn_ProviderId
+### <a name="BKMK_msdyn_UniqueName"></a> msdyn_UniqueName
 
 |Property|Value|
 |--------|-----|
-|Description|Unique identifier of the Provider that triggered this event|
-|DisplayName|Provider Id|
+|Description|Unique Name for the entity.|
+|DisplayName|Unique Name|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_ProviderId|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_ProviderSessionId"></a> msdyn_ProviderSessionId
-
-|Property|Value|
-|--------|-----|
-|Description|Unique identifier of the provider session|
-|DisplayName|Provider Session Id|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_providersessionid|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_sessionId"></a> msdyn_sessionId
-
-|Property|Value|
-|--------|-----|
-|Description|Unique identifier for session|
-|DisplayName|Session Id|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_sessionId|
-|MaxLength|100|
-|RequiredLevel|None|
+|IsValidForUpdate|False|
+|LogicalName|msdyn_uniquename|
+|MaxLength|128|
+|RequiredLevel|SystemRequired|
 |Type|String|
 
 
@@ -475,7 +360,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Status of the KPI Event Data|
+|Description|Status of the CI Provider|
 |DisplayName|Status|
 |IsValidForCreate|False|
 |IsValidForForm|True|
@@ -497,7 +382,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Reason for the status of the KPI Event Data|
+|Description|Reason for the status of the CI Provider|
 |DisplayName|Status Reason|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -551,6 +436,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 These attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
 
+- [ComponentIdUnique](#BKMK_ComponentIdUnique)
+- [ComponentState](#BKMK_ComponentState)
 - [CreatedBy](#BKMK_CreatedBy)
 - [CreatedByName](#BKMK_CreatedByName)
 - [CreatedByYomiName](#BKMK_CreatedByYomiName)
@@ -558,6 +445,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 - [CreatedOnBehalfBy](#BKMK_CreatedOnBehalfBy)
 - [CreatedOnBehalfByName](#BKMK_CreatedOnBehalfByName)
 - [CreatedOnBehalfByYomiName](#BKMK_CreatedOnBehalfByYomiName)
+- [IsManaged](#BKMK_IsManaged)
 - [ModifiedBy](#BKMK_ModifiedBy)
 - [ModifiedByName](#BKMK_ModifiedByName)
 - [ModifiedByYomiName](#BKMK_ModifiedByYomiName)
@@ -565,12 +453,55 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 - [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
 - [ModifiedOnBehalfByName](#BKMK_ModifiedOnBehalfByName)
 - [ModifiedOnBehalfByYomiName](#BKMK_ModifiedOnBehalfByYomiName)
+- [OverwriteTime](#BKMK_OverwriteTime)
 - [OwnerIdName](#BKMK_OwnerIdName)
 - [OwnerIdYomiName](#BKMK_OwnerIdYomiName)
 - [OwningBusinessUnit](#BKMK_OwningBusinessUnit)
 - [OwningTeam](#BKMK_OwningTeam)
 - [OwningUser](#BKMK_OwningUser)
+- [SolutionId](#BKMK_SolutionId)
+- [SupportingSolutionId](#BKMK_SupportingSolutionId)
 - [VersionNumber](#BKMK_VersionNumber)
+
+
+### <a name="BKMK_ComponentIdUnique"></a> ComponentIdUnique
+
+**Added by**: Basic Solution Solution
+
+|Property|Value|
+|--------|-----|
+|Description|For internal use only.|
+|DisplayName|Row id unique|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|componentidunique|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
+
+
+### <a name="BKMK_ComponentState"></a> ComponentState
+
+**Added by**: Basic Solution Solution
+
+|Property|Value|
+|--------|-----|
+|Description|For internal use only.|
+|DisplayName|Component State|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|componentstate|
+|RequiredLevel|SystemRequired|
+|Type|Picklist|
+
+#### ComponentState Options
+
+|Value|Label|
+|-----|-----|
+|0|Published|
+|1|Unpublished|
+|2|Deleted|
+|3|Deleted Unpublished|
+
 
 
 ### <a name="BKMK_CreatedBy"></a> CreatedBy
@@ -692,6 +623,31 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Type|String|
 
 
+### <a name="BKMK_IsManaged"></a> IsManaged
+
+**Added by**: Basic Solution Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Indicates whether the solution component is part of a managed solution.|
+|DisplayName|Is Managed|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|ismanaged|
+|RequiredLevel|SystemRequired|
+|Type|Boolean|
+
+#### IsManaged Options
+
+|Value|Label|
+|-----|-----|
+|1|Managed|
+|0|Unmanaged|
+
+**DefaultValue**: False
+
+
+
 ### <a name="BKMK_ModifiedBy"></a> ModifiedBy
 
 **Added by**: Active Solution Solution
@@ -811,6 +767,23 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Type|String|
 
 
+### <a name="BKMK_OverwriteTime"></a> OverwriteTime
+
+**Added by**: Basic Solution Solution
+
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|For internal use only.|
+|DisplayName|Record Overwrite Time|
+|Format|DateAndTime|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|overwritetime|
+|RequiredLevel|SystemRequired|
+|Type|DateTime|
+
+
 ### <a name="BKMK_OwnerIdName"></a> OwnerIdName
 
 **Added by**: Active Solution Solution
@@ -895,6 +868,36 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Type|Lookup|
 
 
+### <a name="BKMK_SolutionId"></a> SolutionId
+
+**Added by**: Basic Solution Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the associated solution.|
+|DisplayName|Solution|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|solutionid|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
+
+
+### <a name="BKMK_SupportingSolutionId"></a> SupportingSolutionId
+
+**Added by**: Basic Solution Solution
+
+|Property|Value|
+|--------|-----|
+|Description|For internal use only.|
+|DisplayName|Solution|
+|IsValidForForm|False|
+|IsValidForRead|False|
+|LogicalName|supportingsolutionid|
+|RequiredLevel|None|
+|Type|Uniqueidentifier|
+
+
 ### <a name="BKMK_VersionNumber"></a> VersionNumber
 
 **Added by**: Active Solution Solution
@@ -911,11 +914,20 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|None|
 |Type|BigInt|
 
+<a name="manytomany"></a>
 
+## Many-To-Many Relationships
+
+Relationship details provided where the msdyn_channelprovider entity is the first entity in the relationship. Listed by **SchemaName**.
+
+
+### <a name="BKMK_msdyn_appconfig_msdyn_channelprovider"></a> msdyn_appconfig_msdyn_channelprovider
+
+See msdyn_appconfiguration Entity [msdyn_appconfig_msdyn_channelprovider](msdyn_appconfiguration.md#BKMK_msdyn_appconfig_msdyn_channelprovider) Many-To-Many Relationship.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.msdyn_kpieventdata?text=msdyn_kpieventdata EntityType" />
+<xref href="Microsoft.Dynamics.CRM.msdyn_channelprovider?text=msdyn_channelprovider EntityType" />

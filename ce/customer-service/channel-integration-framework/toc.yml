@@ -271,7 +271,7 @@
       - name: Entity reference
         items:
         - name: "msdyn_ciprovider"
-          href: v2/reference/entities-attributes/msdyn-ciprovider.md
+          href: v2/reference/entities-attributes/msdyn-channelprovider.md
         - name: "msdyn_conversationdata"
           href: v2/reference/entities-attributes/msdyn_conversationdata.md
         - name: "msdyn_kpieventdata"
@@ -279,17 +279,17 @@
         - name: "msdyn_kpieventdefinition"
           href: v2/reference/entities-attributes/msdyn_kpieventdefinition.md
         - name: "msdyn_sessiondata"
-          href: reference/entities-attributes/msdyn_sessiondata.md
-        - name: "msdyn_consoleapplicationnotificationfield"
-          href: v2/reference/entities-attributes/msdyn_consoleapplicationnotificationfield.md
-        - name: "msdyn_consoleapplicationnotificationtemplate"
-          href: v2/reference/entities-attributes/msdyn_consoleapplicationnotificationtemplate.md
-        - name: "msdyn_consoleapplicationsessiontemplate"
-          href: v2/reference/entities-attributes/msdyn_consoleapplicationsessiontemplate.md
-        - name: "msdyn_consoleapplicationtemplate"
-          href: v2/reference/entities-attributes/msdyn_consoleapplicationtemplate.md
-        - name: "msdyn_consoleapplicatiotemplateparameter"
-          href: v2/reference/entities-attributes/msdyn_consoleapplicationtemplateparameter.md
+          href: v2/reference/entities-attributes/msdyn_sessiondata.md
+        - name: "msdyn_notificationfield"
+          href: v2/reference/entities-attributes/msdyn_notificationfield.md
+        - name: "msdyn_notificationtemplate"
+          href: v2/reference/entities-attributes/msdyn_notificationtemplate.md
+        - name: "msdyn_sessiontemplate"
+          href: v2/reference/entities-attributes/msdyn_sessiontemplate.md
+        - name: "msdyn_applicationtabtemplate"
+          href: v2/reference/entities-attributes/msdyn_applicationtabtemplate.md
+        - name: "msdyn_templateparameter"
+          href: v2/reference/entities-attributes/msdyn_templateparameter.md
         - name: "msdyn_sessionparticipantdata"
           href: v2/reference/entities-attributes/msdyn_sessionparticipantdata.md
 
