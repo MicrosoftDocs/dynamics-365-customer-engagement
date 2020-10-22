@@ -38,7 +38,7 @@ Navigate to the Topics dashboard by selecting **Topics** at the top of the works
 
 ## Key insights discovered card
 
-![Topics Key insights discovery card](media/key-insights-card.png "Topics Key insights discovered card")
+![Topics Key insights discovery card](media/topics-key-insights-card.png "Topics Key insights discovered card")
 
 The Key insights discovered card has three areas:
 
