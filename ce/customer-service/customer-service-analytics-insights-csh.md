@@ -22,21 +22,21 @@ search.app:
 
 # Dashboard overview
 
-The Insights dashboards for Customer Service contain a variety of charts and metrics to help you to understand the factors that have the greatest impact on your customer service. Key performance indicators and graphical breakdowns of your system's support cases are coupled with AI-generated Insights on cases and topics that contribute to overall trends.
+The insights dashboards for Customer Service contain a variety of charts and metrics to help you to understand the factors that have the greatest impact on customer service for your organization. Key performance indicators and graphical breakdowns of your organization's support cases are coupled with AI-generated insights on cases, agents, and topics that contribute to overall trends.
 
-Customer Service Management dashboards give you a performance summary in addition to detailed reports on agents and topics.  
+Customer Service dashboards give you a performance summary in addition to detailed reports on agents and topics.  
 
 Right-clicking on a chart entry and hovering over **Drill through**, selecting **Agent Details** or **Topic details** brings up a more detailed report that's specific to the selected agent or topic.
 
-By navigating to the Knowledge Search analytics tab, you can view key details about what search terms agents and smart agent assist are using to find knowledge articles related to cases. For more information, see [Knowledge search analytics dashboard](knowledge-search-analytics-cs.md).
+Navigate to the Knowledge Search analytics tab to view key details about what search terms agents and smart agent assist are using to find knowledge articles related to cases. For more information, see [Knowledge search analytics dashboard](knowledge-search-analytics-cs.md).
 
 ## Customer Service analytics reports
 
-The following reports are available for Customer Service analytics:
+The following dashboard reports are available for Customer Service analytics:
 
 ### Summary
 
-The Summary report gives you a broad overview of the customer service experience in your organization. It uses artificial intelligence (AI) technology to show you topics that are generating the highest volume and emerging topics with the highest rate of change in volume.
+The Summary dashboard gives you a broad overview of the customer service experience in your organization. It uses artificial intelligence (AI) technology to show you topics that are generating the highest volume and emerging topics with the highest rate of change in volume.
 
    > [!div class=mx-imgBorder]
    > ![Analytics Summary report](media/summary-report-analytics-cs.png "Customer Service analytics Summary report")
@@ -57,7 +57,9 @@ For more details about the Agent dashboard, see [Agent dashboard](agent-dashboar
 The Topics report dashboard shows a detailed breakdown of cases and their assigned topics.
 
    > [!div class=mx-imgBorder]
-   > ![Analytics Topics report](media/topics-dashboard-analytics-cs.png "Customer Service analytics Topics report")
+   > ![Analytics Topics dashboard](media/topics-dashboard-analytics-cs.png "Customer Service analytics Topics report")
+   
+For more details about the Topics dashboard, see [Topics dashboard](topics-dashboard-cs.md)
    
 
 ## Information you need to know about Customer Service analytics reports
