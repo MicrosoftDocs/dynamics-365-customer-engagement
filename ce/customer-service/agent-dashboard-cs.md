@@ -34,7 +34,7 @@ The Agent dashboard shows charts and KPIs that you can use to guide agents and u
 
 ![Agent dashboard](media/agent-dashboard-analytics-cs.png "Agent dashboard")
 
-Navigate to the Agent dashboard by clicking **Agent** at the top of the workspace. The dashboard shows charts and KPIs for individual agents and overall agent performance, and includes the following insights:
+Navigate to the Agent dashboard by selecting **Agent** at the top of the workspace. The dashboard shows charts and KPIs for individual agents and overall agent performance, and includes the following insights:
 
 ## Key insights discovered card
 
