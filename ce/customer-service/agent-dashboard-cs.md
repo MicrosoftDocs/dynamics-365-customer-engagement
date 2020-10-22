@@ -61,4 +61,7 @@ KPIs are displayed as follows:
 - CSAT and survey sentiment by agent
 - Agent metrics
 
-
+### See also
+- [Dashboard overview](customer-service-analytics-insights-csh.md) <br>
+- [Summary dashboard](summary-dashboard-cs.md) <br>
+- [Topics dashboard](topics-dashboard-cs.md) 
