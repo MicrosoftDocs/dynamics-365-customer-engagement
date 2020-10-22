@@ -105,7 +105,8 @@
 #### [Customer Service Analytics in Power BI](customer-service-analytics.md)
 #### Manage service configuration settings
 ##### [Configure customer service analytics and insights](configure-customer-service-analytics-insights-csh.md)
-##### [AI topics]
+##### [Configure topic clustering](configure-topics-clustering.md)
+##### [Configure Knowledge search analytics](enable-knowledge-search-analytics.md)
 ##### [AI suggestions](csw-enable-ai-suggested-cases-knowledge-articles.md)
 ##### [Configure Customer Service Analytics in Power BI](configure-customer-service-analytics-dashboard.md)
 
