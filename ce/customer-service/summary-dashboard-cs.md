@@ -33,7 +33,7 @@ search.app:
 
 The Summary dashboard gives you a broad overview of the customer service experience in your organization. It uses artificial intelligence (AI) technology to show you topics that are generating the highest volume and emerging topics with the highest rate of change in volume.
 
-!(Summary dashboard](media/summary-dashboard-analytics-cs.png "View the Summary dashboard")
+![Summary dashboard](media/summary-dashboard-analytics-cs.png "View the Summary dashboard")
 
 The KPI summary dashboard includes a variety of charts with graphical views of your system's key performance indicators. 
 
