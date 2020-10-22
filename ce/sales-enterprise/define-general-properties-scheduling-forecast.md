@@ -2,10 +2,8 @@
 title: "Define general properties and scheduling for a forecast (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Define general properties and scheduling for a forecast in Dynamics 365 Sales."
 ms.date: 08/01/2020
-ms.service: 
-  - "dynamics-365-sales"
-ms.custom: 
-  - "dyn365-sales"
+ms.service: "dynamics-365-sales"
+ms.custom: "dyn365-sales"
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -13,9 +11,6 @@ manager: shujoshi
 ---
 
 # Define general properties and scheduling
-
->[!NOTE]
-> If you have opted in for early access, follow the process as specified in [Define general properties and scheduling in early access](#define-general-properties-and-scheduling-in-early-access).
 
 Using the general properties and scheduling options of the forecast configuration page, you can define a forecast model by specifying a hierarchy and timeframe. 
 

@@ -24,7 +24,7 @@ A forecast helps your organization predict how much revenue your sales team will
 >[!IMPORTANT]
 >Forecasting is not available on Government Community Cloud (GCC).  
 
-As an administrator or forecast manager, you can configure forecasts in your organization. You can define the type of forecast, its hierarchy, permissions for accessing it, and the details you want to appear on the forecast grid. After a forecast is activated, your sales team can view the revenue and pipeline projections.
+As an administrator or forecast manager, you can configure forecasts in your organization that are based on revenue or quantity. You can define the type of forecast, its hierarchy, permissions for accessing it, and the details you want to appear on the forecast grid. After a forecast is activated, your sales team can view the revenue or quantity, and pipeline projections.
 
 By default, forecasting is available in your organization and the following page is displayed when you select **Forecast configuration**:
 
