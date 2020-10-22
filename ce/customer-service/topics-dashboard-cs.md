@@ -4,7 +4,7 @@ description: Learn about the Topic dashboard insights to better understand agent
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 10/15/2020
+ms.date: 10/22/2020
 ms.topic: article
 ms.service: 
   dynamics-365-customerservice
@@ -30,12 +30,44 @@ search.app:
 > - This preview feature does not come with technical support and Microsoft Dynamics 365 Technical Support won't be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.
 > - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk. All previews are subject to separate [Terms and Conditions](../legal/supp-dynamics365-preview.md).
 
-![Topics dashboard](media/topics-dashboard-insights.png "Topics dashboard")
+The Topics dashboard shows a detailed breakdown of cases and their assigned topics.
 
-Navigate to the **Topics** dashboard by clicking **Topics** at the top of the workspace. The dashboard shows a detailed breakdown of cases and their assigned topics, and includes the following views: 
+![Topics dashboard](media/topics-dashboard-analytics-cs.png "Topics dashboard")
 
-- Key insights card 
+Navigate to the Topics dashboard by selecting **Topics** at the top of the workspace. 
 
-- KPI summary charts 
+## Key insights discovered card
 
-- Topics metrics chart 
+![Topics Key insights discovery card](media/key-insights-card.png "Topics Key insights discovered card")
+
+The Key insights discovered card has three areas:
+
+- Topics to watch
+- Topics impacting CSAT
+- Topics impacting resolution time
+
+## KPI summary details
+
+The KPI summary charts summarize the key performance indicators for the specified time period and the percent change over the period. You can filters these areas by duration, channel, queue, and agent.
+
+Insights for the following areas are displayed:
+
+- Total cases
+- Active cases
+- Escalated cases
+- Average handle time
+- Average CSAT
+- Average sentiment
+
+## Topic metrics
+
+The topic metrics chart displays the following details:
+
+- Total cases
+- Occurence by topic
+- Average resolution time
+- Average CSAT
+- CSAT impact
+- Average sentiment
+- Sentiment impact
+
