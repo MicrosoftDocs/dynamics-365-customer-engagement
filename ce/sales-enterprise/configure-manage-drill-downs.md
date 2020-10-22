@@ -1,7 +1,7 @@
 ---
 title: "Configure and manage drill-down entities for a forecast (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Configure and manage drill-down entities for a forecast in Dynamics 365 Sales."
-ms.date: 09/18/2020
+ms.date: 10/26/2020
 ms.service: dynamics-365-sales
 ms.topic: article
 author: udaykirang
@@ -10,8 +10,6 @@ manager: shujoshi
 ---
 
 # Configure and manage drill-down entities
-
-[!INCLUDE [cc-early-access](../includes/cc-early-access.md)]
 
 Once you’ve configured the forecast page, you'll have a view into the pipeline amounts that your sellers are projecting for the period. Now you might want to know which accounts contribute to a specific seller’s Committed value or maybe you want to know which products are contributing to a different seller’s Won value. The drill-down feature allows you to break down your seller’s forecast projections as a function of the contributing factors that you care about such as Account and Product. The drill-down feature looks at the underlying records that are contributing to the value of the rollup column and groups them according to the drill-down selection. 
 

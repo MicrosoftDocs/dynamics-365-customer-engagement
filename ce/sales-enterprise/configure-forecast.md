@@ -29,7 +29,7 @@ As an administrator or forecast manager, you can configure forecasts in your org
 By default, forecasting is available in your organization and the following page is displayed when you select **Forecast configuration**:
 
 > [!div class="mx-imgBorder"]
-> ![Forecasting configuration page](media/forecast-enable-forecasting-enabled-v1.png "Forecasting configuration page") 
+> ![Forecasting configuration page](media/forecast-enable-forecasting-enabled.png "Forecasting configuration page") 
 
 **To go to forecast configuration page**
 

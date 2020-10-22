@@ -1,7 +1,7 @@
 ---
 title: "Maintain up-to-date forecast data (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Maintain up-to-date forecast data in Dynamics 365 Sales."
-ms.date: 02/03/2020
+ms.date: 10/26/2020
 ms.service: 
   - dynamics-365-sales
 ms.custom: 
