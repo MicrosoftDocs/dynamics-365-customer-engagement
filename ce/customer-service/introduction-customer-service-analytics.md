@@ -4,7 +4,7 @@ description: "Learn about Customer Service Insights"
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 10/19/2020
+ms.date: 10/22/2020
 ms.topic: article
 ms.service: 
   dynamics-365-customerservice
@@ -21,7 +21,7 @@ For a walkthrough of how to enable Customer Service Insights for your customer s
 
 By pinpointing and fixing issues before they impact customers, you can adapt to current and emerging trends, improve brand sentiment, and deliver better customer service experiences.
 
-For more information about dashboards and reports, see [Dashboard Overview](customer-service-analytics.md).
+For more information about dashboards and reports, see [Dashboard Overview](customer-service-analytics-insights-csh.md).
 
 For more details about specific Customer Service Insights dashboards, see the following: 
 
@@ -37,8 +37,6 @@ For more information on enabling knowledge search analytics, see Knowledge searc
 
 ### See also
 
-[Dashboard Overview](customer-service-analytics.md)
-
-[Configure Customer Service analytics and insights in Customer Service Hub](configure-customer-service-analytics-insights-csh.md)
-
+[Dashboard Overview](customer-service-analytics-insights-csh.md) <br>
+[Configure Customer Service analytics and insights in Customer Service Hub](configure-customer-service-analytics-insights-csh.md) <br>
 [Configure Customer Service Analytics dashboards in Power BI](configure-customer-service-analytics-dashboard.md)
