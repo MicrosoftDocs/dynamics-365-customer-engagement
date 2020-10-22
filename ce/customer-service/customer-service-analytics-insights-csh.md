@@ -4,7 +4,7 @@ description: Dashboards and reports provide historical operational metrics and K
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 10/19/2020
+ms.date: 10/22/2020
 ms.topic: article
 ms.service: 
   dynamics-365-customerservice
@@ -28,55 +28,37 @@ Customer Service Management dashboards give you a performance summary in additio
 
 Right-clicking on a chart entry and hovering over **Drill through**, selecting **Agent Details** or **Topic details** brings up a more detailed report that's specific to the selected agent or topic.
 
-By navigating to the Knowledge Management tab, you can view the **Search Term Insights** dashboard to understand what search terms agents and smart agent assist are using to find knowledge articles related to cases. 
+By navigating to the Knowledge Search analytics tab, you can view key details about what search terms agents and smart agent assist are using to find knowledge articles related to cases. For more information, see [Knowledge search analytics dashboard](knowledge-search-analytics-cs.md).
 
 ## Customer Service analytics reports
 
 The following reports are available for Customer Service analytics:
 
-- **Case Summary**
+### Summary
+
+The Summary report gives you a broad overview of the customer service experience in your organization. It uses artificial intelligence (AI) technology to show you topics that are generating the highest volume and emerging topics with the highest rate of change in volume.
 
    > [!div class=mx-imgBorder]
-   > ![Customer Service analytics Case Summary report](media/cs-case-summary-csh.png "Customer Service analytics Case Summary report")
+   > ![Analytics Summary report](media/summary-report-analytics-cs.png "Customer Service analytics Summary report")
+   
+For more details about the Summary dashboard, see [Summary dashboard](summary-dashboard-cs.md)
 
-- **Agent Summary**
+### Agent
 
-   > [!div class=mx-imgBorder]
-   > ![Customer Service analytics Agent Summary report](media/cs-agent-summary-csh.png "Customer Service analytics Agent Summary report")
-
-The following KPIs are available.
-
-| KPI                       | Description         |
-|---------------------------|-------------------------|
-|Total cases                |The number of cases created to support customers.      |
-|Active cases               |The number of cases that are currently open.          |
-|Resolved cases             |The number of cases that have been closed by an agent.   |
-|Escalated cases %          |The percentage of cases that have been escalated.    |
-|Average handle time (hrs) |The average length of time taken by an agent to resolve the case. |
-|Avg. CSAT                  | The average customer satisfaction score, based on the survey submitted by the customer. |
-|Case age                    |The average time the case was in an open state.                 |
-|Total activities            |The total number of activities that were created by agents.              |
-
-You can use the following filters in the reports.
-
-|Filters / Dimensions  |Description        |
-|----------------------|-------------------|
-|Duration              |Filters the reporting date range.|
-|Queue                 |Lets you filter the queue you'd like to drill down to and see all metrics related to that queue. |
-|Agent                 |Lets you filter the report to show all the agents who report to you, to understand how each is performing and help you develop coaching and training plans.  |
-|Priority              |Filters the reporting to the selected priority of the case (high, normal, or low). |
-|Subject               |Filters the reporting to the selected subject of the case.  |
-|Channel               |Filters the reporting to the selected Omnichannel for Customer Service channels, such as chat, SMS, or Facebook.  |
-
-When you select a filter condition, the data is automatically filtered and rendered in the report.
+The Agent dashboard shows charts and KPIs for individual agents and overall agent performance.
 
    > [!div class=mx-imgBorder]
-   > ![Customer Service analytics view and filter report](media/cs-analytics-view-filer-report.png "Customer Service analytics view and filter report")
+   > ![Analytics Agent dashboard](media/agent-report-analytics-cs.png "Customer Service analytics Agent report")
+   
+For more details about the Agent dashboard, see [Agent dashboard](agent-dashboard-cs.md)
 
-> [!NOTE]
-> For the **Date** filter, the **Next** option won't display results in the report.
+### Topics
 
-For detailed information about the reports, see [Case Summary report](customer-service-analytics.md#1-summary) and [Agent Summary report](customer-service-analytics.md#2-agent-and-queue).
+The Topics report dashboard shows a detailed breakdown of cases and their assigned topics.
+
+   > [!div class=mx-imgBorder]
+   > ![Analytics Topics report](media/topics-dashboard-analytics-cs.png "Customer Service analytics Topics report")
+   
 
 ## Information you need to know about Customer Service analytics reports
 
