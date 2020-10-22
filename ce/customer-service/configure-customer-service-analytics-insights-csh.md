@@ -65,9 +65,9 @@ The service managers must have the admin or service manager role to view the rep
 
 You can see the following reports by navigating to the **Service** > **Analytics and Insights** > **Customer Service historical analytics (preview)** page. By default, the **Summary** page is displayed.
 
-- [Summary report](customer-service-analytics.md#1-summary)
-- [Agent report](customer-service-analytics.md#2-agent-and-queue)
-- [Topics report](customer-service-analytics.md#3-topics)
+- [Summary report](summary-dashboard-cs.md)
+- [Agent report](agent-dashboard-cs.md)
+- [Topics report](topics-dashboard-cs.md)
 
 
 ### See also
