@@ -1,6 +1,6 @@
 ---
 title: Topics Dashboard | Microsoft Docs
-description: Learn about the Topic dashboard insights to better understand agent performance in your organization.
+description: Learn about the Topics dashboard insights to better understand agent performance in your organization.
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
