@@ -38,5 +38,5 @@ For more information on enabling knowledge search analytics, see Knowledge searc
 ### See also
 
 [Dashboard Overview](customer-service-analytics-insights-csh.md) <br>
-[Configure Customer Service analytics and insights in Customer Service Hub](configure-customer-service-analytics-insights-csh.md) <br>
+[Configure Customer Service analytics and insights for Customer Service Hub and Customer Service workspace ](configure-customer-service-analytics-insights-csh.md) <br>
 [Configure Customer Service Analytics dashboards in Power BI](configure-customer-service-analytics-dashboard.md)
