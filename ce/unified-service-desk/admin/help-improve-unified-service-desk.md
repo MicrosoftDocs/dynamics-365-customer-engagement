@@ -4,7 +4,7 @@ description: "Learn how you can make our app better by sending system and applic
 ms.custom: 
   - dyn365-USD
   - dyn365-admin
-ms.date: 04/24/2018
+ms.date: 10/22/2020
 ms.service: 
   - dynamics-365-customerservice
 ms.topic: article
@@ -68,6 +68,9 @@ Configuring and setting the value of the Global Option: `HelpImproveUSD` to `FAL
   
 6. Select **Save**.
   
+> [!Note]
+> Disable the telemetry if you experience low performance with Unified Service Desk 4.1.1.1319 or a lower version.
+
 <a name="Enable_ImproveUSD"></a>   
 ## Enable sending improvement program information to Microsoft anonymously
 
