@@ -24,7 +24,9 @@ ms.custom:
 
 The knowledge search analytics dashboard is designed to provide your organization's customer service supervisors and knowledge workers with valuable insights into how your support agents are finding and using knowledge articles.
 
-To configure the Knowledge search analytics dashboard:
+## Configure the Knowledge search analytics dashboard
+
+To enable the Knowledge search analytics dashboard:
 
 1. Sign in to Dynamics 365 as an administrator, and go to Customer Service Hub.
 
