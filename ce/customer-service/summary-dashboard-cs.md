@@ -4,7 +4,7 @@ description: Learn about the Summary dashboard insights overview to better under
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 10/19/2020
+ms.date: 10/22/2020
 ms.topic: article
 ms.service: 
   dynamics-365-customerservice
