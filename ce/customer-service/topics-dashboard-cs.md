@@ -71,3 +71,7 @@ The topic metrics chart displays the following details:
 - Average sentiment
 - Sentiment impact
 
+### See also
+- [Dashboard overview](customer-service-analytics-insights-csh.md) <br>
+- [Summary dashboard](summary-dashboard-cs.md) <br>
+- [Agent dashboard](agent-dashboard-cs.md) 
