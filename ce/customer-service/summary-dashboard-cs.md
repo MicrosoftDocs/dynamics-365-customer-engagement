@@ -44,11 +44,11 @@ By default, the dashboard shows you KPIs for the past month and for all products
 To filter data by product, channel, business unit, or team, select a value from the **Product**, **Channel**, **Business Unit**, or **Team** drop-down list. If you switch to a different dashboard, the filter you specify persists and is applied to the data on all dashboards. For more information on working with filters, see [Work with Customer Service Insights dashboards](use-dashboard-sample-data.md).
 
 
-## Key insights card
+## Key insights discovered card
 
 ![Key insights discovery card](media/key-insights-card.png)
 
-The Key Insights Discovery card has two areas:
+The Key insights discovered card has two areas:
 
 - **KPI insights**: Important subjects that impact performance.
 
