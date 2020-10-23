@@ -4,7 +4,7 @@ description: "Test migration of web client configurations to the unified interfa
 ms.custom: 
   - dyn365-USD
   - dyn365-admin
-ms.date: 10/22/2020
+ms.date: 10/23/2020
 ms.service: 
   - dynamics-365-customerservice
 ms.topic: article
