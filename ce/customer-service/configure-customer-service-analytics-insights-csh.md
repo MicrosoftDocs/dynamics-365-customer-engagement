@@ -41,10 +41,9 @@ The following historical reports are available:
 
 See the following links for insights configuration information:
 
- - [Historical analytics configuration](configure-historical-analytics-csh.md)
- - [Topic clustering configuration](configuring-topics-clustering.md)
- - [Knowledge search analytics configuration](enable-knowledge-search-analytics.md)
-
+ - [Configure Customer Service historical analytics](configure-historical-analytics-csh.md)
+ - [Topic clustering configuration](configure-topics-clustering.md)
+ - [Configure Knowledge search insights](enable-knowledge-search-analytics.md)
 
 ### See also
 
