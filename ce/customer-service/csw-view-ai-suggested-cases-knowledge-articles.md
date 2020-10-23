@@ -19,8 +19,6 @@ search.app:
 
 # View AI-suggested similar cases and knowledge articles
 
-This article describes how to view similarly resolved cases and knowledge articles in your active cases.
-
 ## Introduction
 
 If your administrator has enabled the AI-suggested similar cases and knowledge articles, you can view the similarly resolved cases and knowledge articles when you open an active case.
