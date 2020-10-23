@@ -78,7 +78,7 @@
 ### [Administration and setup FAQ](setup-troubleshooting.md)
 ### [Known issues and workarounds](known-issues.md)
 
-## Marketing execution
+## Marketing user guide
 ### [Marketing execution overview](user-guide.md)
 
 ### Get started
