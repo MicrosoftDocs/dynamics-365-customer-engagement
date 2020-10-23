@@ -81,7 +81,7 @@ Selecting **Suggest resources** will display recommended resources in the right 
 Selecting **Book resources** will find the most optimal resources and book them without additional actions from the dispatcher.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the scheduling assistance preview.](../../field-service/media/scheduling-new-assistance-preview.png)
+> ![Screenshot of the scheduling assistance preview.](../../field-service/media/schedule-board-new-rso-suggest.png)
 
 **Suggest resources** and **Book resource** capabilities on the new schedule board are currently only available for organizations using resource scheduling optimization.
 
