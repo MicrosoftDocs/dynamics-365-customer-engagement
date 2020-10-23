@@ -55,6 +55,9 @@ To enable the Knowledge search analytics dashboard:
 
 5. On the **Knowledge search analytics (preview)** page, toggle **Status** to **Enabled**.
 
+    > [!div class=ms-imgBorder]
+    > ![Knowledge search analytics enabled](media/knowledge-search-enabled.png "Knowledge search analytics enabled")
+
 6. Select **Save** or **Save & Close**.
 
 
