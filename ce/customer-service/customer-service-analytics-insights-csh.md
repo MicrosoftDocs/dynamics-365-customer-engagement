@@ -1,6 +1,6 @@
 ---
 title: Insights dashboard overview | Microsoft Docs
-description: Dashboards and reports provide historical operational metrics and KPIs to manage contact centers.
+description: Learn about the various dashboards and reports for historical operational metrics and KPIs to manage contact centers.
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
