@@ -4,10 +4,9 @@ description: Know how to create and manage users and user profiles in the Omnich
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 06/22/2020
+ms.date: 10/23/2020
 ms.topic: article
-ms.service: 
-  - "dynamics-365-customerservice"
+ms.service: dynamics-365-customerservice
 ---
 
 # Manage users in Omnichannel for Customer Service
@@ -52,7 +51,7 @@ Navigate to **Queues & Users > Users** to view the list of Omnichannel for Custo
 
 ### Capacity
 
-Capacity is the arbitrary scale that you choose and set for each of the work streams corresponding to the channels. The capacity assigned to the agent must be a multiplier of the capacity unit that you have defined for the associated work stream. Check the capacity unit defined for the work streams to determine the value that must be assigned to your agents. For example, if your capacity unit is 1 for a work stream and you want an agent to be able to take up to 3 conversations simultaneously, the capacity you assign to the agent should be 3 units. Similarly, if your capacity unit is 5 for the work stream and you want the agent to be able to take up to 3 conversations simultaneously, you should assign 15 units as the capacity for the agent.
+Capacity is the arbitrary scale that you choose and set for each of the work streams corresponding to the channels. The capacity assigned to the agent must be a multiplier of the capacity unit that you have defined for the associated work stream. Check the capacity unit defined for the work streams to determine the value that must be assigned to your agents. For example, if the capacity unit is 1 for a work stream and you want an agent to be able to take up to 3 conversations simultaneously, the capacity that you assign to the agent should be 3 units. Similarly, if your capacity unit is 5 for the work stream and you want the agent to be able to take up to 3 conversations simultaneously, you should assign 15 units as the capacity for the agent.
 
 ### See also
 

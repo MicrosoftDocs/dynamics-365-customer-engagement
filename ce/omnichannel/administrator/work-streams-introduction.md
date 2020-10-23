@@ -56,7 +56,7 @@ Perform the following steps to create a work stream in Omnichannel for Customer 
         - Custom
         - Twitter
 
-      - **Capacity**: Specify the units of capacity that are required to process a single conversation for the work stream in the text box. For information on how to determine capacity units, see [Capacity](users-user-profiles.md#capacity)
+      - **Capacity**: Specify the units of capacity that are required to process a single conversation for the work stream in the text box. For information on how to determine capacity units, see [Capacity](users-user-profiles.md#capacity).
 
       - **Auto-close after inactivity**: Enter the unit of time after which a conversation is moved from the **Waiting** state to the **Closed** state because of inactivity.
 
