@@ -1,5 +1,5 @@
 ---
-title: "Configure AI topic clustering for cases in Dynamics 365 in Customer Service Hub and Customer Service workspace | MicrosoftDocs"
+title: "Configure AI topic clustering for cases | MicrosoftDocs"
 description: "Learn how to configure and view the topics clustering dashboard in Customer Service Hub and Customer Service workspace"
 author: lalexms
 ms.author: laalexan
@@ -12,7 +12,7 @@ ms.custom:
 
 ---
 
-# Preview: Configure AI topic clustering for cases in for Customer Service Hub and Customer Service workspace
+# Preview: Configure AI topic clustering for cases
 
 [!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -28,20 +28,10 @@ The AI-driven technology empowers informed decision-making about how to improve 
 
 ## Enable topic clustering for cases
 
-1. Sign in to Dynamics 365 as an administrator, and go to Customer Service Hub.
-
-2. In the **Change area**, select **Service Management**.
-
-3. Under **Analytics and Insights**, select **Settings**. The **Analytics and insights settings** page is displayed.
+Topic clustering is enabled by default when you enable historical analytics. To enable historical analytics, see [Configure Customer Service historical analytics](configure-historical-analytics-csh.md).
 
     > [!div class=ms-imgBorder]
     > ![Customer Service analytics installation](media/cs-enable-analyticsinsights.png "Enable Customer Service historical analytics")
-
-4. On the right side of **Topic clustering for case (preview)**, select **Manage**.
-
-5. On the **Topic clustering for case** page, toggle **Status** to **Enabled**.
-
-6. Select **Save** or **Save & Close**.
 
 
 ## Summary and Model Run Summary views
