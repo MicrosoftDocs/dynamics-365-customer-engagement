@@ -134,7 +134,7 @@ In this scenario, a bot has transferred a conversation to a human agent. The hum
 7. The human is finished delivering support and wants to hand off the conversation to a second bot (Bot B), which resides in the same queue.
 8. The human agent is disconnected from the conversation.
 9. The conversation routed to Bot B.
-10.	Bot B receives the following messages in order: 
+10.	Bot B receives the messages in the following order:
     - A conversation update that the “Bot added”
     - The Omnichannel Set context event
 11.	The system triggers Bot B to send a greeting message.
@@ -142,7 +142,7 @@ In this scenario, a bot has transferred a conversation to a human agent. The hum
 
 ## Configure context variables for a bot
 
-When customers initiate a conversation, the relevant context related to the customer, the issue they are facing, and recent activities performed by them can be made available for the bot to intelligently provide contextual responses to resolve customer issues in a quick and efficient manner. For example, the bot can use the logged in user information to look up recent case information or the order history of the customer and provide a response. Similarly, the pre-conversation information, custom context, or recent pages browsed on a website by the customer can be passed to the bot by configuring context variables for the bot in Power Virtual Agents. For information on context variables that can be configured, see [Context variables](context-variables-for-bot.md).
+When customers initiate a conversation, the relevant context related to the customer, the issue they are facing, and recent activities performed by them can be made available for the bot to intelligently provide contextual responses to resolve customer issues in a quick and efficient manner. For example, the bot can use the signed-in user details to look up the recent case information or order history of the customer and provide a response. Similarly, the pre-conversation information, custom context, or recent pages browsed on a website by the customer can be passed on to the bot by configuring context variables for the bot in Power Virtual Agents. For information on context variables that can be configured, see [Context variables](context-variables-for-bot.md).
 
 In Power Virtual Agents, do the following:
 
