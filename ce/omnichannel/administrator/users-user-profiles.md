@@ -40,6 +40,9 @@ Navigate to **Queues & Users > Users** to view the list of Omnichannel for Custo
     | User Details | Capacity | Allocate capacity to agent. | 100 |
     | User Details | Default Presence | Assign a default presence status for agent. This is the status that the agent is logged in with, in the Omnichannel for Customer Service app. |
 
+
+    Capacity is an arbitrary scale chosen by the administrator and set on the workstream for each channel. The capacity must be a multiplier of the capacity unit the administrator has defined on the workstream itself. Check the capity unit on the workstream to determine what value to assign to agents (users). The unit could be 1, 5, 10, 100, 1000 or anything. For example, if your capacity unit is 1 on the workstream and you want an agent to be able to take up to 3 converstions the capacity you assign to the agent would be 3. If your capacity unit is 5 on the workstream and you wanted an agent to be able to take up to 3 chats you would assign the agent a capacity of 15 on the agent.
+    
 6. Select **New Bookable Resource** under the **Skills Configuration** section. The **New Bookable Resource** page appears.
 
 7. Specify the name of agent in the **Name** field.
