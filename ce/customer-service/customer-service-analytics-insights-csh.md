@@ -38,6 +38,14 @@ Right-clicking on a chart entry and hovering over **Drill through**, selecting *
 
 Navigate to the Knowledge Search analytics tab to view key details about what search terms agents and smart agent assist are using to find knowledge articles related to cases. For more information, see [Knowledge search analytics dashboard](knowledge-search-analytics-cs.md).
 
+## Configure dashboards
+
+To enable the dashboards, see the following topics:
+
+- [Configure historical analytics reports](configure-historical-analytics-csh.md)
+
+- [Configure knowledge search insights](enable-knowledge-search-analytics.md)
+
 ## Customer Service analytics reports
 
 The following dashboard reports are available for Customer Service analytics:
