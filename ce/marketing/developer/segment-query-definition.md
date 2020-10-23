@@ -84,35 +84,35 @@ An Expression that can be called on a node or edge collection to get a distinct 
 
 ## COUNT
 
-An expression that can be called on the result of [TRAVERSE](#traverse) or inside [HAVING](#having) expression, for grouping conditional expression. 
+An expression that can be called inside [HAVING](#having) expression, for grouping conditional expression. 
 
 **Syntax**
 `COUNT()`
 
 ## AVG
 
-An expression that can be called on the result of [TRAVERSE](#traverse) or inside [HAVING](#having) expression, for grouping conditional expression.
+An expression that can be called inside [HAVING](#having) expression, for grouping conditional expression.
 
 **Syntax**
 `AVG(propertyName)`
 
 ## MIN
 
-An expression that can be called on the result of [TRAVERSE](#traverse) or inside [HAVING](#having) expression, for grouping conditional expression. 
+An expression that can be called inside [HAVING](#having) expression, for grouping conditional expression. 
 
 **Syntax**
 `MIN(propertyName)`
 
 ## MAX
 
-An expression that can be called on the result of [TRAVERSE](#traverse) or inside [HAVING](#having) expression, for grouping conditional expression. 
+An expression that can be called inside [HAVING](#having) expression, for grouping conditional expression. 
 
 **Syntax**
 `MAX(propertyName)`
 
 ## SUM
 
-An expression that can be called on the result of [TRAVERSE](#traverse) or inside [HAVING](#having) expression, for grouping conditional expression.  
+An expression that can be called inside [HAVING](#having) expression, for grouping conditional expression.  
 
 **Syntax**
 `SUM(propertyName)` 

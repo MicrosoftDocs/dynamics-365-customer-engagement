@@ -60,9 +60,9 @@ To check for recently-added apps, select Refresh. If you can’t find your app, 
 
 If you receive this message it means that your IT administrator is using Microsoft Intune and requires you to sign-in securely using an authenticator app, but your device configuration is blocking the Dynamics 365 mobile app from launching the authenticator app installed on your device. Microsoft authenticator apps are Authenticator and Company Portal. Your company may also use a third-party authenticator app. If you are unsure, ask your IT administrator which authenticator app you should be using and then follow the instructions below.
 
-Sometimes, manually opening your authenticator app on your device before retrying to sign-in from the Dynamics 365 mobile app is enough to fix the issue.
+On iOS and sometimes on Android devices, manually opening (or restarting) your authenticator app on your device before you try to sign-in again from the Dynamics 365 mobile app is enough to fix the issue.
  
-If the suggestion above did not work, the steps to resolve the issue are device manufacturer-specific and depend which authenticator app you have installed.
+If you are using an Android device and the suggestion above did not work, the steps to resolve the issue are device manufacturer-specific and depend which authenticator app you have installed.
 
 For **Huawei** and **Honor** device, do the following:
 
@@ -82,14 +82,8 @@ For **Vivo** device, do the following:
 1. Go to **Settings** > **More Settings** > **Applications** > **Autostart**.
 2. Set the toggle switch to **ON** for the authenticator app.
 
-For other device manufacturers, please email Dynamics 365 Mobile Support dynmobisup@microsoft.com and include your device make and model, session ID and quote the error message above.
+For other device manufacturers, please email Dynamics 365 Mobile Support dynmobisup@microsoft.com and include your device make and model, session ID ([learn how to find this information above](https://docs.microsoft.com/en-us/dynamics365/mobile-app/troubleshooting-things-know-about-phones-tablets#get-the-session-id-from-the-sign-in-screen) and quote the error message above.
 
-Get the session ID from the sign in screen
-
-- On the sign in screen, select the clipboard icon and then select **Copy session ID**.
-
-   > [!div class="mx-imgBorder"]
-   > ![Get a session ID ](media/mobile_session_id.jpg)
 
 ## Error message: This record is unavailable
  If this message appears when a user starts the mobile app, and then selects the **Home** button, or **Dashboards** from the menu, the user likely doesn’t have access to the expected dashboards.  
