@@ -33,19 +33,20 @@
 ##### [Manage Word templates](manage-word-templates.md)
 #### [Business Management settings](business-management-settings.md)
 
-#### Marketing settings
-##### [Marketing settings overview](marketing-settings.md)
-##### [Configure lead scoring options](mkt-settings-lead-score-options.md)
-##### [Authenticate your domains](mkt-settings-authenticate-domains.md)
-##### [Marketing analytics configuration](mkt-settings-analytics.md)
-##### [Configure landing pages](mkt-settings-landing-pages.md)
-##### [Sync entities and track insights](mkt-settings-sync.md)
-##### [Set matching strategies](mkt-settings-matching.md)
-##### [Default marketing settings](mkt-settings-default-marketing.md)
-##### [Configure your social media accounts](mkt-settings-social-media.md)
-##### [Data protection tools](mkt-settings-data-protection.md)
+### Marketing settings
+#### [Marketing settings overview](marketing-settings.md)
+#### [Configure lead scoring options](mkt-settings-lead-score-options.md)
+#### [Authenticate your domains](mkt-settings-authenticate-domains.md)
+#### [Marketing analytics configuration](mkt-settings-analytics.md)
+#### [Configure landing pages](mkt-settings-landing-pages.md)
+#### [Sync entities and track insights](mkt-settings-sync.md)
+#### [Set matching strategies](mkt-settings-matching.md)
+#### [Default marketing settings](mkt-settings-default-marketing.md)
+#### [Configure your social media accounts](mkt-settings-social-media.md)
+#### [Data protection tools](mkt-settings-data-protection.md)
 
-#### [Event management settings](events-settings.md)
+### Event management settings
+#### [Event management settings overview](events-settings.md)
 #### [Manage LinkedIn Lead Gen](linkedin-configuration.md)
 #### [Manage sample data](additional-settings.md)
 #### [Quota limits](quota-management.md)
@@ -59,10 +60,6 @@
 #### [Dedicated vs shared IPs for email delivery](dedicated-vs-shared-ip.md)
 #### [Email policies and suspension standards](email-policies.md)
 
-### [Best practices for administration](admin-best-practices.md)
-### [Administration and setup FAQ](setup-troubleshooting.md)
-### [Known issues and workarounds](known-issues.md)
-
 ### Customization
 #### [Customizing Marketing](customize.md)
 #### [Open the Power Apps customization window](customize-open-powerapps.md)
@@ -74,6 +71,10 @@
 #### [Set up global double opt-in](double-opt-in.md)
 #### [Set up form double opt-in](form-double-opt-in.md)
 #### [How the app uses cookies](cookies.md)
+
+### [Best practices for administration](admin-best-practices.md)
+### [Administration and setup FAQ](setup-troubleshooting.md)
+### [Known issues and workarounds](known-issues.md)
 
 ## [User Guide](user-guide.md)
 
