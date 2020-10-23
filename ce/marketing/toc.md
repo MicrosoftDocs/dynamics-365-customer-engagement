@@ -76,11 +76,11 @@
 ### [Administration and setup FAQ](setup-troubleshooting.md)
 ### [Known issues and workarounds](known-issues.md)
 
-## [User Guide](user-guide.md)
+## [Marketing capabilities](user-guide.md)
 
 ## [Marketing videos](marketing-videos.md)
 
-### Learn the basics
+### Get started
 #### [Browser and system requirements](browser-requirements.md)
 #### [Find your way around](navigation.md)
 #### [Accessibility and keyboard shortcuts](designer-shortcuts.md)
@@ -90,15 +90,13 @@
 #### [Import data](import-data.md)
 #### [Export data](export-data-word-excel.md)
 
-### Marketing tutorials
-#### [Core marketing tutorials](basic-tutorials.md)
-##### [Create a segment](create-segment.md)
-##### [Create a marketing email](create-marketing-email.md)
-##### [Create a simple customer journey](create-simple-customer-journey.md)
-##### [Create a landing page](create-landing-page.md)
-##### [Create an interactive customer journey](create-interactive-customer-journey.md)
-
-#### [Tutorials for specific scenarios](advanced-tutorials.md)
+### Top tasks
+#### [Core marketing tasks](basic-tutorials.md)
+#### [Create a segment](create-segment.md)
+#### [Create a marketing email](create-marketing-email.md)
+#### [Create a simple customer journey](create-simple-customer-journey.md)
+#### [Create a landing page](create-landing-page.md)
+#### [Create an interactive customer journey](create-interactive-customer-journey.md)
 ##### [Set up lead scoring](set-up-lead-scoring.md)
 ##### [Generate activities from a customer journey](generate-activities-from-customer-journey.md)
 ##### [Manage images](manage-images.md)
