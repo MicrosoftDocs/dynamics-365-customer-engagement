@@ -2,7 +2,7 @@
 title: "Plan, publicize, and collect registrations for events (Dynamics 365 Marketing) | Microsoft Docs "
 description: "An overview of event-management features (including planning, logistics, sponsors, speakers, promotion, and registration) in  Dynamics 365 Marketing"
 keywords: events; event management
-ms.date: 03/30/2020
+ms.date: 10/23/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -34,9 +34,9 @@ Key event-management features include:
 - Venue management for tracking buildings, rooms, and room layouts.
 - Guest logistics for registering hotels, room allocation, and reservations.
 - Tracking sponsors and their sponsorships for each event.
-- Creating webinars and simulcasts with attendance metrics (in partnership with industry-leading webinar provider ON24).
+- Creating Microsoft Teams webinars and live events.
 - Reviewing the attendance history of each contact, including events and sessions attended.
-- Voice of the Customer survey integration.
+- Dynamics 365 Customer Voice survey integration.
 - A fully functioning event website you can publish that includes:
   - Self-service attendee registration.
   - Important details about all published events, including event name, venue, passes, session schedule, and speakers.
