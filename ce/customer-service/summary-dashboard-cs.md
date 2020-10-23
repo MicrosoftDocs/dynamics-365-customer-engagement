@@ -41,27 +41,27 @@ The KPI summary dashboard includes a variety of charts with graphical views of y
 
 The case volume drivers and emerging case volume by topic charts use natural language understanding to group support cases as *topics* that are a collection of related cases. These charts show you the customer support topics that are generating the most volume and emerging topics with the highest rate of change in volume, helping you identify areas for improvement that can have the greatest impact on system performance.
 
-By default, the dashboard shows you KPIs for the past month and for all products, channels, business units, and teams in your system. To change the time period, select a value from the **Time period** drop-down list at the top of the dashboard. You can select either past day, past week, or past month.
+By default, the dashboard shows you KPIs for the past month and for all channels, queues, and agents in your system. To change the time period, select a value from the **Time period** drop-down list at the top of the dashboard. You can select either past day, past week, or past month.
 
-To filter data by product, channel, business unit, or team, select a value from the **Product**, **Channel**, **Business Unit**, or **Team** drop-down list. If you switch to a different dashboard, the filter you specify persists and is applied to the data on all dashboards.
+To filter data by channel, queue, or agent, select a value from the respective drop-down list. If you switch to a different dashboard, the filter you specify persists and is applied to the data on all dashboards.
 
 
-## Key insights discovered card
+## Key insights card
 
 ![Key insights discovery card](media/key-insights-card.png)
 
-The Key insights discovered card has two areas:
+The Key insights card has two areas:
 
-- **KPI insights**: Important subjects that impact performance.
+- **KPI insights**: Important subjects that impact performance, such as CSAT pertaining to priority, volume pertaining to channel, and open cases pertaining to queues.
 
 - **Topics to watch**: Topics that rank high across the three key areas to make it easier for customer service managers to discover top issues.
   
 
-## KPI summary details
+## Report details
 
 The KPI summary charts summarize the key performance indicators for the specified time period and the percent change over the period. You can filters these areas by duration, channel, queue, and agent.
 
-Insights for the following areas are displayed:
+KPIs for the following areas are displayed:
 
 - Incoming cases
 - Active cases
@@ -70,7 +70,7 @@ Insights for the following areas are displayed:
 - Average CSAT
 - Average survey sentiment
 
-KPIs are displayed as follows:
+Charts are displayed as follows:
 
 - Case volume by status
 - Open cases by priority
