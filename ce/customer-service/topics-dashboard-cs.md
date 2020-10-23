@@ -36,7 +36,7 @@ The Topics dashboard shows a detailed breakdown of cases and their assigned topi
 
 Navigate to the Topics dashboard by selecting **Topics** at the top of the workspace. 
 
-## Key insights discovered card
+## Key insights card
 
 ![Topics Key insights discovery card](media/topics-key-insights-card.png "Topics Key insights discovered card")
 
@@ -46,11 +46,11 @@ The Key insights discovered card has three areas:
 - Topics impacting CSAT
 - Topics impacting resolution time
 
-## KPI summary details
+## Report details
 
 The KPI summary charts summarize the key performance indicators for the specified time period and the percent change over the period. You can filters these areas by duration, channel, queue, and agent.
 
-Insights for the following areas are displayed:
+KPIs for the following areas are displayed:
 
 - Total cases
 - Active cases
@@ -59,9 +59,7 @@ Insights for the following areas are displayed:
 - Average CSAT
 - Average sentiment
 
-## Topic metrics
-
-The topic metrics chart displays the following details:
+Charts are displayed as follows:
 
 - Total cases
 - Occurence by topic
