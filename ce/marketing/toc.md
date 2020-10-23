@@ -76,7 +76,7 @@
 ### [Administration and setup FAQ](setup-troubleshooting.md)
 ### [Known issues and workarounds](known-issues.md)
 
-## [Marketing capabilities](user-guide.md)
+## [Marketing execution](user-guide.md)
 
 ### Get started
 #### [Browser and system requirements](browser-requirements.md)
@@ -89,8 +89,8 @@
 #### [Export data](export-data-word-excel.md)
 #### [Marketing videos](marketing-videos.md)
 
-### Top tasks
-#### [Core marketing tasks](basic-tutorials.md)
+### Core marketing tasks
+#### [Core marketing tasks overview](basic-tutorials.md)
 #### [Create a segment](create-segment.md)
 #### [Create a marketing email](create-marketing-email.md)
 #### [Create a simple customer journey](create-simple-customer-journey.md)
@@ -101,6 +101,7 @@
 ##### [Manage images](manage-images.md)
 ##### [Track online behavior](track-online-behavior.md)
 ##### [Import and email all contacts from a spreadsheet](email-excel.md)
+#### [Advanced scenarios](advanced-tutorials.md)
 
 ### Digital content design
 #### [Design your digital content](design-digital-content.md)
