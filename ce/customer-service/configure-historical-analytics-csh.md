@@ -1,6 +1,6 @@
 ---
-title: "Configure Customer Service historical insights for Dynamics 365 Customer Service Hub and Customer Service workspace | MicrosoftDocs"
-description: "Learn how to configure Customer Service Insights for Customer Service Hub and Customer Service workspace"
+title: "Configure Customer Service historical analytics | MicrosoftDocs"
+description: "Learn how to configure Customer Service analytic reports for Customer Service Hub and Customer Service workspace"
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
@@ -11,7 +11,7 @@ ms.service:
 ms.custom:
 ---
 
-# Preview: Configure Customer Service historical insights for Customer Service Hub and Customer Service workspace
+# Preview: Configure Customer Service historical analytics reports
 
 [!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -40,6 +40,9 @@ Make sure that you have administrator permissions for Dynamics 365.
 
 5. On the **Customer Service historical analytics** page, toggle **Status** to **Enabled**.
 
+    > [!div class=ms-imgBorder]
+    > ![Customer Service historical analytics enabled](media/historical-analytics-enabled.png "Customer Service historical analytics enabled")
+
 6. Select **Save** or **Save & Close**.
 
 This configuration will enable AI-discovered topics from cases with default settings.
@@ -59,7 +62,7 @@ You can see the following reports by navigating to the **Service** > **Analytics
 ### See also
 
 [Introduction to Customer Service analytics and insights](introduction-customer-service-analytics.md)  <br>
-[View and understand Customer Service analytics and insights in Customer Service Hub](customer-service-analytics-insights-csh.md)  <br>
-[View and understand Customer Service analytics](customer-service-analytics.md)  
+[View and understand Customer Service insights](customer-service-analytics-insights-csh.md)  <br>
+[View and understand Customer Service analytics in Power BI](customer-service-analytics.md)  
 
 
