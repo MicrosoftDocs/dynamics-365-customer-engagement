@@ -56,7 +56,7 @@ Perform the following steps to create a work stream in Omnichannel for Customer 
         - Custom
         - Twitter
 
-      - **Capacity**: Specify the units of capacity that are required to process a conversation for the work stream in the text box.
+      - **Capacity**: Specify the units of capacity that are required to process a single conversation for the work stream in the text box. For information on how to determine capacity units, see [Capacity](users-user-profiles.md#capacity).
 
       - **Auto-close after inactivity**: Enter the unit of time after which a conversation is moved from the **Waiting** state to the **Closed** state because of inactivity.
 
@@ -70,13 +70,13 @@ Perform the following steps to create a work stream in Omnichannel for Customer 
 
       - In **Pick** mode, a conversation is dispatched to agents when they explicitly pick a conversation from the **Open work items** in the agent dashboard.
 
-      2. In **Allowed Presences**, select a base presence, such as "Available" and "Busy" from the list. You can select all options also. Agents will be allocated work items even if the agent presence is set to one of the statuses specified here. If you have enabled [missed notifications](manage-missed-notifications.md), do not select "Away" as an allowed presence. For information, see [Configure and manage custom presence](presence-custom-presence.md).
+      1. In **Allowed Presences**, select a base presence, such as "Available" and "Busy" from the list. You can select all options also. Agents will be allocated work items even if the agent presence is set to one of the statuses specified here. If you have enabled [missed notifications](manage-missed-notifications.md), do not select "Away" as an allowed presence. For information, see [Configure and manage custom presence](presence-custom-presence.md).
 
           > [!div class=mx-imgBorder] 
           > ![New work stream](../media/omni-channel-new-work-stream.png)
 
-      3. If you have selected **Push** in **Work distribution mode**, set the toggle to **Yes** for **Enable selecting from push-based work streams**. The agents can assign work items to themselves irrespective of constraints, such as capacity and presence.
-      4. If you want an ongoing conversation to be assigned to the same agent when the conversation status changes from waiting to active, make sure the **Enable Agent Affinity** is set to yes. By default, the toggle is enabled for SMS and social channels.
+      2. If you have selected **Push** in **Work distribution mode**, set the toggle to **Yes** for **Enable selecting from push-based work streams**. The agents can assign work items to themselves irrespective of constraints, such as capacity and presence.
+      3. If you want an ongoing conversation to be assigned to the same agent when the conversation status changes from waiting to active, make sure the **Enable Agent Affinity** is set to yes. By default, the toggle is enabled for SMS and social channels.
     
     > [!NOTE]
     > The **Enable Agent Affinity** option is available only when the work distribution mode is push. More information: [Agent affinity](#agent-affinity).
