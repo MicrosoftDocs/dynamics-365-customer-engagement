@@ -78,7 +78,8 @@
 ### [Administration and setup FAQ](setup-troubleshooting.md)
 ### [Known issues and workarounds](known-issues.md)
 
-## [Marketing execution](user-guide.md)
+## Marketing execution
+### [Marketing execution overview](user-guide.md)
 
 ### Get started
 #### [Browser and system requirements](browser-requirements.md)
