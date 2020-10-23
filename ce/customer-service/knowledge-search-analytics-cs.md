@@ -38,11 +38,11 @@ As a knowledge manager, it's your responsibility to maintain and improve your or
 
 To access this dashboard, your organization's administrator must first enable it. For more information, see [Configure Knowledge search insights](enable-knowledge-search-analytics.md).
 
-## Knowledge search analytics dashboard KPIs
+## Knowledge search analytics dashboard metrics
 
-The following are specific KPIs represented in this dashboard: 
+The following are specific metrics represented in this dashboard: 
 
-| KPI | Definition |
+| KPIs or chart | Definition |
 |----------------------|-------------------------|
 | Search count | The total number of searches completed within a given period. |
 | Search count over duration | The number of searches of completed within a certain amount of time. |
@@ -58,6 +58,7 @@ The following are specific KPIs represented in this dashboard:
 | Top 20 search terms with low engagement rate | The top 20 search topics by volume with engagement rate of less than 40 percent. |
 | Search volume by application | The percentage of searches across multiple applications. |
 | Search volume by search type | The percentage of searches based on whether they were manual or automatic searches. |
+
 
 ### See also
 
