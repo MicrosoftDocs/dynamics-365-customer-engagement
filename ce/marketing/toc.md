@@ -18,7 +18,7 @@
 #### [Keep Marketing up to date](apply-updates.md)
 #### [Uninstall Marketing](uninstall-marketing.md)
 
-### User administration and access permissions
+### User administration and permissions
 #### [Manage user accounts, licenses, and roles](admin-users-licenses-roles.md)
 #### [Fair use policy](fair-use-policy.md)
 #### [Use business units with Marketing](business-units.md)
@@ -105,13 +105,13 @@
 ##### [Track online behavior](track-online-behavior.md)
 ##### [Import and email all contacts from a spreadsheet](email-excel.md)
 
-### Work with content designers
+### Digital content design
 #### [Design your digital content](design-digital-content.md)
 #### [Work with email, page, and form templates](email-templates.md)
 #### [Use custom attributes to enable designer features](custom-template-attributes.md)
 #### [Design elements reference](content-blocks-reference.md)
 
-### Create marketing emails
+### Email campaigns
 #### [Email marketing overview](prepare-marketing-emails.md)
 #### [Create a new email and design its content](email-design.md)
 #### [Add dynamic content to email messages](dynamic-email-content.md)
@@ -123,7 +123,7 @@
 #### [Check your spam score](spam-checker.md)
 #### [Design and run A/B tests on your email designs](email-a-b-testing.md)
 
-### Create marketing pages and forms
+### Marketing pages and forms
 #### [Create and deploy marketing pages](create-deploy-marketing-pages.md)
 #### [Provide personalized page content](personalized-page-content.md)
 #### [Create marketing forms](marketing-forms.md)
@@ -134,12 +134,12 @@
 #### [Set up a subscription center](set-up-subscription-center.md)
 #### [Edit and resubmit form submissions](failed-submissions.md)
 
-### Build a library of marketing content
+### Marketing content library management
 #### [Upload and use images and files](upload-images-files.md)
 #### [Create reusable content blocks](content-blocks.md)
 #### [Preview: Create a video library and add videos to your designs](video-content.md)
 
-### Define market segments
+### Segmentation
 #### [Working with segments](segmentation-lists-subscriptions.md)
 #### [Segments vs. lists](segments-vs-lists.md)
 #### [Design dynamic demographic or firmographic segments](segments-profile.md)
@@ -153,7 +153,7 @@
 #### [Market to Dynamics 365 segments on LinkedIn ](linkedin-matched-audience.md)
 #### [Use Customer Insights segments in Marketing](customer-insights-segments.md)
 
-### Work with customer journeys
+### Customer journey orchestration
 #### [Create automated campaigns with customer journeys](customer-journeys-create-automated-campaigns.md)
 #### [Export to Excel for further analysis](export-journey.md)
 #### [Set expiration dates for emails](email-expire.md)
@@ -163,7 +163,7 @@
 #### [Customer journey tiles reference](customer-journey-tiles-reference.md)
 #### [Create activity templates](activity-templates.md)
 
-### Manage, score, and qualify leads
+### Lead generation and management
 #### [The lead lifecycle](lead-lifecycle.md)
 #### [Market to leads](market-to-leads.md)
 #### [Account-based marketing](account-based-marketing.md)
@@ -190,7 +190,7 @@
 #### [Follow up after the event](followup-after-event.md)
 #### [Record and view financial information for events](event-financials.md)
 
-### Engage contacts with portals and surveys
+### Customer engagement via portals and surveys
 #### [Create interactive features with or without portals](portals.md)
 #### [Use Dynamics 365 Customer Voice surveys with Dynamics 365 Marketing](customer-voice.md)
 #### [Create and run online surveys](surveys.md)
@@ -204,7 +204,7 @@
 ### [Work with marketing calendars](marketing-calendar.md)
 ### [Go live with publishable entities and track their status](go-live.md)
 
-### Analyze marketing results
+### Performance analytics
 #### [Analyze results to gain insights](insights.md)
 #### [Insights glossary](insights-glossary.md)
 #### [Preview: Prepare for analytic reporting with Power BI](custom-analytics.md)
@@ -219,7 +219,7 @@
 ##### [Gallery: Marketing reach analysis](marketing-analytics/analytics-gallery-reach.md)
 ##### [Gallery: Marketing form submission report](marketing-analytics/analytics-gallery-forms.md)
 
-## [Developer Guide](developer/marketing-developer-guide.md)
+## [Developer guide](developer/marketing-developer-guide.md)
 ### [Extend customer journeys using custom channels](developer/extend-customer-journeys-custom-channels.md)
 #### [Overview of custom channel](developer/overview-custom-channel.md)
 #### [Create a custom channel](developer/create-custom-channel.md)
@@ -259,7 +259,7 @@
 #### [Dynamics 365 Marketing solutions](developer/marketing-solutions.md)
 #### [Dynamics 365 Marketing entity reference](developer/marketing-entity-reference.md)
 
-## [Learning Catalog](learning-catalog.md)
+## [Learning catalog](learning-catalog.md)
 ### [Business Decision Maker](learning-bdm.md)
 ### [Business User](learning-bus-user.md)
 ### [Implementation Project Manager](learning-project-manager.md)
