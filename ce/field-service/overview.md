@@ -6,7 +6,7 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: krbjoran
 ms.custom:
   - dyn365-fieldservice
-ms.date: 09/01/2020
+ms.date: 10/23/2020
 ms.topic: article
 ms.prod:
 ms.technology:
@@ -84,6 +84,22 @@ Field service capabilities include:
 - [Rockwell Automation](https://customers.microsoft.com/story/786160-rockwell-automation-manufacturing-dynamics-365)
 
 - [Siemens](https://customers.microsoft.com/story/814362-siemens-manufacturing-dynamics-365-field-service)
+
+- [Oasen](https://customers.microsoft.com/story/oasen-nonprofit-azure-hololens-netherlands)
+
+- [Orangebox](https://customers.microsoft.com/story/754861-orangebox-manufacturing-dynamics-365)
+
+- [Posturite](https://customers.microsoft.com/story/759768-posturite)
+
+- [Lexmark](https://customers.microsoft.com/story/735150-lexmark-international-unitedstates-professional-services-microsoft365)
+
+- [Mashreq](https://customers.microsoft.com/story/mashreq-banking-surface-uk)
+
+- [ExxonMobile](https://customers.microsoft.com/story/exxonmobil-mining-oil-gas-azure)
+
+- [EcoLab](https://customers.microsoft.com/story/832498-ecolab-professional-services-dynamics-365)
+
+- [New York City Administration for Children’s Services (ACS)](https://customers.microsoft.com/story/new-york-city-acs-government-surface)
 
 ## Field Service roles
 
