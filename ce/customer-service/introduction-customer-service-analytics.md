@@ -39,7 +39,7 @@ For more details about specific Customer Service Insights dashboards, see the fo
 
 - [Topics Dashboard](topics-dashboard-cs.md) 
 
-In addition to the above dashboards, organizations can now gain insights into how agents are using knowledge article to resolve cases. These insights can help you identify outdated documentation, improve existing articles, and create new ones to empower your support team. To preview this feature, see Opting in to KM. 
+In addition to the above dashboards, organizations can now gain insights into how agents are using knowledge article to resolve cases. These insights can help you identify outdated documentation, improve existing articles, and create new ones to empower your support team. To preview this feature, see [Configure Knowledge search insights](enable-knowledge-search-analytics.md). 
 
 For more information on enabling knowledge search analytics, see Knowledge search analytics documentation.
 
