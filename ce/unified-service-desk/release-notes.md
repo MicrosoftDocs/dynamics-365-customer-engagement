@@ -22,17 +22,19 @@ search.app:
 
 ## Unified Service Desk 4.1 known issues and limitations
 
-### Fields are not populated in a new tab while opening a related record from the current page
+### Field values are not populated in a new Unified Service Desk tab while opening a related record from the current page
 
-If you have configured to create a new related record from the current session using Unified Interface apps in the Unified Service Desk client application, then few fields might not get populated in the form.
+If you are using a Unified Interface page type of hosted controls, and if you have configured to open its related entity's record creation page in a different tab from a given Unified Interface page, then certain fields might not get populated in the related entity's form in the new tab.
 
 #### Work around
 
 To work around the issue, try the following:
 
-1. Configure **RunXrmCommand** action call to pass values on the **PageReady** event of the related record's hosted control.
+1. Configure **RunXrmCommand** action call to initialize values in the related record and have the action added to **PageReady** event of the related entity's hosted control.
 
-**Example Code:**
+**Example:**
+
+Assume you have Case hosted control to load any case form and Email hosted control to load any email form. Perform any action from a case tab that will open a create form of an email entity. As you have already configured the email to open in Email hosted control, create form will be opened in the Email hosted control and related field value will not be populated in the email form. To work around this issue, you need an action call which will initialize the value after the **PageReady** event.
 
 Create a webresource and write the code to update the lookup value.
 
@@ -59,10 +61,10 @@ function SetLookupValue(context, fieldName, id, name, entityType)
 ```
 webResourceName=new_USDFormUpdate
 functionName=SetLookupValue
-'field'
-'[[id]]'
-'[[name]]'
-'[[LogicalName]]'
+'field' // Logical name of the attribute that needs to be updated. In case of an email regarding field, it is regarding objectid.
+'[[id]]' // ID of the case record.
+'[[name]]' // Title of the case record.
+'[[LogicalName]]' // LogicalName of the entity. It is case here.
 ```
 
 ### Unified Service Desk shuts down with an exception
