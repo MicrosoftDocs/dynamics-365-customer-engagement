@@ -35,7 +35,7 @@ The following historical reports are available:
 - [Summary report](summary-dashboard-cs.md)
 - [Agent report](agent-dashboard-cs.md)
 - [Topics report](topics-dashboard-cs.md) 
-- [Knowledge search analytics](knowledge-search-analytics.md)
+- [Knowledge search analytics](knowledge-search-analytics-cs.md)
 
 ## Configuration of reports
 
