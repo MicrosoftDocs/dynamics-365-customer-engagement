@@ -73,7 +73,7 @@ The Dynamics 365 Marketing October 2020 update includes several feature enhancem
 
 - **Use natural language to create targeted segments**
     - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/create-consume-segments-using-natural-language)
-    - [Docs](segmentation-lists-subscriptions.md)
+    - [Docs](nl-segment-build.md)
 
 ### Bug fixes
 

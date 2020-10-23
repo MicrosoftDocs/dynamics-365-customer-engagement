@@ -22,7 +22,7 @@ search.audienceType:
 ---
 # Delete custom entities
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Delete an entity](/powerapps/maker/common-data-service/data-platform-delete-entity)
 
 <a name="BKMK_DeleteCustomEntities"></a>   
   

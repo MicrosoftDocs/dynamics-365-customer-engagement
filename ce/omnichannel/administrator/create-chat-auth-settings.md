@@ -24,7 +24,7 @@ An agent will get a notification in the **Conversation summary** section whether
 
 ## Prerequisites
 
-Make sure your organization has a working knowledge of Oauth 2.0 and Javascript Web Tokens (JWTs). 
+Make sure your organization has a working knowledge of Oauth 2.0 and JSON Web Tokens (JWTs). 
 
 ## Create a chat authentication setting record
 

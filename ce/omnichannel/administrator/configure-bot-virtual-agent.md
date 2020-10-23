@@ -4,7 +4,7 @@ description: "Instructions to integrate a bot in Omnichannel for Customer Servic
 author: platkat
 ms.author: ktaylor
 manager: shujoshi
-ms.date: 10/21/2020
+ms.date: 10/23/2020
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ---
@@ -167,7 +167,7 @@ At run time, the required information is captured in the context variable that c
 | **Suggested actions:** Suggested actions enable your bot to present buttons that the user can tap to provide input. Suggested actions appear close to the composer and enhance user experience. They enable the user to answer a question or make a selection with a simple tap of a button, rather than having to type a response with a keyboard. |	Suggested actions cannot display vertically. |
 | **Format bot messages:** You can set the optional TextFormat property to control how your message's text content is rendered. | Power Virtual Agents does not support markdown with images and text. <br>When Power Virtual Agents sends markdown text, there is extra space between lines. <br>Carousel layout is not supported. |
 | **File attachments:** Once file attachments are enabled in Omnichannel, customers can send file attachments. | Power Virtual Agents cannot operate on Omnichannel file attachments. |
-| **Bot transfer:** After a Power Virtual Agents bot transfers a conversation to a human agent, the human agent may want to transfer the conversation back to a Power Virtual Agents bot for further assistance or data collection. | Microsoft recommends using two different bots as described above. Transferring a conversation back to the same bot is not recommended. | 
+|||
 
 ## Privacy notice
 

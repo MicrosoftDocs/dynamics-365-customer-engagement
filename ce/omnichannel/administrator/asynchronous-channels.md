@@ -4,7 +4,7 @@ description: "Adaptive card, emojis, and other support in asynchronous channels 
 author: platkat 
 ms.author: ktaylor
 manager: shujoshi
-ms.date: 09/03/2020
+ms.date: 10/22/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -98,7 +98,7 @@ You can enable file attachments on the **General settings** tab of a channel so 
 |--------------------|---------------------------------------------------------------------|
 | Facebook           | Yes, as .png image                                                  |
 | Twitter            | Not supported.                                                      |
-| Microsoft Teams    | Not supported.                    |
+| Microsoft Teams    | Not supported.                                                      |
 | WeChat             | Not supported. Recipient sees "Unsupported message" text.           |
 | LINE               | Not supported. Recipient sees "Sticker" text.                       |
 | WhatsApp           | Not supported.                                                      |
@@ -107,6 +107,25 @@ You can enable file attachments on the **General settings** tab of a channel so 
 
 > [!Note]
 > The Direct Line channel supports stickers, but it's up to the client to implement them.
+
+## Social profile support
+
+Omnichannel for Customer Service creates a social profile for incoming requests from asynchronous channels. When a social profile is created for a conversation within a channel, later conversations will be linked to the same social profile for this channel.
+
+With social profiles, you can do the following:
+
+- [Automatically identify customers](record-identification-rule.md) on social channels
+- Display the customer name or phone number with conversations on the agent dashboard
+- Send outbound messages
+
+| Channel            | Social profile support                                              |
+|--------------------|---------------------------------------------------------------------|
+| Facebook           | Yes                                                                 |
+| Twitter            | Yes                                                                 |
+| WeChat             | Yes                                                                 |
+| LINE               | Yes                                                                 |
+| WhatsApp           | Yes                                                                 |
+| Custom messaging (Telegram) | Yes                                                        |
 
 ### See also
 
