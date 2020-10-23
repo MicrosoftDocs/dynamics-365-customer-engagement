@@ -8,7 +8,7 @@ ms.custom:
   - dyn365-marketing
 ms.topic: get-started-article
 ms.assetid: c4de5589-b20f-4318-8443-7485c5b1a27b
-author: v-jziobro
+author: JuliaZiobro
 ms.author: alfergus
 manager: shellyha
 ms.reviewer:
@@ -26,7 +26,7 @@ search.app:
 
 If your administrator has enabled the natural language feature, you can use Natural Language Understanding (NLU) to build segments in Dynamics 365 Marketing. Natural language input enables you to use common words and phrases to describe the people you want to include in dynamic and static segments without learning all the specifics of the Common Data Model (CDM) and best practices for building queries.
 
-Using the instructions in [Working with segments](create-segments.md), type and submit a statement, and the service will fill the query fields using information collected from your contacts, accounts, leads, and activities.
+Using the instructions in [Working with segments](segmentation-lists-subscriptions.md), type and submit a statement, and the service will fill the query fields using information collected from your contacts, accounts, leads, and activities.
 
 > [!IMPORTANT]
 > [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]
@@ -70,7 +70,7 @@ A more complex segment that includes both profile and behavioral queries gives b
 
 This segment would find a group of customers who have purchased from your company in the last six months in Chicago that are now unreachable through the email address in your organizational database, suggesting that a new contact needs to be established for that customer, requiring an outreach channel other than email.
 
-# Phrases you can use in natural language queries
+## Phrases you can use in natural language queries
 
 You can use a variety of phrases to find contacts and accounts with different attributes. This is not a complete list.
 
