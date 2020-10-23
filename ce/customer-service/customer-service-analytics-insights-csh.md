@@ -1,82 +1,75 @@
 ---
-title: Insights dashboard overview | Microsoft Docs
-description: Learn about the various dashboards and reports for historical operational metrics and KPIs to manage contact centers.
-author: lalexms
-ms.author: laalexan
+title: View and understand Customer Service analytics and insights in Customer Service Hub | Microsoft Docs
+description: Dashboards and reports provide historical operational metrics and KPIs to manage contact centers.
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
-ms.date: 10/22/2020
+ms.date: 04/03/2020
 ms.topic: article
 ms.service: 
-  dynamics-365-customerservice
+  - dynamics-365-customerservice
 ms.custom: 
-  dyn365-customerservice
+  - dyn365-customerservice
 search.audienceType: 
-  admin
-  customizer
-  enduser
+  - admin
+  - customizer
+  - enduser
 search.app: 
-  D365CE
-  D365CS
-  
+  - D365CE
+  - D365CS
 ---
 
-# Preview: Dashboard overview
+# Preview: View and understand Customer Service analytics and insights
 
 [!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-> [!IMPORTANT]
->
-> - A preview is a feature that is not complete, as it may employ reduced privacy, security, and/or compliance commitments, but is made available before it is officially released for general availability so customers can get early access and provide feedback. Previews are provided "as-is," "with all faults," "as available," and without warranty.
-> - This preview feature does not come with technical support and Microsoft Dynamics 365 Technical Support won't be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.
-> - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk. All previews are subject to separate [Terms and Conditions](../legal/supp-dynamics365-preview.md).
-
-The insights dashboards for Customer Service contain a variety of charts and metrics to help you to understand the factors that have the greatest impact on customer service for your organization. Key performance indicators and graphical breakdowns of your organization's support cases are coupled with AI-generated insights on cases, agents, and topics that contribute to overall trends.
-
-Customer Service dashboards give you a performance summary in addition to detailed reports on agents and topics.  
-
-Right-clicking on a chart entry and hovering over **Drill through**, selecting **Agent Details** or **Topic details** brings up a more detailed report that's specific to the selected agent or topic.
-
-Navigate to the Knowledge Search analytics tab to view key details about what search terms agents and smart agent assist are using to find knowledge articles related to cases. For more information, see [Knowledge search analytics dashboard](knowledge-search-analytics-cs.md).
-
-## Configure dashboards
-
-To enable the dashboards, see the following topics:
-
-- [Configure historical analytics reports](configure-historical-analytics-csh.md)
-
-- [Configure knowledge search insights](enable-knowledge-search-analytics.md)
-
 ## Customer Service analytics reports
 
-The following dashboard reports are available for Customer Service analytics:
+The following reports are available for Customer Service analytics:
 
-### Summary
-
-The Summary dashboard gives you a broad overview of the customer service experience in your organization. It uses artificial intelligence (AI) technology to show you topics that are generating the highest volume and emerging topics with the highest rate of change in volume.
+- **Case Summary**
 
    > [!div class=mx-imgBorder]
-   > ![Analytics Summary dashboard](media/summary-dashboard-analytics-cs.png "Customer Service analytics Summary dashboard")
-   
-For more details about the Summary dashboard, see [Summary dashboard](summary-dashboard-cs.md)
+   > ![Customer Service analytics Case Summary report](media/cs-case-summary-csh.png "Customer Service analytics Case Summary report")
 
-### Agent
-
-The Agent dashboard shows charts and KPIs for individual agents and overall agent performance.
+- **Agent Summary**
 
    > [!div class=mx-imgBorder]
-   > ![Analytics Agent dashboard](media/agent-dashboard-analytics-cs.png "Customer Service analytics Agent dashboard")
-   
-For more details about the Agent dashboard, see [Agent dashboard](agent-dashboard-cs.md)
+   > ![Customer Service analytics Agent Summary report](media/cs-agent-summary-csh.png "Customer Service analytics Agent Summary report")
 
-### Topics
+The following KPIs are available.
 
-The Topics report dashboard shows a detailed breakdown of cases and their assigned topics.
+| KPI                       | Description         |
+|---------------------------|-------------------------|
+|Total cases                |The number of cases created to support customers.      |
+|Active cases               |The number of cases that are currently open.          |
+|Resolved cases             |The number of cases that have been closed by an agent.   |
+|Escalated cases %          |The percentage of cases that have been escalated.    |
+|Average handle time (hrs) |The average length of time taken by an agent to resolve the case. |
+|Avg. CSAT                  | The average customer satisfaction score, based on the survey submitted by the customer. |
+|Case age                    |The average time the case was in an open state.                 |
+|Total activities            |The total number of activities that were created by agents.              |
+
+You can use the following filters in the reports.
+
+|Filters / Dimensions  |Description        |
+|----------------------|-------------------|
+|Duration              |Filters the reporting date range.|
+|Queue                 |Lets you filter the queue you'd like to drill down to and see all metrics related to that queue. |
+|Agent                 |Lets you filter the report to show all the agents who report to you, to understand how each is performing and help you develop coaching and training plans.  |
+|Priority              |Filters the reporting to the selected priority of the case (high, normal, or low). |
+|Subject               |Filters the reporting to the selected subject of the case.  |
+|Channel               |Filters the reporting to the selected Omnichannel for Customer Service channels, such as chat, SMS, or Facebook.  |
+
+When you select a filter condition, the data is automatically filtered and rendered in the report.
 
    > [!div class=mx-imgBorder]
-   > ![Analytics Topics dashboard](media/topics-dashboard-analytics-cs.png "Customer Service analytics Topics dashboard")
-   
-For more details about the Topics dashboard, see [Topics dashboard](topics-dashboard-cs.md)
-   
+   > ![Customer Service analytics view and filter report](media/cs-analytics-view-filer-report.png "Customer Service analytics view and filter report")
+
+> [!NOTE]
+> For the **Date** filter, the **Next** option won't display results in the report.
+
+For detailed information about the reports, see [Case Summary report](customer-service-analytics.md#1-summary) and [Agent Summary report](customer-service-analytics.md#2-agent-and-queue).
 
 ## Information you need to know about Customer Service analytics reports
 
@@ -127,6 +120,29 @@ The Customer Service Analytics reports are supported in the following regions:
 - India
 - Great Britain
 
+## Understand Customer Service Insights reports
+
+Dynamics 365 Customer Service Insights gives you actionable insights into critical performance metrics, operational data, and emerging trends from your customer service system. Built-in dashboards, interactive charts, and visual filters provide views into support operations data across channels, and highlight areas for improvement that can have the greatest impact, helping you quickly evaluate and respond to KPIs and customer satisfaction levels. More information: [Customer Service Insights](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/overview)
+
+## Preview: Use the Customer Service Insights reports in Customer Service Hub
+
+[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
+### Create and view reports
+
+If you have access to Dynamics 365 Customer Service, and if Customer Service Insights reports haven't been created for you or shared with you, you can create the reports in Customer Service Hub. Navigate to **Service** > **Insights (Preview)**, and then select **Complete** on the **Analytics and insights settings** page.
+
+> [!NOTE]
+> You must be assigned to a security role that has permission to view the site map for Customer Service Insights reports. Also, you must have a valid Customer Service Insights license to create, view, and share the reports. You can select **Share** at the top of the report to share it.
+
+The report consist of five pivots as follows:
+
+- [Home](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/keyinsights)
+- [KPI summary](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/dashboard-kpi-summary)
+- [New cases](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/dashboard-incoming-cases)
+- [Customer satisfaction](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/dashboard-csat)
+- [Resolutions](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/dashboard-case-resolutions)
+
 ## Troubleshooting
 
 To troubleshoot issues when you try to access or view the reports, do the following.
@@ -140,6 +156,6 @@ To troubleshoot issues when you try to access or view the reports, do the follow
 
 ### See also
 
-[Introduction to Customer Service insights](introduction-customer-service-analytics.md)  
-[Configure Customer Service insights for Customer Service Hub and Customer Service workspace](configure-customer-service-analytics-insights-csh.md)  
-[Configure Customer Service analytics in Power BI](configure-customer-service-analytics-dashboard.md)
+[Introduction to Customer Service analytics and insights](introduction-customer-service-analytics.md)  
+[Configure Customer Service analytics and insights in Customer Service Hub](configure-customer-service-analytics-insights-csh.md)  
+[Configure Customer Service Analytics in Power BI](configure-customer-service-analytics-dashboard.md)
