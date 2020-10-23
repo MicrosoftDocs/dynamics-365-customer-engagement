@@ -27,7 +27,7 @@ The post-conversation survey uses Customer Voice to create surveys. Make sure yo
 
 ## How post-conversation surveys work
 
-When you enable a post-conversation survey for a channel, the survey will appear for the customer after the agent or customer ends the conversation. While configuring the survey, you can use the settings for the response options available in Customer Voice. More information: [Work with survey settings](https://docs.microsoft.com/forms-pro/invite-settings)
+When you enable a post-conversation survey for a channel, the survey will appear for the customer after the agent or customer ends the conversation. While configuring the survey, you can use the settings for the response options available in Customer Voice. More information: [Work with survey settings](https://docs.microsoft.com/dynamics365/customer-voice/distribution-settings)
 
 You can enable post-conversation surveys for the following channels:
 
