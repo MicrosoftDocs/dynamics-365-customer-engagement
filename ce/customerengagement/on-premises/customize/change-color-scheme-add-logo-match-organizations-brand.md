@@ -113,7 +113,7 @@ The following screenshot shows the default theme setup.
 ### Theme contrast  
  We recommend the following approach to providing contrast colors:  
   
-- Carefully choose the contrasting colors. [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] out-of-the-box default theme has the correct contrast ratios to ensure optimal usability. Use similar rations for your new themes.  
+- Carefully choose the contrasting colors. [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] out-of-the-box default theme has the correct contrast ratios to ensure optimal usability. Use similar contrast ratios for your new themes.  
   
 - For high contrast mode, use the default color settings.  
   
