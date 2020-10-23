@@ -85,21 +85,21 @@ Field service capabilities include:
 
 - [Siemens](https://customers.microsoft.com/story/814362-siemens-manufacturing-dynamics-365-field-service)
 
-- [Oasen](https://customers.microsoft.com/en-us/story/oasen-nonprofit-azure-hololens-netherlands)
+- [Oasen](https://customers.microsoft.com/story/oasen-nonprofit-azure-hololens-netherlands)
 
-- [Orangebox](https://customers.microsoft.com/en-us/story/754861-orangebox-manufacturing-dynamics-365)
+- [Orangebox](https://customers.microsoft.com/story/754861-orangebox-manufacturing-dynamics-365)
 
-- [Posturite](https://customers.microsoft.com/en-us/story/759768-posturite)
+- [Posturite](https://customers.microsoft.com/story/759768-posturite)
 
-- [Lexmark](https://customers.microsoft.com/en-us/story/735150-lexmark-international-unitedstates-professional-services-microsoft365)
+- [Lexmark](https://customers.microsoft.com/story/735150-lexmark-international-unitedstates-professional-services-microsoft365)
 
-- [Mashreq](https://customers.microsoft.com/en-us/story/mashreq-banking-surface-uk)
+- [Mashreq](https://customers.microsoft.com/story/mashreq-banking-surface-uk)
 
-- [ExxonMobile](https://customers.microsoft.com/en-us/story/exxonmobil-mining-oil-gas-azure)
+- [ExxonMobile](https://customers.microsoft.com/story/exxonmobil-mining-oil-gas-azure)
 
-- [EcoLab](https://customers.microsoft.com/en-us/story/832498-ecolab-professional-services-dynamics-365)
+- [EcoLab](https://customers.microsoft.com/story/832498-ecolab-professional-services-dynamics-365)
 
-- [New York City Administration for Children’s Services (ACS)](https://customers.microsoft.com/en-us/story/new-york-city-acs-government-surface)
+- [New York City Administration for Children’s Services (ACS)](https://customers.microsoft.com/story/new-york-city-acs-government-surface)
 
 ## Field Service roles
 
