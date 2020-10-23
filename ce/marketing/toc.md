@@ -3,7 +3,8 @@
 ## [Overview](overview.md)
 ## [What's new](whats-new-marketing.md)
 
-## [Administration](admin-guide.md)
+## Administration 
+### [Administration overview](admin-guide.md)
 
 ### Installation and environment management
 #### [Sign up for a free trial](trial-signup.md)
