@@ -25,7 +25,8 @@ search.app:
 
 # Account-based marketing
 
-Account-based marketing helps marketers working in organizations that focus on business-to-business sales to support their salespeople's strategies and sales processes. Feature include:
+Account-based marketing helps marketers working in organizations that focus on business-to-business sales to support their salespeople's strategies and sales processes. Feature include:     
+
 
 - **Account-based journeys**, which can generate account leads, trigger decisions at the account level, assign activities related to accounts, provide account-based insights, and more.
 - **Account-based personalization of email content**, which enables you to design content that displays information from, and reacts to, the account record associated with each recipient.
