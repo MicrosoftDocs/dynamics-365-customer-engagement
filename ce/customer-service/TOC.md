@@ -96,13 +96,22 @@
 ### Similar Record Suggestions
 #### [Use advanced similarity rules to view similar case suggestions](suggest-similar-cases-for-a-case.md)
 
-### Customer Service Analytics and Insights
-#### [Introduction to Customer Service Analytics and Insights](introduction-customer-service-analytics.md)
-#### [View and understand Customer Service Analytics and Insights in Customer Service Hub](customer-service-analytics-insights-csh.md)
-#### [View and understand Customer Service Analytics](customer-service-analytics.md)
-#### [Configure Customer Service Analytics and Insights in Customer Service Hub](configure-customer-service-analytics-insights-csh.md)
-#### [Configure Customer Service Analytics in Power BI](configure-customer-service-analytics-dashboard.md)
-#### [Enable AI suggestions for similar cases and knowledge articles](csw-enable-ai-suggested-cases-knowledge-articles.md)
+### Customer Service Insights
+#### [Introduction to Customer Service Insights](introduction-customer-service-analytics.md)
+#### Manage service configuration settings
+##### [Overview of report configuration](configure-customer-service-analytics-insights-csh.md)
+###### [Configure historical analytics](configure-historical-analytics-csh.md)
+###### [Configure topic clustering](configure-topics-clustering.md)
+###### [Configure Knowledge search analytics](enable-knowledge-search-analytics.md)
+###### [Configure AI suggestions](csw-enable-ai-suggested-cases-knowledge-articles.md)
+##### [Configure Customer Service Analytics in Power BI](configure-customer-service-analytics-dashboard.md)
+#### Historical analytics reports
+##### [Dashboards overview](customer-service-analytics-insights-csh.md)
+##### [Summary dashboard](summary-dashboard-cs.md)
+##### [Agent dashboard](agent-dashboard-cs.md)
+##### [Topics dashboard](topics-dashboard-cs.md)
+##### [Knowledge search analytics dashboard](knowledge-search-analytics-cs.md)
+#### [Customer Service Analytics in Power BI](customer-service-analytics.md)
 
 ## Connected Customer Service (IoT) add-in
 ### [Overview](cs-iot-overview.md)
