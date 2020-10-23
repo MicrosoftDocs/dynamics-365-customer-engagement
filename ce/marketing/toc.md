@@ -152,6 +152,7 @@
 #### [Design dynamic demographic or firmographic segments](segments-profile.md)
 #### [Design behavioral segments](segments-interaction.md)
 #### [Generate behavioral segments from journey results](generate-segment-from-journey.md)
+#### [Preview: Natural language use in segments](nl-segment-build.md)
 #### [Export dynamic-segment members to Excel](segments-export-members.md)
 #### [Design static segments](segments-static.md)
 #### [Manage segment memberships from a contact record](manage-segments-from-contacts.md)
