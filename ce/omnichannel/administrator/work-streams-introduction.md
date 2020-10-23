@@ -56,7 +56,7 @@ Perform the following steps to create a work stream in Omnichannel for Customer 
         - Custom
         - Twitter
 
-      - **Capacity**: Specify the units of capacity that are required to process a conversation for the work stream in the text box.
+      - **Capacity**: Specify the units of capacity that are required to process a single conversation for the work stream in the text box. Capacity is an arbitrary scale that you choose. You can use units of 1, 5, 10, 100, 1000 or anything you want. The capacity is a multiplier you will assign to agents to indicate how many conversations they can take before they are at capacity. For example, if your capacity unit is 1 and you want an agent to be able to take up to 3 converstions the capacity you assign to the agent would be 3. If your capacity unit is 5 and you wanted an agent to be able to take up to 3 chats you would assign the agent a capacity of 15.
 
       - **Auto-close after inactivity**: Enter the unit of time after which a conversation is moved from the **Waiting** state to the **Closed** state because of inactivity.
 
