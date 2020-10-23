@@ -36,16 +36,16 @@ The Agent dashboard shows charts and KPIs that you can use to guide agents and u
 
 Navigate to the Agent dashboard by selecting **Agent** at the top of the workspace. The dashboard shows charts and KPIs for individual agents and overall agent performance, and includes the following insights:
 
-## Key insights discovered card
+## Key insights card
 
 Agents that rank high or low across specific indicators to make it easier for customer service managers to discover top issues in agent performance.
   
 
-## KPI summary details
+## Report details
 
-The KPI summary charts summarize the key performance indicators for the specified time period and the percent change over the period. You can filters these areas by duration, channel, queue, and agent.
+The reports summarize the key performance indicators for the specified time period and the percent change over the period. You can filters these areas by duration, channel, queue, and agent.
 
-Insights for the following areas are displayed:
+KPIs for the following areas are displayed:
 
 - Active cases
 - Resolved cases
@@ -54,7 +54,7 @@ Insights for the following areas are displayed:
 - Average CSAT
 - Average survey sentiment
 
-KPIs are displayed as follows:
+Charts displayed as follows:
 
 - Case volume over duration
 - Average resolve time
