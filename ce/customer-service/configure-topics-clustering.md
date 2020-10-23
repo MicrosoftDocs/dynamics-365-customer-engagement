@@ -30,10 +30,6 @@ The AI-driven technology empowers informed decision-making about how to improve 
 
 Topic clustering is enabled by default when you enable historical analytics. To enable historical analytics, see [Configure Customer Service historical analytics](configure-historical-analytics-csh.md).
 
-    > [!div class=ms-imgBorder]
-    > ![Customer Service analytics installation](media/cs-enable-analyticsinsights.png "Enable Customer Service historical analytics")
-
-
 ## Summary and Model Run Summary views
 
    > [!div class=ms-imgBorder]
@@ -81,17 +77,10 @@ The topics capability in the Customer Service historical analytics reports comes
 - Simplified Chinese 
 - Spanish 
 
-The language-specific models enable better language understanding capability for the corresponding languages. When Customer Service Insights refreshes your workspace and processes the case data, it will automatically detect the primary languages used in your cases. 
-
-If more than 70% of the cases are in languages supported by a specific language model, that model will be used to discover topics from all of your cases; otherwise, a mixed-language model is used. 
-
-For example, if you have more than 70% of cases detected in English, the English language model will be used to process all of your cases. If more than 70% of your cases are in Spanish, or most in Spanish with some English cases (since all language models have the capability to process English), the Spanish model will be used to process all of your cases.
-
-If you have questions, find issues, or have general inquiries, please refer to our [forum](https://community.dynamics.com/365/aicustomerservice/f/dynamics-365-customer-service-insights).
-
 
 ### See also
 
 [Introduction to Customer Service analytics and insights](introduction-customer-service-analytics.md)  <br>
-[View and understand Customer Service analytics and insights in Customer Service Hub](customer-service-analytics-insights-csh.md)  <br>
-[View and understand Customer Service analytics](customer-service-analytics.md)  
+[Dashboard overview](customer-service-analytics-insights-csh.md)  <br> 
+
+  
