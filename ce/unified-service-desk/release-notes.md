@@ -30,7 +30,7 @@ If you are using a Unified Interface page type of hosted controls, and if you ha
 
 You have **Case** and **Email** hosted control to load the case and email form respectively. And, you have configured the email to open in an **Email** hosted control. 
  
-Now, when the agent performs any action from a case tab such that create form of an **Email** entity opens in a new tab. However, the related values will not be populated in the email form.
+Now, when the agent performs any action from a case tab, then the create form of an **Email** entity opens in a new tab. However, the related values will not be populated in the email form.
 
 
 #### Work around
