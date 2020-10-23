@@ -1,6 +1,6 @@
 ---
 title: "Configure Customer Service insights for Dynamics 365 in Customer Service Hub and Customer Service workspace | MicrosoftDocs"
-description: "Learn how to configure Customer Service Insights for Customer Service Hub and Customer Service workspace"
+description: "Learn about Customer Service Insights configuration options for Customer Service Hub and Customer Service workspace"
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
