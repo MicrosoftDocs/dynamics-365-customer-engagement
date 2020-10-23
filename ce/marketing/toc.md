@@ -2,18 +2,8 @@
 
 ## [Overview](overview.md)
 ## [What's new](whats-new-marketing.md)
-## [Learning Catalog](learning-catalog.md)
-### [Business Decision Maker](learning-bdm.md)
-### [Business User](learning-bus-user.md)
-### [Implementation Project Manager](learning-project-manager.md)
-### [Administrator](learning-administrator.md)
-### [Developer](learning-developer.md)
-### [Functional Consultant](learning-functional-consultant.md)
-### [Partner Sales and Marketing](learning-sales.md)
 
-## [Marketing videos](marketing-videos.md)
-
-## [Administrator Guide](admin-guide.md)
+## [Administration](admin-guide.md)
 
 ### Set up and manage Marketing instances
 #### [Sign up for a free trial](trial-signup.md)
@@ -63,17 +53,21 @@
 #### [Configure AI features](admin-machine-learning.md)
 #### [Control access to designer features](designer-feature-protection.md)
 
-### Customize Marketing
-#### [Customizing Marketing](customize.md)
-#### [Open the Power Apps customization window](customize-open-powerapps.md)
-#### [Create and customize marketing calendars](customize-marketing-calendars.md)
-#### [Create and customize template labels](customize-template-labels.md)
-
 ### Email administration
 #### [Best practices for email marketing](get-ready-email-marketing.md)
 #### [Email bounce categories](email-bounce-categories.md)
 #### [Dedicated vs shared IPs for email delivery](dedicated-vs-shared-ip.md)
 #### [Email policies and suspension standards](email-policies.md)
+
+### [Best practices for administration](admin-best-practices.md)
+### [Administration and setup FAQ](setup-troubleshooting.md)
+### [Known issues and workarounds](known-issues.md)
+
+### Customization
+#### [Customizing Marketing](customize.md)
+#### [Open the Power Apps customization window](customize-open-powerapps.md)
+#### [Create and customize marketing calendars](customize-marketing-calendars.md)
+#### [Create and customize template labels](customize-template-labels.md)
 
 ### Privacy and compliance
 #### [Data protection and GDPR](gdpr.md)
@@ -81,11 +75,9 @@
 #### [Set up form double opt-in](form-double-opt-in.md)
 #### [How the app uses cookies](cookies.md)
 
-### [Best practices for administration](admin-best-practices.md)
-### [Administration and setup FAQ](setup-troubleshooting.md)
-### [Known issues and workarounds](known-issues.md)
-
 ## [User Guide](user-guide.md)
+
+## [Marketing videos](marketing-videos.md)
 
 ### Learn the basics
 #### [Browser and system requirements](browser-requirements.md)
@@ -265,5 +257,14 @@
 ### [Metadata reference for your organization](developer/marketing-organization-metadata.md)
 #### [Dynamics 365 Marketing solutions](developer/marketing-solutions.md)
 #### [Dynamics 365 Marketing entity reference](developer/marketing-entity-reference.md)
+
+## [Learning Catalog](learning-catalog.md)
+### [Business Decision Maker](learning-bdm.md)
+### [Business User](learning-bus-user.md)
+### [Implementation Project Manager](learning-project-manager.md)
+### [Administrator](learning-administrator.md)
+### [Developer](learning-developer.md)
+### [Functional Consultant](learning-functional-consultant.md)
+### [Partner Sales and Marketing](learning-sales.md)
 
 ## [Troubleshoot with Solution Health Hub](troubleshoot-marketing-solution-health.md)
