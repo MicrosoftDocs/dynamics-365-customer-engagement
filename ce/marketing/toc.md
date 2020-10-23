@@ -3,22 +3,24 @@
 ## [Overview](overview.md)
 ## [What's new](whats-new-marketing.md)
 
+
+## Installation and environment management
+### [Sign up for a free trial](trial-signup.md)
+### [Purchase and set up Dynamics 365 Marketing](purchase-setup.md)
+### [Integrate Marketing with a CMS system or Dynamics 365 Portal](portal-optional.md)
+### [Open the Power Platform admin center](power-platform-admin-center.md)
+### [Re-run the Marketing setup wizard](re-run-setup.md)
+### [Manage Marketing environments](manage-marketing-environments.md)
+### [Transfer data between instances](transfer-data.md)
+### [Transfer customizations between instances](transfer-solution.md)
+### [Tenant to tenant migration](tenant-to-tenant.md)
+### [Keep Marketing up to date](apply-updates.md)
+### [Uninstall Marketing](uninstall-marketing.md)
+
+
 ## Administration 
 ### [Administration overview](admin-guide.md)
-
-### Installation and environment management
-#### [Sign up for a free trial](trial-signup.md)
-#### [Purchase and set up Dynamics 365 Marketing](purchase-setup.md)
-#### [Integrate Marketing with a CMS system or Dynamics 365 Portal](portal-optional.md)
-#### [Open the Power Platform admin center](power-platform-admin-center.md)
-#### [Re-run the Marketing setup wizard](re-run-setup.md)
-#### [Manage Marketing environments](manage-marketing-environments.md)
-#### [Transfer data between instances](transfer-data.md)
-#### [Transfer customizations between instances](transfer-solution.md)
-#### [Tenant to tenant migration](tenant-to-tenant.md)
-#### [Keep Marketing up to date](apply-updates.md)
-#### [Uninstall Marketing](uninstall-marketing.md)
-
+### [Best practices for administration](admin-best-practices.md)
 ### User administration and permissions
 #### [Manage user accounts, licenses, and roles](admin-users-licenses-roles.md)
 #### [Fair use policy](fair-use-policy.md)
@@ -73,7 +75,6 @@
 #### [Set up form double opt-in](form-double-opt-in.md)
 #### [How the app uses cookies](cookies.md)
 
-### [Best practices for administration](admin-best-practices.md)
 ### [Administration and setup FAQ](setup-troubleshooting.md)
 ### [Known issues and workarounds](known-issues.md)
 
