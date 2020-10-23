@@ -39,7 +39,7 @@ Configure **RunXrmCommand** action call to initialize values in the related reco
 
 Follow the steps to work around the issue:
 
-1. Create a webresource and write the code to update the lookup value.
+1. Create a web resource and write the code to update the lookup value.
 
 ```
 function SetLookupValue(context, fieldName, id, name, entityType)
