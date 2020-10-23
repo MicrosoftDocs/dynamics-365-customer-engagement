@@ -23,7 +23,7 @@ You can configure your chat widget to show users a survey that they can respond 
 
 ## Prerequisite
 
-The post-conversation survey uses Customer Voice to create surveys. Make sure you have access to create surveys in Dynamics 365 Customer Voice in the same org as Omnichannel for Customer Service, and you've created the required survey. The survey that you create will be listed as an option to choose for linking to the conversation. More information: [Create surveys with Dynamics 365 Customer Voice](https://go.microsoft.com/fwlink/p/?linkid=2135108)
+The post-conversation survey uses Customer Voice to create surveys. Make sure you have access to create surveys in Dynamics 365 Customer Voice in the same org as Omnichannel for Customer Service, and you've created the required survey. The survey that you create will be listed as an option to choose for linking to the conversation. More information: [Create surveys with Dynamics 365 Customer Voice](https://docs.microsoft.com/dynamics365/customer-voice/distribution-settings)
 
 ## How post-conversation surveys work
 
