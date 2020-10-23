@@ -34,6 +34,8 @@ Use the **Activate & add quotas** step to activate the forecast and make it avai
         > ![Select data type to resolve error](media/forecast-publish-layout-warnings-resolve-error.png "Select data type to resolve error")
 
     The error is resolved and you can continue with activating the forecast.
+    
+    To know more on how different data types are used in forecasts, see [Forecast with different data type](forecast-different-data-types.md).
 
 2. In the **Activate forecast** section, select **Activate forecast**. The configured forecast starts calculating the values for forecast and becomes available for users in your organization. The activation might take a few minutes.
     
