@@ -22,21 +22,24 @@ search.app:
 
 ## Unified Service Desk 4.1 known issues and limitations
 
-### Field values are not populated in a new Unified Service Desk tab while opening a related record from the current page
+### Field values are not populated in a new tab while opening a related record from the current page
 
 If you are using a Unified Interface page type of hosted controls, and if you have configured to open its related entity's record creation page in a different tab from a given Unified Interface page, then certain fields might not get populated in the related entity's form in the new tab.
 
-#### Work around
-
-To work around the issue, try the following:
-
-1. Configure **RunXrmCommand** action call to initialize values in the related record and have the action added to **PageReady** event of the related entity's hosted control.
-
 **Example:**
 
-Assume you have Case hosted control to load any case form and Email hosted control to load any email form. Perform any action from a case tab that will open a create form of an email entity. As you have already configured the email to open in Email hosted control, create form will be opened in the Email hosted control and related field value will not be populated in the email form. To work around this issue, you need an action call which will initialize the value after the **PageReady** event.
+You have **Case** and **Email** hosted control to load the case and email form respectively. And, you have configured the email to open in an **Email** hosted control. 
+ 
+Now, when the agent performs any action from a case tab such that create form of an **Email** entity opens in a new tab. However, the related values will not be populated in the email form.
 
-Create a webresource and write the code to update the lookup value.
+
+#### Work around
+
+Configure **RunXrmCommand** action call to initialize values in the related record and have the action added to **PageReady** event of the related entity's hosted control.
+
+Follow the steps to work around the issue:
+
+1. Create a webresource and write the code to update the lookup value.
 
 ```
 function SetLookupValue(context, fieldName, id, name, entityType)
@@ -56,7 +59,7 @@ function SetLookupValue(context, fieldName, id, name, entityType)
 }
 ```
 
-2. Now, in the **RunXrmCommand** action call, update the method with parameters.
+2. In the **RunXrmCommand** action call, update the method with parameters.
 
 ```
 webResourceName=new_USDFormUpdate
