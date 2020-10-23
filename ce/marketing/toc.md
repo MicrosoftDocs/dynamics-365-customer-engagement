@@ -31,7 +31,7 @@
 ##### [Define fiscal year settings](fiscal-year-settings.md)
 ##### [Manage Excel templates](manage-excel-templates.md)
 ##### [Manage Word templates](manage-word-templates.md)
-#### [Business Management settings](business-management-settings.md)
+#### [Business management settings](business-management-settings.md)
 
 ### Marketing settings
 #### [Marketing settings overview](marketing-settings.md)
