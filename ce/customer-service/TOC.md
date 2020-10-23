@@ -94,16 +94,16 @@
 ### Similar Record Suggestions
 #### [Use advanced similarity rules to view similar case suggestions](suggest-similar-cases-for-a-case.md)
 
-### Customer Service Analytics and Insights
+### Customer Service Insights
 #### [Introduction to Customer Service Insights](introduction-customer-service-analytics.md)
-#### Historical analytics reports
 #### Manage service configuration settings
-##### [Configure customer service analytics and insights](configure-customer-service-analytics-insights-csh.md)
+##### [Overview of report configuration](configure-customer-service-analytics-insights-csh.md)
 ###### [Configure historical analytics](configure-historical-analytics-csh.md)
 ###### [Configure topic clustering](configure-topics-clustering.md)
 ##### [Configure Knowledge search analytics](enable-knowledge-search-analytics.md)
-##### [AI suggestions](csw-enable-ai-suggested-cases-knowledge-articles.md)
+##### [Configure AI suggestions](csw-enable-ai-suggested-cases-knowledge-articles.md)
 ##### [Configure Customer Service Analytics in Power BI](configure-customer-service-analytics-dashboard.md)
+#### Historical analytics reports
 ##### [Dashboards overview](customer-service-analytics-insights-csh.md)
 ##### [Summary dashboard](summary-dashboard-cs.md)
 ##### [Agent dashboard](agent-dashboard-cs.md)
