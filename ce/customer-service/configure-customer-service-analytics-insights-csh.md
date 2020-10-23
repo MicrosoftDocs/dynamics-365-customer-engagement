@@ -26,6 +26,9 @@ ms.custom:
 
 You can configure the Customer Service Insights reports for Customer Service Hub and Customer Service workspace and share them with service managers, who can then view and analyze the different activities performed. Configuring the reports is done in Customer Service Hub, but applies to both Customer Service Hub and Customer Service workspace.
 
+   > [!div class=ms-imgBorder]
+   > ![Customer Service analytics configuration](media/cs-enable-analyticsinsights.png "Configuration of Customer Service historical analytics reports")
+
 The following reports are available out of the box:
 
 - **Insights reports:** Customers can view Customer Service Insights reports with a combination of BI analytics and AI insights for their organization. The reports use natural language understanding to automatically detect the language used in your support cases and group related support cases into topics.
@@ -36,6 +39,8 @@ The following historical reports are available:
 - [Agent report](agent-dashboard-cs.md)
 - [Topics report](topics-dashboard-cs.md) 
 - [Knowledge search analytics](knowledge-search-analytics-cs.md)
+
+
 
 ## Configuration of reports
 
