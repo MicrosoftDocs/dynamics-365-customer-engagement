@@ -54,7 +54,7 @@ KPIs for the following areas are displayed:
 - Average CSAT
 - Average survey sentiment
 
-Charts displayed as follows:
+Charts are displayed as follows:
 
 - Case volume over duration
 - Average resolve time
