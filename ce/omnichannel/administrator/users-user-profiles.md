@@ -37,12 +37,10 @@ Navigate to **Queues & Users > Users** to view the list of Omnichannel for Custo
 
     | Section | Field | Description | Example value |
     |---------------|---------------------|---------------------|-------------------------------------------------|
-    | User Details | Capacity | Allocate capacity to agent. | 100 |
+    | User Details | Capacity | Allocate a value that indicates the capacity of the agent. For information: [Capacity](#capacity). | 100 |
     | User Details | Default Presence | Assign a default presence status for agent. This is the status that the agent is logged in with, in the Omnichannel for Customer Service app. |
 
 
-    Capacity is an arbitrary scale chosen by the administrator and set on the workstream for each channel. The capacity must be a multiplier of the capacity unit the administrator has defined on the workstream itself. Check the capity unit on the workstream to determine what value to assign to agents (users). The unit could be 1, 5, 10, 100, 1000 or anything. For example, if your capacity unit is 1 on the workstream and you want an agent to be able to take up to 3 converstions the capacity you assign to the agent would be 3. If your capacity unit is 5 on the workstream and you wanted an agent to be able to take up to 3 chats you would assign the agent a capacity of 15 on the agent.
-    
 6. Select **New Bookable Resource** under the **Skills Configuration** section. The **New Bookable Resource** page appears.
 
 7. Specify the name of agent in the **Name** field.
@@ -51,6 +49,10 @@ Navigate to **Queues & Users > Users** to view the list of Omnichannel for Custo
 
 > [!div class=mx-imgBorder]
 > ![Default presence](../media/oc-user-omni-tab.png)
+
+### Capacity
+
+Capacity is the arbitrary scale that you choose and set for each of the work streams corresponding to the channels. The capacity assigned to the agent must be a multiplier of the capacity unit that you have defined for the associated work stream. Check the capacity unit defined for the work streams to determine the value that must be assigned to your agents. For example, if your capacity unit is 1 for a work stream and you want an agent to be able to take up to 3 conversations simultaneously, the capacity you assign to the agent should be 3 units. Similarly, if your capacity unit is 5 for the work stream and you want the agent to be able to take up to 3 conversations simultaneously, you should assign 15 units as the capacity for the agent.
 
 ### See also
 
