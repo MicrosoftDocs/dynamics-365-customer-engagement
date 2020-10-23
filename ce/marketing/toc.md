@@ -78,8 +78,6 @@
 
 ## [Marketing capabilities](user-guide.md)
 
-## [Marketing videos](marketing-videos.md)
-
 ### Get started
 #### [Browser and system requirements](browser-requirements.md)
 #### [Find your way around](navigation.md)
@@ -89,6 +87,7 @@
 #### [Sales and marketing collaboration with Dynamics 365](sales-marketing-integration.md)
 #### [Import data](import-data.md)
 #### [Export data](export-data-word-excel.md)
+#### [Marketing videos](marketing-videos.md)
 
 ### Top tasks
 #### [Core marketing tasks](basic-tutorials.md)
