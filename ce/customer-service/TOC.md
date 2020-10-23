@@ -100,8 +100,8 @@
 ##### [Overview of report configuration](configure-customer-service-analytics-insights-csh.md)
 ###### [Configure historical analytics](configure-historical-analytics-csh.md)
 ###### [Configure topic clustering](configure-topics-clustering.md)
-##### [Configure Knowledge search analytics](enable-knowledge-search-analytics.md)
-##### [Configure AI suggestions](csw-enable-ai-suggested-cases-knowledge-articles.md)
+###### [Configure Knowledge search analytics](enable-knowledge-search-analytics.md)
+###### [Configure AI suggestions](csw-enable-ai-suggested-cases-knowledge-articles.md)
 ##### [Configure Customer Service Analytics in Power BI](configure-customer-service-analytics-dashboard.md)
 #### Historical analytics reports
 ##### [Dashboards overview](customer-service-analytics-insights-csh.md)
