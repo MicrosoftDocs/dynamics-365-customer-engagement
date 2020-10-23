@@ -62,7 +62,6 @@ You can see the following reports by navigating to the **Service** > **Analytics
 ### See also
 
 [Introduction to Customer Service analytics and insights](introduction-customer-service-analytics.md)  <br>
-[View and understand Customer Service insights](customer-service-analytics-insights-csh.md)  <br>
-[View and understand Customer Service analytics in Power BI](customer-service-analytics.md)  
+[Dashboard overview](customer-service-analytics-insights-csh.md)  <br> 
 
 
