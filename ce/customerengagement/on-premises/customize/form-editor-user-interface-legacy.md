@@ -7,6 +7,7 @@ author: Mattp123
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
   - powerapps
+ms.service: crm-online
 ms.author: matp
 manager: kvivek
 ms.assetid: 146f8035-4fcd-4572-8e71-4270cd150495
@@ -16,7 +17,7 @@ search.audienceType:
 ---
 # Overview of the form editor user interface
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Overview of the model-driven form designer](/powerapps/maker/model-driven-apps/form-designer-overview)
 
 The form editor displays commands in three tabs: **File**, **Home**, and **Insert**. More information: 
 
@@ -87,7 +88,7 @@ Select the **File** tab to add/view the following options:
 ## Home tab  
  The **Home** tab displays the commands listed in the following table:
 
-![home-tab](media/home-tab.png)
+![Home tab](media/home-tab.png)
 
 
 |    Group    |          Command          |                                                                                                                                                                                                                                                                                                         Description                                                                                                                                                                                                                                                                                                          |
@@ -113,7 +114,7 @@ Select the **File** tab to add/view the following options:
 | **Upgrade** |      **Merge forms**      |                                                                                                                                                                                                                                                         If applicable, this option lets you merge this form with a form from a previous version of Dynamics 365 Customer Engagement (on-premises) form                                                                                                                                                                                                                                                         |
 
 ## Insert tab  
-![insert-tab](media/insert-tab.png)
+![Insert tab](media/insert-tab.png)
 
 The Insert tab displays the commands in the following table:
 

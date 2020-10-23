@@ -22,7 +22,7 @@ search.audienceType:
 ---
 # Design considerations for main forms
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Design considerations for model-driven app main forms](/powerapps/maker/model-driven-apps/design-considerations-main-forms)
 
 Main forms are the primary user interface where people view and interact with their data. Main forms provide the widest range of options and are available for custom business apps, the exception being [!INCLUDE[pn_Mobile_Express_long](../includes/pn-mobile-express-long.md)].  
   

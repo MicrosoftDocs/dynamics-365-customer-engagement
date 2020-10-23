@@ -430,7 +430,7 @@
 ##### [startProactiveChat](developer/reference/methods/startProactiveChat.md)
 ##### [closeChat](developer/reference/methods/closeChat.md)
 ### Real time translation JavaScript API Reference
-#### [translationprovider](developer/reference/methods/getTranslationProvider.md)
+#### [translationprovider](developer/reference/properties/getTranslationProvider.md)
 #### [initializeNewConversation](developer/reference/methods/initializeNewConversation.md)
 #### [translateMessage](developer/reference/methods/translateMessage.md)
 ### Events
