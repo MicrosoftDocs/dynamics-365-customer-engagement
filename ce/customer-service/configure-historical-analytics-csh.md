@@ -23,6 +23,13 @@ ms.custom:
 
 You can configure historical analytics to give your service managers a combination of BI analytics and AI insights for their organization. The reports use natural language understanding to automatically detect the language used in your support cases and group related support cases into topics.
 
+The following historical reports are available:
+
+- [Summary report](summary-dashboard-cs.md)
+- [Agent report](agent-dashboard-cs.md)
+- [Topics report](topics-dashboard-cs.md) 
+
+
 ## Enable Customer Service analytics reports in Customer Service Hub 
 
 Make sure that you have administrator permissions for Dynamics 365.
@@ -63,5 +70,6 @@ You can see the following reports by navigating to the **Service** > **Analytics
 
 [Introduction to Customer Service analytics and insights](introduction-customer-service-analytics.md)  <br>
 [Dashboard overview](customer-service-analytics-insights-csh.md)  <br> 
+[Knowledge search analytics](knowledge-search-analytics-cs.md)
 
 
