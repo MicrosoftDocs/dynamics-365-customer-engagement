@@ -36,9 +36,9 @@ The following reports are available out of the box:
 The following service settings can be found here:
 
 - [Customer Service historical analytics](customer-service-analytics-insights-csh.md)
-- [Topic clustering for cases](topics-dashboard-cs)
-- [Knowledge search analytics](knowledge-search-analytics-cs)
-- [AI suggestions (Premium)](csw-view-ai-suggested-cases-knowledge-articles)
+- [Topic clustering for cases](topics-dashboard-cs.md)
+- [Knowledge search analytics](knowledge-search-analytics-cs.md)
+- [AI suggestions (Premium)](csw-view-ai-suggested-cases-knowledge-articles.md)
 
 > [!NOTE]
 > Settings for the Power BI application are separate from these services.
