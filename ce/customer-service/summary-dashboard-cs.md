@@ -31,19 +31,20 @@ search.app:
 > - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk. All previews are subject to separate [Terms and Conditions](../legal/supp-dynamics365-preview.md).
 
 
-The Summary dashboard gives you a broad overview of the customer service experience in your organization. It uses artificial intelligence (AI) technology to show you topics that are generating the highest volume and emerging topics with the highest rate of change in volume.
+The Summary dashboard gives you a broad overview of the customer service experience in your organization. It uses AI to surface insights into which topics are generating the highest volume and with topics are emerging with the highest rate of change in volume.
 
 ![Summary dashboard](media/summary-dashboard-analytics-cs.png "View the Summary dashboard")
 
-Navigate to the Summary dashboard by selecting **Summary** at the top of the workspace. 
+To view the Summary dashboard, navigate to the customer service historical analytics and select **Summary** at the top of the workspace. 
 
 The KPI summary dashboard includes a variety of charts with graphical views of your system's key performance indicators. 
 
 The case volume drivers and emerging case volume by topic charts use natural language understanding to group support cases as *topics* that are a collection of related cases. These charts show you the customer support topics that are generating the most volume and emerging topics with the highest rate of change in volume, helping you identify areas for improvement that can have the greatest impact on system performance.
 
-By default, the dashboard shows you KPIs for the past month and for all channels, queues, and agents in your system. To change the time period, select a value from the **Time period** drop-down list at the top of the dashboard. You can select either past day, past week, or past month.
+By default, the dashboard shows you KPIs for the past month and for all channels, queues, and agents in your system. The data filtering options allow you to select data for specific time periods, channels, queues, and agents. To filter data by duration, channel, queue, or agent, select a value from the respective drop-down list. 
 
-To filter data by channel, queue, or agent, select a value from the respective drop-down list. If you switch to a different dashboard, the filter you specify persists and is applied to the data on all dashboards.
+> [!NOTE]
+> If you switch to a different dashboard, the filter you specify persists and is applied to the data on all dashboards.
 
 
 ## Key insights card
