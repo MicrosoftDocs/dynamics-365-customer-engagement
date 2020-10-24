@@ -99,7 +99,8 @@
 ### Customer Service Insights
 #### [Introduction to Customer Service Insights](introduction-customer-service-analytics.md)
 #### Manage service configuration settings
-##### [Overview of configuration](configure-customer-service-analytics-insights-csh.md)
+##### Configuration Settings
+###### [Overview of configuration](configure-customer-service-analytics-insights-csh.md)
 ###### [Configure historical analytics](configure-historical-analytics-csh.md)
 ###### [Configure topic clustering](configure-topics-clustering.md)
 ###### [Configure Knowledge search analytics](enable-knowledge-search-analytics.md)
