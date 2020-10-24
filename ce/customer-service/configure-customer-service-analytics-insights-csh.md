@@ -24,7 +24,7 @@ ms.custom:
 
 ## Overview
 
-You can configure the Customer Service Insights reports for Customer Service Hub and Customer Service workspace and share them with service managers, who can then view and analyze the different activities performed. Configuring the reports is done in Customer Service Hub, but applies to both Customer Service Hub and Customer Service workspace.
+You can enable and configure the Customer Service Insights features and services for Dynamics 365 Customer Service and share them with service managers, who can then view and analyze the different activities performed. Setup is done in Customer Service Hub, but applies to both Customer Service Hub and Customer Service workspace.
 
    > [!div class=ms-imgBorder]
    > ![Customer Service analytics configuration](media/cs-enable-analyticsinsights.png "Configuration of Customer Service historical analytics reports")
@@ -33,16 +33,18 @@ The following reports are available out of the box:
 
 - **Insights reports:** Customers can view Customer Service Insights reports with a combination of BI analytics and AI insights for their organization. The reports use natural language understanding to automatically detect the language used in your support cases and group related support cases into topics.
 
-The following historical reports are available:
+The following service settings can be found here:
 
-- [Summary report](summary-dashboard-cs.md)
-- [Agent report](agent-dashboard-cs.md)
-- [Topics report](topics-dashboard-cs.md) 
-- [Knowledge search analytics](knowledge-search-analytics-cs.md)
+- [Customer Service historical analytics](configure-historical-analytics-csh.md)
+- [Topic clustering for cases]( )
+- [Knowledge search analytics]( )
+- [AI suggestions (Premium)]( )
+
+> [!NOTE]
+> Settings for the Power BI application are separate from these services.
 
 
-
-## Configuration of reports
+## Configuration details
 
 See the following links for insights configuration information:
 
