@@ -11,17 +11,13 @@ ms.service:
   
 ---
 
-# Preview: Customer Service Insights
+# Customer Service Insights
 
-[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+Dynamics 365 Customer Service Insights helps both agents and customer service managers make better decisions and proactively improve customer satisfaction by using AI and analytics capabilities for Customer Service and Omnichannel. Now, Customer Service Insights is part of the embedded experience for Customer Service Hub and Customer Service workspace, bringing the power of AI and business intelligence directly into the core agent and manager experiences.
 
-> [!IMPORTANT]
->
-> - A preview is a feature that is not complete, as it may employ reduced privacy, security, and/or compliance commitments, but is made available before it is officially released for general availability so customers can get early access and provide feedback. Previews are provided "as-is," "with all faults," "as available," and without warranty.
-> - This preview feature does not come with technical support and Microsoft Dynamics 365 Technical Support won't be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.
-> - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk. All previews are subject to separate [Terms and Conditions](../legal/supp-dynamics365-preview.md).
+As a customer service manager, you can benefit from the AI topic clustering, actionable insights, and analytics surfaced by dashboards. As an agent, you can leverage real-time similar cases and knowledge article suggestions, customized for the current context. The AI-driven technology empowers agents to help solve the customer issues more quickly. improving resolution rates and customer satisfaction.
 
-Customer Service Insights is now part of the embedded experience for Customer Service Hub and Customer Service workspace, and gives you an easy way to monitor and improve your support operations. Built-in dashboards, interactive charts, and visual filters provide views into support operations data across channels. These dashboards highlight areas for improvement that can have the greatest impact to help you quickly evaluate and respond to key performance indicators (KPIs) and customer satisfaction levels.
+Built-in dashboards, interactive charts, and visual filters provide views into support operations data across channels. These dashboards highlight areas for improvement that can have the greatest impact to help you quickly evaluate and respond to key performance indicators (KPIs) and customer satisfaction levels. 
 
 Customer Service Insights uses AI-generated topics to automatically group your cases, including across different channels and using natural language understanding. As a supervisor, you can see view notable trends in metrics sorted by topics, channels, queues, and agents. By better understanding what impacts your support operations, you can feel empowered to make more informed decisions about how to improve resolution rates, reduce wait times, and decrease customer service costs.
 
@@ -39,7 +35,7 @@ For more details about specific Customer Service Insights dashboards, see the fo
 
 - [Topics Dashboard](topics-dashboard-cs.md) 
 
-In addition to the above dashboards, organizations can now gain insights into how agents are using knowledge article to resolve cases. These insights can help you identify outdated documentation, improve existing articles, and create new ones to empower your support team. To preview this feature, see [Configure Knowledge search insights](enable-knowledge-search-analytics.md). 
+In addition to the above dashboards, organizations can now gain insights into how agents are using knowledge articles to resolve cases. These insights can help you identify outdated documentation, improve existing articles, and create new ones to empower your support team. To preview this feature, see [Configure Knowledge search insights](enable-knowledge-search-analytics.md). 
 
 For more information on enabling knowledge search analytics, see Knowledge search analytics documentation.
 
