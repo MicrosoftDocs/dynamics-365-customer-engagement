@@ -30,12 +30,11 @@ search.app:
 > - This preview feature does not come with technical support and Microsoft Dynamics 365 Technical Support won't be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.
 > - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk. All previews are subject to separate [Terms and Conditions](../legal/supp-dynamics365-preview.md).
 
-
 The Summary dashboard gives you a broad overview of the customer service experience in your organization. It uses AI to surface insights into which topics are generating the highest volume and with topics are emerging with the highest rate of change in volume.
 
 ![Summary dashboard](media/summary-dashboard-analytics-cs.png "View the Summary dashboard")
 
-To view the Summary dashboard, navigate to the customer service historical analytics and select **Summary** at the top of the workspace. 
+To view the Summary dashboard, navigate to customer service historical analytics and select **Summary** at the top of the workspace. 
 
 The KPI summary dashboard includes a variety of charts with graphical views of your system's key performance indicators. 
 
