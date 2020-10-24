@@ -30,11 +30,11 @@ search.app:
 > - This preview feature does not come with technical support and Microsoft Dynamics 365 Technical Support won't be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.
 > - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk. All previews are subject to separate [Terms and Conditions](../legal/supp-dynamics365-preview.md).
 
-The Topics dashboard shows a detailed breakdown of cases and their assigned topics. Customer Service Insights uses AI-generated topics to automatically group your cases, including across different channels and using natural language understanding to help you better understand the key information agents are searching for in your organization.
+The Topics dashboard shows a detailed breakdown of cases and their assigned topics. Customer Service Insights uses AI-generated topics and natural language understanding to automatically group your cases to help you better understand how different case types and topic areas are impacting your organization’s support performance.
 
 ![Topics dashboard](media/topics-dashboard-analytics-cs.png "Topics dashboard")
 
-Navigate to the Topics dashboard by selecting **Topics** at the top of the workspace. 
+To view the Topics dashboard, navigate to customer service historical analytics and select **Topics** at the top of the workspace. 
 
 ## Key insights card
 
@@ -48,7 +48,7 @@ The Key insights discovered card has three areas:
 
 ## Report details
 
-The KPI summary charts summarize the key performance indicators for the specified time period and the percent change over the period. You can filters these areas by duration, channel, queue, and agent.
+The KPI summary charts summarize the key performance indicators for the specified time period and the percent change over the period. You can filter these areas by duration, channel, queue, and agent.
 
 KPIs for the following areas are displayed:
 
@@ -62,7 +62,7 @@ KPIs for the following areas are displayed:
 Charts are displayed as follows:
 
 - Total cases
-- Occurence by topic
+- Occurrence by topic
 - Average resolution time
 - Average CSAT
 - CSAT impact
