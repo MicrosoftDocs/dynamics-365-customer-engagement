@@ -117,7 +117,7 @@ Select **Fix Issue** and the following **Layout warning** pane is displayed to s
 
 Select the primary data type as required. Since the **Won** (currency) and **Best case** (quantity) columns has different selectors and data types, you must choose a primary data type to display in the kanban view, deal flows, and trend charts.
 
-## Verify selected primary data type
+## View selected primary data type
 
 You can view the details of the primary data type that is selected for a forecast. The displayed details are view only and can't be edited. To view the details:
 
