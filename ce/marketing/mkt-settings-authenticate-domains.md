@@ -1,7 +1,7 @@
 ---
 title: "Domain authentication (Dynamics 365 Marketing) | Microsoft Docs "
 description: "Authenticate your domains to maximize email deliverability with DKIM and enable embedding of Dynamics 365 Marketing forms on your own website in Dynamics 365 Marketing"
-ms.date: 07/14/2020
+ms.date: 10/26/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -26,7 +26,7 @@ search.app:
 Domain authentication is important for two reasons:
 
 - For *marketing email messages*, domain authentication enables recipient email servers to confirm that the from-address shown on each of your messages belongs to your organization. Authentication also confirms that your organization has approved Dynamics 365 Marketing to send messages on its behalf. Messages that fail this test are increasingly likely to get filtered away as spam, which can dramatically impact your deliverability.
-- For *externally hosted forms*, domain authentication confirms that you own the domain, establishing an enhanced trust relationship with your domain. The enhanced trust relationship enables embedded marketing forms to be prefilled with data for known contacts.
+- For *externally hosted forms*, domain authentication confirms that you own the domain, establishing an enhanced trust relationship with your domain. The enhanced trust relationship enables embedded marketing forms to be pre-filled with data for known contacts.
 
 The primary purpose of email-domain authentication is to detect forged messages and domains, and thereby prevent spam, phishing, and other fraudulent activity. A method called _DomainKeys Identified Mail_ (DKIM) helps make these authentications possible. Domain authentication is implemented through the internet DNS system, and is based on public/private key encryption and signatures.
 
@@ -79,17 +79,33 @@ To set up Dynamics 365 Marketing and the DNS to authenticate marketing email mes
 
 6. When you are done setting up the DNS records with your provider, return to your authenticated-domain record in Dynamics 365 Marketing and select **Confirm DNS registration** on the command bar. Dynamics 365 Marketing checks to make sure the values are correctly set up and active in the DNS system. If you get a success message, then everything is working and you're done. DNS registration may require up to 24 hours to take effect, so try again later if your registration isn't confirmed right away.
 
-
-### Example DNS records
+### Example DNS records for domain contoso.com
 
 **TXT record**  
 `TXT name: @`  
 `TXT value: d365mktkey=abc123abc123abc123abc123`  
 
-**CNAME record**  
+**CNAME record 1**  
 `Host name or Alias: eurkey1._domainkey`  
 `Points to address: eurkey1contosocom.marketing.dynamics.com`
 
+**CNAME record 2**  
+`Host name or Alias: eurkey2._domainkey`  
+`Points to address: eurkey2contosocom.marketing.dynamics.com`
+
+### Example DNS records for subdomain promo.contoso.com
+
+**TXT record**  
+`TXT name: @`  
+`TXT value: d365mktkey=abc234abc234abc234abc234`  
+
+**CNAME record 1**  
+`Host name or Alias: eurkey1._domainkey.promo`  
+`Points to address: eurkey1promocontosocom.marketing.dynamics.com`
+
+**CNAME record 2**  
+`Host name or Alias: eurkey2._domainkey.promo`  
+`Points to address: eurkey2promocontosocom.marketing.dynamics.com`
 
 ### DNS Confirmation Statuses
 
