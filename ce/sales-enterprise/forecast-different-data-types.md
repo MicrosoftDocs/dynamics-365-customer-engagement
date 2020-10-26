@@ -117,6 +117,29 @@ Select **Fix Issue** and the following **Layout warning** pane is displayed to s
 
 Select the primary data type as required. Since the **Won** (currency) and **Best case** (quantity) columns has different selectors and data types, you must choose a primary data type to display in the kanban view, deal flows, and trend charts.
 
+## Verify the selected primary data type
+
+You can view the details of the primary data type that is selected for a forecast. The displayed details are view only and can't be edited. To view the details:
+
+1. Sign in to the **Sales Hub** app.
+
+2. In the site map, select the Change area icon ![Icon to change the work area](media/change-area-icon.png "Icon to change the work area"), and then select **App Settings**. 
+
+3. Under **Performance management**, select **Forecast configuration**.
+
+    The forecast configuration page opens. 
+
+4. Select the **More options** icon corresponding to the forecast that you view and select **Edit**.
+
+5. Go to the **Layout** configuration step. At the bottom of the **Layout** section, a layout warnings is displayed. 
+
+6. Select **View settings**. A layout warnings pane is displayed on the right-side of the page.
+
+    > [!div class="mx-imgBorder"]
+    > ![Select view settings and view layout warnings pane](media/forecast-view-settings-layout-warnings-pane.png "Select view settings and view layout warnings pane") 
+
+    You can view the primary data type selected for forecast and you cannot edit the values.
+
 ### See also
 
 [Activate and upload simple columns data](activate-upload-simple-columns-data-forecast.md)
