@@ -98,7 +98,7 @@ Select the primary data type as required. The selector is same for **Best case**
 <a name=different-fc-different-data-type></a>
 **Example 3: With two different forecast categories, create a currency column and a quantity column**
 
-You're configuring a forecast in which you want to see the total revenue of **Won** forecast category and see the teams that you have worked with under the **Best case** forecast category. You configure the **Won** and **Best case** columns as following:
+You're configuring a forecast in which you want to see the total revenue of **Won** forecast category and see the products sold under the **Best case** forecast category. You configure the **Won** and **Best case** columns as following:
 
 | Column name | Selector | Data type | Amount field |
 |-------------|----------|-----------|--------------|
@@ -117,7 +117,7 @@ Select **Fix Issue** and the following **Layout warning** pane is displayed to s
 
 Select the primary data type as required. Since the **Won** (currency) and **Best case** (quantity) columns has different selectors and data types, you must choose a primary data type to display in the kanban view, deal flows, and trend charts.
 
-## Verify the selected primary data type
+## Verify selected primary data type
 
 You can view the details of the primary data type that is selected for a forecast. The displayed details are view only and can't be edited. To view the details:
 
