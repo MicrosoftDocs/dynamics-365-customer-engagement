@@ -39,7 +39,7 @@ As an administrator or forecast manager, you enable this feature by turning on t
 > [!IMPORTANT]
 > Though you can select the option to hide the parent row, the row won't be hidden if the parent row has underlying records or values defined for simple columns in the forecast.
 
-## Enable multiple-currency selection<a name="multi-currency-selection"></a>
+## Enable multiple-currency selection<a name="enable-multi-currency-selection"></a>
 
 For sales teams that are distributed across different geographies, viewing the forecast revenue values in the organization's base currency might cause confusion for users who are accustomed to operating in the currency of their region. By enabling multiple-currency selection, sales teams can convert forecast revenue data to any currency that's available in the system, in real time, based on current conversion rates. This helps users across regions more readily understand the current state of the forecast in their own currency.  
 
