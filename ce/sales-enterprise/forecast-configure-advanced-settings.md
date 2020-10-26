@@ -19,7 +19,7 @@ In the **Advanced** step of forecast configuration, you can configure the follow
 
 ## Automatically hide parent rows
 
-When you open a forecast, each parent node has one or more dedicated contributor rows<!--note from editor: Edit okay? I was a bit confused by this description. The image seems to show multiple contributor rows.--> under the tree where individual [simple](choose-layout-and-columns-forecast#simple-type)<!--note from editor: Link suggested, because it's not self-evident what a "simple column" is, I think people will appreciate the clarification.--> columns&mdash;such as quota and revenue contribution&mdash;are shown. For certain organizations, these dedicated contributor rows might have null-value simple columns that display no revenue contributions. In the **Advanced** settings step, you can hide these dedicated contributor rows under the parent node.
+When you open a forecast, each parent node has one or more dedicated contributor rows<!--note from editor: Edit okay? I was a bit confused by this description. The image seems to show multiple contributor rows.--> under the tree where individual [simple](choose-layout-and-columns-forecast.md#simple-type)<!--note from editor: Link suggested, because it's not self-evident what a "simple column" is, I think people will appreciate the clarification.--> columns&mdash;such as quota and revenue contribution&mdash;are shown. For certain organizations, these dedicated contributor rows might have null-value simple columns that display no revenue contributions. In the **Advanced** settings step, you can hide these dedicated contributor rows under the parent node.
 
 For example, you've configured a forecast based on **User** hierarchy. When the manager **Kenny Smith** opens the forecast, he can see a row dedicated for himself with null values along with other users, though he doesn’t have any associated opportunities that include simple columns.
 
@@ -39,7 +39,7 @@ As an administrator or forecast manager, you enable this feature by turning on t
 > [!IMPORTANT]
 > Though you can select the option to hide the parent row, the row won't be hidden if the parent row has underlying records or values defined for simple columns in the forecast.
 
-## Enable multiple-currency selection
+## Enable multiple-currency selection<a name="multi-currency-selection"></a>
 
 For sales teams that are distributed across different geographies, viewing the forecast revenue values in the organization's base currency might cause confusion for users who are accustomed to operating in the currency of their region. By enabling multiple-currency selection, sales teams can convert forecast revenue data to any currency that's available in the system, in real time, based on current conversion rates. This helps users across regions more readily understand the current state of the forecast in their own currency.  
 
