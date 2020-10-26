@@ -1,3 +1,11 @@
+## Version 3.12.32.1
+
+ - Fixed a bug on the legacy Schedule Board, when Find **Substitution functionality** is used with in the Schedule Assistant, the UI was frozen. With this bug fix, **Find Substitution*** functionality can be used with in the Schedule Assistant mode. 
+ - Fixed a bug on the List view mode of the Daily view of new Schedule Board, where changing a booking status doesn’t reflect in the view. Now with the fix, the changed status will also reflect in the list view. 
+ - Fixed a bug on the new Schedule Board where, the resource names are truncated when using right to left languages like Arabic. 
+ - Fixed a label on the Schedule Assistant panel to show as **Booking suggestions**. 
+ - Additional stabilization improvements were made on the new Schedule board to prevent crashes on the board the Schedule Assistant panel, which is a feature in preview. 
+
 ## Version 3.12.31.50 (2020 wave 2 general availability)
 
 The following Universal Resource Scheduling 2020 Wave 2 features in general availability are included in this release.
