@@ -58,7 +58,7 @@ Select **Fix Issue** and the following **Layout warning** pane is displayed to s
     > [!div class="mx-imgBorder"]
     > ![Select primary data type as quantity](media/forecast-data-type-select-quantity.png "Select primary data type as quantity") 
 
-    The following screen is an example of kanban view when you select quanity as primary data type:
+    The following screen is an example of kanban view when you select quantity as primary data type:
 
     > [!div class="mx-imgBorder"]
     > ![Example of select primary data type as quantity](media/forecast-primary-datat-quanity-bestcase.png "Example of select primary data type as quantity")
@@ -119,7 +119,7 @@ Select the primary data type as required. Since the **Won** (currency) and **Bes
 
 ## View selected primary data type
 
-You can view the details of the primary data type that is selected for a forecast. The displayed details are view only and can't be edited. To view the details:
+You can view the details of the primary data type that is selected for a forecast. The displayed details is view only and can't be edited. To view the details:
 
 1. Sign in to the **Sales Hub** app.
 
@@ -129,16 +129,16 @@ You can view the details of the primary data type that is selected for a forecas
 
     The forecast configuration page opens. 
 
-4. Select the **More options** icon corresponding to the forecast that you view and select **Edit**.
+4. Select the **More options** icon corresponding to the forecast and selects **Edit**.
 
-5. Go to the **Layout** configuration step. At the bottom of the **Layout** section, a layout warnings is displayed. 
+5. Go to the **Layout** configuration step. At the bottom of the **Layout** section, a **Layout warnings** section is displayed. 
 
 6. Select **View settings**. A layout warnings pane is displayed on the right-side of the page.
 
     > [!div class="mx-imgBorder"]
     > ![Select view settings and view layout warnings pane](media/forecast-view-settings-layout-warnings-pane.png "Select view settings and view layout warnings pane") 
 
-    You can view the primary data type selected for forecast and you cannot edit the values.
+    You can view the primary data type selected for forecast and you can't edit the values.
 
 ### See also
 
