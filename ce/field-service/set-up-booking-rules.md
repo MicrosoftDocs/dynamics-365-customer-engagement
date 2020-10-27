@@ -30,8 +30,11 @@ search.app:
 Booking rules in Field Service allow a system administrator to create warning or error messages that users see when creating or editing a resource booking record, based on custom conditions. For example, a booking rule could be created to warn a user when they attempt to book a work order to a resource on the schedule board that doesn't have the skills required for the job.  
 
 Booking rules are custom JavaScript methods that will be executed prior to the bookable resource booking record being created or edited.  The JavaScript method can accept a parameter that will contain information for the Bookable Resource Booking record being created and must return a JavaScript object with the required properties.
-  
+ 
 Set up booking rules to validate a booking when it is created or modified.  
+ 
+> [!Note]
+> Booking rules are only available for the hourly view, and not daily, weekly, or monthly views.
 
 ## Create a solution
 

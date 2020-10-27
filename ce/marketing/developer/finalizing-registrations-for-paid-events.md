@@ -40,7 +40,7 @@ Before we start to authenticate against Dynamics 365 Marketing, we need to regis
 
 Follow these steps to register your application:
 
-1. Navigate to **Office 365 Admin center** by expanding the **Admin centers** tab in the left navigation pane, and select **Azure Active Directory**. 
+1. Navigate to **Microsoft 365 Admin center** by expanding the **Admin centers** tab in the left navigation pane, and select **Azure Active Directory**. 
 
 1. Navigate to **Azure Active Directory**, select **App registrations**, and then select **New registration**. 
 

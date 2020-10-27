@@ -78,7 +78,7 @@ If you are using Omnichannel for Customer Service, and want Productivity Tools, 
 
 - Get the latest version of Omnichannel for Customer Service (Omnichannel Prime Chat package version 1.5.3.259). Get the trial version from [Dynamics 365 Trials](https://trials.dynamics.com/).
 
-- Obtain global administrator permissions in Office 365 to download and install the Dynamics 365 Productivity Tools (solution).
+- Obtain global administrator permissions in Microsoft 365 to download and install the Dynamics 365 Productivity Tools (solution).
 
 - Deploy Chat for Dynamics 365 Customer Service in your environment as Dynamics 365 Productivity Tools works only with the Omnichannel for Customer Service app. To learn more, see [Try channels for Dynamics 365 Customer Service](../try-channels.md) and [Configure a chat channel](set-up-chat-widget.md).
 

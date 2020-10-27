@@ -21,7 +21,7 @@ This guide provides the steps required for getting up and running with Connected
 ## Prerequisites  
  Before you install Connected Customer Service, make sure you have the following:  
   
-- Dynamics 365 system administrator credentials. For users with Office 365 global administrator access, they must be assigned the **System Administrator** security role within the Dynamics 365 organization.
+- Dynamics 365 system administrator credentials. For users with Microsoft 365 global administrator access, they must be assigned the **System Administrator** security role within the Dynamics 365 organization.
    
 - An IoT – Administrator role in the IoT solution (to access IoT entities and IoT functionality), plus another role, like Customer Service – Dispatcher (to access Dynamics 365).  
   

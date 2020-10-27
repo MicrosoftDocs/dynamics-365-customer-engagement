@@ -1,5 +1,9 @@
 A fully redesigned schedule board was made available as a public preview in the April 2020 release of Dynamics 365 Field Service. This new schedule board is now generally available in the October 2020 release of Dynamics 365 Field Service. In this article, we'll take a look at what's new, and how to switch to the new schedule board in your environment. 
 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the new schedule board in Dynamics 365](../../field-service/media/schedule-board-new-rso-1920-final.png)
+
 The new schedule board is faster, with better usability, and it lays the foundation for new capabilities for multi-day scheduling and intelligent interactions.
 
 > [!div class="mx-imgBorder"]
@@ -69,10 +73,14 @@ Beyond manual drag and drop scheduling, organizations using resource scheduling 
 
 Selecting **Suggest resources** will display recommended resources in the right panel for the dispatcher to book.
 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the scheduling assistance preview.](../../field-service/media/schedule-board-new-rso-1920-final-EDITTED.png)
+
 Selecting **Book resources** will find the most optimal resources and book them without additional actions from the dispatcher.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the scheduling assistance preview.](../../field-service/media/scheduling-new-assistance-preview.png)
+> ![Screenshot of the scheduling assistance preview showing suggestions.](../../field-service/media/schedule-board-new-rso-suggest.png)
 
 **Suggest resources** and **Book resource** capabilities on the new schedule board are currently only available for organizations using resource scheduling optimization.
 

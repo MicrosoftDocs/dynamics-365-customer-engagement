@@ -39,7 +39,7 @@
 ### [Create and view inspections](inspections.md)
 ### [Advanced inspection options](inspections-advanced.md)
 ## [Work order templates (incident types)](configure-incident-types.md)
-## [Predictive work duration reports (Preview)](analytics-predictive-work-duration.md)
+## [Predictive work duration and resource proficiency suggestions (Preview)](analytics-predictive-work-duration.md)
 ## [Work order completion surveys](work-order-surveys.md)
 
 # Bookable resources
@@ -170,6 +170,7 @@
 ### [Azure IoT Hub](developer/connected-field-service-developer-guide.md)
 #### [Prerequisites for Azure subscription](cfs-azure-subscription.md)
 #### [Installation and setup](installation-setup-iothub.md)
+#### [Register IoT devices](cfs-register-devices.md)
 #### [Quickstart: Build your own IoT solution](connected-field-service-overview.md)
 ### [Use custom IoT providers](cfs-custom-iot-provider.md)
 ## Analyze

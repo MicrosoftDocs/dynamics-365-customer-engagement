@@ -23,7 +23,7 @@ search.app:
 ---
 # What's supported
 
-You can access Common Data Service or Dynamics 365 Customer Engagement (on-premises) data from mobile devices in different ways. You can install and use the Dynamics 365 for phones and tablets mobile app on your iOS, [!INCLUDE[tn_android](../includes/tn-android.md)], and Windows 10 devices, or you can use your tablet’s web browser to run the model-driven apps as long as your device has sufficiently high screen resolution.
+You can access customer engagement apps (such as Dynamics 365 Sales, Dynamics 365 Customer Service, and Dynamics 365 Marketing), built on Common Data Service and Dynamics 365 Customer Engagement (on-premises) on your mobile device. To do this, install the Dynamics 365 for phones and tablets mobile app on your iOS, [!INCLUDE[tn_android](../includes/tn-android.md)], and Windows 10 devices. You can also use your tablet’s web browser to run customer engagement apps as long as your device has sufficiently high screen resolution.
   
 ## Supported devices for the mobile app
   
@@ -41,12 +41,12 @@ To install the app see, [Install the app from your device’s app store](https:/
 
    
 
-## Supported tablets to run model-driven apps in your web browser 
+## Supported tablets to run customer engagement apps in your web browser 
 
-For full functionality and optimized experience, we strongly recommend that you use the Dynamics 365 for phones and tablets mobile app. If you don't have the Dynamics 365 for phones and tablets app installed, you can still use the web browser on your tablet to run the model-driven apps. 
+For full functionality and optimized experience, we strongly recommend that you use the Dynamics 365 for phones and tablets mobile app. If you don't have the Dynamics 365 for phones and tablets app installed, you can still use the web browser on your tablet to run your apps. 
 
 > [!NOTE]
-> Using the web browser on your phone to run your model-driven apps isn't supported; you must use the Dynamics 365 for phones app. 
+> Using the web browser on your phone to run your customer engagement apps is not supported; you must use the Dynamics 365 for phones app. 
 
 
 ## Supported tablets to use the web browser
@@ -59,7 +59,7 @@ For full functionality and optimized experience, we strongly recommend that you 
         
 
   
-Model-driven apps running on a web browser on an iOS or Android tablet provides a similar experience to using it with a web browser on your desktop or laptop computer. However, some features are not available on the mobile app or mobile web browser, including:
+Customer engagement apps running on a web browser on an iOS or Android tablet provides a similar experience to using it with a web browser on your desktop or laptop computer. However, some features are not available on the mobile app or mobile web browser, including:
   
 - Pinch and zoom  
   
@@ -181,7 +181,7 @@ When the application first loads after installation, it will determine the devic
 - As of December 3, 2018, Microsoft Dynamics 365 for Blackberry App is deprecated and will be removed from the iOS App Store on October 31, 2019. For more information, [Dynamics 365 for Blackberry is deprecated
 ](https://docs.microsoft.com/power-platform/important-changes-coming#dynamics-365-for-blackberry-is-deprecated).
 
-- On February 21, 2018, we announced the deprecation of the Windows Phone app for Dynamics 365 apps. Effective May 22, 2018, the Windows phone app is no longer supported for model-driven apps in Dynamics 365.
+- On February 21, 2018, we announced the deprecation of the Windows Phone app for Dynamics 365 apps. Effective May 22, 2018, the Windows phone app is no longer supported to run customer engagement apps (such as Dynamics 365 Sales, Dynamics 365 Customer Service, and Dynamics 365 Marketing).
 
   
 ### See also  

@@ -21,7 +21,7 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# Install and setup Microsoft Teams integration 
+# Install and set up Microsoft Teams integration 
 
 By default, the Basic and Enhanced Microsoft Teams Integration is disabled for customer engagement apps in Dynamics 365 (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing, and Dynamics 365 Project Service Automation). To turn these features on, follow the steps below. To learn more about what the difference, see [Difference between the Basic and Enhanced Collaboration Experience with Microsoft Teams](teams-basic-vs-enhanced-collaboration.md).
 

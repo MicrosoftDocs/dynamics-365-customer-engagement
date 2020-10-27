@@ -166,3 +166,13 @@ The **Pinned** and **Recent** lists provide quick access to records that you've 
 ## Sign out
 
 From the site map ![Site map icon](media/d365_mobile_sitemap_icon.png "Site map icon"), select the profile icon ![Profile icon](media/d365_profile_icon.png "Site map icon"), and then select **Sign out**.
+
+## Reconfigure and clear cache
+
+If you used the mobile app on a phone or tablet temporarily and want to remove all your cached data before giving the device to someone else, you need to reconfigure the app.
+
+Reconfiguring deletes data and metadata for the current organization from the cache, however do not rely on this as a security measure.
+
+Make sure you use the **Reconfigure** option before you sign out. If you sign in to another organization but you wanted to delete data for the previous organization that you were logged into, then you will need to sign back into that organization and use the **Reconfigure** option to delete data and metadata for that organization from the cache. 
+
+To reconfigure the app, from the site map ![Site map icon](media/d365_mobile_sitemap_icon.png "Site map icon"), select the profile icon ![Profile icon](media/d365_profile_icon.png "Site map icon"), and then select **Reconfigure**.

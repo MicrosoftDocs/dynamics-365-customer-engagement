@@ -22,7 +22,7 @@ search.audienceType:
 ---
 # Translate customized entity and field text into other languages
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Translate customized entity, form, and field text into other languages](/powerapps/maker/common-data-service/export-customized-entity-field-text-translation)
 
 After you create customized entity and field text, you may want to translate it into other languages.  
   
