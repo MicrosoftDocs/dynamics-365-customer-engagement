@@ -77,7 +77,7 @@ to your data being shared with the Third-Parties and to your data flowing
 outside of your organization’s compliance and geographic location boundaries.
 This includes government cloud environments. You can find more information in
 the technical documentation from Microsoft and Third-Parties and the Microsoft
-Privacy Statement at <http://go.microsoft.com/fwlink/?LinkId=512132>.
+Privacy Statement at <https://go.microsoft.com/fwlink/?LinkId=512132>.
 
 **6. Messaging Activities.** You acknowledge that with respect to your use of
 any PSTN messaging services, including any messaging features provided as part
