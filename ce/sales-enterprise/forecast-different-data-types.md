@@ -1,6 +1,6 @@
 ---
-title: "What is a hybrid forecast (Dynamics 365 Sales) | MicrosoftDocs"
-description: "What is a hybrid forecast"
+title: "Forecast with multiple data type columns (Dynamics 365 Sales) | MicrosoftDocs"
+description: "Forecast with multiple data type columns"
 ms.date: 10/26/2020
 ms.service: dynamics-365-sales
 ms.topic: article
@@ -11,7 +11,7 @@ manager: shujoshi
 
 # Forecast with multiple data type columns
 
-You can have multiple columns with different data types such as currency and quantity in a single forecast. For example, in a product-based forecast, you can display the Best case column values as a volume (quantity) and as a quantity (currency) simultaneously. 
+In a forecast grid, you can have multiple columns with different data types such as currency and quantity displayed in a single view. For example, in a product-based forecast, you can display the **Best case** column values as a volume (quantity) and as a quantity (currency) simultaneously. 
 
 > [!div class="mx-imgBorder"]
 > ![Best case currency and quantity columns](media/forecast-quantity-bestcase-column.png "Best case currency and quantity columns")
@@ -19,9 +19,9 @@ You can have multiple columns with different data types such as currency and qua
 >[!NOTE]
 >To configure columns, see [Choose layout and columns](choose-layout-and-columns-forecast.md).
 
-In the forecast grid, all data type columns are displayed in a single view. Kanban, deal flow, and trend chart can only display a single data type at a time. Hence, for multiple data type forecast, you must select the data type you want to be displayed before activating the forecast.
+Kanban view, deal flow, and trend chart can only display a single data type at a time. Hence, for multiple data type forecast, you must select the primary data type to be displayed before activating the forecast.
 
-Similarly, kanban view, deal flows, and trend charts can't show two columns with the same selector. For example, Best case selector is used for multiple revenue columns. Since kanban and deal flow can only show a single revenue column for a category, you must choose the revenue column to display in these views before activating the forecast.  
+Similarly, kanban view, deal flows, and trend charts can't show two columns with the same selector. For example, **Best case** selector is used for multiple revenue columns. Since kanban and deal flow can only show a single revenue column for a category, you must choose the revenue column to display in these views before activating the forecast.  
 
 >[!NOTE]
 >To use deal flows and trend charts, you must enable premium forecasting.
@@ -35,7 +35,7 @@ Let's look at few examples on how you can configure and activate these forecasts
 <a name=same-fc-different-data-type-currency-qty></a>
 **Example 1: With a forecast category, create two different currency columns and a quantity column**
 
-You're configuring a forecast in which you want to see **Best case** forecast category's total amount, discount amount, and number of products sold to get this amount. You configure three **Best case** columns as following:
+You're configuring a forecast in which you want to see **Best case** forecast category's total amount, discount amount, and number of products sold to get this amount. You configure three **Best case** columns as follows:
 
 | Column name | Selector | Data type | Amount field |
 |-------------|----------|-----------|--------------|
@@ -48,7 +48,7 @@ After you've completed the other configuration steps as required and while activ
 > [!div class="mx-imgBorder"]
 > ![Multiple data type error](media/forecast-publish-multiple-data-type-error.png "Multiple data type error")
 
-Select **Fix Issue** and the following **Layout warning** pane is displayed to select a primary data type to display values for the selected data type. 
+Select **Fix issue** and the following **Layout warnings** pane is displayed to select a primary data type to display values for the selected data type. 
 
 > [!div class="mx-imgBorder"]
 > ![Layout warnings pane](media/forecast-publish-layout-warnings-pane.png "Layout warnings pane") 
@@ -88,7 +88,7 @@ After you've completed the other configuration steps as required and while activ
 > [!div class="mx-imgBorder"]
 > ![Multiple data type error](media/forecast-publish-multiple-data-type-error.png "Multiple data type error")
 
-Select **Fix Issue** and the following **Layout warning** pane is displayed to select a primary data type to display values for the selected data type. 
+Select **Fix issue** and the following **Layout warnings** pane is displayed to select a primary data type to display values for the selected data type. 
 
 > [!div class="mx-imgBorder"]
 > ![Layout warnings pane](media/forecast-publish-layout-warnings-pane.png "Layout warnings pane") 
@@ -110,7 +110,7 @@ After you've completed the other configuration steps as required and while activ
 > [!div class="mx-imgBorder"]
 > ![Multiple data type error](media/forecast-publish-multiple-data-type-error.png "Multiple data type error")
 
-Select **Fix Issue** and the following **Layout warning** pane is displayed to select a primary data type to display values for the selected data type. 
+Select **Fix issue** and the following **Layout warnings** pane is displayed to select a primary data type to display values for the selected data type. 
 
 > [!div class="mx-imgBorder"]
 > ![Layout warnings pane](media/forecast-publish-layout-warnings-pane.png "Layout warnings pane") 

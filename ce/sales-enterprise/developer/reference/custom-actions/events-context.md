@@ -1,6 +1,6 @@
 ---
-title: "Context custom action (Dynamics 365 Sales) | MicrosoftDocs"
-description: Context custom action for Dynamics 365 Sales
+title: "Events and context object for forecasting (Dynamics 365 Sales) | MicrosoftDocs"
+description: Events and context object for forecasting in Dynamics 365 Sales
 ms.date: 10/12/2020
 ms.service: dynamics-365-sales
 ms.custom: dyn365-sales
@@ -13,7 +13,7 @@ manager: shujoshi
 # Events and context object
 
 >[!NOTE]
->Forecasting context object that is referred here is different from the execution context of platform. Forecasting context object is specific to forecasting and supports the advanced configurations of underlying records grid.
+>Forecasting context object that is referred here is different from the execution context of the Common Data Services. Forecasting context object is specific to forecasting and supports the advanced configurations of underlying records grid.
 
 ## Events for underlying records grid
 
