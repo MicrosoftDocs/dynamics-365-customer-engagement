@@ -122,7 +122,7 @@ This returns a control object mapping to attribute and has the following methods
 
 
 > [!NOTE]
-> The function names in JavaScript file should match the event names and must accept context object parameter. More information: [Forecasting related events](../events/forecasting-events.md).  
+> The function names in JavaScript file should match the event names and must accept context object parameter.   
 
 <a name=make-grid-read-only></a>
 **Example 1:**
@@ -322,5 +322,3 @@ function OnSave(executionContext){
 ### See also
 
 [Customize underlying records](https://docs.microsoft.com/dynamics365/sales-enterprise/forecast-configure-advanced-settings#customize-underlying-records)
-
-[Forecasting related events](../events/forecasting-events.md)
