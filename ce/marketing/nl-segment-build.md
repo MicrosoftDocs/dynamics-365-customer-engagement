@@ -36,7 +36,7 @@ Using the instructions in [Working with segments](segmentation-lists-subscriptio
 > [!NOTE]
 > You will need your administrator to [turn on the feature switch](admin-feature-switches.md) for the **Segmentation Natural Language Queries** functionality under **Segmentation** before you are able to access it.
 
-<!--- Most of the examples in this topic will reflect dynamic segments, as static segments are created by manually selecting each member instead of building queries that can find matching results for you, automatically updating the segment as the status of the members changes. -->
+<!--- Most of the examples in this topic will reflect dynamic segments, as static segments are created by manually selecting each member instead of building queries that can find matching results for you, automatically updating the segment as the status of the member contacts and accounts change. -->
 
 ## Sample segments
 
