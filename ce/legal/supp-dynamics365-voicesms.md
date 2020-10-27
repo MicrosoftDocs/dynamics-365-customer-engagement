@@ -26,7 +26,7 @@ Updated: October 2020
 >   to the Microsoft Supplemental Services and the Third-Party Supplemental
 >   Services.
 
-**GENERAL TERMS**
+GENERAL TERMS
 
 1.  **Agreement, Billing and Support for Third-Party Supplemental Services**.
     Microsoft Dynamics 365 software and online services interface with Third
