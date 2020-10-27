@@ -11,58 +11,59 @@ manager: shujoshi
 
 # Configure advanced settings
 
-Using the **Advanced** step, you can configure the following for a forecast:
+In the **Advanced** step of forecast configuration, you can configure the following:
 
-- [Automatically hide parent row](#automatically-hide-parent-row)
+- [Automatically hide parent rows](#automatically-hide-parent-rows)
 - [Enable multi-currency selection](#enable-multi-currency-selection)
 - [Customize underlying records](#customize-underlying-records)
 
-## Automatically hide parent row
+## Automatically hide parent rows
 
-When you open a forecast, each parent node has a dedicated contributor row under the tree where individual simple columns, such as quota, and revenue contribution are shown. For certain organizations, these dedicated contributor rows might have null value simple columns with no revenue contributions. With **Advanced** settings, you can hide these dedicated contributor rows of parent node.
+When you open a forecast, each parent node has one or more dedicated contributor rows<!--note from editor: Edit okay? I was a bit confused by this description. The image seems to show multiple contributor rows.--> under the tree where individual [simple](choose-layout-and-columns-forecast.md#simple-type)<!--note from editor: Link suggested, because it's not self-evident what a "simple column" is, I think people will appreciate the clarification.--> columns&mdash;such as quota and revenue contribution&mdash;are shown. For certain organizations, these dedicated contributor rows might have null-value simple columns that display no revenue contributions. In the **Advanced** settings step, you can hide these dedicated contributor rows under the parent node.
 
-For example, you have configured a forecast based on **User** hierarchy. When the manager **Kenny Smith**, opens the forecast, he can see a row dedicated for himself with null values along with other users, though he doesn’t have any associated opportunities including simple columns. 
+For example, you've configured a forecast based on **User** hierarchy. When the manager **Kenny Smith** opens the forecast, he can see a row dedicated for himself with null values along with other users, though he doesn’t have any associated opportunities that include simple columns.
 
 > [!div class="mx-imgBorder"]
 > ![Forecast grid view](media/forecast-hide-row-view-manger-row.png "Forecast grid view") 
 
-In such cases, you can hide the dedicated contributor rows of the parent node. The parent row with the rolled-up values will remain displayed. 
+In such cases, you can hide the dedicated contributor rows under the parent node. The parent row that includes the rolled-up values will still be displayed.
 
-As an administrator or forecast manager, you can select the option **Auto-hide parent row** under **Advanced** step of the forecast configuration to hide the parent’s dedicated contributor rows. Select the toggle to enable the autohide parent row.
+As an administrator or forecast manager, you enable this feature by turning on the **Auto-hide parent row** toggle in the **Advanced** forecast configuration step.
 
 > [!NOTE]
-> By default, the option is enabled.
+> By default, this option is enabled.
 
 > [!div class="mx-imgBorder"]
-> ![Enable autohide parent row](media/forecast-hide-row-enable-auto-hide-row.png "Enable autohide parent row")
+> ![Automatically hide the parent row](media/forecast-hide-row-enable-auto-hide-row.png "Automatically hide the parent row")
 
 > [!IMPORTANT]
-> Though you may select the option to hide the parent row, the row will not be hidden if the parent row has underlying records or values defined for simple columns in the forecast.
+> Though you can select the option to hide the parent row, the row won't be hidden if the parent row has underlying records or values defined for simple columns in the forecast.
 
-## Enable multi-currency selection
+## Enable multiple-currency selection<a name="enable-multi-currency-selection"></a>
 
-For sales teams that are distributed across different geographies, viewing the forecast revenue values in the organization's base currency might cause confusion for users that are accustomed to operating in the currency of their region. By enabling the multi-currency feature, sales teams have an option to convert the forecast revenue data to any system available currency in real time based on current conversation rates. This helps users across regions to more readily understand the current forecast state as it relates to their currency.  
+For sales teams that are distributed across different geographies, viewing the forecast revenue values in the organization's base currency might cause confusion for users who are accustomed to operating in the currency of their region. By enabling multiple-currency selection, sales teams can convert forecast revenue data to any currency that's available in the system, in real time, based on current conversion rates. This helps users across regions more readily understand the current state of the forecast in their own currency.  
 
 >[!NOTE]
->The real time conversion of forecast data always takes place based on the latest exchange rate defined in your organization. 
+>The real-time conversion of forecast data is always based on the latest exchange rate defined by your organization. 
 
-For example, you have sales teams in the US and Europe. The US dollar is set as your base currency for your organization and the Euro is also a system available currency. When you configure a forecast with multi-currency enabled, sales teams that open the forecast will find the revenue values displayed in Dollars. For the Sales teams in Europe, they will have the option to select currency as Euro to display revenues as such. Also, manual adjustments to the forecast grid will be made using the selected currency.
-
-> [!div class="mx-imgBorder"]
-> ![Select currency drop-down](media/forecast-multi-currency-select.png "Select currency drop-down")
-
-As an administrator or forecast manager, select the **Multi-currency selection** toggle under **Advanced** step of the forecast configuration to allow users to view the forecast data in any currency that are defined for your organization. 
+For example, you have sales teams in the United States and Europe. The US dollar is set as the base currency for your organization, and the euro is also available in the system. When you configure a forecast with multiple-currency selection enabled, sales teams that open the forecast will find the revenue values displayed in dollars. The sales team in Europe will have the option to select euro as the currency and display revenue in that currency. Any manual adjustments made to the forecast grid will use the selected currency.
 
 > [!div class="mx-imgBorder"]
-> ![Enable multi currency selection](media/forecast-multi-currency-enable.png "Enable multi currency selection")
+> ![Select currency drop-down menu](media/forecast-multi-currency-select.png "Select currency drop-down menu")
+
+As an administrator or forecast manager, turn on the **Multi-currency selection** toggle in the **Advanced** forecast configuration step to allow users to view the forecast data in any currency that has been defined for your organization.<!--note from editor: Uday, can you advise the UI team that it should either be "system-available currency" or "any currency available in the system"? Also "The currency conversion happens in real time", no hyphen.-->
+
+> [!div class="mx-imgBorder"]
+> ![Enable multiple-currency selection](media/forecast-multi-currency-enable.png "Enable multiple-currency selection")
 
 ## Customize underlying records
 
-You can customize the underlying records by adding a JavaScript library. The customizations include disable fields based on a logic, prevent autosave of fields, and set error notification for the fields. Before you upload, the JavaScript library must be created as per the schemas defined in [events and context object](../sales-enterprise/developer/reference/custom-actions/events-context.md). 
+You can customize underlying records by adding a JavaScript library. These customizations include disabling fields based on a certain logic, preventing fields from being automatically saved, and setting error notifications for fields. Before you upload it, the JavaScript library must be created in accordance with the schemas defined in [Events and context object](../sales-enterprise/developer/reference/custom-actions/events-context.md).<!--note from editor: This "Events and context object" topic is a little rough. Is it going to come in for editing soon?-->
 
-To create and upload a JavaScript library, follow these steps:
-
-1.	Write your custom JavaScript code. For example, Let's create a JavaScript to disable all fields except few for **Opportunity** entity only. 
+<!--markdownlint-disable MD036-->
+**To create and upload a JavaScript library**
+<!--markdownlint-enable MD036-->
+1. Write your custom JavaScript code. In the following example, we create JavaScript to disable all fields except a few for the **Opportunity** entity. 
 
     ```JavaScript
     function OnRowLoad(executionContext) {
@@ -88,40 +89,41 @@ To create and upload a JavaScript library, follow these steps:
     ```
     
     > [!NOTE]
-    > -	The function names in JavaScript file should match the event names and must accept context object parameter. 
-    > -	Forecasting context object that is referred in the example is different from the execution context of platform. Forecasting context object is specific to forecasting and supports the advanced configurations of underlying records grid. More information: [Events and context object](../sales-enterprise/developer/reference/custom-actions/events-context.md).  
+    > -	The function names in the JavaScript file must<!--note from editor: "Should" is ambiguous here. If it's just a suggestion, can we say "We recommend that the function names in the JavaScript file..."?--> match the event names and must accept the context object parameter. 
+    > -	The forecasting context object that's referred to in the example is different from the execution context of the platform<!--note from editor: Should this be "Common Data Service"? Via the topic about "customer engagement" (https://styleguides.azurewebsites.net/StyleGuide/Read?id=2858&topicid=44518): "For online customers: Don't use platform or customer engagement platform. Refer to Common Data Service instead.-->. A forecasting context object is specific to forecasting and supports the advanced configurations of the underlying records grid. More information: [Events and context object](../sales-enterprise/developer/reference/custom-actions/events-context.md)
 
 2.	Add your JavaScript code in a Script web resource.
 
-    1.	Navigate to your model-driven apps instance in browser and go to **Settings** > **Customizations**.
-    2.	In the Customization area, choose **Customize the System**.
-    3.	In the solutions explorer, under **Components**, choose **Web Resources**.
-    4.	Choose **New** to create a web resource.
-    5.	In the new web resource dialog, specify the **Name** and **Display Name** for your web resource. For example: *mySampleScript.js* and *Sample: Walkthrough* script.
-    6.	From the **Type** drop-down list, select **Script (JScript)**. You can either upload a file containing your JavaScript code by selecting **Choose File**, or select **Text Editor** and then paste your JavaScript code in the editor. 
-    7.	Choose **Save** to create the web resource containing your JavaScript code.
-    8.	Choose **Publish** to publish your web resource.
+    1. Go to your model-driven app<!--note from editor: I don't think this use of "model-driven apps" meets the latest guideline. Please see the Style Guide topic mentioned in line 93, above, and also this topic in the Cloud Style Guide: https://styleguides.azurewebsites.net/StyleGuide/Read?id=2696&topicid=45145. Should this be "Go to your customer engagement app" or simply "app"? --> instance in a browser, and select **Settings** > **Customizations**.
+    2. In the **Customization** area, select **Customize the System**.
+    3. In the solution explorer, under **Components**, select **Web Resources**.
+    4. Select **New**.
+    5. In the new web resource dialog box, enter the **Name** (for example, **mySampleScript.js**) and **Display Name**(for example, **Sample: Walkthrough script**) for your web resource.
+    6. From the **Type** drop-down list, select **Script (JScript)**, and then do one of the following:
+        - Select **Choose File** to upload the file containing your JavaScript code.
+        - Select **Text Editor**, and then paste your JavaScript code in the editor. 
+    7. Select **Save**, and then select **Publish**.
 
-3.	Upload the JavaScript library to forecast configuration.
+3.	Upload the JavaScript library to your forecast configuration.
     
     >[!NOTE]
     >You can have only one JavaScript file at a time for a forecast. To upload a new file, you must first remove the existing file. You can upload a file to a forecast at any time.
     
-    1.	In the forecast configuration page, go to the **Advanced** step and under **Customize underlying records** section, select **Add a javascript library**.
+    1.	On the forecast configuration page, go to the **Advanced** step, and under **Customize underlying records**, select **Add a JavaScript library**.<!--note from editor: I realize the UI misspells this, but can you ask them to change it?  -->
 
         > [!div class="mx-imgBorder"]
         > ![Select the add a JavaScript library option](media/forecast-javascript-select-option-upload.png "Select the add a JavaScript library option") 
          
-    2.	On the **Add a JavaScript library** dialog, search for the JavaScript file that you want to upload and then select **Add**.
+    2.	In the **Add a JavaScript library** dialog box, search for the JavaScript file that you want to upload, and then select **Add**.
 
         > [!div class="mx-imgBorder"]
-        > ![Choose a JavaScript library](media/forecast-javascript-choose-file.png "Choose a JavaScript library")
+        > ![Select a JavaScript library](media/forecast-javascript-choose-file.png "Select a JavaScript library")
         
-        The file is added to the forecast.
-
+The file is added to the forecast.
+<!--note from editor: The following image doesn't add anything; suggest deleting.
         > [!div class="mx-imgBorder"]
         > ![JavaScript library added to the forecast](media/forecast-javascript-file-added.png "JavaScript library added to the forecast")
- 
+-->
  
 <table>
 <tr><td>
@@ -137,6 +139,5 @@ To create and upload a JavaScript library, follow these steps:
 
 ### See also
 
-[Configure forecasts in your organization](configure-forecast.md)
-
+[Configure forecasts in your organization](configure-forecast.md)  
 [Events and context objects for underlying records grid](../sales-enterprise/developer/reference/custom-actions/events-context.md)
