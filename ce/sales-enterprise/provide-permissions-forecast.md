@@ -2,10 +2,8 @@
 title: "Provide viewing permissions to access a forecast (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Provide viewing permissions to access a forecast in Dynamics 365 Sales."
 ms.date: 02/03/2020
-ms.service: 
-  - "dynamics-365-sales"
-ms.custom: 
-  - "dyn365-sales"
+ms.service: dynamics-365-sales
+ms.custom: dyn365-sales
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -13,7 +11,6 @@ manager: shujoshi
 ---
 
 # Provide viewing permissions
-
 
 In the **Permissions** step of the forecast configuration, you define which team members can view and adjust the forecast data at each level of the hierarchy. Also, you can provide access to users who have specific security roles to view the forecast. 
 
