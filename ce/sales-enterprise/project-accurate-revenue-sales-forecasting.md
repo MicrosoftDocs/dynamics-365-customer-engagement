@@ -2,10 +2,8 @@
 title: "Project accurate revenue with sales forecasting (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Accurately project sales for your team and estimate the revenue by using sales forecasting in Dynamics 365 Sales."
 ms.date: 02/03/2020
-ms.service: 
-  - dynamics-365-sales
-ms.custom: 
-  - dyn365-sales
+ms.service: dynamics-365-sales
+ms.custom: dyn365-sales
 ms.topic: article
 author: udaykirang
 ms.author: udag
