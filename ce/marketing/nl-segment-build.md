@@ -40,21 +40,19 @@ Using the instructions in [Working with segments](segmentation-lists-subscriptio
 
 ## Sample segments
 
-You can create a segment that will evaluate your Dynamics 365 organizational database for contacts that meet certain criteria. For example, people living in a certain area who are a certain age.
+You can create a segment that will evaluate your Dynamics 365 organizational database for contacts that meet certain criteria. For example, people living in a certain area who have an email address.
 
-You might name the new segment “Customers who live in Chicago over age 40” and then define the segment as follows:
+You might name the new segment “Customers who live in Chicago with email and an upcoming birthday” and then define the segment as follows:
 
- - Customers who live in Chicago over age 40
+ - Customers who live in Chicago with an email address with a birthday next month
 
-## Example: Customers who live in Chicago over age 40
+## Example: Customers who live in Chicago with an email address with an upcoming birthday
 
 ### Building the segment
 
-- Remember to enter the phrases using normal language (don't try to build the query using specific field names) - you could enter "customers who live in Chicago over age 40"
+- Remember to enter the phrases using normal language (don't try to build the query using specific field names) - you could enter "customers who live in Chicago who have an email address and a birthday next month"
    
 - Give the segment a descriptive name that will help you find it later
-
-![Building a segment including customers over age 40 who live in Chicago using natural language](media/create-segment-contacts-chicago-age-40.png "Building a marketing segment including contacts over age 40 in Chicago")
 
 ### Reviewing the results
 
@@ -64,11 +62,11 @@ You might name the new segment “Customers who live in Chicago over age 40” a
 
 A more complex segment that includes both profile and behavioral queries gives better results that let you make a better-targeted customer journey, perhaps helping reactivate a lapsed customer. For instance, you can create a segment that includes:
 
-- Customers who live in Chicago over age 40 (profile)
+- Customers who live in Chicago who have an email address (profile)
 - Accounts that have purchased in the last 180 days (profile)
 - Contacts with email bounces (behavioral)
 
-This segment would find a group of customers who have purchased from your company in the last six months in Chicago that are now unreachable through the email address in your organizational database, suggesting that a new contact needs to be established for that customer, requiring an outreach channel other than email.
+This segment would find a group of customers who have purchased from your company in the last six months in Chicago that are now unreachable through the email address in your organizational database, suggesting that a new contact needs to be established for that customer.
 
 ## Phrases you can use in natural language queries
 
@@ -83,6 +81,7 @@ You can use a variety of phrases to find contacts and accounts with different at
     - Contacts with birthdays in three months
     - Contacts with a birthday next month
     - Contacts with an anniversary in June
+    <!--- Contacts born before 1980 -->
 
 - Find contacts related to accounts
     - Contacts associated with Microsoft company who live in the Czech Republic
