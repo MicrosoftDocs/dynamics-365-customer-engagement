@@ -19,7 +19,7 @@ In the **Advanced** step of forecast configuration, you can configure the follow
 
 ## Automatically hide parent rows
 
-When you open a forecast, each parent node has a dedicated contributor row under the tree where individual [simple column](choose-layout-and-columns-forecast.md#simple-type)&mdash;such as quota and revenue contribution&mdash;are shown. For certain organizations, these dedicated contributor rows might have null-value simple columns that display no revenue contributions. In the **Advanced** settings step, you can hide these dedicated contributor rows under the parent node.
+When you open a forecast, each parent node has a dedicated contributor row under the tree where individual [simple columns](choose-layout-and-columns-forecast.md#simple-type)&mdash;such as quota and revenue contribution&mdash;are shown. For certain organizations, these dedicated contributor rows might have null-value simple columns that display no revenue contributions. In the **Advanced** settings step, you can hide these dedicated contributor rows under the parent node.
 
 For example, you've configured a forecast based on **User** hierarchy. When the manager **Kenny Smith** opens the forecast, he can see a row dedicated for himself with null values along with other users, though he doesn’t have any associated opportunities that include simple columns.
 
