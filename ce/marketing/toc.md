@@ -26,6 +26,7 @@
 #### [Transfer customizations between instances](transfer-solution.md)
 #### [Tenant to tenant migration](tenant-to-tenant.md)
 #### [Keep Marketing up to date](apply-updates.md)
+#### [Recurring activity bulk deletion](recurring-activity-bulk-delete.md)
 #### [Uninstall Marketing](uninstall-marketing.md)
 
 ### User administration and access permissions
