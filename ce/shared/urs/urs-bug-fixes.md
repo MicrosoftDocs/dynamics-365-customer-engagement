@@ -1,10 +1,10 @@
 ## Version 3.12.32.1
 
- - Fixed a bug on the legacy Schedule Board, when Find **Substitution functionality** is used with in the Schedule Assistant, the UI was frozen. With this bug fix, **Find Substitution*** functionality can be used with in the Schedule Assistant mode. 
- - Fixed a bug on the List view mode of the Daily view of new Schedule Board, where changing a booking status doesn’t reflect in the view. Now with the fix, the changed status will also reflect in the list view. 
- - Fixed a bug on the new Schedule Board where, the resource names are truncated when using right to left languages like Arabic. 
- - Fixed a label on the Schedule Assistant panel to show as **Booking suggestions**. 
- - Additional stabilization improvements were made on the new Schedule board to prevent crashes on the board the Schedule Assistant panel, which is a feature in preview. 
+ - Fixed a bug on the legacy schedule board, when find **Substitution functionality** is used with in the schedule assistant, the UI was frozen. With this bug fix, **Find Substitution*** functionality can be used with in the schedule assistant mode. 
+ - Fixed a bug on the List view mode of the daily view of new schedule board, where changing a booking status doesn’t reflect in the view. Now with the fix, the changed status will also reflect in the list view. 
+ - Fixed a bug on the new schedule board where, the resource names are truncated when using right-to-left languages like Arabic. 
+ - Fixed a label on the schedule assistant panel to show as **Booking suggestions**. 
+ - Additional stabilization improvements were made on the new schedule board to prevent crashes on the board the schedule assistant panel, which is a feature in preview. 
 
 ## Version 3.12.31.50 (2020 wave 2 general availability)
 
