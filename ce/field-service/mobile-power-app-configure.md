@@ -129,8 +129,15 @@ Administrators can edit the data downloaded to the Field Service (Dynamics 365) 
 
 For more details beyond this article see the topic on [Configure mobile offline synchronization for your mobile app](https://docs.microsoft.com/dynamics365/mobile-app/preview-setup-mobile-offline)
 
+1. Set up an offline profile.
+2. Add your user to an offline profile.
+3. Ensure your user has the **Field Service - Resource** security role. See the section: **Configure the Field Service (Dynamics 365) mobile app**.
+
 > [!Note]
 > When internet access is available, users will simply see all data on the server they have access to via their security role.
+
+> [!Note]
+> The mobile app will sync new data every 5 minutes. This is currently not configurable. 
 
 For more information, see the article on [setting up mobile offline synchronization](https://docs.microsoft.com/dynamics365/mobile-app/preview-setup-mobile-offline). 
 

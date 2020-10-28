@@ -122,38 +122,33 @@ For more information, see the article on [configuring global search](https://doc
 
 ## Work offline
 
-If you expect to be in areas without wifi or cellular internet access, you can download important information to your device to keep working.
+If you expect to be in areas without wifi or cellular internet access, you can download important information to your device to keep working. 
 
-Consider a scenario where a Field Service Technician needs to work in the basement of an industrial complex. They will often have limited to no internet connectivity while using their Field Service Mobile application. These technicians will perform service tasks, take pictures and log notes, etc. as part of their daily work. The technician needs data available to them to do their job effective without connectivity. With Offline by Default, the technician has all of the data they require as defined by their offline profile and is able to work against their device database to complete their tasks. Once connectivity is restored to the device, they automatically sync back to the server. All of this happens seamlessly, without interruption to the Technicians experience. 
+The Field Service mobile application runs in **offline by default**. This is different than apps that are online first, offline second. Offline by default is a mode where the application runs offline first and performs consistently with or without internet connectivity.  Technicians no longer need to decide to go offline or manually switch between online and offline modes. 
 
-The Field Service Mobile application now runs "offline by default". This is a shift from online first, offline second, to a mode where the application runs offline first and performs consistently with or without internet connectivity.  Technicians no longer need to decide to go offline or manually switch between online/offline modes within the application.
+Consider a scenario where a technician needs to work in the basement of an industrial complex. They will often have limited or no internet connectivity. Working offline will download their work orders, notes, service tasks, and pictures for use without connectivity and once connectivity is restored then new data is automatically synced back to the server. All of this happens seamlessly, without interruption to the technician's experience. 
 
+
+Upon logging in the application will download important field service information as defined by system administrators. See the topic on [configuring offline sync filters](https://docs.microsoft.com/dynamics365/field-service/mobile-power-app-configure#configure-offline-data-and-sync-filters) for more details.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-offline-downloading2.png)
+
+When the **Status** is set to **Available**, you'll have all the data you need to work offline.
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-offline-complete.png)
 
+The mobile app will sync new data every 5 minutes and technicians have the option to **Update offline data** by going to the home screen, selecting the offline icon in the bottom left, then selecting the Update offline data button. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-offline-update-offline-data2.png)
 
-From the home screen, select the cloud icon in the bottom left.
 
-Then select **Download offline updates**. If you are prohibited from downloading offline profiles and the option is greyed out, you must:
 
-1. Set up an offline profile.
-2. Add your user to an offline profile.
-3. Ensure your user has the **Field Service - Resource** security role. See the section: **Configure the Field Service (Dynamics 365) mobile app**.
 
-> [!div class="mx-imgBorder"]
-> ![Simulated image showing three mobile devices with Field Service (Dynamics 365). The device on the left shows the menu, with attention to the cloud icon at the bottom. The middle device shows the offline status screen. The device on the right shows the offline status as available, showing the list of available entities.](./media/mobile-2020-offline.jpg)
 
-When **Status** is set to **Available**, you'll have all the data you need to work offline.
-
-Then toggle the **Work in offline mode** to on. If you lose internet connection unexpectedly, the app will automatically work in offline mode if you previously downloaded data.
 
 ## IoT on the Field Service (Dynamics 365) mobile app
 
