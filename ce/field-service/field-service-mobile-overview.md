@@ -1,5 +1,5 @@
 ---
-title: "Overview of Field Service Mobile (Xamarin app)" | MicrosoftDocs"
+title: "Overview of Field Service Mobile (Xamarin app) - MicrosoftDocs"
 description: Learn general capabilities of the Field Service Mobile (Xamarin app).
 ms.custom: 
   - dyn365-fieldservice
