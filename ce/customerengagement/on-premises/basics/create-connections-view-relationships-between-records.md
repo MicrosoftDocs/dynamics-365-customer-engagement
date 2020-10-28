@@ -2,7 +2,7 @@
 title: "Create connections to define relationships between records (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: ""
 keywords: 
-ms.date: 09/15/2017
+ms.date: 05/05/2020
 ms.service:
   - crm-online
 ms.topic: article
@@ -19,6 +19,8 @@ caps.latest.revision: 29
 ---
 
 # Create connections to define and view relationships between records
+
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Add a connection role to link records to each other](/powerapps/user/add-connection-role)
 
 In Dynamics 365 Customer Engagement (on-premises), you can create and view the relationships between records for many entities using **Connect**. Connections enable you to easily associate users, contacts, quotes, sales orders, and many other entity records with each other. When you open a record and select **Connections**, you can view all of the connections between it and other records.  
   

@@ -1,15 +1,13 @@
 ---
 title: "msdyn_ocliveworkitem Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_ocliveworkitem entity."
+ms.date: 07/29/2020
 author: "susikka"
 ms.author: "susikka"
 manager: "shujoshi"
-ms.date: 08/29/2019
-ms.service: 
-  - crm-online
-ms.topic: "reference"
 ---
 # msdyn_ocliveworkitem Entity Reference
+
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
@@ -81,6 +79,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [msdyn_activeagentassignedon](#BKMK_msdyn_activeagentassignedon)
 - [msdyn_activeagentid](#BKMK_msdyn_activeagentid)
 - [msdyn_cdsqueueid](#BKMK_msdyn_cdsqueueid)
+- [msdyn_channel](#BKMK_msdyn_channel)
+- [msdyn_channelproviderName](#BKMK_msdyn_channelproviderName)
 - [msdyn_closedon](#BKMK_msdyn_closedon)
 - [msdyn_ConversationSummaryField](#BKMK_msdyn_ConversationSummaryField)
 - [msdyn_createdon](#BKMK_msdyn_createdon)
@@ -88,20 +88,25 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [msdyn_customerIdType](#BKMK_msdyn_customerIdType)
 - [msdyn_customerlocale](#BKMK_msdyn_customerlocale)
 - [msdyn_customersentimentlabel](#BKMK_msdyn_customersentimentlabel)
+- [msdyn_dailytopicid](#BKMK_msdyn_dailytopicid)
 - [msdyn_escalationcount](#BKMK_msdyn_escalationcount)
 - [msdyn_initiatedon](#BKMK_msdyn_initiatedon)
+- [msdyn_IssueId](#BKMK_msdyn_IssueId)
 - [msdyn_lastsessionid](#BKMK_msdyn_lastsessionid)
 - [msdyn_liveworkstreamid](#BKMK_msdyn_liveworkstreamid)
 - [msdyn_liveworkstreamnotificationdata](#BKMK_msdyn_liveworkstreamnotificationdata)
 - [msdyn_modifiedon](#BKMK_msdyn_modifiedon)
 - [msdyn_ocliveworkitemid](#BKMK_msdyn_ocliveworkitemid)
 - [msdyn_queueid](#BKMK_msdyn_queueid)
+- [msdyn_socialprofileid](#BKMK_msdyn_socialprofileid)
 - [msdyn_startedon](#BKMK_msdyn_startedon)
 - [msdyn_statusupdatedon](#BKMK_msdyn_statusupdatedon)
+- [msdyn_thirdpartyconversation](#BKMK_msdyn_thirdpartyconversation)
 - [msdyn_TimelineControlField](#BKMK_msdyn_TimelineControlField)
 - [msdyn_title](#BKMK_msdyn_title)
 - [msdyn_TranscriptControl](#BKMK_msdyn_TranscriptControl)
 - [msdyn_transfercount](#BKMK_msdyn_transfercount)
+- [msdyn_workstreamworkdistributionmode](#BKMK_msdyn_workstreamworkdistributionmode)
 - [OptionalAttendees](#BKMK_OptionalAttendees)
 - [Organizer](#BKMK_Organizer)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
@@ -262,6 +267,19 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |0|Other|
 |1|Facebook|
 |2|Twitter|
+|3|Line|
+|4|Wechat|
+|5|Cortana|
+|6|Direct Line|
+|7|Microsoft Teams|
+|8|Direct Line Speech|
+|9|Email|
+|10|GroupMe|
+|11|Kik|
+|12|Telegram|
+|13|Skype|
+|14|Slack|
+|15|WhatsApp|
 
 
 
@@ -499,7 +517,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description||
+|Description|Date and time when last agent was assigned to the conversation|
 |DisplayName|Active Agent Assigned On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -513,7 +531,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Last agent assigned to the conversation|
 |DisplayName|Active Agent|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -537,12 +555,65 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Lookup|
 
 
+### <a name="BKMK_msdyn_channel"></a> msdyn_channel
+
+**Added by**: Omnichannel - Base Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|The channel(s) in the conversation.|
+|DisplayName|Channel|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_channel|
+|RequiredLevel|None|
+|Type|MultiSelectPicklist|
+
+#### msdyn_channel Options
+
+|Value|Label|
+|-----|-----|
+|19241000|Microsoft Teams|
+|192300000|WhatsApp|
+|192310000|LINE|
+|192320000|WeChat|
+|192330000|Facebook|
+|192340000|SMS|
+|192350000|Entity Records|
+|192350001|Twitter|
+|192350002|Custom|
+|192360000|Live chat|
+|192370000|Voice|
+|192380000|Video|
+|192390000|Co-browse|
+|192400000|Screen sharing|
+
+
+
+### <a name="BKMK_msdyn_channelproviderName"></a> msdyn_channelproviderName
+
+**Added by**: Omnichannel - Base Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Channel Provider Name.|
+|DisplayName|Channel Provider Name|
+|Format|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_channelproviderName|
+|MaxLength|200|
+|RequiredLevel|None|
+|Type|Memo|
+
+
 ### <a name="BKMK_msdyn_closedon"></a> msdyn_closedon
 
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description||
+|Description|Date and time when conversation was closed|
 |DisplayName|Closed On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -573,7 +644,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description||
+|Description|Date and time when the activity was created.|
 |DisplayName|Created On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -587,7 +658,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Customer with which the activity is associated.|
 |DisplayName|Customer|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -645,21 +716,37 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Value|Label|
 |-----|-----|
 |0|N/A|
-|7|Very Negative|
+|7|Very negative|
 |8|Negative|
-|9|Slightly Negative|
+|9|Slightly negative|
 |10|Neutral|
-|11|Slightly Positive|
+|11|Slightly positive|
 |12|Positive|
-|13|Very Positive|
+|13|Very positive|
 
+
+
+### <a name="BKMK_msdyn_dailytopicid"></a> msdyn_dailytopicid
+
+**Added by**: Omnichannel - Base Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Look up to daily topic entity.|
+|DisplayName|TopicID|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_dailytopicid|
+|RequiredLevel|None|
+|Targets|msdyn_ocsentimentdailytopic|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_escalationcount"></a> msdyn_escalationcount
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Number of times conversation was escalated to Supervisor i.e. transferred to Supervisor|
 |DisplayName|Escalation Count|
 |Format|None|
 |IsValidForForm|True|
@@ -676,7 +763,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description||
+|Description|Time when conversation was initiated|
 |DisplayName|Initiated On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -686,11 +773,27 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|DateTime|
 
 
+### <a name="BKMK_msdyn_IssueId"></a> msdyn_IssueId
+
+**Added by**: Omnichannel – Base for Dynamics 365 Applications Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for Case associated with Conversation.|
+|DisplayName|Issue|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_issueid|
+|RequiredLevel|None|
+|Targets|incident|
+|Type|Lookup|
+
+
 ### <a name="BKMK_msdyn_lastsessionid"></a> msdyn_lastsessionid
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Last agent session|
 |DisplayName|Last Session|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -704,7 +807,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Work stream associated to the conversation|
 |DisplayName|Work stream|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -735,7 +838,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description||
+|Description|Date and time when conversation was last modified|
 |DisplayName|Modified On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -749,7 +852,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Unique Id of conversation|
 |DisplayName|ConversationId|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -775,12 +878,28 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Lookup|
 
 
+### <a name="BKMK_msdyn_socialprofileid"></a> msdyn_socialprofileid
+
+**Added by**: Omnichannel - Base Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Lookup for the Social Profile Entity Record.|
+|DisplayName|Social Profile|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_socialprofileid|
+|RequiredLevel|None|
+|Targets|socialprofile|
+|Type|Lookup|
+
+
 ### <a name="BKMK_msdyn_startedon"></a> msdyn_startedon
 
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description||
+|Description|Date and time when conversation was started|
 |DisplayName|Started On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -795,7 +914,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description||
+|Description|Date and time when conversation status was last modified|
 |DisplayName|Status Updated On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -803,6 +922,31 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |LogicalName|msdyn_statusupdatedon|
 |RequiredLevel|None|
 |Type|DateTime|
+
+
+### <a name="BKMK_msdyn_thirdpartyconversation"></a> msdyn_thirdpartyconversation
+
+**Added by**: Omnichannel - Base Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Third Party Conversation|
+|DisplayName|Third Party Conversation|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_thirdpartyconversation|
+|RequiredLevel|None|
+|Type|Boolean|
+
+#### msdyn_thirdpartyconversation Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
+
+**DefaultValue**: False
+
 
 
 ### <a name="BKMK_msdyn_TimelineControlField"></a> msdyn_TimelineControlField
@@ -825,14 +969,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Conversation Title|
 |DisplayName|Title|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|msdyn_title|
-|MaxLength|100|
+|MaxLength|4000|
 |RequiredLevel|None|
 |Type|String|
 
@@ -857,7 +1001,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Number of times the conversation was transferred|
 |DisplayName|Transfer Count|
 |Format|None|
 |IsValidForForm|True|
@@ -867,6 +1011,29 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |MinValue|0|
 |RequiredLevel|None|
 |Type|Integer|
+
+
+### <a name="BKMK_msdyn_workstreamworkdistributionmode"></a> msdyn_workstreamworkdistributionmode
+
+**Added by**: Omnichannel - Base Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Work distribution mode of the associated work stream|
+|DisplayName|Work distribution mode|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_workstreamworkdistributionmode|
+|RequiredLevel|None|
+|Type|Picklist|
+
+#### msdyn_workstreamworkdistributionmode Options
+
+|Value|Label|
+|-----|-----|
+|192350000|Push|
+|192350001|Pick|
+
 
 
 ### <a name="BKMK_OptionalAttendees"></a> OptionalAttendees
@@ -1013,7 +1180,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForRead|True|
 |LogicalName|regardingobjectid|
 |RequiredLevel|None|
-|Targets|account,bookableresourcebooking,bookableresourcebookingheader,bulkoperation,campaign,campaignactivity,contact,contract,entitlement,entitlementtemplate,incident,interactionforemail,invoice,knowledgearticle,knowledgebaserecord,lead,msdyn_playbookinstance,msdyn_postalbum,opportunity,quote,salesorder,site|
+|Targets|account,bookableresourcebooking,bookableresourcebookingheader,bulkoperation,campaign,campaignactivity,contact,contract,entitlement,entitlementtemplate,incident,interactionforemail,invoice,knowledgearticle,knowledgebaserecord,lead,msdyn_customerasset,msdyn_playbookinstance,msdyn_postalbum,opportunity,quote,salesorder,site,uii_action,uii_hostedapplication,uii_nonhostedapplication,uii_option,uii_savedsession,uii_workflow,uii_workflowstep,uii_workflow_workflowstep_mapping|
 |Type|Lookup|
 
 
@@ -1384,9 +1551,12 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 - [msdyn_cdsqueueidName](#BKMK_msdyn_cdsqueueidName)
 - [msdyn_customerName](#BKMK_msdyn_customerName)
 - [msdyn_customerYomiName](#BKMK_msdyn_customerYomiName)
+- [msdyn_dailytopicidName](#BKMK_msdyn_dailytopicidName)
+- [msdyn_IssueIdName](#BKMK_msdyn_IssueIdName)
 - [msdyn_lastsessionidName](#BKMK_msdyn_lastsessionidName)
 - [msdyn_liveworkstreamidName](#BKMK_msdyn_liveworkstreamidName)
 - [msdyn_queueidName](#BKMK_msdyn_queueidName)
+- [msdyn_socialprofileidName](#BKMK_msdyn_socialprofileidName)
 - [OnHoldTime](#BKMK_OnHoldTime)
 - [OwnerIdName](#BKMK_OwnerIdName)
 - [OwnerIdYomiName](#BKMK_OwnerIdYomiName)
@@ -1817,6 +1987,42 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Type|String|
 
 
+### <a name="BKMK_msdyn_dailytopicidName"></a> msdyn_dailytopicidName
+
+**Added by**: Omnichannel - Base Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_dailytopicidname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_IssueIdName"></a> msdyn_IssueIdName
+
+**Added by**: Omnichannel – Base for Dynamics 365 Applications Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_issueidname|
+|MaxLength|200|
+|RequiredLevel|None|
+|Type|String|
+
+
 ### <a name="BKMK_msdyn_lastsessionidName"></a> msdyn_lastsessionidName
 
 |Property|Value|
@@ -1860,6 +2066,24 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |IsValidForForm|False|
 |IsValidForRead|True|
 |LogicalName|msdyn_queueidname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_socialprofileidName"></a> msdyn_socialprofileidName
+
+**Added by**: Omnichannel - Base Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_socialprofileidname|
 |MaxLength|100|
 |RequiredLevel|None|
 |Type|String|
@@ -2156,12 +2380,7 @@ Listed by **SchemaName**.
 
 - [msdyn_msdyn_ocliveworkitem_msdyn_cdsentityengagementctx_liveworkitemid](#BKMK_msdyn_msdyn_ocliveworkitem_msdyn_cdsentityengagementctx_liveworkitemid)
 - [msdyn_msdyn_ocliveworkitem_msdyn_ocliveworkitemcontextitem_ocliveworkitemid](#BKMK_msdyn_msdyn_ocliveworkitem_msdyn_ocliveworkitemcontextitem_ocliveworkitemid)
-- [msdyn_msdyn_ocliveworkitem_msdyn_ocliveworkitemsentiment_ocliveworkitemid](#BKMK_msdyn_msdyn_ocliveworkitem_msdyn_ocliveworkitemsentiment_ocliveworkitemid)
 - [msdyn_msdyn_ocliveworkitem_msdyn_ocsession_liveworkstreamid](#BKMK_msdyn_msdyn_ocliveworkitem_msdyn_ocsession_liveworkstreamid)
-- [msdyn_msdyn_ocliveworkitem_msdyn_transcript](#BKMK_msdyn_msdyn_ocliveworkitem_msdyn_transcript)
-- [msdyn_msdyn_ocliveworkitem_msdyn_chatquestionnaireresponse](#BKMK_msdyn_msdyn_ocliveworkitem_msdyn_chatquestionnaireresponse)
-- [msdyn_msdyn_ocliveworkitem_msdyn_livechatengagementctx_liveworkitemid](#BKMK_msdyn_msdyn_ocliveworkitem_msdyn_livechatengagementctx_liveworkitemid)
-- [msdyn_msdyn_ocliveworkitem_msdyn_smsengagementctx_liveworkitemid](#BKMK_msdyn_msdyn_ocliveworkitem_msdyn_smsengagementctx_liveworkitemid)
 
 
 ### <a name="BKMK_msdyn_msdyn_ocliveworkitem_msdyn_cdsentityengagementctx_liveworkitemid"></a> msdyn_msdyn_ocliveworkitem_msdyn_cdsentityengagementctx_liveworkitemid
@@ -2176,7 +2395,7 @@ Same as msdyn_cdsentityengagementctx entity [msdyn_msdyn_ocliveworkitem_msdyn_cd
 |IsCustomizable|False|
 |ReferencedEntityNavigationPropertyName|msdyn_msdyn_ocliveworkitem_msdyn_cdsentityengagementctx_liveworkitemid|
 |AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_msdyn_ocliveworkitem_msdyn_ocliveworkitemcontextitem_ocliveworkitemid"></a> msdyn_msdyn_ocliveworkitem_msdyn_ocliveworkitemcontextitem_ocliveworkitemid
@@ -2191,22 +2410,7 @@ Same as msdyn_ocliveworkitemcontextitem entity [msdyn_msdyn_ocliveworkitem_msdyn
 |IsCustomizable|False|
 |ReferencedEntityNavigationPropertyName|msdyn_msdyn_ocliveworkitem_msdyn_ocliveworkitemcontextitem_ocliveworkitemid|
 |AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_msdyn_ocliveworkitem_msdyn_ocliveworkitemsentiment_ocliveworkitemid"></a> msdyn_msdyn_ocliveworkitem_msdyn_ocliveworkitemsentiment_ocliveworkitemid
-
-Same as msdyn_ocliveworkitemsentiment entity [msdyn_msdyn_ocliveworkitem_msdyn_ocliveworkitemsentiment_ocliveworkitemid](msdyn_ocliveworkitemsentiment.md#BKMK_msdyn_msdyn_ocliveworkitem_msdyn_ocliveworkitemsentiment_ocliveworkitemid) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_ocliveworkitemsentiment|
-|ReferencingAttribute|msdyn_ocliveworkitemid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|msdyn_msdyn_ocliveworkitem_msdyn_ocliveworkitemsentiment_ocliveworkitemid|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_msdyn_ocliveworkitem_msdyn_ocsession_liveworkstreamid"></a> msdyn_msdyn_ocliveworkitem_msdyn_ocsession_liveworkstreamid
@@ -2221,73 +2425,7 @@ Same as msdyn_ocsession entity [msdyn_msdyn_ocliveworkitem_msdyn_ocsession_livew
 |IsCustomizable|False|
 |ReferencedEntityNavigationPropertyName|msdyn_msdyn_ocliveworkitem_msdyn_ocsession_liveworkstreamid|
 |AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_msdyn_ocliveworkitem_msdyn_transcript"></a> msdyn_msdyn_ocliveworkitem_msdyn_transcript
-
-Same as msdyn_transcript entity [msdyn_msdyn_ocliveworkitem_msdyn_transcript](msdyn_transcript.md#BKMK_msdyn_msdyn_ocliveworkitem_msdyn_transcript) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_transcript|
-|ReferencingAttribute|msdyn_liveworkitemidid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|msdyn_msdyn_ocliveworkitem_msdyn_transcript|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
-
-
-### <a name="BKMK_msdyn_msdyn_ocliveworkitem_msdyn_chatquestionnaireresponse"></a> msdyn_msdyn_ocliveworkitem_msdyn_chatquestionnaireresponse
-
-**Added by**: Omnichannel – Chat Solution
-
-Same as msdyn_chatquestionnaireresponse entity [msdyn_msdyn_ocliveworkitem_msdyn_chatquestionnaireresponse](msdyn_chatquestionnaireresponse.md#BKMK_msdyn_msdyn_ocliveworkitem_msdyn_chatquestionnaireresponse) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_chatquestionnaireresponse|
-|ReferencingAttribute|msdyn_ocliveworkitemid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|msdyn_msdyn_ocliveworkitem_msdyn_chatquestionnaireresponse|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_msdyn_ocliveworkitem_msdyn_livechatengagementctx_liveworkitemid"></a> msdyn_msdyn_ocliveworkitem_msdyn_livechatengagementctx_liveworkitemid
-
-**Added by**: Omnichannel – Chat Solution
-
-Same as msdyn_livechatengagementctx entity [msdyn_msdyn_ocliveworkitem_msdyn_livechatengagementctx_liveworkitemid](msdyn_livechatengagementctx.md#BKMK_msdyn_msdyn_ocliveworkitem_msdyn_livechatengagementctx_liveworkitemid) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_livechatengagementctx|
-|ReferencingAttribute|msdyn_liveworkitemid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|msdyn_msdyn_ocliveworkitem_msdyn_livechatengagementctx_liveworkitemid|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_msdyn_ocliveworkitem_msdyn_smsengagementctx_liveworkitemid"></a> msdyn_msdyn_ocliveworkitem_msdyn_smsengagementctx_liveworkitemid
-
-**Added by**: Omnichannel – SMS Solution
-
-Same as msdyn_smsengagementctx entity [msdyn_msdyn_ocliveworkitem_msdyn_smsengagementctx_liveworkitemid](msdyn_smsengagementctx.md#BKMK_msdyn_msdyn_ocliveworkitem_msdyn_smsengagementctx_liveworkitemid) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_smsengagementctx|
-|ReferencingAttribute|msdyn_liveworkitemid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|msdyn_msdyn_ocliveworkitem_msdyn_smsengagementctx_liveworkitemid|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 <a name="manytoone"></a>
 
@@ -2297,17 +2435,18 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 - [msdyn_msdyn_liveworkstream_msdyn_ocliveworkitem_liveworkstreamid](#BKMK_msdyn_msdyn_liveworkstream_msdyn_ocliveworkitem_liveworkstreamid)
 - [msdyn_msdyn_ocsession_msdyn_ocliveworkitem_lastsessionid](#BKMK_msdyn_msdyn_ocsession_msdyn_ocliveworkitem_lastsessionid)
+- [msdyn_msdyn_omnichannelqueue_msdyn_ocliveworkitem_queueid](#BKMK_msdyn_msdyn_omnichannelqueue_msdyn_ocliveworkitem_queueid)
 
-
-### <a name="BKMK_msdyn_msdyn_liveworkstream_msdyn_ocliveworkitem_liveworkstreamid"></a> msdyn_msdyn_liveworkstream_msdyn_ocliveworkitem_liveworkstreamid
-
-See msdyn_liveworkstream Entity [msdyn_msdyn_liveworkstream_msdyn_ocliveworkitem_liveworkstreamid](msdyn_liveworkstream.md#BKMK_msdyn_msdyn_liveworkstream_msdyn_ocliveworkitem_liveworkstreamid) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_msdyn_ocsession_msdyn_ocliveworkitem_lastsessionid"></a> msdyn_msdyn_ocsession_msdyn_ocliveworkitem_lastsessionid
 
 **Added by**: Active Solution Solution
 
 See msdyn_ocsession Entity [msdyn_msdyn_ocsession_msdyn_ocliveworkitem_lastsessionid](msdyn_ocsession.md#BKMK_msdyn_msdyn_ocsession_msdyn_ocliveworkitem_lastsessionid) One-To-Many relationship.
+
+### <a name="BKMK_msdyn_msdyn_omnichannelqueue_msdyn_ocliveworkitem_queueid"></a> msdyn_msdyn_omnichannelqueue_msdyn_ocliveworkitem_queueid
+
+See msdyn_omnichannelqueue Entity [msdyn_msdyn_omnichannelqueue_msdyn_ocliveworkitem_queueid](msdyn_omnichannelqueue.md#BKMK_msdyn_msdyn_omnichannelqueue_msdyn_ocliveworkitem_queueid) One-To-Many relationship.
 
 ### See also
 

@@ -16,9 +16,7 @@ author: jimholtz
 ms.author: jimholtz
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - Powerplatform
+
 ---
 # Why does the email message I sent have a "Pending Send" status?
 

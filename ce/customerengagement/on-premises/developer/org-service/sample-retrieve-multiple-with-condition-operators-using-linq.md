@@ -3,7 +3,7 @@ title: "Sample: Retrieve multiple with condition operators using LINQ (Developer
 description: "This sample shows how to retrieve multiple condition operators with .NET Language-Integrated Query (LINQ)"
 ms.custom: 
 ms.date: 02/05/2020
-ms.reviewer: "pehecke"
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -21,8 +21,7 @@ ms.author: kvivek
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Sample: Retrieve multiple with condition operators using LINQ
 

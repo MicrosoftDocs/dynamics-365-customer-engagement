@@ -3,7 +3,7 @@ title: "Use managed properties (Developer Guide for Dynamics 365 Customer Engage
 description: "Managed properties help you define which of the managed solution components can be customized"
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: "pehecke"
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -28,10 +28,11 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Use managed properties
+
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Use managed properties](/powerapps/developer/common-data-service/use-managed-properties).
 
 You can control which of your managed solution components are customizable by using managed properties. You should allow as much customization as possible for those solution components that represent business entities. This lets organizations customize your           solution to their requirements. Limit or eliminate customization of critical solution components that provide the core functionality of your solution so that you can predictably support and maintain it.  
   

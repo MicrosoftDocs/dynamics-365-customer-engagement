@@ -1,7 +1,7 @@
 ---
 title: "Where to find your business apps (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/15/2019
+ms.date: 05/05/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -17,10 +17,11 @@ author: mduelae
 ms.author: mkaur
 search.audienceType: 
   - enduser
-search.app: 
-  - D365CE
+
 ---
 # Where to find your business apps
+
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Use model-driven apps in Power Apps](/powerapps/user/use-model-driven-apps)
 
 Business apps are available to users based on their security roles. If your system administrator has created any new apps, they will be visible to you if your security role has been given access to those apps. 
   

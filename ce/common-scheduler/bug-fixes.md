@@ -2,7 +2,7 @@
 title: "Bug fixes for Universal Resource Scheduling | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 01/02/2020
+ms.date: 05/18/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""

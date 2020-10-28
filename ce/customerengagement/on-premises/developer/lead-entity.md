@@ -3,7 +3,7 @@ title: "Lead entity (Developer Guide for Dynamics 365 Customer Engagement (on-pr
 description: "Learn about lead entity that represents an individual who is interested in receiving specific information about products or services offered by the company."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -23,8 +23,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Lead entity
 

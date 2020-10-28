@@ -1,7 +1,7 @@
 ---
 title: "Create and manage quotes in Dynamics 365 Sales Professional | MicrosoftDocs"
 description: "Use quotes in Dynamics 365 Sales Professional to make formal offers for products with proposed prices to customers."
-ms.date: 12/12/2019
+ms.date: 07/21/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
@@ -14,11 +14,11 @@ manager: annbe
 
 Most sales begin with a price quote in Dynamics 365 Sales Professional. A quote is a formal offer for products proposed at specific prices and related payment terms, which you send to an opportunity, account, or contact. 
 
-If you’ve created your quote from an opportunity, you might have already added products that your customer is interested in to the opportunity. When you create a quote from the opportunity, all the products are already added to the quote.
+If you've created your quote from an opportunity, you might have already added products that your customer is interested in to the opportunity. When you create a quote from the opportunity, all the products are already added to the quote.
 
-You’ll probably edit a quote multiple times as a sale progresses. Initially, you create a draft, and then you need to activate it when it’s ready to go to a customer.
+You'll probably edit a quote multiple times as a sale progresses. Initially, you create a draft, and then you need to activate it when it's ready to go to a customer.
 
-When the customer accepts the quote, and you are ready to ship the products, you create an invoice. Otherwise, you close the quote as revised, canceled, or lost.
+When the customer accepts the quote, and you are ready to ship the products, you create an order or an invoice. Otherwise, you close the quote as revised, canceled, or lost.
 
 ## Create a quote from an opportunity
 
@@ -47,9 +47,6 @@ When the customer accepts the quote, and you are ready to ship the products, you
 
 After you activate the quote, you can create an invoice from it. More information: [Create and manage invoices in Dynamics 365 Sales Professional](create-invoices.md)
 
-> [!NOTE]
-> In Sales Professional, the Quote-Order-Invoice functionality is simplified to generate an invoice directly from a quote. Therefore, the **Create Order** button isn't available on the Quote form. 
-
 
 ## Create a new quote
 
@@ -66,7 +63,7 @@ After you activate the quote, you can create an invoice from it. More informatio
 
 4.  To add products from an opportunity to your quote, select **Get Products** at the top of the **Quote** screen, and select **OK**.
 
-5.  In the **Sales Information** area, select the potential customer you’re creating this quote for. If the record doesn’t already exist, you can create a new one.
+5.  In the **Sales Information** area, select the potential customer you're creating this quote for. If the record doesn't already exist, you can create a new one.
 
 6.  In the **Shipping Information** area, enter shipping details.
 
@@ -79,7 +76,29 @@ After you activate the quote, you can create an invoice from it. More informatio
 
 ## Email a quote
 
-When you’ve added all the details to the quote, you can send it to the customer. To directly send an email to a customer with a quote attached, open the quote, and on the command bar, select **Email as PDF**. [!INCLUDE[proc-more-information-md](../includes/proc-more-information-md.md)] [Email a quote PDF](create-quote-pdf-sales-professional.md#email-as-a-pdf-document)
+When you've added all the details to the quote, you can send it to the customer. To directly send an email to a customer with a quote attached, open the quote, and on the command bar, select **Email as PDF**. [!INCLUDE[proc-more-information-md](../includes/proc-more-information-md.md)] [Email a PDF file](create-quote-pdf-sales-professional.md#email-pdf)
+
+## Close a quote
+
+When you close a quote, you have three choices: Lost, Canceled, or Revised. If you choose to revise the quote, a new
+quote is created, set to **Draft** status, and you can start over. If you choose not to revise the quote, the quote is closed.
+
+To close a quote:
+
+1. On the command bar, select **Close Quote**. 
+
+2. In the **Close Quote** dialog box, enter the following information:
+
+   - **Status Reason:** Select the status of the item. The choices available by default are Lost, Canceled, and
+Revised.
+   - **Close Date:** Enter the date that the quote was closed. The current date is selected by default. 
+   
+   - **Description:** Enter details about why the quote is being closed. 
+   
+   - **Create a revised quote:** You may be closing the quote because you need to create a new, revised quote. If this is the
+case, select **Yes**. If you don't want to revise the quote, set this field to **No**.
+
+3. Select **OK**.
 
 ### See also
 

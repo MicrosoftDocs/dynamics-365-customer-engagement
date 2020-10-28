@@ -14,7 +14,7 @@ ms.topic: article
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-When you (an agent) get an incoming conversation request, the omnichannel system searches and opens the records like case, contact, or account. However, your organization might have different requirements and want to use different custom entities and correlate to a conversation. 
+When you (an agent) get an incoming conversation request, the omnichannel system searches and opens the records like case, contact, or account. However, your organization might have different requirements and want to use different custom entities and correlate to a conversation.
 
 Also, Omnichannel for Customer Service allows you to open third-party web applications in the application tabs. Your organization might have different line-of-business applications, and while starting a session, you might want to load the line-of-business applications for a specific conversation type.
 
@@ -28,7 +28,7 @@ You can use the following templates in the Omnichannel Administration app.
 - [Application tab templates](application-tab-templates.md)
 - [Notification templates](notification-templates.md)
  
-## See also
+### See also
 
 - [Associate templates with workstreams](associate-templates.md)
 - [Understand and create workstream](work-streams-introduction.md)

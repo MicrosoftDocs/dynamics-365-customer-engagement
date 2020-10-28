@@ -1,5 +1,6 @@
 ---
-title: "Overview of Field Service Mobile | MicrosoftDocs"
+title: "Overview of Field Service Mobile (Xamarin app) - MicrosoftDocs"
+description: Learn general capabilities of the Field Service Mobile (Xamarin app).
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 05/29/2019
@@ -26,14 +27,14 @@ search.app:
   - D365FS
 ---
 
-# Overview of Field Service Mobile
+# Overview of Field Service Mobile (Xamarin app)
 
 Field technicians use the Field Service Mobile app to view their schedules, work orders, equipment details, and more as they travel to various customer locations each day. In this topic, we'll take a look at some basic details of the application.
 
 ## Supported platforms
 
 - Windows 10, desktop + tablet
-- iOS 8.0+, phones + tablets
+- iOS 11.0+, phones + tablets
 - Android 5.0+, phones + tablets
 
 ## Key capabilities
@@ -88,7 +89,7 @@ Field technicians use the Field Service Mobile app to view their schedules, work
 
 ## Installation
 
-Installing Field Service Mobile involves downloading the "Field Service Mobile" app from the relevant app store and setting up the mobile configuration tool. Instructions for both can be found in the [Field Service installation topic](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/install-field-service#download-the-field-service-mobile-app-on-a-phone-or-tablet).
+Installing Field Service Mobile involves downloading the "Field Service Mobile" app from the relevant app store and setting up the mobile configuration tool. Instructions for both can be found in the [Field Service installation topic](field-service-mobile-app-user-guide.md).
 
 ## Upgrade
 
@@ -109,7 +110,7 @@ Regarding password storage, the app can be configured to either:
 - Store the password in the device's secure storage so that the user does not need to type it in repeatedly
 
 ### Multi-factor authentication (MFA)
-Multi-factor authentication based on the related Office 365 tenant Azure active directory can be enabled for Field Service Mobile. This adds a second layer of security with a phone call or text message for user sign-in and transactions.  
+Multi-factor authentication based on the related Microsoft 365 tenant Azure active directory can be enabled for Field Service Mobile. This adds a second layer of security with a phone call or text message for user sign-in and transactions.  
 
 ## Security
 

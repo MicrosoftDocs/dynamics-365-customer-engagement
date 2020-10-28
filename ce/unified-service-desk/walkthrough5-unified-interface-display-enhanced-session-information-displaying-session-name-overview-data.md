@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough 5  Display enhanced session information by displaying session name and overview data | MicrosoftDocs"
 description: "Demonstrates how to dynamically display session name and session overview information in Unified Service Desk to enhance the customer-interaction experience for your agents."
-ms.date: 12/31/2019
+ms.date: 06/25/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -165,13 +165,13 @@ In the previous walkthrough, [Walkthrough 4: Display a Unified Interface apps re
 
 5. Select the ellipsis (...) in the **Hosted Controls** section, and then select **Add Existing Hosted Control**. The **Lookup Records** pane is displayed.
 
-6. Type he name of the action call mentioned in the above table in the search box. The action calls are displayed in the search results. Select the record from the list, and then select **Add**.  
+6. Type the name of the action call mentioned in the above table in the search box. The action calls are displayed in the search results. Select the record from the list, and then select **Add**.  
   
 7. Select the **Session Lines, Agent Scripts and Scriptlets** tab.  
 
 8. Select the ellipsis (...) in the **Session Lines** section, and then select **Add Existing Session Line**. The **Lookup Records** pane is displayed.
 
-9. Type he name of the Session Line mentioned in the above table in the search box. The session line is displayed in the search results. Select the record from the list, and then select **Add**.  
+9. Type the name of the Session Line mentioned in the above table in the search box. The session line is displayed in the search results. Select the record from the list, and then select **Add**.  
   
 10. Select **Save**.  
   

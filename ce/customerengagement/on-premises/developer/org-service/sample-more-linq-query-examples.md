@@ -3,7 +3,7 @@ title: "Sample: More LINQ query examples (Developer Guide for Dynamics 365 Custo
 description: "This sample shows how to create .NET Language-Integrated Query (LINQ) queries"
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: "pehecke"
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -17,8 +17,7 @@ ms.author: kvivek
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Sample: More LINQ query examples
 

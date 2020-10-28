@@ -33,6 +33,8 @@ Information about the user journey, time spent on a web page, and more can be us
 
 The conditions to trigger the proactive chat are defined in the web page code in which the chat widget is embedded. If the conditions are fulfilled, the proactive chat invitation is displayed with the help of an API.
 
+For example scenarios and sample code, see [Start chat proactively](../developer/how-to/start-proactive-chat.md).
+
 ## Customer experience of proactive chat
 
 When proactive chat is enabled, the chat invitation is displayed to customers based on the configured triggers.

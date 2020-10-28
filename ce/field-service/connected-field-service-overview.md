@@ -49,9 +49,13 @@ Here are the 3 things you need to get started building your own IoT solution:
 
 - **Dynamics 365 Connected Field Service add-on**  
 
-    The free Connected Field Service add-on automatically provisions a number of Azure IoT services with predefined demo data seamlessly on top of Dynamics 365 Field Service. The add-on comes with demo data that enables you to see the capabilities IoT data brings to Field Service, including command modeling, customer asset to device mapping, IoT alert – to – workorder workflow, and more.  
- 
-    Wondering where to get it? [Go to AppSource to install the Connected Field Service add-on.](https://appsource.microsoft.com/product/dynamics-365/mscrm.58666c7d-65ee-452d-8708-70b4d471d4c0?tab=Overview)
+Connected Field Service is installed automatically in the current version of Field Service. Make sure you have upgraded to the [latest version of Field Service](upgrade-field-service.md). 
+
+You can then get to the deployment app in one of two ways: 
+
+- By visiting https://cfsdeployment.crm.dynamics.com/, or
+- By visiting the Connected Field Service dashboard in the Field Service org; once there, you'll see a welcome dialog with links.
+
    
 ## Watch a 2-minute video
 

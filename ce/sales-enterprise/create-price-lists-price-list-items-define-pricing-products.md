@@ -1,11 +1,9 @@
 ---
 title: "Define product pricing with price lists and price list items (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Define what to charge for your products or services in Dynamics 365 Sales."
-ms.date: 10/01/2019
-ms.service: 
+ms.date: 06/15/2020
+ms.service:
   - "dynamics-365-sales"
-ms.custom: 
-  - "dyn365-sales"
 ms.topic: get-started-article
 author: shubhadaj
 ms.author: shujoshi
@@ -37,7 +35,7 @@ Price lists tie the unit, product, and pricing details together, so before you c
   
 5. In the price list form, fill in your information, and then select **Save**. 
 
-    a.  **Name**. Type a descriptive name for the price list. For example, if you are creating a price list for retail, mention that.
+    a.  **Name**. Type a descriptive name for the price list. For example, if you're creating a price list for retail, mention that.
 
     b.  **Start Date**/**End Date**. Select the start date and end date for the price list. For example, if this is a promotional price list that’s effective only for the promotional period, select that period.
 
@@ -87,7 +85,7 @@ Price lists tie the unit, product, and pricing details together, so before you c
 
        -  **Percentage**. If you selected any value other than **Currency Amount** as the pricing method, type the percentage for the pricing method that you want.
 
-       -  **Rounding Policy**. If you selected a pricing method other than **Currency Amount**, you can set up a rounding policy. For example, if you want per unit prices to be in the form of $0.99, you can select a rounding policy where all prices per unit automatically have a price that ends in 99 cents. To do this, you select the rounding policy to round the price up, and then set the price to end in a certain amount, such as 99 cents.
+       -  **Rounding Policy**. If you selected a pricing method other than **Currency Amount**, you can set up a rounding policy. For example, if you want per unit prices to be in the form of $0.99, you can select a rounding policy where all prices per unit automatically have a price that ends in 99 cents. To do this, you select the rounding policy to round up the price, and then set the price to end in a certain amount, such as 99 cents.
 
           -  **None**. Prices are not rounded.
 
@@ -103,6 +101,8 @@ Price lists tie the unit, product, and pricing details together, so before you c
 
             > [!div class="mx-imgBorder"]
             > ![Pricing information tab on the price list form](media/pricing-information-tab-price-list-item-form.png "Pricing information tab on the price list form")
+
+        More information: [Price calculation for opportunity, quote, order, and invoice records](price-calculation-opportunity-quote-order-invoice-records.md)
  
 7.  You can also associate default price lists for territories so that the sales reps working with accounts on contacts in certain territories have the price list selected by default. 
 
@@ -176,9 +176,9 @@ Create a price list item for each unit in which the product is available. For ex
           
       -  **Percent of List**. Use this to calculate a product's price in the price list as a percentage of the list price of the associated product.  
         
-      -  **Percent Markup - Current Cost**. Use this to add a percent markup on top of the current cost of the prouct.   
+      -  **Percent Markup - Current Cost**. Use this to add a percent markup on top of the current cost of the product.   
 
-      - **Percent Markup - Standard Cost**. Use this to add a percent markup on top of the standard cost of the prouct.
+      - **Percent Markup - Standard Cost**. Use this to add a percent markup on top of the standard cost of the product.
 
       -  **Percent Margin - Current Cost**. Use this for the price offered in the price list to yield a percentage margin of the current cost of the product. 
 
@@ -190,7 +190,7 @@ Create a price list item for each unit in which the product is available. For ex
   
       If you selected any value other than **Currency Amount** as the pricing method, type the percentage for the pricing method that you want.  
   
-   - If you selected a pricing method other than **Currency Amount**, you can set up a rounding policy. For example, if you want per unit prices to be in the form of $0.99, you can select a rounding policy where all prices per unit automatically have a price that ends in 99 cents. To do this, you select the rounding policy to round the price up, and then set the price to end in a certain amount, such as 99 cents.  
+   - If you selected a pricing method other than **Currency Amount**, you can set up a rounding policy. For example, if you want per unit prices to be in the form of $0.99, you can select a rounding policy where all prices per unit automatically have a price that ends in 99 cents. To do this, you select the rounding policy to round up the price, and then set the price to end in a certain amount, such as 99 cents.  
   
      - **None**. Prices are not rounded.  
   
@@ -208,7 +208,7 @@ Create a price list item for each unit in which the product is available. For ex
   
 ## Define default price list for territories  (Sales)
 
-Make sales agents' job easier by adding default pricelists for territories or customer segments the agents are managing. When sales agents are working on opportunities, they see the default price list. Sales agents can later select other price list that they've permission on. You can have one price list as the default for multiple territories.  
+Make sales agents' job easier by adding default price lists for territories or customer segments the agents are managing. When sales agents are working on opportunities, they see the default price list. Sales agents can later select other price list that they've permission on. You can have one price list as the default for multiple territories.  
    
 1.  In the price list record, in the **Territory Relationships** section, select the **Add Record** button ![Add a record button](../sales-enterprise/media/add-recordbutton.gif "Add a record button").  
   
@@ -218,7 +218,7 @@ Make sales agents' job easier by adding default pricelists for territories or cu
   
 4.  In the price list form, select the **Auto Save** button ![Auto save button](../sales-enterprise/media/auto-save-button.png "Auto save button").  
   
-     When the sales agents set or change the customer for an opportunity, if a default price list is added to their territory (customer segment), it is shown.  
+     When the sales agents set or change the customer for an opportunity, if a default price list is added to their territory (customer segment), it's shown.  
   
 ## Typical next steps  
  ![Right arrow button](../sales-enterprise/media/walkthrough-orange-right-arrow.png "Right arrow button") [Publish a product or bundle to make it available for selling](publish-product-bundle-make-available-selling.md)  
@@ -227,4 +227,5 @@ Make sales agents' job easier by adding default pricelists for territories or cu
   
 ### See also  
  [System Settings dialog box - Sales tab](../admin/system-settings-dialog-box-sales-tab.md)   
- [Classify products and bundles into product families](../sales-enterprise/create-product-bundles-sell-multiple-items-together.md)
+ [Classify products and bundles into product families](../sales-enterprise/create-product-bundles-sell-multiple-items-together.md)  
+[Price calculation for opportunity, quote, order, and invoice records](price-calculation-opportunity-quote-order-invoice-records.md)

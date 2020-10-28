@@ -17,8 +17,7 @@ ms.author: jdaly
 manager: kvivek
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Sample: Run a workflow
 

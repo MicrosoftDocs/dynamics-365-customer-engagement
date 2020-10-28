@@ -3,7 +3,7 @@ title: "Get started with the Dynamics 365 Customer Engagement Web API | Microsof
 description: "Read about the various operations you can perform using the Dynamics 365 Customer Engagement Web API."
 ms.custom: 
 ms.date: 04/22/2019
-ms.reviewer: susikka
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -17,8 +17,7 @@ ms.author: susikka
 manager: shujoshi
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Get started with the Dynamics 365 Customer Engagement Web API
 

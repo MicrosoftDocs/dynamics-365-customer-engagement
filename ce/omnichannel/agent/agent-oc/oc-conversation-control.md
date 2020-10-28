@@ -1,12 +1,12 @@
 ---
 title: "Omnichannel communication panel (Conversation control) | MicrosoftDocs"
 description: "Conversation control is a communication panel in Omnichannel where you interact with the customer."
-author: kabala123
-ms.author: kabala
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
-ms.date: 12/27/2019
+ms.date: 10/22/2020
 ms.service: 
-  - "dynamics-365-customerservice"
+   "dynamics-365-customerservice"
 ms.topic: article
 ---
 
@@ -14,25 +14,22 @@ ms.topic: article
 
 [!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
-The communication panel is where you, as an agent, interact with your customer. When you sign in to the application, by default, the communication panel is in hidden mode. You cannot view the communication panel unless you accept a incoming conversation to communicate with the customer.
+The communication panel is where you, as an agent, interact with your customer. When you sign in to the application, the communication panel is in hidden mode by default. You cannot view the communication panel unless you accept an incoming conversation to communicate with the customer.
 
-From a conversation channel:
+From a conversation channel, you can do the following tasks:
 
-- You can send quick replies.
-- You can search for and share knowledge articles with the customer with whom you are interacting.
-- You can transfer the conversation (work item) to another agent or queue.
-- You can use the consult option if you need help to resolve the work item.
-- You can switch between internal and public mode to send messages to the internal participants (other agents and/or supervisors).
+- Send quick replies.
+- Search for and share knowledge articles with the customer with whom you are interacting.
+- Transfer the conversation (work item) to another agent or queue.
+- Use the consult option if you need help to resolve the work item.
+- Switch between internal and public mode to send messages to the internal participants (other agents and/or supervisors).
 
  > [!div class=mx-imgBorder]
  > ![Omnichannel communication panel chat interface](../../media/oceh-conversation-control-chat-interface.png "Omnichannel communication panel chat interface")  
+
 ## Enhance agent productivity using keyboard commands
 
-The communication panel has options that, as an agent, you can use to perform actions such as see quick replies, consult, and transfer, launch notes control, and much more.
-
-In addition, as an agent, you can use the keyboard commands in the communication panel to perform the actions that are such as see quick replies, consult, and transfer list, launch notes control, and much more.
-
-The keyboard commands helps allows you completing the scenario effectively and efficiently thus increasing your productivity.
+The communication panel has options that you can use to perform actions, such as see quick replies, consult, and transfer, and launch notes control. You can also use keyboard commands to perform these actions.
 
 In the communication panel, you can see the following options:
  
@@ -40,7 +37,7 @@ In the communication panel, you can see the following options:
 |------|------------------|-----------------------------------------------|----------|
 |  1   | Public           | Send messages to public | `/p` |
 |  2   | Internal         | Send messages to internal users | `/i` |
-|  3   | Quick replies    | Send templatized messages  | `/q` |
+|  3   | Quick replies    | Send templatized messages created by you as personal quick replies or quick replies created by your administrator | `/q` |
 |  4   | Consult          | View list to consult with other users | `/c` |
 |  5   | Transfer         | View list to transfer the request | `/t` and `/tq` |
 |  6   | Notes            | Take notes specific to conversation | |
@@ -48,42 +45,47 @@ In the communication panel, you can see the following options:
 |  8   | Link to conversation | Link the record to this conversation | |
 |  9   | Customer sentiment | View real-time customer satisfaction levels |  |
 
-
-## Send messages using Public and Internal mode
+## Send messages using the Public and Internal modes
 
 The communication panel allows you to send messages in two modes: **Internal** and **Public**.
 
-When you want to send messages only to the internal participants like other agents and/or supervisors, then use the **Internal** option. The internal messages are not shown to the customers.
+When you want to send messages only to the internal participants like other agents and/or supervisors and not customers, then use the **Internal** option.
 
 When you want to send messages to all the participants in the conversation including the customer, then use the **Public** option.
 
  > [!div class=mx-imgBorder]
  > ![Reply messages by selecting internal or public mode](../../media/oceh-cc-public-internal-modes.png "Reply messages by selecting internal or public mode")
 
-You can use keyboard commands to send internal and public messages:
+You can use the keyboard commands to send internal and public messages:
 
 - **/i** – Type the forward slash (/) key and the letter **i** to send an internal message to other agents and/or a supervisor. 
 
 - **/p** – Type the forward slash (/) key and the letter **p** to send a public message to all the participants in the interaction.
 
-When you type the keyboard command, the mode changes to as per the command. For example, now, you are on Public mode. Type **/i** to change to **Internal** mode.
+## Send predefined messages in chats
 
-
-## Send templatized messages in the chat
-
-The communication panel allows you to send predefined templatized messages to the customer with whom you're interacting. These predefined templatized messages are stored as quick replies. Select the **Quick replies** button to retrieve the messages and send them to the customers and/or internal participants.
+The communication panel allows you to send predefined messages to a customer with whom you're interacting. These predefined  messages are stored as quick replies. Select the **Quick replies** button to retrieve the messages and send them to the customers and or internal participants.
 
  > [!div class=mx-imgBorder] 
- > ![Use quick replies option to send faster replies to customers](../../media/oceh-send-quick-replies-chat.png "Use quick replies option to send faster replies to customers")  
+ > ![Use quick replies option to optimize your replies to customers](../../media/oceh-send-quick-replies-chat.png "Use quick replies option to optimize your replies to customers")  
 
-You can use a keyboard command to see the list of quick replies. Type the forward slash (/) key and the letter q (**/q**). When you type **/q** the **Quick replies** fly-out is displayed.
+You can use a keyboard command to see the list of quick replies. Type the forward slash (/) key and the letter q (**/q**). When you type **/q**, the **Quick replies** panel is displayed.
+
+The quick replies can be created either by the administrator or by you. You can create personal quick replies if the administrator has enabled the option. The quick replies created by you are available on the **Personal** tab of the **Quick replies** panel. For more information about personal quick replies, see [Create personal quick replies](create-personal-quick-replies.md).
 
 ### Search for messages
 
-After you type **/q** in the communication panel messaging area, you can continue typing any keywords and if the **Quick replies** library has at least one message associated with the word, it is filtered and displayed to you.
+After you type **/q** in the communication panel messaging area, you can continue typing any keywords and if the **Quick replies** library has at least one message associated with the word, it is filtered and displayed to you. You can also use the number (#) sign to search for the predefined messages.
 
- > [!div class=mx-imgBorder] 
+ > [!div class=mx-imgBorder]
  > ![Type /q and the keyword to filter the replies](../../media/oceh-send-quick-replies-filter.png "Filter replies")  
+
+### Share reconnection link with customers
+
+If the reconnection link is configured by your administrator, you can share the link with customers during the session that they can use to connect back to the chat when they are disconnected for some reason, such as loss of connectivity or restart of their computer. The reconnection link information is available as a quick response.
+
+> [!IMPORTANT]
+> You can share the reconnection link only when you don't end the chat session using the **End** button.
 
 ## Consult with agent or supervisor
 
@@ -116,9 +118,11 @@ Use the keyboard command to see the list of queues to transfer the conversation 
 
 **/t** (forward slash, letter t) launches the **Agent** and **Queue** tabs. Select either tab and then select the agent or the queue from the list to transfer the conversation. The **/t** command keeps the focus on the Agent tab whereas the **/tq** command keeps the focus on the Queue tab.
 
-When skill-based routing is enabled, then during transfer, the **Transfer** flyout shows users sorted in order of matching skills.
+When skill-based routing is enabled, then during the transfer, the **Transfer** panel shows users sorted in the order of matching skills. A check for agent skills is not done by the app and the conversation can be transferred to any agent irrespective of the skill match.
 
-![Transfer agent list](../../media/oceh-cc-transfer-agent-list.png "transfer agent list") ![Transfer queue list](../../media/oceh-cc-transfer-queue-list.png "Transfer queue list")
+When a conversation needs to be transferred from one queue to another, the matching criteria that was used in the conversation will be reused to find an agent in the new queue. For example, if exact match had been used to attach the skills to the conversation, the same criteria will be used to find the agent in the new queue.
+
+![Transfer queue list](../../media/oceh-cc-transfer-queue-list.png "Transfer queue list")
 
 ### Search agents or queues for the transfer of a conversation request
 
@@ -159,22 +163,16 @@ To learn more, see [Search, link, and unlink a record to the conversation](oc-se
 
 As an agent, you can view the real-time customer satisfaction levels on the communication panel. A sentiment icon is displayed at the top of the communication panel based on the previous six customer messages sent to you.
 
-> [!div class=mx-imgBorder]
-> ![Very positive sentiment](../../media/oceh/sentiment-very-positive-cc.png "Very positive sentiment")
-
 To learn more, see [Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md)
 
+### See also
 
-> [!div class="nextstepaction"]
-> [Next topic: Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md)
-
-## See also
-
-- [Introduction to the agent interface](oc-introduction-agent-interface.md)
-- [Manage sessions](oc-manage-sessions.md)
-- [Manage applications](oc-manage-applications.md)
-- [Manage presence status](oc-manage-presence-status.md)
-- [View customer summary and know everything about customers](oc-customer-summary.md)
-- [Search for and share knowledge articles](oc-search-knowledge-articles.md)
-- [Take notes specific to conversation](oc-take-notes.md)
-- [View customer summary for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)
+[Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md)  
+[Introduction to the agent interface](oc-introduction-agent-interface.md)  
+[Manage sessions](oc-manage-sessions.md)  
+[Manage applications](oc-manage-applications.md)  
+[Manage presence status](oc-manage-presence-status.md)  
+[View customer summary and know everything about customers](oc-customer-summary.md)  
+[Search for and share knowledge articles](oc-search-knowledge-articles.md)  
+[Take notes specific to conversation](oc-take-notes.md)  
+[View customer summary for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)  

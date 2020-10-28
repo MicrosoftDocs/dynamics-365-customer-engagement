@@ -3,7 +3,7 @@ title: "Sample: Qualify a lead (Developer Guide for Dynamics 365 Customer Engage
 description: "The sample demonstrates how to qualify a lead and create an account, contact, or opportunity."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -22,8 +22,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Sample: Qualify a lead
 

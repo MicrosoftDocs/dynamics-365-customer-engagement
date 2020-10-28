@@ -3,7 +3,7 @@ title: "Customization solutions file schema | MicrosoftDocs"
 description: "The following is the schema definition for an import/export customization file from Dynamics 365 Customer Engagement."
 ms.custom: 
 ms.date: 12/24/2018
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -19,8 +19,7 @@ ms.author: jdaly
 manager: annbe
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Customization solutions file schema
 

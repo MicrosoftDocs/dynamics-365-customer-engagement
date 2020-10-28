@@ -3,7 +3,7 @@ title: "Sample: Query the working hours of a user (Developer Guide for Dynamics 
 description: "Sample demonstrates how to retrieve the working hours of a user by using the QueryScheduleRequest message."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -21,8 +21,7 @@ ms.author: nabuthuk
 manager: kvivek
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Sample: Query the working hours of a user
 

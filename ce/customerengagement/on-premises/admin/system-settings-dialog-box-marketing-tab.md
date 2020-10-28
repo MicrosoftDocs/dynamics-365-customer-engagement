@@ -20,9 +20,7 @@ caps.latest.revision: 11
 topic-status: Drafting
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - Powerplatform
+
 ---
 
 # System Settings dialog box - Marketing tab

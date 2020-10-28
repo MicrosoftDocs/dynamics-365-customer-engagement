@@ -3,7 +3,7 @@ title: "Sample: Set and retrieve entity images (Developer Guide for Dynamics 365
 descriptions: The sample demonstrates how to set and retrieve data for entity images.
 ms.custom: 
 ms.date: 01/08/2020
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -17,8 +17,7 @@ ms.author: nkrb
 manager: kvivek
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Sample: Set and retrieve entity images
 

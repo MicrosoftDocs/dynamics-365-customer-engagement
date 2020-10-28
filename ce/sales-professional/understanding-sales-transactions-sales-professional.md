@@ -1,7 +1,7 @@
 ---
 title: "Sales transactions in Dynamics 365 Sales Professional | MicrosoftDocs"
 description: "Understand how quotes and invoices are used in a sales transaction."
-ms.date: 10/01/2019
+ms.date: 08/03/2020
 ms.service: 
   - dynamics-365-sales
 ms.custom: 
@@ -14,11 +14,16 @@ manager: annbe
 
 # Sales transactions in Dynamics 365 Sales Professional
 
-In Dynamics 365 Sales Professional, a sale typically starts with a draft quote. When the quote is ready, it is activated and sent to the customer for revisions before it is accepted. Then, when you’re shipping the products offered in the quote, an invoice is generated from the quote.
+In Dynamics 365 Sales Professional, a sale typically starts with a draft quote.  A quote undergoes several revisions between the salesperson and customer before it is accepted.
+After the quote is accepted, an order is generated from the quote. The order is used to fulfill the agreement of goods or
+services that were offered in the quote. Finally, after the order for the goods or services is shipped, an invoice is
+generated. 
 
-Quotes and invoices in the Sales app are the same item in different states of transition. You can use tools and templates to create and print quotes and invoices.
+In Sales Professional, creation of order is optional. This means you can create an invoice directly from a quote without having to create an order first. 
 
-You can start a sales transaction, such as a quote or invoice, from within the opportunity record. The advantage of starting sales transactions in this manner is that much of the information is automatically entered based on the opportunity data. You can also view any sales transaction records from within the opportunity record to track the overall sales process and expected revenue.
+Quotes, orders, and invoices in Dynamics 365 Sales Professional are the same item in different states of transition. You can use tools and templates to create and print quotes and invoices.
+
+You can start a sales transaction, such as a quote, order, or invoice, from within the opportunity record. The advantage of starting sales transactions in this manner is that much of the information is automatically entered based on the opportunity data. You can also view any sales transaction records from within the opportunity record to track the overall sales process and expected revenue.
 
 ## Understanding quote stages
 

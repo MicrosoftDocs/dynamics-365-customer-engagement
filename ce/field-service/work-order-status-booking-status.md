@@ -1,8 +1,8 @@
 ---
-title: "Work order and booking statuses | MicrosoftDocs"
+title: "Work order and booking statuses in Field Service | Microsoft Docs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 08/01/2019
+ms.date: 08/01/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -50,7 +50,7 @@ Work order system statuses, work order substatuses, and booking statuses all wor
 - Completed
 - Canceled
 
-In this topic, we explore work order and booking statuses with the following scenarios:
+In this article, we explore work order and booking statuses with the following scenarios:
 
 1. **Work order life cycle**: A field service organization wants to understand how the out-of-the-box statuses are designed for the work order process without any customizations, based on their specific business needs.
 
@@ -58,24 +58,26 @@ In this topic, we explore work order and booking statuses with the following sce
 
 3. **Delayed schedules**: Field technicians want to make dispatchers aware if they are running more than 15 minutes behind schedule due to traffic by changing the status of their bookings to "Delayed".
 
-4. **Follow up work orders**: Field service organizations often schedule a follow-up inspection after an initial installation or repair work order. If a follow-up is required, field technicians should note this with a custom "Follow Up Required" work order substatus to ensure back office workers create a follow-up before closing the work order.
+4. **Follow up work orders**: Field service organizations often schedule a follow-up inspection after an initial installation or repair work order. If a follow-up is required, field technicians should note it with a custom "Follow Up Required" work order substatus to ensure back-office workers create a follow-up before closing the work order.
 
 ## Prerequisites
 
 - Any version of Field Service
+- Fields and processes related to **First Arrived On**, **Completed On**, and **Total Estimated Duration** are available with Field Service 8.8+
 - You must be logged in as a user with **Field Service - Dispatcher**, **Field Service - Administrator**, or **System Administrator** security roles to edit work order substatuses and booking statuses
 
 > [!Note]
 > Work order system statuses should *never* be edited because system jobs and plug-ins rely on these statuses. Instead, administrators should create custom work order substatuses that relate to work order system statuses.
 
+
 ## Statuses and the work order life cycle
 
 A field service organization wants to understand how the out-of-the-box statuses are designed for the work order process without any customizations, based on their specific business needs.
 
-Field Service ships with standard work order system statuses and booking statuses that should be considered during all field service implementations because many processes are triggered based on those statuses. This makes the field service app more valuable for an organization by:
+Field Service ships with standard work order system statuses and booking statuses that should be considered during all field service implementations; many processes are triggered based on those statuses, which makes the Field Service app more valuable for an organization by:
 
-1.  automatically calculating and populating data.
-2.  automating the next step in the work order process. 
+1. automatically calculating and populating data.
+2. automating the next step in the work order process. 
 
 For example, when the **Booking Status** is changed to **In Progress** to indicate the field technician has arrived on site, the **Actual Arrival Time** field populates accordingly on the bookable resource booking. For another example, when the **Work Order System Status** is changed to **Open-Completed**, applicable work order products are converted to customer assets in order to begin building service history.
 
@@ -96,7 +98,7 @@ The creation of a booking automatically changes the work order system status to 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of work order system status changed to open-scheduled](./media/work-order-statuses-open-scheduled.png)
 
-After the work order is scheduled to a field technician resource, you can see it on the Field Service Mobile app, and the next step is for the field technician to note that he or she is traveling to the work order location by changing the booking status to **Traveling**. 
+After the work order is scheduled to a field technician resource, you can see it on the Field Service Mobile app. Then the field technician can note that they are traveling to the work order location by changing the booking status to **Traveling**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of booking on mobile](./media/work-order-statuses-booking-status-scheduled-mobile.png)
@@ -109,7 +111,7 @@ Each booking status has a color and icon and appears on the schedule board.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of traveling on schedule board](./media/work-order-statuses-booking-status-traveling-schedule-board.png)
 
-The status and a color appears on the mobile app, too.
+The status and a color appear on the mobile app, too.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of traveling status on mobile](./media/work-order-statuses-booking-status-traveling-mobile-icon.png)
 
@@ -121,13 +123,14 @@ Changing the booking status to **Traveling** automatically changes the work orde
 > [!Note]
 > If there are multiple bookings for a single work order, if at least one booking is traveling or in progress, the related work order will have a status of **Open - In Progress**.
 
-When the field technician arrives on site and is ready to begin the work, he or she changes the booking status to **In Progress**.
+When the field technician arrives on site and is ready to begin the work, they change the booking status to **In Progress**. The work order status remains as **Open - In Progress**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of in progress booking status on mobile](./media/work-order-statuses-booking-status-inprogress-mobile.png)
 
+On the related work order, the **First Arrived On** field is updated with the **Actual Arrival Time** of the booking.
 
-During work, the field technician may want to record times he or she is on break by changing the booking status to **On Break**.
+During work, the field technician may want to record times they are on break by changing the booking status to **On Break**. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of on break status](./media/work-order-statuses-booking-status-onbreak-mobile-icon.png)
@@ -149,7 +152,7 @@ When the work is complete, the field technician will change the booking status t
 
 In the previous screenshot, the color and icon reflect a completed status. The duration is updated to the actual duration of the booking, and the end time is updated to reflect the time the status was changed to completed.
 
-This will change the related work order system status to **Open-Completed**.
+The related work order system status will become **Open-Completed**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of open completed system status](./media/work-order-statuses-open-completed.png)
@@ -157,7 +160,7 @@ This will change the related work order system status to **Open-Completed**.
 > [!Note]
 > If there are multiple bookings for a single work order, once all related booking have statuses of **Completed** (including ones that are **Canceled**), the related work order will have a status of **Open - Completed**. 
 
-Finally, a back office worker will review the completed work order to make sure data was entered correctly, communicate with the customer, review survey results, and more depending on the organization's specific business needs. The last step is to change the work order system status to **Closed-Posted**. 
+Finally, a back-office worker will review the completed work order to make sure data was entered correctly, communicate with the customer, review survey results, and more depending on the organization's specific business needs. The last step is to change the work order system status to **Closed-Posted**. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of changing system status to closed posted](./media/work-order-statuses-closed-posted.png)
@@ -177,7 +180,7 @@ Here is a table summarizing the out-of-the-box relationship between work order s
 | Open-In Progress | In Progress | |
 | Open-In Progress | On Break | |
 | Open-Completed | Completed | |
-| Closed-Posted | -- | No booking status can change the work order system status to **Closed-Posted**; changing the system status to **Closed-Posted** does not affect bookings. |
+| Closed-Posted | -- | No booking status can change the work order system status to **Closed-Posted**. If there are any bookings with an incomplete or non-canceled status, changing the system status to **Closed-Posted** will update those bookings to a canceled state.|
 | Closed-Canceled | Canceled | If the work order system status is changed to **Closed-Canceled**, all bookings with a status of **Scheduled** will change to **Canceled**. You can't cancel a work order if in progress bookings exist. Completed bookings will remain as completed. |
 | Open-Unscheduled | Canceled | If the booking status is **Canceled**, and is the only booking, the work order system status will revert to **Open-Unscheduled**. If one of multiple bookings is canceled, the work order system status will revert to **Open-Scheduled**, **Open-In Progress**, or **Open-Completed** based on the other remaining uncanceled bookings. |
 
@@ -190,7 +193,7 @@ Beyond work order system statuses updating booking statuses and vice versa, many
 
 #### Open – Completed
 
-- Used work order products are converted to new customer assets if applicable. This is accomplished by setting the **Convert to Customer Asset** field on the published product record to **Yes**.
+- Used work order products are converted to new customer assets if applicable. This conversion is accomplished by setting the **Convert to Customer Asset** field on the published product record to **Yes**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of used work order product](./media/work-order-statuses-product-used.png)
@@ -200,7 +203,7 @@ Here is the customer asset that results from the used work order product. Notice
 > ![Screenshot of customer asset related to work order product](./media/work-order-statuses-customer-asset.png)
 
 
-- Travel charge item is added to work order products, if applicable. See [this topic](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/work-order-customer-account#configuration-considerations) for more details.
+- Travel charge item is added to work order products, if applicable. For more information, see [this article](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/work-order-customer-account#configuration-considerations).
 
 #### Closed – Posted
 - Invoice is generated for used work order products and services billing account 
@@ -221,7 +224,7 @@ Here is the customer asset that results from the used work order product. Notice
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of closed by and closed on fields](./media/work-order-statuses-closed-on-closed-by.png)
+> ![Screenshot of record log](./media/work-orders-record-log.png)
 
 
 ### Booking status processes
@@ -243,7 +246,8 @@ Here is the customer asset that results from the used work order product. Notice
 - **Booking Timestamp** is created.
 
 #### In Progress
-- **Actual Arrival Time** field is updated with the date and time the when booking status is changed from the mobile app or schedule board, but not from the form.
+- **Actual Arrival Time** field is updated with the date and time when booking status is changed from the mobile app or schedule board, but not from the form.
+- **First Arrived On (Work Order)** field on the related _work order_ is updated with the **Actual Arrival Time** of the booking. If **Actual Arrival Time** is edited, manually or otherwise, **First Arrived On** will be updated. If there are multiple bookings, this field is updated with the actual arrival time of the first booking. The **First Arrived On** value will respect offline scenarios and calculate correctly once the technician syncs their mobile data.
 - **Actual Travel Duration** field is updated, calculated as the total time the booking status is **Traveling**.
 - **Booking Timestamp** is created.
 
@@ -261,6 +265,7 @@ Here is the customer asset that results from the used work order product. Notice
 - **Total Billable Duration** is updated, calculated as the sum total of total duration in progress and total break duration.
 - **Booking Journals** created. Booking journals use booking timestamps to calculate the working duration, travel time, and break time for a specific booking. Booking journals also calculate internal resource costs for bookings based on resource's hourly rate as defined on the bookable resource record.
 - **Booking Timestamp** is created.
+- **Completed On (Work Order)** field on the related _work order_ is updated with the end time of the booking. If the booking end time is edited, manually or otherwise, **Completed On** will be updated. If there are multiple bookings, this field is updated with the end time of the last booking, meaning the most recently completed booking related to the work order. The **Completed On** value will respect offline scenarios and calculate correctly once the technician syncs their mobile data.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of end time updated](./media/work-order-statuses-end-time.png)
@@ -273,7 +278,7 @@ By the end of the work order life cycle, you will have timestamps of all booking
 > ![Screenshot of booking timestamp](./media/work-order-statuses-booking-timestamps.png)
 
 
-## Estimate work order substatus
+## Example 1: Estimate work order substatus
 
 In our next scenario, a field service organization wants to utilize work orders for estimating potential products, services, and prices for their clients and want to mark such work orders with a custom "Estimate" work order substatus.
 
@@ -286,39 +291,40 @@ Enter for the following fields:
 
 - **Name:** Estimate.
 
-- **System Status:** Open-Unscheduled. When the field service organization is building an estimated work order, this is before it should be scheduled to a resource; therefore, this substatus will relate to the **Open-Unscheduled** system status.
+- **System Status:** Open-Unscheduled. When the field service organization is building an estimated work order, it's usually before it should be scheduled to a resource. The substatus will relate to the **Open-Unscheduled** system status.
 
-- **Default Substatus:** choose if you want this substatus populated by default any time a work order has a system status of **Open-Unscheduled**. Because work orders are given a system status of **Open-Unscheduled** when created, this substatus would populate on all newly created work orders, but can be manually updated. If all or most work orders first originate as an estimate, then this field should be set to **Yes**, giving the work order creator one less field to manually populate. If a smaller proportion of work orders are estimates, then set to **No**. In this example, we will choose **Yes**.
+- **Default Substatus:** choose if you want this substatus populated by default when a work order has a system status of **Open-Unscheduled**. Because work orders are given a system status of **Open-Unscheduled** when created, this substatus would populate on all newly created work orders, but can be manually updated. If all or most work orders first originate as an estimate, then this field should be set to **Yes**, giving the work order creator one less field to manually populate. If only a few work orders are estimates, then set to **No**. In this example, we will choose **Yes**.
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of new estimate work order substatus](./media/work-order-status-estimate.png)
 
-The next time a work order is created, this substatus will populate automatically or be available in the substatus lookup. This lets dispatchers and other stakeholders know that this work order is a "work in progress" and not agreed upon yet with the customer.
+The next time a work order is created, this substatus will populate automatically or be available in the substatus lookup. The substatus lets dispatchers and other stakeholders know that this work order is a "work in progress" and not agreed upon yet with the customer.
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of estimate substatus automatically applied to a work order](./media/work-order-status-estimate-work-order.png)
 
-Next, it's important to note that dispatchers do not schedule estimate work orders, as they are not ready yet. One way to achieve this is to remove esitmate work orders from the **Unscheduled Work Orders** view on the schedule board.
+Next, it's important to note that dispatchers do not schedule estimate work orders, as they are not ready yet. One way to notify them is to remove estimate work orders from the **Unscheduled Work Orders** view on the schedule board.
 
-To accomplish this, go to **Settings > Customizations > Customize the System > Entities > Resource Requirements > Views**.
+Go to **Settings** > **Customizations** > **Customize the System** > **Entities** > **Resource Requirements** > **Views**.
 
 Next, edit the **Unscheduled Work Order Requirements** view to filter out requirements related to work orders where the substatus equals estimate.
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of editing requirement views](./media/work-order-status-edit-requirement-view.png)
 
-This will remove estimate work orders from the lower pane in the schedule board, among other places.
+Editing this view will remove estimate work orders from the lower pane in the schedule board, among other places.
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of lower requirement view on schedule board](./media/work-order-status-edit-requirement-view-schedule-board.png)
 
-## Delayed Booking Status
+## Example 2: Delayed Booking Status
 
-Field technicians want to make dispatchers aware if they are running more than 15 minutes behind schedule by changing the status of their bookings to "Delayed". This will help dispatchers manage the remaining bookings for that resource for the rest of the day by running [Single Resource Optimization](single-resource-optimization.md) or triggering automated messages to the next customer.
+Field technicians want to make dispatchers aware if they are running more than 15 minutes behind schedule by changing the status of their bookings to "Delayed". This status change will help dispatchers manage the remaining bookings for that resource for the rest of the day by running [Single Resource Optimization](single-resource-optimization.md) or triggering automated messages to the next customer.
 
-First, go to **Resource Scheduling > Settings > Booking Statuses > +New**.
+First, go to **Resource Scheduling** > **Settings** > **Booking Statuses** > **+New**.
 
 For the following fields:
 
@@ -341,7 +347,7 @@ For the following fields:
 > ![Screenshot of editing and adding booking icons in web resources](./media/work-order-statuses-booking-icons-web-resource.png)
 
 
-- **Field Service Status:** select **Traveling**. This means the new **Delayed** status applies to the travel portion of the field service booking process. If for example, we wanted a status to indicate when actual work was taking longer than expected, we could choose **In Progress** for the **Field Service Status**.
+- **Field Service Status:** select **Traveling**. The new **Delayed** status applies to the travel portion of the field service booking process. If for example, we wanted a status to indicate when actual work was taking longer than expected, we could choose **In Progress** for the **Field Service Status**.
 
 
 > [!div class="mx-imgBorder"]
@@ -350,18 +356,17 @@ For the following fields:
 > [!Note]
 > **Field Service Status** is required when creating booking statuses for Field Service use cases. This allows the booking status to fit into the above work order processes. By default, only booking statuses with field service statuses are available for work order bookings, but this is editable in **Booking Setup Metadata**.
 
-Click **Save and Close**.
+**Save and Close**.
 
-This means the new **Delayed Booking Status** will appear as an option on the Field Service Mobile for field technicians, and on the schedule board. 
-
+Now the new **Delayed Booking Status** will appear as an option on the Field Service Mobile for field technicians, and on the schedule board.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of new booking status on the schedule board](./media/work-order-status-booking-status-delayed-schedule-board.png)
 
 
-## Follow-up work order sub-status
+## Follow-up work order substatus
 
-Field service organization often schedule a follow up inspection after an initial installation or repair work order. If a follow-up is required, field technicians should note this with a custom "Follow-Up Required" work order substatus to ensure back office workers create a follow-up before closing the work order.
+Field service organizations often schedule a follow-up inspection after an initial installation or repair work order. If a follow-up is required, field technicians should note it with a custom "Follow-Up Required" work order substatus to ensure back-office workers create a follow-up before closing the work order.
 
 Similar to the example before, go to **Field Service > Settings > Work Order Substatuses > then select +New**.
 
@@ -369,7 +374,7 @@ For the following fields:
 
 **Name:** enter "Follow-Up Required."
 
-**System Status:** enter **Open-Completed**. This implies the follow-up required substatus can only be entered on **Open-Completed** work orders and the organization's follow-up process should only be carried out on these work orders.
+**System Status:** enter **Open-Completed**, which implies the follow-up required substatus can only be entered on **Open-Completed** work orders and the organization's follow-up process should only be carried out on these work orders.
 
 **Default Substatus:** set to **Yes** if all **Open-Completed** work orders should be given a substatus of **Follow-Up Required** by default. For our example, we will choose **No** because not all completed work orders require a follow-up so it's left to the discretion of the field technician.
 
@@ -395,7 +400,7 @@ Options include:
 
 If you create a new custom **Booking Status**, then you should pick a scheduling method that relates to the field service booking status. For example, the out-of-the-box booking status **Traveling** has an RSO scheduling method set to **Do Not Move** because RSO should not move bookings that a field technician is traveling to. Therefore, using our previous example, our new **Delayed** booking status is related to the **Traveling** Field Service status, so its scheduling method should be set to **Do Not Move** as well.
 
-See the topic on [Resource Scheduling Optimization (RSO) configuration](rso-configuration.md) for more details.
+For more information, see the article on [Resource Scheduling Optimization (RSO) configuration](rso-configuration.md).
 
 ### See also
 - [Booking Statuses blog post](https://community.dynamics.com/365/b/365teamblog/archive/2017/06/01/manage-the-status-of-your-team-s-bookings-with-universal-resource-scheduling)

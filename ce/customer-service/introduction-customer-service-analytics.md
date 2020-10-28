@@ -1,33 +1,46 @@
 ---
-title: "Introduction to Customer Service Analytics | MicrosoftDocs"
-description: "Learn about Customer Service Analytics"
-author: lerobbin
-ms.author: lerobbin
-manager: autumna
-ms.date: 10/29/2019
+title: "Customer Service Insights | MicrosoftDocs"
+description: "Learn about Customer Service Insights"
+author: lalexms
+ms.author: laalexan
+manager: shujoshi
+ms.date: 10/22/2020
 ms.topic: article
 ms.service: 
-  - dynamics-365-customerservice
+  dynamics-365-customerservice
+  
 ---
 
+# Customer Service Insights
 
-# Introduction to Customer Service Analytics
+Dynamics 365 Customer Service Insights helps both agents and customer service managers make better decisions and proactively improve customer satisfaction by using AI and analytics capabilities for Customer Service and Omnichannel. Now, Customer Service Insights is part of the embedded experience for Customer Service Hub and Customer Service workspace, bringing the power of AI and business intelligence directly into the core agent and manager experiences.
 
-Customer service managers or supervisors are responsible for managing the agents who work with customers to resolve queries every day. Customer support supervisors need to be able to know the key operational and customer experience metrics to provide quality support. 
+As a customer service manager, you can benefit from the AI topic clustering, actionable insights, and analytics surfaced by dashboards. As an agent, you can leverage real-time similar cases and knowledge article suggestions, customized for the current context. The AI-driven technology empowers agents to help solve the customer issues more quickly. improving resolution rates and customer satisfaction.
 
-Supervisors can see trends in these metrics over a period of time to understand how agents and queues are performing, so that they can take corrective measures, provide appropriate guidance to agents, and improve the customer support experience. 
+Built-in dashboards, interactive charts, and visual filters provide views into support operations data across channels. These dashboards highlight areas for improvement that can have the greatest impact to help you quickly evaluate and respond to key performance indicators (KPIs) and customer satisfaction levels. 
 
-As a supervisor, use this dashboard to perform the following tasks:  
+Customer Service Insights uses AI-generated topics to automatically group your cases, including across different channels and using natural language understanding. As a supervisor, you can see view notable trends in metrics sorted by topics, channels, queues, and agents. By better understanding what impacts your support operations, you can feel empowered to make more informed decisions about how to improve resolution rates, reduce wait times, and decrease customer service costs.
 
-- Monitor case volume across channels, queues, and agents. 
+For a walkthrough of how to enable Customer Service Insights for your customer support system, see [Configure Customer Service Analytics and Insights](configure-customer-service-analytics-insights-csh.md).
 
-- Monitor support quality across queues and agents. 
+By pinpointing and fixing issues before they impact customers, you can adapt to current and emerging trends, improve brand sentiment, and deliver better customer service experiences.
 
-> [!NOTE] 
-> Contact your system administrator for configuration errors or if you are unable to view the dashboards.  
+For more information about dashboards and reports, see [Dashboard Overview](customer-service-analytics-insights-csh.md).
 
-## See also
+For more details about specific Customer Service Insights dashboards, see the following: 
 
-[View and understand Customer Service Analytics](customer-service-analytics.md) 
+- [Summary Dashboard](summary-dashboard-cs.md) 
 
-[Configure Customer Service Analytics dashboards](configure-customer-service-analytics-dashboard.md)
+- [Agent Dashboard](agent-dashboard-cs.md) 
+
+- [Topics Dashboard](topics-dashboard-cs.md) 
+
+In addition to the above dashboards, organizations can now gain insights into how agents are using knowledge articles to resolve cases. These insights can help you identify outdated documentation, improve existing articles, and create new ones to empower your support team. To preview this feature, see [Configure Knowledge search insights](enable-knowledge-search-analytics.md). 
+
+For more information on enabling knowledge search analytics, see Knowledge search analytics documentation.
+
+### See also
+
+[Dashboard Overview](customer-service-analytics-insights-csh.md) <br>
+[Configure Customer Service analytics and insights](configure-customer-service-analytics-insights-csh.md) <br>
+[Configure Customer Service Analytics dashboards in Power BI](configure-customer-service-analytics-dashboard.md)

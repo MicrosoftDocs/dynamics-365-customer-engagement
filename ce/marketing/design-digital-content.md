@@ -1,7 +1,7 @@
 ---
 title: "Use the designer tool (Dynamics 365 Marketing) | Microsoft Docs "
 description: "Basics of how to use the designer tool to create emails, landing pages, and forms in Dynamics 365 Marketing"
-ms.date: 10/04/2019
+ms.date: 07/29/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -11,7 +11,7 @@ author: alfergus
 ms.author: alfergus
 manager: shellyha
 ms.reviewer:
-topic-status: Drafting
+topic-status: 
 search.audienceType: 
   - admin
   - customizer
@@ -138,7 +138,6 @@ If you prefer to work directly with HTML code, open the designer's **HTML** tab.
     - Hide certain fields by default
     - Disable the submit button until all mandatory fields are filled
     - Set field values based on values passed in the calling URL
-    - Set field values based on values passed in the calling URL.
 
 Be careful when working here, though, because the graphical editor expects specific types of markup to implement its drag-and-drop elements. Without this markup, you won't be able to edit your design elements any more and might even break them. More information: [Use custom attributes to enable designer features in emails, pages, and forms](custom-template-attributes.md)
 

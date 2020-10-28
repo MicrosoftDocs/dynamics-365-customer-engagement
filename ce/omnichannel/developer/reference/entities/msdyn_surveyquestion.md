@@ -1,13 +1,12 @@
 ---
 title: "msdyn_surveyquestion Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_surveyquestion entity."
+ms.date: 08/31/2020
+ms.service: "crm-online"
+ms.topic: "reference"
 author: "susikka"
 ms.author: "susikka"
 manager: "shujoshi"
-ms.date: 08/29/2019
-ms.service: 
-  - crm-online
-ms.topic: "reference"
 ---
 # msdyn_surveyquestion Entity Reference
 
@@ -96,7 +95,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Type of survey answer|
 |DisplayName|Answer type|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -112,6 +111,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |192350001|Multiple lines|
 |192350002|Option set|
 |192350003|Rating|
+|192350004|User Consent|
 
 
 
@@ -149,7 +149,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Help text for the survey question|
 |DisplayName|Help Text|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -165,14 +165,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Question text|
 |DisplayName|Question text|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|msdyn_questiontext|
-|MaxLength|100|
+|MaxLength|512|
 |RequiredLevel|ApplicationRequired|
 |Type|String|
 
@@ -181,7 +181,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Rating scale of the question|
 |DisplayName|Rating Scale|
 |Format|None|
 |IsValidForForm|True|
@@ -717,9 +717,24 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 Listed by **SchemaName**.
 
+- [msdyn__surveyquestion_msdyn_localizedsurveyques](#BKMK_msdyn__surveyquestion_msdyn_localizedsurveyques)
 - [msdyn_msdyn_surveyquestion_msdyn_chatquestionnaireresponseitem](#BKMK_msdyn_msdyn_surveyquestion_msdyn_chatquestionnaireresponseitem)
 - [msdyn_msdyn_surveyquestion_msdyn_questionsequence_SurveyQuestion](#BKMK_msdyn_msdyn_surveyquestion_msdyn_questionsequence_SurveyQuestion)
-- [msdyn_surveyquestion_msdyn_chatansweroption](#BKMK_msdyn_surveyquestion_msdyn_chatansweroption)
+
+
+### <a name="BKMK_msdyn__surveyquestion_msdyn_localizedsurveyques"></a> msdyn__surveyquestion_msdyn_localizedsurveyques
+
+Same as msdyn_localizedsurveyquestion entity [msdyn__surveyquestion_msdyn_localizedsurveyques](msdyn_localizedsurveyquestion.md#BKMK_msdyn__surveyquestion_msdyn_localizedsurveyques) Many-To-One relationship.
+
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_localizedsurveyquestion|
+|ReferencingAttribute|msdyn_surveyquestionid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn__surveyquestion_msdyn_localizedsurveyques|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_msdyn_surveyquestion_msdyn_chatquestionnaireresponseitem"></a> msdyn_msdyn_surveyquestion_msdyn_chatquestionnaireresponseitem
@@ -751,33 +766,12 @@ Same as msdyn_questionsequence entity [msdyn_msdyn_surveyquestion_msdyn_question
 |AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
 |CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
-
-### <a name="BKMK_msdyn_surveyquestion_msdyn_chatansweroption"></a> msdyn_surveyquestion_msdyn_chatansweroption
-
-Same as msdyn_chatansweroption entity [msdyn_surveyquestion_msdyn_chatansweroption](msdyn_chatansweroption.md#BKMK_msdyn_surveyquestion_msdyn_chatansweroption) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_chatansweroption|
-|ReferencingAttribute|msdyn_answeroptionsid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_surveyquestion_msdyn_chatansweroption|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
-
 <a name="manytoone"></a>
 
 ## Many-To-One Relationships
 
 Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related entity. Listed by **SchemaName**.
 
-
-### <a name="BKMK_msdyn_msdyn_liveworkstream_msdyn_surveyquestion"></a> msdyn_msdyn_liveworkstream_msdyn_surveyquestion
-
-**Added by**: Omnichannel – Base Solution
-
-See msdyn_liveworkstream Entity [msdyn_msdyn_liveworkstream_msdyn_surveyquestion](msdyn_liveworkstream.md#BKMK_msdyn_msdyn_liveworkstream_msdyn_surveyquestion) One-To-Many relationship.
 
 ### See also
 

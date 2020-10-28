@@ -17,14 +17,13 @@ ms.author: matp
 manager: kvivek
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 # Create an entity
 
-
-
 <a name="BKMK_CreatingEntities"></a>   
+
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Create a custom entity](/powerapps/maker/common-data-service/data-platform-create-entity)
 
  Before you create a custom entity, evaluate whether using an existing entity will meet your requirements. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create new metadata or use existing metadata](../customize/create-edit-metadata.md#BKMK_CreateNewOrUseExistingMetadata)  
 

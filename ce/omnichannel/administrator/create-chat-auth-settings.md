@@ -4,7 +4,7 @@ description: "Instructions to create chat authentication settings in Omnichannel
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 12/13/2019
+ms.date: 09/02/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -22,6 +22,9 @@ After you create an authentication settings record, you must add it in the **Bas
 
 An agent will get a notification in the **Conversation summary** section whether a customer is authenticated or not. The **Authenticated** field is set to **Yes** or **No** based on the authentication of the customer. If a chat widget does not have any authentication setting associated with it, **Authenticated** field is set to **No** even if a customer is logged in to the portal. For information on conversation summary, see [Conversation summary](../agent/agent-oc/oc-customer-summary.md#conversation-summary).
 
+## Prerequisites
+
+Make sure your organization has a working knowledge of Oauth 2.0 and JSON Web Tokens (JWTs). 
 
 ## Create a chat authentication setting record
 
@@ -40,7 +43,7 @@ An agent will get a notification in the **Conversation summary** section whether
         > [!div class=mx-imgBorder]
         > ![Create chat authentication setting record](../media/chat-auth-settings.png "Create chat authentication setting record")
 
-    For more information about how to find the public key URL and JavaScript client function, see the [Setup for a Power Apps portals](#setup-for-power-apps-portals) section or the [Setup for portals that are not created using Power Apps (custom portal)](#setup-for-portals-that-are-not-created-using-power-apps-custom-portal) section later in this topic.
+    For more information about how to find the public key URL and JavaScript client function, see the [Setup for Power Apps portals](#setup-for-power-apps-portals) section or the [Setup for custom portals that are not created using Power Apps](#setup-for-custom-portals-that-are-not-created-using-power-apps) section later in this topic.
 
 5. Select **Save**.
 
@@ -63,90 +66,167 @@ If you're adding authentication for a chat widget on a website developed using P
 - **JavaScript client function**: `auth.getAuthenticationToken`
 - **Token endpoint**: `<portal_base_URL>/_services/auth/token`
 
-## Setup for portals that are not created using Power Apps (custom portal)
+## Setup for custom portals that are not created using Power Apps
 
-If you're adding authentication for a chat widget on a portal that is not created using Power Apps (that is, on a custom portal), follow these steps to set up the environment.
+If you are adding an authenticated chat experience to a custom website, your web development team will need to do some initial set up before your administrators can configure authenticated chat. 
 
-1. Define the private/public key pairs on your server. These keys are used to sign and encrypt the JWT that is sent to the server. Only RSA256 keys are supported.
+1. Generate a public/private key pair in their authentication servers. The keys must be generated using RSA256. 
 
     Here is sample code for generating private/public key pairs.
 
-    ```
+    ```Powershell
     openssl genpkey -algorithm RSA -out private_key.pem -pkeyopt rsa_keygen_bits:2048
     openssl rsa -pubout -in private_key.pem -out public_key.pem
     ```
 
-2. Expose the public key endpoint as a URL that contains the public key as a string.
-3. Create a client-side JavaScript function that returns the signed JWT and the public key.
+2. Create an endpoint that will return your public key(s). The public key(s) will be used by the Omnichannel servers to validate the JWT token passed as a part of authorizing the chat request. The URL of this endpoint will be entered into the Omnichannel Administration app when creating an Authentication setting record.  
 
-    Here is sample code for defining the JavaScript client function.
+    Your public key endpoint will look similar to this example:
+
+        -----BEGIN PUBLIC KEY----- 
+        NIIBIjANBgkqhkiG9w0BAQEFABCOPQ8AMIIBCgKCAQEAn+BjbrY5yhSpLjcV3seP 
+        mNvAvtQ/zLwkjCbpc8c0xVUOzEdH8tq4fPi/X5P/Uf2CJomWjdOf1wffmOZjFasx 
+        ELG+poTqy5uX2dNhH6lOMUsV31QGG36skLivpLBCSK6lWlzsV6WGkb/m8r86aGzp 
+        jtNhw8yvoTYB4updDrJ8pC+tx4EWK0WEmKn1GsW6TjUtxJjcTLI1puSbmcGHbkSi 
+        RSbWkKPqaEVFALprw+W5ZCung5QX3KOkY/rJd+2JwULm7okyQCQaF7qwa5i9Uf65 
+        7M6ZL4vsDevq7E/v3tf6qxpSSHzt4XspXVQty9QHhqDqBEY3PfI4L2JjgIGuPhfS 
+        YQIDAQAB 
+        -----END PUBLIC KEY-----   
+        
+    If you need to use multiple public keys, your public key endpoint can return a set of `<kid, publickey >` pairs. (Note that key ID pairs must be unique.)  The kid will need to be passed in the JWT token in step 4. If you are using multiple keys, your public key endpoint should return something that looks like this. Note that the public key is base 64 encoded: 
+        
+        [
+        { 
+          "kid": "aYO4EaKT1xYU9JCoqALz6YURr41BqL0Hqp4in6hu4=", 
+          "publicKey": “LS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0NCk1JSUJJakFOQmdrcWhraUc5dzBCQVFFRkFBT0NBUThBTUlJQkNnS0NBUUVBbjFLdXhtSEh3V3hjelZABCDEFmMNCnBEaFZwa0FnYklhTGZBUWc1bFpvemZqc29vcWRGWkl0VlFMdmRERWFVeDNqTytrTkxZM0JFRnBYVDZTN3ZNZCsNCnZoM2hpMDNsQ1dINnNCTWtaSWtuUUliMnFpekFsT0diU2EvK3JrUElnYnpXQjRpT1QyWVhyOVB4bXR5d2o4WUINCnYram55VU5DSzMyZy9FYWsvM0k3YW1vZ2pJY0JISjNFTjVuQWJBMExVVnJwMW5DODJmeEVPOHNJTzNYdjlWNVUNCnc5QnVTVVFRSmtMejNQYVI5WTdRZUEyNW5LUGtqTXZ2Y0UxVU5oeVpIYlNLbmorSitkZmFjb1hsSGtyMEdGTXYNCldkSDZqR0pWcGNQMHBkNjFOa3JKa2c0aStheThwS2ZqdjNUOHN3NWdaVHFweFFaaitVRWxqaVM0SHRPTlhkNlENCnZRSURBUUFCDQotLS0tLUVORCBQVUJMSUMgS0VZLS0tLS0NCg==" 
+        }, 
+        { 
+          "kid": "tYL4NaKT1xRO8WCoqALv6DCVr41MqL0Hqp4ik7hu5=", 
+          "publicKey": “YJ0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tPO0NCk1JSUJJakFOQmdrcBhraUc5dzBCQVFFRkFBT0KBUThBTUlJQkNnS0NBUUVBbjFLdXhtSEh3V3hjelZSWGRBVmMNCnBEaFZwa0FnYklhTGZBUWc1bFpvemZqc29vcWRGWkl0VlFMdmRERWFVeDNqTytrTkxZM0JFRnBYVDZTN3ZNZCsNCnZoM2hpMDNsQ1dINnNCTWtaSWtuUUliMnFpekFsT0diU2EvK3JrUElnYnpXQjRpT1QyWVhyOVB4bXR5d2o4WUINCnYram55VU5DSzMyZy9FYWsvM0k3YW1vZ2pJY0JISjNFTjVuQWJBMExVVnJwMW5DODJmeEVPOHNJTzNYdjlWNVUNCnc5QnABCDEFmtMejNQYVI5WTdRZUEyNW5LUGtqTXZ2Y0UxVU5oeVpIYlNLbmorSitkZmFjb1hsSGtyMEdGTXYNCldkSDZqR0pWcGNHJKEFNjFOa3JKa2c0aStheThwS2ZqdjBEHUF3NWdaVHFweCCaaitERWxqaVM0SHRPTlhkNlENCnZRSURBUUFCDQotLS0tLUVORCBQVUJMSUMgS0VZLS0tQM0NCg==" 
+        } 
+        ] 
+
+        
+3. You will need a service that generates the JWT to send to Omnichannel’s servers as a part of starting a chat for an authenticated user.  
+
+    a. The JWT header will look similar to this example: 
+       
+    ```JavaScript
+    { 
+      "alg": "RS256", 
+      "typ": "JWT", 
+    } 
+    ```
+
+    If you are using multiple public keys, you will need to pass in the key id (kid). Your header will look similar to this example:
 
     ```JavaScript
-    window["getAuthenticationToken"] = function(callback){
-        var xhttp = new XMLHttpRequest();
-        xhttp.onreadystatechange = function() {
-            if (this.readyState == 4 && this.status == 200) {
-                callback(xhttp.responseText);
-            }
-        };
-        xhttp.onerror = function(error) {
-            callback(null);
-        };
-        xhttp.open("GET", "https://contosohelp.com/token", true);
-        xhttp.send();
-    }
+    { 
+      "alg": "RS256", 
+      "typ": "JWT",
+      "kid": "qWO4EaKT1xRO7JC/oqALz6DCVr41B/qL0Hqp4in7hu4="
+    } 
     ```
 
-4. After authentication, you must identify your customer from among contacts. You must extract the globally unique identifier (GUID) that is used for the contact. Here is an example of a GUID: `87b4d06c-abc2-e811-a9b0-000d3a10e09e`.
-5. Create a JSON payload that includes `sub` (the GUID) and three attributes (`iss`, `iat`, `exp`) as mandatory claims.
+   b. The JWT payload should include the following: 
 
-    Here is a sample JSON payload.
+     - At minimum, these claims: 
 
-    ```json
-    {
-        "sub" : "87b4d06c-abc2-e811-a9b0-000d3a10e09e",
-        "preferred_username" : "a184fade-d7d0-40e5-9c33-97478491d352",
-        "phone_number" : "1234567",
-        "given_name" : "Bert",
-        "family_name" : "Hair",
-        "email" : "admin@contosohelp.com",
-        "lwicontexts" :"{\"msdyn_cartvalue\":\"10000\", \"msdyn_isvip\":\"false\"}",
-        "iat" : 1542622071,
-        "iss" : "contosohelp.com",
-        "exp" : 1542625672,
-        "nbf" : 1542622072
-    }
-    ```
+          | Claim | Definition |
+          |-------|-------------------------------------------------------------------------------------------------------------|
+          | Iss   | The issuer of the token. |
+          | Iat   | The date the token was issued. This is in numeric date format.  |
+          | Exp   | The expiration date of this token. Beyond this date it is no longer valid. This is in numeric date format.  |
+          | Sub   | The subject of the claim. (We recommend using the GUID of the contact or account record in CRM.)  |
 
-6. Add custom context variables, if they are required. The context variables must be defined exactly as they are defined in the work stream that is associated with the chat widget.
+     - The lwicontext(s): the context variables to pass in as a part of the conversation, either for routing purposes or to display to the agent. To learn more about lwicontexts, see [Manage custom context](../developer/how-to/send-context-starting-chat.md).
+     
+     - Any other data you wish to pass. 
 
-    Here is a sample definition of custom context variables.
+        Your payload will look similar to this example: 
 
-    ```JavaScript
-    def create_token(user_json):
-        with open('private_key.pem', 'r') as myfile:
-            data = myfile.read()
-        json_token = json.loads(user_json)
-        lwicontexts = {}
-        lwicontexts['msdyn_cartvalue'] = 10000
-        lwicontexts['msdyn_isvip'] = "false"
-        json_token['lwicontexts'] = json.dumps(lwicontexts)
-        encoded_jwt = jwt.encode(json_token, data, algorithm='RS256')
-        return encoded_jwt
-    ```
+          ```JavaScript
+          { 
+
+            "sub" : "87b4d06c-abc2-e811-a9b0-000d3a10e09e", 
+            "preferred_username" : "a184fade-d7d0-40e5-9c33-97478491d352", 
+            "phone_number" : "1234567", 
+            "given_name" : "Bert", 
+            "family_name" : "Hair", 
+            "email" : "admin@contosohelp.com", 
+            "lwicontexts" :"{\"msdyn_cartvalue\":\"10000\", \"msdyn_isvip\":\"false\", \"portalcontactid\":\"87b4d06c-abc2-e811-a9b0-000d3a10e09e\”}", 
+            "iat" : 1542622071, 
+            "iss" : "contosohelp.com", 
+            "exp" : 1542625672, 
+            "nbf" : 1542622072 
+          } 
+          ```     
+        
+    c. The JWT signature should be signed by your private key. 
+
+      > [!NOTE]
+      > - If the token is expired or invalid, the chat widget will throw an error event. 
+      > - The setContextProvider method does not need to be used for authenticated chat. You should pass in your lwicontexts as a part of the JWT payload.     
+
+4. Create a javascript function on your website that will accept a callback function and return a JWT to the callback function. This javascript function should return a JWT within 10 seconds. This JWT will: 
+
+    - Contain the header, payload, and signature from Step 3. 
+
+    - Be signed by the private key from the key pair in step 1. 
+
+      We recommend generating your JWT on your web server. 
+
+      The name of this javascript method will be used to create the Authentication settings record in the Omnichannel Administration app. 
+
+        ```JavaScript
+        // This is a sample javascript client function  
+
+        auth.getAuthenticationToken = function(callback){ 
+
+          var xhttp = new XMLHttpRequest(); 
+          xhttp.onreadystatechange = function() { 
+              if (this.readyState == 4 && this.status == 200) { 
+                  callback(xhttp.responseText); 
+              } 
+          }; 
+          xhttp.onerror = function(error) { 
+              callback(null); 
+          }; 
+        //Replace this with a call to your token generating service 
+          xhttp.open("GET", "https://contosohelp.com/token", true); 
+          xhttp.send(); 
+        } 
+        ```
+
+5. Your developer will need to share the following information with your Omnichannel administrator: 
+
+    a. The URL of the public key service from step 2.  
+       
+      Example: https://www.contoso.com/auth/publickey 
+
+    b. The name of the javascript client function from step 4. This will be called internally by the live chat widget during the start of a chat. 
+       
+      Example: auth.getAuthenticationToken 
 
     > [!NOTE]
-    > - The `user_json` parameter comes from the identity provider (for example, Microsoft Azure Active Directory or Google).
-    > - `lwicontexts` is the key whose value should have the custom context variable serialized as string. It must be must be defined exactly as they are defined in the work stream that is associated with the chat widget.
+    > If your user experience exposes the chat button before users are authenticated, make sure to redirect them to your authentication page as needed. This can be done in the method in step 4, or as an earlier step in your user flow. 
 
-7. Sign and encrypt this payload by using the private key to generate the JWT. 
+    This diagram walks through the setup:
+    
+   > [!div class=mx-imgBorder]
+   > ![Authenticated chat setup](../media/auth-chat-setup.png "Authenticated chat setup")
 
-    Here is sample code for encrypting the payload. (This code is included in the previous sample code for defining custom context variables.)
+    Then, you can set up authenticated chat by following these steps: 
 
-    ```JavaScript
-    encoded_jwt = jwt.encode(json_token, data, algorithm='RS256')
-    return encoded_jwt
-    ```
+6. Go to the Omnichannel administration application, and create an authentication settings record with the information from step 5. See [Create a chat authentication setting record](create-chat-auth-settings.md#create-a-chat-authentication-setting-record) for more information. 
+
+7. Associate the authentication settings to the chat widget that will have an authenticated experience. See [Add authentication to chat widget](create-chat-auth-settings.md#add-authentication-to-chat-widget) for more information. 
+
+    This diagram walks through the call sequence when a user accesses your chat in an authenticated setup:
+
+     > [!div class=mx-imgBorder]
+     > ![Authenticated chat runtime](../media/auth-chat-runtime.png "Authenticated chat runtime")
+
 
 ### See also
 

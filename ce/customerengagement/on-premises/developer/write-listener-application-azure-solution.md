@@ -3,7 +3,7 @@ title: "Write a listener application for a Microsoft Azure solution (Developer G
 description: "The topic describes how to write an Azure solution listener application that can read and process Dynamics 365 Customer Engagement (on-premises) Customer Engagement messages that are posted to the Azure Service Bus."
 ms.custom: 
 ms.date: 12/17/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -17,8 +17,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Write a listener application for a Azure solution
 

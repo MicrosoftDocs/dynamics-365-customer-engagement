@@ -124,7 +124,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Geo Location Provider API key|
 |DisplayName|Bing Maps API key|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -156,7 +156,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Geo Location Provider Name|
 |DisplayName|Provider name|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -661,28 +661,6 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|None|
 |Type|BigInt|
 
-<a name="onetomany"></a>
-
-## One-To-Many Relationships
-
-Listed by **SchemaName**.
-
-
-### <a name="BKMK_msdyn_msdyn_oc_geolocationprovider_msdyn_livechatconfig"></a> msdyn_msdyn_oc_geolocationprovider_msdyn_livechatconfig
-
-**Added by**: Omnichannel – Chat Solution
-
-Same as msdyn_livechatconfig entity [msdyn_msdyn_oc_geolocationprovider_msdyn_livechatconfig](msdyn_livechatconfig.md) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_livechatconfig|
-|ReferencingAttribute|msdyn_oc_geolocationprovider|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_msdyn_oc_geolocationprovider_msdyn_livechatconfig|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### See also

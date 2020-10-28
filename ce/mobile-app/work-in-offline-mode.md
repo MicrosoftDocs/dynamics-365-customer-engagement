@@ -1,7 +1,8 @@
 ---
 title: "Work offline on your mobile device (Dynamics 365 apps)| MicrosoftDocs"
+description: How to work on your mobile device in offline mode using the Dynamics 365 for phones and tablets app and Power Apps mobile
 ms.custom: 
-ms.date: 3/10/2020
+ms.date: 10/23/2020
 ms.reviewer: kvivek
 ms.service: crm-online
 ms.suite: 
@@ -24,77 +25,120 @@ search.app:
 
 # Work offline on your mobile device
 
-Work with your data in offline mode even when you don't have internet access. The Dynamics 365 for phones and tablets app provides a rich offline experience that lets you work with commands like create, read, update, and delete along with some special commands—so you always stay productive. Once you're back online, changes you've made are synchronized with your apps in the Common Data Service environment or Dynamics 365 Customer Engagement (on-premises).  
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
+Work with your data in offline mode even when you don't have internet access. The mobile app provides a rich offline experience that lets you work with commands like create, read, update, and delete along with some special commands—so you always stay productive. Once you're back online, changes you've made are synchronized with your apps in the Common Data Service environment.
+
+If you're working on a record and lose network connection, any updates made to the record are saved in offline mode and will be synchronized to the app once you're back online. When the record is synchronized with the app, it follows the filter rule for availability in offline mode.
+
+> [!IMPORTANT]
+> This topic covers how to use the Dynamics 365 for phones and tablets app and [Power Apps mobile](https://docs.microsoft.com/powerapps/mobile/run-powerapps-on-mobile) in offline mode. The process is the same for both apps.
+
+
+## Install the mobile app
+
+Mobile offline is currently available for iOS and Android devices. To use the mobile offline feature, download the latest version of the mobile app from the app store. 
+
+### Install Dynamics 365 phones and tablets app (for customer engagement apps in Dynamics 365 )
+
+For customer engagement apps in Dynamics 365 (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Marketing) install the [install the Dynamics 365 phones and table app](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets#install-the-app-from-your-devices-app-store).
+
+These are the supported devices to use mobile offline:
+
+- For iOS, version 13.19043.32 or later is supported.
+- for Android, version 4.3.19043.33 or later supported.
 
 > [!NOTE]
-> - The mobile offline feature is only available for iOS and Android devices.
-> - To use the mobile offline feature, download the latest version of the Dynamics 365 for phones and tablet app from the app store. For iOS, version 13.19043.32 or later is supported; for Android, version 4.3.19043.33 or later supported.
+> - The offline feature isn't supported for Dynamics 365 Customer Engagement (on-premises). 
+
+### Install Power Apps mobile app (for Power Apps)
+
+For model-drvien app and canvas apps [Install the Power Apps mobile app](https://docs.microsoft.com/powerapps/mobile/run-powerapps-on-mobile#install-the-power-apps-mobile-app).
+
+For information on supported devices for Power Apps mobile app, see [Supported devices](https://docs.microsoft.com/powerapps/mobile/run-powerapps-on-mobile#supported-devices).
 
 ## Download updates to work in offline mode
 
-When your admin has [enabled mobile offline](setup-mobile-offline-for-admin.md
-), the next time you access the mobile app, you will be prompted to download offline updates. Once you download the updates, you can start using the mobile app in offline mode.
+Once you have the mobile app installed and your admin has [enabled mobile offline](preview-setup-mobile-offline.md), the next time you access the mobile app, you will be prompted to download offline updates. Once you download the updates, you can start using the mobile app in offline mode.
 
-1. When you see the the dialog box that asks you to download updates to work offline, choose **Update**. 
-
-    > [!div class="mx-imgBorder"] 
-    > ![Download updates on your mobile device for mobile offline](media/DownloadUpdates.png "Download updates on your mobile device for mobile offline")
-
-    > [!NOTE]
-    > If you choose **Skip for now**, you will not be able to use the app in offline mode until you [manually download the updates](https://docs.microsoft.com/dynamics365/mobile-app/work-in-offline-mode#manually-download-updates). 
-
-2. Offline data automatically starts to download in the background. Once it's complete, you will get a notification letting you know the download is complete.
+1. When you see the dialog box that asks you to download updates to work offline, choose **Download**. 
 
    > [!div class="mx-imgBorder"] 
-   > ![Download updates complete](media/mobile_offline_download_updates_complete.png "Download updates complete")
-   
-When you open the app, offline data is automatically updated and you can start using the app in offline mode.
+   > ![Download updates on your mobile device for mobile offline](media/DownloadUpdates.png "Download updates on your mobile device for mobile offline")  
+ 
+2. Offline data starts to download in the background. Do not close the app or disconnect from the internet until the download is complete.
 
-### Manually download updates
+## Download offline data later
 
-1. From the nav bar, select ![Dynamics 365 apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 apps ellipsis") > **Offline Status**.
+If did not want to download offline data and choose **Skip for now**, you will not be able to use the app in offline mode until you manually download the updates. 
 
-    > [!div class="mx-imgBorder"] 
-    > ![Manually download updates](media/downloadupdates_1.png "Manually download updates")
+1. To manually download updates, do one of the following:
 
-2. Select **Download Customizations** to download the updates.
+    - **Current**: From the nav bar, select ![Moble app ellipsis](../mobile-app/media/mobile-ellipsis.png "Mobile app ellipsis") > **Offline Status**. 
+    - **Early access**: From the Home screen, select the site map ![Site map icon](media/d365_mobile_sitemap_icon.png "Site map icon") > Offline ![Offline button.](media/offline_button.png "Offline button").
 
-    > [!div class="mx-imgBorder"] 
-    > ![Download Customization](media/DownloadCustomization.png "Download Customization")
-
-3. Offline data automatically starts to download in the background. Once it's complete, you will get a notification letting you know the download is complete.
+2. On the **Offline Status** screen, select **Download offline updates**.
 
    > [!div class="mx-imgBorder"] 
-   > ![Download updates complete](media/mobile_offline_download_updates_complete.png "Download updates complete")
+   > ![Start offline download.](media/start-offline-download.png "Start offline download")
+
+3. The download will start and the status will change to **Initializing**.
+
+   > [!div class="mx-imgBorder"] 
+   > ![Start download updates.](media/mobile_offline_download_updates_complete.png "Start download updates.")
    
-When you open the app, offline data is automatically updated and you can start using the app in offline mode.
+3. When Offline download is completed, you will get a notification indicating that you can start working in offline mode.
+
+
+   |Current  |Early access  |
+   |---------|---------|
+   | ![Download updates complete](media/mobile_offline_download_updates_complete_1.png "Download updates complete")    |     ![Download updates complete](media/mobile_offline_download_updates_complete_updated.png "Download updates complete")     |
+
 
 ## See if offline mode is available
 
-When updates are downloaded, you can check to see if mobile offline is available.
+When offline updates are complete, you can check to see if mobile offline is available. 
 
-- From the nav bar, select ![Dynamics 365 apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 apps ellipsis") > **Offline Status**.
+- To check the offline status, do one of the following:   
+
+    - **Current**: From the nav bar, select ![Mobile app ellipsis](../mobile-app/media/mobile-ellipsis.png "Mobile app ellipsis") > **Offline Status**. 
+    - **Early access**: From the Home screen, select the site map ![Site map icon](media/d365_mobile_sitemap_icon.png "Site map icon") > Offline ![Offline button.](media/offline_button.png "Offline button").
+    
   
-   > [!div class="mx-imgBorder"] 
-   > ![Mobile Offline Status](../mobile-app/media/OfflineStatusSettings.png "Mobile Offline Status")   
+    > [!div class="mx-imgBorder"] 
+    > ![Mobile offline status](media/OfflineStatus.png "Mobile offline status")
 
+Legend:
 
-
-
-  -  **Offline Status** tracks the offline status of the whole app, and also the status of each entity individually. When the status shows as  **Available**, it indicates offline is available and data has synced successfully.
+1. **Status**: Tracks the offline status of the whole app, and also the status of each entity individually. When the status shows as  **Available**, it indicates offline is available and data has synced successfully.
 
    > [!NOTE] 
    > The status here can be **Not Available** due to an error or if you missed downloading offline updates. If the status is **Not Available** due to missing the latest offline updates, then try downloading the updates again.
    
- 
-  -  **Entity Status** provides the offline status of each entity individually. For the available entities, you can also track the last time the entity synced. Data is synced periodically in the background to ensure that you have access to the latest data whenever you go offline.
+ 2. **Entity**: Provides the offline status of each entity individually. For the available entities, you can also track the last time the entity synced. Data is synced periodically in the background to ensure that you have access to the latest data whenever you go offline.
    
-  -  **Sync time** indicates the last time your data was synced with the server.
+ 3. **Last Sync Date**: Indicates the last time your data was synced with the server.
  
-     > [!div class="mx-imgBorder"] 
-     > ![Mobile offline status](media/OfflineStatus.png "Mobile offline status")
- 
-### Check offline status from the main menu
+
+## Work in offline mode
+
+Once the offline download is complete, you can use the mobile app in offline mode.
+
+With no connectivity, you'll automatically have access to the downloaded data so you can continue working while you're on the go. The data will be automatically synced with the server as soon as the connectivity is restored.
+
+With intermittent connectivity, it is recommended to switch to offline mode. As long as the offline mode is turned on, the updates that you make on your device will not be synced with the server and you can continue to work with the local data on your device. To push the changes you've made to the server and refresh your local data, set the **Work in offline mode** toggle to Off.
+
+
+1. To start working in offline mode, do one of the following:
+
+    - **Current**: From the nav bar, select ![Mobile app ellipsis](../mobile-app/media/mobile-ellipsis.png "Mobile app  ellipsis") > **Offline Status**. 
+    - **Early access**: From the Home screen, select the site map ![Site map icon](media/d365_mobile_sitemap_icon.png "Site map icon") > Offline ![Offline button.](media/offline_button.png "Offline button").
+
+2. Set the **Work in offline mode** toggle to On.
+
+   > [!div class="mx-imgBorder"] 
+   > ![Work in offline mode](media/set_offline_toggle.png "Set toggle to work in offline mode") 
+### Check offline status from the main menu (applies to only the current version of the Dynamics 365 mobile app)
 
 You can also see which entities are available in offline mode from the main menu.
 
@@ -106,115 +150,18 @@ You can also see which entities are available in offline mode from the main menu
 
      > [!div class="mx-imgBorder"] 
      > ![Available entities for mobile offline](media/available_entites.png "Available entities for mobile offline")
-   
+     
 
 ## Sync conflict resolution
 
-Conflict errors can resolved based on the settings set by the admin. If your admin has set the conflict resolution to **No**, then the data value on your client device wins and there will be no sync errors. 
+Conflict errors can be resolved based on the settings set by the admin. If your admin has set the conflict resolution to **No**, then the data value on your client device wins and there will be no sync errors. 
 
 If your admin has set the conflict resolution to **Yes**, then the data value on the server wins. In this case, while syncing changes to the server, you might see some errors that are automatically resolved. Client changes are overwritten by server values.
 
 
-## Clear cache from the device
+## Mobile offline capabilities and limitations
 
-If you used the mobile app on a phone or tablet temporarily and want to remove all your cached data before giving the device to someone else, you need to reconfigure the app.
-
-- From the nav bar, select ![Dynamics 365 apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 apps ellipsis")  > **User Information** > **Reconfigure**. 
-
-     > [!div class="mx-imgBorder"] 
-     > ![Reconfigure](media/reconfigure.png "Reconfigure mobile app")
-
-Reconfiguring deletes all data and metadata from the cache, however do not rely on this as a security measure.
-
-Make sure you use the **Reconfigure** option before you sign out. If you sign in to another organization but you wanted to delete data for the previous organization that you were logged into, then you will need to sign back into that organization and use the **Reconfigure** option to delete all data and metadata from the cache. 
+For information on capabilities and limitations of mobile offline, see [Mobile offline capabilities and limitations](mobile-offline-capabilities.md).
 
 
-## Capabilities available in offline mode
-
-Dynamics 365 for phones and tablets provides the capabilities listed below in offline mode for the end users.
-
-These entities and corresponding commands are available in offline mode.
-
-
-|Entities |Commands|  
-|-------------|---------|  
-|Account|	Create, Read, Update, Delete|
-|Activity Pointer|Read, Delete|
-|Appointment|	Create, Read, Update, Delete, Convert ActivityCase|
-|Attachment	|Read only|
-|Case|Create, Read, Update, Delete|
-|Competitor|Create, Read, Update, Delete	|
-|Competitor Address Address|Create, Read, Update, Delete	|
-|Connection|Read only|
-|Connection Role|Read only|
-|Contact|Create, Read, Update, Delete	|
-|Custom Entity|Create, Read, Update, Delete	|
-|Email|Read only	|
-|Lead|Create, Read, Update, Delete, Qualify/Disqualify	|
-|Opportunity|Create, Read, Update, Delete|
-|Opportunity Product|Create, Read, Update, Delete	|
-|Phone Call|Create, Read, Update, Delete	|
-|Position|Create, Read, Update, Delete	|
-|Product|Read|
-|Task |Create, Read, Update, Delete|
-|Team |Read only	|
-|User |Read only	|
-
-**Add Existing on subgrids**: **Add Existing** is not supported for mobile offline for certain types of relationships. When you are offline, certain relationships such as relationships that are N:N are read only, and the **Add Existing** command will be hidden on subgrids for those relationships. Even if the button is unhidden via customization, the command will not work in offline.
-
-**Business rules**: Business rules are supported in mobile offline. For more information, see [Create business rules and recommendations to apply logic in a model-driven app form](https://docs.microsoft.com/powerapps/maker/model-driven-apps/create-business-rules-recommendations-apply-logic-form).
-
-**Lookup support**: Lookups are supported for the entities that are mobile offline-enabled. All the entities participating in the lookup should also be offline-enabled.
-
-**Offline views**: Only system views are supported in mobile offline. 
-
-**Quick views**: Quick views are available in offline mode.
-
-**Offline search**: Available only for offline entities. User can only search one entity at a time. Only categorized search is supported in offline mode and not relevant search.
-
-**Notes on the Timeline control**: Notes on the Timeline control is available in offline mode. You can take pictures, read notes, and add attachments in offline mode.
-
-
-
-> [!NOTE]
-> The **Date** field is not available for mobile offline search.
-   
-**Security modeling**: Mobile offline honors the Dynamics 365 apps security model. It also supports the hierarchical security model.
-
-
-Field level security and attribute sharing are not supported for offline mode.
-
-If a user was working on a record and lost network connection, any updates made to the record are saved in offline mode and will be synchronized to Dynamics 365 app once the user is back online. When the record is synchronized with the app, it follows the filter rule for availability in offline mode.
-
-> [!NOTE]
-> - Actions from offline mode are replayed automatically. The changes are played back in the same sequence as they were created, modified, or deleted. This ensures that the data state is maintained and there are no data mismatches on the Dynamics 365 apps.
-> - The org can enhance business functionality available in mobile offline using Xrm.Mobile.offline. For more information, see Xrm.Mobile.offline (client-side reference).
-
-## Known Issues
-
-**Business Process Flows**: Business process flows are not supported for mobile offline. When you are offline, business process flows grids and views will not be available and business process flows will not be rendered on records that are opened in offline mode. If a record containing a business process flow was loaded prior to going offline, business process flow functions, such as move next or move previous will not work. Business process flows support the ability to branch to a different set of stages, based on conditions defined on fields of the record. In offline mode, these conditions to determine the next set of stages in the business process flows will not be evaluated.
-
-**Qualify a lead**: When a lead created in mobile offline is qualified and when the user goes online, the business process stage will still show the  qualify stage. The user will have to manually click **Next stage** to move to the next stage.
-
-**Views** are not supported for the following entities in offline mode: 
-
-- Email
-
-- Task
-
-- Fax
-
-- Letter
-
-- Serviceappointment
-
-- Campaignresponse
-
-- Campaignactivity
-
-- Recurringappointmentmaster
-
-- Socialactivity
-
-Any views that have linked entities (related entity) that are not available offline are also not supported.
 

@@ -3,7 +3,7 @@ title: "Marketing entities (campaign, list) (Developer Guide for Dynamics 365 Cu
 description: "Learn about the marketing entities that allow you to perform campaign planning, manage the creation and execution of a campaign, and assess a campaign's performance."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -20,8 +20,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Marketing entities (campaign, list)
 

@@ -3,7 +3,7 @@ title: "Sample: Rollup goal data for a fiscal period against the stretch target 
 description: "This sample shows how to roll up goal data for a fiscal period against stretch target count representing a number of completed telephone calls"
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -20,8 +20,7 @@ ms.author: nabuthuk
 manager: kvivek
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Sample: Rollup goal data for a fiscal period against the stretch target count
 

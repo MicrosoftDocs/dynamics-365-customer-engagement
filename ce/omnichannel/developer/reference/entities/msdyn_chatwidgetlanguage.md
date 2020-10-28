@@ -1,13 +1,12 @@
 ---
 title: "msdyn_chatwidgetlanguage Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_chatwidgetlanguage entity."
+ms.date: 03/23/2020
+ms.service: "crm-online"
+ms.topic: "reference"
 author: "susikka"
 ms.author: "susikka"
 manager: "shujoshi"
-ms.date: 08/29/2019
-ms.service: 
-  - crm-online
-ms.topic: "reference"
 ---
 # msdyn_chatwidgetlanguage Entity Reference
 
@@ -630,7 +629,7 @@ Listed by **SchemaName**.
 
 ### <a name="BKMK_msdyn_msdyn_chatwidgetlanguage_msdyn_livechatconfig_WidgetLocale"></a> msdyn_msdyn_chatwidgetlanguage_msdyn_livechatconfig_WidgetLocale
 
-Same as msdyn_livechatconfig entity [msdyn_msdyn_chatwidgetlanguage_msdyn_livechatconfig_WidgetLocale](msdyn_livechatconfig.md) Many-To-One relationship.
+Same as msdyn_livechatconfig entity [msdyn_msdyn_chatwidgetlanguage_msdyn_livechatconfig_WidgetLocale](msdyn_livechatconfig.md#BKMK_msdyn_msdyn_chatwidgetlanguage_msdyn_livechatconfig_WidgetLocale) Many-To-One relationship.
 
 |Property|Value|
 |--------|-----|

@@ -1,13 +1,12 @@
 ---
 title: "msdyn_questionsequence Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_questionsequence entity."
+ms.date: 08/31/2020
+ms.service: "crm-online"
+ms.topic: "reference"
 author: "susikka"
 ms.author: "susikka"
 manager: "shujoshi"
-ms.date: 08/29/2019
-ms.service: 
-  - crm-online
-ms.topic: "reference"
 ---
 # msdyn_questionsequence Entity Reference
 
@@ -110,7 +109,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Type of survey question|
 |DisplayName|Survey type|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -151,7 +150,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Is a mandatory survey question to be answered|
 |DisplayName|Required|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -188,7 +187,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Name of the survey question|
 |DisplayName|Survey question name|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -249,7 +248,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Sequence number for questions to display in the specified order|
 |DisplayName|Order|
 |Format|None|
 |IsValidForForm|True|
@@ -747,7 +746,7 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_msdyn_livechatconfig_msdyn_questionsequence"></a> msdyn_livechatconfig_msdyn_questionsequence
 
-See msdyn_livechatconfig Entity [msdyn_livechatconfig_msdyn_questionsequence](msdyn_livechatconfig.md) One-To-Many relationship.
+See msdyn_livechatconfig Entity [msdyn_livechatconfig_msdyn_questionsequence](msdyn_livechatconfig.md#BKMK_msdyn_livechatconfig_msdyn_questionsequence) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_msdyn_surveyquestion_msdyn_questionsequence_SurveyQuestion"></a> msdyn_msdyn_surveyquestion_msdyn_questionsequence_SurveyQuestion
 

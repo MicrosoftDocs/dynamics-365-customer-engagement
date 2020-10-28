@@ -1,7 +1,7 @@
 ---
 title: "Add a phone call, task, email, or appointment activity to a record (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
-ms.date: 10/31/2018
+ms.date: 05/05/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -16,10 +16,11 @@ ms.author: jimholtz
 manager: brycho
 search.audienceType: 
   - enduser
-search.app: 
-  - D365CE
+
 ---
 # Add a phone call, task, email, or appointment activity to a record 
+
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Add an appointment, email, phone call, note, or task activity to the timeline](/powerapps/user/add-activities)
 
 The activity and notes area helps you keep track of all the interactions with your customers. Record all important conversations with the customer or the communication with your team members regarding a record in Dynamics 365 Customer Engagement (on-premises). Add a phone call, task, notes, email, or appointments right within the case, account, contact, lead, or opportunity records without navigating to a different area and opening another form.  
   
@@ -84,7 +85,7 @@ All activities that you add from within a record appear in the **Activities** ar
  To add an appointment activity to a record, you must first save the record you are adding the activity to.  
  
 > [!NOTE]
-> Recurring appointments are not supported on the Dynamics 365 App for Outlook, Dynamics 365 for phones app, and when you run the model-driven apps web client on your mobile phone web browser. 
+> Recurring appointments are not supported on the Dynamics 365 App for Outlook, Dynamics 365 for phones app, and when you run the web client on your mobile phone web browser. 
   
 1. Open the record you want to add the activity to.  
   
@@ -95,9 +96,9 @@ All activities that you add from within a record appear in the **Activities** ar
 4. To save the record, select **Save**.  
   
 ## Add notes  
- You can also easily add notes in the activities area. And if you’re on the latest version of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], you have the benefits of using OneNote to take or review customer notes from within your Dynamics 365 Customer Engagement (on-premises)app records. For more information on OneNote, see: [Set up OneNote integration in Dynamics 365 Customer Engagement (on-premises)](../admin/set-up-onenote-integration-in-dynamics-365.md).  
+ You can also easily add notes in the activities area. And if you're on the latest version of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], you have the benefits of using OneNote to take or review customer notes from within your Dynamics 365 Customer Engagement (on-premises)app records. For more information on OneNote, see: [Set up OneNote integration in Dynamics 365 Customer Engagement (on-premises)](../admin/set-up-onenote-integration-in-dynamics-365.md).  
   
- This doesn’t replace the current Notes feature, but gives you another way to access notes stored in OneNote.  
+ This doesn't replace the current Notes feature, but gives you another way to access notes stored in OneNote.  
   
  ![Add notes or OneNote notes in Dynamics 365 Customer Engagement (on-premises)](media/addnotesoronenotenotes.png "Add notes or OneNote notes in Dynamics 365 Customer Engagement (on-premises)")  
   

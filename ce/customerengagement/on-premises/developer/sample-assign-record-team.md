@@ -12,7 +12,7 @@ ms.assetid: 0537eac1-c997-4091-970f-e726109b1247
 author: KumarVivek
 ms.author: nabuthuk
 manager: kvivek
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.suite: 
 ms.tgt_pltfrm: 
 helpviewer_keywords: 
@@ -22,8 +22,7 @@ helpviewer_keywords:
 topic-status: Drafting
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 
 # Sample: Assign a record to a team

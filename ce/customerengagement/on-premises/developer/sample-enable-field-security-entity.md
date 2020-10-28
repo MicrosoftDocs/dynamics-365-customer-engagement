@@ -3,7 +3,7 @@ title: "Sample: Enable field security for an entity| MicrosoftDocs"
 description: "The sample shows how to enable field security for an entity."
 ms.custom: 
 ms.date: 01/08/2020
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -20,8 +20,7 @@ ms.author: nabuthuk
 manager: kvivek
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Sample: Enable field security for an entity
 

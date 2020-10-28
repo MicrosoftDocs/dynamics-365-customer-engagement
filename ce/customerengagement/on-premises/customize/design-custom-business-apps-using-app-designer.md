@@ -1,5 +1,6 @@
 ---
 title: "Design custom business apps by using the app designer | MicrosoftDocs"
+description: Learn how to design apps using the app designer.
 ms.custom: 
 ms.date: 04/30/2019
 ms.reviewer: 
@@ -18,13 +19,12 @@ caps.latest.revision: 17
 topic-status: Drafting
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 
 # Design custom business apps by using the app designer
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Create, edit, or configure forms using the form designer](/powerapps/maker/model-driven-apps/create-and-edit-forms)
 
 Custom business apps are comprised of components such as entities, dashboards, forms, views, charts, and business processes.  
 

@@ -4,7 +4,7 @@ description: "Read how you can start chat proactively to see if customers need h
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 01/24/2020
+ms.date: 04/06/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: reference
@@ -39,16 +39,16 @@ Amy can accept the chat offer and start the conversation to sort out her issue.
 	// Wait for Chat widget to load completely
     window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
 		var timeToWaitBeforeOfferingProactiveChatInMilliseconds = 20000;//time to wait before Offering proactive chat to web page visitor
-		// setting Context variables
+		// Setting context variables
         Microsoft.Omnichannel.LiveChatWidget.SDK.setContextProvider(function contextProvider(){
             return {
                 'Proactive Chat':{'value':'True','isDisplayable':true},
-                'Time On Page':{'value': timeToWaitBeforeOfferingProactiveChat ,'isDisplayable':true},
+                'Time On Page':{'value': timeToWaitBeforeOfferingProactiveChatInMilliseconds ,'isDisplayable':true},
                 'Page URL':{'value': window.location.href,'isDisplayable':true},
             };
         });
 		
-		//show proactive chat invite after 'timeToWaitBeforeOfferingProactiveChatInMilliseconds' milliseconds
+		//Display proactive chat invite after 'timeToWaitBeforeOfferingProactiveChatInMilliseconds' milliseconds
         setTimeout(function(){
             Microsoft.Omnichannel.LiveChatWidget.SDK.startProactiveChat({message: "Hi! Just checking in to see if I can help answer any questions you may have."}, false)
         },timeToWaitBeforeOfferingProactiveChatInMilliseconds);
@@ -381,16 +381,16 @@ The sample code given below shows how you can proactively offer chat invite to a
     window.addEventListener("load", function handleLivechatReadyEvent(){//lcw:ready
 		var startTimeOfTimePeriod = new Date('01 Jan 2019 00:00:00 GMT');//start time of time period in which proactive chat will be shown to web page visitor
 		var endTimeOfTimePeriod = new Date('01 Jan 2100 00:00:00 GMT');//end time of time period in which proactive chat will be shown to web page visitor
-		var currentDateTime = new Date();//curent date and time
+		var currentDateTime = new Date();//current date and time
 		
-		//make sure that endTimeOfTimePeriod is always greater and equal to endTimeOfTimePeriod
+		//Make sure that endTimeOfTimePeriod is always greater and equal to startTimeOfTimePeriod
 		if( endTimeOfTimePeriod < startTimeOfTimePeriod)
 		{
 			console.log("The time period given for proactive chat has start time: " + startTimeOfTimePeriod.toGMTString() + " more that the end time: " + endTimeOfTimePeriod.toGMTString() + " of time period. So, proactive chat will not be offered.");
 			return;
 		}
 		
-		//check if current date time is between given time period
+		//Check if current date time is between given time period
 		if( startTimeOfTimePeriod < currentDateTime && endTimeOfTimePeriod > currentDateTime){
 			// setting Context variables
 			Microsoft.Omnichannel.LiveChatWidget.SDK.setContextProvider(function contextProvider(){
@@ -399,7 +399,7 @@ The sample code given below shows how you can proactively offer chat invite to a
 					'Page URL':{'value': window.location.href,'isDisplayable':true},
 				};
 			});
-			//show proactive chat invite 
+			//Show proactive chat invite 
 			Microsoft.Omnichannel.LiveChatWidget.SDK.startProactiveChat({message: "Hi! Just checking in to see if I can help answer any questions you may have."}, false);
 		}
     });

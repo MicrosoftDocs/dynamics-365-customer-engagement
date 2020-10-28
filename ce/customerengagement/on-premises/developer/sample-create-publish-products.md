@@ -3,7 +3,7 @@ title: "Sample: Create and publish products (Developer Guide for Dynamics 365 Cu
 description: "Sample demonstrates how to create a product family, override a product property, publish a product hierarchy, and revise a overridden property."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -17,8 +17,7 @@ ms.author: kvivek
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Sample: Create and publish products
 

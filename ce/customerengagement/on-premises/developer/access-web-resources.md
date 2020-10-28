@@ -3,7 +3,7 @@ title: "Access external web resources (Developer Guide for Dynamics 365 Customer
 description: "Learn how to access a web resource, for example a web service, from a custom plug-in or workflow activity."
 ms.custom: on-premise
 ms.date: 2/6/2019
-ms.reviewer: "pehecke"
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.topic: "article"
 applies_to: 
@@ -13,8 +13,7 @@ ms.author: "pehecke"
 manager: "kvivek"
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Access external web resources
 

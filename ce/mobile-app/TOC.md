@@ -1,16 +1,24 @@
 # [Overview](overview.md)
 
-# Administrator Guide 
+# Administrator basics 
 ## [What's supported](support-phones-tablets.md)
 ## [Set up mobile app](set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md)
-## [Set-up mobile offline synchronization](setup-mobile-offline-for-admin.md)
 ## [Manage and secure devices](secure-manage-phones-tablets.md)
-## [Dynamics 365 for Good device encryption](secure-mobile-data-dynamics-365-good.md) 
 
-# [Install the mobile app](install-dynamics-365-for-phones-and-tablets.md)
+# Set-up mobile offline
+## [Configure mobile offline](preview-setup-mobile-offline.md)
+## [Configure mobile offline(using old admin interface)](setup-mobile-offline-for-admin.md)
+## [Mobile offline capabilities and limitations](mobile-offline-capabilities.md)
 
-# [User Guide](dynamics-365-phones-tablets-users-guide.md)
-# [Work offline on your mobile device](work-in-offline-mode.md)
+# Install the mobile app
+## [Install Dynamics 365 for phones and tablets](install-dynamics-365-for-phones-and-tablets.md)
+## [Migrate to the Power Apps mobile app](migration.md)
+
+# User Guides
+## [Basic navigation in Dynamics 365 for phones and tablets (Preview)](user-guide-mobile-app.md)
+## [User Guide for Dynamics 365 for phones and tablets](dynamics-365-phones-tablets-users-guide.md)
+## [Send email from the mobile app](send-email.md)
+## [Work offline on your mobile device](work-in-offline-mode.md)
 
 # [Troubleshooting](troubleshooting-things-know-about-phones-tablets.md)
 
@@ -41,8 +49,7 @@
 
 ## User Guide 
 ### [Install the mobile app](../mobile-app/v8/go-mobile/get-started/install.md)
-### [Signing in and signing out (for iOS users)](../mobile-app/v8/go-mobile/get-started/email-sign-in.md)
-### [Signing in and signing out (for Android users)](../mobile-app/v8/go-mobile/get-started/sign-in-out.md)
+### [Sign in and sign out](../mobile-app/v8/go-mobile/get-started/email-sign-in.md)
 ### [Reconfigure](../mobile-app/v8/go-mobile/get-started/reconfigure.md)
 ### [Basic navigation](../mobile-app/v8/go-mobile/get-started/basic-navigation.md)
 ### [The workspace - your personalized action hub](../mobile-app/v8/go-mobile/get-started/workspace-personalized-action-hub.md)

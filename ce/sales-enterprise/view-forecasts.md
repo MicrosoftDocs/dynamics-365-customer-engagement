@@ -1,11 +1,9 @@
 ---
 title: "View a forecast (Dynamics 365 Sales) | MicrosoftDocs"
 description: "See a forecast in Dynamics 365 Sales to know the health of your pipeline or to track how your sales team is doing against their quota or target."
-ms.date: 02/03/2020
-ms.service: 
-  - dynamics-365-sales
-ms.custom: 
-  - dyn365-sales
+ms.date: 10/26/2020
+ms.service: dynamics-365-sales
+ms.custom: dyn365-sales
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -76,6 +74,21 @@ For example, you created a forecast by using the **Org chart forecast** template
 
 To see the rolled-up forecast for everyone in the hierarchy, expand a specific forecast.
 
+## Select a currency
+
+When your sales teams are distributed across different geographies and viewing the forecast with organization's base currency might cause confusion for users in other geographies to analyze and understand forecast. The multi-currency selection option helps the sales teams to choose and convert the forecast data in real time based on the latest exchange rate to their convenient currencies defined in your organization, which help in better planning, organizing, and understanding the current forecast state.
+
+>[!NOTE]
+>The real time conversion of forecast data always takes place based on the latest exchange rate defined in your organization. 
+
+For example, you have sales teams in the US and Europe. The base currency for your organization is defined as US Dollar and also, Euro is defined as one of the currencies. When you create forecast with multi currency enabled, sales teams open the forecast the data is displayed in Dollar. Sales teams in Europe can select currency as Euro and the forecast data is displayed in Euro. The conversion of currency happens in real time based on the current exchange rate. Also, manual adjustments can be made on the chosen currency. 
+
+> [!div class="mx-imgBorder"]
+> ![Select currency drop-down](media/forecast-multi-currency-select.png "Select currency drop-down")
+
+>[!NOTE]
+>Administrator or forecast manager must enable the option to select currency. More information: [Enable multi-currency selection](forecast-configure-advanced-settings.md#enable-multi-currency-selection)
+
 ## Tasks you can do on the forecast grid
 
 Using the forecast grid, you can do the following tasks:
@@ -92,4 +105,4 @@ Using the forecast grid, you can do the following tasks:
 [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)<br>
 [Configure a forecast](configure-forecast.md)<br>
 [Analyze revenue outcome by using predictive forecasting](https://docs.microsoft.com/dynamics365/ai/sales/analyze-revenue-outcome-using-predictive-forecasting)<br>
-[Entity reference for manual forecasting](developer/reference/manual-forecasting-entity-reference.md)
+[Retrieve forecast and snapshot data using msdyn_ForecastInstanceActions for GDPR](developer/reference/entities/export-forecast-data.md)

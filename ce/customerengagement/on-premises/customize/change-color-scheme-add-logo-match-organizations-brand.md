@@ -17,12 +17,11 @@ ms.author: matp
 manager: kvivek
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 # Create a theme
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Use a theme to create a custom look for your app](/powerapps/maker/model-driven-apps/create-themes-organization-branding)
 
 You can create a custom look and feel (a theme), for your app by making changes to the default colors and visual elements provided in the uncustomized system. For example, you can create your personal product branding by adding a company logo and providing entity-specific coloring. A theme is created by using the customization tools in the user interface, without requiring a developer to write code. You can create, change or delete themes that are used in your organization. The theme customization is supported in the Web forms in [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)]. You can define multiple themes, but only one can be set and published as the default theme.  
   
@@ -78,19 +77,19 @@ You can create a custom look and feel (a theme), for your app by making changes 
 The following screenshot shows the default theme setup.  
   
  > [!div class="mx-imgBorder"] 
- > ![](media/cust1-themes-default-theme.png  "Default theme colors")
+ > ![Default theme colors](media/cust1-themes-default-theme.png  "Default theme colors")
    
  We cloned the default theme and changed the colors. The following screenshots show the new colors for navigation and highlighting. You can also choose a new logo for product.  
   
  The following screenshot shows the new navigation color.  
  
 > [!div class="mx-imgBorder"] 
-> ![](../customize/media/theme-gentle-green.png  "Gentle green theme colors") 
+> ![Gentle green theme colors](../customize/media/theme-gentle-green.png  "Gentle green theme colors") 
   
  The following screenshot shows the account entity grid with the new highlight color.  
  
 > [!div class="mx-imgBorder"] 
-> ![](../customize/media/themes-gentle-green-account-grid.png  "Gentle green theme account grid")
+> ![Gentle green theme account grid](../customize/media/themes-gentle-green-account-grid.png  "Gentle green theme account grid")
    
 <a name="Publish"></a>   
 ## Preview and publish a theme  
@@ -105,7 +104,7 @@ The following screenshot shows the default theme setup.
   The following screenshot shows the buttons on the command bar for preview and publishing.  
   
   > [!div class="mx-imgBorder"] 
-  > ![](../customize/media/themes-preview-buttons.PNG  "Use preview buttons to enter/exit the preview mode")
+  > ![Use preview buttons to enter/exit the preview mode](../customize/media/themes-preview-buttons.PNG  "Use preview buttons to enter/exit the preview mode")
 
   <a name="BestPracticies"></a>   
 ## Best practices  
@@ -114,7 +113,7 @@ The following screenshot shows the default theme setup.
 ### Theme contrast  
  We recommend the following approach to providing contrast colors:  
   
-- Carefully choose the contrasting colors. [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] out-of-the-box default theme has the correct contrast ratios to ensure optimal usability. Use similar rations for your new themes.  
+- Carefully choose the contrasting colors. [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] out-of-the-box default theme has the correct contrast ratios to ensure optimal usability. Use similar contrast ratios for your new themes.  
   
 - For high contrast mode, use the default color settings.  
   

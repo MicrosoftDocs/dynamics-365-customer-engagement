@@ -2,10 +2,8 @@
 title: "Close opportunities as won or lost (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Close the opportunity to indicate whether it was won or lost."
 ms.date: 10/01/2019
-ms.service: 
+ms.service:
   - "dynamics-365-sales"
-ms.custom: 
-  - "dyn365-sales"
 ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
@@ -73,9 +71,9 @@ If you've closed an opportunity as lost, but would like to start discussions abo
     > [!div class="mx-imgBorder"]  
     > ![Closed Opportunities view in the view selector](media/select-closed-opportunities-view.png "Closed Opportunities view in the view selector")
 
-3. Select the opportunity that you want to repoen, and on the command bar, select **Reopen Opportunity**. The reopened opportunities start appearing in the open opportunities list.
+3. Select the opportunity that you want to reopen, and on the command bar, select **Reopen Opportunity**. The reopened opportunities start appearing in the open opportunities list.
   
 ### See also  
  [Nurture sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md)   
  [Print leads, quotes, and other records](../basics/print-leads-quotes-other-records.md)  
- [Dynamics 365 Sales troubleshooting guide for administrators](troubleshooting-admin.md)  
+ [Dynamics 365 Sales troubleshooting guide](troubleshooting.md)  

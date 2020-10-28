@@ -3,7 +3,7 @@ title: "Sample: Set negative prices in opportunities, quotes, and sales orders s
 description: "The sample demonstrates how to set negative prices in opportunities, quotes, and sales orders."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -21,8 +21,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Sample: Set negative prices in opportunities, quotes, and sales orders
 

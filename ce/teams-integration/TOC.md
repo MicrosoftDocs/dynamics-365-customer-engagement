@@ -1,5 +1,5 @@
 # [Microsoft Teams integration](teams-integration.md) 
-## [Install and setup](teams-install-app.md)
+## [Install and set up](teams-install-app.md)
 ## [Basic vs Enhanced Collaboration Experience](teams-basic-vs-enhanced-collaboration.md)
 ## Use Teams integration
 ### [Basic Collaboration with Teams](teams-collaboration.md)

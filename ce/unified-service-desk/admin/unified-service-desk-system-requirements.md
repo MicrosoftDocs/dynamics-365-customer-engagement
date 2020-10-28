@@ -4,7 +4,7 @@ description: "Describes the supported dependent and optional components you need
 ms.custom: 
   - dyn365-USD
   - dyn365-admin
-ms.date: 01/25/2019
+ms.date: 04/03/2020
 ms.service: 
   - dynamics-365-customerservice
 ms.topic: get-started-article
@@ -14,9 +14,10 @@ manager: shujoshi
 ---
 
 # Requirements
+
 This topic provides information about the system requirements for installing the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application and deploying the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sample applications on the Common Data Service platform instance.  
 
-<a name="hardware"></a>   
+<a name="hardware"></a>
 ## Hardware requirements for the Unified Service Desk client  
  The following table lists the minimum and recommended hardware requirements when you run the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client.  
 
@@ -44,7 +45,6 @@ This topic provides information about the system requirements for installing the
 | Screen resolution | <ul><li> 1920 x 1080 (Pixels) </li></ul> |  |
 | Magnifier | <ul><li> 100 % </li></ul> |
 
-
 ## Support for Unified Service Desk
 
 Unified Service Desk supports the latest three releases (N-2 format). On the release of the next version of Unified Service Desk, the oldest supported version will be deprecated.
@@ -59,10 +59,9 @@ Supported Unified Service Desk versions are:
 
 - Unified Service Desk 3.3
 
-
-> [!Note]
-> If you are using older versions, we recommend upgrading to the latest version of Unified Service Desk and Dynamics 365 Customer Service.
-
+> [!IMPORTANT]
+>
+> Unified Service Desk version 3.2 and earlier will not be supported after February 28, 2021; after this date, organizations with these versions will not have access to the Unified Service Desk client. If you are using Unified Service Desk version 3.2 or earlier, we recommend that you upgrade to the latest versions of Unified Service Desk and Dynamics 365 Customer Service by February 28, 2021.
 
 <a name="packdeploy"></a>   
 ## Software requirements for the Package Deployer tool  
@@ -88,7 +87,10 @@ After you enable the Web Client experience, go to the Window Navigation Rules an
 
  You can also configure a Windows application as a virtual application on Citrix XenApp 7.6 that run as a hosted application in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Integrate with Citrix applications](../integrate-citrix-applications.md)  
 
-## See also  
- [Install Unified Service Desk Client](../../unified-service-desk/admin/install-upgrade-unified-service-desk-client.md)   
- [Deploy Unified Service Desk packages to a Common Data Service platform using Package Deployer](../../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md)   
+## See also
+
+ [Install Unified Service Desk Client](../../unified-service-desk/admin/install-upgrade-unified-service-desk-client.md)
+
+ [Deploy Unified Service Desk packages to a Common Data Service platform using Package Deployer](../../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md)
+ 
  [Install and Deploy Unified Service Desk](../../unified-service-desk/admin/install-upgrade-deploy-unified-service-desk.md)

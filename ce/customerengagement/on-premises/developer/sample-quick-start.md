@@ -17,8 +17,7 @@ ms.author: nabuthuk
 manager: kvivek
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Sample: Quick start for Dynamics 365 Customer Engagement
 

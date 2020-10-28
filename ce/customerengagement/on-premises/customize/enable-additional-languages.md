@@ -1,5 +1,6 @@
 ---
 title: "Enable additional languages (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+description: Learn how to enable languages ni Dynamics 365 Customer Engagement (on-premises).
 ms.custom: 
 ms.date: 04/29/2019
 ms.reviewer: 
@@ -16,8 +17,7 @@ ms.author: matp
 manager: kvivek
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 
 # Enable additional languages 

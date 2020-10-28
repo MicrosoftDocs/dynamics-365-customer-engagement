@@ -1,7 +1,7 @@
 ---
 title: "Support for Dynamics 365 for phones and Dynamics 365 for tablets | MicrosoftDocs"
 ms.custom:
-ms.date: 11/25/2019
+ms.date: 6/2/2020
 ms.reviewer:
 ms.service: crm-online
 ms.suite:
@@ -23,7 +23,7 @@ search.app:
 ---
 # What's supported
 
-You can access Common Data Service or Dynamics 365 Customer Engagement (on-premises) data from mobile devices in different ways. You can install and use the Dynamics 365 for phones and tablets mobile app on your iOS, [!INCLUDE[tn_android](../includes/tn-android.md)], and Windows 10 devices, or you can use your tablet’s web browser to run the model-driven apps as long as your device has sufficiently high screen resolution.
+You can access customer engagement apps (such as Dynamics 365 Sales, Dynamics 365 Customer Service, and Dynamics 365 Marketing), built on Common Data Service and Dynamics 365 Customer Engagement (on-premises) on your mobile device. To do this, install the Dynamics 365 for phones and tablets mobile app on your iOS, [!INCLUDE[tn_android](../includes/tn-android.md)], and Windows 10 devices. You can also use your tablet’s web browser to run customer engagement apps as long as your device has sufficiently high screen resolution.
   
 ## Supported devices for the mobile app
   
@@ -41,15 +41,15 @@ To install the app see, [Install the app from your device’s app store](https:/
 
    
 
-## Supported tablets to run model-driven apps in your web browser 
+## Supported tablets to run customer engagement apps in your web browser 
 
-For full functionality and optimized experience, we strongly recommend that you use the Dynamics 365 for phones and tablets mobile app. If you don't have the Dynamics 365 for phones and tablets app installed, you can still use the web browser on your tablet to run the model-driven apps. 
+For full functionality and optimized experience, we strongly recommend that you use the Dynamics 365 for phones and tablets mobile app. If you don't have the Dynamics 365 for phones and tablets app installed, you can still use the web browser on your tablet to run your apps. 
 
 > [!NOTE]
-> Using the web browser on your phone to run your model-driven apps isn't supported; you must use the Dynamics 365 for phones app. 
+> Using the web browser on your phone to run your customer engagement apps is not supported; you must use the Dynamics 365 for phones app. 
 
 
-### Supported tablets to use the web browser
+## Supported tablets to use the web browser
   
 |                              Platform                             |   Versions  | Minimum Resolution or Screen Size  | 
 |--------------------------------------------------------------------|---------------|---------------|
@@ -59,13 +59,13 @@ For full functionality and optimized experience, we strongly recommend that you 
         
 
   
-Using the model-driven apps on a web browser on an iOS or Android tablet provides a similar experience to using it with a web browser on a desktop or laptop computer. However, some features are not available, including:  
+Customer engagement apps running on a web browser on an iOS or Android tablet provides a similar experience to using it with a web browser on your desktop or laptop computer. However, some features are not available on the mobile app or mobile web browser, including:
   
 - Pinch and zoom  
   
 - [!INCLUDE[pn_yammer](../includes/pn-yammer.md)]  
   
-- Reports
+- Reports 
 
 - Service Calendar 
   
@@ -83,6 +83,96 @@ Using the model-driven apps on a web browser on an iOS or Android tablet provide
 
 For more information about web browser support, see [Web application requirements for Microsoft Dynamics 365 apps](../admin/web-application-requirements.md).
 
+## Supported languages for [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] 
+
+When the application first loads after installation, it will determine the device language and load the user interface in that language.  Once you sign in and launched an app, the language will be selected based on your personal options or the base language in Common Data Service or Dynamics 365 Customer Engagement (on-premises). If a language is not supported, the user experience will be shown in English. 
+
+ [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] support the following languages:  
+  
+- Basque (Basque) - 1069  
+  
+- Bulgarian (Bulgaria) - 1026  
+  
+- Catalan (Catalan) - 1027  
+  
+- Chinese (Hong Kong S.A.R.) - 3076  
+  
+- Chinese (People's Republic of China) - 2052  
+  
+- Chinese (Simplified) - 2052  
+  
+- Chinese (Taiwan) - 1028  
+  
+- Chinese (Traditional) - 1028  
+  
+- Croatian (Croatia) - 1050  
+  
+- Czech (Czech Republic) - 1029  
+  
+- Danish - 1030  
+  
+- Dutch - 1043  
+  
+- English - 1033  
+  
+- Estonian - 1061  
+  
+- Finnish - 1035  
+  
+- French - 1036  
+  
+- Galician  
+  
+- German - 1031  
+  
+- Greek - 30  
+  
+- Hindi (India) - 91  
+  
+- Hungarian - 36  
+  
+- Indonesian - 62  
+  
+- Italian - 1040  
+  
+- Japanese - 1041  
+  
+- Kazakh - 705  
+  
+- Korean - 82  
+  
+- Latvian - 371  
+  
+- Lithuanian - 370  
+  
+- Norwegian - 47  
+  
+- Polish - 48  
+  
+- Portuguese (Brazil) - 55  
+  
+- Portuguese (Portugal) - 2070  
+  
+- Romanian - 40  
+  
+- Russian - 7  
+  
+- Serbian  
+  
+- Slovak - 421  
+  
+- Slovenian - 386  
+  
+- Spanish - 3082  
+  
+- Swedish - 46  
+  
+- Thai - 66  
+  
+- Turkish - 90  
+  
+- Ukrainian - 380  
+
 
 ## Deprecated and unsupported platforms
 
@@ -91,7 +181,7 @@ For more information about web browser support, see [Web application requirement
 - As of December 3, 2018, Microsoft Dynamics 365 for Blackberry App is deprecated and will be removed from the iOS App Store on October 31, 2019. For more information, [Dynamics 365 for Blackberry is deprecated
 ](https://docs.microsoft.com/power-platform/important-changes-coming#dynamics-365-for-blackberry-is-deprecated).
 
-- On February 21, 2018, we announced the deprecation of the Windows Phone app for Dynamics 365 apps. Effective May 22, 2018, the Windows phone app is no longer supported for model-driven apps in Dynamics 365.
+- On February 21, 2018, we announced the deprecation of the Windows Phone app for Dynamics 365 apps. Effective May 22, 2018, the Windows phone app is no longer supported to run customer engagement apps (such as Dynamics 365 Sales, Dynamics 365 Customer Service, and Dynamics 365 Marketing).
 
   
 ### See also  

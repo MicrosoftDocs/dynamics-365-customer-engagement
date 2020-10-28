@@ -1,10 +1,10 @@
 ---
 title: "Omnichannel for Customer Service for agent | MicrosoftDocs"
 description: "Learn about the Omnichannel for Customer Service for agent"
-author: kabala123
-ms.author: kabala
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
-ms.date: 07/01/2019
+ms.date: 06/18/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -24,13 +24,17 @@ Omnichannel for Customer Service is available on the following:
 
 - Omnichannel for Customer Service app (Unified Interface app)
 
+> [!IMPORTANT]
+>
+> [!INCLUDE[cc-cookies-in-omnichannel](../../includes/cc-cookies-in-omnichannel.md)]
+
 ## Videos
 
 [Overview of agent experience in Omnichannel for Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2097512)
 
 To view more videos on Omnichannel for Customer Service, see [Videos](../videos.md).
 
-## See also
+### See also
 
-- [Agents using Unified Service Desk](agent-usd/omnichannel-agent.md)
-- [Agents using Omnichannel for Customer Service app](agent-oc/omnichannel-customer-service-app-agent.md)
+[Agents using Unified Service Desk](agent-usd/omnichannel-agent.md)  
+[Agents using Omnichannel for Customer Service app](agent-oc/omnichannel-customer-service-app-agent.md)

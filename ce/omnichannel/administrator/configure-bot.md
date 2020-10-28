@@ -4,9 +4,9 @@ description: "Instructions to integrate an Azure bot in Omnichannel for Customer
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 12/13/2019
+ms.date: 09/09/2020
 ms.service: 
-  - "dynamics-365-customerservice"
+  "dynamics-365-customerservice"
 ms.topic: article
 ---
 
@@ -22,7 +22,7 @@ In Omnichannel for Customer Service, you can integrate a bot to start the conver
 
 When you integrate an Azure bot with Omnichannel for Customer Service, you get the following capabilities for bot conversations:
 
-- Seamlessly integrate your Azure bot with all channels&mdash;such as Chat, SMS, and Facebook&mdash;without needing to add channel-specific code in the bot.
+- Seamlessly integrate your Azure bot with all channels without needing to add channel-specific code in the bot.
 - Transfer bot conversations to human agents, and include the full context of the conversation.
 - Analyze the bot transcript that's available in Common Data Service after the chat is completed.
 - Configure routing rules to selectively route incoming requests to bots based on context, such as issue type or customer type. For example, you can route low-complexity issues to bots, or route the conversation to a sales or support bot based on the webpage browsing history of the customer.
@@ -39,7 +39,7 @@ When you integrate an Azure bot with Omnichannel for Customer Service, you get t
 To integrate a bot with Omnichannel for Customer Service, you must:
 
 1.	[Create a bot user](#step-1-create-a-bot-user).
-2.	[Add a bot user to the queue(s)](#step-2-add-a-bot-user-to-the-queues).
+2.	[Add a bot user to the queues](#step-2-add-a-bot-user-to-the-queues).
 3.  [Add code snippet to engage a bot](#step-3-add-code-snippet-to-engage-a-bot).
 4.	[Set escalation rules](#step-4-set-escalation-rules).
 
@@ -94,7 +94,7 @@ To create a bot user:
     > [!NOTE]
     > By default, the bot user is assigned the same capacity as other users. You must assign the maximum capacity to the bot user among all users in a queue if you want the bot to handle the customer queries first. The capacity of a bot user isn't reduced when a query is handled by it.
 
-### Step 2: Add a bot user to the queue(s)
+### Step 2: Add a bot user to the queues
 
 Queues distribute the incoming customer queries among bots and agents. You must ensure that the bot user has the highest capacity among all users in the queue. This ensures that the bot user receives the customer query first.
 
@@ -122,9 +122,6 @@ More information: [Engage a bot](../developer/bot-escalate-end-conversation.md#e
 Escalation rules allow you to create rules for the bot to escalate the queries to the appropriate agent. For escalation rules, you must create a context variable and appropriate routing rules to route the customer queries.
 
 If the bot escalates the customer query, it is routed to the appropriate queue as per the defined routing rule. If the customer query in redirected to the same queue, another agent in the queue will pick the conversation as per the capacity. For information on working with queues, see [Work with queues in Omnichannel for Customer Service](queues-omnichannel.md).
-
-> [!NOTE]
-> If you have only one queue with bot and agents, and you didn't create a routing rule, the customer query is redirected to the same queue in case of escalation and picked up by an agent.
 
 #### Create a context variable
 
@@ -197,6 +194,10 @@ You can purchase additional bot conversations from Microsoft 365 admin center.
 
 4.	Select the number of add-ons required and complete the purchase.
 
+## Known limitation
+
+Authentication cards are not supported in bots integrated with Omnichannel for Customer Service.
+
 ## Privacy notice
 
 You understand that your data may be transmitted and shared with external systems and that your data may flow outside of your organization's compliance boundary (even if your organization is in a Government Cloud environment). For example, your messages will be shared with the bot which could be interacting with a third-party system based on the integration done by you. For more information on how we process your data, please refer to the [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement).
@@ -207,4 +208,5 @@ You understand that your data may be transmitted and shared with external system
 [Work with queues in Omnichannel for Customer Service](queues-omnichannel.md)<br>
 [Create and manage routing rules](routing-rules.md)<br>
 [Add a chat widget](add-chat-widget.md)<br>
-[Enable a bot to escalate and end conversation](../developer/bot-escalate-end-conversation.md)
+[Enable a bot to escalate and end conversation](../developer/bot-escalate-end-conversation.md)  
+[Context variables for a bot](context-variables-for-bot.md)  

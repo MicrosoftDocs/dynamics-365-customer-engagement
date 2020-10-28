@@ -3,7 +3,7 @@ title: "Integrate Microsoft Dynamics 365 Customer Engagement with OneNote | Micr
 description: "Set up OneNote Integration in Dynamics 365 Customer Engagement (on-premises) Customer Engagement so that a dedicated OneNote notebook is automatically created for the selected entity records in Dynamics 365 Customer Engagement. This feature provides you the ability to easily take notes in the context of a Dynamics 365 Customer Engagement record in various formats such as pictures, drawings, formatted text (bullet points and tables), and voice recordings in a OneNote notebook. You can access the OneNote notebook directly on the activity wall in the Dynamics 365 Customer Engagement web client or from the record form in the Dynamics 365 Customer Engagement mobile apps."
 ms.custom: 
 ms.date: 02/07/2018
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -17,8 +17,7 @@ ms.author: kvivek
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Integrate Customer Engagement with OneNote
 

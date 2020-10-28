@@ -4,7 +4,7 @@ description: "Learn how to enable and use device readings in Connected Customer 
 author: lalexms
 ms.author: lalexms
 manager: shujoshi
-ms.date: 02/03/2020
+ms.date: 04/03/2020
 ms.topic: article
 ms.service: 
   - "dynamics-365-customerservice"
@@ -14,15 +14,13 @@ applies_to:
   - ""
 ---
 
-# Preview: Visualizing device readings
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+# Visualize device readings
 
 To help you understand the current state of a device, its repair history, and the effect of performed work orders, the Connected Customer Service add-in displays near realtime device readings and historical sensor measurements in a chart alongside work order details.
 
 The device readings chart is available on the IoT alert, work order, case, device, and asset forms.
 
-To enable the device readings chart, administrators need to deploy Azure Time Series (Preview) into the Azure subscription when deploying or upgrading Connected Field Service with Azure IoT Hub for their organization. Administrators do the deployment through the [IoT Deployment app (aka.ms/deploycfs).](https://aka.ms/deploycfs)  
+To enable the device readings chart, administrators need to deploy Azure Time Series (Preview) into the Azure subscription when deploying or upgrading Connected Customer Service with Azure IoT Hub for their organization. Administrators do the deployment through the IoT Deployment app.  
 
 
 ## Prerequisites
@@ -32,7 +30,7 @@ To enable the device readings chart, administrators need to deploy Azure Time Se
 
 ## Enable the device readings chart
 
-1. Open the Connected Customer Service [IoT Deployment app (aka.ms/deploycfs).](https://aka.ms/deploycfs) 
+1. Open the Connected Customer Service [IoT Deployment app](https://iotdeployment.dynamics.com/). 
 2. Select the Dynamics 365 organization where the IoT solution will be deployed. 
 3. Select the Azure subscription and the Azure Resource Group. (Note: Select **Upgrade deployment** if  you're updating an existing Connected Customer Service for IoT Hub deployment.)
 4. Select the **Deploy Time Series Insight Preview** checkbox.

@@ -1,7 +1,7 @@
 ---
-title: "Preview  Send email using the enhanced email experience in Dynamics 365 Sales (Dynamics 365 Sales Professional) | MicrosoftDocs"
+title: "Send email using the enhanced email experience in Dynamics 365 Sales (Dynamics 365 Sales Professional) | MicrosoftDocs"
 description: "Use the enhanced email experience to compose an email without leaving the context of what you are working on."
-ms.date: 10/17/2019
+ms.date: 04/03/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
@@ -10,11 +10,9 @@ ms.author: shujoshi
 manager: annbe
 ---
 
-# Preview: Send email using the enhanced email experience (Sales Professional)
+# Send email using the enhanced email experience (Sales Professional)
 
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
-The enhanced email experience allows users to compose an email without leaving the record they’re working on. With the enhanced email experience, you can:
+The enhanced email experience allows users to compose an email without leaving the record they're working on. With the enhanced email experience, you can:
 
 - Navigate to different pages without losing the email content.
 - Minimize the email window to get back to the records you were working on.
@@ -27,9 +25,6 @@ The enhanced email experience allows users to compose an email without leaving t
 > [!IMPORTANT]
 > - System administrators must enable the enhanced email experience before you can use it.
 > - The enhanced email experience is available only for email activities created from the **Timeline** section of any model-driven app. 
-> - [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]  
-> - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]
-> - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 
 Compose an email using the enhanced experience:
 

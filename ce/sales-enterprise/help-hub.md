@@ -18,6 +18,7 @@ manager: annbe
 
 <h2>Get started</h2>
 
+<li><a href="set-up-dynamics-365-sales.md" data-raw-source="[Set up Dynamics 365 Sales](set-up-dynamics-365-sales.md)">Set up Dynamics 365 Sales</a></li>
 <li><a href="overview.md" data-raw-source="[Dynamics 365 Sales Overview](overview.md)">Dynamics 365 Sales Overview</a></li>
 <li><a href="user-guide-learn-basics.md" data-raw-source="[Learn the basics](user-guide-learn-basics.md)">Learn the basics</a></li>
 <li><a href="use-sales-hub-on-dynamics-365-mobile.md" data-raw-source="[Use Sales Hub on Dynamics 365 for phones and tablets](use-sales-hub-on-dynamics-365-mobile.md)">Use Sales Hub on Dynamics 365 for phones and tablets</a></li>
@@ -31,6 +32,7 @@ manager: annbe
 <li><a href="../admin/system-settings-dialog-box-sales-tab.md" data-raw-source="[Define sales settings](../admin/system-settings-dialog-box-sales-tab.md)">Define sales settings</a></li>
 <li><a href="../admin/system-settings-dialog-box-goals-tab.md" data-raw-source="[Define Goals settings](../admin/system-settings-dialog-box-goals-tab.md)">Define Goals settings</a></li>
 <li><a href="create-edit-goal-sales.md" data-raw-source="[Create or edit goals](create-edit-goal-sales.md)">Create or edit goals</a></li>
+<li><a href="configure-forecast.md" data-raw-source="[Configure forecasts in your organization](configure-forecast.md)">Configure forecasts in your organization</a></li>
 <li><a href="../admin/set-up-sales-territories-organize-business-markets-geographical-area.md" data-raw-source="[Set up sales territories to organize business markets by geographical area](../admin/set-up-sales-territories-organize-business-markets-geographical-area.md)">Set up sales territories to organize business markets</a></li>
 <li><a href="../sales-enterprise/admin-guide.md" data-raw-source="[More help resources for admins...](../sales-enterprise/admin-guide.md)">More help resources for admins...</a></li>
 </td></tr>
@@ -41,7 +43,7 @@ manager: annbe
 <li><a href="create-edit-lead-sales.md" data-raw-source="[Create or edit leads](create-edit-lead-sales.md)">Create or edit leads</a></li>
 <li><a href="qualify-lead-convert-opportunity-sales.md" data-raw-source="[Qualify or convert leads](qualify-lead-convert-opportunity-sales.md)">Qualify or convert leads</a></li>
 <li><a href="create-edit-opportunity-sales.md" data-raw-source="[Create or edit opportunities](create-edit-opportunity-sales.md)">Create or edit opportunities</a></li>
-<li><a href="user-guide.md" data-raw-source="[More help resources for sales people...](user guide.md)">More help resources for sales people...</a></li>
+<li><a href="user-guide.md" data-raw-source="[More help resources for salespeople...](user guide.md)">More help resources for salespeople...</a></li>
 
 </td><td>
 <h2>In-app marketing</h2>
@@ -53,9 +55,8 @@ manager: annbe
 <li><a href="track-marketing-campaign-response-using-app-marketing-sales.md" data-raw-source="[Track a marketing campaign response](track-marketing-campaign-response-using-app-marketing-sales.md)">Track a marketing campaign response</a></li>
 
 <tr><td>
-<h2>Troubleshooting</h2>
-<li><a href="troubleshooting-admin.md"> Troubleshooting guide for administrators</a></li>
-<li><a href="troubleshooting.md"> Troubleshooting guide for sales people</a></li>
+<h2>Troubleshooting and FAQs</h2>
+<li><a href="troubleshooting.md"> Troubleshooting guide for Dynamics 365 Sales</a></li>
 <li><a href="faqs-sales.md"> FAQs</a></li>
 
 </td><td>
@@ -69,11 +70,14 @@ manager: annbe
 <tr><td>
 
 <h2>Develop</h2>
-<li><a href="../sales-enterprise/developer/reference/manual-forecasting-entity-reference.md" data-raw-source="[Entity reference for manual forecasting](../sales-enterprise/developer/reference/manual-forecasting-entity-reference.md)">Entity reference for manual forecasting</a></li>
-<li><a href="../sales-enterprise/developer/reference/playbook-entity-reference.md" data-raw-source="[Entity reference for playbooks](../sales-enterprise/developer/reference/playbook-entity-reference.md)">Entity reference for playbooks</a></li>
-
-</td> <td>
-
+<li><a href="../customerengagement/on-premises/developer/sales-entities-lead-opportunity-competitor-quote-order-invoice.md" data-raw-source="[Sales entities (lead, opportunity, competitor, quote, order, invoice)](../customerengagement/on-premises/developer/sales-entities-lead-opportunity-competitor-quote-order-invoice.md)">Sales entities (lead, opportunity, competitor, quote, order, invoice)</a></li>
+<li><a href="../sales-enterprise/developer/enable-sales-order-processing-integration.md" data-raw-source="[Enable sales order processing integration](../sales-enterprise/developer/enable-sales-order-processing-integration.md)">Enable sales order processing integration</a></li>
+<li><a href="../customerengagement/on-premises/developer/marketing-entities-campaign-list.md" data-raw-source="[Marketing entities (campaign, list)](../customerengagement/on-premises/developer/marketing-entities-campaign-list.md)">Marketing entities (campaign, list)</a></li>
+<li><a href="../customerengagement/on-premises/developer/goal-management-entities.md" data-raw-source="[Goal management entities](../customerengagement/on-premises/developer/goal-management-entities.md)">Goal management entities</a></li>
+<li><a href="../customerengagement/on-premises/developer/product-catalog-entities.md" data-raw-source="[Product catalog entities](../customerengagement/on-premises/developer/product-catalog-entities.md)">Product catalog entities</a></li>
+<li><a href="developer/developer-guide.md" data-raw-source="[More help resources for developers...](developer/developer-guide.md)">More help resources for developers...</a></li>
+</td>
+<td>
 <h2>GDPR</h2>
 <li><a href="../sales-enterprise/dynamics-365-sales-gdpr.md" data-raw-source="[Dynamics 365 Sales &amp; GDPR](../sales-enterprise/dynamics-365-sales-gdpr.md)">Dynamics 365 Sales &amp; GDPR</a></li>
 

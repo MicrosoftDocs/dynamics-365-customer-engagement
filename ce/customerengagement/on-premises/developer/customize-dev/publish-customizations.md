@@ -3,7 +3,7 @@ title: "Publish customizations | MicrosoftDocs"
 description: "Publishing customizations makes the Web application aware of changes to the data that affects the user interface."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -19,8 +19,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Publish customizations
 

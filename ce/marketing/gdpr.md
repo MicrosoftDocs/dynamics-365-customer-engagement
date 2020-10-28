@@ -2,7 +2,7 @@
 title: "Work with data protection and GDPR (Dynamics 365 Marketing) | Microsoft Docs  "
 description: "Protect customer privacy and remain compliant with GDPR regulations with Dynamics 365 Marketing"
 keywords: GDPR; data protection; privacy
-ms.date: 08/16/2019
+ms.date: 08/11/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -56,7 +56,7 @@ Under the GDPR, the topic of consent has become a core tenet and is included in 
 
 Dynamics 365 Marketing allows you to request, capture, and store consent. It lets you design your marketing activities to respect the consent given by your audience. It is important that you include relevant information in your marketing objects (like landing pages and email marketing message) that unambiguously informs your audience about the data you collect and the purpose of your processing. Your audience must have the option to give consent freely, make an informed decision, and be able to review, update, or revoke consent at any time.
 
-To help you with consent management and other GDPR related workloads, Dynamics 365 Marketing has the following capabilities:
+To help you with consent management and other GDPR-related workloads, Dynamics 365 Marketing has the following capabilities:
 
 - A default collection of hierarchical consent levels is provided out of the box, where higher levels of consent include lower levels.
 - Contact records include a field that stores the level of consent each contact has granted your organization.
@@ -105,13 +105,14 @@ By default, GDPR features such as consent management are disabled on new Dynamic
 
 When GDPR is enabled, you can view and set data-protection options for each contact. To work with them, open a contact record, go to its **Details** tab, and then scroll down to find the **Data protection** section.
 
-![Data protection settings for contacts](media/gdpr-contact.png "Data protection settings for contacts")
+![Data protection settings for contacts](media/gdpr-contact2.png "Data protection settings for contacts")
 
 The following settings and information are available here:
 
 - **Consent given**: Read or set the maximum consent level granted by this contact. This contact will only be able participate in marketing initiatives permitted for this consent level or lower. You should only change this setting after receiving explicit consent from this contact. Usually, you should allow contacts to change this themselves using a subscription center.
 - **Is a child**: Mark this box to indicate that this contact is a minor (usually, under 18 years old), and therefore requires extra protection.
 - **Parent or custodian**: If the contact is a child, then select their legal parent or custodian (guardian) in this lookup field. The parent or custodian must also be saved as a contact in your database.
+- **Tracking**: Choose whether to track contact interactions. If the box is set to **Do Not Allow**, Marketing will not  track public interactions (email opening, email clicks). The tracking option allows contacts to specify whether they consent to having their interaction data saved. You can trigger this field by either adding the field to client consent forms or by updating the contact data directly.
 
 ## Filter segments by consent
 
@@ -155,7 +156,7 @@ More information: [Set up double opt-in for new subscriptions and consent change
 
 ## An example of how to support data requests from your marketing audience
 
-Under GDPR, individuals have the right to submit several types of data requests to your organization. These include requests to access, correct, erase, and transmit (in a readable format) their personal data. Dynamics 365 Marketing is a very flexible and versatile system, so there are many ways to build GDPR-compliance features into it. This section provides a few examples of how to do this, but the methods you choose will depend on how your organization is structured, how it uses Dynamics 365 Marketing, and which types of customizations are in place.
+Under GDPR, individuals have the right to submit several types of data requests to your organization. These include requests to access, correct, erase, and transmit (in a readable format) their personal data. Dynamics 365 Marketing is a flexible and versatile system, so there are many ways to build GDPR-compliance features into it. This section provides a few examples of how to do this, but the methods you choose will depend on how your organization is structured, how it uses Dynamics 365 Marketing, and which types of customizations are in place.
 
 ### Set up a customer journey for accepting GDPR requests
 
@@ -163,11 +164,11 @@ One way to make it easy for individuals to submit GDPR requests to your organiza
 
 - Further information about the specific type of request and what the customer can expect upon submitting the form.
 - All the input fields required to uniquely identify the contact in your database. This is typically their email address and last name, but the actual requirements will depend on your de-duplication settings.
-- Any additional fields that might help your privacy officer fulfil the request (such as a field for general notes and comments or check boxes with special options).
+- Any additional fields that might help your privacy officer fulfill the request (such as a field for general notes and comments or check boxes with special options).
 
 Then prepare a single customer journey with three parallel pipelines, one for each request type. You could set up each pipeline as follows:
 
-1. Start with a marketing form designed to collect information relevant to the request type. When a contact submits this form, they begin travelling on that path of the journey.
+1. Start with a marketing form designed to collect information relevant to the request type. When a contact submits this form, they begin traveling on that path of the journey.
 1. Continue to an activity tile, which is configured with a task-activity template that identifies the request type (update, send, or delete) and assigns a task to the security officer responsible for responding to the request. The task will include a link to the contact record, so the officer can easily go there to read the full content of the page submission.
 1. End with an email message, which informs the customer that their request was received and provides additional links and instructions (such as a subscription center link), depending on the type of request.
 

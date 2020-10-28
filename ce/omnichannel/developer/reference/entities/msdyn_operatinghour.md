@@ -1,13 +1,12 @@
 ---
 title: "msdyn_operatinghour Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_operatinghour entity."
+ms.date: 03/23/2020
+ms.service: "crm-online"
+ms.topic: "reference"
 author: "susikka"
 ms.author: "susikka"
 manager: "shujoshi"
-ms.date: 08/29/2019
-ms.service: 
-  - crm-online
-ms.topic: "reference"
 ---
 # msdyn_operatinghour Entity Reference
 
@@ -59,6 +58,7 @@ Stores all the operating hours that are configured for an organization.
 These attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
+- [msdyn_calendarid](#BKMK_msdyn_calendarid)
 - [msdyn_Description](#BKMK_msdyn_Description)
 - [msdyn_EnableAllDays](#BKMK_msdyn_EnableAllDays)
 - [msdyn_Endtimestring](#BKMK_msdyn_Endtimestring)
@@ -94,6 +94,24 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Integer|
 
 
+### <a name="BKMK_msdyn_calendarid"></a> msdyn_calendarid
+
+**Added by**: Omnichannel - Base Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Storing Calendar Id Guid as string for WorkHourControl.|
+|DisplayName|Calendarid|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_calendarid|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
+
+
 ### <a name="BKMK_msdyn_Description"></a> msdyn_Description
 
 |Property|Value|
@@ -114,12 +132,12 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Enable work hours for all days of the week|
 |DisplayName|24/7|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|msdyn_enablealldays|
-|RequiredLevel|ApplicationRequired|
+|RequiredLevel|None|
 |Type|Boolean|
 
 #### msdyn_EnableAllDays Options
@@ -145,7 +163,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForRead|True|
 |LogicalName|msdyn_endtimestring|
 |MaxLength|10|
-|RequiredLevel|ApplicationRequired|
+|RequiredLevel|None|
 |Type|String|
 
 
@@ -169,12 +187,12 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Work days|
 |DisplayName|Work days|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|msdyn_oc_daysofweek|
-|RequiredLevel|ApplicationRequired|
+|RequiredLevel|None|
 |Type|MultiSelectPicklist|
 
 #### msdyn_oc_daysofweek Options
@@ -217,7 +235,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForRead|True|
 |LogicalName|msdyn_starttimestring|
 |MaxLength|10|
-|RequiredLevel|ApplicationRequired|
+|RequiredLevel|None|
 |Type|String|
 
 
@@ -225,7 +243,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Time zone code|
 |DisplayName|Time zone|
 |Format|TimeZone|
 |IsValidForForm|True|
@@ -233,7 +251,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |LogicalName|msdyn_timezone|
 |MaxValue|1500|
 |MinValue|-1500|
-|RequiredLevel|ApplicationRequired|
+|RequiredLevel|None|
 |Type|Integer|
 
 
@@ -241,7 +259,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Total work hours|
 |DisplayName|Total work hours|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -755,28 +773,6 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|None|
 |Type|BigInt|
 
-<a name="onetomany"></a>
-
-## One-To-Many Relationships
-
-Listed by **SchemaName**.
-
-
-### <a name="BKMK_msdyn_msdyn_operatinghour_msdyn_livechatconfig"></a> msdyn_msdyn_operatinghour_msdyn_livechatconfig
-
-**Added by**: Omnichannel – Chat Solution
-
-Same as msdyn_livechatconfig entity [msdyn_msdyn_operatinghour_msdyn_livechatconfig](msdyn_livechatconfig.md) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_livechatconfig|
-|ReferencingAttribute|msdyn_operatinghourid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_msdyn_operatinghour_msdyn_livechatconfig|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### See also
