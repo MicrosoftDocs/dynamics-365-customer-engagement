@@ -1,7 +1,7 @@
 ---
 title: "Maximize email deliverability (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to design and send marketing email messages that avoid spam filters and get opened by customers in Dynamics 365 Marketing"
-ms.date: 06/18/2020
+ms.date: 10/28/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -102,6 +102,14 @@ Dynamics 365 Marketing helps you to generate, register, and confirm DKIM keys fo
 > [!IMPORTANT]
 > If your organization uses _Domain-based Message Authentication, Reporting and Conformance_ ([DMARC](https://dmarc.org/wiki/FAQ)) to protect against phishing attacks involving your domain, then it's extra important that you set up DKIM for your sending domains as described in [Authenticate your domains](mkt-settings-authenticate-domains.md). This will help to prevent false positives during DMARC checks made by receiving systems.
 
+## Set up an SPF record
+
+The SPF (Sender Policy Framework) is an email authentication mechanism that helps prevent email spoofing. Setting up an SPF record allows an email sender to list IP addresses that are authorized to send emails on behalf of the sender's domain.
+
+The SPF record is set up as a TXT type DNS record for the sending domain. Email recipients can check the TXT record when receiving an email and reject emails that originate from unrecognized IP addresses. Implementing an SPF record for your sending domain will show recipients that your email messages were sent from a legitimate source. An "SPF PASS" result will improve your domain's reputation score in your recipients' spam filters.
+
+To to learn more about SPF records and how to set up an SPF TXT record for your sending domain, see [Create an SPF TXT record](create-spf-record.md)
+
 ## Test your deliverability
 
 Once you have all of the relevant email-authentication systems in place, we highly recommend that you test your deliverability to all of the major email hosts (such as Gmail, Outlook.com, Yahoo mail, and more), and to as many private domains as your can (including your own). To do this:
@@ -147,7 +155,7 @@ Though there can be a few advantages to arranging for a dedicated sender IP, the
 - **Maintain a regular and consistent send volume**  
     You must spread out your email sends to ensure that you send roughly the same volume every week or so. Don't try to send all your messages at once at the start of each month, for example.
 - **You should still set up DKIM**  
-    The DKIM sender-authentication standard is essential for optimizing your marketing email deliverability. It's just as important when you're using a dedicated IP as when using a shared IP, and you set it up in exactly the same way. For complete details on why this is important and how to do it, see [Set up DKIM for your sending domain](#dkim).
+    The DKIM sender-authentication standard is essential for optimizing your marketing email deliverability. It's as important when you're using a dedicated IP as when using a shared IP, and you set it up in exactly the same way. For complete details on why this is important and how to do it, see [Set up DKIM for your sending domain](#dkim).
 - **You concentrate risk on yourself and can pay a high price for any mistakes**  
     When you are the only one using your sending IP, any mistakes you make will affect your sender reputation directly, without being diluted by the large volume of compliant messages being sent by a large pool of other users.
 
