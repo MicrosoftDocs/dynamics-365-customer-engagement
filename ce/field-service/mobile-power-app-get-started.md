@@ -128,6 +128,18 @@ Consider a scenario where a Field Service Technician needs to work in the baseme
 
 The Field Service Mobile application now runs "offline by default". This is a shift from online first, offline second, to a mode where the application runs offline first and performs consistently with or without internet connectivity.  Technicians no longer need to decide to go offline or manually switch between online/offline modes within the application.
 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-offline-downloading2.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-offline-complete.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-offline-update-offline-data2.png)
+
 From the home screen, select the cloud icon in the bottom left.
 
 Then select **Download offline updates**. If you are prohibited from downloading offline profiles and the option is greyed out, you must:
