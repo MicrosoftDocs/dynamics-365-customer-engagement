@@ -127,6 +127,8 @@ For more information, see: [How to Setup Global Search](https://community.dynami
 
 Administrators can edit the data downloaded to the Field Service (Dynamics 365) mobile app in offline mode when no internet access is available. 
 
+For more details beyond this article see the topic on [Configure mobile offline synchronization for your mobile app](https://docs.microsoft.com/dynamics365/mobile-app/preview-setup-mobile-offline)
+
 > [!Note]
 > When internet access is available, users will simply see all data on the server they have access to via their security role.
 
