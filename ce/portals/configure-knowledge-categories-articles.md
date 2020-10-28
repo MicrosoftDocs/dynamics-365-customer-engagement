@@ -106,9 +106,6 @@ Following considerations apply when using collapsible sections:
 - If you select **Print**, the state of the sections from current selections persist for print preview.
 - The collapsible sections, when added to your articles, have additional JS function and CSS style for the expand/collapse button.
 
->[!IMPORTANT]
-> To use the collapsible section feature, you must enable the feature control bits (FCB) named **KMExpandCollapseEnabled** first. By default, the FCB for this feature is disabled and you will not see the collapsible button in edit mode unless the feature is enabled.
-
 ### Customize expand and collapse behavior
 
 You can customize the default CSS and JS files and create additional customization. The default CSS file name is `collapsible.css` and JavaScript file name is `collapsible.js`.
@@ -120,4 +117,3 @@ The following example shows a [web template](https://docs.microsoft.com/powerapp
 ### See also
 [Get started with the portal content editor](get-started-portal-content-editor.md)  
 [Add dynamic content and create custom templates](custom-templates-dynamic-content.md)  
-
