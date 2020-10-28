@@ -170,7 +170,6 @@ Reconfiguring deletes data and metadata for the current organization from the ca
 
 Make sure you use the Reconfigure option before you sign out. If you sign in to another organization but you wanted to delete data for the previous organization that you were logged into, then you will need to sign back into that organization and use the Reconfigure option to delete data and metadata for that organization from the cache.
 
-
 ## IoT on the Field Service (Dynamics 365) mobile app
 
 For organizations using Connected Field Service, technicians can view and interact with IoT data and actions in the Field Service (Dynamics 365) mobile app.
