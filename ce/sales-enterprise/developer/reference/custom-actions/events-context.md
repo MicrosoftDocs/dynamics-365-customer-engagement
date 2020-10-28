@@ -13,67 +13,67 @@ manager: shujoshi
 # Events and context object
 
 >[!NOTE]
->Forecasting context object that is referred here is different from the execution context of the Common Data Services. Forecasting context object is specific to forecasting and supports the advanced configurations of underlying records grid.
+>The *forecasting context object* that's referred to in this topic is different from the execution context of Common Data Service. The forecasting context object is specific to forecasting and supports the advanced configurations of the underlying records grid.
 
-## Events for underlying records grid
+## Events for the underlying records grid
 
-Events occur in forecasting for underlying records grid whenever a grid loads, data is changed, or saved. The application executes JavaScript code by associating it with a handler when the event occurs. The following events are supported in forecasting:
+Events occur in forecasting for the underlying records grid whenever a grid is loaded, data is changed, or data is saved. The application executes JavaScript code by associating it with a handler when the event occurs. The following events are supported in forecasting:
 - [OnRowLoad](#onrowload-event)
 - [OnSave](#onsave-event)
 - [OnChange](#onchange-event)
 
 The following samples scenarios are created based on the supported event handlers:
 
--	[Make grid read-only by disabling all fields](#make-grid-read-only). 
--	[Always enable only few fields based on entity](#always-enable-only-few-fields-based-on-entity).
+-	[Make a grid read-only by disabling all fields](#make-grid-read-only). 
+-	[Always enable only a few fields based on entity](#always-enable-only-few-fields-based-on-entity).
 -	[Disable editing of fields based on logic and entity](#disable-editing-of-fields-based-on-logic-and-entity).
--	[Show error notification based on value](#show-error-notification-based-on-revenue-value). 
--	[Block autosave based on estimated value using preventDefault and open a window event](#block-autosave-based-on-estimated-revenue-value). 
+-	[Show an error notification based on value](#show-error-notification-based-on-revenue-value). 
+-	[Block autosave based on the estimated value by using preventDefault, and open a window event](#block-autosave-based-on-estimated-revenue-value). 
 
 ### OnRowLoad event
 
-The `OnRowLoad` event is triggered for every underlying record loaded in the grid. The context object that is passed to `OnRowLoad` event handler contains APIs that are specific to the underlying record. 
+The `OnRowLoad` event is triggered for every underlying record loaded in the grid. The context object that's passed to the `OnRowLoad` event handler contains APIs that are specific to the underlying record. 
 
 The following are the sample scenarios that you can perform using `OnRowLoad` handler:
 
--	[Make grid read-only by disabling all fields](#make-grid-read-only). 
--	[Always enable only few fields based on entity](#always-enable-only-few-fields-based-on-entity).
+-	[Make a grid read-only by disabling all fields](#make-grid-read-only). 
+-	[Always enable only a few fields based on entity](#always-enable-only-few-fields-based-on-entity).
 -	[Disable editing of fields based on logic and entity](#disable-editing-of-fields-based-on-logic-and-entity).
 
 >[!NOTE]
->For forecast configuration, underlying records of different entities are viewed by selecting **Groupby** attribute in forecasting editable grid. To handle logic based on these entities, see samples [Always enable only few fields based on entity](#always-enable-only-few-fields-based-on-entity) and [Disable editing of fields based on logic and entity](#disable-editing-of-fields-based-on-logic-and-entity).
+>For forecast configuration, underlying records of different entities are viewed by selecting the **Groupby** attribute in the forecasting editable grid. To handle logic based on these entities, see the samples [Always enable only a few fields based on entity](#always-enable-only-few-fields-based-on-entity) and [Disable editing of fields based on logic and entity](#disable-editing-of-fields-based-on-logic-and-entity).
 
 ### OnChange event
 
-The `OnChange` event is triggered when value of a cell of forecasting editable grid is updated and the cell is out of focus.
+The `OnChange` event is triggered when the value of a cell in the forecasting editable grid is updated and the cell is out of focus.
 
 >[!NOTE]
->- For forecasting editable grid, any field change will trigger `OnChange` and `OnSave` event handlers, if exists.
->- The save will not be triggered if a field is set with an error notifications using the client API in `OnChange` handler. For notification related to forecasting client APIs, see `setNotification` API in [context.getFormContext().data.entity.attributes.getByName("Attribute Name").controls.get(0)](#context.getformcontext-data-entity-attributes-getbyname-controls-get).
->- There is no mapping between attribute to `OnChange` handler and any field change will trigger `OnChange` handler with context object parameter. To identify the attribute that triggered the handler, use `getIsDirty` function on attribute object. More information: [context.getFormContext().data.entity.attributes.getByName("Attribute Name")](#context-getformcontext-data-entity-attributes-getbyname)
+>- For the forecasting editable grid, any field change will trigger `OnChange` and `OnSave` event handlers, if they exist.
+>- The save won't be triggered if a field is set with an error notifications by using the client API in the `OnChange` handler. For notifications related to forecasting client APIs, go to the `setNotification` API in [context.getFormContext().data.entity.attributes.getByName("Attribute Name").controls.get(0)](#context.getformcontext-data-entity-attributes-getbyname-controls-get).
+>- There is no mapping between attributes to the `OnChange` handler, and any field change will trigger the `OnChange` handler with the context object parameter. To identify the attribute that triggered the handler, use the `getIsDirty` function on the attribute object. More information: [context.getFormContext().data.entity.attributes.getByName("Attribute Name")](#context-getformcontext-data-entity-attributes-getbyname)
 
-The following is a sample scenario that you can perform using `OnChange` handler:
+The following is a sample scenario that you can perform by using the `OnChange` handler:
 
 -	[Show error notification based on value](#show-error-notification-based-on-revenue-value). 
 
 ### OnSave event
 
-The `onSave` event is triggered when a value is changed in a cell of forecasting editable grid and the cell is out of focus. However, if `OnChange` handler exists for the same forecast configuration, `OnSave` handler is invoked after `OnChange` handler.
+The `OnSave` event is triggered when a value is changed in a cell of the forecasting editable grid and the cell is out of focus. However, if the `OnChange` handler exists for the same forecast configuration, the `OnSave` handler is invoked after the `OnChange` handler.
 
-The `OnSave` handler is invoked before the actual save of field.
+The `OnSave` handler is invoked before the actual save of the field.
 
 >[!NOTE]
->- For forecasting editable grid, any field change will trigger `OnChange` and `OnSave` event handlers, if exists.
->- The save will not be triggered if a field is set with an error notifications using the client API in `onSave` handler. For notification related to forecasting client APIs, see `setNotification` API in [context.getFormContext().data.entity.attributes.getByName("Attribute Name").controls.get(0)](#context.getformcontext-data-entity-attributes-getbyname-controls-get).
->- There is no mapping between attribute to `onSave` handler and any field change will trigger `onSave` handler with context object parameter. To identify the attribute that triggered the handler, use `getIsDirty` function on attribute object. More information: [context.getFormContext().data.entity.attributes.getByName("Attribute Name")](#context-getformcontext-data-entity-attributes-getbyname)
+>- For the forecasting editable grid, any field change will trigger `OnChange` and `OnSave` event handlers, if they exist.
+>- The save won't be triggered if a field is set with an error notifications by using the client API in the `OnSave` handler. For notification related to forecasting client APIs, go to the `setNotification` API in [context.getFormContext().data.entity.attributes.getByName("Attribute Name").controls.get(0)](#context.getformcontext-data-entity-attributes-getbyname-controls-get).
+>- There's no mapping between attributes to the `OnSave` handler, and any field change will trigger the `OnSave` handler with the context object parameter. To identify the attribute that triggered the handler, use the `getIsDirty` function on the attribute object. More information: [context.getFormContext().data.entity.attributes.getByName("Attribute Name")](#context-getformcontext-data-entity-attributes-getbyname)
 
-The following is a sample scenario that you can perform using `OnSave` handler:
+The following is a sample scenario that you can perform by using the `OnSave` handler:
 
--	[Block autosave based on estimated value using preventDefault and open a window event](#block-autosave-based-on-estimated-revenue-value). 
+-	[Block autosave based on the estimated value using preventDefault, and open a window event](#block-autosave-based-on-estimated-revenue-value). 
 
-## Context object for event handlers in editable grid
+## Context object for event handlers in the editable grid
 
-The context object contains set of APIs to perform operations specific to an underlying record in a forecast. This context object is passed as parameters to the event handlers in the forecasting editable grid view.
+The context object contains a set of APIs to perform operations specific to an underlying record in a forecast. This context object is passed as a parameter to the event handlers in the forecasting editable grid view.
 
 The following APIs are supported:
 
@@ -94,7 +94,7 @@ This returns an entity object and has the following methods:
 |--------|-------------|-------------|
 | `getEntityName()` | String | Returns a string representing the logical name of the entity for the record. |
 | `getId()` | String | Returns a string representing the GUID value for the record. |
-| `attributes` | List |Returns a list of attributes that are related to the view and entity that is loaded as part of forecasting editable grid. You can perform the following operations:<br>- `context.getFormContext().data.entity.attributes.forEach` <br>- `context.getFormContext().data.entity.attributes.getByName(arg)`<br>- `context.getFormContext().data.entity.attributes.get(index)` |
+| `attributes` | List |Returns a list of attributes that are related to the view and an entity that's loaded as part of the forecasting editable grid. You can perform the following operations:<br>- `context.getFormContext().data.entity.attributes.forEach` <br>- `context.getFormContext().data.entity.attributes.getByName(arg)`<br>- `context.getFormContext().data.entity.attributes.get(index)` |
 
 <a name=context-getformcontext-data-entity-attributes-getbyname></a>
 #### context.getFormContext().data.entity.attributes.getByName("Attribute Name")
@@ -105,29 +105,29 @@ This returns an attribute object and has the following methods:
 |--------|-------------|-------------|
 | `getName()` | String | Returns a string that represents the logical name of the attribute. |
 | `getValue()` | -- | Retrieves the data value for an attribute. |
-| `getIsDirty()` | Boolean | Returns a boolean value indicating if there are any unsaved changes to the attribute value. |
-| `controls` | List | Returns a list of controls for each attribute object. <br> **Note**: Controls object list length is always 1 and get(0) can be directly used. |
+| `getIsDirty()` | Boolean | Returns a Boolean value indicating whether there are any unsaved changes to the attribute value. |
+| `controls` | List | Returns a list of controls for each attribute object. <br> **Note**: The `controls` object list length is always 1, and `get(0)` can be directly used. |
 
 <a name=context.getformcontext-data-entity-attributes-getbyname-controls-get></a>
 #### context.getFormContext().data.entity.attributes.getByName("Attribute Name").controls.get(0)
 
-This returns a control object mapping to attribute and has the following methods:
+This returns a control object mapping to the attribute and has the following methods:
 
 | Method | Return type | Description |
 |--------|-------------|-------------|
-| `getDisabled()` | Boolean | Returns whether the control is disabled or not. |
-| `setDisabled(bool)` | -- | Sets disabled value (true or false) to control. |
-| `setNotification(message: string, uniqueId?: string)` | Boolean | Displays an error message for the control to indicate that data isn’t valid. When this method is used,  a red cross icon appears next to the control within the cell. Hovering over the error icon will display the provided message. Selecting the error icon will reload the row and undo any changes. The `uniqueId` is used to clear this message when using the `clearNotification` method. |
-| `clearNotification(uniqueId?: string)` | Boolean | Removes a message that is already displayed for a control. If no unique ID is provided, all notifications for that control are removed. |
+| `getDisabled()` | Boolean | Returns whether the control is disabled. |
+| `setDisabled(bool)` | -- | Sets the disabled value (true or false) to the control. |
+| `setNotification(message: string, uniqueId?: string)` | Boolean | Displays an error message for the control to indicate that data isn’t valid. When this method is used, a red cross icon appears next to the control within the cell. Hovering over the error icon will display the provided message. Selecting the error icon will reload the row and undo any changes. The `uniqueId` is used to clear this message when using the `clearNotification` method. |
+| `clearNotification(uniqueId?: string)` | Boolean | Removes a message that's already displayed for a control. If no unique ID is provided, all notifications for that control are removed. |
 
 
 > [!NOTE]
-> The function names in JavaScript file should match the event names and must accept context object parameter.   
+> We recommend that the function names in the JavaScript file must match the event names and must accept the context object parameter.
 
 <a name=make-grid-read-only></a>
 **Example 1:**
 
-Let's create a JavaScript to make an editable forecasting grid READ-ONLY. Also, the `onRowLoad` function is called for each row when the grid is loaded and saved successfully. 
+Let's create JavaScript code to make an editable forecasting grid READ-ONLY. Also, we'll call the `OnRowLoad` function for each row when the grid is loaded and saved successfully.
  
 ```JavaScript
 function OnRowLoad(executionContext) {
@@ -143,7 +143,7 @@ function OnRowLoad(executionContext) {
 <a name=always-enable-only-few-fields-based-on-entity></a>
 **Example 2:**
 
-Let's create a JavaScript to disable all fields except few for Opportunity entity only. Also, the `OnRowLoad` function is called for each row when the grid is loaded and saved successfully.
+Let's create JavaScript code to disable all fields except a few for the Opportunity entity only. Also, we'll call the `OnRowLoad` function for each row when the grid is loaded and saved successfully.
 
 ```JavaScript
 function OnRowLoad(executionContext) {
@@ -169,18 +169,19 @@ function OnRowLoad(executionContext) {
 ```
 
 <a name=disable-editing-of-fields-based-on-logic-and-entity></a>
+
 **Example 3:**
 
-Let's create a JavaScript to handle different entities for the loaded forecast configuration. 
+Let's create JavaScript code to handle different entities for the loaded forecast configuration. 
 
-For an Opportunity entity, the script will disable the following: 
+For an Opportunity entity, the script will disable the following:
 - Name column
-- actualRevenue and actualCloseData if the forecastCategory value is in best case, committed, omitted, or pipeline.
-- estimatedRevenue & estimatedCloseDate if forecastCategory value is in won or lost.
+- `actualRevenue` and `actualCloseData` if the `forecastCategory` value is best case, committed, omitted, or pipeline.
+- `estimatedRevenue` and `estimatedCloseDate` if the `forecastCategory` value is won or lost.
 
-Similarly, the script will disable name column for Account entity and disable all columns for other entities.
+Similarly, the script will disable the name column for the Account entity and disable all columns for other entities.
 
-Also, the `OnRowLoad` function is called for each row when the grid is loaded and saved successfully.
+Also, we'll call the `OnRowLoad` function for each row when the grid is loaded and saved successfully.
  
 
 ```JavaScript
@@ -242,7 +243,7 @@ function OnRowLoad(executionContext) {
 <a name=show-error-notification-based-on-revenue-value> </a>
 **Example 4:**
 
-Let's create a validation JavaScript that will block save and show error notification on estimated revenue column when the value is less than 10. Also, the error notification will be removed and save is allowed when the estimated revenue column value is corrected to be greater than or equal to 10. Here, `OnChange` function is invoked when any field's value is updated on the editable grid.
+Let's create a validation JavaScript file that will block save and show an error notification on the estimated revenue column when the value is less than 10. Also, we'll remove the error notification and allow save when the estimated revenue column value is corrected to be greater than or equal to 10. Here, the `OnChange` function is invoked when any field's value is updated on the editable grid.
 
 ```JavaScript
 
@@ -281,10 +282,10 @@ This returns a `webApiContext` object and has the following methods:
 
 | Method | Description |
 |--------|-------------|
-| `retrieveRecord(entityLogicalName, id, options)`<br>`then (successCallback, errorCallback);` | Retrieves an entity record. More information: [retrieveRecord (Client API reference)](https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/xrm-webapi/retrieverecord). |
-| `updateRecord(entityLogicalName, id, data)`<br>`then(successCallback, errorCallback);` | Updates an entity record. More information: [updateRecord (Client API reference)](https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/xrm-webapi/updaterecord). |
-| `createRecord(entityLogicalName, data)`<br>`then(successCallback, errorCallback);` | Creates an entity record. More information: [createRecord (Client API reference)](https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/xrm-webapi/createrecord). |
-| `deleteRecord(entityLogicalName, id)`<br>`then(successCallback, errorCallback);` | Deletes an entity record. More information: [deleteRecord (Client API reference)](https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/xrm-webapi/deleterecord). |
+| `retrieveRecord(entityLogicalName, id, options)`<br>`then (successCallback, errorCallback);` | Retrieves an entity record. More information: [retrieveRecord (Client API reference)](https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/xrm-webapi/retrieverecord) |
+| `updateRecord(entityLogicalName, id, data)`<br>`then(successCallback, errorCallback);` | Updates an entity record. More information: [updateRecord (Client API reference)](https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/xrm-webapi/updaterecord) |
+| `createRecord(entityLogicalName, data)`<br>`then(successCallback, errorCallback);` | Creates an entity record. More information: [createRecord (Client API reference)](https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/xrm-webapi/createrecord) |
+| `deleteRecord(entityLogicalName, id)`<br>`then(successCallback, errorCallback);` | Deletes an entity record. More information: [deleteRecord (Client API reference)](https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/xrm-webapi/deleterecord) |
 
 <a name=api-context-geteventargs-preventdefault></a>
 ### context.getEventArgs().preventDefault()
@@ -294,7 +295,7 @@ The `preventDefault()` method is available only within the `OnSave` event. Calli
 <a name=block-autosave-based-on-estimated-revenue-value></a>
 **Example:**
 
-Let's create a sample JavaScript to open opportunities grid, and block auto save event and open a window alert if estimated revenue value is less than 10. Also, allow auto save event if the estimated revenue value is greater than or equal to 10.
+Let's create sample JavaScript to open the opportunities grid, and block the auto save event and open a window alert if the estimated revenue value is less than 10. Also, we'll allow the auto save event if the estimated revenue value is greater than or equal to 10.
 
 ```JavaScript
 // OnSave function will be invoked whenever grid attempts to save changes made to any field. 
