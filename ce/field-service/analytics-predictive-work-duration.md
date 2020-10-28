@@ -214,3 +214,15 @@ You'll find the following charts on the resource duration reports.
 - **Actual duration**: How much time was actually spent working on a requirement. This value is calculated by _End time_ of booking minus the _actual arrival time_ of booking minus the *On break* duration of the booking journal related to the booking (formally called the **Bookable** Resource Booking).
 
 - **Predicted duration**: How much time the AI model "thinks" the job will take based on historical information.
+
+### msdyn_AnalyticsSaveDataInConfigStore custom action
+
+This custom action is shipped as part of insights and analytics features in Dynamics 365, and it's for internal use only. Disabling this custom action will break these features. Contact Microsoft support if you have any questions.
+
+#### Parameters
+
+| Name | Type | Required | Description |
+|----------|----------|----------|---------|
+| Key | String  |Yes | For internal use only. |
+| Value | String | Yes | For internal use only. |
+| ConfigName | String | No | For internal use only. |

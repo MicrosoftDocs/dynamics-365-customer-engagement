@@ -164,6 +164,18 @@ Get an error message? See the following table for a list of errors and what you 
 |    Oops! There was a problem rendering the report.                                                                              |    Refresh the report; if it doesn’t work, contact Microsoft Support and create a support ticket.    |
 |    Oops! There was a problem rendering the report, please try again.                                                            |    Refresh the report; if it doesn’t work, contact Microsoft Support and create a support ticket.    |
 
+### msdyn_AnalyticsSaveDataInConfigStore custom action
+
+This custom action is shipped as part of insights and analytics features in Dynamics 365, and it's for internal use only. Disabling this custom action will break these features. Contact Microsoft support if you have any questions.
+
+#### Parameters
+
+| Name | Type | Required | Description |
+|----------|----------|----------|---------|
+| Key | String  |Yes | For internal use only. |
+| Value | String | Yes | For internal use only. |
+| ConfigName | String | No | For internal use only. |
+
 ### Known issues
 
 - Reports don't render in Internet Explorer 11.

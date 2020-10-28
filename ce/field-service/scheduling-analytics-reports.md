@@ -243,4 +243,14 @@ In order to share the resource and utilization reports, follow steps 1 through 5
 | India | IND |
 | Great Britain |GBR |
 
+### msdyn_AnalyticsSaveDataInConfigStore custom action
 
+This custom action is shipped as part of insights and analytics features in Dynamics 365, and it's for internal use only. Disabling this custom action will break these features. Contact Microsoft support if you have any questions.
+
+#### Parameters
+
+| Name | Type | Required | Description |
+|----------|----------|----------|---------|
+| Key | String  |Yes | For internal use only. |
+| Value | String | Yes | For internal use only. |
+| ConfigName | String | No | For internal use only. |
