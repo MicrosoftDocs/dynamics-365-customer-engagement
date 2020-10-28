@@ -276,7 +276,13 @@ Because the Dynamics 365 Field Service mobile app is built on Microsoft's Power 
 
 ## Configuration considerations
 
+### Offline sync filters
+
 - **Offline profiles get updated**. Note that the default Offline Profile may receive updates over time, but updates will come in an unpublished state. This will allow an organization to review the updates and decide if they want to take the update or continue with previous version.  If entities in the default Offline Profile is modified, those entities will be considered unmanaged and will not receive future updates while unmodified entities are still eligible for update.
+
+- **Sync conflicts.** With default settings, if there is a conflict between data on the device and data on the service, the device data will win and overwrite data on the server. System administrators can adjust this where an error can be thrown in the application in case of conflict.
+In the future there will be more configuration options to handle unique data conflict scenarios.
+
 
 ## Additional notes
 
@@ -299,3 +305,7 @@ Then select **Mobile Offline Profiles**. Choose the **Field Service Mobile - Off
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Dynamics 365 Settings, showing the Field Service Mobile offline profile.](./media/mobile-2020-offline-profile-entities.png)
 
+### Known limiations
+
+- If a record is created from the device while in offline mode, and that record does not meet filter conditions, then the record does not get re-synchronized from the service until conditions are met.
+- If commands or capabilities are setup to work with internet connectivity but not in offline mode, those capabilities should be reviewed to confirm they are calling correct APIs see: xml.webapi.online.

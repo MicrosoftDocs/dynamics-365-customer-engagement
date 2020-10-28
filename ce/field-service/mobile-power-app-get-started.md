@@ -148,13 +148,27 @@ In addition, technicians have the option to **Update offline data** manually by 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-offline-update-offline-data2.png)
 
-You can also update data just for a particular entity using the “Refresh” option in your view.  For example, you can refresh the Bookings by hitting “Refresh” option here.
+There may be times when a technician has internet connectivity and will want to sync a specific view, such as if they want to check for new bookings on their calendar before starting to drive, or to check for updates on a work order made by crew members.  To do this the technician simply needs to click the “Refresh” option from the application commanding bar of the view. For example, you can refresh the Bookings by hitting “Refresh” option here.
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-offline-refresh.png)
 
 
+## Delete data and clear cache from device
+
+If you want to remove all your cached data before giving the device to someone else, you need to reconfigure the app.
+
+Go to the home sitemap then select the person icon in the to left. 
+
+Then select **Reconfigure**.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-offline-reconfigure.png)
+
+Reconfiguring deletes data and metadata for the current organization from the cache, however do not rely on this as a security measure.
+
+Make sure you use the Reconfigure option before you sign out. If you sign in to another organization but you wanted to delete data for the previous organization that you were logged into, then you will need to sign back into that organization and use the Reconfigure option to delete data and metadata for that organization from the cache.
 
 
 ## IoT on the Field Service (Dynamics 365) mobile app
