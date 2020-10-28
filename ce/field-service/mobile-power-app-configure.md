@@ -133,6 +133,21 @@ For more details beyond this article see the topic on [Configure mobile offline 
 2. Add your user to an offline profile.
 3. Ensure your user has the **Field Service - Resource** security role. See the section: **Configure the Field Service (Dynamics 365) mobile app**.
 
+offline-2020-ppac
+
+offline-2020-ppac-settings
+
+offline-2020-ppac-mobile-configuration
+
+mobile-2020-offline-profile-ppac
+
+mobile-2020-offline-profile-add-user
+
+mobile-2020-offline-ppac-options
+
+
+mobile-2020-offline-ppac-brb-custom-filter
+
 > [!Note]
 > When internet access is available, users will simply see all data on the server they have access to via their security role.
 
