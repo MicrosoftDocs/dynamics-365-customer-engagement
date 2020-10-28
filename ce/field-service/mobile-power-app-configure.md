@@ -148,48 +148,21 @@ Select **Settings** at the top.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/offline-2020-ppac-settings.png)
 
+Go to **Users + Permissions section > Mobile configuration**. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/offline-2020-ppac-mobile-configuration.png)
+
+Choose the **Field Service Mobile - Offline Profile**, which is the default configuration for offline data that is included with the Field Service app. The profile dictates which entities and how many records of each entity will be downloaded in offline mode.
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-offline-profile-ppac.png)
 
+Add the users who need to work offline in the right **USERS** panel. Users must be added here in order to download data offline.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-offline-profile-add-user.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-2020-offline-ppac-options.png)
-
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-2020-offline-ppac-brb-custom-filter.png)
-
-
-
-
-
-Go to **Settings** > **Mobile Offline**.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the Settings menu in Dynamics 365 in a browser.](./media/mobile-2020-admin-mobile-offline.png)
-
-Then select **Mobile Offline Profiles**. Choose the **Field Service Mobile - Offline Profile**, which is the default configuration for offline data that is included with the Field Service app.
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Dynamics 365 settings, showing the All Mobile Offline Profiles screen.](./media/mobile-2020-offline-profile.png)
-
-The profile dictates which entities and how many records of each entity will be downloaded in offline mode.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Dynamics 365 Settings, showing the Field Service Mobile offline profile.](./media/mobile-2020-offline-profile-entities.png)
-
-Add the users who need to work offline in the right **USERS** panel. Users must be added here in order to download data offline.
 
 For each entity, you can choose a data download filter:
 
@@ -198,35 +171,35 @@ For each entity, you can choose a data download filter:
 3. Other data filter
 4. Custom data filter
 
-For example, the **Bookable Resource Booking** (in other words, the booking) entity has a data download filter set to **custom data filter** that downloads resource bookings that start or end in the next seven days or yesterday.
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Dynamics 365 Settings showing the mobile offline profile for a bookable resource booking, with attention to the "Define Filter Rules" option.](./media/mobile-2020-offline-profile-bookable-resource-booking.png)
+> ![Screenshot of ](./media/mobile-2020-offline-ppac-options.png)
 
-For another example, the **Work Order Product** entity has a data download filter set to **Download related data only**, which means that only work order products related to downloaded work orders are available offline. To accomplish this, the work order product mobile offline profile item was listed as an associated profile item of the work order offline profile, as seen in the following screenshot.
+For example, the **Bookable Resource Booking** (in other words, the booking) entity has a data download filter set to **custom data filter** that downloads resource bookings that start or end in the next seven days or today.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Dynamics 365 Settings showing the mobile offline profile for a bookable resource booking, with attention to the "Define Filter Rules" option.](./media/mobile-2020-offline-profile-bookable-resource-booking.png)
+> ![Screenshot of ](./media/mobile-2020-offline-ppac-brb-custom-filter.png)
 
-> [!Note]
-> By default, work orders related to downloaded bookable resource bookings are available offline. This creates a chain of entities and records that are offline: bookings > work orders > work order products. This means that bookings scheduled to you are downloaded, work orders related to those bookings are downloaded, and work order products related to those work orders are downloaded.
+**Save and Publish** the offline profile.
 
-For more information, see the article on [Dynamics 365 offline profiles](https://docs.microsoft.com/dynamics365/mobile-app/setup-mobile-offline-for-admin#step-1-enable-entities-for-mobile-offline-synchronization).
 
-### Create new offline profiles
+### Add the offline profile to the app
 
-If you create a new offline profile, you'll need to add it to the Field Service Mobile app in the app designer.
-
-Go to the app designer.
+Go to your Dynamics 365 apps by going to "yourenvironment.crm.dynamics.com/apps" then go to the app designer for Field Service Mobile.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the app designer.](./media/mobile-2020-open-app-designer.png)
 
-Go to **Properties** and add the offline profile.
+Go to **Properties** and add the offline profile you just published if it is not already there.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the app designer, on the Field Service Mobile properties tab.](./media/mobile-2020-add-offline-profiles.png)
+
+> [!Note]
+> If you create a new offline profile, you'll need to add it to the Field Service Mobile app in the app designer as well.
+
+
 
 ## Offline JavaScript
 
@@ -292,4 +265,25 @@ Because the Dynamics 365 Field Service mobile app is built on Microsoft's Power 
 | Event Handling (On Save, On Load, etc.) | 	[Events in forms and grids in model-driven apps](https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/events-forms-grids) | 
 | Business Logic / JavaScript	 | [Apply business logic using client scripting in model-driven apps using JavaScript](https://docs.microsoft.com/powerapps/developer/model-driven-apps/client-scripting) | 
 | Client Scripting | 	[Apply business logic using client scripting in model-driven apps using JavaScript](https://docs.microsoft.com/powerapps/developer/model-driven-apps/client-scripting) | 
+
+## Additional notes
+
+### Legacy offline sync filter interface
+
+In previous versions, you may edit offline sync filters in the legacy web interface shown below.
+
+Go to **Settings** > **Mobile Offline**.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the Settings menu in Dynamics 365 in a browser.](./media/mobile-2020-admin-mobile-offline.png)
+
+Then select **Mobile Offline Profiles**. Choose the **Field Service Mobile - Offline Profile**, which is the default configuration for offline data that is included with the Field Service app.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Dynamics 365 settings, showing the All Mobile Offline Profiles screen.](./media/mobile-2020-offline-profile.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Dynamics 365 Settings, showing the Field Service Mobile offline profile.](./media/mobile-2020-offline-profile-entities.png)
 
