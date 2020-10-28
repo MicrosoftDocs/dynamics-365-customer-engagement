@@ -98,7 +98,7 @@
 ## Field Service Mobile (Xamarin app)
 ### [Overview](field-service-mobile-overview.md)
 ### [Install and Setup](field-service-mobile-app-user-guide.md)
-### [Use](field-service-mobile-use.md)
+### [Use the app](field-service-mobile-use.md)
 ### [Customizations and configurations](mobile-app-configuration-customization.md)
 ### [Activate mobile configurator](activate-fs-mobile-app-license.md)
 ### [Map API key](mobile-enable-maps.md)
