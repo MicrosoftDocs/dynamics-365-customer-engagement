@@ -31,12 +31,6 @@ search.app:
 
 Administrators can edit how the Field Service (Dynamics 365) mobile app looks and functions for technicians.
 
-Let's walk through three common configurations:
-
-1. Editing the entities displayed in the home screen (sitemap).
-2. Editing the fields and layout in the work order and booking forms.
-3. Editing the entities and records downloaded to the mobile phone in offline mode for use without internet access.
-
 ## Edit Sitemap entities on home screen
 
 Sign in to Dynamics 365 as a system administrator.
@@ -125,39 +119,59 @@ For more information, see: [How to Setup Global Search](https://community.dynami
 
 ## Configure offline data and sync filters
 
-Administrators can edit the data downloaded to the Field Service (Dynamics 365) mobile app in offline mode when no internet access is available. 
+Administrators can control what datais downloaded to the Field Service (Dynamics 365) mobile app in offline mode when no internet access is available. At a high level this is done achieved by:
 
-For more details beyond this article see the topic on [Configure mobile offline synchronization for your mobile app](https://docs.microsoft.com/dynamics365/mobile-app/preview-setup-mobile-offline)
-
-1. Set up an offline profile.
-2. Add your user to an offline profile.
-3. Ensure your user has the **Field Service - Resource** security role. See the section: **Configure the Field Service (Dynamics 365) mobile app**.
-
-offline-2020-ppac
-
-offline-2020-ppac-settings
-
-offline-2020-ppac-mobile-configuration
-
-mobile-2020-offline-profile-ppac
-
-mobile-2020-offline-profile-add-user
-
-mobile-2020-offline-ppac-options
-
-
-mobile-2020-offline-ppac-brb-custom-filter
-
-> [!Note]
-> When internet access is available, users will simply see all data on the server they have access to via their security role.
-
-> [!Note]
-> The mobile app will sync new data every 5 minutes. This is currently not configurable. 
-
-For more information, see the article on [setting up mobile offline synchronization](https://docs.microsoft.com/dynamics365/mobile-app/preview-setup-mobile-offline). 
+1. Setting up an offline profile (one exists by default).
+2. Adding users to the offline profile.
+3. Publishing the offline profile
+4. Adding the offline profile to the Field Service Mobile model driven app. 
 
 > [!div class="mx-imgBorder"]
-> ![Simulated image showing the Field Service (Dynamics 365) mobile app on a mobile device, showing the offline status screen.](./media/mobile-2020-offline-list.png)
+> ![Screenshot of ](./media/mobile-2020-offline-complete.png)
+
+> [!Note]
+> The mobile app will sync new data automatically every 5 minutes. This is currently not configurable. 
+
+
+
+For more details on offline profiles, see the topic on [setting up mobile offline synchronization](https://docs.microsoft.com/dynamics365/mobile-app/preview-setup-mobile-offline). 
+
+
+Go to the Power platform admin center located at [https://admin.powerplatform.microsoft.com/](https://admin.powerplatform.microsoft.com/) then find a selct your environment. 
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/offline-2020-ppac.png)
+
+Select **Settings** at the top.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/offline-2020-ppac-settings.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/offline-2020-ppac-mobile-configuration.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-offline-profile-ppac.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-offline-profile-add-user.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-offline-ppac-options.png)
+
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-offline-ppac-brb-custom-filter.png)
+
+
+
+
 
 Go to **Settings** > **Mobile Offline**.
 
