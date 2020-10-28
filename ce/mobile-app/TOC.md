@@ -7,7 +7,7 @@
 
 # Set-up mobile offline
 ## [Configure mobile offline](preview-setup-mobile-offline.md)
-## [Set-up mobile offline (using old admin interface)](setup-mobile-offline-for-admin.md)
+## [Configure mobile offline(using old admin interface)](setup-mobile-offline-for-admin.md)
 ## [Mobile offline capabilities and limitations](mobile-offline-capabilities.md)
 
 # Install the mobile app

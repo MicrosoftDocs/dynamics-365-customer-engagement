@@ -64,7 +64,7 @@ Microsoft Dynamics 365 for Outlook is not enabled on Common Data Service 2.0.
  Some [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] add-ins can cause issues like connection failure and slow program startup and might be incompatible with [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. Try disabling suspect add-ins to see if that resolves your issue.  
   
 ### Problem when using a proxy auto-config (PAC) file  
- [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] might have authentication and connection issues when using a proxy PAC file configured in workstation browsers. For resolution, see [Microsoft Dynamics CRM for Outlook client crashes when using a Proxy PAC file](https://support.microsoft.com/kb/2664157).  
+ [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] might have authentication and connection issues when using a proxy PAC file configured in workstation browsers. 
   
 ### Can’t add a related record type when offline  
  If you’re offline, you can’t add a related record type by using the **Add** button (+). Add the related record type while you’re online, and then go offline.  
