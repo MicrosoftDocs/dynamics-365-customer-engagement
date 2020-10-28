@@ -1,5 +1,6 @@
 ---
-title: "Install Dynamics 365 Field Service (Dynamics 365 Field Service) | MicrosoftDocs"
+title: "Install Dynamics 365 Field Service | MicrosoftDocs"
+description: Learn how to install Dynamics 365 Field Service.
 ms.custom: dyn365-fieldservice
 ms.date: 10/13/2020
 ms.reviewer: krbjoran
@@ -44,7 +45,7 @@ There are a few ways you can get access to Dynamics 365 Field Service:
 
 If the installation is complete, the "Field Service" and "Field Service Mobile" apps will appear in the list of apps when you log in. You can find these apps by going to:
 
-    https://[your-environment-name].crm.dynamics.com/apps
+```https://[your-environment-name].crm.dynamics.com/apps```
    
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service apps](media/admin-apps.png)
@@ -52,10 +53,7 @@ If the installation is complete, the "Field Service" and "Field Service Mobile" 
 
 ## Install and set up the Dynamics 365 Field Service mobile app
 
-Next you need to set up the mobile app that technicians will use to view and complete work orders in the field. This involves:
-
-See the topic on [Get started with the Field Service (Dynamnics 365) mobile app](mobile-power-app-get-started.md)
-
+Next, set up the mobile app that technicians will use to view and complete work orders in the field. For more information, see the article on [getting started with the Field Service (Dyanmics 365) mobile app](mobile-power-app-get-started.md).
 
 
 ## Next steps

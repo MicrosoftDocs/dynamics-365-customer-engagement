@@ -1,5 +1,6 @@
 ---
-title: "Overview of Field Service Mobile | MicrosoftDocs"
+title: "Overview of Field Service Mobile (Xamarin app)" | MicrosoftDocs"
+description: Learn general capabilities of the Field Service Mobile (Xamarin app).
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 05/29/2019
@@ -26,7 +27,7 @@ search.app:
   - D365FS
 ---
 
-# Overview of Field Service Mobile
+# Overview of Field Service Mobile (Xamarin app)
 
 Field technicians use the Field Service Mobile app to view their schedules, work orders, equipment details, and more as they travel to various customer locations each day. In this topic, we'll take a look at some basic details of the application.
 
