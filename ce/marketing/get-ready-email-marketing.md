@@ -170,6 +170,7 @@ To ensure that you always have the correct IP addresses, you should refer to the
 
 The follow code snippet is an example section from the IP ranges document. The subnets are listed in this section of the JSON file:
 
+```
       "name": "Dynamics365ForMarketingEmail",
       "id": "Dynamics365ForMarketingEmail",
       "properties": {
@@ -186,6 +187,7 @@ The follow code snippet is an example section from the IP ranges document. The s
         ]
       }
     }
+```
 
 ### See also
 
