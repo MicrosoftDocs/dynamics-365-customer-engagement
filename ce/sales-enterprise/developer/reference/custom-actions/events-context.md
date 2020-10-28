@@ -11,7 +11,7 @@ manager: shujoshi
 
 ---
 # Events and context object
-<!--note from editor: Please note that I didn't edit the comments in the script, and I didn't check links.-->
+
 >[!NOTE]
 >The *forecasting context object* that's referred to in this topic is different from the execution context of Common Data Service. The forecasting context object is specific to forecasting and supports the advanced configurations of the underlying records grid.
 
@@ -48,9 +48,9 @@ The following are the sample scenarios that you can perform using `OnRowLoad` ha
 The `OnChange` event is triggered when the value of a cell in the forecasting editable grid is updated and the cell is out of focus.
 
 >[!NOTE]
->- For the forecasting editable grid, any field change will trigger `OnChange` and `OnSave` event handlers, if they exist.<!--note from editor: Is this what "if exists" means?-->
+>- For the forecasting editable grid, any field change will trigger `OnChange` and `OnSave` event handlers, if they exist.
 >- The save won't be triggered if a field is set with an error notifications by using the client API in the `OnChange` handler. For notifications related to forecasting client APIs, go to the `setNotification` API in [context.getFormContext().data.entity.attributes.getByName("Attribute Name").controls.get(0)](#context.getformcontext-data-entity-attributes-getbyname-controls-get).
->- There is no mapping between attributes<!--note from editor: Edit okay? Words missing.--> to the `OnChange` handler, and any field change will trigger the `OnChange` handler with the context object parameter. To identify the attribute that triggered the handler, use the `getIsDirty` function on the attribute object. More information: [context.getFormContext().data.entity.attributes.getByName("Attribute Name")](#context-getformcontext-data-entity-attributes-getbyname)
+>- There is no mapping between attributes to the `OnChange` handler, and any field change will trigger the `OnChange` handler with the context object parameter. To identify the attribute that triggered the handler, use the `getIsDirty` function on the attribute object. More information: [context.getFormContext().data.entity.attributes.getByName("Attribute Name")](#context-getformcontext-data-entity-attributes-getbyname)
 
 The following is a sample scenario that you can perform by using the `OnChange` handler:
 
@@ -73,7 +73,7 @@ The following is a sample scenario that you can perform by using the `OnSave` ha
 
 ## Context object for event handlers in the editable grid
 
-The context object contains a set of APIs to perform operations specific to an underlying record in a forecast. This context object is passed as a parameter<!--note from editor: Edit okay?--> to the event handlers in the forecasting editable grid view.
+The context object contains a set of APIs to perform operations specific to an underlying record in a forecast. This context object is passed as a parameter to the event handlers in the forecasting editable grid view.
 
 The following APIs are supported:
 
@@ -94,7 +94,7 @@ This returns an entity object and has the following methods:
 |--------|-------------|-------------|
 | `getEntityName()` | String | Returns a string representing the logical name of the entity for the record. |
 | `getId()` | String | Returns a string representing the GUID value for the record. |
-| `attributes` | List |Returns a list of attributes that are related to the view and an entity<!--note from editor: Edit okay, or should this be "entities that are loaded"?--> that's loaded as part of the forecasting editable grid. You can perform the following operations:<br>- `context.getFormContext().data.entity.attributes.forEach` <br>- `context.getFormContext().data.entity.attributes.getByName(arg)`<br>- `context.getFormContext().data.entity.attributes.get(index)` |
+| `attributes` | List |Returns a list of attributes that are related to the view and an entity that's loaded as part of the forecasting editable grid. You can perform the following operations:<br>- `context.getFormContext().data.entity.attributes.forEach` <br>- `context.getFormContext().data.entity.attributes.getByName(arg)`<br>- `context.getFormContext().data.entity.attributes.get(index)` |
 
 <a name=context-getformcontext-data-entity-attributes-getbyname></a>
 #### context.getFormContext().data.entity.attributes.getByName("Attribute Name")
@@ -106,7 +106,7 @@ This returns an attribute object and has the following methods:
 | `getName()` | String | Returns a string that represents the logical name of the attribute. |
 | `getValue()` | -- | Retrieves the data value for an attribute. |
 | `getIsDirty()` | Boolean | Returns a Boolean value indicating whether there are any unsaved changes to the attribute value. |
-| `controls` | List | Returns a list of controls for each attribute object. <br> **Note**: The `controls` object list length is always 1, and `get(0)` can be directly used.<!--note from editor: Format okay? --> |
+| `controls` | List | Returns a list of controls for each attribute object. <br> **Note**: The `controls` object list length is always 1, and `get(0)` can be directly used. |
 
 <a name=context.getformcontext-data-entity-attributes-getbyname-controls-get></a>
 #### context.getFormContext().data.entity.attributes.getByName("Attribute Name").controls.get(0)
@@ -122,7 +122,7 @@ This returns a control object mapping to the attribute and has the following met
 
 
 > [!NOTE]
-> The function names in the JavaScript file must<!--note from editor: If this is just recommended, it should be "we recommend..." rather than "should." --> match the event names and must accept the context object parameter.
+> We recommend that the function names in the JavaScript file must match the event names and must accept the context object parameter.
 
 <a name=make-grid-read-only></a>
 **Example 1:**
@@ -174,10 +174,10 @@ function OnRowLoad(executionContext) {
 
 Let's create JavaScript code to handle different entities for the loaded forecast configuration. 
 
-For an Opportunity entity, the script will disable the following:<!--note from editor: Should the following terms be formatted as code?-->
+For an Opportunity entity, the script will disable the following:
 - Name column
-- actualRevenue and actualCloseData if the forecastCategory value is best case, committed, omitted, or pipeline.
-- estimatedRevenue and estimatedCloseDate if the forecastCategory value is won or lost.
+- `actualRevenue` and `actualCloseData` if the `forecastCategory` value is best case, committed, omitted, or pipeline.
+- `estimatedRevenue` and `estimatedCloseDate` if the `forecastCategory` value is won or lost.
 
 Similarly, the script will disable the name column for the Account entity and disable all columns for other entities.
 

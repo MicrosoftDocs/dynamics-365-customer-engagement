@@ -19,7 +19,7 @@ Now that you've completed the required configurations for the forecast, use the 
 
 <a name=select-primary-data-type></a>
 
-1. If you've used different data types for columns in the forecast, an error is displayed at the top of the **Activate forecast** section. You must resolve the issue to publish and display the data in the Kanban<!--note from editor: I'm going with a capital "K" because the Cloud Style Guide uses it (though doesn't define it) this way, and most of the instances in this docset are also capitalized.--> view, deal flows, and trend charts. The following screen is an example of error:
+1. If you've used different data types for columns in the forecast, an error is displayed at the top of the **Activate forecast** section. You must resolve the issue to publish and display the data in the Kanban view, deal flows, and trend charts. The following screen is an example of error:
 
     > [!div class="mx-imgBorder"]
     > ![Multiple data type error](media/forecast-publish-multiple-data-type-error.png "Multiple data type error")
@@ -29,7 +29,7 @@ Now that you've completed the required configurations for the forecast, use the 
         > [!div class="mx-imgBorder"]
         > ![Layout warnings pane](media/forecast-publish-layout-warnings-pane.png "Layout warnings pane")  
 
-    2. Select the primary data type that meets your needs<!--note from editor: Edit okay, or can you tell the reader more about what they should choose here?-->, and then select **Save**.
+    2. Select the primary data type that meets your needs, and then select **Save**.
 
         > [!div class="mx-imgBorder"]
         > ![Select data type to resolve error](media/forecast-publish-layout-warnings-resolve-error.png "Select data type to resolve error")
