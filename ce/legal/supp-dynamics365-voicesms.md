@@ -192,10 +192,10 @@ correctly or the same way a commercially, generally available version may work;
 will be provided "as is," "with all faults," and without warranty, and Microsoft
 may cease providing support at any time, without notice; **(iii)** Microsoft has
 no obligation to hold, export, or return any of your data in relation to any
-Previews; **(v)** you may use Previews for testing and evaluation purposes only;
-**(vi)** you may not use Previews to access or process any "live" or production
+Previews; **(iv)** you may use Previews for testing and evaluation purposes only;
+**(v)** you may not use Previews to access or process any "live" or production
 customer data, or personal data or other data that is subject to legal or
-regulatory compliance requirements; **(vii)** Microsoft may chose not to make a
+regulatory compliance requirements; **(vi)** Microsoft may chose not to make a
 Preview generally commercially available Previews may be subject to reduced or
 different security, compliance and privacy commitments. Any data provided to
 Microsoft through your use of Previews may be transferred, stored, and processed
