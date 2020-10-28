@@ -2,7 +2,7 @@
 title: "Recurring activity bulk deletion (Dynamics 365 Marketing) | Microsoft Docs"
 description: "For administrators: Recurring bulk deletion system jobs for Dynamics 365 Marketing."
 keywords: administration; marketing activity data
-ms.date: 10/27/2020
+ms.date: 10/28/2020
 ms.service: dynamics-365-marketing
 ms.custom:
   - dyn365-admin
@@ -33,7 +33,7 @@ Activities are used across the entire Marketing app. The number and frequency of
 
 ## How are marketing activities automatically cleared?
 
-To prevent the database size from increasing indefinitely, we have created a recurring bulk deletion system job that deletes old Marketing activity entities. The bulk deletion job is automatically deployed and is executed once per day, clearing activities that are older than seven days. Plugins related to the bulk deletion job include:
+To prevent the database size from increasing indefinitely, we have created recurring bulk deletion system jobs that delete old Marketing activity entities. The bulk deletion jobs are automatically deployed and are executed once per day, clearing activities that are older than seven days. The bulk deletion jobs include:
 
 - *Microsoft.Dynamics.Crm.Marketing.ActivityBulkDeleteJob* to clear Marketing activities.
 - *Microsoft.Dynamics.EventManagement.ActivityBulkDeleteJob* to clear event management-specific activities.
@@ -41,6 +41,8 @@ To prevent the database size from increasing indefinitely, we have created a rec
 > [!div class="mx-imgBorder"]
 > ![Deployed bulk activity deletion job on a customer instance](media/bulk-activity-deletion.png)
 
-## Options to manually clear the table?
+## Options to manually clear the table
 
-You can create an additional recurring bulk deletion job to clear the activity table more frequently. The table is safe to be truncated at any time. All data can be cleared, regardless of the age of the data. Data processing is synchronous; only successfully executed activities are stored.
+The Marketing activity table varies in size, depending on your Marketing usage. If you are creating a large number of Marketing activities, you may want to clear the table more frequently than every seven days.
+
+To clear the table more frequently, you can create additional recurring bulk deletion jobs. The table is safe to be truncated at any time. All data can be cleared, regardless of the age of the data. Data processing is synchronous; only successfully executed activities are stored.
