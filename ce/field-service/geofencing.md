@@ -2,7 +2,7 @@
 title: "Geofencing for Field Service Mobile | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 04/02/2020
+ms.date: 10/26/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -67,6 +67,7 @@ Go to **Settings > Processes** and **Activate** the following processes. These p
 
 - DeleteGeofenceWhenBookingIsCompletedOrCanceled
 - GenerateGeofenceWhenBookingIsCreated
+- Update Resource Location from Resco Audit
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of geofence processes](./media/mobile-geofence-activate-processes.png)

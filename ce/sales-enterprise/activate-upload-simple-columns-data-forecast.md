@@ -1,7 +1,7 @@
 ---
 title: "Activate and upload simple columns data for a forecast (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Activate and upload simple columns data for a forecast in Dynamics 365 Sales."
-ms.date: 02/03/2020
+ms.date: 10/26/2020
 ms.service: dynamics-365-sales
 ms.topic: article
 author: udaykirang
@@ -11,13 +11,32 @@ manager: shujoshi
 
 # Activate and upload simple columns data
 
-Use the **Activate & add quotas** step to activate the forecast and make it available for users. After the forecast is active, you can download a template (Excel workbook) and upload it back with data, such as quotas and sample column types for all users who are defined in the forecast hierarchy.
+Now that you've completed the required configurations for the forecast, use the **Activate & add quotas** step to activate it and make it available for users. After the forecast is active, you can download a template (Excel workbook) and upload it with data, such as quotas and simple column types, for all users who are defined in the forecast hierarchy.
 
 > [!IMPORTANT]
-> - At a time, you can have only six active forecasts in your organization.
-> - Don’t activate a forecast through any other options such as **Advanced find**. Use only forecast configuration page to activate forecasts.
+> - You can have only six active forecasts at a time in your organization.
+> - Use only the forecast configuration page to activate forecasts. Don't use any other options, such as **Advanced find**. 
 
-1. In the **Activate forecast** section, select **Activate forecast**. The configured forecast starts calculating the values for forecast and becomes available for users in your organization. The activation might take a few minutes.
+<a name=select-primary-data-type></a>
+
+1. If you've used different data types for columns in the forecast, an error is displayed at the top of the **Activate forecast** section. You must resolve the issue to publish and display the data in the Kanban view, deal flows, and trend charts. The following screen is an example of error:
+
+    > [!div class="mx-imgBorder"]
+    > ![Multiple data type error](media/forecast-publish-multiple-data-type-error.png "Multiple data type error")
+
+    1. Select **Fix issue**. The **Layout warnings** pane opens on the right side of the page.
+
+        > [!div class="mx-imgBorder"]
+        > ![Layout warnings pane](media/forecast-publish-layout-warnings-pane.png "Layout warnings pane")  
+
+    2. Select the primary data type that meets your needs, and then select **Save**.
+
+        > [!div class="mx-imgBorder"]
+        > ![Select data type to resolve error](media/forecast-publish-layout-warnings-resolve-error.png "Select data type to resolve error")
+
+    After the error is resolved, you can continue with activating the forecast. For more information about how different data types are used in forecasts, go to [Forecast with multiple data type columns](forecast-different-data-types.md).
+
+2. In the **Activate forecast** section, select **Activate forecast**. The configured forecast starts calculating the values for the forecast and becomes available for users in your organization. The activation might take a few minutes.
     
    > [!div class="mx-imgBorder"]
    > ![Activate forecast](media/forecast-publish-quota-publishing-forecast.png "Activate forecast")
@@ -27,14 +46,14 @@ Use the **Activate & add quotas** step to activate the forecast and make it avai
     > [!NOTE]
     > Forecast auto-recalculation works only when the forecast is active. If the last period of the forecast has just lapsed, the forecast will continue auto-recalculating for 30 more days and then will stop.
 
-2. In the **Upload quota and other static data for this forecast** section, select **Download simple data column template**. A template (Excel workbook) showing users in the hierarchy is downloaded to your local computer.
- 
+3. In the **Upload quota and other static data for this forecast** section, select **Download simple data column template**. A template (Excel workbook) showing users in the hierarchy is downloaded to your local computer.
+
    > [!div class="mx-imgBorder"]
    > ![Download the Excel workbook](media/forecast-publish-quota-download-quota-template.png "Download the Excel workbook")
 
    The naming convention of the downloaded workbook is  ***forecastname*_Simple.xlsx**. For example, if you've created a forecast with the name **Kenny's Org FY 2020 Forecast**, the name of the downloaded workbook is **Kenny's Org FY 2020 Forecast_Simple.xlsx**.
 
-3. Open the downloaded Excel workbook.
+4. Open the downloaded Excel workbook.
 
     The workbook is divided into groups of two tabs, **Direct** and **Parent**. The groups depend on the simple columns you've configured for the forecast. Each tab consists of the following columns: **Record Id**, **Hierarchy** field (and any hierarchy-related columns), and each forecast period (depends on the number of periods you've selected for the forecast). 
 
@@ -50,27 +69,26 @@ Use the **Activate & add quotas** step to activate the forecast and make it avai
     > [!IMPORTANT]
     > Don't change the **Record Id** values in the workbook. If they're changed, the forecast will display inaccurate values.
 
-4. Save and close the workbook.
+5. Save and close the workbook.
 
-5. In the **Upload quota and other static data for this forecast** section, select the option to browse and upload, or drag the workbook to the upload area. You can verify the status at the bottom of the upload area.
+6. In the **Upload quota and other static data for this forecast** section, select the option to browse and upload, or drag the workbook to the upload area. You can verify the status at the bottom of the upload area.
 
-6. After the workbook is uploaded, select **Finish**.
+7. After the workbook is uploaded, select **Finish**.
 
 You're directed to the **Forecast configuration** home page, where your organization's forecasts are listed.
 
 >[!NOTE]
->You can also upload data to simple columns using the **msdyn_ForecastApi** action. To learn more, see [msdyn_ForecastApi](../sales-enterprise/developer/reference/custom-actions/msdyn_ForecastApi.md).
+>You can also upload data to simple columns using the **msdyn_ForecastApi** action. More information: [msdyn_ForecastApi](../sales-enterprise/developer/reference/custom-actions/msdyn_ForecastApi.md)
 
 <table>
 <tr><td>
 
 > [!div class="nextstepaction"] 
-> [Previous step: Configure and manage drill-down entities](configure-manage-drill-downs.md)
+> [Previous step: Configure advanced settings](forecast-configure-advanced-settings.md)
 </td></tr>
 </table>
 
 ### See also
 
-[Configure forecasts in your organization](configure-forecast.md)
-
+[Configure forecasts in your organization](configure-forecast.md)  
 [msdyn_ForecastApi](../sales-enterprise/developer/reference/custom-actions/msdyn_ForecastApi.md)

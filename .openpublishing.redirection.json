@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "ce/legal/thirdparty-messaging-terms.md",
+      "redirect_url": "supp-dynamics365-voicesms",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/project-service/accept-reject-proposed-resource.md",
       "redirect_url": "/dynamics365/project-operations/psa/accept-reject-proposed-resource",
       "redirect_document_id": "false"
