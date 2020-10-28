@@ -59,7 +59,7 @@ At the bottom of the table, a **blank** row is created with values for the oppor
 > ![View account drill-down details](media/forecast-drill-down-account-drill-down.png "View account drill-down details")
 
 >[!NOTE]
->In the example, you can observe that the sum of all accounts data is matching the drill-down data. Also, the drill-down data is always latest and up to date. If the data doesn't match, it could be that the forecast is displaying old data and must be updated. Select Recalculate to get the latest forecasting data to match with the drill-down data. More information: [Maintain up-to-date forecast data](keep-forecast-data-up-to-date.md).
+>In the example, you can observe that the sum of all accounts data is matching the drill-down data. Also, the drill-down data is always latest and up to date. If the data doesn't match, it could be that the forecast is displaying old data and must be updated. Select **Recalculate** to get the latest forecasting data to match with the drill-down data. More information: [Maintain up-to-date forecast data](keep-forecast-data-up-to-date.md).
 
 To view the opportunities that are affecting the forecast values of an account, do one of the following:
 
