@@ -119,7 +119,7 @@ For more information, see: [How to Setup Global Search](https://community.dynami
 
 ## Configure offline data and sync filters
 
-Administrators can control what datais downloaded to the Field Service (Dynamics 365) mobile app in offline mode when no internet access is available. At a high level this is done achieved by:
+Administrators can control what data is downloaded to the Field Service (Dynamics 365) mobile app in offline mode when no internet access is available. At a high level this is achieved by:
 
 1. Setting up an offline profile (one exists by default).
 2. Adding users to the offline profile.
@@ -307,5 +307,5 @@ Then select **Mobile Offline Profiles**. Choose the **Field Service Mobile - Off
 
 ### Known limiations
 
-- If a record is created from the device while in offline mode, and that record does not meet filter conditions, then the record does not get re-synchronized from the service until conditions are met.
-- If commands or capabilities are setup to work with internet connectivity but not in offline mode, those capabilities should be reviewed to confirm they are calling correct APIs see: xml.webapi.online.
+- Offline sync filters: If a record is created from the device while in offline mode, and that record does not meet filter conditions, then the record does not get re-synchronized from the service until conditions are met.
+- Offline sync filters: If commands or capabilities are setup to work with internet connectivity but not in offline mode, those capabilities should be reviewed to confirm they are calling correct APIs see: xml.webapi.online.
