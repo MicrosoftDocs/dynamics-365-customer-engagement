@@ -1,7 +1,7 @@
 ---
 title: "Create PDF files from sales records (Dynamics 365 Sales Professional) | MicrosoftDocs"
 description: "Create and share professional-looking PDF files with your customers."
-ms.date: 09/11/2020
+ms.date: 10/28/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
@@ -18,8 +18,6 @@ Use the PDF generation capability to create and share read-only, professional-lo
 > With the 2020 release wave 2, the PDF generation capability is enhanced to support all custom entities. The PDF enhancements are limited to the web experience and aren't available in the mobile app. If you haven't opted in, or you're using Sales Professional on a mobile app, you'll see the old experience.
 
 Your system administrator can choose the entities for which PDF generation is enabled. If PDF generation isn't enabled, you won't see the option to create a PDF file. 
-
-## Create a PDF file if you've opted in for 2020 release wave 2 features
 
 1. Open the entity record for which you want to create a PDF file—in this example, a record for the Opportunity entity.
 2. On the command bar, select **Export to PDF**.
@@ -59,7 +57,7 @@ Your system administrator can choose the entities for which PDF generation is en
       - Use **Save to SharePoint** to save the PDF file to a SharePoint site. This button is available when SharePoint integration is enabled for your organization and the **Document Management** check box is selected on the entity page in the **Customization** area. If you don't see this button, contact your system administrator.
       - If SharePoint integration isn't enabled, you'll see the **Save to Dynamics** button. This command saves the PDF file as a note to the primary record. The **Save to Dynamics** button is available if notes are enabled for the primary entity. If you don't see this button, contact your system administrator.  
 
-## Create a PDF file if you have not opted in for 2020 release wave 2 features
+## Steps for creating a PDF file if you're using Dynamics 365 for phones on a mobile device
 
 If you haven't opted in for the 2020 release wave 2 features, or if you're using Sales Professional on the mobile app, the capability for generating PDF files is limited to the following entities: Account, Contact, Lead, Opportunity, Order, Quote, and Invoice. 
 
@@ -85,7 +83,7 @@ If you haven't opted in for the 2020 release wave 2 features, or if you're using
     - If you select **Save**, the PDF file is stored in the default SharePoint site if SharePoint is configured and enabled for the Quote entity. If SharePoint isn't configured, the **Save** option saves the PDF as a Notes attachment to the Quote record in Dynamics 365 Sales. 
     - If you select the **Download** option, the PDF is downloaded to your local drive. After it's downloaded, you can add this file to a note, send it as an attachment in an email, or upload it to SharePoint.
     
-## Email as a PDF file
+### Steps for emailing a PDF file if you're using Dynamics 365 for phones on a mobile device
 
 You can also generate a PDF file and directly email it to a customer.
 
@@ -119,7 +117,7 @@ You can also generate a PDF file and directly email it to a customer.
 **Answer:** Regardless of the number of SharePoint document locations that exist for a record, the generated PDF file is always saved to the default location: \[<record_name>_<record_id>].<br>
 
 **Question:** Can I specify a different name for the PDF file before generating it?<br>
-**Answer:** If you haven't opted in for the 2020 release wave 2 features, you can't specify a different file name.<br>
+**Answer:** Yes. You can specify a different file name if you are not using Dynamics 365 for phones on a mobile device.<br>
 
 **Question:** Can I choose to save the PDF file to the Sales app as notes or to SharePoint? <br>
 **Answer:** No. If SharePoint is enabled for the entity for which you're generating a PDF, the PDF file will be saved to the SharePoint location by default.  <br>
