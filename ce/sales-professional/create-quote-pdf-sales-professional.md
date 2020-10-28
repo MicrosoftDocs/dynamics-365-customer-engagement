@@ -83,7 +83,7 @@ If you haven't opted in for the 2020 release wave 2 features, or if you're using
     - If you select **Save**, the PDF file is stored in the default SharePoint site if SharePoint is configured and enabled for the Quote entity. If SharePoint isn't configured, the **Save** option saves the PDF as a Notes attachment to the Quote record in Dynamics 365 Sales. 
     - If you select the **Download** option, the PDF is downloaded to your local drive. After it's downloaded, you can add this file to a note, send it as an attachment in an email, or upload it to SharePoint.
     
-### Steps for emailing a PDF file if you're using Dynamics 365 for phones on a mobile device
+### Steps for emailing a PDF file if you're using Dynamics 365 for phones on a mobile device<a name="email-pdf"> </a>
 
 You can also generate a PDF file and directly email it to a customer.
 
