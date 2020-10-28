@@ -11,7 +11,7 @@ manager: shujoshi
 
 # Activate and upload simple columns data
 
-Now that you've completed the required configurations for the forecast, use the **Activate & add quotas** step to activate it and make it available for users. After the forecast is active, you can download a template (Excel workbook) and upload it with data, such as quotas and sample<!--note from editor: Should this be "simple"?--> column types, for all users who are defined in the forecast hierarchy.
+Now that you've completed the required configurations for the forecast, use the **Activate & add quotas** step to activate it and make it available for users. After the forecast is active, you can download a template (Excel workbook) and upload it with data, such as quotas and simple column types, for all users who are defined in the forecast hierarchy.
 
 > [!IMPORTANT]
 > - You can have only six active forecasts at a time in your organization.
