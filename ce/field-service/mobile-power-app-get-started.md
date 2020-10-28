@@ -140,12 +140,19 @@ When the **Status** is set to **Available**, you'll have all the data you need t
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-offline-complete.png)
 
-The mobile app will download new data and upload changs to the server sync and download automatically every 5 minutes. In addition, technicians have the option to **Update offline data** manually by going to the home screen, selecting the offline icon in the bottom left, then selecting the Update offline data button. 
+> [!Note]
+> When the technician has internet connectivity, data on the device will automatically be refreshed every 5 minutes.
+
+In addition, technicians have the option to **Update offline data** manually by going to the home screen, selecting the offline icon in the bottom left, then selecting the Update offline data button. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-offline-update-offline-data2.png)
 
+You can also update data just for a particular entity using the “Refresh” option in your view.  For example, you can refresh the Bookings by hitting “Refresh” option here.
 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-offline-refresh.png)
 
 
 

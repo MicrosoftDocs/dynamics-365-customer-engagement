@@ -130,14 +130,14 @@ Administrators can control what datais downloaded to the Field Service (Dynamics
 > ![Screenshot of ](./media/mobile-2020-offline-complete.png)
 
 > [!Note]
-> The mobile app will sync new data automatically every 5 minutes. This is currently not configurable. 
+> When the technician has internet connectivity, data on the device will automatically be refreshed every 5 minutes. This is currently not configurable. 
 
 
 
 For more details on offline profiles, see the topic on [setting up mobile offline synchronization](https://docs.microsoft.com/dynamics365/mobile-app/preview-setup-mobile-offline). 
 
 
-Go to the Power platform admin center located at [https://admin.powerplatform.microsoft.com/](https://admin.powerplatform.microsoft.com/) then find a selct your environment. 
+Go to the Power platform admin center located at [https://admin.powerplatform.microsoft.com/](https://admin.powerplatform.microsoft.com/) then find and selct your environment. 
 
 
 > [!div class="mx-imgBorder"]
@@ -153,11 +153,19 @@ Go to **Users + Permissions section > Mobile configuration**.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/offline-2020-ppac-mobile-configuration.png)
 
-Choose the **Field Service Mobile - Offline Profile**, which is the default configuration for offline data that is included with the Field Service app. The profile dictates which entities and how many records of each entity will be downloaded in offline mode.
+Offline entities, relationships, and user assignment is managed through your Offline Profile. Field Service provides an out-of-the-box offline profile called **Field Service Mobile - Offline Profile** with recommended default settings for common Field Service entities. This profile can be updated based on unique business needs. 
+
+Within your Offline Profile you can:
+- Define entities which are available offline. 
+- Define filters for each entity. For example, by default we set a filter to only get the Bookings entity within a range of 7 days before or after current date.
+- Setup item association by creating relationships between entities. This will save time where you will not need to set filters for every entity rather you can associate related entities which will follow filters set on the related entity.
+
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-offline-profile-ppac.png)
+
+Choose the **Field Service Mobile - Offline Profile**, which is the default configuration for offline data that is included with the Field Service app. 
 
 Add the users who need to work offline in the right **USERS** panel. Users must be added here in order to download data offline.
 
@@ -197,7 +205,7 @@ Go to **Properties** and add the offline profile you just published if it is not
 > ![Screenshot of the app designer, on the Field Service Mobile properties tab.](./media/mobile-2020-add-offline-profiles.png)
 
 > [!Note]
-> If you create a new offline profile, you'll need to add it to the Field Service Mobile app in the app designer as well.
+> Field Service customers can create additional Offline Profiles to enable scenarios where different user roles have different sync settings or entities available to them. For example, a Field Service manager may require seeing a broader scope of work orders which may not be assigned to the current operator of the mobile application. If you create a new offline profile, you'll need to add it to the Field Service Mobile app in the app designer as well.
 
 
 
@@ -265,6 +273,10 @@ Because the Dynamics 365 Field Service mobile app is built on Microsoft's Power 
 | Event Handling (On Save, On Load, etc.) | 	[Events in forms and grids in model-driven apps](https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/events-forms-grids) | 
 | Business Logic / JavaScript	 | [Apply business logic using client scripting in model-driven apps using JavaScript](https://docs.microsoft.com/powerapps/developer/model-driven-apps/client-scripting) | 
 | Client Scripting | 	[Apply business logic using client scripting in model-driven apps using JavaScript](https://docs.microsoft.com/powerapps/developer/model-driven-apps/client-scripting) | 
+
+## Configuration considerations
+
+- **Offline profiles get updated**. Note that the default Offline Profile may receive updates over time, but updates will come in an unpublished state. This will allow an organization to review the updates and decide if they want to take the update or continue with previous version.  If entities in the default Offline Profile is modified, those entities will be considered unmanaged and will not receive future updates while unmodified entities are still eligible for update.
 
 ## Additional notes
 
