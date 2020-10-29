@@ -60,6 +60,7 @@
 ### Email administration
 #### [Best practices for email marketing](get-ready-email-marketing.md)
 #### [Email bounce categories](email-bounce-categories.md)
+#### [Create an SPF TXT record](create-spf-record.md)
 #### [Dedicated vs shared IPs for email delivery](dedicated-vs-shared-ip.md)
 #### [Email policies and suspension standards](email-policies.md)
 
