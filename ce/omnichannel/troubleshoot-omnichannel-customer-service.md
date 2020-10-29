@@ -430,63 +430,23 @@ To add the dashboards using app designer, follow these steps:
     ![Add dashboards in the app designer canvas area](media/oceh-app-designer-add-dashboard.png "Add dashboards")
 6. Select **Save** and then select **Publish**.
 
-## Pre-imported Unified Service Desk configurations in Customer Service organization
+## Agent dashboard isn’t loading or is giving an authorization error
 
 ### Issue
 
-Dynamics 365 Customer Service organization that you create from **demos.microsoft.com** have pre-imported sample Unified Service Desk configuration.
+The issue might happen due to the following reasons:
 
-If you import the Unified Service Desk - Omnichannel for Customer Service package without deleting the existing configuration in the new demo org, you see an error after signing in to Unified Service Desk client application. The reason for the issue is multiple sample Unified Service Desk configurations cannot exist in a Customer Service instance.
-
-   > [!div class=mx-imgBorder]
-   > ![The hosted application couldn't be created](media/oceh/usd-client-error.png "The hosted application couldn't be created")
-
-### Resolution
-
-You must delete the existing sample solutions before importing the Omnichannel for Customer Service - Unified Service Desk package. The pre-imported sample solutions are as follows:
-
-- USDISHCustomization or USDWebClientCustomization (one of these solutions would be present depending on the org template)
-- USDUnifiedInterfaceCustomization
-- DynamicsUnifiedServiceDesk
-- UiiForMicrosoftDynamicsCRM
-
-After you delete the solutions, import the Unified Service Desk - Omnichannel for Customer Service package.
-
-To delete the solutions, follow these steps:
-
-1. Sign in to the Common Data Service platform.
-2. Choose **Settings** > **Solutions** on the nav bar.
-4. Select one of the solutions on the **Solutions** page by selecting the check box, and then choose **Delete**. You are prompted to confirm uninstalling a managed solution. Choose **OK** to proceed. <br>
-   - USDISHCustomization or USDWebClientCustomization (one of these solutions would be present depending on the org template)
-   - USDUnifiedInterfaceCustomization
-   - DynamicsUnifiedServiceDesk
-   - UiiForMicrosoftDynamicsCRM
-      > [!NOTE]
-      > You must the delete the solutions in the following order:
-      > 1. USDISHCustomization or USDWebClientCustomization
-      > 2. USDUnifiedInterfaceCustomization
-      > 3. DynamicsUnifiedServiceDesk
-      > 4. UiiForMicrosoftDynamicsCRM2011
-      > 
-      >  You must follow the order to remove the solutions because some of the components in the solution depend on the components in the other solution.
-5. After the solution is removed, repeat the steps to delete the other solutions.
-
-## Unable to launch Unified Service Desk client application
-
-### Issue
-
-When you sign in to Unified Service Desk, you see the following error. 
-
-**APPLICATION_HOST_ERR_NO_CONFIGURED_APPS: applications are configured for your use.**
-
-   > [!div class=mx-imgBorder]
-   > ![Unified Service Desk application configuration error](media/oceh/usd-application-host-error.png "Unified Service Desk application configuration error")
-
-The issue is due to the package deployment failure.
+- Azure Active Directory consent is not available for Omnichannel for Customer Service app.
+- Agent doesn't the Omnichannel agent role privileges.
+- Agent is not assigned to any queue.
 
 ### Resolution
 
-You must the deploy the Unified Service Desk - Omnichannel for Customer Service package again. To learn more, see [Deploy Unified Service Desk – Omnichannel for Customer Service package](administrator/omnichannel-customer-service-package.md#deploy-unified-service-desk---omnichannel-for-customer-service-package).
+Perform the following:
+
+- Contact your administrator to verify Azure Active Directory consent is given to the Omnichannel for Customer Service application on your tenant. Go to [Authorize access](https://go.microsoft.com/fwlink/p/?linkid=2070932) to get access. To learn more, see [Provide data access consent](administrator/omnichannel-provision-license.md#provide-data-access-consent).
+- Ensure the agent account has the role **Omnichannel Agent**. For more information about the relevant roles, see [Understand roles and their privileges](administrator/add-users-assign-roles.md#understand-roles-and-their-privileges). 
+- Ensure the agent account is assigned to at least one queue in the Omnichannel Administration app. To learn more, see [Manage users in Omnichannel for Customer Service](administrator/users-user-profiles.md).
 
 ## An error occurred in the communication panel
 
@@ -564,21 +524,62 @@ Perform the following:
 - Ensure the agent account has the **Omnichannel Agent** role assigned. For more information, see [Assign roles and enable users for Omnichannel](administrator/add-users-assign-roles.md).
 - Ensure the agent account has values set for **Capacity** and **Default presence** within the Omnichannel Administration app. To learn more, see [Create and manage users and user profiles](administrator/users-user-profiles.md).
 
-## Agent dashboard isn’t loading or is giving an authorization error
+
+## Pre-imported Unified Service Desk configurations in Customer Service organization
 
 ### Issue
 
-The issue might happen due to the following reasons:
+Dynamics 365 Customer Service organization that you create from **demos.microsoft.com** have pre-imported sample Unified Service Desk configuration.
 
-- Azure Active Directory consent is not available for Omnichannel for Customer Service app.
-- Agent doesn't the Omnichannel agent role privileges.
-- Agent is not assigned to any queue.
+If you import the Unified Service Desk - Omnichannel for Customer Service package without deleting the existing configuration in the new demo org, you see an error after signing in to Unified Service Desk client application. The reason for the issue is multiple sample Unified Service Desk configurations cannot exist in a Customer Service instance.
+
+   > [!div class=mx-imgBorder]
+   > ![The hosted application couldn't be created](media/oceh/usd-client-error.png "The hosted application couldn't be created")
 
 ### Resolution
 
-Perform the following:
+You must delete the existing sample solutions before importing the Omnichannel for Customer Service - Unified Service Desk package. The pre-imported sample solutions are as follows:
 
-- Contact your administrator to verify Azure Active Directory consent is given to the Omnichannel for Customer Service application on your tenant. Go to [Authorize access](https://go.microsoft.com/fwlink/p/?linkid=2070932) to get access. To learn more, see [Provide data access consent](administrator/omnichannel-provision-license.md#provide-data-access-consent).
-- Ensure the agent account has the role **Omnichannel Agent**. For more information about the relevant roles, see [Understand roles and their privileges](administrator/add-users-assign-roles.md#understand-roles-and-their-privileges). 
-- Ensure the agent account is assigned to at least one queue in the Omnichannel Administration app. To learn more, see [Manage users in Omnichannel for Customer Service](administrator/users-user-profiles.md).
+- USDISHCustomization or USDWebClientCustomization (one of these solutions would be present depending on the org template)
+- USDUnifiedInterfaceCustomization
+- DynamicsUnifiedServiceDesk
+- UiiForMicrosoftDynamicsCRM
+
+After you delete the solutions, import the Unified Service Desk - Omnichannel for Customer Service package.
+
+To delete the solutions, follow these steps:
+
+1. Sign in to the Common Data Service platform.
+2. Choose **Settings** > **Solutions** on the nav bar.
+4. Select one of the solutions on the **Solutions** page by selecting the check box, and then choose **Delete**. You are prompted to confirm uninstalling a managed solution. Choose **OK** to proceed. <br>
+   - USDISHCustomization or USDWebClientCustomization (one of these solutions would be present depending on the org template)
+   - USDUnifiedInterfaceCustomization
+   - DynamicsUnifiedServiceDesk
+   - UiiForMicrosoftDynamicsCRM
+      > [!NOTE]
+      > You must the delete the solutions in the following order:
+      > 1. USDISHCustomization or USDWebClientCustomization
+      > 2. USDUnifiedInterfaceCustomization
+      > 3. DynamicsUnifiedServiceDesk
+      > 4. UiiForMicrosoftDynamicsCRM2011
+      > 
+      >  You must follow the order to remove the solutions because some of the components in the solution depend on the components in the other solution.
+5. After the solution is removed, repeat the steps to delete the other solutions.
+
+## Unable to launch Unified Service Desk client application
+
+### Issue
+
+When you sign in to Unified Service Desk, you see the following error. 
+
+**APPLICATION_HOST_ERR_NO_CONFIGURED_APPS: applications are configured for your use.**
+
+   > [!div class=mx-imgBorder]
+   > ![Unified Service Desk application configuration error](media/oceh/usd-application-host-error.png "Unified Service Desk application configuration error")
+
+The issue is due to the package deployment failure.
+
+### Resolution
+
+You must the deploy the Unified Service Desk - Omnichannel for Customer Service package again. To learn more, see [Deploy Unified Service Desk – Omnichannel for Customer Service package](administrator/omnichannel-customer-service-package.md#deploy-unified-service-desk---omnichannel-for-customer-service-package).
 
