@@ -127,7 +127,7 @@ Macros and agent scripts support the following slugs:
 | `${customerRecordId}` | The unique ID of the entity (contact or account), if the customer is authenticated. |
 | `${<name of the pre-chat survey questions>}` | All the pre-chat survey questions that are configured for a work stream will have the slug name as the name of the question. |
 
-> [!NOTES]
+> [!NOTE]
 > - Slug support for Customer Service workspace macros and scripts is limited to `{anchor.<attribute_name>}`.
 > - Slug support for entity routing is limited to `${entityRoutingLogicalName}` and `${entityRoutingRecordId}`.
 
