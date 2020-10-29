@@ -12,6 +12,10 @@ ms.topic: article
 
 This event is triggered when a chat is started.
 
+Lcw:startChat is raised when the related startChat() SDK method is called.
+
+When a customer starts a chat, a call is made to the startChat() SDK method. This event is then raised when the startChat() SDK method is called.
+
 ## Example
 
 ```javascript
