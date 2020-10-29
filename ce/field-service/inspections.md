@@ -3,7 +3,7 @@ title: "Dynamics 365 Field Service inspections | MicrosoftDocs"
 description: Learn about how to use inspections in Dynamics 365 Field Service.
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 10/21/2020
+ms.date: 10/29/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -62,6 +62,8 @@ For a guided walkthrough, see the following video: ![Video symbol](../field-serv
 - Dynamics 365 version 9.1.0000.15015+.
 
 - Knowledge of work order [incident types and service tasks](configure-incident-types.md) is encouraged.
+
+- Inspections became generally available in the Wave 2 2020 Field Service update. If you do not see inspections in your Field Service environment, simply [upgrade to the latest version of Field Service](upgrade-field-service.md). 
 
 ## Create inspection
 
