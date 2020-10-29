@@ -18818,7 +18818,7 @@
     },
     {
       "source_path": "ce/customer-service/migrate-service-activity-org-service.md",
-      "redirect_url": "introduction-migration-entity-records.md",
+      "redirect_url": "introduction-migration-entity-records",
       "redirect_document_id": false
     },
     {
