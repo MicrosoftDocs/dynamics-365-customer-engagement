@@ -4,7 +4,7 @@ description: "Learn about the supported formats to pass parameter values in the 
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.date: 10/12/2020
+ms.date: 10/29/2020
 ms.service: 
   "dynamics-365-customerservice"
 ms.topic: article
@@ -127,8 +127,9 @@ Macros and agent scripts support the following slugs:
 | `${customerRecordId}` | The unique ID of the entity (contact or account), if the customer is authenticated. |
 | `${<name of the pre-chat survey questions>}` | All the pre-chat survey questions that are configured for a work stream will have the slug name as the name of the question. |
 
-> [!NOTE]
-> Slug support for Customer Service workspace macros and scripts is limited to `{anchor.<attribute_name>}`.
+> [!NOTES]
+> - Slug support for Customer Service workspace macros and scripts is limited to `{anchor.<attribute_name>}`.
+> - Slug support for entity routing is limited to `${entityRoutingLogicalName}` and `${entityRoutingRecordId}`.
 
 #### Slug for reconnection link
 
