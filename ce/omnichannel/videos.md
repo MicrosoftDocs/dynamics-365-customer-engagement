@@ -6,7 +6,7 @@ ms.author: nenellim
 manager: shujoshi
 applies_to: 
   - ""
-ms.date: 01/17/2020
+ms.date: 10/29/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -32,6 +32,8 @@ The following videos help you get started with Omnichannel for Customer Service:
 - [Skill-based routing in Omnichannel for Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2114717)
 
 - [Proactive chat in Omnichannel for Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2114614)
+
+- [Outbound messaging in Omnichannel for Customer Service](https://go.microsoft.com/fwlink/?linkid=2147614)
 
 - [Power Virtual Agents integration with Omnichannel for Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2114716)
 
