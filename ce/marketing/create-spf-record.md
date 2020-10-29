@@ -58,7 +58,7 @@ Here is an example of an SPF TXT record, along with definitions of the parameter
 - **v=spf1**: specifies the version of the SPF standard
 - **ip4:192.0.2.0/24**: specifies the IP address or subnet that is authorized to send emails for the domain
 - **include:_spf.contoso.com**: specifies that all IP addresses specified in the SPF TXT record of the domain *_spf.contoso.com* should be also included as trusted addresses for this domain
-- **a**: specifies that IP addresses added to a record of this domain are allowed to send emails
+- **a**: specifies that IP addresses added to a DNS record of this domain are allowed to send emails
 - **-all**: specifies that all email messages from IP addresses not specified in this SPF record should not be accepted by the recipient
 
 > [!NOTE]
