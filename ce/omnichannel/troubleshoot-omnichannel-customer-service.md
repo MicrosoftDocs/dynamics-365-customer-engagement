@@ -4,7 +4,7 @@ description: "Learn how to troubleshoot the issues you may face while working on
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 09/02/2020
+ms.date: 10/29/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -14,6 +14,84 @@ ms.topic: article
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 Use the following list of troubleshooting topics to quickly find information to solve your issue.
+
+## The instance is not available to select on the provisioning application
+
+### Issue
+
+For security, reliability, and performance reasons, Omnichannel is separated by geographical locations known as regions. The provisioning web page only displays instances in the same region, so you might experience issues that you don’t see all the instances from the Organization selector if you have instances in more than one region and provision Omnichannel without selecting the correct region.
+
+### Resolution
+
+Perform the following:
+
+From the admin portal, select the desired region from the drop-down menu. 
+
+   > [!div class=mx-imgBorder]
+   > ![Region drop-down menu screenshot](media/oceh/oc-region-menu.png "Region drop-down menu")
+
+Changing the region causes the portal to reload. When it has finished reloading, proceed to **Applications** > **Omnichannel for Customer Service**, and then proceed with the usual provisioning steps.
+
+The provisioning application you are directed to is associated with the region you chose, and all instances located in that region are displayed as options for provisioning.
+
+   > [!div class=mx-imgBorder]
+   > ![Provisioning application screenshot](media/oceh/oc-region-provision.png "Provisioning application screenshot")
+
+## Omnichannel provisioning fails due to expired Teams Service Principal
+
+### Issue
+
+If your tenant has an expired Microsoft 365 license, then the provisioning of Omnichannel for Customer Service fails in your organization.
+
+### Resolution
+
+To avoid the provisioning failure, you must remove the Teams Service Principal and Skype Teams Calling API Service in Azure Active Directory. Follow the steps to remove the services.
+
+[Step 1: Identify the services in Azure Active Directory](#step-1-identify-the-services-in-azure-active-directory)
+
+[Step 2: Use PowerShell to remove Microsoft Teams and Skype Teams Calling API Service](#step-2-use-powershell-to-remove-microsoft-teams-and-skype-teams-calling-api-service)
+
+#### Step 1: Identify the services in Azure Active Directory
+
+1. Sign in to the [Azure portal](https://portal.azure.com/).
+2. Select **Azure Active Directory** in the left pane.
+3. Select **Enterprise Applications**.
+4. In the search criteria, select **All Applications** and **Disabled** in **Application Type** and **Application Status**.
+5. In the search box, enter the application ID `cc15fd57-2c6c-4117-a88c-83b1d56b4bbe` for Microsoft Teams.
+
+   > [!div class=mx-imgBorder]
+   > ![Microsoft Teams object and app IDs](media/teams-object-appid.png "Microsoft Teams object and app IDs")
+
+6. In the result that appears, copy the **Object ID**, and save it. Ensure that the application ID is  `cc15fd57-2c6c-4117-a88c-83b1d56b4bbe` as this ID is same for every tenant.
+
+7. Now, search for Skype Teams Calling API Service by entering its application ID `26a18ebc-cdf7-4a6a-91cb-beb352805e81` in the search box.
+
+   > [!div class=mx-imgBorder]
+   > ![Skype object and app IDs](media/skype-object-appid.png "Skype object and app IDs")
+
+8. In the result that appears, copy the **Object ID**. Make sure that the application ID is `26a18ebc-cdf7-4a6a-91cb-beb352805e81`.
+
+#### Step 2: Use PowerShell to remove Microsoft Teams and Skype Teams Calling API Service
+
+1. Select **Start**, type **PowerShell**, and right-click **Windows PowerShell** and select **Run as administrator**.  <br>
+![Run PowerShell as an administrator](media/powershell.png "Run PowerShell as an administrator")
+
+2. Select **Yes** on the **User Control** dialog to allow the application to make changes.
+3. Type the `Install-Module AzureAD` command in the Powershell window, and press **Enter**. This command installs the PowerShell commands for interacting with Azure Active Directory. <br>
+![Execute command](media/powershell2.png "Execute command")
+
+4. PowerShell prompts whether to trust the repository. Type **Y** for yes and press **Enter**.  <br>
+![Run command](media/powershell3.png "Run command")
+
+5. Type the `Connect-AzureAD` command in the PowerShell window, and press **Enter**.
+This establishes a connection with the tenant's Azure Active Directory, so you can manage it using Powershell.
+6. Sign in to your organization as a tenant admin.
+7. Run the `Remove-AzureADServicePrincipal -ObjectID <ObjectID>` command in the PowerShell window twice, one each for Microsoft Teams and Skype Teams Calling API Service. Replace **<ObjectID>** with the object ID you had stored earlier. This command deletes the expired Teams service and Skype Teams Calling API Service from Azure Active Directory.
+
+   > [!Note]
+   > Right click in the PowerShell window to paste the Object ID.
+
+The Microsoft Teams Service and Skype Teams Calling API Service are removed from your organization. You can try to provision Omnichannel for Customer Service again.
 
 ## Error occurs when I try to create a chat widget or social channel
 
@@ -151,62 +229,6 @@ The flow triggered successfully but the action was not executed successfully.
 ### Resolution
 
 Reach out to Microsoft support for further investigation.
-
-## Omnichannel provisioning fails due to expired Teams Service Principal
-
-### Issue
-
-If your tenant has an expired Microsoft 365 license, then the provisioning of Omnichannel for Customer Service fails in your organization.
-
-### Resolution
-
-To avoid the provisioning failure, you must remove the Teams Service Principal and Skype Teams Calling API Service in Azure Active Directory. Follow the steps to remove the services.
-
-[Step 1: Identify the services in Azure Active Directory](#step-1-identify-the-services-in-azure-active-directory)
-
-[Step 2: Use PowerShell to remove Microsoft Teams and Skype Teams Calling API Service](#step-2-use-powershell-to-remove-microsoft-teams-and-skype-teams-calling-api-service)
-
-#### Step 1: Identify the services in Azure Active Directory
-
-1. Sign in to the [Azure portal](https://portal.azure.com/).
-2. Select **Azure Active Directory** in the left pane.
-3. Select **Enterprise Applications**.
-4. In the search criteria, select **All Applications** and **Disabled** in **Application Type** and **Application Status**.
-5. In the search box, enter the application ID `cc15fd57-2c6c-4117-a88c-83b1d56b4bbe` for Microsoft Teams.
-
-   > [!div class=mx-imgBorder]
-   > ![Microsoft Teams object and app IDs](media/teams-object-appid.png "Microsoft Teams object and app IDs")
-
-6. In the result that appears, copy the **Object ID**, and save it. Ensure that the application ID is  `cc15fd57-2c6c-4117-a88c-83b1d56b4bbe` as this ID is same for every tenant.
-
-7. Now, search for Skype Teams Calling API Service by entering its application ID `26a18ebc-cdf7-4a6a-91cb-beb352805e81` in the search box.
-
-   > [!div class=mx-imgBorder]
-   > ![Skype object and app IDs](media/skype-object-appid.png "Skype object and app IDs")
-
-8. In the result that appears, copy the **Object ID**. Make sure that the application ID is `26a18ebc-cdf7-4a6a-91cb-beb352805e81`.
-
-#### Step 2: Use PowerShell to remove Microsoft Teams and Skype Teams Calling API Service
-
-1. Select **Start**, type **PowerShell**, and right-click **Windows PowerShell** and select **Run as administrator**.  <br>
-![Run PowerShell as an administrator](media/powershell.png "Run PowerShell as an administrator")
-
-2. Select **Yes** on the **User Control** dialog to allow the application to make changes.
-3. Type the `Install-Module AzureAD` command in the Powershell window, and press **Enter**. This command installs the PowerShell commands for interacting with Azure Active Directory. <br>
-![Execute command](media/powershell2.png "Execute command")
-
-4. PowerShell prompts whether to trust the repository. Type **Y** for yes and press **Enter**.  <br>
-![Run command](media/powershell3.png "Run command")
-
-5. Type the `Connect-AzureAD` command in the PowerShell window, and press **Enter**.
-This establishes a connection with the tenant's Azure Active Directory, so you can manage it using Powershell.
-6. Sign in to your organization as a tenant admin.
-7. Run the `Remove-AzureADServicePrincipal -ObjectID <ObjectID>` command in the PowerShell window twice, one each for Microsoft Teams and Skype Teams Calling API Service. Replace **<ObjectID>** with the object ID you had stored earlier. This command deletes the expired Teams service and Skype Teams Calling API Service from Azure Active Directory.
-
-   > [!Note]
-   > Right click in the PowerShell window to paste the Object ID.
-
-The Microsoft Teams Service and Skype Teams Calling API Service are removed from your organization. You can try to provision Omnichannel for Customer Service again.
 
 ## Chat widget icon does not load on the portal
 
@@ -358,6 +380,31 @@ Restart the portal by doing the following:
     > [!div class="mx-imgBorder"]
     > ![Select Restart to restart the portal](./media/chat-portal-restart.png "Select Restart to restart the portal")
 
+## Agents not receiving chat in Omnichannel for Customer Service
+
+### Issue
+
+As an agent, you aren't receiving chat in the Omnichannel for Customer Service app. The issue is caused when you receive the chats in Customer Service Hub app.
+
+### Resolution
+
+You must remove the Customer Service Hub app from the channel provider configuration in the Channel Integration Framework app.
+
+1. Sign in to **Channel Integration Framework**.
+2. Select the record that is related to omnichannel.
+3. Remove **Customer Service Hub** from the **Select Unified Interface Apps for the Channel** section.
+4. Select **Save** to save the record.
+
+## Conversation is stuck in wrap-up state
+
+### Issue
+
+As an agent or a supervisor, you see that some conversations are stuck in the wrap-up state in your Omnichannel Agent Dashboard or Omnichannel Ongoing Conversations Dashboard. 
+
+### Resolution
+
+When conversations are ended by the agent or customer, they transition to the wrap-up state. In order to close the conversation, the primary agent assigned to the conversation needs to close the conversation in the session panel. To learn more about closing sessions, see [Manage sessions in Omnichannel for Customer Service](https://docs.microsoft.com/en-us/dynamics365/omnichannel/agent/agent-oc/oc-manage-sessions#close-a-session). To learn more about the wrap-up conversation state, see [Understand conversation states in Omnichannel for Customer Service](https://docs.microsoft.com/en-us/dynamics365/omnichannel/agent/agent-oc/oc-conversation-state#wrap-up).
+
 ## Dashboards do not appear in Omnichannel for Customer Service active dashboards view
 
 ### Issue
@@ -497,21 +544,6 @@ Communication panel doesn't load in Omnichannel for Customer Service app:
    8. Select **Save** to save the record.
    9. Sign in to Omnichannel for Customer Service app and check if the communication panel loads.
 
-## Agents not receiving chat in Omnichannel for Customer Service
-
-### Issue
-
-As an agent, you aren't receiving chat in the Omnichannel for Customer Service app. The issue is caused when you receive the chats in Customer Service Hub app.
-
-### Resolution
-
-You must remove the Customer Service Hub app from the channel provider configuration in the Channel Integration Framework app.
-
-1. Sign in to **Channel Integration Framework**.
-2. Select the record that is related to omnichannel.
-3. Remove **Customer Service Hub** from the **Select Unified Interface Apps for the Channel** section.
-4. Select **Save** to save the record.
-
 ## User presence isn’t loading or it’s showing Unknown
 
 ### Issue
@@ -534,7 +566,7 @@ Perform the following:
 
 ## Agent dashboard isn’t loading or is giving an authorization error
 
-## Issue
+### Issue
 
 The issue might happen due to the following reasons:
 
@@ -550,24 +582,3 @@ Perform the following:
 - Ensure the agent account has the role **Omnichannel Agent**. For more information about the relevant roles, see [Understand roles and their privileges](administrator/add-users-assign-roles.md#understand-roles-and-their-privileges). 
 - Ensure the agent account is assigned to at least one queue in the Omnichannel Administration app. To learn more, see [Manage users in Omnichannel for Customer Service](administrator/users-user-profiles.md).
 
-## The instance is not available to select on the provisioning application
-
-## Issue
-
-For security, reliability, and performance reasons, Omnichannel is separated by geographical locations known as regions. The provisioning web page only displays instances in the same region, so you might experience issues that you don’t see all the instances from the Organization selector if you have instances in more than one region and provision Omnichannel without selecting the correct region.
-
-### Resolution
-
-Perform the following:
-
-From the admin portal, select the desired region from the drop-down menu. 
-
-   > [!div class=mx-imgBorder]
-   > ![Region drop-down menu screenshot](media/oceh/oc-region-menu.png "Region drop-down menu")
-
-Changing the region causes the portal to reload. When it has finished reloading, proceed to **Applications** > **Omnichannel for Customer Service**, and then proceed with the usual provisioning steps.
-
-The provisioning application you are directed to is associated with the region you chose, and all instances located in that region are displayed as options for provisioning.
-
-   > [!div class=mx-imgBorder]
-   > ![Provisioning application screenshot](media/oceh/oc-region-provision.png "Provisioning application screenshot")
