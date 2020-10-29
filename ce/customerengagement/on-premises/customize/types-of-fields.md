@@ -67,7 +67,7 @@ For example, if an organization operates in multiple areas or countries, you can
 
 Multi-select option sets can be used with read-only grids, editable grids, and most forms. Multi-select option sets can't be used with:
 - Workflows, business process flows, actions, dialogs, business rules, charts, rollup fields, or calculated fields.
-- Reports, SLA, and routing rules.
+- Reports, SLA, or routing rules.
 
 Multi-select fields are supported in the following types of forms:
 
