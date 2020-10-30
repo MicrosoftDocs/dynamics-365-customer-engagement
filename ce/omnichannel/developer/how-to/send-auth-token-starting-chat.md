@@ -4,7 +4,7 @@ description: "Read how you can pass an authentication token to Omnichannel for C
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 12/13/2019
+ms.date: 10/30/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: reference
