@@ -85,7 +85,7 @@ You can assign conversations that result in overallocation for an agent. In such
     
 3. Choose a conversation in an **Open** state, and select **Assign** on the top-right corner.
 > [!div class=mx-imgBorder]
-    > ![Select agent or queue option](../media/assign-agent-queue.png "Select either agent or queue option")
+> ![Select agent or queue option](../media/assign-agent-queue.png "Select either agent or queue option")
 
 
 4. On the **Assign conversations** dialog box, choose one of the following options:
