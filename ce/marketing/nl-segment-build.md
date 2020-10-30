@@ -2,7 +2,7 @@
 title: "Preview: Natural language use in segments (Dynamics 365 Marketing) | Microsoft Docs"
 description: "A set of example marketing segments to show various capabilities of natural language understanding in Dynamics 365 Marketing"
 keywords: examples; segments; dynamic segments
-ms.date: 10/16/2020
+ms.date: 10/27/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -24,10 +24,6 @@ search.app:
 
 # Preview: Natural language use in segments
 
-If your administrator has enabled the natural language feature, you can use Natural Language Understanding (NLU) to build segments in Dynamics 365 Marketing. Natural language input enables you to use common words and phrases to describe the people you want to include in dynamic and static segments without learning all the specifics of the Common Data Model (CDM) and best practices for building queries.
-
-Using the instructions in [Working with segments](segmentation-lists-subscriptions.md), type and submit a statement, and the service will fill the query fields using information collected from your contacts, accounts, leads, and activities.
-
 > [!IMPORTANT]
 > [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]
 >
@@ -36,25 +32,26 @@ Using the instructions in [Working with segments](segmentation-lists-subscriptio
 > [!NOTE]
 > You will need your administrator to [turn on the feature switch](admin-feature-switches.md) for the **Segmentation Natural Language Queries** functionality under **Segmentation** before you are able to access it.
 
-<!--- Most of the examples in this topic will reflect dynamic segments, as static segments are created by manually selecting each member instead of building queries that can find matching results for you, automatically updating the segment as the status of the members changes. -->
+If your administrator has enabled the natural language feature, you can use Natural Language Understanding (NLU) to build segments in Dynamics 365 Marketing. Natural language input enables you to use common words and phrases to describe the people you want to include in dynamic and static segments without learning all the specifics of the Common Data Model (CDM) and best practices for building queries.
+
+Using the instructions in [Working with segments](segmentation-lists-subscriptions.md), type and submit a statement, and the service will fill the query fields using information collected from your contacts, accounts, leads, and activities.
+
+<!--- Most of the examples in this topic will reflect dynamic segments, as static segments are created by manually selecting each member instead of building queries that can find matching results for you, automatically updating the segment as the status of the member contacts and accounts change. -->
 
 ## Sample segments
 
-You can create a segment that will evaluate your Dynamics 365 organizational database for contacts that meet certain criteria. For example, people living in a certain area who are a certain age.
+You can create a segment that will evaluate your Dynamics 365 organizational database for contacts that meet certain criteria. For example, contacts living in a certain area who have an email address.
 
-You might name the new segment “Customers who live in Chicago over age 40” and then define the segment as follows:
+You might name the new segment “Contacts who live in Chicago with email and an upcoming birthday” and then define the segment as follows:
 
- - Customers who live in Chicago over age 40
+ - Contacts who live in Chicago with an email address and with a birthday in the next month
 
-## Example: Customers who live in Chicago over age 40
+## Example: Contacts who live in Chicago with an email address and with a birthday in the next month
 
 ### Building the segment
 
-- Remember to enter the phrases using normal language (don't try to build the query using specific field names) - you could enter "customers who live in Chicago over age 40"
-   
-- Give the segment a descriptive name that will help you find it later
-
-![Building a segment including customers over age 40 who live in Chicago using natural language](media/create-segment-contacts-chicago-age-40.png "Building a marketing segment including contacts over age 40 in Chicago")
+- Remember to enter the phrases using normal language (don't try to build the query using specific field names). You could enter, "Contacts who live in Chicago with an email address and with a birthday in the next month."
+- Give the segment a descriptive name that will help you find it later.
 
 ### Reviewing the results
 
@@ -64,15 +61,15 @@ You might name the new segment “Customers who live in Chicago over age 40” a
 
 A more complex segment that includes both profile and behavioral queries gives better results that let you make a better-targeted customer journey, perhaps helping reactivate a lapsed customer. For instance, you can create a segment that includes:
 
-- Customers who live in Chicago over age 40 (profile)
-- Accounts that have purchased in the last 180 days (profile)
-- Contacts with email bounces (behavioral)
+- Contacts who live in Chicago who have an email address (profile).
+- Accounts that have purchased in the last 180 days (profile).
+- Contacts with email bounces (behavioral).
 
-This segment would find a group of customers who have purchased from your company in the last six months in Chicago that are now unreachable through the email address in your organizational database, suggesting that a new contact needs to be established for that customer, requiring an outreach channel other than email.
+This segment would find a group of contacts who have purchased from your company in the last six months in Chicago that are now unreachable through the email address in your organizational database, suggesting that a new email needs to be established for that contact.
 
 ## Phrases you can use in natural language queries
 
-You can use a variety of phrases to find contacts and accounts with different attributes. This is not a complete list.
+You can use a variety of phrases to find contacts and accounts with various attributes. This is not a complete list.
 
 - Find contacts by location
     - Contacts who live in Atlanta
@@ -83,6 +80,7 @@ You can use a variety of phrases to find contacts and accounts with different at
     - Contacts with birthdays in three months
     - Contacts with a birthday next month
     - Contacts with an anniversary in June
+    <!--- Contacts born before 1980 -->
 
 - Find contacts related to accounts
     - Contacts associated with Microsoft company who live in the Czech Republic
@@ -93,18 +91,18 @@ You can use a variety of phrases to find contacts and accounts with different at
     - Contacts with birthdays in the next three months
 
 - Find contacts with contact issues
-    - Contacts with bouncing email addresses
+    - Contacts with email bounces
     - Contacts who have never opened an email
 
 - Find accounts missing profile information
     - Companies with no business phone
     - Companies with no contact person or a contact person without a phone number
 
-- Find prospective customers with particular attributes
-    - Find prospective customers with an email address
-    - Find prospective customers who have opened one or more email messages
+- Find contacts with particular attributes
+    - Find contacts with an email address
+    - Find contacts who have opened one or more email messages
 
-<!--- You might also wish to promote a new product or service to existing customers who, based on the type of company they represent, might use it but have not purchased from that category before. This dynamic segment might include:
+<!--- You might also wish to promote a new product or service to existing contacts who, based on the type of company they represent, might use it but have not purchased from that category before. This dynamic segment might include:
  - Companies in the healthcare industry with annual revenue over $20 million and that have at least two physical locations
  - Accounts that have purchased in the past year
  - Accounts that have purchased marketing materials in the past and
@@ -113,7 +111,7 @@ You can use a variety of phrases to find contacts and accounts with different at
 Contacts in this segment might be more receptive to an email marketing campaign about protective signage than a generic customer list, and it allows for a targeted customer journey more likely to succeed. -->
 
 > [!TIP]
-> Marketing segments are not always processed in the order that the query blocks are expressed, so it’s better to express queries in the positive “customers who have purchased in the past 90 days” than to exclude contacts with a negative or suppression segment, like “customers who have not purchased in the past 180 days.” Dynamic segments can be created to include, intersect, or exclude contacts in segments, allowing you to build more complex queries.
+> Marketing segments are not always processed in the order that the query blocks are expressed, so it’s better to express queries in the positive “contacts who have purchased in the past 90 days” than to exclude contacts with a negative or suppression segment, like “contacts who have not purchased in the past 180 days.” Dynamic segments can be created to include, intersect, or exclude contacts in segments, allowing you to build more complex queries.
 
 ### See also
 

@@ -1,7 +1,7 @@
 ---
 title: "Configure mobile offline synchronization in Dynamics 365 for phones and tablets | MicrosoftDocs"
 ms.custom: 
-ms.date: 07/10/2020
+ms.date: 10/21/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -24,6 +24,9 @@ search.app:
 
 # Set up mobile offline synchronization to allow users to work in offline mode on their mobile device 
 
+This topic covers how to set-up mobile offline synchronization using the old admin interface. For instructions on how to set-up mobile offline using the latest version, see [Configure mobile offline synchronization](preview-setup-mobile-offline.md).
+
+
 Mobile offline allows your users to use the Dynamics 365 for phones app in offline mode to interact with their data, even when they are not connected to the internet. The Dynamics 365 for phones app provides a rich offline experience and helps you to stay productive. You can use basic commands such as create, read, update, and delete when you are offline. Once you are back online, your changes are automatically synchronized with your Dynamics 365 for phones app. 
 
 > [!Note]
@@ -43,7 +46,7 @@ This offline experience uses [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-
 One of the first things you need to do is enable entities that will be available to mobile users when they're using the mobile app in offline mode. You can disable or enable any of the supported entities for offline mode.
 
   
-1. In the **Dynamics 365- custom** app, go to **Settings** > **Advanced Settings**.
+1. To open settings for apps that use Unified Interface, look in the upper-right corner and select the Gear icon. Then select **Advanced Settings**.
 
    > [!div class="mx-imgBorder"]
    >![Setting Customizations](media/Settings_Custom1.png "Settings Customizations")
@@ -53,8 +56,6 @@ One of the first things you need to do is enable entities that will be available
    > [!div class="mx-imgBorder"]
    >![Select a Customize the System](media/Settings_Custom.png "Customize the System")
    
- > [!IMPORTANT]
-> - Ignore the **Try New Experience** notification at the top. The new experience does not include all the options to set-up mobile offline.   
   
 3. Expand **Entities** in the left pane.  
   
@@ -64,6 +65,10 @@ One of the first things you need to do is enable entities that will be available
 
    > [!div class="mx-imgBorder"]
    >![Select a Customize the System](media/Settings_Custom3.png "Customize the System")
+   
+   
+> [!IMPORTANT]
+> Effective February 2021, **Organization data download filter** option are deprecated. We recommend that you start preparing your organization and move relevant data filters from **Organization data download filter** to the offline profile option which lets you determine what data will be available when users work in offline mode. For more information, see [Create a mobile offline profile](https://docs.microsoft.com/dynamics365/mobile-app/preview-setup-mobile-offline#step-2-create-a-mobile-offline-profile-to-determine-what-data-will-be-available-while-offline). Once the old filter criteria has been moved to offline profile, you can clear or delete the filters set in **Organization data download filter**. For more information, see [Important changes (deprecations) coming in Power Apps, Power Automate, and customer engagement apps](https://docs.microsoft.com/power-platform/important-changes-coming#organization-data-download-filters-for-mobile-offline-are-deprecated).
  
 6. Select **Organization data download filter** to filter the data and set the freshness of the data you want to make available offline. You can set up to three criteria when you define a filter. Select the field to filter by, select an operator, then set a value. 
   

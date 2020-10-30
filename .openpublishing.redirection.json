@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "ce/legal/thirdparty-messaging-terms.md",
+      "redirect_url": "supp-dynamics365-voicesms",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/project-service/accept-reject-proposed-resource.md",
       "redirect_url": "/dynamics365/project-operations/psa/accept-reject-proposed-resource",
       "redirect_document_id": "false"
@@ -18673,7 +18678,7 @@
     },
     {
       "source_path": "ce/customer-service/channel-integration-framework/support-multiple-providers.md",
-      "redirect_url": "v2/ support-multiple-providers",
+      "redirect_url": "v2/support-multiple-providers",
       "redirect_document_id": false
     },
     {
@@ -18813,7 +18818,7 @@
     },
     {
       "source_path": "ce/customer-service/migrate-service-activity-org-service.md",
-      "redirect_url": "introduction-migration-entity-records.md",
+      "redirect_url": "introduction-migration-entity-records",
       "redirect_document_id": false
     },
     {
