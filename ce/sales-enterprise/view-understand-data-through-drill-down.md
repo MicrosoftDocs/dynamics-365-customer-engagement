@@ -59,8 +59,9 @@ At the bottom of the table, a **blank** row is created with values for the oppor
 > ![View account drill-down details](media/forecast-drill-down-account-drill-down.png "View account drill-down details")
 
 >[!NOTE]
->In the example, you can observe that the sum of all accounts data is matching the drill-down data. Also, the drill-down data is always latest and up to date. If the data doesn't match, it could be that the forecast is displaying old data and must be updated. Select **Recalculate** to get the latest forecasting data to match with the drill-down data. More information: [Maintain up-to-date forecast data](keep-forecast-data-up-to-date.md).
-
+>- In the example, you can observe that the sum of all accounts drill down data is matching the forecast data. If the data doesn’t match, it could be because forecast data might be old whereas, drill down is always calculated on live data and hence the difference. Select **Recalculate** to get the latest forecasting data to match with the drill-down data. More information: [Maintain up-to-date forecast data](keep-forecast-data-up-to-date.md).
+>- The forecast and drill down data are independently calculated based on the configurations. Hence, the forecast and drill down data may not always match. For example, in a product-based forecast, the sum of product revenue might not match with sum of opportunity values as there might be some opportunities which are not associated with products. If you drill down the data based on products, only the Opportunity products associated will be aggregated for drill down whereas, the forecast displays the sum of all opportunities data.
+ 
 To view the opportunities that are affecting the forecast values of an account, do one of the following:
 
 -	Select an account row to show all opportunities, regardless of forecast category.
