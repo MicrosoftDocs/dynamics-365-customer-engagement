@@ -18678,7 +18678,7 @@
     },
     {
       "source_path": "ce/customer-service/channel-integration-framework/support-multiple-providers.md",
-      "redirect_url": "v2/ support-multiple-providers",
+      "redirect_url": "v2/support-multiple-providers",
       "redirect_document_id": false
     },
     {
@@ -18818,7 +18818,7 @@
     },
     {
       "source_path": "ce/customer-service/migrate-service-activity-org-service.md",
-      "redirect_url": "introduction-migration-entity-records.md",
+      "redirect_url": "introduction-migration-entity-records",
       "redirect_document_id": false
     },
     {
