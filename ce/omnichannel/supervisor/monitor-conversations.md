@@ -82,7 +82,7 @@ At times, you may need to manually assign a conversation that is in an open stat
     > ![Select Assign option](../media/assign-agents-conversations.png "Select Assign option")
 
 4. Choose one of the following options:
-  - **Assign to agent:** This assigns the conversation to a particular agent. The agent list contains only those agents who are part of the same queue as the conversation.
+  - **Assign to agent:** This assigns the conversation to a particular agent. The agent list contains only those agents who are part of the same queue as the conversation. Only those agents whose presence is same as the queue configured in the **Allowed Presence** in workstream configuration will be listed.
   - **Assign to queue:** This lists all queues except the queue the conversation is currently part of.
 
     > [!div class=mx-imgBorder]
@@ -90,7 +90,7 @@ At times, you may need to manually assign a conversation that is in an open stat
   
  5. Depending on which option you chose in Step 4, choose the agent or queue, and then select **Assign** to send the invitation for the agent or queue to join the conversation.
  
-Supervisors can assign conversations that result in overallocation for an agent. In such cases, the agent's capacity will show the units by which their capacity is exceeded.
+ Supervisors can assign conversations irrespective of an agent's capacity and presence. When there is an overallocation of conversations, the agent's capacity will reflect the number of units by which the capacity is exceeded.
 
 
 ### See also
