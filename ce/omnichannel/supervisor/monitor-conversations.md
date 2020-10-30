@@ -75,14 +75,15 @@ At times, you may need to manually assign a conversation that is in an open stat
 2. From the dashboard view selector, select the **Omnichannel Ongoing Conversations** dashboard.
 
     The list of available agents and their capacities, as well as queues, is displayed.
-
-3. Choose a conversation in an **Open** state, and select **Assign** on the top-right corner.
-
     > [!div class=mx-imgBorder]
     > ![Select Assign option](../media/assign-agents-conversations.png "Select Assign option")
+    
+3. Choose a conversation in an **Open** state, and select **Assign** on the top-right corner.
+
+
 
 4. Choose one of the following options:
-  - **Assign to agent:** This assigns the conversation to a particular agent. The agent list contains only those agents who are part of the same queue as the conversation. Only those agents whose presence is same as the queue configured in the **Allowed Presence** in workstream configuration will be listed.
+  - **Assign to agent:** This assigns the conversation to a particular agent. The agent list contains only those agents who are part of the same queue as the conversation. Only those agents whose presence is same as the queue configured in the **Allowed Presence** in work stream configuration will be listed. <!--Neeraja: The queue does not have any presence. The work stream has the setting that lets work be assigned to agents if their presence matches one of those listed in the Allowed Presence setting. -->
   - **Assign to queue:** This lists all queues except the queue the conversation is currently part of.
 
     > [!div class=mx-imgBorder]
