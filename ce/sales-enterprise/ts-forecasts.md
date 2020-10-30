@@ -105,7 +105,41 @@ The following image is an example of previous version of forecasting home page:
 **Resolution**
 
 To resolve this issue, update the forecasting site map entry to the latest forecast entry grid. To learn more, see [Add forecast grid and configuration options in site map](add-forecast-site-map.md). 
+
+<a name="unable_load_forecast_grid"> </a>
+## Unable to load forecast grid and an error is displayed
+
+**Reason**
+
+The forecast instance actions process is deactivated for reasons such as, organization’s owner is change d, which is causing the failure to load the forecast grid. The following error is displayed:
+
+> [!div class="mx-imgBorder"]
+> ![Forecast grid loading error](media/ts-forecasting-grid-loading-error.png "Forecast grid loading error")
+
+**Resolution**
+
+To resolve this error, activate the **ForecastInstanceActions** process. Follow these steps:
+
+1.	Go to **Advanced setting** and then select **Setting** > **Process Center** > **Processes**.
+2.	Using the search, look for **ForecastInstanceActions**. You can see that the process is in **Draft** state.
+
+    > [!div class="mx-imgBorder"]
+    > ![forecast instance actions process in draft state](media/ts-forecasting-forecast-instance-actions-process-draft.png "forecast instance actions process in draft state")
  
+3.	Select the process and then select **Activate**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Activate forecast instance actions process](media/ts-forecasting-activate-forecast-instance-actions-process.png "Activate forecast instance actions process")
+ 
+4.	On the confirmation message, select **Activate**.
+    
+    Verify that the process state is in **Activated**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Forecast instance actions process activated](media/ts-forecasting-forecast-instance-actions-process-activate.png "Forecast instance actions process activated")
+ 
+5.	Close the settings.
+
 ### See also
 
 [Dynamics 365 Sales troubleshooting guide](troubleshooting.md)  
