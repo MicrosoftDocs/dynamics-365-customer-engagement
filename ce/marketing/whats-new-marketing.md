@@ -46,11 +46,16 @@ The Dynamics 365 Marketing November 2020 update includes several enhancements in
 ### Monthly enhancements
 
 - **Event management**
+    - Teams integration now has a more refined attendee check-in process and automatically shows meetings and live events on the organizer's Outlook calendar.
 - **First run experience**
+    - Improved portal experience, clarifying the terms of trial portals and better differentiating between Dynamics 365 Portals and Power Apps portals.
 - **Social posting**
+    - Enhanced UI for a more efficient social posting experience. Enhancements include a default calendar view, easier access to KPIs, and improved post previews.
 - **Shared UX**
+    - The Marketing email template gallery now includes sender fields.
 
 ### Bug fixes
+
 
 
 ## October 2020 update
