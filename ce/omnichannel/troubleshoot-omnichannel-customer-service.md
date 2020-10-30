@@ -4,7 +4,7 @@ description: "Learn how to troubleshoot the issues you may face while working on
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/29/2020
+ms.date: 10/30/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -92,6 +92,34 @@ This establishes a connection with the tenant's Azure Active Directory, so you c
    > Right click in the PowerShell window to paste the Object ID.
 
 The Microsoft Teams Service and Skype Teams Calling API Service are removed from your organization. You can try to provision Omnichannel for Customer Service again.
+
+## Errors occur when I try to open Omnichannel for Customer Service or Customer Service workspace with Omnichannel enabled
+
+### Issue
+
+As an agent, when you log in to the Omnichannel for Customer Service application or when you log in on Customer Service Workspace with Omnichannel enabled, you see error messages.
+
+### Resolution
+
+When you open the Omnichannel for Customer Service application or Customer Service workspace with Omnichannel enabled, the system performs a variety of tasks including logging in to Omnichannel, preparing for notifications, and setting your presence. If the system encounters any errors while performing these operations, they are displayed on the user interface.  
+
+If you get any of the errors listed in the table below, work with your administrator to ensure you have the right security roles, Omnichannel capacity, and default presence set. When the administrator makes changes to these settings, the changes may take up to 15 minutes to reflect. As an agent, you should log out, clear your browser cache, and close and reopen the browser to try again. If the issue persists, work with your administrator to create a service request with details including the organization URL, agent ID, error message, and client session ID value.
+
+### Error messages 
+
+  - Something went wrong while authenticating—please try again. If this continues, have your administrator contact Microsoft Support with the client session ID.
+
+  - We couldn't get your authentication token—please try again. If this continues, have your administrator contact Microsoft Support with the client session ID.
+
+  - We couldn't set up notifications—please try again. If this continues, have your administrator contact Microsoft Support with the client session ID.
+
+  - We couldn't set up presences—please try again. If this continues, have your administrator contact Microsoft Support with the client session ID.
+
+  - Something went wrong while setting up your workspace—please try again. If this continues, have your administrator contact Microsoft Support with the client session ID.
+
+  - We couldn't set up presences due to missing roles — Ask your administrator to grant you Omnichannel roles. If this continues, have your administrator contact Microsoft Support with the client session ID. To learn more about security roles, see [Assign roles and enable users for Omnichannel for Customer Service](administrator/add-users-assign-roles). 
+
+  - We couldn't get your authentication token — Your Teams subscription has expired, please contact your admin to renew it. If this continues, have your admin contact Microsoft Support with the Client Session ID:{0}. To resolve the issue, follow the steps in [Omnichannel provisioning fails due to expired Teams Service Principal](#omnichannel-provisioning-fails-due-to-expired-teams-service-principal).
 
 ## Error occurs when I try to create a chat widget or social channel
 
