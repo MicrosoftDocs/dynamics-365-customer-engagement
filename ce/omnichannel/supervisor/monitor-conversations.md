@@ -68,7 +68,12 @@ By joining the conversation, you provide necessary inputs to both agent and cust
 
 ## Assign a conversation
 
-At times, you may need to manually assign a conversation that is in an open state or unassigned to any agent.
+At times, you may need to manually assign a conversation. The following are applicable:
+
+- Conversation must be in an open status or not assigned to an agent.
+- Agents whose presence matches one of the **allowed presence** in the work stream configuration only will be listed.
+
+You can assign conversations that result in overallocation for an agent. In such cases, the agent's capacity will show the units by which their capacity is exceeded.
 
 1. Sign in to the **Omnichannel for Customer Service** app.
 
@@ -79,20 +84,19 @@ At times, you may need to manually assign a conversation that is in an open stat
     > ![Select Assign option](../media/assign-agents-conversations.png "Select Assign option")
     
 3. Choose a conversation in an **Open** state, and select **Assign** on the top-right corner.
-
-
-
-4. Choose one of the following options:
-  - **Assign to agent:** This assigns the conversation to a particular agent. The agent list contains only those agents who are part of the same queue as the conversation. Only those agents whose presence is same as the queue configured in the **Allowed Presence** in work stream configuration will be listed. <!--Neeraja: The queue does not have any presence. The work stream has the setting that lets work be assigned to agents if their presence matches one of those listed in the Allowed Presence setting. -->
-  - **Assign to queue:** This lists all queues except the queue the conversation is currently part of.
-
-    > [!div class=mx-imgBorder]
+> [!div class=mx-imgBorder]
     > ![Select agent or queue option](../media/assign-agent-queue.png "Select either agent or queue option")
+
+
+4. On the **Assign conversations** dialog box, choose one of the following options:
+  - **Agent:** Select to assign the conversation to an agent, and choose an agent name from the list.
+  - **Queue:** This lists all queues except the queue the conversation is currently part of.
+
+    
   
  5. Depending on which option you chose in Step 4, choose the agent or queue, and then select **Assign** to send the invitation for the agent or queue to join the conversation.
  
- Supervisors can assign conversations irrespective of an agent's capacity and presence. When there is an overallocation of conversations, the agent's capacity will reflect the number of units by which the capacity is exceeded.
-
+ 
 
 ### See also
 
