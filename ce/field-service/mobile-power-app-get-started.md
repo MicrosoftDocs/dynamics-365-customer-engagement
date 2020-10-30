@@ -73,7 +73,7 @@ Download the app called **Field Service (Dynamics 365)**, as seen in the followi
 
 Launch the app and sign in with your username and password, which should be the user credentials of the technician user with the **Field Service - Resource** security role. View the topics on [setting up users and security roles](../field-service/view-user-accounts-security-roles.md) and [creating a Bookable Resource](set-up-bookable-resources.md) for help. 
 
-# Use the Field Service (Dynamics 365) mobile app
+## Use the Field Service (Dynamics 365) mobile app
 
 Once you sign in, the app will prompt you to download offline data (your scheduled work orders) to the device. If you anticipate not having internet access, select **Download**. Otherwise you can **Skip for now**. If you're unsure, we recommend downloading the offline data just in case. 
 
