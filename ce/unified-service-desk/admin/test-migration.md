@@ -23,8 +23,8 @@ search.app:
 I've assumed that there's an order to these steps, but if there isn't, a bulleted list would be better.-->
 This topic describes the steps you need to perform after you migrate configurations from the legacy web client to the Unified Interface app. 
 
-1. [Clear the CEF cache folder](clear-the-cef-cache-folder)
-1. [Test configurations in the Unified Interface app](test-configurations-in-the-target-unified-interface-app)
+1. [Clear the CEF cache folder](#clear-the-cef-cache-folder)
+1. [Test configurations in the Unified Interface app](#test-configurations-in-the-target-unified-interface-app)
 1. Perform the following post-migration steps<!--note from editor: If there's no reason to cluster these tasks together, I'd delete this line and promote them all.-->
    1. [Verify window navigation rules](#verify-window-navigation-rules)
    1. [Reconfigure events](#reconfigure-events)
