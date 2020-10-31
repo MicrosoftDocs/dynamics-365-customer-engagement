@@ -3,7 +3,7 @@ title: "Get started with the Field Service (Dynamics 365) mobile app | Microsoft
 description: Learn how to get started with the Field Service (Dynamics 365) mobile app.
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 10/15/2020
+ms.date: 10/30/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -37,20 +37,20 @@ The Field Service (Dynamics 365) mobile app is designed and optimized for techni
 
 Available natively for Apple iOS and Google Android phones and tablets, the Field Service (Dynamics 365) mobile app offers technicians many capabilities they need to perform onsite customer service, such as:  
 
-- A calendar view of assigned jobs
-- Support for picture, video, and asset barcode scanning
-- Customer signature capture
-- Offline capabilities so technicians can continue viewing and recording work in areas without internet
+- A calendar view of assigned jobs.
+- Support for picture, video, and asset barcode scanning.
+- Customer signature capture.
+- Offline capabilities so technicians can continue viewing and recording work in areas without internet.
 
 
 ## Prerequisites
 
-- **Field Service v8.8.22+**. The Field Service mobile app will appear in your list of Dynamics 365 applications as "Field Service Mobile".
+- **Field Service v8.8.22+**. The Field Service (Dynamics 365) mobile app will appear in your list of Dynamics 365 applications as "Field Service Mobile".
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Dynamics 365 list of apps, showing the Field Service Mobile solution in the list.](./media/mobile-2020-admin-assign-role-app.png)
 
-- Select the ellipses icon on the **Field Service Mobile** application, then choose **Manage Roles** and assign the app to the Field Service-Resource, Field Service-Administrator, and other relevant roles that will need access to the mobile app.
+- Select the ellipses icon on the **Field Service Mobile** application, then choose **Manage Roles** and assign the app to the **Field Service-Resource**, **Field Service-Administrator**, and other relevant roles that will need access to the mobile app.
 
 - Set up a Dynamics 365 Field Service user with the **Field Service-Resource** security role. This user will sign in to the Field Service (Dynamics 365) mobile app as a technician.
 
@@ -80,7 +80,7 @@ Once you sign in, the app will prompt you to download offline data (your schedul
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service (Dynamics 365), showing the download data dialogue.](./media/mobile-2020-download-offline.png)
 
-### View scheduled work orders
+## View scheduled work orders
 
 The first screen you'll see is a calendar view of your scheduled work orders.
 
@@ -102,7 +102,7 @@ On the **Notes tab**, you'll see a way to add note text, pictures, and videos, a
 > [!div class="mx-imgBorder"]
 > ![Simulated image showing three mobile devices with Field Service (Dynamics 365) open. First screenshot on the left shows the service tab on the bookable resource booking. Middle screenshot shows the service tab. Right screenshot shows the notes tab.](./media/mobile-2020-work-order-service-notes.jpg)
 
-### Find more information
+## Find more information
 
 To get to the sitemap, select the menu icon from the calendar view. From here, you can find other important information like accounts, contacts, customer assets, or to record time off.
 
@@ -118,27 +118,63 @@ Select the global search icon to search for records across accounts, contacts, w
 
 For more information, see the article on [configuring global search](https://docs.microsoft.com/dynamics365/field-service/mobile-power-app-configure#customize-global-search-and-enable-scan-to-search).
 
+## Work offline
 
-### Work offline
+If you expect to be performing work in areas without internet access, you can download important information to your device to keep working.
 
-If you expect to be in areas without wifi or cellular internet access, you can download important information to your device to keep working.
+The Field Service mobile app runs in **offline by default**. Offline by default is a mode where the app runs offline first and performs consistently with or without internet connectivity. Technicians no longer need to decide to go offline or manually switch between online and offline modes.
 
-From the home screen, select the cloud icon in the bottom left.
+Consider a scenario where a technician needs to work in the basement of an industrial complex. They will often have limited or no internet connectivity. Working offline will download their work orders, notes, service tasks, and pictures for use without connectivity; once connectivity is restored, new data is automatically synced back to the server. This process happens without interruption to the technician's experience.
 
-Then select **Download offline updates**. If you are prohibited from downloading offline profiles and the option is greyed out, you must:
-
-1. Set up an offline profile.
-2. Add your user to an offline profile.
-3. Ensure your user has the **Field Service - Resource** security role. See the section: **Configure the Field Service (Dynamics 365) mobile app**.
+Upon sign-in, the app will download important Field Service information as defined by system administrators. For more information, see the article on [configuring offline sync filters](https://docs.microsoft.com/dynamics365/field-service/mobile-power-app-configure#configure-offline-data-and-sync-filters).
 
 > [!div class="mx-imgBorder"]
-> ![Simulated image showing three mobile devices with Field Service (Dynamics 365). The device on the left shows the menu, with attention to the cloud icon at the bottom. The middle device shows the offline status screen. The device on the right shows the offline status as available, showing the list of available entities.](./media/mobile-2020-offline.jpg)
+> ![Device renders showing the Field Service (Dynamics 365) mobile app, showing the offline status.](./media/mobile-2020-offline-downloading2.png)
 
-When **Status** is set to **Available**, you'll have all the data you need to work offline.
+When the **Status** is set to **Available**, you'll have all the data you need to work offline.
 
-Then toggle the **Work in offline mode** to on. If you lose internet connection unexpectedly, the app will automatically work in offline mode if you previously downloaded data.
+> [!div class="mx-imgBorder"]
+> ![Device renders showing the Field Service (Dynamics 365) mobile app, showing an option to update offline data.](./media/mobile-2020-offline-complete.png)
 
-### Connected Field Service on the Field Service (Dynamics 365) mobile app
+> [!Note]
+> When the technician has internet connectivity, data on the device is automatically refreshed every five minutes.
+
+Technicians also have the option to **Update offline data** manually by going to the home screen, selecting the offline icon in the bottom left, then selecting the **Update offline data** option. 
+
+> [!div class="mx-imgBorder"]
+> ![Device renders showing the Field Service (Dynamics 365) mobile app, showing how to get to the update offline data option.](./media/mobile-2020-offline-update-offline-data2.png)
+
+Technicians may also want to sync specific views when they have internet connectivity. For instance: 
+
+- The technician wants to check for new bookings on their calendar before starting to drive.
+- The technician wants to check for updates on a work order made by other crew members. 
+
+To sync specific views, select **Refresh** from the app's bottom menu. For example, you can refresh bookings by selecting the **Refresh** option, shown in the following screenshot.
+
+
+> [!div class="mx-imgBorder"]
+> ![Device render showing Field Service (Dynamics 365), with attention to the refresh option.](./media/mobile-2020-offline-refresh.png)
+
+
+## Delete data and clear cache from device
+
+To remove all cached data, you need to reconfigure the app.
+
+Go to the main menu, then select the person icon in the top left.
+
+Then select **Reconfigure**.
+
+> [!div class="mx-imgBorder"]
+> ![Device render showing the Field Service (Dynamics 365) mobile app, showing the reconfigure option.](./media/mobile-2020-offline-reconfigure.png)
+
+Reconfiguring deletes data and metadata for the current organization from the cache.
+
+> [!Tip]
+> Don't rely solely on the reconfiguration for security measures.
+
+Make sure to reconfigure before you sign out. You won't be able to reconfigure if you're signed into another organization.
+
+## IoT on the Field Service (Dynamics 365) mobile app
 
 For organizations using Connected Field Service, technicians can view and interact with IoT data and actions in the Field Service (Dynamics 365) mobile app.
  
@@ -147,7 +183,7 @@ For organizations using Connected Field Service, technicians can view and intera
 
 For more information, see the article on [Connected Field Service for the Field Service (Dynamics 365) mobile app](cfs-mobile-powerapp.md).
 
-### Trigger Dynamics 365 Remote Assist
+## Trigger Dynamics 365 Remote Assist
 
 Organizations using Dynamics 365 Remote Assist will see that technicians can trigger a deep link from the work order to open the Dynamics 365 Remote Assist mobile app.
 
