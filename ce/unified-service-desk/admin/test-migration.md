@@ -1,6 +1,6 @@
 ---
-title: "Post-migration steps | MicrosoftDocs"
-description: "Test migration of web client configurations to the unified interface app."
+title: "Test web client configurations after migration to Unified Interface | MicrosoftDocs"
+description: "Test the migration of web client configurations to the Unified Interface app."
 ms.custom: 
   - dyn365-USD
   - dyn365-admin
@@ -19,14 +19,25 @@ search.app:
 ---
 
 # Post-migration steps
+<!--note from editor: Suggest restructuring this introduction as follows. I couldn't see why the first two H2s were given such prominence while all the H3s nestled under "Post-requisites" seemed just as important. This way, all of those H3s will show up in the article TOC and give the reader some idea of how many (and what) steps there are. It might be a good idea to restructure further, so those first two steps aren't so prominent.
+I've assumed that there's an order to these steps, but if there isn't, a bulleted list would be better.-->
+This topic describes the steps you need to perform after you migrate configurations from the legacy web client to the Unified Interface app. 
 
-This topic describes the steps you need to perform after you migrate the configurations from the legacy web client to the Unified Interface app.
+1. [Clear the CEF cache folder](clear-the-cef-cache-folder)
+1. [Test configurations in the Unified Interface app](test-configurations-in-the-target-unified-interface-app)
+1. Perform the following post-migration steps<!--note from editor: If there's no reason to cluster these tasks together, I'd delete this line and promote them all.-->
+   1. [Verify window navigation rules](#verify-window-navigation-rules)
+   1. [Reconfigure events](#reconfigure-events)
+   1. [Reconfigure the associated view action call](#reconfigure-the-associated-view-action-call)
+   1. [Reconfigure RunXrmCommands](#reconfigure-runxrmcommands) 
+   1. [Update the hosting type to Chrome](#update-the-hosting-type-to-chrome) (optional)
+   1. [Set the Unified Interface theme](#set-the-unified-interface-theme) (optional)
 
 ## Clear the CEF cache folder
 
-Clear the CEF cache folder before you sign into Unified Service Desk application.
+Clear the CEF cache folder before you sign in to the Unified Service Desk application.
 
-1. Go to c:\\Users\<user name>\Roaming\Microsoft\USD\CEF
+1. Go to c:\\Users\*<user name>*\Roaming\Microsoft\USD\CEF
 
 2. Delete the contents of the folder.
 
@@ -34,58 +45,60 @@ Clear the CEF cache folder before you sign into Unified Service Desk application
 
 1. Sign in to the Common Data Service platform.
 
-2. Select the down arrow next to Dynamics 365.
+2. Expand **Dynamics 365**.
 
 3. Select **Unified Service Desk Administrator**.
 
-4. Select configurations that you migrated from the legacy web client.</br>
-For example, the selected configuration elements are as follows:
+4. Select configurations that you migrated from the legacy web client. For this example, the selected configuration elements are as follows.
 
-  |Configuration Name|Description|
-  |-------|-------|
-  |KB Article| CRM Page|
-  |KB Search| KM Control|
+   |Configuration name|Description|
+   |-------|-------|
+   |KB Article| CRM Page|
+   |KB Search| KM Control|
 
-  ![Select configurations](../media/usd-migration-assistant-selected-configurations.PNG "Selected configurations")</br>
- You must select **Hosted Controls** to verify.</br></br>
- You can see configurations are migrated to Unified Interface specific elements.
+    ![Selected configurations](../media/usd-migration-assistant-selected-configurations.PNG "Selected configurations")</br>
 
-  |Configuration Name|Description|
+5. Select **Hosted Controls**.<!--note from editor: This looks like it should be a numbered step; will it be obvious to the reader where to find it?-->
+
+You can see that the configurations have been migrated to Unified Interface&ndash;specific elements.
+
+  |Configuration name|Description|
   |-------|-------|
   |KB Article| Unified Interface Page|
   |KB Search| Unified Interface KM Control|
   
   ![Verifying the configuration migration](../media/usd-configuration-migration-verification.PNG "Verifying the configuration migration")
 
-## Post-requisites
+<!--note from editor: Commenting this section out; see above. Also, note that "post-requisite" is cute! but it's not in our style sources nor the American Heritage dictionary. Plus, the optional steps aren't requisite.
+## Post-migration steps
 
 - [Verify window navigation rules](#verify-window-navigation-rules)
 - [Reconfigure events](#reconfigure-events)
-- [Reconfigure associated view action call](#reconfigure-associated-view-action-call)
+- [Reconfigure the associated view action call](#reconfigure-the-associated-view-action-call)
 - [Reconfigure RunXrmCommands](#reconfigure-runxrmcommands) 
-- [Update Hosting Type to Chrome](#update-hosting-type-to-chrome) (optional)
-- [Set Unified Interface theme](#set-unified-interface-theme) (optional)
+- [Update the hosting type to Chrome](#update-the-hosting-type-to-chrome) (optional)
+- [Set the Unified Interface theme](#set-the-unified-interface-theme) (optional)
+-->
+## Verify window navigation rules
 
-### Verify window navigation rules
+Page navigation in the web client and Unified Interface are different. In the legacy web client, for window navigation rules, you might have<!--note from editor: Writing Style Guide says "Avoid ambiguous or awkward contractions, such as there'd, it'll, and they'd." Much as I like contractions, I'm going to venture to say that "might've" belongs in this list.--> set up the **Route-type** as **Pop-up** for the originating hosted control, and when you convert the hosted control, the migration tool replaces the **Pop-up** to **Inplace** route type. Based on your earlier configuration, if required, you might want to update the window navigation rules.
 
-The page navigation in web client and Unified Interface are different. In the legacy web client, for window navigation rules, you might've set up the **Route-type** as **Pop-up** for the originating hosted control, and when you convert the hosted control, the migration tool replaces the **Pop-up** to **Inplace** route type. Based on your earlier configuration, if required, you might want to update the window navigation rules.
-
-**Verify page navigation behavior:**
+**Verify page navigation behavior**
 
 You view an account page in a browser or in Unified Service Desk client application and want to open a related case from the sub-grid. Now, if the case is opened in a same browser, then route type is Inplace. If it opens in new browser window, then route type is Pop-up.
 
  > [!Note]
  > For certain URLs if you've defined window.open method, those URLs are opened in a new browser tab (pop-up route type). For these URLs, you don't need to change the behavior for these window navigation rules.
 
-### Reconfigure events
+## Reconfigure events
 
 The **BrowserDocumentComplete** event in the legacy web client is converted to the **PageReady** event in Unified Interface.
 
 The **PageLoadComplete** event maps to **DataReady** event in the legacy web client. After conversion of the **BrowserDocumentComplete** to the **PageReady** event, the **DataReady** event is fired in Unified Interface. In this case, your page might not be ready for DOM interactions, so if you have any Runscript action calls on the **DataReady** event, we recommend moving the Runscript action calls to the **PageReady** event.
 
-### Reconfigure associated view action call
+## Reconfigure the associated view action call
 
-The **AssociatedView** action call is used to open entity view. In the legacy web client, to open associated view of an entity, you might've defined the navigate action call with the URL for the corresponding associated view.
+The **AssociatedView** action call is used to open an entity view. In the legacy web client, to open associated view of an entity, you might have defined the navigate action call with the URL for the corresponding associated view.
 
 The parameters for **AssociatedView** action call in the [Unified Interface Page](../unified-interface-page-hosted-control.md#associatedview) is different from [CRM Page](../crm-page-hosted-control.md#associatedview) hosted control.
 
@@ -109,39 +122,35 @@ You need to update parameters of the **AssociatedView** action call in the Unifi
   navitemid=navContacts
   ```
 
-### Reconfigure RunXrmCommands
+## Reconfigure RunXrmCommands
 
-In the legacy web client, you can pass a script as data in an action call. In Unified Interface, you need write the function in the web resource and pass the Unified Service Desk data parameters as parameters to that function.
+In the legacy web client, you can pass a script as data in an action call. In Unified Interface, you need to write the function in the web resource and pass the Unified Service Desk data parameters as parameters to that function.
 
-The migration tool converts all your action calls and replaces the data parameters with the variables in the function. Ensure to test and validate each action call in the Unified Interface app.
+The migration tool converts all your action calls and replaces the data parameters with the variables in the function. Be sure to test and validate each action call in the Unified Interface app.
 
-All the data parameters are passed as strings in quotes. For example, `‘[[incident.Id]+]’`.
+All the data parameters are passed as strings in single quotation marks<!--note from editor: Via Writing Style Guide. Did you want these to be "smart," or should they be straight?-->. For example, `‘[[incident.Id]+]’`.
 
 > [!Note]
-> If data parameters is a JSON object and not a string, you've to remove the quotes from the data parameter.
+> If the data parameter is a JSON object and not a string, you must remove the quotation marks from the data parameter.
 
-### Update Hosting Type to Chrome
+## Update the hosting type to Chrome
 
-It is recommended to update your Hosting Type to Chrome. To learn more, see [Update Unified Service Desk Component type to Chrome](../chrome-process.md).
+We recommend that you update your hosting type to Chrome. More information: [Update Unified Service Desk Component type to Chrome](../chrome-process.md)
 
-### Set Unified Interface theme
+## Set the Unified Interface theme
 
-Set the Unified Interface theme for the Unified Service Desk client application after you migrate your configurations from the legacy web client to Unified Interface.
+Set the Unified Interface theme for the Unified Service Desk client application after you migrate your configurations from the legacy web client to Unified Interface. More information: [Customize themes in Unified Service Desk](../customize-themes-in-unified-service-desk.md)<!--note from editor: Moved the cross-reference here so it doesn't disrupt the flow between the bulleted list below and the H3s that follow it.-->
 
-Create a **Unified Interface Settings** record with the theme as **Unified Blue**.
-
-To learn more, see [Create Unified Interface Settings record](unified-interface-settings.md#create-unified-interface-settings-record).
+Create a **Unified Interface Settings** record with the theme as **Unified Blue**. More information: [Create Unified Interface Settings record](unified-interface-settings.md#create-unified-interface-settings-record)
 
 After you create the record, update the following:
 
-- [Custom panel layout](#update-custom-panel-layout-xml)
-- [**Custom Styles** field in the Main toolbar](#update-custom-styles-field-in-the-main-toolbar)
-- [**Custom Styles** field in the About toolbar](#update-custom-styles-field-in-the-about-toolbar)
-- [Session overview lines XML in Session Lines](#update-session-overview-lines-xml-in-session-lines)
+- [Custom panel layout](#update-the-custom-panel-layout-xml)
+- [Custom Styles field on the Main toolbar](#update-the-custom-styles-field-on-the-main-toolbar)
+- [Custom Styles field on the About toolbar](#update-the-custom-styles-field-on-the-about-toolbar)
+- [Session overview lines XML in Session Lines](#update-the-session-overview-lines-xml-in-session-lines)
 
-To learn more, see [Customize themes in Unified Service Desk](../customize-themes-in-unified-service-desk.md)
-
-#### Update custom panel layout XML
+### Update the custom panel layout XML
 
 ```XML
 <Grid xmlns="https://schemas.microsoft.com/winfx/2006/xaml/presentation" 
@@ -369,43 +378,9 @@ To learn more, see [Customize themes in Unified Service Desk](../customize-theme
 </Grid> 
 ```
 
-To learn more, see [Create custom panel layout](../create-custom-panel-layout.md)
+More information: [Create custom panel layout](../create-custom-panel-layout.md)
 
-#### Update Custom Styles field in the Main toolbar
-
-```XML
-<ResourceDictionary xmlns="https://schemas.microsoft.com/winfx/2006/xaml/presentation" 
-
-xmlns:x="https://schemas.microsoft.com/winfx/2006/xaml"> 
-
- <ResourceDictionary.MergedDictionaries> 
-
-  <ResourceDictionary Source="/UnifiedServiceDesk;component/Styles/UnifiedInterface/Style.xaml"/> 
-
-  <ResourceDictionary xmlns="https://schemas.microsoft.com/winfx/2006/xaml/presentation" 
-
-xmlns:x="https://schemas.microsoft.com/winfx/2006/xaml"> 
-
-   <SolidColorBrush x:Key="ToolBarFontColor" Color="{Binding Color, Source={StaticResource TopToolbarTextColorBrush}}"/> 
-
-   <SolidColorBrush x:Key="ToolBarButtonHover" Color="{Binding Color, Source={StaticResource TopToolbarHoverColorBrush}}"/> 
-
-   <SolidColorBrush x:Key="ToolBarDropDownGoementryStrokeBrush" Color="{Binding Color, Source={StaticResource TopToolbarTextColorBrush}}"/> 
-
-   <SolidColorBrush x:Key="GenericToolBarButtonBackground" Color="{Binding Color, Source={StaticResource TopToolBarButtonBackground}}"/> 
-
-   <SolidColorBrush x:Key="ToolbarButtonPressedForeground" Color="{Binding Color, Source={StaticResource TopToolbarButtonPressedForeground}}" /> 
-
-  </ResourceDictionary> 
-
- </ResourceDictionary.MergedDictionaries> 
-
-  </ResourceDictionary> 
-```
-
-To learn more, see [Configure toolbars in your application](../configure-toolbars-application.md#styles-in-toolbar).
-
-#### Update Custom Styles field in the About toolbar
+### Update the Custom Styles field on the Main toolbar
 
 ```XML
 <ResourceDictionary xmlns="https://schemas.microsoft.com/winfx/2006/xaml/presentation" 
@@ -437,9 +412,43 @@ xmlns:x="https://schemas.microsoft.com/winfx/2006/xaml">
   </ResourceDictionary> 
 ```
 
-To learn more, see [Configure toolbars in your application](../configure-toolbars-application.md#styles-in-toolbar).
+More information: [Configure toolbars in your application](../configure-toolbars-application.md#styles-in-toolbar)
 
-#### Update session overview lines XML in Session Lines
+### Update the Custom Styles field on the About toolbar
+
+```XML
+<ResourceDictionary xmlns="https://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+
+xmlns:x="https://schemas.microsoft.com/winfx/2006/xaml"> 
+
+ <ResourceDictionary.MergedDictionaries> 
+
+  <ResourceDictionary Source="/UnifiedServiceDesk;component/Styles/UnifiedInterface/Style.xaml"/> 
+
+  <ResourceDictionary xmlns="https://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+
+xmlns:x="https://schemas.microsoft.com/winfx/2006/xaml"> 
+
+   <SolidColorBrush x:Key="ToolBarFontColor" Color="{Binding Color, Source={StaticResource TopToolbarTextColorBrush}}"/> 
+
+   <SolidColorBrush x:Key="ToolBarButtonHover" Color="{Binding Color, Source={StaticResource TopToolbarHoverColorBrush}}"/> 
+
+   <SolidColorBrush x:Key="ToolBarDropDownGoementryStrokeBrush" Color="{Binding Color, Source={StaticResource TopToolbarTextColorBrush}}"/> 
+
+   <SolidColorBrush x:Key="GenericToolBarButtonBackground" Color="{Binding Color, Source={StaticResource TopToolBarButtonBackground}}"/> 
+
+   <SolidColorBrush x:Key="ToolbarButtonPressedForeground" Color="{Binding Color, Source={StaticResource TopToolbarButtonPressedForeground}}" /> 
+
+  </ResourceDictionary> 
+
+ </ResourceDictionary.MergedDictionaries> 
+
+  </ResourceDictionary> 
+```
+
+More information: [Configure toolbars in your application](../configure-toolbars-application.md#styles-in-toolbar)
+
+### Update the session overview lines XML in Session Lines
 
 ```XML
 <Grid xmlns:x="https://schemas.microsoft.com/winfx/2006/xaml" 
@@ -577,19 +586,15 @@ To learn more, see [Configure toolbars in your application](../configure-toolbar
 </Grid>
 ```
 
-After you update, when you sign in to the Unified Service Desk client application, you can view the interface.
+After you make these updates, when you sign in to the Unified Service Desk client application, you can view the interface.
 
   > [!div class=mx-imgBorder]
   > ![New Unified Interface Settings record](../unified-interface/media/usd-unified-interface.PNG "New Unified Interface Settings record")
 
-## See also
+### See also
 
-[Migration steps](migration-steps-web-client-unified-interface-configuration.md)
-
-[Update Unified Service Desk Component type to Chrome](../chrome-process.md)
-
-[Create custom panel layout](../create-custom-panel-layout.md)
-
-[Customize themes in Unified Service Desk](../customize-themes-in-unified-service-desk.md)
-
+[Migration steps](migration-steps-web-client-unified-interface-configuration.md)  
+[Update Unified Service Desk Component type to Chrome](../chrome-process.md)  
+[Create custom panel layout](../create-custom-panel-layout.md)  
+[Customize themes in Unified Service Desk](../customize-themes-in-unified-service-desk.md)  
 [Configure toolbars in your application](../configure-toolbars-application.md)
