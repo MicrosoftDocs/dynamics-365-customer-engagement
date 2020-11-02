@@ -16,7 +16,6 @@ searchScope:
   - D365-Entity-Campaign
   - D365-Entity-Campaign Activity
   - D365-UI-Form
-  - Customer Engagement
   - Dynamics 365
   - Sales
 ---
