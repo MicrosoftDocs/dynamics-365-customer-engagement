@@ -2,7 +2,7 @@
 title: "Install and configure Dynamics 365 – Gamification in Dynamics 365 apps | Microsoft Docs"
 description: "Learn how to install the Gamification solution in Dynamics 365 apps and its associated web portal and security roles."
 keywords: install, solution, manage, uninstall
-ms.date: 10/08/2020
+ms.date: 11/02/2020
 ms.service: dynamics-365-sales
 ms.topic: get-started-article
 ms.assetid: eb33a4c5-2dde-417b-34f2-8d46be8c2f10
@@ -85,11 +85,16 @@ We recommend to adhere to the following limits when working with [!INCLUDE[pn_ga
 
 ## Game Manager security role
 
- When you install [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)], a security role called **Game Manager** is created in Dynamics 365. System admins can assign this security role to users who the admins want to enable to create KPIs.  
+When you install [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)], a security role called **Game Manager** is created in Dynamics 365. System admins can assign this security role to users who the admins want to enable to create KPIs.  
 
  [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Available security roles in Gamification](understand-security-roles.md)  
  More information about security roles and privileges: [TechNet: Security roles and privileges](https://technet.microsoft.com/library/dn531090.aspx)  
 More information about KPIs in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)]: [Configure KPIs for Gamification in Dynamics 365 apps](configure-kpis.md) 
+
+## Gamification app access security role
+
+When you install [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)], a security role called **Gamification app access** is created in Dynamics 365. System admins must assign this security role to users (including Game managers) to allow access to the Gamification app for Unified Interface.
+
   
 ## Dynamics 365 - Gamification settings
 

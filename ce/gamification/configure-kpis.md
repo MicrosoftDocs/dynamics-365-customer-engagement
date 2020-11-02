@@ -2,7 +2,7 @@
 title: "Configure Gamification KPIs in Dynamics 365 apps | Microsoft Docs"
 description: "Learn how to set up and edit KPIs in Dynamics 365 apps to use them in Gamification games. "
 keywords: Gamification, KPI, saved view, configuration
-ms.date: 10/08/2020
+ms.date: 11/02/2020
 ms.service: dynamics-365-sales
 ms.topic: get-started-article
 ms.assetid: b0c9af15-5cdf-4f8b-838c-49bf5dd50b6b
