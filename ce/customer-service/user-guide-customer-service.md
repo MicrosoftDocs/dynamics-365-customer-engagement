@@ -438,6 +438,21 @@ If you want another person in your organization to work on an activity, you can 
   
 3. In the **Queue** field, select **Lookup**, select the queue you want to route the activity to, and then select **Add**.
 
+## Pick an item from a queue
+
+Pick an item from a queue to work on. Optionally you also can remove it from the queue after picking up.
+
+1. Select Service.
+2. Select Queues.
+3. Select a view from the System Views menu.
+4. Select the queues from the menu.
+5. Select an item in the queue. Select the check box next to the item title.
+6. Select Pick from the menu bar. A dialog box appears with an option to remove the 
+   item from the queue while you are working on it.
+7. Select No and change it to Yes.
+8. Select Pick.
+
+
 ## Merge similar cases
 
 Eliminate redundancies between similar cases in Dynamics 365 Customer Service by merging them into one case. When a customer opens multiple cases about the same issue (through different support channels), or when multiple customers from the same account call in about the same issue, you can merge those cases into one case so everything’s visible in one place.  
