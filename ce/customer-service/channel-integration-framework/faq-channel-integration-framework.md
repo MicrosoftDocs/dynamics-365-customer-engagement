@@ -4,7 +4,7 @@ description: "Frequently asked questions about the Dynamics 365 Channel Integrat
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 09/07/2020
+ms.date: 11/02/2020
 ms.topic: reference
 ms.service: 
   - dynamics-365-customerservice

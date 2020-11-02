@@ -4,7 +4,7 @@ description: "Learn how to download, install, and set up Dynamics 365 Channel In
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 09/07/2020
+ms.date: 11/02/2020
 ms.topic: get-started-article
 ms.service: 
   - dynamics-365-customerservice

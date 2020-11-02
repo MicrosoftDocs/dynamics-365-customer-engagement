@@ -4,7 +4,7 @@ description: "Learn how to choose between Dynamics 365 Channel Integration Frame
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 08/13/2020
+ms.date: 11/02/2020
 ms.topic: article
 ms.service: 
   - dynamics-365-customerservice

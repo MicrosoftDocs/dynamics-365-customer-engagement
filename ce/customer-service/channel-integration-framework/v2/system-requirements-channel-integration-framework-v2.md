@@ -4,7 +4,7 @@ description: "Learn about the system requirements of Dynamics 365 Channel Integr
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 09/07/2020
+ms.date: 11/02/2020
 ms.topic: article
 ms.service: 
   - dynamics-365-customerservice
