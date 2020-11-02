@@ -41,6 +41,9 @@
       - name: Channel Integration Framework
         tocHref: /dynamics365/developer/channel-integration-framework/
         topicHref: /dynamics365/developer/channel-integration-framework/channel-integration-framework
+      - name: Channel Integration Framework
+        tocHref: /dynamics365/customer-service/channel-integration-framework/
+        topicHref: /dynamics365/customer-service/channel-integration-framework/channel-integration-framework
       - name: Omnichannel for Customer Service
         tocHref: /dynamics365/omnichannel/
         topicHref: /dynamics365/omnichannel/omnichannel-customer-service-guide
