@@ -284,8 +284,8 @@
           href: v2/reference/entities-attributes/msdyn_notificationfield.md
         - name: "msdyn_notificationtemplate"
           href: v2/reference/entities-attributes/msdyn_notificationtemplate.md
-        - name: "msdyn_consoleapplicationsessiontemplate"
-          href: v2/reference/entities-attributes/msdyn_consoleapplicationsessiontemplate.md
+        - name: "msdyn_sessiontemplate"
+          href: v2/reference/entities-attributes/msdyn_sessiontemplate.md
         - name: "msdyn_consoleapplicationapplicationtemplate"
           href: v2/reference/entities-attributes/msdyn_consoleapplicationtemplate.md
         - name: "msdyn_consoleapplicationtemplateparameter"
