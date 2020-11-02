@@ -86,10 +86,10 @@ Launch the app and sign in with your username and password, which should be the 
 
 ## Use the Field Service (Dynamics 365) mobile app
 
-Once you sign in, the app will prompt you to download offline data (your scheduled work orders) to the device. If you anticipate not having internet access, select **Download**. Otherwise you can **Skip for now**. If you're unsure, we recommend downloading the offline data just in case. 
+Upon sign-in, the app will download important Field Service information as defined by system administrators. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service (Dynamics 365), showing the download data dialogue.](./media/mobile-2020-download-offline.png)
+> ![Device renders showing the Field Service (Dynamics 365) mobile app, showing the offline status.](./media/mobile-2020-offline-downloading2.png)
 
 ## View scheduled work orders
 
