@@ -1,57 +1,56 @@
 ---
-title: "msdyn_scenario Entity Reference | MicrosoftDocs"
-description: "Includes schema information and supported messages for the msdyn_scenario entity."
-ms.date: 09/14/2020
+title: "msdyn_consoleapplicationnotificationtemplate Entity Reference | MicrosoftDocs"
+description: "Includes schema information and supported messages for the msdyn_consoleapplicationnotificationtemplate entity."
+ms.date: 07/02/2020
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: 
   - "Dynamics 365 (online)"
+ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "susikka"
 ms.author: "susikka"
-manager: "shujoshi"
+manager: "susikka"
 ---
-# msdyn_scenario Entity Reference
+# msdyn_consoleapplicationnotificationtemplate Entity Reference
 
-[!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
+Template for a notification
 
-
-
-**Added by**: Scenarios and Channels Solution
+**Added by**: Channel API Integration Framework Solution
 
 
 ## Messages
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.1/msdyn_scenarios(*msdyn_scenarioid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.1/msdyn_scenarios<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.1/msdyn_scenarios(*msdyn_scenarioid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Assign|PATCH [*org URI*]/api/data/v9.1/msdyn_sessionparticipantsdata(*msdyn_sessionparticipantdataid*)|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Create|POST [*org URI*]/api/data/v9.1/msdyn_sessionparticipantsdata|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.1/msdyn_sessionparticipantsdata(*msdyn_sessionparticipantdataid*)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 |IsValidStateTransition|<xref href="Microsoft.Dynamics.CRM.IsValidStateTransition?text=IsValidStateTransition Function" />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 |ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.1/msdyn_scenarios(*msdyn_scenarioid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.1/msdyn_scenarios<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Retrieve|GET [*org URI*]/api/data/v9.1/msdyn_sessionparticipantsdata(*msdyn_sessionparticipantdataid*)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.1/msdyn_sessionparticipantsdata|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
 |RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
 |RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.1/msdyn_scenarios(*msdyn_scenarioid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.1/msdyn_scenarios(*msdyn_scenarioid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|SetState|PATCH [*org URI*]/api/data/v9.1/msdyn_sessionparticipantsdata(*msdyn_sessionparticipantdataid*)|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.1/msdyn_sessionparticipantsdata(*msdyn_sessionparticipantdataid*)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
 |Property|Value|
 |--------|-----|
-|CollectionSchemaName|msdyn_scenarios|
-|DisplayCollectionName|Scenarios|
-|DisplayName|Scenario|
-|EntitySetName|msdyn_scenarios|
+|CollectionSchemaName|msdyn_consoleapplicationnotificationtemplates|
+|DisplayCollectionName|Notification Templates|
+|DisplayName|Notification Template|
+|EntitySetName|msdyn_consoleapplicationnotificationtemplates|
 |IsBPFEntity|False|
-|LogicalCollectionName|msdyn_scenarios|
-|LogicalName|msdyn_scenario|
+|LogicalCollectionName|msdyn_consoleapplicationnotificationtemplates|
+|LogicalName|msdyn_consoleapplicationnotificationtemplate|
 |OwnershipType|UserOwned|
-|PrimaryIdAttribute|msdyn_scenarioid|
+|PrimaryIdAttribute|msdyn_consoleapplicationnotificationtemplateid|
 |PrimaryNameAttribute|msdyn_name|
-|SchemaName|msdyn_scenario|
+|SchemaName|msdyn_consoleapplicationnotificationtemplate|
 
 <a name="writable-attributes"></a>
 
@@ -60,15 +59,20 @@ manager: "shujoshi"
 These attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
-- [msdyn_ChannelId](#BKMK_msdyn_ChannelId)
-- [msdyn_DisplayName](#BKMK_msdyn_DisplayName)
+- [msdyn_AcceptButtonText](#BKMK_msdyn_AcceptButtonText)
+- [msdyn_ActionButtons](#BKMK_msdyn_ActionButtons)
+- [msdyn_consoleapplicationnotificationtemplateId](#BKMK_msdyn_consoleapplicationnotificationtemplateId)
+- [msdyn_DesktopNotificationSettings](#BKMK_msdyn_DesktopNotificationSettings)
+- [msdyn_Icon](#BKMK_msdyn_Icon)
 - [msdyn_name](#BKMK_msdyn_name)
-- [msdyn_NotificationTemplate](#BKMK_msdyn_NotificationTemplate)
-- [msdyn_parentscenarioid](#BKMK_msdyn_parentscenarioid)
-- [msdyn_scenarioId](#BKMK_msdyn_scenarioId)
-- [msdyn_SessionTemplate](#BKMK_msdyn_SessionTemplate)
-- [msdyn_Type](#BKMK_msdyn_Type)
-- [msdyn_WorkStreamId](#BKMK_msdyn_WorkStreamId)
+- [msdyn_NotificationButtons](#BKMK_msdyn_NotificationButtons)
+- [msdyn_NotificationFieldsPlaceholder](#BKMK_msdyn_NotificationFieldsPlaceholder)
+- [msdyn_RejectButtonText](#BKMK_msdyn_RejectButtonText)
+- [msdyn_RenderingOrder](#BKMK_msdyn_RenderingOrder)
+- [msdyn_Showtimeout](#BKMK_msdyn_Showtimeout)
+- [msdyn_Theme](#BKMK_msdyn_Theme)
+- [msdyn_Timeout](#BKMK_msdyn_Timeout)
+- [msdyn_Title](#BKMK_msdyn_Title)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [OwnerId](#BKMK_OwnerId)
 - [OwnerIdType](#BKMK_OwnerIdType)
@@ -95,32 +99,94 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Integer|
 
 
-### <a name="BKMK_msdyn_ChannelId"></a> msdyn_ChannelId
+### <a name="BKMK_msdyn_AcceptButtonText"></a> msdyn_AcceptButtonText
+
+**Added by**: Channel API Integration Framework Patch Solution
 
 |Property|Value|
 |--------|-----|
-|Description|Unique identifier for channel associated with Scenario.|
-|DisplayName|Channel|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_channelid|
-|RequiredLevel|None|
-|Targets|msdyn_channel|
-|Type|Lookup|
-
-
-### <a name="BKMK_msdyn_DisplayName"></a> msdyn_DisplayName
-
-|Property|Value|
-|--------|-----|
-|Description|Label for the scenario|
-|DisplayName|Display Name|
+|Description||
+|DisplayName|Accept Button Text|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_displayname|
-|MaxLength|100|
+|LogicalName|msdyn_acceptbuttontext|
+|MaxLength|250|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_ActionButtons"></a> msdyn_ActionButtons
+
+|Property|Value|
+|--------|-----|
+|Description|The action buttons to be displayed. (Deprecated)|
+|DisplayName|ActionButtons (Deprecated)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_actionbuttons|
+|RequiredLevel|None|
+|Type|MultiSelectPicklist|
+
+#### msdyn_ActionButtons Options
+
+|Value|Label|
+|-----|-----|
+|100000000|Allow|
+|100000001|Deny|
+
+
+
+### <a name="BKMK_msdyn_consoleapplicationnotificationtemplateId"></a> msdyn_consoleapplicationnotificationtemplateId
+
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for entity instances|
+|DisplayName|ConsoleApplicationNotificationTemplate|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|msdyn_consoleapplicationnotificationtemplateid|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
+
+
+### <a name="BKMK_msdyn_DesktopNotificationSettings"></a> msdyn_DesktopNotificationSettings
+
+**Added by**: Channel API Integration Framework Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Show desktop notifications when app is in background or never|
+|DisplayName|Show desktop notifications|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_desktopnotificationsettings|
+|RequiredLevel|None|
+|Type|Picklist|
+
+#### msdyn_DesktopNotificationSettings Options
+
+|Value|Label|
+|-----|-----|
+|100000002|Never|
+|100000003|When app is in background|
+
+
+
+### <a name="BKMK_msdyn_Icon"></a> msdyn_Icon
+
+|Property|Value|
+|--------|-----|
+|Description|Display icon for this notification. Can be either an image URL or a font-icon|
+|DisplayName|Icon|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_icon|
+|MaxLength|1024|
 |RequiredLevel|None|
 |Type|String|
 
@@ -129,113 +195,160 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|The name of the custom entity.|
+|Description|The name of this Notification template.|
 |DisplayName|Name|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|msdyn_name|
-|MaxLength|700|
+|MaxLength|100|
 |RequiredLevel|ApplicationRequired|
 |Type|String|
 
 
-### <a name="BKMK_msdyn_NotificationTemplate"></a> msdyn_NotificationTemplate
+### <a name="BKMK_msdyn_NotificationButtons"></a> msdyn_NotificationButtons
 
 |Property|Value|
 |--------|-----|
-|Description|Notification template associated with the scenario|
-|DisplayName|Notification Template|
+|Description|JSON object to pass key-value pairs for action buttons that are to be present on the notification|
+|DisplayName|Notification Buttons|
+|FormatName|Text|
+|IsLocalizable|False|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_notificationtemplate|
+|LogicalName|msdyn_notificationbuttons|
+|MaxLength|300|
 |RequiredLevel|None|
-|Targets|msdyn_notificationtemplate|
-|Type|Lookup|
+|Type|String|
 
 
-### <a name="BKMK_msdyn_parentscenarioid"></a> msdyn_parentscenarioid
-
-**Added by**: Omnichannel for Customer Service Patch Solution
+### <a name="BKMK_msdyn_NotificationFieldsPlaceholder"></a> msdyn_NotificationFieldsPlaceholder
 
 |Property|Value|
 |--------|-----|
-|Description|Unique identifier for Scenario associated with Scenario.|
-|DisplayName|Parent Scenario|
+|Description|Deprecated field|
+|DisplayName|Notification Fields|
+|FormatName|Text|
+|IsLocalizable|False|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_parentscenarioid|
+|LogicalName|msdyn_notificationfieldsplaceholder|
+|MaxLength|200|
 |RequiredLevel|None|
-|Targets|msdyn_scenario|
-|Type|Lookup|
+|Type|String|
 
 
-### <a name="BKMK_msdyn_scenarioId"></a> msdyn_scenarioId
+### <a name="BKMK_msdyn_RejectButtonText"></a> msdyn_RejectButtonText
 
-|Property|Value|
-|--------|-----|
-|Description|Unique identifier for entity instances|
-|DisplayName|Scenario|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|IsValidForUpdate|False|
-|LogicalName|msdyn_scenarioid|
-|RequiredLevel|SystemRequired|
-|Type|Uniqueidentifier|
-
-
-### <a name="BKMK_msdyn_SessionTemplate"></a> msdyn_SessionTemplate
-
-|Property|Value|
-|--------|-----|
-|Description|Session template associated with the scenario|
-|DisplayName|Session Template|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_sessiontemplate|
-|RequiredLevel|None|
-|Targets|msdyn_consoleapplicationsessiontemplate|
-|Type|Lookup|
-
-
-### <a name="BKMK_msdyn_Type"></a> msdyn_Type
+**Added by**: Channel API Integration Framework Patch Solution
 
 |Property|Value|
 |--------|-----|
 |Description||
-|DisplayName|Type|
+|DisplayName|Reject Button Text|
+|FormatName|Text|
+|IsLocalizable|False|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_type|
+|LogicalName|msdyn_rejectbuttontext|
+|MaxLength|250|
 |RequiredLevel|None|
-|Type|Boolean|
-
-#### msdyn_Type Options
-
-|Value|Label|
-|-----|-----|
-|1|Notification|
-|0|Session|
-
-**DefaultValue**: True
+|Type|String|
 
 
-
-### <a name="BKMK_msdyn_WorkStreamId"></a> msdyn_WorkStreamId
-
-**Added by**: Omnichannel for Customer Service Patch Solution
+### <a name="BKMK_msdyn_RenderingOrder"></a> msdyn_RenderingOrder
 
 |Property|Value|
 |--------|-----|
-|Description|Unique identifier for Work Stream associated with Scenario.|
-|DisplayName|WorkStream|
+|Description|Notification display order relative to other notification templates.|
+|DisplayName|Notification order|
+|Format|None|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_workstreamid|
+|LogicalName|msdyn_renderingorder|
+|MaxValue|2147483647|
+|MinValue|0|
 |RequiredLevel|None|
-|Targets|msdyn_liveworkstream|
-|Type|Lookup|
+|Type|Integer|
+
+
+### <a name="BKMK_msdyn_Showtimeout"></a> msdyn_Showtimeout
+
+**Added by**: Channel API Integration Framework Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Show countdown for when the notification will disappear|
+|DisplayName|Show timeout|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_showtimeout|
+|RequiredLevel|None|
+|Type|Picklist|
+
+#### msdyn_Showtimeout Options
+
+|Value|Label|
+|-----|-----|
+|100000000|Yes|
+|100000001|No|
+
+
+
+### <a name="BKMK_msdyn_Theme"></a> msdyn_Theme
+
+**Added by**: Channel API Integration Framework Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Theme color for Notification template.|
+|DisplayName|Theme|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_theme|
+|RequiredLevel|None|
+|Type|Picklist|
+
+#### msdyn_Theme Options
+
+|Value|Label|
+|-----|-----|
+|100000000|Dark|
+|100000001|Light|
+
+
+
+### <a name="BKMK_msdyn_Timeout"></a> msdyn_Timeout
+
+|Property|Value|
+|--------|-----|
+|Description|Notification time out period.|
+|DisplayName|Timeout (seconds)|
+|Format|None|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_timeout|
+|MaxValue|500|
+|MinValue|0|
+|RequiredLevel|None|
+|Type|Integer|
+
+
+### <a name="BKMK_msdyn_Title"></a> msdyn_Title
+
+|Property|Value|
+|--------|-----|
+|Description|The title to be displayed for this notification.|
+|DisplayName|Title|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_title|
+|MaxLength|100|
+|RequiredLevel|ApplicationRequired|
+|Type|String|
 
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
@@ -289,7 +402,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Status of the Scenario|
+|Description|Status of the Notification Template|
 |DisplayName|Status|
 |IsValidForCreate|False|
 |IsValidForForm|True|
@@ -311,7 +424,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Reason for the status of the Scenario|
+|Description|Reason for the status of the Notification Template|
 |DisplayName|Status Reason|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -379,11 +492,6 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 - [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
 - [ModifiedOnBehalfByName](#BKMK_ModifiedOnBehalfByName)
 - [ModifiedOnBehalfByYomiName](#BKMK_ModifiedOnBehalfByYomiName)
-- [msdyn_ChannelIdName](#BKMK_msdyn_ChannelIdName)
-- [msdyn_NotificationTemplateName](#BKMK_msdyn_NotificationTemplateName)
-- [msdyn_ParentScenarioIdName](#BKMK_msdyn_ParentScenarioIdName)
-- [msdyn_SessionTemplateName](#BKMK_msdyn_SessionTemplateName)
-- [msdyn_WorkStreamIdName](#BKMK_msdyn_WorkStreamIdName)
 - [OwnerIdName](#BKMK_OwnerIdName)
 - [OwnerIdYomiName](#BKMK_OwnerIdYomiName)
 - [OwningBusinessUnit](#BKMK_OwningBusinessUnit)
@@ -630,90 +738,6 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Type|String|
 
 
-### <a name="BKMK_msdyn_ChannelIdName"></a> msdyn_ChannelIdName
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|msdyn_channelidname|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_NotificationTemplateName"></a> msdyn_NotificationTemplateName
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|msdyn_notificationtemplatename|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_ParentScenarioIdName"></a> msdyn_ParentScenarioIdName
-
-**Added by**: Omnichannel for Customer Service Patch Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|msdyn_parentscenarioidname|
-|MaxLength|700|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_SessionTemplateName"></a> msdyn_SessionTemplateName
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|msdyn_sessiontemplatename|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_WorkStreamIdName"></a> msdyn_WorkStreamIdName
-
-**Added by**: Omnichannel for Customer Service Patch Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|msdyn_workstreamidname|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
 ### <a name="BKMK_OwnerIdName"></a> OwnerIdName
 
 **Added by**: Active Solution Solution
@@ -814,50 +838,63 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|None|
 |Type|BigInt|
 
-<a name="onetomany"></a>
+<a name="manytomany"></a>
 
-## One-To-Many Relationships
+## Many-To-Many Relationships
 
-Listed by **SchemaName**.
+Relationship details provided where the msdyn_consoleapplicationnotificationtemplate entity is the first entity in the relationship. Listed by **SchemaName**.
+
+- [msdyn_msdyn_consoleapplicationnotificationtempl](#BKMK_msdyn_msdyn_consoleapplicationnotificationtempl)
+- [msdyn_msdyn_consoleapplicationnotificationtag](#BKMK_msdyn_msdyn_consoleapplicationnotificationtag)
 
 
-### <a name="BKMK_msdyn_msdyn_scenario_msdyn_scenario"></a> msdyn_msdyn_scenario_msdyn_scenario
+### <a name="BKMK_msdyn_msdyn_consoleapplicationnotificationtempl"></a> msdyn_msdyn_consoleapplicationnotificationtempl
 
-**Added by**: Omnichannel for Customer Service Patch Solution
-
-Same as msdyn_scenario entity [msdyn_msdyn_scenario_msdyn_scenario](msdyn_scenario.md#BKMK_msdyn_msdyn_scenario_msdyn_scenario) Many-To-One relationship.
+IntersectEntityName: msdyn_msdyn_consoleapplicationnotificationtem<br />
+#### Entity 1
 
 |Property|Value|
 |--------|-----|
-|ReferencingEntity|msdyn_scenario|
-|ReferencingAttribute|msdyn_parentscenarioid|
-|IsHierarchical|False|
+|IntersectAttribute|msdyn_consoleapplicationnotificationtemplateid|
 |IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_msdyn_scenario_msdyn_scenario|
+|LogicalName|msdyn_consoleapplicationnotificationtemplate|
+|NavigationPropertyName|msdyn_msdyn_consoleapplicationnotificationtempl|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+
+#### Entity 2
+
+|Property|Value|
+|--------|-----|
+|LogicalName|msdyn_consoleapplicationnotificationfield|
+|IntersectAttribute|msdyn_consoleapplicationnotificationfieldid|
+|NavigationPropertyName|msdyn_msdyn_consoleapplicationnotificationtempl|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: Notification Body Data<br />Order: 10000|
+
+
+### <a name="BKMK_msdyn_msdyn_consoleapplicationnotificationtag"></a> msdyn_msdyn_consoleapplicationnotificationtag
+
+IntersectEntityName: msdyn_msdyn_consoleapplicationnotificationtag<br />
+#### Entity 1
+
+|Property|Value|
+|--------|-----|
+|IntersectAttribute|msdyn_consoleapplicationnotificationtemplateid|
+|IsCustomizable|True|
+|LogicalName|msdyn_consoleapplicationnotificationtemplate|
+|NavigationPropertyName|msdyn_msdyn_consoleapplicationnotificationtag|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+
+#### Entity 2
+
+|Property|Value|
+|--------|-----|
+|LogicalName|msdyn_templatetags|
+|IntersectAttribute|msdyn_templatetagsid|
+|NavigationPropertyName|msdyn_msdyn_consoleapplicationnotificationtag|
 |AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
-<a name="manytoone"></a>
-
-## Many-To-One Relationships
-
-Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related entity. Listed by **SchemaName**.
-
-- [msdyn_msdyn_scenario_msdyn_scenario](#BKMK_msdyn_msdyn_scenario_msdyn_scenario)
-- [msdyn_msdyn_consoleapplicationsessiontemplate_msdyn_scenario_SessionTemplate](#BKMK_msdyn_msdyn_consoleapplicationsessiontemplate_msdyn_scenario_SessionTemplate)
-
-
-### <a name="BKMK_msdyn_msdyn_scenario_msdyn_scenario"></a> msdyn_msdyn_scenario_msdyn_scenario
-
-See msdyn_scenario Entity [msdyn_msdyn_scenario_msdyn_scenario](msdyn_scenario.md#BKMK_msdyn_msdyn_scenario_msdyn_scenario) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_msdyn_consoleapplicationsessiontemplate_msdyn_scenario_SessionTemplate"></a> msdyn_msdyn_consoleapplicationsessiontemplate_msdyn_scenario_SessionTemplate
-
-**Added by**: Channel API Integration Framework Solution
-
-See msdyn_consoleapplicationsessiontemplate Entity [msdyn_msdyn_consoleapplicationsessiontemplate_msdyn_scenario_SessionTemplate](msdyn_consoleapplicationsessiontemplate.md#BKMK_msdyn_msdyn_consoleapplicationsessiontemplate_msdyn_scenario_SessionTemplate) One-To-Many relationship.
 
 ### See also
 
-[Introduction to Omnichannel for Customer Service](../../../introduction-omnichannel.md)<br />
-[Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
+[Microsoft.CIFramework APIs](../microsoft-ciframework-v2.md)<br />
+[Client-side events](../client-side-events.md)

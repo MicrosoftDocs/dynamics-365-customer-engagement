@@ -280,8 +280,8 @@
           href: v2/reference/entities-attributes/msdyn_kpieventdefinition.md
         - name: "msdyn_sessiondata"
           href: v2/reference/entities-attributes/msdyn_sessiondata.md
-        - name: "msdyn_consoleapplicationnotificationfield"
-          href: v2/reference/entities-attributes/msdyn_consoleapplicationnotificationfield.md
+        - name: "msdyn_notificationfield"
+          href: v2/reference/entities-attributes/msdyn_notificationfield.md
         - name: "msdyn_notificationtemplate"
           href: v2/reference/entities-attributes/msdyn_notificationtemplate.md
         - name: "msdyn_consoleapplicationsessiontemplate"
