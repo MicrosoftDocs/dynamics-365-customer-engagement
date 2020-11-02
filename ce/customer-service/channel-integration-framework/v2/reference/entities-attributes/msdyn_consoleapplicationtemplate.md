@@ -1,6 +1,6 @@
 ---
-title: "msdyn_consoleapplicationnotificationtemplate Entity Reference | MicrosoftDocs"
-description: "Includes schema information and supported messages for the msdyn_consoleapplicationnotificationtemplate entity."
+title: "msdyn_consoleapplicationtemplate Entity Reference | MicrosoftDocs"
+description: "Includes schema information and supported messages for the msdyn_consoleapplicationtemplate entity."
 ms.date: 07/02/2020
 ms.service: "crm-online"
 ms.topic: "reference"
@@ -11,9 +11,9 @@ author: "susikka"
 ms.author: "susikka"
 manager: "susikka"
 ---
-# msdyn_consoleapplicationnotificationtemplate Entity Reference
+# msdyn_consoleapplicationtemplate Entity Reference
 
-Template for a notification
+An application tab template with various template parameters defined.
 
 **Added by**: Channel API Integration Framework Solution
 
@@ -40,17 +40,17 @@ Template for a notification
 
 |Property|Value|
 |--------|-----|
-|CollectionSchemaName|msdyn_consoleapplicationnotificationtemplates|
-|DisplayCollectionName|Notification Templates|
-|DisplayName|Notification Template|
-|EntitySetName|msdyn_consoleapplicationnotificationtemplates|
+|CollectionSchemaName|msdyn_consoleapplicationtemplates|
+|DisplayCollectionName|Application Tab Templates|
+|DisplayName|Application Tab Template|
+|EntitySetName|msdyn_consoleapplicationtemplates|
 |IsBPFEntity|False|
-|LogicalCollectionName|msdyn_consoleapplicationnotificationtemplates|
-|LogicalName|msdyn_consoleapplicationnotificationtemplate|
+|LogicalCollectionName|msdyn_consoleapplicationtemplates|
+|LogicalName|msdyn_consoleapplicationtemplate|
 |OwnershipType|UserOwned|
-|PrimaryIdAttribute|msdyn_consoleapplicationnotificationtemplateid|
+|PrimaryIdAttribute|msdyn_consoleapplicationtemplateid|
 |PrimaryNameAttribute|msdyn_name|
-|SchemaName|msdyn_consoleapplicationnotificationtemplate|
+|SchemaName|msdyn_consoleapplicationtemplate|
 
 <a name="writable-attributes"></a>
 
@@ -59,19 +59,14 @@ Template for a notification
 These attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
-- [msdyn_AcceptButtonText](#BKMK_msdyn_AcceptButtonText)
-- [msdyn_ActionButtons](#BKMK_msdyn_ActionButtons)
-- [msdyn_consoleapplicationnotificationtemplateId](#BKMK_msdyn_consoleapplicationnotificationtemplateId)
-- [msdyn_DesktopNotificationSettings](#BKMK_msdyn_DesktopNotificationSettings)
-- [msdyn_Icon](#BKMK_msdyn_Icon)
+- [msdyn_consoleapplicationtemplateId](#BKMK_msdyn_consoleapplicationtemplateId)
+- [msdyn_description](#BKMK_msdyn_description)
+- [msdyn_icon](#BKMK_msdyn_icon)
+- [msdyn_IsStale](#BKMK_msdyn_IsStale)
 - [msdyn_name](#BKMK_msdyn_name)
-- [msdyn_NotificationButtons](#BKMK_msdyn_NotificationButtons)
-- [msdyn_NotificationFieldsPlaceholder](#BKMK_msdyn_NotificationFieldsPlaceholder)
-- [msdyn_RejectButtonText](#BKMK_msdyn_RejectButtonText)
-- [msdyn_RenderingOrder](#BKMK_msdyn_RenderingOrder)
-- [msdyn_Showtimeout](#BKMK_msdyn_Showtimeout)
-- [msdyn_Theme](#BKMK_msdyn_Theme)
-- [msdyn_Timeout](#BKMK_msdyn_Timeout)
+- [msdyn_PageType](#BKMK_msdyn_PageType)
+- [msdyn_Pinned](#BKMK_msdyn_Pinned)
+- [msdyn_TemplateParameters](#BKMK_msdyn_TemplateParameters)
 - [msdyn_Title](#BKMK_msdyn_Title)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [OwnerId](#BKMK_OwnerId)
@@ -99,103 +94,80 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Integer|
 
 
-### <a name="BKMK_msdyn_AcceptButtonText"></a> msdyn_AcceptButtonText
-
-**Added by**: Channel API Integration Framework Patch Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName|Accept Button Text|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_acceptbuttontext|
-|MaxLength|250|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_ActionButtons"></a> msdyn_ActionButtons
-
-|Property|Value|
-|--------|-----|
-|Description|The action buttons to be displayed. (Deprecated)|
-|DisplayName|ActionButtons (Deprecated)|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_actionbuttons|
-|RequiredLevel|None|
-|Type|MultiSelectPicklist|
-
-#### msdyn_ActionButtons Options
-
-|Value|Label|
-|-----|-----|
-|100000000|Allow|
-|100000001|Deny|
-
-
-
-### <a name="BKMK_msdyn_consoleapplicationnotificationtemplateId"></a> msdyn_consoleapplicationnotificationtemplateId
+### <a name="BKMK_msdyn_consoleapplicationtemplateId"></a> msdyn_consoleapplicationtemplateId
 
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for entity instances|
-|DisplayName|ConsoleApplicationNotificationTemplate|
+|DisplayName|ConsoleApplicationTemplate|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |IsValidForUpdate|False|
-|LogicalName|msdyn_consoleapplicationnotificationtemplateid|
+|LogicalName|msdyn_consoleapplicationtemplateid|
 |RequiredLevel|SystemRequired|
 |Type|Uniqueidentifier|
 
 
-### <a name="BKMK_msdyn_DesktopNotificationSettings"></a> msdyn_DesktopNotificationSettings
-
-**Added by**: Channel API Integration Framework Patch Solution
+### <a name="BKMK_msdyn_description"></a> msdyn_description
 
 |Property|Value|
 |--------|-----|
-|Description|Show desktop notifications when app is in background or never|
-|DisplayName|Show desktop notifications|
+|Description|Description of the record|
+|DisplayName|Description|
+|Format|Text|
+|IsLocalizable|False|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_desktopnotificationsettings|
+|LogicalName|msdyn_description|
+|MaxLength|2000|
 |RequiredLevel|None|
-|Type|Picklist|
-
-#### msdyn_DesktopNotificationSettings Options
-
-|Value|Label|
-|-----|-----|
-|100000002|Never|
-|100000003|When app is in background|
+|Type|Memo|
 
 
-
-### <a name="BKMK_msdyn_Icon"></a> msdyn_Icon
+### <a name="BKMK_msdyn_icon"></a> msdyn_icon
 
 |Property|Value|
 |--------|-----|
-|Description|Display icon for this notification. Can be either an image URL or a font-icon|
+|Description|Display icon for the application.|
 |DisplayName|Icon|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|msdyn_icon|
-|MaxLength|1024|
+|MaxLength|100|
 |RequiredLevel|None|
 |Type|String|
+
+
+### <a name="BKMK_msdyn_IsStale"></a> msdyn_IsStale
+
+|Property|Value|
+|--------|-----|
+|Description|Boolean value to indicate whether or not an entity is stale|
+|DisplayName|Is Stale|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_isstale|
+|RequiredLevel|None|
+|Type|Boolean|
+
+#### msdyn_IsStale Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
+
+**DefaultValue**: True
+
 
 
 ### <a name="BKMK_msdyn_name"></a> msdyn_name
 
 |Property|Value|
 |--------|-----|
-|Description|The name of this Notification template.|
+|Description|The name of the Application tab.|
 |DisplayName|Name|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -207,140 +179,65 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|String|
 
 
-### <a name="BKMK_msdyn_NotificationButtons"></a> msdyn_NotificationButtons
+### <a name="BKMK_msdyn_PageType"></a> msdyn_PageType
 
 |Property|Value|
 |--------|-----|
-|Description|JSON object to pass key-value pairs for action buttons that are to be present on the notification|
-|DisplayName|Notification Buttons|
-|FormatName|Text|
-|IsLocalizable|False|
+|Description|Type of the application.|
+|DisplayName|Application type|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_notificationbuttons|
-|MaxLength|300|
-|RequiredLevel|None|
-|Type|String|
+|LogicalName|msdyn_pagetype|
+|RequiredLevel|ApplicationRequired|
+|Targets|msdyn_consoleapplicationtype|
+|Type|Lookup|
 
 
-### <a name="BKMK_msdyn_NotificationFieldsPlaceholder"></a> msdyn_NotificationFieldsPlaceholder
+### <a name="BKMK_msdyn_Pinned"></a> msdyn_Pinned
 
 |Property|Value|
 |--------|-----|
-|Description|Deprecated field|
-|DisplayName|Notification Fields|
-|FormatName|Text|
-|IsLocalizable|False|
+|Description|Whether this tab can be closed|
+|DisplayName|Can close|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_notificationfieldsplaceholder|
-|MaxLength|200|
+|LogicalName|msdyn_pinned|
 |RequiredLevel|None|
-|Type|String|
+|Type|Boolean|
 
-
-### <a name="BKMK_msdyn_RejectButtonText"></a> msdyn_RejectButtonText
-
-**Added by**: Channel API Integration Framework Patch Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName|Reject Button Text|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_rejectbuttontext|
-|MaxLength|250|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_RenderingOrder"></a> msdyn_RenderingOrder
-
-|Property|Value|
-|--------|-----|
-|Description|Notification display order relative to other notification templates.|
-|DisplayName|Notification order|
-|Format|None|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_renderingorder|
-|MaxValue|2147483647|
-|MinValue|0|
-|RequiredLevel|None|
-|Type|Integer|
-
-
-### <a name="BKMK_msdyn_Showtimeout"></a> msdyn_Showtimeout
-
-**Added by**: Channel API Integration Framework Patch Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Show countdown for when the notification will disappear|
-|DisplayName|Show timeout|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_showtimeout|
-|RequiredLevel|None|
-|Type|Picklist|
-
-#### msdyn_Showtimeout Options
+#### msdyn_Pinned Options
 
 |Value|Label|
 |-----|-----|
-|100000000|Yes|
-|100000001|No|
+|1|No|
+|0|Yes|
+
+**DefaultValue**: False
 
 
 
-### <a name="BKMK_msdyn_Theme"></a> msdyn_Theme
-
-**Added by**: Channel API Integration Framework Patch Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Theme color for Notification template.|
-|DisplayName|Theme|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_theme|
-|RequiredLevel|None|
-|Type|Picklist|
-
-#### msdyn_Theme Options
-
-|Value|Label|
-|-----|-----|
-|100000000|Dark|
-|100000001|Light|
-
-
-
-### <a name="BKMK_msdyn_Timeout"></a> msdyn_Timeout
+### <a name="BKMK_msdyn_TemplateParameters"></a> msdyn_TemplateParameters
 
 |Property|Value|
 |--------|-----|
-|Description|Notification time out period.|
-|DisplayName|Timeout (seconds)|
-|Format|None|
+|Description|A JSON string with all pageType parameters with template values provided|
+|DisplayName|Template Parameters|
+|FormatName|Text|
+|IsLocalizable|False|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_timeout|
-|MaxValue|500|
-|MinValue|0|
+|LogicalName|msdyn_templateparameters|
+|MaxLength|2048|
 |RequiredLevel|None|
-|Type|Integer|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_Title"></a> msdyn_Title
 
 |Property|Value|
 |--------|-----|
-|Description|The title to be displayed for this notification.|
-|DisplayName|Title|
+|Description|The title of the application displayed on this application tab panel.|
+|DisplayName|Application title|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
@@ -402,7 +299,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Status of the Notification Template|
+|Description|Status of the Application Tab Template|
 |DisplayName|Status|
 |IsValidForCreate|False|
 |IsValidForForm|True|
@@ -424,7 +321,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Reason for the status of the Notification Template|
+|Description|Reason for the status of the Application Tab Template|
 |DisplayName|Status Reason|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -492,6 +389,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 - [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
 - [ModifiedOnBehalfByName](#BKMK_ModifiedOnBehalfByName)
 - [ModifiedOnBehalfByYomiName](#BKMK_ModifiedOnBehalfByYomiName)
+- [msdyn_PageTypeName](#BKMK_msdyn_PageTypeName)
 - [OwnerIdName](#BKMK_OwnerIdName)
 - [OwnerIdYomiName](#BKMK_OwnerIdYomiName)
 - [OwningBusinessUnit](#BKMK_OwningBusinessUnit)
@@ -738,6 +636,22 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Type|String|
 
 
+### <a name="BKMK_msdyn_PageTypeName"></a> msdyn_PageTypeName
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_pagetypename|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
+
+
 ### <a name="BKMK_OwnerIdName"></a> OwnerIdName
 
 **Added by**: Active Solution Solution
@@ -838,50 +752,74 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|None|
 |Type|BigInt|
 
-<a name="manytomany"></a>
+<a name="onetomany"></a>
+
+## One-To-Many Relationships
+
+Listed by **SchemaName**.
+
+
+### <a name="BKMK_msdyn_msdyn_consoleapplicationtemplate_msdyn_consoleapplicationsessiontemplate_AnchorTab"></a> msdyn_msdyn_consoleapplicationtemplate_msdyn_consoleapplicationsessiontemplate_AnchorTab
+
+Same as msdyn_consoleapplicationsessiontemplate entity [msdyn_msdyn_consoleapplicationtemplate_msdyn_consoleapplicationsessiontemplate_AnchorTab](msdyn_consoleapplicationsessiontemplate.md#BKMK_msdyn_msdyn_consoleapplicationtemplate_msdyn_consoleapplicationsessiontemplate_AnchorTab) Many-To-One relationship.
+
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_consoleapplicationsessiontemplate|
+|ReferencingAttribute|msdyn_anchortab|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_msdyn_consoleapplicationtemplate_msdyn_consoleapplicationsessiontemplate_AnchorTab|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 ## Many-To-Many Relationships
 
-Relationship details provided where the msdyn_consoleapplicationnotificationtemplate entity is the first entity in the relationship. Listed by **SchemaName**.
+Relationship details provided where the msdyn_consoleapplicationtemplate entity is the first entity in the relationship. Listed by **SchemaName**.
 
-- [msdyn_msdyn_consoleapplicationnotificationtempl](#BKMK_msdyn_msdyn_consoleapplicationnotificationtempl)
-- [msdyn_msdyn_consoleapplicationnotificationtag](#BKMK_msdyn_msdyn_consoleapplicationnotificationtag)
+- [msdyn_msdyn_consoleapplicationsessiontemplate_m](#BKMK_msdyn_msdyn_consoleapplicationsessiontemplate_m)
+- [msdyn_msdyn_consoleapplicationtemplate_msdyn_co](#BKMK_msdyn_msdyn_consoleapplicationtemplate_msdyn_co)
+- [msdyn_msdyn_consoleapplicationtemplate_tags](#BKMK_msdyn_msdyn_consoleapplicationtemplate_tags)
 
 
-### <a name="BKMK_msdyn_msdyn_consoleapplicationnotificationtempl"></a> msdyn_msdyn_consoleapplicationnotificationtempl
+### <a name="BKMK_msdyn_msdyn_consoleapplicationsessiontemplate_m"></a> msdyn_msdyn_consoleapplicationsessiontemplate_m
 
-IntersectEntityName: msdyn_msdyn_consoleapplicationnotificationtem<br />
+See msdyn_consoleapplicationsessiontemplate Entity [msdyn_msdyn_consoleapplicationsessiontemplate_m](msdyn_consoleapplicationsessiontemplate.md#BKMK_msdyn_msdyn_consoleapplicationsessiontemplate_m) Many-To-Many Relationship.
+
+### <a name="BKMK_msdyn_msdyn_consoleapplicationtemplate_msdyn_co"></a> msdyn_msdyn_consoleapplicationtemplate_msdyn_co
+
+IntersectEntityName: msdyn_msdyn_consoleapplicationtemplate_msdyn_<br />
 #### Entity 1
 
 |Property|Value|
 |--------|-----|
-|IntersectAttribute|msdyn_consoleapplicationnotificationtemplateid|
+|IntersectAttribute|msdyn_consoleapplicationtemplateid|
 |IsCustomizable|True|
-|LogicalName|msdyn_consoleapplicationnotificationtemplate|
-|NavigationPropertyName|msdyn_msdyn_consoleapplicationnotificationtempl|
+|LogicalName|msdyn_consoleapplicationtemplate|
+|NavigationPropertyName|msdyn_msdyn_consoleapplicationtemplate_msdyn_co|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 
 #### Entity 2
 
 |Property|Value|
 |--------|-----|
-|LogicalName|msdyn_consoleapplicationnotificationfield|
-|IntersectAttribute|msdyn_consoleapplicationnotificationfieldid|
-|NavigationPropertyName|msdyn_msdyn_consoleapplicationnotificationtempl|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: Notification Body Data<br />Order: 10000|
+|LogicalName|msdyn_consoleapplicationtemplateparameter|
+|IntersectAttribute|msdyn_consoleapplicationtemplateparameterid|
+|NavigationPropertyName|msdyn_msdyn_consoleapplicationtemplate_msdyn_co|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
 
 
-### <a name="BKMK_msdyn_msdyn_consoleapplicationnotificationtag"></a> msdyn_msdyn_consoleapplicationnotificationtag
+### <a name="BKMK_msdyn_msdyn_consoleapplicationtemplate_tags"></a> msdyn_msdyn_consoleapplicationtemplate_tags
 
-IntersectEntityName: msdyn_msdyn_consoleapplicationnotificationtag<br />
+IntersectEntityName: msdyn_msdyn_consoleapplicationtemplate_tags<br />
 #### Entity 1
 
 |Property|Value|
 |--------|-----|
-|IntersectAttribute|msdyn_consoleapplicationnotificationtemplateid|
+|IntersectAttribute|msdyn_consoleapplicationtemplateid|
 |IsCustomizable|True|
-|LogicalName|msdyn_consoleapplicationnotificationtemplate|
-|NavigationPropertyName|msdyn_msdyn_consoleapplicationnotificationtag|
+|LogicalName|msdyn_consoleapplicationtemplate|
+|NavigationPropertyName|msdyn_msdyn_consoleapplicationtemplate_tags|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 
 #### Entity 2
@@ -890,7 +828,7 @@ IntersectEntityName: msdyn_msdyn_consoleapplicationnotificationtag<br />
 |--------|-----|
 |LogicalName|msdyn_templatetags|
 |IntersectAttribute|msdyn_templatetagsid|
-|NavigationPropertyName|msdyn_msdyn_consoleapplicationnotificationtag|
+|NavigationPropertyName|msdyn_msdyn_consoleapplicationtemplate_tags|
 |AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
 
 
