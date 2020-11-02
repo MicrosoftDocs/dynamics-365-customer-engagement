@@ -270,8 +270,8 @@
           href: v2/reference/events/onSessionClosed.md
       - name: Entity reference
         items:
-        - name: "msdyn_ciprovider"
-          href: v2/reference/entities-attributes/msdyn-ciprovider.md
+        - name: "msdyn_channelprovider"
+          href: v2/reference/entities-attributes/msdyn-channelprovider.md
         - name: "msdyn_conversationdata"
           href: v2/reference/entities-attributes/msdyn_conversationdata.md
         - name: "msdyn_kpieventdata"
