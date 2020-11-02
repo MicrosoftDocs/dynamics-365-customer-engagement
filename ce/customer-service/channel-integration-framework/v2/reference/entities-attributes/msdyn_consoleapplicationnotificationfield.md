@@ -664,7 +664,7 @@ Relationship details provided where the msdyn_consoleapplicationnotificationfiel
 
 ### <a name="BKMK_msdyn_msdyn_consoleapplicationnotificationtempl"></a> msdyn_msdyn_consoleapplicationnotificationtempl
 
-See msdyn_consoleapplicationnotificationtemplate Entity [msdyn_msdyn_consoleapplicationnotificationtempl](msdyn_consoleapplicationnotificationtemplate.md#BKMK_msdyn_msdyn_consoleapplicationnotificationtempl) Many-To-Many Relationship.
+See msdyn_notificationtemplate Entity [msdyn_notificationtemplate](msdyn_notificationtemplate.md#many-to-many-relationships) Many-To-Many Relationship.
 
 ### See also
 
