@@ -270,6 +270,8 @@
           href: v2/reference/events/onSessionClosed.md
       - name: Entity reference
         items:
+        - name: "msdyn_appconfiguration"
+          href: v2/reference/entities-attributes/msdyn_appconfiguration.md
         - name: "msdyn_channelprovider"
           href: v2/reference/entities-attributes/msdyn_channelprovider.md
         - name: "msdyn_conversationdata"
