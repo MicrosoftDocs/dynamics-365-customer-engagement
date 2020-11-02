@@ -18969,6 +18969,11 @@
       "source_path": "ce/omnichannel/developer/reference/methods/getTranslationProvider.md",
       "redirect_url": "../properties/getTranslationProvider",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/channel-integration-framework/v2/configure-channel-provider-channel-integration-framework.md",
+      "redirect_url": "configure-channel-provider-app-profile-manager",
+      "redirect_document_id": false
     }
   ]
 }
