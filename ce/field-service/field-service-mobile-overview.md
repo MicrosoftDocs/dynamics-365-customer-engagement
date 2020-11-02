@@ -35,7 +35,7 @@ Field technicians use the Field Service Mobile app to view their schedules, work
 
 For a guided walkthrough, check out the following video.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4HnwA]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HnwA]
 
 ## Supported platforms
 
