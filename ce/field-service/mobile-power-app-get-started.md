@@ -42,6 +42,17 @@ Available natively for Apple iOS and Google Android phones and tablets, the Fiel
 - Customer signature capture.
 - Offline capabilities so technicians can continue viewing and recording work in areas without internet.
 
+## Supported platforms
+
+Currently, the Field Service (Dynamics 365) mobile app is supported on the following mobile platforms
+
+| **Minimum required** | **Recommended** |
+| --- | --- |
+| iOS 13 or later | iOS 13 or later |
+| Android 8 or later | Android 8 or later |
+
+> [!NOTE]
+> An important consideration before deploying the Field Service (Dynamics 365) mobile app is the hardware specification of the  device used, such as memory and processor. Modifying the app with enhancements such as custom configurations and offline javascript may place additional requirements on system memory and processor. Other factors, such as the amount of applications running on the device may also affect app performance.
 
 ## Prerequisites
 
