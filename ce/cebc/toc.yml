@@ -37,6 +37,33 @@
     - name: Customer Service
       tocHref: /dynamics365/customer-service/
       topicHref: /dynamics365/customer-service/overview
+      items:
+      - name: Channel Integration Framework
+        tocHref: /dynamics365/developer/channel-integration-framework/
+        topicHref: /dynamics365/developer/channel-integration-framework/channel-integration-framework
+      - name: Omnichannel for Customer Service
+        tocHref: /dynamics365/omnichannel/
+        topicHref: /dynamics365/omnichannel/omnichannel-customer-service-guide
+        items:
+        - name: Administrator
+          tocHref: /dynamics365/omnichannel/administrator/
+          topicHref: /dynamics365/omnichannel/administrator/omnichannel-administrator          
+        - name: Agent
+          tocHref: /dynamics365/omnichannel/agent/
+          topicHref: /dynamics365/omnichannel/agent/omnichannel-customer-service-agent
+          items:
+          - name: Agent using Unified Service Desk
+            tocHref: /dynamics365/omnichannel/agent/agent-usd/
+            topicHref: /dynamics365/omnichannel/agent/agent-usd/omnichannel-customer-service-agent
+          - name: Agent using Omnichannel for Customer Service
+            tocHref: /dynamics365/omnichannel/agent/agent-oc/
+            topicHref:  /dynamics365/omnichannel/agent/agent-oc/oceh-omnichannel-customer-service-agent
+        - name: Supervisor
+          tocHref: /dynamics365/omnichannel/supervisor/
+          topicHref: /dynamics365/omnichannel/supervisor/omnichannel-supervisor          
+        - name: System Customizer
+          tocHref: /dynamics365/omnichannel/customizer/
+          topicHref: /dynamics365/omnichannel/customizer/omnichannel-customizer  
     - name: Universal Resource Scheduling
       tocHref: /dynamics365/common-scheduler/
       topicHref: /dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling
@@ -78,33 +105,7 @@
       topicHref: /dynamics365/sales-business/help-hub
     - name: Marketing
       tocHref: /dynamics365/marketing
-      topicHref: /dynamics365/marketing/get-started-section
-    - name: Omnichannel for Customer Service
-      tocHref: /dynamics365/omnichannel/
-      topicHref: /dynamics365/omnichannel/omnichannel-customer-service-guide
-      items:
-      - name: Administrator
-        tocHref: /dynamics365/omnichannel/administrator/
-        topicHref: /dynamics365/omnichannel/administrator/omnichannel-administrator          
-      - name: Agent
-        tocHref: /dynamics365/omnichannel/agent/
-        topicHref: /dynamics365/omnichannel/agent/omnichannel-customer-service-agent
-        items:
-        - name: Agent using Unified Service Desk
-          tocHref: /dynamics365/omnichannel/agent/agent-usd/
-          topicHref: /dynamics365/omnichannel/agent/agent-usd/omnichannel-customer-service-agent
-        - name: Agent using Omnichannel for Customer Service
-          tocHref: /dynamics365/omnichannel/agent/agent-oc/
-          topicHref:  /dynamics365/omnichannel/agent/agent-oc/oceh-omnichannel-customer-service-agent
-      - name: Supervisor
-        tocHref: /dynamics365/omnichannel/supervisor/
-        topicHref: /dynamics365/omnichannel/supervisor/omnichannel-supervisor          
-      - name: System Customizer
-        tocHref: /dynamics365/omnichannel/customizer/
-        topicHref: /dynamics365/omnichannel/customizer/omnichannel-customizer                  
-      - name: Channel Integration Framework
-        tocHref: /dynamics365/developer/channel-integration-framework/
-        topicHref: /dynamics365/developer/channel-integration-framework/channel-integration-framework
-      - name: Extend Outlook Client
-        tocHref: /dynamics365/developer/outlook-client/
-        topicHref: /dynamics365/developer/extend-customer-engagement-outlook
+      topicHref: /dynamics365/marketing/get-started-section                      
+    - name: Extend Outlook Client
+      tocHref: /dynamics365/developer/outlook-client/
+      topicHref: /dynamics365/developer/extend-customer-engagement-outlook
