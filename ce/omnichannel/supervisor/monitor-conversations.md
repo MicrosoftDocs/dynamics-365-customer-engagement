@@ -1,9 +1,8 @@
 ---
 title: "Monitor and assign conversations as a supervisor | MicrosoftDocs"
 description: "Learn how to monitor conversations as a supervisor"
-ms.date: 08/03/2020
-ms.service:
-  - "dynamics-365-customerservice"
+ms.date: 11/03/2020
+ms.service: dynamics-365-customerservice
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -84,8 +83,8 @@ You can override agent's allocated capacity and assign conversations. In such ca
     > ![Select Assign option](../media/assign-agents-conversations.png "Select Assign option")
     
 3. Choose a conversation in an **Open** state, and select **Assign** on the top-right corner.
-> [!div class=mx-imgBorder]
-> ![Select agent or queue option](../media/assign-agent-queue.png "Select either agent or queue option")
+  > [!div class=mx-imgBorder]
+  > ![Select agent or queue option](../media/assign-agent-queue.png "Select either agent or queue option")
 
 
 4. On the **Assign conversations** dialog box, choose one of the following options:
