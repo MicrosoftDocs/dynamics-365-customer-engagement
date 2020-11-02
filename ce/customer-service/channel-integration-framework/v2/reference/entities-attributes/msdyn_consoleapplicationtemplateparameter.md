@@ -1,58 +1,56 @@
 ---
-title: "msdyn_templateparameter Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "Includes schema information and supported messages for the msdyn_templateparameter entity."
-ms.date: 10/21/2020
+title: "msdyn_consoleapplicationtemplateparameter Entity Reference | MicrosoftDocs"
+description: "Includes schema information and supported messages for the msdyn_consoleapplicationtemplateparameter entity."
+ms.date: 07/02/2020
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: 
   - "Dynamics 365 (online)"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: "susikka"
+ms.author: "susikka"
+manager: "susikka"
 ---
-# msdyn_templateparameter Entity Reference
+# msdyn_consoleapplicationtemplateparameter Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+Template parameter values for a given application template
 
-
-
-**Added by**: App profile manager Solution
+**Added by**: Channel API Integration Framework Solution
 
 
 ## Messages
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.0/msdyn_templateparameters(*msdyn_templateparameterid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/msdyn_templateparameters<br />See [Create](../webapi/create-entity-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_templateparameters(*msdyn_templateparameterid*)<br />See [Delete](../webapi/update-delete-entities-using-web-api.md#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Assign|PATCH [*org URI*]/api/data/v9.1/msdyn_sessionparticipantsdata(*msdyn_sessionparticipantdataid*)|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Create|POST [*org URI*]/api/data/v9.1/msdyn_sessionparticipantsdata|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.1/msdyn_sessionparticipantsdata(*msdyn_sessionparticipantdataid*)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 |IsValidStateTransition|<xref href="Microsoft.Dynamics.CRM.IsValidStateTransition?text=IsValidStateTransition Function" />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 |ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_templateparameters(*msdyn_templateparameterid*)<br />See [Retrieve](../webapi/retrieve-entity-using-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_templateparameters<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Retrieve|GET [*org URI*]/api/data/v9.1/msdyn_sessionparticipantsdata(*msdyn_sessionparticipantdataid*)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.1/msdyn_sessionparticipantsdata|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
 |RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
 |RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_templateparameters(*msdyn_templateparameterid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_templateparameters(*msdyn_templateparameterid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|SetState|PATCH [*org URI*]/api/data/v9.1/msdyn_sessionparticipantsdata(*msdyn_sessionparticipantdataid*)|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.1/msdyn_sessionparticipantsdata(*msdyn_sessionparticipantdataid*)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
 |Property|Value|
 |--------|-----|
-|CollectionSchemaName|msdyn_templateparameters|
-|DisplayCollectionName|Template Parameters|
-|DisplayName|Template Parameter|
-|EntitySetName|msdyn_templateparameters|
+|CollectionSchemaName|msdyn_consoleapplicationtemplateparameters|
+|DisplayCollectionName|Parameters|
+|DisplayName|Parameter|
+|EntitySetName|msdyn_consoleapplicationtemplateparameters|
 |IsBPFEntity|False|
-|LogicalCollectionName|msdyn_templateparameters|
-|LogicalName|msdyn_templateparameter|
+|LogicalCollectionName|msdyn_consoleapplicationtemplateparameters|
+|LogicalName|msdyn_consoleapplicationtemplateparameter|
 |OwnershipType|UserOwned|
-|PrimaryIdAttribute|msdyn_templateparameterid|
+|PrimaryIdAttribute|msdyn_consoleapplicationtemplateparameterid|
 |PrimaryNameAttribute|msdyn_name|
-|SchemaName|msdyn_templateparameter|
+|SchemaName|msdyn_consoleapplicationtemplateparameter|
 
 <a name="writable-attributes"></a>
 
@@ -61,12 +59,12 @@ manager: "jdaly"
 These attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
-- [IsCustomizable](#BKMK_IsCustomizable)
-- [msdyn_applicationtabtemplateid](#BKMK_msdyn_applicationtabtemplateid)
+- [msdyn_consoleapplicationtemplateparameterId](#BKMK_msdyn_consoleapplicationtemplateparameterId)
+- [msdyn_IsRunTime](#BKMK_msdyn_IsRunTime)
 - [msdyn_name](#BKMK_msdyn_name)
-- [msdyn_templateparameterId](#BKMK_msdyn_templateparameterId)
-- [msdyn_UniqueName](#BKMK_msdyn_UniqueName)
-- [msdyn_value](#BKMK_msdyn_value)
+- [msdyn_ParameterName](#BKMK_msdyn_ParameterName)
+- [msdyn_RuntimeType](#BKMK_msdyn_RuntimeType)
+- [msdyn_Value](#BKMK_msdyn_Value)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [OwnerId](#BKMK_OwnerId)
 - [OwnerIdType](#BKMK_OwnerIdType)
@@ -77,8 +75,6 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 
 ### <a name="BKMK_ImportSequenceNumber"></a> ImportSequenceNumber
-
-**Added by**: Basic Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -95,43 +91,51 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Integer|
 
 
-### <a name="BKMK_IsCustomizable"></a> IsCustomizable
-
-**Added by**: Basic Solution Solution
+### <a name="BKMK_msdyn_consoleapplicationtemplateparameterId"></a> msdyn_consoleapplicationtemplateparameterId
 
 |Property|Value|
 |--------|-----|
-|Description|For internal use only.|
-|DisplayName|Is Customizable|
+|Description|Unique identifier for entity instances|
+|DisplayName|ConsoleApplicationTemplateParameter|
 |IsValidForForm|False|
 |IsValidForRead|True|
-|LogicalName|iscustomizable|
+|IsValidForUpdate|False|
+|LogicalName|msdyn_consoleapplicationtemplateparameterid|
 |RequiredLevel|SystemRequired|
-|Type|ManagedProperty|
+|Type|Uniqueidentifier|
 
 
-### <a name="BKMK_msdyn_applicationtabtemplateid"></a> msdyn_applicationtabtemplateid
+### <a name="BKMK_msdyn_IsRunTime"></a> msdyn_IsRunTime
 
 |Property|Value|
 |--------|-----|
-|Description|Unique identifier for Application Tab Template associated with Template Parameter.|
-|DisplayName|Application Tab Template|
+|Description|Whether a value needs to be provided at template creation time|
+|DisplayName|Is Runtime|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_applicationtabtemplateid|
+|LogicalName|msdyn_isruntime|
 |RequiredLevel|ApplicationRequired|
-|Targets|msdyn_applicationtabtemplate|
-|Type|Lookup|
+|Type|Boolean|
+
+#### msdyn_IsRunTime Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
+
+**DefaultValue**: False
+
 
 
 ### <a name="BKMK_msdyn_name"></a> msdyn_name
 
 |Property|Value|
 |--------|-----|
-|Description|The name of the custom entity.|
+|Description|The name of the App Template Parameter.|
 |DisplayName|Name|
 |FormatName|Text|
-|IsLocalizable|True|
+|IsLocalizable|False|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|msdyn_name|
@@ -140,42 +144,50 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|String|
 
 
-### <a name="BKMK_msdyn_templateparameterId"></a> msdyn_templateparameterId
+### <a name="BKMK_msdyn_ParameterName"></a> msdyn_ParameterName
 
 |Property|Value|
 |--------|-----|
-|Description|Unique identifier for entity instances|
-|DisplayName|Template Parameter|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|IsValidForUpdate|False|
-|LogicalName|msdyn_templateparameterid|
-|RequiredLevel|SystemRequired|
-|Type|Uniqueidentifier|
-
-
-### <a name="BKMK_msdyn_UniqueName"></a> msdyn_UniqueName
-
-|Property|Value|
-|--------|-----|
-|Description|Unique Name for the entity.|
-|DisplayName|Unique Name|
+|Description|The name of the template parameter|
+|DisplayName|Parameter Name|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|IsValidForUpdate|False|
-|LogicalName|msdyn_uniquename|
-|MaxLength|128|
-|RequiredLevel|SystemRequired|
+|LogicalName|msdyn_parametername|
+|MaxLength|100|
+|RequiredLevel|ApplicationRequired|
 |Type|String|
 
 
-### <a name="BKMK_msdyn_value"></a> msdyn_value
+### <a name="BKMK_msdyn_RuntimeType"></a> msdyn_RuntimeType
 
 |Property|Value|
 |--------|-----|
-|Description|The template parameter value.|
+|Description|Runtime type of this field|
+|DisplayName|Runtime Type|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_runtimetype|
+|RequiredLevel|ApplicationRequired|
+|Type|Picklist|
+
+#### msdyn_RuntimeType Options
+
+|Value|Label|
+|-----|-----|
+|110000000|string|
+|110000001|number|
+|110000002|boolean|
+|110000003|json|
+
+
+
+### <a name="BKMK_msdyn_Value"></a> msdyn_Value
+
+|Property|Value|
+|--------|-----|
+|Description|The template parameter value|
 |DisplayName|Value|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -238,7 +250,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Status of the Template Parameter|
+|Description|Status of the Application Template Parameter|
 |DisplayName|Status|
 |IsValidForCreate|False|
 |IsValidForForm|True|
@@ -260,7 +272,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Reason for the status of the Template Parameter|
+|Description|Reason for the status of the Application Template Parameter|
 |DisplayName|Status Reason|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -314,8 +326,6 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 These attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
 
-- [ComponentIdUnique](#BKMK_ComponentIdUnique)
-- [ComponentState](#BKMK_ComponentState)
 - [CreatedBy](#BKMK_CreatedBy)
 - [CreatedByName](#BKMK_CreatedByName)
 - [CreatedByYomiName](#BKMK_CreatedByYomiName)
@@ -323,7 +333,6 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 - [CreatedOnBehalfBy](#BKMK_CreatedOnBehalfBy)
 - [CreatedOnBehalfByName](#BKMK_CreatedOnBehalfByName)
 - [CreatedOnBehalfByYomiName](#BKMK_CreatedOnBehalfByYomiName)
-- [IsManaged](#BKMK_IsManaged)
 - [ModifiedBy](#BKMK_ModifiedBy)
 - [ModifiedByName](#BKMK_ModifiedByName)
 - [ModifiedByYomiName](#BKMK_ModifiedByYomiName)
@@ -331,56 +340,12 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 - [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
 - [ModifiedOnBehalfByName](#BKMK_ModifiedOnBehalfByName)
 - [ModifiedOnBehalfByYomiName](#BKMK_ModifiedOnBehalfByYomiName)
-- [msdyn_applicationtabtemplateidName](#BKMK_msdyn_applicationtabtemplateidName)
-- [OverwriteTime](#BKMK_OverwriteTime)
 - [OwnerIdName](#BKMK_OwnerIdName)
 - [OwnerIdYomiName](#BKMK_OwnerIdYomiName)
 - [OwningBusinessUnit](#BKMK_OwningBusinessUnit)
 - [OwningTeam](#BKMK_OwningTeam)
 - [OwningUser](#BKMK_OwningUser)
-- [SolutionId](#BKMK_SolutionId)
-- [SupportingSolutionId](#BKMK_SupportingSolutionId)
 - [VersionNumber](#BKMK_VersionNumber)
-
-
-### <a name="BKMK_ComponentIdUnique"></a> ComponentIdUnique
-
-**Added by**: Basic Solution Solution
-
-|Property|Value|
-|--------|-----|
-|Description|For internal use only.|
-|DisplayName|Row id unique|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|componentidunique|
-|RequiredLevel|SystemRequired|
-|Type|Uniqueidentifier|
-
-
-### <a name="BKMK_ComponentState"></a> ComponentState
-
-**Added by**: Basic Solution Solution
-
-|Property|Value|
-|--------|-----|
-|Description|For internal use only.|
-|DisplayName|Component State|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|componentstate|
-|RequiredLevel|SystemRequired|
-|Type|Picklist|
-
-#### ComponentState Options
-
-|Value|Label|
-|-----|-----|
-|0|Published|
-|1|Unpublished|
-|2|Deleted|
-|3|Deleted Unpublished|
-
 
 
 ### <a name="BKMK_CreatedBy"></a> CreatedBy
@@ -502,31 +467,6 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Type|String|
 
 
-### <a name="BKMK_IsManaged"></a> IsManaged
-
-**Added by**: Basic Solution Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Indicates whether the solution component is part of a managed solution.|
-|DisplayName|Is Managed|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|ismanaged|
-|RequiredLevel|SystemRequired|
-|Type|Boolean|
-
-#### IsManaged Options
-
-|Value|Label|
-|-----|-----|
-|1|Managed|
-|0|Unmanaged|
-
-**DefaultValue**: False
-
-
-
 ### <a name="BKMK_ModifiedBy"></a> ModifiedBy
 
 **Added by**: Active Solution Solution
@@ -646,39 +586,6 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Type|String|
 
 
-### <a name="BKMK_msdyn_applicationtabtemplateidName"></a> msdyn_applicationtabtemplateidName
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|msdyn_applicationtabtemplateidname|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_OverwriteTime"></a> OverwriteTime
-
-**Added by**: Basic Solution Solution
-
-|Property|Value|
-|--------|-----|
-|DateTimeBehavior|UserLocal|
-|Description|For internal use only.|
-|DisplayName|Record Overwrite Time|
-|Format|DateAndTime|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|overwritetime|
-|RequiredLevel|SystemRequired|
-|Type|DateTime|
-
-
 ### <a name="BKMK_OwnerIdName"></a> OwnerIdName
 
 **Added by**: Active Solution Solution
@@ -763,36 +670,6 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Type|Lookup|
 
 
-### <a name="BKMK_SolutionId"></a> SolutionId
-
-**Added by**: Basic Solution Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Unique identifier of the associated solution.|
-|DisplayName|Solution|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|solutionid|
-|RequiredLevel|SystemRequired|
-|Type|Uniqueidentifier|
-
-
-### <a name="BKMK_SupportingSolutionId"></a> SupportingSolutionId
-
-**Added by**: Basic Solution Solution
-
-|Property|Value|
-|--------|-----|
-|Description|For internal use only.|
-|DisplayName|Solution|
-|IsValidForForm|False|
-|IsValidForRead|False|
-|LogicalName|supportingsolutionid|
-|RequiredLevel|None|
-|Type|Uniqueidentifier|
-
-
 ### <a name="BKMK_VersionNumber"></a> VersionNumber
 
 **Added by**: Active Solution Solution
@@ -809,20 +686,18 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|None|
 |Type|BigInt|
 
-<a name="manytoone"></a>
+<a name="manytomany"></a>
 
-## Many-To-One Relationships
+## Many-To-Many Relationships
 
-Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related entity. Listed by **SchemaName**.
+Relationship details provided where the msdyn_consoleapplicationtemplateparameter entity is the first entity in the relationship. Listed by **SchemaName**.
 
 
-### <a name="BKMK_msdyn_applicationtabtemplate_templateparameter"></a> msdyn_applicationtabtemplate_templateparameter
+### <a name="BKMK_msdyn_msdyn_consoleapplicationtemplate_msdyn_co"></a> msdyn_msdyn_consoleapplicationtemplate_msdyn_co
 
-See msdyn_applicationtabtemplate Entity [msdyn_applicationtabtemplate_templateparameter](msdyn_applicationtabtemplate.md#BKMK_msdyn_applicationtabtemplate_templateparameter) One-To-Many relationship.
+See msdyn_consoleapplicationtemplate Entity [msdyn_msdyn_consoleapplicationtemplate_msdyn_co](msdyn_consoleapplicationtemplate.md#BKMK_msdyn_msdyn_consoleapplicationtemplate_msdyn_co) Many-To-Many Relationship.
 
 ### See also
 
-[About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.msdyn_templateparameter?text=msdyn_templateparameter EntityType" />
+[Microsoft.CIFramework APIs](../microsoft-ciframework-v2.md)<br />
+[Client-side events](../client-side-events.md)

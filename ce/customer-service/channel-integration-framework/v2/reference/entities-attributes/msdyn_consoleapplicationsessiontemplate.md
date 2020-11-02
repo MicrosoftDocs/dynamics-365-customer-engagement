@@ -1,58 +1,56 @@
 ---
-title: "msdyn_channelprovider Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "Includes schema information and supported messages for the msdyn_channelprovider entity."
-ms.date: 10/21/2020
+title: "msdyn_consoleapplicationsessiontemplate Entity Reference | MicrosoftDocs"
+description: "Includes schema information and supported messages for the msdyn_consoleapplicationsessiontemplate entity."
+ms.date: 07/02/2020
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: 
   - "Dynamics 365 (online)"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: "susikka"
+ms.author: "susikka"
+manager: "susikka"
 ---
-# msdyn_channelprovider Entity Reference
+# msdyn_consoleapplicationsessiontemplate Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-Entity that will hold the information (configuration) about a channel provider
 
-**Added by**: Channel Integration Framework version 2.0 Solution
+**Added by**: Channel API Integration Framework Solution
 
 
 ## Messages
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.0/msdyn_channelproviders(*msdyn_channelproviderid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/msdyn_channelproviders<br />See [Create](../webapi/create-entity-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_channelproviders(*msdyn_channelproviderid*)<br />See [Delete](../webapi/update-delete-entities-using-web-api.md#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Assign|PATCH [*org URI*]/api/data/v9.1/msdyn_sessionparticipantsdata(*msdyn_sessionparticipantdataid*)|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Create|POST [*org URI*]/api/data/v9.1/msdyn_sessionparticipantsdata|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.1/msdyn_sessionparticipantsdata(*msdyn_sessionparticipantdataid*)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 |IsValidStateTransition|<xref href="Microsoft.Dynamics.CRM.IsValidStateTransition?text=IsValidStateTransition Function" />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 |ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_channelproviders(*msdyn_channelproviderid*)<br />See [Retrieve](../webapi/retrieve-entity-using-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_channelproviders<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Retrieve|GET [*org URI*]/api/data/v9.1/msdyn_sessionparticipantsdata(*msdyn_sessionparticipantdataid*)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.1/msdyn_sessionparticipantsdata|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
 |RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
 |RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_channelproviders(*msdyn_channelproviderid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_channelproviders(*msdyn_channelproviderid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|SetState|PATCH [*org URI*]/api/data/v9.1/msdyn_sessionparticipantsdata(*msdyn_sessionparticipantdataid*)|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.1/msdyn_sessionparticipantsdata(*msdyn_sessionparticipantdataid*)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
 |Property|Value|
 |--------|-----|
-|CollectionSchemaName|msdyn_channelproviders|
-|DisplayCollectionName|Channel Providers|
-|DisplayName|Channel Provider|
-|EntitySetName|msdyn_channelproviders|
+|CollectionSchemaName|msdyn_consoleapplicationsessiontemplates|
+|DisplayCollectionName|Session Templates|
+|DisplayName|Session Templates|
+|EntitySetName|msdyn_consoleapplicationsessiontemplates|
 |IsBPFEntity|False|
-|LogicalCollectionName|msdyn_channelproviders|
-|LogicalName|msdyn_channelprovider|
+|LogicalCollectionName|msdyn_consoleapplicationsessiontemplates|
+|LogicalName|msdyn_consoleapplicationsessiontemplate|
 |OwnershipType|UserOwned|
-|PrimaryIdAttribute|msdyn_channelproviderid|
+|PrimaryIdAttribute|msdyn_consoleapplicationsessiontemplateid|
 |PrimaryNameAttribute|msdyn_name|
-|SchemaName|msdyn_channelprovider|
+|SchemaName|msdyn_consoleapplicationsessiontemplate|
 
 <a name="writable-attributes"></a>
 
@@ -61,18 +59,18 @@ Entity that will hold the information (configuration) about a channel provider
 These attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
-- [IsCustomizable](#BKMK_IsCustomizable)
-- [msdyn_apiversion](#BKMK_msdyn_apiversion)
-- [msdyn_channelproviderId](#BKMK_msdyn_channelproviderId)
-- [msdyn_channelurl](#BKMK_msdyn_channelurl)
-- [msdyn_customparams](#BKMK_msdyn_customparams)
-- [msdyn_enableanalytics](#BKMK_msdyn_enableanalytics)
-- [msdyn_enableoutbound](#BKMK_msdyn_enableoutbound)
-- [msdyn_Label](#BKMK_msdyn_Label)
+- [msdyn_AnchorTab](#BKMK_msdyn_AnchorTab)
+- [msdyn_consoleapplicationsessiontemplateId](#BKMK_msdyn_consoleapplicationsessiontemplateId)
+- [msdyn_description](#BKMK_msdyn_description)
+- [msdyn_enablebuildexpression](#BKMK_msdyn_enablebuildexpression)
+- [msdyn_expressiondata](#BKMK_msdyn_expressiondata)
+- [msdyn_icon](#BKMK_msdyn_icon)
+- [msdyn_IsPanelHidden](#BKMK_msdyn_IsPanelHidden)
 - [msdyn_name](#BKMK_msdyn_name)
-- [msdyn_SortOrder](#BKMK_msdyn_SortOrder)
-- [msdyn_trusteddomain](#BKMK_msdyn_trusteddomain)
-- [msdyn_UniqueName](#BKMK_msdyn_UniqueName)
+- [msdyn_PanelState](#BKMK_msdyn_PanelState)
+- [msdyn_Pinned](#BKMK_msdyn_Pinned)
+- [msdyn_RenderingOrder](#BKMK_msdyn_RenderingOrder)
+- [msdyn_Title](#BKMK_msdyn_Title)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [OwnerId](#BKMK_OwnerId)
 - [OwnerIdType](#BKMK_OwnerIdType)
@@ -83,8 +81,6 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 
 ### <a name="BKMK_ImportSequenceNumber"></a> ImportSequenceNumber
-
-**Added by**: Basic Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -101,100 +97,65 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Integer|
 
 
-### <a name="BKMK_IsCustomizable"></a> IsCustomizable
-
-**Added by**: Basic Solution Solution
+### <a name="BKMK_msdyn_AnchorTab"></a> msdyn_AnchorTab
 
 |Property|Value|
 |--------|-----|
-|Description|For internal use only.|
-|DisplayName|Is Customizable|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|iscustomizable|
-|RequiredLevel|SystemRequired|
-|Type|ManagedProperty|
-
-
-### <a name="BKMK_msdyn_apiversion"></a> msdyn_apiversion
-
-|Property|Value|
-|--------|-----|
-|Description|CIF version|
-|DisplayName|Api Version|
+|Description|The anchor tab for this session.|
+|DisplayName|Anchor tab|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_apiversion|
+|LogicalName|msdyn_anchortab|
 |RequiredLevel|ApplicationRequired|
-|Type|Picklist|
-
-#### msdyn_apiversion Options
-
-|Value|Label|
-|-----|-----|
-|162450000|2|
+|Targets|msdyn_consoleapplicationtemplate|
+|Type|Lookup|
 
 
-
-### <a name="BKMK_msdyn_channelproviderId"></a> msdyn_channelproviderId
+### <a name="BKMK_msdyn_consoleapplicationsessiontemplateId"></a> msdyn_consoleapplicationsessiontemplateId
 
 |Property|Value|
 |--------|-----|
-|Description|Unique identifier for entity instances|
-|DisplayName|CI Provider|
+|Description|Unique identifier for entity instances.|
+|DisplayName|Session Template Id|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |IsValidForUpdate|False|
-|LogicalName|msdyn_channelproviderid|
+|LogicalName|msdyn_consoleapplicationsessiontemplateid|
 |RequiredLevel|SystemRequired|
 |Type|Uniqueidentifier|
 
 
-### <a name="BKMK_msdyn_channelurl"></a> msdyn_channelurl
+### <a name="BKMK_msdyn_description"></a> msdyn_description
 
 |Property|Value|
 |--------|-----|
-|Description|The url of the title|
-|DisplayName|Channel URL|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_channelurl|
-|MaxLength|1024|
-|RequiredLevel|ApplicationRequired|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_customparams"></a> msdyn_customparams
-
-|Property|Value|
-|--------|-----|
-|Description|This takes a text blob as input and Microsoft.CIFramework.getEnvironment will return this as value of the key customParams|
-|DisplayName|Custom Params|
+|Description|Description of the field|
+|DisplayName|Description|
 |Format|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_customparams|
+|LogicalName|msdyn_description|
 |MaxLength|2000|
 |RequiredLevel|None|
 |Type|Memo|
 
 
-### <a name="BKMK_msdyn_enableanalytics"></a> msdyn_enableanalytics
+### <a name="BKMK_msdyn_enablebuildexpression"></a> msdyn_enablebuildexpression
+
+**Added by**: Agent scripts Solution
 
 |Property|Value|
 |--------|-----|
-|Description|Select yes if you want to enable Analytics for your channel provider|
-|DisplayName|Enable Analytics|
+|Description|Unique value to enable or disable build expression|
+|DisplayName|Enable build expression|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_enableanalytics|
+|LogicalName|msdyn_enablebuildexpression|
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### msdyn_enableanalytics Options
+#### msdyn_enablebuildexpression Options
 
 |Value|Label|
 |-----|-----|
@@ -205,19 +166,53 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 
 
-### <a name="BKMK_msdyn_enableoutbound"></a> msdyn_enableoutbound
+### <a name="BKMK_msdyn_expressiondata"></a> msdyn_expressiondata
+
+**Added by**: Agent scripts Solution
 
 |Property|Value|
 |--------|-----|
-|Description|Is outbound communication enabled|
-|DisplayName|Enable Out Bound|
+|Description|Stores expression JSON|
+|DisplayName|Expression data|
+|Format|Text|
+|IsLocalizable|False|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_enableoutbound|
-|RequiredLevel|ApplicationRequired|
+|LogicalName|msdyn_expressiondata|
+|MaxLength|1048576|
+|RequiredLevel|None|
+|Type|Memo|
+
+
+### <a name="BKMK_msdyn_icon"></a> msdyn_icon
+
+|Property|Value|
+|--------|-----|
+|Description|Display icon for the session.|
+|DisplayName|Icon|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_icon|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_IsPanelHidden"></a> msdyn_IsPanelHidden
+
+|Property|Value|
+|--------|-----|
+|Description|Whether to render the sidepanel for this session|
+|DisplayName|IsPanelHidden|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_ispanelhidden|
+|RequiredLevel|None|
 |Type|Boolean|
 
-#### msdyn_enableoutbound Options
+#### msdyn_IsPanelHidden Options
 
 |Value|Label|
 |-----|-----|
@@ -226,29 +221,13 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 **DefaultValue**: False
 
-
-
-### <a name="BKMK_msdyn_Label"></a> msdyn_Label
-
-|Property|Value|
-|--------|-----|
-|Description|Title of the session.|
-|DisplayName|Label|
-|FormatName|Text|
-|IsLocalizable|True|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_label|
-|MaxLength|100|
-|RequiredLevel|ApplicationRequired|
-|Type|String|
 
 
 ### <a name="BKMK_msdyn_name"></a> msdyn_name
 
 |Property|Value|
 |--------|-----|
-|Description|Name of the channel provider|
+|Description|Name of the session.|
 |DisplayName|Name|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -260,52 +239,80 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|String|
 
 
-### <a name="BKMK_msdyn_SortOrder"></a> msdyn_SortOrder
+### <a name="BKMK_msdyn_PanelState"></a> msdyn_PanelState
 
 |Property|Value|
 |--------|-----|
-|Description|Select Channel Order as 0 for this Channel to take precedence over others.|
-|DisplayName|Channel Order|
+|Description|Panel mode when a session is opened.|
+|DisplayName|Communication panel mode|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_panelstate|
+|RequiredLevel|None|
+|Type|Picklist|
+
+#### msdyn_PanelState Options
+
+|Value|Label|
+|-----|-----|
+|100000000|Docked|
+|100000001|Minimized|
+|100000002|Hidden|
+
+
+
+### <a name="BKMK_msdyn_Pinned"></a> msdyn_Pinned
+
+|Property|Value|
+|--------|-----|
+|Description|Whether this session should be pinned.|
+|DisplayName|Pinned|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_pinned|
+|RequiredLevel|None|
+|Type|Boolean|
+
+#### msdyn_Pinned Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
+
+**DefaultValue**: False
+
+
+
+### <a name="BKMK_msdyn_RenderingOrder"></a> msdyn_RenderingOrder
+
+|Property|Value|
+|--------|-----|
+|Description|The relative order of all session templates.|
+|DisplayName|Session order|
 |Format|None|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_sortorder|
-|MaxValue|1000|
+|LogicalName|msdyn_renderingorder|
+|MaxValue|2147483647|
 |MinValue|0|
-|RequiredLevel|ApplicationRequired|
+|RequiredLevel|None|
 |Type|Integer|
 
 
-### <a name="BKMK_msdyn_trusteddomain"></a> msdyn_trusteddomain
+### <a name="BKMK_msdyn_Title"></a> msdyn_Title
 
 |Property|Value|
 |--------|-----|
-|Description|Domain to be whitelisted|
-|DisplayName|Trusted Domain|
+|Description|Title of the session displayed in the session panel.|
+|DisplayName|Session title|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_trusteddomain|
-|MaxLength|2000|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_UniqueName"></a> msdyn_UniqueName
-
-|Property|Value|
-|--------|-----|
-|Description|Unique Name for the entity.|
-|DisplayName|Unique Name|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|IsValidForUpdate|False|
-|LogicalName|msdyn_uniquename|
-|MaxLength|128|
-|RequiredLevel|SystemRequired|
+|LogicalName|msdyn_title|
+|MaxLength|100|
+|RequiredLevel|ApplicationRequired|
 |Type|String|
 
 
@@ -331,7 +338,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Owner Id|
+|Description|Owner who created this session.|
 |DisplayName|Owner|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -360,7 +367,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Status of the CI Provider|
+|Description|Status of the Session template|
 |DisplayName|Status|
 |IsValidForCreate|False|
 |IsValidForForm|True|
@@ -382,7 +389,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Reason for the status of the CI Provider|
+|Description|Reason for the status of the ConsoleApplicationSessionTemplate|
 |DisplayName|Status Reason|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -436,8 +443,6 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 These attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
 
-- [ComponentIdUnique](#BKMK_ComponentIdUnique)
-- [ComponentState](#BKMK_ComponentState)
 - [CreatedBy](#BKMK_CreatedBy)
 - [CreatedByName](#BKMK_CreatedByName)
 - [CreatedByYomiName](#BKMK_CreatedByYomiName)
@@ -445,7 +450,6 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 - [CreatedOnBehalfBy](#BKMK_CreatedOnBehalfBy)
 - [CreatedOnBehalfByName](#BKMK_CreatedOnBehalfByName)
 - [CreatedOnBehalfByYomiName](#BKMK_CreatedOnBehalfByYomiName)
-- [IsManaged](#BKMK_IsManaged)
 - [ModifiedBy](#BKMK_ModifiedBy)
 - [ModifiedByName](#BKMK_ModifiedByName)
 - [ModifiedByYomiName](#BKMK_ModifiedByYomiName)
@@ -453,55 +457,13 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 - [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
 - [ModifiedOnBehalfByName](#BKMK_ModifiedOnBehalfByName)
 - [ModifiedOnBehalfByYomiName](#BKMK_ModifiedOnBehalfByYomiName)
-- [OverwriteTime](#BKMK_OverwriteTime)
+- [msdyn_AnchorTabName](#BKMK_msdyn_AnchorTabName)
 - [OwnerIdName](#BKMK_OwnerIdName)
 - [OwnerIdYomiName](#BKMK_OwnerIdYomiName)
 - [OwningBusinessUnit](#BKMK_OwningBusinessUnit)
 - [OwningTeam](#BKMK_OwningTeam)
 - [OwningUser](#BKMK_OwningUser)
-- [SolutionId](#BKMK_SolutionId)
-- [SupportingSolutionId](#BKMK_SupportingSolutionId)
 - [VersionNumber](#BKMK_VersionNumber)
-
-
-### <a name="BKMK_ComponentIdUnique"></a> ComponentIdUnique
-
-**Added by**: Basic Solution Solution
-
-|Property|Value|
-|--------|-----|
-|Description|For internal use only.|
-|DisplayName|Row id unique|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|componentidunique|
-|RequiredLevel|SystemRequired|
-|Type|Uniqueidentifier|
-
-
-### <a name="BKMK_ComponentState"></a> ComponentState
-
-**Added by**: Basic Solution Solution
-
-|Property|Value|
-|--------|-----|
-|Description|For internal use only.|
-|DisplayName|Component State|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|componentstate|
-|RequiredLevel|SystemRequired|
-|Type|Picklist|
-
-#### ComponentState Options
-
-|Value|Label|
-|-----|-----|
-|0|Published|
-|1|Unpublished|
-|2|Deleted|
-|3|Deleted Unpublished|
-
 
 
 ### <a name="BKMK_CreatedBy"></a> CreatedBy
@@ -623,31 +585,6 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Type|String|
 
 
-### <a name="BKMK_IsManaged"></a> IsManaged
-
-**Added by**: Basic Solution Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Indicates whether the solution component is part of a managed solution.|
-|DisplayName|Is Managed|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|ismanaged|
-|RequiredLevel|SystemRequired|
-|Type|Boolean|
-
-#### IsManaged Options
-
-|Value|Label|
-|-----|-----|
-|1|Managed|
-|0|Unmanaged|
-
-**DefaultValue**: False
-
-
-
 ### <a name="BKMK_ModifiedBy"></a> ModifiedBy
 
 **Added by**: Active Solution Solution
@@ -767,21 +704,20 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Type|String|
 
 
-### <a name="BKMK_OverwriteTime"></a> OverwriteTime
-
-**Added by**: Basic Solution Solution
+### <a name="BKMK_msdyn_AnchorTabName"></a> msdyn_AnchorTabName
 
 |Property|Value|
 |--------|-----|
-|DateTimeBehavior|UserLocal|
-|Description|For internal use only.|
-|DisplayName|Record Overwrite Time|
-|Format|DateAndTime|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
 |IsValidForForm|False|
 |IsValidForRead|True|
-|LogicalName|overwritetime|
-|RequiredLevel|SystemRequired|
-|Type|DateTime|
+|LogicalName|msdyn_anchortabname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_OwnerIdName"></a> OwnerIdName
@@ -868,36 +804,6 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Type|Lookup|
 
 
-### <a name="BKMK_SolutionId"></a> SolutionId
-
-**Added by**: Basic Solution Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Unique identifier of the associated solution.|
-|DisplayName|Solution|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|solutionid|
-|RequiredLevel|SystemRequired|
-|Type|Uniqueidentifier|
-
-
-### <a name="BKMK_SupportingSolutionId"></a> SupportingSolutionId
-
-**Added by**: Basic Solution Solution
-
-|Property|Value|
-|--------|-----|
-|Description|For internal use only.|
-|DisplayName|Solution|
-|IsValidForForm|False|
-|IsValidForRead|False|
-|LogicalName|supportingsolutionid|
-|RequiredLevel|None|
-|Type|Uniqueidentifier|
-
-
 ### <a name="BKMK_VersionNumber"></a> VersionNumber
 
 **Added by**: Active Solution Solution
@@ -914,20 +820,73 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|None|
 |Type|BigInt|
 
+<a name="manytoone"></a>
+
+## Many-To-One Relationships
+
+Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related entity. Listed by **SchemaName**.
+
+
+### <a name="BKMK_msdyn_msdyn_consoleapplicationtemplate_msdyn_consoleapplicationsessiontemplate_AnchorTab"></a> msdyn_msdyn_consoleapplicationtemplate_msdyn_consoleapplicationsessiontemplate_AnchorTab
+
+See msdyn_consoleapplicationtemplate Entity [msdyn_msdyn_consoleapplicationtemplate_msdyn_consoleapplicationsessiontemplate_AnchorTab](msdyn_consoleapplicationtemplate.md#BKMK_msdyn_msdyn_consoleapplicationtemplate_msdyn_consoleapplicationsessiontemplate_AnchorTab) One-To-Many relationship.
 <a name="manytomany"></a>
 
 ## Many-To-Many Relationships
 
-Relationship details provided where the msdyn_channelprovider entity is the first entity in the relationship. Listed by **SchemaName**.
+Relationship details provided where the msdyn_consoleapplicationsessiontemplate entity is the first entity in the relationship. Listed by **SchemaName**.
+
+- [msdyn_msdyn_consoleapplicationsessiontemplate_m](#BKMK_msdyn_msdyn_consoleapplicationsessiontemplate_m)
+- [msdyn_msdyn_consoleapplicationsessiontemp_tag](#BKMK_msdyn_msdyn_consoleapplicationsessiontemp_tag)
 
 
-### <a name="BKMK_msdyn_appconfig_msdyn_channelprovider"></a> msdyn_appconfig_msdyn_channelprovider
+### <a name="BKMK_msdyn_msdyn_consoleapplicationsessiontemplate_m"></a> msdyn_msdyn_consoleapplicationsessiontemplate_m
 
-See msdyn_appconfiguration Entity [msdyn_appconfig_msdyn_channelprovider](msdyn_appconfiguration.md#BKMK_msdyn_appconfig_msdyn_channelprovider) Many-To-Many Relationship.
+IntersectEntityName: msdyn_msdyn_consoleapplicationsessiontemplate<br />
+#### Entity 1
+
+|Property|Value|
+|--------|-----|
+|IntersectAttribute|msdyn_consoleapplicationsessiontemplateid|
+|IsCustomizable|True|
+|LogicalName|msdyn_consoleapplicationsessiontemplate|
+|NavigationPropertyName|msdyn_msdyn_consoleapplicationsessiontemplate_m|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+
+#### Entity 2
+
+|Property|Value|
+|--------|-----|
+|LogicalName|msdyn_consoleapplicationtemplate|
+|IntersectAttribute|msdyn_consoleapplicationtemplateid|
+|NavigationPropertyName|msdyn_msdyn_consoleapplicationsessiontemplate_m|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+
+
+### <a name="BKMK_msdyn_msdyn_consoleapplicationsessiontemp_tag"></a> msdyn_msdyn_consoleapplicationsessiontemp_tag
+
+IntersectEntityName: msdyn_msdyn_consoleapplicationsessiontemp_tag<br />
+#### Entity 1
+
+|Property|Value|
+|--------|-----|
+|IntersectAttribute|msdyn_consoleapplicationsessiontemplateid|
+|IsCustomizable|True|
+|LogicalName|msdyn_consoleapplicationsessiontemplate|
+|NavigationPropertyName|msdyn_msdyn_consoleapplicationsessiontemp_tag|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+
+#### Entity 2
+
+|Property|Value|
+|--------|-----|
+|LogicalName|msdyn_templatetags|
+|IntersectAttribute|msdyn_templatetagsid|
+|NavigationPropertyName|msdyn_msdyn_consoleapplicationsessiontemp_tag|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+
 
 ### See also
 
-[About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.msdyn_channelprovider?text=msdyn_channelprovider EntityType" />
+[Microsoft.CIFramework APIs](../microsoft-ciframework-v2.md)<br />
+[Client-side events](../client-side-events.md)
