@@ -288,8 +288,8 @@
           href: v2/reference/entities-attributes/msdyn_sessiontemplate.md
         - name: "msdyn_applicationtabtemplate"
           href: v2/reference/entities-attributes/msdyn_applicationtabtemplate.md
-        - name: "msdyn_consoleapplicationtemplateparameter"
-          href: v2/reference/entities-attributes/msdyn_consoleapplicationtemplateparameter.md
+        - name: "msdyn_templateparameter"
+          href: v2/reference/entities-attributes/msdyn_templateparameter.md
         - name: "msdyn_sessionparticipantdata"
           href: v2/reference/entities-attributes/msdyn_sessionparticipantdata.md
 

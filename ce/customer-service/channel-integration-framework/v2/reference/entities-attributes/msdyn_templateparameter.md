@@ -1,6 +1,6 @@
 ---
-title: "msdyn_notificationfield Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "Includes schema information and supported messages for the msdyn_notificationfield entity."
+title: "msdyn_templateparameter Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+description: "Includes schema information and supported messages for the msdyn_templateparameter entity."
 ms.date: 10/21/2020
 ms.service: "crm-online"
 ms.topic: "reference"
@@ -11,43 +11,44 @@ author: "JimDaly"
 ms.author: "jdaly"
 manager: "jdaly"
 ---
-# msdyn_notificationfield Entity Reference
+# msdyn_templateparameter Entity Reference
 
 **Added by**: App profile manager Solution
+
 
 ## Messages
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.0/msdyn_notificationfields(*msdyn_notificationfieldid*)|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/msdyn_notificationfields|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_notificationfields(*msdyn_notificationfieldid*)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Assign|PATCH [*org URI*]/api/data/v9.0/msdyn_templateparameters(*msdyn_templateparameterid*)|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Create|POST [*org URI*]/api/data/v9.0/msdyn_templateparameters|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_templateparameters(*msdyn_templateparameterid*)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 |IsValidStateTransition|<xref href="Microsoft.Dynamics.CRM.IsValidStateTransition?text=IsValidStateTransition Function" />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 |ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_notificationfields(*msdyn_notificationfieldid*)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_notificationfields|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_templateparameters(*msdyn_templateparameterid*)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_templateparameters|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
 |RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
 |RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_notificationfields(*msdyn_notificationfieldid*)|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_notificationfields(*msdyn_notificationfieldid*)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_templateparameters(*msdyn_templateparameterid*)|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_templateparameters(*msdyn_templateparameterid*)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
 |Property|Value|
 |--------|-----|
-|CollectionSchemaName|msdyn_notificationfields|
-|DisplayCollectionName|Notification Fields|
-|DisplayName|Notification Field|
-|EntitySetName|msdyn_notificationfields|
+|CollectionSchemaName|msdyn_templateparameters|
+|DisplayCollectionName|Template Parameters|
+|DisplayName|Template Parameter|
+|EntitySetName|msdyn_templateparameters|
 |IsBPFEntity|False|
-|LogicalCollectionName|msdyn_notificationfields|
-|LogicalName|msdyn_notificationfield|
+|LogicalCollectionName|msdyn_templateparameters|
+|LogicalName|msdyn_templateparameter|
 |OwnershipType|UserOwned|
-|PrimaryIdAttribute|msdyn_notificationfieldid|
+|PrimaryIdAttribute|msdyn_templateparameterid|
 |PrimaryNameAttribute|msdyn_name|
-|SchemaName|msdyn_notificationfield|
+|SchemaName|msdyn_templateparameter|
 
 <a name="writable-attributes"></a>
 
@@ -57,10 +58,9 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [IsCustomizable](#BKMK_IsCustomizable)
+- [msdyn_applicationtabtemplateid](#BKMK_msdyn_applicationtabtemplateid)
 - [msdyn_name](#BKMK_msdyn_name)
-- [msdyn_notificationfieldId](#BKMK_msdyn_notificationfieldId)
-- [msdyn_order](#BKMK_msdyn_order)
-- [msdyn_title](#BKMK_msdyn_title)
+- [msdyn_templateparameterId](#BKMK_msdyn_templateparameterId)
 - [msdyn_UniqueName](#BKMK_msdyn_UniqueName)
 - [msdyn_value](#BKMK_msdyn_value)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
@@ -106,11 +106,25 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|ManagedProperty|
 
 
+### <a name="BKMK_msdyn_applicationtabtemplateid"></a> msdyn_applicationtabtemplateid
+
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for Application Tab Template associated with Template Parameter.|
+|DisplayName|Application Tab Template|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_applicationtabtemplateid|
+|RequiredLevel|ApplicationRequired|
+|Targets|msdyn_applicationtabtemplate|
+|Type|Lookup|
+
+
 ### <a name="BKMK_msdyn_name"></a> msdyn_name
 
 |Property|Value|
 |--------|-----|
-|Description|The name of the notification field.|
+|Description|The name of the custom entity.|
 |DisplayName|Name|
 |FormatName|Text|
 |IsLocalizable|True|
@@ -122,50 +136,18 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|String|
 
 
-### <a name="BKMK_msdyn_notificationfieldId"></a> msdyn_notificationfieldId
+### <a name="BKMK_msdyn_templateparameterId"></a> msdyn_templateparameterId
 
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for entity instances|
-|DisplayName|Notification Field|
+|DisplayName|Template Parameter|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |IsValidForUpdate|False|
-|LogicalName|msdyn_notificationfieldid|
+|LogicalName|msdyn_templateparameterid|
 |RequiredLevel|SystemRequired|
 |Type|Uniqueidentifier|
-
-
-### <a name="BKMK_msdyn_order"></a> msdyn_order
-
-|Property|Value|
-|--------|-----|
-|Description|Order of the notification field|
-|DisplayName|Order|
-|Format|None|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_order|
-|MaxValue|2147483647|
-|MinValue|0|
-|RequiredLevel|None|
-|Type|Integer|
-
-
-### <a name="BKMK_msdyn_title"></a> msdyn_title
-
-|Property|Value|
-|--------|-----|
-|Description|Field displayed on the notification. This is treated as the key on the basis of which the values are replaced on the notification template.|
-|DisplayName|Title|
-|FormatName|Text|
-|IsLocalizable|True|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_title|
-|MaxLength|200|
-|RequiredLevel|ApplicationRequired|
-|Type|String|
 
 
 ### <a name="BKMK_msdyn_UniqueName"></a> msdyn_UniqueName
@@ -189,14 +171,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|The value for the field to be displayed on the notification.|
+|Description|The template parameter value.|
 |DisplayName|Value|
 |FormatName|Text|
-|IsLocalizable|True|
+|IsLocalizable|False|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|msdyn_value|
-|MaxLength|1028|
+|MaxLength|2048|
 |RequiredLevel|None|
 |Type|String|
 
@@ -252,7 +234,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Status of the Notification Field|
+|Description|Status of the Template Parameter|
 |DisplayName|Status|
 |IsValidForCreate|False|
 |IsValidForForm|True|
@@ -274,7 +256,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Reason for the status of the Notification Field|
+|Description|Reason for the status of the Template Parameter|
 |DisplayName|Status Reason|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -345,6 +327,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 - [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
 - [ModifiedOnBehalfByName](#BKMK_ModifiedOnBehalfByName)
 - [ModifiedOnBehalfByYomiName](#BKMK_ModifiedOnBehalfByYomiName)
+- [msdyn_applicationtabtemplateidName](#BKMK_msdyn_applicationtabtemplateidName)
 - [OverwriteTime](#BKMK_OverwriteTime)
 - [OwnerIdName](#BKMK_OwnerIdName)
 - [OwnerIdYomiName](#BKMK_OwnerIdYomiName)
@@ -659,6 +642,22 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Type|String|
 
 
+### <a name="BKMK_msdyn_applicationtabtemplateidName"></a> msdyn_applicationtabtemplateidName
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_applicationtabtemplateidname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
+
+
 ### <a name="BKMK_OverwriteTime"></a> OverwriteTime
 
 **Added by**: Basic Solution Solution
@@ -806,16 +805,16 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|None|
 |Type|BigInt|
 
-<a name="manytomany"></a>
+<a name="manytoone"></a>
 
-## Many-To-Many Relationships
+## Many-To-One Relationships
 
-Relationship details provided where the msdyn_notificationfield entity is the first entity in the relationship. Listed by **SchemaName**.
+Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related entity. Listed by **SchemaName**.
 
 
-### <a name="BKMK_msdyn_notificationtemplate"></a> msdyn_notificationtemplate
+### <a name="BKMK_msdyn_applicationtabtemplate_templateparameter"></a> msdyn_applicationtabtemplate_templateparameter
 
-See msdyn_notificationtemplate Entity [msdyn_notificationtemplate](msdyn_notificationtemplate.md#many-to-many-relationships) Many-To-Many Relationship.
+See msdyn_applicationtabtemplate Entity [msdyn_applicationtabtemplate_templateparameter](msdyn_applicationtabtemplate.md#one-to-many-relationships) One-To-Many relationship.
 
 ### See also
 
