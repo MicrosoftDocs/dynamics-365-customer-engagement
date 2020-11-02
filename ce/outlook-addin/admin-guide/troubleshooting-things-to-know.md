@@ -64,7 +64,7 @@ Microsoft Dynamics 365 for Outlook is not enabled on Common Data Service 2.0.
  Some [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] add-ins can cause issues like connection failure and slow program startup and might be incompatible with [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. Try disabling suspect add-ins to see if that resolves your issue.  
   
 ### Problem when using a proxy auto-config (PAC) file  
- [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] might have authentication and connection issues when using a proxy PAC file configured in workstation browsers. For resolution, see [Microsoft Dynamics CRM for Outlook client crashes when using a Proxy PAC file](https://support.microsoft.com/kb/2664157).  
+ [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] might have authentication and connection issues when using a proxy PAC file configured in workstation browsers. 
   
 ### Can’t add a related record type when offline  
  If you’re offline, you can’t add a related record type by using the **Add** button (+). Add the related record type while you’re online, and then go offline.  
@@ -101,7 +101,7 @@ Microsoft Dynamics 365 for Outlook is not enabled on Common Data Service 2.0.
  If you have system out-of-the box or custom date and time fields with User Local or Time-Zone Independent behavior, the date/time information for years before 1900 won’t display as entered when viewing in the list of records and reading pane in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. The date and time values are correct in the database and will appear as expected in the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] web application.  
   
 <a name="BKMK_OnlineandO365"></a>   
-## Microsoft Dynamics 365 apps  with Office 365  
+## Microsoft Dynamics 365 apps  with Microsoft 365  
  When you try to connect to an organization that is part of your [!INCLUDE[pn_MS_Office_365](../../includes/pn-ms-office-365.md)] subscription by using the [!INCLUDE[pn_configuration_wizard](../../includes/pn-configuration-wizard.md)] or [!INCLUDE[pn_oc_online_short](../../includes/pn-oc-online-short.md)], you cannot connect. To resolve this issue, verify, and if necessary, correct the following:  
   
 - Make sure that you can connect to the organization by using [!INCLUDE[pn_Internet_Explorer](../../includes/pn-internet-explorer.md)]. There may be incomplete information with your [!INCLUDE[pn_MS_Online_Services](../../includes/pn-ms-online-services.md)] account that is preventing you from authenticating with the service. The URL for the organization is provided in the invitation email message you should have received from [!INCLUDE[pn_MS_Online_Services](../../includes/pn-ms-online-services.md)], and is typically in the form of https://<em>OrganizationName</em>.onmicrosoft.com or https://<em>OrganizationName</em>.crm.dynamics.com. If you are not certain of the URL, contact your system administrator  

@@ -3,7 +3,7 @@ title: "How hierarchical security can be used to control access to entities (Dev
 description: "Provides an additional, more granular security model for accessing records in a hierarchical organizational structure."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

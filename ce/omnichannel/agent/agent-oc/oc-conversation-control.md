@@ -4,9 +4,9 @@ description: "Conversation control is a communication panel in Omnichannel where
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 08/03/2020
+ms.date: 10/22/2020
 ms.service: 
-  - "dynamics-365-customerservice"
+   "dynamics-365-customerservice"
 ms.topic: article
 ---
 
@@ -80,9 +80,7 @@ After you type **/q** in the communication panel messaging area, you can continu
  > [!div class=mx-imgBorder]
  > ![Type /q and the keyword to filter the replies](../../media/oceh-send-quick-replies-filter.png "Filter replies")  
 
-### Preview: Share reconnection link with customers
-
-[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
+### Share reconnection link with customers
 
 If the reconnection link is configured by your administrator, you can share the link with customers during the session that they can use to connect back to the chat when they are disconnected for some reason, such as loss of connectivity or restart of their computer. The reconnection link information is available as a quick response.
 
@@ -121,8 +119,6 @@ Use the keyboard command to see the list of queues to transfer the conversation 
 **/t** (forward slash, letter t) launches the **Agent** and **Queue** tabs. Select either tab and then select the agent or the queue from the list to transfer the conversation. The **/t** command keeps the focus on the Agent tab whereas the **/tq** command keeps the focus on the Queue tab.
 
 When skill-based routing is enabled, then during the transfer, the **Transfer** panel shows users sorted in the order of matching skills. A check for agent skills is not done by the app and the conversation can be transferred to any agent irrespective of the skill match.
-
-![Transfer agent list](../../media/oceh-cc-transfer-agent-list.png "transfer agent list")
 
 When a conversation needs to be transferred from one queue to another, the matching criteria that was used in the conversation will be reused to find an agent in the new queue. For example, if exact match had been used to attach the skills to the conversation, the same criteria will be used to find the agent in the new queue.
 
@@ -166,9 +162,6 @@ To learn more, see [Search, link, and unlink a record to the conversation](oc-se
 ## Monitor real-time customer satisfaction
 
 As an agent, you can view the real-time customer satisfaction levels on the communication panel. A sentiment icon is displayed at the top of the communication panel based on the previous six customer messages sent to you.
-
-> [!div class=mx-imgBorder]
-> ![Very positive sentiment](../../media/oceh/sentiment-very-positive-cc.png "Very positive sentiment")
 
 To learn more, see [Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md)
 

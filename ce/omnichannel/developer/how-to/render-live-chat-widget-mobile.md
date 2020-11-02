@@ -1,10 +1,10 @@
 ---
 title: "Render a live chat widget on the mobile app| Microsoft Docs"
-description: "Read how you can render a live chat widget on your mobile app"
+description: "Render a live chat widget on your mobile app using a code snippet or SDK"
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 07/09/2020
+ms.date: 10/12/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: reference
@@ -13,6 +13,9 @@ ms.topic: reference
 
 [!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
+There are two ways to integrate Omnichannel chat into mobile apps: one is by embedding the chat widget using the code snippet, and the other is using the headless Omnichannel Chat SDK.
+
+## Render a live chat widget on the mobile app using the code snippet
 Use the `WebView` component of your mobile operating system language to enable rendering of the web version of the live chat widget on mobile devices. The `WebView` capability, which enables mobile apps to display web content, is offered on both Android and iOS.
 
 The following sample code illustrates how you can render the chat widget on the mobile app. 
@@ -78,6 +81,14 @@ After the chat is closed, the live chat widget triggers the [lcw:closeChat](../r
 
 > [!NOTE]
 > Live chat widget features&mdash;such as escalating to voice and video, and downloading the chat transcript&mdash;aren't supported on the mobile app.
+
+## Render a live chat widget on the mobile app using the Omnichannel Chat SDK
+
+The Omnichannel Chat SDK allows organizations to build their own chat widget against the Omnichannel services by exposing methods for various chat features. The look and feel of the chat widget can be fully customized depending on your organization's needs. The SDK is built in React Native, and therefore works for iOS and Android apps as well as on web browsers.  
+
+The Omnichannel Chat SDK is open source and is located at [https://www.npmjs.com/package/@microsoft/omnichannel-chat-sdk](https://www.npmjs.com/package/@microsoft/omnichannel-chat-sdk).  
+
+We also provide a reference app using the popular UI Gifted Chat.  
 
 ### See also
 

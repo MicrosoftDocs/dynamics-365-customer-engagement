@@ -29,8 +29,6 @@ Yes, here is the list of known issues:
 - Users who are assigned a custom security role may not be able to access [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)]. We are working on a fix for this issue. In the meantime, for a workaround, see this [support article](https://support.microsoft.com/help/4078135/sorry-something-went-wrong-while-initializing-the-app-when-accessing-t). 
  
 
-For other known issues with this version of [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)], see the [Dynamics 365 apps Readme](../admin/readme-9.md). 
-
 ## I am having authentication issues with Dynamics 365 App for Outlook while using Dynamics 365 Customer Engagement (on-premises) and Active Directory Federation Services. What can I do to resolve it?
 
 If you have enabled Internet-facing deployment on the Microsoft Dynamics 365 Server and Configure the AD FS and still have issues with authentication then do the following:
@@ -113,3 +111,6 @@ Dynamics 365 App for Outlook needs Internet Explorer 11 or higher to be installe
 
 ## My app for Oulook launch takes time every time I load it for mail item.
 For frequently used pages, pin the app so that it will stay loaded even when you switch to other mail items. 
+
+## User is not able to configure *Follow this email* button on the top pane in Dynamics 365 App for Outlook.
+This feature is no longer available for configuration.

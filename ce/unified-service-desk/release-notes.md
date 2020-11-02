@@ -1,7 +1,7 @@
 ---
 title: "Unified Service Desk Release Notes | MicrosoftDocs"
 description: "Learn about the known issues and limitations in Unified Service Desk."
-ms.date: 08/03/2020
+ms.date: 10/23/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -22,9 +22,57 @@ search.app:
 
 ## Unified Service Desk 4.1 known issues and limitations
 
-## Unified Service Desk shuts down with an exception
+### Field values are not populated in a new tab while opening a related record from the current page
 
-Unified Service Desk client application suddenly shuts down with an fatal exception error message. The reason for the fatal exception error is due to an issue with the .NET framework installed on your system.
+If you are using a Unified Interface page type of hosted controls, and if you have configured to open its related entity's record creation page in a different tab from a given Unified Interface page, then certain fields might not get populated in the related entity's form in the new tab.
+
+**Example:**
+
+You have **Case** and **Email** hosted control to load the case and email form respectively. And, you have configured the email to open in an **Email** hosted control. 
+ 
+Now, when the agent performs any action from a case tab, then the create form of an **Email** entity opens in a new tab. However, the related values will not be populated in the email form.
+
+
+#### Work around
+
+Configure **RunXrmCommand** action call to initialize values in the related record and have the action added to **PageReady** event of the related entity's hosted control.
+
+Follow the steps to work around the issue:
+
+1. Create a web resource and write the code to update the lookup value.
+
+```
+function SetLookupValue(context, fieldName, id, name, entityType)
+{
+  if (fieldName != null)
+  {
+       var lookupValue = new Array();
+       lookupValue[0] = new Object();
+       lookupValue[0].id = id;
+       lookupValue[0].name = name;
+       lookupValue[0].entityType = entityType;
+       if (lookupValue[0].id != null)
+       {
+           context.getAttribute(fieldName).setValue(lookupValue);
+       }
+   }
+}
+```
+
+2. In the **RunXrmCommand** action call, update the method with parameters.
+
+```
+webResourceName=new_USDFormUpdate
+functionName=SetLookupValue
+'field' // Logical name of the attribute that needs to be updated. In case of an email regarding field, it is regarding objectid.
+'[[id]]' // ID of the case record.
+'[[name]]' // Title of the case record.
+'[[LogicalName]]' // LogicalName of the entity. It is case here.
+```
+
+### Unified Service Desk shuts down with an exception
+
+Unified Service Desk client application suddenly shuts down with a fatal exception error message. The reason for the fatal exception error is due to an issue with the .NET framework installed on your system.
 
 **Example error message:** 
 
@@ -110,7 +158,7 @@ To work around, you must write JavaScript code to access the DOM and execute the
 
 ### Window Navigation Rules for Advanced Find does not work
 
-When you use Unified Service Desk with the Unified Interface apps, Window Navigation Rules for the Advanced Find page might not work as the page is available only on Web Client and hence you must retain the route type as **Popup**.
+When you use Unified Service Desk with the Unified Interface apps, Window Navigation Rules for the Advanced Find page might not work as the page is available only on the legacy web client and hence you must retain the route type as **Popup**.
 
 ### Importing solution causes error with Package Deployer
 
@@ -126,7 +174,7 @@ While you use **Chrome Process** to host applications in Unified Service Desk, i
 
 ### Support for CloseAndPrompt action in Chrome Process
 
-The Chrome Process does not support the **CloseAndPrompt** action for web client. When you make changes in a webpage or a form on a web client, the process does not perform a page modified (data changes) check by prompting a dialog. Instead, when you close the webpage or the form, Unified Service Desk closes the webpage or the form.
+The Chrome Process does not support the **CloseAndPrompt** action for the legacy web client. When you make changes in a webpage or a form on a legacy web client, the process does not perform a page modified (data changes) check by prompting a dialog. Instead, when you close the webpage or the form, Unified Service Desk closes the webpage or the form.
 
 ### Support for Microphone and webcam with Channel Integration Framework
 
@@ -136,7 +184,7 @@ When you integrate a channel with Unified Service Desk using the Channel Integra
 
 #### Support for CloseAndPrompt action in Edge Process
 
-The Edge Process does not support the **CloseAndPrompt** action for web client. When you make changes in a webpage or a form on a web client, the process does not perform a page modified (data changes) check by prompting a dialog. Instead, when you close the webpage or the form, Unified Service Desk closes the webpage or the form.
+The Edge Process does not support the **CloseAndPrompt** action for the legacy web client. When you make changes in a webpage or a form on a legacy web client, the process does not perform a page modified (data changes) check by prompting a dialog. Instead, when you close the webpage or the form, Unified Service Desk closes the webpage or the form.
 
 #### Support for alert dialog with WebView control
 
@@ -181,7 +229,7 @@ A work around is to open the Microsoft Edge browser separately, navigate to the 
 
 #### KB article support with Edge Process
 
-In the web client, when you host the KB article in Unified Service Desk client application using Edge Process, the KB articles does not render. 
+In the legacy web client, when you host the KB article in Unified Service Desk client application using Edge Process, the KB articles does not render. 
 
 A work around is to change the **Unified Service Desk Component Type** of the **KB Article** hosted control from **CRM Page** to **Unified Interface Page**.
 
@@ -226,7 +274,24 @@ The following features are not available in Unified Service Desk:
 
 #### Work around
 
-Upgrade to the latest version of Omnichannel for Customer Service to get all the new features. Agents should avoid transferring conversations from the Omnichannel for Customer Service app (web client) to a Unified Service Desk client.
+Upgrade to the latest version of Omnichannel for Customer Service to get all the new features. Agents should avoid transferring conversations from the Omnichannel for Customer Service app (the legacy web client) to a Unified Service Desk client.
+
+### Audio limitations in Unified Service Desk
+
+The following audio file types are supported in Unified Service Desk:
+
+- flac 
+- mp3 
+- pcm 
+- wav 
+
+The following audio file types are not supported in Unified Service Desk:
+
+- aac 
+- aiff 
+- alac 
+- mp2 
+- wma
 
 ## See also
 
@@ -244,7 +309,7 @@ Upgrade to the latest version of Omnichannel for Customer Service to get all the
 
 ### Select articles from the Unified Interface KB Control in the Unified Service Desk displays error
 
-If you are using **Web client - Unified Interface Migration Assistant** to migrate your Unified Service Desk Configurations from Web Client to Unified Interface, the KM Control is changed to Unified Interface KM Control.
+If you are using **Web client - Unified Interface Migration Assistant** to migrate your Unified Service Desk Configurations from the legacy web client to Unified Interface, the KM Control is changed to Unified Interface KM Control.
 
 With the Unified Interface KM Control hosted control, if you login to Unified Service Desk and open any KB article, you can see server error.
 
@@ -254,7 +319,7 @@ With the Unified Interface KM Control hosted control, if you login to Unified Se
 
 To fix the issue, you must manually update the data parameter for the Unified Interface KM Control action call.
 
-In the Web Client configurations, go to the action call for opening the KM, and in the **Data** field you can see the parameters like **url**, **postdata**, and **header**.
+In the legacy web client configurations, go to the action call for opening the KM, and in the **Data** field you can see the parameters like **url**, **postdata**, and **header**.
 
 ![Action call with the postdata and header parameter](media/manual-update-unified-interface-km-control-action-call-data.PNG "Action call with the postdata and header parameter")
 
@@ -338,7 +403,7 @@ You cannot view and attach an action call to another call (sub-action call) in U
 
 #### Work around
 
-You can add an action call to another call using the Unified Service Desk configurations in Web Client. 
+You can add an action call to another call using the Unified Service Desk configurations in the legacy web client. 
 
 ### Support for Relevance Search (search technique) in Unified Interface KM Control
 

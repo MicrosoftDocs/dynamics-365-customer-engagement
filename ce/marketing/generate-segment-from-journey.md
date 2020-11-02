@@ -1,6 +1,6 @@
 ---
 title: "Generate segments based on customer journey results (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Explains how to automatically generate an behavioral segment that finds all contacts who did a particular thing during a specific customer journey"
+description: "Explains how to automatically generate a behavioral segment that finds all contacts who did a particular thing during a specific customer journey"
 keywords:
 ms.date: 10/04/2019
 ms.service: dynamics-365-marketing
@@ -43,7 +43,7 @@ You can generate dynamic segments that find contacts that got a specific result 
 
 1. Select a tile from the journey pipeline and inspect the **Data** panel, which shows how many contacts that tile has processed and, sometimes, more other information about what they did there. Here’s the **Data** panel for an email tile:
 
-    ![Data panel for an email tile](media/customer-journey-data-panel.png "Data panel for an email tile")
+    ![Data panel for an email tile](media/customer-journey-data-panel2.png "Data panel for an email tile")
 
 1. Identify the type of information you'd like to use in your new segment and select the **Save as segment** button ![Save-as-segment button](media/save-as-segment-button.png "Save-as-segment button") for that value. For example:
     - **Processed**: Nearly all types of tiles provide this value and a **Save as segment** button for it. This will find all contacts who were successfully processed by this tile in this journey.

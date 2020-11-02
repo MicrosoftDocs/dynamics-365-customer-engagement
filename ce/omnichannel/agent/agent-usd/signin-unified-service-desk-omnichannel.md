@@ -21,7 +21,7 @@ ms.topic: article
 
      | Field | Value | Example |
      |-------|-------|---------|
-     | Deployment Type  | Office 365 for online deployments |  |
+     | Deployment Type  | Microsoft 365 for online deployments |  |
      | Display list of available organizations | Select the checkbox to display organizations on which the Omnichannel for Customer Service is deployed   |   |
      | Show Advanced | Select the checkbox to display the following fields: <br><br> - Online Region <br><br> - Username <br><br> - Password |                       |
      | Online Region | The datacenter region where your Dynamics 365 Customer Service instance is hosted | North America |

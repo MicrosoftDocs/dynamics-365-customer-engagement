@@ -1,17 +1,15 @@
 ---
 title: "Dynamics 365 Portal hosted custom event website | MicrosoftDocs"
-description: "Provides information about how you can extend event management web application functionality."
+description: "Learn how you can extend event management web application functionality for Portal hosted event websites in Dynamics 365 Marketing."
 ms.custom:
   - dyn365-developer
   - dyn365-marketing
-ms.date: 06/20/2020
+ms.date: 09/16/2020
 ms.service: dynamics-365-marketing
-ms.technology: 
-  - "marketing"
 ms.topic: "article"
-author: Nkrb
-ms.author: nabuthuk
-manager: kvivek
+author: alfergus
+ms.author: alfergus
+manager: shellyha
 ---
 
 # Dynamics 365 Portal hosted
@@ -53,7 +51,7 @@ You need to bypass the **anti-CSRF** token for local development. To do that, na
 
 To serve the application locally, you need to follow the steps below:
 
-1. Open Command Prompt or PowerShell.
+1. Open Command Prompt or Windows PowerShell.
 
 1. Run the command to install all the dependencies.
 
@@ -88,7 +86,7 @@ After all the files are built, it asks you to sign in to your Dynamics 365 Marke
 If you want to deploy some specific files rather than all the files at once, you can specify the list of files as a parameter for the script: `.\DeployToDynamics365Instance.ps1 -inputFiles main.es`. You can find the list with all the supported files in the scripts content.
 
 > [!NOTE]
-> - If you can't run the Powershell script because of your execution policy, then you need to [disable or bypass the execution policy](https://docs.microsoft.com/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-6).
+> - If you can't run the Powershell script because of your execution policy, then you need to [disable or bypass the execution policy](https://docs.microsoft.com/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-6&preserve-view=true).
 > - We recommend not to upload files manually becuase of the accessibility issues. Use the `DeployToDynamics365Instance.ps1` script to bring your customizations automatically in to your instance.
 
 ## Configuring cross-origin resource sharing (CORS)

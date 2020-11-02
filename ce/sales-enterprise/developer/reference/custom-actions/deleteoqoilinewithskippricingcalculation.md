@@ -14,7 +14,7 @@ ms.reviewer: susikka
 ---
 # DeleteOQOILineWithSkipPricingCalculation custom action
 
-Enables you to delete OQOI line item without triggering price calculation.
+Enables you to delete opportunity, quote, order, and invoice line item without triggering price calculation.
 
 ## Parameters
 

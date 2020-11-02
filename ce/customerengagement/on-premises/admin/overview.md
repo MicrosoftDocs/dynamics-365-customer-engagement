@@ -2,7 +2,7 @@
 title: "Administrator Guide for Dynamics 365 Customer Engagement (on-premises), version 9 | MicrosoftDocs"
 description: "Add description."
 ms.custom: on-premises
-ms.date: 10/1/2019
+ms.date: 09/12/2020
 ms.reviewer: "kvivek"
 ms.service: crm
 ms.topic: "article"
@@ -17,7 +17,6 @@ Implementers and administrators for Dynamics 365 Customer Engagement (on-premise
 > [!NOTE]
 > This content is for Dynamics 365 Customer Engagement (on-premises), version 9.
 > - For documentation for earlier versions, see [Administering Dynamics 365](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/administering-dynamics-365/dn531101(v=crm.8))
-> - For Dynamics 365 admin center docs, see [Administer customer engagement apps](/dynamics365/admin/admin-guide)
 > - If you are an online customer, see [Administer Power Platform](https://docs.microsoft.com/power-platform/admin/admin-documentation)
 
 

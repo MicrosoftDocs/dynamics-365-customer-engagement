@@ -4,12 +4,11 @@ description: Know how to automatically create or update records by setting up ru
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 08/21/2020
+ms.date: 10/05/2020
 ms.topic: article
-ms.service: 
-  - dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.custom: 
-  - dyn365-customerservice
+  dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -106,7 +105,7 @@ On the **Advanced** tab of the **Record creation and update rule** page for a ru
 1. On the **Automatic record creation and update rules** page, select the rule in the list that you want to update. The *<rule_name>* page appears.
 2. Select the **Advanced** tab, and do the following in **Before evaluating conditions**:
 
-   - **Allow emails from unknown senders:** Set it to yes if you want records to be created when email messages arrive from senders whose email addresses aren't present in any records. A contact record is also created.
+   - **Allow emails from unknown senders:** Set it to yes if you want records to be created when email messages arrive from senders whose email addresses aren't present in any contact or account records.
 
         This option, in conjunction with the Automatically create records in Dynamics 365 for Customer Engagement option in the rule owner's Personal Options, determines whether a case and contact record is created. To learn more, see [Set personal options](../customerengagement/on-premises/basics/set-personal-options.md).
 
@@ -136,8 +135,6 @@ The rules are run in the order they are listed in the rule items list. If the in
 
 ## Use activity monitor to review and track rules
 
-[!include[cc-early-access](../includes/cc-early-access.md)]
-
 You can review and track the health of the automatic record creation rules and resolve issues around them. By default, the activity monitor captures failed events. You can customize the events that you want to monitor by using the monitor options in the application.
 
 > [!IMPORTANT]
@@ -153,8 +150,10 @@ The following details are available for the rules:
 - **Reason:** Displays information on how the rule was handled. For example, if the value in Current state for a rule is Skipped, no action would have been taken because the rule condition, such as **Allow email from unknown senders** was set to No. Therefore, no further action was required for the rule.
 - **Evaluated on:** Displays the date and time of the issue.
 
+Perform the following steps to use the activity monitor for the rules:
+
 1. On the **Record creation and update rules** page, select **View activity monitor** on the command bar. The **Activity monitor for record creation and update rules** page displays the list of rules with their statuses.
-2. Use the Advanced filters option to narrow down the view to list rules, such as list only those rules that match a specified condition.
+2. Use the **Advanced filters** option to narrow down the view to list rules, such as list only those rules that match a specified condition.
 3. Double-click a rule or activity to view the activity monitoring summary that is displayed on the **Activity monitor** *<rule_name>* page.
   
     > [!NOTE]

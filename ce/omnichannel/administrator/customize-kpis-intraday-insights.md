@@ -1,22 +1,22 @@
 ---
 title: "Add custom KPIs to intraday insights dashboard | MicrosoftDocs"
-description: "How to add custom KPIs to intraday insights dashboard for the Omnichannel for Customer Service."
+description: "Learn how to add custom KPIs to the intraday insights dashboard in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
 ms.date: 10/24/2019
 ms.service: 
-  - "dynamics-365-customerservice"
+  "dynamics-365-customerservice"
 ms.topic: article
+
 ---
 
-# Customize KPIs for Intraday insights
+# Customize KPIs for intraday insights
 
-To cater to your organizational needs, the Intraday insights allows you to customize KPIs. This allows supervisors to adapt to your organizational parameters that are specifically designed for your organization. Through the Power BI desktop application, you can customize theses KPIs.
+To cater to your organizational needs, intraday insights allows you to customize KPIs. This allows supervisors to adapt to your organizational parameters that are specifically designed for your organization. Through the Power BI desktop application, you can customize these KPIs.
 
 > [!NOTE]
 > Do not customize out-of-the-box reports because they will be overwritten when new versions are made available by Microsoft. However, if you do customize them, save them with another name.
-
 
 The customization of KPIs includes:
 
@@ -37,7 +37,7 @@ Verify the following prerequisites before you add the custom KPIs:
 
 ## Add custom KPIs
 
-You can add the custom KPIs that are specific to your organization to Intraday insights. This allows Intraday insights to be more specific and help supervisors to adhere your organizational requirements. To add custom KPIs, follow these steps:
+You can add the custom KPIs that are specific to your organization to intraday insights. This allows intraday insights to be more specific and helps supervisors adhere your organizational requirements. To add custom KPIs, follow these steps:
 
 1. [Review the prerequisites](#review-prerequisites).
 
@@ -53,9 +53,9 @@ You can add the custom KPIs that are specific to your organization to Intraday i
 4. Select **IntradayMonitoring** from the workspace that you have created through configuration ([Configure Power BI workspace in Omnichannel Administration app](configure-intraday-dashboard-supervisor.md#configure-the-power-bi-workspace-in-the-omnichannel-administration-app)), and then select **Load**.
 
    > [!div class=mx-imgBorder]
-   > ![Select Intraday insights datasets](../media/supervisor-admin-custom-kpis-select-pbidatasets-intraday.png "Select Intraday insights datasets")
+   > ![Select intraday insights datasets](../media/supervisor-admin-custom-kpis-select-pbidatasets-intraday.png "Select intraday insights datasets")
 
-   The fields related to Intraday insights are loaded.
+   The fields related to intraday insights are loaded.
 
 5. From the field category list, select a category to create a measure and then select **More options** (**...**) > **New measure**.
 
@@ -87,13 +87,13 @@ You can add the custom KPIs that are specific to your organization to Intraday i
 
 9. Publish the report.
 
-    The custom KPI measure is added to Intraday insights dashboard.
+    The custom KPI measure is added to the intraday insights dashboard.
 
 To learn more about how to create custom measures, see [Tutorial: Create your own measures in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-tutorial-create-measures).
 
 ## Edit measures and visuals of existing KPIs
 
-You can edit the measures and visuals of existing custom and out-of-the-box KPIs to match your organizational requirements. This helps in reducing the effort of adding a new KPI to the Intraday insights. To edit measures of existing KPIs, follow these steps:
+You can edit the measures and visuals of existing custom and out-of-the-box KPIs to match your organizational requirements. This helps in reducing the effort of adding a new KPI to the intraday insights. To edit measures of existing KPIs, follow these steps:
 
 1. [Review the prerequisites](#review-prerequisites).
 
@@ -109,9 +109,9 @@ You can edit the measures and visuals of existing custom and out-of-the-box KPIs
 4. Select **IntradayMonitoring** from the workspace that you have created through configuration ([Configure Power BI workspace in Omnichannel Administration app](configure-intraday-dashboard-supervisor.md#configure-the-power-bi-workspace-in-the-omnichannel-administration-app)), and then select **Load**.
 
    > [!div class=mx-imgBorder]
-   > ![Select Intraday insights datasets](../media/supervisor-admin-custom-kpis-select-pbidatasets-intraday.png "Select Intraday insights datasets")
+   > ![Select intraday insights datasets](../media/supervisor-admin-custom-kpis-select-pbidatasets-intraday.png "Select intraday insights datasets")
 
-   The fields related to Intraday insights are loaded.
+   The fields related to intraday insights are loaded.
 
 5. To edit a measure:
 
@@ -149,7 +149,7 @@ You can edit the measures and visuals of existing custom and out-of-the-box KPIs
 
 ## Reference
 
-The tables in the Intraday insights dataset consists of entity attributes along with measures and calculated columns. The following are the list of entity that are supported in Intraday insights:
+The tables in the intraday insights dataset consists of entity attributes along with measures and calculated columns. The following are the list of entity that are supported in Intraday insights:
 
 - **Agent**. To learn more about entity attributes for agent, see [SystemUser entity](../developer/reference/entities/overview.md#systemuser-entity).
 

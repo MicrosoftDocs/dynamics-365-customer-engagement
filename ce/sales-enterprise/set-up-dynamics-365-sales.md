@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Set up Dynamics 365 Sales (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Learn how to get and set up Dynamics 365 Sales."
 ms.date: 07-13-2020
@@ -18,7 +18,7 @@ To set up Dynamics 365 Sales, you must complete these general steps.
 
     1. To try Dynamics 365 Sales, go to the [Dynamics 365 trials](https://trials.dynamics.com/) site, select **Sales**, and follow the instructions.
 
-    2. To buy a subscription, go to your **Office 365 admin center** &gt; **Billing** &gt; **Purchase Services** and then select **Dynamics 365 Sales** and **Buy Now**. You can also get Sales from this [Dynamics 365 purchasing page](https://dynamics.microsoft.com/pricing/#Sales).
+    2. To buy a subscription, go to your **Microsoft 365 admin center** &gt; **Billing** &gt; **Purchase Services** and then select **Dynamics 365 Sales** and **Buy Now**. You can also get Sales from this [Dynamics 365 purchasing page](https://dynamics.microsoft.com/pricing/#Sales).
 
         Your organization's subscription to Dynamics 365 Sales in Dynamics 365 provides access to the Microsoft 365 admin center through a global administrator account. The global administrator manages every aspect of the subscription and may add subscriptions to other Microsoft Online Services.
 

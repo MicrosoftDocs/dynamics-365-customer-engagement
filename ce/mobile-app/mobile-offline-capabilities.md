@@ -1,7 +1,8 @@
 ---
 title: "Mobile offline capabilities and limitations (Dynamics 365 apps)| MicrosoftDocs"
+description: Mobile offline capabilities and limitations for Dynamics 365 phones and tablets app and Power Apps mobile
 ms.custom: 
-ms.date: 6/18/2020
+ms.date: 8/28/2020
 ms.reviewer: kvivek
 ms.service: crm-online
 ms.suite: 
@@ -24,7 +25,7 @@ search.app:
 
 # Mobile offline capabilities and limitations
 
-Before you set-up or use Dynamics 365 for phones and tablets in offline mode be sure to read through the following capabilities, tips,  and limitations. 
+Before you set-up the mobile app in offline mode be sure to read through the following capabilities, tips,  and limitations. 
 
 These entities and corresponding commands are available in offline mode.
 
@@ -64,9 +65,11 @@ These entities and corresponding commands are available in offline mode.
 
 - **Offline search**: Available only for offline entities. User can only search one entity at a time. Only categorized search is supported in offline mode and not relevant search.
 
-- **Notes on the Timeline control**: Notes on the Timeline control is available in offline mode. You can take pictures, read notes, and add attachments in offline mode.
+- **Notes on the Timeline control**: Notes on the Timeline control is available in offline mode. You can take pictures, read notes, and add/remove attachments in offline mode.
   > [!NOTE]
   > The **Date** field is not available for mobile offline search.
+  
+- **Custom entities**: These commands are available on edit the form, **Mark Complete**, **Refresh**, **Convert To- Opportunity**, and **Delete**.
 
 
 ## Limitations 
@@ -110,11 +113,11 @@ These entities and corresponding commands are available in offline mode.
   
 - Ensure that any view that you want to work in offline doesn’t reference the entities that are not offline enabled. For example, assuming Account is in the offline profile, then an Account view that references the primary contact when Contact is not in the profile will not be available.
 
-- Changes to a user’s security privileges are updated during the next synchronization cycle. Until that time, users can continue to access data according to their previous security privileges, but any changes they make will be validated during the synchronization to the Dynamics 365 server. If they no longer have privileges to make changes for a record, they will receive an error and the record won’t be created, updated, or deleted.
+- Changes to a user’s security privileges are updated during the next synchronization cycle. Until that time, users can continue to access data according to their previous security privileges, but any changes they make will be validated during the synchronization to the server. If they no longer have privileges to make changes for a record, they will receive an error and the record won’t be created, updated, or deleted.
 
 - Any changes to a user’s privilege to view a record won’t take effect on the mobile device until the next synchronization cycle.
 
-- Mobile offline honors the Dynamics 365 apps security model. It also supports the hierarchical security model. Field level security and attribute sharing are not supported for offline mode.
+- Mobile offline honors the mobile apps security model. It also supports the hierarchical security model. Field level security and attribute sharing are not supported for offline mode.
   
 
 ### Organization data filter 

@@ -3,7 +3,7 @@ title: "Use webhooks to create external handlers for server events(Developer Gui
 description: "You can send data about events that occur on the server to a web application using webhooks. Webhooks is a lightweight HTTP pattern for connecting Web APIs and services with a publish/subscribe model. webhook senders notify receivers about events by making requests to receiver endpoints with some information about the events."
 ms.custom: 
 ms.date: 12/18/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -226,15 +226,14 @@ When you know the **sdkmessageprocessingstepid** of a given step, you can query 
 
 ## Test your registration with a request logging site
 
-Before you move on to create or configure a service to consume web hooks, you should test what kind of data the service will receive so that you can know what kind of data you will need to process. For this purpose, you can use one of several request logging sites. For the purpose of this example, we will use [RequestBin](https://requestb.in/) to configure a target for the webhook requests. Use the following steps:
+Before you move on to create or configure a service to consume web hooks, you should test what kind of data the service will receive so that you can know what kind of data you will need to process. For this purpose, you can use one of several request logging sites. For the purpose of this example, we will use [RequestBin](https://requestbin.com/) to configure a target for the webhook requests. Use the following steps:
 
-1. Go to [https://requestb.in/](https://requestb.in/) and click **Create a RequestBin**.
-2. The next page will provide a Bin URL like : `https://requestb.in/<random string>`. Copy this URL.
-3. Refresh the page and the page URL will change to `https://requestb.in/<random string>?inspect` and will show that no requests have been made to the URL.
-4. Use the plugin registration tool to register a new webhook as described under [Register a webhook](#register-a-webhook). Use the URL you copied in step 2 as the **Endpoint URL**. Set a name and any authentication properties you want. Request Bin will not evaluate these values in the way that an actual site that will process the data should, but you can see how they will be passed through.
-5. Use the plugin registration tool to register a step using the webhook you created in step 4 as described in [Register a step for a webhook](#register-a-step-for-a-webhook). Make sure to use an event that you can easily perform by editing data in the [!INCLUDE [Dynamics 365 Customer Engagement](../includes/pn-dyn-365.md)] application, such as updating a contact entity.
-6. Use the [!INCLUDE [Dynamics 365 Customer Engagement](../includes/pn-dyn-365.md)] app to perform the operation to trigger the event.
-7. After you trigger the event, return to the `https://requestb.in/<random string>?inspect` page from step 3 and refresh the page. You should discover a page similar to the following:
+1. Go to [https://requestbin.com/](https://requestbin.com/) and click **Create Request Bin**.
+2. The next page will provide a Bin URL like : `https://<random string>.x.pipestream.net`. Copy this URL.
+3. Use the plugin registration tool to register a new webhook as described under [Register a webhook](#register-a-webhook). Use the URL you copied in step 2 as the **Endpoint URL**. Set a name and any authentication properties you want. Request Bin will not evaluate these values in the way that an actual site that will process the data should, but you can see how they will be passed through.
+4. Use the plugin registration tool to register a step using the webhook you created in step 3 as described in [Register a step for a webhook](#register-a-step-for-a-webhook). Make sure to use an event that you can easily perform by editing data in the [!INCLUDE [Dynamics 365 Customer Engagement](../includes/pn-dyn-365.md)] application, such as updating a contact entity.
+5. Use the [!INCLUDE [Dynamics 365 Customer Engagement](../includes/pn-dyn-365.md)] app to perform the operation to trigger the event.
+6. After you trigger the event, return to the RequestBin page from step 2. You should discover a page similar to the following:
 
     ![An example of the request logged on the request bin web site](media/request-bin-example.png)
 

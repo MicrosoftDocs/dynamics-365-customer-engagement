@@ -4,7 +4,7 @@ description: "Read about the error codes and error messages that are returned wh
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 07/09/2019
+ms.date: 10/09/2019
 ms.topic: article
 ---
 # Error code reference for Omnichannel for Customer Service
@@ -19,6 +19,10 @@ Here are the error codes and error messages that are returned when using live ch
 |2|Auth token provider method execution failed|
 |3|Auth token provider didn't provide any token|
 |4|Auth token provider provided invalid token|
+|7|Live chat widget scripts failed to load|
+
+> [!Note]
+> The live chat widget script can fail to load for a number of reasons. One possible reason is the user has disabled access to session and local storage in their browser. The reason will be described in the `errorDetail` attribute. 
 
 Given below is a sample `errorEvent` object that is raised when the context provider method execution fails.
 

@@ -4,7 +4,7 @@ description: "Frequently asked questions about the Dynamics 365 Channel Integrat
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 07/13/2020
+ms.date: 11/02/2020
 ms.topic: reference
 ms.service: 
   - dynamics-365-customerservice
@@ -13,7 +13,7 @@ ms.custom:
   - "dyn365-developer"
 ---
 
-# Frequently asked questions (FAQs) for Dynamics 365 Channel Integration Framework
+# FAQs for Dynamics 365 Channel Integration Framework
 
 ## General FAQs
 
@@ -64,6 +64,9 @@ Also, you can add Configuration Experience to the acquire flow that will allow t
 
 ### What happens when you select a role from under Select roles for the Channel?
 
+> [!Note]
+> Applicable only to Channel Integration Framework version 1.0.
+
 When you select a particular security role for the channel provider from under the **Select roles for the Channel** drop-down list, the security role provides certain access rights to the channel provider. In case no role is selected, the channel provider can only be accessed by system administrators and customizers.
 
 > [!IMPORTANT]
@@ -73,16 +76,34 @@ When you select a particular security role for the channel provider from under t
 
 No, that is not supported.
 
-### Why is the widget not visible in the home session?
-
-The widget is not visible in the home session because the home session is not associated with any provider. If there is a session created which is associated to a provider, the panel can then be set to either **Minimized**, **Docked** or **Hidden** mode for Channel Integration Framework Version 2.0, and **Minimized** or **Docked** mode for Version 1.0.
-
-In the channel provider's initialization code, use the [createSession](reference/microsoft-ciframework/createSession.md) API to create a default session and then use [setMode](reference/microsoft-ciframework/setMode.md) API to set the mode. In the sample softphone, both of these API are being invoked from the `InitCTI()` method, which is the initialization method.
-
-> [!NOTE]
-> [Microsoft.CIFramework.setMode](reference/microsoft-ciframework/setMode.md) API is not supported in the Home page.
-
 ## Dynamics 365 Channel Integration Framework version 2.0 FAQs
+
+### What are the new changes to Channel Integration Framework app?
+
+Channel Integration Framework model-driven app is only applicable to configure channel providers for single session Dynamics 365 model-driven apps. The templates (Session, Notification, and Application tab) will not be available in the Channel Integration Framework app.
+
+### Where do I configure voice channel provider for multisession apps?
+
+Organizations can configure voice channel providers from the app profile manager feature.
+
+### My organization is using Channel Integration Framework version 1.0. Does the change impact my organization?
+
+No. There is no impact for Channel Integration Framework version 1.0 users. You can continue to use the Channel Integration Framework app to configure channel providers for single session Dynamics 365 model-driven app.
+	
+### My organization is using voice channel configured using Channel Integration Framework version 2.0. Does the change impact my organization?
+
+Yes. From your channel provider record, you will not be able to see the following two grids:
+
+- Select the Unified Interface Apps for the Channel
+- Select the Roles for the Channel
+	
+### How do I choose the Unified Interface apps for the voice channel provider record?
+
+You don't need to choose the Unified Interface apps. The telephony channel providers are associated with app profiles, which works in the context of the multisession apps such as Omnichannel for Customer Service and Customer Service workspace (preview).
+	
+###	How do I select roles for the voice channel provider record?
+
+Telephony channel providers are associated with app profiles, which in turn are assigned to users in your organization. With the new changes, you need to assign the app profiles to the users who should have access to the telephony channel provider.
 
 ### Will my existing communication widget, built using Dynamics 365 Channel Integration Framework version 1.0 APIs, continue to work with the version 2.0 app?
 
@@ -111,6 +132,10 @@ This is to make sure that updated data is available for the agent at all times.
 ### Is it possible to integrate custom (in-house) messaging channel providers?
 
 Yes, you can integrate custom messaging channels using Direct Line Bot. More information: [Bring your own channel](../../omnichannel/developer/how-to/bring-your-own-channel.md).
+
+### Is it possible to view the existing channel providers from Channel Integration Framework version 2.0 model-driven app?
+
+No, you will have to navigate to Channel Integration Framework version 2.0 from app profile manager to view your existing channel providers. More information: [Configure channel provider using app profile manager](v2/configure-channel-provider-app-profile-manager.md).
 
 ## See also
 

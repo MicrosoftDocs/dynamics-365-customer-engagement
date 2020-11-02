@@ -128,7 +128,7 @@
     - name: How-to
       items:
       - name: "Configure channel provider for your Dynamics 365 organization"
-        href: v2/configure-channel-provider-channel-integration-framework.md
+        href: v2/configure-channel-provider-app-profile-manager.md
       - name: "Enable outbound communication (ClickToAct)"
         href: v2/enable-outbound-communication-clicktoact.md
       - name: "Add Channel Integration Framework solution as a dependent solution"
@@ -279,16 +279,16 @@
         - name: "msdyn_kpieventdefinition"
           href: v2/reference/entities-attributes/msdyn_kpieventdefinition.md
         - name: "msdyn_sessiondata"
-          href: reference/entities-attributes/msdyn_sessiondata.md
+          href: v2/reference/entities-attributes/msdyn_sessiondata.md
         - name: "msdyn_consoleapplicationnotificationfield"
           href: v2/reference/entities-attributes/msdyn_consoleapplicationnotificationfield.md
         - name: "msdyn_consoleapplicationnotificationtemplate"
           href: v2/reference/entities-attributes/msdyn_consoleapplicationnotificationtemplate.md
         - name: "msdyn_consoleapplicationsessiontemplate"
           href: v2/reference/entities-attributes/msdyn_consoleapplicationsessiontemplate.md
-        - name: "msdyn_consoleapplicationtemplate"
+        - name: "msdyn_consoleapplicationapplicationtemplate"
           href: v2/reference/entities-attributes/msdyn_consoleapplicationtemplate.md
-        - name: "msdyn_consoleapplicatiotemplateparameter"
+        - name: "msdyn_consoleapplicationtemplateparameter"
           href: v2/reference/entities-attributes/msdyn_consoleapplicationtemplateparameter.md
         - name: "msdyn_sessionparticipantdata"
           href: v2/reference/entities-attributes/msdyn_sessionparticipantdata.md

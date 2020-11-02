@@ -24,7 +24,7 @@ search.app:
 
 # Invite, register, and house event attendees
 
-After your event is fully modelled in Dynamics 365 Marketing, you're ready to start promoting it. The system provides many tools to help you do this.
+After your event is fully modeled in Dynamics 365 Marketing, you're ready to start promoting it. The system provides many tools to help you do this.
 
 ## Invite contacts to your events
 
@@ -40,7 +40,7 @@ Event registration enables attendees to sign up for your event and reserve their
 
 The [event website](set-up-event-portal.md) enables contacts to register themselves for any event that you are managing in Dynamics 365 Marketing. Depending on the [registration options](session-level-registration.md) you've chosen, attendees may be able to choose their schedule by selecting among available passes (each of which grants access to a different collection of sessions), or by selecting each session individually to assemble their own custom schedule. A simple event might just have one registration option that applies to all attendees. You can even implement [online payment](event-payment-gateway.md), but some custom development is required. [Waitlists](event-waitlist.md) are available for sold out events or sessions.
 
-Dynamics 365 Marketing users can also register attendees manually by creating event registrations, session registrations, and pass assignments directly in the app. This lets you provide phone-based registration, for example. Manual registrations also enables users to bypass the [Waitlists](event-waitlist.md) if needed.
+Dynamics 365 Marketing users can also register attendees manually by creating event registrations, session registrations, and pass assignments directly in the app. This lets you provide phone-based registration, for example. Manual registrations also enable users to bypass the [Waitlists](event-waitlist.md) if needed.
 
 Each registration results in an event-registration record, which pulls together a registrant's profile, their passes, the sessions they'll attend, and, eventually, the sessions they did attend. Each registration record has a unique ID, which the system encodes into a QR code that you can embed in a registration-confirmation email sent to each registrant (see also [Event registration QR code elements](content-blocks-reference.md#qr-code)). You'll also find the QR code embedded in each registration record so you can use it in other contexts, such as to print badges to be handed out at the event. 
 
@@ -55,7 +55,7 @@ To view all current registrations and pass assignments, and to create them manua
 
 As you prepare for (or follow up after) an event, you'll probably want to communicate with people who signed up for it from time to time. One good way to do this is to [set up a segment](segmentation-lists-subscriptions.md) to find the right attendees and then [create a customer journey](customer-journeys-create-automated-campaigns.md) that sends [email messages](prepare-marketing-emails.md) to them, sets up follow-up activities, and more.
 
-To create segments that find contacts associated with event entities, your system must synchronize event-related entities with the marketing-insights service. If your Marketing instance isn't already set up to sync the required event entities, then please talk to your admin about setting this up. If you are the admin, then see [Choose entities to sync with the marketing-insights service](mkt-settings-sync.md) for instructions. The primary event entity (Event) is normally set to sync by default, but the event registration entity (Event Registration), which can be useful for communicating with registered contacts, is not.
+To create segments that find contacts associated with event entities, your system must synchronize event-related entities with the marketing-insights service. If your Marketing instance isn't already set up to sync the required event entities, talk to your admin about setting this up. If you are the admin, then see [Choose entities to sync with the marketing-insights service](mkt-settings-sync.md) for instructions. The primary event entity (Event) is normally set to sync by default, but the event registration entity (Event Registration), which can be useful for communicating with registered contacts, is not.
 
 ## Book hotel rooms for staff, speakers, and guests
 
@@ -70,4 +70,4 @@ More information: [Manage attendee logistics and accommodation availability](man
 [Create automated campaigns](customer-journeys-create-automated-campaigns.md)  
 [Customer journey tiles reference](customer-journey-tiles-reference.md)  
 [Set up the event website](set-up-event-portal.md)  
-[Create an interactive customer journey with triggers and signup](create-interactive-customer-journey.md)
+[Create an interactive customer journey with conditions and signup](create-interactive-customer-journey.md)

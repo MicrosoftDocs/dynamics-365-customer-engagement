@@ -35,12 +35,16 @@
 ## [Products and services](create-product-or-service.md)
 ## [Service task types](set-up-service-task-types.md)
 ## [Work order summary reports](reports.md)
-## [Inspections](inspections.md)
+## Inspections
+### [Create and view inspections](inspections.md)
+### [Advanced inspection options](inspections-advanced.md)
 ## [Work order templates (incident types)](configure-incident-types.md)
+## [Predictive work duration and resource proficiency suggestions (Preview)](analytics-predictive-work-duration.md)
 ## [Work order completion surveys](work-order-surveys.md)
 
 # Bookable resources
 ## [Set up bookable resources](set-up-bookable-resources.md)
+## [Apply a calendar to a bookable resource](calendar-resource.md)
 ## [Bookable resource categories](set-up-bookable-resource-categories.md)
 ## [Characteristics](set-up-characteristics.md)
 ## [Resource pay types](set-up-resource-pay-types.md)
@@ -75,8 +79,6 @@
 ### [Facilities](facility-scheduling.md)
 ### [Advanced filters](schedule-assistant-advanced-filters.md)
 
-
-
 ## Schedule board 
 ### [Configure the schedule board](configure-schedule-board.md)
 ### [Share schedule board tabs](share-schedule-board-tab.md)
@@ -85,30 +87,34 @@
 ### [Edit booking templates](booking-template.md)
 ### [Booking alerts](booking-alert.md)
 ### [Schedule board tab settings](schedule-board-tab-settings.md)
-### [Preview the new schedule board (public preview)](preview-schedule-board.md)
+### [Next-generation schedule board experience](preview-schedule-board.md)
 
-
-# Field Service Mobile
-## [Overview](field-service-mobile-overview.md)
-## [Setup](field-service-mobile-app-user-guide.md)
-## [Customizations and configurations](mobile-app-configuration-customization.md)
-## [Activate mobile configurator](activate-fs-mobile-app-license.md)
-## [Map API key](mobile-enable-maps.md)
-## [Upgrade the mobile project template](mobile-upgrade-project.md)
-## [Push notifications](mobile-push-notifications.md)
-## [Device and app management with Microsoft Intune](field-service-mobile-intune.md)
-## [Geofencing](geofencing.md)
-## [Deep linking](mobile-deeplink.md)
-## [Use Power Automate flows with Field Service Mobile](mobile-workflow-to-flow.md)
-## FAQs + troubleshooting
-### [Frequently asked questions](mobile-faq.md)
-### Troubleshooting topics
+# Mobile apps
+## [Compare mobile apps (Xamarin vs. Microsoft Power Platform)](mobile-2020-power-platform.md)
+## Dynamics 365 Field Service mobile app (Microsoft Power Platform)
+### [Install and get started](mobile-power-app-get-started.md)
+### [Configure](mobile-power-app-configure.md)
+### [FAQs](mobile-power-app-faq.md)
+## Field Service Mobile (Xamarin app)
+### [Overview](field-service-mobile-overview.md)
+### [Install and Setup](field-service-mobile-app-user-guide.md)
+### [Use the app](field-service-mobile-use.md)
+### [Customizations and configurations](mobile-app-configuration-customization.md)
+### [Activate mobile configurator](activate-fs-mobile-app-license.md)
+### [Map API key](mobile-enable-maps.md)
+### [Upgrade the mobile project template](mobile-upgrade-project.md)
+### [Push notifications](mobile-push-notifications.md)
+### [Device and app management with Microsoft Intune](field-service-mobile-intune.md)
+### [Geofencing](geofencing.md)
+### [Deep linking](mobile-deeplink.md)
+### [Use Power Automate flows with Field Service Mobile](mobile-workflow-to-flow.md)
+### FAQs (Xamarin app)
 #### [What is the latest version of the mobile app and configuration tool?](mobile-faq-latest-version.md)
 #### [Mobile app won't sync to server or crashes immediately](mobile-faq-sync-crash.md)
 #### [Bookings don't appear when logged into the app?](mobile-faq-bookings-not-showing.md)
 #### [Bookings not scheduled to me show up when logged into the mobile app](mobile-faq-bookings-not-scheduled-to-me.md)
+#### [More FAQs](mobile-faq.md)
 ## [Get help](mobile-get-help.md) 
-## [Field Service (Dynamics 365) mobile app](mobile-2020-power-platform.md)
 
 # Agreements and preventive maintenance
 ## [Agreements](set-up-customer-agreements.md)
@@ -129,7 +135,7 @@
 ## [Process a return](process-return.md)
 ## [Manual inventory journals](manual-inventory-journals.md)
 
-# Resource scheduling optimization add-in
+# Resource scheduling optimization add-on
 ## [Overview](rso-overview.md)
 ## [Get resource scheduling optimization](rso-get-install.md)
 ## [Quickstart](rso-quickstart.md)
@@ -165,6 +171,7 @@
 ### [Azure IoT Hub](developer/connected-field-service-developer-guide.md)
 #### [Prerequisites for Azure subscription](cfs-azure-subscription.md)
 #### [Installation and setup](installation-setup-iothub.md)
+#### [Register IoT devices](cfs-register-devices.md)
 #### [Quickstart: Build your own IoT solution](connected-field-service-overview.md)
 ### [Use custom IoT providers](cfs-custom-iot-provider.md)
 ## Analyze

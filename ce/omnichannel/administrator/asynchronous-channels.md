@@ -4,9 +4,9 @@ description: "Adaptive card, emojis, and other support in asynchronous channels 
 author: platkat 
 ms.author: ktaylor
 manager: shujoshi
-ms.date: 08/06/2020
+ms.date: 10/22/2020
 ms.service: 
-  - "dynamics-365-customerservice"
+  dynamics-365-customerservice
 ms.topic: article
 ---
 
@@ -57,7 +57,7 @@ Suggested action is supported fully with the exception that some channels may li
 | Custom messaging (Direct Line) | Yes                 |
 
 ## File attachment support
-You can file attachments on the **General settings** tab of a channel so that customers and agents can send files as attachments. Attachments that customers send to agents are referred to as inbound attachments, and attachments that agents send to customers are referred to as outbound attachments. For more information about file attachments, see [Enable file attachments](enable-file-attachments.md).
+You can enable file attachments on the **General settings** tab of a channel so that customers and agents can send files as attachments. Inbound attachments refer to attachments that customers send to agents, and outbound attachments refer to attachments that agents send to customers. For more information about file attachments, see [Enable file attachments](enable-file-attachments.md).
 
 | Channel              | Inbound attachments                        | Outbound attachments                  |
 |----------------------|--------------------------------------------|---------------------------------------|
@@ -71,9 +71,10 @@ You can file attachments on the **General settings** tab of a channel so that cu
 | WhatsApp             | Image, Audio, Video, PDF                   | Image, Audio, Video, PDF              |
 
 > [!Note]
-> - For Microsoft Teams, when a customer sends an emoji from Teams client, the agent will receive a .png image. When an agent sents a .gif image outbound, the customer will receive a .png image. 
+> - For Microsoft Teams, when a customer sends an emoji from the Teams client, the agent will receive a .png image. When an agent sents a .gif image outbound, the customer will receive a .png image. 
 > - The Direct Line channel supports the above attachment types, but it is up to the client to implement them.
-> - For LINE inbound and outbound, when sending a .gif image, the recipient will receive a .jpg image.
+> - For LINE inbound and outbound messages, when a .gif image is sent, the recipient will receive a .jpg image.
+> - For WhatsApp messages, when a customer sends an attachment in document format (for example, a .docx, .xlsx, or .txt file), the agent will receive the attachment name as message text. We recommend converting documents to PDFs to send as attachments. 
 
 ## Emoji support 
 
@@ -97,7 +98,7 @@ You can file attachments on the **General settings** tab of a channel so that cu
 |--------------------|---------------------------------------------------------------------|
 | Facebook           | Yes, as .png image                                                  |
 | Twitter            | Not supported.                                                      |
-| Microsoft Teams    | Not supported.                    |
+| Microsoft Teams    | Not supported.                                                      |
 | WeChat             | Not supported. Recipient sees "Unsupported message" text.           |
 | LINE               | Not supported. Recipient sees "Sticker" text.                       |
 | WhatsApp           | Not supported.                                                      |
@@ -106,6 +107,25 @@ You can file attachments on the **General settings** tab of a channel so that cu
 
 > [!Note]
 > The Direct Line channel supports stickers, but it's up to the client to implement them.
+
+## Social profile support
+
+Omnichannel for Customer Service creates a social profile for incoming requests from asynchronous channels. When a social profile is created for a conversation within a channel, later conversations will be linked to the same social profile for this channel.
+
+With social profiles, you can do the following:
+
+- [Automatically identify customers](record-identification-rule.md) on social channels
+- Display the customer name or phone number with conversations on the agent dashboard
+- Send outbound messages
+
+| Channel            | Social profile support                                              |
+|--------------------|---------------------------------------------------------------------|
+| Facebook           | Yes                                                                 |
+| Twitter            | Yes                                                                 |
+| WeChat             | Yes                                                                 |
+| LINE               | Yes                                                                 |
+| WhatsApp           | Yes                                                                 |
+| Custom messaging (Telegram) | Yes                                                        |
 
 ### See also
 

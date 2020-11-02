@@ -1,9 +1,9 @@
 ---
 title: "Use email in customer engagement apps | MicrosoftDocs"
 description: "Learn how to use email in customer engagement apps. "
-ms.date: 08/03/2020
+ms.date: 10/05/2020
 ms.service:
-  - "dynamics-365-customerservice"
+  "dynamics-365-customerservice"
 ms.topic: article
 author: lerobbin
 ms.author: lerobbin
@@ -11,14 +11,10 @@ ms.reviewer: nenellim
 ---
 
 # Use email
-
-[!include[cc-early-access](../includes/cc-early-access.md)]
-
-
 Having the ability to communicate effectively with customers can lead to increased sales and customer satisfaction. The email capability in customer engagement apps empowers users with the ability to respond and provide timely customer interaction effortlessly through quick email access with enhanced features and functionality. Users can compose, reply, and review emails, as well as quickly attach and send images that add value and support to customer communication using streamlined functionality. You can also ensure interactions between users and customers are consistent and professional by using email templates with rich text and images. 
 
 The following is an overview of email features and functionality that shows you: 
-- [Understand the email experience](customer-service-hub-user-guide-email-overview.md.#understand-the-email-experience)
+- [Understand the email experience](customer-service-hub-user-guide-email-overview.md#understand-the-email-experience)
 - [How to view, compose, and respond to emails](customer-service-hub-user-guide-email-overview.md#how-to-view-compose-and-respond-to-emails)
 - [How to use rich text editor toolbar in email](customer-service-hub-user-guide-email-overview.md#how-to-use-the-rich-text-editor-toolbar-in-email)
 - [How to use email templates](customer-service-hub-user-guide-email-overview.md#how-to-use-email-templates)
@@ -30,7 +26,7 @@ The following is an overview of email features and functionality that shows you:
 You can work in either the **navigate-to** email or the **contextual** email experience. The difference between the navigate-to vs. contextual email experience is where the email displays on your screen. Both experiences use the same **Enhanced Email** form, which is enabled by default out-of-the-box (OOTB).
 
 > [!Important]
-> **Contextual** email is also referred to as **Enhanced** email. Please be aware there is no special functionality associated with the **Contextual / Enhanced** email experience, other than it is a pop-up experience. 
+> - **Contextual** email is also referred to as **Enhanced** email. Please be aware that there isn't any special functionality associated with the **Contextual / Enhanced** email experience, other than it is a pop-up experience. 
 
 <ul>
 <li><b>Navigate-to email experience</b>: always displays in a new screen. </li>
@@ -40,129 +36,122 @@ You can work in either the **navigate-to** email or the **contextual** email exp
 <li>Minimize the email window to return to the records you were working on.</li>
 <li>Simultaneously view, compose, and reply to five emails in pop-up windows when enabled. </li></ul></ul>
 
-> [!Note] 
-> The existing enhanced email form will be deactivated with the general availability of the 2020 release wave 2 features. In the latest version of the Sales app (build 9.0.2006.5005), you'll notice that the name of the existing enhanced email form is changed to Enhanced Email (deprecated). A new form named Enhanced Email has been introduced with the new enhanced capabilities like quick preview or multiple email attachments. If you don't opt in for early access of the 2020 release wave 2 features, this form will be presented in a Read-only mode.
-
 The following highlights the difference between the **navigate-to** and **contextual** email experience in the Timeline based on how your system administrator has configured your email:
-1.	Select the **Create a timeline record** icon.
 
-2.	Select **Email**.
+1.	Select **Create a timeline record**
 
-3.	**Navigate-to** email will display in a new screen.
+    ![Select Create a timeline record](media\create-a-record-icon-1.png "Select Create a timeline record")
 
-4.	**Contextual** email will display in a pop-up window on your current screen.
+2. Select **Email**
 
-![Navigate to email vs contextual email experience](media\email-navigate-vs-contextual-email-1.png "Navigate to email vs contextual email experience")
-![Navigate to email vs contextual email experience](media\email-navigate-vs-contextual-email-2.png "Navigate to email vs contextual email experience")
+    ![Select email](media\create-a-record-icon-1a.png "Select email.")
 
-> [!Important]
-> - The pop-up window only opens when the height and width of your screen size is at least 400 x 650 pixels or greater. If lower, **navigate-to** email will be the default experience.
-> - The **Contextual** email experience is available only for Timeline.
+   Depending on the experience you are using, your email will display as follows:
 
->[!Note]
-> - If you use customized forms in email, you will still be able to see and use them. The **Enhanced Email** form showcases various email capabilities and functionality and just a standard form. 
+   |Navigate-to Email Experience | | Contextual Email Experience|
+   |-----------------------------|-|----------------|
+   | ![Navigate-to email experience](media\navigate-to-email-view-1c.png "View of the navigate-to email experience") ||  ![Contextual email experience](media\contextual-email-view-1c.png "View of the contextual email experience.")|
+   |The **Navigate-to** email will display in a new screen.||The **Contextual** email will display in a pop-up window on your current screen.|
 
-For more information, see: 
-- [Enable the enhanced email experience](customer-service-hub-user-guide-email-admin.md#how-to-enable-the-enhanced-email-experience)
+   > [!Important]
+   > - The pop-up window only opens when the height and width of your screen size is at least 400 x 650 pixels or greater. If lower, **navigate-to** email will be the default experience.
+   > - The **Contextual** email experience is available only for Timeline.
+
+   >[!Note]
+   > - If you use customized forms in email, you will still be able to see and use them. The **Enhanced Email** form showcases various email capabilities and functionality and just a standard form. 
+
+For more information, see [Enable the enhanced email experience](customer-service-hub-user-guide-email-admin.md#how-to-enable-the-enhanced-email-experience).
 
 ## How to view, compose and respond to emails
 Users can view, create, and send emails faster with streamlined access that helps users compose, reply, and send emails using rich text editing and drag-and-drop attachment features and functionalities.
 
 ### How to view an email
-You can view and respond to emails across your Dynamics 365 app.
+You can view and respond to emails across your Dynamics 365 app. 
 
-For example, users can view and access emails the Customer Service hub by going to **Service**, then using the following steps:
-1.	Select **Activities**.
-
-2.	When select **All Activities** a drop-down list appears. 
-
-3.	Select an email list you want to view.
-
-4.	When your email list appears, select the email you want to open and view. 
-
-![How to view an email](media\email-how-to-view-an-email-1.png "How to view an email")
-
-![How to view an email](media\email-how-to-view-an-email-2.png "How to view an email")
+#### Access and view emails
+   ![Access and view email](media\email-how-to-view-an-email-11a.png "Access and view email.")
+   Legend
+   1. Select **Activities**
+   2. Select **All Activities** 
+   3. Under **Activity Type** select **Email**
+   4. Email list appears in the screen below
 
 ### How to compose an email
-Email capabilities like rich text editing and drag-and-drop or copy-and-paste images enriches customer interactions.
+Email capabilities, like rich text editing and drag-and-drop or copy-and-paste images enriches customer interactions when composing emails. 
 
-For example, you can create emails by going to **Service**, and then using the following steps:
+When enabled by your system administrator, you can access email from the top nav bar.
 
-1.	Select **Activities**
+#### Compose an email
+   ![Compose an email](media\email-how-to-compose-an-email-11b.png "Compose an email")
+   1. Select **Activities**
+   2. On the command bar, select **Email**. An email then opens in a new window where you can begin composing. 
 
-2.	On the command bar, select **Email**. It opens an email in a new window. 
+#### Anatomy of an email form
 
-![How to compose an email](media\email-how-to-compose-an-email-1.png "How to compose an email")
+![Anatomy of email](media\email-how-to-compose-an-email-1g.png "Anatomy of an email form.")
 
-On the email form: 
+Legend
 
-1.	The name displayed in the **From** field is automatically populated based on the user who is currently signed in.
-
-2.	Use the Expand icon ![Expand icon](media\email-expand-icon.png "expand email") to maximize the screen to compose your email in a full-screen view and minimize.
-
-3.	Use the body of the email to compose and/or reply to emails. 
-
-4.	You can select **Insert Template** to apply an email template. <br /> 
-
+1. **Form**. The name displayed in the **From** field is automatically populated based on the user who is currently signed in.
+2. **Expand**. The **Expand** ![Expand icon](media\email-expand-icon.png "xpand email") icon allows you to compose your email in a full-screen view and minimize when done.
+3. **Rich text editor**. This tool bar helps you  format emails. The editor is displayed as a single line that can be expanded to view the full list of editing features by default.<BR>
+  For more information, see [Editor functionality](customer-service-hub-user-guide-email-overview.md#formatting-options) and [Accessibility shortcuts](customer-service-hub-user-guide-email-overview.md#accessibility-shortcuts). 
+4. **Body**. The body is where you compose and/or reply to an emails.
+5. **Insert Signature**. Use this command to personalize your message.  
+6. **Insert Template**. This is used to apply an email template. <BR>
 For more information, see [Insert an email template](customer-service-hub-user-guide-email-overview.md#how-to-insert-an-email-template).
 
-> [!Note]
-> The **To** box must contain a recipient to select a template.
+   > [!Note]
+   > The **To** box must contain a recipient to select a template.
 
-5.	Use the rich text editor to format emails. The editor is displayed as a single line that can be expanded to view the full list of editing features by default. <br />
-  For more information, see [Editor functionality](customer-service-hub-user-guide-email-overview.md#formatting-options) and [Accessibility shortcuts](customer-service-hub-user-guide-email-overview.md#accessibility-shortcuts). 
-  
-6.	Add ![Email attachment icon](media\email-new-attachment-icon.png "email attachment icon") **New Attachments** using the drag-and-drop or copy-and-paste functionality. 
+7. **New Attachment**. This command is used to add a file to your email.
+8. **Attach File**.  This command uses the 'plus' ![attach file icon](media\email-new-attachment-icon.png "attach file icon") icon functionality is used to drag-and-drop or copy-and-paste attachments. 
 
-7.	Use **Attach file** to add a file to your email.<br />
+   > [!Note] 
+   > After you save your email, you can use Attach file and New Attachments interchangeably.
 
-> [!Note] 
-> After you save your email, you can use Attach file and New Attachments interchangeably.
+9.	**Send**. Select this icon ![Send email icon](media\email-send-icon.png "Send email icon")  to **Send** your email when you are done.
 
-8.	Use **Insert Signature** to personalize your message.  
+    >[!Important]
+    > - The **From** and **To** fields are automatically populated based on the user and the account and contact of the original record.
 
-9.	Select ![Send email icon](media\email-send-icon.png "Send email icon")  **Send** when you are done.
-
-![How to compose and email](media\email-compose-email-1.png "How to compose and email")
-
->[!Important]
-> - The **From** and **To** fields are automatically populated based on the user and the account and contact of the original record.
- 
 For more information on enhanced email and configurations, see [Enable the enhanced email experience](customer-service-hub-user-guide-email-admin.md#how-to-enable-the-enhanced-email-experience).
 
 ### How to respond to an email
-Depending on where you are in your app, how you reply to an email will function differently. An example from the Customer Service hub is provided below.
+Depending on where you are in your app, how you reply to an email will function differently. 
 
-- **Composing an email in activities and cases**
+When enabled by your system administrator, the email option displays in the top navigation bar and in the activities command bar.
 
-If your system administrator has enabled email, the email option displays on the navigation bar and in the activities command bar. When composing an email in entity records from **Activities**, you must set the reply field.  
+> [!NOTE]
+> - When composing an email from **Activities**, you must set the reply field.  
 
-Use the following to access email in entities:
+#### Access email
+When accessing email, there are a couple of options you can use. 
 
-1.	On the navigation bar, select the [](media\email-plus-icon.png "email icon") plus icon.
+-  **Option 1:**<BR>
+   ![How to respond to an email](media\email-how-to-respond-to-an-email-1c.png "How to respond to an email")
 
-2.	From the drop-down list, select **Activities**, and then **email**. 
+    - Select **Email** on the command bar.
 
-3.	You can also select **Email** on the command bar.
+   >[!Note]
+   > Email option will only appear in the drop-down list and the command bar when enabled by your system administrator.
 
->[!Note]
-> Email option will only appear in the drop-down list and the command bar when enabled by your system administrator.
+-  **Option 2:**<BR>
+   ![How to respond to an email](media\email-how-to-respond-to-an-email-1d.png "How to respond to an email")
 
-![How to respond to an email](media\email-how-to-respond-to-an-email-1.png "How to respond to an email")
+   1. From the navigation bar, select the plus ![](media\email-plus-icon.png "email icon") icon.
+   2. Select **Email** from the drop-down menu.
 
 ### Responding to emails in timeline
 When replying to emails in Timeline, the command bar in the top-right corner provides you with reply options. When you select an option, your email automatically is set and opens in that state ready for you to begin your message.  
 
-You can Use the following command options when working with emails in Timeline:
+You can use the following command options when working with emails in the timeline.
 
- -  Reply
+   ![Respond to emails in timeline](media\email-respond-in-timeline-1a.png "Respond to emails in timeline.") 
 
- -	Reply All
- 
- -	Forward 
-
-![Respond to emails in timeline](media\email-respond-in-timeline-1.png "Responding to emails in timeline") 
+   1. **Reply**. Use this command to reply directly the the sender of the email you received.
+   2. **Reply All**. Use this command to replay to everyone on an email you received.
+   3. **Forward**. Use this command to forward the email to someone else.
 
 ## How to use the rich text editor toolbar in email
 The rich text editor toolbar provides features and functionality that allows you to work with rich text formats in emails to better communicate with your customers.    
@@ -232,245 +221,224 @@ Email templates provide multiple benefits. Using email templates saves users tim
 
 ### How to insert an email template
 
-If you already have a template create, to insert a template:
+   ![Insert an email template](media\email-how-to-insert-an-email-template-1a.png "How to insert an email template")
 
-1.	On the command bar, select **Insert Template**.
+   - If you have created an email template, it can be accessed from the command bar by selecting **Insert Template**. <BR><BR>
 
-   A list of available **Email templates** will display in a window displaying existing templates. 
-   
-2.	To see templates of a particular language, select a language from the **Language** list. The templates are loaded as per the selected language.
+**Insert an email template overview**  
 
-3.	You can either **search** for a template or browse through the list and select it. The search does not support regular expressions and it works on the template name only.  
+Once you select **Insert Template**, the following window appears displaying a list of existing **Email templates** that are available to use.
 
-4.	When you select an email template, a preview is displayed on the right side of the window. The preview shows you the content so you can pick the template that best meets your needs. After inserting an email template, you can modify the content as needed.
+#### Email template selection window
 
-5.	Select **Apply template** to insert the content in the email.
+   ![Email template selection window](media\email-how-to-insert-an-email-template-1b.png "Email template selection window")
 
-> [!Note] 
-> If you try to insert an email template on a device with a smaller screen size, you'll only see an option to search and select a template.
+   Legend
+   1. **Language**. Templates are loaded as per the selected language.
+   2. **search**. You can use search to find a template. Search does not support regular expressions and only works when using the name of that specific template.  
+   3. **All templates**. All existing templates that have been created are displayed in this window  which you can browse and choose from.
+   4. **Preview**. When you select an email template, a preview of the template is displayed here. The preview shows you the content so you can pick the template that best meets your needs. After inserting an email template, you can modify the content as needed.
+   5. **Apply template** to insert the content to your  email.
 
-![How to insert an email template](media\email-how-to-insert-an-email-template-1.png "How to insert an email template")
-
-### How to convert an email to a template
-When you have composed an email that you would like to reuse with other customers, you can convert it to an email template to use in the future.
-
-To convert an email into a template: 
-
-1.	When you have the message composed as you want it, select the downward-facing caret (V) next to **Insert Template**.
-
-2.	In the drop-down list, select **Convert to an email template**.
-
-    A window will display with a list you can customize.
-
-3.	Enter the **Template name** you want to save your new template as.
-
-4.	Enter a **Permission level** to share with the **Organization** or just use as an **Individual**.
-
-5.	Select a **Category** type. The default is set to **User**.
-
-6.	**Language** displays your installed language packs. **Language** helps to categorize your templates. 
-
-7.	Select **Connect** when you are finished.
-
-![How to convert an email to a template](media\email-how-to-convert-an-email-to-a-template-1.png "How to convert an email to a template")
+      > [!Note] 
+      > If you try to insert an email template on a device with a smaller screen size, you'll only see an option to search and select a template.
 
 ### How to create an email template
-Email templates are a fast and easy way to send repetitive emails to multiple customers. You can view, create, and edit any email template you have created.
+
+Email templates are a fast and easy way to send repetitive and reoccurring emails to multiple customers. You can view, create, and edit any email templates you have created.
 
 When creating a template, you have the option to work with a blank or existing template:
 
-1.	From the **Email Templates** command bar at the top, select **New**.
+   ![Create an email template](media\email-how-to-create-an-email-template-1a.png "Create an email template")
 
-2.	A drop-down appears with the choice to select either **Start with a blank template** or **Start with existing templates**.
-
-![How to create an email template](media\email-how-to-create-an-email-template-1.png "How to create an email to a template")
-
-### Start with existing templates
-If you select to **Start with existing templates**, it will automatically be populated with the pre-established meta-data from the existing template that you can customize. 
-
-When the **Create a new email template** screen appears:
-
-1.	You can either **search** for a template or browse through the list and select it. The search does not support regular expressions and it works on the template name only.
-
-  A list of available **Email templates** will display in a window that displays a list of all out-of-the-box email templates (global and entity specific), in alphabetical order. Global templates are shown as the type User. If you've created a custom email template, it will also be available here. 
-
-2.	When you select an email template, a **Details** field that provides a preview on the right side of the window. The preview shows you the content so you can pick the template that best meets your needs. After inserting an email template, you can modify the content as needed.
-
-3.	**Select** to apply template to insert the content in the email.
-
-> [!Important]
-> As you begin working in the new environment, do not edit your templates in the old legacy web client; otherwise you will lose your inline images and strip some of the advanced formatting and functionality.
-
-![Start with existing templates](media\email-start-with-existing-templates-1.png "Start with existing templates")
-
-When you have selected an existing template, it will display as follows:
-
-- The new template you created from the existing template will display with a **– Copy** at the end of the template name to identify it is a copy of an existing template.
-
-- All of the data is carried over, which you can edit and modify.
-
-![Creating email template copies](media\email-template-copy-1.png "Creating email template copies")
+   - When you select **New** from the  **Email Templates** command bar a drop-down list appears with the option to **Start with a blank template** or **Start with existing templates**.
 
 ### Start with a blank template option
 
-If you select to **Start with a blank template** you will need to build and add all the data to the template.
+When you **Start with a blank template** you will need to build and add all the data to the template.
 
-When the **Create an email template** screen appears:
+The following screen appears when you **Create an email template**:
 
-1.	Enter the **Template name** you want to save your new template as.
+   ![Start with a blank template option](media\email-create-an-email-template-1a.png "Start  with a blank template option")
 
-2.	Enter a **Permission level** to share with the **Organization** or just use as an **Individual**.
+Legend 
+   1. **Template name**. Assign your email template a detailed name you want to save for future use.
+   2. **Permission level**. You can share the template you create with your **Organization** or as  **Individual** for personal use.
+   3. **Category**. The default for this field is set to **User**.
+   4. **Language**. You can display your installed language packs in this field. **Language** also helps to categorize your templates. 
+   5. **Create**. Once an email is formatted, you can create it to a template.
 
-3.	Select a **Category type**. The default is set to **User**.
+#### New customer template overview
 
-4.	**Language** displays your installed language packs. **Language** helps to categorize your templates. 
+When you create a **New Customer Template**, the following example page displays that allows you to make edits. 
 
-5.	When you are finished, select **Create**.
+   ![New Customer Template](media\email-new-customer-template-1c.png "New Customer Template")
 
-![Start with a blank template option](media\email-create-an-email-template-1.png "Start with a blank template option")
+Legend 
+   1. **New Attachments**. Allows you to include attachments to your template. 
+   2. **Subject**. Allows you to change the subject line.
+   3. **Insert dynamic text**. Allows you to use dynamic text in both the Subject line and body of the email.
 
-When you create a **New Customer Template**, it displays in a page that allows you to make edits, such as: 
+### Start with existing templates
 
-- Add a **Subject** field.
+**Start with existing templates** will automatically be populated with the pre-established meta-data from the existing template that you can customize. 
 
-- Add **New Attachments** if you would like to include files.
+#### Create a new email template overview
 
-- **Insert dynamic text** both for the Subject line and body of the email.
+The following **Create a new email template** screen appears, which allows you to customize your template
 
-![New Customer Template](media\email-new-customer-template-1.png "New Customer Template")
+  ![Start with existing templates](media\email-start-with-existing-templates-1a.png "Start with existing templates")
+
+   Legend
+   1. **Search**. Allows you to search for templates. Search does not support regular expressions and it works on the template name only.
+   2. **Browse**. Allows you to browse through out-of-the-box email templates. A list of available out-of-the-box email templates (global and entity specific) will display in alphabetical order. Global templates are shown as the type User. If you've created a custom email template, it will also be displayed here. 
+   3. **Details**. Allows you to preview the email template.  When you select an email template, you can preview the content so you can pick the template that best meets your needs. After inserting an email template, you can modify the template content as needed.
+   3. **Select**. Allows you to insert the template content into your email.
+
+      > [!Important] 
+      > When you begin working in the new environment, do not edit your templates in the old legacy web client; otherwise you will lose your inline images and strip out some of the advanced formatting and functionality.
+
+### Working with existing templates
+
+When you select an existing template, the following display appears:
+
+   ![Creating email template copies](media\email-template-copy-1a.png "Creating email template copies")
+
+   - **Name**. The new template you created from the existing template will display **– Copy** at the end of the template name to identify it is a copy of an existing template.
+   - **Template Editor**. All of the data is carried over from the existing template which can be edited and modify.
+
+## How to convert an email to a template
+When you have composed an email that you would like to reuse with other customers, you can convert it to an email template to use in the future.
+
+### Convert an email into a template 
+
+   ![How to convert an email to a template](media\email-how-to-insert-an-email-template-1c.png "How to convert an email to a template")
+
+   When you have composed and formatted an email message that you would like to save as template, select the downward-facing caret (v) next to **Insert Template** and select **Convert to an email template** from the drop-down list.
+
+#### Convert an email to a template overview
+The following window will display with a list you can customize.
+
+   ![How to convert an email to a template](media\email-how-to-insert-an-email-template-1d.png "How to convert an email to a template")
+
+Legend 
+   1. **Template name**. Assign your email template a detailed name you want to save for future use.
+   2. **Permission level**. You can share the template you create with your **Organization** or as  **Individual** for personal use.
+   3. **Category**. The default for this field is set to **User**.
+   4. **Language**. You can display your installed language packs in this field. **Language** also helps to categorize your templates. 
+   5. **Convert**. Once an email is formatted, you can convert it to an email template.
 
 ## Working with email templates
 
 ### View an email template
-You can see a complete list of all the email templates you created.  
 
-To view your email signatures:
+You can view a complete list of all the email templates you have created by: 
 
-1.	Under the **Templates** section, select **Email templates**.
-
-2.	**All Email Templates** is displayed, which allows you to edit and update.
-
-![Working with email templates](media\email-view-an-email-templates-1.png "Working with email templates")
+- Go to the **Templates** section on the left nav 
+- Select **Email templates**
+- A list of **All Email Templates** is displayed, which you can edit and update.
 
 ### How to insert dynamic text in an email template form
 
-1.	When you **Add data fields**, it adds **Record type** and **Field name** fields below. You can add as many data fields you want.
+   ![How to insert dynamic text in an email template form](media\email-how-to-insert-dynamic-text-1a.png "How to insert dynamic text in an email template form")
 
-2.	You can then customize the **Record type**. 
+   Legend 
+   1. **Add data fields**. When you add data fields, the template adds **Record type** and **Field name** fields below. You can add as many data fields you want.
+   2. **Record type**. You can then customize the record types. Default is set to account.
+   3. **Field name**. You can customize the field names. Default is set to account name.
+   4. **More Commands**. The **More commands** ![More commands icon](media\timeline-more-commands-icon.png "more commands icon") icon allows you to edit the order of the record types using the **Move Up** or **Move down** functionality to align records in a customized order.
+   5. **Default text**. Allows you to select the style of text for the subject and body of your email template. If no text is selected, it will display using the default text.
+   6. **Insert**. When done this command inserts and saves your form.
 
-3.	You can customize the **Field name**.
+      > [!Note] 
+      > If you click in an area on the form that does not support dynamic text, it displays **Unable to insert**.
 
-4.	**Set Default** text for the subject and body. If no text is selected, it will display using the default text.
-
-5.	The **More Commands** ![More commands icon](media\timeline-more-commands-icon.png "more commands icon") icon allows you to edit the order of the record types.
-
-6.	Use the **Move Up** or **Move down** to align records in a customized order.
-
-7.	Select **Insert** to save the form.
-
-> [!Note] 
-> If you click in an area on the form that does not support dyanmic text, it displays **Unable to insert**.
-
-![How to insert dynamic text in an email template form](media\email-how-to-insert-dynamic-text-1.png "How to insert dynamic text in an email template form")
-
-For more information on creating email templates and configurations, see [Create templates for email](https://docs.microsoft.com/power-platform/admin/create-templates-email).
+   For more information on creating email templates and configurations, see [Create templates for email](https://docs.microsoft.com/power-platform/admin/create-templates-email).
 
 ## How to attach a file to email
-Having the ability to attach file(s) to a message is one of the most useful features of email. 
 
-You can attach a file using one of the two options:
+Having the ability to attach file(s) to a message is one of the most useful features of email. You can attach a file using one of the two ways:
 
--	Use **Attach file** to add a file to your email.
+   ![How to attach a file to email](media\email-how-to-attach-file-to-email-1a.png "How to attach a file to email")
 
--	Add ![Attachment icon](media\email-new-attachment-icon.png "new attachment") **New Attachments** using the drag-and-drop or copy-and-paste functionality. 
+   1. **Attach file**. Located in the top nav bar, **Attach file** allows you to do file attachments.
+   2. **New Attachments**. Located above the rich text editor, the **New Attachments** ![](media\email-new-attachment-icon.png "new attachment") icon allows you to use drag-and-drop or copy-and-paste functionality. 
 
-> [!Note] 
-> When you save your email, you can use **Attach file** and **New Attachments** interchangeably.
+      > [!Note] 
+      > Once you save your email, you can use **Attach file** and **New Attachments** interchangeably.
 
-> [!Important] 
-> The default file size limit for an email file attachment is 5 MB. The size limitations on email file attachments can be increased by your system administrators. 
-
-![How to attach a file to email](media\email-how-to-attach-file-to-email-1.png "How to attach a file to email")
+      > [!Important] 
+      > The default file size limit for an email file attachment is 5MB. The size limitations on email file attachments can be increased by your system administrators. 
 
 ### Work with attachments
+
 You can attach an unlimited number of files to an email; however, there are file size limitations that are managed by your system administrator. 
 
-The **Enhanced Email** is the default form; however, you can easily switch forms by doing the following:
+**Enhanced email** is the default email form, however you can switch forms by doing the following:
 
-1.	In your email, just under the email subject name, click on the caret next to **Email** (V).
-2.	A drop-down appears with a list of email form options you can choose from.
-
-![Work with attachments](media\email-work-with-attachments-1.png "Work with attachments")
+   ![Work with attachments](media\email-work-with-attachments-1a.png "Work with attachments")
+   
+   1. Under the email subject name, click on the caret (v) next to **Email**
+   2.	A drop-down appears with a list of email form options you can choose from.<BR><BR>
 
 File attachments display differently, depending on the email form you are working in. You can switch email forms without losing information.
 
-The **Email form** is displayed as follows:
+#### Email form file attachment
 
--	The display confirms which email form you are working in. 
+   ![Work with attachments](media\email-work-with-attachments-2a.png "Work with attachments")
 
--	The **Attachment** section displays a list of file attachments in a vertical view and only displays the first three attachments.
+   1. **Email**. This display confirms which email form you are working in. 
+   2. **Attachment**. This section displays a list of file attachments in a vertical view and only displays the first three attachments.
+   3. **File count**. This displays when you have more files than what can be viewed and allows you to see the total number of attached files on the left side under the last attachment with the option to page over to see more images.
 
--	**File count** displays when you have more files than what can be viewed and allows you to see the total number of attached files on the left side under the last attachment with the option to page over to see more images.
+#### Enhanced Email form file attachment
+   ![Work with attachments](media\email-work-with-attachments-13b.png "Work with attachments")
 
-![Work with attachments](media\email-work-with-attachments-2.png "Work with attachments")
-
-**Enhanced Email form** file attachment view is laid out as follows:
-
--	**Enhanced Email** confirms you are working out of the **Enhanced Email** form.
-
--	**Attached files** are displayed in a tile view above your message horizontally. The defaulted setting displays five file attachments before displaying the page forward functionality.
-
--	**File count** displays when you have files that occupy more than two rows and allows you to see the total number of attached files on the left side under the last attachment they the option to page over to see more images.
-
--	**Attachment Commands** allow you to select, select all, sort, delete, and download.
-
-![Work with attachments](media\email-work-with-attachments-3.png "Work with attachments")
+   1. **Enhanced Email**. This display confirms you are working in the **Enhanced email** form.
+   2. **Attached files**. This section displays all your email  attachments in a tile view above your message horizontally. The defaulted setting for the maximum number of files that can display is five attachments before displaying the page forward functionality.
+   3. **File count**. This displays when you have files that occupy more than two rows and allows you to see the total number of attached files on the left side under the last attachment they the option to page over to see more images.
+   4. **Attachment Commands**. This allow you to use the select, select all, sort, delete, and download functionality when working with your file attachments.  
 
 ### Working with the attachment command bar
 When you’ve attached one or more files to a message, you can manage them using the file attachment commands.  
 
 ### Select commands
 
-The **Select** command allows you to select individual files or multiple files at once.
+Select commands allow you to select individual files or multiple files at once.
 
--	**Select All command** is located on the right, above your attached files.
+   ![Working with the attachment command bar](media\email-working-with-the-attachment-command-bar-11a.png "Working with the attachment command bar")
 
--	When you use **Select All**, it highlights all of the selected files.
+   Legend
+   1. **Select All**. This command is located on the right, above your attached files and allows you to select all file attachments at once. 
 
--	You can verify which files have been selected by viewing whether the checkbox in the top-right corner of the file attachment is selected. 
+      > [!Note] 
+      > **Select All** only selects files that are visible. If you have multiple pages of file attachments, you will need to go to that page and select those files independently.
 
-> [!Note] 
-> **Select All** only selects the files that are visible. If you have multiple pages of file attachments, you will need to go to that page and select those files independently.     
+   2. **Tile Color Transparency**. The background color of selected file attachments changes to light grey to identify which files have been selected.
+   3. **Check box** You can also verify which files have been selected by viewing whether the checkbox in the top-right corner of the file attachment is selected. 
 
-![Working with the attachment command bar](media\email-working-with-the-attachment-command-bar-1.png "Working with the attachment command bar")
+Formatting of file attachments in email can be realign based on the device being used and format it is being worked in.
 
-Formatting of file attachments in email can realign based on the device it’s being viewed on and the format it is being worked in.
+  ![Working with the attachment command bar](media\email-working-with-the-attachment-command-bar-12a.png "Working with the attachment command bar")
 
-- Regardless of format display, file attachments will only display the number of files that are enabled by your system administrator.
+   1. **Format Display** Regardless of format display, file attachments will only display the number of files that are enabled by your system administrator.
+   2. **Page view**. The page view displays the total number of email attachments and always is displayed under the file attachments. 
 
-=	Page view functionality that provides the total number of email attachments will always display under the files. 
-
-![Working with the attachment command bar](media\email-working-with-the-attachment-command-bar-2.png "Working with the attachment command bar")
-
-#### Delete and download commands
+### Delete and download commands
 These are two of the most important commands when working with images. 
 
--	The **Delete** command works with the **Select** commands. You must first select a file before you can delete it. A confirmation request appears, requiring you to confirm whether you want to delete the file(s) you’ve selected.
--	The **Download** command also works with the **Select** commands and your browser download settings, allowing you to download an individual file or multiple files at once.  
+   ![Working with the attachment command bar](media\email-working-with-the-attachment-command-bar-13a.png "Working with the attachment command bar")
 
-![Working with the attachment command bar](media\email-working-with-the-attachment-command-bar-3.png "Working with the attachment command bar")
+   1. **Delete**. This command works with the **Select** commands. You must first select a file before you can delete it. A confirmation request appears, requiring you to confirm you want to delete the file(s) you’ve selected.
+   2. **Download**. This command also works with the **Select** commands and your browser download settings, allowing you to download an individual file or multiple files at once.  
 
 ### How to preview images attachments
 
-Use the following commands to preview attached images:
+   ![How to preview images attachments](media\email-how-to-preview-images-attachments-11a.png "How to preview images attachments")
 
--	**More options** command provides a list of actions for that file type.
-
--	**Non-preview image** types only allow you to either download or delete the attached file.
-
--	**Preview image types** allow you to **preview, download,** or **delete** the attached file. When you select the **preview** option, a pop-up window appears, displaying the image with the image name listed below.
-
-![How to preview images attachments](media\email-how-to-preview-images-attachments-1.png "How to preview images attachments")
+   1. **More options**. This command provides a list of actions for that file type.
+   2. **Non-preview image**. Only non-preview image types allow you to either **export selected records**, **download**, or **delete** the attached file.
+   3. **Preview image types**. Allow you to **export selected record**, **preview**, **download**, or **delete** the attached file. When you select the **preview** option, a pop-up window appears, displaying the image with the image name listed below.
 
 ### Supported email file attachments
 The following is a list of file image types that are supported:
@@ -486,18 +454,18 @@ The following is a list of file image types that are supported:
 |PDF.pdf     | Yes (preview not supported on IE) | No         |
 
 ## How to view and insert images in email
+
 The use of visual aids helps users convey a tremendous amount of information with just a glance. Having the ability to view and insert inline images in email using the drag-and-drop or copy-and-paste functionality is a very powerful tool for users.  
 
-When you drag-and-drop or copy and paste the image into the email:
+You can drag-and-drop or copy-and-paste images into the email.
 
-1.	You can adjust the image size.  
+   ![How to view and insert images in email](media\email-how-to-view-and-insert-images-in-email-1b.png "How to view and insert images in email")
 
-2.	When you have completed your edits, select **Save** or **Save & Close**.
+   1. **Email images** You can adjust the image size.  
+   2. **Save**. When you complete your edits, select **Save** or **Save & Close**.
 
-> [!Note]
-> There is a 1 MB file size limitation when adding an inline image to an email.
-
-![How to view and insert images in email](media\email-how-to-view-and-insert-images-in-email-1.png "How to view and insert images in email")
+      > [!Note]
+      > There is a 1 MB file size limitation when adding an inline image to an email.
 
 ## How to create a signature for emails and queues
 Email signatures are an important and valuable tool for users. Email signatures are like electronic business cards you include when you send an email, and can promote professional branding for your company.  
@@ -505,55 +473,48 @@ Email signatures are an important and valuable tool for users. Email signatures 
 ### How to add an email signature
 Adding an email signature is easy and can be done at any point while you are composing an email.
 
-To add an email signature:
-
-1.	On the command bar, select **Insert Signature**.
-   The **Insert Signature** page is displayed.
-   
-2.	From the drop-down list, select an existing signature or select **New Email Signature** to create one.
-
-![How to add an email signature](media\email-how-to-add-an-email-signature-1.png "How to add an email signature")
+#### Add an email signature
+- On the command bar, select **Insert Signature**.  
+- From the drop-down list, select an existing signature or select **New Email Signature**.<BR>
+![How to add an email signature](media\email-how-to-add-an-email-signature-1a.png "How to add an email signature")
 
 ### How to create an email signature
 You can quickly create an email signature at any point while you are composing an email.
 
-When you select **New Email Signature**
+#### New Email Signature
 
-1.	In the **Details** section, enter the name of the email signature.
+You can add a new email signature by:
 
-2.	In the **Signature editor**, create your email signature.
+   ![Manage email signature lists](media\email-how-to-create-an-email-signature-1b.png "Manage email signature lists")
 
-3.	When you are finished, select **Save**.
+   1. **Details** in this section, enter the name of the email signature.
+   2. **Signature editor**. This allows you to create your email signature and **Save** when finished. 
 
-![How to create an email signature](media\email-how-to-create-an-email-signature-1.png "How to create an email signature")
-
-> [!Note] 
-> You can include inline images, such as a business logo, in an email signatures, as long as they are under 1 MB in size.
+      > [!Note] 
+      > You can include inline images, such as a business logo, in an email signatures, as long as they are under 1 MB in size.
 
 ### Manage email signature lists
 
-To view the list of email signatures you have created:
+You can view and manage email signatures you have created to make edits, change default, and who can view your signatures.
 
-1.	Under **Templates** section, select **Email signatures**.
-    **My Email Signatures** displays, showing all you email signatures you can edit and update.
-    
-2.	Select your default signature for email. Only one signature per user can be set as **Is Default**.
+   ![Manage email signature lists](media\email-manage-email-signature-lists-11a.png "Manage email signature lists")
 
-    Email signatures can only be **Viewable By** the user.
-
-![Manage email signature lists](media\email-manage-email-signature-lists-1.png "Manage email signature lists")
+   Legend
+   1. Under **Templates** select **Email signatures**.
+   2. **My Email Signatures** list displays, showing all your email signatures you can edit and update.
+   3. You can select a default signature for email. Only one signature per user can be set as **Is Default**. 
+   4. Email signatures can only be **Viewable By** the individual user.
 
 ### Change email signature default setting
 While you can create multiple email signatures depending on you needs, only one can be set as your default email.   
 
-To change your default email signature setting:
-1.	Select the email signature you want to set as default. This will change the command bar to display **Edit**.
+   ![Change email signature default setting](media\email-change-email-signature-default-setting-1a.png "Change email signature default setting")
 
-2.	Select **Edit**.
-    A new page opens, where you can update the email default setting. While you are on this page, you can also delete one or multiple email signatures just by selecting them.
-
-![Change email signature default setting](media\email-change-email-signature-default-setting-1.png "Change email signature default setting")
+   To change your default email signature setting:
+   1. Select the email signature you want to set as default. This will change the command bar to display **Edit**.
+   2. Select **Edit**. A new page opens, where you can update the email default setting. While you are on this page, you can also delete one or multiple email signatures just by selecting them.
 
 ### See Also
 
-[Email FAQs](email-faqs.md)
+[Configure email](https://go.microsoft.com/fwlink/p/?linkid=2142941)  
+[Email FAQs](email-faqs.md)  

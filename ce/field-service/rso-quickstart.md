@@ -1,5 +1,5 @@
 ---
-title: "QuickStart for Resource Scheduling Optimization (RSO) | MicrosoftDocs"
+title: "QuickStart for Resource Scheduling Optimization | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 08/22/2019
@@ -26,15 +26,15 @@ search.app:
   - D365FS
 ---
 
-# Quickstart for Resource Scheduling Optimization (RSO)
+# Quickstart for Resource Scheduling Optimization
 
-Resource Scheduling Optimization (RSO) automatically schedules work orders, cases, opportunities, and even custom entities to the resources that are most available and best qualified. Many field service organizations that perform work orders on site at their customers' locations benefit from automatic scheduling because it optimizes the routes and travel times of field technicians as they travel from work order to work order.
+Resource Scheduling Optimization automatically schedules work orders, cases, opportunities, and even custom entities to the resources that are most available and best qualified. Many field service organizations that perform work orders on site at their customers' locations benefit from automatic scheduling because it optimizes the routes and travel times of field technicians as they travel from work order to work order.
 
 In this quickstart, we will configure RSO to schedule and optimize a group of work orders to a predefined list of resources (field technicians). We will do this by setting up a scope, goal, and schedule that will run once a day to schedule work orders in the Washington state service territory to resources in that territory up to 48 hours in advance to minimize travel time. 
 
 For a guided walkthrough, see the following video.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ylx7
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ylx7]
 
 > [!Note]
 > For additional Field Service videos, see [this full playlist](https://aka.ms/fs-videos).
@@ -43,7 +43,7 @@ For a guided walkthrough, see the following video.
 
 - The images and definitions in this quickstart reflect **Field Service v8.7** and **RSO v3.0**.
 
-- This quickstart assumes you already have RSO deployed into your Field Service environment. You can do this by first purchasing a Field Service license and then purchasing a Resource Scheduling Optimization (RSO) license in the "Purchase Services" section of Office 365. For more details, visit the topic on [Deployment of the Resource Scheduling Optimization (RSO) solution](rso-deployment.md).
+- This quickstart assumes you already have RSO deployed into your Field Service environment. You can do this by first purchasing a Field Service license and then purchasing a Resource Scheduling Optimization (RSO) license in the "Purchase Services" section of Microsoft 365. For more details, visit the topic on [Deployment of the Resource Scheduling Optimization (RSO) solution](rso-deployment.md).
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of RSO app](media/rso-quickstart-app.png)

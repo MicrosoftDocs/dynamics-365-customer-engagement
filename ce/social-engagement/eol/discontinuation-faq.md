@@ -75,7 +75,7 @@ If customers need to locate their Dynamics 365 (online) billing and subscription
 
 ###	What options do customers have for retrieving their data?
 
-Customer data will be retained for at least 90 days after the expiration of your subscription or January 16, 2020, whichever is earlier. Please submit a support ticket through your Office 365 admin portal if you would like to retrieve a copy of your data.
+Customer data will be retained for at least 90 days after the expiration of your subscription or January 16, 2020, whichever is earlier. Please submit a support ticket through your Microsoft 365 admin portal if you would like to retrieve a copy of your data.
 
 ###	What is the transition path for Microsoft Social Engagement?
 

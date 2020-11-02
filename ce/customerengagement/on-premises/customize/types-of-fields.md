@@ -65,9 +65,9 @@ You can customize forms (main, quick create, and quick view) and email templates
 
 For example, if an organization operates in multiple areas or countries, you can include multiple locations or countries in an ‘Area of operation’ field. A user can then select one or more locations from the list of available values.
 
-Multi-select option set is only available in read-only grids, editable grids, and forms. Multi-select option set is not supported in: 
-- Workflows, Actions, Dialogs, Roll Ups, charts, and Calc fields.
-- Reports, SLA, and Routing Rule.
+Multi-select option sets can be used with read-only grids, editable grids, and most forms. Multi-select option sets can't be used with:
+- Workflows, business process flows, actions, dialogs, business rules, charts, rollup fields, or calculated fields.
+- Reports, SLA, or routing rules.
 
 Multi-select fields are supported in the following types of forms:
 
@@ -144,7 +144,9 @@ More information: [!INCLUDE[proc_more_information](../includes/proc-more-informa
 
   For each currency field you add, another currency field is added with the prefix “_Base” on the name. This field stores the calculation of the value of the currency field you added and the base currency. Again, if this field is added to the form, it can’t be edited.  
 
-  When you configure a currency field you can choose the precision value. There are essentially three options as shown in the following table.  
+  When you configure a currency field you can choose the precision value. There are essentially three options as shown in the following table.
+  > [!NOTE]
+> In the Unified Interface the currency format for a negative value is set by the user settings and does not use the system setting.
 
 |Option|Description|  
 |------------|-----------------|  

@@ -138,7 +138,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Test data to evaluated by a masking rule|
+|Description|Test data evaluated by a masking rule|
 |DisplayName|Masked Test Data|
 |FormatName|TextArea|
 |IsLocalizable|False|

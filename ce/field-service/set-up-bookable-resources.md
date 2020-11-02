@@ -252,7 +252,7 @@ For example, the following screenshot shows a bookable resource with resource ty
 
 After going to the related contact record, you can add an address and then select the geo code button to populate latitude and longitude values that are used as the resource's start and end location for scheduling and routing purposes. This is also the resource's location displayed on the schedule board map.
 
-The process is similar for resources with resource type of Account or User. **Note** that editing a user record address may have to be done in the Office 365 admin center.
+The process is similar for resources with resource type of Account or User. **Note** that editing a user record address may have to be done in the Microsoft 365 admin center.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of geo coding a contact record](media/resource-contact-location-example.png)
@@ -261,6 +261,9 @@ The process is similar for resources with resource type of Account or User. **No
 
 - Only one resource record can be associated to a user record; however, multiple resources can be associated to a single account or contact record. 
 - The start and end location of a resource is used as the resource's location during break hours if a break is configured when working hours are set up for that resource. 
+- The new work hours control is added to the bookable resource out-of-the-box form. But if you have a custom form defined on this entity, you must enable the work hours tab on the form by following these steps:
+  1. Create a tab with name as "workhours." Create a section in it and add the "calendar" field to it.
+  2. Double-click on the calendar field, and change the control to "Work Hour Control." Save and publish the form.
 
 
 ### See also   

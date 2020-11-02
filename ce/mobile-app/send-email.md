@@ -1,7 +1,8 @@
 ---
 title: "Preview: Send email using the Dynamics 365 for phones and tablets app | MicrosoftDocs"
+description: Send email using the Dynamics 365 for phones and tablets app
 ms.custom: 
-ms.date: 08/06/2020
+ms.date: 10/1/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.topic: article
@@ -21,24 +22,16 @@ search.app:
 ---
 
 
-# Preview: Send email using the Dynamics 365 for phones and tablets app
+# Send email using the Dynamics 365 for phones and tablets app
 
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+Use the Dynamics 365 for phones and tablets app to compose an email within the app with the following capabilities:
 
-Until now, you could only read emails using the Dynamics 365 for phones and tablets app. With the early access release of the enhanced email experience in the Dynamics 365 for phones and tablets app, you can compose an email within the app with the following capabilities:
 - Full email editor formatting supported as available in the Unified Interface apps.
 - Add attachments to an email.
 - Search for and apply a predefined template to an email. 
 
 > [!NOTE]
-> - This is an early access feature.
-> - This feature isn't available for mobile offline.
-
-## How to enable this feature?
-
-Your administrator has to opt in to early access updates for your environment and then install the updates to get this feature. More information: [Opt in to early access updates](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates)
- 
-## Use the feature
+> This feature isn't available for mobile offline.
 
 1. You can create emails from home page grid or by using quick create. 
 

@@ -2,10 +2,7 @@
 title: "Add additional filters to a forecast (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Add additional filters to a forecast in Dynamics 365 Sales."
 ms.date: 08/01/2020
-ms.service: 
-  - "dynamics-365-sales"
-ms.custom: 
-  - "dyn365-sales"
+ms.service: dynamics-365-sales
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -49,7 +46,7 @@ For example, you know that opportunities related to **Adatum Corporation** and r
 </td><td>
 
 > [!div class="nextstepaction"] 
-> [Next step: Activate and upload simple columns data](activate-upload-simple-columns-data-forecast.md)
+> [Next step: Configure and manage drill-down entities](configure-manage-drill-downs.md)
 </td></tr>
 </table>
 

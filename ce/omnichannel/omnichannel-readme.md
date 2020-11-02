@@ -4,9 +4,9 @@ description: "Learn about the known issues and limitations in Omnichannel for Cu
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 07/31/2020
+ms.date: 10/15/2020
 ms.service: 
-  - "dynamics-365-customerservice"
+  "dynamics-365-customerservice"
 ms.topic: article
 ---
 
@@ -18,10 +18,6 @@ The topic explains the known issues and limitations of Omnichannel for Customer 
 
 > [!Important]
 > We recommend updating Omnichannel for Customer Service to the latest version for the best experience. More information: [Upgrade Omnichannel for Customer Service](administrator/upgrade-omnichannel.md)
-
-## Productivity pane is disabled after the upgrade of Omnichannel for Customer Service
-
-If you have enabled the **Productivity pane** in Omnichannel for Customer Service, it'll be disabled after the upgrade. You need to enable it again to be able to provide guidance to agents. For information about enabling the **Productivity pane**, see [Enable productivity pane](administrator/productivity-pane.md).
 
 ## Loss of agent script state
 
@@ -41,7 +37,7 @@ In your entity records channel, if you see an error that states: **You must inst
 
 - If you use Omnichannel for Customer Service in a production environment, go to your Omnichannel for Customer Service provisioning page and install the latest version. If there are no upgrade available, contact Microsoft support.
 
-- If you use Omnichannel for Customer Service preview or trial version, contact Microsoft support.
+- If you use trial version of Omnichannel for Customer Service, contact Microsoft support.
 
 ## Closed conversations don't appear in the Closed work items stream and Closed conversations view
 
@@ -112,19 +108,13 @@ While creating a context variable, the system does not perform duplication detec
 
 When you add a user to a queue, the sub grid doesn’t reflect the new member automatically. You are required to refresh the sub grid by selecting the **Refresh** button to see the new user in the list of queue members.
 
-## Support for third-party channel providers with Omnichannel for Customer Service
-
-If your organization has deployed a third-party channel provider using the Dynamics 365 Channel Integration Framework, and when you use Omnichannel for Customer Service in the same environment, the Channel Integration Framework solution upgrades to version 2.0. With Channel Integration Framework version 2.0, you can integrate only third-party telephony channel providers.
-
-You can continue to use the third-party channel provider in the unified interface apps such as Customer Service Hub, Sales Hub and so on. However, you can't use the third-party channel provider in the Omnichannel for Customer Service app. That is, you should not add the **Omnichannel for Customer Service** app while configuring the app list for in the channel provider.
-
 ## Support for automatic record linking to conversation
 
 While working on a session, after an agent creates a customer (contact/account) or case record using the quick create (+) option in the nav bar, it is not auto-linked to the conversation. As a workaround, the agent can perform an inline search for the newly created record and link it to the conversation.
 
 ## Authentication error for different agent credentials
 
-If an agent is signed in to Office 365 or Common Data Service through a different username in the browser than the one used for signing in to Unified Service Desk, an authentication error is shown and the user is not allowed to sign in. As a workaround, the user should sign out from all other accounts in the browser and try signing back in.
+If an agent is signed in to Microsoft 365 or Common Data Service through a different username in the browser than the one used for signing in to Unified Service Desk, an authentication error is shown and the user is not allowed to sign in. As a workaround, the user should sign out from all other accounts in the browser and try signing back in.
 
 ## Transfer to queue does not show a message for the initiating agent
 

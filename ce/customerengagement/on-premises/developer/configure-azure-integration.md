@@ -3,7 +3,7 @@ title: "Configure Azure integration with Dynamics 365 Customer Engagement (on-pr
 description: "The topic describes configuring Azure integration with Dynamics 365 Customer Engagement (on-premises)."
 ms.custom: 
 ms.date: 05/16/2018
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

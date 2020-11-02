@@ -3,7 +3,7 @@ title: "Customize entity views (Developer Guide for Dynamics 365 Customer Engage
 description: "Learn about customizing the entity views."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
