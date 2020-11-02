@@ -1,6 +1,6 @@
 ---
-title: "msdyn_sessiontemplate Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "Includes schema information and supported messages for the msdyn_sessiontemplate entity."
+title: "msdyn_applicationtabtemplate Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+description: "Includes schema information and supported messages for the msdyn_applicationtabtemplate entity."
 ms.date: 10/21/2020
 ms.service: "crm-online"
 ms.topic: "reference"
@@ -11,44 +11,43 @@ author: "JimDaly"
 ms.author: "jdaly"
 manager: "jdaly"
 ---
-# msdyn_sessiontemplate Entity Reference
+# msdyn_applicationtabtemplate Entity Reference
 
 **Added by**: App profile manager Solution
-
 
 ## Messages
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.0/msdyn_sessiontemplates(*msdyn_sessiontemplateid*)|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/msdyn_sessiontemplates|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_sessiontemplates(*msdyn_sessiontemplateid*)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Assign|PATCH [*org URI*]/api/data/v9.0/msdyn_applicationtabtemplates(*msdyn_applicationtabtemplateid*)|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Create|POST [*org URI*]/api/data/v9.0/msdyn_applicationtabtemplates|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_applicationtabtemplates(*msdyn_applicationtabtemplateid*)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 |IsValidStateTransition|<xref href="Microsoft.Dynamics.CRM.IsValidStateTransition?text=IsValidStateTransition Function" />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 |ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_sessiontemplates(*msdyn_sessiontemplateid*)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_sessiontemplates|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_applicationtabtemplates(*msdyn_applicationtabtemplateid*)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_applicationtabtemplates|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
 |RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
 |RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_sessiontemplates(*msdyn_sessiontemplateid*)|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_sessiontemplates(*msdyn_sessiontemplateid*)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_applicationtabtemplates(*msdyn_applicationtabtemplateid*)|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_applicationtabtemplates(*msdyn_applicationtabtemplateid*)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
 |Property|Value|
 |--------|-----|
-|CollectionSchemaName|msdyn_sessiontemplates|
-|DisplayCollectionName|Session Templates|
-|DisplayName|Session Template|
-|EntitySetName|msdyn_sessiontemplates|
+|CollectionSchemaName|msdyn_applicationtabtemplates|
+|DisplayCollectionName|Application Tab Templates|
+|DisplayName|Application Tab Template|
+|EntitySetName|msdyn_applicationtabtemplates|
 |IsBPFEntity|False|
-|LogicalCollectionName|msdyn_sessiontemplates|
-|LogicalName|msdyn_sessiontemplate|
+|LogicalCollectionName|msdyn_applicationtabtemplates|
+|LogicalName|msdyn_applicationtabtemplate|
 |OwnershipType|UserOwned|
-|PrimaryIdAttribute|msdyn_sessiontemplateid|
+|PrimaryIdAttribute|msdyn_applicationtabtemplateid|
 |PrimaryNameAttribute|msdyn_name|
-|SchemaName|msdyn_sessiontemplate|
+|SchemaName|msdyn_applicationtabtemplate|
 
 <a name="writable-attributes"></a>
 
@@ -58,17 +57,13 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [IsCustomizable](#BKMK_IsCustomizable)
-- [msdyn_anchortab](#BKMK_msdyn_anchortab)
-- [msdyn_description](#BKMK_msdyn_description)
-- [msdyn_enablebuildexpression](#BKMK_msdyn_enablebuildexpression)
-- [msdyn_entity](#BKMK_msdyn_entity)
-- [msdyn_expressiondata](#BKMK_msdyn_expressiondata)
+- [msdyn_applicationtabtemplateId](#BKMK_msdyn_applicationtabtemplateId)
+- [msdyn_Description](#BKMK_msdyn_Description)
 - [msdyn_name](#BKMK_msdyn_name)
-- [msdyn_panelstate](#BKMK_msdyn_panelstate)
-- [msdyn_sessiontemplateId](#BKMK_msdyn_sessiontemplateId)
-- [msdyn_sessiontype](#BKMK_msdyn_sessiontype)
+- [msdyn_pagetype](#BKMK_msdyn_pagetype)
+- [msdyn_pinned](#BKMK_msdyn_pinned)
+- [msdyn_templateparameters](#BKMK_msdyn_templateparameters)
 - [msdyn_title](#BKMK_msdyn_title)
-- [msdyn_Type](#BKMK_msdyn_Type)
 - [msdyn_UniqueName](#BKMK_msdyn_UniqueName)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [OwnerId](#BKMK_OwnerId)
@@ -113,25 +108,25 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|ManagedProperty|
 
 
-### <a name="BKMK_msdyn_anchortab"></a> msdyn_anchortab
+### <a name="BKMK_msdyn_applicationtabtemplateId"></a> msdyn_applicationtabtemplateId
 
 |Property|Value|
 |--------|-----|
-|Description||
-|DisplayName|Anchor Tab|
-|IsValidForForm|True|
+|Description|Unique identifier for entity instances|
+|DisplayName|Application Tab Template|
+|IsValidForForm|False|
 |IsValidForRead|True|
-|LogicalName|msdyn_anchortab|
-|RequiredLevel|None|
-|Targets|msdyn_applicationtabtemplate|
-|Type|Lookup|
+|IsValidForUpdate|False|
+|LogicalName|msdyn_applicationtabtemplateid|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
 
 
-### <a name="BKMK_msdyn_description"></a> msdyn_description
+### <a name="BKMK_msdyn_Description"></a> msdyn_Description
 
 |Property|Value|
 |--------|-----|
-|Description|Description of the session.|
+|Description|Description of the application tab.|
 |DisplayName|Description|
 |Format|Text|
 |IsLocalizable|True|
@@ -143,70 +138,11 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Memo|
 
 
-### <a name="BKMK_msdyn_enablebuildexpression"></a> msdyn_enablebuildexpression
-
-**Added by**: Agent scripts Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Unique value to enable or disable build expression|
-|DisplayName|Enable build expression|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_enablebuildexpression|
-|RequiredLevel|None|
-|Type|Boolean|
-
-#### msdyn_enablebuildexpression Options
-
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
-
-**DefaultValue**: False
-
-
-
-### <a name="BKMK_msdyn_entity"></a> msdyn_entity
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName|Entity|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_entity|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_expressiondata"></a> msdyn_expressiondata
-
-**Added by**: Agent scripts Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Stores expression JSON|
-|DisplayName|Expression data|
-|Format|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_expressiondata|
-|MaxLength|1048576|
-|RequiredLevel|None|
-|Type|Memo|
-
-
 ### <a name="BKMK_msdyn_name"></a> msdyn_name
 
 |Property|Value|
 |--------|-----|
-|Description|The name of the session.|
+|Description|The name of the custom entity.|
 |DisplayName|Name|
 |FormatName|Text|
 |IsLocalizable|True|
@@ -218,70 +154,76 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|String|
 
 
-### <a name="BKMK_msdyn_panelstate"></a> msdyn_panelstate
-
-**Added by**: Channel Integration Framework version 2.0 Solution
+### <a name="BKMK_msdyn_pagetype"></a> msdyn_pagetype
 
 |Property|Value|
 |--------|-----|
-|Description||
-|DisplayName|Communication panel mode|
+|Description|Type of the application.|
+|DisplayName|Page Type|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_panelstate|
+|LogicalName|msdyn_pagetype|
 |RequiredLevel|ApplicationRequired|
 |Type|Picklist|
 
-#### msdyn_panelstate Options
+#### msdyn_pagetype Options
 
 |Value|Label|
 |-----|-----|
-|162450000|Minimized|
-|162450001|Hidden|
-|162450002|Docked|
+|509180000|Entity List|
+|509180001|Entity Record|
+|509180002|Web Resource|
+|509180003|Control|
+|509180004|Dashboard|
+|509180005|Search|
+|509180006|Third Party Website|
 
 
 
-### <a name="BKMK_msdyn_sessiontemplateId"></a> msdyn_sessiontemplateId
-
-|Property|Value|
-|--------|-----|
-|Description|Unique identifier for entity instances|
-|DisplayName|Session Template|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|IsValidForUpdate|False|
-|LogicalName|msdyn_sessiontemplateid|
-|RequiredLevel|SystemRequired|
-|Type|Uniqueidentifier|
-
-
-### <a name="BKMK_msdyn_sessiontype"></a> msdyn_sessiontype
+### <a name="BKMK_msdyn_pinned"></a> msdyn_pinned
 
 |Property|Value|
 |--------|-----|
-|Description||
-|DisplayName|Type|
+|Description|Whether this tab can be closed|
+|DisplayName|Can close|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_sessiontype|
-|RequiredLevel|ApplicationRequired|
-|Type|Picklist|
+|LogicalName|msdyn_pinned|
+|RequiredLevel|None|
+|Type|Boolean|
 
-#### msdyn_sessiontype Options
+#### msdyn_pinned Options
 
 |Value|Label|
 |-----|-----|
-|0|Generic|
-|1|Entity|
+|1|No|
+|0|Yes|
 
+**DefaultValue**: False
+
+
+
+### <a name="BKMK_msdyn_templateparameters"></a> msdyn_templateparameters
+
+|Property|Value|
+|--------|-----|
+|Description|A JSON string with all pageType parameters with template values provided.|
+|DisplayName|Template Parameters|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_templateparameters|
+|MaxLength|2048|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_title"></a> msdyn_title
 
 |Property|Value|
 |--------|-----|
-|Description|Title of the session.|
+|Description|Title of the application tab.|
 |DisplayName|Title|
 |FormatName|Text|
 |IsLocalizable|True|
@@ -291,29 +233,6 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |MaxLength|200|
 |RequiredLevel|None|
 |Type|String|
-
-
-### <a name="BKMK_msdyn_Type"></a> msdyn_Type
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName|msdyn_Type|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_type|
-|RequiredLevel|ApplicationRequired|
-|Type|Boolean|
-
-#### msdyn_Type Options
-
-|Value|Label|
-|-----|-----|
-|1|Entity|
-|0|Generic|
-
-**DefaultValue**: False
-
 
 
 ### <a name="BKMK_msdyn_UniqueName"></a> msdyn_UniqueName
@@ -384,7 +303,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Status of the Session Template|
+|Description|Status of the Application Tab Template|
 |DisplayName|Status|
 |IsValidForCreate|False|
 |IsValidForForm|True|
@@ -406,7 +325,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Reason for the status of the Session Template|
+|Description|Reason for the status of the Application Tab Template|
 |DisplayName|Status Reason|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -477,7 +396,6 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 - [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
 - [ModifiedOnBehalfByName](#BKMK_ModifiedOnBehalfByName)
 - [ModifiedOnBehalfByYomiName](#BKMK_ModifiedOnBehalfByYomiName)
-- [msdyn_anchortabName](#BKMK_msdyn_anchortabName)
 - [OverwriteTime](#BKMK_OverwriteTime)
 - [OwnerIdName](#BKMK_OwnerIdName)
 - [OwnerIdYomiName](#BKMK_OwnerIdYomiName)
@@ -792,22 +710,6 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Type|String|
 
 
-### <a name="BKMK_msdyn_anchortabName"></a> msdyn_anchortabName
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|msdyn_anchortabname|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
 ### <a name="BKMK_OverwriteTime"></a> OverwriteTime
 
 **Added by**: Basic Solution Solution
@@ -955,52 +857,55 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|None|
 |Type|BigInt|
 
-<a name="manytoone"></a>
+<a name="onetomany"></a>
 
-## Many-To-One Relationships
+## One-To-Many Relationships
 
-Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related entity. Listed by **SchemaName**.
+Listed by **SchemaName**.
+
+- [msdyn_applicationtabtemplate_sessiontemplate_anchortab](#BKMK_msdyn_applicationtabtemplate_sessiontemplate_anchortab)
+- [msdyn_applicationtabtemplate_templateparameter](#BKMK_msdyn_applicationtabtemplate_templateparameter)
 
 
 ### <a name="BKMK_msdyn_applicationtabtemplate_sessiontemplate_anchortab"></a> msdyn_applicationtabtemplate_sessiontemplate_anchortab
 
-See msdyn_applicationtabtemplate Entity [msdyn_applicationtabtemplate_sessiontemplate_anchortab](msdyn_applicationtabtemplate.md#BKMK_msdyn_applicationtabtemplate_sessiontemplate_anchortab) One-To-Many relationship.
+Same as msdyn_sessiontemplate entity [msdyn_applicationtabtemplate_sessiontemplate_anchortab](msdyn_sessiontemplate.md#BKMK_msdyn_applicationtabtemplate_sessiontemplate_anchortab) Many-To-One relationship.
+
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_sessiontemplate|
+|ReferencingAttribute|msdyn_anchortab|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|msdyn_applicationtabtemplate_sessiontemplate_anchortab|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
+
+
+### <a name="BKMK_msdyn_applicationtabtemplate_templateparameter"></a> msdyn_applicationtabtemplate_templateparameter
+
+Same as msdyn_templateparameter entity [msdyn_applicationtabtemplate_templateparameter](msdyn_templateparameter.md#BKMK_msdyn_applicationtabtemplate_templateparameter) Many-To-One relationship.
+
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_templateparameter|
+|ReferencingAttribute|msdyn_applicationtabtemplateid|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|msdyn_applicationtabtemplate_templateparameter|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
+
 <a name="manytomany"></a>
 
 ## Many-To-Many Relationships
 
-Relationship details provided where the msdyn_sessiontemplate entity is the first entity in the relationship. Listed by **SchemaName**.
-
-- [msdyn_sessiontemplate_applicationtab](#BKMK_msdyn_sessiontemplate_applicationtab)
-- [msdyn_appconfiguration_sessiontemplate](#BKMK_msdyn_appconfiguration_sessiontemplate)
+Relationship details provided where the msdyn_applicationtabtemplate entity is the first entity in the relationship. Listed by **SchemaName**.
 
 
 ### <a name="BKMK_msdyn_sessiontemplate_applicationtab"></a> msdyn_sessiontemplate_applicationtab
 
-IntersectEntityName: msdyn_sessiontemplate_applicationtab<br />
-#### Entity 1
-
-|Property|Value|
-|--------|-----|
-|IntersectAttribute|msdyn_sessiontemplateid|
-|IsCustomizable|False|
-|LogicalName|msdyn_sessiontemplate|
-|NavigationPropertyName|msdyn_sessiontemplate_applicationtab|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-
-#### Entity 2
-
-|Property|Value|
-|--------|-----|
-|LogicalName|msdyn_applicationtabtemplate|
-|IntersectAttribute|msdyn_applicationtabtemplateid|
-|NavigationPropertyName|msdyn_sessiontemplate_applicationtab|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-
-
-### <a name="BKMK_msdyn_appconfiguration_sessiontemplate"></a> msdyn_appconfiguration_sessiontemplate
-
-See msdyn_appconfiguration Entity [msdyn_appconfiguration_sessiontemplate](msdyn_appconfiguration.md#many-to-many-relationships) Many-To-Many Relationship.
+See msdyn_sessiontemplate Entity [msdyn_sessiontemplate_applicationtab](msdyn_sessiontemplate.md#many-to-many-relationships) Many-To-Many Relationship.
 
 ### See also
 
