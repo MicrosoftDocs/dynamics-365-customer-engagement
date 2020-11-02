@@ -150,7 +150,9 @@
           "Gamification"
         ],
         "linkedin/**.*": [
-          "Dynamics 365"
+          "Dynamics 365",
+          "LinkedIn Sales Navigator",
+          "Sales"
         ],
         "marketing/**.*": [
           "Dynamics 365",          

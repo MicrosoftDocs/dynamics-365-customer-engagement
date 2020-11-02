@@ -8,6 +8,12 @@ ms.topic: article
 author: udaykirang
 ms.author: udag
 manager: shujoshi
+searchScope:
+  - D365-App-msdynce_saleshub
+  - D365-Entity-forecast
+  - D365-UI-*
+  - Dynamics 365
+  - Sales
 ---
 
 # Maintain up-to-date forecast data

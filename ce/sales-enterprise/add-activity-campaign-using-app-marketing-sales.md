@@ -10,6 +10,14 @@ ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
+searchScope:
+  - D365-App-msdynce_saleshub
+  - D365-Entity-Marketing List
+  - D365-Entity-Campaign
+  - D365-Entity-Campaign Activity
+  - D365-UI-Form
+  - Dynamics 365
+  - Sales
 ---
 
 # Add an activity to a campaign using in-app marketing (Sales)
