@@ -38,28 +38,28 @@ When you integrate a Power Virtual Agents bot with Omnichannel for Customer Serv
 
 After the Power Virtual Agents bot is created and configured to work with Omnichannel for Customer Service, you can configure it to hand off conversations to queues in the Omnichannel Administration app. To receive incoming messages, you must add the bot to at least one queue. The bot will use the routing rules that were created at setup. You can change them in the **Work Streams** section of Omnichannel.
 
-**Set up your Power Virtual Agents bot**
+### Set up your Power Virtual Agents bot
 
 1. Connect the bot to Omnichannel for Customer Service and go to the Omnichannel Administration app. For more information, see [Configure seamless and contextual hand-off to Omnichannel for Customer Service](https://docs.microsoft.com/dynamics365/ai/customer-service-virtual-agent/configuration-hand-off-omnichannel).
 
     ![Virtual Agent bot settings](../media/virtual-agent-bot-settings.png)
-    
+
     The bot will appear in Omnichannel for Customer Service.
 
 2. Assign the bot to an existing queue.
-    
+
     ![Virtual Agent bot select queue](../media/virtual-agent-bot-select-queues.png)
 
 3. Click **Done**. Now you're on the bot profile page and you can see that your bot is connected.
-    
+
     ![Virtual Agent bot profile page](../media/virtual-agent-bot-profile.png)
-    
+
     Your bot is ready to accept and respond to customer-initiated conversations.
-    
+
  4. Set escalation rules so the bot can route the queries to the appropriate agent. You can set up escalation rules in one of the following ways:
- 
+
     - **Add the bot to an existing human agent queue:**	If you add the bot to an existing human agent queue, you don’t need to change your existing routing rule. Existing routing rules will send incoming messages to the Power Virtual Agents. When a handoff is triggered, customers will be transferred from the Power Virtual Agents to the human agent according to the escalation routing rules.
-    
+
     - **Create a bot queue and a human agent queue:** If you create two queues, you must create work streams that contain context variables and appropriate routing rules to route the customer queries.
 
 For information about working with queues, see [Work with queues in Omnichannel for Customer Service](queues-omnichannel.md).
@@ -82,7 +82,7 @@ You must use the context variables that were created during setup for the bot to
     > [!div class=mx-imgBorder]
     > ![Virtual Agent work stream routing rules](../media/virtual-agent-work-stream-routing-rule.png "Virtual Agent work stream routing rules")
 
-4.  Create a routing rule for the virtual agent and add it to the work stream.
+4. Create a routing rule for the virtual agent and add it to the work stream.
 
     > [!div class=mx-imgBorder]
     > ![Virtual Agent work stream bot routing rules](../media/virtual-agent-work-stream-routing-rule-bot.png "Virtual Agent work stream bot routing rules")
@@ -102,7 +102,7 @@ The previous section explained how to configure a single conversation transfer f
 
 There are two ways to facilitate a human agent transfer of a conversation back to a bot:
 
-- Create two bots that reside in two queues 
+- Create two bots that reside in two queues
 - Create two bots that reside in the same queue
 
 ### Two bots in two queues
@@ -157,7 +157,10 @@ In Power Virtual Agents, do the following:
 
 At run time, the required information is captured in the context variable that can then be used for further actions based on the workflow you configure. For more information, see [Context variables for a bot](context-variables-for-bot.md).
 
-## Known limitations
+> [!NOTE]
+> If the value for the context variable exceeds 4000 characters, the value might not be used.
+
+### Known limitations
  
 | Description     | Limitation     |
 |-----------------|----------------|
@@ -166,14 +169,14 @@ At run time, the required information is captured in the context variable that c
 | **Typing:** A bot receives a typing activity to indicate that the user is typing a response. A bot may send a typing activity to indicate to the user that it is working to fulfill a request or compile a response. | Typing indicators will not appear. |
 | **Suggested actions:** Suggested actions enable your bot to present buttons that the user can tap to provide input. Suggested actions appear close to the composer and enhance user experience. They enable the user to answer a question or make a selection with a simple tap of a button, rather than having to type a response with a keyboard. |	Suggested actions cannot display vertically. |
 | **Format bot messages:** You can set the optional TextFormat property to control how your message's text content is rendered. | Power Virtual Agents does not support markdown with images and text. <br>When Power Virtual Agents sends markdown text, there is extra space between lines. <br>Carousel layout is not supported. |
-| **File attachments:** Once file attachments are enabled in Omnichannel, customers can send file attachments. | Power Virtual Agents cannot operate on Omnichannel file attachments. |
+| **File attachments:** After file attachments are enabled in Omnichannel for Customer Service, customers can send file attachments. | Power Virtual Agents cannot operate on Omnichannel for Customer Service file attachments. |
 |||
 
 ## Privacy notice
 
 You understand that your data may be transmitted and shared with external systems and that your data may flow outside of your organization's compliance boundary (even if your organization is in a Government Cloud environment). For example, your messages will be shared with the bot which could be interacting with a third-party system based on the integration done by you. For more information on how we process your data, please refer to the [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement).
 
-## Videos
+### Videos
 
 [Power Virtual Agents integration with Omnichannel for Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2114716)
 
@@ -181,12 +184,8 @@ To view more videos on Omnichannel for Customer Service, see [Videos](../videos.
 
 ### See also
 
-[Understand and create work streams](work-streams-introduction.md)
-
-[Work with queues in Omnichannel for Customer Service](queues-omnichannel.md)
-
-[Create and manage routing rules](routing-rules.md)
-
-[Add a chat widget](add-chat-widget.md)
-
-[Enable a bot to escalate and end conversation](../developer/bot-escalate-end-conversation.md)
+[Understand and create work streams](work-streams-introduction.md)  
+[Work with queues in Omnichannel for Customer Service](queues-omnichannel.md)  
+[Create and manage routing rules](routing-rules.md)  
+[Add a chat widget](add-chat-widget.md)  
+[Enable a bot to escalate and end conversation](../developer/bot-escalate-end-conversation.md)  05
