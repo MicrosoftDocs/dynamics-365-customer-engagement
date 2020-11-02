@@ -1,5 +1,5 @@
 ---
-title: "Preview: Configure channel provider using app profile manager in Channel Integration Framework (CIF) version 2.0| Microsoft Docs"
+title: "Configure channel provider using app profile manager in Channel Integration Framework (CIF) version 2.0| Microsoft Docs"
 description: "Learn how to configure a channel provider using the app profile manager."
 author: susikka
 ms.author: susikka
@@ -13,15 +13,7 @@ ms.custom:
   - "dyn365-developer"
 ---
 
-# Preview: Configure channel provider using app profile manager
-
-[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
-
-> [!IMPORTANT]
->
-> - This feature is a preview, which means that it is made available to you before general availability so you can test and evaluate the preview and provide feedback to Microsoft.
-> - This preview may employ reduced or different privacy, security, or compliance commitments than a commercial version. As such, this preview is not meant to be used with any "live" or production Customer Data, Personal Data, or other data that is subject to heightened compliance requirements. Any use of "live" data is at your sole risk and it is your sole responsibility to notify your end users that they should not include sensitive information with their use of the Preview.
-> - This preview, and any support Microsoft may elect to provide, is provided "as-is," "with all faults," "as available," and without warranty. This preview is subject to the [Preview Terms](../../../legal/supp-dynamics365-preview.md).
+# Configure channel provider using app profile manager
 
 The app profile manager is an out-of-the-box solution that lets you create targeted app experiences for agents and supervisors. More information: [App profile manager](../../../app-profile-manager/overview.md).
 
@@ -29,7 +21,7 @@ Channel Integration Framework version 2.0 is for multi-session applications such
 
 1. Log in to your Power Apps portal.
 
-2. Under the available apps, select the ellipsis towards the right of **Omnichannel for Customer Service** or **Customer service workspace (preview)**.
+2. Under the available apps, select the ellipsis towards the right of **Omnichannel for Customer Service** or **Customer service workspace**.
 
 3. Select **App profile manager**.
 
