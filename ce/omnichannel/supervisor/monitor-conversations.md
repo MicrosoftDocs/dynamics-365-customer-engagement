@@ -71,7 +71,7 @@ By joining the conversation, you provide necessary inputs to both agent and cust
 At times, you may need to manually assign a conversation. The following are applicable:
 
 - Conversation must be in an open status or not assigned to an agent.
-- Agents whose presence matches one of the **allowed presence** in the work stream configuration only will be listed.
+- Agents whose presence matches with one of the allowed presence values in the work stream configuration only will be listed.
 
 You can override agent's allocated capacity and assign conversations. In such cases, the agent's capacity will show the units by which their capacity is exceeded.
 
