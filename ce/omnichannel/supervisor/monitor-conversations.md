@@ -90,7 +90,7 @@ You can override agent's allocated capacity and assign conversations. In such ca
 
 4. On the **Assign conversations** dialog box, choose one of the following options:
   - **Agent:** Select to assign the conversation to an agent, and choose an agent name from the list.
-  - **Queue:** This lists all queues except the queue the conversation is currently part of.
+  - **Queue:** Select a queue from the queues list. All queues are listed except the queue to which the conversation is currently assigned to.
 
     
   
