@@ -21,6 +21,7 @@
 ## Administration 
 ### [Administration overview](admin-guide.md)
 ### [Best practices for administration](admin-best-practices.md)
+
 ### User administration and permissions
 #### [Manage user accounts, licenses, and roles](admin-users-licenses-roles.md)
 #### [Fair use policy](fair-use-policy.md)
@@ -49,13 +50,13 @@
 #### [Data protection tools](mkt-settings-data-protection.md)
 
 ### Event management settings
-#### [Event management settings overview](events-settings.md)
-#### [Manage LinkedIn Lead Gen](linkedin-configuration.md)
-#### [Manage sample data](additional-settings.md)
-#### [Quota limits](quota-management.md)
-#### [Feature switches](admin-feature-switches.md)
-#### [Configure AI features](admin-machine-learning.md)
-#### [Control access to designer features](designer-feature-protection.md)
+### [Event management settings overview](events-settings.md)
+### [Manage LinkedIn Lead Gen](linkedin-configuration.md)
+### [Manage sample data](additional-settings.md)
+### [Quota limits](quota-management.md)
+### [Feature switches](admin-feature-switches.md)
+### [Configure AI features](admin-machine-learning.md)
+### [Control access to designer features](designer-feature-protection.md)
 
 ### Email administration
 #### [Best practices for email marketing](get-ready-email-marketing.md)
