@@ -2,8 +2,7 @@
 title: "Migration tool FAQs | MicrosoftDocs"
 description: "Migration tool FAQs for: Automatic record creation rules and service-level agreement items"
 ms.date: 10/05/2020
-ms.service:
-  "dynamics-365-customerservice"
+ms.service:"dynamics-365-customerservice"
 ms.topic: article 
 author: lerobbin
 ms.author: lerobbin
