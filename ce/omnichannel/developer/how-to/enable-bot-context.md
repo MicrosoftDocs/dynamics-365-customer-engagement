@@ -17,28 +17,22 @@ As a bot author, you can enable your Azure bot to understand context while autho
 
 ## Install the bot SDK in your project
 
-1. To open the NuGet Package Manager, right-click your project and then click **Manage NuGet Packages.** 
+1. To open the NuGet Package Manager, right-click your project and then click **Manage NuGet Packages.** Refer to [Nuget page](https://www.nuget.org/packages/Microsoft.Xrm.Omnichannel.BotSDK)
 
-    ![Manage NuGet packages](../../media/bot-context-manage-nuget.png "Manage NuGet packages")
+2. In the NuGet Package Manager, select the feedname **nuget.org** and search for "Microsoft.Xrm.Omnichannel.BotSDK". Select the package and click install.
 
-2. In the NuGet Package Manager, select the feedname **nuget.org** and search for "Microsoft.Omnichannel.Bot.SDK".
-
-    ![Search for Omnichannel middleware](../../media/bot-context-search-oc.png "Search for Omnichannel middleware")
-
-3. Select the package and click install. 
-
-    ![Install Omnichannel middleware](../../media/bot-context-install-oc.png "Install Omnichannel middleware")
+    ![Search for Omnichannel middleware](media/enable_botcon_step2.png "Search for Omnichannel middleware")
 
 Alternatively, you can use the following command in NuGet CLI: 
 
 ```
-Install-Package Microsoft.Omnichannel.Bot.SDK -version 1.0.0.4 
+Install-Package Microsoft.Xrm.Omnichannel.BotSDK -version 1.0.0.4 
 ```
 The bot SDK is now installed and the Omnichannel middleware is available in your project.
 
 ## Use the Omnichannel middleware in your bot code
 
-Use this procedure if you have created your bot using Azure bot template or Azure portal.
+Use this procedure if you have created your bot using Visual Studio Azure Bot template or Azure portal.
 
 1. Open the file, **AdapterWithErrorHandler.cs**.
 
