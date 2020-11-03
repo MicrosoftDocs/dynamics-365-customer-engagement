@@ -4,11 +4,10 @@ description: "Learn information about UII Application Integration Framework that
 ms.custom: 
   - dyn365-USD
 ms.date: 11/29/2016
-ms.service: 
-  - dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.topic: article
-author: kabala123
-ms.author: kabala
+author: v-sailab
+ms.author: v-sailab
 manager: shujoshi
 search.audienceType: 
   - customizer

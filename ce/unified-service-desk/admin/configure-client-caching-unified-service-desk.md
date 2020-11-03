@@ -2,11 +2,10 @@
 title: "Configure client caching in Unified Service Desk | MicrosoftDocs"
 description: "Learn how to set client caching."
 ms.date: 08/23/2017
-ms.service: 
-  - dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.topic: article
-author: kabala123
-ms.author: kabala
+author: v-sailab
+ms.author: v-sailab
 manager: shujoshi
 search.audienceType: 
   - admin
