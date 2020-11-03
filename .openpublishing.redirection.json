@@ -18974,6 +18974,36 @@
       "source_path": "ce/customer-service/channel-integration-framework/v2/configure-channel-provider-channel-integration-framework.md",
       "redirect_url": "configure-channel-provider-app-profile-manager",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/channel-integration-framework/v2/reference/entities-attributes/msdyn-ciprovider.md",
+      "redirect_url": "msdyn_channelprovider",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/channel-integration-framework/v2/reference/entities-attributes/msdyn_consoleapplicationnotificationfield.md",
+      "redirect_url": "msdyn_notificationfield",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/channel-integration-framework/v2/reference/entities-attributes/msdyn_consoleapplicationnotificationtemplate.md",
+      "redirect_url": "msdyn_notificationtemplate",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/channel-integration-framework/v2/reference/entities-attributes/msdyn_consoleapplicationsessiontemplate.md",
+      "redirect_url": "msdyn_sessiontemplate",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/channel-integration-framework/v2/reference/entities-attributes/msdyn_consoleapplicationtemplate.md",
+      "redirect_url": "msdyn_applicationtabtemplate",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/channel-integration-framework/v2/reference/entities-attributes/msdyn_consoleapplicatiotemplateparameter.md",
+      "redirect_url": "msdyn_templateparameter",
+      "redirect_document_id": false
     }
   ]
 }
