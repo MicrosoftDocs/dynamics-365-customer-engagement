@@ -48,15 +48,13 @@
 #### [Default marketing settings](mkt-settings-default-marketing.md)
 #### [Configure your social media accounts](mkt-settings-social-media.md)
 #### [Data protection tools](mkt-settings-data-protection.md)
-
-### Event management settings
-### [Event management settings overview](events-settings.md)
-### [Manage LinkedIn Lead Gen](linkedin-configuration.md)
-### [Manage sample data](additional-settings.md)
-### [Quota limits](quota-management.md)
-### [Feature switches](admin-feature-switches.md)
-### [Configure AI features](admin-machine-learning.md)
-### [Control access to designer features](designer-feature-protection.md)
+#### [Event management settings](events-settings.md)
+#### [Manage LinkedIn Lead Gen](linkedin-configuration.md)
+#### [Manage sample data](additional-settings.md)
+#### [Quota limits](quota-management.md)
+#### [Feature switches](admin-feature-switches.md)
+#### [Configure AI features](admin-machine-learning.md)
+#### [Control access to designer features](designer-feature-protection.md)
 
 ### Email administration
 #### [Best practices for email marketing](get-ready-email-marketing.md)
