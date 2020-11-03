@@ -308,3 +308,14 @@
 ## [Help resources for Dynamics 365 Sales (Professional)](../sales-professional/help-hub.md)
 ## [Dynamics 365 Sales Insights](/dynamics365/ai/sales/overview)
 ## [Sales Team Member app for users with Team Member license](sales-team-member.md)
+## Dynamics 365 Sales mobile app
+### [Overview](sales-mobile/dynamics-365-sales-mobile-app.md)
+### Administrator guide
+### User guide
+#### [Install the app](sales-mobile/install-the-app.md)
+#### [Your first experience](sales-mobile/first-experience.md)
+#### [Use the Dynamics 365 Sales mobile app](sales-mobile/use-sales-mobile-app.md)
+#### [View agenda](sales-mobile/view-agenda.md)
+#### [Open a record](sales-mobile/open-record.md)
+#### [Create a contact](sales-mobile/create-contact.md)
+#### [View, edit, or add a note](sales-mobile/view-edit-add-note.md)
