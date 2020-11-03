@@ -40,7 +40,7 @@ Download the **OmnichannelUnifiedServiceDeskPackage.zip**, and save it on your c
 
 > [!Important]
 >
-> We recommend deploying the **Unified Service Desk - Omnichannel for Customer Service** package on a new organization. We recommend that you don't using your existing organization (test or production) for testing Omnichannel for Customer Service.
+> We recommend deploying the **Unified Service Desk - Omnichannel for Customer Service** package on a new organization. We recommend that you don't use your existing test or production organization for testing Omnichannel for Customer Service.
 
 ## Unified Service Desk – Omnichannel for Customer Service – Add-on
 
