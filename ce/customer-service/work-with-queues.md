@@ -2,8 +2,7 @@
 title: "Pick an item from a queue | Microsoft Docs"
 description: "Pick an item from a queue in Customer Service Hub to work on it."
 ms.date: 11/02/2020
-ms.service:
-  - "dynamics-365-customerservicehub"
+ms.service:  dynamics-365-customerservicehub
 ms.topic: article
 author: v-rmurthy
 ms.author: v-rmurthy
@@ -11,10 +10,11 @@ manager: shujoshi
 ---
 
 # Work with queues
+
 Use queues to organize, prioritize, and monitor the progress of your work. In Dynamics 365 Customer Service, queues are containers used to store anything that needs to be completed or requires an action, for example completing a task or closing a case. To know more about creating and managing queues, see [Create and manage queues](set-up-queues-manage-activities-cases.md).
 
-
 ## Find the queue items
+
 Use the view list and queue list to filter and find items in queues.
 
 1. Go to **Service** > **Queues**.
@@ -26,49 +26,53 @@ Use the view list and queue list to filter and find items in queues.
 
 1. To see all cases from a selected queue, in the view list, select **All Items in Selected Queues**.
 
-  ![Queues queue list](media/queues_queue_list "Customer Service Hub Queues Queue List")
+  ![Queues queue list](media/queues_queue_list.png "Customer Service Hub Queues Queue List")
   
-  2. In the queue list, choose one of the following options to filter cases based on queues:
-- \<Individual queues>
-- All Queues
-- All Public Queues
-- Queues I'm a member of
+2. In the queue list, choose one of the following options to filter cases based on queues:
+   - \<Individual queues>
+   - All Queues
+   - All Public Queues
+   - Queues I'm a member of
 
 ## Find cases that are available to work on
 
 1. To see only the cases no one else is working on, in the view list, select **Cases Available to Work On**
 2. In the queue list, choose one of the following options to filter cases based on queues:
-- \<Individual queues>
-- All Queues
-- All Public Queues
-- Queues I'm a member of
+
+   - \<Individual queues>
+   - All Queues
+   - All Public Queues
+   - Queues I'm a member of
 
 ## Find cases that you're working on
 
 1. To see only the cases that you are currently working on, in the view list, select **Cases I'm Working On**.
 2. In the queue list, choose one of the following options to filter cases based on queues:
-- \<Individual queues>
-- All Queues
-- All Public Queues
-- Queues I'm a member of
+
+   - \<Individual queues>
+   - All Queues
+   - All Public Queues
+   - Queues I'm a member of
 
 ## Find items available to work on
 
 1. To see only items (activites and cases) that no one else is working on, in the view list, select **Items available to work on**.
 2. In the queue list, choose one of the following options to filter cases based on queues:
-- \<Individual queues>
-- All Queues
-- All Public Queues
-- Queues I'm a member of
+
+   - \<Individual queues>
+   - All Queues
+   - All Public Queues
+   - Queues I'm a member of
 
 ## Find items that you are working on
 
 1. To see only items that you're currently working on, in the view list, select **Items I am working on**.
 2. In the queue list, choose one of the following options to filter cases based on queues:
-- \<Individual queues>
-- All Queues
-- All Public Queues
-- Queues I'm a member of
+
+   - \<Individual queues>
+   - All Queues
+   - All Public Queues
+   - Queues I'm a member of
 
 ## Pick an item to work on
 
@@ -77,10 +81,11 @@ Use the view list and queue list to filter and find items in queues.
 3. Select a view from the System Views menu.
 4. Select the queues from the menu.
 5. Select an item in the queue. Select the check box next to the item title.
-6. Select Pick from the menu bar. A dialog box appears with an option to remove the
-   item from the queue while you are working on it.
-7. Select No and change it to Yes.
-8. Select Pick.
+6. Select **Pick** from the command menu. The Pick dialog box appears.
+   > ![Pick a work item](media/pick-work-item-csh.png "Pick a work item")
+
+7. Optionally, select **No** to change it to **Yes** if you want item from the queue.
+8. Select **Pick**. The item is assigned to you and removed from the queue if you had selected yes in the previous step.
 
 ## Release an item or case that you’re working on so someone else can pick it up  
   
@@ -112,7 +117,7 @@ If you want another person in your organization to work on an activity, you can 
   
 ## Assign to another user or team  
   
-1. [!INCLUDE[proc_activities](../includes/proc-activities.md)]  
+1. In the left pane, go to **Activities**.  
   
 2. In the list of activities, select the activity you want, and on the command bar, select **More Commands** ![More commands button](../customer-service/media/crm-ua-not-available.gif "More commands button"), and then select **Assign**.    
   
@@ -124,10 +129,12 @@ If you want another person in your organization to work on an activity, you can 
   
 ## Add to a queue  
   
-1. [!INCLUDE[proc_activities](../includes/proc-activities.md)]  
+1. In the left pane, go to **Activities**.  
   
 2. In the list of activities, select the activity you want, select **More Commands** ![More commands button](../customer-service/media/crm-ua-not-available.gif "More commands button") on the command bar, and then select **Add to Queue**.
   
 3. In the **Queue** field, select **Lookup**, select the queue you want to route the activity to, and then select **Add**.
 
- 
+### See also
+
+[Work with cases](customer-service-hub-user-guide-create-a-case.md)  
