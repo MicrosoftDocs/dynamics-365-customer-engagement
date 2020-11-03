@@ -12,8 +12,8 @@ search.audienceType:
   admin
   customizer
 search.app: 
-  D365CE
-  D365CS
+  - D365CE
+  - D365CS
   
 ---
 

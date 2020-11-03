@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: dyn365-customerservice
 search.audienceType: 
-  admin
-  customizer
-  enduser
+  - admin
+  - customizer
+  - enduser
 search.app: 
- D365CE
-  D365CS
+  - D365CE
+  - D365CS
 ---
 
 #  Service scheduling FAQ
