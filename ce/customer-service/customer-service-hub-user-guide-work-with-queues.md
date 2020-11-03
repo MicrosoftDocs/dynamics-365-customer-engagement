@@ -9,20 +9,20 @@ author: v-rmurthy
 ms.author: v-rmurthy
 manager: shujoshi
 ---
-<!-- Neeraja: Insert a topic title at heading level one. You can refer another topic to see how to do it. -->
+
+# Work with queues
 Use queues to organize, prioritize, and monitor the progress of your work. In Dynamics 365 Customer Service, queues are containers used to store anything that needs to be completed or requires an action, for example completing a task or closing a case. To know more about creating and managing queues, see [Create and manage queues](set-up-queues-manage-activities-cases.md).
 
 
-<!--Neeraja: Use heading level 2. -->
-# Find the queue items
+## Find the queue items
 Use the view list and queue list to filter and find items in queues.
 
-1. Go to Service > Queues. <!-- Neeraja: Bold formatting is required for UI lables. This change is global. -->
+1. Go to **Service** > **Queues**.
 2. Select a view and a filter to see the items you want.
 
-   ![Queues view list](media/queues_view_list.png "Customer Service Hub Queues View List") <!-- Neeraja: The images have a lot of white space around them and that is the reason you see the extra space in the published view. Please use Snagit or Microsoft Paint to edit them. -->
+   ![Queues view list](media/queues_view_list.png "Customer Service Hub Queues View List") 
 
-# Find all items in queues
+## Find all items in queues
 
 1. To see all cases from a selected queue, in the view list, select **All Items in Selected Queues**.
 
@@ -33,7 +33,7 @@ Use the view list and queue list to filter and find items in queues.
 - All Public Queues
 - Queues I'm a member of
 
-# Find cases that are available to work on
+## Find cases that are available to work on
 
 1. To see only the cases no one else is working on, in the view list, select **Cases Available to Work On**
 2. In the queue list, choose one of the following options to filter cases based on queues:
@@ -42,7 +42,7 @@ Use the view list and queue list to filter and find items in queues.
 - All Public Queues
 - Queues I'm a member of
 
-# Find cases that you're working on
+## Find cases that you're working on
 
 1. To see only the cases that you are currently working on, in the view list, select **Cases I'm Working On**.
 2. In the queue list, choose one of the following options to filter cases based on queues:
@@ -51,7 +51,7 @@ Use the view list and queue list to filter and find items in queues.
 - All Public Queues
 - Queues I'm a member of
 
-# Find items available to work on
+## Find items available to work on
 
 1. To see only items (activites and cases) that no one else is working on, in the view list, select **Items available to work on**.
 2. In the queue list, choose one of the following options to filter cases based on queues:
@@ -60,7 +60,7 @@ Use the view list and queue list to filter and find items in queues.
 - All Public Queues
 - Queues I'm a member of
 
-# Find items that you are working on
+## Find items that you are working on
 
 1. To see only items that you're currently working on, in the view list, select **Items I am working on**.
 2. In the queue list, choose one of the following options to filter cases based on queues:
@@ -69,10 +69,10 @@ Use the view list and queue list to filter and find items in queues.
 - All Public Queues
 - Queues I'm a member of
 
-# Pick an item to work on
+## Pick an item to work on
 
-1. Select Service.
-2. Select Queues.
+1. Select **Service**.
+2. Select **Queues**.
 3. Select a view from the System Views menu.
 4. Select the queues from the menu.
 5. Select an item in the queue. Select the check box next to the item title.
@@ -81,7 +81,7 @@ Use the view list and queue list to filter and find items in queues.
 7. Select No and change it to Yes.
 8. Select Pick.
 
-# Release an item or case that you’re working on so someone else can pick it up  
+## Release an item or case that you’re working on so someone else can pick it up  
   
 1. In the **View** list, select one of the views that show the items or cases you’re working on.  
   
@@ -99,7 +99,7 @@ Route an activity or case to another queue or assign to a different user or team
 
     To assign the activity or case to another user or team to work on, select **User/Team**, and select the user or team. When you assign the activity or case to someone else to work on, the **Worked By** field is set to that user or team. You also have the option to remove the item from the queue.
 
-# Remove an activity or case from a queue  
+## Remove an activity or case from a queue  
   
 1.  In the **View** list, select one of the views that show the items you want to remove.  
   
@@ -109,7 +109,7 @@ Route an activity or case to another queue or assign to a different user or team
 
 If you want another person in your organization to work on an activity, you can assign the activity to that person or move it to another queue.  
   
-# Assign to another user or team  
+## Assign to another user or team  
   
 1. [!INCLUDE[proc_activities](../includes/proc-activities.md)]  
   
@@ -121,7 +121,7 @@ If you want another person in your organization to work on an activity, you can 
   
 4. Select **Assign**.  
   
-# Add to a queue  
+## Add to a queue  
   
 1. [!INCLUDE[proc_activities](../includes/proc-activities.md)]  
   
