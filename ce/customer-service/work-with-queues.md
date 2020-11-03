@@ -1,8 +1,8 @@
 ---
-title: "Pick an item from a queue | Microsoft Docs"
+title: "Pick an item from a queue in Customer Service Hub (Dynamics 365 Customer Service) | MicrosoftDocs"
 description: "Pick an item from a queue in Customer Service Hub to work on it."
 ms.date: 11/02/2020
-ms.service:  dynamics-365-customerservicehub
+ms.service:  dynamics-365-customerservice
 ms.topic: article
 author: v-rmurthy
 ms.author: v-rmurthy
@@ -26,7 +26,7 @@ Use the view list and queue list to filter and find items in queues.
 
 1. To see all cases from a selected queue, in the view list, select **All Items in Selected Queues**.
 
-  ![Queues queue list](media/queues_queue_list.png "Customer Service Hub Queues Queue List")
+   ![Queues queue list](media/queues_queue_list.png "Customer Service Hub Queues Queue List")
   
 2. In the queue list, choose one of the following options to filter cases based on queues:
    - \<Individual queues>
