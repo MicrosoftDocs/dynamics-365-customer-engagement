@@ -2,12 +2,11 @@
 title: "Learn the basics of the Customer Service Hub app | MicrosoftDocs"
 description: "Learn the basics of the Customer Service Hub for Customer Service"
 ms.date: 10/05/2020
-ms.service:"dynamics-365-customerservice"
+ms.service: "dynamics-365-customerservice"
 ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-
 ---
 
 # Learn the basics of the Customer Service Hub
