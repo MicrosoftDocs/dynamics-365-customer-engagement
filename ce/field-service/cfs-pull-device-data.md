@@ -32,14 +32,16 @@ search.app:
 
 ## Prerequisites
 
-- Register 
+- [Register your IoT Devices](cfs-register-devices.md) before you can pull the latest data into Field Service. 
 
 ## Pull device data
 
-Pull the latest device data 
+Pull the latest device data by selecting the **Pull Device Data** button in the ribbon of the IoT Device record.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/cfs-device-data-iot-device.png)
+
+See a history of data pulls in the Deveice Data History section of the form.
 
 
 > [!Note]
