@@ -2,11 +2,10 @@
 title: "Create agent application using Unified Service Desk | MicrosoftDocs"
 description: 
 ms.date: 08/23/2017
-ms.service: 
-  - "dynamics-365-customerservice"
+ms.service: dynamics-365-customerservice
 ms.topic: article
-author: kabala123
-ms.author: kabala
+author: v-sailab
+ms.author: v-sailab
 manager: shujoshi
 search.audienceType: 
   - customizer
