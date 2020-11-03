@@ -2,7 +2,7 @@
 title: "Pull device data | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 09/30/2020
+ms.date: 11/03/2020
 ms.reviewer: ""
 ms.service: dynamics-365-customerservice
 ms.suite: ""
