@@ -34,8 +34,8 @@
 #### Work with timeline
 ##### [Configuring timeline](customer-service-hub-user-guide-timeline-admin.md)
 ##### [Using timeline](customer-service-hub-user-guide-timeline-overview.md)
-### [Work with queues](customer-service-hub-user-guide-work-with-queues.md)
-
+### [Work with queues]
+#### [Work with items](customer-service-hub-user-guide-work-with-queues.md)
 #### Work with cases
 ##### [Create a case](customer-service-hub-user-guide-create-a-case.md)
 ##### [Merge cases](customer-service-hub-user-guide-merge-cases.md)
