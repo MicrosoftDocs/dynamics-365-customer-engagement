@@ -4,7 +4,7 @@ description: ""
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 12/31/2019
+ms.date: 11/02/2020
 ms.topic: reference
 ms.service: 
   - dynamics-365-customerservice
@@ -25,7 +25,7 @@ Sets the session title, if the session belongs to the channel provider.
 
 ## Syntax
 
-`Microsoft.CIFramework.setSessionTitle(sessionId,title).then(successCallback, errorCallback);`
+`Microsoft.CIFramework.setSessionTitle(input).then(successCallback, errorCallback);`
 
 ## Parameters
 

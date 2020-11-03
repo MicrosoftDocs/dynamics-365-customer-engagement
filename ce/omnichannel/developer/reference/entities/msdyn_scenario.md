@@ -151,7 +151,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForRead|True|
 |LogicalName|msdyn_notificationtemplate|
 |RequiredLevel|None|
-|Targets|msdyn_consoleapplicationnotificationtemplate|
+|Targets|msdyn_notificationtemplate|
 |Type|Lookup|
 
 

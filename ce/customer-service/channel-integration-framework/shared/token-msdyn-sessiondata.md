@@ -5,7 +5,6 @@ Primary entity for session data
 
 **Added by**: Channel API Integration Framework Analytics Solution
 
-
 ## Messages
 
 |Message|Web API Operation|SDK Assembly|

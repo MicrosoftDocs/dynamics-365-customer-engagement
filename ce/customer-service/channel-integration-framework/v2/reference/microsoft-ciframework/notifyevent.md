@@ -4,7 +4,7 @@ description: ""
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 12/31/2019
+ms.date: 11/02/2020
 ms.topic: reference
 ms.service: 
   - dynamics-365-customerservice
@@ -39,9 +39,9 @@ None
 
 ```javascript
 var input = {
-	templateName: "IncomingCallNotification",
+	templateName: "msdyn_chat_incoming_unauthenticated",
+	// unique name of the configured template
 	templateParameters: {
-		number: "+1-123-4560-000"
 	}
 }
 Microsoft.CIFramework.notifyEvent(input).then(
