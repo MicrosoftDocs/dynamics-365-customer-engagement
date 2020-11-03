@@ -37,7 +37,7 @@ This topic describes the steps you need to perform after you migrate configurati
 
 Clear the CEF cache folder before you sign in to the Unified Service Desk application.
 
-1. Go to c:\\Users\*<user name>*\Roaming\Microsoft\USD\CEF
+1. Go to c:\\Users\\*<user_name>*\Roaming\Microsoft\USD\CEF
 
 2. Delete the contents of the folder.
 
