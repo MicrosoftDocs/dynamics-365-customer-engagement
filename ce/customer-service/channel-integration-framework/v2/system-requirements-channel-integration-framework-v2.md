@@ -4,7 +4,7 @@ description: "Learn about the system requirements of Dynamics 365 Channel Integr
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 09/07/2020
+ms.date: 11/02/2020
 ms.topic: article
 ms.service: 
   - dynamics-365-customerservice
@@ -21,9 +21,9 @@ This topic describes the system requirements of Dynamics 365 Channel Integration
 
 Dynamics 365 (online) version 9.1 and higher versions.
 
-## Omnichannel for Dynamics 365 Customer Service or Customer Service Workspace(preview)
+## Omnichannel for Dynamics 365 Customer Service or Customer Service Workspace
 
-To have multisession capabilities, your organization must use a multi-session app, such as Omnichannel for Customer Service or Customer Service Workspace(preview).
+To have multisession capabilities, your organization must use a multi-session app, such as Omnichannel for Customer Service or Customer Service Workspace.
 
 ## Supported browsers
 
