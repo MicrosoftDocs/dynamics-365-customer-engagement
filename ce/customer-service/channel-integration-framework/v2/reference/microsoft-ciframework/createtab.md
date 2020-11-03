@@ -4,7 +4,7 @@ description: ""
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 12/31/2019
+ms.date: 11/02/2020
 ms.topic: reference
 ms.service: 
   - dynamics-365-customerservice
@@ -33,7 +33,7 @@ The structure of the `Input` parameter JSON is shown below.
 
 ```json
 { 
-   "templateName":"<name of session template>",
+   "templateName":"<unique name of session template>",
    "templateTag":"<template tag>",
    "templateParameters":{ 
       "globalparam":"number value OR boolean value OR json string value OR parameterized string value",
@@ -48,7 +48,7 @@ The structure of the `Input` parameter JSON is shown below.
 
 ## Returns
 
-Promise with the value as String
+Promise with the value of tab ID as String
 
 ## Example
 
@@ -68,7 +68,8 @@ var jsonData = JSON.stringify(data);
 Microsoft.CIFramework.createRecord(entityLogicalName, jsonData).then((result) => {
 	var recordResult = JSON.parse(result);
 	var input = {
-		templateName: "entityrecord",
+		templateName: "msdyn_entityrecord",
+		// Update the unique name of the configured template
 		templateParameters: {
 			entityName: entityLogicalName,
 			entityId: recordResult.id,
