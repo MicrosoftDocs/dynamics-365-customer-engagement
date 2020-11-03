@@ -27,8 +27,7 @@ Use the view list and queue list to filter and find items in queues.
 1. To see all cases from a selected queue, in the view list, select **All Items in Selected Queues**.
 
   ![Queues queue list](media/queues_queue_list.png "Customer Service Hub Queues Queue List")
-  
-2. In the queue list, choose one of the following options to filter cases based on queues:
+  2. In the queue list, choose one of the following options to filter cases based on queues:
 - \<Individual queues>
 - All Queues
 - All Public Queues
