@@ -21,7 +21,7 @@ As a bot author, you can enable your Azure bot to understand context while autho
 
 2. In the NuGet Package Manager, select the feedname **nuget.org** and search for "Microsoft.Xrm.Omnichannel.BotSDK". Select the package and click install.
 
-![Search for Omnichannel middleware](media/enable_botcon_step2.png "Search for Omnichannel middleware")
+>![Search for Omnichannel middleware](../../media/enable_botcon_step2.png "Search for Omnichannel middleware")
     
 Alternatively, you can use the following command in NuGet CLI: 
 
