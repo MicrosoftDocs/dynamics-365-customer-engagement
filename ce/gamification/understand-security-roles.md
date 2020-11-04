@@ -2,7 +2,7 @@
 title: "Security Roles in Dynamics 365 - Gamification | Microsoft Docs"
 description: "Learn about the security roles used in Microsoft Dynamics 365 – Gamification."
 keywords: security roles, game manager, commissioner, permissions
-ms.date: 03/19/2018
+ms.date: 11/04/2018
 ms.service: dynamics-365-sales
 ms.topic: article
 ms.assetid: 997fe3ba-01d7-f0fb-6111-5340f6ff7bab
@@ -30,9 +30,14 @@ Administrators assign licenses to users to grant them permissions for certain ap
 
 [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] provides three security roles: 
 - **Commissioner**: Administrators of the [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] solution and web portal. The user successfully activating Gamification becomes the first Commissioner in [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)]. Additionally, all users in [!INCLUDE[pn_azure_active_directory](../includes/pn-azure-active-directory.md)] with a **Global Admin** or **Dynamics 365 Service Administrator** become Commissioners in [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] after they sign in to [!INCLUDE[cc_gamification_portal](../includes/cc-gamification-portal.md)].
+
 - **Game Manager**: Game managers create and run games in [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)]. To become a game manager, a Dynamics 365 admin has to assign the **Game Manager** security role to these users.    
   If you run a solution version earlier than 2018.2.11, the admin also needs to select **Send Users** on **Gamification** > **Settings**.
+
 - **User**: The default security role for every user of the connected Dynamics 365 organization. Game managers and commissioners can add them to games as players or fans.
+
+- **Gamification app access**: Enables gamification users (including Game managers) to access the Gamification app for Unified Interface.
+
 
 [Learn more about security roles and permissions in Dynamics 365 apps.](https://docs.microsoft.com/dynamics365/customer-engagement/admin/security-roles-privileges)
 
