@@ -5,11 +5,10 @@ ms.custom:
   - dyn365-USD
   - dyn365-admin
 ms.date: 08/23/2017
-ms.service: 
-  - dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.topic: get-started-article
-author: kabala123
-ms.author: kabala
+author: v-sailab
+ms.author: v-sailab
 manager: shujoshi
 search.audienceType: 
   - admin
