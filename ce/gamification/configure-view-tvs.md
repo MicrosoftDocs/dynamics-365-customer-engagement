@@ -44,7 +44,7 @@ To create a Stream TV from multiple active games, see [Stream results from activ
 
 5. Select the players and fans you want to show on the leaderboard.
 
-6. To apply your configuration, click **Save TV** .
+6. To apply your configuration, select **Save TV** .
 
    You'll be redirected to the **Add or Edit Stream TV** page to configure how the results are displayed.
 
@@ -54,11 +54,11 @@ To create a Stream TV from multiple active games, see [Stream results from activ
 
 9. Optionally, make this Stream TV accessible from the public Internet. A commissioner can allow the creation of public Stream TVs in [!INCLUDE[pn-gamification-shortest](../includes/pn-gamification-shortest.md)] settings. If it's allowed, you can set **Enable Public Stream TV** to **ON**. [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Define the posts to show in Stream TV games](personalize-game-experience.md#define-the-posts-to-show-in-stream-tv-games)
 
-10. To add the next leaderboard to your slide show, click **Add Slide** ![Add button in Gamification](media/add-button-gamification.png "Add button in Gamification").
+10. To add the next leaderboard to your slide show, select **Add Slide** ![Add button in Gamification](media/add-button-gamification.png "Add button in Gamification").
 
-11. To complete the TV setup, click **Save & Close**.
+11. To complete the TV setup, select **Save & Close**.
 
-12. Click **View TV** ![View button in Gamification](media/view-symbol-gamification.png "View button in Gamification") for the slide show you want to display on other screens, and then a new browser tab opens. Copy and share the URL to see the same stream on other screens around your office. If public Stream TVs are enabled, the leaderboards will show them without requiring viewers to sign in.
+12. Select **View TV** ![View button in Gamification](media/view-symbol-gamification.png "View button in Gamification") for the slide show you want to display on other screens, and then a new browser tab opens. Copy and share the URL to see the same stream on other screens around your office. If public Stream TVs are enabled, the leaderboards will show them without requiring viewers to sign in.
 
 13. Copy the URL of the newly opened browser tab, and enter it in the browser connected to the screen in your office.
 
@@ -70,15 +70,15 @@ Stream leaderboards from multiple active games to screens around your office to 
 
 1. In [!INCLUDE[cc_gamification_portal](../includes/cc-gamification-portal.md)], go to **Stream TV**.
 
-2. Click the ![Add button in Gamification](media/add-button-gamification.png "Add button in Gamification") button (Custom Streams).
+2. Select the ![Add button in Gamification](media/add-button-gamification.png "Add button in Gamification") button (Custom Streams).
 
 3. Provide a **TV Name** and set the values for how to transition in the slide show.
 
 4. Configure the first slide and select the **Game** for this slide, set the **Leaderboard** to display, the underlaying **KPI**, and the **Number of Players on Leaderboard**. You can also edit the **Leaderboard Title** and choose from the available **Themes** for the slide.
 
-   To add another game's leaderboard to your slide show, click **Add Slide**.
+   To add another game's leaderboard to your slide show, select **Add Slide**.
 
-5. To complete the Stream TV setup, click **Save & Close**.
+5. To complete the Stream TV setup, select **Save & Close**.
 
 ## Edit or delete Stream TVs
 
@@ -88,15 +88,15 @@ Stream leaderboards from multiple active games to screens around your office to 
 
 1. In [!INCLUDE[cc_gamification_portal](../includes/cc-gamification-portal.md)], go to **Stream TV**.
 
-2. Click **Edit** ![Edit button in Gamification](media/edit-symbol-gamification.png "Edit button in Gamification") for the slide show you want to edit.
+2. Select **Edit** ![Edit button in Gamification](media/edit-symbol-gamification.png "Edit button in Gamification") for the slide show you want to edit.
 
-3. Finalize your edits, and then click **Save**.
+3. Finalize your edits, and then select **Save**.
 
 #### Delete a Stream TV
 
 1. In [!INCLUDE[cc_gamification_portal](../includes/cc-gamification-portal.md)], go to **Stream TV**.
 
-2. Click **Delete** ![Delete button in Gamification](media/delete-symbol-gamification.png "Delete button in Gamification") for the slide show you want to delete.
+2. Select **Delete** ![Delete button in Gamification](media/delete-symbol-gamification.png "Delete button in Gamification") for the slide show you want to delete.
 
 3. Confirm your deletion.
 
