@@ -31,6 +31,9 @@ The following table contains the names that can help you configure the context v
 |Record identification for case|msdyn_incident_msdyn_ocliveworkitem| This context variable contains the record ID for the case record that is linked to the conversation. If this variable is set, the case will be linked to the conversation post flush.|String|
 |||||
 
+> [!NOTE]
+> Make sure that the value that will be passed to the context variable doesn't exceed 4,000 characters so that the conversation can be successfully escalated to the agent.
+
 ### Pre-conversation survey context variables mapping for Power Virtual Agents
 
 When you configure mappings in Power Virtual Agents for pre-conversation survey context variables, make sure that the following settings are matched.
@@ -40,7 +43,7 @@ When you configure mappings in Power Virtual Agents for pre-conversation survey 
 |Single line|User’s entire response|
 |Multiple Lines|User’s entire response|
 |Option Set |User’s entire response|
-|Consent|Boolean|
+|User Consent|Boolean|
 |||
 
 ### See also

@@ -157,9 +157,6 @@ In Power Virtual Agents, do the following:
 
 At run time, the required information is captured in the context variable that can then be used for further actions based on the workflow you configure. For more information, see [Context variables for a bot](context-variables-for-bot.md).
 
-> [!NOTE]
-> If the value for the context variable exceeds 4000 characters, the value will be truncated so that the conversation can be escalated to the agent.
-
 ### Known limitations
  
 | Description     | Limitation     |
