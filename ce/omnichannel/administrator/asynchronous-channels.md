@@ -5,8 +5,7 @@ author: platkat
 ms.author: ktaylor
 manager: shujoshi
 ms.date: 10/22/2020
-ms.service: 
-  dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ---
 

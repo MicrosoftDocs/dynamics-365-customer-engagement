@@ -4,11 +4,10 @@ description: "Learn about the CRM Page hosted control type to load a URL or page
 ms.custom: 
   - dyn365-USD
 ms.date: 02/14/2020
-ms.service: 
-  - dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.topic: article
-author: kabala123
-ms.author: kabala
+author: v-sailab
+ms.author: v-sailab
 manager: shujoshi
 search.audienceType: 
   - customizer

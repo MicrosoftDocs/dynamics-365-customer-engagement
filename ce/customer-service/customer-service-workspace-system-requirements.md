@@ -7,8 +7,7 @@ manager: shujoshi
 applies_to: 
   - ""
 ms.date: 10/05/2020
-ms.service: 
-  "dynamics-365-customerservice"
+ms.service: "dynamics-365-customerservice"
 ms.topic: article
 ms.custom: 
   - ""
