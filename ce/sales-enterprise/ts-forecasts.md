@@ -2,8 +2,7 @@
 title: "Troubleshooting forecasting (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Learn how to troubleshoot issues with forecasting in Dynamics 365 Sales."
 ms.date: 03/24/2020
-ms.service:
-  - "dynamics-365-sales"
+ms.service: dynamics-365-sales
 ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
@@ -27,7 +26,7 @@ When system updates are performed, the territory entity's hierarchy is disabled 
 
 **Resolution:**
 
-To resolve this error, you must enable hierarchy in the **territory_parent_territory**<!--Edit okay? I imagine this isn't misspelled in the UI. --> relationship definition from **Relationships**. Follow these steps:
+To resolve this error, you must enable hierarchy in the **territory_parent_territory** relationship definition from **Relationships**. Follow these steps:
 
 1.	Go to **Advance settings**. 
     
@@ -42,12 +41,12 @@ To resolve this error, you must enable hierarchy in the **territory_parent_terri
     > [!div class="mx-imgBorder"]
     > ![Select the territory entity in Power Apps](media/forecast-troubleshooting-power-apps-select-territory.png "Select the territory entity in Power Apps")
 
-4.	On the **Territory** page, select **Relationships** tab, and then select **Parent**.
+4.	On the **Territory** page, select the **Relationships** tab, and then select **Parent**.
 
     > [!div class="mx-imgBorder"]
     > ![Select the parent for the territory entity](media/forecast-troubleshooting-power-apps-select-territory-parent.png "Select the parent for the territory entity")
     
-5.	In the **Many-to-one** dialog box, select to enable **Hierarchical**, and then select **Done**.
+5.	In the **Many-to-one** dialog box, select the **Hierarchical** check box, and then select **Done**.
 
     > [!div class="mx-imgBorder"]
     > ![Enable Hierarchy option](media/forecast-troubleshooting-power-apps-select-enable-hierarchy.png "Enable Hierarchy option")
@@ -94,18 +93,49 @@ To resolve this error, you must delete the **Forecast category** field from the 
 
 **Reason**
 
-If you are using the previous version of forecasting and updated to the latest, the forecasting site map may not be updated due to possible presence of unmanaged layer of Sales hub app. This causes the forecasting site map entry to the previous version of forecasting. 
+If you were using the previous version of forecasting and updated to the latest, the forecasting site map might not be updated. This can be caused by the presence of an unmanaged layer of the Sales Hub app, which would allow the forecasting site map to open the previous version of forecasting.<!--note from editor: Is this what you meant? -->
 
-The following image is an example of previous version of forecasting home page:
+The following image is an example of the previous version of forecasting home page.
 
 > [!div class="mx-imgBorder"]
-> ![Previous version of forecasting home page](media/ts-forecasting-older-version-homepage.png "Previous version of forecasting home page")
-
+> ![Home page of the previous version of forecasting](media/ts-forecasting-older-version-homepage.png "Home page of the previous version of forecasting")
 
 **Resolution**
 
-To resolve this issue, update the forecasting site map entry to the latest forecast entry grid. To learn more, see [Add forecast grid and configuration options in site map](add-forecast-site-map.md). 
+To resolve this issue, update the forecasting site map entry to the latest forecast entry grid. More information: [Add forecast grid and configuration options in site map](add-forecast-site-map.md)
+
+<a name="unable_load_forecast_grid"> </a>
+## Unable to load the forecast grid, and an error is displayed
+
+**Reason**
+
+The **ForecastInstanceActions** process is deactivated. The reason might be that the owner of an organization has changed, which is causing the failure to load the forecast grid. The error shown in the following image is displayed.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the error message "Action (ForecastInstanceAction) for fetching forecasts has been disabled".](media/ts-forecasting-grid-loading-error.png "Error message Action ForecastInstanceAction for fetching forecasts has been disabled")
+
+**Resolution**
+
+To resolve this error, activate the **ForecastInstanceActions** process. Follow these steps:
+
+1. Go to **Advanced settings**, and then select **Settings** > **Process Center** > **Processes**.
+2. In the search box, enter **ForecastInstanceActions**. You can see that the process is in the **Draft** state.
+
+    > [!div class="mx-imgBorder"]
+    > ![ForecastInstanceActions process in draft state](media/ts-forecasting-forecast-instance-actions-process-draft.png "ForecastInstanceActions process in draft state")
  
+3. Select the process, and then select **Activate**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Activate the ForecastInstanceActions process](media/ts-forecasting-activate-forecast-instance-actions-process.png "Activate the ForecastInstanceActions process")
+
+4. On the confirmation message, select **Activate**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Forecast instance actions process activated](media/ts-forecasting-forecast-instance-actions-process-activate.png "Forecast instance actions process activated")
+
+5. Verify that the process state is **Activated**, and then close **Settings**.
+
 ### See also
 
 [Dynamics 365 Sales troubleshooting guide](troubleshooting.md)  
