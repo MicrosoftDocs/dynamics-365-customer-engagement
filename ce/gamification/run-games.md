@@ -56,7 +56,7 @@ By setting up a game in [!INCLUDE[cc_gamification_portal](../includes/cc-gamific
    > [!TIP]
    > For an engaging experience for players, we recommend you set the game duration between two and six months. Shorter games make it harder for people to become immersed in the game, while longer games have proven to be harder to keep track of.
 
-7. In the game setup header, click **1** to proceed to the next step.
+7. In the game setup header, select **1** to proceed to the next step.
 
 ### KPI types and user roles
 
@@ -91,10 +91,10 @@ By setting up a game in [!INCLUDE[cc_gamification_portal](../includes/cc-gamific
 
 8. Optionally, you can use Excel point scoring for certain KPIs. [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Update game scores by using Excel point scoring capabilities in Gamification](update-scores-using-excel-point-scoring.md)
 
-9. In the game setup header, click **2** to proceed to the next step.
+9. In the game setup header, select **2** to proceed to the next step.
 
 > [!IMPORTANT]
-> When you remove a KPI from an active game, a user with the **Game manager** security role needs to click **Refresh Data** in the Dynamics 365 app (**Gamification** > **Gamification Settings**) to update the data. You can edit and update KPIs in an active game up to 14 days after the start of the game. 
+> When you remove a KPI from an active game, a user with the **Game manager** security role needs to select **Refresh Data** in the Dynamics 365 app (**Gamification** > **Gamification Settings**) to update the data. You can edit and update KPIs in an active game up to 14 days after the start of the game. 
 
 #### Game quotas
 
@@ -107,14 +107,14 @@ By setting up a game in [!INCLUDE[cc_gamification_portal](../includes/cc-gamific
 
  Depending on the selected sports theme, you can now assign players to positions and then select fans to participate in the game.
 
- To assign a player to a position, click the position, and then select the check box for the users you want to assign to the position.
+ To assign a player to a position, select the position, and then select the check box for the users you want to assign to the position.
 
 > [!TIP]
 >  Make sure you distribute players evenly on positions to prevent anyone from drafting all the top performers onto their team.
 
  To add fans to a game, select them from the list in step 3.
 
- Click **4** to proceed to the next step.
+ Select **4** to proceed to the next step.
 
 ### Awards and prizes
 
@@ -122,7 +122,7 @@ In this step, you can define the various awards and prizes for the overall game.
 
 In addition to game awards, you can set up weekly awards. [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Create weekly awards to keep players and fans engaged](define-weekly-awards.md)
 
-To complete the game setup, click **Start Game** for the dates you defined. You can also save the game and refine your settings before you start it.
+To complete the game setup, select **Start Game** for the dates you defined. You can also save the game and refine your settings before you start it.
 
 After you activate the game, and before the game start date, you can change KPIs, game awards, and player game quotas, but you can't add new **Percentage of quota** KPIs. On or after the game start date, you can still change the game awards and player game quotas.
 
@@ -136,7 +136,7 @@ After you activate the game, and before the game start date, you can change KPIs
  During an active game, make sure the players and fans stay engaged. If you update certain KPIs manually, you'll use the Excel point scoring feature. [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Update game scores by using Excel point scoring capabilities in Gamification](update-scores-using-excel-point-scoring.md)
 
 > [!IMPORTANT]
-> When you edit an active game and remove a KPI or change the active players, a user who has the **Game manager** security role needs to click **Refresh Data** to update the data.
+> When you edit an active game and remove a KPI or change the active players, a user who has the **Game manager** security role needs to select **Refresh Data** to update the data.
 > 
 > [!TIP]
 > - Consider setting up a TV for your office to show the leaderboard and announcements on the smack talk board. [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Manage Stream TV games in Gamification](configure-view-tvs.md)
@@ -150,7 +150,7 @@ After you activate the game, and before the game start date, you can change KPIs
 
 1. In [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)], go to **Games**.
 
-2. In the **Active Games** list, click **End Game** for the game you want to complete.
+2. In the **Active Games** list, select **End Game** for the game you want to complete.
 
 ### See also
 

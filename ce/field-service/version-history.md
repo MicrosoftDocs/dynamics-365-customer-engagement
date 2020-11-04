@@ -62,9 +62,9 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 |<strong>Station 5</strong> | |  |  | |
 | | <i>North America</i> | [8.8.30.113](https://docs.microsoft.com/dynamics365/field-service/version-history#8830113) | [8.8.31.60](https://docs.microsoft.com/dynamics365/field-service/version-history#883160) | 11/20/2020
 |<strong>Station 6</strong> | |  |  | |
-| | <i>Government Community Cloud</i> |  [8.8.26.24](https://docs.microsoft.com/dynamics365/field-service/version-history#882624)| [8.8.30.113](https://docs.microsoft.com/dynamics365/field-service/version-history#8830113) | 10/30/2020
-| | <i>China</i> | [8.8.26.24](https://docs.microsoft.com/dynamics365/field-service/version-history#882624)| [8.8.30.113](https://docs.microsoft.com/dynamics365/field-service/version-history#8830113) | 10/30/2020
-| | <i>Dedicated Scale Groups</i> | [8.8.26.24](https://docs.microsoft.com/dynamics365/field-service/version-history#882624)| [8.8.30.113](https://docs.microsoft.com/dynamics365/field-service/version-history#8830113) | 10/30/2020
+| | <i>Government Community Cloud</i> |  [8.8.30.113](https://docs.microsoft.com/dynamics365/field-service/version-history#8830113) | [8.8.31.60](https://docs.microsoft.com/dynamics365/field-service/version-history#883160) | 11/20/2020
+| | <i>China</i> | [8.8.30.113](https://docs.microsoft.com/dynamics365/field-service/version-history#8830113) | [8.8.31.60](https://docs.microsoft.com/dynamics365/field-service/version-history#883160) | 11/20/2020
+| | <i>Dedicated Scale Groups</i> | [8.8.30.113](https://docs.microsoft.com/dynamics365/field-service/version-history#8830113) | [8.8.31.60](https://docs.microsoft.com/dynamics365/field-service/version-history#883160) | 11/27/2020
 
 >[!Note]
 > - Dates in all regions except Government Community Cloud (GCC) and China indicate the timing of the next automatic update. Dates in GCC and China indicate version availability; at this time, there is no automatic update for the GCC and China regions.

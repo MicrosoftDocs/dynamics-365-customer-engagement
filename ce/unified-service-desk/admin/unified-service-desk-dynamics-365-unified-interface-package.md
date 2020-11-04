@@ -3,8 +3,8 @@ title: "Unified Service Desk  Unified Interface package | MicrosoftDocs"
 description: "Overview of the Unified Interface sample application."
 ms.date: 08/17/2018
 ms.topic: article
-author: kabala123
-ms.author: kabala
+author: v-sailab
+ms.author: v-sailab
 manager: shujoshi
 search.audienceType: 
   - admin

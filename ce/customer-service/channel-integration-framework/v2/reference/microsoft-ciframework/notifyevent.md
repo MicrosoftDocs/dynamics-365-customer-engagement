@@ -1,13 +1,12 @@
 ---
 title: "notifyEvent (JavaScript API Reference) for Dynamics 365 Channel Integration Framework (CIF) version 2.0 | MicrosoftDocs"
 description: ""
-author: susikka
-ms.author: susikka
+author: ramana-hyd
+ms.author: v-rmurthy
 manager: shujoshi
-ms.date: 12/31/2019
+ms.date: 11/02/2020
 ms.topic: reference
-ms.service: 
-  - dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
@@ -39,9 +38,9 @@ None
 
 ```javascript
 var input = {
-	templateName: "IncomingCallNotification",
+	templateName: "msdyn_chat_incoming_unauthenticated",
+	// unique name of the configured template
 	templateParameters: {
-		number: "+1-123-4560-000"
 	}
 }
 Microsoft.CIFramework.notifyEvent(input).then(

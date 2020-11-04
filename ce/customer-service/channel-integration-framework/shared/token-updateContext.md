@@ -20,6 +20,7 @@ Returns a promise with string value.
 ## Example
 
 ```javascript
+var input = { "customerName" : "Contosso" };
 Microsoft.CIFramework.updateContext(input).then(
     function success(result) {
         console.log(result);

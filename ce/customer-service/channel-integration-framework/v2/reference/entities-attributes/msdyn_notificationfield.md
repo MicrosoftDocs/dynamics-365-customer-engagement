@@ -1,56 +1,53 @@
 ---
-title: "msdyn_consoleapplicationnotificationfield Entity Reference | MicrosoftDocs"
-description: "Includes schema information and supported messages for the msdyn_consoleapplicationnotificationfield entity."
-ms.date: 07/02/2020
-ms.service: "crm-online"
+title: "msdyn_notificationfield Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+description: "Includes schema information and supported messages for the msdyn_notificationfield entity."
+author: "ramana-hyd"
+ms.author: "v-rmurthy"
+manager: "jdaly"
+ms.date: 11/03/2020
 ms.topic: "reference"
+ms.service: "crm-online"
 applies_to: 
   - "Dynamics 365 (online)"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "susikka"
-ms.author: "susikka"
-manager: "susikka"
 ---
-# msdyn_consoleapplicationnotificationfield Entity Reference
+# msdyn_notificationfield Entity Reference
 
-Defines a field (key, templateValue) that needs to be populated in the notification body.
-
-**Added by**: Channel API Integration Framework Solution
-
+**Added by**: App profile manager Solution
 
 ## Messages
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.1/msdyn_kpieventdefinitions(*msdyn_kpieventdefinitionid*)|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.1/msdyn_kpieventdefinitions|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.1/msdyn_kpieventdefinitions(*msdyn_kpieventdefinitionid*)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Assign|PATCH [*org URI*]/api/data/v9.0/msdyn_notificationfields(*msdyn_notificationfieldid*)|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Create|POST [*org URI*]/api/data/v9.0/msdyn_notificationfields|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_notificationfields(*msdyn_notificationfieldid*)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 |IsValidStateTransition|<xref href="Microsoft.Dynamics.CRM.IsValidStateTransition?text=IsValidStateTransition Function" />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 |ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.1/msdyn_kpieventdefinitions(*msdyn_kpieventdefinitionid*)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.1/msdyn_kpieventdefinitions|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_notificationfields(*msdyn_notificationfieldid*)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_notificationfields|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
 |RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
 |RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.1/msdyn_kpieventdefinitions(*msdyn_kpieventdefinitionid*)|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.1/msdyn_kpieventdefinitions(*msdyn_kpieventdefinitionid*)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_notificationfields(*msdyn_notificationfieldid*)|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_notificationfields(*msdyn_notificationfieldid*)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
 |Property|Value|
 |--------|-----|
-|CollectionSchemaName|msdyn_consoleapplicationnotificationfields|
+|CollectionSchemaName|msdyn_notificationfields|
 |DisplayCollectionName|Notification Fields|
 |DisplayName|Notification Field|
-|EntitySetName|msdyn_consoleapplicationnotificationfields|
+|EntitySetName|msdyn_notificationfields|
 |IsBPFEntity|False|
-|LogicalCollectionName|msdyn_consoleapplicationnotificationfields|
-|LogicalName|msdyn_consoleapplicationnotificationfield|
+|LogicalCollectionName|msdyn_notificationfields|
+|LogicalName|msdyn_notificationfield|
 |OwnershipType|UserOwned|
-|PrimaryIdAttribute|msdyn_consoleapplicationnotificationfieldid|
+|PrimaryIdAttribute|msdyn_notificationfieldid|
 |PrimaryNameAttribute|msdyn_name|
-|SchemaName|msdyn_consoleapplicationnotificationfield|
+|SchemaName|msdyn_notificationfield|
 
 <a name="writable-attributes"></a>
 
@@ -59,11 +56,13 @@ Defines a field (key, templateValue) that needs to be populated in the notificat
 These attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
-- [msdyn_consoleapplicationnotificationfieldId](#BKMK_msdyn_consoleapplicationnotificationfieldId)
-- [msdyn_LineHeader](#BKMK_msdyn_LineHeader)
+- [IsCustomizable](#BKMK_IsCustomizable)
 - [msdyn_name](#BKMK_msdyn_name)
-- [msdyn_Priority](#BKMK_msdyn_Priority)
-- [msdyn_Value](#BKMK_msdyn_Value)
+- [msdyn_notificationfieldId](#BKMK_msdyn_notificationfieldId)
+- [msdyn_order](#BKMK_msdyn_order)
+- [msdyn_title](#BKMK_msdyn_title)
+- [msdyn_UniqueName](#BKMK_msdyn_UniqueName)
+- [msdyn_value](#BKMK_msdyn_value)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [OwnerId](#BKMK_OwnerId)
 - [OwnerIdType](#BKMK_OwnerIdType)
@@ -74,6 +73,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 
 ### <a name="BKMK_ImportSequenceNumber"></a> ImportSequenceNumber
+
+**Added by**: Basic Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -90,34 +91,19 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Integer|
 
 
-### <a name="BKMK_msdyn_consoleapplicationnotificationfieldId"></a> msdyn_consoleapplicationnotificationfieldId
+### <a name="BKMK_IsCustomizable"></a> IsCustomizable
+
+**Added by**: Basic Solution Solution
 
 |Property|Value|
 |--------|-----|
-|Description|Unique identifier for entity instances|
-|DisplayName|ConsoleApplicationNotificationField|
+|Description|For internal use only.|
+|DisplayName|Is Customizable|
 |IsValidForForm|False|
 |IsValidForRead|True|
-|IsValidForUpdate|False|
-|LogicalName|msdyn_consoleapplicationnotificationfieldid|
+|LogicalName|iscustomizable|
 |RequiredLevel|SystemRequired|
-|Type|Uniqueidentifier|
-
-
-### <a name="BKMK_msdyn_LineHeader"></a> msdyn_LineHeader
-
-|Property|Value|
-|--------|-----|
-|Description|Field displayed on the notification.|
-|DisplayName|Field header|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_lineheader|
-|MaxLength|100|
-|RequiredLevel|ApplicationRequired|
-|Type|String|
+|Type|ManagedProperty|
 
 
 ### <a name="BKMK_msdyn_name"></a> msdyn_name
@@ -127,7 +113,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Description|The name of the notification field.|
 |DisplayName|Name|
 |FormatName|Text|
-|IsLocalizable|False|
+|IsLocalizable|True|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|msdyn_name|
@@ -136,35 +122,82 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|String|
 
 
-### <a name="BKMK_msdyn_Priority"></a> msdyn_Priority
+### <a name="BKMK_msdyn_notificationfieldId"></a> msdyn_notificationfieldId
 
 |Property|Value|
 |--------|-----|
-|Description|Priority of the notification field|
-|DisplayName|Priority|
+|Description|Unique identifier for entity instances|
+|DisplayName|Notification Field|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|msdyn_notificationfieldid|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
+
+
+### <a name="BKMK_msdyn_order"></a> msdyn_order
+
+|Property|Value|
+|--------|-----|
+|Description|Order of the notification field|
+|DisplayName|Order|
 |Format|None|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_priority|
+|LogicalName|msdyn_order|
 |MaxValue|2147483647|
 |MinValue|0|
 |RequiredLevel|None|
 |Type|Integer|
 
 
-### <a name="BKMK_msdyn_Value"></a> msdyn_Value
+### <a name="BKMK_msdyn_title"></a> msdyn_title
+
+|Property|Value|
+|--------|-----|
+|Description|Field displayed on the notification. This is treated as the key on the basis of which the values are replaced on the notification template.|
+|DisplayName|Title|
+|FormatName|Text|
+|IsLocalizable|True|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_title|
+|MaxLength|200|
+|RequiredLevel|ApplicationRequired|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_UniqueName"></a> msdyn_UniqueName
+
+|Property|Value|
+|--------|-----|
+|Description|Unique Name for the entity.|
+|DisplayName|Unique Name|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|msdyn_uniquename|
+|MaxLength|128|
+|RequiredLevel|SystemRequired|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_value"></a> msdyn_value
 
 |Property|Value|
 |--------|-----|
 |Description|The value for the field to be displayed on the notification.|
 |DisplayName|Value|
 |FormatName|Text|
-|IsLocalizable|False|
+|IsLocalizable|True|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|msdyn_value|
-|MaxLength|100|
-|RequiredLevel|Recommended|
+|MaxLength|1028|
+|RequiredLevel|None|
 |Type|String|
 
 
@@ -295,6 +328,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 These attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
 
+- [ComponentIdUnique](#BKMK_ComponentIdUnique)
+- [ComponentState](#BKMK_ComponentState)
 - [CreatedBy](#BKMK_CreatedBy)
 - [CreatedByName](#BKMK_CreatedByName)
 - [CreatedByYomiName](#BKMK_CreatedByYomiName)
@@ -302,6 +337,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 - [CreatedOnBehalfBy](#BKMK_CreatedOnBehalfBy)
 - [CreatedOnBehalfByName](#BKMK_CreatedOnBehalfByName)
 - [CreatedOnBehalfByYomiName](#BKMK_CreatedOnBehalfByYomiName)
+- [IsManaged](#BKMK_IsManaged)
 - [ModifiedBy](#BKMK_ModifiedBy)
 - [ModifiedByName](#BKMK_ModifiedByName)
 - [ModifiedByYomiName](#BKMK_ModifiedByYomiName)
@@ -309,12 +345,55 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 - [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
 - [ModifiedOnBehalfByName](#BKMK_ModifiedOnBehalfByName)
 - [ModifiedOnBehalfByYomiName](#BKMK_ModifiedOnBehalfByYomiName)
+- [OverwriteTime](#BKMK_OverwriteTime)
 - [OwnerIdName](#BKMK_OwnerIdName)
 - [OwnerIdYomiName](#BKMK_OwnerIdYomiName)
 - [OwningBusinessUnit](#BKMK_OwningBusinessUnit)
 - [OwningTeam](#BKMK_OwningTeam)
 - [OwningUser](#BKMK_OwningUser)
+- [SolutionId](#BKMK_SolutionId)
+- [SupportingSolutionId](#BKMK_SupportingSolutionId)
 - [VersionNumber](#BKMK_VersionNumber)
+
+
+### <a name="BKMK_ComponentIdUnique"></a> ComponentIdUnique
+
+**Added by**: Basic Solution Solution
+
+|Property|Value|
+|--------|-----|
+|Description|For internal use only.|
+|DisplayName|Row id unique|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|componentidunique|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
+
+
+### <a name="BKMK_ComponentState"></a> ComponentState
+
+**Added by**: Basic Solution Solution
+
+|Property|Value|
+|--------|-----|
+|Description|For internal use only.|
+|DisplayName|Component State|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|componentstate|
+|RequiredLevel|SystemRequired|
+|Type|Picklist|
+
+#### ComponentState Options
+
+|Value|Label|
+|-----|-----|
+|0|Published|
+|1|Unpublished|
+|2|Deleted|
+|3|Deleted Unpublished|
+
 
 
 ### <a name="BKMK_CreatedBy"></a> CreatedBy
@@ -436,6 +515,31 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Type|String|
 
 
+### <a name="BKMK_IsManaged"></a> IsManaged
+
+**Added by**: Basic Solution Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Indicates whether the solution component is part of a managed solution.|
+|DisplayName|Is Managed|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|ismanaged|
+|RequiredLevel|SystemRequired|
+|Type|Boolean|
+
+#### IsManaged Options
+
+|Value|Label|
+|-----|-----|
+|1|Managed|
+|0|Unmanaged|
+
+**DefaultValue**: False
+
+
+
 ### <a name="BKMK_ModifiedBy"></a> ModifiedBy
 
 **Added by**: Active Solution Solution
@@ -555,6 +659,23 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Type|String|
 
 
+### <a name="BKMK_OverwriteTime"></a> OverwriteTime
+
+**Added by**: Basic Solution Solution
+
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|For internal use only.|
+|DisplayName|Record Overwrite Time|
+|Format|DateAndTime|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|overwritetime|
+|RequiredLevel|SystemRequired|
+|Type|DateTime|
+
+
 ### <a name="BKMK_OwnerIdName"></a> OwnerIdName
 
 **Added by**: Active Solution Solution
@@ -639,6 +760,36 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Type|Lookup|
 
 
+### <a name="BKMK_SolutionId"></a> SolutionId
+
+**Added by**: Basic Solution Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the associated solution.|
+|DisplayName|Solution|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|solutionid|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
+
+
+### <a name="BKMK_SupportingSolutionId"></a> SupportingSolutionId
+
+**Added by**: Basic Solution Solution
+
+|Property|Value|
+|--------|-----|
+|Description|For internal use only.|
+|DisplayName|Solution|
+|IsValidForForm|False|
+|IsValidForRead|False|
+|LogicalName|supportingsolutionid|
+|RequiredLevel|None|
+|Type|Uniqueidentifier|
+
+
 ### <a name="BKMK_VersionNumber"></a> VersionNumber
 
 **Added by**: Active Solution Solution
@@ -659,12 +810,12 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ## Many-To-Many Relationships
 
-Relationship details provided where the msdyn_consoleapplicationnotificationfield entity is the first entity in the relationship. Listed by **SchemaName**.
+Relationship details provided where the msdyn_notificationfield entity is the first entity in the relationship. Listed by **SchemaName**.
 
 
-### <a name="BKMK_msdyn_msdyn_consoleapplicationnotificationtempl"></a> msdyn_msdyn_consoleapplicationnotificationtempl
+### <a name="BKMK_msdyn_notificationtemplate"></a> msdyn_notificationtemplate
 
-See msdyn_consoleapplicationnotificationtemplate Entity [msdyn_msdyn_consoleapplicationnotificationtempl](msdyn_consoleapplicationnotificationtemplate.md#BKMK_msdyn_msdyn_consoleapplicationnotificationtempl) Many-To-Many Relationship.
+See msdyn_notificationtemplate Entity [msdyn_notificationtemplate](msdyn_notificationtemplate.md#many-to-many-relationships) Many-To-Many Relationship.
 
 ### See also
 

@@ -4,11 +4,10 @@ description: "Learn about basic concepts related to configuring and extending Un
 ms.custom: 
   - dyn365-USD
 ms.date: 01/25/2017
-ms.service: 
-  - dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.topic: get-started-article
-author: kabala123
-ms.author: kabala
+author: v-sailab
+ms.author: v-sailab
 manager: shujoshi
 search.audienceType: 
   - customizer

@@ -1,13 +1,12 @@
 ---
 title: "System requirements of Dynamics 365 Channel Integration Framework | Microsoft Docs"
 description: "Learn about the system requirements of Dynamics 365 Channel Integration Framework and how to get started using it."
-author: susikka
-ms.author: susikka
+author: ramana-hyd
+ms.author: v-rmurthy
 manager: shujoshi
 ms.date: 01/13/2019
 ms.topic: article
-ms.service: 
-  - dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
