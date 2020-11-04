@@ -38,14 +38,21 @@ search.app:
 
 ## Section 1
 
-mobile-location-geolocation-settings
 
-mobile-location-allow-location-access-fsm
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-location-geolocation-settings.png)
 
 
-mobile-location-allow-location-access-fsm
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-location-allow-location-access-fsm.png)
 
-mobile-location-geolocation-tracking-entity-advance-find
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-location-allow-location-access-fsm.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-location-geolocation-tracking-entity-advance-find.png)
 
 ## Section 2
 
