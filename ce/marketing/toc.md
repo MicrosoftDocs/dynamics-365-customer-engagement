@@ -21,6 +21,7 @@
 ## Administration 
 ### [Administration overview](admin-guide.md)
 ### [Best practices for administration](admin-best-practices.md)
+
 ### User administration and permissions
 #### [Manage user accounts, licenses, and roles](admin-users-licenses-roles.md)
 #### [Fair use policy](fair-use-policy.md)
@@ -47,9 +48,7 @@
 #### [Default marketing settings](mkt-settings-default-marketing.md)
 #### [Configure your social media accounts](mkt-settings-social-media.md)
 #### [Data protection tools](mkt-settings-data-protection.md)
-
-### Event management settings
-#### [Event management settings overview](events-settings.md)
+#### [Event management settings](events-settings.md)
 #### [Manage LinkedIn Lead Gen](linkedin-configuration.md)
 #### [Manage sample data](additional-settings.md)
 #### [Quota limits](quota-management.md)

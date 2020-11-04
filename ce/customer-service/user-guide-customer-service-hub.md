@@ -1,5 +1,5 @@
 ---
-title: "User Guide (Dynamics 365 Customer Service) | Microsoft Docs"
+title: "User Guide (Dynamics 365 Customer Service) | MicrosoftDocs"
 description: "Guide to learn about the Customer Service Hub."
 author: neeranelli
 ms.author: nenellim
