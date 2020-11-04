@@ -61,23 +61,35 @@ The Dynamics 365 Marketing November 2020 update includes several enhancements in
 ### Bug fixes
 
 - **Customer journeys**
-    - 
+    - Resolved an issue that occasionally caused emails to be sent after a journey ended.
+    - Fixed an issue where live editing a customer journey after the last iteration had no scheduling effects.
+- **Data services**
+    - Fixed an issue that prevented dropping work items in auditing.
 - **Event management**
-    - 
+    - Resolved an occasional issue that incorrectly attributed an event template owner.
+    - Fixed a validation error on Events Business Rule Set default values.
+    - Resolved a custom field caching error that caused sporadic failures.
 - **First run experience**
     - Resolved an error where updated portals displayed as not configured on the portal page.
+- **Framework**
+    - Simplified the hard delete process.
 - **Lead management**
-    - 
+    - Improved French localization on lead forms.
 - **Marketing emails**
-    - 
+    - Fixed an issue where the Dynamics 365 Customer Voice tile was not shown in **Advanced elements** in the toolbox.
+    - Resolved an error caused by setting and then removing an image width value.
+    - Resolved an issue where a horizontal line sometimes appeared between two sections of an email in Outlook.
+    - Fixed an issue where margins on images occasionally did not function correctly in Outlook.
+    - Resolved an error that caused linked images to have a blue border.
+    - Fixed an issue that caused background images in columns to not work in sections with a background image.
 - **Marketing pages**
-    - 
-- **Quota**
-    - 
-- **Segmentation**
-    - 
-- **Shared UX**
-    - 
+    - Fixed an error that occasionally enabled users to save locked marketing lists.
+    - Enabled visibility for subscription list lock status in list view.
+    - Enabled form fields with a placeholder value to be set to required.
+    - Resolved an error that caused matching strategy failure for non-string attributes.
+    - Improved form capture compatibility with server-side detection.
+    - Fixed an issue that caused a correlation renewal error when a browser window was collapsed for a long period of time.
+    - Resolved an occasional error with custom registration fields.
 
 ## October 2020 update
 
