@@ -2,7 +2,7 @@
 title: "Install and configure Dynamics 365 – Gamification in Dynamics 365 apps | Microsoft Docs"
 description: "Learn how to install the Gamification solution in Dynamics 365 apps and its associated web portal and security roles."
 keywords: install, solution, manage, uninstall
-ms.date: 11/02/2020
+ms.date: 11/04/2020
 ms.service: dynamics-365-sales
 ms.topic: get-started-article
 ms.assetid: eb33a4c5-2dde-417b-34f2-8d46be8c2f10
