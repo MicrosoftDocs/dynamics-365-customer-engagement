@@ -2,8 +2,7 @@
 title: "Dynamics 365 Sales troubleshooting guide  | MicrosoftDocs"
 description: "A starting point for browsing troubleshooting content for Dynamics 365 Sales."
 ms.date: 05/26/2020
-ms.service:
-  - "dynamics-365-sales"
+ms.service: dynamics-365-sales
 ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
@@ -60,6 +59,7 @@ manager: annbe
 <li><a href="ts-forecasts.md#territory_based_forecast_issues" data-raw-source="[Territory-based forecast issues and resolution](ts-forecasts.md#territory_based_forecast_issues)">Territory-based forecast issues and resolution</a></li>
 <li><a href="ts-forecasts.md#hide_forecast_category_field" data-raw-source="[Unable to hide forecast category field in Opportunity forms](ts-forecasts.md#hide_forecast_category_field)">Unable to hide forecast category field in Opportunity form</a></li>
 <li><a href="ts-forecasts.md#unable_view_forecasts" data-raw-source="[Unable to view forecasts](ts-forecasts.md#unable_view_forecasts)">Unable to view forecasts</a></li>
+<li><a href="ts-forecasts.md#unable_load_forecast_grid" data-raw-source="[Unable to load forecast grid and an error is displayed](ts-forecasts.md#unable_load_forecast_grid)">Unable to load forecast grid and an error is displayed</a></li>
 
 </td><td>
 
