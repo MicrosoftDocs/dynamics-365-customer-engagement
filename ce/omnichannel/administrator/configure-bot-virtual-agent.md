@@ -4,7 +4,7 @@ description: "Instructions to integrate a bot in Omnichannel for Customer Servic
 author: platkat
 ms.author: ktaylor
 manager: shujoshi
-ms.date: 10/23/2020
+ms.date: 11/04/2020
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ---
@@ -140,7 +140,7 @@ In this scenario, a bot has transferred a conversation to a human agent. The hum
 11.	The system triggers Bot B to send a greeting message.
 12. The customer now converses with Bot B.
 
-## Configure context variables for a bot
+## Configure context variables for the bot
 
 When customers initiate a conversation, the relevant context related to the customer, the issue they are facing, and recent activities performed by them can be made available for the bot to intelligently provide contextual responses to resolve customer issues in a quick and efficient manner. For example, the bot can use the signed-in user details to look up the recent case information or order history of the customer and provide a response. Similarly, the pre-conversation information, custom context, or recent pages browsed on a website by the customer can be passed on to the bot by configuring context variables for the bot in Power Virtual Agents. For information on context variables that can be configured, see [Context variables](context-variables-for-bot.md).
 
@@ -158,7 +158,7 @@ In Power Virtual Agents, do the following:
 At run time, the required information is captured in the context variable that can then be used for further actions based on the workflow you configure. For more information, see [Context variables for a bot](context-variables-for-bot.md).
 
 > [!NOTE]
-> If the value for the context variable exceeds 4000 characters, the value might not be used.
+> If the value for the context variable exceeds 4000 characters, the value will be truncated so that the conversation can be escalated to the agent.
 
 ### Known limitations
  
