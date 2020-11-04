@@ -4,7 +4,7 @@ description: "Test the migration of web client configurations to the Unified Int
 ms.custom: 
   - dyn365-USD
   - dyn365-admin
-ms.date: 10/23/2020
+ms.date: 11/04/2020
 ms.service: dynamics-365-customerservice
 ms.topic: article
 author: v-sailab
@@ -18,13 +18,12 @@ search.app:
 ---
 
 # Post-migration steps
-<!--note from editor: Suggest restructuring this introduction as follows. I couldn't see why the first two H2s were given such prominence while all the H3s nestled under "Post-requisites" seemed just as important. This way, all of those H3s will show up in the article TOC and give the reader some idea of how many (and what) steps there are. It might be a good idea to restructure further, so those first two steps aren't so prominent.
-I've assumed that there's an order to these steps, but if there isn't, a bulleted list would be better.-->
+
 This topic describes the steps you need to perform after you migrate configurations from the legacy web client to the Unified Interface app. 
 
 1. [Clear the CEF cache folder](#clear-the-cef-cache-folder)
 1. [Test configurations in the Unified Interface app](#test-configurations-in-the-target-unified-interface-app)
-1. Perform the following post-migration steps<!--note from editor: If there's no reason to cluster these tasks together, I'd delete this line and promote them all.-->
+1. Perform the following post-migration steps
    1. [Verify window navigation rules](#verify-window-navigation-rules)
    1. [Reconfigure events](#reconfigure-events)
    1. [Reconfigure the associated view action call](#reconfigure-the-associated-view-action-call)
@@ -57,7 +56,7 @@ Clear the CEF cache folder before you sign in to the Unified Service Desk applic
 
     ![Selected configurations](../media/usd-migration-assistant-selected-configurations.PNG "Selected configurations")</br>
 
-5. Select **Hosted Controls**.<!--note from editor: This looks like it should be a numbered step; will it be obvious to the reader where to find it?-->
+5. Select **Hosted Controls**.
 
 You can see that the configurations have been migrated to Unified Interface&ndash;specific elements.
 
@@ -68,19 +67,10 @@ You can see that the configurations have been migrated to Unified Interface&ndas
   
   ![Verifying the configuration migration](../media/usd-configuration-migration-verification.PNG "Verifying the configuration migration")
 
-<!--note from editor: Commenting this section out; see above. Also, note that "post-requisite" is cute! but it's not in our style sources nor the American Heritage dictionary. Plus, the optional steps aren't requisite.
-## Post-migration steps
 
-- [Verify window navigation rules](#verify-window-navigation-rules)
-- [Reconfigure events](#reconfigure-events)
-- [Reconfigure the associated view action call](#reconfigure-the-associated-view-action-call)
-- [Reconfigure RunXrmCommands](#reconfigure-runxrmcommands) 
-- [Update the hosting type to Chrome](#update-the-hosting-type-to-chrome) (optional)
-- [Set the Unified Interface theme](#set-the-unified-interface-theme) (optional)
--->
 ## Verify window navigation rules
 
-Page navigation in the web client and Unified Interface are different. In the legacy web client, for window navigation rules, you might have<!--note from editor: Writing Style Guide says "Avoid ambiguous or awkward contractions, such as there'd, it'll, and they'd." Much as I like contractions, I'm going to venture to say that "might've" belongs in this list.--> set up the **Route-type** as **Pop-up** for the originating hosted control, and when you convert the hosted control, the migration tool replaces the **Pop-up** to **Inplace** route type. Based on your earlier configuration, if required, you might want to update the window navigation rules.
+Page navigation in the web client and Unified Interface are different. In the legacy web client, for window navigation rules, you might have set up the **Route-type** as **Pop-up** for the originating hosted control, and when you convert the hosted control, the migration tool replaces the **Pop-up** to **Inplace** route type. Based on your earlier configuration, if required, you might want to update the window navigation rules.
 
 **Verify page navigation behavior**
 
@@ -127,7 +117,7 @@ In the legacy web client, you can pass a script as data in an action call. In Un
 
 The migration tool converts all your action calls and replaces the data parameters with the variables in the function. Be sure to test and validate each action call in the Unified Interface app.
 
-All the data parameters are passed as strings in single quotation marks<!--note from editor: Via Writing Style Guide. Did you want these to be "smart," or should they be straight?-->. For example, `‘[[incident.Id]+]’`.
+All the data parameters are passed as strings in single quotation marks. For example, `‘[[incident.Id]+]’`.
 
 > [!Note]
 > If the data parameter is a JSON object and not a string, you must remove the quotation marks from the data parameter.
@@ -138,7 +128,7 @@ We recommend that you update your hosting type to Chrome. More information: [Upd
 
 ## Set the Unified Interface theme
 
-Set the Unified Interface theme for the Unified Service Desk client application after you migrate your configurations from the legacy web client to Unified Interface. More information: [Customize themes in Unified Service Desk](../customize-themes-in-unified-service-desk.md)<!--note from editor: Moved the cross-reference here so it doesn't disrupt the flow between the bulleted list below and the H3s that follow it.-->
+Set the Unified Interface theme for the Unified Service Desk client application after you migrate your configurations from the legacy web client to Unified Interface. More information: [Customize themes in Unified Service Desk](../customize-themes-in-unified-service-desk.md)
 
 Create a **Unified Interface Settings** record with the theme as **Unified Blue**. More information: [Create Unified Interface Settings record](unified-interface-settings.md#create-unified-interface-settings-record)
 

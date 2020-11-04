@@ -1,7 +1,7 @@
 ---
 title: "Unified Service Desk release notes | MicrosoftDocs"
 description: "Learn about the known issues and limitations in Unified Service Desk."
-ms.date: 10/23/2020
+ms.date: 11/04/2020
 ms.service: dynamics-365-customerservice
 ms.topic: article
 author: v-sailab
@@ -30,10 +30,10 @@ If you're using a **Unified Interface Page** type of hosted control and you've c
 You have **Case** and **Email** hosted controls to load the case and email forms, respectively. You've configured the email to open in an **Email** hosted control. 
  
 Now, when the agent performs any action from a **Case** tab, the create form of an **Email** entity opens in a new tab. However, the related values won't be populated in the email form.
-<!--note from editor: The multiple "Workaround" headings are going to trigger a build warning later this year, so for now I suggest just using bold strings for the heading. Also note that the noun is one word, the verb phrase is two words.-->
+
 **Workaround:**
 
-Configure the **RunXrmCommand** action call to initialize values in the related record, and add the action<!--note from editor: Edit okay? I wasn't sure what "have the action added" meant.--> to the **PageReady** event of the related entity's hosted control. Follow these steps:
+Configure the **RunXrmCommand** action call to initialize values in the related record, and add the action to the **PageReady** event of the related entity's hosted control. Follow these steps:
 
 1. Create a web resource, and write the code to update the lookup value.
 
@@ -68,7 +68,7 @@ functionName=SetLookupValue
 
 ### Unified Service Desk shuts down with an exception
 
-The Unified Service Desk client application suddenly shuts down with a fatal exception error message. The cause is a problem<!--note from editor: Via Writing Style Guide, don't use "issue" to mean "problem."--> with the version of .NET Framework installed on your system.
+The Unified Service Desk client application suddenly shuts down with a fatal exception error message. The cause is a problem with the version of .NET Framework installed on your system.
 
 **Example error message:** 
 
@@ -87,7 +87,7 @@ Microsoft.Crm.UnifiedServiceDesk    Error    2     Message: Origin:USD
    at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)
 ```
 
-More information: [WPF Render Thread Failures](https://docs.microsoft.com/archive/blogs/dsui_team/wpf-render-thread-failures)<!--note from editor: The caution banner on this page doesn't really inspire confidence. Would it be possible to use another link? Maybe this one - https://support.microsoft.com/en-us/help/967634/fix-you-may-experience-several-issues-when-you-render-graphics-by-usin-->
+More information: [WPF Render Thread Failures](https://docs.microsoft.com/archive/blogs/dsui_team/wpf-render-thread-failures)
 
 **Workaround:**
 
@@ -107,7 +107,7 @@ To work around the issue, upgrade your Unified Service Desk client application t
 
 You use the **IE Process** hosting type and upgrade Windows 10 to the latest version. When you open the Unified Service Desk client application, the following error might appear: "Creating an Instance of COM component with CLSID (0002DF01-0000-0000-C000-000000000046) from the IClassfactory failed due to the following error: 8150002e Exception from the HRESULT: 0x8150002E."
 
-Having the Favorites bar enabled in Internet Explorer might cause the error.<!--note from editor: I've tried to avoid saying "you might see" because it has become a bit of a hot-button term that we're trying to get away from using so much. For example, now we say "For more information, go to" rather than "see." -->
+Having the Favorites bar enabled in Internet Explorer might cause the error.
 
 **Workaround:**
 
@@ -136,22 +136,18 @@ If you don't want to remove the Favorites bar from Internet Explorer, add the **
 6. For the **Value** field, select **True**.
 7. Select **Save**.
 
-<!--note from editor: This note seems out of place. The error was discussed in the introduction to this section.
-> [!Note]
-> The mitigation works for the issue with HRESULT: 0x8150002E.
--->
 
 ### DOM access in Chrome Process
 
-With **Chrome Process**, you can't access the Document Object Model (DOM) element from the C3 custom code.<!--note from editor: What is "C3 customer code?-->
+With **Chrome Process**, you can't access the Document Object Model (DOM) element from the C3 custom code.
 
 **Workaround:**
 
-To work around the problem, you must write JavaScript code to access the DOM and execute the **RunScript** action on it.<!--note from editor: Will the reader know how to do this?-->
+To work around the problem, you must write JavaScript code to access the DOM and execute the **RunScript** action on it.
 
 ### Window Navigation Rules for Advanced Find doesn't work
 
-When you use Unified Service Desk with Unified Interface apps, window navigation rules for the **Advanced Find** page might not work because the page is available only in the legacy web client. Therefore, you must retain the route type as **Popup**.<!--note from editor: Will the reader know how to do this?-->
+When you use Unified Service Desk with Unified Interface apps, window navigation rules for the **Advanced Find** page might not work because the page is available only in the legacy web client. Therefore, you must retain the route type as **Popup**.
 
 ### Importing a solution causes an error with Package Deployer
 
@@ -167,7 +163,7 @@ When you use **Chrome Process** to host applications in Unified Service Desk, if
 
 ### Support for the CloseAndPrompt action in Chrome Process
 
-**Chrome Process** doesn't support the **CloseAndPrompt** action for the legacy web client. When you make changes in a webpage or form in the legacy web client, the process doesn't perform a page modified (data changes) check and prompt you with a dialog box to confirm changes<!--note from editor: Edit okay? "Prompting a dialog" was a bit confusing.-->. Instead, when you close the webpage or form, Unified Service Desk closes the webpage or form.
+**Chrome Process** doesn't support the **CloseAndPrompt** action for the legacy web client. When you make changes in a webpage or form in the legacy web client, the process doesn't perform a page modified (data changes) check and prompt you with a dialog box to confirm changes. Instead, when you close the webpage or form, Unified Service Desk closes the webpage or form.
 
 ### Support for microphone and webcam with Dynamics 365 Channel Integration Framework
 
@@ -181,7 +177,7 @@ When you integrate a channel with Unified Service Desk by using Dynamics 365 Cha
 
 #### Support for alert with the WebView control
 
-**Edge Process** doesn't support the native JavaScript alert in the WebView control. When you use the Microsoft Edge WebView control, the alert<!--note from editor: Because this is defined as a WPF message, I removed the "dialog box" descriptor here.--> (Windows Presentation Foundation message) shows the information. However, the alert doesn't stop the JavaScript execution. That is, even though you don't perform an action in the alert dialog box, the JavaScript execution continues.
+**Edge Process** doesn't support the native JavaScript alert in the WebView control. When you use the Microsoft Edge WebView control, the alert (Windows Presentation Foundation message) shows the information. However, the alert doesn't stop the JavaScript execution. That is, even though you don't perform an action in the alert dialog box, the JavaScript execution continues.
 
 #### Support for confirm dialog box
 
@@ -204,7 +200,7 @@ When you execute a long-running script by using **Edge Process**, the Unified Se
 When you host your webpages in a Unified Service Desk client application using **Edge Process**, downloading files from the web application isn't supported.
 
 **Workaround:**
-<!--note from editor: Reorganized this a bit so we could use the "Workaround" heading again. It seems like a good visual cue for the reader.-->
+
 Open the Microsoft Edge browser separately, go to the website URL, and then download the file.
 
 #### Support for opening an application for a URI with the Edge WebView control
@@ -249,7 +245,7 @@ Save the configuration, sign in to Unified Service Desk, and open any article to
 
 ### Ribbon command not loading in forms
 
-If the URL for an entity list includes `cmdbar=false`, any URL originating from the entity list<!--note from editor: Edit okay? Not sure what "URL originating from the URL" meant.--> might not show the ribbon command bar. For example, if you're navigating from a case grid to a case and the URL includes `cmdbar=false`, the case page might not show the ribbon command bar.<!--note from editor: I made similar edits to the other three similar sections. Please check them all!-->
+If the URL for an entity list includes `cmdbar=false`, any URL originating from the entity list might not show the ribbon command bar. For example, if you're navigating from a case grid to a case and the URL includes `cmdbar=false`, the case page might not show the ribbon command bar.
 
 **Workaround:**
 
@@ -291,7 +287,7 @@ The following audio file types aren't supported in Unified Service Desk:
 - wma
 
 ### See also
-<!--note from editor: To prevent "See also" headings from showing up in the article TOC, we always make them H3s no matter where they fall in the heading structure. Also, note that you can use two spaces at the end of each entry in the list to make them render as a tight stack (or you can use <br> tags).-->
+
 [Use Edge Process to host web application](edge-process.md)  
 [Use Chrome Process to host web application](chrome-process.md)  
 [Integrate channel using Dynamics 365 Channel Integration Framework](integrate-channel-provider-channel-integration-framework.md)
@@ -303,10 +299,10 @@ The following audio file types aren't supported in Unified Service Desk:
 ## Unified Service Desk 4.0 known issues and limitations
 
 ### Selecting articles from the Unified Interface KM Control in Unified Service Desk displays an error
-<!--note from editor: Is the edit to the above heading okay?-->
+
 If you're using **Web client - Unified Interface Migration Assistant** to migrate your Unified Service Desk configurations from the legacy web client to Unified Interface, **KM Control** will be changed to **Unified Interface KM Control**.
 
-With the **Unified Interface KM Control** hosted control, if you sign in to Unified Service Desk and open any KB article, a server error similar to the following image appears.<!--note from editor: Alt text suggested. Remember that if an image conveys information that isn't in body text, we need to make sure the alt text describes it fully.-->
+With the **Unified Interface KM Control** hosted control, if you sign in to Unified Service Desk and open any KB article, a server error similar to the following image appears.
 
 ![Opening an article displays the error "HTTP verb used to access this page is not allowed"](media/kb-search-server-error.PNG "Opening an article displays the error 'HTTP verb used to access this page is not allowed'")
 
@@ -383,7 +379,7 @@ However, the tab doesn't close, and the Unified Interface page (form) navigates 
 
 **Workaround:**
 
-To make it possible to close the tab, select **User Can Close** in the hosted control so that **Close** (**X**)<!--note from editor: Via Writing Style Guide.--> appears on the tab in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. 
+To make it possible to close the tab, select **User Can Close** in the hosted control so that **Close** (**X**) appears on the tab in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. 
 
 ![Set the User Can Close option in the hosted control](media/usd-crm-usercanclose-option.png "Set the User Can Close option in the hosted control")
 
@@ -411,9 +407,9 @@ Selecting the **New** button (quick create) on the **Navigation** toolbar of the
 
 ### Navigation and command bar configuration doesn't execute when Internet Explorer pooling is enabled
 
-By default, when you a open customer engagement app<!--note from editor: Edit okay? Guidance around "model-driven app" has changed lately. Please see https://styleguides.azurewebsites.net/StyleGuide/Read?id=2696&topicid=45145 and verify this usage.--> page in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, the navigation bar is hidden and the command bar is displayed. 
+By default, when you a open customer engagement app page in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, the navigation bar is hidden and the command bar is displayed. 
 
-However, when you enable Internet Explorer pooling and change the configurations to hide the command bar and display the navigation bar, the customer engagement app's<!--note from editor: See previous comment.--> page in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application does hide the command bar and display the navigation bar.
+However, when you enable Internet Explorer pooling and change the configurations to hide the command bar and display the navigation bar, the customer engagement app's page in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application does hide the command bar and display the navigation bar.
 
 To execute the configuration, disable Internet Explorer pooling.
 
@@ -513,7 +509,7 @@ If you open several tabs and want to execute a **RunScript** action on a tab tha
 > - [!INCLUDE[pn-unified-service-desk-3-2](../includes/pn-unified-service-desk-3-2.md)]
 
 **Closing a CRM entity page starts loading but never finishes**
-<!--note from editor: Why we don't say that the page "starts to close but never finishes closing"? I might not be picturing this correctly.-->
+
 When **InternetExplorerPooling** is enabled and you close a CRM entity page hosted in Unified Service Desk by selecting **Close** (**X**), the CRM entity page starts loading but never finishes.
 
   ![Closing a CRM entity page hosted in Unified Service Desk by using Close](../unified-service-desk/media/usd-crm-page-hosted-close-button.PNG "Closing a CRM entity page hosted in Unified Service Desk by using Close")
@@ -527,11 +523,11 @@ Right-click the CRM entity page, and then select **Forward** from the context me
 ![Right-click the CRM entity page and select Forward from the context menu](../unified-service-desk/media/usd-crm-page-right-click-CRM-entity-page-select-forward.PNG "Right-click the CRM entity page and select Forward from the context menu")
 
 > [!NOTE]
-> After you perform the workaround, the session that you're working in will be fine and you won't lose any data.<!--note from editor: Is this what this means? -->
+> After you perform the workaround, the session that you're working in will be fine and you won't lose any data.
 
 ### Selecting the back button in a session doesn't navigate to the original URL
 
-If you open any webpage in the browser with hosted controls using the **IE Process** hosting method, the webpage opens in a new window within the same hosted control and overlays the existing window. Because this window doesn't have any history to navigate back to, you can't go back to the original page by selecting the back button in the webpage.<!--note from editor: Edit okay? I thought this was a bit repetitive.-->
+If you open any webpage in the browser with hosted controls using the **IE Process** hosting method, the webpage opens in a new window within the same hosted control and overlays the existing window. Because this window doesn't have any history to navigate back to, you can't go back to the original page by selecting the back button in the webpage.
 
 **Workaround:**
 
@@ -545,7 +541,7 @@ In this step, you'll create an action call to show the webpage.
 2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]
 3. Select **Action Calls**.
 4. Select **+ New**.
-5. On the **New Action Call** page, specify the following values.<!--note from editor: In the next two images, I don't find "Laitha Kadali" in our approved fictitious names list. Is it part of sample data? -->
+5. On the **New Action Call** page, specify the following values.
   
    | Field | Value |
    |----------|-----------|
