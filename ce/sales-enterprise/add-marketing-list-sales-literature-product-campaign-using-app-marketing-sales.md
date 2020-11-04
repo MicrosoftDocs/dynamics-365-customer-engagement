@@ -12,7 +12,7 @@ ms.author: shujoshi
 manager: annbe
 searchScope:
   - D365-App-msdynce_saleshub
-  - D365-Entity-marketinglist
+  - D365-Entity-list
   - D365-Entity-campaign
   - D365-UI-Form
   - Dynamics 365
