@@ -13,8 +13,8 @@ manager: annbe
 searchScope:
   - D365-App-msdynce_saleshub
   - D365-Entity-list
-  - D365-Entity-Campaign
-  - D365-Entity-Campaignactivity
+  - D365-Entity-campaign
+  - D365-Entity-campaignactivity
   - D365-UI-Form
   - Dynamics 365
   - Sales
