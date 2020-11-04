@@ -2,11 +2,10 @@
 title: Unified Service Desk data compliance under GDPR | MicrosoftDocs
 description: Learn about data in Unified Service Desk that comes under General Data Protection Regulation (GDPR)
 ms.date: 04/24/2018
-ms.service: 
-  - "dynamics-365-customerservice"
+ms.service: dynamics-365-customerservice
 ms.topic: article
-author: kabala123
-ms.author: kabala
+author: v-sailab
+ms.author: v-sailab
 manager: shujoshi
 search.audienceType: 
   - admin

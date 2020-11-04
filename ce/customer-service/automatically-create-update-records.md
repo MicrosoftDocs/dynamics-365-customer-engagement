@@ -6,10 +6,8 @@ ms.author: nenellim
 manager: shujoshi
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: 
-  dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
+ms.service: dynamics-365-customerservice
+ms.custom: dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -106,7 +104,7 @@ On the **Advanced** tab of the **Record creation and update rule** page for a ru
 1. On the **Automatic record creation and update rules** page, select the rule in the list that you want to update. The *<rule_name>* page appears.
 2. Select the **Advanced** tab, and do the following in **Before evaluating conditions**:
 
-   - **Allow emails from unknown senders:** Set it to yes if you want records to be created when email messages arrive from senders whose email addresses aren't present in any records. A contact record is also created.
+   - **Allow emails from unknown senders:** Set it to yes if you want records to be created when email messages arrive from senders whose email addresses aren't present in any contact or account records.
 
         This option, in conjunction with the Automatically create records in Dynamics 365 for Customer Engagement option in the rule owner's Personal Options, determines whether a case and contact record is created. To learn more, see [Set personal options](../customerengagement/on-premises/basics/set-personal-options.md).
 

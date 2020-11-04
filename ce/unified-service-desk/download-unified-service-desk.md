@@ -4,11 +4,10 @@ description: "This topic provides information about how to download Unified Serv
 ms.custom: 
   - dyn365-USD
 ms.date: 08/17/2018
-ms.service: 
-  - dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.topic: article
-author: kabala123
-ms.author: kabala
+author: v-sailab
+ms.author: v-sailab
 manager: shujoshi
 search.audienceType: 
   - customizer
