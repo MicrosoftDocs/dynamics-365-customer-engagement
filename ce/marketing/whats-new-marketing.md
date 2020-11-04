@@ -50,7 +50,7 @@ The Dynamics 365 Marketing November 2020 update includes several enhancements in
     - Events automatically shows Teams meetings and live events on the organizer's Outlook calendar.
 - **First run experience**
     - Addressing customer feedback, we’ve improved the portal trial experience.
-    - Portal trials now include including better tracking of the trial expiration date.
+    - Portal trials now include better tracking of the trial expiration date.
     - Differences between Dynamics 365 Portals and Power Apps portals are also explained more clearly in the UI.
 - **Social posting**
     - Enhanced UI for a more efficient social posting experience.
@@ -79,9 +79,10 @@ The Dynamics 365 Marketing November 2020 update includes several enhancements in
     - Fixed an issue where the Dynamics 365 Customer Voice tile was not shown in **Advanced elements** in the toolbox.
     - Resolved an error caused by setting and then removing an image width value.
     - Resolved an issue where a horizontal line sometimes appeared between two sections of an email in Outlook.
-    - Fixed an issue where margins on images occasionally did not function correctly in Outlook.
+    - Fixed an issue where margins on images occasionally did not render correctly in Outlook.
     - Resolved an error that caused linked images to have a blue border.
     - Fixed an issue that caused background images in columns to not work in sections with a background image.
+    - Improved new compatibility for new email templates.
 - **Marketing pages**
     - Fixed an error that occasionally enabled users to save locked marketing lists.
     - Enabled visibility for subscription list lock status in list view.
@@ -90,6 +91,7 @@ The Dynamics 365 Marketing November 2020 update includes several enhancements in
     - Improved form capture compatibility with server-side detection.
     - Fixed an issue that caused a correlation renewal error when a browser window was collapsed for a long period of time.
     - Resolved an occasional error with custom registration fields.
+    - Fixed an error that resulted when a contact quickly subscribed then unsubscribed from a marketing list.
 
 ## October 2020 update
 
