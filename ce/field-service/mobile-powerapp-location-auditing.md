@@ -1,5 +1,5 @@
 ---
-title: "Install and setup Dynamics 365 for Field Service | MicrosoftDocs"
+title: "Location auditing on the Dynamics 365 Field Service mobile app | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2020
@@ -26,12 +26,13 @@ search.app:
   - D365FS
 ---
 
-# title
+# Location auditing on the Dynamics 365 Field Service mobile app
+
+// https://msit.microsoftstream.com/video/0a25a1ff-0400-9fb2-fe26-f1eb1afe3269
 
 
 ## Prerequisites
-> [!Note]
->
+
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/.png)
@@ -55,6 +56,7 @@ This allows a technician's location data stream to be sent to Dynamics 365 Field
 ## Step 2. Allow Field Service mobile to access your location
 
 After enabling location tracking, you should test the location data stream.
+
 First, log into the Dynamics 365 Field Service mobile application and Allow Field Service to access your location while using the app.
 
 
@@ -67,8 +69,13 @@ First, log into the Dynamics 365 Field Service mobile application and Allow Fiel
 The bookable resource's current location will appear on the schedule board map. Select the map pin icon next to the bookable resource's name and the map will display the location with a different icon.
 
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of current location on schedule board map](./media/mobile-geofence-map-location.png)
+
+
+
 ## Step 4. Location Audit
-Using the Geolocation Tracking entity and Advance Find, you can query to run location audits.
+Using the **Geolocation Tracking** entity and Advance Find, you can query to run location audits.
 
 
 > [!div class="mx-imgBorder"]
@@ -79,7 +86,8 @@ Using the Geolocation Tracking entity and Advance Find, you can query to run loc
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-location-geolocation-tracking-results.png)
 
-Note:  If you want to correlate technician location with other Field Service entity updates, such as Booking Resource Bookings, go to Auditing Overview for more info with instructions to enable for your organization and select entities.  
+> [!Note]
+> If you want to correlate technician location with other Field Service entity updates, such as Booking Resource Bookings, go to Auditing Overview for more info with instructions to enable for your organization and select entities.  
 
 
 ## Configuration considerations
