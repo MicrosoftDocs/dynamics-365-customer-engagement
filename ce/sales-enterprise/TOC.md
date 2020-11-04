@@ -311,6 +311,7 @@
 ## Dynamics 365 Sales mobile app
 ### [Overview](sales-mobile/dynamics-365-sales-mobile-app.md)
 ### Administrator guide
+#### [Enable Dynamics 365 Sales mobile](sales-mobile/enable-sales-mobile.md)
 ### User guide
 #### [Install the app](sales-mobile/install-the-app.md)
 #### [Your first experience](sales-mobile/first-experience.md)
