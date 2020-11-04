@@ -2,8 +2,7 @@
 title: "Timeline FAQs | MicrosoftDocs"	
 description: "Timeline FAQs"	
 ms.date: 07/27/2020	
-ms.service:	
-   "dynamics-365-customerservice"	
+ms.service:	"dynamics-365-customerservice"	
 ms.topic: article	
 author: lerobbin	
 ms.author: lerobbin	

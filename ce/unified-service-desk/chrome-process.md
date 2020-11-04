@@ -4,11 +4,10 @@ description: "Learn about the Chrome Process hosting method for your controls in
 ms.custom: 
   - dyn365-USD
 ms.date: 07/12/2019
-ms.service: 
-  - dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.topic: "article"
-author: kabala123
-ms.author: kabala
+author: v-sailab
+ms.author: v-sailab
 manager: shujoshi
 search.audienceType: 
   - customizer

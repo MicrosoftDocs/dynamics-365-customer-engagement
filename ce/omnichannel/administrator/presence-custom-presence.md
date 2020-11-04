@@ -6,8 +6,7 @@ ms.author: nenellim
 manager: shujoshi
 ms.date: 10/12/2019
 ms.topic: article
-ms.service: 
-  "dynamics-365-customerservice"
+ms.service: "dynamics-365-customerservice"
 ---
 # Configure and manage custom presence
 

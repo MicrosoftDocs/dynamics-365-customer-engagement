@@ -2,11 +2,10 @@
 title: "Unified Service Desk configurations | MicrosoftDocs"
 description: "Learn about the Unified Service Desk configurations that you make in the Common Data Service Platform on which the Best practices Analyer performs analysis and displays a report."
 ms.date: 04/24/2018
-ms.service: 
-  - "dynamics-365-customerservice"
+ms.service: dynamics-365-customerservice
 ms.topic: article
-author: kabala123
-ms.author: kabala
+author: v-sailab
+ms.author: v-sailab
 manager: shujoshi
 ---
 
