@@ -3,7 +3,7 @@ title: "Configure and manage category for knowledge articles for a portal | Micr
 description: "Instructions to create and manage a category for knowledge article."
 ms.custom: 
   - dyn365-portal
-ms.date: 12/03/2018
+ms.date: 11/05/2020
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
