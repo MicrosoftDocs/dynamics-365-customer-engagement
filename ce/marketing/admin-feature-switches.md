@@ -2,7 +2,7 @@
 title: "Enable or disable optional and preview features with feature switches (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to use the Feature switches page to enable or disable optional and preview features in Dynamics 365 Marketing."
 keywords: administration; sample data
-ms.date: 08/04/2020
+ms.date: 11/02/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -30,13 +30,15 @@ To enable or disable a feature, go to **Settings** > **Advanced settings** > **O
 
 The following table lists each available feature together with its preview status and links for more information.
 
-| Feature switch | Preview or production | Link for more information |
+| Feature switch | Preview or production | More information |
 |---|---|---|
 | Accessibility checker | Production | [Email accessibility checker](email-accessibility.md)|
+| Post-processing switch | Production | Turn off post-processing in the email editor|
 | Business unit scoping | Production | [Use business units to control access to Marketing records](business-units.md)|
 | Event registration forms | Preview | [Marketing forms for event registration](event-forms.md)|
-| Online events on Teams | Preview | [Enables Microsoft Teams as a streaming provider for events](teams-webinar.md)|
-| Dynamics 365 Dynamics 365 Customer Voice marketing integration | Production | [Dynamics 365 Customer Voice integration with Dynamics 365 Marketing](customer-voice.md) |
+| Updated customer journey designer | Production | [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)|
+| Dynamics 365 Customer Voice Marketing integration | Production | [Add surveys to your marketing campaigns](customer-voice.md) |
+| Segmentation natural language queries | Preview | [Natural language use in segments](nl-segment-build.md) |
 
 > [!IMPORTANT]
 > [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]

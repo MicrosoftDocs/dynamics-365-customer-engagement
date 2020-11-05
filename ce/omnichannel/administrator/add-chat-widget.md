@@ -1,13 +1,12 @@
 ---
 title: "Add a chat widget | MicrosoftDocs"
 description: "Instructions to add a chat widget in Omnichannel for Customer Service."
-ms.date: 10/12/2020
-ms.service:
-  - "dynamics-365-customerservice"
-ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
+ms.date: 10/12/2020
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ---
 
 # Add a chat widget

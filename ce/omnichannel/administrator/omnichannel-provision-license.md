@@ -1,13 +1,12 @@
 ---
 title: "Provision Omnichannel for Customer Service | MicrosoftDocs"
 description: "Provision Omnichannel for Customer Service to add or remove channels"
-author: lalexms 
+author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 09/01/2020
-ms.service: 
-  - "dynamics-365-customerservice"
+ms.date: 10/29/2020
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ---
 
 # Provision Omnichannel for Customer Service
@@ -98,6 +97,10 @@ To allow Omnichannel for Customer Service to read and write data on behalf of us
 
     > [!div class=mx-imgBorder]
     > ![Set up complete](../media/install-complete.png "Set up complete")
+
+
+> [!IMPORTANT]
+> If the provisioning of Omnichannel for Customer Service fails and you retry it, you might see an app profile named **Omnichannel Upgraded OOB Default app profile** on the **App profiles** page in Power Apps. You can safely delete this app profile that is created.
 
 ## Update Omnichannel for Customer Service application
 

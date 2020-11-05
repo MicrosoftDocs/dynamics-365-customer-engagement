@@ -1,13 +1,12 @@
 ---
 title: "Add hosted control, action calls, events, and window navigation rule to configurations | MicrosoftDocs"
 description: "Learn how add action calls, events, window navigation rule and hosted control to the configurations."
-author: kabala123
-ms.author: kabala
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.date: 07/01/2019
-ms.service: 
-  - "dynamics-365-customerservice"
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ---
 
 # Step 6:  Add the hosted control, action calls, window navigation rule, and events to configurations

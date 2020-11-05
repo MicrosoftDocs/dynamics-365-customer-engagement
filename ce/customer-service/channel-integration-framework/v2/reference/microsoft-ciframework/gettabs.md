@@ -1,13 +1,12 @@
 ---
 title: "getTabs (JavaScript API Reference) for Dynamics 365 Channel Integration Framework (CIF) version 2.0 | MicrosoftDocs"
 description: ""
-author: susikka
-ms.author: susikka
+author: ramana-hyd
+ms.author: v-rmurthy
 manager: shujoshi
-ms.date: 12/31/2019
+ms.date: 11/02/2020
 ms.topic: reference
-ms.service: 
-  - dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
@@ -21,13 +20,13 @@ Returns an array of tab Ids associated with template name or template tags for t
 
 ## Syntax
 
-`Microsoft.CIFramework.getTabs(name, tags, correlationId).then(successCallback, errorCallback);`
+`Microsoft.CIFramework.getTabs(tabtemplatename, tags, correlationId).then(successCallback, errorCallback);`
 
 ## Parameters
 
 | **Name**        | **Type** | **Required** | **Description**                                                       |
 |-----------------|----------|--------------|-----------------------------------------------------------------------|
-| Name            | String   | Yes          | Name of the application tab template                                  |
+| Unique Name     | String   | No           | Unique Name of the application tab template                           |
 | tags            | String   | No           | Tags associated with the application tab                              |
 | correlationId   | GUID     | No           | Used to group all related API calls together for diagnostic telemetry |
 | successCallback | Function | No           | A function to call when the request is successful                     |
@@ -40,7 +39,7 @@ Promise with the value as Array of strings
 ## Example
 
 ```javascript
-Microsoft.CIFramework.getTabs("tabtemplatename”, correlationId).then(
+Microsoft.CIFramework.getTabs("tabtemplatename", correlationId).then(
 function(result) {
 return Promise.resolve(result);
 },

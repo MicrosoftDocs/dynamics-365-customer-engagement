@@ -1,13 +1,12 @@
 ---
 title: "focusTab (JavaScript API Reference) for Dynamics 365 Channel Integration Framework (CIF) version 2.0 | MicrosoftDocs"
 description: ""
-author: susikka
-ms.author: susikka
+author: ramana-hyd
+ms.author: v-rmurthy
 manager: shujoshi
-ms.date: 12/31/2019
+ms.date: 11/02/2020
 ms.topic: reference
-ms.service: 
-  - dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
@@ -44,5 +43,5 @@ return Promise.resolve(result);
 },
 function(error) {
 return Promise.reject(error)
-};
+});
 ```

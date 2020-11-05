@@ -5,9 +5,9 @@ author: platkat
 ms.author: ktaylor
 manager: shujoshi
 ms.date: 10/12/2020
-ms.service: 
-  "dynamics-365-customerservice"
 ms.topic: article
+ms.service: "dynamics-365-customerservice"
+ms.reviewer: nenellim
 ---
 
 # Configure outbound messaging
@@ -122,7 +122,13 @@ To set up a Power Automate flow, complete the following steps.
 When the customer responds back to the outbound messages, the customer messages will be treated like any other incoming conversation that exists today in Omnichannel for Customer Service. The conversation will be routed and assigned to an agent, and the agent will be able to respond back to the customer.
 
 > [!NOTE]
-> Outbound messaging imposes limits of 100 contacts per request and 30,000 requests per org per hour. It is recommended to implement batch processing logic in flows limiting contacts per request to 100 where higher loads are expected. This is mostly applicable to instant and scheduled type flows. 
+> Outbound messaging imposes limits of 100 contacts per request and 30,000 requests per org per hour. It is recommended to implement batch processing logic in flows limiting contacts per request to 100 where higher loads are expected. This is mostly applicable to instant and scheduled type flows.
+
+### Video
+
+[Outbound messaging in Omnichannel for Customer Service](https://go.microsoft.com/fwlink/?linkid=2147614)
+
+To view more videos on Omnichannel for Customer Service, see [Videos](../videos.md).
 
 ### See also
 

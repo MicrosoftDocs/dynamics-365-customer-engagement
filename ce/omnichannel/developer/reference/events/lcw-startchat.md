@@ -1,8 +1,8 @@
 ---
 title: "lcw startChat | MicrosoftDocs"
 description: 
-author: susikka
-ms.author: susikka
+author: ramana-hyd
+ms.author: v-rmurthy
 manager: shujoshi
 ms.topic: article
 ---
@@ -11,6 +11,10 @@ ms.topic: article
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
 This event is triggered when a chat is started.
+
+Lcw:startChat is raised when the related startChat() SDK method is called.
+
+When a customer starts a chat, a call is made to the startChat() SDK method. This event is then raised when the startChat() SDK method is called.
 
 ## Example
 

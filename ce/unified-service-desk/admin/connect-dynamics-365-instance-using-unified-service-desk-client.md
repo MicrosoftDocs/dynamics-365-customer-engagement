@@ -1,16 +1,15 @@
 ---
 title: "Connect to a model-drive app using the Unified Service Desk  client | MicrosoftDocs"
 description: "Learn how to connect to the Unified Service Desk solution using the Unified Service Desk client."
+author: v-sailab
+ms.author: v-sailab
+manager: shujoshi
+ms.date: 02/14/2020
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-USD
   - dyn365-admin
-ms.date: 02/14/2020
-ms.service: 
-  - dynamics-365-customerservice
-ms.topic: article
-author: kabala123
-ms.author: kabala
-manager: shujoshi
 search.audienceType: 
   - admin
 search.app: 
