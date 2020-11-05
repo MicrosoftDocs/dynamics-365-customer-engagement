@@ -1,12 +1,12 @@
 ---
 title: "View a customer summary in Omnichannel for Dynamics 365 | MicrosoftDocs"
 description: "Customer summary is a page where you can get all available information about the customer with whom you're going to interact."
-author: kabala123
-ms.author: kabala
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.date: 02/03/2020
-ms.service: "dynamics-365-customerservice"
 ms.topic: article
+ms.service: "dynamics-365-customerservice"
 ---
 # View a customer summary to get available information about a customer
 

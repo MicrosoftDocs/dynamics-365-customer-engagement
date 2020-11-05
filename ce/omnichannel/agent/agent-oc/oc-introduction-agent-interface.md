@@ -1,13 +1,12 @@
 ---
 title: "Introduction to the agent interface of Omnichannel for Customer Service app | MicrosoftDocs"
 description: "Learn about agent interface of Omnichannel for Customer Service app"
-author: kabala123
-ms.author: kabala
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.date: 12/27/2019
-ms.service: 
-  - "dynamics-365-customerservice"
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ---
 
 # Introduction to the agent interface of Omnichannel for Customer Service

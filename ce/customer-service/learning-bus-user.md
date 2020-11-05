@@ -1,10 +1,10 @@
 ---
-title: Business users learning catalog 
-description: Find all the training options for business users. 
+title: Business users learning catalog
+description: Find all the training options for business users.
 author: loreleishannonmsft
-ms.topic: article
-ms.date: 01/08/2020
 ms.author: v-lshann
+ms.date: 01/08/2020
+ms.topic: article
 ---
 
 # Business Users Learning Catalog

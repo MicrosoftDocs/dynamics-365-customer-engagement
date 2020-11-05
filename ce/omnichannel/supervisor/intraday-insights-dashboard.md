@@ -5,8 +5,8 @@ author: lalexms
 ms.author: laalexan
 manager: shujoshi
 ms.date: 10/30/2020
-ms.service: dynamics-365-customerservice
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ---
 
 # View and understand Omnichannel intraday insights dashboard

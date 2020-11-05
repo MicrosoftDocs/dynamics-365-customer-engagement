@@ -1,13 +1,12 @@
 ---
 title: "Create customer summary page hosted control | MicrosoftDocs"
 description: "Learn how to create the customer summary hosted control for agents using Omnichannel for Customer Service."
-author: kabala123
-ms.author: kabala
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.date: 07/01/2019
-ms.service: 
-  - "dynamics-365-customerservice"
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ---
 
 # Step 1: Create customer summary hosted control

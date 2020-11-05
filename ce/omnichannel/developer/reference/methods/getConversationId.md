@@ -6,6 +6,7 @@ ms.author: ktaylor
 manager: shujoshi
 ms.date: 10/15/2020
 ms.topic: article
+ms.reviewer: nenellim
 ---
 # getConversationId
 
