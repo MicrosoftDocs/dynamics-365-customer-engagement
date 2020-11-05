@@ -5,9 +5,8 @@ author: lalexms
 ms.author: laalexan
 manager: shujoshi
 ms.date: 09/02/2020
-ms.service: 
-  - "dynamics-365-customerservice"
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ---
 
 # Create chat authentication settings
@@ -24,7 +23,7 @@ An agent will get a notification in the **Conversation summary** section whether
 
 ## Prerequisites
 
-Make sure your organization has a working knowledge of Oauth 2.0 and Javascript Web Tokens (JWTs). 
+Make sure your organization has a working knowledge of Oauth 2.0 and JSON Web Tokens (JWTs). 
 
 ## Create a chat authentication setting record
 

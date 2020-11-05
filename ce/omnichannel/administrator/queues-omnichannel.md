@@ -5,9 +5,8 @@ author: neeranelli
 ms.author: nenellim
 manager: shujoshi
 ms.date: 10/12/2020
-ms.service: 
-  "dynamics-365-customerservice"
 ms.topic: article
+ms.service: "dynamics-365-customerservice"
 ---
 
 # Work with queues in Omnichannel for Customer Service
@@ -31,7 +30,7 @@ To simplify the routing experience for administrators and supervisors, queues ar
 
 The queue types help ensure issues to be routed correctly and help avoid cross-queue assignments. When you configure work streams and routing rule items, the queues that will be available for selection will be based on the channel type for the work stream. For example, for routing rules for a Live Chat work stream, only messaging type queues will be shown for selection. Similarly, in a conversation transfer scenario, you can transfer a chat conversation only to a messaging queue and a case to an entity queue.
 
-You can assign priority to queues. All conversations in a queue take the priority that is defined for the queue; higher priority conversations are allocated first. For example, if there are two chat conversations coming from two queues with priorities assigned as Priority 1 and Priority 2 respectively, chat conversation with Priority 1 will be allocated to an agent first.
+You can assign priority to queues. A lower value indicates higher priority and a higher value indicates lower priority. All conversations in a queue take the priority that is defined for the queue; higher priority conversations are allocated first. For example, if two chat conversations are waiting in two queues that have priority defined as 1 and 2 respectively, the chat conversation with priority value 1 will be allocated to an agent first.
 
 ## Default queues
 

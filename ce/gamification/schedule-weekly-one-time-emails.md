@@ -33,7 +33,7 @@ Send weekly updates on the leaderboards or announce award winners by using sched
 
 1. In [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)], go to **Games** > **Emails**.
 
-2. Click the **Schedule New Email**  ![Add button in Gamification](media/add-button-gamification.png "Add button in Gamification") button.
+2. Select the **Schedule New Email**  ![Add button in Gamification](media/add-button-gamification.png "Add button in Gamification") button.
 
 3. Provide the basic information for your email, including **Name**, **Game**, **Frequency**, and **Recipients**.
 
@@ -41,11 +41,11 @@ Send weekly updates on the leaderboards or announce award winners by using sched
 
     To embed a leaderboard in your email, select a leaderboard from **Available Tags**. Next, prepend the tag with the number of places you want to see in the leaderboard, followed by an underscore. For example, to show the top five fantasy team leaders, use this format: `[5_FANTASY_TEAM_LEADERS]`.
 
-5. When you're done drafting your email, click **Save**.
+5. When you're done drafting your email, select **Save**.
 
-6. Click **Send Test** to send yourself a test email to verify the content.
+6. Select **Send Test** to send yourself a test email to verify the content.
 
-7. When you are satisfied with the email, click **Schedule** to activate the email schedule as defined in step 3.
+7. When you are satisfied with the email, select **Schedule** to activate the email schedule as defined in step 3.
 
 ### See also
 

@@ -4,9 +4,10 @@ description: "Instructions to integrate a bot in Omnichannel for Customer Servic
 author: platkat
 ms.author: ktaylor
 manager: shujoshi
-ms.date: 10/12/2020
-ms.service: dynamics-365-customerservice
+ms.date: 10/23/2020
 ms.topic: article
+ms.service: dynamics-365-customerservice
+ms.reviewer: nenellim
 ---
 
 # Integrate a Power Virtual Agents bot
@@ -36,7 +37,7 @@ When you integrate a Power Virtual Agents bot with Omnichannel for Customer Serv
 
 ## Configure your Power Virtual Agents bot
 
-Once the Power Virtual Agents bot is created and configured to work with Omnichannel for Customer Service, you can configure it to hand off conversations to queues in the Omnichannel Administration app. To receive incoming messages, you must add the bot to at least one queue. The bot will use the routing rules that were created at setup. You can change them in the **Work Streams** section of Omnichannel.
+After the Power Virtual Agents bot is created and configured to work with Omnichannel for Customer Service, you can configure it to hand off conversations to queues in the Omnichannel Administration app. To receive incoming messages, you must add the bot to at least one queue. The bot will use the routing rules that were created at setup. You can change them in the **Work Streams** section of Omnichannel.
 
 **Set up your Power Virtual Agents bot**
 
@@ -96,9 +97,53 @@ Ensure to map the routing rules to the correct queues so that the queries are ro
 > [!NOTE]
 > When you run a report on Power Virtual Agent activity, the number of bot sessions may differ from the number of sessions in Omnichannel for Customer Service.
 
+## Enable a human agent to transfer a conversation back to a bot
+
+The previous section explained how to configure a single conversation transfer from a Power Virtual Agents bot to a human agent. Some support scenarios may require a human agent to transfer a conversation back to a Power Virtual Agents bot after delivering personalized support. This second transfer from human agent to bot may be used to provide further assistance with basic, repetitive tasks or to collect additional data, for example, in a customer survey.
+
+There are two ways to facilitate a human agent transfer of a conversation back to a bot:
+
+- Create two bots that reside in two queues 
+- Create two bots that reside in the same queue
+
+### Two bots in two queues
+
+In this scenario, a bot has transferred a conversation to a human agent. The human agent will transfer the conversation again to another bot in another queue.
+
+1. A customer initiates a conversation.
+2. The conversation routed to Queue 1.
+3. The first bot (Bot A) accepts the conversation.
+4. The customer requests to chat with a human agent.
+5. The conversation is transferred to a human agent within Queue 1.
+6. The customer converses with the human agent.
+7. The human is finished delivering support and wants to hand off the conversation to a second bot (Bot B), which resides in Queue 2.
+8. The human agent is disconnected from the conversation.
+9. The conversation routed to Bot B in Queue 2.
+10.	The system triggers Bot B to send a greeting message.
+11. The customer now converses with Bot B.
+
+### Two bots in one queue
+
+In this scenario, a bot has transferred a conversation to a human agent. The human agent will transfer the conversation again to another bot in the same queue. In order for the conversation to flow correctly, you must set the first bot (Bot A) with the highest capacity, the human agent with second-highest capacity, and the second bot (Bot B) with the lowest capacity. 
+
+1. A customer initiates a conversation.
+2. The conversation routed to the queue.
+3. The first bot (Bot A) accepts the conversation, as it has the highest capacity.
+4. The customer requests to chat with a human agent.
+5. The conversation is transferred to a human agent, as the agent has second-highest capacity.
+6. The customer converses with the human agent.
+7. The human is finished delivering support and wants to hand off the conversation to a second bot (Bot B), which resides in the same queue.
+8. The human agent is disconnected from the conversation.
+9. The conversation routed to Bot B.
+10.	Bot B receives the messages in the following order:
+    - A conversation update that the “Bot added”
+    - The Omnichannel Set context event
+11.	The system triggers Bot B to send a greeting message.
+12. The customer now converses with Bot B.
+
 ## Configure context variables for a bot
 
-When customers initiate a conversation, the relevant context related to thee customer, the issue they are facing, and recent activities performed by them can be made available for the bot to intelligently provide contextual responses to resolve customer issues in a quick and efficient manner. For example, the bot can use the logged in user information to look up recent case information or order history of the customer and provide a response. Similarly, the pre-conversation information, custom context, or recent pages browsed on a website by the customer can be passed on to the bot by configuring context variables for the bot in Power Virtual Agents. For information on context variables that can be configured, see [Context variables](context-variables-for-bot.md).
+When customers initiate a conversation, the relevant context related to the customer, the issue they are facing, and recent activities performed by them can be made available for the bot to intelligently provide contextual responses to resolve customer issues in a quick and efficient manner. For example, the bot can use the signed-in user details to look up the recent case information or order history of the customer and provide a response. Similarly, the pre-conversation information, custom context, or recent pages browsed on a website by the customer can be passed on to the bot by configuring context variables for the bot in Power Virtual Agents. For information on context variables that can be configured, see [Context variables](context-variables-for-bot.md).
 
 In Power Virtual Agents, do the following:
 
@@ -123,6 +168,7 @@ At run time, the required information is captured in the context variable that c
 | **Suggested actions:** Suggested actions enable your bot to present buttons that the user can tap to provide input. Suggested actions appear close to the composer and enhance user experience. They enable the user to answer a question or make a selection with a simple tap of a button, rather than having to type a response with a keyboard. |	Suggested actions cannot display vertically. |
 | **Format bot messages:** You can set the optional TextFormat property to control how your message's text content is rendered. | Power Virtual Agents does not support markdown with images and text. <br>When Power Virtual Agents sends markdown text, there is extra space between lines. <br>Carousel layout is not supported. |
 | **File attachments:** Once file attachments are enabled in Omnichannel, customers can send file attachments. | Power Virtual Agents cannot operate on Omnichannel file attachments. |
+|||
 
 ## Privacy notice
 

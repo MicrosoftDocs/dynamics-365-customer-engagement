@@ -1,13 +1,12 @@
 ---
 title: "Walkthrough 3  Display records in your agent application | MicrosoftDocs"
 description: "Demonstrates how to display Unified Interface apps records in Unified Service Desk."
-ms.date: 06/25/2020
-ms.service: 
-  - "dynamics-365-customerservice"
-ms.topic: article
-author: kabala123
-ms.author: kabala
+author: v-sailab
+ms.author: v-sailab
 manager: shujoshi
+ms.date: 06/25/2020
+ms.topic: article
+ms.service: dynamics-365-customerservice
 search.audienceType: 
   - customizer
   - developer

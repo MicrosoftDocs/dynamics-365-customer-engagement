@@ -22,7 +22,7 @@ search.audienceType:
 ---
 # Edit an entity
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Edit an entity in Power Apps](/powerapps/maker/common-data-service/edit-entities)
 
 <a name="BKMK_EditingEntities"></a>   
 

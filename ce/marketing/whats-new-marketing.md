@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 10/02/2020
+ms.date: 11/04/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -29,6 +29,62 @@ Marketing updates are [pushed to all customers automatically](https://cloudblogs
 
 > [!Note]
 > To submit and vote on **feature requests** and **product suggestions**, go to the [Dynamics 365 Application Ideas portal](https://experience.dynamics.com/ideas/categories/?forum=bee3d862-df65-e811-a95d-000d3a1be7ad&forumName=Dynamics%20365%20Marketing).
+
+## November 2020 update
+
+The Dynamics 365 Marketing November 2020 update includes several enhancements including social posting improvements, Microsoft Teams integration updates, a revamped portals experience, template gallery improvements, and bug fixes.
+
+### Monthly enhancements
+
+- **Compliance**
+    - Together with the release of [Microsoft Cloud for Healthcare](https://docs.microsoft.com/industry/healthcare/compliance-overview), Marketing is now HIPAA compliant.
+- **Event management**
+    - Teams integration now has a more refined attendee check-in process.
+    - Events automatically shows Teams meetings and live events on the organizer's Outlook calendar.
+- **First run experience**
+    - Addressing customer feedback, we’ve improved the portal trial experience.
+    - Portal trials now include better tracking of the trial expiration date.
+    - Differences between Dynamics 365 Portals and Power Apps portals are also explained more clearly in the UI.
+- **Social posting**
+    - Enhanced UI for a more efficient social posting experience.
+    - Enhancements include a default calendar view, easier access to KPIs, and improved post previews.
+- **Shared UX**
+    - The Marketing email template gallery now includes sender fields.
+
+### Bug fixes
+
+- **Customer journeys**
+    - Resolved an issue that occasionally caused emails to be sent after a journey ended.
+    - Fixed an issue where live editing a customer journey after the last iteration had no scheduling effects.
+- **Data services**
+    - Fixed an issue that prevented dropping work items in auditing.
+- **Event management**
+    - Resolved an occasional issue that incorrectly attributed an event template owner.
+    - Fixed a validation error on Events Business Rule Set default values.
+    - Resolved a custom field caching error that caused sporadic failures.
+- **First run experience**
+    - Resolved an error where updated portals displayed as not configured on the portal page.
+- **Framework**
+    - Simplified the hard delete process.
+- **Lead management**
+    - Improved French localization on lead forms.
+- **Marketing emails**
+    - Fixed an issue where the Dynamics 365 Customer Voice tile was not shown in **Advanced elements** in the toolbox.
+    - Resolved an error caused by setting and then removing an image width value.
+    - Resolved an issue where a horizontal line sometimes appeared between two sections of an email in Outlook.
+    - Fixed an issue where margins on images occasionally did not render correctly in Outlook.
+    - Resolved an error that caused linked images to have a blue border.
+    - Fixed an issue that caused background images in columns to not work in sections with a background image.
+    - Improved new compatibility for new email templates.
+- **Marketing pages**
+    - Fixed an error that occasionally enabled users to save locked marketing lists.
+    - Enabled visibility for subscription list lock status in list view.
+    - Enabled form fields with a placeholder value to be set to required.
+    - Resolved an error that caused matching strategy failure for non-string attributes.
+    - Improved form capture compatibility with server-side detection.
+    - Fixed an issue that caused a correlation renewal error when a browser window was collapsed for a long period of time.
+    - Resolved an occasional error with custom registration fields.
+    - Fixed an error that resulted when a contact quickly subscribed then unsubscribed from a marketing list.
 
 ## October 2020 update
 
@@ -73,7 +129,7 @@ The Dynamics 365 Marketing October 2020 update includes several feature enhancem
 
 - **Use natural language to create targeted segments**
     - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/create-consume-segments-using-natural-language)
-    - [Docs](segmentation-lists-subscriptions.md)
+    - [Docs](nl-segment-build.md)
 
 ### Bug fixes
 

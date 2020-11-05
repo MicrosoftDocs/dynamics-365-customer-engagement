@@ -1,13 +1,12 @@
 ---
 title: "Best practice rule categories and parameters | MicrosoftDocs"
 description: "Learn about the categories under which the parameters are classified. Best Practices Analyzer performs the analysis of these parameters and displays a report."
-ms.date: 04/24/2018
-ms.service: 
-  - "dynamics-365-customerservice"
-ms.topic: article
-author: kabala123
-ms.author: kabala
+author: v-sailab
+ms.author: v-sailab
 manager: shujoshi
+ms.date: 04/24/2018
+ms.topic: article
+ms.service: dynamics-365-customerservice
 search.audienceType: 
   - admin
 search.app: 

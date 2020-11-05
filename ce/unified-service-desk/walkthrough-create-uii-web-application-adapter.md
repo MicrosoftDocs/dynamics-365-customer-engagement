@@ -1,15 +1,14 @@
 ---
 title: "Walkthrough  Create a UII Web Application Adapter in Unified Service Desk  | MicrosoftDocs"
 description: "Demonstrates how to host and interact with an external web application in Unified Service Desk."
+author: v-sailab
+ms.author: v-sailab
+manager: shujoshi
+ms.date: 01/25/2019
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-USD
-ms.date: 01/25/2019
-ms.service: 
-  - dynamics-365-customerservice
-ms.topic: article
-author: kabala123
-ms.author: kabala
-manager: shujoshi
 search.audienceType: 
   - customizer
   - developer

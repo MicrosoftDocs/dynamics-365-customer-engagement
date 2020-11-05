@@ -1,13 +1,12 @@
 ---
 title: "createSession (JavaScript API Reference) for Dynamics 365 Channel Integration Framework (CIF) version 2.0 | MicrosoftDocs"
 description: ""
-author: susikka
-ms.author: susikka
+author: ramana-hyd
+ms.author: v-rmurthy
 manager: shujoshi
-ms.date: 12/31/2019
+ms.date: 11/02/2020
 ms.topic: reference
-ms.service: 
-  - dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
@@ -39,7 +38,7 @@ The structure of the `Input` parameter JSON is shown below.
 
 ```json
 { 
-   "templateName":"<name of session template>",
+   "templateName":"<unique name of session template>",
    "templateTag":"<template tag>",
    "templateParameters":{ 
       "globalparam":"number value OR boolean value OR json string value OR parameterized string value",
@@ -60,21 +59,18 @@ Promise with the value as String
 
 ```javascript
 var input = {
-templateName: "CallSessionTemplate",
-// name of the configured template
-templateParameters: {
-customer: "Contoso",
-}
-// Global and application tab template parameters, these values will override configured values
-};
-Microsoft.CIFramework.createSession(input).then(
-function success(sessionId) {
-console.log(sessionId);
-// perform operations on session Id retrieved
-},
-function (error) {
-console.log(error.message);
-// handle error conditions
-}
-);
+    templateName: "msdyn_chat_session",
+    // unique name of the configured template
+    templateParameters: {
+        customer: "Contoso",
+    }
+    // Global and application tab template parameters, these values will override configured values
+   };
+Microsoft.CIFramework.createSession(input).then(function success(sessionId) {
+    console.log(sessionId);
+    // perform operations on session Id retrieved
+}, function(error) {
+    console.log(error.message);
+    // handle error conditions
+});
 ```

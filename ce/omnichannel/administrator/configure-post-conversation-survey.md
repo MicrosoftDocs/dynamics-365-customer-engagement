@@ -5,9 +5,8 @@ author: neeranelli
 ms.author: nenellim
 manager: shujoshi
 ms.date: 10/12/2020
-ms.service: 
-  "dynamics-365-customerservice"
 ms.topic: article
+ms.service: "dynamics-365-customerservice"
 ---
 
 # Configure a post-conversation survey
@@ -23,11 +22,11 @@ You can configure your chat widget to show users a survey that they can respond 
 
 ## Prerequisite
 
-The post-conversation survey uses Forms Pro to create surveys. Make sure you have access to create surveys in Dynamics 365 Customer Voice in the same org as Omnichannel for Customer Service, and you've created the required survey. The survey that you create will be listed as an option to choose for linking to the conversation. More information: [Create surveys with Dynamics 365 Customer Voice](https://go.microsoft.com/fwlink/p/?linkid=2135108)
+The post-conversation survey uses Dynamics 365 Customer Voice to create surveys. Make sure you have access to create surveys in Dynamics 365 Customer Voice in the same org as Omnichannel for Customer Service, and you've created the required survey. The survey that you create will be listed as an option to choose for linking to the conversation. More information: [Create surveys with Dynamics 365 Customer Voice](https://go.microsoft.com/fwlink/p/?linkid=2135108)
 
 ## How post-conversation surveys work
 
-When you enable a post-conversation survey for a channel, the survey will appear for the customer after the agent or customer ends the conversation. While configuring the survey, you can use the settings for the response options available in Forms Pro. More information: [Work with survey settings](https://docs.microsoft.com/forms-pro/invite-settings)
+When you enable a post-conversation survey for a channel, the survey will appear for the customer after the agent or customer ends the conversation. While configuring the survey, you can use the settings for the response options available in Dynamics 365 Customer Voice. More information: [Work with survey settings](https://docs.microsoft.com/dynamics365/customer-voice/distribution-settings)
 
 You can enable post-conversation surveys for the following channels:
 

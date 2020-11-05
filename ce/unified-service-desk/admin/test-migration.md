@@ -1,16 +1,15 @@
 ---
-title: "Post-requisites steps for migration of configurations | MicrosoftDocs"
+title: "Post-migration steps | MicrosoftDocs"
 description: "Test migration of web client configurations to the unified interface app."
+author: v-sailab
+ms.author: v-sailab
+manager: shujoshi
+ms.date: 10/23/2020
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-USD
   - dyn365-admin
-ms.date: 11/04/2019
-ms.service: 
-  - dynamics-365-customerservice
-ms.topic: article
-author: kabala123
-ms.author: kabala
-manager: shujoshi
 search.audienceType: 
   - admin
 search.app: 
@@ -18,11 +17,19 @@ search.app:
   - D365USD
 ---
 
-# Post-requisites steps for migration of configurations
+# Post-migration steps
 
-This topic describes the steps you need to perform after you migrate the configurations from web client to unified interface app.
+This topic describes the steps you need to perform after you migrate the configurations from the legacy web client to the Unified Interface app.
 
-## Test the configurations on the target Unified Interface app.
+## Clear the CEF cache folder
+
+Clear the CEF cache folder before you sign into Unified Service Desk application.
+
+1. Go to c:\\Users\<user name>\Roaming\Microsoft\USD\CEF
+
+2. Delete the contents of the folder.
+
+## Test configurations in the target Unified Interface app
 
 1. Sign in to the Common Data Service platform.
 
@@ -30,7 +37,7 @@ This topic describes the steps you need to perform after you migrate the configu
 
 3. Select **Unified Service Desk Administrator**.
 
-4. Select configurations that you migrated from the Web Client.</br>
+4. Select configurations that you migrated from the legacy web client.</br>
 For example, the selected configuration elements are as follows:
 
   |Configuration Name|Description|
@@ -60,7 +67,7 @@ For example, the selected configuration elements are as follows:
 
 ### Verify window navigation rules
 
-The page navigation in web client and unified interface are different. In web client, for window navigation rules, you might've set up the **Route-type** as **Pop-up** for the originating hosted control, and when you convert the hosted control, the migration tool replaces the **Pop-up** to **Inplace** route type. Based on your earlier configuration, if required, you might want to update the window navigation rules.
+The page navigation in web client and Unified Interface are different. In the legacy web client, for window navigation rules, you might've set up the **Route-type** as **Pop-up** for the originating hosted control, and when you convert the hosted control, the migration tool replaces the **Pop-up** to **Inplace** route type. Based on your earlier configuration, if required, you might want to update the window navigation rules.
 
 **Verify page navigation behavior:**
 
@@ -71,13 +78,13 @@ You view an account page in a browser or in Unified Service Desk client applicat
 
 ### Reconfigure events
 
-The **BrowserDocumentComplete** event in web client is converted to the **PageReady** event in unified interface.
+The **BrowserDocumentComplete** event in the legacy web client is converted to the **PageReady** event in Unified Interface.
 
-The **PageLoadComplete** event maps to **DataReady** event in web client. After conversion of the **BrowserDocumentComplete** to the **PageReady** event, the **DataReady** event is fired in unified interface. In this case, your page might not be ready for DOM interactions, so if you have any Runscript action calls on the **DataReady** event, we recommend moving the Runscript action calls to the **PageReady** event.
+The **PageLoadComplete** event maps to **DataReady** event in the legacy web client. After conversion of the **BrowserDocumentComplete** to the **PageReady** event, the **DataReady** event is fired in Unified Interface. In this case, your page might not be ready for DOM interactions, so if you have any Runscript action calls on the **DataReady** event, we recommend moving the Runscript action calls to the **PageReady** event.
 
 ### Reconfigure associated view action call
 
-The **AssociatedView** action call is used to open entity view. In web client, to open associated view of an entity, you might've defined the navigate action call with the URL for the corresponding associated view.
+The **AssociatedView** action call is used to open entity view. In the legacy web client, to open associated view of an entity, you might've defined the navigate action call with the URL for the corresponding associated view.
 
 The parameters for **AssociatedView** action call in the [Unified Interface Page](../unified-interface-page-hosted-control.md#associatedview) is different from [CRM Page](../crm-page-hosted-control.md#associatedview) hosted control.
 
@@ -103,7 +110,7 @@ You need to update parameters of the **AssociatedView** action call in the Unifi
 
 ### Reconfigure RunXrmCommands
 
-In web client, you can pass a script as data in an action call. In unified interface, you need write the function in the web resource and pass the Unified Service Desk data parameters as parameters to that function.
+In the legacy web client, you can pass a script as data in an action call. In Unified Interface, you need write the function in the web resource and pass the Unified Service Desk data parameters as parameters to that function.
 
 The migration tool converts all your action calls and replaces the data parameters with the variables in the function. Ensure to test and validate each action call in the Unified Interface app.
 
@@ -116,9 +123,9 @@ All the data parameters are passed as strings in quotes. For example, `‘[[inci
 
 It is recommended to update your Hosting Type to Chrome. To learn more, see [Update Unified Service Desk Component type to Chrome](../chrome-process.md).
 
-### Set unified interface theme
+### Set Unified Interface theme
 
-Set the Unified Interface theme for the Unified Service Desk client application after you migrate your configurations from web client to unified interface.
+Set the Unified Interface theme for the Unified Service Desk client application after you migrate your configurations from the legacy web client to Unified Interface.
 
 Create a **Unified Interface Settings** record with the theme as **Unified Blue**.
 

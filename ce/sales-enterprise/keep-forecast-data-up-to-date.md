@@ -1,15 +1,19 @@
 ---
 title: "Maintain up-to-date forecast data (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Maintain up-to-date forecast data in Dynamics 365 Sales."
-ms.date: 02/03/2020
-ms.service: 
-  - dynamics-365-sales
-ms.custom: 
-  - dyn365-sales
+ms.date: 10/26/2020
+ms.service: dynamics-365-sales
+ms.custom: dyn365-sales
 ms.topic: article
 author: udaykirang
 ms.author: udag
 manager: shujoshi
+searchScope:
+  - D365-App-msdynce_saleshub
+  - D365-Entity-forecast
+  - D365-UI-*
+  - Dynamics 365
+  - Sales
 ---
 
 # Maintain up-to-date forecast data

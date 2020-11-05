@@ -4,10 +4,9 @@ description: "Customer summary is a page where you can get all available informa
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 08/19/2020
-ms.service: 
-  - "dynamics-365-customerservice"
+ms.date: 10/22/2020
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ---
 
 # View a customer summary to get available information about a customer
@@ -79,9 +78,6 @@ The **Self service** tab displays information about the activities that the cust
 | Knowledge article viewed | The knowledge article viewed, with time stamp. |
 | Custom action performed | Any other custom action that's being tracked by your organization, with time stamp. |
 
-   > [!div class='mx-imgBorder']
-   > ![Self service tab](../../media/customer-summary-self-service-tab.png "The Self service tab")
-
 To configure the appearance of the **Self service** tab, see [Enable self-service settings for customer actions in a conversation summary](../../administrator/enable-self-service-settings.md).
 
 ### Visitor details
@@ -118,12 +114,7 @@ This section displays recent cases related to the customer.
 
 This section displays case-related and customer-related activities in the form of a timeline. You can create quick notes based on your discussion with the customer. Use the **Linked records** field to switch the timeline based on the case, contact, or account record linked to the conversation.
 
-> [!div class='mx-imgBorder']
-> ![The Timeline section on the Customer summary page](../../media/customer-summary-recent-activities.PNG "The Timeline section on the Customer summary page")
-
 The **Linked records** field shows the record that's linked to the conversation. For example, if you link a contact and case to the conversation, the **Linked records** drop-down list shows **Contact** and **Case**, respectively.
-
-
 
 > [!div class='mx-imgBorder']
 > ![View only the linked records in the drop-down](../../media/oceh/customer-summary-linked-records.PNG "View only the linked records in the drop-down list")

@@ -4,10 +4,9 @@ description: "Overview of Service Scheduling migration options in Dynamics 365 C
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 10/1/2020
+ms.date: 10/01/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
-
 ---
 
 # Upcoming changes to the Service Scheduling experience

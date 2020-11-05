@@ -1,13 +1,12 @@
 ---
 title: "Dynamics 365 Channel Integration Framework guide | Microsoft Docs"
 description: "Dynamics 365 Channel Integration Framework is a cloud-to-cloud extensible framework to integrate third-party Computer Telephony Integration (CTI) systems with Dynamics 365 Unified Interface apps using a browser-based JavaScript API library."
-author: susikka
-ms.author: susikka
+author: ramana-hyd
+ms.author: v-rmurthy
 manager: shujoshi
-ms.date: 02/03/2020
+ms.date: 11/02/2020
 ms.topic: article
-ms.service: 
-  - dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
@@ -106,7 +105,7 @@ ms.custom:
 
 <h3> How to </h3>
 
-<li><a href="v2/configure-channel-provider-channel-integration-framework.md" data-raw-source="[Configure a channel provider for your organization](v2/configure-channel-provide-channel-integration-framework.md)">Configure a channel provider for your organization</a></li>
+<li><a href="v2/configure-channel-provider-app-profile-manager.md" data-raw-source="[Configure channel provider using app profile manager](v2/configure-channel-provider-app-profile-manager.md)">Configure channel provider using app profile manager</a></li>
 <li><a href="v2/enable-outbound-communication-clicktoact.md" data-raw-source="[Enable outbound communication (ClickTOAct)](v2/enable-outbound-communication-clicktoact.md)">Enable outbound communication (ClickTOAct)</a></li>
 <li><a href="v2/add-cif-solution-dependent-solution.md" data-raw-source="[Add a Dynamics 365 Channel Integration Framework solution as a dependent solution](v2/add-cif-solution-dependent-solution.md)">Add a Dynamics 365 Channel Integration Framework solution as a dependent solution</a></li>
 <li><a href="v2/authenticate-channel-users.md" data-raw-source="[Authenticate channel users to the channel (widget)](v2/authenticate-channel-users.md)">Authenticate channel users to the channel (widget)</a></li>

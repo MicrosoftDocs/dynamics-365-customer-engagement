@@ -1,7 +1,8 @@
 ---
-title: "Preview: Configure mobile offline synchronization in Dynamics 365 for phones and tablets | MicrosoftDocs"
-ms.custom: 
-ms.date: 07/10/2020
+title: "Preview: Configure mobile offline synchronization | MicrosoftDocs"
+ms.custom: Configure mobile offline synchronization
+description: Set-up mobile offline for Dynamics 365 phones and tablets app and Power Apps mobile
+ms.date: 10/30/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -23,31 +24,48 @@ search.app:
 ---
 
 
-# Preview: Configure mobile offline synchronization in Dynamics 365 for phones and tablets
+# Configure mobile offline synchronization for your mobile app
 
 
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+Set up mobile offline synchronization to allow users to work in offline mode on their mobile device. Mobile offline allows your users to use the mobile app in offline mode to interact with their data, even when they are not connected to the internet. 
 
+The mobile app provides a rich offline experience and helps you to stay productive. You can use basic commands such as create, read, update, and delete when you are offline. Once you are back online, the changes you made on the mobile app are automatically synchronized with Common Data Service.
 
-Set up mobile offline synchronization to allow users to work in offline mode on their mobile device. Mobile offline allows your users to use the Dynamics 365 for phones and tablets in offline mode to interact with their data, even when they are not connected to the internet. The Dynamics 365 mobile app provides a rich offline experience and helps you to stay productive. You can use basic commands such as create, read, update, and delete when you are offline. Once you are back online, the changes you made on the Dynamics 365 mobile app are automatically synchronized with Common Data Service.
-
-> [!Note]
-> - Mobile offline is currently available for iOS and Android devices.
-> - To use the mobile offline feature, download the latest version of the Dynamics 365 mobile app for your phone or tablet from the app store. For iOS, version 13.19043.32 or later is supported; for Android, version 4.3.19043.33 or later supported.
-
-For information on entities and corresponding commands that are available in offline mode, see [Mobile offline capabilities and limitations](mobile-offline-capabilities.md).
-
-
-To allows users to use this feature, a Dynamics 365 administrator will need to set up mobile offline for their organization as outlined below.
+To allows users to use this feature, an administrator will need to set up mobile offline for their organization as outlined below.
   
-This offline experience uses [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] services to periodically synchronize entities with the Dynamics 365 for phones and tablets apps so synchronized records are available when users’ mobile devices are disconnected. To enable mobile offline synchronization, follow the steps below.
- 
- 
+This offline experience uses [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] services to periodically synchronize entities with the mobile app so synchronized records are available when users’ mobile devices are disconnected. 
+
+> [!IMPORTANT]
+> The set-up and configuration process for mobile offline is the same for [Power Apps mobile](https://docs.microsoft.com/powerapps/mobile/run-powerapps-on-mobile) and Dynamics 365 for phones and tablets app. To enable mobile offline synchronization for Power Apps mobile or Dynamics 365 mobile, follow the steps in this toipc.
+
+## Install the mobile app
+
+Mobile offline is available for iOS and Android devices. To use the mobile offline feature, download the latest version of the mobile app from the app store. 
+
+### Install Dynamics 365 phones and table app (for customer engagement apps in Dynamics 365)
+
+For customer engagement apps in Dynamics 365 (Dynamics 365 Sales, Dynamics 365 Customer Service, and Dynamics 365 Marketing) install the [install the Dynamics 365 phones and table app](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets#install-the-app-from-your-devices-app-store).
+
+These are the supported devices to use mobile offline:
+
+- For iOS, version 13.19043.32 or later is supported.
+- for Android, version 4.3.19043.33 or later supported.
+
+> [!NOTE]
+> - The offline feature isn't supported for Dynamics 365 Customer Engagement (on-premises). 
+
+### Install Power Apps mobile app (for Power Apps)
+
+For model-drvien app and canvas apps [Install the Power Apps mobile app](https://docs.microsoft.com/powerapps/mobile/run-powerapps-on-mobile#install-the-power-apps-mobile-app).
+
+For information on supported devices for Power Apps mobile app, see [Supported devices](https://docs.microsoft.com/powerapps/mobile/run-powerapps-on-mobile#supported-devices).
+
+
 ## Step 1: Enable entities for mobile offline synchronization 
  
 One of the first things you need to do is enable entities that will be available to mobile users when they're using the mobile app in offline mode. You can disable or enable any of the supported entities for offline mode.
 
-To enable an entity for mobile offline synchronization follow the steps below.
+To enable an entity for mobile offline synchronization, follow the steps below.
 
 1. Sign in to [Power Apps](https://make.powerapps.com).
 
@@ -70,7 +88,7 @@ To enable an entity for mobile offline synchronization follow the steps below.
    >![Select settings](media/select_settings.png "Select setting")
  
   
-5. On the **Edit entity** pane, expand **More settings** > **Offline** and then select the **Enable for mobile offline** check box and then select **Done**.
+5. On the **Edit entity** pane, expand **More settings** > **Offline** and then make sure **Enable for mobile offline** check box is selected and then select **Done**.
 
    > [!div class="mx-imgBorder"]
    >![Select enable mobile offline check box](media/enable_mobileoffline_checkbox.png "Select enable mobile offline check box")
@@ -110,7 +128,7 @@ To create a profile follow the steps below.
    >![Mobile Offline Profile screen](media/mol_new_profile.png "Crearte new Mobile Offline Profile")
 
   
-6. Enter a name and description for your mobile offline profile. Select **Create** to create the mobile offline profile. Once the profile is created select it to open the profile so you can continue to editing it.  
+6. Enter a name and description for your mobile offline profile. Select **Create** to create the mobile offline profile. Once the profile is created select it to open the profile so you can continue editing it.  
     
    > [!div class="mx-imgBorder"]
    >![Name your mobile offline profile](media/mol_sample_profile.png "Name your mobile offline profile")
@@ -119,13 +137,13 @@ To create a profile follow the steps below.
 7. In the **Data available offline** area, select **Add entity** to add an entity to the profile. 
 
    > [!div class="mx-imgBorder"]
-   >![Add entity](media/mol_add_entity.png "Add entity")
+   >![Add entity to the profile](media/mol_add_entity.png "Add entity to the profile")
    
   
 8. Select an entity from the list of entities shown. Only entities that can be enabled for mobile offline appear in the **Entity** list and then select **Next**.
 
    > [!div class="mx-imgBorder"]
-   >![Add entity](media/mol_add_entity_1.png "Add entity")
+   >![Entity list](media/mol_add_entity_1.png "Entity list")
  
 
 9. Select a filter based on the ownership type for the entity. Entity ownership is decided when you create the entity. For more information, see [Types of entities and entity ownership](https://docs.microsoft.com/powerapps/maker/common-data-service/types-of-entities).
@@ -187,9 +205,9 @@ A user can only be added to one offline profile at a time. Each time a user is a
 
 ### Step 2.2: Publish a mobile offline profile
 
-The profile that was set up in the previous step is still in draft mode, until it is published. In order to deploy your changes to a the user's device, the draft profile needs to be published.
+The profile that was set up in the previous step is still in draft mode, until it is published. In order to deploy your changes to a user's device, the draft profile needs to be published.
 
-When you pubish the profile, it will be available to your users and they will get the mobile offline experience that you have defined in the profile.
+When you publish the profile, it will be available to your users and they will get the mobile offline experience that you have defined in the profile.
 
 > [!NOTE]
 > Remember each time user is added to the mobile offline profile, mobile offline profile needs to be published again. 
@@ -233,7 +251,7 @@ Enable mobile offline for a specific app from MyApps page.
 1. Sign in to [Power Apps](https://make.powerapps.com).
 
 
-2. On the left nav select **Apps** and then select the app that you want open. Then on the comomand bar select **Edit**. This will open the app in the **App Designer**.
+2. On the left nav select **Apps** and then select the app that you want open. Then on the command bar select **Edit**. This will open the app in the **App Designer**.
 
    > [!div class="mx-imgBorder"]
    >![Open App Designer](media/mol_edit_apps.png "Open App Designer")

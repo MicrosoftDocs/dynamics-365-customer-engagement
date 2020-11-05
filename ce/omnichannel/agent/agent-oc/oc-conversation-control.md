@@ -4,10 +4,9 @@ description: "Conversation control is a communication panel in Omnichannel where
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/12/2020
-ms.service: 
-   "dynamics-365-customerservice"
+ms.date: 10/22/2020
 ms.topic: article
+ms.service: "dynamics-365-customerservice"
 ---
 
 # View communication panel
@@ -120,8 +119,6 @@ Use the keyboard command to see the list of queues to transfer the conversation 
 
 When skill-based routing is enabled, then during the transfer, the **Transfer** panel shows users sorted in the order of matching skills. A check for agent skills is not done by the app and the conversation can be transferred to any agent irrespective of the skill match.
 
-![Transfer agent list](../../media/oceh-cc-transfer-agent-list.png "transfer agent list")
-
 When a conversation needs to be transferred from one queue to another, the matching criteria that was used in the conversation will be reused to find an agent in the new queue. For example, if exact match had been used to attach the skills to the conversation, the same criteria will be used to find the agent in the new queue.
 
 ![Transfer queue list](../../media/oceh-cc-transfer-queue-list.png "Transfer queue list")
@@ -164,9 +161,6 @@ To learn more, see [Search, link, and unlink a record to the conversation](oc-se
 ## Monitor real-time customer satisfaction
 
 As an agent, you can view the real-time customer satisfaction levels on the communication panel. A sentiment icon is displayed at the top of the communication panel based on the previous six customer messages sent to you.
-
-> [!div class=mx-imgBorder]
-> ![Very positive sentiment](../../media/oceh/sentiment-very-positive-cc.png "Very positive sentiment")
 
 To learn more, see [Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md)
 

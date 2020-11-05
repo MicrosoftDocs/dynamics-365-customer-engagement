@@ -34,7 +34,7 @@ After a game is activated, players can create their profiles and sign in to the 
 
 1.  Open the [Gamification sign-in page](https://go.microsoft.com/fwlink/p/?linkid=830344) in your browser.
 
-2.  Enter your user name and password, and then click **Sign in**.
+2.  Enter your user name and password, and then select **Sign in**.
 
 ### See also
 

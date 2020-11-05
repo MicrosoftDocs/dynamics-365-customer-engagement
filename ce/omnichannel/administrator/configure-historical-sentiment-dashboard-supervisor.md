@@ -4,14 +4,9 @@ description: "How to configure the Intraday insights dashboard for Unified Servi
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-applies_to: 
-  - ""
 ms.date: 09/28/2020
-ms.service: 
-  - "dynamics-365-customerservice"
 ms.topic: article
-ms.custom: 
-  - ""
+ms.service: dynamics-365-customerservice
 ---
 
 # Configure Omnichannel Insights dashboards

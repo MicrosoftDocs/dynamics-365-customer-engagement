@@ -7,6 +7,12 @@ ms.topic: article
 author: udaykirang
 ms.author: udag
 manager: shujoshi
+searchScope:
+  - D365-App-msdynce_saleshub
+  - D365-Entity-forecast configuration
+  - D365-UI-*
+  - Dynamics 365
+  - Sales
 ---
 
 # Configure forecasts in your organization
@@ -24,12 +30,12 @@ A forecast helps your organization predict how much revenue your sales team will
 >[!IMPORTANT]
 >Forecasting is not available on Government Community Cloud (GCC).  
 
-As an administrator or forecast manager, you can configure forecasts in your organization. You can define the type of forecast, its hierarchy, permissions for accessing it, and the details you want to appear on the forecast grid. After a forecast is activated, your sales team can view the revenue and pipeline projections.
+As an administrator or forecast manager, you can configure forecasts in your organization that are based on revenue or quantity. You can define the type of forecast, its hierarchy, permissions for accessing it, and the details you want to appear on the forecast grid. After a forecast is activated, your sales team can view the revenue or quantity, and pipeline projections.
 
 By default, forecasting is available in your organization and the following page is displayed when you select **Forecast configuration**:
 
 > [!div class="mx-imgBorder"]
-> ![Forecasting configuration page](media/forecast-enable-forecasting-enabled-v1.png "Forecasting configuration page") 
+> ![Forecasting configuration page](media/forecast-enable-forecasting-enabled.png "Forecasting configuration page") 
 
 **To go to forecast configuration page**
 
@@ -93,8 +99,9 @@ To configure a forecast in your organization, follow these steps:
 
 7.	[Configure and manage drill-down entities](configure-manage-drill-downs.md) 
 
-8.	[Activate and upload simple columns data](activate-upload-simple-columns-data-forecast.md)
+8.	[Configure advanced settings](forecast-configure-advanced-settings.md)
 
+9.	[Activate and upload simple columns data](activate-upload-simple-columns-data-forecast.md)
 
 >[!IMPORTANT]
 >This feature is intended to help sales managers or supervisors enhance their team’s performance. This feature is not intended for use in making, and should not be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with sales persons may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their sales persons that their communications with end users may be monitored, recorded, or stored.

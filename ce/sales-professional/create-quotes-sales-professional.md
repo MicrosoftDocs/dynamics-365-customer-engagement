@@ -76,7 +76,7 @@ After you activate the quote, you can create an invoice from it. More informatio
 
 ## Email a quote
 
-When you've added all the details to the quote, you can send it to the customer. To directly send an email to a customer with a quote attached, open the quote, and on the command bar, select **Email as PDF**. [!INCLUDE[proc-more-information-md](../includes/proc-more-information-md.md)] [Email a PDF file](create-quote-pdf-sales-professional.md#email-as-a-pdf-file)
+When you've added all the details to the quote, you can send it to the customer. To directly send an email to a customer with a quote attached, open the quote, and on the command bar, select **Email as PDF**. [!INCLUDE[proc-more-information-md](../includes/proc-more-information-md.md)] [Email a PDF file](create-quote-pdf-sales-professional.md#email-pdf)
 
 ## Close a quote
 

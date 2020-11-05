@@ -1,13 +1,12 @@
 ---
 title: "Attach search-related action calls to events | MicrosoftDocs"
 description: "Learn how to attach the search-related action calls to events for agents and supervisors using Omnichannel for Customer Service."
-author: kabala123
-ms.author: kabala
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.date: 07/01/2019
-ms.service: 
-  - "dynamics-365-customerservice"
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ---
 
 # Step 4: Attach the search-related action calls to events

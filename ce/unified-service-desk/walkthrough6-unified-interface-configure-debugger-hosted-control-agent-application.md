@@ -1,13 +1,12 @@
 ---
 title: "Walkthrough 6  Configure the Debugger hosted control in your agent application | MicrosoftDocs"
 description: 
-ms.date: 06/25/2020
-ms.service: 
-  - "dynamics-365-customerservice"
-ms.topic: article
-author: kabala123
-ms.author: kabala
+author: v-sailab
+ms.author: v-sailab
 manager: shujoshi
+ms.date: 06/25/2020
+ms.topic: article
+ms.service: dynamics-365-customerservice
 search.audienceType: 
   - customizer
   - developer

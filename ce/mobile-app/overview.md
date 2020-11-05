@@ -1,7 +1,8 @@
 ---
 title: "Dynamics 365 for phones and tablets (Dynamics 365 apps)| MicrosoftDocs"
 ms.custom: 
-ms.date: 10/03/2019
+description: Overview information for Dynamics 365 for phones and tablets app
+ms.date: 10/30/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -24,11 +25,15 @@ search.app:
 
 # Overview of Dynamics 365 for phones and tablets 
 
-Use the [!INCLUDE[pn_dyn-365_phones](../includes/pn-dyn-365-phones.md)] and [!INCLUDE[pn_dyn-365_tablets](../includes/pn-dyn-365-tablets.md)] apps for your sales, customer service, field service, and other tasks when you're on the go. With one download from your app store, you’ll automatically have access to all the apps you need for your role. You will see apps with the new Unified Interface on your mobile device.  
+Use the [!INCLUDE[pn_dyn-365_phones](../includes/pn-dyn-365-phones.md)] and [!INCLUDE[pn_dyn-365_tablets](../includes/pn-dyn-365-tablets.md)] to run customer engagement apps (such as Dynamics 365 Sales, Dynamics 365 Customer Service, and Dynamics 365 Marketing) on your mobile device. When you download the app and sign-in you'll have access to all the apps that you work with on your mobile device.
 
-> [!NOTE]
-> - [!INCLUDE[pn_dyn-365_phones](../includes/pn-dyn-365-phones.md)] and [!INCLUDE[pn_dyn-365_tablets](../includes/pn-dyn-365-tablets.md)] apps support model-driven apps, such as Dynamics 365 Sales and Dynamics 365 Customer Service, built on Common Data Service and Dynamics 365 Customer Engagement (on-premises).
-> - There are separate mobile apps for [!INCLUDE[pn_field_service](../includes/pn-field-service.md)] and Operations. More information: [Field Service (Resco) mobile app](https://go.microsoft.com/fwlink/?linkid=846157) and [Finance and Operations mobile app](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-app-home-page).  
+Dynamics 365 for phones and Dynamics 365 for tablets apps support customer engagement apps (such as Dynamics 365 Sales, Dynamics 365 Customer Service, and Dynamics 365 Marketing), built on Common Data Service and Dynamics 365 Customer Engagement (on-premises).
+
+## Other mobile apps
+
+Users on the Dynamics 365 phones and tablets app can now use the Power Apps mobile app. For more information, see [Migrate from Dynamics 365 phones and tablets app to the Power Apps mobile app](https://docs.microsoft.com/dynamics365/mobile-app/migration).
+
+There is also a separate mobile app for Field Service. More information, see [Field Service Mobile app](https://docs.microsoft.com/dynamics365/field-service/mobile-2020-power-platform).  
     
 
 ## Related topics

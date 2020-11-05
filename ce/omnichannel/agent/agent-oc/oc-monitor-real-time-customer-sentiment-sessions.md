@@ -4,12 +4,9 @@ description: "Learn how to monitor real-time customer sentiment while interactin
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-applies_to: 
-  - ""
 ms.date: 07/01/2020
-ms.service: 
-  - "dynamics-365-customerservice"
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ---
 
 # Monitor real-time customer sentiment

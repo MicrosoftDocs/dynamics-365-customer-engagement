@@ -1,13 +1,12 @@
 ---
 title: "What is Dynamics 365 Channel Integration Framework version 2.0? | Microsoft Docs"
 description: "Learn what Dynamics 365 Channel Integration Framework version 2.0 is and how to get started using it."
-author: susikka
-ms.author: susikka
+author: ramana-hyd
+ms.author: v-rmurthy
 manager: shujoshi
-ms.date: 09/07/2020
+ms.date: 11/02/2020
 ms.topic: get-started-article
-ms.service: 
-  - dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
@@ -43,7 +42,7 @@ Key new features in Dynamics 365 Channel Integration Framework version 2.0 inclu
 
 - **Integration with the multisession experiences**
 
-  Dynamics 365 Channel Integration Framework version 2.0 provides APIs to integrate your telephony channel with multisession web experiences (Omnichannel for Customer Service and Customer Service Workspace(preview)). These APIs allow the telephony channel to show notifications on incoming conversations with relevant information, start new sessions for conversations, and open application tabs as needed.
+  Dynamics 365 Channel Integration Framework version 2.0 provides APIs to integrate your telephony channel with multisession web experiences (Omnichannel for Customer Service and Customer Service Workspace. These APIs allow the telephony channel to show notifications on incoming conversations with relevant information, start new sessions for conversations, and open application tabs as needed.
 
   More information: [Integration with multisession experiences](integration-multi-session-experiences.md)
 
@@ -55,13 +54,11 @@ Key new features in Dynamics 365 Channel Integration Framework version 2.0 inclu
 
 - **Support for multiple providers**
 
-  With Dynamics 365 Channel Integration Framework version 2.0, organizations can configure multiple telephony and custom (in-house) messaging channels. This enables agents to simultaneously work on multiple sessions catering to different customers on different channels, where each of these sessions belongs to different telephony or messaging channel providers. The agent can perform all the interactions on these channels from a familiar conversation control.
+  With Dynamics 365 Channel Integration Framework version 2.0, organizations can configure multiple telephony channels. This enables agents to simultaneously work on multiple sessions catering to different customers on different channels, where each of these sessions belongs to different telephony channel providers. The agent can perform all the interactions on these channels from a familiar conversation control.
 
   More information: [Support for multiple providers](support-multiple-providers.md).
 
-  > [!IMPORTANT]
-  > For information on how to integrate custom messaging channels with Omnichannel for Customer Service, see [Bring your own channel](../../../omnichannel/developer/how-to/bring-your-own-channel.md).
-
+  
 Additional capabilities offered by Dynamics 365 Channel Integration Framework include:
 
 - **Bring-your-own telephony channel providers**

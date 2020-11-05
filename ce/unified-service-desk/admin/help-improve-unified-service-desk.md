@@ -1,16 +1,15 @@
 ---
 title: "Help improve Unified Service Desk  | MicrosoftDocs"
 description: "Learn how you can make our app better by sending system and application information to Microsoft."
+author: v-sailab
+ms.author: v-sailab
+manager: shujoshi
+ms.date: 10/23/2020
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-USD
   - dyn365-admin
-ms.date: 04/24/2018
-ms.service: 
-  - dynamics-365-customerservice
-ms.topic: article
-author: kabala123
-ms.author: kabala
-manager: shujoshi
 search.audienceType: 
   - admin
 search.app: 
@@ -42,7 +41,7 @@ With the release of [!INCLUDE[pn-unified-service-desk-3-3](../../includes/pn-uni
 > [!Note]
 > If you are using [!INCLUDE[pn-unified-service-desk-3-2](../../includes/pn-unified-service-desk-3-2.md)] and lower with the Common Data Service platform instance, you must enable the Help improve [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] by configuring the **HelpImproveUSD** global option and setting the option to **True**. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Enable sending improvement program information to Microsoft anonymously](#enable-sending-improvement-program-information-to-microsoft-anonymously)
 
-During new installation or upgrade scenario, the information about the transmitting the product usage and performance information to [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)] appears as shown in the below image. This informaiton helps us to improve the product experience.
+During new installation or upgrade scenario, the information about the transmitting the product usage and performance information to [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)] appears as shown in the below image. This information helps us to improve the product experience.
 
 ![Transmitting usage and performance information](../media/helpimprove-usd-install.PNG "Transmitting usage and performance information")
 
@@ -68,6 +67,9 @@ Configuring and setting the value of the Global Option: `HelpImproveUSD` to `FAL
   
 6. Select **Save**.
   
+> [!Note]
+> Disable the telemetry if you experience low performance with Unified Service Desk 4.1.1.1319 or a lower version.
+
 <a name="Enable_ImproveUSD"></a>   
 ## Enable sending improvement program information to Microsoft anonymously
 
