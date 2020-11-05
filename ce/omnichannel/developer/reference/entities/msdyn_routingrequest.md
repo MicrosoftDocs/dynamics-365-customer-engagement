@@ -1,14 +1,14 @@
 ---
 title: "msdyn_routingrequest Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_routingrequest entity."
+author: "ramana-hyd"
+ms.author: "v-rmurthy"
+manager: "shujoshi"
 ms.date: 08/20/2020
-ms.service: "crm-online"
 ms.topic: "reference"
+ms.service: "dynamics-365-customerservice"
 applies_to: 
   - "Dynamics 365 (online)"
-author: "susikka"
-ms.author: "susikka"
-manager: "shujoshi"
 ---
 # msdyn_routingrequest Entity Reference
 

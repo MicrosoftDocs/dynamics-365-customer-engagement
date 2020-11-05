@@ -5,9 +5,9 @@ author: platkat
 ms.author: ktaylor
 manager: shujoshi
 ms.date: 10/07/2020
-ms.service: 
-  - "dynamics-365-customerservice"
 ms.topic: article
+ms.service: dynamics-365-customerservice
+ms.reviewer: nenellim
 ---
 
 # Configure automated messages

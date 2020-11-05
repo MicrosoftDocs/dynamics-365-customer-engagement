@@ -4,13 +4,9 @@ description: "Learn about the system requirements of Omnichannel for Customer Se
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-applies_to: 
-  - ""
 ms.date: 08/20/2020
-ms.service: "dynamics-365-customerservice"
 ms.topic: article
-ms.custom: 
-  - ""
+ms.service: "dynamics-365-customerservice"
 ---
 
 # Omnichannel for Customer Service system requirements

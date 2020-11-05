@@ -67,11 +67,11 @@ This context data is from the first-party channel provider such as Omnichannel f
 
 This data is populated as and when agents perform some activities in the session. An example is opening a new customer record, case, and so on.
 
-### Context data from Common Data Service 
+### Context data from Common Data Service
 
 The organizational data is stored in Common Data Service, and you can fetch the data with the use of OData queries. To learn more, see [OData queries](#odata-queries).
 
-### Context data from other macro actions 
+### Context data from other macro actions
 
 An action in a macro generates context data that is consumed by other actions in that macro.
 
@@ -83,6 +83,7 @@ For example, there are two action steps in the following order:
 While creating the **Open an email form with predefined template** action, you can get the context data parameter keys from the **Open a new form to create a record** macro action step.
 
 The context data parameter from the first macro action are as follows:
+
 - Entity Logical Name
 - Page Type
 - Tab Id
@@ -125,7 +126,7 @@ Macros and agent scripts support the following slugs:
 | `${<name of the pre-chat survey questions>}` | All the pre-chat survey questions that are configured for a work stream will have the slug name as the name of the question. |
 
 > [!NOTE]
-> Only the `{anchor.<attribute_name>}` slug is supported in the macros and scripts for Customer Service workspace.
+> Only the `${anchor.<attribute_name>}` slug is supported in the macros and scripts for Customer Service workspace.
 
 #### Slug for reconnection link
 

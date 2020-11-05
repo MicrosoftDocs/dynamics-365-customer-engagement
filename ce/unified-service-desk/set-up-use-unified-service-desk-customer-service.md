@@ -1,14 +1,14 @@
 ---
 title: "Set up and use Unified Service Desk for customer service | MicrosoftDocs"
 description: "Learn about using Unified Service Desk-related entities to configure an agent application."
-ms.custom: 
-  - dyn365-USD
-ms.date: 08/23/2017
-ms.service: dynamics-365-customerservice
-ms.topic: article
 author: v-sailab
 ms.author: v-sailab
 manager: shujoshi
+ms.date: 08/23/2017
+ms.topic: article
+ms.service: dynamics-365-customerservice
+ms.custom: 
+  - dyn365-USD
 search.audienceType: 
   - customizer
   - developer

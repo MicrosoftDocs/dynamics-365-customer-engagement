@@ -1,13 +1,13 @@
 ---
 title: "Asynchronous channel support"
 description: "Adaptive card, emojis, and other support in asynchronous channels in Omnichannel for Customer Service."
-author: platkat 
+author: platkat
 ms.author: ktaylor
 manager: shujoshi
-ms.date: 11/03/2020
-ms.service: 
-  dynamics-365-customerservice
+ms.date: 10/22/2020
 ms.topic: article
+ms.service: dynamics-365-customerservice
+ms.reviewer: nenellim
 ---
 
 # Asynchronous channel support

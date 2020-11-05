@@ -1,8 +1,8 @@
 ---
 title: "runMacro (Omnichannel for Customer Service JavaScript API reference)| MicrosoftDocs"
 description: 
-author: susikka
-ms.author: susikka
+author: ramana-hyd
+ms.author: v-rmurthy
 manager: shujoshi
 ms.date: 10/17/2019
 ms.topic: article

@@ -1,14 +1,14 @@
 ---
 title: "JAccSelector Tag in Unified Service Desk | MicrosoftDocs"
 description: "The topic describes the elements of <JAccSelector>."
-ms.custom: 
-  - dyn365-USD
-ms.date: 08/23/2017
-ms.service: dynamics-365-customerservice
-ms.topic: article
 author: v-sailab
 ms.author: v-sailab
 manager: shujoshi
+ms.date: 08/23/2017
+ms.topic: article
+ms.service: dynamics-365-customerservice
+ms.custom: 
+  - dyn365-USD
 search.audienceType: 
   - customizer
   - developer

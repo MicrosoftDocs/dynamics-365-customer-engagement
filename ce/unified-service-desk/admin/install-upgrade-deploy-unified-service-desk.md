@@ -1,15 +1,15 @@
 ---
 title: "Install, deploy, and upgrade Unified Service Desk  | MicrosoftDocs"
 description: "Learn how to install or upgrade Unified Service Desk ."
-ms.custom: 
-  - dyn365-USD
-  - dyn365-admin
-ms.date: 08/23/2017
-ms.service: dynamics-365-customerservice
-ms.topic: get-started-article
 author: v-sailab
 ms.author: v-sailab
 manager: shujoshi
+ms.date: 08/23/2017
+ms.topic: get-started-article
+ms.service: dynamics-365-customerservice
+ms.custom: 
+  - dyn365-USD
+  - dyn365-admin
 search.audienceType: 
   - admin
 search.app: 
