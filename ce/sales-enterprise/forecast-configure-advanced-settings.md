@@ -49,8 +49,8 @@ As an administrator or forecast manager, turn on the **Multi-currency selection*
 
 Predictive forecasting factors provide additional details on the forecast prediction breakdown components. By analyzing these details, you can discover new insights on your data and understand how it’s influencing prediction values. The following screen is an example of the Prediction details pane with top factors that are influencing the prediction:  
 > [!div class="mx-imgBorder"]
-> ![Prediction details pane](media/predictive-forecasting-prediction-details.png "Prediction details pane")  
-As an administrator or forecast manager, turn on the View prediction insights toggle in the Advanced forecast configuration step to allow users to view top factors and insights for the prediction in the Prediction details pane.  
+> ![Prediction details pane](media/predictive-forecasting-prediction-details.png "Prediction details pane")   
+As an administrator or forecast manager, turn on the View prediction insights toggle in the Advanced forecast configuration step to allow users to view top factors and insights for the prediction in the Prediction details pane.    
 > [!div class="mx-imgBorder"]
 > ![Enable prediction factors](media/forecast-prediction-factors-enable.png "Enable prediction factors")  
 >[!NOTE]
