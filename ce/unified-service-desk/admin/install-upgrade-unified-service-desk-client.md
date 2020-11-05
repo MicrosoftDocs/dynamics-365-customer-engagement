@@ -1,15 +1,15 @@
 ---
 title: "Install the Unified Service Desk  client | MicrosoftDocs"
 description: "Learn how  to install the Unified Service Desk  client."
-ms.custom: 
-  - dyn365-USD
-  - dyn365-admin
-ms.date: 01/25/2018
-ms.service: dynamics-365-customerservice
-ms.topic: article
 author: v-sailab
 ms.author: v-sailab
 manager: shujoshi
+ms.date: 01/25/2018
+ms.topic: article
+ms.service: dynamics-365-customerservice
+ms.custom: 
+  - dyn365-USD
+  - dyn365-admin
 search.audienceType: 
   - admin
 search.app: 

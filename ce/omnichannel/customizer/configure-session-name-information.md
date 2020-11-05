@@ -1,13 +1,12 @@
 ---
 title: "Configure session name information | MicrosoftDocs"
 description: "Learn how to configure session name information when using Omnichannel for Customer Service in Unified Service Desk."
-author: kabala123
-ms.author: kabala
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.date: 07/01/2019
-ms.service: 
-  - "dynamics-365-customerservice"
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ---
 
 # Configure session name information using session lines

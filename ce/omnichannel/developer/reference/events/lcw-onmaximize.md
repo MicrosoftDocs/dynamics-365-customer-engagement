@@ -5,6 +5,7 @@ author: platkat
 ms.author: ktaylor
 manager: shujoshi
 ms.topic: article
+ms.reviewer: nenellim
 ---
 # lcw:onMaximize (Omnichannel for Customer Service JavaScript API reference)
 

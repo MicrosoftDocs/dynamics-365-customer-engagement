@@ -1,13 +1,12 @@
 ---
 title: "Productivity pane in the Omnichannel for Customer Service app | MicrosoftDocs"
 description: "Use the productivity pane settings in Power Apps to display agent scripts and smart-assist cards for your agents in Omnichannel for Customer Service ."
-author: kabala123
-ms.author: kabala
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
-ms.date: 10/9/2020
-ms.service: 
-  - "dynamics-365-customerservice"
+ms.date: 10/09/2020
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ---
 
 # Productivity pane overview
