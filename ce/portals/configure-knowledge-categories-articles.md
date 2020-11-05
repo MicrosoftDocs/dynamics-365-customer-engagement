@@ -23,7 +23,7 @@ search.app:
 ---
 # Configure and manage category for knowledge articles
 
-This section helps you understand how to create a new category for knowledge articles and associate it with an article. You will also learn how to enable ratings for a knowledge article.
+This section helps you understand how to create a new category for knowledge articles and associate it with an article. You'll also learn how to enable ratings for a knowledge article.
 
 ## Create a new category for knowledge articles
 
@@ -37,7 +37,7 @@ This section helps you understand how to create a new category for knowledge art
 
 5. Enter a name and description for your category. 
 
-6. Choose a parent category. If you want this to be a top-level category, leave this field blank.
+6. Choose a parent category. If you want this category to be a top-level category, leave this field blank.
 
 ## Associate a category with a knowledge article
 
@@ -47,7 +47,7 @@ This section helps you understand how to create a new category for knowledge art
 
 3. On the command bar, select **Associate Category**. The Associate Category window appears.
 
-4. In the **Select Category to Associate with** field, select the category you want to associate to the article, and then select **Associate**.
+4. In the **Select Category to Associate with** field, select the category you want to associate to the article. And then, select **Associate**.
 
    ![Associate a category to a knowledge article](media/kb-associate-category.png "Associate a category to a knowledge article")
 
@@ -91,7 +91,7 @@ This section helps you understand how to create a new category for knowledge art
 
 ## Expand and collapse sections
 
-You can add sections that can be expanded and collapsed by adding a **collabsible section** using the *collapsible command button*:
+You can add sections that can be expanded and collapsed by adding a **collapsible section** using the *collapsible command button*:
 
 ![Collapsible button control](media/collapsible-button.png)
 
@@ -110,7 +110,7 @@ Following considerations apply when using collapsible sections:
 
 You can customize the default CSS and JS files and create additional customization. The default CSS file name is `collapsible.css` and JavaScript file name is `collapsible.js`.
 
-The following example shows a [web template](https://docs.microsoft.com/powerapps/maker/portals/liquid/store-content-web-templates) using default JavaScript and CSS files. You need to update the file name and location for the web template to your customized JavaScript and CSS files:
+The following example shows a [web template](https://docs.microsoft.com/powerapps/maker/portals/liquid/store-content-web-templates) using default JavaScript and CSS files. Update the file name and location for the web template to your customized JavaScript and CSS files:
 
 ![Web template](media/web-template.png)
 
