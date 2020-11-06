@@ -44,7 +44,7 @@ search.app:
 
 ## How can I see the prizes for a game?
 
- On the leaderboard, click the different award tabs to see the different prizes available and your ranking. At the top of the leaderboard you’ll see a notification that the game is still in progress or that the game results are final. Until the game results are final, your position in the ranking only means you're in contention for a prize; you won't necessarily win the prize unless you remain in this position when the results are final.
+ On the leaderboard, select the different award tabs to see the different prizes available and your ranking. At the top of the leaderboard you’ll see a notification that the game is still in progress or that the game results are final. Until the game results are final, your position in the ranking only means you're in contention for a prize; you won't necessarily win the prize unless you remain in this position when the results are final.
 
 ## Why do I have to set my time off?
 
@@ -70,11 +70,11 @@ search.app:
 
 ## As a team manager, can I see all players who contribute to my team total score?
 
- Yes. If your game uses fantasy teams, click **Teams** > **Player Stats** > **Team Points**. This will list your team rosters by game period with the points for each player.
+ Yes. If your game uses fantasy teams, select **Teams** > **Player Stats** > **Team Points**. This will list your team rosters by game period with the points for each player.
 
 ## Can I see who everyone else has active on their team?
 
- Yes. Click **Teams** > **Player Stats**, and then select **Team Points**. This will show you all teams and their current rosters by player position.
+ Yes. Select **Teams** > **Player Stats**, and then select **Team Points**. This will show you all teams and their current rosters by player position.
 
 ## My points are not correct for a specific period—what do I do?
 
@@ -82,7 +82,7 @@ search.app:
 
 ## My profile picture doesn't look good—how can I edit the photo?
 
- Go to your profile page and click your profile photo. We recommend that you use a square image with 150 x 150 pixels.
+ Go to your profile page and select your profile photo. We recommend that you use a square image with 150 x 150 pixels.
 
 ## What if I forget my password?
 

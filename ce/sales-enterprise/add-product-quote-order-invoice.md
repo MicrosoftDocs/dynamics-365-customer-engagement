@@ -8,6 +8,15 @@ ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
+searchScope:
+  - D365-App-msdynce_saleshub
+  - D365-Entity-quote
+  - D365-Entity-order
+  - D365-Entity-invoice
+  - D365-UI-Form
+  - Customer Engagement
+  - Dynamics 365
+  - Sales
 ---
 
 # Add products to quotes, orders, or invoices (Sales Hub)

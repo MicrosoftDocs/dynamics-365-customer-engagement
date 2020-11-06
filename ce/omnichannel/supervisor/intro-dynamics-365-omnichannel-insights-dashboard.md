@@ -5,9 +5,8 @@ author: neeranelli
 ms.author: nenellim
 manager: shujoshi
 ms.date: 10/31/2019
-ms.service: 
-  - "dynamics-365-customerservice"
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ---
 
 # Introduction to Omnichannel Insights dashboard

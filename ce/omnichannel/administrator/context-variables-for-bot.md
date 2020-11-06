@@ -4,9 +4,9 @@ description: "Context variables to use when configuring a bot in Omnichannel for
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 11/12/2020 
-ms.service: dynamics-365-customerservice
+ms.date: 11/04/2020
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ---
 
 # Context variables for a bot

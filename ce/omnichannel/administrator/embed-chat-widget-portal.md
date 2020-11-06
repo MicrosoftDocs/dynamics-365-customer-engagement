@@ -5,9 +5,8 @@ author: lalexms
 ms.author: laalexan
 manager: shujoshi
 ms.date: 08/04/2020
-ms.service: 
-  - "dynamics-365-customerservice"
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ---
 
 # Embed chat widget in your website or portal

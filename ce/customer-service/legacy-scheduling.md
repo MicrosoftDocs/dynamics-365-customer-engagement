@@ -6,12 +6,7 @@ ms.author: lalexms
 manager: shujoshi
 ms.date: 05/08/2020
 ms.topic: article
-ms.service: 
-  - "dynamics-365-customerservice"
-ms.custom: 
-  - ""
-applies_to: 
-  - ""
+ms.service: dynamics-365-customerservice
 ---
 
 # Service Scheduling features for legacy users

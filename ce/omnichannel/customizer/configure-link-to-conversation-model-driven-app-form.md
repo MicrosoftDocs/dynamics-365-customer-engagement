@@ -1,13 +1,12 @@
 ---
 title: "Configure Link to conversation button in model-driven app entity form | MicrosoftDocs"
 description: "Learn how to configure Link to conversation button in model-driven app form for agents using Omnichannel for Customer Service."
-author: kabala123
-ms.author: kabala
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.date: 10/25/2019
-ms.service: 
-  - "dynamics-365-customerservice"
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ---
 
 # Configure Link to conversation button in model-driven app entity form

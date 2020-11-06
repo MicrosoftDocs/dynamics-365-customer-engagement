@@ -6,8 +6,7 @@ ms.author: nenellim
 manager: shujoshi
 ms.date: 11/27/2019
 ms.topic: article
-ms.service: 
-  - dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-customerservice
 search.audienceType: 

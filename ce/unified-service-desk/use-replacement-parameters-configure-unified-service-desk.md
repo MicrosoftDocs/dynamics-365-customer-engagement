@@ -1,15 +1,14 @@
 ---
 title: "Use replacement parameters to configure Unified Service Desk | MicrosoftDocs"
 description: "Learn how to use replacement parameters in Unified Service Desk to customize amd personalize interactions through actions and window navigation rules."
+author: v-sailab
+ms.author: v-sailab
+manager: shujoshi
+ms.date: 08/23/2017
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-USD
-ms.date: 08/23/2017
-ms.service: 
-  - dynamics-365-customerservice
-ms.topic: article
-author: kabala123
-ms.author: kabala
-manager: shujoshi
 search.audienceType: 
   - customizer
   - developer

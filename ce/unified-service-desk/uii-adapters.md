@@ -1,13 +1,12 @@
 ---
 title: "UII adapters in Unified Service Desk | MicrosoftDocs"
 description: 
+author: v-sailab
+ms.author: v-sailab
+manager: shujoshi
 ms.date: 08/23/2017
-ms.service: 
-  - "dynamics-365-customerservice"
 ms.topic: article
-author: KumarVivek
-ms.author: kvivek
-manager: jdaly
+ms.service: dynamics-365-customerservice
 search.audienceType: 
   - customizer
   - developer
