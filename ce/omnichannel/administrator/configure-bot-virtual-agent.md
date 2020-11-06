@@ -193,4 +193,4 @@ To view more videos on Omnichannel for Customer Service, see [Videos](../videos.
 [Create and manage routing rules](routing-rules.md)  
 [Add a chat widget](add-chat-widget.md)  
 [Enable a bot to escalate and end conversation](../developer/bot-escalate-end-conversation.md)  
-[Create and edit topics in Power Virtual Agents bot] (https://docs.microsoft.com/power-virtual-agents/authoring-create-edit-topics)  
+[Create and edit topics in Power Virtual Agents bot](https://docs.microsoft.com/power-virtual-agents/authoring-create-edit-topics)  
