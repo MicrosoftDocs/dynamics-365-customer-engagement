@@ -80,4 +80,5 @@ The app profile user has the following privileges.
 
 ### See also
 
-[An overview of app profile manager](overview.md)
+[An overview of app profile manager](overview.md)  
+[Users and roles in Omnichannel for Customer Service](../omnichannel/administrator/add-users-assign-roles.md)  
