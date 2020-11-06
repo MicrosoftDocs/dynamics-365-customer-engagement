@@ -3,7 +3,7 @@ title: "Functional location in Dynamics 365 Field Service| MicrosoftDocs"
 description: Learn how to use functional location for assets in Dynamics 365 Field Service.
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 10/01/2020
+ms.date: 11/06/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -49,11 +49,11 @@ In this article, we'll look at how to define functional relationships within Fie
 
 - Field Service v8.8.x.
 
-## Create a service account
+## Create a service account (optional)
 
-First, create a service account or choose an existing one. Service accounts are required to create work orders and define the customer and service location of the work order.
+First, create a service account or choose an existing one if you wish to use functional locations in association with service accounts. This is **optional** because functional locations can be used without being associated to service accounts. Nevertheless a service account is required to create a work order and the address of a service account will be used as the address of a work order if a functional location is not defined or if the functional location does not have a work order.
 
-Make sure the service account has an address and is geocoded. You can see that the service account record is geocoded if it appears on the map and the latitude and longitude fields have values.
+Add an address to the service account if applicable and geocode the record. You can see that the service account record is geocoded if it appears on the map and the latitude and longitude fields have values.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of an account entity with a map populated.](./media/assets-functional-location-account.png)
@@ -130,6 +130,19 @@ For example, imagine as part of one work order, a technician needs to go to thre
 
 > [!Note]
 > Work order address only reflects the functional location on the work order and on the primary incident type, not the location of the additional incident types.
+
+## Use functional locations on the mobile app
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-functional-location-work-order.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-functional-location-hierarchy-combined.png)
+
+> [!Note]
+> Internet connectivty is required to view and interact with functional location and customer asset hierarchy trees on the mobile app. 
 
 ## Use functional location for cases
 
