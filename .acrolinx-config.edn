@@ -1,5 +1,5 @@
 {:allowed-branchname-matches ["^master$" "^master-omnichannel$"]
- :allowed-filename-matches ["(?i)^ce/(?:(?!customerengagement/on-premises/developer/entities/systemuser.md))"]
+ :allowed-filename-matches ["(?i)ce/(?:(?!customerengagement/on-premises/developer/entities/systemuser.md))"]
  :targets
  {
      :scores

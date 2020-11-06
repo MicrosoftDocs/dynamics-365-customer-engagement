@@ -3,7 +3,7 @@ title: "Configure and manage category for knowledge articles for a portal | Micr
 description: "Instructions to create and manage a category for knowledge article."
 ms.custom: 
   - dyn365-portal
-ms.date: 12/03/2018
+ms.date: 11/05/2020
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -23,7 +23,7 @@ search.app:
 ---
 # Configure and manage category for knowledge articles
 
-This section helps you understand how to create a new category for knowledge articles and associate it with an article. You will also learn how to enable ratings for a knowledge article.
+This section helps you understand how to create a new category for knowledge articles and associate it with an article. You'll also learn how to enable ratings for a knowledge article.
 
 ## Create a new category for knowledge articles
 
@@ -37,7 +37,7 @@ This section helps you understand how to create a new category for knowledge art
 
 5. Enter a name and description for your category. 
 
-6. Choose a parent category. If you want this to be a top-level category, leave this field blank.
+6. Choose a parent category. If you want this category to be a top-level category, leave this field blank.
 
 ## Associate a category with a knowledge article
 
@@ -47,7 +47,7 @@ This section helps you understand how to create a new category for knowledge art
 
 3. On the command bar, select **Associate Category**. The Associate Category window appears.
 
-4. In the **Select Category to Associate with** field, select the category you want to associate to the article, and then select **Associate**.
+4. In the **Select Category to Associate with** field, select the category you want to associate to the article. And then, select **Associate**.
 
    ![Associate a category to a knowledge article](media/kb-associate-category.png "Associate a category to a knowledge article")
 
@@ -78,7 +78,7 @@ This section helps you understand how to create a new category for knowledge art
 
 4. Choose the category from the list view, and then select **Delete** on the command bar.
 
->[!Note] 
+>[!NOTE] 
 > Knowledge articles associated with the category will be disassociated after the category is deleted.
 
 ## Enable ratings for a knowledge article
@@ -89,7 +89,31 @@ This section helps you understand how to create a new category for knowledge art
 
 3. On the **Options** tab, select **Enable Ratings**.
 
+## Expand and collapse sections
+
+You can add sections that can be expanded and collapsed by adding a **collapsible section** using the *collapsible command button*:
+
+![Collapsible button control](media/collapsible-button.png)
+
+You can see the following example with one section expanded and the rest in collapsed positions:
+
+![Example expandable and collapsible sections](media/collapsible-example.png)
+
+Following considerations apply when using collapsible sections:
+
+- Default state of a collapsible section is collapsed.
+- Existing web page and web templates can work with collapsible sections without any additional changes.
+- If you select **Print**, the state of the sections from current selections persist for print preview.
+- The collapsible sections, when added to your articles, have additional JS function and CSS style for the expand/collapse button.
+
+### Customize expand and collapse behavior
+
+You can customize the default CSS and JS files and create additional customization. The default CSS file name is `collapsible.css` and JavaScript file name is `collapsible.js`.
+
+The following example shows a [web template](https://docs.microsoft.com/powerapps/maker/portals/liquid/store-content-web-templates) using default JavaScript and CSS files. Update the file name and location for the web template to your customized JavaScript and CSS files:
+
+![Web template](media/web-template.png)
+
 ### See also
 [Get started with the portal content editor](get-started-portal-content-editor.md)  
 [Add dynamic content and create custom templates](custom-templates-dynamic-content.md)  
-
