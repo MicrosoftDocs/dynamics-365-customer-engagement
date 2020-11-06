@@ -47,14 +47,18 @@ As an administrator or forecast manager, turn on the **Multi-currency selection*
 
 ## Enable prediction factors
 
-Predictive forecasting factors provide additional details on the forecast prediction breakdown components. By analyzing these details, you can discover new insights on your data and understand how it’s influencing prediction values. The following screen is an example of the Prediction details pane with top factors that are influencing the prediction:  
+Predictive forecasting factors provide additional details about the components of a forecast prediction. By analyzing these details, you can discover new insights about your data and understand how it's influencing the prediction. The following image is an example of a **Prediction details** pane, including the top factors that influence the prediction.
+
 > [!div class="mx-imgBorder"]
-> ![Prediction details pane](media/predictive-forecasting-prediction-details.png "Prediction details pane")   
-As an administrator or forecast manager, turn on the View prediction insights toggle in the Advanced forecast configuration step to allow users to view top factors and insights for the prediction in the Prediction details pane.    
+> ![Prediction details pane](media/predictive-forecasting-prediction-details.png "Prediction details pane")
+
+As an administrator or forecast manager, you turn on the **View prediction insights** toggle in the **Advanced** forecast configuration step to allow users to view top factors and insights for predictions in the **Prediction details** pane.
+
 > [!div class="mx-imgBorder"]
 > ![Enable prediction factors](media/forecast-prediction-factors-enable.png "Enable prediction factors")  
+
 >[!NOTE]
->Premium forecasting must be enabled for the snapshot feature. More information: [About premium forecasting](https://docs.microsoft.com/dynamics365/ai/sales/configure-premium-forecasting)
+>Premium forecasting must be enabled for the **Prediction details** pane to work.<!--note from editor: Is this what you meant? I don't know what "snapshot feature" is.--> More information: [About premium forecasting](https://docs.microsoft.com/dynamics365/ai/sales/configure-premium-forecasting)
 
 ## Customize underlying records
 
