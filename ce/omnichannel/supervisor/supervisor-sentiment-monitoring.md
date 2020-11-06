@@ -4,14 +4,9 @@ description: "Enable sentiment monitoring to understand customer sentiment acros
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-applies_to: 
-  - ""
 ms.date: 08/03/2020
-ms.service: 
-  - "dynamics-365-customerservice"
 ms.topic: article
-ms.custom: 
-  - ""
+ms.service: dynamics-365-customerservice
 ---
 
 # Sentiment monitoring

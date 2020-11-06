@@ -1,15 +1,15 @@
 ---
-title: "Test web client configurations after migration to Unified Interface | MicrosoftDocs"
-description: "Test the migration of web client configurations to the Unified Interface app."
-ms.custom: 
-  - dyn365-USD
-  - dyn365-admin
-ms.date: 11/04/2020
-ms.service: dynamics-365-customerservice
-ms.topic: article
+title: "Post-migration steps | MicrosoftDocs"
+description: "Test migration of web client configurations to the Unified Interface app."
 author: v-sailab
 ms.author: v-sailab
 manager: shujoshi
+ms.date: 11/06/2020
+ms.topic: article
+ms.service: dynamics-365-customerservice
+ms.custom: 
+  - dyn365-USD
+  - dyn365-admin
 search.audienceType: 
   - admin
 search.app: 

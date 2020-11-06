@@ -1,12 +1,12 @@
 ---
 title: "Unified Interface Settings | MicrosoftDocs"
 description: "Learn about the Unified Interface Settings page in the Unified Service Desk Administrator app."
-ms.date: 06/01/2019
-ms.service: dynamics-365-customerservice
-ms.topic: article
 author: v-sailab
 ms.author: v-sailab
 manager: shujoshi
+ms.date: 06/01/2019
+ms.topic: article
+ms.service: dynamics-365-customerservice
 search.audienceType: 
   - admin
 search.app: 

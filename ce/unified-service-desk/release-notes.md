@@ -1,12 +1,12 @@
 ---
 title: "Unified Service Desk release notes | MicrosoftDocs"
 description: "Learn about the known issues and limitations in Unified Service Desk."
-ms.date: 11/04/2020
-ms.service: dynamics-365-customerservice
-ms.topic: article
 author: v-sailab
 ms.author: v-sailab
 manager: shujoshi
+ms.date: 11/06/2020
+ms.topic: article
+ms.service: dynamics-365-customerservice
 search.audienceType: 
   - customizer
   - developer

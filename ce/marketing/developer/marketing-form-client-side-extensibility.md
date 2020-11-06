@@ -1,13 +1,11 @@
 ---
-title: "Extend Marketing forms using code(Dynamics 365 Marketing Developer Guide) | MicrosoftDocs"
-description: "Extend Marketing forms with JavaScript to apply custom business logic in Dynamics 365 Marketing."
+title: "Extend marketing forms using code (Dynamics 365 Marketing Developer Guide) | MicrosoftDocs"
+description: "Extend marketing forms with JavaScript to apply custom business logic in Dynamics 365 Marketing."
 ms.custom: 
   - dyn365-developer
   - dyn365-marketing
-ms.date: 04/14/2020
+ms.date: 11/05/2020
 ms.service: dynamics-365-marketing
-ms.technology: 
-  - marketing
 ms.topic: conceptual
 ms.assetid: cfaee020-a29d-4297-8f73-e8fb378843dc
 author: alfergus
@@ -20,7 +18,7 @@ search.app:
   - D365Mktg
 ---
 
-# Extend Marketing forms using code
+# Extend marketing forms using code
 
 A marketing form defines a set of input fields arranged into a form layout. You'll probably build a small library of reusable forms that you can place on all your various marketing pages as needed. To add a marketing form to a specific marketing page, use a form element to position the form, and choose local settings for it, which applies to that page only. More information [Marketing forms](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/marketing-forms)
 
@@ -50,7 +48,6 @@ We're consuming the latest version of JavaScript API. Make sure that your refere
 |`formSubmit`|No|`MsCrmMkt.MsCrmFormLoader` <br/>`.on("formSubmit", function(event) {})`|Triggers on form submit before the form submission is sent to the server.
 |`afterFormSubmit`|Yes|`MsCrmMkt.MsCrmFormLoader` <br/>`.on("afterFormSubmit", function(event) {})`|Triggers on form submit after the form submission is sent to the server. It triggers only when the submission is successful. It triggers before the redirect or showing the confirmation message.
 
-
 For each event callback following methods are available:
 
 |Method Name|Description|Return type|
@@ -71,6 +68,8 @@ The form capturing is directed by the configuration element that looks like `<di
 |`data-ignore-prevent-default="true"`|When specified, form will be submitted regardless of the fact that `.preventDefault()` was invoked on the event.|
 |`data-no-submit="true"`|When specified, the form capturing script won't capture the form submit event, you should trigger the `MsCrmMkt.MsCrmFormLoader.sendFormCaptureToCrm(form)` explicitly. This is useful for cases when you want to do your form submission first and sync to Dynamics 365 Marketing later.
 
+> [!NOTE]
+> The Javascript API is available only for forms hosted as a script, it is not supported for the iframe hosting option.
 
 ## Add your code snippet while using Portals
 

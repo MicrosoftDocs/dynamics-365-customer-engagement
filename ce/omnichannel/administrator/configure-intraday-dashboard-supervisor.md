@@ -5,9 +5,8 @@ author: lalexms
 ms.author: laalexan
 manager: shujoshi
 ms.date: 10/12/2020
-ms.service: "dynamics-365-customerservice"
 ms.topic: article
-
+ms.service: "dynamics-365-customerservice"
 ---
 
 # Configure intraday insights for supervisors

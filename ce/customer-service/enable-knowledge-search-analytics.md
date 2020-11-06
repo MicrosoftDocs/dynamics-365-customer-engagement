@@ -7,8 +7,6 @@ manager: shujoshi
 ms.date: 10/22/2020
 ms.topic: article
 ms.service: "dynamics-365-customerservice"
-ms.custom:
-
 ---
 
 # Preview: Configure Knowledge search insights for Dynamics 365 Customer Service

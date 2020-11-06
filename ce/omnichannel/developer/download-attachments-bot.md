@@ -1,13 +1,12 @@
 ---
 title: "Download attachments from your Azure bot| Microsoft Docs"
 description: "Read about the various cards and attachments supported by various channels."
-author: susikka
-ms.author: susikka
+author: ramana-hyd
+ms.author: v-rmurthy
 manager: shujoshi
 ms.date: 07/21/2020
-ms.service: 
-  - "dynamics-365-customerservice"
 ms.topic: reference
+ms.service: dynamics-365-customerservice
 ---
 # Download attachments from your Azure bot
 

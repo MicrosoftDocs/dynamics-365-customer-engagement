@@ -1,14 +1,14 @@
 ---
 title: "Create an action call for a UII action | MicrosoftDocs"
 description: "Learn about creating an action call for a UII action."
-ms.custom: 
-  - dyn365-USD
-ms.date: 12/31/2017
-ms.service: dynamics-365-customerservice
-ms.topic: article
 author: v-sailab
 ms.author: v-sailab
 manager: shujoshi
+ms.date: 12/31/2017
+ms.topic: article
+ms.service: dynamics-365-customerservice
+ms.custom: 
+  - dyn365-USD
 search.audienceType: 
   - customizer
   - developer

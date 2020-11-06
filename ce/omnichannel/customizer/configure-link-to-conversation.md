@@ -1,13 +1,12 @@
 ---
 title: "Configure link to conversation button | MicrosoftDocs"
 description: "Learn how to configure link to conversation button for agents using Omnichannel for Customer Service in Unified Service Desk."
-author: kabala123
-ms.author: kabala
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.date: 08/29/2019
-ms.service: 
-  - "dynamics-365-customerservice"
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ---
 
 # Configure link to conversation button in Unified Service Desk

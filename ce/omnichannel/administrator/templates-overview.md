@@ -1,13 +1,12 @@
 ---
 title: "Overview of templates | MicrosoftDocs"
 description: "Learn about templates in the Omnichannel Administration app"
-author: kabala123
-ms.author: kabala
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.date: 01/31/2020
-ms.service: 
-  - "dynamics-365-customerservice"
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ---
 
 # Overview of templates

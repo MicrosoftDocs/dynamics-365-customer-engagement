@@ -5,8 +5,8 @@ author: neeranelli
 ms.author: nenellim
 manager: shujoshi
 ms.date: 09/18/2020
-ms.service: "dynamics-365-customerservice"
 ms.topic: reference
+ms.service: "dynamics-365-customerservice"
 ---
 # Add a web resource for real-time translation
 

@@ -1,13 +1,12 @@
 ---
 title: "Send authentication token | Microsoft Docs"
 description: "Read how you can pass an authentication token to Omnichannel for Customer Service"
-author: susikka
-ms.author: susikka
+author: ramana-hyd
+ms.author: v-rmurthy
 manager: shujoshi
 ms.date: 12/13/2019
-ms.service: 
-  - "dynamics-365-customerservice"
 ms.topic: reference
+ms.service: dynamics-365-customerservice
 ---
 # Send authentication token
 
