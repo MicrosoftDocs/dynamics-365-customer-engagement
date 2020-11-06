@@ -133,9 +133,12 @@ For example, imagine as part of one work order, a technician needs to go to thre
 
 ## Use functional locations on the mobile app
 
+Technicians can see the functional location of a work order on the Dynamics 365 Field Service mobile app.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-functional-location-work-order.png)
+
+Technicians can also view and interact with functional location and customer asset hierarchies on the mobile app.
 
 
 > [!div class="mx-imgBorder"]
