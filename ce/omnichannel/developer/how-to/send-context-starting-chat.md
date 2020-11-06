@@ -16,7 +16,7 @@ When a customer initiates a chat from the portal, you can pass custom context to
 
 The custom context is a collection of key or value pairs. Only primitive values are allowed for any key. The keys of custom context must correspond to context variables that are created for the associated work stream in Omnichannel for Customer Service. If no context variables have been created under live work stream with a matching logical name, variables are created at runtime assuming the type as String. The custom context provider would be invoked by live chat widget when starting a new chat.
 
-For information on context variables that can be configured, see [Context variables](context-variables-for-bot.md).
+For information on context variables that can be configured, see [Context variables](../../administrator/context-variables-for-bot.md).
 
 > [!IMPORTANT]
 > Make sure the value that will be passed to the context variable doesn't exceed 4,000 characters so that the conversation can be successfully escalated to the agent.
