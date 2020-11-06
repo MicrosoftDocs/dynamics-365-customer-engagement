@@ -4,7 +4,7 @@ description: "Extend Marketing forms with JavaScript to apply custom business lo
 ms.custom: 
   - dyn365-developer
   - dyn365-marketing
-ms.date: 04/14/2020
+ms.date: 11/05/2020
 ms.service: dynamics-365-marketing
 ms.technology: 
   - marketing
@@ -50,7 +50,6 @@ We're consuming the latest version of JavaScript API. Make sure that your refere
 |`formSubmit`|No|`MsCrmMkt.MsCrmFormLoader` <br/>`.on("formSubmit", function(event) {})`|Triggers on form submit before the form submission is sent to the server.
 |`afterFormSubmit`|Yes|`MsCrmMkt.MsCrmFormLoader` <br/>`.on("afterFormSubmit", function(event) {})`|Triggers on form submit after the form submission is sent to the server. It triggers only when the submission is successful. It triggers before the redirect or showing the confirmation message.
 
-
 For each event callback following methods are available:
 
 |Method Name|Description|Return type|
@@ -71,6 +70,8 @@ The form capturing is directed by the configuration element that looks like `<di
 |`data-ignore-prevent-default="true"`|When specified, form will be submitted regardless of the fact that `.preventDefault()` was invoked on the event.|
 |`data-no-submit="true"`|When specified, the form capturing script won't capture the form submit event, you should trigger the `MsCrmMkt.MsCrmFormLoader.sendFormCaptureToCrm(form)` explicitly. This is useful for cases when you want to do your form submission first and sync to Dynamics 365 Marketing later.
 
+> [!NOTE]
+> The Javascript API is available only for forms hosted as a script, it is not supported for the iframe hosting option.
 
 ## Add your code snippet while using Portals
 
