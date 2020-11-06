@@ -82,7 +82,7 @@ More information on details and settings for Teams live events: [Schedule a Team
 
 **How to invite a guest to present in a Live Event**
 
-- Ensure that the guest user is added to your Teams instance. You only have to do this once. Learn more about adding guest users: [Guest to present](https://docs.microsoft.com/en-us/microsoftteams/teams-live-events/plan-for-teams-live-events#guest-to-present)
+- Ensure that the guest user is added to your Teams instance. You only have to do this once. Learn more about adding guest users: [Guest to present](https://docs.microsoft.com/microsoftteams/teams-live-events/plan-for-teams-live-events#guest-to-present)
 - As a best practice, Teams recommends that you create a channel for producers and presenters of the live event so they can chat and share information before the event. Guests who don't have Microsoft 365 credentials won't see the Calendar in Teams. To make it easy for them to join the event, producers can post the event link to the channel. Presenters can then open Teams, go to the channel, and select the link to join the event.
 - Add a guest as a presenter in your live event by adding them as a speaker in your event or session in Dynamics 365 Marketing using the steps detailed above.
 
