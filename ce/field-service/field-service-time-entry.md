@@ -2,7 +2,7 @@
 title: "Time entries for Dynamics 365 Field Service | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 08/01/2020
+ms.date: 11/06/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -79,14 +79,11 @@ Add a start time, end time or duration, and the bookable resource to which the t
 
 You can relate the time entry to other records - like work orders and bookings - as needed.
 
-Time entries can also be created manually from Field Service Mobile.
+Viewing and creating time entries is supported on the [Field Service (Dynamics 365) mobile app](mobile-power-app-get-started.md). 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of time entry on Field Service Mobile.](./media/work-order-time-entry-mobile.png)
+> ![Screenshot of ](./media/mobile-2020-time-entry-all.png)
 
-Import [the latest mobile project template](https://aka.ms/fsmobile-project) into the mobile configuration tool (Woodford) to display time entries in Field Service Mobile.
-
-Viewing and creating time entries is also supported on the [Field Service (Dynamics 365) mobile app](mobile-2020-power-platform.md) as an early access update. For more information, visit the article: [how to opt in to early access features](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates#how-to-enable-early-access-updates).
 
 ## Time off
 
@@ -129,6 +126,13 @@ Making changes to the date or duration of the time entry will update the time-of
 
 
 - Time entries are created based on booking timestamps, and booking timestamps are created based on the **Timestamp Frequency** setting in Field Service Settings. See the [topic on booking timestamps](booking-timestamps.md) to understand how timestamps can be created based on the booking statuses or Field Service booking statuses.
+
+- Time entries can be viewed and created on the Field Service Mobile (Xamarin) app
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of time entry on Field Service Mobile.](./media/work-order-time-entry-mobile.png)
+
+Import [the latest mobile project template](https://aka.ms/fsmobile-project) into the mobile configuration tool (Woodford) to display time entries in Field Service Mobile.
 
 
 ## Additional notes
