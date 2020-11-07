@@ -53,7 +53,7 @@ You'll see important details such as:
 
 -   Location
 
--   List of attendees. The list of attendees shows up to 5 attendees. When you tap an attendee, it opens the contact record in the Quick view form. If the attendee is an unknown contact (not a record stored in Dynamics 365 Sales), you'll see an option to create a contact. More information: [Create a contact](create-a-contact.md)
+-   List of attendees. The list of attendees shows up to 5 attendees. When you tap an attendee, it opens the contact record in the Quick view form. If the attendee is an unknown contact (not a record stored in Dynamics 365 Sales), you'll see an option to create a contact. More information: [Create a contact](create-contact.md)
 
 -   Regarding. Indicates the record the meeting is regarding. From the More menu, you can do the following:
 

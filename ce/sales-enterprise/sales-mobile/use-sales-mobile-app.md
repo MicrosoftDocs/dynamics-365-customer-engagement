@@ -52,7 +52,7 @@ The home page gives you a quick access to what's most important to you.
 | c. Recent contacts   | Lets you quickly open the contacts you've recently accessed. The records open in a Quick view form. When you select the chevron, an extended list is shown.     |
 | d. Recent records   | Shows the recent records you've worked on, such as an account or opportunity. When you select the chevron, an extended list is shown. From this list, you can also pin the records so they start showing up in the Pinned view. To see more details of a specific record, open it. More information: Open records |
 | e. Reminders and insights | Shows action cards from relationship assistant. The cards show up to 5 reminders and insights items. If your admin has created custom cards, they can be shown here, too.<br>When you select the chevron, an extended list is shown. Tap a reminder or insight to see its details in a card. Select Open in the card to open the reminder or insight card in a Unified Interface form.<br>Use the **More actions** menu to take further actions on the reminders, such as, dismiss, snooze, or mark it as useful or not useful. |
-| f. Navigation bar  | Lets you quickly access important pages such as Home, Search, and more… More information: [Navigate through the app](navigate-through-the-app.md) |
+| f. Navigation bar  | Lets you quickly access important pages such as Home, Search, and more… More information: [Navigate through the app](#navigate-through-the-app) |
 
 ## Navigate through the app
 
