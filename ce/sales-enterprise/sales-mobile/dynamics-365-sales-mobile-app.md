@@ -9,7 +9,7 @@ ms.author: shjais
 manager: shujoshi
 ---
 
-# Dynamics 365 Sales mobile app
+# Overview of Dynamics 365 Sales mobile app
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
