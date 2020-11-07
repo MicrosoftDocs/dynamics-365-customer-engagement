@@ -11,6 +11,8 @@ manager: shujoshi
 
 # Install the app
 
+[!INCLUDE [cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+
 1.  Go to the app store on your iOS or Android device and search for *Microsoft Dynamics 365 Sales mobile app (preview)*.
 
 2.  Download the app called Dynamics 365 Sales mobile, as seen in the following screenshot.

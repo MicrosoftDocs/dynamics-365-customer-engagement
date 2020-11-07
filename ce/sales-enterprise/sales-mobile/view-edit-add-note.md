@@ -11,6 +11,8 @@ manager: shujoshi
 
 # View, edit, or add a note
 
+[!INCLUDE [cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+
 For any record, you can see the associated notes in the **Notes** section.
 
 ![View note](media/sm-view-note.png "View note")

@@ -11,6 +11,8 @@ manager: shujoshi
 
 # View agenda
 
+[!INCLUDE [cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+
 On the home page, you can see resources that can help you plan your day better. For example, quickly see one past and one upcoming meeting in the **Meetings** section.
 
 To see more items on the agenda, go to the **Agenda** view by tapping **Meetings** in the navigation bar or the chevron. This shows meetings from Microsoft Outlook and Dynamics 365 Sales.
@@ -64,8 +66,7 @@ You'll see important details such as:
         ![More menu of a connected record](media/sm-more-menu-regarding-record.png "More menu of a connected record")
 
 > [!NOTE]
-> If there's no regarding record set, you'll see a message "No connected record". Select **Set regarding**, and then from the Set regarding page, either select a recent record, or select **Search** to look for other records.
-
+> If there's no regarding record set, you'll see a message "No connected record". Select **Set regarding**, and then from the Set regarding page, either select a recent record, or select **Search** to look for other records. You'll be able to set the regarding record only if server-side synchronization is enabled in your environment. More information: [Server-side synchronization](https://docs.microsoft.com/power-platform/admin/server-side-synchronization)
 
 ## View reminders and insights
 

@@ -11,6 +11,8 @@ manager: shujoshi
 
 # Open a record
 
+[!INCLUDE [cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+
 You can open a record by tapping an item from the **Recent Contacts** or **Recent Records** section of the Home page. Similarly, you can tap a record from the search results to open the record.
 
 The record is opened in the compact view. The compact form shows important details about the record along with notes, reminders, and insights.

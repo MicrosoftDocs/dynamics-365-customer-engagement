@@ -11,6 +11,8 @@ manager: shujoshi
 
 # Your first experience
 
+[!INCLUDE [cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+
 When you sign in to your app the first time, you'll see the Welcome page that briefly shows the various things that you can do with the Sales mobile app.
 
 ![Welcome screen](media/sm-welcome-screen.png "Welcome screen")
