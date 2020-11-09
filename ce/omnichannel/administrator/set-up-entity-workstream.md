@@ -1,13 +1,12 @@
 ---
 title: "Set up entity work stream | MicrosoftDocs"
 description: "Learn how to set up entity work stream in the Omnichannel for Customer Service."
-author: kabala123
-ms.author: kabala
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.date: 10/25/2019
-ms.service: 
-  - "dynamics-365-customerservice"
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ---
 
 # Create workstream for entity record routing

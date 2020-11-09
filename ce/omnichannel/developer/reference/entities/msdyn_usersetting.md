@@ -1,17 +1,18 @@
 ---
 title: "msdyn_usersetting Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_usersetting entity."
-ms.date: 10/12/2020
-ms.service: "crm-online"
-ms.topic: "reference"
 author: "platkat"
 ms.author: "ktaylor"
 manager: "shujoshi"
+ms.date: 10/12/2020
+ms.topic: "reference"
+ms.service: "dynamics-365-customerservice"
 search.audienceType: 
   - developer
 search.app: 
   - PowerApps
   - D365CE
+ms.reviewer: nenellim
 ---
 # msdyn_usersetting Entity Reference
 

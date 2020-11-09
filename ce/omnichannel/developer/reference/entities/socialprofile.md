@@ -1,17 +1,18 @@
 ---
 title: "SocialProfile Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the SocialProfile entity."
-ms.date: 10/12/2020
-ms.service: "crm-online"
-ms.topic: "reference"
 author: "platkat"
 ms.author: "ktaylor"
 manager: "shujoshi"
+ms.date: 10/12/2020
+ms.topic: "reference"
+ms.service: "dynamics-365-customerservice"
 search.audienceType: 
   - developer
 search.app: 
   - PowerApps
   - D365CE
+ms.reviewer: nenellim
 ---
 # SocialProfile Entity Reference
 

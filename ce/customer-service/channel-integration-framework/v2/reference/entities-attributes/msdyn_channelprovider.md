@@ -6,7 +6,7 @@ ms.author: "v-rmurthy"
 manager: "jdaly"
 ms.date: 11/03/2020
 ms.topic: "reference"
-ms.service: "crm-online"
+ms.service: "dynamics-365-customerservice"
 applies_to: 
   - "Dynamics 365 (online)"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c

@@ -1,12 +1,13 @@
 ---
 title: "Asynchronous channel support"
 description: "Adaptive card, emojis, and other support in asynchronous channels in Omnichannel for Customer Service."
-author: platkat 
+author: platkat
 ms.author: ktaylor
 manager: shujoshi
 ms.date: 10/22/2020
-ms.service: dynamics-365-customerservice
 ms.topic: article
+ms.service: dynamics-365-customerservice
+ms.reviewer: nenellim
 ---
 
 # Asynchronous channel support
@@ -60,14 +61,15 @@ You can enable file attachments on the **General settings** tab of a channel so 
 
 | Channel              | Inbound attachments                        | Outbound attachments                  |
 |----------------------|--------------------------------------------|---------------------------------------|
-| Microsoft Teams      | Image, Audio, Video, Documents, Gif, Emoji | Image, Audio, Video, Documents, Gif   |
 | Facebook             | Image, Audio, Video, Documents, Gif, Emoji | Image, Audio, Video, Document, Gif    |
-| LINE                 | Image, Audio, Video, Gif                   | Image, Audio, Video, Documents, Gif   |
-| Custom (Telegram)    | Image, Audio, Video, Documents, Gif, Emoji | Image, Audio, Video, Documents, Gif   |
-| Custom (Direct Line) | All types except blocked types in org      | All types except blocked types in org |
 | Twitter              | Image, Video, Gif, Emoji                   | Image, Video, Gif                     |
+| Microsoft Teams      | Image, Audio, Video, Documents, Gif, Emoji | Image, Audio, Video, Documents, Gif   |
+| LINE                 | Image, Audio, Video, Gif                   | Image, Audio, Video, Documents, Gif   |
 | WeChat               | Image, Audio, Video                        | Image, Audio, Video                   |
 | WhatsApp             | Image, Audio, Video, PDF                   | Image, Audio, Video, PDF              |
+| SMS (Twilio)         | Image, Video, Gif, Emoji                   | Image, Audio, Video, Gif              |
+| Custom (Telegram)    | Image, Audio, Video, Documents, Gif, Emoji | Image, Audio, Video, Documents, Gif   |
+| Custom (Direct Line) | All types except blocked types in org      | All types except blocked types in org |
 
 > [!Note]
 > - For Microsoft Teams, when a customer sends an emoji from the Teams client, the agent will receive a .png image. When an agent sents a .gif image outbound, the customer will receive a .png image. 
@@ -82,9 +84,10 @@ You can enable file attachments on the **General settings** tab of a channel so 
 | Facebook           | Yes. Emoji in text, like “😀”                                       |
 | Twitter            | Yes. Emoji in text, like “😀”                                       |
 | Microsoft Teams    | Yes. Emoji in .PNG image                                            |
-| WeChat             | Yes. When an emoji is sent, the recipient sees characters, like :-) |
 | LINE               | Yes. When an emoji is sent, the recipient sees a sticker.           |
+| WeChat             | Yes. When an emoji is sent, the recipient sees characters, like :-) |
 | WhatsApp           | Not supported.                                                      |
+| SMS (Twilio)       | Yes. Emoji in text, like “😀”                                       | 
 | Custom messaging (Telegram) | Yes. Emoji in text, like “😀”                              |
 | Custom messaging (Direct Line) | Yes. Emoji in text, like “😀”                           |
 
@@ -98,8 +101,8 @@ You can enable file attachments on the **General settings** tab of a channel so 
 | Facebook           | Yes, as .png image                                                  |
 | Twitter            | Not supported.                                                      |
 | Microsoft Teams    | Not supported.                                                      |
-| WeChat             | Not supported. Recipient sees "Unsupported message" text.           |
 | LINE               | Not supported. Recipient sees "Sticker" text.                       |
+| WeChat             | Not supported. Recipient sees "Unsupported message" text.           |
 | WhatsApp           | Not supported.                                                      |
 | Custom messaging (Telegram) | Not supported.                                             |
 | Custom messaging (Direct Line) | Yes, as sticker image                                   |
@@ -121,8 +124,8 @@ With social profiles, you can do the following:
 |--------------------|---------------------------------------------------------------------|
 | Facebook           | Yes                                                                 |
 | Twitter            | Yes                                                                 |
-| WeChat             | Yes                                                                 |
 | LINE               | Yes                                                                 |
+| WeChat             | Yes                                                                 |
 | WhatsApp           | Yes                                                                 |
 | Custom messaging (Telegram) | Yes                                                        |
 
@@ -131,4 +134,4 @@ With social profiles, you can do the following:
 [Overview of channels](channels.md) <br />
 [Bring your own custom messaging channel: Direct Line bot](../developer/how-to/bring-your-own-channel.md) <br />
 [Configure custom messaging channel](configure-custom-channel.md) 
-[Enable file attachments](enable-file-attachments.md)
+[Enable file attachments](enable-file-attachments.md)  

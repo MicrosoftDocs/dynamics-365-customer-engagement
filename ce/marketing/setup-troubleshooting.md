@@ -52,7 +52,7 @@ Dynamics 365 Marketing is licensed per instance, with each instance priced accor
     Your monthly email quota is equal to ten times the number of marketing contacts you have purchased.
 
 - **If I use a contact only once in a month and don’t use it next month, does it count?**  
-    Marketing contacts are cumulative throughout your license period. Once you've engaged a contact in any marketing activity, that contact counts against your quota from that point forward. You can "true down" the number of marketing contacts you've purchased on contract renewal.
+    Marketing contacts are cumulative throughout your license period. Once you've engaged a contact in any marketing activity, that contact counts against your quota from that point forward. You can "true down" the number of marketing contacts you've purchased on the anniversary of your contract.
 
 - **How can I learn more about Dynamics 365 Marketing licensing?**
   - For an overview, see [Purchase and set up Dynamics 365 Marketing](purchase-setup.md) 

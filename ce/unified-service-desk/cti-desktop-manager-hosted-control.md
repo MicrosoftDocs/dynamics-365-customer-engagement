@@ -1,14 +1,14 @@
 ---
 title: "CTI Desktop Manager (Hosted Control) | MicrosoftDocs"
 description: "Learn about using the CTI Desktop Manager hosted control type to plug in a computer telephony integration (CTI) adapter into Unified Service Desk to handle screen popping, call routing, softphone control, and other CTI functionalities."
-ms.custom: 
-  - dyn365-USD
-ms.date: 08/23/2017
-ms.service: dynamics-365-customerservice
-ms.topic: article
 author: v-sailab
 ms.author: v-sailab
 manager: shujoshi
+ms.date: 08/23/2017
+ms.topic: article
+ms.service: dynamics-365-customerservice
+ms.custom: 
+  - dyn365-USD
 search.audienceType: 
   - customizer
   - developer

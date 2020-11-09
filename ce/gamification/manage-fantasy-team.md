@@ -34,11 +34,11 @@ After the commissioner activates the game, you'll receive an email with instruct
   
     Contact the commissioner if you didn't get the email. [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Ask game-specific questions or report issues to the commissioner](contact-commissioner.md)  
   
-2. Click **Begin Draft** to start drafting your team.  
+2. Select **Begin Draft** to start drafting your team.  
   
 3. Select a player for each position.  
   
-4. Click **Submit** to save the changes to your team roster.  
+4. Select **Submit** to save the changes to your team roster.  
   
    > [!IMPORTANT]
    >  Team rosters are effective for the next game period. You can change your team roster as often as you like before the next game period starts.  
@@ -51,14 +51,14 @@ After the commissioner activates the game, you'll receive an email with instruct
   
 1. In [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)], go to **Teams** > **Team Rosters**.  
   
-2. Click ![Edit the team roster in Gamification](media/edit-team-roster-gamification.png "Edit the team roster in Gamification") in the **My Team** column to edit your team roster.  
+2. Select ![Edit the team roster in Gamification](media/edit-team-roster-gamification.png "Edit the team roster in Gamification") in the **My Team** column to edit your team roster.  
   
    > [!NOTE]
    >  You can only change a team roster after the first game period has ended.  
   
 3. Select a player for each position.  
   
-4. Click **Submit** to save the changes to your team roster.  
+4. Select **Submit** to save the changes to your team roster.  
   
    > [!IMPORTANT]
    >  Changes to team rosters are effective for the next game period.  

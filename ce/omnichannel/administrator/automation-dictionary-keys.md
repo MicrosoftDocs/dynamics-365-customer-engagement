@@ -1,12 +1,12 @@
 ---
 title: "Use automation dictionary  to pass parameter keys in the Omnichannel Administration app | MicrosoftDocs"
 description: "Learn about the supported formats to pass parameter values in the Omnichannel Administration app for Templates and Macros."
-author: kabala123
-ms.author: kabala
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.date: 10/29/2020
-ms.service: "dynamics-365-customerservice"
 ms.topic: article
+ms.service: "dynamics-365-customerservice"
 ---
 
 # Use the automation dictionary to pass data parameter keys

@@ -5,9 +5,8 @@ author: neeranelli
 ms.author: nenellim
 manager: shujoshi
 ms.date: 05/20/2020
-ms.service: 
-  - "dynamics-365-customerservice"
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ---
 # Overview of skill-based routing
 

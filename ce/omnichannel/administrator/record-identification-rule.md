@@ -6,8 +6,7 @@ ms.author: nenellim
 manager: shujoshi
 ms.date: 02/14/2020
 ms.topic: article
-ms.service: 
-  - "dynamics-365-customerservice"
+ms.service: dynamics-365-customerservice
 ---
 
 # Automatically identify customers
