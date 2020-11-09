@@ -27,6 +27,51 @@ To enable agents to be able to have conversations in Customer Service workspace,
     
     c. [Work streams](https://docs.microsoft.com/dynamics365/omnichannel/administrator/work-streams-introduction)
     
-3. Assign the Omnichannel Agent and/or Omnichannel Supervisor roles to your users. More information: [Assign roles and enable users for Omnichannel for Customer Service](https://docs.microsoft.com/dynamics365/omnichannel/administrator/add-users-assign-roles)
+3. Assign the Omnichannel Agent and/or Omnichannel Supervisor roles to your users. More information: [Assign roles and enable users for Omnichannel for Customer Service](https://docs.microsoft.com/dynamics365/omnichannel/administrator/add-users-assign-roles).
+
+## Set up profiles in App profile manager
+
+Once you have completed the configurations above, go to App profile manager and complete the following:
+
+1.	Create a new app profile or use the default, out-of-box profile. More information: [Create and use app profiles to manage apps](https://docs.microsoft.com/dynamics365/app-profile-manager/app-profile-manager).
+
+2.	Assign the app profile you created to the agents and supervisors you want to work on both cases and conversations.
+
+3.	Verify that you have assigned Omnichannel for Customer Service-related roles to the agents and supervisors you want to work on both conversations and cases.
+
+## Access Omnichannel for Customer Service dashboard views 
+
+When configured, the following dashboards are available in Customer Service workspace:
+
+For agents:
+- Omnichannel Agent Dashboard
+- Customer Service Representative Dashboard
+
+For supervisors:
+- Omnichannel Agent dashboard
+- Omnichannel Ongoing Conversations Dashboard
+- Intraday Insights
+- Customer Service Representative Dashboard
+- Customer Service Manager Dashboard
+
+
+### Agent experience
+Once you have configured the Omnichannel and App profile manager features, agents will have a user experience in Customer Service workspace that is like the following:
+
+1.	The agent signs in to Customer Service workspace and can view the Omnichannel agent dashboard from the dashboard view.
+
+2.	The agent can work on conversations by accepting or selecting a conversation from the dashboard, and all the functionality of Omnichannel for Customer Service is available to them, including:
+
+    a.	Notifications - More information: [View notifications](https://docs.microsoft.com/dynamics365/omnichannel/agent/agent-oc/oc-notifications) <br>
+    b.	Customer summary - More information: [View a customer summary to get information about a customer](https://docs.microsoft.com/dynamics365/omnichannel/agent/agent-oc/oc-customer-summary) <br>
+    c.	Notes – More information: [Take notes specific to a conversation](https://docs.microsoft.com/en-us/dynamics365/omnichannel/agent/agent-oc/oc-take-notes) <br>
+    d.	Conversation and session forms – More information: [View conversation and session forms](https://docs.microsoft.com/dynamics365/omnichannel/agent/agent-oc/oc-view-activity-types) <br>
+    e.	Transcripts – More information: [Search transcripts](https://docs.microsoft.com/dynamics365/omnichannel/agent/agent-oc/oc-search-transcipts) <br>
+    f.	Viewing customer summaries for conversation requests – More information: [View customer summaries for incoming conversation requests](https://docs.microsoft.com/dynamics365/omnichannel/agent/agent-oc/oc-view-customer-summary-incoming-conversation-request) <br>
+    g.	Presence status – More information: [Manage presence status](https://docs.microsoft.com/dynamics365/omnichannel/agent/agent-oc/oc-manage-presence-status)
+
+Similarly, when a supervisor signs in to Customer Service workspace, they can select the Dashboard view and view the Omnichannel insights dashboard and Omnichannel Intraday insights dashboard.  
+
+
 
 
