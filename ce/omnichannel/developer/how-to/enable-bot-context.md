@@ -4,7 +4,7 @@ description: "Enable a bot to understand context while authoring a bot flow"
 author: platkat
 ms.author: ktaylor
 manager: shujoshi
-ms.date: 10/05/2020
+ms.date: 10/09/2020
 ms.topic: reference
 ms.service: dynamics-365-customerservice
 ms.reviewer: nenellim
@@ -51,3 +51,4 @@ Use this procedure if you have created your bot using Visual Studio Azure Bot te
 
 [Manage custom context](send-context-starting-chat.md)<br />
 [setContextProvider](../reference/methods/setContextProvider.md)  
+[Integrate an Azure bot](../../administrator/configure-bot.md)  
