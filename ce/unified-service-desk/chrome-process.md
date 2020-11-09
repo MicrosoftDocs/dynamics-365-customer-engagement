@@ -4,7 +4,7 @@ description: "Learn about the Chrome Process hosting method for your controls in
 author: v-sailab
 ms.author: v-sailab
 manager: shujoshi
-ms.date: 07/12/2019
+ms.date: 11/09/2020
 ms.topic: "article"
 ms.service: dynamics-365-customerservice
 ms.custom: 
