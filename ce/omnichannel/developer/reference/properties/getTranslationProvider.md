@@ -1,13 +1,12 @@
 ---
 title: "getTranslationProvider (Omnichannel for Customer Service JavaScript property reference) | MicrosoftDocs"
 description: 
-author: anbisht
-ms.author: anbisht
-manager: gibapana
+author: ramana-hyd
+ms.author: v-rmurthy
+manager: shujoshi
 ms.date: 10/05/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
-
 ---
 
 # getTranslationProvider

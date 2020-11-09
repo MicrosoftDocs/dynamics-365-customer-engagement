@@ -24,7 +24,7 @@ There's no real competition without a leaderboard. [!INCLUDE[pn_gamification](..
 
 ## Find your way around
 
- In [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)], click **My Games** > **Leaderboards** to see the various rankings.
+ In [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)], select **My Games** > **Leaderboards** to see the various rankings.
   
  You can choose the game leaderboards you want to see, and switch between the different types of leaderboards.
 

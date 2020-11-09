@@ -2,7 +2,7 @@
 title: "Set up Dynamics 365 Marketing (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to run the setup wizard for Dynamics 365 Marketing"
 keywords: setup; licensing; FRE; Azure; privacy; marketing services; marketing-insights service
-ms.date: 09/19/2020
+ms.date: 11/04/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -41,7 +41,7 @@ Dynamics 365 Marketing has several licensing options:
 - **Solution-only app**: A solution-only license includes all of the entities and solutions for Dynamics 365 Marketing, but doesn't include any of the marketing services. This means that marketing capabilities aren't available in this option (including email  creation, email delivery, segmentation, customer journeys, and more). This license is intended for use on development and test instances when making customizations, solving compatibility issues, importing/exporting solutions, and doing other types of development and non-functional marketing testing. A solution-only license is included with all paid licenses and allows you to install the solution-only app on as many instances as needed. As with production instances, you must [update each solution-only instance manually](apply-updates.md) each time an update becomes available. To convert a solution-only instance to a production instance, make sure you have an unconfigured production license and then [run the setup wizard](#run-wizard) to apply that license to the existing solution-only instance.
 
 > [!NOTE]
-> When you sign up for Dynamics 365 Marketing, you'll choose a licensing option that defines your contract period and various quotas for that period. Each of the contacts that you engage through marketing activities during the contract period count against your total contact quota, even if you delete, or otherwise stop marketing to, an existing marketing contact during the contract period. You can only reduce your purchased contact quota on contract renewal date.
+> When you sign up for Dynamics 365 Marketing, you'll choose a licensing option that defines your contract period and various quotas for that period. Each of the contacts that you engage through marketing activities during the contract period count against your total contact quota, even if you delete, or otherwise stop marketing to, an existing marketing contact during the contract period. You can only reduce your purchased contact quota on the anniversary of your contract.
 >
 > To learn more about Dynamics 365 Marketing pricing and licensing offers as well as prerequisites, refer to the [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544).
 

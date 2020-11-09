@@ -1,13 +1,12 @@
 ---
 title: "Take notes specific to conversation in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn how to take notes specific to conversation in Omnichannel for Customer Service."
-author: kabala123
-ms.author: kabala
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.date: 12/27/2019
-ms.service: 
-  - "dynamics-365-customerservice"
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ---
 
 # Take notes specific to conversation

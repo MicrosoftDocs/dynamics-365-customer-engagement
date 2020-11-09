@@ -1,13 +1,12 @@
 ---
 title: "Render a live chat widget on the mobile app| Microsoft Docs"
 description: "Render a live chat widget on your mobile app using a code snippet or SDK"
-author: susikka
-ms.author: susikka
+author: ramana-hyd
+ms.author: v-rmurthy
 manager: shujoshi
 ms.date: 10/12/2020
-ms.service: 
-  - "dynamics-365-customerservice"
 ms.topic: reference
+ms.service: dynamics-365-customerservice
 ---
 # Render a live chat widget on the mobile app
 

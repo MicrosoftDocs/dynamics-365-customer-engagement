@@ -1,12 +1,12 @@
 ---
 title: "Support for Unified Interface apps in Unified Service Desk | MicrosoftDocs"
 description: "Learn about the Unified Interface apps supportability in Unified Service Desk."
-ms.date: 05/07/2018
-ms.service: dynamics-365-customerservice
-ms.topic: article
 author: v-sailab
 ms.author: v-sailab
 manager: shujoshi
+ms.date: 05/07/2018
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ---
 
 # Support for Unified Interface Apps in Unified Service Desk

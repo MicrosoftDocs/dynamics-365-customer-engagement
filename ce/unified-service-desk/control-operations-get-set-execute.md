@@ -1,14 +1,14 @@
 ---
 title: "Control Operations (Get, Set, Execute) | MicrosoftDocs"
 description: "The operations on a control are executed based on the patterns the automation element exhibits. This topic describes the operations that can be performed on the controls and the default behavior of these operations for the various controls."
-ms.custom: 
-  - dyn365-USD
-ms.date: 08/23/2017
-ms.service: dynamics-365-customerservice
-ms.topic: article
 author: v-sailab
 ms.author: v-sailab
 manager: shujoshi
+ms.date: 08/23/2017
+ms.topic: article
+ms.service: dynamics-365-customerservice
+ms.custom: 
+  - dyn365-USD
 search.audienceType: 
   - customizer
   - developer

@@ -1,13 +1,12 @@
 ---
 title: "Create Omnichannel Toast Notification hosted control | MicrosoftDocs"
 description: "Learn how to create Omnichannel Toast notification hosted control for agents using Omnichannel for Customer Service in Unified Service Desk."
-author: kabala123
-ms.author: kabala
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.date: 07/01/2019
-ms.service: 
-  - "dynamics-365-customerservice"
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ---
 # Step 2: Create hosted control
 

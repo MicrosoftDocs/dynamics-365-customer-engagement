@@ -39,24 +39,26 @@ Make sure you have the App profile manager administrator role. More information:
 7. On the **New profile** pane, specify the following:
    - **Name:** The app profile name.
    - **Unique name:** A unique identifier in the <*prefix*>_<*name*> format.
-     
+
      > [!IMPORTANT]
      > The following are required for the unique name:
      > - The prefix can only be alphanumeric and its length must be between 3 to 8 characters.
-     > - An underscore must be there between the prefix and name.
-   
+     > - An underscore must be used between the prefix and name.
+
    - **Description:** A description for the profile.
   
-### Add templates and enable productivity pane and channels<a name="enable-prod-pane"></a>
+### Assign templates and enable productivity pane and channels<a name="enable-prod-pane"></a>
 
-For an app profile, you can add only one session template for each entity type. Typically, you will add one session template for each entity type, such as one each session template for accounts, contacts, and cases. The settings that you enable for the app profile will be available for agents and supervisor only when you configure the corresponding templates and settings in the Customer Service Hub app or Omnichannel Administration app. For example, channels must be provisioned in Omnichannel for Customer Service and channel instances must be configured.
+For an app profile, you can add only one session template for each entity type. Typically, you will add one session template for each entity type, such as one each session template for accounts, contacts, and cases.
+
+The settings that you enable for the app profile will be available for agents and supervisor only when you configure the corresponding templates and settings in the Customer Service Hub app or Omnichannel Administration app. For example, channels must be provisioned in Omnichannel for Customer Service and channel instances must be configured.
 
 1. In the **App profiles** section, select the app profile to which you want to assign templates.
 2. On the **Session templates**, select **Add entity session template**.
 3. Search for the template you want to add and select it. Make sure that the selected template is based on **Entity** type. More information: [Manage session templates](session-templates.md)
    > [!div class=mx-imgBorder]
    > ![App profile session template](media/app-profile-session-template.png "App profile session template")
-   
+
 4. Do the following on the **Productivity pane** tab:
    1. If you want to enable productivity tools, set the toggle to on for **Turn on productivity pane**.
    2. Select the default mode as collapsed or expanded.
@@ -99,10 +101,10 @@ When users are assigned roles corresponding to Customer Service workspace or Omn
   - Omnichannel supervisor
   - Omnichannel agent
 
-More information: [Security roles](security-roles.md)
+More information: [Roles and privileges associated with app profile manager](security-roles.md)
 
 ### See also
 
 [Manage session templates](session-templates.md)  
 [Configure channels](../omnichannel/administrator/channels.md)  
-[Manage agent scripts](agent-scripts.md)
+[Manage agent scripts](agent-scripts.md)  
