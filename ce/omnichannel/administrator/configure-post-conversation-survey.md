@@ -80,9 +80,9 @@ You can set up surveys when configuring a channel or update an existing channel 
 
 When a conversation ends, a pre-designed survey is sent to the customer. This survey allows you to track and analyse service feedback and experience as a key metric for the service delivered. Any conversation can be considered as closed when one of the following scenarios happen.
 
-1. Agent ends the chat conversation
-2. Customer ends the chat conversation
-3. Auto closure of the conversation
++ Agent ends the chat conversation
++ Customer ends the chat conversation
++ Auto closure of the conversation
 
 When a conversation comes to an end, the customer receives a feedback that they can respond to. Customers can typically receive survey links in two ways.
 
