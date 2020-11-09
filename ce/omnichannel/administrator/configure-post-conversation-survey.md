@@ -20,13 +20,16 @@ You can configure your chat widget to show users a survey that they can respond 
 > [!NOTE]
 > Post-conversation survey is not supported in Government Community Cloud.
 
-## Prerequisite
-
-The post-conversation survey uses Dynamics 365 Customer Voice to create surveys. Make sure you have access to create surveys in Dynamics 365 Customer Voice in the same org as Omnichannel for Customer Service, and you've created the required survey. The survey that you create will be listed as an option to choose for linking to the conversation. More information: [Create surveys with Dynamics 365 Customer Voice](https://go.microsoft.com/fwlink/p/?linkid=2135108)
-
 ## How post-conversation surveys work
 
 When you enable a post-conversation survey for a channel, the survey will appear for the customer after the agent or customer ends the conversation. While configuring the survey, you can use the settings for the response options available in Dynamics 365 Customer Voice. More information: [Work with survey settings](https://docs.microsoft.com/dynamics365/customer-voice/distribution-settings)
+
+To enable post conversation surveys, you need to complete the following steps:
+
+1. Create a survey
+2. Configure a survey
+3. Run-time experience  
+<!-- Can step 3 be considered as a procedural step? It's not something that the agent/admin will need to set up, right? Can the procedure only have the first and second steps, instead? Meghana -->
 
 You can enable post-conversation surveys for the following channels:
 
@@ -41,6 +44,10 @@ You can enable post-conversation surveys for the following channels:
 - Microsoft Teams
 
 For a chat channel only, you can configure the survey link or survey questions to be displayed in the chat window.
+
+## Prerequisite
+
+The post-conversation survey uses Dynamics 365 Customer Voice to create surveys. Make sure you have access to create surveys in Dynamics 365 Customer Voice in the same org as Omnichannel for Customer Service, and you've created the required survey. The survey that you create will be listed as an option to choose for linking to the conversation. More information: [Create surveys with Dynamics 365 Customer Voice](https://go.microsoft.com/fwlink/p/?linkid=2135108)
 
 ## Configure a post-conversation survey
 
@@ -68,6 +75,22 @@ You can set up surveys when configuring a channel or update an existing channel 
 
 > [!div class=mx-imgBorder]
 > ![Post-conversation survey](../media/oc-post-conversation-survey.png "Post-conversation survey")
+
+## Run time experience of post-conversation surveys
+
+When a conversation ends, a pre-designed survey is sent to the customer. This survey allows you to track and analyse service feedback and experience as a key metric for the service delivered. Any conversation can be considered as closed when one of the following scenarios happen.
+
+1. Agent ends the chat conversation
+2. Customer ends the chat conversation
+3. Auto closure of the conversation
+
+When a conversation comes to an end, the customer receives a feedback that they can respond to. Customers can typically receive survey links in two ways.
+
++ Embedded survey mode: You can configure embedded survey mode only for live chats. This allows you to embed the survey directly to the conversation.
++ Link survey mode: This allows you to get a detailed feedback from the customer, since it allows customers to take the survey whenever they want to. You can also set a pre-defined message as a trigger for the survey link to be sent to the customer.
+
+While you are configuring your surveys, you can choose what kind of survey you want to send to your customers. See: Configure a post conversation survey
+<!-- Meghana- Is it a good idea to link to the configure section? -->
 
 > [!NOTE]
 > The surveys that you create and survey data that is processed are not hosted or stored in Omnichannel for Customer Service.
