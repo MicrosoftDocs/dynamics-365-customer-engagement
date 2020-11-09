@@ -143,7 +143,7 @@ In this scenario, a bot has transferred a conversation to a human agent. The hum
 
 ## Configure context variables for the bot
 
-When customers initiate a conversation, the relevant context related to the customer, the issue they are facing, and recent activities performed by them can be made available for the bot to intelligently provide contextual responses to resolve customer issues in a quick and efficient manner. For example, the bot can use the signed-in user details to look up the recent case information or order history of the customer and provide a response. Similarly, the pre-conversation information, custom context, or recent pages browsed on a website by the customer can be passed on to the bot by configuring context variables for the bot in Power Virtual Agents. For information on context variables that can be configured, see [Context variables](context-variables-for-bot.md).
+When customers initiate a conversation, the relevant context that is related to the customer, the issue they are facing, and recent activities performed by them can be made available for the bot to intelligently provide contextual responses to resolve customer issues in a quick and efficient manner. For example, the bot can use the signed-in user details to look up the recent case information or order history of the customer and provide a response. Similarly, the pre-conversation information, custom context, or recent pages browsed on a website by the customer can be passed on to the bot by configuring context variables for the bot in Power Virtual Agents. For information on context variables that can be configured, see [Context variables for bots](context-variables-for-bot.md).
 
 > [!IMPORTANT]
 > Ensure the following:

@@ -18,9 +18,6 @@ The custom context is a collection of key or value pairs. Only primitive values 
 
 For information on context variables that can be configured, see [Context variables](../../administrator/context-variables-for-bot.md).
 
-> [!IMPORTANT]
-> Make sure the value that will be passed to the context variable doesn't exceed 4,000 characters so that the conversation can be successfully escalated to the agent.
-
 Use the following steps to send custom context when starting a chat:
 
 1. Listen to the **lcw:ready** event raised by a live chat before calling the live chat SDK methods. The live chat methods should be invoked after the **lcw:ready** event is raised. You can listen for this event by adding your own event listener on the window object.
