@@ -1,7 +1,7 @@
 ---
 title: "Qualify or convert leads (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Qualify the lead after you've identified the timeframe, budget, and purchase process of the lead."
-ms.date: 11/06/2020
+ms.date: 11/09/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
@@ -84,6 +84,8 @@ For information on how to resolve the common errors that you may get while you q
 ## What happens when duplicates are found while qualifying leads?
 
 When qualifying a lead, if a duplicate account or contact is detected while creating new records, a duplicate warning is shown to you. Depending on whether your system administrator has enabled the improved duplicate detection and merge experience, you will see the options to resolve duplicates.
+
+For information on enabling the improved duplicate detection and merge experience, see [Enable the improved duplicate detection and merge experience](https://go.microsoft.com/fwlink/p/?linkid=2148601).
 
 ### Duplicate detection when improved duplicate detection and merge experience is disabled
 
