@@ -31,9 +31,15 @@ In certain cases, you may want to create marketing emails using pre-made email t
 > [!NOTE]
 > You will need your administrator to [turn on the feature switch](admin-feature-switches.md) for the "Post-processing switch" functionality before you are able to access it in the email designer.
 
-Under the **HTML** tab in any email in a Draft or Live Editable state, you will see a new switch on the HTML editor canvas header labelled **Auto-Adjust HTML for all providers**. By default, this functionality is switched on.
+Under the **HTML** tab in any email in a Draft or Live Editable state, you will see a new switch on the HTML editor canvas header labeled **Auto-Adjust HTML for all providers**. By default, this functionality is switched on.
 
-<!--- Alex Please Add Screenshot Here -->
+> [!div class="mx-imgBorder"]
+> ![Screenshot of a file explorer window, open to the AZ3166 D: drive.](./media/auto-adjust-email-html.png)
 
 When creating or editing your email, you can toggle this switch to turn off auto-adjustment. You will see a confirmation dialog. Select the **Turn it off for this** button. This will turn off auto-adjustment for the email you are working on.
 
+### See also
+
+[Tutorial: Create a marketing email and go live](create-marketing-email.md)  
+[Email marketing overview](prepare-marketing-emails.md)  
+[Create a new email and design its content](email-design.md)  
