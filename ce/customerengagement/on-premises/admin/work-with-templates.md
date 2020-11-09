@@ -81,7 +81,7 @@ More information: [Use entitlement templates to set up entitlements quickly](../
 
 Excel provides powerful ways to analyze and present your Dynamics 365 for Customer Engagement data. With Excel templates, you can easily create and share your customized analysis with others in your organization.
 
-More information: [Analyze and share your data with Excel templates][/power-platform/admin/analyze-your-data-with-excel-templates] in the Power Platform admin documentation
+More information: [Analyze and share your data with Excel templates](/power-platform/admin/analyze-your-data-with-excel-templates) in the Power Platform admin documentation
 
 ## Word templates
 
