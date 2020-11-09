@@ -1,13 +1,12 @@
 ---
 title: "View Customer summary form for an incoming conversation request | MicrosoftDocs"
 description: "Learn about the Customer summary and its behavior when the agent gets and incoming conversation request."
-author: kabala123
-ms.author: kabala
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.date: 07/01/2019
-ms.service: 
-  - "dynamics-365-customerservice"
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ---
 # View customer summary for an incoming conversation request
 

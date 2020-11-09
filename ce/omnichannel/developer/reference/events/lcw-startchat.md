@@ -1,8 +1,8 @@
 ---
 title: "lcw startChat | MicrosoftDocs"
 description: 
-author: susikka
-ms.author: susikka
+author: ramana-hyd
+ms.author: v-rmurthy
 manager: shujoshi
 ms.topic: article
 ---

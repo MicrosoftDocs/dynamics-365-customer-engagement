@@ -1,13 +1,12 @@
 ---
 title: "Enable self-service settings | MicrosoftDocs"
 description: "Enable self service in the Omnichannel Administration app."
-author: kabala123
-ms.author: kabala
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.date: 02/03/2020
-ms.service: 
-  - "dynamics-365-customerservice"
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ---
 
 # Enable self-service settings for customer actions in a conversation summary

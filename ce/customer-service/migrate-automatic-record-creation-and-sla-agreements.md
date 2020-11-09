@@ -1,8 +1,8 @@
 ---
 title: Migrate automatic record creation rules and service-level agreements | MicrosoftDocs
+description: 
 author: lerobbin
 ms.author: lerobbin
-ms.reviewer: nenellim
 manager: shujoshi
 ms.date: 10/05/2020
 ms.topic: article
@@ -15,6 +15,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.reviewer: nenellim
 ---
 
 # Migrate automatic record creation rules and service-level agreements

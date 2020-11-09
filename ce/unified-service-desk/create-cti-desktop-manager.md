@@ -1,14 +1,14 @@
 ---
 title: "Create a CTI Desktop Manager | MicrosoftDocs"
 description: "The CTI Desktop Manager component is the interface between the computer telephony integration (CTI) system and Unified Service Desk or User Interface Integration (UII). The CTI Desktop Manager component creates the following two objects that collectively manage the state and data in a call- CallStateManager and AgentStateManager."
-ms.custom: 
-  - dyn365-USD
-ms.date: 12/31/2019
-ms.service: dynamics-365-customerservice
-ms.topic: article
 author: v-sailab
 ms.author: v-sailab
 manager: shujoshi
+ms.date: 12/31/2019
+ms.topic: article
+ms.service: dynamics-365-customerservice
+ms.custom: 
+  - dyn365-USD
 search.audienceType: 
   - customizer
   - developer

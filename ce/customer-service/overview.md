@@ -6,8 +6,7 @@ ms.author: laalexan
 manager: shujoshi
 ms.date: 08/20/2020
 ms.topic: get-started-article
-ms.service: 
-  - dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-customerservice
 ---

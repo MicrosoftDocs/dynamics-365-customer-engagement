@@ -1,13 +1,12 @@
 ---
 title: "Agent scripts in the Omnichannel for Customer Service app | MicrosoftDocs"
 description: "Learn how to use agent scripts in the Omnichannel for Customer Service app."
-author: kabala123
-ms.author: kabala
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.date: 01/31/2020
-ms.service: 
-  - "dynamics-365-customerservice"
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ---
 
 # Guide customer interaction with agent scripts
