@@ -109,7 +109,9 @@
 ##### [Use automation dictionary to pass data parameters keys](administrator/automation-dictionary-keys.md)
 ##### [Associate templates with workstreams](administrator/associate-templates.md)
 
-### [App profile manager](../app-profile-manager/overview.md)
+### App profile manager for Omnichannel for Customer Service
+#### [App profile manager overview](../app-profile-manager/overview.md)
+#### [Use app profile manager](../app-profile-manager/app-profile-manager.md)
 
 ### Supervisor Experience
 #### [Configure intraday insights](administrator/configure-intraday-dashboard-supervisor.md)
