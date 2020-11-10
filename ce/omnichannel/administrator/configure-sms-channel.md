@@ -5,8 +5,8 @@ author: lalexms
 ms.author: laalexan
 manager: shujoshi
 ms.date: 10/05/2020
-ms.service: "dynamics-365-customerservice"
 ms.topic: article
+ms.service: "dynamics-365-customerservice"
 ---
 
 # Configure an SMS channel for TeleSign

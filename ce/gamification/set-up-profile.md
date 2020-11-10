@@ -24,7 +24,7 @@ Your colleagues will surely want to see who they're competing with in the games.
 
 ## Update profile settings
 
-To add your profile picture, sign in to [!INCLUDE[pn_gamification](../includes/pn-gamification.md)] (see [Sign in to Gamification](sign-in.md)) and you'll land on the **Leaderboard**. Click the gear symbol (![Settings button in Gamification](media/settings-symbol-gamification.png "Settings button in Gamification")) to access **My Settings**. Edit your profile picture or other profile information, and then click **Save** or **Update**.
+To add your profile picture, sign in to [!INCLUDE[pn_gamification](../includes/pn-gamification.md)] (see [Sign in to Gamification](sign-in.md)) and you'll land on the **Leaderboard**. Select the gear symbol (![Settings button in Gamification](media/settings-symbol-gamification.png "Settings button in Gamification")) to access **My Settings**. Edit your profile picture or other profile information, and then select **Save** or **Update**.
 
 > [!NOTE]
 > For the best results, resize your profile picture to 150 &times; 150 px.

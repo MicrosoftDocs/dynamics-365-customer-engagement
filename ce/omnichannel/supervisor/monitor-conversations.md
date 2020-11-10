@@ -1,12 +1,12 @@
 ---
 title: "Monitor and assign conversations as a supervisor | MicrosoftDocs"
 description: "Learn how to monitor conversations as a supervisor"
-ms.date: 11/03/2020
-ms.service: dynamics-365-customerservice
-ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
+ms.date: 11/03/2020
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ---
 
 # Monitor and assign conversations
@@ -72,7 +72,7 @@ At times, you may need to manually assign a conversation. The following are appl
 - Conversation must be in an open status or not assigned to an agent.
 - Agents whose presence matches with one of the allowed presence values in the work stream configuration only will be listed.
 
-You can override agent's allocated capacity and assign conversations. In such cases, the agent's capacity will show the units by which their capacity is exceeded.
+You can override agent's allocated capacity and assign conversations. In such cases, the agent's capacity will show the units by which their capacity is exceeded. You can also override agent's presence while assigning conversations.
 
 1. Sign in to the **Omnichannel for Customer Service** app.
 

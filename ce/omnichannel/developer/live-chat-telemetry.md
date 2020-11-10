@@ -1,13 +1,12 @@
 ---
 title: "Live chat widget telemetry| Microsoft Docs"
 description: ""
-author: susikka
-ms.author: susikka
+author: ramana-hyd
+ms.author: v-rmurthy
 manager: shujoshi
 ms.date: 05/15/2020
-ms.service: 
-  - "dynamics-365-customerservice"
 ms.topic: reference
+ms.service: dynamics-365-customerservice
 ---
 # Live chat widget telemetry
 

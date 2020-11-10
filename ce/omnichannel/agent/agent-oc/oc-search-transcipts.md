@@ -1,13 +1,12 @@
 ---
 title: "Search for transcripts in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn how to search for transcripts in Omnichannel for Customer Service."
-author: kabala123
-ms.author: kabala
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.date: 02/03/2020
-ms.service: 
-  - "dynamics-365-customerservice"
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ---
 
 # Search for transcripts

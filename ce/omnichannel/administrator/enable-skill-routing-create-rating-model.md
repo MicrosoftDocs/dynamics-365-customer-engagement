@@ -1,13 +1,12 @@
 ---
 title: "Enable skill-based routing and create rating model | MicrosoftDocs"
 description: "Learn about how to enable skill-based routing and create rating model in Omnichannel for Customer Service app."
-author: kabala123
-ms.author: kabala
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.date: 12/13/2019
-ms.service: 
-  - "dynamics-365-customerservice"
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ---
 
 # Enable skill-based routing and create rating model
