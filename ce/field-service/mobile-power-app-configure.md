@@ -271,8 +271,9 @@ Because the Dynamics 365 Field Service mobile app is built on Microsoft's Power 
 
 - **Offline profiles get updated**. The default offline profile may receive updates over time, but updates will come in an unpublished state. This allows organizations to review the updates and decide if they want to take the update or continue with previous version. If entities in the default offline profile are modified, those entities will be considered unmanaged and won't receive future updates while unmodified entities are still eligible for update.
 
-- **Sync conflicts.** With default settings, if there's a conflict between data on the device and data on the service, the device data will win and overwrite data on the server. System administrators can adjust this where an error can be thrown in the application in case of conflict.
-In future updates, there will be more configuration options to handle unique data conflict scenarios.
+- **Sync conflicts.**  Sync conflicts can happen if there is a missmatch between data on the device and data on the server. A conflict is raised at the entity level and not per-field.  Conflict errors can be resolved based on the settings set by the admin. If your admin has set the conflict resolution to "No", then the data value on your client device wins and there will be no sync errors. This is the default value for Field Service Mobile. If your admin has set the conflict resolution to "Yes", then the data value on the server wins. In this case, while syncing changes to the server, you might see some errors that are automatically resolved. Client changes are overwritten by server values.
+
+
 
 
 ### Known limitations
