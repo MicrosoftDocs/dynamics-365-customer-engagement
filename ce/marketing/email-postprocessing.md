@@ -34,7 +34,7 @@ In certain cases, you may want to create marketing emails using pre-made email t
 Under the **HTML** tab in any email in a Draft or Live Editable state, you will see a new switch on the HTML editor canvas header labeled **Auto-Adjust HTML for all providers**. By default, this functionality is switched on.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a file explorer window, open to the AZ3166 D: drive.](./media/auto-adjust-email-html2.png)
+> ![Switch to toggle auto-adjust HTML for all providers](./media/auto-adjust-email-html2.png)
 
 When creating or editing your email, you can toggle this switch to turn off auto-adjustment. You will see a confirmation dialog. Select the **Turn it off for this** button. This will turn off auto-adjustment for the email you are working on.
 
