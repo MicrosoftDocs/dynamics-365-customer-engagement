@@ -1,13 +1,12 @@
 ---
 title: "Initiate a chat | Microsoft Docs"
 description: "Read how you can start a chat using the startChat API"
-author: susikka
-ms.author: susikka
+author: ramana-hyd
+ms.author: v-rmurthy
 manager: shujoshi
 ms.date: 07/15/2019
-ms.service: 
-  - "dynamics-365-customerservice"
 ms.topic: reference
+ms.service: dynamics-365-customerservice
 ---
 # Initiate a chat
 

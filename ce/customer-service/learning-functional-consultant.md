@@ -2,9 +2,9 @@
 title: Functional consultants learning catalog
 description: Find all the training options for functional consultants.
 author: loreleishannonmsft
-ms.topic: article
-ms.date: 01/08/2020
 ms.author: v-lshann
+ms.date: 01/08/2020
+ms.topic: article
 ---
 
 # Functional Consultants Learning Catalog

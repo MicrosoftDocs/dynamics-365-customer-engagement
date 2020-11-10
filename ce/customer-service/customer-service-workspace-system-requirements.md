@@ -4,13 +4,9 @@ description: "Learn about the system requirements for Customer Service workspace
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-applies_to: 
-  - ""
 ms.date: 10/05/2020
-ms.service: "dynamics-365-customerservice"
 ms.topic: article
-ms.custom: 
-  - ""
+ms.service: "dynamics-365-customerservice"
 ---
 
 # Customer Service workspace system requirements

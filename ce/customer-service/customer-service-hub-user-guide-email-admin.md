@@ -1,13 +1,14 @@
----	
-title: "Configure email | Microsoft Docs"	
-description: "Learn how to configure email."	
-ms.date: 10/05/2020	
-ms.service:	"dynamics-365-customerservice"	
-ms.topic: article	
-author: lerobbin	
-ms.author: lerobbin	
-manager: shujoshi	
----	
+---
+title: "Configure email | Microsoft Docs"
+description: "Learn how to configure email."
+author: lerobbin
+ms.author: lerobbin
+manager: shujoshi
+ms.date: 10/05/2020
+ms.topic: article
+ms.service: "dynamics-365-customerservice"
+ms.reviewer: lalexms
+---
 
 # Configure email
 

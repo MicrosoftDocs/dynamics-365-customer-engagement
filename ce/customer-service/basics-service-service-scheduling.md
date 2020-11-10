@@ -1,13 +1,12 @@
 ---
 title: "Overview of Service Scheduling (Dynamics 365 Customer Service) | MicrosoftDocs"
 description: "Know the basics of service and service scheduling in Dynamics 365 Customer Service"
-ms.date: 06/17/2019
-ms.service:
-  - "dynamics-365-customerservice"
-ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
+ms.date: 06/17/2019
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ---
 
 # Service Scheduling Guide

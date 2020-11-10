@@ -1,12 +1,12 @@
 ---
 title: "Walkthrough 7  Configure agent scripting in your agent application | MicrosoftDocs"
 description: 
-ms.date: 06/25/2020
-ms.service: dynamics-365-customerservice
-ms.topic: article
 author: v-sailab
 ms.author: v-sailab
 manager: shujoshi
+ms.date: 06/25/2020
+ms.topic: article
+ms.service: dynamics-365-customerservice
 search.audienceType: 
   - customizer
   - developer

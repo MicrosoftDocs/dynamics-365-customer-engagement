@@ -15,7 +15,6 @@
 ## User Guides
 
 ### Customer Service workspace
-
 #### [Introduction to Customer Service workspace](csw-overview.md)
 #### [Customer Service workspace system requirements](customer-service-workspace-system-requirements.md)
 #### [Overview of productivity pane](csw-productivity-pane.md)
@@ -29,9 +28,13 @@
 #### Work with email
 ##### [Configuring email](customer-service-hub-user-guide-email-admin.md)
 ##### [Using email](customer-service-hub-user-guide-email-overview.md)
+
 #### Work with timeline
 ##### [Configuring timeline](customer-service-hub-user-guide-timeline-admin.md)
 ##### [Using timeline](customer-service-hub-user-guide-timeline-overview.md)
+
+#### Work with queues
+##### [Work with queues](work-with-queues.md)
 
 #### Work with cases
 ##### [Create a case](customer-service-hub-user-guide-create-a-case.md)
@@ -42,6 +45,7 @@
 ##### [Manage activities from the timeline](customer-service-hub-user-guide-manage-timeline-activities.md)
 ##### [Convert case to knowledge article](customer-service-hub-user-guide-convert-case-to-knowledge-article.md)
 ##### [Manage Case SLAs](customer-service-hub-user-guide-case-sla.md)
+
 #### [Search for knowledge articles](search-knowledge-articles-csh.md)
 
 #### [Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)
@@ -51,6 +55,7 @@
 #### [Keyboard navigation support](keyboard-navigation-support-customer-service-hub.md)
 
 ### [Customer Service Team Member](customer-service-team-member.md)
+
 ### Customer Service app
 #### [Introduction to Customer Service app](user-guide-customer-service.md)
 #### [Create and manage a case](user-guide-customer-service.md#create-and-manage-a-case)

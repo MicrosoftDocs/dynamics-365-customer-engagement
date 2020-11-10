@@ -1,13 +1,12 @@
 ---
 title: "Add hosted control, action calls, and events to the configurations | MicrosoftDocs"
 description: "Learn how to add hosted control, action calls, and events to the configurations."
-author: kabala123
-ms.author: kabala
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.date: 07/01/2019
-ms.service: 
-  - "dynamics-365-customerservice"
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ---
 
 # Step 4:  Add the hosted control, action calls, and events to configurations

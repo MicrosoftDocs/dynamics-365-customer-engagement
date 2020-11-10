@@ -1,15 +1,15 @@
 ---
 title: "Unified Service Desk  system requirements | MicrosoftDocs"
 description: "Describes the supported dependent and optional components you need to install and use Unified Service Desk."
-ms.custom: 
-  - dyn365-USD
-  - dyn365-admin
-ms.date: 04/03/2020
-ms.service: dynamics-365-customerservice
-ms.topic: get-started-article
 author: v-sailab
 ms.author: v-sailab
 manager: shujoshi
+ms.date: 04/03/2020
+ms.topic: get-started-article
+ms.service: dynamics-365-customerservice
+ms.custom: 
+  - dyn365-USD
+  - dyn365-admin
 ---
 
 # Requirements

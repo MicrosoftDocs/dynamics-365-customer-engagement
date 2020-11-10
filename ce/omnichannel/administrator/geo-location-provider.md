@@ -5,9 +5,8 @@ author: lalexms
 ms.author: laalexan
 manager: shujoshi
 ms.date: 12/13/2019
-ms.service: 
-  - "dynamics-365-customerservice"
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ---
 
 # Set up visitor location detection

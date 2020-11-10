@@ -1,15 +1,14 @@
 ---
 title: "msdyn_ApplyRoutingRuleEntityRecord Action Reference (Developer Guide for Omnichannel for Customer Service)| MicrosoftDocs"
 description: "Reference information about the msdyn_ApplyRoutingRuleEntityRecord Action."
-author: "susikka"
-ms.author: "susikka"
+author: "ramana-hyd"
+ms.author: "v-rmurthy"
 manager: "shujoshi"
+ms.date: 10/03/2019
+ms.topic: "reference"
+ms.service: dynamics-365-customerservice
 applies_to: 
   - "Dynamics 365 (online)"
-ms.date: 10/03/2019
-ms.service: 
-  - crm-online
-ms.topic: "reference"
 ---
 
 # msdyn_ApplyRoutingRuleEntityRecord Action Reference
