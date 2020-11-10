@@ -29,7 +29,7 @@ To enable agents to be able to have conversations in Customer Service workspace,
     
 3. Assign the Omnichannel agent and/or Omnichannel supervisor roles to your users. More information: [Assign roles and enable users for Omnichannel for Customer Service](../omnichannel/administrator/add-users-assign-roles.md).
 
-## Set up profiles in App profile manager
+## Set up profiles in app profile manager
 
 Once you've completed the configurations above, go to App profile manager and complete the following:
 
@@ -56,7 +56,7 @@ For supervisors:
 
 
 ### Agent experience
-Once you have configured the Omnichannel and App profile manager features, agents will have a user experience in Customer Service workspace that is similar to the following:
+After you have configured the Omnichannel for Customer Service and app profile manager features, agents will have a user experience in Customer Service workspace that is similar to the following:
 
 1.	The agent signs in to Customer Service workspace and can view the Omnichannel agent dashboard from the dashboard view.
 
@@ -80,8 +80,8 @@ When a supervisor signs in to Customer Service workspace, they can select a dash
 - View customer satisfaction levels - More information: [Sentiment monitoring](../omnichannel/supervisor/supervisor-sentiment-monitoring.md)
 
 ### See also
-- [App profile manager overview](overview.md) <br>
-- [Roles and privileges associated with app profile manager](security-roles.md) <br>
-- [Customer Service workspace overview](../customer-service/csw-overview.md) <br>
-- [Omnichannel agent overview](../omnichannel/agent/omnichannel-agent-overview.md)<br>
-- [Introduction to intraday supervisor experiences](../omnichannel/supervisor/intro-intraday-insights-dashboard.md)
+[App profile manager overview](overview.md)  
+[Roles and privileges associated with app profile manager](security-roles.md)  
+[Customer Service workspace overview](../customer-service/csw-overview.md)  
+[Omnichannel agent overview](../omnichannel/agent/omnichannel-agent-overview.md)  
+[Introduction to intraday supervisor experiences](../omnichannel/supervisor/intro-intraday-insights-dashboard.md)  
