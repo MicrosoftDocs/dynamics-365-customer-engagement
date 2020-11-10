@@ -11,13 +11,13 @@ manager: shujoshi
 
 # Set up Omnichannel for Customer Service channels in Customer Service workspace
 
-When your agents are working on cases, there may be times when you want them to also be able to have conversations with customers. Using Omnichannel for Customer Service add-on licensing, you can set up your Customer Service workspace environment so that agents are able to work on both cases and conversations without having to leave the Customer Service workspace app.
+When your agents are working on cases, there may be times when you want them to also be able to have conversations with customers. Using Omnichannel for Customer Service add-on [licensing](https://dynamics.microsoft.com/customer-service/overview/#pricing), you can set up your Customer Service workspace environment so that agents are able to work on both cases and conversations without having to leave the Customer Service workspace app.
 
 ## Enable channel conversations in Customer Service workspace 
 
 To enable agents to be able to have conversations in Customer Service workspace, do the following: 
 
-1. Obtain Omnichannel for Customer Service add-on licenses and set up your Omnichannel environment. More information: [Provision Omnichannel](../omnichannel/administrator/omnichannel-provision-license.md). 
+1. Obtain Omnichannel for Customer Service add-on [licenses](https://dynamics.microsoft.com/pricing/customer-service/#plans) and set up your Omnichannel environment. More information: [Provision Omnichannel](../omnichannel/administrator/omnichannel-provision-license.md). 
 
 2. Configure the following in the Omnichannel administrator app: 
 
