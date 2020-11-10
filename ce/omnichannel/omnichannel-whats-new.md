@@ -4,7 +4,7 @@ description: "Learn about what's new in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 08/10/2020
+ms.date: 11/09/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -12,6 +12,12 @@ ms.service: dynamics-365-customerservice
 # What's new in Omnichannel for Customer Service
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
+## What's new in October 2020 update
+
+For information about the features that released in October 2020, see:
+
+[2020 release wave 2 plan - Omnichannel for Customer Service](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/service/dynamics365-customer-service/omnichannel-customer-service)
 
 ## What's new in August 2020 update
 
@@ -31,7 +37,7 @@ For information about new features releasing in October 2019, see:
 
 [2019 release wave 2 plan - Omnichannel for Customer Service](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-customer-service/omnichannel)
 
-##  What's new in August 2019 update
+## What's new in August 2019 update
 
 This section contains information about new features and enhancements in Omnichannel for Customer Service August 2019 update.
 
