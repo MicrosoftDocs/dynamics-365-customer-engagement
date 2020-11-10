@@ -84,4 +84,4 @@ When a supervisor signs in to Customer Service workspace, they can select a dash
 - [Roles and privileges associated with app profile manager](https://docs.microsoft.com/dynamics365/app-profile-manager/security-roles) <br>
 - [Customer Service workspace overview](https://docs.microsoft.com/dynamics365/customer-service/csw-overview) <br>
 - [Omnichannel agent overview](https://docs.microsoft.com/dynamics365/omnichannel/agent/omnichannel-agent-overview)<br>
-- [Introducation to intraday supervisor experiences](https://docs.microsoft.com/en-us/dynamics365/omnichannel/supervisor/intro-intraday-insights-dashboard)
+- [Introduction to intraday supervisor experiences](https://docs.microsoft.com/en-us/dynamics365/omnichannel/supervisor/intro-intraday-insights-dashboard)
