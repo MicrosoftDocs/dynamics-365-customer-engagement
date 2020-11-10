@@ -80,8 +80,8 @@ When a supervisor signs in to Customer Service workspace, they can select a dash
 - View customer satisfaction levels - More information: [Sentiment monitoring](../omnichannel/supervisor/supervisor-sentiment-monitoring.md)
 
 ### See also
-- [App profile manager overview](app-profile-manager/overview.md) <br>
-- [Roles and privileges associated with app profile manager](app-profile-manager/security-roles.md) <br>
+- [App profile manager overview](overview.md) <br>
+- [Roles and privileges associated with app profile manager](security-roles.md) <br>
 - [Customer Service workspace overview](../customer-service/csw-overview.md) <br>
 - [Omnichannel agent overview](../omnichannel/agent/omnichannel-agent-overview.md)<br>
-- [Introduction to intraday supervisor experiences](..omnichannel/supervisor/intro-intraday-insights-dashboard.md)
+- [Introduction to intraday supervisor experiences](../omnichannel/supervisor/intro-intraday-insights-dashboard.md)
