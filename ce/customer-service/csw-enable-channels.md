@@ -31,13 +31,13 @@ To enable agents to be able to have conversations in Customer Service workspace,
 
 ## Set up profiles in App profile manager
 
-Once you have completed the configurations above, go to App profile manager and complete the following:
+Once you've completed the configurations above, go to App profile manager and complete the following:
 
-1.	Create a new app profile or use the default, out-of-box profile. More information: [Create and use app profiles to manage apps](https://docs.microsoft.com/dynamics365/app-profile-manager/app-profile-manager).
+1.	Create a new app profile or use the default, out-of-box **Customer Service workspace + Channels** profile. More information: [Create and use app profiles to manage apps](https://docs.microsoft.com/dynamics365/app-profile-manager/app-profile-manager).
 
-2.	Assign the app profile you created to the agents and supervisors you want to work on both cases and conversations.
+2.	Assign the app profile you created to the agents and supervisors you want to work on both cases and conversations. More information: [Roles and permissions](https://docs.microsoft.com/dynamics365/app-profile-manager/security-roles).
 
-3.	Verify that you have assigned Omnichannel for Customer Service-related roles to the agents and supervisors you want to work on both conversations and cases.
+3.	Verify that you've assigned Omnichannel for Customer Service-related roles to the agents and supervisors you want to work on both conversations and cases.
 
 ## Access Omnichannel for Customer Service dashboard views 
 
@@ -56,7 +56,7 @@ For supervisors:
 
 
 ### Agent experience
-Once you have configured the Omnichannel and App profile manager features, agents will have a user experience in Customer Service workspace that is like the following:
+Once you have configured the Omnichannel and App profile manager features, agents will have a user experience in Customer Service workspace that is similar to the following:
 
 1.	The agent signs in to Customer Service workspace and can view the Omnichannel agent dashboard from the dashboard view.
 
@@ -70,8 +70,18 @@ Once you have configured the Omnichannel and App profile manager features, agent
     f.	Viewing customer summaries for conversation requests – More information: [View customer summaries for incoming conversation requests](https://docs.microsoft.com/dynamics365/omnichannel/agent/agent-oc/oc-view-customer-summary-incoming-conversation-request) <br>
     g.	Presence status – More information: [Manage presence status](https://docs.microsoft.com/dynamics365/omnichannel/agent/agent-oc/oc-manage-presence-status)
 
-Similarly, when a supervisor signs in to Customer Service workspace, they can select the Dashboard view and view the Omnichannel insights dashboard and Omnichannel Intraday insights dashboard.  
+### Supervisor experience
 
+When a supervisor signs in to Customer Service workspace, they can select a dashboard to do the following:
 
+- Monitor agent conversations - More information: [Monitor and assign conversations](https://docs.microsoft.com/dynamics365/omnichannel/supervisor/monitor-conversations)
+- Monitor ongoing conversations - More inforamtion: [View and understand Omnichannel Ongoing Conversations conversations dashboard](https://docs.microsoft.com/en-us/dynamics365/omnichannel/supervisor/ongoing-conversations-dashboard)
+- View intraday insights - More information: [View and understand Omnichannel intraday insights dashboard](https://docs.microsoft.com/dynamics365/omnichannel/supervisor/intraday-insights-dashboard)
+- View customer satisfaction levels - More information: [Sentiment monitoring](https://docs.microsoft.com/dynamics365/omnichannel/supervisor/supervisor-sentiment-monitoring)
 
-
+### See also
+- [App profile manager overview](https://docs.microsoft.com/dynamics365/app-profile-manager/overview) <br>
+- [Roles and privileges associated with app profile manager](https://docs.microsoft.com/dynamics365/app-profile-manager/security-roles) <br>
+- [Customer Service workspace overview](https://docs.microsoft.com/dynamics365/customer-service/csw-overview) <br>
+- [Omnichannel agent overview](https://docs.microsoft.com/dynamics365/omnichannel/agent/omnichannel-agent-overview)<br>
+- [Introducation to intraday supervisor experiences](https://docs.microsoft.com/en-us/dynamics365/omnichannel/supervisor/intro-intraday-insights-dashboard)
