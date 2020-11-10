@@ -25,8 +25,6 @@
 #### [Introduction to Customer Service Hub](user-guide-customer-service-hub.md)
 #### [Learn the basics](customer-service-hub-user-guide-basics.md)
 
-#### [App profile manager for Customer Service workspace](../app-profile-manager/overview.md)
-
 #### Work with email
 ##### [Configuring email](customer-service-hub-user-guide-email-admin.md)
 ##### [Using email](customer-service-hub-user-guide-email-overview.md)
@@ -67,6 +65,10 @@
 #### [Merge similar cases](user-guide-customer-service.md#merge-similar-cases)
 #### [Create and manage parent and child cases](user-guide-customer-service.md#create-and-manage-parent-and-child-cases)
 #### [Find knowledge articles from within a record](find-knowledge-articles-within-record-dynamics-365.md)
+
+## App profile manager for Customer Service workspace
+### [App profile manager overview](../app-profile-manager/overview.md)
+### [Enable channels for Customer Service workspace](../app-profile-manager/csw-enable-channels.md)
 
 ## Service Manager Guide
 ### [Understand Service Management](service-manager-guide.md)
