@@ -53,10 +53,10 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 | | <i>South Africa</i> | [8.8.31.60](https://docs.microsoft.com/dynamics365/field-service/version-history#883160) | TBD | 11/27/2020
 | | <i>Germany</i> | [8.8.31.60](https://docs.microsoft.com/dynamics365/field-service/version-history#883160) | TBD | 11/27/2020
 |<strong>Station 3</strong> | |  |  | |
-| | <i>Japan</i> | [8.8.30.113](https://docs.microsoft.com/dynamics365/field-service/version-history#8830113) | [8.8.31.60](https://docs.microsoft.com/dynamics365/field-service/version-history#883160) | 11/6/2020
-| | <i>Asia Pacific</i> | [8.8.30.113](https://docs.microsoft.com/dynamics365/field-service/version-history#8830113) | [8.8.31.60](https://docs.microsoft.com/dynamics365/field-service/version-history#883160) | 11/6/2020
-| | <i>Great Britain</i> | [8.8.30.113](https://docs.microsoft.com/dynamics365/field-service/version-history#8830113) | [8.8.31.60](https://docs.microsoft.com/dynamics365/field-service/version-history#883160) | 11/6/2020
-| | <i>Oceana</i> | [8.8.30.113](https://docs.microsoft.com/dynamics365/field-service/version-history#8830113) | [8.8.31.60](https://docs.microsoft.com/dynamics365/field-service/version-history#883160) | 11/6/2020
+| | <i>Japan</i> |  [8.8.31.60](https://docs.microsoft.com/dynamics365/field-service/version-history#883160) | TBD | 12/11/2020
+| | <i>Asia Pacific</i> | [8.8.31.60](https://docs.microsoft.com/dynamics365/field-service/version-history#883160) | TBD | 12/11/2020
+| | <i>Great Britain</i> | [8.8.31.60](https://docs.microsoft.com/dynamics365/field-service/version-history#883160) | TBD | 12/11/2020
+| | <i>Oceana</i> | [8.8.31.60](https://docs.microsoft.com/dynamics365/field-service/version-history#883160) | TBD | 12/11/2020
 |<strong>Station 4</strong> | |  |  | |
 | | <i>Europe</i> | [8.8.30.113](https://docs.microsoft.com/dynamics365/field-service/version-history#8830113) | [8.8.31.60](https://docs.microsoft.com/dynamics365/field-service/version-history#883160) | 11/13/2020
 |<strong>Station 5</strong> | |  |  | |
