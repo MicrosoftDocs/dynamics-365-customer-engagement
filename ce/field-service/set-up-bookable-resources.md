@@ -157,7 +157,7 @@ In Field Service versions earlier than **8.8.14**, select the **Set-Up** drop-do
 > [!div class="mx-imgBorder"]
 > ![Screenshot of setting working hours and timezone](media/resource-working-hours-timezone.png)
  
-## Set up field technician resources
+## Set up technician resources
 
 At its simplest, a field technician is a mobile worker at your organization who uses the Field Service Mobile app on his or her mobile device to see Field Service entities like work orders.
 
@@ -240,6 +240,48 @@ Setting to yes does not mean requirements will automatically be scheduled to thi
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of enabling rso for a resource](media/resource-enable-rso.png)
+
+## Geo-locate resources
+
+Work order locations are defined by the latitude / longitude of either the work order form, or the related service account. It's important to also geo-locate resources.
+
+Navigate to **Resource Scheduling > Resources**.
+
+To ensure resources can appear on the schedule board map, they must have a geocoded starting and ending location. 
+
+There are **two ways** to geocode your resources.
+
+### Option one
+Set resource start/end location to **Resource address** and ensure the related resource record (User, Account, Contact) as defined by the resource type has latitude and longitude values.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of resource address](media/scheduling-resource-address.png)
+
+For example, in the following screenshot, the bookable resource has resource type = Contact; this means the related contact record must be geo-coded, meaning latitude and longitude fields must have values. 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of resource address](media/scheduling-urs-resource-type.png)
+
+> [!NOTE]
+> For routing purposes, the location of a resource is defined as the current work order location, current location of the mobile device, or the start/end location defined here when the other options are not applicable.
+
+### Option two
+Set resource start/end location to **Organizational Unit Address** and ensure the related organizational unit record is geo-coded, meaning latitude and longitude fields must have values.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of resource address](media/scheduling-urs-resource-organizational-unit.png)
+
+> [!NOTE] 
+> You may need to add the latitude/longitude fields to the organizational unit entity form.
+
+### Confirm geocoding works appropriately
+
+To make sure resources are geocoded properly, navigate to **Universal Resource Scheduling > Schedule Board**. The resource should appear on the map. Select a resource's name to highlight their location pin on the map.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of geo coded resource on map](media/scheduling-urs-schedule-board-locate-resource.png)
 
 ## Configuration considerations
 
