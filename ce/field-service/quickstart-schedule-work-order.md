@@ -44,34 +44,32 @@ Steps:
 
 7.  View the scheduled work order on mobile
 
-
-
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/quickstart-apps.png)
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/quickstart-o365-admin.png)
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/quickstart-advanced-settings.png)
+> ![Screenshot of ](./media/quickstart-o365-admin-users.png)
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/quickstart-o365-admin-powerapp.png)
+
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/quickstart-ppac-users-add.png)
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/quickstart-ppac-users.png)
 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/quickstart-o365-admin.png)
 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/quickstart-o365-admin-powerapp.png)
 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/quickstart-o365-admin-users.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/quickstart-ppac-users-add.png)
 
 
 > [!div class="mx-imgBorder"]
@@ -80,6 +78,9 @@ Steps:
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/quickstart-roles-resource.png)
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/quickstart-advanced-settings.png)
 
 
 > [!div class="mx-imgBorder"]
