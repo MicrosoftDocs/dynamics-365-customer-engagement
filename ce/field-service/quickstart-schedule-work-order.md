@@ -1,8 +1,8 @@
 ---
-title: "Quickstart: Schedule a work order and view it on the mobile app - Dynamics 365 Field Service | MicrosoftDocs"
+title: "Quickstart: Set up users to create, schedule, and view work orders - Dynamics 365 Field Service | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 11/21/2018
+ms.date: 11/11/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: 
@@ -24,7 +24,7 @@ search.app:
   - D365FS
 ---
 
-# Quickstart: Schedule a work order and view it on the mobile application
+# Quickstart: Set up users to create, schedule, and view work orders
 
 This quickstart shows how a dispatcher creates and schedules a work order that a field technician then views on the mobile app.
 
