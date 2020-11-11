@@ -46,37 +46,6 @@ Steps:
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/quickstart-mobile-signin.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-2020-error-contact-administrator-show-nonproduction-apps.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/quickstart-mobile-work-order.png)
-
-
 ## Prerequisites
 
 You need a Dynamics 365 organization with the Field Service application installed. See the topic on [installing Field Service](install-field-service.md). 
@@ -191,7 +160,7 @@ If you're using sample data, you can skip this step. Otherwise, you need to crea
 
 
 
-5. Add the bookable resource to the schedule board
+## 5. Add the bookable resource to the schedule board
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/quickstart-schedule-board-1.png)
@@ -199,7 +168,7 @@ If you're using sample data, you can skip this step. Otherwise, you need to crea
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/quickstart-schedule-board-2.png)
 
-6. Schedule the work order to the bookable resource
+## 6. Schedule the work order to the bookable resource
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/quickstart-schedule-board-3.png)
@@ -210,9 +179,18 @@ If you're using sample data, you can skip this step. Otherwise, you need to crea
 
 
 
+## 7. View the scheduled work order on the mobile app
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/quickstart-mobile-signin.png)
 
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-error-contact-administrator-show-nonproduction-apps.png)
 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/quickstart-mobile-work-order.png)
 
 
 
