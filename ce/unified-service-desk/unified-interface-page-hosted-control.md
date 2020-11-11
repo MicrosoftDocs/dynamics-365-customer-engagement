@@ -168,8 +168,9 @@ If a Unified Service Desk POST event triggers the Navigate action, the default v
 <br />
 To add multiple headers, the value of this parameter should be header=$Multiline(<headers separated by newline>)<br />
 <br />
-Example: header=$Multiline(accessToken;dummyAccessToken==
-         refreshToken;dummyRefreshToken)</td>
+Example: header=$Multiline(accessToken;dummyAccessToken==<br />
+<br />
+         refreshToken;dummyRefreshToken===)</td>
 </tr>
 </tbody>
 </table>
