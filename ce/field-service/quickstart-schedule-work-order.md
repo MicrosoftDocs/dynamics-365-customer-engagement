@@ -30,26 +30,67 @@ This quickstart shows how a dispatcher creates and schedules a work order that a
 
 Steps:
 
-1.  Set up a back office user 
+1. Set up users  
 
-2.  Set up a technician user 
+2. Assign appropriate security roles to your users
 
-3.  Assign appropriate security roles to your users the resource role (for field technicians) to a user
+3. Create a bookable resource
 
-4. Create a bookable resource
+4. Create a work order 
 
-5.  Create a work order 
+5. Add the bookable resource to the schedule board
 
-6.  Add the bookable resource to the schedule board
+6. Schedule the work order to the bookable resource
 
-7.  Schedule the work order to the bookable resource
-
-8.  View the scheduled work order on the mobile app
+7. View the scheduled work order on the mobile app
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/quickstart-mobile-signin.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-error-contact-administrator-show-nonproduction-apps.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/quickstart-mobile-work-order.png)
+
+
+## Prerequisites
+
+You need a Dynamics 365 organization with the Field Service application installed. See the topic on [installing Field Service](install-field-service.md). 
+
+You also need a phone or tablet for viewing a scheduled work order.
+
+### Make sure the Field Service application is installed
+
+Sign in as a system administrator and verify that the Field Service application is listed in the main menu. See the following screenshot for reference. If you don't see Field Service, ensure you are signed in as a system administrator. If you still do not see the app, go to the topic on [installing Field Service](install-field-service.md). 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/quickstart-apps.png)
+
+## 1.  Set up users 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/quickstart-o365-admin.png)
@@ -65,15 +106,20 @@ Steps:
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/quickstart-ppac-users-add.png)
 
+ ## 2. Assign appropriate security roles to your users 
+
+- Navigate to **Settings** > **Security** > **Users**.
+
+- Select a user, and then choose **Manage Roles**.
+
+- Assign the user the **Field Service – Administrator** role to give the user scheduling, dispatching, and configuration capabilities. If this user is only acting as a dispatcher, then assign the **Field Service—Dispatcher** role.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot showing field service roles on the Manage Roles dialog](media/qs-1-img6.png)
+
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/quickstart-ppac-users.png)
-
-
-
-
-
-
 
 
 > [!div class="mx-imgBorder"]
@@ -98,6 +144,9 @@ Steps:
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/quickstart-field-secuirty-profile-admin.png)
 
+
+## 3. Create a bookable resource
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/quiickstart-new-bookable-resource.png)
 
@@ -105,6 +154,7 @@ Steps:
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/quickstart-new-bookable-resource-complete.png)
 
+## 4. Create a work order 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/quickstart-work-order-new.png)
@@ -112,78 +162,6 @@ Steps:
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/quickstart-work-order-new2.png)
-
-
-
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/quickstart-schedule-board-1.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/quickstart-schedule-board-3.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/quickstart-schedule-board-4.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/quickstart-schedule-board-2.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/quickstart-mobile-signin.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-2020-error-contact-administrator-show-nonproduction-apps.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/quickstart-mobile-work-order.png)
-
-
-## Prerequisites
-
-You need a Dynamics 365 organization with the Field Service application and the mobile solution installed. See the topic on [installing Field Service](install-field-service.md). 
-
-You also need a phone or tablet for viewing a scheduled work order.
-
-### Make sure the Field Service application is installed
-
-Sign in as a system administrator and verify that the Field Service application is listed in the main menu. See the following screenshot for reference. If you don't see Field Service, go to the [Field Service installation walkthrough](install-field-service.md) for steps to install it. 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/quickstart-apps.png)
-
-### Make sure the mobile solution is installed
-
-Sign in as a system administrator and verify that the Woodford solution listed in **Settings** > **Solutions**. See the following screenshot for reference. If you don't see the Woodford solution go to [mobile solution activation walkthrough](activate-fs-mobile-app-license.md) for steps to install it.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot showing where to find the Woodford solution in Settings](media/qs-1-img2.png) 
-
-### Make sure sample data is installed
-
-When sample data is installed, you see multiple records in **Field Service** > **Work Orders**. If you don't see any sample records, check out these [instructions for importing sample data](install-sample-data-8-x.md) for more information.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot showing where to verify that sample data is installed](media/qs-1-img4.png) 
-
- ## 1. Assign the dispatcher role to a user 
-
-- Navigate to **Settings** > **Security** > **Users**.
-
-- Select a user, and then choose **Manage Roles**.
-
-- Assign the user the **Field Service – Administrator** role to give the user scheduling, dispatching, and configuration capabilities. If this user is only acting as a dispatcher, then assign the **Field Service—Dispatcher** role.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot showing field service roles on the Manage Roles dialog](media/qs-1-img6.png)
-
-## 2. Create a work order or use one from sample data
 
 If you're using sample data, you can skip this step. Otherwise, you need to create a work order.
 
@@ -210,6 +188,33 @@ If you're using sample data, you can skip this step. Otherwise, you need to crea
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing the Address tab fields for a work order](media/qs-1-img9.png)  
+
+
+
+5. Add the bookable resource to the schedule board
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/quickstart-schedule-board-1.png)
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/quickstart-schedule-board-2.png)
+
+6. Schedule the work order to the bookable resource
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/quickstart-schedule-board-3.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/quickstart-schedule-board-4.png)
+
+
+
+
+
+
+
+
 
 ## 3. Assign the field technician role to a resource 
 
