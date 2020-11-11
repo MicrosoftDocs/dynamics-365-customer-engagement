@@ -3,7 +3,7 @@ title: "Field Service Mobile setup (Dynamics 365 Field Service) | MicrosoftDocs"
 description: Learn how to install and set up Field Service Mobile.
 ms.custom:
   - dyn365-fieldservice
-ms.date: 10/13/2020
+ms.date: 11/11/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite:
@@ -157,6 +157,36 @@ The mobile project template contains all customizations for the Field Service Mo
 
 > [!Note]
 > This is a trial license and is valid for 30 days. The trial can be extended by following the guidance in this article: [Extend Field Service Mobile configuration tool trial](../field-service/activate-fs-mobile-app-license.md).
+
+## Initial set up steps
+
+Navigate to **Plugins > Delete**.
+
+Select work orders and related work order entities, such as work order products, services, and service tasks.
+
+This helps ensure that when work orders or related records are deleted on the server, they are removed from the mobile app too. For more details, [see the Woodford Guide (PDF)](https://www.resco.net/downloads/Woodford_Guide.pdf).
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Delete plugins section of Woodford](media/Perform-Initial-Configurations-image20.png)  
+
+**Save**.
+
+Next up, navigate to Mobile Projects and double-click on your mobile project template.
+
+Select **Configuration** in the left pane.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Woodford mobile Configurations](media/Perform-Initial-Configurations-image21.png)  
+
+This section details many configurations regarding the Field Service Mobile (2017) app user interface and how data passes back and forth between the mobile application and the server.
+
+Here are a few important configurations for administrators to consider when initially setting up the mobile app.
+
+**Auto Sync** dictates when the mobile app sends data to the server. Setting auto sync to **OnStart** is recommended for learning and demonstration purposes.
+
+**Auto Sync Delay** is a timer that dictates when the mobile app will automatically try to send and receive data from the server.
+
+**Save Password** dictates whether the mobile app will remember a user’s password. Setting to **True** is recommended for learning and demonstration purposes.
 
 ## Next steps
 

@@ -1,7 +1,7 @@
 ---
 title: "Perform initial configurations (Dynamics 365 Field Service) | MicrosoftDocs"
 ms.custom: dyn365-fieldservice
-ms.date: 08/12/2020
+ms.date: 11/11/2020
 ms.reviewer: krbjoran
 ms.suite: 
 ms.technology: 
@@ -28,40 +28,20 @@ Estimated Duration: 10 minutes
 
 ## Prerequisites
 
-1. A Dynamics 365 environment with the Field Service solution and the mobile solution (Resco Woodford) installed. You'll also need to import the mobile project. [Instructions for importing the mobile project can be found here](./install-field-service.md).  
-
-2. Sample data installed (recommended). Installing sample data with the [package deployer](./install-sample-data-8-x.md) will complete many recommended initial configurations.  
-
-3. Verify you can log into Dynamics 365 with a **system administrator** security role.
+1. A Dynamics 365 environment with the Field Service app installed.  
+ 
+2. Verify you can log into Dynamics 365 with a **system administrator** security role.
 
 See below for common prerequisite troubleshooting questions.
 
-### How do I know if the Field Service solution is installed?
+### Make sure the Field Service application is installed
 
-When logged in to Dynamics 365 as an administrator or Field Service role, you'll see the Field Service module, as seen in the screenshot below.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service in left navigation bar](media/Perform-Initial-Configurations-image1.png)  
-
-### How do I know if the mobile solution is installed?
-
-When logged in as an administrator, Woodford will appear under **Settings > Solutions** and as an icon under Settings.
+Sign in as a system administrator and verify that the Field Service application is listed in the main menu. See the following screenshot for reference. If you don't see Field Service, ensure you are signed in as a system administrator. If you still do not see the app, go to the topic on [installing Field Service](install-field-service.md). 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Woodford solution in solutions views](media/Perform-Initial-Configurations-image2.png)  
+> ![Screenshot of ](./media/quickstart-apps.png)
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Woodford under Settings](media/Perform-Initial-Configurations-image3.png)  
 
-### How do I know if sample data is imported?
-
-If sample data has already been imported, you'll see multiple records under **Field Service > Work Orders**.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Work orders in left navigatiion bar](media/Perform-Initial-Configurations-image4.png)  
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Active Work orders view](media/Perform-Initial-Configurations-image5.png)  
 
 ## Step 1: Resource scheduling
 
@@ -71,10 +51,14 @@ First, you need to enable mapping and location services for the application. Map
 
 This is all accomplished by **geocoding**, where the solution associates a latitude and longitude to an address.
 
-Go to **Resource Scheduling > Administration > Scheduling Parameters**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Resource Scheduling Administration in Dynamics 365 dropdown menu](media/Perform-Initial-Configurations-image6.png)  
+> ![Screenshot showing settings for scheduling parameters](media/quickstart-apps-rs.png) 
+
+Go to **Resource Scheduling app** > **Administration** > **Scheduling Parameters**. 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of settings](media/quickstart-rs-settings.png) 
 
 Set **Connect to Maps** to **Yes**.
 
@@ -109,27 +93,19 @@ Next, verify that work orders are enabled for resource scheduling.
 
 ## Step 2: Field Service settings
 
-Navigate to **Field Service > Administration > Field Service Settings**.
+Navigate to **Field Service > Settings > Field Service Settings**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service Administration from Dynamics 365 dropdown menu](media/Perform-Initial-Configurations-image9.png)  
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service Settings](media/Perform-Initial-Configurations-image10.png)  
+> ![Screenshot of Field Service Administration from Dynamics 365 dropdown menu](media/quickstart-fs-settings.png)  
 
 In the **Other** section, decide if you would like the application to auto geocode addresses. The recommended setting is **Yes.**
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of setting Auto Geocode Addresses to Yes](media/Perform-Initial-Configurations-image11.png)  
-
+ 
 "Auto geocode addresses" means that after entering an address on entities such as accounts, contacts, users, and work orders, the system will automatically attempt to locate the address and populate latitude and longitude values. Disallowing auto geocoding for addresses  requires the user to select a Geocode button.
 
 Next, navigate to the **Work Order / Booking** section and enter a work order prefix and work order starting number.
 
 An example, as seen below, is **WO** and **100**. This is recommended, but not required.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Work Order Prefix and starting number](media/Perform-Initial-Configurations-image12.png)  
 
 ## Step 3: Test Geocoding
 
@@ -166,46 +142,4 @@ If you don't want the system to auto geocode addresses, select the geocode butto
 > [!div class="mx-imgBorder"]
 > ![Screenshot of mass Geocoding multiple account records](media/Perform-Initial-Configurations-image17.png)  
 
-## Step 4: Mobile
 
-There are a few mobile application configurations worth considering that field technicians will use to carry out work orders.
-
-The following steps in this section require that you have the mobile configuration tool (Resco Woodford solution) installed, along with the imported mobile project. [Instructions can be found here](./install-field-service.md).  
-
-In a **non-private Internet Explorer browser**, log into your Dynamics 365 organization as a system administrator and navigate to **Settings > Woodford > MobileCRM Woodford**.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of opening Internet Explorer from Edge](media/Perform-Initial-Configurations-image18.png)  
-
-You will land on the Woodford interface, as seen in the following screenshot.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Woodford interface](media/Perform-Initial-Configurations-image19.png)  
-
-Next, navigate to **Plugins > Delete**.
-
-Select work orders and related work order entities, such as work order products, services, and service tasks.
-
-This helps ensure that when work orders or related records are deleted on the server, they are removed from the mobile app too. For more details, [see the Woodford Guide (PDF)](https://www.resco.net/downloads/Woodford_Guide.pdf).
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Delete plugins section of Woodford](media/Perform-Initial-Configurations-image20.png)  
-
-**Save**.
-
-Next up, navigate to Mobile Projects and double-click on your mobile project template.
-
-Select **Configuration** in the left pane.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Woodford mobile Configurations](media/Perform-Initial-Configurations-image21.png)  
-
-This section details many configurations regarding the Field Service Mobile (2017) app user interface and how data passes back and forth between the mobile application and the server.
-
-Here are a few important configurations for administrators to consider when initially setting up the mobile app.
-
-**Auto Sync** dictates when the mobile app sends data to the server. Setting auto sync to **OnStart** is recommended for learning and demonstration purposes.
-
-**Auto Sync Delay** is a timer that dictates when the mobile app will automatically try to send and receive data from the server.
-
-**Save Password** dictates whether the mobile app will remember a user’s password. Setting to **True** is recommended for learning and demonstration purposes.

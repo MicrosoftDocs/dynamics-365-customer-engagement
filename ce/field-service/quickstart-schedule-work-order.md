@@ -105,8 +105,6 @@ Select **Manage users in Dynamics 365**.
 > [!NOTE]
 > Ensure you are viewing the "Enabled Users" view.
 
-S
-
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/quickstart-ppac-users.png)
@@ -139,11 +137,15 @@ Select **Field Security Profiles**.
 > ![Screenshot of ](./media/quickstart-field-secuirty-profile.png)
 
 
-Assign the **Field Service – Resource** field security profile to the field technician user. Note that field technicians can't edit fields on mobile work orders unless they have this profile assigned. 
+Select the  **Field Service – Resource** field security profile and add the technician user.
+
+Note that field technicians can't edit fields on mobile work orders unless they have this profile assigned. 
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/quickstart-field-secuirty-profile-resource.png)
+
+Then select the **Field Service - Administrator** field security profile and add the administrator user.
 
 
 > [!div class="mx-imgBorder"]
@@ -152,27 +154,20 @@ Assign the **Field Service – Resource** field security profile to the field te
 
 ## 3. Create a bookable resource
 
-Next, create a bookable resource record for the field technician user. Creating a bookable resource lets you schedule work orders for the field technician, which the field tecnician sees in the mobile app.
+Next, create a bookable resource record for the technician user. Creating a bookable resource lets you schedule work orders for the technician, which the tecnician sees in the mobile app.
 
-1. Navigate to **Field Service** > **Administration** > **Resources**.
+Go to **Field Service** > **Resources** > **Resources** > **+New**
 
-
-
-2. Choose **New**.
-
-- Create a new field technician resource  with the following settings: 
-
-    - Resource Type = **User**
-    - User = **\[User record you assigned Resource role to\]**
-    - Warehouse = **\[assign a warehouse or create a new one. Ex: Truck 1\]**
-    - Hourly Rate = **$60**
-    - Start Location = **Resource Address**
-    - End Location = **Resource Address**
-    - Display on Schedule Board = **Yes**
-    - Enable for Availability Search = **Yes**
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/quiickstart-new-bookable-resource.png)
+
+Create a new technician resource  with the following settings: 
+
+  - Resource Type = **User**
+  - User = **\[User record that represents your technician user\]**
+  - Display on Schedule Board = **Yes**
+  - Enable for Availability Search = **Yes**
 
 
 > [!div class="mx-imgBorder"]
@@ -182,9 +177,8 @@ See the topic on [setting up bookable resources](set-up-bookable-resources.md) f
 
 ## 4. Create a work order 
 
-Navigate to **Field Service** > **Work Orders**.
+Go to **Field Service** > **Service** > **Work Orders** > **+New**
 
-Choose **New**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/quickstart-work-order-new.png)
@@ -208,104 +202,84 @@ Consider adding incident types, products, services, and service tasks to add mor
 
 ## 5. Add the bookable resource to the schedule board
 
-Next, you add the field technician to the schedule board.
+Next, add the bookable resource to the schedule board.
 
-1. Navigate to **Field Service** > **Schedule Board**.
-
-
-
-2. In the **Filter and Map View** panel, select **Options** > **Select Resources**.
-
-
-
-3. Find the new field technician with the **Resource Type** set to **User**, and then move the user to selected resources. Choose **Apply**.
+Go to **Field Service** > **Schedule Board**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/quickstart-schedule-board-1.png)
+
+In the **Filter and Map View** panel, select **Options** > **Select Resources**.
+
+
+Find the new technician bookable resource with the **Resource Type** set to **User**, and then move the user to selected resources. Choose **Apply**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/quickstart-schedule-board-2.png)
 
 ## 6. Schedule the work order to the bookable resource
 
-In the lower pane, find the work order to schedule. This work order is listed in the **Open Requirements** view, and the **Unscheduled Work Orders** view. To schedule the work order, drag it to the field technician.
+In the lower pane, find the work order to schedule. This work order is listed in the **Unscheduled Work Orders** view. 
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/quickstart-schedule-board-3.png)
 
+To schedule the work order, drag it to the technician's timeslot.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/quickstart-schedule-board-4.png)
 
-
+> [!NOTE]
+> Ensure you do not schedule the work order in the past. There is a blue vertical line that represents the current time. You may need to adjust the time zone of the schedule board by selecting the gear icon in the top right of the schedule board.
 
 ## 7. View the scheduled work order on the mobile app
 
 Download the Field Service (Dynamics 365) mobile app from the iOS or Android app stores. See the topic on [installing the mobile app](mobile-power-app-get-started.md) for more details.
 
-3. Sign in with the username and password for the technician user.
+Sign in with the username and password for the technician user.
 
 
 - For the **Username**, enter the username of the technician user. For example, username@org.onmicrosoft.com
-- For the **Password**, enter the password you set for the field technician.
+- For the **Password**, enter the password you set for the technician.
+
+Select your app in the list.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/quickstart-mobile-signin.png)
+
+If you do not see your app, but instead see "Contact your administrator for access to your organization's mobile apps" then select the menu icon and toggle the **Show non-production apps** to _Yes_.
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-error-contact-administrator-show-nonproduction-apps.png)
 
-1. In the **Booking** tab, verify that the work order (or booking) is scheduled for the field technician.
+In the **Booking** tab, see the work order you scheduled to your technician bookable resource. You must be signed in with the user the bookable resource was created for in step 3.
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/quickstart-mobile-work-order.png)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 ## Additional notes
 
 ### Set up geo-coding for the organization
 
-Setting up geocoding for an organization enables the system to attach latitudes and longitudes to addresses.
+Setting up geocoding for an organization enables the system to attach latitudes and longitudes to addresses. 
 
-1. Navigate to **Resource Scheduling** > **Administration** > **Scheduling Parameters**.
+Go to your Dynamics 365 environment's app page: "https://your-environment-name.crm.dynamics.com/apps"
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot showing settings for scheduling parameters](media/quickstart-apps-rs.png) 
+
+Go to **Resource Scheduling app** > **Administration** > **Scheduling Parameters**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing settings for scheduling parameters](media/qs-1-img22.png)  
 
-2. Set **Connect to Maps** to **Yes**. The API key fills in automatically to use the Bing Maps API, which enables the system to assign a latitude and longitude to the user record's address.
+Set **Connect to Maps** to **Yes**. The API key fills in automatically to use the Bing Maps API, which enables the system to assign a latitude and longitude to the user record's address.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing the Bing maps API field](media/qs-1-img23.png)  
 
-3. Navigate to the user record, and then select **Geocode**. 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot showing geocoding on the user record](media/qs-1-img24.png)  
-
-4. Confirm the address, and then choose **Close**.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot showing the Found Places dialog](media/qs-1-img25.png)  
-
-5. Choose **Change** to populate the **Scheduling** section of the user record with the latitude and longitude.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Schedule a work order and view it on the mobile application image26](media/qs-1-img26.png)   
-
-> [!NOTE]
-> Alternatively, you can type the latitude and longitude into the address fields on the user record.
