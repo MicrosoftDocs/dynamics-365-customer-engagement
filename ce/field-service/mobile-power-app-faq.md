@@ -29,6 +29,19 @@ search.app:
 
 # Frequently asked questions for the Field Service (Dynamics 365) mobile app
 
+## Why does the app say "Contact your administrator for access to your organization's mobile apps"?
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the "Contact your administrator" issue.](./media/mobile-2020-error-contact-administrator-show-nonproduction-apps.png)
+
+If you are getting this message, try the following steps:
+
+1. The list shows production apps by default and you may be using a trial or sandbox. Select the menu icon in the top left and toggle **Show non-production apps** to _Yes_. 
+2. Make sure you have the correct security role (Field Service - Resource) and that the security role is assigned to the Field Service Mobile app.
+3. Sign in again, pull down the screen to refresh and wait for at least a few minutes
+4. If completing both steps 1 and 2 above do not resolve the issue, [submit a support ticket](https://dynamics.microsoft.com/contact-us/).
+
 ## Can I only add and view Field Service entities on the Field Service (Dynamics 365) mobile app?
 
 Because the Field Service (Dynamics 365) mobile app is a model-driven app on the Power Platform, any entity can be added; users can only see entities and records that they have the licenses and security to access, regardless of whether it's part of the Field Service app or not.
