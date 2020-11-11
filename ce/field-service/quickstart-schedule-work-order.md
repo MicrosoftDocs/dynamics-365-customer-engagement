@@ -30,22 +30,26 @@ This quickstart shows how a dispatcher creates and schedules a work order that a
 
 Steps:
 
-1.  Assign the dispatcher role to a user
+1.  Set up a back office user 
 
-2.  Create a work order or use one from sample data
+2.  Set up a technician user 
 
-3.  Assign the resource role (for field technicians) to a user
+3.  Assign appropriate security roles to your users the resource role (for field technicians) to a user
 
-4.  Create a bookable resource
+4. Create a bookable resource
 
-5.  Add the bookable resource to the schedule board
+5.  Create a work order 
 
-6.  Schedule the work order to the bookable resource
+6.  Add the bookable resource to the schedule board
 
-7.  View the scheduled work order on mobile
+7.  Schedule the work order to the bookable resource
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/quickstart-apps.png)
+8.  View the scheduled work order on the mobile app
+
+
+
+
+
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/quickstart-o365-admin.png)
@@ -94,6 +98,13 @@ Steps:
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/quickstart-field-secuirty-profile-admin.png)
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/quiickstart-new-bookable-resource.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/quickstart-new-bookable-resource-complete.png)
+
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/quickstart-work-order-new.png)
@@ -103,12 +114,7 @@ Steps:
 > ![Screenshot of ](./media/quickstart-work-order-new2.png)
 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/quiickstart-new-bookable-resource.png)
 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/quickstart-new-bookable-resource-complete.png)
 
 
 > [!div class="mx-imgBorder"]
@@ -141,15 +147,16 @@ Steps:
 
 ## Prerequisites
 
-You need a Dynamics 365 organization with the Field Service application and the mobile solution installed. Using sample data 
-imported from the Package Deployer is recommended. You also need a phone or tablet for viewing a scheduled work order.
+You need a Dynamics 365 organization with the Field Service application and the mobile solution installed. See the topic on [installing Field Service](install-field-service.md). 
+
+You also need a phone or tablet for viewing a scheduled work order.
 
 ### Make sure the Field Service application is installed
 
 Sign in as a system administrator and verify that the Field Service application is listed in the main menu. See the following screenshot for reference. If you don't see Field Service, go to the [Field Service installation walkthrough](install-field-service.md) for steps to install it. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot showing where to find Field Service in the main menu](media/qs-1-img1.png) 
+> ![Screenshot of ](./media/quickstart-apps.png)
 
 ### Make sure the mobile solution is installed
 
