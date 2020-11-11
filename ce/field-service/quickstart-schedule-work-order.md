@@ -52,6 +52,8 @@ You need a Dynamics 365 organization with the Field Service application installe
 
 You also need a phone or tablet for viewing a scheduled work order.
 
+It is encouraged to [perform initial configurations](perform-initial-configurations-setup.md)
+
 ### Make sure the Field Service application is installed
 
 Sign in as a system administrator and verify that the Field Service application is listed in the main menu. See the following screenshot for reference. If you don't see Field Service, ensure you are signed in as a system administrator. If you still do not see the app, go to the topic on [installing Field Service](install-field-service.md). 
@@ -230,37 +232,7 @@ Next you need to set up geo-coding for the field technician user. Field technici
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing the address fields for the user in Microsoft 365](media/qs-1-img20.png)  
 
-### Set up geo-coding for the organization
 
-Setting up geocoding for an organization enables the system to attach latitudes and longitudes to addresses.
-
-1. Navigate to **Resource Scheduling** > **Administration** > **Scheduling Parameters**.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot showing settings for scheduling parameters](media/qs-1-img22.png)  
-
-2. Set **Connect to Maps** to **Yes**. The API key fills in automatically to use the Bing Maps API, which enables the system to assign a latitude and longitude to the user record's address.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot showing the Bing maps API field](media/qs-1-img23.png)  
-
-3. Navigate to the user record, and then select **Geocode**. 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot showing geocoding on the user record](media/qs-1-img24.png)  
-
-4. Confirm the address, and then choose **Close**.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot showing the Found Places dialog](media/qs-1-img25.png)  
-
-5. Choose **Change** to populate the **Scheduling** section of the user record with the latitude and longitude.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Schedule a work order and view it on the mobile application image26](media/qs-1-img26.png)   
-
-> [!NOTE]
-> Alternatively, you can type the latitude and longitude into the address fields on the user record.
 
 ## 4. Create a bookable resource
 
@@ -343,3 +315,38 @@ If necessary, download the **Field Service Mobile (2017)** mobile app from the a
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing a work order in the field service mobile app](media/qs-1-img41.png)
+
+
+## Additional notes
+
+### Set up geo-coding for the organization
+
+Setting up geocoding for an organization enables the system to attach latitudes and longitudes to addresses.
+
+1. Navigate to **Resource Scheduling** > **Administration** > **Scheduling Parameters**.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot showing settings for scheduling parameters](media/qs-1-img22.png)  
+
+2. Set **Connect to Maps** to **Yes**. The API key fills in automatically to use the Bing Maps API, which enables the system to assign a latitude and longitude to the user record's address.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot showing the Bing maps API field](media/qs-1-img23.png)  
+
+3. Navigate to the user record, and then select **Geocode**. 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot showing geocoding on the user record](media/qs-1-img24.png)  
+
+4. Confirm the address, and then choose **Close**.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot showing the Found Places dialog](media/qs-1-img25.png)  
+
+5. Choose **Change** to populate the **Scheduling** section of the user record with the latitude and longitude.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Schedule a work order and view it on the mobile application image26](media/qs-1-img26.png)   
+
+> [!NOTE]
+> Alternatively, you can type the latitude and longitude into the address fields on the user record.
