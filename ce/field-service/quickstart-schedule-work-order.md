@@ -45,6 +45,51 @@ Steps:
 7.  View the scheduled work order on mobile
 
 
+quickstart-apps
+
+quickstart-advanced-settings
+
+quickstart-ppac-users
+
+quickstart-o365-admin
+
+quickstart-o365-admin-powerapp
+
+quickstart-o365-admin-users
+
+quickstart-ppac-users-add
+
+quickstart-roles-admin
+
+quickstart-roles-resource
+
+quickstart-field-secuirty-profile
+
+quickstart-field-secuirty-profile-resource
+
+quickstart-field-secuirty-profile-admin
+
+quickstart-work-order-new
+
+quickstart-work-order-new2
+
+quiickstart-new-bookable-resource
+
+quickstart-new-bookable-resource-complete
+
+quickstart-schedule-board-1
+
+quickstart-schedule-board-3
+
+quickstart-schedule-board-4
+
+quickstart-schedule-board-2
+
+quickstart-mobile-signin
+
+mobile-2020-error-contact-administrator-show-nonproduction-apps
+
+quickstart-mobile-work-order
 ## Prerequisites
 
 You need a Dynamics 365 organization with the Field Service application and the mobile solution installed. Using sample data 
