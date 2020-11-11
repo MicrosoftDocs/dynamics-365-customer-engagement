@@ -123,40 +123,31 @@ Sign in as a system administrator and verify that the Field Service application 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/quickstart-new-bookable-resource-complete.png)
 
+See the topic on [setting up bookable resources](set-up-bookable-resources.md) for more details.
+
 ## 4. Create a work order 
+
+Navigate to **Field Service** > **Work Orders**.
+
+Choose **New**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/quickstart-work-order-new.png)
 
+At a minimum, enter information in the following required fields.
+
+- For **Service Account**, select an account from the list or create a new one.
+- For **Work Order Type**, select a work order type from the list or create a new one. 
+- For **System Status**, select **Open-Unscheduled**.
+- For **Price List**, select a price list from list or create new one. 
+- Set **Taxable** to **No**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/quickstart-work-order-new2.png)
 
-If you're using sample data, you can skip this step. Otherwise, you need to create a work order.
+On the **Address** tab, enter a valid address. Then choose **Save and close**.
 
-1. Navigate to **Field Service** > **Work Orders**.
-
-2. Choose **New**.
-
-3. On the **Summary** tab: 
-    - For **Service Account**, select an account from the list or create a new one.
-    - For **Work Order Type**, select a work order type from the list or create a new one. 
-    - For **System Status**, select **Open-Unscheduled**.
-    
-> [!div class="mx-imgBorder"]
-> ![Screenshot the Summary tab fields for a work order](media/qs-1-img7.png)  
- 
-4. On the **Settings** tab: 
-    - For **Price List**, select a price list from list or create new one. 
-    - Set **Taxable** to **No**.
-    
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Settings tab fields for a work order](media/qs-1-img8.png) 
-
-5. On the **Address** tab, enter a valid address. Then choose **Save and close**.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot showing the Address tab fields for a work order](media/qs-1-img9.png)  
+Consider adding incident types, products, services, and service tasks to add more details and instructions to your work orders. See the topic on [configuring incident types](configure-incident-types.md) for more details.
 
 
 
