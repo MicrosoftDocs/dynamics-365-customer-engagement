@@ -85,7 +85,6 @@ Assign each user a license or trial license that includes Dynamics 365 Field Ser
 Go to the Power Apps admin center [https://admin.powerplatform.microsoft.com/](https://admin.powerplatform.microsoft.com/).
 
 
-
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/quickstart-o365-admin-powerapp.png)
 
@@ -197,7 +196,6 @@ On the **Address** tab, enter a valid address. Then choose **Save and close**.
 Consider adding incident types, products, services, and service tasks to add more details and instructions to your work orders. See the topic on [configuring incident types](configure-incident-types.md) for more details.
 
 
-
 ## 5. Add the bookable resource to the schedule board
 
 Next, add the bookable resource to the schedule board.
@@ -259,25 +257,12 @@ In the **Booking** tab, see the work order you scheduled to your technician book
 > ![Screenshot of ](./media/quickstart-mobile-work-order.png)
 
 
-## Additional notes
+## See also
 
-### Set up geo-coding for the organization
-
-Setting up geocoding for an organization enables the system to attach latitudes and longitudes to addresses. 
-
-Go to your Dynamics 365 environment's app page: "https://your-environment-name.crm.dynamics.com/apps"
+- [Perform initial configurations](perform-initial-configurations-setup.md)
+- [Set up users and security roles](../field-service/view-user-accounts-security-roles.md)
+- [Create a Bookable Resource](set-up-bookable-resources.md)
 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot showing settings for scheduling parameters](media/quickstart-apps-rs.png) 
-
-Go to **Resource Scheduling app** > **Administration** > **Scheduling Parameters**.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot showing settings for scheduling parameters](media/qs-1-img22.png)  
-
-Set **Connect to Maps** to **Yes**. The API key fills in automatically to use the Bing Maps API, which enables the system to assign a latitude and longitude to the user record's address.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot showing the Bing maps API field](media/qs-1-img23.png)  
+ 
 
