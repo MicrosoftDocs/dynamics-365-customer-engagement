@@ -54,7 +54,7 @@ You also need a phone or tablet for viewing a scheduled work order.
 
 It is encouraged to [perform initial configurations](perform-initial-configurations-setup.md) in your environment after installing Field Service.
 
-### Make sure the Field Service application is installed
+### Verify the Field Service application is installed
 
 Sign in as a system administrator and verify that the Field Service application is listed in the main menu. See the following screenshot for reference. If you don't see Field Service, ensure you are signed in as a system administrator. If you still do not see the app, go to the topic on [installing Field Service](install-field-service.md). 
 
@@ -109,9 +109,7 @@ Select **Manage users in Dynamics 365**.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/quickstart-ppac-users.png)
 
-elect the user that represents the back office administrator and dispatcher then select **Manage Roles** in the top ribbon and assign the **Field Service - Administrator** and **Field Service - Dispatcher** security roles.
-
-
+Select the user that represents the back office administrator and dispatcher then select **Manage Roles** in the top ribbon and assign the **Field Service - Administrator** and **Field Service - Dispatcher** security roles.
 
 
 > [!div class="mx-imgBorder"]
