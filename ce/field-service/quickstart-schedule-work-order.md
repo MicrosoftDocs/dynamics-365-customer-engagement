@@ -45,51 +45,99 @@ Steps:
 7.  View the scheduled work order on mobile
 
 
-quickstart-apps
 
-quickstart-advanced-settings
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/quickstart-apps.png)
 
-quickstart-ppac-users
 
-quickstart-o365-admin
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/quickstart-advanced-settings.png)
 
-quickstart-o365-admin-powerapp
 
-quickstart-o365-admin-users
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/quickstart-ppac-users.png)
 
-quickstart-ppac-users-add
 
-quickstart-roles-admin
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/quickstart-o365-admin.png)
 
-quickstart-roles-resource
 
-quickstart-field-secuirty-profile
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/quickstart-o365-admin-powerapp.png)
 
-quickstart-field-secuirty-profile-resource
 
-quickstart-field-secuirty-profile-admin
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/quickstart-o365-admin-users.png)
 
-quickstart-work-order-new
 
-quickstart-work-order-new2
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/quickstart-ppac-users-add.png)
 
-quiickstart-new-bookable-resource
 
-quickstart-new-bookable-resource-complete
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/quickstart-roles-admin.png)
 
-quickstart-schedule-board-1
 
-quickstart-schedule-board-3
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/quickstart-roles-resource.png)
 
-quickstart-schedule-board-4
 
-quickstart-schedule-board-2
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/quickstart-field-secuirty-profile.png)
 
-quickstart-mobile-signin
 
-mobile-2020-error-contact-administrator-show-nonproduction-apps
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/quickstart-field-secuirty-profile-resource.png)
 
-quickstart-mobile-work-order
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/quickstart-field-secuirty-profile-admin.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/quickstart-work-order-new.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/quickstart-work-order-new2.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/quiickstart-new-bookable-resource.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/quickstart-new-bookable-resource-complete.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/quickstart-schedule-board-1.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/quickstart-schedule-board-3.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/quickstart-schedule-board-4.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/quickstart-schedule-board-2.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/quickstart-mobile-signin.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-error-contact-administrator-show-nonproduction-apps.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/quickstart-mobile-work-order.png)
+
+
 ## Prerequisites
 
 You need a Dynamics 365 organization with the Field Service application and the mobile solution installed. Using sample data 
