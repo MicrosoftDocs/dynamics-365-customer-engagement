@@ -222,12 +222,12 @@ In the lower pane, find the work order to schedule. This work order is listed in
 
 ## 7. View the scheduled work order on the mobile app
 
-Download the Field Service (Dynamics 365) mobile app from the 
+Download the Field Service (Dynamics 365) mobile app from the iOS or Android app stores. See the topic on [installing the mobile app](mobile-power-app-get-started.md) for more details.
 
-3. Sign in with the username and password for the field technician:
+3. Sign in with the username and password for the technician user.
 
-- For the **URL**, enter the URL of your Dynamics 365 organization. For example, https://org.crm.dynamics.com.
-- For the **Username**, enter the username of the field technician. For example, username@org.onmicrosoft.com
+
+- For the **Username**, enter the username of the technician user. For example, username@org.onmicrosoft.com
 - For the **Password**, enter the password you set for the field technician.
 
 > [!div class="mx-imgBorder"]
