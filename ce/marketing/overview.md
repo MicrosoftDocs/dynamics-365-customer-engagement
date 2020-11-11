@@ -140,7 +140,7 @@ More information: [Create and deploy marketing pages](create-deploy-marketing-pa
 
 Customer journey orchestration lets marketers create multiple-step, multichannel marketing campaigns that target a specific segment, deliver marketing email messages, respond to contact interactions, launch Dynamics 365 workflows, and more.
 
-![Customer journey screenshot](media/customer-journey-full2.png "The customer journey designer")
+![Customer journey screenshot](media/customer-journey-full.png "The customer journey designer")
 
 Key campaign-automation features include:
 
