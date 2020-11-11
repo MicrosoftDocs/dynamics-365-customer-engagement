@@ -52,7 +52,7 @@ You need a Dynamics 365 organization with the Field Service application installe
 
 You also need a phone or tablet for viewing a scheduled work order.
 
-It is encouraged to [perform initial configurations](perform-initial-configurations-setup.md)
+It is encouraged to [perform initial configurations](perform-initial-configurations-setup.md) in your environment after installing Field Service.
 
 ### Make sure the Field Service application is installed
 
@@ -61,7 +61,7 @@ Sign in as a system administrator and verify that the Field Service application 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/quickstart-apps.png)
 
-## 1.  Set up users 
+## 1. Set up users 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/quickstart-o365-admin.png)
@@ -73,7 +73,6 @@ Sign in as a system administrator and verify that the Field Service application 
 > ![Screenshot of ](./media/quickstart-o365-admin-powerapp.png)
 
 
-
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/quickstart-ppac-users-add.png)
 
@@ -83,18 +82,24 @@ Sign in as a system administrator and verify that the Field Service application 
 
 - Select a user, and then choose **Manage Roles**.
 
-- Assign the user the **Field Service – Administrator** role to give the user scheduling, dispatching, and configuration capabilities. If this user is only acting as a dispatcher, then assign the **Field Service—Dispatcher** role.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot showing field service roles on the Manage Roles dialog](media/qs-1-img6.png)
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/quickstart-ppac-users.png)
 
+- Assign the user the **Field Service – Administrator** role to give the user scheduling, dispatching, and configuration capabilities. If this user is only acting as a dispatcher, then assign the **Field Service—Dispatcher** role.
+
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/quickstart-roles-admin.png)
+
+2. Select a user other than the dispatcher/administrator, and then assign **only** the **Field Service – Resource** security role. If you don't have a user to assign this role, create a new one in the [Admin center](https://login.microsoftonline.com). 
+
+> [!NOTE]
+> The user needs a Dynamics 365 Field Service license. After you create the user, verify that you can sign in with the new user record. You may be prompted to set a temporary password.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot showing the Field Service - Resource role on the Manage Roles dialog](media/qs-1-img10.png)
 
 
 > [!div class="mx-imgBorder"]
@@ -103,9 +108,18 @@ Sign in as a system administrator and verify that the Field Service application 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/quickstart-advanced-settings.png)
 
+1. Navigate to **Settings** > **Security** > **Users**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/quickstart-field-secuirty-profile.png)
+
+
+4. Select **Field Security Profiles**.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot showing where to find Field Security Profiles on the menu](media/qs-1-img12.png)
+
+5. Assign the **Field Service – Resource** field security profile to the field technician user. Note that field technicians can't edit fields on mobile work orders unless they have this profile assigned. 
 
 
 > [!div class="mx-imgBorder"]
@@ -187,32 +201,7 @@ Consider adding incident types, products, services, and service tasks to add mor
 
 
 
-## 3. Assign the field technician role to a resource 
 
-1. Navigate to **Settings** > **Security** > **Users**.
-
-2. Select a user other than the dispatcher/administrator, and then assign **only** the **Field Service – Resource** security role. If you don't have a user to assign this role, create a new one in the [Admin center](https://login.microsoftonline.com). 
-
-> [!NOTE]
-> The user needs a Dynamics 365 Field Service license. After you create the user, verify that you can sign in with the new user record. You may be prompted to set a temporary password.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot showing the Field Service - Resource role on the Manage Roles dialog](media/qs-1-img10.png)
-
-3. Open the field technician’s user record.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot showing the field technician user record](media/qs-1-img11.png)
-
-4. Select **Field Security Profiles**.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot showing where to find Field Security Profiles on the menu](media/qs-1-img12.png)
-
-5. Assign the **Field Service – Resource** field security profile to the field technician user. Note that field technicians can't edit fields on mobile work orders unless they have this profile assigned. 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot showing the field technician profile view](media/qs-1-img14.png)
 
 ### Set up geo-coding for the field technician user
 Next you need to set up geo-coding for the field technician user. Field technician location is used for scheduling and routing.
