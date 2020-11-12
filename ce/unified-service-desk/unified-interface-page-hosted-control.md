@@ -170,9 +170,9 @@ To add multiple headers, the value of this parameter should be:<br />
 <br />
 <code>header=$Multiline(<<p>headers separated by newline</p>>)</code>.<br /> 
 <br />
-Example: <code>header=$Multiline(accessToken;dummyAccessToken==<br />
+Example: <code>header=$Multiline(accessToken;dummyAccessToken==</code><br />
 <br />
-refreshToken;dummyRefreshToken===)</code></td>
+<code>refreshToken;dummyRefreshToken===)</code></td>
 </tr>
 </tbody>
 </table>
