@@ -17523,12 +17523,12 @@
     },
     {
       "source_path": "ce/developer/xrm-tooling/use-connection-strings-xrm-tooling-connect.md",
-      "redirect_url": "../../customerengagement/on-premises/developer/use-connection-strings-xrm-tooling-connect",
+      "redirect_url": "../../customerengagement/on-premises/developer/xrm-tooling/use-connection-strings-xrm-tooling-connect",
       "redirect_document_id": "false"
     },
     {
       "source_path": "ce/developer/xrm-tooling/use-powershell-cmdlets-xrm-tooling-connect.md",
-      "redirect_url": "../../customerengagement/on-premises/developer/use-powershell-cmdlets-xrm-tooling-connect",
+      "redirect_url": "../../customerengagement/on-premises/developer/xrm-tooling/use-powershell-cmdlets-xrm-tooling-connect",
       "redirect_document_id": "false"
     },
     {
