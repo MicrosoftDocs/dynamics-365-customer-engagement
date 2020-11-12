@@ -73,16 +73,16 @@ Use the following feature comparison table to understand which mobile app is rig
 | Connected Field Service & IoT alerts | Technician | Yes | Yes | |
 | [Inspections](inspections.md) | Technician | Yes | Yes | Field Service technician can find and capture inspections associated with a work order. |
 | [Dynamics 365 Remote Assist](https://docs.microsoft.com/dynamics365/mixed-reality/remote-assist/overview-hololens) | Integration | Yes | Yes | Access to help from remote collaborators with integrated Dynamics 365 Remote Assist. |
-| [Push notifications](mobile-push-notifications.md) | Technician | 2020 release wave 2 - November 2020 | Yes | User notifications, such as new booking appointment. |
+| [Push notifications](mobile-push-notifications.md) | Technician | Yes | Yes | User notifications, such as new booking appointment and other out-of-the-box triggers |
 | [Geofencing](geofencing.md) | Technician | Yes | Yes | Ability to autoset booking status as technician arrives or leaves location. |
 | Reporting | Technician | 2020 release wave 2 | Yes | Customer service reports with signature, option to email PDF. |
 | Scan to find asset (Global search) | Technician | Yes | Yes | |
 | [Location sharing and auditing](https://docs.microsoft.com/dynamics365/field-service/geofencing#step-3-enable-location-auditing-for-the-field-service-mobile-app) | Admin | Yes | Yes | Real time sharing tech location with back office. |
-| Enhanced offline sync filters | Admin | 2020 release wave 2 | Yes | Customize the data available offline (for example, by location, accounts for scheduled bookings). |
+| Enhanced offline sync filters | Admin | Yes | Yes | Offline by default and the ability to customize the data available offline (for example, by location, accounts for scheduled bookings). |
 | Offline by default | Technician | Yes | Yes | App is offline by default so tech is always ready. |
-| Allow technician to force data sync | Technician | 2020 release wave 2 | Yes | Technician can manually force data sync. |
+| Allow technician to force data sync | Technician | Yes | Yes | Technician can manually force data sync. |
 | Bulk-add users  | Admin | 2020 release wave 2 | Yes | Quickly assign offline data sync profile to users. |
-| Check list for service tasks  | Technician | 2020 release wave 2| Yes | Check list for quickly mark task as complete. |
+| Check list for service tasks  | Technician | Yes | Yes | Check list for quickly mark task as complete. |
 
 Check [Release Plans](https://docs.microsoft.com/dynamics365/release-plans/) to stay up to date on upcoming features for Field Service including the Field Service (Dynamics 365) mobile app.
 

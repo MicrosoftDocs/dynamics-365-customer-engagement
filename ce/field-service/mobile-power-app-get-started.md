@@ -42,6 +42,10 @@ Available natively for Apple iOS and Google Android phones and tablets, the Fiel
 - Customer signature capture.
 - Offline capabilities so technicians can continue viewing and recording work in areas without internet.
 
+For a guided walkthrough, check out the following video.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HKRL]
+
 ## Supported platforms
 
 Currently, the Field Service (Dynamics 365) mobile app is supported on the following mobile platforms
@@ -83,6 +87,9 @@ Download the app called **Field Service (Dynamics 365)**, as seen in the followi
 > ![Screenshot of a mobile device app store, showing two Field Service Mobiles in the list, and highlighting the Field Service (Dynamics 365) app.](./media/mobile-2020-download-signin.jpg)
 
 Launch the app and sign in with your username and password, which should be the user credentials of the technician user with the **Field Service - Resource** security role. View the topics on [setting up users and security roles](../field-service/view-user-accounts-security-roles.md) and [creating a Bookable Resource](set-up-bookable-resources.md) for help. 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of sign in](./media/quickstart-mobile-signin.png)
 
 ## Use the Field Service (Dynamics 365) mobile app
 
