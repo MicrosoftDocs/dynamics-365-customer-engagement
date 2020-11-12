@@ -49,7 +49,7 @@ Data visualization and analytics in [!INCLUDE[pn_dynamics_crm_online](../../incl
   
  [Customize global option sets](../org-service/customize-global-option-sets.md)  
   
- [Change application navigation using the SiteMap](/developer/customize-dev/change-application-navigation-using-sitemap.md)  
+ [Change application navigation using the SiteMap](change-application-navigation-using-sitemap.md)  
   
  [Customize commands and the ribbon](customize-commands-ribbon.md)  
   
@@ -61,7 +61,7 @@ Data visualization and analytics in [!INCLUDE[pn_dynamics_crm_online](../../incl
   
  [Customize Entity Views in Dynamics 365 Customer Engagement](customize-entity-views.md)  
   
- [Change Application Navigation using the SiteMap](/developer/customize-dev/change-application-navigation-using-sitemap.md)  
+ [Change Application Navigation using the SiteMap](change-application-navigation-using-sitemap.md)  
   
  [Extend Microsoft Dynamics 365 Customer Engagement](../extend-client.md)  
   
