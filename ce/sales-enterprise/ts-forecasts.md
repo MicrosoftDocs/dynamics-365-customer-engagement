@@ -136,6 +136,27 @@ To resolve this error, activate the **ForecastInstanceActions** process. Follow 
 
 5. Verify that the process state is **Activated**, and then close **Settings**.
 
+
+<a name="unable_view_drilldown_forecast_grid"> </a>
+## Unable to view drill down data in a forecast grid
+
+**Reason**
+
+You don’t have enough privileges for **Forecast Configuration** entity to view drill down data in the forecast grid. The error shown in the following image is displayed.  
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the error message "something went wrong".](media/ts-forecasting-drilldown-loading-error.png "Error message for unable to fetch drill down data in a forecast grid")
+
+**Resolution**
+
+To resolve this error, your security role must at least have **Read** privileges to the **Forecast Configuration** entity. Follow these steps:  
+1. Go to **Advanced settings**, and then select **Settings** > **Security** > **Security Roles**.   
+2. Select the security role for which you want to apply the privileges.  
+3. On the security role page, select **Custom Entities** tab and go to **Forecast Configuration** row.   
+4. Select and provide the read privileges.   
+    > [!div class="mx-imgBorder"]
+    > ![Provide read privileges for Forecast Configuration entity](media/ts-forecasting-provide-read-privileges.png "Provide read privileges for Forecast Configuration entity")  
+5. Close the settings.   
+
 ### See also
 
 [Dynamics 365 Sales troubleshooting guide](troubleshooting.md)  
