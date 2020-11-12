@@ -166,9 +166,10 @@ Alternatively, the data can be passed as an encoded string with its header type 
 <br />
 If a Unified Service Desk POST event triggers the Navigate action, the default value of this parameter should be header=[[header]+]<br />
 <br />
-To add multiple headers, the value of this parameter should be `header=$Multiline(<headers separated by newline>)`. Example: `header=$Multiline(accessToken;dummyAccessToken==<br />
+To add multiple headers, the value of this parameter should be <code>header=$Multiline(<headers separated by newline>)</code>. Example: `
+<code>header=$Multiline(accessToken;dummyAccessToken==<br />
 <br />
-refreshToken;dummyRefreshToken===)`</td>
+refreshToken;dummyRefreshToken===)</code></td>
 </tr>
 </tbody>
 </table>
