@@ -4,7 +4,7 @@ description: "Learn how to connect to the Unified Service Desk solution using th
 author: v-sailab
 ms.author: v-sailab
 manager: shujoshi
-ms.date: 11/10/2020
+ms.date: 11/12/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: 

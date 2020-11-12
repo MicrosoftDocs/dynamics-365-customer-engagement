@@ -4,7 +4,7 @@ description: "The left control panel is a communication panel or conversation co
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 11/06/2020
+ms.date: 11/12/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---

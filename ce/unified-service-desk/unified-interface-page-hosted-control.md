@@ -168,7 +168,7 @@ If a Unified Service Desk POST event triggers the Navigate action, the default v
 <br />
 To add multiple headers, the value of this parameter should be:<br />
 <br />
-<code>header=$Multiline(</code>headers separated by newline<code>)</code><br /> 
+<code>header=$Multiline(</code>headers separated by newline<code>)</code> <br /> 
 <br />
 Example: <code>header=$Multiline(accessToken;dummyAccessToken==</code><br />
 <br />
