@@ -29,6 +29,8 @@ search.app:
 
 # Work order completion surveys with Dynamics 365 Customer Voice (formerly Microsoft Forms Pro)
 
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 Send surveys and questionnaires to customers when a work order is completed to learn about customer satisfaction, how to improve onsite service, and more! With Dynamics 365 Customer Voice (formerly Forms Pro), create custom surveys based on your business needs. Then with Power Automate flow templates, automatically send those surveys to the primary contact on a Dynamics 365 Field Service work order.
 
 ## Prerequisites
