@@ -4,7 +4,7 @@ description: "Learn about the Unified Interface Page hosted control type to load
 author: v-sailab
 ms.author: v-sailab
 manager: shujoshi
-ms.date: 11/11/2020
+ms.date: 11/12/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 search.audienceType: 
@@ -168,7 +168,7 @@ If a Unified Service Desk POST event triggers the Navigate action, the default v
 <br />
 To add multiple headers, the value of this parameter should be:<br />
 <br />
-<code>header=$Multiline(<<p>headers separated by newline</p>>)</code>.<br /> 
+<code>header=$Multiline(<</code>headers separated by newline<code><)</code>.<br /> 
 <br />
 Example: <code>header=$Multiline(accessToken;dummyAccessToken==</code><br />
 <br />
