@@ -4,7 +4,7 @@ description: "Test migration of web client configurations to the Unified Interfa
 author: v-sailab
 ms.author: v-sailab
 manager: shujoshi
-ms.date: 11/06/2020
+ms.date: 11/12/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -35,7 +35,7 @@ This topic describes the steps you need to perform after you migrate configurati
 
 Clear the CEF cache folder before you sign in to the Unified Service Desk application.
 
-1. Go to c:\\Users\\*<user_name>*\Roaming\Microsoft\USD\CEF
+1. Go to c:\\Users\\*<user_name>*\Local\Microsoft\USD\CEF
 
 2. Delete the contents of the folder.
 
