@@ -82,7 +82,7 @@ The      site map enables you to control the application navigation (menus) and 
 >  If you create a new element it must have a unique `Id` attribute value or importing your solution will fail. 
 >  You should prepend an appropriate solution publisher customization prefix to the `Id` value of any new elements that you add.  
   
- [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Add new pages to an Area](/developer/customize-dev/change-application-navigation-using-sitemap.md#BKMK_AddPagesToArea)  
+ [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Add new pages to an Area](change-application-navigation-using-sitemap.md#BKMK_AddPagesToArea)  
   
  **To remove elements**  
  Before you remove elements in the `SiteMap`, consider whether editing the security role privileges for users will achieve your goal. 
