@@ -157,12 +157,12 @@
 
 ### Customer journey orchestration
 #### [Create automated campaigns with customer journeys](customer-journeys-create-automated-campaigns.md)
+#### [Customer journey tiles reference](customer-journey-tiles-reference.md)
 #### [Export to Excel for further analysis](export-journey.md)
 #### [Set expiration dates for emails](email-expire.md)
 #### [Use automated scheduling to help improve email engagement](automated-scheduler.md)
 #### [Create and manage customer journey templates](journey-templates.md)
 #### [Create an inbound customer journey](create-inbound-customer-journey.md)
-#### [Customer journey tiles reference](customer-journey-tiles-reference.md)
 #### [Create activity templates](activity-templates.md)
 
 ### Lead generation and management
