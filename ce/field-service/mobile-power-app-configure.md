@@ -130,7 +130,7 @@ Administrators can control what data is downloaded to the Field Service (Dynamic
 > ![Device render showing offline status mode in Field Service (Dynamics 365) mobile app.](./media/mobile-2020-offline-complete.png)
 
 > [!Note]
-> When the technician has internet connectivity, data on the device will automatically be refreshed every five minutes. This is currently not configurable.
+> When the technician has internet connectivity, data on the device will automatically be refreshed at a minimum interval of five minutes.
 
 For more information on offline profiles, see the article on [setting up mobile offline synchronization](https://docs.microsoft.com/dynamics365/mobile-app/preview-setup-mobile-offline). 
 
@@ -271,29 +271,10 @@ Because the Dynamics 365 Field Service mobile app is built on Microsoft's Power 
 
 - **Offline profiles get updated**. The default offline profile may receive updates over time, but updates will come in an unpublished state. This allows organizations to review the updates and decide if they want to take the update or continue with previous version. If entities in the default offline profile are modified, those entities will be considered unmanaged and won't receive future updates while unmodified entities are still eligible for update.
 
-- **Sync conflicts.** With default settings, if there's a conflict between data on the device and data on the service, the device data will win and overwrite data on the server. System administrators can adjust this where an error can be thrown in the application in case of conflict.
-In future updates, there will be more configuration options to handle unique data conflict scenarios.
-
-## Additional notes
-
-### Legacy offline sync filter interface
-
-In previous versions, edit offline sync filters in the legacy web interface shown in the following screenshots.
-
-Go to **Settings** > **Mobile Offline**.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the Settings menu in Dynamics 365 in a browser.](./media/mobile-2020-admin-mobile-offline.png)
-
-Then select **Mobile Offline Profiles**. Choose the **Field Service Mobile - Offline Profile**, which is the default configuration for offline data that is included with the Field Service app.
+- **Sync conflicts.**  Sync conflicts can happen if there is a mismatch between data on the device and data on the server. A conflict is raised at the entity level and not per field. Conflict errors can be resolved based on the settings set by the administrator. If your administrator has set the conflict resolution to "No," then the data value on your client device wins and there will be no sync errors. This is the default value for Field Service Mobile. If your administrator has set the conflict resolution to "Yes," then the data value on the server wins. In this case, while syncing changes to the server, you might see some errors that are automatically resolved. Client changes are overwritten by server values.
 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Dynamics 365 settings, showing the All Mobile Offline Profiles screen.](./media/mobile-2020-offline-profile.png)
 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Dynamics 365 Settings, showing the Field Service Mobile offline profile.](./media/mobile-2020-offline-profile-entities.png)
 
 ### Known limitations
 
