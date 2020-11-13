@@ -28,16 +28,6 @@ search.app:
 
 Not sure what you're looking for, where to begin, or how to improve your Field Service knowledge? Use this guide to see a birds-eye view of the Dynamics 365 Field Service resources.
 
-
-
-## Understand Field Service concepts
-
-
-
-
-
-
-
 ## Walkthrough of Field Service
 
 Take a look at the following video for a full walkthrough of Field Service and its functionality.
@@ -45,50 +35,15 @@ Take a look at the following video for a full walkthrough of Field Service and i
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4wAd2]
 
 
-## Set up Field Service
-The purpose of this section is to help you set up a Field Service environment and configure the core Field Service scenario.
 
-### Set up an environment
-This includes deploying an environment, setting up users, and performing initial administrative actions.
 
-- ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Field Service installation and setup](https://youtu.be/hvcqAbe4g4E)
 
-- [Install Field Service (web + mobile)](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/install-field-service)
 
-- [Setup Users and Security roles](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/view-user-accounts-security-roles)
 
-- [Perform initial configurations](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup)
 
-### Configure work order scenario
-This includes creating a work order, scheduling it to a resource, and viewing it on the Field Service Mobile app.
 
-- [Quickstart - Create and schedule a work order](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/quickstart-schedule-work-order)
 
-Additionally, configuring the core Field Service scenario involves understanding resources, work orders, scheduling, and the mobile app.
 
-#### Bookable Resources
-
-- ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Set up Bookable Resources](https://youtu.be/g118F_LnxyE)
-- [Set up bookable resources](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/set-up-bookable-resources)
-
-#### Work orders
-- [Create a Work Order](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/create-work-order)
-
-#### Scheduling
-- ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Set up and use the schedule board](https://youtu.be/OXBXck9cwn4)
-
-- [Universal Resource Scheduling for Field Service](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/universal-resource-scheduling-for-field-service)
-
-#### Mobility
-- [Installation](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/install-field-service#download-the-field-service-mobile-app-on-a-phone-or-tablet)
-
-- [Overview of features and requirements](field-service-mobile-overview.md)
-
-- [Configure and customize](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/mobile-app-configuration-customization)
-
-- [Get started with Microsoft Dynamics 365 Field Service Mobile](https://docs.microsoft.com/learn/modules/implement-get-started-with-microsoft-dynamics-365-for-field-service-mobile/)
-
-- [Deliver a customized mobile experience in Microsoft Dynamics 365 Field Service](https://docs.microsoft.com/learn/modules/implement-deliver-a-customized-mobile-experience/)
 
 ## Configure more scenarios
 The purpose of this section is to help you explore all the features of Field Service and configure more detailed scenarios and business requirements.
@@ -188,7 +143,7 @@ Before we begin, here are the top places for information about Field Service:
   </ul>
   </td>
 
-<tr> 
+
  <td><h2>Understand Field Service concepts</h2>
 
  The purpose of this section is to understand what Dynamics 365 Field Service is, and why it's valuable to customers.
@@ -203,17 +158,10 @@ Before we begin, here are the top places for information about Field Service:
 
 
 
-
-
-
-
-
-
-
-
-
+<tr> 
 
 <td><h2>Video catalog</h2>
+
 <ul>
 <li><a href="https://youtu.be/h5X1z0pTtSA" data-raw-source="[Module 1: Using Field Service work orders, scheduling, mobile app, reporting, and more]https://youtu.be/h5X1z0pTtSA">Module 1: Using Field Service work orders, scheduling, mobile app, reporting, and more</a>
   </li>
@@ -231,13 +179,12 @@ Before we begin, here are the top places for information about Field Service:
   </li> 
   </ul>
   </td>
-</tr>
 
 
+<td><h2>Install and setup</h2>
 
+The purpose of this section is to help you set up a Field Service environment.
 
-<tr> 
- <td><h2>Install and setup</h2>
    <ul>
 <li><a href="customer-service-hub-user-guide-basics.md" data-raw-source="[Learn the basics](customer-service-hub-user-guide-basics.md)">Learn the basics of the Customer Service Hub</a></li>
    <li><a href="customer-service-hub-user-guide-case-sla.md" data-raw-source="[Create and manage cases](customer-service-hub-user-guide-case-sla.md)">Create and manage cases</a></li>
@@ -246,7 +193,25 @@ Before we begin, here are the top places for information about Field Service:
   </ul>
   </td>
 
+
+- [Install Field Service (web + mobile)](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/install-field-service)
+
+- [Setup Users and Security roles](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/view-user-accounts-security-roles)
+
+- [Perform initial configurations](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup)
+
+- [Set up bookable resources](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/set-up-bookable-resources)
+
+- [Get started with Microsoft Dynamics 365 Field Service Mobile](https://docs.microsoft.com/learn/modules/implement-get-started-with-microsoft-dynamics-365-for-field-service-mobile/)
+
+
+
+
+
+<tr>
  <td><h2>Create and manage Work Orders</h2>
+
+The purpose of this section is to help you configure work order management, which is a core capability of Field Service.
    <ul>
   <li><a href="user-guide-customer-service-hub.md" data-raw-source="[Customer Service Hub](user-guide-customer-service-hub.md)">Customer Service Hub</a></li>
    <li><a href="user-guide-customer-service.md" data-raw-source="[Customer Service](user-guide-customer-service.md)">Customer Service app</a></li>
@@ -254,10 +219,27 @@ Before we begin, here are the top places for information about Field Service:
 <li><a href="basics-service-service-scheduling.md" data-raw-source="[[Service Scheduling Guide](basics-service-service-scheduling.md)]">Service Scheduling Guide</a></li>
   <li><a href="use-customer-service-hub-on-dynamics-365-mobile.md" data-raw-source="[Dynamics 365 Customer Service for mobile devices](use-customer-service-hub-on-dynamics-365-mobile.md)">Dynamics 365 Customer Service for mobile devices</a></li>
   </ul><br/>  </td>
+
+  - [Quickstart - Create and schedule a work order](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/quickstart-schedule-work-order)
+
+- [Universal Resource Scheduling for Field Service](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/universal-resource-scheduling-for-field-service)
+
+- [Create a Work Order](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/create-work-order)
+
+ 
+<td><h2>Configure more capabilities</h2>
+
+<ul>
+
+ <li><a href="https://www.youtube.com/watch?v=cDN-gv0Yylg" data-raw-source="[Resolve open cases fast with Customer Service Hub dashboards for Customer Engagement](https://www.youtube.com/watch?v=cDN-gv0Yylg)">Resolve open cases fast with Customer Service Hub dashboards for Customer Engagement</a></li>
+ <li><a href="https://www.youtube.com/watch?v=ruAPEKY5vNc" data-raw-source="[How to use the Reference panel in the Customer Service Hub](https://www.youtube.com/watch?v=ruAPEKY5vNc)">How to use the Reference panel in the Customer Service Hub</a></li>
+ <li><a href="https://www.youtube.com/watch?v=Y_eV4HeIm04" data-raw-source="[Expertly manage your cases in the Customer Service Hub for Customer Engagement](https://www.youtube.com/watch?v=Y_eV4HeIm04)">Expertly manage your cases in the Customer Service Hub for Customer Engagement</a></li>
+</ul>
+</td>
+
 </tr>
 
-
-<tr><td><h2>Advanced capabilities</h2>
+<td><h2>Automated scheduling (RSO)</h2>
 
 <ul>
 
