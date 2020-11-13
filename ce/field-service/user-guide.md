@@ -45,72 +45,6 @@ Take a look at the following video for a full walkthrough of Field Service and i
 
 
 
-## Configure more scenarios
-The purpose of this section is to help you explore all the features of Field Service and configure more detailed scenarios and business requirements.
-
-Start with this [Learn course](https://docs.microsoft.com/learn/paths/implementing-dyn365-field-service/) that shows an administrative view of the previous work order scenario to create products, services, incidents, and other core work order entities.
-
-### Scheduling
-Next, dive into configuring the schedule board and exploring other scheduling capabilities such as crews, facilities, and pools with this [Learn course](https://docs.microsoft.com/learn/paths/universal-resource-scheduling/).
-
-### Agreements, assets, and inventory
-
-After that, look into using [agreements](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/set-up-customer-agreements) to auto-generate recurring work orders, [customer assets](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/configure-set-up-customer-assets) to build service history, and [inventory](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/create-warehouse) to track parts usage from a field technicians truck.
-
-
-### Resource Scheduling Optimization
-The pinnacle of field service scheduling is Resource Scheduling Optimization (RSO), which automatically schedules work orders (and other requirements) to the best resources in order to minimize total travel time and maximize working hours.
-
-- ![Video symbol](../field-service/media/video-icon.png "Video symbol") [What is RSO?](https://youtu.be/3W7hI-6dZhg)
-- ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Quickstart: Auto schedule a list of work orders](https://youtu.be/oJ-3HTJWRMo)
-
-Learn how to [deploy, configure, and run RSO](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/rso-overview).
-
-
-### Connected Field Service
-
-Similarly, the pinnacle of work order creation is Connected Field Service (CFS) that combines AzureIoT and Dynamics 365 to analyze data streams from Internet-connected equipment and proactively create work orders based on alerts - often before the customer is aware of a problem.
-
-First, get an [Overview](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/connected-field-service) of CFS and learn about the [CFS with IoTHub architecture](../field-service/developer/connected-field-service-architecture.md) to better understand how Azure and Dynamics 365 work together.
-
-Next, learn the difference between CFS with [IoTCentral](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/cfs-iot-overview) and CFS with [IoTHub](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/developer/connected-field-service-developer-guide). In short, think of **IoTCentral** as the software-as-a-service option, an easy way to create and demonstrate a prototype, perform a proof-of-concept, test the IoT process with dynamics to outline structure and objectives, and implement CFS for organizations starting from scratch with no IoT infrastructure. Think of **IoTHub** as the platform offering and what will most likely be implemented because it is more customizable and is especially helpful for organizations with existing IoT infrastructure.
-
-Next, set up a Connected Field Service environment to create work orders from simulated IoT data. See the following video tutorial for detailed instructions: ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Set up Connected Field Service with Azure IoTCentral](https://youtu.be/Sp7_JoXjHDk)
-
-Finally, here is a [Learn course](https://docs.microsoft.com/learn/paths/working-with-connected-field-service-iot/) to guide you through setting up CFS with IoTCentral.
-
-> [!Note]
-> Combining Resource Scheduling Optimization and Connected Field Service allows an organization to proactively detect issues and schedule them to field technicians to fix.
-
-## Implement Field Service
-
-The purpose of this section is to provide implementation guidance and best practices, both technical and strategic. It also points toward extensibility and developer instructions.
-
-When working through implementation scenarios, it is important to know org level details that can be found in [Field Service Settings](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/configure-default-settings).
-
-- ![Video symbol](../field-service/media/video-icon.png "Video symbol") [General Field Service implementation best practices](https://youtu.be/LQXpjMMrJIo)
-
-### Scheduling best practices
-- [Types of Scheduling](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/scheduling-capabilities)
-
-- [Scheduling personas](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/scheduling-roles-personas)
-
-- [The five stages of scheduling adoption](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/5-stages-scheduling-adoption)
-
-- [Schedule board tab settings](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/schedule-board-tab-settings) are important in implementations to get the most out of the schedule board.
-
-- [Scheduling extensibility](https://docs.microsoft.com/dynamics365/customer-engagement/common-scheduler/developer/extensibility-release-notes)
-
-### Key implementation resources
-- Stay up to date on new and upcoming features with the [Dynamics 365 release notes](https://docs.microsoft.com/business-applications-release-notes/).
-
-- Use the [version history](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/version-history) to know the latest version and download the latest mobile projects.
-
-- Understand [AppSource add-ins](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/appsource-addins) to meet more implementation requirements.
-
-## Get help
-
-If you're looking for help with errors, unexpected behavior, crashes, and bugs, [create a Dynamics 365 support ticket](https://dynamics.microsoft.com/contact-us/).
 
 
 
@@ -123,9 +57,6 @@ If you're looking for help with errors, unexpected behavior, crashes, and bugs, 
 
 
 
-
-
-<div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/6e415bd9-49b7-4416-b744-70278d9fa077" frameborder="0" allowfullscreen=""></iframe></div>
 
 <table>
 <tr>
@@ -140,6 +71,7 @@ Before we begin, here are the top places for information about Field Service:
 <li> <a href="https://experience.dynamics.com/ideas/categories/?forum=bee3d862-df65-e811-a95d-000d3a1be7ad&forumName=Dynamics%20365%20for%20Field%20Service" data-raw-source="[[Ideas](https://experience.dynamics.com/ideas/categories/?forum=bee3d862-df65-e811-a95d-000d3a1be7ad&forumName=Dynamics%20365%20for%20Field%20Service)]">Ideas</a>
 <li> <a href="https://community.dynamics.com/365/fieldservice" data-raw-source="[[Forum](https://community.dynamics.com/365/fieldservice)]">Forum</a>
 <li> <a href="https://cloudblogs.microsoft.com/dynamics365/it/" data-raw-source="[[Blog](https://cloudblogs.microsoft.com/dynamics365/it/)]">Blog</a>
+<li> <a href="https://dynamics.microsoft.com/contact-us/" data-raw-source="[[Get help](https://dynamics.microsoft.com/contact-us/)]">Get help</a>
   </ul>
   </td>
 
@@ -200,29 +132,31 @@ The purpose of this section is to help you set up a Field Service environment.
 
 The purpose of this section is to help you configure work order management, which is a core capability of Field Service.
    <ul>
-  <li><a href="user-guide-customer-service-hub.md" data-raw-source="[Customer Service Hub](user-guide-customer-service-hub.md)">Customer Service Hub</a></li>
-   <li><a href="user-guide-customer-service.md" data-raw-source="[Customer Service](user-guide-customer-service.md)">Customer Service app</a></li>
- <li><a href="service-manager-guide.md" data-raw-source="[[Service Manager Guide](service-manager-guide.md)]">Service Manager Guide</a></li>
-<li><a href="basics-service-service-scheduling.md" data-raw-source="[[Service Scheduling Guide](basics-service-service-scheduling.md)]">Service Scheduling Guide</a></li>
-  <li><a href="use-customer-service-hub-on-dynamics-365-mobile.md" data-raw-source="[Dynamics 365 Customer Service for mobile devices](use-customer-service-hub-on-dynamics-365-mobile.md)">Dynamics 365 Customer Service for mobile devices</a></li>
-  </ul><br/>  </td>
+  <li><a href="quickstart-schedule-work-order.md" data-raw-source="[Quickstart - Create and schedule a work order](quickstart-schedule-work-order.md)">Quickstart - Create and schedule a work order</a></li>
+   <li><a href="universal-resource-scheduling-for-field-service.md" data-raw-source="[Universal Resource Scheduling for Field Service](universal-resource-scheduling-for-field-service.md)">Universal Resource Scheduling for Field Service</a></li>
+ <li><a href="create-work-order.md" data-raw-source="[[Create a Work Order](create-work-order.md)]">Create a Work Order</a></li>
+<li><a href="configure-incident-types.md" data-raw-source="[[Create work order templates with incident types](configure-incident-types.md)]">Create work order templates with incident types</a></li>
+  <li><a href="work-order-customer-account.md" data-raw-source="[Add a customer, location, and related account details to a work order](work-order-customer-account.md)">Add a customer, location, and related account details to a work order</a></li>
+  </ul><br/>  
+  </td>
 
-  - [Quickstart - Create and schedule a work order](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/quickstart-schedule-work-order)
 
-- [Universal Resource Scheduling for Field Service](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/universal-resource-scheduling-for-field-service)
-
-- [Create a Work Order](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/create-work-order)
 
  
 <td><h2>Configure more capabilities</h2>
 
+The purpose of this section is to help you explore all the features of Field Service and configure more detailed scenarios and business requirements.
+
 <ul>
 
- <li><a href="https://www.youtube.com/watch?v=cDN-gv0Yylg" data-raw-source="[Resolve open cases fast with Customer Service Hub dashboards for Customer Engagement](https://www.youtube.com/watch?v=cDN-gv0Yylg)">Resolve open cases fast with Customer Service Hub dashboards for Customer Engagement</a></li>
- <li><a href="https://www.youtube.com/watch?v=ruAPEKY5vNc" data-raw-source="[How to use the Reference panel in the Customer Service Hub](https://www.youtube.com/watch?v=ruAPEKY5vNc)">How to use the Reference panel in the Customer Service Hub</a></li>
- <li><a href="https://www.youtube.com/watch?v=Y_eV4HeIm04" data-raw-source="[Expertly manage your cases in the Customer Service Hub for Customer Engagement](https://www.youtube.com/watch?v=Y_eV4HeIm04)">Expertly manage your cases in the Customer Service Hub for Customer Engagement</a></li>
+ <li><a href="schedule-assistant.md" data-raw-source="[Schedule assistant](schedule-assistant.md)">Schedule assistant</a></li>
+ <li><a href="configure-set-up-customer-assets.md" data-raw-source="[Customer assets](configure-set-up-customer-assets.md)">Customer assets</a></li>
+ <li><a href="set-up-customer-agreements.md" data-raw-source="[Agreements](set-up-customer-agreements.md)">Agreements</a></li>
+ <li><a href="inventory-purchasing-returns-overview.md" data-raw-source="[Overview of inventory, purchasing, and returns](inventory-purchasing-returns-overview.md)">Overview of inventory, purchasing, and returns</a></li>
 </ul>
 </td>
+
+
 
 </tr>
 
@@ -236,6 +170,15 @@ The purpose of this section is to help you configure work order management, whic
 </ul>
 </td>
 
+### Resource Scheduling Optimization
+The pinnacle of field service scheduling is Resource Scheduling Optimization (RSO), which automatically schedules work orders (and other requirements) to the best resources in order to minimize total travel time and maximize working hours.
+
+- ![Video symbol](../field-service/media/video-icon.png "Video symbol") [What is RSO?](https://youtu.be/3W7hI-6dZhg)
+- ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Quickstart: Auto schedule a list of work orders](https://youtu.be/oJ-3HTJWRMo)
+
+Learn how to [deploy, configure, and run RSO](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/rso-overview).
+
+
 <td><h2>Connected Field Service (IoT)</h2>
 <ul>
  <li> <a href="user-guide-customer-service-hub.md#accessibility-and-gdpr" data-raw-source="[Accessibility and GDPR in the Customer Service Hub](user-guide-customer-service-hub.md#accessibility-and-gdpr)">Accessibility and GDPR in the Customer Service Hub</a> </li> 
@@ -244,6 +187,22 @@ The purpose of this section is to help you configure work order management, whic
 </ul>
 </td>
 </tr>
+
+
+### Connected Field Service
+
+Similarly, the pinnacle of work order creation is Connected Field Service (CFS) that combines AzureIoT and Dynamics 365 to analyze data streams from Internet-connected equipment and proactively create work orders based on alerts - often before the customer is aware of a problem.
+
+First, get an [Overview](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/connected-field-service) of CFS and learn about the [CFS with IoTHub architecture](../field-service/developer/connected-field-service-architecture.md) to better understand how Azure and Dynamics 365 work together.
+
+Next, learn the difference between CFS with [IoTCentral](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/cfs-iot-overview) and CFS with [IoTHub](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/developer/connected-field-service-developer-guide). In short, think of **IoTCentral** as the software-as-a-service option, an easy way to create and demonstrate a prototype, perform a proof-of-concept, test the IoT process with dynamics to outline structure and objectives, and implement CFS for organizations starting from scratch with no IoT infrastructure. Think of **IoTHub** as the platform offering and what will most likely be implemented because it is more customizable and is especially helpful for organizations with existing IoT infrastructure.
+
+Next, set up a Connected Field Service environment to create work orders from simulated IoT data. See the following video tutorial for detailed instructions: ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Set up Connected Field Service with Azure IoTCentral](https://youtu.be/Sp7_JoXjHDk)
+
+Finally, here is a [Learn course](https://docs.microsoft.com/learn/paths/working-with-connected-field-service-iot/) to guide you through setting up CFS with IoTCentral.
+
+> [!Note]
+> Combining Resource Scheduling Optimization and Connected Field Service allows an organization to proactively detect issues and schedule them to field technicians to fix.
 
 <tr>
 <td><h2>Implementation</h2>
@@ -254,54 +213,38 @@ The purpose of this section is to help you configure work order management, whic
   <li><a href="troubleshoot-delete-managed-solution.md" data-raw-source="[Unable to delete a managed solution consisting an SLA enabled entity](troubleshoot-delete-managed-solution.md)">Unable to delete a managed solution consisting of an SLA-enabled entity</a></li>
   </ul><br/>  </td>
 
-<td><h2>Customize</h2>
-   <ul>
-  <li><a href="create-design-forms-customer-service-hub.md" data-raw-source="[Create and design forms for Customer Service Hub](create-design-forms-customer-service-hub.md)">Create and design forms for Customer Service Hub</a>
-</li>
-   <li><a href="add-knowledge-base-search-control-forms.md" data-raw-source="[Add the Knowledge Base Search control to forms](add-knowledge-base-search-control-forms.md)">Add the Knowledge Base Search control to forms</a></li>
 
-<li><a href="configure-interactive-dashboards-customer-service-hub.md" data-raw-source="[Configure interactive dashboards in the Customer Service Hub](configure-interactive-dashboards-customer-service-hub.md)">Configure interactive dashboards in the Customer Service Hub</a></li>
-</ul>
-</td>
-</tr>
+## Implement Field Service
 
-<tr>
-<td><h2>FAQs</h2>
-<ul>
-<li><a href="email-faqs.md" data-raw-source="[Email FAQs](email-faqs.md)">Email FAQs</a></li>
-<li><a href="migrate-tool-faqs.md" data-raw-source="[Migration Tool FAQs](migrate-tool-faqs.md)">Migration Tool FAQs</a></li>
-<li><a href="https://docs.microsoft.com/dynamics365/omnichannel/faqs" data-raw-source="[Omnichannel for Customer Service FAQs](https://docs.microsoft.com/dynamics365/omnichannel/faqs)">Omnichannel for Customer Service FAQs</a></li>
-<li><a href="service-scheduling-faq.md" data-raw-source="[Service Scheduling FAQs](service-scheduling-faq.md)">Service Scheduling FAQ</a></li>
-<li><a href="timeline-faqs.md" data-raw-source="[Timeline FAQs](timeline-faqs.md)">Timeline FAQs</a></li>
-</ul>
-</td>
+The purpose of this section is to provide implementation guidance and best practices, both technical and strategic. It also points toward extensibility and developer instructions.
 
-<td><h2>Developer guide</h2>
-<ul>
-<li><a href="migrate-service-activity-org-service.md" data-raw-source="[Sample: Migrate Service Activity entity](migrate-service-activity-org-service.md)">Migrate Service Activity entity</a></li>
+When working through implementation scenarios, it is important to know org level details that can be found in [Field Service Settings](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/configure-default-settings).
 
-  </ul>  </td>
-</tr>
+- ![Video symbol](../field-service/media/video-icon.png "Video symbol") [General Field Service implementation best practices](https://youtu.be/LQXpjMMrJIo)
+
+### Scheduling best practices
+- [Types of Scheduling](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/scheduling-capabilities)
+
+- [Scheduling personas](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/scheduling-roles-personas)
+
+- [The five stages of scheduling adoption](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/5-stages-scheduling-adoption)
+
+- [Schedule board tab settings](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/schedule-board-tab-settings) are important in implementations to get the most out of the schedule board.
+
+- [Scheduling extensibility](https://docs.microsoft.com/dynamics365/customer-engagement/common-scheduler/developer/extensibility-release-notes)
+
+### Key implementation resources
+- Stay up to date on new and upcoming features with the [Dynamics 365 release notes](https://docs.microsoft.com/business-applications-release-notes/).
+
+- Use the [version history](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/version-history) to know the latest version and download the latest mobile projects.
+
+- Understand [AppSource add-ins](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/appsource-addins) to meet more implementation requirements.
 
 
-<tr>
-<td><h2>Blogs</h2>
-<ul>
-<li><a href="https://blogs.msdn.microsoft.com/crm/2018/12/21/improve-knowledge-article-search-results-with-dynamics-365-relevance-search/" data-raw-source="[Improve Knowledge Article search results with Dynamics 365 Relevance Search](https://blogs.msdn.microsoft.com/crm/2018/12/21/improve-knowledge-article-search-results-with-dynamics-365-relevance-search/)">Improve Knowledge Article search results with Dynamics 365 Relevance Search</a></li>
-<li><a href="https://blogs.msdn.microsoft.com/crm/2018/11/22/get-started-with-dynamics-365-service-scheduling/" data-raw-source="[Get started with Dynamics 365 Customer Service Service Scheduling](https://blogs.msdn.microsoft.com/crm/2018/11/22/get-started-with-dynamics-365-service-scheduling/)">Get started with Dynamics 365 Customer Service Service Scheduling</a></li>
-</ul>
-</td>
 
-<td>
-<h2>Related apps & framework</h2>
 
-<li><a href="https://docs.microsoft.com/dynamics365/omnichannel/omnichannel-customer-service-guide" data-raw-source="[Omnichannel for Customer Service Guide](https://docs.microsoft.com/dynamics365/omnichannel/omnichannel-customer-service-guide)">Omnichannel for Customer Service Guide</a></li>
-<li><a href="https://docs.microsoft.com/dynamics365/unified-service-desk/unified-service-desk" data-raw-source="[Unified Service Desk Guide](https://docs.microsoft.com/dynamics365/unified-service-desk/unified-service-desk)">Unified Service Desk Guide</a></li>
-<li><a href="https://docs.microsoft.com/dynamics365/customer-service/channel-integration-framework/channel-integration-framework" data-raw-source="[Dynamics 365 Channel Integration Framework Guide](https://docs.microsoft.com/dynamics365/customer-service/channel-integration-framework/channel-integration-framework)">Dynamics 365 Channel Integration Framework Guide</a></li>
 
-</td>
 
-</tr>
 </table>
 
 
