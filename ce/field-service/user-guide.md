@@ -3,7 +3,7 @@ title: "User guide for Dynamics 365 Field Service | MicrosoftDocs"
 description: Use this guide to get a high-level view of Dynamics 365 Field Service and see a collection of resources to learn more.
 ms.custom:
   - dyn365-fieldservice
-ms.date: 10/21/2020
+ms.date: 11/11/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite:
@@ -226,3 +226,156 @@ When working through implementation scenarios, it is important to know org level
 ## Get help
 
 If you're looking for help with errors, unexpected behavior, crashes, and bugs, [create a Dynamics 365 support ticket](https://dynamics.microsoft.com/contact-us/).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/6e415bd9-49b7-4416-b744-70278d9fa077" frameborder="0" allowfullscreen=""></iframe></div>
+
+<table>
+<tr>
+<td><h2>Resources</h2>
+  <ul>
+<li><a href="overview.md" data-raw-source="[Docs](overview.md)">Docs</a></li>
+  <li><a href="https://docs.microsoft.com/learn/browse/?products=dynamics-field-service" data-raw-source="[Guided Learn courses](https://docs.microsoft.com/learn/browse/?products=dynamics-field-service)">Guided Learn courses</a></li>
+<li> <a href="https://www.youtube.com/playlist?list=PLcakwueIHoT_AQBxkQQ7zePzd7fzZYP7X" data-raw-source="[[YouTube Channel](https://www.youtube.com/playlist?list=PLcakwueIHoT_AQBxkQQ7zePzd7fzZYP7X)]">YouTube Channel</a>
+<li> <a href="https://aka.ms/fs-videos" data-raw-source="[[Video tutorials](https://aka.ms/fs-videos)]">Video tutorials</a>
+<li> <a href="https://experience.dynamics.com/ideas/categories/?forum=bee3d862-df65-e811-a95d-000d3a1be7ad&forumName=Dynamics%20365%20for%20Field%20Service" data-raw-source="[[Ideas](https://experience.dynamics.com/ideas/categories/?forum=bee3d862-df65-e811-a95d-000d3a1be7ad&forumName=Dynamics%20365%20for%20Field%20Service)]">Ideas</a>
+<li> <a href="https://community.dynamics.com/365/fieldservice" data-raw-source="[[Forum](https://community.dynamics.com/365/fieldservice)]">Forum</a>
+<li> <a href="https://cloudblogs.microsoft.com/dynamics365/it/" data-raw-source="[[Blog](https://cloudblogs.microsoft.com/dynamics365/it/)]">Blog</a>
+  </ul>
+  </td>
+
+
+
+<td><h2>Video catalog</h2>
+<ul>
+<li><a href="https://youtu.be/h5X1z0pTtSA" data-raw-source="[Module 1: Using Field Service work orders, scheduling, mobile app, reporting, and more]https://youtu.be/h5X1z0pTtSA">Module 1: Using Field Service work orders, scheduling, mobile app, reporting, and more</a>
+  </li>
+<li><a href="https://youtu.be/hvcqAbe4g4E" data-raw-source="[Module 2: Field Service installation and setup](https://youtu.be/hvcqAbe4g4E)">Module 2: Field Service installation and setup</a></li>
+<li><a href="https://youtu.be/g118F_LnxyE" data-raw-source="[Module 3: Set up bookable resources](https://youtu.be/g118F_LnxyE)">Module 3: Set up bookable resources</a></li>
+<li><a href="https://youtu.be/lblmqd7qFwg" data-raw-source="[Module 4: Work orders](https://youtu.be/lblmqd7qFwg)">Module 4: Work orders</a></li>
+<li><a href="https://youtu.be/-noHEU7wgiQ" data-raw-source="[Module 5: Schedule board](https://youtu.be/-noHEU7wgiQ)">Module 5: Schedule board</a></li>
+<li><a href="https://youtu.be/QOrePYZ9fds" data-raw-source="[Module 6: Schedule assistant](https://youtu.be/QOrePYZ9fds)">Module 6: Schedule assistant</a></li>
+<li><a href="https://youtu.be/tcDt_vJ5csI" data-raw-source="[Module 7: Dynamics 365 Field Service mobile app (Microsoft Power Platform)](https://youtu.be/tcDt_vJ5csI)">Module 7: Dynamics 365 Field Service mobile app (Microsoft Power Platform)</a></li>
+<li><a href="https://youtu.be/aDfwIP7rT-U" data-raw-source="[Module 8: Inspections](https://youtu.be/aDfwIP7rT-U)">Module 8: Inspections</a></li>
+<li><a href="https://youtu.be/fcQwIXgmnqk" data-raw-source="[Module 9a: Automated scheduling scenarios with Field Service](https://youtu.be/fcQwIXgmnqk)">Module 9a: Automated scheduling scenarios with Field Service</a></li>
+<li><a href="https://youtu.be/oJ-3HTJWRMo" data-raw-source="[Module 9b: Set up automatic scheduling for work orders](https://youtu.be/oJ-3HTJWRMo)">Module 9b: Set up automatic scheduling for work orders</a></li>
+<li><a href="https://youtu.be/hvcqAbe4g4E" data-raw-source="[Module 10: Set up Connected Field Service with Azure IoTCentral](https://youtu.be/hvcqAbe4g4E)">Module 10: Set up Connected Field Service with Azure IoTCentral</a></li>
+<li><a href="https://youtu.be/ida7f0gtAYU" data-raw-source="[Module 11: Set up and use Dynamics 365 Remote Assist with Field Service](https://youtu.be/ida7f0gtAYU)">Module 11: Set up and use Dynamics 365 Remote Assist with Field Service</a></li>
+  </li> 
+  </ul>
+  </td>
+</tr>
+
+
+
+
+<tr> 
+ <td><h2>Install and setup</h2>
+   <ul>
+<li><a href="customer-service-hub-user-guide-basics.md" data-raw-source="[Learn the basics](customer-service-hub-user-guide-basics.md)">Learn the basics of the Customer Service Hub</a></li>
+   <li><a href="customer-service-hub-user-guide-case-sla.md" data-raw-source="[Create and manage cases](customer-service-hub-user-guide-case-sla.md)">Create and manage cases</a></li>
+  <li><a href="customer-service-hub-user-guide-dashboard.md" data-raw-source="[Work with dashboards](customer-service-hub-user-guide-dashboard.md)">Work with dashboards</a></li>
+  <li><a href="customer-service-hub-user-guide-knowledge-article.md" data-raw-source="[Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)">Create and manage knowledge articles</a></li>
+  </ul>
+  </td>
+
+ <td><h2>Create and manage Work Orders</h2>
+   <ul>
+  <li><a href="user-guide-customer-service-hub.md" data-raw-source="[Customer Service Hub](user-guide-customer-service-hub.md)">Customer Service Hub</a></li>
+   <li><a href="user-guide-customer-service.md" data-raw-source="[Customer Service](user-guide-customer-service.md)">Customer Service app</a></li>
+ <li><a href="service-manager-guide.md" data-raw-source="[[Service Manager Guide](service-manager-guide.md)]">Service Manager Guide</a></li>
+<li><a href="basics-service-service-scheduling.md" data-raw-source="[[Service Scheduling Guide](basics-service-service-scheduling.md)]">Service Scheduling Guide</a></li>
+  <li><a href="use-customer-service-hub-on-dynamics-365-mobile.md" data-raw-source="[Dynamics 365 Customer Service for mobile devices](use-customer-service-hub-on-dynamics-365-mobile.md)">Dynamics 365 Customer Service for mobile devices</a></li>
+  </ul><br/>  </td>
+</tr>
+
+
+<tr><td><h2>Advanced capabilities</h2>
+
+<ul>
+
+ <li><a href="https://www.youtube.com/watch?v=cDN-gv0Yylg" data-raw-source="[Resolve open cases fast with Customer Service Hub dashboards for Customer Engagement](https://www.youtube.com/watch?v=cDN-gv0Yylg)">Resolve open cases fast with Customer Service Hub dashboards for Customer Engagement</a></li>
+ <li><a href="https://www.youtube.com/watch?v=ruAPEKY5vNc" data-raw-source="[How to use the Reference panel in the Customer Service Hub](https://www.youtube.com/watch?v=ruAPEKY5vNc)">How to use the Reference panel in the Customer Service Hub</a></li>
+ <li><a href="https://www.youtube.com/watch?v=Y_eV4HeIm04" data-raw-source="[Expertly manage your cases in the Customer Service Hub for Customer Engagement](https://www.youtube.com/watch?v=Y_eV4HeIm04)">Expertly manage your cases in the Customer Service Hub for Customer Engagement</a></li>
+</ul>
+</td>
+
+<td><h2>Connected Field Service (IoT)</h2>
+<ul>
+ <li> <a href="user-guide-customer-service-hub.md#accessibility-and-gdpr" data-raw-source="[Accessibility and GDPR in the Customer Service Hub](user-guide-customer-service-hub.md#accessibility-and-gdpr)">Accessibility and GDPR in the Customer Service Hub</a> </li> 
+ <li><a href="https://docs.microsoft.com/dynamics365/get-started/accessibility/customer-engagement/accessibility" data-raw-source="[Accessibility features for model-driven apps in Dynamics 365](https://docs.microsoft.com/dynamics365/get-started/accessibility/customer-engagement/accessibility)">Accessibility features for model-driven apps in Dynamics 365</a></li>
+ <li><a href="https://docs.microsoft.com/dynamics365/get-started/gdpr/index" data-raw-source="[Microsoft Dynamics 365 Customer Service and GDPR](https://docs.microsoft.com/dynamics365/get-started/gdpr/index)">Microsoft Dynamics 365 Customer Service and GDPR</a></li>
+</ul>
+</td>
+</tr>
+
+<tr>
+<td><h2>Implementation</h2>
+   <ul>
+  <li><a href="troubleshoot-case-email-issue.md" data-raw-source="[Issue converting an email to a case](troubleshoot-case-email-issue.md)">Issue converting an email to a case</a>
+  <li><a href="troubleshoot-sla-timer-issue.md" data-raw-source="[SLA timer does not pause when its state is changed from InProgress to OnHold on a holiday](troubleshoot-sla-timer-issue.md)">SLA timer does not pause when its state is changed from InProgress to OnHold on a holiday</a>
+</li>
+  <li><a href="troubleshoot-delete-managed-solution.md" data-raw-source="[Unable to delete a managed solution consisting an SLA enabled entity](troubleshoot-delete-managed-solution.md)">Unable to delete a managed solution consisting of an SLA-enabled entity</a></li>
+  </ul><br/>  </td>
+
+<td><h2>Customize</h2>
+   <ul>
+  <li><a href="create-design-forms-customer-service-hub.md" data-raw-source="[Create and design forms for Customer Service Hub](create-design-forms-customer-service-hub.md)">Create and design forms for Customer Service Hub</a>
+</li>
+   <li><a href="add-knowledge-base-search-control-forms.md" data-raw-source="[Add the Knowledge Base Search control to forms](add-knowledge-base-search-control-forms.md)">Add the Knowledge Base Search control to forms</a></li>
+
+<li><a href="configure-interactive-dashboards-customer-service-hub.md" data-raw-source="[Configure interactive dashboards in the Customer Service Hub](configure-interactive-dashboards-customer-service-hub.md)">Configure interactive dashboards in the Customer Service Hub</a></li>
+</ul>
+</td>
+</tr>
+
+<tr>
+<td><h2>FAQs</h2>
+<ul>
+<li><a href="email-faqs.md" data-raw-source="[Email FAQs](email-faqs.md)">Email FAQs</a></li>
+<li><a href="migrate-tool-faqs.md" data-raw-source="[Migration Tool FAQs](migrate-tool-faqs.md)">Migration Tool FAQs</a></li>
+<li><a href="https://docs.microsoft.com/dynamics365/omnichannel/faqs" data-raw-source="[Omnichannel for Customer Service FAQs](https://docs.microsoft.com/dynamics365/omnichannel/faqs)">Omnichannel for Customer Service FAQs</a></li>
+<li><a href="service-scheduling-faq.md" data-raw-source="[Service Scheduling FAQs](service-scheduling-faq.md)">Service Scheduling FAQ</a></li>
+<li><a href="timeline-faqs.md" data-raw-source="[Timeline FAQs](timeline-faqs.md)">Timeline FAQs</a></li>
+</ul>
+</td>
+
+<td><h2>Developer guide</h2>
+<ul>
+<li><a href="migrate-service-activity-org-service.md" data-raw-source="[Sample: Migrate Service Activity entity](migrate-service-activity-org-service.md)">Migrate Service Activity entity</a></li>
+
+  </ul>  </td>
+</tr>
+
+
+<tr>
+<td><h2>Blogs</h2>
+<ul>
+<li><a href="https://blogs.msdn.microsoft.com/crm/2018/12/21/improve-knowledge-article-search-results-with-dynamics-365-relevance-search/" data-raw-source="[Improve Knowledge Article search results with Dynamics 365 Relevance Search](https://blogs.msdn.microsoft.com/crm/2018/12/21/improve-knowledge-article-search-results-with-dynamics-365-relevance-search/)">Improve Knowledge Article search results with Dynamics 365 Relevance Search</a></li>
+<li><a href="https://blogs.msdn.microsoft.com/crm/2018/11/22/get-started-with-dynamics-365-service-scheduling/" data-raw-source="[Get started with Dynamics 365 Customer Service Service Scheduling](https://blogs.msdn.microsoft.com/crm/2018/11/22/get-started-with-dynamics-365-service-scheduling/)">Get started with Dynamics 365 Customer Service Service Scheduling</a></li>
+</ul>
+</td>
+
+<td>
+<h2>Related apps & framework</h2>
+
+<li><a href="https://docs.microsoft.com/dynamics365/omnichannel/omnichannel-customer-service-guide" data-raw-source="[Omnichannel for Customer Service Guide](https://docs.microsoft.com/dynamics365/omnichannel/omnichannel-customer-service-guide)">Omnichannel for Customer Service Guide</a></li>
+<li><a href="https://docs.microsoft.com/dynamics365/unified-service-desk/unified-service-desk" data-raw-source="[Unified Service Desk Guide](https://docs.microsoft.com/dynamics365/unified-service-desk/unified-service-desk)">Unified Service Desk Guide</a></li>
+<li><a href="https://docs.microsoft.com/dynamics365/customer-service/channel-integration-framework/channel-integration-framework" data-raw-source="[Dynamics 365 Channel Integration Framework Guide](https://docs.microsoft.com/dynamics365/customer-service/channel-integration-framework/channel-integration-framework)">Dynamics 365 Channel Integration Framework Guide</a></li>
+
+</td>
+
+</tr>
+</table>
