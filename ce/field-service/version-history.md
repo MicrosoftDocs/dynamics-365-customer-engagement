@@ -45,26 +45,26 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 |<strong>Station 1</strong> | | |  | |
 | | <i>First Release</i> | [8.8.31.60](https://docs.microsoft.com/dynamics365/field-service/version-history#883160) | TBD | 11/20/2020
 |<strong>Station 2</strong> | | |  | |
-| | <i>South America</i> | [8.8.31.60](https://docs.microsoft.com/dynamics365/field-service/version-history#883160) | TBD | 11/27/2020
-| | <i>Canada</i> | [8.8.31.60](https://docs.microsoft.com/dynamics365/field-service/version-history#883160) | TBD | 11/27/2020
-| | <i>India</i> | [8.8.31.60](https://docs.microsoft.com/dynamics365/field-service/version-history#883160) | TBD | 11/27/2020
-| | <i>France</i> | [8.8.31.60](https://docs.microsoft.com/dynamics365/field-service/version-history#883160) | TBD | 11/27/2020
-| | <i>United Arab Emirates</i> | [8.8.31.60](https://docs.microsoft.com/dynamics365/field-service/version-history#883160) | TBD | 11/27/2020
-| | <i>South Africa</i> | [8.8.31.60](https://docs.microsoft.com/dynamics365/field-service/version-history#883160) | TBD | 11/27/2020
-| | <i>Germany</i> | [8.8.31.60](https://docs.microsoft.com/dynamics365/field-service/version-history#883160) | TBD | 11/27/2020
+| | <i>South America</i> | [8.8.31.60](https://docs.microsoft.com/dynamics365/field-service/version-history#883160) | TBD | 12/04/2020
+| | <i>Canada</i> | [8.8.31.60](https://docs.microsoft.com/dynamics365/field-service/version-history#883160) | TBD | 12/04/2020
+| | <i>India</i> | [8.8.31.60](https://docs.microsoft.com/dynamics365/field-service/version-history#883160) | TBD | 12/04/2020
+| | <i>France</i> | [8.8.31.60](https://docs.microsoft.com/dynamics365/field-service/version-history#883160) | TBD | 12/04/2020
+| | <i>United Arab Emirates</i> | [8.8.31.60](https://docs.microsoft.com/dynamics365/field-service/version-history#883160) | TBD | 12/04/2020
+| | <i>South Africa</i> | [8.8.31.60](https://docs.microsoft.com/dynamics365/field-service/version-history#883160) | TBD | 12/04/2020
+| | <i>Germany</i> | [8.8.31.60](https://docs.microsoft.com/dynamics365/field-service/version-history#883160) | TBD | 12/04/2020
 |<strong>Station 3</strong> | |  |  | |
 | | <i>Japan</i> |  [8.8.31.60](https://docs.microsoft.com/dynamics365/field-service/version-history#883160) | TBD | 12/11/2020
 | | <i>Asia Pacific</i> | [8.8.31.60](https://docs.microsoft.com/dynamics365/field-service/version-history#883160) | TBD | 12/11/2020
 | | <i>Great Britain</i> | [8.8.31.60](https://docs.microsoft.com/dynamics365/field-service/version-history#883160) | TBD | 12/11/2020
 | | <i>Oceana</i> | [8.8.31.60](https://docs.microsoft.com/dynamics365/field-service/version-history#883160) | TBD | 12/11/2020
 |<strong>Station 4</strong> | |  |  | |
-| | <i>Europe</i> | [8.8.30.113](https://docs.microsoft.com/dynamics365/field-service/version-history#8830113) | [8.8.31.60](https://docs.microsoft.com/dynamics365/field-service/version-history#883160) | 11/13/2020
+| | <i>Europe</i> | [8.8.31.60](https://docs.microsoft.com/dynamics365/field-service/version-history#883160) | TBD | 12/18/2020
 |<strong>Station 5</strong> | |  |  | |
 | | <i>North America</i> | [8.8.30.113](https://docs.microsoft.com/dynamics365/field-service/version-history#8830113) | [8.8.31.60](https://docs.microsoft.com/dynamics365/field-service/version-history#883160) | 11/20/2020
 |<strong>Station 6</strong> | |  |  | |
 | | <i>Government Community Cloud</i> |  [8.8.30.113](https://docs.microsoft.com/dynamics365/field-service/version-history#8830113) | [8.8.31.60](https://docs.microsoft.com/dynamics365/field-service/version-history#883160) | 11/20/2020
 | | <i>China</i> | [8.8.30.113](https://docs.microsoft.com/dynamics365/field-service/version-history#8830113) | [8.8.31.60](https://docs.microsoft.com/dynamics365/field-service/version-history#883160) | 11/20/2020
-| | <i>Dedicated Scale Groups</i> | [8.8.30.113](https://docs.microsoft.com/dynamics365/field-service/version-history#8830113) | [8.8.31.60](https://docs.microsoft.com/dynamics365/field-service/version-history#883160) | 11/27/2020
+| | <i>Dedicated Scale Groups</i> | [8.8.30.113](https://docs.microsoft.com/dynamics365/field-service/version-history#8830113) | [8.8.31.60](https://docs.microsoft.com/dynamics365/field-service/version-history#883160) | 12/04/2020
 
 >[!Note]
 > - Dates in all regions except Government Community Cloud (GCC) and China indicate the timing of the next automatic update. Dates in GCC and China indicate version availability; at this time, there is no automatic update for the GCC and China regions.
