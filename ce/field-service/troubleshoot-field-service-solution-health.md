@@ -363,15 +363,15 @@ Severity: Low
 
 #### What it checks
 
-Verifies if auto-numbering is opted in for the org. We recommend customers use the new auto-numbering functionality to ensure uniqueness in numbering of Field Service tables.
+Verifies if autonumbering is opted in for the org. We recommend customers use the new autonumbering functionality to ensure uniqueness in numbering of Field Service tables.
 
 #### Why it fails
 
-Fails if auto-numbering is not opted-in for the org.
+Fails if autonumbering is not opted-in for the org.
 
 #### How to fix
 
-Opt into auto-numbering.
+Opt into autonumbering.
 
 ### Verify Field Service and Project Service Automation solutions are compatible
 
@@ -419,7 +419,7 @@ Fails if there are workflow instances in the suspended state with the reason of 
 
 #### How to fix
 
-Re-trigger the workflow. Refer to general documentation or contact support.
+Retrigger the workflow. Refer to general documentation or contact support.
 
 ## View health check results
 
