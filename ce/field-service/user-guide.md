@@ -186,26 +186,13 @@ Before we begin, here are the top places for information about Field Service:
 The purpose of this section is to help you set up a Field Service environment.
 
    <ul>
-<li><a href="customer-service-hub-user-guide-basics.md" data-raw-source="[Learn the basics](customer-service-hub-user-guide-basics.md)">Learn the basics of the Customer Service Hub</a></li>
-   <li><a href="customer-service-hub-user-guide-case-sla.md" data-raw-source="[Create and manage cases](customer-service-hub-user-guide-case-sla.md)">Create and manage cases</a></li>
-  <li><a href="customer-service-hub-user-guide-dashboard.md" data-raw-source="[Work with dashboards](customer-service-hub-user-guide-dashboard.md)">Work with dashboards</a></li>
-  <li><a href="customer-service-hub-user-guide-knowledge-article.md" data-raw-source="[Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)">Create and manage knowledge articles</a></li>
+<li><a href="install-field-service.md" data-raw-source="[Install Field Service (web + mobile)](install-field-service.md)">Install Field Service (web + mobile)</a></li>
+   <li><a href="view-user-accounts-security-roles.md" data-raw-source="[Setup Users and Security roles](view-user-accounts-security-roles.md)">Setup Users and Security roles</a></li>
+  <li><a href="perform-initial-configurations-setup.md" data-raw-source="[Perform initial configurations](perform-initial-configurations-setup.md)">Perform initial configurations</a></li>
+  <li><a href="set-up-bookable-resources.md" data-raw-source="[Set up bookable resources](set-up-bookable-resources.md)">Set up bookable resources</a></li>
+  <li><a href="mobile-power-app-get-started.md" data-raw-source="[Get started with Microsoft Dynamics 365 Field Service mobile app](mobile-power-app-get-started.md)">Get started with Microsoft Dynamics 365 Field Service mobile app</a></li>
   </ul>
   </td>
-
-
-- [Install Field Service (web + mobile)](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/install-field-service)
-
-- [Setup Users and Security roles](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/view-user-accounts-security-roles)
-
-- [Perform initial configurations](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup)
-
-- [Set up bookable resources](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/set-up-bookable-resources)
-
-- [Get started with Microsoft Dynamics 365 Field Service Mobile](https://docs.microsoft.com/learn/modules/implement-get-started-with-microsoft-dynamics-365-for-field-service-mobile/)
-
-
-
 
 
 <tr>
