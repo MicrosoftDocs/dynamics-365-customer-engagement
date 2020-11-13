@@ -41,7 +41,7 @@ The customizations.xml file that is exported as part of an unmanaged solution ca
   
  You can also use one of the community-developed site map editors, such as the [XrmToolBox Site Map Editor](https://www.xrmtoolbox.com/plugins/MsCrmTools.SiteMapEditor/).   
   
- For more information, see [Change Application Navigation using the SiteMap](/developer/customize-dev/change-application-navigation-using-sitemap.md)  
+ For more information, see [Change Application Navigation using the SiteMap](change-application-navigation-using-sitemap.md)  
   
  **Editing FormXml**  
  FormXml is used to define entity forms and dashboards. The form editor and dashboard designer in the application are the most commonly used tools for this purpose. Editing the customizations.xml file is an alternative method. For more information, see [Customize Entity Forms in Microsoft Dynamics 365 Customer Engagement](customize-entity-forms.md) and [Create a Dashboard](create-dashboard.md).  
