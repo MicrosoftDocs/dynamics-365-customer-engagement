@@ -4,7 +4,7 @@ description: "Learn about the Unified Interface Page hosted control type to load
 author: v-sailab
 ms.author: v-sailab
 manager: shujoshi
-ms.date: 02/17/2020
+ms.date: 11/12/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 search.audienceType: 
@@ -164,7 +164,15 @@ Alternatively, the data can be passed as an encoded string with its header type 
 <td>header</td>
 <td>A string value that contains additional HTTP headers to send to the server. When the postdata parameter is used in the Navigate action, you should also specify an appropriate value for the header parameter. Example: Content-Type:application/x-www-form-urlencoded<br />
 <br />
-If a Unified Service Desk POST event triggers the Navigate action, the default value of this parameter should be header=[[header]+]</td>
+If a Unified Service Desk POST event triggers the Navigate action, the default value of this parameter should be header=[[header]+]<br />
+<br />
+To add multiple headers, the value of this parameter should be:<br />
+<br />
+<code>header=$Multiline(</code>headers separated by newline<code>)</code> <br /> 
+<br />
+Example: <code>header=$Multiline(accessToken;dummyAccessToken==</code><br />
+<br />
+<code>refreshToken;dummyRefreshToken===)</code></td>
 </tr>
 </tbody>
 </table>
