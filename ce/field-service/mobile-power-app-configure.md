@@ -198,7 +198,7 @@ Go to **Properties** and add the offline profile you just published if it is not
 > ![Screenshot of the app designer, on the Field Service Mobile properties tab.](./media/mobile-2020-add-offline-profiles.png)
 
 > [!Note]
-> Field Service customers can create additional Offline Profiles to enable scenarios where different user roles have different sync settings or entities available to them. For example, a Field Service manager may require seeing a broader scope of work orders which may not be assigned to the current operator of the mobile application. If you create a new offline profile, you'll need to add it to the Field Service Mobile app in the app designer as well.
+> Field Service customers can create additional offline profiles to enable scenarios where different user roles have different sync settings or entities available to them. For example, a Field Service manager may require seeing a broader scope of work orders that may not be assigned to the current operator of the mobile app. If you create a new offline profile, you'll need to add it to the Field Service Mobile app in the app designer as well.
 
 ## Push notifications
 
@@ -206,10 +206,10 @@ In the Field Service (Dynamics 365) mobile app, push notifications allow you to 
 
 Push notifications can be used to:
 
-- notify technicians they have been assigned a booking
-- remind technicians to enter important business data
+- Notify technicians they have been assigned a booking.
+- Remind technicians to enter important business data.
 
-Refer to the [Power Apps mobile push notification documentation](https://docs.microsoft.com/powerapps/mobile/power-apps-mobile-notification) for more details.
+For more information, see the [Power Apps mobile push notification documentation](https://docs.microsoft.com/powerapps/mobile/power-apps-mobile-notification).
 
 ## Offline JavaScript
 
