@@ -116,7 +116,7 @@ You don’t have enough privileges for **Forecast Configuration** entity to view
 
 **Resolution**
 
-To resolve this error, your security role must at least have **Read** privileges to the **Forecast Configuration** entity. Follow these steps:  
+To resolve this error, your administrator must provide read privileges on **Forecast Configuration** entity to your security role. Follow these steps:  
 1. Go to **Advanced settings**, and then select **Settings** > **Security** > **Security Roles**.   
 2. Select the security role for which you want to apply the privileges.  
 3. On the security role page, select **Custom Entities** tab and go to **Forecast Configuration** row.   
