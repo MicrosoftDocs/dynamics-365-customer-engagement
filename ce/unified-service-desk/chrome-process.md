@@ -148,7 +148,7 @@ Let us see what configurations you need to create for the above-mentioned scenar
 
 1. Go to **Settings** > **Unified Service Desk** > **Hosted Controls**.
 
-2. Select **+ New**.
+2. Select **New**.
 
 3. Add the following details and save the hosted control.
 
@@ -164,7 +164,7 @@ Let us see what configurations you need to create for the above-mentioned scenar
 
 1. Go to  **Settings** > **Unified Service Desk** > **Action Calls**.
 
-2. Select **+ New**.
+2. Select **New**.
 
 3. Add the following details and save the action call.
 
@@ -190,7 +190,7 @@ Let us see what configurations you need to create for the above-mentioned scenar
 
 1. Go to **Settings** > **Unified Service Desk** > **Action Calls**.
 
-2. Select **+ New**.
+2. Select **New**.
 
 3. Add the following details and save the action call.
 
@@ -251,7 +251,7 @@ Agents in your organization require webcam and microphone access according to yo
 
  2. Go to **Settings** > **Unified Service Desk** > **Options**.
 
- 3. On the Active UII Options page, select **+ New**. 
+ 3. On the Active UII Options page, select **New**. 
  
  4. Choose **Others** for the **Global Option** field.
 
@@ -289,7 +289,7 @@ Also, within Unified Service Desk client application, you can debug a Chrome Pro
 
 2. Go to **Settings** > **Unified Service Desk** > **Options**.
 
-3. On the Active UII Options page, select **+ New**. 
+3. On the Active UII Options page, select **New**. 
 
 4. Choose **Others** for the **Global Option** field.
 
@@ -309,7 +309,7 @@ If ***onbeforeunload*** event handlers are set for the page loaded in the hosted
 
 2. Go to **Settings** > **Unified Service Desk** > **Options**.
 
-3. On the Active UII Options page, select **+ New**. 
+3. On the Active UII Options page, select **New**. 
 
 4. Choose **Others** for the **Global Option** field.
 
@@ -330,7 +330,7 @@ The confirmation dialog box is displayed, if this UII option is added or the val
 
 2. Go to **Settings** > **Unified Service Desk** > **Options**.
 
-3. On the Active UII Options page, select **+ New**. 
+3. On the Active UII Options page, select **New**. 
 
 4. Choose **Others** for the **Global Option** field.
 
@@ -372,7 +372,7 @@ To update additional the keyboard shortcuts, you must add the UII options and pr
 
 2. Go to **Settings** > **Unified Service Desk** > **Options**.
 
-3. On the Active UII Options page, select **+ New**. 
+3. On the Active UII Options page, select **New**. 
 
 4. Choose **Others** for the **Global Option** field.
 
@@ -408,7 +408,7 @@ Example path: `C:\Program Files\Microsoft Dynamics CRM USD\USD`
 
 2. Go to **Settings** > **Unified Service Desk** > **Options**.
 
-3. On the Active UII Options page, select **+ New**. 
+3. On the Active UII Options page, select **New**. 
 
 4. Choose **Others** for the **Global Option** field.
 
@@ -434,7 +434,7 @@ If you leave the value blank or set the value as **False**, then Chrome Process 
 
 2. Go to **Settings** > **Unified Service Desk** > **Options**.
 
-3. On the Active UII Options page, select **+ New**. 
+3. On the Active UII Options page, select **New**. 
 
 4. Choose **Others** for the **Global Option** field.
 
@@ -444,7 +444,7 @@ If you leave the value blank or set the value as **False**, then Chrome Process 
 
 ## Accessibility support with Chrome Process
 
-When you use Chrome Process to host web application in Unified Service Desk, to enable accessibility support for the webpages, the **ChromeAccessibilityRenderer** is introduced. This option enables accessibility support for the webpages and ensures the screen reader applications read the webpage. CEF mandates the **force-renderer-accessiiity** setting to be enabled when a screen reader is detected. The **force-renderer-accessiiity** setting is applied, if the UII option is not added or the value is set to **True**, and not applied if the value is set to **False**.
+When you use Chrome Process to host web application in Unified Service Desk, to enable accessibility support for the web pages, the **ChromeAccessibilityRenderer** is introduced. This option enables accessibility support for the web pages so that the screen reader applications can read the web page. CEF mandates the **force-renderer-accessiiity** setting to be enabled when a screen reader is detected. The **force-renderer-accessiiity** setting is applied, if the UII option is not added or the value is set to **True**, and not applied if the value is set to **False**.
 
 After adding the UII option, if you set to false or leave the value empty, the UII option is disabled.
 
@@ -454,7 +454,7 @@ After adding the UII option, if you set to false or leave the value empty, the U
 
 2. Go to **Settings** > **Unified Service Desk** > **Options**.
 
-3. On the Active UII Options page, select **+ New**. 
+3. On the Active UII Options page, select **New**. 
 
 4. Choose **Others** for the **Global Option** field.
 
@@ -464,7 +464,7 @@ After adding the UII option, if you set to false or leave the value empty, the U
 
 ## Set focus on webpage when using Chrome Process
 
-When using Chrome Process to host web applications in Unified Service Desk, if you want to set the focus on the webpage automatically, then you must create an action call with action as **RunScript** and **Data** with a JavaScript function - `window.top.USDChromeSetFocus()`. After you create the action call, add it to the **PageReady** event in case of **Unified Interface Page** and the **BrowserDocumentComplete** event in case of the **CRM Page** hosted control.
+When using Chrome Process to host web applications in Unified Service Desk, if you want to set the focus on the web page automatically, then you must create an action call with action as **RunScript** and **Data** with a JavaScript function - `window.top.USDChromeSetFocus()`. After you create the action call, add it to the **PageReady** event in case of **Unified Interface Page** and the **BrowserDocumentComplete** event in case of the **CRM Page** hosted control.
 
 ## Handle URI protocol in Chrome Process
 
@@ -484,7 +484,7 @@ To create a Window Navigation Rule, follow the steps:
 
 4. Select **Window Navigation Rules** under **Basic Settings**.
 
-5. Select **+ New** in the **Active Window Navigation Rules** page.
+5. Select **New** in the **Active Window Navigation Rules** page.
 
 6. Specify the following values on the **New Window Navigation Rules** page.
 
@@ -525,7 +525,7 @@ You must generate the reports when you want to investigate the Chrome Process cr
 
 
 ## Add parameters using Chrome Process
-Chrome Process is an open source which provides many options that can be used on the chrome process web pages within Unified Service Desk. ` ChromeProcessParameters ` option helps to add those parameters. The format to add the parameters is:` --force-ui-direction:rtl;--force-text-direction:rtl;--log-level:3 `, and they are separated by a semicolon. For more information on parameters, see [Chromium command line switches](https://go.microsoft.com/fwlink/p/?linkid=2149189).
+The Chrome Process provides many options that can be used on the chrome process web pages within Unified Service Desk. The  ` ChromeProcessParameters ` option helps to add the parameters. The format to add the parameters is:` --force-ui-direction:rtl;--force-text-direction:rtl;--log-level:3 `, and they are separated by a semicolon. For more information on the list of parameters, see [Chromium command line switches](https://go.microsoft.com/fwlink/p/?linkid=2149189).
 
 ### Add the ChromeProcessParameters UII option
 
@@ -556,13 +556,13 @@ When you use the property on the Unified Service Desk predefined events, the pro
 
 When you use Chrome Process to host web applications in Unified Service Desk and select a file attachment, by design, Chrome Process prompts you to save the file to a local folder. After saving the file, you can open to view it.
 
-As an admin, **ChromeProcessDownloadPath** UII option enables you to set the default folder to save the attachments while using the chrome process pages, for example, C:\Users\*<user_name>*\Desktop\USD patch docs. The Chrome Process prompts you to save the file to a local folder:
+As an admin, the **ChromeProcessDownloadPath** UII option enables you to set the default folder to save the attachments while using the chrome process pages, for example, C:\Users\*<user_name>*\Desktop\USD patch docs. The Chrome Process prompts you to save the file to a local folder:
 
 * If the field value is empty.
 
-* If the path provided is not a valid directory.
+* If the path provided is not a valid folder.
 
-* If the path selected do not have write permission.
+* If you do not have write permissions to the selected path.
 
 
 ### Add the ChromeProcessDownloadPath UII option
@@ -582,6 +582,7 @@ As an admin, **ChromeProcessDownloadPath** UII option enables you to set the def
 7. Set **True** for the **Value** field.
 
 8. Select **Save**.
+
 
 ## Limitations
 

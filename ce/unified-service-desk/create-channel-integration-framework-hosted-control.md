@@ -25,7 +25,7 @@ The topic demonstrates how to create Channel Integration Framework type of hoste
 
 ## Enable encoding and escaping of special characters
 
-When the channel provider widget passes the data with special characters to Unified Service Desk client application, then the special characters causes the Channel Integration Framework API calls to fail and the data will not be passed to Unified Service Desk client application.
+If the channel provider widget passes the data with special characters to Unified Service Desk client application, then the special characters causes the Channel Integration Framework API calls to fail and the data will not be passed to Unified Service Desk client application.
 
 To pass the data with special characters, use the **EscapeCharacters** UII option. This option is used for encoding and escaping of special characters when Channel Integration Framework API calls are invoked within Unified Service Desk. Encoding and escaping of characters is enabled, if this UII option is not added or the value is set as **True**. If this UII option is explicitly set as **False**, then encoding and escaping of characters is disabled.
 
@@ -56,7 +56,7 @@ To pass the data with special characters, use the **EscapeCharacters** UII optio
 
 3. Select the **Unified Service Desk Administrator** app.
 
-4. On the **Active Hosted Control** page, choose **+ New**.
+4. On the **Active Hosted Control** page, choose **New**.
 
 5. One the **New Hosted Controls** page, enter the following details.
 
