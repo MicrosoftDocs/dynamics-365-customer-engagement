@@ -583,7 +583,6 @@ As an admin, **ChromeProcessDownloadPath** UII option enables you to set the def
 
 8. Select **Save**.
 
-
 ## Limitations
 
 To learn about the limitations of the Chrome Process, see [Chrome Process limitations](release-notes.md)

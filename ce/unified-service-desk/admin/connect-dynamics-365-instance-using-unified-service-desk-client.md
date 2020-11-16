@@ -96,6 +96,7 @@ To change the value, configure the **SingleSignOnThreshold** UII option and ente
 
 After you set up the above mentioned UII options, the SSO feature is enabled. While signing in to the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application, you've to enter the credentials only once.
 
+
 ### Enable or disable single sign-on
 
 To enable the SSO feature, you must the configure the **SingleSignOnEnabledBrowsers** UII option and set it to **True**. If you leave the value bank, then the SSO is still enabled. To disable the SSO feature, set the value as **False**.

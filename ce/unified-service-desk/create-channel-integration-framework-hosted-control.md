@@ -29,7 +29,6 @@ When the channel provider widget passes the data with special characters to Unif
 
 To pass the data with special characters, use the **EscapeCharacters** UII option. This option is used for encoding and escaping of special characters when Channel Integration Framework API calls are invoked within Unified Service Desk. Encoding and escaping of characters is enabled, if this UII option is not added or the value is set as **True**. If this UII option is explicitly set as **False**, then encoding and escaping of characters is disabled.
 
-
 ### Add the **EscapeCharacters** UII option
 
 1. Sign in to the Common Data Service platform.
