@@ -33,6 +33,7 @@ Before you configure outbound messaging, make sure that the following prerequisi
 - You must have the channel provisioned in your environment. For information, see [Provision Omnichannel for Customer Service](omnichannel-provision-license.md).
 - To send outbound messages through SMS, you must configure the SMS channel using an account with an SMS provider, either Twilio or TeleSign. 
 - To send outbound messages through WhatsApp, you must [configure the WhatsApp channel](configure-whatsapp-channel.md) using a Twilio account.
+- To send outbound messages through Twitter, you must [configure a Twitter Direct Message channel](configure-twitter-channel.md). 
 - You must have a Power Automate account.
 
 After completing the prerequisites, you can send outbound messages from your organization by following these steps:
@@ -49,7 +50,7 @@ After completing the prerequisites, you can send outbound messages from your org
 
 3. Create a template for your outbound message.
     
-    - [Create a template (SMS)](create-message-templates.md) 
+    - [Create a template (SMS, Twitter)](create-message-templates.md) 
     - [Create a template (WhatsApp)](configure-whatsapp-channel.md#modify-settings-for-a-specific-whatsapp-phone-number)
 
 ## Step 2: Set up outbound configuration
@@ -62,7 +63,7 @@ After completing the prerequisites, you can send outbound messages from your org
     |---------------------|--------------------------------------|
     | Name                | Case create message                  |
     | Show in timeline    | Yes                                  |
-    | Channel type        | SMS or WhatsApp                                 |
+    | Channel type        | SMS, Twitter, or WhatsApp                           |
     | Channel             | (the preconfigured channel number)   |
     | Message template    | (your previously created template)   |
 
