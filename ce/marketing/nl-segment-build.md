@@ -32,6 +32,9 @@ search.app:
 > [!NOTE]
 > You will need your administrator to [turn on the feature switch](admin-feature-switches.md) for the **Segmentation Natural Language Queries** functionality under **Segmentation** before you are able to access it.
 
+> [!IMPORTANT]
+> The the natural language feature for segments currently only supports English language queries.
+
 If your administrator has enabled the natural language feature, you can use Natural Language Understanding (NLU) to build segments in Dynamics 365 Marketing. Natural language input enables you to use common words and phrases to describe the people you want to include in dynamic and static segments without learning all the specifics of the Common Data Model (CDM) and best practices for building queries.
 
 Using the instructions in [Working with segments](segmentation-lists-subscriptions.md), type and submit a statement, and the service will fill the query fields using information collected from your contacts, accounts, leads, and activities.

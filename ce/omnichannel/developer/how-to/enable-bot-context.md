@@ -4,7 +4,7 @@ description: "Enable a bot to understand context while authoring a bot flow"
 author: platkat
 ms.author: ktaylor
 manager: shujoshi
-ms.date: 10/05/2020
+ms.date: 10/09/2020
 ms.topic: reference
 ms.service: dynamics-365-customerservice
 ms.reviewer: nenellim
@@ -14,6 +14,8 @@ ms.reviewer: nenellim
 [!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
 As a bot author, you can enable your Azure bot to understand context while authoring a bot flow. Bot context includes context name-value pairs for the current conversation and custom context passed by API programmatically. The Azure bot can transfer the context to Omnichannel for Customer Service by setting context name-value pairs and then display conversation context to an agent.
+
+When customers initiate a conversation, the relevant context that is related to the customer, the issue they are facing, and recent activities performed by them can be made available for the bot to intelligently provide contextual responses to resolve customer issues in a quick and efficient manner. For example, the bot can use the signed-in user details to look up the recent case information or order history of the customer and provide a response. Similarly, the pre-conversation information, custom context, or recent pages browsed on a website by the customer can be passed on to the bot by configuring context variables for the Azure bot. For information on context variables that can be configured, see [Context variables for bots](../../administrator/context-variables-for-bot.md).
 
 ## Install the bot SDK in your project
 
@@ -45,8 +47,8 @@ Use this procedure if you have created your bot using Visual Studio Azure Bot te
 
     ![Add import statement](../../media/bot-context-add-import.png "Add import statement")
 
-
 ### See also
 
 [Manage custom context](send-context-starting-chat.md)<br />
-[setContextProvider](../reference/methods/setContextProvider.md)
+[setContextProvider](../reference/methods/setContextProvider.md)  
+[Integrate an Azure bot](../../administrator/configure-bot.md)  

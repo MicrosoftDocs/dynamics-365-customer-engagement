@@ -154,7 +154,7 @@ When a text element is selected, you are able to enter and style text within tha
 
 Most of the standard navigation and selection keyboard commands also work when you are designing a customer journey or lead scoring model. In addition, some special assistance is provided to let you work with the tiles and arrange them on the canvas.
 
-![An example of a customer journey](media/customer-journey-full2.png "An example of a customer journey")
+![An example of a customer journey](media/customer-journey-full.png "An example of a customer journey")
 
 <a name="canvas-tabs"></a>
 

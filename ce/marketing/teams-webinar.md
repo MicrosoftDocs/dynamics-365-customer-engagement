@@ -55,14 +55,14 @@ Live events are useful for conference keynotes or meetings where a few presenter
 
 #### Live event settings
 
-![Teams live event settings](media/teams-webinar-live-event-settings.png "Teams live event settings")
+> [!div class="mx-imgBorder"]
+> ![Teams live event settings](./media/teams-webinar-live-event-settings2.png)
 
 | Setting                                         | Description                                                                                        |
 |-------------------------------------------------|----------------------------------------------------------------------------------------------------|
-| Recording available to producers and presenters | A downloadable recording will be made available to producers for 180 days after the event is over. |
 | Recording available to attendees                | Attendees can watch the event on demand using DVR options for 180 days.                            |
-| Attendee engagement report                      | You can download a report that tracks attendee participation.                                      |
-| Q&A                                             | Attendees can interact with producers and presenters in a moderated Q&A.                           |
+| Do you want to enable Q/A for this event                                             | Attendees can interact with producers and presenters in a moderated Q&A.                           |
+| Attendee URL                      | The URL that attendees will use to join the live event.                                      |
 
 More information on details and settings for Teams live events: [Schedule a Teams live event](https://support.microsoft.com/office/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2)
 
