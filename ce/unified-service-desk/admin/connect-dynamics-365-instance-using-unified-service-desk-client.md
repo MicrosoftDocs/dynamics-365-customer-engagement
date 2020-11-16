@@ -4,7 +4,7 @@ description: "Learn how to connect to the Unified Service Desk solution using th
 author: v-sailab
 ms.author: v-sailab
 manager: shujoshi
-ms.date: 11/12/2020
+ms.date: 11/16/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -98,8 +98,7 @@ After you set up the above mentioned UII options, the SSO feature is enabled. Wh
 
 ### Enable or disable single sign-on
 
-To disable the SSO feature, you must the configure the **SingleSignOnEnabledBrowsers** UII option and set it to **False**. If you leave the value bank, then the SSO is still enabled.
-Again, when you want to enable the SSO feature, set the value as **Chrome**.
+To enable the SSO feature, you must the configure the **SingleSignOnEnabledBrowsers** UII option and set it to **True**. If you leave the value bank, then the SSO is still enabled. To disable the SSO feature, set the value as **False**.
 
 To enable/disable the SSO feature, follow the steps:
 

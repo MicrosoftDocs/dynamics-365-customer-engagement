@@ -4,7 +4,7 @@ description: "Learn about the Chrome Process hosting method for your controls in
 author: v-sailab
 ms.author: v-sailab
 manager: shujoshi
-ms.date: 11/12/2020
+ms.date: 11/16/2020
 ms.topic: "article"
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -301,9 +301,7 @@ Also, within Unified Service Desk client application, you can debug a Chrome Pro
 
 While using Chrome Process to host web applications in Unified Service Desk if you accidentally close any application, even though the application has a close confirmation dialog, the dialog is not shown for your confirmation and the application closes. To avoid closing the application accidentally, **OnBeforeCloseHandler** UII option is introduced. 
 
-When you enable this UII option and while using Chrome Process to host web applications in Unified Service Desk if you close any application and if the application has a close confirmation dialog, then Chrome Process shows a JavaScript confirmation dialog for you to take an action. The message appears as - **Is it OK to leave/reload the page?**. Select **OK** to close or **Cancel** to stay on the Chrome Process application.
-
-To enable close confirmation dialog, you must add the **OnBeforeCloseHandler** UII option. If ***onbeforeunload*** event handlers are set for the page loaded in the hosted control, then ***onbeforeunload*** event handlers are called if this UII option is set to **True**. If the UII option is set to **False**, then the event handlers are not called.
+If ***onbeforeunload*** event handlers are set for the page loaded in the hosted control, then ***onbeforeunload*** event handlers are called if this UII option is set to **True**. If the UII option is set to **False**, then the event handlers are not called.
 
 ### Add the OnBeforeCloseHandler UII option
 
@@ -527,7 +525,7 @@ You must generate the reports when you want to investigate the Chrome Process cr
 
 
 ## Add parameters using Chrome Process
-Chrome Process is an open source which provides many options that can be used on the chrome process web pages within Unified Service Desk. ` ChromeProcessParameters ` option helps to add those parameters, example:` --force-ui-direction:rtl;--force-text-direction:rtl;--log-level:3 `
+Chrome Process is an open source which provides many options that can be used on the chrome process web pages within Unified Service Desk. ` ChromeProcessParameters ` option helps to add those parameters. The format to add the parameters is:` --force-ui-direction:rtl;--force-text-direction:rtl;--log-level:3 `, and they are separated by a semicolon. For more information on parameters, see.
 
 ### Add the ChromeProcessParameters UII option
 
@@ -547,6 +545,7 @@ Chrome Process is an open source which provides many options that can be used on
 
 8. Select **Save**.
 
+
 ## Use window.IsUSD property to invoke Unified Service Desk event
 
 With Chrome Process, if you use the `window.IsUSD` property in your JavaScript code, you must use it on the predefined events like **pageReady** and **BrowserDocumentComplete** to determine whether the JavaScript code is running under Unified Service Desk or not.
@@ -557,14 +556,32 @@ When you use the property on the Unified Service Desk predefined events, the pro
 
 When you use Chrome Process to host web applications in Unified Service Desk and select a file attachment, by design, Chrome Process prompts you to save the file to a local folder. After saving the file, you can open to view it.
 
-As an admin, this option enables you to set the default folder to save the attachments while using the chrome process pages. The Chrome Process prompts you to save the file to a local folder:
+As an admin, **ChromeProcessDownloadPath** UII option enables you to set the default folder to save the attachments while using the chrome process pages, for example, C:\Users\*<user_name>*\Desktop\USD patch docs. The Chrome Process prompts you to save the file to a local folder:
 
 * If the field value is empty.
 
 * If the path provided is not a valid directory.
 
-* If you do not have write permission.
+* If the path selected do not have write permission.
 
+
+### Add the ChromeProcessDownloadPath UII option
+
+1. Sign in to the Common Data Service platform.
+
+2. Go to **Settings** > **Unified Service Desk**.
+
+3. Choose **Options**.
+
+4. Select **New** on the **Active UII Options** page.
+
+5. Choose **Others** for the **Global Option** field.
+
+6. Type **ChromeProcessDownloadPath** for the **Name** field.
+
+7. Set **True** for the **Value** field.
+
+8. Select **Save**.
 
 
 ## Limitations
