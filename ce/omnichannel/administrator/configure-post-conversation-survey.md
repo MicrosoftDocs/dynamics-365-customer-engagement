@@ -78,19 +78,15 @@ You can set up surveys when configuring a channel or update an existing channel 
 
 ## Run time experience of post-conversation surveys
 
-When a conversation ends, a pre-designed survey is sent to the customer. This survey allows you to track and analyse service feedback and experience as a key metric for the service delivered. Any conversation can be considered as closed when one of the following scenarios happen.
+If the post-conversation survey is enabled for a conversation, after the conversation ends, the pre-designed survey is sent to the customer. This survey allows you to keep a track of the customer's feedback of the service. Any conversation can be considered as closed when one of the following scenarios happen.
 
-+ Agent ends the chat conversation
-+ Customer ends the chat conversation
-+ Auto closure of the conversation
++ Agent closes the chat conversation
++ Customer closes the chat conversation
++ System closes the chat conversation after a pre-defined time.
 
-When a conversation comes to an end, the customer receives a feedback that they can respond to. Customers can typically receive survey links in two ways.
+While you are configuring your surveys, you can choose what kind of survey you want to send to your customers. Customers can typically receive survey questions within the same conversation or through a link that takes them to an external site.
 
-+ Embedded survey mode: You can configure embedded survey mode only for live chats. This allows you to embed the survey directly to the conversation.
-+ Link survey mode: This allows you to get a detailed feedback from the customer, since it allows customers to take the survey whenever they want to. You can also set a pre-defined message as a trigger for the survey link to be sent to the customer.
 
-While you are configuring your surveys, you can choose what kind of survey you want to send to your customers. See: Configure a post conversation survey
-<!-- Meghana- Is it a good idea to link to the configure section? -->
 
 > [!NOTE]
 > The surveys that you create and survey data that is processed are not hosted or stored in Omnichannel for Customer Service.
