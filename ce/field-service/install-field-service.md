@@ -58,11 +58,11 @@ Next, set up the mobile app that technicians will use to view and complete work 
 
 ## Next steps
 
-After installing Field Service and the Field Service mobile app, view the following topics to configure the system to create, schedule, view, and complete work orders.
+After installing Field Service and the Field Service mobile app, see the following articles to configure the system to create, schedule, view, and complete work orders.
 
 - [Perform initial configurations](perform-initial-configurations-setup.md)
 - [Set up users and security roles](../field-service/view-user-accounts-security-roles.md)
-- [Create a Bookable Resource](set-up-bookable-resources.md)
+- [Create a bookable resource](set-up-bookable-resources.md)
 - [Quickstart: Schedule a work order and view it on the mobile application](quickstart-schedule-work-order.md)
 
 

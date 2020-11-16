@@ -123,6 +123,7 @@
 #### [Quickly design and deliver marketing emails with "send now"](email-send-now.md)
 #### [Check your spam score](spam-checker.md)
 #### [Design and run A/B tests on your email designs](email-a-b-testing.md)
+#### [Disable auto-adjustment of HTML](email-postprocessing.md)
 
 ### Marketing pages and forms
 #### [Create and deploy marketing pages](create-deploy-marketing-pages.md)
@@ -156,12 +157,12 @@
 
 ### Customer journey orchestration
 #### [Create automated campaigns with customer journeys](customer-journeys-create-automated-campaigns.md)
+#### [Customer journey tiles reference](customer-journey-tiles-reference.md)
 #### [Export to Excel for further analysis](export-journey.md)
 #### [Set expiration dates for emails](email-expire.md)
 #### [Use automated scheduling to help improve email engagement](automated-scheduler.md)
 #### [Create and manage customer journey templates](journey-templates.md)
 #### [Create an inbound customer journey](create-inbound-customer-journey.md)
-#### [Customer journey tiles reference](customer-journey-tiles-reference.md)
 #### [Create activity templates](activity-templates.md)
 
 ### Lead generation and management
