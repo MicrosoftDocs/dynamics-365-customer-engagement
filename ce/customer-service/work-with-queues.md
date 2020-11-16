@@ -21,6 +21,9 @@ Use the view list and queue list to filter and find items in queues.
 
    ![Queues view list](media/queues_view_list.png "Customer Service Hub Queues View List") 
 
+3. From the **All items** drop-down, click the pin icon to pin the view that you want to appear on your dashboard.
+
+
 ## Find all items in queues
 
 1. To see all cases from a selected queue, in the view list, select **All Items in Selected Queues**.
