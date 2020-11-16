@@ -4,7 +4,7 @@ description: "Learn how to create a Channel Integration Framework hosted control
 author: v-sailab
 ms.author: v-sailab
 manager: shujoshi
-ms.date: 04/10/2019
+ms.date: 11/16/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -22,6 +22,32 @@ monikerRange: '>= dynamics-usd-4.1'
 
 The topic demonstrates how to create Channel Integration Framework type of hosted control.
 
+
+## Enable encoding and escaping of special characters
+
+If the channel provider widget passes the data with special characters to Unified Service Desk client application, then the special characters causes the Channel Integration Framework API calls to fail and the data will not be passed to Unified Service Desk client application.
+
+To pass the data with special characters, use the **EscapeCharacters** UII option. This option is used for encoding and escaping of special characters when Channel Integration Framework API calls are invoked within Unified Service Desk. Encoding and escaping of characters is enabled, if this UII option is not added or the value is set as **True**. If this UII option is explicitly set as **False**, then encoding and escaping of characters is disabled.
+
+### Add the **EscapeCharacters** UII option
+
+1. Sign in to the Common Data Service platform.
+
+2. Go to **Settings** > **Unified Service Desk**.
+
+3. Choose **Options**.
+
+4. Select **New** on the **Active UII Options** page.
+
+5. Choose **Others** for the **Global Option** field.
+
+6. Type **EscapeCharacters** for the **Name** field.
+
+7. Set **True** for the **Value** field.
+
+8. Select **Save**.
+
+
 ## Create hosted control
 
 1. Sign in to the Common Data Service platform.  
@@ -30,7 +56,7 @@ The topic demonstrates how to create Channel Integration Framework type of hoste
 
 3. Select the **Unified Service Desk Administrator** app.
 
-4. On the **Active Hosted Control** page, choose **+ New**.
+4. On the **Active Hosted Control** page, choose **New**.
 
 5. One the **New Hosted Controls** page, enter the following details.
 
