@@ -51,16 +51,14 @@ By default, when you open a forecast, no drill-down choice is selected and the i
 
 ## View and understand the drill-down data
 
-After you've selected a drill-down category, the icon for each row is active and the data is grouped according to the drill-down selection. 
-
-For example, select the drill-down option as Account and the data in the forecast is grouped according to the accounts that are associated with the opportunities. Here we want to view the contribution of each account to the value of each category of **Kenny Smith**. 
-
-Select the drill-down icon corresponding to **Kenny Smith**. All the accounts with values that are contributing to Kenny's forecast are displayed. 
-
+After you've selected a drill-down category, the icon for each row is active and the data is grouped according to the drill-down selection.    
+>[!NOTE]
+>If you are unable to view the drill-down data, see [Unable to view drill down data in a forecast grid](ts-forecasts.md#unable-to-view-drill-down-data-in-a-forecast-grid).  
+For example, select the drill-down option as Account and the data in the forecast is grouped according to the accounts that are associated with the opportunities. Here we want to view the contribution of each account to the value of each category of **Kenny Smith**.   
+Select the drill-down icon corresponding to **Kenny Smith**. All the accounts with values that are contributing to Kenny's forecast are displayed.    
 For simple column types such as **Quota**, the values are displayed as **Not applicable** because these values are uploaded manually to forecast. Also, for the **Prediction** column, the values are displayed as **Not applicable** because the prediction values aren't based on a drill-down entity.
 
-At the bottom of the table, a **blank** row is created with values for the opportunities that aren't related to any account.
- 
+At the bottom of the table, a **blank** row is created with values for the opportunities that aren't related to any account.    
 > [!div class="mx-imgBorder"]
 > ![View account drill-down details](media/forecast-drill-down-account-drill-down.png "View account drill-down details")
 
@@ -68,8 +66,7 @@ At the bottom of the table, a **blank** row is created with values for the oppor
 >- In the example, you can observe that the sum of all accounts' drill-down data matches the forecast data. If the data doesn't match, it might be that the forecast data is old. Drill-down is always calculated on live data. Select **Recalculate** to get the latest forecasting data to match with the drill-down data. More information: [Maintain up-to-date forecast data](keep-forecast-data-up-to-date.md)
 >- The forecast and drill-down data are independently calculated based on the configurations. Hence, the forecast and drill-down data might not always match. For example, in a product-based forecast, the sum of product revenue might not match the sum of opportunity values because there might be some opportunities that aren't associated with products. If you drill down the data based on products, only the associated Opportunity products will be aggregated for drill down, whereas the forecast displays the sum of all opportunities' data.
  
-To view the opportunities that are affecting the forecast values of an account, do one of the following:
-
+To view the opportunities that are affecting the forecast values of an account, do one of the following:   
 -	Select an account row to show all opportunities, regardless of forecast category.
 -	Select a cell in an account row to show only the opportunities that affect the roll-up column value.
 
