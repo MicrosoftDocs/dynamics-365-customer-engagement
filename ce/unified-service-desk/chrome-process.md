@@ -525,7 +525,7 @@ You must generate the reports when you want to investigate the Chrome Process cr
 
 
 ## Add parameters using Chrome Process
-Chrome Process is an open source which provides many options that can be used on the chrome process web pages within Unified Service Desk. ` ChromeProcessParameters ` option helps to add those parameters. The format to add the parameters is:` --force-ui-direction:rtl;--force-text-direction:rtl;--log-level:3 `, and they are separated by a semicolon. For more information on parameters, see.
+Chrome Process is an open source which provides many options that can be used on the chrome process web pages within Unified Service Desk. ` ChromeProcessParameters ` option helps to add those parameters. The format to add the parameters is:` --force-ui-direction:rtl;--force-text-direction:rtl;--log-level:3 `, and they are separated by a semicolon. For more information on parameters, see [Chromium command line switches](https://go.microsoft.com/fwlink/p/?linkid=2149189).
 
 ### Add the ChromeProcessParameters UII option
 
