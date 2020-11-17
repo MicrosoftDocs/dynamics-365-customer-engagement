@@ -26,7 +26,7 @@ To create a message template:
 
 4. Enter a name.
 
-5. Select a channel (SMS only in this preview).
+5. Select a channel (SMS or Twitter).
 
 6. Enter a description.
 

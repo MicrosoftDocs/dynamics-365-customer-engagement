@@ -4,7 +4,7 @@ description: FAQs for AI suggestions for cases and knowledge articles in Dynamic
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/15/2020
+ms.date: 11/17/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -30,6 +30,10 @@ It may be caused by one of the following reasons:
 - The case title or description is not clear enough to describe the problem, therefore, the model can't find articles or similar cases that match what's described.
 - Only English content is supported. For knowledge articles, the locale must be English.
 - To see suggestions, User Interface Language must be set to English in users' personalization settings.
+
+## I get an error message in Suggestions settings page, “We couldn’t pre-process the case records or knowledge articles”. What should I do?
+
+Check if all the [prerequisites](csw-enable-ai-suggested-cases-knowledge-articles.md#prerequisites) have been met for generating the models. Particularly, make sure all required [workflow processes](csw-enable-ai-suggested-cases-knowledge-articles.md#workflow-processes) installed with the feature are activated. If everything is correctly enabled but the error message still appears on the settings page the next day, contact Microsoft Support.
 
 ## I've added more details about the problem in an active case, but the suggestions are not refreshed at all
 
