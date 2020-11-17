@@ -31,7 +31,14 @@ search.app:
 
 ## Field Service version
 
-- **Field Service v8.8.22+**. The Field Service (Dynamics 365) mobile app will appear in your list of Dynamics 365 applications as "Field Service Mobile".
+**Field Service v8.8.22+**
+
+After installing or upgrading to **Field Service v8.8.22+**, the "Field Service" and "Field Service Mobile" apps will appear in the list of apps when you log in. You can find these apps by going to:
+
+```https://[your-environment-name].crm.dynamics.com/apps```
+   
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Field Service apps](media/admin-apps.png)
 
 ## Mobile device - supported platforms
 
