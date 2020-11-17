@@ -1,5 +1,5 @@
 ---
-title: "Configure the Field Service (Dynamics 365) mobile app | MicrosoftDocs"
+title: "Edit the Field Service (Dynamics 365) mobile app SiteMap, forms, and views | MicrosoftDocs"
 description: Learn how to configure the Field Service (Dynamics 365) mobile app.
 ms.custom: 
   - dyn365-fieldservice
@@ -27,7 +27,7 @@ search.app:
   - D365FS
 ---
 
-# Configure the Field Service (Dynamics 365) mobile app
+# Edit the SiteMap (home screen), forms, and views
 
 Administrators can edit how the Field Service (Dynamics 365) mobile app looks and functions for technicians.
 

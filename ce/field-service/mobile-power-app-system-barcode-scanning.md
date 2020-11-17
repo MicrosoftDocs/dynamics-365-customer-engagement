@@ -29,8 +29,15 @@ search.app:
 
 # Barcode scanning and global search
 
+> [!div class="mx-imgBorder"]
+> ![Simulated image showing four mobile devices in different stages of the barcode scan process.](./media/mobile-2020-global-search-use.png)
+
 ## Customize global search and enable scan to search 
 
 By default, Dynamics 365 Field Service is configured to search against account, contact, user, and activity. You can customize global search to include additional entities, such as customer asset and product, which helps technicians search, find by keyword, and scan to search by barcode, UPC, or QR code.
 
 For more information, see: [How to Setup Global Search](https://community.dynamics.com/crm/b/xrm/posts/how-to-set-up-global-search-in-microsoft-dynamics-365)
+
+After enabling global search, ensure there is a barcode field on the entity you wish to search via barcode scan. A common example is adding a barcode field to the Customer Asset form. 
+
+See the following video for more details [Use and configure the Dynamics 365 Field Service mobile app](https://youtu.be/tcDt_vJ5csI?t=479). 

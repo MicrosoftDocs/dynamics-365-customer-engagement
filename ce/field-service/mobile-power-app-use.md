@@ -37,6 +37,10 @@ Available natively for Apple iOS and Google Android phones and tablets, the Fiel
 - Customer signature capture.
 - Offline capabilities so technicians can continue viewing and recording work in areas without internet.
 
+
+> [!div class="mx-imgBorder"]
+> ![Simulated image of the Field Service (Dynamics 365) mobile app on a phone and a tablet.](./media/mobile-2020-tablet-website.png)
+
 ## Sign in
 
 Upon sign-in, the app will download important Field Service information as defined by system administrators. 

@@ -29,7 +29,7 @@ search.app:
 
 ## System requirements to use the Field Service (Dynamics 365) mobile app
 
-## Field Service version
+## Field Service requirements
 
 **Field Service v8.8.22+**
 

@@ -43,10 +43,13 @@ For a guided walkthrough, check out the following video.
 
 ## Prerequisites
 
-After installing Field Service, view the following topics to configure the system to create, schedule, view, and complete work orders.
+To use the Field Service (Dynamics 365) mobile app you must have Dynamics 365 Field Service installed and set up. 
 
-- [Perform initial configurations](perform-initial-configurations-setup.md)
+View the following topics first:
+
+- [How to install Dynamics 365 Field Service](install-field-service.md)
 - [Set up users and security roles](../field-service/view-user-accounts-security-roles.md)
+- [Perform initial configurations](perform-initial-configurations-setup.md)
 - [Create a Bookable Resource](set-up-bookable-resources.md)
 
 
