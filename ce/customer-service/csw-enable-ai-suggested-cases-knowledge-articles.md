@@ -109,7 +109,7 @@ The **Model pre-processing status** area displays the following metadata pertain
 
 ### Workflow processes
 
-The AI model and AI configuration entities uses the following workflow processes. Make sure these processes are in the activated status. By default, these processes are activated:
+The AI model and AI configuration entities use the following workflow processes. Make sure these processes are in the activated status. By default, these processes are activated:
 
 - IsPaiEnabled
 - Predict
