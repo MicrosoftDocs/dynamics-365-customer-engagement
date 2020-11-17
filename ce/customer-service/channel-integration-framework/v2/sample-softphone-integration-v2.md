@@ -65,7 +65,10 @@ ms.custom:
 
    | Field | Description |
    |-------|-------|
-   |Unique Name|Unique name of the channel provider.<br><br> Example: Contoso|
+   |Name|Name of the channel provider.<br><br> Example: Contoso|
+   |Unique Name|A unique identifier in the *<prefix>_<name>* format. **Important** The following are required for the unique name:
+   - The prefeix can only be alphanumeric and its length must be between 3 to 8 characters.
+   - An underscore must be there between the prefix and name.
    |Label|The label is displayed as the title on the widget.<br><br> Example: Contoso|
    |Channel URL| The channel URL is in the format: `<azure_app_service_url>?base=<crm_base_url>`<br /><br />**Note:** For this sample, the URL is `https://sampleinteg.azurewebsites.net?base=https://sampleorg.crm10.dynamics.com`. |
    |Enable Outbound Communication| Yes |
