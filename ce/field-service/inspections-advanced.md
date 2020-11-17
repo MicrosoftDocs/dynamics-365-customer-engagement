@@ -29,6 +29,8 @@ search.app:
 
 # Advanced options for inspections in Dynamics 365 Field Service
 
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 In this article, we'll take a look at more advanced scenarios for using inspections in Dynamics 365 Field Service. For general information about inspections, see [this article on inspections](inspections.md).
 
 ## Inspections for customer assets

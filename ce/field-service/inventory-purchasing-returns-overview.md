@@ -28,6 +28,8 @@ search.app:
 
 # Overview of inventory, purchasing, and returns
 
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 Dynamics 365 Field Service inventory capabilities include:
 
 - Warehousing
