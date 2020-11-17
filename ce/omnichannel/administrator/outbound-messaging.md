@@ -112,10 +112,10 @@ To set up a Power Automate flow, complete the following steps.
     > [!div class=mx-imgBorder]
     > ![Outbound message flow append variable](../media/outbound-message-flow2.png "Outbound message flow append variable")
    
-    - You must define any slugs used in your outbound message here. You can define any CDS entity to be used as a slug. Once defined they can be added to the message. Slugs not defined here will not resolve. Sample message based on above flow config: “Dear {CustomerName}, we have opened case {CaseName} for you to track your enquiry. Thank you!”
-    - The message language is determined by the numerical locale id as set as “locale”: 1033, English-United States, in the above example. To enable dynamic message languages, this variable must be replaced by a locale entity reference, e.g. preferred customer language, in contact information.
+    - You must define any slugs used in your outbound message here. You can define any Common Data Service entity to be used as a slug. Once defined they can be added to the message. Slugs not defined here will not resolve. Sample message based on above flow config: “Dear {CustomerName}, we have opened case {CaseName} for you to track your inquiry. Thank you!”
+    - The message language is determined by the numerical locale id as set as “locale”: 1033, English-United States, in the example. To enable dynamic message languages, this variable must be replaced by a locale entity reference, such as preferred customer language, in contact information.
    
-5. You must also refer to the outbound message configuration ID from Omnichannel Administration app. This will reference the correct outbound configuration for a given flow run.
+5. You must also refer to the outbound message configuration ID from Omnichannel Administration app. This will reference the correct outbound configuration for a flow run.
     
     > [!div class=mx-imgBorder]
     > ![Outbound message configuration ID](../media/outbound-message-flow-config.png "Outbound message configuration ID")
@@ -123,7 +123,7 @@ To set up a Power Automate flow, complete the following steps.
 When the customer responds back to the outbound messages, the customer messages will be treated like any other incoming conversation that exists today in Omnichannel for Customer Service. The conversation will be routed and assigned to an agent, and the agent will be able to respond back to the customer.
 
 > [!NOTE]
-> Outbound messaging imposes limits of 100 contacts per request and 30,000 requests per org per hour. It is recommended to implement batch processing logic in flows limiting contacts per request to 100 where higher loads are expected. This is mostly applicable to instant and scheduled type flows.
+> Outbound messaging imposes limits of 100 contacts per request and 30,000 requests per org per hour. We recommend that you implement batch processing logic in flows to limit contacts per request to 100 where higher loads are expected. This is mostly applicable to instant and scheduled type flows.
 
 ### Video
 
