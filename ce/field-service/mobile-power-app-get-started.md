@@ -43,24 +43,35 @@ For a guided walkthrough, check out the following video.
 
 ## Prerequisites
 
+After installing Field Service, view the following topics to configure the system to create, schedule, view, and complete work orders.
+
+- [Perform initial configurations](perform-initial-configurations-setup.md)
+- [Set up users and security roles](../field-service/view-user-accounts-security-roles.md)
+- [Create a Bookable Resource](set-up-bookable-resources.md)
+
+
+## Install or upgrade Field Service
+
 - **Field Service v8.8.22+**. The Field Service (Dynamics 365) mobile app will appear in your list of Dynamics 365 applications as "Field Service Mobile".
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Dynamics 365 list of apps, showing the Field Service Mobile solution in the list.](./media/mobile-2020-admin-assign-role-app.png)
 
+## Assign mobile app users appropriate security roles
+
 - Select the ellipses icon on the **Field Service Mobile** application, then choose **Manage Roles** and assign the app to the **Field Service-Resource**, **Field Service-Administrator**, and other relevant roles that will need access to the mobile app.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the Dynamics 365 list of apps, showing the Field Service Mobile solution in the list.](./media/mobile-2020-admin-assign-role-app.png)
+
+## Assign security roles to the Field Service Mobile app
 
 - Set up a Dynamics 365 Field Service user with the **Field Service-Resource** security role. This user will sign in to the Field Service (Dynamics 365) mobile app as a technician.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Manage Roles dialogue in Dynamics 365.](./media/mobile-2020-resource-security-role.png)
 
-- To view work orders on the mobile app, you must also [create a bookable resource](./set-up-bookable-resources.md) related to your technician user and schedule work orders to the bookable resource.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the schedule board, showing a list of unscheduled work orders.](./media/mobile-2020-scheduled-work-orders.png)
-
-## Install and sign into the Field Service (Dynamics 365) mobile app
+## Download app and sign in
 
 Go to the app store on your iOS or Android device and search for **Dynamics 365 Field Service**.
 
@@ -76,12 +87,15 @@ Launch the app and sign in with your username and password, which should be the 
 
 
 
+## (Optional) Schedule a work order
 
-### Next steps
+- To view work orders on the mobile app, you must also [create a bookable resource](./set-up-bookable-resources.md) related to your technician user and schedule work orders to the bookable resource.
 
-After installing Field Service and the Field Service mobile app, view the following topics to configure the system to create, schedule, view, and complete work orders.
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the schedule board, showing a list of unscheduled work orders.](./media/mobile-2020-scheduled-work-orders.png)
 
-- [Perform initial configurations](perform-initial-configurations-setup.md)
-- [Set up users and security roles](../field-service/view-user-accounts-security-roles.md)
-- [Create a Bookable Resource](set-up-bookable-resources.md)
+
+
+## Next steps
+
 - [Quickstart: Schedule a work order and view it on the mobile application](quickstart-schedule-work-order.md)
