@@ -39,14 +39,14 @@ HAVE THE RIGHTS BELOW. BY USING THE SOFTWARE, YOU ACCEPT THESE TERMS.
 >   features to enable data collection in your applications, you must comply
 >   with applicable law, including providing appropriate notices to users of
 >   your applications. You can learn more about data collection and use in the
->   help documentation and the privacy statement at <https://aka.ms/privacy>.
+>   help documentation and the privacy statement at <https://go.microsoft.com/fwlink/?LinkId=521839>.
 >   Your use of the software operates as your consent to these practices.
 >
 >   **b) Processing of Personal Data**. To the extent Microsoft is a processor
 >   or subprocessor of personal data in connection with the software, Microsoft
 >   makes the commitments in the European Union General Data Protection
 >   Regulation Terms of the Online Services Terms to all customers effective May
->   25, 2018, at <https://docs.microsoft.com/en-us/legal/gdpr>.
+>   25, 2018, at <https://go.microsoft.com/fwlink/?LinkId=2147654>.
 
 **3. SCOPE OF LICENSE**. The software is licensed, not sold. Microsoft reserves
 all other rights. Unless applicable law gives you more rights despite this
@@ -73,7 +73,7 @@ limitation, you will not (and have no right to):
 **4. EXPORT RESTRICTIONS**. You must comply with all domestic and international
 export laws and regulations that apply to the software, which include
 restrictions on destinations, end users, and end use. For further information on
-export restrictions, visit <https://aka.ms/exporting>.
+export restrictions, visit <https://go.microsoft.com/fwlink/?LinkId=2147444>.
 
 **5. SUPPORT SERVICES**. Microsoft is not obligated under this agreement to
 provide any support services for the software. Any support provided is “as is”,
