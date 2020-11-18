@@ -40,3 +40,48 @@ For more information, see: [How to Setup Global Search](https://community.dynami
 After enabling global search, ensure there is a barcode field on the entity you wish to search via barcode scan. A common example is adding a barcode field to the Customer Asset form. 
 
 See the following video for more details [Use and configure the Dynamics 365 Field Service mobile app](https://youtu.be/tcDt_vJ5csI?t=479). 
+
+
+Field Service Mobile provides you with the capability of using barcode scanning to read barcodes to fill in value for fields or do a search.
+
+For using the barcode scanning feature,
+
+please follow the below steps:
+
+1. Go to &#39;Field Service mobile&#39; model drive app and select &#39;Open in App Designer&#39;
+
+![](openinappdesigner.png)
+
+1. Go to Edit form and select the form which have the field that you want to utilize for barcode scanning.
+
+![](editform.png)
+
+1. Add a field or select the field that you want to add &#39;Barcode scanning&#39; to
+
+![](addfieldtoform.png)
+
+1. Save and Publish all changes in the form and then &#39;Switch to Classic&#39; view
+
+![](saveandpublish.png) ![](switchtoclassic.png)
+
+1. Select the required field and double click on it
+
+![](findfieldanddoubleclickonit.png)
+
+1. Go to &#39;Controls&#39; tab and click on &#39;Add control&#39;
+
+![](addcontroltofield.png)
+
+1. Select &#39;Barcode scanner&#39; control and add it
+
+![](addbarcodecontrol.png)
+
+1. Enable the control for mobile and tablet, Save and Publish the changes
+
+![](enablefortabandmobile.png) ![](saveandpublish2.png)
+
+1. Now open the App, the form will have the field with the barcode scanner option. Clicking on the Barcode icon will open the camera and read any barcode/QR code.
+
+![](mobilewithfield.png)
+
+The barcode control can be used to read and fill in value to a field or it can be user to setup global search.
