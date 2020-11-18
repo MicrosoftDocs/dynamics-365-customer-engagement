@@ -26,7 +26,7 @@ search.audienceType:
 Microsoft Dynamics 365 Customer Engagement (on-premises) includes reports, charts, and dashboards that provide useful business information and visualizations to the user.  
 
 > [!NOTE]
-> This guide is also applicable for Common Data Service. You can follow the information in this guide to create and edit fetch-based reports that can run in Common Data Service. The following reporting topics are available in the Common Data Service documentation:
+> This guide is also applicable for Dataverse. You can follow the information in this guide to create and edit fetch-based reports that can run in Dataverse. The following reporting topics are available in the Dataverse documentation:
 > - [Add reporting to your model-driven app](/powerapps/maker/model-driven-apps/add-reporting-to-app) 
 > - [Create a report using the Report Wizard](/powerapps/user/create-report-with-wizard)
 > - [Work with reports](/powerapps/user/work-with-reports)

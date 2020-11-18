@@ -29,4 +29,4 @@ Learn about the techniques available to you when developing managed application 
 
 [Developer tools](developer-tools.md)
 
-[Use the Common Data Service Organization Service](/powerapps/developer/common-data-service/org-service/overview)
+[Use the Dataverse Organization Service](/powerapps/developer/common-data-service/org-service/overview)

@@ -22,7 +22,7 @@ search.audienceType:
 
 The Web API can be used with several different programming languages and libraries. The code samples provide a template that you can use to understand how to use the Web API and build upon them as per your requirements.
 
-The Web API samples listed below are now available in the Power Apps documentation under the Common Data Service section.
+The Web API samples listed below are now available in the Power Apps documentation under the Dataverse section.
 
 - [Web API data operations samples](/powerapps/developer/common-data-service/webapi/web-api-samples)<br />
 - [Basic operations](/powerapps/developer/common-data-service/webapi/web-api-basic-operations-sample)<br />
@@ -42,5 +42,5 @@ The following table lists the topics that cover language specific implementation
 ### See also
 
 [What is Power Apps?](/powerapps/powerapps-overview)<br/>
-[What is Common Data Service?](/powerapps/maker/common-data-service/data-platform-intro)<br/>
-[Common Data Service Developer Guide](/powerapps/developer/common-data-service/overview)
+[What is Dataverse?](/powerapps/maker/common-data-service/data-platform-intro)<br/>
+[Dataverse Developer Guide](/powerapps/developer/common-data-service/overview)

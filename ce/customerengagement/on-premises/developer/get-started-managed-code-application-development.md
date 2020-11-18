@@ -26,7 +26,7 @@ This guide shows you how to write application code that connects to the Dynamics
 > [!NOTE]
 > [!INCLUDE[cc-cdsnote-1](./includes/cc-cdsnote-1.md)]
 >
-> Additional Organization service programming documentation that is applicable to Dynamics 365 Customer Engagement (on-premises) users is available in the Common Data Service documentation at: [Use the Common Data Service Organization Service](/powerapps/developer/common-data-service/org-service/overview)
+> Additional Organization service programming documentation that is applicable to Dynamics 365 Customer Engagement (on-premises) users is available in the Dataverse documentation at: [Use the Dataverse Organization Service](/powerapps/developer/common-data-service/org-service/overview)
 >
 > [!INCLUDE[cc-cdsnote-2-section](./includes/cc-cdsnote-2-section.md)]
   

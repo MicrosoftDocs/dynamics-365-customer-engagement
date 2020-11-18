@@ -35,7 +35,7 @@ A plug-in is custom business logic that you can integrate with Customer Engageme
  The following topics describe how to add custom business logic to Dynamics 365 Customer Engagement (on-premises) through the development and registration of plug-ins. For more information about the run-time execution of plug-ins and the plug-in development framework, see [Event Framework](/powerapps/developer/common-data-service/event-framework). 
 
 > [!NOTE]
-> The documentation that follows describes additional options only available in on-premises environments. For general information about writing plug-ins that work for both on-premises and online deployments, read the [Use plug-ins to extend business processes](/powerapps/developer/common-data-service/plug-ins) topic in the Common Data Service documentation.
+> The documentation that follows describes additional options only available in on-premises environments. For general information about writing plug-ins that work for both on-premises and online deployments, read the [Use plug-ins to extend business processes](/powerapps/developer/common-data-service/plug-ins) topic in the Dataverse documentation.
 
 ## In This Section  
 [Plug-in Development](plugin-development.md)
@@ -44,4 +44,4 @@ A plug-in is custom business logic that you can integrate with Customer Engageme
  [Developer Guide for Dynamics 365 Customer Engagement (on-premises)](overview.md)<br />     
  [Write Workflows to Automate Business Processes in Dynamics 365 Customer Engagement (on-premises)](automate-business-processes-customer-engagement.md)<br />     
  [Package and Distribute Extensions with Dynamics 365 Customer Engagement (on-premises) Solutions](package-distribute-extensions-use-solutions.md)<br /> 
- [Use plug-ins to extend business processes in Common Data Service](/powerapps/developer/common-data-service/plug-ins)
+ [Use plug-ins to extend business processes in Dataverse](/powerapps/developer/common-data-service/plug-ins)

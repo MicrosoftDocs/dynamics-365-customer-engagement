@@ -22,7 +22,7 @@ search.audienceType:
 
 You can extend the options available within the workflow designer used in [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. These extensions are made available within the designer by creating and registering an assembly that contains a class that extends the  <xref:System.Activities.CodeActivity> class. These extensions are commonly called workflow assemblies or workflow activities. You can use these custom extensions within the designer used for workflows, custom actions, and dialogs.
 
-The capability to use these custom extensions with [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] (online) is provided by the Common Data Service. For information about creating, deploying, and debugging these extensions see the Common Data Service documentation: [Common Data Service](/powerapps/developer/common-data-service/overview) > [Workflow extensions](/powerapps/developer/common-data-service/workflow/workflow-extensions).
+The capability to use these custom extensions with [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] (online) is provided by the Dataverse. For information about creating, deploying, and debugging these extensions see the Dataverse documentation: [Dataverse](/powerapps/developer/common-data-service/overview) > [Workflow extensions](/powerapps/developer/common-data-service/workflow/workflow-extensions).
 
 The following section applies to Dynamics 365 Customer Engagement (on-premises).
   
