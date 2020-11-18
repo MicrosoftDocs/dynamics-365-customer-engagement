@@ -39,7 +39,7 @@ Here are a few common issues the Solution Health Hub detects:
 
 ## Prerequisites
 
-- Field Service v8.4.0.338+ (UCI) or  v7.5.7.87+ (Web)
+- Field Service v8.4.0.338+ (Unified Interface) or v7.5.7.87+ (Web)
 - The Solution Health Hub extends the [Power Apps checker](https://docs.microsoft.com/powerapps/maker/common-data-service/use-powerapps-checker) to ensure continued healthy operation of an environment. 
 
 > [!Note]
@@ -108,7 +108,7 @@ This rule fails if there is a failing workflow related to an agreement record.
 
 ### How to fix
 
-This rule provides an automated resolution step that can be resolved via the **Resolve** button in the Solution Health Hub form for this rule failure. Alternatively, they can be viewed individiually and resolved using the same steps for the "check failing workflow related to agreement" rule.
+This rule provides an automated resolution step that can be resolved via the **Resolve** button in the Solution Health Hub form for this rule failure. Alternatively, they can be viewed individually and resolved using the same steps for the "check failing workflow related to agreement" rule.
 
 ## Check for removed form libraries
 
