@@ -4,7 +4,7 @@ description: "IOrganizationService is the primary web service that accesses data
 ms.custom: on-premise
 ms.date: 09/05/2019
 ms.reviewer: pehecke
-ms.service: 
+ms.prod: dynamicscrm-2016 
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
