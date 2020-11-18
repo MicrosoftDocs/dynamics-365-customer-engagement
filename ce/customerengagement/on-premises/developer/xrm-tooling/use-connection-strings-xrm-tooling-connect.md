@@ -4,7 +4,7 @@ description: "XRM tooling enables you to connect to your Dynamics 365 Customer E
 ms.custom: 
 ms.date: 10/04/2019
 ms.reviewer: pehecke
-ms.service: 
+ms.prod: dynamicscrm-2016 
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
