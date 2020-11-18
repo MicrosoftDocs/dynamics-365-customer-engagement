@@ -23,7 +23,7 @@ search.audienceType:
 
 Impersonation is used to execute business logic (code) on behalf of another [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] user to provide a desired feature or service using the appropriate role and object-based security of that impersonated user. This is necessary because the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Web services can be called by various clients and services on behalf of a [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] user, for example, in a workflow or custom ISV solution. Impersonation involves two different user accounts: one user account (A) is used when executing code to perform some task on behalf of another user (B).
 
-More information can be found in the Common Data Service topic [Impersonate another user](/powerapps/developer/common-data-service/impersonate-another-user).
+More information can be found in the Dataverse topic [Impersonate another user](/powerapps/developer/common-data-service/impersonate-another-user).
 
 ## Required privileges  
  User account (A) needs the privilege `prvActOnBehalfOfAnotherUser`, which is included in the **Delegate** security role.  

@@ -59,7 +59,7 @@ The *bulk deletion* feature helps you to maintain data quality and manage the co
   
 ## Run bulk delete
 
-To delete data in bulk, you have to submit a bulk delete job by using the BulkDeleteRequest message. The bulk delete job runs asynchronously in the background without blocking other activities. The query expressions that describe the records on which to run the bulk delete job are specified in the QuerySet property of this request. To learn more, see [Running Bulk Delete](/powerapps/developer/common-data-service/delete-data-bulk#run-bulk-delete) in the Common Data Service documentation.
+To delete data in bulk, you have to submit a bulk delete job by using the BulkDeleteRequest message. The bulk delete job runs asynchronously in the background without blocking other activities. The query expressions that describe the records on which to run the bulk delete job are specified in the QuerySet property of this request. To learn more, see [Running Bulk Delete](/powerapps/developer/common-data-service/delete-data-bulk#run-bulk-delete) in the Dataverse documentation.
   
  <!--[BulkDeleteOperation Entity](entities/bulkdeleteoperation.md)  
   
