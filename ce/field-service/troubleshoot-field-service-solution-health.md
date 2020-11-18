@@ -91,9 +91,7 @@ This rule fails if there is a failing workflow related to an agreement record.
 
 #### How to fix
 
-This rule provides an automated resolution step that can be resolved via the **Resolve** button in the Solution Health Hub form.
-
-Message that we sent to customers in the past with language we should recycle about failure impact and mitigation steps: https://microsoft-my.sharepoint.com/:w:/p/jacoh/EW6dv2tgsoZJnNA8ilfMTakB2pXyppzPWQSF67k418GV-g?e=jAsoMO "
+This rule provides an automated resolution step that can be resolved via the **Resolve** button in the Solution Health Hub form for this rule failure. Alternatively, they can be viewed individiually and resolved using the same steps for the "check failing workflow related to agreement" rule.
 
 ### Check for removed form libraries
 
@@ -289,6 +287,9 @@ Detects if there are any forms in the system that are referencing Field Service 
 
 Fails if there are forms where Field Service web resources are used and the execution context attribute is required but not passed to the form. This might happen on custom forms.
 
+> [!Note]
+> The most common scenario where this rule presents a failure is when a copy of our OOTB forms is present (pre FS v8) and then Field Service is upgraded. In such scenarios, these copied forms would be missing the ExecutionContext parameter in these non-OOTB forms.
+
 #### How to fix
 
 Fix the customizations on the forms to include the execution context parameter.
@@ -321,6 +322,9 @@ Checks whether there are any process definitions in draft status. If there are p
 
 Fails if there are process definitions found in the draft state
 
+> [!Note]
+> Field Service Modern Flows can cause failures. This rule was updated to validate based on Enhanced background processing setting in UR 24, in versions prior to UR 24, it may incorrectly fail on Business Process Flow (BPF) type records.
+
 #### How to fix
 
 Reactivate the process definitions so they are not in draft state.
@@ -337,6 +341,9 @@ Checks whether there are any process definitions in the system that are assigned
 
 Fails if there are any process definitions in the system that are assigned to disabled users, which can cause upgrades to fail.
 
+> [!Note]
+> Validates based on the enhanced background processing setting in UR 24
+
 #### How to fix
 
 For workflows: Change the owner of process to an active user.
@@ -352,6 +359,9 @@ Verifies that the current installed version of Field Service is compatible with 
 #### Why it fails
 
 Fails if the Universal Resource Scheduling solution installed in the org is not compatible with the installed version of Field Service. This can happen if another package that contains the Universal Resource Scheduling solution has been installed that updates the version of the Universal Resource Scheduling solution.
+
+> [!Note]
+> The fail status for this rule was changed to "Warning" instead of "Fail" to aling with the low severity for this rule in UR 23 release
 
 #### How to fix
 
