@@ -4,12 +4,10 @@ description: "Learn about the techniques available to you when developing manage
 ms.custom: on-premise
 ms.date: 09/05/2019
 ms.reviewer: pehecke
-ms.service: 
+ms.prod: dynamicscrm-2016 
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: ec4fd484-50e0-44a1-b336-7ff21a7b4054
 caps.latest.revision: 6
 author: JimDaly
