@@ -4,17 +4,14 @@ description: "This guide shows you how to write application code that connects t
 ms.custom: on-premise
 ms.date: 09/05/2019
 ms.reviewer: pehecke
-ms.service: 
+ms.prod: dynamicscrm-2016 
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: fe35e880-9612-4d48-8fbe-2c2237baea32
 caps.latest.revision: 13
 author: JimDaly
 ms.author: jdaly
-manager: amyla
 search.audienceType: 
   - developer
 
