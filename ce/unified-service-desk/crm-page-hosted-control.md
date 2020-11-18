@@ -17,6 +17,9 @@ search.app:
   - D365USD
 ---
 # CRM Page (Hosted Control)
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 Use the **CRM Page** hosted control type to load a URL or page from model-driven apps. When a model-driven apps page is loaded within a hosted control of this type, it will automatically scan the page for data from the entity, and automatically populate the replacement parameters.  
 
  This hosted control type exposes a number of predefined UII actions and events that are unique to handling of windows including list manipulation actions, and a find action for displaying a quick search or advanced search page  

@@ -10,6 +10,9 @@ ms.service: "dynamics-365-customerservice"
 ---
 
 # Learn the basics of the Customer Service Hub
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
   
 The Customer Service Hub's intuitive interface brings together vital information in one place, so you can focus on the things that matter.  
 

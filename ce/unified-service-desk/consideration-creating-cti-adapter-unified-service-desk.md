@@ -17,6 +17,9 @@ search.app:
   - D365USD
 ---
 # Considerations for creating a CTI adapter for Unified Service Desk
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 This topic provides information on things to consider while creating a computer telephony integration (CTI) adapter to make it work with [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  
 
 <a name="UISpec"></a>   

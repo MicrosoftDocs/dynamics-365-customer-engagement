@@ -11,6 +11,8 @@ ms.service: dynamics-365-customerservice
 
 # Use automation dictionary to pass data parameter keys
 
+[!INCLUDE[cc-data-platform-banner](../../../includes/cc-data-platform-banner.md)]
+
 ## Overview
 
 Automation dictionary maintains the contextual data for the sessions. You can use the keys from the automation dictionary to pass the parameter keys in the templates.

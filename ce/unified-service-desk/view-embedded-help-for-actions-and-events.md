@@ -17,6 +17,9 @@ search.app:
   - D365USD
 ---
 # View embedded help for actions and events in Unified Service Desk
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] provides an embedded help on actions and events within the Common Data Service platform.  
   
 <a name="Actions"></a>   
