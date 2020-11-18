@@ -5,7 +5,7 @@ ms.topic: "topic"
 ms.assetid: 676b68d9-2a7b-4924-a5cf-299163e8b5ea
 author: mattp123
 ms.author: matp
-manager: kvivek
+ms.prod: dynamicscrm-2016
 ---
 
 # New features in Dynamics 365 Customer Engagement (on-premises), version 9
