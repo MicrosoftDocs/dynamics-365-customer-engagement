@@ -4,17 +4,11 @@ description: "This SDK contains a wealth of resources, including code samples, w
 ms.custom: 
 ms.date: 04/20/2020
 ms.reviewer: pehecke
-ms.service: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.prod: dynamicscrm-2016 
 ms.topic: article
 ms.assetid: e926cfed-f581-4f1f-83bd-75a06292212b
 author: KumarVivek
 ms.author: kvivek
-manager: annbe
-tags: 
-  - aug2017
-  - MigrationHO
 search.audienceType: 
   - developer
 
