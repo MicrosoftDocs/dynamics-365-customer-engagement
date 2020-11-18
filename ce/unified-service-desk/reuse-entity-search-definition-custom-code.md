@@ -17,6 +17,9 @@ search.app:
   - D365USD
 ---
 # Reuse Entity Search definition in your custom code
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 Entity search in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] is exposed as a service for developers so that they can programmatically use an existing entity search definition in their custom code to search the Common Data Service platform data. Entity searches in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] use FetchXML to query the Common Data Service platform web services to return data. For information about defining entity searches, see [Search data using entity searches in Unified Service Desk](../unified-service-desk/search-data-entity-searches.md).  
   
  When you set up an entity search, you can choose whether to return an entire search result set or page the FetchXML results for large datasets by using a paging cookie for faster performance. For more information about using paging cookie with FetchXML, see [Page large result sets with FetchXML](https://msdn.microsoft.com/library/gg309717.aspx).  

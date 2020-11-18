@@ -17,6 +17,9 @@ search.app:
   - D365USD
 ---
 # Create a custom panel layout
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 Panel layouts in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] are hosted controls, which provide the ability to load all sorts of different layouts in the system. [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] provides some predefined panel layouts for you to use in your agent application. For more information, see [Panel layouts](../unified-service-desk/panels-panel-types-panel-layouts.md#PanelLayouts).  
   
  [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] also lets you create user defined or custom panel layouts where you lay out the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] panel types as per your requirement, and enhance the experience with [code-behind XAML](https://msdn.microsoft.com/library/vstudio/aa970568\(v=vs.110\).aspx). the Common Data Service platform provides a Visual Studio project template for creating user-defined panel layouts with code-behind support.  

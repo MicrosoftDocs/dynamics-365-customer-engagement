@@ -17,6 +17,9 @@ search.app:
   - D365USD
 ---
 # Recover an Internet Explorer process instance
+
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] can help agents to recover the terminated (crashed) webpages hosted in Internet Explorer process in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].
 
 By default, Internet Explorer process instance recovery is enabled. To disable the feature, a system administrator must configure the `IEWebPageRecovery` option on the **Active UII Options** page, and set it to **false**. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage a Unified Service Desk option](../admin/manage-options-unified-service-desk.md)

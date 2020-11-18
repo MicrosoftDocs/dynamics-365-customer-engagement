@@ -15,6 +15,8 @@ search.app:
 ---
 # Walkthrough: Configure [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]
 
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 This walkthrough demonstrates how to configure and setup [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] in your agent application.
 
 ![Generate Best Practices Analyzer report](../media/bpa-report-generation-new.gif "Generate Best Practices Analyzer report")

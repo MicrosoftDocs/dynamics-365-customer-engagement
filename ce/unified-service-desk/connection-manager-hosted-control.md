@@ -17,6 +17,9 @@ search.app:
   - D365USD
 ---
 # Connection Manager (Hosted Control)
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 The **Connection Manager** hosted control type manages connections to the Common Data Service platform, and makes it available to the rest of the agent application. An instance of this hosted control is required by [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], and only a single instance of this hosted control type must exist in your agent application.  
   
 > [!IMPORTANT]

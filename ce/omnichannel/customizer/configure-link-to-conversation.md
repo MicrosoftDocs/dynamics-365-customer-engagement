@@ -11,6 +11,8 @@ ms.service: dynamics-365-customerservice
 
 # Configure link to conversation button in Unified Service Desk
 
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 You accept a conversation request and there is no record in the Omnichannel application linked to this conversation. Now, you create the contact or account record, and you want to link the record to the conversation. This topic describes, as a system customizer, how to configure the link to conversation button for agents using Omnichannel app in Unified Service Desk to link the records.

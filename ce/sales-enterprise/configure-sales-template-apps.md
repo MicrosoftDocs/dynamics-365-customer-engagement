@@ -12,6 +12,8 @@ manager: shujoshi
 
 # Configure Power BI template apps to work with Dynamics 365 Sales
 
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 You must perform the following steps to configure Sales Analytics for Dynamics 365 Sales or Process Analytics for Dynamics 365:
 
 1. [Review the prerequisites](#step-1-review-prerequisites).

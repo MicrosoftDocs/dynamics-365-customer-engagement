@@ -17,6 +17,9 @@ search.app:
   - D365USD
 ---
 # Session Timer (Custom Hosted Control)
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 In [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], the session timer (`Timer`) hosted control displays the elapsed time in seconds since a session was started, and uses different colors to specify the threshold time limits.  
   
  The `Timer` hosted control isn’t one of the predefined hosted controls; it’s a custom control that is available when you deploy one of the sample [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] applications on your Common Data Service platform instance. The `Timer` hosted control is displayed in the status panel of your client application whenever a session is started.  

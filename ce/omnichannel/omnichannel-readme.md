@@ -11,6 +11,8 @@ ms.service: "dynamics-365-customerservice"
 
 # Omnichannel for Customer Service readme (known issues and limitations)
 
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 The topic explains the known issues and limitations of Omnichannel for Customer Service.

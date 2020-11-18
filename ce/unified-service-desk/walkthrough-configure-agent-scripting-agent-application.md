@@ -17,6 +17,9 @@ search.app:
   - D365USD
 ---
 # Walkthrough 7: Configure agent scripting in your agent application
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] helps to guide your agents during customer interaction. This walkthrough demonstrates how to create a simple agent script that helps the agents quickly create a new case for an account or browse existing cases from the agent application. The agent script created in this walkthrough is invoked when the agent pulls up an account record to view, which is displayed in a session in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client. The script provides the following three options:  
 
 -   Create a case for the current account  

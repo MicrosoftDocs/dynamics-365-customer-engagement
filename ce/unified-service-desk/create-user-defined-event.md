@@ -17,6 +17,9 @@ search.app:
   - D365USD
 ---
 # Create a user-defined event
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] provides you with predefined events for hosted controls based on the type of the hosted control. Apart from these predefined events, you can also create your own events in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], which are called user-defined events. You can use the **FireEvent** action or the event moniker to run user-defined events.  
 
 <a name="FireEvent"></a>   

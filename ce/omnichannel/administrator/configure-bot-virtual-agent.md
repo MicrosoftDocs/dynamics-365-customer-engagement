@@ -12,6 +12,8 @@ ms.reviewer: nenellim
 
 # Integrate a Power Virtual Agents bot
 
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 Microsoft Power Virtual Agents allows organizations to automate routine conversations, letting agents focus on high-value interactions. When a conversation is escalated from a bot to a human agent, agents can see the full transcript of bot conversations and have complete context while engaging with customers.

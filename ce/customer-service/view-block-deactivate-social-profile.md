@@ -20,6 +20,8 @@ search.app:
 
 # View, block, or deactivate a social profile in social care sample application
 
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 Track the high influencers and the customers for your business, and save them as contacts in Dynamics 365 Customer Service with their social profile information. You may want to get in touch with these resources later for marketing or brand-building purposes.  
   
  With the social care sample application, you can create a social profile and a corresponding contact automatically every time you create a case. You can also create social profiles for the authors of the posts who have a large number of followers or likes. These  social profiles can be viewed in the **Services** area. If a social profile exists for the author of the post, a new profile is not created.  
