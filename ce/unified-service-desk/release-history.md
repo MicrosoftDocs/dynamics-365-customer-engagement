@@ -4,7 +4,7 @@ description: "This topic provides release history information for the Unified Se
 author: v-sailab
 ms.author: v-sailab
 manager: shujoshi
-ms.date: 02/17/2020
+ms.date: 11/18/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -23,6 +23,29 @@ This is the release history page for the [!INCLUDE[pn_unified_service_desk](../i
 ::: moniker range="dynamics-usd-4.1"
 
 <a name="Release_4_1_2"></a>
+
+## Release history for Unified Service Desk 4.1.1.1429, November 2020
+
+The list provides an overview of documentation updates made in Unified Service Desk 4.1.1.1429
+
+> [!NOTE]
+> - If your organization is using any version of the Unified Service Desk 4.1 client application, then you need to uninstall that version and install the Unified Service Desk 4.1.1.1429 client application freshly, instead of upgrading to 4.1.1.1429 version.
+> - If your organization is using any version other than Unified Service Desk 4.1 client application, you can upgrade to the 4.1.1.1429 version of client application.
+
+| Topic | Updates |
+|---------------|-------------------|
+| [ChromeAccessibilityRenderer](admin/manage-options-unified-service-desk.md) | Added information about enabling **force-renderer-accessibility** CEF setting when a screen reader is detected . <br><br> Existing option in the [Manage Options in Unified Service Desk](admin/manage-options-unified-service-desk.md). |
+| [ChromeProcessConfirmationDialog](admin/manage-options-unified-service-desk.md) | Added new UII option to confirm the exit of a session in Unified Service Desk client application. <br><br> New option in the [Manage Options in Unified Service Desk](admin/manage-options-unified-service-desk.md).  |
+| [ChromeProcessDownloadPath](admin/manage-options-unified-service-desk.md) | Added new UII option to set a default folder to download attachments while using the chrome process web pages. <br><br> New option in the [Manage Options in Unified Service Desk](admin/manage-options-unified-service-desk.md).  |
+| [ChromeProcessParameters](admin/manage-options-unified-service-desk.md) | Added new UII option to add chrome parameters that can be used on the chrome process web pages within in Unified Service Desk. <br><br> New option in the [Manage Options in Unified Service Desk](admin/manage-options-unified-service-desk.md).  |
+| [EscapeCharacters](admin/manage-options-unified-service-desk.md) | Added information about passing the data with special characters to Unified Service Desk client application. <br><br> New section in [Create a Channel Integration Framework hosted control](create-channel-integration-framework-hosted-control.md).  |
+| [OnBeforeCloseHandler](admin/manage-options-unified-service-desk.md) | Added information about ***onbeforeunload*** event handlers. <br><br> Option in the [Manage Options in Unified Service Desk](admin/manage-options-unified-service-desk.md). |
+| [Single sign on for Unified Service Desk](admin/connect-dynamics-365-instance-using-unified-service-desk-client.md#single-sign-on-for-unified-service-desk) | Added information to enable or disable SSO feature. |
+| [Navigate](unified-interface-page-hosted-control.md#navigate) | Added information about adding multiple headers. |
+| [Navigate](standard-web-application-hosted-control.md#navigate) | Added information about adding multiple headers. |
+| [Navigate](crm-page-hosted-control.md#navigate) | Added information about adding multiple headers. |
+| [Enhance agent productivity using keyboard commands](omnichannel/agent/agent-usd/left-control-panel.md#enhance-agent-productivity-using-keyboard-commands) | Added a note to download mp4 video files. |
+
 
 ## Release history for Unified Service Desk 4.1.1.1397, February 2020
 

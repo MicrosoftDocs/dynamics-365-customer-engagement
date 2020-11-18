@@ -4,7 +4,7 @@ description: "Learn about new Unified Service Desk features"
 author: v-sailab
 ms.author: v-sailab
 manager: shujoshi
-ms.date: 04/10/2019
+ms.date: 11/18/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -36,6 +36,9 @@ The advantages of using the Chrome process hosting method are as follows:
 - Easy configurations to host the applications in Unified Service Desk.
 - Switch easily from one browser to another for your entire organization.
 - Chrome Process pooling feature that reuses the chrome processes and mimics inline navigation provides enhanced performance and memory optimizations.
+- Chrome process displays confirmation messages to alert you before accidental closing of a session or to save a session.
+- Chrome process enables you to add parameters that provide many options to enhance the performance of the chrome web pages.
+- Enables to set a default folder to download attachments.
 
 More information: [Use Chrome Process to host web applications in Unified Service Desk](../chrome-process.md)
 
