@@ -19,6 +19,9 @@ tags: MigrationHO
 ---
 
 # Connect to a model-driven app overview
+
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client is the agent application you can use to connect to the Common Data Service platform instance where you have deployed your [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] entities and configuration data. On signing in through the client application, it reads the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration on the Common Data Service platform instance, and accordingly exposes the controls and functionality in the application.  
 
 <a name="Signin"></a>   

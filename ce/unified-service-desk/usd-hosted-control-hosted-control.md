@@ -18,6 +18,8 @@ search.app:
 ---
 # USD Hosted Control (Hosted Control)
 
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 Use the **USD Hosted Control** type of hosted control to create custom hosted controls in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. The Common Data Service platform provides a [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)] template for creating a custom [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] hosted control to help you quickly get started with the development. For more information about creating a custom hosted control to extend [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], see [Create custom Unified Service Desk hosted control](../unified-service-desk/walkthrough-create-custom-hosted-control-for-unified-service-desk.md).  
 
 > [!NOTE]

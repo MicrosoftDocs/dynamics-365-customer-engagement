@@ -18,6 +18,9 @@ search.app:
 tags: MigrationHO
 ---
 # Set up and use Unified Service Desk for customer service
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 Give your customer service reps immediate access to business critical information so they can quickly engage with customers and address questions and issues using [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] gives you a configurable framework to quickly build applications for call centers so agents get a unified view of the customer data stored in the Common Data Service platform . You can aggregate customer information from different areas in the Common Data Service platform into one integrated desktop that provides a 360° view of customer interactions. For more information, see [Overview of Unified Service Desk](../unified-service-desk/admin/overview-unified-service-desk.md).  
   
 ## Hosted controls  

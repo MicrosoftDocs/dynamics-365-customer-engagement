@@ -20,6 +20,8 @@ search.app:
 
 # Configure interactive dashboards in the Customer Service Hub
 
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 ## Dashboards overview
 
 Customer Service Hub provides a modern, intuitive, and interactive experience for managing your customer service operations. For service reps, the interactive dashboards are a one-stop workplace to see what's important and take actions. 

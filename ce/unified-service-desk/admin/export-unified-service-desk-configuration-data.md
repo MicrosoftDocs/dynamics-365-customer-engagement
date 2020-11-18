@@ -18,6 +18,9 @@ search.app:
 tags: MigrationHO
 ---
 # Export Unified Service Desk configuration data
+
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 You can export your [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration data from your source system by using the default [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration data schema file.  
   
 1. Download the [!INCLUDE[pn_configuration_migration_tool](../../includes/pn-configuration-migration-tool.md)] and the default [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration data schema file (USDDefaultSchema.xml). The tool and the configuration data schema file are available in the [Common Data Service SDK download package](https://go.microsoft.com/fwlink/?LinkID=627298).  

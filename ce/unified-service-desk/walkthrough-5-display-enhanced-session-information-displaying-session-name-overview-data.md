@@ -18,6 +18,8 @@ search.app:
 ---
 # Walkthrough 5: Display enhanced session information by displaying session name and overview data
 
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 In the previous walkthrough, [Walkthrough 4: Display a record in a session in your agent application](../unified-service-desk/walkthrough-display-dynamics-365-record-session-agent-application.md), you learned how to display your customer record stored in a session in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. However, the experience would be better if you can identify each session with a unique name along with some key overview information about the record in a session.  
   
  This walkthrough demonstrates how to dynamically display session name and session overview information to enhance the customer-interaction experience for your agents. This walkthrough is built on top of the previous walkthrough, [Walkthrough 4: Display a record in a session in your agent application](../unified-service-desk/walkthrough-display-dynamics-365-record-session-agent-application.md).  

@@ -17,6 +17,9 @@ search.app:
   - D365USD
 ---
 # Configure session information
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 The session information is displayed under tabs in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] under two areas: session tab name and session overview. For an overview about this, see [Session management in Unified Service Desk](../unified-service-desk/session-management-unified-service-desk.md). You can configure the format of the information that displays as the session tab name and overview by creating appropriate session line rules.  
   
 <a name="SessionName"></a>   

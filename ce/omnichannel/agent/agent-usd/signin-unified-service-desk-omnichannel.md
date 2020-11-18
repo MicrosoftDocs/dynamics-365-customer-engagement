@@ -10,6 +10,8 @@ ms.service: dynamics-365-customerservice
 ---
 # Sign in to Unified Service Desk – Omnichannel for Customer Service
 
+[!INCLUDE[cc-data-platform-banner](../../../includes/cc-data-platform-banner.md)]
+
 [!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
 1. Start the Unified Service Desk client by double-clicking the application shortcut on your desktop.
