@@ -17,11 +17,11 @@ Use queues to organize, prioritize, and monitor the progress of your work. In Dy
 Use the view list and queue list to filter and find items in queues.
 
 1. Go to **Service** > **Queues**.
-2. Select a view and a filter to see the items you want.
+2. Select a view, and then select a filter to see the items you want.
 
    ![Queues view list](media/queues_view_list.png "Customer Service Hub Queues View List") 
 
-3. From the **All items** drop-down, click the pin icon to pin the view that you want to appear on your dashboard.
+3. From the **All items** drop-down, select the pin icon to pin the view that you want to appear on your dashboard.
 
 
 ## Find all items in queues
