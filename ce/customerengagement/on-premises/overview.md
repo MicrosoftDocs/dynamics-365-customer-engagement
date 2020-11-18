@@ -2,7 +2,7 @@
 title: "Microsoft Dynamics 365 Customer Engagement (on-premises) Help | MicrosoftDocs"
 description: "Welcome to the Dynamics 365 Customer Engagement (on-premises) Help, version 9."
 ms.custom: on-premises
-ms.date: 10/1/2019
+ms.date: 11/17/2020
 ms.reviewer: "kvivek"
 ms.service: crm
 ms.topic: "article"
@@ -23,11 +23,11 @@ With this change for *online* customers, we are no longer using the term "Dynami
 - Dynamics 365 Field Service
 - Dynamics 365 Project Service Automation
 
-For *online* customers, these Dynamics 365 apps (collectively referred as customer engagement apps) run on [Common Data Service](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro) and use Power Apps model-driven app design. More information: [What are model-driven apps?](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-overview)
+For *online* customers, these Dynamics 365 apps (collectively referred as customer engagement apps) run on [Microsoft Dataverse](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro) and use Power Apps model-driven app design. More information: [What are model-driven apps?](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-overview)
 
-For *on-premises* customers, "Dynamics 365 Customer Engagement (on-premises)" is the official name of the product that provides sales, service, and marketing features. Customer Engagement (on-premises) shares many features in common with Common Data Service and Power Apps. 
+For *on-premises* customers, "Dynamics 365 Customer Engagement (on-premises)" is the official name of the product that provides sales, service, and marketing features. Customer Engagement (on-premises) shares many features in common with Dataverse and Power Apps. 
 
-To avoid duplicating the common information between Customer Engagement (on-premises) and Power Apps/Common Data Service documentation, you will find a lot of references and links from this guide pointing to the Common Data Service and Power Apps documentation.  
+To avoid duplicating the common information between Customer Engagement (on-premises) and Power Apps/Dataverse documentation, you will find a lot of references and links from this guide pointing to the Power Apps and Dataverse documentation.  
 
 ## Documentation for previous version
 
