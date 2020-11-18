@@ -19,6 +19,8 @@ search.app:
 
 # Post-migration steps
 
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 This topic describes the steps you need to perform after you migrate configurations from the legacy web client to the Unified Interface app. 
 
 1. [Clear the CEF cache folder](#clear-the-cef-cache-folder)

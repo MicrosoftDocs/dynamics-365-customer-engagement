@@ -20,6 +20,9 @@ tags:
   - LinksOnlyTopic
 ---
 # Administer and manage overview
+
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 This section provides information about [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] that helps you effectively administer and manage your implementation.  
   
 ## In this section  

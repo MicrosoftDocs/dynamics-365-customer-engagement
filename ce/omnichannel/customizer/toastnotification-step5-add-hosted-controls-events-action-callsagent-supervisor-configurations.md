@@ -11,6 +11,8 @@ ms.service: dynamics-365-customerservice
 
 # Step 5: Add the hosted control, events, forms and action calls to configurations 
 
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 This topic describes how to add hosted control, events, actions calls to the configurations.

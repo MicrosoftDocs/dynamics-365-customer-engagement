@@ -20,6 +20,8 @@ tags: MigrationHO
 
 # Overview to Unified Service Desk
 
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 ## What is Unified Service Desk?
 [!INCLUDE[pn_unified_service_desk_for_crm](../../includes/pn-unified-service-desk-for-crm.md)] model-driven apps provides a configurable framework for quickly building applications for call centers so that agents can get a unified view of the customer data stored in the Common Data Service platform. You can aggregate customer information from different areas in the Common Data Service platform into an integrated desktop that provides a 360° view of the customer interactions. This gives your customer service agents immediate access to business critical information so they can quickly engage with customers and address queries and issues.  
   

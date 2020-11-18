@@ -10,6 +10,8 @@ ms.service: dynamics-365-customerservice
 ---
 # Troubleshoot Omnichannel for Customer Service
 
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 Use the following list of troubleshooting topics to quickly find information to solve your issue.

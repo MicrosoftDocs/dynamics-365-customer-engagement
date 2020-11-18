@@ -19,6 +19,9 @@ search.app:
 ---
 
 # Create and design forms for Customer Service Hub
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 Improve user's productivity with the new forms in the Customer Service Hub. The form type of the new forms is **Main**. 
 
 The **Main** forms come with an improved user experience optimized for agent productivity, helping to maintain context while working on related records. Main forms provide the primary interface where the agents can view and interact with their data in Microsoft Dynamics 365 Customer Service.
