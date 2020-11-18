@@ -44,7 +44,7 @@ The list provides an overview of documentation updates made in Unified Service D
 | [Navigate](unified-interface-page-hosted-control.md#navigate) | Added information about adding multiple headers. |
 | [Navigate](standard-web-application-hosted-control.md#navigate) | Added information about adding multiple headers. |
 | [Navigate](crm-page-hosted-control.md#navigate) | Added information about adding multiple headers. |
-| [Enhance agent productivity using keyboard commands](omnichannel/agent/agent-usd/left-control-panel.md#enhance-agent-productivity-using-keyboard-commands) | Added a note to download mp4 video files. |
+| [Enhance agent productivity using keyboard commands](../omnichannel/agent/agent-usd/left-control-panel.md#enhance-agent-productivity-using-keyboard-commands) | Added a note to download mp4 video files. |
 
 
 ## Release history for Unified Service Desk 4.1.1.1397, February 2020
