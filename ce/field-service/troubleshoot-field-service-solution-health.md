@@ -62,6 +62,24 @@ To run an analysis job for Field Service:
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Solution Health Hub with attention to the "new" option under analysis jobs](./media/troubleshoot-solution-health-fs-rules.png)
 
+## View health check results
+
+Once you run the analysis job, you will be directed to the overview page, which will automatically refresh when the run has finished. See the following screenshot for an example overview of a run.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of a complete analysis job overview](./media/troubleshoot-solution-health-fs-rules-analysis.png)
+
+
+When running an analysis job, you will see a **Return Status** for each rule, which indicates whether the rule passed, failed, or there was a configuration error. Rules also return a severity if they are failing, which shows how severe each problem is. All possible return status outcomes are listed in the following table. 
+
+
+| Rule return status | 	Recommendation|
+| --- | --- |  
+| Fail	| Highlight specific failures within the system; fix the rule as suggested.| 
+| Warning	| Be aware of the implications mentioned in the rule message.| 
+| Pass	| Indicates that there are no problems with this rule. All rules should be in this state.| 
+
 ## Agreement Work Order Generation
 
 Severity: High
@@ -429,25 +447,6 @@ Fails if there are workflow instances in the suspended state with the reason of 
 ### How to fix
 
 Retrigger the workflow. Refer to general documentation or contact support.
-
-## View health check results
-
-Once you run the analysis job, you will be directed to the overview page, which will automatically refresh when the run has finished. See the following screenshot for an example overview of a run.
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a complete analysis job overview](./media/troubleshoot-solution-health-fs-rules-analysis.png)
-
-
-When running an analysis job, you will see a **Return Status** for each rule, which indicates whether the rule passed, failed, or there was a configuration error. Rules also return a severity if they are failing, which shows how severe each problem is. All possible return status outcomes are listed in the following table. 
-
-
-| Rule return status | 	Recommendation|
-| --- | --- |  
-| Fail	| Highlight specific failures within the system; fix the rule as suggested.| 
-| Warning	| Be aware of the implications mentioned in the rule message.| 
-| Pass	| Indicates that there are no problems with this rule. All rules should be in this state.| 
-
 
 ### See also
 
