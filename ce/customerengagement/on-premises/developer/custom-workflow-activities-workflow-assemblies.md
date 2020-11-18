@@ -4,12 +4,7 @@ description: "Learn about registration and execution of custom workflow activiti
 ms.custom: 
 ms.date: 06/12/2019
 ms.reviewer: pehecke
-ms.service: 
-ms.suite: 
-ms.tgt_pltfrm: 
-ms.topic: article
-applies_to: 
-  - Dynamics 365 Customer Engagement (on-premises)
+ms.prod: dynamicscrm-2016 
 ms.assetid: d4e6e932-61cd-42fd-a280-ef63bbad45f0
 author: JimDaly
 ms.author: kvivek
