@@ -29,59 +29,89 @@ search.app:
 
 # Barcode scanning and global search
 
+Technicians can use the Dynamics 365 Field Service mobile app to scan barcodes.
+
+Technicians can scan barcodes to:
+1. enter a field with the barcode value to speed up data entry
+2. search the database for records that match the barcode for easy lookup.
+
 > [!div class="mx-imgBorder"]
 > ![Simulated image showing four mobile devices in different stages of the barcode scan process.](./media/mobile-2020-global-search-use.png)
 
+## Step 1: Enable global search
 
 By default, Dynamics 365 Field Service is configured to search against account, contact, user, and activity. You can customize global search to include additional entities, such as customer asset and product, which helps technicians search, find by keyword, and scan to search by barcode, UPC, or QR code.
 
 For more information, see: [How to Setup Global Search](https://community.dynamics.com/crm/b/xrm/posts/how-to-set-up-global-search-in-microsoft-dynamics-365)
 
+
+## Step 2: 
 After enabling global search, ensure there is a barcode field on the entity you wish to search via barcode scan. A common example is adding a barcode field to the Customer Asset form. 
 
-See the following video for more details [Use and configure the Dynamics 365 Field Service mobile app](https://youtu.be/tcDt_vJ5csI?t=479). 
+Follow the steps below or see the following video for more details [Use and configure the Dynamics 365 Field Service mobile app](https://youtu.be/tcDt_vJ5csI?t=479). 
 
-
-Field Service Mobile provides you with the capability of using barcode scanning to read barcodes to fill in value for fields or do a search.
-
-For using the barcode scanning feature,
-
-please follow the below steps:
 
 1. Go to &#39;Field Service mobile&#39; model drive app and select &#39;Open in App Designer&#39;
 
-![](openinappdesigner.png)
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/openinappdesigner.png)
 
-1. Go to Edit form and select the form which have the field that you want to utilize for barcode scanning.
 
-![](editform.png)
 
-1. Add a field or select the field that you want to add &#39;Barcode scanning&#39; to
+2. Go to Edit form and select the form which have the field that you want to utilize for barcode scanning.
 
-![](addfieldtoform.png)
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/editform.png)
 
-1. Save and Publish all changes in the form and then &#39;Switch to Classic&#39; view
 
-![](saveandpublish.png) ![](switchtoclassic.png)
+3. Add a field or select the field that you want to add &#39;Barcode scanning&#39; to
 
-1. Select the required field and double click on it
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/addfieldtoform.png)
 
-![](findfieldanddoubleclickonit.png)
 
-1. Go to &#39;Controls&#39; tab and click on &#39;Add control&#39;
+4. Save and Publish all changes in the form and then &#39;Switch to Classic&#39; view
 
-![](addcontroltofield.png)
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/saveandpublish.png)
 
-1. Select &#39;Barcode scanner&#39; control and add it
 
-![](addbarcodecontrol.png)
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/switchtoclassic.png)
 
-1. Enable the control for mobile and tablet, Save and Publish the changes
 
-![](enablefortabandmobile.png) ![](saveandpublish2.png)
 
-1. Now open the App, the form will have the field with the barcode scanner option. Clicking on the Barcode icon will open the camera and read any barcode/QR code.
+5. Select the required field and double click on it
 
-![](mobilewithfield.png)
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/findfieldanddoubleclickonit.png)
 
-The barcode control can be used to read and fill in value to a field or it can be user to setup global search.
+
+6. Go to &#39;Controls&#39; tab and click on &#39;Add control&#39;
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/addcontroltofield.png)
+
+
+7. Select &#39;Barcode scanner&#39; control and add it
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/addbarcodecontrol.png)
+
+
+8. Enable the control for mobile and tablet, Save and Publish the changes
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/enablefortabandmobile.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/saveandpublish2.png)
+
+
+
+9. Now open the App, the form will have the field with the barcode scanner option. Clicking on the Barcode icon will open the camera and read any barcode/QR code.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobilewithfield.png)
+
