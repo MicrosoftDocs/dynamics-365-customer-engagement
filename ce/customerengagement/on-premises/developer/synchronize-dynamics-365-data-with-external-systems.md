@@ -4,14 +4,11 @@ description: "Learn how to synchronize and integrate Dynamics 365 Customer Engag
 ms.custom: 
 ms.date: 10/01/2019
 author: Jimdaly 
-ms.service: crm-onpremises
+ms.prod: dynamicscrm-2016
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 3290d4ad-874b-4e3d-83ac-0fec47a8af31
-caps.latest.revision: 22
 ms.reviewer: nabuthuk
 ms.author: jdaly
 manager: kvivek
