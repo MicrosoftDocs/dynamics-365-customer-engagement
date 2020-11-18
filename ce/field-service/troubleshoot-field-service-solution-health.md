@@ -123,7 +123,7 @@ Detects if there are any forms in the system that are referencing Field Service 
 Fails if there are Field Service forms that have been modified and do not have the execution context passed in the ```OnLoadHandler```.
 
 > [!Note]
-> The most common scenario where this rule presents a failure is when a copy of our out-of-the-box forms is present (Field Service versions earlier than 8.X) and then Field Service is upgraded. In such scenarios, these copied forms would be missing the ExecutionContext parameter in these non-out-of-the-box forms.
+> The most common scenario where this rule presents a failure is when a copy of one of the out-of-the-box forms is present (Field Service versions earlier than 8.X) and then Field Service is upgraded. In such scenarios, these copied forms from earlier versions of Field Service would be missing the ExecutionContext parameter in these non-out-of-the-box forms.
 
 ### How to fix
 
@@ -305,7 +305,7 @@ Detects if there are any forms in the system that are referencing Field Service 
 Fails if there are forms where Field Service web resources are used and the execution context attribute is required but not passed to the form. This might happen on custom forms.
 
 > [!Note]
-> The most common scenario where this rule presents a failure is when a copy of our out-of-the-box forms is present (Field Service versions earlier than 8.X) and then Field Service is upgraded. In such scenarios, these copied forms would be missing the ```ExecutionContext parameter``` in these non-out-of-the-box forms.
+> The most common scenario where this rule presents a failure is when a copy of one of the out-of-the-box forms is present (Field Service versions earlier than 8.X) and then Field Service is upgraded. In such scenarios, these copied forms from earlier versions of Field Service would be missing the ```ExecutionContext parameter``` in these non-out-of-the-box forms.
 
 ### How to fix
 
