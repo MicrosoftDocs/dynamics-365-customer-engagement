@@ -1,5 +1,6 @@
 ---
-title: "Troubleshoot issues with Solution Health Hub for Field Service | MicrosoftDocs"
+title: "Troubleshoot issues with Solution Health Hub for Dynamics 365 Field Service | MicrosoftDocs"
+description: Learn how to troubleshoot Dynamics 365 Field Service issues with the Solution Health Hub
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 10/22/2019
@@ -26,7 +27,7 @@ search.app:
   - D365FS
 ---
 
-# Troubleshoot Field Service issues with Solution Health Hub
+# Troubleshoot Dynamics 365 Field Service issues with Solution Health Hub
 
 Solution Health Hub allows you to get a better picture of the state of your environment and detect issues with your Dynamics 365 environment. The Solution Health Hub runs rules within an instance to validate the environment's configuration, which might change over time through natural system operations. Some of the rules are specific to Dynamics 365 Field Service and you can run the rules on demand when you encounter an issue. Some rules automatically trigger when Field Service is installed or updated. Regularly run the Field Service ruleset to monitor the health of your environment.
 
