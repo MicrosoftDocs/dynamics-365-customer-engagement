@@ -12,8 +12,8 @@ applies_to:
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 955BA444-A53D-4843-9429-833B1636E2B4
 caps.latest.revision: 7
-author: susikka
-ms.author: susikka
+author: phecke
+ms.author: pehecke
 manager: shujoshi
 search.audienceType: 
   - developer
@@ -45,7 +45,7 @@ Select the connection option that works for your environment:
 
 ## Connect with an online environment
 
-To connect with an online environment, see the information provided in this Power Apps Common Data Service topic: [Connect with an online environment](/powerapps/developer/common-data-service/webapi/setup-postman-environment#connect-with-your-common-data-service-environment).
+To connect with an online environment, see the information provided in this Power Apps Dataverse topic: [Connect with an online environment](/powerapps/developer/common-data-service/webapi/setup-postman-environment#connect-with-your-common-data-service-environment).
 
 <a name="bkmk_connectonpremise"></a>
 

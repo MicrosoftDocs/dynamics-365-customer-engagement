@@ -24,7 +24,7 @@ search.audienceType:
 XRM tooling provides you with the following Windows PowerShell cmdlets that you can use to connect to Dynamics 365 Customer Engagement (on-premises) and retrieve organizations that the current user has access to: `Get-CrmConnection` and `Get-CrmOrganizations`.  
 
 > [!NOTE]
-> The PowerShell cmdlets documentation that is applicable to Common Data Service users is now available in the Power Apps documentation at: [Use PowerShell cmdlets in XRM tooling to connect to Common Data Service](/powerapps/developer/common-data-service/xrm-tooling/use-powershell-cmdlets-xrm-tooling-connect)
+> The PowerShell cmdlets documentation that is applicable to Dataverse users is now available in the Power Apps documentation at: [Use PowerShell cmdlets in XRM tooling to connect to Dataverse](/powerapps/developer/common-data-service/xrm-tooling/use-powershell-cmdlets-xrm-tooling-connect)
   
 <a name="Prereq"></a> 
 
@@ -147,6 +147,6 @@ You’re now ready to use the PowerShell cmdlet. To list the cmdlets that you re
   
 ### See also
 
-[Use XRM Tooling API to connect to Common Data Service](/powerapps/developer/common-data-service/xrm-tooling/use-crmserviceclient-constructors-connect)<br />
+[Use XRM Tooling API to connect to Dataverse](/powerapps/developer/common-data-service/xrm-tooling/use-crmserviceclient-constructors-connect)<br />
 [Build Windows client applications using the XRM tools](/powerapps/developer/common-data-service/xrm-tooling/build-windows-client-applications-xrm-tools)<br /> 
 [Blog: PowerShell module for performing data operations and manipulating user and system settings in Dynamics 365 Customer Engagement (on-premises)](https://blogs.msdn.com/b/crm/archive/2015/09/25/powershell-module-for-performing-data-operations-and-manipulating-user-and-system-settings-in-crm.aspx)

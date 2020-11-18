@@ -4,7 +4,7 @@ description: "IOrganizationService is the primary web service that accesses data
 ms.custom: on-premise
 ms.date: 09/05/2019
 ms.reviewer: pehecke
-ms.service: 
+ms.prod: dynamicscrm-2016 
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -30,6 +30,6 @@ In Dynamics 365 Customer Engagement (on-premises), the primary web service that 
  
 ## Related Sections  
 
- [Use the Common Data Service Organization Service](/powerapps/developer/common-data-service/org-service/overview)  
+ [Use the Dataverse Organization Service](/powerapps/developer/common-data-service/org-service/overview)  
  [Use connection strings in XRM tooling to connect to Dynamics 365 Customer Engagement (on-premises)](xrm-tooling/use-connection-strings-xrm-tooling-connect.md)  
  [Quick Start: Organization service sample (C#)](/powerapps/developer/common-data-service/org-service/quick-start-org-service-console-app)
