@@ -18,7 +18,7 @@ helpviewer_keywords:
 ms.assetid: B8CD2072-F254-4BA8-9087-79EC79DFE48C
 caps.latest.revision: 14
 author: phecke
-ms.author: phecke
+ms.author: pehecke
 manager: shujoshi
 search.audienceType: 
   - developer

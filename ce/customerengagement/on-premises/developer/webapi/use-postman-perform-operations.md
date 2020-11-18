@@ -13,7 +13,7 @@ applies_to:
 ms.assetid: AB50128B-D8E3-47A3-A0F8-9594EF6B7022
 caps.latest.revision: 7
 author: phecke
-ms.author: phecke
+ms.author: pehecke
 manager: shujoshi
 search.audienceType: 
   - developer

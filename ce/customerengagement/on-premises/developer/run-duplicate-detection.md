@@ -13,7 +13,7 @@ applies_to:
 ms.assetid: 08699dd9-623a-4fee-8b2e-fba850cc2a58
 caps.latest.revision: 39
 author: phecke
-ms.author: phecke
+ms.author: pehecke
 manager: amyla
 search.audienceType: 
   - developer
