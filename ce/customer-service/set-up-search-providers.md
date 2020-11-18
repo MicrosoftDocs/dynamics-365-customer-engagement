@@ -40,7 +40,7 @@ From an authentication perspective, your agents must have access to external con
 
 > [!NOTE]
 >
-> Before you set up a search provider, ensure that your firewall doesn't block the https://www.d365ccafpi.com/ domain.
+> Before you set up a search provider, ensure that your firewall doesn't block the https://www.d365ccafpi.com/ domain. Otherwise, users will encounter errors.
 
 To set up a search provider, do the following:
 
