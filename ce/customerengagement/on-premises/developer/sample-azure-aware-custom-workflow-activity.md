@@ -27,11 +27,11 @@ This sample obtains the data context from the current operation and posts it to 
 
 ## Requirements
 
-You must configure Common Data Service to connect with Azure before registering and executing this sample custom workflow activity. More information: [Configure Microsoft Azure Integration with Common Data Service](configure-azure-integration.md).
+You must configure Dataverse to connect with Azure before registering and executing this sample custom workflow activity. More information: [Configure Microsoft Azure Integration with Dataverse](configure-azure-integration.md).
 
 Notice the `Input id` required argument in the code. When you add this activity to a workflow, you must provide the GUID of a Azure service endpoint.
 
-When registering this custom workflow activity with Common Data Service, you must register it in the sandbox (partial trust).
+When registering this custom workflow activity with Dataverse, you must register it in the sandbox (partial trust).
 
 ## How to run samples
 
@@ -40,4 +40,4 @@ When registering this custom workflow activity with Common Data Service, you mus
 
 ## What this sample does
 
-This sample shows how to write a custom workflow activity that can post the data context from the current Common Data Service operation to the Azure Service Bus. The posting of the data context is done through the <xref:Microsoft.Xrm.Sdk.IServiceEndpointNotificationService.Execute(Microsoft.Xrm.Sdk.EntityReference,Microsoft.Xrm.Sdk.IExecutionContext)> method.
+This sample shows how to write a custom workflow activity that can post the data context from the current Dataverse operation to the Azure Service Bus. The posting of the data context is done through the <xref:Microsoft.Xrm.Sdk.IServiceEndpointNotificationService.Execute(Microsoft.Xrm.Sdk.EntityReference,Microsoft.Xrm.Sdk.IExecutionContext)> method.

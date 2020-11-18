@@ -28,11 +28,11 @@ Dynamics 365 Customer Engagement (on-premises) support three security models for
  The SDK assemblies simplify use of [!INCLUDE[pn_WCF_short](../includes/pn-wcf-short.md)] technology and claims-based authentication by providing helper proxy classes that make it easy to write applications that connect to and authenticate with the Dynamics 365 Customer Engagement (on-premises) web services. By using these helper classes in your application, you can access any Dynamics 365 Customer Engagement (on-premises) deployment using the same code and you don’t have to become an expert in claims-based security or [!INCLUDE[pn_WCF_short](../includes/pn-wcf-short.md)] programming.
 
 > [!TIP]
-> There are a number of different methods with supporting classes in the SDK to authenticate a custom .NET application or service with the web service endpoints. The recommended class to use in this release is the <xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient> class. That class supports all Customer Engagement (and Common Data Service) deployments, is multi-threading safe, and is easy to use. For more information about other available classes, see [Active Directory and Claims-Based Authentication](active-directory-claims-based-authentication.md).
+> There are a number of different methods with supporting classes in the SDK to authenticate a custom .NET application or service with the web service endpoints. The recommended class to use in this release is the <xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient> class. That class supports all Customer Engagement (and Dataverse) deployments, is multi-threading safe, and is easy to use. For more information about other available classes, see [Active Directory and Claims-Based Authentication](active-directory-claims-based-authentication.md).
   
-## Related Common Data Service Documentation
+## Related Dataverse Documentation
 
-[Use OAuth with Common Data Service](/powerapps/developer/common-data-service/authenticate-oauth)  
+[Use OAuth with Dataverse](/powerapps/developer/common-data-service/authenticate-oauth)  
 [Use OAuth with Cross-Origin Resource Sharing to connect a Single Page Application](/powerapps/developer/common-data-service/oauth-cross-origin-resource-sharing-connect-single-page-application)  
 [Build web applications using Server-to-Server (S2S) authentication](/powerapps/developer/common-data-service/build-web-applications-server-server-s2s-authentication)
 
