@@ -4,16 +4,11 @@ description: "The ExecuteMultiple message supports higher throughput bulk messag
 ms.custom: on-premise
 ms.date: 09/05/2019
 ms.reviewer: pehecke
-ms.service: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.prod: dynamicscrm-2016 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 8029be0f-0dd6-44d2-b458-94fb40095ec3
 author: JimDaly
 ms.author: jdaly
-manager: amyla
 search.audienceType: 
   - developer
 
