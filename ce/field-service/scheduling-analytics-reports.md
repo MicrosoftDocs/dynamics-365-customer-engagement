@@ -247,7 +247,7 @@ In order to share the resource and utilization reports, follow steps 1 through 5
 
 **msdyn_AnalyticsSaveDataInConfigStore custom action**
 
-Do not disable this custom action because insights and analytics features in Dynamics 365 will not function properly, the **msdyn_AnalyticsSaveDataInConfigStore custom action** is for internal use only. Contact Microsoft support if you have any questions.
+Do not disable this custom action because insights and analytics features in Dynamics 365 will not function properly; the **msdyn_AnalyticsSaveDataInConfigStore custom action** is for internal use only. Contact Microsoft support if you have any questions.
 
 #### Parameters
 
