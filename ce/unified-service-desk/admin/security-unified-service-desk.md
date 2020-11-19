@@ -19,6 +19,8 @@ tags: MigrationHO
 ---
 # Access management in Unified Service Desk
 
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 ## Overview of access control
 
 [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration entities and the underlying [!INCLUDE[pn_user_inteface_integration_uii](../../includes/pn-user-interface-integration-uii.md)] entities are stored in the Common Data Service platform, and you can use the Common Data Service platform security model to govern access to both of these entities. the Common Data Service platform has a robust security model that combines role-based, record-level, and field-level security to define the overall security rights that users have. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Security concepts for Microsoft Dynamics CRM](/dynamics365/customer-engagement/admin/security-concepts)  

@@ -19,6 +19,8 @@ search.app:
 
 # Download Migration Assistant to migrate Unified Service Desk configurations from web client to unified interface
 
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 This topic describes the prerequisites and tools you require to migrate the configurations from web client to unified interface.
 
 ## Prerequisites

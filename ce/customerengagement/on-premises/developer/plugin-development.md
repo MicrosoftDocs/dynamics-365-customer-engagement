@@ -26,7 +26,7 @@ A plug-in is custom business logic (code) that you can integrate with Dynamics 3
  For more information about plug-in run-time execution, see [Event Framework](/powerapps/developer/common-data-service/event-framework). 
 
  > [!NOTE]
-> The documentation that follows describes additional options only available in on-premises environments. For general information about writing plug-ins that work for both on-premises and online deployments, read the [Use plug-ins to extend business processes](/powerapps/developer/common-data-service/plug-ins) topic in the Common Data Service documentation. 
+> The documentation that follows describes additional options only available in on-premises environments. For general information about writing plug-ins that work for both on-premises and online deployments, read the [Use plug-ins to extend business processes](/powerapps/developer/common-data-service/plug-ins) topic in the Dataverse documentation. 
   
 ## Best practices for on-premise plug-in development
 
@@ -59,4 +59,4 @@ For on-disk plug-ins or custom workflow activities, place the assemblies in the 
 ## Related Sections  
  [Write Plug-Ins to Extend Business Processes](write-plugin-extend-business-processes.md) <br/> 
  [Web Service Authentication and Impersonation](authenticate-users.md) <br/>
- [Use plug-ins to extend business processes in Common Data Service](/powerapps/developer/common-data-service/plug-ins)
+ [Use plug-ins to extend business processes in Dataverse](/powerapps/developer/common-data-service/plug-ins)

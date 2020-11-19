@@ -20,6 +20,9 @@ monikerRange: '<= dynamics-usd-4'
 ---
 
 # Generate performance data logs (Performance data collection)
+
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 Performance data collection enables you to collect data about operational events in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application to log files, which is used to identify and troubleshoot performance issues.
 
 You can generate the performance data logs to:

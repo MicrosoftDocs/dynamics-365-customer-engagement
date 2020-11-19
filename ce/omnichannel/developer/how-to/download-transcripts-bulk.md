@@ -10,6 +10,8 @@ ms.service: dynamics-365-customerservice
 ---
 # Download Omnichannel for Customer Service transcripts in bulk
 
+[!INCLUDE[cc-data-platform-banner](../../../includes/cc-data-platform-banner.md)]
+
 [!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
 Omnichannel for Customer Service transcripts are stored in base64 encoded format in Annotation table in Common Data Service. Attachments are stored as separate records in the Annotations table. If a conversation has 2 files exchanged between the agent and the customer, a total of 3 records are created pertaining to this conversation. Any conversation always has n+1 records stored for it in the annotations table, where n is the number of attachments this conversation has. Attachments are also base64 encoded before being saved.

@@ -20,6 +20,8 @@ monikerRange: '>= dynamics-usd-4.1'
 
 # Create a Channel Integration Framework hosted control
 
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 The topic demonstrates how to create Channel Integration Framework type of hosted control.
 
 

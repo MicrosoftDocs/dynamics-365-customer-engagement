@@ -17,6 +17,9 @@ search.app:
   - D365USD
 ---
 # Standard Web Application (Hosted Control)
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 The **Standard Web Application** hosted control type is similar to the **CRM Page** type except that it is intended to host non-model-driven pages, such as external web pages, and provides script injection for relevant features of external web pages. Like the **CRM Page** hosted control, these pages can be automated. The preferred method of automating is through [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] injection including calling [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] functions that are already defined in the page or manipulate the DOM. The `RunScript` action can also be used to obtain values from the page.  
 
 > [!NOTE]

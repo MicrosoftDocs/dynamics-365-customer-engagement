@@ -14,6 +14,8 @@ ms.custom:
 
 # What's new in Dynamics 365 Channel Integration Framework
 
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 This topic provides a list of features that are introduced in the latest version of Dynamics 365 Channel Integration Framework.
 
 ## What's new in Dynamics 365 Channel Integration Framework version 2.0

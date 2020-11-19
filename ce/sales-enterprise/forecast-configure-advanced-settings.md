@@ -11,6 +11,8 @@ manager: shujoshi
 
 # Configure advanced settings
 
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 In the **Advanced** step of forecast configuration, you can configure the following:
 
 - [Automatically hide parent rows](#automatically-hide-parent-rows)

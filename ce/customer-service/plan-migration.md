@@ -20,6 +20,8 @@ search.app:
 
 # Plan your migration
 
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 This topic explains the considerations and best practices that you need to be aware before starting the migration.
 
 ## Considerations for migration

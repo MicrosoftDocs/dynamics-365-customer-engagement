@@ -11,6 +11,8 @@ ms.service: dynamics-365-customerservice
 
 # Step 2: Create Omnichannel Agent Dashboard-related action calls
 
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 This topic demonstrates how to create Omnichannel Agent Dashboard-related action calls in Unified Service Desk for Dynamics 365 Customer Service.
