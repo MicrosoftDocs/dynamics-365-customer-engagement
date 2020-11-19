@@ -56,7 +56,7 @@ Use the view list and queue list to filter and find items in queues.
 
 ## Find items available to work on
 
-1. To see only items (activites and cases) that no one else is working on, in the view list, select **Items available to work on**.
+1. To see only items (activities and cases) that no one else is working on, in the view list, select **Items available to work on**.
 2. In the queue list, choose one of the following options to filter cases based on queues:
 
    - \<Individual queues>
