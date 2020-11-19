@@ -3,7 +3,7 @@ title: "Functional location in Dynamics 365 Field Service| MicrosoftDocs"
 description: Learn how to use functional location for assets in Dynamics 365 Field Service.
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 11/06/2020
+ms.date: 11/19/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -29,7 +29,7 @@ search.app:
 
 # Functional location of assets and work orders
 
-Field Service organizations often service customers that have large or complex worksites - like a warehouse or a multi-story office building, for instance. In such cases, it's important that a technician can find specifically where they need to go to perform their work.
+Field Service organizations often service customers that have large or complex worksites - like a warehouse or a multi-story office building. In such cases, it's important that a technician can find specifically where they need to go to perform their work.
 
 Functional location in Field Service allows for more location granularity on a few relevant Field Service entities, such as:
 
@@ -51,7 +51,7 @@ In this article, we'll look at how to define functional relationships within Fie
 
 ## Create a service account (optional)
 
-First, create a service account or choose an existing one if you wish to use functional locations in association with service accounts. This is **optional** because functional locations can be used without being associated to service accounts. Nevertheless a service account is required to create a work order and the address of a service account will be used as the address of a work order if a functional location is not defined or if the functional location does not have a work order.
+First, create a service account or choose an existing one if you wish to use functional locations in association with service accounts. This is **optional** because functional locations can be used without being associated to service accounts. A service account is required to create a work order and the address of a service account will be used as the work order's address if a functional location is not defined, or if the functional location does not have a work order.
 
 Add an address to the service account if applicable and geocode the record. You can see that the service account record is geocoded if it appears on the map and the latitude and longitude fields have values.
 
@@ -136,16 +136,15 @@ For example, imagine as part of one work order, a technician needs to go to thre
 Technicians can see the functional location of a work order on the Dynamics 365 Field Service mobile app.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-2020-functional-location-work-order.png)
+> ![Device render with the Field Service mobile app, showing a booking and a location on a map.](./media/mobile-2020-functional-location-work-order.png)
 
 Technicians can also view and interact with functional location and customer asset hierarchies on the mobile app.
 
-
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-2020-functional-location-hierarchy-combined.png)
+> ![Device renders with the Field Service mobile app, showing asset hierarchies and functional locations.](./media/mobile-2020-functional-location-hierarchy-combined.png)
 
 > [!Note]
-> Internet connectivty is required to view and interact with functional location and customer asset hierarchy trees on the mobile app. 
+> Internet connectivity is required to view and interact with functional location and customer asset hierarchy trees on the Field Service mobile app.
 
 ## Use functional location for cases
 
