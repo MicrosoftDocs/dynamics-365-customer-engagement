@@ -146,6 +146,10 @@ Technicians can also view and interact with functional location and customer ass
 > [!Note]
 > Internet connectivity is required to view and interact with functional location and customer asset hierarchy trees on the Field Service mobile app.
 
+For a guided walkthrough of functional locations on the Field Service mobile app, check out the following video.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4I2pU]
+
 ## Use functional location for cases
 
 In cases where organizations start with a **Case** in their workflow, functional locations can be associated there as well.
