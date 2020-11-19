@@ -24,6 +24,10 @@ monikerRange: '>= dynamics-usd-4.1'
 
 The Chrome Process browser control hosts your controls in isolated Chrome Process instances and displays them in tabs in the Unified Service Desk client application. The Chrome Process is based on **CefSharp**, an open source framework, which uses the chromium core that powers many modern browsers.  More information: [CefSharp](https://cefsharp.github.io/)
 
+> [!Important]
+> - Unified Service Desk version 4.1.1.1429 supports the chromium version 84.
+> - Unified Service Desk version 4.1.1.1397 supports the chromium version 71.
+
 The advantages of using the Chrome process hosting method are as follows:
 
 ![Advantages of Chrome Process](media/chrome-process-value-props.PNG "Advantages of Chrome Process")
@@ -584,6 +588,10 @@ As an admin, the **ChromeProcessDownloadPath** UII option enables you to set the
 7. Set **True** for the **Value** field.
 
 8. Select **Save**.
+
+## Edit PDF in chrome process
+
+If the pdf has editable fields, then chrome process supports the ability to edit the pdf inline.  
 
 
 ## Limitations
