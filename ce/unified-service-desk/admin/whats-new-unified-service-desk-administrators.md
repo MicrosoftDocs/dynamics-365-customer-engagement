@@ -27,13 +27,14 @@ search.app:
 
 This topic contains information about changes in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] for system administrators available in this version.
 
-- Enhancement in the performance of accessibility support for the chrome process web pages, see [Accessibility support with Chrome Process](../chrome-process.md#accessibility-support-with-chrome-process).
-- Chrome process displays confirmation messages that alerts you before accidental closing of a session or to save a session, see [Enable close confirmation dialog when using Chrome Process](../chrome-process.md#enable-close-confirmation-dialog-when-using-chrome-process) and [Enable confirmation dialog using Chrome Process](../chrome-process.md#enable-confirmation-dialog-using-chrome-process).
-- Chrome process enables you to add parameters that provide many options to enhance the performance of the chrome web pages, see [Add parameters using Chrome Process](../chrome-process.md#add-parameters-using-chrome-process).
-- Enables to set a default folder to download attachments, see [Download attachments in Chrome Process](../chrome-process.md#download-attachments-in-chrome-process).
-- Add multiple headers during the Navigate action of a Unified Service Desk POST event, see [Unified interface page hosted control](../unified-interface-page-hosted-control.md#navigate), [Standard web application hosted control](../standard-web-application-hosted-control.md#navigate), and [CRM page hosted control](../crm-page-hosted-control.md#navigate).
-- Enable or disable Single-Sign-On feature, see [Single sign on for Unified Service Desk](connect-dynamics-365-instance-using-unified-service-desk-client.md#single-sign-on-for-unified-service-desk).
-- Enables to pass the data with special characters to Unified Service Desk client application, see [Enable encoding and escaping of special characters](../create-channel-integration-framework-hosted-control.md#enable-encoding-and-escaping-of-special-characters).
+- The enhancements using Chrome Process are as follows:
+  * Performance of accessibility support for the Chrome Process web pages enhanced. More information: [Accessibility support with Chrome Process](../chrome-process.md#accessibility-support-with-chrome-process).
+  * Confirmation messages displayed on close and save sessions. More information: [Enable close confirmation dialog when using Chrome Process](../chrome-process.md#enable-close-confirmation-dialog-when-using-chrome-process) and [Enable confirmation dialog using Chrome Process](../chrome-process.md#enable-confirmation-dialog-using-chrome-process).
+  * Open source parameters supported to enhance the performance of Chrome Process-based web pages. More information: [Add parameters using Chrome Process](../chrome-process.md#add-parameters-using-chrome-process).
+  * Default folder to download attachments enabled. More information: [Download attachments in Chrome Process](../chrome-process.md#download-attachments-in-chrome-process).
+- Multiple headers supported during the Navigate action of a Unified Service Desk POST event. More information: [Unified interface page hosted control](../unified-interface-page-hosted-control.md#navigate), [Standard web application hosted control](../standard-web-application-hosted-control.md#navigate), and [CRM page hosted control](../crm-page-hosted-control.md#navigate).
+- Single sign-on feature enabled by default. More information: [Single sign on for Unified Service Desk](connect-dynamics-365-instance-using-unified-service-desk-client.md#single-sign-on-for-unified-service-desk).
+- Special characters supported in Unified Service Desk. More information: [Enable encoding and escaping of special characters](../create-channel-integration-framework-hosted-control.md#enable-encoding-and-escaping-of-special-characters).
 
 
 ## What's new in Unified Service Desk 4.1

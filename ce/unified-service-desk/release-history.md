@@ -32,8 +32,8 @@ This is the release history page for the [!INCLUDE[pn_unified_service_desk](../i
 The list provides an overview of documentation updates made in Unified Service Desk 4.1.1.1429
 
 > [!NOTE]
-> - If your organization is using any version of the Unified Service Desk 4.1 client application, then you need to uninstall that version and install the Unified Service Desk 4.1.1.1429 client application freshly, instead of upgrading to 4.1.1.1429 version.
-> - If your organization is using any version other than Unified Service Desk 4.1 client application, you can upgrade to the 4.1.1.1429 version of client application.
+> - If your organization is using a previously released version of the Unified Service Desk 4.1 client application, you must uninstall the application and then install version 4.1.1.1429, instead of upgrading to version 4.1.1.1429.
+> - If your organization is using a previous version other than the Unified Service Desk 4.1 client application, you can upgrade to the version 4.1.1.1429.
 
 | Topic | Updates |
 |---------------|-------------------|
