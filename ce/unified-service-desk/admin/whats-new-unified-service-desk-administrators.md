@@ -27,7 +27,7 @@ search.app:
 
 This topic contains information about changes in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] for system administrators available in this version.
 
-- The enhancements using Chrome Process are as follows:
+- The enhancements for Chrome Process are as follows:
   * Performance of accessibility support for the Chrome Process web pages enhanced. More information: [Accessibility support with Chrome Process](../chrome-process.md#accessibility-support-with-chrome-process).
   * Confirmation messages displayed on close and save sessions. More information: [Enable close confirmation dialog when using Chrome Process](../chrome-process.md#enable-close-confirmation-dialog-when-using-chrome-process) and [Enable confirmation dialog using Chrome Process](../chrome-process.md#enable-confirmation-dialog-using-chrome-process).
   * Open source parameters supported to enhance the performance of Chrome Process-based web pages. More information: [Add parameters using Chrome Process](../chrome-process.md#add-parameters-using-chrome-process).
