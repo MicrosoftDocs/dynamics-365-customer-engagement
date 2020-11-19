@@ -27,15 +27,14 @@ search.app:
 
 This topic contains information about changes in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] for system administrators available in this version.
 
-- Enhancement in the performance of accessibility support for the chrome process web pages.
-- Chrome process displays confirmation messages that alerts you before accidental closing of a session or to save a session.
-- Chrome process enables you to add parameters that provide many options to enhance the performance of the chrome web pages.
-- Enables to set a default folder to download attachments.
-- Add multiple headers during the Navigate action of a Unified Service Desk POST event.
+- Enhancement in the performance of accessibility support for the chrome process web pages, see [Accessibility support with Chrome Process](../chrome-process.md#accessibility-support-with-chrome-process).
+- Chrome process displays confirmation messages that alerts you before accidental closing of a session or to save a session, see [Enable close confirmation dialog when using Chrome Process](../chrome-process.md#enable-close-confirmation-dialog-when-using-chrome-process) and [Enable confirmation dialog using Chrome Process](../chrome-process.md#enable-confirmation-dialog-using-chrome-process).
+- Chrome process enables you to add parameters that provide many options to enhance the performance of the chrome web pages, see [Add parameters using Chrome Process](../chrome-process.md#add-parameters-using-chrome-process).
+- Enables to set a default folder to download attachments, see [Download attachments in Chrome Process](../chrome-process.md#download-attachments-in-chrome-process).
+- Add multiple headers during the Navigate action of a Unified Service Desk POST event, see [Unified interface page hosted control](../unified-interface-page-hosted-control.md#navigate), [Standard web application hosted control](../standard-web-application-hosted-control.md#navigate), and [CRM page hosted control](../crm-page-hosted-control.md#navigate).
 - Enable or disable Single-Sign-On feature, see [Single sign on for Unified Service Desk](connect-dynamics-365-instance-using-unified-service-desk-client.md#single-sign-on-for-unified-service-desk).
 - Enables to pass the data with special characters to Unified Service Desk client application, see [Enable encoding and escaping of special characters](../create-channel-integration-framework-hosted-control.md#enable-encoding-and-escaping-of-special-characters).
 
-More information: [Use Chrome Process to host web applications in Unified Service Desk](../chrome-process.md)
 
 ## What's new in Unified Service Desk 4.1
 
