@@ -79,10 +79,10 @@ Add a start time, end time or duration, and the bookable resource to which the t
 
 You can relate the time entry to other records - like work orders and bookings - as needed.
 
-Viewing and creating time entries is supported on the [Field Service (Dynamics 365) mobile app](mobile-power-app-get-started.md). 
+You can also view and create time entries on the [Field Service (Dynamics 365) mobile app](mobile-power-app-get-started.md). 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-2020-time-entry-all.png)
+> ![Screenshot of time entry on the Field Service (Dynamics 365) mobile app.](./media/mobile-2020-time-entry-all.png)
 
 
 ## Time off
@@ -132,7 +132,7 @@ Making changes to the date or duration of the time entry will update the time-of
 > [!div class="mx-imgBorder"]
 > ![Screenshot of time entry on Field Service Mobile.](./media/work-order-time-entry-mobile.png)
 
-Import [the latest mobile project template](https://aka.ms/fsmobile-project) into the mobile configuration tool (Woodford) to display time entries in Field Service Mobile.
+Import [the latest mobile project template](https://aka.ms/fsmobile-project) into the mobile configuration tool (Woodford) to display time entries in Field Service Mobile (Xamarin).
 
 
 ## Additional notes
