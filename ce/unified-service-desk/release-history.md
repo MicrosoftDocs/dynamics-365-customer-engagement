@@ -4,7 +4,7 @@ description: "This topic provides release history information for the Unified Se
 author: v-sailab
 ms.author: v-sailab
 manager: shujoshi
-ms.date: 11/18/2020
+ms.date: 11/19/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -37,17 +37,16 @@ The list provides an overview of documentation updates made in Unified Service D
 
 | Topic | Updates |
 |---------------|-------------------|
-| [ChromeAccessibilityRenderer](admin/manage-options-unified-service-desk.md) | Added information about enabling **force-renderer-accessibility** CEF setting when a screen reader is detected . <br><br> Existing option in the [Manage Options in Unified Service Desk](admin/manage-options-unified-service-desk.md). |
-| [ChromeProcessConfirmationDialog](admin/manage-options-unified-service-desk.md) | Added new UII option to confirm the exit of a session in Unified Service Desk client application. <br><br> New option in the [Manage Options in Unified Service Desk](admin/manage-options-unified-service-desk.md).  |
-| [ChromeProcessDownloadPath](admin/manage-options-unified-service-desk.md) | Added new UII option to set a default folder to download attachments while using the chrome process web pages. <br><br> New option in the [Manage Options in Unified Service Desk](admin/manage-options-unified-service-desk.md).  |
-| [ChromeProcessParameters](admin/manage-options-unified-service-desk.md) | Added new UII option to add chrome parameters that can be used on the chrome process web pages within in Unified Service Desk. <br><br> New option in the [Manage Options in Unified Service Desk](admin/manage-options-unified-service-desk.md).  |
-| [EscapeCharacters](admin/manage-options-unified-service-desk.md) | Added information about passing the data with special characters to Unified Service Desk client application. <br><br> New section in [Create a Channel Integration Framework hosted control](create-channel-integration-framework-hosted-control.md).  |
-| [OnBeforeCloseHandler](admin/manage-options-unified-service-desk.md) | Added information about ***onbeforeunload*** event handlers. <br><br> Option in the [Manage Options in Unified Service Desk](admin/manage-options-unified-service-desk.md). |
+| [ChromeAccessibilityRenderer](admin/manage-options-unified-service-desk.md) | Added information about enabling **force-renderer-accessibility** CEF setting when a screen reader is detected . <br><br> Existing option in the [Manage Options in Unified Service Desk](admin/manage-options-unified-service-desk.md). <br><br> [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Accessibility support with Chrome Process](chrome-process.md#accessibility-support-with-chrome-process) |
+| [ChromeProcessConfirmationDialog](admin/manage-options-unified-service-desk.md) | Added new UII option to confirm the exit of a session in Unified Service Desk client application. <br><br> New option in the [Manage Options in Unified Service Desk](admin/manage-options-unified-service-desk.md). <br><br> [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Enable confirmation dialog using Chrome Process](chrome-process.md#enable-confirmation-dialog-using-chrome-process) |
+| [ChromeProcessDownloadPath](admin/manage-options-unified-service-desk.md) | Added new UII option to set a default folder to download attachments while using the chrome process web pages. <br><br> New option in the [Manage Options in Unified Service Desk](admin/manage-options-unified-service-desk.md). <br><br> [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Download attachments in Chrome Process](chrome-process.md#download-attachments-in-chrome-process) |
+| [ChromeProcessParameters](admin/manage-options-unified-service-desk.md) | Added new UII option to add chrome parameters that can be used on the chrome process web pages within in Unified Service Desk. <br><br> New option in the [Manage Options in Unified Service Desk](admin/manage-options-unified-service-desk.md). <br><br> [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Add parameters using Chrome Process](chrome-process.md#add-parameters-using-chrome-process) |
+| [EscapeCharacters](admin/manage-options-unified-service-desk.md) | Added information about passing the data with special characters to Unified Service Desk client application. <br><br> New section in [Create a Channel Integration Framework hosted control](create-channel-integration-framework-hosted-control.md). <br><br> [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Enable encoding and escaping of special characters](create-channel-integration-framework-hosted-control.md#enable-encoding-and-escaping-of-special-characters) |
+| [OnBeforeCloseHandler](admin/manage-options-unified-service-desk.md) | Added information about ***onbeforeunload*** event handlers. <br><br> Option in the [Manage Options in Unified Service Desk](admin/manage-options-unified-service-desk.md). <br><br> [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Enable close confirmation dialog when using Chrome Process](chrome-process.md#enable-close-confirmation-dialog-when-using-chrome-process) |
 | [Single sign on for Unified Service Desk](admin/connect-dynamics-365-instance-using-unified-service-desk-client.md#single-sign-on-for-unified-service-desk) | Added information to enable or disable SSO feature. |
 | [Navigate](unified-interface-page-hosted-control.md#navigate) | Added information about adding multiple headers. |
 | [Navigate](standard-web-application-hosted-control.md#navigate) | Added information about adding multiple headers. |
 | [Navigate](crm-page-hosted-control.md#navigate) | Added information about adding multiple headers. |
-| [Enhance agent productivity using keyboard commands](../omnichannel/agent/agent-usd/left-control-panel.md#enhance-agent-productivity-using-keyboard-commands) | Added a note to download mp4 video files. |
 
 
 ## Release history for Unified Service Desk 4.1.1.1397, February 2020
