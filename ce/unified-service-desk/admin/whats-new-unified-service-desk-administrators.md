@@ -29,11 +29,11 @@ This topic contains information about changes in [!INCLUDE[pn_unified_service_de
 
 - The enhancements for Chrome Process are as follows:
   * Unified Service Desk support for chrome process is upgraded to Chromium version 84. More information: [Use Chrome Process to host web application](../chrome-process.md).
-  * Support for editing the pdf (if pdf has editable fields) with chrome process web pages. More information: [Edit PDF in chrome process](../chrome-process.md#edit-pdf-in-chrome-process)
-  * Performance of accessibility support for the Chrome Process web pages enhanced. More information: [Accessibility support with Chrome Process](../chrome-process.md#accessibility-support-with-chrome-process).
+  * Support for editing pdfs (if pdf has editable fields) with Chrome Process web pages. More information: [Edit PDF in chrome process](../chrome-process.md#edit-pdf-in-chrome-process)
+  * Accessibility support for the Chrome Process web pages enhanced. More information: [Accessibility support with Chrome Process](../chrome-process.md#accessibility-support-with-chrome-process).
   * Confirmation messages displayed on close and save sessions. More information: [Enable close confirmation dialog when using Chrome Process](../chrome-process.md#enable-close-confirmation-dialog-when-using-chrome-process) and [Enable confirmation dialog using Chrome Process](../chrome-process.md#enable-confirmation-dialog-using-chrome-process).
   * Open source parameters supported to enhance the performance of Chrome Process-based web pages. More information: [Add parameters using Chrome Process](../chrome-process.md#add-parameters-using-chrome-process).
-  * Default folder to download attachments enabled. More information: [Download attachments in Chrome Process](../chrome-process.md#download-attachments-in-chrome-process).
+  * Default folder enabled to download attachments. More information: [Download attachments in Chrome Process](../chrome-process.md#download-attachments-in-chrome-process).
 - Multiple headers supported during the Navigate action of a Unified Service Desk POST event. More information: [Unified interface page hosted control](../unified-interface-page-hosted-control.md#navigate), [Standard web application hosted control](../standard-web-application-hosted-control.md#navigate), and [CRM page hosted control](../crm-page-hosted-control.md#navigate).
 - Single sign-on feature enabled by default. More information: [Single sign on for Unified Service Desk](connect-dynamics-365-instance-using-unified-service-desk-client.md#single-sign-on-for-unified-service-desk).
 - Special characters supported in Unified Service Desk. More information: [Enable encoding and escaping of special characters](../create-channel-integration-framework-hosted-control.md#enable-encoding-and-escaping-of-special-characters).

@@ -32,7 +32,7 @@ This is the release history page for the [!INCLUDE[pn_unified_service_desk](../i
 The list provides an overview of documentation updates made in Unified Service Desk 4.1.1.1429
 
 > [!NOTE]
-> - If your organization is using a previously released version of the Unified Service Desk 4.1 client application, you must uninstall the application and then install version 4.1.1.1429, instead of upgrading to version 4.1.1.1429.
+> - If your organization is using a previously released version of the Unified Service Desk 4.1 client application, you must uninstall the application, and then install version 4.1.1.1429, instead of upgrading to version 4.1.1.1429.
 > - If your organization is using a previous version other than the Unified Service Desk 4.1 client application, you can upgrade to the version 4.1.1.1429.
 
 | Topic | Updates |
@@ -42,6 +42,8 @@ The list provides an overview of documentation updates made in Unified Service D
 | [ChromeProcessDownloadPath](admin/manage-options-unified-service-desk.md) | Added new UII option to set a default folder to download attachments while using the chrome process web pages. <br><br> New option in the [Manage Options in Unified Service Desk](admin/manage-options-unified-service-desk.md). <br><br> More information: [Download attachments in Chrome Process](chrome-process.md#download-attachments-in-chrome-process) |
 | [ChromeProcessParameters](admin/manage-options-unified-service-desk.md) | Added new UII option to add chrome parameters that can be used on the chrome process web pages within in Unified Service Desk. <br><br> New option in the [Manage Options in Unified Service Desk](admin/manage-options-unified-service-desk.md). <br><br> More information: [Add parameters using Chrome Process](chrome-process.md#add-parameters-using-chrome-process) |
 | [EscapeCharacters](admin/manage-options-unified-service-desk.md) | Added information about passing the data with special characters to Unified Service Desk client application. <br><br> New section in [Create a Channel Integration Framework hosted control](create-channel-integration-framework-hosted-control.md). <br><br> More information: [Enable encoding and escaping of special characters](create-channel-integration-framework-hosted-control.md#enable-encoding-and-escaping-of-special-characters) |
+| [Edit PDF in Chrome Process](chrome-process.md#edit-pdf-in-chrome-process) | Added information about editing pdfs. |
+| [Use Chrome Process to host web application](../chrome-process.md) | Added information about upgrading Unified Service Desk support for chrome process. |
 | [OnBeforeCloseHandler](admin/manage-options-unified-service-desk.md) | Added information about ***onbeforeunload*** event handlers. <br><br> Option in the [Manage Options in Unified Service Desk](admin/manage-options-unified-service-desk.md). <br><br> More information: [Enable close confirmation dialog when using Chrome Process](chrome-process.md#enable-close-confirmation-dialog-when-using-chrome-process) |
 | [Single sign on for Unified Service Desk](admin/connect-dynamics-365-instance-using-unified-service-desk-client.md#single-sign-on-for-unified-service-desk) | Added information to enable or disable SSO feature. |
 | [Navigate](unified-interface-page-hosted-control.md#navigate) | Added information about adding multiple headers. |
