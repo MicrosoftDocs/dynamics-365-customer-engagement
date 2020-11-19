@@ -166,6 +166,11 @@ In Power Virtual Agents, do the following:
 
 At run time, the required information is captured in the context variable that can then be used for further actions based on the workflow you configure. For more information, see [Context variables for a bot](context-variables-for-bot.md).
 
+## How to end bot conversations in Omnichannel for Customer Service
+
+You need to configure a context variable in Power Virtual Agents that will explicitly end the bot conversation after customers close the chat at their end.
+
+
 ### Known limitations
  
 | Description     | Limitation     |
