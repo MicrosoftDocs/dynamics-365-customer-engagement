@@ -42,7 +42,7 @@ You can enable post-conversation surveys for the following channels:
 - Custom channel
 - Microsoft Teams
 
-For a chat channel only, you can configure the survey link or survey questions to be displayed in the chat window.
+For a Live chat channel only, you can configure the survey link or survey questions to be displayed in the chat window.
 
 ## Prerequisite
 
@@ -68,24 +68,22 @@ You can set up surveys when configuring a channel or update an existing channel 
    - **Send survey link to conversation:** At runtime, the survey link is sent to the customers.
 
        - In the **Message** box that appears, select the default message text or type a custom message. The personalized survey link will be appended to the message and displayed to the customer.
-   - **Insert survey in conversation:** At runtime, the agent can insert a survey link in an active conversation that results in the survey questions being displayed on the customer chat window. This option is available only for the Live Chat channel.
+   - **Insert survey in conversation:** At runtime, the agent can insert a survey link in an active conversation that results in the survey questions being displayed on the customer chat window. This option is available only for the Live chat channel.
 
 9. Select **Save**.
 
-> [!div class=mx-imgBorder]
-> ![Post-conversation survey](../media/oc-post-conversation-survey.png "Post-conversation survey")
+    > [!div class=mx-imgBorder]
+    > ![Post-conversation survey](../media/oc-post-conversation-survey.png "Post-conversation survey")
 
 ## Runtime experience of post-conversation surveys
 
-If the post-conversation survey is enabled for a conversation, after the conversation ends, the pre-designed survey is shared with the customer. This survey allows you to keep a track of the customer's feedback of the service provided. Any conversation can be considered as closed when one of the following scenarios happen.
+If the post-conversation survey is enabled for a conversation, after the conversation ends, the pre-designed survey is shared with the customer. This survey allows you to keep a track of the customer's feedback of the service provided. Any conversation can be considered as closed when one of the following scenarios happen:
 
 - Agent closes the chat conversation.
 - Customer closes the chat conversation.
 - System closes the chat conversation after a pre-defined time.
 
-For Live Chat conversations, customers can receive survey questions within the same conversation or through a link that takes them to an external site. For SMS and social channels, a survey link is shared.
-
-
+For Live chat conversations, customers can receive survey questions within the same conversation or through a link that takes them to an external site. For SMS and social channels, a survey link is shared.
 
 > [!NOTE]
 > The surveys that you create and survey data that is processed are not hosted or stored in Omnichannel for Customer Service.
