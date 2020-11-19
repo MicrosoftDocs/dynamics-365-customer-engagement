@@ -29,7 +29,7 @@ If you're familiar with [Microsoft Teams](https://products.office.com/microsoft-
    > [!NOTE]
    > Microsoft Teams integration is not supported on the following: 
    >  - Dynamics 365 Customer Engagement (on-premises)
-   >  - Common Data Service environment
+   >  - Microsoft Dataverse environment
    >  - Legacy web client or legacy apps
 
 

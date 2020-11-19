@@ -133,9 +133,9 @@ If you're an admin, you can avoid users getting this error by making sure all mo
 6. In the mobile app, follow the previous procedure to select your new dashboard and set it as your home page.  
   
 ## Error message: Your server is not available or does not support this application  
- **Cause 1**: The Common Data Service or Dynamics 365 Customer Engagement (on-premises) server is down. Verify that the server is on and connected to your network.  
+ **Cause 1**: The Microsoft Dataverse or Dynamics 365 Customer Engagement (on-premises) server is down. Verify that the server is on and connected to your network.  
  
- **Cause 2**: Your Common Data Service or Dynamics 365 Customer Engagement (on-premises) app version is not supported. For supported version information, see [What's supported](../mobile-app/support-phones-tablets.md). 
+ **Cause 2**: Your Microsoft Dataverse or Dynamics 365 Customer Engagement (on-premises) app version is not supported. For supported version information, see [What's supported](../mobile-app/support-phones-tablets.md). 
   
  **Cause 3**: This error can also occur if you enter an invalid URL. Make sure the same URL you have provided works to access Dynamics 365 apps in your browser on your device  
   
@@ -143,7 +143,7 @@ If you're an admin, you can avoid users getting this error by making sure all mo
 ## Error message: You haven't been authorized to use this app. Check with your system administrator to update your settings
  **Cause 1**: Verify that your security role includes the **Use [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]** privilege. See "Required privileges" in [Get started with Dynamics 365 for phones and Dynamics 365 for tablets](https://docs.microsoft.com/dynamics365/mobile-app/set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets?#requirements).  
   
- **Cause 2**: This error can occur if you have a Common Data Service or Dynamics 365 Customer Engagement (on-premises) organization and your user has not been assigned a license for the organization. If you add a Common Data Service or Dynamics 365 Customer Engagement (on-premises) subscription to an existing [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] tenant, your user may not have a  license assigned. 
+ **Cause 2**: This error can occur if you have a Microsoft Dataverse or Dynamics 365 Customer Engagement (on-premises) organization and your user has not been assigned a license for the organization. If you add a Microsoft Dataverse or Dynamics 365 Customer Engagement (on-premises) subscription to an existing [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] tenant, your user may not have a  license assigned. 
  
  If the user has the Global Administrator or Service Administrator role and you’re able to sign in to on the web app to perform certain administrative actions, but you can’t perform end user tasks, such as creating records (for example, accounts, contacts, and leads) or configuring Dynamics 365 for mobile. When you sign in to the web app, you may notice that not all areas appear within the navigation (for example, Sales and Marketing are missing):  
   
@@ -171,10 +171,10 @@ If you're an admin, you can avoid users getting this error by making sure all mo
  
   
 ## Error message: The language installed on your company’s system isn’t available on the app. Please contact your system administrator to set up a supported language
- **Cause**: This error will occur if one of the supported languages is not enabled in Common Data Service or Dynamics 365 Customer Engagement (on-premises). For more information on the supported languages, see [Supported languages for Dynamics 365 for phones and tablets](https://docs.microsoft.com/dynamics365/mobile-app/set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets#supported-languages-for--and-).
+ **Cause**: This error will occur if one of the supported languages is not enabled in Microsoft Dataverse or Dynamics 365 Customer Engagement (on-premises). For more information on the supported languages, see [Supported languages for Dynamics 365 for phones and tablets](https://docs.microsoft.com/dynamics365/mobile-app/set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets#supported-languages-for--and-).
   
 ## Error message: The process assigned to this record is unavailable or has been deleted 
- If you receive this message for a record which has a non-deleted process assigned to it, you should manually synchronize Dynamics 365 mobile app data with Common Data Service or Dynamics 365 Customer Engagement (on-premises) app data. Close the mobile app, reopen it, and then choose to download the latest customizations. This procedure forces the mobile app to check for updated customizations. Recently viewed data while you were connected is cached and synched. Record data like Accounts or Contacts are not synched.
+ If you receive this message for a record which has a non-deleted process assigned to it, you should manually synchronize Dynamics 365 mobile app data with Microsoft Dataverse or Dynamics 365 Customer Engagement (on-premises) app data. Close the mobile app, reopen it, and then choose to download the latest customizations. This procedure forces the mobile app to check for updated customizations. Recently viewed data while you were connected is cached and synched. Record data like Accounts or Contacts are not synched.
   
 
 ## Event 10001 messages appear in the Event Log when you run Dynamics 365 for mobile. 
@@ -184,11 +184,11 @@ If you're an admin, you can avoid users getting this error by making sure all mo
   
 - Message: `SEC7131 : Security of a sandboxed iframe is potentially compromised by allowing script and same origin access.`  
   
-  Verify the source of the messages. If the source is Common Data Service or Dynamics 365 Customer Engagement (on-premises), these events don’t pose a security threat and can be ignored.  
+  Verify the source of the messages. If the source is Microsoft Dataverse or Dynamics 365 Customer Engagement (on-premises), these events don’t pose a security threat and can be ignored.  
   
 ## By design: “—d” added to URL  
   
- To improve the reliability of DNS resolutions to Common Data Service or Dynamics 365 Customer Engagement (on-premises) organizations, Dynamics 365 for mobile modifies the organization URL used when signing in. When a user signs in, the Dynamics 365 mobile app adds “—d” (two dashes + d) to the URL. For example, if the organization URL is **<https://contoso.crm.dynamics.com>**, [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] will change the URL to **<https://contoso--d.crm.dynamics.com>**.  
+ To improve the reliability of DNS resolutions to Microsoft Dataverse or Dynamics 365 Customer Engagement (on-premises) organizations, Dynamics 365 for mobile modifies the organization URL used when signing in. When a user signs in, the Dynamics 365 mobile app adds “—d” (two dashes + d) to the URL. For example, if the organization URL is **<https://contoso.crm.dynamics.com>**, [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] will change the URL to **<https://contoso--d.crm.dynamics.com>**.  
   
  If a user needs to retry signing in, they’ll see “—d” in the web address. They can sign in with the modified URL or reset it to the URL normally used.  
   
@@ -196,7 +196,7 @@ If you're an admin, you can avoid users getting this error by making sure all mo
 ## Redirected URLs do not work when you configure the Dynamics 365 mobile app
  URLs that redirect, such as [!INCLUDE[pn_iis](../includes/pn-iis.md)] host headers or link-shortening websites such as tinyurl or bitly, do not work when you use the URL in the **Dynamics 365 apps web address** field with Dynamics 365 mobile during configuration.  
   
- For example, an *<https://www.contosocrm.com>* host header for a Dynamics 365 apps online  website URL that is actually *<https://crm.contososerver001.com>*, will not work and will display an error message. To work around this behavior, you must enter the actual web address for the Common Data Service or Dynamics 365 Customer Engagement (on-premises) organization. When this issue occurs and you have enabled logging, the information logged is similar to the following. Notice that the URLs in lines 2 and 3 are different. That difference indicates a redirected URL.  
+ For example, an *<https://www.contosocrm.com>* host header for a Dynamics 365 apps online  website URL that is actually *<https://crm.contososerver001.com>*, will not work and will display an error message. To work around this behavior, you must enter the actual web address for the Microsoft Dataverse or Dynamics 365 Customer Engagement (on-premises) organization. When this issue occurs and you have enabled logging, the information logged is similar to the following. Notice that the URLs in lines 2 and 3 are different. That difference indicates a redirected URL.  
   
 1.  User entered URL: *https://URL_entered*  
   
@@ -214,7 +214,7 @@ If you're an admin, you can avoid users getting this error by making sure all mo
  To remove the cached data, the user must sign out of mobile app, or the app must be reconfigured or uninstalled.  
   
 ## Customization changes do not appear in the mobile app
- **Cause 1**: The customizations (metadata) from Common Data Service or Dynamics 365 Customer Engagement (on-premises) organization are cached on your device. The app checks for updated metadata after 24 hours or any time you reopen the app. For customization changes to become available immediately, you must completely close and then reopen the app. If new metadata is found, you will be prompted to download it. For more information on how to completely close an app, refer to the help for your operating system or reference one of the articles provided:  
+ **Cause 1**: The customizations (metadata) from Microsoft Dataverse or Dynamics 365 Customer Engagement (on-premises) organization are cached on your device. The app checks for updated metadata after 24 hours or any time you reopen the app. For customization changes to become available immediately, you must completely close and then reopen the app. If new metadata is found, you will be prompted to download it. For more information on how to completely close an app, refer to the help for your operating system or reference one of the articles provided:  
   
 - **Windows 10**: [How do I close an app?](https://support.microsoft.com/help/4027154/windows-close-an-app-in-windows-10)  
   
@@ -225,7 +225,7 @@ If you're an admin, you can avoid users getting this error by making sure all mo
 **Cause 2**: You may be seeing a different form than the one you customized. If you have multiple forms for an entity, you will see the first form in the form order that you have access to. This is different than the web application where you see the last form you used and have the ability to change between forms. 
 
  
-## Troubleshoot: Deep links that come from Common Data Service or Dynamics 365 Customer Engagement (on-premises) apps
+## Troubleshoot: Deep links that come from Microsoft Dataverse or Dynamics 365 Customer Engagement (on-premises) apps
 
 ### Deep links propagated in an email that come from your apps will not open on your mobile phone or tablet (especially on an Android device).
 
