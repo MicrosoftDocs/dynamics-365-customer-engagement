@@ -32,7 +32,7 @@ For more detailed information about ExecuteMultiple, see [Execute multiple reque
 
 ## Apply limits for concurrent requests
 
-There are several constraints related to the use of the <xref:Microsoft.Xrm.Sdk.Messages.ExecuteMultipleRequest>. One limit that applies only to an on-premises deployment is described below and the other two (no recursion, and maximum batch size) are documented in (Common Data Service) [Run-time limitations](/powerapps/developer/common-data-service/org-service/execute-multiple-requests#run-time-limitations).
+There are several constraints related to the use of the <xref:Microsoft.Xrm.Sdk.Messages.ExecuteMultipleRequest>. One limit that applies only to an on-premises deployment is described below and the other two (no recursion, and maximum batch size) are documented in (Dataverse) [Run-time limitations](/powerapps/developer/common-data-service/org-service/execute-multiple-requests#run-time-limitations).
 
 Throttling of concurrent calls – for Dynamics 365 for Customer Engagement it is possible to set a limit on the number of concurrent <xref:Microsoft.Xrm.Sdk.Messages.ExecuteMultipleRequest> executions per organization. This helps prevent one app from monopolizing the server resources. If that limit is exceeded, a "Server Busy" fault is thrown before the first request is ever executed. This is not enabled by default. The deployment setting for this limit is <xref:Microsoft.Xrm.Sdk.Deployment.ThrottleSettings.ExecuteMultiplePerOrgMaxConnectionsPerServer>.
   

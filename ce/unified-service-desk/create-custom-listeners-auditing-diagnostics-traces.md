@@ -17,6 +17,9 @@ search.app:
   - D365USD
 ---
 # Create custom listeners for auditing, diagnostics and traces
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 A listener lets you target the log output to files, the event log, or other sources. Until the previous version of [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], you could only use the standard listeners to write auditing, diagnostics, and trace logs in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  
   
  With [!INCLUDE[pn_unified_service_desk_20](../includes/pn-unified-service-desk-20.md)], you can configure custom listeners to log auditing, diagnostics, and tracing data. Specify a custom listener by using the new type of hosted control called **Listener Hosted Control** that contains a reference to the assembly (.dll file) containing your custom listener code.  

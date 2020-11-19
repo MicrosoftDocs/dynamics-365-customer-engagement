@@ -26,6 +26,8 @@ search.app:
 ---
 # Dynamics 365 Field Service user guide
 
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 Not sure what you're looking for, where to begin, or how to improve your Field Service knowledge? Use this guide to see a birds-eye view of the Dynamics 365 Field Service resources.
 
 ## Resources

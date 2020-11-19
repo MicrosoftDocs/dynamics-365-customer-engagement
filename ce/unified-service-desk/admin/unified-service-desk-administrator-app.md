@@ -20,6 +20,8 @@ monikerRange: ">=dynamics-usd-4"
 
 # Administer and manage Unified Service Desk using the Administrator app
 
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 ## Overview
 
 You can use the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Administrator App built on the Unified Interface framework to administer and manage the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application.

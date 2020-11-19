@@ -7,7 +7,7 @@ ms.reviewer: pehecke
 ms.service: crm-online
 ms.topic: article
 author: brandonsimons # GitHub ID
-ms.author: susikka
+ms.author: pehecke
 manager: shujoshi
 search.audienceType: 
   - developer

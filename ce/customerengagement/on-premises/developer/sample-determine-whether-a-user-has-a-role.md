@@ -20,7 +20,7 @@ search.audienceType:
 ---
 # Sample: Determine whether a user has a role
 
-This sample shows how to determine whether a user in Common Data Service has been associated with a specific role. This is performed by using a query with the [IOrganizationService.RetrieveMultiple](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.iorganizationservice.retrievemultiple?view=dynamics-general-ce-9) method.  You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/DetermineWhetherUserHasRole).
+This sample shows how to determine whether a user in Dataverse has been associated with a specific role. This is performed by using a query with the [IOrganizationService.RetrieveMultiple](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.iorganizationservice.retrievemultiple?view=dynamics-general-ce-9) method.  You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/DetermineWhetherUserHasRole).
 
 This sample requires an additional user that isn't available in your system. Create the required user manually in **Office 365** in order to run the sample without any errors. For this sample create a user profile **as is** shown below. 
 
@@ -50,7 +50,7 @@ In order to simulate the scenario described in [What this sample does](#what-thi
 
 ### Demonstrate
 
-1. The `retrieve` method retrieves a user from Common Data Service.
+1. The `retrieve` method retrieves a user from Dataverse.
 2. The `query` message is used to find out a role.
 
 ### Clean up

@@ -11,6 +11,8 @@ ms.service: dynamics-365-customerservice
 
 # Context variables for a bot
 
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 This topic lists the context variables that you can configure for a bot in Power Virtual Agents or Azure to use in Omnichannel for Customer Service.
@@ -22,7 +24,7 @@ The following table contains the list of variables in Omnichannel for Customer S
 > [!IMPORTANT]
 > Make sure of the following:
 > - Names are not changed and used as is when you author flows in Power Virtual Agents or Azure bots.
-> - The value that will be passed to the context variable shouldn't exceed 4,000 characters so that the conversation can be successfully escalated to the agent.
+> - The value that will be passed to the context variable doesn't exceed 4,000 characters so that the conversation can be successfully escalated to the agent.
 
 | Context variable type | Context variable name | Description | How to map in Power Virtual Agents | How to map in Azure |
 |-----|-----|-------|-------|-----|

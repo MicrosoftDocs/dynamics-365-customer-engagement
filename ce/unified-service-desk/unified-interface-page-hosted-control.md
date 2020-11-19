@@ -4,7 +4,7 @@ description: "Learn about the Unified Interface Page hosted control type to load
 author: v-sailab
 ms.author: v-sailab
 manager: shujoshi
-ms.date: 02/17/2020
+ms.date: 11/12/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 search.audienceType: 
@@ -16,6 +16,9 @@ search.app:
 ---
 
 # Unified Interface Page (Hosted Control)
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 Use the **Unified Interface Page** hosted control type to load a URL or page from Unified Interface Apps in the model-driven apps. When a model-driven app page is loaded within a hosted control of this type, it will automatically scan the page for data from the entity, and automatically populate the replacement parameters.
   
  This hosted control type exposes a number of predefined UII actions and events that are unique to handling of model-driven apps [!INCLUDE[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] including list manipulation actions, and a find action for displaying a quick search or advanced search page.
@@ -164,7 +167,15 @@ Alternatively, the data can be passed as an encoded string with its header type 
 <td>header</td>
 <td>A string value that contains additional HTTP headers to send to the server. When the postdata parameter is used in the Navigate action, you should also specify an appropriate value for the header parameter. Example: Content-Type:application/x-www-form-urlencoded<br />
 <br />
-If a Unified Service Desk POST event triggers the Navigate action, the default value of this parameter should be header=[[header]+]</td>
+If a Unified Service Desk POST event triggers the Navigate action, the default value of this parameter should be header=[[header]+]<br />
+<br />
+To add multiple headers, the value of this parameter should be:<br />
+<br />
+<code>header=$Multiline(</code>headers separated by newline<code>)</code> <br /> 
+<br />
+Example: <code>header=$Multiline(accessToken;dummyAccessToken==</code><br />
+<br />
+<code>refreshToken;dummyRefreshToken===)</code></td>
 </tr>
 </tbody>
 </table>

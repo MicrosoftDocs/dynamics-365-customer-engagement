@@ -11,6 +11,8 @@ ms.service: dynamics-365-customerservice
 
 # Step 5: Configure window navigation rule for communication panel
 
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 The topic describes how to create window navigation rule for communication panel.

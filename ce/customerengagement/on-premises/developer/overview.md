@@ -4,17 +4,11 @@ description: "This SDK contains a wealth of resources, including code samples, w
 ms.custom: 
 ms.date: 04/20/2020
 ms.reviewer: pehecke
-ms.service: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.prod: dynamicscrm-2016 
 ms.topic: article
 ms.assetid: e926cfed-f581-4f1f-83bd-75a06292212b
 author: KumarVivek
 ms.author: kvivek
-manager: annbe
-tags: 
-  - aug2017
-  - MigrationHO
 search.audienceType: 
   - developer
 
@@ -25,7 +19,7 @@ Welcome to the Dynamics 365 Customer Engagement (on-premises) Developer Guide.
 
 - For documentation of earlier on-premises versions (8.x and earlier), see <https://docs.microsoft.com/previous-versions/dynamics/>.
 
-- If you are using our online apps that are built on Common Data Service (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Marketing, Dynamics 365 Field Service, and Dynamics 365 Project Service Automation), see the [Common Data Service Developer Guide](https://docs.microsoft.com/powerapps/developer/common-data-service/overview) along with the respective app's developer docs.
+- If you are using our online apps that are built on Dataverse (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Marketing, Dynamics 365 Field Service, and Dynamics 365 Project Service Automation), see the [Dataverse Developer Guide](https://docs.microsoft.com/powerapps/developer/common-data-service/overview) along with the respective app's developer docs.
 
 <table>
 <tr>

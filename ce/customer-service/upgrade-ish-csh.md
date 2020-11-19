@@ -20,6 +20,8 @@ search.app:
 
 # Upgrade to Customer Service Hub
 
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 The Interactive Service hub was introduced with [!INCLUDE[](../includes/pn-crm-8-1-0-online.md)] and Dynamics CRM 2016 as a reimagined customer service app. Interactive Service hub offered a web-based client designed to simplify daily tasks for customer service representatives and managers. It had new components and page-types, like interactive dashboards, interactive forms, and reference panel control. 
 
 The Interactive Service hub's intuitive interface combined vital information in one place and allowed customer service representatives to prioritize work and be more productive, but there were certain limits to extending it. The new Customer Service Hub offers greater flexibility and improved controls and extensibility.

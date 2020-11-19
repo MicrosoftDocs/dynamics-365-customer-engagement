@@ -10,6 +10,8 @@ ms.service: "dynamics-365-customerservice"
 ---
 # Customize quick view forms
 
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 You customize the quick view form in the section by navigating to the respective entities and quick view forms. Some of the relevant entities are as follows.

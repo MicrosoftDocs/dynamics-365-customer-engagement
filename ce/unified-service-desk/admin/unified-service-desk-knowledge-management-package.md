@@ -17,6 +17,9 @@ search.app:
   - D365USD
 ---
 # Knowledge Management sample application package 
+
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 [!INCLUDE[pn_unified_service_desk_for_crm](../../includes/pn-unified-service-desk-for-crm.md)] provides a configurable framework for quickly building applications for call centers so the customer service reps get a unified view of the customer data stored in the Common Data Service platform or any other application.  
   
  If you’re a service rep, you can use [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to offer your customers a reliable and consistent experience across a number of different channels including phone, email, and chat, and can also serve multiple customers simultaneously through sessions. A system administrator in your organization can integrate Unified Service Desk with many other applications that you use on a day-to-day basis so you can get your work done from your desktop without switching to different applications.  

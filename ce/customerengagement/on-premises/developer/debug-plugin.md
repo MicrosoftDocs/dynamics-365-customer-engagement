@@ -24,10 +24,10 @@ search.audienceType:
 
 # Debug an on-premise registered plug-In
 
-General information about plug-in debugging can be found in the Common Data Service topic [Debug a plug-in](/powerapps/developer/common-data-service/debug-plug-in). The following steps describe how to debug a plug-in executing on Dynamics 365 Customer Engagement (on-premises).
+General information about plug-in debugging can be found in the Dataverse topic [Debug a plug-in](/powerapps/developer/common-data-service/debug-plug-in). The following steps describe how to debug a plug-in executing on Dynamics 365 Customer Engagement (on-premises).
 
 > [!NOTE]
-> An alternate method to debug a plug-in that executes in the sandbox on any deployment type is to use the tracing service. For more information about tracing see [Logging and tracing](/powerapps/developer/common-data-service/logging-tracing). For more information about debugging, including a tutorial, see the Common Data Service topic [Debug a plug-in](/powerapps/developer/common-data-service/debug-plug-in).
+> An alternate method to debug a plug-in that executes in the sandbox on any deployment type is to use the tracing service. For more information about tracing see [Logging and tracing](/powerapps/developer/common-data-service/logging-tracing). For more information about debugging, including a tutorial, see the Dataverse topic [Debug a plug-in](/powerapps/developer/common-data-service/debug-plug-in).
   
 [!INCLUDE[cc_sdk_onpremises_note](../includes/cc-sdk-onpremises-note.md)]
 

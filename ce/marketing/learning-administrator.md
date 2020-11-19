@@ -9,6 +9,9 @@ ms.author: v-lshann
 ---
 
 # Administrators Learning Catalog
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 Do you need to keep systems and data flowing, provisioned, and secure round-the-clock?
 
 The following catalog is organized from core knowledge to specific domains, and from most basic to most advanced. If content exists in multiple formats, we'll let you know, so that you can choose the training format that best meets your needs.
