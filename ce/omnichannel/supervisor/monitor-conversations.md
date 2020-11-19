@@ -62,17 +62,12 @@ By joining the conversation, you provide necessary inputs to both agent and cust
     > ![Select Join chat](../media/supervisor-select-join-chat.png "Select Join chat")
 
     When you join the conversation, a notification will be sent to both agent and customer stating that you have joined as a consultant. Depending on your requirement, you can start a consultation with the agent and customer by using a messaging mode (public or internal). By default, the messaging mode is internal.
-    
+
     To learn more, see [View communication panel](../agent/agent-oc/oc-conversation-control.md).
 
 ## Assign a conversation
 
-At times, you may need to manually assign a conversation. The following conditions are applicable:
-
-- Conversation must be in an open status or not assigned to an agent.
-- Agents whose presence matches with one of the allowed presence values in the work stream configuration only will be listed.
-
-You can override agent's presence and allocated capacity when assigning conversations to them. When capacity is overridden, the agent's capacity will show the units by which their capacity is exceeded.
+At times, you may need to manually assign a conversation. In such cases, the conversation should be in an open status or not assigned to any agent. You can override the agent's presence and allocated capacity when assigning conversations to them. When you override agent capacity, the number of units by which their capacity is exceeded will be displayed.
 
 1. Sign in to the **Omnichannel for Customer Service** app.
 
@@ -87,7 +82,8 @@ You can override agent's presence and allocated capacity when assigning conversa
     > ![Select agent or queue option](../media/assign-agent-queue.png "Select either agent or queue option")
 
 4. On the **Assign conversations** dialog box, choose one of the following options:
-  - **Agent:** Select to assign the conversation to an agent, and choose an agent name from the list.
+
+  - **Agent:** Select to assign the conversation to an agent, and choose an agent name from the list. Agents whose presence matches with one of the allowed presence values in the work stream configuration only will be listed.
   - **Queue:** Select a queue from the queues list. All queues are listed except the queue to which the conversation is currently assigned to.
 
 5. Depending on which option you chose in Step 4, choose the agent or queue, and then select **Assign**.
