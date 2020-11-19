@@ -82,7 +82,7 @@ In the **Field Service** section, enter a **Field Service Product Type**, which 
   
 - **Default vendor**: Enter a vendor where this product was purchased from.
   
-- **Taxable**: Choose whether the product or service is taxable.  
+- **Taxable**: Choose whether the product or service is taxable. When this field is set to 'No,' work order products and work order service lines related to this product will be excluded from the work order's tax calculation regardless of the taxable field value on the work order. 
   
 Finally, **Save**. 
 

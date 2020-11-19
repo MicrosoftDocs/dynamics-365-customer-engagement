@@ -30,7 +30,7 @@ This sample shows how to perform various actions on attributes. You can download
 
 ## What this sample does
 
-This sample shows how to create different types of attributes in Common Data Service.
+This sample shows how to create different types of attributes in Dataverse.
 
 ## How this sample works
 

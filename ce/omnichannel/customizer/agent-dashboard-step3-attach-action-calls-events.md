@@ -11,6 +11,8 @@ ms.service: dynamics-365-customerservice
 
 # Step 3:  Attach Omnichannel Agent Dashboard-related action calls to events 
 
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 This topic describes how to attach Omnichannel Agent Dashboard-related action calls to the out-of-the-box events in Unified Service Desk for Dynamics 365 Customer Service.

@@ -19,6 +19,9 @@ monikerRange: '>= dynamics-usd-4.1'
 ---
 
 # Recover a Chrome Process instance
+
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] can help agents to recover the terminated (crashed) webpages hosted in Chrome Process in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].
 
 By default, Chrome Process instance recovery is enabled.

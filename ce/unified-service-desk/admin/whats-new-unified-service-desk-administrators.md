@@ -19,6 +19,8 @@ search.app:
 
 # What's new in Unified Service Desk for administrators
 
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 ::: moniker range="dynamics-usd-4.1"
 
 ## What's new in Unified Service Desk 4.1

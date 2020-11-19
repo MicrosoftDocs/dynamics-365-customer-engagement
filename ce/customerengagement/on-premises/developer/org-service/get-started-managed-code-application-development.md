@@ -26,4 +26,4 @@ This guide shows you how to write application code that connects to the Dynamics
 ### See also  
  [Programming models for Dynamics 365 Customer Engagement (on-premises)](../programming-models.md) <br/> 
  [Quick Start: Organization service sample (C#)](/powerapps/developer/common-data-service/org-service/quick-start-org-service-console-app)  <br/>
- [Use the Common Data Service Organization Service](/powerapps/developer/common-data-service/org-service/overview) <br/>
+ [Use the Dataverse Organization Service](/powerapps/developer/common-data-service/org-service/overview) <br/>

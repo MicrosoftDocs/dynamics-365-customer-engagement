@@ -17,6 +17,9 @@ search.app:
   - D365USD
 ---
 # Hosted control types, actions, and events in Unified Service Desk
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 There are various types of predefined hosted controls available in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] to let you build different controls and user experiences in your agent application. For example, to manage all the connections from your agent application to the Common Data Service platform, you create a hosted control of the **Connection Manager** type. To display data from a model-driven apps page, you create a hosted control of the **CRM Page** type.  
   
 > [!NOTE]

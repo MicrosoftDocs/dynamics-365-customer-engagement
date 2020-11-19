@@ -1,5 +1,7 @@
 # msdyn_conversationdata Entity Reference
 
+[!INCLUDE[cc-data-platform-banner](../../../includes/cc-data-platform-banner.md)]
+
 > [!NOTE]
 > This entity has been deprecated. It will still be visible in the [$metadata](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/web-api-types-operations#bkmk_csdl) document but using it to access Common Data Service data is not supported.
 

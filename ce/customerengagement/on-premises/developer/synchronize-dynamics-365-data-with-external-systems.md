@@ -4,14 +4,11 @@ description: "Learn how to synchronize and integrate Dynamics 365 Customer Engag
 ms.custom: 
 ms.date: 10/01/2019
 author: Jimdaly 
-ms.service: crm-onpremises
+ms.prod: dynamicscrm-2016
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 3290d4ad-874b-4e3d-83ac-0fec47a8af31
-caps.latest.revision: 22
 ms.reviewer: nabuthuk
 ms.author: jdaly
 manager: kvivek
@@ -49,19 +46,19 @@ Sometimes you’ll need to synchronize and integrate Dynamics 365 Customer Engag
 
 ## Define alternate keys for an entity
 
-All Dynamics 365 Customer Engagement (on-premises) records have unique identifiers defined as GUIDs. These are the primary key for each entity. When you need to integrate with an external data store, you might be able to add a column to the external database tables to contain a reference to the unique identifier in Dynamics 365 Customer Engagement (on-premises). This allows you to have a local reference to link to the Dynamics 365 Customer Engagement (on-premises) record. However, sometimes you can’t modify the external database. With alternate keys you can now define an attribute in a Dynamics 365 Customer Engagement (on-premises) entity to correspond to a unique identifier (or unique combination of columns) used by the external data store. This alternate key can be used to uniquely identify a record in Dynamics 365 Customer Engagement (on-premises) in place of the primary key. You must be able to define which attributes represent a unique identity for your records. Once you identify the attributes that are unique to the entity, you can declare them as alternate keys through the customization user interface (UI) or in the code. This topic provides information about defining alternate keys in the data model. To learn more, see [Define alternate keys for an entity](/powerapps/developer/common-data-service/define-alternate-keys-entity) in the Common Data Service documentation.
+All Dynamics 365 Customer Engagement (on-premises) records have unique identifiers defined as GUIDs. These are the primary key for each entity. When you need to integrate with an external data store, you might be able to add a column to the external database tables to contain a reference to the unique identifier in Dynamics 365 Customer Engagement (on-premises). This allows you to have a local reference to link to the Dynamics 365 Customer Engagement (on-premises) record. However, sometimes you can’t modify the external database. With alternate keys you can now define an attribute in a Dynamics 365 Customer Engagement (on-premises) entity to correspond to a unique identifier (or unique combination of columns) used by the external data store. This alternate key can be used to uniquely identify a record in Dynamics 365 Customer Engagement (on-premises) in place of the primary key. You must be able to define which attributes represent a unique identity for your records. Once you identify the attributes that are unique to the entity, you can declare them as alternate keys through the customization user interface (UI) or in the code. This topic provides information about defining alternate keys in the data model. To learn more, see [Define alternate keys for an entity](/powerapps/developer/common-data-service/define-alternate-keys-entity) in the Dataverse documentation.
 
 ## Use alternate keys
 
-You can now use alternate keys to create instances of Entity and EntityReference classes. This topic discusses the usage patterns and possible exceptions that might be thrown when using alternate keys. To understand how to define alternate keys for an entity, see Define alternate keys for an entity. To learn more, see [Using alternate keys](/powerapps/developer/common-data-service/use-alternate-key-create-record) in the Common Data Service documentation.
+You can now use alternate keys to create instances of Entity and EntityReference classes. This topic discusses the usage patterns and possible exceptions that might be thrown when using alternate keys. To understand how to define alternate keys for an entity, see Define alternate keys for an entity. To learn more, see [Using alternate keys](/powerapps/developer/common-data-service/use-alternate-key-create-record) in the Dataverse documentation.
 
 ## Synchronize data with external systems using change tracking
 
-The change tracking feature in Dynamics 365 Customer Engagement (on-premises) provides a way to keep the data synchronized in a performant way by detecting what data has changed since the data was initially extracted or last synchronized. Previously, without this new feature, it was difficult to build a reliable and efficient mechanism to determine what records had changed in Dynamics 365 Customer Engagement (on-premises). This topic discusses how to retrieve changes for an entity. To learn more, see [Use change tracking to synchronize data with external systems](/powerapps/developer/common-data-service/use-change-tracking-synchronize-data-external-systems) in the Common Data Service documentation.
+The change tracking feature in Dynamics 365 Customer Engagement (on-premises) provides a way to keep the data synchronized in a performant way by detecting what data has changed since the data was initially extracted or last synchronized. Previously, without this new feature, it was difficult to build a reliable and efficient mechanism to determine what records had changed in Dynamics 365 Customer Engagement (on-premises). This topic discusses how to retrieve changes for an entity. To learn more, see [Use change tracking to synchronize data with external systems](/powerapps/developer/common-data-service/use-change-tracking-synchronize-data-external-systems) in the Dataverse documentation.
 
 ## Using upsert
 
-You can reduce the complexity involved with data integration scenarios by using the UpsertRequest message. When loading data into Dynamics 365 Customer Engagement (on-premises)from an external system, for example in a bulk data integration scenario, you may not know if a record already exists in Dynamics 365 Customer Engagement (on-premises). In such cases you won’t know if you should call an UpdateRequest or a CreateRequest operation. This results in your querying for the record first to determine if it exists before performing the appropriate operation. You can now reduce this complexity and load data into Customer Engagement more efficiently by using the new UpsertRequest (Update or Insert)message. To learn more, see [Use upsert to update records](/powerapps/developer/common-data-service/use-upsert-insert-update-record) in the Common Data Service documentation.
+You can reduce the complexity involved with data integration scenarios by using the UpsertRequest message. When loading data into Dynamics 365 Customer Engagement (on-premises)from an external system, for example in a bulk data integration scenario, you may not know if a record already exists in Dynamics 365 Customer Engagement (on-premises). In such cases you won’t know if you should call an UpdateRequest or a CreateRequest operation. This results in your querying for the record first to determine if it exists before performing the appropriate operation. You can now reduce this complexity and load data into Customer Engagement more efficiently by using the new UpsertRequest (Update or Insert)message. To learn more, see [Use upsert to update records](/powerapps/developer/common-data-service/use-upsert-insert-update-record) in the Dataverse documentation.
 
 ## Samples
 
