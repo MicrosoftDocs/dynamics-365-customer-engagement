@@ -31,7 +31,9 @@ This topic contains information about changes in [!INCLUDE[pn_unified_service_de
 - Chrome process displays confirmation messages that alerts you before accidental closing of a session or to save a session.
 - Chrome process enables you to add parameters that provide many options to enhance the performance of the chrome web pages.
 - Enables to set a default folder to download attachments.
-- Allows to add multiple headers during the Navigate action of a Unified Service Desk POST event.
+- Add multiple headers during the Navigate action of a Unified Service Desk POST event.
+- Enable or disable Single-Sign-On feature, see [Single sign on for Unified Service Desk](connect-dynamics-365-instance-using-unified-service-desk-client.md#single-sign-on-for-unified-service-desk).
+- Enables to pass the data with special characters to Unified Service Desk client application, see [Enable encoding and escaping of special characters](../create-channel-integration-framework-hosted-control.md#enable-encoding-and-escaping-of-special-characters).
 
 More information: [Use Chrome Process to host web applications in Unified Service Desk](../chrome-process.md)
 
