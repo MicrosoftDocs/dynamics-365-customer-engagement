@@ -31,6 +31,10 @@ search.app:
 
 In this article, we'll walk through a few ways you can pull device data from your IoT connected devices into Connected Field Service.
 
+For an additional walkthrough, check out the following video.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HKuF]
+
 ## Prerequisites
 
 - [Register your IoT Devices](cfs-register-devices.md) before you can pull the latest data into Field Service.
