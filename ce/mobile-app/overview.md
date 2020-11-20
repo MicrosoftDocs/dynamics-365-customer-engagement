@@ -27,7 +27,7 @@ search.app:
 
 Use the [!INCLUDE[pn_dyn-365_phones](../includes/pn-dyn-365-phones.md)] and [!INCLUDE[pn_dyn-365_tablets](../includes/pn-dyn-365-tablets.md)] to run customer engagement apps (such as Dynamics 365 Sales, Dynamics 365 Customer Service, and Dynamics 365 Marketing) on your mobile device. When you download the app and sign-in you'll have access to all the apps that you work with on your mobile device.
 
-Dynamics 365 for phones and Dynamics 365 for tablets apps support customer engagement apps (such as Dynamics 365 Sales, Dynamics 365 Customer Service, and Dynamics 365 Marketing), built on Common Data Service and Dynamics 365 Customer Engagement (on-premises).
+Dynamics 365 for phones and Dynamics 365 for tablets apps support customer engagement apps (such as Dynamics 365 Sales, Dynamics 365 Customer Service, and Dynamics 365 Marketing), built on Microsoft Dataverse and Dynamics 365 Customer Engagement (on-premises).
 
 ## Other mobile apps
 
@@ -39,5 +39,5 @@ There is also a separate mobile app for Field Service. More information, see [Fi
 ## Related topics
 
 [Dynamics 365 Documentation](https://docs.microsoft.com/dynamics365/)<br/>
-[Common Data Service Help](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)<br/>
+[Microsoft Dataverse Help](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)<br/>
  
