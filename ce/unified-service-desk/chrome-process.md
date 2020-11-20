@@ -444,7 +444,7 @@ If you leave the value blank or set the value as **False**, then Chrome Process 
 
 4. Choose **Others** for the **Global Option** field.
 
-5. Type **AllowWebpageNavigationCertificateError** for the **Name** field, and type the value as **True** or comma seperated values (CSV) of the websites you want allow the navigation. For example: `wrong.host.testssl.com,self-signed.testssl.com`. 
+5. Type **AllowWebpageNavigationCertificateError** for the **Name** field, and type the value as **True** or comma separated values (CSV) of the websites you want allow the navigation. For example: `wrong.host.testssl.com,self-signed.testssl.com`. 
 
 6. Select **Save**.
 
