@@ -1,13 +1,10 @@
 ---
 title: "Perform initial configurations (Dynamics 365 Field Service) | MicrosoftDocs"
+description: Learn about how to perform initial configurations for Dynamics 365 Field Service.
 ms.custom: dyn365-fieldservice
 ms.date: 11/11/2020
 ms.reviewer: krbjoran
-ms.suite: 
-ms.technology: 
-  - field-service
-ms.tgt_pltfrm: 
-ms.topic: activate-fs-mobile-app-license
+ms.service: dynamics-365-customerservice
 author: FieldServiceDave
 ms.author: daclar
 ms.manager: shellyhaverkamp

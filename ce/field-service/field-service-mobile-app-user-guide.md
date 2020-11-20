@@ -6,14 +6,7 @@ ms.custom:
 ms.date: 11/11/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
-ms.suite:
-ms.technology:
-  - field-service
-ms.tgt_pltfrm:
-ms.topic: get-started-article
 author: FieldServiceDave
-ms.assetid: 49207db9-d1f0-46e0-ae2c-f4acf4593da9
-caps.latest.revision: 24
 ms.author: daclar
 manager: shellyha
 search.audienceType:

@@ -6,14 +6,8 @@ ms.custom:
 ms.date: 11/19/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.technology: 
-  - field-service
-ms.tgt_pltfrm: 
 ms.topic: article
 author: FieldServiceDave
-ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
-caps.latest.revision: 42
 ms.author: daclar
 manager: shellyha
 search.audienceType: 
@@ -50,7 +44,7 @@ We recommend that you [perform initial configurations](perform-initial-configura
 Sign in as a system administrator and verify that the Field Service application is listed in the main menu. See the following screenshot for reference. If you don't see Field Service, ensure you are signed in as a system administrator. If you still do not see the app, go to the article on [installing Field Service](install-field-service.md). 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/quickstart-apps.png)
+> ![Screenshot of Dynamics 365 showing Field Service in the list of apps.](./media/quickstart-apps.png)
 
 ## 1. Set up users
 
@@ -203,7 +197,7 @@ In the lower pane, find the work order to schedule. This work order is listed in
 To schedule the work order, drag it to the technician's time slot.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/quickstart-schedule-board-4.png)
+> ![Screenshot of the hourly view on the schedule board, showing the time slot.](./media/quickstart-schedule-board-4.png)
 
 > [!NOTE]
 > Make sure you don't schedule the work order in the past. There is a blue vertical line that represents the current time. You may need to adjust the time zone of the schedule board by selecting the gear icon in the top right of the schedule board.

@@ -1,18 +1,12 @@
 ---
 title: "Set up bookable resources (Dynamics 365 Field Service) | MicrosoftDocs"
+description: Learn about bookable resources in Dynamics 365 Field Service, and how to set them up.
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 01/13/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.technology: 
-  - field-service
-ms.tgt_pltfrm: 
 ms.topic: article
-author: krbjoran
-ms.assetid: 7ed1712e-acd6-433b-bb78-22f8d58c5c61
-caps.latest.revision: 14
 ms.author: daclar
 manager: shellyha
 search.audienceType: 
