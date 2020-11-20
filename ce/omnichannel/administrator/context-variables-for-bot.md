@@ -19,7 +19,7 @@ This topic lists the context variables that you can configure for a bot in Power
 
 ## Context variables
 
-The following table contains the list of variables in Omnichannel for Customer Service that can help you configure some of the context variables.
+The following table contains the list of variables in Omnichannel for Customer Service that can help you configure some of the context variables for a bot in [Power Virtual Agents](configure-bot-virtual-agent.md) or [Azure](configure-bot.md).
 
 > [!IMPORTANT]
 > Make sure of the following:
