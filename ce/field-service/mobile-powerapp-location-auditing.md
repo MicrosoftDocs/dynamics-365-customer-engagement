@@ -83,4 +83,4 @@ Here you see a list of locations throughout the day, listed by user.
 > ![Screenshot of advanced find in Field Service, showing a location audit for one user.](./media/mobile-location-geolocation-tracking-results.png)
 
 > [!Note]
-> If you want to correlate technician location with other Field Service entity updates, such as booking resource bookings, go to auditing overview for more info with instructions to enable for your organization and select entities.  
+> If you want to correlate technician location with other Field Service entity updates, such as booking resource bookings, go to [auditing overview](https://docs.microsoft.com/power-platform/admin/audit-data-user-activity) for more info with instructions to enable for your organization and select entities.  
