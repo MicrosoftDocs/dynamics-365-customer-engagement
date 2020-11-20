@@ -13,9 +13,6 @@ applies_to:
 author: FieldServiceDave
 ms.author: daclar
 manager: shellyha
-search.audienceType: 
-  - admin
-  - customizer
 search.app: 
   - D365CE
   - D365FS
