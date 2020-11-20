@@ -7,21 +7,12 @@ ms.date: 11/19/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
-ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 author: FieldServiceDave
-ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
-caps.latest.revision: 42
 ms.author: daclar
 manager: shellyha
-search.audienceType: 
-  - admin
-  - customizer
 search.app: 
   - D365CE
   - D365FS
@@ -83,4 +74,4 @@ Here you see a list of locations throughout the day, listed by user.
 > ![Screenshot of advanced find in Field Service, showing a location audit for one user.](./media/mobile-location-geolocation-tracking-results.png)
 
 > [!Note]
-> If you want to correlate technician location with other Field Service entity updates, such as booking resource bookings, go to [auditing overview](https://docs.microsoft.com/power-platform/admin/audit-data-user-activity) for more info with instructions to enable for your organization and select entities.  
+> If you want to correlate technician location with other Field Service entity updates, such as booking resource bookings, see this [auditing overview](https://docs.microsoft.com/power-platform/admin/audit-data-user-activity) to find instructions.  
