@@ -101,7 +101,7 @@ The mobile project template contains all customizations for the Field Service Mo
 
   The mobile project is updated periodically; [bookmark this website](https://aka.ms/fsmobile-project) for regular access the latest mobile project.
 
-**For previous mobile apps** for D365 for Field Service, see the topic on [Field Service Mobile project template version history](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-mobile#mobile-project-template-version-history). 
+**For previous mobile apps** for D365 for Field Service, see the article on [Field Service Mobile project template version history](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-mobile#mobile-project-template-version-history). 
 
 5. Import the mobile project file.
 > [!div class="mx-imgBorder"]
@@ -158,9 +158,9 @@ The mobile project template contains all customizations for the Field Service Mo
 > [!Note]
 > This is a trial license and is valid for 30 days. The trial can be extended by following the guidance in this article: [Extend Field Service Mobile configuration tool trial](../field-service/activate-fs-mobile-app-license.md).
 
-## Initial set up steps
+## Initial setup steps
 
-Navigate to **Plugins > Delete**.
+Go to **Plugins** > **Delete**.
 
 Select work orders and related work order entities, such as work order products, services, and service tasks.
 
@@ -171,7 +171,7 @@ This helps ensure that when work orders or related records are deleted on the se
 
 **Save**.
 
-Next up, navigate to Mobile Projects and double-click on your mobile project template.
+Next up, go to **Mobile Projects **and double-click on your mobile project template.
 
 Select **Configuration** in the left pane.
 
