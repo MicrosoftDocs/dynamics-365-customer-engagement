@@ -116,18 +116,18 @@ Severity: Medium
 
 ### What it checks
 
-Detects if there are any forms in the system that are referencing Field Service libraries without passing the ```ExecutionContext``` parameter.
+Detects if there are Field Service forms in the system that missing Field Service libraries.
 
 ### Why it fails
 
-Fails if there are Field Service forms that have been modified and do not have the execution context passed in the ```OnLoadHandler```.
+Field Service forms depend on its libraries to function properly. Without this, some functionality might be broken.
 
 > [!Note]
-> The most common scenario where this rule presents a failure is when a copy of one of the out-of-the-box forms is present (Field Service versions earlier than 8.X) and then Field Service is upgraded. In such scenarios, these copied forms from earlier versions of Field Service would be missing the ExecutionContext parameter in these non-out-of-the-box forms.
+> This is currently known to show a false-positive failure on ‘Price Level’ form. This will be addressed in an upcoming release.
 
 ### How to fix
 
-There are forms where the Field Service libraries are missing. This will lead to functional errors when using the form Make sure the Field Service libraries are present on these forms.
+Add back the missing libraries to the form. You might get the list of required libraries by comparing to another form of same entity or on other org. Reach out to support for additional assistance.
 
 ## Customizations on 'Connected Field Service' app module
 
@@ -298,18 +298,18 @@ Severity: High
 
 ### What it checks
 
-Detects if there are any forms in the system that are referencing Field Service libraries without passing the execution context parameter.
+Detects if there are any forms in the system that have event handlers referencing Field Service libraries without passing the execution context parameter.
 
 ### Why it fails
 
-Fails if there are forms where Field Service web resources are used and the execution context attribute is required but not passed to the form. This might happen on custom forms.
+Field Service code expects the execution context parameter to be passed in the OnLoad event handler. If this value is missing it might cause errors while using the form.
 
 > [!Note]
 > The most common scenario where this rule presents a failure is when a copy of one of the out-of-the-box forms is present (Field Service versions earlier than 8.X) and then Field Service is upgraded. In such scenarios, these copied forms from earlier versions of Field Service would be missing the ```ExecutionContext parameter``` in these non-out-of-the-box forms.
 
 ### How to fix
 
-Fix the customizations on the forms to include the execution context parameter.
+Open the form in the designer > double click on each OnLoad event handler > enable ‘pass execution context as first parameter’ > save and publish the form.
 
 ## Incomplete Field Service upgrade
 

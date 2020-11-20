@@ -23,7 +23,7 @@ search.app:
 ---
 # What's supported
 
-You can access customer engagement apps (such as Dynamics 365 Sales, Dynamics 365 Customer Service, and Dynamics 365 Marketing), built on Common Data Service and Dynamics 365 Customer Engagement (on-premises) on your mobile device. To do this, install the Dynamics 365 for phones and tablets mobile app on your iOS, [!INCLUDE[tn_android](../includes/tn-android.md)], and Windows 10 devices. You can also use your tablet’s web browser to run customer engagement apps as long as your device has sufficiently high screen resolution.
+You can access customer engagement apps (such as Dynamics 365 Sales, Dynamics 365 Customer Service, and Dynamics 365 Marketing), built on Microsoft Dataverse and Dynamics 365 Customer Engagement (on-premises) on your mobile device. To do this, install the Dynamics 365 for phones and tablets mobile app on your iOS, [!INCLUDE[tn_android](../includes/tn-android.md)], and Windows 10 devices. You can also use your tablet’s web browser to run customer engagement apps as long as your device has sufficiently high screen resolution.
   
 ## Supported devices for the mobile app
   
@@ -85,7 +85,7 @@ For more information about web browser support, see [Web application requirement
 
 ## Supported languages for [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] 
 
-When the application first loads after installation, it will determine the device language and load the user interface in that language.  Once you sign in and launched an app, the language will be selected based on your personal options or the base language in Common Data Service or Dynamics 365 Customer Engagement (on-premises). If a language is not supported, the user experience will be shown in English. 
+When the application first loads after installation, it will determine the device language and load the user interface in that language.  Once you sign in and launched an app, the language will be selected based on your personal options or the base language in Microsoft Dataverse or Dynamics 365 Customer Engagement (on-premises). If a language is not supported, the user experience will be shown in English. 
 
  [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] support the following languages:  
   

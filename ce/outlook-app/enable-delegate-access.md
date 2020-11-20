@@ -30,9 +30,9 @@ The term "whitelisted" is discouraged by the Msft style guide. Can we substitute
 
 # Set up delegate access 
 
-Set up delegate access to allow someone to track Common Data Service information using the Dynamics 365 App for Outlook.
+Set up delegate access to allow someone to track Microsoft Dataverse information using the Dynamics 365 App for Outlook.
 
-Set up delegate access in Outlook to give someone permission to act on your behalf. For example, you might want an assistant to create and respond to email or meeting requests for you and then track the information in Common Data Service using the Dynamics 365 App for Outlook.
+Set up delegate access in Outlook to give someone permission to act on your behalf. For example, you might want an assistant to create and respond to email or meeting requests for you and then track the information in Microsoft Dataverse using the Dynamics 365 App for Outlook.
 
 ## Prerequisites
 
@@ -47,7 +47,7 @@ Set up delegate access in Outlook to give someone permission to act on your beha
 <!--from editor: Is it OrgDBOrgSetting or OrgDBOrgSettings (with s on the end)? Or are they different? -->
 
 
-To enable delegate access, you need to enable the **OrgDBOrgSetting** in your organization. Common Data Service apps provide the **OrgDBOrgSettings** tool that gives administrators the ability to implement specific updates that were previously reserved for registry implementations.
+To enable delegate access, you need to enable the **OrgDBOrgSetting** in your organization. Microsoft Dataverse apps provide the **OrgDBOrgSettings** tool that gives administrators the ability to implement specific updates that were previously reserved for registry implementations.
 
 Follow the instructions in this [Microsoft Support article](https://support.microsoft.com/en-us/help/2691237/orgdborgsettings-tool-for-microsoft-dynamics-crm) for steps to extract the tool. After extracting the tool, enable **OrgDBOrgSettings TrackAppointmentsFromNonOrganizer** and **DelegateAccessEnabled**.
 
