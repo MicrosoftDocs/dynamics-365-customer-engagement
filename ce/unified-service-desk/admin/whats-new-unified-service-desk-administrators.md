@@ -116,7 +116,7 @@ Unified Interface Settings is a new configuration element introduced under the *
 ### Show feedback window to agents
 A feedback window is introduced in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to help an agent to provide feedback while closing the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application. Agents can provide feedback comments with the score and submit it to [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)]. The comments are assessed and considered for improving the products and services.
 
-[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Mange options for Unified Service Desk](../admin/manage-options-unified-service-desk.md)
+[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage options for Unified Service Desk](../admin/manage-options-unified-service-desk.md)
 
 ::: moniker-end
 
@@ -172,7 +172,7 @@ Unified Interface Settings is a new configuration element introduced under the *
 ### Show feedback window to agents
 A feedback window is introduced in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to help an agent to provide feedback while closing the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application. Agents can provide feedback comments with the score and submit it to [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)]. The comments are assessed and considered for improving the products and services.
 
-[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Mange options for Unified Service Desk](../admin/manage-options-unified-service-desk.md)
+[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage options for Unified Service Desk](../admin/manage-options-unified-service-desk.md)
 
 ::: moniker-end
 
