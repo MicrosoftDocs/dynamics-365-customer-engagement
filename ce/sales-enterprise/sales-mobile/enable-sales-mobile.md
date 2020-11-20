@@ -20,7 +20,8 @@ Field sellers spend a lot of time on the road, traveling to meet customers. On-t
 Before field sellers can use the Dynamics 365 Sales mobile app, you must enable it.
 
 > [!IMPORTANT]
-> For the Dynamics 365 Sales mobile app to work, you must enable Relevance Search for the environment in which you enable the mobile app. For information on Relevance Search and how to enable it, see [Configure Relevance Search to improve search results and performance](https://docs.microsoft.com/power-platform/admin/configure-relevance-search-organization)
+> - For the Dynamics 365 Sales mobile app to work, you must enable Relevance Search for the environment in which you enable the mobile app. For information on Relevance Search and how to enable it, see [Configure Relevance Search to improve search results and performance](https://docs.microsoft.com/power-platform/admin/configure-relevance-search-organization)
+> - To set regarding record for a meeting, you must enable server-side synchronization in your environment. More information: [Server-side synchronization](https://docs.microsoft.com/power-platform/admin/server-side-synchronization)
 
 **To enable Dynamics 365 Sales mobile app**
 

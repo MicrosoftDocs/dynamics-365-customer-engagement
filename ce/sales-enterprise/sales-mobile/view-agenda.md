@@ -66,7 +66,7 @@ You'll see important details such as:
         ![More menu of a connected record](media/sm-more-menu-regarding-record.png "More menu of a connected record")
 
 > [!NOTE]
-> If there's no regarding record set, you'll see a message "No connected record". Select **Set regarding**, and then from the Set regarding page, either select a recent record, or select **Search** to look for other records. You'll be able to set the regarding record only if server-side synchronization is enabled in your environment. More information: [Server-side synchronization](https://docs.microsoft.com/power-platform/admin/server-side-synchronization)
+> If there's no regarding record set, you'll see a message "No connected record". Select **Set regarding**, and then from the Set regarding page, either select a recent record, or select **Search** to look for other records. You'll be able to set the regarding record only if server-side synchronization is enabled in your environment. Contact your administrator to enable server-side synchronization in your environment.
 
 ## View reminders and insights
 

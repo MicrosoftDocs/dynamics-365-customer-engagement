@@ -19,12 +19,12 @@ In contrast to the Dynamics 365 for phones and tablets app, which is a model-dri
 
 With the Dynamics 365 Sales mobile app, you can do the following and much more:
 
--   Plan your day. Before you start your day, you would certainly want to see what's lined up for the day. You could quickly see your customer meetings reminders or insights for the day.
+-   Plan your day: Before you start your day, you would certainly want to see what's lined up for the day. You could quickly see your customer meetings reminders or insights for the day.
 
--   Post meeting work. After you're out of a meeting, you can quickly add notes, create contacts, or update data in relevant records.
+-   Post meeting work: After you're out of a meeting, you can quickly add notes, create contacts, or update data in relevant records.
 
--   Find info and act. Find a contact you want to reach out to with ease or find the recent records you worked on.
+-   Find required information and act accordingly: Find a contact you want to reach out to with ease or find the recent records you worked on.
 
-This app is available for download on the app stores iOS and Android devices.
+This app is available for download on the app stores of iOS and Android devices.
 
 
