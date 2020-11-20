@@ -350,7 +350,7 @@ Step 2: Go to Settings > Security > Users, navigate to the Application Users vie
 > ![Screenshot of ](./media/SRStep1.png)
 
 
-Step 3: Use Advance Find to create a query to find users that have first name containing "Resource Scheduling". Edit columns to include created date to easily decipher when the resource scheduling optimization user was created. 
+Step 3: Simply find the user named "Resource Scheduling Optimization" this user is created when RSO is deployed. You can also use Advance Find to create a query to find users that have first name containing "Resource Scheduling". Edit columns to include created date to easily decipher when the resource scheduling optimization user was created. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/SRStep2.png)
@@ -371,9 +371,6 @@ Step 4: Go to the newly created user view and ensure both Resource Scheduling Op
 ### How to copy Field Security Profiles
 Step 1: Login into environment as admin user. 
 
-
-
-
 Step 2: Go to Settings > Security > Field Security Profiles view
 
 > [!div class="mx-imgBorder"]
@@ -383,14 +380,14 @@ Step 2: Go to Settings > Security > Field Security Profiles view
 > ![Screenshot of ](./media/FSPStep2.png)
 
 
-Step 3: Use Advance setting to create a query to find Field Security Profiles that have users with First name containing resource scheduling 
+Step 3: Simply find the user named "Resource Scheduling Optimization" this user is created when RSO is deployed. Use Advance setting to create a query to find Field Security Profiles that have users with First name containing resource scheduling 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/FSPStep3.png)
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/FSPStep4.png)
 
-Step 4: Add Resource scheduling Optimization users to the Field Security Profiles that contain Resource Scheduling including "Resource Scheduling Optimization - Administrator" and "Resource Scheduling Optimization-Dispatcher". 
+Step 4: Add Resource scheduling Optimization users to the "Resource Scheduling Optimization - Administrator" and "Resource Scheduling Optimization-Dispatcher" Field Security Profiles.
  
 Step 5: Ensure Field Security Profiles have consistent permissions when comparing the old and new app user. 
 
