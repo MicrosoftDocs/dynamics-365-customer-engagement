@@ -22,7 +22,7 @@ search.app:
 
 Perform these configuration steps after you deploy the RSO solution.
 
-## Enable RSO
+## Enable resource scheduling optimization
 
 1. Go to **Resource Scheduling Optimization** \> **Administration** \>
     **Resource Scheduling Parameters**.
@@ -44,7 +44,7 @@ Perform these configuration steps after you deploy the RSO solution.
      > [!NOTE]
      > Only a user with the system administrator role can enable this setting. 
 
-## Add required security roles to users who will configure and run RSO
+## Add required security roles to users who will configure and run resource scheduling optimization
 
 2. Go to **Settings** \> **Security** \> **Users**, navigate to the
     **Application Users** view, and assign the Field Service - Administrator
