@@ -1,5 +1,6 @@
 ---
-title: Resource Scheduling Optimization (RSO) configuration
+title: Resource scheduling optimization configuration in Dynamics 365 Field Service
+description: Learn how to configure resource scheduling optimization in Dynamics 365 Field Service
 author: FieldServiceDave
 ms.author: daclar
 ms.reviewer: krbjoran
