@@ -97,7 +97,7 @@ By default, GDPR features such as consent management are disabled on new Dynamic
 1. The **GDPR Configuration** form opens.
 
 
-      > [!div class="mx-imgBorder"]
+    > [!div class="mx-imgBorder"]
     > ![The GDPR configuration form](media/gdpr-config2.png)
 
     Make the following settings:
@@ -241,6 +241,9 @@ To add a comment about why you changed the consent level of a contact, or to rev
 1. Select the **Related** tab to open a drop-down list of related record types and then select **GDPR consent change records** from the drop-down list. A list of GDPR consent change records opens as a new tab for the contact record. These records are created automatically when there is a consent level change.
 
 1. If you'd like to export this list, select the **Export** button on the command bar.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of GDPR consent change records](media/gdpr-inspect-consent-changes.png)
 
 ### Enable auditing to log all record changes
 
