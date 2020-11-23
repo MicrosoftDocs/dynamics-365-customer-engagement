@@ -316,7 +316,7 @@
 #### [Install the app](sales-mobile/install-app.md)
 #### [Your first experience](sales-mobile/first-experience.md)
 #### [Use the Dynamics 365 Sales mobile app](sales-mobile/use-sales-mobile-app.md)
-#### [View agenda](sales-mobile/view-agenda.md)
+#### [View meetings](sales-mobile/view-agenda.md)
 #### [Open a record](sales-mobile/open-record.md)
 #### [Create a contact](sales-mobile/create-contact.md)
 #### [View, edit, or add a note](sales-mobile/view-edit-add-note.md)
