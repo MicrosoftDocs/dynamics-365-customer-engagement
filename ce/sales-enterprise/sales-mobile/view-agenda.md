@@ -40,7 +40,7 @@ To see more meetings for the day, tap **Meetings** either on the home page or on
 
 ## See meeting details
 
-To see details of a specific meeting, tap the meeting record either on the home page or the calendar view.
+To see details of a specific meeting, tap the meeting record either on the home page or the calendar view. The meeting details are displayed.
 
 ![Meeting details](media/sm-meeting-details.png "Meeting details")
 
