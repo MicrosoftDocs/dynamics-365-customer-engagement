@@ -13,16 +13,28 @@ manager: shujoshi
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-Contact can be created from a Meeting attendee list or from the home page:
+You can create a contact from the home page or from a meeting's attendees list. The contact from the meeting's attendees list can be created only if the attendee is not a Dynamics 365 contact.
 
--   In the Meeting attendee list, if there's a participant who is not a Dynamics 365 contact, you will see a **Create a contact** link. Tap the link to create a contact record in Dynamics 365.
+**To create a contact from a meeting's attendees list**
 
--   To create a contact from the home page, select the Plus icon ![Plus icon](media/sm-plus-icon.png "Plus icon") from the bottom navigation bar, and then select **Add a contact**.
+1.  In the meeting's attendees list, tap the attendee to see its details.
 
-The Create a contact form opens.
+    ![Tap an attendee](media/sm-tap-attendee.png "Tap an attendee")
 
-![Create a contact form](media/sm-create-contact-form.png "Create a contact form")
+2.  Tap **Create contact**.
 
-Fill in the details, and tap **Save**. Alternately, tap on **Scan a business card** to create a contact from a scanned business card.
+    ![Tap Create contact](media/sm-create-contact-attendee.png "Tap Create contact")
 
+3.  In the **Create a contact** form, fill in the details, and then tap **Save**.
+
+
+**To create a contact from the home page**
+
+1.  Tap ![Plus icon](media/sm-plus-icon.png "Plus icon") on the bottom navigation bar.
+
+2.  Tap **Add a contact**.
+
+    ![Add a contact](media/sm-add-contact.png "Add a contact")
+
+3.  In the **Create a contact** form, fill in the details, and then tap **Save**.
 

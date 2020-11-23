@@ -25,7 +25,7 @@ With the Dynamics 365 Sales mobile app, you will be able to quickly:
 
 -   Find and act on records
 
-The home page shows items that are most relevant to you and help you plan your day better, such as
+The home page shows items that are most relevant to you and help you plan your day better, such as:
 
 -   Your upcoming meetings
 
@@ -37,34 +37,50 @@ The home page shows items that are most relevant to you and help you plan your d
 
 ## Familiarize with the home page
 
-The home page gives you a quick access to what's most important to you.
+The home page gives you a quick access to what's most important to you. The home page is divided into the following sections:
 
-![Home screen](media/sm-home-screen.png "Home screen")
+### Meetings
 
-![Home screen](media/sm-home-screen1.png "Home screen")
+Shows important information about your one previous and one upcoming meeting for the day. More information: [View agenda](view-agenda.md)
 
-![Home screen](media/sm-home-screen2.png "Home screen")
+![Meetings displayed on home screen](media/sm-meetings-home.png "Meetings displayed on home screen")
 
-| Section     | Descriptions   |
-|--------------|--------------------|
-| a. Home    | Lets you open site map and navigate to different parts of the app   |
-| b. Meetings    | Shows important information about your one previous and one upcoming meeting for the day. More information: [View agenda](view-agenda.md)    |
-| c. Recent contacts   | Lets you quickly open the contacts you've recently accessed. The records open in a Quick view form. When you select the chevron, an extended list is shown.     |
-| d. Recent records   | Shows the recent records you've worked on, such as an account or opportunity. When you select the chevron, an extended list is shown. From this list, you can also pin the records so they start showing up in the Pinned view. To see more details of a specific record, open it. More information: Open records |
-| e. Reminders and insights | Shows action cards from relationship assistant. The cards show up to 5 reminders and insights items. If your admin has created custom cards, they can be shown here, too.<br>When you select the chevron, an extended list is shown. Tap a reminder or insight to see its details in a card. Select Open in the card to open the reminder or insight card in a Unified Interface form.<br>Use the **More actions** menu to take further actions on the reminders, such as, dismiss, snooze, or mark it as useful or not useful. |
-| f. Navigation bar  | Lets you quickly access important pages such as Home, Search, and more… More information: [Navigate through the app](#navigate-through-the-app) |
+### Recent contacts
+
+Lets you quickly open the contacts you've recently accessed. Select **Recent contacts** to view an extended list. You can tap a contact to view its details.
+
+![Recent contacts displayed on home screen](media/sm-contacts-home.png "Recent contacts displayed on home screen")
+
+### Recent records
+
+Shows the recent records you've worked on, such as an account or opportunity. Select **Recent records** to view an extended list. You can tap a record to view its details. More information: [Open a record](open-record.md)
+
+![Recent records displayed on home screen](media/sm-records-home.png "Recent records displayed on home screen")
+
+### Reminders and insights
+
+Shows action cards from relationship assistant. The cards show up to five reminders and insights items. If your administrator has created custom cards, they can be shown here, too.
+
+When you select **Reminders** or **Insights**, an extended list is shown. Tap a reminder or an insight to see its details in a card. Tap **Open** in the card to open the reminder or the insight card.
+
+Use the **More actions** menu to take further actions on the reminders, such as, dismiss, snooze, or mark it as helpful or not helpful.
+
+![Recent records displayed on home screen](media/sm-reminders-insights-home.png "Recent records displayed on home screen")
+
 
 ## Navigate through the app
 
-You can use the bottom navigation bar to navigate through the app. From anywhere in the app:
+You can use the bottom navigation bar to navigate through the app.
 
 ![Navigation bar](media/sm-navigation-bar.png "Navigation bar")
 
--   Select the Home icon to go to the home page.
+From anywhere in the app:
 
--   Select the Search icon to search for records. More information: Search for records
+-   Tap **Home** to go to the home page.
 
--   Select the Meetings icon to go to the Agenda view.
+-   Tap **Search** to search for records. More information: Search for records
 
--   Select More icon to open items in Unified interface.
+-   Tap **Meetings** to go to the Agenda view.
+
+-   Tap **More** to open items in Unified Interface.
 
