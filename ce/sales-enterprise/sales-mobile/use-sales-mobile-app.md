@@ -78,9 +78,9 @@ From anywhere in the app:
 
 -   Tap **Home** to go to the home page.
 
--   Tap **Search** to search for records. More information: Search for records
+-   Tap **Search** to search for records.
 
--   Tap **Meetings** to go to the Agenda view.
+-   Tap **Meetings** to go to the calendar view.
 
 -   Tap **More** to open items in Unified Interface.
 
