@@ -4,7 +4,7 @@ description: "Learn about sample code for softphone integration using Dynamics 3
 author: ramana-hyd
 ms.author: v-rmurthy
 manager: shujoshi
-ms.date: 02/11/2020
+ms.date: 11/17/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -66,6 +66,7 @@ ms.custom:
    | Field | Description |
    |-------|-------|
    |Name|Name of the channel provider.<br><br> Example: Contoso|
+   |Unique Name|A unique identifier in the <*prefix*>_<*name*> format. <br>**IMPORTANT:** The following are required for the unique name:<ul><li> The prefix can only be alphanumeric and its length must be between 3 to 8 characters.</li><li>An underscore must be there between the prefix and name</li></ul>|
    |Label|The label is displayed as the title on the widget.<br><br> Example: Contoso|
    |Channel URL| The channel URL is in the format: `<azure_app_service_url>?base=<crm_base_url>`<br /><br />**Note:** For this sample, the URL is `https://sampleinteg.azurewebsites.net?base=https://sampleorg.crm10.dynamics.com`. |
    |Enable Outbound Communication| Yes |
