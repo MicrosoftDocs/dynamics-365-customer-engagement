@@ -4,7 +4,7 @@ description: "Learn how to use automation dictionary to pass parameter keys in D
 author: ramana-hyd
 ms.author: v-rmurthy
 manager: shujoshi
-ms.date: 10/25/2019
+ms.date: 11/19/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -50,7 +50,7 @@ The automation dictionary uses the context data parameters that are available fr
 
 ### Context data from the channel provider 
 
-This context data is from a first-party channel provider such as Omnichannel for Customer Service or third-party channel provider that uses the widget exposed by Dynamics 365 Channel Integration Framework. The context data from Omnichannel for Customer Service are pre-chat survey, visitor portal navigation, and so on.
+This context data is from a first-party channel provider such as Omnichannel for Customer Service or third-party channel provider that uses the widget exposed by Dynamics 365 Channel Integration Framework. You can pass context data from your Channel Integration Framework widget into the automation dictionary by using the [updateContext API](../reference/microsoft-ciframework/updateContext.md) from within your widget. You can pass any data through, but common examples include customer name, customer phone number, and data points collected from a phone IVR. You can then reference this data in the automation dictionary as slugs in templates and productivity tools like macros and agent scripts.
 
 ### Context data from the user actions 
 
