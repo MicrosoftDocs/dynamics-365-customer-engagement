@@ -1,3 +1,20 @@
+## Version 3.12.33.8
+
+- When Quick Book is enabled on a schedulable entity and the requirement record is generated post Booking record creation, the From Date, To Date and Duration attributes on Booking Setup Metadata record were not correctly mapped to the From Date, To Date and Duration fields of the Resource Requirement generated. This bug is now fixed.
+- When URS is used as the Scheduling engine for Appointments, and a System User, who does not have an associated Bookable Resource record, creates an Appointment throws an error. This bug is now fixed.
+- Fixed a bug on the legacy Schedule Board, where selecting an empty timeslot on the board, and on searching for lookup records, all resource requirement records in the system show up instead of those matching the selected requirement panel at the bottom.
+- Fixed an issue where non-admin Field Service users cannot update the Booking records due to insufficient privilege on entity msdyn_schedulingfeatureflag. This bug is now fixed.
+- When a Booking is cancelled on the Schedule Board and then the workorder (or requirement) record is again dragged to the same resource after the cancelled Booking, the travel time is incorrectly calculated as zero from the previous cancelled booking. This bug is now fixed and the travel time is correctly calculated from the previous Resource location.
+- Fixed an issue where, custom DateTime fields from Requirement record’s associated entities like Work Order are not respecting Schedule Board tab time zone in requirements panel. With this fix, all DateTime fields on the Requirement panel will be shown in the Timezone of the Schedule board tab.
+- When a Work hours template with a time off is applied to another resource, the Time off description/title is not getting copied. This bug is now fixed.
+- When a multi-day booking is created with out an associated Resource requirement record, changing Booking status on the Booking, throws an error, this issue is now fixed.
+- The Schedule assistant calculates the distance and travel time for the Resources to the Booking via the default map provider Bing, this is only enabled when the field “connect to maps” is set to yes. There was an issue where regardless of the value selected, Schedule Assistant always used the default map provider to calculate Distance and Travel time. This bug is now fixed.
+- Fixed an issue where updates to the Bookings of a Crew type resource are not made, when Booking rules are used. This bug is now fixed, updates to the Crew Bookings will be made, even when Booking rules are used.
+- Fixed scroll jumping issue on the Filter pane of the legacy Schedule board for certain custom Filter panel layouts.
+- Fixed an issue where there are multiple time-off hours are used on a single day for a Resource, the working hours are not correctly calculated, and so incorrect working hours are reflected on the Schedule Board.
+- Incomplete Resource available time slots were shown on the legacy Schedule Assistant grid view when the Fulfilment preferences Intervals were used on the Resource Requirement record. This issue is now fixed, and the complete Resource available timeslots are shown.
+- When Quick Book is enabled and used, the Resource available timeslots would respect the ‘Book based on’ setting on the default Schedule Board settings and will show the resource available timeslots based on value chose for **Book based on**,ie.,**Estimated arrival time** or **Start Time**.
+
 ## Version 3.12.32.1
 
  - Fixed a bug on the legacy schedule board, when find **Substitution functionality** is used with in the schedule assistant, the UI was frozen. With this bug fix, **Find Substitution*** functionality can be used with in the schedule assistant mode. 
