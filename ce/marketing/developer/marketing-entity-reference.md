@@ -1,6 +1,6 @@
 ---
 title: "Dynamics 365 Marketing entity reference (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
-description: "Know about the installed solutions, entities, and custom actions in your marketing organization."
+description: "Learn about the installed solutions, entities, and custom actions in Dynamics 365 Marketing."
 keywords: developer; dev; developer guide; system configuration
 ms.date: 01/25/2019
 ms.service: dynamics-365-marketing
@@ -40,19 +40,19 @@ To view information about all the entities and their properties, attributes, and
 
 In your Dynamics 365 Marketing instance, select **Dynamics 365** >  **Metadata Tools** to open the app.
 
-![](../media/dev-metadata-browser-app.png)
+![Metadata Tools menu selection](../media/dev-metadata-browser-app.png "Metadata Tools menu selection")
 
 The app provides entity reference data under two views:
 
-- **Entities** is the default view when you open the app. More information: [Entities view in Entity Metadata Browser](#entities-view-in-entity-metadata-browser) 
+- **Entities** is the default view when you open the app. More information: [Entities view in the Entity Metadata Browser](#entities-view-in-the-entity-metadata-browser) 
 
-    ![](../media/dev-metadata-browser-tool.png)
+    ![Screenshot of the entities view](../media/dev-metadata-browser-tool.png "Screenshot of the entities view")
 
 - Select **Tools** > **Entity Metadata** for the **Entity Metadata** view to inspect individual entities. More information: [Entity Metadata view in Entity Metadata Browser](#entity-metadata-view-in-entity-metadata-browser)
 
-    ![](../media/dev-metadata-browser-tool-EM.png)
+    ![Screenshot of entity metadata](../media/dev-metadata-browser-tool-EM.png "Screenshot of entity metadata")
 
-## Entities view in Entity Metadata Browser
+## Entities view in the Entity Metadata Browser
 You can perform the following actions:
 
 - **View Entity Details**: Select an entity to view using the **Entity Metadata** view.
