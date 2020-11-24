@@ -1,22 +1,25 @@
 ---
-title: "Dynamics 365 Marketing solutions (Dynamics 365 Marketing Developer Guide) | MicrosoftDocs"
+title: "Dynamics 365 Marketing solutions (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Know about the installed solutions in your marketing organization."
-ms.custom: 
+keywords: developer; dev; developer guide; system configuration
 ms.date: 04/01/2018
-ms.service: crm-online
-ms.technology: 
-  - marketing
-ms.topic: conceptual
-ms.assetid: 36cebc83-203f-4afc-9070-efebd8b592ec
-author: KumarVivek
-ms.author: kvivek
-manager: amyla
+ms.service: dynamics-365-marketing
+ms.custom: 
+  - dyn365-marketing
+ms.topic: developer-guide
+ms.assetid: 1f1a8244-2dc5-4de2-b7f8-719a46c82861
+author: alfergus
+ms.author: alfergus
+manager: shellyha
+ms.reviewer:
+topic-status:
 search.audienceType: 
   - developer
 search.app: 
   - D365CE
   - D365Mktg
 ---
+
 # Dynamics 365 Marketing solutions
 
 Dynamics 365 Marketing adds the following solutions to your instance:

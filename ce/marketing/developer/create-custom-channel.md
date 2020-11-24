@@ -1,22 +1,25 @@
 ---
-title: "Create a custom channel for customer journey (Dynamics 365 Marketing Developer Guide) | MicrosoftDocs"
-description: "Creating a custom channel for customer journeys involves using the extensibility infrastructure provided for model-driven apps in Dynamics 365 such as custom entities, workflows, plugins, and web resources, which allows developers and partners to leverage their existing knowledge of Dynamics 365."
-ms.custom: 
+title: "Create a custom channel for customer journey (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
+description: "Creating a custom channel for customer journeys involves using the extensibility infrastructure provided for model-driven apps in Dynamics 365 such as custom entities, workflows, plugins, and web resources, allowing developers and partners to leverage their existing knowledge of Dynamics 365."
+keywords: developer; dev; developer guide; system configuration
 ms.date: 04/01/2018
-ms.service: crm-online
-ms.technology: 
-  - marketing
-ms.topic: conceptual
-ms.assetid: 30a97860-1369-400b-8931-5d070daea4f9
-author: KumarVivek
-ms.author: kvivek
-manager: amyla
+ms.service: dynamics-365-marketing
+ms.custom: 
+  - dyn365-marketing
+ms.topic: developer-guide
+ms.assetid: 1f1a8244-2dc5-4de2-b7f8-719a46c82861
+author: alfergus
+ms.author: alfergus
+manager: shellyha
+ms.reviewer:
+topic-status:
 search.audienceType: 
   - developer
 search.app: 
   - D365CE
   - D365Mktg
 ---
+
 # Create a custom channel for customer journey
 
 Creating a custom channel for customer journeys involves using the extensibility infrastructure provided for model-driven apps in Dynamics 365 (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing, and Dynamics 365 Project Service Automation). These include custom entities, workflows, plugins, and web resources, which allow developers and partners to leverage their existing knowledge of Common Data Service. For detailed information about these concepts, see [Developer Guide for Common Data Service](/powerapps/developer/common-data-service/overview). 
