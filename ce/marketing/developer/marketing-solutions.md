@@ -45,11 +45,11 @@ To view entities and other components in a solution, use the solution browser in
 
 1. Select **Settings** > **Solutions**.
 
-    ![](../media/dev-browse-solutions.png)
+    ![Screenshot of the Settings menu](../media/dev-browse-solutions.png "Screenshot of the Settings menu")
 
 2. From the list of solution, select the **Display Name** of the solution that you want to view the information for.
 3. In the solution explorer, select **Components** in the left pane to view entities and other solution components in the solution. You can select each component in the left pane to view just the selected component.
 
-    ![](../media/dev-marketing-solution-browser.png)
+    ![The Components list](../media/dev-marketing-solution-browser.png "The Components list")
 
 For detailed information about entities and their properties, attributes, and relationships, see [Dynamics 365 Marketing entity reference](marketing-entity-reference.md)
