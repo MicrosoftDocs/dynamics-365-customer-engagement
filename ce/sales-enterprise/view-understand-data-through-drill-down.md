@@ -52,11 +52,12 @@ By default, when you open a forecast, no drill-down choice is selected and the i
 ## View and understand the drill-down data
 
 After you've selected a drill-down category, the icon for each row is active and the data is grouped according to the drill-down selection.    
->[!NOTE]
->If you are unable to view the drill-down data, see [Unable to view drill down data in a forecast grid](ts-forecasts.md#unable-to-view-drill-down-data-in-a-forecast-grid).  
 For example, select the drill-down option as Account and the data in the forecast is grouped according to the accounts that are associated with the opportunities. Here we want to view the contribution of each account to the value of each category of **Kenny Smith**.   
 Select the drill-down icon corresponding to **Kenny Smith**. All the accounts with values that are contributing to Kenny's forecast are displayed.    
 For simple column types such as **Quota**, the values are displayed as **Not applicable** because these values are uploaded manually to forecast. Also, for the **Prediction** column, the values are displayed as **Not applicable** because the prediction values aren't based on a drill-down entity.
+
+>[!NOTE]
+>If you are unable to view the drill-down data, see [Unable to view drill down data in a forecast grid](ts-forecasts.md#unable-to-view-drill-down-data-in-a-forecast-grid). 
 
 At the bottom of the table, a **blank** row is created with values for the opportunities that aren't related to any account.    
 > [!div class="mx-imgBorder"]
