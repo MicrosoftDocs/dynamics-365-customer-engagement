@@ -96,12 +96,12 @@ To add the code snippet, you need to follow the steps below:
 1. Navigate to the **Marketing** app and go to **Marketing forms**
 2. Choose **New** to create a new marketing form.
 3. Select **Go live**.
-4. Select the **Form hosting** tab and under the **Whitelist rules**, select **...** and **Add New Form whitelist rule**.
+4. Select the **Form hosting** tab and under the **Whitelist rules**, select **...** and **+ New Form whitelist rule**.
     > [!div class="mx-imgBorder"]
-    > ![Form Hosting Tab](../media/form-hosting-whitelist-rule-page.png "Form Hosting Tab")
+    > ![Form Hosting Tab](../media/form-hosting-allow-list-rule-page.png "Form Hosting Tab")
 
 5. Add your own CMS domain and select **Save**.
-6. In the **From hosting** tab, under the **Related marketing form pages** tab, select **...** and **Add New Form Page** to add a marketing form page.
+6. In the **From hosting** tab, under the **Related marketing form pages** tab, select **...** and **+ New Form Page** to add a marketing form page.
     > [!div class="mx-imgBorder"]
     > ![Related Marketing Form Pages](../media/form-hosting-related-marketing-form-pages.png "Related Marketing Form Pages")
 
@@ -113,7 +113,6 @@ To add the code snippet, you need to follow the steps below:
 9. Now in your CMS, edit the page where you want to include the form, add your customizations and script.
     > [!div class="mx-imgBorder"]
     > ![Ad customizations to CMS](../media/add-code-to-cms-site.png "Add customization to CMS")
-
 
 ## Examples 
 
