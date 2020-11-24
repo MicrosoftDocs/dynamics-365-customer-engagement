@@ -158,7 +158,7 @@ In Power Virtual Agents, do the following:
 2. On the **Setup** tab, enter a name and description, and save the topic.
 3. Select **Go to authoring canvas**.
 4. Select **Add node**, choose the **Ask a question** action.
-5. Edit the **Identify** field, and in the **Choose information to identify** dialog box, select an option that will match the context variable data type. For information on the data type mapping, see [Data type mappings for context variables](context-variables-for-bot.md).
+5. Edit the **Identify** field, and in the **Choose information to identify** dialog box, select an option that will match the context variable data type. For information on the data type mapping, see the information in the table in [context variables](context-variables-for-bot.md).
 6. Edit **Save response as**, and in the **Variable Properties** dialog box, update the value for **Name** with the required Omnichannel for Customer Service context variable. Make sure **Bot (any topic can access)** and **External sources can set values** are selected.
     > ![Configure context variable in a topic](../media/Configure-bot-context-variable.png "Configure context variable in a topic")
 

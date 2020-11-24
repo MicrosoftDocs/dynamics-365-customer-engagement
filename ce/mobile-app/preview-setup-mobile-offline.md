@@ -29,7 +29,7 @@ search.app:
 
 Set up mobile offline synchronization to allow users to work in offline mode on their mobile device. Mobile offline allows your users to use the mobile app in offline mode to interact with their data, even when they are not connected to the internet. 
 
-The mobile app provides a rich offline experience and helps you to stay productive. You can use basic commands such as create, read, update, and delete when you are offline. Once you are back online, the changes you made on the mobile app are automatically synchronized with Common Data Service.
+The mobile app provides a rich offline experience and helps you to stay productive. You can use basic commands such as create, read, update, and delete when you are offline. Once you are back online, the changes you made on the mobile app are automatically synchronized with Microsoft Dataverse.
 
 To allows users to use this feature, an administrator will need to set up mobile offline for their organization as outlined below.
   

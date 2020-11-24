@@ -15,7 +15,7 @@ Closes the app tab in the current session.
 
 ## Syntax
 
-`Microsoft.Apm.focusTab(tabId).then(successCallback, errorCallback);`
+`Microsoft.Apm.closeTab(tabId).then(successCallback, errorCallback);`
 
 ## Parameters
 

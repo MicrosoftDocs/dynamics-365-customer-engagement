@@ -26,7 +26,7 @@ search.app:
 # Work offline on your mobile device
 
 
-Work with your data in offline mode even when you don't have internet access. The mobile app provides a rich offline experience that lets you work with commands like create, read, update, and delete along with some special commands—so you always stay productive. Once you're back online, changes you've made are synchronized with your apps in the Common Data Service environment.
+Work with your data in offline mode even when you don't have internet access. The mobile app provides a rich offline experience that lets you work with commands like create, read, update, and delete along with some special commands—so you always stay productive. Once you're back online, changes you've made are synchronized with your apps in the Microsoft Dataverse environment.
 
 If you're working on a record and lose network connection, any updates made to the record are saved in offline mode and will be synchronized to the app once you're back online. When the record is synchronized with the app, it follows the filter rule for availability in offline mode.
 

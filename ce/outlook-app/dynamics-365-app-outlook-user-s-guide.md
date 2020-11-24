@@ -26,7 +26,7 @@ search.app:
 Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-outlook.md)] to tap the power of your Dynamics 365 apps while you’re using [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] on the desktop, web, or phone. When [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] is installed, depending on which version of  the app you have installed, you'll see a **Dynamics 365** pane or window next to a selected [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] email message, or when you're composing an email message or setting up a meeting or appointment.  
 
 > [!IMPORTANT]
-> - The latest release of [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-outlook.md)] works with [Dynamics 365 Customer Engagement (on-premises)](../customerengagement/on-premises/overview.md) and [Common Data Service](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro), which implies that it also works with model-driven apps such as Dynamics 365 Sales and Dynamics 365 Customer Service. 
+> - The latest release of [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-outlook.md)] works with customer engagement apps in Dynamics 365 (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing, and Dynamics 365 Project Service Automation), [Dynamics 365 Customer Engagement (on-premises), version 9](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/overview), and [Microsoft Dataverse](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro).
 > - For a prior release that works with earlier versions of Dynamics 365 apps, see [Deploy Dynamics 365 App for Outlook](https://technet.microsoft.com/library/dn946901.aspx).
 
  For example, when you open an email message, view information from your Dynamics 365 app about the email recipients. Or with a single click, link an [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] email message or appointment to a specific Dynamics 365 record. When you link an email message or appointment to a Dynamics 365 record, the [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] record appears as an activity for that record in Dynamics 365 apps.  
@@ -97,7 +97,7 @@ For more information on FAQs, see [Frequently Asked Questions about Dynamics 365
 
 **Notes:**  
 
-If the recipient is a Common Data Service or Customer Engagement (on-premises) user (as opposed to a contact or lead), it’s indicated above their name:  
+If the recipient is a Microsoft Dataverse or Customer Engagement (on-premises) user (as opposed to a contact or lead), it’s indicated above their name:  
 
 ![Dynamics 365 apps user](media/recipient-status.png)  
 
@@ -147,7 +147,7 @@ Let's go over the individual elements in the menu bar.
 
 ## Use delegate access 
 
-Delegate access is granted to users who manage certain aspects of Outlook and Common Data Service information for another person.
+Delegate access is granted to users who manage certain aspects of Outlook and Microsoft Dataverse information for another person.
 
 Once delegate access is turned on, you can use Dynamics 365 App for Outlook to track emails and calendar appointments for someone else.
 
@@ -173,14 +173,14 @@ For more information on how to set up delegate access, see [Set up delegate acce
    > [!div class="mx-imgBorder"] 
    > ![](media/Pic2.png)
    
-4. Once the email has finished synchronizing in Common Data Service, the status of the email changes to **Tracked regarding** for both the user and the delegated user.
+4. Once the email has finished synchronizing in Microsoft Dataverse, the status of the email changes to **Tracked regarding** for both the user and the delegated user.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/Pic3.png)
 
 ### Track appointment or meeting invitation for a known contact
 
-1. Go to the calendar of the person that you are a delegate for and open the invitation that you want to track in Common Data Service.
+1. Go to the calendar of the person that you are a delegate for and open the invitation that you want to track in Microsoft Dataverse.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/Pic4.png)
@@ -197,7 +197,7 @@ For more information on how to set up delegate access, see [Set up delegate acce
    
 4. The status of the meeting invitation changes to **Track pending** for both the user and the delegated user. 
    
-5. Once the meeting invitation has finished synchronizing in Common Data Service, the status of the meeting invitation changes to **Tracked regarding** for both the user and the delegated user.
+5. Once the meeting invitation has finished synchronizing in Microsoft Dataverse, the status of the meeting invitation changes to **Tracked regarding** for both the user and the delegated user.
 
 
 ## Experience App for Outlook as a pinnable taskpane
