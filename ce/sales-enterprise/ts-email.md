@@ -10,7 +10,7 @@ ms.author: shjais
 manager: shujoshi
 ---
 
-## Troubleshooting issues with email
+# Troubleshooting issues with email
 
 This article helps you troubleshoot and resolve issues related to emails in Dynamics 365 Sales.
 
