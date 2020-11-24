@@ -4,7 +4,7 @@
 - When Universal Resource Scheduling is used as the scheduling engine for appointments, and a system user, who does not have an associated bookable resource record, creates an appointment throws an error. This bug is now fixed.
 - Fixed a bug on the legacy schedule board, where selecting an empty timeslot on the board, and on searching for lookup records, all resource requirement records in the system show up instead of those matching the selected requirement panel at the bottom.
 - Fixed an issue where non-admin Field Service users cannot update the Booking records due to insufficient privilege on entity ```msdyn_schedulingfeatureflag```. This bug is now fixed.
-- When a booking is cancelled on the schedule board and then the work order (or requirement) record is again dragged to the same resource after the cancelled booking, the travel time is incorrectly calculated as zero from the previous cancelled booking. This bug is now fixed and the travel time is correctly calculated from the previous resource location.
+- When a booking is canceled on the schedule board and then the work order (or requirement) record is again dragged to the same resource after the canceled booking, the travel time is incorrectly calculated as zero from the previous canceled booking. This bug is now fixed and the travel time is correctly calculated from the previous resource location.
 - Fixed an issue where, custom ```DateTime``` fields from requirement record’s associated entities like work order are not respecting schedule board tab time zone in requirements panel. With this fix, all ```DateTime``` fields on the requirement panel will be shown in the time zone of the schedule board tab.
 - When a work hours template with a time off is applied to another resource, the time off description and title were not getting copied. This bug is now fixed.
 - When a multi-day booking is created with out an associated resource requirement record, changing Booking status on the booking, throws an error, this issue is now fixed.
@@ -12,7 +12,7 @@
 - Fixed an issue where updates to the bookings of a crew type resource are not made, when booking rules are used. This bug is now fixed. Updates to the crew bookings will be made, even when booking rules are used.
 - Fixed scroll jumping issue on the filter pane of the legacy schedule board for certain custom filter panel layouts.
 - Fixed an issue where there are multiple time-off hours are used on a single day for a resource, the working hours are not correctly calculated, and so incorrect working hours are reflected on the schedule board.
-- Incomplete resource available time slots were shown on the legacy schedule assistant grid view when the fulfilment preferences intervals were used on the resource requirement record. This issue is now fixed, and the complete resource available timeslots are shown.
+- Incomplete resource available time slots were shown on the legacy schedule assistant grid view when the fulfillment preferences intervals were used on the resource requirement record. This issue is now fixed, and the complete resource available timeslots are shown.
 - When quick book is enabled and used, the resource available time slots would respect the "Book based on" setting on the default schedule board settings and will show the resource available timeslots based on value chose for **Book based on** - **Estimated arrival time** or **Start Time**.
 
 ## Version 3.12.32.1
@@ -478,7 +478,7 @@ In addition, this release includes the following changes that have the potential
 ### Enhancements
 
 - Improvements are made to the date time controls by leveraging the Office fabric UI control on the resource requirement, fulfillment preferences, and time group detail forms.
-- Scheduling Health Diagnostics provides capabilities to detect and suggest self-healing options with regards to:
+- Scheduling Health Diagnostics provides capabilities to detect and suggest self-healing options with regard to:
   - Unsupported customizations on internal use only web resources.
   - Actions and workflows that are in draft state.
   - Essential SDK message processing rules that are in disabled state.
