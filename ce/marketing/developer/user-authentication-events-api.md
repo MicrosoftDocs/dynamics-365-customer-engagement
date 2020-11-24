@@ -1,6 +1,6 @@
 ---
 title: "User authentication using Events API (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
-description: "Read about the Events API that lets you access data of events, sessions, session tracks, and passes"
+description: "Learn how to use the Events API to authenticate users in Dynamics 365 Marketing"
 keywords: developer; dev; developer guide; system configuration
 ms.date: 06/11/2019
 ms.service: dynamics-365-marketing
