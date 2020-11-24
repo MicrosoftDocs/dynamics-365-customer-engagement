@@ -1,6 +1,6 @@
 ---
-title: "Basic Operations on segments using API (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
-description: "The Segmentation API enables programmatic interaction with certain segmentation features of Dynamics 365 Marketing app."
+title: "Basic operations on segments using API (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
+description: "Learn how to use the segmentation API in Dynamics 365 Marketing."
 keywords: developer; dev; developer guide; system configuration
 ms.date: 06/12/2019
 ms.service: dynamics-365-marketing
@@ -20,7 +20,7 @@ search.app:
   - D365Mktg
 ---
 
-# Basic operations on segments using the Segmentation API
+# Basic operations on segments using the segmentation API
 
 A market segment is the collection of contacts that you target in a marketing campaign. In some cases, you'll target all the contacts you have, but in most cases, you'll choose whom you want to target based on demographic or firmographic data and other considerations. More information: [Working with segments](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/segmentation-lists-subscriptions).
 
