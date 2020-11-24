@@ -26,7 +26,7 @@ search.app:
 
 The event portal is capable of integrating the **Azure Active Directory B2C**. To integrate it, you need to implement a couple of steps. 
 
-1. If you don't have one already, create a Azure AD B2C tenant.
+1. If you don't have one already, create an Azure AD B2C tenant.
 1. Add a web application to your Azure AD B2C tenant.
 1. Register the application with your Dynamics 365 Marketing instance.
 1. Configure event management application to work with your Azure AD B2C tenant
@@ -41,11 +41,11 @@ After you have successfully created **Azure AD B2C** tenant, follow the tutorial
 ### Grant API access to the registered web application
 
 1. Select the web application that you have registered before.
-2. Specify `events` as **App ID URI**, you can do this in the **Properties** tab.
+2. Specify `events` as **App ID URI**. You can apply this setting in the **Properties** tab.
 3. Navigate to API access.
-4. Click on **Add**
+4. Select **Add**.
 5. Select your API and select all scopes.
-6. Click **Ok**.
+6. Select **Ok**.
 
 ### Create a user flow policy
 You need to create a user flow policy if you don't already have one.
@@ -54,7 +54,7 @@ To do so, follow the steps below:
 
 1. Navigate to your Azure portal and open your **Azure AD B2C**
 2. Select **User flows (policies)** in the **Policies** section.
-3. Click on **new user flow**.
+3. Select **new user flow**.
 4. Select **Sign up** and **Sign in** user flow type.
 5. Specify a name. 
 6. Select an identity provider.
@@ -62,7 +62,7 @@ To do so, follow the steps below:
   * Email Address (required, **collect attribute**)
   * Given Name (**collect attribute** and **return claim**)
   * Surname (**collect attribute** and **return claim**)
-8. Click on **Create**.
+8. Select **Create**.
 
 > [!NOTE]
 > To use a name-based contact matching strategy, you must configure the sign-up policy to include the `Given Name` and `Surname` attributes and also selecting them in the `Application claim` section. More information: [How to configure and set it up in the Azure AD B2C](https://docs.microsoft.com/azure/active-directory-b2c/)
@@ -71,22 +71,22 @@ To do so, follow the steps below:
 
 To reduce the clutter while navigating Azure portal we will use the following naming for the portal screens:
 
-* B2C Tenant : **Tenant**
+* B2C Tenant: **Tenant**
 * B2C Tenant > Azure AD B2C Settings: **Settings**
 * B2C Tenant > Azure AD B2C Settings > Application > Select your application: **Application**
-* Application > Application Id textbox: **Application id**
-* Tenant > Properties > Name textbox: **Tenant name** (e.g. `contoso.onmicrosoft.com`)
-* First part of the tenant name: **Tenant id** (e.g. `contoso`)
-* Settings > User Flows (policies): **Policy** (e.g. `B2C_1_default-sign-up`)
-* Application > Published scopes > Full scope value textbox: **Scope** (e.g. https://contosoeventmanagementtest.onmicrosoft.com/events/registration)
+* Application > Application ID textbox: **Application ID**
+* Tenant > Properties > Name textbox: **Tenant name** (for example, `contoso.onmicrosoft.com`)
+* First part of the tenant name: **Tenant ID** (for example, `contoso`)
+* Settings > User Flows (policies): **Policy** (for example, `B2C_1_default-sign-up`)
+* Application > Published scopes > Full scope value textbox: **Scope** (for example, https://contosoeventmanagementtest.onmicrosoft.com/events/registration)
 
 ## Registering the application with Dynamics 365 Marketing instance
 
 Follow those steps to register the application with Dynamics 365 Marketing.
 
 1. Open your Dynamics 365 Marketing instance
-1. Navigate to **Dynamics 365 > Marketing > Settings > Web applications** and select your **Web application** record. If you haven't created a **Web application** record yet, then please follow the steps to [register your web application](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/developer/self-hosted#register-your-web-application).
-1. Insert your **Application id** in the **AAD Client ID** field.
+1. Navigate to **Dynamics 365 > Marketing > Settings > Web applications** and select your **Web application** record. If you haven't created a **Web application** record yet, follow the steps to [register your web application](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/developer/self-hosted#register-your-web-application).
+1. Insert your **Application ID** in the **AAD Client ID** field.
 1. Insert your metadata endpoint in the **AAD Metadata Endpoint** field.
   According to the defined naming assembly, the AAD metadata endpoint looks in this pattern `https://{tenant id}.b2clogin.com/{tenant id}.onmicrosoft.com/v2.0/.well-known/openid-configuration?p={policy}`
   The AAD metadata endpoint looks in this pattern `https://contosoeventmanagementtest.b2clogin.com/contosoeventmanagementtest.onmicrosoft.com/v2.0/.well-known/openid-configuration?p=B2C_1_default-sign-up`
@@ -103,12 +103,12 @@ Open the `environment.ts` configuration file located in the **\src\environments*
 
 Use following mapping while entering the values:
 
-* authorityHost: {tenant id}.b2clogin.com (e.g. `contosoeventmanagementtest.b2clogin.com`)
-* tenant: Tenant name (e.g. `contosoeventmanagementtest.onmicrosoft.com`)
-* clientID: Application id 
-* signUpSignInPolicy: Policy (e.g. `B2C_1_default-sign-up`)
-* b2cScopes: ['Scope'] (e.g. https://contosoeventmanagementtest.onmicrosoft.com/events/registration)
-* redirectUri: Application > Reply URL > Pick your application uri (e.g. for localhost `https://localhost:4200`)
+* authorityHost: {tenant ID}.b2clogin.com (for example, `contosoeventmanagementtest.b2clogin.com`)
+* tenant: Tenant name (for example, `contosoeventmanagementtest.onmicrosoft.com`)
+* clientID: Application ID 
+* signUpSignInPolicy: Policy (for example, `B2C_1_default-sign-up`)
+* b2cScopes: ['Scope'] (for example, https://contosoeventmanagementtest.onmicrosoft.com/events/registration)
+* redirectUri: Application > Reply URL > Pick your application uri (for example, for localhost `https://localhost:4200`)
 
 An example of the full aadB2cConfig object would be:
 

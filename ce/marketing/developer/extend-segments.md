@@ -217,7 +217,7 @@ DELETE {{OrgUrl}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
 
 ## Add/Remove contacts to static segments
 
-Segment members can be added to or removed from static segments of contacts. You can add/remove contacts either by providing a query definition, or by providing specific contact ids. 
+Segment members can be added to or removed from static segments of contacts. You can add/remove contacts either by providing a query definition, or by providing specific contact IDs. 
 
 Some of the important aspects that need to be considered while performing add/remove operations on segment members:
 
