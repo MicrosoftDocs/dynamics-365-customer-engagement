@@ -32,7 +32,7 @@ After you have taken care of the dependencies, delete the managed solution to re
 
 If there are any customer journeys that still use one or more components of the custom channel app solution, you will receive the following error on deleting the custom channel app solution:
 
-![](../media/error-delete-solution.png)
+![Cannot delete component error](../media/error-delete-solution.png "Cannot delete component error")
 
 Review your customer journey records to identify the ones still using the custom tile, remove the custom tile from the customer journey or the customer journey record itself, and then retry deleting the custom channel app solution.
 
