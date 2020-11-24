@@ -18,7 +18,7 @@ ms.reviewer: nenellim
 
 Microsoft Power Virtual Agents allows organizations to automate routine conversations, letting agents focus on high-value interactions. When a conversation is escalated from a bot to a human agent, agents can see the full transcript of bot conversations and have complete context while engaging with customers.
 
-After you have created your bot and connected it to an Omnichannel for Customer Service environment, you can go to the Omnichannel Administration app in order to add your bot to queues and configure context variables to route chat sessions to queues. 
+After you have created your bot and connected it to an Omnichannel for Customer Service environment, you can go to the Omnichannel Administration app in order to add your bot to queues and configure context variables to route chat sessions to queues.
 
 When you integrate a Power Virtual Agents bot with Omnichannel for Customer Service, you get the following capabilities for bot conversations:
 
@@ -169,9 +169,10 @@ At run time, the required information is captured in the context variable that c
 You need to configure a context variable in Power Virtual Agents that will explicitly end the bot conversation after customers close the chat at their end.
 
 ### Known limitations
- 
+
 | Description     | Limitation     |
 |-----------------|----------------|
+| **First message context**  | The Power Virtual Agents bot doesn't have access to the context of the first message sent by the customer.  |
 | **Adaptive cards:** An adaptive card is a customizable card that can contain any combination of text, speech, images, buttons, and input fields.|	Power Virtual Agents supports adaptive cards for CSAT surveys and they will display text only. For more information, see the [Channel experience reference table](https://docs.microsoft.com/power-virtual-agents/publication-fundamentals-publish-channels#channel-experience-reference-table). <br>You can build an adaptive card by adding a skill through Power Virtual Agents. For more information, see [Use Microsoft Bot Framework Skills in Power Virtual Agents](https://docs.microsoft.com/power-virtual-agents/advanced-use-skills). <br>Adaptive card styling is not supported. |
 | **Single sign-on (SSO):** Chatbots can sign the user in if they're in to the page where the bot is deployed. | SSO is not supported. |
 | **Typing:** A bot receives a typing activity to indicate that the user is typing a response. A bot may send a typing activity to indicate to the user that it is working to fulfill a request or compile a response. | Typing indicators will not appear. |
