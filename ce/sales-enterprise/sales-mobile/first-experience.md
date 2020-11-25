@@ -1,6 +1,6 @@
 ﻿---
-title: First experience of Dynamics 365 Sales mobile app
-description: Learn about experience of Dynamics 365 Sales mobile app when you login for the first time
+title: First experience of the Dynamics 365 Sales mobile app
+description: Learn about experiencing the Dynamics 365 Sales mobile app when you sign in for the first time
 ms.date: 11/03/2020
 ms.topic: article
 ms.service: dynamics-365-sales
@@ -22,5 +22,3 @@ Tap **Next** to go through all the welcome pages and learn more about what the a
 When you're on the last page, tap **Let's go**.
 
 ![Welcome screen](media/sm-welcome-screen1.png "Welcome screen")
-
-

@@ -13,64 +13,63 @@ manager: shujoshi
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-With the Dynamics 365 Sales mobile app, you will be able to quickly:
+With the Dynamics 365 Sales mobile app, you'll be able to quickly:
 
--   Plan your day better
+-   Plan your day:<!--note from editor: Edit suggested, to avoid the awkward phrasing "you'll be able to quickly plan your day better." If you don't like it, how about "Better plan your day".-->
 
-    -   View agenda and meetings
+    -   View your agenda and upcoming meetings.
 
-    -   View reminders and insights
+    -   View reminders and insights.
 
--   Take actions post a meeting
+-   Take actions after a meeting.
 
--   Find and act on records
+-   Find and act on records.
 
-The home page shows items that are most relevant to you and help you plan your day better, such as:
+The home page shows items that are most relevant to you, such as:
 
--   Your upcoming meetings
+-   Your upcoming meetings.
 
--   Your recent contacts and other records
+-   Your recent contacts and other records.
 
--   Reminders
+-   Reminders.
 
--   Insights
+-   Insights.
 
-## Familiarize with the home page
-
-The home page gives you a quick access to what's most important to you. The home page is divided into the following sections:
+## Get familiar with the home page
+<!--note from editor: If you don't like the edit to the H2, it should be "Familiarize yourself with the home page." -->
+The home page gives you a quick access to what's most important to you. The home page is divided into the following sections.<!--note from editor: Removed the colon because they're great for introducing lists, but not tables or headings.-->
 
 ### Meetings
 
-Shows important information about your one previous and one upcoming meeting for the day. More information: [View agenda](view-agenda.md)
+This section shows important information about the last meeting you were in and the next one coming up for the day.<!--note from editor: --> More information: [View agenda](view-agenda.md)
 
-![Meetings displayed on home screen](media/sm-meetings-home.png "Meetings displayed on home screen")
+![Meetings displayed on the home screen](media/sm-meetings-home.png "Meetings displayed on the home screen")
 
 ### Recent contacts
 
-Lets you quickly open the contacts you've recently accessed. Select **Recent contacts** to view an extended list. You can tap a contact to view its details.
+Use **Recent contacts** to open an extended list of the contacts you've recently accessed. You can tap a contact to view its details.
 
-![Recent contacts displayed on home screen](media/sm-contacts-home.png "Recent contacts displayed on home screen")
+![Recent contacts displayed on the home screen](media/sm-contacts-home.png "Recent contacts displayed on the home screen")
 
 ### Recent records
 
-Shows the recent records you've worked on, such as an account or opportunity. Select **Recent records** to view an extended list. You can tap a record to view its details. More information: [Open a record](open-record.md)
+Select **Recent records** to view an extended list of the records you've worked on recently, such as an account or opportunity. You can tap a record to view its details. More information: [Open a record](open-record.md)
 
-![Recent records displayed on home screen](media/sm-records-home.png "Recent records displayed on home screen")
+![Recent records displayed on the home screen](media/sm-records-home.png "Recent records displayed on home screen")
 
 ### Reminders and insights
 
-Shows action cards from relationship assistant. The cards show up to five reminders and insights items. If your administrator has created custom cards, they can be shown here, too.
+Shows action cards from the relationship assistant. The cards show up to five reminders and five insights. If your administrator has created custom cards, they can be shown here, too.
 
-When you select **Reminders** or **Insights**, an extended list is shown. Tap a reminder or an insight to see its details in a card. Tap **Open** in the card to open the reminder or the insight card.
+When you select **Reminders** or **Insights**, an extended list appears. Tap a reminder or an insight to see details about it. Tap **Open** in the card to open the reminder or the insight card.
 
-Use the **More actions** menu to take further actions on the reminders, such as, dismiss, snooze, or mark it as helpful or not helpful.
+Select **More** (**...**)<!--note from editor: Edit okay? Or do you mean the Options button here?--> to take further action on a reminder, such as dismiss, snooze, or mark it as helpful or not helpful.
 
-![Recent records displayed on home screen](media/sm-reminders-insights-home.png "Recent records displayed on home screen")
-
+![Reminders and insights displayed on the home screen](media/sm-reminders-insights-home.png "Reminders and insights displayed on the home screen")
 
 ## Navigate through the app
 
-You can use the bottom navigation bar to navigate through the app.
+You can use the navigation bar at the bottom of the screen<!--note from editor: I've used this phrasing because "bottom navigation bar" seems a bit ambiguous, implies that there's at lease one other navigation bar. Also, you simply use "navigation bar" in at least one other article, so it seems like this qualification really only needs to be made once in these articles.--> to navigate through the app.
 
 ![Navigation bar](media/sm-navigation-bar.png "Navigation bar")
 
@@ -83,4 +82,3 @@ From anywhere in the app:
 -   Tap **Meetings** to go to the calendar view.
 
 -   Tap **More** to open items in Unified Interface.
-
