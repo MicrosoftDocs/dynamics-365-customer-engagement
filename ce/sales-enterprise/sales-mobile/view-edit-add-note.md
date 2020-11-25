@@ -17,36 +17,58 @@ You can see the associated notes in the **Notes** section of a record detail.
 
 ![View note](media/sm-view-note.png "View note")
 
-## View notes
-
-You can use the following actions from the **Notes** section:
+You can performs the following actions in the **Notes** section:
 
 | To                                                        | Do this                |
 |-----------------------------------------------------------|------------------------|
-| Open a list of notes                                      | Tap the Notes chevron. |
+| Open a list of notes                                      | Tap **Notes**. |
 | See an image associated with a note in its original ratio | Tap the image name.    |
 | Open or edit a note                                       | Tap a note.            |
-| Take more actions like Edit or Delete                     | Tap the menu icon.     |
-| Create a note                                             | Tab **Add a note**     |
+| Take more actions like edit or delete                     | Tap the menu icon.     |
+| Create a note                                             | Tab **Add a note**.     |
 
-## Add notes
+## Add a note
 
-You can take notes in the following places:
+1.  Perform one of the following actions:
 
--   From the **Notes** section of the record, tap **Add a note**.
+    -   When viewing details of a record, if a note is not added to a record, tap **Add a note**.
 
--   In the list of notes, tap ![Add note icon](media/sm-add-note-icon.png "Add note icon").
+        ![Add a note](media/sm-add-note-button.png "Add a note")
 
--   From the bottom navigation bar, tap ![Plus icon](media/sm-plus-icon.png "Plus icon"), and then tap **Add a note**.
+    -   When viewing details of a record, if notes are already added, tap **Add a note**.
 
-1.  In the **Notes** box, type a title and note description, and tap **Save**.
+        ![Add a note](media/sm-add-note-link.png "Add a note")
 
-2.  If you are creating the note from the list of notes or from the bottom navigation bar, you must define the record this note is regarding. To do so, tap **Set regarding** to select a record you want to associate the note with.
+    -   When viewing a list of notes, tap ![Add note icon](media/sm-add-note-icon.png "Add note icon").
 
-3.  Tap the Paperclip icon or the camera icon to attach a file or image to a note. Alternatively, you can open your camera to take a picture and associate it with the note.
+        ![Add a note](media/sm-add-note-from-list.png "Add a note")
 
-> [!IMPORTANT]
-> If your organization uses a custom entity to track notes, you can create a new note by tapping the Plus icon on the bottom navigation bar, and then select **Create.
+    -   On the bottom navigation bar, tap ![Plus icon](media/sm-plus-icon.png "Plus icon"), and then tap **Add a note**.
 
+        ![Add a note](media/sm-add-note-nav-bar.png "Add a note")
 
+2.  In the **Note** form, enter a title and description for the note.
+
+3.  To attach a file or an image stored on your mobile device, tap ![Paperclip icon](media/sm-attach-file-note.png "Paperclip icon").
+
+4.  To take a photo from your mobile camera and attach it to the note, tap ![Camera icon](media/sm-take-photo-note.png "Camera icon").
+
+    > [!NOTE]
+    > If you are adding the note from the bottom navigation bar, you must connect the note to the record that it's regarding. Tap **Next** and then select a record you want to associate the note with.
+
+5. Tap **Save**.
+
+## Edit a note
+
+1. In the note card, tap ![Options button](media/sm-options-button.png "Options button").
+
+2. From the bottom of the screen, select **Edit**.
+
+3. Modify the note, and then tap **Save**.
+
+## Delete a note
+
+1. In the note card, tap ![Options button](media/sm-options-button.png "Options button").
+
+2. From the bottom of the screen, select **Delete**.
 
