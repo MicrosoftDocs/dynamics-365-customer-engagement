@@ -15,7 +15,7 @@ searchScope:
   - D365-Entity-list
   - D365-Entity-campaign
   - D365-Entity-campaignresponse
-  - D365-Entity-quickcampaign
+  - D365-Entity-bulkoperation
   - D365-UI-*
   - Customer Engagement
   - Dynamics 365
