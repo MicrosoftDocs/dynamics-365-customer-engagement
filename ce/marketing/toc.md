@@ -259,6 +259,7 @@
 ### [Work with segments using code](developer/extend-segments.md)
 ### [Attach names and emails to Dynamics 365 Customer Voice surveys sent from customer journeys](developer/customer-voice-populate-name.md)
 ### [Entity mapping with custom workflows](entity-mapping.md)
+### [Limitations on migrating files between environments](developer/migrate-files.md)
 ### [Retrieve interactions for a contact](developer/retrieve-interactions-contact.md)
 ### [Extend Marketing forms using client side scripting](developer/marketing-form-client-side-extensibility.md)
 
