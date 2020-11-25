@@ -62,7 +62,11 @@ You can performs the following actions in the **Notes** section:
 
 1. In the note card, tap ![Options button](media/sm-options-button.png "Options button").
 
+    ![Note options](media/sm-note-options.png "Note options")
+
 2. From the bottom of the screen, select **Edit**.
+
+    ![Edit a note](media/sm-note-edit-delete.png "Edit a note")
 
 3. Modify the note, and then tap **Save**.
 
@@ -70,5 +74,8 @@ You can performs the following actions in the **Notes** section:
 
 1. In the note card, tap ![Options button](media/sm-options-button.png "Options button").
 
+    ![Note options](media/sm-note-options.png "Note options")
+
 2. From the bottom of the screen, select **Delete**.
 
+    ![Delete a note](media/sm-note-edit-delete.png "Delete a note")
