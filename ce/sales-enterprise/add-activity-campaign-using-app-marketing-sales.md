@@ -15,9 +15,11 @@ searchScope:
   - D365-Entity-list
   - D365-Entity-campaign
   - D365-Entity-campaignactivity
-  - D365-UI-Form
+  - D365-UI-*
   - Dynamics 365
   - Sales
+  - Customer Engagement
+
 ---
 
 # Add an activity to a campaign using in-app marketing (Sales)
