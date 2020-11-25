@@ -9,10 +9,12 @@ ms.author: udag
 manager: shujoshi
 searchScope:
   - D365-App-msdynce_saleshub
-  - D365-Entity-forecastconfiguration
+  - D365-Entity-msdyn_forecastconfiguration
   - D365-UI-*
   - Dynamics 365
   - Sales
+  - Customer Engagement
+
 ---
 
 # Configure forecasts in your organization

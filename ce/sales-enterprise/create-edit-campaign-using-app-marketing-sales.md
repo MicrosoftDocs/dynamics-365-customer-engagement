@@ -14,9 +14,11 @@ searchScope:
   - D365-App-msdynce_saleshub
   - D365-Entity-list
   - D365-Entity-campaign
-  - D365-UI-Form
+  - D365-UI-*
   - Dynamics 365
   - Sales
+  - Customer Engagement
+
 ---
 
 # Create or edit a campaign using in-app marketing (Sales)
