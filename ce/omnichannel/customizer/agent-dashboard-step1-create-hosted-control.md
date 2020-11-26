@@ -31,7 +31,7 @@ This topic describes how to create an Omnichannel Agent Dashboard hosted control
 
 ## Step 1. Create hosted control
 
-1. Sign in to Common Data Service platform.
+1. Sign in to Microsoft Dataverse platform.
 
 2. Select the Down arrow next to Dynamics 365.
 

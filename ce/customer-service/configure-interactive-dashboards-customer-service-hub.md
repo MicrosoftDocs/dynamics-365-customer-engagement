@@ -76,7 +76,7 @@ The interactive dashboards come in two flavors:
 To know more about how to enable custom entities, see [Enable custom entities in the Customer Service Hub](../customer-service/create-design-forms-customer-service-hub.md#enable-custom-entities-in-the-customer-service-hub).
 
 > [!NOTE]
-> All customization tasks for the Customer Service Hub must be done in the Common Data Service platform.
+> All customization tasks for the Customer Service Hub must be done in the Microsoft Dataverse platform.
   
 ### Configure filter fields  
  For a field to appear in the global filter and to be included in the data stream sort, you must set two flags: 

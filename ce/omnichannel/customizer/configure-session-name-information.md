@@ -33,7 +33,7 @@ The topic describes how to dynamically display the session tab name, you'll conf
 
 ## Configure session name
 
-1. Sign in to Common Data Service platform.
+1. Sign in to Microsoft Dataverse platform.
 
 2. Select the Down arrow next to Dynamics 365.
 
@@ -53,7 +53,7 @@ The topic describes how to dynamically display the session tab name, you'll conf
 
 ## Add the session name information to configuration
 
-1. Sign in to Common Data Service platform.
+1. Sign in to Dataverse platform.
 
 2. Select the Down arrow next to Dynamics 365.
 

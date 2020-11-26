@@ -18,7 +18,7 @@ ms.custom:
 
 The contact center analytics need operational and conversational data to provide historical and real-time insights into the performance of the contact center. To get precise insights into the call center performance, the analysts need data from the following sources 
 
-- **CRM transactional data**: The data about the customers, their cases, their journey and all round relationship with the organizations. This is stored in Common Data Services 
+- **CRM transactional data**: The data about the customers, their cases, their journey and all round relationship with the organizations. This is stored in Microsoft Dataverse 
 - **Communication Data**: The data about the interactions (intended, ongoing and completed) with known and unknown customers 
 - **Agent Behavior Data**: The data about the behavior of agents before, during and after the interactions. 
 
@@ -36,7 +36,7 @@ Without the channel analytics model, if you want to build a contact center analy
 ## How does Channel Analytics help?
 
 - It generates instrumentation for agent behavior on the Dynamics 365. 
-- It provides APIs to ingest the conversational data into the common data services. 
+- It provides APIs to ingest the conversational data into the Dataverse. 
 - It standardizes schema for how the aforementioned analytical data will be stored  
 - It defines mechanism to correlate the communication data from multiple providers, CRM transactional data and agent behavior data. 
 - It is extensible, in the sense that it allows you to bring your own KPIs, define your own data payload so that organizations can build analytical solutions as per their need. 
@@ -114,7 +114,7 @@ If the partner wants to fire some custom event for their KPIs, they can do it wi
 
 ## Channel Analytics Entities
 
-Channel Integration Framework creates a Conversation entity ([msdyn_ocliveworkitem](../../../omnichannel/developer/reference/entities/msdyn_ocliveworkitem.md)) record in Common Data Service for every third party conversation launched through it.
+Channel Integration Framework creates a Conversation entity ([msdyn_ocliveworkitem](../../../omnichannel/developer/reference/entities/msdyn_ocliveworkitem.md)) record in Dataverse for every third party conversation launched through it.
 
 ### msdyn_kpieventdefinition
 
@@ -128,19 +128,19 @@ More information: [msdyn_kpieventdefinition](reference/entities-attributes/msdyn
 
 ### msdyn_conversationdata
 
-This entity is deprecated and using it to access Common Data Service data is not supported.
+This entity is deprecated and using it to access Dataverse data is not supported.
 
 More information: [msdyn_conversationdata](reference/entities-attributes/msdyn_conversationdata.md).
 
 ### msdyn_sessiondata
 
-This entity is deprecated and using it to access Common Data Service data is not supported.
+This entity is deprecated and using it to access Dataverse data is not supported.
 
 More information: [msdyn_sessiondata](reference/entities-attributes/msdyn_sessiondata.md).
 
 ### msdyn_sessionparticipantdata
 
-This entity is deprecated and using it to access Common Data Service data is not supported.
+This entity is deprecated and using it to access Dataverse data is not supported.
 
 More information: [msdyn_sessionparticipantdata](reference/entities-attributes/msdyn_sessionparticipantdata.md).
 

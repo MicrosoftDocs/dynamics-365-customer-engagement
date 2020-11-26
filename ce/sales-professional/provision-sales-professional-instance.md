@@ -71,9 +71,9 @@ To provision a new Dynamics 365 environment:
 
    |Setting  |Description  |
    |---------|---------|
-   |Language     | The default language for this environment. More information: [Common Data Service language collations](/power-platform/admin/language-collations)     |
+   |Language     | The default language for this environment. More information: [Microsoft Dataverse language collations](/power-platform/admin/language-collations)     |
    |Currency     | The base currency used for reporting.         |
-   |Enable Dynamics 365 apps | Select **Yes**. If this is set to **No**, a Common Data Service environment will be created and you won't be able to install Sales Professional on this environment. |
+   |Enable Dynamics 365 apps | Select **Yes**. If this is set to **No**, a Dataverse environment will be created and you won't be able to install Sales Professional on this environment. |
    |Security group | Select a security group to restrict access to this environment. |
    |Automatically deploy these apps | Select **Sales Pro** to install the Sales Professional app during the environment creation. Alternately, follow the steps in [Install the Sales Professional solution on a Dynamics 365 environment](#install-app) | 
 
@@ -111,7 +111,7 @@ To install the Sales Professional solution on a Dynamics 365 environment
     ![Sales Professional app tile](media/sales-professional-app-tile.png "Sales Professional app tile")
 
     > [!IMPORTANT]
-    > You can't install the Sales Professional app on Common Data Service environments. When you try to install Dynamics 365 Sales, Professional on a Common Data Service environment, you'll be asked to select a different environment. 
+    > You can't install the Sales Professional app on Dataverse environments. When you try to install Dynamics 365 Sales, Professional on a Dataverse environment, you'll be asked to select a different environment. 
 
 ### See also
 [Overview of Dynamics 365 Sales Professional](sales-professional-overview.md)  

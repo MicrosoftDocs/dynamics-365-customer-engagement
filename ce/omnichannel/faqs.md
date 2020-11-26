@@ -127,7 +127,7 @@ Changes made by administrators within the Omnichannel Administration application
 
 ### How can I bring custom entities, forms, and dashboards into the Omnichannel for Customer Service app? 
 
-The Omnichannel for Customer Service app can be customized to include custom dashboards and custom forms the same as any Unified Interface app module. The sitemaps can be updated to include custom entities, and default forms can be changed to load custom ones for the entities. All Common Data Service entities and pages are compatible with the Omnichannel for Customer Service app. 
+The Omnichannel for Customer Service app can be customized to include custom dashboards and custom forms the same as any Unified Interface app module. The sitemaps can be updated to include custom entities, and default forms can be changed to load custom ones for the entities. All Microsoft Dataverse entities and pages are compatible with the Omnichannel for Customer Service app. 
 
 ### Can I customize the Conversation Summary form?
 
@@ -139,7 +139,7 @@ Creation of the IntradayMonitoring report may take up to 15 mins to appear in yo
 
 ### What is the application ID field on the application user form?
 
-The application ID is a mandatory field for creating application users in the Common Data Service platform. You can copy any application ID for any valid (non-expired) application created in Azure Active Directory for the same tenant into this field. 
+The application ID is a mandatory field for creating application users in the Dataverse platform. You can copy any application ID for any valid (non-expired) application created in Azure Active Directory for the same tenant into this field. 
 
 ## Supervisor experience
 

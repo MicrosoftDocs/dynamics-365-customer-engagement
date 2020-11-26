@@ -83,7 +83,7 @@ Go to the **My Apps** page by going to https://&lt;orgurl&gt;/apps/. In the **Pu
 
 ## Grant access<a name="grant-access"></a>
 
-Every user in the organization must have the **Sales, Enterprise app access** role to be able to access the Sales Hub app. To assign a security role to a user, see [Assign security roles to users in an environment that has a Common Data Service database](/power-platform/admin/database-security#assign-security-roles-to-users-in-an-environment-that-has-a-common-data-service-database).
+Every user in the organization must have the **Sales, Enterprise app access** role to be able to access the Sales Hub app. To assign a security role to a user, see [Assign security roles to users in an environment that has a Microsoft Dataverse database](/power-platform/admin/database-security#assign-security-roles-to-users-in-an-environment-that-has-a-common-data-service-database).
 
 
 ### See also

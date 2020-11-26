@@ -26,7 +26,7 @@ You can create a service activity by finding the next available times of resourc
   
  One reason to force a service activity into a time slot is to squeeze another service activity into the leftover time from a previous service activity.  
   
-1. Make sure you have the Scheduler security role or equivalent permissions in Common Data Service platform.
+1. Make sure you have the Scheduler security role or equivalent permissions in Microsoft Dataverse platform.
   
 2. [!INCLUDE[proc_service_service_calendar](../includes/proc-service-service-calendar.md)]  
   

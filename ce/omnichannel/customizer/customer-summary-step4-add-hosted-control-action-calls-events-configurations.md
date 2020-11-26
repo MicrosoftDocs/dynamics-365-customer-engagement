@@ -33,7 +33,7 @@ This topic describes how to add hosted control, action calls, and events to conf
 
 ## Add the hosted control, action calls, and events to agent and supervisor configurations
 
-1. Sign in to Common Data Service platform.
+1. Sign in to Microsoft Dataverse platform.
 
 2. Select the Down arrow next to Dynamics 365.
 

@@ -19,7 +19,7 @@ ms.service: dynamics-365-customerservice
 
 The Dynamics 365 users can access and perform different functions based on the roles that are assigned to them. The following roles can be assigned individually or in combination based on the tasks that need to be performed:
 
-- **Common Data Service User:** Required by all users of Omnichannel for Customer Service.
+- **Microsoft Dataverse User:** Required by all users of Omnichannel for Customer Service.
 - **Omnichannel administrator:**  Required for performing administrator tasks; also requires the **System Administrator** role to manage user roles and privileges in Omnichannel for Customer Service.
 - **Omnichannel supervisor:** Required for performing supervisor tasks.
 - **Omnichannel agent:** Required for performing agent tasks.
@@ -32,7 +32,7 @@ For more information on the App profile manager administrator and App profile us
 
 Additionally, the **Customer Service Representative** role is required to work with the Case entity.
 
-Use the Microsoft 365 admin center to create user accounts for every user who needs access to Omnichannel for Customer Service. For more information, see [Create users in the Common Data Service platform and assign security roles](../../admin/create-users-assign-online-security-roles.md).
+Use the Microsoft 365 admin center to create user accounts for every user who needs access to Omnichannel for Customer Service. For more information, see [Create users in the Dataverse platform and assign security roles](../../admin/create-users-assign-online-security-roles.md).
 
 ## Assign roles to users
 

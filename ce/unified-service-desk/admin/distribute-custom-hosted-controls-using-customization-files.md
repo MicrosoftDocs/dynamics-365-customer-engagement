@@ -21,7 +21,7 @@ tags: MigrationHO
 
 [!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
-Use the customization files feature to distribute custom hosted controls and functionality to agent computers. To control the distribution, create or update a customization file record and associate it with a configuration. When agents who are associated with the configuration sign in to the Common Data Service platform using the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client, the custom controls and functionality are downloaded to the agent’s computer and available for use.  
+Use the customization files feature to distribute custom hosted controls and functionality to agent computers. To control the distribution, create or update a customization file record and associate it with a configuration. When agents who are associated with the configuration sign in to the Microsoft Dataverse platform using the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client, the custom controls and functionality are downloaded to the agent’s computer and available for use.  
   
  To distribute custom controls and functionality:
   
@@ -41,7 +41,7 @@ Use the customization files feature to distribute custom hosted controls and fun
   
 ## Create or update a customization file record for custom functionality distribution  
   
-1. Sign in to the Common Data Service platform.
+1. Sign in to the Dataverse platform.
 
 2. Select the down arrow next to Dynamics 365.
 

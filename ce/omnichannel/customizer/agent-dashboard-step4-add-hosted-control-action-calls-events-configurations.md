@@ -33,7 +33,7 @@ This topic describes how to add action calls, events, and hosted control to the 
 
 ## Add the hosted control, action calls, and events to configurations
 
-1. Sign in to Common Data Service platform.
+1. Sign in to Microsoft Dataverse platform.
 
 2. Select the Down arrow next to Dynamics 365.
 

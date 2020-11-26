@@ -33,7 +33,7 @@ This topic describes how to create search-related action calls in Unified Servic
 
 ## Create action calls
 
-1. Sign in to the Common Data Service platform.
+1. Sign in to the Microsoft Dataverse platform.
 
 2. Select the Down arrow next to Dynamics 365.
 

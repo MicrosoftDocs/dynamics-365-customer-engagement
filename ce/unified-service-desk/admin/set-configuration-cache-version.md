@@ -54,7 +54,7 @@ Your organization uses **X**, **Y**, and **Z** configurations for chat, message,
 > [!div class=mx-imgBorder]
 > ![In the new option page, add EnableConfigurationCaching for name and enter value as true](../media/configuration-cache-version.GIF "EnableConfigurationCaching UII option with value as true")
 
-1. Sign in to the Common Data Service platform.
+1. Sign in to the Microsoft Dataverse platform.
 
 2. Select the down arrow next to Dynamics 365.
 
@@ -72,7 +72,7 @@ Unified Service Desk activates the client caching for configurations.
 
 ## Specify value for the Configuration Cache Version option
 
-1. Sign in to the Common Data Service platform.
+1. Sign in to the Dataverse platform.
 
 2. Select the down arrow next to Dynamics 365.
 

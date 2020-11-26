@@ -33,7 +33,7 @@ This topic describes how to attach communication panel-related action calls to t
 
 ## Attach the action calls to events
 
-1. Sign in to Common Data Service platform.
+1. Sign in to Microsoft Dataverse platform.
 
 2. Select the Down arrow next to Dynamics 365.
 

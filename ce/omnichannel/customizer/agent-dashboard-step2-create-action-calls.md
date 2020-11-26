@@ -34,7 +34,7 @@ This topic demonstrates how to create Omnichannel Agent Dashboard-related action
   
 ## Create action calls
 
-1. Sign in to Common Data Service platform.
+1. Sign in to Microsoft Dataverse platform.
 
 2. Select the Down arrow next to Dynamics 365.
 

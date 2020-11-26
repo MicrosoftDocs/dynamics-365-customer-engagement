@@ -33,7 +33,7 @@ This topic describes how to add action calls, hosted control, window navigation 
 
 ## Add the hosted control, action calls, window navigation rule, and events to configurations
 
-1. Sign in to the Common Data Service platform.
+1. Sign in to the Microsoft Dataverse platform.
 
 2. Select the Down arrow next to Dynamics 365.
 

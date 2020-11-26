@@ -52,7 +52,7 @@ Use **Agent Scripting** type of hosted control to define a call script that prov
   
 <a name="GoToTask"></a>   
 ### GoToTask  
- This action displays the specified agent task. The available agent task names can be seen in the **Agent Scripts** section in the Common Data Service platform (**Settings** > **Agent Scripts**).  
+ This action displays the specified agent task. The available agent task names can be seen in the **Agent Scripts** section in the Microsoft Dataverse platform (**Settings** > **Agent Scripts**).  
   
 |Parameter|Description|  
 |---------------|-----------------|  
@@ -74,7 +74,7 @@ Use **Agent Scripting** type of hosted control to define a call script that prov
 |panel|Target panel for the hosted control.|  
   
 ### New_CRM_Page  
- Creates a page for creating a new Common Data Service platform record of the entity specified, and treats the page as a popup from the specified hosted control. The window navigation rules are evaluated to determine the location where the page to create the entity record is displayed.  
+ Creates a page for creating a new Dataverse platform record of the entity specified, and treats the page as a popup from the specified hosted control. The window navigation rules are evaluated to determine the location where the page to create the entity record is displayed.  
   
 |Parameter|Description|  
 |---------------|-----------------|  

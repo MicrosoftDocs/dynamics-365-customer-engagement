@@ -42,9 +42,9 @@ Rest of the strings that is rendered by default on Unified Service Desk client a
   
 2. Save the file with the language identifier in the file name. For example, if you have Spanish resources, you can save the file with the name “TranslationResource.es.xml.”  
   
-3. Upload the file as a web resource to the Common Data Service platform. Name the web resource so that you can identify the language of the string resources in it.  
+3. Upload the file as a web resource to the Microsoft Dataverse platform. Name the web resource so that you can identify the language of the string resources in it.  
   
-   1. Sign in to the Common Data Service platform.  
+   1. Sign in to the Dataverse platform.  
   
    2. Go to **Settings** > **Customizations** ([How do I get there?](https://go.microsoft.com/fwlink/p/?LinkId=525636))  
   
@@ -78,7 +78,7 @@ Rest of the strings that is rendered by default on Unified Service Desk client a
    ![New language module](../unified-service-desk/media/usd-new-language-module.png "New language module")  
   
    > [!IMPORTANT]
-   >  If you use language services, you should always configure language services for your base the Common Data Service platform language. In this example, add an English language service as well. The base language translation file is always used if someone uses a language pack in the Common Data Service platform that doesn’t have a translation file in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] language services.  
+   >  If you use language services, you should always configure language services for your base the Dataverse platform language. In this example, add an English language service as well. The base language translation file is always used if someone uses a language pack in the Dataverse platform that doesn’t have a translation file in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] language services.  
   
 5. Select **Save**.  
   

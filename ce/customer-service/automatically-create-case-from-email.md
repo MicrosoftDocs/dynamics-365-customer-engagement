@@ -64,7 +64,7 @@ Reduce the need for manually creating cases from incoming emails and increase th
 
    #### Specify conditions for email to case creation  
 
-   1. **Create cases for email from unknown senders**. If you select this check box, all email messages from unknown senders (a sender whose email address is not present in the Common Data Service platform) are converted to cases. A contact record is also created for this unknown sender.  
+   1. **Create cases for email from unknown senders**. If you select this check box, all email messages from unknown senders (a sender whose email address is not present in the Microsoft Dataverse platform) are converted to cases. A contact record is also created for this unknown sender.  
 
       > [!NOTE]
       >  If this option is not selected, cases are created only for email messages that have a contact or account as the senders. Email messages from senders that are present as other record types won’t be converted to cases.  

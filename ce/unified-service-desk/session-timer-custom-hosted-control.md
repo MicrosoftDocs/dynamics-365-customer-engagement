@@ -22,7 +22,7 @@ search.app:
 
 In [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], the session timer (`Timer`) hosted control displays the elapsed time in seconds since a session was started, and uses different colors to specify the threshold time limits.  
   
- The `Timer` hosted control isn’t one of the predefined hosted controls; it’s a custom control that is available when you deploy one of the sample [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] applications on your Common Data Service platform instance. The `Timer` hosted control is displayed in the status panel of your client application whenever a session is started.  
+ The `Timer` hosted control isn’t one of the predefined hosted controls; it’s a custom control that is available when you deploy one of the sample [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] applications on your Microsoft Dataverse platform instance. The `Timer` hosted control is displayed in the status panel of your client application whenever a session is started.  
   
 <a name="Actions"></a>   
 ## Actions for the Timer hosted control  
@@ -36,7 +36,7 @@ In [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], 
   
   The values are returned and displayed under the `$Return` replacement parameter. To test the values returned by these two actions:  
   
-1. Start [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client and connect to your Common Data Service platform instance.  
+1. Start [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client and connect to your Dataverse platform instance.  
   
 2. Click the **My Work** menu, and then click a case record to open a session.  
   

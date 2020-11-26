@@ -49,14 +49,14 @@ Before you upgrade, it is important to note that once you upgrade to Customer Se
 The next sections describe notable upgrade-specific changes, general customization, and user experience changes in Dynamics 365 Customer Service app.
 
 ## Convert Interactive experience forms to Main forms
-Like Dynamics 365 Customer Service web client, the Customer Service Hub app on Unified Interface uses Main forms. Any existing Interactive experience forms—both out-of-the-box and custom, will be modified and converted to Main forms when you upgrade to the latest version, and will import any solution into the Common Data Service platform. This change doesn't affect functionality, the form XML will largely remain the same except for a few changes in properties, shown below.
+Like Dynamics 365 Customer Service web client, the Customer Service Hub app on Unified Interface uses Main forms. Any existing Interactive experience forms—both out-of-the-box and custom, will be modified and converted to Main forms when you upgrade to the latest version, and will import any solution into the Microsoft Dataverse platform. This change doesn't affect functionality, the form XML will largely remain the same except for a few changes in properties, shown below.
 
 ![Converting Interactive experience forms to Main forms](media/upgrade-Convert-Interactive-experience-forms-to-Main-forms.png)
 
 - The conversion process changes the form type. No new forms are created and the name of the form doesn't change
 - The segment of form XML representing form behavior and customization is unaffected. This conversion will not have an adverse impact on functionality
 - **Form Type** would be changed from **Main – Interactive experience** to **Main**
-- If the managed properties of the form are set to be customizable, the **Form State** will be changed to Inactive; otherwise it will be unchanged. Because main forms are supported in Unified Interface as well as in the Common Data Service platform, deactivation is essential to avoid unintended access in the Common Data Service platform. This behavior is limited to customizable forms, so the upgrade does not force any form to an unrecoverable Inactive state
+- If the managed properties of the form are set to be customizable, the **Form State** will be changed to Inactive; otherwise it will be unchanged. Because main forms are supported in Unified Interface as well as in the Dataverse platform, deactivation is essential to avoid unintended access in the Dataverse platform. This behavior is limited to customizable forms, so the upgrade does not force any form to an unrecoverable Inactive state
 - After conversion to Main forms, Interactive experience forms will be ranked lower than other Main forms in the system, to avoid disruption to Dynamics 365 Customer Service web client users. System administrators can review the order and change it to suit the business needs. See [Assign form order](../customerengagement/on-premises/customize/assign-form-order.md) for more information
 
 ## Support for Interactive experience forms
@@ -65,7 +65,7 @@ Unified Interface does not use Interactive experience forms, so they will no lon
 
 ## Entity support and deprecation
 
-With the latest release, Unified Interface supports all Interactive Service hub entities and many others. Interactive dashboards, Card forms, Main forms and any other components like Views, Charts, etc., can be created for any entity supported in Unified Interface and used in the Customer Service Hub app. The **EntityMetadata.IsInteractionCentricEnabled** property, which indicates whether an entity can be enabled for interactive experience, is removed. The corresponding property in the customization interface, **Enable for interactive experience**, has been removed, and the **EntityMetadata.IsInteractionCentricEnabled** property will be removed from the future version of Common Data Service platform SDK.
+With the latest release, Unified Interface supports all Interactive Service hub entities and many others. Interactive dashboards, Card forms, Main forms and any other components like Views, Charts, etc., can be created for any entity supported in Unified Interface and used in the Customer Service Hub app. The **EntityMetadata.IsInteractionCentricEnabled** property, which indicates whether an entity can be enabled for interactive experience, is removed. The corresponding property in the customization interface, **Enable for interactive experience**, has been removed, and the **EntityMetadata.IsInteractionCentricEnabled** property will be removed from the future version of Dataverse platform SDK.
 
 ## User interface improvements
 

@@ -61,9 +61,9 @@ You can export the configuration data from your source system by using the Omnic
     ```
 5. Double-click **DataMigrationUtility.exe** to run the Configuration Migration tool, and choose **Export data** in the main screen.
 
-6. On the **Login** screen, provide authentication details to connect to your Dynamics 365 Server instance from where you want to export data. If you have multiple organizations on the Common Data Service platform server, and want to select the organization from where to export the data, select the **Always display list of available orgs** check box. Select **Login**.
+6. On the **Login** screen, provide authentication details to connect to your Dynamics 365 Server instance from where you want to export data. If you have multiple organizations on the Microsoft Dataverse platform server, and want to select the organization from where to export the data, select the **Always display list of available orgs** check box. Select **Login**.
 
-7. If you have multiple organizations, and you selected the **Always display list of available orgs** check box, the next screen lets you choose the organization that you want to connect to. Select the Common Data Service platform organization to connect to.
+7. If you have multiple organizations, and you selected the **Always display list of available orgs** check box, the next screen lets you choose the organization that you want to connect to. Select the Dataverse platform organization to connect to.
 
 8. Specify the name and location of the data file to be exported.
 
@@ -75,9 +75,9 @@ You can export the configuration data from your source system by using the Omnic
 
 1. Run the Configuration Migration tool, and select **Import data** on the main screen. For information about downloading the tool, see step 1 in the previous section.
 
-2. On the **Login** screen, provide authentication details to connect to your Common Data Service platform server from where you want to import data. If you have multiple organizations on the Common Data Service platform server, and want to select the organization from where you want to import the data, select the **Always display list of available orgs** check box. Select **Login**. 
+2. On the **Login** screen, provide authentication details to connect to your Dataverse platform server from where you want to import data. If you have multiple organizations on the Dataverse platform server, and want to select the organization from where you want to import the data, select the **Always display list of available orgs** check box. Select **Login**. 
 
-3. If you have multiple organizations, and you selected **Always display list of available orgs**, the next screen lets you choose the organization that you want to connect to. Select the Common Data Service platform organization to connect to.
+3. If you have multiple organizations, and you selected **Always display list of available orgs**, the next screen lets you choose the organization that you want to connect to. Select the Dataverse platform organization to connect to.
 
 4. The next screen prompts you to provide the data file (.zip) to be imported. Browse to the data file, select it, and then select **Import Data**.
 

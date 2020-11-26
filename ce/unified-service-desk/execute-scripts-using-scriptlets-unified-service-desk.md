@@ -20,11 +20,11 @@ search.app:
 
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
-Scriptlets are snippets of JavaScript that are executed when using a special syntax for your replacement parameter. Sometimes the system generated replacement parameters contain the proper data needed for these functions, but might not contain the data in the desired format. For example, in Computer Telephone Integration (CTI), phone numbers typically arrive from phone system as a string of digits such as “3035551212”, without any formatting. However, the Common Data Service platform stores phone numbers as a string that typically includes formatting characters such as dashes as in (303) 555-1212. If you were to search your entity using the data supplied directly by the phone system, changes are slim that a match would ever be found. You address this using scriptlets in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  
+Scriptlets are snippets of JavaScript that are executed when using a special syntax for your replacement parameter. Sometimes the system generated replacement parameters contain the proper data needed for these functions, but might not contain the data in the desired format. For example, in Computer Telephone Integration (CTI), phone numbers typically arrive from phone system as a string of digits such as “3035551212”, without any formatting. However, the Microsoft Dataverse platform stores phone numbers as a string that typically includes formatting characters such as dashes as in (303) 555-1212. If you were to search your entity using the data supplied directly by the phone system, changes are slim that a match would ever be found. You address this using scriptlets in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  
   
 <a name="HowTo"></a>   
 ## How to use scriptlets?  
- You define a scriptlet in the **Scriptlets** area (**Settings** > **Scriptlets**) in the Common Data Service platform. After you have defined a scriptlet, you use the scriptlet in the following format as a replacement parameter in your queries or parameters to the action calls.  
+ You define a scriptlet in the **Scriptlets** area (**Settings** > **Scriptlets**) in the Dataverse platform. After you have defined a scriptlet, you use the scriptlet in the following format as a replacement parameter in your queries or parameters to the action calls.  
   
 ```  
 [[script.<Scriptlet_Name>]]  
@@ -50,7 +50,7 @@ Connection_Manager.ConfigurationReader.ReadAppSettings(“maxNumberOfSessions”
 > [!NOTE]
 >  Only public functions are accessible via this method.  
   
- Consider a situation where you want to display session overview information in your Session Lines component but the information actually resides in an external system that is accessible via web services rather than being available in your Common Data Service platform server. You may create a hosted control that exposes a public function, which calls the external web service. You then configure this hosted control as a global hosted control and place it on the HiddenPanel. This function and web service call is now usable from a scriptlet. You could then create the following scriptlet to call your new function.  
+ Consider a situation where you want to display session overview information in your Session Lines component but the information actually resides in an external system that is accessible via web services rather than being available in your Dataverse platform server. You may create a hosted control that exposes a public function, which calls the external web service. You then configure this hosted control as a global hosted control and place it on the HiddenPanel. This function and web service call is now usable from a scriptlet. You could then create the following scriptlet to call your new function.  
   
 ```  
 My_Global_Application.CallExternalWebService(“[[account.accountnumber]$]”);  

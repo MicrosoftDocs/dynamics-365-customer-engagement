@@ -31,7 +31,7 @@ ms.service: dynamics-365-customerservice
 ## Add hosted controls, events, action calls, and forms to configurations
 
 
-1. Sign in to Common Data Service platform.
+1. Sign in to Microsoft Dataverse platform.
 
 2. Select the Down arrow next to Dynamics 365.
 

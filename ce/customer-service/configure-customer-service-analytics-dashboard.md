@@ -25,7 +25,7 @@ You must perform the following steps to configure the historical Customer Servic
 
 [Step 5: Publish application within your organization](#step-5-publish-application-within-your-organization)
 
-[Step 6: Enable Power BI reporting in the Common Data Service platform](#step-6-enable-power-bi-reporting-in-the-common-data-service-platform) 
+[Step 6: Enable Power BI reporting in the Microsoft Dataverse platform](#step-6-enable-power-bi-reporting-in-the-common-data-service-platform) 
 
 [Step 7: Add Power BI Dashboard to Customer Service Hub](#step-7-add-power-bi-dashboards-to-customer-service-hub) 
 
@@ -123,11 +123,11 @@ You must share the configured application with your entire organization for supe
 > [!NOTE]
 > Verify your administrator has allowed users in your organization to have read/write data permissions in Omnichannel Engagement Hub. To learn more, see [Provide data access consent](/dynamics365/omnichannel/administrator/omnichannel-provision-license#provide-data-access-consent).  
 
-## Step 6: Enable Power BI reporting in the Common Data Service platform
+## Step 6: Enable Power BI reporting in the Dataverse platform
 
-As an administrator, you must enable Power BI reporting in the Common Data Service platform environment for supervisors to view the dashboards.
+As an administrator, you must enable Power BI reporting in the Dataverse platform environment for supervisors to view the dashboards.
 
-1. Sign in to the Common Data Service platform, and go to **Settings**.
+1. Sign in to the Dataverse platform, and go to **Settings**.
 
 2. Select **Administration** > **System Settings**.
 

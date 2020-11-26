@@ -75,11 +75,11 @@ Use the **Debugger** option to gain insight into the process and code runs in th
 
 #### About
 
-Use the **About** option to view information about the user (agent), the agent's email ID, the Common Data Service, Shell Version, and much more.
+Use the **About** option to view information about the user (agent), the agent's email ID, the Microsoft Dataverse, Shell Version, and much more.
 
 #### Best Practices Analyzer
 
-Best practices are the guidelines about system configurations, Unified Service Desk, browser settings, and Unified Service Desk configurations in the Common Data Service platform. Consider these guidelines our recommended way to use Unified Service Desk and serve your customers.
+Best practices are the guidelines about system configurations, Unified Service Desk, browser settings, and Unified Service Desk configurations in the Dataverse platform. Consider these guidelines our recommended way to use Unified Service Desk and serve your customers.
 
 ### Presence
 

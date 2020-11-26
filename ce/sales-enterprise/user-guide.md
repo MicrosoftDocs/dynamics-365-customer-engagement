@@ -84,7 +84,7 @@ Use links in this article to familiarize with Dynamics 365 Sales.
 <li><a href="/powerapps/user/import-data" data-raw-source="[Import data](/powerapps/user/import-data)">Import data</a></li>
 <li><a href="/powerapps/user/export-data-excel" data-raw-source="[Export data to Excel](/powerapps/user/export-data-excel)">Export data to Excel</a></li>
 <li><a href="/powerapps/user/merge-duplicate-records" data-raw-source="[Merge duplicate records](/powerapps/user/merge-duplicate-records)">Merge duplicate records</a></li>
-<li><a href="/powerapps/user/search" data-raw-source="[Search options in Common Data Service](/powerapps/user/search)">Search options in Common Data Service</a></li>
+<li><a href="/powerapps/user/search" data-raw-source="[Search options in Microsoft Dataverse](/powerapps/user/search)">Search options in Dataverse</a></li>
 
 
 </td></tr>

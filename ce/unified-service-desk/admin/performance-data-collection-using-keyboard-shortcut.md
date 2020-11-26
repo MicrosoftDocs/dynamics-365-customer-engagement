@@ -125,7 +125,7 @@ To change the default keyboard shortcut, a System Administrator needs to configu
 
 To configure a new performance data collection keyboard shortcut:
 
-1. Sign in to the Common Data Service platform.
+1. Sign in to the Microsoft Dataverse platform.
 
 2. Select the down arrow next to Dynamics 365.
 

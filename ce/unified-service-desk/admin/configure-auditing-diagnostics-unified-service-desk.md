@@ -29,7 +29,7 @@ The **Audit & Diagnostics Settings** area provides centralized management for ag
 
  When you configure auditing and diagnostics in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)], keep in mind the following functionality:  
 
-- How [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] auditing and diagnostics are configured and recorded is completely separate from the audit feature in the Common Data Service platform.  
+- How [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] auditing and diagnostics are configured and recorded is completely separate from the audit feature in the Microsoft Dataverse platform.  
 
 - [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] auditing requires a Listener Hosted Control to record and save audit activity. Similarly, you can channel diagnostic logging using a Listener Hosted Control, but it’s not required, and by default, diagnostic logging is recorded on the local computer.  
 
@@ -63,7 +63,7 @@ The **Audit & Diagnostics Settings** area provides centralized management for ag
 > [!Note]
 > The procedure guides you to configure both auditing and diagnostics in a single record. Although you can configure individual records for auditing and diagnostics in the Audit & Diagnostics Settings record.
 
-1. Sign in to the Common Data Service platform.
+1. Sign in to the Dataverse platform.
 
 2. Select the down arrow next to Dynamics 365.
 
@@ -146,7 +146,7 @@ The **Audit & Diagnostics Settings** area provides centralized management for ag
 
 ### Standard auditing by adding an audit flag  
 
-1. Sign in to the Common Data Service platform.
+1. Sign in to the Dataverse platform.
 
 2. Select the down arrow next to Dynamics 365.
 
@@ -175,7 +175,7 @@ The **Audit & Diagnostics Settings** area provides centralized management for ag
 
 7. Select **Save**.  
 
-8. To view audit logging, sign in to the Common Data Service platform, and then from a productivity area select **Advanced Find**. In the **Look for** list, select `UII Audit`, and then select **Results** to see all audit logging details.
+8. To view audit logging, sign in to the Dataverse platform, and then from a productivity area select **Advanced Find**. In the **Look for** list, select `UII Audit`, and then select **Results** to see all audit logging details.
   
 
 <a name="Deactivate"></a>   
@@ -183,7 +183,7 @@ The **Audit & Diagnostics Settings** area provides centralized management for ag
 
 ### Deactivate a record
 
-1. Sign in to the Common Data Service platform.
+1. Sign in to the Dataverse platform.
 
 2. Select the down arrow next to Dynamics 365.
 
@@ -201,7 +201,7 @@ The audit and diagnostics record is deactivated.
 
 ### Activate a record
 
-1. Sign in to the Common Data Service platform.
+1. Sign in to the Dataverse platform.
 
 2. Select the down arrow next to Dynamics 365.
 

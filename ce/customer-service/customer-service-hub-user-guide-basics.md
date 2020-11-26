@@ -39,7 +39,7 @@ The Customer Service Hub app is available to use on a desktop browser and on a m
 
 **Desktop browser**
   
-1. In the Common Data Service platform, go to **Settings** > **Application** > **My Apps** >  **Customer Service Hub**.
+1. In the Microsoft Dataverse platform, go to **Settings** > **Application** > **My Apps** >  **Customer Service Hub**.
 
    ![Navigate to the application settings for Customer Service Hub](media/open-csh.png "Open the Customer Service Hub")
  
@@ -195,7 +195,7 @@ See a complete view of your customer's touch points in the Contact card. This ca
   
 ![Contact card](media/contact-card.png "Contact card")
 
-You can add a picture to the account or contact record in the Common Data Service platform, and it will appear on this card. You can make calls to customers from the Contact card using Skype for Business – IP telephony.
+You can add a picture to the account or contact record in the Dataverse platform, and it will appear on this card. You can make calls to customers from the Contact card using Skype for Business – IP telephony.
   
 For account records, the card shows contact details for the primary contact associated with the account. For contact records, the card appears if the contact is the customer value on the case form.  
 

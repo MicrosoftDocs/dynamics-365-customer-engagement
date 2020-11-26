@@ -76,7 +76,7 @@ This topic explains the considerations and best practices that you need to be aw
 
 ## Ignore entity records from migration
 
-1. Sign in to the Common Data Service platform.
+1. Sign in to the Microsoft Dataverse platform.
 
 2. Go to **Settings** > **Customizations** > **Customize the System**.
 
