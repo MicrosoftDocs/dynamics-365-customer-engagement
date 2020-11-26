@@ -8,6 +8,15 @@ ms.topic: get-started-article
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
+searchScope:
+  - D365-App-msdynce_saleshub
+  - D365-Entity-pricelevel
+  - D365-Entity-productpricelevel
+  - D365-Entity-product
+  - D365-UI-*
+  - Customer Engagement
+  - Dynamics 365
+  - Sales
 ---
 
 # Define product pricing with price lists and price list items (Sales and Sales Hub)

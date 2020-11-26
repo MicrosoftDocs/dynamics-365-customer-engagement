@@ -12,9 +12,9 @@ ms.author: shujoshi
 manager: annbe
 searchScope:
   - D365-App-msdynce_saleshub
-  - D365-Entity-Marketing List
-  - D365-Entity-Campaign
-  - D365-Entity-Campaign Response
+  - D365-Entity-list
+  - D365-Entity-campaign
+  - D365-Entity-campaignresponse
   - D365-UI-Form
   - Customer Engagement
   - Dynamics 365
