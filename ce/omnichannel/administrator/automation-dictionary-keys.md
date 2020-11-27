@@ -57,7 +57,7 @@ The automation dictionary uses the context data parameters that are available fr
 
 - [Context data from the channel provider](#context-data-from-the-channel-provider)
 - [Context data from user actions](#context-data-from-user-actions)
-- [Context data from Dataverse](#context-data-from-common-data-service)
+- [Context data from Dataverse](#context-data-from-dataverse)
 - [Context data from other macro actions](#context-data-from-other-macro-actions)
 
 > [!div class=mx-imgBorder] 
