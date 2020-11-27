@@ -11,6 +11,7 @@ manager: annbe
 searchScope:
   - D365-App-msdynce_saleshub
   - D365-Entity-opportunity
+  - D365-Entity-lead
   - D365-UI-*
   - Dynamics 365
   - Sales
