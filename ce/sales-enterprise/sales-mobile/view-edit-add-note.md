@@ -13,48 +13,48 @@ manager: shujoshi
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-You can see the associated notes in the **Notes** section of a record detail.
+You can see the notes associated with a record in the **Notes** section of the record details.
 
-![View note](media/sm-view-note.png "View note")
+![View a note](media/sm-view-note.png "View a note")
 
-You can performs the following actions in the **Notes** section:
+You can perform the following actions in the **Notes** section.<!--note from editor: Via Writing Style Guide, don't introduce a table with a colon. Also, "Don’t organize a table so that the column heading forms a complete sentence when combined with the cell contents. This can make the table difficult to localize."-->
 
-| To                                                        | Do this                |
+| To do this                                                | Do this                |
 |-----------------------------------------------------------|------------------------|
-| Open a list of notes                                      | Tap **Notes**. |
-| See an image associated with a note in its original ratio | Tap the image name.    |
-| Open or edit a note                                       | Tap a note.            |
-| Take more actions like edit or delete                     | Tap the menu icon.     |
-| Create a note                                             | Tab **Add a note**.     |
+| Open a list of notes.                                     | Tap **Notes**. |
+| See an image associated with a note.<!--note from editor: I don't know what "in its original ratio" means. If it just means this is how you see an image attached to a note, maybe it could "See the full-size image associated with the note."--> | Tap the image name.    |
+| Open or edit a note                                       | Tap the note.            |
+| Take more actions, like edit or delete a note.            | Tap ![Options button](media/sm-options-button.png "Options button").<!--note from editor: Edit okay? I couldn't figure out what "menu icon" referred to. If there's a tooltip on this icon (such as "More" or "Options"), that should be given here and below where this icon is also used.-->     |
+| Create a note.                                            | Tap **Add a note**.     |
 
 ## Add a note
-
+<!--note from editor: Please check the alt text; it needs to be unique for each image (except icons). -->
 1.  Perform one of the following actions:
 
-    -   When viewing details of a record, if a note is not added to a record, tap **Add a note**.
+    -   When viewing details of a record that has no notes added to it yet, tap **Add a note**.
 
-        ![Add a note](media/sm-add-note-button.png "Add a note")
+        ![Add the first note to a record](media/sm-add-note-button.png "Add the first note to a record")
 
-    -   When viewing details of a record, if notes are already added, tap **Add a note**.
+    -   When viewing details of a record that has already had notes added to it, tap **Add a note**.
 
-        ![Add a note](media/sm-add-note-link.png "Add a note")
+        ![Add an additional note to a record](media/sm-add-note-link.png "Add an additional note to a record")
 
     -   When viewing a list of notes, tap ![Add note icon](media/sm-add-note-icon.png "Add note icon").
 
-        ![Add a note](media/sm-add-note-from-list.png "Add a note")
+        ![Add a note in the notes list](media/sm-add-note-from-list.png "Add a note in the notes list")
 
-    -   On the bottom navigation bar, tap ![Plus icon](media/sm-plus-icon.png "Plus icon"), and then tap **Add a note**.
+    -   On the navigation bar at the bottom of the screen, tap ![Plus icon](media/sm-plus-icon.png "Plus icon"), and then tap **Add a note**.
 
         ![Add a note](media/sm-add-note-nav-bar.png "Add a note")
 
-2.  In the **Note** form, enter a title and description for the note.
+2.  In the **Note** form, enter a title and the text of your note.<!--note from editor: Edit okay? It doesn't seem that a note has a description, exactly. It's more that the description *is* the note.-->
 
-3.  To attach a file or an image stored on your mobile device, tap ![Paperclip icon](media/sm-attach-file-note.png "Paperclip icon").
+3.  To attach a file or an image stored on your mobile device, tap ![Paper clip icon](media/sm-attach-file-note.png "Paper clip icon").
 
 4.  To take a photo from your mobile camera and attach it to the note, tap ![Camera icon](media/sm-take-photo-note.png "Camera icon").
 
     > [!NOTE]
-    > If you are adding the note from the bottom navigation bar, you must connect the note to the record that it's regarding. Tap **Next** and then select a record you want to associate the note with.
+    > If you're adding the note by using the navigation bar at the bottom of the screen, you must connect the note to the record that it's regarding. Tap **Next**, and then select the record you want to associate the note with.
 
 5. Tap **Save**.
 
