@@ -39,12 +39,12 @@ The Customer Service Hub app is available to use on a desktop browser and on a m
 
 **Desktop browser**
   
-1. In the Microsoft Dataverse platform, go to **Settings** > **Application** > **My Apps** >  **Customer Service Hub**.
+- On the Dynamics 365 page, in the **Published Apps** area, select **Customer Service Hub**.
 
    ![Navigate to the application settings for Customer Service Hub](media/open-csh.png "Open the Customer Service Hub")
  
   
-2. In the Dynamics 365 Customer Service site map, navigate to the app switcher, and then select **Customer Service Hub**.
+- If you are on the Settings page, then in the Dynamics 365 Customer Service site map, navigate to the app switcher, and then select **Customer Service Hub**.
 
   ![Open the Customer Service Hub site map](media/open-csh-sitemap.png "Customer Service Hub site map")
   
