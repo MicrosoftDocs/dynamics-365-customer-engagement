@@ -33,8 +33,8 @@ You need to add the personalization tab to your Unified Service Desk configurati
 
 4. Select **Save**. 
 
-> [!div class=mx-imgBorder]
-> ![Create new action call record](../../media/create-new-action-call-record.png "Create new action call record")
+    > [!div class=mx-imgBorder]
+    > ![Create new action call record](../../media/create-new-action-call-record.png "Create new action call record")
 
 5. Under **Basic Settings** in the left panel, go to **Toolbars** > **Omnichannel ToolbarStrip**.
 
@@ -42,8 +42,8 @@ You need to add the personalization tab to your Unified Service Desk configurati
 
 7. In the **Related** section, select **Toolbar Buttons**.
 
-> [!div class=mx-imgBorder]
-> ![Select Toolbar Buttons in the Related section](../../media/select-toolbar-buttons.png "Select Toolbar Buttons in the Related section")
+    > [!div class=mx-imgBorder]
+    > ![Select Toolbar Buttons in the Related section](../../media/select-toolbar-buttons.png "Select Toolbar Buttons in the Related section")
 
 8. Select **New Toolbar Button**.
 
@@ -59,20 +59,20 @@ You need to add the personalization tab to your Unified Service Desk configurati
 
 11. Select **Add Existing Action Call**, and add the following action calls in the following order: <br>
 
-    - Switch to Agent Home Page
+    i. Switch to Agent Home Page
 
-    - OpenPersonalizationPage
+    ii. OpenPersonalizationPage
 
-    - ToggleGlobalSearchControl
+    iii. ToggleGlobalSearchControl
 
-    - Focus on Search Grid
+    iv. Focus on Search Grid
 
-> [!div class=mx-imgBorder]
-> ![Add action calls from the lookup records](../../media/add-action-calls-from-lookup-records.png "Add action calls from the lookup records")
+    > [!div class=mx-imgBorder]
+    > ![Add action calls from the lookup records](../../media/add-action-calls-from-lookup-records.png "Add action calls from the lookup records")
 
 12. Under **Advanced Settings** in the left panel, go to **Configurations** > **Agent Configuration** > **Hosted Controls, Events and Action Calls** tab.
 
 13. In the **Action Calls** subgrid, go to **Add Existing Action Call**, and then add the newly created Action Call **OpenPersonalizationPage**.
 
-> [!div class=mx-imgBorder]
-> ![Add the newly created action call](../../media/add-newly-created-action-call.png "Add the newly created action call")
+    > [!div class=mx-imgBorder]
+    > ![Add the newly created action call](../../media/add-newly-created-action-call.png "Add the newly created action call")
