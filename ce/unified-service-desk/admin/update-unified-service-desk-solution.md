@@ -57,7 +57,7 @@ Read this topic only if you have an existing installation of [!INCLUDE[pn_unifie
   
      For example, if you currently have Base package installed, you must navigate to the USDPackageDeployer\BasePackage folder to find the solution files for updating.  
   
-5. Sign in to the Dataverse platform.  
+5. Sign in to the Dynamics 365 instance.  
   
 6. Go to **Settings** > **Solutions**.   
   

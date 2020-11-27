@@ -52,7 +52,7 @@ To pass the data with special characters, use the **EscapeCharacters** UII optio
 
 ## Create hosted control
 
-1. Sign in to the Dataverse platform.  
+1. Sign in to the Dynamics 365 instance.  
 
 2. On the nav bar, choose the down arrow (v) next to **Dynamics 365**.
 

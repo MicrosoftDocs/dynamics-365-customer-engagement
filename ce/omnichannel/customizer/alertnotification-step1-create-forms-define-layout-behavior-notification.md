@@ -30,7 +30,7 @@ The topic describes how to define the layout and behavior of the alert notificat
 
 ## Create forms
 
-1. Sign in to Microsoft Dataverse platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Select the Down arrow next to Dynamics 365.
 

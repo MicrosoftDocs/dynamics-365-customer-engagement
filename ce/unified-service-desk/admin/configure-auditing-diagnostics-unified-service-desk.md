@@ -63,7 +63,7 @@ The **Audit & Diagnostics Settings** area provides centralized management for ag
 > [!Note]
 > The procedure guides you to configure both auditing and diagnostics in a single record. Although you can configure individual records for auditing and diagnostics in the Audit & Diagnostics Settings record.
 
-1. Sign in to the Dataverse platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Select the down arrow next to Dynamics 365.
 
@@ -146,7 +146,7 @@ The **Audit & Diagnostics Settings** area provides centralized management for ag
 
 ### Standard auditing by adding an audit flag  
 
-1. Sign in to the Dataverse platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Select the down arrow next to Dynamics 365.
 
@@ -175,7 +175,7 @@ The **Audit & Diagnostics Settings** area provides centralized management for ag
 
 7. Select **Save**.  
 
-8. To view audit logging, sign in to the Dataverse platform, and then from a productivity area select **Advanced Find**. In the **Look for** list, select `UII Audit`, and then select **Results** to see all audit logging details.
+8. To view audit logging, sign in to the Dynamics 365 instance, and then from a productivity area select **Advanced Find**. In the **Look for** list, select `UII Audit`, and then select **Results** to see all audit logging details.
   
 
 <a name="Deactivate"></a>   
@@ -183,7 +183,7 @@ The **Audit & Diagnostics Settings** area provides centralized management for ag
 
 ### Deactivate a record
 
-1. Sign in to the Dataverse platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Select the down arrow next to Dynamics 365.
 
@@ -201,7 +201,7 @@ The audit and diagnostics record is deactivated.
 
 ### Activate a record
 
-1. Sign in to the Dataverse platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Select the down arrow next to Dynamics 365.
 

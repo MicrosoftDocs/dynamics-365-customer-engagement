@@ -21,7 +21,7 @@ As an administrator, to create skills, you need at least one skill type in the s
 
 ### Create skill type
 
-1. Sign in to the Microsoft Dataverse platform as an administrator.
+1. Sign in to the Dynamics 365 instance as an administrator.
 
 2. Select **Settings** > **Customizations** >  **Customize the System**.
 

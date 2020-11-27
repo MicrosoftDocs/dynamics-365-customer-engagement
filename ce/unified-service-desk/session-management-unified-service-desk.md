@@ -28,7 +28,7 @@ Whenever you search for customer information in [!INCLUDE[pn_unified_service_des
 ## Session and context information  
  Let us see how the session and context data is stored in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] when you search for customer information.  
   
-1. Start the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, and sign in to the Dataverse platform.  
+1. Start the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, and sign in to the Dynamics 365 instance.  
   
 2. Click **Search** in the toolbar, and then click an account name to search for it.  
   

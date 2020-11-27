@@ -27,7 +27,7 @@ You customize the quick view form in the section by navigating to the respective
 
 The following procedure shows how to modify the **Customer profile** quick view form of the **Account** entity. The process is similar for other forms that are listed in the preceding table.
 
-1.  Sign in to the Microsoft Dataverse platform.
+1.  Sign in to the Dynamics 365 instance.
 
 2.  Go to **Settings** > **Customization** > **Customize the system**.
 

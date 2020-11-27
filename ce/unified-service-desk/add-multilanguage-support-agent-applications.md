@@ -44,7 +44,7 @@ Rest of the strings that is rendered by default on Unified Service Desk client a
   
 3. Upload the file as a web resource to the Microsoft Dataverse platform. Name the web resource so that you can identify the language of the string resources in it.  
   
-   1. Sign in to the Dataverse platform.  
+   1. Sign in to the Dynamics 365 instance.  
   
    2. Go to **Settings** > **Customizations** ([How do I get there?](https://go.microsoft.com/fwlink/p/?LinkId=525636))  
   

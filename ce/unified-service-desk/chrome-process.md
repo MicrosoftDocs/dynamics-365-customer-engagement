@@ -291,7 +291,7 @@ Also, within Unified Service Desk client application, you can debug a Chrome Pro
 
 ### Add the ChromeRemoteDebuggingPort UII option
 
-1. Sign in to the Dataverse platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Go to **Settings** > **Unified Service Desk** > **Options**.
 
@@ -311,7 +311,7 @@ If ***onbeforeunload*** event handlers are set for the page loaded in the hosted
 
 ### Add the OnBeforeCloseHandler UII option
 
-1. Sign in to the Dataverse platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Go to **Settings** > **Unified Service Desk** > **Options**.
 
@@ -332,7 +332,7 @@ The confirmation dialog box is displayed, if this UII option is added or the val
 
 ### Add the ChromeProcessConfirmationDialog UII option
 
-1. Sign in to the Dataverse platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Go to **Settings** > **Unified Service Desk** > **Options**.
 
@@ -374,7 +374,7 @@ To update additional the keyboard shortcuts, you must add the UII options and pr
 
 ### Add the Zoom control UII option
 
-1. Sign in to the Dataverse platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Go to **Settings** > **Unified Service Desk** > **Options**.
 
@@ -410,7 +410,7 @@ Example path: `C:\Program Files\Microsoft Dynamics CRM USD\USD`
 
 ### Set default zoom value for entire organization
 
-1. Sign in to the Dataverse platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Go to **Settings** > **Unified Service Desk** > **Options**.
 
@@ -436,7 +436,7 @@ If you leave the value blank or set the value as **False**, then Chrome Process 
 
 ### Add the AllowWebpageNavigationCertificateError UII option
 
-1. Sign in to the Dataverse platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Go to **Settings** > **Unified Service Desk** > **Options**.
 
@@ -456,7 +456,7 @@ After adding the UII option, if you set to false or leave the value empty, the U
 
 ### Add the AllowWebpageNavigationCertificateError UII option
 
-1. Sign in to the Dataverse platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Go to **Settings** > **Unified Service Desk** > **Options**.
 
@@ -513,7 +513,7 @@ You must generate the reports when you want to investigate the Chrome Process cr
 
 ### Add the ChromeEnableLogging UII option
 
-1. Sign in to the Dataverse platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]
 
@@ -535,7 +535,7 @@ The Chrome Process provides many options that can be used on the chrome process 
 
 ### Add the ChromeProcessParameters UII option
 
-1. Sign in to the Dataverse platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Go to **Settings** > **Unified Service Desk**.
 
@@ -573,7 +573,7 @@ As an admin, the **ChromeProcessDownloadPath** UII option enables you to set the
 
 ### Add the ChromeProcessDownloadPath UII option
 
-1. Sign in to the Dataverse platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Go to **Settings** > **Unified Service Desk**.
 

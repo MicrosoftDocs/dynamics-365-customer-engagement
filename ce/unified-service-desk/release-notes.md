@@ -539,7 +539,7 @@ Configure the **ShowOutside** action call to show the webpage in **IE Process** 
 
 In this step, you'll create an action call to show the webpage.
 
-1. Sign in to the Dataverse platform.
+1. Sign in to the Dynamics 365 instance.
 2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]
 3. Select **Action Calls**.
 4. Select **+ New**.
@@ -559,7 +559,7 @@ In this step, you'll create an action call to show the webpage.
 
 In this step, you create a navigation rule and set it to occur before other default rules. After creating the navigation rule, add the **ShowOutside** action call that you created in Step 1 to the **Show Outside Rule** window navigation rule.
 
-1. Sign in to the Dataverse platform.
+1. Sign in to the Dynamics 365 instance.
 2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]
 3. Select **Window Navigation Rules**.
 4. Select **+ New**.

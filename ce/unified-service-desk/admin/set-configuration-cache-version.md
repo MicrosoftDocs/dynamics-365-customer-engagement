@@ -72,7 +72,7 @@ Unified Service Desk activates the client caching for configurations.
 
 ## Specify value for the Configuration Cache Version option
 
-1. Sign in to the Dataverse platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Select the down arrow next to Dynamics 365.
 

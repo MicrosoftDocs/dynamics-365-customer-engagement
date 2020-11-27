@@ -50,7 +50,7 @@ For this scenario, you must create the following:
 
 ### Configure Link Account To Conversation action call
 
-1. Sign in to Microsoft Dataverse platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Select the Down arrow next to Dynamics 365.
 
@@ -71,7 +71,7 @@ For this scenario, you must create the following:
 
 ### Configure Session Toolbar
 
-1. Sign in to Dataverse platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Select the Down arrow next to Dynamics 365.
 
@@ -107,7 +107,7 @@ For this scenario, you must create the following:
 
 ### Add the action call and toolbar to configurations
 
-1. Sign in to Dataverse platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Select the Down arrow next to Dynamics 365.
 

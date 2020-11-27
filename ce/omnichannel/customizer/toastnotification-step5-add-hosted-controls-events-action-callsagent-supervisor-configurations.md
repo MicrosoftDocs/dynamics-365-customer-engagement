@@ -33,7 +33,7 @@ This topic describes how to add hosted control, events, actions calls to the con
 
 ## Add hosted controls, events, action calls, and forms to configurations
 
-1. Sign in to Microsoft Dataverse platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Select the Down arrow next to Dynamics 365.
 

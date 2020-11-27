@@ -91,7 +91,7 @@ search.app:
 
   If you want to deploy another sample [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] package, you must first remove these three solutions. To do this:
 
-1. Sign in to the Dataverse platform.  
+1. Sign in to the Dynamics 365 instance.  
 
 2. On the nav bar, choose **Dynamics 365**, and then choose **Settings**.  
 

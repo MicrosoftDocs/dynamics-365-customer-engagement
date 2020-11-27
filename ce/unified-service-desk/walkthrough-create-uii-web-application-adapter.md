@@ -53,7 +53,7 @@ You can create a web application adapter if you want to enhance and modify web a
 <a name="ConfigureExApp"></a>   
 ## Step 2: Configure a web application
 
-1. Sign in to the Dataverse platform.  
+1. Sign in to the Dynamics 365 instance.  
 
 2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]
 
@@ -186,7 +186,7 @@ You can create a web application adapter if you want to enhance and modify web a
 <a name="ConfigureWebAdapter"></a>   
 ## Step 5: Configure a web application adapter  
 
-1. Sign in to the Dataverse platform.  
+1. Sign in to the Dynamics 365 instance.  
 
 2. On the nav bar, choose **Dynamics 365**.  
 

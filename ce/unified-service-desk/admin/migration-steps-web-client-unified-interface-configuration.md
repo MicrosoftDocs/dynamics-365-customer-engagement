@@ -78,7 +78,7 @@ The **USDWebResources** folder contains the migrated **RunXrmCommand** actions t
 
 To import the **USDWebResources** zip folder, follow these steps:
 
-1. Sign in to the Dataverse platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Go to **Settings** > **Solutions**.
 

@@ -133,7 +133,7 @@ This walkthrough demonstrates how to display records in a session in your agent 
 ## Step 4: Create a window navigation rule to display the account record in a session  
  In this step, you’ll create a window navigation rule that displays the record in a session when the user selects any of the accounts in the search results window.  
   
-1. Sign in to the Dataverse platform.  
+1. Sign in to the Dynamics 365 instance.  
   
 2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
   
@@ -177,7 +177,7 @@ This walkthrough demonstrates how to display records in a session in your agent 
   
  To add a control to the configuration:  
   
-1. Sign in to the Dataverse platform.  
+1. Sign in to the Dynamics 365 instance.  
   
 2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
   
@@ -198,7 +198,7 @@ This walkthrough demonstrates how to display records in a session in your agent 
 <a name="Step6"></a>   
 ## Step 6: Test the application  
   
-1. Start the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, and sign in to the Dataverse platform instance where you configured Unified Service Desk by using the same user credentials that is assigned to Contoso Configuration in [Walkthrough 1: Build a simple agent application](../unified-service-desk/walkthrough-1-build-a-simple-agent-application.md). For information about connecting to the Dataverse platform instance using the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, see [Connect to CRM instance using the Unified Service Desk client](../unified-service-desk/admin/connect-dynamics-365-instance-using-unified-service-desk-client.md).  
+1. Start the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, and sign in to the Dynamics 365 instance instance where you configured Unified Service Desk by using the same user credentials that is assigned to Contoso Configuration in [Walkthrough 1: Build a simple agent application](../unified-service-desk/walkthrough-1-build-a-simple-agent-application.md). For information about connecting to the Dataverse platform instance using the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, see [Connect to CRM instance using the Unified Service Desk client](../unified-service-desk/admin/connect-dynamics-365-instance-using-unified-service-desk-client.md).  
   
 2. To display the account records from your Dataverse platform instance, select the down arrow next to the **Search** button in the toolbar, and then select **Account**.  
   

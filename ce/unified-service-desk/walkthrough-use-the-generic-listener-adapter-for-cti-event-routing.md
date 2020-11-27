@@ -82,7 +82,7 @@ This walkthrough demonstrates how you can use the CTI Desktop Manager and generi
 ## Step 3: Define a window navigation rule to route the CtiLookUpRequest  
  Create a window navigation rule to create a session if a match is found, and then display the matching contact record in a session in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]  
   
-1. Sign in to the Dataverse platform.  
+1. Sign in to the Dynamics 365 instance.  
   
 2. Navigate to the advanced find for contacts, and create a query where you search for active contacts where the email, email address 2, or email address 3 field equals a certain value, for example, someone_c@example.com.  
   

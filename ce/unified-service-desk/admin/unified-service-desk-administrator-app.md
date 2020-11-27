@@ -70,7 +70,7 @@ The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md
 
 4. Open the **USDPackageDeployer** > **NewEnvironment** folder and locate the **USDUnifiedInterfaceCustomization_1_0_managed** solution.
 
-5. Sign in to the Dataverse platform.
+5. Sign in to the Dynamics 365 instance.
 
 6. Go to **Settings** > **Solutions**.
 
@@ -94,7 +94,7 @@ The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md
 
 If you deploy the sample package or import the solution, in either way you can find the Administrator app by following these steps:
 
-1. Sign in to the Dataverse platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Select the drop-down arrow next the **Dynamics 365** and select **Unified Service Desk Administrator** app.
 

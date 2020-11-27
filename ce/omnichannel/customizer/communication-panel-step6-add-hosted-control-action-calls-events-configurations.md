@@ -35,7 +35,7 @@ This topic describes how to add action calls, events, window navigation rule, an
 
 ## Add the hosted control, action calls, window navigation and events to configurations
 
-1. Sign in to Microsoft Dataverse platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Select the Down arrow next to Dynamics 365.
 

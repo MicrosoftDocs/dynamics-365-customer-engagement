@@ -32,7 +32,7 @@ This topic describes how to create a search hosted control in Unified Service De
 
 ## Create hosted control
 
-1. Sign in to the Microsoft Dataverse platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Select the Down arrow next to Dynamics 365.
 

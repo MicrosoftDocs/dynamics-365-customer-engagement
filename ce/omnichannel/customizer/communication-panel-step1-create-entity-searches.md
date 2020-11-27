@@ -31,7 +31,7 @@ This topic describes how to create a communication panel entity search in Unifie
  
 ## Create entity search
 
-1. Sign in to Microsoft Dataverse platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Select the Down arrow next to Dynamics 365.
 
@@ -65,7 +65,7 @@ This topic describes how to create a communication panel entity search in Unifie
 
 ## ServiceEndPointSearch
 
-1. Sign in to Dataverse platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Select the Down arrow next to Dynamics 365.
 

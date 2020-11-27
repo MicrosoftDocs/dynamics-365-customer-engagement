@@ -50,7 +50,7 @@ As an administrator, you must activate the **SDK Message Processing Steps** asso
 
 Use the following steps as a workaround:
 
-1. Sign in to the Microsoft Dataverse platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Go to **Settings** > **Customizations**.
 

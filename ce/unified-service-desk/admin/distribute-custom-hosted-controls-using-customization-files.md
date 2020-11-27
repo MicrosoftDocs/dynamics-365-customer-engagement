@@ -41,7 +41,7 @@ Use the customization files feature to distribute custom hosted controls and fun
   
 ## Create or update a customization file record for custom functionality distribution  
   
-1. Sign in to the Dataverse platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Select the down arrow next to Dynamics 365.
 

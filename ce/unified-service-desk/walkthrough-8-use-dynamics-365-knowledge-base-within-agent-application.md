@@ -72,7 +72,7 @@ This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_s
 ## Step 1: Create a hosted control of type KM Control  
  In this step, you’ll create a hosted control of type **KM Control** to display the knowledge base search pane.  
 
-1. Sign in to the Dataverse platform.  
+1. Sign in to the Dynamics 365 instance.  
 
 2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
 
@@ -472,7 +472,7 @@ In this step, you will:
 ## Step 7: Test the application  
  To test the application:  
 
-1. Start the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, and sign in to the Dataverse platform instance where you configured [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] entities as described earlier.  
+1. Start the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, and sign in to the Dynamics 365 instance instance where you configured [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] entities as described earlier.  
 
 2. In the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] application, click **My Work** in the toolbar to display a list of cases assigned to you.  
 

@@ -33,7 +33,7 @@ This topic describes how to attach the search-related action calls to out-of-the
 
 ## Create OmnichannelSessionInlineSearchAndLink event
 
-1. Sign in to the Microsoft Dataverse platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Select the Down arrow next to Dynamics 365.
 

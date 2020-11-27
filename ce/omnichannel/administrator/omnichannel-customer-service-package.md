@@ -121,7 +121,7 @@ When you deploy an Omnichannel for Customer Service package in an organization, 
     > [!Note]
     > If you have deployed the Omnichannel New Environment package, then **OmnichannelUnifiedServiceDeskSolution** might not be present in the list of solutions.
 
-1. Sign in to the Microsoft Dataverse platform.  
+1. Sign in to the Dynamics 365 instance.  
 
 2. On the nav bar, choose **Settings** > **Solutions**.  
 
