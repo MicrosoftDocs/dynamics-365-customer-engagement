@@ -1,7 +1,7 @@
 ﻿---
 title: View meetings in the Dynamics 365 Sales mobile app
 description: Instructions to view meetings in the Dynamics 365 Sales mobile app
-ms.date: 11/03/2020
+ms.date: 11/30/2020
 ms.topic: article
 ms.service: dynamics-365-sales
 author: sbmjais
@@ -13,7 +13,7 @@ manager: shujoshi
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-On the home page, you can see resources that can help you better plan your day.<!--note from editor: Suggest moving this adverb closer to the verb it modifies, but this is just a suggestion.--> For example, one past and one upcoming meeting are displayed in the **Meetings** section.
+On the home page, you can see resources that can help you better plan your day. For example, one past and one upcoming meeting are displayed in the **Meetings** section.
 
 To see more meetings for the day, tap **Meetings** either on the home page or on the navigation bar. Meetings that have been scheduled in Microsoft Outlook are displayed.
 
@@ -44,7 +44,7 @@ To see details of a specific meeting, tap the meeting record on either the home 
 
 ![Meeting details](media/sm-meeting-details.png "Meeting details")
 
-Meeting details include the following:<!--note from editor: Suggested.-->
+Meeting details include the following:
 
 -   Meeting name
 
@@ -54,7 +54,7 @@ Meeting details include the following:<!--note from editor: Suggested.-->
 
 -   List of attendees: Up to five attendees are shown. When you tap the name of an attendee, the quick view of their contact record opens. If the attendee is an unknown contact (that is, not a record stored in Dynamics 365 Sales), you'll see an option to create a contact. More information: [Create a contact](create-contact.md)
 
--   Regarding: Indicates the record the meeting is about. By selecting **More** (**...**)<!--note from editor: Edit okay? I assume this is the same menu you called **More actions** in use-sales-mobile-app.md?-->, you can do the following:
+-   Regarding: Indicates the record the meeting is about. By tapping ![Options button](media/sm-options-button.png "Options button"), you can do the following:
 
     -   Open the connected record in edit mode.
 
@@ -77,7 +77,7 @@ Meeting details include the following:<!--note from editor: Suggested.-->
 
     ![Connect a record to a meeting](media/sm-meeting-details-no-record.png "Connect a record to a meeting")
 
-3. On the **Regarding** page, either select a recent record or tap **Search** to look for the record you want.<!--note from editor: Suggested.-->
+3. On the **Regarding** page, either select a recent record or tap **Search** to look for the record you want.
 
     ![Search for a record to connect](media/sm-regarding-record.png "Search for a record to connect")
 
@@ -86,6 +86,4 @@ Meeting details include the following:<!--note from editor: Suggested.-->
     ![Select a record to connect](media/sm-select-regarding-record.png "Select a record to connect")
 
 The connected record details are displayed in the **Regarding** section.
-<!--note from editor: You already used this image. Is there another you wanted to use here?
-![Meeting details](media/sm-meeting-details.png "Meeting details")
--->
+

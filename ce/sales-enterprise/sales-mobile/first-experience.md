@@ -1,7 +1,7 @@
 ﻿---
 title: First experience of the Dynamics 365 Sales mobile app
 description: Learn about experiencing the Dynamics 365 Sales mobile app when you sign in for the first time
-ms.date: 11/03/2020
+ms.date: 11/30/2020
 ms.topic: article
 ms.service: dynamics-365-sales
 author: sbmjais

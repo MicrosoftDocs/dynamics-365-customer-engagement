@@ -1,7 +1,7 @@
 ﻿---
 title: Open a record in the Dynamics 365 Sales mobile app
 description: Instructions to open a record in the Dynamics 365 Sales mobile app
-ms.date: 11/03/2020
+ms.date: 11/30/2020
 ms.topic: article
 ms.service: dynamics-365-sales
 author: sbmjais

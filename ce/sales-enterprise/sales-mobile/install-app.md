@@ -1,7 +1,7 @@
 ﻿---
 title: Install the Dynamics 365 Sales mobile app
 description: Instructions to install the Dynamics 365 Sales mobile app
-ms.date: 11/03/2020
+ms.date: 11/30/2020
 ms.topic: article
 ms.service: dynamics-365-sales
 author: sbmjais
@@ -10,7 +10,7 @@ manager: shujoshi
 ---
 
 # Install the app
-<!--note from editor: I'm avoiding "platform" via Writing Style Guide. It's not that it's a forbidden term, but it's discouraged for general audiences, and not using it matches most other occurrences in our content.-->
+
 [!INCLUDE [cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
 The Dynamics 365 Sales mobile app can be installed on iOS and Android devices.
@@ -21,7 +21,7 @@ The Dynamics 365 Sales mobile app can be installed on iOS and Android devices.
 
 2. On your iOS device, open a web browser and go to [https://testflight.apple.com/join/kmbb9J11](https://testflight.apple.com/join/kmbb9J11).
 
-3. In the TestFlight app, tap **Accept**.<!--note from editor: The edits to alt text in this article are meant to avoid the build error of having duplicate alt text. It should be unique for each image.-->
+3. In the TestFlight app, tap **Accept**.
 
     ![Accept the TestFlight app](media/ios-install-step3.png "Accept the TestFlight app")
 
@@ -37,7 +37,7 @@ The Dynamics 365 Sales mobile app can be installed on iOS and Android devices.
 
     ![Download the Sales mobile app](media/android-install-step2.png "Download the Sales mobile app")
 
-3.	In the confirmation message to download the Sales.apk file, tap **Download**.<!--note from editor: If you don't want to use the file name, it should be "download the .apk file" via Writing Style Guide.-->
+3.	In the confirmation message to download the .apk file, tap **Download**.
 
     ![Download the Sales.apk file](media/android-install-step3.png "Download the Sales.apk file")
 
