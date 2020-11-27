@@ -4,7 +4,7 @@ description: "Learn on how to add the personalization tab on a Unified Service D
 author: v-sailab
 ms.author: v-sailab
 manager: shujoshi
-ms.date: 11/23/2020
+ms.date: 11/27/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -13,9 +13,9 @@ ms.service: dynamics-365-customerservice
 
 [!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
-You need to add the personalization tab to your Unified Service Desk configuration in order to use personal quick replies. After you add the personalization tab, you can view the tab depending on where it was addeed.
+You need to add the personalization tab to your Unified Service Desk configuration in order to use personal quick replies. After you add the personalization tab, you can view the tab depending on where it was added.
 
-1. In the Unified Service Desk Administrator app, under **Basic Settings** in the left panel, select **Action Calls**.
+1. In the Unified Service Desk Administrator app, under **Basic Settings** in the left pane, select **Action Calls**.
 
 2. To create a new action call record, select **New**.
 
