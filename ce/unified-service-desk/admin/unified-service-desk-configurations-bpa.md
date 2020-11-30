@@ -1,6 +1,6 @@
 ---
 title: "Unified Service Desk configurations | MicrosoftDocs"
-description: "Learn about the Unified Service Desk configurations that you make in the Microsoft Dataverse Platform on which the Best practices Analyer performs analysis and displays a report."
+description: "Learn about the Unified Service Desk configurations that you make in Microsoft Dataverse on which the Best practices Analyer performs analysis and displays a report."
 author: v-sailab
 ms.author: v-sailab
 manager: shujoshi
@@ -13,7 +13,7 @@ ms.service: dynamics-365-customerservice
 
 [!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
-[!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] analyzes the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configurations that you make in the Microsoft Dataverse platform.
+[!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] analyzes the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configurations that you make in Microsoft Dataverse.
 
 ## Internal WPF Hosting Type
  
