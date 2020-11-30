@@ -35,6 +35,18 @@ The home page shows items that are most relevant to you, such as:
 
 -   Insights.
 
+## Your first experience
+
+When you sign in to your app the first time, you'll see the welcome page that briefly shows the various things that you can do with the Dynamics 365 Sales mobile app.
+
+![Welcome screen](media/sm-welcome-screen.png "Welcome screen")
+
+Tap **Next** to go through all the welcome pages and learn more about what the app offers.
+
+When you're on the last page, tap **Let's go**.
+
+![Welcome screen](media/sm-welcome-screen1.png "Welcome screen")
+
 ## Get familiar with the home page
 
 The home page gives you a quick access to what's most important to you. The home page is divided into the following sections.

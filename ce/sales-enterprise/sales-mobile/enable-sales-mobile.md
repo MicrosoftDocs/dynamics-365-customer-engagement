@@ -35,11 +35,13 @@ Before field sellers can use the Dynamics 365 Sales mobile app, you must enable 
 
 3. Select **System Settings**.
 
-4. In the **System Settings** window, go to the **Mobile Client** tab, and then under **Dynamics 365 Sales mobile app (preview)**, select **Yes**.
+4. In the **System Settings** window, go to the **Mobile Client** tab.
+
+5. Under **Dynamics 365 Sales mobile app (preview)**, read the terms and conditions, and then select **Yes**.
 
     ![Enable the mobile app in System Settings](media/system-settings-enable-app.png "Enable the mobile app in System Settings")
 
-5. Select **OK**.
+6. Select **OK**.
 
 ## What's next
 

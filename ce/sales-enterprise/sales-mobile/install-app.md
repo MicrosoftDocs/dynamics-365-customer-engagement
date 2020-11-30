@@ -19,7 +19,7 @@ The Dynamics 365 Sales mobile app can be installed on iOS and Android devices.
 
 1. Go to the Apple App Store and install the **TestFlight** app.
 
-2. On your iOS device, open a web browser and go to [https://testflight.apple.com/join/kmbb9J11](https://testflight.apple.com/join/kmbb9J11).
+2. On your iOS device, go to the [beta version of the iOS app](https://testflight.apple.com/join/kmbb9J11).
 
 3. In the TestFlight app, tap **Accept**.
 
@@ -31,7 +31,7 @@ The Dynamics 365 Sales mobile app can be installed on iOS and Android devices.
 
 ## Install the app on Android without a work profile
 
-1.	On your Android device, go to [https://install.appcenter.ms/orgs/appmagic-player-x6ys/apps/d365-sales-converged-preview-1/distribution_groups/a.%20public%20preview%20-%20public%20link](https://install.appcenter.ms/orgs/appmagic-player-x6ys/apps/d365-sales-converged-preview-1/distribution_groups/a.%20public%20preview%20-%20public%20link)
+1.	On your Android device, go to the [preview version of the Android app](https://install.appcenter.ms/orgs/appmagic-player-x6ys/apps/d365-sales-converged-preview-1/distribution_groups/a.%20public%20preview%20-%20public%20link)
 
 2.	On the **App Center** page, tap **Download**.
 
