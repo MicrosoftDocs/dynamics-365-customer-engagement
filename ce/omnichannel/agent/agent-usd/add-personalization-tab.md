@@ -36,7 +36,7 @@ You need to add the personalization tab to your Unified Service Desk configurati
 
 5. In the left pane, under **Basic Settings**, go to **Toolbars** > **Omnichannel ToolbarStrip**.
 
-6. In the **Buttons** section, select the buttonunder which you want the personalization button to appear, and then in the **Related** section, select **Toolbar Buttons**.
+6. In the **Buttons** section, select the button under which you want the personalization button to appear, and then in the **Related** section, select **Toolbar Buttons**.
 
     > [!div class=mx-imgBorder]
     > ![Select Toolbar Buttons in the Related section](../../media/select-toolbar-buttons.png "Select Toolbar Buttons in the Related section")
