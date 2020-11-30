@@ -91,7 +91,7 @@ You can customize underlying records by adding a JavaScript library. These custo
     ```      
     > [!NOTE]
     > -	The function names in the JavaScript file must match the event names and must accept the context object parameter. 
-    > -	The forecasting context object that's referred to in the example is different from the execution context of Microsoft Dataverse. A forecasting context object is specific to forecasting and supports the advanced configurations of the underlying records grid. More information: [Events and context object](../sales-enterprise/developer/reference/custom-actions/events-context.md)  
+    > -	The forecasting context object that's referred to in the example is different from the execution context of Common Data Service. A forecasting context object is specific to forecasting and supports the advanced configurations of the underlying records grid. More information: [Events and context object](../sales-enterprise/developer/reference/custom-actions/events-context.md)  
 2.	Add your JavaScript code in a Script web resource.  
     1. Go to your customer engagement app instance in a browser, and select **Settings** > **Customizations**.
     2. In the **Customization** area, select **Customize the System**.
