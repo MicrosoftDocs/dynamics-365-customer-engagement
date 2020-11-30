@@ -57,7 +57,11 @@ Inspections are easy to create and use, involving the following steps:
 
 In this article, we'll walk through an example of setting up an inspection using a maintenance checklist on a customer asset.
 
-For a guided walkthrough, see the following video: ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Module 8: Inspections](https://youtu.be/aDfwIP7rT-U)
+For a guided walkthrough, check out the following video.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4Hy8U]
+
+
 
 ## Prerequisites
 
