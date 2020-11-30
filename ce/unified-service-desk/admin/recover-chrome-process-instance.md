@@ -89,7 +89,7 @@ Now as per the above example, the keyboard shortcut for terminating an unrespons
 
 To change the keyboard shortcut:
 
-1. Sign in to the Microsoft Dataverse platform.
+1. Sign in to Dynamics 365.
 
 2. Select the down arrow next to Dynamics 365.
 
