@@ -26,7 +26,7 @@ By default, Internet Explorer process instance recovery is enabled. To disable t
 
 ### Disable IEWebPageRecovery option
 
-1. Sign in to the Microsoft Dataverse platform.
+1. Sign in to Dynamics 365.
 
 2. Select the down arrow next to Dynamics 365.
 
