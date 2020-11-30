@@ -55,7 +55,7 @@ In the previous walkthrough, [Walkthrough 4: Display a record in a session in yo
 ## Step 1: Create a Session Lines type of hosted control to display session overview information  
  To display session overview information in your agent application, create an instance of a **Session Lines** type of hosted control in your agent application.  
   
-1. Sign in to the Microsoft Dataverse platform.  
+1. Sign in to the Dynamics 365 instance.  
   
 2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
   
@@ -191,9 +191,9 @@ In the previous walkthrough, [Walkthrough 4: Display a record in a session in yo
 <a name="Step5"></a>   
 ## Step 5: Test the application  
   
-1. Start the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, and sign in to the Dynamics 365 instance instance where you configured [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] by using the same user credentials that is assigned to Contoso Configuration in [Walkthrough 1: Build a simple agent application](../unified-service-desk/walkthrough-1-build-a-simple-agent-application.md). For information about connecting to the Dataverse platform instance using the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, see [Connect to a model-driven app instance using the Unified Service Desk client](../unified-service-desk/admin/connect-dynamics-365-instance-using-unified-service-desk-client.md)  
+1. Start the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, and sign in to the Dynamics 365 instance instance where you configured [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] by using the same user credentials that is assigned to Contoso Configuration in [Walkthrough 1: Build a simple agent application](../unified-service-desk/walkthrough-1-build-a-simple-agent-application.md). For information about connecting to Dataverse instance using the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, see [Connect to a model-driven app instance using the Unified Service Desk client](../unified-service-desk/admin/connect-dynamics-365-instance-using-unified-service-desk-client.md)  
   
-2. Click the down arrow next to the **Search** button in the toolbar, and then click **Account** to display the account records from your Dataverse platform instance.  
+2. Click the down arrow next to the **Search** button in the toolbar, and then click **Account** to display the account records from your Dataverse instance.  
   
 3. Click the expander to display the left pane (SessionExplorerPanel).  
   

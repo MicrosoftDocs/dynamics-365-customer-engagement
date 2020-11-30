@@ -195,7 +195,7 @@ See a complete view of your customer's touch points in the Contact card. This ca
   
 ![Contact card](media/contact-card.png "Contact card")
 
-You can add a picture to the account or contact record in the Dataverse platform, and it will appear on this card. You can make calls to customers from the Contact card using Skype for Business – IP telephony.
+You can add a picture to the account or contact record in Dataverse, and it will appear on this card. You can make calls to customers from the Contact card using Skype for Business – IP telephony.
   
 For account records, the card shows contact details for the primary contact associated with the account. For contact records, the card appears if the contact is the customer value on the case form.  
 
@@ -204,7 +204,6 @@ For account records, the card shows contact details for the primary contact asso
 Use queues to organize, prioritize, and monitor the progress of your work. In Dynamics 365 Customer Service, queues are containers used to store anything that needs to be completed or requires an action, for example completing a task or closing a case. To know more about creating and managing queues, see [Create and manage queues](set-up-queues-manage-activities-cases.md).
 
 ![Work with queues](media/queues-view.png "Queues view")
-
 
 To know how to add a case to a queue, see [Add a case to a queue](customer-service-hub-user-guide-case-queues-and-routing.md).
 

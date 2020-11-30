@@ -49,7 +49,7 @@ Microsoft Dynamics 365 Customer Service supports the native knowledge management
 - Select the entity you want to enable knowledge management on while setting up knowledge management.  
 
 > [!NOTE]
-> All customization tasks for the Customer Service Hub must be done in the Microsoft Dataverse platform.
+> All customization tasks for the Customer Service Hub must be done in Microsoft Dataverse.
   
 ## Add the Knowledge Base Search control to Main forms  
   

@@ -74,7 +74,7 @@ The migration assistant displays the **Download Completed**.</br>
 
 ## Step 2: Import the USDWebResources folder
 
-The **USDWebResources** folder contains the migrated **RunXrmCommand** actions that were present in Web Client. To deploy the **USDWebResources** on the target Unified Interface App, import the web resources as a solution in the Dataverse platform.
+The **USDWebResources** folder contains the migrated **RunXrmCommand** actions that were present in Web Client. To deploy the **USDWebResources** on the target Unified Interface App, import the web resources as a solution in Dataverse.
 
 To import the **USDWebResources** zip folder, follow these steps:
 

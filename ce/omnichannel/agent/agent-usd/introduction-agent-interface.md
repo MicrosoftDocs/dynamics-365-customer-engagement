@@ -79,7 +79,7 @@ Use the **About** option to view information about the user (agent), the agent's
 
 #### Best Practices Analyzer
 
-Best practices are the guidelines about system configurations, Unified Service Desk, browser settings, and Unified Service Desk configurations in the Dataverse platform. Consider these guidelines our recommended way to use Unified Service Desk and serve your customers.
+Best practices are the guidelines about system configurations, Unified Service Desk, browser settings, and Unified Service Desk configurations in Dynamics 365. Consider these guidelines our recommended way to use Unified Service Desk and serve your customers.
 
 ### Presence
 

@@ -62,7 +62,7 @@ For information about other **General** fields, see [Create or edit a hosted con
 |     recordid      | The ID of the parent entity record to associate the knowledge base record to.|
 |  articleuniqueid  | The unique ID of the article in that you want to associate. For example: `articleuniqueid=7924/8112/Article/41`|
 |   articletitle    |  A string value representing article's title that you want to associate. For example: `articletitle=Diffused Sunlight and Weather Conditions` |
-| articlepublicurl  | The public URL of the article that you want to associate. If you are using native the Microsoft Dataverse platform knowledge base, the articles should have already been published to an external portal (select **Use an external portal** in the **Knowledge Base management Settings** dialog box in the Dataverse platform) so that you can use the article URL in this parameter.<br /><br /> For example: `articlepublicurl=https://support.microsoft.com/kb/{kbnum}` |
+| articlepublicurl  | The public URL of the article that you want to associate. If you are using native Microsoft Dataverse knowledge base, the articles should have already been published to an external portal (select **Use an external portal** in the **Knowledge Base management Settings** dialog box in Dataverse) so that you can use the article URL in this parameter.<br /><br /> For example: `articlepublicurl=https://support.microsoft.com/kb/{kbnum}` |
 
 <a name="Close"></a>   
 ### Close  
@@ -115,7 +115,7 @@ For information about other **General** fields, see [Create or edit a hosted con
 
 | Parameter  | Description |
 |------------|------------------------|
-|   query    | A string value to be searched in the hosted control. For example: `query=contoso`. This will fetch all the knowledge articles from the Dataverse platform that have names starting with the word "contoso". |
+|   query    | A string value to be searched in the hosted control. For example: `query=contoso`. This will fetch all the knowledge articles from Dataverse that have names starting with the word "contoso". |
 |  results   | An integer value to indicate the number of search results to be displayed in the hosted control. For example, specifying `results=5` will display 5 search results in the hosted control. If no value or a wrong value is provided for this data parameter, then the default value (10) will be used. The maximum value allowed for this data parameter is 20. |
 |   filter   | An integer value to indicate the knowledge base article type to be displayed in the hosted control:<br /><br /> -   `0`: Draft<br />-   `1`: Approved<br />-   `3`: Published<br /><br /> For example, specify `filter=3` to display only published knowledge base articles.<br /><br /> If no value or a wrong value is provided, then the default value (3) will be used. |
 | blockClick | An integer value to indicate whether to block displaying the content inline when a search result is clicked in the hosted control. Set it to `0` to open the content inline when clicked; set it `1` to block opening the content inline. For example: `blocked=1`<br /><br /> If no value or a wrong value is provided, then the default value (0) will be used. If you have the set the value to 1 to block the content, the [ResultOpen](../unified-service-desk/km-control-hosted-control.md#ResultOpen) event will still be fired. |

@@ -151,7 +151,7 @@ This is Unified Blue theme, which is the predefined theme for Unified Service De
 ## Test the action call for customizing your display  
  You can call this action call by creating a toolbar button, and then attaching the action call to it. For the sake of brevity, we will use the Debugger hosted application to test the action call.  
   
-1. Start [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, and sign in to your Microsoft Dataverse platform server.  
+1. Start [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, and sign in to your Microsoft Dataverse server.  
   
 2. In the client application, start Debugger by selecting down arrow next to the settings menu in the top-right corner, and select **Debug**.  
   

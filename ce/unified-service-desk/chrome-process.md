@@ -253,7 +253,7 @@ Agents in your organization require webcam and microphone access according to yo
 
 ### Add the ChromeEnableMediaStream UII option
 
- 1. Sign in to the Microsoft Dataverse platform.
+ 1. Sign in to the Dynamics 365 instance.
 
  2. Go to **Settings** > **Unified Service Desk** > **Options**.
 
@@ -482,7 +482,7 @@ For example, you've integrated a softphone with Unified Service Desk and using t
 
 To create a Window Navigation Rule, follow the steps:
 
-1. Sign to the Dataverse platform.
+1. Sign in to Dynamics 365.
 
 2. Select down arrow next to Dynamics 365.
 

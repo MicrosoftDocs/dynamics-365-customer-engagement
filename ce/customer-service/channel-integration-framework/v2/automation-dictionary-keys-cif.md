@@ -82,7 +82,7 @@ Slug is a replacement parameter that Dynamics 365 Channel Integration Framework 
 
 #### Format
 
-The `{Slug}` parameter format that retrieves the context from the channel provider, current user session, and/or the Dataverse platform. 
+The `{Slug}` parameter format that retrieves the context from the channel provider, current user session, and/or Dataverse. 
 
 **For example:**
 
@@ -90,7 +90,7 @@ The `{Slug}` parameter format that retrieves the context from the channel provid
 
 ### OData queries
 
-You can use the OData queries to get the context that is available from the Dataverse platform.
+You can use the OData queries to get the context that is available from Dataverse.
 
 The OData query format:
 

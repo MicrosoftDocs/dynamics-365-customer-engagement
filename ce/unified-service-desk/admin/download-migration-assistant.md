@@ -40,7 +40,7 @@ Download the [Web Client – Unified Interface Migration Assistant](https://go.m
 The migration of Unified Service Desk configurations from Web Client to Unified Interface App is a three step process:
 
 - Fetch and migrate the configuration elements to a **USD_UI_Configurations** folder using the Web Client - Unified Interface Migration Assistant.
-- Import the **USDWebResources** folder, which is in the **USD_UI_Configurations** folder, using the **Solutions** option in the Dataverse platform.
+- Import the **USDWebResources** folder, which is in the **USD_UI_Configurations** folder, using the **Solutions** option in Dataverse.
 - Import the **Data** zip folder from the **USD_UI_Configurations** folder to the Unified Interface App using the Configuration Migration Tool (DataMigrationUtility.exe).
 
 You must download the Configuration Migration Tool (DataMigrationUtility.exe), which is available as a [NuGet package](https://www.nuget.org/packages/Microsoft.CrmSdk.XrmTooling.ConfigurationMigration.Wpf). 

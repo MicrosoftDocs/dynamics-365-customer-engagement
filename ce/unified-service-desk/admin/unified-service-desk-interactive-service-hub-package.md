@@ -27,9 +27,9 @@ search.app:
   
  This package is best used in the following situations:  
   
-- the Dataverse platform environments that want to evaluate  interactive service hub integration with [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [User's guide for the new interactive service hub](https://go.microsoft.com/fwlink/?linkid=857154)  
+- Dataverse environments that want to evaluate  interactive service hub integration with [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [User's guide for the new interactive service hub](https://go.microsoft.com/fwlink/?linkid=857154)  
   
-- the Dataverse platform environments that are already using the interactive service hub.  
+- Dataverse environments that are already using the interactive service hub.  
   
   With the Unified Service Desk interactive service hub sample application package, the following components are installed:  
   
@@ -39,7 +39,7 @@ search.app:
   
 - Configuration for integrating interactive service hub with [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]  
   
-- Data required for the Dataverse platform and customizations  
+- Data required for Dataverse and customizations  
   
 - The following sample hosted controls  
   

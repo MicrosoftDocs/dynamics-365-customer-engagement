@@ -22,7 +22,7 @@ search.app:
 
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
-Every organization has multiple applications to capture customer interactions. The ability to channel external data into the Microsoft Dataverse platform records can significantly improve the efficiency of your sales, marketing, and service teams, and increase the quality of your data. You can now direct this data from various applications and external sources into the Dataverse platform with the help of *record creation and update rules*.  
+Every organization has multiple applications to capture customer interactions. The ability to channel external data into Microsoft Dataverse records can significantly improve the efficiency of your sales, marketing, and service teams, and increase the quality of your data. You can now direct this data from various applications and external sources into Dataverse with the help of *record creation and update rules*.  
 
 By using record creation and update rules in Dynamics 365 Customer Service, you can automatically create or update system or custom records from incoming activities, such as emails, social activities, or custom activities, without writing any code. Not just that, you can set up the rule to convert the incoming activity into multiple records. For example, you can create a case and a lead from a single social activity.  
 
@@ -54,9 +54,9 @@ These activities can be converted to any default (system) entity records or cust
 
  Every default (out-of-the-box) activity or custom activity has an Additional Parameters attribute. This attribute stores the JSON payload received from an external application.  
 
- To capture this information in the Dataverse platform, you can define channel properties and associate them with a particular rule or share them across multiple rules of the same source type. For example, along with a social post, you can capture important information about the post, such as sentiment value. Sentiment value is the property of social activity, so you can use this property in any other record creation and update rule of type Social Activity.  
+ To capture this information in Dataverse, you can define channel properties and associate them with a particular rule or share them across multiple rules of the same source type. For example, along with a social post, you can capture important information about the post, such as sentiment value. Sentiment value is the property of social activity, so you can use this property in any other record creation and update rule of type Social Activity.  
 
- Here’s the correct format in which the Dataverse platform should receive the JSON payload (data received as a name-value pair in JSON format) from the external application:  
+ Here’s the correct format in which Dataverse should receive the JSON payload (data received as a name-value pair in JSON format) from the external application:  
 
 {“PropertyName1”:”Propertyvalue1”; “PropertyName2”:”Propertyvalue2”}  
 
@@ -80,20 +80,21 @@ These activities can be converted to any default (system) entity records or cust
 > [!NOTE]
 > When an automatic record creation (ARC) rule is applied to an Email queue item, it gets deactivated.
   
-## Rules in solutions  
- The record creation and update rules can be packaged as a part of the Dataverse platform solution. Customizers and developers distribute solutions so organizations can use the Dataverse platform to install and uninstall the business functionality defined by the solution.
+## Rules in solutions
+
+ The record creation and update rules can be packaged as a part of Dataverse solution. Customizers and developers distribute solutions so organizations can use Dataverse to install and uninstall the business functionality defined by the solution.
 
  Keep the following things in mind about using rules in solutions:  
 
-- Any rule that you created in [!INCLUDE[pn_crm_online_2015_update_1](../includes/pn-crm-online-2015-update-1.md)] or later can’t be exported to an earlier release.  
+- Any rule that you created in [!INCLUDE[pn_crm_online_2015_update_1](../includes/pn-crm-online-2015-update-1.md)] or later can’t be exported to a previous release.  
 
 - Any rules upgraded to and edited in [!INCLUDE[pn_crm_online_2015_update_1](../includes/pn-crm-online-2015-update-1.md)] or later can’t be exported back to an earlier release.  
 
 ## Prerequisites 
 
-Before you can use automatic record creation rules, be sure your external application/social engagement system is already integrated with your Dataverse platform instance.  
+Before you can use automatic record creation rules, be sure your external application/social engagement system is already integrated with your Dataverse instance.  
 
-If your instance meets the prerequisites, all you need to do is set up rules in the Dataverse platform that will automatically create or update a support case, lead, opportunity, appointment, task, and more from incoming activities.
+If your instance meets the prerequisites, all you need to do is set up rules in Dataverse that will automatically create or update a support case, lead, opportunity, appointment, task, and more from incoming activities.
 
 ## Set up a rule to create and update records automatically  
   
@@ -153,19 +154,19 @@ If the source type for the rule is set to **Email**, specify the conditions for 
 1. **Create records for email from unknown senders**. If you select this check box, all email messages from unknown senders (a sender whose email address isn’t present in any records) are converted to new records (based on the conditions you define). A contact record is also created for this unknown sender.  
 
    > [!NOTE]
-   > The Dataverse platform determines what record to create based on the entity you select in the **Create Record** step under **Actions**.  
+   > Dataverse determines what record to create based on the entity you select in the **Create Record** step under **Actions**.  
 
     If you don’t select this check box, records are created only for email messages that have a contact or account as the senders.  
 
     This option, in conjunction with the **Automatically create records in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]** option in the rule owner's Personal Options, determines whether a case and contact record is created (see [Set personal options](../basics/set-personal-options.md)).  
 
-2. **Create case if a valid entitlement exists for the customer**. If you select this check box, the Dataverse platform creates a case only if an active entitlement exists for the customer.  
+2. **Create case if a valid entitlement exists for the customer**. If you select this check box, a case is created only if an active entitlement exists for the customer.  
 
-    If the sender of the email is a contact with a parent account, the Dataverse platform creates a record if the contact’s parent account has a valid entitlement, and the contact is listed in the **Contacts** section of the entitlement or if the **Contacts** section is empty (which means the entitlement is applicable to all contacts for the customer).  
+    If the sender of the email is a contact with a parent account, a record is created if the contact’s parent account has a valid entitlement, and the contact is listed in the **Contacts** section of the entitlement or if the **Contacts** section is empty (which means the entitlement is applicable to all contacts for the customer).  
 
-3. **Create cases for activities associated with a resolved case**. If you select this check box, the Dataverse platform creates a case if the email is related to a resolved case. If the email is related to an active case, a new case won’t be created. However, if the email is related to a canceled case, a new case will be created.
+3. **Create cases for activities associated with a resolved case**. If you select this check box, a case is created if the email is related to a resolved case. If the email is related to an active case, a new case won’t be created. However, if the email is related to a canceled case, a new case will be created.
 
-4. **Create case when the case associated with the activity is resolved since**. If you select the **Create cases for activities associated with a resolved case** check box, select the duration here. the Dataverse platform creates a case only if the case is resolved earlier than the duration you specify. If the incoming email is related to a case resolved later than the specified duration, the Dataverse platform only associates the incoming email with the existing resolved case; a new case won’t be created.  
+4. **Create case when the case associated with the activity is resolved since**. If you select the **Create cases for activities associated with a resolved case** check box, select the duration here. A case is created only if the case is resolved earlier than the duration you specify. If the incoming email is related to a case resolved later than the specified duration, the incoming email is associated with the existing resolved case; a new case won’t be created.  
 
 5. **Send automatic email response to customer on record creation**. Select this check box if you want to automatically send email responses to the sender of the email after a target record for the email is created.  
 
@@ -177,15 +178,15 @@ If the source type for the rule is set to **Email**, specify the conditions for 
 ## Set Social Activity conditions
 If the source type for the rule is set to Social Activity, specify the conditions for converting the social activity to the target record.  
 
-1. **Create records for blocked social profile**. If you select this check box, the Dataverse platform creates or updates a target record for the social posts (social activities) from social profiles that are blocked by you.  
+1. **Create records for blocked social profile**. If you select this check box, a target record is created or updated for the social posts (social activities) from social profiles that are blocked by you.  
 
    > [!NOTE]
    >  Social posts appear in the application as social activities.  
 
-2. **Create records for direct messages only**. If you select this check box, the Dataverse platform creates the target record only when the social posts are sent as direct or private messages. If you clear the check box, records are created for all social posts including public messages (timeline).  
+2. **Create records for direct messages only**. If you select this check box, the target record is created only when the social posts are sent as direct or private messages. If you clear the check box, records are created for all social posts including public messages (timeline).  
 
    > [!NOTE]
-   > The Dataverse platform determines what record to create based on the entity you select in the **Create Record** step under **Actions**.  
+   > Dataverse determines what record to create based on the entity you select in the **Create Record** step under **Actions**.  
 
 ## Set record creation details
 In the **Specify Record Creation and Update Details** section, select ![Add a record button](../customer-service/media/crm-ua-add-record.gif "Add a record button") to define the conditions for creating or updating a record and specify the properties of the record.  
@@ -235,18 +236,20 @@ In the **Specify Record Creation and Update Details** section, select ![Add a re
     > - The property items for each of the supported data types need to have a default value. This requirement is important in scenarios where the configured property line items have a blank incoming web request. In such cases, the property line item will take the default value when referred to in a workflow.  
 
 ## Turn on the rule
-Turn on the rule so that the Dataverse platform can start creating or updating records for incoming activities based on the defined conditions. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Activate or deactivate a rule](#activate-or-deactivate-a-rule).  
+
+Turn on the rule so that records can be created or updated for incoming activities based on the defined conditions. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Activate or deactivate a rule](#activate-or-deactivate-a-rule).  
 
 > [!TIP]
 >  Developers can also apply rules retroactively to the incoming records that might have been skipped while a rule was edited. 
 
 
 ## Set up channel properties  
- Every default or custom activity has an **Additional Parameters** attribute. This attribute stores the JSON payload received from an external application.  
+
+Every default or custom activity has an **Additional Parameters** attribute. This attribute stores the JSON payload received from an external application.  
 
  You can find these parameters in the **Additional Parameters** field of any incoming activity.  
 
- To capture this information in the Dataverse platform and associate it with the record creation or update rule, you can define channel properties in a channel property group and associate them with a rule or share them across multiple rules. For example, along with a social post, you can capture important information about the post, such as rating or influencer score. Rating and influencer score are the properties of social channel.  
+ To capture this information in Dataverse and associate it with the record creation or update rule, you can define channel properties in a channel property group and associate them with a rule or share them across multiple rules. For example, along with a social post, you can capture important information about the post, such as rating or influencer score. Rating and influencer score are the properties of social channel.  
 
 ### Create channel property groups and add channel properties  
 
@@ -292,11 +295,11 @@ Turn on the rule so that the Dataverse platform can start creating or updating r
 
    b. **Data Type**. Select a data type for the channel property. For example, if the property is influence score, use the data type as Whole Number because its value can’t be in decimals.  
 
-      The selected data type will determine the relational query operators when you use the property to define conditions in the record creation and update rule items. The Dataverse platform supports creating properties only of the following data types: Floating Point Number, Single Line of Text, and Whole Number.  
+      The selected data type will determine the relational query operators when you use the property to define conditions in the record creation and update rule items. Dataverse supports creating properties only of the following data types: Floating Point Number, Single Line of Text, and Whole Number.  
 
    > [!NOTE]
    > - Option Set and Two option data types are supported in conditions of type string. You’ll have to type out the option set value in the conditions.  
-   > - The Dataverse platform sets a default value for property items for each of the supported data types. This is for scenarios when a channel property is used in a workflow but the incoming payload has no value provided from the external channel; the workflow conditions in which the property is referred use a least the following default value: String: “”, Whole Number: -2,147,483,648, Float: -1e+011.  
+   > - Dataverse sets a default value for property items for each of the supported data types. This is for scenarios when a channel property is used in a workflow but the incoming payload has no value provided from the external channel; the workflow conditions in which the property is referred use a least the following default value: String: “”, Whole Number: -2,147,483,648, Float: -1e+011.  
 
    c. **Application Source**. Type the name of the application that this property is related to.  
 
@@ -308,7 +311,8 @@ Turn on the rule so that the Dataverse platform can start creating or updating r
 
    ![Add channel properties to channel property group](../customer-service/media/crm-ua-channel-property-group.png "Add channel properties to channel property group")  
 
-## Activate a record creation and update rule  
+## Activate a record creation and update rule
+
  For any record creation and update rule to apply to a matching incoming activity, after you add the rule items, you must activate the rule.  
 
 ### To activate a record creation and update rule  
@@ -325,6 +329,7 @@ Turn on the rule so that the Dataverse platform can start creating or updating r
      After the rule is active, the only way to change the rule is to first deactivate it. Open the rule, and on the command bar, select **Deactivate**.  
 
 ## Manage automatic record creation and update from a queue form  
+ 
  You can create or manage an automatic record creation and update rule from a queue form, too. To do this, open the queue record, and on the command bar, select **Email Activity Conversion Settings** or **Social Activity Conversion Settings**.  
 
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or change a queue](set-up-queues-manage-activities-cases.md)

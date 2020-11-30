@@ -123,7 +123,7 @@ The **Standard Web Application** hosted control type is similar to the **CRM Pag
 [!INCLUDE[cc_RealignWindow_Action](../includes/cc-realignwindow-action.md)]
 
 ### RunScript  
- This action injects JavaScript into the main frame of the application. You should avoid using the Microsoft Dataverse platform client SDK calls with this action; instead, use the **RunXrmCommand** action.  
+ This action injects JavaScript into the main frame of the application. You should avoid using Microsoft Dataverse client SDK calls with this action; instead, use the **RunXrmCommand** action.  
 
 |Parameter|Description|  
 |---------------|-----------------|  

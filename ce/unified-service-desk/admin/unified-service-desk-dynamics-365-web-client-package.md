@@ -24,7 +24,7 @@ search.app:
   
  This package is best used in the following situations:  
   
-- To demonstrate the rich set of customer service capabilities in the Dataverse platform and simplify the customization of your agent desktop application.  
+- To demonstrate the rich set of customer service capabilities in Dataverse and simplify the customization of your agent desktop application.  
   
   With the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Web Client sample application package, the following components are installed:  
   
@@ -32,7 +32,7 @@ search.app:
   
 - Unified Service Desk Solution  
   
-- Data required for the Dataverse platform and customizations  
+- Data required for Dataverse and customizations  
   
 - The following sample hosted controls  
   

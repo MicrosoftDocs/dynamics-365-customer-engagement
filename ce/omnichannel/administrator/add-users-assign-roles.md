@@ -19,20 +19,20 @@ ms.service: dynamics-365-customerservice
 
 The Dynamics 365 users can access and perform different functions based on the roles that are assigned to them. The following roles can be assigned individually or in combination based on the tasks that need to be performed:
 
-- **Microsoft Dataverse User:** Required by all users of Omnichannel for Customer Service.
+- **Common Data Service User:** Required by all users of Omnichannel for Customer Service.
 - **Omnichannel administrator:**  Required for performing administrator tasks; also requires the **System Administrator** role to manage user roles and privileges in Omnichannel for Customer Service.
 - **Omnichannel supervisor:** Required for performing supervisor tasks.
 - **Omnichannel agent:** Required for performing agent tasks.
 - **Productivity tools user:** Required by users of Dynamics 365 Productivity Tools.
 - **Productivity tools administrator:** Required by administrator users of Dynamics 365 Productivity Tools.
-- **App profile manager administrator:** Required for creating and assigning app profiles to users of Customer Service and Omnichannel for Customer Service.
-- **App profile user:** Required by users of Customer Service and Omnichannel for Customer Service.
+- **App Profile Manager Administrator:** Required for creating and assigning app profiles to users of Customer Service and Omnichannel for Customer Service.
+- **App Profile User:** Required by users of Customer Service and Omnichannel for Customer Service.
 
-For more information on the App profile manager administrator and App profile user roles, see [Roles and privileges associated with app profile manager](../../app-profile-manager/security-roles.md)
+For more information on the App Profile Manager Administrator and App Profile User roles, see [Roles and privileges associated with app profile manager](../../app-profile-manager/security-roles.md)
 
 Additionally, the **Customer Service Representative** role is required to work with the Case entity.
 
-Use the Microsoft 365 admin center to create user accounts for every user who needs access to Omnichannel for Customer Service. For more information, see [Create users in the Dataverse platform and assign security roles](../../admin/create-users-assign-online-security-roles.md).
+Use the Microsoft 365 admin center to create user accounts for every user who needs access to Omnichannel for Customer Service. For more information, see [Create users and assign security roles](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles).
 
 ## Assign roles to users
 

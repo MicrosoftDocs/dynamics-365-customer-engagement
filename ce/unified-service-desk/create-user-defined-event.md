@@ -59,9 +59,9 @@ https://event/?EventName=<EVENT_NAME>&key=value&key=value&…
 
  In the syntax, you specify the `key=value` pair to pass parameter list to be used when the event is triggered.  
 
- Consider an example where you want to raise a user-defined event whenever the title of the case on the case form changes in the Microsoft Dataverse platform. To do this:  
+ Consider an example where you want to raise a user-defined event whenever the title of the case on the case form changes in Microsoft Dataverse. To do this:  
 
-1. Create a new event, called `TitleChanged`, for the **Incident** hosted control in the Dataverse platform.  
+1. Create a new event, called `TitleChanged`, for the **Incident** hosted control in Dataverse.  
 
 2. Create an action call, called `Action Call for Title Change`, with the following values:  
 
@@ -80,7 +80,7 @@ https://event/?EventName=<EVENT_NAME>&key=value&key=value&…
 
     This will cause the `TitleChanged` event to be triggered with the following data parameter: `NewTitle=<NEW_TITLE>`  
 
-   If you use [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] in the Dataverse platform to invoke an event in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] using the event moniker (`https://event/?EventName=<EVENT_NAME>&key=value&key=value&…`), you can use the `window.IsUSD` property to determine whether the [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] code is running under [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] when the event is invoked. The following code sample can be included in your [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] code to ensure that the event is invoked only when the calling [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] is running within [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  
+   If you use [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] in Dataverse to invoke an event in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] using the event moniker (`https://event/?EventName=<EVENT_NAME>&key=value&key=value&…`), you can use the `window.IsUSD` property to determine whether the [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] code is running under [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] when the event is invoked. The following code sample can be included in your [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] code to ensure that the event is invoked only when the calling [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] is running within [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  
 
 ```  
 if ((window.IsUSD != null) && (window.IsUSD == true))  

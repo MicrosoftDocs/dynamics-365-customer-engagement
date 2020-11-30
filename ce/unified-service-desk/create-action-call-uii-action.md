@@ -44,7 +44,7 @@ There are two ways in which you can create an action call for a [!INCLUDE[pn_use
    |----------------|------------------------------------------------------------|
    |      Name      | A descriptive name of the action call. |
    | Hosted Control | The hosted control having the UII action to be called. |
-   |     Action     | The UII action name to call on the hosted control. To call a UII action for a hosted control, the action must be added to the list of UII actions for a hosted control in the Microsoft Dataverse platform.|
+   |     Action     | The UII action name to call on the hosted control. To call a UII action for a hosted control, the action must be added to the list of UII actions for a hosted control in Microsoft Dataverse.|
    |      Data      | This is the serialized data (string data) that is passed as the data parameter to the action. **Note:**  Some actions interpret multiline input specified here as separate parameters. |
 
 6. Select the **Advanced** tab and specify the following.

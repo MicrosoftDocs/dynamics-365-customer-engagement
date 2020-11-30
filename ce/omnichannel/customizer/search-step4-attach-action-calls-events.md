@@ -52,9 +52,9 @@ This topic describes how to attach the search-related action calls to out-of-the
 
 ## Attach the action calls to events
 
-1. Sign in to the Dataverse platform.
+1. Sign in to the Dynamics 365 instance.
 
-2. Select the Down arrow next to Dynamics 365.
+2. Select the down arrow next to Dynamics 365.
 
 3. Select **Unified Service Desk Administrator**.
 
