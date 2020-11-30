@@ -6,20 +6,9 @@ ms.custom:
 ms.date: 11/11/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
-ms.suite:
-ms.technology:
-  - field-service
-ms.tgt_pltfrm:
-ms.topic: get-started-article
 author: FieldServiceDave
-ms.assetid: 8a311df9-3307-4524-85e5-76258d80ff86
-caps.latest.revision: 46
 ms.author: daclar
 manager: shellyha
-search.audienceType:
-  - admin
-  - customizer
-  - enduser
 search.app:
   - D365CE
   - D365FS
@@ -32,7 +21,7 @@ Not sure what you're looking for, where to begin, or how to improve your Field S
 
 Take a look at the following video for a full walkthrough of Field Service and its functionality.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4wAd2]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4wAd2]
 
 
 
