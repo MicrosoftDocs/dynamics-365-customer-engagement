@@ -472,7 +472,7 @@ In this step, you will:
 ## Step 7: Test the application  
  To test the application:  
 
-1. Start the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, and sign in to the Dynamics 365 instance instance where you configured [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] entities as described earlier.  
+1. Start the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, and sign in to the Dynamics 365 instance where you configured [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] entities as described earlier.  
 
 2. In the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] application, click **My Work** in the toolbar to display a list of cases assigned to you.  
 
