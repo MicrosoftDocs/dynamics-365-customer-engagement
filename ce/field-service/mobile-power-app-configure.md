@@ -1,33 +1,23 @@
 ---
 title: "Edit the Field Service (Dynamics 365) mobile app SiteMap, forms, and views | MicrosoftDocs"
-description: Learn how to configure the Field Service (Dynamics 365) mobile app.
+description: Learn about how to change the sitemap, forms, and views in the Field Service (Dynamics 365) mobile app.
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 10/30/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 author: FieldServiceDave
-ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
-caps.latest.revision: 42
 ms.author: daclar
 manager: shellyha
-search.audienceType: 
-  - admin
-  - customizer
 search.app: 
   - D365CE
   - D365FS
 ---
 
-# Edit the SiteMap (home screen), forms, and views
+# Edit the sitemap (home screen), forms, and views
 
 Administrators can edit how the Field Service (Dynamics 365) mobile app looks and functions for technicians.
 
@@ -112,21 +102,14 @@ For more information, see the article on [customizing entity forms](https://docs
 
 ## Edit views
 
-
 - [Create and edit public or system model-driven app views](https://docs.microsoft.com/powerapps/maker/model-driven-apps/create-edit-views-app-designer) 
 
 - [Customize entity views](https://docs.microsoft.com/powerapps/developer/model-driven-apps/customize-entity-views)
 
-
 > [!Note]
-> Currently, the Booking calendar view is not editable meaning you cannot edit the fields displayed in the timeslots on the calendar.
-
-
+> Currently, the booking calendar view is not editable. You cannot edit the fields displayed in the time slots on the calendar.
 
 ### See also
 
 - [What are model-driven apps in Power Apps?](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-overview)
 - [Enable entities for mobile offline synchronization](https://docs.microsoft.com/dynamics365/mobile-app/setup-mobile-offline-for-admin#step-1-enable-entities-for-mobile-offline-synchronization)
-
-
-

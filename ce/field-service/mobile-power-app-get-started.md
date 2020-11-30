@@ -1,27 +1,17 @@
 ---
-title: "Get started with the Field Service (Dynamics 365) mobile app | MicrosoftDocs"
-description: Learn how to get started with the Field Service (Dynamics 365) mobile app.
+title: "Install and setup the Field Service (Dynamics 365) mobile app | MicrosoftDocs"
+description: Learn how to install and setup the Field Service (Dynamics 365) mobile app.
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 10/30/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 author: FieldServiceDave
-ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
-caps.latest.revision: 42
 ms.author: daclar
 manager: shellyha
-search.audienceType: 
-  - admin
-  - customizer
 search.app: 
   - D365CE
   - D365FS
@@ -35,17 +25,15 @@ The Field Service (Dynamics 365) mobile app is designed and optimized for techni
 > [!div class="mx-imgBorder"]
 > ![Simulated image of the Field Service (Dynamics 365) mobile app on a phone and a tablet.](./media/mobile-2020-tablet-website.png)
 
-
-
 For a guided walkthrough, check out the following video.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HKRL]
 
 ## Prerequisites
 
-To use the Field Service (Dynamics 365) mobile app you must have Dynamics 365 Field Service installed and set up. 
+To use the Field Service (Dynamics 365) mobile app, you must have Dynamics 365 Field Service installed and setup.
 
-View the following topics first:
+See the following articles if you haven't yet setup Field Service:
 
 - [How to install Dynamics 365 Field Service](install-field-service.md)
 - [Set up users and security roles](../field-service/view-user-accounts-security-roles.md)
@@ -55,10 +43,10 @@ View the following topics first:
 
 ## Install or upgrade Field Service
 
-After installing or upgrading to **Field Service v8.8.22+**, the "Field Service" and "Field Service Mobile" apps will appear in the list of apps when you log in. You can find these apps by going to:
+After installing or upgrading to **Field Service v8.8.22+**, the "Field Service" and "Field Service Mobile" apps will appear in the list of apps when you sign in. You can find these apps by going to:
 
 ```https://[your-environment-name].crm.dynamics.com/apps```
-   
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service apps](media/admin-apps.png)
 
@@ -85,12 +73,10 @@ Download the app called **Field Service (Dynamics 365)**, as seen in the followi
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a mobile device app store, showing two Field Service Mobiles in the list, and highlighting the Field Service (Dynamics 365) app.](./media/mobile-2020-download-signin.jpg)
 
-Launch the app and sign in with your username and password, which should be the user credentials of the technician user with the **Field Service - Resource** security role. View the topics on [setting up users and security roles](../field-service/view-user-accounts-security-roles.md) and [creating a Bookable Resource](set-up-bookable-resources.md) for help. 
+Launch the app and sign in with your username and password, which should be the user credentials of the technician user with the **Field Service - Resource** security role. View the topics on [setting up users and security roles](../field-service/view-user-accounts-security-roles.md) and [creating a Bookable Resource](set-up-bookable-resources.md) for help.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of sign in](./media/quickstart-mobile-signin.png)
-
-
 
 ## (Optional) Schedule a work order
 
@@ -98,8 +84,6 @@ Launch the app and sign in with your username and password, which should be the 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the schedule board, showing a list of unscheduled work orders.](./media/mobile-2020-scheduled-work-orders.png)
-
-
 
 ## Next steps
 

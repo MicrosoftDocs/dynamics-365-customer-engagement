@@ -1,36 +1,25 @@
 ---
 title: "Overview of the Field Service (Dynamics 365) mobile app | MicrosoftDocs"
-description: Learn how to configure the Field Service (Dynamics 365) mobile app.
+description: Learn about the Field Service (Dynamics 365) mobile app with this general overview.
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 11/17/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 author: FieldServiceDave
-ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
-caps.latest.revision: 42
 ms.author: daclar
 manager: shellyha
-search.audienceType: 
-  - admin
-  - customizer
 search.app: 
   - D365CE
   - D365FS
 ---
 
-
 ## Overview of the Field Service (Dynamics 365) mobile app
 
-The Field Service (Dynamics 365) mobile app is designed and optimized for technicians to view Dynamics 365 Field Service work orders, customer assets, accounts, and contacts. This mobile app is built on Microsoft Power Platform as a [model-driven app](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-overview) and is customizable to your business needs with the same admin console as all Dynamics 365 business apps.
+The Field Service (Dynamics 365) mobile app lets technicians view Dynamics 365 Field Service work orders, customer assets, accounts, and contacts. This mobile app is built on Microsoft Power Platform as a [model-driven app](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-overview). It's customizable to your business needs with the same admin console as all Dynamics 365 business apps.
 
 
 > [!div class="mx-imgBorder"]

@@ -1,27 +1,17 @@
 ---
 title: "Use the Field Service (Dynamics 365) mobile app | MicrosoftDocs"
-description: Learn how to get started with the Field Service (Dynamics 365) mobile app.
+description: Learn how to use the Field Service (Dynamics 365) mobile app.
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 11/17/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 author: FieldServiceDave
-ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
-caps.latest.revision: 42
 ms.author: daclar
 manager: shellyha
-search.audienceType: 
-  - admin
-  - customizer
 search.app: 
   - D365CE
   - D365FS
@@ -153,7 +143,7 @@ For more information, see the article on [Connected Field Service for the Field 
 
 ## Trigger Dynamics 365 Remote Assist
 
-Organizations using Dynamics 365 Remote Assist will see that technicians can trigger a deep link from the work order to open the Dynamics 365 Remote Assist mobile app.
+Organizations using Dynamics 365 Remote Assist will see technicians can trigger a deep link from the work order to open the Dynamics 365 Remote Assist mobile app.
 
 > [!div class="mx-imgBorder"]
 > ![Simulated image showing a phone with Field Service mobile and a menu option to launch Dynamics 365 Remote Assist.](./media/mobile-2020-remote-assist.png)

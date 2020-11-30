@@ -1,40 +1,31 @@
 ---
 title: "Create workflows and scripts for the Field Service (Dynamics 365) mobile app | MicrosoftDocs"
-description: Learn how to configure the Field Service (Dynamics 365) mobile app.
+description: Learn about workflows and scripts for the Field Service (Dynamics 365) mobile app.
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 10/30/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 author: FieldServiceDave
-ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
-caps.latest.revision: 42
 ms.author: daclar
 manager: shellyha
-search.audienceType: 
-  - admin
-  - customizer
 search.app: 
   - D365CE
   - D365FS
 ---
 
-# Workflows and scripts
+# Workflows and scripts for the Field Service (Dynamics 365) mobile app
 
-Use Power Automate flows and the Dynamics 365 workflow engine to create workflows and business processes for the technicians using the Dynamics 365 Field Service mobile app.
+Use Microsoft Power Automate flows and the Dynamics 365 workflow engine to create workflows and business processes for technicians using the Field Service (Dynamics 365) mobile app.
 
-See the topics on [Create a flow that uses Microsoft Dataverse](https://docs.microsoft.com/power-automate/common-data-model-intro) and [Create custom business logic through processes](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/guide-staff-through-common-tasks-processes)
+For more information, see the following articles: 
+- [Create a flow that uses Microsoft Dataverse](https://docs.microsoft.com/power-automate/common-data-model-intro) 
+- [Create custom business logic through processes](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/guide-staff-through-common-tasks-processes)
 
-Power Automate flows and workflows will trigger when the mobile app is synced with the server and the conditions of the workflow are met. If there is no internet connectivity, use Offline JavaScript as seen in the next section. 
-
+Power Automate flows and workflows will trigger when the mobile app is synced with the server and the conditions of the workflow are met. If there is no internet connectivity, use offline JavaScript as seen in the next section.
 
 ## Offline JavaScript
 
@@ -81,4 +72,3 @@ Enter in the following code snippet:
 Ensure the web resource triggers on save of the form.
   
 Save and publish customizations.
-
