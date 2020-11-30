@@ -53,7 +53,7 @@ You must know about the following in [!INCLUDE[pn_unified_service_desk](../../in
 
  Toolbar Container type of hosted control are used to hold and display the toolbars in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. In this section, you’ll create a **Toolbar Container** hosted control that will appear at the top of the client application.  
 
-1. Sign in to the Microsoft Dataverse platform.
+1. Sign in to Dynamics 365.
 
 2. Select the down arrow next to Dynamics 365.
 
