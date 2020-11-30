@@ -25,7 +25,7 @@ Before field sellers can use the Dynamics 365 Sales mobile app, you must enable 
 
 **To enable the Dynamics 365 Sales mobile app**
 
-1. In your customer engagement app, select **Settings** ![Settings icon](../media/settings--button-the-nav-bar.png), and then select **Advanced Settings**.
+1. In the Dynamics 365 Sales Hub app, select **Settings** ![Settings icon](../media/settings--button-the-nav-bar.png), and then select **Advanced Settings**.
 
     ![Advanced settings](media/advanced-settings-option.png "Advanced settings")
 
