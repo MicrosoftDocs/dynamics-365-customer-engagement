@@ -96,7 +96,7 @@
 ### [System requirements](mobile-power-app-system-requirements.md)
 ### [Install and setup](mobile-power-app-get-started.md)
 ### [Use the mobile app](mobile-power-app-use.md)
-### [Edit sitemap, forms, ands views](mobile-power-app-configure.md)
+### [Edit sitemap, forms, and views](mobile-power-app-configure.md)
 ### [Offline data and sync filters](mobile-power-app-system-offline.md)
 ### [Barcode scanning and global search](mobile-power-app-system-barcode-scanning.md)
 ### [Push notifications](mobile-power-app-push-notifications.md)
