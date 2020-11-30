@@ -45,4 +45,4 @@ Before field sellers can use the Dynamics 365 Sales mobile app, you must enable 
 
 ## What's next
 
-After you enable the Dynamics 365 Sales mobile app, field sellers can install it from the app store on either iOS or Android. More information: [Install the app](install-app.md)
+After you enable the Dynamics 365 Sales mobile app, field sellers can install it on their iOS and Android devices. More information: [Install the app](install-app.md)
