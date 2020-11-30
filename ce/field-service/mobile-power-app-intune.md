@@ -1,5 +1,5 @@
 ---
-title: "Device and app management with Microsoft Intune | MicrosoftDocs"
+title: "Manage Field Service (Dynamics 365) mobile app with Microsoft Intune | MicrosoftDocs"
 description: Learn how to get the Field Service (Dynamics 365) mobile app set up with Microsoft Intune.
 ms.custom: 
   - dyn365-fieldservice
