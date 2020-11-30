@@ -50,7 +50,7 @@ tags: MigrationHO
 <a name="Create"></a>   
 ## Create a Unified Service Desk configuration  
   
-1. Sign in to the Microsoft Dataverse platform.
+1. Sign in to Dynamics 365.
 
 2. Select the down arrow next to Dynamics 365.
 
