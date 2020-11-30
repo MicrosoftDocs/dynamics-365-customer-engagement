@@ -52,7 +52,7 @@ Use **Agent Scripting** type of hosted control to define a call script that prov
   
 <a name="GoToTask"></a>   
 ### GoToTask  
- This action displays the specified agent task. The available agent task names can be seen in the **Agent Scripts** section in the Microsoft Dataverse platform (**Settings** > **Agent Scripts**).  
+ This action displays the specified agent task. The available agent task names can be seen in the **Agent Scripts** section in Microsoft Dataverse (**Settings** > **Agent Scripts**).  
   
 |Parameter|Description|  
 |---------------|-----------------|  
