@@ -36,7 +36,7 @@ In [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], 
   
   The values are returned and displayed under the `$Return` replacement parameter. To test the values returned by these two actions:  
   
-1. Start [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client and connect to your Dataverse platform instance.  
+1. Start [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client and connect to your Dataverse instance.  
   
 2. Click the **My Work** menu, and then click a case record to open a session.  
   
