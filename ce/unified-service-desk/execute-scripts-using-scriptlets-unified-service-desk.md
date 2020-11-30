@@ -50,7 +50,7 @@ Connection_Manager.ConfigurationReader.ReadAppSettings(“maxNumberOfSessions”
 > [!NOTE]
 >  Only public functions are accessible via this method.  
   
- Consider a situation where you want to display session overview information in your Session Lines component but the information actually resides in an external system that is accessible via web services rather than being available in your Dataverse platform server. You may create a hosted control that exposes a public function, which calls the external web service. You then configure this hosted control as a global hosted control and place it on the HiddenPanel. This function and web service call is now usable from a scriptlet. You could then create the following scriptlet to call your new function.  
+ Consider a situation where you want to display session overview information in your Session Lines component but the information actually resides in an external system that is accessible via web services rather than being available in your Dataverse server. You may create a hosted control that exposes a public function, which calls the external web service. You then configure this hosted control as a global hosted control and place it on the HiddenPanel. This function and web service call is now usable from a scriptlet. You could then create the following scriptlet to call your new function.  
   
 ```  
 My_Global_Application.CallExternalWebService(“[[account.accountnumber]$]”);  
