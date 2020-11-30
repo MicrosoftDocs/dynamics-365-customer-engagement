@@ -4,7 +4,7 @@ description: "Learn on how to add the personalization tab on a Unified Service D
 author: v-sailab
 ms.author: v-sailab
 manager: shujoshi
-ms.date: 11/27/2020
+ms.date: 11/30/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -17,9 +17,7 @@ You need to add the personalization tab to your Unified Service Desk configurati
 
 1. In the Unified Service Desk Administrator app, in the left pane, under **Basic Settings**, select **Action Calls**.
 
-2. To create a new action call record, select **New**.
-
-3. Provide the following information:<br>
+2. To create a new action call record, select **New**, and then provide the following information:<br>
 
    - **Name**: OpenPersonalizationPage
 
@@ -36,19 +34,14 @@ You need to add the personalization tab to your Unified Service Desk configurati
     > [!div class=mx-imgBorder]
     > ![Create new action call record](../../media/create-new-action-call-record.png "Create new action call record")
 
-5. Under **Basic Settings** in the left panel, go to **Toolbars** > **Omnichannel ToolbarStrip**.
+5. In the left pane, under **Basic Settings**, go to **Toolbars** > **Omnichannel ToolbarStrip**.
 
-6. In the **Buttons** subgrid, select the button under which you want the personalization button to appear.
-
-7. In the **Related** section, select **Toolbar Buttons**.
+6. In the **Buttons** section, select the buttonunder which you want the personalization button to appear, and then in the **Related** section, select **Toolbar Buttons**.
 
     > [!div class=mx-imgBorder]
     > ![Select Toolbar Buttons in the Related section](../../media/select-toolbar-buttons.png "Select Toolbar Buttons in the Related section")
 
-8. Select **New Toolbar Button**.
-
-9. Create a new toolbar button record with the following parameters: <br>
-
+8. Select **New Toolbar Button** and create a new toolbar button record with the following parameters: <br>
    - **Name**: Personalization
    
    - **Button Text**: Personalization
