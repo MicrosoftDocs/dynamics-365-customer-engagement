@@ -29,28 +29,28 @@ You need to add the personalization tab to your Unified Service Desk configurati
 
    - **Data**: `url=/main.aspx?pagetype=entityrecord&etn=msdyn_usersetting&id=b5c6b1bb-47ad-ea11-a812-000d3a8c9c8c` <br><br> `HideNavigationBar=True`
 
-4. Select **Save**. 
+3. Select **Save**. 
 
     > [!div class=mx-imgBorder]
     > ![Create new action call record](../../media/create-new-action-call-record.png "Create new action call record")
 
-5. In the left pane, under **Basic Settings**, go to **Toolbars** > **Omnichannel ToolbarStrip**.
+4. In the left pane, under **Basic Settings**, go to **Toolbars** > **Omnichannel ToolbarStrip**.
 
-6. In the **Buttons** section, select the button under which you want the personalization button to appear, and then in the **Related** section, select **Toolbar Buttons**.
+5. In the **Buttons** section, select the button under which you want the personalization button to appear, and then in the **Related** section, select **Toolbar Buttons**.
 
     > [!div class=mx-imgBorder]
     > ![Select Toolbar Buttons in the Related section](../../media/select-toolbar-buttons.png "Select Toolbar Buttons in the Related section")
 
-8. Select **New Toolbar Button** and create a new toolbar button record with the following parameters: <br>
+6. Select **New Toolbar Button** and create a new toolbar button record with the following parameters: <br>
    - **Name**: Personalization
    
    - **Button Text**: Personalization
 
    - **Tooltip**: Personalization
 
-10. Select **Save**.
+7. Select **Save**.
 
-11. Select **Add Existing Action Call**, and add the following action calls in the following order: <br>
+8. Select **Add Existing Action Call**, and add the following action calls in the following order: <br>
 
     i. Switch to Agent Home Page
 
@@ -63,9 +63,9 @@ You need to add the personalization tab to your Unified Service Desk configurati
     > [!div class=mx-imgBorder]
     > ![Add action calls from the lookup records](../../media/add-action-calls-from-lookup-records.png "Add action calls from the lookup records")
 
-12. Under **Advanced Settings** in the left panel, go to **Configurations** > **Agent Configuration** > **Hosted Controls, Events and Action Calls** tab.
+9. Under **Advanced Settings** in the left panel, go to **Configurations** > **Agent Configuration** > **Hosted Controls, Events and Action Calls** tab.
 
-13. In the **Action Calls** subgrid, go to **Add Existing Action Call**, and then add the newly created Action Call **OpenPersonalizationPage**.
+10. In the **Action Calls** subgrid, go to **Add Existing Action Call**, and then add the newly created Action Call **OpenPersonalizationPage**.
 
     > [!div class=mx-imgBorder]
     > ![Add the newly created action call](../../media/add-newly-created-action-call.png "Add the newly created action call")
