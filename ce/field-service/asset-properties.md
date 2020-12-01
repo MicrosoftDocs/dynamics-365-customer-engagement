@@ -35,7 +35,7 @@ Asset properties allow you to record information about assets stored in Dynamics
 
 Properties are flexible, and can be defined in multiple ways, as we'll look at in this article.
 
-See the video on![Video symbol](../field-service/media/video-icon.png "Video symbol") [Create and configure asset properties](https://youtu.be/dhruNqBXMgw) for more details.
+For more information, see this video: ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Create and configure asset properties](https://youtu.be/dhruNqBXMgw) 
 
 ## Prerequisites
 
