@@ -59,7 +59,7 @@ In this article, we'll walk through an example of setting up an inspection using
 
 For a guided walkthrough, check out the following video.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4Hy8U]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Hy8U]
 
 
 
