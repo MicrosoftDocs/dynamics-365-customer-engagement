@@ -49,6 +49,8 @@ You can perform the following actions in the **Notes** section.
 
 2.  In the **Note** form, enter a title and the text of your note.
 
+    ![Note form](media/sm-note-form.png "Note form")
+
 3.  To attach a file or an image stored on your mobile device, tap ![Paper clip icon](media/sm-attach-file-note.png "Paper clip icon").
 
 4.  To take a photo from your mobile camera and attach it to the note, tap ![Camera icon](media/sm-take-photo-note.png "Camera icon").
@@ -58,24 +60,14 @@ You can perform the following actions in the **Notes** section.
 
 5. Tap **Save**.
 
-## Edit a note
+## Edit or delete a note
 
 1. In the note card, tap ![Options button](media/sm-options-button.png "Options button").
 
     ![Note options](media/sm-note-options.png "Note options")
 
-2. From the bottom of the screen, select **Edit**.
+2. To edit a note, select **Edit** from the bottom of the screen, modify the note, then tap **Save**.
 
-    ![Edit a note](media/sm-note-edit-delete.png "Edit a note")
+3. To delete a note, select **Delete** from the bottom of the screen;
 
-3. Modify the note, and then tap **Save**.
-
-## Delete a note
-
-1. In the note card, tap ![Options button](media/sm-options-button.png "Options button").
-
-    ![Note options](media/sm-note-options.png "Note options")
-
-2. From the bottom of the screen, select **Delete**.
-
-    ![Delete a note](media/sm-note-edit-delete.png "Delete a note")
+    ![Edit or delete a note](media/sm-note-edit-delete.png "Edit or delete a note")
