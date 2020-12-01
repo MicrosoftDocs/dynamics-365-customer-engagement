@@ -25,7 +25,7 @@
 ## [Overview](../mobile-app/v8/about-this-content.md)
 
 ## Administrator Guide 
-### [Configure mobile offline(using old admin interface)](setup-mobile-offline-for-admin.md)
+### [Configure mobile offline(using legacy admin interface)](setup-mobile-offline-for-admin.md)
 
 ### Setup and manage phones and tablets
 #### [Set up](v8/set-up-manage/set-up.md)
