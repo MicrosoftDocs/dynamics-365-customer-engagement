@@ -1,6 +1,36 @@
 {
   "redirections": [
     {
+      "source_path": "ce/mobile-app/v8/configure/configure-mobile-offline-synchronization.md",
+      "redirect_url": "../../preview-setup-mobile-offline",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/mobile-app/v8/configure/enable-mobile-offline-synchronization.md",
+      "redirect_url": "../../preview-setup-mobile-offline",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/mobile-app/v8/configure/enable-entities-mobile-offline-synchronization.md",
+      "redirect_url": "../../preview-setup-mobile-offline",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/mobile-app/v8/configure/create-mobile-offline-profile.md",
+      "redirect_url": "../../preview-setup-mobile-offline",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/mobile-app/v8/configure/add-users-mobile-offline-profile.md",
+      "redirect_url": "../../preview-setup-mobile-offline",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/mobile-app/v8/configure/publish-mobile-offline-profile.md",
+      "redirect_url": "../../preview-setup-mobile-offline",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/legal/thirdparty-messaging-terms.md",
       "redirect_url": "supp-dynamics365-voicesms",
       "redirect_document_id": "false"
@@ -18871,7 +18901,7 @@
       "redirect_url": "create-invoices",
       "redirect_document_id": false
     },
-    {  
+    {
       "source_path": "ce/sales-enterprise/developer/reference/entities/export-forecast-data.md",
       "redirect_url": "../custom-actions/msdyn_ForecastApi"
     },
