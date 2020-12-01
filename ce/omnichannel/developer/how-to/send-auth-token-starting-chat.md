@@ -29,7 +29,7 @@ Follow these steps to send authentication token when starting a chat:
 3. Once the **lcw:ready** event is raised, register an authentication token provider with live chat by using the [setAuthTokenProvider](../reference/methods/setAuthTokenProvider.md) method.
 
 > [!NOTE]
-> The [authTokenProvider](../reference/methods/setAuthTokenProvider.md#parameters) function in the [setAuthTokenProvider](../reference/methods/setAuthTokenProvider.md) method must respond within 10s. The `authTokenProvider` function times out after 10s.
+> The [authTokenProvider](../reference/methods/setAuthTokenProvider.md#parameters) function in the [setAuthTokenProvider](../reference/methods/setAuthTokenProvider.md) method must respond within 10 seconds. The `authTokenProvider` function times out after 10 seconds.
 
 4. Use [startChat](../reference/methods/startChat.md) SDK to initiate a chat.
 
