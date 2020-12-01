@@ -26,12 +26,7 @@
 ## [Overview](../mobile-app/v8/about-this-content.md)
 
 ## Administrator Guide 
-### [Configure and use mobile offline synchronization](../mobile-app/v8/configure/configure-mobile-offline-synchronization.md)
-#### [Enable mobile offline synchronization](../mobile-app/v8/configure/enable-mobile-offline-synchronization.md)
-#### [Enable entities for mobile offline synchronization](../mobile-app/v8/configure/enable-entities-mobile-offline-synchronization.md)
-#### [Create a mobile offline profile](../mobile-app/v8/configure/create-mobile-offline-profile.md)
-#### [Add users to a mobile offline profile](../mobile-app/v8/configure/add-users-mobile-offline-profile.md)
-#### [Publish a mobile offline profile](../mobile-app/v8/configure/publish-mobile-offline-profile.md)
+### [Configure and use mobile offline synchronization]([Configure mobile offline](preview-setup-mobile-offline.md)
 
 ### Setup and manage phones and tablets
 #### [Set up](v8/set-up-manage/set-up.md)
