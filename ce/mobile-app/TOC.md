@@ -26,7 +26,7 @@
 ## [Overview](../mobile-app/v8/about-this-content.md)
 
 ## Administrator Guide 
-### [Configure and use mobile offline synchronization]([Configure mobile offline](preview-setup-mobile-offline.md)
+### [Configure mobile offline](preview-setup-mobile-offline.md)
 
 ### Setup and manage phones and tablets
 #### [Set up](v8/set-up-manage/set-up.md)
