@@ -1,13 +1,13 @@
 ---
-title: "Attach names and emails to Dynamics 365 Customer Voice surveys sent from customer journeys (Dynamics 365 Marketing) | Microsoft Docs"
+title: "Attach names and emails to Dynamics 365 Customer Voice surveys sent from customer journeys (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Learn how to map names and emails to surveys with a custom Power Automate flow"
-keywords: dynamics 365 customer voice
+keywords: developer; dev; developer guide; system configuration
 ms.date: 10/19/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
-ms.topic: reference
-ms.assetid: 57e1c0f7-a12e-49ff-9110-0dcaae176855
+ms.topic: developer-guide
+ms.assetid: 1f1a8244-2dc5-4de2-b7f8-719a46c82861
 author: alfergus
 ms.author: alfergus
 manager: shellyha
