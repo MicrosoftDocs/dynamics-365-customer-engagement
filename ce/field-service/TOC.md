@@ -100,6 +100,7 @@
 ### [Offline data and sync filters](mobile-power-app-system-offline.md)
 ### [Barcode scanning and global search](mobile-power-app-system-barcode-scanning.md)
 ### [Push notifications](mobile-power-app-push-notifications.md)
+### [Location auditing](mobile-powerapp-location-auditing.md)
 ### [Workflows and scripts](mobile-power-app-workflows.md)
 ### [Intune mobile app management](mobile-power-app-intune.md)
 ### [Use Microsoft Power Platform](mobile-power-utilize-platform.md)
