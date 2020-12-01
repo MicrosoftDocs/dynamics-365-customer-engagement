@@ -8,6 +8,16 @@ ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
+searchScope:
+  - D365-App-msdynce_saleshub
+  - D365-Entity-opportunity
+  - D365-Entity-lead
+  - D365-Entity-account
+  - D365-Entity-contact
+  - D365-UI-*
+  - Dynamics 365
+  - Sales
+  - Customer Engagement
 ---
 
 # Create PDF files from sales records
