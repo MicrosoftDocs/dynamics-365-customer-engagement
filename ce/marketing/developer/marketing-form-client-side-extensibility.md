@@ -94,7 +94,7 @@ To add the code snippet, you need to follow the steps below:
 1. Navigate to the **Marketing** app and go to **Marketing forms**
 2. Choose **New** to create a new marketing form.
 3. Select **Go live**.
-4. Select the **Form hosting** tab and under the **Available domains for form hosting**, select the domain if it is available or select **+ Create new domain**.
+4. Select the **Form hosting** tab and under the **Available domains for form hosting**, select the domain if it is available, or select **+ Create new domain**.
     > [!div class="mx-imgBorder"]
     > ![Form Hosting Tab](../media/form-hosting-available-domains.png "Form Hosting Tab")
 
