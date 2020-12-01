@@ -35,6 +35,8 @@ Asset properties allow you to record information about assets stored in Dynamics
 
 Properties are flexible, and can be defined in multiple ways, as we'll look at in this article.
 
+See the video on![Video symbol](../field-service/media/video-icon.png "Video symbol") [Create and configure asset properties](https://youtu.be/dhruNqBXMgw) for more details.
+
 ## Prerequisites
 
 - You'll need one or more existing assets in Field Service. For more information, see the article on [customer assets](configure-set-up-customer-assets.md).
