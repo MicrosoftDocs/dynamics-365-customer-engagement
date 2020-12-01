@@ -4,7 +4,7 @@ description: "Instructions to create chat authentication settings in Omnichannel
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 09/02/2020
+ms.date: 12/01/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -167,7 +167,7 @@ If you are adding an authenticated chat experience to a custom website, your web
       > - If the token is expired or invalid, the chat widget will throw an error event. 
       > - The setContextProvider method does not need to be used for authenticated chat. You should pass in your lwicontexts as a part of the JWT payload.     
 
-4. Create a javascript function on your website that will accept a callback function and return a JWT to the callback function. This javascript function should return a JWT within 10 seconds. This JWT will: 
+4. Create a javascript function on your website that will accept a callback function and return a JWT to the callback function. This javascript function should return a JWT within 10 seconds as the javascript function will timeo out after 10s. This JWT will: 
 
     - Contain the header, payload, and signature from Step 3. 
 
