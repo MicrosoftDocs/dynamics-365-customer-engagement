@@ -186,7 +186,6 @@
 #### [Register IoT devices](cfs-register-devices.md)
 #### [Quickstart: Build your own IoT solution](connected-field-service-overview.md)
 ### [Azure IoT Central](cfs-iot-overview.md)
-#### [Prerequisites](cfs-iot-central-setup.md)
 ### [Use custom IoT providers](cfs-custom-iot-provider.md)
 
 ## Analyze
