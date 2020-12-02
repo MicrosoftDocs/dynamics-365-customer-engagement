@@ -29,21 +29,18 @@ search.app:
 This guide provides all the steps required for getting up and running with Connected Field Service (CFS) for IoT Hub. If you're looking for information about CFS for IoT Central, be sure to visit our tutorial on getting set up.
 
 ## Prerequisites  
- Before you install Connected Field Service, make sure you have the following:  
+ Ensure the following before configuring Connected Field Service.
   
 - Dynamics 365 Field Service. For more information, visit the [topic on installing Dynamics 365 Field Service](../field-service/install-field-service.md).
   
-- Dynamics 365 system administrator credentials. For users with Microsoft 365 global administrator access, they must be assigned the **System Administrator** security role within the Dynamics 365 organization.
-  
-- An IoT – Administrator role in the IoT solution (to access IoT entities and IoT functionality), plus another role, like Field Service – Dispatcher (to access Dynamics 365).  
-  
+- Assign your Dynamics 365 user the System Administrator and IoT-Administrator secuirity roles. 
+
 - An active Azure subscription with appropriate privileges. See our [topic on Azure prerequisites](cfs-azure-subscription.md) for more information.
   
  
   
-<a name="bkmk_install"></a>   
 
-## Install Connected Field Service  
+## Step 1: Install or upgrade Field Service  
  
 Connected Field Service is included with Dynamics 365 Field Service. Creating a new Field Service environment or upgrading an existing one to v7.5.5 or v8.3+ will automatically include the following Connected Field Service entities and related processes:
 
@@ -57,6 +54,8 @@ Connected Field Service is included with Dynamics 365 Field Service. Creating a 
 > ![Screenshot of IoT alerts in the asset menu in the sidebar](./media/cfs-navigation.png)
 
 Verify you have the Connected Field Service entities in your environment.
+
+## Step 2: Deploy Connected Field Service and Azure resources 
 
 Next, deploy and connect Azure IoTHub to your Field Service environment by going to [https://cfsdeployment.crm.dynamics.com/](https://cfsdeployment.crm.dynamics.com/) and following the instructions.
 
@@ -79,6 +78,8 @@ Next, deploy and connect Azure IoTHub to your Field Service environment by going
   
 Before proceeding, make sure all required Azure resources are successfully deployed and that the overall deployment status is **Success**.  
 
+## Step 3: Authorize Azure app connection 
+
 After you’ve installed all required Azure resources, click **Authorize** to configure the Dynamics 365 connector connection API. When you configure the connection API you’ll need to enter your Dynamics 365 subscription account. See more details in the topic on [Authorize API connection between Dynamics 365 and AzureIoT](./cfs-authorize-api-connection.md).
 
 Back in Dynamics 365 Field Service, go to **Settings** > **Providers** to see your Azure IoT Hub subscription connected as an IoT provider.
@@ -86,7 +87,7 @@ Back in Dynamics 365 Field Service, go to **Settings** > **Providers** to see yo
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service, showing active IoT provider instances.](./media/cfs-deploy-providers.png)
   
-## Set up the sample simulator (optional) 
+## Step 4: Set up the simulator (optional) 
 
 The simulator will allow you test Connected Field Service without the need to connect physical hardware. By simulating IoT devices and data, you can understand all the different parts that contribute to turning IoT data into work orders. 
 

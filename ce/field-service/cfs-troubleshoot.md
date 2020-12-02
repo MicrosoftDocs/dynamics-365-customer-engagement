@@ -20,7 +20,7 @@ search.app:
 
 # Troubleshoot Connected Field Service
 
-You may encounter unexpected behavoir when using Connected Field Service like a device that will not register or failure to pull device data. View the Azure IoT Logic Apps to help diagnose the issue.
+You may encounter unexpected behavoir when using Connected Field Service like a device that will not register or a failure to pull device data. View the Azure IoT Logic Apps to help diagnose the issue.
 
 1. Go to the Azure Portal and sign in with your Azure account. Go to Resource Groups and select the Resource Group where Azure IoT is deployed.
 
