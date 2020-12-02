@@ -25,7 +25,7 @@ search.app:
 
 # Administration and setup FAQ
 
-Read this topic to find answers to common questions and solutions to known issues that can sometimes occur during the initial setup and ongoing administration of Dynamics 365 Marketing.
+Read this article to find answers to common questions and solutions to known issues that can sometimes occur during the initial setup and ongoing administration of Dynamics 365 Marketing.
 
 <a name="licensing"></a>
 
@@ -49,14 +49,14 @@ Dynamics 365 Marketing is licensed per instance, with each instance priced accor
     To see how many of each quota you've purchased and used, go to **Settings** > **Advanced settings** > **Other settings** > **Quota limits**.
 
 - **What is my monthly email quota?**  
-    Your monthly email quota is equal to ten times the number of marketing contacts you have purchased.
+    Your monthly email quota is equal to 10 times the number of marketing contacts you have purchased.
 
 - **If I use a contact only once in a month and don’t use it next month, does it count?**  
     Marketing contacts are cumulative throughout your license period. Once you've engaged a contact in any marketing activity, that contact counts against your quota from that point forward. You can "true down" the number of marketing contacts you've purchased on the anniversary of your contract.
 
 - **How can I learn more about Dynamics 365 Marketing licensing?**
   - For an overview, see [Purchase and set up Dynamics 365 Marketing](purchase-setup.md) 
-  - For complete terms that apply to subscribed (paid) versions, please download the [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?linkid=866544).
+  - For complete terms that apply to subscribed (paid) versions, download the [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?linkid=866544).
   - For trials, see [Dynamics 365 Marketing limits for trials](trial-preview-limits.md).
   - Check the [Readme](https://go.microsoft.com/fwlink/p/?linkid=864736) document for the latest news and updates.
 
@@ -80,7 +80,7 @@ One of the requirements for running the [setup wizard](purchase-setup.md) for Dy
     > [!div class="mx-imgBorder"]
     > ![Azure user settings](media/faq-azure-user-settings2.png)
 
-1. Check the **App registrations** section on this page. If the **Yes** box is highlighted here, then you have permissions to register applications on Azure. If the **No** box is highlighted instead, try to select the **Yes** box and then select **Save**; if you don't have permissions to make this change, then please talk to your global administrator for assistance.
+1. Check the **App registrations** section on this page. If the **Yes** box is highlighted here, then you have permissions to register applications on Azure. If the **No** box is highlighted instead, try to select the **Yes** box and then select **Save**; if you don't have permissions to make this change, talk to your global administrator for assistance.
 
 ## Why do I get an authorization-failed message when I try to run the setup wizard?
 
@@ -194,7 +194,7 @@ To restart your portal:
 2. Each configured portal app is listed using the name of the Dynamics 365 instance it is assigned to (so it probably doesn't have "portal" in its name), and shows a value of **Configured** in the **Status** column. Find and select your portal in the list and then select **Manage** in top navigation ribbon.  
 
     > [!div class="mx-imgBorder"]
-    > ![Azure user settings](media/faq-portal-manage4.png)
+    > ![Manage your portal](media/faq-portal-manage4.png)
 
 3. The portals manager opens. Select **Portal actions** in the side panel, and then select the **Restart** tile to restart the portal. 
 
@@ -253,13 +253,13 @@ If you don't see the **Survey** tile in the **Toolbox** of your [customer journe
 1. The **Dynamics 365 apps** page for your selected environment opens, showing a list of solutions installed on your selected environment and the status of each of them. Find the **Dynamics 365 Customer Voice** solution and then refresh the page periodically until you can see that the solution is shown as **Installed**.
 
     > [!div class="mx-imgBorder"]
-    > ![Manage the solutions installed on your environments](media/admin-cv-solutions4.png)
+    > ![Installation progress](media/admin-cv-solutions4.png)
 
 1. Open Dynamics 365 Marketing, go to **Settings** > **Advanced settings** > **Marketing settings** > **Marketing data configuration**, and enable syncing of the **Survey (msdyn_survey)** entity. More information: [Choose entities to sync with the marketing-insights service](mkt-settings-sync.md)
 
 1. Confirm that the **Survey** tile is now visible in the customer journey toolbox, and that your surveys are working correctly.
 
-If your surveys still aren't working after completing these steps, then please [contact Microsoft Support](#contact-support) for assistance.
+If your surveys still aren't working after completing these steps, [contact Microsoft Support](#contact-support) for assistance.
 
 <a name="uci-only-data"></a>
 
@@ -283,4 +283,4 @@ For additional support and help resources you can:
 - Get in touch with the community on the [Dynamics 365 Marketing forum](https://community.dynamics.com/365/marketing/f/768).
 - Find additional [online help resources for Dynamics 365](https://docs.microsoft.com/power-platform/admin/get-help-support).
 
-If you’ve already tried to set up the application several times and are still having trouble, please open a support case through your applicable Microsoft Premier channel or MPN partner channel.
+If you’ve already tried to set up the application several times and are still having trouble, open a support case through your applicable Microsoft Premier channel or MPN partner channel.
