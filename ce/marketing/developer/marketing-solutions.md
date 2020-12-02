@@ -1,22 +1,25 @@
 ---
-title: "Dynamics 365 Marketing solutions (Dynamics 365 Marketing Developer Guide) | MicrosoftDocs"
+title: "Dynamics 365 Marketing solutions (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Know about the installed solutions in your marketing organization."
-ms.custom: 
+keywords: developer; dev; developer guide; system configuration
 ms.date: 04/01/2018
-ms.service: crm-online
-ms.technology: 
-  - marketing
-ms.topic: conceptual
-ms.assetid: 36cebc83-203f-4afc-9070-efebd8b592ec
-author: KumarVivek
-ms.author: kvivek
-manager: amyla
+ms.service: dynamics-365-marketing
+ms.custom: 
+  - dyn365-marketing
+ms.topic: developer-guide
+ms.assetid: 1f1a8244-2dc5-4de2-b7f8-719a46c82861
+author: alfergus
+ms.author: alfergus
+manager: shellyha
+ms.reviewer:
+topic-status:
 search.audienceType: 
   - developer
 search.app: 
   - D365CE
   - D365Mktg
 ---
+
 # Dynamics 365 Marketing solutions
 
 Dynamics 365 Marketing adds the following solutions to your instance:
@@ -42,11 +45,11 @@ To view entities and other components in a solution, use the solution browser in
 
 1. Select **Settings** > **Solutions**.
 
-    ![](../media/dev-browse-solutions.png)
+    ![Screenshot of the Settings menu](../media/dev-browse-solutions.png "Screenshot of the Settings menu")
 
 2. From the list of solution, select the **Display Name** of the solution that you want to view the information for.
 3. In the solution explorer, select **Components** in the left pane to view entities and other solution components in the solution. You can select each component in the left pane to view just the selected component.
 
-    ![](../media/dev-marketing-solution-browser.png)
+    ![The Components list](../media/dev-marketing-solution-browser.png "The Components list")
 
 For detailed information about entities and their properties, attributes, and relationships, see [Dynamics 365 Marketing entity reference](marketing-entity-reference.md)
