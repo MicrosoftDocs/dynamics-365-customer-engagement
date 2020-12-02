@@ -86,9 +86,13 @@ Back in Dynamics 365 Field Service, go to **Settings** > **Providers** to see yo
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service, showing active IoT provider instances.](./media/cfs-deploy-providers.png)
   
-### Set up the sample simulator (optional)  
+## Set up the sample simulator (optional) 
 
- To find the simulator URL , sign in to your Azure subscription, and then click the App Service resource type under the newly created resource group. You’ll see the URL is in the top right corner. Copy the URL and complete the following steps:  
+The simulator will allow you test Connected Field Service without the need to connect physical hardware. By simulating IoT devices and data, you can understand all the different parts that contribute to turning IoT data into work orders. 
+
+Set up the simulator to simualte iot devices and data and begin to see pull device data into Field Service. 
+
+To find the simulator URL , sign in to your Azure subscription, and then click the App Service resource type under the newly created resource group. You’ll see the URL is in the top right corner. Copy the URL and complete the following steps:  
   
 1. Paste the URL into your browser’s address bar to load the page.  
   
@@ -110,99 +114,9 @@ Back in Dynamics 365 Field Service, go to **Settings** > **Providers** to see yo
   
 6. Make sure **Connection status**  is marked as **Connected** and then close the dialog box.  
   
-   Now you can send a test command by using the sample simulator. For example, click the temperature and increase it to  above 70 degrees.  
+Now you can send a test command by using the sample simulator. For example, click the temperature and increase it to  above 70 degrees. The simulator is pre-programmed to create an IoT alert if temperature is above 70 degrees.
   
-<a name="bkmk_register"></a>   
-## Register devices that you want to monitor in Dynamics 365
-
-To monitor a device, you need to create and register an asset.  
-  
-1.  From the main menu  click, **Field Service** > **Customer Assets**.  
-  
-2.  On the command bar click **New**.  
-  
-3.  Use the helpful tooltips to fill in information.  
-  
-4. **Connected Device Attributes**: to register the device with the IoT hub, make sure you enter a **Device ID**.  
-  
-5.  When you’re done, click **SAVE** and a record will be created.  
-  
-6.  On the command bar click, **REGISTER DEVICES**.  
-  
-7.  Click **OK** in the registration box that appears.  
-  
-8.  When the device is registered, it will appear as a registered asset. To verify the registration, from the main menu click **Field Service**  > **Registered Assets**.  
-  
-
-
-
-
-
-  
-
-### Send commands from a registered asset
-
-1.  From the main menu, click **Field Service** > **Registered Assets**.
-
-2.  From the list of assets, choose a registered asset or device.
-
-3.  On the command bar, click **CREATE COMMAND**.
-
-4.  Enter a **Name** for the command.
-
-5.  In the **MESSAGE TO SEND** box, copy and paste one of these supported commends. `{"CommandName":"Reset Thermostat","Parameters":{}}` `{"CommandName":"Notification","Parameters":{"Message":"Technician has been dispatched"}}` `{"CommandName":"Set Values","Parameters":{"Reading":{"Temperature":"30","Humidity":"30"}}}`
-
-    > [!NOTE]
-    >  Before sending a command make sure there are no spaces or extra characters in the command.
-
-6.  On the command bar, click **SEND&CLOSE** to send the command.
-
-### Respond to an alert
-
-1.  Navigate to **Field Service** > **IoT Alerts**.
-
-2.  Choose an existing IoT alert record.
-
-3.  On the command bar, click **CREATE COMMAND**.
-
-4.  Enter a **Name** for the command.
-
-5.  In the **MESSAGE TO SEND** box, copy and paste one of the supported commands listed section above.
-
-6.  On the command bar, click **SEND&CLOSE** to send the command.
-
-### View history of commands sent to a device
-
-1.  From the main menu, click **Field Service** > **Customer Assets**.
-
-2.  From the list, choose an asset.
-
-3.  Scroll down to the **Command** section to view the history.
-
-
-## Create business process flows to automatically handle incoming IoT alerts
- When you receive an alert from a device, your service team can manually monitor the alerts and troubleshoot the issue remotely. If the issue is not resolved by sending a remote command, the service rep can create a case or work order and dispatch a field tech. The provided business process flow guides you through the process of manually responding to IoT alerts. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a business process flow](../customize/create-business-process-flow.md)
-
- List of default IoT actions:
-
--   IoT- Parent IoT Alerts (Action)
-
--   IoT- Register Customer Entity (Action)
-
--   IoT- Register Device (Action)
-
--   IoT – Debounce IoT Alerts (Action)
-
--   JSON-Based Field Value - Get Number (Action)
-
--   JSON-Based Field Value - Get String (Action)
-
--   JSON-Based Field Value - Get Boolean (Action)
-
-
-
-
-
+ 
 
 ## Next steps
 
