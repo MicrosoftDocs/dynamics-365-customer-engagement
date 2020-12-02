@@ -2,7 +2,7 @@
 title: "Move data between instances (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to move data between instances using the Configuration Migration tool in Dynamics 365 Marketing"
 keywords: 
-ms.date: 08/16/2019
+ms.date: 12/01/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -37,15 +37,24 @@ The process works as follows:
 1. Export data from the source instance using the Configuration Migration tool together with the schema.
 1. Import the exported zip bundle onto the destination instance using the Configuration Migration tool.
 
+## Prerequisites for the export/import process
+
+Complete the following prerequisites before transferring data and configurations between instances:
+
+1. Make sure no records are in a "live" state. Attempting to transfer live records will cause the Configuration Migration tool to fail.
+
+    > [!NOTE]
+    > The Configuration Migration tool includes options to filter or remove live records from the data transfer. Contact 
+
+1. Ensure that the source and destination instances are running the same version of Dynamics 365 Marketing and are using an identical database schema (at least for the data you are transferring).
+
 ## Capabilities and limitations of the export/import process
 
 The following notes apply when you use export/import to move data from one Dynamics 365 Marketing to another:
 
-- All records exported with a status of "live" will be imported with a status of "draft" on the destination instance.
 - If you import (or reimport) a record that already exists on the destination instance, that record will end with a status of "draft" on the destination instance. Matching records won't be duplicated.
 - Interaction data can't be exported or transferred to a new instance. It will never be included in the export file.
 - If you export from a language not present on the destination instance, that language will simply be added to the destination instance.
-- Both the source and destination instances must be running the same version of Dynamics 365 Marketing and use an identical database schema (at least for the data you are transferring).
 
 <a name="install-tools"></a>
 ## Download the Configuration Migration tool
