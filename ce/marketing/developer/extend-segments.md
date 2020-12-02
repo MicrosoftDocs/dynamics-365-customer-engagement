@@ -1,22 +1,26 @@
 ---
-title: "Basic Operations on segments using API| Microsoft Docs" # Intent and product brand in a unique string of 43-59 chars including spaces
-description: The Segmentation API enables programmatic interaction with certain segmentation features of Dynamics 365 Marketing app."" # 115-145 characters including spaces. This abstract displays in the search result.
-ms.custom: ""
-ms.date: 11/11/2019
-ms.reviewer: ""
-ms.service: D365CE
-ms.topic: "article"
-author: "nkrb" # GitHub ID
-ms.author: "nabuthuk" # MSFT alias of Microsoft employees only
-manager: "kvivek" # MSFT alias of manager or PM counterpart
+title: "Basic operations on segments using API (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
+description: "Learn how to use the segmentation API in Dynamics 365 Marketing."
+keywords: developer; dev; developer guide; system configuration
+ms.date: 06/12/2019
+ms.service: dynamics-365-marketing
+ms.custom: 
+  - dyn365-marketing
+ms.topic: developer-guide
+ms.assetid: 1f1a8244-2dc5-4de2-b7f8-719a46c82861
+author: alfergus
+ms.author: alfergus
+manager: shellyha
+ms.reviewer:
+topic-status:
 search.audienceType: 
   - developer
 search.app: 
-  - PowerApps
   - D365CE
+  - D365Mktg
 ---
 
-# Basic operations on segments using the Segmentation API
+# Basic operations on segments using the segmentation API
 
 A market segment is the collection of contacts that you target in a marketing campaign. In some cases, you'll target all the contacts you have, but in most cases, you'll choose whom you want to target based on demographic or firmographic data and other considerations. More information: [Working with segments](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/segmentation-lists-subscriptions).
 
@@ -213,7 +217,7 @@ DELETE {{OrgUrl}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
 
 ## Add/Remove contacts to static segments
 
-Segment members can be added to or removed from static segments of contacts. You can add/remove contacts either by providing a query definition, or by providing specific contact ids. 
+Segment members can be added to or removed from static segments of contacts. You can add/remove contacts either by providing a query definition, or by providing specific contact IDs. 
 
 Some of the important aspects that need to be considered while performing add/remove operations on segment members:
 
