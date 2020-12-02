@@ -69,15 +69,19 @@ To find your Dynamics 365 Marketing version number:
 
 1. [Open the Power Platform admin center](power-platform-admin-center.md) and go to **Environments**.  
 
-2. If you have more than one Dynamics 365 environment, then each of them is listed here. Select the environment where you have Marketing installed and are planning to export data from.
+1. If you have more than one Dynamics 365 environment, each of them is listed here. Select the environment where you have Marketing installed and are planning to export data from.
 
-3. The side panel shows information about your selected environment, including a list of solutions installed there. Select the **Manage your solutions** button ![The Manage your solutions button](media/update-manage-button.png "The Manage your solutions button") next to the **Solutions** heading here.
+1. Select the **Resources** drop down in the top ribbon, then select **Dynamics 365 apps**.
 
-    ![Select the Manage your solutions button](media/update-open-manage-solutions.png "Select the Manage your solutions button")
+    > [!div class="mx-imgBorder"]
+    > ![Manage the apps installed on your environment](media/admin-cv-instances.png)
 
-4. A list of solutions installed on your selected environment is shown. Find the solution called **Dynamics 365 Marketing** and check the value shown in the **Version** column.
- 
-    ![Find the version number](media/admin-mkt-version.png "Find the version number")
+1. A list of solutions installed on your selected environment is shown. Select the solution called **Dynamics 365 Marketing Application** then select **Details** in the top ribbon.
+
+    > [!div class="mx-imgBorder"]
+    > ![Manage the apps installed on your environment](media/admin-mkt-version2.png)
+
+1. A pane will appear on the right side of the page titled **Dynamics 365 Marketing Application Details**. Check the value shown in the **Version** column.
 
 ## Generate a database schema for your source environment
 
