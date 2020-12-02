@@ -1,16 +1,18 @@
 ---
-title: "Extend marketing forms using code (Dynamics 365 Marketing Developer Guide) | MicrosoftDocs"
+title: "Extend marketing forms using code (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Extend marketing forms with JavaScript to apply custom business logic in Dynamics 365 Marketing."
-ms.custom: 
-  - dyn365-developer
-  - dyn365-marketing
+keywords: developer; dev; developer guide; system configuration
 ms.date: 11/05/2020
 ms.service: dynamics-365-marketing
-ms.topic: conceptual
-ms.assetid: cfaee020-a29d-4297-8f73-e8fb378843dc
+ms.custom: 
+  - dyn365-marketing
+ms.topic: developer-guide
+ms.assetid: 1f1a8244-2dc5-4de2-b7f8-719a46c82861
 author: alfergus
 ms.author: alfergus
-manager: kvivek
+manager: shellyha
+ms.reviewer:
+topic-status:
 search.audienceType: 
   - developer
 search.app: 
@@ -94,12 +96,12 @@ To add the code snippet, you need to follow the steps below:
 1. Navigate to the **Marketing** app and go to **Marketing forms**
 2. Choose **New** to create a new marketing form.
 3. Select **Go live**.
-4. Select the **Form hosting** tab and under the **Whitelist rules**, select **...** and **Add New Form whitelist rule**.
+4. Select the **Form hosting** tab and under the **Available domains for form hosting**, select the domain if it is available, or select **+ Create new domain**.
     > [!div class="mx-imgBorder"]
-    > ![Form Hosting Tab](../media/form-hosting-whitelist-rule-page.png "Form Hosting Tab")
+    > ![Form Hosting Tab](../media/form-hosting-available-domains.png "Form Hosting Tab")
 
 5. Add your own CMS domain and select **Save**.
-6. In the **From hosting** tab, under the **Related marketing form pages** tab, select **...** and **Add New Form Page** to add a marketing form page.
+6. In the **From hosting** tab, under the **Related marketing form pages** tab, select **...** and **+ New Form Page** to add a marketing form page.
     > [!div class="mx-imgBorder"]
     > ![Related Marketing Form Pages](../media/form-hosting-related-marketing-form-pages.png "Related Marketing Form Pages")
 
@@ -111,7 +113,6 @@ To add the code snippet, you need to follow the steps below:
 9. Now in your CMS, edit the page where you want to include the form, add your customizations and script.
     > [!div class="mx-imgBorder"]
     > ![Ad customizations to CMS](../media/add-code-to-cms-site.png "Add customization to CMS")
-
 
 ## Examples 
 
