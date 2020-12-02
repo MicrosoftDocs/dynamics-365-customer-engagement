@@ -4,7 +4,7 @@ description: "Learn on how to add the personalization tab on a Unified Service D
 author: v-sailab
 ms.author: v-sailab
 manager: shujoshi
-ms.date: 11/30/2020
+ms.date: 12/2/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -15,9 +15,9 @@ ms.service: dynamics-365-customerservice
 
 You need to add the personalization tab to your Unified Service Desk configuration in order to use personal quick replies. After you add the personalization tab, you can view the tab depending on where it was added.
 
-1. In the Unified Service Desk Administrator app, in the left pane, under **Basic Settings**, select **Action Calls**.
+1. In the **Unified Service Desk Administrator** app, in the left pane, under **Basic Settings**, select **Action Calls**.
 
-2. To create a new action call record, select **New**, and then provide the following information:<br>
+2. To create an action call record, select **New**, and then provide the following information:<br>
 
    - **Name**: OpenPersonalizationPage
 
@@ -36,12 +36,13 @@ You need to add the personalization tab to your Unified Service Desk configurati
 
 4. In the left pane, under **Basic Settings**, go to **Toolbars** > **Omnichannel ToolbarStrip**.
 
-5. In the **Buttons** section, select the button under which you want the personalization button to appear, and then in the **Related** section, select **Toolbar Buttons**.
+5. In the **Buttons** area, select the button under which you want the personalization button to appear, and then in the **Related** tab, select **Toolbar Buttons**.
 
     > [!div class=mx-imgBorder]
     > ![Select Toolbar Buttons in the Related section](../../media/select-toolbar-buttons.png "Select Toolbar Buttons in the Related section")
 
-6. Select **New Toolbar Button** and create a new toolbar button record with the following parameters: <br>
+6. Select **New Toolbar Button** and create a toolbar button record with the following parameters: <br>
+
    - **Name**: Personalization
    
    - **Button Text**: Personalization
@@ -63,9 +64,9 @@ You need to add the personalization tab to your Unified Service Desk configurati
     > [!div class=mx-imgBorder]
     > ![Add action calls from the lookup records](../../media/add-action-calls-from-lookup-records.png "Add action calls from the lookup records")
 
-9. Under **Advanced Settings** in the left panel, go to **Configurations** > **Agent Configuration** > **Hosted Controls, Events and Action Calls** tab.
+9. Under **Advanced Settings** in the left pane, go to **Configurations** > **Agent Configuration** > **Hosted Controls, Events and Action Calls** tab.
 
-10. In the **Action Calls** subgrid, go to **Add Existing Action Call**, and then add the newly created Action Call **OpenPersonalizationPage**.
+10. In the **Action Calls** area, go to **Add Existing Action Call**, and then add the created Action Call **OpenPersonalizationPage**.
 
     > [!div class=mx-imgBorder]
     > ![Add the newly created action call](../../media/add-newly-created-action-call.png "Add the newly created action call")
