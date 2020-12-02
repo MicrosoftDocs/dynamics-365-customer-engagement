@@ -180,7 +180,6 @@
 #### [Create a record](agent/agent-usd/create-record.md)
 #### [Search for records](agent/agent-usd/search-record.md)
 #### [Link and unlink a record](agent/agent-usd/link-unlink-record.md)
-#### [Add personalization tab](agent/agent-usd/add-personalization-tab.md)
 #### [View communication panel](agent/agent-usd/left-control-panel.md)
 #### [View call scripts, take notes, and search knowledge articles](agent/agent-usd/right-control-panel.md)
 #### [Understand conversation states](agent/agent-usd/conversation-state.md)
