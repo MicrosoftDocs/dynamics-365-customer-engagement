@@ -25,9 +25,13 @@ You can sign in to the Dynamics 365 Sales mobile app by using your work email ad
 
 2. On the welcome screen, tap **Sign in**.
 
+    ![Sign in screen](media/sm-sign-in.png "Sign in screen")
+
 3. Enter you email and password.
 
-4. From the list of app, tap the app you want to use.
+4. From the list of apps, tap the app you want to use.
+
+    ![Select an app](media/sm-apps-list.png "Select an app")
 
 ### Sign out from the app
 
@@ -35,19 +39,23 @@ You can sign in to the Dynamics 365 Sales mobile app by using your work email ad
 
 2. Tap **Apps**.
 
-3. Tap the menu icon, and then tap **Sign out**. 
+    ![Tap Apps](media/sm-select-apps.png "Tap Apps")
+
+3. Tap ![Hamburger menu icon](media/sm-hamburger-menu.png "Hamburger menu icon") at the top left of the screen, and then tap **Sign out**.
+
+    ![Sign out](media/sm-sign-out.png "Sign out")
 
 ## Your first experience
 
 When you sign in and select the app for the first time, you'll see the welcome page that briefly shows the various things that you can do with the Dynamics 365 Sales mobile app.
 
-![Welcome screen](media/sm-welcome-screen.png "Welcome screen")
+![First welcome screen](media/sm-welcome-screen.png "First welcome screen")
 
 Tap **Next** to go through all the welcome pages and learn more about what the app offers.
 
 When you're on the last page, tap **Let's go**.
 
-![Welcome screen](media/sm-welcome-screen1.png "Welcome screen")
+![Second welcome screen](media/sm-welcome-screen1.png "Second welcome screen")
 
 ## Get familiar with the home page
 
