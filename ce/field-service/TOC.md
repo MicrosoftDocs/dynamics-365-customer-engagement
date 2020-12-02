@@ -186,11 +186,12 @@
 #### [Quickstart: Build your own IoT solution](connected-field-service-overview.md)
 ### [Use custom IoT providers](cfs-custom-iot-provider.md)
 ## Analyze
+### [Pull device data](cfs-pull-device-data.md)
+### [Visualizing device readings](cfs-visualizations-iot-hub.md)
 ### [Receive IoT alerts from Azure IoT Central](cfs-iot-central-alerts.md)
 ### [Associate devices with customer accounts](cfs-iot-central-associate-devices.md)
-### [Visualizing device readings](cfs-visualizations-iot-hub.md)
 ### [AI for IoT alerts](iot-alerts-ai-based-suggestions.md)
-### [Pull device data](cfs-pull-device-data.md)
+
 ## Take action
 ### [Connected Field Service on mobile](cfs-mobile-powerapp.md)
 ### [Send work order updates to Azure IoT Central](cfs-iot-central-work-orders.md)
