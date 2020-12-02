@@ -43,8 +43,8 @@ Complete the following prerequisites before transferring data and configurations
 
 1. Make sure no records are in a "live" state. Attempting to transfer live records will cause the Configuration Migration tool to fail.
 
-> [!NOTE]
-> The Configuration Migration tool includes options to exclude or filter live records. [Contact technical support](https://docs.microsoft.com/power-platform/admin/get-help-support) for assistance with these features.
+    > [!NOTE]
+    > The Configuration Migration tool includes options to exclude or filter live records. [Contact technical support](https://docs.microsoft.com/power-platform/admin/get-help-support) for assistance with these features.
 
 1. Ensure that the source and destination instances are running the same version of Dynamics 365 Marketing and are using an identical database schema (at least for the data you are transferring).
 
