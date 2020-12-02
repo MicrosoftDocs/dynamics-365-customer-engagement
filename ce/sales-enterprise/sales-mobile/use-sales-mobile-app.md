@@ -13,31 +13,33 @@ manager: shujoshi
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-With the Dynamics 365 Sales mobile app, you'll be able to quickly:
+Use the Dynamics 365 Sales mobile app to plan your day by seeing what it has in store such as upcoming meetings and insights. You can also take post-meeting actions such as adding notes, creating contacts, and updating data in relevant records.
 
--   Plan your day:
+## Sign in and sign out of the app
 
-    -   View your agenda and upcoming meetings.
+You can sign in to the Dynamics 365 Sales mobile app by using your work email address you use for Dynamics 365. If you need help with your sign-in information, contact your Dynamics 365 administrator.
 
-    -   View reminders and insights.
+### Sign in to the app
 
--   Take actions after a meeting.
+1. On your mobile device, search for **Dynamics 365 Sales**, and then open the app.
 
--   Find and act on records.
+2. On the welcome screen, tap **Sign in**.
 
-The home page shows items that are most relevant to you, such as:
+3. Enter you email and password.
 
--   Your upcoming meetings.
+4. From the list of app, tap the app you want to use.
 
--   Your recent contacts and other records.
+### Sign out from the app
 
--   Reminders.
+1. Tap your profile picture at the top left of the screen.
 
--   Insights.
+2. Tap **Apps**.
+
+3. Tap the menu icon, and then tap **Sign out**. 
 
 ## Your first experience
 
-When you sign in to your app the first time, you'll see the welcome page that briefly shows the various things that you can do with the Dynamics 365 Sales mobile app.
+When you sign in and select the app for the first time, you'll see the welcome page that briefly shows the various things that you can do with the Dynamics 365 Sales mobile app.
 
 ![Welcome screen](media/sm-welcome-screen.png "Welcome screen")
 
@@ -49,23 +51,26 @@ When you're on the last page, tap **Let's go**.
 
 ## Get familiar with the home page
 
-The home page gives you a quick access to what's most important to you. The home page is divided into the following sections.
+The home page gives you a quick access to important and relevant information of your day. The home page is divided into the following sections.
 
 ### Meetings
 
 This section shows important information about the last meeting you were in and the next one coming up for the day. More information: [View agenda](view-agenda.md)
 
+> [!NOTE]
+> Only those meetings are displayed that have at least one external attendee (not a part of your organization).
+
 ![Meetings displayed on the home screen](media/sm-meetings-home.png "Meetings displayed on the home screen")
 
 ### Recent contacts
 
-Use **Recent contacts** to open an extended list of the contacts you've recently accessed. You can tap a contact to view its details.
+Use **Recent contacts** to open an extended list of the contacts you've recently accessed through the web or the mobile app. You can tap a contact to view its details.
 
 ![Recent contacts displayed on the home screen](media/sm-contacts-home.png "Recent contacts displayed on the home screen")
 
 ### Recent records
 
-Tap **Recent records** to view an extended list of the records you've worked on recently, such as an account or opportunity. You can tap a record to view its details. More information: [Open a record](open-record.md)
+Tap **Recent records** to view an extended list of the records you've worked on recently through the web or the mobile app, such as an account or opportunity. You can tap a record to view its details. More information: [Open a record](open-record.md)
 
 ![Recent records displayed on the home screen](media/sm-records-home.png "Recent records displayed on home screen")
 

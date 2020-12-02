@@ -18,7 +18,8 @@ On the home page, you can see resources that can help you better plan your day. 
 To see more meetings for the day, tap **Meetings** either on the home page or on the navigation bar. Meetings that have been scheduled in Microsoft Outlook are displayed.
 
 > [!NOTE]
-> You can't create a meeting from the Dynamics 365 Sales mobile app.
+> - You can't create a meeting from the Dynamics 365 Sales mobile app.
+> - Only those meetings are displayed that have at least one external attendee (not a part of your organization).
 
 **To view meetings**
 
@@ -52,7 +53,7 @@ Meeting details include the following:
 
 -   Meeting description: Tap to get a detailed description of the meeting.
 
--   List of attendees: Up to five attendees are shown. When you tap the name of an attendee, the quick view of their contact record opens. If the attendee is an unknown contact (that is, not a record stored in Dynamics 365 Sales), you'll see an option to create a contact. More information: [Create a contact](create-contact.md)
+-   List of attendees: Up to five attendees are shown. When you tap the name of an attendee, the quick view of their contact record opens. If the attendee is an unknown contact (that is, not a contact stored in Dynamics 365 Sales), you'll see an option to create a contact. More information: [Create a contact](create-contact.md)
 
 -   Regarding: Indicates the record the meeting is about. By tapping ![Options button](media/sm-options-button.png "Options button"), you can do the following:
 
@@ -61,6 +62,8 @@ Meeting details include the following:
     -   Select a different record to connect with the meeting.
 
         ![More menu of a connected record](media/sm-more-menu-regarding-record.png "More menu of a connected record")
+    
+    -   Remove the connected record
 
     If no regarding record has been set, you'll see the message "No connected record." More information: [Connect a record to a meeting](#connect-a-record-to-a-meeting)
     
