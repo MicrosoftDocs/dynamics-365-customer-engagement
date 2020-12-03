@@ -28,7 +28,7 @@ In this article, we'll look at how to enable location tracking, and how to acces
 
 For a guided walkthrough, check out the following video.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4J6mZ]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4J6mZ]
 
 ## Prerequisites
 
