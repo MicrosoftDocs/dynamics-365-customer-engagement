@@ -36,6 +36,15 @@ With an Intune-enabled Field Service (Dynamics 365) mobile app, IT administrator
 ## Prerequisites
 
 - Field Service (Dynamics 365) mobile app for iOS and Android
+- Note the Bundle IDs to find the mobile app in Intune.
+
+|Platform | Bundle ID |
+| -- | -- | 
+| iOS | com.microsoft.dynamics.iphone.moca.fieldServices |
+| Android | com.microsoft.crm.crmphone.fieldServices |
+
+
+
 
 ## Get started
 
