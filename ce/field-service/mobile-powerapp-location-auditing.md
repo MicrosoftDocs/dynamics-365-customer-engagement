@@ -26,6 +26,9 @@ Technicians using the Field Service (Dynamics 365) mobile app can enable locatio
 
 In this article, we'll look at how to enable location tracking, and how to access location audits in Field Service.
 
+For a guided walkthrough, check out the following video.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4J6mZ]
 
 ## Prerequisites
 
