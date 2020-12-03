@@ -48,7 +48,7 @@ The Dynamics 365 Marketing November 2020 update includes several enhancements in
 - **Compliance**
     - Together with the release of [Microsoft Cloud for Healthcare](https://docs.microsoft.com/industry/healthcare/compliance-overview), Marketing is now HIPAA compliant.
 - **Event management**
-    - Teams integration now has a more refined attendee check-in process.
+    - Teams integration now has a more refined attendee check-in process. When selecting the ["Teams check in" button](https://docs.microsoft.com/dynamics365/marketing/teams-webinar#inviting-registrants-to-attend-the-live-event-through-email) in the registration confirmation email, attendees will only be checked in if the button is clicked within 30 minutes of the start of the event. This prevents accidental clicks (sometimes days ahead of the event) from being marked as actual attendees.
     - Events automatically shows Teams meetings and live events on the organizer's Outlook calendar.
 - **First run experience**
     - Addressing customer feedback, we’ve improved the portal trial experience.
