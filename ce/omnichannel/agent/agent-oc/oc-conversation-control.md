@@ -111,7 +111,7 @@ The communication panel allows you to transfer a conversation request. You can t
 
 You can transfer a request only to agents who are configured in the same work stream and queue. If the request belongs to another queue and you transfer the request, routing rules assign the conversation (work item) to the appropriate agent in the queue.
 
-Agents whose presence is set to Busy-DND, Away, or Offline will not appear agents list in the transfer pane.
+Agents whose presence is set to Busy-DND, Away, or Offline will not appear in the agents list of the transfer pane.
 
 Use the keyboard command to see the list of agents and/or the supervisor who is available for transfer. Type the forward slash (/) key and the letter t (**/t**).
 
