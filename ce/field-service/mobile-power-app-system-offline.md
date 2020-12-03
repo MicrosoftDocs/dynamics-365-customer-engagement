@@ -37,7 +37,7 @@ For more information on offline profiles, see the article on [setting up mobile 
 
 For a guided walkthrough, check out the following video.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4J8no]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4J8no]
 
 ## Set up an offline profile
 
