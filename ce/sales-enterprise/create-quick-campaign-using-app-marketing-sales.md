@@ -10,6 +10,15 @@ ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
+searchScope:
+  - D365-App-msdynce_saleshub
+  - D365-Entity-list
+  - D365-Entity-campaign
+  - D365-Entity-bulkoperation
+  - D365-UI-Form
+  - Customer Engagement
+  - Dynamics 365
+  - Sales
 ---
 
 # Create a quick campaign using in-app marketing (Sales)

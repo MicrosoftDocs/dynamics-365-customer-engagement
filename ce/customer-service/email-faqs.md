@@ -1,13 +1,13 @@
 ---
 title: "Email FAQs | Microsoft Docs"
 description: "Email FAQs"
-ms.date: 08/03/2020
-ms.service:
-  - "dynamics-365-customerservice"
-ms.topic: article
 author: lerobbin
 ms.author: lerobbin
 manager: shujoshi
+ms.date: 08/03/2020
+ms.topic: article
+ms.service: dynamics-365-customerservice
+ms.reviewer: lalexms
 ---
 
 # Email FAQs

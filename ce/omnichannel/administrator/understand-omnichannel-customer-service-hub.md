@@ -1,15 +1,16 @@
 ---
 title: "Understand Omnichannel for Customer Service with Customer Service Hub app | MicrosoftDocs"
 description: "Understand how Omnichannel for Customer Service can be used with Dynamics 365 Customer Service Hub application."
-author: kabala123
-ms.author: kabala
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.date: 11/11/2019
-ms.service: 
-   "dynamics-365-customerservice"
 ms.topic: article
+ms.service: "dynamics-365-customerservice"
 ---
 # Understand Omnichannel for Customer Service with Customer Service Hub
+
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 

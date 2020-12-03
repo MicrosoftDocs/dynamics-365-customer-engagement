@@ -10,6 +10,17 @@ ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
+searchScope:
+  - D365-App-msdynce_saleshub
+  - D365-Entity-product
+  - D365-Entity-uom
+  - D365-Entity-uomschedule
+  - D365-Entity-discount
+  - D365-Entity-pricelevel
+  - D365-UI-*
+  - Dynamics 365
+  - Sales
+  - Customer Engagement
 ---
 
 # Create a unit group and add units to that group (Sales and Sales Hub)

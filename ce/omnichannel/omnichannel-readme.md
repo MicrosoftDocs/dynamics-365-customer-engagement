@@ -5,12 +5,13 @@ author: neeranelli
 ms.author: nenellim
 manager: shujoshi
 ms.date: 10/15/2020
-ms.service: 
-  "dynamics-365-customerservice"
 ms.topic: article
+ms.service: "dynamics-365-customerservice"
 ---
 
 # Omnichannel for Customer Service readme (known issues and limitations)
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -107,12 +108,6 @@ While creating a context variable, the system does not perform duplication detec
 ## Refresh queue configuration to reflect the addition of new user
 
 When you add a user to a queue, the sub grid doesn’t reflect the new member automatically. You are required to refresh the sub grid by selecting the **Refresh** button to see the new user in the list of queue members.
-
-## Support for third-party channel providers with Omnichannel for Customer Service
-
-If your organization has deployed a third-party channel provider using the Dynamics 365 Channel Integration Framework, and when you use Omnichannel for Customer Service in the same environment, the Channel Integration Framework solution upgrades to version 2.0. With Channel Integration Framework version 2.0, you can integrate only third-party telephony channel providers.
-
-You can continue to use the third-party channel provider in the unified interface apps such as Customer Service Hub, Sales Hub and so on. However, you can't use the third-party channel provider in the Omnichannel for Customer Service app. That is, you should not add the **Omnichannel for Customer Service** app while configuring the app list for in the channel provider.
 
 ## Support for automatic record linking to conversation
 

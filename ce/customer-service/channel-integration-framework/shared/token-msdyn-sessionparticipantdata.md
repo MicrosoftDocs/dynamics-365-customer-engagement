@@ -8,35 +8,35 @@
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.1/msdyn_sessionparticipantsdata(*msdyn_sessionparticipantdataid*)|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.1/msdyn_sessionparticipantsdata|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.1/msdyn_sessionparticipantsdata(*msdyn_sessionparticipantdataid*)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Assign|PATCH [*org URI*]/api/data/v9.0/msdyn_conversationsdata(*msdyn_conversationdataid*)|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Create|POST [*org URI*]/api/data/v9.0/msdyn_conversationsdata|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_conversationsdata(*msdyn_conversationdataid*)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 |IsValidStateTransition|<xref href="Microsoft.Dynamics.CRM.IsValidStateTransition?text=IsValidStateTransition Function" />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 |ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.1/msdyn_sessionparticipantsdata(*msdyn_sessionparticipantdataid*)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.1/msdyn_sessionparticipantsdata|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_conversationsdata(*msdyn_conversationdataid*)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_conversationsdata|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
 |RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
 |RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.1/msdyn_sessionparticipantsdata(*msdyn_sessionparticipantdataid*)|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.1/msdyn_sessionparticipantsdata(*msdyn_sessionparticipantdataid*)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_conversationsdata(*msdyn_conversationdataid*)|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_conversationsdata(*msdyn_conversationdataid*)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
 |Property|Value|
 |--------|-----|
-|CollectionSchemaName|msdyn_SessionParticipantDatas|
-|DisplayCollectionName|Session Participants Data|
-|DisplayName|Session Participant Data|
-|EntitySetName|msdyn_sessionparticipantsdata|
+|CollectionSchemaName|msdyn_conversationdatas|
+|DisplayCollectionName|Conversations Data (Deprecated)|
+|DisplayName|Conversation Data (Deprecated)|
+|EntitySetName|msdyn_conversationsdata|
 |IsBPFEntity|False|
-|LogicalCollectionName|msdyn_sessionparticipantdatas|
-|LogicalName|msdyn_sessionparticipantdata|
+|LogicalCollectionName|msdyn_conversationdatas|
+|LogicalName|msdyn_conversationdata|
 |OwnershipType|UserOwned|
-|PrimaryIdAttribute|msdyn_sessionparticipantdataid|
+|PrimaryIdAttribute|msdyn_conversationdataid|
 |PrimaryNameAttribute|msdyn_name|
-|SchemaName|msdyn_SessionParticipantData|
+|SchemaName|msdyn_conversationdata|
 
 <a name="writable-attributes"></a>
 
@@ -45,21 +45,29 @@
 These attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
+- [msdyn_AccountId](#BKMK_msdyn_AccountId)
+- [msdyn_AdditionalData](#BKMK_msdyn_AdditionalData)
+- [msdyn_Channel](#BKMK_msdyn_Channel)
+- [msdyn_ContactId](#BKMK_msdyn_ContactId)
+- [msdyn_conversationdataId](#BKMK_msdyn_conversationdataId)
 - [msdyn_ConversationId](#BKMK_msdyn_ConversationId)
+- [msdyn_ConversationTimestamp](#BKMK_msdyn_ConversationTimestamp)
 - [msdyn_CustomAttribute1](#BKMK_msdyn_CustomAttribute1)
 - [msdyn_CustomAttribute2](#BKMK_msdyn_CustomAttribute2)
 - [msdyn_CustomAttribute3](#BKMK_msdyn_CustomAttribute3)
 - [msdyn_CustomAttribute4](#BKMK_msdyn_CustomAttribute4)
 - [msdyn_CustomAttribute5](#BKMK_msdyn_CustomAttribute5)
-- [msdyn_Name](#BKMK_msdyn_Name)
-- [msdyn_ParticipantAddedTimestamp](#BKMK_msdyn_ParticipantAddedTimestamp)
-- [msdyn_ParticipantAssignReason](#BKMK_msdyn_ParticipantAssignReason)
-- [msdyn_ParticipantId](#BKMK_msdyn_ParticipantId)
-- [msdyn_ParticipantMode](#BKMK_msdyn_ParticipantMode)
-- [msdyn_ParticipantName](#BKMK_msdyn_ParticipantName)
-- [msdyn_ParticipantType](#BKMK_msdyn_ParticipantType)
-- [msdyn_ProviderSessionId](#BKMK_msdyn_ProviderSessionId)
-- [msdyn_SessionParticipantDataId](#BKMK_msdyn_SessionParticipantDataId)
+- [msdyn_customerCity](#BKMK_msdyn_customerCity)
+- [msdyn_customerCountry](#BKMK_msdyn_customerCountry)
+- [msdyn_customerState](#BKMK_msdyn_customerState)
+- [msdyn_customerZip](#BKMK_msdyn_customerZip)
+- [msdyn_ExternalCorrelationId](#BKMK_msdyn_ExternalCorrelationId)
+- [msdyn_name](#BKMK_msdyn_name)
+- [msdyn_PrimaryRelatedEntityName](#BKMK_msdyn_PrimaryRelatedEntityName)
+- [msdyn_PrimaryRelatedEntityRecordId](#BKMK_msdyn_PrimaryRelatedEntityRecordId)
+- [msdyn_ProviderId](#BKMK_msdyn_ProviderId)
+- [msdyn_ProviderName](#BKMK_msdyn_ProviderName)
+- [msdyn_Region](#BKMK_msdyn_Region)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [OwnerId](#BKMK_OwnerId)
 - [OwnerIdType](#BKMK_OwnerIdType)
@@ -86,11 +94,89 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Integer|
 
 
+### <a name="BKMK_msdyn_AccountId"></a> msdyn_AccountId
+
+|Property|Value|
+|--------|-----|
+|Description|Account unique identifier|
+|DisplayName|Account Id|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_accountid|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_AdditionalData"></a> msdyn_AdditionalData
+
+|Property|Value|
+|--------|-----|
+|Description|Additional data related to the conversation|
+|DisplayName|Additional Data|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_additionaldata|
+|MaxLength|1000|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_Channel"></a> msdyn_Channel
+
+|Property|Value|
+|--------|-----|
+|Description|Conversation channel|
+|DisplayName|Channel|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_channel|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_ContactId"></a> msdyn_ContactId
+
+|Property|Value|
+|--------|-----|
+|Description|Contact unique identifier|
+|DisplayName|Contact Id|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_contactid|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_conversationdataId"></a> msdyn_conversationdataId
+
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for entity instances|
+|DisplayName|Conversation Data Id|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|msdyn_conversationdataid|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
+
+
 ### <a name="BKMK_msdyn_ConversationId"></a> msdyn_ConversationId
 
 |Property|Value|
 |--------|-----|
-|Description|Conversation Identifier|
+|Description|Conversation identifier|
 |DisplayName|Conversation Id|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -100,6 +186,21 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |MaxLength|100|
 |RequiredLevel|None|
 |Type|String|
+
+
+### <a name="BKMK_msdyn_ConversationTimestamp"></a> msdyn_ConversationTimestamp
+
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Conversation started time|
+|DisplayName|Conversation Timestamp|
+|Format|DateAndTime|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_conversationtimestamp|
+|RequiredLevel|ApplicationRequired|
+|Type|DateTime|
 
 
 ### <a name="BKMK_msdyn_CustomAttribute1"></a> msdyn_CustomAttribute1
@@ -182,11 +283,91 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|String|
 
 
-### <a name="BKMK_msdyn_Name"></a> msdyn_Name
+### <a name="BKMK_msdyn_customerCity"></a> msdyn_customerCity
 
 |Property|Value|
 |--------|-----|
-|Description|Required name field|
+|Description|City name for customer address|
+|DisplayName|Customer City|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_customercity|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_customerCountry"></a> msdyn_customerCountry
+
+|Property|Value|
+|--------|-----|
+|Description|Country name for customer address|
+|DisplayName|Customer Country|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_customercountry|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_customerState"></a> msdyn_customerState
+
+|Property|Value|
+|--------|-----|
+|Description|State name for customer address|
+|DisplayName|Customer State|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_customerstate|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_customerZip"></a> msdyn_customerZip
+
+|Property|Value|
+|--------|-----|
+|Description|Zip for customer address|
+|DisplayName|Customer Zip|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_customerzip|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_ExternalCorrelationId"></a> msdyn_ExternalCorrelationId
+
+|Property|Value|
+|--------|-----|
+|Description|External System Correlation Id|
+|DisplayName|External Correlation Id|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_externalcorrelationid|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_name"></a> msdyn_name
+
+|Property|Value|
+|--------|-----|
+|Description|The name of the custom entity.|
 |DisplayName|Name|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -198,129 +379,84 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|String|
 
 
-### <a name="BKMK_msdyn_ParticipantAddedTimestamp"></a> msdyn_ParticipantAddedTimestamp
+### <a name="BKMK_msdyn_PrimaryRelatedEntityName"></a> msdyn_PrimaryRelatedEntityName
 
 |Property|Value|
 |--------|-----|
-|DateTimeBehavior|UserLocal|
-|Description|Timestamp at which the participant was added to the session|
-|DisplayName|Participant Added Timestamp|
-|Format|DateAndTime|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_participantaddedtimestamp|
-|RequiredLevel|ApplicationRequired|
-|Type|DateTime|
-
-
-### <a name="BKMK_msdyn_ParticipantAssignReason"></a> msdyn_ParticipantAssignReason
-
-|Property|Value|
-|--------|-----|
-|Description|Rason for which the participant was added to the session|
-|DisplayName|Participant Assign Reason|
+|Description|Name of the primary entity to which this work item belongs to|
+|DisplayName|Primary Related Entity Name|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_participantassignreason|
+|LogicalName|msdyn_primaryrelatedentityname|
 |MaxLength|100|
 |RequiredLevel|None|
 |Type|String|
 
 
-### <a name="BKMK_msdyn_ParticipantId"></a> msdyn_ParticipantId
+### <a name="BKMK_msdyn_PrimaryRelatedEntityRecordId"></a> msdyn_PrimaryRelatedEntityRecordId
 
 |Property|Value|
 |--------|-----|
-|Description|Identifier of the session participant|
-|DisplayName|Participant Id|
+|Description|Id of the primary entity to which this work item belongs to|
+|DisplayName|Primary Related Entity Record Id|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_participantid|
+|LogicalName|msdyn_primaryrelatedentityrecordid|
 |MaxLength|100|
 |RequiredLevel|None|
 |Type|String|
 
 
-### <a name="BKMK_msdyn_ParticipantMode"></a> msdyn_ParticipantMode
+### <a name="BKMK_msdyn_ProviderId"></a> msdyn_ProviderId
 
 |Property|Value|
 |--------|-----|
-|Description|Session participant mode|
-|DisplayName|Participant Mode|
+|Description|Channel Integration Framework Provider Id|
+|DisplayName|Provider Id|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_participantmode|
+|LogicalName|msdyn_providerid|
 |MaxLength|100|
 |RequiredLevel|None|
 |Type|String|
 
 
-### <a name="BKMK_msdyn_ParticipantName"></a> msdyn_ParticipantName
+### <a name="BKMK_msdyn_ProviderName"></a> msdyn_ProviderName
 
 |Property|Value|
 |--------|-----|
-|Description|Name of the session participant|
-|DisplayName|Participant Name|
+|Description|Channel Integration Framework Provider Name|
+|DisplayName|Provider Name|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_participantname|
+|LogicalName|msdyn_providername|
 |MaxLength|100|
 |RequiredLevel|None|
 |Type|String|
 
 
-### <a name="BKMK_msdyn_ParticipantType"></a> msdyn_ParticipantType
+### <a name="BKMK_msdyn_Region"></a> msdyn_Region
 
 |Property|Value|
 |--------|-----|
-|Description|Type of the session participant|
-|DisplayName|Participant Type|
+|Description|Conversation origin region information|
+|DisplayName|RegionData|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_participanttype|
-|MaxLength|100|
+|LogicalName|msdyn_region|
+|MaxLength|1000|
 |RequiredLevel|None|
 |Type|String|
-
-
-### <a name="BKMK_msdyn_ProviderSessionId"></a> msdyn_ProviderSessionId
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName|Provider Session Id|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_providersessionid|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_SessionParticipantDataId"></a> msdyn_SessionParticipantDataId
-
-|Property|Value|
-|--------|-----|
-|Description|Unique identifier for entity instances|
-|DisplayName|Session Participant Data Id|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|IsValidForUpdate|False|
-|LogicalName|msdyn_sessionparticipantdataid|
-|RequiredLevel|SystemRequired|
-|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
@@ -374,7 +510,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Status of the Session Participant Data|
+|Description|Status of the ConversationData|
 |DisplayName|Status|
 |IsValidForCreate|False|
 |IsValidForForm|True|
@@ -396,7 +532,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Reason for the status of the Session Participant Data|
+|Description|Reason for the status of the ConversationData|
 |DisplayName|Status Reason|
 |IsValidForForm|True|
 |IsValidForRead|True|

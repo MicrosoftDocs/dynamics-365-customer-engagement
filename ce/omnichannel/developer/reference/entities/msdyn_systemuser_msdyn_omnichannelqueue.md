@@ -1,14 +1,16 @@
 ---
 title: "msdyn_systemuser_msdyn_omnichannelqueue Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_systemuser_msdyn_omnichannelqueue entity."
-ms.date: 03/23/2020
-ms.service: "crm-online"
-ms.topic: "reference"
-author: "susikka"
-ms.author: "susikka"
+author: "ramana-hyd"
+ms.author: "v-rmurthy"
 manager: "shujoshi"
+ms.date: 03/23/2020
+ms.topic: "reference"
+ms.service: "dynamics-365-customerservice"
 ---
 # msdyn_systemuser_msdyn_omnichannelqueue Entity Reference
+
+[!INCLUDE[cc-data-platform-banner](../../../../includes/cc-data-platform-banner.md)]
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 

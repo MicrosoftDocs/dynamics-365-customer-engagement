@@ -6,8 +6,7 @@ ms.author: nenellim
 manager: shujoshi
 ms.date: 04/24/2020
 ms.topic: get-started-article
-ms.service: 
-  - dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-customerservice
 ---
@@ -437,6 +436,8 @@ If you want another person in your organization to work on an activity, you can 
 2. In the list of activities, select the activity you want, select **More Commands** ![More commands button](../customer-service/media/crm-ua-not-available.gif "More commands button") on the command bar, and then select **Add to Queue**.
   
 3. In the **Queue** field, select **Lookup**, select the queue you want to route the activity to, and then select **Add**.
+
+
 
 ## Merge similar cases
 

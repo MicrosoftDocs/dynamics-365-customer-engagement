@@ -1,12 +1,12 @@
 ---
 title: "msdyn_transcript Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_transcript entity."
-ms.date: 03/23/2020
-ms.service: "crm-online"
-ms.topic: "reference"
-author: "susikka"
-ms.author: "susikka"
+author: "ramana-hyd"
+ms.author: "v-rmurthy"
 manager: "shujoshi"
+ms.date: 03/23/2020
+ms.topic: "reference"
+ms.service: "dynamics-365-customerservice"
 ---
 # msdyn_transcript Entity Reference
 

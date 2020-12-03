@@ -10,6 +10,16 @@ ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
+searchScope:
+  - D365-App-msdynce_saleshub
+  - D365-Entity-msdyn_playbookinstance
+  - D365-Entity-msdyn_playbookactivity
+  - D365-Entity-msdyn_playbookactivitycategory
+  - D365-Entity-msdyn_playbookactivitytemplate
+  - D365-UI-*
+  - Dynamics 365
+  - Sales
+  - Customer Engagement
 ---
 
 # Manage playbook templates

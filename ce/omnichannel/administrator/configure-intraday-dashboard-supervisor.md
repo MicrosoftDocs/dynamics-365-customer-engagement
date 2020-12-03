@@ -5,10 +5,8 @@ author: lalexms
 ms.author: laalexan
 manager: shujoshi
 ms.date: 10/12/2020
-ms.service: 
-  "dynamics-365-customerservice"
 ms.topic: article
-
+ms.service: "dynamics-365-customerservice"
 ---
 
 # Configure intraday insights for supervisors
@@ -190,7 +188,7 @@ You must configure the Power BI workspace using the **Omnichannel Administration
     > [!div class=mx-imgBorder]
     > ![Select access](../media/supervisor-admin-powerbi-select-access.png "Select access")
 
-5. Add email address of the security groups, distribution lists, Microsoft 365 groups, or individuals to these workspaces as members, contributors, or admins.  
+5. Add email address of the security groups, distribution lists, Microsoft 365 groups, or individuals to these workspaces as viewers, members, contributors, or admins.  
 
     > [!div class=mx-imgBorder]
     > ![Add members to workspace](../media/supervisor-admin-power-bi-workspace-add-members.png "Add members to workspace")
@@ -206,11 +204,19 @@ Before you configure the Intraday insights for Unified Service Desk, you must [c
 
 You must perform the following tasks to configure the Intraday insights for **Unified Service Desk**:
 
-1. [Configure Intraday insights for Omnichannel for Customer Service app on the web](#configure-intraday-insights-for-the-omnichannel-for-customer-service-app-on-the-web)
-2. [Configure dashboard in Power BI](#configure-dashboard-in-power-bi)
-3. [Configure Unified Service Desk to display Intraday insights](#configure-unified-service-desk-to-display-intraday-insights)
-4. [Add users to supervisor configuration](#add-users-to-supervisor-configuration)
-5. [Update client cache version](#update-client-cache-version)
+- [Configure intraday insights for supervisors](#configure-intraday-insights-for-supervisors)
+  - [Intraday insights in a preconfigured Power BI workspace](#intraday-insights-in-a-preconfigured-power-bi-workspace)
+  - [Configure customized intraday insights reports](#configure-customized-intraday-insights-reports)
+    - [Prerequisites](#prerequisites)
+    - [Configure intraday insights for the Omnichannel for Customer Service app on the web](#configure-intraday-insights-for-the-omnichannel-for-customer-service-app-on-the-web)
+      - [Configure the Power BI workspace in the Omnichannel Administration app](#configure-the-power-bi-workspace-in-the-omnichannel-administration-app)
+      - [Share workspace and reports with supervisors](#share-workspace-and-reports-with-supervisors)
+    - [Configure customized intraday insights for Unified Service Desk](#configure-customized-intraday-insights-for-unified-service-desk)
+      - [Configure dashboard in Power BI](#configure-dashboard-in-power-bi)
+      - [Configure Unified Service Desk to display Intraday insights](#configure-unified-service-desk-to-display-intraday-insights)
+      - [Add users to supervisor configuration](#add-users-to-supervisor-configuration)
+      - [Update client cache version](#update-client-cache-version)
+    - [See also](#see-also)
 
 > [!NOTE]
 > Supervisor and agent sentiment notifications are not available in Omnichannel for Customer Service on Unified Service Desk.
@@ -294,7 +300,7 @@ You must add users in the supervisor configuration to access any supervisor insi
 
 Update the client cache version number to reduce the amount of bandwidth required at the startup of the Unified Service Desk client on the computers of agents, and over the lifecycle of the client application.
 
-To learn more, see [Client caching overview](https://docs.microsoft.com/dynamics365/customer-engagement/unified-service-desk/admin/configure-client-caching-unified-service-desk?view=dynamics-usd-4.1).  
+To learn more, see [Client caching overview](https://docs.microsoft.com/dynamics365/customer-engagement/unified-service-desk/admin/configure-client-caching-unified-service-desk?view=dynamics-usd-4.1&preserve-view=true).  
 
 1.  Sign in to **Dynamics 365 Customer Service**.
 

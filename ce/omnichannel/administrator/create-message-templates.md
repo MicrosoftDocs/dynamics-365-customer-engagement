@@ -5,9 +5,9 @@ author: platkat
 ms.author: ktaylor
 manager: shujoshi
 ms.date: 07/20/2020
-ms.service: 
-  - "dynamics-365-customerservice"
 ms.topic: article
+ms.service: dynamics-365-customerservice
+ms.reviewer: nenellim
 ---
 
 # Create message templates
@@ -26,7 +26,7 @@ To create a message template:
 
 4. Enter a name.
 
-5. Select a channel (SMS only in this preview).
+5. Select a channel (SMS or Twitter).
 
 6. Enter a description.
 

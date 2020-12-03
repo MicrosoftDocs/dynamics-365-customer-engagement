@@ -1,15 +1,14 @@
 ---
 title: "CRM Dialog (Hosted Control) | MicrosoftDocs"
 description: "Learn about using the CRM Dialog hosted control type to work with dialog. You can call the StartDialog action on your CRM Dialog hosted control to start a dialog within Unified Service Desk."
+author: v-sailab
+ms.author: v-sailab
+manager: shujoshi
+ms.date: 08/23/2017
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-USD
-ms.date: 08/23/2017
-ms.service: 
-  - dynamics-365-customerservice
-ms.topic: article
-author: kabala123
-ms.author: kabala
-manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
@@ -18,6 +17,9 @@ search.app:
   - D365USD
 ---
 # CRM Dialog (Hosted Control)
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 Use the **CRM Dialog** hosted control type to work with dialog. You can call the **StartDialog** action on your CRM Dialog hosted control to start a dialog within [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  
 
 <a name="Create"></a>

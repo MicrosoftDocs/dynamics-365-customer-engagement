@@ -1,16 +1,15 @@
 ---
 title: "Migrate Unified Service Desk configurations from Web Client to Unified Interface app | MicrosoftDocs"
 description: "The three-step process for migrating Web Client configurations to Unified Interface"
+author: v-sailab
+ms.author: v-sailab
+manager: shujoshi
+ms.date: 08/17/2018
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-USD
   - dyn365-admin
-ms.date: 08/17/2018
-ms.service: 
-  - dynamics-365-customerservice
-ms.topic: article
-author: kabala123
-ms.author: kabala
-manager: shujoshi
 search.audienceType: 
   - admin
 search.app: 
@@ -19,6 +18,8 @@ search.app:
 ---
 
 # How to migrate Unified Service Desk configurations from Web Client to Unified Interface
+
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
 The migration of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configurations from Web Client to  Unified Interface is a three-step process.
 

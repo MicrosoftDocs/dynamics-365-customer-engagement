@@ -76,5 +76,5 @@ description: "Updates to Dynamics 365 App for Outlook."
 ## March 2018
 1. Draft emails that are tracked in App for Outlook in compose mode from Outlook Web Access now display correct status in Dynamics 365 apps. 
 2. Added accessibility enhancements to App for Outlook. 
-3. All Dynamics 365 apps version 9.x organizations can now access Track and Set Regarding commands in App for Outlook. 
+3. All Dynamics 365 apps on [Dynamics 365 Customer Engagement (on-premises), version 9](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/overview) can now access Track and Set Regarding commands in App for Outlook. 
 4. Follow emails using App for Outlook from Outlook desktop without seeing a visible pixel link in the email body. 

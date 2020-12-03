@@ -6,8 +6,7 @@ ms.author: nenellim
 manager: shujoshi
 ms.date: 03/15/2018
 ms.topic: article
-ms.service: 
-  - dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-customerservice
 search.audienceType: 
@@ -20,6 +19,8 @@ search.app:
 ---
 
 # Configure interactive dashboards in the Customer Service Hub
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
 ## Dashboards overview
 

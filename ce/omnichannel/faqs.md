@@ -5,14 +5,13 @@ author: neeranelli
 ms.author: nenellim
 manager: shujoshi
 ms.date: 04/09/2020
-ms.service: 
-  "dynamics-365-customerservice"
 ms.topic: article
-ms.custom: 
-  - ""
+ms.service: "dynamics-365-customerservice"
 ---
 
 # Frequently asked questions (FAQs) about Omnichannel for Customer Service
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 

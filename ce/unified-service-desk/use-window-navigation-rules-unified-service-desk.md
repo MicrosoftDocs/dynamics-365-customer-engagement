@@ -1,15 +1,14 @@
 ---
 title: "Use window navigation rules in Unified Service Desk | MicrosoftDocs"
 description: "Learn how to use window navigation rules to define the interaction between various controls in Unified Service Desk."
+author: v-sailab
+ms.author: v-sailab
+manager: shujoshi
+ms.date: 12/31/2019
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-USD
-ms.date: 12/31/2019
-ms.service: 
-  - dynamics-365-customerservice
-ms.topic: article
-author: kabala123
-ms.author: kabala
-manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
@@ -18,6 +17,9 @@ search.app:
   - D365USD
 ---
 # Use window navigation rules in Unified Service Desk
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 Window navigation rules define the interaction between various controls in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. You can use the rules to define the location of the sessions or the model-driven app pages to appear in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application when invoked from a hosted control or an entity search. For more information about hosted controls and entity searches in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], see [Unified Service Desk Hosted Controls](../unified-service-desk/unified-service-desk-hosted-controls.md) and [Search data using entity searches in Unified Service Desk](../unified-service-desk/search-data-entity-searches.md).  
 
  Window navigation rules in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] are executed in the numerical order and as per the conditions specified. The order is particularly important when more than one rule applies to the conditions under which the control might appear. For example, it is possible to create default handlers that will match when no other rules apply. Such default handlers must come after the more specific handlers, otherwise, the specific handlers will never get used.  

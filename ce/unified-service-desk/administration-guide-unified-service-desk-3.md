@@ -1,15 +1,14 @@
 ---
 title: "Administration Guide for Unified Service Desk 3.0 | MicrosoftDocs"
 description: 
+author: v-sailab
+ms.author: v-sailab
+manager: shujoshi
+ms.date: 08/23/2017
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-USD
-ms.date: 08/23/2017
-ms.service: 
-  - dynamics-365-customerservice
-ms.topic: article
-author: kabala123
-ms.author: kabala
-manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
@@ -21,6 +20,9 @@ tags:
   - LinksOnlyTopic
 ---
 # Administration Guide for Unified Service Desk 3.0
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 This guide provides information about how to install, administer, and manage [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] for the Common Data Service platform and Customer Engagement (on-premises). You can use [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] to configure and manage call center agent applications that provide your customer service agents with immediate and unified access to business-critical information about your customers that helps them effectively handle their customer interactions.  
   
   

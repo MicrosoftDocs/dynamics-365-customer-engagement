@@ -1,13 +1,12 @@
 ---
 title: "Create agent application using Unified Service Desk | MicrosoftDocs"
 description: 
-ms.date: 08/23/2017
-ms.service: 
-  - "dynamics-365-customerservice"
-ms.topic: article
-author: kabala123
-ms.author: kabala
+author: v-sailab
+ms.author: v-sailab
 manager: shujoshi
+ms.date: 08/23/2017
+ms.topic: article
+ms.service: dynamics-365-customerservice
 search.audienceType: 
   - customizer
   - developer
@@ -17,6 +16,9 @@ search.app:
 tags: NoHandoff
 ---
 # Create agent application using Unified Service Desk
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
  You can use [!INCLUDE[pn-unified-service-desk](../includes/pn-unified-service-desk.md)] in the following ways to create an agent application customized for your organization:  
   
 - **Configure [!INCLUDE[pn-unified-service-desk](../includes/pn-unified-service-desk.md)] entities**: Use the Common Data Service platform or [!INCLUDE[proc-crm-for-outlook](../includes/proc-crm-for-outlook.md)] to configure the [!INCLUDE[pn-unified-service-desk](../includes/pn-unified-service-desk.md)] entities that are created in your Common Data Service platform instance when you deploy [!INCLUDE[pn-unified-service-desk](../includes/pn-unified-service-desk.md)]. [!INCLUDE[pn-unified-service-desk](../includes/pn-unified-service-desk.md)] provides a highly configurable interface that can be used to dynamically display controls and information based on the context of the active operation, which eventually defines the user interface and functionalities in your agent application. Creating or developing agent applications by configuring the [!INCLUDE[pn-unified-service-desk](../includes/pn-unified-service-desk.md)] entities in the Common Data Service platform doesn’t require you to write code, which reduces the lead time to develop a highly customized agent application per your organization requirements. This is the preferred way if you have to primarily deal with customer data available in the Common Data Service platform.  

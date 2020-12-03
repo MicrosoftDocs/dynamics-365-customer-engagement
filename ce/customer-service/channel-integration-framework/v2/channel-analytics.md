@@ -1,19 +1,20 @@
 ---
 title: "Channel Analytics | MicrosoftDocs"
 description: "Read about the APIs that enable you to log analytics in Dynamics 365 Channel Integration Framework version 2.0."
-author: susikka
-ms.author: susikka
+author: ramana-hyd
+ms.author: v-rmurthy
 manager: shujoshi
 ms.date: 04/24/2020
 ms.topic: reference
-ms.service:
-  - dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
 ---
 
 # Channel Analytics
+
+[!INCLUDE[cc-data-platform-banner](../../../includes/cc-data-platform-banner.md)]
 
 The contact center analytics need operational and conversational data to provide historical and real-time insights into the performance of the contact center. To get precise insights into the call center performance, the analysts need data from the following sources 
 

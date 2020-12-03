@@ -8,6 +8,13 @@ ms.topic: article
 author: udaykirang
 ms.author: udag
 manager: shujoshi
+searchScope:
+  - D365-App-msdynce_saleshub
+  - D365-Entity-forecastconfiguration
+  - D365-Entity-forecastdefinition
+  - D365-UI-*
+  - Dynamics 365
+  - Sales
 ---
 
 # Choose layout and columns

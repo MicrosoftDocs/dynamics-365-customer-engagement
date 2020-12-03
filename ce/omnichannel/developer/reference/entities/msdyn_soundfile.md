@@ -1,12 +1,12 @@
 ---
 title: "msdyn_soundfile Entity Reference (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_soundfile entity."
-ms.date: 08/04/2020
-ms.service: "crm-online"
-ms.topic: "reference"
-author: "susikka"
-ms.author: "susikka"
+author: "ramana-hyd"
+ms.author: "v-rmurthy"
 manager: "shujoshi"
+ms.date: 08/04/2020
+ms.topic: "reference"
+ms.service: "dynamics-365-customerservice"
 search.audienceType: 
   - developer
 search.app: 

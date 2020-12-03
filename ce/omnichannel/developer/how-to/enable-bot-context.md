@@ -4,10 +4,10 @@ description: "Enable a bot to understand context while authoring a bot flow"
 author: platkat
 ms.author: ktaylor
 manager: shujoshi
-ms.date: 10/05/2020
-ms.service: 
-  - "dynamics-365-customerservice"
+ms.date: 10/09/2020
 ms.topic: reference
+ms.service: dynamics-365-customerservice
+ms.reviewer: nenellim
 ---
 # Enable bot context NuGet package
 
@@ -15,30 +15,26 @@ ms.topic: reference
 
 As a bot author, you can enable your Azure bot to understand context while authoring a bot flow. Bot context includes context name-value pairs for the current conversation and custom context passed by API programmatically. The Azure bot can transfer the context to Omnichannel for Customer Service by setting context name-value pairs and then display conversation context to an agent.
 
+When customers initiate a conversation, the relevant context that is related to the customer, the issue they are facing, and recent activities performed by them can be made available for the bot to intelligently provide contextual responses to resolve customer issues in a quick and efficient manner. For example, the bot can use the signed-in user details to look up the recent case information or order history of the customer and provide a response. Similarly, the pre-conversation information, custom context, or recent pages browsed on a website by the customer can be passed on to the bot by configuring context variables for the Azure bot. For information on context variables that can be configured, see [Context variables for bots](../../administrator/context-variables-for-bot.md).
+
 ## Install the bot SDK in your project
 
-1. To open the NuGet Package Manager, right-click your project and then click **Manage NuGet Packages.** 
+1. To open the NuGet Package Manager, right-click your project and then select **Manage NuGet Packages.**
 
-    ![Manage NuGet packages](../../media/bot-context-manage-nuget.png "Manage NuGet packages")
+2. In the NuGet Package Manager, select the feedname **nuget.org** and search for "Microsoft.Xrm.Omnichannel.BotSDK". Select the package and select install. Refer to [Nuget page](https://www.nuget.org/packages/Microsoft.Xrm.Omnichannel.BotSDK)
 
-2. In the NuGet Package Manager, select the feedname **nuget.org** and search for "Microsoft.Omnichannel.Bot.SDK".
-
-    ![Search for Omnichannel middleware](../../media/bot-context-search-oc.png "Search for Omnichannel middleware")
-
-3. Select the package and click install. 
-
-    ![Install Omnichannel middleware](../../media/bot-context-install-oc.png "Install Omnichannel middleware")
-
+>![Search for Omnichannel middleware](../../media/enable_botcon_step2.png "Search for Omnichannel middleware")
+    
 Alternatively, you can use the following command in NuGet CLI: 
 
 ```
-Install-Package Microsoft.Omnichannel.Bot.SDK -version 1.0.0.4 
+Install-Package Microsoft.Xrm.Omnichannel.BotSDK -version 1.0.0.4 
 ```
 The bot SDK is now installed and the Omnichannel middleware is available in your project.
 
 ## Use the Omnichannel middleware in your bot code
 
-Use this procedure if you have created your bot using Azure bot template or Azure portal.
+Use this procedure if you have created your bot using Visual Studio Azure Bot template or Azure portal.
 
 1. Open the file, **AdapterWithErrorHandler.cs**.
 
@@ -51,8 +47,8 @@ Use this procedure if you have created your bot using Azure bot template or Azur
 
     ![Add import statement](../../media/bot-context-add-import.png "Add import statement")
 
-
 ### See also
 
 [Manage custom context](send-context-starting-chat.md)<br />
-[setContextProvider](../reference/methods/setContextProvider.md)
+[setContextProvider](../reference/methods/setContextProvider.md)  
+[Integrate an Azure bot](../../administrator/configure-bot.md)  

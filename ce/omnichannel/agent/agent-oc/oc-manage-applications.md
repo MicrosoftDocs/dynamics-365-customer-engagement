@@ -2,12 +2,11 @@
 title: "Manage applications in Omnichannel for Customer Service app | MicrosoftDocs"
 description: "Learn how to manage applications using the application tab panel in Omnichannel for Customer Service app"
 author: neeranelli
-ms.author: nenellim 
+ms.author: nenellim
 manager: shujoshi
 ms.date: 08/03/2020
-ms.service: 
-  - "dynamics-365-customerservice"
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ---
 
 # Manage applications in Omnichannel for Customer Service

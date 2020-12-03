@@ -1,16 +1,15 @@
 ---
 title: "Recover a Chrome Process instance in Unified Service Desk | MicrosoftDocs"
 description: "Learn about recovering a Chrome Process instance in Unified Service Desk"
+author: v-sailab
+ms.author: v-sailab
+manager: shujoshi
+ms.date: 04/10/2019
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-USD
   - dyn365-admin
-ms.date: 04/10/2019
-ms.service: 
-  - dynamics-365-customerservice
-ms.topic: article
-author: kabala123
-ms.author: kabala
-manager: shujoshi
 search.audienceType: 
   - admin
 search.app: 
@@ -20,6 +19,9 @@ monikerRange: '>= dynamics-usd-4.1'
 ---
 
 # Recover a Chrome Process instance
+
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] can help agents to recover the terminated (crashed) webpages hosted in Chrome Process in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].
 
 By default, Chrome Process instance recovery is enabled.

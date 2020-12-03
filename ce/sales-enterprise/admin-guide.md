@@ -7,7 +7,7 @@ ms.service:
 ms.topic: get-started-article
 author: shubhadaj
 ms.author: shujoshi
-manager: sakudes
+manager: annbe
 ---
 
 # Help resources for admins and sales managers

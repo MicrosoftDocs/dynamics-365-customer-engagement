@@ -1,16 +1,17 @@
 ---
 title: "Use automation dictionary  to pass parameter keys in the Omnichannel Administration app | MicrosoftDocs"
 description: "Learn about the supported formats to pass parameter values in the Omnichannel Administration app for Templates and Macros."
-author: kabala123
-ms.author: kabala
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
-ms.date: 10/12/2020
-ms.service: 
-  "dynamics-365-customerservice"
+ms.date: 10/29/2020
 ms.topic: article
+ms.service: "dynamics-365-customerservice"
 ---
 
 # Use the automation dictionary to pass data parameter keys
+
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
@@ -128,7 +129,8 @@ Macros and agent scripts support the following slugs:
 | `${<name of the pre-chat survey questions>}` | All the pre-chat survey questions that are configured for a work stream will have the slug name as the name of the question. |
 
 > [!NOTE]
-> Slug support for Customer Service workspace macros and scripts is limited to `{anchor.<attribute_name>}`.
+> - Slug support for Customer Service workspace macros and scripts is limited to `{anchor.<attribute_name>}`.
+> - Slug support for entity routing is limited to `${entityRoutingLogicalName}` and `${entityRoutingRecordId}`.
 
 #### Slug for reconnection link
 

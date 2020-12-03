@@ -1,8 +1,9 @@
 ---
-title: FAQ and troubleshooting tips
+title: FAQ and troubleshooting tips for resource scheduling optimization in Dynamics 365 Field Service
+description: Find answers to common issues with resource scheduling optimization in Dynamics 365 Field Service
 author: FieldServiceDave
 ms.reviewer: krbjoran
-ms.date: 08/27/2019
+ms.date: 11/20/2020
 ms.topic: article
 ms.custom: 
   - dyn365-fieldservice
@@ -17,7 +18,7 @@ search.app:
   - D365FS
 ---
 
-# FAQ and troubleshooting tips
+# FAQ and troubleshooting tips for resource scheduling optimization in Dynamics 365 Field Service
 
 ## Why doesn’t RSO on Org B work anymore after I copied Dynamics 365 Org A to Org B (with RSO deployed)? 
 
@@ -41,7 +42,7 @@ If you’re able to see the **Delete Current Deployment** option through the RSO
 
 ## Installing the RSO solution failed through the Dynamics 365 admin center solution management page. What are my options?
 
-You shouldn’t install the RSO solution from the solution management page. You should use the RSO deployment app to deploy RSO. This includes both the Dynamics 365 side solution as well as Azure resources. 
+Don’t install the RSO solution from the solution management page. Use the RSO deployment app to deploy RSO. This includes both the Dynamics 365 side solution as well as Azure resources. 
 
 ## Can I modify the out-of-box Resource Scheduling Optimization security role?
 
@@ -323,3 +324,70 @@ Ideally, it should look like this:
 
 > [!div class="mx-imgBorder"]
 > ![](media/de80acc9a7da48d20511b5a2bffd5419.png)
+
+## Why am I seeing the error message "User lacks privileges"?
+
+If you experience an optimization job failure with the error message "Related failed to update bookings," go to the bookings tab and search for failed bookings. There is a more detailed error message: "User lacks privileges."
+
+To fix this issue, make your resource scheduling optimization user has the correct security roles and field security profiles: 
+
+Security roles:
+
+- Resource Scheduling Optimization
+
+Field security:
+
+- Resource Scheduling Optimization - Administrator
+- Resource Scheduling Optimization - Dispatcher 
+
+### How to copy security user roles
+
+Sign into the environment as administrator.
+
+Go to **Settings** > **Security** > **Users** > **Application Users** view.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Field Srvice settings.](./media/SRStep1.png)
+
+Find the user named "Resource Scheduling Optimization." This user is created when resource scheduling optimization is deployed. 
+
+You can also use advanced find to create a query to find users that have first name containing "Resource Scheduling." 
+
+Edit columns to include created date to easily decipher when the resource scheduling optimization user was created. 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the advanced find options in Field Service.](./media/SRStep2.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the "edit columns" option in the Field Service advanced find.](./media/SRstep3.png)
+
+Go to the newly created user view and make sure both resource scheduling optimization users have the same roles including "Resource Scheduling Optimization".
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the manage user roles window in Field Service settings.](./media/SRStep4_2.png)
+
+### How to copy field security profiles
+
+Sign into the environment as an administrator.
+
+Go to **Settings** > **Security** > **Field Security Profiles** view.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Field Service settings showing the field security profiles.](./media/FSPStep1.png)
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the advanced find in Field Service.](./media/FSPStep2.png)
+
+Find the user named "Resource Scheduling Optimization." This user is created when resource scheduling optimization is deployed. Use advanced find field security profiles that have users with the first name containing "Resource Scheduling."
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the advanced find showing the resource scheduling optimization field security profile.](./media/FSPStep3.png)
+> 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the lookup records window showing the resource scheduling optimization field security profiles.](./media/FSPStep4.png)
+
+Add resource scheduling optimization users to the "Resource Scheduling Optimization - Administrator" and "Resource Scheduling Optimization-Dispatcher" field security profiles.
+ 
+Ensure field security profiles have consistent permissions when comparing the old and new app users.
+

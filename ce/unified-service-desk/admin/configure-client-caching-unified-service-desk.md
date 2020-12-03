@@ -1,13 +1,12 @@
 ---
 title: "Configure client caching in Unified Service Desk | MicrosoftDocs"
 description: "Learn how to set client caching."
-ms.date: 08/23/2017
-ms.service: 
-  - dynamics-365-customerservice
-ms.topic: article
-author: kabala123
-ms.author: kabala
+author: v-sailab
+ms.author: v-sailab
 manager: shujoshi
+ms.date: 08/23/2017
+ms.topic: article
+ms.service: dynamics-365-customerservice
 search.audienceType: 
   - admin
 search.app: 
@@ -17,6 +16,9 @@ tags: MigrationHO
 monikerRange: ">=dynamics-usd-4.1"
 ---
 # Client caching overview
+
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 Client caching enables you to reduce the amount of bandwidth required at the startup of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client on the call center agent’s computers, and over the life cycle of the client application. Client caching provides a means to cache the majority of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration data locally on the call center agent’s computer, thereby reducing the need for common data to be retrieved from the server. This capability provides a noticeable increase in the startup performance of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].  
   
 > [!IMPORTANT]

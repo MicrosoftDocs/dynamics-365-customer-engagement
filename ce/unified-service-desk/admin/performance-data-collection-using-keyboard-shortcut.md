@@ -1,17 +1,16 @@
 ---
 title: "Generate performance data log files Performance data collection using keyboard shortcuts | MicrosoftDocs"
 description: "Learn about Unified Service Desk performance data collection to collect data about the operational events, errors, and performance in a client application and to create log files using keyboard shortcuts"
+author: v-sailab
+ms.author: v-sailab
+manager: shujoshi
+ms.date: 10/31/2018
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-a11y
   - dyn365-USD
   - dyn365-admin
-ms.date: 10/31/2018
-ms.service: 
-  - dynamics-365-customerservice
-ms.topic: article
-author: kabala123
-ms.author: kabala
-manager: shujoshi
 search.audienceType: 
   - admin
 search.app: 
@@ -21,6 +20,9 @@ monikerRange: '<= dynamics-usd-4'
 ---
 
 # Generate performance data logs (Performance data collection)
+
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 Performance data collection enables you to collect data about operational events in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application to log files, which is used to identify and troubleshoot performance issues.
 
 You can generate the performance data logs to:

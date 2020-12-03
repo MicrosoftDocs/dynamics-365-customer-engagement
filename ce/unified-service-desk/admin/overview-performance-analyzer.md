@@ -1,16 +1,15 @@
 ---
 title: "Overview of Unified Service Desk Performance Analyzer | MicrosoftDocs"
 description: "Learn about the introduction and overview of Unified Service Desk Analyzer. What are the value propositions, support matrix, and download link of Unified Service Desk Performance Analyzer."
+author: v-sailab
+ms.author: v-sailab
+manager: shujoshi
+ms.date: 10/31/2018
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-USD
   - dyn365-admin
-ms.date: 10/31/2018
-ms.service: 
-  - dynamics-365-customerservice
-ms.topic: article
-author: kabala123
-ms.author: kabala
-manager: shujoshi
 search.audienceType: 
   - admin
 search.app: 
@@ -20,6 +19,8 @@ monikerRange: '>= dynamics-usd-3'
 ---
 
 # Public Preview: Overview of Unified Service Desk Performance Analyzer
+
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 

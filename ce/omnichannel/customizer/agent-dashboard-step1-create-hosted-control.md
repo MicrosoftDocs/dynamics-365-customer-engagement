@@ -1,16 +1,17 @@
 ---
 title: "Create Omnichannel Agent Dashboard for agents | MicrosoftDocs"
 description: "Learn how to set up the Omnichannel Agent Dashboard hosted control for agents using Omnichannel for Customer Service."
-author: kabala123
-ms.author: kabala
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.date: 07/01/2019
-ms.service: 
-  - "dynamics-365-customerservice"
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ---
 
 # Step 1: Create Omnichannel Agent Dashboard hosted control
+
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 

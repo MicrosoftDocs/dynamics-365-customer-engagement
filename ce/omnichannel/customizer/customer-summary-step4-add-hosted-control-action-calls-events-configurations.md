@@ -1,16 +1,17 @@
 ---
 title: "Steps or procedure to add hosted control, action calls, and events to configurations | MicrosoftDocs"
 description: "Learn how to add hosted control, action calls, and events to configurations for agents using Omnichannel for Customer Service."
-author: kabala123
-ms.author: kabala
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.date: 07/01/2019
-ms.service: 
-  - "dynamics-365-customerservice"
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ---
 
 # Step 4: Add the hosted control, action calls, and events to configurations
+
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 

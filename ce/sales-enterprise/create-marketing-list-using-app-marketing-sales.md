@@ -10,6 +10,16 @@ ms.topic: get-started-article
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
+searchScope:
+  - D365-App-msdynce_saleshub
+  - D365-Entity-list
+  - D365-Entity-campaign
+  - D365-Entity-campaignresponse
+  - D365-Entity-bulkoperation
+  - D365-UI-*
+  - Customer Engagement
+  - Dynamics 365
+  - Sales
 ---
 
 # Create a marketing list using in-app marketing (Sales)

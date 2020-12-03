@@ -1,16 +1,15 @@
 ---
 title: "Import Unified Service Desk  configuration data | MicrosoftDocs"
 description: "Learn how configuration data can be imported in to a target instance."
+author: v-sailab
+ms.author: v-sailab
+manager: shujoshi
+ms.date: 10/29/2018
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-USD
   - dyn365-admin
-ms.date: 10/29/2018
-ms.service: 
-  - dynamics-365-customerservice
-ms.topic: article
-author: kabala123
-ms.author: kabala
-manager: shujoshi
 search.audienceType: 
   - admin
 search.app: 
@@ -19,6 +18,9 @@ search.app:
 tags: MigrationHO
 ---
 # About configuration data
+
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 You can import the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration data to the target [!INCLUDE[pn_microsoftcrm_server](../../includes/pn-microsoftcrm-server.md)] by using either of the following ways:  
   
 - Using the [!INCLUDE[pn_configuration_migration_tool](../../includes/pn-configuration-migration-tool.md)]  

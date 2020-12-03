@@ -1,16 +1,15 @@
 ---
 title: "Cache-specific configuration for agents in Unified Service Desk  | MicrosoftDocs"
 description: "Learn about cache-specific configuration for agents in the configuration of Unified Service Desk."
+author: v-sailab
+ms.author: v-sailab
+manager: shujoshi
+ms.date: 04/10/2019
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-USD
   - dyn365-admin
-ms.date: 04/10/2019
-ms.service: 
-  - dynamics-365-customerservice
-ms.topic: article
-author: kabala123
-ms.author: kabala
-manager: shujoshi
 search.audienceType: 
   - admin
 search.app: 
@@ -20,6 +19,8 @@ monikerRange: '>= dynamics-usd-4.1'
 ---
 
 # Cache-specific configuration for agents
+
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
 The Configuration Cache Version option causes the client caching feature to retrieve the configuration that has undergone change from the server to the agent’s desktop and avoid retrieving all configurations.
 

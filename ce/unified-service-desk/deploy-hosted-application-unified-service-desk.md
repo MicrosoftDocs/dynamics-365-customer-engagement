@@ -1,15 +1,14 @@
 ---
 title: "Deploy the hosted application to Unified Service Desk | MicrosoftDocs"
 description: "Learn about deploying the hosted application in Unified Service Desk."
+author: v-sailab
+ms.author: v-sailab
+manager: shujoshi
+ms.date: 12/31/2019
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-USD
-ms.date: 12/31/2019
-ms.service: 
-  - dynamics-365-customerservice
-ms.topic: article
-author: kabala123
-ms.author: kabala
-manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
@@ -18,6 +17,9 @@ search.app:
   - D365USD
 ---
 # Deploy the hosted application to Unified Service Desk
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 Once you have created a hosted application as described in [Create a HAT hosted application project](../unified-service-desk/use-hat-software-factory-create-hosted-application.md#Create), you can deploy it to [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] is configured on the Common Data Service platform server. You must ensure that all workflow-dependent applications that contain a default workflow include the workflow assembly (.dll file). If the assembly file isn’t found or is deleted, the `Type` field in the Action XML is set to `NULL`.  
   
 <a name="deploy"></a>   

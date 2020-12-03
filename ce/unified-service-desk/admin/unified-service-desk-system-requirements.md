@@ -1,19 +1,20 @@
 ---
 title: "Unified Service Desk  system requirements | MicrosoftDocs"
 description: "Describes the supported dependent and optional components you need to install and use Unified Service Desk."
+author: v-sailab
+ms.author: v-sailab
+manager: shujoshi
+ms.date: 04/03/2020
+ms.topic: get-started-article
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-USD
   - dyn365-admin
-ms.date: 04/03/2020
-ms.service: 
-  - dynamics-365-customerservice
-ms.topic: get-started-article
-author: kabala123
-ms.author: kabala
-manager: shujoshi
 ---
 
 # Requirements
+
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
 This topic provides information about the system requirements for installing the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application and deploying the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sample applications on the Common Data Service platform instance.  
 

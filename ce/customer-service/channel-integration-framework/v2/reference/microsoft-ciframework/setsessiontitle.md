@@ -1,13 +1,12 @@
 ---
 title: "setSessionTitle (JavaScript API Reference) for Dynamics 365 Channel Integration Framework version 2.0 | Microsoft Docs"
 description: ""
-author: susikka
-ms.author: susikka
+author: ramana-hyd
+ms.author: v-rmurthy
 manager: shujoshi
-ms.date: 12/31/2019
+ms.date: 11/02/2020
 ms.topic: reference
-ms.service: 
-  - dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
@@ -25,7 +24,7 @@ Sets the session title, if the session belongs to the channel provider.
 
 ## Syntax
 
-`Microsoft.CIFramework.setSessionTitle(sessionId,title).then(successCallback, errorCallback);`
+`Microsoft.CIFramework.setSessionTitle(input).then(successCallback, errorCallback);`
 
 ## Parameters
 

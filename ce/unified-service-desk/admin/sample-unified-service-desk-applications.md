@@ -1,16 +1,15 @@
 ---
 title: "Sample Unified Service Desk | MicrosoftDocs"
 description: "Discover the sample application available with Unified Service Desk  that you can use to quickly get you started."
+author: v-sailab
+ms.author: v-sailab
+manager: shujoshi
+ms.date: 08/23/2017
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-USD
   - dyn365-admin
-ms.date: 08/23/2017
-ms.service: 
-  - dynamics-365-customerservice
-ms.topic: article
-author: kabala123
-ms.author: kabala
-manager: shujoshi
 search.audienceType: 
   - admin
 search.app: 
@@ -19,6 +18,9 @@ search.app:
 tags: MigrationHO
 ---
 # Use sample applications to get started
+
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 To quickly get you started with [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)], sample applications have been provided that you can deploy to your Common Data Service Platform instance, and then use to understand how to develop an agent application using [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].  
   
 > [!IMPORTANT]

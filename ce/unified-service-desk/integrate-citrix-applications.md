@@ -1,15 +1,14 @@
 ---
 title: "Integrate with Citrix applications in Unified Service Desk | MicrosoftDocs"
 description: "The topic explains the integration with Citrix application in Unified service Desk."
+author: v-sailab
+ms.author: v-sailab
+manager: shujoshi
+ms.date: 01/21/2020
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-USD
-ms.date: 01/21/2020
-ms.service: 
-  - dynamics-365-customerservice
-ms.topic: article
-author: kabala123
-ms.author: kabala
-manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
@@ -18,6 +17,8 @@ search.app:
   - D365USD
 ---
 # Integrate with Citrix applications in Unified Service Desk
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
 > [!Note]
 > Hosting Citrix applications within Unified Service Desk isn't supported anymore.

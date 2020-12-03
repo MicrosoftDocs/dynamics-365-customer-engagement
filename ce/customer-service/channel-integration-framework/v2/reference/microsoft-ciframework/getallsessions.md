@@ -1,13 +1,12 @@
 ---
 title: "getAllSessions (JavaScript API Reference) for Dynamics 365 Channel Integration Framework (CIF) version 2.0 | MicrosoftDocs"
 description: ""
-author: susikka
-ms.author: susikka
+author: ramana-hyd
+ms.author: v-rmurthy
 manager: shujoshi
-ms.date: 12/31/2019
+ms.date: 11/02/2020
 ms.topic: reference
-ms.service: 
-  - dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
@@ -37,16 +36,3 @@ Returns the array of Session Ids for a given provider.
 ## Return Value
 
 Promise with the value as array of strings.
-
-## Example
-
-Microsoft.CIFramework.getAllSessions().then(
-function success(result) {
-console.log(result);
-// perform operations session ids array
-},
-function (error) {
-console.log(error.message);
-// handle error conditions
-}
-);

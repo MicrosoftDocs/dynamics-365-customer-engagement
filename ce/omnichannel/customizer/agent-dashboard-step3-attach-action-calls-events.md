@@ -1,16 +1,17 @@
 ---
 title: "Attach action calls to the events | MicrosoftDocs"
 description: "Learn how to attach the Omnichannel Agent Dashboard-related action calls to the out-of-the-box events for agents using Omnichannel for Customer Service."
-author: kabala123
-ms.author: kabala
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.date: 07/01/2019
-ms.service: 
-  - "dynamics-365-customerservice"
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ---
 
 # Step 3:  Attach Omnichannel Agent Dashboard-related action calls to events 
+
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 

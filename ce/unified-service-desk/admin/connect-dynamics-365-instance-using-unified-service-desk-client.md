@@ -1,16 +1,15 @@
 ---
 title: "Connect to a model-drive app using the Unified Service Desk  client | MicrosoftDocs"
 description: "Learn how to connect to the Unified Service Desk solution using the Unified Service Desk client."
+author: v-sailab
+ms.author: v-sailab
+manager: shujoshi
+ms.date: 11/16/2020
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-USD
   - dyn365-admin
-ms.date: 02/14/2020
-ms.service: 
-  - dynamics-365-customerservice
-ms.topic: article
-author: kabala123
-ms.author: kabala
-manager: shujoshi
 search.audienceType: 
   - admin
 search.app: 
@@ -20,6 +19,9 @@ tags: MigrationHO
 ---
 
 # Connect to a model-driven app overview
+
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client is the agent application you can use to connect to the Common Data Service platform instance where you have deployed your [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] entities and configuration data. On signing in through the client application, it reads the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration on the Common Data Service platform instance, and accordingly exposes the controls and functionality in the application.  
 
 <a name="Signin"></a>   
@@ -64,7 +66,7 @@ Single sign-on (SSO) for [!INCLUDE[pn_unified_service_desk](../../includes/pn-un
 
 While signing in to [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] you must enter the model-driven apps credentials and sign in, and again, you are shown a dialog to enter credentials to connect to Common Data Service. To avoid entering credentials multiple times, the single sign-on (SSO) feature is introduced.
 
-By default, the SSO feature is enabled for the Chrome Process. With SSO, you need to enter the credentials only once while signing in to the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application and the Common Data Service platform server.
+By default, the SSO feature is disabled for the Chrome Process. To enable the SSO feature, follow the steps in [Change SingleSignOnThreshold value](#change-singlesignonthreshold-value). With SSO, you need to enter the credentials only once while signing in to the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application and the Common Data Service platform server.
 
 > [!Note]
 > - The SSO feature is available only for Dynamics 365 model-driven apps and Unified Service Desk.
@@ -97,10 +99,10 @@ To change the value, configure the **SingleSignOnThreshold** UII option and ente
 
 After you set up the above mentioned UII options, the SSO feature is enabled. While signing in to the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application, you've to enter the credentials only once.
 
+
 ### Enable or disable single sign-on
 
-To disable the SSO feature, you must the configure the **SingleSignOnEnabledBrowsers** UII option and set it to **False**. If you leave the value bank, then the SSO is still enabled.
-Again, when you want to enable the SSO feature, set the value as **Chrome**.
+To enable the SSO feature, you must the configure the **SingleSignOnEnabledBrowsers** UII option and set it to **True**. If you leave the value bank, then the SSO is still enabled. To disable the SSO feature, set the value as **False**.
 
 To enable/disable the SSO feature, follow the steps:
 

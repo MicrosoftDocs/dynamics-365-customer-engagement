@@ -22,7 +22,7 @@
 
 
 # Quickstarts
-## [Create, schedule, and view a work order](quickstart-schedule-work-order.md)
+## [Set up users to create, schedule, and view work orders](quickstart-schedule-work-order.md)
 ## [Auto-schedule a list of work orders with RSO](rso-quickstart.md)
 
 
@@ -92,9 +92,20 @@
 # Mobile apps
 ## [Compare mobile apps (Xamarin vs. Microsoft Power Platform)](mobile-2020-power-platform.md)
 ## Dynamics 365 Field Service mobile app (Microsoft Power Platform)
-### [Install and get started](mobile-power-app-get-started.md)
-### [Configure](mobile-power-app-configure.md)
+### [Overview](mobile-power-app-overview.md)
+### [System requirements](mobile-power-app-system-requirements.md)
+### [Install and setup](mobile-power-app-get-started.md)
+### [Use the mobile app](mobile-power-app-use.md)
+### [Edit sitemap, forms, and views](mobile-power-app-configure.md)
+### [Offline data and sync filters](mobile-power-app-system-offline.md)
+### [Barcode scanning and global search](mobile-power-app-system-barcode-scanning.md)
+### [Push notifications](mobile-power-app-push-notifications.md)
+### [Location auditing](mobile-powerapp-location-auditing.md)
+### [Workflows and scripts](mobile-power-app-workflows.md)
+### [Intune mobile app management](mobile-power-app-intune.md)
+### [Use Microsoft Power Platform](mobile-power-utilize-platform.md)
 ### [FAQs](mobile-power-app-faq.md)
+
 ## Field Service Mobile (Xamarin app)
 ### [Overview](field-service-mobile-overview.md)
 ### [Install and Setup](field-service-mobile-app-user-guide.md)
@@ -179,6 +190,7 @@
 ### [Associate devices with customer accounts](cfs-iot-central-associate-devices.md)
 ### [Visualizing device readings](cfs-visualizations-iot-hub.md)
 ### [AI for IoT alerts](iot-alerts-ai-based-suggestions.md)
+### [Pull device data](cfs-pull-device-data.md)
 ## Take action
 ### [Connected Field Service on mobile](cfs-mobile-powerapp.md)
 ### [Send work order updates to Azure IoT Central](cfs-iot-central-work-orders.md)

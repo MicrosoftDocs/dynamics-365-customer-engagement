@@ -1,15 +1,14 @@
 ---
 title: "Understand Unified Service Desk concepts | MicrosoftDocs"
 description: "Learn about basic concepts related to configuring and extending Unified Service Desk."
+author: v-sailab
+ms.author: v-sailab
+manager: shujoshi
+ms.date: 01/25/2017
+ms.topic: get-started-article
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-USD
-ms.date: 01/25/2017
-ms.service: 
-  - dynamics-365-customerservice
-ms.topic: get-started-article
-author: kabala123
-ms.author: kabala
-manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
@@ -19,6 +18,8 @@ search.app:
 ---
 
 # Understand Unified Service Desk
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
 [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] provides a configurable and extensible framework for quickly building applications for call centers so that agents can get a unified view of the customer data stored in the Common Data Service platform instance and external applications. You can aggregate customer information from different areas in the model-driven apps and external applications into an integrated desktop that provides a 360° view of the customer interactions. This gives your customer service agent immediate access to business-critical information so they can effectively engage with customers and address queries and issues. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [What makes up Unified Service Desk](admin/overview-unified-service-desk.md#USD) and [Call center challenges and how Unified Service Desk can help](admin/call-center-challenges-how-unified-service-desk-can-help.md)
   

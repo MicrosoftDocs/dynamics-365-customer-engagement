@@ -1,15 +1,14 @@
 ---
 title: "Walkthrough 8  Use knowledge base within your agent application | MicrosoftDocs"
 description: "Demonstrates how to configure a panel in Unified Service Desk to display knowledge base records."
+author: v-sailab
+ms.author: v-sailab
+manager: shujoshi
+ms.date: 08/17/2018
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-USD
-ms.date: 08/17/2018
-ms.service: 
-  - dynamics-365-customerservice
-ms.topic: article
-author: kabala123
-ms.author: kabala
-manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
@@ -19,6 +18,9 @@ search.app:
 ---
 
 # Walkthrough 8: Use knowledge base within your agent application
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] using the **KM Control** hosted control that displays knowledge base records from your Common Data Service platform.  
 
  In this walkthrough, you’ll:  

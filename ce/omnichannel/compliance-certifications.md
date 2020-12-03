@@ -5,9 +5,9 @@ author: platkat
 ms.author: ktaylor
 manager: shujoshi
 ms.date: 02/28/2020
-ms.service: 
-  - "dynamics-365-customerservice"
 ms.topic: article
+ms.service: dynamics-365-customerservice
+ms.reviewer: nenellim
 ---
 # Compliance certifications of Omnichannel for Customer Service
 

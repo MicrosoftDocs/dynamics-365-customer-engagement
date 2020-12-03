@@ -1,15 +1,14 @@
 ---
 title: "Configure Unified Service Desk to use model-driven apps | MicrosoftDocs"
 description: "Learn how to configure Unified Service Desk to use model-driven apps."
+author: v-sailab
+ms.author: v-sailab
+manager: shujoshi
+ms.date: 12/31/2019
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-USD
-ms.date: 12/31/2019
-ms.service: 
-  - dynamics-365-customerservice
-ms.topic: article
-author: kabala123
-ms.author: kabala
-manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
@@ -19,6 +18,9 @@ search.app:
 ---
 
 # Configure Unified Service Desk to use model-driven apps
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 The **KM Control** and **Unified Interface KM Control** types of hosted controls expose a bunch of events and action calls to configure an integrated experience for your agents to easily search for knowledge base articles in the Common Data Service platform from within [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], and then perform various actions on the search result items.  
   
 ::: moniker range="dynamics-usd-3"

@@ -1,17 +1,18 @@
 ---
 title: "Learn the basics of the Customer Service Hub app | MicrosoftDocs"
 description: "Learn the basics of the Customer Service Hub for Customer Service"
-ms.date: 10/05/2020
-ms.service:
-  "dynamics-365-customerservice"
-ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-
+ms.date: 10/05/2020
+ms.topic: article
+ms.service: "dynamics-365-customerservice"
 ---
 
 # Learn the basics of the Customer Service Hub
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
   
 The Customer Service Hub's intuitive interface brings together vital information in one place, so you can focus on the things that matter.  
 

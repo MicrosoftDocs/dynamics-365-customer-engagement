@@ -1,13 +1,12 @@
 ---
 title: "Manage sessions in Omnichannel for Customer Service app | MicrosoftDocs"
 description: "Learn how to manage sessions using the session panel in Omnichannel for Customer Service app"
-author: kabala123
-ms.author: kabala
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.date: 04/06/2020
-ms.service: 
-  - "dynamics-365-customerservice"
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ---
 
 # Manage sessions in Omnichannel for Customer Service
@@ -19,7 +18,7 @@ The vertical panel on the left side is the session panel that allows you (the ag
 > [!div class=mx-imgBorder]
 > ![Session panel in the agent interface of Omnichannel for Customer Service app](../../media/oceh/oceh-agent-interface-session-panel.png "Session panel in Omnichannel for Customer Service app")
 
-For a SMS or chat channel, when a session is started, the following happens:
+When a session is started, the following happens:
 
 - The presence status is updated as per the configuration set by your administrator.
 - The Communication panel is displayed so you can interact and exchange messages with the customer.
@@ -40,18 +39,16 @@ When you start a session from a notification request that is a Chat or SMS chann
 #### Contact and Case session
 Use a combination of keyboard and mouse-click gesture to start a session. You can press **Shift** and select the work item to open a case or contact session. You can also select the **Open** option from the Omnichannel Agent Dashboard to start a case or contact session.
 
-#### Chat and SMS channel
+#### Channel session
 
-You can start a SMS or Chat session manually from the Omnichannel Agent Dashboard. Select **More options** (**...**) and select **Open** or **Pick** to start the session. The **Open** option is available for **My work items** and **Closed work items** streams. The **Pick** option is available in **Open work items** streams.
+You can start a session on a channel manually from the Omnichannel Agent Dashboard. Select **More options** (**...**) and select **Open** or **Pick** to start the session. The **Open** option is available for **My work items** and **Closed work items** streams. The **Pick** option is available in **Open work items** streams.
 
- ![Open session in My work items](../../media/oceh/oc-open-work-item-my-work-items.png "Open session in My work items") ![Pick to start session in Open work items](../../media/oceh/oc-pick-work-item-open-work-items.png "Pick to start session in Open work items")
+ > [!div class=mx-imgBorder]
+ > ![Open session in My work items](../../media/oceh/oc-open-work-item-my-work-items.png "Open session in My work items") 
 
 ### Automatically start a session using the incoming notification
 
 When you accept an incoming conversation request by selecting the **Accept** button, a session is started and the customer summary page is loaded in the Unified Interface application area.
-
- > [!div class=mx-imgBorder]
- > ![Incoming SMS notification](../../media/oceh/chat-notification-request.png "Incoming SMS notification")
 
  > [!div class=mx-imgBorder]
  > ![Session start](../../media/oceh/oceh-session-start.png "Session start")
@@ -70,9 +67,6 @@ You can close any session manually by selecting the **X** button next to the ses
 
    > [!div class=mx-imgBorder]
    > ![Close session](../../media/oceh/close-session.png "Close session")
-
-   > [!div class=mx-imgBorder]
-   > ![Session close confirmation dialog](../../media/oceh/oceh-session-close-confirm-dialog.png "Session close confirmation dialog")
 
 ## Mode of the session panel
 

@@ -1,13 +1,12 @@
 ---
 title: "Monitor and assign conversations as a supervisor | MicrosoftDocs"
 description: "Learn how to monitor conversations as a supervisor"
-ms.date: 08/03/2020
-ms.service:
-  - "dynamics-365-customerservice"
-ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
+ms.date: 11/03/2020
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ---
 
 # Monitor and assign conversations
@@ -63,35 +62,31 @@ By joining the conversation, you provide necessary inputs to both agent and cust
     > ![Select Join chat](../media/supervisor-select-join-chat.png "Select Join chat")
 
     When you join the conversation, a notification will be sent to both agent and customer stating that you have joined as a consultant. Depending on your requirement, you can start a consultation with the agent and customer by using a messaging mode (public or internal). By default, the messaging mode is internal.
-    
+
     To learn more, see [View communication panel](../agent/agent-oc/oc-conversation-control.md).
 
 ## Assign a conversation
 
-At times, you may need to manually assign a conversation that is in an open state or unassigned to any agent.
+At times, you may need to manually assign a conversation. In such cases, the conversation should be in an open status or not assigned to any agent. You can override the agent's presence and allocated capacity when assigning conversations to them. When you override agent capacity, the number of units by which their capacity is exceeded will be displayed.
 
 1. Sign in to the **Omnichannel for Customer Service** app.
 
 2. From the dashboard view selector, select the **Omnichannel Ongoing Conversations** dashboard.
 
     The list of available agents and their capacities, as well as queues, is displayed.
-
-3. Choose a conversation in an **Open** state, and select **Assign** on the top-right corner.
-
     > [!div class=mx-imgBorder]
     > ![Select Assign option](../media/assign-agents-conversations.png "Select Assign option")
 
-4. Choose one of the following options:
-  - **Assign to agent:** This assigns the conversation to a particular agent. The agent list contains only those agents who are part of the same queue as the conversation.
-  - **Assign to queue:** This lists all queues except the queue the conversation is currently part of.
-
+3. Choose a conversation in an **Open** state, and select **Assign** on the top-right corner.
     > [!div class=mx-imgBorder]
     > ![Select agent or queue option](../media/assign-agent-queue.png "Select either agent or queue option")
-  
- 5. Depending on which option you chose in Step 4, choose the agent or queue, and then select **Assign** to send the invitation for the agent or queue to join the conversation.
- 
-Supervisors can assign conversations that result in overallocation for an agent. In such cases, the agent's capacity will show the units by which their capacity is exceeded.
 
+4. On the **Assign conversations** dialog box, choose one of the following options:
+
+  - **Agent:** Select to assign the conversation to an agent, and choose an agent name from the list. Agents whose presence matches with one of the allowed presence values in the work stream configuration only will be listed.
+  - **Queue:** Select a queue from the queues list. All queues are listed except the queue to which the conversation is currently assigned to.
+
+5. Depending on which option you chose in Step 4, choose the agent or queue, and then select **Assign**.
 
 ### See also
 

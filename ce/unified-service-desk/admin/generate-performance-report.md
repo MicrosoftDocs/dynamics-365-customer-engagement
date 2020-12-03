@@ -1,16 +1,15 @@
 ---
 title: "Generate Unified Service Desk performance report | MicrosoftDocs"
 description: "Learn how to generate performance report using the Unified Service Desk performance analyzer report."
+author: v-sailab
+ms.author: v-sailab
+manager: shujoshi
+ms.date: 10/31/2018
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-USD
   - dyn365-admin
-ms.date: 10/31/2018
-ms.service: 
-  - dynamics-365-customerservice
-ms.topic: article
-author: kabala123
-ms.author: kabala
-manager: shujoshi
 search.audienceType: 
   - admin
 search.app: 

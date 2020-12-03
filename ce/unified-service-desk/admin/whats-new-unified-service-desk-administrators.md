@@ -1,16 +1,15 @@
 ---
 title: "What's new in Unified Service Desk  for administrators | MicrosoftDocs"
 description: "Learn about new Unified Service Desk features"
+author: v-sailab
+ms.author: v-sailab
+manager: shujoshi
+ms.date: 11/19/2020
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-USD
   - dyn365-admin
-ms.date: 04/10/2019
-ms.service: 
-  - dynamics-365-customerservice
-ms.topic: article
-author: kabala123
-ms.author: kabala
-manager: shujoshi
 search.audienceType: 
   - admin
 search.app: 
@@ -20,7 +19,25 @@ search.app:
 
 # What's new in Unified Service Desk for administrators
 
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 ::: moniker range="dynamics-usd-4.1"
+
+## What's new in Unified Service Desk 4.1.1.1429
+
+This topic contains information about changes in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] for system administrators available in this version.
+
+- The enhancements for Chrome Process are as follows:
+  * Unified Service Desk support for chrome process is upgraded to Chromium version 84. More information: [Use Chrome Process to host web application](../chrome-process.md).
+  * Support for editing pdfs (if pdf has editable fields) with Chrome Process web pages. More information: [Edit PDF in chrome process](../chrome-process.md#edit-pdf-in-chrome-process)
+  * Accessibility support for the Chrome Process web pages enhanced. More information: [Accessibility support with Chrome Process](../chrome-process.md#accessibility-support-with-chrome-process).
+  * Confirmation messages displayed on close and save sessions. More information: [Enable close confirmation dialog when using Chrome Process](../chrome-process.md#enable-close-confirmation-dialog-when-using-chrome-process) and [Enable confirmation dialog using Chrome Process](../chrome-process.md#enable-confirmation-dialog-using-chrome-process).
+  * Open source parameters supported to enhance the performance of Chrome Process-based web pages. More information: [Add parameters using Chrome Process](../chrome-process.md#add-parameters-using-chrome-process).
+  * Default folder enabled to download attachments. More information: [Download attachments in Chrome Process](../chrome-process.md#download-attachments-in-chrome-process).
+- Multiple headers supported during the Navigate action of a Unified Service Desk POST event. More information: [Unified interface page hosted control](../unified-interface-page-hosted-control.md#navigate), [Standard web application hosted control](../standard-web-application-hosted-control.md#navigate), and [CRM page hosted control](../crm-page-hosted-control.md#navigate).
+- Single sign-on feature enabled by default. More information: [Single sign on for Unified Service Desk](connect-dynamics-365-instance-using-unified-service-desk-client.md#single-sign-on-for-unified-service-desk).
+- Special characters supported in Unified Service Desk. More information: [Enable encoding and escaping of special characters](../create-channel-integration-framework-hosted-control.md#enable-encoding-and-escaping-of-special-characters).
+
 
 ## What's new in Unified Service Desk 4.1
 
@@ -99,7 +116,7 @@ Unified Interface Settings is a new configuration element introduced under the *
 ### Show feedback window to agents
 A feedback window is introduced in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to help an agent to provide feedback while closing the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application. Agents can provide feedback comments with the score and submit it to [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)]. The comments are assessed and considered for improving the products and services.
 
-[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Mange options for Unified Service Desk](../admin/manage-options-unified-service-desk.md)
+[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage options for Unified Service Desk](../admin/manage-options-unified-service-desk.md)
 
 ::: moniker-end
 
@@ -155,7 +172,7 @@ Unified Interface Settings is a new configuration element introduced under the *
 ### Show feedback window to agents
 A feedback window is introduced in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to help an agent to provide feedback while closing the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application. Agents can provide feedback comments with the score and submit it to [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)]. The comments are assessed and considered for improving the products and services.
 
-[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Mange options for Unified Service Desk](../admin/manage-options-unified-service-desk.md)
+[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage options for Unified Service Desk](../admin/manage-options-unified-service-desk.md)
 
 ::: moniker-end
 

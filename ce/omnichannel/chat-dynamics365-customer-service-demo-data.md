@@ -1,17 +1,18 @@
 ---
 title: "Demo data installation for Chat for Dynamics 365 Customer Service | MicrosoftDocs"
 description: "Demo data installation for Chat for Dynamics 365 Customer Service"
-author: kabala123
-ms.author: kabala
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.date: 10/19/2019
-ms.service: 
-  - "dynamics-365-customerservice"
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ---
 
 
 # Demo data installation for Chat for Dynamics 365 Customer Service
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
 This topic offers instructions on how to install sample or demo data for Chat for Dynamics 365 Customer Service capabilities to help you build your own demo environments.
 

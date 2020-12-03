@@ -1,15 +1,14 @@
 ---
 title: "Interactive Service Hub Page (Hosted Control) in Unified Service Desk | MicrosoftDocs"
 description: "The topic explains using the Interactive Service Hub Page hosted control type to host interactive service hub forms within Unified Service Desk to integrate the capabilities of both the applications. Interactive Service Hub provides an intuitive interface and displays all the vital information related to customers in one place that lets customer support agents focus on things that require attention."
+author: v-sailab
+ms.author: v-sailab
+manager: shujoshi
+ms.date: 08/23/2017
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-USD
-ms.date: 08/23/2017
-ms.service: 
-  - dynamics-365-customerservice
-ms.topic: article
-author: kabala123
-ms.author: kabala
-manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
@@ -18,6 +17,9 @@ search.app:
   - D365USD
 ---
 # Interactive Service Hub Page (Hosted Control)
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 Use the **Interactive Service Hub Page** hosted control type to host  interactive service hub forms within [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] to integrate the capabilities of both the applications. Interactive Service Hub provides an intuitive interface and displays all the vital information related to customers in one place that lets customer support agents focus on things that require attention.  
 
  When an interactive service hub form  is loaded within the **Interactive Service Hub Page** hosted control, it will automatically scan the page for data, and automatically populate the replacement parameters in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. The **Interactive Service Hub Page** hosted control type exposes a number of predefined UII actions and events that are unique to handling of interactive service hub pages including list manipulation actions, and a find action for displaying a quick search or advanced search page.  

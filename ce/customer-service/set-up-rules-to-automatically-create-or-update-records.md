@@ -6,8 +6,7 @@ ms.author: nenellim
 manager: shujoshi
 ms.date: 08/25/2020
 ms.topic: article
-ms.service: 
-  - dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-customerservice
 search.audienceType: 
@@ -20,6 +19,8 @@ search.app:
 ---
 
 # Set up rules to automatically create or update records
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
 Every organization has multiple applications to capture customer interactions. The ability to channel external data into the Common Data Service platform records can significantly improve the efficiency of your sales, marketing, and service teams, and increase the quality of your data. You can now direct this data from various applications and external sources into the Common Data Service platform with the help of *record creation and update rules*.  
 

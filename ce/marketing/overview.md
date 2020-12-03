@@ -2,7 +2,7 @@
 title: "Overview (Dynamics 365 Marketing)"
 description: "Get a quick overview of the major capabilities, features, and benefits of Dynamics 365 Marketing"
 keywords: features; benefits; overview
-ms.date: 12/17/2018
+ms.date: 11/24/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -12,7 +12,7 @@ author: alfergus
 ms.author: alfergus
 manager: shellyha
 ms.reviewer:
-topic-status: Drafting
+topic-status:
 search.audienceType: 
   - admin
   - customizer
@@ -24,15 +24,15 @@ search.app:
 
 # Overview (Marketing)
 
-<div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/c7dd31a4-7816-42f2-95d7-499401db5f9e" frameborder="0" allowfullscreen=""></iframe></div>
+<div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/RE4FRAO" frameborder="0" allowfullscreen=""></iframe></div>
 
-Dynamics 365 Marketing is a marketing-automation application that helps turn prospects into business relationships. The app is easy to use, works seamlessly with Dynamics 365 Sales, and has built-in business intelligence. Use Dynamics 365 Marketing to:
+Dynamics 365 Marketing is a marketing automation application that helps turn prospects into business relationships. The app is easy to use, works seamlessly with Dynamics 365 Sales, and has built-in business intelligence. Use Dynamics 365 Marketing to:
 
 - **Create graphical email messages and online content to support marketing initiatives**  
-  Customizable templates for emails and landing pages help amplify your digital voice. Intuitive drag-and-drop design tools simplify content creation—from personalizing the message to setting up lead scoring.
+  Customizable templates for emails and landing pages amplify your digital voice. Intuitive drag-and-drop design tools simplify content creation, from personalizing the message to setting up lead scoring.
 
 - **Design interactive customer journeys to nurture leads with personalized experiences**  
-  Use the drag-and-drop journey designer to create an automated, multichannel campaign that sends personalized email messages, generates follow-up activities, launches workflows, and more. Each contact in the target group travels down a customized path that reacts to their interactions and identifies your best prospects. Easily track campaigns and analyze results to build profitable long-term relationships.
+  Use the drag-and-drop journey designer to create an automated, multi-channel campaign that sends personalized email messages, generates follow-up activities, launches workflows, and more. Each contact in the target group travels down a customized path that reacts to their interactions and identifies your best prospects. Track campaigns and analyze results to build profitable long-term relationships.
 
 - **Tap into LinkedIn's business prospects**  
   Quickly target and connect with the right LinkedIn audiences by importing leads generated with LinkedIn's lead tools directly into Dynamics 365.
@@ -44,33 +44,34 @@ Dynamics 365 Marketing is a marketing-automation application that helps turn pro
   Develop a deeper understanding of your market with a 360-degree view of every lead and customer. Connected processes and a single source of information ensure that both sales and marketing have the latest data, including key contacts, recent activities, past purchases, and open opportunities.
 
 - **Organize and publicize events**  
-  Keep all the information about your event venues, logistics, ticketing, sessions, speakers, sponsors, and more in one place so your whole team can coordinate while working on them. Then generate an online event website where attendees can review event information and register online. Integrate your events into your marketing email messages and customer journeys to help get the word out.
+  Keep all the information about your event venues, logistics, ticketing, sessions, speakers, sponsors, and more in one place so your whole team can coordinate while working on them. Host webinar events with ease using built in Microsoft Teams integration. Then generate an online event website where attendees can review event information and register online. Integrate your events into your marketing email messages and customer journeys to help get the word out.
 
 - **Analyze and document your marketing return on investment (MROI)**  
   Use dashboards and reports to track the performance of your marketing initiatives, and to identify your best lead sources and marketing activities. Bring together sales and marketing results to track and increase their impact on your business.
 
 - **Prioritize leads for more wins**  
-  Set up automated lead-scoring rules that automatically identify your hottest leads based on how they interact with your events and customer journeys. As soon as a lead meets an agreed-on sales-ready score, the system automatically routes it to a salesperson to follow up while the lead's still hot. Route the most promising leads to sales when they reach an agreed-on sales-ready grade.
+  Set up automated lead-scoring rules that automatically identify your hottest leads based on how they interact with your events and customer journeys. As soon as a lead meets an agreed-on sales-ready score, the system automatically routes it to a salesperson to follow up while the lead is still hot. Route the most promising leads to sales when they reach an agreed-on sales-ready grade.
 
 - **Make survey results more actionable**  
-  Easy-to-create surveys make it simple to gather actionable feedback from customers. Understand individual customer needs and expectations so you can grow relationships and revenue.
+  Easy-to-create surveys help you gather actionable feedback from customers. Understand individual customer needs and expectations so you can grow relationships and revenue.
 
 - **Configure and expand the application**  
-  Customize the application to fit your specific business needs. Make basic customizations by using tools built right into the app. Expand its capabilities and add new features by installing third-party packages from our thriving marketplace—Microsoft AppSource. And it's easy to connect with Dynamics 365 partners to get expert help. The Marketing app is built on the same platform and database as the sales app, so both teams share the same records, and customizers can leverage their existing knowledge when adding custom features.
+  Customize the application to fit your specific business needs. Make basic customizations by using tools built right into the app. Expand its capabilities and add new features by installing third-party packages from our thriving marketplace—Microsoft AppSource. And it's easy to connect with Dynamics 365 partners to get expert help. The Marketing app is built on the same platform and database as the Sales app, so both teams share the same records, and customizers can leverage their existing knowledge when adding custom features.
 
 ## Included with Dynamics 365 Marketing
 
-Dynamics 365 Marketing includes a bundle of apps and solutions carefully selected to support marketing departments and coordinate with sales. Some of these apps and solutions are also available as bundles or add-ons with other Dynamics 365 products, while others are only available as part of the marketing package. The following are included:
+Dynamics 365 Marketing includes a bundle of apps and solutions carefully selected to support marketing departments and coordinate with sales. Some of these apps and solutions are also available as bundles or add-ons with other Dynamics 365 products, while others are only available as part of the Marketing package. The following are included:
+
 - **Core marketing**  
   Provides email marketing, customer journeys, behavior tracking, lead scoring, marketing pages, and more. These features form the core of the Marketing app and are unique to Dynamics 365 Marketing.
 - **Event management**  
   Organize and promote in-person or webinar events, which include an online portal that attendees can use to review the event schedule and speakers, and to register for the event. This feature is currently available only with Dynamics 365 Marketing.
-- **Voice of the Customer**  
+- **Dynamics 365 Customer Voice**  
   Create online surveys and analyze the results. This feature is bundled with the Marketing app, but is also available separately as an add-on for other Dynamics 365 products.
 - **Dynamics 365 Connector for LinkedIn Lead Gen Forms**  
   Import leads generated with LinkedIn's lead tools into Dynamics 365. This feature is bundled with the Marketing app, but is also available separately as an add-on for other Dynamics 365 products.
 - **Dynamics 365 Portals (optional)**  
-  The Marketing app can use Dynamics 365 Portals to publish its event website, marketing pages, and online surveys. If you don't use Dynamics 365 Portals with Marketing, then you can publish your marketing pages and/or event portal on your own website or CMS system instead. More information: [Create interactive features with or without portals](portals.md) and [Integrate Marketing with a CMS system or Dynamics 365 Portal](portal-optional.md)
+  The Marketing app can use Dynamics 365 Portals to publish its event website, marketing pages, and online surveys. If you don't use Dynamics 365 Portals with Marketing, you can publish your marketing pages and/or event portal on your own website or CMS system instead. More information: [Create interactive features with or without portals](portals.md) and [Integrate Marketing with a CMS system or Dynamics 365 Portal](portal-optional.md)
 
 All these features are fully integrated and work together to create a comprehensive marketing solution.
 
@@ -87,9 +88,10 @@ More information: [About Unified Interface for model-driven apps in Power Apps](
 
 ## Design attractive and effective messages for email marketing campaigns
 
-Email is a key component of most online marketing campaigns. Use the drag-and-drop marketing-email designer to create attractive messages quickly, based on professional, customizable templates. All templates are carefully designed to look great on a wide variety of devices, platforms, and email clients.
+Email is a key component of most online marketing campaigns. Use the drag-and-drop marketing-email designer to create attractive messages quickly, based on professional, customizable templates. All templates are carefully designed to look great on a variety of devices, platforms, and email clients.
 
-![Email designer screenshot](media/designer-email.png "The email designer")  
+> [!div class="mx-imgBorder"]
+> ![Email designer screenshot](media/designer-email2.png)  
 
 Key marketing email design features include:
 
@@ -103,7 +105,7 @@ Key marketing email design features include:
 
 When you create a new message, you'll start by choosing a template that establishes a column layout and, optionally, a complete initial graphic design. The content designer provides a canvas with an editable preview and a tabbed toolbox for adding new design elements (like images, buttons, or text boxes), configuring selected design elements, and applying styles. When working with text elements, you'll get an inline toolbar for applying local text styling and adding dynamic content, like mail-merge fields.
 
-After you're done with the message design, click **Check for Errors** to check the message for errors and required content. After the message is validated, you publish the message to activate it on your server so that it can be sent from a customer journey, as described in the next section.
+After you're done with the message design, select **Check for Errors** to check the message for errors and required content. After the message is validated, you publish the message to activate it on your server so that it can be sent from a customer journey.
 
 More information: [Email marketing overview](prepare-marketing-emails.md)
 
@@ -113,11 +115,12 @@ Create and publish professional-looking landing pages to capture website visitor
 
 Other types of marketing pages include subscription centers, which enable contacts to manage their mailing list subscriptions, and forward-to-a-friend pages, which enable contacts to share your marketing messages with their colleagues.
 
-Design your marketing pages by using the graphical, drag-and-drop content designer, which works just like the one provided for designing marketing email messages. When your page is ready, publish it to make it available to users on the internet. The system uses the standard Dynamics 365 Portals feature to publish and operate all marketing pages.
+Design your marketing pages by using the graphical, drag-and-drop content designer, which works just like the email designer. When your page is ready, publish it to make it available to users on the internet. The system uses the standard Dynamics 365 Portals feature to publish and operate all marketing pages.
 
-![Marketing page designer screenshot](media/designer-pages.png "The marketing page designer")
+> [!div class="mx-imgBorder"]
+> ![Marketing page designer screenshot](media/designer-pages3.png)  
 
-Key marketing-page features include:
+Key marketing page features include:
 
 - Simple, no-code, drag-and-drop designer to create and publish landing pages that include lead or contact forms
 - Consistent content-editing experience for emails, landing pages, and forms
@@ -130,7 +133,7 @@ Key marketing-page features include:
 
 When you create a new page, you'll start by choosing a template that establishes a column layout, page type, and (optionally) a complete initial graphic design with sample images, fonts, and colors. Then you'll be in the Dynamics 365 content designer, which provides a canvas with an editable preview and a tabbed toolbox for adding new design elements (like images, buttons, forms, or text boxes), configuring selected design elements, and applying styles. When working with text elements, use the inline toolbar to apply local text styling. Usually you'll add a form element to create a form on the page.
 
-After you're done with the page design, click **Check for Errors** to check the page for errors and required content. After the page is validated, publish the page to activate it on your server so that it can be accessed by internet users who know the URL or have selected a link. Then publicize your page by using marketing emails, customer journeys, social-media posts, links from your official website, QR codes, and other appropriate channels.
+After you're done with the page design, select **Check for Errors** to check the page for errors and required content. After the page is validated, publish the page to activate it on your server so that it can be accessed by internet users who know the URL or have selected a link. Then publicize your page by using marketing emails, customer journeys, social-media posts, links from your official website, QR codes, and other appropriate channels.
 
 After your page has been active for a while, see how it's performing, how many leads or contacts were captured, and more.
 
@@ -140,22 +143,22 @@ More information: [Create and deploy marketing pages](create-deploy-marketing-pa
 
 Customer journey orchestration lets marketers create multiple-step, multichannel marketing campaigns that target a specific segment, deliver marketing email messages, respond to contact interactions, launch Dynamics 365 workflows, and more.
 
-![Customer journey screenshot](media/customer-journey-full2.png "The customer journey designer")
+![Customer journey screenshot](media/customer-journey-full.png "The customer journey designer")
 
 Key campaign-automation features include:
 
-- A library of predesigned and custom templates to instantly outline your basic strategy
+- A library of pre-designed and custom templates to instantly outline your basic strategy
 - Visual drag-and-drop journey designer
-- All marketing content available in one place, viewable and editable by using embedded content designers
+- All marketing content available in one place, viewable, and editable by using embedded content designers
 - Event-driven, extensible automation
-- During and after execution, in-place insights provided by the designer so you can see where contacts went and what they did there
+- During and after execution, in-place insights are provided by the designer so you can see where contacts went and what they did there
 - The ability to create custom channels in customer journeys to extend the marketing capabilities
 
-When creating or editing a journey, you'll assemble a pipeline by dragging various types of journey tiles from the column on the right side of the canvas area. You configure each tile in the pipeline by selecting it, and then opening the **Properties** tab.
+When creating or editing a journey, you'll assemble a pipeline by selecting the plus buttons on the canvas to open the in-place editor, which lets you choose various types of journey tiles. You configure each tile in the pipeline by selecting it and editing the properties in the pane on the right side of the page.
 
-Each journey starts with a segment or landing-page tile, which establishes which contacts will be engaged in the journey. Then, you'll typically add an email tile, which sends a marketing email message to everyone in the segment. The message might include links to an event website or marketing page. Later in the pipeline, you can add a trigger, which branches the path and waits for each contact to open a message, select a link, or submit a related marketing page. Depending on what each contact does with the message, the trigger will send them down a different path, where you can add appropriate follow-up actions. Triggers can react to a wide variety of contact interactions, including email opens, email clicks, event registrations, survey responses, and more.
+Each journey starts with an audience tile, which establishes which contacts will be engaged in the journey. Then, you'll typically add an email tile, which sends a marketing email message to everyone in the segment. The message might include links to an event website or marketing page. Later in the pipeline, you can add an If/then tile, which branches the path and waits for each contact to open a message, select a link, or submit a related marketing page. Depending on what each contact does with the message, the If/then tile will send them down a different path, where you can add appropriate follow-up actions. If/then tiles can react to a wide variety of contact interactions, including email opens, email clicks, event registrations, survey responses, and more.
 
-After you're done with the journey design, click **Check for Errors** to check for missing content, unpublished content, and other errors. After the journey is validated, you must publish the customer journey to enable it to run (though you can set its actual start and end dates in the future).
+After you're done with the journey design, select **Check for Errors** to check for missing content, unpublished content, and other errors. After the journey is validated, you must publish the customer journey to enable it to run (though you can set its actual start and end dates in the future).
 
 More information: [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)
 
@@ -167,28 +170,28 @@ Custom channel development takes advantage of the existing extensibility infrast
 
 ## Plan, promote, and manage marketing events and webinars
 
-Live events and webinars are often a vital sales-and-marketing channel, but they can be very complex to arrange, execute, and follow up on. The Dynamics 365 event management feature helps you every step of the way, from initial planning and budgeting, through promotion and publication, attendee registration, webinar broadcasting, final analytics, lead generation, and evaluation of ROI.
+Live events and webinars are often a vital sales-and-marketing channel, but they can be complex to arrange, execute, and follow up on. The Dynamics 365 Marketing event management feature helps you every step of the way, from initial planning and budgeting, through promotion and publication, attendee registration, webinar broadcasting, final analytics, lead generation, and evaluation of ROI.
 
 ![Event website screenshot](media/event-portal.png "The event website")  
 
-Key event-management features include:
+Key event management features include:
 
 - Seamless contact, registration, and attendance management features in one system
+- The ability to create Microsoft Teams live events for webinars and Teams meetings for interactive online meetings
 - Business processes that guide users through the essential steps of event planning
 - Session, session-track, and speaker management
 - Managing attendee passes to grant access to specific sessions or tracks
 - Venue management for tracking buildings, rooms, and room layouts
 - Guest logistics for registering hotels, room allocation, and reservations
 - Tracking sponsors and their sponsorships for each event
-- Creating webinars and simulcasts with attendance metrics (in partnership with industry-leading webinar provider ON24)
 - Reviewing the attendance history of each contact, including events and sessions attended
-- Voice of the Customer survey integration
+- Dynamics 365 Customer Voice survey integration
 - Publishing a fully functioning event website with:
   - Self-service attendee registration
   - Important details about all published events, including event name, venue, passes, session schedule, and speakers
-  - All information drawn directly from your Dynamics 365 event-planning records, with updates automatically reflected on the portal
+  - All information drawn directly from your Dynamics 365 event planning records, with updates automatically reflected on the portal
 
-To create, view, and edit your events and all event-related records, go to the **Events** work area of Dynamics 365 Marketing, where you can create a new event and, working from this single event record, add most of the other types of records and information that you need to plan, publish, promote, and analyze it. Like many types of records in Dynamics 365, the event record provides a customizable business process workflow that helps guide users through each step of the process.
+To create, view, and edit your events and all event-related records, go to the **Events** work area of Dynamics 365 Marketing, where you can create a new event and, working from this single event record, add most of the other types of records and information that you need to plan, publish, promote, and analyze it. Like many types of records in Dynamics 365, the event record provides a customizable business process workflow that guides users through each step of the process.
 
 Use other parts of the **Event** work area to work with specific record types that relate to event planning, such as logistics, sessions, attendees, sponsors, and more. Depending on what you are doing at the time, you might access these records when working in the parent event record, or you might go to a dedicated area to work only with a specific record type, or to work across events.
 
@@ -200,7 +203,8 @@ More information: [Event planning and management](event-management.md)
 
 As a marketer, your primary goals are to generate demand, identify sales prospects, and forward the best prospects as leads for salespeople to follow up with. Dynamics 365 supports this process from discovery all the way to close.
 
-![Lead-scoring model designer screenshot](media/designer-lead-score-model.png "The lead-scoring model designer")  
+> [!div class="mx-imgBorder"]
+> ![Lead-scoring model designer screenshot](media/designer-lead-score-model2.png) 
 
 Key lead-management features include:
 
@@ -220,11 +224,11 @@ Key lead-management features include:
     - Assign sales-readiness grades per scoring model.
 - **Analysis and insights**  
     Evaluate the success of your marketing initiatives, and apply lessons learned to your future campaigns, by using rich analytic tools, including:
-    - Demand-generation dashboards that measure conversion, volume, velocity, and more
+    - Demand-generation dashboards that measure conversion, volume, velocity, and more.
     - Charts and widgets that measure the effectiveness of lead scoring models by calculating metrics such as total leads scored over time, sales readiness distribution per model, and more.
     - Charts and widgets that measure the health and quality of each lead by using metrics such as lead age, lead interaction timeline, lead qualification progression, and more.
 
-When creating or editing a rule, you'll assemble its logic by using a drag-and-drop rule designer. Each rule has a condition (which establishes a certain property or event) and an action (which establishes how the score for a lead that meets the condition will be adjusted).
+When creating or editing a rule, you'll assemble its logic using a drag-and-drop rule designer. Each rule has a condition (which establishes a certain property or event) and an action (which establishes how the score for a lead that meets the condition will be adjusted).
 
 To establish a condition, drag a **Condition** tile from the **Toolbox** tab to a position at the left side of the canvas. Go to the **Properties** tab to establish the rules for a selected condition tile. Each condition is relatively simple, but you can stack several conditions to design more complex logic by dragging extra condition tiles onto an existing condition tile.
 
@@ -252,4 +256,3 @@ Use the Microsoft Dynamics 365 Connector for LinkedIn Lead Gen Forms to automati
 LinkedIn integration relies on the Lead Gen Forms capability of LinkedIn to capture leads. This is a paid LinkedIn service, which you must subscribe to enable the integration.
 
 More information: [LinkedIn Lead Gen integration](linkedin-lead-gen-integration.md)
-

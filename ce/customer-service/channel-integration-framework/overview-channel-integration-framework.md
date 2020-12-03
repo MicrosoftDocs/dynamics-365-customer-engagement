@@ -1,13 +1,12 @@
 ---
 title: "What is Dynamics 365 Channel Integration Framework version 1.0? | Microsoft Docs"
 description: "Learn what Dynamics 365 Channel Integration Framework version 1.0 is and how to get started using it."
-author: susikka
-ms.author: susikka
+author: ramana-hyd
+ms.author: v-rmurthy
 manager: shujoshi
 ms.date: 06/18/2020
 ms.topic: get-started-article
-ms.service: 
-  - dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"

@@ -4,9 +4,9 @@ description: "Learn about the intraday insights dashboard for supervisors"
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 10/20/2020
-ms.service: dynamics-365-customerservice
+ms.date: 11/24/2020
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ---
 
 # View and understand Omnichannel intraday insights dashboard
@@ -78,7 +78,7 @@ The following screen shows an example of the specific queue for a group of agent
 > [!div class=mx-imgBorder]
 > ![Agent queue](../media/agent-queue-details.png "Agent queue")
 
-This section of the dashboard consists of the following KPIs.
+The **Agents insights** dashboard displays the following KPIs.
 
 | KPI | Description |
 |-------|-------|
@@ -96,7 +96,7 @@ The following screen shows the options for viewing agent information in a specif
 > [!div class=mx-imgBorder]
 > ![View agent information](../media/view-agent-info-queues.png "View agent information")
 
-This section of the dashboard consists of the following KPIs.
+The table in the **Agents insights** dashboard displays the following information.
 
 | KPI | Description |
 |-------|-------|
@@ -168,6 +168,8 @@ The average handle time will be accurately calculated if you ensure the followin
 - Agents close the sessions by selecting the close button at the end of their shift. More information: [Conversation in waiting status](../agent/agent-oc/oc-conversation-state.md).
 - Agents do not change the computer time.
 - Agents do not use incognito mode in Google Chrome or private browsing in Microsoft Edge.
+
+When the agent steps away from the desk during the ongoing session and does not interact with the customer, the system takes into account this time as active and subsequently computes a higher value handle time. For a realistic reporting on the active time that agents spend in the session, you can configure the idle time threshold. If no agent activity is detected after the idle time threshold is reached, the handle time computation is paused. The computation resumes if any mouse, touch, or keyboard activity is detected. By default, idle time is not enabled out of the box. To set up the idle time threshold, contact Microsoft support.
 
 ### See also
 

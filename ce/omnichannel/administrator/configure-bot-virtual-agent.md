@@ -3,13 +3,16 @@ title: "Integrate a bot | MicrosoftDocs"
 description: "Instructions to integrate a bot in Omnichannel for Customer Service."
 author: platkat
 ms.author: ktaylor
-manager: shujoshi
-ms.date: 10/23/2020
-ms.service: dynamics-365-customerservice
+manager: shujoshi 
+ms.date: 11/06/2020
 ms.topic: article
+ms.service: dynamics-365-customerservice
+ms.reviewer: nenellim
 ---
 
 # Integrate a Power Virtual Agents bot
+
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
@@ -36,30 +39,30 @@ When you integrate a Power Virtual Agents bot with Omnichannel for Customer Serv
 
 ## Configure your Power Virtual Agents bot
 
-Once the Power Virtual Agents bot is created and configured to work with Omnichannel for Customer Service, you can configure it to hand off conversations to queues in the Omnichannel Administration app. To receive incoming messages, you must add the bot to at least one queue. The bot will use the routing rules that were created at setup. You can change them in the **Work Streams** section of Omnichannel.
+After the Power Virtual Agents bot is created and configured to work with Omnichannel for Customer Service, you can configure it to hand off conversations to queues in the Omnichannel Administration app. To receive incoming messages, you must add the bot to at least one queue. The bot will use the routing rules that were created at setup. You can change them in the **Work Streams** section of Omnichannel.
 
-**Set up your Power Virtual Agents bot**
+### Set up your Power Virtual Agents bot
 
 1. Connect the bot to Omnichannel for Customer Service and go to the Omnichannel Administration app. For more information, see [Configure seamless and contextual hand-off to Omnichannel for Customer Service](https://docs.microsoft.com/dynamics365/ai/customer-service-virtual-agent/configuration-hand-off-omnichannel).
 
     ![Virtual Agent bot settings](../media/virtual-agent-bot-settings.png)
-    
+
     The bot will appear in Omnichannel for Customer Service.
 
 2. Assign the bot to an existing queue.
-    
+
     ![Virtual Agent bot select queue](../media/virtual-agent-bot-select-queues.png)
 
 3. Click **Done**. Now you're on the bot profile page and you can see that your bot is connected.
-    
+
     ![Virtual Agent bot profile page](../media/virtual-agent-bot-profile.png)
-    
+
     Your bot is ready to accept and respond to customer-initiated conversations.
-    
+
  4. Set escalation rules so the bot can route the queries to the appropriate agent. You can set up escalation rules in one of the following ways:
- 
+
     - **Add the bot to an existing human agent queue:**	If you add the bot to an existing human agent queue, you don’t need to change your existing routing rule. Existing routing rules will send incoming messages to the Power Virtual Agents. When a handoff is triggered, customers will be transferred from the Power Virtual Agents to the human agent according to the escalation routing rules.
-    
+
     - **Create a bot queue and a human agent queue:** If you create two queues, you must create work streams that contain context variables and appropriate routing rules to route the customer queries.
 
 For information about working with queues, see [Work with queues in Omnichannel for Customer Service](queues-omnichannel.md).
@@ -82,7 +85,7 @@ You must use the context variables that were created during setup for the bot to
     > [!div class=mx-imgBorder]
     > ![Virtual Agent work stream routing rules](../media/virtual-agent-work-stream-routing-rule.png "Virtual Agent work stream routing rules")
 
-4.  Create a routing rule for the virtual agent and add it to the work stream.
+4. Create a routing rule for the virtual agent and add it to the work stream.
 
     > [!div class=mx-imgBorder]
     > ![Virtual Agent work stream bot routing rules](../media/virtual-agent-work-stream-routing-rule-bot.png "Virtual Agent work stream bot routing rules")
@@ -102,7 +105,7 @@ The previous section explained how to configure a single conversation transfer f
 
 There are two ways to facilitate a human agent transfer of a conversation back to a bot:
 
-- Create two bots that reside in two queues 
+- Create two bots that reside in two queues
 - Create two bots that reside in the same queue
 
 ### Two bots in two queues
@@ -110,7 +113,7 @@ There are two ways to facilitate a human agent transfer of a conversation back t
 In this scenario, a bot has transferred a conversation to a human agent. The human agent will transfer the conversation again to another bot in another queue.
 
 1. A customer initiates a conversation.
-2. The conversation routed to Queue 1.
+2. The conversation is routed to Queue 1.
 3. The first bot (Bot A) accepts the conversation.
 4. The customer requests to chat with a human agent.
 5. The conversation is transferred to a human agent within Queue 1.
@@ -140,40 +143,46 @@ In this scenario, a bot has transferred a conversation to a human agent. The hum
 11.	The system triggers Bot B to send a greeting message.
 12. The customer now converses with Bot B.
 
-## Configure context variables for a bot
+## Configure context variables for the bot
 
-When customers initiate a conversation, the relevant context related to the customer, the issue they are facing, and recent activities performed by them can be made available for the bot to intelligently provide contextual responses to resolve customer issues in a quick and efficient manner. For example, the bot can use the signed-in user details to look up the recent case information or order history of the customer and provide a response. Similarly, the pre-conversation information, custom context, or recent pages browsed on a website by the customer can be passed on to the bot by configuring context variables for the bot in Power Virtual Agents. For information on context variables that can be configured, see [Context variables](context-variables-for-bot.md).
+When customers initiate a conversation, the relevant context that is related to the customer, the issue they are facing, and recent activities performed by them can be made available for the bot to intelligently provide contextual responses to resolve customer issues in a quick and efficient manner. For example, the bot can use the signed-in user details to look up the recent case information or order history of the customer and provide a response. Similarly, the pre-conversation information, custom context, or recent pages browsed on a website by the customer can be passed on to the bot by configuring context variables for the bot in Power Virtual Agents. For information on context variables that can be configured, see [Context variables for bots](context-variables-for-bot.md).
+
+> [!IMPORTANT]
+> Ensure the following:
+> - Names are not changed and used as is when you author flows.
+> - The value that will be passed to the context variable doesn't exceed 4,000 characters so that the conversation can be successfully escalated to the agent.
 
 In Power Virtual Agents, do the following:
 
 1. On the **Topics** page, select **New topic**.
 2. On the **Setup** tab, enter a name and description, and save the topic.
 3. Select **Go to authoring canvas**.
-4. Select **Add node**, choose an appropriate action, such as **Ask a question**.
-5. Edit **Save response as**, and update the value for **Name** with the required context variable. Make sure **Bot (any topic can access)** and **External sources can set values** are selected.
+4. Select **Add node**, choose the **Ask a question** action.
+5. Edit the **Identify** field, and in the **Choose information to identify** dialog box, select an option that will match the context variable data type. For information on the data type mapping, see the information in the table in [context variables](context-variables-for-bot.md).
+6. Edit **Save response as**, and in the **Variable Properties** dialog box, update the value for **Name** with the required Omnichannel for Customer Service context variable. Make sure **Bot (any topic can access)** and **External sources can set values** are selected.
     > ![Configure context variable in a topic](../media/Configure-bot-context-variable.png "Configure context variable in a topic")
 
-6. Save and publish the changes.
+7. Save and publish the changes.
 
 At run time, the required information is captured in the context variable that can then be used for further actions based on the workflow you configure. For more information, see [Context variables for a bot](context-variables-for-bot.md).
 
-## Known limitations
+### Known limitations
  
 | Description     | Limitation     |
 |-----------------|----------------|
 | **Adaptive cards:** An adaptive card is a customizable card that can contain any combination of text, speech, images, buttons, and input fields.|	Power Virtual Agents supports adaptive cards for CSAT surveys and they will display text only. For more information, see the [Channel experience reference table](https://docs.microsoft.com/power-virtual-agents/publication-fundamentals-publish-channels#channel-experience-reference-table). <br>You can build an adaptive card by adding a skill through Power Virtual Agents. For more information, see [Use Microsoft Bot Framework Skills in Power Virtual Agents](https://docs.microsoft.com/power-virtual-agents/advanced-use-skills). <br>Adaptive card styling is not supported. |
 | **Single sign-on (SSO):** Chatbots can sign the user in if they're in to the page where the bot is deployed. | SSO is not supported. |
 | **Typing:** A bot receives a typing activity to indicate that the user is typing a response. A bot may send a typing activity to indicate to the user that it is working to fulfill a request or compile a response. | Typing indicators will not appear. |
-| **Suggested actions:** Suggested actions enable your bot to present buttons that the user can tap to provide input. Suggested actions appear close to the composer and enhance user experience. They enable the user to answer a question or make a selection with a simple tap of a button, rather than having to type a response with a keyboard. |	Suggested actions cannot display vertically. |
+| **Suggested actions:** Suggested actions enable your bot to present buttons that the user can tap to provide input. Suggested actions appear close to the composer and enhance user experience. They enable the user to answer a question or make a selection with a tap of a button, rather than having to type a response with a keyboard. | <ul><li>It cannot be displayed vertically.</li><li> Is not supported in the Microsoft Teams channel.</li></ul> |
 | **Format bot messages:** You can set the optional TextFormat property to control how your message's text content is rendered. | Power Virtual Agents does not support markdown with images and text. <br>When Power Virtual Agents sends markdown text, there is extra space between lines. <br>Carousel layout is not supported. |
-| **File attachments:** Once file attachments are enabled in Omnichannel, customers can send file attachments. | Power Virtual Agents cannot operate on Omnichannel file attachments. |
+| **File attachments:** After file attachments are enabled in Omnichannel for Customer Service, customers can send file attachments. | Power Virtual Agents cannot operate on Omnichannel for Customer Service file attachments. |
 |||
 
 ## Privacy notice
 
-You understand that your data may be transmitted and shared with external systems and that your data may flow outside of your organization's compliance boundary (even if your organization is in a Government Cloud environment). For example, your messages will be shared with the bot which could be interacting with a third-party system based on the integration done by you. For more information on how we process your data, please refer to the [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement).
+You understand that your data may be transmitted and shared with external systems and that your data may flow outside of your organization's compliance boundary (even if your organization is in a Government Cloud environment). For example, your messages will be shared with the bot which could be interacting with a third-party system based on the integration done by you. For more information on how we process your data, see [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement).
 
-## Videos
+### Videos
 
 [Power Virtual Agents integration with Omnichannel for Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2114716)
 
@@ -181,12 +190,9 @@ To view more videos on Omnichannel for Customer Service, see [Videos](../videos.
 
 ### See also
 
-[Understand and create work streams](work-streams-introduction.md)
-
-[Work with queues in Omnichannel for Customer Service](queues-omnichannel.md)
-
-[Create and manage routing rules](routing-rules.md)
-
-[Add a chat widget](add-chat-widget.md)
-
-[Enable a bot to escalate and end conversation](../developer/bot-escalate-end-conversation.md)
+[Understand and create work streams](work-streams-introduction.md)  
+[Work with queues in Omnichannel for Customer Service](queues-omnichannel.md)  
+[Create and manage routing rules](routing-rules.md)  
+[Add a chat widget](add-chat-widget.md)  
+[Enable a bot to escalate and end conversation](../developer/bot-escalate-end-conversation.md)  
+[Create and edit topics in Power Virtual Agents bot](https://docs.microsoft.com/power-virtual-agents/authoring-create-edit-topics)  
