@@ -79,7 +79,7 @@ To find your Dynamics 365 Marketing version number:
 1. A list of solutions installed on your selected environment is shown. Select the solution called **Dynamics 365 Marketing Application** then select **Details** in the top ribbon.
 
     > [!div class="mx-imgBorder"]
-    > ![Manage the apps installed on your environment](media/admin-mkt-version2.png)
+    > ![Marketing app details](media/admin-mkt-version2.png)
 
 1. A pane will appear on the right side of the page titled **Dynamics 365 Marketing Application Details**. Check the value shown in the **Version** column.
 
