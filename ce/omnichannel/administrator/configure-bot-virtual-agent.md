@@ -164,29 +164,6 @@ In Power Virtual Agents, do the following:
 
 At run time, the required information is captured in the context variable that can then be used for further actions based on the workflow you configure. For more information, see [Context variables for a bot](context-variables-for-bot.md).
 
-## How to end bot conversations in Omnichannel for Customer Service
-
-You can configure a context variable in Power Virtual Agents that will explicitly end the bot conversation after customers close the chat window. You'll create a standalone topic for CloseOmnichannelConversation context variable with the variable properties set to **Bot (any topic can access)**. Invoke the topic in another topic that you've configured for the bot to handle a queue, such as printer issues.
-
-> [!IMPORTANT]
-> Access to Power Automate to configure a flow so that the bot conversation in Omnichannel for Customer Service can be ended.
-
-To configure end a bot conversation, perform the following steps:
-
-1. In Power Virtual Agents, for the selected bot, configure a new topic.
-2. Select **Go to authoring canvas**, and in the **Message** box, enter the trigger phrase, such as Thank you, and in Add node, select **Call an action**, and then select **Create a flow**.
-4. On the Power Automate window that opens on a new tab, do the following:
-   1. In the **Return value(s) to Power Virtual Agents** box, select **Add an input**, and then select **Yes/No**.
-   2. In the **Enter title** box, enter CloseOmnichannelConversation, which is the Omnichannel for Customer Service context variable name.
-   3. In the **Enter a value to respond** box, select the **Expression** tab, and then enter **bool(true)** to build the expression, and select **OK**.
-   4. Save the changes, and then exit Power Automate.
-5. In the topic that you were editing, select **Call an action** again, and then in the list, select the flow that you created.
-6.  Select **Add node**, **End the conversation**, and then select **Transfer to agent**.
-        > ![Configure end-conversation topic](../media/end-bot-conversation.png "Configure end-conversation topic")
-7. Go to the topic in which you need to invoke the topic for ending the bot conversation in Omnichannel for Customer Service, and use the **Go to another topic** option in **Add a node**.
-8. Select the topic that you created for ending the bot conversation.
-9. Save and publish the changes.  
-
 ### Known limitations
 
 | Description     | Limitation     |
@@ -218,3 +195,4 @@ To view more videos on Omnichannel for Customer Service, see [Videos](../videos.
 [Add a chat widget](add-chat-widget.md)  
 [Enable a bot to escalate and end conversation](../developer/bot-escalate-end-conversation.md)  
 [Create and edit topics in Power Virtual Agents bot](https://docs.microsoft.com/power-virtual-agents/authoring-create-edit-topics)  
+[Troubleshoot how to end conversation](../troubleshoot-omnichannel-customer-service.md#pvaendconv)
