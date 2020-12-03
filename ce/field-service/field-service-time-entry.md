@@ -53,7 +53,7 @@ There are three ways time entries are created in Dynamics 365 Field Service:
 
 For a guided walkthrough, check out the following video.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4J6mQ]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4J6mQ]
 
 ## Automatic time entries
 
