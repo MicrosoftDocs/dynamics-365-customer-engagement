@@ -129,7 +129,7 @@ Two features of Dynamics 365 Marketing require that users have security roles wi
 - **To access assist edit, elevated privileges are required the for the *marketing email dynamic-content metadata* entity**    
     The [assist-edit feature](dynamic-email-content.md#assist-edit) enables users to generate dynamic expressions for use in email messages and content settings. The feature requires that the user has elevated access to application metadata, which enables assist edit to present details about database entities and records. Therefore, all users that need to use assist edit must have a security role with elevated access to the **Marketing email dynamic-content metadata** entity, as shown in the table and illustration following this list.
 
-|  | Minimum "Website" entity privileges | Minimum "Marketing email dynamic-content metadata" entity privileges|
+| Access level | Minimum "Website" entity privileges | Minimum "Marketing email dynamic-content metadata" entity privileges|
 |-----------|--------------|------------------------------------------|
 | Create | Organization | Business unit |
 | Read | Organization | Organization |
