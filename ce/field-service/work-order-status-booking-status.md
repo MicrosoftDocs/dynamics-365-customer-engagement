@@ -60,6 +60,8 @@ In this article, we explore work order and booking statuses with the following s
 
 4. **Follow up work orders**: Field service organizations often schedule a follow-up inspection after an initial installation or repair work order. If a follow-up is required, field technicians should note it with a custom "Follow Up Required" work order substatus to ensure back-office workers create a follow-up before closing the work order.
 
+See the video on![Video symbol](../field-service/media/video-icon.png "Video symbol") [Work Orders: Record log total estimated duration, first arrived on, completed on](https://youtu.be/8sISJXS48fQ) for more details.
+
 ## Prerequisites
 
 - Any version of Field Service
