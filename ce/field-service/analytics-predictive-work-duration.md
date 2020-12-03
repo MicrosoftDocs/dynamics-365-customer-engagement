@@ -155,8 +155,8 @@ The following charts can be found in the territory duration report.
 
 | Label | Description |
 |----------|----------|
-| **Booking volume** | 	Shows number of bookings over the chosen filters (duration, territory, etc).| 
-| **Booking duration**	| Compares over and under estimated bookings over the chosen filters (duration, territory, etc).
+| **Booking volume** | 	Shows number of bookings over the chosen filters (duration, territory, etc.).| 
+| **Booking duration**	| Compares over and under estimated bookings over the chosen filters (duration, territory, etc.).
 | **Customer metrics**	|  Shows bookings, difference, and over and under estimates by customer. | 
 | **Incident type metrics** | Shows jobs completed, estimated duration, average duration, difference, proficiency score, confidence, and proficiency factors by incident type. | 
 | **Territory** | Map that visualizes metrics by defined territories. | 
