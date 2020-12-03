@@ -195,4 +195,4 @@ To view more videos on Omnichannel for Customer Service, see [Videos](../videos.
 [Add a chat widget](add-chat-widget.md)  
 [Enable a bot to escalate and end conversation](../developer/bot-escalate-end-conversation.md)  
 [Create and edit topics in Power Virtual Agents bot](https://docs.microsoft.com/power-virtual-agents/authoring-create-edit-topics)  
-[Troubleshoot how to end conversation](../troubleshoot-omnichannel-customer-service.md#pvaendconv)
+[Troubleshoot how to end a conversation in Omnichannel for Customer Service](../troubleshoot-omnichannel-customer-service.md#pvaendconv)  

@@ -219,8 +219,7 @@ Go to **Entity Records Distribution Flow** and review your customization made to
 
 Review and resolve the error that is due to your customizations. For more information, see [Update entity records work distribution flow](administrator/multiple-ws-entity-record-routing.md#update-entity-records-work-distribution-flow).
 
-<a name="pvaendconv"></a>
-## Power Virtual Agents bot conversations appear as active on dashboard even after customer has ended chat
+## Power Virtual Agents bot conversations appear as active on dashboard even after customer has ended chat<a name="pvaendconv"></a>
 
 ### Issue
 
