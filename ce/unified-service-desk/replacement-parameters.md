@@ -31,7 +31,7 @@ Replacement parameters can be used throughout the application to pull data from 
 ## View the Replacement Parameters in Unified Service Desk  
  The Debugger control in the client application can be used to view the list of available replacement parameters at any given time.  
   
-1. Start the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client, and sign in to Microsoft Dataverse where you have installed the sample packages.  
+1. Start the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client, and sign in to the Dynamics 365 instance where you have installed the sample packages.  
   
 2. In the main screen of the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client, click the down arrow next to the gear on the top-right corner, and select **Debug**. The Debugger appears.  
   

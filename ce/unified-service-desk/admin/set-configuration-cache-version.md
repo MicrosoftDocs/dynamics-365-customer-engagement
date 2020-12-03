@@ -54,7 +54,7 @@ Your organization uses **X**, **Y**, and **Z** configurations for chat, message,
 > [!div class=mx-imgBorder]
 > ![In the new option page, add EnableConfigurationCaching for name and enter value as true](../media/configuration-cache-version.GIF "EnableConfigurationCaching UII option with value as true")
 
-1. Sign in to Dynamics 365.
+1. Sign in to the Dynamics 365 instance.
 
 2. Select the down arrow next to Dynamics 365.
 

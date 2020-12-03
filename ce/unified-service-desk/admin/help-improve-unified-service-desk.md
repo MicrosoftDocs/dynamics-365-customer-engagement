@@ -39,7 +39,7 @@ The information that [!INCLUDE[pn_unified_service_desk](../../includes/pn-unifie
 
 ## Help improve Unified Service Desk enabled by default
 
-With the release of [!INCLUDE[pn-unified-service-desk-3-3](../../includes/pn-unified-service-desk-3-3.md)], by default the **Help improve [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]** feature is enabled for the Microsoft Dataverse platform instance, and [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] will send information to [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)].
+With the release of [!INCLUDE[pn-unified-service-desk-3-3](../../includes/pn-unified-service-desk-3-3.md)], by default the **Help improve [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]** feature is enabled for Microsoft Dataverse, and [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] will send information to [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)].
 
 > [!Note]
 > If you're using [!INCLUDE[pn-unified-service-desk-3-2](../../includes/pn-unified-service-desk-3-2.md)] or earlier with Dataverse instance, you must enable **Help improve [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]** by configuring the **HelpImproveUSD** global option and setting the option to **True**. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Enable sending improvement program information to Microsoft anonymously](#enable-sending-improvement-program-information-to-microsoft-anonymously)

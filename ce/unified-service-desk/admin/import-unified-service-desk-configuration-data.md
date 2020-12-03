@@ -32,11 +32,11 @@ You can import the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-
 <a name="ConfigMigration"></a>   
 ## Import configuration data by using the Configuration Migration tool  
   
-1. Make sure that the Microsoft Dataverse platform instance where you are migrating the configuration data has the required [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] package deployed. If it doesn’t, deploy a sample [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] package. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Deploy sample Unified Service Desk applications using Package Deployer](../../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md)  
+1. Make sure that the Microsoft Dataverse instance where you are migrating the configuration data has the required [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] package deployed. If it doesn’t, deploy a sample [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] package. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Deploy sample Unified Service Desk applications using Package Deployer](../../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md)  
   
 2. Run the [!INCLUDE[pn_configuration_migration_tool](../../includes/pn-configuration-migration-tool.md)], and click **Import data** in the main screen. For information about downloading the tool, see step 1 in [Export Unified Service Desk configuration data](../../unified-service-desk/admin/export-unified-service-desk-configuration-data.md).  
   
-3. On the **Login** screen, provide authentication details to connect to your Dataverse platform server from where you want to export data. If you have multiple organizations on Dataverse server, and want to select the organization from where to export the data, select the **Always display list of available orgs** check box. Click **Login**.  
+3. On the **Login** screen, provide authentication details to connect to your Dataverse server from where you want to export data. If you have multiple organizations on Dataverse server, and want to select the organization from where to export the data, select the **Always display list of available orgs** check box. Click **Login**.  
   
 4. If you have multiple organizations, and you selected the **Always display list of available orgs** check box, the next screen lets you choose the organization that you want to connect to. Select Dataverse organization to connect to.  
   

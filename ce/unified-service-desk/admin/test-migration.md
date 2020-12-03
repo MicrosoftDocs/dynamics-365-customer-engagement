@@ -43,7 +43,7 @@ Clear the CEF cache folder before you sign in to the Unified Service Desk applic
 
 ## Test configurations in the target Unified Interface app
 
-1. Sign in to Dynamics 365.
+1. Sign in to the Dynamics 365 instance.
 
 2. Expand **Dynamics 365**.
 

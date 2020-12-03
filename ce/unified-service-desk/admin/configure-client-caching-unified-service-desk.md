@@ -26,7 +26,7 @@ Client caching enables you to reduce the amount of bandwidth required at the sta
   
 <a name="WhenToUse"></a>   
 ## When should you use client caching?  
- Client caching can provide a significant improvement in startup times, a reduction in overall bandwidth, and a significant reduction in queries to the Microsoft Dataverse platform server for common [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] data.
+ Client caching can provide a significant improvement in startup times, a reduction in overall bandwidth, and a significant reduction in queries to Microsoft Dataverse server for common [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] data.
   
  Client caching is best employed in performance testing, training, and production environments. It isn’t recommended for development environments because changes are only replicated when the control cache key is updated.  
   

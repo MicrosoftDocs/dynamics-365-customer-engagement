@@ -36,7 +36,7 @@ Without the channel analytics model, if you want to build a contact center analy
 ## How does Channel Analytics help?
 
 - It generates instrumentation for agent behavior on the Dynamics 365. 
-- It provides APIs to ingest the conversational data into the Dataverse. 
+- It provides APIs to ingest the conversational data into Dataverse. 
 - It standardizes schema for how the aforementioned analytical data will be stored  
 - It defines mechanism to correlate the communication data from multiple providers, CRM transactional data and agent behavior data. 
 - It is extensible, in the sense that it allows you to bring your own KPIs, define your own data payload so that organizations can build analytical solutions as per their need. 

@@ -50,7 +50,7 @@ Before you start with [!INCLUDE[pn_unified_service_desk_for_crm](../../includes/
   
 <a name="HowUSDHelps"></a>   
 ## How does Unified Service Desk help?  
- [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] provides a configurable framework for quickly building agent applications that provide “unified” access to customer information stored in the Microsoft Dataverse platform. Some of the value propositions of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] are:  
+ [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] provides a configurable framework for quickly building agent applications that provide “unified” access to customer information stored in Microsoft Dataverse. Some of the value propositions of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] are:  
   
 - **Empower agents with unified access to customer information**: [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] provides agents with a single service interface for accessing customer information in Dataverse, which helps them deliver fast and accurate customer service.  
   

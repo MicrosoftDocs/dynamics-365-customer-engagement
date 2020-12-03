@@ -106,7 +106,7 @@ Example path: `C:\Program Files\Microsoft Dynamics CRM USD\USD`
 
 Add a new Global UII option for your organization named **GlobalBrowserMode**. Specify the value as **Chrome**.
 
-1. Sign in to Dynamics 365.
+1. Sign in to the Dynamics 365 instance.
 
 2. Go to **Settings** > **Unified Service Desk** > **Options**.
 
@@ -482,7 +482,7 @@ For example, you've integrated a softphone with Unified Service Desk and using t
 
 To create a Window Navigation Rule, follow the steps:
 
-1. Sign in to Dynamics 365.
+1. Sign in to the Dynamics 365 instance.
 
 2. Select down arrow next to Dynamics 365.
 

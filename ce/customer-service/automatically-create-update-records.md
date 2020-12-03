@@ -4,7 +4,7 @@ description: Know how to automatically create or update records by setting up ru
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 11/27/2020
+ms.date: 12/03/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -26,7 +26,7 @@ In Dynamics 365 Customer Service Hub, you can automatically create or update sys
 
 ## Set up rules for creating or updating records automatically
 
-Every organization has multiple applications to capture customer interactions. The ability to channel external data into the Microsoft Dataverse records can significantly improve the efficiency of your sales, marketing, and service teams, and increase the quality of your data. You can now direct this data from various applications and external sources into Dataverse with the help of *record creation and update rules*.
+Every organization has multiple applications to capture customer interactions. The ability to channel external data into Microsoft Dataverse records can significantly improve the efficiency of your sales, marketing, and service teams, and increase the quality of your data. You can now direct this data from various applications and external sources into Dataverse with the help of *record creation and update rules*.
 
  A record creation and update rule consists of rule items that define the conditions for creating or updating records, and also defines what actions or steps to take on the records.
 

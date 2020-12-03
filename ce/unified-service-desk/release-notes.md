@@ -341,7 +341,7 @@ Now when you sign in to [!INCLUDE[pn_unified_service_desk](../includes/pn-unifie
 
 Remove the **Custom Styles** XAML from the **About** and **Main** toolbars.
 
-1. Sign in to the Dynamics 365.
+1. Sign in to the Dynamics 365 instance.
 
 2. Go to **Settings** > **My Apps** > **Unified Service Desk Administrator** app.
 

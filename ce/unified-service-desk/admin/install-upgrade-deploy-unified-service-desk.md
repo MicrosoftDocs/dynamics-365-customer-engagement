@@ -31,7 +31,7 @@ Before you can install and deploy [!INCLUDE[pn_unified_service_desk_for_crm](../
  Listed below is the sequence that we recommend for installing and deploying [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] in your organization. Before installing [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)], ensure that you meet the system requirements: [Unified Service Desk system requirements](../../unified-service-desk/admin/unified-service-desk-system-requirements.md).  
   
 ## Step 1: Initial installation and deployment  
- Identify a Dataverse platform server where you want to deploy [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] and a development computer that will be used for deploying [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] packages and then connecting to the packages by using the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client.  
+ Identify a Dataverse server where you want to deploy [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] and a development computer that will be used for deploying [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] packages and then connecting to the packages by using the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client.  
   
 1. Install the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client on the development computer. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Install the Unified Service Desk Client](../../unified-service-desk/admin/install-upgrade-unified-service-desk-client.md)  
   

@@ -52,7 +52,7 @@ The pooling feature is available for the following processes:
 
 By default, Internet Explorer pooling is disabled. To enable pooling, a System Administrator must configure the option on the **Active UII Options** page and set it to **true**.
 
-1. Sign in to the Microsoft Dataverse platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Select the down arrow next to Dynamics 365.
 

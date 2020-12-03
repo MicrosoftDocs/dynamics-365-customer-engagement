@@ -42,7 +42,7 @@ Rest of the strings that is rendered by default on Unified Service Desk client a
   
 2. Save the file with the language identifier in the file name. For example, if you have Spanish resources, you can save the file with the name “TranslationResource.es.xml.”  
   
-3. Upload the file as a web resource to Common Data Service. Name the web resource so that you can identify the language of the string resources in it.  
+3. Upload the file as a web resource to Microsoft Dataverse. Name the web resource so that you can identify the language of the string resources in it.  
   
    1. Sign in to the Dynamics 365 instance.  
   

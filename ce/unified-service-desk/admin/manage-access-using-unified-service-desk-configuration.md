@@ -50,7 +50,7 @@ tags: MigrationHO
 <a name="Create"></a>   
 ## Create a Unified Service Desk configuration  
   
-1. Sign in to Dynamics 365.
+1. Sign in to the Dynamics 365 instance.
 
 2. Select the down arrow next to Dynamics 365.
 

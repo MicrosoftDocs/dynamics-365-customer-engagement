@@ -43,7 +43,7 @@ events and logs are present in the **UII_auditBase** table in the organization d
 
 To delete audit logging that you configure using standard auditing by adding an audit flag:
 
-1. Sign in to the Microsoft Dataverse platform.
+1. Sign in to the Dynamics 365 instance.
 2. From a productivity area, select **Advanced Find**.</br>
    ![Click Advanced Find](../../unified-service-desk/media/advance-find-usd-gdpr-crm-server.PNG "Click Advanced Find")
 3. In the **Look for** list, select **UII Audit**.</br>

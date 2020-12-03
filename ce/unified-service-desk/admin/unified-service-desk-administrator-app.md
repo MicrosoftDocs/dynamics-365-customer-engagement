@@ -34,7 +34,7 @@ The Administrator app, which is built based on the Unified Interface framework, 
 
 ## Supportability matrix for Unified Service Desk Administrator app
 
-The matrix explains the support of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Administrator app with versions of Microsoft Dataverse platform and [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client.
+The matrix explains the support of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Administrator app with versions of Microsoft Dataverse and [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client.
 
 ### Fresh installation of Dataverse and Unified Service Desk
 
@@ -44,7 +44,7 @@ The matrix explains the support of the [!INCLUDE[pn_unified_service_desk](../../
 
 ### Upgrade installation of Dataverse and Unified Service Desk
 
-When you are upgrading Dataverse platform version and Unified Service Desk you need to import the solution to use Unified Service Desk Administrator app. The matrix explains the import scenario. 
+When you are upgrading Dataverse version and Unified Service Desk you need to import the solution to use Unified Service Desk Administrator app. The matrix explains the import scenario. 
 
 | Dataverse version | Unified Service Desk version |Import solution to get Unified Service Desk Administrator App  | 
 |:--------------------:|:----------------------------:|:---------------------------------------:|
