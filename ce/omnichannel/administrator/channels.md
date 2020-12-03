@@ -49,7 +49,7 @@ If you want to help your customers using social channels, you can use the social
 - [WeChat](configure-wechat-channel.md)
 - [LINE](configure-line-channel.md)
 
-## Preview: Custom messaging channel
+## Custom messaging channel
 
 If you want to help your customers using social channels that are not supported as standard channels, such as Telegram, you can use the custom channels. To learn more, see [Configure custom messaging application](configure-custom-channel.md).
 
