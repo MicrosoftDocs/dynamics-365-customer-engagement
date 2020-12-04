@@ -86,12 +86,29 @@ To view the entity in the Dynamics 365 assistant application, tap **Open *Entity
         The connected record details are displayed in the **Regarding** section.    
 > [!NOTE]
 > You'll be able to set the regarding record only if server-side synchronization has been enabled in your environment. Contact your administrator to enable it.    
-### Activities timeline and insight cards
+### Activities timeline and insight cards    
+See a combined view of your interactions with customers across various channels, such as phone, email, or even social activities in the timeline that are related to the regarding entity. The timeline also shows any related notes or system posts. Also, cards are displayed below the timeline based on the related entities.   
+The timeline activities and cards are retrieved from your Dynamics 365 Sales organization for the selected regarding entity. 
+The following insight cards are supported:    
+<table>
+<tr>
+<td>{activity} due today</td><td>Buying intent detected in email</td><td>Close date coming soon</td>
+</tr>
+<tr>
+<td>Competitor mentioned</td><td>Email opened</td><td>Email reminder</td>
+</tr>
+<tr>
+<td>File requested</td><td>Issue detected</td><td>Meeting requested</td>
+</tr>
+<tr>
+<td>Missed (opportunity) closed date</td><td>Missed email</td><td>No activity with {record type}</td>
+</tr>
+<tr>
+<td>Opportunity at risk (phrase detection)</td><td>Opportunity at risk (sentiment detection)</td><td>Suggested stakeholder</td>
+</tr> 
+</table>   
+The following image is an example of an activity timeline for an opportunity regarding entity.   
+<!--*Add image*-->
 
-
-
-
-
-
-
-
+### See also   
+[Use the Dynamics 365 Sales mobile app](sales-mobile/use-sales-mobile-app.md)
