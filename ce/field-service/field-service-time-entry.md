@@ -51,6 +51,10 @@ There are three ways time entries are created in Dynamics 365 Field Service:
 > ![Screenshot of a list of time entries.](./media/work-order-time-entry.png)
 
 
+For a guided walkthrough, check out the following video.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4J6mQ]
+
 ## Automatic time entries
 
 Time entries are automatically created during the work order process. As a work order is scheduled and performed, booking status changes are tracked in booking timestamps.
