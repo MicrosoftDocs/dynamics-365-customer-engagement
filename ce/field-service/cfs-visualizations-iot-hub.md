@@ -6,22 +6,13 @@ ms.custom:
 ms.date: 09/10/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 author: FieldServiceDave
-ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
-caps.latest.revision: 42
 ms.author: daclar
 manager: shellyha
-search.audienceType: 
-  - admin
-  - customizer
 search.app: 
   - D365CE
   - D365FS
@@ -29,7 +20,7 @@ search.app:
 
 # Visualizing device readings
 
-To help you understand the current state of a device, its repair history, and the effect of performed work orders, the Connected Field Service add-in displays near realtime device readings and historical sensor measurements in a chart alongside work order details.
+To help you understand the current state of a device, its repair history, and the effect of performed work orders, the Connected Field Service add-in displays near real time device readings and historical sensor measurements in a chart alongside work order details.
 
 The device readings chart is available on the IoT alert, work order, case, device, and asset forms.
 
@@ -140,18 +131,18 @@ Use the following table to troubleshoot error codes related to device readings.
 | Error code	| Possible root cause	| Suggested corrective action |
 | --- | --- | --- |
 | 5000101	 |	Local Config Store is not available |	Contact Microsoft Support to investigate |
-| 4001002	 |	Value for the Search Span parameter passed to the custom action msdyn_IoTHubQueryDeviceReadings is Null	 |	Please verify that valid values for all the required arguments are passed to the custom action msdyn_IoTHubQueryDeviceReadings |
+| 4001002	 |	Value for the Search Span parameter passed to the custom action msdyn_IoTHubQueryDeviceReadings is Null	 |	Verify that valid values for all the required arguments are passed to the custom action msdyn_IoTHubQueryDeviceReadings |
 | 4000103	 |	Value for the From or To date argument passed to the custom action msdyn_IoTHubQueryDeviceReadings is not a valid DateTime |		Verify that valid values for all the required arguments are passed to the custom action msdyn_IoTHubQueryDeviceReadings | 
 | 4000104	 |	Value for the Interval argument passed to the custom action msdyn_IoTHubQueryDeviceReadings is not a valid Duration	 |	Verify that valid values for all the required arguments are passed to the custom action msdyn_IoTHubQueryDeviceReadings. For interval, the format should be in the [ISO 8601 Duration Format](https://wikipedia.org/wiki/ISO_8601#Durations). For example: PT1H |
 | 4000201	 |	Value for the IotDeviceId argument passed to the custom action msdyn_IoTHubQueryDeviceReadings is not a valid Guid	 |	Verify that valid values for all the required arguments are passed to the custom action msdyn_IoTHubQueryDeviceReadings. For IotDeviceId, the value should be the msdyn_iotdeviceid, which is a global unique identifier (GUID). |
 | 4010202 |		The user doesn't have permission to query Device Entity (msdyn_iotdevice)	 |	Ensure the user can query Device entity (msdyn_iotdevice) |
 | 5000203 |		Unable to get msdyn_DeviceId for the given msdyn_iotdeviceid in the Device Entity (msdyn_iotdevice) |		Make sure the attribute msdyn_DeviceId is populated for the device |
-| 5000204	 |	Unable to get Time Series Insights Url for the for the given msdyn_iotdeviceid |		Make sure that CFS Deployment App has deployed Time Series Insights for this CRM Org and the device is linked to the correct IoT Provider |
-| 5000205 |		Client Id used to get Azure AD token for TSI Authorization is invalid or an empty GUID (global unique identifier) |		Make sure that valid Client ID is provided in the CFS Deployment App when it was executed |
-| 5000206 |		Client Secret used to get Azure AD token for TSI Authorization has expired |		Please update the Client Secret in Azure AD and re-run CFS Deployment App to update the new Client ID and Client Secret |
-| 5000207 |		Unable to get the access token to query Time Series Insights |		Retry your request, and if the problem persists, try updating new Client ID and Client Secret by re-running the CFS Deployment App |
+| 5000204	 |	Unable to get Time Series Insights Url for the given msdyn_iotdeviceid |		Make sure that CFS Deployment App has deployed Time Series Insights for this CRM Org and the device is linked to the correct IoT Provider |
+| 5000205 |		Client ID used to get Azure AD token for TSI Authorization is invalid or an empty GUID (global unique identifier) |		Make sure that valid Client ID is provided in the CFS Deployment App when it was executed |
+| 5000206 |		Client Secret used to get Azure AD token for TSI Authorization has expired |		Update the Client Secret in Azure AD and rerun CFS Deployment App to update the new Client ID and Client Secret |
+| 5000207 |		Unable to get the access token to query Time Series Insights |		Retry your request, and if the problem persists, try updating new Client ID and Client Secret by rerunning the CFS Deployment App |
 | 5000603	 |	Request to Time Series Insights API returned with a failure	 |	Retry your request. If the problem persists, contact Microsoft Support to investigate |
-| 5000604	 |	Response from Time Series Insights API is not in an expected format	 |	Retry your request. If the problem persists, please contact Microsoft Support to investigate |
+| 5000604	 |	Response from Time Series Insights API is not in an expected format	 |	Retry your request. If the problem persists, contact Microsoft Support to investigate |
 
 
 ## Additional notes
@@ -159,7 +150,7 @@ Use the following table to troubleshoot error codes related to device readings.
 - **Known issues:** 
   - In custom time settings, the time zone is always set as UTC even when another time zone is selected. The time period displayed after applying the setting is always local time. 
   - When deploying immediately after creating a new application (client) ID with the IoT Deployment app, you may see an **unable to deploy TSI with credential** error. Try again after one minute.
-- Azure Time Series Insights uses a pay-as-you-go pricing model. The pricing and cost estimate calculator is available at https://azure.microsoft.com/pricing/details/time-series-insights. Select the region where you are planning to deploy TSI to understand the storage and query cost. (Note that TSI uses Azure blob to store the data.) 
+- Azure Time Series Insights uses a pay-as-you-go pricing model. The pricing and cost estimate calculator is available at https://azure.microsoft.com/pricing/details/time-series-insights. Select the region where you are planning to deploy TSI to understand the storage and query cost. (TSI uses Azure blob to store the data.) 
 
 
 

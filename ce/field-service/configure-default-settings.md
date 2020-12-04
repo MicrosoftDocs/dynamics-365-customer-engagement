@@ -5,20 +5,10 @@ ms.custom:
   - dyn365-fieldservice
 ms.date: 09/24/2020
 ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.technology: 
-  - field-service
-ms.tgt_pltfrm: 
 ms.topic: article
 author: FieldServiceDave
-ms.assetid: 58255fc0-9e0f-4467-9719-175024e9a424
-caps.latest.revision: 19
 ms.author: daclar
 ms.reviewer: krbjoran
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
 search.app: 
   - D365CE
   - D365FS
@@ -71,7 +61,7 @@ The Field Service Settings page allows system administrators to set default sett
 | Scheduler [!INCLUDE[pn_field_service](../includes/pn-field-service.md)] slot text template |                                                                                   Enter HTML code to define the text and format that is displayed in the [!INCLUDE[pn_field_service](../includes/pn-field-service.md)] bookings on the schedule board.                                                                                   |
 |                             Scheduler core slot text template                              |                                                                                                        Enter HTML code to define the text that is displayed in bookings that are not linked to work orders on the schedule board.                                                                                                        |
 |                              Notifications time out (in sec)                               |                                                                                                                        Enter the default frequency, in seconds, at which the schedule board should auto-refresh.                                                                                                                         |
-|                                   Booking alert template                                   |                                                                                             This is for the booking alert entity, You can have booking alerts that display information within the alert. You can modify the data shown here.                                                                                             |
+|                                   Booking alert template                                   |                                                                                             This is for the booking alert entity, you can have booking alerts that display information within the alert. You can modify the data shown here.                                                                                             |
 |                                Scheduler core details view                                 |                                                                                 This applies to bookings that are not linked to a work order. Select the default **Details** view on the schedule board for bookings that are not linked to work orders.                                                                                 |
 |                               Scheduler core tool tips view                                |                                                                                             This applies to bookings that are not linked to a work order. Select the default tool tips view for bookings that are not linked to work orders.                                                                                             |
 |                              Cancel current slots when moving                              |                                                                                                             Select whether, when moving slots to another time, to leave the old slots and change their status to **Cancel**.                                                                                                             |
@@ -79,9 +69,9 @@ The Field Service Settings page allows system administrators to set default sett
 |                              Scheduler resource tool tip view                              |                                                                                                           Select the default view to display information when you hover over the resource pin on the schedule board map view.                                                                                                            |
 |                           Scheduler business unit tool tip view                            |                                                                                                         Select the default view to display information when you hover over the business unit pin on the schedule board map view.                                                                                                         |
 |                              Unscheduled WO tool tips view ID                              |                                                                                                     Select the default view to display information when you hover over an unscheduled work order pin on the schedule board map view.                                                                                                     |
-|                              Scheduler Resource details view                               |                                                                                                       Select the default view to display information in the details pane on the schedule board when you click a resource map pin.                                                                                                        |
-|                            Scheduler business unit details view                            |                                                                                                     Select the default view to display information in the details pane on the schedule board when you click a business unit map pin.                                                                                                     |
-|                         Resources Synchronization timeout (in sec)                         | When using the Real Time mode in the schedule assistant, the system searches the Mobile Audit table for the resource’s current location, based on data from their mobile device. This setting determines how old the last known resource location, in the mobile audit table, can be, and still be used in the schedule assistant query. |
+|                              Scheduler Resource details view                               |                                                                                                       Select the default view to display information in the details pane on the schedule board when you select a resource map pin.                                                                                                        |
+|                            Scheduler business unit details view                            |                                                                                                     Select the default view to display information in the details pane on the schedule board when you select a business unit map pin.                                                                                                     |
+|                         Resources Synchronization timeout (in sec)                         | When using the Real-Time mode in the schedule assistant, the system searches the Mobile Audit table for the resource’s current location, based on data from their mobile device. This setting determines how old the last known resource location, in the mobile audit table, can be, and still be used in the schedule assistant query. |
   
 ### RMA  
   
@@ -114,7 +104,7 @@ The Field Service Settings page allows system administrators to set default sett
 |             Options             |                                                                                                                      Description                                                                                                                       |
 |---------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |      Purchase order prefix      |                         Select a default prefix for purchase orders. The prefix will  be added to the beginning of the purchase order number. This  helps you easily identify  purchase orders from other data in the system.                          |
-| Purchase order approve required |     Select if a purchase order needs an approval before the status can be  changed to **Submitted**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a purchase order](../field-service/create-purchase-order.md)      |
+| Purchase order approval required |     Select if a purchase order needs an approval before the status can be  changed to **Submitted**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a purchase order](../field-service/create-purchase-order.md)      |
 | Purchase order starting number  |                                          Select a starting number for purchase orders. For example, if you choose 4000, then your first purchase order will be 4000, and second one will be 4001, and so on.                                           |
 |   Use of product out of stock   | Select how the system reacts when a work order product is used for a product that is not currently in stock. **Confirm** will prompt the user to decide whether to continue or not, and **Restrict** will keep the work order product from being used. |
   
@@ -146,7 +136,7 @@ The Field Service Settings page allows system administrators to set default sett
 
 |Options|Description|  
 |-------------|-----------------|  
-|Disable Booking Status Changes|Depending on this setting, Dynamics 365 Remote Assist on Hololens will either allow a booking's booking status to be changed from within the Hololens experience or it will not.|
+|Disable Booking Status Changes|Depending on this setting, Dynamics 365 Remote Assist on HoloLens will either allow a booking's booking status to be changed from within the HoloLens experience or it will not.|
   
 ## Other settings
   
