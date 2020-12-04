@@ -31,7 +31,7 @@ The following table contains the list of variables in Omnichannel for Customer S
 | [Pre-conversation survey](configure-pre-chat-survey.md) | Use the question type that you create in Omnichannel for Customer Service. | The context variables for pre-conversation answers store the customer answers for questions in the pre-conversation survey. | Use the following information to map the question type variable in Omnichannel for Customer Service with the variable type in Power Virtual Agents:<br><ul><li> **Single line:** User’s entire response</li>**Multiple lines:** User's entire response<li>**Option set:** User's entire response</li><li>**User Consent:** Boolean</li></ul> |Use the following information to map the question type variable in Omnichannel for Customer Service with the variable type in Azure:<br><ul><li> **Single line:** String</li>**Multiple lines:** String<li>**Option set:** String</li><li>**User Consent:** Boolean</li></ul>|
 | [Custom Context](../developer/how-to/send-context-starting-chat.md) | Use the variable name that you create in Omnichannel for Customer Service or pass using the setcontext API. | These are custom context variables that can be created and passed through the Livechat SDK. | Use the following information to map the custom context variable in Omnichannel for Customer Service with the variable type in Power Virtual Agents: <br><ul><li>**String:** User's entire response</li><li>**Boolean:** Boolean</li><li>**Number, Floating Number:** Number</li></ul> |Use the following information to map the custom context variable in Omnichannel for Customer Service with the variable type in Azure: <br><ul><li>**String:** String</li><li>**Boolean:** Boolean</li><li>**Number, Floating Number:** Number</li></ul>|
 | Conversation | msdyn_liveworkitemid | Use the context variable that contains the conversation ID for the ongoing conversation and can fetch and perform operations on the record in Common Data Service. | **String:** User's entire response. |**String:** String|
-|[Customer](record-identification-rule.md) |msdyn_contact_msdyn_ocliveworkitem_Customer| Use this context variable that contains the record ID for the customer (contact or account) record that is linked to the conversation. | Parse the JSON to extract the record ID. |Parse the JSON to extract the record ID.|
+|[Customer](record-identification-rule.md) |msdyn_contact_msdyn_ocliveworkitem_Customer| Use this context variable that contains the record ID for the customer (contact or account) record that is linked to the conversation. | [Parse the JSON to extract the record ID](#parse-json-to-extract-record-id). |Parse the JSON to extract the record ID.|
 | Case | msdyn_incident_msdyn_ocliveworkitem | Use this context variable that contains the record ID for the case record linked to the conversation. |Parse the JSON to extract the record ID.| Parse the JSON to extract the record ID.|
 |||||
 
@@ -76,7 +76,6 @@ Search for Parse JSON, and select it.
 7. In the **Schema** box, enter the sample schema details.
 8. Save the changes, and exit from Power Automate.
 9. In Power Virtual Agents, go back to the topic you were editing, select the flow that you configured, and then save and publish.
-
 
 ### See also
 
