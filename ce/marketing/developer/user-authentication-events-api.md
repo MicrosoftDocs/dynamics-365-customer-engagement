@@ -1,24 +1,25 @@
 ---
-title: "User authentication using Events API (Dynamics 365 Marketing Developer Guide) | MicrosoftDocs"
-description: "Read about the Events API that lets you access data of events, sessions, session tracks, and passes"
-ms.custom: 
-  - dyn365-developer
-  - dyn365-marketing
+title: "User authentication using Events API (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
+description: "Learn how to use the Events API to authenticate users in Dynamics 365 Marketing"
+keywords: developer; dev; developer guide; system configuration
 ms.date: 06/11/2019
 ms.service: dynamics-365-marketing
-ms.technology: 
-  - marketing
-ms.topic: conceptual
-ms.assetid: D1E49395-2FF9-4F5D-BA7A-F9E68EDAFA22
-author: susikka
-ms.author: susikka
-manager: shujoshi
+ms.custom: 
+  - dyn365-marketing
+ms.topic: developer-guide
+ms.assetid: 1f1a8244-2dc5-4de2-b7f8-719a46c82861
+author: alfergus
+ms.author: alfergus
+manager: shellyha
+ms.reviewer:
+topic-status:
 search.audienceType: 
   - developer
 search.app: 
   - D365CE
   - D365Mktg
 ---
+
 # User authentication using Events API
 
 The Events API supports user authentication with Azure Active Directory B2C. To link the Events API to your Azure Active Directory B2C, you need to add your `AAD Client ID` and `AAD Metadata Endpoint` to your `web application setting`.  More information: [Creating Azure AD B2C tenant and adding a web application to the tenant](event-management-aad-b2c-setup.md#creating-azure-ad-b2c-tenant-and-adding-a-web-application-to-the-tenant)

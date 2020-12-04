@@ -4,7 +4,7 @@ description: "Learn about the intraday insights dashboard for supervisors"
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 10/30/2020
+ms.date: 11/24/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -78,7 +78,7 @@ The following screen shows an example of the specific queue for a group of agent
 > [!div class=mx-imgBorder]
 > ![Agent queue](../media/agent-queue-details.png "Agent queue")
 
-This section of the dashboard consists of the following KPIs.
+The **Agents insights** dashboard displays the following KPIs.
 
 | KPI | Description |
 |-------|-------|
@@ -96,7 +96,7 @@ The following screen shows the options for viewing agent information in a specif
 > [!div class=mx-imgBorder]
 > ![View agent information](../media/view-agent-info-queues.png "View agent information")
 
-This section of the dashboard consists of the following KPIs.
+The table in the **Agents insights** dashboard displays the following information.
 
 | KPI | Description |
 |-------|-------|

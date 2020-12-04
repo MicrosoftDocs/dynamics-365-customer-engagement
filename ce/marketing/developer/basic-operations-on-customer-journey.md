@@ -1,20 +1,25 @@
 ---
-title: "Basic operations on the Customer Journey using the API| Microsoft Docs" 
-description: The Customer Journey API enables programmatic interaction with certain segmentation features of Dynamics 365 Marketing app.
-ms.custom:
+title: "Basic operations on the Customer Journey using the API (Dynamics 365 Marketing Developer Guide) | Microsoft Docs" 
+description: "The Customer Journey API enables programmatic interaction with certain segmentation features of Dynamics 365 Marketing app."
+keywords: developer; dev; developer guide; system configuration
 ms.date: 04/03/2019
-ms.reviewer: ""
-ms.service: "D365CE"
-ms.topic: "article"
-ms.author: nabuthuk
-author: Nkrb
-manager: kvivek
+ms.service: dynamics-365-marketing
+ms.custom: 
+  - dyn365-marketing
+ms.topic: developer-guide
+ms.assetid: 1f1a8244-2dc5-4de2-b7f8-719a46c82861
+author: alfergus
+ms.author: alfergus
+manager: shellyha
+ms.reviewer:
+topic-status:
 search.audienceType: 
   - developer
 search.app: 
-  - PowerApps
   - D365CE
+  - D365Mktg
 ---
+
 # Basic operations on Customer Journey using the API
 
 As you engage potential customers, they start by discovering your product, evaluating whether it meets their needs, looking for a good offer, and finally making a purchase. We call this process the *customer journey*. 

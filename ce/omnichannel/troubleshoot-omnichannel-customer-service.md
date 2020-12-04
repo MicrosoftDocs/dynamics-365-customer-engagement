@@ -118,7 +118,7 @@ If you get any of the errors listed in the table below, work with your administr
 
   - Something went wrong while setting up your workspace—please try again. If this continues, have your administrator contact Microsoft Support with the client session ID.
 
-  - We couldn't set up presences due to missing roles — Ask your administrator to grant you Omnichannel roles. If this continues, have your administrator contact Microsoft Support with the client session ID. To learn more about security roles, see [Assign roles and enable users for Omnichannel for Customer Service](administrator/add-users-assign-roles). 
+  - We couldn't set up presences due to missing roles — Ask your administrator to grant you Omnichannel roles. If this continues, have your administrator contact Microsoft Support with the client session ID. To learn more about security roles, see [Assign roles and enable users for Omnichannel for Customer Service](administrator/add-users-assign-roles.md). 
 
   - We couldn't get your authentication token — Your Teams subscription has expired, please contact your admin to renew it. If this continues, have your admin contact Microsoft Support with the Client Session ID:{0}. To resolve the issue, follow the steps in [Omnichannel provisioning fails due to expired Teams Service Principal](#omnichannel-provisioning-fails-due-to-expired-teams-service-principal).
 
@@ -465,7 +465,7 @@ As an agent or a supervisor, you see that some conversations are stuck in the wr
 
 ### Resolution
 
-When conversations are ended by the agent or customer, they transition to the wrap-up state. In order to close the conversation, the primary agent assigned to the conversation needs to close the conversation in the session panel. To learn more about closing sessions, see [Manage sessions in Omnichannel for Customer Service](https://docs.microsoft.com/en-us/dynamics365/omnichannel/agent/agent-oc/oc-manage-sessions#close-a-session). To learn more about the wrap-up conversation state, see [Understand conversation states in Omnichannel for Customer Service](https://docs.microsoft.com/en-us/dynamics365/omnichannel/agent/agent-oc/oc-conversation-state#wrap-up).
+When conversations are ended by the agent or customer, they transition to the wrap-up state. In order to close the conversation, the primary agent assigned to the conversation needs to close the conversation in the session panel. To learn more about closing sessions, see [Manage sessions in Omnichannel for Customer Service](https://docs.microsoft.com/dynamics365/omnichannel/agent/agent-oc/oc-manage-sessions#close-a-session). To learn more about the wrap-up conversation state, see [Understand conversation states in Omnichannel for Customer Service](https://docs.microsoft.com/dynamics365/omnichannel/agent/agent-oc/oc-conversation-state#wrap-up).
 
 ## Dashboards do not appear in Omnichannel for Customer Service active dashboards view
 

@@ -29,6 +29,10 @@ search.app:
 
 # Predictive work duration and resource proficiency suggestions in Dynamics 365 Field Service
 
+> [!IMPORTANT]
+> This feature is intended to help dispatchers or admins enhance their team’s performance and improve customer satisfaction. This feature is not intended for use in making, and should not be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
+
+
 Field service dispatchers often assign a fixed duration for a job type, despite various factors that may impact the time required to complete the work. Using a fixed duration can potentially cause cascading delays or lower utilization, reducing the overall effectiveness of scheduling.
 
 With predictive work duration, dispatchers can predict the duration of any given booking or requirement, based on factors like:
@@ -151,8 +155,8 @@ The following charts can be found in the territory duration report.
 
 | Label | Description |
 |----------|----------|
-| **Booking volume** | 	Shows number of bookings over the chosen filters (duration, territory, etc).| 
-| **Booking duration**	| Compares over and under estimated bookings over the chosen filters (duration, territory, etc).
+| **Booking volume** | 	Shows number of bookings over the chosen filters (duration, territory, etc.).| 
+| **Booking duration**	| Compares over and under estimated bookings over the chosen filters (duration, territory, etc.).
 | **Customer metrics**	|  Shows bookings, difference, and over and under estimates by customer. | 
 | **Incident type metrics** | Shows jobs completed, estimated duration, average duration, difference, proficiency score, confidence, and proficiency factors by incident type. | 
 | **Territory** | Map that visualizes metrics by defined territories. | 

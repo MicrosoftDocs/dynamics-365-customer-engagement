@@ -4,7 +4,7 @@ description: "Read how you can pass an authentication token to Omnichannel for C
 author: ramana-hyd
 ms.author: v-rmurthy
 manager: shujoshi
-ms.date: 12/13/2019
+ms.date: 12/3/2020
 ms.topic: reference
 ms.service: dynamics-365-customerservice
 ---
@@ -27,6 +27,10 @@ Follow these steps to send authentication token when starting a chat:
 1. Generate a valid JWT token from the JSON payload. More information: [setAuthTokenProvider](../reference/methods/setAuthTokenProvider.md).
 2. Listen to the **lcw:ready** event raised by a live chat before calling the live chat SDK methods. The live chat methods should be invoked after the **lcw:ready** event is raised. You can listen for this event by adding your own event listener on the window object.
 3. Once the **lcw:ready** event is raised, register an authentication token provider with live chat by using the [setAuthTokenProvider](../reference/methods/setAuthTokenProvider.md) method.
+
+> [!NOTE]
+> To avoid timeout, the [authTokenProvider](../reference/methods/setAuthTokenProvider.md#parameters) function in the [setAuthTokenProvider](../reference/methods/setAuthTokenProvider.md) method must respond within 10 seconds.
+
 4. Use [startChat](../reference/methods/startChat.md) SDK to initiate a chat.
 
 ## Sample code

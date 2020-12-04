@@ -1,24 +1,25 @@
 ---
-title: "Remove custom channel (Dynamics 365 Marketing Developer Guide) | MicrosoftDocs"
+title: "Remove custom channel (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Provides information on how to uninstall/remove custom channel from your Dynamics 365 Marketing instance."
-ms.custom: 
-  - dyn365-developer
-  - dyn365-marketing
+keywords: developer; dev; developer guide; system configuration
 ms.date: 04/01/2018
 ms.service: dynamics-365-marketing
-ms.technology: 
-  - marketing
-ms.topic: conceptual
-ms.assetid: 9b170052-5300-4d69-af80-c81247c2fdab
-author: KumarVivek
-ms.author: kvivek
-manager: kvivek
+ms.custom: 
+  - dyn365-marketing
+ms.topic: developer-guide
+ms.assetid: 1f1a8244-2dc5-4de2-b7f8-719a46c82861
+author: alfergus
+ms.author: alfergus
+manager: shellyha
+ms.reviewer:
+topic-status:
 search.audienceType: 
   - developer
 search.app: 
   - D365CE
   - D365Mktg
 ---
+
 # Remove custom channel
 
 This step is typically performed by administrators of your Dynamics 365 Marketing instance.
@@ -31,7 +32,7 @@ After you have taken care of the dependencies, delete the managed solution to re
 
 If there are any customer journeys that still use one or more components of the custom channel app solution, you will receive the following error on deleting the custom channel app solution:
 
-![](../media/error-delete-solution.png)
+![Cannot delete component error](../media/error-delete-solution.png "Cannot delete component error")
 
 Review your customer journey records to identify the ones still using the custom tile, remove the custom tile from the customer journey or the customer journey record itself, and then retry deleting the custom channel app solution.
 

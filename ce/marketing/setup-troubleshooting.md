@@ -2,7 +2,7 @@
 title: "Administration and setup frequently asked questions (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Solutions to common questions and issues that can occur during the initial setup and ongoing administration of Dynamics 365 Marketing"
 keywords: troubleshooting;setup
-ms.date: 10/04/2019
+ms.date: 12/01/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -13,7 +13,7 @@ author: alfergus
 ms.author: alfergus
 manager: shellyha
 ms.reviewer:
-topic-status: Drafting
+topic-status: 
 search.audienceType: 
   - admin
   - customizer
@@ -25,7 +25,7 @@ search.app:
 
 # Administration and setup FAQ
 
-Read this topic to find answers to common questions and solutions to known issues that can sometimes occur during the initial setup and ongoing administration of Dynamics 365 Marketing.
+Read this article to find answers to common questions and solutions to known issues that can sometimes occur during the initial setup and ongoing administration of Dynamics 365 Marketing.
 
 <a name="licensing"></a>
 
@@ -49,14 +49,14 @@ Dynamics 365 Marketing is licensed per instance, with each instance priced accor
     To see how many of each quota you've purchased and used, go to **Settings** > **Advanced settings** > **Other settings** > **Quota limits**.
 
 - **What is my monthly email quota?**  
-    Your monthly email quota is equal to ten times the number of marketing contacts you have purchased.
+    Your monthly email quota is equal to 10 times the number of marketing contacts you have purchased.
 
 - **If I use a contact only once in a month and don’t use it next month, does it count?**  
     Marketing contacts are cumulative throughout your license period. Once you've engaged a contact in any marketing activity, that contact counts against your quota from that point forward. You can "true down" the number of marketing contacts you've purchased on the anniversary of your contract.
 
 - **How can I learn more about Dynamics 365 Marketing licensing?**
   - For an overview, see [Purchase and set up Dynamics 365 Marketing](purchase-setup.md) 
-  - For complete terms that apply to subscribed (paid) versions, please download the [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?linkid=866544).
+  - For complete terms that apply to subscribed (paid) versions, download the [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?linkid=866544).
   - For trials, see [Dynamics 365 Marketing limits for trials](trial-preview-limits.md).
   - Check the [Readme](https://go.microsoft.com/fwlink/p/?linkid=864736) document for the latest news and updates.
 
@@ -75,9 +75,12 @@ When you are setting up your Marketing app, the setup wizard asks you to choose 
 One of the requirements for running the [setup wizard](purchase-setup.md) for Dynamics 365 Marketing is that you must sign in to Microsoft 365 with a user account that has permissions to register applications on Azure. To find out if you have these permissions, do the following:
 
 1. Go to [portal.azure.com](https://portal.azure.com) and sign in with the Microsoft 365 account that you want to use to install Dynamics 365 Marketing.
-1. Select **Azure Active Directory** in the side navigator and the **User settings** in the second side navigator.
-    ![Azure user settings](media/faq-azure-user-settings.png "Azure user settings") 
-1. Check the **App registrations** section on this page. If the **Yes** box is highlighted here, then you have permissions to register applications on Azure. If the **No** box is highlighted instead, try to select the **Yes** box and then select **Save**; if you don't have permissions to make this change, then please talk to your global administrator for assistance.
+1. Select **Azure Active Directory** under **Azure services**. On the next page, select **User settings** from the left side navigation.
+
+    > [!div class="mx-imgBorder"]
+    > ![Azure user settings](media/faq-azure-user-settings2.png)
+
+1. Check the **App registrations** section on this page. If the **Yes** box is highlighted here, then you have permissions to register applications on Azure. If the **No** box is highlighted instead, try to select the **Yes** box and then select **Save**; if you don't have permissions to make this change, talk to your global administrator for assistance.
 
 ## Why do I get an authorization-failed message when I try to run the setup wizard?
 
@@ -90,16 +93,6 @@ To fix this, do one of the following:
 - If you are just setting up a trial of Marketing, then consider creating a new trial tenant and set up the Marketing trial there, as described in [Choose or prepare your Microsoft 365 tenant](trial-signup.md#choose-tenant).
 - If you want to continue using the tenant where you received this error, then you must convert your unmanaged org into a managed one and then run the Marketing setup wizard again. For instructions on how to do this, see [Take over an unmanaged directory as administrator in Azure Active Directory](https://go.microsoft.com/fwlink/p/?linkid=866761).
 
-<a name="partial-setup"></a>
-
-## It looks like Marketing is set up on my instance, but why does it generate so many errors?
-
-If Marketing is visible on your instance, but nothing is working, then you might have just a partial installation. This can happen if you use the Power Platform admin center to set up Marketing as a service (on the **Instances** tab) rather than as an app (on the **Applications** tab). As a result, you might have the Marketing service installed, but not its many supporting components.
-
-To fix this, go back to the [Power Platform admin center](power-platform-admin-center.md) and reinstall from the **Applications** tab as described in [Purchase and set up Dynamics 365 Marketing](purchase-setup.md). The setup wizard should fix your installation.
-
-![Set up Marketing using the Applications tab, not the Instances tab](media/purchase-app-tab.png "Set up Marketing using the Applications tab, not the Instances tab")
-
 <a name="run-fre"></a>
 
 ## How can I rerun the setup wizard?
@@ -107,7 +100,7 @@ To fix this, go back to the [Power Platform admin center](power-platform-admin-c
 If your setup fails for some reason, you'll be notified by email and/or by a status message in your web browser (if you keep it open during the installation). Often, part of the solution will be to rerun the setup wizard after waiting for an hour or so. To rerun the setup wizard, do one of the following:
 
 - If you are setting up a [trial](trial-signup.md), then you should have received a welcome email that included a link to the setup wizard. Find your welcome mail and click that link to launch the wizard.
-- If you are setting up a production instance, then launch the setup wizard from the **Applications** tab in the Power Platform admin center, as described in [Re-run the Marketing setup wizard](re-run-setup.md).
+- If you are setting up a production instance, then launch the setup wizard by going to **Resources** > **Dynamics 365 apps** in the Power Platform admin center, as described in [Re-run the Marketing setup wizard](re-run-setup.md).
 
 <a name="fix-portal"></a>
 
@@ -196,11 +189,12 @@ If clearing the cache didn't fix your portal issues, then restarting it may help
 
 To restart your portal:
 
-1. [Open the Power Platform admin center](power-platform-admin-center.md) and go to the **Applications** tab.
+1. [Open the Power Platform admin center](power-platform-admin-center.md) and go to **Resources** > **Portals** on the left navigation pane.
 
-2. Each configured portal app is listed in the **Application** column using the name of the Dynamics 365 instance it is assigned to (so it probably doesn't have "portal" in its name), and shows a value of **Configured** in the **Status** column. Find and select your portal in the list and then select **Manage** in the side panel.  
+2. Each configured portal app is listed using the name of the Dynamics 365 instance it is assigned to (so it probably doesn't have "portal" in its name), and shows a value of **Configured** in the **Status** column. Find and select your portal in the list and then select **Manage** in top navigation ribbon.  
 
-    ![Select your portal](media/faq-portal-manage.png "Select your portal")
+    > [!div class="mx-imgBorder"]
+    > ![Manage your portal](media/faq-portal-manage4.png)
 
 3. The portals manager opens. Select **Portal actions** in the side panel, and then select the **Restart** tile to restart the portal. 
 
@@ -214,11 +208,12 @@ To restart your portal:
 
 The Power Platform admin center enables you to change the  name of any of your instances at any time. If you do so, then the URL for the affected instance will also change to match and, as a result, your portal will no longer be configured correctly and will stop working. To fix it, you must reconfigure your portal as follows:
 
-1. [Open the Power Platform admin center](power-platform-admin-center.md) and go to the **Applications** tab.
+1. [Open the Power Platform admin center](power-platform-admin-center.md) and go to **Resources** > **Portals** on the left navigation pane.
 
-2. Each configured portal app is listed in the **Application** column using the name of the Dynamics 365 instance it is assigned to (so it probably doesn't have "portal" in its name), and shows a value of **Configured** in the **Status** column. Find and select your portal in the list and then select **Manage** in the side panel.  
+2. Each configured portal app is listed using the name of the Dynamics 365 instance it is assigned to (so it probably doesn't have "portal" in its name), and shows a value of **Configured** in the **Status** column. Find and select your portal in the list and then select **Manage** top ribbon.  
 
-    ![Select your portal](media/faq-portal-manage.png "Select your portal")
+    > [!div class="mx-imgBorder"]
+    > ![Select your portal](media/faq-portal-manage4.png)
 
 3. The portals manager opens. Select **Portal actions** in the side panel, and then select the **Update Dynamics 365 URL** tile to update the URL.  
 
@@ -228,45 +223,43 @@ The Power Platform admin center enables you to change the  name of any of your i
 
 <a name="fix-voc"></a>
 
-## My surveys aren't working; how can I fix my Voice of the Customer installation?
+## My surveys aren't working; how can I fix my Dynamics 365 Customer Voice installation?
 
-If you don't see the **Survey** tile in the **Toolbox** of your [customer journey designer](customer-journeys-create-automated-campaigns.md), or if it isn't working properly, then the Dynamics 365 Marketing setup wizard might have failed to set up the Voice of the Customer app correctly. If this was the only error that occurred during installation, then you might not have received any messages about it. To fix this, do the following:
+If you don't see the **Survey** tile in the **Toolbox** of your [customer journey designer](customer-journeys-create-automated-campaigns.md), or if it isn't working properly, then the Dynamics 365 Marketing setup wizard might have failed to set up the Dynamics 365 Customer Voice app correctly. If this was the only error that occurred during installation, then you might not have received any messages about it. To fix this, do the following:
 
 1. [Open the Power Platform admin center](power-platform-admin-center.md).
 
-1. Go to the **Applications** tab, select any **Voice of the Customer** application in the applications list, and then select the **Manage** button in the side panel.
+1. Go **Resources** > **Dynamics 365 apps** on the left navigation pane, select any **Dynamics 365 Customer Voice** application in the applications list, and then select the **Install** button on the top ribbon.
 
-    ![Manage your Voice of the Customer installation](media/admin-voc-manage.png "Manage your Voice of the Customer installation")
+    > [!div class="mx-imgBorder"]
+    > ![Install Dynamics 365 Customer Voice](media/admin-cv-manage.png)
 
-1. The **Set up Voice of the Customer** page opens.
+1. The **Install Dynamics 365 Customer Voice** pane opens.
 
-    ![Set up your Voice of the Customer installation](media/admin-voc-setup.png "Set up your Voice of the Customer installation")
+    > [!div class="mx-imgBorder"]
+    > ![Set up your Customer Voice installation](media/admin-cv-setup.png)
 
     Do the following:
-    - Choose the instance you are having trouble with from the **Dynamics 365 Instance** drop-down list. 
-    - Read the license terms and the privacy policy carefully. If you agree with their terms, select the **Accept the Dynamics 365 software license terms and privacy statement** check box.
+    - Choose the instance you are having trouble with from the **Select an environment** drop-down list. 
+    - Read the license terms and the privacy policy carefully. If you agree with their terms, select the **I agree to the terms of service** check box.
 
 1. Select **Install**. A message at the bottom of the page announces that the installation has successfully started.
 
-1. To track the installation progress, go back to your Power Platform admin center and open the **Instances** tab. Select your instance in the list and then select the **Solutions** button in the side panel.
+1. To track the installation progress, go back to your Power Platform admin center and open the **Environments** list. Select your environment in the list and then select **Resources** > **Dynamics 365 apps** in the top ribbon.
 
-    ![Manage the solutions installed on your instances](media/admin-voc-instances.png "Manage the solutions installed on your instances")
+    > [!div class="mx-imgBorder"]
+    > ![Manage the solutions installed on your environments](media/admin-cv-instances.png)
 
-1. The **Manage your solutions** page opens, showing a list of solutions installed on your selected instance and the status of each of them. Find the **Voice of the Customer for Microsoft Dynamics 365** solution (not the **Voice of the Customer *Link* for Dynamics 365** solution) and then refresh the page periodically until you can see that the solution is shown as **Installed**.
+1. The **Dynamics 365 apps** page for your selected environment opens, showing a list of solutions installed on your selected environment and the status of each of them. Find the **Dynamics 365 Customer Voice** solution and then refresh the page periodically until you can see that the solution is shown as **Installed**.
 
-    ![The Manage your solutions page](media/admin-voc-solutions4.png "The Manage your solutions page")
-
-1. Still on the **Manage your solutions** page, find and select the solution called **Voice of the Customer *Link* for Dynamics 365** (not the **Voice of the Customer for Microsoft Dynamics 365** solution that you were looking at in the previous step). Then select the **Install** button.
-
-    ![View details about your Marketing solution](media/admin-voc-solutions5.png "View details about your Marketing solution")
-
-1. Follow the instructions on your screen and wait for the solution to finish installing.
+    > [!div class="mx-imgBorder"]
+    > ![Installation progress](media/admin-cv-solutions4.png)
 
 1. Open Dynamics 365 Marketing, go to **Settings** > **Advanced settings** > **Marketing settings** > **Marketing data configuration**, and enable syncing of the **Survey (msdyn_survey)** entity. More information: [Choose entities to sync with the marketing-insights service](mkt-settings-sync.md)
 
 1. Confirm that the **Survey** tile is now visible in the customer journey toolbox, and that your surveys are working correctly.
 
-If your surveys still aren't working after completing these steps, then please [contact Microsoft Support](#contact-support) for assistance.
+If your surveys still aren't working after completing these steps, [contact Microsoft Support](#contact-support) for assistance.
 
 <a name="uci-only-data"></a>
 
@@ -290,4 +283,4 @@ For additional support and help resources you can:
 - Get in touch with the community on the [Dynamics 365 Marketing forum](https://community.dynamics.com/365/marketing/f/768).
 - Find additional [online help resources for Dynamics 365](https://docs.microsoft.com/power-platform/admin/get-help-support).
 
-If you’ve already tried to set up the application several times and are still having trouble, please open a support case through your applicable Microsoft Premier channel or MPN partner channel.
+If you’ve already tried to set up the application several times and are still having trouble, open a support case through your applicable Microsoft Premier channel or MPN partner channel.
