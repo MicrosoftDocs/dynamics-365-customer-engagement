@@ -1,5 +1,6 @@
 ---
 title: "Multiresource scheduling with requirement groups in Dynamics 365 Field Service | MicrosoftDocs"
+description: Learn about multiresource scheduling with requirement groups in Dynamics 365 Field Service
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 06/24/2019

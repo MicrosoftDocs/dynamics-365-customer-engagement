@@ -6,7 +6,7 @@ ms.custom:
 ms.date: 12/05/2018
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
-ms.topic:"article
+ms.topic:article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"

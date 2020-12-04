@@ -1,6 +1,6 @@
 ---
 title: "Next generation schedule board experience in Dynamics 365 Field Service | MicrosoftDocs"
-description: "Learn about the next generation schedule board experience in Dynamics 365 Field Service
+description: Learn about the next generation schedule board experience in Dynamics 365 Field Service
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 04/01/2020

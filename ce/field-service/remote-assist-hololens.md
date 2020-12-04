@@ -4,6 +4,7 @@ description: Learn how to collaborate in mixed reality by integrating Dynamics 3
 ms.custom: dyn365-fieldservice
 ms.date: 08/01/2020
 ms.reviewer: krbjoran
+ms.service: dynamics-365-customerservice
 ms.topic: article
 author: FieldServiceDave
 ms.author: daclar
