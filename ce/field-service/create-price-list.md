@@ -1,24 +1,15 @@
 ---
 title: "Using price lists in Dynamics 365 Field Service | MicrosoftDocs"
+description: Learn about using price lists in Dynamics 365 Field Service
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 11/18/2019
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.technology: 
-  - field-service
-ms.tgt_pltfrm: 
 ms.topic: article
 author: FieldServiceDave
-ms.assetid: e8ecd5c3-002a-4482-b265-72e061d12132
-caps.latest.revision: 16
 ms.author: daclar
 manager: shellyha
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
 search.app: 
   - D365CE
   - D365FS
@@ -150,7 +141,7 @@ When a price list is added to a work order, it's automatically propagated to all
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a work order service in the duration and sale amount section](./media/price-list-service-used.png)
 
-In our example, the field technician set the work order service **Line Status** to **Used** from his or her mobile app, and the dispatcher can see the pricing in the **Duration & Sale Amount** section.
+In our example, the field technician set the work order service **Line Status** to **Used** from their mobile app, and the dispatcher can see the pricing in the **Duration & Sale Amount** section.
 
 With a **Duration to Bill** of 1 hour, the subtotal is $460, because of a $580 hourly rate as derived from the price list item **Amount**, and factoring 15 free minutes from the **Minimum Charge Duration** and a $25 surcharge from the **Minimum Charge Amount**.
 
