@@ -28,7 +28,7 @@ search.app:
 > [!IMPORTANT]
 >
 > - The latest release of [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-outlook.md)] works with customer engagement apps in Dynamics 365 (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing, and Dynamics 365 Project Service Automation), [Dynamics 365 Customer Engagement (on-premises), version 9](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/overview), and [Microsoft Dataverse](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro).
-> - App for Outlook uses Microsoft Edge (Spartan or Legacy) browser on Windows 10 1903 or later with Outlook C2R build Current Channel/Monthly Enterprise Channel/Semi-Annual Enterprise Channel (16.0.13127.20508 +). For all other combination of Windows and Outlook, Outlook will use Microsoft Internet Explorer browser.
+> - App for Outlook uses Microsoft Edge (Spartan or Legacy version) on Windows 10 1903 or later with Outlook C2R build Current Channel/Monthly Enterprise Channel/Semi-Annual Enterprise Channel (16.0.13127.20508 +). For all other combinations of Windows and Outlook, App for Outlook will use Microsoft Internet Explorer.
 >
 > - Multi-factor authentication with [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] and Server Side Synchronization is supported only in an online-only configuration. It is not a supported scenario for Dynamics 365 Customer Engagement (on-premises) or Microsoft Exchange on-premises.
 >
