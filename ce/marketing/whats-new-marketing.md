@@ -30,6 +30,48 @@ Marketing updates are [pushed to all customers automatically](https://cloudblogs
 > [!Note]
 > To submit and vote on **feature requests** and **product suggestions**, go to the [Dynamics 365 Application Ideas portal](https://experience.dynamics.com/ideas/categories/?forum=bee3d862-df65-e811-a95d-000d3a1be7ad&forumName=Dynamics%20365%20Marketing).
 
+## December 2020 update
+
+The Dynamics 365 Marketing December 2020 update includes improvements to Microsoft Teams integration, email designer enhancements, additional social posting features, and monthly bug fixes.
+
+### Version number
+
+| App              | GA release      |
+|------------------|-----------------|
+| Marketing        | 1.35.10067.1044 |
+
+> [!Tip]
+> To check your current version number, refer to [Find out which version of Dynamics 365 Marketing you are running](https://docs.microsoft.com/dynamics365/marketing/apply-updates#find-out-which-version-of-dynamics-365-marketing-you-are-running).
+
+### Monthly enhancements
+
+- **Event management**
+    - Added a new API for generating personalized iCalendar files based on event and session data.
+- **Marketing emails**
+    - Added email designer support for rounded corners in Outlook.
+    - Improved email rendering consistency when forwarding emails in Outlook.
+- **Social posting**
+    - You can now view post history and replies from social channels in the social post designer.
+
+### Bug fixes
+
+- **Customer journeys**
+    - 
+- **Data services**
+    - 
+- **Event management**
+    - 
+- **First run experience**
+    - 
+- **Framework**
+    - 
+- **Lead management**
+    - 
+- **Marketing emails**
+    - 
+- **Marketing pages**
+    - 
+
 ## November 2020 update
 
 The Dynamics 365 Marketing November 2020 update includes several enhancements including social posting improvements, Microsoft Teams integration updates, a revamped portals experience, template gallery improvements, and bug fixes.
