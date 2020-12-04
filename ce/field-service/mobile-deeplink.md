@@ -1,5 +1,6 @@
 ---
 title: "Use deep links with Field Service Mobile | MicrosoftDocs"
+description: Learn how to use deep links with Field Service Mobile
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 03/02/2020
