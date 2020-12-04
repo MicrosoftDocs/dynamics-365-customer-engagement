@@ -1,26 +1,18 @@
 ---
 title: "IoT alert AI suggestions | MicrosoftDocs"
+description: Learn about AI suggestions for IoT alerts in Connected Field Service
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 04/01/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 author: FieldServiceDave
-ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
-caps.latest.revision: 42
 ms.author: daclar
 manager: shellyha
-search.audienceType: 
-  - admin
-  - customizer
 search.app: 
   - D365CE
   - D365FS
@@ -46,7 +38,7 @@ By enabling these IoT alert suggestions, you'll be able to:
 A few reminders before digging into this article:
 
 - An [incident type](configure-incident-types.md) is the main issue of a work order and can dictate related details like work order type, products, services, and service tasks. 
-- **Priority** in this feature represents the priority to the business, generally measured by financial impact or customer satisfaction. For example, imagine an IoT alert notifies the organization that a building's heating is broken, and this could have a large impact on an event and customer satisfaction. This would represent a _high_ priority because of the large business impact. For more information, see the configuration considerations at the end of this article. 
+- **Priority** represents the priority to the business, measured by financial impact or customer satisfaction. For example, imagine an IoT alert notifies the organization that a building's heating is broken, and the outage could have a large impact on an event and customer satisfaction. This case would represent a _high_ priority because of the large business impact. For more information, see the configuration considerations at the end of this article. 
 
 ## Prerequisites
 
@@ -130,7 +122,8 @@ The priority and suggested incident type is also displayed on the IoT alert form
 
 
 ## Configuration considerations
-- The priority score is calculated for a particular alert using the model trained across historical alerts and related entities (see configuration considerations for more details). A dynamic threshold determines which alerts are "high" or actionable, and which are "low." The threshold is optimized in each training for maximum model performance to account for changing data patterns. A dynamic distribution also means that alerts which are previously scored stay relevant, as the model continues to learn and improve. In general, a higher priority score indicates the alert is more actionable.
+
+- The priority score is calculated for a particular alert using the model trained across historical alerts and related entities (see configuration considerations for more details). A dynamic threshold determines which alerts are "high" or actionable, and which are "low." The threshold is optimized in each training for maximum model performance to account for changing data patterns. A dynamic distribution also means that alerts that are previously scored stay relevant, as the model continues to learn and improve. In general, a higher priority score indicates the alert is more actionable.
 - If the model needs to be reconfigured based on changes to the system or changing business needs, you can go through the set up again by going to **Settings** > **Settings (in IoT section)** > **IoT Suggestions section** and selecting **Reconfigure IoT suggestions** in the top ribbon. 
 - When applicable, the model will return **No suggestions** if there's no recommendation. 
 - Suggestions are updated every 24 hours.

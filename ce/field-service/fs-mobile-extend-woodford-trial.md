@@ -2,6 +2,7 @@
 title: "How do I extend my Woodford Trial? (Dynamics 365 Field Service) | MicrosoftDocs"
 description: Learn how to extend your Woodford trial for Dynamics 365 Field Service
 ms.custom: dyn365-fieldservice
+ms.service: dynamics-365-customerservice
 ms.date: 03/23/2020
 ms.reviewer: krbjoran
 ms.topic: article
