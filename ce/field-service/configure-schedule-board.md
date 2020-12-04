@@ -1,24 +1,15 @@
 ---
 title: "Configure the schedule board (Dynamics 365 Field Service and Dynamics 365 Project Service Automation) | MicrosoftDocs"
+description: Learn about how to configure the schedule board in Dynamics 365 Field Service
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 07/07/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.technology: 
-  - field-service
-ms.tgt_pltfrm: 
 ms.topic: article
 author: FieldServiceDave
-ms.assetid: a9a65fd8-1d2f-475e-83d2-2c052b9f2573
-caps.latest.revision: 32
 ms.author: daclar
 manager: shellyha
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
 search.app: 
   - D365CE
   - D365FS
@@ -43,14 +34,14 @@ The [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)
   
 ## View the schedule board  
   
--   To view the schedule, from the main menu, click **Resources Scheduling** > **Schedule Board**.  
+-   To view the schedule, from the main menu, select **Resources Scheduling** > **Schedule Board**.  
     
 ## Overview of the schedule board  
  When you hover over a booking using your mouse, you'll see additional information about it. The line color indicates the type of booking, such as work order, case, or opportunity.  
   
  Bookings that are not linked to an entity don’t have a color associated with them.  
   
- When you’re looking at the schedule board for the current day, you’ll see a blue line which indicates the current time of day. You can also see a picture of all the resources listed on the schedule board. To quickly view contact information for a resource, hover over their name to view the contact card.  
+ When you’re looking at the schedule board for the current day, you’ll see a blue line that indicates the current time of day. You can also see a picture of all the resources listed on the schedule board. To quickly view contact information for a resource, hover over their name to view the contact card.  
   
  ![Schedule board color coding in Dynamics 365 Field Service](../field-service/media/field-service-schedule-board-color-coding-example.png "Schedule board color coding in Dynamics 365 Field Service")  
   
@@ -62,9 +53,9 @@ The [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)
   
 ### Set filters  
   
-1. From the main menu, click **Resource Scheduling**  > **Schedule Board**.  
+1. From the main menu, select **Resource Scheduling**  > **Schedule Board**.  
   
-2. **Filter & Map View**: Click the **Filter** tab to filter information by **Characteristics - Rating** **Roles**, **Territories**, **Organizational Units**, **Resource Types**, **Teams**, and **Business Units** to narrow or expand the schedule board view.  
+2. **Filter & Map View**: select the **Filter** tab to filter information by **Characteristics - Rating** **Roles**, **Territories**, **Organizational Units**, **Resource Types**, **Teams**, and **Business Units** to narrow or expand the schedule board view.  
   
    - **Characteristics – Rating**, filters by skills that resources possess, with a rating of familiar, good, or proficient. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up characteristics](../field-service/set-up-characteristics.md)  
   
@@ -83,20 +74,20 @@ The [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)
 ### Set default filters  
  ![Schedule Board Default Filters](../field-service/media/field-service-schedule-board-default-filters.png "Schedule Board Default Filters")  
   
--   If you update a filter and want to save it as your new default filter, click **Options** > **Save Current Filters as Default**.  
+-   If you update a filter and want to save it as your new default filter, select **Options** > **Save Current Filters as Default**.  
   
--   To go back to your default filter, click **Options** > **Load Default Filters**.  
+-   To go back to your default filter, select **Options** > **Load Default Filters**.  
   
 ### Set options to see a specific set of resources  
  You can also create an option to see only a specific set of resources on the schedule board. For example, a dispatcher using Field Service can create an option to only see resources on the schedule board that are in the Washington territory. Once this is set, when you use the filter option it will only show your specified set of resources.  
   
-1.  Click **Options** > **Select Resources**.  
+1.  Select **Options** > **Select Resources**.  
   
 2.  In the **Resources** dialog box, use the **Resource Type** and **Service Territory** filter to find the set of resources that you want to see on the schedule board.  
   
-3.  When you see the resources that you want to work with under **All Resources**, click **Move all to right**.  
+3.  When you see the resources that you want to work with under **All Resources**, select **Move all to right**.  
   
-4.  When you’re done, click **Apply**.  
+4.  When you’re done, select **Apply**.  
   
 <a name="BKMK_ConfigurationTabs"></a>   
 ## Configuration tabs  
@@ -106,18 +97,18 @@ The [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)
   
  **View Options**  
   
--   To configure the schedule board's time horizon to see hours, days, weeks, months, or years at a time, click the **Hours** button,  and then choose an option.  
+-   To configure the schedule board's time horizon to see hours, days, weeks, months, or years at a time, select the **Hours** button,  and then choose an option.  
   
 -   By default, the schedule board is presented in horizontal view, with the time in columns and resources in rows.  
   
-    -   To see a vertical layout of the schedule board, click **Vertical View**. The vertical view shows the same information, but changes the appearance of the schedule board. The resources are presented in columns and time is shown on the left.  
+    -   To see a vertical layout of the schedule board, select **Vertical View**. The vertical view shows the same information, but changes the appearance of the schedule board. The resources are presented in columns and time is shown on the left.  
   
     -   Select the **Map View** option to show a map version of the schedule board. This is the same map view that appears in the **Filter & Map** view pane on the left.  
   
 ### Scheduler settings  
  Scheduler settings let you configure your time offset so you can synchronize dates and content with a location.  
   
--   Click the **Scheduler Setting** button and choose the following:  
+-   Select the **Scheduler Setting** button and choose the following:  
   
     - **Time Zone**: Choose what time zone to work in.  
   
@@ -138,7 +129,7 @@ The [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)
     - **Booking Requirements Settings**: This filter shows only booking requirements for a specified territory.  
   
 ### Details  
- Click **Details** on the right to see a detailed view of bookings.  
+ Select **Details** on the right to see a detailed view of bookings.  
   
  ![Schedule board details option](../field-service/media/field-service-schedule-board-details-option.png "Schedule board details option")  
   
@@ -146,11 +137,11 @@ The [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)
 ## Configure Booking Requirements  
  The booking requirements area is shown at the bottom of the schedule board and lists all unscheduled bookings. You can easily drag and drop unscheduled bookings from the list onto the schedule board.  
   
- You can also select an unscheduled booking and find available resources from those that are listed on the schedule board, or choose from all the resources in the system. When you do this the filters will show the options for the selected booking requirement. [Schedule a work order](../field-service/schedule-work-order.md)  
+ You can also select an unscheduled booking and find available resources from those that are listed on the schedule board, or choose from all the resources in the system. When you do this, the filters will show the options for the selected booking requirement. [Schedule a work order](../field-service/schedule-work-order.md)  
   
 -   Go to the list of existing unscheduled booking requirements in the lower pane of the schedule board.  
   
-    -   Click column headings to sort data from least to greatest, or to sort it alphabetically, etc.  
+    -   Select column headings to sort data from least to greatest, or to sort it alphabetically, etc.  
   
     -   Adjust column width by dragging column boundaries on each column title.  
   
@@ -161,7 +152,7 @@ The [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)
 <a name="BKMK_CreateAdditionalTabs"></a>   
 ## Create additional tabs  
   
-- To add a new schedule board tab, click **+Add Tab** at the top.  
+- To add a new schedule board tab, select **+Add Tab** at the top.  
   
   > [!NOTE]
   >  To edit an existing schedule board view, double-click the view name.  
@@ -172,18 +163,18 @@ The [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)
   
   -   Give the tab a name by filling in the **Name** field.  
   
-  -   You can configure a tab in a several ways by choosing parameters in each of the configuration options shown in the pop-up window.  
+  -   You can configure a tab in several ways by choosing parameters in each of the configuration options shown in the pop-up window.  
   
-  -   Click the **General Settings**, and then choose settings for the map as well as other settings.  
+  -   Select the **General Settings**, and then choose settings for the map as well as other settings.  
   
-  -   Click the **Schedule Types** option, and then choose booking tooltips, template views, and default availability view for each entity type that has scheduling turned on.  
+  -   Select the **Schedule Types** option, and then choose booking tooltips, template views, and default availability view for each entity type that has scheduling turned on.  
   
-  -   Click **Add** at the bottom of the pop-up window to create the new tab.  
+  -   Select **Add** at the bottom of the pop-up window to create the new tab.  
   
   > [!NOTE]
   >  Your admin can also add custom views to the list. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit a public view for an entity](../customize/create-edit-views.md)  
   
-- Click the **Unscheduled Panels** view, and then choose a view from the drop-down list. Choose a view for the unscheduled bookings at the bottom of the schedule board.  
+- Select the **Unscheduled Panels** view, and then choose a view from the drop-down list. Choose a view for the unscheduled bookings at the bottom of the schedule board.  
   
 ### Add booking requirements tabs  
  You can create booking requirement tabs for different types of bookings. For example, you can create separate tabs for work orders, cases, and opportunities.  
