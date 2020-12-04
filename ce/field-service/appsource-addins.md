@@ -18,4 +18,11 @@ search.app:
 
 [!include[](../includes/pn-crm-9-0-0-online.md)]
 
-To better accommodate industry requirements and augment core functions, many developers, consultants, and business analysts have published apps specially designed for field service. From Internet of Things (IoT) scenarios and serialized inventory, to intelligent service and enhanced maps, find dozens of add-ins on the [Field Service AppSource page](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365-for-field-services).
+To better accommodate industry requirements and augment core functions, many developers, consultants, and business analysts have published apps specially designed for field service.
+
+Find dozens of add-ins on the [Field Service AppSource page](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365-for-field-services), such as: 
+
+- Internet of Things (IoT) scenarios
+- Serialized inventory
+- Intelligent service
+- Enhanced maps
