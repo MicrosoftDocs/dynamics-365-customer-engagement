@@ -1,24 +1,15 @@
 ---
-title: "Create products or services for Work Orders | MicrosoftDocs"
+title: "Create products or services for work orders in Dynamics 365 Field Service | MicrosoftDocs"
+description: Learn how to create products or services for work orders in Dynamics 365 Field Service
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 06/05/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.technology: 
-  - field-service
-ms.tgt_pltfrm: 
 ms.topic: article
 author: FieldServiceDave
-ms.assetid: e6acfdb3-1580-4052-8895-8efbf98dfae8
-caps.latest.revision: 15
 ms.author: daclar
 manager: shellyha
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
 search.app: 
   - D365CE
   - D365FS
@@ -122,7 +113,7 @@ Add the following information, in the applicable sections:
 
 ### General
 
-- **Product:** Choose from the lookup the product you just created.
+- **Product:** Choose from the lookup the product you created.
 
 - **Line Status**: When a product or service is added to a work order, a new **Work Order Product** or **Work Order Service** record is created. It's given a status of **Estimated** by default, which means it has not yet been used. When a field technician actually uses the product or performs the service, they will change the work order product or service status to **Used** from their mobile device. Field technicians and back-office workers will have the option to bill the client after the product or service is used. 
 

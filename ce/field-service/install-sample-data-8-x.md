@@ -1,18 +1,14 @@
 ---
 title: "Sample data installation (Dynamics 365 Field Service) | MicrosoftDocs"
+description: Learn how to install sample data for Dynamics 365 Field Service
 ms.custom: dyn365-fieldservice
+ms.service: dynamics-365-customerservice
 ms.date: 04/24/2020
+ms.topic: article
 ms.reviewer: krbjoran
-ms.suite: 
-ms.technology: 
-  - field-service
 author: FieldServiceDave
 ms.author: daclar
 ms.manager: shellyha
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
 search.app: 
   - D365CE
   - D365FS
@@ -36,7 +32,7 @@ The sample data packages are:
 
 These sample data packages are available in English only.
 
-**Important: There is no way to uninstall the sample data.** You should only install these packages on demonstration, evaluation, training, or test systems. Also note that installing an individual package, and then installing the other individual package, is not supported. (In other words, you can't install **FSMasterData** followed by **PSMasterData**, or vice versa). If you see yourself needing sample data for both applications at any point in the future, you should install the **v902FPSMasterData** package.
+**Important: There is no way to uninstall the sample data.** Only install these packages on demonstration, evaluation, training, or test systems. Also note that installing an individual package, and then installing the other individual package, is not supported. (In other words, you can't install **FSMasterData** followed by **PSMasterData**, or vice versa). If you see yourself needing sample data for both applications at any point in the future, you should install the **v902FPSMasterData** package.
 
 When you install any of the sample data packages, the installation process performs the following actions:
 
@@ -70,9 +66,9 @@ The installation protocol assumes the following about your target instance (org)
 
 ## Prepare for installation
 
-You need to run the installer on a computer with a recent version of Windows (Windows 10 preferred).
+Be sure to run the installer on a computer with a recent version of Windows (Windows 10 preferred).
 
-You should plan for the computer to remain connected to a network, and for the installation to run for up to one hour. (Normally the installation takes around 30 minutes for **FPSMasterData**, which includes sample data for both applications.)
+Plan for the computer to remain connected to a network, and for the installation to run for up to one hour. (Normally the installation takes around 30 minutes for **FPSMasterData**, which includes sample data for both applications.)
 
 The computer should have the screen saver function turned off. Otherwise, session credentials for the installation may be lost when the screen saver engages (unless you keep your session active throughout).
 
@@ -105,9 +101,9 @@ To create or configure users, go to **Settings** > **Security** > **Users**, and
 
 2. Select the **Spencer Low** user, and then select **Manage Roles**. Find and select the **System Administrator** role, and then select **OK** to grant full admin rights to Spencer Low. This step is necessary to ensure that sample records are created with the correct user ownership and therefore populate views correctly.
 
-3. From the downloaded package, you need to update a data mapping file with email addresses of the default user context. To do this, open **PkgFolder**, and then find and open the **ImportUserMapFile.xml** file in Notepad (or Visual Studio or another XML editor). Set the **DefaultUserToMapTo=** field to the email address of the Spencer Low user.
+3. From the downloaded package, you need to update a data-mapping file with email addresses of the default user context. To do this, open **PkgFolder**, and then find and open the **ImportUserMapFile.xml** file in Notepad (or Visual Studio or another XML editor). Set the **DefaultUserToMapTo=** field to the email address of the Spencer Low user.
 
-4. If you aren't using Spencer Low with username **spencerl**, you need to update an additional file. Open the **DemoDataPreImportConfig.xml** file, and then find the **userstocreateandconfigure** tag. Update the **\<login\>** tag with the username of your Spencer Low user. For additional details, see the technical notes below.
+4. If you aren't using Spencer Low with username **spencerl**, you need to update an additional file. Open the **DemoDataPreImportConfig.xml** file, and then find the **userstocreateandconfigure** tag. Update the **\<login\>** tag with the username of your Spencer Low user. For more information, see the technical notes below.
 
 **Recommendation:** Consider creating a backup of your org now, in case you need to revert to your starting point if something goes wrong during the sample data installation. For more information, see [Backup and restore instances](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances).
 
@@ -135,9 +131,9 @@ To create or configure users, go to **Settings** > **Security** > **Users**, and
     > [!div class="mx-imgBorder"]
     > ![Screenshot of the demo data installer status window](media/sample-data-3.png)
 
-6. Before proceeding, note that installing sample data could take up to one hour (normally ~10 minutes). You'll need to make sure the computer remains on and connected to a network throughout the installation process, and that your session remains active.   
+6. Installing sample data could take up to one hour (normally ~10 minutes). You'll need to make sure the computer remains on and connected to a network throughout the installation process, and that your session remains active.   
 
-7. When you're ready, click **Next** to start the sample data installation process. After the sample data is loaded, click **Finish**.
+7. When you're ready, select **Next** to start the sample data installation process. After the sample data is loaded, select **Finish**.
 
 ## Verify the sample data installation
 
@@ -158,8 +154,6 @@ After the sample data completely loads, sign in as the Spencer Low user and conf
   > ![Screenshot of active organizational units](media/sample-data-5.png)
 
 ## Technical notes
-
-See below for more technical details on the installation of this data.
 
 ### Installing sample data on top of existing data (not recommended)
 
@@ -195,11 +189,11 @@ There are a number of other configuration components in this pre-import configur
 
 - **\<PreImportDataCollection\>** specifies flat-file Data Maps and associated Records to be imported ahead of the main sample data installation.
 
-- **\<EntitiesToEnableScheduling\>** specifies which entities should be enabled for Booking in Microsoft Dynamics Scheduling (aka Universal Resource Scheduling).
+- **\<EntitiesToEnableScheduling\>** specifies which entities should be enabled for Booking in Microsoft Dynamics Scheduling (also known as Universal Resource Scheduling).
 
-- **\<UsersToCreateAndConfigure\>** specifies Bookable Resources that will be created (if they don't exist already) before the sample data import executes. Please note that the source system sample data Bookable Resource match with the target system Bookable Resource records on the FullName and login of each resource. Therefore, it is NOT possible to change the names in this preconfiguration file unless you first import sample data into a target system using these names, then rename the Bookable Resources to your desired name set along with the Enabled User records, and then export the data again for import into your final destination system (updating the **ImportUserMapFile.xml** Old and New entries accordingly.
+- **\<UsersToCreateAndConfigure\>** specifies Bookable Resources that will be created (if they don't exist already) before the sample data import executes. Note that the source system sample data Bookable Resource match with the target system Bookable Resource records on the FullName and sign-in of each resource. Therefore, it is NOT possible to change the names in this preconfiguration file unless you first import sample data into a target system using these names, then rename the Bookable Resources to your desired name set along with the Enabled User records, and then export the data again for import into your final destination system (updating the **ImportUserMapFile.xml** Old and New entries accordingly.
 
-- **\<PluginsToDisable\>** specifies very discrete line-item plug-ins that must be disabled during the sample data import and then reenabled afterwards.
+- **\<PluginsToDisable\>** specifies discrete line-item plug-ins that must be disabled during the sample data import and then reenabled afterwards.
 
 ### Fabrikam Robotics fictitious scenario
 
@@ -264,7 +258,7 @@ Running the Package Deployer install performs the following actions:
   
 -   Creates or sets default parameters that drive behavior of Project Service  
   
--   Imports sample data such as Bookable Resources, Roles, Sales and Cost Price lists, Organizational Units, relevant sales process records, Work Orders and Projects    
+-   Imports sample data such as Bookable Resources, Roles, Sales and Cost Price lists, Organizational Units, relevant sales process records, Work Orders, and Projects    
   
 > [!IMPORTANT]
 > **There is no way to un-install the demo data.** Therefore, you should only use this package on demonstration, evaluation, training and test systems.

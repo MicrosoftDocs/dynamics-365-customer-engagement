@@ -5,6 +5,7 @@ ms.custom:
   - dyn365-fieldservice
 ms.date: 11/19/2020
 ms.reviewer: krbjoran
+ms.topic: article
 ms.service: dynamics-365-customerservice
 applies_to: 
   - "Dynamics 365 (online)"
@@ -21,7 +22,7 @@ search.app:
 
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
-Field Service inspections are digital forms that technicians use to quickly and easily answer a list of questions as part of a work order. The list of questions can include safety protocols, pass and fail tests for a customer asset, an interview with a customer, or other audits and assessments performed before, during, or after a work order.
+Field Service inspections are digital forms that technicians use to quickly and easily answer a list of questions as part of a work order. The list of questions can include safety protocols, pass-and-fail tests for a customer asset, an interview with a customer, or other audits and assessments performed before, during, or after a work order.
 
 
 > [!div class="mx-imgBorder"]
@@ -339,7 +340,7 @@ If an inspection question is required, the technician will not be able to mark *
 > ![Screenshot showing a work order service task in Field Service, with attention to the related section being empty.](./media/inspections-known-issue-cant-view-inspection.jpg)
 
 - Inactive inspections and work order service tasks are not available in offline mode. 
-- Inspections do not load in Internet Explorer. Edge or Chrome is recommended. 
+- Inspections do not load in Internet Explorer. Microsoft Edge or Chrome is recommended. 
 - The question type "Entity lookup" shows inactive records.
 
 ### Field Service inspections or Power Apps inspections
@@ -347,7 +348,7 @@ If an inspection question is required, the technician will not be able to mark *
 Here are a few reasons customers choose to use Field Service inspections. 
 
 1. **Offline support**: Technicians can view and fill out inspections on their mobile phones or tablets without internet access. Inspections and answers are stored locally on the mobile device and then synced to the server when connectivity is restored (cellular or WiFi). 
-2. **Version management**: Administrators can easily re-publish or change inspections to accommodate changing processes and evolving business needs.
+2. **Version management**: Administrators can easily republish or change inspections to accommodate changing processes and evolving business needs.
 3. **Easier to create and use**: Field Service inspections require no additional training to use and are designed to be easy for business users. For example, if you can create a survey with Microsoft Customer Voice, you can create an inspection. This is different from Power Apps inspections, which require extensive knowledge of the Power Apps platform and may require coding. 
 - **More scalable**: If your organization has many different inspections, it's easier to create Field Service inspections with a drag-and-drop interface and with dynamic branching. Power Apps inspections require creating new entities and forms for each inspection, which is more time consuming. 
 - **Better integrated with Dynamics 365**: Field Service inspections are built into the work order and asset servicing capabilities. 
