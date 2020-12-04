@@ -4,7 +4,7 @@ description: "Context variables to use when configuring a bot in Omnichannel for
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 11/11/2020 
+ms.date: 12/04/2020 
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -32,37 +32,50 @@ The following table contains the list of variables in Omnichannel for Customer S
 | [Custom Context](../developer/how-to/send-context-starting-chat.md) | Use the variable name that you create in Omnichannel for Customer Service or pass using the setcontext API. | These are custom context variables that can be created and passed through the Livechat SDK. | Use the following information to map the custom context variable in Omnichannel for Customer Service with the variable type in Power Virtual Agents: <br><ul><li>**String:** User's entire response</li><li>**Boolean:** Boolean</li><li>**Number, Floating Number:** Number</li></ul> |Use the following information to map the custom context variable in Omnichannel for Customer Service with the variable type in Azure: <br><ul><li>**String:** String</li><li>**Boolean:** Boolean</li><li>**Number, Floating Number:** Number</li></ul>|
 | Conversation | msdyn_liveworkitemid | Use the context variable that contains the conversation ID for the ongoing conversation and can fetch and perform operations on the record in Common Data Service. | **String:** User's entire response. |**String:** String|
 |[Customer](record-identification-rule.md) |msdyn_contact_msdyn_ocliveworkitem_Customer| Use this context variable that contains the record ID for the customer (contact or account) record that is linked to the conversation. | Parse the JSON to extract the record ID. |Parse the JSON to extract the record ID.|
-| Case | msdyn_incident_msdyn_ocliveworkitem | Use this context variable that contains the record ID for the case record linked to the conversation. |Parse the JSON to extract the record ID.|
+| Case | msdyn_incident_msdyn_ocliveworkitem | Use this context variable that contains the record ID for the case record linked to the conversation. |Parse the JSON to extract the record ID.| Parse the JSON to extract the record ID.|
 |||||
 
 ### Parse JSON to extract record ID
 
 Perform the steps outlined in this section to parse the JSON to extract the record ID.
 
-#### Prerequisites
+Make sure that you have the following details:
 
-The Omnichannel context variables, such as msdyn_contact_msdyn_ocliveworkitem_Customer.
-The schema details. A sample copy of the schema details is as follows.
+- The Omnichannel context variable, such as msdyn_contact_msdyn_ocliveworkitem_Customer.
+- The schema details. A sample copy of the sample schema details is as follows.
+
         Schema: 
-            {
+        {
             "type": "array",
             "items": {
-            "type": "object",
-            "properties": {
-            "RecordId": {
-        "type": "string"
-        },
-        "PrimaryDisplayValue": {
-        "type": "string"
-        }
-        },
-        "required": [
-        "RecordId",
-        "PrimaryDisplayValue"
-        ]
-        }
+                "type": "object",
+                "properties": {
+                    "RecordId": {
+                        "type": "string"
+                    },
+                    "PrimaryDisplayValue": {
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "RecordId",
+                    "PrimaryDisplayValue"
+                ]
+            }
         }
 
+The following steps explain how to configure a Power Automate flow to parse the JSON and extract the record ID and use in a Power Virtual Agents bot:
+
+1. Go to the topic of the bot in which you want to configure the context variable, and select the add node.
+2. Select **Call an action**, and select **Create a flow**.
+3. In the Power Automate window that opens on a new tab, select **Add an input** for the Power Virtual Agents Flow Template.
+4. Select **Text** for **Choose the type of user input**, and then enter the Omnichannel for Customer Service context variable name.
+5. Select **Add an action** in the add node.
+Search for Parse JSON, and select it.
+6. Select **Content** box, and select the context variable name in the list that appears. It should be the same context variable name that you had entered as input in step 4.
+7. In the **Schema** box, enter the sample schema details.
+8. Save the changes, and exit from Power Automate.
+9. In Power Virtual Agents, go back to the topic you were editing, select the flow that you configured, and then save and publish.
 
 
 ### See also
