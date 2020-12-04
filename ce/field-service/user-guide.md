@@ -17,14 +17,6 @@ search.app:
 
 Not sure what you're looking for, where to begin, or how to improve your Field Service knowledge? Use this guide to see a birds-eye view of the Dynamics 365 Field Service resources.
 
-## Walkthrough of Field Service
-
-Take a look at the following video for a full walkthrough of Field Service and its functionality.
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4wAd2]
-
-
-
 <table>
 <tr>
 <td><h2>Resources</h2>
@@ -164,7 +156,11 @@ The purpose of this section is to provide implementation guidance and best pract
 
 </table>
 
+## Walkthrough of Field Service
 
+Take a look at the following video for a full walkthrough of Field Service and its functionality.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4wAd2]
 
 ## Learning Catalog
 
