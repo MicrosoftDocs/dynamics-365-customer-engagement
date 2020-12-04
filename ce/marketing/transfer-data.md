@@ -2,7 +2,7 @@
 title: "Move data between environments (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to move data between environments using the Configuration Migration tool in Dynamics 365 Marketing"
 keywords: 
-ms.date: 12/02/2020
+ms.date: 12/03/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -41,10 +41,10 @@ The process works as follows:
 
 Complete the following prerequisites before transferring data and configurations between environments:
 
-1. Make sure no records are in a "live" state. Attempting to transfer live records will cause the Configuration Migration tool to fail.
+1. Make sure no records are in a "live" state. The Configuration Migration tool will not transfer entities that are in a "live" state, thus import to the destination environment will be partial.
 
     > [!NOTE]
-    > The Configuration Migration tool includes options to exclude or filter live records. [Contact technical support](https://docs.microsoft.com/power-platform/admin/get-help-support) for assistance with these features.
+    > The Configuration Migration tool includes options to exclude or filter live records. The exclude functionality removes the **Status** field, exporting all entities regardless of status. The filter functionality limited the entities that are exported. [Contact technical support](https://docs.microsoft.com/power-platform/admin/get-help-support) for assistance with these features.
 
 1. Ensure that the source and destination environments are running the same version of Dynamics 365 Marketing and are using an identical database schema (at least for the data you are transferring).
 
