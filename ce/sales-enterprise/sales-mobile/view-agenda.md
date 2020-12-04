@@ -88,7 +88,7 @@ To view the entity in the Dynamics 365 assistant application, tap **Open *Entity
 > You'll be able to set the regarding record only if server-side synchronization has been enabled in your environment. Contact your administrator to enable it.    
 ### Activities timeline and insight cards    
 See a combined view of your interactions with customers across various channels, such as phone, email, or even social activities in the timeline that are related to the regarding entity. The timeline also shows any related notes or system posts. Also, cards are displayed below the timeline based on the related entities.   
-The timeline activities and cards are retrieved from your Dynamics 365 Sales organization for the selected regarding entity. 
+The timeline activities and cards are retrieved from your Dynamics 365 Sales organization for the selected regarding entity.   
 The following insight cards are supported:    
 <table>
 <tr>
@@ -106,7 +106,12 @@ The following insight cards are supported:
 <tr>
 <td>Opportunity at risk (phrase detection)</td><td>Opportunity at risk (sentiment detection)</td><td>Suggested stakeholder</td>
 </tr> 
+<tr>
+<td></td><td></td><td></td>
+</tr>
 </table>   
+
+To know more about the insight cards, see [Insight cards reference](https://docs.microsoft.com/dynamics365/ai/sales/action-cards-reference)   
 The following image is an example of an activity timeline for an opportunity regarding entity.   
 <!--*Add image*-->
 
