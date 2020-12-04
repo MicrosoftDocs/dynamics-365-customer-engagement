@@ -41,6 +41,15 @@ Omnichannel for Customer Service October 2020 update is available in the followi
 | United Kingdom                            |   October 12, 2020   |
 |||
 
+> [!Note]
+>
+> In South America, if your Dynamics 365 tenant is located in Brazil, Omnichannel for Customer Service is currently not available.
+>
+> In Europe, if your Dynamics 365 tenant is located in one of the following geographic locations, Omnichannel for Customer Service is currently not available in these locations and is planned to be introduced in the future:
+> - Norway
+> - Switzerland
+> - France
+
 ### April 2020 update
 
 Omnichannel for Customer Service April 2020 update is available in the following regions:
@@ -59,14 +68,6 @@ Omnichannel for Customer Service April 2020 update is available in the following
 | United Arab Emirates (UAE)                |   June 26, 2020      |
 |||
 
-> [!Note]
->
-> In South America, if your Dynamics 365 tenant is located in Brazil, Omnichannel for Customer Service is currently not available.
->
-> In Europe, if your Dynamics 365 tenant is located in one of the following geographic locations, Omnichannel for Customer Service is currently not available in these locations and is planned to be introduced in the future:
-> - Norway
-> - Switzerland
-> - France
 
 ### January 2020 update
 
