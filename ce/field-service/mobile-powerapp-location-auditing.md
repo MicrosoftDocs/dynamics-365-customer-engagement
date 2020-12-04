@@ -5,6 +5,7 @@ ms.custom:
   - dyn365-fieldservice
 ms.date: 11/19/2020
 ms.reviewer: krbjoran
+ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 applies_to: 

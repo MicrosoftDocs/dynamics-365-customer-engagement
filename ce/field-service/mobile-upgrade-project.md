@@ -6,22 +6,13 @@ ms.custom:
 ms.date: 08/27/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 author: FieldServiceDave
-ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
-caps.latest.revision: 42
 ms.author: daclar
 manager: shellyha
-search.audienceType: 
-  - admin
-  - customizer
 search.app: 
   - D365CE
   - D365FS
@@ -29,7 +20,7 @@ search.app:
 
 # Upgrade the Field Service Mobile project template
 
-Dynamics 365 Field Service comes with a mobile project template that can determine how the Field Service Mobile app should look and function. For example, it has default views and forms for work orders, as well as logic that runs when a work order is saved. It also has customizations for various Field Service entities like bookings, customer assets, and so on. You can build on top of the mobile project template to edit the mobile app for your specific business needs. See the topic on [common Field Service Mobile customizations](./mobile-app-configuration-customization.md) for more information.
+Dynamics 365 Field Service comes with a mobile project template that can determine how the Field Service Mobile app should look and function. For example, it has default views and forms for work orders, as well as logic that runs when a work order is saved. It also has customizations for various Field Service entities like bookings, customer assets, and so on. You can build on top of the mobile project template to edit the mobile app for your specific business needs. For more information, see the article on [common Field Service Mobile customizations](./mobile-app-configuration-customization.md).
 
 Periodically, Microsoft releases a new mobile project template when the Field Service Mobile app is updated.
 
@@ -65,7 +56,7 @@ You have two options:
 The following are steps for option 2:
 
 1. Determine which Microsoft project template you customized. View the [version history](https://docs.microsoft.com/dynamics365/field-service/version-history#mobile-project-file-library) to find and download if you do not have the template.
-2. Once you have the project determined, download your customized project on your desktop along with the original Microsoft project that you started customizing. Simply select and highlight your project and choose **Export**.
+2. Once you have the project determined, download your customized project on your desktop along with the original Microsoft project that you started customizing. Select and highlight your project and choose **Export**.
 
 
 > [!div class="mx-imgBorder"]
@@ -80,7 +71,7 @@ The following are steps for option 2:
 > ![Screenshot of the file explorer with attention to the Woodford and Zip files](./media/mobile-upgrade-extract.png)
 
 
-6. Commit this to the master branch in GitHub desktop. 
+6. Commit this to the main branch in GitHub desktop. 
 7. Create a new branch in GitHub Desktop and call it "customizations." 
 8. Drag the extracted files from *your* customized project files into the same folder where you initialized the Git repo and placed the files before. 
 9. Open GitHub desktop, select refresh, and ensure you are on the "customizations" branch. You should then see the diff of your project compared to the Microsoft project. 
