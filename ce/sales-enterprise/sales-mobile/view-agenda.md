@@ -62,8 +62,12 @@ You can perform the following actions on the regarding entity:
 - **View details**: To view more details about the regarding entities, tap the entity. The details such as timeline activities and relevant cards are displayed along with related entities cards. Also, related entities are displayed if any related entities are attached to the regarding entity. You can swipe to view the related entities.    
 To view the entity in the Dynamics 365 assistant application, tap **Open *Entity*** and the entity opens in the Dynamics 365 Sales app.   
 - **Edit**: To quickly edit the basic information of the regarding entity, tap **More options** (![Options button](media/sm-options-button.png "Options button")) and then tap **Quick edit**. Enter the required information and then tap **Save**.   
+    >[!div class="mx-imgBorder"]
+    >![Select quick edit option](media/sm-quick-edit-regarding-entity.png "Select quick edit option")    
 - **Update regarding entity**: You can update the regarding entity when it no longer is relevant or there are changes to the meeting. To change the regarding entity, follow these steps:
     1. Tap **More options** (![Options button](media/sm-options-button.png "Options button")) and then tap **Change connected record**.    
+        >[!div class="mx-imgBorder"]
+        >![Select change connected record option](media/sm-select-change-connected-record.png "Select change connected record option")        
     2. On the **Regarding** page, either select a recent record or tap **Search** to look for the record you want.    
         >[!div class="mx-imgBorder"]
         >![Search for a record to connect](media/sm-regarding-record.png "Search for a record to connect")    
