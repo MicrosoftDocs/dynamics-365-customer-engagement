@@ -1,26 +1,20 @@
 ---
 title: "AppSource for Field Service (Dynamics 365 Field Service) | MicrosoftDocs"
+description: Learn about using AppSource for Dynamics 365 Field Service.
 ms.custom: dyn365-fieldservice
+ms.service: dynamics-365-customerservice
 ms.date: 9/20/2018
 ms.author: daclar 
-ms.suite: 
-ms.technology: 
-  - field-service
-ms.tgt_pltfrm: 
-ms.topic: activate-fs-mobile-app-license
+ms.topic: article
 author: FieldServiceDave
 ms.reviewer: krbjoran
 ms.manager: shellyhaverkamp
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
 search.app: 
   - D365CE
   - D365FS
 ---
 
-# AppSource for Field Service
+# AppSource for Dynamics 365 Field Service
 
 [!include[](../includes/pn-crm-9-0-0-online.md)]
 
