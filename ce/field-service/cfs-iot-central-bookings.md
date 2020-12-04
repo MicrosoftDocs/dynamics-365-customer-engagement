@@ -3,8 +3,7 @@ title: "Send booking updates to Azure IoT Central | MicrosoftDocs"
 description: Learn about how to send booking updates to Azure IoT Central from Connected Field Service.
 ms.custom: dyn365-fieldservice
 ms.date: 09/24/2018
-ms.technology: 
-  - field-service
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.author: daclar
 author: FieldServiceDave

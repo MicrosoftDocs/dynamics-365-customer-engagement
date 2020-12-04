@@ -10,8 +10,8 @@ ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: krbjoran
-ms.author: FieldServiceDave
+author: FieldServiceDave
+ms.author: daclar
 manager: shellyha
 search.app: 
   - D365CE

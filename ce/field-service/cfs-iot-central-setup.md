@@ -2,6 +2,7 @@
 title: "Prerequisites for Connected Field Service for IoT Central | MicrosoftDocs"
 description: Learn about what you need in order to set up Connected Field Service for Azure IoT Central.
 ms.custom: dyn365-fieldservice
+ms.service: dynamics-365-customerservice
 ms.date: 01/08/2020
 ms.author: daclar
 author: FieldServiceDave
