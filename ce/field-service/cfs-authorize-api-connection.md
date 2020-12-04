@@ -20,7 +20,7 @@ search.app:
 
 # Authorize API connection between Dynamics 365 and Azure IoT
 
-In order to begin using Connected Field Service with IoT Hub, you need to authorize **CRM API Managament Access**, which is the final step when deploying from [https://cfsdeployment.crm.dynamics.com](https://cfsdeployment.crm.dynamics.com/). This allows data and actions to be passed between Azure IoT Hub and Dynamics 365. More specifically, it allows LogicApps to read and write Dynamics 365 data bi-directionally.
+In order to begin using Connected Field Service with IoT Hub, you need to authorize **CRM API Management Access**, which is the final step when deploying from [https://cfsdeployment.crm.dynamics.com](https://cfsdeployment.crm.dynamics.com/). This allows data and actions to be passed between Azure IoT Hub and Dynamics 365. More specifically, it allows LogicApps to read and write Dynamics 365 data bi-directionally.
 
 Without completing this step, you will not be able to: 
 
