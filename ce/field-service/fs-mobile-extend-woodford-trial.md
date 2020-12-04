@@ -1,20 +1,13 @@
 ---
 title: "How do I extend my Woodford Trial? (Dynamics 365 Field Service) | MicrosoftDocs"
+description: Learn how to extend your Woodford trial for Dynamics 365 Field Service
 ms.custom: dyn365-fieldservice
 ms.date: 03/23/2020
 ms.reviewer: krbjoran
-ms.suite: 
-ms.technology: 
-  - field-service
-ms.tgt_pltfrm: 
-ms.topic: fs-mobile-extend-woodford-trial
+ms.topic: article
 author: FieldServiceDave
 ms.author: daclar
 ms.manager: shellyhaverkamp
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
 search.app: 
   - D365CE
   - D365FS
@@ -35,7 +28,7 @@ There are a few important details to know before you submit a request to activat
 
     For example, if you purchase 100 field service licenses and you manage one production organization and one sandbox, you could assign mobile licenses to 50 users at both organizations for a maximum total of 100 mobile users (not 100 mobile users at *each* organization for a total of 200).
 
-- A 30-day trial automatically starts when you install the Woodford solution in your Dynamics 365 instance. You need to submit the request to activate the licenses before the trial period ends. Additionally, if you want to maintain access to the field service mobile app beyond the 30-day trial, you need to submit a request extend the licenses. 
+- A 30-day trial automatically starts when you install the Woodford solution in your Dynamics 365 instance. Submit the request to activate the licenses before the trial period ends. Additionally, if you want to maintain access to the field service mobile app beyond the 30-day trial, you need to submit a request extend the licenses. 
 
   To find out your trial end date, go to **Settings** > **Woodford** > **MobileCRM Woodford**. You'll see the trial end date at the top of the screen.
 
@@ -47,7 +40,7 @@ There are a few important details to know before you submit a request to activat
 
 [Fill out a Field Service mobile license activation request form](https://aka.ms/fsmlicense) to activate licenses or extend licenses beyond a 30-day trial.
 
-Note that you need the Dynamics 365 organization ID to complete the request form.
+You need the Dynamics 365 organization ID to complete the request form.
 
 ## Where to find the organization ID
 

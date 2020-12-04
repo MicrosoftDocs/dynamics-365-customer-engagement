@@ -6,22 +6,13 @@ ms.custom:
 ms.date: 11/19/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 author: FieldServiceDave
-ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
-caps.latest.revision: 42
 ms.author: daclar
 manager: shellyha
-search.audienceType: 
-  - admin
-  - customizer
 search.app: 
   - D365CE
   - D365FS
@@ -67,7 +58,7 @@ When the work order booking status is changed to **Completed**, time entries are
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a list of time entries for one person.](./media/work-order-time-entry-work-order.png)
 
-When the work order system status (different than the booking status) is changed to **Closed-Posted**, actual records are created based on the time entries. These represent the internal cost of the technician's time.
+When the work order system status (different than the booking status) is changed to **Closed-Posted**, actual records are created based on the time entries. These records represent the internal cost of the technician's time.
 
 
 > [!div class="mx-imgBorder"]
@@ -92,9 +83,9 @@ You can also view and create time entries on the [Field Service (Dynamics 365) m
 
 ## Time off
 
-Time off requests are automatically recorded as time entries as well.
+Time-off requests are automatically recorded as time entries as well.
 
-First, submit a time-off request. This can be done in the desktop browser or from Field Service Mobile.
+First, submit a time-off request. Submission can be done in the desktop browser or from Field Service Mobile.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a new time-off request.](./media/time-entry-new-time-off.png)
@@ -104,7 +95,7 @@ A time entry record will automatically be created. The type will be **Vacation**
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a list of my time entries, highlighting a submitted vacation request.](./media/time-entry-time-off-submitted.png)
 
-Next, approve the time-off request. This is only required if the resource on the time-off request requires approval, as defined on the bookable resource record.
+Next, approve the time-off request. Approval is only required if the resource on the time-off request requires approval, as defined on the bookable resource record.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a new time-off request, highlighting the approve option.](./media/time-entry-time-off-approve.png)
@@ -122,7 +113,7 @@ Making changes to the date or duration of the time entry will update the time-of
 
 ## Configuration considerations
 
-- While out-of-the box security roles have been adjusted to allow for time entry usage and time entry automatic creation from time-off requests, organizations should expect to add time entry permissions to their custom security roles. Without permissions on time entry, users will be blocked from creating time entries and time-off requests due to their interconnected automation, even if they could previously create time off requests.
+- While out-of-the box security roles have been adjusted to allow for time entry usage and time entry automatic creation from time-off requests, organizations should expect to add time entry permissions to their custom security roles. Without permissions on time entry, users will be blocked from creating time entries and time-off requests due to their interconnected automation, even if they could previously create time-off requests.
 
 - If you do not want time entries created automatically for the work order process, go to **Field Service** > **Settings** > **Field Service Settings** and set the **Time Entry Generation Strategy** to **Manual**.
 
@@ -130,7 +121,7 @@ Making changes to the date or duration of the time entry will update the time-of
 > ![Screenshot of the manual time entry generation strategy.](./media/work-order-time-entry-setting.png)
 
 
-- Time entries are created based on booking timestamps, and booking timestamps are created based on the **Timestamp Frequency** setting in Field Service Settings. See the [topic on booking timestamps](booking-timestamps.md) to understand how timestamps can be created based on the booking statuses or Field Service booking statuses.
+- Time entries are created based on booking timestamps, and booking timestamps are created based on the **Timestamp Frequency** setting in Field Service Settings. See the [article on booking timestamps](booking-timestamps.md) to understand how timestamps can be created based on the booking statuses or Field Service booking statuses.
 
 - Time entries can be viewed and created on the Field Service Mobile (Xamarin) app
 
