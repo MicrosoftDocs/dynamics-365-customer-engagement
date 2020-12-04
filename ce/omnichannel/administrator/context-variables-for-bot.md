@@ -68,14 +68,20 @@ The following steps explain how to configure a Power Automate flow to parse the 
 
 1. Go to the topic of the bot in which you want to configure the context variable, and select the add node.
 2. Select **Call an action**, and select **Create a flow**.
-3. In the Power Automate window that opens on a new tab, select **Add an input** for the Power Virtual Agents Flow Template.
-4. Select **Text** for **Choose the type of user input**, and then enter the Omnichannel for Customer Service context variable name.
-5. Select **Add an action** in the add node.
-Search for Parse JSON, and select it.
-6. Select **Content** box, and select the context variable name in the list that appears. It should be the same context variable name that you had entered as input in step 4.
-7. In the **Schema** box, enter the sample schema details.
-8. Save the changes, and exit from Power Automate.
-9. In Power Virtual Agents, go back to the topic you were editing, select the flow that you configured, and then save and publish.
+3. Do the following in the Power Automate window that opens on a new tab:
+   1. Select **Add an input** for the Power Virtual Agents Flow Template.
+   2. Select **Text** for **Choose the type of user input**, and then enter the Omnichannel for Customer Service context variable name.
+   3. Select **Add an action** in the add node, search for **Parse JSON**, and select it.
+   5. Select **Content** box, and select the context variable name in the list that appears. It should be the same context variable name that you had entered as input in step 2.
+   6. In the **Schema** box, enter the sample schema details.
+   7. Select **Add an action** in the add node for Parse JSON, search for **Apply to each**, and select it.
+   8. In the **Select an output from previous steps** box, select **RecordId** in the list that appears.
+   9. Select **Add an action**, and do the following:
+      1.  Search for Get a record action and select it.
+      2.  Select a value in **Entity name** such as "Cases" or "Contacts".
+      3.  Select "RecordId" in **Item ID**.
+4.  Save the changes, and exit from Power Automate.
+5.  In Power Virtual Agents, go back to the topic you were editing, select the flow that you configured, and then save and publish.
 
 ### See also
 
