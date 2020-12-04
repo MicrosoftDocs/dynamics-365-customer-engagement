@@ -1,18 +1,14 @@
 ---
 title: "Include videos in your marketing content (Dynamics 365 Marketing) | Microsoft Docs"
-description: "How to set up a video library and add those videos to marketing emails and pages in Dynamics 365 Marketing"
-keywords: videos, content, designer, design element
+description: "How to set up a video library and add those videos to marketing emails and pages in Dynamics 365 Marketing."
 ms.date: 10/16/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-ms.assetid: 2e49e083-7b6d-48d7-86f4-0430de12e009
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer
