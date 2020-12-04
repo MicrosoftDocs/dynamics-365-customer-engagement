@@ -116,4 +116,4 @@ The following image is an example of an activity timeline for an opportunity reg
 <!--*Add image*-->
 
 ### See also   
-[Use the Dynamics 365 Sales mobile app](sales-mobile/use-sales-mobile-app.md)
+[Use the Dynamics 365 Sales mobile app](../sales-mobile/use-sales-mobile-app.md)
