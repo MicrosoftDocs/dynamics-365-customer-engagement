@@ -9,14 +9,7 @@ ms.custom:
 ms.service: dynamics-365-customerservice
 ms.date: 09/18/2020
 ms.topic: article
-ms.prod: 
-ms.technology: 
 ms.author: daclar
-audience: Admin
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
 search.app: 
   - D365CE
   - D365FS

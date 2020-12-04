@@ -51,7 +51,7 @@ Each Dynamics 365 Field Service license you purchase from Microsoft allows you t
 
 ## Field Service on the Dynamics 365 mobile app 
 
-To use Dynamics 365 Field Service on a mobile device, please use the Field Service Mobile app, rather than the Dynamics 365 mobile app with the Unified Interface. While the native Dyanmics 365 app does work in offline mode, it doesn't fully support offline mode for Field Service-specific scenarios. For more information, visit our topic on [Field Service Mobile](field-service-mobile-overview.md). 
+To use Dynamics 365 Field Service on a mobile device, please use the Field Service Mobile app, rather than the Dynamics 365 mobile app with the Unified Interface. While the native Dynamics 365 app does work in offline mode, it doesn't fully support offline mode for Field Service-specific scenarios. For more information, visit our topic on [Field Service Mobile](field-service-mobile-overview.md). 
 
 
 
