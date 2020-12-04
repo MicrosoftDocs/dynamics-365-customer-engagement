@@ -140,7 +140,7 @@ For organizations that use:
   
     3.  Drag the item to an available resource/time slot on the schedule board.  
   
-- **Option 3**: Schedule a booking requirement form the entity form.  
+- **Option 3**: Schedule a booking requirement from the entity form.  
   
     1.  From the main menu, click **Sales**, **Service**, or **Marketing**.  
   
