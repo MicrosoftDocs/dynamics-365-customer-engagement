@@ -6,22 +6,13 @@ ms.custom:
 ms.date: 11/16/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 author: FieldServiceDave
-ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
-caps.latest.revision: 42
 ms.author: daclar
 manager: shellyha
-search.audienceType: 
-  - admin
-  - customizer
 search.app: 
   - D365CE
   - D365FS
@@ -36,7 +27,7 @@ There are two mobile apps available for technicians using Dynamics 365 Field Ser
 - Field Service (Dynamics 365), which is built on the Microsoft Power Platform. In our documentation, we refer to this app as the Field Service (Dynamics 365) mobile app. In the app stores, you'll find this app with the following icon.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Dynamics 365 ](./media/mobile-power-app-app-store2.png)
+> ![Screenshot of the Field Service (Dynamics 365) mobile app in the app store.](./media/mobile-power-app-app-store2.png)
 
 - Field Service Mobile, which is built on the Xamarin platform. In our documentation, we refer to this app as "Field Service Mobile (Xamarin). In the app stores, you'll find this app with the following icon:
 

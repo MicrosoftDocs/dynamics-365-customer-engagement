@@ -10,7 +10,7 @@ applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 author: FieldServiceDave
-ms.author: makamat
+ms.author: daclar
 ms.reviewer: krbjoran
 search.app: 
   - D365CE
