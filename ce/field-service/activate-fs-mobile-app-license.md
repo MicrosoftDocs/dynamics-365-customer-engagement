@@ -2,11 +2,9 @@
 title: "Activate the Dynamics 365 Field Service mobile configurator | MicrosoftDocs"
 description: Learn about how to activate the Dynamics 365 Field Service mobile configurator tool.
 ms.custom: dyn365-fieldservice
+ms.service: dynamics-365-customerservice
 ms.date: 03/02/2020
 ms.reviewer: krbjoran
-ms.suite: 
-ms.technology: 
-  - field-service
 ms.topic: article
 author: FieldServiceDave
 ms.author: daclar
