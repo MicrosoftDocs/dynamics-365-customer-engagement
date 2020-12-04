@@ -135,7 +135,7 @@ The purpose of this section is to help you explore all the features of Field Ser
  <li> <a href="connected-field-service.md" data-raw-source="[Overview of Connected Field Service](connected-field-service.md)">Overview of Connected Field Service</a> </li> 
  <li><a href="https://docs.microsoft.com/dynamics365/field-service/developer/connected-field-service-architecture" data-raw-source="[CFS with IoTHub architecture](https://docs.microsoft.com/dynamics365/field-service/developer/connected-field-service-architecture)">CFS with IoTHub architecture</a></li>
  <li><a href="installation-setup-iothub.md" data-raw-source="[Installation and setup - Connected Field Service for Azure IoT Hub](installation-setup-iothub.md)">Installation and setup - Connected Field Service for Azure IoT Hub</a></li>
-  <li><a href="cfs-register-devices" data-raw-source="[Register IoT devices](cfs-register-devices.md)">Register IoT devices</a></li>
+  <li><a href="cfs-register-devices.md" data-raw-source="[Register IoT devices](cfs-register-devices.md)">Register IoT devices</a></li>
 </ul>
 </td>
 </tr>
