@@ -37,4 +37,4 @@ The Dynamics 365 Sales mobile app can be installed on Android devices with or wi
 
 ## Install the app on Android with a work profile
 
-Currently, installation of the app on Android with a work profile is not supported. For more details, contact [Dynamics 365 Sales mobile support](DSalesMobileSupport@microsoft.com). 
+Currently, installation of the app on Android with a work profile is not supported. For more details, contact [Dynamics 365 Sales mobile support](mailto:DSalesMobileSupport@microsoft.com). 
