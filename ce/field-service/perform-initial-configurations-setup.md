@@ -5,13 +5,10 @@ ms.custom: dyn365-fieldservice
 ms.date: 11/11/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
+ms.topic: article
 author: FieldServiceDave
 ms.author: daclar
 ms.manager: shellyhaverkamp
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
 search.app: 
   - D365CE
   - D365FS
