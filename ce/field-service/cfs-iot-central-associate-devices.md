@@ -1,20 +1,13 @@
 ---
-title: "Associate devices with customer accounts | MicrosoftDocs"
+title: "Associate devices with customer accounts in Connected Field Service | MicrosoftDocs"
+description: Learn how to associate devices with customer accounts in Connected Field Service
 ms.custom: dyn365-fieldservice
+ms.service: dynamics-365-customerservice
 ms.date: 09/24/2018
-ms.reviewer: 
-ms.suite: 
-ms.technology: 
-  - field-service
-ms.tgt_pltfrm: 
-ms.topic: activate-fs-mobile-app-license
-ms.author: vihuang
-author: FieldServiceDave
 ms.reviewer: krbjoran
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
+ms.topic: article
+ms.author: daclar
+author: FieldServiceDave
 search.app: 
   - D365CE
   - D365FS

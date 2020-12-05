@@ -1,24 +1,15 @@
 ---
 title: "Create a work order in Dynamics 365 Field Service | Microsoft Docs"
+description: Learn how to create a work order in Dynamics 365 Field Service
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/24/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.technology: 
-  - field-service
-ms.tgt_pltfrm: 
 ms.topic: article
 author: FieldServiceDave
-ms.assetid: 9279d5ba-505c-4cf3-9e3f-1436ab7f52a4
-caps.latest.revision: 24
 ms.author: daclar
 manager: shellyha
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
 search.app: 
   - D365CE
   - D365FS
@@ -32,7 +23,7 @@ A work order in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ynSf]
 
 > [!Note]
-> For additional Field Service videos, see [this full playlist](https://aka.ms/fs-videos).
+> For additional Field Service videos, see [this full video playlist](https://aka.ms/fs-videos).
   
 > [!Note]
 >  Products, service tasks, and characteristics are added automatically when you create a work order from an incident. Otherwise you can add them manually when you create a work order.   
@@ -65,9 +56,9 @@ A work order in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field
 <a name="BKMK_newworkorder"></a>   
 ## Create a work order  
   
-1. From the main menu, click **Field Service** > **Work orders**.  
+1. From the main menu, select **Field Service** > **Work orders**.  
   
-2. Click **+New** in the upper-left corner.  
+2. Select **+New** in the upper-left corner.  
   
 3. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)]  
   
@@ -105,7 +96,7 @@ A work order in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field
   
 - Go to the **Service Tasks** section and click **+Add Work Order Service Task record**. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)] [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up service task types  ](../field-service/set-up-service-task-types.md)  
   
-- Go to the **Products** or **Services** section and click the **+**  button. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)][!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a product or service ](../field-service/create-product-or-service.md)  
+- Go to the **Products** or **Services** section and select the **+**  button. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)][!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a product or service ](../field-service/create-product-or-service.md)  
   
   > [!NOTE]
   >  When you add a product, remember that if you want to reserve a product for the work order, set **Allocated** to **Yes**.  

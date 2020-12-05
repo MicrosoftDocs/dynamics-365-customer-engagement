@@ -1,24 +1,15 @@
 ---
 title: "Create a warehouse (Dynamics 365 Field Service) | MicrosoftDocs"
+description: Learn how to create a warehouse in Dynamics 365 Field Service
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.technology: 
-  - field-service
-ms.tgt_pltfrm: 
 ms.topic: article
 author: FieldServiceDave
-ms.assetid: 14811327-a740-4d02-815f-fc908421fbc2
-caps.latest.revision: 12
 ms.author: daclar
 manager: shellyha
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
 search.app: 
   - D365CE
   - D365FS
@@ -32,13 +23,13 @@ Track your product inventory using a warehouse record in [!INCLUDE[pn_crm_shorte
 <a name="BKMK_1"></a>   
 ## Step 1: Create a warehouse record  
   
-1.  From the main menu, click **Field Service** > **Administration**, and then choose **Warehouses**.  
+1.  From the main menu, select **Field Service** > **Administration**, and then choose **Warehouses**.  
   
-    Or, from the main menu, click **Field Service** > **Warehouses**.  
+    Or, from the main menu, select **Field Service** > **Warehouses**.  
   
-2.  On the **Active Warehouse** screen, click **+New** in the upper left corner.  
+2.  On the **Active Warehouse** screen, select **+New** in the upper left corner.  
   
-3.  Use the tooltips to help fill in your information, and then click **Save**.  
+3.  Use the tooltips to help fill in your information, and then select **Save**.  
   
 <a name="bkmk_2"></a>   
 ## Step 2: Manually add product inventory to the warehouse record  
@@ -46,13 +37,13 @@ Track your product inventory using a warehouse record in [!INCLUDE[pn_crm_shorte
   
  You can also manually add product inventory to a warehouse record, but keep in mind that you won’t be able to modify the quantity values.  
   
-1.  From the top menu, click the drop-down arrow next to the warehouse that you created, and then click **Product Inventory**.  
+1.  From the top menu, select the drop-down arrow next to the warehouse that you created, and then select **Product Inventory**.  
   
-2.  Click **+Add New Product Inventory**.  
+2.  Select **+Add New Product Inventory**.  
   
 3.  Fill in the **Product**, **Unit**, and **Quantity** information.  
   
-4.  Click **Save & Close**.  
+4.  Select **Save & Close**.  
   
 <a name="bkmk_3"></a>   
 ## Optional: Add a reorder and location inventory  

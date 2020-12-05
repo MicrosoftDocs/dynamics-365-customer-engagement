@@ -6,13 +6,10 @@ ms.custom:
 ms.date: 11/11/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
+ms.topic: article
 author: FieldServiceDave
 ms.author: daclar
 manager: shellyha
-search.audienceType:
-  - admin
-  - customizer
-  - enduser
 search.app:
   - D365CE
   - D365FS
@@ -157,7 +154,7 @@ Go to **Plugins** > **Delete**.
 
 Select work orders and related work order entities, such as work order products, services, and service tasks.
 
-This helps ensure that when work orders or related records are deleted on the server, they are removed from the mobile app too. For more details, [see the Woodford Guide (PDF)](https://www.resco.net/downloads/Woodford_Guide.pdf).
+This helps ensure that when work orders or related records are deleted on the server, they are removed from the mobile app too. For more information, [see the Woodford Guide (PDF)](https://www.resco.net/downloads/Woodford_Guide.pdf).
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Delete plugins section of Woodford](media/Perform-Initial-Configurations-image20.png)  

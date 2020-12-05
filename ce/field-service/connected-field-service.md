@@ -1,24 +1,15 @@
 ---
 title: "Connected Field Service - Overview | MicrosoftDocs"
+description: Learn all about Connected Field Service for Dynamics 365 Field Service
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.technology: 
-  - field-service
-ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: overview
 author: FieldServiceDave
-ms.assetid: 2142d996-008b-4ada-bf2e-e9dc316715c4
-caps.latest.revision: 14
 ms.author: daclar
 manager: shellyha
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
 search.app: 
   - D365CE
   - D365FS
@@ -31,7 +22,7 @@ Key benefits of Connected Field Service:
 
 - Reduce downtime by connecting to IoT devices to diagnose problems before customers are aware of an issue
 - Address issues faster by remotely monitoring devices and keeping customers in the loop
-- Device telemetry and service maintenance data helps to make intelligent decisions around dispatching technicians with the right expertise, availability, and proximity to the job 
+- Device data and service maintenance data help to make intelligent decisions around dispatching technicians with the right expertise, availability, and proximity to the job 
 
 There are three ways you can use to connect IoT-enabled devices into the Field Service solution:
 - Connected Field Service for [**Azure IoT Central**](https://azure.microsoft.com/services/iot-central/)

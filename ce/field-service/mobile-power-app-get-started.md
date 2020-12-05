@@ -1,10 +1,11 @@
 ---
-title: "Install and setup the Field Service (Dynamics 365) mobile app | MicrosoftDocs"
-description: Learn how to install and setup the Field Service (Dynamics 365) mobile app.
+title: "Install and set up the Field Service (Dynamics 365) mobile app | MicrosoftDocs"
+description: Learn how to install and set up the Field Service (Dynamics 365) mobile app.
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 10/30/2020
 ms.reviewer: krbjoran
+ms.topic: troubleshooting
 ms.service: dynamics-365-customerservice
 applies_to: 
   - "Dynamics 365 (online)"
@@ -73,7 +74,7 @@ Download the app called **Field Service (Dynamics 365)**, as seen in the followi
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a mobile device app store, showing two Field Service Mobiles in the list, and highlighting the Field Service (Dynamics 365) app.](./media/mobile-2020-download-signin.jpg)
 
-Launch the app and sign in with your username and password, which should be the user credentials of the technician user with the **Field Service - Resource** security role. View the topics on [setting up users and security roles](../field-service/view-user-accounts-security-roles.md) and [creating a Bookable Resource](set-up-bookable-resources.md) for help.
+Launch the app and sign in with your username and password, which should be the user credentials of the technician user with the **Field Service - Resource** security role. View the articles on [setting up users and security roles](../field-service/view-user-accounts-security-roles.md) and [creating a Bookable Resource](set-up-bookable-resources.md) for help.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of sign in](./media/quickstart-mobile-signin.png)

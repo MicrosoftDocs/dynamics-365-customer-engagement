@@ -6,22 +6,13 @@ ms.custom:
 ms.date: 09/18/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 author: FieldServiceDave
-ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
-caps.latest.revision: 42
 ms.author: daclar
 manager: shellyha
-search.audienceType: 
-  - admin
-  - customizer
 search.app: 
   - D365CE
   - D365FS
@@ -53,11 +44,11 @@ This article chronicles important updates related to Field Service Mobile and as
 - Win10: MonthCalendar handled every cell click twice.
 - Win10: Refresh global search placeholder after app language has changed.
 - MobileCRM.Win10: Stacked chart display old chart on hover. 
-- MobileCRM.Win10: Bar charts doesn't support stacked or grouped view.
+- MobileCRM.Win10: Bar charts don't support stacked or grouped view.
 - Win10: Forward button included (serves as back button in RTL). 
 - Win10: RTL-related fixes.
 - Android: SendEmail action fixed to support both Gmail and Outlook.
-- Android: Do not show download progress in status bar on devices with top cutout (notch) and Anroid 9+ in portrait.
+- Android: Do not show download progress in status bar on devices with top cutout (notch) and Android 9+ in portrait.
 - Report: Excel: Fixed assignment of horizontal alignment constants to vertical alignment. Fixed warning. 
 - All: Use correct color for home icons if custom home theme is used.
 - Scheduler: FilterStatus and other items in ButtonsBar were not reduced or hidden properly when ButtonsBar width was not sufficient.
@@ -93,8 +84,8 @@ This article chronicles important updates related to Field Service Mobile and as
 - Android app crashing when returning from tasks form.
 - Android app crashes when resource not 'Enabled for mobile' signs in.
 - Android Intune: Go back button doesn’t work properly when we transfer data from other apps.
-- All platforms UX Improvement: Session Id on error dialog box.
-- Android App crashes when trying to login without password.
+- All platforms UX Improvement: Session ID on error dialog box.
+- Android App crashes when trying to sign in without password.
 - Android updated 'MGF1 digest' encryption methodology from SHA-1 to SHA-256.
 
 ## 12.1.224
@@ -110,7 +101,7 @@ This article chronicles important updates related to Field Service Mobile and as
 - Android: Crash fix.
 - All: Custom option set values displayed in unordered list.
 - All: BPF customizations require save before proceeding even with no change.
-- All: Handled exception on view search when search contains optionsets.
+- All: Handled exception on view search when search contains option sets.
 - All: Custom/auto-save forms not automatically saving changes.
 
 ## 12.1.220
@@ -155,9 +146,9 @@ This article chronicles important updates related to Field Service Mobile and as
 ## 12.1.203
 
 - Win10: Use standard fileIO methods (except open & delete).
-- When copying DynamicEntity, copy the partylist and not just the pointer.
+- When copying DynamicEntity, copy the party list and not just the pointer.
 - SharePoint upload: A misleading sync error removed.
-- Sync does not download NN entities (including the listmember entity).
+- Sync does not download NN entities (including the list member entity).
 - Set entity multiselect picklist property value using JsonSerializers.
 - Always reload EntityHub command.
 - Improve the username discovery for OAuth2.
@@ -176,11 +167,11 @@ This article chronicles important updates related to Field Service Mobile and as
 - Don't inspect dirty flag on disposed form controller (AppStore crashes).
 - Android: Delay LocationTracking service creation on startup.
 - Desktop: Bring all types of DetailItems into view. Previously only text items were handled.
-- Google and Exchange contacts: fullname filter is compatible.
+- Google and Exchange contacts: full name filter is compatible.
 - iOS: MessageBox-related fixes.
 - SearchForm force the cached entities, we already know the entities to search.
 - Desktop: Do not scrollIntoView multiline text DetailItem on click.
-- Google, Exchange contacts: fullname filter is compatible.
+- Google, Exchange contacts: full name filter is compatible.
 - Clicking on Power BI sign-in button doesn't open authentication dialog.
 - iOS "Navigate To" command in account form doesn't fill in the destination automatically after redirecting to the map app.
 - "Direct to current location" button on the map of work order doesn't work in iOS.
