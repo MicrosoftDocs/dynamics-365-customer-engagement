@@ -29,7 +29,7 @@ Marketing updates are [pushed to all customers automatically](https://cloudblogs
 
 ## December 2020 update
 
-The Dynamics 365 Marketing December 2020 update includes improvements to Microsoft Teams integration, email designer enhancements, additional social posting features, and monthly bug fixes.
+The Dynamics 365 Marketing December 2020 update includes improvements to event registrations, email designer enhancements, additional social posting features, and monthly bug fixes.
 
 ### Version number
 
@@ -43,17 +43,19 @@ The Dynamics 365 Marketing December 2020 update includes improvements to Microso
 ### Monthly enhancements
 
 - **Event management**
-    - Added a new API for generating personalized iCalendar files based on event and session data.
+    - Added a new API for generating personalized calendar (.ics) files based on event and session data.
+    - Using the new API, marketers can add an “Add to calendar” button to registration confirmation emails that automatically generates a personalized iCalendar file.
 - **Marketing emails**
-    - Added email designer support for rounded corners in Outlook.
-    - Improved email rendering consistency when forwarding emails in Outlook.
+    - Responding to customer feedback, we added email designer support for rounded corners in Outlook
+    - We also improved email rendering consistency when forwarding emails in Outlook.
 - **Social posting**
     - You can now view post history and replies from social channels in the social post designer.
 
 ### Bug fixes
 
 - **Customer journeys**
-    - 
+    - Fixed an issue that occasionally caused the customer journey designer to render an empty source tile even when a source was set.
+    - Resolved an error resulted in contacts being sent down a **No** path from an **If/then** activity, even when the form-related prerequisite was met.
 - **Data services**
     - 
 - **Event management**
@@ -67,7 +69,9 @@ The Dynamics 365 Marketing December 2020 update includes improvements to Microso
 - **Marketing emails**
     - 
 - **Marketing pages**
-    - 
+    - Resolved an issue where forms were occasionally not validated, even when an empty field was non-required.
+    - Fixed an error where a subscription center form did not pre-fill marketing lists correctly.
+    - Improved marketing form lookup field compatibility with Firefox and Safari.
 
 ## November 2020 update
 
