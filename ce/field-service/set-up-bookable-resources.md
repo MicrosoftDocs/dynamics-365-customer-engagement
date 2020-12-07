@@ -10,16 +10,12 @@ ms.topic: article
 author: FieldServiceDave
 ms.author: daclar
 manager: shellyha
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
 search.app: 
   - D365CE
   - D365FS
 ---
 
-# Set up bookable resources (Field Service)
+# Set up bookable resources in Dynamics 365 Field Service
 
 A bookable resource in Field Service is anything that needs to be scheduled. This most commonly includes people, equipment, and physical spaces (facilities).   
 
@@ -226,11 +222,11 @@ Once the territory record is created, you can add it to a resource. Learn more o
   
 3. Select a **Territory** from the lookup then **Save & Close**.   
 
-## Enable resource for Resource Scheduling Optimization (RSO)
+## Enable resource for resource scheduling optimization
 
-If Resource Scheduling Optimization (RSO) is enabled in your organization, a new tab will appear on the bookable resource form. To allow RSO to automatically schedule requirements to the resource, go to the new tab and set **Optimize Schedule** to **Yes**.
+If resource scheduling optimization is enabled in your organization, a new tab will appear on the bookable resource form. To allow resource scheduling optimization to automatically schedule requirements to the resource, go to the new tab and set **Optimize Schedule** to **Yes**.
 
-Setting to yes does not mean requirements will automatically be scheduled to this bookable resource; instead it means that after RSO is set up and with the appropriate scope to include this bookable resource, it would then be eligible for automatic schedules.
+Setting to yes does not mean requirements will automatically be scheduled to this bookable resource; instead it means that after resource scheduling optimization is set up and with the appropriate scope to include this bookable resource, it would then be eligible for automatic schedules.
 
 
 > [!div class="mx-imgBorder"]

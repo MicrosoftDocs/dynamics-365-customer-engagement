@@ -1,13 +1,15 @@
 ---
-title: Schedule optimization
-author: shellyhaverkamp
+title: Schedule optimization in resource scheduling optimization with Dynamics 365 Field Service
+description: Learn about scheduling optimization using resource scheduling optimization with Dynamics 365 Field Service
+author: FieldServiceDave
 manager: shellyha
+ms.reviewer: krbjoran
 ms.date: 06/08/2018
 ms.topic: article
 ms.custom: 
   - dyn365-fieldservice
 ms.service: dynamics-365-customerservice
-ms.author: shellha
+ms.author: daclar
 search.audienceType: 
   - admin
   - customizer
@@ -32,15 +34,15 @@ search.app:
 - **Out of Sync**: Changes made against the schedule require it to be
     published again.
 
-- **Under Maintenance**: Indicates someone is upgrading the RSO to a newer
+- **Under Maintenance**: Indicates someone is upgrading the resource scheduling optimization to a newer
     version.
 
 - **Failed**: System failed to publish schedules for various reasons.
 
     - The user is able to see the error details on the form of the schedule.
 
-    - A typical error would be that the SASKey has not been configured,
-        meaning RSO Azure resources are not set up correctly.
+    - A typical error would be that the SAS Key has not been configured,
+        meaning resource scheduling optimization Azure resources are not set up correctly.
 
       > [!div class="mx-imgBorder"]
       > ![](media/6e42a1e32814b0bb5fd4e39134c5b5a1.png)
@@ -49,14 +51,14 @@ search.app:
 
 - **PUBLISH**: After creating and saving the schedules, you need to publish
     them. Notice the **Status** in this screenshot is **Unpublished**. To
-    publish, click **Publish** in the upper left.
+    publish, select **Publish** in the upper left.
 
     > [!div class="mx-imgBorder"]
     > ![](media/bbe38ac8b3f58d5e4efa2ba02569aedd.png)
 
 - **PUBLISH ALL**: Publishes all schedules.
 
-- **RESET RESOURCE SCHEDULING OPTIMIZATION**: Cancels all pending RSO jobs and
+- **RESET RESOURCE SCHEDULING OPTIMIZATION**: Cancels all pending resource scheduling optimization jobs and
     unpublishes all schedules.
 
 The next screenshot shows the publish status of the schedule, the date it was last modified, and the next scheduled run date and time.
@@ -64,17 +66,17 @@ The next screenshot shows the publish status of the schedule, the date it was la
 > [!div class="mx-imgBorder"]
 > ![](media/23236bac372efcec3f509581b6eeb026.png)
 
-- **RUN NOW**: Run RSO on demand, regardless of the timer setting.
+- **RUN NOW**: Run resource scheduling optimization on demand, regardless of the timer setting.
 
   > [!NOTE]
-  > RUN NOW is also an API. The user can call this API to run RSO per their business needs. For example, whenever there is a P1 work order requirement, you can re-run RSO right away.
+  > RUN NOW is also an API. The user can call this API to run resource scheduling optimization per their business needs. For example, whenever there is a P1 work order requirement, you can re-run resource scheduling optimization right away.
 
   > [!div class="mx-imgBorder"]
   > ![](media/aca2f6dd56b36554da71ec18db377610.png)
 
 ## Monitoring optimization requests
 
-Once a schedule has been published, you can open it and monitor the scheduling optimization requests (RSO jobs). You can drill into each of these to see the bookings associated with that RSO job run.
+Once a schedule has been published, you can open it and monitor the scheduling optimization requests (resource scheduling optimization jobs). You can drill into each of these to see the bookings associated with that resource scheduling optimization job run.
 
 > [!div class="mx-imgBorder"]
 > ![](media/98f6a265bb86b85773c06dcb989447f1.png)
@@ -103,7 +105,7 @@ With schedule board integration, you can:
 - More easily analyze failed optimization requests.
 - Create a new schedule on the fly.
 
-**How to get there:** Navigate to your Optimization Schedules, select your schedule, and click **SCHEDULE BOARD** on the grid view, or open the Optimization Schedules record form and click **SCHEDULE BOARD** on the form.
+**How to get there:** Navigate to your Optimization Schedules, select your schedule, and select **SCHEDULE BOARD** on the grid view, or open the Optimization Schedules record form and select **SCHEDULE BOARD** on the form.
 
 > [!div class="mx-imgBorder"]
 > ![](media/c7f68e46401aff45535576fb1176baf7.png)
@@ -129,7 +131,7 @@ following:
     requirement state setting.
 
 3. The **Eligible for optimization** tab shows all eligible unscheduled
-    requirements as well as any eligible bookings to be re-optimized that match
+    requirements as well as any eligible bookings to be reoptimized that match
     scope definition, requirement range, and requirement state setting.
 
 4. The **Excluded from optimization** tab shows any eligible requirements or
@@ -160,7 +162,7 @@ following:
     > [!div class="mx-imgBorder"]
     > ![](media/bb08f80f5a17873c061505d0f5b805cd.png)
 
-9. Select a goal and click **Run Now** to trigger an on-demand optimization
+9. Select a goal and select **Run Now** to trigger an on-demand optimization
     request.
 
     > [!div class="mx-imgBorder"]
