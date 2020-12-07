@@ -29,7 +29,6 @@ While writing your custom plug-in, you will have to consider the input and outpu
 There are two ways in which you can view the input and output parameters for the two geospatial actions:
 
 - **Web API action reference content**: View reference information about the geospatial actions in Universal Resource Scheduling.
-    - <xref:Microsoft.Dynamics.CRM.msdyn_GeocodeAddress>
     - <xref:Microsoft.Dynamics.CRM.msdyn_RetrieveDistanceMatrix>
 - **Action definition**: You can view the action definition in Dynamics 365 for information about the input/output parameters, including information whether a parameter is required or optional.
  

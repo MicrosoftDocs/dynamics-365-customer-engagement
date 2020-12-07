@@ -7,9 +7,6 @@ ms.date: 06/14/2018
 ms.reviewer: krbjoran
 ms.service: crm-online
 ms.topic: article
-ms.technology: 
-  - field-service
-  - project-service
 ms.custom: 
   - dyn365-projectservice
   - dyn365-fieldservice

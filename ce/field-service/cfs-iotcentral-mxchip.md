@@ -68,7 +68,7 @@ In Windows, a file explorer window opens to a drive mapped to the storage on the
 
 ### Flash firmware on device
 
-[Download the latest firmware](http://aka.ms/CFSFirmware ) (Bundled with HOL Downloads)
+[Download the latest firmware](https://aka.ms/CFSFirmware ) (Bundled with HOL Downloads)
 	
 >[!Note]
 > The download filename on the releases page looks like *AZ3166-IoT-Central-X.X.X.bin*.
