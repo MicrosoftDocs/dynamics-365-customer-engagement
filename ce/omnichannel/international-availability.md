@@ -43,12 +43,11 @@ Omnichannel for Customer Service October 2020 update is available in the followi
 
 > [!Note]
 >
-> In South America, if your Dynamics 365 tenant is located in Brazil, Omnichannel for Customer Service is currently not available.
->
-> In Europe, if your Dynamics 365 tenant is located in one of the following geographic locations, Omnichannel for Customer Service is currently not available in these locations and is planned to be introduced in the future:
-> - Norway
-> - Switzerland
-> - France
+> - If your Dynamics 365 tenant is located in Brazil, South America, Omnichannel for Customer Service is currently not available.
+> - If your Dynamics 365 tenant is located in one of the following geographic regions in Europe, Omnichannel for Customer Service is currently not available in these regions:
+>   - Norway
+>   - Switzerland
+>   - France
 
 ### April 2020 update
 
@@ -95,7 +94,7 @@ The product user interface (UI) is available in the following languages.
 | Basque                  | German            | Russian             |
 | Bulgarian               | Hebrew            | Serbian (Cyrillic)  |
 | Catalan                 | Hindi             | Serbian (Latin)     |
-| Chinese                 | Hungarian​         | Slovak              |
+| Chinese                 | Hungarian         | Slovak              |
 | Chinese (Hong Kong SAR) | Indonesian        | Slovenian           |
 | Chinese (Simplified)    | Italian           | Spanish             |
 | Croatian                | Japanese          | Swedish             |
