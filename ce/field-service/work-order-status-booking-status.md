@@ -1,32 +1,24 @@
 ---
-title: "Work order and booking statuses in Field Service | Microsoft Docs"
+title: "Work order and booking statuses in Dynamics 365 Field Service | Microsoft Docs"
+description: Learn about work order and booking statuses in Dynamics 365 Field Service
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 08/01/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 author: FieldServiceDave
-ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
-caps.latest.revision: 42
 ms.author: daclar
 manager: shellyha
-search.audienceType: 
-  - admin
-  - customizer
 search.app: 
   - D365CE
   - D365FS
 ---
 
-# Work order life cycle and statuses
+# Work order life cycle and statuses in Dynamics 365 Field Service
 
 Work order system statuses, work order substatuses, and booking statuses all work together to help stakeholders stay up to date with work orders from creation to closing. Updating one of these statuses can update the others automatically.
 
@@ -59,6 +51,8 @@ In this article, we explore work order and booking statuses with the following s
 3. **Delayed schedules**: Field technicians want to make dispatchers aware if they are running more than 15 minutes behind schedule due to traffic by changing the status of their bookings to "Delayed".
 
 4. **Follow up work orders**: Field service organizations often schedule a follow-up inspection after an initial installation or repair work order. If a follow-up is required, field technicians should note it with a custom "Follow Up Required" work order substatus to ensure back-office workers create a follow-up before closing the work order.
+
+For more information, see this video: [Work Orders: Record log total estimated duration, first arrived on, completed on](https://youtu.be/8sISJXS48fQ)
 
 ## Prerequisites
 
@@ -368,7 +362,7 @@ Now the new **Delayed Booking Status** will appear as an option on the Field Ser
 
 Field service organizations often schedule a follow-up inspection after an initial installation or repair work order. If a follow-up is required, field technicians should note it with a custom "Follow-Up Required" work order substatus to ensure back-office workers create a follow-up before closing the work order.
 
-Similar to the example before, go to **Field Service > Settings > Work Order Substatuses > then select +New**.
+Similar to the example before, go to **Field Service** > **Settings** > **Work Order Substatuses** > then select **+New**.
 
 For the following fields: 
 
@@ -378,7 +372,7 @@ For the following fields:
 
 **Default Substatus:** set to **Yes** if all **Open-Completed** work orders should be given a substatus of **Follow-Up Required** by default. For our example, we will choose **No** because not all completed work orders require a follow-up so it's left to the discretion of the field technician.
 
-Click **Save and Close**.
+Select **Save and Close**.
 
 Unlike work order system statuses, work order substatuses can be updated on the mobile app by the field technicians. 
 

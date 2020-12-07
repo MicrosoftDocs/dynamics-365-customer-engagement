@@ -10,19 +10,9 @@ searchScope:
   - Project Service
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.technology: 
-  - field-service
-  - project-service
-ms.tgt_pltfrm: 
 ms.topic: conceptual
-ms.assetid: bbae6f0d-1d53-4d6e-b76f-00dae07443e0
 author: FieldServiceDave
 ms.author: daclar
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
 search.app: 
   - D365CE
   - D365PS

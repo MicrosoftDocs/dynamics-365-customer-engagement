@@ -5,6 +5,7 @@ ms.custom:
   - dyn365-fieldservice
 ms.date: 07/06/2020
 ms.reviewer: krbjoran
+ms.topic: article
 ms.service: dynamics-365-customerservice
 applies_to: 
   - "Dynamics 365 (online)"
@@ -36,6 +37,15 @@ With an Intune-enabled Field Service (Dynamics 365) mobile app, IT administrator
 ## Prerequisites
 
 - Field Service (Dynamics 365) mobile app for iOS and Android
+- Note the bundle IDs to find the mobile app in Intune.
+
+|Platform | Bundle ID |
+| -- | -- | 
+| iOS | com.microsoft.dynamics.iphone.moca.fieldServices |
+| Android | com.microsoft.crm.crmphone.fieldServices |
+
+
+
 
 ## Get started
 

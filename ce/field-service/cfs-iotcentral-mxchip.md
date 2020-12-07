@@ -1,26 +1,18 @@
 ---
 title: "Set up and test IoT alerts from a real device (MXChip) | MicrosoftDocs"
+description: Learn how to set up and test IoT alerts from a real device for Connected Field Service
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 5/15/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 author: D365JB
-ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
-caps.latest.revision: 42
 ms.author: daclar
 manager: shellyha
-search.audienceType: 
-  - admin
-  - customizer
 search.app: 
   - D365CE
   - D365FS
@@ -76,7 +68,7 @@ In Windows, a file explorer window opens to a drive mapped to the storage on the
 
 ### Flash firmware on device
 
-[Download the latest firmware](http://aka.ms/CFSFirmware ) (Bundled with HOL Downloads)
+[Download the latest firmware](https://aka.ms/CFSFirmware ) (Bundled with HOL Downloads)
 	
 >[!Note]
 > The download filename on the releases page looks like *AZ3166-IoT-Central-X.X.X.bin*.
@@ -202,7 +194,7 @@ Go to Connected Field Service and then to **IoT Alerts** (under **My Work**) and
 Select **Create CFS alerts from IoT Central**. Make sure you select the CDS version. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Create CFS Flow Templates screen, showing the Create CFS alerts from IoT Central option.](./media/cfs-mxchip-16.png)
+> ![Screenshot of the "Create CFS Flow Templates" screen, showing the "Create CFS alerts from IoT Central" option.](./media/cfs-mxchip-16.png)
 
 >[!Note]
 > You may need to sign into Power Automate with credentials if you haven’t already
@@ -218,7 +210,7 @@ Enter the following information:
 
 - Application: Select IoT central application name 
 - Rule: Select Button B Press
-- Organization Name: Select Dynamics CFS Org 
+- Organization Name: Select Dynamics 365 Connected Field Service Org 
 - Entity Name: Select IoT Alerts
 
 Select **Save**.
@@ -232,7 +224,7 @@ Enter the following information:
 
 - Application: Select IoT central application name 
 - Rule: Select Temperature Alert
-- Organization Name: Select Dynamics CFS Org 
+- Organization Name: Select Dynamics 365 Connected Field Service Org 
 - Entity Name: Select IoT Alerts
 
 Select **Save**.

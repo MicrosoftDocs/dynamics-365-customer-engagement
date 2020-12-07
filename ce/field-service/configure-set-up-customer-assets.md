@@ -1,24 +1,15 @@
 ---
 title: "Asset management in Dynamics 365 Field Service | MicrosoftDocs"
+description: Learn all about asset management in Dynamics 365 Field Service
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/04/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.technology: 
-  - field-service
-ms.tgt_pltfrm: 
 ms.topic: article
 author: FieldServiceDave
-ms.assetid: 75a7739a-53e8-43e7-bd6d-ca7317a69d30
-caps.latest.revision: 16
 ms.author: daclar
 manager: shellyha
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
 search.app: 
   - D365CE
   - D365FS
@@ -208,7 +199,7 @@ In practice, IoT alerts for a specific sensor will also tag the related customer
 
 ### Add customer assets from different accounts to work orders
 
-You can configure the system to allow customer assets related to accounts other than the work order service account, to be noted on work orders. This configuration helps in scenarios where an asset may be owned by a service provider, yet work orders need to be created for the customer who is currently using the asset, like in the case of a rental or lease. 
+You can configure the system to allow customer assets related to accounts other than the work order service account, to be noted on work orders. This configuration helps in scenarios where an asset may be owned by a service provider, yet work orders need to be created for the customer who is currently using the asset, like with a rental or lease. 
 
 This configuration is also helpful for warranty scenarios where an asset may be owned by the consumer, yet the work order needs to be associated to the manufacturer account who is responsible for the warranty.
 

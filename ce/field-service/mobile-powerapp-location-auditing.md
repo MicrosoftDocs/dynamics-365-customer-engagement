@@ -5,6 +5,7 @@ ms.custom:
   - dyn365-fieldservice
 ms.date: 11/19/2020
 ms.reviewer: krbjoran
+ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 applies_to: 
@@ -26,6 +27,9 @@ Technicians using the Field Service (Dynamics 365) mobile app can enable locatio
 
 In this article, we'll look at how to enable location tracking, and how to access location audits in Field Service.
 
+For a guided walkthrough, check out the following video.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4J6mZ]
 
 ## Prerequisites
 

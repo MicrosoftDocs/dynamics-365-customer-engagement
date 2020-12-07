@@ -10,10 +10,6 @@ ms.topic: article
 author: FieldServiceDave
 ms.author: daclar
 manager: shellyha
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
 search.app: 
   - D365CE
   - D365FS

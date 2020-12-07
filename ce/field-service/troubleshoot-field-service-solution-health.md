@@ -6,22 +6,13 @@ ms.custom:
 ms.date: 10/22/2019
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 author: tw45
-ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
-caps.latest.revision: 42
 ms.author: daclar
 manager: shellyha
-search.audienceType: 
-  - admin
-  - customizer
 search.app: 
   - D365CE
   - D365FS
@@ -127,7 +118,7 @@ Field Service forms depend on its libraries to function properly. Without this, 
 
 ### How to fix
 
-Add back the missing libraries to the form. You might get the list of required libraries by comparing to another form of same entity or on other org. Reach out to support for additional assistance.
+Add back the missing libraries to the form. You might get the list of required libraries by comparing to another form of the same entity or on other org. Reach out to support for additional assistance.
 
 ## Customizations on 'Connected Field Service' app module
 
@@ -302,14 +293,14 @@ Detects if there are any forms in the system that have event handlers referencin
 
 ### Why it fails
 
-Field Service code expects the execution context parameter to be passed in the OnLoad event handler. If this value is missing it might cause errors while using the form.
+Field Service code expects the execution context parameter to be passed in the OnLoad event handler. If this value is missing. it might cause errors while using the form.
 
 > [!Note]
 > The most common scenario where this rule presents a failure is when a copy of one of the out-of-the-box forms is present (Field Service versions earlier than 8.X) and then Field Service is upgraded. In such scenarios, these copied forms from earlier versions of Field Service would be missing the ```ExecutionContext parameter``` in these non-out-of-the-box forms.
 
 ### How to fix
 
-Open the form in the designer > double click on each OnLoad event handler > enable ‘pass execution context as first parameter’ > save and publish the form.
+Open the form in the designer > double-click on each OnLoad event handler > enable "pass execution context as first parameter" > save and publish the form.
 
 ## Incomplete Field Service upgrade
 

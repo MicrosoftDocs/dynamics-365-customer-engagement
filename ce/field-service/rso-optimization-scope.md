@@ -1,5 +1,6 @@
 ---
-title: Resource Scheduling Optimization (RSO) Scopes
+title: Scopes in resource scheduling optimization for Dynamics 365 Field Service
+description: Learn about how to use scopes in resource scheduling optimization for Dynamics 365 Field Service
 author: FieldServiceDave
 ms.author: daclar
 ms.reviewer: krbjoran
@@ -9,23 +10,19 @@ ms.topic: article
 ms.custom: 
   - dyn365-fieldservice
 ms.service: dynamics-365-customerservice
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
 search.app: 
   - D365CE
   - D365FS
 ---
 
-# Optimization scopes 
+# Optimization scopes in resource scheduling optimization
 
-You can define what resource scheduling optimization (RSO) optimizes, including resources, requirements, or bookings.
+You can define what resource scheduling optimization optimizes, including resources, requirements, or bookings.
 
-Scope is the RSO mechanism for defining the relevant inputs: resource requirements, resources, and existing resource bookings. It also includes the timeframes to be considered for optimization. Extensible scope leverages Dynamics 365 entity views, providing an easy and flexible way to define what to optimize (resource requirements, resources, and existing resource bookings).
+Scope is the resource scheduling optimization mechanism for defining the relevant inputs: resource requirements, resources, and existing resource bookings. It also includes the timeframes to be considered for optimization. Extensible scope leverages Dynamics 365 entity views, providing an easy and flexible way to define what to optimize (resource requirements, resources, and existing resource bookings).
 
 > [!IMPORTANT]
-> Scopes should be as small as possible. RSO will be quicker and more effective if optimization requests contain few resources, requirements, bookings, and shorter range durations. Usually companies already have partitions that could be used for RSO; for instance: 
+> Scopes should be as small as possible. Resource scheduling optimization will be quicker and more effective if optimization requests contain few resources, requirements, bookings, and shorter range durations. Usually companies already have partitions that could be used for resource scheduling optimization; for instance: 
 > - Temporally defined: optimize technicians who work in the day separately from
     those who work at night.
 > - Geographically defined: neighborhoods, cities.
@@ -40,8 +37,8 @@ After opening the **Scheduling Optimization Scope** form, users can select exist
 1. Using **Resource View** for example, 0_WA Resources has been defined with
     the filter conditions shown in the following screenshot. This is equivalent
     to configuring WA territory as an optimization scope in the previous version
-    of RSO. Users can apply more filter conditions as needed to specify
-    resources they need to optimize. RSO will respect the Optimize Scheduling
+    of resource scheduling optimization. Users can apply more filter conditions as needed to specify
+    resources they need to optimize. Resource scheduling optimization will respect the Optimize Scheduling
     setting on individual resource records on top of the resource view filters.
     > [!div class="mx-imgBorder"]
     > ![Screenshot of a list of resources](media/4b4f1beede0d89f940677b7df65f80c8.png)
@@ -58,7 +55,7 @@ After opening the **Scheduling Optimization Scope** form, users can select exist
     maybe you want to optimize bookings for the next five days, from 2 hours on
     (while excluding bookings within the next 2 hours and bookings in the past).
     The current, out-of-the-box Dynamics 365 entity view filter doesn’t support
-    this Now or After condition; RSO enabled this additional setting on top of
+    this Now or After condition; resource scheduling optimization enabled this additional setting on top of
     whatever filter conditions are defined for that booking view.
     
    > [!div class="mx-imgBorder"]
@@ -89,14 +86,14 @@ After opening the **Scheduling Optimization Scope** form, users can select exist
    > ![Image showing range offset and duration](media/5d265da65e27891ebab3319627e9a3fa.png)
 
    > [!NOTE]
-   > If bookings or resource requirements are defined in the Requirement/Booking view, but the promised date/time windows are outside the optimization range, RSO won't create or update these requirements or bookings after respecting the scheduling window constraint. If the promised date/time windows are overlapping the optimization range, RSO will create/update these requirements/bookings after respecting the scheduling window constraint.
+   > If bookings or resource requirements are defined in the Requirement/Booking view, but the promised date/time windows are outside the optimization range, resource scheduling optimization won't create or update these requirements or bookings after respecting the scheduling window constraint. If the promised date/time windows are overlapping the optimization range, resource scheduling optimization will create/update these requirements/bookings after respecting the scheduling window constraint.
 
 5. You can preview resources, requirements, and bookings for optimization scope
     through the schedule board:
 
    - Resource filters on the schedule board are prepopulated from the
         Resource View. The resource list matches the number of resources defined
-        in the Resource View. RSO will display a lock icon and tooltip to
+        in the Resource View. Resource scheduling optimization will display a lock icon and tooltip to
         indicate if a resource is not enabled for optimization (even though it
         was added into Resource View).
    - Requirements under Eligible for Optimization match the records from the

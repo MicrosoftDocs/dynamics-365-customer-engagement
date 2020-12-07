@@ -6,22 +6,13 @@ ms.custom:
 ms.date: 10/01/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 author: FieldServiceDave
-ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
-caps.latest.revision: 42
 ms.author: daclar
 manager: shellyha
-search.audienceType: 
-  - admin
-  - customizer
 search.app: 
   - D365CE
   - D365FS
@@ -51,7 +42,7 @@ The Field Service app will be updated automatically as part of the Dynamics 365 
 
 Before your organization updates to 8.8.6+ or later, you can manually apply updates by going to the Microsoft 365 Admin Center.
 
-Log in to [https://login.microsoftonline.com](https://login.microsoftonline.com) with administrator credentials. 
+Sign in to [https://login.microsoftonline.com](https://login.microsoftonline.com) with administrator credentials. 
 
 Go to **Admin**.
 
@@ -79,7 +70,7 @@ In the list of solutions, find and select the Field Service app. It will indicat
 > ![Screenshot of a list of solutions in the admin center noting there's an upgrade available for Field Service](./media/upgrade-fs-new-popup.jpg)
 
 
-In addition, once your organization begins receiving automatic updates with version **8.8.6+**, you can manually upgrade the app in the seven days between the update release and when the automatic update applies. This is done via the admin center process above.
+In addition, once your organization begins receiving automatic updates with version **8.8.6+**, you can manually upgrade the app in the seven days between the update release and when the automatic update applies. Manual updates can be done via the admin center process above.
 
 > [!Note]
 > All new Dynamics 365 Field Service trial environments are given the latest generally available solution when a trial is created via [https://trials.dynamics.com](https://trials.dynamics.com).
@@ -120,7 +111,7 @@ Upgrading the mobile experience for technicians requires three steps:
 
 Technicians use the Field Service Mobile app on their phones, tablets, and Windows 10 devices. 
 
-When a new version of the mobile app is released, the app will need to be updated on each user's device. This can be done manually, automatically, or via Microsoft Intune.
+When a new version of the mobile app is released, the app will need to be updated on each user's device. Updates can be done manually, automatically, or via Microsoft Intune.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service mobile app download example](media/mobile-field-service-mobile-windows-app-store.png)
@@ -136,7 +127,7 @@ To unlock the new capabilities of the updated Field Service Mobile app, you'll t
 
 Mobile projects hold the configurations and customizations of the mobile app. Periodically, Microsoft releases new mobile projects in conjunction with or independent of a mobile app update or a new version of the mobile configuration tool (Woodford) solution.
 
-See the topic on [upgrading mobile projects](mobile-upgrade-project.md) for guidance and best practices.
+See the article on [upgrading mobile projects](mobile-upgrade-project.md) for guidance and best practices.
 
 
 ## Resource Scheduling
@@ -163,23 +154,23 @@ If the diagnostic tool flags any web resources that should not have been edited,
 
 ### Plan for updated Universal FetchXML (UFX) queries
 
-Occasionally, Resource Scheduling releases will include updates to the Universal FetchXML (UFX) queries that control how resources and requirements are fetched and loaded on the schedule board or in schedule assistant results. For more information, see the topic on [schedule board tab settings](https://docs.microsoft.com/dynamics365/field-service/schedule-board-tab-settings#other-settings).
+Occasionally, Resource Scheduling releases will include updates to the Universal FetchXML (UFX) queries that control how resources and requirements are fetched and loaded on the schedule board or in schedule assistant results. For more information, see the article on [schedule board tab settings](https://docs.microsoft.com/dynamics365/field-service/schedule-board-tab-settings#other-settings).
 
-As an example, a new version of Resource Scheduling may add a new resource filter to the left panel of the schedule board. To make this possible, the update will come with a new UFX query for the **Retrieve Resources Query** as seen in the screenshot below.
+For example, a new version of Resource Scheduling may add a new resource filter to the left panel of the schedule board. To make this update possible, the update will come with a new UFX query for the **Retrieve Resources Query** as seen in the screenshot below.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the retrieve resources query in tab settings](./media/upgrade-ufx-queries.png)
 
 However, the XML in each UFX can be edited based on your specific needs. If a UFX query has been edited by your organization, the Resource Scheduling upgrade will import the new UFX query, but **will not apply it**. Therefore, you'll need to add your customizations to the new UFX query and select and apply it manually from the Schedule Board Tab Settings. One option is to use GitHub to understand the differences between the old XML file with your custom queries and the new XML file as part of the Resource Scheduling upgrade.
 
-All UFX queries, both custom ones your organization creates and those included with the Resource Scheduling app, are listed as records in the configurations entity, and each record holds the XML queries.  
+All UFX queries, both custom ones your organization creates and queries included with the Resource Scheduling app, are listed as records in the configurations entity, and each record holds the XML queries.  
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a list of records and queries](./media/upgrade-configurations.png)
 
 ## Resource scheduling optimization
 
-Resource scheduling optimization is the app that allows for automated scheduling of work orders, projects tasks, cases, and more. Major and minor updates are released throughout the year. Unlike Resource Scheduling, RSO can be upgraded independently.
+Resource scheduling optimization is the app that allows for automated scheduling of work orders, projects tasks, cases, and more. Major and minor updates are released throughout the year. Unlike Universal Resource Scheduling, resource scheduling optimization can be upgraded independently.
 
 First, check if a resource scheduling optimization update is available. 
 
@@ -196,22 +187,23 @@ To upgrade resource scheduling optimization, in the left pane select **Resources
 Then select **Upgrade to new version**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the upgrade RSO option](./media/upgrade-rso-upgrade-to-new-version.png)
+> ![Screenshot of the upgrade resource scheduling optimization option](./media/upgrade-rso-upgrade-to-new-version.png)
 
-**Pro Tip:** By selecting **Change Organization**, you can point RSO at a different environment to optimize those work orders, projects, cases, etc. Doing so will initiate an upgrade. Furthermore, your RSO data and configurations (optimization scopes, goals, and schedules) will remain in the previous environment in case you ever want to switch it back.
+**Pro Tip:** By selecting **Change Organization**, you can point resource scheduling optimization at a different environment to optimize those work orders, projects, cases, etc. Doing so will initiate an upgrade. Furthermore, your resource scheduling optimization data and configurations (optimization scopes, goals, and schedules) will remain in the previous environment in case you ever want to switch it back.
 
 
 ## Additional notes
 
-Field Service Mobile Push Notifications and Geofence Alerts solutions that are part of the install and upgrade of Field Service will only be installed if the mobile configuration tool (Woodford) version 11.1+ is present in the environment. Follow the steps below to get these solutions in cases where the mobile configuration tool (Woodford) was not present at install or upgrade.
+Field Service mobile push notifications and geofence alerts solutions that are part of the install and upgrade of Field Service will only be installed if the mobile configuration tool (Woodford) version 11.1+ is present in the environment. Follow the steps below to get these solutions in cases where the mobile configuration tool (Woodford) was not present at install or upgrade.
 
   1. [Download](https://aka.ms/fsmobile-configurator) the mobile configuration tool (Woodford) and import into **Settings** > **Solutions**
   2. Delete the **FieldService_Anchor** from the solutions list in **Settings** > **Solutions**.
   3. In Admin Center, an upgrade will be available; proceed to manually upgrade.
-  4. This will skip most of the installed solutions and will install msdyn_FSMNotification and msdyn_GeoFenceAlerts since the Woodford dependency has been met.
+  4. Manual upgrade will skip most of the installed solutions and will install msdyn_FSMNotification and msdyn_GeoFenceAlerts since the Woodford dependency has been met.
 
 
 ### See also
+
 - [Field Service version history](version-history.md)
 
 - [Install Field Service (web + mobile)](install-field-service.md)

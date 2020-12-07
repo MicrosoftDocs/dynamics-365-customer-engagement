@@ -1,26 +1,18 @@
 ---
 title: "Security roles for Connected Field Service | MicrosoftDocs"
+description: Learn about security roles in Connected Field Service
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 02/28/2019
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 author: FieldServiceDave
-ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
-caps.latest.revision: 42
 ms.author: daclar
 manager: shellyha
-search.audienceType: 
-  - admin
-  - customizer
 search.app: 
   - D365CE
   - D365FS
@@ -73,7 +65,7 @@ See the following screenshot for reference.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of all the IoT entities that Field Service administrators should have access to](media/cfs-security-role-administrator.png)
 
-The Field Service administrator security role should also be given full access to the **CFS - IoT Alert Process Flow**, which is a business process flow for CFS. 
+The Field Service administrator security role should also be given full access to the **CFS - IoT Alert Process Flow**, which is a business process flow for Connected Field Service. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the IoT alert process flow](media/cfs-security-role-administrator-bpf.png)
@@ -87,7 +79,7 @@ Find the dispatcher security role your organization assigns to dispatchers (typi
 > [!div class="mx-imgBorder"]
 > ![Screenshot of enabled permissions for the dispatcher](media/cfs-security-role-dispatcher.png)
 
-Next, add access to the **CFS - IoT Alert Process Flow** according to the following screenshot. Dispatchers can use the CFS business process flow to update and track the stages of work orders resulting from IoT alerts.
+Next, add access to the **CFS - IoT Alert Process Flow** according to the following screenshot. Dispatchers can use the Connected Field Service business process flow to update and track the stages of work orders resulting from IoT alerts.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the IoT alert process flow](media/cfs-security-role-dispatcher-bpf.png)

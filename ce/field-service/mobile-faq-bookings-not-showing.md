@@ -1,30 +1,22 @@
 ---
-title: "Why can't I see my bookings when logged into the app? Dynamics 365 Field Service | MicrosoftDocs"
+title: "Why can't I see my bookings when signed into the app? Dynamics 365 Field Service | MicrosoftDocs"
+description: Find help for the question, "Why can't I see my bookings when signed into the app?"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 10/25/2018
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.technology: 
-  - field-service
-ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: troubleshooting
 author: FieldServiceDave
-ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
-caps.latest.revision: 42
 ms.author: daclar
 manager: shellyha
-search.audienceType: 
-  - admin
-  - customizer
 search.app: 
   - D365CE
   - D365FS
 ---
-# Why can't I see my bookings when logged into the app?
+# Why can't I see my bookings when signed into the app?
 
-There are typically 3 possible reasons bookings don't show up in the mobile app:
+There are typically three possible reasons bookings don't show up in the mobile app:
 
 1. The mobile application isn't synced to the server 
 
@@ -36,19 +28,19 @@ See below for details about each of these possible reasons.
 
 ## 1. The mobile application isn't synced to the server
 
-When a dispatcher books a work order to a resource, this takes place on the server and may take time to update on the mobile application. The time it takes for the booking to show on the mobile application can depend on internet speeds, internet connection, and even configurations. For example, the mobile app can be configured to sync data from the server every X minutes, or only when connected to Wi-Fi.
+When a dispatcher books a work order to a resource, syncing takes place on the server and may take time to update on the mobile application. The time it takes for the booking to show on the mobile application can depend on internet speeds, internet connection, and even configurations. For example, the mobile app can be configured to sync data from the server at timed intervals, or only when connected to Wi-Fi.
 
 First, try manually syncing data from the server by selecting the sync button in the mobile app.
 
 ![Screenshot of the mobile application sync button](media/Mobile-FAQs-image14.png)  
 
-If you have trouble syncing, try going to **Setup** > **Delete Data** > **Save** in the mobile app, and sync again. This will erase any data that is stored locally on the device. 
+If you have trouble syncing, try going to **Setup** > **Delete Data** > **Save** in the mobile app, and sync again. This process will erase any data that is stored locally on the device. 
 
 ![Screenshot of the Delete Data option on the setup screen](media/Mobile-FAQs-image15.png)  
 
 Additionally, there are some scenarios where forcing a full sync to the device from Field Service can push changes that will allow the user to see bookings; one such scenario is a change in security roles.
 
-To force a full sync to the device, open Field Service in a non-private Internet Explorer browser, log in as an administrator, and navigate to **Settings** > **Woodford** > **MobileCRM Woodford.**
+To force a full sync to the device, open Field Service in a non-private Internet Explorer browser, sign in as an administrator, and navigate to **Settings** > **Woodford** > **MobileCRM Woodford.**
 
 ![Screenshot of the Field Service settings menu](media/Mobile-FAQs-image3.png)
 
@@ -56,19 +48,19 @@ Once in the Woodford interface, navigate to Security under the Admin menu, and f
 
 ![Screenshot of the deivce in the security menu](media/Mobile-FAQs-image16.png)  
 
-Next, login to the mobile app with the same user and sync the device.
+Next, sign in to the mobile app with the same user and sync the device.
 
-For more information on forcing full syncs, refer to [the Woodford guide (PDF)](https://www.resco.net/downloads/Woodford_Guide.pdf).
+For more information on forcing full syncs, see [the Woodford guide (PDF)](https://www.resco.net/downloads/Woodford_Guide.pdf).
 
 ## 2. The application is in offline mode and the booking is outside the sync filters
 
-The Field Service mobile application is designed for offline scenarios. This means data is downloaded locally to the device when the user has internet access for later when the user may not have internet access. A common example is performing work in remote areas or in underground tunnels. 
+The Field Service mobile application is designed for offline scenarios. Offline scenarios mean data is downloaded locally to the device when the user has internet access for later when the user may not have internet access. A common example is performing work in remote areas or in underground tunnels. 
 
-Rather than download all data, a mobile administrator can create sync filters that will download a targeted portion of the data for offline use later. For example, an admininstrator can make it so the app only downloads this week’s work orders (rather than all work orders). See [the Woodford guide (PDF)](https://www.resco.net/downloads/Woodford_Guide.pdf) for more information on sync filters.
+Rather than download all data, a mobile administrator can create sync filters that will download a targeted portion of the data for offline use later. For example, an administrator can make it so the app only downloads this week’s work orders (rather than all work orders). For more information on sync filters, see [the Woodford guide (PDF)](https://www.resco.net/downloads/Woodford_Guide.pdf).
 
-There are 2 ways to fix this.
+There are two ways to fix this.
 
-The first way is to use the mobile application in online mode, because this gives you access to all data.
+The first way is to use the mobile application in online mode, because this mode gives you access to all data.
 
 Log into the mobile app and select the online/offline mode icon.
 
@@ -82,7 +74,7 @@ Make sure the below icon appears, indicating online mode.
 
 ![Screenshot of the online mode icon](media/Mobile-FAQs-image18.png)  
 
-Then navigate to **Bookings** to view your bookings. Note that this may take a few moments to load.
+Then navigate to **Bookings** to view your bookings. This may take a few moments to load.
 
 A second way to fix this is to edit the sync filters for offline mode.
 
@@ -102,7 +94,7 @@ If your booking isn't appearing in offline mode, make sure it meets the sync fil
 
 ## 3. Drip scheduling is enabled for the related resource and the booking is outside the *bookings to drip* number parameter
 
-Drip scheduling makes it so the app will only display upcoming bookings, as current bookings are completed. For example, an administrator can choose to only display the next 2 bookings for a field technician.
+Drip scheduling makes it so the app will only display upcoming bookings, as current bookings are completed. For example, an administrator can choose to only display the next two bookings for a field technician.
 
 One reason you may not see bookings when you log into the mobile app is because drip scheduling may be preventing the booking.
 

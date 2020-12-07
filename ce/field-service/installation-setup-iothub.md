@@ -6,20 +6,10 @@ ms.custom:
 ms.date: 09/14/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
-ms.suite:
-ms.technology:
-  - field-service
-ms.tgt_pltfrm:
 ms.topic: article
 author: FieldServiceDave
-ms.assetid: 2142d996-008b-4ada-bf2e-e9dc316715c4
-caps.latest.revision: 14
 ms.author: daclar
 manager: shellyha
-search.audienceType:
-  - admin
-  - customizer
-  - enduser
 search.app:
   - D365CE
   - D365FS
@@ -31,14 +21,11 @@ This guide provides all the steps required for getting up and running with Conne
 ## Prerequisites  
  Ensure the following before configuring Connected Field Service.
   
-- Dynamics 365 Field Service. For more information, visit the [topic on installing Dynamics 365 Field Service](../field-service/install-field-service.md).
+- Dynamics 365 Field Service. For more information, visit the [article on installing Dynamics 365 Field Service](../field-service/install-field-service.md).
   
 - Assign your Dynamics 365 user the System Administrator and IoT-Administrator secuirity roles. 
 
 - An active Azure subscription with appropriate privileges. See our [topic on Azure prerequisites](cfs-azure-subscription.md) for more information.
-  
- 
-  
 
 ## Step 1: Install or upgrade Field Service  
  
@@ -70,8 +57,8 @@ Next, deploy and connect Azure IoTHub to your Field Service environment by going
   3. Select the **Applications** tab, and then select **Connected Field Service**.  
   4. Select **Manage**.  
   5. Read and accept the **Terms of service**.  
-  6. In the **Installing Azure Required Assets** dialog box, enter your Azure account, click **Sign In User**, and then  follow the sign-in process.  
-  7. In the **Selecting Azure Subscription** dialog box, select the Azure subscription that you want to create resources under and then click **Next**.  
+  6. In the **Installing Azure Required Assets** dialog box, enter your Azure account, select **Sign In User**, and then  follow the sign-in process.  
+  7. In the **Selecting Azure Subscription** dialog box, select the Azure subscription that you want to create resources under and then select **Next**.  
   8. In the **Choose a resource group** dialog box, create a new resource group or use an existing resource group.  
   9. **Optional Step for Power BI**.  To install the Azure SQL database that is used for Power BI, check the **Enable Power BI Integration** box, and then enter the Azure SQL database user name and password. 
   10. Select **Deploy**.  
@@ -93,11 +80,11 @@ The simulator will allow you test Connected Field Service without the need to co
 
 Set up the simulator to simualte iot devices and data and begin to see pull device data into Field Service. 
 
-To find the simulator URL , sign in to your Azure subscription, and then click the App Service resource type under the newly created resource group. You’ll see the URL is in the top right corner. Copy the URL and complete the following steps:  
+To find the simulator URL, sign in to your Azure subscription, and then select the App Service resource type under the newly created resource group. You’ll see the URL is in the top-right corner. Copy the URL and complete the following steps:  
   
 1. Paste the URL into your browser’s address bar to load the page.  
   
-2. When the simulator page opens, click **Configuration**.  
+2. When the simulator page opens, select **Configuration**.  
   
 3. Enter the IoT hub host name and key. The host is simply the name of the IoT Hub resource in Azure portal. 
 
@@ -111,13 +98,11 @@ To find the simulator URL , sign in to your Azure subscription, and then click t
   
 4. Select the IoT hub in the **Resource Group**.  
   
-5. On the left under **General**, click **Shared access policies** to get the host name and primary key.  
+5. On the left under **General**, select **Shared access policies** to get the host name and primary key.  
   
 6. Make sure **Connection status**  is marked as **Connected** and then close the dialog box.  
-  
+
 Now you can send a test command by using the sample simulator. For example, click the temperature and increase it to  above 70 degrees. The simulator is pre-programmed to create an IoT alert if temperature is above 70 degrees.
-  
- 
 
 ## Next steps
 
