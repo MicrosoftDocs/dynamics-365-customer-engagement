@@ -80,7 +80,6 @@ The following category and sub-category options are available on the filer menu:
 |Activity due date (active) |<li>Next 30 days</li><li>Next 7 days</li><li>Next 24 hours</li><li>Last 24 hours</li><li>Last 7 days</li><li>Last 30 days</li> |
 |Posts by                   |<li>Auto post</li><li>Users</li> |
 |Modified date              |<li>Last 24 hours</li><li>Last 7 days</li><li>Last 30 days</li> |
-|
 
 ## Work with records  
 
@@ -265,6 +264,9 @@ Legend
 
 When enabled by your system administrator, you can add an attachment, such as a file, to a note in timeline to share with users.
 
+> [!NOTE]
+> The list of allowed attachments are configured by your system administrator.
+
 Select the paperclip ![](media\timelilne-paperclip-icon.png "paperclip icon") icon to attach a file to a note. 
 
 ![Attachment icon](media\timeline-add-a-note-to-a-record.png "Attachment icon")
@@ -273,7 +275,7 @@ Select the paperclip ![](media\timelilne-paperclip-icon.png "paperclip icon") ic
 
 Once you attach a file to your note, the **Edit note** screen will display, and attachments display at the bottom of the **Edit note** screen.
 
-![Edit note screen](media\timeline-select-user-advanced-find-1c.png "Edit note screen")
+![Edit note screen](media\edit-note-timeline.png "Edit note screen")
 
 > [!IMPORTANT]
 > - You can only add one attachment to a note that is attached to a record. 
