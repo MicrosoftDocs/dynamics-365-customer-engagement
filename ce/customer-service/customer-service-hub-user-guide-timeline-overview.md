@@ -1,10 +1,10 @@
 ---
 title: "Timeline Overview for Users | MicrosoftDocs"
 description: "Timeline Overview for Users"
-author: lerobbin
-ms.author: lerobbin
+author: lalexms
+ms.author: laalexan
 manager: shujoshi
-ms.date: 10/05/2020
+ms.date: 12/07/2020
 ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ms.reviewer: lalexms
@@ -12,20 +12,20 @@ ms.reviewer: lalexms
 
 # Use Timeline
 
-Timeline is a control that allows you to view different activity types that are connected to an entity record and occur over time in a single stream. Some activities that can be logged into the timeline are notes, phone calls, emails, appointments, and tasks.
+Timeline is a control that allows you to view information that is connected to an entity record and occurs over time in a single stream. Some information that can be logged into the timeline are notes and posts, in addition to displaying activities such as emails, appointments, phone calls, and tasks.
 
 Timeline allows you to:
 - Access the command bar to perform common actions quickly.
-- Filter and view important activities using multiple filter options.
+- Filter and view important notes, posts, and activities using multiple filter options.
 - View and manage email conversation threads with ease.
 
 ![Timeline Browser Overview](media\timeline-browser-view.png "Timeline Browser Overview")
 
 ## How to use timeline functionality
 
-The following is an overview of how the timeline functionality works in each section on the entity form. The timeline section on the entity form is rich in features and functionality to help you navigate and streamline efforts.
+The timeline section on the entity form is rich in intended to centralize access to information and streamline effort to accomplish actions. The following is an overview of how the timeline functionality works in each section on the entity form. 
 
-The icons displayed in the top right nav in the Timeline gives quick access to the following capabilities, when enabled by your system administrator:
+When enabled by your system administrator, you can use the icons that are displayed on the top-right navigation in the Timeline for quick access to the do following:
 
 - [Create a timeline record](#create-a-timeline-record)
 - [Work with Filters](#work-with-filters)
@@ -36,9 +36,9 @@ The icons displayed in the top right nav in the Timeline gives quick access to t
 
 ## Create a timeline record
 
-When enabled by your system administrator, the **Create a timeline record** feature allows you to quickly create appointments, tasks, send emails, make notes and posts and associate them with other records. 
+When enabled by your system administrator, you can use the **Create a timeline record** feature to quickly create appointments, tasks, send emails, as well as make notes and posts and associate them with other records. 
 
-1. Select **Create a timeline record** icon<BR><BR>
+1. Select **Create a timeline record** icon.<BR><BR>
 ![](media\timeline-create-a-record-icon1c.png "Create a timeline record") 
 
 2. Select the type of record you want to create from the display options available. <BR><BR>
@@ -53,7 +53,7 @@ When enabled by your system administrator, the timeline **Filter** further strea
 ![Timeline filter functionality](media\timeline-filter-12b.png "Timeline filter functionality")
 
 Legend:
-1. Timeline **Filter** ![](media\timeline-filter-icon.png "Filter") icon is located in the top right nav on the timeline.
+1. The Timeline **Filter** ![](media\timeline-filter-icon.png "Filter") icon is located in the top-right navigation on the timeline.
 2. The filter pane displays when the **Filter** icon is selected.
 3. Use the carats to expand or minimize selections.
 4. When enabled by your system administrator, record and activity types are displayed in the filter pane. Record and activity types can be filtered by checking a box next to the item.
@@ -179,7 +179,7 @@ Notes allows you to record richly formatted information and images for reference
 
 ### Add a note or post to a record on timeline
 
-When enabled by your system administrator, you can either add a **Note** or a **Post** to a record on timeline.
+When enabled by your system administrator, you can either add a **Note** or a **Post** to a record on timeline. Each note has a maximum size limit of 100,000 characters.
 
 You can also enter a **Note** and add it to a record, but you can only add one attachment per note. If **Note** is not enabled by your system administrator, you cannot add an attachment.
 
@@ -226,6 +226,21 @@ The following is an overview of the command bar icons and the actions they suppo
 | ![](media\email-forward-icon.png "Forward icon ")|Forward|Lets you forward an email. **Note**: This command is only available on Email.|
 | ![](media\email-like-a-post-icon.png "Like a post icon")|Like this post| Lets you like a post. **Note**: This command is only available on Posts.|
 | ![](media\email-edit-icon.png "Edit icon")|Edit this note|Lets you edit a note. **Note**: This command is only available on Notes.|
+
+The following is an overview of the default command bars for frequently used activities, notes, and posts: 
+
+| Activity | Command bar icons | Notes |
+|-----|------|-------------|
+| Email (draft) |Open Record, Delete | |
+| Email | Reply, Reply All, Forward, Open Record | |
+| Appointment | Assign, Close Activity, Add to Queue, Open Record, Delete | |
+| Appointment (closed) | Assign, Add to Queue, Open Record, Delete | |
+| Task | Assign, Close Activity, Add to Queue, Open Record, Delete | |
+| Task (closed) | Assign, Add to Queue, Open Record, Delete | |
+| Phone Call | Assign, Add to Queue, Open Record, Delete | |
+| Note | Edit, Delete | |
+| Post (user) | Like, Reply, Delete | Only the author of the post has the ability to delete it. The author always has the ability to delete regardless of user privilege. |
+| Auto-post | Like, Reply, Delete | |
 
 ## Work with notes
 
