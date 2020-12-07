@@ -20,6 +20,19 @@ search.app:
 
 # Frequently asked questions for the Field Service (Dynamics 365) mobile app
 
+## How do I enable address suggestions?
+
+The mobile app can recommend addresses as technicians type them into a work order when you have an Internet connection. This makes data entry quicker and more accurate.    
+
+Enable or disable address recommendations by going to **Field Service app > Settings > Field Service Settings > Other section**.
+
+The set **Enable Address Suggestions** to **Yes**.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-settings-enable-address-recommendation.png)
+
+When the mobile user does not have access to Internet, he or she can click Edit to manually enter address fields.
+
 ## Why does the app say "Contact your administrator for access to your organization's mobile apps"?
 
 
