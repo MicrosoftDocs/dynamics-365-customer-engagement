@@ -25,7 +25,7 @@ This topic shows you how to compile and run a  program that creates an account r
 
 ## Prerequisites
 
-- Download the [Sample: Quick start for Microsoft Dynamics 365 Customer Engagement (on-premises)](https://code.msdn.microsoft.com/Sample-Quick-start-for-650dbcaa)
+- Download the [Sample: Quick start for Microsoft Dynamics 365 Customer Engagement](sample-quick-start.md)
 - You must be able to sign in to [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)].  
 - [!INCLUDE [pn-visual-studio-short](../includes/pn-visual-studio-short.md)] 
 - [!INCLUDE [pn-net-framework462-long](../includes/pn-net-framework462-long.md)]

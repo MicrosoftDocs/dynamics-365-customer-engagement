@@ -1,26 +1,18 @@
 ---
-title: "Field Service work order architecture | MicrosoftDocs"
+title: "Dynamics 365 Field Service work order architecture | MicrosoftDocs"
+description: Learn about Dynamics 365 Field Service work order architecture
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 05/19/2019
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: conceptual
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 author: Edipple
-ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
-caps.latest.revision: 42
 ms.author: daclar
 manager: shellyha
-search.audienceType: 
-  - admin
-  - customizer
 search.app: 
   - D365CE
   - D365FS
@@ -43,7 +35,7 @@ The following diagram can help you understand the various entities, attributes, 
 The **Work Order** entity contains the details of the job that needs to be completed. This includes basic details like work order type, status, duration, priority, and more. Work orders are related to the standard Dynamics 365 **Account** entity in that specifying a **Service Account** on the work order adds related account information like territory, address, geocode (latitude and longitude), price list, and more. For instances where the work order location (service account) is different than the billing location, you can relate a service account to a **Billing Account**. 
 
 > [!Note]
-> A service account and billing account are both simply account entity records. The only difference is which account is entered in the **Service Account** and **Billing Account** work order fields, though organizations can distinguish between the two with their own business processes. 
+> A service account and billing account are both account entity records. The only difference is which account is entered in the **Service Account** and **Billing Account** work order fields, though organizations can distinguish between the two with their own business processes. 
 
 Service accounts are also important when creating **Service Agreements**, which are used to automatically generate recurring work orders. An agreement can only be associated to one service account, which means all work orders generated as part of the agreement will be dispatched to that service account location. The type of work and assets being maintained can vary.
 

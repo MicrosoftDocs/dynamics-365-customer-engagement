@@ -1,30 +1,21 @@
 ---
-title: "Customizations and configurations for the Field Service mobile app | MicrosoftDocs"
+title: "Customizations and configurations for the Field Service (Dynamics 365) mobile app | MicrosoftDocs"
+description: Learn about customizations and configurations for the Field Service (Dynamics 365) mobile app
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 10/19/2018
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.technology: 
-  - field-service
-ms.tgt_pltfrm: 
 ms.topic: article
 author: FieldServiceDave
-ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
-caps.latest.revision: 42
 ms.author: daclar
 manager: shellyha
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
 search.app: 
   - D365CE
   - D365FS
 ---
 
-# Customizations and configurations for the Field Service mobile app
+# Customizations and configurations for the Field Service (Dynamics 365) mobile app
 
 After setting up the [Field Service mobile application](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/install-field-service#download-the-field-service-mobile-app-on-a-phone-or-tablet), you can customize and configure the mobile user interface and data based on your business needs. 
 
@@ -32,7 +23,7 @@ The [Woodford guide](https://www.resco.net/downloads/Woodford_Guide.pdf) provide
 
 Additionally, the [Field Service mobile project](https://aka.ms/fsmobile-project) is a template of customizations and configurations that you can use to get started. It should be imported into Woodford.
 
-In this topic, we'll take a look at some **common display customizations** for the mobile app, along with some examples of how you can **configure how the app works**. 
+In this article, we'll take a look at some **common display customizations** for the mobile app, along with some examples of how you can **configure how the app works**. 
 
 ## Common display customizations
 
@@ -48,7 +39,7 @@ These customizations can differ based on the security roles of logged in users.
 See below for some common customization examples.
 
 ### Home screen
-You can edit how entities are displayed and ordered upon logging into the mobile app. For instance, as seen in the screenshot below, mobile administrators can move "Time Off Requests" to the top of the list, or remove it from the screen completely.
+You can edit how entities are displayed and ordered upon signing into the mobile app. For instance, as seen in the screenshot below, mobile administrators can move *Time-Off Requests* to the top of the list, or remove it from the screen completely.
 
 > ![Screenshot of mobile home](media/mobile-home.png)
 
@@ -84,7 +75,7 @@ Sync filters allow administrators to configure which subset of server data is do
 For example, when connected to the internet, a mobile user may be able to see all booked work orders for this calendar year; when that user is in *offline* mode, they can only view the current week's booked work orders, which have been downloaded to the device, thanks to a sync filter.
 
 ### Workflows
-Administrators can also create mobile workflows called **form rules**. Common examples include auto-populating data when specific form fields are edited, or displaying warning messages for fields in the mobile interface.
+Administrators can also create mobile workflows called **form rules**. Common examples include autopopulating data when specific form fields are edited, or displaying warning messages for fields in the mobile interface.
 
 ### Commands
 
