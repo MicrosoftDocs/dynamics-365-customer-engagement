@@ -18,6 +18,6 @@ search.app:
   - D365FS
 ---
 
-# Schedule work over multiple days 
+# Schedule work over multiple days in Dynamics 365 Field Service
 
 [!INCLUDE[schedule-multi-day-work.md](../shared/urs/schedule-multi-day-work.md)]

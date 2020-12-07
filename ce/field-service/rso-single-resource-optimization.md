@@ -15,7 +15,7 @@ search.app:
   - D365FS
 --- 
 
-# Single resource optimization
+# Single resource optimization with resource scheduling optimization
 
 
 Resource scheduling optimization is flexible and can be configured to run optimizations based on your organization's scheduling needs. Sometimes you might need to optimize only a single resource's schedule, rather than a set of available resources.
