@@ -133,7 +133,6 @@ It is recommended that you have at least one rule defined for all mobile offline
 
 |Profile details |Limitation|  
 |-------------|---------|  
-|User in profile|	2,000|
 |Relationship defined for each entity|Maximum of 10 relationships. And maximum of one many to many (M:M) or one to many (1:M) relationships within those 10 relationships. If any custom entities demand this scenario, then revisit the data model. No circular references or self-references are supported.|
 
 
@@ -149,8 +148,5 @@ Ensure that you have configured at least one of the Profile rules for each entit
 |Custom Data Filter |<=3 filters can be defined in the custom data filter. |
 
 
-### Data volume recommendation 
-
-The recommended data volume should be <=  10,000 records per user subscription.
 
 
