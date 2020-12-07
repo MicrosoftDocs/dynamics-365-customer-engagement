@@ -90,6 +90,7 @@
 ### [Next-generation schedule board experience](preview-schedule-board.md)
 
 # Mobile apps
+
 ## [Compare mobile apps (Xamarin vs. Microsoft Power Platform)](mobile-2020-power-platform.md)
 ## Dynamics 365 Field Service mobile app (Microsoft Power Platform)
 ### [Overview](mobile-power-app-overview.md)
@@ -100,7 +101,7 @@
 ### [Offline data and sync filters](mobile-power-app-system-offline.md)
 ### [Barcode scanning and global search](mobile-power-app-system-barcode-scanning.md)
 ### [Push notifications](mobile-power-app-push-notifications.md)
-### [Location auditing](mobile-powerapp-location-auditing.md)
+### [Location tracking, sharing, and auditing](mobile-powerapp-location-auditing.md)
 ### [Workflows and scripts](mobile-power-app-workflows.md)
 ### [Intune mobile app management](mobile-power-app-intune.md)
 ### [Use Microsoft Power Platform](mobile-power-utilize-platform.md)

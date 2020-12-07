@@ -55,11 +55,13 @@ Select a booking to see more details about the booking time and the work order. 
 
 On the **Service tab**, you'll see work order details like work order service tasks, products, and services.
 
-On the **Notes tab**, you'll see a way to add note text, pictures, and videos, as well as customer signature capture.
+On the **Service tab**, you'll see work order details like work order service tasks, products, and services. In one click, you can mark a service or service task complete along with the products used. As needed, you can adjust the product units and the service hours. Clicking the service task, service, or product name will navigate you to the full details form.
 
 
 > [!div class="mx-imgBorder"]
-> ![Simulated image showing three mobile devices with Field Service (Dynamics 365) open. First screenshot on the left shows the service tab on the bookable resource booking. Middle screenshot shows the service tab. Right screenshot shows the notes tab.](./media/mobile-2020-work-order-service-notes.jpg)
+> ![Simulated image showing three mobile devices with Field Service (Dynamics 365) open. First screenshot on the left shows the service tab on the bookable resource booking. Middle screenshot shows the service tab. Right screenshot shows the notes tab.](./media/mobile-2020-work-order-service-notes-new.jpg)
+
+On the **Notes tab**, you'll see a way to add note text, pictures, and videos, as well as customer signature capture.
 
 ## Find more information
 
