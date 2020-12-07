@@ -14,6 +14,7 @@ search.app:
   - D365CE
   - D365FS
 ---
+
 # Schedule a work order (Field Service)
 
 Once a work order has been created in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)], it's ready to be scheduled. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a work order](../field-service/create-work-order.md)  
