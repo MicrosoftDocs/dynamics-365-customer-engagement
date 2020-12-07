@@ -1,25 +1,18 @@
 ---
 title: Universal FetchXML | Microsoft Docs
-description: Advanced query langugage to extend Universal Resource Scheduling
+description: Advanced query language to extend Universal Resource Scheduling
 author: FieldServiceDave
 ms.author: daclar
 ms.date: 06/14/2018
 ms.reviewer: krbjoran
 ms.service: crm-online
-ms.suite: 
-ms.tgt_pltfrm: 
 ms.topic: article
 ms.technology: 
   - field-service
   - project-service
-ms.assetid: d9c56128-497d-4789-9631-4cb34f04638e
 ms.custom: 
   - dyn365-projectservice
   - dyn365-fieldservice
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
 search.app: 
   - D365CE
   - D365PS
@@ -28,7 +21,7 @@ search.app:
 
 # Universal FetchXML
 
-UFX is an advanced query language that allows you to query data using dynamic FetchXML, shape and prepare the resulting data for consumption by the **Universal Resource Scheduling (URS)** solution. 
+UFX is an advanced query language that allows you to query data using dynamic FetchXML, shape, and prepare the resulting data for consumption by the **Universal Resource Scheduling (URS)** solution. 
 This query language enables you to create custom queries to customize and extend the schedule board and schedule assistant filters to meet the unique business needs of the organization. 
 
 UFX consists of two components UFX Bag and UFX Query. 
@@ -67,7 +60,7 @@ In XML:
 
 ## UFX supported types
 
-A UFX Bag can contain values of many types. They are categorized in 3 type classes:
+A UFX Bag can contain values of many types. They are categorized in three type classes:
 
 Category | Value
 ---  | ---
@@ -122,7 +115,7 @@ The same bag in XML:
 <a name="ufx-queries"></a>
 ## Introduction to UFX Queries
 
-UFX Queries are written as XML-based **UFX Bags**. Properties in the bag can contain **UFX directives** to query data dynamically. A UFX Query executes on in-memory objects, not XML. Only the directives are written in XML. It's output can be serialized to JSON or XML.
+UFX Queries are written as XML-based **UFX Bags**. Properties in the bag can contain **UFX directives** to query data dynamically. A UFX Query executes on in-memory objects, not XML. Only the directives are written in XML. Its output can be serialized to JSON or XML.
 
 The following UFX Query defines the `accounts` property in the bag with the `source` UFX directive. This results in the inline FetchXML to be executed by Dynamics 365 and the `accounts` property to become a list of bags, or an `EntityCollection`, with each bag being an instance of an account record from Dynamics 365.
 ```xml
@@ -210,7 +203,7 @@ If the `NameFilter` property in the input bag contained `%city%` the produced Fe
 ## Keys, values, and metadata
 A UFX Bag contains keys and values, with some values having additional metadata further describing them.
 
-An example might be a value of type `lookup (EntityReference)`. When queried from Dynamics 365 through FetchXML, it will return the logical name of the entity as well as the formatted display name of the record. The UFX Bag perserves these additional information as metadata attached to the primary value.
+An example might be a value of type `lookup (EntityReference)`. When queried from Dynamics 365 through FetchXML, it will return the logical name of the entity as well as the formatted display name of the record. The UFX Bag preserves these additional information as metadata attached to the primary value.
 
 Serialized to JSON, a `lookup` with metadata looks like this:
 ```json
@@ -229,7 +222,7 @@ In XML:
 ## XPath over Dynamics 365 data
 Having the data in a UFX Bag typed, allows a UFX Query to see it in a structured format and use XPath to traverse over the data and select values from it.
 
-An XPath expression specified in a UFX directive sees the data in the bag very similar to the structure of the bag in XML-serialized form. However, the data is stored in in-memory .NET objects (in instances of `Entity` and `EntityCollection` types) and not in XML documents.
+An XPath expression specified in a UFX directive sees the data in the bag similar to the structure of the bag in XML-serialized form. However, the data is stored in in-memory .NET objects (in instances of `Entity` and `EntityCollection` types) and not in XML documents.
 
 
 ## Appendix A: UFX type reference
@@ -268,7 +261,7 @@ UFX FetchXML directives
 
 Element | Attribute | Value | Description
 --- | --- | --- | ---
-All elements | `ufx:if` | XPath | Tests the XPath expression and only emits the XML element if the tests succeeds
+All elements | `ufx:if` | XPath | Tests the XPath expression and only emits the XML element if the tests succeed
 `ufx:apply` | `select` | XPath | Loops over the nodeset returned by the XPath expression and outputs the child XML elements once for each node
 `ufx:value` | `select` | XPath | Executes the XPath expression and outputs the result in the current XML element
 `ufx:value` | `attribute` | attribute name | Assigns the XPath expression result to the specified attribute name on the current XML element
@@ -314,6 +307,6 @@ $current | Reference to the current bag being processed by the UFX Query
 
 ### See also
 
-[Understanding and customizing resource matching in Universal Resource Scheduling (URS)](understanding-and-customizing-resource-matching-in-urs.md)
+[Understanding and customizing resource matching in Universal Resource Scheduling](understanding-and-customizing-resource-matching-in-urs.md)
 
-[URS extensibility release notes](extensibility-release-notes.md)
+[Universal Resource Scheduling extensibility release notes](extensibility-release-notes.md)
