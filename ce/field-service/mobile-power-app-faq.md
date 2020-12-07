@@ -57,7 +57,7 @@ Sometimes you may not see the correct booking form. You may see the following re
 
 If you see something like the previous screenshot, you're viewing the booking form, and *not* the combined booking and work order form.
 
-To solve this issue, make sure the user you're signed into the mobile app as has the **Field Service - Resource** security role. Also ensure that the right form (the mobile optimized Booking and Work Order form) is associated with the Booking entity in the app designer.
+To solve this issue, make sure the user you're signed into the mobile app as has the **Field Service - Resource** security role. Also make sure that the right form (the mobile optimized booking and work order form) is associated with the booking entity in the app designer.
 
 ## I can't see the calendar or the wrong calendar is showing
 
@@ -66,12 +66,12 @@ To fix this issue, make sure the **Booking Calendar Control** is enabled for pho
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the mobile booking calendar control.](./media/mobile-2020-booking-calendar-control.png)
 
-## Can I customize the default booking calendar control, such as by changing the booking cell content
+## Can I customize the default booking calendar control, such as by changing the booking cell content?
 
-Currently, customizations of the default booking calendar control are not supported.
+Currently, customizations for the default booking calendar control are not supported.
 
-## Is there a maximum number of records supported by the offline profile
+## Is there a maximum number of records supported by the offline profile?
 
-There is no limitation to the number of records that can be downloaded in offline mode outside of the physical device limitations. Going beyond 2MB per record is not recommended. Keep in mind that the sync duration will depend on the number and size of records being synced, as well as the quality of the network that the mobile device is connected to. For a good user experience, it is recommended that the offline profile only include the data that is relevant to the user. The configuration of the out-of-the-box offline profile takes into account the common scenarios faced by field service technicians and mobile app users.
+There is no limitation to the number of records that can be downloaded in offline mode outside of the physical device limitations. Going beyond 2MB per record is not recommended. Keep in mind that the sync duration will depend on the number and size of records being synced, as well as the quality of the network that the mobile device is connected to. For a good user experience, make sure the offline profile only includes the data that is relevant to the user. The configuration of the out-of-the-box offline profile takes into account the common scenarios faced by field service technicians and mobile app users.
 
-For further details, review the [platform documentation](https://docs.microsoft.com/dynamics365/mobile-app/mobile-offline-capabilities).
+For more information, review the [platform documentation](https://docs.microsoft.com/dynamics365/mobile-app/mobile-offline-capabilities).
