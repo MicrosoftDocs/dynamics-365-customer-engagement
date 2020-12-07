@@ -148,8 +148,5 @@ Ensure that you have configured at least one of the Profile rules for each entit
 |Custom Data Filter |<=3 filters can be defined in the custom data filter. |
 
 
-### Data volume recommendation 
-
-The recommended data volume should be <=  10,000 records per user subscription.
 
 
