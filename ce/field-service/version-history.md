@@ -6,7 +6,7 @@ ms.custom:
 ms.date: 10/05/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
-ms.suite: ""
+ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
 author: FieldServiceDave
@@ -73,14 +73,14 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
     - Added a new field "Depends on" to entity lookup that can be used to filter lookup options based on response to another entity lookup question.
 -	Corrected booking journal duration calculation to be more accurate.
 -	Resolved an issue where, upon reassigning a booking from a crew type resource to user type resource, the **Crew** and **Crew Member** fields were not cleared.
--	Improved the behavior of "Generate Agreement Booking Dates" workflow instances to be cancelled if the parent workflow is deactivated.
+-	Improved the behavior of "Generate Agreement Booking Dates" workflow instances to be canceled if the parent workflow is deactivated.
 -	Updated the customer asset quick create form to make it customizable.
 -	Improved pricing calculation of a work order product to ensure accuracy regardless of the user’s privileges.
 -	Corrected an issue to enable more than 5000 work order products to be associated to a work order.
 -	Resolved an issue in calculation of **Total Amount** in work order service when **Duration To Bill** is 0.
 -	Corrected an issue when loading the inspection designer for Italian orgs. 
 -	Reverted a previous change for an issue where resource preferences were not copied to the non-primary requirements introduced by an incident type requirement group.
--	Corrected an issue where an error for "The given key was not present in the dictionary" error could pop-up while saving a priority form.
+-	Corrected an issue where an error for "The given key was not present in the dictionary" error could pop up while saving a priority form.
 -	Resolved a false failure issue of Field Service Health rule that checked for web resources.
 
 ## 8.8.31.60
@@ -91,7 +91,7 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 -	Corrected an issue with the agreement invoice setup’s invoice generation process which could cause a generic error when the agreement invoice date tried to generate an invoice if the agreement invoice setup contained invoice products.
 -	Updated the solution to ensure that multi-resource work orders using requirement groups respect the resource preferences defined on the related service account for all requirements generated against the work order.
 -	Resolved an issue in a solution patch that inappropriately removed on-save handlers from the case table.
--	Corrected an issue that caused any update of a work order product record to update the work order product’s **Exchange Rate**, even if no currency related fields were updated, after a change to related currency’s exchange rate value.
+-	Corrected an issue that caused any update of a work order product record to update the work order product’s **Exchange Rate**, even if no currency-related fields were updated, after a change to related currency’s exchange rate value.
 -	Enhanced the logic on agreement booking date records that could cause unnecessary background processes to fire causing a momentary block from being able to update the related agreement booking setup. This logic was improved to reduce the scenarios under which it would try to trigger this background process, removing scenarios where the agreement booking date’s **Booking Date** was update to a time further in the future. When this value is pushed out further, the background process does not need to be triggered.
 -	Improved mobile offline filter handling for the warehouse table.
 -	Updated the Field Service Health rule name from “Waiting workflow instances owned by disabled user accounts” to “Waiting workflow instances owned by disabled users.”

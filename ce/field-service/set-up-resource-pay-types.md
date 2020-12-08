@@ -1,29 +1,20 @@
 ---
 title: "Set up resource pay types (Dynamics 365 Field Service) | MicrosoftDocs"
+description: Learn how to set up resource pay types track costs associated with resource bookings in Dynamics 365 Field Service
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.technology: 
-  - field-service
-ms.tgt_pltfrm: 
 ms.topic: article
 author: FieldServiceDave
-ms.assetid: 239b3f54-69dc-44c1-95be-154fc90df2e4
-caps.latest.revision: 14
 ms.author: daclar
 manager: shellyha
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
 search.app: 
   - D365CE
   - D365FS
 ---
-# Set up resource pay types to track costs associated with resource bookings (Field Service)
+# Set up resource pay types to track costs associated with resource bookings in Dynamics 365 Field Service
 
 Resource pay types can be used to track your company's costs associated with a resource booking. When the status of a resource booking record is set to "complete," the system generates booking journal records, according to the time that a field agent spent performing the work.  
   
@@ -34,9 +25,9 @@ Resource pay types can be used to track your company's costs associated with a r
 <a name="BKMK_CreateNewResourcePayType"></a>   
 ## Create a new resource pay type  
   
-1.  From the main menu, click **Field Service** > **Administration**, and then choose **Resource Pay Types**.  
+1.  From the main menu, go to **Field Service** > **Administration**, and then choose **Resource Pay Types**.  
   
-2.  On the **Active Resource Pay Types** screen, click **+New** in the upper left corner.  
+2.  On the **Active Resource Pay Types** screen, select **+New** in the upper left corner.  
   
 3. **Name** the pay type.  
   
@@ -47,21 +38,21 @@ Resource pay types can be used to track your company's costs associated with a r
 <a name="BKMK_AssignPayTypeScenarios"></a>   
 ## Assign pay type scenarios  
   
-1.  From the main menu, click **Field Service** > **Administration**, and then choose **Field Service Settings**.  
+1.  From the main menu, go to **Field Service** > **Administration**, and then choose **Field Service Settings**.  
   
-2.  In the **Resource Pay Type** section, assign the resource pay types that you created to the various journal types, and then click the **Save** button in the lower left corner.  
+2.  In the **Resource Pay Type** section, assign the resource pay types that you created to the various journal types, and then select the **Save** button in the lower left corner.  
   
      Booking journals will be created to calculate the cost of a resource booking, for each of the journal types, according to the following logic:  
   
     - **Work**: Time the resource booking status is in progress while the resource is within their scheduled work hours.  
   
-    - **Overtime**: Any time recorded outside a resource's normal working hours.  
+    - **Overtime**: Time recorded outside a resource's normal working hours.  
   
     - **Travel**: Time the resource booking status is "traveling."  
   
     - **Break**: Time the resource booking status is "on break."  
   
-    - **Business Closure:** Any time recorded by a resource when the company is closed.  
+    - **Business Closure:** Time recorded by a resource when the company is closed.  
   
 ### See also    
  [Overview of Dynamics 365 Field Service](../field-service/overview.md)   
