@@ -39,7 +39,7 @@ This article describes what’s needed to author [!INCLUDE[pn_dynamics_crm](../i
   
 - **[!INCLUDE[pn_sql_server_data_tools](../includes/pn-sql-server-data-tools.md)]**. This is a report authoring environment that is used as a plug-in [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)].  
   
-  - For Microsoft Visual Studio 2017 and Visual Studio 2019, you need [SQL Server Data Tools in Visual Studio](https://docs.microsoft.com/en-us/sql/ssdt/download-sql-server-data-tools-ssdt?view=sql-server-ver15).
+  - For Microsoft Visual Studio 2017 and Visual Studio 2019, you need [SQL Server Data Tools in Visual Studio](/sql/ssdt/download-sql-server-data-tools-ssdt?view=sql-server-ver15).
   
 - **Dynamics 365 Report Authoring Extension**. This is required if you are writing custom Fetch-based reports. Notice that [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps only supports Fetch-based reports. Dynamics 365 Report Authoring Extension must be installed on the computer where [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)] and [!INCLUDE[pn_sql_server_data_tools](../includes/pn-sql-server-data-tools.md)] are installed. [Download: Dynamics 365 Report Authoring Extension](https://www.microsoft.com/download/details.aspx?id=56973). For installation instructions, see [Install Dynamics 365 Report Authoring Extension](install-dynamics-365-report-authoring-extension.md).  
 
