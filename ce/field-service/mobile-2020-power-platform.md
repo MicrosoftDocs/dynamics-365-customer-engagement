@@ -1,12 +1,12 @@
 ---
-title: "Dynamics 365 Field Service mobile applications | Microsoft Docs"
-description: Learn about the two Field Service mobile applications and when to use each one.
+title: "Dynamics 365 Field Service mobile apps | Microsoft Docs"
+description: Learn about the two Field Service mobile apps and when to use each one.
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 12/08/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
-ms.topic: conceptual
+ms.topic: overview
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
@@ -22,11 +22,11 @@ search.app:
 
 Field Service technicians often need to see and update their work orders while onsite at a job.
 
-There are currently 2 mobile apps available for technicians using Dynamics 365 Field Service:
+There are currently two mobile apps available for technicians using Dynamics 365 Field Service:
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-2020-app-store-compare.png)
+> ![Device render showing side-by-side screenshots of the two Field Service mobile apps in the app store.](./media/mobile-2020-app-store-compare.png)
 
 - Field Service (Dynamics 365), shown to the left in the image above, is built on the Microsoft Power Platform. In our documentation, we refer to this app as the Field Service (Dynamics 365) mobile app. This mobile app is recommended.
 
