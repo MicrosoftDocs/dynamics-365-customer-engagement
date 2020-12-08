@@ -5,21 +5,11 @@ ms.custom:
   - dyn365-fieldservice
 ms.date: 09/04/2020
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.technology: 
-  - field-service
-ms.tgt_pltfrm: 
+ms.service: dynamics-365-customerservice 
 ms.topic: article
 author: FieldServiceDave
-ms.assetid: 87e2cafc-ead7-43b2-b62a-db3a2fc05380
-caps.latest.revision: 13
 ms.author: daclar
 manager: shellyha
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
 search.app: 
   - D365CE
   - D365FS
@@ -53,7 +43,7 @@ The following screenshot shows a newly created solution. We recommend that your 
 2. On the new web resource form, enter the following information:
   a. Name
   b. Display name
-  c. Select *Script (Jscript)* as the type
+  c. Select **Script (Jscript)** as the type
 3. Select the text editor option to enter your JavaScript code for the booking rule.
 4. Select **Save** to save your web resource.
 5. Select **Publish** to make sure the booking rule web resource has been published.

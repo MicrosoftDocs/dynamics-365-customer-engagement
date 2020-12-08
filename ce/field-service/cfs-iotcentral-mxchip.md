@@ -68,7 +68,7 @@ In Windows, a file explorer window opens to a drive mapped to the storage on the
 
 ### Flash firmware on device
 
-[Download the latest firmware](http://aka.ms/CFSFirmware ) (Bundled with HOL Downloads)
+[Download the latest firmware](https://aka.ms/CFSFirmware ) (Bundled with HOL Downloads)
 	
 >[!Note]
 > The download filename on the releases page looks like *AZ3166-IoT-Central-X.X.X.bin*.
@@ -194,7 +194,7 @@ Go to Connected Field Service and then to **IoT Alerts** (under **My Work**) and
 Select **Create CFS alerts from IoT Central**. Make sure you select the CDS version. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Create CFS Flow Templates screen, showing the Create CFS alerts from IoT Central option.](./media/cfs-mxchip-16.png)
+> ![Screenshot of the "Create CFS Flow Templates" screen, showing the "Create CFS alerts from IoT Central" option.](./media/cfs-mxchip-16.png)
 
 >[!Note]
 > You may need to sign into Power Automate with credentials if you haven’t already

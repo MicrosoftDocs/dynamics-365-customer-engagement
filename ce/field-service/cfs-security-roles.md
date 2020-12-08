@@ -65,7 +65,7 @@ See the following screenshot for reference.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of all the IoT entities that Field Service administrators should have access to](media/cfs-security-role-administrator.png)
 
-The Field Service administrator security role should also be given full access to the **CFS - IoT Alert Process Flow**, which is a business process flow for CFS. 
+The Field Service administrator security role should also be given full access to the **CFS - IoT Alert Process Flow**, which is a business process flow for Connected Field Service. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the IoT alert process flow](media/cfs-security-role-administrator-bpf.png)
@@ -79,7 +79,7 @@ Find the dispatcher security role your organization assigns to dispatchers (typi
 > [!div class="mx-imgBorder"]
 > ![Screenshot of enabled permissions for the dispatcher](media/cfs-security-role-dispatcher.png)
 
-Next, add access to the **CFS - IoT Alert Process Flow** according to the following screenshot. Dispatchers can use the CFS business process flow to update and track the stages of work orders resulting from IoT alerts.
+Next, add access to the **CFS - IoT Alert Process Flow** according to the following screenshot. Dispatchers can use the Connected Field Service business process flow to update and track the stages of work orders resulting from IoT alerts.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the IoT alert process flow](media/cfs-security-role-dispatcher-bpf.png)

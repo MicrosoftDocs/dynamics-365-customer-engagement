@@ -1,24 +1,15 @@
 ---
 title: "Turn on auto geocoding (Dynamics 365 Field Service) | MicrosoftDocs"
+description: Learn how to turn on auto geocoding in Dynamics 365 Field Service
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.technology: 
-  - field-service
-ms.tgt_pltfrm: 
 ms.topic: article
 author: FieldServiceDave
-ms.assetid: 74e7dc26-094a-45fe-8da8-eae407978bfa
-caps.latest.revision: 18
 ms.author: daclar
 manager: shellyha
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
 search.app: 
   - D365CE
   - D365FS
@@ -32,31 +23,33 @@ With Dynamics 365 for [!INCLUDE[pn_field_service](../includes/pn-field-service.m
 > [!IMPORTANT]
 >  To use the schedule board booking functionality, geocoding, and location services, you need to turn on maps.  
 >   
-> 1. From the main menu, click **Resource Scheduling** > **Administration**.  
-> 2. Click **Scheduling parameters**.  
+> 1. From the main menu, go to **Resource Scheduling** > **Administration**.  
+> 2. Select **Scheduling parameters**.  
 > 3. Open record and scroll down to the **Resource Scheduling Optimization** section.  
 > 4. On the **Connect to Maps** field, choose **Yes**.  
 > 5. Accept terms and save the record.  
   
-<a name="BKMK_TurnOnAutoGeocoding"></a>   
+<a name="BKMK_TurnOnAutoGeocoding"></a>
+
 ## Turn on automatic geocoding  
   
-1.  From the main menu, click **Field Service** > **Administration**, and then choose **Field Service Settings**.  
+1.  From the main menu, go to **Field Service** > **Administration**, and then choose **Field Service Settings**.  
   
 2.  Under the **Other** section, go to **Auto Geo Code Addresses**, and then select **Yes**.  
   
-3.  Click the **Save** button in the lower right corner.  
+3.  Select the **Save** button in the lower right corner.  
   
-<a name="BKMK_GeocodeWorkOrderAddress"></a>   
+<a name="BKMK_GeocodeWorkOrderAddress"></a>
+
 ## Geocode the address on a work order  
   
 1. Open a work order.  
   
 2. Ensure the work order has an accurate address.  
   
-3. On the top command bar, click **Geo Code**.  
+3. On the top command bar, select **Geo Code**.  
   
-4. On the map dialog box, make sure you have the correct address, and then click **Change**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a work order](../field-service/create-work-order.md)  
+4. On the map dialog box, make sure you have the correct address, and then select **Change**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a work order](../field-service/create-work-order.md)  
   
 <a name="BKMK_GeocodeAcctAddress"></a>   
 ## Geocode the address on an account record  
@@ -65,9 +58,9 @@ With Dynamics 365 for [!INCLUDE[pn_field_service](../includes/pn-field-service.m
   
 2. Ensure the account has an accurate address.  
   
-3. To geocode the account address, on the top command bar, click the **More Commands** button, and then select **Geo Code**.  
+3. To geocode the account address, on the top command bar, select the **More Commands** button, and then select **Geo Code**.  
   
-4. On the map dialog box, make sure you have the correct address, and then click **Change**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with accounts and contacts](../basics/accounts-contacts.md)  
+4. On the map dialog box, make sure you have the correct address, and then select **Change**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with accounts and contacts](../basics/accounts-contacts.md)  
   
 ### See also   
  [Overview of Dynamics 365 Field Service](../field-service/overview.md)   
