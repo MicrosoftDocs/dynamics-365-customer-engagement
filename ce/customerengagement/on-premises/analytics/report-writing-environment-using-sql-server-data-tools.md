@@ -37,13 +37,11 @@ This article describes what’s needed to author [!INCLUDE[pn_dynamics_crm](../i
   
 - **[!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)]**. For specific versions, see [Dynamics 365 Customer Engagement (on-premises) Report Authoring Extension requirements](../deploy/microsoft-dynamics-365-reporting-requirements.md#dynamics-365-customer-engagement-on-premises-report-authoring-extension-requirements).  
   
-- **[!INCLUDE[pn_sql_server_data_tools](../includes/pn-sql-server-data-tools.md)]**. This is a report authoring environment that is used as a plug-in [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)].  
-  
-  - For Microsoft Visual Studio 2017 and Visual Studio 2019, you need [SQL Server Data Tools in Visual Studio](/sql/ssdt/download-sql-server-data-tools-ssdt?view=sql-server-ver15).
+- **[!INCLUDE[pn_sql_server_data_tools](../includes/pn-sql-server-data-tools.md)]**. This is a report authoring environment that is used as a plug-in [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)]. You can use either Microsoft Visual Studio 2017 and Visual Studio 2019. More information: [SQL Server Data Tools in Visual Studio](/sql/ssdt/download-sql-server-data-tools-ssdt?view=sql-server-ver15).
   
 - **Dynamics 365 Report Authoring Extension**. This is required if you are writing custom Fetch-based reports. Notice that [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps only supports Fetch-based reports. Dynamics 365 Report Authoring Extension must be installed on the computer where [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)] and [!INCLUDE[pn_sql_server_data_tools](../includes/pn-sql-server-data-tools.md)] are installed. [Download: Dynamics 365 Report Authoring Extension](https://www.microsoft.com/download/details.aspx?id=56973). For installation instructions, see [Install Dynamics 365 Report Authoring Extension](install-dynamics-365-report-authoring-extension.md).  
 
-- **Microsoft Reporting Services Projects extension**. The [Report Services Projects extension](https://marketplace.visualstudio.com/items?itemName=ProBITools.MicrosoftReportProjectsforVisualStudio) extension is required to create report server projects.
+- **Microsoft Reporting Services Projects extension**. The [Report Services Projects extension](https://marketplace.visualstudio.com/items?itemName=ProBITools.MicrosoftReportProjectsforVisualStudio) is required to create report server projects.
 
 > [!NOTE]
 > - You can’t use SQL Server Reporting Services Report Builder to author FetchXML reports. The Dynamics 365 Report Authoring Extension for SQL Server Data Tools is used to author FetchXML reports.
@@ -61,7 +59,7 @@ This article describes what’s needed to author [!INCLUDE[pn_dynamics_crm](../i
   
    - Create a new (custom) report. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create Custom Reports Using Business Intelligence Development Studio](../analytics/create-a-new-report-using-sql-server-data-tools.md)  
   
-   - Download an existing [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps report definition language (.rdl) file. To do this, open a Dynamics 365 Customer Engagement (on-premises) app, select the **Reporting** tab, select the report you want, and then select **Edit** on the command bar. On the report properties page, select **Download Report** from the **Actions** toolbar.
+   - Download an existing [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps report definition language (.rdl) file. To do this, open a customer engagement app, select the **Reporting** tab, select the report you want, and then select **Edit** on the command bar. On the report properties page, select **Download Report** from the **Actions** toolbar.
   
 3. Create basic report parameters. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use Parameters in Reports](../analytics/use-parameters-in-reports.md)  
   
