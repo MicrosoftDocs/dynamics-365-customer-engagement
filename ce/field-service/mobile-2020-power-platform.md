@@ -3,7 +3,7 @@ title: "Dynamics 365 Field Service mobile applications | Microsoft Docs"
 description: Learn about the two Field Service mobile applications and when to use each one.
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 11/16/2020
+ms.date: 12/08/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.topic: conceptual
@@ -18,22 +18,19 @@ search.app:
   - D365FS
 ---
 
-# Implement the right mobile app for your technicians: Field Service Mobile (Xamarin) versus the Field Service (Dynamics 365) mobile app
+# Implement the Field Service (Dynamics 365) mobile app for your technicians 
 
 Field Service technicians often need to see and update their work orders while onsite at a job.
 
-There are two mobile apps available for technicians using Dynamics 365 Field Service:
+There are currently 2 mobile apps available for technicians using Dynamics 365 Field Service:
 
-- Field Service (Dynamics 365), which is built on the Microsoft Power Platform. In our documentation, we refer to this app as the Field Service (Dynamics 365) mobile app. In the app stores, you'll find this app with the following icon.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the Field Service (Dynamics 365) mobile app in the app store.](./media/mobile-power-app-app-store2.png)
-
-- Field Service Mobile, which is built on the Xamarin platform. In our documentation, we refer to this app as "Field Service Mobile (Xamarin). In the app stores, you'll find this app with the following icon:
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Field Service Mobile Xamarin app in the store.](./media/mobile-power-app-app-store1.png)
+> ![Screenshot of ](./media/mobile-2020-app-store-compare.png)
 
+- Field Service (Dynamics 365), shown to the left in the image above, is built on the Microsoft Power Platform. In our documentation, we refer to this app as the Field Service (Dynamics 365) mobile app. This mobile app is recommended.
+
+- Field Service Mobile, shown to the right in the image above, is built on the Xamarin platform. In our documentation, we refer to this app as "Field Service Mobile (Xamarin). This mobile app will be supported until June 2022.
 
 Both the Field Service (Dynamics 365) mobile app _and_ Field Service Mobile (Xamarin) are included with Field Service.
 

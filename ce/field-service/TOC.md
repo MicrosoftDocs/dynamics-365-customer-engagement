@@ -90,7 +90,7 @@
 ### [Next-generation schedule board experience](preview-schedule-board.md)
 
 # Mobile apps
-## [Compare mobile apps (Xamarin vs. Microsoft Power Platform)](mobile-2020-power-platform.md)
+## [Implement and adopt the mobile app](mobile-2020-power-platform.md)
 ## Dynamics 365 Field Service mobile app (Microsoft Power Platform)
 ### [Overview](mobile-power-app-overview.md)
 ### [System requirements](mobile-power-app-system-requirements.md)
