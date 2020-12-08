@@ -209,9 +209,9 @@
 # Additional resources
 ## Version history (web + mobile)
 ### [Field Service](version-history.md)
-### [Field Service Mobile](field-service-version-history-mobile.md)
 ### [Universal Resource Scheduling](field-service-version-history-resource-scheduling.md)
 ### [Resource Scheduling Optimization](field-service-version-history-resource-scheduling-optimization.md)
+### [Field Service Mobile (Xamarin)](field-service-version-history-mobile.md)
 ## [AppSource add-ins for Field Service](appsource-addins.md)
 
 # [Troubleshoot with Solution Health Hub](troubleshoot-field-service-solution-health.md)

@@ -19,14 +19,9 @@ search.app:
 
 # Field Service version history
 
-## Latest version availability
+## Release schedule
 
-| Solution  | Latest version | Download links  |
-|-------|----|------|
-| Field Service     |  8.8.+  | [Upgrade](./upgrade-field-service.md) or [create a new trial](https://trials.dynamics.com)   |
-| Field Service Mobile                 | 12.1.+          | [Windows](https://aka.ms/fsmobile-windows),   [iOS](https://aka.ms/fsmobile-ios), and   [Android](https://aka.ms/fsmobile-android) |
-| Mobile Configuration Tool (Woodford) | 12.1.+          | [Direct download link (English only)](https://aka.ms/fsmobile-configurator)                                                       |
-| Mobile Project Template              | 1.0.4847       | [Direct download link (English only)](https://aka.ms/fsmobile-project)      |
+When a new version oF Field Service is released, it becomes available in different geographic regions at different times. Use the table below to see when the next release will become available in the region of your environment.
 
 For information about other updates to Field Service, visit the [Dynamics 365 release plans](https://docs.microsoft.com/dynamics365/release-plans/). 
 
@@ -62,8 +57,9 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 
 ## 8.8.32.59
 (Includes Universal Resource Scheduling version [3.12.33.8](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling#312338)) 
--	Created new controls for the work order service task, work order product, and work order service sub-grids on the booking and work order form in Field Service Mobile. These controls were designed to give mobile technicians a quick and easy way to mark items complete or used and to have at-a-glance visibility into what still remains to be done.
--	Improved mobile offline filter handling for the time-off request table.
+
+#### Field Service
+
 -	For inspections:
     - Added the ability to capture photos for the file upload question type in Field Service Mobile.
     - Barcode scan option has been added to the Textbox control. 
@@ -82,6 +78,11 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 -	Reverted a previous change for an issue where resource preferences were not copied to the non-primary requirements introduced by an incident type requirement group.
 -	Corrected an issue where an error for "The given key was not present in the dictionary" error could pop-up while saving a priority form.
 -	Resolved a false failure issue of Field Service Health rule that checked for web resources.
+
+#### Field Service mobile app
+
+-	Created new controls for the work order service task, work order product, and work order service sub-grids on the booking and work order form in Field Service Mobile. These controls were designed to give mobile technicians a quick and easy way to mark items complete or used and to have at-a-glance visibility into what still remains to be done.
+-	Improved mobile offline filter handling for the time-off request table.
 
 ## 8.8.31.60
 (Includes Universal Resource Scheduling version [3.12.32.1](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling#312321)) 
