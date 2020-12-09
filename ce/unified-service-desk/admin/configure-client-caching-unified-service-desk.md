@@ -26,7 +26,7 @@ Client caching enables you to reduce the amount of bandwidth required at the sta
   
 <a name="WhenToUse"></a>   
 ## When should you use client caching?  
- Client caching can provide a significant improvement in startup times, a reduction in overall bandwidth, and a significant reduction in queries to the Common Data Service platform server for common [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] data.
+ Client caching can provide a significant improvement in startup times, a reduction in overall bandwidth, and a significant reduction in queries to Microsoft Dataverse server for common [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] data.
   
  Client caching is best employed in performance testing, training, and production environments. It isn’t recommended for development environments because changes are only replicated when the control cache key is updated.  
   
@@ -97,10 +97,10 @@ Client caching enables you to reduce the amount of bandwidth required at the sta
   
 <a name="ForceCacheReset"></a>   
 ## Force a cache reset for a specific user  
- At times, it may be necessary to force a cache reset for a specific user to clear and reset the cache store. You can do this in two ways: From the Common Data Service platform server or by using the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application on the user’s computer.  
+ At times, it may be necessary to force a cache reset for a specific user to clear and reset the cache store. You can do this in two ways: From Dataverse server or by using the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application on the user’s computer.  
   
   
-### Using the Common Data Service platform server  
+### Using Dataverse server  
   
 1. Sign in to the Unified Service Desk Administrator app.  
   
@@ -174,7 +174,7 @@ Client caching enables you to reduce the amount of bandwidth required at the sta
   
 12. Select **Save** and then close the action call.  
   
-    After you have set up the UII action and the action call, you can add a toolbar button, event, or code to directly invoke the action call from the client application. This creates a **RestDesktopCache** setting in the **User Settings** area, which triggers the reset behavior as described earlier in [Using the Common Data Service platform server](../../unified-service-desk/admin/configure-client-caching-unified-service-desk.md#using-the-common-data-service-platform-server).  
+    After you have set up the UII action and the action call, you can add a toolbar button, event, or code to directly invoke the action call from the client application. This creates a **RestDesktopCache** setting in the **User Settings** area, which triggers the reset behavior as described earlier in [Using Dataverse server](../../unified-service-desk/admin/configure-client-caching-unified-service-desk.md#using-the-common-data-service-platform-server).  
   
 ## See also  
  [Sample Unified Service Desk applications](../../unified-service-desk/admin/sample-unified-service-desk-applications.md)

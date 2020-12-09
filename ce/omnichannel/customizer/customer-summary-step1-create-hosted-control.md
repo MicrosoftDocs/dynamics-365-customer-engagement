@@ -31,7 +31,7 @@ This topic demonstrates how to create a customer summary hosted control in Unifi
 
 ## Create hosted control
 
-1. Sign in to Common Data Service platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Select the Down arrow next to Dynamics 365.
 

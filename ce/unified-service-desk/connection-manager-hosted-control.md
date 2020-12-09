@@ -1,6 +1,6 @@
 ---
 title: "Connection Manager (Hosted Control) | MicrosoftDocs"
-description: "The Connection Manager hosted control type manages connections to the Common Data Service platform, and makes it available to the rest of the agent application."
+description: "The Connection Manager hosted control type manages connections to Microsoft Dataverse, and makes it available to the rest of the agent application."
 author: v-sailab
 ms.author: v-sailab
 manager: shujoshi
@@ -20,7 +20,7 @@ search.app:
 
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
-The **Connection Manager** hosted control type manages connections to the Common Data Service platform, and makes it available to the rest of the agent application. An instance of this hosted control is required by [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], and only a single instance of this hosted control type must exist in your agent application.  
+The **Connection Manager** hosted control type manages connections to Microsoft Dataverse, and makes it available to the rest of the agent application. An instance of this hosted control is required by [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], and only a single instance of this hosted control type must exist in your agent application.  
   
 > [!IMPORTANT]
 >  The three sample application packages for [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], `New Environment`, `CRM Web Client`, and `Interactive Service Hub`, come preconfigured with an instance each of the **Connection Manager** hosted control type. For information about the sample applications, see [Deploy sample Unified Service Desk applications to CRM server using Package Deployer](admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md).  

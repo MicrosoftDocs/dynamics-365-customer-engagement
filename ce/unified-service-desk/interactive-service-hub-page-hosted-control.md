@@ -181,7 +181,7 @@ title=Sample Case
  This action takes the currently displayed URL, and sends it through the window navigation rules from the current hosted control as a popup.  
 
 ### RunScript  
- This action injects JavaScript into the main frame of the application. You should avoid using the Common Data Service platform client SDK calls with this action; instead, use the **RunXrmCommand** action.  
+ This action injects JavaScript into the main frame of the application. You should avoid using Microsoft Dataverse client SDK calls with this action; instead, use the **RunXrmCommand** action.  
 
 |Parameter|Description|  
 |---------------|-----------------|  
@@ -189,7 +189,7 @@ title=Sample Case
 
 <a name="RunXrmCommand"></a>   
 ### RunXrmCommand  
- This action is used to inject the Common Data Service platform SDK JavaScript into the interactive service hub form.  
+ This action is used to inject Dataverse SDK JavaScript into the interactive service hub form.  
 
 |Parameter|Description|  
 |---------------|-----------------|  

@@ -114,7 +114,7 @@ To set up a Power Automate flow, complete the following steps.
     > [!div class=mx-imgBorder]
     > ![Outbound message flow append variable](../media/outbound-message-flow2.png "Outbound message flow append variable")
    
-    - You must define any slugs used in your outbound message here. You can define any Common Data Service entity to be used as a slug. Once defined they can be added to the message. Slugs not defined here will not resolve. Sample message based on above flow config: “Dear {CustomerName}, we have opened case {CaseName} for you to track your inquiry. Thank you!”
+    - You must define any slugs used in your outbound message here. You can define any Microsoft Dataverse entity to be used as a slug. Once defined they can be added to the message. Slugs not defined here will not resolve. Sample message based on above flow config: “Dear {CustomerName}, we have opened case {CaseName} for you to track your inquiry. Thank you!”
     - The message language is determined by the numerical locale id as set as “locale”: 1033, English-United States, in the example. To enable dynamic message languages, this variable must be replaced by a locale entity reference, such as preferred customer language, in contact information.
    
 5. You must also refer to the outbound message configuration ID from Omnichannel Administration app. This will reference the correct outbound configuration for a flow run.

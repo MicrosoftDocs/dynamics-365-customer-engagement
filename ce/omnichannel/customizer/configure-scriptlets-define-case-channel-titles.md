@@ -33,7 +33,7 @@ The topic describes how to configure scripts using scriptlets to define case and
 
 ## Configure scriptlets
 
-1. Sign in to Common Data Service platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Select the Down arrow next to Dynamics 365.
 
@@ -59,7 +59,7 @@ The topic describes how to configure scripts using scriptlets to define case and
 
 ## Add the session name information to configuration
 
-1. Sign in to Common Data Service platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Select the Down arrow next to Dynamics 365.
 

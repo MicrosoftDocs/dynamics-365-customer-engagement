@@ -1,5 +1,5 @@
 > [!NOTE]
-> This entity has been deprecated. It will still be visible in the [$metadata](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/web-api-types-operations#bkmk_csdl) document but using it to access Common Data Service data is not supported.
+> This entity has been deprecated. It will still be visible in the [$metadata](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/web-api-types-operations#bkmk_csdl) document but using it to access Microsoft Dataverse data is not supported.
 
 **Added by**: Channel API Integration Framework Analytics Solution
 
@@ -383,7 +383,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Name of the primary entity to which this work item belongs to|
+|Description|Name of the primary entity to which this work item belongs|
 |DisplayName|Primary Related Entity Name|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -399,7 +399,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Id of the primary entity to which this work item belongs to|
+|Description|Id of the primary entity to which this work item belongs|
 |DisplayName|Primary Related Entity Record Id|
 |FormatName|Text|
 |IsLocalizable|False|

@@ -1,26 +1,18 @@
 ---
-title: "Add a customer, location, and related account details to a work order | MicrosoftDocs"
+title: "Add a customer, location, and related account details to a work order in Dynamics 365 Field Service | MicrosoftDocs"
+description: Learn how to add a customer, location, and related account details to a work order in Dynamics 365 Field Service
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 04/19/2019
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 author: FieldServiceDave
-ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
-caps.latest.revision: 42
 ms.author: daclar
 manager: shellyha
-search.audienceType: 
-  - admin
-  - customizer
 search.app: 
   - D365CE
   - D365FS
@@ -28,7 +20,7 @@ search.app:
 
 # Add a customer, location, and related account details to a work order
 
-Locations are very important in field service scenarios where field technicians may need to travel to multiple customer locations each day.
+Locations are important in field service scenarios where field technicians may need to travel to multiple customer locations each day.
 
 Dynamics 365 Field Service uses accounts and contacts throughout the work order process. Accounts represent who is receiving the site service (driven by work orders), and which customer account should be billed for invoices generated from the work order.
 
@@ -36,20 +28,20 @@ Dynamics 365 Field Service uses accounts and contacts throughout the work order 
 
 **Billing accounts** represent which account should receive invoices, and identifies the parent account in cases where many service accounts belong to a central organization (for example: multiple wine vineyards are owned by a wine corporation). 
 
-Selecting accounts will also auto-populate other fields on a work order.
+Selecting accounts will also autopopulate other fields on a work order.
 
 This proves useful in several scenarios, including: 
 
 - passing account (customer) price lists to all related work orders.
 - passing the account territory to all related work orders, which ensures that resources devoted to the territory are scheduled to perform the on-site work.
  
-In this topic, we'll explore creating and using accounts on work orders. 
+In this article, we'll explore creating and using accounts on work orders. 
 
 ## Prerequisites
 
 - Any version of Dynamics 365 Field Service
-- Connect to Bing maps and enable map visualizations. For more information, [check out this topic.](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-1-resource-scheduling) 
-- Enable and test geocoding. For more information, [check out this topic.](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-2-field-service-settings)
+- Connect to Bing maps and enable map visualizations. For more information, [check out this article.](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-1-resource-scheduling) 
+- Enable and test geocoding. For more information, [check out this article.](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-2-field-service-settings)
  
 
 ## Create a service account
@@ -92,7 +84,7 @@ In this field, you choose the geographical region in which this account is locat
 
 ### Travel Charge Type
 
-This decides if and how travel by a field technician to this service account should be priced and billed on work orders. See configuration considerations in this article for more details.
+This decides if and how travel by a field technician to this service account should be priced and billed on work orders. For more information, see configuration considerations in this article.
 
 ### Work Order Instructions
 
@@ -109,7 +101,7 @@ This value serves as a text note and populates the **Instructions** field on all
 
 Next, go to **Field Service > Work Orders > +New**.
 
-Add the account you just created as the service account. 
+Add the account you created as the service account. 
 
 
 Notice the following values are automatically populated:

@@ -1,32 +1,24 @@
 ---
-title: "Service Level Agreements (SLAs) for Work Orders | MicrosoftDocs"
+title: "Service Level Agreements (SLAs) for work orders in Dynamics 365 Field Service | MicrosoftDocs"
+description: Learn about service Level Agreements (SLAs) for work orders in Dynamics 365 Field Service
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 02/15/2019
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 author: FieldServiceDave
-ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
-caps.latest.revision: 42
 ms.author: daclar
 manager: shellyha
-search.audienceType: 
-  - admin
-  - customizer
 search.app: 
   - D365CE
   - D365FS
 ---
 
-# Service level agreements (SLAs) for work orders
+# Service level agreements (SLAs) for work orders in Dynamics 365 Field Service
 
 Dynamics 365 Field Service is designed to use the broader Dynamics 365 Service Level Agreement (SLA) functionality.
 
@@ -36,9 +28,9 @@ Consider the following scenario:
 
 A field service organization would like to offer an [SLA](https://hosting.review/web-hosting-glossary/#8) to their customers where field technicians must arrive at the customer's location within 3 hours from the time a work order is created. The organization would also like a warning status displayed after 90 minutes and to use the SLA timer during the scheduling process.
 
-For more information on SLAs in a broader Dynamics 365 capacity, visit our [topic on the defining SLAs](https://docs.microsoft.com/dynamics365/customer-engagement/customer-service/define-service-level-agreements). 
+For more information on SLAs in a broader Dynamics 365 capacity, visit our [article on the defining SLAs](https://docs.microsoft.com/dynamics365/customer-engagement/customer-service/define-service-level-agreements). 
 
-In this topic, we'll walk through how to associate SLAs to Field Service work orders.
+In this article, we'll walk through how to associate SLAs to Field Service work orders.
 
 ## Prerequisites
 
@@ -58,9 +50,9 @@ In this topic, we'll walk through how to associate SLAs to Field Service work or
 
 4. Go to **Field Service > Settings > Field Service Settings** and enter the active Field Service Settings record.
 
-5. Next, go to the **Field Service SLA Configurations** tab. Here you will define the **SLA KPI Instances** that you would like to use for Field Service. By default, you should see an SLA related to work order arrival times, which is available out-of-the-box with Field Service v8.3+. 
+5. Next, go to the **Field Service SLA Configurations** tab. Here you will define the **SLA KPI Instances** that you would like to use for Field Service. By default, you should see an SLA related to work order arrival times, available out-of-the-box with Field Service v8.3+. 
 
-  SLA KPI instances help track how often your organization meets SLAs by establishing a relationship between the SLA and work order entities. The SLA KPI instances entered in our example tell the system to update the **Time from Promised** and **Time to Promised** work order fields for scheduling, which we will discuss further on in this topic.
+  SLA KPI instances help track how often your organization meets SLAs by establishing a relationship between the SLA and work order entities. The SLA KPI instances entered in our example tell the system to update the **Time from Promised** and **Time to Promised** work order fields for scheduling, which we will discuss further on in this article.
 
 > [!Note]
 >  One SLA can have many SLA KPI instances.
@@ -79,7 +71,7 @@ You can create new SLA KPI instances by going to **Settings > Customizations > C
 
 Now we are going to create a new SLA.
 
-1. Go to **Settings > Service Management > Service Level Agreements > +New**.
+1. Go to **Settings** > **Service Management** > **Service Level Agreements** > **+New**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Settings > Service Management > Service Level Agreements](./media/work-order-sla-create-sla-3.png)
@@ -100,18 +92,18 @@ Now we are going to create a new SLA.
 4. Now we will add details to our SLA:
 
 - **Name:** enter a title for your SLA detail.
-- **SLA KPI:** select the SLA KPI this relates to. You can choose the arrival time KPI that is automatically available with Field Service v8.3+, or select one you have created.
+- **SLA KPI:** select the SLA KPI this SLA relates to. You can choose the arrival time KPI that is automatically available with Field Service v8.3+, or select one you have created.
 - **Applicable When**: in our example, the SLA is applicable when the **Priority** field on the work order is set to **High**.
-- **Success Criteria**: we want this SLA to be considered a success when a field technician begins traveling to or arrives on site. Therefore, a work order system status of **Open-In Progress** would indicate this because when a field technician changes the booking status on one of his or her scheduled work orders to **Traveling** or **In Progress**, the related work order system status changes to **Open-In Progress**, thus making the SLA a success.  
+- **Success Criteria**: we want the SLA to be considered a success when a field technician begins traveling to or arrives on site. Therefore, a work order system status of **Open-In Progress** would indicate this success because when a field technician changes the booking status on one of their scheduled work orders to **Traveling** or **In Progress**, the related work order system status changes to **Open-In Progress**, thus making the SLA a success.  
   - Additionally, work orders with a system status of **Open-Completed**, **Closed-Posted**, and **Closed-Canceled** should be considered a success in terms of this SLA.
-- **SLA Item Failure**: in our example, we set this to 3 hours, which means the work order must reach a successful status (Open-In Progress, Open-Completed, Closed-Posted, Closed-Canceled) within 3 business hours. See the configuration considerations section in this topic for more information.
+- **SLA Item Failure**: in our example, we set this to 3 hours, which means the work order must reach a successful status (Open-In Progress, Open-Completed, Closed-Posted, Closed-Canceled) within three business hours. For more information, see the configuration considerations section in this article.
 - **SLA Item Warning**: set to 1.5 hours, which means the SLA status will be set to "warning" after 1.5 hours.
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of creating SLA Details on the KPI that was identified as Arrival Time related](./media/work-order-sla-add-actions-6.png)
 
-The following screenshot shows the Field Service Mobile app that field technicians use to view and record on-site work. When a work order is scheduled to a field technician, a booking record is created. He or she can edit the booking status, which will update the related work order system status, which then updates the related SLA success status. 
+The following screenshot shows the Field Service Mobile app that field technicians use to view and record on-site work. When a work order is scheduled to a field technician, a booking record is created. They can edit the booking status, which will update the related work order system status, which then updates the related SLA success status. 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of creating SLA Details on the KPI that was identified as Arrival Time related](./media/work-order-sla-mobile-app-booking-status.png)
 
@@ -135,7 +127,7 @@ The following screenshot shows the Field Service Mobile app that field technicia
 
 ## Step 4. Schedule a work order to meet SLA  
 
-Once a work order is associated with an SLA, the **Time From Promised** and **Time To Promised** fields will be populated on the work order according to the SLA, appropriate SLA Item, and business hours of the SLA. Note that these fields will populate along with other system jobs, which may typically take up to 5 minutes.
+Once a work order is associated with an SLA, the **Time From Promised** and **Time To Promised** fields will be populated on the work order according to the SLA, appropriate SLA Item, and business hours of the SLA. These fields will populate along with other system jobs, which may typically take up to 5 minutes.
 
 
 > [!div class="mx-imgBorder"]

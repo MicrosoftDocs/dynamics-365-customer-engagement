@@ -20,16 +20,16 @@ search.app:
 
 [!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
-[!INCLUDE[pn_unified_service_desk_for_crm](../../includes/pn-unified-service-desk-for-crm.md)] provides a configurable framework for quickly building applications for call centers so the customer service reps get a unified view of the customer data stored in the Common Data Service platform or any other application.  
+[!INCLUDE[pn_unified_service_desk_for_crm](../../includes/pn-unified-service-desk-for-crm.md)] provides a configurable framework for quickly building applications for call centers so the customer service reps get a unified view of the customer data stored in Microsoft Dataverse or any other application.  
   
  If you’re a service rep, you can use [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to offer your customers a reliable and consistent experience across a number of different channels including phone, email, and chat, and can also serve multiple customers simultaneously through sessions. A system administrator in your organization can integrate Unified Service Desk with many other applications that you use on a day-to-day basis so you can get your work done from your desktop without switching to different applications.  
   
- The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Knowledge Management sample application package provides a configuration for integrating the Common Data Service platform with the [!INCLUDE[pn_parature](../../includes/pn-parature.md)] knowledge base that lets you easily search for articles from your desktop and share them with customers right away, reducing call handling times and improving customer satisfaction.  
+ The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Knowledge Management sample application package provides a configuration for integrating Dataverse with the [!INCLUDE[pn_parature](../../includes/pn-parature.md)] knowledge base that lets you easily search for articles from your desktop and share them with customers right away, reducing call handling times and improving customer satisfaction.  
   
 > [!IMPORTANT]
 >  The sample applications are not supported for production use.  
 > 
->  This sample application is useful only if you have set up knowledge management for the Common Data Service platform. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Set up knowledge management with a knowledge base](https://technet.microsoft.com/library/dn946909.aspx)  
+>  This sample application is useful only if you have set up knowledge management for Dataverse. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Set up knowledge management with a knowledge base](https://technet.microsoft.com/library/dn946909.aspx)  
   
  With the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Knowledge Management package, the following components are installed:  
   
@@ -37,7 +37,7 @@ search.app:
   
 - [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Solution  
   
-- Data required for the Common Data Service platform and customizations  
+- Data required for Dataverse and customizations  
   
 - Configurations for integrating [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] with knowledge management  
    
@@ -126,7 +126,7 @@ search.app:
   
 - Enter your case notes in the **Notes** area.  
   
-- From the list of call scripts, select the **Update the notes** call script. This will attach the notes you’ve taken during your conversation with the customer to the **Notes** tab of the case record in the Common Data Service platform.  
+- From the list of call scripts, select the **Update the notes** call script. This will attach the notes you’ve taken during your conversation with the customer to the **Notes** tab of the case record in Dataverse.  
   
 ## Close the session  
  From the list of call scripts, select the **Close the session** call script. This will close the open session and collapse the left panel that shows the call script and right panel that lets you search KB articles.  

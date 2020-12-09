@@ -18,7 +18,7 @@ As a system customizer, you might want to Customize the session forms to suit yo
 
 ## Modify the position of sections in Session Form
 
-1.  Sign in to the Common Data Service platform.
+1.  Sign in to the Dynamics 365 instance.
 
 2.  Go to **Settings** > **Customization** > **Customize the system**.
 
