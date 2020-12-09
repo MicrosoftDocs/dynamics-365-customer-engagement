@@ -12,7 +12,7 @@ ms.service: dynamics-365-customerservice
 
 [!INCLUDE[cc-data-platform-banner](../../../../includes/cc-data-platform-banner.md)]
 
-The following entities have been deprecated. These entities will still be visible in the [$metadata](/powerapps/developer/common-data-service/web-api-types-operations#csdl-metadata-document) document but using it to access Common Data Service data is not supported.
+The following entities have been deprecated. These entities will still be visible in the [$metadata](/powerapps/developer/common-data-service/web-api-types-operations#csdl-metadata-document) document but using it to access Microsoft Dataverse data is not supported.
 
 - msdyn_ocliveworkitemparticipant
 - msdyn_omnichannelqueue

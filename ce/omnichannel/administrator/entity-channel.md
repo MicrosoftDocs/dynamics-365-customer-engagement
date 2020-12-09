@@ -47,7 +47,7 @@ Create a new omnichannel queue or use an existing omnichannel queue, and then ad
 
 Any entity you want to enable for routing needs to be enabled for activities and queues.
 
-1. Sign in to the Common Data Service platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Select **Settings** > **Customizations** > **Customize the System**.
 

@@ -1,6 +1,6 @@
 ---
 title: "Create a Channel Integration Framework (CIF) hosted control | MicrosoftDocs"
-description: "Learn how to create a Channel Integration Framework hosted control in the Common Data Service platform for Unified Service Desk."
+description: "Learn how to create a Channel Integration Framework hosted control in Microsoft Dataverse for Unified Service Desk."
 author: v-sailab
 ms.author: v-sailab
 manager: shujoshi
@@ -33,7 +33,7 @@ To pass the data with special characters, use the **EscapeCharacters** UII optio
 
 ### Add the **EscapeCharacters** UII option
 
-1. Sign in to the Common Data Service platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Go to **Settings** > **Unified Service Desk**.
 
@@ -52,7 +52,7 @@ To pass the data with special characters, use the **EscapeCharacters** UII optio
 
 ## Create hosted control
 
-1. Sign in to the Common Data Service platform.  
+1. Sign in to the Dynamics 365 instance.  
 
 2. On the nav bar, choose the down arrow (v) next to **Dynamics 365**.
 

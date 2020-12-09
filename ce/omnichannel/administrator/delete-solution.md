@@ -70,7 +70,7 @@ After all the solutions are deleted, Omnichannel for Customer Service solutions 
 
 ## Delete OmnichannelCustomerServiceHub solution
 
-When you upgrade Omnichannel for Customer Service to the latest release, certain managed solutions appear on the **Solutions** page of your Common Data Service platform. After the upgrade is complete, you must delete the solution from the previous release if the upgrade does not delete it. In addition, if your organization is using **Customer Service Hub** app, then you must delete the app from the channel configuration in the **Channel Integration Framework** app.
+When you upgrade Omnichannel for Customer Service to the latest release, certain managed solutions appear on the **Solutions** page of your Microsoft Dataverse. After the upgrade is complete, you must delete the solution from the previous release if the upgrade does not delete it. In addition, if your organization is using **Customer Service Hub** app, then you must delete the app from the channel configuration in the **Channel Integration Framework** app.
 
 The following steps describe how to delete the solution from your organization.
 
@@ -93,7 +93,7 @@ You have deleted the **OmnichannelCustomerServiceHub** solution from your organi
 
 The following steps describe how to delete the solution from your organization.
 
-1. Sign in to the Common Data Service platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Select the drop-down button on Dynamics 365 and select **Channel Integration Framework**.
 

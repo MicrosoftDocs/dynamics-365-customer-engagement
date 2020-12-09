@@ -31,7 +31,7 @@ For templates to identify the name of the customer as **Kenny Smith**, you (the 
 
 Similarly, for session and notification titles, you can pass the data parameters. To learn more, see [Automation dictionary formats to data parameter keys](#automation-dictionary-formats-to-pass-data-parameter-keys).
 
-The system replaces these parameter keys with the actual values based on the context of the session, channel provider, Common Data Service, and user actions.
+The system replaces these parameter keys with the actual values based on the context of the session, channel provider, Microsoft Dataverse, and user actions.
 
 To learn more, see [Types of context data parameters](#types-of-context-data-parameters).
 
@@ -39,7 +39,7 @@ To learn more, see [Types of context data parameters](#types-of-context-data-par
 
 Macros are a set of configured sequential actions that are run on demand by the user. As an administrator, you need to configure the actions that a macro must perform. To configure the actions, you need to pass the data parameters. To learn more, see [Automation dictionary formats to pass data parameter keys](#automation-dictionary-formats-to-pass-data-parameter-keys).
 
-When the agent runs the macro, the system replaces these parameter keys with the actual values based on the context of the session, channel provider, Common Data Service, and user actions. 
+When the agent runs the macro, the system replaces these parameter keys with the actual values based on the context of the session, channel provider, Dataverse, and user actions. 
 
 When the context is from a session, the macro action is run based on the information for a current session, where the information is obtained from an Anchor tab or current tab that's in focus.
 
@@ -53,7 +53,7 @@ The automation dictionary uses the context data parameters that are available fr
 
 - [Context data from the channel provider](#context-data-from-the-channel-provider)
 - [Context data from user actions](#context-data-from-user-actions)
-- [Context data from Common Data Service](#context-data-from-common-data-service)
+- [Context data from Dataverse](#context-data-from-dataverse)
 - [Context data from other macro actions](#context-data-from-other-macro-actions)
 
 > [!div class=mx-imgBorder] 
@@ -67,9 +67,9 @@ This context data is from the first-party channel provider such as Omnichannel f
 
 This data is populated as and when agents perform some activities in the session. An example is opening a new customer record, case, and so on.
 
-### Context data from Common Data Service
+### Context data from Dataverse
 
-The organizational data is stored in Common Data Service, and you can fetch the data with the use of OData queries. To learn more, see [OData queries](#odata-queries).
+The organizational data is stored in Dataverse, and you can fetch the data with the use of OData queries. To learn more, see [OData queries](#odata-queries).
 
 ### Context data from other macro actions
 
@@ -93,7 +93,7 @@ The context data parameter from the first macro action are as follows:
 
 ## Automation dictionary formats to pass data parameter keys
 
-The automation dictionary maintains the contextual data for sessions. The keys in the automation dictionary can be passed as parameters to the action in macros. The system replaces these parameter keys with the actual value based on the context of the session, channel provider, Common Data Service, and user actions.
+The automation dictionary maintains the contextual data for sessions. The keys in the automation dictionary can be passed as parameters to the action in macros. The system replaces these parameter keys with the actual value based on the context of the session, channel provider, Dataverse, and user actions.
 
 The automation dictionary supports the following formats:
 
@@ -138,7 +138,7 @@ The following slug is used to generate a reconnection link that can be shared wi
 
 #### Format for slugs for productivity tools
 
-The `${Slug}` parameter format that retrieves the context from the channel provider, current user session, output of other macro actions, or Common Data Service.
+The `${Slug}` parameter format that retrieves the context from the channel provider, current user session, output of other macro actions, or Dataverse.
 
 **Productivity automation context**
 
@@ -207,13 +207,13 @@ A *slug* is a replacement parameter that the system populates at runtime based o
 
 #### Format for slugs for templates
 
-The `{Slug}` parameter format that retrieves the template context from the channel provider, current user session, or Common Data Service.
+The `{Slug}` parameter format that retrieves the template context from the channel provider, current user session, or Dataverse.
 
    For example: `{caseId}` 
 
 ### OData queries
 
-You can use OData queries to get the contexts that are available from Common Data Service.
+You can use OData queries to get the contexts that are available from Dataverse.
 
 The OData query format:
 
