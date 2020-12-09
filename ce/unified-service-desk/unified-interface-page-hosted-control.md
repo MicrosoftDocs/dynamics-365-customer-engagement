@@ -226,7 +226,7 @@ Displays the hosted control at the specified location on a monitor. You can disp
 This action refreshes the current page.
 
 ### RunScript  
- This action injects JavaScript into the main frame of the application. You should avoid using the Common Data Service platform client SDK calls with this action; instead, use the **RunXrmCommand** action.  
+ This action injects JavaScript into the main frame of the application. You should avoid using Microsoft Dataverse client SDK calls with this action; instead, use the **RunXrmCommand** action.  
   
 |Parameter|Description|  
 |---------------|-----------------|  

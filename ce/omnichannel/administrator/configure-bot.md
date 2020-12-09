@@ -25,7 +25,7 @@ When you integrate an Azure bot with Omnichannel for Customer Service, you get t
 
 - Seamlessly integrate your Azure bot with all channels without needing to add channel-specific code in the bot.
 - Transfer bot conversations to human agents, and include the full context of the conversation.
-- Analyze the bot transcript that's available in Common Data Service after the chat is completed.
+- Analyze the bot transcript that's available in Microsoft Dataverse after the chat is completed.
 - Configure routing rules to selectively route incoming requests to bots based on context, such as issue type or customer type. For example, you can route low-complexity issues to bots, or route the conversation to a sales or support bot based on the webpage browsing history of the customer.
 - Monitor the bot conversations in real time by using the supervisor dashboard, which includes details such as customer sentiment.
 - Use the historical dashboards to get insights into the effectiveness of the bots through metrics such as resolution rate, escalation rate, resolution time, escalation time, and average sentiment.

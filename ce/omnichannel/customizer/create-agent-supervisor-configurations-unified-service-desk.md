@@ -16,7 +16,7 @@ ms.service: dynamics-365-customerservice
 
 A configuration in Unified Service Desk helps you filter access to components that are shown to users in the Omnichannel for Customer Service application. Follow these steps to create an agent configuration and a supervisor configuration.
 
-1.  Sign in to the Common Data Service platform.
+1.  Sign in to the Dynamics 365 instance.
 
 2.  Go to **Settings** > **Unified Service Desk**.
 
