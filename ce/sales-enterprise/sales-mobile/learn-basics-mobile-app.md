@@ -21,7 +21,7 @@ When you open the Dynamics 365 Sales mobile app on your mobile device, you’ll 
 2. [Recent contacts](#recent-contacts)
 3. [Recent records](#recent-records)
 4. [Reminders and insights](#reminders-and-insights)
-5. [Navigation bar](#Navigation-bar)
+5. [Navigation bar](#navigation-bar)
 
 ### Meetings
 
@@ -66,32 +66,49 @@ You can use the navigation bar at the bottom of the screen to navigate through t
 ![Navigation bar](media/sm-navigation-bar.png "Navigation bar")
 
 #### Home   
+
 Tap **Home** from anywhere in the app to go to home page.   
 
 #### Search   
-Tap the **Search** icon and enter a word in the search box to get necessary information quickly. When you start typing a word, the suggestions start displaying the records in the results that are related to the word. Enter the complete word for better results.   
-    When you search of a word, the results are categorized according to the entities such as, contacts, accounts, leads, notes, and opportunities depending on the availability of the word in these entities. For example, you are searching for **Contoso** and if the word is mentioned in few contacts, accounts, and leads, the results will display the records that have Contoso in contacts, accounts, and leads. You can tap on the record to view the details.   
-    > [!div class="mx-imgBorder"]
-    > ![Search results](media/sm-search-contoso-results.png "Search results")   
-    Below the search box option, you can see the number of records available for the search results and an option to filter the results. You can filter your results by excluding extraneous owners, record types, modified, and created dates. Tap the filter icon (![Refine search results](media/refine-search.png "Refine search results")) and then choose a **filter option** > **subfilter**.   
-        > [!div class="mx-imgBorder"]
-        > ![Search filters](media/sa-search-filters.png "Search filters")    
-        - **Owner**: Specifies the name of the owners who are associated with the search word. You can tap an owner to further refine the search results.    
-        - **Record Type**: Specifies the type of records you are searching for such as, Leads, opportunities, Email Messages, Accounts, Contacts, Attachments, and Notes. You can select a record type to further refine the search results.     
-        - **Modified On**: Refines the search results by displaying the records that are modified in the specified timeline. Tap the option and choose the **From** (One week ago, One month ago, and One year ago) and **To** (Today, One week ago, and One month ago) timelines. For example, you choose **From** as **One week ago** and **To** as **Today**, the results are refined to display records that are modified in between today until the week ago.   
-        - **Created On**: Refines the search results by displaying the records that are created in the specified timeline. Tap the option and choose the **From** (One week ago, One month ago, and One year ago) and **To** (Today, One week ago, and One month ago) timelines. For example, you choose **From** as **One week ago** and **To** as **Today**, the results are refined to display records that are created in between today until the week ago.   
+
+Tap the **Search** icon and enter a word in the search box to get necessary information quickly. When you start typing a word, the suggestions start displaying the records in the results that are related to the word. Enter the complete word for better results.  
+
+When you search of a word, the results are categorized according to the entities such as, contacts, accounts, leads, notes, and opportunities depending on the availability of the word in these entities. For example, you are searching for **Contoso** and if the word is mentioned in few contacts, accounts, and leads, the results will display the records that have Contoso in contacts, accounts, and leads. You can tap on the record to view the details.   
+
+> [!div class="mx-imgBorder"]
+> ![Search results](media/sm-search-contoso-results.png "Search results")   
+
+Below the search box option, you can see the number of records available for the search results and an option to filter the results. You can filter your results by excluding extraneous owners, record types, modified, and created dates. Tap the filter icon (![Refine search results](media/refine-search.png "Refine search results")) and then choose a **filter option** > **subfilter**.   
+
+> [!div class="mx-imgBorder"]
+> ![Search filters](media/sa-search-filters.png "Search filters")    
+
+- **Owner**: Specifies the name of the owners who are associated with the search word. You can tap an owner to further refine the search results.    
+
+- **Record Type**: Specifies the type of records you are searching for such as, Leads, opportunities, Email Messages, Accounts, Contacts, Attachments, and Notes. You can select a record type to further refine the search results.     
+
+- **Modified On**: Refines the search results by displaying the records that are modified in the specified timeline. Tap the option and choose the **From** (One week ago, One month ago, and One year ago) and **To** (Today, One week ago, and One month ago) timelines. For example, you choose **From** as **One week ago** and **To** as **Today**, the results are refined to display records that are modified in between today until the week ago.   
+
+- **Created On**: Refines the search results by displaying the records that are created in the specified timeline. Tap the option and choose the **From** (One week ago, One month ago, and One year ago) and **To** (Today, One week ago, and One month ago) timelines. For example, you choose **From** as **One week ago** and **To** as **Today**, the results are refined to display records that are created in between today until the week ago.   
+
 #### Meetings
 Tap the **Meetings** icon and calendar selection view is opened with a list of meetings that are scheduled for the current date. By default, current date is selected. You can swipe left or right to choose a date for which you want to view the scheduled meetings.    
+
 > [!div class="mx-imgBorder"]
 > ![Date selection to view meetings](media/sm-agenda-view.png "Date selection to view meetings")   
+
 To learn more, see [View meetings](view-agenda.md)        
+
 #### More options    
 Tap the **More options** icon to view the site map or menu of the Sales Hub app that helps you navigate to the different areas of the app. The following screen is a site map sample:    
+
 > [!div class="mx-imgBorder"]
 > ![Sales hub site map](media/sm-sales-hub-site-map.png "Sales hub site map")    
+
+
 On the top of the site map, the **Recent** option displayed the records that you have accessed recently through the sales mobile app and the **Pinned** option displayed the records that are pinned.   
 Select the bidirectional arrows on the view the change area to go to settings  
 
 ### See also   
-[View meetings](sales-mobile/view-agenda.md)    
-[Open a record](sales-mobile/open-record.md)    
+[View meetings](view-agenda.md)    
+[Open a record](open-record.md)    
