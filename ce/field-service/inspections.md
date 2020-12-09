@@ -92,6 +92,14 @@ Add a question to the inspection by double-clicking or dragging-and-dropping a q
 
 - **File:** Allows technicians to upload a file, take picture, or choose picture from their camera roll.
 
+- **Barcode scan** Allows technicians to populate the field with the barcode number by scanning a barcode with their device's camera. Choose "Textbox" question type then select **Barcode** for Input type in the Advanced section.
+
+- **Matrix(Dynamic)** Add a grid of questions to which more rows can be added dynamically while performing the inspection. See image below.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/inspections-matrix-barcode.png)
+
+
 Use the **Required** toggle to make the inspection question mandatory.
 
 > [!div class="mx-imgBorder"]
@@ -317,11 +325,9 @@ If an inspection question is required, the technician will not be able to mark *
 
 - New inspections cannot be created or designed from small form factors like mobile devices.
 
-- The ability to add version numbering to inspections is not part of the April 2020 public preview and is **planned**.
-
 - Inspections cannot be exported and imported to other environments
 
-- Parsing of inspection responses out-of-the-box without the need for Power Automate is **planned**. 
+- Inspection 
 
 ### Known issues
 
