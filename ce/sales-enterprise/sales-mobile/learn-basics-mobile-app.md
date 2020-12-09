@@ -15,7 +15,8 @@ manager: shujoshi
 
 When you open the Dynamics 365 Sales mobile app on your mobile device, you’ll see the home page. This home page provides high-level information on the meetings and insight cards that are specific to you. Typically, the home page displays the following:
 
-<!--Images of home screen-->
+> [!div class="mx-imgBorder"]
+> ![Sales mobile app home screen](media/sa-home-page.png "Sales mobile app home screen")
 
 1. [Meetings](#meetings)
 2. [Recent contacts](#recent-contacts)
@@ -23,7 +24,7 @@ When you open the Dynamics 365 Sales mobile app on your mobile device, you’ll 
 4. [Reminders and insights](#reminders-and-insights)
 5. [Navigation bar](#navigation-bar)
 
-### Meetings
+## Meetings
 
 This section shows important information about the last meeting you were in and the next one coming up for the day. When you tap a meeting, the meeting detail page opens.    More information: [View meeting details](view-agenda.md#view-meeting-details)
 
@@ -32,19 +33,19 @@ This section shows important information about the last meeting you were in and 
 
 ![Meetings displayed on the home screen](media/sm-meetings-home.png "Meetings displayed on the home screen")
 
-### Recent contacts
+## Recent contacts
 
 Use **Recent contacts** to open an extended list of the contacts you've recently accessed through the web or the mobile app. You can tap a contact to view its details. More information: [Create a contact](create-contact.md)
 
 ![Recent contacts displayed on the home screen](media/sm-contacts-home.png "Recent contacts displayed on the home screen")
 
-### Recent records
+## Recent records
 
 Tap **Recent records** to view an extended list of the records you've worked on recently through the web or the mobile app, such as an account or opportunity. You can tap a record to view its details. More information: [Open a record](open-record.md)
 
 ![Recent records displayed on the home screen](media/sm-records-home.png "Recent records displayed on home screen")
 
-### Reminders and insights
+## Reminders and insights
 
 Shows action cards from the relationship assistant. The cards show up to five reminders and five insights. If your administrator has created custom cards, they can be shown here, too.
 
@@ -59,17 +60,20 @@ Tap ![Options button](media/sm-options-button.png "Options button") to take furt
 
 ![Reminders and insights displayed on the home screen](media/sm-reminders-insights-home.png "Reminders and insights displayed on the home screen")
 
-### Navigation bar
+## Navigation bar
 
 You can use the navigation bar at the bottom of the screen to navigate through the app.
 
 ![Navigation bar](media/sm-navigation-bar.png "Navigation bar")
 
-#### Home   
+### Home   
 
 Tap **Home** from anywhere in the app to go to home page.   
 
-#### Search   
+### Search   
+
+>[!NOTE]
+>You must enable relevance search for the environment in which you enable the mobile app. More information: [Configure relevance search to improve search results and performance](https://docs.microsoft.com/power-platform/admin/configure-relevance-search-organization).
 
 Tap the **Search** icon and enter a word in the search box to get necessary information quickly. When you start typing a word, the suggestions start displaying the records in the results that are related to the word. Enter the complete word for better results.  
 
@@ -91,7 +95,7 @@ Below the search box option, you can see the number of records available for the
 
 - **Created On**: Refines the search results by displaying the records that are created in the specified timeline. Tap the option and choose the **From** (One week ago, One month ago, and One year ago) and **To** (Today, One week ago, and One month ago) timelines. For example, you choose **From** as **One week ago** and **To** as **Today**, the results are refined to display records that are created in between today until the week ago.   
 
-#### Meetings
+### Meetings
 Tap the **Meetings** icon and calendar selection view is opened with a list of meetings that are scheduled for the current date. By default, current date is selected. You can swipe left or right to choose a date for which you want to view the scheduled meetings.    
 
 > [!div class="mx-imgBorder"]
@@ -99,15 +103,15 @@ Tap the **Meetings** icon and calendar selection view is opened with a list of m
 
 To learn more, see [View meetings](view-agenda.md)        
 
-#### More options    
-Tap the **More options** icon to view the site map or menu of the Sales Hub app that helps you navigate to the different areas of the app. The following screen is a site map sample:    
+### More options    
+Tap the **More options** icon to view the site map or menu of the Sales Hub app or any other custom app module you are using that helps you navigate to the different areas of the app. The following screen is a site map sample:    
 
 > [!div class="mx-imgBorder"]
 > ![Sales hub site map](media/sm-sales-hub-site-map.png "Sales hub site map")    
 
 On the top of the site map, the **Recent** option displayed the records that you have accessed recently through the sales mobile app and the **Pinned** option displayed the records that are pinned.   
 
-Select the bidirectional arrows on the view the change area to go to settings  
+Select the bidirectional arrows on the view the change area to go to settings.  
 
 ### See also   
 [View meetings](view-agenda.md)    
