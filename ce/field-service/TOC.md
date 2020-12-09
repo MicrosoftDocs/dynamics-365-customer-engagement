@@ -198,6 +198,7 @@
 ### [Receive IoT alerts from real MXChip device](cfs-iotcentral-mxchip.md)
 ### [IoT - Parent IoT Alerts workflow](developer/iot-parent-iot-alerts-workflow.md)
 ### [Extend standard components or add Azure services](developer/extend-connected-field-service-solutions.md)
+## [FAQs](cfs-faq.md)
 
 # Integrations
 ## [Dynamics 365 Supply Chain Management](supply-chain-field-service-integration.md)
