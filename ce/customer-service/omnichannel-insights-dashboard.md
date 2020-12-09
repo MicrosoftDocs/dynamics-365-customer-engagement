@@ -11,7 +11,7 @@ ms.service: "dynamics-365-customerservice"
 
 # View and understand Omnichannel Insights dashboards
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 ## Omnichannel Insights  
 

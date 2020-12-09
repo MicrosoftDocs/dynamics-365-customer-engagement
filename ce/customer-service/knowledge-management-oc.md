@@ -12,7 +12,7 @@ ms.reviewer: nenellim
 
 # Share knowledge articles in Omnichannel for Customer Service
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 Enable knowledge article sharing in Omnichannel for Customer Service so that customer queries can be resolved quickly. You can configure an external portal in the **Customer Service Hub** app in a way that your customer service agents can share knowledge article links with the customers from within the Omnichannel for Customer Service app.
 

@@ -11,7 +11,7 @@ ms.service: "dynamics-365-customerservice"
 
 # Real-time translation of conversations for agents and customers
 
-[!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 ## Introduction
 

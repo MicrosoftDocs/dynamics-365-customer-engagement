@@ -11,7 +11,7 @@ ms.service: dynamics-365-customerservice
 
 # Search, link, and unlink a record in Omnichannel for Customer Service
 
-[!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 The topic explains how to search for records, link a record to a conversation, and unlink the record from the conversation in Omnichannel for Microsoft Dynamics 365 Customer Service.
 

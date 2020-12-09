@@ -17,7 +17,7 @@ search.app:
  
 # Enable personal quick replies for agents
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 ## Introduction
 

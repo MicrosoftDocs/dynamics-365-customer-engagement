@@ -11,7 +11,7 @@ ms.service: dynamics-365-customerservice
 
 # Embed chat widget in your website or portal
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 ## Embed chat widget in your web portal
 

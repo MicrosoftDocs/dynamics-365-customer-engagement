@@ -11,7 +11,7 @@ ms.service: "dynamics-365-customerservice"
 
 # Understand unified routing and work distribution
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 Unified routing and work distribution ensures that conversations from all the channels are routed to agents efficiently.
 

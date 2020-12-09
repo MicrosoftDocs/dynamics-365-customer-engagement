@@ -11,7 +11,7 @@ ms.service: "dynamics-365-customerservice"
 
 # View communication panel
 
-[!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 The communication panel is where you, as an agent, interact with your customer. When you sign in to the application, the communication panel is in hidden mode by default. You cannot view the communication panel unless you accept an incoming conversation to communicate with the customer.
 

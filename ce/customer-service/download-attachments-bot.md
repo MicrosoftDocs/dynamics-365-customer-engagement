@@ -10,7 +10,7 @@ ms.service: dynamics-365-customerservice
 ---
 # Download attachments from your Azure bot
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 Follow these steps to download attachments from your Azure bot.
 

@@ -11,7 +11,7 @@ ms.service: dynamics-365-customerservice
 
 # Manage applications in Omnichannel for Customer Service
 
-[!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 The horizontal bar below the navigation bar is called the application tab panel. Every customer session has at least one application that is not closable; it is called an **anchor** tab. In the following image, **Omnichannel Agent Dashboard** is the anchor tab.
 

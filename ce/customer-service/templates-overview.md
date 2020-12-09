@@ -11,7 +11,7 @@ ms.service: dynamics-365-customerservice
 
 # Overview of templates
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 When you (an agent) get an incoming conversation request, the omnichannel system searches and opens the records like case, contact, or account. However, your organization might have different requirements and want to use different custom entities and correlate to a conversation.
 

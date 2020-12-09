@@ -11,7 +11,7 @@ ms.service: dynamics-365-customerservice
 
 # Create a record
 
-[!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 When no records are linked to the conversation in Omnichannel for Customer Service, you can create a record. You can create a new record in two ways:
 

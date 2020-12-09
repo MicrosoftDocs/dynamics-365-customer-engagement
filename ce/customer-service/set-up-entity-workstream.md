@@ -11,7 +11,7 @@ ms.service: dynamics-365-customerservice
 
 # Create workstream for entity record routing
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 ## Create entity record workstream
 

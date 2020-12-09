@@ -11,7 +11,7 @@ ms.service: dynamics-365-customerservice
 
 # Use productivity pane to guide agents
 
-[!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 The productivity pane in Omnichannel for Customer Service displays the **Agent Guidance** control (agent scripts and smart-assist cards) in a unified view.
 

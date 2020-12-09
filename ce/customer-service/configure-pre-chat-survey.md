@@ -11,7 +11,7 @@ ms.service: dynamics-365-customerservice
 
 # Configure a pre-conversation survey
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 You can configure your chat widget to show users a survey that they must respond to before they start the conversation.
 

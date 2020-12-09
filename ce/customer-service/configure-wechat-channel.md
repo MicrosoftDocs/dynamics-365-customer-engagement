@@ -10,7 +10,7 @@ ms.service: dynamics-365-customerservice
 ---
 # Configure a WeChat channel
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 ## WeChat channel
 

@@ -11,7 +11,7 @@ ms.service: dynamics-365-customerservice
 
 # Create and manage data-masking rules
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 Use data masking to block sensitive data such as credit card information, social security number (SSN), or even profanity in a conversation. You can create a masking rule and define a regular expression to identify the sensitive information and replace it with the masked characters. Any text that's masked in a conversation will also be masked in the conversation transcript. Data masking works for chat and async channels.
 

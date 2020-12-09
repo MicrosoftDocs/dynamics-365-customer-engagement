@@ -11,7 +11,7 @@ ms.service: dynamics-365-customerservice
 
 # Enable third-party co-browse and screen sharing
 
-[!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 Co-browse and screen sharing are escalation channels in the Chat channel of Microsoft Dynamics 365. A co-browse or screen-sharing escalation channel allows your organization’s agents to start a co-browse or screen-sharing session with customers. Using co-browse, agents can see and interact with a customer’s web browser. Using screen sharing, agents can see and interact with the customer’s current screen. This provides customers with an extra option to connect to an agent who can efficiently troubleshoot issues in real time.
 

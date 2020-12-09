@@ -11,7 +11,7 @@ ms.service: dynamics-365-customerservice
 
 # Automatically identify customers
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 Identify and assist customers better by showing their details on the **Customer summary** page. To automatically identify and load customer and case details for an incoming conversation, you need to set up pre-chat questions in the relevant chat widgets. Customer responses are used to search for details in the records and display the results. For an Account or Contact, the search is performed on the **Name**, **Email**, or **Phone Number** field. For Cases, the search is performed on the **Case Number** field.
 

@@ -12,7 +12,7 @@ ms.reviewer: nenellim
 
 # Enable file attachments
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 You can enable or disable the capability for your agents and customers to send file attachments during a conversation. 
 

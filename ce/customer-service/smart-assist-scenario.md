@@ -10,7 +10,7 @@ ms.service: dynamics-365-customerservice
 ---
 # Implement a custom scenario for smart assist bot
 
-[!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 This topic provides information on how you can enable similar case suggestions in your smart assist bot.
 

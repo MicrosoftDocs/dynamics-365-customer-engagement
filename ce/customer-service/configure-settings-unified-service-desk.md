@@ -11,7 +11,7 @@ ms.service: dynamics-365-customerservice
 
 # Configure recommended settings for Unified Service Desk
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 The topic explains the recommended settings for Unified Service Desk.
 

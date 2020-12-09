@@ -11,7 +11,7 @@ ms.service: dynamics-365-customerservice
 
 # Guide customer interaction with agent scripts
 
-[!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 ## Overview of agent scripts
 

@@ -11,7 +11,7 @@ ms.service: dynamics-365-customerservice
 
 # Configure Omnichannel Insights dashboards
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 Customer service managers or supervisors are responsible for managing agents who work to resolve customer queries every day through various service channels. They need to know key operational metrics to ensure that their agents are providing quality support. Omnichannel Insights consists of channels and sentiment analysis dashboards that can help with this.
 

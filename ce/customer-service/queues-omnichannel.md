@@ -11,7 +11,7 @@ ms.service: "dynamics-365-customerservice"
 
 # Work with queues in Omnichannel for Customer Service
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 ## Introduction
 

@@ -10,7 +10,7 @@ ms.service: "dynamics-365-customerservice"
 ---
 # Configure a Microsoft Teams channel
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 ## Microsoft Teams channel
 

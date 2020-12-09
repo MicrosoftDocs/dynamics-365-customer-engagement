@@ -11,7 +11,7 @@ ms.service: dynamics-365-customerservice
 
 # Monitor real-time customer sentiment
 
-[!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 As an agent, when you interact with your customers, you want to know the sentiments they're experiencing in real time. Analysis of the customer's satisfaction level helps you understand how serious the problem is and develop a course of action to solve it. In Omnichannel for Customer Service, you can see the customer's satisfaction levels instantly while you communicate with the customer.
 

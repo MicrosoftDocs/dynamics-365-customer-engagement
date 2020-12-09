@@ -11,7 +11,7 @@ ms.service: "dynamics-365-customerservice"
 
 # Enable conversations to be assigned automatically
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 ## Introduction
 

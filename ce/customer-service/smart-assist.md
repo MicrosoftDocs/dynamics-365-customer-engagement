@@ -11,7 +11,7 @@ ms.service: "dynamics-365-customerservice"
 
 # Smart assist
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 ## Overview of smart assist
 

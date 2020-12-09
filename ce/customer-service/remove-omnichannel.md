@@ -11,7 +11,7 @@ ms.service: dynamics-365-customerservice
 
 # Remove Omnichannel for Customer Service
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 You can remove Omnichannel for Customer Service and disable all channels for a Dynamics 365 Customer Service organization.
 

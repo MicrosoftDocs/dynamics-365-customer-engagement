@@ -12,7 +12,7 @@ ms.service: dynamics-365-customerservice
 # Show customers their average wait time in a queue
 
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 ## Overview
 

@@ -11,7 +11,7 @@ ms.reviewer: nenellim
 ---
 # Delete a configured channel
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 You can delete an instance of a configured channel or SMS number in scenarios such as when it isn't required, you don't want to receive messages on it, or the settings are corrupted.
 

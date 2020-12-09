@@ -11,7 +11,7 @@ ms.service: dynamics-365-customerservice
 
 # Sentiment monitoring
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 > [!NOTE]
 > Supervisor and agent sentiment notifications are not available in Omnichannel for Customer Service on Unified Service Desk.

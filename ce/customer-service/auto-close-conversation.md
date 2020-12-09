@@ -10,7 +10,7 @@ ms.service: dynamics-365-customerservice
 ---
 # Automatic closure of a conversation
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 This topic demonstrates how you can configure auto-close duration for a conversation using the Web API. 
 

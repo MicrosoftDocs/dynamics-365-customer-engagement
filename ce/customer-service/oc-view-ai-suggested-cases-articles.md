@@ -11,7 +11,7 @@ ms.service: "dynamics-365-customerservice"
 
 # View smart assist suggestions for knowledge articles and similar cases using AI
 
-[!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)] 
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)] 
 
 ## Introduction
 
