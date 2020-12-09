@@ -23,7 +23,7 @@ To sign in to Omnichannel for Customer Service, do the following:
 
 3. Select the **Omnichannel for Customer Service** app.
 
-    ![Sign in to Omnichannel for Customer Service](../../media/oceh-sign-in.png "Sign in to Omnichannel for Customer Service")
+    ![Sign in to Omnichannel for Customer Service](media/oceh-sign-in.png "Sign in to Omnichannel for Customer Service")
 
 > [!Note]
 > If you have Omnichannel access, then you can see the Omnichannel for Customer Service app in your instance.

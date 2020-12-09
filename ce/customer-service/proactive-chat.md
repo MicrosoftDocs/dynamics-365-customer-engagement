@@ -28,7 +28,7 @@ Information about the user journey, time spent on a web page, and more can be us
 4.	Under **Proactive chat**, select **Yes** for **Enable Proactive Chat**. By default, it is set to **No**.
 
     > [!div class=mx-imgBorder]
-    > ![Enable proactive chat](../media/proactive-chat.png "Enable proactive chat")
+    > ![Enable proactive chat](media/proactive-chat.png "Enable proactive chat")
 
 The conditions to trigger the proactive chat are defined in the web page code in which the chat widget is embedded. If the conditions are fulfilled, the proactive chat invitation is displayed with the help of an API.
 
@@ -39,7 +39,7 @@ For example scenarios and sample code, see [Start chat proactively](../developer
 When proactive chat is enabled, the chat invitation is displayed to customers based on the configured triggers.
 
 > [!div class=mx-imgBorder]
-> ![Proactive chat notification](../media/proactive-chat-invite.png "Proactive chat notification")
+> ![Proactive chat notification](media/proactive-chat-invite.png "Proactive chat notification")
 
 A customer can choose to accept the chat invitation or close it. The chat invitation closes automatically after one minute if the customer does not accept it.
 
@@ -51,14 +51,14 @@ A customer can choose to accept the chat invitation or close it. The chat invita
 When a customer accepts the proactive chat invitation, an agent receives the notification.
 
 > [!div class=mx-imgBorder]
-> ![Proactive chat agent notification](../media/proactive-chat-agent.png "Proactive chat agent notification")
+> ![Proactive chat agent notification](media/proactive-chat-agent.png "Proactive chat agent notification")
 
 The agent then accepts the chat request and starts conversing with the customer to provide the required help. The [customer summary](../agent/agent-oc/oc-customer-summary.md) is loaded and displayed if the customer’s details match the stored data. 
 
 If your administrator or developer configures the **Additional details** tab and if there are additional context variables, such as time spent on a page and the page URL from where the chat is initiated, they are displayed on the **Additional details** tab. 
 
 > [!div class=mx-imgBorder]
-> ![Proactive chat agent notification](../media/proactive-chat-addl-details.png "Proactive chat agent notification")
+> ![Proactive chat agent notification](media/proactive-chat-addl-details.png "Proactive chat agent notification")
 
 To learn more, see [setContextProvider](../developer/reference/methods/setContextProvider.md).
 

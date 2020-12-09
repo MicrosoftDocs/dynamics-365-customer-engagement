@@ -18,7 +18,7 @@ Use data masking to block sensitive data such as credit card information, social
 Masking rules can be configured to apply to messages sent by a customer, an agent, or both. You must make sure that the masking rules you want applied are set to **Active**; otherwise, they won't apply to the selections you make.
 
    > [!div class=mx-imgBorder]
-   > ![Data-masking rules](../media/general-masking-rules.png "Data-masking rules")
+   > ![Data-masking rules](media/general-masking-rules.png "Data-masking rules")
 
 You can choose to:
 
@@ -40,7 +40,7 @@ As an administrator, you can delete or modify out-of-the-box masking rules and c
 ## Create a data-masking rule
 
    > [!div class=mx-imgBorder]
-   > ![Create a masking rule](../media/new-masking-rule.png "Create a masking rule")
+   > ![Create a masking rule](media/new-masking-rule.png "Create a masking rule")
     
 1.	Sign in to **Omnichannel Administration**.
 
@@ -59,7 +59,7 @@ As an administrator, you can delete or modify out-of-the-box masking rules and c
 5. Note that by default, the number sign (#) is used to mask sensitive data. To test the data masking as defined by the specified regular expression, enter a value in the **Enter test data** field. The masked value is displayed in the **Masked test data** field.
 
    > [!div class=mx-imgBorder]
-   > ![Email masking rules](../media/email-masking-rule.png "Email masking rules")
+   > ![Email masking rules](media/email-masking-rule.png "Email masking rules")
 
 6. Select **Save**.
 
@@ -68,7 +68,7 @@ As an administrator, you can delete or modify out-of-the-box masking rules and c
 After a masking rule is created, you can edit, activate, deactivate, or permanently delete it.
 
    > [!div class=mx-imgBorder]
-   > ![Manage masking rules](../media/masking-rule-card.png "Manage masking rules")
+   > ![Manage masking rules](media/masking-rule-card.png "Manage masking rules")
 
 1.	Sign in to **Omnichannel Administration**.
 

@@ -31,7 +31,7 @@ Similar to the Customer Service Hub app, Omnichannel for Customer Service uses t
 2. Select **Service Management**.
 
     > [!div class=mx-imgBorder]
-    > ![Select service management](../media/service-management.png "Select service management")
+    > ![Select service management](media/service-management.png "Select service management")
 
 3. Select **Queues** under **Case Settings**.
 
@@ -40,7 +40,7 @@ Similar to the Customer Service Hub app, Omnichannel for Customer Service uses t
 5. Select the checkbox to enable the queue for automatic distribution of work items.
 
     > [!div class=mx-imgBorder]
-    > ![Enable automatic work distribution](../media/automatic-work-distribution.png "Enable automatic work distribution")
+    > ![Enable automatic work distribution](media/automatic-work-distribution.png "Enable automatic work distribution")
 
 6. Select **Save**.
  

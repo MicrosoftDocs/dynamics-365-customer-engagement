@@ -20,7 +20,7 @@ For more information on how to create users and assign security roles, see [Assi
 Navigate to **Queues & Users > Users** to view the list of Omnichannel for Customer Service users in the **Omnichannel Users** view.
 
 > [!div class=mx-imgBorder]
-> ![Omnichannel users](../media/omni-channel-users.png)
+> ![Omnichannel users](media/omni-channel-users.png)
 
 ## Manage a user in Omnichannel for Customer Service
 
@@ -47,7 +47,7 @@ Navigate to **Queues & Users > Users** to view the list of Omnichannel for Custo
 8. Select **Save**.
 
 > [!div class=mx-imgBorder]
-> ![Default presence](../media/oc-user-omni-tab.png)
+> ![Default presence](media/oc-user-omni-tab.png)
 
 ### Capacity
 

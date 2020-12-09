@@ -42,22 +42,22 @@ You can configure your chat widget to show users a survey that they must respond
     
 
     > [!div class=mx-imgBorder]
-    > ![Add a question to the pre-chat survey](../media/oc-add-chat-question.png "Add a question to the pre-chat survey")
+    > ![Add a question to the pre-chat survey](media/oc-add-chat-question.png "Add a question to the pre-chat survey")
 
 7. Select **Save and Close**. The questions are added in the **Pre-chat unauthenticated questions** area.
   
     > [!div class=mx-imgBorder]
-    > ![Configure a pre-chat survey in a chat widget](../media/oc-chat-widget-survey-tab.png "Configure a pre-chat survey in a chat widget")
+    > ![Configure a pre-chat survey in a chat widget](media/oc-chat-widget-survey-tab.png "Configure a pre-chat survey in a chat widget")
 
 8. Optionally, select a question and select **Move up** or **Move down** in the right corner to change its order.
 
     > [!div class=mx-imgBorder]
-    > ![Change the order of a question in a pre-chat survey](../media/oc-change-question-order.png "Change the order of a question in a pre-chat survey")
+    > ![Change the order of a question in a pre-chat survey](media/oc-change-question-order.png "Change the order of a question in a pre-chat survey")
 
 A sample screenshot of the pre-conversation survey that will be displayed for customers is as follows.
 
 > [!div class=mx-imgBorder]
-> ![Sample pre-chat survey](../media/oc-pre-chat-survey.png "Sample pre-chat survey")
+> ![Sample pre-chat survey](media/oc-pre-chat-survey.png "Sample pre-chat survey")
 
 More information: [Automatically identify customers using pre-chat responses](record-identification-rule.md)
 

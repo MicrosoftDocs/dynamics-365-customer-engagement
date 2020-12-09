@@ -26,7 +26,7 @@ Make sure your administrator has configured a TeleSign or Twilio channel in Omni
 You'll receive a notification when a customer requests a conversation through TeleSign or Twilio. You can accept the chat request, after which a session starts and you'll see the communication panel in which you can exchange messages with the customer.
 
 > [!div class=mx-imgBorder]
-> ![Incoming chat notification](../../media/oceh/sms-notification-request.png "Incoming SMS notification")
+> ![Incoming chat notification](media/oceh/sms-notification-request.png "Incoming SMS notification")
 
 As an agent in Omnichannel for Customer Service, you can:
 

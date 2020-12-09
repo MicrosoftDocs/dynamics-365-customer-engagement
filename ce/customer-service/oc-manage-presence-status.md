@@ -16,23 +16,23 @@ ms.service: dynamics-365-customerservice
 Presence is the indication of your availability or status.
 
   > [!div class=mx-imgBorder]
-  > ![Agent presence status](../../media/oceh/oceh-presence-icon.png "Agent presence status")
+  > ![Agent presence status](media/oceh/oceh-presence-icon.png "Agent presence status")
 
 ## View your presence status
 
 As an agent, you can view your presence status that is shown in the nav bar. Select the icon to launch the presence dialog. Each presence status indicates an icon:
 
-  - ![Offline presence status](../../media/oceh/oceh-offline-icon.png "Offline presence status") - Offline
+  - ![Offline presence status](media/oceh/oceh-offline-icon.png "Offline presence status") - Offline
 
-  - ![Appear away presence status](../../media/oceh/oceh-appear-away-icon.png "Appear away presence status") - Appear away
+  - ![Appear away presence status](media/oceh/oceh-appear-away-icon.png "Appear away presence status") - Appear away
 
-  - ![Do not disturb presence status](../../media/oceh/oceh-do-not-disturb-icon.png "Do not disturb presence status") - Do not disturb
+  - ![Do not disturb presence status](media/oceh/oceh-do-not-disturb-icon.png "Do not disturb presence status") - Do not disturb
 
-  - ![Busy presence status](../../media/oceh/oceh-busy-icon.png "Busy presence status") - Busy
+  - ![Busy presence status](media/oceh/oceh-busy-icon.png "Busy presence status") - Busy
 
-  - ![Available presence status](../../media/oceh/oceh-available-icon.png "Available presence status") - Available
+  - ![Available presence status](media/oceh/oceh-available-icon.png "Available presence status") - Available
   
-  - ![Inactive presence status](../../media/oceh/oceh-appear-away-icon.png "Appear away presence status") - Inactive
+  - ![Inactive presence status](media/oceh/oceh-appear-away-icon.png "Appear away presence status") - Inactive
   
 If you can't see your presence, make sure that cookies are not blocked in your browser in any mode.
  
@@ -50,7 +50,7 @@ Presence status is updated in two ways:
    Also, you may see any other additional presence statuses that your administrator configured for you.
 
   > [!div class=mx-imgBorder]
-  > ![Agent presence status](../../media/oceh/oceh-presence.png "Agent presence status")
+  > ![Agent presence status](media/oceh/oceh-presence.png "Agent presence status")
 
 - **Automatically** - The status is set automatically based on the work item assignment. That is, when a conversation (work item) is assigned to you, the status is updated based on the capacity.
 

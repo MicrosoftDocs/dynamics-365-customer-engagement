@@ -25,7 +25,7 @@ Use the **Omnichannel Ongoing Conversations** dashboard to access the Monitor an
 The following screenshot is an example of Omnichannel Ongoing Conversations:
 
 > [!div class=mx-imgBorder]
-> ![Omnichannel Ongoing Conversations dashboard example](../media/supervisor-ongoing-conversations-dashboard.png "Omnichannel Ongoing Conversations dashboard example")
+> ![Omnichannel Ongoing Conversations dashboard example](media/supervisor-ongoing-conversations-dashboard.png "Omnichannel Ongoing Conversations dashboard example")
 
 ## Things you must know
 
@@ -52,14 +52,14 @@ By joining the conversation, you provide necessary inputs to both agent and cust
 3. Choose a conversation to monitor and select **Monitor** on the top-right corner.
 
     > [!div class=mx-imgBorder]
-    > ![Select Monitor option](../media/supervisor-select-monitor-conversation.png "Select Monitor option")
+    > ![Select Monitor option](media/supervisor-select-monitor-conversation.png "Select Monitor option")
 
     The conversation page opens.
 
 4. You can choose to join a conversation as required. Select **Join chat** in the communication panel.
 
     > [!div class=mx-imgBorder]
-    > ![Select Join chat](../media/supervisor-select-join-chat.png "Select Join chat")
+    > ![Select Join chat](media/supervisor-select-join-chat.png "Select Join chat")
 
     When you join the conversation, a notification will be sent to both agent and customer stating that you have joined as a consultant. Depending on your requirement, you can start a consultation with the agent and customer by using a messaging mode (public or internal). By default, the messaging mode is internal.
 
@@ -75,11 +75,11 @@ At times, you may need to manually assign a conversation. In such cases, the con
 
     The list of available agents and their capacities, as well as queues, is displayed.
     > [!div class=mx-imgBorder]
-    > ![Select Assign option](../media/assign-agents-conversations.png "Select Assign option")
+    > ![Select Assign option](media/assign-agents-conversations.png "Select Assign option")
 
 3. Choose a conversation in an **Open** state, and select **Assign** on the top-right corner.
     > [!div class=mx-imgBorder]
-    > ![Select agent or queue option](../media/assign-agent-queue.png "Select either agent or queue option")
+    > ![Select agent or queue option](media/assign-agent-queue.png "Select either agent or queue option")
 
 4. On the **Assign conversations** dialog box, choose one of the following options:
 

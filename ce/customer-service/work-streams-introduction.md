@@ -33,7 +33,7 @@ Perform the following steps to create a work stream in Omnichannel for Customer 
     The **Active Work Streams** view is displayed. 
 
     > [!div class=mx-imgBorder] 
-    > ![Omnichannel work streams](../media/oc-workstream-view.png)
+    > ![Omnichannel work streams](media/oc-workstream-view.png)
 
 2. On the command bar, select **New** to create a work stream.
 
@@ -72,7 +72,7 @@ Perform the following steps to create a work stream in Omnichannel for Customer 
       1. In **Allowed Presences**, select a base presence, such as "Available" and "Busy" from the list. You can select all options also. Agents will be allocated work items even if the agent presence is set to one of the statuses specified here. If you have enabled [missed notifications](manage-missed-notifications.md), do not select "Away" as an allowed presence. For information, see [Configure and manage custom presence](presence-custom-presence.md).
 
           > [!div class=mx-imgBorder] 
-          > ![New work stream](../media/omni-channel-new-work-stream.png)
+          > ![New work stream](media/omni-channel-new-work-stream.png)
 
       2. If you have selected **Push** in **Work distribution mode**, set the toggle to **Yes** for **Enable selecting from push-based work streams**. The agents can assign work items to themselves irrespective of constraints, such as capacity and presence.
       3. If you want an ongoing conversation to be assigned to the same agent when the conversation status changes from waiting to active, make sure the **Enable Agent Affinity** is set to yes. By default, the toggle is enabled for SMS and social channels.
@@ -88,7 +88,7 @@ Perform the following steps to create a work stream in Omnichannel for Customer 
 
 
       > [!div class=mx-imgBorder] 
-      > ![New context variable](../media/context-variable.png)
+      > ![New context variable](media/context-variable.png)
 
 5. Define routing rule items in the **Routing rule items** tab. Routing rule items are configured for each work stream, so that conversations can be routed to the correct queues. To learn how to configure a routing rule, see [Create and manage routing rules in Omnichannel](routing-rules.md).
 

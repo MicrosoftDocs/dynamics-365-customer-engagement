@@ -26,12 +26,12 @@ You can set the productivity pane in collapsed mode or expanded mode, as shown i
 **Collapsed mode**
 
 > [!div class='mx-imgBorder']
-> ![Productivity pane](../media/productivity-pane-collapsed.PNG "Productivity pane in collapsed mode")
+> ![Productivity pane](media/productivity-pane-collapsed.PNG "Productivity pane in collapsed mode")
 
 **Expanded mode**
 
 > [!div class='mx-imgBorder']
-> ![Productivity pane](../media/productivity-pane-expanded.PNG "Productivity pane in expanded mode")
+> ![Productivity pane](media/productivity-pane-expanded.PNG "Productivity pane in expanded mode")
 
 ### See also
 

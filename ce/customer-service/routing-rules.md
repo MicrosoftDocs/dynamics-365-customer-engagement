@@ -20,7 +20,7 @@ Routing rules define how conversations are routed to different queues. Each rout
 A single work stream can have multiple routing rules that are evaluated in the order of definition. For example, if a work stream called **Chat** contains 5 routing rules, an incoming chat conversation will be evaluated against all the 5 routing rules in the defined order. While you can define as many rules as your business requires, the application processes only the first 100 rules.
 
 > [!div class=mx-imgBorder] 
-> ![Routing rules](../media/oc-routing-rules.png)
+> ![Routing rules](media/oc-routing-rules.png)
 
 Routing rules are evaluated from top to bottom. If a rule condition is evaluated as **True**, the chat gets routed to the destination queue and skips further evaluation. If a rule condition is evaluated as **False**, further rules are evaluated. 
 
@@ -49,11 +49,11 @@ To create a routing rule, select a work stream by navigating to **Work Distribut
     For an entity, you can define rules based on related level 1 attributes.
 
     > [!div class=mx-imgBorder]
-    > ![related entity](../media/related-entity-rule-condition.png)
+    > ![related entity](media/related-entity-rule-condition.png)
 2. Select **Save**.
 
       > [!div class=mx-imgBorder]
-      > ![Configured rule](../media/configured-rule.png)
+      > ![Configured rule](media/configured-rule.png)
 
 ### See also
 

@@ -22,13 +22,13 @@ Sentiment intensity indicators are displayed based on the previous six customer 
 
 | Sentiment | Icon |
 |--------------------------|---------------------------------------------------|
-| Very positive | ![Very positive sentiment](../media/oceh/sentiment-very-positive.png "Very positive sentiment") |
-| Positive | ![Positive sentiment](../media//oceh/sentiment-positive.png "Positive sentiment") |
-| Slightly positive | ![Slightly positive sentiment](../media/oceh/sentiment-slightly-positive.png "Slightly positive sentiment") |
-| Neutral | ![Neutral sentiment](../media/oceh/sentiment-neutral.png "Neutral sentiment") |
-| Slightly negative | ![Slightly negative sentiment](../media/oceh/sentiment-slightly-negative.png "Slightly negative sentiment") |
-| Negative | ![Negative sentiment](../media/oceh/sentiment-negative.png " Negative sentiment") |
-| Very negative | ![Very negative sentiment](../media/oceh/sentiment-very-negative.png "Very negative sentiment") |
+| Very positive | ![Very positive sentiment](media/oceh/sentiment-very-positive.png "Very positive sentiment") |
+| Positive | ![Positive sentiment](media//oceh/sentiment-positive.png "Positive sentiment") |
+| Slightly positive | ![Slightly positive sentiment](media/oceh/sentiment-slightly-positive.png "Slightly positive sentiment") |
+| Neutral | ![Neutral sentiment](media/oceh/sentiment-neutral.png "Neutral sentiment") |
+| Slightly negative | ![Slightly negative sentiment](media/oceh/sentiment-slightly-negative.png "Slightly negative sentiment") |
+| Negative | ![Negative sentiment](media/oceh/sentiment-negative.png " Negative sentiment") |
+| Very negative | ![Very negative sentiment](media/oceh/sentiment-very-negative.png "Very negative sentiment") |
 
 Omnichannel for Customer Service sentiment analysis supports multiple languages. Using Microsoft Azure Text Translator API, conversations in more than 40 languages now receive sentiment scores.
 
@@ -80,7 +80,7 @@ Omnichannel for Customer Service sentiment intensity indicators are an automatic
     Sentiment intensity indicators at the top of the communication panel help you understand the customer’s sentiment.
 
     > [!div class=mx-imgBorder]
-    > ![Sentiment display](../media/oc-sentiment-sentiment-display.png "Sentiment display")
+    > ![Sentiment display](media/oc-sentiment-sentiment-display.png "Sentiment display")
 
 - For supervisors:
 
@@ -89,7 +89,7 @@ Omnichannel for Customer Service sentiment intensity indicators are an automatic
     - Using sentiment intensity indicators on the Omnichannel Ongoing Conversations dashboard allows you to easily identify ongoing customer support chat sessions that aren't going well.
 
     > [!div class=mx-imgBorder]
-    > ![Sentiment conversation display](../media/oc-sentiment-conversation-dashboard.png "Sentiment conversation display")
+    > ![Sentiment conversation display](media/oc-sentiment-conversation-dashboard.png "Sentiment conversation display")
 
 ## Low sentiment notification alert
 
@@ -103,7 +103,7 @@ While an agent is communicating with the customer, and if the customer's sentime
 
 
     > [!div class=mx-imgBorder]
-    > ![Sentiment notification](../media/sentiment-notification.png "Sentiment notification")
+    > ![Sentiment notification](media/sentiment-notification.png "Sentiment notification")
 
 You can select the **Monitor** button to see the customer summary and the communication panel. If the agent requires help, you can join the conversation.
 

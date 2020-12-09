@@ -31,17 +31,17 @@ To create a message template:
 6. Enter a description.
 
     > [!div class=mx-imgBorder]
-    > ![Create a new message template](../media/message-template.png "Create a new message template")
+    > ![Create a new message template](media/message-template.png "Create a new message template")
 
 7. Click **Save**. After saving the template, the **Message template** panel appears. 
 
     > [!div class=mx-imgBorder]
-    > ![Create a new message](../media/message-template2.png "Create a new message")
+    > ![Create a new message](media/message-template2.png "Create a new message")
 
 8. Click **New message** and create a message using localized text in each language you want to support.
 
     > [!div class=mx-imgBorder]
-    > ![Create localized text of new message](../media/message-template3.png "Create localized text of new message")
+    > ![Create localized text of new message](media/message-template3.png "Create localized text of new message")
     
     Message templates support the following slugs.  
 

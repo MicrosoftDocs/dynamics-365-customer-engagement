@@ -21,7 +21,7 @@ The Omnichannel Agent Dashboard is a default view when you sign in to the applic
 
 - Closed work items
 
- ![Agent dashboard of Omnichannel for Customer Service app](../../media/oceh-oc-mydashboard.png "Agent dashboard of Omnichannel for Customer Service app")
+ ![Agent dashboard of Omnichannel for Customer Service app](media/oceh-oc-mydashboard.png "Agent dashboard of Omnichannel for Customer Service app")
 
 ## My work items
 

@@ -40,7 +40,7 @@ The Dynamics 365 Productivity Tools app contains the following functionality to 
 - [Smart assist](#smart-assist)
 
     > [!div class=mx-imgBorder] 
-    > ![Productivity Tools](../media/productivity-tools.png "Productivity Tools")
+    > ![Productivity Tools](media/productivity-tools.png "Productivity Tools")
 
 ### Macros
 
@@ -61,7 +61,7 @@ The smart assist feature can be enabled across all channels like Chat for Dynami
 The productivity pane, when enabled, displays the agent guidance control that shows the agent scripts, smart-assist cards, and knowledge search.
 
 > [!div class='mx-imgBorder']
-> ![Productivity pane](../media/productivity-pane-expanded.PNG "Productivity pane in expanded mode")
+> ![Productivity pane](media/productivity-pane-expanded.PNG "Productivity pane in expanded mode")
 
 To learn more, see [Enable the productivity pane to provide guidance to agents](productivity-pane.md).
 

@@ -31,7 +31,7 @@ The **Conversations insights** section provides insights on conversation request
 The following screenshot is an example of the **Conversations insights** section.
 
 > [!div class=mx-imgBorder]
-> ![Conversations insights dashboard](../media/supervisor-conversations-insights-dashboard.png "Conversations insights dashboard")
+> ![Conversations insights dashboard](media/supervisor-conversations-insights-dashboard.png "Conversations insights dashboard")
 
 This section of the dashboard consists of the following KPIs.
 
@@ -52,7 +52,7 @@ The **Agent insights** section provides information on the latest KPIs, the heal
 An example of the **Agent insights** section is as follows.
 
 > [!div class=mx-imgBorder]
-> ![Agent insights dashboard](../media/supervisor-agent-insights-dashboard.png "Agent insights dashboard")
+> ![Agent insights dashboard](media/supervisor-agent-insights-dashboard.png "Agent insights dashboard")
 
 This section of the dashboard consists of the following KPIs.
 
@@ -76,7 +76,7 @@ You can view specific insights about the performance of individual or groups of 
 The following screen shows an example of the specific queue for a group of agents.
  
 > [!div class=mx-imgBorder]
-> ![Agent queue](../media/agent-queue-details.png "Agent queue")
+> ![Agent queue](media/agent-queue-details.png "Agent queue")
 
 The **Agents insights** dashboard displays the following KPIs.
 
@@ -94,7 +94,7 @@ You can filter on a specific queue or set of queues to view more specific inform
 The following screen shows the options for viewing agent information in a specific set of queues.
 
 > [!div class=mx-imgBorder]
-> ![View agent information](../media/view-agent-info-queues.png "View agent information")
+> ![View agent information](media/view-agent-info-queues.png "View agent information")
 
 The table in the **Agents insights** dashboard displays the following information.
 
@@ -111,12 +111,12 @@ The table in the **Agents insights** dashboard displays the following informatio
 You can also view specific details about an agent by right-clicking the agent's name, and then selecting **Drill through** > **Agent details**, as shown on the following screen.
 
 > [!div class=mx-imgBorder]
-> ![Access agent's specific details](../media/intraday-agent-drill-through.png "Access specific details for an agent")
+> ![Access agent's specific details](media/intraday-agent-drill-through.png "Access specific details for an agent")
 
 The agent's details are displayed, as shown on the following screen.
 
 > [!div class=mx-imgBorder]
-> ![View agent's specific details](../media/view-agent-details.png "View agent's specific details")
+> ![View agent's specific details](media/view-agent-details.png "View agent's specific details")
 
 This section of the dashboard consists of the following details:
 
@@ -151,7 +151,7 @@ This section of the dashboard consists of the following details:
 You can filter the information by selecting the Queues that are custom defined for your organization. To view the queues, from the **Omnichannel queues** dropdown, select the queues as required and the information is filtered according to your selection. This helps you in quickly analyzing the KPIs and take necessary steps to improve outcomes.
  
 > [!div class=mx-imgBorder]
-> ![Queue selection](../media/supervisor-queue-selector.png "Queue selection")
+> ![Queue selection](media/supervisor-queue-selector.png "Queue selection")
 
 ## Average handle time
 

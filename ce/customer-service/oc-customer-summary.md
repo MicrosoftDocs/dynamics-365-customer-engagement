@@ -28,7 +28,7 @@ Having this information ready can help support agents reduce the hold time that 
 - Timeline
 
 > [!div class='mx-imgBorder']
-> ![View Customer summary](../../media/customer-summary.png "View the Customer summary page")
+> ![View Customer summary](media/customer-summary.png "View the Customer summary page")
 
 ## Customer (Contact or Account)
 
@@ -37,7 +37,7 @@ This section provides details like the contact name or account name. For a conta
 Use the customer section to search for an existing contact or account record in Omnichannel for Customer Service, and select the record to link it to the conversation. If the record doesn't exist, you can create a new contact or account record by using the **+ Add Contact** or **+ Add Account** button, respectively. After you create it, search for the record and then select it to link it to the conversation.
 
 > [!div class='mx-imgBorder']
-> ![Customer profile section in the customer summary form](../../media/customer-summary-customer-form.PNG "Customer profile section of the Customer summary page")
+> ![Customer profile section in the customer summary form](media/customer-summary-customer-form.PNG "Customer profile section of the Customer summary page")
 
 ## Conversation summary
 
@@ -51,7 +51,7 @@ The **Conversation summary** section provides detailed information about the con
 
 
   > [!div class='mx-imgBorder']
-  > ![Conversation details](../../media/conversation-details.png "Conversation-details")
+  > ![Conversation details](media/conversation-details.png "Conversation-details")
  
 In addition, the **Conversation summary** section includes several tabs:
 
@@ -86,7 +86,7 @@ The **Visitor details** tab provides information such as whether the customer is
 
 If the customer has signed in to the portal to initiate the chat with a support agent, the **Authenticated** field value is **Yes**; otherwise, the **Authenticated** field value is **No**.
 
-![Authenticated chat shown as Yes on the Visitor details tab](../../media/conversation-summary-authenticated-chat.PNG "Authenticated chat shown as Yes on the Visitor details tab") ![Unauthenticated chat shown as No on the Visitor details tab](../../media/conversation-summary-unauthenticated-chat.PNG "Unauthenticated chat shown as No on the Visitor details tab")
+![Authenticated chat shown as Yes on the Visitor details tab](media/conversation-summary-authenticated-chat.PNG "Authenticated chat shown as Yes on the Visitor details tab") ![Unauthenticated chat shown as No on the Visitor details tab](media/conversation-summary-unauthenticated-chat.PNG "Unauthenticated chat shown as No on the Visitor details tab")
 
 To learn more, see [Create chat authentication settings](../../administrator/create-chat-auth-settings.md).
 
@@ -101,14 +101,14 @@ To learn more, see [setContextProvider](../../developer/reference/methods/setCon
 Use the **Case** section to search for an existing case in Omnichannel for Customer Service, and select the case to link it to the conversation. If the record doesn't exist, you can create a new case by using the **+ Add Case** button. After you create it, search for the record and then select it to link it to the conversation.
 
 > [!div class='mx-imgBorder']
-> ![Case section in the customer summary form](../../media/customer-summary-issue-snapshot.PNG "Case section on the Customer summary page")
+> ![Case section in the customer summary form](media/customer-summary-issue-snapshot.PNG "Case section on the Customer summary page")
 
 ## Recent cases
 
 This section displays recent cases related to the customer.
 
 > [!div class='mx-imgBorder']
-> ![Recent cases section in the customer summary form](../../media/customer-summary-recent-cases.png "Recent cases section on the Customer summary page")
+> ![Recent cases section in the customer summary form](media/customer-summary-recent-cases.png "Recent cases section on the Customer summary page")
 
 ## Timeline
 
@@ -117,7 +117,7 @@ This section displays case-related and customer-related activities in the form o
 The **Linked records** field shows the record that's linked to the conversation. For example, if you link a contact and case to the conversation, the **Linked records** drop-down list shows **Contact** and **Case**, respectively.
 
 > [!div class='mx-imgBorder']
-> ![View only the linked records in the drop-down](../../media/oceh/customer-summary-linked-records.PNG "View only the linked records in the drop-down list")
+> ![View only the linked records in the drop-down](media/oceh/customer-summary-linked-records.PNG "View only the linked records in the drop-down list")
 
 ### See also
 

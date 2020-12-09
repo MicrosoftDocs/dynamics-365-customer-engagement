@@ -27,7 +27,7 @@ You can view a list of all agent and customer-facing automated messages in your 
 2. Go to **Settings**, and select **Automated messages** to display a list of all the automated messages.
 
     > [!div class=mx-imgBorder]
-    > ![Display all automated messages](../media/automated-messages-list.png "Display all automated messages")
+    > ![Display all automated messages](media/automated-messages-list.png "Display all automated messages")
     
 3. Select one or more of the records to edit the language code and text. If you want to deactivate the messages, select the **Deactivate** button.
 
@@ -40,7 +40,7 @@ You can customize messages across instances within a channel. For example, you c
 2. Edit the message text, and select **Save**.
 
     > [!div class=mx-imgBorder]
-    > ![Configure automated messages at channel level](../media/automated-messages-general.png "Configure automated messages at channel level")
+    > ![Configure automated messages at channel level](media/automated-messages-general.png "Configure automated messages at channel level")
 
 ## Customize automated messages at the channel instance level
 
@@ -51,20 +51,20 @@ You can customize automated messages at the channel instance level. For example,
 3. Select the **Automated messages** tab, and select **New message**.
 
     > [!div class=mx-imgBorder]
-    > ![Configure automated messages](../media/automated-messages.png "Configure automated messages")
+    > ![Configure automated messages](media/automated-messages.png "Configure automated messages")
 
 4. Enter the name of your message, select the message trigger, and then type your message. The **Language Code** field is determined by the language set in the **General settings** tab of the channel instance and cannot be modified. The **Message Trigger** field contains the system events that prompt an automated message to be sent.
 5. Select **Save**.
 
     > [!div class=mx-imgBorder]
-    > ![Create automated messages](../media/automated-messages-create.png "Create automated messages")
+    > ![Create automated messages](media/automated-messages-create.png "Create automated messages")
     
     The message is added to the list of channel instance-specific messages. To create localized versions of the message, repeat the steps for each language required. 
 
 To deactivate messages at the channel instance level, select one or more messages, and select the **Deactivate** button.
 
 > [!div class=mx-imgBorder]
-> ![Deactivate automated messages](../media/automated-messages-deactivate.png "Deactivate automated messages")
+> ![Deactivate automated messages](media/automated-messages-deactivate.png "Deactivate automated messages")
 
 ## Preconfigured automated message triggers
 

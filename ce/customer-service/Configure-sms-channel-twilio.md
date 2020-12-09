@@ -60,7 +60,7 @@ Perform the following steps to create a work stream for the SMS channel for Twil
 5. In **Work distribution**, specify the necessary details. More information: [Create a work stream](work-streams-introduction.md#create-a-work-stream)
 
    > [!div class=mx-imgBorder]
-   > ![Works stream settings for Twilio](../media/sms-twilio.png "Work stream settings for Twilio")
+   > ![Works stream settings for Twilio](media/sms-twilio.png "Work stream settings for Twilio")
 
 6. On the **SMS Settings** tab, enter the following details:
 
@@ -71,7 +71,7 @@ Perform the following steps to create a work stream for the SMS channel for Twil
 7. Select **Save**. The **Twilio inbound URL** is generated and displayed.
 
    > [!div class=mx-imgBorder]
-   > ![SMS settings for Twilio](../media/sms-settings-twilio.png "SMS settings for Twilio")
+   > ![SMS settings for Twilio](media/sms-settings-twilio.png "SMS settings for Twilio")
 
 8. On the **SMS Numbers** tab, select **New SMS Number**, and then enter the following details:
 

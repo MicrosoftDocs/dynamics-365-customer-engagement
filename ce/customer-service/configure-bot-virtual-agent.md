@@ -45,17 +45,17 @@ After the Power Virtual Agents bot is created and configured to work with Omnich
 
 1. Connect the bot to Omnichannel for Customer Service and go to the Omnichannel Administration app. For more information, see [Configure seamless and contextual hand-off to Omnichannel for Customer Service](https://docs.microsoft.com/dynamics365/ai/customer-service-virtual-agent/configuration-hand-off-omnichannel).
 
-    ![Virtual Agent bot settings](../media/virtual-agent-bot-settings.png)
+    ![Virtual Agent bot settings](media/virtual-agent-bot-settings.png)
 
     The bot will appear in Omnichannel for Customer Service.
 
 2. Assign the bot to an existing queue.
 
-    ![Virtual Agent bot select queue](../media/virtual-agent-bot-select-queues.png)
+    ![Virtual Agent bot select queue](media/virtual-agent-bot-select-queues.png)
 
 3. Click **Done**. Now you're on the bot profile page and you can see that your bot is connected.
 
-    ![Virtual Agent bot profile page](../media/virtual-agent-bot-profile.png)
+    ![Virtual Agent bot profile page](media/virtual-agent-bot-profile.png)
 
     Your bot is ready to accept and respond to customer-initiated conversations.
 
@@ -71,24 +71,24 @@ For information about working with queues, see [Work with queues in Omnichannel 
 
 1. Select or create a work stream. For more information about work streams, see [Understand and create work streams](work-streams-introduction.md).
 
-![Virtual Agent work streams](../media/virtual-agent-work-streams.png)
+![Virtual Agent work streams](media/virtual-agent-work-streams.png)
 
 2. Create context variables.
 
 You must use the context variables that were created during setup for the bot to handle the customer queries appropriately. The context variable is used in routing the incoming customer queries to the appropriate bots and agents. For information about context variables, see [Contextual variables available upon hand-off](https://docs.microsoft.com/dynamics365/ai/customer-service-virtual-agent/how-to-handoff#contextual-variables-available-upon-hand-off).
 
    > [!div class=mx-imgBorder]
-   > ![Virtual Agent work stream context variable](../media/virtual-agent-work-stream-context-variables.png "Virtual Agent work stream context variable")
+   > ![Virtual Agent work stream context variable](media/virtual-agent-work-stream-context-variables.png "Virtual Agent work stream context variable")
 
 3. Create a routing rule for the human agent and add it to the work stream.
 
     > [!div class=mx-imgBorder]
-    > ![Virtual Agent work stream routing rules](../media/virtual-agent-work-stream-routing-rule.png "Virtual Agent work stream routing rules")
+    > ![Virtual Agent work stream routing rules](media/virtual-agent-work-stream-routing-rule.png "Virtual Agent work stream routing rules")
 
 4. Create a routing rule for the virtual agent and add it to the work stream.
 
     > [!div class=mx-imgBorder]
-    > ![Virtual Agent work stream bot routing rules](../media/virtual-agent-work-stream-routing-rule-bot.png "Virtual Agent work stream bot routing rules")
+    > ![Virtual Agent work stream bot routing rules](media/virtual-agent-work-stream-routing-rule-bot.png "Virtual Agent work stream bot routing rules")
 
 Routing rules route the incoming customer queries to their respective queues. Each routing rule has a condition and a destination queue. If the condition is evaluated as true, the customer query is routed to the destination queue. For bots, the condition is built by using the context variable.
 
@@ -158,7 +158,7 @@ In Power Virtual Agents, do the following:
 4. Select **Add node**, choose the **Ask a question** action.
 5. Edit the **Identify** field, and in the **Choose information to identify** dialog box, select an option that will match the context variable data type. For information on the data type mapping, see the information in the table in [context variables](context-variables-for-bot.md).
 6. Edit **Save response as**, and in the **Variable Properties** dialog box, update the value for **Name** with the required Omnichannel for Customer Service context variable. Make sure **Bot (any topic can access)** and **External sources can set values** are selected.
-    > ![Configure context variable in a topic](../media/Configure-bot-context-variable.png "Configure context variable in a topic")
+    > ![Configure context variable in a topic](media/Configure-bot-context-variable.png "Configure context variable in a topic")
 
 7. Save and publish the changes.
 

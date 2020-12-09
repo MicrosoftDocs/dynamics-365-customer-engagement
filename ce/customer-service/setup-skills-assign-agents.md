@@ -38,7 +38,7 @@ As an administrator, to create skills, you need at least one skill type in the s
 8. Select **Publish** to publish the customization changes.
 
     > [!div class=mx-imgBorder] 
-    > ![Create skill type](../media/create-skill-type.png "Create skill type")
+    > ![Create skill type](media/create-skill-type.png "Create skill type")
 
 ### Create skills
 
@@ -95,7 +95,7 @@ To assign agents to a skill, you need to add the agents as bookable resource.
 7. Select **Save and Close** to save and add the user (agent) to the grid.
 
     > [!div class=mx-imgBorder] 
-    > ![Assign agents to skill](../media/assign-user-skill.png "Assign agents to skill")
+    > ![Assign agents to skill](media/assign-user-skill.png "Assign agents to skill")
 
 8. Repeat steps 4 through 7 to add more agents to the skill.
 

@@ -27,7 +27,7 @@ With the missed notifications feature, you can now choose to automatically set a
 4. Select **Save**.
 
 > [!div class=mx-imgBorder] 
-> ![Enable missed notifications](../media/enable-missed-notifications.png "Enable missed notifications")
+> ![Enable missed notifications](media/enable-missed-notifications.png "Enable missed notifications")
 
 ### See also
 

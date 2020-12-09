@@ -38,7 +38,7 @@ After you enable an entity for routing, you see the **Save & Route** in the enti
 6. Select **Route**. 
 
     > [!div class=mx-imgBorder] 
-    > ![Manual trigger](../media/manual-trigger.png "Manual trigger")
+    > ![Manual trigger](media/manual-trigger.png "Manual trigger")
 
 The entity record will be routed based on the active routing rule set.
 
@@ -47,7 +47,7 @@ The entity record will be routed based on the active routing rule set.
 Ensure that your users have the below-mentioned permissions for Routing Rule Instance entity, to trigger routing of entity records using the **Save & Route** or **Apply Routing Rules** buttons.
 
    > [!div class="mx-imgBorder"]
-   > ![Provide privileges](../media/rr-privileges-csrm.png "Provide privileges")
+   > ![Provide privileges](media/rr-privileges-csrm.png "Provide privileges")
 
 ## Automatic trigger
 
@@ -68,7 +68,7 @@ To enable automatic trigger to route the entity records, create a custom Flow.
 6. Type **When a record is created, updated or deleted** in the search box, and select it from the list. **When a record is created, updated or deleted** is the trigger condition step. 
 
     > [!div class=mx-imgBorder] 
-    > ![Select Dataverse and When a record is created, updated or deleted trigger](../media/route-trigger1.png "Select Dataverse and When a record is created, updated or deleted trigger")
+    > ![Select Dataverse and When a record is created, updated or deleted trigger](media/route-trigger1.png "Select Dataverse and When a record is created, updated or deleted trigger")
 
 7. Specify the following in the **When a record is created, updated or deleted** trigger.
 
@@ -79,14 +79,14 @@ To enable automatic trigger to route the entity records, create a custom Flow.
     | Scope | Specify where this trigger must be applied. | Organization |
 
     > [!div class=mx-imgBorder] 
-    > ![Specify the trigger condition](../media/route-trigger2.png "Specify the trigger condition")
+    > ![Specify the trigger condition](media/route-trigger2.png "Specify the trigger condition")
 
 8. Select **+ New step**. The **Choose an action** step appears.
 
 9. Type **Perform an unbound action** in the search box, and select the action from the list. The **Perform an unbound action** step appears.
 
     > [!div class=mx-imgBorder] 
-    > ![Select Perform an unbound action](../media/route-trigger3.png "Select Perform an unbound action")
+    > ![Select Perform an unbound action](media/route-trigger3.png "Select Perform an unbound action")
 
 10. Type **msdyn_ApplyRoutingRuleEntityRecord** in the **Action Name** field.
 
@@ -103,7 +103,7 @@ To enable automatic trigger to route the entity records, create a custom Flow.
     > Here, `leads` is the entity collection name.
     
     > [!div class=mx-imgBorder] 
-    > ![Select Perform an unbound action](../media/route-trigger4.png "Select Perform an unbound action")
+    > ![Select Perform an unbound action](media/route-trigger4.png "Select Perform an unbound action")
 
 
 12. Select **Save** to save the Flow.

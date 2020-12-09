@@ -73,17 +73,17 @@ If you create or edit an entity record workstream, you must update **Entity rec
 5. Select **Solutions** in the sitemap, and then select **Default Solution** from the list.
 
     > [!div class=mx-imgBorder] 
-    > ![Select default solution](../media/case-work-distribution-flow1.png "Select default solution")
+    > ![Select default solution](media/case-work-distribution-flow1.png "Select default solution")
 
 6. Select the **All** button in the menu and select **Flow** to filter the flows.
 
     > [!div class=mx-imgBorder] 
-    > ![Select the All button and filter flow](../media/case-work-distribution-flow2.png "Filter flow")
+    > ![Select the All button and filter flow](media/case-work-distribution-flow2.png "Filter flow")
 
 7. Select **Entity Record Distribution Flow** from the list.
 
     > [!div class=mx-imgBorder] 
-    > ![Select Cases Work Distribution Flow](../media/case-work-distribution-flow3.png "Select Cases Work Distribution Flow")
+    > ![Select Cases Work Distribution Flow](media/case-work-distribution-flow3.png "Select Cases Work Distribution Flow")
 
 8. Select the **Edit** button from the command bar at the top. The flow appears in a new tab.
 
@@ -91,7 +91,7 @@ If you create or edit an entity record workstream, you must update **Entity rec
 
 9. Select the flow component that shows the warning icon. Select an existing connection to resolve the warning. The flow component uses the current user credentials and resolves the warning.
 
-    ![Resolve flow warning](../media/flow-error1.png "Resolve flow warning")
+    ![Resolve flow warning](media/flow-error1.png "Resolve flow warning")
 
 #### Update the workstream Id
 
@@ -102,7 +102,7 @@ If you create or edit an entity record workstream, you must update **Entity rec
 12. Select the **Work Stream Selection for Routing** section.
 
     > [!div class=mx-imgBorder] 
-    > ![Select workstream](../media/case-work-distribution-flow5.png "Select workstream")
+    > ![Select workstream](media/case-work-distribution-flow5.png "Select workstream")
 
 13. Remove the **Select Default Work Stream - \<Entity Record\>** section by selecting the ellipses, and then by selecting **Delete**.
 
@@ -117,19 +117,19 @@ If you create or edit an entity record workstream, you must update **Entity rec
 16. Select the **Choose a value** box to add a rule. A flyout control appears. Type in the search box to look up the attributes of the Case record that is being routed. For example, **Priority**. The rule appears in the list, and when you select the rule, it is added to the field. 
 
     > [!div class=mx-imgBorder] 
-    > ![Add rule](../media/case-work-distribution-flow7.png "Add rule")
+    > ![Add rule](media/case-work-distribution-flow7.png "Add rule")
 
 17. Select a condition from the list. For example, **is equal to**.
 
 18. Type the rule value in the field. For example, **1**.
 
     > [!div class=mx-imgBorder] 
-    > ![Set condition and value](../media/case-work-distribution-flow8.png "Set condition and value")
+    > ![Set condition and value](media/case-work-distribution-flow8.png "Set condition and value")
 
 19. Select **Add an action** button under the **If yes** section. The **Choose an action** component appears. Now, type **Set Variable** in the **Search connectors and actions** box and the action appears in the list. Select it and the **Set Variable** action appears.
 
     > [!div class=mx-imgBorder] 
-    > ![Add Set Variable Action](../media/flow-select-variable.png "Add Set Variable Action")
+    > ![Add Set Variable Action](media/flow-select-variable.png "Add Set Variable Action")
 
 20. Select the **LiveWorkStreamId** from the Name drop-down list.
 
@@ -139,7 +139,7 @@ If you create or edit an entity record workstream, you must update **Entity rec
     > If you update the name of the workstream in Omnichannel Administration app, then you must perform step 21. Otherwise, the cases won't be automatically distributed to the agents.
 
     > [!div class=mx-imgBorder] 
-    > ![Set the If yes variable value](../media/case-work-distribution-flow9.png "Set variable value")
+    > ![Set the If yes variable value](media/case-work-distribution-flow9.png "Set variable value")
 
 22. Select **Add an action** button under the **If no** section. The **Choose an action** component appears. Now, type **Set Variable** in the **Search connectors and actions** box and the action appears in the list. Select it and the **Set Variable** action appears.
 
@@ -153,12 +153,12 @@ If you create or edit an entity record workstream, you must update **Entity rec
     > - Adding multiple workstreams in the conditions are optional. If your business process requires multiple workstream conditions, you can create it.
 
     > [!div class=mx-imgBorder] 
-    > ![Set the If no variable value](../media/case-work-distribution-flow10.png "Set variable value")
+    > ![Set the If no variable value](media/case-work-distribution-flow10.png "Set variable value")
 
 25. Select **Save** to save **Entity Record Distribution Flow**.
 
     > [!div class=mx-imgBorder] 
-    > ![Workstream selection](../media/case-work-distribution-flow11.png "Workstream selection")
+    > ![Workstream selection](media/case-work-distribution-flow11.png "Workstream selection")
 
 Now, you've defined **Entity Record Distribution Flow** such that any case whose priority is 1 (high) is distributed using high priority workstream, and other cases will be distributed using low priority workstream. Similarly, you can extend the conditions such that the Flow supports your business scenario requirements.
 

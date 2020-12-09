@@ -37,7 +37,7 @@ In Omnichannel for Customer Service, when you are engaged in a conversation with
 
 By default, the full text search displays 10 results and relevance search displays 50 results.
 
-![Knowledge tab in productivity pane](../../media/oc-productivity-knowledge-tab.png "Knowledge tab in productivity pane")
+![Knowledge tab in productivity pane](media/oc-productivity-knowledge-tab.png "Knowledge tab in productivity pane")
 
   |Label|Description|
   |-----|-----------|

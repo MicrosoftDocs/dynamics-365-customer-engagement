@@ -76,7 +76,7 @@ After completing the prerequisites, you can send outbound messages from your org
     Choose a **Message template** for the outbound message. Default message language and additional localized message versions are part of message template configuration. Defaults configured there will apply to outbound messages with no requested language configured.
     
     > [!div class=mx-imgBorder]
-    > ![Configure outbound messages](../media/outbound-configuration.png "Configure outbound messages")
+    > ![Configure outbound messages](media/outbound-configuration.png "Configure outbound messages")
     
 ## Step 3: Set up a Power Automate flow
 
@@ -107,12 +107,12 @@ To set up a Power Automate flow, complete the following steps.
 3. When you create a flow, you must add the action, incident_msdyn_ocoutboundmessages. This action enables outbound activity tracking and reporting in Omnichannel for Customer Service.
 
     > [!div class=mx-imgBorder]
-    > ![Outbound message flow initialize variable](../media/outbound-message-flow1.png "Outbound message flow initialize variable")
+    > ![Outbound message flow initialize variable](media/outbound-message-flow1.png "Outbound message flow initialize variable")
 
 4. Then, you must refer to it in the append variable step. In the example below, "entityrelationshipname" refers to the ActivityRelationship defined above.
 
     > [!div class=mx-imgBorder]
-    > ![Outbound message flow append variable](../media/outbound-message-flow2.png "Outbound message flow append variable")
+    > ![Outbound message flow append variable](media/outbound-message-flow2.png "Outbound message flow append variable")
    
     - You must define any slugs used in your outbound message here. You can define any Microsoft Dataverse entity to be used as a slug. Once defined they can be added to the message. Slugs not defined here will not resolve. Sample message based on above flow config: “Dear {CustomerName}, we have opened case {CaseName} for you to track your inquiry. Thank you!”
     - The message language is determined by the numerical locale id as set as “locale”: 1033, English-United States, in the example. To enable dynamic message languages, this variable must be replaced by a locale entity reference, such as preferred customer language, in contact information.
@@ -120,7 +120,7 @@ To set up a Power Automate flow, complete the following steps.
 5. You must also refer to the outbound message configuration ID from Omnichannel Administration app. This will reference the correct outbound configuration for a flow run.
     
     > [!div class=mx-imgBorder]
-    > ![Outbound message configuration ID](../media/outbound-message-flow-config.png "Outbound message configuration ID")
+    > ![Outbound message configuration ID](media/outbound-message-flow-config.png "Outbound message configuration ID")
 
 When the customer responds back to the outbound messages, the customer messages will be treated like any other incoming conversation that exists today in Omnichannel for Customer Service. The conversation will be routed and assigned to an agent, and the agent will be able to respond back to the customer.
 

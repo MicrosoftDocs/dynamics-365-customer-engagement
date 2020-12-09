@@ -73,7 +73,7 @@ You can set up surveys when configuring a channel or update an existing channel 
 9. Select **Save**.
 
     > [!div class=mx-imgBorder]
-    > ![Post-conversation survey](../media/oc-post-conversation-survey.png "Post-conversation survey")
+    > ![Post-conversation survey](media/oc-post-conversation-survey.png "Post-conversation survey")
 
 ## Runtime experience of post-conversation surveys
 

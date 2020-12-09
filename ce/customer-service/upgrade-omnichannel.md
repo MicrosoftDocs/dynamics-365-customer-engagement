@@ -30,7 +30,7 @@ Do the following steps to upgrade Omnichannel for Customer Service:
     When the upgrade process is completed successfully, your environment is upgraded to the latest version, and the message **Omnichannel for Customer Service upgrade was completed successfully** is displayed with the date.
 
    > [!div class=mx-imgBorder] 
-   > ![Upgrade complete](../media/upgrade-complete.png)
+   > ![Upgrade complete](media/upgrade-complete.png)
 
 ## Upgrade Omnichannel for Customer Service package on Unified Service Desk
 

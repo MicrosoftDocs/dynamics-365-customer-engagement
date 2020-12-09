@@ -21,12 +21,12 @@ Omnichannel for Customer Service is a customizable application you can effective
 2. Once the app is enabled, go to the apps page, navigate to the app switcher and then select **Omnichannel Administration**.
 
     > [!div class=mx-imgBorder] 
-    > ![App switcher](../media/app-switcher-oc.png)
+    > ![App switcher](media/app-switcher-oc.png)
 
 You can view the entities in the **Omnichannel Administration** site map.
 
   > [!div class=mx-imgBorder] 
-  > ![Omnichannel sitemap](../media/omni-channel-sitemap.png)
+  > ![Omnichannel sitemap](media/omni-channel-sitemap.png)
 
 ## In this section
 

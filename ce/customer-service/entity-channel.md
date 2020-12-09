@@ -65,7 +65,7 @@ Any entity you want to enable for routing needs to be enabled for activities and
 7. Select **Publish**.
 
 > [!Note]
-> If you enable the option - **Automatically move records to the owner's default queue when a record is created or assigned**, in the entity customization, then the entity record won't be automatically distributed to the agents. You must clear the checkbox to automatically distribute the entity records. <br><br> ![Automatic record movement to the agent's default queue](../media/route-owner-queue.png "Automatic record movement to the agent's default queue")
+> If you enable the option - **Automatically move records to the owner's default queue when a record is created or assigned**, in the entity customization, then the entity record won't be automatically distributed to the agents. You must clear the checkbox to automatically distribute the entity records. <br><br> ![Automatic record movement to the agent's default queue](media/route-owner-queue.png "Automatic record movement to the agent's default queue")
 
 ## Step 3: Enable entity for routing
 
@@ -104,12 +104,12 @@ Let's see how to create routing rule set and rule items for entity records. In t
 3. Select an entity records channel that you created for routing the records from the **Active Entities** view.
 
     > [!div class=mx-imgBorder] 
-    > ![Select a case workstream](../media/case-entity-channel1.png "Case workstream")
+    > ![Select a case workstream](media/case-entity-channel1.png "Case workstream")
 
 4. Select the **Routing Rules** tab in the entity records channel.
 
     > [!div class=mx-imgBorder] 
-    > ![Select the routing rule items tab](../media/case-routing-rule1.png "Routing rule items")
+    > ![Select the routing rule items tab](media/case-routing-rule1.png "Routing rule items")
 
 ### Create routing rule set
 
@@ -129,7 +129,7 @@ Let's see how to create routing rule set and rule items for entity records. In t
     | General | Description | This routing rule set is used for routing high priority cases to agents. | Specify a description for you to identify the purpose of the routing rule set. |
 
     > [!div class=mx-imgBorder] 
-    > ![Add New Rule Item](../media/case-ws-rr-entity.png "Add New Rule Item")
+    > ![Add New Rule Item](media/case-ws-rr-entity.png "Add New Rule Item")
 
 7. Select **Save** to save the rule set. Once you save the record, you can see the **Rule Items** section in the page.
 
@@ -140,7 +140,7 @@ Let's see how to create routing rule set and rule items for entity records. In t
 8. Select **+ New Rule Item** in the **Rule Items** section. A **New Rule Item** page appears. 
 
     > [!div class=mx-imgBorder] 
-    > ![Add New Rule Item](../media/case-ws-rr2.png "Add New Rule Item")
+    > ![Add New Rule Item](media/case-ws-rr2.png "Add New Rule Item")
 
 9. Specify the following on the **New Rule Item** page.
 
@@ -167,7 +167,7 @@ Let's see how to create routing rule set and rule items for entity records. In t
     The steps 9 to 11 indicate if the **Subject** of a case is **Credit card**, then route the case to the selected omnichannel queue.
 
     > [!div class=mx-imgBorder] 
-    > ![New Rule Item values](../media/case-ws-rr-rule-item2.png "New Rule Item values")
+    > ![New Rule Item values](media/case-ws-rr-rule-item2.png "New Rule Item values")
 
     > [!Note]
     > You must select an omnichannel queue for automatic work distribution in the **Add to Queue** field to automatically assign entity records to agents.

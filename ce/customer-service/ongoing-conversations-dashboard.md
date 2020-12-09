@@ -42,7 +42,7 @@ The **Omnichannel Ongoing Conversations** is available in:
     The **Omnichannel Ongoing Conversations** dashboard displays the list of conversations that you and agents are handling.
 
     > [!div class=mx-imgBorder]
-    > ![Ongoing Conversations dashboard in Unified service desk](../media/supervisor-usd-ongoing-conversations-dashboard.png "Ongoing Conversations dashboard in Unified service desk")
+    > ![Ongoing Conversations dashboard in Unified service desk](media/supervisor-usd-ongoing-conversations-dashboard.png "Ongoing Conversations dashboard in Unified service desk")
   
 
 ### Omnichannel for Customer Service
@@ -54,7 +54,7 @@ The **Omnichannel Ongoing Conversations** is available in:
     The Omnichannel Ongoing Conversations dashboard displays the list of conversations that you and agents are handling. 
 
     > [!div class=mx-imgBorder]
-    > ![Omnichannel Ongoing Conversations dashboard](../media/supervisor-ongoing-conversations-dashboard.png "Omnichannel Ongoing Conversations dashboard")
+    > ![Omnichannel Ongoing Conversations dashboard](media/supervisor-ongoing-conversations-dashboard.png "Omnichannel Ongoing Conversations dashboard")
 
 ### See also
 

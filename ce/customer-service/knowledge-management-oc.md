@@ -32,7 +32,7 @@ Follow these steps to enable knowledge article sharing:
 3. Select **Save**.
 
     > [!div class=mx-imgBorder]
-    > ![Omnichannel knowledge management](../media/oc-km.png)
+    > ![Omnichannel knowledge management](media/oc-km.png)
 
 To know more about how to configure the external portal in the **Customer Service Hub** app, see [Set up knowledge management (Customer Service Hub)](../../customer-service/set-up-knowledge-management-embedded-knowledge-search.md#set-up-knowledge-management-customer-service-hub).
 

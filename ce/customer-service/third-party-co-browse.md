@@ -30,7 +30,7 @@ Co-browse and screen sharing are enabled within Omnichannel Add-in for Dynamics 
 To enable third-party co-browse and screen sharing, the Omnichannel for Customer Service application has added an extensibility system to support this feature. In this system, a few entities have been added to the Omnichannel for Customer Service solution, and third-party co-browse and screen-sharing providers should use these entities to enable their co-browse and screen-sharing feature in the Omnichannel for Customer Service framework. The following graph explains the basic entity relationships that support the third-party co-browse and screen-sharing feature.
 
 > [!div class="mx-imgBorder"]
-> ![Entity relationships for co-browse feature](../../media/co-browse-entity-relationship.PNG "Entity relationships for co-browse feature")
+> ![Entity relationships for co-browse feature](media/co-browse-entity-relationship.PNG "Entity relationships for co-browse feature")
 
 Not all the above fields are required to be filled in for third-party co-browse and screen-sharing providers.  For version 1.0, ISVs are supported to bring their co-browse and screen-sharing feature into Omnichannel for Customer Service by enabling a button in the agent’s chat widget.  When a user selects this button, it opens an app tab within Omnichannel for Customer Service with the ISV's application website. To enable this button, ISVs need to bring the required data with their co-browse and screen-sharing solutions.
 
@@ -124,7 +124,7 @@ In the Parameters section, add the web resource URL and query parameters that 
 webresourcename: <URL path to the web resource>
 
 > [!div class="mx-imgBorder"]
-> ![Web resource for co-browse feature](../../media/web-resource-co-browse.PNG "Web resource for co-browse feature")
+> ![Web resource for co-browse feature](media/web-resource-co-browse.PNG "Web resource for co-browse feature")
 
 There will be a single URL parameter called `data` that will contain a JSON object. This object when decoded and parsed will contain the `conversationId` field. This ID can be used to attach any data back to a conversation.
 
@@ -150,10 +150,10 @@ We have created a new tab in Chat Widget called **Conversation Options**. Inside
 
 
 > [!div class="mx-imgBorder"]
-> ![Omnichannel administration for co-browse feature](../../media/co-browse-entity-relationship.PNG "Omnichannel administration for co-browse feature")
+> ![Omnichannel administration for co-browse feature](media/co-browse-entity-relationship.PNG "Omnichannel administration for co-browse feature")
 
 > [!div class="mx-imgBorder"]
-> ![No screen-sharing sessions installed for co-browse feature](../../media/no-screensharing-session-co-browse.PNG "No screen-sharing sessions installed for co-browse feature")
+> ![No screen-sharing sessions installed for co-browse feature](media/no-screensharing-session-co-browse.PNG "No screen-sharing sessions installed for co-browse feature")
 
 > [!NOTE]
 > The co-browse provider and screen-sharing provider are controlled separately.  You can install a co-browse provider by creating a co-browse channel capability record with required provider and conversation action data, the same as the screen-sharing provider.
@@ -161,7 +161,7 @@ We have created a new tab in Chat Widget called **Conversation Options**. Inside
 When the organization has been provisioned with both options—that is, when it has two different channel capabilities installed—the admin can choose which third-party co-browse provider to use.  Also, it’s the admin’s choice whether to disable or enable these options. Here is the screenshot for admin enabled both options and selected the both providers. 
 
 > [!div class="mx-imgBorder"]
-> ![Remote assistance for co-browse feature](../../media/remote-assistance-co-browse.PNG "Remote assistance for co-browse feature")
+> ![Remote assistance for co-browse feature](media/remote-assistance-co-browse.PNG "Remote assistance for co-browse feature")
 
 
 
@@ -172,7 +172,7 @@ When a co-browse and screen-sharing button is defined, it will be rendered at th
 
 
 > [!div class="mx-imgBorder"]
-> ![Screen-sharing button rendering in chat widget](../../media/chat-widget-co-browse.PNG "Screen-sharing button rendering in chat widget")
+> ![Screen-sharing button rendering in chat widget](media/chat-widget-co-browse.PNG "Screen-sharing button rendering in chat widget")
 
 ## Omnichannel session services and data flow for third-party co-browse and screen sharing
 
@@ -183,7 +183,7 @@ After the third-party applications take over, all data will be handled by a thir
 
 
 > [!div class="mx-imgBorder"]
-> ![Data flow for co-browse](../../media/data-flow-co-browse.PNG "Data flow for co-browse")
+> ![Data flow for co-browse](media/data-flow-co-browse.PNG "Data flow for co-browse")
 
 Some important events, such as starting or ending session events, should be reported to the Omnichannel service, so the overall service knows the status of the current agent. We provide third-party providers with this framework. It is the third-party providers’ responsibility to implement it in their codebase. The next section provides details on how to implement it. 
 

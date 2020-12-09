@@ -120,14 +120,14 @@ To attach skills, you need a workstream record. You can either create or use an 
 11. Select a skill from the lookup menu, and select a proficiency level from the list, and then select **Save and Close** to save and add the skill to the grid.
 
     > [!div class=mx-imgBorder] 
-    > ![Attach skill to a conversation](../media/attach-skill1.png "Attach skill")
+    > ![Attach skill to a conversation](media/attach-skill1.png "Attach skill")
 
     If the condition (criteria) matches, then the omnichannel system attaches the skill.
 
 12. Select **Save**. After you save, the rule appears in the **Attachment Rules** section of the workstream.
 
     > [!div class=mx-imgBorder] 
-    > ![Add skill rule to workstream](../media/attach-skill2.png "Add skill rule to workstream")
+    > ![Add skill rule to workstream](media/attach-skill2.png "Add skill rule to workstream")
 
 ### See also
 

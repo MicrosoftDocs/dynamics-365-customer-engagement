@@ -59,7 +59,7 @@ You can enable the reconnection options in the chat widget either while setting 
    - **Redirection URL:** Optionally, specify the link that the customer will be redirected to when the reconnect timeout occurs. If this is left blank, the customer will see the option to start a new chat conversation.
 
     > [!div class=mx-imgBorder]
-    > ![Configure reconnection to a previous chat session](../media/reconnect-chat.png "Configure reconnection to a previous chat session")
+    > ![Configure reconnection to a previous chat session](media/reconnect-chat.png "Configure reconnection to a previous chat session")
 
 4. Select **Save**.
 
