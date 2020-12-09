@@ -82,7 +82,7 @@ manager: kvivek
   - Visual Studio 2017.
   - Visual Studio 2015.
   
-- [!INCLUDE[pn_sql_server_data_tools_SSDT](../includes/pn-sql-server-data-tools-ssdt.md)]. SSDT is available with Visual Studio 2019 and Visual Studio 2017. More information: 
+- [!INCLUDE[pn_sql_server_data_tools_SSDT](../includes/pn-sql-server-data-tools-ssdt.md)]. SSDT is available with Visual Studio. More information: 
   - [Install SSDT with Visual Studio 2019](/sql/ssdt/download-sql-server-data-tools-ssdt?view=sql-server-ver15#install-ssdt-with-visual-studio-2019).
   - [Install SSDT with Visual Studio 2017](/sql/ssdt/download-sql-server-data-tools-ssdt?view=sql-server-ver15#install-ssdt-with-visual-studio-2017).
   - [Install SSDT with Visual Studio 2015](/sql/ssdt/previous-releases-of-sql-server-data-tools-ssdt-and-ssdt-bi?view=sql-server-ver15#ssdt-for-visual-studio-vs-2015)
