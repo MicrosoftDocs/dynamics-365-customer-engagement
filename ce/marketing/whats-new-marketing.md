@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 11/04/2020
+ms.date: 12/08/2020
 ms.service: dynamics-365-marketing
 ms.custom:
   - dyn365-marketing
@@ -35,7 +35,7 @@ The Dynamics 365 Marketing December 2020 update includes improvements to event r
 
 | App              | GA release      |
 |------------------|-----------------|
-| Marketing        | 1.35.10067.1044 |
+| Marketing        | 1.35.10068.1056 |
 
 > [!Tip]
 > To check your current version number, refer to [Find out which version of Dynamics 365 Marketing you are running](https://docs.microsoft.com/dynamics365/marketing/apply-updates#find-out-which-version-of-dynamics-365-marketing-you-are-running).
@@ -56,22 +56,45 @@ The Dynamics 365 Marketing December 2020 update includes improvements to event r
 - **Customer journeys**
     - Fixed an issue that occasionally caused the customer journey designer to render an empty source tile even when a source was set.
     - Resolved an error resulted in contacts being sent down a **No** path from an **If/then** activity, even when the form-related prerequisite was met.
+    - Improved date functionality in **Wait until** and **Send an email** tiles.
+    - Resolved an issue that caused **Static segment** and **Compound segment** to incorrectly appear as options for the customer journey **Quick Create: Segment** functionality.
 - **Data services**
-    - 
+    - Updated the documentation to reflect the current GDPR consent change record UI.
 - **Event management**
-    - 
+    - Resolved an error that prevented events from being saved when the event name was more than 120 characters.
+    - Fixed an error that caused an event thank you page to be shown for a few seconds before redirecting to the URL in the event form.
+    - Fixed an issue that caused "You have enabled demo payment confirmation..." to display as an error instead of a warning.
 - **First run experience**
-    - 
-- **Framework**
-    - 
-- **Lead management**
-    - 
+    - Resolved an issue that caused FRE progress to get stuck and fail.
+    - Fixed an error message that incorrectly appeared during the upgrade process.
+    - Fixed an error message that incorrectly appeared during FRE progress.
+    - Resolved an error that caused a portal to appear in the FRE page, even after the portal was deleted.
 - **Marketing emails**
-    - 
+    - Fixed an error that caused an email background color field to be populated by the autocomplete.
+    - Improved rounded button compatibility in Outlook.
+    - Improved rounded border functionality with old email templates.
+    - Improved layout preservation when forwarding emails from Outlook.
+    - Fixed an error that caused telephone links to automatically have an "http://" prefix.
+    - Improved image height rendering on mobile devices.
+    - Improved the functionality and reliability of the **Prevent auto-adjustment** switch.
+    - Improved rendering for column minimum height on mobile devices.
+    - Fixed an error that caused text to appear next to (instead of under) a left-aligned image.
 - **Marketing pages**
     - Resolved an issue where forms were occasionally not validated, even when an empty field was non-required.
     - Fixed an error where a subscription center form did not pre-fill marketing lists correctly.
     - Improved marketing form lookup field compatibility with Firefox and Safari.
+    - Resolved an issue where browser retries occasionally caused submission duplication.
+    - Fixed an error that caused contact updates to appear in an incorrect order.
+    - Improved handling of UTF-8 characters in URLs.
+    - Resolved an occasional error that caused some matching strategy results to be hidden.
+    - The correct TenantID is now sent when attempting to clean the portal cache.
+    - Fixed an error that prevented users from making form field labels bold for newly added form fields.
+    - Resolved an error that allowed multiple live form captures for the same form.
+- **Segmentation**
+    - Fixed an issue where segments updated to an "Expired" status in CDS remained "Active" in the backend.
+    - Resolved a segment query error caused when joining an Opportunity and Account.
+- **Shared UX**
+    - Resolved an issue that caused an error when creating new calendar appointments in Safari.
 
 ## November 2020 update
 
