@@ -101,7 +101,7 @@ If you want to opt out from automatically executing the Marketing rule set, comp
 1. In the Solution Health Hub, navigate to **Setup** in the left-hand navigation pane and click on **Solution Health Rule Sets**.
 
     > [!div class="mx-imgBorder"]
-    > ![Screenshot of a complete analysis job overview](./media/troubleshoot-solution-health-deactivate1.png)
+    > ![Screenshot of Solution Health Rule Sets navigation](./media/troubleshoot-solution-health-deactivate1.png)
 
 1. Select the **Marketing rule set**.
 1. Select **Deactivate** in the top ribbon.
