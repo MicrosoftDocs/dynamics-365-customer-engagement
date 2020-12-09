@@ -50,7 +50,7 @@ As an administrator, you must activate the **SDK Message Processing Steps** asso
 
 Use the following steps as a workaround:
 
-1. Sign in to the Common Data Service platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Go to **Settings** > **Customizations**.
 
@@ -115,7 +115,7 @@ While working on a session, after an agent creates a customer (contact/account) 
 
 ## Authentication error for different agent credentials
 
-If an agent is signed in to Microsoft 365 or Common Data Service through a different username in the browser than the one used for signing in to Unified Service Desk, an authentication error is shown and the user is not allowed to sign in. As a workaround, the user should sign out from all other accounts in the browser and try signing back in.
+If an agent is signed in to Microsoft 365 or Dataverse through a different username in the browser than the one used for signing in to Unified Service Desk, an authentication error is shown and the user is not allowed to sign in. As a workaround, the user should sign out from all other accounts in the browser and try signing back in.
 
 ## Transfer to queue does not show a message for the initiating agent
 
@@ -135,7 +135,7 @@ The updates you do to the out-of-the-box **Cases Work Distribution Flow** for un
 
 ### Workaround
 
-Authorize Common Data Service native connector in the flow before you save it.
+Authorize Dataverse native connector in the flow before you save it.
 
 More information: [Update cases work distribution flow](administrator/multiple-ws-entity-record-routing.md#update-entity-records-work-distribution-flow)
 

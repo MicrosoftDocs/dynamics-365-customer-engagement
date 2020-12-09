@@ -34,7 +34,7 @@ This topic describes how to create toolbar buttons in Unified Service Desk for D
 
 ## Create toolbar buttons
 
-1. Sign in to the Common Data Service platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Select the Down arrow next to Dynamics 365.
 

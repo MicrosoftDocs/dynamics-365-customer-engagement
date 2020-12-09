@@ -63,12 +63,12 @@ To enable automatic trigger to route the entity records, create a custom Flow.
 
 4. Select **+ New** and select the **Automated-from blank** option. Select **Skip** in the **Build an automated flow** dialog.
 
-5. Type **Common Data Service**, and select it from the list. The Common Data Service connector enables you to connect to the Common Data Service environment.
+5. Type **Common Data Service**, and select it from the list. The Common Data Service connector enables you to connect to the Microsoft Dataverse environment.
 
 6. Type **When a record is created, updated or deleted** in the search box, and select it from the list. **When a record is created, updated or deleted** is the trigger condition step. 
 
     > [!div class=mx-imgBorder] 
-    > ![Select Common Data Service and When a record is created, updated or deleted trigger](../media/route-trigger1.png "Select Common Data Service and When a record is created, updated or deleted trigger")
+    > ![Select Dataverse and When a record is created, updated or deleted trigger](../media/route-trigger1.png "Select Dataverse and When a record is created, updated or deleted trigger")
 
 7. Specify the following in the **When a record is created, updated or deleted** trigger.
 

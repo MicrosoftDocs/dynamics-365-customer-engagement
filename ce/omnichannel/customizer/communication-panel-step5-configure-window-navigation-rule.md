@@ -33,7 +33,7 @@ The topic describes how to create window navigation rule for communication panel
 
 ## Configure window navigation rule
 
-1. Sign in to Common Data Service platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Select the Down arrow next to Dynamics 365.
 
@@ -60,7 +60,7 @@ The topic describes how to create window navigation rule for communication panel
 
 ## Add window navigation rule to configuration
 
-1. Sign in to Common Data Service platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Select the Down arrow next to Dynamics 365.
 

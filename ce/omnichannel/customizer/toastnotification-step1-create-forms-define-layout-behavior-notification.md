@@ -30,7 +30,7 @@ This topic describes how to define layout and behavior of the notification using
  
 ## Create forms
 
-1. Sign in to Common Data Service platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Select the Down arrow next to Dynamics 365.
 
