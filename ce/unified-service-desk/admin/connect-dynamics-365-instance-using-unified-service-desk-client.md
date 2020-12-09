@@ -27,7 +27,7 @@ The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md
 <a name="Signin"></a>
 ## Sign in to Unified Service Desk
 
-If you want to configure the sign-in experience, such as by prepopulating values in the sign-in dialog box or automatically signing in users without displaying the sign-in dialog box, go to [Configure sign-in information](../../unified-service-desk/admin/connect-dynamics-365-instance-using-unified-service-desk-client.md#ConfigureSignIn).  
+If you want to configure the sign-in experience, such as by pre-populating values in the sign-in dialog box or automatically signing in users without displaying the sign-in dialog box, go to [Configure sign-in information](../../unified-service-desk/admin/connect-dynamics-365-instance-using-unified-service-desk-client.md#ConfigureSignIn).  
 
 1. Start the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client by double-clicking the application shortcut on your desktop.  
 

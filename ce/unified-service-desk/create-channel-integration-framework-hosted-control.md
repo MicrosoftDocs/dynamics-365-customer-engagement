@@ -19,17 +19,19 @@ monikerRange: '>= dynamics-usd-4.1'
 ---
 
 # Create a Channel Integration Framework hosted control
-<!--note from editor: Please verify my edit to the title. It shouldn't be identical to the H1, and it should have the most important words in front. My changes to the structure are suggested, but if you don't like them, you only need the one H2 that you had; the "Create the hosted control" H2 wasn't necessary for a procedure heading. (It's okay to have just one H2 if necessary, though it's not ideal. In this case I didn't think it was necessary.)-->
+<!--note from editor: Please verify my edit to the title. It shouldn't be identical to the H2, and it should have the most important words in front (and in this topic, it seems that the escaping and encoding are the important ideas).-->
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
 This topic describes how to create a Channel Integration Framework type of hosted control to enable the encoding and escaping of special characters.
+
+## Enable the encoding and escaping of special characters
 
 If a channel provider widget passes data that includes special characters to the Unified Service Desk client application, the special characters cause the Channel Integration Framework API calls to fail and the data won't be passed to the Unified Service Desk client application.
 
 To pass data that includes special characters, use the **EscapeCharacters** UII option. This option is used for encoding and escaping of special characters when Channel Integration Framework API calls are invoked within Unified Service Desk. The option is enabled if it hasn't been added or its value is set as **True**. If this option is explicitly set as **False**, encoding and escaping special characters is disabled.
 <!--markdownlint-disable MD036-->
 **To add the EscapeCharacters UII option**
-
+<!--markdownlint-enable MD036-->
 1. Sign in to the Microsoft Dataverse platform.
 
 2. Go to **Settings** > **Unified Service Desk**.
@@ -46,8 +48,8 @@ To pass data that includes special characters, use the **EscapeCharacters** UII 
 
 8. Select **Save**.
 
-**To create the hosted control**
-<!--markdownlint-enable MD036-->
+## Create the hosted control
+
 1. Sign in to the Dataverse platform.  
 
 2. On the nav bar, expand **Dynamics 365**.
