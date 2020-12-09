@@ -77,7 +77,7 @@ manager: kvivek
 
 ### Additional software requirements
 
-- Visual Studio. Either Microsoft Visual Studio 2017 or Visual Studio 2019.
+- Visual Studio. Either Visual Studio 2017 or Visual Studio 2019.
   
 - [!INCLUDE[pn_sql_server_data_tools_SSDT](../includes/pn-sql-server-data-tools-ssdt.md)]. SSDT is available with Visual Studio 2019 and Visual Studio 2017. More information: 
   - [Install SSDT with Visual Studio 2019](/sql/ssdt/download-sql-server-data-tools-ssdt?view=sql-server-ver15#install-ssdt-with-visual-studio-2019).
