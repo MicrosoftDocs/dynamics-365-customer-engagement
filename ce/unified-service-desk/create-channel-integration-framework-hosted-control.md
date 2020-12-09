@@ -32,7 +32,7 @@ To pass data that includes special characters, use the **EscapeCharacters** UII 
 <!--markdownlint-disable MD036-->
 **To add the EscapeCharacters UII option**
 <!--markdownlint-enable MD036-->
-1. Sign in to Microsoft Dataverse.
+1. Sign in to the Dynamics 365 instance.
 
 2. Go to **Settings** > **Unified Service Desk**.
 
@@ -50,7 +50,7 @@ To pass data that includes special characters, use the **EscapeCharacters** UII 
 
 ## Create the hosted control
 
-1. Sign in to Dataverse.  
+1. Sign in to the Dynamics 365 instance.  
 
 2. On the nav bar, expand **Dynamics 365**.
 

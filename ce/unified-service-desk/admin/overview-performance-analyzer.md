@@ -35,7 +35,7 @@ Unified Service Desk provides a configurable framework for quickly building the 
 application. You configure various elements like hosted controls, events, action calls, custom scripts to
 define the user experience in the client application. However, if you encounter performance issues with
 Unified Service Desk, it is hard to identify due to which elements the issue occurred. The issues may
-have occurred due network, Common Data Service platform, Unified Service Desk configuration elements like hosted
+have occurred due network, Microsoft Dataverse, Unified Service Desk configuration elements like hosted
 controls, custom scripts, action calls and so on.
 
 ## Advantages or value proposition of the performance analyzer

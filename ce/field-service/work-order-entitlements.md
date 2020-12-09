@@ -1,32 +1,24 @@
 ---
 title: "Entitlements for work orders - Dynamics 365 Field Service | MicrosoftDocs"
+description: Learn about how to use entitlements for work orders in Dynamics 365 Field Service
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 03/17/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 author: FieldServiceDave
-ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
-caps.latest.revision: 42
 ms.author: daclar
 manager: shellyha
-search.audienceType: 
-  - admin
-  - customizer
 search.app: 
   - D365CE
   - D365FS
 ---
 
-# Entitlements for work orders
+# Entitlements for work orders in Dynamics 365 Field Service
 
 Entitlements for work orders allow field service organizations to dynamically apply price lists and discounts to work order products and services based on work order attributes and date range factors. This parallels how organizations might offer case entitlements in Dynamics 365 Customer Service.
 
@@ -39,7 +31,7 @@ Entitlements can be applied to work orders based on:
 - Customer asset categories
 - Incident types
 
-In this topic, we will explore entitlements for work orders with two scenarios: 
+In this article, we will explore entitlements for work orders with two scenarios: 
 
 > **Scenario 1:** An organization wants to offer a customer a 10% discount for 2 years on all work order products and services based on a preset price list. 
 
@@ -56,7 +48,7 @@ In this topic, we will explore entitlements for work orders with two scenarios:
 
 ## Scenario 1: Entitlement for price list and discount
 
-In our first scenario, an organization wants to offer a customer a 10% discount for 2 years on all work order products and services based on a preset price list. 
+In our first scenario, an organization wants to offer a customer a 10% discount for two years on all work order products and services based on a preset price list. 
 
 ### Step 1: Create a price list and add a product 
 
@@ -142,7 +134,7 @@ The discount percentage is also applied because of the entitlement, and this edi
 
 ## Scenario 2: Entitlement for free products and services for an asset category
 
-In our second scenario, an organization wants to offer a customer free work order products and services for 2 years for work orders that relate to customer assets with a specified category.
+In our second scenario, an organization wants to offer a customer free work order products and services for two years for work orders that relate to customer assets with a specified category.
 
 ### Step 1: Create an entitlement
 
@@ -221,7 +213,7 @@ In such cases, all applicable entitlements will show as options in the entitleme
 > [!div class="mx-imgBorder"]
 > ![Screenshot of 2 entitlements to choose from for a single work order product](./media/entitlement-conflict-2-options.png)
 
-However, 1 entitlement will be selected by default, first by the **Entitlement Prioritization** value and second by the specificity.
+However, one entitlement will be selected by default, first by the **Entitlement Prioritization** value, and second by the specificity.
 
 The system will look at the entitlement prioritization values of all applicable entitlements and select the one with the highest priority (1 being the highest priority). Any priority value is greater than a blank priority value.
 
@@ -248,7 +240,7 @@ Even if multiple entitlements apply and 1 is chosen by default, the user can man
 
 - For simpler scenarios, administrators should consider using the relationship between work order types, incident types, and price lists. Selecting an incident type can populate a work order type, and populating a work order type can populate a price list on the work order. This is configured during the incident type and work order type setup. Additionally, adding a price list to a work order will populate the price lists on work order products and services by default, but can be manually edited as needed. 
 
-- Entitlements for work orders currently doesn't support quantity-based and limit-based entitlements (for example: a customer is entitled to 10 work orders or the first hour of a service is free).
+- Entitlements for work orders currently don't support quantity-based and limit-based entitlements (for example: a customer is entitled to 10 work orders or the first hour of a service is free).
 
-- Entitlement application and price adjustment only happens online. If a work order product or work order service is created or edited when offline, the entitlement logic will only apply once that record syncs to the server.
+- Entitlement application and price adjustment only happen online. If a work order product or work order service is created or edited when offline, the entitlement logic will only apply once that record syncs to the server.
 

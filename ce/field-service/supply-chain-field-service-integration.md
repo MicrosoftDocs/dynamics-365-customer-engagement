@@ -1,27 +1,18 @@
 ---
 title: "Integrate Dynamics 365 Field Service and Supply Chain Management | MicrosoftDocs"
-description: Learn about intergration between Dynamics 365 Field Service and Dynamics 365 Supply Chain Management.
+description: Learn about integration between Dynamics 365 Field Service and Dynamics 365 Supply Chain Management.
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 10/01/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 author: FieldServiceDave
-ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
-caps.latest.revision: 42
 ms.author: daclar
 manager: shellyha
-search.audienceType: 
-  - admin
-  - customizer
 search.app: 
   - D365CE
   - D365FS
@@ -42,8 +33,8 @@ Leveraging Common Data Model and Common Data Service in Dynamics 365, you can se
 - **Ship Via**
 - **Purchase Order**
 - **Purchase Order Product**
-- **Purchase Order Receiept**
-- **Purchase Order Receiept Product**
+- **Purchase Order Receipt**
+- **Purchase Order Receipt Product**
 
 Here are a few examples of how the integration is useful.
 
@@ -78,7 +69,7 @@ Business rules and validations in either system are respected in the other syste
 
 ## Purchase Orders
 
-Here is an another example.
+Here is another example.
 
 A purchase order is created in either system. In the following example, a purchase order was created in Supply Chain Management.
 

@@ -118,7 +118,7 @@ If you get any of the errors listed in the table below, work with your administr
 
   - Something went wrong while setting up your workspace—please try again. If this continues, have your administrator contact Microsoft Support with the client session ID.
 
-  - We couldn't set up presences due to missing roles — Ask your administrator to grant you Omnichannel roles. If this continues, have your administrator contact Microsoft Support with the client session ID. To learn more about security roles, see [Assign roles and enable users for Omnichannel for Customer Service](administrator/add-users-assign-roles). 
+  - We couldn't set up presences due to missing roles — Ask your administrator to grant you Omnichannel roles. If this continues, have your administrator contact Microsoft Support with the client session ID. To learn more about security roles, see [Assign roles and enable users for Omnichannel for Customer Service](administrator/add-users-assign-roles.md). 
 
   - We couldn't get your authentication token — Your Teams subscription has expired, please contact your admin to renew it. If this continues, have your admin contact Microsoft Support with the Client Session ID:{0}. To resolve the issue, follow the steps in [Omnichannel provisioning fails due to expired Teams Service Principal](#omnichannel-provisioning-fails-due-to-expired-teams-service-principal).
 
@@ -218,6 +218,39 @@ There may be an issue with customizations in the **Entity Records Distribution F
 Go to **Entity Records Distribution Flow** and review your customization made to the flow. 
 
 Review and resolve the error that is due to your customizations. For more information, see [Update entity records work distribution flow](administrator/multiple-ws-entity-record-routing.md#update-entity-records-work-distribution-flow).
+
+## Power Virtual Agents bot conversations appear as active on dashboard even after customer has ended chat<a name="pvaendconv"></a>
+
+### Issue
+
+Conversations for Power Virtual Agents bot cannot be ended in Omnichannel for Customer Service and therefore will be seen as active on the supervisor dashboard even after they have been closed.
+
+### Resolution
+
+You can configure a context variable that will explicitly end the bot conversation in Omnichannel for Customer Service after customers close the chat window. In Power Virtual Agents, create a standalone topic for CloseOmnichannelConversation context variable with the variable property set to global. Invoke the topic in another topic that you've configured for the bot.
+
+Though the conversation will be closed in Omnichannel for Customer Service, it will not be closed in Power Virtual Agents and appear in the **Escalation rate drivers** KPI in **Power Virtual Agents Analytics** dashboard.
+
+> [!IMPORTANT]
+> Make sure that you have access to Power Automate to configure a flow so that the bot conversation in Omnichannel for Customer Service can be ended.
+
+To configure ending a bot conversation, perform the following steps:
+
+1. In Power Virtual Agents, for the selected bot, configure a new topic.
+2. Select **Go to authoring canvas**, and in **Add node**, select **Call an action**, and then select **Create a flow**.
+3. On the Power Automate window that opens on a new tab, do the following:
+   1. In the **Return value(s) to Power Virtual Agents** box, select **Add an input**, and then select **Yes/No**.
+   2. In the **Enter title** box, enter CloseOmnichannelConversation, which is the Omnichannel for Customer Service context variable name.
+   3. In the **Enter a value to respond** box, select the **Expression** tab, and then enter **bool(true)** to build the expression, and select **OK**.
+   4. Save the changes, and then exit Power Automate.
+4. In the topic that you were editing, select **Call an action** again, and then in the list, select the flow that you created. 
+5.  In **Add node**, select **End the conversation**, and then select **Transfer to agent**.
+        > ![Configure end-conversation topic](media/end-bot-conversation.png "Configure end-conversation topic")
+6. Go to the topic in which you need to invoke the topic for ending the bot conversation in Omnichannel for Customer Service, and use the **Go to another topic** option in **Add a node**.
+7. Select the topic that you created for ending the bot conversation.
+8. Save and publish the changes.
+
+Additionally, you can configure automated messages in Omnichannel for Customer Service that will be displayed to the customer after the conversation ends.
 
 ## Entity Records are not routed and distributed to agents
 
@@ -432,7 +465,7 @@ As an agent or a supervisor, you see that some conversations are stuck in the wr
 
 ### Resolution
 
-When conversations are ended by the agent or customer, they transition to the wrap-up state. In order to close the conversation, the primary agent assigned to the conversation needs to close the conversation in the session panel. To learn more about closing sessions, see [Manage sessions in Omnichannel for Customer Service](https://docs.microsoft.com/en-us/dynamics365/omnichannel/agent/agent-oc/oc-manage-sessions#close-a-session). To learn more about the wrap-up conversation state, see [Understand conversation states in Omnichannel for Customer Service](https://docs.microsoft.com/en-us/dynamics365/omnichannel/agent/agent-oc/oc-conversation-state#wrap-up).
+When conversations are ended by the agent or customer, they transition to the wrap-up state. In order to close the conversation, the primary agent assigned to the conversation needs to close the conversation in the session panel. To learn more about closing sessions, see [Manage sessions in Omnichannel for Customer Service](https://docs.microsoft.com/dynamics365/omnichannel/agent/agent-oc/oc-manage-sessions#close-a-session). To learn more about the wrap-up conversation state, see [Understand conversation states in Omnichannel for Customer Service](https://docs.microsoft.com/dynamics365/omnichannel/agent/agent-oc/oc-conversation-state#wrap-up).
 
 ## Dashboards do not appear in Omnichannel for Customer Service active dashboards view
 
@@ -488,7 +521,7 @@ After you sign in to the Unified Service Desk client application, you see the fo
    > [!div class=mx-imgBorder]
    > ![Unified Service Desk application error](media/oceh/usd-communication-panel-error.png "Unified Service Desk application error")
 
-While signing in to Unified Service Desk you must enter the Customer Service app credentials and sign in, and again, you are shown a dialog to enter credentials to connect to Common Data Service platform server.
+While signing in to Unified Service Desk you must enter the Customer Service app credentials and sign in, and again, you are shown a dialog to enter credentials to connect to Dataverse server.
 When you enter different credentials, this issue occurs. 
 
 ### Resolution
@@ -578,9 +611,9 @@ After you delete the solutions, import the Unified Service Desk - Omnichannel fo
 
 To delete the solutions, follow these steps:
 
-1. Sign in to the Common Data Service platform.
+1. Sign in to the Dynamics 365 instance.
 2. Choose **Settings** > **Solutions** on the nav bar.
-4. Select one of the solutions on the **Solutions** page by selecting the check box, and then choose **Delete**. You are prompted to confirm uninstalling a managed solution. Choose **OK** to proceed. <br>
+3. Select one of the solutions on the **Solutions** page by selecting the check box, and then choose **Delete**. You are prompted to confirm uninstalling a managed solution. Choose **OK** to proceed. <br>
    - USDISHCustomization or USDWebClientCustomization (one of these solutions would be present depending on the org template)
    - USDUnifiedInterfaceCustomization
    - DynamicsUnifiedServiceDesk
@@ -593,7 +626,7 @@ To delete the solutions, follow these steps:
       > 4. UiiForMicrosoftDynamicsCRM2011
       > 
       >  You must follow the order to remove the solutions because some of the components in the solution depend on the components in the other solution.
-5. After the solution is removed, repeat the steps to delete the other solutions.
+4. After the solution is removed, repeat the steps to delete the other solutions.
 
 ## Unable to launch Unified Service Desk client application
 

@@ -6,13 +6,13 @@ ms.date: 04/01/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
-ms.topic: article
+ms.topic: overview
 ms.assetid: 5bfea08c-8a63-4154-88e4-a517fd4a43e3
 author: alfergus
 ms.author: alfergus
 manager: shellyha
 ms.reviewer:
-topic-status: Drafting
+topic-status: 
 search.audienceType: 
   - admin
   - customizer
@@ -24,7 +24,7 @@ search.app:
 
 # Tutorials for specific scenarios
 
-The tutorials in this section are more general then those in the [Core marketing tutorials](basic-tutorials.md) section. The features covered here are all important parts of Dynamics 365 Marketing, but they are more specialized so some may only be needed occasionally, and you don't need to do the tutorials in order.
+The tutorials in this section are more general than the guides in the [Core marketing tutorials](basic-tutorials.md) section. The features covered here are all important parts of Dynamics 365 Marketing, but they are more specialized so some may only be needed occasionally, and you don't need to do the tutorials in order.
 
 When you have completed the exercises here, you'll be able to:
 

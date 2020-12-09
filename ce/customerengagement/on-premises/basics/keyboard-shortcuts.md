@@ -43,6 +43,7 @@ Keyboard shortcuts give you an alternate way to do common tasks instead of using
 |Open a record found in lookup with forms in edit mode| Enter| Enter|
 |Add an article to an email| Shift+Alt+A| N/A|
 |Apply an email template (when editing an email message)| Shift+Alt+T| N/A|
+|Navigate to the form notification| N/A| Ctrl+M|
 
 ## Form navigation shortcuts
 

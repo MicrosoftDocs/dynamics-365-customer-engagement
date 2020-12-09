@@ -9,14 +9,7 @@ ms.custom:
   - dyn365-fieldservice
 ms.date: 05/16/2019
 ms.topic: article
-ms.prod: 
-ms.technology: 
 ms.author: daclar
-audience: Admin
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
 search.app: 
   - D365CE
   - D365PS

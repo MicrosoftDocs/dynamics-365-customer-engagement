@@ -1,19 +1,15 @@
 ---
 title: "Troubleshoot issues with Solution Health Hub for Marketing (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Learn how to troubleshoot issues with Dynamics 365 Marketing using Solutions Health Hub"
-keywords: solutions health hub troubleshoot
+description: "Troubleshoot issues with Dynamics 365 Marketing using Solutions Health Hub."
 ms.date: 04/17/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing
-ms.topic: article
-ms.assetid: a52e468a-b81e-4598-aa3a-b0670c333e42
+ms.topic: troubleshooting
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: 
 search.audienceType: 
   - admin
   - customizer
@@ -47,14 +43,16 @@ To run an analysis job for Marketing:
 
 1. Open the Solution Health Hub app.
 
-> ![Screenshot of the Solution Health Hub in the navigation](./media/troubleshoot-solution-health-nav.png)
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of the Solution Health Hub in the navigation](./media/troubleshoot-solution-health-nav.png)
 
-2. On the welcome screen, select **Continue** in the lower right.
+1. On the welcome screen, select **Continue** in the lower right.
 1. Select **Analysis Jobs** and create a new analysis job.
 1. When the dialog box opens, select **Marketing rule set**.
 1. Select **OK** and the analysis job will begin.
 
-> ![Screenshot of the Solution Health Hub with attention to the "new" option under analysis jobs](./media/troubleshoot-solution-health-marketing-rules.png)
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of the Solution Health Hub with attention to the "new" option under analysis jobs](./media/troubleshoot-solution-health-marketing-rules.png)
 
 Below are the rules currently included for Marketing:
 
@@ -70,6 +68,7 @@ Below are the rules currently included for Marketing:
 
 Once you run the analysis job, you will be directed to the overview page. The overview page will automatically refresh when the run has finished. The following screenshot shows an example overview of a run.
 
+> [!div class="mx-imgBorder"]
 > ![Screenshot of a complete analysis job overview](./media/troubleshoot-solution-health-fs-rules-analysis.png)
 
 When running an analysis job, you will see a **Return Status** for each rule, which indicates whether the rule passed, failed, or there was a configuration error. Rules also return a severity if they are failing, which shows how severe each problem is. All possible return status outcomes are listed in the following table.
@@ -92,7 +91,8 @@ In the Marketing rule set, the following rules support "resolve" actions:
 
 To resolve issues found in the Analysis Results tab, select the rule that failed, then click on the **Resolve** button that appears above the rules.
 
-> ![Screenshot of a complete analysis job overview](./media/troubleshoot-solution-health-resolve.png)
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the Resolve button selection](./media/troubleshoot-solution-health-resolve.png)
 
 ## Opt out from automatic rule set execution
 
@@ -100,12 +100,14 @@ If you want to opt out from automatically executing the Marketing rule set, comp
 
 1. In the Solution Health Hub, navigate to **Setup** in the left-hand navigation pane and click on **Solution Health Rule Sets**.
 
-> ![Screenshot of a complete analysis job overview](./media/troubleshoot-solution-health-deactivate1.png)
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of Solution Health Rule Sets navigation](./media/troubleshoot-solution-health-deactivate1.png)
 
-2. Select the **Marketing rule set**.
+1. Select the **Marketing rule set**.
 1. Select **Deactivate** in the top ribbon.
 
-> ![Screenshot of a complete analysis job overview](./media/troubleshoot-solution-health-deactivate3.png)
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of the deactivate button selection](./media/troubleshoot-solution-health-deactivate3.png)
 
-4. A confirmation window will appear. Confirm that you want to deactivate the rule set by clicking the **Deactivate** button.
+1. A confirmation window will appear. Confirm that you want to deactivate the rule set by clicking the **Deactivate** button.
 1. Inactive rule sets are visible in "Inactive Solution Health Rule Sets" section in the **Solution Health Rule Sets**. You can reactivate inactive rule sets anytime.

@@ -11,8 +11,8 @@
 ### [Open the Power Platform admin center](power-platform-admin-center.md)
 ### [Re-run the Marketing setup wizard](re-run-setup.md)
 ### [Manage Marketing environments](manage-marketing-environments.md)
-### [Transfer data between instances](transfer-data.md)
-### [Transfer customizations between instances](transfer-solution.md)
+### [Transfer data between environments](transfer-data.md)
+### [Transfer customizations between environments](transfer-solution.md)
 ### [Tenant to tenant migration](tenant-to-tenant.md)
 ### [Keep Marketing up to date](apply-updates.md)
 ### [Recurring activity bulk deletion](recurring-activity-bulk-delete.md)
@@ -79,7 +79,7 @@
 ### [Known issues and workarounds](known-issues.md)
 
 ## Marketing user guide
-### [Marketing execution overview](user-guide.md)
+### [Marketing user guide overview](user-guide.md)
 
 ### Get started
 #### [Browser and system requirements](browser-requirements.md)
@@ -221,7 +221,8 @@
 ##### [Gallery: Marketing reach analysis](marketing-analytics/analytics-gallery-reach.md)
 ##### [Gallery: Marketing form submission report](marketing-analytics/analytics-gallery-forms.md)
 
-## [Developer guide](developer/marketing-developer-guide.md)
+## Developer guide
+### [Developer guide overview](developer/marketing-developer-guide.md)
 ### [Extend customer journeys using custom channels](developer/extend-customer-journeys-custom-channels.md)
 #### [Overview of custom channel](developer/overview-custom-channel.md)
 #### [Create a custom channel](developer/create-custom-channel.md)
@@ -250,16 +251,17 @@
 ##### [Customize the events API response](developer/customize-events-api-response.md)
 #### [Finalizing registration for paid events](developer/finalizing-registrations-for-paid-events.md)
 #### [Localization](developer/event-portal-localization.md)
-### [Work with segments using code](developer/extend-segments.md)
 ### [Work with customer journeys using an API](developer/basic-operations-on-customer-journey.md)
 #### [Extend customer journeys using code](developer/extend-customer-journey-using-code.md)
-### [Attach names and emails to Dynamics 365 Customer Voice surveys sent from customer journeys](developer/customer-voice-populate-name.md)
-### [Entity mapping with custom workflows](entity-mapping.md)
-### [Retrieve interactions for a contact](developer/retrieve-interactions-contact.md)
-### [Extend Marketing forms using client side scripting](developer/marketing-form-client-side-extensibility.md)
 ### [Metadata reference for your organization](developer/marketing-organization-metadata.md)
 #### [Dynamics 365 Marketing solutions](developer/marketing-solutions.md)
 #### [Dynamics 365 Marketing entity reference](developer/marketing-entity-reference.md)
+### [Work with segments using code](developer/extend-segments.md)
+### [Attach names and emails to Dynamics 365 Customer Voice surveys sent from customer journeys](developer/customer-voice-populate-name.md)
+### [Entity mapping with custom workflows](entity-mapping.md)
+### [Limitations on migrating files between environments](developer/migrate-files.md)
+### [Retrieve interactions for a contact](developer/retrieve-interactions-contact.md)
+### [Extend Marketing forms using client side scripting](developer/marketing-form-client-side-extensibility.md)
 
 ## [Learning catalog](learning-catalog.md)
 ### [Business Decision Maker](learning-bdm.md)

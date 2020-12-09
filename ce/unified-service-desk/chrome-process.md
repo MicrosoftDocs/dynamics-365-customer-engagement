@@ -102,7 +102,7 @@ Example path: C:\Program Files\Microsoft Dynamics CRM USD\USD
 
 Add a new Global UII option named **GlobalBrowserMode** for your organization, and specify the value as **Chrome**.
 
-1. Sign in to Dynamics 365.
+1. Sign in to the Dynamics 365 instance.
 
 2. Go to **Settings** > **Unified Service Desk** > **Options**.
 
@@ -248,7 +248,7 @@ Agents in your organization probably require webcam and microphone access, accor
 <!--markdownlint-disable MD036-->
 **To add the ChromeEnableMediaStream UII option**
 
- 1. Sign in to the Common Data Service platform.
+ 1. Sign in to the Dynamics 365 instance.
 
  2. Go to **Settings** > **Unified Service Desk** > **Options**.
 
@@ -286,7 +286,7 @@ Also, within the Unified Service Desk client application, you can debug a Chrome
 
 **To add the ChromeRemoteDebuggingPort UII option**
 
-1. Sign in to the Common Data Service platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Go to **Settings** > **Unified Service Desk** > **Options**.
 
@@ -306,7 +306,7 @@ If ***onbeforeunload*** event handlers are set for the page loaded in the hosted
 
 **To add the OnBeforeCloseHandler UII option**
 
-1. Sign in to the Common Data Service platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Go to **Settings** > **Unified Service Desk** > **Options**.
 
@@ -326,7 +326,7 @@ The confirmation dialog box is displayed if this UII option has been added or th
 
 **To add the ChromeProcessConfirmationDialog UII option**
 
-1. Sign in to the Common Data Service platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Go to **Settings** > **Unified Service Desk** > **Options**.
 
@@ -367,7 +367,7 @@ To add keyboard shortcuts, you must add the UII options and provide the characte
 
 **To add the zoom control UII option**
 
-1. Sign in to the Common Data Service platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Go to **Settings** > **Unified Service Desk** > **Options**.
 
@@ -403,7 +403,7 @@ Example path: C:\Program Files\Microsoft Dynamics CRM USD\USD
 
 **To set the default zoom value for your entire organization**
 
-1. Sign in to the Common Data Service platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Go to **Settings** > **Unified Service Desk** > **Options**.
 
@@ -427,7 +427,7 @@ If you leave the value blank or set it as **False**, Chrome Process will block w
 
 **To add the AllowWebpageNavigationCertificateError UII option**
 
-1. Sign in to the Common Data Service platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Go to **Settings** > **Unified Service Desk** > **Options**.
 
@@ -445,7 +445,7 @@ With Chrome Process, you can enable accessibility support for webpages by using 
 
 **To add the ChromeAccessibilityRenderer UII option**
 
-1. Sign in to the Common Data Service platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Go to **Settings** > **Unified Service Desk** > **Options**.
 
@@ -471,7 +471,7 @@ For example, say you've integrated a softphone with Unified Service Desk and are
 
 **To create a window navigation rule**
 
-1. Sign to the Common Data Service platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Expand **Dynamics 365**.
 
@@ -500,7 +500,7 @@ To investigate Chrome Process crashes in Unified Service Desk, you must generate
 
 **To add the ChromeEnableLogging UII option**
 
-1. Sign in to the Common Data Service platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]
 
@@ -522,7 +522,7 @@ The Chrome Process provides many options that can be used on the webpages within
 
 **To add the ChromeProcessParameters UII option**
 
-1. Sign in to the Common Data Service platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Go to **Settings** > **Unified Service Desk**.
 
@@ -558,7 +558,7 @@ Chrome Process prompts you to save the file to a local folder:
 
 **To add the ChromeProcessDownloadPath UII option**
 
-1. Sign in to the Common Data Service platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Go to **Settings** > **Unified Service Desk**.
 
