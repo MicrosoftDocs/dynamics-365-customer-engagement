@@ -77,7 +77,7 @@ manager: kvivek
 
 ### Additional software requirements
 
-- Visual Studio. 
+- Visual Studio. These versions are supported:
   - Visual Studio 2019.
   - Visual Studio 2017.
   - Visual Studio 2015.
