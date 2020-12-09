@@ -389,7 +389,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Name of the primary entity to which this work item belongs to|
+|Description|Name of the primary entity to which this work item belongs|
 |DisplayName|Primary Related Entity Name|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -405,7 +405,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Id of the primary entity to which this work item belongs to|
+|Description|Id of the primary entity to which this work item belongs|
 |DisplayName|Primary Related Entity Record Id|
 |FormatName|Text|
 |IsLocalizable|False|
