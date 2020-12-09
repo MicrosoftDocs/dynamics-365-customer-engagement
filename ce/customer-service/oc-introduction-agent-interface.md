@@ -60,7 +60,7 @@ When you sign in to the Omnichannel for Customer Service app, the agent interfac
 5. Search, quick create, and presence
 
  > [!div class=mx-imgBorder]
- > ![Session panel in the agent interface of Omnichannel for Customer Service app](media/oceh/oceh-interface.png "Session panel in Omnichannel for Customer Service app") 
+ > ![Session panel in the agent interface of Omnichannel for Customer Service app](media/oceh-interface.png "Session panel in Omnichannel for Customer Service app") 
 
 
 ## 1. Session panel
@@ -68,28 +68,28 @@ When you sign in to the Omnichannel for Customer Service app, the agent interfac
 The vertical panel on the left side is the session panel that allows you (the agent) to work on multiple customer sessions simultaneously. In addition, as an agent you can switch between sessions without losing context of the conversation and customer details. The ability to handle multiple sessions simultaneously (while preserving customer context) allows you to resolve issues faster and achieve higher productivity.
 
  > [!div class=mx-imgBorder]
- > ![Session panel in the agent interface of Omnichannel for Customer Service app](media/oceh/oceh-agent-interface-session-panel.png "Session panel in Omnichannel for Customer Service app")
+ > ![Session panel in the agent interface of Omnichannel for Customer Service app](media/oceh-agent-interface-session-panel.png "Session panel in Omnichannel for Customer Service app")
 
 ## 2. Communication panel
 
 The communication panel is where you, as an agent, interact with your customer. When you sign in to the application, by default, the communication panel is in hidden mode. That is, the communication panel appears on the left side next to the session panel only when you accept an incoming conversation request. To learn more, see [View communication panel](oc-conversation-control.md).
 
  > [!div class=mx-imgBorder]
- > ![Communication panel in the agent interface of Omnichannel for Customer Service app](media/oceh/oceh-communication-panel.png "Communication panel in Omnichannel for Customer Service app")
+ > ![Communication panel in the agent interface of Omnichannel for Customer Service app](media/oceh-communication-panel.png "Communication panel in Omnichannel for Customer Service app")
 
 ## 3. Application tab panel
 
 The horizontal bar below the navigation bar is called the application tab panel. Every customer session has at least one that is not closable; it is called a Anchor tab. The Application tab has a **+** icon. If you select the icon, the menu that has options that are made available by your administrator. The menu shows the out-of-box and custom entities. Also, you can access any third-party Line-of-Business applications that is extended within Omnichannel for Customer Service app. Select the option from the list to open it in the application tab.
 
 > [!div class=mx-imgBorder]
-> ![Omnichannel for Customer Service sitemap appears when you select + icon in the application tab](media/oceh/oceh-agent-interface-sitemap.png "Omnichannel for Customer Service sitemap in the application tab")
+> ![Omnichannel for Customer Service sitemap appears when you select + icon in the application tab](media/oceh-agent-interface-sitemap.png "Omnichannel for Customer Service sitemap in the application tab")
 
 ## 4. Unified Interface application area
 
  When you sign in to Omnichannel for Customer Service, as an agent, in the application area, you see a dashboard that is set as default by your administrator. If set as default, Omnichannel Agent Dashboard shows the different work items in streams, and the dashboard is present in the application tab of the **Home** session and you can't close the dashboard tab.
 
    > [!div class=mx-imgBorder]
-   > ![Omnichannel Agent Dashboard shows My work items, Open work items, and closed work items](media/oceh/oceh-agent-interface-oceh-dashboard.png "Omnichannel Agent Dashboard")
+   > ![Omnichannel Agent Dashboard shows My work items, Open work items, and closed work items](media/oceh-agent-interface-oceh-dashboard.png "Omnichannel Agent Dashboard")
 
    The dashboard shows the following work item streams:
     - **My work items**
@@ -125,7 +125,7 @@ The horizontal bar below the navigation bar is called the application tab panel.
      When you select any record, the application displays a new quick create form. For example, select the **Account** record from the list. The application displays the **Quick Create: Account** form. Specify the details in the fields and save the form.
     
    > [!div class="mx-imgBorder"]
-   > ![Quick create account form](media/oceh/oceh-quick-create-forms-account.png "Quick create account form")
+   > ![Quick create account form](media/oceh-quick-create-forms-account.png "Quick create account form")
 
    c. **Presence.** Set presence as per your availability. Select the icon to launch the presence dialog and use the drop-down list to select a status. To learn more, see [Manage presence status](oc-manage-presence-status.md).
 

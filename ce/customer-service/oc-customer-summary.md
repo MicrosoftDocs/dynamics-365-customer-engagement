@@ -117,7 +117,7 @@ This section displays case-related and customer-related activities in the form o
 The **Linked records** field shows the record that's linked to the conversation. For example, if you link a contact and case to the conversation, the **Linked records** drop-down list shows **Contact** and **Case**, respectively.
 
 > [!div class='mx-imgBorder']
-> ![View only the linked records in the drop-down](media/oceh/customer-summary-linked-records.PNG "View only the linked records in the drop-down list")
+> ![View only the linked records in the drop-down](media/customer-summary-linked-records.PNG "View only the linked records in the drop-down list")
 
 ### See also
 

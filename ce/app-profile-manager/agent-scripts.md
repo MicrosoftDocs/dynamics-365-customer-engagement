@@ -98,7 +98,7 @@ After you configure the agent script and add the field to a form, you need to as
 6. In the **Look for Records** box, select the search icon. Select the agent script from the list, and then select **Add**.
 
     > [!div class=mx-imgBorder] 
-    > ![Associate an agent script](../omnichannel/media/associate-agent-script.png "Associate an agent script")
+    > ![Associate an agent script](../customer-service/media/associate-agent-script.png "Associate an agent script")
 
 7. Select **Save**.
 
@@ -123,7 +123,7 @@ You can build the expression in the **Agent scripts** tab in the sessions templa
 4. Set the **Enable build expression** toggle to **Yes**, and then select **Build Expression** to define the expression. The **Expression builder** page is displayed.
 
     > [!div class=mx-imgBorder] 
-    > ![Build expression](../omnichannel/media/agent-script-build-expression.png "Build expression")
+    > ![Build expression](../customer-service/media/agent-script-build-expression.png "Build expression")
 
 5. Select the **Condition** step, and then create the condition.
 
@@ -132,12 +132,12 @@ You can build the expression in the **Agent scripts** tab in the sessions templa
 7. Select the **Customer Service** tab, and then select **Set default agent script**.
 
     > [!div class=mx-imgBorder] 
-    > ![Set default agent script](../omnichannel/media/agent-script-build-expression2.png "Set default agent script")
+    > ![Set default agent script](../customer-service/media/agent-script-build-expression2.png "Set default agent script")
 
 8. Select a script from the **Agent script** list.
 
     > [!div class=mx-imgBorder] 
-    > ![Set default agent script](../omnichannel/media/agent-script-set-default.png "Set default agent script")
+    > ![Set default agent script](../customer-service/media/agent-script-set-default.png "Set default agent script")
 
 9. Follow steps 5 through 8 for the **If false** step.
 

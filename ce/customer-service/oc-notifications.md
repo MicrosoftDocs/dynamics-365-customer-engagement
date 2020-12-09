@@ -38,7 +38,7 @@ You'll receive desktop notifications when the Omnichannel for Dynamics 365 Custo
 - You're working on another tab of the browser.
 
  > [!div class=mx-imgBorder]
- > ![Desktop notification](media/oceh/desktop-notification.png "Desktop notification")
+ > ![Desktop notification](media/desktop-notification.png "Desktop notification")
 
 You can accept or reject the conversation request by selecting a button on the desktop notification. When you accept the conversation request, the Omnichannel for Customer Service app is made active and displayed to you, and a session is started.
 
@@ -55,7 +55,7 @@ The desktop notification theme is based on the Windows operating system theme an
 To get desktop notifications, you need to allow your browser (Microsoft Edge or Google Chrome) to show notifications. When you get a browser notification, you need to select **Allow**.
 
  > [!div class=mx-imgBorder]
- > ![Allow desktop notification](media/oceh/allow-desktop-notification.png "Allow desktop notification")
+ > ![Allow desktop notification](media/allow-desktop-notification.png "Allow desktop notification")
 
 ## Types of notifications
 
@@ -70,7 +70,7 @@ There are two types of notifications:
 You receive a notification for an incoming chat request. When you accept the chat request, you'll see details about the customer in the Customer summary page. A simultaneous session starts, and a chat window expands so you can exchange messages with the customer.
 
  > [!div class=mx-imgBorder]
- > ![Incoming chat notification](media/oceh/chat-notification-request.png "Incoming chat notification")  
+ > ![Incoming chat notification](media/chat-notification-request.png "Incoming chat notification")  
 
 The details you'll see for a chat channel are as configured by your administrator.
 
@@ -81,7 +81,7 @@ You receive a notification for an SMS conversation request. When you accept the 
 The identification of a customer happens based on the **Mobile Phone** field present in the Contact record in Dynamics 365 Customer Service. That is, if the incoming SMS conversation is from a phone whose number is present in the mobile phone field of a Contact record, the conversation automatically links to the contact record.
 
  > [!div class=mx-imgBorder]
- > ![Incoming SMS notification](media/oceh/sms-notification-request.png "Incoming SMS notification")
+ > ![Incoming SMS notification](media/sms-notification-request.png "Incoming SMS notification")
 
 The details you'll see for a SMS channel are as configured by your administrator.
 

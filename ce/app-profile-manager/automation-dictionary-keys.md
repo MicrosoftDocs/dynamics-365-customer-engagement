@@ -57,7 +57,7 @@ The automation dictionary uses the context data parameters that are available fr
 - [Context data from other macro actions](#context-data-from-other-macro-actions)
 
 > [!div class=mx-imgBorder] 
-> ![Automation dictionary](../omnichannel/media/automation-dictionary.png "Automation dictionary")
+> ![Automation dictionary](../customer-service/media/automation-dictionary.png "Automation dictionary")
 
 ### Context data from the channel provider
 

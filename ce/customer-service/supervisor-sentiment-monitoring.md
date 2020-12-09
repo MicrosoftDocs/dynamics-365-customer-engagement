@@ -22,13 +22,13 @@ Sentiment intensity indicators are displayed based on the previous six customer 
 
 | Sentiment | Icon |
 |--------------------------|---------------------------------------------------|
-| Very positive | ![Very positive sentiment](media/oceh/sentiment-very-positive.png "Very positive sentiment") |
+| Very positive | ![Very positive sentiment](media/sentiment-very-positive.png "Very positive sentiment") |
 | Positive | ![Positive sentiment](media//oceh/sentiment-positive.png "Positive sentiment") |
-| Slightly positive | ![Slightly positive sentiment](media/oceh/sentiment-slightly-positive.png "Slightly positive sentiment") |
-| Neutral | ![Neutral sentiment](media/oceh/sentiment-neutral.png "Neutral sentiment") |
-| Slightly negative | ![Slightly negative sentiment](media/oceh/sentiment-slightly-negative.png "Slightly negative sentiment") |
-| Negative | ![Negative sentiment](media/oceh/sentiment-negative.png " Negative sentiment") |
-| Very negative | ![Very negative sentiment](media/oceh/sentiment-very-negative.png "Very negative sentiment") |
+| Slightly positive | ![Slightly positive sentiment](media/sentiment-slightly-positive.png "Slightly positive sentiment") |
+| Neutral | ![Neutral sentiment](media/sentiment-neutral.png "Neutral sentiment") |
+| Slightly negative | ![Slightly negative sentiment](media/sentiment-slightly-negative.png "Slightly negative sentiment") |
+| Negative | ![Negative sentiment](media/sentiment-negative.png " Negative sentiment") |
+| Very negative | ![Very negative sentiment](media/sentiment-very-negative.png "Very negative sentiment") |
 
 Omnichannel for Customer Service sentiment analysis supports multiple languages. Using Microsoft Azure Text Translator API, conversations in more than 40 languages now receive sentiment scores.
 

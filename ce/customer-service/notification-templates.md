@@ -39,7 +39,7 @@ Agents can receive desktop notifications when the Omnichannel for Customer Servi
 - The agent is working on another tab of the browser.
 
  > [!div class=mx-imgBorder]
- > ![Desktop notification](media/oceh/desktop-notification.png "Desktop notification")
+ > ![Desktop notification](media/desktop-notification.png "Desktop notification")
 
 Agents can accept or reject the conversation request by selecting a button on the desktop notification. When an agent accepts the conversation, the Omnichannel for Customer Service app is made active and displayed to the agent, and a session is started.
 
@@ -59,7 +59,7 @@ To get desktop notifications, agents need to allow their browser (Microsoft Edge
 Also, as an administrator, you can set the browser notification permission by using group policy.
 
  > [!div class=mx-imgBorder]
- > ![Allow desktop notifications](media/oceh/allow-desktop-notification.png "Allow desktop notifications")
+ > ![Allow desktop notifications](media/allow-desktop-notification.png "Allow desktop notifications")
 
 ### Notification fields
 
