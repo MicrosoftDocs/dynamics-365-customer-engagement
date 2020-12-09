@@ -16,7 +16,7 @@ manager: shujoshi
 When you open the Dynamics 365 Sales mobile app on your mobile device, you’ll see the home page. This home page provides high-level information on the meetings and insight cards that are specific to you. Typically, the home page displays the following:
 
 > [!div class="mx-imgBorder"]
-> ![Sales mobile app home screen](media/sa-home-page.png "Sales mobile app home screen")
+> ![Sales mobile app home screen](media/sa-home-page-complete.png "Sales mobile app home screen")
 
 1. [Meetings](#meetings)
 2. [Recent contacts](#recent-contacts)
@@ -31,7 +31,7 @@ This section shows important information about the last meeting you were in and 
 > [!NOTE]
 > The Meetings section only include meetings that have at least one attendee who's outside of your organization's domain.
 
-![Meetings displayed on the home screen](media/sa-home-page-complete.png "Meetings displayed on the home screen")
+![Meetings displayed on the home screen](media/sa-home-page.png "Meetings displayed on the home screen")
 
 ## Recent contacts
 
@@ -65,6 +65,12 @@ Tap ![Options button](media/sm-options-button.png "Options button") to take furt
 You can use the navigation bar at the bottom of the screen to navigate through the app.
 
 ![Navigation bar](media/sm-navigation-bar.png "Navigation bar")
+
+The navigation bar consists for the following options:
+- [Home](#home)   
+- [Search](#search)
+- [Meetings](#meetings)
+- [More options](#more-options)
 
 ### Home   
 
