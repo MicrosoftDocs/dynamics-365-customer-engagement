@@ -1,18 +1,14 @@
 ---
 title: "Preview: Natural language use in segments (Dynamics 365 Marketing) | Microsoft Docs"
-description: "A set of example marketing segments to show various capabilities of natural language understanding in Dynamics 365 Marketing"
-keywords: examples; segments; dynamic segments
+description: "Example marketing segments to show various capabilities of natural language understanding in Dynamics 365 Marketing."
 ms.date: 10/27/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
-ms.topic: get-started-article
-ms.assetid: c4de5589-b20f-4318-8443-7485c5b1a27b
-author: JuliaZiobro
+ms.topic: article
+author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: draft
 search.audienceType: 
   - admin
   - customizer
@@ -23,6 +19,8 @@ search.app:
 ---
 
 # Preview: Natural language use in segments
+
+<div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/RE4IQy2" frameborder="0" allowfullscreen=""></iframe></div>
 
 > [!IMPORTANT]
 > [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]
