@@ -137,7 +137,7 @@ Opens an existing instance of the entity specified and identified by the ID, and
 
 ### RunScript
 
-This action injects JavaScript into the main frame of the application. You should avoid using the Common Data Service platform client SDK calls with this action; instead, use the **RunXrmCommand** action.  
+This action injects JavaScript into the main frame of the application. You should avoid using the Microsoft Dataverse platform client SDK calls with this action; instead, use the **RunXrmCommand** action.  
 
 |Parameter|Description|  
 |---------------|-----------------|  
