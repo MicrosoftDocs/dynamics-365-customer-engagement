@@ -93,6 +93,7 @@ manager: kvivek
   
 ### See also
 
- [Microsoft Dynamics 365 Customer Engagement (on-premises) system requirements and required technologies](system-requirements-required-technologies.md) <br />
- [Microsoft Dynamics 365 Customer Engagement (on-premises) language support](microsoft-dynamics-365-language-support.md)
+[Install Dynamics 365 Report Authoring Extension](../analytics/install-dynamics-365-report-authoring-extension.md) <br />
+[Microsoft Dynamics 365 Customer Engagement (on-premises) system requirements and required technologies](system-requirements-required-technologies.md)
+
 
