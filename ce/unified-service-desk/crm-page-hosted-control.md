@@ -155,7 +155,7 @@ This action loads a specific area from model-driven apps. This is equivalent to 
 
 ### LookupInfo
 
-Displays the Microsoft Dataverse platform lookup information dialog box so you can select an entity from a list.  
+Displays the Microsoft Dataverse lookup information dialog box so you can select an entity from a list.  
 
 |Parameter|Description|  
 |---------------|-----------------|  
@@ -238,7 +238,7 @@ This action takes the currently displayed URL and sends it through the window na
 
 ### RunScript  
 
-This action injects JavaScript into the main frame of the application. You should avoid using the Dataverse platform client SDK calls with this action; instead, use the **RunXrmCommand** action.  
+This action injects JavaScript into the main frame of the application. You should avoid using Dataverse client SDK calls with this action; instead, use the **RunXrmCommand** action.  
 
 |Parameter|Description|
 |---------------|-----------------|
@@ -247,7 +247,7 @@ This action injects JavaScript into the main frame of the application. You shoul
 <a name="RunXrmCommand"></a>   
 ### RunXrmCommand  
 
-This action is used to inject the Dataverse platform SDK JavaScript into the model-driven app form.  
+This action is used to inject Dataverse SDK JavaScript into the model-driven app form.  
 
 |Parameter|Description|
 |---------------|-----------------|

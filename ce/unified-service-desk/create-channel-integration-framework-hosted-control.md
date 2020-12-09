@@ -1,6 +1,6 @@
 ---
 title: "Encode and escape characters with Channel Integration Framework hosted control | MicrosoftDocs"
-description: "Learn how to create a Channel Integration Framework hosted control in the Dataverse platform for Unified Service Desk."
+description: "Learn how to create a Channel Integration Framework hosted control in Dataverse for Unified Service Desk."
 author: v-sailab
 ms.author: v-sailab
 manager: shujoshi
@@ -32,7 +32,7 @@ To pass data that includes special characters, use the **EscapeCharacters** UII 
 <!--markdownlint-disable MD036-->
 **To add the EscapeCharacters UII option**
 <!--markdownlint-enable MD036-->
-1. Sign in to the Microsoft Dataverse platform.
+1. Sign in to Microsoft Dataverse.
 
 2. Go to **Settings** > **Unified Service Desk**.
 
@@ -50,7 +50,7 @@ To pass data that includes special characters, use the **EscapeCharacters** UII 
 
 ## Create the hosted control
 
-1. Sign in to the Dataverse platform.  
+1. Sign in to Dataverse.  
 
 2. On the nav bar, expand **Dynamics 365**.
 
