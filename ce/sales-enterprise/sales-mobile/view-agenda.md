@@ -47,38 +47,7 @@ The regarding entity specifies what the meeting is about, such as opportunity, l
 In the following image, you can see that the meeting is regarding an opportunity to purchase 10,000 no roof cars.   
 > [!div class="mx-imgBorder"]
 > ![View regarding entity](media/sm-view-regarding-entity.png "View regarding entity")   
-You can perform the following actions on the regarding entity:   
-- **View details**: To view more details about the regarding entities, tap the entity. The details such as timeline activities and relevant cards are displayed along with related entities cards. Also, related entities are displayed if any related entities are attached to the regarding entity. You can swipe to view the related entities.    
-To view the entity in the Dynamics 365 assistant application, tap **Open *Entity*** and the entity opens in the Dynamics 365 Sales app.   
-- **Edit**: To quickly edit the basic information of the regarding entity, tap **More options** (![Options button](media/sm-options-button.png "Options button")) and then tap **Quick edit**. Enter the required information and then tap **Save**.   
-    >[!div class="mx-imgBorder"]
-    >![Select quick edit option](media/sm-quick-edit-regarding-entity.png "Select quick edit option")    
-- **Update regarding entity**: You can update the regarding entity when it no longer is relevant or there are changes to the meeting. To change the regarding entity, follow these steps:
-    1. Tap **More options** (![Options button](media/sm-options-button.png "Options button")) and then tap **Change connected record**.    
-        >[!div class="mx-imgBorder"]
-        >![Select change connected record option](media/sm-select-change-connected-record.png "Select change connected record option")        
-    2. On the **Regarding** page, either select a recent record or tap **Search** to look for the record you want.    
-        >[!div class="mx-imgBorder"]
-        >![Search for a record to connect](media/sm-regarding-record.png "Search for a record to connect")    
-    3. After selecting a record, tap **Save**.    
-        >[!div class="mx-imgBorder"]
-        >![Select a record to connect](media/sm-select-regarding-record.png "Select a record to connect")   
-        The connected record details are displayed in the **Regarding** section.    
-- **Add regarding entity**: You can add a regarding entity to a meeting when no regarding entity is attached to it. When you add the regarding entity, its corresponding related entities are also added to the meeting.  
-    >[!NOTE]  
-    >Once you add a regarding entity, you cannot delete it. However, you can update the entity if you find the added entity is inappropriate.   
-    1. On the meeting details page, tap **Set regarding**.   
-        >[!div class="mx-imgBorder"]
-        >![Connect a record to a meeting](media/sm-meeting-details-no-record.png "Connect a record to a meeting")   
-    2. On the **Regarding** page, either select a recent record or tap **Search** to look for the record you want.   
-        >[!div class="mx-imgBorder"]
-        >![Search for a record to connect](media/sm-regarding-record.png "Search for a record to connect")   
-    3. After selecting a record, tap **Save**.   
-        >[!div class="mx-imgBorder"]
-        >![Select a record to connect](media/sm-select-regarding-record.png "Select a record to connect")    
-        The connected record details are displayed in the **Regarding** section.    
-> [!NOTE]
-> You'll be able to set the regarding record only if server-side synchronization has been enabled in your environment. Contact your administrator to enable it.    
+You can perform the following action on regarding entities: view, edit, change entity, and add entity. More information: [Manage records or regarding entities](open-record.md).    
 ### Notes and Reminders    
 The timeline also shows any related notes and reminders through insight cards based on the related entities. The cards are retrieved from your Dynamics 365 Sales organization for the selected regarding entity.   
 The following reminder insight cards are supported:    
@@ -107,4 +76,6 @@ To know more about the insight cards, see [Insight cards reference](https://docs
 
 ### See also   
 
-[Use the Dynamics 365 Sales mobile app](../sales-mobile/use-sales-mobile-app.md)  
+[Use the Dynamics 365 Sales mobile app](../sales-mobile/use-sales-mobile-app.md)    
+[Manage contacts](create-contact.md)   
+[Manage records or regarding entities](open-record.md)
