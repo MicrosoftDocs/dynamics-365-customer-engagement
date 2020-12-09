@@ -33,7 +33,7 @@ search.app:
   
 - Unified Service Desk Solution
 
-::: moniker range=>"dynamics-usd-4"
+::: moniker range=">dynamics-usd-4"
 
 - Customizations for the Common Data Service platform Unified Interface package
 
