@@ -25,7 +25,7 @@ Omnichannel for Customer Service is available on the following:
 
 > [!IMPORTANT]
 >
-> [!INCLUDE[cc-cookies-in-omnichannel](../../includes/cc-cookies-in-omnichannel.md)]
+> [!INCLUDE[cc-cookies-in-omnichannel](../includes/cc-cookies-in-omnichannel.md)]
 
 ## Videos
 
