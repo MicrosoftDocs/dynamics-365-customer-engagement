@@ -41,7 +41,7 @@ After you enable real-time customer sentiment, you can view scores in the [Omnic
 
 ### Preview: Sentiment drivers reporting
 
-[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 > [!NOTE]
 > In the preview mode, this feature is not available for Government Community Cloud (GCC).
