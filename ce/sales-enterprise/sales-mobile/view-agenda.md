@@ -17,7 +17,8 @@ On the home page, you can see resources that can help you better plan your day. 
 To see more meetings for the day, tap **Meetings** either on the home page or on the navigation bar. Meetings that have been scheduled in Microsoft Outlook are displayed.    
 > [!NOTE]
 > - You can't create a meeting from the Dynamics 365 Sales mobile app.
-> - The Meetings section only include meetings that have at least one attendee who's outside of your organization's domain.    
+> - The Meetings section only include meetings that have at least one attendee who's outside of your organization's domain.   
+ 
 **To view meetings**    
 1.  On the navigation bar, tap **Meetings**.    
     The calendar view opens.    
@@ -34,7 +35,7 @@ Meeting details include the following:
 1. [Meeting information](#meeting-information)   
 2. [Attendees](#attendees)   
 3. [Regarding entity](#regarding-entity)   
-4. [Activities timeline and insight cards](#activities-timeline-and-insight-cards)   
+4. [Notes and insight cards](#notes-and-insight-cards)   
 
 ### Meeting information   
 The meeting information section provides information on the subject, when the meeting is scheduled, where the meeting is happening, and description. Tap the description section to get a detailed information on what the meeting is about. The information is view-only and you can't edit it in the app.  
@@ -90,8 +91,8 @@ To view the entity in the Dynamics 365 assistant application, tap **Open *Entity
         The connected record details are displayed in the **Regarding** section.    
 > [!NOTE]
 > You'll be able to set the regarding record only if server-side synchronization has been enabled in your environment. Contact your administrator to enable it.    
-### Activities timeline and insight cards    
-See a combined view of your interactions with customers across various channels, such as phone, email, or even social activities in the timeline that are related to the regarding entity. The timeline also shows any related notes or system posts. Also, cards are displayed below the timeline based on the related entities.   
+### Notes and insight cards    
+The timeline also shows any related notes or system posts. Also, cards are displayed below the timeline based on the related entities.   
 The timeline activities and cards are retrieved from your Dynamics 365 Sales organization for the selected regarding entity.   
 The following insight cards are supported:    
 <table>
