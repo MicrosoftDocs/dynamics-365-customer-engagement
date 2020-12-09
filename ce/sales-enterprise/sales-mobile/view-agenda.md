@@ -106,4 +106,5 @@ The following reminder insight cards are supported:
 To know more about the insight cards, see [Insight cards reference](https://docs.microsoft.com/dynamics365/ai/sales/action-cards-reference)   
 
 ### See also   
-[Use the Dynamics 365 Sales mobile app](../sales-mobile/use-sales-mobile-app.md)
+
+[Use the Dynamics 365 Sales mobile app](../sales-mobile/use-sales-mobile-app.md)  

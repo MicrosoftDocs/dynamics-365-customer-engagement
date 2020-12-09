@@ -53,7 +53,8 @@ When you sign in and select the app for the first time, you'll see the display c
 
 The home page is displayed as shown in the following example screen:
 
-
+> [!div class="mx-imgBorder"]
+> ![Sales mobile app home page](media/sm-home-page.png "Sales mobile app home page") 
 
 ### See also
 

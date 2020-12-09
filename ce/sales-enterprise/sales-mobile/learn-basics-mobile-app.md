@@ -31,7 +31,7 @@ This section shows important information about the last meeting you were in and 
 > [!NOTE]
 > The Meetings section only include meetings that have at least one attendee who's outside of your organization's domain.
 
-![Meetings displayed on the home screen](media/sm-meetings-home.png "Meetings displayed on the home screen")
+![Meetings displayed on the home screen](media/sa-home-page-complete.png "Meetings displayed on the home screen")
 
 ## Recent contacts
 
