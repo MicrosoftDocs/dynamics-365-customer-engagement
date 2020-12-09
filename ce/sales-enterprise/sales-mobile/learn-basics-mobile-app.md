@@ -34,7 +34,7 @@ This section shows important information about the last meeting you were in and 
 
 ### Recent contacts
 
-Use **Recent contacts** to open an extended list of the contacts you've recently accessed through the web or the mobile app. You can tap a contact to view its details. More information: [Create a contact](sales-mobile/create-contact.md)
+Use **Recent contacts** to open an extended list of the contacts you've recently accessed through the web or the mobile app. You can tap a contact to view its details. More information: [Create a contact](create-contact.md)
 
 ![Recent contacts displayed on the home screen](media/sm-contacts-home.png "Recent contacts displayed on the home screen")
 
@@ -105,8 +105,8 @@ Tap the **More options** icon to view the site map or menu of the Sales Hub app 
 > [!div class="mx-imgBorder"]
 > ![Sales hub site map](media/sm-sales-hub-site-map.png "Sales hub site map")    
 
-
 On the top of the site map, the **Recent** option displayed the records that you have accessed recently through the sales mobile app and the **Pinned** option displayed the records that are pinned.   
+
 Select the bidirectional arrows on the view the change area to go to settings  
 
 ### See also   
