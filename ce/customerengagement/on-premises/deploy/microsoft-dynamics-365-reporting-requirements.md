@@ -67,7 +67,7 @@ manager: kvivek
   
 <a name="report_auth_gen_req"></a>
 
-## Dynamics 365 Customer Engagement (on-premises) Report Authoring Extension requirements
+## Report Authoring Extension requirements
 
  Dynamics 365 Customer Engagement (on-premises) Report Authoring Extension is required to author Fetch-based reports used with [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] by using [!INCLUDE[pn_sql_server_data_tools](../includes/pn-sql-server-data-tools.md)]. You must install the Dynamics 365 Customer Engagement (on-premises) Report Authoring Extension on a PC that has the following software.
   
@@ -77,13 +77,15 @@ manager: kvivek
 
 ### Additional software requirements
 
-- Either Microsoft Visual Studio 2017 or Visual Studio 2019.
+- Visual Studio. Either Microsoft Visual Studio 2017 or Visual Studio 2019.
   
-- [!INCLUDE[pn_sql_server_data_tools_SSDT](../includes/pn-sql-server-data-tools-ssdt.md)] included with [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)].  
+- [!INCLUDE[pn_sql_server_data_tools_SSDT](../includes/pn-sql-server-data-tools-ssdt.md)]. SSDT is available with Visual Studio 2019 and Visual Studio 2017. More information: 
+  - [Install SSDT with Visual Studio 2019](/sql/ssdt/download-sql-server-data-tools-ssdt?view=sql-server-ver15#install-ssdt-with-visual-studio-2019).
+  - [Install SSDT with Visual Studio 2017](/sql/ssdt/download-sql-server-data-tools-ssdt?view=sql-server-ver15#install-ssdt-with-visual-studio-2017).  
 
-- **Microsoft Reporting Services Projects extension**. The [Report Services Projects extension](https://marketplace.visualstudio.com/items?itemName=ProBITools.MicrosoftReportProjectsforVisualStudio) is required to create report server projects.
+- Microsoft Reporting Services Projects extension. The [Report Services Projects extension](https://marketplace.visualstudio.com/items?itemName=ProBITools.MicrosoftReportProjectsforVisualStudio) is required to create report server projects.
 
-- If your organization uses [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)], make sure the computer with Dynamics 365 Customer Engagement (on-premises) Report Authoring Extension installed also has the [!INCLUDE[pn_Online_Services_SignIn_Assistant](../includes/pn-online-services-signin-assistant.md)] installed on it. If [!INCLUDE[pn_Online_Services_SignIn_Assistant](../includes/pn-online-services-signin-assistant.md)] is already installed, check the registry key SOFTWARE\Microsoft\MSOIdentityCRL and make sure that the TargetDir registry key in MSOIdentityCRL contains msoidcli.dll.  
+- [!INCLUDE[pn_Online_Services_SignIn_Assistant](../includes/pn-online-services-signin-assistant.md)]. If your organization uses [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)], make sure the computer with Dynamics 365 Customer Engagement (on-premises) Report Authoring Extension installed also has the [!INCLUDE[pn_Online_Services_SignIn_Assistant](../includes/pn-online-services-signin-assistant.md)] installed on it. If [!INCLUDE[pn_Online_Services_SignIn_Assistant](../includes/pn-online-services-signin-assistant.md)] is already installed, check the registry key SOFTWARE\Microsoft\MSOIdentityCRL and make sure that the TargetDir registry key in MSOIdentityCRL contains msoidcli.dll.  
   
 ### See also
 
