@@ -240,7 +240,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Identifier of the queue to which this session belongs to|
+|Description|Identifier of the queue to which this session belongs|
 |DisplayName|Queue Id|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -256,7 +256,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Name of the queue to which this session belongs to|
+|Description|Name of the queue to which this session belongs|
 |DisplayName|Queue Name|
 |FormatName|Text|
 |IsLocalizable|False|
