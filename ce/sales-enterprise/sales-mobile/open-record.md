@@ -9,13 +9,15 @@ ms.author: shjais
 manager: shujoshi
 ---
 
-# Manage records
+# Manage records or regarding entities
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
 Recent records are accessible through the Home view, under **Recent contacts** and **Recent records** section. Similarly, you can tap a record in search results to open the record. The record is opened in the lightweight view. If any information is missing in the lightweight view opened, you can also open the Unified Interface view of the record by tapping **Open (record type)** in the lightweight view.
 
 ![Lightweight view of a record](media/sm-record-compact-view.png "Lightweight view of a record")
+
+
 
 > [!NOTE]
 > - The fields that you see on the compact form are defined in the quick view form of the entity.

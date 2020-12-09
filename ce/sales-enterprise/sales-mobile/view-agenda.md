@@ -30,31 +30,19 @@ To see more meetings for the day, tap **Meetings** either on the home page or on
 
 ## View meeting details    
 To see details of a specific meeting, tap the meeting record on either the home page or the calendar view. The meeting details are displayed, as shown in the following image.    
-![Meeting details](media/sm-meeting-details.png "Meeting details")     
+![Meeting details](media/sm-meeting-details.png "Meeting details")  
+
 Meeting details include the following:   
 1. [Meeting information](#meeting-information)   
 2. [Attendees](#attendees)   
 3. [Regarding entity](#regarding-entity)   
-4. [Notes and insight cards](#notes-and-insight-cards)   
+4. [Notes and Reminders](#notes-and-reminders)   
 
 ### Meeting information   
 The meeting information section provides information on the subject, when the meeting is scheduled, where the meeting is happening, and description. Tap the description section to get a detailed information on what the meeting is about. The information is view-only and you can't edit it in the app.  
 ### Attendees    
-Attendees are the customers and the organizer who are attending the meeting. Up to five attendees are shown and you can see who will attend with the acceptance status such as accepted, tentative, declined, or no response. When you tap the name of an attendee, the quick view of their contact record opens. You can perform the following actions on the contact:  
-- **View details**: You can open the contact to view full details in the **Contact** form in the Dynamics 365 Sales app. Tap **Open Contact** and the contact details opens in the **Contact** form.   
-    > [!div class="mx-imgBorder"]
-    > ![Open contact details](media/sm-open-contact.png "Open contact details")  
-- **Edit**: If the contact already exists in your Dynamics 365 Sales organization. You can update the contact details such as mobile number and business email in the quick edit form. 
-    1. Tap **Edit** on the top-right corner of the screen and the contact's quick edit form opens.   
-    2. Enter the required information and then tap **Save**.   
-        > [!div class="mx-imgBorder"]
-        > ![Edit contact details](media/sm-contact-edit.png "Edit contact details")   
-- **Create contact**: If the contact doesn't exist in your Dynamics 365 Sales organization, you'll see an option to create a contact.    
-    1. Tap **Create contact** and the **Create a contact** form opens.   
-    2. Enter the required information and then tap **Save**. More information: [Create a contact](create-contact.md).   
-        > [!div class="mx-imgBorder"]
-        > ![Create contact](media/sm-create-contact.png "Create contact")   
-### Regarding entity
+Attendees are the customers and the organizer who are attending the meeting. Up to five attendees are shown and you can see who will attend with the acceptance status such as accepted, tentative, declined, or no response. When you tap the name of an attendee, the quick view of their contact record opens. You can perform the following actions on the contact: view, edit, and create. More information: [Manage contacts](create-contact.md).            
+### Regarding entity    
 The regarding entity specifies what the meeting is about, such as opportunity, lead, contact, or account. When a meeting is attached to an entity, the meeting displays the timeline, insight, participant information, and corresponding related entities. Also, the regarding entity helps you to understand what the meeting is about, so you can come prepared with relevant information.  
 In the following image, you can see that the meeting is regarding an opportunity to purchase 10,000 no roof cars.   
 > [!div class="mx-imgBorder"]
@@ -91,10 +79,9 @@ To view the entity in the Dynamics 365 assistant application, tap **Open *Entity
         The connected record details are displayed in the **Regarding** section.    
 > [!NOTE]
 > You'll be able to set the regarding record only if server-side synchronization has been enabled in your environment. Contact your administrator to enable it.    
-### Notes and insight cards    
-The timeline also shows any related notes or system posts. Also, cards are displayed below the timeline based on the related entities.   
-The timeline activities and cards are retrieved from your Dynamics 365 Sales organization for the selected regarding entity.   
-The following insight cards are supported:    
+### Notes and Reminders    
+The timeline also shows any related notes and reminders through insight cards based on the related entities. The cards are retrieved from your Dynamics 365 Sales organization for the selected regarding entity.   
+The following reminder insight cards are supported:    
 <table>
 <tr>
 <td>{activity} due today</td><td>Buying intent detected in email</td><td>Close date coming soon</td>
@@ -117,8 +104,6 @@ The following insight cards are supported:
 </table>   
 
 To know more about the insight cards, see [Insight cards reference](https://docs.microsoft.com/dynamics365/ai/sales/action-cards-reference)   
-The following image is an example of an activity timeline for an opportunity regarding entity.   
-<!--*Add image*-->
 
 ### See also   
 [Use the Dynamics 365 Sales mobile app](../sales-mobile/use-sales-mobile-app.md)

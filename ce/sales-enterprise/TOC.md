@@ -319,6 +319,6 @@
 #### [Use the Dynamics 365 Sales mobile app](sales-mobile/use-sales-mobile-app.md)
 #### [Learn the basics](sales-mobile/learn-basics-mobile-app.md)
 #### [View meetings](sales-mobile/view-agenda.md)
-#### [Manage records](sales-mobile/open-record.md)
-#### [Create a contact](sales-mobile/create-contact.md)
+#### [Manage records or regarding entities](sales-mobile/open-record.md)
+#### [Manage contacts](sales-mobile/create-contact.md)
 #### [View, edit, or add a note](sales-mobile/view-edit-add-note.md)
