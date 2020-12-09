@@ -1,5 +1,5 @@
 ---
-title: "Report writing environment using SQL Server Data Tools (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Report writing environment using SQL Server Data Tools (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
 ms.date: 09/30/2017
 ms.reviewer: 
@@ -57,7 +57,7 @@ This article describes what’s needed to author [!INCLUDE[pn_dynamics_crm](../i
   
 2. Create a custom report or use an existing report to modify using [!INCLUDE[pn_sql_server_data_tools](../includes/pn-sql-server-data-tools.md)] in [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)].  
   
-   - Create a new (custom) report. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create Custom Reports Using Business Intelligence Development Studio](../analytics/create-a-new-report-using-sql-server-data-tools.md)  
+   - Create a new (custom) report. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create custom reports using SQL Server Data Tools](../analytics/create-a-new-report-using-sql-server-data-tools.md)  
   
    - Download an existing [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps report definition language (.rdl) file. To do this, open a customer engagement app, select the **Reporting** tab, select the report you want, and then select **Edit** on the command bar. On the report properties page, select **Download Report** from the **Actions** toolbar.
   
