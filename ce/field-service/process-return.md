@@ -1,24 +1,15 @@
 ---
 title: "Process a return (Dynamics 365 Field Service) | MicrosoftDocs"
+description: Learn about how to process a return in Dynamics 365 Field Service
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 01/09/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.technology: 
-  - field-service
-ms.tgt_pltfrm: 
 ms.topic: article
 author: FieldServiceDave
-ms.assetid: dc861210-2993-4722-baf8-492d159701a0
-caps.latest.revision: 17
 ms.author: daclar
 manager: shellyha
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
 search.app: 
   - D365CE
   - D365FS

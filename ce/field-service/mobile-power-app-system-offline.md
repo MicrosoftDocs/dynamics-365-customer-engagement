@@ -5,6 +5,7 @@ ms.custom:
   - dyn365-fieldservice
 ms.date: 10/30/2020
 ms.reviewer: krbjoran
+ms.topic: article
 ms.service: dynamics-365-customerservice
 applies_to: 
   - "Dynamics 365 (online)"
@@ -33,6 +34,11 @@ Administrators can control what data is downloaded to the Field Service (Dynamic
 > When the technician has internet connectivity, data on the device will automatically be refreshed at a minimum interval of five minutes.
 
 For more information on offline profiles, see the article on [setting up mobile offline synchronization](https://docs.microsoft.com/dynamics365/mobile-app/preview-setup-mobile-offline).
+
+
+For a guided walkthrough, check out the following video.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4J8no]
 
 ## Set up an offline profile
 

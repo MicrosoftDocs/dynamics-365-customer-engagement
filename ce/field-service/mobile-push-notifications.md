@@ -1,25 +1,17 @@
 ---
 title: "Push notifications in Field Service Mobile | MicrosoftDocs"
+description: Learn about push notifications in Field Service Mobile
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 03/14/2019
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 author: FieldServiceDave
-ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
-caps.latest.revision: 42
 ms.author: daclar
-search.audienceType: 
-  - admin
-  - customizer
 search.app: 
   - D365CE
   - D365FS
@@ -34,7 +26,7 @@ Push notifications can be used to:
 - notify field technicians they have been assigned a booking
 - remind field technicians to enter important business data
 
-In this topic, we'll show you how to create and customize push notifications to notify technicians on their mobile devices. 
+In this article, we'll show you how to create and customize push notifications to notify technicians on their mobile devices. 
 
 ## Prerequisites
 
@@ -44,7 +36,7 @@ To use Field Service Mobile push notifications, you'll need:
 - The [mobile configuration tool (Woodford solution)](https://aka.ms/fsmobile-configurator) must be downloaded and imported as a solution in your environment (minimum version 11.1).
 - Field Service Mobile v11.1+ for Windows, iOS, or Android devices. Visit the app's **About** section to check which version you have.
 - Consent for notifications in your device's settings for the **Field Service Mobile** app.
-- Review the [privacy notes for Field Service Mobile push notifications](mobile-push-notifications-privacy.md). **PLEASE NOTE:** Google Cloud Messaging, Apple Push Notification, and Windows Push Notification services are not provisioned in a dedicated data center for exclusive use by you and does not provide data segregation, such as for the Government Community Cloud. Your use of Google Cloud Messaging, Apple Push Notification, and Windows Push Notification services shall not be subject to any product-specific terms and conditions applicable to Dynamics 365 online for Government. If you do not wish to use the Push Notification, then you must ensure that your administrator keeps the feature off.
+- Review the [privacy notes for Field Service Mobile push notifications](mobile-push-notifications-privacy.md). **PLEASE NOTE:** Google Cloud Messaging, Apple Push Notification, and Windows Push Notification services are not provisioned in a dedicated data center for exclusive use by you and does not provide data segregation, such as for the Government Community Cloud. Your use of Google Cloud Messaging, Apple Push Notification, and Windows Push Notification services shall not be subject to any product-specific terms and conditions applicable to Dynamics 365 online for Government. If you do not wish to use the push notification, then you must ensure that your administrator keeps the feature turned off.
 
 ## Notify a user about a booking
 
@@ -136,7 +128,7 @@ To send these push notifications, the customer data detailed below must flow to 
 ## Configuration considerations
 
 - Sometimes after selecting a push notification and opening the Field Service Mobile app, you may be prompted with the **Entity not Found!** message seen in the screenshot at the end of this section. This means you're in offline mode and the particular record you're trying to open is not on the device.
-  - By selecting **Go Online**, you can connect directly to the server to view the the push notification record.
+  - By selecting **Go Online**, you can connect directly to the server to view the push notification record.
   - By selecting **Sync**, you can remain offline but pull new updates locally to the device. However, this does not guarantee the record of the push notification will become available; it could be outside the sync filters defined for that entity.
 
 > [!div class="mx-imgBorder"]
@@ -150,4 +142,4 @@ To send these push notifications, the customer data detailed below must flow to 
 
 ### See also
 
-- For more information on sync filters see the [Woodford guide (PDF)](https://www.resco.net/downloads/Woodford_Guide.pdf).
+- For more information on sync filters, see the [Woodford guide (PDF)](https://www.resco.net/downloads/Woodford_Guide.pdf).

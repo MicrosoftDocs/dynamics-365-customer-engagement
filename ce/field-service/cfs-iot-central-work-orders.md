@@ -1,18 +1,13 @@
 ---
-title: "Send work order updates to IoT Central | MicrosoftDocs"
+title: "Send work order updates to Azure IoT Central | MicrosoftDocs"
+description: Learn how to send work order updates to IoT Central.
 ms.custom: dyn365-fieldservice
 ms.date: 09/24/2018
-ms.reviewer: 
-ms.suite: 
-ms.technology: 
-  - field-service
-ms.author: vihuang
+ms.service: dynamics-365-customerservice
+ms.topic: article
+ms.author: daclar
 author: FieldServiceDave
 ms.reviewer: krbjoran
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
 search.app: 
   - D365CE
   - D365FS
@@ -42,7 +37,7 @@ Make Connected Field Service send service information to Azure IoT Central when 
 Note: Alternatively, you can navigate directly to [the Power Automate templates page](https://preview.flow.microsoft.com/templates/) and search "CFS" to find this template, as seen below.
   
 > [!div class="mx-imgBorder"]
-> ![Screenshot of CFS templates in Power Automate](media/iot-central-work-orders-2.png)
+> ![Screenshot of Connected Field Service templates in Power Automate](media/iot-central-work-orders-2.png)
 
 5. Sign into Power Automate with your Dynamics 365 organization, along with your associated IoT Central account.
 

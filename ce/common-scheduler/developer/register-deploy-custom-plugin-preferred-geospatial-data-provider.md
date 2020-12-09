@@ -10,19 +10,9 @@ searchScope:
   - Project Service
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.technology: 
-  - field-service
-  - project-service
-ms.tgt_pltfrm: 
 ms.topic: conceptual
-ms.assetid: 2a66c688-24af-4c06-8ccd-43f7d1b055e1
 author: FieldServiceDave
 ms.author: daclar
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
 search.app: 
   - D365CE
   - D365PS
@@ -32,7 +22,7 @@ search.app:
 
 Before a plug-in can be used, it must be registered and deployed on the server.
 
-Building your plug-in project will result in a plug-in assembly (.dll). This topic provides information on how you can register and deploy the plug-in assembly for the two geospatial actions to use your preferred geospatial data provider. For information about writing a plugin, see [Create custom plug-in to use your preferred geospatial data provider](create-custom-plugin-preferred-geospatial-data-provider.md)
+Building your plug-in project will result in a plug-in assembly (.dll). This article provides information on how you can register and deploy the plug-in assembly for the two geospatial actions to use your preferred geospatial data provider. For information about writing a plugin, see [Create custom plug-in to use your preferred geospatial data provider](create-custom-plugin-preferred-geospatial-data-provider.md)
 
 ## Execution order considerations while registering your custom plug-in
 
@@ -61,7 +51,7 @@ For this section, we will use the Plug-in Registration tool, which provides a gr
 2. Navigate to the `[Your folder]\Tools\PluginRegistration` folder, and double-click the **PluginRegistration.exe** file to run the tool.
 3. Click **CREATE NEW CONNECTION**.
 4. In the **Login** dialog, specify the credentials to connect to your Dynamics 365 instance, and click **Login**.
-5. If you have access to multiple organizations in the Dynamics 365 instance, you are prseneted with a list of organizations to choose to connect to. Otherwise, your default organization is used.
+5. If you have access to multiple organizations in the Dynamics 365 instance, you are presented with a list of organizations to choose to connect to. Otherwise, your default organization is used.
 6. You should see a collapsed list of registered plug-in or custom workflow activity assemblies. Select **Register** > **Register New Assembly**.
 7. In the **Register New Assembly** dialog box:
     
@@ -85,7 +75,7 @@ For this section, we will use the Plug-in Registration tool, which provides a gr
 
 10. In the **Register New Step** dialog box, specify the following:
     - **Message**: msdyn_RetrieveDistanceMatrix
-    - **Execution Order**: As required. See [Execution order considerations while registering your custom plug-in](#execution-order-considerations-while-registering-your-custom-plug-in) earlier in this topic.
+    - **Execution Order**: As required. See [Execution order considerations while registering your custom plug-in](#execution-order-considerations-while-registering-your-custom-plug-in) earlier in this article.
     - **Event Pipeline Stage of Execution**: PostOperation
     - **Execution Mode**: Synchronous
     - Leave the rest of the fields with their default values. Click **Register New Step**. 
@@ -103,7 +93,7 @@ For this section, we will use the Plug-in Registration tool, which provides a gr
 
     ![](../media/FS-register-step-geocodeaddress.png)
 
-You are now done with registering steps to call your custom plug-in for the both the geospatial actions. 
+You are now done with registering steps to call your custom plug-in for both the geospatial actions. 
 
 If you view any of the Universal Resource Scheduling geospatial actions in the Plug-in Registration tool, you will see both the default and your custom plug-in registered for the action. For example, see the plug-ins for the **mdyn_GeocodeAddress** action.
 

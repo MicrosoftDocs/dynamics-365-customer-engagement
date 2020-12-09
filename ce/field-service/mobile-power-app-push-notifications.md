@@ -1,10 +1,11 @@
 ---
-title: "Enable Push Notifications for the Field Service (Dynamics 365) mobile app | MicrosoftDocs"
-description: Learn how to configure the Field Service (Dynamics 365) mobile app.
+title: "Enable push notifications for the Field Service (Dynamics 365) mobile app | MicrosoftDocs"
+description: Learn how to enable push notifications for the Field Service (Dynamics 365) mobile app.
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 10/30/2020
 ms.reviewer: krbjoran
+ms.topic: article
 ms.service: dynamics-365-customerservice
 applies_to: 
   - "Dynamics 365 (online)"

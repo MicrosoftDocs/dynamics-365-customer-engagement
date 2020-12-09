@@ -1,19 +1,14 @@
 ---
 title: "Connected Field Service for Azure IoT Central - Overview | MicrosoftDocs"
+description: Learn about Connected Field Service for Azure IoT Central.
 ms.custom: dyn365-fieldservice
 ms.date: 11/08/2018
-ms.author: vihuang
+ms.author: daclar
 ms.reviewer: krbjoran
-ms.suite: 
-ms.technology: 
-  - field-service
-ms.tgt_pltfrm: 
+ms.service: dynamics-365-customerservice
+ms.topic: overview
 author: FieldServiceDave
-ms.manager: shellyhaverkamp
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
+ms.manager: shellyha
 search.app: 
   - D365CE
   - D365FS

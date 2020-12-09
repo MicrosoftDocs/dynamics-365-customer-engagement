@@ -4,16 +4,11 @@ description: Learn how to collaborate in mixed reality by integrating Dynamics 3
 ms.custom: dyn365-fieldservice
 ms.date: 08/01/2020
 ms.reviewer: krbjoran
-ms.suite: 
-ms.technology: 
-  - field-service
+ms.service: dynamics-365-customerservice
+ms.topic: article
 author: FieldServiceDave
 ms.author: daclar
 ms.manager: shellyhaverkamp
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
 search.app: 
   - D365CE
   - D365FS
@@ -28,9 +23,9 @@ By integrating Field Service and Dynamics 365 Remote Assist, you can:
 
 - Launch Dynamics 365 Remote Assist mobile directly from a Field Service Mobile booking via deep links.
 - See relevant work order information.
-- Post the Dynamics 365 Assist call information to the associated work order's timeline.
+- Post the Dynamics 365 Remote Assist call information to the associated work order's timeline.
 
-In this article, we'll explore how a field technician can use the Dynamics 365 Remote Assist mobile app to make a call to an expert for help completing a work order. We'll also explore the requirements to set up and use Dynamics 365 Remote Assist and Field Service together on the HoloLens.
+In this article, we'll explore how a field technician can use the Dynamics 365 Remote Assist mobile app to make a call to an expert for help with completing a work order. We'll also explore the requirements to set up and use Dynamics 365 Remote Assist and Field Service together on the HoloLens.
 
 For a guided walkthrough, see the following video.
 
@@ -40,7 +35,7 @@ For a guided walkthrough, see the following video.
 
 Before you begin, make sure you have the following set-up:
 
-- A Microsoft Azure tenant with a Dynamics 365 subscription **and** a Dynamics 365 Remote Assist subscription. Both are required — Dynamics 365 Remote Assist is not included in any Dynamics 365 bundle.
+- A Microsoft Azure tenant with a Dynamics 365 subscription **and** a Dynamics 365 Remote Assist subscription. Both are required—Dynamics 365 Remote Assist is not included in any Dynamics 365 bundle.
 
   > [!NOTE]  
   > The tenant can have more than one Dynamics 365 instance. Dynamics 365 Remote Assist has the option to select an instance from within the app.
@@ -106,7 +101,7 @@ Next, create a work order to outline the onsite work the technician or front lin
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a Field Service work order in a desktop, with attention to the support contact field.](./media/remote-assist-field-service-work-order-support-contact.png)
 
-Schedule the work order to the bookable resource that represents the technician also known as the front line worker who travels to customer locations to complete work orders. In our example, Abraham McCormick is the bookable resource and we scheduled work orders to him with Resource Scheduling Optimization.
+Schedule the work order to the bookable resource that represents the technician also known as the front line worker who travels to customer locations to complete work orders. In our example, Abraham McCormick is the bookable resource and we scheduled work orders to them with resource scheduling optimization.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Abraham McCormick's booked work order on the Field Service schedule board, in a desktop window.](./media/remote-assist-field-service-work-order-schedule.png)
