@@ -26,7 +26,7 @@ In this article, we'll take a look at more advanced scenarios for using inspecti
 
 For a guided walkthrough, check out the following video.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4JiMF]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4JiMF]
 
 ## Branching and conditional logic
 
