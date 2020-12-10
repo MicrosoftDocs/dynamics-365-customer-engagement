@@ -8,9 +8,8 @@ ms.custom:
 ms.topic: article
 author: cabeln
 ms.author: cabeln
-manager: 
+manager: shellyha
 ms.reviewer: alfergus
-topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer

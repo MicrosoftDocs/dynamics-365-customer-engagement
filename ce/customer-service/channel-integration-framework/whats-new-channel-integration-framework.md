@@ -51,7 +51,7 @@ More information: [Support for multiple providers](support-multiple-providers.md
 
 The contact center analytics need operational and conversational data to provide historical and real-time insights into the performance of the contact center. To get precise insights into the call center performance, the analysts need data from the following sources 
 
-- **CRM transactional data**: The data about the customers, their cases, their journey and all round relationship with the organizations. This is stored in Common Data Services 
+- **CRM transactional data**: The data about the customers, their cases, their journey and all round relationship with the organizations. This is stored in Microsoft Dataverse 
 - **Communication Data**: The data about the interactions (intended, ongoing and completed) with known and unknown customers 
 - **Agent Behavior Data**: The data about the behavior of agents before, during and after the interactions. 
 

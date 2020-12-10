@@ -3,7 +3,7 @@ title: "Dynamics 365 Field Service Mobile version history | MicrosoftDocs"
 description: Find a list of important updates for Dynamics 365 Field Service mobile apps.
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 09/18/2020
+ms.date: 12/07/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.topic: article
@@ -18,9 +18,12 @@ search.app:
   - D365FS
 ---
 
-# Dynamics 365 Field Service Mobile version history
+# Field Service Mobile (Xamarin) version history
 
-This article chronicles important updates related to Field Service Mobile and associated mobile project templates.
+> [!IMPORTANT]
+> We recommend using the [Field Service (Dynamics 365) mobile app](mobile-power-app-overview.md) instead of the Field Service Mobile (Xamarin) app to benefit from the new features and continuous investments in the platform. While the new Field Service (Dynamics 365) mobile app continues to evolve, we'll continue to make available and support the current Field Service Mobile (Xamarin) app. By June 2021, new deployments must use the Field Service (Dynamics 365) mobile app; support for the current Field Service Mobile (Xamarin) app will end June 2022.
+
+This article chronicles important updates related to Field Service Mobile (Xamarin) app and associated mobile project templates.
 
 ## 12.3.206
 

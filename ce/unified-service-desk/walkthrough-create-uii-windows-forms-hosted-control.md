@@ -202,7 +202,7 @@ This walkthrough demonstrates how you can build a [Windows Forms](https://msdn.m
 ## Test the hosted control  
  Before you test the [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] Windows Forms hosted control, ensure that your sample web application is running so that it renders within [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  
   
-1. Run the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client to connect to your Common Data Service platform server.  
+1. Run the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client to connect to your Microsoft Dataverse server.  
   
 2. On successful sign in, you’ll see three hosted controls: **Sample UII Windows Forms Hosted Control**, **Sample External Web Application**, and **Sample External Application**.  
   

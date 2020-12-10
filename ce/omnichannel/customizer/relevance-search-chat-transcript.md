@@ -30,7 +30,7 @@ Ensure that relevance search is enabled in your environment. To learn more, see 
 
 ## Step 1: Configure relevance search for the Note entity<a name="step1"></a>
 
-1. Sign in to Common Data Service.
+1. Sign in to Dynamics 365.
 
 2. Select **Settings** > **Customizations** > **Customize the System**. The **Solution: Default Solution - Microsoft Dynamics 365** window appears.
 

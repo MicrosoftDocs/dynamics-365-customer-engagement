@@ -64,7 +64,7 @@ First, you need to create agent scripts in the Omnichannel Administration app. T
     | Field | Description | Value |
     |------------|------------------------------|-------------------|
     | Name | Provide a name for the agent script. | Chat session script |
-    | Language | Select a language from the list. The languages that are enabled in Common Data Service appear in the list. | English |
+    | Language | Select a language from the list. The languages that are enabled in Microsoft Dataverse appear in the list. | English |
     | Description | Describe the agent script. | This agent script is used for chat sessions. |
 
 5. Select **Save**. The **Agent script steps** appears.
