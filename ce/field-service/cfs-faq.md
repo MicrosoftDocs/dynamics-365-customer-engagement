@@ -1,6 +1,6 @@
 ---
 title: "Frequently asked questions for Connected Field Service | MicrosoftDocs"
-description: description
+description: Find answers to frequently asked questions for Connected Field Service
 ms.custom:
 - dyn365-fieldservice
 ms.date: 11/19/2020
@@ -21,13 +21,13 @@ search.app:
 
 # Frequently asked questions for Connected Field Service
 
-## Why can't I Pull Device Data?
+## Why can't I pull device data?
 
-Sometimes you may see there are no records in Device Data History for a device or there is no data in the Device Reported Properties after Pulling devic data.  
+Sometimes you may see there are no records in a device's data history, or there is no data in the device reported properties after pulling devic data.  
 
-One reason Pull device data may fail especially if registering devices works, is the IoT Hub tier is not set to "S1-Standard". 
+One reason pull device data may fail (especially if you've successfully registered the device) is because the IoT Hub tier is not set to **S1-Standard**. 
 
-Go to the Azure portal, then find your IoT Hub resource, then set Pricing and scale tier to "S1-Standard".
+Go to the Azure portal, find your IoT Hub resource, then set pricing and scale tier to "S1-Standard".
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/cfs-pricing-tier.png)
