@@ -29,12 +29,10 @@ The Chrome Process browser control hosts your controls in isolated Chrome Proces
 > - Unified Service Desk version 4.1.1.1397 supports Chromium version 71.
 
 The advantages of using the Chrome process hosting method are as follows:
-<!--note from editor: You don't need an image that is solely text; it's an unnecessary localization expense. Suggest deleting.-->
-![Advantages of Chrome Process](media/chrome-process-value-props.PNG "Advantages of Chrome Process")
 
 - It's available on different Windows operating system versions.
 - It's highly reliable.
-- You can easily make configurations to host applications in Unified Service Desk.<!--note from editor: Is this what "Easy configurations to host applications" meant?-->
+- You can easily make configurations to host applications in Unified Service Desk.
 - You can switch easily from one browser to another for your entire organization.
 - The Chrome Process pooling feature that reuses the Chrome processes and mimics inline navigation provides enhanced performance and memory optimization.
 
@@ -59,7 +57,7 @@ If you want to set Chrome Process only for some agents in your organization, in 
 Enable Chrome Process in one of the following ways:
 
 - Create an individual hosted control with the hosting type of Chrome Process.
-- Enable Chrome for individual client desktops.<!--note from editor: Is it correct to refer simply to "Chrome" here and in the next line?-->
+- Enable Chrome for individual client desktops.
 - Enable Chrome for an entire organization.
 
 <a name="create-a-hosted-control-with-hosting-type-as-chrome"></a>
@@ -240,7 +238,7 @@ Let's see what configurations you need to create for this scenario.
 
 ## Sign out from sessions when using Chrome Process
 
-To sign out from sessions when using Chrome Process, you must configure the sign-out URL by using the **Navigate** action on the hosted control. For example, the sign-out URL is `url=/main.aspx?signout=1`.<!--note from editor: Is this an example or actually the necessary value?-->
+To sign out from sessions when using Chrome Process, you must configure the sign-out URL by using the **Navigate** action on the hosted control. For example, the sign-out URL is `url=/main.aspx?signout=1`.
 
 ## Support for webcam and microphone access with Chrome Process
 
