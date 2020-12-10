@@ -41,7 +41,7 @@ This article describes what’s needed to author [!INCLUDE[pn_dynamics_crm](../i
   
 - **Dynamics 365 Report Authoring Extension**. This is required if you are writing custom Fetch-based reports. Notice that Dynamics 365 customer engagement apps, such as Dynamics 365 Sales and Dynamics 365 Customer Service, only support Fetch-based reports. Dynamics 365 Report Authoring Extension must be installed on the computer where [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)] and [!INCLUDE[pn_sql_server_data_tools](../includes/pn-sql-server-data-tools.md)] are installed. [Download: Dynamics 365 Report Authoring Extension](https://www.microsoft.com/download/details.aspx?id=56973). For installation instructions, see [Install Dynamics 365 Report Authoring Extension](install-dynamics-365-report-authoring-extension.md).  
 
-- **Microsoft Reporting Services Projects extension**. The [Report Services Projects extension](https://marketplace.visualstudio.com/items?itemName=ProBITools.MicrosoftReportProjectsforVisualStudio) is required to create report server projects.
+- **Microsoft Reporting Services Projects extension**. Used to create report server projects. The extension is included with Visual Studio 2015. For later versions, see [Report Services Projects extension](https://marketplace.visualstudio.com/items?itemName=ProBITools.MicrosoftReportProjectsforVisualStudio).
 
 > [!NOTE]
 > - You can’t use SQL Server Reporting Services Report Builder to author FetchXML reports. The Dynamics 365 Report Authoring Extension for SQL Server Data Tools is used to author FetchXML reports.
