@@ -28,7 +28,7 @@ Field Service inspections are digital forms that technicians use to quickly and 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of an inspection on a tablet and a phone](./media/inspections-mobile-2020-tablet-phone.png)
 
-With a drag-and-drop interface, inspections are easy to create, and are easier for technicians to fill out compared to paper forms. Inspection answers are [stored in Common Data Service](https://docs.microsoft.com/dynamics365/field-service/inspections-advanced#understand-view-and-report-inspection-responses), making it easy to report on results and fit inspections into your automated business processes.
+With a drag-and-drop interface, inspections are easy to create, and are easier for technicians to fill out compared to paper forms. Inspection answers are [stored in Microsoft Dataverse](https://docs.microsoft.com/dynamics365/field-service/inspections-advanced#understand-view-and-report-inspection-responses), making it easy to report on results and fit inspections into your automated business processes.
 
 Inspections in Field Service also provide: 
 
