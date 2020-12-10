@@ -1,6 +1,16 @@
 {
   "redirections": [
     {
+      "source_path": "ce/customer-service/extend-tranformer-logic-template.md",
+      "redirect_url": "extend-transformer-logic-template",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/omnichannel/customizer/relevance-search-chat-transcript.md",
+      "redirect_url": "../../customer-service/relevance-search-chat-transcript",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/mobile-app/v8/configure/configure-mobile-offline-synchronization.md",
       "redirect_url": "../../preview-setup-mobile-offline",
       "redirect_document_id": "false"
