@@ -1,19 +1,15 @@
 ---
-title: "Overview of Marketing settings in Dynamics 365 Marketing | Microsoft Docs"
-description: "Get an overview of marketing settings and find links to details about each page in the Marketing settings section of the advanced settings work area in Dynamics 365 Marketing"
-keywords: administration; landing page; marketing insights sync
+title: "Overview of Marketing settings in Dynamics 365 Marketing (Dynamics 365 Marketing) | Microsoft Docs"
+description: "Get an overview of marketing settings and find links to details about each page in the Marketing settings section of the advanced settings work area in Dynamics 365 Marketing."
 ms.date: 10/04/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing
 ms.topic: article
-ms.assetid: 4b69ec65-17f9-4a51-a1f2-abdeca4533aa
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer
