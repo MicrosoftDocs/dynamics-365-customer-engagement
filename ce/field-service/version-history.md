@@ -17,11 +17,11 @@ search.app:
   - D365FS
 ---
 
-# Field Service version history
+# Dynamics 365 Field Service version history
 
 ## Release schedule
 
-When a new version oF Field Service is released, it becomes available in different geographic regions at different times. Use the table below to see when the next release will become available in the region of your environment.
+When a new version of Dynamics 365 Field Service is released, it becomes available in different geographic regions at different times. Use the table below to see when the next release will become available in the region of your environment.
 
 For information about other updates to Field Service, visit the [Dynamics 365 release plans](https://docs.microsoft.com/dynamics365/release-plans/). 
 
