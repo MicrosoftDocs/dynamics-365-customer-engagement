@@ -48,5 +48,5 @@ Also, you can open the entity and then tap **Edit** on the top-right corner of t
 
 ### See also
 
-[Learn the basics](sales-mobile/learn-basics-mobile-app.md)   
-[View meetings](sales-mobile/view-agenda.md)
+[Learn the basics](learn-basics-mobile-app.md)   
+[View meetings](view-agenda.md)

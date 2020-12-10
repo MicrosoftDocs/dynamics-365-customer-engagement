@@ -27,7 +27,7 @@ With the Dynamics 365 Sales mobile app, you can do the following (and much more)
 
 - Find required information and act accordingly: Find a contact you want to reach out to with ease, or find the recent records you worked on.
 
-The Dynamics 365 Sales mobile app can be installed on iOS and Android devices. More information: [Install the app](install-app.md)
+The Dynamics 365 Sales mobile app can be installed on [iOS](install-ios-app.md) and [Android](install-android-app.md). 
 
 ### See also
 
