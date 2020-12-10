@@ -33,6 +33,6 @@ Use the following links to download a template for running the report on your ow
 
 ![Marketing reach analysis](media/MarketingReach/MarketingReach-ReachPerJourneyWithActivities.png "Show journeys and the activities of your audience")
 
-![Marketing reach analysis](media/MarketingReach/MarketingReach-ContactsInMarketingAutomation.png "Find contacts included in customer journeys and their activities")
+![Contacts in marketing automation](media/MarketingReach/MarketingReach-ContactsInMarketingAutomation.png "Find contacts included in customer journeys and their activities")
 
 ***Happy analytics reporting with Dynamics 365 Marketing!***
