@@ -324,9 +324,7 @@ If an inspection question is required, the technician will not be able to mark *
 
 - New inspections cannot be created or designed from small form factors like mobile devices.
 
-- Inspections cannot be exported and imported to other environments
-
-- Inspection 
+- Inspections cannot be exported and imported to other environments.
 
 ### Known issues
 
