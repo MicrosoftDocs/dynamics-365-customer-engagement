@@ -31,7 +31,7 @@ If you want to configure the sign-in experience, such as by pre-populating value
 
 1. Start the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client by double-clicking the application shortcut on your desktop.  
 
-2. In the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sign-in dialog box, provide authentication details to connect to your Dataverse server.<!--note from editor: Image shows **Office 365**, should it be updated?-->
+2. In the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sign-in dialog box, provide authentication details to connect to your Dataverse server.
 
    ![Unified Service Desk client sign-in screen](../../unified-service-desk/media/usd-login.PNG "Unified Service Desk client sign-in screen")  
 
@@ -47,7 +47,7 @@ If you want to configure the sign-in experience, such as by pre-populating value
 
    - If you have multiple organizations and want to select the organization where [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] is deployed, select the **Display list of available organizations** check box, and then select **Login**.  
 
-3. If you have multiple organizations, select the organization you want to connect to.<!--note from editor: Can this step be combined with the previous sentence? You don't want to have the whole numbered step only apply to one condition like this.-->  
+3. If you have multiple organizations, select the organization you want to connect to.
 
 4. The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] splash screen appears. This screen shows information about the configuration data being read by the client in the background. Next, the main window appears and prompts you to enter your Dataverse server credentials. Enter your credentials, and then sign in to the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application.  
 
@@ -61,7 +61,7 @@ If you want to configure the sign-in experience, such as by pre-populating value
 
 ## Single sign-on for Unified Service Desk
 
-Single sign-on (SSO) for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] provides an improved startup performance and user experience by authenticating users to access model-driven apps without the need for entering their credentials multiple times. This eliminates the need for entering the same password again, thereby minimizing the likelihood of sign-in errors,<!--note from editor: Suggested.--> and helps ensure a seamless user experience.
+Single sign-on (SSO) for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] provides an improved startup performance and user experience by authenticating users to access model-driven apps without the need for entering their credentials multiple times. This eliminates the need for entering the same password again, thereby minimizing the likelihood of sign-in errors, and helps ensure a seamless user experience.
 
 ### Understand SSO for Unified Service Desk
 
@@ -70,7 +70,7 @@ While signing in to [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified
 By default, the SSO feature is disabled for the Chrome Process. To enable the SSO feature, follow the steps in [Change the SingleSignOnThreshold value](#change-the-singlesignonthreshold-value). With SSO, you need to enter the credentials only once while signing in to the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application and the Dataverse server.
 
 > [!NOTE]
-> - The SSO feature is available only for model-driven apps<!--note from editor: Edit okay, to be consistent?--> and Unified Service Desk.
+> - The SSO feature is available only for model-driven apps and Unified Service Desk.
 >
 > - If your organization has enforced the inactivity session timeout for agents, with the Chrome Process the agent won't be automatically signed out when the inactivity session timeout expires because SSO is enabled by default. If you want to enforce an inactivity session timeout for agents, disable the SSO feature for the Chrome Process. More information: [Disable single sign-on](#enable-or-disable-single-sign-on)
 >
@@ -78,13 +78,13 @@ By default, the SSO feature is disabled for the Chrome Process. To enable the SS
 
 **SingleSignOnThreshold** is a UII option that indicates the timeout period in milliseconds (ms) for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to wait before showing a dialog box to enter credentials to sign in to the Dataverse server. By default, the **SingleSignOnThreshold** value is 5,000 ms. To learn more, see [Manage options in Unified Service Desk](../admin/manage-options-unified-service-desk.md). The **SingleSignOnThreshold** UII option works only when you configure the **SingleSignOnEnabledBrowsers** UII option and specify a valid value.
 
-To change the timeout<!--note from editor: Suggested, because the last value you mention is for a different setting.--> value, configure the **SingleSignOnThreshold** UII option and enter a value in the range from 1,000 through 60,000 ms. If you enter a value less than 1,000 ms<!--note from editor: Edit okay? I don't think "More than 0" can be correct, since all acceptable values are technically more than 0.--> or more than 60,000 ms, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] resets the value to the default of 5,000 ms.
+To change the timeout value, configure the **SingleSignOnThreshold** UII option and enter a value in the range from 1,000 through 60,000 ms. If you enter a value less than 1,000 ms or more than 60,000 ms, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] resets the value to the default of 5,000 ms.
 
 |Value in ms | Description |
 |-------|------------------------|
 | 5,000 | Default value |
 | 1,000&ndash;60,000 | Accepted value range |
-| > 60,000 | Value is reset to 5,000 ms<!--note from editor: Edit okay?--> |
+| > 60,000 | Value is reset to 5,000 ms |
 
 ### Change the SingleSignOnThreshold value
 
@@ -92,7 +92,7 @@ To change the timeout<!--note from editor: Suggested, because the last value you
 
 2. Select **Options**.  
 
-3. On the **Active UII Options** page, select **+ New**.<!--note from editor: You generally want to orient the user to the place in the UI first, and then supply the action. The Writing Style Guide says it's okay to combine actions into one step (as shown in the following step) if they take place in the same area.-->
+3. On the **Active UII Options** page, select **+ New**.
 
 4. For **Name**, enter **SingleSignOnThreshold**. For **Value**, enter the time in ms.
 
@@ -125,7 +125,7 @@ To enable the SSO feature, you must the configure the **SingleSignOnEnabledBrows
 If needed, administrators can configure the sign-in experience for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] by pre-populating values (except username and password) in the sign-in dialog box so users can connect to the specified Dataverse instance, or they can configure it to automatically sign in users to an on-premises Dataverse instance based on the user's [!INCLUDE[pn_Active_Directory](../../includes/pn-active-directory.md)] credentials without even displaying the sign-in dialog box.
 
 > [!NOTE]
->  You can't add or remove the fields in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sign-in dialog box. You can only specify the values that will appear in the fields when a user tries to sign in. However, users can change the pre-populated values in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sign-in dialog box before signing in.<!--note from editor: Does this need further explaining? Or can users perform the following procedure in addition to admins?-->
+>  You can't add or remove the fields in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sign-in dialog box. You can only specify the values that will appear in the fields when a user tries to sign in. However, users can change the pre-populated values in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sign-in dialog box before signing in.
 
 To configure sign-in information, use the UnifiedServiceDesk.exe.config file that's available in the client installation directory (typically C:\Program Files\Microsoft Dynamics CRM USD\USD).  
 
