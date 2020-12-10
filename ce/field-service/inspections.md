@@ -92,13 +92,12 @@ Add a question to the inspection by double-clicking or dragging-and-dropping a q
 
 - **File:** Allows technicians to upload a file, take picture, or choose picture from their camera roll.
 
-- **Barcode scan** Allows technicians to populate the field with the barcode number by scanning a barcode with their device's camera. Choose "Textbox" question type then select **Barcode** for Input type in the Advanced section.
+- **Barcode scan:** Allows technicians to populate the field with the barcode number by scanning a barcode with their device's camera. Choose "Textbox" question type, then select **Barcode** for input type in the **Advanced** section.
 
-- **Matrix(Dynamic)** Add a grid of questions to which more rows can be added dynamically while performing the inspection. See image below.
+- **Matrix (Dynamic):** Adds a grid of questions. More rows can be added dynamically while performing the inspection. See the following screenshot for an exampl.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/inspections-matrix-barcode.png)
-
+> ![Device render showing an inspection form allowing adding more rows.](./media/inspections-matrix-barcode.png)
 
 Use the **Required** toggle to make the inspection question mandatory.
 
