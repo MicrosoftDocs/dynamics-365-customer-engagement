@@ -1,18 +1,14 @@
 ---
 title: "Move customizations between environments (Dynamics 365 Marketing) | Microsoft Docs"
-description: "How to move customizations between environments using solution export/import in Dynamics 365 Marketing"
-keywords: 
+description: "How to move customizations between environments using solution export/import in Dynamics 365 Marketing."
 ms.date: 12/02/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-ms.assetid: e250fadf-55ca-4116-b911-12e7b3005e08
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status:
 search.audienceType: 
   - admin
   - customizer

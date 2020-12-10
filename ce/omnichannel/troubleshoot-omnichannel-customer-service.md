@@ -521,7 +521,7 @@ After you sign in to the Unified Service Desk client application, you see the fo
    > [!div class=mx-imgBorder]
    > ![Unified Service Desk application error](media/oceh/usd-communication-panel-error.png "Unified Service Desk application error")
 
-While signing in to Unified Service Desk you must enter the Customer Service app credentials and sign in, and again, you are shown a dialog to enter credentials to connect to Common Data Service platform server.
+While signing in to Unified Service Desk you must enter the Customer Service app credentials and sign in, and again, you are shown a dialog to enter credentials to connect to Dataverse server.
 When you enter different credentials, this issue occurs. 
 
 ### Resolution
@@ -611,9 +611,9 @@ After you delete the solutions, import the Unified Service Desk - Omnichannel fo
 
 To delete the solutions, follow these steps:
 
-1. Sign in to the Common Data Service platform.
+1. Sign in to the Dynamics 365 instance.
 2. Choose **Settings** > **Solutions** on the nav bar.
-4. Select one of the solutions on the **Solutions** page by selecting the check box, and then choose **Delete**. You are prompted to confirm uninstalling a managed solution. Choose **OK** to proceed. <br>
+3. Select one of the solutions on the **Solutions** page by selecting the check box, and then choose **Delete**. You are prompted to confirm uninstalling a managed solution. Choose **OK** to proceed. <br>
    - USDISHCustomization or USDWebClientCustomization (one of these solutions would be present depending on the org template)
    - USDUnifiedInterfaceCustomization
    - DynamicsUnifiedServiceDesk
@@ -626,7 +626,7 @@ To delete the solutions, follow these steps:
       > 4. UiiForMicrosoftDynamicsCRM2011
       > 
       >  You must follow the order to remove the solutions because some of the components in the solution depend on the components in the other solution.
-5. After the solution is removed, repeat the steps to delete the other solutions.
+4. After the solution is removed, repeat the steps to delete the other solutions.
 
 ## Unable to launch Unified Service Desk client application
 

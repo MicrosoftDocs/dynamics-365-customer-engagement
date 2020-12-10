@@ -1,5 +1,5 @@
 ---
-title: "Marketing program effectiveness analysis for Dynamics 365 Marketing | Microsoft Docs"
+title: "Marketing program effectiveness analysis for Dynamics 365 Marketing (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Get the end-to-end marketing program effectiveness analysis, including automation, journeys, channels, lead generation, conversion and revenue generation."
 ms.date: 11/22/2019
 ms.service: dynamics-365-marketing
@@ -8,9 +8,8 @@ ms.custom:
 ms.topic: article
 author: cabeln
 ms.author: cabeln
-manager: 
+manager: shellyha
 ms.reviewer: alfergus
-topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer
@@ -26,7 +25,7 @@ Use this report to analyze the end-to-end effectiveness of your marketing progra
 
 |Download report template  |Download sample report  |
 |---------|---------|
-|[![Download template](media/IconDownloadTemplate30.png)](https://github.com/microsoft/Dynamics-365-for-Marketing---Power-BI-Reporting/raw/master/PowerBI-Templates/MarketingAnalyzers%20-%20Marketing%20Automation.pbit)|[![Download template](media/IconDownloadReport30.png)](https://github.com/microsoft/Dynamics-365-for-Marketing---Power-BI-Reporting/raw/master/pbx%20files/MarketingAnalyzers%20-%20Marketing%20Automation.pbix)|
+|[![Download template](media/IconDownloadTemplate30.png)](https://github.com/microsoft/Dynamics-365-for-Marketing---Power-BI-Reporting/raw/master/PowerBI-Templates/MarketingAnalyzers%20-%20Marketing%20Automation.pbit)|[![Download report](media/IconDownloadReport30.png)](https://github.com/microsoft/Dynamics-365-for-Marketing---Power-BI-Reporting/raw/master/pbx%20files/MarketingAnalyzers%20-%20Marketing%20Automation.pbix)|
 
 > [!NOTE]
 > You can find the full list of marketing analytics downloads in the [marketing analytics reporting gallery](analytics-gallery-start.md#gallery).

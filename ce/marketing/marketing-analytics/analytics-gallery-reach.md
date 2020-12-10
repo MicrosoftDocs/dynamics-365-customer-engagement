@@ -1,5 +1,5 @@
 ---
-title: "Marketing reach analysis for Dynamics 365 Marketing | Microsoft Docs"
+title: "Marketing reach analysis for Dynamics 365 Marketing (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Identify contacts and how you're reaching out to them. See all audiences reached in select journeys with the respective interactions generated."
 ms.date: 11/22/2019
 ms.service: dynamics-365-marketing
@@ -8,9 +8,8 @@ ms.custom:
 ms.topic: article
 author: cabeln
 ms.author: cabeln
-manager: 
+manager: shellyha
 ms.reviewer: alfergus
-topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer
@@ -34,6 +33,6 @@ Use the following links to download a template for running the report on your ow
 
 ![Marketing reach analysis](media/MarketingReach/MarketingReach-ReachPerJourneyWithActivities.png "Show journeys and the activities of your audience")
 
-![Marketing reach analysis](media/MarketingReach/MarketingReach-ContactsInMarketingAutomation.png "Find contacts included in customer journeys and their activities")
+![Contacts in marketing automation](media/MarketingReach/MarketingReach-ContactsInMarketingAutomation.png "Find contacts included in customer journeys and their activities")
 
 ***Happy analytics reporting with Dynamics 365 Marketing!***

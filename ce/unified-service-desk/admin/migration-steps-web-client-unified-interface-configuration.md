@@ -25,7 +25,7 @@ The migration of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unifie
 
 - **Step 1:** Fetch and migrate the configuration elements to a **USD_UI_Configurations** folder using the Web Client - Unified Interface Migration Assistant.
 
-- **Step 2:** Import the **USDWebResources** folder, which is in the **USD_UI_Configurations** folder, using the **Solutions** option in the Common Data Service platform.
+- **Step 2:** Import the **USDWebResources** folder, which is in the **USD_UI_Configurations** folder, using the **Solutions** option in Microsoft Dataverse.
 
 - **Step 3:** Import the **Data** zip folder from the **USD_UI_Configurations** folder to the Unified Interface App using the Configuration Migration Tool (DataMigrationUtility.exe).
 
@@ -74,11 +74,11 @@ The migration assistant displays the **Download Completed**.</br>
 
 ## Step 2: Import the USDWebResources folder
 
-The **USDWebResources** folder contains the migrated **RunXrmCommand** actions that were present in Web Client. To deploy the **USDWebResources** on the target Unified Interface App, import the web resources as a solution in the Common Data Service platform.
+The **USDWebResources** folder contains the migrated **RunXrmCommand** actions that were present in Web Client. To deploy the **USDWebResources** on the target Unified Interface App, import the web resources as a solution in Dataverse.
 
 To import the **USDWebResources** zip folder, follow these steps:
 
-1. Sign in to the Common Data Service platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Go to **Settings** > **Solutions**.
 

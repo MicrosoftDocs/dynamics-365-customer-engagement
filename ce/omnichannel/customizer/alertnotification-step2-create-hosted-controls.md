@@ -32,7 +32,7 @@ This topic describes how to create Omnichannel Alert Notification hosted control
 
 ## Create hosted control
 
-1. Sign in to Common Data Service platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Select the Down arrow next to Dynamics 365.
 

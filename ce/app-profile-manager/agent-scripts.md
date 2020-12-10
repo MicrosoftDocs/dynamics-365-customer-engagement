@@ -50,7 +50,7 @@ Create agent scripts in the Omnichannel Administration or Customer Service Hub a
     |------------|------------------------------|-------------------|
     | Name | A name for the agent script. | Chat session script |
     | Unique Name | A unique identifier in the <*prefix*>_<*name*> format.<br>**Important:** The following are required for the unique name:<br><ul><li> The prefix can only be alphanumeric and its length must be between 3 to 8 characters.</li> <li>An underscore must be there between the prefix and name.</li></ul> |Contoso_script|
-    | Language | A language from the list. The languages that are enabled in Common Data Service appear in the list. | English |
+    | Language | A language from the list. The languages that are enabled in Microsoft Dataverse appear in the list. | English |
     | Description | Description for the agent script. | This agent script is used for chat sessions. |
 
 5. Select **Save**. The **Agent script steps** appears.

@@ -1,17 +1,14 @@
 ---
 title: "Limits for trials (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Limitations and conditions that apply to trials of Dynamics 365 Marketing"
+description: "Limitations and conditions that apply to trials of Dynamics 365 Marketing."
 ms.date: 10/25/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-ms.assetid: 6f3e939b-5914-4536-b277-06e5ba88229d
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer

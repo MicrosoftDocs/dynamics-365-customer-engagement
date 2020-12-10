@@ -1,5 +1,5 @@
 ---
-title: "Marketing form submission report for Dynamics 365 Marketing | Microsoft Docs"
+title: "Marketing form submission report for Dynamics 365 Marketing (Dynamics 365 Marketing) | Microsoft Docs"
 description: "See all the details of your marketing form submissions in one report, and slice and dice over timeline, related marketing messaging, and automation."
 ms.date: 11/22/2019
 ms.service: dynamics-365-marketing
@@ -8,9 +8,8 @@ ms.custom:
 ms.topic: article
 author: cabeln
 ms.author: cabeln
-manager: 
+manager: shellyha
 ms.reviewer: alfergus
-topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer
