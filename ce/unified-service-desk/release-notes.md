@@ -341,7 +341,7 @@ Now when you sign in to [!INCLUDE[pn_unified_service_desk](../includes/pn-unifie
 
 Remove the **Custom Styles** XAML from the **About** and **Main** toolbars.
 
-1. Sign in to the Common Data Service platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Go to **Settings** > **My Apps** > **Unified Service Desk Administrator** app.
 
@@ -463,7 +463,7 @@ This section describes the known issues and limitations in [!INCLUDE[pn_unified_
 
 - **Warning for the HelpImproveUSD parameter in Customer Engagement (on-premises)**
 
-  **Help Improve [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]** is enabled or disabled only for the Common Data Service platform. If you're using Dynamics 365 Customer Engagement (on-premises), a warning for the **Help improve [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] (HelpImproveUSD)** parameter appears in the report.
+  **Help Improve [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]** is enabled or disabled only for Dataverse. If you're using Dynamics 365 Customer Engagement (on-premises), a warning for the **Help improve [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] (HelpImproveUSD)** parameter appears in the report.
 
 - **Error for Enable Enhanced Protected mode in the Windows 7 operating system**
 
@@ -473,7 +473,7 @@ This section describes the known issues and limitations in [!INCLUDE[pn_unified_
 
 - **Insufficient permissions to provide feedback**
 
-  The **Provide Feedback** feature is available only in the Common Data Service platform.
+  The **Provide Feedback** feature is available only in Dataverse.
 
   If you sign in by using administrator credentials and select **Provide Feedback** to provide your feedback or comments, an **Insufficient Permissions** message appears. 
 
@@ -539,7 +539,7 @@ Configure the **ShowOutside** action call to show the webpage in **IE Process** 
 
 In this step, you'll create an action call to show the webpage.
 
-1. Sign in to the Common Data Service platform.
+1. Sign in to the Dynamics 365 instance.
 2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]
 3. Select **Action Calls**.
 4. Select **+ New**.
@@ -559,7 +559,7 @@ In this step, you'll create an action call to show the webpage.
 
 In this step, you create a navigation rule and set it to occur before other default rules. After creating the navigation rule, add the **ShowOutside** action call that you created in Step 1 to the **Show Outside Rule** window navigation rule.
 
-1. Sign in to the Common Data Service platform.
+1. Sign in to the Dynamics 365 instance.
 2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]
 3. Select **Window Navigation Rules**.
 4. Select **+ New**.

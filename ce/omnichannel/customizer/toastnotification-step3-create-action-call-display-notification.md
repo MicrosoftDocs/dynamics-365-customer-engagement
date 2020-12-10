@@ -30,7 +30,7 @@ ms.service: dynamics-365-customerservice
 
 ## Create action calls
 
-1. Sign in to Common Data Service platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Select the Down arrow next to Dynamics 365.
 

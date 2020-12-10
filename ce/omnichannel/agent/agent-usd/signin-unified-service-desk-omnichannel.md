@@ -16,7 +16,7 @@ ms.service: dynamics-365-customerservice
 
 1. Start the Unified Service Desk client by double-clicking the application shortcut on your desktop.
 
-2. In the Unified Service Desk sign in dialog box, provide authentication details to connect to the Common Data Service platform, and then select **Login**.
+2. In the Unified Service Desk sign in dialog box, provide authentication details to connect to Dynamics 365, and then select **Login**.
 
      **For online deployments**
 

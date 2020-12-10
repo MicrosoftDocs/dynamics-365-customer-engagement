@@ -109,7 +109,7 @@ Use the **CRM Dialog** hosted control type to work with dialog. You can call the
 
 | Parameter |                                                                                      Description                                                                                       |
 |-----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|   Name    |                        The name of the dialog as seen in the **Settings** > **Process** section of the Common Data Service platform.                        |
+|   Name    |                        The name of the dialog as seen in the **Settings** > **Process** section of Microsoft Dataverse.                        |
 | DialogId  |                 You can also specify the dialog by its ID. If you specify the **DialogId** parameter, it will be used by the action instead of the **Name** parameter.                 |
 |  Entity   |    This is the type of entity that the dialog is to be run against. This is required if you use the **DialogId** parameter. It is not required, if the **Name** parameter is used.     |
 |    Id     | This is the ID of the entity to which the Dialog session applies. If this parameter is not specified, the dialog is run against the first entry of the appropriate type in the system. |

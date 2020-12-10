@@ -27,7 +27,7 @@ The sample data is available as a downloadable demo package, which you can insta
 
 The following are required for installing sample data in your target environment:
 
-- A Common Data Service environment.
+- A Microsoft Dataverse environment.
 - Your base language is English.
 - The environment has no Omnichannel for Customer Service data already, or has only the default data that comes with a new environment.
 - The environment has Omnichannel for Customer Service provisioned and the Chat channel is enabled.
@@ -69,7 +69,7 @@ Depending on the operating system and security settings, you might need to perfo
 
 ## Set up users
 
-The OmnichannelDemoData package installs a few users such as those listed in the table below. To install the demo data, you need to create (or temporarily rename) users in your Common Data Service environment to match the incoming demo data configuration.
+The OmnichannelDemoData package installs a few users such as those listed in the table below. To install the demo data, you need to create (or temporarily rename) users in your Dataverse environment to match the incoming demo data configuration.
 
 | First name | Last name | User alias   | Email                                    | Role                                            |
 |------------|-----------|--------------|------------------------------------------|-------------------------------------------------|
@@ -80,7 +80,7 @@ The OmnichannelDemoData package installs a few users such as those listed in t
 
 ### Configure users
 
-1. Sign in to your Common Data Service environment.
+1. Sign in to your Dataverse environment.
 
 2. Select **Settings** > **Security** > **Users**.
 
@@ -133,12 +133,12 @@ Wondering what capabilities you can demo with the demo data? See the Fabrikam sc
 
 3. Accept the terms and conditions.
 
-4. Specify the following in the connect screen and select **Login**. In this step, you need to connect to the Common Data Service environment where you want to deploy the demo data:
+4. Specify the following in the connect screen and select **Login**. In this step, you need to connect to the Dataverse environment where you want to deploy the demo data:
 
 
     | Field | Value | Description |
     |-------------------------|------------------------|------------------------|
-    | Deployment Type | Microsoft 365 | To connect to a Common Data Service environment. |
+    | Deployment Type | Microsoft 365 | To connect to a Dataverse environment. |
     | Display list of available organizations | Select the check box. |
     Show Advanced | Select the check box. |
     |  Online Region | North America | Select the organization that you want to connect to. |
@@ -209,7 +209,7 @@ file. For technical users, these include:
 
 - **<RequiredSolutions\>**: Specifies prerequisite solution installations and their version numbers.
 
-- **\<InstallSampleData\>**: Installs demo data to your Common Data Service environment. This is the same demo data that you can install from **Settings** > **Data Management**.
+- **\<InstallSampleData\>**: Installs demo data to your Dataverse environment. This is the same demo data that you can install from **Settings** > **Data Management**.
 
 - **\<DefaultParameterDescription\>**: Specifies the default description for the parameters.
 

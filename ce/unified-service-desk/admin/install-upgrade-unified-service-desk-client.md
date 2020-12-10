@@ -117,7 +117,7 @@ SetupUnifiedServiceDesk.exe uninstall
   
 <a name="BKMK_USDNext"></a>   
 ## Next Step  
- Deploy the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sample packages on Common Data Service. For more information, see [Deploy Unified Service Desk packages to a Common Data Service platform using Package Deployer](../../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md).  
+ Deploy the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sample packages on Microsoft Dataverse. For more information, see [Deploy Unified Service Desk packages to a Dataverse platform using Package Deployer](../../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md).  
   
 <a name="knownissues"></a>   
 ## Known issues  
