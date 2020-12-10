@@ -28,7 +28,7 @@ Field Service inspections are digital forms that technicians use to quickly and 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of an inspection on a tablet and a phone](./media/inspections-mobile-2020-tablet-phone.png)
 
-With a drag-and-drop interface, inspections are easy to create, and are easier for technicians to fill out compared to paper forms. Inspection answers are [stored in Common Data Service](https://docs.microsoft.com/dynamics365/field-service/inspections-advanced#understand-view-and-report-inspection-responses), making it easy to report on results and fit inspections into your automated business processes.
+With a drag-and-drop interface, inspections are easy to create, and are easier for technicians to fill out compared to paper forms. Inspection answers are [stored in Microsoft Dataverse](https://docs.microsoft.com/dynamics365/field-service/inspections-advanced#understand-view-and-report-inspection-responses), making it easy to report on results and fit inspections into your automated business processes.
 
 Inspections in Field Service also provide: 
 
@@ -91,6 +91,13 @@ Add a question to the inspection by double-clicking or dragging-and-dropping a q
 - **Date Time:** Allows technicians to enter a date and time.
 
 - **File:** Allows technicians to upload a file, take picture, or choose picture from their camera roll.
+
+- **Barcode scan:** Allows technicians to populate the field with the barcode number by scanning a barcode with their device's camera. Choose "Textbox" question type, then select **Barcode** for input type in the **Advanced** section.
+
+- **Matrix (Dynamic):** Adds a grid of questions. More rows can be added dynamically while performing the inspection. See the following screenshot for an example.
+
+> [!div class="mx-imgBorder"]
+> ![Device render showing an inspection form allowing adding more rows.](./media/inspections-matrix-barcode.png)
 
 Use the **Required** toggle to make the inspection question mandatory.
 
@@ -295,11 +302,7 @@ If an inspection question is required, the technician will not be able to mark *
 
 - New inspections cannot be created or designed from small form factors like mobile devices.
 
-- The ability to add version numbering to inspections is not part of the April 2020 public preview and is **planned**.
-
-- Inspections cannot be exported and imported to other environments
-
-- Parsing of inspection responses out-of-the-box without the need for Power Automate is **planned**. 
+- Inspections cannot be exported and imported to other environments.
 
 ### Known issues
 
