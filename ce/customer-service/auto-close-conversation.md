@@ -112,6 +112,5 @@ In case the conversation is in wrap-up state—that is, if the agent has resolve
 
 ### See also
 
-[Agent Guide: Automatic closure of a conversation](../agent/agent-oc/oc-conversation-state.md#automatic-closure-of-a-conversation)
-
-[Update an entity using Web API](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)
+[Automatic closure of a conversation](oc-conversation-state.md#automatic-closure-of-a-conversation)  
+[Update an entity using Web API](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)  

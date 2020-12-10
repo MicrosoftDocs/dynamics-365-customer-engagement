@@ -58,7 +58,7 @@ Multi-language sentiment displays sentiment scores on some non-English conversat
 >
 > Multi-language sentiment is available only if the administrator enables it for you.
 
-To learn more, see [multi-language sentiment](../../administrator/enable-sentiment-analysis.md).
+To learn more, see [multi-language sentiment](enable-sentiment-analysis.md).
 
 ## Videos
 
@@ -68,7 +68,7 @@ To view more videos on Omnichannel for Customer Service, see [Videos](../../vide
 ### See also
 
 [Introduction to the agent interface](oc-introduction-agent-interface.md)  
-[Enable sentiment analysis](../../administrator/enable-sentiment-analysis.md)  
+[Enable sentiment analysis](enable-sentiment-analysis.md)  
 [Manage sessions](oc-manage-sessions.md)  
 [Manage applications](oc-manage-applications.md)  
 [View the customer summary](oc-customer-summary.md)  

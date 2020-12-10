@@ -22,7 +22,7 @@ The information displayed in these sections are displayed based on the conversat
 
 
 > [!IMPORTANT]
-> Best practices should be followed to ensure that metrics displayed on the dashboard are not adversely affected. To learn more, see [Best practices to use Omnichannel for Customer Service](../best-practices.md).
+> Best practices should be followed to ensure that metrics displayed on the dashboard are not adversely affected. To learn more, see [Best practices to use Omnichannel for Customer Service](best-practices.md).
 
 ## Conversations insights
 
@@ -135,7 +135,7 @@ This section of the dashboard consists of the following details:
 | Conversation status reason | The status of the latest conversation between the agent and a customer. | 
 | Avg handle time per session | The average handle time for an agent is calculated based on the active time the agent spends in a session from the time the conversation is active till it is closed and includes the time the agents takes to wrap-up. More information: [Average handle time](#average-handle-time). |
 | Logged in states duration | The agent's presence when the agent is logged on. The state reflects the base presence and not the custom presence.|
-| Subject | For an identified customer, the customer's name is displayed with the subject. For unidentified customers, static text is displayed with a "Visitor" label. For information about identified customers, see [Automatically identify customers](../administrator/record-identification-rule.md). |
+| Subject | For an identified customer, the customer's name is displayed with the subject. For unidentified customers, static text is displayed with a "Visitor" label. For information about identified customers, see [Automatically identify customers](record-identification-rule.md). |
 | Participation mode | Primary indicates that agent is engaged in a session. Consult means the agent is engaged in a consulting session with another agent. Monitor means this agent is monitoring the session. |
 | Workstream | The work stream that the conversation is assigned to. |
 | Channel | The channel that the conversation was created from. |
@@ -165,7 +165,7 @@ In a transfer scenario, the active time spent by all agents who are involved is 
 
 The average handle time will be accurately calculated if you ensure the following:
 
-- Agents close the sessions by selecting the close button at the end of their shift. More information: [Conversation in waiting status](../agent/agent-oc/oc-conversation-state.md).
+- Agents close the sessions by selecting the close button at the end of their shift. More information: [Conversation in waiting status](oc-conversation-state.md).
 - Agents do not change the computer time.
 - Agents do not use incognito mode in Google Chrome or private browsing in Microsoft Edge.
 

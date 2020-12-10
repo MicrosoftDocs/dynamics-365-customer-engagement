@@ -226,7 +226,7 @@ You must perform the following tasks to configure the Intraday insights for **Un
 Configuring the Power BI workspace provides you only the **Intraday Monitoring** report. Create the dashboard out of the **Intraday Monitoring** Power BI report after it is available.
 
 > [!IMPORTANT]
-> In Power BI settings for **Intraday Monitoring**, DO NOT select the option **Take over**. If you select this option, the dataset will not connect to the datasource and you will have to reconfigure Intraday insights. 
+> In Power BI settings for **Intraday Monitoring**, DO NOT select the option **Take over**. If you select this option, the dataset will not connect to the datasource and you will have to reconfigure Intraday insights.
 
 Follow these steps to configure Power BI dashboards:
 

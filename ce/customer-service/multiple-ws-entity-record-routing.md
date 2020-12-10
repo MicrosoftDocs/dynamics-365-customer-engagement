@@ -168,12 +168,10 @@ Now, you've defined **Entity Record Distribution Flow** such that any case whose
 
 ## Troubleshoot
 
-- [Entity routing configuration fails](../troubleshoot-omnichannel-customer-service.md#entity-routing-configuration-fails)
+- [Entity routing configuration fails](troubleshoot-omnichannel-customer-service.md#entity-routing-configuration-fails)
 
 ## See also
 
-[Entity records routing](entity-channel.md)
-
-[Understand and create workstreams](work-streams-introduction.md)
-
-[Create workstreams for entity record routing](set-up-entity-workstream.md)
+[Entity records routing](entity-channel.md)  
+[Understand and create workstreams](work-streams-introduction.md)  
+[Create workstreams for entity record routing](set-up-entity-workstream.md)  

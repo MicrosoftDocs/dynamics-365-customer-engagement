@@ -183,8 +183,8 @@ Vietnamese<br>
 </table>
 
 > [!NOTE]
-> For languages supported in the product user interface (UI), see [Language availability](../international-availability.md).
+> For languages supported in the product user interface (UI), see [Language availability](international-availability.md).
 
 ### See also
 
-[Monitor conversations](../supervisor/monitor-conversations.md)
+[Monitor conversations](monitor-conversations.md)

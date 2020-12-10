@@ -38,4 +38,4 @@ Perform the following steps:
 ### See also
 
 [Manage notification templates](notification-templates.md)  
-[View notifications](../agent/agent-oc/oc-notifications.md)  
+[View notifications](oc-notifications.md)  

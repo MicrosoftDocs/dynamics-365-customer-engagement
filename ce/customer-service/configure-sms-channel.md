@@ -28,7 +28,7 @@ The tasks to add SMS support for TeleSign are as follows:
 > [!NOTE]
 >
 > - The maximum number of characters supported for sent and received messages is 1600.
-> - SMS is an asynchronous mode of communication. Agents can close the conversation and then work on them later. Ending the conversation will mark it as resolved. More information: [Understand conversation states](../agent/agent-oc/oc-conversation-state.md)
+> - SMS is an asynchronous mode of communication. Agents can close the conversation and then work on them later. Ending the conversation will mark it as resolved. More information: [Understand conversation states](oc-conversation-state.md)
 
 ## Enable SMS channel in your Dynamics 365 organization
 
@@ -132,4 +132,4 @@ When you validate the API key while setting up the SMS channel, a call is made t
 [Create and manage routing rules](routing-rules.md) <br />
 [Configure automated messages](configure-automated-message.md) <br />
 [Delete a configured channel](delete-channel.md)<br />
-[SMS FAQ](../faqs.md#sms)
+[SMS FAQ](faqs.md#sms)

@@ -44,13 +44,13 @@ To embed a chat widget in Power Apps portals:
     > ![Paste code snippet of a chat widget](media/paste-snippet.png "Paste code snippet of a chat widget")
 10.	Save the changes. The chat widget is now embedded into the portal.
 
-If you don't see your chat widget in the portal, see [Troubleshoot Omnichannel for Customer Service](../troubleshoot-omnichannel-customer-service.md).
+If you don't see your chat widget in the portal, see [Troubleshoot Omnichannel for Customer Service](troubleshoot-omnichannel-customer-service.md).
 
 ## Embed chat widget in mobile experiences
 
 To embed a chat widget in a mobile app:
 
-1. Create the code snippet. Refer to [Render a live chat widget on the mobile app](../developer/how-to/render-live-chat-widget-mobile.md) for samples showing how to enable rendering of the web version of the live chat widget on mobile devices.
+1. Create the code snippet. Refer to [Render a live chat widget on the mobile app](render-live-chat-widget-mobile.md) for samples showing how to enable rendering of the web version of the live chat widget on mobile devices.
 2.	Sign in to Omnichannel Administration.
 3.	Go to **Channels** &gt; **Chat**.
 4.	Open the chat widget you want to embed in your website or create a new one.
@@ -94,4 +94,4 @@ After the chat widget is configured, it has the following capabilities:
 [Create quick replies](create-quick-replies.md) <br>
 [Create and manage operating hours](create-operating-hours.md) <br>
 [Create chat authentication settings](create-chat-auth-settings.md) <br>
-[Render a live chat widget on the mobile app](../developer/how-to/render-live-chat-widget-mobile.md) 
+[Render a live chat widget on the mobile app](render-live-chat-widget-mobile.md) 

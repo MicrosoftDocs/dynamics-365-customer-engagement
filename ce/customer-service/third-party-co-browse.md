@@ -57,7 +57,7 @@ The following section lists the required entity data needed to support this feat
 
   Localization information associated with the conversation action.  
   
-   
+
   **Fields**:  
   - Label (The label of the button showing to users in conversation control.) 
   - Tooltip (Tooltip for that button.) 
@@ -70,7 +70,7 @@ The following section lists the required entity data needed to support this feat
   
   **Fields**:  
   
-  Name (ISV name) 
+  Name (ISV name)
 
 - **Channel Capability entity (msdyn_channelcapability)** 
   
@@ -128,8 +128,6 @@ webresourcename: <URL path to the web resource>
 
 There will be a single URL parameter called `data` that will contain a JSON object. This object when decoded and parsed will contain the `conversationId` field. This ID can be used to attach any data back to a conversation.
 
-
-
 ## Create the third-party co-browse and screen-sharing solution with the required data 
 
 ISVs should bring in all the required data as specified in the [Third-party co-browse extensibility framework]() section and the [App Tab Template for third-party co-browse]() section to make this framework work. 
@@ -179,7 +177,7 @@ When a co-browse and screen-sharing button is defined, it will be rendered at th
 
 When an agent selects the button for co-browse or screen sharing, it triggers the application tab inside of the Omnichannel service. Omnichannel will handle the events as escalation channels event type. Omnichannel internal services will update the status for current session events.  
 
-After the third-party applications take over, all data will be handled by a third-party application server. See the following graph for the integration data flow.   
+After the third-party applications take over, all data will be handled by a third-party application server. See the following graph for the integration data flow.
 
 
 > [!div class="mx-imgBorder"]

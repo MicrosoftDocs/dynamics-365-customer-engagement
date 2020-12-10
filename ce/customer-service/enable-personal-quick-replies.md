@@ -40,4 +40,4 @@ The settings for creating personal quick replies is made available for agents.
 ### See also
 
 [Create quick replies](create-quick-replies.md)  
-[Create personal quick replies](agent/../../agent/agent-oc/create-personal-quick-replies.md)  
+[Create personal quick replies](create-personal-quick-replies.md)  

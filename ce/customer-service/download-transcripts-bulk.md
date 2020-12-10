@@ -74,4 +74,4 @@ The above Web API request will give you the base64 encoded Attachment which you 
 
 ### See also
 
-[Omnichannel for Customer Service for developers](../omnichannel-developer.md)
+[Omnichannel for Customer Service for developers](developer/omnichannel-developer.md)

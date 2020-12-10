@@ -31,4 +31,4 @@ You can now view the details in the **Transcript** section.
 
 ## See also
 
-[Configure relevance search for chat transcript](../../customizer/relevance-search-chat-transcript.md)
+[Configure relevance search for chat transcript](relevance-search-chat-transcript.md)

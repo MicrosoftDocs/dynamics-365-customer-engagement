@@ -32,7 +32,7 @@ With calling options in live chat, you can:
 
 Make sure that the following prerequisites are met:
 
-- **Browser:** Latest version of Microsoft Edge or Google Chrome. For more information, see the [system requirements](../../system-requirements-omnichannel.md).
+- **Browser:** Latest version of Microsoft Edge or Google Chrome. For more information, see the [system requirements](system-requirements-omnichannel.md).
 - **Internet bandwidth:**
   - **Minimum:** 500 KBps upload speed; 1 MBps download speed
   - **Recommended:** 1 MBps  upload speed; 2 MBps download speed
@@ -100,9 +100,9 @@ The co-browsing and screen sharing features help you quickly and easily understa
 
 ## Prerequisite
 
-To use the co-browsing and screen sharing features, your administrator must have selected a third party screen sharing and/or co-browse provider. 
+To use the co-browsing and screen sharing features, your administrator must have selected a third party screen sharing and/or co-browse provider.
 
-### Initiate a co-browsing or screen sharing session 
+### Initiate a co-browsing or screen sharing session
 
 When you're chatting with a customer, you can initiate a co-browsing or screen sharing session by doing the following: 
 
@@ -137,4 +137,4 @@ The customer experience will vary depending upon the co-browse or screen share p
 
 ## See also
 
-[Add a chat widget](../../administrator/add-chat-widget.md)
+[Add a chat widget](add-chat-widget.md)

@@ -109,4 +109,4 @@ Similarly, the administrator can create more agent scripts as per your business 
 
 ## See also
 
-[Guide agents with scripts](../../administrator/agent-scripts.md)
+[Guide agents with scripts](agent-scripts.md)

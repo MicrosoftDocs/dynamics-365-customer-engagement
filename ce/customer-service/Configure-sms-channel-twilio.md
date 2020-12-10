@@ -129,4 +129,4 @@ When you validate the SMS settings while setting up the SMS channel, a call is m
 
 [Channels in Omnichannel for Customer Service](channels.md)  
 [Delete a configured channel](delete-channel.md)  
-[SMS FAQ](../faqs.md#sms)  
+[SMS FAQ](faqs.md#sms)  

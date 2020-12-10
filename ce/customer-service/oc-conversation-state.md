@@ -130,13 +130,13 @@ For chat and SMS channel, a conversation in **Waiting** is moved to the **Closed
 
 For example, when you set **Auto-close after inactivity** to five minutes, the conversation is moved to the **Closed** state if it has been in **Waiting** for more than five minutes.
 
-To learn more, see [Create a work stream](../../administrator/work-streams-introduction.md#create-a-work-stream).
+To learn more, see [Create a work stream](work-streams-introduction.md#create-a-work-stream).
 
 ### Set default time using APIs
 
-Programmatically, you can change the default time and set it as per your organization's requirements using the Web APIs. To learn more, see [Automatic closure of a conversation](../../developer/auto-close-conversation.md).
+Programmatically, you can change the default time and set it as per your organization's requirements using the Web APIs. To learn more, see [Automatic closure of a conversation](auto-close-conversation.md).
 
 ### See also
 
 [View communication panel](oc-conversation-control.md)  
-[Automatic closure of a conversation](../../developer/auto-close-conversation.md)  
+[Automatic closure of a conversation](auto-close-conversation.md)  

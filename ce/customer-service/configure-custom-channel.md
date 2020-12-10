@@ -147,7 +147,7 @@ To create a custom channel, follow these steps:
 
 ## Test your channel
 
-For more information, see the developer guide, [Bring your own custom messaging channel: Test Client HTML](../developer/how-to/bring-your-own-channel-sample-html.md).
+For more information, see the developer guide, [Bring your own custom messaging channel: Test Client HTML](bring-your-own-channel-sample-html.md).
 
 ## Bring channels using Direct Line 
 
@@ -155,7 +155,7 @@ If you want to help your customers using your line-of-business (in-house) messag
 
 The Bot Framework **Direct Line** channel helps you to integrate your line-of-business (in-house) messaging channels into the Omnichannel for Customer Service app.
 
-For more information, see the developer guide, [Bring your own custom messaging channel: Direct Line bot](../developer/how-to/bring-your-own-channel.md).
+For more information, see the developer guide, [Bring your own custom messaging channel: Direct Line bot](bring-your-own-channel.md).
 
 ## Modify settings for a specific custom channel
 
@@ -177,15 +177,15 @@ For more information, see the developer guide, [Bring your own custom messaging 
        
        To learn more about uploading media in Telegram, see the [Telegram Bot API](https://core.telegram.org/bots/api#available-types).
 
-3. On the **Automated messages** tab, [configure automated messages](configure-automated-message.md). 
-    
+3. On the **Automated messages** tab, [configure automated messages](configure-automated-message.md).
+
 4. On the **Surveys** tab, [configure a post-conversation survey](configure-post-conversation-survey.md).
 
 ### See also
 
-[Extend Omnichannel for Customer Service](../developer/extend-omnichannel.md)  
-[Bring your own custom messaging channel: Direct Line bot](../developer/how-to/bring-your-own-channel.md)  
-[Test the custom messaging channel](../developer/how-to/bring-your-own-channel-sample-html.md)  
+[Extend Omnichannel for Customer Service](extend-omnichannel.md)  
+[Bring your own custom messaging channel: Direct Line bot](bring-your-own-channel.md)  
+[Test the custom messaging channel](bring-your-own-channel-sample-html.md)  
 [Skill-based routing](overview-skill-work-distribution.md)  
 [Productivity tools](productivity-tools.md)  
 [Smart assist](smart-assist.md)  

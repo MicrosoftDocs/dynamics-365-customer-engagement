@@ -12,13 +12,13 @@ ms.service: dynamics-365-customerservice
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-To display the context variables in the Conversation Summary Control for a conversation on the UI, make sure that you include `isDisplayable` attribute in the body of [setContextProvider](../reference/methods/setContextProvider.md) method and set its value to `true`. If the value of `isDisplayable` attribute is set to `true`, the context variables will appear as shown below.
+To display the context variables in the Conversation Summary Control for a conversation on the UI, make sure that you include `isDisplayable` attribute in the body of [setContextProvider](developer/reference/methods/setContextProvider.md) method and set its value to `true`. If the value of `isDisplayable` attribute is set to `true`, the context variables will appear as shown below.
 
 ![Display context keys](media/context-variable-display.png "Display context keys")
 
-For more information, see [setContextProvider method](../reference/methods/setContextProvider.md) and [Conversation summary](../../agent/agent-oc/oc-customer-summary.md#conversation-summary).
+For more information, see [setContextProvider method](developer/reference/methods/setContextProvider.md) and [Conversation summary](oc-customer-summary.md#conversation-summary).
 
 ### See also
 
 [Manage custom context](send-context-starting-chat.md)<br />
-[setContextProvider](../reference/methods/setContextProvider.md)
+[setContextProvider](developer/reference/methods/setContextProvider.md)

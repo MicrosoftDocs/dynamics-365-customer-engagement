@@ -69,4 +69,4 @@ Ensure that relevance search is enabled in your environment. To learn more, see 
 
 ### See also
 
-[Search for transcripts](../agent/agent-oc/oc-search-transcipts.md)
+[Search for transcripts](oc-search-transcipts.md)

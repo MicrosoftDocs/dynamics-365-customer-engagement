@@ -35,4 +35,4 @@ data-enable-telemetry = "false"
 
 ### See also
 
-[Customize a chat widget](how-to/customize-chat-widget.md)
+[Customize a chat widget](customize-chat-widget.md)

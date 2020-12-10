@@ -45,5 +45,5 @@ Perform the following steps to upload the web resource file for real-time transl
 
 ### See also
 
-[Enable real-time translation of conversations](../../administrator/enable-real-time-translation.md)  
-[Real-time translation of conversations](../../agent/agent-oc/oc-real-time-translation.md)
+[Enable real-time translation of conversations](enable-real-time-translation.md)  
+[Real-time translation of conversations](oc-real-time-translation.md)

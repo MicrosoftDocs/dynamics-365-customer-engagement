@@ -17,10 +17,10 @@ ms.service: dynamics-365-customerservice
 
 The self-service feature displays information about the recent actions that a customer performs before starting a conversation with an agent. This information helps agents understand customer issues and provide a personalized service for enhanced customer satisfaction.
 
-The data about the recent actions is stored in an entity for the conversation that has been closed. A record is created for each self-service action and [action type](../agent/agent-oc/oc-customer-summary.md#self-service). To learn more, see [msdyn_visitorjourney Entity Reference](../developer/reference/entities/msdyn_visitorjourney.md).
+The data about the recent actions is stored in an entity for the conversation that has been closed. A record is created for each self-service action and [action type](oc-customer-summary.md#self-service). To learn more, see [msdyn_visitorjourney Entity Reference](developer/reference/entities/msdyn_visitorjourney.md).
 
 Enabling the self-service feature is a two-step process as follows:
-1. Add a code snippet in the self-service portal that is configured for your organization. For the sample code and to learn more, see [Pass self service history as context](../developer/reference/methods/setcontextprovider.md#pass-customers-self-service-as-context).
+1. Add a code snippet in the self-service portal that is configured for your organization. For the sample code and to learn more, see [Pass self service history as context](developer/reference/methods/setcontextprovider.md#pass-customers-self-service-as-context).
 2. Update the settings in the Omnichannel Administration app.
 
 ## Enable self service
@@ -39,4 +39,4 @@ Perform the following steps to enable self service.
 
 ### See also
 
-[Self service](../agent/agent-oc/oc-customer-summary.md#self-service)
+[Self service](oc-customer-summary.md#self-service)

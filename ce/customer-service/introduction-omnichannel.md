@@ -30,11 +30,11 @@ You can enable the following channels in your organization with Omnichannel for 
 
 ### Chat
 
-Chat is an engagement channel that enables your agents to connect with customers in real-time. The Chat channel is generally available now. For more information, see [Try channels for Dynamics 365 Customer Service](try-channels.md) and [Configure a chat channel](administrator/set-up-chat-widget.md).
+Chat is an engagement channel that enables your agents to connect with customers in real-time. The Chat channel is generally available now. For more information, see [Try channels for Dynamics 365 Customer Service](try-channels.md) and [Configure a chat channel](set-up-chat-widget.md).
 
 ### SMS
 
-SMS is an engagement channel that supports asynchronous mode of communication, and allows your organization to connect to customers by using text messages. The SMS channel is generally available now. For more information, see [Try channels for Dynamics 365 Customer Service](try-channels.md) and [Configure an SMS channel](administrator/configure-sms-channel.md).
+SMS is an engagement channel that supports asynchronous mode of communication, and allows your organization to connect to customers by using text messages. The SMS channel is generally available now. For more information, see [Try channels for Dynamics 365 Customer Service](try-channels.md) and [Configure an SMS channel](configure-sms-channel.md).
 
 ### Social channels
 
@@ -49,14 +49,14 @@ To view more videos on Omnichannel for Customer Service, see [Videos](videos.md)
 ### See also
 
 [Prerequisites and system requirements](system-requirements-omnichannel.md)  
-[Assign roles and enable users for Omnichannel for Customer Service](administrator/add-users-assign-roles.md)  
+[Assign roles and enable users for Omnichannel for Customer Service](add-users-assign-roles.md)  
 [Try channels for Dynamics 365 Customer Service](try-channels.md)  
-[Configure an SMS channel](administrator/configure-sms-channel.md)  
-[Configure a Facebook channel](administrator/configure-facebook-channel.md)  
-[Quickly configure a chat widget](administrator/configure-live-chat.md)  
-[Understand unified routing and work distribution](administrator/unified-routing-work-distribution.md)  
-[Administrators guide](administrator/omnichannel-administrator.md)  
+[Configure an SMS channel](configure-sms-channel.md)  
+[Configure a Facebook channel](configure-facebook-channel.md)  
+[Quickly configure a chat widget](configure-live-chat.md)  
+[Understand unified routing and work distribution](unified-routing-work-distribution.md)  
+[Administrators guide](omnichannel-administrator.md)  
 [Agents using Unified Service Desk](agent/agent-usd/omnichannel-agent.md)  
-[Agents using Omnichannel for Customer Service app](agent/agent-oc/omnichannel-customer-service-app-agent.md)  
-[System customizers guide](customizer/omnichannel-customizer.md)  
+[Agents using Omnichannel for Customer Service app](omnichannel-customer-service-app-agent.md)  
+[System customizers guide](../omnichannel/customizer/omnichannel-customizer.md)  
 [Developer guide](developer/omnichannel-developer.md)

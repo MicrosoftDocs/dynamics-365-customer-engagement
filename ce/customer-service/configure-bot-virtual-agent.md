@@ -185,7 +185,7 @@ You understand that your data may be transmitted and shared with external system
 
 [Power Virtual Agents integration with Omnichannel for Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2114716)
 
-To view more videos on Omnichannel for Customer Service, see [Videos](../videos.md).
+To view more videos on Omnichannel for Customer Service, see [Videos](videos.md).
 
 ### See also
 
@@ -193,6 +193,6 @@ To view more videos on Omnichannel for Customer Service, see [Videos](../videos.
 [Work with queues in Omnichannel for Customer Service](queues-omnichannel.md)  
 [Create and manage routing rules](routing-rules.md)  
 [Add a chat widget](add-chat-widget.md)  
-[Enable a bot to escalate and end conversation](../developer/bot-escalate-end-conversation.md)  
+[Enable a bot to escalate and end conversation](bot-escalate-end-conversation.md)  
 [Create and edit topics in Power Virtual Agents bot](https://docs.microsoft.com/power-virtual-agents/authoring-create-edit-topics)  
-[Troubleshoot how to end a conversation in Omnichannel for Customer Service](../troubleshoot-omnichannel-customer-service.md#pvaendconv)  
+[Troubleshoot how to end a conversation in Omnichannel for Customer Service](troubleshoot-omnichannel-customer-service.md#pvaendconv)  

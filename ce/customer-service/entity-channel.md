@@ -118,7 +118,7 @@ Let's see how to create routing rule set and rule items for entity records. In t
    > [!Note]
    > You can’t edit an active routing rule set. Therefore, if you’re importing a solution that includes an active routing rule set into an organization where the rule set already exists with the same ID, the solution import will fail.
 
-5. Select **+ New Routing Rule Set**.
+5. Select **New Routing Rule Set**.
 
 6. Specify the following in the **New Routing Rule Set** page
 

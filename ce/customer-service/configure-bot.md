@@ -116,7 +116,7 @@ In order to send messages to Omnichannel Engagement Hub, you need to add the fol
 OmnichannelBotClient.BridgeBotMessage(turnContext.Activity);
 ```
 
-More information: [Engage a bot](../developer/bot-escalate-end-conversation.md#engage-a-bot)
+More information: [Engage a bot](bot-escalate-end-conversation.md#engage-a-bot)
 
 ### Step 4: Set escalation rules
 
@@ -162,7 +162,7 @@ This sample provides exact steps and configuration values to integrate a bot and
         > [!div class=mx-imgBorder]
         > ![Create a rule to send customer query from bot to an agent](media/home-loan-rule.png "Create a rule to send a customer query from a bot to an agent")
 
-When a chat is initiated by a customer, the query is routed to the bot through the **BotRule** routing rule. If the bot escalates the query, it is sent to the appropriate agent as per the configured routing rules. The bot needs to send the correct context variable and its value in the escalation request to route the query appropriately. For more information on setting up of context variable and escalation request, see [Enable a bot to escalate and end conversation](../developer/bot-escalate-end-conversation.md).
+When a chat is initiated by a customer, the query is routed to the bot through the **BotRule** routing rule. If the bot escalates the query, it is sent to the appropriate agent as per the configured routing rules. The bot needs to send the correct context variable and its value in the escalation request to route the query appropriately. For more information on setting up of context variable and escalation request, see [Enable a bot to escalate and end conversation](bot-escalate-end-conversation.md).
 
 ## Bot sessions usage
 
@@ -209,6 +209,6 @@ You understand that your data may be transmitted and shared with external system
 [Work with queues in Omnichannel for Customer Service](queues-omnichannel.md)<br>
 [Create and manage routing rules](routing-rules.md)<br>
 [Add a chat widget](add-chat-widget.md)<br>
-[Enable a bot to escalate and end conversation](../developer/bot-escalate-end-conversation.md)  
+[Enable a bot to escalate and end conversation](bot-escalate-end-conversation.md)  
 [Context variables for a bot](context-variables-for-bot.md)  
-[Enable bot context NuGet package](../developer/how-to/enable-bot-context.md)  
+[Enable bot context NuGet package](enable-bot-context.md)  

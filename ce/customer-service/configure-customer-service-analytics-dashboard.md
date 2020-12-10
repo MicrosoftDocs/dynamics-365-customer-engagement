@@ -236,6 +236,5 @@ Before you customize the template app, read the information here and perform eac
 
 ### See also
 
-[Introduction to Customer Service Analytics](introduction-customer-service-analytics.md) 
-
-[View and understand Customer Service Analytics](customer-service-analytics.md) 
+[Introduction to Customer Service Analytics](introduction-customer-service-analytics.md)  
+[View and understand Customer Service Analytics](customer-service-analytics.md)  

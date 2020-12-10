@@ -35,7 +35,7 @@ The following table shows the SKUs that correspond with each experience.
 
 
 > [!NOTE]
-> [SMS](../administrator/configure-SMS-channel.md) and [WhatsApp](../administrator/configure-whatsapp-channel.md) require additional third-party subscriptions. Refer to channel documentation for more information.
+> [SMS](../administrator/configure-SMS-channel.md) and [WhatsApp](configure-whatsapp-channel.md) require additional third-party subscriptions. Refer to channel documentation for more information.
 
 ## Embedding other tools in Omnichannel for Customer Service
 
@@ -51,10 +51,10 @@ You can integrate your line-of-business (in-house), social, and other messaging 
 
 Direct Line allows custom channels to be brought into Omnichannel for Customer Service by leveraging the Microsoft Bot Framework. To bring in a custom channel, you can set up a Direct Line connection through the Azure Bot Service (which will incur Azure charges), and then bring that Direct Line bot into Omnichannel for Customer Service.
 
-For more information, see [Configure a custom messaging channel](../administrator/configure-custom-channel.md).
+For more information, see [Configure a custom messaging channel](configure-custom-channel.md).
 
 ### See also
 
-[Bring your own custom messaging channel: Direct Line bot](../developer/how-to/bring-your-own-channel.md)  
+[Bring your own custom messaging channel: Direct Line bot](bring-your-own-channel.md)  
 [Connect a bot to Direct Line](https://docs.microsoft.com/azure/bot-service/bot-service-channel-connect-directline)  
 [Dynamics 365 Channel Integration Framework version 2.0](https://docs.microsoft.com/dynamics365/customer-service/channel-integration-framework/v2/overview-channel-integration-framework)  

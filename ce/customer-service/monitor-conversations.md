@@ -63,7 +63,7 @@ By joining the conversation, you provide necessary inputs to both agent and cust
 
     When you join the conversation, a notification will be sent to both agent and customer stating that you have joined as a consultant. Depending on your requirement, you can start a consultation with the agent and customer by using a messaging mode (public or internal). By default, the messaging mode is internal.
 
-    To learn more, see [View communication panel](../agent/agent-oc/oc-conversation-control.md).
+    To learn more, see [View communication panel](oc-conversation-control.md).
 
 ## Assign a conversation
 
@@ -90,6 +90,6 @@ At times, you may need to manually assign a conversation. In such cases, the con
 
 ### See also
 
-[Configure Intraday insights dashboard for Unified Service Desk](../administrator/configure-intraday-dashboard-supervisor.md)  
-[Enable sentiment analysis](../administrator/enable-sentiment-analysis.md)  
-[Enable supervisors to monitor and assign conversations](../administrator/configure-ongoing-conversations-settings.md)  
+[Configure Intraday insights dashboard for Unified Service Desk](configure-intraday-dashboard-supervisor.md)  
+[Enable sentiment analysis](enable-sentiment-analysis.md)  
+[Enable supervisors to monitor and assign conversations](configure-ongoing-conversations-settings.md)  

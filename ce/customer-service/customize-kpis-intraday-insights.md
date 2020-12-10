@@ -149,27 +149,27 @@ You can edit the measures and visuals of existing custom and out-of-the-box KPIs
 
 The tables in the intraday insights dataset consists of entity attributes along with measures and calculated columns. The following are the list of entity that are supported in Intraday insights:
 
-- **Agent**. To learn more about entity attributes for agent, see [SystemUser entity](../developer/reference/entities/overview.md#systemuser-entity).
+- **Agent**. To learn more about entity attributes for agent, see [SystemUser entity](developer/reference/entities/overview.md#systemuser-entity).
 
-- **AgentAvailability**. To learn more about entity attributes for agent availability, see [SystemUser entity](../developer/reference/entities/overview.md#systemuser-entity) and [msdyn_presence](../developer/reference/entities/msdyn_presence.md).
+- **AgentAvailability**. To learn more about entity attributes for agent availability, see [SystemUser entity](developer/reference/entities/overview.md#systemuser-entity) and [msdyn_presence](developer/reference/entities/msdyn_presence.md).
 
-- **AgentQueueAssociation**. To learn more about entity attributes for agent queue association, see [SystemUser entity](../developer/reference/entities/overview.md#systemuser-entity) and [Queue Entity](../developer/reference/entities/overview.md#queue-entity).
+- **AgentQueueAssociation**. To learn more about entity attributes for agent queue association, see [SystemUser entity](developer/reference/entities/overview.md#systemuser-entity) and [Queue Entity](developer/reference/entities/overview.md#queue-entity).
 
-- **AgentRoleAssociation**. To learn more about about entity attributes for agent role association, see [SystemUser entity](../developer/reference/entities/overview.md#systemuser-entity) and [role EntityType](/dynamics365/customer-engagement/web-api/role?view=dynamics-ce-odata-9).
+- **AgentRoleAssociation**. To learn more about about entity attributes for agent role association, see [SystemUser entity](developer/reference/entities/overview.md#systemuser-entity) and [role EntityType](/dynamics365/customer-engagement/web-api/role?view=dynamics-ce-odata-9).
 
-- **Presence**. To learn more about entity attributes for presence, see [msdyn_presence Entity Reference - Writable attributes](../developer/reference/entities/msdyn_presence.md#writable-attributes).
+- **Presence**. To learn more about entity attributes for presence, see [msdyn_presence Entity Reference - Writable attributes](developer/reference/entities/msdyn_presence.md#writable-attributes).
 
-- **Queue**. To learn more about entity attributes for queue, see [Queue Entity](../developer/reference/entities/overview.md#queue-entity).
+- **Queue**. To learn more about entity attributes for queue, see [Queue Entity](developer/reference/entities/overview.md#queue-entity).
 
 - **RoleBase**. To learn more about entity attributes for role base, see [role EntityType](/dynamics365/customer-engagement/web-api/role?view=dynamics-ce-odata-9).
 
-- **Session**. To learn more about entity attributes for session, see [msdyn_ocsession Entity Reference](../developer/reference/entities/msdyn_ocsession.md).
+- **Session**. To learn more about entity attributes for session, see [msdyn_ocsession Entity Reference](developer/reference/entities/msdyn_ocsession.md).
 
-- **SessionParticipant**. To learn more about entity attributes for session participant, see [msdyn_sessionparticipant Entity Reference](../developer/reference/entities/msdyn_sessionparticipant.md).
+- **SessionParticipant**. To learn more about entity attributes for session participant, see [msdyn_sessionparticipant Entity Reference](developer/reference/entities/msdyn_sessionparticipant.md).
 
-- **WorkItem**. To learn more about entity attributes for work item, see [msdyn_ocliveworkitem Entity Reference](../developer/reference/entities/msdyn_ocliveworkitem.md).
+- **WorkItem**. To learn more about entity attributes for work item, see [msdyn_ocliveworkitem Entity Reference](developer/reference/entities/msdyn_ocliveworkitem.md).
 
-- **WorkStream**. To learn more about entity attributes for work stream, see [msdyn_liveworkstream Entity Reference](../developer/reference/entities/msdyn_liveworkstream.md).
+- **WorkStream**. To learn more about entity attributes for work stream, see [msdyn_liveworkstream Entity Reference](developer/reference/entities/msdyn_liveworkstream.md).
 
 ### See also
 

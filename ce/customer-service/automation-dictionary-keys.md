@@ -123,7 +123,7 @@ Macros and agent scripts support the following slugs:
 | `${visitorLanguage}` | The language of the customer who initiated the conversation. |
 | `${visitorDevice}` | The device of the customer who initiated the conversation. |
 | `${entityRoutingLogicalName}` | The name of the entity, if the notification is for an entity record. |
-| `${entityRoutingRecordId}` | The unique ID of the entity record, if the notification is for an entity record. To learn more, see [Entity records routing](../../omnichannel/administrator/entity-channel.md). |
+| `${entityRoutingRecordId}` | The unique ID of the entity record, if the notification is for an entity record. To learn more, see [Entity records routing](entity-channel.md). |
 | `${customerEntityName}` | The name of the entity (contact or account), if the customer is authenticated. |
 | `${customerRecordId}` | The unique ID of the entity (contact or account), if the customer is authenticated. |
 | `${<name of the pre-chat survey questions>}` | All the pre-chat survey questions that are configured for a work stream will have the slug name as the name of the question. |
@@ -203,7 +203,7 @@ A *slug* is a replacement parameter that the system populates at runtime based o
 | `{visitorLanguage}` | The language of the customer who initiated the conversation. |
 | `{visitorDevice}` | The device of the customer who initiated the conversation. |
 | `{entityRoutingLogicalName}` | The name of the entity, if the notification is for an entity record. |
-| `{entityRoutingRecordId}` | The unique ID of the entity record, if the notification is for an entity record. To learn more, see [Entity records routing](../../omnichannel/administrator/entity-channel.md). |
+| `{entityRoutingRecordId}` | The unique ID of the entity record, if the notification is for an entity record. To learn more, see [Entity records routing](entity-channel.md). |
 | `{customerEntityName}` | The name of the entity (contact or account), if the customer is authenticated. |
 | `{customerRecordId}` | The unique ID of the entity (contact or account), if the customer is authenticated. |
 | `{<name of the pre-chat survey questions>}` | All the pre-chat survey questions that are configured for a work stream will have the slug name as the name of the question. |

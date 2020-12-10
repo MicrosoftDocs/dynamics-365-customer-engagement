@@ -32,4 +32,4 @@ With the missed notifications feature, you can now choose to automatically set a
 ### See also
 
 [Manage notification settings and templates](notification-templates.md)  
-[View notifications](../agent/agent-oc/oc-notifications.md)  
+[View notifications](oc-notifications.md)  

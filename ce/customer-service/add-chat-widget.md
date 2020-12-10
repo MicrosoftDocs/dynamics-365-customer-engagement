@@ -121,16 +121,16 @@ ms.service: dynamics-365-customerservice
 
 12. Select **Save** to save the configurations.
 
-After you configure, agents can get the capabilities while they are in a conversation. To learn more, see [Call options and visual engagement in live chat](../agent/agent-oc/call-options-visual-engagement.md).
+After you configure, agents can get the capabilities while they are in a conversation. To learn more, see [Call options and visual engagement in live chat](call-options-visual-engagement.md).
 
 ### See also
 
-[Configure a pre-conversation survey](configure-pre-chat-survey.md) <br>
-[Configure agent display name](agent-display-name.md)<br>
-[Configure proactive chat](proactive-chat.md)<br>
-[Configure file attachment capability](configure-file-attachment.md)<br>
-[Create quick replies](create-quick-replies.md) <br>
-[Create and manage operating hours](create-operating-hours.md) <br>
-[Create chat authentication settings](create-chat-auth-settings.md) <br> 
-[Embed chat widget in your website or portal](embed-chat-widget-portal.md) <br>
-[Embed chat widget in mobile experiences](../developer/how-to/render-live-chat-widget-mobile.md)
+[Configure a pre-conversation survey](configure-pre-chat-survey.md)  
+[Configure agent display name](agent-display-name.md)  
+[Configure proactive chat](proactive-chat.md)  
+[Configure file attachment capability](configure-file-attachment.md)  
+[Create quick replies](create-quick-replies.md)  
+[Create and manage operating hours](create-operating-hours.md)  
+[Create chat authentication settings](create-chat-auth-settings.md)  
+[Embed chat widget in your website or portal](embed-chat-widget-portal.md)  
+[Embed chat widget in mobile experiences](render-live-chat-widget-mobile.md)  

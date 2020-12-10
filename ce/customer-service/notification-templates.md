@@ -24,7 +24,7 @@ As an administrator, system integrator, or partner, you can use the out-of-the-b
 
 ## Desktop notifications
 
-For optimal functioning of desktop notifications, make sure that you are using the latest supported browsers as specified in the [system requirements](../system-requirements-omnichannel.md).
+For optimal functioning of desktop notifications, make sure that you are using the latest supported browsers as specified in the [system requirements](system-requirements-omnichannel.md).
 
 > [!Note]
 >
@@ -97,7 +97,7 @@ The application supports the following slugs.
 
 ### Out-of-the-box notification templates
 
- For the supported channels, Omnichannel for Customer Service provides you with out-of-the-box notification templates that you can use in your environment. However, if you customize these templates, make sure to rename and save them to avoid your customizations from being overwritten during an upgrade. When you attach the out-of-the-box notification template, the default settings are used in the notifications. For customers whose record exists in Dynamics 365, the settings in the authenticated template for notifications are used. If the customer details are not available in Dynamics 365, the settings in the unauthenticated template are used for displaying the notifications. For information on what the notifications display for agents, see [notifications for agents](../agent/agent-oc/oc-notifications.md).
+ For the supported channels, Omnichannel for Customer Service provides you with out-of-the-box notification templates that you can use in your environment. However, if you customize these templates, make sure to rename and save them to avoid your customizations from being overwritten during an upgrade. When you attach the out-of-the-box notification template, the default settings are used in the notifications. For customers whose record exists in Dynamics 365, the settings in the authenticated template for notifications are used. If the customer details are not available in Dynamics 365, the settings in the unauthenticated template are used for displaying the notifications. For information on what the notifications display for agents, see [notifications for agents](oc-notifications.md).
 
 The out-of-the-box templates are as follows.
 
@@ -141,7 +141,7 @@ Perform the following steps to create a notification template:
    | General|Auto-assign work items| Set to **Yes** to automatically assign the incoming conversation.| The default value is **No**. <br> More information: [Enable automatic acceptance of conversations](enable-auto-assign-conversations.md).|
    | General | Accept Button | Specify a text for the accept button. This text appears for the agents to accept a conversation request. | The default value is **Accept** that changes to **Open** when the **Auto-assign work items** value is **Yes**. You can change the text as per your requirement. |
    | General | Reject Button | Set the toggle to yes if you want to show the reject button to agents. <br> After you set the toggle to **Yes**, the default label for the button appears. | Reject <br><br> **Note:** This is the default value. You can change the text as per your requirement. The **Reject Button** is disabled when the **Auto-assign work items** value is **Yes**. |
-   | General | Show desktop notifications | Specify whether you want to show notifications to the agents when the Omnichannel for Customer Service app not in focus. | When app is in background <br><br> **Note:** <br> The default value is Never. <br> To learn more, see [Desktop notification when app is in background](#desktop-notifications-when-the-app-is-in-the-background) and [Receive notifications when app is in background](../agent/agent-oc/oc-notifications.md#receive-notifications-when-the-app-is-in-the-background). |
+   | General | Show desktop notifications | Specify whether you want to show notifications to the agents when the Omnichannel for Customer Service app not in focus. | When app is in background <br><br> **Note:** <br> The default value is Never. <br> To learn more, see [Desktop notification when app is in background](#desktop-notifications-when-the-app-is-in-the-background) and [Receive notifications when app is in background](oc-notifications.md#receive-notifications-when-the-app-is-in-the-background). |
 
     > [!div class=mx-imgBorder] 
     > ![Create notification template](media/notification-template1.png "Create notification template")
@@ -177,7 +177,7 @@ Perform the following steps to create a notification template:
 
 After saving the notification, sign in to the Omnichannel for Customer Service app and you can view the notification as per your configuration.
 
-To learn more, see [View notification](../agent/agent-oc/oc-notifications.md).
+To learn more, see [View notification](oc-notifications.md).
 
 ### Edit a notification field
 

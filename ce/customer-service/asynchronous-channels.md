@@ -132,6 +132,6 @@ With social profiles, you can do the following:
 ### See also
 
 [Overview of channels](channels.md) <br />
-[Bring your own custom messaging channel: Direct Line bot](../developer/how-to/bring-your-own-channel.md) <br />
+[Bring your own custom messaging channel: Direct Line bot](bring-your-own-channel.md) <br />
 [Configure custom messaging channel](configure-custom-channel.md) 
 [Enable file attachments](enable-file-attachments.md)  

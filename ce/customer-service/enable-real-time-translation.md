@@ -17,14 +17,14 @@ ms.service: "dynamics-365-customerservice"
 
 With the real-time message translation feature, agents can support customers in the language they elect to be serviced in. When you enable language translation in the Omnichannel Administration app, messages between the customer and support agent&mdash;and messages among support agents who consult and collaborate internally, such as supervisors or SMEs&mdash;are translated. The real-time translation feature is enabled as a plug-in that exposes APIs to bring in third-party translation services and also provides a native implementation.
 
-All the languages that are supported in Omnichannel for Customer Service are supported for the agent in the conversations. For the list of supported languages, see [Language availability](../international-availability.md).
+All the languages that are supported in Omnichannel for Customer Service are supported for the agent in the conversations. For the list of supported languages, see [Language availability](international-availability.md).
 
 > [!Important]
 > The language translation feature isn't supported in Omnichannel for Customer Service on Unified Service Desk.
 
 ## Prerequisites
 
-You must add a web resource and make sure that the required language translation services are configured. More information: [Add a web resource for real-time translation](../developer/how-to/add-web-resource-real-time-translation.md)
+You must add a web resource and make sure that the required language translation services are configured. More information: [Add a web resource for real-time translation](add-web-resource-real-time-translation.md)
 
 ## Enable real-time translation for agent and customer conversations
 
@@ -39,5 +39,5 @@ You must add a web resource and make sure that the required language translation
 
 ### See also
 
-[Add a web resource for real-time translation](../developer/how-to/add-web-resource-real-time-translation.md)  
-[Real-time language translation of conversations for agents and customers](../agent/agent-oc/oc-real-time-translation.md)  
+[Add a web resource for real-time translation](add-web-resource-real-time-translation.md)  
+[Real-time language translation of conversations for agents and customers](oc-real-time-translation.md)  

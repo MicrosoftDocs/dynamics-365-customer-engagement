@@ -75,7 +75,7 @@ To send a file, follow these steps:
     > [!div class=mx-imgBorder]
     > ![Send a file](media/fb-attach.png "Send a file")
 
-To learn more about the Facebook channel setup, see [Configure a Facebook channel](../../administrator/configure-facebook-channel.md).
+To learn more about the Facebook channel setup, see [Configure a Facebook channel](configure-facebook-channel.md).
 
 ## Privacy notice
 
@@ -83,4 +83,4 @@ Customers are solely responsible for using Dynamics 365, this feature, and any a
 
 ## See also
 
-[Configure a Facebook channel](../../administrator/configure-facebook-channel.md)
+[Configure a Facebook channel](configure-facebook-channel.md)

@@ -19,7 +19,7 @@ For example, you can have separate queues for anonymous customers and authentica
 
 After you create an authentication settings record, you must add it in the **Basic details** tab of the appropriate chat widget to make it work.
 
-An agent will get a notification in the **Conversation summary** section whether a customer is authenticated or not. The **Authenticated** field is set to **Yes** or **No** based on the authentication of the customer. If a chat widget does not have any authentication setting associated with it, **Authenticated** field is set to **No** even if a customer is logged in to the portal. For information on conversation summary, see [Conversation summary](../agent/agent-oc/oc-customer-summary.md#conversation-summary).
+An agent will get a notification in the **Conversation summary** section whether a customer is authenticated or not. The **Authenticated** field is set to **Yes** or **No** based on the authentication of the customer. If a chat widget does not have any authentication setting associated with it, **Authenticated** field is set to **No** even if a customer is logged in to the portal. For information on conversation summary, see [Conversation summary](oc-customer-summary.md#conversation-summary).
 
 ## Prerequisites
 
@@ -78,7 +78,7 @@ If you are adding an authenticated chat experience to a custom website, your web
     openssl rsa -pubout -in private_key.pem -out public_key.pem
     ```
 
-2. Create an endpoint that will return your public key(s). The public key(s) will be used by the Omnichannel servers to validate the JWT token passed as a part of authorizing the chat request. The URL of this endpoint will be entered into the Omnichannel Administration app when creating an Authentication setting record.  
+2. Create an endpoint that will return your public keys. The public keys will be used by the Omnichannel servers to validate the JWT token passed as a part of authorizing the chat request. The URL of this endpoint will be entered into the Omnichannel Administration app when creating an Authentication setting record.  
 
     Your public key endpoint will look similar to this example:
 
@@ -138,7 +138,7 @@ If you are adding an authenticated chat experience to a custom website, your web
           | Exp   | The expiration date of this token. Beyond this date it is no longer valid. This is in numeric date format.  |
           | Sub   | The subject of the claim. (We recommend using the GUID of the contact or account record in CRM.)  |
 
-     - The lwicontext(s): the context variables to pass in as a part of the conversation, either for routing purposes or to display to the agent. To learn more about lwicontexts, see [Manage custom context](../developer/how-to/send-context-starting-chat.md).
+     - The lwicontext(s): the context variables to pass in as a part of the conversation, either for routing purposes or to display to the agent. To learn more about lwicontexts, see [Manage custom context](send-context-starting-chat.md).
      
      - Any other data you wish to pass. 
 
@@ -165,7 +165,7 @@ If you are adding an authenticated chat experience to a custom website, your web
 
       > [!NOTE]
       > - If the token is expired or invalid, the chat widget will throw an error event. 
-      > - The setContextProvider method does not need to be used for authenticated chat. You should pass in your lwicontexts as a part of the JWT payload.     
+      > - The setContextProvider method does not need to be used for authenticated chat. You should pass in your lwicontexts as a part of the JWT payload.
 
 4. Create a javascript function on your website that will accept a callback function and return a JWT to the callback function. To avoid timeout, this javascript function should return a JWT within 10 seconds. This JWT will: 
 

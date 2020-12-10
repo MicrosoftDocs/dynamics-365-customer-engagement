@@ -26,18 +26,18 @@ Supervisors can use Omnichannel Insights to perform the following tasks:
 
 
 > [!NOTE]
-> Contact your system administrator for configuration errors or if you are unable to view the dashboards. To learn more, see [Configure Omnichannel Insights dashboards](../administrator/configure-historical-sentiment-dashboard-supervisor.md).
+> Contact your system administrator for configuration errors or if you are unable to view the dashboards. To learn more, see [Configure Omnichannel Insights dashboards](configure-historical-sentiment-dashboard-supervisor.md).
 
 ## Prerequisites  
 
 Verify the following prerequisites before you use the Omnichannel Chat and Sentiment Analysis dashboards:
 
--	Omnichannel supervisor role is assigned. To learn more, see [Assign roles and enable users for Omnichannel for Customer Service](../administrator/add-users-assign-roles.md). 
+-	Omnichannel supervisor role is assigned. To learn more, see [Assign roles and enable users for Omnichannel for Customer Service](add-users-assign-roles.md). 
 
--	A user is added in a supervisor configuration. To learn more, see [Add users to supervisor configuration](../administrator/configure-historical-sentiment-dashboard-supervisor.md#add-users-to-supervisor-configuration).
+-	A user is added in a supervisor configuration. To learn more, see [Add users to supervisor configuration](configure-historical-sentiment-dashboard-supervisor.md#add-users-to-supervisor-configuration).
 
 ## See also
 
-[Configure Omnichannel Insights dashboards](../administrator/configure-historical-sentiment-dashboard-supervisor.md)
+[Configure Omnichannel Insights dashboards](configure-historical-sentiment-dashboard-supervisor.md)
 
 [View and understand Omnichannel Insights dashboards](omnichannel-insights-dashboard.md) 

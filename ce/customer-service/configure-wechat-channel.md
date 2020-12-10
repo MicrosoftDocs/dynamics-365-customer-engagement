@@ -108,5 +108,5 @@ Customers are solely responsible for using Dynamics 365, this feature, and any a
 ### See also
 
 [Channels in Omnichannel for Customer Service](channels.md)<br>
-[Use a WeChat channel](../agent/agent-oc/wechat-channel.md)<br>
+[Use a WeChat channel](wechat-channel.md)<br>
 [Delete a configured channel](delete-channel.md)

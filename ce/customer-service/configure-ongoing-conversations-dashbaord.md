@@ -21,4 +21,4 @@ For **Unified Service Desk**, you must add users to supervisor configuration for
 
 ### See also
 
-[View and understand Omnichannel Ongoing Conversations dashboard](../supervisor/ongoing-conversations-dashboard.md).
+[View and understand Omnichannel Ongoing Conversations dashboard](ongoing-conversations-dashboard.md).

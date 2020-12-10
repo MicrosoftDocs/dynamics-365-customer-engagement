@@ -53,11 +53,11 @@ If you would like to try out Chat for Dynamics 365 for free, sign up for a trial
 
 ### Can I use Chat for Dynamics 365 in the Customer Service Hub app module or any custom app module?
 
-No. You can only use Chat in the **Omnichannel for Customer Service** app. The app module is available to users who have been provisioned as **Omnichannel agent**. To learn more, see [Sign in to Omnichannel for Customer Service](agent/agent-oc/oc-sign-in-omnichannel.md).
+No. You can only use Chat in the **Omnichannel for Customer Service** app. The app module is available to users who have been provisioned as **Omnichannel agent**. To learn more, see [Sign in to Omnichannel for Customer Service](oc-sign-in-omnichannel.md).
 
 ### Can I work on cases along with chats?
 
-Yes. You can work on cases alongside customer conversations in different sessions. You can open case sessions from the dashboards and grids using gestures. For more information on starting a session, see [Manage sessions in Omnichannel for Customer Service](agent/agent-oc/oc-manage-sessions.md#start-a-session).
+Yes. You can work on cases alongside customer conversations in different sessions. You can open case sessions from the dashboards and grids using gestures. For more information on starting a session, see [Manage sessions in Omnichannel for Customer Service](oc-manage-sessions.md#start-a-session).
 
 ### Can I work on third-party communication widgets built using Dynamics 365 Channel Integration Framework in the Omnichannel for Customer Service app module? 
 
@@ -71,7 +71,7 @@ We recommend that you do not open Omnichannel for Customer Service in multiple b
 
 If you accidentally close your browsers, your currently open sessions and tabs opened inside them are lost; however, if you have entered some data on the model-driven forms where autosave has been enabled, they will be saved into model-driven apps.
 
-Ongoing chat conversations appear on your Omnichannel Agent Dashboard. You can pick the chat from that dashboard and resume the conversation. The chat conversation is preserved, and you will be able to see the previous messages. If you were working on case sessions, you can reopen them using the gestures. For more information on starting a session, see [Manage sessions in Omnichannel for Customer Service](agent/agent-oc/oc-manage-sessions.md#start-a-session).
+Ongoing chat conversations appear on your Omnichannel Agent Dashboard. You can pick the chat from that dashboard and resume the conversation. The chat conversation is preserved, and you will be able to see the previous messages. If you were working on case sessions, you can reopen them using the gestures. For more information on starting a session, see [Manage sessions in Omnichannel for Customer Service](oc-manage-sessions.md#start-a-session).
 
 ### Does consult only work for managers/supervisors?
 
@@ -105,17 +105,17 @@ The timer in the communication panel represents how long the current session tab
 
 ### How do I open chats on my dashboard?
 
-For information about managing work items from your dashboard, see [View agent dashboard and agent work items](agent/agent-oc/oc-agent-dashboard.md).
+For information about managing work items from your dashboard, see [View agent dashboard and agent work items](oc-agent-dashboard.md).
 
 ### Where are conversations stored and how can I access them?
 
-Conversations and sessions are stored as activity types within the Model-driven apps. For more information, see [View conversation and session activity types in the Model-driven apps](agent/agent-oc/oc-view-activity-types.md).
+Conversations and sessions are stored as activity types within the Model-driven apps. For more information, see [View conversation and session activity types in the Model-driven apps](oc-view-activity-types.md).
 
 ## Administration
 
 ### How does Automated Record Identification work with pre-chat fields?
 
-If you are using multiple fields for automated record identification, they must all be an exact match. To learn more, see [Automatically identify customers using pre-chat responses](administrator/record-identification-rule.md).
+If you are using multiple fields for automated record identification, they must all be an exact match. To learn more, see [Automatically identify customers using pre-chat responses](record-identification-rule.md).
 
 ### What do I do if my dashboards (Omnichannel Agent Dashboard, Omnichannel Conversation Dashboard, Tier 1 Dashboard, Tier 2 Dashboard) aren’t showing up?
 
@@ -135,7 +135,7 @@ This is currently not supported. Enabling customizations for the Conversation Su
 
 ### Why am I not able to see the IntradayMonitoring report and datasets in Power BI service while configuring intraday insights dashboard for supervisors?
 
-Creation of the IntradayMonitoring report may take up to 15 mins to appear in your configured Power BI workspace. While configuring the Power BI workspace in Omnichannel Administration app, ensure that you have saved the configurations before you exit the configuration form. When you select Save, the creation of the report and dataset is initiated. If you missed to save the configuration, initiate the configuration for Supervisor Experience again. To learn more, see [Configure Intraday insights for Omnichannel for Customer Service app on web](administrator/configure-intraday-dashboard-supervisor.md#configure-intraday-insights-for-the-omnichannel-for-customer-service-app-on-the-web).
+Creation of the IntradayMonitoring report may take up to 15 mins to appear in your configured Power BI workspace. While configuring the Power BI workspace in Omnichannel Administration app, ensure that you have saved the configurations before you exit the configuration form. When you select Save, the creation of the report and dataset is initiated. If you missed to save the configuration, initiate the configuration for Supervisor Experience again. To learn more, see [Configure Intraday insights for Omnichannel for Customer Service app on web](configure-intraday-dashboard-supervisor.md#configure-intraday-insights-for-the-omnichannel-for-customer-service-app-on-the-web).
 
 ### What is the application ID field on the application user form?
 
@@ -154,7 +154,7 @@ Check the following:
 - Make sure that the Omnichannel supervisor role is assigned to the user.
 - For the Power BI intraday dashboard, ensure that the dashboard is shared with the user both on Power BI service as well as in the Omnichannel app.
 
-For more information, see [Configure Intraday Insights dashboard](administrator/configure-intraday-dashboard-supervisor.md). 
+For more information, see [Configure Intraday Insights dashboard](configure-intraday-dashboard-supervisor.md). 
 
 ### Why are my Chat Insights and Sentiment dashboard reports empty?
 
@@ -172,7 +172,7 @@ Yes, you can customize the visualizations by editing the report in Power BI.
 
 The dataset for the Live Monitoring report is real time; if a report is refreshed or filters are changed, the data will be updated as per the current state of the system.
 
-The dataset refresh interval for Intraday and Chat Insights reports depends on your settings in Power BI. To learn more, see [Configure Intraday Insights dashboard](administrator/configure-intraday-dashboard-supervisor.md) and Chat Insights set-up. 
+The dataset refresh interval for Intraday and Chat Insights reports depends on your settings in Power BI. To learn more, see [Configure Intraday Insights dashboard](configure-intraday-dashboard-supervisor.md) and Chat Insights set-up. 
 
 ### Why am I not able to see more than 100 agents while using filters in Omnichannel Ongoing Conversations dashboard?
 
@@ -182,9 +182,9 @@ By default, the application only displays 100 agents at any given time while fil
 
 These controls are in place for exposing the data in reports:
 
-- Access to the Power BI reports is controlled by Power BI access roles, and sharing within the Omnichannel app. To learn more, see [Configure Intraday Insights dashboard](administrator/configure-intraday-dashboard-supervisor.md)
+- Access to the Power BI reports is controlled by Power BI access roles, and sharing within the Omnichannel app. To learn more, see [Configure Intraday Insights dashboard](configure-intraday-dashboard-supervisor.md)
 - Access to the Ongoing Conversation dashboard is controlled by the **Omnichannel supervisor** Dynamics role.
-- Sentiment can be turned on or off in the Omnichannel Administration app. To learn more, see [Enable sentiment analysis](administrator/enable-sentiment-analysis.md) 
+- Sentiment can be turned on or off in the Omnichannel Administration app. To learn more, see [Enable sentiment analysis](enable-sentiment-analysis.md) 
 
 ## Chat widgets
 
@@ -202,9 +202,9 @@ The same widget will persist the chat as you cross different pages or websites.
 
 Yes, you can create custom context variables and create routing rules based on them. For more information, see the following:
 
-- [Understand and create workstreams](administrator/work-streams-introduction.md)
-- [Create and manage routing rules](administrator/routing-rules.md)
-- [Manage custom context](developer/how-to/send-context-starting-chat.md)
+- [Understand and create workstreams](work-streams-introduction.md)
+- [Create and manage routing rules](/routing-rules.md)
+- [Manage custom context](send-context-starting-chat.md)
 
 ### Can Omnichannel routing be used for other external channels (for example, my phone calls)?
 

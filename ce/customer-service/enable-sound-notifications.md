@@ -46,4 +46,4 @@ When you enable sound settings, the options to personalize settings are availabl
 
 ### See also
 
-[Personalize notifications](../agent/oc-agent/../agent-oc/oc-personalize-sound-notifications.md)  
+[Personalize notifications](oc-personalize-sound-notifications.md)  

@@ -78,7 +78,7 @@ The **Self service** tab displays information about the activities that the cust
 | Knowledge article viewed | The knowledge article viewed, with time stamp. |
 | Custom action performed | Any other custom action that's being tracked by your organization, with time stamp. |
 
-To configure the appearance of the **Self service** tab, see [Enable self-service settings for customer actions in a conversation summary](../../administrator/enable-self-service-settings.md).
+To configure the appearance of the **Self service** tab, see [Enable self-service settings for customer actions in a conversation summary](enable-self-service-settings.md).
 
 ### Visitor details
 
@@ -88,13 +88,13 @@ If the customer has signed in to the portal to initiate the chat with a support 
 
 ![Authenticated chat shown as Yes on the Visitor details tab](media/conversation-summary-authenticated-chat.PNG "Authenticated chat shown as Yes on the Visitor details tab") ![Unauthenticated chat shown as No on the Visitor details tab](media/conversation-summary-unauthenticated-chat.PNG "Unauthenticated chat shown as No on the Visitor details tab")
 
-To learn more, see [Create chat authentication settings](../../administrator/create-chat-auth-settings.md).
+To learn more, see [Create chat authentication settings](create-chat-auth-settings.md).
 
 ### Additional details
 
 If your administrator or developer has configured the **Additional details** tab and if any additional context variables exist, they're displayed on the **Additional details** tab.
 
-To learn more, see [setContextProvider](../../developer/reference/methods/setContextProvider.md).
+To learn more, see [setContextProvider](developer/reference/methods/setContextProvider.md).
 
 ## Case
 
@@ -125,4 +125,4 @@ The **Linked records** field shows the record that's linked to the conversation.
 [View communication panel](oc-conversation-control.md)  
 [Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md)  
 [View customer summary for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)  
-[setContextProvider](../../developer/reference/methods/setContextProvider.md)  
+[setContextProvider](developer/reference/methods/setContextProvider.md)  
