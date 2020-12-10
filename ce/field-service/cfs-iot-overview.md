@@ -16,9 +16,9 @@ search.app:
 
 # Connected Field Service for Azure IoT Central - Overview
 
-Connected Field Service for Azure IoT Central provides a direct integration of Dynamics 365 Field Service with Azure IoT Central, a fully managed IoT software-as-a-service (SaaS) solution. 
+Connected Field Service for Azure IoT Central provides a direct integration of Dynamics 365 Field Service with Azure IoT Central, a fully managed IoT software-as-a-service (SaaS) solution.
 
-Azure IoT Central enables builders to configure rules and actions. Based on those actions, IoT alerts will be created in Connected Field Service. Also, based on service activities in Connected Field Service, information can be sent back to Azure IoT Central. This is accomplished by using Power Automate, a SaaS offering for automating workflows across applications and services. 
+Azure IoT Central enables builders to configure rules and actions. Based on those actions, IoT alerts will be created in Connected Field Service. Also, based on service activities in Connected Field Service, information can be sent back to Azure IoT Central. This is accomplished by using Power Automate, a SaaS offering for automating workflows across applications and services.
 
 > [!div class="mx-imgBorder"]
 > ![Diagram representing the relationship between Azure IoT Central, Power Automate, and Connected Field Service](media/cfs-overview.png)
@@ -45,8 +45,6 @@ Connect Azure IoT Central to Connected Field Service using Power Automate in jus
 3. [Send work order updates to Azure IoT Central](cfs-iot-central-work-orders.md)
 4. [Send booking updates to Azure IoT Central](cfs-iot-central-bookings.md)
 
-
-
 ## 1 - Receive IoT alerts in Connected Field Service from Azure IoT Central
 
 At the end of this step in the tutorial, you'll be able to receive and see alerts from Azure IoT Central in your instance of Connected Field Service. IoT alerts will display on your dashboard and relate to relevant work orders that have been created automatically.  
@@ -69,12 +67,12 @@ Connect Azure IoT Central to Connected Field Service by configuring the "Create 
 
 3. Once on the Refrigerated Vending Machine detail page, navigate to the **Dashboard** tab, seen below in the screenshot.
 
-    a. You should see service and scheduling fields in the Contoso Template. Their values should be empty. If you can't see these fields, please refer to [this documentation](https://docs.microsoft.com/azure/iot-central/howto-manage-devices#change-a-property) to add the properties.
+    a. You should see service and scheduling fields in the Contoso Template. Their values should be empty. If you can't see these fields, refer to [this documentation](https://docs.microsoft.com/azure/iot-central/howto-manage-devices#change-a-property) to add the properties.
     
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the service details on and IoT Central device](media/iot-central-alerts-3.png)
 
-4. Next, while still on this detail page, head over to the **Rules** tab, and create the rule "Cash drawer level is high." For more information on creating a rule, learn more in [this IoT Central tutorial](https://docs.microsoft.com/azure/iot-central/tutorial-configure-rules).
+1. Next, while still on this detail page, head over to the **Rules** tab, and create the rule "Cash drawer level is high." For more information on creating a rule, learn more in [this IoT Central tutorial](https://docs.microsoft.com/azure/iot-central/tutorial-configure-rules).
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the rules tab in IoT Central](media/iot-central-alerts-4.png)
@@ -128,7 +126,7 @@ From here, the workflow will trigger based on the alert type. While you may have
 
 ### See the results
 
-Once you've saved your Flow, log in to Dynamics 365 Field Service, and select Connected Field Service. You may see a window that offers a few links to learn more about Connected Field Service and Azure IoT offerings. You can choose to learn more, or just dismiss this window. 
+Once you've saved your flow, sign in to Dynamics 365 Field Service, and select Connected Field Service. You may see a window that offers a few links to learn more about Connected Field Service and Azure IoT offerings. You can choose to learn more, or just dismiss this window. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the IoT alerts in Connected Field Service](media/iot-central-alerts-14.png)

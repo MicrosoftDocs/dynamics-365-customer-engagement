@@ -1,12 +1,12 @@
 ---
 title: "Reports for Connected Field Service | MicrosoftDocs"
-description: Learn how to enable and set up location auditing for the Dynamics 365 Field Service mobile app
+description: Learn how set up and use reports for Connected Field Service
 ms.custom:
 - dyn365-fieldservice
 ms.date: 12/02/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
-ms.suite: ""
+
 applies_to:
 - "Dynamics 365 (online)"
 - "Dynamics 365 Version 9.x"
@@ -22,17 +22,18 @@ search.app:
 # Reports for Connected Field Service
 
 ## View the IoT dashboard
+
  The default IoT dashboard provides data on registered devices and alerts. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or customize dashboards](../customize/create-edit-dashboards.md)
 
 
  > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/cfs-chart.png)
 
-1.  From the main menu, click **Dashboards** then switch to the **Connected Field Service Dashboard**.
+1.  From the main menu, go to **Dashboards** then switch to the **Connected Field Service Dashboard**.
 
-2.  Click **Dashboard**.
+2.  Select **Dashboard**.
 
-    -   The first chart shows alerts that you can sort by clicking the IoT **Alerts by** menu.
+    -   The first chart shows alerts that you can sort by selecting the IoT **Alerts by** menu.
 
     -   The second chart shows alerts by time.
 
@@ -42,7 +43,7 @@ search.app:
 
  Set up Power BI  accounts and open the sample .pbix report.  
   
-1. Go to [https://powerbi.microsoft.com](https://powerbi.microsoft.com) and create a free Power BI account .  
+1. Go to [https://powerbi.microsoft.com](https://powerbi.microsoft.com) and create a free Power BI account.  
   
 2. [Install Power BI Desktop](https://powerbi.microsoft.com/desktop/).  
   
@@ -54,13 +55,13 @@ search.app:
   
 #### Update the query to point to your SQL database  
   
-1. Click **Edit Queries**.  
+1. Select **Edit Queries**.  
   
-2. Click **Advanced Editor**.  
+2. Select **Advanced Editor**.  
   
 3. Replace the source SQL database with the database provisioned in your Azure resource group.  
   
-4. Click **Close and Apply**.  
+4. Select **Close and Apply**.  
   
     You can find your SQL server name in the SQL database in the Azure portal.  
   
@@ -86,7 +87,7 @@ search.app:
   
 6.  Save the dashboard, and then share it with any users who have permissions to see the dashboard and tiles.  
   
-    -   In the top right corner of the dashboard, click **Share**, enter the users email address, and click the **Share** button .  
+    -   In the top-right corner of the dashboard, select **Share**, enter the users email address, and select the **Share** button.  
   
 #### Pin the tile in Dynamics 365  
   
@@ -98,7 +99,7 @@ search.app:
 
 2.  The first time you  will need to specify the tile you want pinned. After that, the tile will load when you go to the page.
 
-    1.  Click the **Add** button.
+    1.  Select the **Add** button.
 
     2.  A configuration window displays. Sign in if prompted.
 

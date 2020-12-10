@@ -1,12 +1,11 @@
 ---
-title: "Device categories | MicrosoftDocs"
+title: "Device categories in Connected Field Service | MicrosoftDocs"
 description: Learn how to enable and set up location auditing for the Dynamics 365 Field Service mobile app
 ms.custom:
 - dyn365-fieldservice
 ms.date: 11/19/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
-ms.suite: ""
 applies_to:
 - "Dynamics 365 (online)"
 - "Dynamics 365 Version 9.x"
@@ -18,37 +17,33 @@ search.app:
 - D365FS
 ---
 
-# Device categories
+# Device categories in Connected Field Service
 
 Device categories help you organize devices. 
 
  You can also manage devices by categorizing them. For example, you can categorize devices by the commands they support, the type of device, or by devices that break down more often.  
   
-
-  
-  
-  
 ### Create a new IoT device category  
   
-1.  From the main menu, click **Settings** > **Device Categories**.  
+1.  From the main menu, go to **Settings** > **Device Categories**.  
   
-2.  On the command bar, click **New**.  
+2.  On the command bar, select **New**.  
   
 3.  Enter a **Name** for the device category.  
   
 4.  Use the helpful tooltips to fill in information.  
   
-5.  When you're done click **Save**.  
+5.  When you're done, select **Save**.  
   
 6.  Open the IoT device category record that you created.  
   
-7.  In the **Devices** section, click **Add IoT Device record** , and  then add a device to the category.  
+7.  In the **Devices** section, select **Add IoT Device record, and then add a device to the category.  
   
 ### Add devices to an existing category  
   
-1.  From the main menu click, **Internet of Things** > **Registered Devices**.  
+1.  From the main menu, go to **Internet of Things** > **Registered Devices**.  
   
-2.  Click an IoT device record to open it.  
+2.  Choose an IoT device record to open it.  
   
 3.  In the **Category** field, use the search button to find and add the device to a category.  
   
@@ -57,7 +52,7 @@ Device categories help you organize devices.
   
  By default, you can view the last 20 readings. You can change the default setting in the Power BI report by using Power BI Desktop.  
   
-1.  To view a device reading, from the main menu, click **Field Service** > **Customer Asset**.  
+1.  To view a device reading, from the main menu, go to **Field Service** > **Customer Asset**.  
   
 2.  From the list of assets, choose an asset and open the record.  
   
@@ -73,8 +68,8 @@ Device categories help you organize devices.
 
 ### View a device's registration history  
   
-1.  From the main menu, click **IoT Devices**.  
+1.  From the main menu, go to **IoT Devices**.  
   
-2.  Click an IoT device record to open it.  
+2.  Select an IoT device record to open it.  
   
-3.  In the Category field, use the search button to find and to add the device to a category.  
+3.  In the category field, use the search button to find and to add the device to a category.  

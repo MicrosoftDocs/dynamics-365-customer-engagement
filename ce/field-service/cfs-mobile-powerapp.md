@@ -68,7 +68,7 @@ This will create the IoT device in Azure IoT.
 
 2.  Tap **Customer Assets**, and then tap the **Add** button.
 
-3.  Fill in the asset information and, then  tap **Register Device**.
+3.  Fill in the asset information and, then tap **Register Device**.
 
 
 ## Troubleshoot by sending commands

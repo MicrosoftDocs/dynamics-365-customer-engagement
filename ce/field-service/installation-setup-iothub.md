@@ -16,26 +16,26 @@ search.app:
 ---
 # Installation and setup - Connected Field Service for Azure IoT Hub
 
-This guide provides all the steps required for getting up and running with Connected Field Service (CFS) for IoT Hub. If you're looking for information about CFS for IoT Central, be sure to visit our tutorial on getting set up.
+This guide provides all the steps required for getting up and running with Connected Field Service (CFS) for IoT Hub.
 
-## Prerequisites  
+## Prerequisites
+
  Ensure the following before configuring Connected Field Service.
   
 - Dynamics 365 Field Service. For more information, visit the [article on installing Dynamics 365 Field Service](../field-service/install-field-service.md).
   
-- Assign your Dynamics 365 user the System Administrator and IoT-Administrator secuirity roles. 
+- Assign your Dynamics 365 user the System Administrator and IoT-Administrator security roles. 
 
-- An active Azure subscription with appropriate privileges. See our [topic on Azure prerequisites](cfs-azure-subscription.md) for more information.
+- An active Azure subscription with appropriate privileges. For more information, see the [article on Azure prerequisites](cfs-azure-subscription.md).
 
 ## Step 1: Install or upgrade Field Service  
  
 Connected Field Service is included with Dynamics 365 Field Service. Creating a new Field Service environment or upgrading an existing one to v7.5.5 or v8.3+ will automatically include the following Connected Field Service entities and related processes:
 
- - Assets
- - IoT alerts
- - Devices
- - Commands
- 
+- Assets
+- IoT alerts
+- Devices
+- Commands
  
 > [!div class="mx-imgBorder"]
 > ![Screenshot of IoT alerts in the asset menu in the sidebar](./media/cfs-navigation.png)
@@ -67,7 +67,7 @@ Before proceeding, make sure all required Azure resources are successfully deplo
 
 ## Step 3: Authorize Azure app connection 
 
-After you’ve installed all required Azure resources, click **Authorize** to configure the Dynamics 365 connector connection API. When you configure the connection API you’ll need to enter your Dynamics 365 subscription account. See more details in the topic on [Authorize API connection between Dynamics 365 and AzureIoT](./cfs-authorize-api-connection.md).
+After you’ve installed all required Azure resources, select **Authorize** to configure the Dynamics 365 connector connection API. When you configure the connection API, you’ll need to enter your Dynamics 365 subscription account. See more details in the article on [Authorize API connection between Dynamics 365 and AzureIoT](./cfs-authorize-api-connection.md).
 
 Back in Dynamics 365 Field Service, go to **Settings** > **Providers** to see your Azure IoT Hub subscription connected as an IoT provider.
 
@@ -76,9 +76,9 @@ Back in Dynamics 365 Field Service, go to **Settings** > **Providers** to see yo
   
 ## Step 4: Set up the simulator (optional) 
 
-The simulator will allow you test Connected Field Service without the need to connect physical hardware. By simulating IoT devices and data, you can understand all the different parts that contribute to turning IoT data into work orders. 
+The simulator will allow you to test Connected Field Service without the need to connect physical hardware. By simulating IoT devices and data, you can understand all the different parts that contribute to turning IoT data into work orders. 
 
-Set up the simulator to simualte iot devices and data and begin to see pull device data into Field Service. 
+Set up the simulator to simulate IoT devices and data and begin to see device data pulled into Field Service.
 
 To find the simulator URL, sign in to your Azure subscription, and then select the App Service resource type under the newly created resource group. You’ll see the URL is in the top-right corner. Copy the URL and complete the following steps:  
   
@@ -91,18 +91,18 @@ To find the simulator URL, sign in to your Azure subscription, and then select t
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the "configure connection" dialog in Azure.](./media/cfs-iothub-thermostadt-simulator.png)
 
- The key can be accessed by clicking on the IoT Hub resource and going to the shared access policies, then copying the primary key for **iothubowner** as seen in the following screenshot.
+ The key can be accessed by selecting the IoT Hub resource and going to the shared access policies, then copying the primary key for **iothubowner** as seen in the following screenshot.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Azure IoT Hub showing the primary key.](./media/cfs-iothub-resource-azure-portal.png)
   
-4. Select the IoT hub in the **Resource Group**.  
+1. Select the IoT hub in the **Resource Group**.  
   
-5. On the left under **General**, select **Shared access policies** to get the host name and primary key.  
+2. On the left under **General**, select **Shared access policies** to get the host name and primary key.  
   
-6. Make sure **Connection status**  is marked as **Connected** and then close the dialog box.  
+3. Make sure **Connection status**  is marked as **Connected** and then close the dialog box.  
 
-Now you can send a test command by using the sample simulator. For example, click the temperature and increase it to  above 70 degrees. The simulator is pre-programmed to create an IoT alert if temperature is above 70 degrees.
+Now you can send a test command by using the sample simulator. For example, select the temperature and increase it to above 70 degrees. The simulator is preprogrammed to create an IoT alert if temperature is above 70 degrees.
 
 ## Next steps
 
@@ -116,7 +116,3 @@ Now you can send a test command by using the sample simulator. For example, clic
 [Azure Time Series Insight (Preview)](https://docs.microsoft.com/azure/time-series-insights/)
 
 [Connected Field Service Device Readings (Preview)](cfs-visualizations-iot-hub.md) uses Azure Time Series Insight to store, process, and query IoT devices measurements from IoT Hub.
-
-
-
-

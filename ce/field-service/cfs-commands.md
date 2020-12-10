@@ -1,12 +1,11 @@
 ---
 title: "Send commands in Connected Field Service | MicrosoftDocs"
-description: Learn how to enable and set up location auditing for the Dynamics 365 Field Service mobile app
+description: Learn how to send commands using Connected Field Service
 ms.custom:
 - dyn365-fieldservice
 ms.date: 11/19/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
-ms.suite: ""
 applies_to:
 - "Dynamics 365 (online)"
 - "Dynamics 365 Version 9.x"
@@ -20,23 +19,22 @@ search.app:
 
 # Send commands in Connected Field Service
 
-
 ## Send commands from a registered asset
 
-1.  From the main menu, click **Field Service** > **Registered Assets**.
+1.  From the main menu, go to **Field Service** > **Registered Assets**.
 
 2.  From the list of assets, choose a registered asset or device.
 
-3.  On the command bar, click **CREATE COMMAND**.
+3.  On the command bar, select **CREATE COMMAND**.
 
 4.  Enter a **Name** for the command.
 
-5.  In the **MESSAGE TO SEND** box, copy and paste one of these supported commends. `{"CommandName":"Reset Thermostat","Parameters":{}}` `{"CommandName":"Notification","Parameters":{"Message":"Technician has been dispatched"}}` `{"CommandName":"Set Values","Parameters":{"Reading":{"Temperature":"30","Humidity":"30"}}}`
+5.  In the **MESSAGE TO SEND** box, copy and paste one of these supported commends. ``` `{"CommandName":"Reset Thermostat","Parameters":{}}` `{"CommandName":"Notification","Parameters":{"Message":"Technician has been dispatched"}}` `{"CommandName":"Set Values","Parameters":{"Reading":{"Temperature":"30","Humidity":"30"}}}` ```
 
     > [!NOTE]
     >  Before sending a command make sure there are no spaces or extra characters in the command.
 
-6.  On the command bar, click **SEND&CLOSE** to send the command.
+6.  On the command bar, select **SEND&CLOSE** to send the command.
 
 ## Respond to an alert
 
@@ -44,17 +42,17 @@ search.app:
 
 2.  Choose an existing IoT alert record.
 
-3.  On the command bar, click **CREATE COMMAND**.
+3.  On the command bar, select **CREATE COMMAND**.
 
 4.  Enter a **Name** for the command.
 
 5.  In the **MESSAGE TO SEND** box, copy and paste one of the supported commands listed section above.
 
-6.  On the command bar, click **SEND&CLOSE** to send the command.
+6.  On the command bar, select **SEND&CLOSE** to send the command.
 
 ## View history of commands sent to a device
 
-1.  From the main menu, click **Field Service** > **Customer Assets**.
+1.  From the main menu, go to **Field Service** > **Customer Assets**.
 
 2.  From the list, choose an asset.
 
