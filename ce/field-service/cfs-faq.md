@@ -3,7 +3,7 @@ title: "Frequently asked questions for Connected Field Service | MicrosoftDocs"
 description: Find answers to frequently asked questions for Connected Field Service
 ms.custom:
 - dyn365-fieldservice
-ms.date: 11/19/2020
+ms.date: 12/10/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.topic: troubleshooting
