@@ -47,9 +47,47 @@ The regarding entity specifies what the meeting is about, such as opportunity, l
 In the following image, you can see that the meeting is regarding an opportunity to purchase 10,000 no roof cars.   
 > [!div class="mx-imgBorder"]
 > ![View regarding entity](media/sm-view-regarding-entity.png "View regarding entity")   
-You can perform the following action on regarding entities: view, edit, change entity, and add entity. More information: [Manage records or regarding entities](open-record.md).    
-### Notes and Reminders    
-The timeline also shows any related notes and reminders through insight cards based on the related entities. The cards are retrieved from your Dynamics 365 Sales organization for the selected regarding entity.   
+You can perform the following action on regarding entities: view, edit, [change entity](#change-regarding-entity), and [add entity](#add-regarding-entity). More information: [Manage records or regarding entities](open-record.md).   
+
+#### Change regarding entity 
+
+You can update the regarding entity when it no longer is relevant or there are changes to the meeting. To change the regarding entity, follow these steps:   
+1. Tap **More options** (![Options button](media/sm-options-button.png "Options button")) and then tap **Change connected record**.    
+    >[!div class="mx-imgBorder"]
+    >![Select change connected record option](media/sm-select-change-connected-record.png "Select change connected record option")        
+2. On the **Regarding** page, either select a recent record or tap **Search** to look for the record you want.    
+    >[!div class="mx-imgBorder"]
+    >![Search for a record to connect](media/sm-regarding-record.png "Search for a record to connect")    
+3. After selecting a record, tap **Save**.    
+    >[!div class="mx-imgBorder"]
+    >![Select a record to connect](media/sm-select-regarding-record.png "Select a record to connect")    
+The connected record details are displayed in the **Regarding** section.
+
+#### Add regarding entity
+You can add a regarding entity to a meeting when no regarding entity is attached to it. When you add the regarding entity, its corresponding related entities are also added to the meeting.  
+
+>[!NOTE]  
+>Once you add a regarding entity, you cannot delete it. However, you can update the entity if you find the added entity is inappropriate.   
+
+1. On the meeting details page, tap **Set regarding**.   
+    >[!div class="mx-imgBorder"]
+    >![Connect a record to a meeting](media/sm-meeting-details-no-record.png "Connect a record to a meeting")   
+2. On the **Regarding** page, either select a recent record or tap **Search** to look for the record you want.   
+    >[!div class="mx-imgBorder"]
+    >![Search for a record to connect](media/sm-regarding-record.png "Search for a record to connect")   
+3. After selecting a record, tap **Save**.   
+    >[!div class="mx-imgBorder"]
+    >![Select a record to connect](media/sm-select-regarding-record.png "Select a record to connect")    
+The connected record details are displayed in the **Regarding** section. 
+
+
+### Notes and Reminders  
+
+**Notes**    
+Notes displayed under the **Notes** section are related the regarding entity that is associated with the meeting.  You can add, edit, and delete notes. More information: [Manage notes](sales-mobile/view-edit-add-note.md). 
+
+**Reminders**    
+You can see the reminders through insight cards based on the regarding entity that is associated with the meeting. You can do actions such as dismiss, snooze, and like or dislike the card by tapping **More options** (![Options button](media/sm-options-button.png "Options button")) on the card. The cards are retrieved from your Dynamics 365 Sales organization for the selected regarding entity.       
 The following reminder insight cards are supported:    
 <table>
 <tr>

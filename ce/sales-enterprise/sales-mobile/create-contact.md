@@ -55,7 +55,7 @@ You can create contacts if it doesn't exist in your Dynamics 365 Sales organizat
 1.  In the attendee list for a meeting, tap the name of the attendee.   
     ![Tap an attendee name](media/sm-tap-attendee.png "Tap an attendee name")   
 1. Tap **Create contact** and the **Create a contact** form opens.    
-2. Enter the required information and then tap **Save**. More information: [Create a contact](create-contact.md).   
+2. Enter the required information and then tap **Save**.  
     > [!div class="mx-imgBorder"]
     > ![Create contact](media/sm-create-contact.png "Create contact")   
 3.  In the **Create a contact** form, fill in the details, and then tap **Save**.

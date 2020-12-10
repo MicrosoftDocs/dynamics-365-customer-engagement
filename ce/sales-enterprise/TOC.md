@@ -321,4 +321,4 @@
 #### [View meetings](sales-mobile/view-agenda.md)
 #### [Manage records or regarding entities](sales-mobile/open-record.md)
 #### [Manage contacts](sales-mobile/create-contact.md)
-#### [View, edit, or add a note](sales-mobile/view-edit-add-note.md)
+#### [Manage notes](sales-mobile/view-edit-add-note.md)

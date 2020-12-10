@@ -9,7 +9,7 @@ ms.author: shjais
 manager: shujoshi
 ---
 
-# View, edit, or add a note
+# Manage notes
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -76,3 +76,8 @@ You can perform the following actions in the **Notes** section.
 3. To delete a note, select **Delete** from the bottom of the screen;
 
     ![Edit or delete a note](media/sm-note-edit-delete.png "Edit or delete a note")
+
+### See also
+
+[Learn the basics](sales-mobile/learn-basics-mobile-app.md)    
+[View meetings](sales-mobile/view-agenda.md)
