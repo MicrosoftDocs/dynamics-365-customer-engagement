@@ -69,7 +69,7 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
     - Added a new field "Depends on" to entity lookup that can be used to filter lookup options based on response to another entity lookup question.
 -	Corrected booking journal duration calculation to be more accurate.
 -	Resolved an issue where, upon reassigning a booking from a crew type resource to user type resource, the **Crew** and **Crew Member** fields were not cleared.
--	Improved the behavior of "Generate Agreement Booking Dates" workflow instances to be cancelled if the parent workflow is deactivated.
+-	Improved the behavior of "Generate Agreement Booking Dates" workflow instances to be canceled if the parent workflow is deactivated.
 -	Updated the customer asset quick create form to make it customizable.
 -	Improved pricing calculation of a work order product to ensure accuracy regardless of the user’s privileges.
 -	Corrected an issue to enable more than 5000 work order products to be associated to a work order.
