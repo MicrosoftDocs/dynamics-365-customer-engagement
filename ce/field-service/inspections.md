@@ -111,29 +111,7 @@ Add pages to your inspection in order to:
 
 Select the page dropdown in the top left of the designer to add one or more pages. Then add a page title and a page description, if needed.
 
-### Branching and conditional logic
 
-The inspection can be configured to look and act differently based on inspection answers in real time as the technician fills it out.
-
-Go to the **Logic** section of the designer form to add branching and conditional logic to the inspection.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the logic designer for Field Service inspections.](./media/inspections-logic1.png)
-
-Based on the response to an inspection question, options include:
-
-- **Make page visible**: Make the entire page of questions visible when the condition is true. Otherwise keep it hidden.
-
-- **Show the question**: Make the question visible when the condition is true. Otherwise keep it hidden.
-
-- **Change to required**: Question becomes required when the condition is true.
-
-- **Skip to question**: When the condition is true, then the focus shifts to the selected question.
-
-See the following screenshot for an example.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a filled out logic designer for a Field Service inspection.](./media/inspections-logic2.png)
 
 ### Review and publish
 
