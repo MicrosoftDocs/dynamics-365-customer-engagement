@@ -11,7 +11,7 @@ ms.service: "dynamics-365-customerservice"
 
 # Configure a Twitter Direct Message channel
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 Many customers use social messaging channels like Twitter Direct Message (DM) for their personal communication needs. Many also prefer using these messaging channels to engage with businesses. The asynchronous nature of these channels gives customers the convenience of getting their issues resolved as and when they find time, unlike real-time channels like Chat for Dynamics 365, where the session ends when the chat window is closed.
 
@@ -58,14 +58,14 @@ After completing the prerequisites, you can add the Twitter channel for your org
     More information about the Twitter app: [Setting up your Twitter app](https://developer.twitter.com/en/docs/basics/apps/overview)
   
     > [!div class=mx-imgBorder]
-    > ![Register a Twitter application](../media/twitter-register-app.png "Register a Twitter application")
+    > ![Register a Twitter application](media/twitter-register-app.png "Register a Twitter application")
 
 4.	Select **Save**. After you save the record, the **Twitter** channel is enabled. The Callback URL has been generated. The next step is to save it.
 
 5. To save the Callback URL in the Twitter app dashboard of the developer portal, go to the Twitter developer portal > Twitter app dashboard > **Details** > **App details** > **Edit**. Copy the **Callback URL** from Omnichannel for Customer Service, and then paste it into the **Callback URLs** field.
  
 > [!div class=mx-imgBorder]
-> ![Twitter Callback information](../media/twitter-callback-information.png "Twitter Callback URL")
+> ![Twitter Callback information](media/twitter-callback-information.png "Twitter Callback URL")
 
 6. Add a Twitter handle: In the **Twitter app** section, select **+ New Twitter handle** to add Twitter handle(s).
 
@@ -92,7 +92,7 @@ After completing the prerequisites, you can add the Twitter channel for your org
        To learn more about uploading media in Twitter, see [Twitter developer documentation](https://developer.twitter.com/en/docs/media/upload-media/uploading-media/media-best-practices).
        
        > [!div class=mx-imgBorder]
-       > ![Twitter work stream](../media/twitter-create-handle.png "Twitter work stream")
+       > ![Twitter work stream](media/twitter-create-handle.png "Twitter work stream")
 
 10. On the **Automated messages** tab, [configure automated messages](configure-automated-message.md). 
     
@@ -101,7 +101,7 @@ After completing the prerequisites, you can add the Twitter channel for your org
 12. Select **Save** to save the record. The Twitter channel setup is complete.
  
 > [!div class=mx-imgBorder]
-> ![Twitter channel enabled](../media/twitter-account-complete.png "Twitter channel enabled")
+> ![Twitter channel enabled](media/twitter-account-complete.png "Twitter channel enabled")
 
   > [!NOTE]
   > You can add multiple handles to a Twitter Application channel.
@@ -113,7 +113,7 @@ After completing the prerequisites, you can add the Twitter channel for your org
 3.	On the **Routing rules items** tab, create a routing rule to transfer the message to an appropriate agent. Select the entity as **Twitter Engagement Context**. For example, you can create a rule to transfer Twitter chat from a customer named Twitter to the default queue.
  
 > [!div class=mx-imgBorder]
-> ![Twitter routing rule creation](../media/twitter-create-routing-rule.png "Create Twitter routing rule")
+> ![Twitter routing rule creation](media/twitter-create-routing-rule.png "Create Twitter routing rule")
 
 When you create conditions for routing rules, the **Twitter Engagement Context (Conversation)** entity enables you to set the following attributes:
 
@@ -136,7 +136,7 @@ If a customer initiates a conversation from the Twitter website and then later s
 The agent receives the notification of the incoming chat request, along with customer details. More information: [View notifications](../agent/agent-oc/oc-notifications.md)
 
 > [!div class=mx-imgBorder]
-> ![Twitter chat agent notification](../media/twitter-chat-agent-notify.png "Twitter chat agent notification")
+> ![Twitter chat agent notification](media/twitter-chat-agent-notify.png "Twitter chat agent notification")
 
 Once the Twitter social profile is linked to an user customer/contact record by the agent, subsequent Twitter conversations are linked to the customer records and the customer summary is populated. 
 

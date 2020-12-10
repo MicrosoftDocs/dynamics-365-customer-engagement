@@ -10,7 +10,7 @@ ms.service: dynamics-365-customerservice
 ---
 # Configure a WeChat channel
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 ## WeChat channel
 
@@ -65,7 +65,7 @@ To integrate a WeChat channel with Omnichannel for Customer Service, get the fol
 6. Copy the information that's displayed in the **IP whitelist** and **Server address (URL)** boxes. This step is required for only WeChat service account.
 
     > [!div class=mx-imgBorder]
-    > ![Create a WeChat channel](../media/wechat-channel-config.png "Create a WeChat channel")
+    > ![Create a WeChat channel](media/wechat-channel-config.png "Create a WeChat channel")
 
 ### Configure WeChat details
 

@@ -11,7 +11,7 @@ ms.service: dynamics-365-customerservice
 
 # Monitor real-time customer sentiment
 
-[!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 As an agent, when you interact with your customers, you want to know the sentiments they're experiencing in real time. Analysis of the customer's satisfaction level helps you understand how serious the problem is and develop a course of action to solve it. In Omnichannel for Customer Service, you can see the customer's satisfaction levels instantly while you communicate with the customer.
 
@@ -24,7 +24,7 @@ When you get an incoming conversation request, you accept the request and commun
 When a conversation is escalated from a bot, the sentiment icon you see is based on the previous messages exchanged between the customer and the bot.
 
 > [!div class=mx-imgBorder]
-> ![Very positive sentiment](../../media/oceh/sentiment-very-positive-cc.png "Very positive sentiment")
+> ![Very positive sentiment](media/sentiment-very-positive-cc.png "Very positive sentiment")
 
 ## Understand real-time customer sentiment
 
@@ -34,13 +34,13 @@ The sentiment icons displayed on the communication panel are as follows:
 
 | Sentiment | Icon |
 |--------------------------|---------------------------------------------------|
-| Very positive | ![Very positive sentiment](../../media/oceh/sentiment-very-positive.png "Very positive sentiment") |
-| Positive | ![Positive sentiment](../../media//oceh/sentiment-positive.png "Positive sentiment") |
-| Slightly positive | ![Slightly positive sentiment](../../media/oceh/sentiment-slightly-positive.png "Slightly positive sentiment") |
-| Neutral | ![Neutral sentiment](../../media/oceh/sentiment-neutral.png "Neutral sentiment") |
-| Slightly negative | ![Slightly negative sentiment](../../media/oceh/sentiment-slightly-negative.png "Slightly negative sentiment") |
-| Negative | ![Negative sentiment](../../media/oceh/sentiment-negative.png " Negative sentiment") |
-| Very negative | ![Very negative sentiment](../../media/oceh/sentiment-very-negative.png "Very negative sentiment") |
+| Very positive | ![Very positive sentiment](media/sentiment-very-positive.png "Very positive sentiment") |
+| Positive | ![Positive sentiment](media//oceh/sentiment-positive.png "Positive sentiment") |
+| Slightly positive | ![Slightly positive sentiment](media/sentiment-slightly-positive.png "Slightly positive sentiment") |
+| Neutral | ![Neutral sentiment](media/sentiment-neutral.png "Neutral sentiment") |
+| Slightly negative | ![Slightly negative sentiment](media/sentiment-slightly-negative.png "Slightly negative sentiment") |
+| Negative | ![Negative sentiment](media/sentiment-negative.png " Negative sentiment") |
+| Very negative | ![Very negative sentiment](media/sentiment-very-negative.png "Very negative sentiment") |
 
 > [!Note]
 > The real-time sentiment is shown to you only if the supervisor or administrator has enabled sentiment analysis for a queue where you've been added as a member.

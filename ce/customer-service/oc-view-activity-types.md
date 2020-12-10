@@ -11,25 +11,25 @@ ms.service: dynamics-365-customerservice
 
 # View conversation and session form
 
-[!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 Your organization might have a classification where certain agents work in the contact center, which uses Omnichannel for Customer Service on the web and certain agents work in another contact center, which uses model-driven app such as Customer Service Hub. In this case, if you are an agent who works on the model-driven app, and you need to analyze the conversation request from Omnichannel for Customer Service, you can find the information through **Activities** in the model-driven app.
 
 Select the plus icon in the application tab to view the sitemap and select **Activities**.
 
 > [!div class=mx-imgBorder]
-> ![Select activities in the sitemap to view the list of activity types](../../media/oceh-oc-activities.png "Select activities in the sitemap")
+> ![Select activities in the sitemap to view the list of activity types](media/oceh-oc-activities.png "Select activities in the sitemap")
 
 There will be many activity types, and you need to look for **Conversation** and **Session** types.
 
 > [!div class=mx-imgBorder]
-> ![Select activities in the sitemap to view the list of activity types](../../media/oceh-oc-activities-list.png "Select activities in the sitemap")
+> ![Select activities in the sitemap to view the list of activity types](media/oceh-oc-activities-list.png "Select activities in the sitemap")
 
 ### Conversation activity type
 
 The Conversation activity type displays information about an conversation request.
 
-![Omnichannel conversation form](../../media/oceh-oc-conversation-form.png "Omnichannel conversation form")  
+![Omnichannel conversation form](media/oceh-oc-conversation-form.png "Omnichannel conversation form")  
 
 | **Tab** | **Section**     | **Fields**        |
 |---------|-----------------|-------------------|
@@ -42,7 +42,7 @@ The Conversation activity type displays information about an conversation reques
 
 The session activity type displays information about a individual session in a conversation request.
 
-![Omnichannel session form](../../media/oceh-oc-session-form.png "Omnichannel session form")  
+![Omnichannel session form](media/oceh-oc-session-form.png "Omnichannel session form")  
 
 | **Tab** | **Section**          | **Field**          |
 |---------|----------------------|--------------------|

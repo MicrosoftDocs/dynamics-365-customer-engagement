@@ -10,7 +10,7 @@ ms.service: dynamics-365-customerservice
 ---
 # Manage custom context
 
-[!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 When a customer initiates a chat from the portal, you can pass custom context to Omnichannel for Customer Service. This custom context can be used for displaying information on the user interface and for creating routing rules, which eventually determine which queue to route the chat to.
 

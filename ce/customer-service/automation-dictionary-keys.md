@@ -11,9 +11,9 @@ ms.service: "dynamics-365-customerservice"
 
 # Use the automation dictionary to pass data parameter keys
 
-[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 ## Overview
 
@@ -61,7 +61,7 @@ The automation dictionary uses the context data parameters that are available fr
 - [Context data from other macro actions](#context-data-from-other-macro-actions)
 
 > [!div class=mx-imgBorder] 
-> ![Automation dictionary](../media/automation-dictionary.png "Automation dictionary")
+> ![Automation dictionary](media/automation-dictionary.png "Automation dictionary")
 
 ### Context data from the channel provider
 

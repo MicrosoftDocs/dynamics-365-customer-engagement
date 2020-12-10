@@ -11,7 +11,7 @@ ms.service: dynamics-365-customerservice
 
 # Manage session templates
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 ## Overview
 
@@ -80,7 +80,7 @@ To create a session template, follow these steps:
 10. Select **Save** to save the changes.
 
    > [!div class=mx-imgBorder]
-   > ![Session template](../media/session-template1.png "Session template")
+   > ![Session template](media/session-template1.png "Session template")
 
 The session template is configured. Now, you must associate the session template with a work stream. To learn more, see [Associate templates with work streams](associate-templates.md).
 

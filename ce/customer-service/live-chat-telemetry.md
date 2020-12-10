@@ -10,7 +10,7 @@ ms.service: dynamics-365-customerservice
 ---
 # Live chat widget telemetry
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 The live chat widget in Chat for Dynamics 365 collects telemetry from end users to improve the feature’s capabilities, reliability, and performance over time by helping Microsoft understand usage patterns, plan new features, and troubleshoot and fix problem areas.
 

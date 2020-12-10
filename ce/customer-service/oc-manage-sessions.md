@@ -11,12 +11,12 @@ ms.service: dynamics-365-customerservice
 
 # Manage sessions in Omnichannel for Customer Service
 
-[!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 The vertical panel on the left side is the session panel that allows you (the agent) to work on multiple customer sessions simultaneously. As an agent, you can switch between sessions without losing context of the conversation and customer details. The ability to handle multiple sessions simultaneously (while preserving customer context) allows you to resolve issues faster and achieve higher productivity.
 
 > [!div class=mx-imgBorder]
-> ![Session panel in the agent interface of Omnichannel for Customer Service app](../../media/oceh/oceh-agent-interface-session-panel.png "Session panel in Omnichannel for Customer Service app")
+> ![Session panel in the agent interface of Omnichannel for Customer Service app](media/oceh-agent-interface-session-panel.png "Session panel in Omnichannel for Customer Service app")
 
 When a session is started, the following happens:
 
@@ -44,14 +44,14 @@ Use a combination of keyboard and mouse-click gesture to start a session. You ca
 You can start a session on a channel manually from the Omnichannel Agent Dashboard. Select **More options** (**...**) and select **Open** or **Pick** to start the session. The **Open** option is available for **My work items** and **Closed work items** streams. The **Pick** option is available in **Open work items** streams.
 
  > [!div class=mx-imgBorder]
- > ![Open session in My work items](../../media/oceh/oc-open-work-item-my-work-items.png "Open session in My work items") 
+ > ![Open session in My work items](media/oc-open-work-item-my-work-items.png "Open session in My work items") 
 
 ### Automatically start a session using the incoming notification
 
 When you accept an incoming conversation request by selecting the **Accept** button, a session is started and the customer summary page is loaded in the Unified Interface application area.
 
  > [!div class=mx-imgBorder]
- > ![Session start](../../media/oceh/oceh-session-start.png "Session start")
+ > ![Session start](media/oceh-session-start.png "Session start")
 
 ## Work on multiple customer sessions
 
@@ -66,7 +66,7 @@ For example, you are working on a case by entering the title of the case and not
 You can close any session manually by selecting the **X** button next to the session title. When you hover the cursor on a session, you see the **X** button, and if you select the button, a confirmation dialog is shown to you.
 
    > [!div class=mx-imgBorder]
-   > ![Close session](../../media/oceh/close-session.png "Close session")
+   > ![Close session](media/close-session.png "Close session")
 
 ## Mode of the session panel
 
@@ -74,7 +74,7 @@ By default, the session panel is in expanded mode. Use the burger icon to toggle
 At all times, the **Home** session is anchored and you can't close it. The Home session shows the default dashboard set for you by your administrator.
 
    > [!div class=mx-imgBorder]
-   > ![Expand and collapse the session list](../../media/oceh/expand-collapse-session-list.png "Expand and collapse the session list")
+   > ![Expand and collapse the session list](media/expand-collapse-session-list.png "Expand and collapse the session list")
 
 
 ## Title and icon of the session
@@ -86,14 +86,14 @@ At all times, the **Home** session is anchored and you can't close it. The Home 
     For an authenticated chat, name of the contact, account or title of the case is displayed.
 
     > [!div class=mx-imgBorder]
-    > ![Session icon](../../media/oceh/oceh-session-icon.png "Session icon")
+    > ![Session icon](media/oceh-session-icon.png "Session icon")
 
 - **Session icon**
 
     By default, the first two letters of the session title is displayed as the session icon.
 
     > [!div class=mx-imgBorder]
-    > ![Session title](../../media/oceh/oceh-session-title.png "Session title")
+    > ![Session title](media/oceh-session-title.png "Session title")
 
 ## Session sentiment alert and unread message count
 
@@ -110,7 +110,7 @@ At all times, the **Home** session is anchored and you can't close it. The Home 
     Example 2: **Kenny Smith. Urgent attention is needed in your conversation.**
 
     > [!div class=mx-imgBorder]
-    > ![Session icon](../../media/oceh/sentiment-agent1.png "Session icon")
+    > ![Session icon](media/sentiment-agent1.png "Session icon")
 
 - **Unread message count**
 
@@ -133,7 +133,7 @@ At all times, the **Home** session is anchored and you can't close it. The Home 
     When you select a session with unread messages,the session will be focused and the unread message count will disappear from the session icon.
 
     > [!div class=mx-imgBorder]
-    > ![Unread message count](../../media/oceh/unread-message.png "Session icon")
+    > ![Unread message count](media/unread-message.png "Session icon")
 
 ## See also
 

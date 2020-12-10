@@ -11,7 +11,7 @@ ms.service: dynamics-365-customerservice
 
 # Monitor and assign conversations
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 > [!IMPORTANT]
 > This feature is intended to help customer service managers or supervisors enhance their team's performance and improve customer satisfaction. This feature is not intended for use in making, and should not be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365 Customer Service, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
@@ -25,7 +25,7 @@ Use the **Omnichannel Ongoing Conversations** dashboard to access the Monitor an
 The following screenshot is an example of Omnichannel Ongoing Conversations:
 
 > [!div class=mx-imgBorder]
-> ![Omnichannel Ongoing Conversations dashboard example](../media/supervisor-ongoing-conversations-dashboard.png "Omnichannel Ongoing Conversations dashboard example")
+> ![Omnichannel Ongoing Conversations dashboard example](media/supervisor-ongoing-conversations-dashboard.png "Omnichannel Ongoing Conversations dashboard example")
 
 ## Things you must know
 
@@ -52,14 +52,14 @@ By joining the conversation, you provide necessary inputs to both agent and cust
 3. Choose a conversation to monitor and select **Monitor** on the top-right corner.
 
     > [!div class=mx-imgBorder]
-    > ![Select Monitor option](../media/supervisor-select-monitor-conversation.png "Select Monitor option")
+    > ![Select Monitor option](media/supervisor-select-monitor-conversation.png "Select Monitor option")
 
     The conversation page opens.
 
 4. You can choose to join a conversation as required. Select **Join chat** in the communication panel.
 
     > [!div class=mx-imgBorder]
-    > ![Select Join chat](../media/supervisor-select-join-chat.png "Select Join chat")
+    > ![Select Join chat](media/supervisor-select-join-chat.png "Select Join chat")
 
     When you join the conversation, a notification will be sent to both agent and customer stating that you have joined as a consultant. Depending on your requirement, you can start a consultation with the agent and customer by using a messaging mode (public or internal). By default, the messaging mode is internal.
 
@@ -75,11 +75,11 @@ At times, you may need to manually assign a conversation. In such cases, the con
 
     The list of available agents and their capacities, as well as queues, is displayed.
     > [!div class=mx-imgBorder]
-    > ![Select Assign option](../media/assign-agents-conversations.png "Select Assign option")
+    > ![Select Assign option](media/assign-agents-conversations.png "Select Assign option")
 
 3. Choose a conversation in an **Open** state, and select **Assign** on the top-right corner.
     > [!div class=mx-imgBorder]
-    > ![Select agent or queue option](../media/assign-agent-queue.png "Select either agent or queue option")
+    > ![Select agent or queue option](media/assign-agent-queue.png "Select either agent or queue option")
 
 4. On the **Assign conversations** dialog box, choose one of the following options:
 

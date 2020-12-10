@@ -11,9 +11,9 @@ ms.service: dynamics-365-customerservice
 
 # Guide agents with scripts
 
-[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 ## Overview of agent scripts
 
@@ -84,14 +84,14 @@ First, you need to create agent scripts in the Omnichannel Administration app. T
     | Target script | Type the name of the configured script in the text box, and then select the script from the lookup results. <br><br> **Note:** <br> This field appears only if you select the **Script** value for the **Action Type** field. | Close the session |
 
     > [!div class=mx-imgBorder] 
-    > ![Quick create: Agent script - Text](../media/create-agent-script2.png "Quick create: Agent script text step")
+    > ![Quick create: Agent script - Text](media/create-agent-script2.png "Quick create: Agent script text step")
 
 8. Select **Save and Close** to add, save, and close the quick-create form.
 
 9. Select **Save** to save the changes.
 
     > [!div class=mx-imgBorder] 
-    > ![Agent script](../media/create-agent-script1.png "Agent script")
+    > ![Agent script](media/create-agent-script1.png "Agent script")
 
 The agent script is now configured.
 
@@ -112,7 +112,7 @@ After you configure the agent script and add the field to a form, you need to as
 6. In the **Look for Records** box, select the search icon. Select the agent script from the list, and then select **Add**.
 
     > [!div class=mx-imgBorder] 
-    > ![Associate an agent script](../media/associate-agent-script.png "Associate an agent script")
+    > ![Associate an agent script](media/associate-agent-script.png "Associate an agent script")
 
 7. Select **Save**.
 
@@ -148,7 +148,7 @@ You can build the expression in the **Agent scripts** tab in the sessions templa
 4. Set the **Enable build expression** toggle to **Yes**, and then select **Build Expression** to define the expression. The **Expression builder** page is displayed.
 
     > [!div class=mx-imgBorder] 
-    > ![Build expression](../media/agent-script-build-expression.png "Build expression")
+    > ![Build expression](media/agent-script-build-expression.png "Build expression")
 
 5. Select the **Condition** step, and then create the condition.
 
@@ -157,12 +157,12 @@ You can build the expression in the **Agent scripts** tab in the sessions templa
 7. Select the **Customer Service** tab, and then select **Set default agent script**.
 
     > [!div class=mx-imgBorder] 
-    > ![Set default agent script](../media/agent-script-build-expression2.png "Set default agent script")
+    > ![Set default agent script](media/agent-script-build-expression2.png "Set default agent script")
 
 8. Select a script from the **Agent script** list.
 
     > [!div class=mx-imgBorder] 
-    > ![Set default agent script](../media/agent-script-set-default.png "Set default agent script")
+    > ![Set default agent script](media/agent-script-set-default.png "Set default agent script")
 
 9. Follow steps 5 through 8 for the **If false** step.
 

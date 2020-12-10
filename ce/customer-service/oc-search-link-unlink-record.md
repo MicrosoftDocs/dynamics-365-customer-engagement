@@ -11,7 +11,7 @@ ms.service: dynamics-365-customerservice
 
 # Search, link, and unlink a record in Omnichannel for Customer Service
 
-[!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 The topic explains how to search for records, link a record to a conversation, and unlink the record from the conversation in Omnichannel for Microsoft Dynamics 365 Customer Service.
 
@@ -43,12 +43,12 @@ Only active views are displayed for the search results. You can customize the Qu
 ## Link a record to the conversation when doing an inline search
 
 > [!div class=mx-imgBorder]
-> ![Customer and Case sections are blank when there are no records](../../media/agent-inline-search-no-record.PNG "Customer and Case sections are blank when there are no records")
+> ![Customer and Case sections are blank when there are no records](media/agent-inline-search-no-record.PNG "Customer and Case sections are blank when there are no records")
 
 During an inline search, the search results are displayed and you can select a record to link the conversation to the selected record. After you link the record, the **Customer summary** page is updated with the details.
 
 > [!div class=mx-imgBorder]
-> ![The Customer summary page is updated with details from the linked record](../../media/agent-inline-search-link.PNG "The Customer summary page is updated with details from the linked record")
+> ![The Customer summary page is updated with details from the linked record](media/agent-inline-search-link.PNG "The Customer summary page is updated with details from the linked record")
 
 > [!NOTE]
 > You can link only one contact or account in the customer (**Contact** or **Account**) section and one case in the **Case** section.
@@ -59,11 +59,11 @@ You can also search for records by using the relevance search option. When you s
 
 You can search for a case, account, contact, and associated fields as enabled by your administrator.
 
-1. Select **Search** ![Relevance Search icon](../../media/oceh-oc-search-icon.png "Relevance Search icon"). The **Relevance Search** tab opens.  
+1. Select **Search** ![Relevance Search icon](media/oceh-oc-search-icon.png "Relevance Search icon"). The **Relevance Search** tab opens.  
 
-2. In the search box, specify the entity or attribute details based on your search requirements, and then select **Search** ![Relevance Search icon](../../media/oceh-oc-search-icon.png "Relevance Search icon").
+2. In the search box, specify the entity or attribute details based on your search requirements, and then select **Search** ![Relevance Search icon](media/oceh-oc-search-icon.png "Relevance Search icon").
 
-![Search for a case record by using relevance search](../../media/oceh-oc-search-record-case.png "Search for a case record by using relevance search")
+![Search for a case record by using relevance search](media/oceh-oc-search-record-case.png "Search for a case record by using relevance search")
 
 ## Link a record to the conversation when doing relevance search
 
@@ -77,7 +77,7 @@ After you search for a record by using relevance search, you can link the record
 2. Select **More options** (...) in the communication panel, and then select **Link to conversation**.
 
 > [!div class=mx-imgBorder]
-> ![Select a record to link](../../media/oceh-oc-select-record-link.png "Select a record to link")
+> ![Select a record to link](media/oceh-oc-select-record-link.png "Select a record to link")
 
 Now, the **Customer summary** page is refreshed and updated with details from the record. Similarly, you can link other record types.
 
@@ -89,12 +89,12 @@ Now, the **Customer summary** page is refreshed and updated with details from th
 You can unlink a record only when you are interacting with a customer by using the communication panel. That is, after you accept an incoming conversation request and view the **Customer summary** page, you can unlink the record from the conversation.
 
 > [!div class=mx-imgBorder]
-> ![Select Close to unlink the record](../../media/oceh-oc-unlink-customer.PNG "Unlink the record")
+> ![Select Close to unlink the record](media/oceh-oc-unlink-customer.PNG "Unlink the record")
 
 To unlink a record, select **Close** next to the customer name in the customer (**Contact** or **Account**) section. After the record is removed, the customer (**Contact** or **Account**) section is blank.
 
 > [!div class=mx-imgBorder]
-> ![Blank customer section after unlinking the record](../../media/oceh-oc-unlinked-form.PNG "Blank customer section after unlinking the record")
+> ![Blank customer section after unlinking the record](media/oceh-oc-unlinked-form.PNG "Blank customer section after unlinking the record")
 
 > [!Note]
 > You can link and unlink only one contact or account in the customer (**Contact** or **Account**) section and one case in the **Case** section.

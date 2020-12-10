@@ -11,7 +11,7 @@ ms.service: "dynamics-365-customerservice"
 
 # Configure intraday insights for supervisors
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 > [!Important]
 > This feature is intended to help customer service managers or supervisors enhance their team’s performance and improve customer satisfaction. This feature is not intended for use in making, and should not be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
@@ -43,12 +43,12 @@ To enable the preconfigured Power BI workspace:
 1.  Sign in to **Dynamics 365 Customer Service** and open the **Omnichannel Administration** app. 
 
     > [!div class=mx-imgBorder]
-    > ![Select Omnichannel Administration](../media/supervisor-admin-select-omnichannel-administration.png "Select Omnichannel Administration")
+    > ![Select Omnichannel Administration](media/supervisor-admin-select-omnichannel-administration.png "Select Omnichannel Administration")
 
-2.  From the **Site Map** ![Site map icon](../media/oc-usd-supervisor-dashboard-site-map.png "Site map icon"), select **Supervisor Experience** > **Intraday Insights**.  
+2.  From the **Site Map** ![Site map icon](media/oc-usd-supervisor-dashboard-site-map.png "Site map icon"), select **Supervisor Experience** > **Intraday Insights**.  
 
     > [!div class=mx-imgBorder]
-    > ![Select Overview option](../media/supervisor-admin-select-overview-dashboard.png "Select Overview option")
+    > ![Select Overview option](media/supervisor-admin-select-overview-dashboard.png "Select Overview option")
 
     The Power BI configuration view opens.
 
@@ -57,7 +57,7 @@ To enable the preconfigured Power BI workspace:
     The **Power BI Configuration** form opens, where you can verify that **Use preconfigured Power BI workspace** is enabled or you can toggle it to **Yes** to enable it.
 
     > [!div class=mx-imgBorder]
-    > ![Preconfigured Power BI workspace configuration settings page](../media/supervisor-admin-preconfigured-powerbi-configuration-settings.png "Preconfigured Power BI workspace configuration settings page")
+    > ![Preconfigured Power BI workspace configuration settings page](media/supervisor-admin-preconfigured-powerbi-configuration-settings.png "Preconfigured Power BI workspace configuration settings page")
 
 4.  Save and close the page.
 
@@ -86,14 +86,14 @@ Review the following prerequisites before configuring the supervisor insights: 
       a. Sign in to [Power BI service](https://app.powerbi.com) and go to **Settings** > **Admin portal**.
            
          > [!div class=mx-imgBorder]
-         > ![Select Admin portal](../media/supervisor-admin-powerbi-select-admin-portal.png "Select Admin portal") 
+         > ![Select Admin portal](media/supervisor-admin-powerbi-select-admin-portal.png "Select Admin portal") 
 
       b. In the Admin portal, go to **Tenant settings** > **Developer settings** > **Allow service principals to use Power BI APIs**.
 
       c. Enable **Allow service principals to use Power BI APIs** and specify the security group to which you want to give access.
         
          > [!div class=mx-imgBorder]
-         > ![Enable service principals for security group](../media/supervisor-admin-enable-service-principals.png "Enable service principals for security group")
+         > ![Enable service principals for security group](media/supervisor-admin-enable-service-principals.png "Enable service principals for security group")
 
       d. Select **Apply**.
 
@@ -114,12 +114,12 @@ You must configure the Power BI workspace using the **Omnichannel Administration
 1.  Sign in to **Dynamics 365 Customer Service** and open the **Omnichannel Administration** app. 
 
     > [!div class=mx-imgBorder]
-    > ![Select Omnichannel Administration](../media/supervisor-admin-select-omnichannel-administration.png "Select Omnichannel Administration")
+    > ![Select Omnichannel Administration](media/supervisor-admin-select-omnichannel-administration.png "Select Omnichannel Administration")
 
-2.  From the **Site Map** ![Site map icon](../media/oc-usd-supervisor-dashboard-site-map.png "Site map icon"), select **Supervisor Experience** > **Intraday Insights**.  
+2.  From the **Site Map** ![Site map icon](media/oc-usd-supervisor-dashboard-site-map.png "Site map icon"), select **Supervisor Experience** > **Intraday Insights**.  
 
     > [!div class=mx-imgBorder]
-    > ![Select Overview option](../media/supervisor-admin-select-overview-dashboard.png "Select Overview option")
+    > ![Select Overview option](media/supervisor-admin-select-overview-dashboard.png "Select Overview option")
 
     The Power BI configuration view opens.
 
@@ -128,29 +128,29 @@ You must configure the Power BI workspace using the **Omnichannel Administration
     The **Power BI Configuration** form opens.
 
     > [!div class=mx-imgBorder]
-    > ![Power BI workspace configuration settings page](../media/supervisor-admin-powerbi-configuration-settings.png "Power BI workspace configuration settings page")
+    > ![Power BI workspace configuration settings page](media/supervisor-admin-powerbi-configuration-settings.png "Power BI workspace configuration settings page")
 
 4. Set the **Show intraday insights** toggle to **Yes** to make intraday insights an app tab on the home session for supervisors. 
 
     > [!div class=mx-imgBorder]
-    > ![Enable display of intraday insights on Omnichannel for Customer Service app](../media/supervisor-admin-intraday-insights-dashboard-oc-on-web.png "Enable display of intraday insights on Omnichannel for Customer Service app")
+    > ![Enable display of intraday insights on Omnichannel for Customer Service app](media/supervisor-admin-intraday-insights-dashboard-oc-on-web.png "Enable display of intraday insights on Omnichannel for Customer Service app")
   
 5.  In the **Power BI workspace** section, select **Create new workspace** and enter a name for the workspace in **Power BI workspace** (this name must be unique).
 
     > [!div class=mx-imgBorder]
-    > ![Create new Power BI workspace](../media/supervisor-admin-create-new-workspace.png "Create a new Power BI workspace")   
+    > ![Create new Power BI workspace](media/supervisor-admin-create-new-workspace.png "Create a new Power BI workspace")   
     
     -OR-
 
     If you want to add an existing Power BI workspace, select **Add existing workspace** and the existing workspaces are listed. Select the workspace that you want to add.
 
     > [!div class=mx-imgBorder]
-    > ![Add existing Power BI workspace](../media/supervisor-admin-add-existing-workspace.png "Add existing Power BI workspace")  
+    > ![Add existing Power BI workspace](media/supervisor-admin-add-existing-workspace.png "Add existing Power BI workspace")  
         
 6.  Select **Configure**. The workspace creation takes a few seconds and then a confirmation message is displayed with the generated workspace ID.
 
     > [!div class=mx-imgBorder]
-    > ![Power BI workspace ID](../media/supervisor-admin-power-bi-workspace-id.png "Power BI workspace ID")  
+    > ![Power BI workspace ID](media/supervisor-admin-power-bi-workspace-id.png "Power BI workspace ID")  
 
     In Power BI, a workspace is created.
 
@@ -175,7 +175,7 @@ You must configure the Power BI workspace using the **Omnichannel Administration
 2.  Go to **Workspaces** and verify that a workspace with the name that you have entered is created.
 
     > [!div class=mx-imgBorder]
-    > ![Select workspace](../media/supervisor-admin-power-bi-app-select-workspace.png "Select workspace")  
+    > ![Select workspace](media/supervisor-admin-power-bi-app-select-workspace.png "Select workspace")  
 
 3. Open the workspace that you have created and verify that the following are available:
 
@@ -186,12 +186,12 @@ You must configure the Power BI workspace using the **Omnichannel Administration
 4.  Select **Access**.
 
     > [!div class=mx-imgBorder]
-    > ![Select access](../media/supervisor-admin-powerbi-select-access.png "Select access")
+    > ![Select access](media/supervisor-admin-powerbi-select-access.png "Select access")
 
 5. Add email address of the security groups, distribution lists, Microsoft 365 groups, or individuals to these workspaces as viewers, members, contributors, or admins.  
 
     > [!div class=mx-imgBorder]
-    > ![Add members to workspace](../media/supervisor-admin-power-bi-workspace-add-members.png "Add members to workspace")
+    > ![Add members to workspace](media/supervisor-admin-power-bi-workspace-add-members.png "Add members to workspace")
 
 6. Select **Add** > **Close**.
 
@@ -237,12 +237,12 @@ Follow these steps to configure Power BI dashboards:
     The following screenshot shows how to pin a visual to the dashboard.
 
     > [!div class=mx-imgBorder]
-    > ![Select report](../media/supervisor-admin-pin-report-to-dashboard.png "Select report")  
+    > ![Select report](media/supervisor-admin-pin-report-to-dashboard.png "Select report")  
 
     Choose the dashboard to which you want to pin and select **Pin**. The report is pinned to the chosen dashboard.
 
     > [!div class=mx-imgBorder]
-    > ![Pin a report on a dashboard](../media/supervisor-admin-pin-report-dashboard.png "Pin a report on a dashboard")  
+    > ![Pin a report on a dashboard](media/supervisor-admin-pin-report-dashboard.png "Pin a report on a dashboard")  
 
     To learn more, see [Pin a tile to a Power BI dashboard from a report](https://docs.microsoft.com/power-bi/service-dashboard-pin-tile-from-report).
 
@@ -285,12 +285,12 @@ You must add users in the supervisor configuration to access any supervisor insi
 3.  On the configuration page, select **Supervisor Configuration**.
 
     > [!div class=mx-imgBorder]
-    > ![Select Supervisor Configuration](../media/supervisor-admin-select-supervisor-configuration-add-user.png "Select Supervisor Configuration")  
+    > ![Select Supervisor Configuration](media/supervisor-admin-select-supervisor-configuration-add-user.png "Select Supervisor Configuration")  
 
 4.  On the **Users** section, select **+ Add User record** and enter the user name to add the user.
 
     > [!div class=mx-imgBorder]
-    > ![Add user to supervisor configuration](../media/supervisor-admin-supervisor-configuration-add-user.png "Add user to supervisor configuration")  
+    > ![Add user to supervisor configuration](media/supervisor-admin-supervisor-configuration-add-user.png "Add user to supervisor configuration")  
 
 5.  Save and close the configuration.
 
@@ -307,17 +307,17 @@ To learn more, see [Client caching overview](https://docs.microsoft.com/dynamics
 2.  Go to **Settings** > **Unified Service Desk** and then select **Options**.
 
     > [!div class=mx-imgBorder]
-    > ![Select Options in settings](../media/supervisor-admin-select-options-usd-settings.png "Select Options in settings")  
+    > ![Select Options in settings](media/supervisor-admin-select-options-usd-settings.png "Select Options in settings")  
  
 3.  Select **ClientCacheVersionNumber**.
 
     > [!div class=mx-imgBorder]
-    > ![Select ClientCacheVersionNumber](../media/supervisor-admin-select-client-cache-version-number.png "Select ClientCacheVersionNumber")  
+    > ![Select ClientCacheVersionNumber](media/supervisor-admin-select-client-cache-version-number.png "Select ClientCacheVersionNumber")  
 
 4.  In the **Value** box, update the existing alphanumeric number. For example, if the existing alphanumeric number is OC2019\_04\_010, update it to OC2019\_04\_011.
 
     > [!div class=mx-imgBorder]
-    > ![Update value](../media/supervisor-admin-update-value-client-cache-number.png "Update value")  
+    > ![Update value](media/supervisor-admin-update-value-client-cache-number.png "Update value")  
 
 5.  Select **Save**.
 

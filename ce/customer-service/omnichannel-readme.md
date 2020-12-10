@@ -59,7 +59,7 @@ Use the following steps as a workaround:
 4. Select all the Omnichannel associated plugins. See the image to select the Omnichannel associated plugins.
 
     > [!div class='mx-imgBorder']
-    > ![Omnichannel plugins](media/oceh/omnichannel-plugins-1.PNG "Omnichannel plugins")
+    > ![Omnichannel plugins](media/omnichannel-plugins-1.PNG "Omnichannel plugins")
 
 5. Select **Activate** from the command bar. The **Confirm Sdk Message Processing Step Activation** dialog appears.
 
@@ -80,7 +80,7 @@ Use the following steps as a workaround:
 5. Select **Delete** to delete the records.
 
     > [!div class=mx-imgBorder]
-    > ![Delete repeated messages](media/oceh/delete-quick-replies.png "Delete repeated messages")
+    > ![Delete repeated messages](media/delete-quick-replies.png "Delete repeated messages")
 
 6. Select **Save** to save the changes.
 

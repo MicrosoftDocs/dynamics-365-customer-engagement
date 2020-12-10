@@ -11,7 +11,7 @@ ms.service: "dynamics-365-customerservice"
 
 # View and understand Omnichannel Ongoing Conversations dashboard
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 The **Omnichannel Ongoing Conversations** dashboard provides information on the conversations that are handled by agents and are in active, open, wrap up, and waiting in your organization. This dashboard provides a holistic view of the conversations with details, such as customer, agent assigned, subject, queue, and activity status. The data in the dashboard is auto refreshed in near real time.
 
@@ -42,7 +42,7 @@ The **Omnichannel Ongoing Conversations** is available in:
     The **Omnichannel Ongoing Conversations** dashboard displays the list of conversations that you and agents are handling.
 
     > [!div class=mx-imgBorder]
-    > ![Ongoing Conversations dashboard in Unified service desk](../media/supervisor-usd-ongoing-conversations-dashboard.png "Ongoing Conversations dashboard in Unified service desk")
+    > ![Ongoing Conversations dashboard in Unified service desk](media/supervisor-usd-ongoing-conversations-dashboard.png "Ongoing Conversations dashboard in Unified service desk")
   
 
 ### Omnichannel for Customer Service
@@ -54,7 +54,7 @@ The **Omnichannel Ongoing Conversations** is available in:
     The Omnichannel Ongoing Conversations dashboard displays the list of conversations that you and agents are handling. 
 
     > [!div class=mx-imgBorder]
-    > ![Omnichannel Ongoing Conversations dashboard](../media/supervisor-ongoing-conversations-dashboard.png "Omnichannel Ongoing Conversations dashboard")
+    > ![Omnichannel Ongoing Conversations dashboard](media/supervisor-ongoing-conversations-dashboard.png "Omnichannel Ongoing Conversations dashboard")
 
 ### See also
 

@@ -44,14 +44,14 @@ You can add the custom KPIs that are specific to your organization to intraday i
 3. From the **Home** menu, select **Get Data** > **Power BI datasets**.
 
    > [!div class=mx-imgBorder]
-   > ![Select Power BI datasets](../media/supervisor-admin-custom-kpis-select-pbidatasets.png "Select Power BI datasets")
+   > ![Select Power BI datasets](media/supervisor-admin-custom-kpis-select-pbidatasets.png "Select Power BI datasets")
 
    The dataset selection dialog box opens.
 
 4. Select **IntradayMonitoring** from the workspace that you have created through configuration ([Configure Power BI workspace in Omnichannel Administration app](configure-intraday-dashboard-supervisor.md#configure-the-power-bi-workspace-in-the-omnichannel-administration-app)), and then select **Load**.
 
    > [!div class=mx-imgBorder]
-   > ![Select intraday insights datasets](../media/supervisor-admin-custom-kpis-select-pbidatasets-intraday.png "Select intraday insights datasets")
+   > ![Select intraday insights datasets](media/supervisor-admin-custom-kpis-select-pbidatasets-intraday.png "Select intraday insights datasets")
 
    The fields related to intraday insights are loaded.
 
@@ -60,7 +60,7 @@ You can add the custom KPIs that are specific to your organization to intraday i
     In this example, we are creating a measure for the field category **AgentAvailability**.
 
    > [!div class=mx-imgBorder]
-   > ![Select Agent Availability field](../media/supervisor-admin-custom-kpis-select-fields.png "Select Agent Availability field")
+   > ![Select Agent Availability field](media/supervisor-admin-custom-kpis-select-fields.png "Select Agent Availability field")
 
     A new measure is created for the field.
 
@@ -77,7 +77,7 @@ You can add the custom KPIs that are specific to your organization to intraday i
 7. Select the measure and verify that the measure is working as defined.
 
    > [!div class=mx-imgBorder]
-   > ![Verify created measure](../media/supervisor-admin-custom-kpis-select-verify-measure-formula.png "Verify created measure")
+   > ![Verify created measure](media/supervisor-admin-custom-kpis-select-verify-measure-formula.png "Verify created measure")
 
     To learn more about creating measure, see [Create a measures](https://docs.microsoft.com/power-bi/desktop-tutorial-create-measures#create-a-measure).
 
@@ -100,14 +100,14 @@ You can edit the measures and visuals of existing custom and out-of-the-box KPIs
 3. From the **Home** menu, select **Get Data** > **Power BI datasets**.
 
    > [!div class=mx-imgBorder]
-   > ![Select Power BI datasets](../media/supervisor-admin-custom-kpis-select-pbidatasets.png "Select Power BI datasets")
+   > ![Select Power BI datasets](media/supervisor-admin-custom-kpis-select-pbidatasets.png "Select Power BI datasets")
 
    The dataset selection dialog box opens.
 
 4. Select **IntradayMonitoring** from the workspace that you have created through configuration ([Configure Power BI workspace in Omnichannel Administration app](configure-intraday-dashboard-supervisor.md#configure-the-power-bi-workspace-in-the-omnichannel-administration-app)), and then select **Load**.
 
    > [!div class=mx-imgBorder]
-   > ![Select intraday insights datasets](../media/supervisor-admin-custom-kpis-select-pbidatasets-intraday.png "Select intraday insights datasets")
+   > ![Select intraday insights datasets](media/supervisor-admin-custom-kpis-select-pbidatasets-intraday.png "Select intraday insights datasets")
 
    The fields related to intraday insights are loaded.
 
@@ -121,7 +121,7 @@ You can edit the measures and visuals of existing custom and out-of-the-box KPIs
        In this example we are selecting **Total agent work hours** field from **AgentAvailability** category. The details of for the field is displayed including its formula bar.
 
        > [!div class=mx-imgBorder]
-       > ![Select a field to edit the measure](../media/supervisor-admin-custom-kpis-select-field-edit-measure.png "Select a field to edit the measure")
+       > ![Select a field to edit the measure](media/supervisor-admin-custom-kpis-select-field-edit-measure.png "Select a field to edit the measure")
 
     2. From the formula bar, edit the formula as required.
 
@@ -134,12 +134,12 @@ You can edit the measures and visuals of existing custom and out-of-the-box KPIs
        In this example we are selecting **Agent Handling Time** field from **Session** category. The visual for the field is displayed.
 
        > [!div class=mx-imgBorder]
-       > ![Select a field to change visualization](../media/supervisor-admin-custom-kpis-visual-field-selection.png "Select a field to change visualization")
+       > ![Select a field to change visualization](media/supervisor-admin-custom-kpis-visual-field-selection.png "Select a field to change visualization")
 
     2. From the **VISUALIZATIONS** tab, edit the visualizations of the field as required. In this example, we are changing the chart to a pie chart.
 
        > [!div class=mx-imgBorder]
-       > ![Change visualization from bar chart to pie chart](../media/supervisor-admin-custom-kpis-change-bar-to-pie.png "Change visualization from bar chart to pie chart")
+       > ![Change visualization from bar chart to pie chart](media/supervisor-admin-custom-kpis-change-bar-to-pie.png "Change visualization from bar chart to pie chart")
 
         To learn more about change visualizations, see [Add visualizations to a Power BI report](/power-bi/visuals/power-bi-report-add-visualizations-i).
 

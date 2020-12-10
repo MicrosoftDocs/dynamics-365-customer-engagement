@@ -11,7 +11,7 @@ ms.service: dynamics-365-customerservice
 
 # Upgrade Omnichannel for Customer Service
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 Upgrade to the latest version of Omnichannel for Customer Service to unlock the benefits of new features. You can now upgrade to the latest release of Omnichannel for Customer Service from the **Omnichannel environments** page in **Dynamics 365 Admin Center**.
 
@@ -30,7 +30,7 @@ Do the following steps to upgrade Omnichannel for Customer Service:
     When the upgrade process is completed successfully, your environment is upgraded to the latest version, and the message **Omnichannel for Customer Service upgrade was completed successfully** is displayed with the date.
 
    > [!div class=mx-imgBorder] 
-   > ![Upgrade complete](../media/upgrade-complete.png)
+   > ![Upgrade complete](media/upgrade-complete.png)
 
 ## Upgrade Omnichannel for Customer Service package on Unified Service Desk
 

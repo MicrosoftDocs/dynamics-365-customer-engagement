@@ -11,7 +11,7 @@ ms.service: "dynamics-365-customerservice"
 
 # Automate tasks with macros 
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 ## Overview of macros
 
@@ -67,7 +67,7 @@ As an administrator, you can use the actions any number of times across differen
 The following screenshot shows the actions that are explained in the subsequent sections.
 
    > [!div class=mx-imgBorder] 
-   > ![Macro actions](../media/macro-actions.png "Macro actions to automate and perform model-driven app operations")
+   > ![Macro actions](media/macro-actions.png "Macro actions to automate and perform model-driven app operations")
 
 #### Open a new form to create a record
 
@@ -196,7 +196,7 @@ This action is used for cloning an existing record. The action only copies the f
 As an administrator, you can use the actions any number of times across different macros to automate and perform operations related to a session in Omnichannel for Customer Service.
 
    > [!div class=mx-imgBorder] 
-   > ![Macro session connector](../media/macro-session-connector.png "Macro session connector")
+   > ![Macro session connector](media/macro-session-connector.png "Macro session connector")
 
 #### Open application tab
 
@@ -234,7 +234,7 @@ This action is used to get the details of the current tab in Omnichannel for Cus
 As an administrator, you can use the actions any number of times across different macros to automate and perform operations related to Omnichannel for Customer Service.
 
    > [!div class=mx-imgBorder] 
-   > ![Macro actions for Omnichannel operations](../media/macro-omnichannel-connector.png "Macro actions")
+   > ![Macro actions for Omnichannel operations](media/macro-omnichannel-connector.png "Macro actions")
 
 #### Send KB article in chat
 
@@ -270,7 +270,7 @@ This action is used to unlink a record from the conversation when the customer i
 As an administrator, you can use this action any number of times across different macros to automate and perform operations related to Omnichannel for Customer Service.
 
    > [!div class=mx-imgBorder] 
-   > ![Flow connector](../media/flow-connector.png "Flow connector")
+   > ![Flow connector](media/flow-connector.png "Flow connector")
    
 #### Run Flow
 
@@ -287,19 +287,19 @@ This action is used to trigger Power Automate flows using macros in agent script
 Referenced flows require valid connection and run permissions for the Omnichannel for Customer Service tenant and agents that run the flow from within agent scripts.
 
    > [!div class=mx-imgBorder] 
-   > ![Flow permissions](../media/flow-permissions.png "Flow permissions")
+   > ![Flow permissions](media/flow-permissions.png "Flow permissions")
 
 On **Run flow** action execute, flows are run within the embedded flow widget on Omnichannel for Customer Service.
 
    > [!div class=mx-imgBorder] 
-   > ![Run Flow](../media/run-flow.png "Run Flow")
+   > ![Run Flow](media/run-flow.png "Run Flow")
 
 ## Built-in
 
 The Built-in control allows you to execute a macro action step based on the conditions. The **Built-in** category connector has a **Condition** action.
 
    > [!div class=mx-imgBorder] 
-   > ![Condition connector](../media/built-in.png "Condition connector")
+   > ![Condition connector](media/built-in.png "Condition connector")
 
 To use the **Built-in** category, you first need to have a trigger (predefined automation actions). That is, select a predefined automation action first, and before or after a step, you can define the condition. You can also create nested conditions as per your requirements.
 
@@ -308,7 +308,7 @@ Using the **View run history** option for a particular macro, you can see the co
 For example, you want to open a new form and save it after entering the fields. If the **Product** field in the form has **Surface** as the value, evaluate it as true and then perform the knowledge base article search with the search phrase as **Surface**. If it is evaluated as false, don't perform any further actions.
 
    > [!div class=mx-imgBorder] 
-   > ![Macro conditional builder](../media/macro-condition.png "Macro conditional builder")
+   > ![Macro conditional builder](media/macro-condition.png "Macro conditional builder")
 
 ## Use the automation dictionary to pass macro context data parameters
 
@@ -337,7 +337,7 @@ To learn more, see [Use automation dictionary to pass data parameter keys](autom
 5. Select **Start macro execution**, and then select **New step**.
 
    > [!div class=mx-imgBorder] 
-   > ![Create macro](../media/create-macro1.png "Create a macro")
+   > ![Create macro](media/create-macro1.png "Create a macro")
 
 6. Select a connector from the list. The following connectors are available:
 
@@ -362,7 +362,7 @@ To learn more, see [Use automation dictionary to pass data parameter keys](autom
     |||
 
    > [!div class=mx-imgBorder] 
-   > ![Macro actions for productivity automation](../media/macro-actions.png "Macro actions for productivity automation")    
+   > ![Macro actions for productivity automation](media/macro-actions.png "Macro actions for productivity automation")    
 
    For example, select **Open a new form to create a record**, and the step appears. To learn more, see [Productivity automation](#productivity-automation).
 
@@ -376,7 +376,7 @@ To learn more, see [Use automation dictionary to pass data parameter keys](autom
     |||
 
    > [!div class=mx-imgBorder] 
-   > ![Macro actions for session connector](../media/macro-session-connector.png "Macro actions for session connector")    
+   > ![Macro actions for session connector](media/macro-session-connector.png "Macro actions for session connector")    
 
    To learn more, see [Session connector](#session-connector).
 
@@ -389,7 +389,7 @@ To learn more, see [Use automation dictionary to pass data parameter keys](autom
     |||
 
    > [!div class=mx-imgBorder] 
-   > ![Macro actions for Omnichannel connector](../media/macro-omnichannel-connector.png "Macro actions for Omnichannel connector") 
+   > ![Macro actions for Omnichannel connector](media/macro-omnichannel-connector.png "Macro actions for Omnichannel connector") 
 
    To learn more, see [Omnichannel connector](#omnichannel-connector).
 
@@ -398,7 +398,7 @@ To learn more, see [Use automation dictionary to pass data parameter keys](autom
    If you selected **Open a new form to create a record**, you can select **Show advanced options** to add the attributes and values you want. If required, you can select **+ Add new item** to add more attributes.
 
    > [!div class=mx-imgBorder] 
-   > ![Attributes for Open a new form to create a record](../media/macro-fields.png "Attributes for Open a new form to create a record") 
+   > ![Attributes for Open a new form to create a record](media/macro-fields.png "Attributes for Open a new form to create a record") 
 
 9. After you add an action step, to define conditions, select the **Built-in** tab, and select **Control**.
 
@@ -423,22 +423,22 @@ As an administrator, you can view the macro run history, which shows how many ti
 4. Select **View run history**.
 
    > [!div class=mx-imgBorder] 
-   > ![View the run history for a macro](../media/macro-run-history.png "View the run history for a macro")
+   > ![View the run history for a macro](media/macro-run-history.png "View the run history for a macro")
 
 5. Select the macro that failed from the list.
 
    > [!div class=mx-imgBorder] 
-   > ![Select the macro that failed](../media/macro-run-history-list.png "Select the macro that failed")
+   > ![Select the macro that failed](media/macro-run-history-list.png "Select the macro that failed")
 
 6. See the macro action step that caused the failure. Review the previous step for any issue in the slug data parameters that might have been passed incorrectly or slug data parameters that were updated incorrectly.
 
    > [!div class=mx-imgBorder] 
-   > ![Review the macro action steps](../media/macro-run-history-fail.png "Review the macro action steps")
+   > ![Review the macro action steps](media/macro-run-history-fail.png "Review the macro action steps")
 
    For example, when you select on the **Open a new form to create a record** step, select **Show more**, and you can view that the mandatory fields don't have values, which are mandatory to save the record. Due to this reason, the macro run failed at the **Save the record** step.
 
    > [!div class=mx-imgBorder] 
-   > ![Review the macro action steps that caused failure](../media/macro-run-history-fail-reason.png "Review the macro action steps that caused the failure")
+   > ![Review the macro action steps that caused failure](media/macro-run-history-fail-reason.png "Review the macro action steps that caused the failure")
 
 7. Fix the macro step action that you think might have caused the failure, and then try running it again. For example, since the values are not resolved, go to the macro designer and then check on the slugs, and then try running the macro again.
 

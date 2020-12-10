@@ -11,7 +11,7 @@ ms.service: dynamics-365-customerservice
 
 # Manage users in Omnichannel for Customer Service
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 All users who are assigned the **Omnichannel administrator**, **Omnichannel supervisor**, or **Omnichannel agent** security role are enabled to use Omnichannel for Customer Service.
 
@@ -20,7 +20,7 @@ For more information on how to create users and assign security roles, see [Assi
 Navigate to **Queues & Users > Users** to view the list of Omnichannel for Customer Service users in the **Omnichannel Users** view.
 
 > [!div class=mx-imgBorder]
-> ![Omnichannel users](../media/omni-channel-users.png)
+> ![Omnichannel users](media/omni-channel-users.png)
 
 ## Manage a user in Omnichannel for Customer Service
 
@@ -47,7 +47,7 @@ Navigate to **Queues & Users > Users** to view the list of Omnichannel for Custo
 8. Select **Save**.
 
 > [!div class=mx-imgBorder]
-> ![Default presence](../media/oc-user-omni-tab.png)
+> ![Default presence](media/oc-user-omni-tab.png)
 
 ### Capacity
 

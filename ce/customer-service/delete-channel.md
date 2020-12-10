@@ -11,7 +11,7 @@ ms.reviewer: nenellim
 ---
 # Delete a configured channel
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 You can delete an instance of a configured channel or SMS number in scenarios such as when it isn't required, you don't want to receive messages on it, or the settings are corrupted.
 
@@ -24,12 +24,12 @@ You can delete an instance of a configured channel or SMS number in scenarios su
 3. On the page that appears, select the configured channel instance that you want to delete.
 
     > [!div class=mx-imgBorder]
-    > ![Active Facebook Applications list](../media/active-facebook-applications.png "Active Facebook Applications list")
+    > ![Active Facebook Applications list](media/active-facebook-applications.png "Active Facebook Applications list")
 
 4. On the page toolbar, select **Delete**.
 
     > [!div class=mx-imgBorder]
-    > ![Omnichannel page toolbar](../media/oc-toolbar.png "Omnichannel page toolbar")
+    > ![Omnichannel page toolbar](media/oc-toolbar.png "Omnichannel page toolbar")
 
 5. In the **Confirm Deletion** message that appears, select **Delete**.
 

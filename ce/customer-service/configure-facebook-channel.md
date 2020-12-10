@@ -11,7 +11,7 @@ ms.service: dynamics-365-customerservice
 
 # Configure a Facebook channel
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 Many customers use social messaging channels like Facebook Messenger for their personal communication needs. Many also prefer using these messaging channels to engage with businesses. The asynchronous nature of these channels gives customers the convenience of getting their issues resolved as and when they find time, unlike real-time channels like Chat for Dynamics 365 where the session ends when the chat window is closed.
 
@@ -41,7 +41,7 @@ After completing the prerequisites, you can add the Facebook channel for your or
 4. On the **Work Distribution** tab, in the **Channel** field, select **Facebook**.
 
     > [!div class=mx-imgBorder]
-    > ![Create a Facebook work stream](../media/fb-workstream.png "Create a Facebook work stream")
+    > ![Create a Facebook work stream](media/fb-workstream.png "Create a Facebook work stream")
 
 5. Specify other details as required. To learn more, see [Understand and create work streams](work-streams-introduction.md).
 
@@ -64,7 +64,7 @@ After completing the prerequisites, you can add the Facebook channel for your or
     More information about Facebook app: [Setting up your Facebook app](https://developers.facebook.com/docs/messenger-platform/getting-started/app-setup)
 
     > [!div class=mx-imgBorder]
-    > ![Register a Facebook application](../media/fb-new-app.png "Register a Facebook application")
+    > ![Register a Facebook application](media/fb-new-app.png "Register a Facebook application")
 
 4. Select **Save**. After you save the record, the **Facebook Pages** section is enabled, and it allows you to add the Facebook pages through which a customer can connect to an agent.
 
@@ -93,7 +93,7 @@ After you add a Facebook page, values for **Callback Uri** and **Verify Token** 
    > You can add multiple Facebook **Page Id** (pages) to a **Facebook Application** channel. However, a Facebook **Page Id** can be linked to one **Facebook Application** only. If you link the same Facebook **Page Id** to multiple **Facebook Application** channels, then **Callback Uri** and **Verify Token** won't be generated automatically.
 
 > [!div class=mx-imgBorder]
-> ![Facebook application created](../media/fb-app-created.png "Facebook application created")
+> ![Facebook application created](media/fb-app-created.png "Facebook application created")
 
 ## Step 3: Create routing rules
 
@@ -106,7 +106,7 @@ After you add a Facebook page, values for **Callback Uri** and **Verify Token** 
     For example, you can create a rule to transfer Facebook chat from a customer named Gilda to the default queue. 
 
     > [!div class=mx-imgBorder]
-    > ![Facebook channel routing rule](../media/fb-routing-rule.png "Facebook channel routing rule")
+    > ![Facebook channel routing rule](media/fb-routing-rule.png "Facebook channel routing rule")
 
 When you create conditions for routing rules, the **Facebook Engagement Context (Conversation)** entity enables you to set the following attributes:
 
@@ -163,7 +163,7 @@ If the customer is not identified based on name, a new contact record can be cre
 Customer can send attachments only if you enable.  If you don't enable the option for the customers, they can send the file. However, agents won't receive the file and will see an error.
 
 > [!div class=mx-imgBorder]
-> ![Customer sending file](../media/fb-customer1.png "Customer sending file")
+> ![Customer sending file](media/fb-customer1.png "Customer sending file")
 
 ## Privacy notice
 

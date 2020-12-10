@@ -10,7 +10,7 @@ ms.service: dynamics-365-customerservice
 ---
 # Omnichannel for Customer Service for administrators
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 Omnichannel for Customer Service is a customizable application you can effectively configure to meet the requirements of your business. Use Omnichannel for Customer Service to manage users (agents and supervisors), work streams, conversations, and queues, and effectively route important conversations to agents quickly. You can manage the capacity of agents so they handle conversations effectively and assist your customers better. You can manage the types of conversations agents receive using work stream and queue configurations.
 
@@ -21,12 +21,12 @@ Omnichannel for Customer Service is a customizable application you can effective
 2. Once the app is enabled, go to the apps page, navigate to the app switcher and then select **Omnichannel Administration**.
 
     > [!div class=mx-imgBorder] 
-    > ![App switcher](../media/app-switcher-oc.png)
+    > ![App switcher](media/app-switcher-oc.png)
 
 You can view the entities in the **Omnichannel Administration** site map.
 
   > [!div class=mx-imgBorder] 
-  > ![Omnichannel sitemap](../media/omni-channel-sitemap.png)
+  > ![Omnichannel sitemap](media/omni-channel-sitemap.png)
 
 ## In this section
 

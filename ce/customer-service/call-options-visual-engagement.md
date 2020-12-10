@@ -11,7 +11,7 @@ ms.service: dynamics-365-customerservice
 
 # Call options and visual engagement in live chat
 
-[!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 ## Call options in live chat
 
@@ -39,21 +39,21 @@ Make sure that the following prerequisites are met:
 
 ### Initiate voice and video call
 
-When you're chatting with the customer, you can initiate a voice or video call. In the communication panel, beside the **End** button, select the ellipsis button ![Ellipsis](../../media/ellipsis.png "Ellipsis"). The **Voice Call** and **Video Call** options are displayed. (Depending on your system configuration, you might see **Voice Call** and **Video Call**, or just **Voice call**.)
+When you're chatting with the customer, you can initiate a voice or video call. In the communication panel, beside the **End** button, select the ellipsis button ![Ellipsis](media/ellipsis.png "Ellipsis"). The **Voice Call** and **Video Call** options are displayed. (Depending on your system configuration, you might see **Voice Call** and **Video Call**, or just **Voice call**.)
 
 > [!div class=mx-imgBorder]
-> ![Voice and video call](../../media/chat-voice-video-call.png "Voice and video call")
+> ![Voice and video call](media/chat-voice-video-call.png "Voice and video call")
 
 When you initiate a voice call, you can view the flyout call control, which includes the following buttons.
 
 |Button | Name | Description |
 |----------------------|-------------------------|-----------------------------|
-|![Turn on or off video](../../media/turn-on-off-video.png "Turn on or off video")| Turn on video / Turn off video |  Use this button to turn on or off the video while in a call with the customer.|
-|![Mute and unmute](../../media/mute-unmute.png "Mute and unmute")| Mute / Unmute | Use this button to mute or unmute the call while in a call with the customer. |
-|![End call](../../media/end-call.png "End call")| End call | Use this button to end the call. |
+|![Turn on or off video](media/turn-on-off-video.png "Turn on or off video")| Turn on video / Turn off video |  Use this button to turn on or off the video while in a call with the customer.|
+|![Mute and unmute](media/mute-unmute.png "Mute and unmute")| Mute / Unmute | Use this button to mute or unmute the call while in a call with the customer. |
+|![End call](media/end-call.png "End call")| End call | Use this button to end the call. |
 
 > [!div class=mx-imgBorder]
-> ![Agent experience of a voice call during live chat](../../media/chat-voice-call.png "Agent experience of a voice call during live chat")
+> ![Agent experience of a voice call during live chat](media/chat-voice-call.png "Agent experience of a voice call during live chat")
 
 > [!Note]
 > If your organization is in the Government Community Cloud (GCC) region, the audio and video calls will be transmitted via a North American data center. 
@@ -71,21 +71,21 @@ As an agent, you need to enable camera and microphone access in the browser to m
 When a customer on the portal receives a call, they can accept the voice call with audio, accept the voice call with video, or reject the call.
 
 > [!div class=mx-imgBorder]
-> ![Customer experience of a voice call during live chat](../../media/call-accept.png "Customer experience of a voice call during live chat")
+> ![Customer experience of a voice call during live chat](media/call-accept.png "Customer experience of a voice call during live chat")
 
 After accepting the call, the customers can view and use the following options.
 
 |Button | Name |
 |----------------------|-------------------------|
-|![Turn on or off video](../../media/turn-on-off-video.png "Turn on or off video")| Turn on video / Turn off video | 
-|![Mute and unmute](../../media/mute-unmute.png "Mute and unmute")| Mute / Unmute | 
-|![End call](../../media/end-call.png "End call")| End call | 
+|![Turn on or off video](media/turn-on-off-video.png "Turn on or off video")| Turn on video / Turn off video | 
+|![Mute and unmute](media/mute-unmute.png "Mute and unmute")| Mute / Unmute | 
+|![End call](media/end-call.png "End call")| End call | 
 
 
 After accepting the call, the customer can turn on or off the video, mute or unmute the conversation, and end the call.
 
 > [!div class=mx-imgBorder]
-> ![Customer experience of a video call during live chat](../../media/calling2.png "Customer experience of a video call during live chat")
+> ![Customer experience of a video call during live chat](media/calling2.png "Customer experience of a video call during live chat")
 
 ### Site permissions
 
@@ -118,7 +118,7 @@ When you're chatting with a customer, you can initiate a co-browsing or screen s
 4. Ask the customer to enter the password or PIN, if applicable, and accept the invitation to co-browse or share their screen.
 
     > [!div class=mx-imgBorder]
-    > ![Agent requests a co-browse session during live chat](../../media/third-party-co-browse-agent-chat.png "Agent requests a co-browse session during live chat")
+    > ![Agent requests a co-browse session during live chat](media/third-party-co-browse-agent-chat.png "Agent requests a co-browse session during live chat")
 
 Once the customer accepts your invitation, you will be able to see the customer's screen and more accurately diagnose the issue.
 

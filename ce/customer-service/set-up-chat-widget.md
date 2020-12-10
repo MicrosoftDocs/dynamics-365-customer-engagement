@@ -11,7 +11,7 @@ ms.service: dynamics-365-customerservice
 
 # Configure a chat channel
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 A chat widget lets your customers connect with your customer service agents and resolve their queries quickly.
 

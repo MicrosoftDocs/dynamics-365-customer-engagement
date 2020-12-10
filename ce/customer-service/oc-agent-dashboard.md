@@ -11,7 +11,7 @@ ms.service: dynamics-365-customerservice
 
 # View agent dashboard and agent conversations (work items)
 
-[!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 The Omnichannel Agent Dashboard is a default view when you sign in to the application. The dashboard displays the following streams:
 
@@ -21,7 +21,7 @@ The Omnichannel Agent Dashboard is a default view when you sign in to the applic
 
 - Closed work items
 
- ![Agent dashboard of Omnichannel for Customer Service app](../../media/oceh-oc-mydashboard.png "Agent dashboard of Omnichannel for Customer Service app")
+ ![Agent dashboard of Omnichannel for Customer Service app](media/oceh-oc-mydashboard.png "Agent dashboard of Omnichannel for Customer Service app")
 
 ## My work items
 

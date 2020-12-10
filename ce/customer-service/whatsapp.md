@@ -11,7 +11,7 @@ ms.service: "dynamics-365-customerservice"
 
 # Use WhatsApp channel
 
-[!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 ## WhatsApp channel overview
 
@@ -28,12 +28,12 @@ You'll receive a notification when a customer requests a WhatsApp conversation. 
 **Unauthenticated customer incoming notification**
 
 > [!div class=mx-imgBorder]
-> ![WhatsApp chat agent notification](../../media/whatsapp-agent-notif.png "WhatsApp chat agent notification")
+> ![WhatsApp chat agent notification](media/whatsapp-agent-notif.png "WhatsApp chat agent notification")
 
 **Authenticated customer incoming notification**
 
 > [!div class=mx-imgBorder]
-> ![WhatsApp chat agent notification](../../media/whatsapp-agent-notif2.png "WhatsApp chat agent notification")
+> ![WhatsApp chat agent notification](media/whatsapp-agent-notif2.png "WhatsApp chat agent notification")
 
 In Omnichannel for Customer Service, you can:
 

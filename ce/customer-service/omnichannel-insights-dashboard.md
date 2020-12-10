@@ -11,7 +11,7 @@ ms.service: "dynamics-365-customerservice"
 
 # View and understand Omnichannel Insights dashboards
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 ## Omnichannel Insights  
 
@@ -28,7 +28,7 @@ Typically, the overview dashboard is divided into two sections:
 The following illustration is an example of the Omnichannel Insights for Dynamics 365 dashboard:
 
    > [!div class=mx-imgBorder]
-   > ![Omnichannel for Customer Service dashboard](../media/oc-full-dashboard.png "Omnichannel for Customer Service dashboard")
+   > ![Omnichannel for Customer Service dashboard](media/oc-full-dashboard.png "Omnichannel for Customer Service dashboard")
 
 This section consists of the following conversation KPIs:
 
@@ -59,11 +59,11 @@ The reporting structure consists of the following sections:
 This section provides historical visibility into the overall support operations across various conversations and channels.
    
    > [!div class=mx-imgBorder]
-   > ![Conversation](../media/conversation-report.png "Conversation")
+   > ![Conversation](media/conversation-report.png "Conversation")
    
   
    > [!div class=mx-imgBorder]
-   > ![Channel report](../media/channel.png "Channel report")
+   > ![Channel report](media/channel.png "Channel report")
 
 The KPIs for conversations and channels are listed in the following table. For conversations, these are applicable to scenarios in which bots escalate to agents or agents directly handle customer calls. For channels, the KPIs represent support operations by each channel to help supervisors easily understand how each support channel (for example, SMS or chat) is performing, and take appropriate actions to improve the overall support experience for customers. <br> <br>
 
@@ -99,10 +99,10 @@ The KPIs for conversations and channels are listed in the following table. For c
 This section provides historical visibility into how each queue is performing and how each agent is performing across different channels and queues so supervisors can take appropriate steps to improve the overall support experience for the customer. 
 
    > [!div class=mx-imgBorder]
-   > ![Queue report](../media/queue-report.png "Queue report")
+   > ![Queue report](media/queue-report.png "Queue report")
 
    > [!div class=mx-imgBorder]
-   > ![Agent report](../media/agent.png "Agent report")
+   > ![Agent report](media/agent.png "Agent report")
    
 The KPIs for queues and agents are listed in the following table. Metrics in this section are computed at the session granularity. Each customer contact is defined as a conversation. Each conversation is defined as a session and can be handled by one or more agents.
 
@@ -142,7 +142,7 @@ The KPIs for queues and agents are listed in the following table. Metrics in thi
 This section provides historical visibility into how bots are performing to help resolve customer support issues. 
 
    > [!div class=mx-imgBorder]
-   > ![Bot insights (BYOB)](../media/bot-insights.png "Bot insights (BYOB)")  
+   > ![Bot insights (BYOB)](media/bot-insights.png "Bot insights (BYOB)")  
 
 The KPIs for bots are listed in the following table: 
 
@@ -160,14 +160,14 @@ The KPIs for bots are listed in the following table:
 This illustration of the Omnichannel Sentiment Analysis dashboard provides an **overview** of important KPIs and trends relative to the sentiment analysis of conversation offered.  
 
    > [!div class=mx-imgBorder]
-   > ![Sentiment analysis overview](../media/oc-overview.png "Sentiment analysis overview")  
+   > ![Sentiment analysis overview](media/oc-overview.png "Sentiment analysis overview")  
 
 ## Omnichannel Insights – Sentiment Analysis report
 
 This illustration of the Omnichannel Sentiment Analysis report provides a **detailed view** of more comprehensive information. 
 
    > [!div class=mx-imgBorder]
-   > ![Sentiment Analysis detailed report](../media/oc-detailed.png "Sentiment Analysis detailed report")
+   > ![Sentiment Analysis detailed report](media/oc-detailed.png "Sentiment Analysis detailed report")
 
    Explanation of Sentiment Analysis KPIs
     
@@ -181,12 +181,12 @@ This illustration of the Omnichannel Sentiment Analysis report provides 
 
 ## Preview: Omnichannel Insights – Sentiment drivers reporting
 
-[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 Topics are generated when chat transcripts from Omnichannel for Customer Service are analyzed and grouped together, and similarities are discovered among the conversations. These are then correlated with sentiment, so that supervisors can better understand how their customers feel about each topic on which they've interacted with agents.
 
    > [!div class=mx-imgBorder]
-   > ![Topics that affect sentiment](../media/topics-impacting-sentiment.png "Topics that affect sentiment")
+   > ![Topics that affect sentiment](media/topics-impacting-sentiment.png "Topics that affect sentiment")
 
    > [!NOTE]
    >
@@ -228,7 +228,7 @@ Neutral sentiment is represented when a customer's sentiment was neither positiv
 You can filter the information presented in the reports by selecting **Duration**, **Channel**, **Queue,** and **Agent**.
 
    > [!div class=mx-imgBorder]
-   > ![Sentiment Analysis filtered report](../media/supervisor-historical-filter-reports.png "Sentiment Analysis filtered report")
+   > ![Sentiment Analysis filtered report](media/supervisor-historical-filter-reports.png "Sentiment Analysis filtered report")
 
 ### See also
 

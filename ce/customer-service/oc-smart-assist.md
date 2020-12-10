@@ -11,7 +11,7 @@ ms.service: "dynamics-365-customerservice"
 
 # View smart assist suggestions for agents configured using custom Azure bot
 
-[!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 ## Introduction
 
@@ -30,7 +30,7 @@ For a macro recommendation card, if the run is successful, a success message is 
 When a conversation is escalated from a bot, the agent needs to accept the request and start the conversation with the customer. Now, from this instance, the smart assist bot interprets the conversation in real-time and provides recommendations.
 
 > [!div class=mx-imgBorder]
-> ![Smart assist](../../media/oceh/smart-assist.png "Smart assist")
+> ![Smart assist](media/smart-assist.png "Smart assist")
 
 ## See also
 

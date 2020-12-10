@@ -11,7 +11,7 @@ ms.service: "dynamics-365-customerservice"
 
 # Work with queues in Omnichannel for Customer Service
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 ## Introduction
 
@@ -61,7 +61,7 @@ Perform the following steps to create a queue in Omnichannel for Customer Servic
 4. Select **Save**. The **Users (Agents)** section is displayed.
 
     > [!div class=mx-imgBorder]
-    > ![omnichannel queue](../media/oc-create-queue.png)
+    > ![omnichannel queue](media/oc-create-queue.png)
 
 5. In the **Users (Agents)** section, select **Add Existing User** to add existing agents to the queue.
 6. On the **Lookup Records** flyout menu, select the agents to add, and then select **Add**.

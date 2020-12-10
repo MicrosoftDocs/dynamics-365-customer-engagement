@@ -10,7 +10,7 @@ ms.service: dynamics-365-customerservice
 ---
 # Start chat proactively
 
-[!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 Anticipating areas where customers need help and then engaging them through chat when they have been browsing your website for some time can help improve customer satisfaction.
 

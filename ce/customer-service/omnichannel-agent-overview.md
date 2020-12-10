@@ -11,7 +11,7 @@ ms.service: dynamics-365-customerservice
 
 # Omnichannel for agents
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 ## Overview
 
@@ -25,7 +25,7 @@ Omnichannel for Customer Service is available on the following:
 
 > [!IMPORTANT]
 >
-> [!INCLUDE[cc-cookies-in-omnichannel](../../includes/cc-cookies-in-omnichannel.md)]
+> [!INCLUDE[cc-cookies-in-omnichannel](../includes/cc-cookies-in-omnichannel.md)]
 
 ## Videos
 

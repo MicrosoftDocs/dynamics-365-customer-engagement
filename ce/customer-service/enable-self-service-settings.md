@@ -11,7 +11,7 @@ ms.service: dynamics-365-customerservice
 
 # Enable self-service settings for customer actions in a conversation summary
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 ## Overview
 
@@ -33,7 +33,7 @@ Perform the following steps to enable self service.
 4. On the **Self service settings** tab, set the **Self service** toggle to **Yes**.
 
    > [!div class='mx-imgBorder']
-   > ![Enable self service](../media/enable-self-service.png "Enable self service")
+   > ![Enable self service](media/enable-self-service.png "Enable self service")
  
 5. Select **Save**. The **Self service** tab will appear for the agent when a chat is started with a customer.
 

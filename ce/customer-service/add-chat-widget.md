@@ -11,7 +11,7 @@ ms.service: dynamics-365-customerservice
 
 # Add a chat widget
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 1. Sign in to Omnichannel Administration.
 
@@ -65,7 +65,7 @@ ms.service: dynamics-365-customerservice
 
 
     > [!div class=mx-imgBorder]
-    > ![Configure the basic details of a chat widget](../media/oc-chat-widget-basic-details-tab.png "Configure the basic details of a chat widget")
+    > ![Configure the basic details of a chat widget](media/oc-chat-widget-basic-details-tab.png "Configure the basic details of a chat widget")
 
 6. On the **Automated messages** tab, set up automated messages for your chat widget. More information: [Configure automated messages](configure-automated-message.md)
 
@@ -78,7 +78,7 @@ ms.service: dynamics-365-customerservice
     |Post-conversation survey| Turn on | If you set to **Yes**, you can configure a post-conversation survey to be presented to customers. More information: [Configure a post-conversation survey](configure-post-conversation-survey.md) |
 
     > [!div class=mx-imgBorder]
-    > ![Configure a pre-conversation survey in a chat widget](../media/oc-chat-widget-survey-tab.png "Configure a pre-conversation survey in a chat widget")
+    > ![Configure a pre-conversation survey in a chat widget](media/oc-chat-widget-survey-tab.png "Configure a pre-conversation survey in a chat widget")
 
 8. On the **Conversation options** tab, specify the information for the following fields.
 

@@ -11,7 +11,7 @@ ms.service: "dynamics-365-customerservice"
 
 # Enable real-time translation of conversations
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 ## Introduction
 
@@ -34,7 +34,7 @@ You must add a web resource and make sure that the required language translation
 1. In **Default input language**, select the language for agents to converse with customers. The translation engine translates the customer messages for agents to the language specified. By, default, it's set to English (en-us).
 1. In the **Web resource** area, in the **Web resource URL** box, enter the link of the web resource.
     > [!div class=mx-imgBorder]
-    > ![Enable real-time language translation](../media/real-time-translation.png "Enable real-time language translation")
+    > ![Enable real-time language translation](media/real-time-translation.png "Enable real-time language translation")
 1. Select **Save**.
 
 ### See also

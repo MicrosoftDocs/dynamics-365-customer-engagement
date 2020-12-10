@@ -11,7 +11,7 @@ ms.service: dynamics-365-customerservice
 
 # Use a WeChat channel
 
-[!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 ## Agent dashboard for WeChat channel
 
@@ -26,7 +26,7 @@ Make sure that your administrator has configured a WeChat channel.
 You'll receive a notification when a customer requests a conversation through WeChat. When you accept the WeChat chat request, a session is started and you'll see the communication panel in which you can exchange messages with the customer.
 
 > [!div class=mx-imgBorder]
-> ![WeChat chat agent notification](../../media/incoming-chat-wechat.png "WeChat chat agent notification")
+> ![WeChat chat agent notification](media/incoming-chat-wechat.png "WeChat chat agent notification")
 
 In Omnichannel for Customer Service, you can:
 

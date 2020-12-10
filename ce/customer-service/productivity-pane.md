@@ -11,7 +11,7 @@ ms.service: dynamics-365-customerservice
 
 # Productivity pane overview
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 The productivity pane in Omnichannel for Customer Service enables you to display agent guidance (knowledge search, agent scripts, and smart-assist cards) in a unified view. First you need to configure knowledge search, agent scripts, and smart-assist cards so these agent guidance tools will display in Omnichannel for Customer Service.
 
@@ -26,12 +26,12 @@ You can set the productivity pane in collapsed mode or expanded mode, as shown i
 **Collapsed mode**
 
 > [!div class='mx-imgBorder']
-> ![Productivity pane](../media/productivity-pane-collapsed.PNG "Productivity pane in collapsed mode")
+> ![Productivity pane](media/productivity-pane-collapsed.PNG "Productivity pane in collapsed mode")
 
 **Expanded mode**
 
 > [!div class='mx-imgBorder']
-> ![Productivity pane](../media/productivity-pane-expanded.PNG "Productivity pane in expanded mode")
+> ![Productivity pane](media/productivity-pane-expanded.PNG "Productivity pane in expanded mode")
 
 ### See also
 

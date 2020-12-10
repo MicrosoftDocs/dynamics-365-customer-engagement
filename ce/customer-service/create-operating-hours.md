@@ -11,9 +11,9 @@ ms.service: dynamics-365-customerservice
 
 # Preview: Create and manage operating hours
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 ## Introduction
 
@@ -54,7 +54,7 @@ After you create an operating hour record, you must add it to the **Design** tab
    - **choose an end date:** Optionally, specify an end date.
    -  **Time zone:** Select an applicable time zone. The daylight saving timings are taken into account, if applicable for the selected time zone.
     
-        > ![Create an operating hour schedule](../media/oc-create-operating-hour.png "Create a operating hour schedule")
+        > ![Create an operating hour schedule](media/oc-create-operating-hour.png "Create a operating hour schedule")
 
 8. Select **Save**. You are returned to the **Working Hours** tab.
 
@@ -80,7 +80,7 @@ You can edit or delete the operating hours schedule in an existing record.
    - All events in the series 
 4. If you want to delete an event, select **Delete**.
     
-    > ![Edit an event](../media/oc-operating-hour-modify.png "Create a working hour schedule")
+    > ![Edit an event](media/oc-operating-hour-modify.png "Create a working hour schedule")
 
 ## Add operating hours to a chat widget
 
@@ -92,7 +92,7 @@ Do the following to specify operating hours for a chat widget:
 4. Save the changes.
 
     > [!div class=mx-imgBorder]
-    > ![Add operating hours in a chat widget](../media/oc-chat-widget-design-tab.png "Add operating hours in a chat widget")
+    > ![Add operating hours in a chat widget](media/oc-chat-widget-design-tab.png "Add operating hours in a chat widget")
 
 ## Add operating hours to a queue
 

@@ -12,7 +12,7 @@ ms.reviewer: nenellim
 
 # Enable file attachments
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 You can enable or disable the capability for your agents and customers to send file attachments during a conversation. 
 
@@ -48,14 +48,14 @@ To configure the file size limit and file extensions, follow these steps:
 5. Go to the **Set file size limit for attachments** section, and in the **Maximum file size (in kilobytes)** field, enter the value in kilobytes.
 
     > [!div class=mx-imgBorder]
-    > ![Set file size limit for attachment](../media/file-size-limit.png "Set file size limit for attachment")
+    > ![Set file size limit for attachment](media/file-size-limit.png "Set file size limit for attachment")
 
 6. To specify unsupported file types, go to the **General** tab.
 
 7. In the **Set blocked file extensions for attachments** field, add or edit the file types.
 
     > [!div class=mx-imgBorder]
-    > ![Specify unsupported file types](../media/unsupported-file-types.png "Specify unsupported file types")
+    > ![Specify unsupported file types](media/unsupported-file-types.png "Specify unsupported file types")
 
 8. Select **OK**.
 

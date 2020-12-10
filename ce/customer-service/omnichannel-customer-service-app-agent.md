@@ -11,7 +11,7 @@ ms.service: dynamics-365-customerservice
 
 # Agents using Omnichannel for Customer Service app
 
-[!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 ## Overview
 
@@ -21,7 +21,7 @@ As an agent, you can use the app to manage the work items assigned, simultaneous
 > [!Note]
 > - The omnichannel provisioning provides the Omnichannel for Customer Service app and is available to the users working with Chat for Dynamics and SMS.
 > - As of now, administrators or system cutomizers can't integrate third-party channels with Omnichannel for Customer Service app.
-> - [!INCLUDE[cc-cookies-in-omnichannel](../../../includes/cc-cookies-in-omnichannel.md)]
+> - [!INCLUDE[cc-cookies-in-omnichannel](../includes/cc-cookies-in-omnichannel.md)]
 
 ## In this section
 

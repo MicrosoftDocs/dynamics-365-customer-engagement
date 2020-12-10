@@ -10,7 +10,7 @@ ms.service: dynamics-365-customerservice
 ---
 # Overview of skill-based routing
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 > [!Note]
 > The data such as but not limited to skills, rating model, and rating value that is created, updated, and used in Omnichannel are shared between other model-driven apps (Field Service and Project Service Automation) installed in your environment. Similarly, the data that are created, updated, and used in other model-driven apps are available for use in Omnichannel.
@@ -38,7 +38,7 @@ Skill-based routing allows you to easily match the conversation to the agent mos
 ## Understand skill-based routing
 
    > [!div class=mx-imgBorder] 
-   > ![Skill-based routing](../media/skill-based-routing1.png "Skill-based routing")
+   > ![Skill-based routing](media/skill-based-routing1.png "Skill-based routing")
 
 When a customer initiates a conversation, the following happens:
 
@@ -54,7 +54,7 @@ When a customer initiates a conversation, the following happens:
 ## Skill-based routing overview steps
 
    > [!div class=mx-imgBorder]
-   > ![Skill-based routing setup](../media/skill-based-routing2.png "Skill-based routing setup")
+   > ![Skill-based routing setup](media/skill-based-routing2.png "Skill-based routing setup")
 
 - [Step 1: Enable skill-based routing](enable-skill-routing-create-rating-model.md#enable-skill-based-routing)
 - [Step 2: Create rating model](enable-skill-routing-create-rating-model.md#create-rating-model)

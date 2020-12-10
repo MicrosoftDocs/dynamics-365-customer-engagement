@@ -11,7 +11,7 @@ ms.service: dynamics-365-customerservice
 
 # View customer summary for an incoming conversation request
 
-[!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 ## Scenario 1: Incoming conversation request for an existing customer record 
 

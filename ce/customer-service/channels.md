@@ -11,7 +11,7 @@ ms.service: "dynamics-365-customerservice"
 
 # Overview of channels
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 As new social networks and communication channels rapidly evolve, so do customer expectations on how to reach their favorite brands. Communicating via many channels has become not only comfortable but expected and businesses seeking to provide personalized service are rapidly working to enable support through the channels their customers want to use. 
 

@@ -10,7 +10,7 @@ ms.service: dynamics-365-customerservice
 ---
 # Render a live chat widget on the mobile app
 
-[!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 There are two ways to integrate Omnichannel chat into mobile apps: one is by embedding the chat widget using the code snippet, and the other is using the headless Omnichannel Chat SDK.
 

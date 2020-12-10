@@ -29,14 +29,14 @@ Perform the following:
 From the admin portal, select the desired region from the drop-down menu. 
 
    > [!div class=mx-imgBorder]
-   > ![Region drop-down menu screenshot](media/oceh/oc-region-menu.png "Region drop-down menu")
+   > ![Region drop-down menu screenshot](media/oc-region-menu.png "Region drop-down menu")
 
 Changing the region causes the portal to reload. When it has finished reloading, proceed to **Applications** > **Omnichannel for Customer Service**, and then proceed with the usual provisioning steps.
 
 The provisioning application you are directed to is associated with the region you chose, and all instances located in that region are displayed as options for provisioning.
 
    > [!div class=mx-imgBorder]
-   > ![Provisioning application screenshot](media/oceh/oc-region-provision.png "Provisioning application screenshot")
+   > ![Provisioning application screenshot](media/oc-region-provision.png "Provisioning application screenshot")
 
 ## Omnichannel provisioning fails due to expired Teams Service Principal
 
@@ -318,7 +318,7 @@ A message stating **Sorry, we're not able to serve you at the moment** is shown 
 - Allowed Presence is not updated in the work stream: The default work streams that are shipped out-of-the-box, does not have **Allowed Presence** values in the work stream.
 
    > [!div class=mx-imgBorder]
-   > ![Sorry, we are not able to serve you at this moment message on portal chat widget](media/oceh/chat-widget-not-able-serve.png "Sorry, we are not able to serve you at this moment")
+   > ![Sorry, we are not able to serve you at this moment message on portal chat widget](media/chat-widget-not-able-serve.png "Sorry, we are not able to serve you at this moment")
 
 ### Resolution
 
@@ -519,7 +519,7 @@ After you sign in to the Unified Service Desk client application, you see the fo
 **An error occurred in the Communication panel. Restart Unified Service Desk and try again. (Error Code - AAD_ID_MISMATCH - Azure ADID mismatched with logged-in user id)**
 
    > [!div class=mx-imgBorder]
-   > ![Unified Service Desk application error](media/oceh/usd-communication-panel-error.png "Unified Service Desk application error")
+   > ![Unified Service Desk application error](media/usd-communication-panel-error.png "Unified Service Desk application error")
 
 While signing in to Unified Service Desk you must enter the Customer Service app credentials and sign in, and again, you are shown a dialog to enter credentials to connect to Dataverse server.
 When you enter different credentials, this issue occurs. 
@@ -596,7 +596,7 @@ Dynamics 365 Customer Service organization that you create from **demos.microsof
 If you import the Unified Service Desk - Omnichannel for Customer Service package without deleting the existing configuration in the new demo org, you see an error after signing in to Unified Service Desk client application. The reason for the issue is multiple sample Unified Service Desk configurations cannot exist in a Customer Service instance.
 
    > [!div class=mx-imgBorder]
-   > ![The hosted application couldn't be created](media/oceh/usd-client-error.png "The hosted application couldn't be created")
+   > ![The hosted application couldn't be created](media/usd-client-error.png "The hosted application couldn't be created")
 
 ### Resolution
 
@@ -637,7 +637,7 @@ When you sign in to Unified Service Desk, you see the following error.
 **APPLICATION_HOST_ERR_NO_CONFIGURED_APPS: applications are configured for your use.**
 
    > [!div class=mx-imgBorder]
-   > ![Unified Service Desk application configuration error](media/oceh/usd-application-host-error.png "Unified Service Desk application configuration error")
+   > ![Unified Service Desk application configuration error](media/usd-application-host-error.png "Unified Service Desk application configuration error")
 
 The issue is due to the package deployment failure.
 

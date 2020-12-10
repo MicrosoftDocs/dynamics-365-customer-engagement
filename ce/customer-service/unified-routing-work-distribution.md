@@ -11,7 +11,7 @@ ms.service: "dynamics-365-customerservice"
 
 # Understand unified routing and work distribution
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 Unified routing and work distribution ensures that conversations from all the channels are routed to agents efficiently.
 
@@ -27,7 +27,7 @@ Unified routing and work distribution is a two-step process:
 2. Work distribution allocates the conversations in a queue to agents in real time, based on capacity and presence.
 
 > [!div class=mx-imgBorder]
-> ![Routing and work distribution scenario](../media/unified-routing-work-distribution.png)
+> ![Routing and work distribution scenario](media/unified-routing-work-distribution.png)
 
 ## Overview of routing system
 
@@ -92,7 +92,7 @@ The following section outlines a scenario to understand unified routing and work
 A customer initiates a conversation (chat) regarding **Billing**. Now, unified routing and work distribution help route the conversation to the **Billing** queue, and assign the conversation to an agent who is a member of the queue with the required presence and capacity. This is shown in the following illustration.
 
 > [!div class=mx-imgBorder]
-> ![Routing and work distribution scenario](../media/oc-scenario.png)
+> ![Routing and work distribution scenario](media/oc-scenario.png)
 
 Let us see the steps involved in the scenario walk-through.
 

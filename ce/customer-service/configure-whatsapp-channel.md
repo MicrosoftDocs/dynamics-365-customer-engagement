@@ -11,9 +11,9 @@ ms.service: "dynamics-365-customerservice"
 
 # Preview: Configure a WhatsApp channel through Twilio
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 ## Overview of WhatsApp channel through Twilio
 
@@ -77,17 +77,17 @@ To create a WhatsApp channel, follow these steps:
     | Twilio account details |Auth Token | Get the value from your Twilio account and paste it here. | dd40ed7df8376b1fa959be99c45fbfce |
 
     > [!div class=mx-imgBorder]
-    > ![Create a WhatsApp channel](../media/whatsapp-channel-1.png "Create a WhatsApp channel")     
+    > ![Create a WhatsApp channel](media/whatsapp-channel-1.png "Create a WhatsApp channel")     
 
 4. Select **Save**. After you save, in the **Callback information** section, the **Twilio inbound URL** field is generated with a URL. Copy the URL from the field, and paste it in your Twilio console. 
 
    > [!div class=mx-imgBorder]
-   > ![Copy the Twilio inbound URL](../media/whatsapp-channel-2.png "Copy the Twilio inbound URL") 
+   > ![Copy the Twilio inbound URL](media/whatsapp-channel-2.png "Copy the Twilio inbound URL") 
 
 5. Go to your Twilio console, and select **Senders** and then select the WhatsApp phone number. Under **Messaging**, paste the URL you copied from step 4 in the **Twilio inbound URL** field.
 
     > [!div class=mx-imgBorder]
-    > ![Paste the Twilio inbound URL](../media/whatsapp-channel-6.png "Paste the Twilio inbound URL") 
+    > ![Paste the Twilio inbound URL](media/whatsapp-channel-6.png "Paste the Twilio inbound URL") 
 
 6. In the **WhatsApp phone numbers** section, select **New WhatsApp Number**. The **New WhatsApp Number** page is displayed.
 
@@ -101,7 +101,7 @@ To create a WhatsApp channel, follow these steps:
     | Work distribution | Work stream | Select the out-of-the-box work stream from the lookup. <br> To create a new work stream, see [Create work streams](work-streams-introduction.md). | WhatsApp channel work stream |
 
     > [!div class=mx-imgBorder]
-    > ![Create a WhatsApp channel phone number](../media/whatsapp-channel-3.png "Create a WhatsApp channel phone number")
+    > ![Create a WhatsApp channel phone number](media/whatsapp-channel-3.png "Create a WhatsApp channel phone number")
 
 8. Select **Save** to save the WhatsApp phone number.
 
@@ -112,7 +112,7 @@ To create a WhatsApp channel, follow these steps:
 11. In the **Validation** section, select **Validate** to validate the Account SID, Auth token, and phone numbers.  After you validate, a toast notification displays with the success or error.
 
     > [!div class=mx-imgBorder]
-    > ![Validate Account SID, Auth token, and phone number](../media/whatsapp-channel-5.png "Validate Account SID, Auth token, and phone number")
+    > ![Validate Account SID, Auth token, and phone number](media/whatsapp-channel-5.png "Validate Account SID, Auth token, and phone number")
 
 ### Integrate a Twilio sandbox account with Omnichannel for Customer Service
 
@@ -163,7 +163,7 @@ When you create conditions for routing rules, the **WhatsApp Engagement Context 
     - **Message description**: Give the message template a description.
     
     > [!div class=mx-imgBorder]
-    > ![Create WhatsApp message template](../media/whatsapp-message-template-new-message.png "Create WhatsApp message template")
+    > ![Create WhatsApp message template](media/whatsapp-message-template-new-message.png "Create WhatsApp message template")
     
     Click **Save** and the **Localization Data (Message template)** panel appears. Click **New localization** and complete the following fields:
     
@@ -172,7 +172,7 @@ When you create conditions for routing rules, the **WhatsApp Engagement Context 
     - **Localized text**: Write the message in the language specified. You must create a new localization for each translation of the message.
     
     > [!div class=mx-imgBorder]
-    > ![Create WhatsApp message template localized message](../media/whatsapp-message-template-new-message-locale.png "Create WhatsApp message template localized message")
+    > ![Create WhatsApp message template localized message](media/whatsapp-message-template-new-message-locale.png "Create WhatsApp message template localized message")
     
 5. On the **Surveys** tab, [configure a post-conversation survey](configure-post-conversation-survey.md).
 

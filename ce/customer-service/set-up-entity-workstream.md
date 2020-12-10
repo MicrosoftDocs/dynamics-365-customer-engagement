@@ -11,7 +11,7 @@ ms.service: dynamics-365-customerservice
 
 # Create workstream for entity record routing
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 ## Create entity record workstream
 
@@ -37,7 +37,7 @@ This topic describes how to create a workstream for an entity that has been enab
     | Work Distribution | Allowed presences | Allowed, Busy | Set the allowed presence status <br><br> Select the option and type a presence status in the search box. Select a status from the list. <br> **Note:** <ul><li> The value provided is an example. </li></ul>|
 
     > [!div class=mx-imgBorder] 
-    > ![Specify values for the fields](../media/case-ws3.png "New case workstream")
+    > ![Specify values for the fields](media/case-ws3.png "New case workstream")
 
 5. Select **Save** to save the workstream.
 

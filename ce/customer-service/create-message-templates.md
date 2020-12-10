@@ -12,7 +12,7 @@ ms.reviewer: nenellim
 
 # Create message templates
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 Message templates enable the one-time creation of reusable messages that can be sent to multiple customers. With message templates, you can maintain high-quality content and avoid spam in the ecosystem. You can save time and personalize the messages by using placeholder values that can be replaced with dynamic content when the message is sent.
 
@@ -31,17 +31,17 @@ To create a message template:
 6. Enter a description.
 
     > [!div class=mx-imgBorder]
-    > ![Create a new message template](../media/message-template.png "Create a new message template")
+    > ![Create a new message template](media/message-template.png "Create a new message template")
 
 7. Click **Save**. After saving the template, the **Message template** panel appears. 
 
     > [!div class=mx-imgBorder]
-    > ![Create a new message](../media/message-template2.png "Create a new message")
+    > ![Create a new message](media/message-template2.png "Create a new message")
 
 8. Click **New message** and create a message using localized text in each language you want to support.
 
     > [!div class=mx-imgBorder]
-    > ![Create localized text of new message](../media/message-template3.png "Create localized text of new message")
+    > ![Create localized text of new message](media/message-template3.png "Create localized text of new message")
     
     Message templates support the following slugs.  
 

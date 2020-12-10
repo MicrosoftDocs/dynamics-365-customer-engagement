@@ -11,7 +11,7 @@ ms.service: "dynamics-365-customerservice"
 
 # Real-time translation of conversations for agents and customers
 
-[!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 ## Introduction
 
@@ -34,13 +34,13 @@ The agents can turn on or off the translation for each conversation by using the
 The following image shows a sample screenshot of the agent experience.
 
   > [!div class=mx-imgBorder]
-  > ![Real-time language translation for the agent](../../media/oc-agent-translated-messages.png "Real-time language translation for agent")
+  > ![Real-time language translation for the agent](media/oc-agent-translated-messages.png "Real-time language translation for agent")
 
 
 The following image shows a sample screenshot of the customer experience.
 
   > [!div class=mx-imgBorder]
-  > ![Real-time language translation for the customer](../../media/oc-customer-translated-messages.png "Real-time language translation for the customer")
+  > ![Real-time language translation for the customer](media/oc-customer-translated-messages.png "Real-time language translation for the customer")
 
 ### See also
 

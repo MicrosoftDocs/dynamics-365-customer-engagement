@@ -11,7 +11,7 @@ ms.service: dynamics-365-customerservice
 
 # Create chat authentication settings
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 You can create authentication settings to validate a signed-in customer from a domain, and extract information based on the context variables that are defined. You can differentiate your anonymous customers from authenticated customers, and you can create rules based on the context variables.
 
@@ -40,7 +40,7 @@ Make sure your organization has a working knowledge of Oauth 2.0 and JSON Web To
     - **JavaScript client function**: Specify the JavaScript client function to use for authentication. This function extracts a token from the token endpoint.
 
         > [!div class=mx-imgBorder]
-        > ![Create chat authentication setting record](../media/chat-auth-settings.png "Create chat authentication setting record")
+        > ![Create chat authentication setting record](media/chat-auth-settings.png "Create chat authentication setting record")
 
     For more information about how to find the public key URL and JavaScript client function, see the [Setup for Power Apps portals](#setup-for-power-apps-portals) section or the [Setup for custom portals that are not created using Power Apps](#setup-for-custom-portals-that-are-not-created-using-power-apps) section later in this topic.
 
@@ -53,7 +53,7 @@ Make sure your organization has a working knowledge of Oauth 2.0 and JSON Web To
 3.	In the **Authentication settings** field, browse and select the chat authentication record.
 
     > [!div class=mx-imgBorder]
-    > ![Add authentication to a chat widget](../media/oc-chat-widget-basic-details-tab.png "Add authentication to a chat widget")
+    > ![Add authentication to a chat widget](media/oc-chat-widget-basic-details-tab.png "Add authentication to a chat widget")
 
 When a signed-in customer on a portal opens the chat widget, the JavaScript client function passes the JWT from the client to the server. The JWT is decrypted and validated by using the public key, and the information is then passed to the chat agent in Omnichannel for Customer Service. As an admin, you can also pass additional information about the signed-in customer in the JWT by defining custom context variables. The context variables must be defined exactly as they are defined in the work stream that is associated with the chat widget.
 
@@ -213,7 +213,7 @@ If you are adding an authenticated chat experience to a custom website, your web
     This diagram walks through the setup:
     
    > [!div class=mx-imgBorder]
-   > ![Authenticated chat setup](../media/auth-chat-setup.png "Authenticated chat setup")
+   > ![Authenticated chat setup](media/auth-chat-setup.png "Authenticated chat setup")
 
     Then, you can set up authenticated chat by following these steps: 
 
@@ -224,7 +224,7 @@ If you are adding an authenticated chat experience to a custom website, your web
     This diagram walks through the call sequence when a user accesses your chat in an authenticated setup:
 
      > [!div class=mx-imgBorder]
-     > ![Authenticated chat runtime](../media/auth-chat-runtime.png "Authenticated chat runtime")
+     > ![Authenticated chat runtime](media/auth-chat-runtime.png "Authenticated chat runtime")
 
 
 ### See also

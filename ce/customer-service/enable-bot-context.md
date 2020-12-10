@@ -11,7 +11,7 @@ ms.reviewer: nenellim
 ---
 # Enable bot context NuGet package
 
-[!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 As a bot author, you can enable your Azure bot to understand context while authoring a bot flow. Bot context includes context name-value pairs for the current conversation and custom context passed by API programmatically.
 
@@ -23,7 +23,7 @@ When customers initiate a conversation, the relevant context that is related to 
 
 2. In the NuGet Package Manager, select the feedname **nuget.org** and search for "Microsoft.Xrm.Omnichannel.BotSDK". Select the package and select install. Refer to [Nuget page](https://www.nuget.org/packages/Microsoft.Xrm.Omnichannel.BotSDK)
 
->![Search for Omnichannel middleware](../../media/enable_botcon_step2.png "Search for Omnichannel middleware")
+>![Search for Omnichannel middleware](media/enable_botcon_step2.png "Search for Omnichannel middleware")
     
 Alternatively, you can use the following command in NuGet CLI: 
 
@@ -45,7 +45,7 @@ Use this procedure if you have created your bot using Visual Studio Azure Bot te
     Use(new OmnichannelMiddleware()); 
     ```
 
-    ![Add import statement](../../media/bot-context-add-import.png "Add import statement")
+    ![Add import statement](media/bot-context-add-import.png "Add import statement")
 
 ### See also
 

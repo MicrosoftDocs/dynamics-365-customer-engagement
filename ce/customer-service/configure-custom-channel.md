@@ -11,7 +11,7 @@ ms.service: dynamics-365-customerservice
 
 # Configure a custom messaging channel, or bring your own channel
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 ## Overview 
 
@@ -105,12 +105,12 @@ To create a custom channel, follow these steps:
 5. Select **Validate app ID + secret**  to validate the **Microsoft app ID** and **Client secret** values. After the validation, a toast notification is displayed. Also, the **Last validated** field shows time and date. This ensures that bots are active and client secret refreshes are consumed. 
 
     > [!div class=mx-imgBorder]
-    > ![Create a custom channel](../media/custom-channel-1.png "Create a custom channel")
+    > ![Create a custom channel](media/custom-channel-1.png "Create a custom channel")
 
 6. Select **Save** to save the changes. After you save, in the **Callback information** section, the **Message endpoint (URL)** field is generated with a URL. Copy the URL from the field.
 
     > [!div class=mx-imgBorder]
-    > ![Create a custom channel](../media/custom-channel-2.png "Create a custom channel")
+    > ![Create a custom channel](media/custom-channel-2.png "Create a custom channel")
 
 7. Go to the **Azure Portal** > **Bot Channel Registration** page, paste the URL into the **Message endpoint** field, and save the changes.
 
@@ -132,7 +132,7 @@ To create a custom channel, follow these steps:
 
 
     > [!div class=mx-imgBorder]
-    > ![Create a custom channel](../media/custom-channel-3.png "Create a custom channel") 
+    > ![Create a custom channel](media/custom-channel-3.png "Create a custom channel") 
 
 10. Optionally, on the **Surveys** tab, [configure a post-conversation survey](configure-post-conversation-survey.md).
 
@@ -143,7 +143,7 @@ To create a custom channel, follow these steps:
 13. Select **Save** to save the configurations.
 
     > [!div class=mx-imgBorder]
-    > ![Create a custom channel](../media/custom-channel-4.png "Create a custom channel")
+    > ![Create a custom channel](media/custom-channel-4.png "Create a custom channel")
 
 ## Test your channel
 

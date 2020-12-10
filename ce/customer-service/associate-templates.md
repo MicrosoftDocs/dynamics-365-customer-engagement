@@ -11,7 +11,7 @@ ms.service: dynamics-365-customerservice
 
 # Associate templates with work streams
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 After creating the session, notification, and application tab templates, you must associate these with a workstream so that the Omnichannel system uses the corresponding templates for an incoming conversation.
 

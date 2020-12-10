@@ -11,7 +11,7 @@ ms.service: dynamics-365-customerservice
 
 # Analyze real-time customer sentiment
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 > [!IMPORTANT]
 > This feature is intended to help customer service managers or supervisors enhance their team's performance and improve customer satisfaction. This feature is not intended for use in making, and should not be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365 Customer Service, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
@@ -35,13 +35,13 @@ To let agents and supervisors see the customer's satisfaction levels instantly w
 3. In the **Sentiment analysis** section, set the **Monitor real-time customer sentiment** toggle to **Yes**, and then select **Save**.
 
     > [!div class=mx-imgBorder]
-    > ![Enable sentiment analysis](../media/monitor-real-time.png "Enable sentiment analysis")
+    > ![Enable sentiment analysis](media/monitor-real-time.png "Enable sentiment analysis")
 
 After you enable real-time customer sentiment, you can view scores in the [Omnichannel Insights dashboards](configure-historical-sentiment-dashboard-supervisor.md).
 
 ### Preview: Sentiment drivers reporting
 
-[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 > [!NOTE]
 > In the preview mode, this feature is not available for Government Community Cloud (GCC).
@@ -50,7 +50,7 @@ After you enable real-time customer sentiment, you can view scores in the [Omnic
 
 In the customization settings of Omnichannel Administration, enable change tracking for the **Conversation Sentiment** entity.
 
-![Enable change tracking](../media/change-tracking-sentiment-drivers.png "Enable change tracking")
+![Enable change tracking](media/change-tracking-sentiment-drivers.png "Enable change tracking")
 
 #### Enable sentiment drivers reporting
 
@@ -60,7 +60,7 @@ After you opt in for real-time sentiment analysis, you can enable sentiment driv
 2. Select **Save**.
 
   > [!div class=mx-imgBorder]
-  > ![Enable sentiment drivers reporting](../media/sentiment-drivers-reporting.png "Enable sentiment drivers reporting")
+  > ![Enable sentiment drivers reporting](media/sentiment-drivers-reporting.png "Enable sentiment drivers reporting")
 
 > [!IMPORTANT]
 > For this feature to work, a minimum of 10 chat conversations per organization are required.
@@ -90,7 +90,7 @@ For example, you set the threshold value as **Slightly negative**. When the cust
     - Very negative
 
       > [!div class=mx-imgBorder]
-      > ![Show alerts when a customer's sentiment decreases to or below](../media/monitor-real-time-agent.png "Show alerts when a customer's sentiment decreases to or below")
+      > ![Show alerts when a customer's sentiment decreases to or below](media/monitor-real-time-agent.png "Show alerts when a customer's sentiment decreases to or below")
 
 To turn off agent alerts, select **Don't show alerts**.
 
@@ -119,7 +119,7 @@ For example, you set the threshold value as **Slightly negative**. When the cust
     - Very negative
 
     > [!div class=mx-imgBorder]
-    > ![Send notifications when a customer's sentiment decreases to or below](../media/monitor-real-time-supervisor.png "Send notifications when a customer's sentiment decreases to or below")
+    > ![Send notifications when a customer's sentiment decreases to or below](media/monitor-real-time-supervisor.png "Send notifications when a customer's sentiment decreases to or below")
 
 To turn off supervisor notifications, select **Don't send notifications**.
 

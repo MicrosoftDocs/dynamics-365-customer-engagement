@@ -12,7 +12,7 @@ ms.reviewer: nenellim
 
 # Configure download and email of chat transcripts
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 Chat for Dynamics 365 Customer Service allows customers to download and email a copy of their chat transcripts. When download and email options are enabled by an administrator, customers can request a copy of their chat transcript at any time during a chat session and are reminded at the end of the conversation to request a transcript. Icons at the bottom of the chat widget allow the customer to initiate an email or download a copy of their chat transcript, which is sent once the chat ends.
 
@@ -35,7 +35,7 @@ Chat for Dynamics 365 Customer Service allows customers to download and email a 
    By default, both the options are set to **No**.
 
    > [!div class=mx-imgBorder]
-   > ![Enable chat transcript](../media/oc-chat-transcript-enable.png "Enable chat transcript")
+   > ![Enable chat transcript](media/oc-chat-transcript-enable.png "Enable chat transcript")
 
 6. If you select **Yes** for **Allow email of transcript**, you must select an email template and a mailbox from which the email will be sent. Administrators have a choice to either:
 
@@ -46,13 +46,13 @@ Chat for Dynamics 365 Customer Service allows customers to download and email a 
     - Create their own email template.
 
     > [!div class=mx-imgBorder]
-    > ![Enable email chat transcript](../media/oc-chat-transcript-enable-email.png "Enable email chat transcript")
+    > ![Enable email chat transcript](media/oc-chat-transcript-enable-email.png "Enable email chat transcript")
 
     > [!NOTE] 
     > Whether an administrator chooses to use the email template provided or create their own, the "{conversation.transcript}" text determines where the transcript is injected into email.
 
     > [!div class=mx-imgBorder]
-    > ![Customize email chat transcript](../media/oc-chat-transcript-customize-email-transcript.png "Customize email chat transcript")
+    > ![Customize email chat transcript](media/oc-chat-transcript-customize-email-transcript.png "Customize email chat transcript")
 
 ## Customer experience
 
@@ -61,7 +61,7 @@ Customers can choose to download and email a copy of their chat transcript conve
 - **Download the chat transcript**: Select the download icon at the bottom of the chat screen. 
 
     > [!div class=mx-imgBorder]
-    > ![Download chat transcript](../media/oc-chat-transcript-download.png "Download chat transcript")
+    > ![Download chat transcript](media/oc-chat-transcript-download.png "Download chat transcript")
 
 - **Email the chat transcript**: Select the email icon at the bottom of the chat screen.
 
@@ -73,12 +73,12 @@ Customers can choose to download and email a copy of their chat transcript conve
        
 
      > [!div class=mx-imgBorder]
-     > ![Email chat transcript](../media/oc-chat-transcript-email.png "Email chat transcript")
+     > ![Email chat transcript](media/oc-chat-transcript-email.png "Email chat transcript")
 
     At the end of the chat conversation, the following window appears reminding the customer they can either download or email a copy of their chat transcript to themselves.
 
     > [!div class=mx-imgBorder]
-    > ![Chat transcript prompt](../media/oc-chat-transcript-prompt-screen.png "Chat transcript prompt")
+    > ![Chat transcript prompt](media/oc-chat-transcript-prompt-screen.png "Chat transcript prompt")
 
 
 ### See also

@@ -11,7 +11,7 @@ ms.service: "dynamics-365-customerservice"
 
 # View smart assist suggestions for knowledge articles and similar cases using AI
 
-[!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)] 
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)] 
 
 ## Introduction
 
@@ -19,7 +19,7 @@ The AI suggestions are displayed in smart assist, which is an intelligent assist
 
 The AI-suggestions for similar cases and knowledge articles are powered by a set of pre-trained natural language understanding models that help you find relevant knowledge articles or similar cases quickly, based on the context of ongoing conversations that you are handling. Your administrator can enable AI-suggested similar cases and knowledge articles through a single click. These suggestions are displayed in real time based on the conversation context.
 > [!div class=mx-imgBorder]
-> ![AI-based suggestions](../../media/ai-based-suggestions-oc.png "AI-based suggestions")
+> ![AI-based suggestions](media/ai-based-suggestions-oc.png "AI-based suggestions")
 
 If the productivity pane has been enabled for you, then the smart assist cards appear on the productivity pane when you are interacting with a customer in an ongoing conversation. By default, the productivity pane is enabled out of the box.
 
@@ -28,7 +28,7 @@ If the productivity pane has been enabled for you, then the smart assist cards a
 When you are interacting with a customer in an ongoing conversation, up to three top knowledge articles that match the conversation context are displayed in the **Smart assist** pane. The suggestions are dynamically refreshed based on the conversation context.
 
 > [!div class=mx-imgBorder]
-> ![AI-suggested knowledge articles](../../media/ai-suggested-knowledge-articles.png "AI-suggested knowledge articles")
+> ![AI-suggested knowledge articles](media/ai-suggested-knowledge-articles.png "AI-suggested knowledge articles")
 
 The following table lists the explanation of the smart assist card for AI-suggested knowledge articles.
 
@@ -50,7 +50,7 @@ The following table lists the explanation of the smart assist card for AI-sugges
 When you are interacting with a customer in an ongoing conversation, up to three top similar cases that match the conversation context are displayed in the **Smart assist** pane. The suggestions are dynamically refreshed based on the conversation context.
 
 > [!div class=mx-imgBorder]
-> ![AI-suggested similar cases](../../media/ai-suggested-similar-cases.png "AI-suggested similar cases")
+> ![AI-suggested similar cases](media/ai-suggested-similar-cases.png "AI-suggested similar cases")
 
 The following table lists the explanation of the smart assist card for AI-suggested similar cases.
 
