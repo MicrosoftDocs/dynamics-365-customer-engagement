@@ -94,7 +94,7 @@ Add a question to the inspection by double-clicking or dragging-and-dropping a q
 
 - **Barcode scan:** Allows technicians to populate the field with the barcode number by scanning a barcode with their device's camera. Choose "Textbox" question type, then select **Barcode** for input type in the **Advanced** section.
 
-- **Matrix (Dynamic):** Adds a grid of questions. More rows can be added dynamically while performing the inspection. See the following screenshot for an exampl.
+- **Matrix (Dynamic):** Adds a grid of questions. More rows can be added dynamically while performing the inspection. See the following screenshot for an example.
 
 > [!div class="mx-imgBorder"]
 > ![Device render showing an inspection form allowing adding more rows.](./media/inspections-matrix-barcode.png)
