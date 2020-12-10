@@ -106,9 +106,9 @@ Now you can send a test command by using the sample simulator. For example, sele
 
 ## Next steps
 
-1. [Register devices](cfs-register-devices)
-2. [Pull device data](cfs-pull-device-data)
-3. [Visualize device readings](cfs-visualizations-iot-hub)
+1. [Register devices](cfs-register-devices.md)
+2. [Pull device data](cfs-pull-device-data.md)
+3. [Visualize device readings](cfs-visualizations-iot-hub.md)
 
 ## Privacy notice
 [!INCLUDE[cc_privacy_crm_connected_field_service](../includes/cc-privacy-crm-connected-field-service.md)]
