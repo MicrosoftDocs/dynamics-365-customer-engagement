@@ -22,7 +22,7 @@ search.app:
 
 ## Why can't I pull device data?
 
-Sometimes you may see there are no records in a device's data history, or there is no data in the device reported properties after pulling device data.  
+Sometimes after pulling device data, you may see there are no records in a device's data history, or no data in the device reported properties.  
 
 One reason pull device data may fail (especially if you've successfully registered the device) is because the Azure IoT Hub tier is not set to **S1-Standard**. 
 
