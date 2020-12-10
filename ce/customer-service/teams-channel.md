@@ -53,4 +53,4 @@ In Omnichannel for Customer Service, you can:
 
 ### See also
 
-[Configure a Microsoft Teams channel](../../administrator/configure-microsoft-teams.md)
+[Configure a Microsoft Teams channel](configure-microsoft-teams.md)

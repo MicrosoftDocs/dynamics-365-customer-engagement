@@ -148,7 +148,7 @@ Customers must be able to access the following URLs from their browsers to use t
 ### See also
 
 [Introduction](introduction-omnichannel.md)  
-[Administrator guide](administrator/omnichannel-administrator.md)  
-[Agents using Unified Service Desk](agent/agent-usd/omnichannel-agent.md)  
-[Agents using Omnichannel for Customer Service app](agent/agent-oc/omnichannel-customer-service-app-agent.md)  
-[System customizers guide](customizer/omnichannel-customizer.md)  
+[Administrator guide](omnichannel-administrator.md)  
+[Agents using Unified Service Desk](../omnichannel/agent/agent-usd/omnichannel-agent.md)  
+[Agents using Omnichannel for Customer Service app](omnichannel-customer-service-app-agent.md)  
+[System customizers guide](../omnichannel/customizer/omnichannel-customizer.md)  

@@ -104,9 +104,9 @@ For information about the Digital Messaging license, pricing, and prerequisites,
 
 ## Provision channels in your organization
 
-Perform the tasks in [Provision Omnichannel for Customer Service](administrator/omnichannel-provision-license.md) to set up Omnichannel for Customer Service and enable Chat, SMS, and social channels in your organization.
+Perform the tasks in [Provision Omnichannel for Customer Service](omnichannel-provision-license.md) to set up Omnichannel for Customer Service and enable Chat, SMS, and social channels in your organization.
 
-After a channel is enabled in your organization, you can sign in to the Dynamics 365 organization, and select the Omnichannel Administration application to start configuring the channel. More information on configuring channels in Omnichannel for Customer Service: [Configure a chat channel](administrator/set-up-chat-widget.md), [Configure an SMS channel](administrator/configure-sms-channel.md), and [Configure a Facebook channel](administrator/configure-facebook-channel.md).
+After a channel is enabled in your organization, you can sign in to the Dynamics 365 organization, and select the Omnichannel Administration application to start configuring the channel. More information on configuring channels in Omnichannel for Customer Service: [Configure a chat channel](set-up-chat-widget.md), [Configure an SMS channel](configure-sms-channel.md), and [Configure a Facebook channel](configure-facebook-channel.md).
 
 ### Videos
 
@@ -116,7 +116,7 @@ To view more videos on Omnichannel for Customer Service, see [Videos](videos.md)
 
 ### See also
 
-[Provision Omnichannel for Customer Service](administrator/omnichannel-provision-license.md)  
-[Configure a chat channel](administrator/set-up-chat-widget.md)  
-[Configure an SMS channel](administrator/configure-sms-channel.md)  
-[Configure a Facebook channel](administrator/configure-facebook-channel.md)  
+[Provision Omnichannel for Customer Service](omnichannel-provision-license.md)  
+[Configure a chat channel](set-up-chat-widget.md)  
+[Configure an SMS channel](configure-sms-channel.md)  
+[Configure a Facebook channel](configure-facebook-channel.md)  

@@ -147,4 +147,4 @@ You can use the client-side APIs to open knowledge base articles. See [Client AP
 
 [Build a smart assist bot](smart-assist-bot.md)<br />
 [Sample code: Smart Assist for Bots](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/smart-assist-bot)<br />
-[Smart assist for agents](../../administrator/smart-assist.md)
+[Smart assist for agents](smart-assist.md)

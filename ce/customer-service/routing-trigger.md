@@ -117,6 +117,6 @@ Now, based the Flow that is defined, whenever an entity record, say lead, is cre
 > - By default, for all the cases created from user interface, the **Route Case** field is set to **No**. Hence, the routing for these is not triggered.
 > - You can also build a custom flow to automatically trigger routing for cases using any other field per your business scenario, as explained in the above-mentioned section.
 
-## See also
+### See also
 
 [Entity records routing](entity-channel.md)

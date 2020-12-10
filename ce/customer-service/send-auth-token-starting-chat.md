@@ -20,18 +20,18 @@ To authenticate a customer when they initiate a chat, pass an authentication tok
 > The keys of custom context must correspond to context variables that are created for the associated work stream in Omnichannel for Customer Service.<br />
 > The authentication token provider would be invoked by live chat widget when starting a new chat.
 
-The SDKs related to authentication token provider are applicable only if authentication is enabled for the widget. To enable authentication for your widget, see [Create chat authentication settings](../../administrator/create-chat-auth-settings.md).
+The SDKs related to authentication token provider are applicable only if authentication is enabled for the widget. To enable authentication for your widget, see [Create chat authentication settings](create-chat-auth-settings.md).
 
 Follow these steps to send authentication token when starting a chat:
 
-1. Generate a valid JWT token from the JSON payload. More information: [setAuthTokenProvider](../reference/methods/setAuthTokenProvider.md).
+1. Generate a valid JWT token from the JSON payload. More information: [setAuthTokenProvider](developer/reference/methods/setAuthTokenProvider.md).
 2. Listen to the **lcw:ready** event raised by a live chat before calling the live chat SDK methods. The live chat methods should be invoked after the **lcw:ready** event is raised. You can listen for this event by adding your own event listener on the window object.
-3. Once the **lcw:ready** event is raised, register an authentication token provider with live chat by using the [setAuthTokenProvider](../reference/methods/setAuthTokenProvider.md) method.
+3. Once the **lcw:ready** event is raised, register an authentication token provider with live chat by using the [setAuthTokenProvider](developer/reference/methods/setAuthTokenProvider.md) method.
 
 > [!NOTE]
-> To avoid timeout, the [authTokenProvider](../reference/methods/setAuthTokenProvider.md#parameters) function in the [setAuthTokenProvider](../reference/methods/setAuthTokenProvider.md) method must respond within 10 seconds.
+> To avoid timeout, the [authTokenProvider](developer/reference/methods/setAuthTokenProvider.md#parameters) function in the [setAuthTokenProvider](developer/reference/methods/setAuthTokenProvider.md) method must respond within 10 seconds.
 
-4. Use [startChat](../reference/methods/startChat.md) SDK to initiate a chat.
+4. Use [startChat](developer/reference/methods/startChat.md) SDK to initiate a chat.
 
 ## Sample code
 
@@ -78,8 +78,8 @@ window.addEventListener("lcw:error", function handleLivechatErrorEvent(errorEven
 
 ### See also
 
-[setAuthTokenProvider](../reference/methods/setAuthTokenProvider.md)<br />
-[getAuthTokenProvider](../reference/methods/getAuthTokenProvider.md)<br />
-[removeAuthTokenProvider](../reference/methods/removeAuthTokenProvider.md)<br />
-[JavaScript API reference](../omnichannel-reference.md)<br />
+[setAuthTokenProvider](developer/reference/methods/setAuthTokenProvider.md)<br />
+[getAuthTokenProvider](developer/reference/methods/getAuthTokenProvider.md)<br />
+[removeAuthTokenProvider](developer/reference/methods/removeAuthTokenProvider.md)<br />
+[JavaScript API reference](developer/omnichannel-reference.md)<br />
 [Manage custom context](send-context-starting-chat.md)

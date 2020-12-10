@@ -67,4 +67,4 @@ In Omnichannel for Customer Service, you can:
 
 ### See also
 
-[Configure a WhatsApp channel](../../administrator/configure-whatsapp-channel.md)
+[Configure a WhatsApp channel](configure-whatsapp-channel.md)

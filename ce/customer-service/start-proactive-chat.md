@@ -407,8 +407,8 @@ The sample code given below shows how you can proactively offer chat invite to a
 
 ## See also
 
-[startProactiveChat API](../reference/methods/startProactiveChat.md)<br />
+[startProactiveChat API](developer/reference/methods/startProactiveChat.md)<br />
 [Manage custom context](send-context-starting-chat.md)<br />
 [Initiate a chat](initiate-chat-wait-time.md)<br />
 [Display custom context](display-custom-context.md)<br />
-[Live chat JavaScript API reference](../omnichannel-reference.md)
+[Live chat JavaScript API reference](developer/omnichannel-reference.md)

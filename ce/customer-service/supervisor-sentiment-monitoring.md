@@ -23,7 +23,7 @@ Sentiment intensity indicators are displayed based on the previous six customer 
 | Sentiment | Icon |
 |--------------------------|---------------------------------------------------|
 | Very positive | ![Very positive sentiment](media/sentiment-very-positive.png "Very positive sentiment") |
-| Positive | ![Positive sentiment](media//oceh/sentiment-positive.png "Positive sentiment") |
+| Positive | ![Positive sentiment](media/sentiment-positive.png "Positive sentiment") |
 | Slightly positive | ![Slightly positive sentiment](media/sentiment-slightly-positive.png "Slightly positive sentiment") |
 | Neutral | ![Neutral sentiment](media/sentiment-neutral.png "Neutral sentiment") |
 | Slightly negative | ![Slightly negative sentiment](media/sentiment-slightly-negative.png "Slightly negative sentiment") |
@@ -123,11 +123,11 @@ Expect the following system behavior:
 
 ## Requirements
 
-Your environment must have the latest version of Omnichannel for Customer Service. To learn more, see [Upgrade Omnichannel for Customer Service](../administrator/upgrade-omnichannel.md).
+Your environment must have the latest version of Omnichannel for Customer Service. To learn more, see [Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md).
 
 ## Install and configure
 
-After you've signed up, see step 4 of [Enable sentiment analysis](../administrator/enable-sentiment-analysis.md) to configure sentiment analysis.
+After you've signed up, see step 4 of [Enable sentiment analysis](enable-sentiment-analysis.md) to configure sentiment analysis.
 
 ## Policy notice
 
@@ -135,6 +135,6 @@ This feature is intended to help customer service managers or supervisors enhanc
 
 ### See also
 
-[Enable sentiment analysis](../administrator/enable-sentiment-analysis.md)<br>
-[Monitor real-time customer sentiment](../agent/agent-oc/oc-monitor-real-time-customer-sentiment-sessions.md)<br>
+[Enable sentiment analysis](enable-sentiment-analysis.md)<br>
+[Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md)<br>
 [Monitor conversations](monitor-conversations.md)

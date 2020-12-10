@@ -53,4 +53,4 @@ In Omnichannel for Customer Service, you can:
 
 ### See also
 
-[Configure a WeChat channel](../../administrator/configure-wechat-channel.md)
+[Configure a WeChat channel](configure-wechat-channel.md)

@@ -86,6 +86,6 @@ If the agent or supervisor is in a session communicating with a customer, and wh
 |Live work item Id |liveWorkItemId|
 |Channel Id |channelId |
 
-## See also
+### See also
 
 [Best practices to use Omnichannel for Customer Service](best-practices.md)

@@ -16,13 +16,13 @@ When a customer initiates a chat from the portal, you can pass custom context to
 
 The custom context is a collection of key or value pairs. Only primitive values are allowed for any key. The keys of custom context must correspond to context variables that are created for the associated work stream in Omnichannel for Customer Service. If no context variables have been created under live work stream with a matching logical name, variables are created at runtime assuming the type as String. The custom context provider would be invoked by live chat widget when starting a new chat.
 
-For information on context variables that can be configured, see [Context variables](../../administrator/context-variables-for-bot.md).
+For information on context variables that can be configured, see [Context variables](context-variables-for-bot.md).
 
 Use the following steps to send custom context when starting a chat:
 
 1. Listen to the **lcw:ready** event raised by a live chat before calling the live chat SDK methods. The live chat methods should be invoked after the **lcw:ready** event is raised. You can listen for this event by adding your own event listener on the window object.
-2. Once the **lcw:ready** event is raised, register a custom context provider with live chat using the [setContextProvider](../reference/methods/setContextProvider.md) method.
-3. Use [startChat](../reference/methods/startChat.md) SDK to initiate a chat.
+2. Once the **lcw:ready** event is raised, register a custom context provider with live chat using the [setContextProvider](developer/reference/methods/setContextProvider.md) method.
+3. Use [startChat](developer/reference/methods/startChat.md) SDK to initiate a chat.
 
 ## Sample code
 
@@ -52,15 +52,15 @@ window.addEventListener("lcw:error", function handleLivechatErrorEvent(errorEven
 });
 ```
 
-To display the context variables in the Conversation Summary Control for a conversation, make sure that you include `isDisplayable` attribute in the body of [setContextProvider](../reference/methods/setContextProvider.md) method and set its value to `true`. More information: [Display custom context](display-custom-context.md).
+To display the context variables in the Conversation Summary Control for a conversation, make sure that you include `isDisplayable` attribute in the body of [setContextProvider](developer/reference/methods/setContextProvider.md) method and set its value to `true`. More information: [Display custom context](display-custom-context.md).
 
 > [!div class="nextstepaction"]
 > [Next topic: Send authentication token](send-auth-token-starting-chat.md)
 
 ### See also
 
-[setContextProvider](../reference/methods/setContextProvider.md)<br />
-[getContextProvider](../reference/methods/getContextProvider.md)<br />
-[removeContextProvider](../reference/methods/removeContextProvider.md)<br />
-[JavaScript API reference](../omnichannel-reference.md)  
-[Configure context variables for a bot](../../administrator/context-variables-for-bot.md)  
+[setContextProvider](developer/reference/methods/setContextProvider.md)<br />
+[getContextProvider](developer/reference/methods/getContextProvider.md)<br />
+[removeContextProvider](developer/reference/methods/removeContextProvider.md)<br />
+[JavaScript API reference](developer/omnichannel-reference.md)  
+[Configure context variables for a bot](context-variables-for-bot.md)  

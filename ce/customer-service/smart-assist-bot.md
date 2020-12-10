@@ -22,14 +22,14 @@ You need to have an understanding on how to create a bot using [Azure Bot Servic
 
 For setting up a sample for smart assist bot for displaying knowledge article recommendations to the agent, please see the instructions mentioned in the sample [README](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/omnichannel/smart-assist-bot/README.md) file. 
 
-For information on how to create a knowledge article using template, see [Create a knowledge article using a template](../../../customer-service/create-knowledge-article-using-template.md).
+For information on how to create a knowledge article using template, see [Create a knowledge article using a template](create-knowledge-article-using-template.md).
 
 ## Sample bot that displays similar case recommendations
 
 After setting up a sample bot using above steps, you can configure your bot to show similar case recommendations for ‘printer noise’ using the instructions mentioned in the topic [Implement a custom scenario](smart-assist-scenario.md).
 
 > [!IMPORTANT]
-> See this administrator guide topic on how to enable smart assist: [Smart assist for agents](../../administrator/smart-assist.md). It provides instructions on how to create a bot user, how to add a smart assist bot to a workstream and how to enable a productivity pane.
+> See this administrator guide topic on how to enable smart assist: [Smart assist for agents](smart-assist.md). It provides instructions on how to create a bot user, how to add a smart assist bot to a workstream and how to enable a productivity pane.
 
 > [!div class="nextstepaction"]
 > [See Next: Implement a custom scenario for smart assist bot](smart-assist-scenario.md)
@@ -37,9 +37,9 @@ After setting up a sample bot using above steps, you can configure your bot to s
 ## See also
 
 [Sample code: Build a smart assist bot](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/omnichannel/smart-assist-bot)<br />
-[Smart assist for agents](../../administrator/smart-assist.md)<br />
+[Smart assist for agents](smart-assist.md)<br />
 [Create a bot with Azure bot service](/azure/bot-service/abs-quickstart)<br />
-[Automate tasks with macros](../../administrator/macros.md)<br />
-[Integrate an Azure bot](../../administrator/configure-bot.md)<br />
-[Create knowledge article template](../../../customer-service/create-templates-knowledge-article.md)<br />
+[Automate tasks with macros](macros.md)<br />
+[Integrate an Azure bot](configure-bot.md)<br />
+[Create knowledge article template](create-templates-knowledge-article.md)<br />
 [Client API reference for model driven apps](/powerapps/developer/model-driven-apps/clientapi/reference)

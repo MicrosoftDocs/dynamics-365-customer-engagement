@@ -41,7 +41,7 @@ Ensure that relevance search is enabled in your environment. To learn more, see 
 5. In the **Available Entities** box, select **Note**, select **Add >**, and then select **OK**.
 
     > [!div class=mx-imgBorder]
-    > ![Add the Note entity](../media/add-note-entity.png "Add the Note entity")  
+    > ![Add the Note entity](media/add-note-entity.png "Add the Note entity")  
 
 6. Select **Save**.
 
@@ -58,12 +58,12 @@ Ensure that relevance search is enabled in your environment. To learn more, see 
 3. On the **Components** tab, under **ARTIFACTS**, select **Entities**.
 
     > [!div class=mx-imgBorder]
-    > ![Select entities](../media/app-designer-entities.png "Select entities") 
+    > ![Select entities](media/app-designer-entities.png "Select entities") 
 
 4. Type **Note** in the search box, and then select the check box next to **Note** in the search results.
 
     > [!div class=mx-imgBorder]
-    > ![Select Note](../media/select-note.png "Select Note") 
+    > ![Select Note](media/select-note.png "Select Note") 
 
 5. Select **Save**, and then select **Publish**.
 

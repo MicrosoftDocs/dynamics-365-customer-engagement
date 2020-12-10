@@ -118,7 +118,7 @@ If you get any of the errors listed in the table below, work with your administr
 
   - Something went wrong while setting up your workspace—please try again. If this continues, have your administrator contact Microsoft Support with the client session ID.
 
-  - We couldn't set up presences due to missing roles — Ask your administrator to grant you Omnichannel roles. If this continues, have your administrator contact Microsoft Support with the client session ID. To learn more about security roles, see [Assign roles and enable users for Omnichannel for Customer Service](administrator/add-users-assign-roles.md). 
+  - We couldn't set up presences due to missing roles — Ask your administrator to grant you Omnichannel roles. If this continues, have your administrator contact Microsoft Support with the client session ID. To learn more about security roles, see [Assign roles and enable users for Omnichannel for Customer Service](add-users-assign-roles.md). 
 
   - We couldn't get your authentication token — Your Teams subscription has expired, please contact your admin to renew it. If this continues, have your admin contact Microsoft Support with the Client Session ID:{0}. To resolve the issue, follow the steps in [Omnichannel provisioning fails due to expired Teams Service Principal](#omnichannel-provisioning-fails-due-to-expired-teams-service-principal).
 
@@ -133,7 +133,7 @@ Omnichannel solutions are installed in your environment when you receive a new t
 
 ### Resolution
 
-These errors occur because though the solutions are already installed in your environment, they need to be activated before you can start using them. To provision the solutions, perform the steps outlined in [Provision Omnichannel for Customer Service](administrator/omnichannel-provision-license.md).
+These errors occur because though the solutions are already installed in your environment, they need to be activated before you can start using them. To provision the solutions, perform the steps outlined in [Provision Omnichannel for Customer Service](omnichannel-provision-license.md).
 
 ## Entity routing configuration fails
 
@@ -150,7 +150,7 @@ One of issues is that **Entity Records Distribution Flow** connection is not aut
 
 Go to Entity Records Distribution Flow and authenticate the connection.
 
-To resolve the issue, perform steps 1 through 9 in the [Update entity records work distribution flow](administrator/multiple-ws-entity-record-routing.md#step-2-update-entity-records-distribution-flow) topic.
+To resolve the issue, perform steps 1 through 9 in the [Update entity records work distribution flow](multiple-ws-entity-record-routing.md#step-2-update-entity-records-distribution-flow) topic.
 
 ### Issue 2
 
@@ -217,7 +217,7 @@ There may be an issue with customizations in the **Entity Records Distribution F
 
 Go to **Entity Records Distribution Flow** and review your customization made to the flow. 
 
-Review and resolve the error that is due to your customizations. For more information, see [Update entity records work distribution flow](administrator/multiple-ws-entity-record-routing.md#update-entity-records-work-distribution-flow).
+Review and resolve the error that is due to your customizations. For more information, see [Update entity records work distribution flow](multiple-ws-entity-record-routing.md#update-entity-records-work-distribution-flow).
 
 ## Power Virtual Agents bot conversations appear as active on dashboard even after customer has ended chat<a name="pvaendconv"></a>
 
@@ -262,7 +262,7 @@ The routing rule is configured incorrectly or not activated.
 
 ### Resolution
 
-Verify the routing rule set is configured correctly and ensure to activate it. To learn more, see [Create routing rules](administrator/entity-channel.md#step-4-create-routing-rules).
+Verify the routing rule set is configured correctly and ensure to activate it. To learn more, see [Create routing rules](entity-channel.md#step-4-create-routing-rules).
 
 ### Issue 2
 
@@ -270,7 +270,7 @@ The Entity Records Distribution Flow is not updated with latest workstream infor
 
 ### Resolution
 
-If you create or edit (update the name of the workstream) an entity record workstream, you must update Entity records Distribution Flow. To learn more, see [Update entity records distribution flow](administrator/multiple-ws-entity-record-routing.md#step-2-update-entity-records-distribution-flow).
+If you create or edit (update the name of the workstream) an entity record workstream, you must update Entity records Distribution Flow. To learn more, see [Update entity records distribution flow](multiple-ws-entity-record-routing.md#step-2-update-entity-records-distribution-flow).
 
 ### Issue 3
 
@@ -347,7 +347,7 @@ To Update default **Allowed Presence** in the Live Work Stream, follow these ste
 Chat widget does not load on the portal. There are multiple reasons this may happen. This section includes five possible resolutions.
 
 > [!div class="mx-imgBorder"]
-> ![Chat widget portal](./media/chat-portal.png "Chat widget portal view")
+> ![Chat widget portal](media/chat-portal.png "Chat widget portal view")
 
 ### Resolution 1: Location option
 
@@ -381,7 +381,7 @@ To delete and add **Widget location** for the chat widget, do the following:
 Alternatively, try removing the chat widget location.
 
 > [!div class="mx-imgBorder"]
-> ![Remove the chat widget location](./media/chat-portal-location.png "Chat widget location removal")
+> ![Remove the chat widget location](media/chat-portal-location.png "Chat widget location removal")
 
 
 ### Resolution 3: Clear portal cache
@@ -391,7 +391,7 @@ Clear the portal cache by doing the following:
 1. Go to your portal and sign in as a portal administrator.
 
     > [!div class="mx-imgBorder"]
-    > ![Portal administrator sign-in](./media/chat-portal-sign-in-admin.png "Portal administrator sign-in")
+    > ![Portal administrator sign-in](media/chat-portal-sign-in-admin.png "Portal administrator sign-in")
 
 2. Add the following to the end of your portal URL:
 
@@ -404,7 +404,7 @@ Clear the portal cache by doing the following:
 3. Select **Clear cache**.
 
     > [!div class="mx-imgBorder"]
-    > ![Clear the cache](./media/chat-portal-clear-cache.png "Select Clear cache")
+    > ![Clear the cache](media/chat-portal-clear-cache.png "Select Clear cache")
 
 4. Reload the portal.
 
@@ -419,12 +419,12 @@ To sync portal configurations, do the following:
 2. Find and select your portal, and then choose **Edit**.
 
     > [!div class="mx-imgBorder"]
-    > ![Edit the portal](./media/chat-portal-edit.png "Edit the portal")
+    > ![Edit the portal](media/chat-portal-edit.png "Edit the portal")
 
 3. Select **Sync Configuration**.
 
     > [!div class="mx-imgBorder"]
-    > ![Select Sync Configuration](./media/chat-portal-sync-configuration.png "Select Sync Configuration")
+    > ![Select Sync Configuration](media/chat-portal-sync-configuration.png "Select Sync Configuration")
 
 ### Resolution 5: Restart portal
 
@@ -435,12 +435,12 @@ Restart the portal by doing the following:
 2. Select your portal, and then under **Advanced options**, choose **Settings > Administration**. 
 
     > [!div class="mx-imgBorder"]
-    > ![Advanced options settings](./media/chat-portal-administration.png "Advanced options settings")
+    > ![Advanced options settings](media/chat-portal-administration.png "Advanced options settings")
 
 3. Select **Restart**.
 
     > [!div class="mx-imgBorder"]
-    > ![Select Restart to restart the portal](./media/chat-portal-restart.png "Select Restart to restart the portal")
+    > ![Select Restart to restart the portal](media/chat-portal-restart.png "Select Restart to restart the portal")
 
 ## Agents not receiving chat in Omnichannel for Customer Service
 
@@ -506,9 +506,9 @@ The issue might happen due to the following reasons:
 
 Perform the following:
 
-- Contact your administrator to verify Azure Active Directory consent is given to the Omnichannel for Customer Service application on your tenant. Go to [Authorize access](https://go.microsoft.com/fwlink/p/?linkid=2070932) to get access. To learn more, see [Provide data access consent](administrator/omnichannel-provision-license.md#provide-data-access-consent).
-- Ensure the agent account has the role **Omnichannel Agent**. For more information about the relevant roles, see [Understand roles and their privileges](administrator/add-users-assign-roles.md#understand-roles-and-their-privileges). 
-- Ensure the agent account is assigned to at least one queue in the Omnichannel Administration app. To learn more, see [Manage users in Omnichannel for Customer Service](administrator/users-user-profiles.md).
+- Contact your administrator to verify Azure Active Directory consent is given to the Omnichannel for Customer Service application on your tenant. Go to [Authorize access](https://go.microsoft.com/fwlink/p/?linkid=2070932) to get access. To learn more, see [Provide data access consent](omnichannel-provision-license.md#provide-data-access-consent).
+- Ensure the agent account has the role **Omnichannel Agent**. For more information about the relevant roles, see [Understand roles and their privileges](add-users-assign-roles.md#understand-roles-and-their-privileges). 
+- Ensure the agent account is assigned to at least one queue in the Omnichannel Administration app. To learn more, see [Manage users in Omnichannel for Customer Service](users-user-profiles.md).
 
 ## An error occurred in the communication panel
 
@@ -519,7 +519,7 @@ After you sign in to the Unified Service Desk client application, you see the fo
 **An error occurred in the Communication panel. Restart Unified Service Desk and try again. (Error Code - AAD_ID_MISMATCH - Azure ADID mismatched with logged-in user id)**
 
    > [!div class=mx-imgBorder]
-   > ![Unified Service Desk application error](media/usd-communication-panel-error.png "Unified Service Desk application error")
+   > ![Unified Service Desk application error](../omnichannel/media/oceh/usd-communication-panel-error.png "Unified Service Desk application error")
 
 While signing in to Unified Service Desk you must enter the Customer Service app credentials and sign in, and again, you are shown a dialog to enter credentials to connect to Dataverse server.
 When you enter different credentials, this issue occurs. 
@@ -582,9 +582,9 @@ The issue might happen due to the following reasons:
 Perform the following:
 
 - Ensure that cookies are not blocked in the browser in any mode so that agent and supervisor presence can work properly.
-- Contact your administrator to verify Azure Active Directory consent is given to the Omnichannel for Customer Service application on your tenant. Go to [Authorize access](https://go.microsoft.com/fwlink/p/?linkid=2070932) to get access. For more information, see [Provision for Omnichannel for Customer Service](administrator/omnichannel-provision-license.md). 
-- Ensure the agent account has the **Omnichannel Agent** role assigned. For more information, see [Assign roles and enable users for Omnichannel](administrator/add-users-assign-roles.md).
-- Ensure the agent account has values set for **Capacity** and **Default presence** within the Omnichannel Administration app. To learn more, see [Create and manage users and user profiles](administrator/users-user-profiles.md).
+- Contact your administrator to verify Azure Active Directory consent is given to the Omnichannel for Customer Service application on your tenant. Go to [Authorize access](https://go.microsoft.com/fwlink/p/?linkid=2070932) to get access. For more information, see [Provision for Omnichannel for Customer Service](omnichannel-provision-license.md). 
+- Ensure the agent account has the **Omnichannel Agent** role assigned. For more information, see [Assign roles and enable users for Omnichannel](add-users-assign-roles.md).
+- Ensure the agent account has values set for **Capacity** and **Default presence** within the Omnichannel Administration app. To learn more, see [Create and manage users and user profiles](users-user-profiles.md).
 
 
 ## Pre-imported Unified Service Desk configurations in Customer Service organization
@@ -596,7 +596,7 @@ Dynamics 365 Customer Service organization that you create from **demos.microsof
 If you import the Unified Service Desk - Omnichannel for Customer Service package without deleting the existing configuration in the new demo org, you see an error after signing in to Unified Service Desk client application. The reason for the issue is multiple sample Unified Service Desk configurations cannot exist in a Customer Service instance.
 
    > [!div class=mx-imgBorder]
-   > ![The hosted application couldn't be created](media/usd-client-error.png "The hosted application couldn't be created")
+   > ![The hosted application couldn't be created](../omnichannel/media/oceh/usd-client-error.png "The hosted application couldn't be created")
 
 ### Resolution
 
@@ -637,11 +637,11 @@ When you sign in to Unified Service Desk, you see the following error.
 **APPLICATION_HOST_ERR_NO_CONFIGURED_APPS: applications are configured for your use.**
 
    > [!div class=mx-imgBorder]
-   > ![Unified Service Desk application configuration error](media/usd-application-host-error.png "Unified Service Desk application configuration error")
+   > ![Unified Service Desk application configuration error](../omnichannel/media/oceh/usd-application-host-error.png "Unified Service Desk application configuration error")
 
 The issue is due to the package deployment failure.
 
 ### Resolution
 
-You must the deploy the Unified Service Desk - Omnichannel for Customer Service package again. To learn more, see [Deploy Unified Service Desk – Omnichannel for Customer Service package](administrator/omnichannel-customer-service-package.md#deploy-unified-service-desk---omnichannel-for-customer-service-package).
+You must the deploy the Unified Service Desk - Omnichannel for Customer Service package again. To learn more, see [Deploy Unified Service Desk – Omnichannel for Customer Service package](omnichannel-customer-service-package.md#deploy-unified-service-desk---omnichannel-for-customer-service-package).
 
