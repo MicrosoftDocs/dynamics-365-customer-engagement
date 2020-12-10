@@ -73,11 +73,10 @@ Within your offline profile you can:
 Make a copy of the **Field Service Mobile - Offline Profile**. 
 
 > [!Note]
-> The **Field Service Mobile - Offline Profile** is often updated when the Field Service app is updated. If you edit the default offline profile then you will not receive updates. This is why it is recommmended to make a copy of the default offline profile instead. 
+> The **Field Service Mobile - Offline Profile** is often updated when the Field Service app is updated. If you edit the default offline profile, then you will not receive updates. Updates are why we recommmend making a copy of the default offline profile instead. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-2020-offline-profile-copy.png)
-
+> ![Screenshot of the Power Platform admin center showing the copy option for the Field Service Mobile - Offline profile.](./media/mobile-2020-offline-profile-copy.png)
 
 Add the users who need to work offline in the right **People with offline access** panel. Users must be added here in order to download data offline.
 
