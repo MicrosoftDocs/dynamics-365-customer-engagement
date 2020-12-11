@@ -1,18 +1,14 @@
 ---
 title: "Analyze marketing results and gain insights (Dynamics 365 Marketing) | Microsoft Docs"
-description: "How to find and interpret marketing results, KPIs, and analytics in Dynamics 365 Marketing"
-keywords: insights;results;KPIs;analytics
+description: "How to find and interpret marketing results, KPIs, and analytics in Dynamics 365 Marketing."
 ms.date: 08/19/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-ms.assetid: 2f5016aa-540a-4366-94a3-205d985c8da9
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: 
 search.audienceType: 
   - admin
   - customizer

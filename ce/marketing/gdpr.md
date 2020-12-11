@@ -1,18 +1,14 @@
 ---
 title: "Work with data protection and GDPR (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Protect customer privacy and remain compliant with GDPR regulations with Dynamics 365 Marketing"
-keywords: GDPR; data protection; privacy
+description: "Protect customer privacy and remain compliant with GDPR regulations with Dynamics 365 Marketing."
 ms.date: 11/09/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
-ms.topic: article
-ms.assetid: dbc6f586-d4ba-4cdb-aa93-c1f92d61b262
+ms.topic: reference
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: 
 search.audienceType: 
   - admin
   - customizer
@@ -224,7 +220,7 @@ Part of the GDPR regulations is a requirement that your organization takes steps
 - **Marketing insights:** Marketing insights can include details such as website browsing records, form submissions, event attendance, and more.  Some, but not necessarily all, users that have access to contact records may be granted access to view this information. You can control this access by assigning security groups at the form level.
 - **Fields with especially sensitive information:** Your contact records may include data fields with especially sensitive information, such as financial, medical, or political affiliation details. Some, but not necessarily all, users that have access to contact records may be granted access to view this information. You can control this access by assigning security groups at the field level.
 
-For more information about how to work with the security groups and other security features in Dynamics 365, see [Security in Common Data Service](https://docs.microsoft.com/power-platform/admin/wp-security).
+For more information about how to work with the security groups and other security features in Dynamics 365, see [Security in Microsoft Dataverse](https://docs.microsoft.com/power-platform/admin/wp-security).
 
 ## Demonstrate GDPR compliance
 

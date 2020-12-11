@@ -1,17 +1,14 @@
 ---
 title: "Create an SPF TXT record (Dynamics 365 Marketing) | Microsoft Docs"
-description: "How to create an SPF TXT record to authorize sending IPs in Dynamics 365 Marketing"
+description: "How to create an SPF TXT record to authorize sending IPs in Dynamics 365 Marketing."
 ms.date: 10/28/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-ms.assetid: d6e63962-e06a-4bc2-90d2-e7bca4e12d61
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: 
 search.audienceType: 
   - admin
   - customizer

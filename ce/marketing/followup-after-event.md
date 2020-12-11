@@ -1,17 +1,14 @@
 ---
-title: "Evaluate your event and follow up with attendees (Dynamics 365 Marketing) | Microsoft Docs  "
-description: "Learn what you can do to optimize the benefits gained from your event by collecting feedback, analyzing attendance data, and handing leads off to sales from Dynamics 365 Marketing"
-keywords: events; event management; survey; attendance
+title: "Evaluate your event and follow up with attendees (Dynamics 365 Marketing) | Microsoft Docs"
+description: "Learn what you can do to optimize the benefits gained from your event by collecting feedback, analyzing attendance data, and handing leads off to sales from Dynamics 365 Marketing."
 ms.date: 12/17/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-ms.assetid: ebd5f931-44f3-409b-836a-1c00dd17883a
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
 search.audienceType: 
   - admin
   - customizer

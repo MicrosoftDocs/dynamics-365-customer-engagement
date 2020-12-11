@@ -23,6 +23,8 @@ search.app:
 
 # The marketing analytics reporting framework (generic template)
 
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 Designed for the data analyst who's fluent in Power BI report building, the marketing analytics reporting framework provides an important foundation that includes the M-Code, queries, functions, data connectors, and parameter processing that are at the core of every marketing analytics report.
 
 Use the following links to download a template for running the report on your own organization and a sample report filled with sample data.
@@ -46,7 +48,7 @@ You can connect to your data with ease. When you open a template file, the frame
 
 ## The meta-model browser
 
-You can use the meta-model browser to discover profile and interaction types. Each report comes with a set of hidden report pages that can help you browse through the available types of profiles in your organization in Common Data Service, and all the interaction types that are referenced in the marketing model. You can select interaction types and study the attributes that you'll be able to use for analytics reporting.
+You can use the meta-model browser to discover profile and interaction types. Each report comes with a set of hidden report pages that can help you browse through the available types of profiles in your organization in Microsoft Dataverse, and all the interaction types that are referenced in the marketing model. You can select interaction types and study the attributes that you'll be able to use for analytics reporting.
 
 ![Meta-model browser](media/Framework/Framework-MetaBrowser.png "Two pages opened in the meta-model browser")
 

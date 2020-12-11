@@ -1,19 +1,15 @@
 ---
 title: "Recurring activity bulk deletion (Dynamics 365 Marketing) | Microsoft Docs"
 description: "For administrators: Recurring bulk deletion system jobs for Dynamics 365 Marketing."
-keywords: administration; marketing activity data
 ms.date: 10/28/2020
 ms.service: dynamics-365-marketing
 ms.custom:
   - dyn365-admin
   - dyn365-marketing
 ms.topic: article
-ms.assetid: 9aad261a-91bb-42e6-b00b-bf0dcd5a6693
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: 
 search.audienceType:
   - admin
   - customizer
@@ -29,7 +25,7 @@ search.app:
 
 The **Marketing Activity** entity (msdyncrm_mktactivity) is used by Marketing Services to send system updates. Each activity is processed by the Marketing data plugin (Microsoft.Dynamics.Crm.MarketingPlugins.Plugins.Data), which then executes the designated action.
 
-Activities are used across the entire Marketing app. The number and frequency of activities depend on the scale and patterns of usage of your Dynamics 365 Marketing implementation. After an activity is successfully executed, it is stored in CDS, which, over time, can increase the database size.
+Activities are used across the entire Marketing app. The number and frequency of activities depend on the scale and patterns of usage of your Dynamics 365 Marketing implementation. After an activity is successfully executed, it is stored in Microsoft Dataverse, which, over time, can increase the database size.
 
 ## How are marketing activities automatically cleared?
 

@@ -1,19 +1,15 @@
 ---
 title: "Set up artificial intelligence features (Dynamics 365 Marketing) | Microsoft Docs"
-description: "How to enable artificial intelligence features and make related privacy settings in Dynamics 365 Marketing"
-keywords:
+description: "How to enable artificial intelligence features and make related privacy settings in Dynamics 365 Marketing."
 ms.date: 06/16/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing
 ms.topic: article
-ms.assetid: 34da685e-94c6-46bf-8b5e-a9cddc01bbba
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status:
 search.audienceType: 
   - admin
   - customizer

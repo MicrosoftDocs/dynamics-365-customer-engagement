@@ -1,17 +1,14 @@
 ---
 title: "Design elements reference (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Details for how to use each design element that is available for the design tool in Dynamics 365 Marketing"
+description: "Details for how to use each design element that is available for the design tool in Dynamics 365 Marketing."
 ms.date: 10/04/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: reference
-ms.assetid: d1975d36-2383-4b88-ab84-e66930ec2dd0
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer

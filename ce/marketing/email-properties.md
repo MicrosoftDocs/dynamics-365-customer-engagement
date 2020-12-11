@@ -1,17 +1,14 @@
 ---
-title: "Set email options on the Summary tab for sender, receiver, language, and designation (Dynamics 365 Marketing) | Microsoft Docs "
-description: "Learn how to use the email settings provided on the Summary tab, including to and from options, language, and the legal designation in Dynamics 365 Marketing"
+title: "Set email options on the Summary tab for sender, receiver, language, and designation (Dynamics 365 Marketing) | Microsoft Docs"
+description: "Learn how to use the email settings provided on the Summary tab, including to and from options, language, and the legal designation in Dynamics 365 Marketing."
 ms.date: 10/04/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-ms.assetid: 168673ac-d3d5-44f7-a664-8b8c47cb5a1d
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer

@@ -1,10 +1,21 @@
 ---
-title: Sales learning catalog
-description: Find all the training options for sales.
-author: loreleishannonmsft
-ms.topic: article
+title: "Sales learning catalog (Dynamics 365 Marketing) | Microsoft Docs"
+description: "Find all the training options for sales."
 ms.date: 01/08/2020
+ms.service: dynamics-365-marketing
+ms.custom: 
+  - dyn365-marketing
+ms.topic: hub-page
+author: loreleishannonmsft
 ms.author: v-lshann
+manager: margoc
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Mktg
 ---
 
 # Sales Learning Catalog

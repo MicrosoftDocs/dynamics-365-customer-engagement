@@ -1,17 +1,14 @@
 ---
-title: "Set and use waitlists for events (Dynamics 365 Marketing) | Microsoft Docs "
-description: "Describes how event waitlists work, how to set them up, and how to invite waiting people when capacity becomes available in  Dynamics 365 Marketing"
-keywords: events; waitlist
+title: "Set and use waitlists for events (Dynamics 365 Marketing) | Microsoft Docs"
+description: "Describes how event waitlists work, how to set them up, and how to invite waiting people when capacity becomes available in  Dynamics 365 Marketing."
 ms.date: 01/24/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-ms.assetid: 4aa6d5c3-1b29-46b1-bbf3-9bf260853b20
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
 search.audienceType: 
   - admin
   - customizer

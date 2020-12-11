@@ -91,7 +91,7 @@ The Dynamics 365 Marketing December 2020 update includes improvements to event r
     - Fixed an error that prevented users from making form field labels bold for newly added form fields.
     - Resolved an error that allowed multiple live form captures for the same form.
 - **Segmentation**
-    - Fixed an issue where segments updated to an "Expired" status in CDS remained "Active" in the backend.
+    - Fixed an issue where segments updated to an "Expired" status in Microsoft Dataverse remained "Active" in the backend.
     - Resolved a segment query error caused when joining an Opportunity and Account.
 - **Shared UX**
     - Resolved an issue that caused an error when creating new calendar appointments in Safari.

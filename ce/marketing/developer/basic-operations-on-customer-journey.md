@@ -28,7 +28,7 @@ Use customer journeys to create a model that helps you guide the members of a se
 
 The Customer Journey API enables programmatic interaction with customer journey records including publishing and validation.
 
-The API uses the standard Common Data Service Web API for manipulating entities or messages. More information: [Common Data Service Web API](/powerapps/developer/common-data-service/webapi/overview).
+The API uses the standard Microsoft Dataverse Web API for manipulating entities or messages. More information: [Use the Microsoft Dataverse Web API](/powerapps/developer/common-data-service/webapi/overview).
 
 When you create a customer journey, the properties will be stored in the `msdyncrm_customerjourney` entity. You can browse the entity metadata information using `@odata.context`in the `GET` response.
 

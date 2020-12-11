@@ -1,18 +1,14 @@
 ---
 title: "Create a marketing email (Dynamics 365 Marketing) | Microsoft Docs"
-description: "A tutorial for how to create a marketing email in Dynamics 365 Marketing"
-keywords: tutorial; email; marketing email; assist edit; dynamic content
+description: "A tutorial for how to create a marketing email in Dynamics 365 Marketing."
 ms.date: 05/07/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
-ms.topic: get-started-article
-ms.assetid: f19d8015-50ab-4286-af03-dd24ced39308
+ms.topic: article
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer

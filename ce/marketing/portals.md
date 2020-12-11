@@ -1,18 +1,14 @@
 ---
-title: "Create interactive webpages, and an events website with or without a Dynamics 365 Portal (Dynamics 365 Marketing) | Microsoft Docs "
-description: "How to create portals, interactive webpages, and an events website with or without portals with Dynamics 365 Marketing"
-keywords: portal; website; page; marketing page; event website
+title: "Create interactive webpages, and an events website with or without a Dynamics 365 Portal (Dynamics 365 Marketing) | Microsoft Docs"
+description: "How to create portals, interactive webpages, and an events website with or without portals with Dynamics 365 Marketing."
 ms.date: 04/01/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-ms.assetid: 465341c8-19fd-4da8-87aa-980c5ba10e26
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer

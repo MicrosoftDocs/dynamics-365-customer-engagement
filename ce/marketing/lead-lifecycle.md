@@ -1,18 +1,14 @@
 ---
 title: "The lead lifecycle (Dynamics 365 Marketing) | Microsoft Docs"
-description: "How leads are created, scored, and closed in Dynamics 365 Marketing"
-keywords: events; event management
+description: "How leads are created, scored, and closed in Dynamics 365 Marketing."
 ms.date: 10/16/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-ms.assetid: 825cd73d-9b75-479d-8e0a-182c41a6fdd6
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer

@@ -1,18 +1,14 @@
 ---
-title: "Overview (Dynamics 365 Marketing)"
-description: "Get a quick overview of the major capabilities, features, and benefits of Dynamics 365 Marketing"
-keywords: features; benefits; overview
+title: "Overview (Dynamics 365 Marketing) | Microsoft Docs"
+description: "Get a quick overview of the major capabilities, features, and benefits of Dynamics 365 Marketing."
 ms.date: 11/24/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
-ms.topic: get-started-article
-ms.assetid: 37dcb64c-e825-4242-a1bd-4bc40f512e93
+ms.topic: overview
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status:
 search.audienceType: 
   - admin
   - customizer
