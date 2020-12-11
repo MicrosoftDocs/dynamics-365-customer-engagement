@@ -150,7 +150,7 @@ Each of these types of elements creates a colorful button in a new row (outside 
 Use the **Properties** tab to establish the appearance of your new or selected button, and to choose the page, event, or survey it links to.
 
 > [!NOTE]
-> Surveys are optional. If your system admin decided not to include Voice of the Customer as part of your Dynamics 365 Marketing installation, then the survey element will be shown as unavailable (greyed out) in your **Toolbox**. Contact your system admin if you want to enable it.
+> Surveys are optional. If your system admin decided not to include Customer Voice as part of your Dynamics 365 Marketing installation, then the survey element will be shown as unavailable (greyed out) in your **Toolbox**. Contact your system admin if you want to enable it.
 
 [!INCLUDE [cc-marketing-surveys-disclaimer](../includes/cc-marketing-surveys-disclaimer.md)]
 

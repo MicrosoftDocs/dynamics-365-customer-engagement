@@ -1,13 +1,13 @@
 ---
 title: "Developers learning catalog (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Find all the training options for developers."
+description: "Find all the training options for Dynamics 365 Marketing developers."
 ms.date: 01/08/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: hub-page
-author: loreleishannonmsft
-ms.author: v-lshann
+author: alfergus
+ms.author: alfergus
 manager: margoc
 search.audienceType: 
   - admin
@@ -18,7 +18,7 @@ search.app:
   - D365Mktg
 ---
 
-# Developers Learning Catalog
+# Dynamics 365 Marketing developers learning catalog
 
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
@@ -40,4 +40,4 @@ The following catalog is organized from core knowledge to specific domains, and 
 ## Exam
 | Content   | Description   | Format   | Length    |
 |-------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------|-----------|
-| [Exam MB-400: Microsoft Power Apps + Dynamics 365 Developer](https://docs.microsoft.com/learn/certifications/exams/mb-400) | Take this exam if you are a developer who works with Microsoft Power Apps model-driven apps in Dynamics 365 to design, develop, secure, and extend a Dynamics 365 implementation.  | Exam, cost varies by region |  |
+| [Exam MB-400: Microsoft Power Apps + Dynamics 365 developer](https://docs.microsoft.com/learn/certifications/exams/mb-400) | Take this exam if you are a developer who works with Microsoft Power Apps model-driven apps in Dynamics 365 to design, develop, secure, and extend a Dynamics 365 implementation.  | Exam, cost varies by region |  |

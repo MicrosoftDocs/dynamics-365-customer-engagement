@@ -122,7 +122,7 @@ Use the **Additional information** tab to set up your event team and record gene
 
 Here you can [view and create online surveys](surveys.md) related to your event. You'd typically use these surveys to collect attendee opinions about how the event went. A second table provides links to individual survey responses.
 
-Surveys are provided by the [Voice of the Customer](../voice-of-customer/help-hub.md) feature.
+Surveys are provided by the [Customer Voice](../customer-voice/help-hub.md) feature.
 
 ### The Room reservations tab
 

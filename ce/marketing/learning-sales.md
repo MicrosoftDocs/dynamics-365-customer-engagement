@@ -1,13 +1,13 @@
 ---
 title: "Sales learning catalog (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Find all the training options for sales."
+description: "Find all the training options for Dynamics 365 Marketing sales."
 ms.date: 01/08/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: hub-page
-author: loreleishannonmsft
-ms.author: v-lshann
+author: alfergus
+ms.author: alfergus
 manager: margoc
 search.audienceType: 
   - admin
@@ -18,7 +18,7 @@ search.app:
   - D365Mktg
 ---
 
-# Sales Learning Catalog
+# Dynamics 365 Marketing sales learning catalog
 
 Are you responsible for helping your customers buy the right solution? 
 
@@ -27,4 +27,4 @@ The following catalog is organized from core knowledge to specific domains, and 
 ## Getting started<a name="get-started"></a> 
 | Content                                                                                                    | Description                                                                                                                                                                                                                   | Format                                | Length    |
 |----------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------|
-| [Dynamics 365 and Power Platform Fundamentals](https://docs.microsoft.com/learn/paths/dyn-power-plat-bus-app-fundamentals/) | Are you interested in learning about business applications? Start with this learning path to see how Dynamics 365 apps are used. Learn about cloud concepts, Power Platform, and how to get started with Dynamics 365 apps.   | Free, self-paced | 5 hr 36 min |
+| [Dynamics 365 and Power Platform fundamentals](https://docs.microsoft.com/learn/paths/dyn-power-plat-bus-app-fundamentals/) | Are you interested in learning about business applications? Start with this learning path to see how Dynamics 365 apps are used. Learn about cloud concepts, Power Platform, and how to get started with Dynamics 365 apps.   | Free, self-paced | 5 hr 36 min |

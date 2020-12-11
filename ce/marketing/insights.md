@@ -131,7 +131,7 @@ Legend:
 1. **Stopped**: Shows the number of contacts that were stopped from continuing the journey at this tile. There are two main reasons that a contact might get stopped: they got added to the journey's suppression segment, or they lowered their consent level below the minimum threshold set for the journey.
 1. **Marketing page**: Shows a marketing page dependency.
 1. **Event**: Shows an event dependency.
-1. **Voice of the Customer survey**: Shows a Voice of the Customer survey dependency.
+1. **Customer Voice survey**: Shows a Customer Voice survey dependency.
 1. **Dynamics 365 Customer Voice survey**: Shows a Dynamics 365 Customer Voice survey dependency.
 1. **Marketing form**: Shows a marketing form dependency.
 

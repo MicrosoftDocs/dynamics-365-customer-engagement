@@ -189,7 +189,7 @@ The surveys package adds the following security roles:
 - Survey Feedback Publisher
 - Survey Service
 - Survey User
-- Voice of the Customer app access role
+- Customer Voice app access role
 
 ## Don't modify or remove the Marketing service user
 
