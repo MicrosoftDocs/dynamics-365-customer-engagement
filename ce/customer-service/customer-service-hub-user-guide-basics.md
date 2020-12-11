@@ -13,23 +13,6 @@ ms.service: "dynamics-365-customerservice"
 
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
-  
-The Customer Service Hub's intuitive interface brings together vital information in one place, so you can focus on the things that matter.  
-
-## Customer Service Hub application requirements  
- Here's a list of browsers and mobile versions that are supported by the Customer Service Hub:  
-  
-- **Browsers** 
-    - Google Chrome
-    - Microsoft Edge (supported on Windows 10)
-    - Apple Safari 11
-    - Internet Explorer 11
-
-- **Mobile**
-    - iOS 10 - Tablet & Phone
-    - Android - Tablet + Phone (Android 6 and 7)
-    - Windows 10
-
 ## Open the Customer Service Hub
 
 The Customer Service Hub app is available to use on a desktop browser and on a mobile device for managing knowledge articles and case management. You can open the Customer Service Hub in one the following ways:  
