@@ -77,7 +77,7 @@ To edit and configure a section element:
 1. Select the section element on the canvas. It now displays a blue border and tabs showing the element type and buttons for deleting or moving the element.
 1. The **Properties** panel opens to show the settings for your selected section.
 
-    ![Add a section element to your design](media/email-layout-edit.png "Add a section element to your design")
+    ![Screenshot of the Properties panel](media/email-layout-edit.png "Screenshot of the Properties panel")
 
 1. Make settings in the following sections as needed:
 

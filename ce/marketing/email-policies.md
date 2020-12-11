@@ -21,7 +21,7 @@ search.app:
 
 # Email policies and suspension standards
 
-To preserve your reputation as a sender, Dynamics 365 Marketing has developed a deliverability protection system that detects excessive hard bounces, spam reports, blacklisting, or abuse complaints. This system protects our entire customer base. If email criteria are violated, accounts can be placed under review or terminated. 
+To preserve your reputation as a sender, Dynamics 365 Marketing has developed a deliverability protection system that detects excessive hard bounces, spam reports, blocklisting, or abuse complaints. This system protects our entire customer base. If email criteria are violated, accounts can be placed under review or terminated. 
 
 ## Stages of review
 

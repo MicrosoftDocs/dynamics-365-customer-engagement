@@ -31,7 +31,7 @@ The third way of publishing a marketing page is to place a [native marketing for
 
 The following table summarizes the capabilities available with each of these approaches.
 
-|   | Embedded marketing form | Captured external form | Native marketing page |
+| Capability  | Embedded marketing form | Captured external form | Native marketing page |
 | --- | --- | --- | --- |
 | Form design | Dynamics 365 Marketing | External/CMS | Dynamics 365 Marketing |
 | Page design and publishing | External/CMS | External/CMS | Dynamics 365 Marketing |

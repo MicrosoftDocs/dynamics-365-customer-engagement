@@ -76,7 +76,7 @@ In the following screenshot, you can see a tile view of marketing-page templates
 
 The following screenshot shows the same collection of marketing-page templates, but with **Show as** set to **Grid**. In this example, the labels are shown in the **Tag** column.
 
-![Template gallery with labels in tile view](media/template-label-list.png "Template gallery with labels in tile view")
+![Template gallery with labels in grid view](media/template-label-list.png "Template gallery with labels in grid view")
 
 ### Set the label for each template
 
