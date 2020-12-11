@@ -26,6 +26,7 @@
 ### [Use Customer Service Team Member](customer-service-team-member.md)
 ### [Get started with Customer Service workspace](csw-overview.md)
 ### [Get started with Omnichannel for Customer Service](introduction-omnichannel.md)
+### [Administer]
 #### [Try channels in Omnichannel for Customer Service](try-channels.md)
 #### [Demo data for Chat for Dynamics 365 Customer Service](chat-dynamics365-customer-service-demo-data.md)
 #### [Quickly configure a chat widget](configure-live-chat.md)
@@ -36,8 +37,45 @@
 ### [Resolve, cancel, and reassign cases](customer-service-hub-user-guide-resolve-cancel-reassign-a-case.md)
 ### [Merge cases](customer-service-hub-user-guide-merge-cases.md)
 ### [Convert a case to a knowledge article](customer-service-hub-user-guide-convert-case-to-knowledge-article.md)
+### [View AI suggested similar cases and knowledge articles](csw-view-ai-suggested-cases-knowledge-articles.md)
+### Customize your solution
+#### [Modify case resolution dialog box](customer-service-hub-user-guide-modify-case-resolution-dialog.md)
+### Troubleshoot, faqs
+### [Issue converting an email to a case](troubleshoot-case-email-issue.md)
+#### [FAQs on AI suggestions for cases and knowledge articles](csw-faqs-ai-suggestions.md)
+
+## Service management
+### [Define service-level agreements](define-service-level-agreements.md)
+### [Enable entities for service level agreements](enable-entities-service-level-agreements.md)
+### [Create entitlements to define support terms](create-entitlement-define-support-terms-customer.md)
+### [Manage service configuration settings](../admin/system-settings-dialog-box-service-tab.md)
+### Manage service schedules
+#### [Create customer service schedule](create-customer-service-schedule-define-work-hours.md)
+#### [Create and manage holiday schedule](set-up-holiday-schedule.md)
+### Customize your solution
+#### [Add timer control to forms](add-timer-control-case-form-track-time-against-sla.md)
+#### [Add a timer in forms to track time against enhanced SLAs](add-timer-forms-track-time-against-enhanced-sla.md)
 
 
+## Knowledge management
+### [Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)
+### [Search for knowledge articles](search-knowledge-articles-csh)
+### [Create knowledge article templates in Power Apps](/power-platform/admin/create-templates-articles.md)
+### [Create knowledge article templates in Customer Service](create-templates-knowledge-article.md)
+### [Configure knowledge management](set-up-knowledge-management-embedded-knowledge-search.md)
+### [Create and manage knowledge categories](create-manage-categories.md)
+### [Set up knowledge search providers](set-up-search-providers.md)
+### [Add the knowledge base search control to forms](add-knowledge-base-search-control-forms.md)
+### [Knowledge base search mechanisms](knowledge-base-search-methods.md)
+### [Work with knowledge articles](work-knowledge-articles.md)
+### [Create a knowledge article using a template](create-knowledge-article-using-template.md)
+### [Extend transformer logic on templates](extend-transformer-logic-template.md)
+### [Share knowledge articles in Omnichannel for Customer Service](knowledge-management-oc.md)
+### [Search for and share knowledge articles](oc-search-knowledge-articles.md)
+
+
+
+<!-->
 ## [Overview](overview.md)
 ## [What's new](whats-new-customer-service.md)
 ## [Deprecations in Customer Service](deprecations-customer-service.md)
@@ -57,7 +95,7 @@
 #### [Introduction to Customer Service workspace](csw-overview.md)
 #### [Customer Service workspace system requirements](customer-service-workspace-system-requirements.md)
 #### [Overview of productivity pane](csw-productivity-pane.md)
-#### [View AI suggested similar cases and knowledge articles](csw-view-ai-suggested-cases-knowledge-articles.md)
+
 #### [Search knowledge articles in productivity pane](csw-search-knowledge-articles.md)
 
 ### Customer Service Hub
@@ -247,7 +285,7 @@
 ### [Migration tool FAQs](migrate-tool-faqs.md)
 
 ## Troubleshoot
-### [Issue converting an email to a case](troubleshoot-case-email-issue.md)
+
 ### [SLA timer does not pause when its state is changed from InProgress to OnHold on a holiday](troubleshoot-sla-timer-issue.md)
 ### [Unable to delete a managed solution consisting an SLA enabled entity](troubleshoot-delete-managed-solution.md)
 ### FAQs

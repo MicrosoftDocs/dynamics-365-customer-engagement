@@ -1,6 +1,6 @@
 ---
 title: "Omnichannel for Customer Service for administrators | MicrosoftDocs"
-description: 
+description: "Use administration app for configuring Omnichannel for Customer Service"
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -18,7 +18,7 @@ Omnichannel for Customer Service is a customizable application you can effective
 
 1. Provision the Omnichannel for Customer Service app. Follow the steps given in [Provision Omnichannel for Customer Service](omnichannel-provision-license.md) to set up and enable the Omnichannel for Customer Service app in your instance.
 
-2. Once the app is enabled, go to the apps page, navigate to the app switcher and then select **Omnichannel Administration**.
+2. After the app is enabled, go to the apps page, navigate to the app switcher and then select **Omnichannel Administration**.
 
     > [!div class=mx-imgBorder] 
     > ![App switcher](media/app-switcher-oc.png)

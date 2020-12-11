@@ -13,23 +13,17 @@ ms.service: dynamics-365-customerservice
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-Quickly configure and add a chat widget to your portal to chat with your website visitors. To configure a chat widget and embed it in portal, you must:
-
-- [Quickly configure a chat widget](#quickly-configure-a-chat-widget)
-  - [Step 1: Create a live chat work stream](#step-1-create-a-live-chat-work-stream)
-  - [Step 2: Configure a chat widget](#step-2-configure-a-chat-widget)
-  - [Step 3: Embed chat widget in portal](#step-3-embed-chat-widget-in-portal)
-    - [See also](#see-also)
+Use the Omnichannel Administration app to quickly configure and add a chat widget to your portal to chat with your website visitors. To configure a chat widget and embed it in portal, you must:
 
 ## Step 1: Create a live chat work stream
 
-1. In the Omnichannel site map, go to **Work Streams** and select **New** from the command bar.
+1. Sign in to the Omnichannel Administration app, and in the site map, go to **Work Streams** and select **New** from the command bar.
 2. On the **Summary** tab of the new work stream page, provide the name of the work stream.
 3. In the **Channel** drop-down list, select **Live chat** as the channel.
 4. Select **Save** to save the live chat work stream.
 
    > [!div class=mx-imgBorder]
-   > ![New workstream](media/omni-channel-new-work-stream.png)
+   > ![New work stream](media/omni-channel-new-work-stream.png)
 
 ## Step 2: Configure a chat widget
 
@@ -57,7 +51,7 @@ Follow these steps to embed your chat widget into a Power Apps portal. For steps
 3.	Find the **Chat Widget Code** content snippet and open it.
     > [!div class=mx-imgBorder]
     > ![Go to Chat Widget Code content snippet in portal](media/portal-content-snippet.png "Go to Chat Widget Code content snippet in portal")
-4.	On the **General** tab, scroll-down to the **Value (HTML)** section.
+4.	On the **General** tab, scroll down to the **Value (HTML)** section.
 5.	Paste the chat widget snippet code in the **HTML** tab.
     > [!div class=mx-imgBorder]
     > ![Paste code snippet of a chat widget](media/paste-snippet.png "Paste code snippet of a chat widget")
@@ -70,7 +64,7 @@ You can maximize the chat widget by selecting it.
 
 > [!div class=mx-imgBorder]
 > ![Chat widget in maximized mode](media/chat-widget-system-events.png "Chat widget in maximized mode")
-    
+
 ### See also
 
 [Understand and create work streams](work-streams-introduction.md) </br>

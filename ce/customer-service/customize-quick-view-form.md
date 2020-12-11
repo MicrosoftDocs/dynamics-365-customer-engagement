@@ -10,9 +10,9 @@ ms.service: "dynamics-365-customerservice"
 ---
 # Customize quick view forms
 
-[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 You customize the quick view form in the section by navigating to the respective entities and quick view forms. Some of the relevant entities are as follows.
 
@@ -43,12 +43,7 @@ The following procedure shows how to modify the **Customer profile** quick view 
 > To edit a quick view form, see [Edit a quick view form](https://docs.microsoft.com/dynamics365/customer-engagement/customize/create-edit-quick-view-forms#edit-a-quick-view-form)  
 
 
-> [!div class="nextstepaction"]
-> [Next topic: Customize the session form](customize-session-form.md)
-
 ### See also
 
 [Omnichannelsystem customizers](omnichannel-customizer.md)  
-[Customize Customer summary form](customize-customer-summary.md)  
-[Configure agent and supervisor configurations in Unified Service Desk](create-agent-supervisor-configurations-unified-service-desk.md)  
-[Configure notification (Screen pop) for agents](configure-notification-screen-pop-agents.md)  
+[Customize Customer summary form](customize-customer-summary.md)   
