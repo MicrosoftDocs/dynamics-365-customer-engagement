@@ -15,14 +15,14 @@ The Customer Service Hub's intuitive interface brings together vital information
 
 ## Supported browsers and mobile devices
 
-The following browsers are supported by the Customer Service Hub:
+The following browsers are supported:
   
 - Google Chrome
 - Microsoft Edge (supported on Windows 10)
 - Apple Safari 11
 - Internet Explorer 11
 
-The following Mobile devices and operating systems are supported"
+The following mobile devices and operating systems are supported:
 
 - iOS 10 - Tablet & Phone
 - Android - Tablet + Phone (Android 6 and 7)
