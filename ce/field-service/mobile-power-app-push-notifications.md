@@ -65,7 +65,7 @@ If you want to redirect the technician to the new booking and work order form, c
 
 - Open app: Yes
 - Entity: Bookable Resource Booking
-- Form or view:  Form – Booking and Word Order
+- Form or view:  Form – Booking and Work Order
 - Record ID: Bookable Resource Booking
 
 Use these fields to provide a custom message:
