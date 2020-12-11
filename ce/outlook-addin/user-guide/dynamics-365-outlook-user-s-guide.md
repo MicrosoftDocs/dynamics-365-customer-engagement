@@ -59,10 +59,10 @@ Existing Outlook COM add-in users will experience the following behavior:
     > [!div class="mx-imgBorder"]
     >![Dynamics 365 Organization folder shows empty pages](../media/disabledorgfolders.png "Dynamics 365 Organization folder shows empty pages")
 
-You’ll not be able configure new mailboxes in Outlook COM add-in. Adding a Dynamics 365 Organization will show the below message:
+ - You’ll not be able configure new mailboxes in Outlook COM add-in. Adding a Dynamics 365 Organization will show the below message:
 
-> [!div class="mx-imgBorder"]
->![Adding new organization is restricted](../media/disablednewconfiguration.png "Adding new organization is restricted")
+   > [!div class="mx-imgBorder"]
+   >![Adding new organization is restricted](../media/disablednewconfiguration.png "Adding new organization is restricted")
 
 ## Privacy notices  
  [!INCLUDE[cc_privacy_crm_outlook1](../../includes/cc-privacy-crm-outlook1.md)]  
