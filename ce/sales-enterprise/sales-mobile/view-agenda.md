@@ -63,9 +63,11 @@ In the following image, you can see that the meeting is regarding an opportunity
 You can perform the following action on regarding entities: view, edit, change entity, and add entity. More information: [Manage records](open-record.md).   
 
 **Notes**    
+
 Notes displayed under the **Notes** section are related the regarding entity that is associated with the meeting. You can add, edit, and delete notes. More information: [Manage notes](sales-mobile/view-edit-add-note.md). 
 
 **Reminders** 
+
 Reminders and insights displayed under the Reminders section are related the regarding entity that is associated with the meeting. You can do actions such as dismiss, snooze, and like or dislike the card by tapping **More options** (![Options button](media/sm-options-button.png "Options button")) on the card. More information: [Notes and Reminders](open-record.md#notes-and-reminders).   
 
 ### See also   

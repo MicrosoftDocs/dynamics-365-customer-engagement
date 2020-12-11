@@ -27,9 +27,11 @@ You can [view details](#view-details) and [edit the entities](#edit-the-entities
 You can view the details of records in the following ways: 
 
 **On the Home page**    
-The **Home** page displays a list of recent records that are accessed by you. These records consists of opportunities, leads, contacts,quotes, accounts, and notes. When you tap the record, the record opens in a lightweight form which provides the basic details including [related notes and reminders](#notes-and-reminders). 
+
+The **Home** page displays a list of recent records that are accessed by you. These records consist of opportunities, leads, contacts, quotes, accounts, and notes. When you tap the record, the record opens in a lightweight form, which provides the basic details including [related notes and reminders](#notes-and-reminders). 
 
 **On the Meetings page**     
+
 The **Meeting** details page displays the regarding entity that is related to the meeting. Also, the notes and insights that are displayed in the meeting are related to the displayed regarding entity. Tap **Open *record type*** to view the details in the lightweight form. The details include basic information of the entity, [related notes, and reminders](#notes-and-reminders). 
 
 >[!NOTE]
@@ -90,9 +92,11 @@ The connected record details are displayed in the **Regarding** section.
 ## Notes and Reminders
 
 **Notes**
+
 Notes displayed under the **Notes** section are related the regarding entity that is associated with the meeting. You can add, edit, and delete notes. More information: [Manage notes](sales-mobile/view-edit-add-note.md).
 
 **Reminders**
+
 You can see the reminders through insight cards based on the regarding entity that is associated with the meeting. You can do actions such as dismiss, snooze, and like or dislike the card by tapping **More options** (![Options button](media/sm-options-button.png "Options button")) on the card. The cards are retrieved from your Dynamics 365 Sales organization for the selected regarding entity.       
 The following reminder insight cards are supported:    
 <table>
