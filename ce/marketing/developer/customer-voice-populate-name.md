@@ -22,7 +22,7 @@ search.app:
 
 # Attach names and emails to Dynamics 365 Customer Voice surveys sent from customer journeys
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
 When a [Dynamics 365 Customer Voice](../customer-voice.md) survey is sent from a Dynamics 365 Marketing customer journey, the survey responses don't include the respondents' names or email addresses. This is a known limitation of Marketing integration with Dynamics 365 Customer Voice. To address this issue, we have created the two-part workaround detailed below.
 

@@ -79,8 +79,6 @@ To create a marketing email and go live:
 
     1. On the pop-up toolbar, select the **Assist edit** button ![The assist-edit button](media/button-assist-edit.png "The assist-edit button"). This opens the assist-edit dialog.
 
-        ![Assist edit, page 1](media/assist-edit-p1.png "Assist edit, page 1")
-
     1. Select the **Contextual** radio button, and then select **Contact** from the combo box here. The **Contextual** setting means that you will place a dynamic value related to the context where you use the message, while the **Contact** setting means that the context relates to the individual recipient (contact) of the message.
 
     1. Select **Next** to continue to the next page of the assit-edit tool.
