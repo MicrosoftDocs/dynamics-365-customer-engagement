@@ -34,7 +34,8 @@ To enable AI features and make privacy settings for them:
 
 1. Go to **Settings** > **Advanced settings** > **Machine learning** > **Basic feature configuration**.
 
-    ![Enter the keyword name](media/admin-ai-settings.png "Enter the keyword name")
+    > [!div class="mx-imgBorder"]
+    > ![AI feature switches](./media/admin-ai-settings.png)
 
 1. For each AI feature you'd like to use, set the **Enabled** slider to **On**.
 
@@ -60,4 +61,5 @@ Each user who needs access to the Marketing AI features needs to be granted the 
 
 1. Ensure that the user's [**Business Unit**](business-units.md) contains the **Marketing Machine Learning Feature Configuration Reader** role.
 
-    ![Enter the keyword name](media/admin-ai-role.png "Enter the keyword name")
+    > [!div class="mx-imgBorder"]
+    > ![Marketing Machine Learning Feature Configuration Reader role](./media/admin-ai-role.png)
