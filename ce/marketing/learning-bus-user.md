@@ -1,6 +1,6 @@
 ---
 title: "Business users learning catalog (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Find all the training options for business users."
+description: "Find all the training options for Dynamics 365 Marketing business users."
 ms.date: 05/13/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
@@ -18,7 +18,7 @@ search.app:
   - D365Mktg
 ---
 
-# Business Users Learning Catalog
+# Dynamics 365 Marketing business users learning catalog
 Did you just get a new application to use? 
 
 The following catalog is organized from core knowledge to specific domains, and from most basic to most advanced. If content exists in multiple formats, we'll let you know, so that you can choose the training format that best meets your needs.

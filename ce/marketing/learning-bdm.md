@@ -1,13 +1,13 @@
 ---
 title: "Business and technical decision makers learning catalog (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Find all the training options for business and technical decision makers."
+description: "Find all the training options for Dynamics 365 Marketing business and technical decision makers."
 ms.date: 07/08/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: hub-page
 author: loreleishannonmsft
-ms.author: v-lshann
+ms.author: loreleishannonmsft
 manager: margoc
 search.audienceType: 
   - admin
@@ -18,7 +18,7 @@ search.app:
   - D365Mktg
 ---
 
-# Business and technical decision makers learning catalog
+# Dynamics 365 Marketing business and technical decision makers learning catalog
 
 The following catalog is organized from core knowledge to specific domains, and from most basic to most advanced. If content exists in multiple formats, we'll let you know, so that you can choose the training format that best meets your needs.
 

@@ -1,13 +1,13 @@
 ---
 title: "Administrators learning catalog (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Find all the training options for administrators."
+description: "Find all the training options for Dynamics 365 Marketing administrators."
 ms.date: 07/08/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: hub-page
 author: loreleishannonmsft
-ms.author: v-lshann
+ms.author: loreleishannonmsft
 manager: margoc
 search.audienceType: 
   - admin
@@ -18,7 +18,7 @@ search.app:
   - D365Mktg
 ---
 
-# Administrators Learning Catalog
+# Dynamics 365 Marketing administrators learning catalog
 
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
@@ -26,7 +26,7 @@ Do you need to keep systems and data flowing, provisioned, and secure round-the-
 
 The following catalog is organized from core knowledge to specific domains, and from most basic to most advanced. If content exists in multiple formats, we'll let you know, so that you can choose the training format that best meets your needs.
 
-## Getting Started<a name="get-started"></a>
+## Getting started<a name="get-started"></a>
 | Content  | Description  | Format  | Length    |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|--------------------|
 | [Set up Dynamics 365 Marketing and configure advanced settings](https://docs.microsoft.com/learn/paths/get-started-with-marketing)                                         | Set up and manage Dynamics 365 Marketing instances, keep Marketing up-to-date, configure advanced settings, and review domain authentication, email best practices, and data protection.  | Free, self-paced online learning path | 2 hours 38 minutes |
