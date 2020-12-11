@@ -10,9 +10,9 @@ ms.service: dynamics-365-customerservice
 ---
 # Customize the session forms
 
-[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 As a system customizer, you might want to Customize the session forms to suit your business requirements for the agents who use Omnichannel for Customer Service and other model-driven apps. You can customize the Omnichannel session form.
 
@@ -30,12 +30,8 @@ As a system customizer, you might want to Customize the session forms to suit yo
 
 6.  Select **Save** and select **Publish**.
 
-> [!div class="nextstepaction"]
-> [Next topic: Configure agent and supervisor configurations in Unified Service Desk](create-agent-supervisor-configurations-unified-service-desk.md)
 
-## See also
+### See also
 
-- [Omnichannel system customizers](omnichannel-customizer.md)
-- [Customize Customer summary form](customize-customer-summary.md)
-- [Configure notification (Screen pop) for agents](configure-notification-screen-pop-agents.md)
-- [Configure alert notification in Unified Service Desk](configure-alert-notification-unified-service-desk.md)
+[Omnichannel system customizers](omnichannel-customizer.md)  
+[Customize Customer summary form](customize-customer-summary.md)  

@@ -1,4 +1,43 @@
 # [Dynamics 365 Customer Service](help-hub.md)
+## Introduction
+## [Release plans](whats-new-customer-service.md)
+
+## System requirements
+### System requirements for Customer Service
+### [System requirements for Customer Service workspace](customer-service-workspace-system-requirements.md)
+### [System requirements for Omnichannel for Customer Service](system-requirements-omnichannel.md)
+
+## [International availability of Omnichannel for Customer Service](international-availability.md)
+
+## Installation
+### Install Customer Service
+### Upgrade Customer Service
+### Install Omnichannel for Customer Service
+### [Provision Omnichannel for Customer Service](omnichannel-provision-license.md)
+### [Export and import Omnichannel for Customer Service](export-import-omnichannel-data.md)
+### [Uninstall Omnichannel for Customer Service](remove-omnichannel.md)
+### [Delete solutions](delete-solution.md)
+
+## Get started
+### Learning paths
+### [Get started with Customer Service](https://docs.microsoft.com/learn/modules/get-started-with-dynamics-365-for-customer-service/)
+### [Configure Customer Service](service-manager-guide.md)
+### [Get started with Customer Service Hub](customer-service-hub-user-guide-basic.md)
+### [Use Customer Service Team Member](customer-service-team-member.md)
+### [Get started with Customer Service workspace](csw-overview.md)
+### [Get started with Omnichannel for Customer Service](introduction-omnichannel.md)
+#### [Try channels in Omnichannel for Customer Service](try-channels.md)
+#### [Demo data for Chat for Dynamics 365 Customer Service](chat-dynamics365-customer-service-demo-data.md)
+#### [Quickly configure a chat widget](configure-live-chat.md)
+
+## Case management
+### [Create cases]
+### [Define parent and child cases](define-settings-parent-child-cases.md)
+### [Resolve, cancel, and reassign cases](customer-service-hub-user-guide-resolve-cancel-reassign-a-case.md)
+### [Merge cases](customer-service-hub-user-guide-merge-cases.md)
+### [Convert a case to a knowledge article](customer-service-hub-user-guide-convert-case-to-knowledge-article.md)
+
+
 ## [Overview](overview.md)
 ## [What's new](whats-new-customer-service.md)
 ## [Deprecations in Customer Service](deprecations-customer-service.md)

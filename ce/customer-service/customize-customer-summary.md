@@ -10,7 +10,7 @@ ms.service: "dynamics-365-customerservice"
 ---
 # Customize the Customer summary form
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 ## Introduction
 
@@ -58,5 +58,5 @@ This section displays case- and customer-related activities in the form of a tim
 
 [Omnichannel  system customizers](omnichannel-customizer.md)  
 [Customize the conversation form](customize-session-form.md)  
-[Configure agent and supervisor configurations in Unified Service Desk](create-agent-supervisor-configurations-unified-service-desk.md)  
-[Configure notification for agents](configure-notification-screen-pop-agents.md)  
+[Configure agent and supervisor configurations in Unified Service Desk](../omnichannel/customizer/create-agent-supervisor-configurations-unified-service-desk.md)  
+[Configure notification for agents](../omnichannel/customizer/configure-notification-screen-pop-agents.md)  

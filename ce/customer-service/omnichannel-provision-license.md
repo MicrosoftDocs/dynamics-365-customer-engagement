@@ -15,7 +15,7 @@ ms.service: dynamics-365-customerservice
 
 Omnichannel for Customer Service provides a modern, customizable, high-productivity app that lets agents help customers across different channels via a unified interface. It lets organizations choose the channel that suits their business needs. It also ensures that a high level of responsive, quality service is received across channels.
 
-To find out if Omnichannel for Customer Service is available in your region, see [International availability](../international-availability.md).
+To find out if Omnichannel for Customer Service is available in your region, see [International availability](international-availability.md).
 
 Looking for an upgrade? See [Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md) for more information.
 
@@ -23,8 +23,8 @@ Looking for an upgrade? See [Upgrade Omnichannel for Customer Service](upgrade-o
 
 To provision the Omnichannel for Customer Service application, make sure the following prerequisites are met:
 
-- An active subscription of Chat for Dynamics 365 Customer Service or Dynamics 365 Digital Messaging. For more information on pricing, select [here](https://dynamics.microsoft.com/customer-service/overview/#pricing). You can also get a free 30-day trial if you have the required prerequisites, see [Try channels for Dynamics 365 Customer Service](../try-channels.md) for more information.
-- Ensure that the prerequisites mentioned in the system requirements are set up. More information, see [Prerequisites](../system-requirements-omnichannel.md#prerequisites).
+- An active subscription of Chat for Dynamics 365 Customer Service or Dynamics 365 Digital Messaging. For more information on pricing, select [here](https://dynamics.microsoft.com/customer-service/overview/#pricing). You can also get a free 30-day trial if you have the required prerequisites, see [Try channels for Dynamics 365 Customer Service](try-channels.md) for more information.
+- Ensure that the prerequisites mentioned in the system requirements are set up. More information, see [Prerequisites](system-requirements-omnichannel.md#prerequisites).
 - The **Global Tenant Admin** and **Dynamics 365 System Admin** permissions for your organization.
 
 ## Provide data access consent
