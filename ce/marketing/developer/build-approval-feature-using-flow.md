@@ -22,7 +22,7 @@ search.app:
 
 # Build approvals feature using Power Automate
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
 By integrating your approvals feature with Power Automate, you can implement features such as these:
 
