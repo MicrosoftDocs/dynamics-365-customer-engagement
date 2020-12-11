@@ -154,7 +154,7 @@ Back in Power Apps, on the **Customer Voice survey question response** entity, y
 
 ## Parse inspection responses
 
-Inspection parsing allows you to isolate and select specific parts of inspection responses like taking an inspection attachment or image within a response to use for other business processes. 
+Inspection parsing allows you to isolate and select specific parts of inspection responses, like taking an inspection attachment or image within a response to use for other business processes. 
 
 [Download guide to understand inspection response parsing](https://aka.ms/inspections-parse)
 
