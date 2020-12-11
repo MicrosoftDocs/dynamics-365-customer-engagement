@@ -41,6 +41,26 @@ search.app:
 - When using Dynamics 365 online for Outlook version 9.0 in offline mode, attachments to synchronized records will not be available in offline mode. If there is an attachment to a record, the attachment will only be available when you are back online. If you added an attachment to a record in offline mode, the attachment will be synchronized to the server when you are back online. To use attachments in offline mode, consider saving the attachment your device.
 - The offline capability in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] version 9.0 isn't available in Dynamics 365 Customer Engagement (on-premises).
 
+## Dynamics 365 for Outlook is retired and removed
+
+Starting December 4, 2020 the legacy Dynamics 365 for Outlook (also referred to as Outlook COM add-in) will be removed and users will no longer be able to use Outlook COM add-in. This removal will happen by geographic location and follows the weekly release schedule.
+
+Once the service is removed, users should uninstall the add-in from their machines manually. Users will be able to launch the Outlook COM add-in, however they’ll not be able to use any features.
+
+Existing Outlook COM add-in users will experience the below behavior:
+
+- Dynamics 365 ribbon is disabled.
+
+![Dynamics 365 Ribbon is disabled](../media/DisabledRibbon.png "Dynamics 365 Ribbon is disabled")
+
+- Dynamics 365 org folders show empty pages.
+
+![Dynamics 365 Organization folder shows empty pages](../media/DisabledOrgFolders.png.png "Dynamics 365 Organization folder shows empty pages")
+
+You’ll not be able configure new mailboxes in Outlook COM add-in. Adding a Dynamics 365 Organization will show the below message:
+
+![Adding new organization is restricted](../media/DisabledNewConfiguration.png "Adding new organization is restricted")
+
 ## Privacy notices  
  [!INCLUDE[cc_privacy_crm_outlook1](../../includes/cc-privacy-crm-outlook1.md)]  
   
