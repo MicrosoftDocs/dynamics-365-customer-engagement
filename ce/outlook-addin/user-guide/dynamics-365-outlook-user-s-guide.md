@@ -45,9 +45,9 @@ search.app:
 
 Starting December 4, 2020 the legacy Dynamics 365 for Outlook (also referred to as Outlook COM add-in) will be removed and users will no longer be able to use Outlook COM add-in. This removal will happen by geographic location and follows the weekly release schedule.
 
-Once the service is removed, users should uninstall the add-in from their machines manually. Users will be able to launch the Outlook COM add-in, however they’ll not be able to use any features.
+Once the service is removed, users need to manually uninstall the add-in. Users will be able to launch the Outlook COM add-in, however none of any features will work.
 
-Existing Outlook COM add-in users will experience the below behavior:
+Existing Outlook COM add-in users will experience the following behavior:
 
 - Dynamics 365 ribbon is disabled.
 
@@ -55,7 +55,9 @@ Existing Outlook COM add-in users will experience the below behavior:
 
 - Dynamics 365 org folders show empty pages.
 
-![Dynamics 365 Organization folder shows empty pages](../media/DisabledOrgFolders.png.png "Dynamics 365 Organization folder shows empty pages")
+disabledorgfolders
+
+![Dynamics 365 Organization folder shows empty pages](../media/disabledorgfolders.png.png "Dynamics 365 Organization folder shows empty pages")
 
 You’ll not be able configure new mailboxes in Outlook COM add-in. Adding a Dynamics 365 Organization will show the below message:
 
