@@ -51,17 +51,17 @@ Existing Outlook COM add-in users will experience the following behavior:
 
 - Dynamics 365 ribbon is disabled.
 
-![Dynamics 365 Ribbon is disabled](../media/DisabledRibbon.png "Dynamics 365 Ribbon is disabled")
+![Dynamics 365 Ribbon is disabled](../media/disabledribbon.png "Dynamics 365 Ribbon is disabled")
 
 - Dynamics 365 org folders show empty pages.
 
-disabledorgfolders
+ 
 
-![Dynamics 365 Organization folder shows empty pages](../media/disabledorgfolders.png.png "Dynamics 365 Organization folder shows empty pages")
+![Dynamics 365 Organization folder shows empty pages](../media/disabledorgfolders.png "Dynamics 365 Organization folder shows empty pages")
 
 You’ll not be able configure new mailboxes in Outlook COM add-in. Adding a Dynamics 365 Organization will show the below message:
 
-![Adding new organization is restricted](../media/DisabledNewConfiguration.png "Adding new organization is restricted")
+![Adding new organization is restricted](../media/disablednewconfiguration.png "Adding new organization is restricted")
 
 ## Privacy notices  
  [!INCLUDE[cc_privacy_crm_outlook1](../../includes/cc-privacy-crm-outlook1.md)]  
