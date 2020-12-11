@@ -152,6 +152,12 @@ Back in Power Apps, on the **Customer Voice survey question response** entity, y
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the inspection deserialization flow in Power Automate.](./media/10-Flow-for-published-questions.jpg)
 
+## Parse inspection responses
+
+Inspection parsing allows you to isolate and select specific parts of inspection responses, like taking an inspection attachment or image within a response to use for other business processes. 
+
+[Download guide to understand inspection response parsing](https://aka.ms/inspections-parse)
+
 ## Inspections for customer assets
 
 To relate an inspection to a customer asset and build out service history, enter the customer asset in the **Service Task Relates To** section of the work order service **Task** that holds the inspection.
