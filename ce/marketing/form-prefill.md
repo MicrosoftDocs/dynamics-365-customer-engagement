@@ -1,18 +1,14 @@
 ---
 title: "Enable prefilling for marketing forms (Dynamics 365 Marketing) | Microsoft Docs"
-description: "How to set up your marketing forms to support prefilling of form fields for returning contacts in Dynamics 365 Marketing"
-keywords: marketing form, prefill
+description: "How to set up your marketing forms to support prefilling of form fields for returning contacts in Dynamics 365 Marketing."
 ms.date: 03/08/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-ms.assetid: bb712806-d9a2-4eb6-8082-27d13668d1f5
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer

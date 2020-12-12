@@ -1,7 +1,6 @@
 ---
 title: "Change the URL for event websites hosted on Dynamics 365 Portals (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to change the URL where Dynamics 365 Portals hosts your events in Dynamics 365 Marketing."
-keywords: administration; sample data
 ms.date: 10/10/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
@@ -11,8 +10,6 @@ ms.topic: article
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer

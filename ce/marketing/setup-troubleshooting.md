@@ -1,19 +1,15 @@
 ---
 title: "Administration and setup frequently asked questions (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Solutions to common questions and issues that can occur during the initial setup and ongoing administration of Dynamics 365 Marketing"
-keywords: troubleshooting;setup
+description: "Solutions to common questions and issues that can occur during the initial setup and ongoing administration of Dynamics 365 Marketing."
 ms.date: 12/01/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing
 ms.topic: article
-ms.assetid: 4c2bc52f-595c-4728-9ef5-5e3281ca0cc0
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: 
 search.audienceType: 
   - admin
   - customizer
