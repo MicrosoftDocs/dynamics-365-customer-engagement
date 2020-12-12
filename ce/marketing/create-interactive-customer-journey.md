@@ -1,18 +1,14 @@
 ---
 title: "Create an interactive customer journey (Dynamics 365 Marketing) | Microsoft Docs"
-description: "A tutorial for how to create an interactive customer journey featuring signups and conditions in Dynamics 365 Marketing"
-keywords: tutorial; customer journey; condition; landing page; signup; page
+description: "A tutorial for how to create an interactive customer journey featuring signups and conditions in Dynamics 365 Marketing."
 ms.date: 10/08/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
-ms.topic: get-started-article
-ms.assetid: 4c42b94d-7bd1-41fa-80de-819f00bede33
+ms.topic: article
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: 
 search.audienceType: 
   - admin
   - customizer

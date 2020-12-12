@@ -1,19 +1,14 @@
 ---
 title: "Use AI to check your message-content spam score (Dynamics 365 Marketing) | Microsoft Docs"
-description: "How to check the content of your email messages to see whether they might get flagged as spam by recipient systems in Dynamics 365 Marketing"
-keywords:
+description: "How to check the content of your email messages to see whether they might get flagged as spam by recipient systems in Dynamics 365 Marketing."
 ms.date: 04/03/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
-  - dyn365-admin
   - dyn365-marketing
 ms.topic: article
-ms.assetid: 361dea50-9093-4668-910c-50f715fdd572
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status:
 search.audienceType: 
   - admin
   - customizer

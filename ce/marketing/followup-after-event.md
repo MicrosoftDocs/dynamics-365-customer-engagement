@@ -1,17 +1,14 @@
 ---
-title: "Evaluate your event and follow up with attendees (Dynamics 365 Marketing) | Microsoft Docs  "
-description: "Learn what you can do to optimize the benefits gained from your event by collecting feedback, analyzing attendance data, and handing leads off to sales from Dynamics 365 Marketing"
-keywords: events; event management; survey; attendance
+title: "Evaluate your event and follow up with attendees (Dynamics 365 Marketing) | Microsoft Docs"
+description: "Learn what you can do to optimize the benefits gained from your event by collecting feedback, analyzing attendance data, and handing leads off to sales from Dynamics 365 Marketing."
 ms.date: 12/17/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-ms.assetid: ebd5f931-44f3-409b-836a-1c00dd17883a
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
 search.audienceType: 
   - admin
   - customizer
@@ -27,7 +24,7 @@ After an event is over, you'll want to evaluate how it went and start following 
 
 ## Collect attendee feedback with a survey
 
-Dynamics 365 Marketing includes Voice of the Customer, which is a feature for creating online surveys and analyzing the results. We recommend that you take advantage of this feature by creating a follow-up survey for attendees to give feedback on the event.
+Dynamics 365 Marketing includes Customer Voice, which is a feature for creating online surveys and analyzing the results. We recommend that you take advantage of this feature by creating a follow-up survey for attendees to give feedback on the event.
 
 To promote the survey, you might create a marketing email message that links to it and deliver that message to a segment of attendees that you've set up. You might even provide an incentive for submitting the survey, such as a free download. You can include this message in the same customer journey that you used to promote the event, but use trigger and scheduler tiles to ensure the message is only sent after the event, and only to people who attended.
 

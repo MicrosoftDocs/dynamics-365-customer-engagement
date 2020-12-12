@@ -1,17 +1,14 @@
 ---
-title: "Work with email, page, and form templates (Dynamics 365 Marketing) | Microsoft Docs "
-description: "Describes how to work with email, page, and form templates and gives details about client support and known issues related to email designs in Dynamics 365 Marketing"
+title: "Work with email, page, and form templates (Dynamics 365 Marketing) | Microsoft Docs"
+description: "Describes how to work with email, page, and form templates and gives details about client support and known issues related to email designs in Dynamics 365 Marketing."
 ms.date: 12/10/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-ms.assetid: 0f661fed-315f-4932-9a06-a8de363ea42c
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer
@@ -79,7 +76,7 @@ In the following screenshot, you can see a tile view of marketing-page templates
 
 The following screenshot shows the same collection of marketing-page templates, but with **Show as** set to **Grid**. In this example, the labels are shown in the **Tag** column.
 
-![Template gallery with labels in tile view](media/template-label-list.png "Template gallery with labels in tile view")
+![Template gallery with labels in grid view](media/template-label-list.png "Template gallery with labels in grid view")
 
 ### Set the label for each template
 

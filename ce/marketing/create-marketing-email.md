@@ -1,18 +1,14 @@
 ---
 title: "Create a marketing email (Dynamics 365 Marketing) | Microsoft Docs"
-description: "A tutorial for how to create a marketing email in Dynamics 365 Marketing"
-keywords: tutorial; email; marketing email; assist edit; dynamic content
+description: "A tutorial for how to create a marketing email in Dynamics 365 Marketing."
 ms.date: 05/07/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
-ms.topic: get-started-article
-ms.assetid: f19d8015-50ab-4286-af03-dd24ced39308
+ms.topic: article
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer
@@ -82,8 +78,6 @@ To create a marketing email and go live:
     1. Working in the text element you just added, enter a suitable opening such as "Dear".
 
     1. On the pop-up toolbar, select the **Assist edit** button ![The assist-edit button](media/button-assist-edit.png "The assist-edit button"). This opens the assist-edit dialog.
-
-        ![Assist edit, page 1](media/assist-edit-p1.png "Assist edit, page 1")
 
     1. Select the **Contextual** radio button, and then select **Contact** from the combo box here. The **Contextual** setting means that you will place a dynamic value related to the context where you use the message, while the **Contact** setting means that the context relates to the individual recipient (contact) of the message.
 

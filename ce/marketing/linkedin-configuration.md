@@ -1,18 +1,14 @@
 ---
-title: "Assign security roles, set up LinkedIn field mappings and matching strategy (Dynamics 365 Marketing) | Microsoft Docs "
-description: "Map lead fields and match leads between LinkedIn to Dynamics 365 Marketing"
-keywords: LinkedIn; Lead Gen Forms; lead; connector
+title: "Assign security roles, set up LinkedIn field mappings and matching strategy (Dynamics 365 Marketing) | Microsoft Docs"
+description: "Map lead fields and match leads between LinkedIn to Dynamics 365 Marketing."
 ms.date: 06/04/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-ms.assetid: e41ac66c-19f6-4671-a6e4-e4363a86b898
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer

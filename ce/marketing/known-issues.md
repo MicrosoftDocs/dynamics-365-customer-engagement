@@ -1,12 +1,12 @@
 ---
 title: "Known issues and workarounds (Dynamics 365 Marketing) | Microsoft Docs"
-description: "This article documents known issues and workarounds for Dynamics 365 Marketing"
+description: "This article documents known issues and workarounds for Dynamics 365 Marketing."
 ms.date: 11/05/2020
 ms.service: dynamics-365-marketing
-ms.custom: 
+ms.custom:
+  - dyn365-admin
   - dyn365-marketing
 ms.topic: article
-ms.assetid: 78dc5157-cf1d-4e32-ace7-9e71763e7510
 author: alfergus
 ms.author: alfergus
 manager: shellyha

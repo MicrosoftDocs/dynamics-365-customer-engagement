@@ -1,18 +1,14 @@
 ---
-title: "Create activity templates for activity tiles (Dynamics 365 Marketing) | Microsoft Docs "
-description: "How to create the templates required to generate activities for users from a customer journey in Dynamics 365 Marketing"
-keywords: 
+title: "Create activity templates for activity tiles (Dynamics 365 Marketing) | Microsoft Docs"
+description: "How to create the templates required to generate activities for users from a customer journey in Dynamics 365 Marketing."
 ms.date: 04/01/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-ms.assetid: 82f8f7e6-2eb9-4606-855b-245860fd272b
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: 
 search.audienceType: 
   - admin
   - customizer

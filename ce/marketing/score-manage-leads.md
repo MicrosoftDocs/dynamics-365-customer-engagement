@@ -1,18 +1,14 @@
 ---
-title: "Create lead scoring models (Dynamics 365 Marketing) | Microsoft Docs "
-description: "How to set up automatic scoring rules and identify sales-ready leads in Dynamics 365 Marketing"
-keywords: lead; lead-scoring rule; grade; qualify; sales ready
+title: "Create lead scoring models (Dynamics 365 Marketing) | Microsoft Docs"
+description: "How to set up automatic scoring rules and identify sales-ready leads in Dynamics 365 Marketing."
 ms.date: 03/26/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-ms.assetid: d9a600e6-0c1c-48ac-b5dc-8b80c74e9755
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status:
 search.audienceType: 
   - admin
   - customizer

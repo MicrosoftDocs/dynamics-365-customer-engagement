@@ -1,18 +1,14 @@
 ---
 title: "Advanced tutorials (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Step-by-step tutorials for learning how to work with specialist user scenarios in Dynamics 365 Marketing"
-keywords: tutorial; specialist; advanced; overview
+description: "Step-by-step tutorials for learning how to work with specialist user scenarios in Dynamics 365 Marketing."
 ms.date: 04/01/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: overview
-ms.assetid: 5bfea08c-8a63-4154-88e4-a517fd4a43e3
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: 
 search.audienceType: 
   - admin
   - customizer

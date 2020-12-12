@@ -1,18 +1,14 @@
 ---
 title: "Event invitations, registrations, and hotel bookings (Dynamics 365 Marketing) | Microsoft Docs"
-description: "After your event is set up, learn how to invite attendees, register attendees, and enter hotel bookings in Dynamics 365 Marketing"
-keywords: events; event management
+description: "After your event is set up, learn how to invite attendees, register attendees, and enter hotel bookings in Dynamics 365 Marketing."
 ms.date: 12/17/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-ms.assetid: 4844cf8c-bad1-4483-ba9b-e6e83874fd2b
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer
