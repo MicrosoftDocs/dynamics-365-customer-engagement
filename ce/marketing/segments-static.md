@@ -1,18 +1,14 @@
 ---
 title: "Design a static segment (Dynamics 365 Marketing) | Microsoft Docs"
-description: "How to create a static segment by selecting specific contacts individually in Dynamics 365 Marketing"
-keywords: segment; compound segment
+description: "How to create a static segment by selecting specific contacts individually in Dynamics 365 Marketing."
 ms.date: 05/19/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-ms.assetid: 6620a363-8996-4d94-bbbe-fb5bffaf1ceb
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status:
 search.audienceType: 
   - admin
   - customizer

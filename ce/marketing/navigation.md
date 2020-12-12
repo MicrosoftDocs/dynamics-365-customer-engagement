@@ -1,18 +1,14 @@
 ---
 title: "Navigate and use common features (Dynamics 365 Marketing) | Microsoft Docs"
-description: "How do get around and work with common user interface elements in Dynamics 365 Marketing"
-keywords: navigation; list view; form view; grids; workflow; business process
+description: "How do get around and work with common user interface elements in Dynamics 365 Marketing."
 ms.date: 12/17/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
-ms.topic: get-started-article
-ms.assetid: ca44ebc8-7f92-4ad8-b6f3-c7c1d73c7472
+ms.topic: article
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer
@@ -58,10 +54,10 @@ Use the app-selector menu to switch between Marketing and your other Dynamics 36
 The apps you see listed in your app-selector menu will depend on which apps you have licensed. When Marketing is installed, you will have the following three apps at least:
 
 - **Marketing**: Go here to access all core marketing features, including the **Marketing**, **Events**, **Settings**, and **Training** work areas.
-- **Surveys**: Go here to set up surveys that you can use together with your marketing emails, customer journeys, and events. Surveys are provided by Voice of the Customer, which is also available for use with other Dynamics 365 products. To maintain wide compatibility, it uses a slightly different user interface than the Marketing app, which is why it is broken out into its own app here. More information: [Create and run online surveys](surveys.md)
+- **Surveys**: Go here to set up surveys that you can use together with your marketing emails, customer journeys, and events. Surveys are provided by Customer Voice, which is also available for use with other Dynamics 365 products. To maintain wide compatibility, it uses a slightly different user interface than the Marketing app, which is why it is broken out into its own app here. More information: [Create and run online surveys](surveys.md)
 - **Dynamics 365&mdash;custom**: This app combines features from many of the various Dynamics 365 apps on your instance into a single navigation structure (but most Dynamics 365 Marketing end-user features *aren't* included here).
 
-All of the apps listed in the app-selector menu operate on the same database as one another, so settings made in the one app (including for customization, user administration, events, LinkedIn Lead Gen, Voice of the Customer, and more) will affect all the other apps.
+All of the apps listed in the app-selector menu operate on the same database as one another, so settings made in the one app (including for customization, user administration, events, LinkedIn Lead Gen, Customer Voice, and more) will affect all the other apps.
 
 ### Move between entities, records, and work areas
 

@@ -1,17 +1,14 @@
 ---
-title: "Use the designer tool (Dynamics 365 Marketing) | Microsoft Docs "
-description: "Basics of how to use the designer tool to create emails, landing pages, and forms in Dynamics 365 Marketing"
+title: "Use the designer tool (Dynamics 365 Marketing) | Microsoft Docs"
+description: "Basics of how to use the designer tool to create emails, landing pages, and forms in Dynamics 365 Marketing."
 ms.date: 07/29/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-ms.assetid: 28762c17-02f7-4883-a9d8-e606858de7bd
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: 
 search.audienceType: 
   - admin
   - customizer
@@ -80,7 +77,7 @@ To edit and configure a section element:
 1. Select the section element on the canvas. It now displays a blue border and tabs showing the element type and buttons for deleting or moving the element.
 1. The **Properties** panel opens to show the settings for your selected section.
 
-    ![Add a section element to your design](media/email-layout-edit.png "Add a section element to your design")
+    ![Screenshot of the Properties panel](media/email-layout-edit.png "Screenshot of the Properties panel")
 
 1. Make settings in the following sections as needed:
 

@@ -1,18 +1,14 @@
 ---
 title: "The differences between segments and lists (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Learn how marketing segments are different from marketing lists, and when to use each of them in Dynamics 365 Marketing"
-keywords:
+description: "Learn how marketing segments are different from marketing lists, and when to use each of them in Dynamics 365 Marketing."
 ms.date: 11/06/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-ms.assetid: 87209879-6a63-4a64-bf52-61680fad2e9a
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status:
 search.audienceType: 
   - admin
   - customizer

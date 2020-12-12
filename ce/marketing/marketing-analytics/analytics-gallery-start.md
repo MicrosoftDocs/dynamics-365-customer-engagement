@@ -1,7 +1,7 @@
 ---
 title: "Download and use marketing analytics templates and sample reports for Power BI (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Browse our Power BI template gallery, download relevant templates and sample reports, and connect them to your Dynamics 365 Marketing instance."
-ms.date: 11/22/2019
+ms.date: 12/11/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -21,7 +21,7 @@ search.app:
 
 # Download and use marketing analytics templates and sample reports for Power BI
 
-This topic provides a gallery with links to downloads and details for each Microsoft Power BI template and sample report that's currently available for Dynamics 365 Marketing. It also explains how to connect a downloaded template to your Dynamics 365 Marketing instance. These resources help you produce custom analytics reports with Power BI for your Dynamics 365 Marketing organization.
+This article provides a gallery with links to downloads and details for each Microsoft Power BI template and sample report that's currently available for Dynamics 365 Marketing. It also explains how to connect a downloaded template to your Dynamics 365 Marketing instance. These resources help you produce custom analytics reports with Power BI for your Dynamics 365 Marketing organization.
 
 <a name="gallery"></a>
 
@@ -34,7 +34,7 @@ Choose from a growing number of marketing reports for easy download, and find th
 
 |Name  |Description  |Template  |Report  |
 |---------|---------|---------|---------|
-|[Generic template (framework and tools)](analytics-gallery-framework.md)|This report provides generic parameters, data sources, and query code you can use to query for any marketing data from Common Data Service and the interaction store.|[![Download template](media/IconDownloadTemplate30.png)](https://github.com/microsoft/Dynamics-365-for-Marketing---Power-BI-Reporting/raw/master/PowerBI-Templates/PowerBI%20Template%20-%20Dynamics%20365%20for%20Marketing.pbit)|[![Download sample report](media/IconDownloadReport30.png)](https://github.com/microsoft/Dynamics-365-for-Marketing---Power-BI-Reporting/raw/master/pbx%20files/PowerBI%20Template%20-%20Dynamics%20365%20for%20Marketing.pbix)|
+|[Generic template (framework and tools)](analytics-gallery-framework.md)|This report provides generic parameters, data sources, and query code you can use to query for any marketing data from Microsoft Dataverse and the interaction store.|[![Download template](media/IconDownloadTemplate30.png)](https://github.com/microsoft/Dynamics-365-for-Marketing---Power-BI-Reporting/raw/master/PowerBI-Templates/PowerBI%20Template%20-%20Dynamics%20365%20for%20Marketing.pbit)|[![Download sample report](media/IconDownloadReport30.png)](https://github.com/microsoft/Dynamics-365-for-Marketing---Power-BI-Reporting/raw/master/pbx%20files/PowerBI%20Template%20-%20Dynamics%20365%20for%20Marketing.pbix)|
 |[Basic leaderboard report (journeys and email marketing)](analytics-gallery-leaders.md)|Identify your most effective journeys and marketing messages.|[![Download template](media/IconDownloadTemplate30.png)](https://github.com/microsoft/Dynamics-365-for-Marketing---Power-BI-Reporting/raw/master/PowerBI-Templates/MarketingAnalyzers%20-%20Journey%26Email%20Leaderboard.pbit)|[![Download sample report](media/IconDownloadReport30.png)](https://github.com/microsoft/Dynamics-365-for-Marketing---Power-BI-Reporting/raw/master/pbx%20files/MarketingAnalyzers%20-%20Journey%26Email%20Leaderboard.pbix)|
 |[Email marketing report](analytics-gallery-email.md)|Deep-dive into your email marketing plans, activities, and interactions.|[![Download template](media/IconDownloadTemplate30.png)](https://github.com/microsoft/Dynamics-365-for-Marketing---Power-BI-Reporting/raw/master/PowerBI-Templates/MarketingAnalyzers%20-%20Email%20Marketing.pbit)|[![Download sample report](media/IconDownloadReport30.png)](https://github.com/microsoft/Dynamics-365-for-Marketing---Power-BI-Reporting/raw/master/pbx%20files/MarketingAnalyzers%20-%20Email%20Marketing.pbix)|
 |[Segmentation report](analytics-gallery-segments.md)|Analyze how segments are used in your marketing activities.|[![Download template](media/IconDownloadTemplate30.png)](https://github.com/microsoft/Dynamics-365-for-Marketing---Power-BI-Reporting/raw/master/PowerBI-Templates/MarketingAnalyzers%20-%20Segmentation.pbit)|[![Download sample report](media/IconDownloadReport30.png)](https://github.com/microsoft/Dynamics-365-for-Marketing---Power-BI-Reporting/raw/master/pbx%20files/MarketingAnalyzers%20-%20Segmentation.pbix)|
@@ -69,6 +69,12 @@ After your Azure Blob storage is [set up and connected to Dynamics 365 Marketing
     > [!NOTE]
     > If you see loading errors the first time you open a template, open the query editor, select a query that has been highlighted with a warning icon, and then select **Retry** on the notification message bar. Repeat for each query that shows a warning. After all queries have loaded, select **Close & Apply**.
 
+    > [!IMPORTANT]
+    > There is a **two hour** limit for Power BI report refresh. To prevent a timeout, we recommend keeping the data in your blob storage under these limits:
+    > -	50,000 blobs in total
+    > -	5GB of data in total
+
+
 <!-- [kfm: this video is being edited and will be hosted elsewhere. Revive this section and update the embed when it's ready]
 
 ## A video guide to data available for marketing analytics
@@ -78,4 +84,6 @@ for a quick overview of all the data that's available for your marketing analyti
 
 <div class="embeddedvideo"><iframe width="560" height="315" src="https://www.youtube.com/embed/pBrB1BohUrE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div> -->
 
-More information: [Data sources for custom analytics](../custom-analytics.md#data-sources)
+### See also
+
+[Data sources for custom analytics](../custom-analytics.md#data-sources)  

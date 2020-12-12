@@ -1,18 +1,14 @@
 ---
-title: "Re-run the setup wizard (Dynamics 365 Marketing) | Microsoft Docs  "
-description: "How to run the setup wizard so you can update, uninstall, or modify an existing Dynamics 365 Marketing instance"
-keywords: administration;admin center
+title: "Re-run the setup wizard (Dynamics 365 Marketing) | Microsoft Docs"
+description: "How to run the setup wizard so you can update, uninstall, or modify an existing Dynamics 365 Marketing environment."
 ms.date: 09/19/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-ms.assetid: 2ab8ed2d-0e3e-4b8c-9b05-8d61190206e9
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: 
 search.audienceType: 
   - admin
   - customizer

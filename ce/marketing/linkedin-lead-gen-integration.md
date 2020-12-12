@@ -1,18 +1,14 @@
 ---
-title: "Capture leads generated on LinkedIn (Dynamics 365 Marketing) | Microsoft Docs "
-description: "How to use the connector to LinkedIn Lead Gen Forms, which imports leads from LinkedIn to Dynamics 365 Marketing"
-keywords: LinkedIn; Lead Gen Forms; lead; connector
+title: "Capture leads generated on LinkedIn (Dynamics 365 Marketing) | Microsoft Docs"
+description: "How to use the connector to LinkedIn Lead Gen Forms, which imports leads from LinkedIn to Dynamics 365 Marketing."
 ms.date: 02/01/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-ms.assetid: ec81d712-2c82-4ce0-83c5-ccfbafab71bb
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer
