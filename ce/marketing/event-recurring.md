@@ -85,7 +85,7 @@ To change a single event that is part of a series:
 
 1. Set the view selector to **Active Events** (or almost anything other than **Event Series** or **Event Templates**). You should now see a list of individual event occurrences (and non-recurring events).  
 
-    ![The view selector menu](media/events-recurring-view-selector2.png "The view selector menu")
+    ![Set the view selector to Active Events](media/events-recurring-view-selector2.png "Set the view selector to Active Events")
 
 1. Find and select the event occurrence that you want to customize. The **Open recurring item** dialog opens; select **Just this one** to edit the event occurrence you have selected (rather than the whole series). Then select OK to make the current occurrence a custom occurrence.  
 
@@ -103,7 +103,7 @@ To revert a customized event-series occurrence to a standard occurrence from tha
 
 1. Set the view selector to **Active Events** (or almost anything other than **Event Series** or **Event Templates**). You should now see a list of individual event occurrences (and non-recurring events). 
 
-    ![The view selector menu](media/events-recurring-view-selector2.png "The view selector menu")
+    ![Screenshot of setting the view selector to Active Events](media/events-recurring-view-selector2.png "Screenshot of setting the view selector to Active Events")
 
 1. Find and select the custom occurrence that you want to revert. The **Open recurring item** dialog opens; select **Just this one** to edit the custom occurrence and then select **OK**.  
 

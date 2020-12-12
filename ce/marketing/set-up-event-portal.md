@@ -32,7 +32,7 @@ The event site is preconfigured to fetch all the relevant graphics and informati
 
 The first time you install Dynamics 365 Marketing, the event website is installed onto your Dynamics 365 Portals solution and is ready to use right out of the box. The website is built using the [Angular](https://angular.io/) framework (which makes it easy to customize) and you can choose to host it anywhere (not just on the Dynamics 365 Portals solution). The following table describes the hosting options.
 
-| | Dynamics&nbsp;365<br/>native portal | Angular site hosted by<br/>Dynamics&nbsp;365 portals | Angular site<br>hosted externally |
+| Feature | Dynamics&nbsp;365<br/>native portal | Angular site hosted by<br/>Dynamics&nbsp;365 portals | Angular site<br>hosted externally |
 |--|--|--|--|
 |Availability | Discontinued (no longer available) | Installed out-of-the-box; fully customizable | [Download the project, customize it, and deploy it to your own server](developer/event-management-web-application.md) |
 | Event information and graphics | Fetched directly from Dynamics 365 event records | Fetched directly from Dynamics 365 event records | Fetched directly from Dynamics 365 event records |

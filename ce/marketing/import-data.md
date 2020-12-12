@@ -19,7 +19,7 @@ search.app:
   - D365Mktg
 ---
 
-# Import data
+# Import data and control how duplicate records are identified
 
 Bring your customer and sales data quickly into your app by importing it. You can import data into most record types.
 
