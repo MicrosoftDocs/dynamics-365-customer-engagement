@@ -26,10 +26,33 @@
 ### [Use Customer Service Team Member](customer-service-team-member.md)
 ### [Get started with Customer Service workspace](csw-overview.md)
 ### [Get started with Omnichannel for Customer Service](introduction-omnichannel.md)
-### [Administer]
+### Administer
 #### [Try channels in Omnichannel for Customer Service](try-channels.md)
 #### [Demo data for Chat for Dynamics 365 Customer Service](chat-dynamics365-customer-service-demo-data.md)
 #### [Quickly configure a chat widget](configure-live-chat.md)
+
+## User management
+### [Create users and assign security roles](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles)
+### [Assign roles and enable users](add-users-assign-roles.md)
+### [Manage users](users-user-profiles.md)
+
+## Routing and assignment
+### [Create and manage queues for cases](set-up-queues-manage-activities-cases.md)
+### [Automatically route cases](create-rules-automatically-route-cases.md)
+### [Create and manage queues for conversations](queues-omnichannel.md)
+### Skill-based routing for conversations
+#### [Overview of skill-based routing](overview-skill-work-distribution.md)
+#### [Enable skill-based routing, rating model](enable-skill-routing-create-rating-model.md)
+#### [Set up skills, assign agents](setup-skills-assign-agents.md)
+#### [Attach skills to conversations](attach-skills.md)
+### Manage work distribution for conversations
+#### [Create work streams](work-streams-introduction.md)
+#### [Create work streams for entity records](set-up-entity-workstream.md)
+#### [Create multiple work streams for entity records](multiple-ws-entity-record-routing.md)
+#### [Create and manage routing rules](routing-rules.md)
+#### [Associate templates with work streams](associate-templates.md)
+
+
 
 ## Case management
 ### [Create cases](customer-service-hub-user-guide-create-a-case.md)

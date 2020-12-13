@@ -24,6 +24,6 @@ The following browsers are supported:
 
 The following mobile devices and operating systems are supported:
 
-- iOS 10 - Tablet & Phone
-- Android - Tablet + Phone (Android 6 and 7)
+- **iOS 10:** Tablet and phone
+- **Android:** Tablet and phone (Android 6 and 7)
 - Windows 10

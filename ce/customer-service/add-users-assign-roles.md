@@ -28,7 +28,7 @@ The Dynamics 365 users can access and perform different functions based on the r
 - **App Profile Manager Administrator:** Required for creating and assigning app profiles to users of Customer Service and Omnichannel for Customer Service.
 - **App Profile User:** Required by users of Customer Service and Omnichannel for Customer Service.
 
-For more information on the App Profile Manager Administrator and App Profile User roles, see [Roles and privileges associated with app profile manager](../../app-profile-manager/security-roles.md)
+For more information on the App Profile Manager Administrator and App Profile User roles, see [Roles and privileges associated with app profile manager](../app-profile-manager/security-roles.md)
 
 Additionally, the **Customer Service Representative** role is required to work with the Case entity.
 
