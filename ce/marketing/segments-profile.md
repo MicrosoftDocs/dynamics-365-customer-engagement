@@ -1,18 +1,14 @@
 ---
 title: "Design dynamic demographic or firmographic segments (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Learn how to design dynamic demographic or firmographic segments in Dynamics 365 Marketing"
-keywords: segment; compound segment
+description: "Learn how to design dynamic demographic or firmographic segments in Dynamics 365 Marketing."
 ms.date: 10/04/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-ms.assetid: 6620a363-8996-4d94-bbbe-fb5bffaf1ceb
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer

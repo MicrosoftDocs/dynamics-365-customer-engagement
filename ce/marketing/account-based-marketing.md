@@ -1,22 +1,15 @@
 ---
 title: "Marketing to accounts (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Create account-based leads, lead scoring, and customer journeys in Dynamics 365 Marketing."
-keywords: account-based marketing; lead scoring; customer journey; email; insights
 ms.date: 10/09/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
-  - dyn365-admin
   - dyn365-marketing
 ms.topic: article
-ms.assetid: 3b2f6e2a-5e27-4c5b-9ba4-9d2f4598c839
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: 
 search.audienceType: 
-  - admin
-  - customizer
   - enduser
 search.app: 
   - D365CE

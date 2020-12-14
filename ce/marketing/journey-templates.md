@@ -1,17 +1,14 @@
 ---
 title: "Work with customer journey templates (Dynamics 365 Marketing) | Microsoft Docs"
-description: "How to save a customer journey as a template; create, edit, disable, enable, and delete new templates; and use templates to copy a customer journey in Dynamics 365 Marketing"
+description: "How to save a customer journey as a template; create, edit, disable, enable, and delete new templates; and use templates to copy a customer journey in Dynamics 365 Marketing."
 ms.date: 10/19/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-ms.assetid: 33fddaa3-d345-4aa0-8d1d-a8a9bc3ce7dc
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: 
 search.audienceType: 
   - admin
   - customizer

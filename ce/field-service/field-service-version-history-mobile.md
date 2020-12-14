@@ -3,7 +3,7 @@ title: "Dynamics 365 Field Service Mobile version history | MicrosoftDocs"
 description: Find a list of important updates for Dynamics 365 Field Service mobile apps.
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 09/18/2020
+ms.date: 12/07/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.topic: article
@@ -18,9 +18,47 @@ search.app:
   - D365FS
 ---
 
-# Dynamics 365 Field Service Mobile version history
+# Field Service Mobile (Xamarin) version history
 
-This article chronicles important updates related to Field Service Mobile and associated mobile project templates.
+> [!IMPORTANT]
+> We recommend using the [Field Service (Dynamics 365) mobile app](mobile-power-app-overview.md) instead of the Field Service Mobile (Xamarin) app to benefit from the new features and continuous investments in the platform. While the new Field Service (Dynamics 365) mobile app continues to evolve, we'll continue to make available and support the current Field Service Mobile (Xamarin) app. By June 2021, new deployments must use the Field Service (Dynamics 365) mobile app; support for the current Field Service Mobile (Xamarin) app will end June 2022.
+
+This article chronicles important updates related to Field Service Mobile (Xamarin) app and associated mobile project templates.
+
+## 13.2.203
+
+### Updates 
+- OAuth authentication support with Sharepoint integration 
+- Entity form rules step ExecuteJS
+- JSBridge: DefaultKeepAlive flag exposed through JSBridge command (Desktop only) 
+- iOS: FilterPicker now uses UIPopoverPresentationController for iPads 
+- [Android] Changes to target API level 29 (Android 10)
+ 
+### Bug fixes 
+- Clicking on ContentDocumentLink crashes app when related entity is not in metadata 
+- MobileCRM: Localization is not applied for time picker 
+- iOS: NewDetailImageItem - fit image also by width. 
+- Sync: Some cleanup optimizations switched off in case of FullSync. 
+- Win10: App crash on charts. 
+- Unable to add N:N relation for different id with the same target entity (user to user) 
+- Business process flow sync errors 
+- Export command on list view currently accepts only 950 records 
+- Win10: Error applying form rule - Crashes in DetailItemTextBox (InvalidCastException: InvalidCast_WinRT, Resco.UI.WindowsRT.DetailItemComboBox, MissingMetadataType) 
+- iOS: View selector popup is not correctly centered on iPads 
+- iOS: Ultimate list-set needs display every time when the frame was changed. 
+- Win10: When the visibility of a LookUp view changes in an onChange rule, the lookUp field is never enabled again. 
+- CSS: MobileUsers grid not scrollable to bottom 
+- Email form 'to' field value is filled two times 
+- FormTable: Table disappears on the Android app after returning from landscape mode 
+- It takes too long to close RichTextEditor properties - user is confused 
+- JSBridge: setting "preventClose" causes close button to disappear for all lookups 
+- Allow disabling use of versionnumber in full or incremental sync per entity in Advanced Sync Setup
+- Charts: wrong labels of second Horizontal axis field
+- Clicking on check-box on the list view opens the list item instead of checking the check-box
+- Overlap of contents on report preview on Android
+- Save is not executing when invoking MobileCRM.UI.EntityForm.save() from script
+
+
 
 ## 12.3.206
 
