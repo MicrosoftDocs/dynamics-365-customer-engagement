@@ -17,7 +17,7 @@ search.app:
   - D365USD
 ---
 # Standard Web Application (hosted control)
-<!--note from editor: Please review unified-interface-page-hosted-control.md first, because some of the comments in that topic apply to this one but I didn't reproduce them all here.-->
+
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
 The Standard Web Application hosted control type is similar to the CRM Page type except that it's intended to host pages from apps that aren't model-driven, such as external webpages, and provides script injection for relevant features of external webpages. Like the CRM Page hosted control, these pages can be automated. The preferred method of automating is through [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] injection, including calling [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] functions that are already defined in the page or manipulating the Document Object Model (DOM). The **RunScript** action can also be used to obtain values from the page.  
@@ -162,7 +162,7 @@ This action can be used to block processing until the URL finishes loading.
 
 |Parameter|Description|  
 |---------------|-----------------|  
-|Milliseconds|Optional parameter to indicate how long, in milliseconds, to wait before timing out.<!--note from editor: Edit okay? I wasn't sure what "wait to timeout" meant.-->|  
+|Milliseconds|Optional parameter to indicate how long, in milliseconds, to wait before timing out.|  
 
 <a name="events"></a>   
 ## Predefined events
