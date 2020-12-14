@@ -17,7 +17,7 @@ search.app:
   - D365USD
 ---
 # CRM Page (hosted control)
-<!--note from editor: Please review unified-interface-page-hosted-control.md first, because some of the comments in that topic apply to this one but I didn't reproduce them all here.-->
+
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
 Use the CRM Page hosted control type to load a URL or page from model-driven apps. When a model-driven app page is loaded within a hosted control of this type, it automatically scans the page for data from the entity and automatically populates the replacement parameters.  
@@ -39,7 +39,7 @@ On the **New Hosted Control** screen:
 
 - From the **Allow Multiple Pages** drop-down list, select **No** (default) to replace the model-driven app page that is currently displayed and update the browser history when [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] receives a navigate action call or a page is routed to the tab. Select **Yes** to automatically create a drop-down list when a second URL is called or a window navigation rule directs a page to the tab. This allows the user to quickly search between the model-driven app pages that are attached to this control. Also, when you select **Yes**, an additional field, **Maximum Browsers**, becomes available where you can specify the maximum number of pages to be displayed in the drop-down list.  
 
-- The **Hosting Type** drop-down list specifies how you want this control to be hosted. Choose **Chrome Process**.<!--note from editor: Edit okay? "You can choose" seemed a bit ambiguous.--> More information: [Select a hosting method for hosted controls](../unified-service-desk/select-hosting-method-controls.md)
+- The **Hosting Type** drop-down list specifies how you want this control to be hosted. Choose **Chrome Process**. More information: [Select a hosting method for hosted controls](../unified-service-desk/select-hosting-method-controls.md)
 
 - In the **Common Properties** area, select the **Application is Global** check box to set the hosted control as global. Global hosted controls can be displayed outside of a customer session. Controls like the agent's dashboard, wall, or search are common uses for global hosted controls. Global hosted controls don't have a session-specific state, so when you change sessions, these same global hosted controls remain. If this check box isn't selected, the hosted control becomes session-based. Session-based controls exist in the context of the customer session. If the user changes to another session, all the pages from the previous session are hidden.
 
@@ -151,7 +151,7 @@ This action loads a specific area from model-driven apps. This is equivalent to 
 
 |Parameter|Description|
 |---------------|-----------------|
-|frame|The name of the frame to select<!--note from editor: Edit okay? Also, should we maybe equate "area" and "frame" in the description above?-->. If no name is specified, the action will automatically target the first frame found on the page.|
+|frame|The name of the frame to affect. If no name is specified, the action will automatically target the first frame found on the page.|
 
 ### LookupInfo
 
@@ -167,7 +167,7 @@ Displays the Microsoft Dataverse lookup information dialog box so you can select
 |LookupStyle|Single or Multiple|  
 |ShowNewButton|**0** or **1** to show the **New** button|  
 |ShowPropButton|**0** or **1** to show the **Properties** button|  
-|Browse|**0** or **1** whether to use browsing mode<!--note from editor: What does "The following is with this set to **1**" mean?-->|  
+|Browse|**0** or **1** whether to use browsing mode|  
 |Currentid|The GUID for the current value|  
 |objecttypes|List of object types to display. Example: **1,2** to display accounts and contacts.|  
 
@@ -226,7 +226,7 @@ Opens an existing instance of the entity specified and identified by the ID, and
 <a name="RealignWindow"></a>
 ### RealignWindow
 
-[!INCLUDE[cc_RealignWindow_Action](../includes/cc-realignwindow-action.md)]<!--note from editor: In unified-interface-page-hosted-control.md, this section was explicitly spelled out. Is that okay?-->
+[!INCLUDE[cc_RealignWindow_Action](../includes/cc-realignwindow-action.md)]
 
 ### Refresh
 
@@ -274,7 +274,7 @@ This action saves all forms in a hosted control that allows multiple pages to be
 
 ### Save
 
-This action saves the current CRM Page.<!--note from editor: As I noted in the Unified Interface page topic, this seems to imply that we're saving the control, but isn't it more accurate to say "This action saves the current page in the app hosted by the CRM Page control"?-->
+This action saves the current CRM Page.
 
 ### ToggleRibbon
 
