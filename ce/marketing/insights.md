@@ -1,18 +1,14 @@
 ---
 title: "Analyze marketing results and gain insights (Dynamics 365 Marketing) | Microsoft Docs"
-description: "How to find and interpret marketing results, KPIs, and analytics in Dynamics 365 Marketing"
-keywords: insights;results;KPIs;analytics
+description: "How to find and interpret marketing results, KPIs, and analytics in Dynamics 365 Marketing."
 ms.date: 08/19/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-ms.assetid: 2f5016aa-540a-4366-94a3-205d985c8da9
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: 
 search.audienceType: 
   - admin
   - customizer
@@ -135,7 +131,7 @@ Legend:
 1. **Stopped**: Shows the number of contacts that were stopped from continuing the journey at this tile. There are two main reasons that a contact might get stopped: they got added to the journey's suppression segment, or they lowered their consent level below the minimum threshold set for the journey.
 1. **Marketing page**: Shows a marketing page dependency.
 1. **Event**: Shows an event dependency.
-1. **Voice of the Customer survey**: Shows a Voice of the Customer survey dependency.
+1. **Customer Voice survey**: Shows a Customer Voice survey dependency.
 1. **Dynamics 365 Customer Voice survey**: Shows a Dynamics 365 Customer Voice survey dependency.
 1. **Marketing form**: Shows a marketing form dependency.
 

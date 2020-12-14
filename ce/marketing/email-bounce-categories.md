@@ -1,17 +1,14 @@
 ---
-title: "Email bounce categories (Dynamics 365 Marketing) | Microsoft Docs "
-description: "A comprehensive list of email bounce categories and definitions for Dynamics 365 Marketing"
+title: "Email bounce categories (Dynamics 365 Marketing) | Microsoft Docs"
+description: "A comprehensive list of email bounce categories and definitions for Dynamics 365 Marketing."
 ms.date: 07/24/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-ms.assetid: 8ced29cc-48df-4e8b-a4a9-1a850105b2b7
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: 
 search.audienceType: 
   - admin
   - customizer

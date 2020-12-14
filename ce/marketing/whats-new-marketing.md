@@ -91,7 +91,7 @@ The Dynamics 365 Marketing December 2020 update includes improvements to event r
     - Fixed an error that prevented users from making form field labels bold for newly added form fields.
     - Resolved an error that allowed multiple live form captures for the same form.
 - **Segmentation**
-    - Fixed an issue where segments updated to an "Expired" status in CDS remained "Active" in the backend.
+    - Fixed an issue where segments updated to an "Expired" status in Microsoft Dataverse remained "Active" in the backend.
     - Resolved a segment query error caused when joining an Opportunity and Account.
 - **Shared UX**
     - Resolved an issue that caused an error when creating new calendar appointments in Safari.
@@ -955,7 +955,7 @@ The Dynamics 365 Marketing November 2019 update includes the following bug fixes
 
 - Installation and setup: The Dynamics 365 setup wizard now succeeds when some or all workflows, plugins, and/or entities were created by a now disabled or unlicensed user.
 - Marketing pages: For double opt-in, content settings are now correctly validated to identify missing confirmation settings.
-- Marketing pages: Test domains are no longer checked against blacklisted providers.
+- Marketing pages: Test domains are no longer checked against blocklisted providers.
 - Marketing pages: Subscription-center forms now correctly handle the "Do not bulk email me" option when presented either as a radio button or as a check box.
 - Marketing pages: Form-submission error feedback is now customizable via JavaScript.
 - Email marketing: Error checking now functions correctly when date/time fields are referenced in dynamic content.

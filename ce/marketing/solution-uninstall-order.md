@@ -1,7 +1,6 @@
 ---
 title: "Dynamics 365 Marketing solution uninstall order (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Lists the correct order in which to remove solutions when uninstalling Dynamics 365 Marketing."
-keywords: administration; sample data
 ms.date: 08/10/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
@@ -11,8 +10,6 @@ ms.topic: article
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: 
 search.audienceType: 
   - admin
   - customizer

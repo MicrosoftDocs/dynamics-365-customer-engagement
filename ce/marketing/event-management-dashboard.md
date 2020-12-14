@@ -1,18 +1,14 @@
 ---
-title: "Get a quick overview with the events dashboard (Dynamics 365 Marketing) | Microsoft Docs "
-description: "How to find and use the event dashboard in Dynamics 365 Marketing"
-keywords: events; event management; dashboard
+title: "Get a quick overview with the events dashboard (Dynamics 365 Marketing) | Microsoft Docs"
+description: "How to find and use the event dashboard in Dynamics 365 Marketing."
 ms.date: 04/01/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-ms.assetid: db6de446-f7bd-4f26-98a5-2fd495402691
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer
