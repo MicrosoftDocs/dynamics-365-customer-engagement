@@ -24,7 +24,7 @@
 ### Learning paths
 ### [Get started with Customer Service](https://docs.microsoft.com/learn/modules/get-started-with-dynamics-365-for-customer-service/)
 ### [Configure Customer Service](service-manager-guide.md)
-### [Get started with Customer Service Hub](customer-service-hub-user-guide-basic.md)
+### [Get started with Customer Service Hub](customer-service-hub-user-guide-basics.md)
 ### [Use Customer Service Team Member](customer-service-team-member.md)
 ### [Get started with Customer Service workspace](csw-overview.md)
 ### [Get started with Omnichannel for Customer Service](introduction-omnichannel.md)
@@ -54,8 +54,7 @@
 ##### [Create multiple work streams for entity records](multiple-ws-entity-record-routing.md)
 ##### [Set up routing and assignment rules](routing-rules.md)
 ##### [Associate templates with work streams](associate-templates.md)
-
-
+#### [Set up routing for Omnichannel for Customer Service Conversations](understand-omnichannel-customer-service-hub.md)
 
 ## Case management
 ### Agent experience
@@ -75,7 +74,6 @@
 ### Troubleshoot, faqs
 #### [Issue converting an email to a case](troubleshoot-case-email-issue.md)
 #### [FAQs on AI suggestions for cases and knowledge articles](csw-faqs-ai-suggestions.md)
-
 
 
 ## Service management
@@ -115,31 +113,66 @@
 ### [Productivity pane Omnichannel for Customer Service](productivity-pane.md)
 #### [Enable productivity pane, smart assist](../app-profile-manager/app-profile-manager.md#enable-prod-pane)
 #### [Create macros](macros.md)
-#### [Create agent scripts](agent-scripts.md)
+#### [Guide agents with scripts](agent-scripts.md)
+#### [Use automation dictionary](automation-dictionary-keys.md)
 #### [Create quick replies](create-quick-replies.md)
 #### [Enable personal quick replies](enable-personal-quick-replies.md)
 #### [Enable sound notifications](enable-sound-notifications.md)
+#### [Enable missed notifications](manage-missed-notifications.md)
+#### [Enable auto-assignment of conversations](enable-auto-assign-conversations.md)
+#### [Enable sharing of knowledge articles](knowledge-management-oc.md)
 
 ## Channels
 ### [Introduction to channels](channels.md)
 ### Administrator experience
-#### [Introduction to a chat channel](set-up-chat-widget.md)
+
+#### [Overview of chat channels](set-up-chat-widget.md)
 ##### [Configure a chat widget](add-chat-widget.md)
-##### [Enable file attachments](enable-file-attachments.md)
 ##### [Enable download, email of chat transcripts](download-email-chat-transcripts.md)
 ##### [Configure agent display name](agent-display-name.md)
 ##### [Configure proactive chat](proactive-chat.md)
 ##### [Embed chat widget in a portal](embed-chat-widget-portal.md)
 ##### [Configure reconnection to a previous chat session](configure-reconnect-chat.md)
 ##### [Customize a chat widget](customize-chat-widget.md)
+
 #### Set up SMS channels
 ##### [Configure an SMS channel for TeleSign](configure-sms-channel.md)
 ##### [Configure an SMS channel for Twilio](configure-sms-channel-twilio.md)
 #### Set up social channels
 ##### [Configure a Facebook channel](configure-facebook-channel.md)
-### Agent experience
+##### [Configure a LINE channel](configure-line-channel.md)
+##### [Configure a Twitter channel](configure-twitter-channel.md)
+##### [Configure a WhatsApp channel](configure-whatsapp-channel.md)
+##### [Configure a WeChat channel](configure-wechat-channel.md)
+#### Set up Microsoft Teams 
+##### [Configure a Microsoft Teams channel](configure-microsoft-teams.md)
 
+#### Set up a custom messaging channel
+##### [Configure a custom messaging channel](configure-custom-channel.md)
+
+#### Set up entity records channel
+##### [Route entity records](entity-channel.md)
+##### [Route trigger for entity records](routing-trigger.md)
+
+#### Configure advanced options
+##### [Enable file attachments](enable-file-attachments.md)
+##### [Configure automated messages](configure-automated-message.md)
+##### [Configure pre-conversation surveys](configure-pre-chat-survey.md)
+##### [Configure post-conversation surveys](configure-post-conversation-survey.md)
+##### [Automatically identify customers](record-identification-rule.md)
 #### [Enable real-time translation of conversations](enable-real-time-translation.md)
+#### [Delete a channel instance](delete-channel.md)
+
+### Troubleshoot channel issues
+#### [Troubleshoot channel issues](troubleshoot-omnichannel-customer-service.md)
+
+### Agent experience
+#### [Omnichannel for Customer Service for agents](omnichannel-customer-service-app-agent.md)
+#### [Sign into the agent app](oc-sign-in-omnichannel.md)
+#### [Agent UI in Omnichannel for Customer Service](oc-introduction-agent-interface.md)
+
+
+
 
 
 
