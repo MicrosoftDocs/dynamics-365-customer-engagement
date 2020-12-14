@@ -270,9 +270,9 @@ You can debug Chrome Process in two ways:
 
 ### Debug Chrome Process remotely
 
-When you want to access and debug all the Chrome Process instances<!--note from editor: Edit okay?--> running in a desktop remotely, you need to have remote debugging access along with the port number.
+When you want to access and debug all the Chrome Process instances running in a desktop remotely, you need to have remote debugging access along with the port number.
 
-Use the **ChromeRemoteDebuggingPort** UII option and add the port number as the value. After setting this value, from the web browser, go to the `<IP address>:<\port number>` of the remote desktop. You can see all the Chrome Process instances running in that desktop, and then you can proceed with debugging.<!--note from editor: Suggested.-->
+Use the **ChromeRemoteDebuggingPort** UII option and add the port number as the value. After setting this value, from the web browser, go to the `<IP address>:<\port number>` of the remote desktop. You can see all the Chrome Process instances running in that desktop, and then you can proceed with debugging.
 
 ### Debug Chrome Process locally
 
@@ -350,7 +350,7 @@ To add keyboard shortcuts, you must add the UII options and provide the characte
 
 ### List of zoom control UII options
 
-| UII option | Description | Example character<!--note from editor: Do you really need to supply examples here?--> |
+| UII option | Description | Example character |
 |------------|-------------|-------------------|
 | ZoomInControlKey | Add a new character to support the zoom-in control when using Chrome Process. | `A` |
 | ZoomOutControlKey |Add a new character to support the zoom-out control when using Chrome Process. | `D1` |
@@ -439,7 +439,7 @@ If you leave the value blank or set it as **False**, Chrome Process will block w
 
 ## Accessibility support with Chrome Process
 
-With Chrome Process, you can enable accessibility support for webpages by using the **ChromeAccessibilityRenderer** option. This option enables screen reader applications to read the webpage. The Chromium Embedded Framework mandates the **force-renderer-accessibility**<!--note from editor: Edit okay?--> setting to be enabled when a screen reader is detected. The **force-renderer-accessibility** setting is applied if the UII option hasn't been added or the value is set to **True**. After adding the UII option, if you set it to **False** or leave the value empty, the UII option is disabled.
+With Chrome Process, you can enable accessibility support for webpages by using the **ChromeAccessibilityRenderer** option. This option enables screen reader applications to read the webpage. The Chromium Embedded Framework mandates the **force-renderer-accessibility** setting to be enabled when a screen reader is detected. The **force-renderer-accessibility** setting is applied if the UII option hasn't been added or the value is set to **True**. After adding the UII option, if you set it to **False** or leave the value empty, the UII option is disabled.
 
 **To add the ChromeAccessibilityRenderer UII option**
 
@@ -457,7 +457,7 @@ With Chrome Process, you can enable accessibility support for webpages by using 
 
 ## Set focus on webpage when using Chrome Process
 
-With Chrome Process, if you want to set the focus on a webpage automatically, you must create an action call with the action as **RunScript** and **Data** with a JavaScript function: `window.top.USDChromeSetFocus()`. After you create the action call, add it to the **PageReady** event for **Unified Interface Page**, and add it to the **BrowserDocumentComplete** event for the **CRM Page** hosted control.<!--note from editor: Edits okay? I couldn't tell what "in case of" meant here.-->
+With Chrome Process, if you want to set the focus on a webpage automatically, you must create an action call with the action as **RunScript** and **Data** with a JavaScript function: `window.top.USDChromeSetFocus()`. After you create the action call, add it to the **PageReady** event for **Unified Interface Page**, and add it to the **BrowserDocumentComplete** event for the **CRM Page** hosted control.
 
 ## Handling the URI protocol in Chrome Process
 
@@ -494,7 +494,7 @@ Now when an agent selects the number in the contact or account page, based on th
 
 ## Generate Chrome Process crash reports
 
-To investigate Chrome Process crashes in Unified Service Desk, you must generate the crash reports. Add the **ChromeEnableLogging** UII option and set the value as **True**.  The files will be written to the following location: C:\Users\\<agent1\>\AppData\Roaming\Microsoft\USD\CEF\cef_debug.log<!--note from editor: Okay to add these angle brackets? I assume "agent1" is being used as a variable here.-->
+To investigate Chrome Process crashes in Unified Service Desk, you must generate the crash reports. Add the **ChromeEnableLogging** UII option and set the value as **True**.  The files will be written to the following location: C:\Users\\<agent1\>\AppData\Roaming\Microsoft\USD\CEF\cef_debug.log
 
 **To add the ChromeEnableLogging UII option**
 
@@ -540,7 +540,7 @@ The Chrome Process provides many options that can be used on the webpages within
 
 With Chrome Process, if you use the `window.IsUSD` property in your JavaScript code, you must use it on predefined events like **pageReady** and **BrowserDocumentComplete** to determine whether the JavaScript code is running under Unified Service Desk.
 
-When you use the property on the Unified Service Desk predefined events, the property returns true. Otherwise, it returns false.<!--note from editor: What does it mean to "use the property"? I'm not sure what condition "otherwise, it returns false" is referring to.-->
+When you use the property on the Unified Service Desk predefined events, the property returns true. Otherwise, it returns false.
 
 ## Download attachments in Chrome Process
 
