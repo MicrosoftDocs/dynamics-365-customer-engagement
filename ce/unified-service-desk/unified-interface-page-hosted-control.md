@@ -16,12 +16,12 @@ search.app:
 ---
 
 # Unified Interface Page (hosted control)
-<!--note from editor: Please review my changes to the title. It shouldn't be the same as the H1.-->
+
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
 Use the Unified Interface Page hosted control type to load a URL or page from Unified Interface apps in model-driven apps. When a model-driven app page is loaded within a hosted control of this type, it automatically scans the page for data from the entity, and automatically populates the replacement parameters.
   
-This hosted control type exposes a number of predefined UII actions and events that are unique to the handling of windows in model-driven apps<!--note from editor: This edit is based on the CRM Page topic. Or should it be "model-driven apps in Windows"?-->, including list manipulation action and a find action for displaying a quick search or advanced search page.
+This hosted control type exposes a number of predefined UII actions and events that are unique to the handling of model-driven apps [!INCLUDE[pn-ms-windows-short](../includes/pn-ms-windows-short.md)], including list manipulation action and a find action for displaying a quick search or advanced search page.
 
 ## Create a Unified Interface Page hosted control
 
@@ -29,7 +29,7 @@ While you're creating a new hosted control, the fields on the **New Hosted Contr
 
 On the **New Hosted Control** screen:
 
-- In the **[!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]** area<!--note from editor: It's "under <area_name>" or "in the <area_name> area."-->, select **Unified Interface Page** from the **Unified Service Desk Component Type** drop-down list.
+- In the **[!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]** area, select **Unified Interface Page** from the **Unified Service Desk Component Type** drop-down list.
 
 - Select **Pre-fetch Data** to load related information for an entity record in the context along with the entity record page, without having to wait for the full entity webpage to load in the client application. The fetched entity information is populated in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] context, thus enabling any hosted control to quickly display relevant entity information in the client application. This can help agents instantly act or kick-start discussions with customers, saving crucial interaction time.
 
@@ -72,7 +72,7 @@ This action closes the hosted control, but prompts the user to save or abandon t
 ### Find
 
 Navigate to the quick find list view of the specified entity.
-<!--note from editor: In the table below and subsequently, I added "See description" because blank table cells are discouraged by the style guide, and "None" wouldn't have worked. What do you think?-->
+
 | Parameter|Description|
 |-----------------------------------|------------------------------------------|
 | *See description* |The data parameter should specify the entity logical name of the quick find list view to display. There are some special case values:<br/>- Use **case** or **incident** to display the quick find list view for cases.<br /> - Use **activities** or **activity** to display the quick find list view for activities.|
@@ -192,7 +192,7 @@ Creates a page for creating a new record of the entity specified, and treats the
 > The rest of the parameters should consist of name/value pairs. These are the additional pre-populated values in the form for creating a new record for the specified entity.
 
 ### Open\_CRM\_Page
-<!--note from editor: Please see the "pop-up" topic in Writing Style Guide, https://styleguides.azurewebsites.net/StyleGuide/Read?id=2700&topicid=28831 -->
+
 Opens an existing instance of the entity specified and identified by the ID, and treats the page as a pop-up window from the specified hosted control. The window navigation rules are evaluated to determine the location where the pop-up window should be displayed.
 
 | Parameter   | Description                             |
@@ -210,7 +210,7 @@ Opens an existing instance of the entity specified and identified by the ID, and
 | frame     | The frame from which this pop-up window originated.                                                                        |
 
 ### RealignWindow
-<!--note from editor: In crm-page-hosted-control.md, this section called an include file. Is it okay to have this be explicitly written out here? (I hope so, because the include file has some problems in it.)-->
+
 Displays the hosted control at the specified location on a monitor. You can display hosted controls on up to two monitors. This action is applicable for hosted control instances that are configured to be placed on a USDFloatingPanel or USDFloatingToolPanel panel type.
 
 | Parameter | Description                                                                                                                                                                                                                         |
@@ -249,11 +249,11 @@ This action injects JavaScript into the main frame of the application. You shoul
 | webResourceName | The name of the web resource in which the JavaScript function you want to execute is present. |
 | functionName | The name of the function. |
 
-The other parameters to the function are customer-defined and can be used to pass Unified Service Desk replacement parameters at runtime. This action accepts a list of optional parameters without keys. The list of optional parameters are passed as arguments in the same order from the second position after context replacement at runtime.<!--note from editor: I'm not sure what this means, will your reader know?-->
+The other parameters to the function are customer-defined and can be used to pass Unified Service Desk replacement parameters at runtime. This action accepts a list of optional parameters without keys. The list of optional parameters are passed as arguments in the same order from the second position after context replacement at runtime.
 
 #### Example
 
-You want to execute **RunXrmCommand** action to fill the form attributes of a entity form, where the entity form is hosted by a Unified Interface Page type of hosted control. The value you want to fill, from the perspective of [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], is a replacement parameter&mdash;`[[$Context.Key1]]`.<!--note from editor: Edit okay? Style Guide doesn't like us to use the possessive with our product or feature names.-->
+You want to execute **RunXrmCommand** action to fill the form attributes of a entity form, where the entity form is hosted by a Unified Interface Page type of hosted control. The value you want to fill, from the perspective of [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], is a replacement parameter&mdash;`[[$Context.Key1]]`.
 
 To execute the action, you need to write JavaScript type web resource (say, webResource1), and then write a function in the web resource.
 
@@ -269,15 +269,15 @@ You need to configure the data in the action call as follows:
 ```
 webResourceName = webResource1
 functionName = fillAttributeValue
-‘[[$Context.Key1]]'
+'[[$Context.Key1]]'
 ```
-<!--note from editor: Should the opening quotation mark in line 272 be straight?-->
+
 > [!Note]
-> In the above example, observe the single quotation marks around the replacement parameter, `[[$Context.Key1]]`. [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] considers only the value of the parameter (not the data type) and passes all the characters in context replaced value<!--note from editor: What is "context replaced value"?--> to the JavaScript function. You must be cautious and take care of the data type while configuring.
+> In the above example, observe the single quotation marks around the replacement parameter, `[[$Context.Key1]]`. [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] considers only the value of the parameter (not the data type) and passes all the characters in context replaced value to the JavaScript function. You must be cautious and take care of the data type while configuring.
 
 ### SetSize
 
-This action explicitly sets the width and height of the hosted control. This is particularly useful when using "auto" in your panel layouts.<!--note from editor: Will readers know what this means? (I don't!) -->
+This action explicitly sets the width and height of the hosted control. This is particularly useful when using "auto" in your panel layouts.
 
 | Parameter | Description                       |
 |-----------|-----------------------------------|
@@ -286,7 +286,7 @@ This action explicitly sets the width and height of the hosted control. This is 
 
 ### SaveAndClose
 
-This action saves the "dirty" data<!--note from editor: Should we define this briefly here, or will your readers know?--> on the model-driven app form and closes the hosted control.
+This action saves the "dirty" data on the model-driven app form and closes the hosted control.
 
 ### SaveAll
 
@@ -294,7 +294,7 @@ This action saves all forms in a hosted control that allows multiple pages to be
 
 ### Save
 
-This action saves the current Unified Interface Page.<!--note from editor: This seems to imply that we're saving the control, but isn't it more accurate to say "This action saves the current page in the app hosted by the Unified Interface Page control"?-->
+This action saves the current Unified Interface Page.
 
 ## Predefined events
 
