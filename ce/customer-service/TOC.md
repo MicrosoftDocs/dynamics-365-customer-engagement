@@ -65,30 +65,37 @@
 #### [View AI suggested similar cases and knowledge articles](csw-view-ai-suggested-cases-knowledge-articles.md)
 ### Administrator experience
 #### [Define parent and child cases](define-settings-parent-child-cases.md)
-#### Automatically create or update records
-##### [Create or update records in Customer Service Hub](automatically-create-update-records.md)
-##### [Set up rules to create or update records in legacy app](set-up-rules-to-automatically-create-or-update-records.md)
-##### [Create records from emails in legacy app](automatically-create-case-from-email.md)
 #### Customize your solution
 ##### [Modify case resolution dialog box](customer-service-hub-user-guide-modify-case-resolution-dialog.md)
 ### Troubleshoot, faqs
 #### [Issue converting an email to a case](troubleshoot-case-email-issue.md)
 #### [FAQs on AI suggestions for cases and knowledge articles](csw-faqs-ai-suggestions.md)
 
+## Automatically create or update records
+### [Create or update records in Customer Service Hub](automatically-create-update-records.md)
+### [Set up rules to create or update records in legacy app](set-up-rules-to-automatically-create-or-update-records.md)
+### [Create records from emails in legacy app](automatically-create-case-from-email.md)
 
-## Service management
-### Administrator experience
-#### [Define service-level agreements](define-service-level-agreements.md)
-#### [Enable entities for service level agreements](enable-entities-service-level-agreements.md)
-#### [Create entitlements to define support terms](create-entitlement-define-support-terms-customer.md)
-#### [Manage service configuration settings](../admin/system-settings-dialog-box-service-tab.md)
-#### Manage service schedules
-##### [Create customer service schedule](create-customer-service-schedule-define-work-hours.md)
-##### [Create and manage holiday schedule](set-up-holiday-schedule.md)
+
+## Service-level agreements
+### [Define service-level agreements](define-service-level-agreements.md)
+### [Enable entities for service level agreements](enable-entities-service-level-agreements.md)
+### [Create entitlements to define support terms](create-entitlement-define-support-terms-customer.md)
+### [Manage service configuration settings](../admin/system-settings-dialog-box-service-tab.md)
+### Manage service schedules
+#### [Create customer service schedule](create-customer-service-schedule-define-work-hours.md)
+#### [Create and manage holiday schedule](set-up-holiday-schedule.md)
 #### Customize your solution
 ##### [Add timer control to forms](add-timer-control-case-form-track-time-against-sla.md)
 ##### [Add a timer in forms to track time against enhanced SLAs](add-timer-forms-track-time-against-enhanced-sla.md)
 
+## Email
+### [Configure email](customer-service-hub-user-guide-email-admin.md)
+### [Use email](customer-service-hub-user-guide-email-overview.,d)
+
+## Timeline
+### [Configure timeline](customer-service-hub-user-guide-timeline-admin.md)
+### [Use timeline](customer-service-hub-user-guide-timeline-overview.md)
 
 ## Knowledge management
 ### Agent experience
@@ -107,6 +114,43 @@
 #### [Extend transformer logic on templates](extend-transformer-logic-template.md)
 #### [Share knowledge articles in Omnichannel for Customer Service](knowledge-management-oc.md)
 #### [Search for and share knowledge articles](oc-search-knowledge-articles.md)
+
+## Chat
+### Administrator experience
+#### [Introduction to the chat channel](set-up-chat-widget.md)
+#### [Configure a chat widget](add-chat-widget.md)
+#### [Enable download, email of chat transcripts](download-email-chat-transcripts.md)
+#### [Configure agent display name](agent-display-name.md)
+#### [Configure proactive chat](proactive-chat.md)
+#### [Configure reconnection to a previous chat session](configure-reconnect-chat.md)
+#### [Customize a chat widget](customize-chat-widget.md)
+
+#### Configure advanced settings
+##### [Configure business hours](create-operating-hours.md)
+##### [Enable file attachments](enable-file-attachments.md)
+##### [Configure pre-conversation surveys](configure-pre-chat-survey.md)
+##### [Configure post-conversation surveys](configure-post-conversation-survey.md)
+##### [Automatically identify customers](record-identification-rule.md)
+##### [Configure chat authentication settings](create-chat-auth-settings.md)
+##### [Enable real-time translation of conversations](enable-real-time-translation.md)
+##### [Set up customer location detection](geo-location-provider.md)
+##### [Configure self-service settings for customer actions](enable-self-service-settings.md)
+##### [Configure automated messages](configure-automated-message.md)
+##### [Create message templates](create-message-templates.md)
+##### [Configure outbound messages](outbound-messaging.md)
+##### [Configure data masking](data-masking-settings.md)
+
+### Agent experience
+#### [Omnichannel for Customer Service for agents](omnichannel-customer-service-app-agent.md)
+#### [Sign into the agent app](oc-sign-in-omnichannel.md)
+#### [Know the agent interface in Omnichannel for Customer Service](oc-introduction-agent-interface.md)
+#### [View agent dashboard and work items](oc-agent-dashboard.md)
+#### [View agent notifications](oc-notifications.md)
+#### [View communication panel](oc-conversation-control.md)
+
+
+## Portals
+### [Embed a chat widget in a portal](embed-chat-widget-portal.md)
 
 ## Agent productivity tools
 ### Agent experience
@@ -128,21 +172,9 @@
 ##### [Enable sharing of knowledge articles](knowledge-management-oc.md)
 
 
-
-
 ## Channels
 ### [Introduction to channels](channels.md)
 ### Administrator experience
-
-#### [Overview of chat channels](set-up-chat-widget.md)
-##### [Configure a chat widget](add-chat-widget.md)
-##### [Enable download, email of chat transcripts](download-email-chat-transcripts.md)
-##### [Configure agent display name](agent-display-name.md)
-##### [Configure proactive chat](proactive-chat.md)
-##### [Embed chat widget in a portal](embed-chat-widget-portal.md)
-##### [Configure reconnection to a previous chat session](configure-reconnect-chat.md)
-##### [Customize a chat widget](customize-chat-widget.md)
-
 #### Set up SMS channels
 ##### [Configure an SMS channel for TeleSign](configure-sms-channel.md)
 ##### [Configure an SMS channel for Twilio](configure-sms-channel-twilio.md)
@@ -162,37 +194,32 @@
 ##### [Route entity records](entity-channel.md)
 ##### [Route trigger for entity records](routing-trigger.md)
 
-#### Configure advanced settings
-##### [Configure business hours](create-operating-hours.md)
-##### [Enable file attachments](enable-file-attachments.md)
-##### [Configure pre-conversation surveys](configure-pre-chat-survey.md)
-##### [Configure post-conversation surveys](configure-post-conversation-survey.md)
-##### [Automatically identify customers](record-identification-rule.md)
-##### [Configure chat authentication settings](create-chat-auth-settings.md)
-##### [Enable real-time translation of conversations](enable-real-time-translation.md)
-##### [Set up customer location detection](geo-location-provider.md)
-##### [Configure self-service settings for customer actions](enable-self-service-settings.md)
-##### [Configure automated messages](configure-automated-message.md)
-##### [Create message templates](create-message-templates.md)
-##### [Configure outbound messages](outbound-messaging.md)
-##### [Configure data masking](data-masking-settings.md)
+### Troubleshoot channel issues
+#### [Troubleshoot channel issues](troubleshoot-omnichannel-customer-service.md)
+
+## Virtual agents
+### Configure bots
+#### [Integrate an Azure bot](configure-bot.md)
+#### [Integrate a Power Virtual Agents bot](configure-bot-virtual-agent.md)
+#### [Configure context variables for bots](context-variables-for-bot.md)
 
 
 #### [Delete a channel instance](delete-channel.md)
 
-### Troubleshoot channel issues
-#### [Troubleshoot channel issues](troubleshoot-omnichannel-customer-service.md)
 
-### Agent experience
-#### [Omnichannel for Customer Service for agents](omnichannel-customer-service-app-agent.md)
-#### [Sign into the agent app](oc-sign-in-omnichannel.md)
-#### [Know the agent interface in Omnichannel for Customer Service](oc-introduction-agent-interface.md)
-#### [View agent dashboard and work items](oc-agent-dashboard.md)
-#### [View agent notifications](oc-notifications.md)
-#### [View communication panel](oc-conversation-control.md)
+
+## Insights
+### [Introduction to Customer Service Insights](introduction-customer-service-analytics.md)
 
 
 
+## Service scheduling
+### Administrator experience
+
+
+
+## Connected Customer Service with IoT
+### Administrator experience
 
 
 ## Migration solutions
