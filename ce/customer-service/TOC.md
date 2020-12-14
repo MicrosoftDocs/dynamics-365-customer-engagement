@@ -109,18 +109,26 @@
 #### [Search for and share knowledge articles](oc-search-knowledge-articles.md)
 
 ## Agent productivity tools
-### [Productivity pane in Customer Service workspace](csw-productivity-pane.md)
-### [Productivity pane Omnichannel for Customer Service](productivity-pane.md)
-#### [Enable productivity pane, smart assist](../app-profile-manager/app-profile-manager.md#enable-prod-pane)
-#### [Create macros](macros.md)
-#### [Guide agents with scripts](agent-scripts.md)
-#### [Use automation dictionary](automation-dictionary-keys.md)
-#### [Create quick replies](create-quick-replies.md)
-#### [Enable personal quick replies](enable-personal-quick-replies.md)
-#### [Enable sound notifications](enable-sound-notifications.md)
-#### [Enable missed notifications](manage-missed-notifications.md)
-#### [Enable auto-assignment of conversations](enable-auto-assign-conversations.md)
-#### [Enable sharing of knowledge articles](knowledge-management-oc.md)
+### Agent experience
+#### [View smart assist suggestions for knowledge articles and similar cases](oc-view-ai-suggested-cases-articles.md)
+#### [View smart assist suggestions for agents configured using custom Azure bot](oc-smart-assist.md)
+#### [Use agent scripts for customer interactions](oc-agent-scripts.md)
+### Administrator experience
+#### [Productivity pane in Customer Service workspace](csw-productivity-pane.md)
+#### [Productivity pane Omnichannel for Customer Service](productivity-pane.md)
+##### [Enable productivity pane, smart assist](../app-profile-manager/app-profile-manager.md#enable-prod-pane)
+##### [Create macros](macros.md)
+##### [Guide agents with scripts](agent-scripts.md)
+##### [Use automation dictionary](automation-dictionary-keys.md)
+##### [Create quick replies](create-quick-replies.md)
+##### [Enable personal quick replies](enable-personal-quick-replies.md)
+##### [Enable sound notifications](enable-sound-notifications.md)
+##### [Enable missed notifications](manage-missed-notifications.md)
+##### [Enable auto-assignment of conversations](enable-auto-assign-conversations.md)
+##### [Enable sharing of knowledge articles](knowledge-management-oc.md)
+
+
+
 
 ## Channels
 ### [Introduction to channels](channels.md)
@@ -154,13 +162,22 @@
 ##### [Route entity records](entity-channel.md)
 ##### [Route trigger for entity records](routing-trigger.md)
 
-#### Configure advanced options
+#### Configure advanced settings
+##### [Configure business hours](create-operating-hours.md)
 ##### [Enable file attachments](enable-file-attachments.md)
-##### [Configure automated messages](configure-automated-message.md)
 ##### [Configure pre-conversation surveys](configure-pre-chat-survey.md)
 ##### [Configure post-conversation surveys](configure-post-conversation-survey.md)
 ##### [Automatically identify customers](record-identification-rule.md)
-#### [Enable real-time translation of conversations](enable-real-time-translation.md)
+##### [Configure chat authentication settings](create-chat-auth-settings.md)
+##### [Enable real-time translation of conversations](enable-real-time-translation.md)
+##### [Set up customer location detection](geo-location-provider.md)
+##### [Configure self-service settings for customer actions](enable-self-service-settings.md)
+##### [Configure automated messages](configure-automated-message.md)
+##### [Create message templates](create-message-templates.md)
+##### [Configure outbound messages](outbound-messaging.md)
+##### [Configure data masking](data-masking-settings.md)
+
+
 #### [Delete a channel instance](delete-channel.md)
 
 ### Troubleshoot channel issues
@@ -169,8 +186,10 @@
 ### Agent experience
 #### [Omnichannel for Customer Service for agents](omnichannel-customer-service-app-agent.md)
 #### [Sign into the agent app](oc-sign-in-omnichannel.md)
-#### [Agent UI in Omnichannel for Customer Service](oc-introduction-agent-interface.md)
-
+#### [Know the agent interface in Omnichannel for Customer Service](oc-introduction-agent-interface.md)
+#### [View agent dashboard and work items](oc-agent-dashboard.md)
+#### [View agent notifications](oc-notifications.md)
+#### [View communication panel](oc-conversation-control.md)
 
 
 
