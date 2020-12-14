@@ -1,7 +1,7 @@
 ---
 title: "Create lead scoring models (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to set up automatic scoring rules and identify sales-ready leads in Dynamics 365 Marketing."
-ms.date: 03/26/2020
+ms.date: 12/14/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -37,7 +37,7 @@ The lead-scoring feature brings together many aspects of Dynamics 365 Marketing,
 
 Automatic lead scoring only works for leads that are associated with a parent contact or an account. Scores won't appear for leads that don't have a parent contact or account associated with them.
 
-For leads generated or updated by marketing forms configured to update both leads and contacts, the marketing form always finds or creates the records required to establish the lead/contact pair (but not all form configurations do this, as explained in the following section). Also, any user can manually associated a lead with a parent contact or parent account by opening the lead record and using the **Inquiry** stage of the **Lead to opportunity marketing sales process** business process. Here, the relevant fields are labeled **Existing contact?** and **Existing account?**, respectively.
+For leads generated or updated by marketing forms configured to update both leads and contacts, the marketing form always finds or creates the records required to establish the lead/contact pair (but not all form configurations do this, as explained in the following section). Also, any user can manually associate a lead with a parent contact or parent account by opening the lead record and using the **Inquiry** stage of the **Lead to opportunity marketing sales process** business process. Here, the relevant fields are labeled **Existing contact?** and **Existing account?**, respectively.
 
 ![Manually link a lead to a contact record](media/leads-related-contact.png "Manually link a lead to a contact record")
 
@@ -117,6 +117,9 @@ Set up the logic for a condition tile by making the following settings:
 
     > [!NOTE]
     > All expressions belonging to the same condition are combined using an AND operator, which means that all expressions must evaluate to TRUE for the overall condition to be true. To score for all qualifying occurrences (for example, to score for any email open, regardless of message or journey) remove all expressions using their close box (including the expression added by default).
+
+    > [!IMPORTANT]
+    > [Calculated and rollup fields](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/calculated-rollup-attributes) cannot be used in expressions.
 
 There are two categories of conditions:
 
