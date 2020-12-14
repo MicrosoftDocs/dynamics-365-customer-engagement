@@ -91,7 +91,7 @@
 
 ## Email
 ### [Configure email](customer-service-hub-user-guide-email-admin.md)
-### [Use email](customer-service-hub-user-guide-email-overview.,d)
+### [Use email](customer-service-hub-user-guide-email-overview.md)
 
 ## Timeline
 ### [Configure timeline](customer-service-hub-user-guide-timeline-admin.md)
