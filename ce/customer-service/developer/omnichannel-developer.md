@@ -33,19 +33,19 @@ Anticipating areas where customers need help and then engaging them through chat
 
 When a customer initiates a chat, you can pass custom context to Omnichannel for Customer Service.
 
-[Manage custom context](how-to/send-context-starting-chat.md)
+[Manage custom context](send-context-starting-chat.md)
 
 ## Display custom context 
 
 Learn how you can display the context variables in the Conversation Summary Control for a conversation on the UI.
 
-[Display custom context](how-to/display-custom-context.md)
+[Display custom context](display-custom-context.md)
 
 ## Send authentication token 
 
 Learn how you can pass an authentication token to Omnichannel for Customer Service to authenticate a customer when they initiate a chat.
 
-[Send authentication token](how-to/send-auth-token-starting-chat.md)
+[Send authentication token](send-auth-token-starting-chat.md)
 
 ##  Enable a bot to escalate and end conversation
 
@@ -69,25 +69,25 @@ Learn how you can automatically close a conversation using Web API.
 
 Read how you can build a smart assist bot to help agents resolve customer queries faster and more effectively.
 
-[Build a smart assist bot](how-to/smart-assist-bot.md)
+[Build a smart assist bot](smart-assist-bot.md)
 
 ## Enable bot context
 
 Enable your Azure bot to understand context while authoring a bot flow. 
 
-[Enable bot context](how-to/enable-bot-context.md)
+[Enable bot context](enable-bot-context.md)
 
 ## Bring your own custom messaging channel
 
 Read how you can implement a connector to integrate custom messaging channels using Direct Line Bot.
 
-[Bring your own channel](how-to/bring-your-own-channel.md)
+[Bring your own channel](bring-your-own-channel.md) 
 
 
 ### See also
 
 [Introduction to Omnichannel for Customer Service](../introduction-omnichannel.md)<br />
-[Omnichannel for Customer Service for administrators](../administrator/omnichannel-administrator.md)<br />
-[Omnichannel for Customer Service for system customizers](../customizer/omnichannel-customizer.md)<br />
-[Omnichannel for Customer Service for agents](../agent/omnichannel-agent-overview.md)<br />
+[Omnichannel for Customer Service for administrators](../omnichannel-administrator.md)<br />
+[Omnichannel for Customer Service for system customizers](../omnichannel-customizer.md)<br />
+[Omnichannel for Customer Service for agents](../omnichannel-agent-overview.md)<br />
 [Dynamics 365 Channel Integration Framework guide](../../customer-service/channel-integration-framework/channel-integration-framework.md)

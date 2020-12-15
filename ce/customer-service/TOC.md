@@ -10,26 +10,28 @@
 ## International availability
 ### [International availability of Omnichannel for Customer Service](international-availability.md)
 
-## Installation
+## Installation and upgrade
 ### [Install Customer Service](availability-customer-service-hub.md)
+### [Upgrade Customer Service](upgrade-ish-csh.md)
 ### Install Omnichannel for Customer Service
 #### [Provision Omnichannel for Customer Service](omnichannel-provision-license.md)
 #### [Export and import Omnichannel for Customer Service](export-import-omnichannel-data.md)
 #### [Uninstall Omnichannel for Customer Service](remove-omnichannel.md)
 #### [Delete solutions](delete-solution.md)
 ### [Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md)
+### [Try channels in Omnichannel for Customer Service](try-channels.md)
 
 ## Get started
 ### [Get started with Customer Service](https://docs.microsoft.com/learn/modules/get-started-with-dynamics-365-for-customer-service/)
 ### [Configure Customer Service](service-manager-guide.md)
-### [Get started with Customer Service Hub](customer-service-hub-user-guide-basics.md)
+### [Customer Service Hub](customer-service-hub-user-guide-basics.md)
 ### [Use Customer Service Team Member](customer-service-team-member.md)
-### [Get started with Customer Service workspace](csw-overview.md)
-### [Get started with Omnichannel for Customer Service](introduction-omnichannel.md)
+### [Customer Service workspace](csw-overview.md)
+### [Omnichannel for Customer Service](introduction-omnichannel.md)
 ### Administrator experience
-#### [Try channels in Omnichannel for Customer Service](try-channels.md)
 #### [Demo data for Chat for Dynamics 365 Customer Service](chat-dynamics365-customer-service-demo-data.md)
 #### [Quickly configure a chat widget](configure-live-chat.md)
+#### [Understand routing and work distribution](unified-routing-work-distribution.md)
 
 ## User management
 ### [Create users and assign security roles](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles)
@@ -57,8 +59,6 @@
 ## Case management
 ### Administrator experience
 #### [Define parent and child cases](define-settings-parent-child-cases.md)
-#### Customize your solution
-##### [Modify case resolution dialog box](customer-service-hub-user-guide-modify-case-resolution-dialog.md)
 ### Troubleshoot, faqs
 #### [Issue converting an email to a case](troubleshoot-case-email-issue.md)
 #### [FAQs on AI suggestions for cases and knowledge articles](csw-faqs-ai-suggestions.md)
@@ -68,6 +68,8 @@
 #### [Merge cases](customer-service-hub-user-guide-merge-cases.md)
 #### [Convert a case to a knowledge article](customer-service-hub-user-guide-convert-case-to-knowledge-article.md)
 #### [View AI suggested similar cases and knowledge articles](csw-view-ai-suggested-cases-knowledge-articles.md)
+### Customize case management
+#### [Modify case resolution dialog box](customer-service-hub-user-guide-modify-case-resolution-dialog.md)
 
 
 ## Automatically create or update records
@@ -84,7 +86,7 @@
 ### Manage service schedules
 #### [Create customer service schedule](create-customer-service-schedule-define-work-hours.md)
 #### [Create and manage holiday schedule](set-up-holiday-schedule.md)
-#### Customize your solution
+### Customize SLAs
 ##### [Add timer control to forms](add-timer-control-case-form-track-time-against-sla.md)
 ##### [Add a timer in forms to track time against enhanced SLAs](add-timer-forms-track-time-against-enhanced-sla.md)
 
@@ -99,8 +101,6 @@
 ## Knowledge management
 ### Administrator experience
 #### [Set up knowledge search providers](set-up-search-providers.md)
-#### [Add the knowledge base search control to forms](add-knowledge-base-search-control-forms.md)
-#### [Knowledge base search mechanisms](knowledge-base-search-methods.md)
 #### [Work with knowledge articles](work-knowledge-articles.md)
 #### [Create a knowledge article using a template](create-knowledge-article-using-template.md)
 #### [Extend transformer logic on templates](extend-transformer-logic-template.md)
@@ -113,6 +113,9 @@
 #### [Create knowledge article templates in Customer Service](create-templates-knowledge-article.md)
 #### [Configure knowledge management](set-up-knowledge-management-embedded-knowledge-search.md)
 #### [Create and manage knowledge categories](create-manage-categories.md)
+### Customize knowledge management
+#### [Knowledge base search mechanisms](knowledge-base-search-methods.md)
+#### [Add the knowledge base search control to forms](add-knowledge-base-search-control-forms.md)
 
 ## Chat
 ### Administrator experience
@@ -122,9 +125,7 @@
 #### [Configure agent display name](agent-display-name.md)
 #### [Configure proactive chat](proactive-chat.md)
 #### [Configure reconnection to a previous chat session](configure-reconnect-chat.md)
-#### [Customize a chat widget](customize-chat-widget.md)
 #### [Delete a channel instance](delete-channel.md)
-
 #### Configure advanced settings
 ##### [Configure business hours](create-operating-hours.md)
 ##### [Enable file attachments](enable-file-attachments.md)
@@ -139,8 +140,6 @@
 ##### [Create message templates](create-message-templates.md)
 ##### [Configure outbound messages](outbound-messaging.md)
 ##### [Configure data masking](data-masking-settings.md)
-
-
 ### Agent experience
 #### [Omnichannel for Customer Service for agents](omnichannel-customer-service-app-agent.md)
 #### [Sign into the agent app](oc-sign-in-omnichannel.md)
@@ -148,7 +147,8 @@
 #### [View agent dashboard and work items](oc-agent-dashboard.md)
 #### [View agent notifications](oc-notifications.md)
 #### [View communication panel](oc-conversation-control.md)
-
+### Developer experience
+#### [Customize a chat widget](customize-chat-widget.md)
 
 ## Portals
 ### [Embed a chat widget in a portal](embed-chat-widget-portal.md)
@@ -186,9 +186,13 @@
 ##### [Configure a WeChat channel](configure-wechat-channel.md)
 #### Set up Microsoft Teams 
 ##### [Configure a Microsoft Teams channel](configure-microsoft-teams.md)
-
 #### Set up a custom messaging channel
 ##### [Configure a custom messaging channel](configure-custom-channel.md)
+### Developer experience
+#### [Build a smart assist bot](smart-assist-bot.md)
+#### Bring your own custom messaging channel
+##### [Bring your own custom messaging channel: Direct Line bot](bring-your-own-channel.md)
+##### [Test the custom messaging channel](bring-your-own-channel-sample-html.md)
 
 #### Set up entity records channel
 ##### [Route entity records](entity-channel.md)
@@ -197,12 +201,13 @@
 ### Troubleshoot channel issues
 #### [Troubleshoot channel issues](troubleshoot-omnichannel-customer-service.md)
 
-## Virtual agents
+## Bot agents
 ### Administrator experience
 #### Configure bots
 ##### [Integrate an Azure bot](configure-bot.md)
 ##### [Integrate a Power Virtual Agents bot](configure-bot-virtual-agent.md)
 ##### [Configure context variables for bots](context-variables-for-bot.md)
+### Developer experience
 
 
 
@@ -239,7 +244,8 @@
 #### Monitor conversations
 ##### [Monitor and assign converations](monitor-conversations.md)
 ##### [Monitor and analyze sentiment](supervisor-sentiment-monitoring.md)
-
+### Customize insights
+#### [Configure interactive dashboards](configure-interactive-dashboards-customer-service-hub.md)
 
 
 ## Service scheduling
@@ -296,8 +302,6 @@
 
 ## Deprecations
 ### [Deprecations in Customer Service](deprecations-customer-service.md)
-
-
 
 
 ## [Unified Service Desk Guide](https://docs.microsoft.com/dynamics365/unified-service-desk/unified-service-desk)
