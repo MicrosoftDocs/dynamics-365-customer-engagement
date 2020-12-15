@@ -10,6 +10,10 @@
 ## International availability
 ### [International availability of Omnichannel for Customer Service](international-availability.md)
 
+## Accessibility and privacy
+### [Accessibility](https://docs.microsoft.com/dynamics365/get-started/accessibility/customer-engagement/accessibility)
+### [Privacy and personal data](https://docs.microsoft.com/dynamics365/get-started/gdpr/)
+
 ## Installation and upgrade
 ### [Install Customer Service](availability-customer-service-hub.md)
 ### [Upgrade Customer Service](upgrade-ish-csh.md)
@@ -87,8 +91,8 @@
 #### [Create customer service schedule](create-customer-service-schedule-define-work-hours.md)
 #### [Create and manage holiday schedule](set-up-holiday-schedule.md)
 ### Customize SLAs
-##### [Add timer control to forms](add-timer-control-case-form-track-time-against-sla.md)
-##### [Add a timer in forms to track time against enhanced SLAs](add-timer-forms-track-time-against-enhanced-sla.md)
+#### [Add timer control to forms](add-timer-control-case-form-track-time-against-sla.md)
+#### [Add a timer in forms to track time against enhanced SLAs](add-timer-forms-track-time-against-enhanced-sla.md)
 
 ## Email
 ### [Configure email](customer-service-hub-user-guide-email-admin.md)
@@ -109,6 +113,7 @@
 ### Agent experience
 #### [Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)
 #### [Search for knowledge articles](search-knowledge-articles-csh.md)
+#### [Search for knowledge articles on smart assist](oc-search-knowledge-articles.md)
 #### [Create knowledge article templates in Power Apps](/power-platform/admin/create-templates-articles.md)
 #### [Create knowledge article templates in Customer Service](create-templates-knowledge-article.md)
 #### [Configure knowledge management](set-up-knowledge-management-embedded-knowledge-search.md)
@@ -147,8 +152,15 @@
 #### [View agent dashboard and work items](oc-agent-dashboard.md)
 #### [View agent notifications](oc-notifications.md)
 #### [View communication panel](oc-conversation-control.md)
+#### [Create a record](oc-create-record.md)
+#### [Search, link, and unlink a record](oc-search-link-unlink-record.md)
 ### Developer experience
 #### [Customize a chat widget](customize-chat-widget.md)
+#### [Render live chat widget on mobile app](render-live-chat-widget-mobile.md)
+#### [Download transcripts in bulk](download-transcripts-bulk.md)
+#### [Add a web resource for real-time translation](add-web-resource-real-time-translation.md)
+#### [Enable third-party co-browse](third-party-co-browse.md)
+#### [Live chat widget telemetry](live-chat-telemetry.md)
 
 ## Portals
 ### [Embed a chat widget in a portal](embed-chat-widget-portal.md)
@@ -171,6 +183,9 @@
 #### [View smart assist suggestions for knowledge articles and similar cases](oc-view-ai-suggested-cases-articles.md)
 #### [View smart assist suggestions for agents configured using custom Azure bot](oc-smart-assist.md)
 #### [Use agent scripts for customer interactions](oc-agent-scripts.md)
+### Developer experience
+#### [Build a smart assist bot](smart-assist-bot.md)
+#### [Implement custom scenario](smart-assist-scenario.md)
 
 ## Channels
 ### [Introduction to channels](channels.md)
@@ -189,15 +204,12 @@
 #### Set up a custom messaging channel
 ##### [Configure a custom messaging channel](configure-custom-channel.md)
 ### Developer experience
-#### [Build a smart assist bot](smart-assist-bot.md)
 #### Bring your own custom messaging channel
 ##### [Bring your own custom messaging channel: Direct Line bot](bring-your-own-channel.md)
 ##### [Test the custom messaging channel](bring-your-own-channel-sample-html.md)
-
 #### Set up entity records channel
 ##### [Route entity records](entity-channel.md)
 ##### [Route trigger for entity records](routing-trigger.md)
-
 ### Troubleshoot channel issues
 #### [Troubleshoot channel issues](troubleshoot-omnichannel-customer-service.md)
 
@@ -208,8 +220,9 @@
 ##### [Integrate a Power Virtual Agents bot](configure-bot-virtual-agent.md)
 ##### [Configure context variables for bots](context-variables-for-bot.md)
 ### Developer experience
-
-
+#### [Enable bot context NuGet package](enable-bot-context.md)
+#### [Enable a bot to escalate and end conversation](bot-escalate-end-conversation.md)
+#### [Download attachments from Azure bot](download-attachments-bot.md)
 
 ## Insights
 ### [Introduction to Customer Service Insights](introduction-customer-service-analytics.md)
@@ -238,7 +251,7 @@
 ##### [Introduction to intraday supervisor experiences](intro-intraday-insights-dashboard.md)
 ##### [View and understand Omnichannel intraday insights](intraday-insights-dashboard.md)
 ##### [View and understand Omnichannel Ongoing Conversations dashboard](ongoing-conversations-dashboard.md)
-#### Omnichannel i=Insights
+#### Omnichannel Insights
 ##### [Introduction to Omnichannel Insights](intro-dynamics-365-omnichannel-insights-dashboard.md)
 ##### [View and understand Omnichannel Insights dashboard](omnichannel-insights-dashboard.md)
 #### Monitor conversations
@@ -303,6 +316,178 @@
 ## Deprecations
 ### [Deprecations in Customer Service](deprecations-customer-service.md)
 
+## Developer guide
+### [Overview](omnichannel-developer.md)
+### [Extend Omnichannel for Customer Service](extend-omnichannel.md)
+### Entity reference
+#### [Overview](developer/reference/entities/overview.md)
+#### [Deprecated entities](developer/reference/entities/deprecated-entities.md)
+#### [incident](developer/reference/entities/incident.md)
+#### [msdyn_actioninputparameter](developer/reference/entities/msdyn_actioninputparameter.md)
+#### [msdyn_actionoutputparameter](developer/reference/entities/msdyn_actionoutputparameter.md)
+#### [msdyn_agentscript](developer/reference/entities/msdyn_agentscript.md)
+#### [msdyn_agentscriptstep](developer/reference/entities/msdyn_agentscriptstep.md)
+#### [msdyn_analytics](developer/reference/entities/msdyn_analytics.md)
+#### [msdyn_authenticationsettings](developer/reference/entities/msdyn_authenticationsettings.md)
+#### [msdyn_cannedmessage](developer/reference/entities/msdyn_cannedmessage.md)
+#### [msdyn_cdsentityengagementctx](developer/reference/entities/msdyn_cdsentityengagementctx.md)
+#### [msdyn_chatansweroption](developer/reference/entities/msdyn_chatansweroption.md)
+#### [msdyn_chatquestionnaireresponse](developer/reference/entities/msdyn_chatquestionnaireresponse.md)
+#### [msdyn_chatquestionnaireresponseitem](developer/reference/entities/msdyn_chatquestionnaireresponseitem.md)
+#### [msdyn_chatwidgetlanguage](developer/reference/entities/msdyn_chatwidgetlanguage.md)
+#### [msdyn_channelcapability](developer/reference/entities/msdyn_channelcapability.md)
+#### [msdyn_conversationaction](developer/reference/entities/msdyn_conversationaction.md)
+#### [msdyn_conversationactionlocale](developer/reference/entities/msdyn_conversationactionlocale.md)
+#### [msdyn_conversationsuggestionrequestpayload](developer/reference/entities/msdyn_conversationsuggestionrequestpayload.md)
+#### [msdyn_consoleapplicationsessiontemplate](developer/reference/entities/msdyn_consoleapplicationsessiontemplate.md)
+#### [msdyn_customengagementctx](developer/reference/entities/msdyn_customengagementctx.md)
+
+#### [msdyn_entityconfig](developer/reference/entities/msdyn_entityconfig.md)
+#### [msdyn_entityroutingconfiguration](developer/reference/entities/msdyn_entityroutingconfiguration.md)
+#### [msdyn_facebookengagementctx](developer/reference/entities/msdyn_facebookengagementctx.md)
+#### [msdyn_lineengagementctx](developer/reference/entities/msdyn_lineengagementctx.md)
+
+#### [msdyn_livechatconfig](developer/reference/entities/msdyn_livechatconfig.md)
+#### [msdyn_livechatengagementctx](developer/reference/entities/msdyn_livechatengagementctx.md)
+#### [msdyn_livechatwidgetlocation](developer/reference/entities/msdyn_livechatwidgetlocation.md)
+#### [msdyn_liveconversation](developer/reference/entities/msdyn_liveconversation.md)
+#### [msdyn_liveworkstream](developer/reference/entities/msdyn_liveworkstream.md)
+
+#### [msdyn_localizedsurveyquestion](developer/reference/entities/msdyn_localizedsurveyquestion.md)
+#### [msdyn_maskingrule](developer/reference/entities/msdyn_maskingrule.md)
+#### [msdyn_macroactiontemplate](developer/reference/entities/msdyn_macroactiontemplate.md)
+#### [msdyn_macroconnector](developer/reference/entities/msdyn_macroconnector.md)
+#### [msdyn_macrosession](developer/reference/entities/msdyn_macrosession.md)
+#### [msdyn_macrosolutionconfiguration](developer/reference/entities/msdyn_macrosolutionconfiguration.md)
+
+#### [msdyn_ocbotchannelregistration](developer/reference/entities/msdyn_ocbotchannelregistration.md)
+#### [msdyn_ocfbpage](developer/reference/entities/msdyn_ocfbpage.md)
+#### [msdyn_occhannelconfiguration](developer/reference/entities/msdyn_occhannelconfiguration.md)
+#### [msdyn_occustommessagingchannel](developer/reference/entities/msdyn_occustommessagingchannel.md)
+
+#### [msdyn_occhannelstateconfiguration](developer/reference/entities/msdyn_occhannelstateconfiguration.md)
+#### [msdyn_oc_geolocationprovider](developer/reference/entities/msdyn_oc_geolocationprovider.md)
+#### [msdyn_ocfbapplication](developer/reference/entities/msdyn_ocfbapplication.md)
+#### [msdyn_oclanguage](developer/reference/entities/msdyn_oclanguage.md)
+#### [msdyn_oclinechannelconfig](developer/reference/entities/msdyn_oclinechannelconfig.md)
+
+#### [msdyn_ocliveworkitem](developer/reference/entities/msdyn_ocliveworkitem.md)
+#### [msdyn_ocliveworkitemcontextitem](developer/reference/entities/msdyn_ocliveworkitemcontextitem.md)
+#### [msdyn_ocliveworkitemsentiment](developer/reference/entities/msdyn_ocliveworkitemsentiment.md)
+#### [msdyn_ocliveworkitemparticipant](developer/reference/entities/msdyn_ocliveworkitemparticipant.md)
+#### [msdyn_ocliveworkitemcharacteristic](developer/reference/entities/msdyn_ocliveworkitemcharacteristic.md)
+#### [msdyn_ocliveworkstreamcontextvariable](developer/reference/entities/msdyn_ocliveworkstreamcontextvariable.md)
+#### [msdyn_oclocalizationdata](developer/reference/entities/msdyn_oclocalizationdata.md)
+#### [msdyn_ocruleitem](developer/reference/entities/msdyn_ocruleitem.md)
+#### [msdyn_ocsentimentdailytopictrending](developer/reference/entities/msdyn_ocsentimentdailytopictrending.md)
+#### [msdyn_ocsession](developer/reference/entities/msdyn_ocsession.md)
+#### [msdyn_ocsystemmessage](developer/reference/entities/msdyn_ocsystemmessage.md)
+#### [msdyn_ocoutboundconfiguration](developer/reference/entities/msdyn_ocoutboundconfiguration.md)
+#### [msdyn_ocoutboundmessage](developer/reference/entities/msdyn_ocoutboundmessage.md)
+#### [msdyn_ocprovisioningstate](developer/reference/entities/msdyn_ocprovisioningstate.md)
+#### [msdyn_ocrequest](developer/reference/entities/msdyn_ocrequest.md)
+#### [msdyn_ocsentimentdailytopic](developer/reference/entities/msdyn_ocsentimentdailytopic.md)
+#### [msdyn_ocsentimentdailytopickeyword](developer/reference/entities/msdyn_ocsentimentdailytopickeyword.md)
+#### [msdyn_ocsessioncharacteristic](developer/reference/entities/msdyn_ocsessioncharacteristic.md)
+#### [msdyn_ocsessionsentiment](developer/reference/entities/msdyn_ocsessionsentiment.md)
+#### [msdyn_octag](developer/reference/entities/msdyn_octag.md)
+#### [msdyn_octeamschannelconfig](developer/reference/entities/msdyn_octeamschannelconfig.md)
+#### [msdyn_octwitterapplication](developer/reference/entities/msdyn_octwitterapplication.md)
+#### [msdyn_octwitterhandle](developer/reference/entities/msdyn_octwitterhandle.md)
+#### [msdyn_ocwechatchannelconfig](developer/reference/entities/msdyn_ocwechatchannelconfig.md)
+#### [msdyn_ocwhatsappchannelaccount](developer/reference/entities/msdyn_ocwhatsappchannelaccount.md)
+#### [msdyn_ocwhatsappchannelnumber](developer/reference/entities/msdyn_ocwhatsappchannelnumber.md)
+#### [msdyn_omnichannelconfiguration](developer/reference/entities/msdyn_omnichannelconfiguration.md)
+
+#### [msdyn_omnichannelpersonalization](developer/reference/entities/msdyn_omnichannelpersonalization.md)
+#### [msdyn_omnichannelqueue](developer/reference/entities/msdyn_omnichannelqueue.md)
+#### [msdyn_omnichannelsyncconfig](developer/reference/entities/msdyn_omnichannelsyncconfig.md)
+#### [msdyn_operatinghour](developer/reference/entities/msdyn_operatinghour.md)
+
+#### [msdyn_paneconfiguration](developer/reference/entities/msdyn_paneconfiguration.md)
+#### [msdyn_panetabconfiguration](developer/reference/entities/msdyn_panetabconfiguration.md)
+#### [msdyn_panetoolconfiguration](developer/reference/entities/msdyn_panetoolconfiguration.md)
+
+#### [msdyn_parameterdefinition](developer/reference/entities/msdyn_parameterdefinition.md)
+#### [msdyn_personalmessage](developer/reference/entities/msdyn_personalmessage.md)
+
+#### [msdyn_personalsoundsetting](developer/reference/entities/msdyn_personalsoundsetting.md)
+#### [msdyn_provider](developer/reference/entities/msdyn_provider.md)
+#### [msdyn_productivitypaneconfiguration](developer/reference/entities/msdyn_productivitypaneconfiguration.md)
+
+#### [msdyn_presence](developer/reference/entities/msdyn_presence.md)
+#### [msdyn_questionsequence](developer/reference/entities/msdyn_questionsequence.md)
+#### [msdyn_routingruleinstance](developer/reference/entities/msdyn_routingruleinstance.md)
+#### [msdyn_routingrequest](developer/reference/entities/msdyn_routingrequest.md)
+#### [msdyn_scenario](developer/reference/entities/msdyn_scenario.md)
+
+#### [msdyn_searchconfiguration](developer/reference/entities/msdyn_searchconfiguration.md)
+#### [msdyn_sentimentanalysis](developer/reference/entities/msdyn_sentimentanalysis.md)
+#### [msdyn_sessionevent](developer/reference/entities/msdyn_sessionevent.md)
+#### [msdyn_sessionparticipant](developer/reference/entities/msdyn_sessionparticipant.md)
+
+#### [msdyn_skillattachmentruleitem](developer/reference/entities/msdyn_skillattachmentruleitem.md)
+#### [msdyn_skillattachmenttarget](developer/reference/entities/msdyn_skillattachmenttarget.md)
+
+#### [msdyn_soundfile](developer/reference/entities/msdyn_soundfile.md)
+#### [msdyn_soundnotificationsetting](developer/reference/entities/msdyn_soundnotificationsetting.md)
+#### [msdyn_smsengagementctx](developer/reference/entities/msdyn_smsengagementctx.md)
+#### [msdyn_smsnumber](developer/reference/entities/msdyn_smsnumber.md)
+#### [msdyn_surveyquestion](developer/reference/entities/msdyn_surveyquestion.md)
+#### [msdyn_systemuser_msdyn_omnichannelqueue](developer/reference/entities/msdyn_systemuser_msdyn_omnichannelqueue.md)
+#### [msdyn_teamsengagementctx](developer/reference/entities/msdyn_teamsengagementctx.md)
+#### [msdyn_transcript](developer/reference/entities/msdyn_transcript.md)
+#### [msdyn_twitterengagementctx](developer/reference/entities/msdyn_twitterengagementctx.md)
+#### [msdyn_usersetting](developer/reference/entities/msdyn_usersetting.md)
+#### [msdyn_visitorjourney](developer/reference/entities/msdyn_visitorjourney.md)
+#### [msdyn_wechatengagementctx](developer/reference/entities/msdyn_wechatengagementctx.md)
+#### [msdyn_whatsappengagementctx](developer/reference/entities/msdyn_whatsappengagementctx.md)
+#### [queue](developer/reference/entities/queue.md)
+#### [socialprofile](developer/reference/entities/socialprofile.md)
+#### [systemuser](developer/reference/entities/systemuser.md)
+
+### Live chat JavaScript API Reference
+#### [Overview](developer/omnichannel-reference.md)
+#### [Methods]()
+##### [setContextProvider](developer/reference/methods/setContextProvider.md)
+##### [getContextProvider](developer/reference/methods/getContextProvider.md)
+##### [removeContextProvider](developer/reference/methods/removeContextProvider.md)
+##### [setAuthTokenProvider](developer/reference/methods/setAuthTokenProvider.md)
+##### [getAuthTokenProvider](developer/reference/methods/getAuthTokenProvider.md)
+##### [removeAuthTokenProvider](developer/reference/methods/removeAuthTokenProvider.md)
+##### [startChat](developer/reference/methods/startChat.md)
+##### [startProactiveChat](developer/reference/methods/startProactiveChat.md)
+##### [closeChat](developer/reference/methods/closeChat.md)
+### Real time translation JavaScript API Reference
+#### [translationprovider](developer/reference/properties/getTranslationProvider.md)
+#### [initializeNewConversation](developer/reference/methods/initializeNewConversation.md)
+#### [translateMessage](developer/reference/methods/translateMessage.md)
+### Events
+#### [lcw:startChat](developer/reference/events/lcw-startchat.md)
+#### [lcw:ready](developer/reference/events/lcw-ready.md)
+#### [lcw:error](developer/reference/events/lcw-error.md)
+#### [lcw:threadUpdate](developer/reference/events/lcw-threadUpdate.md)
+#### [lcw:closeChat](developer/reference/events/lcw-closeChat.md)
+#### [lcw:onMessageReceived](developer/reference/events/lcw-onmessagereceived.md)
+#### [lcw:onMessageSent](developer/reference/events/lcw-onmessagesent.md)
+#### [lcw:onMinimize](developer/reference/events/lcw-onminimize.md)
+#### [lcw:onMaximize](developer/reference/events/lcw-onmaximize.md)
+#### [lcw:onClose](developer/reference/events/lcw-onclose.md)
+#### [Error code reference](developer/reference/error-code-reference.md)
+
+### Omnichannel JavaScript API Reference
+#### [Overview](developer/omnichannel-api-reference.md)
+#### [Methods]()
+##### [getConversationID](developer/reference/methods/getConversationId.md)
+##### [linkToConversation](developer/reference/methods/linkToConversation.md)
+##### [unlinkFromConversation](developer/reference/methods/unlinkFromConversation.md)
+
+
+
+### [runMacro](developer/reference/methods/runMacro.md)
+
+### Action Reference
+#### [msdyn_ApplyRoutingRuleEntityRecord](developer/reference/actions/msdyn_ApplyRoutingRuleEntityRecord.md)
 
 ## [Unified Service Desk Guide](https://docs.microsoft.com/dynamics365/unified-service-desk/unified-service-desk)
 
