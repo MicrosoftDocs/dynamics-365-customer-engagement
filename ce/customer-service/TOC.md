@@ -215,7 +215,7 @@
 
 
 ## Service scheduling
-### [Understand Service Scheduling](basics-service-service-scheduling.md)
+### [Overview of Service Scheduling](basics-service-service-scheduling.md)
 ### [Upcoming changes](scheduling-overview.md)
 ### Administrator experience
 #### [Manage security roles](manage-security-roles.md)
@@ -230,9 +230,8 @@
 #### [Use sites to manage your service locations](uci-create-sites.md)
 #### [Navigate the service calendar](uci-navigate-service-calendar.md)
 #### [Configure service activity using schedule board](use-schedule-board-configure-service-activity.md) 
-### Developer Guide
+### Developer experience
 #### [Search Resource Availability and Create Bookings](universal-resource-scheduling.md)
-
 
 ## Connected Customer Service (IoT) add-in
 ### [Overview](cs-iot-overview.md)
