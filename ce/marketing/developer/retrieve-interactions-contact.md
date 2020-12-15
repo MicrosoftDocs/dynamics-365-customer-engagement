@@ -64,7 +64,7 @@ The **msdyncrm_LoadInteractionsPublic** action expects the following input param
 <li>EmailBlockBounced</li>
 <li>EmailBlocked</li>
 <li>EmailClicked</li>
-<li>EmailContainsBlacklistedLinks</li>
+<li>EmailContainsBlockListedLinks</li>
 <li>EmailDelivered</li>
 <li>EmailFeedbackLoop</li>
 <li>EmailForwarded</li>
