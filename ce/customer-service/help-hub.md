@@ -1,49 +1,58 @@
 ---
 title: "Help resources for Dynamics 365 Customer Service | MicrosoftDocs"
-description: "A starting point for help of Customer Service Hub for Dynamics 365 Customer Service."
+description: "A starting point for learning Customer Service Hub for Dynamics 365 Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 08/03/2020
+ms.date: 12/16/2020
 ms.topic: get-started-article
 ms.service: dynamics-365-customerservice
 ms.custom: 
   - "dyn365-customerservice"
 ---
 
-# Help resources for Customer Service Hub
+# Help resources for Customer Service
 
 
 <div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/6e415bd9-49b7-4416-b744-70278d9fa077" frameborder="0" allowfullscreen=""></iframe></div>
 
 <table>
 <tr>
-<td><h2>Get started</h2>
+<td><h2>System Requirements and Set Up</h2>
   <ul>
-<li><a href="whats-new-customer-service.md" data-raw-source="[What's new in Dynamics 365 Customer Service](whats-new-customer-service.md)">What's new in Dynamics 365 Customer Service</a></li>
-  <li><a href="overview.md" data-raw-source="[Explore Customer Service Hub and Customer Service](overview.md)">Explore Customer Service Hub and Customer Service</a></li>
-<li> <a href="upgrade-ish-csh.md" data-raw-source="[[Upgrade to the Customer Service Hub app](upgrade-ish-csh.md)]">Upgrade to the Customer Service Hub app</a>
+<li><a href="csh-system-requirements.md" data-raw-source="[System requirements for Customer Service](csh-system-requirements.md)">System requirements for Customer Service</a></li>
+  <li><a href="customer-service-workspace-system-requirements.md" data-raw-source="[System requirements for Customer Service workspace](customer-service-workspace-system-requirements.md)">System requirements for Customer Service workspace</a></li>
+  <li><a href="system-requirements-omnichannel.md" data-raw-source="[System requirements for Omnichannel for Customer Service](system-requirements-omnichannel.md)">System requirements for Omnichannel for Customer Service</a></li>
+  <li><a href="availability-customer-service-hub.md" data-raw-source="[Install Customer Service](availability-customer-service-hub.md)">Install Customer Service</a></li>
+  <li><a href="omnichannel-provision-license.md" data-raw-source="[Install Omnichannel for Customer Service](aomnichannel-provision-license.md)">Install Omnichannel for Customer Service</a></li>
+      
+ 
   </ul>
   </td>
 
-  <td><h2>Setup</h2>
+  <td><h2>Get Started</h2>
   <ul>
-  <li><a href="https://docs.microsoft.com/dynamics365/customer-engagement/mobile-app/install-dynamics-365-for-phones-and-tablets" data-raw-source="[Dynamics 365 for phones and tablets]https://docs.microsoft.com/dynamics365/customer-engagement/mobile-app/install-dynamics-365-for-phones-and-tablets">Dynamics 365 for phones and tablets</a></li>
-<li><a href="use-customer-service-hub-on-dynamics-365-mobile.md" data-raw-source="[Navigate app on mobile devices](use-customer-service-hub-on-dynamics-365-mobile.md)">Customer Service Hub app on mobile devices</a></li>
-<li><a href="basics-service-service-scheduling.md#set-up-the-new-service-scheduling-experience" data-raw-source="[New scheduling experience based on URS](basics-service-service-scheduling.md#set-up-the-new-service-scheduling-experience)">New scheduling experience based on URS</a></li>
+  <li><a href="https://docs.microsoft.com/learn/modules/get-started-with-dynamics-365-for-customer-service" data-raw-source="[Learn about Dynamics 365 Customer Service]https://docs.microsoft.com/learn/modules/get-started-with-dynamics-365-for-customer-service">Learn about Dynamics 365 Customer Service</a></li>
+   <li><a href="whats-new-customer-service.md" data-raw-source="[What's new in Dynamics 365 Customer Service]whats-new-customer-service.md">What's new in Dynamics 365 Customer Service</a></li>
+<li><a href="service-manager-guide.md" data-raw-source="[Configure Customer Service]service-manager-guide.md">Configure Customer Service</a></li>
+<li><a href="customer-service-hub-user-guide-basics.md" data-raw-source="[Learn the basics of Customer Service Hub]customer-service-hub-user-guide-basics.md">Learn the basics of Customer Service Hub</a></li>
+<li><a href="customer-service-team-member.md" data-raw-source="[Use Customer Service Team Member]customer-service-team-member.md">Use Customer Service Team Member</a></li>
+<li><a href="csw-overview.md" data-raw-source="[Use Customer Service workspace]csw-overvice.md">Use Customer Service workspace</a></li>
+<li><a href="introduction-omnichannel.md" data-raw-source="[Learn about Omnichannel for Customer Service]introduction-omnichannel.md">Learn about Omnichannel for Customer Service</a></li> 
   </li> 
   </ul>
   </td>
 </tr>
 
-
 <tr> 
- <td><h2>Manage</h2>
+ <td><h2>Manage Queues, Users, and Cases</h2>
    <ul>
-<li><a href="customer-service-hub-user-guide-basics.md" data-raw-source="[Learn the basics](customer-service-hub-user-guide-basics.md)">Learn the basics of the Customer Service Hub</a></li>
-   <li><a href="customer-service-hub-user-guide-case-sla.md" data-raw-source="[Create and manage cases](customer-service-hub-user-guide-case-sla.md)">Create and manage cases</a></li>
-  <li><a href="customer-service-hub-user-guide-dashboard.md" data-raw-source="[Work with dashboards](customer-service-hub-user-guide-dashboard.md)">Work with dashboards</a></li>
-  <li><a href="customer-service-hub-user-guide-knowledge-article.md" data-raw-source="[Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)">Create and manage knowledge articles</a></li>
+<li><a href="set-up-queues-manage-activities-cases.md" data-raw-source="[Create and manage queues for cases]https://set-up-queues-manage-activities-cases.md">Create and manage queues for cases</a></li>
+<li><a href="customer-service-hub-user-guide-case-queues-and-routing" data-raw-source="[Manage case queues and route cases]customer-service-hub-user-guide-case-queues-and-routing.md">Manage case queues and route cases</a></li>
+<li><a href="https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles" data-raw-source="[Create users and assign security roles]https://docs.microsoft.com/en-us/power-platform/admin/create-users-assign-online-security-roles">Create users and assign security roles</a></li>
+   <li><a href="users-user-profiles.md" data-raw-source="[Manage users](users-user-profiles.md)">Manage users</a></li>
+  <li><a href="define-settings-parent-child-cases.md" data-raw-source="Define case parameters](define-settings-parent-child-cases.md)">Define case parameters</a></li>
+  <li><a href="customer-service-hub-user-guide-create-a-case.md" data-raw-source="[Create cases](customer-service-hub-user-guide-create-a-case.md)">Create cases</a></li>
   </ul>
   </td>
 
