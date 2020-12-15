@@ -955,7 +955,7 @@ The Dynamics 365 Marketing November 2019 update includes the following bug fixes
 
 - Installation and setup: The Dynamics 365 setup wizard now succeeds when some or all workflows, plugins, and/or entities were created by a now disabled or unlicensed user.
 - Marketing pages: For double opt-in, content settings are now correctly validated to identify missing confirmation settings.
-- Marketing pages: Test domains are no longer checked against blocklisted providers.
+- Marketing pages: Test domains are no longer checked against block listed providers.
 - Marketing pages: Subscription-center forms now correctly handle the "Do not bulk email me" option when presented either as a radio button or as a check box.
 - Marketing pages: Form-submission error feedback is now customizable via JavaScript.
 - Email marketing: Error checking now functions correctly when date/time fields are referenced in dynamic content.

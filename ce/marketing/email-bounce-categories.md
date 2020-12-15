@@ -29,7 +29,7 @@ To identify the cause of bounced campaign emails, Dynamics 365 Marketing include
 - dmarc-issues  
 - reputation-issues  
 - greylisting-issues  
-- blocklisting-issues  
+- block-list-issues  
 - relaying-issues  
 - routing-issues  
 - recipient-server-error  
@@ -52,7 +52,7 @@ The first two categories – **invalid-mailbox** and **invalid-domain** – are 
 
 **greylisting** – This category represents transient errors or so called “greylisting errors.” Such errors result when the recipient’s server gets an email from a new sender domain or IP address. Such errors typically don't result in bounced emails. But, in some cases, email administrators prefer to bounce all emails from new sources to avoid spam and require some manual communications or approvals. In certain cases, delivery is only possible manually. An example of manual delivery might include adding characters to the email subject or adding special email headers that aren't possible using mass mailing or marketing software.
 
-**blocklisting-issues** – This bounce category occurs when a sending domain or IP address is listed on any existing not trusted. This means that either the domain or sending IP address, or any link or image in the email content was marked as not trusted due to one of the following reasons:
+**block-list-issues** – This bounce category occurs when a sending domain or IP address is listed on any existing not trusted. This means that either the domain or sending IP address, or any link or image in the email content was marked as not trusted due to one of the following reasons:
 
 - Multiple complaints from recipients.
 - Sending to a spamtrap address. A spamtrap is an email address that is intentionally used to identify spammers. Spamtrap addresses can easily be found by automated email harvesters that are used by spammers. Legitimate senders don’t typically have these addresses in their contact lists except from human errors. Senders that send emails to these addresses are automatically identified as spammers on the recipient server side.
