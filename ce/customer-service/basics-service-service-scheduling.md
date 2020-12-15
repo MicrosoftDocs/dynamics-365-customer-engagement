@@ -13,7 +13,7 @@ ms.service: dynamics-365-customerservice
 
 Avoid disruptions in service by making sure that your resources are scheduled optimally and efficiently. Using Scheduling in Customer Service Hub, you can plan and schedule service activities for your customers by bringing together all your resources.
 
-## Understand the new scheduling experience
+## Understand the scheduling experience
 
 Scheduling, which is built on top of **Universal Resource Scheduling (URS)**, provides an efficient way to schedule resources for service activity. It considers the availability of employees, facilities, and equipment to plan schedules accordingly. It also helps customer service organizations with improved service quality by preventing over-scheduling.
 
