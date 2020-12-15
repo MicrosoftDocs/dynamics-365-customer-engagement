@@ -506,7 +506,7 @@
 ### [Known issues](omnichannel-readme.md)
 ### [Troubleshoot issues in Omnichannel for Customer Service](troubleshoot-omnichannel-customer-service.md)
 ### [Troubleshoot with Solution Health Hub](troubleshoot-using-solution-health-hub.md)
-## FAQs in Customer Service
+## FAQs on Customer Service
 ### [FAQs on AI suggestions for cases and knowledge articles](csw-faqs-ai-suggestions.md)
 ### [FAQs on Omnichannel for Customer Service](faqs.md)
 
