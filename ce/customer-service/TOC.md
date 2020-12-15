@@ -13,6 +13,7 @@
 ## Accessibility and privacy
 ### [Accessibility](https://docs.microsoft.com/dynamics365/get-started/accessibility/customer-engagement/accessibility)
 ### [Privacy and personal data](https://docs.microsoft.com/dynamics365/get-started/gdpr/)
+### [Keyboard navigation support](keyboard-navigation-support-customer-service-hub.md)
 
 ## Installation and upgrade
 ### [Install Customer Service](availability-customer-service-hub.md)
@@ -59,13 +60,14 @@
 ##### [Set up routing and assignment rules](routing-rules.md)
 ##### [Associate templates with work streams](associate-templates.md)
 #### [Set up routing for Omnichannel for Customer Service Conversations](understand-omnichannel-customer-service-hub.md)
+### Agent experience
+#### [Manage case queues and route cases](customer-service-hub-user-guide-case-queues-and-routing.md)
+
+
 
 ## Case management
 ### Administrator experience
 #### [Define parent and child cases](define-settings-parent-child-cases.md)
-### Troubleshoot, faqs
-#### [Issue converting an email to a case](troubleshoot-case-email-issue.md)
-#### [FAQs on AI suggestions for cases and knowledge articles](csw-faqs-ai-suggestions.md)
 ### Agent experience
 #### [Create cases](customer-service-hub-user-guide-create-a-case.md)
 #### [Resolve, cancel, and reassign cases](customer-service-hub-user-guide-resolve-cancel-reassign-a-case.md)
@@ -74,7 +76,8 @@
 #### [View AI suggested similar cases and knowledge articles](csw-view-ai-suggested-cases-knowledge-articles.md)
 ### Customize case management
 #### [Modify case resolution dialog box](customer-service-hub-user-guide-modify-case-resolution-dialog.md)
-
+### Troubleshoot cases
+#### [Issue converting an email to a case](troubleshoot-case-email-issue.md)
 
 ## Automatically create or update records
 ### [Create or update records in Customer Service Hub](automatically-create-update-records.md)
@@ -83,24 +86,36 @@
 
 
 ## Service-level agreements
-### [Define service-level agreements](define-service-level-agreements.md)
-### [Enable entities for service level agreements](enable-entities-service-level-agreements.md)
-### [Create entitlements to define support terms](create-entitlement-define-support-terms-customer.md)
-### [Manage service configuration settings](../admin/system-settings-dialog-box-service-tab.md)
-### Manage service schedules
-#### [Create customer service schedule](create-customer-service-schedule-define-work-hours.md)
-#### [Create and manage holiday schedule](set-up-holiday-schedule.md)
+### Administrator experience
+#### [Define service-level agreements](define-service-level-agreements.md)
+#### [Enable entities for service level agreements](enable-entities-service-level-agreements.md)
+#### [Create entitlements to define support terms](create-entitlement-define-support-terms-customer.md)
+#### [Manage service configuration settings](../admin/system-settings-dialog-box-service-tab.md)
+#### Manage service schedules
+##### [Create customer service schedule](create-customer-service-schedule-define-work-hours.md)
+##### [Create and manage holiday schedule](set-up-holiday-schedule.md)
+### Agent experience
+#### [Manage case SLAs](customer-service-hub-user-guide-case-sla.md)
 ### Customize SLAs
 #### [Add timer control to forms](add-timer-control-case-form-track-time-against-sla.md)
 #### [Add a timer in forms to track time against enhanced SLAs](add-timer-forms-track-time-against-enhanced-sla.md)
+### Troubleshoot SLAs
+#### [Unable to delete a managed solution](troubleshoot-delete-managed-solution.md)
 
 ## Email
-### [Configure email](customer-service-hub-user-guide-email-admin.md)
-### [Use email](customer-service-hub-user-guide-email-overview.md)
+### Administrator experience
+#### [Configure email](customer-service-hub-user-guide-email-admin.md)
+### Agent experience
+#### [Use email](customer-service-hub-user-guide-email-overview.md)
+### [Email FAQs](email-faqs.md)
 
 ## Timeline
-### [Configure timeline](customer-service-hub-user-guide-timeline-admin.md)
-### [Use timeline](customer-service-hub-user-guide-timeline-overview.md)
+### Administrator experience
+#### [Configure timeline](customer-service-hub-user-guide-timeline-admin.md)
+### Agent experience
+#### [Use timeline](customer-service-hub-user-guide-timeline-overview.md)
+#### [Manage activities from timeline](customer-service-hub-user-guide-manage-timeline-activities.md)
+### [Timeline FAQs](timeline-faqs.md)
 
 ## Knowledge management
 ### Administrator experience
@@ -316,8 +331,8 @@
 ## Deprecations
 ### [Deprecations in Customer Service](deprecations-customer-service.md)
 
-## Developer guide
-### [Overview](omnichannel-developer.md)
+## Extend Customer Service
+### [Overview](developer/omnichannel-developer.md)
 ### [Extend Omnichannel for Customer Service](extend-omnichannel.md)
 ### Entity reference
 #### [Overview](developer/reference/entities/overview.md)
@@ -482,12 +497,18 @@
 ##### [linkToConversation](developer/reference/methods/linkToConversation.md)
 ##### [unlinkFromConversation](developer/reference/methods/unlinkFromConversation.md)
 
-
-
 ### [runMacro](developer/reference/methods/runMacro.md)
-
 ### Action Reference
 #### [msdyn_ApplyRoutingRuleEntityRecord](developer/reference/actions/msdyn_ApplyRoutingRuleEntityRecord.md)
+
+## Troubleshoot issues in Customer Service
+
+### [Known issues](omnichannel-readme.md)
+### [Troubleshoot issues in Omnichannel for Customer Service](troubleshoot-omnichannel-customer-service.md)
+### [Troubleshoot with Solution Health Hub](troubleshoot-using-solution-health-hub.md)
+## FAQs in Customer Service
+### [FAQs on AI suggestions for cases and knowledge articles](csw-faqs-ai-suggestions.md)
+### [FAQs on Omnichannel for Customer Service](faqs.md)
 
 ## [Unified Service Desk Guide](https://docs.microsoft.com/dynamics365/unified-service-desk/unified-service-desk)
 
