@@ -33,7 +33,6 @@
 ### [Use Customer Service Team Member](customer-service-team-member.md)
 ### [Customer Service workspace](csw-overview.md)
 ### [Omnichannel for Customer Service](introduction-omnichannel.md)
-### Administrator experience
 #### [Demo data for Chat for Dynamics 365 Customer Service](chat-dynamics365-customer-service-demo-data.md)
 #### [Quickly configure a chat widget](configure-live-chat.md)
 #### [Understand routing and work distribution](unified-routing-work-distribution.md)
@@ -62,7 +61,7 @@
 #### [Set up routing for Omnichannel for Customer Service Conversations](understand-omnichannel-customer-service-hub.md)
 ### Agent experience
 #### [Manage case queues and route cases](customer-service-hub-user-guide-case-queues-and-routing.md)
-
+#### [Work with queues](work-with-queues.md)
 
 
 ## Case management
