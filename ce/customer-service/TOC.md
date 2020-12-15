@@ -12,7 +12,6 @@
 
 ## Installation
 ### [Install Customer Service](availability-customer-service-hub.md)
-### Upgrade Customer Service
 ### Install Omnichannel for Customer Service
 #### [Provision Omnichannel for Customer Service](omnichannel-provision-license.md)
 #### [Export and import Omnichannel for Customer Service](export-import-omnichannel-data.md)
@@ -124,6 +123,7 @@
 #### [Configure proactive chat](proactive-chat.md)
 #### [Configure reconnection to a previous chat session](configure-reconnect-chat.md)
 #### [Customize a chat widget](customize-chat-widget.md)
+#### [Delete a channel instance](delete-channel.md)
 
 #### Configure advanced settings
 ##### [Configure business hours](create-operating-hours.md)
@@ -139,6 +139,7 @@
 ##### [Create message templates](create-message-templates.md)
 ##### [Configure outbound messages](outbound-messaging.md)
 ##### [Configure data masking](data-masking-settings.md)
+
 
 ### Agent experience
 #### [Omnichannel for Customer Service for agents](omnichannel-customer-service-app-agent.md)
@@ -197,25 +198,52 @@
 #### [Troubleshoot channel issues](troubleshoot-omnichannel-customer-service.md)
 
 ## Virtual agents
-### Configure bots
-#### [Integrate an Azure bot](configure-bot.md)
-#### [Integrate a Power Virtual Agents bot](configure-bot-virtual-agent.md)
-#### [Configure context variables for bots](context-variables-for-bot.md)
-
-
-#### [Delete a channel instance](delete-channel.md)
+### Administrator experience
+#### Configure bots
+##### [Integrate an Azure bot](configure-bot.md)
+##### [Integrate a Power Virtual Agents bot](configure-bot-virtual-agent.md)
+##### [Configure context variables for bots](context-variables-for-bot.md)
 
 
 
 ## Insights
 ### [Introduction to Customer Service Insights](introduction-customer-service-analytics.md)
 ### Administrator experience
-#### Configure Customer Service Insights
-#### Configure historical Analytics
+#### [Configure Customer Service Insights](configure-customer-service-analytics-insights-csh.md)
+#### [Configure historical analytics](configure-historical-analytics-csh.md)
+#### [Configure topic clustering](configure-topics-clustering.md)
+#### [Configure knowledge search analytics](enable-knowledge-search-analytics.md)
+#### [Configure AI suggestions](csw-enable-ai-suggested-cases-knowledge-articles.md)
+#### [Configure Customer Service analytics dashboards in Power BI](configure-customer-service-analytics-dashboard.md)
+#### [Configure intraday insights](configure-intraday-dashboard-supervisor.md)
+#### [Customize KPIs for intraday insights](customize-kpis-intraday-insights.md)
+#### [Provide access to Ongoing Conversations dashboard](configure-ongoing-conversations-dashbaord.md)
+#### [Configure real-time customer sentiment](enable-sentiment-analysis.md)
+#### [Configure Omnichannel Insights dashboards](configure-historical-sentiment-dashboard-supervisor.md)
+
+### Supervisor experience
+#### Historical analytics reports
+##### [Dashboards overview](customer-service-analytics-insights-csh.md)
+##### [Summary dashboard](summary-dashboard-cs.md)
+##### [Agent dashboard](agent-dashboard-cs.md)
+##### [Topics dashboard](topics-dashboard-cs.md)
+##### [Knowledge search analytics dashboard](knowledge-search-analytics-cs.md)
+##### [View analytics dashboards created in Power BI](customer-service-analytics.md)
+#### Intraday supervisor experiences
+##### [Introduction to intraday supervisor experiences](intro-intraday-insights-dashboard.md)
+##### [View and understand Omnichannel intraday insights](intraday-insights-dashboard.md)
+##### [View and understand Omnichannel Ongoing Conversations dashboard](ongoing-conversations-dashboard.md)
+#### Omnichannel i=Insights
+##### [Introduction to Omnichannel Insights](intro-dynamics-365-omnichannel-insights-dashboard.md)
+##### [View and understand Omnichannel Insights dashboard](omnichannel-insights-dashboard.md)
+#### Monitor conversations
+##### [Monitor and assign converations](monitor-conversations.md)
+##### [Monitor and analyze sentiment](supervisor-sentiment-monitoring.md)
+
 
 
 ## Service scheduling
-### [Overview of Service Scheduling](basics-service-service-scheduling.md)
+### [Overview of Service scheduling](basics-service-service-scheduling.md)
 ### [Upcoming changes](scheduling-overview.md)
 ### Administrator experience
 #### [Manage security roles](manage-security-roles.md)
@@ -231,7 +259,7 @@
 #### [Navigate the service calendar](uci-navigate-service-calendar.md)
 #### [Configure service activity using schedule board](use-schedule-board-configure-service-activity.md) 
 ### Developer experience
-#### [Search Resource Availability and Create Bookings](universal-resource-scheduling.md)
+#### [Search resource availability and create bookings](universal-resource-scheduling.md)
 
 ## Connected Customer Service (IoT) add-in
 ### [Overview](cs-iot-overview.md)
@@ -256,10 +284,15 @@
 ### [Security roles for Connected Customer Service](cs-iot-security-roles.md)
 
 ## Migration solutions
-### [Migrate automatic record creation rules and SLAs](migrate-automatic-record-creation-and-sla-agreements.md)
-### [Strategy for migrating from contracts to entitlements](contract-to-entitlement-migration.md)
-### Migrate service scheduling
-#### Introduction
+### Administrator experience
+#### [Migrate automatic record creation rules and SLAs](migrate-automatic-record-creation-and-sla-agreements.md)
+#### [Strategy for migrating from contracts to entitlements](contract-to-entitlement-migration.md)
+#### Migrate service scheduling
+##### [Introduction to service scheduling migration](introduction-migration-entity-records.md)
+##### [Plan service scheduling migration](plan-migration.md)
+##### [Migrate service scheduling](migrate-entity-records.md)
+#### Migration FAQs
+##### [FAQs on Migration tool for automatic record creation rules and SLAs](migrate-tool-faqs.md)
 
 ## Deprecations
 ### [Deprecations in Customer Service](deprecations-customer-service.md)
