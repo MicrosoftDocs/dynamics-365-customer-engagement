@@ -11,7 +11,7 @@
 ### [International availability of Omnichannel for Customer Service](international-availability.md)
 
 ## Installation
-### Install Customer Service
+### [Install Customer Service](availability-customer-service-hub.md)
 ### Upgrade Customer Service
 ### Install Omnichannel for Customer Service
 #### [Provision Omnichannel for Customer Service](omnichannel-provision-license.md)
@@ -21,14 +21,13 @@
 ### [Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md)
 
 ## Get started
-### Learning paths
 ### [Get started with Customer Service](https://docs.microsoft.com/learn/modules/get-started-with-dynamics-365-for-customer-service/)
 ### [Configure Customer Service](service-manager-guide.md)
 ### [Get started with Customer Service Hub](customer-service-hub-user-guide-basics.md)
 ### [Use Customer Service Team Member](customer-service-team-member.md)
 ### [Get started with Customer Service workspace](csw-overview.md)
 ### [Get started with Omnichannel for Customer Service](introduction-omnichannel.md)
-### Administer
+### Administrator experience
 #### [Try channels in Omnichannel for Customer Service](try-channels.md)
 #### [Demo data for Chat for Dynamics 365 Customer Service](chat-dynamics365-customer-service-demo-data.md)
 #### [Quickly configure a chat widget](configure-live-chat.md)
@@ -57,12 +56,6 @@
 #### [Set up routing for Omnichannel for Customer Service Conversations](understand-omnichannel-customer-service-hub.md)
 
 ## Case management
-### Agent experience
-#### [Create cases](customer-service-hub-user-guide-create-a-case.md)
-#### [Resolve, cancel, and reassign cases](customer-service-hub-user-guide-resolve-cancel-reassign-a-case.md)
-#### [Merge cases](customer-service-hub-user-guide-merge-cases.md)
-#### [Convert a case to a knowledge article](customer-service-hub-user-guide-convert-case-to-knowledge-article.md)
-#### [View AI suggested similar cases and knowledge articles](csw-view-ai-suggested-cases-knowledge-articles.md)
 ### Administrator experience
 #### [Define parent and child cases](define-settings-parent-child-cases.md)
 #### Customize your solution
@@ -70,6 +63,13 @@
 ### Troubleshoot, faqs
 #### [Issue converting an email to a case](troubleshoot-case-email-issue.md)
 #### [FAQs on AI suggestions for cases and knowledge articles](csw-faqs-ai-suggestions.md)
+### Agent experience
+#### [Create cases](customer-service-hub-user-guide-create-a-case.md)
+#### [Resolve, cancel, and reassign cases](customer-service-hub-user-guide-resolve-cancel-reassign-a-case.md)
+#### [Merge cases](customer-service-hub-user-guide-merge-cases.md)
+#### [Convert a case to a knowledge article](customer-service-hub-user-guide-convert-case-to-knowledge-article.md)
+#### [View AI suggested similar cases and knowledge articles](csw-view-ai-suggested-cases-knowledge-articles.md)
+
 
 ## Automatically create or update records
 ### [Create or update records in Customer Service Hub](automatically-create-update-records.md)
@@ -98,13 +98,6 @@
 ### [Use timeline](customer-service-hub-user-guide-timeline-overview.md)
 
 ## Knowledge management
-### Agent experience
-#### [Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)
-#### [Search for knowledge articles](search-knowledge-articles-csh.md)
-#### [Create knowledge article templates in Power Apps](/power-platform/admin/create-templates-articles.md)
-#### [Create knowledge article templates in Customer Service](create-templates-knowledge-article.md)
-#### [Configure knowledge management](set-up-knowledge-management-embedded-knowledge-search.md)
-#### [Create and manage knowledge categories](create-manage-categories.md)
 ### Administrator experience
 #### [Set up knowledge search providers](set-up-search-providers.md)
 #### [Add the knowledge base search control to forms](add-knowledge-base-search-control-forms.md)
@@ -114,6 +107,13 @@
 #### [Extend transformer logic on templates](extend-transformer-logic-template.md)
 #### [Share knowledge articles in Omnichannel for Customer Service](knowledge-management-oc.md)
 #### [Search for and share knowledge articles](oc-search-knowledge-articles.md)
+### Agent experience
+#### [Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)
+#### [Search for knowledge articles](search-knowledge-articles-csh.md)
+#### [Create knowledge article templates in Power Apps](/power-platform/admin/create-templates-articles.md)
+#### [Create knowledge article templates in Customer Service](create-templates-knowledge-article.md)
+#### [Configure knowledge management](set-up-knowledge-management-embedded-knowledge-search.md)
+#### [Create and manage knowledge categories](create-manage-categories.md)
 
 ## Chat
 ### Administrator experience
@@ -153,10 +153,6 @@
 ### [Embed a chat widget in a portal](embed-chat-widget-portal.md)
 
 ## Agent productivity tools
-### Agent experience
-#### [View smart assist suggestions for knowledge articles and similar cases](oc-view-ai-suggested-cases-articles.md)
-#### [View smart assist suggestions for agents configured using custom Azure bot](oc-smart-assist.md)
-#### [Use agent scripts for customer interactions](oc-agent-scripts.md)
 ### Administrator experience
 #### [Productivity pane in Customer Service workspace](csw-productivity-pane.md)
 #### [Productivity pane Omnichannel for Customer Service](productivity-pane.md)
@@ -170,7 +166,10 @@
 ##### [Enable missed notifications](manage-missed-notifications.md)
 ##### [Enable auto-assignment of conversations](enable-auto-assign-conversations.md)
 ##### [Enable sharing of knowledge articles](knowledge-management-oc.md)
-
+### Agent experience
+#### [View smart assist suggestions for knowledge articles and similar cases](oc-view-ai-suggested-cases-articles.md)
+#### [View smart assist suggestions for agents configured using custom Azure bot](oc-smart-assist.md)
+#### [Use agent scripts for customer interactions](oc-agent-scripts.md)
 
 ## Channels
 ### [Introduction to channels](channels.md)
@@ -210,7 +209,9 @@
 
 ## Insights
 ### [Introduction to Customer Service Insights](introduction-customer-service-analytics.md)
-
+### Administrator experience
+#### Configure Customer Service Insights
+#### Configure historical Analytics
 
 
 ## Service scheduling
