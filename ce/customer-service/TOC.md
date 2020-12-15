@@ -215,13 +215,46 @@
 
 
 ## Service scheduling
+### [Understand Service Scheduling](basics-service-service-scheduling.md)
+### [Upcoming changes](scheduling-overview.md)
 ### Administrator experience
+#### [Manage security roles](manage-security-roles.md)
+#### [Create and manage organizational units](create-org-units-cs-scheduling.md)
+#### [Schedule business closure](set-when-business-closed-csh.md)
+### Scheduling experience
+#### [Create bookable resources](resources-service-scheduling.md)  
+#### [Create or edit a service](uci-create-edit-service.md)
+#### [Add facilities and equipment](uci-add-facilities-equipment.md)
+#### [Schedule a service activity](uci-schedule-service-activity.md)
+#### [Create resource groups](uci-create-resource-groups.md)
+#### [Use sites to manage your service locations](uci-create-sites.md)
+#### [Navigate the service calendar](uci-navigate-service-calendar.md)
+#### [Configure service activity using schedule board](use-schedule-board-configure-service-activity.md) 
+### Developer Guide
+#### [Search Resource Availability and Create Bookings](universal-resource-scheduling.md)
 
 
+## Connected Customer Service (IoT) add-in
+### [Overview](cs-iot-overview.md)
 
-## Connected Customer Service with IoT
-### Administrator experience
+### Connected Customer Service for Azure IoT Central
+#### [Overview](cs-iot-azure-overview.md)
+#### Tutorials
+##### [Prerequisites](cs-iot-prerequisites.md)
+##### [Receive IoT Alerts from Azure IoT Central](cs-iot-receive-alerts.md)
+##### [Associate devices with customer accounts](cs-iot-central-associate-devices.md)
 
+### Connected Customer Service for Azure IoT Hub
+#### [Overview](cs-iot-create-customized-solutions.md)
+#### [Architecture](cs-iot-connected-customer-service-architecture.md)
+#### [Quickstart: Build your own IoT solution](cs-iot-build-own-solution.md)
+#### [Prerequisites for Azure subscription](cs-iot-azure-subscription-prerequisites.md)
+#### [Installation and setup](cs-iot-installation-setup.md)
+#### [Authorize API app connections](cs-iot-authorize-api-connection.md)
+#### [Visualize device readings](cs-iot-visualize-device-readings.md)
+#### [Extend standard components or add Azure services](cs-iot-extend-connected-customer-service-solutions.md)
+#### [IoT - Parent IoT Alerts workflow](cs-iot-parent-alerts-workflow.md)
+### [Security roles for Connected Customer Service](cs-iot-security-roles.md)
 
 ## Migration solutions
 ### [Migrate automatic record creation rules and SLAs](migrate-automatic-record-creation-and-sla-agreements.md)
