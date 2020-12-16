@@ -86,13 +86,10 @@ ms.custom:
    <li><a href="customer-service-hub-user-guide-timeline-admin.md" data-raw-source="[Configure timeline](customer-service-hub-user-guide-timeline-admin.md)">Configure timeline</a></li>
    <li><a href="customer-service-hub-user-guide-timeline-overview.md" data-raw-source="[Use timeline](customer-service-hub-user-guide-timeline-overview.md)">Use timeline</a></li>
    <li><a href="customer-service-hub-user-guide-manage-timeline-activities.md" data-raw-source="[Manage timeline activities](customer-service-hub-user-guide-manage-timeline-activities.md)">Manage timeline activities</a></li>
-    </li> 
+   </li> 
   </ul>
   </td>
-</tr> 
-
- </ul>
-  </td>
+</tr>    
   
 
  <td><h2>Knowledge Management</h2>
@@ -112,13 +109,10 @@ ms.custom:
    <li><a href="add-chat-widget.md" data-raw-source="[Add a chat widget](add-chat-widget.md)">Add a chat widget</a></li>
    <li><a href="download-email-chat-transcripts.md" data-raw-source="[Download and email chat transcripts](download-email-chat-transcripts.md)">Download and email chat transcripts</a></li>
    <li><a href="embed-chat-widget-portal.md" data-raw-source="[Embed a chat widget in a web portal](embed-chat-widget-portal.md)">Embed a chat widget in a web portal</a></li>
-  
-   </ul>
+     </li> 
+  </ul>
   </td>
-</tr> 
-
- </ul>
-  </td>  
+</tr>    
 
  <td><h2>Agent Productivity Tools</h2>
    <ul>
@@ -129,8 +123,13 @@ ms.custom:
   </ul>
   </td>
   
-  
-</tr> 
+ <td><h2>Channels</h2>
+   <ul>
+  <li><a href="channels.md" data-raw-source="[Learn about channels](channels.md)">Learn about channels</a></li>
+  </li> 
+  </ul>
+  </td>
+</tr>    
 
 
 </td>
