@@ -21,7 +21,7 @@ To set up Dynamics 365 Sales, you must complete these general steps.
     1. To try Dynamics 365 Sales, go to the [Dynamics 365 trials](https://dynamics.microsoft.com/get-started/free-trial/?appname=sales) site, and under the **Sign up for a free trial** section, select **Sign up now**, and follow the instructions.  
 
         >[!NOTE]
-        > You can also connect with a Dynamics 365 sales representative to get demo of the product, trail, and many more. Under the **Contact a sales representative** section, select **Contact us**. The **Request a call back** form opens, fill in the required information and select **Send request**. Soon, one of the Dynamics 365 sales representative will contact you to assist with the necesary information.
+        > You can also connect with a Dynamics 365 sales representative to get demo of the product, trail, and many more. Under the **Contact a sales representative** section, select **Contact us**. In the **Request a call back** form, fill in the required information and select **Send request**. Soon, one of the Dynamics 365 sales representative will contact you to assist with the necesary information.
 
     2. To buy a subscription, go to your **Microsoft 365 admin center** &gt; **Billing** &gt; **Purchase Services** and then select **Dynamics 365 Sales** and **Buy Now**. You can also get Sales from this [Dynamics 365 purchasing page](https://dynamics.microsoft.com/pricing/#Sales).
 
