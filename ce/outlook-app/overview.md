@@ -72,56 +72,49 @@ For more information on what's new, see [What's new with Dynamics 365 App for Ou
 
 ### Dynamics 365 App for Outlook add-in error
 
-Some users may experience add-in error with the following symptoms:
+Some users might experience add-in error with the following symptoms:
 
-1.  When clicking on the Dynamics 365 App for Outlook button the App
-    Pane displays
+You try to use the add-in by selecting Dynamics 365 App for Outlook, and the pane appears. After about 30 seconds, a yellow error section is displayed at the at the top of
+    the pane. The error could be any of the following:
 
-2.  After about 30 seconds or so a yellow error section at the top of
-    the Pane displays
-
-3.  The error itself has variations:
-
-    1.  ADD-IN ERROR This add-in could not be started. Close this dialog
+- ADD-IN ERROR This add-in could not be started. Close this dialog
         to ignore the problem or click "Restart" to try again.
 
-    2.  ADD-IN ERROR This add-in is not responding. Close this warning
+- ADD-IN ERROR This add-in is not responding. Close this warning
         dialog to keep it running or click "Restart" to try again.
 
-    3.  ADD-IN ERROR This add-in seems to be having problems. Click
+- ADD-IN ERROR This add-in seems to be having problems. Click
         "Restart" to try starting it again.
 
-    4.  ADD-IN ERROR Sorry, we had to rest because this add-in wasn't
+- ADD-IN ERROR Sorry, we had to rest because this add-in wasn't
         responding.
 
-Sometimes clicking the "Restart" button causes the process to repeat.
+Sometimes, selecting **Restart** causes the error again.
 
-Solutions:
+**Solutions**
 
-Here are some of the solutions that can help address the add-in error
-issue
+Here are some of the ways in which you can address this issue:
 
-1.  Add/update the below registry keys for the users experiencing the
+-  Add/update the below registry keys for the users experiencing the
     add-in error.
 
-    1. **\[**HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Office\\16.0\\Wef**\]  
+    - **\[**HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Office\\16.0\\Wef**\]  
  **AlertInterval**=dword:00000000**
 
-    2. **\[**HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Office\\16.0\\Wef**\]  
+    - **\[**HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Office\\16.0\\Wef**\]  
  **AlertInterval**=dword:00000000**
 
-Additional information on the registry keys can be found
+    Additional information on the registry keys can be found
 [here](https://docs.microsoft.com/en-us/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins#when-debugging-with-the-microsoft-edge-devtools-the-add-in-crashes-or-reloads).
 
-If the registry key doesn't work, one of the below are the only
-solutions for the add-in error.
+    If the registry key doesn't work, one of the below are the only solutions for the add-in error.
 
-1.  Users experiencing add-in error can Outlook Web App in Microsoft
+-  Users experiencing add-in error can use Outlook Web App in Microsoft
     Edge or Google Chrome browsers to access Dynamics 365 App for
-    Outlook
+    Outlook.
 
 2.  Alternatively, users can update their Outlook client to the latest
-    C2R monthly enterprise channel or current channel.
+    CR2 monthly enterprise channel or current channel.
 
 ### Users with custom security role can't access Dynamics 365 App for Outlook
 Users who are assigned a custom security role may not be able to access [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)]. We are working on a fix for this issue. In the meantime, for more information, see:
