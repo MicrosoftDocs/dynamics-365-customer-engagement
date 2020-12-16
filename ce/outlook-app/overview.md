@@ -113,7 +113,7 @@ Here are some of the ways in which you can address this issue:
     Edge or Google Chrome browsers to access Dynamics 365 App for
     Outlook.
 
-2.  Alternatively, users can update their Outlook client to the latest
+-  Alternatively, users can update their Outlook client to the latest
     CR2 monthly enterprise channel or current channel.
 
 ### Users with custom security role can't access Dynamics 365 App for Outlook
