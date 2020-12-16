@@ -124,8 +124,6 @@ The **Teams check-in** button generates a unique attendee URL for each registran
 
 4. To preview the button in the **Preview** panel, select a contact that has a registration for the selected Event or Session.
 
-> [!TIP]
-> The email with the Teams check-in button should be shared shortly before the event start time, not days in advance. If the email is shared too far in advance, contacts may click on the button and create automated check-ins, only to receive a notice that the "Live event has not started yet."
 
 ## Keeping Dynamics 365 Marketing and Teams in sync
 
