@@ -131,7 +131,7 @@ ms.custom:
 <li><a href="service-scheduling-faq.md" data-raw-source="[Service Scheduling FAQs](service-scheduling-faq.md)">Service Scheduling FAQ</a></li>
 
      
-  </td>  
+ </td>  
 
  <td><h2>Videos</h2>
 
