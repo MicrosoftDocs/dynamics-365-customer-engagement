@@ -158,6 +158,7 @@ ms.custom:
   
 <h2>Related apps & framework</h2>
 
+<li><a href="https://docs.microsoft.com/dynamics365/app-profile-manager/overview" data-raw-source="[App profile manager](https://docs.microsoft.com/dynamics365/app-profile-manager/overview)">App profile manager</a></li>
 <li><a href="https://docs.microsoft.com/dynamics365/unified-service-desk/unified-service-desk" data-raw-source="[Unified Service Desk Guide](https://docs.microsoft.com/dynamics365/unified-service-desk/unified-service-desk)">Unified Service Desk Guide</a></li>
 <li><a href="https://docs.microsoft.com/dynamics365/customer-service/channel-integration-framework/channel-integration-framework" data-raw-source="[Dynamics 365 Channel Integration Framework Guide](https://docs.microsoft.com/dynamics365/customer-service/channel-integration-framework/channel-integration-framework)">Dynamics 365 Channel Integration Framework Guide</a></li>
 
