@@ -1,7 +1,7 @@
 ---
 title: Manage contacts in the Dynamics 365 Sales mobile app
 description: Learn how to create and manage contacts in the Dynamics 365 Sales mobile app
-ms.date: 11/30/2020
+ms.date: 12/16/2020
 ms.topic: article
 ms.service: dynamics-365-sales
 author: sbmjais
@@ -13,7 +13,7 @@ manager: shujoshi
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-In the Dynamics 365 Sales mobile app, you can view, edit, and create contacts.<!-- Edit note: Removed most of the creation details, moved some notes below. -->
+In the Dynamics 365 Sales mobile app, you can view, edit, and create contacts.
 
 - [View details of a contact](#view-details-of-a-contact)
 
@@ -23,7 +23,7 @@ In the Dynamics 365 Sales mobile app, you can view, edit, and create contacts.<!
 
 ## View details of a contact
 
-Tap a contact on the home page or on the Meetings<!-- Edit note: Meeting or Meetings. --> page to view the details of the contact in a quick view form. To open the contact in the Sales Hub app, tap **Open Contact**. In the following example, the details of a recent contact shown on the home page are displayed in a quick view form:   
+Tap a contact on the home page or on the Meetings page to view the details of the contact in a quick view form. To open the contact in the Sales Hub app, tap **Open Contact**. In the following example, the details of a recent contact shown on the home page are displayed in a quick view form:   
 
 > [!div class="mx-imgBorder"]
 > ![Open contact details](media/sm-open-contact.png "Open contact details") 
@@ -62,11 +62,11 @@ If you need to create a contact that doesn't already exist in your Dynamics 365 
 
 ### Meetings page 
 
-1.  In the attendee list for a meeting, tap the name of an attendee. Note that you can create a contact from an attendee only if the attendee isn't already a contact in your Dynamics 365 organization.<!-- Edit note: Moved from the intro paragraph. -->
+1.  In the attendee list for a meeting, tap the name of an attendee. Note that you can create a contact from an attendee only if the attendee isn't already a contact in your Dynamics 365 organization.
 
     ![Tap an attendee name](media/sm-tap-attendee.png "Tap an attendee name")
     
-1. Tap **Create contact**. The **Create a contact** form opens.<!-- Edit note: Looks like the border code below is showing up in the topic. Also, had duplicate steps here. -->
+1. Tap **Create contact**. The **Create a contact** form opens.
 
     > [!div class="mx-imgBorder"]
     > ![Create contact](media/sm-create-contact.png "Create contact")

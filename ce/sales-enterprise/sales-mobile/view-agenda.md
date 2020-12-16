@@ -24,7 +24,7 @@ The information on the home page of the Dynamics 365 Sales mobile app can help y
     
     ![Meetings section](media/sm-meetings-nav-bar.png "Meetings section")
     
-    The current meeting time is shown in blue with a triangle icon beside it. To see the details of a meeting, tap the meeting record.<!-- Edit note: Not seeing the triangle in the screenshot. -->
+    To see the details of a meeting, tap the meeting record.
     
 2.  To see meetings for a specific date, tap a date in the calendar.
 
@@ -37,10 +37,10 @@ The information on the home page of the Dynamics 365 Sales mobile app can help y
 To see details of a specific meeting, tap the meeting record on either the home page or in the calendar view. The meeting details are displayed, as shown in the following image.    
 ![Meeting details](media/sm-meeting-details.png "Meeting details")  
 
-Meeting details include the following:<!-- Edit note: Maybe this should be a bullet list instead of numbered. -->
+Meeting details include the following:
 
-1. [Meeting information and attendees](#meeting-information-and-attendees)   
-2. [Regarding entity, notes, and reminders](#regarding-entity-notes-and-reminders)
+- [Meeting information and attendees](#meeting-information-and-attendees)   
+- [Regarding entity, notes, and reminders](#regarding-entity-notes-and-reminders)
 
 ### Meeting information and attendees
 
@@ -60,16 +60,64 @@ Up to five meeting attendees are shown in the Attendees section, such as custome
 >[!NOTE]
 > The data that is displayed is related to the selected regarding entity and retrieved from your Dynamics 365 Sales organization.
 
-**Regarding entity**
+#### Regarding entity
 
 The Regarding section or entity specifies what the meeting is about, such as an opportunity, lead, contact, or account. When a meeting is attached to an entity, the meeting displays the timeline, insight, participant information, and corresponding related entities. Also, the regarding entity helps you to understand what the meeting is about, so you can come prepared with relevant information.
 
-In the following screenshot, you can see that the meeting is about an opportunity to purchase 10,000 cars.<!-- Edit note: Actually should be convertible cars but can simplify in text, should fix the image. -->
+In the following screenshot, you can see that the meeting is about an opportunity to purchase 10,000 cars.
 
 > [!div class="mx-imgBorder"]
 > ![View regarding entity](media/sm-view-regarding-entity.png "View regarding entity")
 
-You can perform the following action on regarding entities: view, edit, change entity, and add entity. More information: [Manage records](open-record.md)   
+You can perform the following action on regarding entities: [view and edit](open-record.md) the records along with [Change regarding entity in meetings](#change-regarding-entity) and [Add regarding entity in meetings](#add-regarding-entity).    
+
+> [!NOTE]
+> You'll be able to set the regarding record only if server-side synchronization has been enabled in your environment. Contact your administrator to enable it.
+
+**Change regarding entity in meetings**<a name='change-regarding-entity'></a>
+
+You can update the regarding entity when it is no longer relevant or there are changes to the meeting. To change the regarding entity, follow these steps:
+
+1. Tap the three dots, **More options** (![Options button](media/sm-options-button.png "Options button")), and then tap **Change connected record**.
+
+    >[!div class="mx-imgBorder"]
+    >![Select change connected record option](media/sm-select-change-connected-record.png "Select change connected record option")
+    
+2. On the Regarding page, either select a recent record or tap **Search** to look for the record you want.
+
+    >[!div class="mx-imgBorder"]
+    >![Find a record to connect](media/sm-regarding-record.png "Find for a record to connect")
+    
+3. After selecting a record, tap **Save**.
+
+    >[!div class="mx-imgBorder"]
+    >![Select and save a record to connect](media/sm-select-regarding-record.png "Select and save a record to connect")
+    
+The connected record details are displayed in the Regarding section.
+
+**Add regarding entity in meetings**<a name='add-regarding-entity'></a>
+
+You can add a regarding entity to a meeting when no regarding entity is attached to it. When you add the regarding entity, its corresponding related entities are also added to the meeting.  
+
+>[!NOTE]  
+>Once you add a regarding entity, you cannot delete it. However, you can update the entity if you find that the added entity is inappropriate.   
+
+1. On the meeting details page, tap **Set regarding**.
+
+    >[!div class="mx-imgBorder"]
+    >![Connect a record to a meeting](media/sm-meeting-details-no-record.png "Connect a record to a meeting")
+    
+2. On the **Regarding** page, either select a recent record or tap **Search** to look for the record you want.
+
+    >[!div class="mx-imgBorder"]
+    >![Find a record to connect](media/sm-regarding-record.png "Find for a record to connect")
+    
+3. After selecting a record, tap **Save**.
+
+    >[!div class="mx-imgBorder"]
+    >![Select and save a record to connect](media/sm-select-regarding-record.png "Select and save a record to connect")
+    
+The connected record details are displayed in the Regarding section.
 
 **Notes**    
 

@@ -18,12 +18,14 @@ Records and regarding entities can be accessed from the home page or the Meeting
 - On the home page, go to the **Recent records** section.   
 - On the Meetings page, go to the **Regarding** section.   
 
-> [!NOTE]
-> You'll be able to set the regarding record only if server-side synchronization has been enabled in your environment. Contact your administrator to enable it.
-
-You can [view details](#view-details) and [edit the entities](#edit-the-entities) on records on the home and Meetings pages. Additionally, you can [change a regarding entity](#change-regarding-entity) and [add a regarding entity](#add-regarding-entity) on the Meetings page.
+You can [view details](#view-details) and [edit the entities](#edit-the-entities) on records on the home and Meetings pages. Additionally, you can [change a regarding entity](view-agenda.md#change-regarding-entity) and [add a regarding entity](view-agenda.md#add-regarding-entity) on the Meetings page.
 
 ## View details
+
+> [!NOTE]
+> - The fields that you see on the compact form are defined in the quick view form of the entity.
+> - The lightweight view doesn't include all attributes of the entity.
+> - This is a lightweight form that contains any attributes defined in the first form on quick view form set order. More information: [Set the form order](https://docs.microsoft.com/powerapps/maker/model-driven-apps/control-access-forms#set-the-form-order).
 
 You can view the details of records in the following ways: 
 
@@ -33,84 +35,32 @@ The home page displays a list of records that you have recently accessed. These 
 
 **On the Meetings page**     
 
-The Meeting details page displays the regarding entity that is related to the meeting.<!-- Edit note: Is it correct that there is only one entity. --> Also, the notes and insights that are displayed in the meeting are related to the displayed regarding entity. Tap **Open *record type*** to view the details in the lightweight form. The details include basic information about the entity, [related notes, and reminders](#notes-and-reminders). 
+The Meeting details page displays the regarding entity that is related to the meeting. Also, the notes and insights that are displayed in the meeting are related to the displayed regarding entity. Tap **Open *record type*** to view the details in the lightweight form. The details include basic information about the entity, [related notes, and reminders](#notes-and-reminders). 
 
 >[!NOTE]
 >To learn more about notes, see [Manage notes](view-edit-add-note.md).
 
-## Edit records and entities<!-- Edit note: How about "Edit records and entities" since both are mentioned -->
+## Edit records and entities
 
 Follow these steps to edit records and entities in the Dynamics 365 Sales mobile app.
 
-- To edit records on the home page, open the record. In the upper-right corner of the quick view form, tap **Edit**. Edit the details in the Edit form and tap **Save**. To open the record in the Sales Hub app, tap **Open *record type***.<!-- Edit note: Revised to better match the screenshot and to put the directional info up front. -->
+- To edit records on the home page, open the record. In the upper-right corner of the quick view form, tap **Edit**. Edit the details in the Edit form and tap **Save**. To open the record in the Sales Hub app, tap **Open *record type***.
 
     >[!div class="mx-imgBorder"]
     >![Quick view form opened from the home page](media/sm-homepage-view-details-lead.png "Quick view form opened from the home page")
     
-- To quickly edit the basic information about the regarding entity on the **Meetings** page, tap the three dots, **More options** (![Options button](media/sm-options-button.png "Options button")), and then tap **Quick edit**. The record's Edit form opens. Enter or update the required information, and then tap **Save**.<!-- Edit note: Should "record" be "entity" here. -->
+- To quickly edit the basic information about the regarding entity on the **Meetings** page, tap the three dots, **More options** (![Options button](media/sm-options-button.png "Options button")), and then tap **Quick edit**. The record's Edit form opens. Enter or update the required information, and then tap **Save**.
 
     >[!div class="mx-imgBorder"]
     >![Tap quick edit option](media/sm-quick-edit-regarding-entity.png "Tap quick edit option")    
 
-    To edit the whole record, tap **Open *record type***. The record opens in the Sales Hub app for editing.<!-- Edit note: Should "record" be "entity" here. -->   
-
-<a name='change-regarding-entity'></a>
-## Change regarding entity in meetings
-
-You can update the regarding entity when it is no longer relevant or there are changes to the meeting. To change the regarding entity, follow these steps:
-
-1. Tap the three dots, **More options** (![Options button](media/sm-options-button.png "Options button")), and then tap **Change connected record**.
-
-    >[!div class="mx-imgBorder"]
-    >![Select change connected record option](media/sm-select-change-connected-record.png "Select change connected record option")
-    
-2. On the Regarding page, either select a recent record or tap **Search** to look for the record you want.
-
-    >[!div class="mx-imgBorder"]
-    >![Find a record to connect](media/sm-regarding-record.png "Find for a record to connect")
-    
-3. After selecting a record, tap **Save**.
-
-    >[!div class="mx-imgBorder"]
-    >![Select and save a record to connect](media/sm-select-regarding-record.png "Select and save a record to connect")
-    
-The connected record details are displayed in the Regarding section.
-
-<a name='add-regarding-entity'></a>
-## Add regarding entity in meetings
-
-You can add a regarding entity to a meeting when no regarding entity is attached to it. When you add the regarding entity, its corresponding related entities are also added to the meeting.  
-
->[!NOTE]  
->Once you add a regarding entity, you cannot delete it. However, you can update the entity if you find that the added entity is inappropriate.   
-
-1. On the meeting details page, tap **Set regarding**.
-
-    >[!div class="mx-imgBorder"]
-    >![Connect a record to a meeting](media/sm-meeting-details-no-record.png "Connect a record to a meeting")
-    
-2. On the **Regarding** page, either select a recent record or tap **Search** to look for the record you want.
-
-    >[!div class="mx-imgBorder"]
-    >![Find a record to connect](media/sm-regarding-record.png "Find for a record to connect")
-    
-3. After selecting a record, tap **Save**.
-
-    >[!div class="mx-imgBorder"]
-    >![Select and save a record to connect](media/sm-select-regarding-record.png "Select and save a record to connect")
-    
-The connected record details are displayed in the Regarding section. 
-
-> [!NOTE]
-> - The fields that you see on the compact form are defined in the quick view form of the entity.
-> - The lightweight view doesn't include all attributes of the entity.
-> - This is a lightweight form that contains any attributes defined in the first form on quick view form set order. More information: [Set the form order](https://docs.microsoft.com/powerapps/maker/model-driven-apps/control-access-forms#set-the-form-order)
+    To edit the whole record, tap **Open *record type***. The record opens in the Sales Hub app for editing.   
 
 ## Notes and reminders
 
 **Notes**
 
-Notes displayed in the **Notes** section are related to the regarding entity that is associated with the meeting. You can add, edit, and delete notes. More information: [Manage notes](sales-mobile/view-edit-add-note.md)<!-- Edit note: Broken link. -->
+Notes displayed in the **Notes** section are related to the regarding entity that is associated with the meeting. You can add, edit, and delete notes. More information: [Manage notes](view-edit-add-note.md).
 
 **Reminders**
 
