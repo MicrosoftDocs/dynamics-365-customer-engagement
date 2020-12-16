@@ -29,8 +29,8 @@ For a guided walkthrough, check out the following video.
 ## Supported platforms
 
 - Windows 10, desktop + tablet
-- iOS 11.0+, phones + tablets
-- Android 5.0+, phones + tablets
+- iOS 12.0+, phones + tablets
+- Android 6.0+, phones + tablets
 
 ## Key capabilities
 
