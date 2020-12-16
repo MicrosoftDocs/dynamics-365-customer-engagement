@@ -113,9 +113,23 @@ ms.custom:
    <li><a href="download-email-chat-transcripts.md" data-raw-source="[Download and email chat transcripts](download-email-chat-transcripts.md)">Download and email chat transcripts</a></li>
    <li><a href="embed-chat-widget-portal.md" data-raw-source="[Embed a chat widget in a web portal](embed-chat-widget-portal.md)">Embed a chat widget in a web portal</a></li>
   
+   </ul>
+  </td>
+</tr> 
+
+ </ul>
+  </td>  
+
+ <td><h2>Agent Productivity Tools</h2>
+   <ul>
+  <li><a href="csw-productivity-pane.md" data-raw-source="[Productivity pane in Customer Service workspace](csw-productivity-pane.md)">Productivity pane in Customer Service workspace</a></li>
+   <li><a href="productivity-pane.md" data-raw-source="[Productivity pane in Omnichannel for Customer Service](productivity-pane.md)">Productivity pane in Omnichannel for Customer Service</a></li>
+   <li><a href="macros.md" data-raw-source="[Automate tasks with macros](macros.md)">Automate tasks with macros</a></li>
    
   </ul>
   </td>
+  
+  
 </tr> 
 
 
