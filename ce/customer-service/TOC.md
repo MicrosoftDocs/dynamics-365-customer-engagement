@@ -83,7 +83,6 @@
 ### [Set up rules to create or update records in legacy app](set-up-rules-to-automatically-create-or-update-records.md)
 ### [Create records from emails in legacy app](automatically-create-case-from-email.md)
 
-
 ## Service-level agreements
 ### Administrator experience
 #### [Define service-level agreements](define-service-level-agreements.md)
@@ -168,6 +167,19 @@
 #### [View communication panel](oc-conversation-control.md)
 #### [Create a record](oc-create-record.md)
 #### [Search, link, and unlink a record](oc-search-link-unlink-record.md)
+#### [Take notes for conversation](oc-take-notes.md)
+#### [Understand conversation states](oc-conversation-state.md)
+#### [View call options and visual engagement in live chat](call-options-visual-engagement.md)
+#### [Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md)
+#### [Manage sessions](oc-manage-sessions.md)
+#### [Manage applications](oc-manage-applications.md)
+#### [Personalize sound notifications](oc-personalize-sound-notifications.md)
+#### [Create personal quick replies](create-personal-quick-replies.md)
+#### [Manage presence status](oc-manage-presence-status.md)
+#### [Search for transcripts](oc-search-transcipts.md)
+#### [View conversation and session forms](oc-view-activity-types.md)
+#### [View customer summary for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)
+#### [Real-time language translation of conversations](oc-real-time-translation.md)
 ### Developer experience
 #### [Customize a chat widget](customize-chat-widget.md)
 #### [Render live chat widget on mobile app](render-live-chat-widget-mobile.md)
@@ -217,6 +229,12 @@
 ##### [Configure a Microsoft Teams channel](configure-microsoft-teams.md)
 #### Set up a custom messaging channel
 ##### [Configure a custom messaging channel](configure-custom-channel.md)
+### Agent experience
+#### [Use SMS channel](sms-telesign-twilio.md)
+#### [Use Facebook channel](facebook.md)
+#### [Use WhatsApp channel](whatsapp.md)
+#### [Use Teams channel](teams-channel.md)
+#### [Use WeChat channel](wechat-channel.md)
 ### Developer experience
 #### Bring your own custom messaging channel
 ##### [Bring your own custom messaging channel: Direct Line bot](bring-your-own-channel.md)
