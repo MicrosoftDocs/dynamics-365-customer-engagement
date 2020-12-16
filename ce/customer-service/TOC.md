@@ -259,11 +259,11 @@
 ### [Configure data masking](data-masking-settings.md)
 
 ## Templates
-#### [Overview](templates-overview.md)
-#### [Manage session templates](../app-profile-manager/session-templates.md)
-#### [Manage application tab templates](../app-profile-manager/application-tab-templates.md)
-#### [Manage notification templates](../app-profile-manager/notification-templates.md)
-#### [Associate templates with workstreams](associate-templates.md)
+### [Overview](templates-overview.md)
+### [Manage session templates](../app-profile-manager/session-templates.md)
+### [Manage application tab templates](../app-profile-manager/application-tab-templates.md)
+### [Manage notification templates](../app-profile-manager/notification-templates.md)
+### [Associate templates with workstreams](associate-templates.md)
 
 ## Power Virtual Agents bots
 ### [Integrate a Power Virtual Agents bot](configure-bot-virtual-agent.md)

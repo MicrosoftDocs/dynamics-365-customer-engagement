@@ -11,7 +11,7 @@ ms.service: dynamics-365-customerservice
 
 # Configure Link to conversation button in model-driven app entity form
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 ## Introduction
 

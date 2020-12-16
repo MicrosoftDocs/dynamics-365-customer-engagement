@@ -1,10 +1,11 @@
 ---
 title: Developers learning catalog
 description: Find all the training options for developers.
-author: loreleishannonmsft
-ms.author: v-lshann
+author: MargoC
+ms.author: margoc
 ms.date: 01/08/2020
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ---
 
 # Developers Learning Catalog
