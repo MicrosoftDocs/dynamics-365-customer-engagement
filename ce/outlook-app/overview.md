@@ -70,13 +70,69 @@ For more information on what's new, see [What's new with Dynamics 365 App for Ou
 
 ## Known issues and FAQs
 
+### Dynamics 365 App for Outlook add-in error
+
+Some users may experience add-in error with the following symptoms:
+
+1.  When clicking on the Dynamics 365 App for Outlook button the App
+    Pane displays
+
+2.  After about 30 seconds or so a yellow error section at the top of
+    the Pane displays
+
+3.  The error itself has variations:
+
+    1.  ADD-IN ERROR This add-in could not be started. Close this dialog
+        to ignore the problem or click "Restart" to try again.
+
+    2.  ADD-IN ERROR This add-in is not responding. Close this warning
+        dialog to keep it running or click "Restart" to try again.
+
+    3.  ADD-IN ERROR This add-in seems to be having problems. Click
+        "Restart" to try starting it again.
+
+    4.  ADD-IN ERROR Sorry, we had to rest because this add-in wasn't
+        responding.
+
+Sometimes clicking the "Restart" button causes the process to repeat.
+
+Solutions:
+
+Here are some of the solutions that can help address the add-in error
+issue
+
+1.  Add/update the below registry keys for the users experiencing the
+    add-in error.
+
+    1. **\[**HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Office\\16.0\\Wef**\]  
+ **AlertInterval**=dword:00000000**
+
+    2. **\[**HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Office\\16.0\\Wef**\]  
+ **AlertInterval**=dword:00000000**
+
+Additional information on the registry keys can be found
+[here](https://docs.microsoft.com/en-us/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins#when-debugging-with-the-microsoft-edge-devtools-the-add-in-crashes-or-reloads).
+
+If the registry key doesn't work, one of the below are the only
+solutions for the add-in error.
+
+1.  Users experiencing add-in error can Outlook Web App in Microsoft
+    Edge or Google Chrome browsers to access Dynamics 365 App for
+    Outlook
+
+2.  Alternatively, users can update their Outlook client to the latest
+    C2R monthly enterprise channel or current channel.
+
+### Users with custom security role can't access Dynamics 365 App for Outlook
 Users who are assigned a custom security role may not be able to access [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)]. We are working on a fix for this issue. In the meantime, for more information, see:
  - [Support article](https://support.microsoft.com/help/4078135/sorry-something-went-wrong-while-initializing-the-app-when-accessing-t)
  - [Configure Outlook or Exchange folder-level tracking](https://docs.microsoft.com/power-platform/admin/configure-outlook-exchange-folder-level-tracking)
-  - [Set an option to automatically track incoming Outlook email in Dynamics 365 for Outlook](https://docs.microsoft.com/dynamics365/outlook-addin/user-guide/set-option-automatically-track-incoming-outlook-email)
+ - [Set an option to automatically track incoming Outlook email in Dynamics 365 for Outlook](https://docs.microsoft.com/dynamics365/outlook-addin/user-guide/set-option-automatically-track-incoming-outlook-email)
 
+### Delegated users cannot track emails
 Delegated users cannot track emails using [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)]. Try using folder-level tracking or automatic tracking for delegated users.  
 
+### Other known issues
 For other known issues with this version of [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)], see the [Dynamics 365 apps Readme](../admin/readme-9.md). 
 
 For more information on FAQs, see [Frequently Asked Questions about Dynamics 365 App for Outlook](faq.md).
