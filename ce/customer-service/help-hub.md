@@ -135,7 +135,6 @@ ms.custom:
 
  <td><h2>Videos</h2>
 
-<ul>
 
  <li><a href="https://www.youtube.com/watch?v=cDN-gv0Yylg" data-raw-source="[Resolve open cases quickly with Customer Service Hub dashboards for Customer Engagement](https://www.youtube.com/watch?v=cDN-gv0Yylg)">Resolve open cases quickly with Customer Service Hub dashboards for Customer Engagement</a></li>
  <li><a href="https://www.youtube.com/watch?v=ruAPEKY5vNc" data-raw-source="[How to use the Reference panel in the Customer Service Hub](https://www.youtube.com/watch?v=ruAPEKY5vNc)">How to use the Reference panel in the Customer Service Hub</a></li>
