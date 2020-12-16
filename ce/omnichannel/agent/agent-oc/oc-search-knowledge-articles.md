@@ -5,12 +5,11 @@ author: neeranelli
 ms.author: nenellim
 manager: shujoshi
 ms.date: 10/12/2020
-ms.service: 
-  "dynamics-365-customerservice"
 ms.topic: article
+ms.service: "dynamics-365-customerservice"
 ---
 
-# Search for and share knowledge articles
+# Search and share knowledge articles
 
 [!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
@@ -18,9 +17,9 @@ ms.topic: article
 
 Knowledge management plays an important part in the customer service process, and access to accurate and up-to-date information can help you reduce the average handling time to provide quick and accurate answers to your customers.
 
-Omnichannel for Customer Service enables you to use the rich knowledge base so you can quickly search for relevant information while working on a case and provide accurate answers to customers without having to switch applications.
+Omnichannel for Customer Service enables you to use the rich knowledge base so that you can quickly search for relevant information while working on a case and provide accurate answers to customers without having to switch applications.
 
-You can launch Knowledge Search in the following ways:
+You can launch knowledge search in the following ways:
 
 - Productivity pane.
 - Communication panel.

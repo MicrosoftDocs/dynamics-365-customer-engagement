@@ -5,8 +5,7 @@ author: neeranelli
 ms.author: nenellim
 manager: shujoshi
 ms.date: 10/12/2020
-ms.service: 
-   "dynamics-365-customerservice"
+ms.service: "dynamics-365-customerservice"
 ms.topic: article
 ---
 
@@ -18,7 +17,7 @@ The app profile manager lets organizations create targeted app experiences for a
 
 The profiles are available for agents and supervisors who use the Customer Service workspace or Omnichannel for Customer Service apps.
 
-The system requirements for the app profile manager are same as those for Customer Service workspace (preview). More information: [System requirements for Customer Service workspace](../customer-service/customer-service-workspace-system-requirements.md)
+The system requirements for the app profile manager are same as those for Customer Service workspace. More information: [System requirements for Customer Service workspace](../customer-service/customer-service-workspace-system-requirements.md)
 
 ## How the app profile experience works
 

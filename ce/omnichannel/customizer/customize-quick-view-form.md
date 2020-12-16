@@ -5,11 +5,12 @@ author: neeranelli
 ms.author: nenellim
 manager: shujoshi
 ms.date: 10/05/2020
-ms.service: 
-   "dynamics-365-customerservice"
 ms.topic: article
+ms.service: "dynamics-365-customerservice"
 ---
 # Customize quick view forms
+
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
@@ -26,7 +27,7 @@ You customize the quick view form in the section by navigating to the respective
 
 The following procedure shows how to modify the **Customer profile** quick view form of the **Account** entity. The process is similar for other forms that are listed in the preceding table.
 
-1.  Sign in to the Common Data Service platform.
+1.  Sign in to the Dynamics 365 instance.
 
 2.  Go to **Settings** > **Customization** > **Customize the system**.
 

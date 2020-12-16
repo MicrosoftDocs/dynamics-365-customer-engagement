@@ -1,16 +1,17 @@
 ---
 title: "Set up skills and assign agents | MicrosoftDocs"
 description: "Learn how to create skills and assign agents to those skills in Omnichannel for Customer Service."
-author: kabala123
-ms.author: kabala
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.date: 12/27/2019
-ms.service: 
-  - "dynamics-365-customerservice"
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ---
 
 # Set up skills and assign agents
+
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
@@ -20,7 +21,7 @@ As an administrator, to create skills, you need at least one skill type in the s
 
 ### Create skill type
 
-1. Sign in to the Common Data Service platform as an administrator.
+1. Sign in to the Dynamics 365 instance as an administrator.
 
 2. Select **Settings** > **Customizations** >  **Customize the System**.
 

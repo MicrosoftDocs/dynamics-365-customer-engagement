@@ -1,13 +1,12 @@
 ---
 title: "Communication panel (conversation control) | MicrosoftDocs"
 description: "The left control panel is a communication panel or conversation control. The communication panel hosts the messages that you exchange with the customers. The communication panel provides various options like quick replies, consult, transfer, internal and public message modes."
-author: kabala123
-ms.author: kabala
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
-ms.date: 07/01/2019
-ms.service: 
-  - "dynamics-365-customerservice"
+ms.date: 11/12/2020
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ---
 # View communication panel
 
@@ -29,7 +28,7 @@ The communication panel has options that, as an agent, you can use to perform ce
 
 In addition, as an agent, you can use the keyboard commands in the communication panel to perform the actions that are such as see quick replies, consult, and transfer list, launch notes control, and much more.
 
-The keyboard commands helps allows you completing the scenario effectively and efficiently thus increasing your productivity.
+The keyboard commands allows you in completing the scenario effectively and efficiently thus increasing your productivity.
 
 In the communication panel, you can see the following options:
 
@@ -46,6 +45,9 @@ In the conversation channel, you can see the following options:
 
 > [!div class=mx-imgBorder]
 > ![omnichannel chat panel](../../media/oc-usd-chat-control-left-panel.png "Omnichannel chat panel")   
+
+> [!Note]
+> You cannot play mp4 video files in the communication panel. We recommend you to download the files to play the videos.
 
 ## Internal and public messages
 

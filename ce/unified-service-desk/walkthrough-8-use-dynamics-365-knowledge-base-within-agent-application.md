@@ -1,15 +1,14 @@
 ---
 title: "Walkthrough 8  Use knowledge base within your agent application | MicrosoftDocs"
 description: "Demonstrates how to configure a panel in Unified Service Desk to display knowledge base records."
+author: v-sailab
+ms.author: v-sailab
+manager: shujoshi
+ms.date: 08/17/2018
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-USD
-ms.date: 08/17/2018
-ms.service: 
-  - dynamics-365-customerservice
-ms.topic: article
-author: kabala123
-ms.author: kabala
-manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
@@ -19,7 +18,10 @@ search.app:
 ---
 
 # Walkthrough 8: Use knowledge base within your agent application
-This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] using the **KM Control** hosted control that displays knowledge base records from your Common Data Service platform.  
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
+This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] using the **KM Control** hosted control that displays knowledge base records from your Microsoft Dataverse.  
 
  In this walkthrough, you’ll:  
 
@@ -36,7 +38,7 @@ This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_s
 
 ## Prerequisites  
 
-- Deploy the "New Environment" sample application package to your Common Data Service platform instance. The walkthrough uses some of the controls and configuration in the "New Environment" sample application package that are created in the Common Data Service platform when you deploy the sample application. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Deploy sample Unified Service Desk applications to CRM server using Package Deployer](admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md)    
+- Deploy the "New Environment" sample application package to your Dataverse instance. The walkthrough uses some of the controls and configuration in the "New Environment" sample application package that are created in Dataverse when you deploy the sample application. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Deploy sample Unified Service Desk applications to CRM server using Package Deployer](admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md)    
 
 - You must know about the following in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]:  
 
@@ -70,7 +72,7 @@ This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_s
 ## Step 1: Create a hosted control of type KM Control  
  In this step, you’ll create a hosted control of type **KM Control** to display the knowledge base search pane.  
 
-1. Sign in to the Common Data Service platform.  
+1. Sign in to the Dynamics 365 instance.  
 
 2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
 
@@ -139,7 +141,7 @@ This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_s
 3. Click **Main Layout** in the list of hosted controls.  
 
    > [!NOTE]
-   >  The **Main Layout** hosted control is available when you deploy the Base sample application in your Common Data Service platform instance.  
+   >  The **Main Layout** hosted control is available when you deploy the Base sample application in your Dataverse instance.  
 
 4. Click the down arrow next to **Main layout**, and then click **UII Actions**.  
 
@@ -165,7 +167,7 @@ This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_s
     |     Field      |                                                                                              Value                                                                                               |
     |----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
     |      Name      |                                                                                Sample: Expand Right Panel Action                                                                                 |
-    | Hosted Control | Main Layout **Note:**  The **Main Layout** hosted control is available when you deploy the Base sample application in your Common Data Service platform instance. |
+    | Hosted Control | Main Layout **Note:**  The **Main Layout** hosted control is available when you deploy the Base sample application in your Dataverse instance. |
     |     Action     |                                                                                        SetVisualProperty                                                                                         |
     |      Data      |                                                           elementname=RightPanelExpander<br />propertyname=IsExpanded<br />value=true                                                            |
 
@@ -181,7 +183,7 @@ This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_s
     |     Field      |                                                                                              Value                                                                                               |
     |----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
     |      Name      |                                                                               Sample: Collapse Right Panel Action                                                                                |
-    | Hosted Control | Main Layout **Note:**  The **Main Layout** hosted control is available when you deploy the Base sample application in your Common Data Service platform instance. |
+    | Hosted Control | Main Layout **Note:**  The **Main Layout** hosted control is available when you deploy the Base sample application in your Dataverse instance. |
     |     Action     |                                                                                        SetVisualProperty                                                                                         |
     |      Data      |                                                           elementname=RightPanelExpander<br />propertyname=IsExpanded<br />value=false                                                           |
 
@@ -217,7 +219,7 @@ This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_s
  Create an action call to automatically populate the case title in the knowledge base search control to search based on the case title name. After creating the action, you’ll add it to the `BrowserDocumentComplete` event of the **Incident** hosted control to fire this action after the case records have loaded in the agent desktop.  
 
 > [!NOTE]
->  The **Incident** hosted control is created when you deploy the Base sample application in your Common Data Service platform instance.  
+>  The **Incident** hosted control is created when you deploy the Base sample application in your Dataverse instance.  
 
 1. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
 
@@ -258,7 +260,7 @@ This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_s
 11. Type `Sample: Search KB with Incident (Case) Title Action` in the search box, and press ENTER or click the search button to add the action to the event. Click the **Save** ![Auto save button](../unified-service-desk/media/crm-itpro-cust-autosaveicon.png "Auto save button") button in the lower-right corner.  
 
 > [!NOTE]
->  At this point, the knowledge base search control is configured to display knowledge bases in context with the currently opened case record. Also, the knowledge base search panel is configured to automatically display when a session is created, and automatically hide when you close the session. You can test this by running the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application and connecting to the Common Data Service platform instance where you performed steps 1 through 4 of this walkthrough. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]  
+>  At this point, the knowledge base search control is configured to display knowledge bases in context with the currently opened case record. Also, the knowledge base search panel is configured to automatically display when a session is created, and automatically hide when you close the session. You can test this by running the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application and connecting to Dataverse instance where you performed steps 1 through 4 of this walkthrough. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]  
 > 
 >  Perform the rest of the steps to display a knowledge base article from the search results in a tab, and configure contextual actions for a selected knowledge base article in the search panel such as copying an article link and associating the article to the current case.  
 
@@ -470,7 +472,7 @@ In this step, you will:
 ## Step 7: Test the application  
  To test the application:  
 
-1. Start the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, and sign in to the Common Data Service platform instance where you configured [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] entities as described earlier.  
+1. Start the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, and sign in to the Dynamics 365 instance where you configured [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] entities as described earlier.  
 
 2. In the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] application, click **My Work** in the toolbar to display a list of cases assigned to you.  
 

@@ -1,20 +1,22 @@
 ---
-title: "Finalizing registrations for paid events | MicrosoftDocs"
+title: "Finalizing registrations for paid events (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Provides information about how to finalize registrations for paid events."
-ms.custom:
-  - dyn365-developer
-  - dyn365-marketing
 ms.date: 07/12/2019
 ms.service: dynamics-365-marketing
-ms.technology: 
-  - "marketing"
-ms.topic: "article"
-author: Nkrb
-ms.author: nabuthuk
-manager: kvivek
+ms.custom: 
+  - dyn365-marketing
+ms.topic: article
+author: alfergus
+ms.author: alfergus
+manager: shellyha
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
+  - D365Mktg
 ---
 
-# Finalizing registration for paid events 
+# Finalizing registration for paid events
 
 This topic walks you through the process of developing a .NET Core application that authenticates against Dynamics 365 Marketing and triggers a custom action that finalizes the registration process for paid events. Before going through the topic, make sure that you read and understand [Set up online payments for events](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/event-payment-gateway#develop-a-service-to-finalize-event-registration).  
 

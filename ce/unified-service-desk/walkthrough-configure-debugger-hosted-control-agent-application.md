@@ -1,15 +1,14 @@
 ---
 title: "Walkthrough 6  Configure the Debugger hosted control in your agent application | MicrosoftDocs"
 description: 
+author: v-sailab
+ms.author: v-sailab
+manager: shujoshi
+ms.date: 08/17/2018
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-USD
-ms.date: 08/17/2018
-ms.service: 
-  - dynamics-365-customerservice
-ms.topic: article
-author: kabala123
-ms.author: kabala
-manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
@@ -19,6 +18,9 @@ search.app:
 ---
 
 # Walkthrough 6: Configure the Debugger hosted control in your agent application
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] provides a **Debugger** type of hosted control, which provides you key information about your [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] configuration that helps you to successfully build an agent application and troubleshoot issues in your configuration. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Debug issues in Unified Service Desk](../unified-service-desk/debug-issues-unified-service-desk.md )  
 
  This walkthrough demonstrates how to configure a Debugger hosted control for your agent application.  
@@ -52,7 +54,7 @@ search.app:
 <a name="Step1"></a>   
 ## Step 1: Create a Debugger type of hosted control  
 
-1. Sign in to the Common Data Service platform.  
+1. Sign in to the Dynamics 365 instance.  
 
 2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
 
@@ -78,7 +80,7 @@ search.app:
 ## Step 2: Add toolbar button and action call to display the Debugger hosted control  
  Add a toolbar button to **Contoso Main Toolbar** (created in [Walkthrough 3: Display records in your agent application](../unified-service-desk/walkthrough-3-display-microsoft-dynamics-365-records-in-your-agent-application.md)), and then add an action call for the button to display the **Contoso Debugger** hosted control that you created in step 1.  
 
-1. Sign in to the Common Data Service platform.  
+1. Sign in to the Dynamics 365 instance.  
 
 2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
 
@@ -131,7 +133,7 @@ search.app:
 
  To add a control to the configuration:  
 
-1. Sign in to the Common Data Service platform.  
+1. Sign in to the Dynamics 365 instance.  
 
 2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
 
@@ -151,7 +153,7 @@ search.app:
 
 <a name="Step4"></a>   
 ## Step 4: Test the application  
- Start the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, and sign in to the Common Data Service platform instance where you configured [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] using the same user credentials that you assigned to the **Contoso Configuration** in [Walkthrough 1: Build a simple agent application](../unified-service-desk/walkthrough-1-build-a-simple-agent-application.md). For information about connecting to the Common Data Service platform instance using the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, see [Connect to a model-driven app instance using the Unified Service Desk client](admin/connect-dynamics-365-instance-using-unified-service-desk-client.md).  
+ Start the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, and sign in to the Dynamics 365 instance where you configured [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] using the same user credentials that you assigned to the **Contoso Configuration** in [Walkthrough 1: Build a simple agent application](../unified-service-desk/walkthrough-1-build-a-simple-agent-application.md). For information about connecting to Dataverse instance using the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, see [Connect to a model-driven app instance using the Unified Service Desk client](admin/connect-dynamics-365-instance-using-unified-service-desk-client.md).  
 
  Your agent application will now have a **DEBUGGER** button in the toolbar area. Clicking this button displays the Debugger control.  
 

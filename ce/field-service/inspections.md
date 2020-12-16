@@ -3,25 +3,16 @@ title: "Dynamics 365 Field Service inspections | MicrosoftDocs"
 description: Learn about how to use inspections in Dynamics 365 Field Service.
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 10/21/2020
+ms.date: 11/19/2020
 ms.reviewer: krbjoran
+ms.topic: article
 ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 author: FieldServiceDave
-ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
-caps.latest.revision: 42
 ms.author: daclar
 manager: shellyha
-search.audienceType: 
-  - admin
-  - customizer
 search.app: 
   - D365CE
   - D365FS
@@ -29,13 +20,15 @@ search.app:
 
 # Add inspections to work orders in Dynamics 365 Field Service
 
-Field Service inspections are digital forms that technicians use to quickly and easily answer a list of questions as part of a work order. The list of questions can include safety protocols, pass and fail tests for a customer asset, an interview with a customer, or other audits and assessments performed before, during, or after a work order.
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
+Field Service inspections are digital forms that technicians use to quickly and easily answer a list of questions as part of a work order. The list of questions can include safety protocols, pass-and-fail tests for a customer asset, an interview with a customer, or other audits and assessments performed before, during, or after a work order.
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of an inspection on a tablet and a phone](./media/inspections-mobile-2020-tablet-phone.png)
 
-With a drag-and-drop interface, inspections are easy to create, and are easier for technicians to fill out compared to paper forms. Inspection answers are stored in Common Data Service, making it easy to report on results and fit inspections into your automated business processes.
+With a drag-and-drop interface, inspections are easy to create, and are easier for technicians to fill out compared to paper forms. Inspection answers are [stored in Microsoft Dataverse](https://docs.microsoft.com/dynamics365/field-service/inspections-advanced#understand-view-and-report-inspection-responses), making it easy to report on results and fit inspections into your automated business processes.
 
 Inspections in Field Service also provide: 
 
@@ -55,13 +48,19 @@ Inspections are easy to create and use, involving the following steps:
 
 In this article, we'll walk through an example of setting up an inspection using a maintenance checklist on a customer asset.
 
-For a guided walkthrough, see the following video: ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Module 8: Inspections](https://youtu.be/aDfwIP7rT-U)
+For a guided walkthrough, check out the following video.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Hy8U]
+
+
 
 ## Prerequisites
 
 - Dynamics 365 version 9.1.0000.15015+.
 
 - Knowledge of work order [incident types and service tasks](configure-incident-types.md) is encouraged.
+
+- Inspections became generally available in the 2020 Wave 2 Field Service update. If you do not see inspections in your Field Service environment, [upgrade to the latest version of Field Service](upgrade-field-service.md). 
 
 ## Create inspection
 
@@ -93,6 +92,13 @@ Add a question to the inspection by double-clicking or dragging-and-dropping a q
 
 - **File:** Allows technicians to upload a file, take picture, or choose picture from their camera roll.
 
+- **Barcode scan:** Allows technicians to populate the field with the barcode number by scanning a barcode with their device's camera. Choose "Textbox" question type, then select **Barcode** for input type in the **Advanced** section.
+
+- **Matrix (Dynamic):** Adds a grid of questions. More rows can be added dynamically while performing the inspection. See the following screenshot for an example.
+
+> [!div class="mx-imgBorder"]
+> ![Device render showing an inspection form allowing adding more rows.](./media/inspections-matrix-barcode.png)
+
 Use the **Required** toggle to make the inspection question mandatory.
 
 > [!div class="mx-imgBorder"]
@@ -112,29 +118,7 @@ Add pages to your inspection in order to:
 
 Select the page dropdown in the top left of the designer to add one or more pages. Then add a page title and a page description, if needed.
 
-### Branching and conditional logic
 
-The inspection can be configured to look and act differently based on inspection answers in real time as the technician fills it out.
-
-Go to the **Logic** section of the designer form to add branching and conditional logic to the inspection.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the logic designer for Field Service inspections.](./media/inspections-logic1.png)
-
-Based on the response to an inspection question, options include:
-
-- **Make page visible**: Make the entire page of questions visible when the condition is true. Otherwise keep it hidden.
-
-- **Show the question**: Make the question visible when the condition is true. Otherwise keep it hidden.
-
-- **Change to required**: Question becomes required when the condition is true.
-
-- **Skip to question**: When the condition is true, then the focus shifts to the selected question.
-
-See the following screenshot for an example.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a filled out logic designer for a Field Service inspection.](./media/inspections-logic2.png)
 
 ### Review and publish
 
@@ -264,7 +248,7 @@ Back in Dynamics 365, a dispatcher will see inspection responses.
 After the work order is scheduled to the appropriate technician, they can see and complete the inspection from the work order on the [Field Service Mobile](field-service-mobile-overview.md) app.
 
 > [!Note]
-> You must download and import a new mobile project template into the mobile configuration tool (Woodford) to use inspections on Field Service Mobile during public preview. [Download the mobile project template for inspections](https://aka.ms/fsmproject-inspections-ea). For more information on mobile project templates, see the topic on [importing the mobile project template](https://docs.microsoft.com/dynamics365/field-service/install-field-service#step-4-import-the-mobile-project-template).
+> You must download and import a new mobile project template into the mobile configuration tool (Woodford) to use inspections on Field Service Mobile during public preview. [Download the mobile project template for inspections](https://aka.ms/fsmobile-project). For more information on mobile project templates, see the topic on [importing the mobile project template](https://docs.microsoft.com/dynamics365/field-service/field-service-mobile-app-user-guide#step-3-import-the-mobile-project-template).
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the mobile configurator, showing the list of projects.](media/inspections-fsm-mobile-project.png)
@@ -318,11 +302,7 @@ If an inspection question is required, the technician will not be able to mark *
 
 - New inspections cannot be created or designed from small form factors like mobile devices.
 
-- The ability to add version numbering to inspections is not part of the April 2020 public preview and is **planned**.
-
-- Inspections cannot be exported and imported to other environments
-
-- Parsing of inspection responses out-of-the-box without the need for Power Automate is **planned**. 
+- Inspections cannot be exported and imported to other environments.
 
 ### Known issues
 
@@ -341,17 +321,21 @@ If an inspection question is required, the technician will not be able to mark *
 > ![Screenshot showing a work order service task in Field Service, with attention to the related section being empty.](./media/inspections-known-issue-cant-view-inspection.jpg)
 
 - Inactive inspections and work order service tasks are not available in offline mode. 
-- Inspections do not load in Internet Explorer. Edge or Chrome is recommended. 
+- Inspections do not load in Internet Explorer. Microsoft Edge or Chrome is recommended. 
 - The question type "Entity lookup" shows inactive records.
 
-### Field Service inspections vs. Power Apps inspections
+### Field Service inspections or Power Apps inspections
 
-- **Easier to create and use**: Field Service inspections require no additional training to use and are designed to be easy for business users. For example, if you can create a survey with Microsoft Customer Voice, you can create an inspection. This is different from Power Apps inspections, which require extensive knowledge of the Power Apps platform and may require coding. 
+Here are a few reasons customers choose to use Field Service inspections. 
+
+1. **Offline support**: Technicians can view and fill out inspections on their mobile phones or tablets without internet access. Inspections and answers are stored locally on the mobile device and then synced to the server when connectivity is restored (cellular or WiFi). 
+2. **Version management**: Administrators can easily republish or change inspections to accommodate changing processes and evolving business needs.
+3. **Easier to create and use**: Field Service inspections require no additional training to use and are designed to be easy for business users. For example, if you can create a survey with Microsoft Customer Voice, you can create an inspection. This is different from Power Apps inspections, which require extensive knowledge of the Power Apps platform and may require coding. 
 - **More scalable**: If your organization has many different inspections, it's easier to create Field Service inspections with a drag-and-drop interface and with dynamic branching. Power Apps inspections require creating new entities and forms for each inspection, which is more time consuming. 
-- **Better integrated with Dynamics 365**: Field Service inspections are built into the work order and asset servicing capabilities. Version management capabilities help administrators track and manage changes to each inspection. 
+- **Better integrated with Dynamics 365**: Field Service inspections are built into the work order and asset servicing capabilities. 
 
 
-### Field Service inspections vs. work order service tasks
+### Field Service inspections or work order service tasks
 
 Compared to work order incident types and service tasks, inspections have additional benefits:
 

@@ -1,19 +1,15 @@
 ---
-title: "Accessibility features and keyboard shortcuts (Dynamics 365 Marketing) | Microsoft Docs "
-description: "Provides an overview of accessibility features and keyboard shortcuts in Dynamics 365 Marketing"
-keywords: accessibility; keyboard shortcuts
+title: "Accessibility features and keyboard shortcuts (Dynamics 365 Marketing) | Microsoft Docs"
+description: "Provides an overview of accessibility features and keyboard shortcuts in Dynamics 365 Marketing."
 ms.date: 08/16/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-a11y
   - dyn365-marketing
 ms.topic: article
-ms.assetid: f0dec7ab-009f-432a-8618-53708615aa6a
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer
@@ -154,7 +150,7 @@ When a text element is selected, you are able to enter and style text within tha
 
 Most of the standard navigation and selection keyboard commands also work when you are designing a customer journey or lead scoring model. In addition, some special assistance is provided to let you work with the tiles and arrange them on the canvas.
 
-![An example of a customer journey](media/customer-journey-full2.png "An example of a customer journey")
+![An example of a customer journey](media/customer-journey-full.png "An example of a customer journey")
 
 <a name="canvas-tabs"></a>
 

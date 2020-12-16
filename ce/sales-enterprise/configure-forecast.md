@@ -9,10 +9,12 @@ ms.author: udag
 manager: shujoshi
 searchScope:
   - D365-App-msdynce_saleshub
-  - D365-Entity-forecast configuration
+  - D365-Entity-msdyn_forecastconfiguration
   - D365-UI-*
   - Dynamics 365
   - Sales
+  - Customer Engagement
+
 ---
 
 # Configure forecasts in your organization
@@ -114,8 +116,8 @@ To configure a forecast in your organization, follow these steps:
 </td></tr>
 </table>
 
-### See also
-
-[Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)<br>
-[View forecasts](view-forecasts.md)<br>
+### See also   
+[Blog: Tips for setting up sales forecasting in Dynamics 365 Sales](https://cloudblogs.microsoft.com/dynamics365/it/2020/11/23/tips-for-setting-up-sales-forecasting-in-dynamics-365-sales/)   
+[Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)   
+[View forecasts](view-forecasts.md)   
 [About premium forecasting](https://docs.microsoft.com/dynamics365/ai/sales/configure-premium-forecasting)

@@ -1,15 +1,14 @@
 ---
 title: "View embedded help for actions and events in Unified Service Desk  | MicrosoftDocs"
 description: "Learn how to view embedded help for actions and events for hosted controls in Unified Service Desk."
+author: v-sailab
+ms.author: v-sailab
+manager: shujoshi
+ms.date: 12/31/2019
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-USD
-ms.date: 12/31/2019
-ms.service: 
-  - dynamics-365-customerservice
-ms.topic: article
-author: kabala123
-ms.author: kabala
-manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
@@ -18,7 +17,10 @@ search.app:
   - D365USD
 ---
 # View embedded help for actions and events in Unified Service Desk
-[!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] provides an embedded help on actions and events within the Common Data Service platform.  
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
+[!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] provides an embedded help on actions and events within Microsoft Dataverse.  
   
 <a name="Actions"></a>   
 ## Embedded help for actions  

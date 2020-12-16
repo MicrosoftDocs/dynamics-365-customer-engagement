@@ -1,15 +1,14 @@
 ---
 title: "Walkthrough  Create a UII Web Application Adapter in Unified Service Desk  | MicrosoftDocs"
 description: "Demonstrates how to host and interact with an external web application in Unified Service Desk."
+author: v-sailab
+ms.author: v-sailab
+manager: shujoshi
+ms.date: 01/25/2019
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-USD
-ms.date: 01/25/2019
-ms.service: 
-  - dynamics-365-customerservice
-ms.topic: article
-author: kabala123
-ms.author: kabala
-manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
@@ -18,7 +17,10 @@ search.app:
   - D365USD
 ---
 # Walkthrough: Create a UII Web Application Adapter
-You can create a web application adapter if you want to enhance and modify web applications for which you don’t have access to the source code or don’t have permissions to change by using managed code. The Common Data Service platform provides a [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)] template for creating a web application adapter. The template provides basic code as comments to help you get started with creating the web application adapter.  
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
+You can create a web application adapter if you want to enhance and modify web applications for which you don’t have access to the source code or don’t have permissions to change by using managed code. Microsoft Dataverse provides a [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)] template for creating a web application adapter. The template provides basic code as comments to help you get started with creating the web application adapter.  
 
  In this walkthrough, you’ll build an external web application called `QsWebApplication` and host it in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. You’ll then create and configure a web application adapter called `MyWebApplicationAdapter` for the external web application to interact with [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. The web application has four labels, one each for the customer’s first name, last name, address, and ID and four corresponding text boxes to display the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] values.
 
@@ -51,7 +53,7 @@ You can create a web application adapter if you want to enhance and modify web a
 <a name="ConfigureExApp"></a>   
 ## Step 2: Configure a web application
 
-1. Sign in to the Common Data Service platform.  
+1. Sign in to the Dynamics 365 instance.  
 
 2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]
 
@@ -83,7 +85,7 @@ You can create a web application adapter if you want to enhance and modify web a
 
 1. Make sure that the sample web application that you built in step 1 is still running.
 
-2. Run the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client to connect to your Common Data Service platform server.  
+2. Run the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client to connect to your Dataverse server.  
 
 3. On successful sign in, you’ll see the **Sample External Web Application** on your desktop.
 
@@ -184,7 +186,7 @@ You can create a web application adapter if you want to enhance and modify web a
 <a name="ConfigureWebAdapter"></a>   
 ## Step 5: Configure a web application adapter  
 
-1. Sign in to the Common Data Service platform.  
+1. Sign in to the Dynamics 365 instance.  
 
 2. On the nav bar, choose **Dynamics 365**.  
 

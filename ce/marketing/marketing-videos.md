@@ -1,19 +1,15 @@
 ---
-title: "Video overviews and instructions for Marketing | Microsoft Docs"
-description: "Find video-based information about Dynamics 365 Marketing"
-keywords: videos;how-to;overview
-ms.date: 08/02/2018
+title: "Video overviews and instructions for Marketing (Dynamics 365 Marketing) | Microsoft Docs"
+description: "Find video-based information about Dynamics 365 Marketing."
+ms.date: 12/09/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing
 ms.topic: article
-ms.assetid: cdf6e522-22a4-4687-a6a0-95702c6ff596
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer
@@ -29,7 +25,7 @@ If you are new to Dynamics 365 Marketing, then these videos will help you gain a
 
 ## Get a quick overview
 
-<div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/c7dd31a4-7816-42f2-95d7-499401db5f9e" frameborder="0" allowfullscreen=""></iframe></div>
+<div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/RE4FRAO" frameborder="0" allowfullscreen=""></iframe></div>
 
 More information: [Overview (Marketing)](overview.md)
 
@@ -50,7 +46,7 @@ More information:
 
 ## Use customer journeys to create automated campaigns
 
-<div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/d73cc179-5984-4a32-ad84-0755f56b0399" frameborder="0" allowfullscreen=""></iframe></div>
+<div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/RE4IO58" frameborder="0" allowfullscreen=""></iframe></div>
 
 More information:
 

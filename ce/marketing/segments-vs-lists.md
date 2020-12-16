@@ -1,18 +1,14 @@
 ---
 title: "The differences between segments and lists (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Learn how marketing segments are different from marketing lists, and when to use each of them in Dynamics 365 Marketing"
-keywords:
-ms.date: 04/01/2019
+description: "Learn how marketing segments are different from marketing lists, and when to use each of them in Dynamics 365 Marketing."
+ms.date: 11/06/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-ms.assetid: 87209879-6a63-4a64-bf52-61680fad2e9a
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer
@@ -61,9 +57,6 @@ The primary role of marketing segments is to create collections of related conta
 Dynamics 365 Marketing makes use of static marketing lists to create _subscription lists_, which enable contacts to sign up for your various mailing lists. Subscription lists are a special type of static marketing list that can only contain contacts. Unlike most marketing lists, you can also use subscription lists to target a customer journey directly.
 
 Another way to make use of a static marketing list in Dynamics 365 Marketing is to set up a dynamic segment that queries that list. This technique is limited to static marketing lists—dynamic lists aren't supported. For contact-based static lists, you can set up a segment that queries the list and then traverses to find the list members. For static marketing lists that contain accounts or leads, your segment must select, for example, the parent contact for each lead or the primary contact for each account. For dynamic lists, you must recreate the original logic as a segmentation query because you can't query them directly like you can a static list.
-
-> [!NOTE]
-> Static segments can contain a maximum of 5,000 members. If you need a larger list than this, then create a static marketing list instead, and then query that list from a dynamic segment, as mentioned in the preceding paragraph.
 
 ## Key differences between how lists and segments are evaluated
 

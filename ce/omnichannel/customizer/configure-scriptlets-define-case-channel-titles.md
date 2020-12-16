@@ -1,16 +1,17 @@
 ---
 title: "Configure scripts using scriptlets to define case and channel titles | MicrosoftDocs"
 description: "Learn how to configure sto define case and channel titles when using Omnichannel for Customer Service in Unified Service Desk."
-author: kabala123
-ms.author: kabala
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.date: 07/01/2019
-ms.service: 
-  - "dynamics-365-customerservice"
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ---
 
 # Configure scriptlets to define case and channel titles
+
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
@@ -32,7 +33,7 @@ The topic describes how to configure scripts using scriptlets to define case and
 
 ## Configure scriptlets
 
-1. Sign in to Common Data Service platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Select the Down arrow next to Dynamics 365.
 
@@ -58,7 +59,7 @@ The topic describes how to configure scripts using scriptlets to define case and
 
 ## Add the session name information to configuration
 
-1. Sign in to Common Data Service platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Select the Down arrow next to Dynamics 365.
 

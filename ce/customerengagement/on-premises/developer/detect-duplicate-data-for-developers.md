@@ -11,8 +11,8 @@ ms.topic: get-started-article
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 872b735a-9c80-4e4e-8c04-61f8ce6836df
-author: JimDaly
-ms.author: jdaly
+author: mayadumesh
+ms.author: mayadu
 manager: amyla
 search.audienceType: 
   - developer
@@ -39,19 +39,19 @@ Duplicate detection lets organizations set duplicate detection policies and crea
   
 ## Enable and Disable Duplicate Detection
 
-This topic covers information on how to enable and disable duplicate detection in Dynamics 365 Customer Engagement (on-premises). To learn more, see [Enable or disable duplicate detection](/powerapps/developer/common-data-service/enable-disable-duplicate-detection) in the Common Data Service documentation.
+This topic covers information on how to enable and disable duplicate detection in Dynamics 365 Customer Engagement (on-premises). To learn more, see [Enable or disable duplicate detection](/powerapps/developer/common-data-service/enable-disable-duplicate-detection) in the Dataverse documentation.
 
 ## Run duplicate detection
 
-There are several ways to perform duplicate detection after you enable it and publish the duplicate detection rules. To learn more, see [Run Duplicate Detection](/powerapps/developer/common-data-service/run-duplicate-detection) in the Common Data Service documentation.
+There are several ways to perform duplicate detection after you enable it and publish the duplicate detection rules. To learn more, see [Run Duplicate Detection](/powerapps/developer/common-data-service/run-duplicate-detection) in the Dataverse documentation.
 
 ## Manage duplicate detection during Create and Update operations
 
-Dynamics 365 Customer Engagement (on-premises) Web API allows you to detect duplicate records of an existing record in order to maintain integrity of data. To learn more, see  [Manage duplicate detection during Create and Update operations](/powerapps/developer/common-data-service/duplicate-detection-create-update) in the Common Data Service documentation.
+Dynamics 365 Customer Engagement (on-premises) Web API allows you to detect duplicate records of an existing record in order to maintain integrity of data. To learn more, see  [Detect duplicates during Create and Update operations](/powerapps/developer/common-data-service/run-duplicate-detection#detect-duplicates-during-create-and-update-operations) in the Dataverse documentation.
 
 ## Duplicate detection messages
 
-Use the messages listed in the topic to detect duplicates in Dynamics 365 Customer Engagement (on-premises). To learn more, see [Duplicate Detection Messages](/powerapps/developer/common-data-service/duplicate-detection-messages) in the Common Data Service documentation.
+Use the messages listed in the topic to detect duplicates in Dynamics 365 Customer Engagement (on-premises). To learn more, see [Duplicate Detection Messages](/powerapps/developer/common-data-service/duplicate-detection-messages) in the Dataverse documentation.
 
 ## Duplicate detection entities
 

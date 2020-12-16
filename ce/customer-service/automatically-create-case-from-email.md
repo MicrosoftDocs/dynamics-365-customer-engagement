@@ -6,8 +6,7 @@ ms.author: nenellim
 manager: shujoshi
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: 
-  dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-customerservice
 search.audienceType: 
@@ -20,6 +19,8 @@ search.app:
 ---
 
 # Automatically create a case from an email in web client
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
 Reduce the need for manually creating cases from incoming emails and increase the efficiency of customer service agents by creating automatic case creation rules in Dynamics 365 Customer Service. The conditions in these rules automatically convert emails to support cases.  
 
@@ -63,7 +64,7 @@ Reduce the need for manually creating cases from incoming emails and increase th
 
    #### Specify conditions for email to case creation  
 
-   1. **Create cases for email from unknown senders**. If you select this check box, all email messages from unknown senders (a sender whose email address is not present in the Common Data Service platform) are converted to cases. A contact record is also created for this unknown sender.  
+   1. **Create cases for email from unknown senders**. If you select this check box, all email messages from unknown senders (a sender whose email address is not present in Dynamics 365) are converted to cases. A contact record is also created for this unknown sender.  
 
       > [!NOTE]
       >  If this option is not selected, cases are created only for email messages that have a contact or account as the senders. Email messages from senders that are present as other record types won’t be converted to cases.  

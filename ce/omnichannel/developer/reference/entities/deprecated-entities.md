@@ -1,17 +1,18 @@
 ---
 title: "Deprecated Omnichannel for Customer Service entities | Microsoft Docs"
 description: "List of Omnichannel for Customer Service entities that have been deprecated"
-author: susikka
-ms.author: susikka
+author: ramana-hyd
+ms.author: v-rmurthy
 manager: shujoshi
 ms.date: 09/10/2020
-ms.service: 
-  - "dynamics-365-customerservice"
 ms.topic: reference
+ms.service: dynamics-365-customerservice
 ---
 # Deprecated entities
 
-The following entities have been deprecated. These entities will still be visible in the [$metadata](/powerapps/developer/common-data-service/web-api-types-operations#csdl-metadata-document) document but using it to access Common Data Service data is not supported.
+[!INCLUDE[cc-data-platform-banner](../../../../includes/cc-data-platform-banner.md)]
+
+The following entities have been deprecated. These entities will still be visible in the [$metadata](/powerapps/developer/common-data-service/web-api-types-operations#csdl-metadata-document) document but using it to access Microsoft Dataverse data is not supported.
 
 - msdyn_ocliveworkitemparticipant
 - msdyn_omnichannelqueue

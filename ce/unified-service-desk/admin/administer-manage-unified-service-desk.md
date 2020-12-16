@@ -1,16 +1,15 @@
 ---
 title: "Administer and manage Unified Service Desk | MicrosoftDocs"
 description: "Unified Service Desk administrators can start here to learn how to manage the application."
+author: v-sailab
+ms.author: v-sailab
+manager: shujoshi
+ms.date: 01/25/2017
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-USD
   - dyn365-admin
-ms.date: 01/25/2017
-ms.service: 
-  - dynamics-365-customerservice
-ms.topic: article
-author: kabala123
-ms.author: kabala
-manager: shujoshi
 search.audienceType: 
   - admin
 search.app: 
@@ -21,6 +20,9 @@ tags:
   - LinksOnlyTopic
 ---
 # Administer and manage overview
+
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 This section provides information about [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] that helps you effectively administer and manage your implementation.  
   
 ## In this section  
@@ -30,7 +32,7 @@ This section provides information about [!INCLUDE[pn_unified_service_desk](../..
   
  [Distribute custom host controls using Customization Files](../../unified-service-desk/admin/distribute-custom-hosted-controls-using-customization-files.md)  
   
- [Migrate your Unified Service Desk configuration to another Common Data Service platform server](../../unified-service-desk/admin/migrate-unified-service-desk-configuration-dynamics-365-server.md)
+ [Migrate your Unified Service Desk configuration to another Microsoft Dataverse server](../../unified-service-desk/admin/migrate-unified-service-desk-configuration-dynamics-365-server.md)
 
  [Performance enhancement for CRM entity page loads](../../unified-service-desk/admin/performance-enhancement-CRM-entity-page-loads.md)
 

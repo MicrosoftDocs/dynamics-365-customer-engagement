@@ -1,26 +1,18 @@
 ---
 title: "Frequently asked questions for Field Service Mobile | MicrosoftDocs"
+description: Find a list of frequently asked questions for Field Service Mobile
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/21/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: troubleshooting
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 author: FieldServiceDave
-ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
-caps.latest.revision: 42
 ms.author: daclar
 manager: shellyha
-search.audienceType: 
-  - admin
-  - customizer
 search.app: 
   - D365CE
   - D365FS
@@ -35,7 +27,7 @@ search.app:
 
 ## How do I extend or activate my mobile configuration tool (Woodford) trial?
 
-The Mobile Configuration Tool (Woodford) is used to configure and customize the Field Service Mobile app. After [installing and setting up Field Service Mobile](https://docs.microsoft.com/dynamics365/field-service/install-field-service#download-the-field-service-mobile-app-on-a-phone-or-tablet), you'll need to activate or extend the Mobile Configuration Tool (Woodford) within 30 days. See the article on [activating or extending the mobile configuration tool (Woodford) trial](activate-fs-mobile-app-license.md) for more details.
+The Mobile Configuration Tool (Woodford) is used to configure and customize the Field Service Mobile app. After [installing and setting up Field Service Mobile](https://docs.microsoft.com/dynamics365/field-service/install-field-service#download-the-field-service-mobile-app-on-a-phone-or-tablet), you'll need to activate or extend the Mobile Configuration Tool (Woodford) within 30 days. For more information, see the article on [activating or extending the mobile configuration tool (Woodford) trial](activate-fs-mobile-app-license.md).
 
 ## What version of Field Service Mobile am I using?
 
@@ -54,21 +46,21 @@ There are a few reasons why your mobile application may not be syncing (or crash
 3. The mobile project is published to a later version than the mobile app
 4. Your user doesn't have the correct security role to access the mobile application
 
-See the article on [common reasons Field Service Mobile does not sync to the server or crashes](mobile-faq-sync-crash.md) for more details.
+For more information, see the article on [common reasons Field Service Mobile does not sync to the server or crashes](mobile-faq-sync-crash.md).
 
 ## Why can't I see my bookings when logged into the app?
 
-There are typically 3 reasons bookings don't show up in the mobile app:
+There are typically three reasons bookings don't show up in the mobile app:
 
 1. The mobile application isn't synced to the server
 2. The application is in offline mode and the booking is outside the sync filters
 3. Drip scheduling is enabled for the related resource and the booking is outside the bookings to drip number parameter
 
-See the article on [common reasons no bookings are displayed in Field Service Mobile](mobile-faq-bookings-not-showing.md) for more details.
+For more information, see the article on [common reasons no bookings are displayed in Field Service Mobile](mobile-faq-bookings-not-showing.md).
 
 ## Bookings not scheduled to me show up when logged in to the mobile app
 
-Ensure your mobile user has only the Field Service resource security role, see the article on [seeing bookings not scheduled to me](mobile-faq-bookings-not-scheduled-to-me.md) for more details.
+Ensure your mobile user has only the Field Service resource security role. For more information, see the article on [seeing bookings not scheduled to me](mobile-faq-bookings-not-scheduled-to-me.md).
 
 
 ## What are the supported encodings for barcode scanning in Field Service Mobile?
@@ -133,7 +125,7 @@ This depends on the version of the app:
 
 ## How can field technicians chat with each other from their mobile devices? 
 
-We recommend using Microsoft Teams or Microsoft's Kaizala. See the [article on deeplinking to Teams](https://docs.microsoft.com/microsoftteams/platform/concepts/deep-links) from Field Service Mobile. 
+We recommend using Microsoft Teams or Microsoft's Kaizala. See the [article on deep linking to Teams](https://docs.microsoft.com/microsoftteams/platform/concepts/deep-links) from Field Service Mobile. 
 
 
 ## Why do users get the error "Your Organization has not configured the Field Service Mobile app with the correct project"?
@@ -143,12 +135,12 @@ This message means the mobile application has not been set up with the correct m
 
 ## When field technicians are performing onsite service, can they connect to bluetooth devices?
 
-Yes, on Android only. Field Service Mobile v11.3+ can use a bluetooth RFID reader. If you have a bluetooth RFID reader, you can connect it to Field Service Mobile. Connect the reader to your phone or tablet, then in Field Service Mobile, go to **Setup** > **RFID Bluetooth Reader** and select the reader you connected. Then whenever you tap the barcode button in the app, you will see the scanner. Then you can click the scanner's button.
+Yes, on Android only. Field Service Mobile v11.3+ can use a bluetooth RFID reader. If you have a bluetooth RFID reader, you can connect it to Field Service Mobile. Connect the reader to your phone or tablet, then in Field Service Mobile, go to **Setup** > **RFID Bluetooth Reader** and select the reader you connected. Then whenever you tap the barcode button in the app, you will see the scanner. Then you can select the scanner's button.
 
 
 ## How do you add or edit a logo in Field Service Mobile?
 
-See this [blog post](https://www.resco.net/woodford-user-guide/#__RefHeading__5907_1627906509) for more details.
+For more information, see this [blog post](https://www.resco.net/woodford-user-guide/#__RefHeading__5907_1627906509).
 
 
 ## Why am I getting the error "UNSUPPORTED CUSTOMIZATION VERSION: App:23 Srv:25" in the Field Service Mobile app? 
@@ -165,7 +157,7 @@ We strongly recommend using the Field Service Mobile app to access Field Service
 
 ## Does Field Service Mobile support SharePoint integration? 
 
-Yes, Field Service Mobile supports SharePoint integration for accessing and uploading documents. Please note at this time, only Basic authentication with SharePoint is supported; OAuth support is planned for a future app release.
+Yes, Field Service Mobile supports SharePoint integration for accessing and uploading documents. Note at this time, only Basic authentication with SharePoint is supported; OAuth support is planned for a future app release.
 
 ## How can I correct the error "Your Server customization requires new version of the Application"?
 
@@ -207,9 +199,9 @@ This is what a published project looks like:
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a published Woodford project.](./media/fsm-error-published-project.png)
 
-If you still can't sign in to the app and get the same error, please confirm your resource has the correct roles applied. 
+If you still can't sign in to the app and get the same error, confirm your resource has the correct roles applied. 
 1. Go to **Properties** in top navigation.
-1. Select Field Service roles for this project.
+2. Select Field Service roles for this project.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the project properties window showing the roles selected.](./media/fsm-error-security-roles.png)
@@ -244,15 +236,15 @@ To correct:
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Enable for Field Service Mobile option set to yes on a Dynamics 365 Resource.](./media/fsm-error-enable-for-mobile.png)
 
-## Why am I getting the error "One or more errors occurred. AADSTS50097: Device Authentication Required…."
+## Why am I getting the error "One or more errors occurred. AADSTS50097: Device Authentication Required…"
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the error window: "One or more errors occurred. AADSTS50097: Device Authentication Required…."](./media/fsm-error-one-or-more-errors-occured.png)
 
-This error notes that your AAD security settings have a conditional access block which disallows Field Service Mobile from reaching authentication servers. 
+This error notes that your AAD security settings have a conditional access block, which disallows Field Service Mobile from reaching authentication servers. 
  
-To correct, you'll need to discuss with your network security team and evaluate Conditional Access policies which may be blocking Dynamics 365. For more information, see the article [Troubleshoot Conditional Access](https://docs.microsoft.com/azure/active-directory/conditional-access/troubleshoot-conditional-access-what-if).
+To correct, you'll need to discuss with your network security team and evaluate conditional access policies that may be blocking Dynamics 365. For more information, see the article [Troubleshoot Conditional Access](https://docs.microsoft.com/azure/active-directory/conditional-access/troubleshoot-conditional-access-what-if).
 
 ## Why won't my password save?
 
@@ -273,7 +265,7 @@ The issue is due to a necessary security upgrade of encryption method on Field S
 
 There are two options to avoid the issue:
 
-1. Uninstall the application from the device and re-install the application from the [Field Service Mobile android App store](https://play.google.com/store/apps/details?id=com.microsoft.d365.fs.mobile).
+1. Uninstall the application from the device and reinstall the application from the [Field Service Mobile android App store](https://play.google.com/store/apps/details?id=com.microsoft.d365.fs.mobile).
 2. Go to Android settings and clear app data for the Field Service Mobile (Xamarin) app to avoid the recurrent password prompt. Note: This will not lead to any permanent data loss within the application; users will need to sync to get all data from the servers.
 
 Steps to clear app data:

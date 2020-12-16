@@ -11,7 +11,7 @@ manager: annbe
 searchScope:
   - D365-App-msdynce_saleshub
   - D365-Entity-quote
-  - D365-Entity-order
+  - D365-Entity-salesorder
   - D365-Entity-invoice
   - D365-UI-*
   - Customer Engagement

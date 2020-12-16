@@ -1,15 +1,16 @@
 ---
 title: "Create forms to define the layout and behavior of the notification | MicrosoftDocs"
 description: "Learn how to create forms to define layout and behavior of the alert notification in Omnichannel for Customer Service."
-author: kabala123
-ms.author: kabala
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.date: 07/01/2019
-ms.service: 
-  - "dynamics-365-customerservice"
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ---
 # Step 1: Create forms to define the layout and behavior of the notification
+
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
@@ -29,7 +30,7 @@ The topic describes how to define the layout and behavior of the alert notificat
 
 ## Create forms
 
-1. Sign in to Common Data Service platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Select the Down arrow next to Dynamics 365.
 

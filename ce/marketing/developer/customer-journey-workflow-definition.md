@@ -1,18 +1,19 @@
 ---
-title: "Customer Journey workflow definition| Microsoft Docs" 
+title: "Customer Journey workflow definition (Dynamics 365 Marketing Developer Guide) | Microsoft Docs" 
 description: This topic shows how to define a customer journey workflow design.
-ms.custom: ""
 ms.date: 04/01/2019
-ms.service: "D365CE"
-ms.topic: "article"
-ms.author: nabuthuk
-author: Nkrb
-manager: kvivek
+ms.service: dynamics-365-marketing
+ms.custom: 
+  - dyn365-marketing
+ms.topic: article
+author: alfergus
+ms.author: alfergus
+manager: shellyha
 search.audienceType: 
   - developer
 search.app: 
-  - PowerApps
   - D365CE
+  - D365Mktg
 ---
 
 # Customer Journey workflow definition
@@ -59,9 +60,9 @@ A workflow activity object has several important properties, shown in the follow
 |Property|Type|Description|
 |------|-------|--------|
 |ActivityId|String|The identifier of workflow activity. Must be unique in the scope of the workflow definition of the current customer journey.|
-|ParentActivityId|String|The identifier of parent workflow activity (the value of the **ActivityId** of the parent activity). The following example demonstrates how to declare parent-child relationship between workflow activities using **ActivityId** and **ParentActivityId**<br /> ![ParentActivityId](../media/parentactivityid.png "ParentActivityId")|
+|ParentActivityId|String|The identifier of parent workflow activity (the value of the **ActivityId** of the parent activity). The following example demonstrates how to declare parent-child relationship between workflow activities using **ActivityId** and **ParentActivityId**<br /> ![Screenshot of ParentActivityID](../media/parentactivityid.png "Screenshot of ParentActivityID")|
 |ActivityTypeId|String|The type of workflow activity. It has the following values<br />**bpf_root**: The hidden root of the workflow definition<br />**Email**: Marketing email message<br />**LandingPage**: Marketing page<br /> **Event**: Event<br /> **CreateCrmActivity**: Activity<br /> **InvokeWorkflow**: Launch workflow<br /> **CreateLead**: Create lead<br />**Scheduler**: Scheduler<br /> **Trigger**: Trigger<br /> **Splitter**: Splitter<br /> **SplitterBranch**: Splitter branch<br />**Segment**: Segment group<br />**Survey**: Survey<br /> **RecordUpdate**: Record updated<br />**LinkedInCampaign**: LinkedIn campaign<br /> **MarketingForm**: Marketing form<br />|
-|ParentBranchId|Number|0-based sequential position of a child tile among its siblings (for example, when parallel flows or multiple Splitter branches are used).<br /> ![ParentBranchId](../media/parentbranchid.png "ParentBranchId")|
+|ParentBranchId|Number|0-based sequential position of a child tile among its siblings (for example, when parallel flows or multiple Splitter branches are used).<br /> ![Screenshot of ParentBranchId](../media/parentbranchid.png "Screenshot of ParentBranchId")|
 |ParentRelationshipType|String|Defines the relationship type of a workflow activity with its parent. It has the following values<br />**yesBranch**: If the parent workflow activity is a trigger tile, this value denotes the positive branch of the trigger.<br />**noBranch**: If the parent workflow activity is a trigger tile, this value denotes the negative branch of the trigger.<br /> **default**: Default value, used when the parent is any workflow activity other than the trigger activity. This value is not valid for the trigger.<br />The following example demonstrates how the **ParentRelationshipType** property is used to denote the positive and negative flows for a trigger.<br />![Parent Relationship Type](../media/parentrelationshiptype.png "Parent Relationship Type")|
 |EntityTarget||Defines the target of the activity. It has the following values<br /> **contact**: For contact-based customer journey<br />**account**: For account-based customer journey|
 |Properties|Object|Defines the properties of the current workflow tile and nested tiles. Contains a single property, **Items**, which holds an array of workflow activity item objects.|

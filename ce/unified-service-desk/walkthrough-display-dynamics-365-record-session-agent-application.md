@@ -1,15 +1,14 @@
 ---
 title: "Walkthrough 4  Display a record in a session in your agent application | MicrosoftDocs"
 description: "Demonstrates how to display records in a session in your agent application using window navigation rules and session controls in Unified Service Desk."
+author: v-sailab
+ms.author: v-sailab
+manager: shujoshi
+ms.date: 11/12/2019
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-USD
-ms.date: 11/12/2019
-ms.service: 
-  - dynamics-365-customerservice
-ms.topic: article
-author: kabala123
-ms.author: kabala
-manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
@@ -18,6 +17,9 @@ search.app:
   - D365USD
 ---
 # Walkthrough 4: Display a record in a session in your agent application
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 This walkthrough demonstrates how to display records in a session in your agent application using window navigation rules and session controls in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. It also demonstrates the use of replacement parameters to dynamically display the name of the hosted control based on the currently displayed account record. This walkthrough is built on top of the previous walkthrough, [Walkthrough 3: Display records in your agent application](../unified-service-desk/walkthrough-3-display-microsoft-dynamics-365-records-in-your-agent-application.md), to display an account record in a session when you select on one of the accounts in the **Account** search result window.  
   
 ## Prerequisites  
@@ -55,7 +57,7 @@ This walkthrough demonstrates how to display records in a session in your agent 
 ## Step 1: Create a session-scoped hosted control to display account record in a session  
  In this step, you’ll create a session-scoped hosted control to display an account record in a session.  
   
-1. Sign in to the Common Data Service platform.  
+1. Sign in to the Dynamics 365 instance.  
   
 2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
   
@@ -131,7 +133,7 @@ This walkthrough demonstrates how to display records in a session in your agent 
 ## Step 4: Create a window navigation rule to display the account record in a session  
  In this step, you’ll create a window navigation rule that displays the record in a session when the user selects any of the accounts in the search results window.  
   
-1. Sign in to the Common Data Service platform.  
+1. Sign in to the Dynamics 365 instance.  
   
 2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
   
@@ -175,7 +177,7 @@ This walkthrough demonstrates how to display records in a session in your agent 
   
  To add a control to the configuration:  
   
-1. Sign in to the Common Data Service platform.  
+1. Sign in to the Dynamics 365 instance.  
   
 2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
   
@@ -196,9 +198,9 @@ This walkthrough demonstrates how to display records in a session in your agent 
 <a name="Step6"></a>   
 ## Step 6: Test the application  
   
-1. Start the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, and sign in to the Common Data Service platform instance where you configured Unified Service Desk by using the same user credentials that is assigned to Contoso Configuration in [Walkthrough 1: Build a simple agent application](../unified-service-desk/walkthrough-1-build-a-simple-agent-application.md). For information about connecting to the Common Data Service platform instance using the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, see [Connect to CRM instance using the Unified Service Desk client](../unified-service-desk/admin/connect-dynamics-365-instance-using-unified-service-desk-client.md).  
+1. Start the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, and sign in to the Dynamics 365 instance where you configured Unified Service Desk by using the same user credentials that is assigned to Contoso Configuration in [Walkthrough 1: Build a simple agent application](../unified-service-desk/walkthrough-1-build-a-simple-agent-application.md). For information about connecting to Dataverse instance using the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, see [Connect to CRM instance using the Unified Service Desk client](../unified-service-desk/admin/connect-dynamics-365-instance-using-unified-service-desk-client.md).  
   
-2. To display the account records from your Common Data Service platform instance, select the down arrow next to the **Search** button in the toolbar, and then select **Account**.  
+2. To display the account records from your Dataverse instance, select the down arrow next to the **Search** button in the toolbar, and then select **Account**.  
   
 3. Select any of the account records to display the respective account information in a session; the information is displayed under a session tab. Note that the name of the hosted control tab that contains the account record automatically displays the account name because earlier you used replacement parameters to dynamically display the current account name instead of a static value.  
   

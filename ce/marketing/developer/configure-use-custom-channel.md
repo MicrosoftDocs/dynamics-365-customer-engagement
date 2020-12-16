@@ -1,22 +1,21 @@
 ---
-title: "Configure and use custom channel (Dynamics 365 Marketing Developer Guide) | MicrosoftDocs"
+title: "Configure and use custom channel (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Provides information on how to install custom channel from AppSource to your Dynamics 365 Marketing instance."
-ms.custom: 
-  - dyn365-developer
-  - dyn365-marketing
 ms.date: 04/01/2018
 ms.service: dynamics-365-marketing
-ms.topic: conceptual
-ms.assetid: 9dacec8b-7b41-4cc2-be2d-d30929627bfc
-author: KumarVivek
-ms.author: kvivek
-manager: kvivek
+ms.custom: 
+  - dyn365-marketing
+ms.topic: article
+author: alfergus
+ms.author: alfergus
+manager: shellyha
 search.audienceType: 
   - developer
 search.app: 
   - D365CE
   - D365Mktg
 ---
+
 # Configure and use custom channel
 
 This step is typically performed by administrators of your Dynamics 365 Marketing instance.

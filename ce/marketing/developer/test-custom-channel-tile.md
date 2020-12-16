@@ -1,24 +1,21 @@
 ---
-title: "Step 4: Test your custom channel tile (Dynamics 365 Marketing Developer Guide) | MicrosoftDocs"
+title: "Step 4: Test your custom channel tile (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Provides information on how you can make the custom channel tile available in the customer journey designer in Dynamics 365 Marketing."
-ms.custom: 
-  - dyn365-developer
-  - dyn365-marketing
 ms.date: 04/01/2018
 ms.service: dynamics-365-marketing
-ms.technology: 
-  - marketing
-ms.topic: conceptual
-ms.assetid: db4ef53d-8a48-4b27-899f-8f4c788bc43c
-author: KumarVivek
-ms.author: kvivek
-manager: kvivek
+ms.custom: 
+  - dyn365-marketing
+ms.topic: how-to
+author: alfergus
+ms.author: alfergus
+manager: shellyha
 search.audienceType: 
   - developer
 search.app: 
   - D365CE
   - D365Mktg
 ---
+
 # Step 4: Test your custom channel tile
 
 To make the custom channel tile available in the customer journey designer:
@@ -39,4 +36,4 @@ To make the custom channel tile available in the customer journey designer:
 
 ## See also
 
-[Web resources for Common Data Service](/powerapps/developer/model-driven-apps/web-resources)
+[Web resources in model-driven apps](/powerapps/developer/model-driven-apps/web-resources)

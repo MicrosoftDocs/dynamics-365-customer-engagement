@@ -5,12 +5,14 @@ author: platkat
 ms.author: ktaylor
 manager: shujoshi
 ms.date: 07/13/2020
-ms.service: 
-  - "dynamics-365-customerservice"
 ms.topic: article
+ms.service: dynamics-365-customerservice
+ms.reviewer: nenellim
 ---
 
 # Export and import Omnichannel Administration app data
+
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
 Now that you have used Omnichannel for Customer Service in a test environment, you're ready to unlock all the benefits and features in a live production environment (or any target environment). You don't have to start over. Instead, you can follow this process to export your Omnichannel Administration app configuration data from your test environment and import the data into your new target environment. That way, you can keep all of the queues, routing rules, work streams, and other custom settings that you set up the first time.
 
@@ -59,9 +61,9 @@ You can export the configuration data from your source system by using the Omnic
     ```
 5. Double-click **DataMigrationUtility.exe** to run the Configuration Migration tool, and choose **Export data** in the main screen.
 
-6. On the **Login** screen, provide authentication details to connect to your Dynamics 365 Server instance from where you want to export data. If you have multiple organizations on the Common Data Service platform server, and want to select the organization from where to export the data, select the **Always display list of available orgs** check box. Select **Login**.
+6. On the **Login** screen, provide authentication details to connect to your Dynamics 365 Server instance from where you want to export data. If you have multiple organizations on the Dynamics 365 server, and want to select the organization from where to export the data, select the **Always display list of available orgs** check box. Select **Login**.
 
-7. If you have multiple organizations, and you selected the **Always display list of available orgs** check box, the next screen lets you choose the organization that you want to connect to. Select the Common Data Service platform organization to connect to.
+7. If you have multiple organizations, and you selected the **Always display list of available orgs** check box, the next screen lets you choose the organization that you want to connect to. Select the organization to connect to.
 
 8. Specify the name and location of the data file to be exported.
 
@@ -73,9 +75,9 @@ You can export the configuration data from your source system by using the Omnic
 
 1. Run the Configuration Migration tool, and select **Import data** on the main screen. For information about downloading the tool, see step 1 in the previous section.
 
-2. On the **Login** screen, provide authentication details to connect to your Common Data Service platform server from where you want to import data. If you have multiple organizations on the Common Data Service platform server, and want to select the organization from where you want to import the data, select the **Always display list of available orgs** check box. Select **Login**. 
+2. On the **Login** screen, provide authentication details to connect to your Dataverse server from where you want to import data. If you have multiple organizations on the Dynamics 365 instance, and want to select the organization from where you want to import the data, select the **Always display list of available orgs** check box. Select **Login**. 
 
-3. If you have multiple organizations, and you selected **Always display list of available orgs**, the next screen lets you choose the organization that you want to connect to. Select the Common Data Service platform organization to connect to.
+3. If you have multiple organizations, and you selected **Always display list of available orgs**, the next screen lets you choose the organization that you want to connect to. Select the organization to connect to.
 
 4. The next screen prompts you to provide the data file (.zip) to be imported. Browse to the data file, select it, and then select **Import Data**.
 

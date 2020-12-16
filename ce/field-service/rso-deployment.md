@@ -1,5 +1,6 @@
 ---
 title: Deploy resource scheduling optimization for Dynamics 365 Field Service
+description: Learn how to deploy resource scheduling optimization for Dynamics 365 Field Service
 ms.date: 09/10/2019
 ms.topic: article
 ms.reviewer: krbjoran
@@ -7,14 +8,8 @@ ms.custom:
   - dyn365-fieldservice
 ms.service: dynamics-365-customerservice
 author: FieldServiceDave
-ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
-caps.latest.revision: 42
 ms.author: daclar
 manager: shellyha
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
 search.app: 
   - D365CE
   - D365FS
@@ -22,7 +17,7 @@ search.app:
 
 # Deploy resource scheduling optimization for Dynamics 365 Field Service
 
-After [getting access to RSO](./rso-get-install.md) either by purchasing a license or through your local Microsoft representative, you must deploy it to your Dynamics 365 Field Service environment.
+After [getting access to resource scheduling optimization](./rso-get-install.md) either by purchasing a license or through your local Microsoft representative, you must deploy it to your Dynamics 365 Field Service environment.
 
 ## Deployment steps 
 
@@ -39,18 +34,18 @@ After [getting access to RSO](./rso-get-install.md) either by purchasing a licen
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Dynamics 365 admin center](./media/rso-upgrade-manage-powerapps-admin.png)
 
-4. Select the organization where the RSO solution will be installed, review the Terms of Service and select the agreement box, and then select **Deploy** to start the RSO deployment.
+4. Select the organization where the resource scheduling optimization solution will be installed, review the Terms of Service and select the agreement box, and then select **Deploy** to start the resource scheduling optimization deployment.
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of the "Deploy Resource Scheduling Optimization instance" window](media/rso-instance.png)
     
-RSO is associated with a single Dynamics 365 organization in the tenant. You can change the associated organization through the RSO deployment app’s page. If additional RSO instances are needed for development and testing environments and you have an Enterprise Agreement with Microsoft, contact your technical account manager. Such instances are not yet available to Cloud Solution Providers or retail purchase.
+Resource scheduling optimization is associated with a single Dynamics 365 organization in the tenant. You can change the associated organization through the resource scheduling optimization deployment app’s page. If additional resource scheduling optimization instances are needed for development and testing environments and you have an Enterprise Agreement with Microsoft, contact your technical account manager. Such instances are not yet available to Cloud Solution Providers or retail purchase.
 
 5. Select **Upgrade to new version** to apply a new update if one is available.
 
-6. Use **Change Organization** to change the RSO deployment from a Dynamics 365 organization to another. This will not delete data inside of the original Dynamics 365 organization an you can always change it back.
+6. Use **Change Organization** to change the resource scheduling optimization deployment from a Dynamics 365 organization to another. This action will not delete data inside of the original Dynamics 365 organization and you can always change it back.
 
-7. Use **Delete current deployment** to delete RSO Azure resources. The RSO solution will remain, which will not impact anything inside of the Dynamics 365 organization.
+7. Use **Delete current deployment** to delete resource scheduling optimization Azure resources. The resource scheduling optimization solution will remain, which will not impact anything inside of the Dynamics 365 organization.
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of the "Manage Resource Scheduling Optimization instance" window](media/rso-completed.png)

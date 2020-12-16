@@ -1,15 +1,14 @@
 ---
 title: "Standard Web Application (Hosted Control) in Unified Service Desk | MicrosoftDocs"
 description: "Learn about Standard Web Application type of hosted control in Unified Service Desk."
+author: v-sailab
+ms.author: v-sailab
+manager: shujoshi
+ms.date: 12/31/2019
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-USD
-ms.date: 12/31/2019
-ms.service: 
-  - dynamics-365-customerservice
-ms.topic: article
-author: kabala123
-ms.author: kabala
-manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
@@ -18,6 +17,9 @@ search.app:
   - D365USD
 ---
 # Standard Web Application (Hosted Control)
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 The **Standard Web Application** hosted control type is similar to the **CRM Page** type except that it is intended to host non-model-driven pages, such as external web pages, and provides script injection for relevant features of external web pages. Like the **CRM Page** hosted control, these pages can be automated. The preferred method of automating is through [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] injection including calling [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] functions that are already defined in the page or manipulate the DOM. The `RunScript` action can also be used to obtain values from the page.  
 
 > [!NOTE]
@@ -88,7 +90,7 @@ The **Standard Web Application** hosted control type is similar to the **CRM Pag
 | HideNavigationBar |                                                                                                                                                                                      If this parameter is supplied and **True**, the navigation panel on the target web page won't be displayed.                                                                                                                                                                                      |
 |       Frame       |                                                                                                                                                                        When frames exist on the page, this parameter would specify the name of the frame to navigate, rather than navigating the main window.                                                                                                                                                                         |
 |     postdata      |                 Data that is sent to the server as part of a HTTPPOST transaction. A POST transaction is typically used to send data gathered by an HTML page. In [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], this data can be received from any event triggered using "<https://event/?>". Example: `[[postdata]+]`<br /><br /> Alternatively, the data can be passed as encoded string with its header type in the intended format.                 |
-|      header       | A string value that contains additional HTTP headers to send to the server. When the `postdata` parameter is used in the `Navigate` action, you should also specify appropriate value for the `header` parameter. Example: `Content-Type:application/x-www-form-urlencoded`<br /><br /> If a [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]POST event triggers the `Navigate` action, the default value of this parameter should be `header=[[header]+]` |
+|      header       | A string value that contains additional HTTP headers to send to the server. When the `postdata` parameter is used in the `Navigate` action, you should also specify appropriate value for the `header` parameter. Example: `Content-Type:application/x-www-form-urlencoded`<br /><br /> If a [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]POST event triggers the `Navigate` action, the default value of this parameter should be `header=[[header]+]`<br /><br /> To add multiple headers, the value of this parameter should be: `header=$Multiline(<headers separated by newline>)`<br /><br /> Example:`header=$Multiline(accessToken;dummyAccessToken==`<br /><br />`refreshToken;dummyRefreshToken===)` |
 
 ### New_CRM_Page  
  Creates a page for creating a new record of the entity specified, and treats the page as a popup from the specified hosted control. The window navigation rules are evaluated to determine the location where the page to create the entity record is displayed.  
@@ -121,7 +123,7 @@ The **Standard Web Application** hosted control type is similar to the **CRM Pag
 [!INCLUDE[cc_RealignWindow_Action](../includes/cc-realignwindow-action.md)]
 
 ### RunScript  
- This action injects JavaScript into the main frame of the application. You should avoid using the Common Data Service platform client SDK calls with this action; instead, use the **RunXrmCommand** action.  
+ This action injects JavaScript into the main frame of the application. You should avoid using Microsoft Dataverse client SDK calls with this action; instead, use the **RunXrmCommand** action.  
 
 |Parameter|Description|  
 |---------------|-----------------|  

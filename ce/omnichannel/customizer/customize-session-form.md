@@ -1,15 +1,16 @@
 ---
 title: "Customize the session forms | MicrosoftDocs"
 description: 
-author: kabala123
-ms.author: kabala
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.date: 07/01/2019
-ms.service: 
-  - "dynamics-365-customerservice"
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ---
 # Customize the session forms
+
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
@@ -17,7 +18,7 @@ As a system customizer, you might want to Customize the session forms to suit yo
 
 ## Modify the position of sections in Session Form
 
-1.  Sign in to the Common Data Service platform.
+1.  Sign in to the Dynamics 365 instance.
 
 2.  Go to **Settings** > **Customization** > **Customize the system**.
 

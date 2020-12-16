@@ -1,19 +1,14 @@
 ---
 title: "Use AI to check your message-content spam score (Dynamics 365 Marketing) | Microsoft Docs"
-description: "How to check the content of your email messages to see whether they might get flagged as spam by recipient systems in Dynamics 365 Marketing"
-keywords:
+description: "How to check the content of your email messages to see whether they might get flagged as spam by recipient systems in Dynamics 365 Marketing."
 ms.date: 04/03/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
-  - dyn365-admin
   - dyn365-marketing
 ms.topic: article
-ms.assetid: 361dea50-9093-4668-910c-50f715fdd572
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status:
 search.audienceType: 
   - admin
   - customizer
@@ -43,11 +38,13 @@ To manually view and interpret the spam risk for a message:
 
 1. Before you go live, open the **Designer** > **Email checker** tab for your message and select **Spam checker** to run the check on your current content. The check may take a couple of minutes but is usually faster.
     
-    ![The path to getting spam risk result](media/spam-checker-april2020.png 'The path to getting spam risk result')
+    > [!div class="mx-imgBorder"]
+    > ![The path to getting spam risk result](media/spam-checker.png)
 
 1. When the analysis is finished, you get a low, medium, or high-risk result. If you click the **Details** panel, you are given recommendations on how to decrease your spam risk. A low risk is encouraged however due to the nature of marketing content, some errors are to be expected.
-    
-    ![The calculated spam risk](media/spam-checker-score-april2020.png 'The calculated spam risk')
+
+    > [!div class="mx-imgBorder"]
+    > ![The calculated spam risk](media/spam-checker-score.png)
 
     Though exact thresholds may vary based on your topic and audience, here are a few guidelines for interpreting the score:
 
@@ -60,3 +57,12 @@ To manually view and interpret the spam risk for a message:
     If you would like to know more about how the scores are generated, you can visit this [website](https://spamassassin.apache.org/index.html).
 
 1. When you are satisfied with your spam risk level, go live with your message as usual.
+
+### See also
+
+[Tutorial: Create a marketing email and go live](create-marketing-email.md)  
+[Email marketing overview](prepare-marketing-emails.md)  
+[Create a new email and design its content](email-design.md)  
+[Add dynamic content to email messages](dynamic-email-content.md)  
+[Set the sender, receiver, language, and legal designation](email-properties.md)  
+[Check for errors, go live, and deliver](email-check-golive.md)  

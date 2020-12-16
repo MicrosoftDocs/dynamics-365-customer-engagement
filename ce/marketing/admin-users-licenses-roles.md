@@ -1,19 +1,15 @@
 ---
 title: "Manage user accounts, user licenses, and security roles (Dynamics 365 Marketing) | Microsoft Docs"
-description: "How to manage user accounts, add licenses to users, and assign security roles in Dynamics 365 Marketing"
-keywords: 
+description: "How to manage user accounts, add licenses to users, and assign security roles in Dynamics 365 Marketing."
 ms.date: 01/24/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing
 ms.topic: article
-ms.assetid: 8443c485-10a1-4d3e-a23d-047b75b707db
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer
@@ -129,7 +125,7 @@ Two features of Dynamics 365 Marketing require that users have security roles wi
 - **To access assist edit, elevated privileges are required the for the *marketing email dynamic-content metadata* entity**    
     The [assist-edit feature](dynamic-email-content.md#assist-edit) enables users to generate dynamic expressions for use in email messages and content settings. The feature requires that the user has elevated access to application metadata, which enables assist edit to present details about database entities and records. Therefore, all users that need to use assist edit must have a security role with elevated access to the **Marketing email dynamic-content metadata** entity, as shown in the table and illustration following this list.
 
-|  | Minimum "Website" entity privileges | Minimum "Marketing email dynamic-content metadata" entity privileges|
+| Access level | Minimum "Website" entity privileges | Minimum "Marketing email dynamic-content metadata" entity privileges|
 |-----------|--------------|------------------------------------------|
 | Create | Organization | Business unit |
 | Read | Organization | Organization |
@@ -193,7 +189,7 @@ The surveys package adds the following security roles:
 - Survey Feedback Publisher
 - Survey Service
 - Survey User
-- Voice of the Customer app access role
+- Customer Voice app access role
 
 ## Don't modify or remove the Marketing service user
 

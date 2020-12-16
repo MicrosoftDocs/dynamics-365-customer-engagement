@@ -4,12 +4,11 @@ description: Enable AI suggestions for cases and knowledge articles in Dynamics 
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/15/2020
+ms.date: 11/17/2020
 ms.topic: article
-ms.service: 
-   dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.custom: 
-   dyn365-customerservice
+  - dyn365-customerservice
 search.audienceType: 
   - admin
 search.app: 
@@ -68,6 +67,10 @@ Make sure that the following requirements are met:
 - Customer Service workspace is installed and accessible. More information: [Customer Service workspace](csw-overview.md)
 - The	productivity pane is enabled. By default, the productivity pane is enabled out of the box. More information: [Enable productivity pane](../app-profile-manager/app-profile-manager.md#enable-prod-pane).
 - The System Administrator role is granted.
+- The workflow processes used by the AI model and AI configuration entities are in the activated status. More information: [Workflow processes](#workflow-processes).
+- The feature works only when the administration mode is disabled. For how to update the administration mode, see 
+[Edit properties of an environment](https://go.microsoft.com/fwlink/p/?linkid=2151237)
+
 
 ## Enable AI suggestions for similar cases
 
@@ -106,6 +109,25 @@ The **Model pre-processing status** area displays the following metadata pertain
 - **Case records:** Displays the number of new or updated resolved case records that were processed.
 - **Knowledge articles:** Displays the number of new or updated published knowledge articles that were processed.
 - **Run frequency:** Display the frequency that is set for the model to run.
+
+### Workflow processes
+
+The AI model and AI configuration entities use the following workflow processes. Make sure these processes are in the activated status. By default, these processes are activated:
+
+- IsPaiEnabled
+- Predict
+- PredictionSchema
+- Train
+- QuickTest
+- BatchPrediction
+- ScheduleTraining
+- SchedulePrediction
+- ScheduleRetrain
+- UnschedulePrediction
+- UnscheduleTraining
+- CancelTraining
+- PublishAIConfiguration
+- UnpublishAIConfiguration
 
 ### See also
 

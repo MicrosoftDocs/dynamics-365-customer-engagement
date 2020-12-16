@@ -1,16 +1,15 @@
 ---
 title: "Export Unified Service Desk configuration data | MicrosoftDocs"
 description: "Learn how to prepare a file for use with another instance using the Configuration Migration Tool and configuration data schema file."
+author: v-sailab
+ms.author: v-sailab
+manager: shujoshi
+ms.date: 08/23/2017
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-USD
   - dyn365-admin
-ms.date: 08/23/2017
-ms.service: 
-  - dynamics-365-customerservice
-ms.topic: article
-author: kabala123
-ms.author: kabala
-manager: shujoshi
 search.audienceType: 
   - admin
 search.app: 
@@ -19,9 +18,12 @@ search.app:
 tags: MigrationHO
 ---
 # Export Unified Service Desk configuration data
+
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 You can export your [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration data from your source system by using the default [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration data schema file.  
   
-1. Download the [!INCLUDE[pn_configuration_migration_tool](../../includes/pn-configuration-migration-tool.md)] and the default [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration data schema file (USDDefaultSchema.xml). The tool and the configuration data schema file are available in the [Common Data Service SDK download package](https://go.microsoft.com/fwlink/?LinkID=627298).  
+1. Download the [!INCLUDE[pn_configuration_migration_tool](../../includes/pn-configuration-migration-tool.md)] and the default [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration data schema file (USDDefaultSchema.xml). The tool and the configuration data schema file are available in the [Microsoft Dataverse SDK download package](https://go.microsoft.com/fwlink/?LinkID=627298).  
   
    1. Download the package (.exe), and extract it to find the tool in the SDK\Tools\ConfigurationMigration folder.  
   
@@ -29,9 +31,9 @@ You can export your [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified
   
 2. Double-click the DataMigrationUtility.exe file in the SDK\Tools\ConfigurationMigration folder to run the [!INCLUDE[pn_configuration_migration_tool](../../includes/pn-configuration-migration-tool.md)], and choose **Export data** in the main screen.  
   
-3. On the **Login** screen, provide authentication details to connect to your [!INCLUDE[pn_microsoftcrm_server](../../includes/pn-microsoftcrm-server.md)] from where you want to export data. If you have multiple organizations on the Common Data Service platform server, and want to select the organization from where to export the data, select the **Always display list of available orgs** check box. Select **Login**.  
+3. On the **Login** screen, provide authentication details to connect to your [!INCLUDE[pn_microsoftcrm_server](../../includes/pn-microsoftcrm-server.md)] from where you want to export data. If you have multiple organizations on Dataverse server, and want to select the organization from where to export the data, select the **Always display list of available orgs** check box. Select **Login**.  
   
-4. If you have multiple organizations, and you selected the **Always display list of available orgs** check box, the next screen lets you choose the organization that you want to connect to. Select the Common Data Service platform organization to connect to.  
+4. If you have multiple organizations, and you selected the **Always display list of available orgs** check box, the next screen lets you choose the organization that you want to connect to. Select the organization to connect to.  
   
 5. On the next screen, select the default [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration data schema file (USDDefaultSchema.xml) to be used for the data export.  
   

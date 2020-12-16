@@ -1,16 +1,17 @@
 ---
 title: "Configure link to conversation button | MicrosoftDocs"
 description: "Learn how to configure link to conversation button for agents using Omnichannel for Customer Service in Unified Service Desk."
-author: kabala123
-ms.author: kabala
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.date: 08/29/2019
-ms.service: 
-  - "dynamics-365-customerservice"
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ---
 
 # Configure link to conversation button in Unified Service Desk
+
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
@@ -49,7 +50,7 @@ For this scenario, you must create the following:
 
 ### Configure Link Account To Conversation action call
 
-1. Sign in to Common Data Service platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Select the Down arrow next to Dynamics 365.
 
@@ -70,7 +71,7 @@ For this scenario, you must create the following:
 
 ### Configure Session Toolbar
 
-1. Sign in to Common Data Service platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Select the Down arrow next to Dynamics 365.
 
@@ -106,7 +107,7 @@ For this scenario, you must create the following:
 
 ### Add the action call and toolbar to configurations
 
-1. Sign in to Common Data Service platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Select the Down arrow next to Dynamics 365.
 

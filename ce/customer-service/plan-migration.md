@@ -1,13 +1,12 @@
 ---
 title: "Introduction to migration of entity records (Dynamics 365 Customer Service) | MicrosoftDocs"
 description: "Learn how to migrate entity records from the legacy Service Scheduling to the Unified Interface Service Scheduling in Dynamics 365 Customer Service"
-author: kabala123
-ms.author: kabala
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.date: 10/11/2019
 ms.topic: article
-ms.service: 
-  - dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-customerservice
 search.audienceType: 
@@ -20,6 +19,8 @@ search.app:
 ---
 
 # Plan your migration
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
 This topic explains the considerations and best practices that you need to be aware before starting the migration.
 
@@ -75,7 +76,7 @@ This topic explains the considerations and best practices that you need to be aw
 
 ## Ignore entity records from migration
 
-1. Sign in to the Common Data Service platform.
+1. Sign in to Dynamics 365.
 
 2. Go to **Settings** > **Customizations** > **Customize the System**.
 

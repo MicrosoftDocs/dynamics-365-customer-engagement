@@ -1,15 +1,14 @@
 ---
 title: "Walkthrough 5  Display enhanced session information by displaying session name and overview data | MicrosoftDocs"
 description: "Demonstrates how to dynamically display session name and session overview information in Unified Service Desk to enhance the customer-interaction experience for your agents."
+author: v-sailab
+ms.author: v-sailab
+manager: shujoshi
+ms.date: 08/23/2017
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-USD
-ms.date: 08/23/2017
-ms.service: 
-  - dynamics-365-customerservice
-ms.topic: article
-author: kabala123
-ms.author: kabala
-manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
@@ -18,6 +17,8 @@ search.app:
   - D365USD
 ---
 # Walkthrough 5: Display enhanced session information by displaying session name and overview data
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
 In the previous walkthrough, [Walkthrough 4: Display a record in a session in your agent application](../unified-service-desk/walkthrough-display-dynamics-365-record-session-agent-application.md), you learned how to display your customer record stored in a session in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. However, the experience would be better if you can identify each session with a unique name along with some key overview information about the record in a session.  
   
@@ -54,7 +55,7 @@ In the previous walkthrough, [Walkthrough 4: Display a record in a session in yo
 ## Step 1: Create a Session Lines type of hosted control to display session overview information  
  To display session overview information in your agent application, create an instance of a **Session Lines** type of hosted control in your agent application.  
   
-1. Sign in to the Common Data Service platform.  
+1. Sign in to the Dynamics 365 instance.  
   
 2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
   
@@ -78,7 +79,7 @@ In the previous walkthrough, [Walkthrough 4: Display a record in a session in yo
 ## Step 2: Define session name information  
  To dynamically display the session tab name, you’ll configure a session lines rule using the replacement parameters.  
   
-1. Sign in to the Common Data Service platform.  
+1. Sign in to the Dynamics 365 instance.  
   
 2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
   
@@ -104,7 +105,7 @@ In the previous walkthrough, [Walkthrough 4: Display a record in a session in yo
 ## Step 3: Define session overview information  
  Define the session overview information to display in the **Session Lines** type of hosted control that you configured in step 1.  
   
-1. Sign in to the Common Data Service platform.  
+1. Sign in to the Dynamics 365 instance.  
   
 2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
   
@@ -169,7 +170,7 @@ In the previous walkthrough, [Walkthrough 4: Display a record in a session in yo
   
  To add a control to the configuration:  
   
-1. Sign in to the Common Data Service platform.  
+1. Sign in to the Dynamics 365 instance.  
   
 2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
   
@@ -190,9 +191,9 @@ In the previous walkthrough, [Walkthrough 4: Display a record in a session in yo
 <a name="Step5"></a>   
 ## Step 5: Test the application  
   
-1. Start the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, and sign in to the Common Data Service platform instance where you configured [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] by using the same user credentials that is assigned to Contoso Configuration in [Walkthrough 1: Build a simple agent application](../unified-service-desk/walkthrough-1-build-a-simple-agent-application.md). For information about connecting to the Common Data Service platform instance using the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, see [Connect to a model-driven app instance using the Unified Service Desk client](../unified-service-desk/admin/connect-dynamics-365-instance-using-unified-service-desk-client.md)  
+1. Start the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, and sign in to the Dynamics 365 instance where you configured [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] by using the same user credentials that is assigned to Contoso Configuration in [Walkthrough 1: Build a simple agent application](../unified-service-desk/walkthrough-1-build-a-simple-agent-application.md). For information about connecting to Dataverse instance using the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, see [Connect to a model-driven app instance using the Unified Service Desk client](../unified-service-desk/admin/connect-dynamics-365-instance-using-unified-service-desk-client.md)  
   
-2. Click the down arrow next to the **Search** button in the toolbar, and then click **Account** to display the account records from your Common Data Service platform instance.  
+2. Click the down arrow next to the **Search** button in the toolbar, and then click **Account** to display the account records from your Dataverse instance.  
   
 3. Click the expander to display the left pane (SessionExplorerPanel).  
   

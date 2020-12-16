@@ -1,15 +1,14 @@
 ---
 title: "Walkthrough  Create a UII Application Adapter in Unified Service Desk | MicrosoftDocs"
 description: "Demonstrates how to host and interact with an external application in Unified Service Desk."
+author: v-sailab
+ms.author: v-sailab
+manager: shujoshi
+ms.date: 12/31/2019
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-USD
-ms.date: 12/31/2019
-ms.service: 
-  - dynamics-365-customerservice
-ms.topic: article
-author: kabala123
-ms.author: kabala
-manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
@@ -18,7 +17,10 @@ search.app:
   - D365USD
 ---
 # Walkthrough: Create a UII Application Adapter
-You can create an application adapter if you want to integrate an external application with [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. the Common Data Service platform provides a [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)] template for creating an application adapter. The template provides basic code as comments to help you get started with creating the application adapter.  
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
+You can create an application adapter if you want to integrate an external application with [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. Microsoft Dataverse provides a [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)] template for creating an application adapter. The template provides basic code as comments to help you get started with creating the application adapter.  
   
  In this walkthrough, you’ll build an external application `QsExternalApp` and host it in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. You’ll then create and configure an application adapter `ExternalApplicationAdapter` for the external application to interact with [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. The external application has four labels: one each for the customer’s first name, last name, address and ID and four corresponding text boxes to display the values from [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  
   
@@ -95,7 +97,7 @@ You can create an application adapter if you want to integrate an external appli
   
 1. Copy the application from your [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] project output folder (\<ProjectFolder>\bin\debug) to the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] application directory. In this case, we will copy the Microsoft.Uii.QuickStarts.QsExternalApp.exe file to the C:\Program Files\Microsoft Dynamics CRM USD\USD directory.  
   
-2. Run the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client to connect to your Common Data Service platform server.  
+2. Run the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client to connect to your Dataverse server.  
   
 3. On successful sign in, you’ll see the **Sample External Application** button on your desktop.  
   
@@ -224,7 +226,7 @@ You can create an application adapter if you want to integrate an external appli
   
 1. Copy the assembly that contains your application adapter definition from your [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] project output folder (\<ProjectFolder>\bin\debug) to the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] application directory. In this case, we will copy the ExternalApplicationAdapter.dll file to the c:\Program Files\Microsoft Dynamics CRM USD\USD directory.  
   
-2. Run [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client to connect to your Common Data Service platform server.  
+2. Run [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client to connect to your Dataverse server.  
   
 3. On successful sign in, you’ll see the sample external application on your desktop.  
   

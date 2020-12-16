@@ -8,6 +8,16 @@ ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
+searchScope:
+  - D365-App-msdynce_saleshub
+  - D365-Entity-goal
+  - D365-Entity-metric
+  - D365-Entity-goalrollupquery
+  - D365-UI-*
+  - Dynamics 365
+  - Sales
+  - Customer Engagement
+
 ---
 
 # Create or edit goals (Sales and Sales Hub)

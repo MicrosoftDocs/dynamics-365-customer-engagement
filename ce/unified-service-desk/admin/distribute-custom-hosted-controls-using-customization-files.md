@@ -1,16 +1,15 @@
 ---
 title: "Distribute custom hosted controls using Customization Files with Unified Service Desk  | MicrosoftDocs"
 description: "Learn how to deploy customization files."
+author: v-sailab
+ms.author: v-sailab
+manager: shujoshi
+ms.date: 08/23/2017
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-USD
   - dyn365-admin
-ms.date: 08/23/2017
-ms.service: 
-  - dynamics-365-customerservice
-ms.topic: article
-author: kabala123
-ms.author: kabala
-manager: shujoshi
 search.audienceType: 
   - admin
 search.app: 
@@ -19,7 +18,10 @@ search.app:
 tags: MigrationHO
 ---
 # Customization Files and how to distribute custom hosted controls overview
-Use the customization files feature to distribute custom hosted controls and functionality to agent computers. To control the distribution, create or update a customization file record and associate it with a configuration. When agents who are associated with the configuration sign in to the Common Data Service platform using the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client, the custom controls and functionality are downloaded to the agent’s computer and available for use.  
+
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
+Use the customization files feature to distribute custom hosted controls and functionality to agent computers. To control the distribution, create or update a customization file record and associate it with a configuration. When agents who are associated with the configuration sign in to the Dynamics 365 instance using the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client, the custom controls and functionality are downloaded to the agent’s computer and available for use.  
   
  To distribute custom controls and functionality:
   
@@ -39,7 +41,7 @@ Use the customization files feature to distribute custom hosted controls and fun
   
 ## Create or update a customization file record for custom functionality distribution  
   
-1. Sign in to the Common Data Service platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Select the down arrow next to Dynamics 365.
 

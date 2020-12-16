@@ -1,13 +1,12 @@
 ---
 title: "createTab (JavaScript API Reference) for Dynamics Channel Integration Framework (CIF) version 2.0 | MicrosoftDocs"
 description: ""
-author: susikka
-ms.author: susikka
+author: ramana-hyd
+ms.author: v-rmurthy
 manager: shujoshi
-ms.date: 12/31/2019
+ms.date: 11/19/2020
 ms.topic: reference
-ms.service: 
-  - dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
@@ -33,7 +32,7 @@ The structure of the `Input` parameter JSON is shown below.
 
 ```json
 { 
-   "templateName":"<name of session template>",
+   "templateName":"<unique name of session template>",
    "templateTag":"<template tag>",
    "templateParameters":{ 
       "globalparam":"number value OR boolean value OR json string value OR parameterized string value",
@@ -48,36 +47,21 @@ The structure of the `Input` parameter JSON is shown below.
 
 ## Returns
 
-Promise with the value as String
+Promise with the value of tab ID as String
 
 ## Example
 
 ```javascript
-var entityLogicalName = "contact";
-var data = {
-	"firstname": "Sample",
-	"lastname": "Contact",
-	"fullname": "Sample Contact",
-	"emailaddress1": "<contact@contoso.com>",
-	"jobtitle": "Sr. Marketing Manager",
-	"telephone1": "555-0109",
-	"description": "Default values for this record were set programmatically."
-}
-// create contact record
-var jsonData = JSON.stringify(data);
-Microsoft.CIFramework.createRecord(entityLogicalName, jsonData).then((result) => {
-	var recordResult = JSON.parse(result);
-	var input = {
-		templateName: "entityrecord",
-		templateParameters: {
-			entityName: entityLogicalName,
-			entityId: recordResult.id,
-		},
-		isFocused: true
-	}
-	Microsoft.CIFramework.createTab(input).then((result) => {
-		console.log("created tab with id " + result);
-	});
-	// We created a contact record in the background by calling createRecord API, and then open the same in the new tab by passing the contact’s id that was returned from createRecord API, as template parameter
+var tabInput = {
+    //Unique Name of the Application Tab Template
+    // type = string
+    templateName: "msdyn_test_entity",
+    appContext: new Map().set("etn", "incident").set("recordId", "768a786f-59e0-ea11-a813-000d3a8b1f3b"),
+    isFocused: true
+};
+Microsoft.CIFramework.createTab(tabInput).then((tabId)=>{
+    console.log("created tab with id " + tabId);
+}, (error)=>{
+    console.log(error);
 });
 ```

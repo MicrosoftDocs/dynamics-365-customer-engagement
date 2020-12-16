@@ -24,7 +24,7 @@ search.app:
 ---
 # Setup overview for mobile apps
 
-Your users can access their data stored in Common Data Service or Dynamics 365 Customer Engagement (on-premises) while they're out in the field by using either of the following apps:  
+Your users can access their data stored in Microsoft Dataverse or Dynamics 365 Customer Engagement (on-premises) while they're out in the field by using either of the following apps:  
   
 - **[!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)]**: With [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)], you can design your information architecture once and the customizations will automatically flow to all form factors. Much is shared with [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)].  
   
@@ -36,7 +36,7 @@ Your users can access their data stored in Common Data Service or Dynamics 365 C
  For hardware and software requirements for [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)], see [Support for Dynamics 365 for phones and Dynamics 365 for tablets](support-phones-tablets.md).  
   
 ### Required privileges  
- Both Common Data Service and Dynamics 365 Customer Engagement (on-premises) uses a security privilege, **Dynamics 365 for mobile**, to provide access to [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]. The privilege is pre-configured for Sales roles, but not other security roles, so you may want to add to other roles for your teams.  
+ Both Microsoft Dataverse and Dynamics 365 Customer Engagement (on-premises) uses a security privilege, **Dynamics 365 for mobile**, to provide access to [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]. The privilege is pre-configured for Sales roles, but not other security roles, so you may want to add to other roles for your teams.  
  
  The app should be shared for the security role that user has been assigned.
   
@@ -54,10 +54,10 @@ Your users can access their data stored in Common Data Service or Dynamics 365 C
   
 6. Send an email to mobile-enabled users to let them know they can download the mobile app from the app store. Include the organization URL and sign-in information in the email.  
   
-This applies to new installations of Common Data Service or Dynamics 365 Customer Engagement (on-premises). You can add or remove this privilege from custom or default security roles to meet your business needs. Users who do not have this privilege will see and see an empty app list or the following error: **Contact your administrator for access your organization’s mobile apps**  
+This applies to new installations of Microsoft Dataverse or Dynamics 365 Customer Engagement (on-premises). You can add or remove this privilege from custom or default security roles to meet your business needs. Users who do not have this privilege will see and see an empty app list or the following error: **Contact your administrator for access your organization’s mobile apps**  
 > 
 > [!NOTE]
-> Both Common Data Service and Dynamics 365 Customer Engagement (on-premises) include the ability to audit user access. Audit events are logged if a user accesses your Dynamics 365 apps organization through the Dynamics 365 mobile app. However, there is not a new event type that indicates the access was through the mobile app. The audit login events would appear as **User Access via Web**.  
+> Both Microsoft Dataverse and Dynamics 365 Customer Engagement (on-premises) include the ability to audit user access. Audit events are logged if a user accesses your Dynamics 365 apps organization through the Dynamics 365 mobile app. However, there is not a new event type that indicates the access was through the mobile app. The audit login events would appear as **User Access via Web**.  
   
 ### Required privileges for custom security roles
 
@@ -102,7 +102,7 @@ This list identifies all resources used by Dynamics 365 for phones and tablets. 
 | service.powerapps.com |Starting with version 13.19091.20, used for email sign-in and the app list. |
 
 ### Security privileges  
- Both Common Data Service and Dynamics 365 Customer Engagement (on-premises) use a security privilege, **Dynamics 365 apps for mobile**, to provides access to [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]. This privilege is pre-configured for Sales roles, but not other security roles, so you may want to add to other roles for your teams. For more information on how to share apps in Common Data Service, see [Share a model-driven app using Power Apps](https://docs.microsoft.com/powerapps/maker/model-driven-apps/share-model-driven-app).
+ Both Microsoft Dataverse and Dynamics 365 Customer Engagement (on-premises) use a security privilege, **Dynamics 365 apps for mobile**, to provides access to [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]. This privilege is pre-configured for Sales roles, but not other security roles, so you may want to add to other roles for your teams. For more information on how to share apps in Microsoft Dataverse, see [Share a model-driven app using Power Apps](https://docs.microsoft.com/powerapps/maker/model-driven-apps/share-model-driven-app).
   
   
 <a name="BKMK_Configure"></a>   
@@ -110,7 +110,7 @@ This list identifies all resources used by Dynamics 365 for phones and tablets. 
 
  You must configure apps that will be available for Dynamics 365 for phones and tablets mobile app.  
 
- - For Common Data Service, see [Create a custom entity](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-create-entity).
+ - For Microsoft Dataverse, see [Create a custom entity](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-create-entity).
  - For Dynamics 365 Customer Engagement (on-premises), see [App making and customization overview](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/overview) 
   
 ### Charts  
@@ -246,7 +246,7 @@ Things to note:
 ## Best practices for securing app data on the mobile app
  Consider the following when planning security for [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]:  
   
-- **Data transmission**. [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] requires an [!INCLUDE[pn_Internet_facing_deployment](../includes/pn-internet-facing-deployment.md)], so when your organization’s mobile devices synchronize Dynamics 365 apps data with your Common Data Service environment or Dynamics 365 Customer Engagement (on-premises) organization, the data is encrypted with [!INCLUDE[pn_Secure_Sockets_Layer](../includes/pn-secure-sockets-layer.md)].  
+- **Data transmission**. [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] requires an [!INCLUDE[pn_Internet_facing_deployment](../includes/pn-internet-facing-deployment.md)], so when your organization’s mobile devices synchronize Dynamics 365 apps data with your Microsoft Dataverse environment or Dynamics 365 Customer Engagement (on-premises) organization, the data is encrypted with [!INCLUDE[pn_Secure_Sockets_Layer](../includes/pn-secure-sockets-layer.md)].  
   
 - **Cached data**. [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] only cache records and lists that you’ve recently accessed in the app. To clear cached data, users can either sign out or reconfigure.
 

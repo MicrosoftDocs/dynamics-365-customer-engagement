@@ -1,18 +1,14 @@
 ---
-title: "Build an approvals feature (Dynamics 365 Marketing Developer Guide) | MicrosoftDocs"
-description: "Build an approvals feature which utilizes Dynamics 365 Marketing extensibility endpoints"
-ms.custom: 
-  - dyn365-developer
-  - dyn365-marketing
+title: "Build an approvals feature (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
+description: "Build an approvals feature that utilizes Dynamics 365 Marketing extensibility endpoints."
 ms.date: 08/01/2019
 ms.service: dynamics-365-marketing
-ms.technology: 
-  - marketing
-ms.topic: conceptual
-ms.assetid: 488e6a2f-81c8-41da-ad4d-bf349abcc468
-ms.author: nabuthuk
-author: Nkrb
-manager: kvivek
+ms.custom: 
+  - dyn365-marketing
+ms.topic: article
+author: alfergus
+ms.author: alfergus
+manager: shellyha
 search.audienceType: 
   - developer
 search.app: 
@@ -24,7 +20,7 @@ search.app:
 
 Dynamics 365 Marketing provides an infrastructure with extensibility features that offer new possibilities for developers, and one way to take advantage of this new extensibility is to create an approvals feature, possibly including integration with Power Automate.
 
-This topic outlines one way that you could develop an approvals feature for Marketing. The feature described here would enable organizations to implement an approval workflow in which most users can't make some types of important entities (such as emails, customer journeys, or segments) **Go live** right away. Instead, an approver must inspect each record and decide whether to allow it to **Go live**, or whether more work is needed. The approver is typically an administrator or manager who is specifically identified as an approver in the system.
+This topic outlines one way that you could develop an approvals feature for Marketing. The feature described here would enable organizations to implement an approval workflow in which most users can't make some types of important entities (such as emails, customer journeys, or segments) **Go live** right away. Instead, an approver must inspect each record and decide whether to allow it to **Go live**, or whether more work is needed. The approver is typically an administrator or manager who is identified as an approver in the system.
 
 > [!IMPORTANT]
 > The approval feature described here is intended to support a collaborative workflow among colleagues and helps prevent accidentally going live with an entity that is not yet ready. We recommend that you also develop plug-ins that prevent users from going live from any state that isn't approved and also prevent users from editing fields on the records that are in the approval-required, approved, or live state.
@@ -101,7 +97,7 @@ To make our solution to work, we need to create three custom ribbon buttons, as 
 |-----|-------|------|
 |Approve|- Be an Approver <br/> - Be in Approval-required state| Move the entity to the **Approved** state.|
 |Reject| - Be an Approver <br/> - Be in Approval-required state| Move the entity back to the previous state (use the `msdyncrm_rstorestatuscode` field to retrieve).|
-|Ask approval| - Be a Marketer <br/> - Be in draft, error or stopped state| Store the actual state of the entity in the `msdyncrm_restorestatuscode` field, run a validation check on the entity, and if the entity is valid move the entity to the **Approval requested** state.|
+|Ask approval| - Be a Marketer <br/> - Be in draft, error, or stopped state| Store the actual state of the entity in the `msdyncrm_restorestatuscode` field, run a validation check on the entity, and if the entity is valid move the entity to the **Approval requested** state.|
 
 We must remove the possibility for the marketer to enter the **live editable** state. This is important because when a request for approval comes from a draft, error, or stopped state, and the approver decides to reject the changes, the changes are kept and it's up to the marketer to make new ones. This logic can't be applied to the live-editable state because if the approver rejects a live-editable record, it will revert back to live. If we were to keep the changes, the user could be confused because what they see in the form will be different from what is saved in our services. 
 

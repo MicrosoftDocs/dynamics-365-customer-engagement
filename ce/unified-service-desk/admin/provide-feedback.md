@@ -1,13 +1,12 @@
 ---
 title: "Provide feedback about Unified Service Desk | MicrosoftDocs"
 description: "Learn about providing feedback about Unified Service Desk."
-ms.date: 04/24/2018
-ms.service: 
-  - "dynamics-365-customerservice"
-ms.topic: article
-author: kabala123
-ms.author: kabala
+author: v-sailab
+ms.author: v-sailab
 manager: shujoshi
+ms.date: 04/24/2018
+ms.topic: article
+ms.service: dynamics-365-customerservice
 search.audienceType: 
   - admin
 search.app: 
@@ -15,6 +14,8 @@ search.app:
   - D365USD
 ---
 # Provide feedback about [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]
+
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
 Have a comment or suggestion about [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]? We need your feedback to help us deliver a reliable product. Good or bad, the quickest route to get your comments to our team is right from within [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. 
 
@@ -52,7 +53,7 @@ You must know about the following in [!INCLUDE[pn_unified_service_desk](../../in
 
  Toolbar Container type of hosted control are used to hold and display the toolbars in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. In this section, you’ll create a **Toolbar Container** hosted control that will appear at the top of the client application.  
 
-1. Sign in to the Common Data Service platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Select the down arrow next to Dynamics 365.
 
@@ -76,7 +77,7 @@ You must know about the following in [!INCLUDE[pn_unified_service_desk](../../in
 ## Step 2: Add a toolbar and attach it to the toolbar container  
  In this step, you’ll create a toolbar, and attach the toolbar to the toolbar container hosted control created in step 1. This is done to display the toolbar in your agent application.  
 
-1. Sign in to the Common Data Service platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Select the down arrow next to Dynamics 365.
 
@@ -148,7 +149,7 @@ In this step, you’ll add the action call, hosted control, and toolbar that wer
 
  To add a control to the configuration:  
 
-1. Sign in to the Common Data Service platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Select the down arrow next to Dynamics 365.
 
@@ -180,7 +181,7 @@ In this step, you’ll add the action call, hosted control, and toolbar that wer
 <a name="Step5"></a> 
 ## Step 5: Test the provide feedback option in the application
 
-Start the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application, and sign in to the Common Data Service platform instance where you configured [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] using the same user credentials that you assigned to the **Contoso Configuration**. For information about connecting to the Common Data Service platform instance using the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application, see [Connect to a instance using the Unified Service Desk client](../../unified-service-desk/admin/connect-dynamics-365-instance-using-unified-service-desk-client.md).
+Start the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application, and sign in to the Dynamics 365 instance where you configured [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] using the same user credentials that you assigned to the **Contoso Configuration**. For information about connecting to the Dataverse instance using the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application, see [Connect to a instance using the Unified Service Desk client](../../unified-service-desk/admin/connect-dynamics-365-instance-using-unified-service-desk-client.md).
 
 Your agent application will now have a **Smiley** button in the toolbar area.
 

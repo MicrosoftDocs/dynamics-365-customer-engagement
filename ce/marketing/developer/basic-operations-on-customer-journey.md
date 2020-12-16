@@ -1,20 +1,21 @@
 ---
-title: "Basic operations on the Customer Journey using the API| Microsoft Docs" 
-description: The Customer Journey API enables programmatic interaction with certain segmentation features of Dynamics 365 Marketing app.
-ms.custom:
+title: "Basic operations on the Customer Journey using the API (Dynamics 365 Marketing Developer Guide) | Microsoft Docs" 
+description: "The Customer Journey API enables programmatic interaction with certain segmentation features of Dynamics 365 Marketing app."
 ms.date: 04/03/2019
-ms.reviewer: ""
-ms.service: "D365CE"
-ms.topic: "article"
-ms.author: nabuthuk
-author: Nkrb
-manager: kvivek
+ms.service: dynamics-365-marketing
+ms.custom: 
+  - dyn365-marketing
+ms.topic: article
+author: alfergus
+ms.author: alfergus
+manager: shellyha
 search.audienceType: 
   - developer
 search.app: 
-  - PowerApps
   - D365CE
+  - D365Mktg
 ---
+
 # Basic operations on Customer Journey using the API
 
 As you engage potential customers, they start by discovering your product, evaluating whether it meets their needs, looking for a good offer, and finally making a purchase. We call this process the *customer journey*. 
@@ -23,7 +24,7 @@ Use customer journeys to create a model that helps you guide the members of a se
 
 The Customer Journey API enables programmatic interaction with customer journey records including publishing and validation.
 
-The API uses the standard Common Data Service Web API for manipulating entities or messages. More information: [Common Data Service Web API](/powerapps/developer/common-data-service/webapi/overview).
+The API uses the standard Microsoft Dataverse Web API for manipulating entities or messages. More information: [Use the Microsoft Dataverse Web API](/powerapps/developer/common-data-service/webapi/overview).
 
 When you create a customer journey, the properties will be stored in the `msdyncrm_customerjourney` entity. You can browse the entity metadata information using `@odata.context`in the `GET` response.
 

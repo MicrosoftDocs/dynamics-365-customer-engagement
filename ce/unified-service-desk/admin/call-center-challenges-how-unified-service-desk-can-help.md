@@ -1,16 +1,15 @@
 ---
 title: "Call center challenges and how Unified Service Desk can help | MicrosoftDocs"
 description: "Understand how Unified Service Desk can help your service agents."
+author: v-sailab
+ms.author: v-sailab
+manager: shujoshi
+ms.date: 08/23/2017
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-USD
   - dyn365-admin
-ms.date: 08/23/2017
-ms.service: 
-  - dynamics-365-customerservice
-ms.topic: article
-author: kabala123
-ms.author: kabala
-manager: shujoshi
 search.audienceType: 
   - admin
 search.app: 
@@ -19,6 +18,9 @@ search.app:
 tags: MigrationHO
 ---
 # Call center industry concerns
+
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 Before you start with [!INCLUDE[pn_unified_service_desk_for_crm](../../includes/pn-unified-service-desk-for-crm.md)], it’s important to have an overview of the call center industry and its challenges, and how [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] helps address these challenges.  
   
 <a name="Challenges"></a>   
@@ -48,20 +50,20 @@ Before you start with [!INCLUDE[pn_unified_service_desk_for_crm](../../includes/
   
 <a name="HowUSDHelps"></a>   
 ## How does Unified Service Desk help?  
- [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] provides a configurable framework for quickly building agent applications that provide “unified” access to customer information stored in the Common Data Service platform. Some of the value propositions of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] are:  
+ [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] provides a configurable framework for quickly building agent applications that provide “unified” access to customer information stored in Microsoft Dataverse. Some of the value propositions of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] are:  
   
-- **Empower agents with unified access to customer information**: [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] provides agents with a single service interface for accessing customer information in the Common Data Service platform, which helps them deliver fast and accurate customer service.  
+- **Empower agents with unified access to customer information**: [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] provides agents with a single service interface for accessing customer information in Dataverse, which helps them deliver fast and accurate customer service.  
   
 - **Configuration-based framework for quickly building agent applications**: Quickly configure a highly customized agent application per your organization requirements without using code. This significantly reduces the time and cost to build and customize agent applications.  
   
   > [!NOTE]
   >  Using [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to configure agent applications is a bit of an art. It provides a highly configurable interface through the use of replacement parameters and window navigation rules that can be used to dynamically display controls and information based on the context of active operation, much of which requires no code (with the possible exception of [!INCLUDE[pn_JavaScript](../../includes/pn-javascript.md)]). To properly configure a solution often requires that the administrator have experience working with different configurations and analyzing the results.  
   
-- **Centrally configure and manage from within the Common Data Service platform**: You can centrally configure and manage your agent applications by using the familiar interface of the Common Data Service platform.  
+- **Centrally configure and manage from within Dataverse**: You can centrally configure and manage your agent applications by using the familiar interface of Dataverse.  
   
 - **Session-management capabilities**: Your agents can simultaneously handle multiple customer sessions and the application provides you with the ability to preserve contextual information in each session.  
   
-- **Secure access to data based on security in the Common Data Service platform: [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] uses the Common Data Service platform security model to govern access to the entities and configuration data. Moreover, you can create configurations in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to group entities, and assign them to users to ensure that they can access only the entities within the assigned configuration.  
+- **Secure access to data based on security in Dataverse**: [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] uses Dataverse security model to govern access to the entities and configuration data. Moreover, you can create configurations in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to group entities, and assign them to users to ensure that they can access only the entities within the assigned configuration.  
   
 - **Reduce operational complexity through agent scripts**: Organizations can provide guidance to their contact center agents through standard instructions (called agent scripts) about what tasks to perform and how to do them, while also handling complex processes during customer interactions. This ensures reduced complexity for contact center agents and a consistent experience for customers, which results in higher customer satisfaction.  
   

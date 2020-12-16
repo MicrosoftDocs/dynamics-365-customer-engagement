@@ -8,8 +8,6 @@ ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: get-started-article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: efe86ab3-430f-485a-b924-6ed82cfbb449
 caps.latest.revision: 39
 author: Mattp123
@@ -21,7 +19,7 @@ search.audienceType:
 ---
 # Create a business process flow to standardize processes
 
-[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Create a business process flow to standardize processes](/power-automate/create-business-process-flow)
+*This topic applies to Dynamics 365 Customer Engagement (on-premises). If you are an online user, see [Create a business process flow to standardize processes](/power-automate/create-business-process-flow) in the Power Automate docs.*
 
 This topic shows how to create a business process flow with Dynamics 365 Customer Engagement (on-premises). To learn more about why you use business process flows, see [Business process flows overview](../customize/business-process-flows-overview.md). For information on creating a mobile task flow, see [Create a mobile task flow](../customize/create-mobile-task-flow.md).  
   

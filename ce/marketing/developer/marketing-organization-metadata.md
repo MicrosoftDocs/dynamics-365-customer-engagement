@@ -1,22 +1,21 @@
 ---
-title: "Metadata reference for your organization (Dynamics 365 Marketing Developer Guide) | MicrosoftDocs"
+title: "Metadata reference for your organization (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Know about the installed solutions, entities, and custom actions in your marketing organization."
-ms.custom: 
 ms.date: 04/01/2018
-ms.service: crm-online
-ms.technology: 
-  - marketing
-ms.topic: conceptual
-ms.assetid: 36cebc83-203f-4afc-9070-efebd8b592ec
-author: KumarVivek
-ms.author: kvivek
-manager: amyla
+ms.service: dynamics-365-marketing
+ms.custom: 
+  - dyn365-marketing
+ms.topic: reference
+author: alfergus
+ms.author: alfergus
+manager: shellyha
 search.audienceType: 
   - developer
 search.app: 
   - D365CE
   - D365Mktg
 ---
+
 # Metadata reference for your organization
 
 Your Dynamics 365 Marketing instance (organization) contains a collection of solutions that provide business functionality for marketing features. A solution provides a framework for packaging, installing, and uninstalling *components* that provide specific business functionality. Some examples of a solution component are entities, apps, business rules, charts, dashboards, and so on. For information about all the solution components, see [Solution components](/powerapps/maker/common-data-service/solutions-overview#components).

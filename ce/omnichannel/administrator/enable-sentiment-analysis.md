@@ -4,12 +4,9 @@ description: "How to enable sentiment analysis for Omnichannel Ongoing Conversat
 author: lalexms
 ms.author: lalexms
 manager: shujoshi
-applies_to: 
-  - ""
 ms.date: 07/16/2020
-ms.service: 
-  - "dynamics-365-customerservice"
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ---
 
 # Analyze real-time customer sentiment

@@ -1,15 +1,14 @@
 ---
 title: "Create a user-defined event | MicrosoftDocs"
 description: "Unified Service Desk provides you with predefined events for hosted controls based on the type of the hosted control. Apart from these predefined events, you can also create your own events in Unified Service Desk, which are called user-defined events. You can use the FireEvent action or the event moniker to run user-defined events."
+author: v-sailab
+ms.author: v-sailab
+manager: shujoshi
+ms.date: 08/23/2017
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-USD
-ms.date: 08/23/2017
-ms.service: 
-  - dynamics-365-customerservice
-ms.topic: article
-author: kabala123
-ms.author: kabala
-manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
@@ -18,6 +17,9 @@ search.app:
   - D365USD
 ---
 # Create a user-defined event
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] provides you with predefined events for hosted controls based on the type of the hosted control. Apart from these predefined events, you can also create your own events in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], which are called user-defined events. You can use the **FireEvent** action or the event moniker to run user-defined events.  
 
 <a name="FireEvent"></a>   
@@ -57,9 +59,9 @@ https://event/?EventName=<EVENT_NAME>&key=value&key=value&…
 
  In the syntax, you specify the `key=value` pair to pass parameter list to be used when the event is triggered.  
 
- Consider an example where you want to raise a user-defined event whenever the title of the case on the case form changes in the Common Data Service platform. To do this:  
+ Consider an example where you want to raise a user-defined event whenever the title of the case on the case form changes in Microsoft Dataverse. To do this:  
 
-1. Create a new event, called `TitleChanged`, for the **Incident** hosted control in the Common Data Service platform.  
+1. Create a new event, called `TitleChanged`, for the **Incident** hosted control in Dataverse.  
 
 2. Create an action call, called `Action Call for Title Change`, with the following values:  
 
@@ -78,7 +80,7 @@ https://event/?EventName=<EVENT_NAME>&key=value&key=value&…
 
     This will cause the `TitleChanged` event to be triggered with the following data parameter: `NewTitle=<NEW_TITLE>`  
 
-   If you use [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] in the Common Data Service platform to invoke an event in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] using the event moniker (`https://event/?EventName=<EVENT_NAME>&key=value&key=value&…`), you can use the `window.IsUSD` property to determine whether the [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] code is running under [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] when the event is invoked. The following code sample can be included in your [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] code to ensure that the event is invoked only when the calling [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] is running within [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  
+   If you use [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] in Dataverse to invoke an event in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] using the event moniker (`https://event/?EventName=<EVENT_NAME>&key=value&key=value&…`), you can use the `window.IsUSD` property to determine whether the [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] code is running under [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] when the event is invoked. The following code sample can be included in your [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] code to ensure that the event is invoked only when the calling [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] is running within [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  
 
 ```  
 if ((window.IsUSD != null) && (window.IsUSD == true))  

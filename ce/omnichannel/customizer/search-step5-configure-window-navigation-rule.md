@@ -1,16 +1,17 @@
 ---
 title: "Configure window navigation rule for search | MicrosoftDocs"
 description: "Learn how to create window navigation rule for search."
-author: kabala123
-ms.author: kabala
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.date: 10/25/2019
-ms.service: 
-  - "dynamics-365-customerservice"
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ---
 
 # Step 5: Configure window navigation rule for search
+
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
@@ -32,7 +33,7 @@ This topic describes how to create a window navigation rule for search.
 
 ## Configure a window navigation rule
 
-1. Sign in to the Common Data Service platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Select the Down arrow next to Dynamics 365.
 

@@ -1,15 +1,14 @@
 ---
 title: "Considerations for creating a CTI adapter for Unified Service Desk | MicrosoftDocs"
 description: "The topic provides information on things to consider while creating a computer telephony integration (CTI) adapter to make it work with Unified Service Desk."
+author: v-sailab
+ms.author: v-sailab
+manager: shujoshi
+ms.date: 12/31/2019
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-USD
-ms.date: 12/31/2019
-ms.service: 
-  - dynamics-365-customerservice
-ms.topic: article
-author: kabala123
-ms.author: kabala
-manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
@@ -18,6 +17,9 @@ search.app:
   - D365USD
 ---
 # Considerations for creating a CTI adapter for Unified Service Desk
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 This topic provides information on things to consider while creating a computer telephony integration (CTI) adapter to make it work with [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  
 
 <a name="UISpec"></a>   
@@ -59,7 +61,7 @@ This topic provides information on things to consider while creating a computer 
   | Calltype  |                                                                    Specify “phonecall” for voicecalls and “chat” for chat sessions..                                                                    |
 
 
-- [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] adapters should not automatically create activities in the Common Data Service platform because this is not always the desired behavior. Therefore, this should be left for the system administrators to configure.  
+- [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] adapters should not automatically create activities in Microsoft Dataverse because this is not always the desired behavior. Therefore, this should be left for the system administrators to configure.  
 
     ```csharp  
     try  
@@ -76,7 +78,7 @@ This topic provides information on things to consider while creating a computer 
 
 <a name="CTISearch"></a>   
 ## CTI search  
- [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] searches are done using FetchXML in the Common Data Service platform. You can search using any data passed in any parameter from [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] against any field in your entity of choice in the Common Data Service platform. Searches are performed one rule at a time until a match is found. Once a match to a window navigation rule in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] is found, it will follow the guidance configured in the navigation rule for the next step. Typically, a rule is set up to open a session around the activity, and optionally display the activity in a tab. For more information about how to configure a window navigation rule to perform a [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)]search, see [Walkthrough: Use generic listener adapter for CTI events](../unified-service-desk/walkthrough-use-the-generic-listener-adapter-for-cti-event-routing.md).  
+ [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] searches are done using FetchXML in Dataverse. You can search using any data passed in any parameter from [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] against any field in your entity of choice in Dataverse. Searches are performed one rule at a time until a match is found. Once a match to a window navigation rule in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] is found, it will follow the guidance configured in the navigation rule for the next step. Typically, a rule is set up to open a session around the activity, and optionally display the activity in a tab. For more information about how to configure a window navigation rule to perform a [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)]search, see [Walkthrough: Use generic listener adapter for CTI events](../unified-service-desk/walkthrough-use-the-generic-listener-adapter-for-cti-event-routing.md).  
 
  Let us configure a sample CTI search rule using the window navigation rule in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. For more information about the window navigation rule, see [Use window navigation rules in Unified Service Desk](../unified-service-desk/use-window-navigation-rules-unified-service-desk.md).  
 
@@ -96,7 +98,7 @@ This topic provides information on things to consider while creating a computer 
 
 8. In the **New CTI Search** screen, specify a name and order for the CTI search query. The direction field is Inbound or Outbound and is used to search against only a specific direction of CTI event. This direction is passed from the [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] adapter.  
 
-    Enter the required FetchXML query for the [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] search. Use the advanced find feature in the Common Data Service platform to create your initial search, and then download the FetchXML. The key field is often not available in the Common Data Service platform Advanced Find search, so you may find that you need to add that condition manually to the XML after you have exported it. You should also select the attributes that you’re interested to show up in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] context. These show up immediately rather than be populated after pages load in the display like the other types of data parameters. Once you have the FetchXML you want, paste the text into the **FetchXML** box, and save the [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] search rule.  
+    Enter the required FetchXML query for the [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] search. Use the advanced find feature in Dataverse to create your initial search, and then download the FetchXML. The key field is often not available in Dataverse Advanced Find search, so you may find that you need to add that condition manually to the XML after you have exported it. You should also select the attributes that you’re interested to show up in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] context. These show up immediately rather than be populated after pages load in the display like the other types of data parameters. Once you have the FetchXML you want, paste the text into the **FetchXML** box, and save the [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] search rule.  
 
    ![New CTI search in Unified Service Desk](../unified-service-desk/media/usd-cti-search-rule-2.PNG "New CTI search in Unified Service Desk")  
 

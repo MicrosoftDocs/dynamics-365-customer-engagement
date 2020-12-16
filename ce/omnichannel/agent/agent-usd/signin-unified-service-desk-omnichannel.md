@@ -1,21 +1,22 @@
 ---
 title: "Sign in to Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn how to sign in to Omnichannel for Customer Service through Unified Service Desk client application."
-author: kabala123
-ms.author: kabala
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.date: 07/01/2019
-ms.service: 
-  - "dynamics-365-customerservice"
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ---
 # Sign in to Unified Service Desk – Omnichannel for Customer Service
+
+[!INCLUDE[cc-data-platform-banner](../../../includes/cc-data-platform-banner.md)]
 
 [!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
 1. Start the Unified Service Desk client by double-clicking the application shortcut on your desktop.
 
-2. In the Unified Service Desk sign in dialog box, provide authentication details to connect to the Common Data Service platform, and then select **Login**.
+2. In the Unified Service Desk sign in dialog box, provide authentication details to connect to Dynamics 365, and then select **Login**.
 
      **For online deployments**
 

@@ -12,10 +12,12 @@ ms.author: udag
 manager: shujoshi
 searchScope:
   - D365-App-msdynce_saleshub
-  - D365-Entity-forecast
+  - D365-Entity-msdyn_forecastinstance
   - D365-UI-*
   - Dynamics 365
   - Sales
+  - Customer Engagement
+
 ---
 
 # View and manage underlying opportunities 
@@ -41,46 +43,7 @@ You can view and edit underlying opportunities in two ways:
 
 ## View and edit in a table view
 
->[!NOTE]
->If you have opted in for early access, the grid view has changed to include enhanced features, such as group the opportunities based on related entity. To learn more, see [View and edit related entity underlying records in early access](#view-and-edit-related-entity-underlying-records-in-early-access).
-
-1.	Open a forecast. In this example, we're opening **Kenny's Org FY 2020 Forecast** for current quarter **FY2020 Q1**.
-
-    > [!div class="mx-imgBorder"]
-    > ![View forecast grid](media/forecast-view-forecast-grid.png "View forecast grid")
-
-2.	Select a row or a cell for any level of the hierarchy for which you want to see underlying opportunities. 
-
-    In this example, we're selecting **Alyce Durham**. Because she's a manager, all the underlying opportunities that are contributing to her team's forecast are listed. This view is opened as a table, by default.
-
-    > [!div class="mx-imgBorder"]
-    > ![View forecast grid](media/forecast-view-underlying-opportunities.png "View forecast grid")
-
-    You can identify whether the selected opportunities belong to a team, an individual, a single cell value, or a full row by looking at the table heading. The format of the heading is described in the following table.
-
-    | Heading format | Description |
-    |----------------|-------------|
-    | Username (Group) – All opportunities |All the opportunities across different forecast categories that the selected user and that user's team own. |
-    | Username - All opportunities | All the opportunities across different forecast categories that the selected user owns. |
-    | Username (Group) – Column name | The opportunities that the selected user and that user's team own for the selected forecast category. |
-    | Username – Column name | All the opportunities that the selected user owns for the selected forecast category. |.
-
-    You can change the view of these opportunities by using the view selector. By default, the view that was selected when the forecast was configured is displayed.
-
-3.	To edit an opportunity, select the attribute that you want to edit, such as **Topic**, **Est. Revenue**, **Actual Revenue**, or **Forecast category**.
-
-4.	After you edit the opportunity, press **Tab** or click outside the field. The modifications are saved, the opportunity is updated in Dynamics 365 Sales, and the forecast amounts instantly reflect the change.
-
-    > [!NOTE]
-    > You can open an opportunity by double-clicking in the non-editable space of the row. The opportunity opens in a new page, where you can edit and save the opportunity.
-
-### View and edit related entity underlying records in early access
-
-[!INCLUDE [cc-early-access](../includes/cc-early-access.md)]
-
-With the enhanced grid, you can view and edit related entity records also.
-
-The following screen is an example of the enhanced grid view of underlying records:
+With the enhanced grid, you can view and edit related entity records also. The following screen is an example of the enhanced grid view of underlying records:   
 
 > [!div class="mx-imgBorder"]
 > ![View underlying opportunity grid](media/forecast-view-grid-group-option.png "View underlying opportunity grid")

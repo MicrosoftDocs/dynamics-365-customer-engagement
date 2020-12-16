@@ -1,22 +1,15 @@
 ---
 title: "Marketing to accounts (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Create account-based leads, lead scoring, and customer journeys in Dynamics 365 Marketing."
-keywords: account-based marketing; lead scoring; customer journey; email; insights
 ms.date: 10/09/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
-  - dyn365-admin
   - dyn365-marketing
 ms.topic: article
-ms.assetid: 3b2f6e2a-5e27-4c5b-9ba4-9d2f4598c839
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: Drafting
 search.audienceType: 
-  - admin
-  - customizer
   - enduser
 search.app: 
   - D365CE
@@ -63,14 +56,9 @@ Firmographic segments are dynamic segments pre-configured to include a query int
 
 1. Use the drop-down lists and input fields in the rows indented under the **Account (Contact -> Account (Company Name))** relation to define the set of accounts you'd like to find. All of the criteria you enter here are based on values found in your account records (not contact records). For example, to find all accounts in Chicago with an annual revenue of $100,000 or more, you'd include the following two rows here, and combine them with an AND operator:
 
-    **Address 1: City | Equals | Chicago**  
-    **Annual Revenue | Is greater than or equal to | 100000**
-
     ![Accounts in Chicago with an annual revenue of $100,000 or more](media/segment-firmographic-accounts.png "Accounts in Chicago with an annual revenue of $100,000 or more")
 
 1. The segment currently finds all contacts who work for the accounts that have the properties you specified. If needed, you can now add more contact-based criteria to further limit the set of contacts found for the segment (for example, to filter by job title). To add criteria for the contact entity, work directly under the **Contact** entity (at the base of the tree, outside the **Account (Contact -> Account (Company Name))** relation). For example, to find only contacts with a job title of purchaser, open the **Add** drop-down list at the base of the tree, select **Add row** and then specify the row as follows:
-
-    **Job title | Equals | Purchaser**  
 
     ![Add contact filters as needed](media/segment-firmographic-contact.png "Add contact filters as needed")
 

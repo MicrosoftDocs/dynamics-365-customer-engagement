@@ -1,13 +1,12 @@
 ---
 title: "Overview of channel in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about channels in Omnichannel for Customer Service."
-author: kabala123
-ms.author: kabala
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.date: 10/12/2020
-ms.service: 
-  "dynamics-365-customerservice"
 ms.topic: article
+ms.service: "dynamics-365-customerservice"
 ---
 
 # Overview of channels
@@ -50,7 +49,7 @@ If you want to help your customers using social channels, you can use the social
 - [WeChat](configure-wechat-channel.md)
 - [LINE](configure-line-channel.md)
 
-## Preview: Custom messaging channel
+## Custom messaging channel
 
 If you want to help your customers using social channels that are not supported as standard channels, such as Telegram, you can use the custom channels. To learn more, see [Configure custom messaging application](configure-custom-channel.md).
 

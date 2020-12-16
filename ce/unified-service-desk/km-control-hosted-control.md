@@ -1,15 +1,14 @@
 ---
 title: "KM Control (hosted control) in Unified Service Desk | MicrosoftDocs"
 description: "Learn how to use the KM Control type of hosted control to display knowledge base articles in your agent application."
+author: v-sailab
+ms.author: v-sailab
+manager: shujoshi
+ms.date: 12/31/2019
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-USD
-ms.date: 12/31/2019
-ms.service: 
-  - dynamics-365-customerservice
-ms.topic: article
-author: kabala123
-ms.author: kabala
-manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
@@ -18,6 +17,9 @@ search.app:
   - D365USD
 ---
 # KM Control (hosted control)
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 Use the **KM Control** type of hosted control to display knowledge base articles in your agent application. Using the new hosted control, your service agents can search for articles, associate or disassociate an article with a case, copy a link to an article, and send it through email or in chat without having to switch applications. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use knowledge for effective customer engagement](../unified-service-desk/use-dynamics-365-knowledge-effective-customer-engagement.md) and [Configure Unified Service Desk to use model-driven apps](../unified-service-desk/configure-unified-service-desk-use-dynamics-365-knowledge.md)
 
 <a name="Create"></a>   
@@ -47,7 +49,7 @@ These are the predefined actions for this hosted control type.
 
 <a name="Associate"></a>   
 ### Associate  
- Associates a knowledge base record in the Common Data Service platform with the parent entity record in **KM Control**.  
+ Associates a knowledge base record in Microsoft Dataverse with the parent entity record in **KM Control**.  
 
 
 |     Parameter     |                                                                                                                                                                                                                                                                Description                                                                                                                                                                                                                                                                 |
@@ -56,7 +58,7 @@ These are the predefined actions for this hosted control type.
 |     recordid      |                                                                                                                                                                                                                               The ID of the parent entity record to associate the knowledge base record to.                                                                                                                                                                                                                                |
 |  articleuniqueid  |                                                                                                                                                                                                              The unique ID of the article in that you want to associate. For example: `articleuniqueid=7924/8112/Article/41`                                                                                                                                                                                                               |
 |   articletitle    |                                                                                                                                                                                                A string value representing article's title that you want to associate. For example: `articletitle=Diffused Sunlight and Weather Conditions`                                                                                                                                                                                                |
-| articlepublicurl  | The public URL of the article that you want to associate. If you are using native the Common Data Service platform knowledge base, the articles should have already been published to an external portal (select **Use an external portal** in the **Knowledge Base management Settings** dialog box in the Common Data Service platform) so that you can use the article URL in this parameter.<br /><br /> For example: `articlepublicurl=https://support.microsoft.com/kb/{kbnum}` |
+| articlepublicurl  | The public URL of the article that you want to associate. If you are using native Dataverse knowledge base, the articles should have already been published to an external portal (select **Use an external portal** in the **Knowledge Base management Settings** dialog box in Dataverse) so that you can use the article URL in this parameter.<br /><br /> For example: `articlepublicurl=https://support.microsoft.com/kb/{kbnum}` |
 
 <a name="Close"></a>   
 ### Close  

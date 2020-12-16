@@ -1,16 +1,15 @@
 ---
 title: "Use Unified Service Desk Administrator app to administer and manage Unified Service Desk client | MicrosoftDocs"
 description: "Learn how to use the Unified Service Desk Administrator app to administer Unified Service Desk client."
+author: v-sailab
+ms.author: v-sailab
+manager: shujoshi
+ms.date: 04/10/2019
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-USD
   - dyn365-admin
-ms.date: 04/10/2019
-ms.service: 
-  - dynamics-365-customerservice
-ms.topic: article
-author: kabala123
-ms.author: kabala
-manager: shujoshi
 search.audienceType: 
   - admin
 search.app: 
@@ -20,6 +19,8 @@ monikerRange: ">=dynamics-usd-4"
 ---
 
 # Administer and manage Unified Service Desk using the Administrator app
+
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
 ## Overview
 
@@ -33,19 +34,19 @@ The Administrator app, which is built based on the Unified Interface framework, 
 
 ## Supportability matrix for Unified Service Desk Administrator app
 
-The matrix explains the support of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Administrator app with versions of Common Data Service platform and [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client.
+The matrix explains the support of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Administrator app with versions of Microsoft Dataverse and [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client.
 
-### Fresh installation of Common Data Service platform and Unified Service Desk
+### Fresh installation of Dataverse and Unified Service Desk
 
-| Common Data Service platform Version | Unified Service Desk Version | Unified Service Desk Administrator App  |
+| Dataverse version | Unified Service Desk version | Unified Service Desk Administrator App  |
 |:--------------------:|:----------------------------:|:---------------------------------------:|
 | V 9.x                | 4.X                          | Yes                                     |
 
-### Upgrade installation of Common Data Service platform and Unified Service Desk
+### Upgrade installation of Dataverse and Unified Service Desk
 
-When you are upgrading Common Data Service platform version and Unified Service Desk you need to import the solution to use Unified Service Desk Administrator app. The matrix explains the import scenario. 
+When you are upgrading Dataverse version and Unified Service Desk you need to import the solution to use Unified Service Desk Administrator app. The matrix explains the import scenario. 
 
-| Common Data Service platform version | Unified Service Desk version |Import solution to get Unified Service Desk Administrator App  | 
+| Dataverse version | Unified Service Desk version |Import solution to get Unified Service Desk Administrator App  | 
 |:--------------------:|:----------------------------:|:---------------------------------------:|
 | **V 8.x** to **V 9.x**       | 4.X                       | Yes                                     | 
 | **V 7.x** to **V 9.x**       | 4.X                          | Yes                                     | 
@@ -69,7 +70,7 @@ The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md
 
 4. Open the **USDPackageDeployer** > **NewEnvironment** folder and locate the **USDUnifiedInterfaceCustomization_1_0_managed** solution.
 
-5. Sign in to the Common Data Service platform.
+5. Sign in to the Dynamics 365 instance.
 
 6. Go to **Settings** > **Solutions**.
 
@@ -93,7 +94,7 @@ The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md
 
 If you deploy the sample package or import the solution, in either way you can find the Administrator app by following these steps:
 
-1. Sign in to the Common Data Service platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Select the drop-down arrow next the **Dynamics 365** and select **Unified Service Desk Administrator** app.
 

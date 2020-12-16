@@ -1,22 +1,21 @@
 ---
-title: "Extend customer journeys using custom channels (Dynamics 365 Marketing Developer Guide) | MicrosoftDocs"
+title: "Extend customer journeys using custom channels (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Beyond the out-of-the box tiles (channels) provided for customer journeys, partners can create custom channels to extend the marketing capabilities in Dynamics 365 Marketing."
-ms.custom: 
-  - dyn365-developer
-  - dyn365-marketing
 ms.date: 10/19/2020
 ms.service: dynamics-365-marketing
-ms.topic: conceptual
-ms.assetid: 01bb6aef-5162-4c7c-8cce-f80996bdd150
-author: KumarVivek
-ms.author: kvivek
-manager: kvivek
+ms.custom: 
+  - dyn365-marketing
+ms.topic: article
+author: alfergus
+ms.author: alfergus
+manager: shellyha
 search.audienceType: 
   - developer
 search.app: 
   - D365CE
   - D365Mktg
 ---
+
 # Extend customer journeys using custom channels
 
 Customer journey orchestration in Dynamics 365 Marketing lets marketers create multi-step, multi-channel marketing campaigns that target a specific segment, deliver marketing email messages, respond to contact interactions, launch workflows, and more. More information: [Use customer journeys to create automated campaigns](../../marketing/customer-journeys-create-automated-campaigns.md)

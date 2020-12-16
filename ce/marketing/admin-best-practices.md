@@ -1,18 +1,15 @@
 ---
 title: "Best practices for administration (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn about best practices for Dynamics 365 Marketing administration and management."
-keywords: administration; admin; user administration; system configuration
-ms.date: 05/06/2020
+ms.date: 12/02/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
+  - dyn365-admin
   - dyn365-marketing
-ms.topic: admin-best-practices
-ms.assetid: 1f1a8244-2dc5-4de2-b7f8-719a46c82861
+ms.topic: article
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status:
 search.audienceType: 
   - admin
   - customizer
@@ -26,7 +23,7 @@ search.app:
 
 Dynamics 365 Marketing is a marketing-automation app that helps turn prospects into business relationships. The app is easy to use, works seamlessly with Dynamics 365 Sales, and has built-in business intelligence.
 
-Marketing is built on top of the Dynamics 365 platform. Instance-management operations are a standard feature of model-driven Dynamics 365 apps (Sales, Customer Service, Field Service, Marketing, and Project Service Automation). Marketing, however, has additional considerations to keep in mind.
+Marketing is built on top of the Dynamics 365 platform. Environment-management operations are a standard feature of model-driven Dynamics 365 apps (Sales, Customer Service, Field Service, Marketing, and Project Service Automation). Marketing, however, has additional considerations to keep in mind.
 
 This document discusses some of the key elements for managing Marketing, focusing on the most common areas in which administrators have questions.
 
@@ -38,7 +35,7 @@ applications. You can find more details about the Marketing licensing model in
 and [Marketing Contacts Purchase](setup-troubleshooting.md#how-is-dynamics-365-marketing-licensed), as well as in the [Dynamics 365 Licensing guide](https://download.microsoft.com/download/9/6/7/96706B15-1CBE-47B7-AB9E-6BC31A377BBB/Dynamics%20365%20Licensing%20Guide%20-%20Feb%202020.pdf). Some important aspects of Marketing’s licensing model are:
 
 - You do not purchase user licenses of Marketing. You purchase the Marketing app and bundles of marketing contacts.
-- One Marketing app license permits deployment on only one Dynamics 365 instance. The instance could be a sandbox or production. Deploying on multiple Dynamics 365 instances requires multiple Marketing app licenses.
+- One Marketing app license permits deployment on only one Dynamics 365 environment. The environment could be a sandbox or production. Deploying on multiple Dynamics 365 environments requires multiple Marketing app licenses.
 - Marketing is available in multiple variants with different pricing for prod and non-prod usage.
 
 ## Marketing quota limits
@@ -84,10 +81,10 @@ solution-only license in [Purchase and set up Dynamics 365 Marketing](purchase-s
 Here are some of the common pitfalls (from a management perspective) that you
 might face when working with multiple Marketing apps/environments:
 
-- **Encountering an error about missing components when importing a custom solution build from a source instance containing a Marketing app to a target instance that does not contain a Marketing app, such as transitioning from QA to UAT.** In this scenario, you might believe that the source instance Marketing solution is the cause of the problem. You might then try to remove or uninstall the Marketing app from the source instance. Instead, deploy the solution-only Marketing app on the target instance so that both the source and the target have the same level of solution level metadata.
-- **Uninstalling and reinstalling the Marketing app from one instance to another, hoping to reuse one Marketing app for multiple Dynamics 365 instances.** This is incorrect and most of the time results in broken systems.
+- **Encountering an error about missing components when importing a custom solution build from a source environment containing a Marketing app to a target environment that does not contain a Marketing app, such as transitioning from QA to UAT.** In this scenario, you might believe that the source environment Marketing solution is the cause of the problem. You might then try to remove or uninstall the Marketing app from the source environment. Instead, deploy the solution-only Marketing app on the target environment so that both the source and the target have the same level of solution level metadata.
+- **Uninstalling and reinstalling the Marketing app from one environment to another, hoping to reuse one Marketing app for multiple Dynamics 365 environments.** This is incorrect and most of the time results in broken systems.
 - **Not noting that when a Marketing environment is installed as solution-only, no Marketing processes (such as customer journey or segmentation) will execute.** The solution-only environment only supports Marketing entity availability and extensibility. If you require marketing process execution, the full Marketing app should be installed.
-- **Not following defined guidance (such as pre-req) when doing ALM operations (such as copy) on instances with the Marketing app.** Refer to the next section for up-to-date guidance on ALM operations.
+- **Not following defined guidance (such as pre-req) when doing ALM operations (such as copy) on environments with the Marketing app.** Refer to the next section for up-to-date guidance on ALM operations.
 
 ## ALM operations
 
@@ -99,59 +96,52 @@ when working with Marketing. Some of the common pitfalls include:
 - **Incorrectly assuming that ALM operations will move with the Marketing apps from source to the target.**
 - **Not preparing the source and target environments for the necessary ALM operation.**
 - **Unnecessary uninstalling and reinstalling the Marketing app in the source or target environments against the recommendations in the documentation.**
-- **Assuming that the Marketing trial can be converted to paid by converting the Dynamics 365 trial instance to paid in the Power Platform admin center.** For more information, see the Trials section below.
+- **Assuming that the Marketing trial can be converted to paid by converting the Dynamics 365 trial environment to paid in the Power Platform admin center.** For more information, see the Trials section below.
 
 ## Uninstallation
 
-You can remove the Marketing app from any Dynamics 365 instance where it's
+You can remove the Marketing app from any Dynamics 365 environment where it's
 installed. While there are good reasons to uninstall the Marketing app (such as
 dismantling a sandbox environment), there are situations where this operation is
 used incorrectly. The following scenarios outline some
 common situations where the uninstall operation is incorrectly used:
 
 - **Trying to use one Marketing license for multi-use on multiple environments instead of doing a fresh install.** For information about installing Marketing on more than one environment, refer to the Environment Strategy and Marketing app type sections for additional guidance and options. The Marketing uninstall process has [particular requirements and implications](uninstall-marketing.md).
-- **Once the Marketing app is uninstalled, trying to also remove the Marketing solutions from the instance.** The Marketing app installs [many solutions on an instance](developer/marketing-solutions.md). You [do not need to remove the solutions](uninstall-marketing.md#uninstall-dynamics-365-marketing-services)
+- **Once the Marketing app is uninstalled, trying to also remove the Marketing solutions from the environment.** The Marketing app installs [many solutions on an environment](developer/marketing-solutions.md). You [do not need to remove the solutions](uninstall-marketing.md#uninstall-dynamics-365-marketing-services)
 when uninstalling the Marketing app. Removing the solutions requires special
 care and sequencing. Incorrect sequential removal of the solutions brings the
-instance into an undesired state. If you need to remove the solutions for valid
+environment into an undesired state. If you need to remove the solutions for valid
 business reasons (such as also removing the Marketing metadata from the
-instance), you should open a support ticket to resolve the issue.
+environment), you should open a support ticket to resolve the issue.
 
-## CDS vs CE deployment
+## Microsoft Dataverse vs CE deployment
 
 Currently, Dynamics 365 Marketing, like other Dynamics 365 model apps (Sales,
-Service, etc.), can only be deployed on CE instances (also known as orgs).
+Service, etc.), can only be deployed on CE environments (also known as orgs).
 
-- [This documentation](https://docs.microsoft.com/dynamics365/admin/add-instance-subscription) describes how to add CE instances via purchase into a tenant on which Marketing can be deployed.
+- [This documentation](https://docs.microsoft.com/power-platform/admin/create-environment) describes how to add CE environments via purchase into a tenant on which Marketing can be deployed.
 
-- A CE instance could also be [provisioned via the Power Platform Admin Center with a CE DB](https://docs.microsoft.com/power-platform/admin/create-environment). If you need to create a Marketing template-based CE instance, you should open a support ticket to resolve the issue.
+- A CE environment could also be [provisioned via the Power Platform Admin Center with a CE DB](https://docs.microsoft.com/power-platform/admin/create-environment). If you need to create a Marketing template-based CE environment, you should open a support ticket to resolve the issue.
 
 ## Trials
 
 Dynamics 365 Marketing trial apps have special behavior. Marketing trial apps
-can only be installed on Dynamics 365 trial instances, which are automatically
-provided as part of the Marketing Trial sign-up process. Unlike paid instances,
-these instances cannot be created manually. Similarly, paid Marketing apps
-(sandbox or prod) cannot be deployed on trial instances.
+can only be installed on Dynamics 365 trial environments, which are automatically provided as part of the Marketing Trial sign-up process. Unlike paid environments, these environments cannot be created manually. Similarly, paid Marketing apps (sandbox or prod) cannot be deployed on trial environments.
 
 Marketing does not support converting from a trial to a paid subscription. If
-you convert a Dynamics 365 instance from trial to paid, the Marketing app will
-not convert. In such a scenario, you must uninstall the trial Marketing app from
-the converted system and deploy a paid Marketing app. In this scenario, the
-standard rules of [uninstalling a Marketing app](uninstall-marketing.md) apply. All interaction and behavioral data will be deleted.
+you convert a Dynamics 365 environment from trial to paid, the Marketing app will not convert. In such a scenario, you must uninstall the trial Marketing app from the converted system and deploy a paid Marketing app. In this scenario, the standard rules of [uninstalling a Marketing app (uninstall-marketing.md) apply. All interaction and behavioral data will be deleted.
 
 ## Data transfer
 
 You can replicate Dynamics 365 Marketing configurations and data across
-instances using the standard tools provided for Dynamics 365. More information
-is available in [Transfer data](transfer-data.md) and in [Transfer customizations](transfer-solution.md). The following are some of the common pitfalls when transferring data:
+environments using the standard tools provided for Dynamics 365. More information is available in [Transfer data](transfer-data.md) and in [Transfer customizations](transfer-solution.md). The following are some of the common pitfalls when transferring data:
 
 - **Using ALM operations instead of Import/Export when transferring selective data.**
 - **Not following the transfer guidelines mentioned in the documentation such as having similar source and target versions of the Marketing app.**
 
 ## Migrations
 
-- **Tenant to tenant**:* Dynamics 365 Marketing supports [tenant to tenant migration within the same geo](https://docs.microsoft.com/dynamics365/admin/move-instance-tenant). There are, however, specific conditions to such migration that you must follow when provided as part of the support request.
+- **Tenant to tenant**:* Dynamics 365 Marketing supports [tenant to tenant migration within the same geo](https://docs.microsoft.com/power-platform/admin/move-environment-tenant). There are, however, specific conditions to such migration that you must follow when provided as part of the support request.
 - **Geo to geo**: Marketing does not currently support geo to geo migration.
 
 ## Geos (commercial clouds)

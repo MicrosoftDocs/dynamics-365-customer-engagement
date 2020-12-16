@@ -1,16 +1,15 @@
 ---
 title: "What's new in Unified Service Desk  for administrators | MicrosoftDocs"
 description: "Learn about new Unified Service Desk features"
+author: v-sailab
+ms.author: v-sailab
+manager: shujoshi
+ms.date: 11/19/2020
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-USD
   - dyn365-admin
-ms.date: 04/10/2019
-ms.service: 
-  - dynamics-365-customerservice
-ms.topic: article
-author: kabala123
-ms.author: kabala
-manager: shujoshi
 search.audienceType: 
   - admin
 search.app: 
@@ -20,7 +19,25 @@ search.app:
 
 # What's new in Unified Service Desk for administrators
 
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 ::: moniker range="dynamics-usd-4.1"
+
+## What's new in Unified Service Desk 4.1.1.1429
+
+This topic contains information about changes in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] for system administrators available in this version.
+
+- The enhancements for Chrome Process are as follows:
+  * Unified Service Desk support for chrome process is upgraded to Chromium version 84. More information: [Use Chrome Process to host web application](../chrome-process.md).
+  * Support for editing pdfs (if pdf has editable fields) with Chrome Process web pages. More information: [Edit PDF in chrome process](../chrome-process.md#edit-pdf-in-chrome-process)
+  * Accessibility support for the Chrome Process web pages enhanced. More information: [Accessibility support with Chrome Process](../chrome-process.md#accessibility-support-with-chrome-process).
+  * Confirmation messages displayed on close and save sessions. More information: [Enable close confirmation dialog when using Chrome Process](../chrome-process.md#enable-close-confirmation-dialog-when-using-chrome-process) and [Enable confirmation dialog using Chrome Process](../chrome-process.md#enable-confirmation-dialog-using-chrome-process).
+  * Open source parameters supported to enhance the performance of Chrome Process-based web pages. More information: [Add parameters using Chrome Process](../chrome-process.md#add-parameters-using-chrome-process).
+  * Default folder enabled to download attachments. More information: [Download attachments in Chrome Process](../chrome-process.md#download-attachments-in-chrome-process).
+- Multiple headers supported during the Navigate action of a Unified Service Desk POST event. More information: [Unified interface page hosted control](../unified-interface-page-hosted-control.md#navigate), [Standard web application hosted control](../standard-web-application-hosted-control.md#navigate), and [CRM page hosted control](../crm-page-hosted-control.md#navigate).
+- Single sign-on feature enabled by default. More information: [Single sign on for Unified Service Desk](connect-dynamics-365-instance-using-unified-service-desk-client.md#single-sign-on-for-unified-service-desk).
+- Special characters supported in Unified Service Desk. More information: [Enable encoding and escaping of special characters](../create-channel-integration-framework-hosted-control.md#enable-encoding-and-escaping-of-special-characters).
+
 
 ## What's new in Unified Service Desk 4.1
 
@@ -99,7 +116,7 @@ Unified Interface Settings is a new configuration element introduced under the *
 ### Show feedback window to agents
 A feedback window is introduced in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to help an agent to provide feedback while closing the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application. Agents can provide feedback comments with the score and submit it to [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)]. The comments are assessed and considered for improving the products and services.
 
-[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Mange options for Unified Service Desk](../admin/manage-options-unified-service-desk.md)
+[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage options for Unified Service Desk](../admin/manage-options-unified-service-desk.md)
 
 ::: moniker-end
 
@@ -155,7 +172,7 @@ Unified Interface Settings is a new configuration element introduced under the *
 ### Show feedback window to agents
 A feedback window is introduced in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to help an agent to provide feedback while closing the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application. Agents can provide feedback comments with the score and submit it to [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)]. The comments are assessed and considered for improving the products and services.
 
-[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Mange options for Unified Service Desk](../admin/manage-options-unified-service-desk.md)
+[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage options for Unified Service Desk](../admin/manage-options-unified-service-desk.md)
 
 ::: moniker-end
 
@@ -225,7 +242,7 @@ As per the data definitions and stages are outlined in the GDPR, the data contai
 
 In this case, you hold the responsibility to delete the Diagnostic log files. 
 
-- **Telemetry data.** [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application collects telemetry data that is maintained in the Common Data Service platform. In these cases, the natural or legal person, public authority, agency, or other body which, alone or jointly with others, becomes the controller, and the processor is [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)], which processes the data on behalf of the controller.
+- **Telemetry data.** [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application collects telemetry data that is maintained in Microsoft Dataverse. In these cases, the natural or legal person, public authority, agency, or other body which, alone or jointly with others, becomes the controller, and the processor is [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)], which processes the data on behalf of the controller.
 
 [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Comply with General Data Protection Regulation (GDPR)](../admin/comply-gdpr.md) and [Unified Service Desk data compliance under GDPR](../admin/comply-unified-service-desk-data-gdpr.md)
 
@@ -294,7 +311,7 @@ However, certain features in [!INCLUDE [pn-crm-9-0-0-online](../../includes/pn-c
 
 ### Security enhancements: User session and access management
 
-When agents host one or more [!INCLUDE [pn-dynamics-365](../../includes/pn-dynamics-365.md)] pages inside the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client using a hosted control of hosting type [IE Process](../ie-process.md), an inactivity or session timeout warning may appear. These warnings are based on the configured inactivity and session timeouts, and agents are signed out after the expiry period. This behavior is similar with that of the web client and after the expiry period agents must sign in to the application again to resume working. System administrators can change the default warning and session timeout values from the System Settings page in the Common Data Service platform. More information: [Security enhancements: User session and access management](/dynamics365/customer-engagement/admin/user-session-management)
+When agents host one or more [!INCLUDE [pn-dynamics-365](../../includes/pn-dynamics-365.md)] pages inside the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client using a hosted control of hosting type [IE Process](../ie-process.md), an inactivity or session timeout warning may appear. These warnings are based on the configured inactivity and session timeouts, and agents are signed out after the expiry period. This behavior is similar with that of the web client and after the expiry period agents must sign in to the application again to resume working. System administrators can change the default warning and session timeout values from the System Settings page in Dataverse. More information: [Security enhancements: User session and access management](/dynamics365/customer-engagement/admin/user-session-management)
 
 The inactivity timeout setting does not apply to hosted controls of hosting type [Internal WPF](../internal-wpf.md) and the agent will not be signed out due to inactivity. However, the session timeout is still applicable and there will be no warning displayed before automatic sign out occurs due to session expiry. We recommend that you use hosted controls of type IE Process if session timeout is desired. 
 
@@ -303,10 +320,10 @@ The inactivity timeout setting does not apply to hosted controls of hosting type
 
 ### Security enhancements: TLS requirements
 
-Unified Service Desk clients connecting to the [!INCLUDE [pn-crm-9-0-0-online](../../includes/pn-crm-9-0-0-online.md)] instances will require Transport Layer Security (TLS) 1.2. More information: [Updates coming to the Common Data Service connection security](https://blogs.msdn.microsoft.com/crm/2017/09/28/updates-coming-to-dynamics-365-customer-engagement-connection-security/)
+Unified Service Desk clients connecting to the [!INCLUDE [pn-crm-9-0-0-online](../../includes/pn-crm-9-0-0-online.md)] instances will require Transport Layer Security (TLS) 1.2. More information: [Updates coming to the Dataverse connection security](https://blogs.msdn.microsoft.com/crm/2017/09/28/updates-coming-to-dynamics-365-customer-engagement-connection-security/)
 
 <a name="limitations"></a>
-### Unified Service Desk limitations with the Common Data Service platform
+### Unified Service Desk limitations with Dataverse
 
 These are the limitations:
 - **Unified Interface**: Apps built using Unified Interface are not supported with [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. More information: [Unified Interface framework for new apps](/dynamics365/get-started/whats-new/customer-engagement/new-in-july-2017-update#unified-interface-framework-for-new-apps)

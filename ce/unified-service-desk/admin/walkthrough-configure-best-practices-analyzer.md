@@ -1,13 +1,12 @@
 ---
 title: "Walkthrough  Configure Best Practices Analyzer in Unified Service Desk | MicrosoftDocs"
 description: Learn about downloading and installing the Best Practices Analyzer.
-ms.date: 05/15/2018
-ms.service: 
-  - "dynamics-365-customerservice"
-ms.topic: article
-author: kabala123
-ms.author: kabala
+author: v-sailab
+ms.author: v-sailab
 manager: shujoshi
+ms.date: 05/15/2018
+ms.topic: article
+ms.service: dynamics-365-customerservice
 search.audienceType: 
   - admin
 search.app: 
@@ -15,6 +14,8 @@ search.app:
   - D365USD
 ---
 # Walkthrough: Configure [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]
+
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
 This walkthrough demonstrates how to configure and setup [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] in your agent application.
 
@@ -25,7 +26,7 @@ This walkthrough demonstrates how to configure and setup [!INCLUDE[pn-best-pract
 
 In this step, you will create a [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] and toolbar container hosted control.
 
-1. Sign in to the Common Data Service platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Select the down arrow next to Dynamics 365.
 
@@ -75,7 +76,7 @@ In this step, you will create a [!INCLUDE[pn-best-practices-analyzer](../../incl
 
  In this step, you’ll create a toolbar, and attach the toolbar to the toolbar container hosted control created in step 1.
 
-1. Sign in to the Common Data Service platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Select the down arrow next to Dynamics 365.
 
@@ -211,7 +212,7 @@ In this step, you'll add actions calls the to **[!INCLUDE[pn-best-practices-anal
 
  To add a control to the configuration:  
 
-1. Sign in to the Common Data Service platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Select the down arrow next to Dynamics 365.
 

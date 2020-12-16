@@ -1,19 +1,19 @@
 ---
-title: "Segment Query definition| Microsoft Docs" # Intent and product brand in a unique string of 43-59 chars including spaces
-description: The Segmentation API enables programmatic interaction with certain segmentation features of Dynamics 365 Marketing app."" # 115-145 characters including spaces. This abstract displays in the search result.
-ms.custom: ""
+title: "Segment Query definition (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
+description: "The Segmentation API enables programmatic interaction with certain segmentation features of Dynamics 365 Marketing app."
 ms.date: 08/12/2019
-ms.reviewer: ""
-ms.service: D365CE
-ms.topic: "article"
-author: "nkrb" # GitHub ID
-ms.author: "nabuthuk" # MSFT alias of Microsoft employees only
-manager: "kvivek" # MSFT alias of manager or PM counterpart
+ms.service: dynamics-365-marketing
+ms.custom: 
+  - dyn365-marketing
+ms.topic: article
+author: alfergus
+ms.author: alfergus
+manager: shellyha
 search.audienceType: 
   - developer
 search.app: 
-  - PowerApps
   - D365CE
+  - D365Mktg
 ---
 
 # Segment Query definition

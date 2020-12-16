@@ -1,16 +1,17 @@
 ---
 title: "Attach search-related action calls to events | MicrosoftDocs"
 description: "Learn how to attach the search-related action calls to events for agents and supervisors using Omnichannel for Customer Service."
-author: kabala123
-ms.author: kabala
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.date: 07/01/2019
-ms.service: 
-  - "dynamics-365-customerservice"
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ---
 
 # Step 4: Attach the search-related action calls to events
+
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
@@ -32,7 +33,7 @@ This topic describes how to attach the search-related action calls to out-of-the
 
 ## Create OmnichannelSessionInlineSearchAndLink event
 
-1. Sign in to the Common Data Service platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Select the Down arrow next to Dynamics 365.
 
@@ -51,9 +52,9 @@ This topic describes how to attach the search-related action calls to out-of-the
 
 ## Attach the action calls to events
 
-1. Sign in to the Common Data Service platform.
+1. Sign in to the Dynamics 365 instance.
 
-2. Select the Down arrow next to Dynamics 365.
+2. Select the down arrow next to Dynamics 365.
 
 3. Select **Unified Service Desk Administrator**.
 

@@ -1,15 +1,16 @@
 ---
 title: "Understand Omnichannel for Customer Service with Customer Service Hub app | MicrosoftDocs"
 description: "Understand how Omnichannel for Customer Service can be used with Dynamics 365 Customer Service Hub application."
-author: kabala123
-ms.author: kabala
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.date: 11/11/2019
-ms.service: 
-   "dynamics-365-customerservice"
 ms.topic: article
+ms.service: "dynamics-365-customerservice"
 ---
 # Understand Omnichannel for Customer Service with Customer Service Hub
+
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
@@ -21,7 +22,7 @@ To learn more, see [Unified routing](#unified-queues) and [Unified routing for c
 
 ## Unified queues
 
-Similar to the Customer Service Hub app, Omnichannel for Customer Service uses the existing Common Data Service queues for routing and distributing the conversations (work item). You can use the existing queues for Customer Service Hub and enable them for Omnichannel for Customer Service, to perform an automatic work-distribution, thus reducing the effort you require to configure new queues for your support organization.
+Similar to the Customer Service Hub app, Omnichannel for Customer Service uses the existing Microsoft Dataverse queues for routing and distributing the conversations (work item). You can use the existing queues for Customer Service Hub and enable them for Omnichannel for Customer Service, to perform an automatic work-distribution, thus reducing the effort you require to configure new queues for your support organization.
 
 ### Enable automatic work distribution
 

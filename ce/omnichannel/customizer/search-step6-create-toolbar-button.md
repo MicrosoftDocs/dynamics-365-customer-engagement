@@ -1,16 +1,17 @@
 ---
 title: "Create toolbar buttons for search | MicrosoftDocs"
 description: "Learn how to create and add toolbar buttons to search."
-author: kabala123
-ms.author: kabala
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.date: 10/25/2019
-ms.service: 
-  - "dynamics-365-customerservice"
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ---
 
 # Step 6:  Create toolbar buttons for search
+
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
@@ -33,7 +34,7 @@ This topic describes how to create toolbar buttons in Unified Service Desk for D
 
 ## Create toolbar buttons
 
-1. Sign in to the Common Data Service platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Select the Down arrow next to Dynamics 365.
 

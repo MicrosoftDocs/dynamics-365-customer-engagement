@@ -3,23 +3,13 @@ title: "Field Service Mobile setup (Dynamics 365 Field Service) | MicrosoftDocs"
 description: Learn how to install and set up Field Service Mobile.
 ms.custom:
   - dyn365-fieldservice
-ms.date: 10/13/2020
+ms.date: 11/11/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
-ms.suite:
-ms.technology:
-  - field-service
-ms.tgt_pltfrm:
-ms.topic: get-started-article
+ms.topic: article
 author: FieldServiceDave
-ms.assetid: 49207db9-d1f0-46e0-ae2c-f4acf4593da9
-caps.latest.revision: 24
 ms.author: daclar
 manager: shellyha
-search.audienceType:
-  - admin
-  - customizer
-  - enduser
 search.app:
   - D365CE
   - D365FS
@@ -101,7 +91,7 @@ The mobile project template contains all customizations for the Field Service Mo
 
   The mobile project is updated periodically; [bookmark this website](https://aka.ms/fsmobile-project) for regular access the latest mobile project.
 
-**For previous mobile apps** for D365 for Field Service, see the topic on [Field Service Mobile project template version history](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-mobile#mobile-project-template-version-history). 
+**For previous mobile apps** for D365 for Field Service, see the article on [Field Service Mobile project template version history](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-mobile#mobile-project-template-version-history). 
 
 5. Import the mobile project file.
 > [!div class="mx-imgBorder"]
@@ -157,6 +147,36 @@ The mobile project template contains all customizations for the Field Service Mo
 
 > [!Note]
 > This is a trial license and is valid for 30 days. The trial can be extended by following the guidance in this article: [Extend Field Service Mobile configuration tool trial](../field-service/activate-fs-mobile-app-license.md).
+
+## Initial setup steps
+
+Go to **Plugins** > **Delete**.
+
+Select work orders and related work order entities, such as work order products, services, and service tasks.
+
+This helps ensure that when work orders or related records are deleted on the server, they are removed from the mobile app too. For more information, [see the Woodford Guide (PDF)](https://www.resco.net/downloads/Woodford_Guide.pdf).
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Delete plugins section of Woodford](media/Perform-Initial-Configurations-image20.png)  
+
+**Save**.
+
+Next up, go to **Mobile Projects **and double-click on your mobile project template.
+
+Select **Configuration** in the left pane.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Woodford mobile Configurations](media/Perform-Initial-Configurations-image21.png)  
+
+This section details many configurations regarding the Field Service Mobile (2017) app user interface and how data passes back and forth between the mobile application and the server.
+
+Here are a few important configurations for administrators to consider when initially setting up the mobile app.
+
+**Auto Sync** dictates when the mobile app sends data to the server. Setting auto sync to **OnStart** is recommended for learning and demonstration purposes.
+
+**Auto Sync Delay** is a timer that dictates when the mobile app will automatically try to send and receive data from the server.
+
+**Save Password** dictates whether the mobile app will remember a user’s password. Setting to **True** is recommended for learning and demonstration purposes.
 
 ## Next steps
 

@@ -1,15 +1,14 @@
 ---
 title: "Use Edge Process hosting method for your controls in Unified Service Desk  | MicrosoftDocs"
 description: "Learn about the Edge Process hosting methods for your controls in Unified Service Desk."
+author: v-sailab
+ms.author: v-sailab
+manager: shujoshi
+ms.date: 12/19/2018
+ms.topic: "article"
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-USD
-ms.date: 12/19/2018
-ms.service: 
-  - dynamics-365-customerservice
-ms.topic: "article"
-author: kabala123
-ms.author: kabala
-manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
@@ -20,6 +19,8 @@ monikerRange: '>= dynamics-usd-4'
 ---
 
 # Public Preview: Use Edge Process to host web applications
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -249,7 +250,7 @@ To use the `EdgeSingleProcess`, you must add the UII option and set the value to
 
 ### Add the UII option
 
-1. Sign in to the Common Data Service platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]
 

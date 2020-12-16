@@ -5,9 +5,8 @@ author: neeranelli
 ms.author: nenellim
 manager: shujoshi
 ms.date: 10/22/2020
-ms.service: 
-   "dynamics-365-customerservice"
 ms.topic: article
+ms.service: "dynamics-365-customerservice"
 ---
 
 # View communication panel
@@ -111,6 +110,8 @@ The communication panel allows you to transfer a conversation request. You can t
  > ![Use the transfer option to launch the transfer list](../../media/oceh-cc-options-ellipsis-tansfer.png "Use the transfer option to launch the transfer list")
 
 You can transfer a request only to agents who are configured in the same work stream and queue. If the request belongs to another queue and you transfer the request, routing rules assign the conversation (work item) to the appropriate agent in the queue.
+
+Agents whose presence is set to Busy-DND, Away, or Offline will not appear in the agents list of the transfer pane.
 
 Use the keyboard command to see the list of agents and/or the supervisor who is available for transfer. Type the forward slash (/) key and the letter t (**/t**).
 

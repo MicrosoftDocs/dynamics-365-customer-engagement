@@ -1,13 +1,12 @@
 ---
 title: "Create templates for knowledge article for Dynamics 365 Customer Service | MicrosoftDocs"
 description: 
-author: udaykirang
-ms.author: udag
+author: lalexms
+ms.author: lalexms
 manager: shujoshi
 ms.date: 07/31/2019
 ms.topic: article
-ms.service: 
-  - crm-online
+ms.service: dynamics-365-customerservice
 search.audienceType: 
   - admin
 ---

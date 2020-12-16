@@ -3,25 +3,16 @@ title: "Overview of Field Service Mobile (Xamarin app) - MicrosoftDocs"
 description: Learn general capabilities of the Field Service Mobile (Xamarin app).
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 05/29/2019
+ms.date: 10/30/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: overview
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 author: FieldServiceDave
-ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
-caps.latest.revision: 42
 ms.author: daclar
 manager: shellyha
-search.audienceType: 
-  - admin
-  - customizer
 search.app: 
   - D365CE
   - D365FS
@@ -29,19 +20,23 @@ search.app:
 
 # Overview of Field Service Mobile (Xamarin app)
 
-Field technicians use the Field Service Mobile app to view their schedules, work orders, equipment details, and more as they travel to various customer locations each day. In this topic, we'll take a look at some basic details of the application.
+Field technicians use the Field Service Mobile app to view their schedules, work orders, equipment details, and more as they travel to various customer locations each day. In this article, we'll take a look at some basic details of the application.
+
+For a guided walkthrough, check out the following video.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HnwA]
 
 ## Supported platforms
 
 - Windows 10, desktop + tablet
-- iOS 11.0+, phones + tablets
-- Android 5.0+, phones + tablets
+- iOS 12.0+, phones + tablets
+- Android 6.0+, phones + tablets
 
 ## Key capabilities
 
 - **Native app**: Field Service Mobile is a native app for Windows, iOS, and Android mobile devices. Native apps can use device-specific hardware and software, like the camera and microphone.
 
-- **Offline capabilities**: Field Service Mobile has full offline capabilities. This means work order details and other valuable information can be downloaded to the field technicians' phones and tablets to use when internet connectivity is not available. When a field technician is working in "online mode," the data on the mobile app reflects the server data. The app can be configured to always be online, online only when connected to Wifi, online when the field technician manually toggles to online mode, or never online. **Sync filters** allow administrators to decide which entities and records should be downloaded locally for offline mode. For example, an administrator can make it so only this week's work orders to be downloaded.
+- **Offline capabilities**: Field Service Mobile has full offline capabilities. This means work order details and other valuable information can be downloaded to the field technicians' phones and tablets to use when internet connectivity is not available. When a field technician is working in "online mode," the data on the mobile app reflects the server data. The app can be configured to always be online, online only when connected to WiFi, online when the field technician manually toggles to online mode, or never online. **Sync filters** allow administrators to decide which entities and records should be downloaded locally for offline mode. For example, an administrator can make it so only this week's work orders to be downloaded.
 
 | Online | Offline |
 | --- | --- |
@@ -62,15 +57,15 @@ Field technicians use the Field Service Mobile app to view their schedules, work
 
 > ![Screenshot of Field Service Mobile showing a barcode on a record](./media/mobile-quick-facts-barcode.png)
 
-- **Dictation**: This allows field technicians to enter notes and important work order data using the device's speech-to-text capabilities. It's particularly helpful for field technicians who wear protective gloves and can't type information into mobile forms.
+- **Dictation**: This allows field technicians to enter notes and important work order data using the device's speech-to-text capabilities. It's helpful for field technicians who wear protective gloves and can't type information into mobile forms.
 
 - **Signature**: Capture a digital signature from a customer in the mobile form, often as approval of completed work. For more comprehensive and legally binding requirements, digital signature service providers can be integrated with.
 
-- **Email integration**: Access emails, calendars, events and contacts by enabling Exchange and other email providers on the mobile app without having to toggle to another mobile app.
+- **Email integration**: Access emails, calendars, events, and contacts by enabling Exchange and other email providers on the mobile app without having to toggle to another mobile app.
 
 - **Access documents**: Beyond attaching documents as notes within work orders, you can integrate with document storage services like SharePoint and other cloud storage locations to give field technicians offline access to product manuals and instructions. Field Service Mobile also supports 3D file formats that display 3D models of equipment, tools, parts, and more.
 
-- **Push notifications**: Trigger push notifications to the field technician's device reminding him or her to perform actions or enter data. For example, you can notify field technicians with a push notification when he or she has been booked to a new work order. Selecting a push notification can take the user to specific booking, work order, or other records. 
+- **Push notifications**: Trigger push notifications to the field technician's device reminding their to perform actions or enter data. For example, you can notify field technicians with a push notification when they have been booked to a new work order. Selecting a push notification can take the user to specific booking, work order, or other records. 
 
 
 > ![Screenshot of Field Service Mobile push notifications showing "You've been booked on a work order" and "Synchronization complete"](./media/mobile-quick-facts-push-notifications-ios.png)
@@ -79,7 +74,7 @@ Field technicians use the Field Service Mobile app to view their schedules, work
 
 - **Available Space:** The amount of required mobile device space depends on the quantity of records that an organization wants to sync to mobile. You can connect to your organization with the app and go to the app's settings on your phone to see how much space the app is utilizing. This amount can and will change based on how much data the app has to sync from the organization. Also note that you should account for how much data will be needed outside of Field Service Mobile (for photos, texts, other apps, and so on). 
 
-- **RAM:** Minimum 512MB, though we recommend 1GB, particularly for organizations with many records and customizations. That said, how much RAM is required depends on how many apps a person will be using. For example, organizations that are using mobile device management (MDM) solutions, requiring their users to switch between multiple applications should provide mobile devices that have a minimum of 2 GB of RAM.
+- **RAM:** Minimum 512 MB, though we recommend 1 GB, particularly for organizations with many records and customizations. That said, how much RAM is required depends on how many apps a person will be using. For example, organizations that are using mobile device management (MDM) solutions, requiring their users to switch between multiple applications should provide mobile devices that have a minimum of 2 GB of RAM.
 
 - **Processor:** The typical standard is a minimum clock speed of approximately 1.4 GHz. Again, be sure to consider other app usage. 
 
@@ -89,7 +84,7 @@ Field technicians use the Field Service Mobile app to view their schedules, work
 
 ## Installation
 
-Installing Field Service Mobile involves downloading the "Field Service Mobile" app from the relevant app store and setting up the mobile configuration tool. Instructions for both can be found in the [Field Service installation topic](field-service-mobile-app-user-guide.md).
+Installing Field Service Mobile involves downloading the "Field Service Mobile" app from the relevant app store and setting up the mobile configuration tool. Instructions for both can be found in the [Field Service installation article](field-service-mobile-app-user-guide.md).
 
 ## Upgrade
 
@@ -102,7 +97,7 @@ The mobile configuration tool is also upgraded periodically, but not always on t
 ### OAuth2
 The main security token for the mobile app is the application master password. The application uses this master password to encrypt the application database and other sensitive information stored in Field Service Mobile app.
 
-In the case of legacy authentication methods which require the app to submit the user’s password to the server, the server password is used for encrypting the application master password for the user’s convenience. With the OAuth2 authentication, the user must provide a dedicated password used for encrypting the application master password. 
+If there are legacy authentication methods that require the app to submit the user’s password to the server, the server password is used for encrypting the application master password for the user’s convenience. With the OAuth2 authentication, the user must provide a dedicated password used for encrypting the application master password. 
 
 Regarding password storage, the app can be configured to either:
 
@@ -143,7 +138,7 @@ The system also keeps a **synchronization log** that tracks when users last sync
 
 ### Mobile device management (MDM)
 
-- **Application sessions**: Require login after a specific number of minutes of inactivity. After the defined time in minutes passes, Field Service Mobile asks for the password to continue using it.
+- **Application sessions**: Require sign-in after a specific number of minutes of inactivity. After the defined time in minutes passes, Field Service Mobile asks for the password to continue using it.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of security settings with an "At application login" box checked under a "Check security policy" section](./media/mobile-quick-facts-application-sessions.png)

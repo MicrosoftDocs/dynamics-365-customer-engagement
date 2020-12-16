@@ -1,16 +1,17 @@
 ---
 title: "Use automation dictionary to pass parameter keys in Dynamics 365 Channel Integration Framework version 2.0 | MicrosoftDocs"
 description: "Learn how to use automation dictionary to pass parameter keys in Dynamics 365 Channel Integration Framework version 2.0"
-author: kabala123
-ms.author: kabala
+author: ramana-hyd
+ms.author: v-rmurthy
 manager: shujoshi
-ms.date: 10/25/2019
+ms.date: 11/19/2020
 ms.topic: article
-ms.service: 
-  - dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ---
 
 # Use automation dictionary to pass data parameter keys
+
+[!INCLUDE[cc-data-platform-banner](../../../includes/cc-data-platform-banner.md)]
 
 ## Overview
 
@@ -32,7 +33,7 @@ For templates to identify the name of the customer as **Kenny Smith**, you as an
 
 Similarly, for session and notification titles, you can pass the data parameters. To learn more, see [Automation dictionary formats to data parameter keys](#automation-dictionary-formats-to-data-parameter-keys).
 
-Dynamics 365 Channel Integration Framework replaces these parameter values with the actual value based on the context of the session, channel provider, Common Data Service, and user actions.
+Dynamics 365 Channel Integration Framework replaces these parameter values with the actual value based on the context of the session, channel provider, Microsoft Dataverse, and user actions.
 
 To learn more, see [Types of context data parameters](#types-of-context-data-parameters).
 
@@ -42,26 +43,26 @@ The automation dictionary uses the context data parameters that are available fr
 
 - [Context data from the channel provider](#context-data-from-the-channel-provider)
 - [Context data from the user actions](#context-data-from-the-user-actions)
-- [Context data from Common Data Service](#context-data-from-common-data-service)
+- [Context data from Dataverse](#context-data-from-dataverse)
 
 > [!div class=mx-imgBorder] 
 > ![Automation dictionary](../media/automation-dictionary-cif.PNG "Automation dictionary")
 
 ### Context data from the channel provider 
 
-This context data is from a first-party channel provider such as Omnichannel for Customer Service or third-party channel provider that uses the widget exposed by Dynamics 365 Channel Integration Framework. The context data from Omnichannel for Customer Service are pre-chat survey, visitor portal navigation, and so on.
+This context data is from a first-party channel provider such as Omnichannel for Customer Service or third-party channel provider that uses the widget exposed by Dynamics 365 Channel Integration Framework. You can pass context data from your Channel Integration Framework widget into the automation dictionary by using the [updateContext API](../reference/microsoft-ciframework/updateContext.md) from within your widget. You can pass any data through, but common examples include customer name, customer phone number, and data points collected from a phone IVR. You can then reference this data in the automation dictionary as slugs in templates and productivity tools like macros and agent scripts.
 
 ### Context data from the user actions 
 
 This data is populated when agents perform activities in the session. An example is opening a new customer record or case.
 
-### Context data from Common Data Service 
+### Context data from Dataverse 
 
-The organizational data is stored in Common Data Service, and you can fetch the data with the use of OData queries. To learn more, see [OData queries](#odata-queries).
+The organizational data is stored in Dataverse, and you can fetch the data with the use of OData queries. To learn more, see [OData queries](#odata-queries).
 
 ## Automation dictionary formats to data parameter keys
 
-Automation dictionary maintains the contextual data for the sessions. The keys in the automation dictionary can be passed as parameters to the action in macros. The system replaces these parameter keys with the actual value based on the context of the session, channel provider, Common Data Service, and user actions.
+Automation dictionary maintains the contextual data for the sessions. The keys in the automation dictionary can be passed as parameters to the action in macros. The system replaces these parameter keys with the actual value based on the context of the session, channel provider, Dataverse, and user actions.
 
 The supported formats are:
 
@@ -81,7 +82,7 @@ Slug is a replacement parameter that Dynamics 365 Channel Integration Framework 
 
 #### Format
 
-The `{Slug}` parameter format that retrieves the context from the channel provider, current user session, and/or the Common Data Service platform. 
+The `{Slug}` parameter format that retrieves the context from the channel provider, current user session, and/or Dataverse. 
 
 **For example:**
 
@@ -89,7 +90,7 @@ The `{Slug}` parameter format that retrieves the context from the channel provid
 
 ### OData queries
 
-You can use the OData queries to get the context that is available from the Common Data Service platform.
+You can use the OData queries to get the context that is available from Dataverse.
 
 The OData query format:
 

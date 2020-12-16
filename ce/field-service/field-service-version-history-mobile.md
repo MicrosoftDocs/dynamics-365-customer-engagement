@@ -3,33 +3,62 @@ title: "Dynamics 365 Field Service Mobile version history | MicrosoftDocs"
 description: Find a list of important updates for Dynamics 365 Field Service mobile apps.
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 09/18/2020
+ms.date: 12/07/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 author: FieldServiceDave
-ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
-caps.latest.revision: 42
 ms.author: daclar
 manager: shellyha
-search.audienceType: 
-  - admin
-  - customizer
 search.app: 
   - D365CE
   - D365FS
 ---
 
-# Dynamics 365 Field Service Mobile version history
+# Field Service Mobile (Xamarin) version history
 
-This article chronicles important updates related to Field Service Mobile and associated mobile project templates.
+> [!IMPORTANT]
+> We recommend using the [Field Service (Dynamics 365) mobile app](mobile-power-app-overview.md) instead of the Field Service Mobile (Xamarin) app to benefit from the new features and continuous investments in the platform. While the new Field Service (Dynamics 365) mobile app continues to evolve, we'll continue to make available and support the current Field Service Mobile (Xamarin) app. By June 2021, new deployments must use the Field Service (Dynamics 365) mobile app; support for the current Field Service Mobile (Xamarin) app will end June 2022.
+
+This article chronicles important updates related to Field Service Mobile (Xamarin) app and associated mobile project templates.
+
+## 13.2.203
+
+### Updates 
+- OAuth authentication support with Sharepoint integration 
+- Entity form rules step ExecuteJS
+- JSBridge: DefaultKeepAlive flag exposed through JSBridge command (Desktop only) 
+- iOS: FilterPicker now uses UIPopoverPresentationController for iPads 
+- [Android] Changes to target API level 29 (Android 10)
+ 
+### Bug fixes 
+- Clicking on ContentDocumentLink crashes app when related entity is not in metadata 
+- MobileCRM: Localization is not applied for time picker 
+- iOS: NewDetailImageItem - fit image also by width. 
+- Sync: Some cleanup optimizations switched off in case of FullSync. 
+- Win10: App crash on charts. 
+- Unable to add N:N relation for different id with the same target entity (user to user) 
+- Business process flow sync errors 
+- Export command on list view currently accepts only 950 records 
+- Win10: Error applying form rule - Crashes in DetailItemTextBox (InvalidCastException: InvalidCast_WinRT, Resco.UI.WindowsRT.DetailItemComboBox, MissingMetadataType) 
+- iOS: View selector popup is not correctly centered on iPads 
+- iOS: Ultimate list-set needs display every time when the frame was changed. 
+- Win10: When the visibility of a LookUp view changes in an onChange rule, the lookUp field is never enabled again. 
+- CSS: MobileUsers grid not scrollable to bottom 
+- Email form 'to' field value is filled two times 
+- FormTable: Table disappears on the Android app after returning from landscape mode 
+- It takes too long to close RichTextEditor properties - user is confused 
+- JSBridge: setting "preventClose" causes close button to disappear for all lookups 
+- Allow disabling use of versionnumber in full or incremental sync per entity in Advanced Sync Setup
+- Charts: wrong labels of second Horizontal axis field
+- Clicking on check-box on the list view opens the list item instead of checking the check-box
+- Overlap of contents on report preview on Android
+- Save is not executing when invoking MobileCRM.UI.EntityForm.save() from script
+
+
 
 ## 12.3.206
 
@@ -53,11 +82,11 @@ This article chronicles important updates related to Field Service Mobile and as
 - Win10: MonthCalendar handled every cell click twice.
 - Win10: Refresh global search placeholder after app language has changed.
 - MobileCRM.Win10: Stacked chart display old chart on hover. 
-- MobileCRM.Win10: Bar charts doesn't support stacked or grouped view.
+- MobileCRM.Win10: Bar charts don't support stacked or grouped view.
 - Win10: Forward button included (serves as back button in RTL). 
 - Win10: RTL-related fixes.
 - Android: SendEmail action fixed to support both Gmail and Outlook.
-- Android: Do not show download progress in status bar on devices with top cutout (notch) and Anroid 9+ in portrait.
+- Android: Do not show download progress in status bar on devices with top cutout (notch) and Android 9+ in portrait.
 - Report: Excel: Fixed assignment of horizontal alignment constants to vertical alignment. Fixed warning. 
 - All: Use correct color for home icons if custom home theme is used.
 - Scheduler: FilterStatus and other items in ButtonsBar were not reduced or hidden properly when ButtonsBar width was not sufficient.
@@ -93,8 +122,8 @@ This article chronicles important updates related to Field Service Mobile and as
 - Android app crashing when returning from tasks form.
 - Android app crashes when resource not 'Enabled for mobile' signs in.
 - Android Intune: Go back button doesn’t work properly when we transfer data from other apps.
-- All platforms UX Improvement: Session Id on error dialog box.
-- Android App crashes when trying to login without password.
+- All platforms UX Improvement: Session ID on error dialog box.
+- Android App crashes when trying to sign in without password.
 - Android updated 'MGF1 digest' encryption methodology from SHA-1 to SHA-256.
 
 ## 12.1.224
@@ -110,7 +139,7 @@ This article chronicles important updates related to Field Service Mobile and as
 - Android: Crash fix.
 - All: Custom option set values displayed in unordered list.
 - All: BPF customizations require save before proceeding even with no change.
-- All: Handled exception on view search when search contains optionsets.
+- All: Handled exception on view search when search contains option sets.
 - All: Custom/auto-save forms not automatically saving changes.
 
 ## 12.1.220
@@ -155,9 +184,9 @@ This article chronicles important updates related to Field Service Mobile and as
 ## 12.1.203
 
 - Win10: Use standard fileIO methods (except open & delete).
-- When copying DynamicEntity, copy the partylist and not just the pointer.
+- When copying DynamicEntity, copy the party list and not just the pointer.
 - SharePoint upload: A misleading sync error removed.
-- Sync does not download NN entities (including the listmember entity).
+- Sync does not download NN entities (including the list member entity).
 - Set entity multiselect picklist property value using JsonSerializers.
 - Always reload EntityHub command.
 - Improve the username discovery for OAuth2.
@@ -176,11 +205,11 @@ This article chronicles important updates related to Field Service Mobile and as
 - Don't inspect dirty flag on disposed form controller (AppStore crashes).
 - Android: Delay LocationTracking service creation on startup.
 - Desktop: Bring all types of DetailItems into view. Previously only text items were handled.
-- Google and Exchange contacts: fullname filter is compatible.
+- Google and Exchange contacts: full name filter is compatible.
 - iOS: MessageBox-related fixes.
 - SearchForm force the cached entities, we already know the entities to search.
 - Desktop: Do not scrollIntoView multiline text DetailItem on click.
-- Google, Exchange contacts: fullname filter is compatible.
+- Google, Exchange contacts: full name filter is compatible.
 - Clicking on Power BI sign-in button doesn't open authentication dialog.
 - iOS "Navigate To" command in account form doesn't fill in the destination automatically after redirecting to the map app.
 - "Direct to current location" button on the map of work order doesn't work in iOS.

@@ -6,22 +6,13 @@ ms.custom:
 ms.date: 10/01/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 author: FieldServiceDave
-ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
-caps.latest.revision: 42
 ms.author: daclar
 manager: shellyha
-search.audienceType: 
-  - admin
-  - customizer
 search.app: 
   - D365CE
   - D365FS
@@ -68,7 +59,7 @@ Let's take a look at what you can see from these work order summary reports.
 |    Broken promise (%) by work order type                 |    Represents the correlation between broken promise percentage and work order type.                                                                                                                                                                                                                    |
 |    Broken promise (%) vs mean time to schedule (mins)    |    Represents the correlation between broken promise percentage and mean time to schedule in minutes.                                                                                                                                                                                                       |
 |    Broken promise (%) vs mean time to travel (hrs)       |    Represents the correlation between broken promise percentage and mean time to travel  in hours.                                                                                                                                                                                                          |
-|    Territory analysis                                    |    Shows a filled map for each territory. Upon hover on a specific territory, you'll see the number of bookings. Note: The territory is based on the territory entity. In order for this report to properly render, the territory needs to be a physical geolocation rather a logical geolocation.       |
+|    Territory analysis                                    |    Shows a filled map for each territory. Upon hover on a specific territory, you'll see the number of bookings. Note: The territory is based on the territory entity. For this report to properly render, the territory needs to be a physical geolocation rather a logical geolocation.       |
 
 ## View and filter reports
 
@@ -118,7 +109,7 @@ The user or team you selected will now be able to see the report.
 ## Additional notes
 
 - We don't support environment minimal copy operations available for sandbox environments. If you perform any of these operations, you may encounter unexpected results.
-- Data is refreshed every 24 hours. Reports will continue to be available during the refresh. If the reports are not refreshed within 24 hours, you can contact Microsoft Support. Note that currently, we do not support a custom refresh schedule.
+- Data is refreshed every 24 hours. Reports will continue to be available during the refresh. If the reports are not refreshed within 24 hours, you can contact Microsoft Support. Currently, we do not support a custom refresh schedule.
 - Data refresh for inactive environments: if there's no active usage of the reports for two continuous weeks, the data refresh will pause. When a report is opened, the data will be refreshed in the next refresh cycle.
 - Report filters will not persist.
 - In **Resource and Utilization**, the **Next** control in the date range is not currently operational.
@@ -159,10 +150,24 @@ Get an error message? See the following table for a list of errors and what you 
 
 |    Error Message                                                                                                                  |    Action                                                                                                |
 |-----------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
-|    Oops! No reports were found in CRM. You may not have access to these reports. Please contact your system administrator.    |    Contact admin to access the reports.                                                        |
+|    Oops! No reports were found in CRM. You may not have access to these reports. Contact your system administrator.    |    Contact admin to access the reports.                                                        |
 |    Oops! Internal service error, please contact your system administrator with Error Code: {numeric value}.                   |    Contact Microsoft Support and create a ticket.                                               |
 |    Oops! There was a problem rendering the report.                                                                              |    Refresh the report; if it doesn’t work, contact Microsoft Support and create a support ticket.    |
 |    Oops! There was a problem rendering the report, please try again.                                                            |    Refresh the report; if it doesn’t work, contact Microsoft Support and create a support ticket.    |
+
+### Disabling custom actions 
+
+**msdyn_AnalyticsSaveDataInConfigStore custom action**
+
+Do not disable this custom action because insights and analytics features in Dynamics 365 will not function properly; the **msdyn_AnalyticsSaveDataInConfigStore custom action** is for internal use only. Contact Microsoft support if you have any questions.
+
+#### Parameters
+
+| Name | Type | Required | Description |
+|----------|----------|----------|---------|
+| Key | String  |Yes | For internal use only. |
+| Value | String | Yes | For internal use only. |
+| ConfigName | String | No | For internal use only. |
 
 ### Known issues
 

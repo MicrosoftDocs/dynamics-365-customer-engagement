@@ -4,10 +4,9 @@ description: Visit this page to see what's recently updated or added in Dynamics
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 08/10/2020
+ms.date: 11/09/2020
 ms.topic: article
-ms.service: 
-  - dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-customerservice
 search.audienceType: 
@@ -22,6 +21,12 @@ search.app:
 # What's new in Dynamics 365 Customer Service
 
 Welcome to Dynamics 365 Customer Service. Visit this page to learn about new or updated features for Customer Service.
+
+## What's new in October 2020 update
+
+For information about the features that released in October 2020, see:
+
+[2020 release wave 2 plan - Customer Service](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/service/dynamics365-customer-service/customer-service)
 
 ## What's new in August 2020 update
 
@@ -170,6 +175,7 @@ Customer Service introduces some new features for enhanced customer satisfaction
 New features introduced in this release are:
 
 - [What's new in Dynamics 365 Customer Service](#whats-new-in-dynamics-365-customer-service)
+  - [What's new in October 2020 update](#whats-new-in-october-2020-update)
   - [What's new in August 2020 update](#whats-new-in-august-2020-update)
   - [What's new in April 2020 update](#whats-new-in-april-2020-update)
   - [What's new in February 2020 update](#whats-new-in-february-2020-update)

@@ -26,7 +26,7 @@ search.audienceType:
 
 Plug-ins and custom workflow activities are custom code that you develop to extend the existing functionality of Dynamics 365 Customer Engagement (on-premises). Before a plug-in or custom workflow activity can be used, it must be registered with the server. A plug-in and custom workflow activity registration tool is available for download.
 
-General information about plug-in and custom workflow assembly registration can be found in the Common Data Service topics [Register a plug-in](/powerapps/developer/common-data-service/register-plug-in) and [Register your assembly](/powerapps/developer/common-data-service/workflow/workflow-extensions#register-your-assembly). The information that follows below is specific to on-premises plug-in development.
+General information about plug-in and custom workflow assembly registration can be found in the Dataverse topics [Register a plug-in](/powerapps/developer/common-data-service/register-plug-in) and [Register your assembly](/powerapps/developer/common-data-service/workflow/workflow-extensions#register-your-assembly). The information that follows below is specific to on-premises plug-in development.
 
  While this topic focuses primarily on plug-ins, most of the information is also applicable to custom workflow activities. One difference between the two is that for custom workflow activity assemblies, you register just the assembly. For plug-ins, you register the plug-in assembly and one or more steps per plug-in. For more information about custom workflow activities, see [Custom Workflow Activities (Workflow Assemblies)](custom-workflow-activities-workflow-assemblies.md).
 

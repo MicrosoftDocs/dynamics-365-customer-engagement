@@ -1,15 +1,14 @@
 ---
 title: "Use Chrome Process hosting method for your controls in Unified Service Desk  | MicrosoftDocs"
 description: "Learn about the Chrome Process hosting method for your controls in Unified Service Desk."
+author: v-sailab
+ms.author: v-sailab
+manager: shujoshi
+ms.date: 11/16/2020
+ms.topic: "article"
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-USD
-ms.date: 07/12/2019
-ms.service: 
-  - dynamics-365-customerservice
-ms.topic: "article"
-author: kabala123
-ms.author: kabala
-manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
@@ -21,7 +20,13 @@ monikerRange: '>= dynamics-usd-4.1'
 
 # Use Chrome Process to host web application
 
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 The Chrome Process browser control hosts your controls in isolated Chrome Process instances and displays them in tabs in the Unified Service Desk client application. The Chrome Process is based on **CefSharp**, an open source framework, which uses the chromium core that powers many modern browsers.  More information: [CefSharp](https://cefsharp.github.io/)
+
+> [!Important]
+> - Unified Service Desk version 4.1.1.1429 supports the chromium version 84.
+> - Unified Service Desk version 4.1.1.1397 supports the chromium version 71.
 
 The advantages of using the Chrome process hosting method are as follows:
 
@@ -101,7 +106,7 @@ Example path: `C:\Program Files\Microsoft Dynamics CRM USD\USD`
 
 Add a new Global UII option for your organization named **GlobalBrowserMode**. Specify the value as **Chrome**.
 
-1. Sign in to Dynamics 365.
+1. Sign in to the Dynamics 365 instance.
 
 2. Go to **Settings** > **Unified Service Desk** > **Options**.
 
@@ -149,7 +154,7 @@ Let us see what configurations you need to create for the above-mentioned scenar
 
 1. Go to **Settings** > **Unified Service Desk** > **Hosted Controls**.
 
-2. Select **+ New**.
+2. Select **New**.
 
 3. Add the following details and save the hosted control.
 
@@ -165,7 +170,7 @@ Let us see what configurations you need to create for the above-mentioned scenar
 
 1. Go to  **Settings** > **Unified Service Desk** > **Action Calls**.
 
-2. Select **+ New**.
+2. Select **New**.
 
 3. Add the following details and save the action call.
 
@@ -191,7 +196,7 @@ Let us see what configurations you need to create for the above-mentioned scenar
 
 1. Go to **Settings** > **Unified Service Desk** > **Action Calls**.
 
-2. Select **+ New**.
+2. Select **New**.
 
 3. Add the following details and save the action call.
 
@@ -248,11 +253,11 @@ Agents in your organization require webcam and microphone access according to yo
 
 ### Add the ChromeEnableMediaStream UII option
 
- 1. Sign in to the Common Data Service platform.
+ 1. Sign in to the Dynamics 365 instance.
 
  2. Go to **Settings** > **Unified Service Desk** > **Options**.
 
- 3. On the Active UII Options page, select **+ New**. 
+ 3. On the Active UII Options page, select **New**. 
  
  4. Choose **Others** for the **Global Option** field.
 
@@ -286,11 +291,11 @@ Also, within Unified Service Desk client application, you can debug a Chrome Pro
 
 ### Add the ChromeRemoteDebuggingPort UII option
 
-1. Sign in to the Common Data Service platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Go to **Settings** > **Unified Service Desk** > **Options**.
 
-3. On the Active UII Options page, select **+ New**. 
+3. On the Active UII Options page, select **New**. 
 
 4. Choose **Others** for the **Global Option** field.
 
@@ -300,28 +305,45 @@ Also, within Unified Service Desk client application, you can debug a Chrome Pro
 
 ## Enable close confirmation dialog when using Chrome Process
 
-While using Chrome Process to host web applications in Unified Service Desk if you accidentally close any application, even though the application has a close confirmation dialog, the dialog not show for your confirmation and the application closes. To avoid closing the application accidentally, **OnBeforeCloseHandler** UII option is introduced. 
+While using Chrome Process to host web applications in Unified Service Desk if you accidentally close any application, even though the application has a close confirmation dialog, the dialog is not shown for your confirmation and the application closes. To avoid closing the application accidentally, **OnBeforeCloseHandler** UII option is introduced. 
 
-When you enable this UII option and while using Chrome Process to host web applications in Unified Service Desk if you close any application and if the application has a close confirmation dialog, then Chrome Process shows a JavaScript confirmation dialog for you to take an action. The message appears as - **Is it OK to leave/reload the page?**. Select **OK** to close or **Cancel** to stay on the Chrome Process application.
-
-> [!div class=mx-imgBorder]
-> ![The JavaScript confirmation dialog shows the message and options to select OK or cancel](media/chrome-process-close-confirmation-dialog.PNG "Close confirmation dialog")
-
-To enable close confirmation dialog, you must add the **OnBeforeCloseHandler** UII option and set the value as **True**. If you leave the value blank or set it to false, the option is disabled.
+If ***onbeforeunload*** event handlers are set for the page loaded in the hosted control, then ***onbeforeunload*** event handlers are called if this UII option is set to **True**. If the UII option is set to **False**, then the event handlers are not called.
 
 ### Add the OnBeforeCloseHandler UII option
 
-1. Sign in to the Common Data Service platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Go to **Settings** > **Unified Service Desk** > **Options**.
 
-3. On the Active UII Options page, select **+ New**. 
+3. On the Active UII Options page, select **New**. 
 
 4. Choose **Others** for the **Global Option** field.
 
 5. Type **OnBeforeCloseHandler** for the **Name** field and type **True** for the **Value** field. 
 
 6. Select **Save**.
+
+
+## Enable confirmation dialog using Chrome Process
+
+If you perform an action on an app tab within a Unified Service Desk session and close the session, then this UII option will display a confirmation dialog box. To confirm the saving and closing of a session, **ChromeProcessConfirmationDialog** UII option is introduced. 
+
+The confirmation dialog box is displayed, if this UII option is added or the value is set as **True**. If this option is not added or the value is set as **False**, then the confirmation box is not displayed.
+
+### Add the ChromeProcessConfirmationDialog UII option
+
+1. Sign in to the Dynamics 365 instance.
+
+2. Go to **Settings** > **Unified Service Desk** > **Options**.
+
+3. On the Active UII Options page, select **New**. 
+
+4. Choose **Others** for the **Global Option** field.
+
+5. Type **ChromeProcessConfirmationDialog** for the **Name** field and type **True** for the **Value** field. 
+
+6. Select **Save**.
+
 
 ## Set zoom in, zoom out, and zoom reset keyboard shortcuts
 
@@ -352,11 +374,11 @@ To update additional the keyboard shortcuts, you must add the UII options and pr
 
 ### Add the Zoom control UII option
 
-1. Sign in to the Common Data Service platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Go to **Settings** > **Unified Service Desk** > **Options**.
 
-3. On the Active UII Options page, select **+ New**. 
+3. On the Active UII Options page, select **New**. 
 
 4. Choose **Others** for the **Global Option** field.
 
@@ -388,11 +410,11 @@ Example path: `C:\Program Files\Microsoft Dynamics CRM USD\USD`
 
 ### Set default zoom value for entire organization
 
-1. Sign in to the Common Data Service platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Go to **Settings** > **Unified Service Desk** > **Options**.
 
-3. On the Active UII Options page, select **+ New**. 
+3. On the Active UII Options page, select **New**. 
 
 4. Choose **Others** for the **Global Option** field.
 
@@ -414,31 +436,31 @@ If you leave the value blank or set the value as **False**, then Chrome Process 
 
 ### Add the AllowWebpageNavigationCertificateError UII option
 
-1. Sign in to the Common Data Service platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Go to **Settings** > **Unified Service Desk** > **Options**.
 
-3. On the Active UII Options page, select **+ New**. 
+3. On the Active UII Options page, select **New**. 
 
 4. Choose **Others** for the **Global Option** field.
 
-5. Type **AllowWebpageNavigationCertificateError** for the **Name** field, and type the value as **True** or comma seperated values (CSV) of the websites you want allow the navigation. For example: `wrong.host.testssl.com,self-signed.testssl.com`. 
+5. Type **AllowWebpageNavigationCertificateError** for the **Name** field, and type the value as **True** or comma separated values (CSV) of the websites you want allow the navigation. For example: `wrong.host.testssl.com,self-signed.testssl.com`. 
 
 6. Select **Save**.
 
 ## Accessibility support with Chrome Process
 
-When you use Chrome Process to host web application in Unified Service Desk, to enable accessibility support for the webpages, the **ChromeAccessibilityRenderer** is introduced. By default, the accessibility support for chrome process is disabled. Add the UII option and set the value as **True** to enable and ensure that screen reader applications read the webpage.
+When you use Chrome Process to host web application in Unified Service Desk, to enable accessibility support for the web pages, the **ChromeAccessibilityRenderer** is introduced. This option enables accessibility support for the web pages so that the screen reader applications can read the web page. CEF mandates the **force-renderer-accessiiity** setting to be enabled when a screen reader is detected. The **force-renderer-accessiiity** setting is applied, if the UII option is not added or the value is set to **True**, and not applied if the value is set to **False**.
 
 After adding the UII option, if you set to false or leave the value empty, the UII option is disabled.
 
 ### Add the AllowWebpageNavigationCertificateError UII option
 
-1. Sign in to the Common Data Service platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Go to **Settings** > **Unified Service Desk** > **Options**.
 
-3. On the Active UII Options page, select **+ New**. 
+3. On the Active UII Options page, select **New**. 
 
 4. Choose **Others** for the **Global Option** field.
 
@@ -448,7 +470,7 @@ After adding the UII option, if you set to false or leave the value empty, the U
 
 ## Set focus on webpage when using Chrome Process
 
-When using Chrome Process to host web applications in Unified Service Desk, if you want to set the focus on the webpage automatically, then you must create an action call with action as **RunScript** and **Data** with a JavaScript function - `window.top.USDChromeSetFocus()`. After you create the action call, add it to the **PageReady** event in case of **Unified Interface Page** and the **BrowserDocumentComplete** event in case of the **CRM Page** hosted control.
+When using Chrome Process to host web applications in Unified Service Desk, if you want to set the focus on the web page automatically, then you must create an action call with action as **RunScript** and **Data** with a JavaScript function - `window.top.USDChromeSetFocus()`. After you create the action call, add it to the **PageReady** event in case of **Unified Interface Page** and the **BrowserDocumentComplete** event in case of the **CRM Page** hosted control.
 
 ## Handle URI protocol in Chrome Process
 
@@ -460,7 +482,7 @@ For example, you've integrated a softphone with Unified Service Desk and using t
 
 To create a Window Navigation Rule, follow the steps:
 
-1. Sign to the Common Data Service platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Select down arrow next to Dynamics 365.
 
@@ -468,7 +490,7 @@ To create a Window Navigation Rule, follow the steps:
 
 4. Select **Window Navigation Rules** under **Basic Settings**.
 
-5. Select **+ New** in the **Active Window Navigation Rules** page.
+5. Select **New** in the **Active Window Navigation Rules** page.
 
 6. Specify the following values on the **New Window Navigation Rules** page.
 
@@ -491,7 +513,7 @@ You must generate the reports when you want to investigate the Chrome Process cr
 
 ### Add the ChromeEnableLogging UII option
 
-1. Sign in to the Common Data Service platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]
 
@@ -508,6 +530,28 @@ You must generate the reports when you want to investigate the Chrome Process cr
 8. Select **Save**.
 
 
+## Add parameters using Chrome Process
+The Chrome Process provides many options that can be used on the chrome process web pages within Unified Service Desk. The  ` ChromeProcessParameters ` option helps to add the parameters. The format to add the parameters is:` --force-ui-direction:rtl;--force-text-direction:rtl;--log-level:3 `, and they are separated by a semicolon. For more information on the list of parameters, see [Chromium command line switches](https://go.microsoft.com/fwlink/p/?linkid=2149189).
+
+### Add the ChromeProcessParameters UII option
+
+1. Sign in to the Dynamics 365 instance.
+
+2. Go to **Settings** > **Unified Service Desk**.
+
+3. Choose **Options**.
+
+4. Select **New** on the **Active UII Options** page.
+
+5. Choose **Others** for the **Global Option** field.
+
+6. Type **ChromeProcessParameters** for the **Name** field.
+
+7. Set **True** for the **Value** field.
+
+8. Select **Save**.
+
+
 ## Use window.IsUSD property to invoke Unified Service Desk event
 
 With Chrome Process, if you use the `window.IsUSD` property in your JavaScript code, you must use it on the predefined events like **pageReady** and **BrowserDocumentComplete** to determine whether the JavaScript code is running under Unified Service Desk or not.
@@ -517,6 +561,37 @@ When you use the property on the Unified Service Desk predefined events, the pro
 ## Download attachments in Chrome Process
 
 When you use Chrome Process to host web applications in Unified Service Desk and select a file attachment, by design, Chrome Process prompts you to save the file to a local folder. After saving the file, you can open to view it.
+
+As an admin, the **ChromeProcessDownloadPath** UII option enables you to set the default folder to save the attachments while using the chrome process pages, for example, C:\Users\*<user_name>*\Desktop\USD patch docs. The Chrome Process prompts you to save the file to a local folder:
+
+* If the field value is empty.
+
+* If the path provided is not a valid folder.
+
+* If you do not have write permissions to the selected path.
+
+
+### Add the ChromeProcessDownloadPath UII option
+
+1. Sign in to the Dynamics 365 instance.
+
+2. Go to **Settings** > **Unified Service Desk**.
+
+3. Choose **Options**.
+
+4. Select **New** on the **Active UII Options** page.
+
+5. Choose **Others** for the **Global Option** field.
+
+6. Type **ChromeProcessDownloadPath** for the **Name** field.
+
+7. Set **True** for the **Value** field.
+
+8. Select **Save**.
+
+## Edit PDF in chrome process
+
+If the pdf has editable fields, then chrome process supports the ability to edit the pdf inline.  
 
 
 ## Limitations

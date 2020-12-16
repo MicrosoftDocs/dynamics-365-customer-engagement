@@ -1,16 +1,15 @@
 ---
 title: "Unified Service Desk  Web Client package | MicrosoftDocs"
 description: "Overview of the Web Client sample application."
+author: v-sailab
+ms.author: v-sailab
+manager: shujoshi
+ms.date: 08/23/2017
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-USD
   - dyn365-admin
-ms.date: 08/23/2017
-ms.service: 
-  - dynamics-365-customerservice
-ms.topic: article
-author: kabala123
-ms.author: kabala
-manager: shujoshi
 search.audienceType: 
   - admin
 search.app: 
@@ -18,11 +17,14 @@ search.app:
   - D365USD
 ---
 # Web Client sample application package
-[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] is a desktop application that helps your customer service agents provide phone, email, and chat support to your customers. [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] provides a configurable framework to quickly build an Agent Desktop application that’s integrated with the Common Data Service platform. With [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] you can quickly make a customized Agent Desktop application by leveraging the User Interface Integration (UII) framework.  
+
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
+[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] is a desktop application that helps your customer service agents provide phone, email, and chat support to your customers. [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] provides a configurable framework to quickly build an Agent Desktop application that’s integrated with Microsoft Dataverse. With [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] you can quickly make a customized Agent Desktop application by leveraging the User Interface Integration (UII) framework.  
   
  This package is best used in the following situations:  
   
-- To demonstrate the rich set of customer service capabilities in the Common Data Service platform and simplify the customization of your agent desktop application.  
+- To demonstrate the rich set of customer service capabilities in Dataverse and simplify the customization of your agent desktop application.  
   
   With the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Web Client sample application package, the following components are installed:  
   
@@ -30,7 +32,7 @@ search.app:
   
 - Unified Service Desk Solution  
   
-- Data required for the Common Data Service platform and customizations  
+- Data required for Dataverse and customizations  
   
 - The following sample hosted controls  
   

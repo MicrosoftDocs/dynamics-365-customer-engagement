@@ -1,15 +1,16 @@
 ---
 title: "Attach Omnichannel Toast Notification-related action calls to events | MicrosoftDocs"
 description: "Learn how to add Omnichannel Toast Notification-related action calls to events"
-author: kabala123
-ms.author: kabala
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.date: 07/01/2019
-ms.service: 
-  - "dynamics-365-customerservice"
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ---
 # Step 4: Add the action calls to the events 
+
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
@@ -29,7 +30,7 @@ This topic describes how to attach Omnichannel Toast Notification related action
   
   - Filter access using [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage access using Unified Service Desk configuration](/dynamics365/customer-engagement/unified-service-desk/admin/manage-access-using-unified-service-desk-configuration)
 
-1. Sign in to the Common Data Service platform. 
+1. Sign in to the Dynamics 365 instance. 
 
 2. Go to **Settings** > **Unified Service Desk** > **Events**. 
 

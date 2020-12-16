@@ -1,17 +1,14 @@
 ---
-title: "Set and use waitlists for events (Dynamics 365 Marketing) | Microsoft Docs "
-description: "Describes how event waitlists work, how to set them up, and how to invite waiting people when capacity becomes available in  Dynamics 365 Marketing"
-keywords: events; waitlist
+title: "Set and use waitlists for events (Dynamics 365 Marketing) | Microsoft Docs"
+description: "Describes how event waitlists work, how to set them up, and how to invite waiting people when capacity becomes available in  Dynamics 365 Marketing."
 ms.date: 01/24/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-ms.assetid: 4aa6d5c3-1b29-46b1-bbf3-9bf260853b20
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
 search.audienceType: 
   - admin
   - customizer
@@ -132,12 +129,12 @@ To create a segment that finds contacts who _are not_ using automatic registrati
 1. Open the **Add** drop-down list under the previous row and select **Add row**. Use the fields and drop-down lists for the new row to set up the following clause:  
 **Automatically register | Equals | No**.
 
-    ![Identify the event or session you are looking for](media/segment-waitlist-register-no.png "Identify the event or session you are looking for")
+    ![Set automatically register to no](media/segment-waitlist-register-no.png "Set automatically register to no")
 
 1. Add a third row here and set up the following clause:  
 **Invited | Equals | Yes**
 
-    ![Identify the event or session you are looking for](media/segment-waitlist-invited-yes.png "Identify the event or session you are looking for")
+    ![Set invited to yes](media/segment-waitlist-invited-yes.png "Set invited to yes")
 
 1. Select the field above the query that shows **Enter segment name** as ghost text. Then type a name for your segment.
 

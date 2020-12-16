@@ -1,15 +1,14 @@
 ---
 title: "UIADDA in Unified Service Desk | MicrosoftDocs"
 description: "Learn about UI Automation data-driven adapter (UIADDA) that provides access to Windows Workflow Foundation and Silverlight applications."
+author: v-sailab
+ms.author: v-sailab
+manager: shujoshi
+ms.date: 08/23/2017
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-USD
-ms.date: 08/23/2017
-ms.service: 
-  - dynamics-365-customerservice
-ms.topic: article
-author: kabala123
-ms.author: kabala
-manager: shujoshi
 search.audienceType: 
   - customizer
   - developer

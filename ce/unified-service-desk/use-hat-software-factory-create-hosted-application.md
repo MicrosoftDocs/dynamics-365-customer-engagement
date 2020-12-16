@@ -1,15 +1,14 @@
 ---
 title: "Use HAT Software Factory to create a hosted application in Unified Service Desk | MicrosoftDocs"
 description: "Learn how to HAT Software Factory to create a hosted application in Unified Service Desk."
+author: v-sailab
+ms.author: v-sailab
+manager: shujoshi
+ms.date: 08/23/2017
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-USD
-ms.date: 08/23/2017
-ms.service: 
-  - dynamics-365-customerservice
-ms.topic: article
-author: kabala123
-ms.author: kabala
-manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
@@ -18,6 +17,8 @@ search.app:
   - D365USD
 ---
 # Use HAT Software Factory to create a hosted application in Unified Service Desk
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
 The [!INCLUDE[pn_hosted_application_toolkit_hat](../includes/pn-hosted-application-toolkit-hat.md)] Software Factory provides you with [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] templates to configure hosted [!INCLUDE[pn_ms_Windows_short](../includes/pn-ms-windows-short.md)], web, or [!INCLUDE[pn_Java](../includes/pn-java.md)] applications, and make them available to a [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] desktop (such as [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]). To use the [!INCLUDE[pn_hat](../includes/pn-hat.md)] Software Factory, you must first install it.
 
@@ -65,7 +66,7 @@ The [!INCLUDE[pn_hosted_application_toolkit_hat](../includes/pn-hosted-applicati
    | **Inspect As Different User**  |                                                                                                                                                          Start UII Inspector using different credentials.                                                                                                                                                           |
    | **Application  Configuration** |                                                                             Configure the hosted control application. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure the HAT application](../unified-service-desk/configure-hosted-application.md)                                                                              |
    |    **Action Configuration**    |                                                                Configure an action for the HAT application. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configuring an action for the HAT application](../unified-service-desk/configure-action-hosted-application.md)                                                                 |
-   |           **Deploy**           | Deploy the hosted control application configuration to the Common Data Service platform server. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Deploy and import an application configuration to or from the Common Data Service platform server](../unified-service-desk/deploy-hosted-application-unified-service-desk.md) |
+   |           **Deploy**           | Deploy the hosted control application configuration to the Microsoft Dataverse server. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Deploy and import an application configuration to or from Dataverse server](../unified-service-desk/deploy-hosted-application-unified-service-desk.md) |
 
    > [!NOTE]
    >  When using **Inspect as a different User** for a Windows-based application with different access rights, the UII Inspector may sometimes not inspect the controls. In such cases, ensure that [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] and the target application run with the same privileges and that you use the **Inspect** option instead of **Inspect as a different User**. This option isn’t available for web applications.

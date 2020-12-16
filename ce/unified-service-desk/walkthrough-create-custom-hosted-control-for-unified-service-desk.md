@@ -1,15 +1,14 @@
 ---
 title: "Walkthrough  Create custom hosted control for Unified Service Desk | MicrosoftDocs"
 description: "Learn about how to create a custom hosted control for Unified Service Desk."
+author: v-sailab
+ms.author: v-sailab
+manager: shujoshi
+ms.date: 12/31/2019
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-USD
-ms.date: 12/31/2019
-ms.service: 
-  - dynamics-365-customerservice
-ms.topic: article
-author: kabala123
-ms.author: kabala
-manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
@@ -18,6 +17,9 @@ search.app:
   - D365USD
 ---
 # Walkthrough: Create custom hosted control for Unified Service Desk
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 In this topic, you’ll learn how to create a custom hosted control called `My Custom Control` with a custom action. The custom hosted control has two [!INCLUDE[pn_ms_Windows_Presentation_Foundation](../includes/pn-ms-windows-presentation-foundation.md)] controls: a button that calls the Debugger hosted control and a text label that displays the user name when a custom action, `MyCustomAction`, is called.
 
 ## In This Section
@@ -147,14 +149,14 @@ In this topic, you’ll learn how to create a custom hosted control called `My C
   
 9. Type **MyCustomAction** in the **Name** field, and choose **Save**.  
   
-   You have now configured your custom hosted control and custom action on your Common Data Service platform server.  
+   You have now configured your custom hosted control and custom action on your Microsoft Dataverse server.  
   
 <a name="Run"></a>   
 ### Run the Unified Service Desk client to work with custom hosted control  
   
 1. Copy the assembly that contains your custom hosted control definition from your [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] project output folder (\<*ProjectFolder*>\bin\debug) to the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] application directory. In this case, you’ll copy the MyCustomControl.dll file to the c:\Program Files\Microsoft Dynamics CRM USD\USD directory.  
   
-2. Run [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client to connect to your Common Data Service platform server.  
+2. Run [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client to connect to your Dataverse server.  
   
 3. On successful sign in, you’ll see the custom hosted control, **My Custom Hosted Control**, on your desktop.  
   

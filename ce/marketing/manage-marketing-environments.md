@@ -1,19 +1,15 @@
 ---
 title: "Manage marketing environments (Dynamics 365 Marketing) | Microsoft Docs"
-description: "How to copy a production Dynamics 365 Marketing environment to a sandbox environment for experiments and testing"
-keywords: administration;admin center;copy;sandbox;environments;backup;recall
-ms.date: 09/20/2020
+description: "How to copy a production Dynamics 365 Marketing environment to a sandbox environment for experiments and testing."
+ms.date: 12/02/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing
 ms.topic: article
-ms.assetid: c692a378-bf2f-42f6-81cd-8273cda9c695
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: 
 search.audienceType: 
   - admin
   - customizer
@@ -31,7 +27,7 @@ Environment-management operations are a standard feature of model-driven apps in
 > This topic provides details about the exceptions that apply when working with environments where the Marketing app is installed—for all other management tasks, see [Environments overview](https://docs.microsoft.com/power-platform/admin/environments-overview), but read this topic first.
 
 > [!NOTE]
-> *Environments* are sometimes also known as *organizations* or *instances*. Each of these terms refers to the same concept. The Power Apps user interface and documentation usually use the term *environment*, while Dynamics 365 Marketing documentation usually uses the term *instance* (though you'll sometimes also see the terms *organization* or *org* here). Because this article relies on Power Platform Admin Center functionality, it refers exclusively to environments.
+> *Environments* are sometimes also known as *organizations* or *environments*. Each of these terms refers to the same concept. The Power Apps user interface and documentation usually use the term *environment*, while Dynamics 365 Marketing documentation usually uses the term *environment* (though you'll sometimes also see the terms *organization* or *org* here). Because this article relies on Power Platform Admin Center functionality, it refers exclusively to environments.
 
 ## Elements in a Marketing environment
 
@@ -225,8 +221,8 @@ For standard Dynamics 365 environments (without Marketing installed), you can us
 [Open the Power Platform admin center](power-platform-admin-center.md)  
 [Keep Marketing up to date](apply-updates.md)  
 [Uninstall Marketing](uninstall-marketing.md)
-[Transfer data between instances](transfer-data.md)  
-[Transfer customizations between instances](transfer-solution.md)  
+[Transfer data between environments](transfer-data.md)  
+[Transfer customizations between environments](transfer-solution.md)  
 [Environments overview](https://docs.microsoft.com/power-platform/admin/environments-overview)  
 [Import data (all record types) from multiple sources](https://docs.microsoft.com/power-platform/admin/import-data-all-record-types)  
 [Move configuration data across environments and organizations](https://docs.microsoft.com/power-platform/admin/manage-configuration-data)  

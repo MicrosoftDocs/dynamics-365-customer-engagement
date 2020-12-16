@@ -5,10 +5,8 @@ author: neeranelli
 ms.author: nenellim
 manager: shujoshi
 ms.date: 10/24/2019
-ms.service: 
-  "dynamics-365-customerservice"
 ms.topic: article
-
+ms.service: "dynamics-365-customerservice"
 ---
 
 # Customize KPIs for intraday insights

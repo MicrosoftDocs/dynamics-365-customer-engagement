@@ -4,19 +4,17 @@ description: Learn how to set up a search provider for knowledge management in D
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 10/12/2020
+ms.date: 11/18/2020
 ms.topic: article
-ms.service: 
-  dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.custom: 
-  dyn365-customerservice
+  - dyn365-customerservice
 search.audienceType: 
-  admin
-  customizer
+  - admin
+  - customizer
 search.app: 
-  D365CE
-  D365CS
-  
+  - D365CE
+  - D365CS
 ---
 
 # Set up a search provider in Customer Service Hub (Preview)
@@ -39,6 +37,10 @@ There are three types of search providers you can set up:
 From an authentication perspective, your agents must have access to external content or they won't be able to view search results. 
 
 ## Set up a search provider
+
+> [!NOTE]
+>
+> Before you set up a search provider, ensure that your firewall doesn't block the https://www.d365ccafpi.com/ domain. Otherwise, users will encounter errors.
 
 To set up a search provider, do the following:
 

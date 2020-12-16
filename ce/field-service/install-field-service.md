@@ -2,19 +2,13 @@
 title: "Install Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn how to install Dynamics 365 Field Service.
 ms.custom: dyn365-fieldservice
+ms.service: dynamics-365-customerservice
+ms.topic: article
 ms.date: 10/13/2020
 ms.reviewer: krbjoran
-ms.suite:
-ms.technology:
-  - field-service
-ms.tgt_pltfrm:
 author: FieldServiceDave
 ms.author: daclar
-ms.manager: shellyhaverkamp
-search.audienceType:
-  - admin
-  - customizer
-  - enduser
+ms.manager: shellyha
 search.app:
   - D365CE
   - D365FS
@@ -43,7 +37,7 @@ There are a few ways you can get access to Dynamics 365 Field Service:
 
 ### Verify the installation is complete
 
-If the installation is complete, the "Field Service" and "Field Service Mobile" apps will appear in the list of apps when you log in. You can find these apps by going to:
+If the installation is complete, the "Field Service" and "Field Service Mobile" apps will appear in the list of apps when you sign in. You can find these apps by going to:
 
 ```https://[your-environment-name].crm.dynamics.com/apps```
    
@@ -53,16 +47,16 @@ If the installation is complete, the "Field Service" and "Field Service Mobile" 
 
 ## Step 2: Install and set up the Dynamics 365 Field Service mobile app
 
-Next, set up the mobile app that technicians will use to view and complete work orders in the field. For more information, see the article on [getting started with the Field Service (Dyanmics 365) mobile app](mobile-power-app-get-started.md).
+Next, set up the mobile app that technicians will use to view and complete work orders in the field. For more information, see the article on [getting started with the Field Service (Dynamics 365) mobile app](mobile-power-app-get-started.md).
 
 
 ## Next steps
 
-After installing Field Service and the Field Service mobile app, view the following topics to configure the system to create, schedule, view, and complete work orders.
+After installing Field Service and the Field Service mobile app, see the following articles to configure the system to create, schedule, view, and complete work orders.
 
 - [Perform initial configurations](perform-initial-configurations-setup.md)
 - [Set up users and security roles](../field-service/view-user-accounts-security-roles.md)
-- [Create a Bookable Resource](set-up-bookable-resources.md)
+- [Create a bookable resource](set-up-bookable-resources.md)
 - [Quickstart: Schedule a work order and view it on the mobile application](quickstart-schedule-work-order.md)
 
 

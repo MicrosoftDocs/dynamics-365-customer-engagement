@@ -1,15 +1,14 @@
 ---
 title: "Replacement parameters in Unified Service Desk | MicrosoftDocs"
 description: "Replacement parameters can be used throughout the application to pull data from data elements (called data parameters) captured during the execution of the application that augment and include the Unified Service Desk context."
+author: v-sailab
+ms.author: v-sailab
+manager: shujoshi
+ms.date: 08/23/2017
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-USD
-ms.date: 08/23/2017
-ms.service: 
-  - dynamics-365-customerservice
-ms.topic: article
-author: kabala123
-ms.author: kabala
-manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
@@ -18,6 +17,8 @@ search.app:
   - D365USD
 ---
 # Replacement parameters in Unified Service Desk
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
 Replacement parameters can be used throughout the application to pull data from data elements (called data parameters) captured during the execution of the application that augment and include the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] context. The context consists of name/value string pairs that change frequently as data is discovered from various ways while the application is used. Replacement parameters are used for a variety of tasks such as specifying URL query strings, generating script output in scriptlets, specifying search values for entity searches, Computer Telephone Integration (CTI), and specifying input for actions being called on other hosted controls. Replacement parameters are the key elements that enable a high degree of configuration or customization in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] without having to use the code.  
   
@@ -30,7 +31,7 @@ Replacement parameters can be used throughout the application to pull data from 
 ## View the Replacement Parameters in Unified Service Desk  
  The Debugger control in the client application can be used to view the list of available replacement parameters at any given time.  
   
-1. Start the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client, and sign in to the Common Data Service platform where you have installed the sample packages.  
+1. Start the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client, and sign in to the Dynamics 365 instance where you have installed the sample packages.  
   
 2. In the main screen of the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client, click the down arrow next to the gear on the top-right corner, and select **Debug**. The Debugger appears.  
   
@@ -99,7 +100,7 @@ If ([[$Debug]]!= true) CRMGlobalManager.GetApp(“Account”);
   
 <a name="Global"></a>   
 ### $Global  
- This section is automatically added to show all options configured in Common Data Service platform Options and their values. This makes Options easily accessible as they can be used to control execution or to control behaviors that were created in workflows or Action Calls. All the audit flags are automatically visible from this section.  
+ This section is automatically added to show all options configured in Dataverse Options and their values. This makes Options easily accessible as they can be used to control execution or to control behaviors that were created in workflows or Action Calls. All the audit flags are automatically visible from this section.  
   
 <a name="Panel"></a>   
 ### $Panel  
@@ -107,7 +108,7 @@ If ([[$Debug]]!= true) CRMGlobalManager.GetApp(“Account”);
   
 <a name="Resources"></a>   
 ### $Resources  
- This collection of replacement parameters is populated by the Global Manager with language identifiers. In the configuration of the Global Manager hosted control, you can specify various language resources. These resources take the form of .resx files but are uploaded into web resources as XML files. Upon loading of the application, [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] will read the current language setting from the Common Data Service platform and then look for this language in the Global Manager language list. If the item is listed, the resource of language identifiers will be loaded into this $Resources collection.  
+ This collection of replacement parameters is populated by the Global Manager with language identifiers. In the configuration of the Global Manager hosted control, you can specify various language resources. These resources take the form of .resx files but are uploaded into web resources as XML files. Upon loading of the application, [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] will read the current language setting from Dataverse and then look for this language in the Global Manager language list. If the item is listed, the resource of language identifiers will be loaded into this $Resources collection.  
   
  Wherever you intended to provide language neutral text on the output, you can instead use the replacement parameters from the `$Resources` collection. For example, you may use the following for button text.  
   
@@ -139,12 +140,12 @@ If ([[$Debug]]!= true) CRMGlobalManager.GetApp(“Account”);
 ### $Settings  
  This section provides user settings that only apply to the current user. These settings are automatically loaded at startup, and may be read using an action call at runtime. These often include settings for theme selection of the user but may provide access to any user specific settings that the configurator wants to make available.  
   
- These user settings are defined in the **User Settings** area (**Settings** > **User Settings**) in the Common Data Service platform while configuring [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  
+ These user settings are defined in the **User Settings** area (**Settings** > **User Settings**) in Dataverse while configuring [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  
   
  These settings can be used like any other replacement parameter in the system. The Global Manager hosted control provides an action, [SaveSetting](../unified-service-desk/global-manager-hosted-control.md#SaveSetting), which will write user settings to the server, assuming the user has write access. This can be used to store user specific preferences such as theme selection and layouts.  
   
 > [!NOTE]
->  The user settings can be saved to the Common Data Service platform server if the user has write access.  
+>  The user settings can be saved to Dataverse server if the user has write access.  
   
 <a name="Subject"></a>   
 ### $Subject  

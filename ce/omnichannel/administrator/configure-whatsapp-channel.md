@@ -5,16 +5,13 @@ author: neeranelli
 ms.author: nenellim
 manager: shujoshi
 ms.date: 10/13/2020
-ms.service: 
-  "dynamics-365-customerservice"
 ms.topic: article
+ms.service: "dynamics-365-customerservice"
 ---
 
-# Preview: Configure a WhatsApp channel through Twilio
+# Configure a WhatsApp channel through Twilio
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
-
-[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
 ## Overview of WhatsApp channel through Twilio
 

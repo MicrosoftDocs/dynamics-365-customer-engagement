@@ -1,15 +1,14 @@
 ---
 title: "Agent Scripting (Hosted Control) | MicrosoftDocs"
 description: "Learn about using Agent Scripting type of hosted control to define a call script that provides instructions to the call center agent to guide them during a customer interaction for a given session."
+author: v-sailab
+ms.author: v-sailab
+manager: shujoshi
+ms.date: 12/31/2019
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-USD
-ms.date: 12/31/2019
-ms.service: 
-  - dynamics-365-customerservice
-ms.topic: article
-author: kabala123
-ms.author: kabala
-manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
@@ -18,6 +17,9 @@ search.app:
   - D365USD
 ---
 # Agent Scripting (Hosted Control)
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 Use **Agent Scripting** type of hosted control to define a call script that provides instructions to the call center agent to guide them during a customer interaction for a given session. For more information, see [Guide customer interactions with agent scripts](../unified-service-desk/guide-customer-interactions-agent-scripts.md).
 
 <a name="AgentScripting"></a>
@@ -50,7 +52,7 @@ Use **Agent Scripting** type of hosted control to define a call script that prov
   
 <a name="GoToTask"></a>   
 ### GoToTask  
- This action displays the specified agent task. The available agent task names can be seen in the **Agent Scripts** section in the Common Data Service platform (**Settings** > **Agent Scripts**).  
+ This action displays the specified agent task. The available agent task names can be seen in the **Agent Scripts** section in Microsoft Dataverse (**Settings** > **Agent Scripts**).  
   
 |Parameter|Description|  
 |---------------|-----------------|  
@@ -72,7 +74,7 @@ Use **Agent Scripting** type of hosted control to define a call script that prov
 |panel|Target panel for the hosted control.|  
   
 ### New_CRM_Page  
- Creates a page for creating a new Common Data Service platform record of the entity specified, and treats the page as a popup from the specified hosted control. The window navigation rules are evaluated to determine the location where the page to create the entity record is displayed.  
+ Creates a page for creating a Dataverse record of the specified entity, and treats the page as a popup from the specified hosted control. The window navigation rules are evaluated to determine the location where the page to create the entity record is displayed.  
   
 |Parameter|Description|  
 |---------------|-----------------|  

@@ -1,17 +1,19 @@
 ---
-title: "Custom event portal localization| MicrosoftDocs"
+title: "Custom event portal localization (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Provides information about how you can extend event management web application functionality."
-ms.custom:
-  - dyn365-developer
-  - dyn365-marketing
 ms.date: 02/06/2019
 ms.service: dynamics-365-marketing
-ms.technology: 
-  - "marketing"
-ms.topic: "article"
-author: Nkrb
-ms.author: nabuthuk
-manager: kvivek
+ms.custom: 
+  - dyn365-marketing
+ms.topic: article
+author: alfergus
+ms.author: alfergus
+manager: shellyha
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
+  - D365Mktg
 ---
 
 # Custom Event Portal Localization

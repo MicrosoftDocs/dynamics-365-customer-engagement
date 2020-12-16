@@ -1,18 +1,14 @@
 ---
-title: "Attach names and emails to Dynamics 365 Customer Voice surveys sent from customer journeys (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Learn how to map names and emails to surveys with a custom Power Automate flow"
-keywords: dynamics 365 customer voice
+title: "Attach names and emails to Dynamics 365 Customer Voice surveys sent from customer journeys (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
+description: "Learn how to map names and emails to surveys with a custom Power Automate flow."
 ms.date: 10/19/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
-ms.topic: reference
-ms.assetid: 57e1c0f7-a12e-49ff-9110-0dcaae176855
+ms.topic: article
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status:
 search.audienceType: 
   - developer
 search.app: 
@@ -21,6 +17,8 @@ search.app:
 ---
 
 # Attach names and emails to Dynamics 365 Customer Voice surveys sent from customer journeys
+
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
 When a [Dynamics 365 Customer Voice](../customer-voice.md) survey is sent from a Dynamics 365 Marketing customer journey, the survey responses don't include the respondents' names or email addresses. This is a known limitation of Marketing integration with Dynamics 365 Customer Voice. To address this issue, we have created the two-part workaround detailed below.
 
@@ -40,7 +38,7 @@ When a [Dynamics 365 Customer Voice](../customer-voice.md) survey is sent from a
     ![Choose the flow trigger](../media/populate-name-flow-trigger.png "Choose the flow trigger")
 
     > [!TIP]
-    > Ensure that you are connected to the same environment as the CDS org.
+    > Ensure that you are connected to the same environment as the Microsoft Dataverse org.
 
     Your flow should look like the image below:
 
@@ -80,7 +78,7 @@ When a [Dynamics 365 Customer Voice](../customer-voice.md) survey is sent from a
 
 ## Step 2: Export Dynamics 365 Customer Voice survey responses to Microsoft Excel
 
-The export to Excel feature uses CDS information to join and pull the contact record information for Marketing integration customers, making it available in Excel.
+The export to Excel feature uses Microsoft Dataverse information to join and pull the contact record information for Marketing integration customers, making it available in Excel.
 
 To export survey response data to Excel:
 

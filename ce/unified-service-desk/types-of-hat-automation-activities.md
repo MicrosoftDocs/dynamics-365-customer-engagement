@@ -1,15 +1,14 @@
 ---
 title: "Types of HAT automation activities in Unified Service Desk | MicrosoftDocs"
 description: "Learn about various automation activities that you can use to automate your hosted applications in Unified Service Desk."
+author: v-sailab
+ms.author: v-sailab
+manager: shujoshi
+ms.date: 08/23/2017
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-USD
-ms.date: 08/23/2017
-ms.service: 
-  - dynamics-365-customerservice
-ms.topic: article
-author: kabala123
-ms.author: kabala
-manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
@@ -18,6 +17,9 @@ search.app:
   - D365USD
 ---
 # Types of HAT automation activities in Unified Service Desk
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 There are various types of [!INCLUDE[pn_hosted_application_toolkit_hat](../includes/pn-hosted-application-toolkit-hat.md)] automation activities that you can use to automate your hosted applications. To view and use the [!INCLUDE[pn_hat](../includes/pn-hat.md)] automation activities, see [Use HAT automation activities](../unified-service-desk/use-hat-automation-activities.md).  
   
 <a name="AIF"></a>   
@@ -113,7 +115,7 @@ There are various types of [!INCLUDE[pn_hosted_application_toolkit_hat](../inclu
 >  To retrieve the credentials from a custom store, the developer needs to provide a class that implements the [Microsoft.Uii.AifServices.ISsoLookupService](https://docs.microsoft.com/dotnet/api/Microsoft.Uii.AifServices.ISsoLookupService) interface.  
   
  `HostApplication`  
- Hosts the UI of the application. It uses the **Application Hosting** configuration data specified while configuring the hosted control in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] on the Common Data Service platform server to determine the hosting mode. For more information about specifying the hosting mode for an application in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], see [Create and manage UII hosted applications](../unified-service-desk/create-manage-uii-hosted-applications.md).  
+ Hosts the UI of the application. It uses the **Application Hosting** configuration data specified while configuring the hosted control in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] on Microsoft Dataverse server to determine the hosting mode. For more information about specifying the hosting mode for an application in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], see [Create and manage UII hosted applications](../unified-service-desk/create-manage-uii-hosted-applications.md).  
   
 <a name="DDA"></a>   
 ## DDA activities  

@@ -1,16 +1,17 @@
 ---
-title: Enable users for Omnichannel and assign roles | MicrosoftDocs
+title: Enable users for Omnichannel for Customer Service and assign roles | MicrosoftDocs
 description: Know how to enable users for Omnichannel and assign roles in the Omnichannel for Customer Service
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-applies_to: 
 ms.date: 08/18/2020
-ms.service: dynamics-365-customerservice
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ---
 
 # Assign roles and enable users for Omnichannel for Customer Service
+
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
@@ -24,10 +25,14 @@ The Dynamics 365 users can access and perform different functions based on the r
 - **Omnichannel agent:** Required for performing agent tasks.
 - **Productivity tools user:** Required by users of Dynamics 365 Productivity Tools.
 - **Productivity tools administrator:** Required by administrator users of Dynamics 365 Productivity Tools.
+- **App Profile Manager Administrator:** Required for creating and assigning app profiles to users of Customer Service and Omnichannel for Customer Service.
+- **App Profile User:** Required by users of Customer Service and Omnichannel for Customer Service.
+
+For more information on the App Profile Manager Administrator and App Profile User roles, see [Roles and privileges associated with app profile manager](../../app-profile-manager/security-roles.md)
 
 Additionally, the **Customer Service Representative** role is required to work with the Case entity.
 
-Use the Microsoft 365 admin center to create user accounts for every user who needs access to Omnichannel for Customer Service. For more information, see [Create users in the Common Data Service platform and assign security roles](../../admin/create-users-assign-online-security-roles.md).
+Use the Microsoft 365 admin center to create user accounts for every user who needs access to Omnichannel for Customer Service. For more information, see [Create users and assign security roles](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles).
 
 ## Assign roles to users
 
@@ -91,6 +96,7 @@ Each role in Omnichannel for Customer Service can perform a set of actions based
 ### See also
 
 [Provision Omnichannel for Customer Service](omnichannel-provision-license.md)  
+[Roles and privileges associated with app profile manager](../../app-profile-manager/security-roles.md)  
 [Manage users in Omnichannel for Customer Service](users-user-profiles.md)  
 [Guide agents with scripts](agent-scripts.md)  
 [Automate tasks with macros](macros.md)  

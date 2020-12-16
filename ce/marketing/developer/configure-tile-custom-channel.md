@@ -1,22 +1,21 @@
 ---
-title: "Step 2: Configure the tile for custom channel (Dynamics 365 Marketing Developer Guide) | MicrosoftDocs"
+title: "Step 2: Configure the tile for custom channel (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Learn about how to configure a Tile for a custom channel in Dynamics 365 Marketing."
-ms.custom: 
 ms.date: 08/18/2018
-ms.service: crm-online
-ms.technology: 
-  - marketing
-ms.topic: conceptual
-ms.assetid: db4ef53d-8a48-4b27-899f-8f4c788bc43c
-author: KumarVivek
-ms.author: kvivek
-manager: amyla
+ms.service: dynamics-365-marketing
+ms.custom: 
+  - dyn365-marketing
+ms.topic: how-to
+author: alfergus
+ms.author: alfergus
+manager: shellyha
 search.audienceType: 
   - developer
 search.app: 
   - D365CE
   - D365Mktg
 ---
+
 # Step 2: Configure the tile for custom channel
 
 Custom channel is exposed as a “tile” in the customer journey designer. You define the tile using two files: an XML file and a CSS file.

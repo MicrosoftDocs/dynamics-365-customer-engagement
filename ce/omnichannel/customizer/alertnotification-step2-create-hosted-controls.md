@@ -1,15 +1,16 @@
 ---
 title: "Create Omnichannel Alert Notification hosted controls | MicrosoftDocs"
 description: "Learn how to create hosted control that can be used to show alert notification in Omnichannel for Customer Service."
-author: kabala123
-ms.author: kabala
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.date: 07/01/2019
-ms.service: 
-  - "dynamics-365-customerservice"
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ---
 # Step 2: Create Omnichannel Alert Notification hosted control
+
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
@@ -31,7 +32,7 @@ This topic describes how to create Omnichannel Alert Notification hosted control
 
 ## Create hosted control
 
-1. Sign in to Common Data Service platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Select the Down arrow next to Dynamics 365.
 

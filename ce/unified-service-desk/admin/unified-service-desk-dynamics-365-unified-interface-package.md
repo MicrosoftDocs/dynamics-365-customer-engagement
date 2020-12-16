@@ -1,11 +1,11 @@
 ---
 title: "Unified Service Desk  Unified Interface package | MicrosoftDocs"
 description: "Overview of the Unified Interface sample application."
+author: v-sailab
+ms.author: v-sailab
+manager: shujoshi
 ms.date: 08/17/2018
 ms.topic: article
-author: kabala123
-ms.author: kabala
-manager: shujoshi
 search.audienceType: 
   - admin
 search.app: 
@@ -14,10 +14,13 @@ search.app:
 ---
 
 # Unified Interface sample application package
-[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] is a desktop application that helps your customer service agents provide phone, email, and chat support to your customers. [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] provides a configurable framework to quickly build an Agent Desktop application that’s integrated with the Common Data Service platform. With [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] you can quickly make a customized Agent Desktop application by leveraging the User Interface Integration (UII) framework. 
+
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
+[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] is a desktop application that helps your customer service agents provide phone, email, and chat support to your customers. [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] provides a configurable framework to quickly build an Agent Desktop application that’s integrated with Microsoft Dataverse. With [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] you can quickly make a customized Agent Desktop application by leveraging the User Interface Integration (UII) framework. 
  This package is best used in the following situations:  
   
-- To demonstrate the rich set of customer service capabilities in the Common Data Service platform and simplify the customization of your agent desktop application.  
+- To demonstrate the rich set of customer service capabilities in Dataverse and simplify the customization of your agent desktop application.  
   
   With the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Unified Interface sample application package, the following components are installed:  
   
@@ -31,11 +34,11 @@ search.app:
 
 ::: moniker range=">=dynamics-usd-4"
 
-- Customizations for the Common Data Service platform Unified Interface package
+- Customizations for the Dataverse Unified Interface package
 
 ::: moniker-end 
 
-- Data required for the Common Data Service platform and customizations
+- Data required for Dataverse and customizations
   
 - The following sample hosted controls  
   

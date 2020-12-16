@@ -1,16 +1,15 @@
 ---
 title: "Recovering an Internet Explorer process instance in Unified Service Desk | MicrosoftDocs"
 description: "Learn about recovering an Internet Explorer process instance"
+author: v-sailab
+ms.author: v-sailab
+manager: shujoshi
+ms.date: 02/06/2018
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-USD
   - dyn365-admin
-ms.date: 02/06/2018
-ms.service: 
-  - dynamics-365-customerservice
-ms.topic: article
-author: kabala123
-ms.author: kabala
-manager: shujoshi
 search.audienceType: 
   - admin
 search.app: 
@@ -18,13 +17,16 @@ search.app:
   - D365USD
 ---
 # Recover an Internet Explorer process instance
+
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] can help agents to recover the terminated (crashed) webpages hosted in Internet Explorer process in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].
 
 By default, Internet Explorer process instance recovery is enabled. To disable the feature, a system administrator must configure the `IEWebPageRecovery` option on the **Active UII Options** page, and set it to **false**. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage a Unified Service Desk option](../admin/manage-options-unified-service-desk.md)
 
 ### Disable IEWebPageRecovery option
 
-1. Sign in to the Common Data Service platform.
+1. Sign in to Dynamics 365.
 
 2. Select the down arrow next to Dynamics 365.
 
@@ -100,7 +102,7 @@ If you set the value as 0 milliseconds, then the **IEWebPageInactivityTimeout** 
 
 To change the **IEWebPageInactivityTimeout** timeout value:
 
-1. Sign in to the Common Data Service platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Select the down arrow next to Dynamics 365.
 
@@ -142,7 +144,7 @@ After you end the Internet Explorer process instance, the [!INCLUDE[pn_unified_s
 
 To change the keyboard shortcut:
 
-1. Sign in to the Common Data Service platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Select the down arrow next to Dynamics 365.
 

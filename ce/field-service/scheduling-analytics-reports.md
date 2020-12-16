@@ -1,26 +1,18 @@
 ---
-title: "Resource scheduling and optimization analytics dashboard | MicrosoftDocs"
+title: "Resource scheduling and optimization analytics dashboard in Dynamics 365 Field Service | MicrosoftDocs"
+description: Learn about resource scheduling and optimization analytics dashboard in Dynamics 365 Field Service
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 03/20/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 author: FieldServiceDave
-ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
-caps.latest.revision: 42
 ms.author: daclar
 manager: shellyha
-search.audienceType: 
-  - admin
-  - customizer
 search.app: 
   - D365CE
   - D365FS
@@ -36,11 +28,11 @@ Resource and operations managers need to be able to monitor key operational metr
 
 By finding answers to these questions, scheduling managers can plan an effective resource scheduling strategy and provide better guidance to resources. Ultimately, a better strategy saves time and money, and allows for continuous improvement on customer experience. 
 
-Field Service and resource scheduling optimization (RSO) provide three reports focused on different scenarios and user personas:
+Field Service and resource scheduling optimization provide three reports focused on different scenarios and user personas:
 
 1. Resource and utilization, included with Field Service
-2. RSO admin, included with RSO
-3. Optimization summary, included with RSO
+2. Resource scheduling optimization admin, included with resource scheduling optimization
+3. Optimization summary, included with resource scheduling optimization
   
 
 In this article, we'll take a look at these three reports in greater detail. 
@@ -56,7 +48,7 @@ In this article, we'll take a look at these three reports in greater detail.
 
   1. Install or upgrade Field Service
   2. Install or upgrade the **Resource Scheduling Optimization** add-in
-  3. Both the RSO admin and the optimization summary reports will appear in the resource scheduling optimization app for users with **System Administrator** or **Field Service-Administrator** security roles. 
+  3. Both the resource scheduling optimization admin and the optimization summary reports will appear in the resource scheduling optimization app for users with **System Administrator** or **Field Service-Administrator** security roles. 
 
 
 ## Resource and utilization reports
@@ -103,13 +95,13 @@ Let's take a look at what each of these metrics are reporting.
 | Resource work time quartile analysis  |	Compares each resource's travel time to work time and ranks them into relative quartiles.  |
 | Resource metrics |	Shows the breakdown of KPIs for each resource, including number of bookings, utilization percentage, year over year percentage change in utilization, work time, travel time, break time, and idle time. Sort the resources by number of bookings, or by year, month, week, or day. | 
 
-## RSO admin reports
+## Resource scheduling optimization admin reports
 
-The RSO admin report analyzes when and how RSO runs, but not the actual booking results.
+The resource scheduling optimization admin report analyzes when and how resource scheduling optimization runs, but not the actual booking results.
 
 Go to the **Resource Scheduling Optimization** app and find **Reports** under the **Analytics** section. 
 
-To run the report, the RSO administrator needs to select one optimization schedule - for example, WA Schedule 1 - and select one or more optimization requests.  
+To run the report, the resource scheduling optimization administrator needs to select one optimization schedule - for example, WA Schedule 1 - and select one or more optimization requests.  
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the resource scheduling optimization admin report.](./media/scheduling-analytics-rso-admin.png)
@@ -173,7 +165,7 @@ By default, the tenant administrator will be able to view all the reports. With 
 
 The user will now be able to access the report.
 
-In order to share the resource and utilization reports, follow steps 1 through 5 in Field Service. Please note that you need to select resource and utilization reports in Field Service.
+In order to share the resource and utilization reports, follow steps 1 through 5 in Field Service. Note that you need to select resource and utilization reports in Field Service.
 
 
 ## Configuration considerations
@@ -185,7 +177,7 @@ In order to share the resource and utilization reports, follow steps 1 through 5
 
 - The reports explored in this article are all built on Microsoft Power BI.
 - **Travel Calculation**: All travel calculation is based on the miles. 
-- **SLA**: Data is refreshed every 24 hours. Reports will continue to be available during the refresh. If the reports are not refreshed within 24 hours, you can contact Microsoft Support. Please note that currently, we do not support the custom refresh schedule.
+- **SLA**: Data is refreshed every 24 hours. Reports will continue to be available during the refresh. If the reports are not refreshed within 24 hours, you can contact Microsoft Support. Note that currently, we do not support the custom refresh schedule.
 - **Data Refresh for Inactive environments**: If an organization has no active usage of the reports for continuous two weeks, the data refresh will be paused. When the user opens the reports, the data will get refreshed in the next refresh cycle.
 - Data is retained for 24 months. 
 - We do not support environment minimal copy operations that are available for a Sandbox environment. If you perform any of these operations, you may encounter unexpected results. 
@@ -224,7 +216,7 @@ In order to share the resource and utilization reports, follow steps 1 through 5
 
 | Error Message | Action |   
 | --- | --- |
-| Oops! No reports were found in CRM. You may not have access to these reports. Please contact your system administrator. | Contact your organization's system administrator to access the reports | 
+| Oops! No reports were found in CRM. You may not have access to these reports. Contact your system administrator. | Contact your organization's system administrator to access the reports | 
 | Oops! Internal service error, please contact your system administrator with Error Code: {numeric value}. | Contact Microsoft Support and create a support ticket |
 |Oops! There was a problem rendering the report. | Refresh the report. If it still doesn’t work, contact Microsoft Support and create a support ticket |
 |Oops! There was a problem rendering the report, please try again. | Refresh the report. If it still doesn’t work, contact Microsoft Support and create a support ticket |
@@ -243,4 +235,16 @@ In order to share the resource and utilization reports, follow steps 1 through 5
 | India | IND |
 | Great Britain |GBR |
 
+### Disabling custom actions 
 
+**msdyn_AnalyticsSaveDataInConfigStore custom action**
+
+Do not disable this custom action because insights and analytics features in Dynamics 365 will not function properly; the **msdyn_AnalyticsSaveDataInConfigStore custom action** is for internal use only. Contact Microsoft support if you have any questions.
+
+#### Parameters
+
+| Name | Type | Required | Description |
+|----------|----------|----------|---------|
+| Key | String  |Yes | For internal use only. |
+| Value | String | Yes | For internal use only. |
+| ConfigName | String | No | For internal use only. |

@@ -1,16 +1,15 @@
 ---
 title: "Performance enhancement for model-driven page loads | MicrosoftDocs"
 description: "Learn about the Internet Explorer pooling feature, which creates a dynamic pool of Internet Explorer process instances. The hosted control that you open uses an Internet Explorer instance from the pool to perform faster inline navigation."
+author: v-sailab
+ms.author: v-sailab
+manager: shujoshi
+ms.date: 07/24/2018
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-USD
   - dyn365-admin
-ms.date: 07/24/2018
-ms.service: 
-  - dynamics-365-customerservice
-ms.topic: article
-author: kabala123
-ms.author: kabala
-manager: shujoshi
 search.audienceType: 
   - admin
 search.app: 
@@ -19,6 +18,8 @@ search.app:
 ---
 
 # Performance enhancement for loading the model-driven app pages
+
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
 ::: moniker range="<=dynamics-usd-4"
 
@@ -51,7 +52,7 @@ The pooling feature is available for the following processes:
 
 By default, Internet Explorer pooling is disabled. To enable pooling, a System Administrator must configure the option on the **Active UII Options** page and set it to **true**.
 
-1. Sign in to the Common Data Service platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Select the down arrow next to Dynamics 365.
 
@@ -87,7 +88,7 @@ By default, Chrome Process pooling is enabled. To disable the pooling, a System 
 
 To disable Chrome Process pooling:
 
-1. Sign in to the Common Data Service platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Select the down arrow next to Dynamics 365.
 
@@ -113,7 +114,7 @@ If you want to skip the inline navigation for certain entities such as incident,
 
 To skip inline navigation for certain entities, a system Administrator must configure the option on the **Active UII Options** page and the entity names as the comma separated values (CSV).
 
-1. Sign in to the Common Data Service platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Select the down arrow next to Dynamics 365.
 
@@ -148,7 +149,7 @@ See [Add the BlockChromeProcessPooling UII option](#add-the-blockchromeprocesspo
 
 Use the **HideCommandBar** UII option if you want to hide the command bar for all the entities in the Chrome Process pooled instances.
 
-1. Sign in to the Common Data Service platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Select the down arrow next to Dynamics 365.
 
@@ -183,7 +184,7 @@ See [Add the BlockChromeProcessPooling UII option](#add-the-blockchromeprocesspo
 
 Use the **ShowNavBar** UII option if you want to show the nav bar for all the entities in the Chrome Process pooled instances.
 
-1. Sign in to the Common Data Service platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Select the down arrow next to Dynamics 365.
 
@@ -224,7 +225,7 @@ By default, second inline navigation is blocked when using Chrome Process. That 
 
 After the adding UII option, and if you set the value as **True**, then the option is enabled and blocks the second inline navigation.
 
-1. Sign in to the Common Data Service platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Select the down arrow next to Dynamics 365.
 

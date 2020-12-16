@@ -1,15 +1,14 @@
 ---
 title: "Add multi-language support for your agent applications | MicrosoftDocs"
 description: "Learn about adding multi-language support for your agent applications. The multi-language support is available for all the components except for those that are surfaced through Customer Care Accelerator, which doesn’t support multi-language scenarios. This includes the hosted control tab names."
+author: v-sailab
+ms.author: v-sailab
+manager: shujoshi
+ms.date: 12/31/2019
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-USD
-ms.date: 12/31/2019
-ms.service: 
-  - dynamics-365-customerservice
-ms.topic: article
-author: kabala123
-ms.author: kabala
-manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
@@ -18,6 +17,8 @@ search.app:
   - D365USD
 ---
 # Add and manage multi-language support (localized resources) for your agent applications
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
 [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] enables you to bundle in localized strings for your controls interface so that they appear in the language based on the locale settings of the user’s computer. The multi-language support is available for all the components except for those that are surfaced through [!INCLUDE[pn_customer_care_accelerator](../includes/pn-customer-care-accelerator.md)], which doesn’t support multi-language scenarios. This includes the hosted control tab names.  
 
@@ -41,9 +42,9 @@ Rest of the strings that is rendered by default on Unified Service Desk client a
   
 2. Save the file with the language identifier in the file name. For example, if you have Spanish resources, you can save the file with the name “TranslationResource.es.xml.”  
   
-3. Upload the file as a web resource to the Common Data Service platform. Name the web resource so that you can identify the language of the string resources in it.  
+3. Upload the file as a web resource to Microsoft Dataverse. Name the web resource so that you can identify the language of the string resources in it.  
   
-   1. Sign in to the Common Data Service platform.  
+   1. Sign in to the Dynamics 365 instance.  
   
    2. Go to **Settings** > **Customizations** ([How do I get there?](https://go.microsoft.com/fwlink/p/?LinkId=525636))  
   
@@ -77,7 +78,7 @@ Rest of the strings that is rendered by default on Unified Service Desk client a
    ![New language module](../unified-service-desk/media/usd-new-language-module.png "New language module")  
   
    > [!IMPORTANT]
-   >  If you use language services, you should always configure language services for your base the Common Data Service platform language. In this example, add an English language service as well. The base language translation file is always used if someone uses a language pack in the Common Data Service platform that doesn’t have a translation file in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] language services.  
+   >  If you use language services, you should always configure language services for your base Dataverse language. In this example, add an English language service as well. The base language translation file is always used if someone uses a language pack in Dataverse that doesn’t have a translation file in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] language services.  
   
 5. Select **Save**.  
   

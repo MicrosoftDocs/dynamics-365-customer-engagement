@@ -1,16 +1,15 @@
 ---
 title: "Migrate your Unified Service Desk  configuration to another instance | MicrosoftDocs"
 description: "Learn how to move a Unified Service Desk  configuration to another instance."
+author: v-sailab
+ms.author: v-sailab
+manager: shujoshi
+ms.date: 08/23/2017
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-USD
   - dyn365-admin
-ms.date: 08/23/2017
-ms.service: 
-  - dynamics-365-customerservice
-ms.topic: article
-author: kabala123
-ms.author: kabala
-manager: shujoshi
 search.audienceType: 
   - admin
 search.app: 
@@ -18,6 +17,9 @@ search.app:
   - D365USD
 ---
 # Migration of a Unified Service Desk configuration 
+
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 After you have completed the development or configuration of your agent application, you might want to migrate your latest [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration data from your development or testing environment to your production environment. Migrating your data involves exporting your existing configuration data from the source instance, and then importing it into the target instance.  
   
  To export your configuration data, you can use the [!INCLUDE[pn_configuration_migration_tool](../../includes/pn-configuration-migration-tool.md)] and the default [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration data schema file (USDDefaultSchema.xml). The default schema file contains information about all the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] entities, relationships, and uniqueness definitions for each entity. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Export Unified Service Desk configuration data](../../unified-service-desk/admin/export-unified-service-desk-configuration-data.md)  
@@ -38,7 +40,7 @@ After you have completed the development or configuration of your agent applicat
 > [!IMPORTANT]
 >  The [!INCLUDE[pn_configuration_migration_tool](../../includes/pn-configuration-migration-tool.md)] provides logging support to record detailed information about:  
 > 
-> - Errors that can occur while signing in to the Common Data Service platform instance using the tool.  
+> - Errors that can occur while signing in to the Dynamics 365 instance using the tool.  
 > - Activities performed by the tool during the schema definition and export and import of the configuration data.  
 > - Data that was imported using the tool.  
 > 

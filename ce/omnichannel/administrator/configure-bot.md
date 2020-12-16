@@ -5,12 +5,13 @@ author: lalexms
 ms.author: laalexan
 manager: shujoshi
 ms.date: 09/09/2020
-ms.service: 
-  "dynamics-365-customerservice"
 ms.topic: article
+ms.service: "dynamics-365-customerservice"
 ---
 
 # Integrate an Azure bot
+
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
@@ -24,7 +25,7 @@ When you integrate an Azure bot with Omnichannel for Customer Service, you get t
 
 - Seamlessly integrate your Azure bot with all channels without needing to add channel-specific code in the bot.
 - Transfer bot conversations to human agents, and include the full context of the conversation.
-- Analyze the bot transcript that's available in Common Data Service after the chat is completed.
+- Analyze the bot transcript that's available in Microsoft Dataverse after the chat is completed.
 - Configure routing rules to selectively route incoming requests to bots based on context, such as issue type or customer type. For example, you can route low-complexity issues to bots, or route the conversation to a sales or support bot based on the webpage browsing history of the customer.
 - Monitor the bot conversations in real time by using the supervisor dashboard, which includes details such as customer sentiment.
 - Use the historical dashboards to get insights into the effectiveness of the bots through metrics such as resolution rate, escalation rate, resolution time, escalation time, and average sentiment.
@@ -210,3 +211,4 @@ You understand that your data may be transmitted and shared with external system
 [Add a chat widget](add-chat-widget.md)<br>
 [Enable a bot to escalate and end conversation](../developer/bot-escalate-end-conversation.md)  
 [Context variables for a bot](context-variables-for-bot.md)  
+[Enable bot context NuGet package](../developer/how-to/enable-bot-context.md)  

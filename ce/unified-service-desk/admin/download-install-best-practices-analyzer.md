@@ -1,13 +1,12 @@
 ---
 title: "Download and Install Best Practices Analyzer | MicrosoftDocs"
 description: "Learn about downloading and installing the Best Practices Analyzer."
-ms.date: 04/05/2019
-ms.service: 
-  - "dynamics-365-customerservice"
-ms.topic: article
-author: kabala123
-ms.author: kabala
+author: v-sailab
+ms.author: v-sailab
 manager: shujoshi
+ms.date: 04/05/2019
+ms.topic: article
+ms.service: dynamics-365-customerservice
 search.audienceType: 
   - admin
 search.app: 

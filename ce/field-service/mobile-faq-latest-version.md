@@ -1,24 +1,15 @@
 ---
 title: "What is the latest version of the mobile app and related Woodford version? Dynamics 365 Field Service | MicrosoftDocs"
+description: Find help for the question, "What is the latest version of the mobile app and related Woodford version?"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 10/25/2018
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.technology: 
-  - field-service
-ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: troubleshooting
 author: FieldServiceDave
-ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
-caps.latest.revision: 42
 ms.author: daclar
 manager: shellyha
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
 search.app: 
   - D365CE
   - D365FS
@@ -26,8 +17,7 @@ search.app:
 
 # What version of Field Service Mobile am I using?
 
-
-To see your mobile app's version number, find the About menu item, and select it. You'll find the version number here.
+To see your mobile app's version number, find the about menu item, and select it. You'll find the version number here.
 
 > [!div class="mx-imgBorder"]
 >![Screenshot of the 11.1 app version](media/Mobile-FAQs-image2.png)

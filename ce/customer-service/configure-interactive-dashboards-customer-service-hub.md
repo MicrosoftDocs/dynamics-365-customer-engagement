@@ -6,8 +6,7 @@ ms.author: nenellim
 manager: shujoshi
 ms.date: 03/15/2018
 ms.topic: article
-ms.service: 
-  - dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-customerservice
 search.audienceType: 
@@ -20,6 +19,8 @@ search.app:
 ---
 
 # Configure interactive dashboards in the Customer Service Hub
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
 ## Dashboards overview
 
@@ -69,13 +70,13 @@ The interactive dashboards come in two flavors:
   
  ![Single stream dashboard layouts](../customer-service/media/interactive-dashboards-single-stream-layout.png "Single-stream dashboard layouts")  
   
-## Configure filter fields and security roles for the interactive dashboards  
+## Configure filter fields and security roles for the interactive dashboards
  When you configure interactive dashboards, your first task is to enable fields and security roles, so that interactive dashboards can be configured for them. Note, that interactive dashboards are now enabled for all entities and custom entities by default.
 
 To know more about how to enable custom entities, see [Enable custom entities in the Customer Service Hub](../customer-service/create-design-forms-customer-service-hub.md#enable-custom-entities-in-the-customer-service-hub).
 
 > [!NOTE]
-> All customization tasks for the Customer Service Hub must be done in the Common Data Service platform.
+> All customization tasks for the Customer Service Hub must be done in Microsoft Dataverse.
   
 ### Configure filter fields  
  For a field to appear in the global filter and to be included in the data stream sort, you must set two flags: 
@@ -87,7 +88,7 @@ Refer the screen below to see the two flags enabled in the **Case** entity for t
   
 ![Enable a field for global filter and sort](media/enable-filter-sort.png "Enable a field for global filter and sort")
 
-#### Configure the flag 'Appears in global filter in interactive experience'
+#### Configure the flag "Appears in global filter in interactive experience"
 
 1. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
   
@@ -110,7 +111,7 @@ The global filter flyout window is shown here:
 > [!TIP]
 >  When you configure a visual filter based on the fields like priority or status, a best practice is to also enable these fields (priority, status) to appear in the global filter.  
      
-#### Configure the flag 'Sortable in interactive experience dashboard'
+#### Configure the flag "Sortable in interactive experience dashboard"
 
 1. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
   

@@ -1,15 +1,14 @@
 ---
 title: "CTI Desktop Manager (Hosted Control) | MicrosoftDocs"
 description: "Learn about using the CTI Desktop Manager hosted control type to plug in a computer telephony integration (CTI) adapter into Unified Service Desk to handle screen popping, call routing, softphone control, and other CTI functionalities."
+author: v-sailab
+ms.author: v-sailab
+manager: shujoshi
+ms.date: 08/23/2017
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-USD
-ms.date: 08/23/2017
-ms.service: 
-  - dynamics-365-customerservice
-ms.topic: article
-author: kabala123
-ms.author: kabala
-manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
@@ -18,6 +17,9 @@ search.app:
   - D365USD
 ---
 # CTI Desktop Manager (Hosted Control)
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 Use the **CTI Desktop Manager** hosted control type to plug in a computer telephony integration (CTI) adapter into [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] to handle screen popping, call routing, softphone control, and other CTI functionalities.  
 
 <a name="Create"></a>   
@@ -138,7 +140,7 @@ Use the **CTI Desktop Manager** hosted control type to plug in a computer teleph
  This action takes the currently displayed URL, and sends it through the window navigation rules from the current hosted control as a popup.  
 
 ### RunScript  
- This action injects JavaScript into the main frame of the application. You should avoid using the Common Data Service platform client SDK calls with this action; instead, use the **RunXrmCommand** action.  
+ This action injects JavaScript into the main frame of the application. You should avoid using Microsoft Dataverse client SDK calls with this action; instead, use the **RunXrmCommand** action.  
 
 |Parameter|Description|  
 |---------------|-----------------|  
@@ -146,7 +148,7 @@ Use the **CTI Desktop Manager** hosted control type to plug in a computer teleph
 
 <a name="RunXrmCommand"></a>   
 ### RunXrmCommand  
- This action is used to inject the Common Data Service platform SDK JavaScript into the model-driven apps form.  
+ This action is used to inject Dataverse SDK JavaScript into the model-driven apps form.  
 
 |Parameter|Description|  
 |---------------|-----------------|  

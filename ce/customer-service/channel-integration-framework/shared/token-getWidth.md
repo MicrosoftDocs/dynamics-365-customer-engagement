@@ -1,6 +1,6 @@
 ## Syntax
 
-`Microsoft.CIFramework.getWidth(value).then(successCallback, errorCallback);`
+`Microsoft.CIFramework.getWidth().then(successCallback, errorCallback);`
 
 ## Parameters
 
