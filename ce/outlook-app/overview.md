@@ -1,7 +1,7 @@
 ---
 title: "Dynamics 365 App for Outlook Overview (Dynamics 365 apps) | MicrosoftDocs"
 ms.custom: 
-ms.date: 11/19/2020
+ms.date: 12/16/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -105,7 +105,7 @@ Here are some of the ways in which you can address this issue:
  **AlertInterval**=dword:00000000**
 
     Additional information on the registry keys can be found
-[here](https://docs.microsoft.com/en-us/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins#when-debugging-with-the-microsoft-edge-devtools-the-add-in-crashes-or-reloads).
+[When debugging with the Microsoft Edge DevTools, the add-in crashes or reloads](https://docs.microsoft.com/en-us/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins#when-debugging-with-the-microsoft-edge-devtools-the-add-in-crashes-or-reloads).
 
     If the registry key doesn't work, one of the below are the only solutions for the add-in error.
 
