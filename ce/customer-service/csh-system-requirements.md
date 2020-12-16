@@ -22,6 +22,10 @@ The following browsers are supported:
 - Apple Safari 11
 - Internet Explorer 11
 
+> [!NOTE]
+> Internet Explorer 11 is deprecated. We recommend that you use Microsoft Edge. More information: [Deprecation announcement](deprecations-customer-service.md#internetexplorer11).
+
+
 The following mobile devices and operating systems are supported:
 
 - **iOS 10:** Tablet and phone

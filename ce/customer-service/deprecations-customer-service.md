@@ -28,7 +28,7 @@ Administrators and IT professionals can use this information to prepare for futu
 >
 > "Deprecated" means we intend to remove the feature or capability in a major future release. The feature or capability will continue to work and is fully supported until it is officially removed. This deprecation notification might span a few years. After removal, the feature or capability will no longer work. We are notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.
 
-## Internet Explorer 11 support for Dynamics 365 and Microsoft Power Platform is deprecated
+## Internet Explorer 11 support for Dynamics 365 and Microsoft Power Platform is deprecated <a name="internetexplorer11"></a>
 
 Effective December 2020, Microsoft Internet Explorer 11 support for Microsoft Dynamics 365 and Microsoft Power Platform is deprecated, and Internet Explorer 11 won’t be supported after August, 2021.
 
