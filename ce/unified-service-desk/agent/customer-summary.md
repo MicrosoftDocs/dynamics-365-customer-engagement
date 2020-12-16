@@ -37,7 +37,7 @@ Having this information ready can help support agents reduce the hold time that 
 The **Customer profile** section provides details about the customer, such as the name of the customer or account, job, title, relationship type, city, category, and preferred channel for engagement.
 
 > [!div class='mx-imgBorder']
-> ![Customer profile section in the customer summary form](../media/customer-summary-customer-form.PNG "Customer profile section of the Customer summary page")
+> ![Customer profile section in the customer summary form](../../customer-service/media/customer-summary-customer-form.PNG "Customer profile section of the Customer summary page")
 
 ## Conversation summary
 

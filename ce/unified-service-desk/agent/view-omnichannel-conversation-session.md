@@ -10,7 +10,7 @@ ms.service: dynamics-365-customerservice
 ---
 # View omnichannel conversations and omnichannel session in model-driven apps
 
-[!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 In your organization, some agents might work in a contact center that uses Omnichannel for Customer Service, whereas other agents work in a different contact center that uses Microsoft model-driven apps, such as Omnichannel for Customer Service app. In this case, if you're an agent who works in the ,model-driven 365 apps, and you must analyze a conversation request from Omnichannel for Customer Service, you can find the information through **activities** in model-driven apps.
 
@@ -31,7 +31,7 @@ The conversation form displays information about a conversation request.
 | Session details | <ul> <li>Subject</li> <li>Date created</li> </ul> |
 
 > [!div class=mx-imgBorder]
-> ![omnichannel conversation form](../../media/oc-crm-conversation-form.png "omnichannel conversation form")  
+> ![omnichannel conversation form](../../customer-service/media/oc-crm-conversation-form.png "omnichannel conversation form")  
 
 ### Session form
 
@@ -44,7 +44,7 @@ The omnichannel session displays information about a conversation request.
 | Notes   | <ul> <li>Notes</li> </ul> |
 
 > [!div class=mx-imgBorder]
-> ![omnichannel session form](../../media/oc-crm-omni-channel-session-form.png "Omnichannel session form") 
+> ![omnichannel session form](../../customer-service/media/oc-crm-omni-channel-session-form.png "Omnichannel session form") 
 
 > [!div class="nextstepaction"]
 > [Next topic: View customer summary for an incoming conversation request](view-customer-summary-incoming-conversation-request.md)

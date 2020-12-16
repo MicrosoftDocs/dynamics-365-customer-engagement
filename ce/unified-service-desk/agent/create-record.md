@@ -32,7 +32,7 @@ If no records are linked to a conversation in Omnichannel for Customer Service, 
 3. Specify the details on the page, and then save your changes.
 
  > [!div class=mx-imgBorder]
- > ![Create record](../../customer-service/media/oc-usd-create-contact.png "Quick create record")
+ > ![Create record](../media/oc-usd-create-contact.png "Quick create record")
 
 > [!div class="nextstepaction"]
 > [Next topic: Search for records](search-record.md)
