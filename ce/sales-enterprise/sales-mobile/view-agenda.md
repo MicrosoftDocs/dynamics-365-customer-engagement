@@ -121,7 +121,7 @@ The connected record details are displayed in the Regarding section.
 
 **Notes**    
 
-The Notes section for a meeting can be used to add notes related to a meeting, such as minutes from the meeting. You can add, edit, and delete notes. More information: [Manage notes](sales-mobile/view-edit-add-note.md)
+The Notes section for a meeting can be used to add notes related to a meeting, such as minutes from the meeting. You can add, edit, and delete notes. More information: [Manage notes](view-edit-add-note.md)
 
 **Reminders** 
 
