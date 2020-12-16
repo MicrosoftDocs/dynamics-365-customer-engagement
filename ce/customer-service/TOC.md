@@ -1,6 +1,14 @@
 # [Dynamics 365 Customer Service](help-hub.md)
 ## [Introduction](overview.md)
 ## [Release plans](whats-new-customer-service.md)
+## [Learning Catalog](learning-catalog.md)
+### [Business Decision Maker](learning-bdm.md)
+### [Business User](learning-bus-user.md)
+### [Implementation Project Manager](learning-project-manager.md)
+### [Administrator](learning-administrator.md)
+### [Developer](learning-developer.md)
+### [Functional Consultant](learning-functional-consultant.md)
+### [Partner Sales and Marketing](learning-sales.md)
 
 ## System requirements
 ### [System requirements for Customer Service](csh-system-requirements.md)
@@ -17,7 +25,6 @@
 
 ## Installation and upgrade
 ### [Install Customer Service](availability-customer-service-hub.md)
-### [Upgrade Customer Service](upgrade-ish-csh.md)
 ### Install Omnichannel for Customer Service
 #### [Provision Omnichannel for Customer Service](omnichannel-provision-license.md)
 #### [Export and import Omnichannel for Customer Service](export-import-omnichannel-data.md)
@@ -59,6 +66,8 @@
 ##### [Set up routing and assignment rules](routing-rules.md)
 ##### [Associate templates with work streams](associate-templates.md)
 #### [Set up routing for Omnichannel for Customer Service Conversations](understand-omnichannel-customer-service-hub.md)
+#### [Show customers their position in a queue](show-queue.md)
+#### [Show customers their average wait time in a queue](average-wait-time.md)
 ### Agent experience
 #### [Manage case queues and route cases](customer-service-hub-user-guide-case-queues-and-routing.md)
 #### [Work with queues](work-with-queues.md)
@@ -67,6 +76,7 @@
 ## Case management
 ### Administrator experience
 #### [Define parent and child cases](define-settings-parent-child-cases.md)
+### [Similar records suggestions](suggest-similar-cases-for-a-case.md)
 ### Agent experience
 #### [Create cases](customer-service-hub-user-guide-create-a-case.md)
 #### [Resolve, cancel, and reassign cases](customer-service-hub-user-guide-resolve-cancel-reassign-a-case.md)
@@ -173,6 +183,8 @@
 #### [Add a web resource for real-time translation](add-web-resource-real-time-translation.md)
 #### [Enable third-party co-browse](third-party-co-browse.md)
 #### [Live chat widget telemetry](live-chat-telemetry.md)
+#### [Configure relevance search for transcripts](relevance-search-chat-transcript.md)
+#### [Configure link to conversation button](configure-link-to-conversation-model-driven-app-form.md)
 
 ## Portals
 ### [Embed a chat widget in a portal](embed-chat-widget-portal.md)
@@ -245,6 +257,13 @@
 ### [Create message templates](create-message-templates.md)
 ### [Configure outbound messages](outbound-messaging.md)
 ### [Configure data masking](data-masking-settings.md)
+
+## Templates
+#### [Overview](templates-overview.md)
+#### [Manage session templates](../app-profile-manager/session-templates.md)
+#### [Manage application tab templates](../app-profile-manager/application-tab-templates.md)
+#### [Manage notification templates](../app-profile-manager/notification-templates.md)
+#### [Associate templates with workstreams](associate-templates.md)
 
 ## Power Virtual Agents bots
 ### [Integrate a Power Virtual Agents bot](configure-bot-virtual-agent.md)
