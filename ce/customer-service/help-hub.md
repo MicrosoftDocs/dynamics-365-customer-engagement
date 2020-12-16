@@ -130,12 +130,12 @@ ms.custom:
 <li><a href="https://docs.microsoft.com/dynamics365/omnichannel/faqs" data-raw-source="[Omnichannel for Customer Service FAQs](https://docs.microsoft.com/dynamics365/omnichannel/faqs)">Omnichannel for Customer Service FAQs</a></li>
 <li><a href="service-scheduling-faq.md" data-raw-source="[Service Scheduling FAQs](service-scheduling-faq.md)">Service Scheduling FAQ</a></li>
 
-     </ul>
+     
   </td>  
 
  <td><h2>Videos</h2>
 
-
+<ul>
  <li><a href="https://www.youtube.com/watch?v=cDN-gv0Yylg" data-raw-source="[Resolve open cases quickly with Customer Service Hub dashboards for Customer Engagement](https://www.youtube.com/watch?v=cDN-gv0Yylg)">Resolve open cases quickly with Customer Service Hub dashboards for Customer Engagement</a></li>
  <li><a href="https://www.youtube.com/watch?v=ruAPEKY5vNc" data-raw-source="[How to use the Reference panel in the Customer Service Hub](https://www.youtube.com/watch?v=ruAPEKY5vNc)">How to use the Reference panel in the Customer Service Hub</a></li>
  <li><a href="https://www.youtube.com/watch?v=Y_eV4HeIm04" data-raw-source="[Expertly manage your cases in the Customer Service Hub for Customer Engagement](https://www.youtube.com/watch?v=Y_eV4HeIm04)">Expertly manage your cases in the Customer Service Hub for Customer Engagement</a></li>
