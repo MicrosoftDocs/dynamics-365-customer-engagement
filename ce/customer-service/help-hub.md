@@ -40,23 +40,25 @@ ms.custom:
     
   <td><h2>Get started</h2>
   <ul>
-  <li><a href="https://docs.microsoft.com/learn/modules/get-started-with-dynamics-365-for-customer-service" data-raw-source="[Learn about Dynamics 365 Customer Service]https://docs.microsoft.com/learn/modules/get-started-with-dynamics-365-for-customer-service">Learn about Dynamics 365 Customer Service</a></li>
+  
   <li><a href="whats-new-customer-service.md" data-raw-source="[What's new in Dynamics 365 Customer Service]whats-new-customer-service.md">What's new in Dynamics 365 Customer Service</a></li>
 <li><a href="service-manager-guide.md" data-raw-source="[Configure Customer Service]service-manager-guide.md">Configure Customer Service</a></li>
-<li><a href="csw-overview.md" data-raw-source="[Use Customer Service workspace]csw-overvice.md">Use Customer Service workspace</a></li>
-<li><a href="introduction-omnichannel.md" data-raw-source="[Learn about Omnichannel for Customer Service]introduction-omnichannel.md">Learn about Omnichannel for Customer Service</a></li>
+<li><a href="csw-overview.md" data-raw-source="[Use Customer Service workspace]csw-overview.md">Use Customer Service workspace</a></li>
+
       
  
   </ul>
   </td>
   
   
-<td><h2>Manage</h2>
+<td><h2>Learn</h2>
    <ul>
 
-<li><a href="https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles" data-raw-source="[Create users and assign security roles]https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles">Create users and assign security roles</a></li>
-  <li><a href="customer-service-hub-user-guide-create-a-case.md" data-raw-source="[Create cases](customer-service-hub-user-guide-create-a-case.md)">Create cases</a></li>
- </li> 
+  <li><a href="https://docs.microsoft.com/learn/modules/introduction-dynamics-365-customer-service" data-raw-source="[Introduction to Dynamics 365 Customer Service]https://docs.microsoft.com/learn/modules/introduction-dynamics-365-customer-service">Introduction to Dynamics 365 Customer Service</a></li>
+  <li><a href="https://docs.microsoft.com/learn/modules/get-started-with-dynamics-365-for-customer-service" data-raw-source="[Get started with Dynamics 365 Customer Service]https://docs.microsoft.com/learn/modules/get-started-with-dynamics-365-for-customer-service">Get started with Dynamics 365 Customer Service</a></li>
+  <li><a href="https://docs.microsoft.com/learn/modules/getting-started-omnichannel" data-raw-source="[Getting started with Omnichannel for Customer Service]https://docs.microsoft.com/learn/modules/getting-started-omnichannel">Getting started with Omnichannel for Customer Service</a></li>
+ <li><a href="https://docs.microsoft.com/learn/modules/work-distribution-omnichannel" data-raw-source="[Routing and work distribution in Omnichannel for Dynamics 365 Customer Service]https://docs.microsoft.com/learn/modules/work-distribution-omnichannel">Routing and work distribution in Omnichannel for Dynamics 365 Customer Service</a></li>
+ 
   </ul>
   </td>
 </tr>    
@@ -110,7 +112,7 @@ ms.custom:
 
  <td><h2>Extend Customer Service</h2>
 <ul>
-<li><a href="..developer/omnichannel-developer.md" data-raw-source="[Developer overview](..developer/omnichannel-developer.md)">Developer overview</a></li>
+<li><a href="developer/omnichannel-developer.md" data-raw-source="[Developer overview](developer/omnichannel-developer.md)">Developer overview</a></li>
   <li><a href="customize-chat-widget.md" data-raw-source="[Customize a chat widget](customize-chat-widget.md)">Customize a chat widget</a></li>
      
   </li> 
@@ -124,11 +126,10 @@ ms.custom:
   <li><a href="troubleshoot-sla-timer-issue.md" data-raw-source="[SLA timer does not pause when its state is changed from InProgress to OnHold on a holiday](troubleshoot-sla-timer-issue.md)">SLA timer does not pause when its state is changed from InProgress to OnHold on a holiday</a>
 </li>
   <li><a href="troubleshoot-delete-managed-solution.md" data-raw-source="[Unable to delete a managed solution consisting an SLA enabled entity](troubleshoot-delete-managed-solution.md)">Unable to delete a managed solution consisting of an SLA-enabled entity</a></li>
-  <li><a href="email-faqs.md" data-raw-source="[Email FAQs](email-faqs.md)">Email FAQs</a></li>
 <li><a href="migrate-tool-faqs.md" data-raw-source="[Migration Tool FAQs](migrate-tool-faqs.md)">Migration Tool FAQs</a></li>
 <li><a href="https://docs.microsoft.com/dynamics365/omnichannel/faqs" data-raw-source="[Omnichannel for Customer Service FAQs](https://docs.microsoft.com/dynamics365/omnichannel/faqs)">Omnichannel for Customer Service FAQs</a></li>
 <li><a href="service-scheduling-faq.md" data-raw-source="[Service Scheduling FAQs](service-scheduling-faq.md)">Service Scheduling FAQ</a></li>
-<li><a href="timeline-faqs.md" data-raw-source="[Timeline FAQs](timeline-faqs.md)">Timeline FAQs</a></li>
+
      </ul>
   </td>  
 
@@ -136,9 +137,11 @@ ms.custom:
 
 <ul>
 
- <li><a href="https://www.youtube.com/watch?v=cDN-gv0Yylg" data-raw-source="[Resolve open cases fast with Customer Service Hub dashboards for Customer Engagement](https://www.youtube.com/watch?v=cDN-gv0Yylg)">Resolve open cases fast with Customer Service Hub dashboards for Customer Engagement</a></li>
+ <li><a href="https://www.youtube.com/watch?v=cDN-gv0Yylg" data-raw-source="[Resolve open cases quickly with Customer Service Hub dashboards for Customer Engagement](https://www.youtube.com/watch?v=cDN-gv0Yylg)">Resolve open cases quickly with Customer Service Hub dashboards for Customer Engagement</a></li>
  <li><a href="https://www.youtube.com/watch?v=ruAPEKY5vNc" data-raw-source="[How to use the Reference panel in the Customer Service Hub](https://www.youtube.com/watch?v=ruAPEKY5vNc)">How to use the Reference panel in the Customer Service Hub</a></li>
  <li><a href="https://www.youtube.com/watch?v=Y_eV4HeIm04" data-raw-source="[Expertly manage your cases in the Customer Service Hub for Customer Engagement](https://www.youtube.com/watch?v=Y_eV4HeIm04)">Expertly manage your cases in the Customer Service Hub for Customer Engagement</a></li>
+ <li><a href="https://www.youtube.com/watch?v=Y_eV4HeIm04" data-raw-source="[Introduction to Omnichannel for Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2097511)">Introduction to Omnichannel for Customer Service</a></li>
+ <li><a href="https://go.microsoft.com/fwlink/p/?linkid=2114715" data-raw-source="[Try channels in Omnichannel for Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2114715)">Try channels in Omnichannel for Customer Service</a></li> 
 </ul>
 </td>
 
