@@ -110,7 +110,7 @@ ms.custom:
 
  <td><h2>Extend Customer Service</h2>
 <ul>
-<li><a href="...developer\omnichannel-developer.md" data-raw-source="[Developer overview](...developer\omnichannel-developer.md)">Developer overview</a></li>
+<li><a href="..developer\omnichannel-developer.md" data-raw-source="[Developer overview](..developer\omnichannel-developer.md)">Developer overview</a></li>
   <li><a href="customize-chat-widget.md" data-raw-source="[Customize a chat widget](customize-chat-widget.md)">Customize a chat widget</a></li>
      
   </li> 
