@@ -35,13 +35,13 @@ The Meetings section of the home page shows important information about the last
 
 ## Recent contacts
 
-The Recent contact section of the home page shows a few contacts you have recently accessed through the web or mobile app. You can tap a contact to views its details or tap  **Recent contacts** to open an extended list of recent contacts. More information: [Manage contacts](create-contact.md)<!-- Edit note: In this screenshot and others, you should change "no roof cars" to "convertible cars." -->
+The Recent contact section of the home page shows a few contacts you have recently accessed through the web or mobile app. You can tap a contact to views its details or tap  **Recent contacts** to open an extended list of recent contacts. More information: [Manage contacts](create-contact.md).
 
 ![Recent contacts displayed on the home screen](media/sm-contacts-home.png "Recent contacts displayed on the home screen")
 
 ## Recent records
 
-The Recent records section of the home page shows a few recent records you recently accessed through the web or mobile app, such as an account or opportunity. You can tap a record to views its details or tap **Recent records** to view an extended list. More information: [Manage records or regarding entities](open-record.md)<!-- Edit note: In this screenshot and others, you should change "no roof cars" to "convertible cars." -->
+The Recent records section of the home page shows a few recent records you recently accessed through the web or mobile app, such as an account or opportunity. You can tap a record to views its details or tap **Recent records** to view an extended list. More information: [Manage records or regarding entities](open-record.md).
 
 ![Recent records displayed on the home page](media/sm-records-home.png "Recent records displayed on home page")
 
