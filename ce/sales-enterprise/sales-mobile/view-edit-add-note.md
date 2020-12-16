@@ -79,5 +79,5 @@ You can perform the following actions in the **Notes** section.
 
 ### See also
 
-[Learn the basics](sales-mobile/learn-basics-mobile-app.md)    
-[View meetings](sales-mobile/view-agenda.md)
+[Learn the basics](learn-basics-mobile-app.md)    
+[View meetings](view-agenda.md)
