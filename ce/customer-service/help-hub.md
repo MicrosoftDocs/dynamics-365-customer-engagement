@@ -79,7 +79,7 @@ ms.custom:
   </td>
   
 
- <td><h2>Configure and Use Email and Timeline</h2>
+ <td><h2>Email and Timeline</h2>
    <ul>
   <li><a href="customer-service-hub-user-guide-email-admin.md" data-raw-source="[Configure email](customer-service-hub-user-guide-email-admin.md)">Configure email</a></li>
    <li><a href="customer-service-hub-user-guide-email-overview.md" data-raw-source="[Use email](customer-service-hub-user-guide-email-overview.md)">Use email</a></li>
@@ -91,16 +91,32 @@ ms.custom:
   </td>
 </tr> 
 
- 
-</ul>
-</td>
+ </ul>
+  </td>
+  
 
+ <td><h2>Knowledge Management</h2>
+   <ul>
+  <li><a href="customer-service-hub-user-guide-knowledge-article.md" data-raw-source="[Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)">Create and manage knowledge articles</a></li>
+   <li><a href="search-knowledge-articles-csh" data-raw-source="[Search for knowledge articles](search-knowledge-articles-csh.md)">Search for knowledge articles</a></li>
+   <li><a href="set-up-knowledge-management-embedded-knowledge-search.md" data-raw-source="[Configure knowledge management](set-up-knowledge-management-embedded-knowledge-search.md)">Configure knowledge management</a></li>
+   <li><a href="knowledge-base-search-methods.md" data-raw-source="[Learn about knowledge base search mechanisms](knowledge-base-search-methods.md)">Learn about knowledge base search mechanisms</a></li>
+     
+  </ul>
+  </td>
+  
 
-
-  </ul>  </td>
-</tr>
-
-
+ <td><h2>Chat</h2>
+   <ul>
+  <li><a href="set-up-chat-widget.md" data-raw-source="[Configure a chat channel](set-up-chat-widget.md)">Configure a chat channel</a></li>
+   <li><a href="add-chat-widget.md" data-raw-source="[Add a chat widget](add-chat-widget.md)">Add a chat widget</a></li>
+   <li><a href="download-email-chat-transcripts.md" data-raw-source="[Download and email chat transcripts](download-email-chat-transcripts.md)">Download and email chat transcripts</a></li>
+   <li><a href="embed-chat-widget-portal.md" data-raw-source="[Embed a chat widget in a web portal](embed-chat-widget-portal.md)">Embed a chat widget in a web portal</a></li>
+  
+   
+  </ul>
+  </td>
+</tr> 
 
 
 </td>
