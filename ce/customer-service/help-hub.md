@@ -14,24 +14,21 @@ ms.custom:
 # Help resources for Customer Service
 
 
-<div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/6e415bd9-49b7-4416-b744-70278d9fa077" frameborder="0" allowfullscreen=""></iframe></div>
+<div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/RE41po2?maskLevel=0" frameborder="0" allowfullscreen=""></iframe></div>
 
 <table>
 <tr>
-<td><h2>System Requirements and Set Up</h2>
+<td><h2>System requirements</h2>
   <ul>
 <li><a href="csh-system-requirements.md" data-raw-source="[System requirements for Customer Service](csh-system-requirements.md)">System requirements for Customer Service</a></li>
   <li><a href="customer-service-workspace-system-requirements.md" data-raw-source="[System requirements for Customer Service workspace](customer-service-workspace-system-requirements.md)">System requirements for Customer Service workspace</a></li>
-  <li><a href="system-requirements-omnichannel.md" data-raw-source="[System requirements for Omnichannel for Customer Service](system-requirements-omnichannel.md)">System requirements for Omnichannel for Customer Service</a></li>
-  <li><a href="availability-customer-service-hub.md" data-raw-source="[Install Customer Service](availability-customer-service-hub.md)">Install Customer Service</a></li>
-  <li><a href="omnichannel-provision-license.md" data-raw-source="[Install Omnichannel for Customer Service](aomnichannel-provision-license.md)">Install Omnichannel for Customer Service</a></li>
-      
+  <li><a href="system-requirements-omnichannel.md" data-raw-source="[System requirements for Omnichannel for Customer Service](system-requirements-omnichannel.md)">System requirements for Omnichannel for Customer Service</a></li>    
  
   </ul>
   </td>
   
   
-<td><h2>Accessibility and Privacy</h2>
+<td><h2>Accessibility and privacy</h2>
   <ul>
   <li><a href="https://docs.microsoft.com/dynamics365/get-started/accessibility/customer-engagement/accessibility" data-raw-source="[Accessibility in Dynamics 365 Customer Service]https://docs.microsoft.com/dynamics365/get-started/accessibility/customer-engagement/accessibility">Accessibility in Dynamics 365 Customer Service</a></li>
 <li><a href="https://docs.microsoft.com/dynamics365/get-started/gdpr/" data-raw-source="[Privacy and personal data in Customer Service]https://docs.microsoft.com/dynamics365/get-started/gdpr/">Privacy and personal data in Customer Service</a></li>
@@ -41,13 +38,11 @@ ms.custom:
   </td>
 </tr>    
     
-  <td><h2>Get Started</h2>
+  <td><h2>Get started</h2>
   <ul>
   <li><a href="https://docs.microsoft.com/learn/modules/get-started-with-dynamics-365-for-customer-service" data-raw-source="[Learn about Dynamics 365 Customer Service]https://docs.microsoft.com/learn/modules/get-started-with-dynamics-365-for-customer-service">Learn about Dynamics 365 Customer Service</a></li>
-   <li><a href="whats-new-customer-service.md" data-raw-source="[What's new in Dynamics 365 Customer Service]whats-new-customer-service.md">What's new in Dynamics 365 Customer Service</a></li>
+  <li><a href="whats-new-customer-service.md" data-raw-source="[What's new in Dynamics 365 Customer Service]whats-new-customer-service.md">What's new in Dynamics 365 Customer Service</a></li>
 <li><a href="service-manager-guide.md" data-raw-source="[Configure Customer Service]service-manager-guide.md">Configure Customer Service</a></li>
-<li><a href="customer-service-hub-user-guide-basics.md" data-raw-source="[Learn the basics of Customer Service Hub]customer-service-hub-user-guide-basics.md">Learn the basics of Customer Service Hub</a></li>
-<li><a href="customer-service-team-member.md" data-raw-source="[Use Customer Service Team Member]customer-service-team-member.md">Use Customer Service Team Member</a></li>
 <li><a href="csw-overview.md" data-raw-source="[Use Customer Service workspace]csw-overvice.md">Use Customer Service workspace</a></li>
 <li><a href="introduction-omnichannel.md" data-raw-source="[Learn about Omnichannel for Customer Service]introduction-omnichannel.md">Learn about Omnichannel for Customer Service</a></li>
       
@@ -56,52 +51,36 @@ ms.custom:
   </td>
   
   
-<td><h2>Manage Queues, Users, and Cases</h2>
+<td><h2>Manage</h2>
    <ul>
-<li><a href="queues-omnichannel.md" data-raw-source="[Create and manage queues for cases]https://queues-omnichannel.md">Create and manage queues for cases</a></li>
+
 <li><a href="https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles" data-raw-source="[Create users and assign security roles]https://docs.microsoft.com/en-us/power-platform/admin/create-users-assign-online-security-roles">Create users and assign security roles</a></li>
-   <li><a href="users-user-profiles.md" data-raw-source="[Manage users](users-user-profiles.md)">Manage users</a></li>
-  <li><a href="define-settings-parent-child-cases.md" data-raw-source="Define case parameters](define-settings-parent-child-cases.md)">Define case parameters</a></li>
   <li><a href="customer-service-hub-user-guide-create-a-case.md" data-raw-source="[Create cases](customer-service-hub-user-guide-create-a-case.md)">Create cases</a></li>
  </li> 
   </ul>
   </td>
 </tr>    
     
-  <td><h2>Service-level Agreements and Schedules</h2>
-   <ul>
-  <li><a href="define-service-level-agreements.md" data-raw-source="[Define service-level agreements](define-service-level-agreements.md)">Define service level agreements</a></li>
-   <li><a href="customer-service-hub-user-guide-case-sla.md" data-raw-source="[Manage case SLAs](customer-service-hub-user-guide-case-sla.md)">Manage case SLAs</a></li>
-   <li><a href="create-customer-service-schedule-define-work-hours.md" data-raw-source="[Create service schedules and define work hours](create-customer-service-schedule-define-work-hours.md)">Create service schedules and define work hours</a></li>
-  
-    
-  </ul>
-  </td>
-  
-
- <td><h2>Email and Timeline</h2>
-   <ul>
-  <li><a href="customer-service-hub-user-guide-email-admin.md" data-raw-source="[Configure email](customer-service-hub-user-guide-email-admin.md)">Configure email</a></li>
-   <li><a href="customer-service-hub-user-guide-email-overview.md" data-raw-source="[Use email](customer-service-hub-user-guide-email-overview.md)">Use email</a></li>
-   <li><a href="customer-service-hub-user-guide-timeline-admin.md" data-raw-source="[Configure timeline](customer-service-hub-user-guide-timeline-admin.md)">Configure timeline</a></li>
-   <li><a href="customer-service-hub-user-guide-timeline-overview.md" data-raw-source="[Use timeline](customer-service-hub-user-guide-timeline-overview.md)">Use timeline</a></li>
-   <li><a href="customer-service-hub-user-guide-manage-timeline-activities.md" data-raw-source="[Manage timeline activities](customer-service-hub-user-guide-manage-timeline-activities.md)">Manage timeline activities</a></li>
-   </li> 
-  </ul>
-  </td>
-</tr>    
-  
-
- <td><h2>Knowledge Management</h2>
+ <td><h2>Knowledge management</h2>
    <ul>
   <li><a href="customer-service-hub-user-guide-knowledge-article.md" data-raw-source="[Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)">Create and manage knowledge articles</a></li>
    <li><a href="search-knowledge-articles-csh" data-raw-source="[Search for knowledge articles](search-knowledge-articles-csh.md)">Search for knowledge articles</a></li>
    <li><a href="set-up-knowledge-management-embedded-knowledge-search.md" data-raw-source="[Configure knowledge management](set-up-knowledge-management-embedded-knowledge-search.md)">Configure knowledge management</a></li>
    <li><a href="knowledge-base-search-methods.md" data-raw-source="[Learn about knowledge base search mechanisms](knowledge-base-search-methods.md)">Learn about knowledge base search mechanisms</a></li>
-     
-  </ul>
+       </ul>
   </td>
   
+ <td><h2>Insights</h2>
+   <ul>
+  <li><a href="introduction-customer-service-analytics.md" data-raw-source="[Introduction to Customer Service Insights](introduction-customer-service-analytics.md)">Introduction to Customer Service Insights</a></li>
+   <li><a href="configure-customer-service-analytics-insights-csh" data-raw-source="[Configure Customer Service Insights](configure-customer-service-analytics-insights-csh.md)">Configure Customer Service Insights</a></li>
+   <li><a href="customer-service-analytics-insights-csh.md" data-raw-source="[Dashboards overview](customer-service-analytics-insights-csh.md)">Dashboards overview</a></li>
+   <li><a href="configure-interactive-dashboards-customer-service-hub.md" data-raw-source="[Configure dashboards](configure-interactive-dashboards-customer-service-hub.md)">Configure dashboards</a></li>
+     
+  </li> 
+  </ul>
+  </td>
+</tr>  
 
  <td><h2>Chat</h2>
    <ul>
@@ -109,27 +88,75 @@ ms.custom:
    <li><a href="add-chat-widget.md" data-raw-source="[Add a chat widget](add-chat-widget.md)">Add a chat widget</a></li>
    <li><a href="download-email-chat-transcripts.md" data-raw-source="[Download and email chat transcripts](download-email-chat-transcripts.md)">Download and email chat transcripts</a></li>
    <li><a href="embed-chat-widget-portal.md" data-raw-source="[Embed a chat widget in a web portal](embed-chat-widget-portal.md)">Embed a chat widget in a web portal</a></li>
-     </li> 
-  </ul>
-  </td>
-</tr>    
+     </ul>
+  </td>  
 
- <td><h2>Agent Productivity Tools</h2>
+ <td><h2>Agent productivity tools</h2>
    <ul>
   <li><a href="csw-productivity-pane.md" data-raw-source="[Productivity pane in Customer Service workspace](csw-productivity-pane.md)">Productivity pane in Customer Service workspace</a></li>
    <li><a href="productivity-pane.md" data-raw-source="[Productivity pane in Omnichannel for Customer Service](productivity-pane.md)">Productivity pane in Omnichannel for Customer Service</a></li>
    <li><a href="macros.md" data-raw-source="[Automate tasks with macros](macros.md)">Automate tasks with macros</a></li>
-   
-  </ul>
-  </td>
-  
- <td><h2>Channels</h2>
-   <ul>
-  <li><a href="channels.md" data-raw-source="[Learn about channels](channels.md)">Learn about channels</a></li>
+     
   </li> 
   </ul>
   </td>
-</tr>    
+</tr>  
+
+ <td><h2>Channels</h2>
+   <ul>
+  <li><a href="channels.md" data-raw-source="[Learn about channels](channels.md)">Learn about channels</a></li>
+     </ul>
+  </td>  
+
+ <td><h2>Extend Customer Service</h2>
+<ul>
+<li><a href="omnichannel-developer.md" data-raw-source="[Developer overview](omnichannel-developer.md)">Developer overview</a></li>
+  <li><a href="customize-chat-widget.md" data-raw-source="[Customize a chat widget](customize-chat-widget.md)">Customize a chat widget</a></li>
+     
+  </li> 
+  </ul>
+  </td>
+</tr>  
+
+ <td><h2>Troubleshoot and FAQs</h2>
+   <ul>
+  <li><a href="troubleshoot-case-email-issue.md" data-raw-source="[Issue converting an email to a case](troubleshoot-case-email-issue.md)">Issue converting an email to a case</a>
+  <li><a href="troubleshoot-sla-timer-issue.md" data-raw-source="[SLA timer does not pause when its state is changed from InProgress to OnHold on a holiday](troubleshoot-sla-timer-issue.md)">SLA timer does not pause when its state is changed from InProgress to OnHold on a holiday</a>
+</li>
+  <li><a href="troubleshoot-delete-managed-solution.md" data-raw-source="[Unable to delete a managed solution consisting an SLA enabled entity](troubleshoot-delete-managed-solution.md)">Unable to delete a managed solution consisting of an SLA-enabled entity</a></li>
+  <li><a href="email-faqs.md" data-raw-source="[Email FAQs](email-faqs.md)">Email FAQs</a></li>
+<li><a href="migrate-tool-faqs.md" data-raw-source="[Migration Tool FAQs](migrate-tool-faqs.md)">Migration Tool FAQs</a></li>
+<li><a href="https://docs.microsoft.com/dynamics365/omnichannel/faqs" data-raw-source="[Omnichannel for Customer Service FAQs](https://docs.microsoft.com/dynamics365/omnichannel/faqs)">Omnichannel for Customer Service FAQs</a></li>
+<li><a href="service-scheduling-faq.md" data-raw-source="[Service Scheduling FAQs](service-scheduling-faq.md)">Service Scheduling FAQ</a></li>
+<li><a href="timeline-faqs.md" data-raw-source="[Timeline FAQs](timeline-faqs.md)">Timeline FAQs</a></li>
+     </ul>
+  </td>  
+
+ <td><h2>Videos</h2>
+
+<ul>
+
+ <li><a href="https://www.youtube.com/watch?v=cDN-gv0Yylg" data-raw-source="[Resolve open cases fast with Customer Service Hub dashboards for Customer Engagement](https://www.youtube.com/watch?v=cDN-gv0Yylg)">Resolve open cases fast with Customer Service Hub dashboards for Customer Engagement</a></li>
+ <li><a href="https://www.youtube.com/watch?v=ruAPEKY5vNc" data-raw-source="[How to use the Reference panel in the Customer Service Hub](https://www.youtube.com/watch?v=ruAPEKY5vNc)">How to use the Reference panel in the Customer Service Hub</a></li>
+ <li><a href="https://www.youtube.com/watch?v=Y_eV4HeIm04" data-raw-source="[Expertly manage your cases in the Customer Service Hub for Customer Engagement](https://www.youtube.com/watch?v=Y_eV4HeIm04)">Expertly manage your cases in the Customer Service Hub for Customer Engagement</a></li>
+</ul>
+</td>
+
+
+<tr>
+<td><h2>Blogs</h2>
+<ul>
+<li><a href="https://blogs.msdn.microsoft.com/crm/2018/12/21/improve-knowledge-article-search-results-with-dynamics-365-relevance-search/" data-raw-source="[Improve Knowledge Article search results with Dynamics 365 Relevance Search](https://blogs.msdn.microsoft.com/crm/2018/12/21/improve-knowledge-article-search-results-with-dynamics-365-relevance-search/)">Improve Knowledge Article search results with Dynamics 365 Relevance Search</a></li>
+<li><a href="https://blogs.msdn.microsoft.com/crm/2018/11/22/get-started-with-dynamics-365-service-scheduling/" data-raw-source="[Get started with Dynamics 365 Customer Service Service Scheduling](https://blogs.msdn.microsoft.com/crm/2018/11/22/get-started-with-dynamics-365-service-scheduling/)">Get started with Dynamics 365 Customer Service Service Scheduling</a></li>
+</ul>
+</td>
+
+<td>
+  
+<h2>Related apps & framework</h2>
+
+<li><a href="https://docs.microsoft.com/dynamics365/unified-service-desk/unified-service-desk" data-raw-source="[Unified Service Desk Guide](https://docs.microsoft.com/dynamics365/unified-service-desk/unified-service-desk)">Unified Service Desk Guide</a></li>
+<li><a href="https://docs.microsoft.com/dynamics365/customer-service/channel-integration-framework/channel-integration-framework" data-raw-source="[Dynamics 365 Channel Integration Framework Guide](https://docs.microsoft.com/dynamics365/customer-service/channel-integration-framework/channel-integration-framework)">Dynamics 365 Channel Integration Framework Guide</a></li>
 
 
 </td>
