@@ -31,7 +31,7 @@ Agent scripts reduce the human errors involved in the process, because agents kn
 
 ## Prerequisites
 
-- Ensure that you have the **Productivity tools administrator** security role. To learn more, see [Assign roles and enable users](../omnichannel/administrator/add-users-assign-roles.md).
+- Ensure that you have the **Productivity tools administrator** security role. To learn more, see [Assign roles and enable users](../customer-service/add-users-assign-roles.md).
 
 - Ensure that agents and supervisors are assigned the **Productivity tools user** security role. To learn more, see Assign roles and enable users.
 
@@ -157,7 +157,7 @@ To learn more, see [Use the automation dictionary to pass data parameter keys](a
 
 ### See also
 
-[Agent scripts](../omnichannel/agent/agent-oc/oc-agent-scripts.md)  
+[Agent scripts](../customer-service/oc-agent-scripts.md)  
 [Macros](macros.md)  
 [Smart assist](smart-assist.md)  
 [Session templates](session-templates.md)  

@@ -132,7 +132,7 @@
 #### [Configure knowledge management](set-up-knowledge-management-embedded-knowledge-search.md)
 #### [Create and manage knowledge categories](create-manage-categories.md)
 ### Customize knowledge management
-#### [Knowledge base search mechanisms](knowledge-base-search-methods.md)
+#### [Knowledge base search](knowledge-base-search-methods.md)
 #### [Add the knowledge base search control to forms](add-knowledge-base-search-control-forms.md)
 
 ## Chat
@@ -144,20 +144,6 @@
 #### [Configure proactive chat](proactive-chat.md)
 #### [Configure reconnection to a previous chat session](configure-reconnect-chat.md)
 #### [Delete a channel instance](delete-channel.md)
-#### Configure advanced settings
-##### [Configure business hours](create-operating-hours.md)
-##### [Enable file attachments](enable-file-attachments.md)
-##### [Configure pre-conversation surveys](configure-pre-chat-survey.md)
-##### [Configure post-conversation surveys](configure-post-conversation-survey.md)
-##### [Automatically identify customers](record-identification-rule.md)
-##### [Configure chat authentication settings](create-chat-auth-settings.md)
-##### [Enable real-time translation of conversations](enable-real-time-translation.md)
-##### [Set up customer location detection](geo-location-provider.md)
-##### [Configure self-service settings for customer actions](enable-self-service-settings.md)
-##### [Configure automated messages](configure-automated-message.md)
-##### [Create message templates](create-message-templates.md)
-##### [Configure outbound messages](outbound-messaging.md)
-##### [Configure data masking](data-masking-settings.md)
 ### Agent experience
 #### [Omnichannel for Customer Service for agents](omnichannel-customer-service-app-agent.md)
 #### [Sign into the agent app](oc-sign-in-omnichannel.md)
@@ -191,28 +177,6 @@
 ## Portals
 ### [Embed a chat widget in a portal](embed-chat-widget-portal.md)
 
-## Agent productivity tools
-### Administrator experience
-#### [Productivity pane in Customer Service workspace](csw-productivity-pane.md)
-#### [Productivity pane Omnichannel for Customer Service](productivity-pane.md)
-##### [Enable productivity pane, smart assist](../app-profile-manager/app-profile-manager.md#enable-prod-pane)
-##### [Create macros](macros.md)
-##### [Guide agents with scripts](agent-scripts.md)
-##### [Use automation dictionary](automation-dictionary-keys.md)
-##### [Create quick replies](create-quick-replies.md)
-##### [Enable personal quick replies](enable-personal-quick-replies.md)
-##### [Enable sound notifications](enable-sound-notifications.md)
-##### [Enable missed notifications](manage-missed-notifications.md)
-##### [Enable auto-assignment of conversations](enable-auto-assign-conversations.md)
-##### [Enable sharing of knowledge articles](knowledge-management-oc.md)
-### Agent experience
-#### [View smart assist suggestions for knowledge articles and similar cases](oc-view-ai-suggested-cases-articles.md)
-#### [View smart assist suggestions for agents configured using custom Azure bot](oc-smart-assist.md)
-#### [Use agent scripts for customer interactions](oc-agent-scripts.md)
-### Developer experience
-#### [Build a smart assist bot](smart-assist-bot.md)
-#### [Implement custom scenario](smart-assist-scenario.md)
-
 ## Channels
 ### [Introduction to channels](channels.md)
 ### Administrator experience
@@ -245,12 +209,51 @@
 ### Troubleshoot channel issues
 #### [Troubleshoot channel issues](troubleshoot-omnichannel-customer-service.md)
 
-## Bot agents
+## Agent productivity tools
+### Administrator experience
+#### [Productivity pane in Customer Service workspace](csw-productivity-pane.md)
+#### [Productivity pane Omnichannel for Customer Service](productivity-pane.md)
+#### [Enable productivity pane and smart assist](../app-profile-manager/app-profile-manager.md#enable-prod-pane)
+#### [Create macros](../app-profile-manager/macros.md)
+#### [Guide agents with scripts](../app-profile-manager/agent-scripts.md)
+#### [Use automation dictionary](automation-dictionary-keys.md)
+#### [Create quick replies](create-quick-replies.md)
+#### [Enable personal quick replies](enable-personal-quick-replies.md)
+#### [Enable sound notifications](enable-sound-notifications.md)
+#### [Enable missed notifications](manage-missed-notifications.md)
+#### [Enable auto-assignment of conversations](enable-auto-assign-conversations.md)
+#### [Enable sharing of knowledge articles](knowledge-management-oc.md)
+### Agent experience
+#### [View smart assist suggestions for knowledge articles and similar cases](oc-view-ai-suggested-cases-articles.md)
+#### [View smart assist suggestions for agents configured using custom Azure bot](oc-smart-assist.md)
+#### [Use agent scripts for customer interactions](oc-agent-scripts.md)
+### Developer experience
+#### [Build a smart assist bot](smart-assist-bot.md)
+#### [Implement custom scenario](smart-assist-scenario.md)
+
+## Advanced settings for chat and channels
+### [Configure business hours](create-operating-hours.md)
+### [Enable file attachments](enable-file-attachments.md)
+### [Configure pre-conversation surveys](configure-pre-chat-survey.md)
+### [Configure post-conversation surveys](configure-post-conversation-survey.md)
+### [Automatically identify customers](record-identification-rule.md)
+### [Configure chat authentication settings](create-chat-auth-settings.md)
+### [Enable real-time translation of conversations](enable-real-time-translation.md)
+### [Set up customer location detection](geo-location-provider.md)
+### [Configure self-service settings for customer actions](enable-self-service-settings.md)
+### [Configure automated messages](configure-automated-message.md)
+### [Create message templates](create-message-templates.md)
+### [Configure outbound messages](outbound-messaging.md)
+### [Configure data masking](data-masking-settings.md)
+
+## Power Virtual Agents bots
+### [Integrate a Power Virtual Agents bot](configure-bot-virtual-agent.md)
+
+## Bots
 ### Administrator experience
 #### Configure bots
 ##### [Integrate an Azure bot](configure-bot.md)
-##### [Integrate a Power Virtual Agents bot](configure-bot-virtual-agent.md)
-##### [Configure context variables for bots](context-variables-for-bot.md)
+#### [Configure context variables for bots](context-variables-for-bot.md)
 ### Developer experience
 #### [Enable bot context NuGet package](enable-bot-context.md)
 #### [Enable a bot to escalate and end conversation](bot-escalate-end-conversation.md)
@@ -526,6 +529,9 @@
 ## FAQs on Customer Service
 ### [FAQs on AI suggestions for cases and knowledge articles](csw-faqs-ai-suggestions.md)
 ### [FAQs on Omnichannel for Customer Service](faqs.md)
+
+## App profile manager for Customer Service
+### [App profile manager overview](../app-profile-manager/overview.md)
 
 ## [Unified Service Desk Guide](https://docs.microsoft.com/dynamics365/unified-service-desk/unified-service-desk)
 

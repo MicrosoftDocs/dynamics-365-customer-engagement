@@ -1,6 +1,6 @@
 ---
-title: Overview of the productivity pane | Microsoft Docs
-description: Overview of the productivity pane in Dynamics 365 Customer Service workspace.
+title: Overview of productivity pane | MicrosoftDocs
+description: Overview of productivity pane in Dynamics 365 Customer Service workspace.
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
@@ -20,12 +20,14 @@ search.app:
 
 # Use the productivity pane to help resolve customer issues
 
-The productivity pane in the Customer Service workspace is an auxiliary work area that contains tools that support or expedite an agent's tasks when resolving customer issues.
+The productivity pane in the Customer Service workspace is an auxiliary work area that contains tools for supporting or expediting tasks when agents are resolving customer issues.
 
 Currently, the productivity pane includes controls to help agents quickly view and interact with relevant AI-generated knowledge articles and similar cases suggestions for the case they are working on, work with agent scripts and macros, and search for knowledge base articles.
 
+The productivity pane and the controls are enabled for agents through profiles that are managed in app profile manager. More information: [App profile manager](../app-profile-manager/app-profile-manager.md)
+
 > [!Important]
-> The productivity pane only displays information (for example, knowledge article and similar case suggestions) for the first tab (referred to as the anchor tab) of an active case session.
+> The productivity pane displays information (for example, knowledge article and similar case suggestions) for the first tab (referred to as the anchor tab) of an active case session.
 
 ![Productivity pane](media/csw-productivity-pane.png "View of the productivity pane")
 
@@ -41,7 +43,7 @@ The productivity pane has two modes: expanded and collapsed. Depending on which 
 
 ![Productivity pane collapsed view](media/csw-productivity-pane-collapsed-mode.png "View of the productivity pane mode in collapsed mode")
 
-Two things to keep in mind about the productivity pane modes: 
+Two things to keep in mind about the productivity pane modes:
 
 The productivity pane stays collapsed for entities that don't have productivity controls configured to use it. For example, if you open an account record, which typically doesn't have smart assist or knowledge enabled for it, or if agent scripts or macros aren't enabled by your administrator, the pane remains collapsed. 
 
@@ -53,16 +55,16 @@ Smart assist is an intelligent assistant that provides real-time recommendations
 
 Smart assist displays the relevant suggestions as individual cards that are grouped as either Knowledge article suggestions or Similar cases suggestions. For more information, see [View AI-suggested similar cases and knowledge articles](csw-view-ai-suggested-cases-knowledge-articles.md).
 
-## Agent scripts and macros 
+## Agent scripts and macros
 
 > [!Important]
-> - In the out-of-box Customer Service workspace application, you must first create a custom profile before you can enable agent scripts. Only the Smart assist and knowledge article search functions are available in the out-of-box experience. For information about creating custom profiles, see [Overview of app profile manager](https://docs.microsoft.com/dynamics365/app-profile-manager/overview).
+> - In the out-of-box Customer Service workspace application, you must first create a custom profile before you can enable agent scripts. Only the Smart assist and knowledge article search functions are available in the out-of-box experience. For information about creating custom profiles, see [Overview of app profile manager](../app-profile-manager/overview).
 
-Agent scripts in Customer Service workspace help provide guidance for what you should do when you have a customer issue, and helps ensure that you share only accurate and company-endorsed information. These scripts help you to be accurate and effective while also being faster and more efficient in terms of customer handling. For more information, see [Guide customer interaction with agent scripts](https://docs.microsoft.com/dynamics365/omnichannel/agent/agent-oc/oc-agent-scripts). For administrator information about configuring scripts, see [Guide agents with scripts](https://docs.microsoft.com/dynamics365/app-profile-manager/agent-scripts).
+Agent scripts in Customer Service workspace help provide guidance for what you should do when you have a customer issue, and helps ensure that you share only accurate and company-endorsed information. These scripts help you be accurate, effective, and efficient in customer handling. For more information, see [Guide customer interaction with agent scripts](oc-agent-scripts). For administrator information about configuring scripts, see [Guide agents with scripts](../app-profile-manager/agent-scripts).
 
-A macro is a set of instructions that tells the system how to complete a task. When a macro runs, the system performs each instruction. Macros in agent scripts show a title, instruction that system performs, and the macro icon. For administrator information about configuring macros, see [Automate tasks with macros](https://docs.microsoft.com/dynamics365/app-profile-manager/macros). 
+A macro is a set of instructions that tells the system how to complete a task. When a macro runs, the system performs each instruction. Macros in agent scripts show a title, instruction that system performs, and the macro icon. For administrator information about configuring macros, see [Automate tasks with macros](../app-profile-manager/macros). 
 
-## Knowledge article search 
+## Knowledge article search
 
 The knowledge base search lets you search for relevant knowledge articles to resolve a case. These articles are displayed based on relevance and full-text search mechanisms. For more information, see [Search for knowledge articles](search-knowledge-articles-csh.md). 
 
@@ -70,6 +72,6 @@ The knowledge base search lets you search for relevant knowledge articles to res
 
 [Customer Service workspace - overview](csw-overview.md) <br>
 [View AI-suggested similar cases and knowledge articles](csw-view-ai-suggested-cases-knowledge-articles.md) <br>
-[Guide customer interaction with agent scripts](https://docs.microsoft.com/dynamics365/omnichannel/agent/agent-oc/oc-agent-scripts) <br>
-[Automate tasks with macros](https://docs.microsoft.com/dynamics365/app-profile-manager/macros) <br>
+[Guide customer interaction with agent scripts](oc-agent-scripts) <br>
+[Automate tasks with macros](../app-profile-manager/macros) <br>
 [Search for knowledge articles](search-knowledge-articles-csh.md)
