@@ -105,7 +105,7 @@ Here are some of the ways in which you can address this issue:
  **AlertInterval**=dword:00000000**
 
     Additional information on the registry keys can be found
-[When debugging with the Microsoft Edge DevTools, the add-in crashes or reloads](https://docs.microsoft.com/en-us/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins#when-debugging-with-the-microsoft-edge-devtools-the-add-in-crashes-or-reloads).
+[When debugging with the Microsoft Edge DevTools, the add-in crashes or reloads](https://docs.microsoft.com/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins#when-debugging-with-the-microsoft-edge-devtools-the-add-in-crashes-or-reloads).
 
     If the registry key doesn't work, one of the below are the only solutions for the add-in error.
 
