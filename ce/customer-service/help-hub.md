@@ -54,7 +54,7 @@ ms.custom:
 <td><h2>Manage</h2>
    <ul>
 
-<li><a href="https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles" data-raw-source="[Create users and assign security roles]https://docs.microsoft.com/en-us/power-platform/admin/create-users-assign-online-security-roles">Create users and assign security roles</a></li>
+<li><a href="https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles" data-raw-source="[Create users and assign security roles]https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles">Create users and assign security roles</a></li>
   <li><a href="customer-service-hub-user-guide-create-a-case.md" data-raw-source="[Create cases](customer-service-hub-user-guide-create-a-case.md)">Create cases</a></li>
  </li> 
   </ul>
@@ -64,7 +64,7 @@ ms.custom:
  <td><h2>Knowledge management</h2>
    <ul>
   <li><a href="customer-service-hub-user-guide-knowledge-article.md" data-raw-source="[Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)">Create and manage knowledge articles</a></li>
-   <li><a href="search-knowledge-articles-csh" data-raw-source="[Search for knowledge articles](search-knowledge-articles-csh.md)">Search for knowledge articles</a></li>
+   <li><a href="search-knowledge-articles-csh.md" data-raw-source="[Search for knowledge articles](search-knowledge-articles-csh.md)">Search for knowledge articles</a></li>
    <li><a href="set-up-knowledge-management-embedded-knowledge-search.md" data-raw-source="[Configure knowledge management](set-up-knowledge-management-embedded-knowledge-search.md)">Configure knowledge management</a></li>
    <li><a href="knowledge-base-search-methods.md" data-raw-source="[Learn about knowledge base search mechanisms](knowledge-base-search-methods.md)">Learn about knowledge base search mechanisms</a></li>
        </ul>
@@ -73,7 +73,7 @@ ms.custom:
  <td><h2>Insights</h2>
    <ul>
   <li><a href="introduction-customer-service-analytics.md" data-raw-source="[Introduction to Customer Service Insights](introduction-customer-service-analytics.md)">Introduction to Customer Service Insights</a></li>
-   <li><a href="configure-customer-service-analytics-insights-csh" data-raw-source="[Configure Customer Service Insights](configure-customer-service-analytics-insights-csh.md)">Configure Customer Service Insights</a></li>
+   <li><a href="configure-customer-service-analytics-insights-csh.md" data-raw-source="[Configure Customer Service Insights](configure-customer-service-analytics-insights-csh.md)">Configure Customer Service Insights</a></li>
    <li><a href="customer-service-analytics-insights-csh.md" data-raw-source="[Dashboards overview](customer-service-analytics-insights-csh.md)">Dashboards overview</a></li>
    <li><a href="configure-interactive-dashboards-customer-service-hub.md" data-raw-source="[Configure dashboards](configure-interactive-dashboards-customer-service-hub.md)">Configure dashboards</a></li>
      
@@ -110,7 +110,7 @@ ms.custom:
 
  <td><h2>Extend Customer Service</h2>
 <ul>
-<li><a href="omnichannel-developer.md" data-raw-source="[Developer overview](omnichannel-developer.md)">Developer overview</a></li>
+<li><a href="...developer\omnichannel-developer.md" data-raw-source="[Developer overview](...developer\omnichannel-developer.md)">Developer overview</a></li>
   <li><a href="customize-chat-widget.md" data-raw-source="[Customize a chat widget](customize-chat-widget.md)">Customize a chat widget</a></li>
      
   </li> 
