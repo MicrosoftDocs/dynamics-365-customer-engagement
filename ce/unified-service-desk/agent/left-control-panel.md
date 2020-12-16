@@ -10,7 +10,7 @@ ms.service: dynamics-365-customerservice
 ---
 # View communication panel
 
-[!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 The communication or conversation panel shows the exchange of messages between you and the customer. The communication panel can hosts different channels.
 
@@ -44,7 +44,7 @@ In the conversation channel, you can see the following options:
  | Transfer         | View list to transfer the request | `/t` and `/tq` |
 
 > [!div class=mx-imgBorder]
-> ![omnichannel chat panel](../../media/oc-usd-chat-control-left-panel.png "Omnichannel chat panel")   
+> ![omnichannel chat panel](../media/oc-usd-chat-control-left-panel.png "Omnichannel chat panel")   
 
 > [!Note]
 > You cannot play mp4 video files in the communication panel. We recommend you to download the files to play the videos.
@@ -56,12 +56,12 @@ The communication panel allows you to send messages in two ways - **Internal** a
 When you want to send messages only to the internal participants like other agents and/or supervisors, then use the **Internal** option. The internal messages are not shown to the customers.
 
 > [!div class=mx-imgBorder]
-> ![Send messages to Send messages to internal participants](../../media/oc-usd-cc-internal-message.png "Send messages to internal participants")
+> ![Send messages to Send messages to internal participants](../media/oc-usd-cc-internal-message.png "Send messages to internal participants")
 
 When you want to send messages to all the participants in the conversation including the customer, then use the **Public** option.
 
 > [!div class=mx-imgBorder]
-> ![Send messages to public](../../media/oc-usd-cc-public-message.png "Send messages to public")
+> ![Send messages to public](../media/oc-usd-cc-public-message.png "Send messages to public")
 
 You can use keyboard commands to send internal and public messages:
 
@@ -76,7 +76,7 @@ When you type the keyboard command, the mode changes to as per the command. For 
 The communication panel provides you with the capability to send templatized messages to the customer with whom you're interacting. These templatized messages are stored as quick replies. Select the **Quick replies** button to retrieve the messages and send it to the customers.
 
 > [!div class=mx-imgBorder]
->![Omnichannel quick response](../../media/oc-usd-cc-quick-replies.png "Omnichannel quick response")
+>![Omnichannel quick response](../media/oc-usd-cc-quick-replies.png "Omnichannel quick response")
 
 You can use a keyboard command to see the list of quick replies. Type the forward slash (/) key and the letter q (**/q**). When you type **/q** the Quick replies fly-out is displayed.
 
@@ -85,7 +85,7 @@ You can use a keyboard command to see the list of quick replies. Type the forwar
 After you type **/q** in the communication panel messaging area, you can continue typing any keywords and if the **Quick replies** library has at least one message associated with the word, it is filtered and displayed to you.
 
  > [!div class=mx-imgBorder] 
- > ![Type /q and the keyword to filter the replies](../../media/oc-usd-send-quick-replies-filter.png "Filter replies") 
+ > ![Type /q and the keyword to filter the replies](../media/oc-usd-send-quick-replies-filter.png "Filter replies") 
 
 ## Search for and share knowledge articles
 
@@ -98,7 +98,7 @@ You can use a keyboard command to launch the knowledge article search control in
 The communication panel lets you to consult with other agents and/or supervisor using the consult option. You can invite the agent or supervisor by selecting the **Consult** button in the communication panel.
 
 > [!div class=mx-imgBorder]
->![Omnichannel consult](../../media/oc-usd-cc-consult.png "Omnichannel consult")  
+>![Omnichannel consult](../media/oc-usd-cc-consult.png "Omnichannel consult")  
 
 You can use a keyboard command to see the list of agents and/or the supervisor who is available for consultation. Press the Slash (/) key and the letter c (**/c**).
 
@@ -114,7 +114,7 @@ After you type **/c** in the communication panel messaging area, you can continu
 The communication panel allows you to transfer a conversation request. You can transfer the conversation (work item) either to an agent or a queue.
 
 > [!div class=mx-imgBorder]
->![Omnichannel transfer](../../media/oc-usd-cc-transfer.png "Omnichannel transfer")
+>![Omnichannel transfer](../media/oc-usd-cc-transfer.png "Omnichannel transfer")
 
 You can transfer a request only to agents who are configured in the same work stream and queue. If the request belongs to another queue and when you transfer the request, routing rules assign the conversation (work item) to the appropriate agent in the queue.
 
@@ -128,7 +128,7 @@ When skill-based routing is enabled, then during transfer, the **Transfer** flyo
 
 After you type **/t** or **/tq** in the communication panel messaging area, you can continue typing the name of the participant and if it is present, the agent or queues names are filtered and displayed to you.
 
-![Filter transfer queue list](../../media/oc-usd-cc-transfer-queue-filter.png "Filter transfer queue list")
+![Filter transfer queue list](../media/oc-usd-cc-transfer-queue-filter.png "Filter transfer queue list")
 
 > [!div class="nextstepaction"]
 > [Next topic: View call scripts, take notes, and search knowledge articles](right-control-panel.md)

@@ -11,7 +11,7 @@ ms.service: dynamics-365-customerservice
 
 # Understand conversation states in Omnichannel for Customer Service
 
-[!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 The topic explains the various states of the conversation (work item) in Omnichannel.
 
@@ -27,7 +27,7 @@ Types of conversation states:
 
  - [Closed](#closed) 
 
- ![Omnichannel conversation states](../../media/oc-conversation-state.png "Conversation states")
+ ![Omnichannel conversation states](../../customer-service/media/oc-conversation-state.png "Conversation states")
 
 ## Open
 
@@ -40,7 +40,7 @@ The conversation (work item) transitions from **Open** to **Active** or **Closed
 | Open          | Active           | When you pick the conversation from the **Open work items** stream.<br><br> When the routing and work distribution feature pushes (assigns) the conversation to you. | SMS, Chat, and Entity Record |
 | Open          | Closed           | When the customer disconnects or ends the chat before the conversation is assigned to you.| Chat |
 
-![Transition from open to active or closed state](../../media/oc-conversation-open.png "Open state")
+![Transition from open to active or closed state](../../customer-service/media/oc-conversation-open.png "Open state")
 
 ## Active
 
@@ -55,7 +55,7 @@ The conversation (work item) transitions from **Active** to **Closed**, **Open**
 | Active        | Waiting          | When you close the session (not ending the conversation by selecting the **End** button) while the conversation is active.<br><br> When the customer is disconnected from the conversation, and you're no longer getting reply, you can close the session without ending the conversation (this is applicable only for an SMS channel). This will keep conversation in waiting state. |   Chat and SMS |
 | Active | Closed | When you resolve the case (or get an entity record to non-active state) and close the session. | Entity Record |
 
-![Transition from active to closed, open, waiting, wrap-up, or in-progress state](../../media/oc-conversation-active.png "Active state")
+![Transition from active to closed, open, waiting, wrap-up, or in-progress state](../../customer-service/media/oc-conversation-active.png "Active state")
 
 ## Wrap-up
 
@@ -67,7 +67,7 @@ The conversation (work item) transitions from **Wrap-up** to **Closed** state un
 |---------------|------------------|---------------------------------------------------------|------------|
 | Wrap-up       | Closed           | When you select the **End** button in communication panel and close the session. | Chat and SMS |
 
-![Transition from wrap-up to closed state](../../media/oc-conversation-wrap-up.png "Wrap-up state")
+![Transition from wrap-up to closed state](../../customer-service/media/oc-conversation-wrap-up.png "Wrap-up state")
 
 ## Waiting
 
@@ -81,7 +81,7 @@ The conversation (work item) transitions from **Waiting** to **Closed**, **Activ
 | Waiting       | Active           | When you revive the session from your **My work items** stream on **Omnichannel Agent Dashboard**. | Chat and SMS |
 | Waiting       | Open             | When the customer revives the conversation within a specified timeout period while the session is still active in the browser. | Chat and SMS |
 
-![Transition from waiting to closed, active, or open state](../../media/oc-conversation-waiting.png "Waiting state")
+![Transition from waiting to closed, active, or open state](../../customer-service/media/oc-conversation-waiting.png "Waiting state")
 
 ## Closed
 
@@ -135,11 +135,11 @@ For chat and SMS channel, a conversation in the **Waiting** state is moved to th
 
 For example, set the **Auto-close after inactivity** as 5 minutes, and if the conversation is in **Waiting** state for more than 5 minutes, then the conversation is moved to the **Closed** state.
 
-To learn more, see [Create a work stream](../../administrator/work-streams-introduction.md#create-a-work-stream).
+To learn more, see [Create a work stream](../../customer-service/work-streams-introduction.md#create-a-work-stream).
 
 ### Set default time using APIs
 
-Programmatically, you can change the default time and set it as per your organization's requirements using the Web APIs. To learn more, see [Automatic closure of a conversation](../../developer/auto-close-conversation.md).
+Programmatically, you can change the default time and set it as per your organization's requirements using the Web APIs. To learn more, see [Automatic closure of a conversation](../../customer-service/auto-close-conversation.md).
 
 > [!div class="nextstepaction"]
 > [Next topic: View alert and toast notifications](notifications.md) 
@@ -148,4 +148,4 @@ Programmatically, you can change the default time and set it as per your organiz
 
 [View communication panel](left-control-panel.md)
 
-[Automatic closure of a conversation](../../developer/auto-close-conversation.md)
+[Automatic closure of a conversation](../../customer-service/auto-close-conversation.md)

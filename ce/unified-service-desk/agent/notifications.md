@@ -10,7 +10,7 @@ ms.service: dynamics-365-customerservice
 ---
 # View alert and toast notifications
 
-[!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 A notification is a visual alert you see as a dialog box each time you get a chat, or SMS conversation request from a customer. When you get a notification, you see the details of the customer with whom you are going to interact. When you accept the request, a session is started, and you can view the contextual information of the customer and case in the customer summary page.
 
@@ -41,7 +41,7 @@ There are two types of notifications:
 When a chat conversation request comes in, you receive a notification. When you accept the chat request, you’ll see a details about the customer in the Customer summary page. A simultaneous session starts, and the chat window is expanded in the left panel of Unified Service Desk so you can exchange messages with the customer.
 
  > [!div class=mx-imgBorder]
- > ![Incoming chat notification](../../media/oceh/chat-notification-request.png "Incoming chat notification")  
+ > ![Incoming chat notification](../../customer-service/media/chat-notification-request.png "Incoming chat notification")  
 
 The details you’ll see for a chat channel are:
 
@@ -58,7 +58,7 @@ You receive a notification for a SMS conversation request. When you accept the S
 Identification of a customer happens based on the **Mobile Phone** field present in the Contact record in Dynamics 365 Customer Service. That is, if the incoming SMS conversation is from a phone whose number is present in the mobile phone field of a Contact record, the conversation automatically links to the contact record.
 
  > [!div class=mx-imgBorder]
- > ![Incoming SMS notification](../../media/oceh/sms-notification-request.png "Incoming SMS notification") 
+ > ![Incoming SMS notification](../../customer-service/media/sms-notification-request.png "Incoming SMS notification") 
 
 The details you’ll see for a SMS channel are:
 
@@ -74,7 +74,7 @@ The details you’ll see for a SMS channel are:
 You receive a notification for a Facebook conversation request. When you accept the Facebook request, a session is started, and the communication panel appears where you can exchange messages with the customer.
 
 > [!div class=mx-imgBorder]
-> ![Facebook chat agent notification](../../media/fb-agent-notif.png "Facebook chat agent notification")
+> ![Facebook chat agent notification](../../customer-service/media/fb-agent-notif.png "Facebook chat agent notification")
 
 > [!div class="nextstepaction"]
 > [Next topic: View customer summary and know everything about customers](customer-summary.md)
@@ -85,7 +85,7 @@ There are two themes for the notification - Dark and Light. You'll see the theme
 
 **Dark** and **Light** theme 
 
-![Dark theme](../../media/oceh/chat-notification-request.png "Dark theme") ![Light theme](../../media/oceh/chat-notification-request-light.png "Light theme")
+![Dark theme](../../customer-service/media/chat-notification-request.png "Dark theme") ![Light theme](../../customer-service/media/chat-notification-request-light.png "Light theme")
 
 
 ## See also

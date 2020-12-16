@@ -10,7 +10,7 @@ ms.service: dynamics-365-customerservice
 ---
 # View agent dashboard and agent work items
 
-[!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 When you first sign in to Unified Service Desk, you see the **Omnichannel Agent Dashboard** page of Omnichannel for Customer Service. This page provides a multi-stream view of conversations. Here, you can view the conversations that you're actively working on, conversations that are available for you to pick from the queues and conversations that you've completed during the last 24 hours.
 
@@ -25,7 +25,7 @@ The **Omnichannel Agent Dashboard** page consists of the following stream:
  - Closed work items
 
 > [!div class=mx-imgBorder]
-> ![Omnichannel for Customer Service agent interface](../../media/oc-usd-agent-interface.png "Omnichannel for Customer Service agent interface")
+> ![Omnichannel for Customer Service agent interface](../media/oc-usd-agent-interface.png "Omnichannel for Customer Service agent interface")
 
 ## My work items
 

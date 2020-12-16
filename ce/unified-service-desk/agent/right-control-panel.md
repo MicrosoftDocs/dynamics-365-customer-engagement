@@ -10,7 +10,7 @@ ms.service: dynamics-365-customerservice
 ---
 # View call scripts, take notes, and search knowledge articles
 
-[!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 The right panel consists of agent scripts, notes, and knowledge management search controls.
 
@@ -19,7 +19,7 @@ The right panel consists of agent scripts, notes, and knowledge management searc
 The **Call script** section in the right panel provides guidance about what you should say during calls, or what you should type during chat conversations.
 
 > [!div class=mx-imgBorder]
-> ![Omnichannel call script](../../media/oc-usd-call-script.png "Omnichannel call script")  
+> ![Omnichannel call script](../media/oc-usd-call-script.png "Omnichannel call script")  
 
 ### Search for knowledge articles
 
@@ -30,7 +30,7 @@ Omnichannel for Customer Service lets you use the rich knowledge base (KB) from 
 You can search for a KB article and open it as a tab on the Application tab management toolbar. You can also use the **Send Link** button to share the link to a KB article with the customer that you're interacting with. When you select **Send Link**, the link is pasted into the chat window (conversation control).
 
 > [!div class=mx-imgBorder]
-> ![Omnichannel KB articles](../../media/oc-usd-kbartciles.png "Omnichannel KB articles")
+> ![Omnichannel KB articles](../media/oc-usd-kbartciles.png "Omnichannel KB articles")
 
 > [!div class="nextstepaction"]
 > [Next topic: View conversation and session forms in the model-driven apps](view-omnichannel-conversation-session.md)

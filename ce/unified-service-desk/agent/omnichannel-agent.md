@@ -10,7 +10,7 @@ ms.service: dynamics-365-customerservice
 ---
 # Agents using Omnichannel for Customer Service on Unified Service Desk
 
-[!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 ## Overview
 

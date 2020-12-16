@@ -11,7 +11,7 @@ ms.service: dynamics-365-customerservice
 
 # Create a record in Omnichannel for Customer Service
 
-[!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 If no records are linked to a conversation in Omnichannel for Customer Service, you can create a record by using the quick create option. To use this option, select the plus sign (**+**). After you create the record, the record is automatically linked to the conversation.
 
@@ -20,7 +20,7 @@ If no records are linked to a conversation in Omnichannel for Customer Service, 
 1. Select the plus sign (**+**) to create a record.
  
  > [!div class=mx-imgBorder]
- > ![Quick create record](../../media/quick-create-record.png "Quick create record")
+ > ![Quick create record](../../customer-service/media/quick-create-record.png "Quick create record")
 
 2. Select a record type from the list.<br>
     - Case
@@ -32,7 +32,7 @@ If no records are linked to a conversation in Omnichannel for Customer Service, 
 3. Specify the details on the page, and then save your changes.
 
  > [!div class=mx-imgBorder]
- > ![Create record](../../media/oc-usd-create-contact.png "Quick create record")
+ > ![Create record](../../customer-service/media/oc-usd-create-contact.png "Quick create record")
 
 > [!div class="nextstepaction"]
 > [Next topic: Search for records](search-record.md)

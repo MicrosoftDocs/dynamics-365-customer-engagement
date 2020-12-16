@@ -10,9 +10,9 @@ ms.service: dynamics-365-customerservice
 ---
 # Sign in to Unified Service Desk – Omnichannel for Customer Service
 
-[!INCLUDE[cc-data-platform-banner](../../../includes/cc-data-platform-banner.md)]
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
-[!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 1. Start the Unified Service Desk client by double-clicking the application shortcut on your desktop.
 
@@ -29,7 +29,7 @@ ms.service: dynamics-365-customerservice
      | Username | The username of the user (agent, supervisor, and administrator) signing in to Unified Service Desk | user1@onmicrosoft.com |
      | Password | The password associated with the username |  |
 
- ![login to Omnichannel for Customer Service](../../media/oc-usd-login.png "Login to Omnichannel for Customer Service")  
+ ![login to Omnichannel for Customer Service](../media/oc-usd-login.png "Login to Omnichannel for Customer Service")  
 
 3. If you have multiple organizations, select the organization you want to connect to.
 

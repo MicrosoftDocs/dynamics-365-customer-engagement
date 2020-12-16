@@ -11,9 +11,9 @@ ms.service: dynamics-365-customerservice
 
 # Introduction to the agent interface in Omnichannel for Customer Service
 
-[!INCLUDE[cc-data-platform-banner](../../../includes/cc-data-platform-banner.md)]
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
-[!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 When you sign in to Omnichannel for Customer Service through Unified Service Desk, the Omnichannel for Customer Service interface has the following components:
 
@@ -24,7 +24,7 @@ When you sign in to Omnichannel for Customer Service through Unified Service Des
  - Application management toolbar
 
  > [!div class=mx-imgBorder]
- >![Omnichannel for Customer Service agent interface](../../media/oc-usd-agent-interface.png "Omnichannel for Customer Service agent interface")  
+ >![Omnichannel for Customer Service agent interface](../media/oc-usd-agent-interface.png "Omnichannel for Customer Service agent interface")  
 
 ## Default global toolbar
 
@@ -39,7 +39,7 @@ The Omnichannel toolbar also called as default global toolbar as the components 
  - Presence
 
  > [!div class=mx-imgBorder]
- > ![Default global toolbar](../../media/oc-usd-global-toolbar.png "Default global toolbar")  
+ > ![Default global toolbar](../media/oc-usd-global-toolbar.png "Default global toolbar")  
 
 ### Search
 
@@ -56,7 +56,7 @@ The **Search** button lets you search for records and open them in a new active 
  - Task Email
  
  > [!div class=mx-imgBorder]
- > ![Omnichannel search](../../media/oc-usd-search.png "Omnichannel search")  
+ > ![Omnichannel search](../media/oc-usd-search.png "Omnichannel search")  
 
 ### Create
 
@@ -67,7 +67,7 @@ The **Create** button provides a list of related options (entities) so that you 
 The **Settings** menu has **Debugger** and **About** options. These options provide insight into code runs and Unified Service Desk, respectively. There is also an option that opens the Best Practices Analyzer.
 
  > [!div class=mx-imgBorder]
- > ![Omnichannel settings](../../media/oc-usd-settings.png "Omnichannel settings")  
+ > ![Omnichannel settings](../media/oc-usd-settings.png "Omnichannel settings")  
 
 #### Debugger
 
@@ -89,7 +89,7 @@ Presence status is updated in two ways:
 - **Manually** - You can change the status manually according to your availability.<br>Select on the presence text to view all the presence statuses and update your status manually. 
 
   > [!div class=mx-imgBorder]
-  > ![Omnichannel presence status](../../media/oc-usd-presence.png "Omnichannel presence status")
+  > ![Omnichannel presence status](../media/oc-usd-presence.png "Omnichannel presence status")
 
 Out of the box, you see the following presence statuses:
 
@@ -112,14 +112,14 @@ Also, you may see any other additional presence statuses that your administrator
 Each session in the Unified Service Desk client is shown on the session tab toolbar on the main page. You can identify a session by the session name that is shown on the tab. You can switch between sessions to handle cases without affecting key performance indicators (KPIs).
 
 > [!div class=mx-imgBorder]
-> ![Omnichannel session management toolbar](../../media/oc-usd-session-management-toolbar.png "Omnichannel session management toolbar")  
+> ![Omnichannel session management toolbar](../media/oc-usd-session-management-toolbar.png "Omnichannel session management toolbar")  
 
 ## Application management toolbar
 
 The application management toolbar lets you see all the related information for a session. For example, you can use this toolbar to open the **Omnichannel Agent Dashboard** page, search, use Customer summary, view a knowledge base (KB) article, or view case details. You can also switch between the application and session tab toolbars to effectively manage your sessions and related applications.
 
 > [!div class=mx-imgBorder]
-> ![Omnichannel application management toolbar](../../media/oc-usd-application-management-toolbar.png "Omnichannel application management toolbar") 
+> ![Omnichannel application management toolbar](../media/oc-usd-application-management-toolbar.png "Omnichannel application management toolbar") 
 
 > [!div class="nextstepaction"]
 > [Next topic: View agent dashboard and agent work items](introduction-agent-dashboard.md)
