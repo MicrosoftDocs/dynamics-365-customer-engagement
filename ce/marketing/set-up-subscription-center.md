@@ -1,7 +1,7 @@
 ---
 title: "Set up a subscription center (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to create subscription lists and add them to a subscription center in Dynamics 365 Marketing."
-ms.date: 06/11/2020
+ms.date: 12/16/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -20,18 +20,21 @@ search.app:
 
 # Set up subscription lists and subscription centers
 
-A subscription center is a marketing page that known contacts can use to manage their communication preferences and contact details with your organization.
+A subscription center is a marketing page that known contacts can use to manage their communication preferences and contact details with your organization. All marketing email messages that you create by using Dynamics 365 Marketing must include a link to a subscription center. Marketing email messages will fail the error check if you try to go live with a message that lacks this link.
 
-All marketing email messages that you create by using Dynamics 365 Marketing must include a link to a subscription center, and they will fail the error check if you try to go live with a message that lacks this link. There are two good reasons for requiring a subscription center link in all marketing email messages:
+There are two reasons for requiring a subscription center link in all marketing email messages:
 
-- **Legal requirements**: Many countries/regions have laws that require all marketing email messages to include an unsubscribe link.
-- **Deliverability**: Spam filters and internet reputation monitors can identify marketing email messages, and might remove those that don't include an unsubscribe link.
+- **Legal requirements**: Many countries and regions have laws that require all marketing email messages to include an unsubscribe link.
+- **Deliverability**: Spam filters and internet reputation monitors can identify marketing email messages, and might remove messages that don't include an unsubscribe link.
 
 All subscription centers include a **do not email** check box. When a contact chooses this option, the **do not bulk email** flag gets set on his or her contact record and Dynamics 365 Marketing will never send any marketing email messages to that contact. Optionally, your subscription center can present several additional subscription options, such as a list of available newsletters. By presenting several different mailing lists on your subscription center, you gain an opportunity to learn more about your contacts' specific interests while also giving contacts more options beyond the legally required "do not bulk email" option.
 
 Each subscription list exists as a static marketing list in Dynamics 365, while **do not bulk email** is an explicit attribute of the contact entity. That means that **do not bulk email** overrules subscription list memberships, but it also means that list memberships will be reactivated if a contact later clears **do not bulk email**.
 
 The only way a contact can access a subscription center is by clicking a link sent to them in email. Email links are always personalized for the recipient, which means that Dynamics 365 Marketing always knows which contact has requested the subscription center and therefore populates it with that contact's current details and subscriptions. You can also add subscription lists to standard marketing pages, which enables inbound (previously unknown) contacts to sign up for one or more mailing lists at the same time they register.
+
+> [!IMPORTANT]
+> Subscription lists are managed at the *contact* level. If multiple contacts share the same email address, only the specific contact who opted out will stop receiving communications. Other contacts using the same email address will continue to receive communications. If you require opt-outs to be processed at the email level, you will need to create custom processes.
 
 ## How and where to publish your subscription centers
 
@@ -173,7 +176,7 @@ To specify a subscription center in the content settings:
 
 1. Select **Next** to continue.
 
-1. Select the **Property** radio button. .    
+1. Select the **Property** radio button.
     ![Choose a specific marketing page](media/assist-edit-subcenter-2.png "Choose a specific marketing page") 
 
     Note the code shown at the bottom of the dialog&mdash;this is the actual expression that you have built based on your choices so far
@@ -227,13 +230,13 @@ More information: [Create a marketing email and go live](create-marketing-email.
 
 ## Test your subscription center
 
-To test your subscription center, you must send yourself a subscription-center link in a live email from a live customer journey. The subscription center won't work correctly if you open its URL directly, or click a link sent in a test message.
+To test your subscription center, you must send yourself a subscription-center link in a live email from a live customer journey. The subscription center won't work correctly if you open its URL directly, or select a link sent in a test message.
 
 Subscription centers only work when they "know" who they are talking to. This enables the subscription center to display existing contact information in editable fields (like name and email), and also to indicate which of the available subscription lists the viewer already belongs to. The only way most people will be able to open the subscription center is by selecting a link sent to them in a marketing email from a customer journey. Links such as these include an ID that lets the subscription center know which contact has requested the page. (In fact, all links in marketing emails include an ID that's linked to both the contact and the message, which enables the system to report which link each contact has selected in each message.)
 
 If you open a subscription center by opening its URL directly (or by using  a link sent in a test message), an error message will display indicating that the system is not able to verify your contact information.
 
-To fully test your subscription center, set up a simple customer journey that targets a single contact record with your email address and sends out a simple marketing email that links to your subscription center (similar to the journey presented in the previous section, but be sure to use a very limited segment). When you receive the message, select the subscription center link and test its features.
+To fully test your subscription center, set up a simple customer journey that targets a single contact record with your email address and sends out a simple marketing email that links to your subscription center (similar to the journey presented in the previous section, but be sure to use a limited segment). When you receive the message, select the subscription center link and test its features.
 
 ## View and edit which lists each contact subscribes to
 
@@ -269,8 +272,6 @@ To add displayed contacts to a subscription list or static marketing list:
     (Note that you can also add or remove the contact(s) to/from static segments using this drop-down list. More information: [Manage segment memberships from a contact record](manage-segments-from-contacts.md))
 
 1. A flyout opens. Use it to search for and select each list that you want to add the selected contact(s) to. The select **Add** to add the contacts and close the flyout.
-
-
 
 ### See also
 
