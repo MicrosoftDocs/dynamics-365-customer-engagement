@@ -256,7 +256,7 @@
 ### [Configure data masking](data-masking-settings.md)
 
 ## Templates
-### [Overview](templates-overview.md)
+### [Overview](../app-profile-manager/templates-overview.md)
 ### [Manage session templates](../app-profile-manager/session-templates.md)
 ### [Manage application tab templates](../app-profile-manager/application-tab-templates.md)
 ### [Manage notification templates](../app-profile-manager/notification-templates.md)
@@ -538,9 +538,17 @@
 #### [msdyn_ApplyRoutingRuleEntityRecord](developer/reference/actions/msdyn_ApplyRoutingRuleEntityRecord.md)
 
 ## Troubleshoot issues in Customer Service
+### Troubleshoot cases
+#### [Issue converting an email to a case](troubleshoot-case-email-issue.md)
+### Troubleshoot SLA issues
+#### [SLA timer does not pause](troubleshoot-sla-timer-issue.md)
+#### [Unable to delete a managed solution](troubleshoot-delete-managed-solution.md)
+
 ### [Known issues](omnichannel-readme.md)
 ### [Troubleshoot issues in Omnichannel for Customer Service](troubleshoot-omnichannel-customer-service.md)
 ### [Troubleshoot with Solution Health Hub](troubleshoot-using-solution-health-hub.md)
+### [Troubleshoot channel issues](troubleshoot-omnichannel-customer-service.md)
+
 
 ## FAQs on Customer Service
 ### [FAQs on AI suggestions for cases and knowledge articles](csw-faqs-ai-suggestions.md)
