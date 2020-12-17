@@ -20849,6 +20849,26 @@
       "source_path": "ce/omnichannel/customizer/omnichannel-customizer.md",
       "redirect_url": "../../customer-service/omnichannel-customizer",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/templates-overview.md",
+      "redirect_url": "../app-profile-manager/templates-overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/session-templates.md",
+      "redirect_url": "../app-profile-manager/session-templates",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/application-tab-templates.md",
+      "redirect_url": "../app-profile-manager/application-tab-templates",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/notification-templates.md",
+      "redirect_url": "../app-profile-manager/notification-templates",
+      "redirect_document_id": false
     }
   ]
 }
