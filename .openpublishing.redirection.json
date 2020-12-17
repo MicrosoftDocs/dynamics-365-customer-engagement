@@ -20731,11 +20731,6 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "ce/omnichannel/customizer/configure-link-to-conversation-model-driven-app-form.md",
-      "redirect_url": "../../unified-service-desk/oc-customizer/configure-link-to-conversation-model-driven-app-form",
-      "redirect_document_id": false
-    },
-    {
       "source_path": "ce/omnichannel/customizer/configure-notification-screen-pop-agents.md",
       "redirect_url": "../../unified-service-desk/oc-customizer/configure-notification-screen-pop-agents",
       "redirect_document_id": false
