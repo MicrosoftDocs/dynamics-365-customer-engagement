@@ -18,14 +18,14 @@ Records and regarding entities can be accessed from the home page or the Meeting
 - On the home page, go to the **Recent records** section.   
 - On the Meetings page, go to the **Regarding** section.   
 
-You can [view details](#view-details) and [Edit records and entities](#edit-records-and-entities) on records on the home and Meetings pages. Additionally, you can [change a regarding entity](view-agenda.md#change-regarding-entity) and [add a regarding entity](view-agenda.md#add-regarding-entity) on the Meetings page.
+You can [view details](#view-details) and [edit records and entities](#edit-records-and-entities) on records on the home and Meetings pages. Additionally, you can [change a regarding entity](view-agenda.md#change-regarding-entity) and [add a regarding entity](view-agenda.md#add-regarding-entity) on the Meetings page.
 
 ## View details
 
 > [!NOTE]
 > - The fields that you see on the compact form are defined in the quick view form of the entity.
 > - The lightweight view doesn't include all attributes of the entity.
-> - This is a lightweight form that contains any attributes defined in the first form on quick view form set order. More information: [Set the form order](https://docs.microsoft.com/powerapps/maker/model-driven-apps/control-access-forms#set-the-form-order).
+> - This is a lightweight form that contains any attributes defined in the first form on quick view form set order. More information: [Set the form order](https://docs.microsoft.com/powerapps/maker/model-driven-apps/control-access-forms#set-the-form-order)
 
 You can view the details of records in the following ways: 
 
@@ -38,7 +38,7 @@ The home page displays a list of records that you have recently accessed. These 
 The Meeting details page displays the regarding entity that is related to the meeting. Also, the notes and insights that are displayed in the meeting are related to the displayed regarding entity. Tap **Open *record type*** to view the details in the lightweight form. The details include basic information about the entity, [related notes, and reminders](#notes-and-reminders). 
 
 >[!NOTE]
->To learn more about notes, see [Manage notes](view-edit-add-note.md).
+>To learn more about notes, go to [Manage notes](view-edit-add-note.md).
 
 ## Edit records and entities
 
@@ -49,7 +49,7 @@ Follow these steps to edit records and entities in the Dynamics 365 Sales mobile
     >[!div class="mx-imgBorder"]
     >![Quick view form opened from the home page](media/sm-homepage-view-details-lead.png "Quick view form opened from the home page")
     
-- To quickly edit the basic information about the regarding entity on the **Meetings** page, tap the three dots, **More options** (![Options button](media/sm-options-button.png "Options button")), and then tap **Quick edit**. The record's Edit form opens. Enter or update the required information, and then tap **Save**.
+- To quickly edit the basic information about the regarding entity on the Meetings page, tap the three dots, **More options** (![Options button](media/sm-options-button.png "Options button")), and then tap **Quick edit**. The record's Edit form opens. Enter or update the required information, and then tap **Save**.
 
     >[!div class="mx-imgBorder"]
     >![Tap quick edit option](media/sm-quick-edit-regarding-entity.png "Tap quick edit option")    
@@ -60,7 +60,7 @@ Follow these steps to edit records and entities in the Dynamics 365 Sales mobile
 
 **Notes**
 
-Notes displayed in the **Notes** section are related to the regarding entity that is associated with the meeting. You can add, edit, and delete notes. More information: [Manage notes](view-edit-add-note.md).
+Notes displayed in the Notes section are related to the regarding entity that is associated with the meeting. You can add, edit, and delete notes. More information: [Manage notes](view-edit-add-note.md)
 
 **Reminders**
 
