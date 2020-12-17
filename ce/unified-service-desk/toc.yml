@@ -623,11 +623,102 @@
       href: oc-customizer/create-agent-supervisor-configurations-unified-service-desk.md
     - name: Configure Omnichannel Agent Dashboard
       items:
-        - name: Overview
-          href: oc-customizer/configure-agent-dashboard.md
+      - name: Overview
+        href: oc-customizer/configure-agent-dashboard.md
+      - name: Step 1: Create Omnichannel Agent Dashboard hosted control 
+        href: oc-customizer/agent-dashboard-step1-create-hosted-control.md
+      - name: Step 2: Create Omnichannel Agent Dashboard-related action calls 
+        href: oc-customizer/agent-dashboard-step2-create-action-calls.md
+      - name: Step 3: Attach Omnichannel Agent Dashboard-related action calls to events 
+        href: oc-customizer/agent-dashboard-step3-attach-action-calls-events.md
+      - name: Step 4: Add the hosted control, action calls, and events to configurations 
+        href: oc-customizer/agent-dashboard-step4-add-hosted-control-action-calls-events-configurations.md
+    - name: Configure communication panel for agents
+      items:
+      - name: Overview 
+        href: oc-customizer/configure-communication-panel.md
+      - name: Step 1: Create entity searches 
+        href: oc-customizer/communication-panel-step1-create-entity-searches.md
+      - name: Step 2: Create communication panel hosted control 
+        href: oc-customizer/communication-panel-step2-create-hosted-control.md
+      - name: Step 3: Create communication panel-related action calls 
+        href: oc-customizer/communication-panel-step3-create-action-calls.md
+      - name: Step 4: Attach the communication panel-related action calls to events 
+        href: oc-customizer/communication-panel-step4-attach-action-calls-events.md
+      - name: Step 5: Configure window navigation rule for communication panel 
+        href: oc-customizer/communication-panel-step5-configure-window-navigation-rule.md
+      - name: Step 6: Add hosted control, action calls, window navigation rule, and events to configurations 
+        href: oc-customizer/communication-panel-step6-add-hosted-control-action-calls-events-configurations.md
+    - name: Configure customer summary
+      items:
+      - name: Overview 
+        href: oc-customizer/configure-customer-summary.md
+      - name: Step 1: Create customer summary hosted control 
+        href: oc-customizer/customer-summary-step1-create-hosted-control.md
+      - name: Step 2: Create customer summary-related action calls 
+        href: oc-customizer/customer-summary-step2-create-action-calls.md
+      - name: Step 3: Attach customer summary-related action calls to events 
+        href: oc-customizer/customer-summary-step3-attach-action-calls-events.md
+      - name: Step 4: Add the hosted control, action calls, and events to configurations 
+        href: oc-customizer/customer-summary-step4-add-hosted-control-action-calls-events-configurations.md
+    - name: Configure notifications for agents
+      items:
+      - name: Overview 
+        href: oc-customizer/configure-notification-screen-pop-agents.md
+      - name: Alert notifications
+        items:
+        - name: Configure alert notifications in Unified Service Desk 
+          href: oc-customizer/configure-alert-notification-unified-service-desk.md
+        - name: Step 1: Create forms to define the layout and behavior of the notification 
+          href: oc-customizer/alertnotification-step1-create-forms-define-layout-behavior-notification.md
+        - name: Step 2: Create Omnichannel Alert Notification hosted control 
+          href: oc-customizer/alertnotification-step2-create-hosted-controls.md
+        - name: Step 3: Create Omnichannel Alert Notification related-action calls 
+          href: oc-customizer/alertnotification-step3-create-action-call-display-notification.md
+        - name: Step 4: Attach the Omnichannel Alert Notification-related action calls to the events 
+          href: oc-customizer/alertnotification-step4-add-action-calls-events.md
+        - name: Step 5: Add the hosted control, events, forms, and action calls to configurations 
+          href: oc-customizer/alertnotification-step5-add-hosted-controls-events-action-callsagent-supervisor-configurations.md
+      - name: Toast notifications
+        items:
+        - name: Configure toast notifications in Unified Service Desk 
+          href: oc-customizer/configure-toast-notification-unified-service-desk.md
+        - name: Step 1: Create forms to define layout and behavior of the notification 
+          href: oc-customizer/toastnotification-step1-create-forms-define-layout-behavior-notification.md
+        - name: Step 2: Create Omnichannel Toast Notification hosted controls 
+          href: oc-customizer/toastnotification-step2-create-hosted-controls.md
+        - name: Step 3: Create Omnichannel Toast Notification-related action calls 
+          href: oc-customizer/toastnotification-step3-create-action-call-display-notification.md
+        - name: Step 4: Attach Omnichannel Toast Notification-related action calls to events 
+          href: oc-customizer/toastnotification-step4-add-action-calls-events.md
+        - name: Step 5: Add the hosted control, events, forms, and action calls to configurations 
+          href: oc-customizer/toastnotification-step5-add-hosted-controls-events-action-callsagent-supervisor-configurations.md
+    - name: Configure search
+      items:
+      - name: Overview 
+        href: oc-customizer/configure-search.md
+      - name: Step 1: Create search hosted control 
+        href: oc-customizer/search-step1-create-hosted-control.md
+      - name: Step 2: Create search-related action calls 
+        href: oc-customizer/search-step2-create-action-calls.md
+      - name: Step 3: Attach sub action calls to action calls 
+        href: oc-customizer/search-step3-attach-sub-action-calls.md
+      - name: Step 4: Attach search-related action calls to events 
+        href: oc-customizer/search-step4-attach-action-calls-events.md
+      - name: Step 5: Configure window navigation rule for search 
+        href: oc-customizer/search-step5-configure-window-navigation-rule.md
+      - name: Step 6: Create toolbar buttons for search 
+        href: oc-customizer/search-step6-create-toolbar-button.md
+      - name: Step 7: Add hosted control, action calls, window navigation rule, and events to configurations 
+        href: oc-customizer/search-step7-add-hosted-control-action-calls-events-configurations.md
+    - name: Configure session name information 
+      href: oc-customizer/configure-session-name-information.md
+    - name: Configure Scriptlets to define case and channel titles 
+      href: oc-customizer/configure-Scriptlets-define-case-channel-titles.md
+    - name: Configure link to conversation button in Unified Service Desk 
+      href: oc-customizer/configure-link-to-conversation.md
 - name: Known issues and limitations of Unified Service Desk
   href: release-notes.md
-
 - name: Dynamics 365 Customer Service
   href: https://docs.microsoft.com/dynamics365/customer-service/help-hub
 - name: Omnichannel for Customer Service Guide
