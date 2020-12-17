@@ -25,6 +25,7 @@ Set up booking rules to validate a booking when it is created or modified.
  
 > [!Note]
 > Booking rules are only available for the hourly view, and not daily, weekly, or monthly views.
+> Booking rules are not available on the Re-assign functionality on the Schedule Board.
 
 ## Create a solution
 
