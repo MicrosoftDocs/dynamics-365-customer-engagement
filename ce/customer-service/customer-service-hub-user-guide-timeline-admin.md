@@ -1,10 +1,10 @@
 ---
 title: "Configure Timeline | MicrosoftDocs"
 description: "Timeline configuration overview for administrators"
-author: lerobbin
-ms.author: lerobbin
+author: lalexms
+ms.author: laalexan
 manager: shujoshi
-ms.date: 10/05/2020
+ms.date: 12/17/2020
 ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ms.reviewer: lalexms
@@ -34,7 +34,7 @@ Steps:
 
 ### Select an entity form for timeline configuration
 
-Every instance of the timeline that’s applied on a form can be configured.  Example: An Account entity will have forms, and each form can have a timeline that can be configured.  However, there’s only one timeline per form.  
+Every instance of the timeline that’s applied on a form can be configured. For example, an Account entity will have forms, and each form can have a timeline that can be configured. However, there’s only one timeline per form.  
 
 To begin, select the entity and form where you want to add and configure your timeline. 
 
@@ -57,7 +57,7 @@ Use the following steps to add or remove a timeline from an entity form:
 
 2. Once you have selected a **Main** form type, a landing page will appear.
 
-3. scroll down to the **Timeline** component on the left nav and drag and drop it in a section on the form. 
+3. Scroll down to the **Timeline** component on the left-hand navigation, then drag and drop it in a section on the form. 
 <ul><li> If the <b>Timeline</b> component is greyed out, it means a timeline already exists on the form. You can only have one timeline per form. </li>
 <li> To remove the <b>Timeline</b> component from a form, highlight the inside of the **Timeline** component area and hit the <b>Delete</b> key.  This will remove the <b>Timeline</b> component from the form.</li></ul>
 
@@ -89,10 +89,10 @@ The timeline component is rich in features and functionality that can be configu
 The following overview provides a detailed breakdown of each timeline feature, what it supports, how it is configured, and how it is displayed in the corresponding timeline section on the entity form:
 
 - **Display options** 
-  - [Timeline component name](https://docs.microsoft.com/dynamics365/customer-service/customer-service-hub-timeline-overview#timeline-component-name)
-  - [Records shown on page](https://docs.microsoft.com/dynamics365/customer-service/customer-service-hub-timeline-overview#records-shown-on-page)
-  - [Record types shown](https://docs.microsoft.com/dynamics365/customer-service/customer-service-hub-timeline-overview#record-types-shown) 
-  - [Advanced](https://docs.microsoft.com/dynamics365/customer-service/customer-service-hub-timeline-overview#advanced)
+  - [Timeline component name](https://docs.microsoft.com/dynamics365/customer-service/customer-service-hub-timeline-overview#timeline-component-name.md)
+  - [Records shown on page](https://docs.microsoft.com/dynamics365/customer-service/customer-service-hub-timeline-overview#records-shown-on-page.md)
+  - [Record types shown](https://docs.microsoft.com/dynamics365/customer-service/customer-service-hub-timeline-overview#record-types-shown.md) 
+  - [Advanced](https://docs.microsoft.com/dynamics365/customer-service/customer-service-hub-timeline-overview#advanced.md)
 
 - **Record settings** 
   - [Activities](https://docs.microsoft.com/dynamics365/customer-service/customer-service-hub-timeline-overview#advanced)
@@ -228,6 +228,10 @@ You can easily search for records in the timeline. When you search for a phrase 
 |---------------|-|--------------|
 |![Configure Expand all records in timeline](media\timeline-expand-all-records-display-options-advanced-2a.PNG "Configure Expand all records in timeline")||![Enable Expand all records in timeline](media\timeline-expand-all-records-display-options-advanced-2b.PNG "Enable Expand all records in timeline")||
 |You can enable the **Expand all records** feature by checking the box next to the feature. This sets the default view to display all records in the expanded view format in the form each time the timeline is opened. The **Expand all records** is disabled by default.||1. When enabled, the **Expand all records** icon is displayed in the top right corner of the timeline nav. <BR>2. Records can be expanded or collapsed by using the **Expand all records** icon. When expanded, all records are displayed in the expanded view in the form each time it is opened. When you clear the box next to the **Expand all records** feature it will no longer display activities in an expanded view.<BR><BR> When disabled, the **Expand all records** icon will not display in the top right nav of the timeline. Records will always be displayed in a collapsed view.|	
+  
+### Edit default filter pane
+
+You can configure the default filters that are applied when a form loads or is refreshed using **Edit default filter pane**. You can remove filter groups by toggling the setting to **Off**. Users can remove the default filters to see all the records unless **Enable filter pane** is disabled.
 
 ### Expand records with images in timeline
 
@@ -390,11 +394,19 @@ There are some unique date fields, for example:
 > [!NOTE]
 > If a **quick create** form for an activity has not been created, then the main form will be used. If **quick create** form is not supported, such as with email, the **main form** will always be used. 
 
+### How to set the activity rollup type in timeline
+
+The activity rollup type can be configured for timelines on forms for the **Account, Contact and Opportunity** entity. The available types of rollups are **Extended**, **Related**, and **None**.
+
+More information is on rollup types is available from RollupType EnumType.
+
+![Activity rollup type](media\activity-rollup-type.png "Activity rollup type")
+
+
+
 ### Timeline performance impacts
 
-You only want to enable activities that you need on this form. When working with 10 or more **Activity types**, you will receive a warning notice letting you know the number of activity types you have selected impacts the performance speed on your timeline.  To improve timeline performance speed, consider limiting activity types to 10 or less. 
-
-Warning notice will display when you select more than 10 activity types:
+You only want to enable activities that you need on this form. If you select more than 10 **Activity types**, a warning notice displays to let you know that the number of activity types you have selected impacts the performance speed on your timeline. To improve timeline performance speed, consider limiting activity types to 10 or less. 
 
 ![Timeline performance impacts](media\timeline-performance-impacts-1a.png "Timeline performance impacts")
 
@@ -403,14 +415,17 @@ Warning notice will display when you select more than 10 activity types:
 |Configuration View | |Display View|
 |-------------------|-|------------|
 |![Notes on timeline](media\timeline-notes-1a.png "Notes on timeline") | | ![Notes on timeline](media\timeline-notes-3.png "Notes on timeline")|
-|The **Notes** the section expands when enabled and  allows you to:<BR>1. **Sort notes by** date created or date modified on. The Modified On date is the default setting. <BR>2. **Rich text editor configuration URL** allows you to add a relative web resource path for customized note capability.  ||1. When enabled, Notes can be access via the **Create a timeline record** ![](media\timeline-create-a-record-icon.png "Create a timeline record") icon.<BR>2. A dropdown will appear where you can access **Notes**.<BR>3. Use the Notes feature to create a note to add to a record using  rich text editing.|
+|The **Notes** the section expands when enabled and allows you to:<BR>1. **Sort notes by** date created or date modified. The **Modified On** date is the default setting. <BR>2. **Rich text editor configuration URL** allows you to add a relative web resource path for customized note capability. More information: [Enable or disable rich text editor](https://docs.microsoft.com/powerapps/maker/model-driven-apps/set-up-timeline-control#enable-or-disable-rich-text-editor-for-notes-in-timeline) ||1. When enabled, Notes can be access via the **Create a timeline record** ![](media\timeline-create-a-record-icon.png "Create a timeline record") icon.<BR>2. A dropdown will appear where you can access **Notes**.<BR>3. Use the Notes feature to create a note to add to a record using  rich text editing.|
 
 ## Posts on timeline
+
+> [!NOTE]
+> Post is currently only available for CRM applications.
 
 |Configuration View | | Display View|
 |-------------------|-|-------------|
 |![Posts on timeline](media\timeline-posts-1a.png "Posts on timeline") ||![Posts on timeline](media\timeline-posts-1b.png "Posts on timeline")|
-|The **Posts** the section expands when enabled and  allows you to **Sort notes by** date created or date modified on. Date Created On is the default setting. || 1. When enabled, Posts can be access via the **Create a timeline record** ![](media\timeline-create-a-record-icon.png "Create a timeline record") icon.<BR>2. A dropdown will appear where you can access **Posts**.<BR>3. Use the Post feature to create a post to add to a record.|
+|The **Posts** the section expands when enabled and  allows you to **Sort notes by** date created or date modified on. Date **Created On** is the default setting. || 1. When enabled, posts can be accessed via **Create a timeline record** ![](media\timeline-create-a-record-icon.png "Create a timeline record") icon.<BR>2. A drop-down menu displays, and you can access **Posts**.<BR>3. Use the Post feature to create a post to add to a record.<BR><BR> When date **Created On** is used to sort posts on the timeline, the location in timeline remains constant even when there are responses to that post. <BR><BR> When date **Modified On** is used to sort posts on the timeline, the location in the timeline adjusts to the top when there are responses to that post. <BR>BR> **NOTE**: The timeline doesn't automatically refresh when post replies are added.|
 
 ## Save and publish timeline updates and changes
 
@@ -423,14 +438,25 @@ Before you can view any configuration changes on the entity form, you must save 
 
 ## How to configure dashboard timelines
 
-Timelines can be configured and put on a dashboard. However, dashboards are not supported by Power Apps. For more information see [Set up timeline section (control)](https://docs.microsoft.com/powerapps/maker/model-driven-apps/set-up-timeline-control).
+Timelines can be configured and put on a dashboard. However, the configuration available for timeline applied to a dashboard is limited to the functionality provided by the legacy designer experience. There isn't a current timeframe for enabling the new form designer on dashboards. 
 
 > [!NOTE]
-> Capabilities on a dashboard timeline are different than those in an embedded dashboard timeline.  For more information see [Create or edit model-driven app dashboards](https://docs.microsoft.com/powerapps/maker/model-driven-apps/create-edit-dashboards).
+> Capabilities on a dashboard timeline are different than those in an embedded dashboard timeline.  
+Dashboard timelines contain records related to the current user. This means each user will see a different set of information when viewing the same dashboard timeline. Notes are not available on the dashboard.
 
 ## How to create and add custom activities to timeline
 
-You can create custom entities to display on the timeline by enabling specific options during the creation of the entity. See the [How to create and add custom activities](https://docs.microsoft.com/powerapps/maker/model-driven-apps/set-up-timeline-control#enable-custom-activity-in-timeline) for a step by step guide.
+You can create custom entities to display on the timeline by enabling specific options during the creation of the entity. See the [How to create and add custom activities](https://docs.microsoft.com/powerapps/maker/model-driven-apps/set-up-timeline-control#enable-custom-activity-in-timeline) for a step-by-step guide.
+
+## How to configure blocked attachment file types in timeline
+
+You can configure the file types that are blocked from being added as file attachments.
+
+1. Go to **Settings** > **Advanced settings** > **Settings** > **Administration** > **System Settings**.
+2. In the **System Settings** dialog, under the **General** tab, scroll down to **Set blocked file extensions for attachments**.
+3. In the field, type the file extension type you want to block for attachments (for example, ".pdf". Separate file types with a semi-colon.).
+4. Select **OK**.
+
 
 ### See Also
 
