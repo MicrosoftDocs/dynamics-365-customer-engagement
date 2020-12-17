@@ -10,7 +10,7 @@ ms.service: "dynamics-365-customerservice"
 ms.reviewer: lalexms
 ---
 
-# Use Timeline
+# Use timeline
 
 Timeline is a control that allows you to view information that is connected to an entity record and occurs over time in a single stream. Some information that can be logged into the timeline are notes and posts in addition to displaying activities such as emails, appointments, phone calls, and tasks.
 
@@ -21,11 +21,11 @@ Timeline allows you to:
 
 ![Timeline Browser Overview](media\timeline-browser-view.png "Timeline Browser Overview")
 
-## How to use timeline functionality
+## Timeline functionality
 
 The timeline section on the entity form is intended to centralize access to information and streamline effort to accomplish actions. The following is an overview of how the timeline functionality works in each section on the entity form. 
 
-When enabled by your system administrator, you can use the icons that are displayed on the top-right navigation in the Timeline for quick access to the do following:
+When enabled by your system administrator, you can use the icons that are displayed on the top-right navigation in the timeline for quick access to do the following:
 
 - [Create a timeline record](#create-a-timeline-record)
 - [Work with Filters](#work-with-filters)
