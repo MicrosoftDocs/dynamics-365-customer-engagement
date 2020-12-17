@@ -454,7 +454,7 @@ You can configure the file types that are blocked from being added as file attac
 
 1. Go to **Settings** > **Advanced settings** > **Settings** > **Administration** > **System Settings**.
 2. In the **System Settings** dialog, under the **General** tab, scroll down to **Set blocked file extensions for attachments**.
-3. In the field, type the file extension type you want to block for attachments (for example, ".pdf". Separate file types with a semi-colon.).
+3. In the field, type the file extension type you want to block for attachments (for example, ".pdf"). Separate file types with a semi-colon.
 4. Select **OK**.
 
 
