@@ -89,15 +89,15 @@ The timeline component is rich in features and functionality that can be configu
 The following overview provides a detailed breakdown of each timeline feature, what it supports, how it is configured, and how it is displayed in the corresponding timeline section on the entity form:
 
 - **Display options** 
-  - [Timeline component name](customer-service-hub-timeline-overview#timeline-component-name.md)
-  - [Records shown on page](customer-service-hub-timeline-overview#records-shown-on-page.md)
-  - [Record types shown](customer-service-hub-timeline-overview#record-types-shown.md) 
-  - [Advanced](customer-service-hub-timeline-overview#advanced.md)
+  - [Timeline component name](#timeline-component-name)
+  - [Records shown on page](#records-shown-on-page)
+  - [Record types shown](#record-types-shown) 
+  - [Advanced](#advanced)
 
 - **Record settings** 
-  - [Activities](customer-service-hub-timeline-overview#advanced.md)
-  -	[Notes](customer-service-hub-timeline-overview#notes.md)
-  -	[Posts](customer-service-hub-timeline-overview#posts.md)
+  - [Activities](#advanced)
+  -	[Notes](#notes)
+  -	[Posts](#posts)
 
 - **[How to create and add custom activities](https://docs.microsoft.com/powerapps/maker/model-driven-apps/set-up-timeline-control#enable-custom-activity-in-timeline)**
 
