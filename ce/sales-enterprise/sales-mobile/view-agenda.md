@@ -20,13 +20,13 @@ The information on the home page of the Dynamics 365 Sales mobile app can help y
  
 **To view meetings**
 
-1.  On the navigation bar, tap **Meetings**. The calendar view opens.<!-- Edit note: Screenshot shows no roof cards. -->
+1.  On the navigation bar, tap **Meetings**. The calendar view opens.
     
     ![Meetings section](media/sm-meetings-nav-bar.png "Meetings section")
     
     To see the details of a meeting, tap the meeting record.
     
-2.  To see meetings for a specific date, tap a date in the calendar.<!-- Edit note: Screenshot shows no roof cards. -->
+2.  To see meetings for a specific date, tap a date in the calendar.
 
     ![Select a date to see meetings](media/sm-select-date.png "Select a date to see meetings")
     
@@ -37,10 +37,10 @@ The information on the home page of the Dynamics 365 Sales mobile app can help y
 To see details of a specific meeting, tap the meeting record on either the home page or in the calendar view. The meeting details are displayed, as shown in the following image.    
 ![Meeting details](media/sm-meeting-details.png "Meeting details")  
 
-Meeting details include the following:<!-- Edit note: Now I realize that these were numbered to reflect the image. -->
+Meeting details include the following:
 
-- [Meeting information and attendees](#meeting-information-and-attendees)   
-- [Regarding entity, notes, and reminders](#regarding-entity-notes-and-reminders)
+1. [Meeting information and attendees](#meeting-information-and-attendees)   
+2. [Regarding entity, notes, and reminders](#regarding-entity-notes-and-reminders)
 
 ### Meeting information and attendees
 
@@ -78,12 +78,12 @@ You can perform the following action on regarding entities: [view and edit](open
 
 You can update the regarding entity when it is no longer relevant or there are changes to the meeting. To change the regarding entity, follow these steps:
 
-1. Tap the three dots, **More options** (![Options button](media/sm-options-button.png "Options button")), and then tap **Change connected record**.<!-- Edit note: Screenshot shows no roof cards. -->
+1. Tap the three dots, **More options** (![Options button](media/sm-options-button.png "Options button")), and then tap **Change connected record**.
 
     >[!div class="mx-imgBorder"]
     >![Select change connected record option](media/sm-select-change-connected-record.png "Select change connected record option")
     
-2. On the Regarding page, either select a recent record or tap **Search** to look for the record you want.<!-- Edit note: Screenshots shows no roof cards. -->
+2. On the Regarding page, either select a recent record or tap **Search** to look for the record you want.
 
     >[!div class="mx-imgBorder"]
     >![Find a record to connect](media/sm-regarding-record.png "Find for a record to connect")
@@ -102,12 +102,12 @@ You can add a regarding entity to a meeting when no regarding entity is attached
 >[!NOTE]  
 >Once you add a regarding entity, you cannot delete it. However, you can update the entity if you find that the added entity is inappropriate.   
 
-1. On the meeting details page, tap **Set regarding**.<!-- Edit note: Screenshot shows no roof cards. -->
+1. On the meeting details page, tap **Set regarding**.
 
     >[!div class="mx-imgBorder"]
     >![Connect a record to a meeting](media/sm-meeting-details-no-record.png "Connect a record to a meeting")
     
-2. On the Regarding page, either select a recent record or tap **Search** to look for the record you want.<!-- Edit note: Screenshot shows no roof cards. -->
+2. On the Regarding page, either select a recent record or tap **Search** to look for the record you want.
 
     >[!div class="mx-imgBorder"]
     >![Find a record to connect](media/sm-regarding-record.png "Find for a record to connect")

@@ -26,7 +26,7 @@ When you open the Dynamics 365 Sales mobile app on your mobile device, you’ll 
 
 ## Meetings
 
-The Meetings section of the home page shows important information about the last meeting you were in and the next one coming up.<!-- Edit note: Could be another day I expect. --> When you tap a meeting, the Meeting details page opens. More information: [View meeting details](view-agenda.md#view-meeting-details)
+The Meetings section of the home page shows important information about the last meeting you were in and the next one coming up. When you tap a meeting, the Meeting details page opens. More information: [View meeting details](view-agenda.md#view-meeting-details)
 
 > [!NOTE]
 > The Meetings section only includes meetings that have at least one attendee who's outside of your organization's domain.
@@ -41,7 +41,7 @@ The Recent contact section of the home page shows a few contacts you have recent
 
 ## Recent records
 
-The Recent records section of the home page shows a few records you recently accessed through the web or mobile app, such as an account or opportunity. You can tap a record to views its details or tap **Recent records** to view an extended list. More information: [Manage records or regarding entities](open-record.md)<!-- Edit note: Screenshot shows no roof cards. -->
+The Recent records section of the home page shows a few records you recently accessed through the web or mobile app, such as an account or opportunity. You can tap a record to views its details or tap **Recent records** to view an extended list. More information: [Manage records or regarding entities](open-record.md).
 
 ![Recent records displayed on the home page](media/sm-records-home.png "Recent records displayed on home page")
 
@@ -66,7 +66,7 @@ You can use the navigation bar at the bottom of the screen to navigate through t
 
 ![Navigation bar](media/sm-navigation-bar.png "Navigation bar")
 
-The navigation bar includes the following options:<!-- Edit note: Thanks for adding the other option here. -->
+The navigation bar includes the following options:
 
 - [Home](#home)   
 - [Search](#search)   
