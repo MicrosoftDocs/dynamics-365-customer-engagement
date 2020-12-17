@@ -85,6 +85,8 @@ Marketing solution uninstall order:
 1. MicrosoftDynamics_MktPageTemplates
 1. MicrosoftDynamics_MktEvtMgmtLink_patch
 1. MicrosoftDynamics_MktEvtMgmtLink
+1. MicrosoftDynamics_MktOrchestrationCompatModule
+1. MicrosoftDynamics_MarketingOrchestrationModule
 1. LinkedInLeadGenIntegration_patch
 1. LinkedInLeadGenIntegration
 1. MicrosoftDynamics_MktLeadManagement_patch
