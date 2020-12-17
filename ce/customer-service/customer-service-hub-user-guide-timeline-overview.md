@@ -12,7 +12,7 @@ ms.reviewer: lalexms
 
 # Use Timeline
 
-Timeline is a control that allows you to view information that is connected to an entity record and occurs over time in a single stream. Some information that can be logged into the timeline are notes and posts, in addition to displaying activities such as emails, appointments, phone calls, and tasks.
+Timeline is a control that allows you to view information that is connected to an entity record and occurs over time in a single stream. Some information that can be logged into the timeline are notes and posts in addition to displaying activities such as emails, appointments, phone calls, and tasks.
 
 Timeline allows you to:
 - Access the command bar to perform common actions quickly.
@@ -23,7 +23,7 @@ Timeline allows you to:
 
 ## How to use timeline functionality
 
-The timeline section on the entity form is rich in intended to centralize access to information and streamline effort to accomplish actions. The following is an overview of how the timeline functionality works in each section on the entity form. 
+The timeline section on the entity form is intended to centralize access to information and streamline effort to accomplish actions. The following is an overview of how the timeline functionality works in each section on the entity form. 
 
 When enabled by your system administrator, you can use the icons that are displayed on the top-right navigation in the Timeline for quick access to the do following:
 
@@ -75,7 +75,7 @@ The following category and sub-category options are available on the filer menu:
 | Category              | Sub-category   |
 |-----------------------|----------------|
 | Record type           |<li>Notes</li><li>Posts</li><li>Activities</li>|
-|Activity type         |<li>Appointment</li><li>Campaign Activity</li><li>Campaign Response</li><li>Email</li><li>Fax</li><li>Case Resolution</li><li>Letter</li><li>Opportunity Case</li><li>Order Case</li><li>Phone Call</li><li>Quote Close</li><li>Recurring Appointment</li><li>Social Activity</li><li>Task</li><li>Project Service Approval</li><li>Booking Alert</li><li>Conversation</li><li>Session</li><li>Customer Voice survey invite</li><li>Customer Voice survey response</li><li>Custom activities (as configured by your system admin)</li> |
+|Activity type         |<li>Appointment</li><li>Campaign Activity</li><li>Campaign Response</li><li>Email</li><li>Fax</li><li>Case Resolution</li><li>Letter</li><li>Opportunity Case</li><li>Order Case</li><li>Phone Call</li><li>Quote Close</li><li>Recurring Appointment</li><li>Social Activity</li><li>Task</li><li>Project Service Approval</li><li>Booking Alert</li><li>Conversation</li><li>Session</li><li>Customer Voice survey invite</li><li>Customer Voice survey response</li><li>Custom activities (as configured by your system administrator)</li> |
 |Activity status            |<li>Active</li><li>Overdue</li><li>Closed</li>|               
 |Activity due date (active) |<li>Next 30 days</li><li>Next 7 days</li><li>Next 24 hours</li><li>Last 24 hours</li><li>Last 7 days</li><li>Last 30 days</li> |
 |Posts by                   |<li>Auto post</li><li>Users</li> |
@@ -174,13 +174,13 @@ Legend
 
 ## Work with notes and posts
 
-Notes allows you to record richly formatted information and images for reference, summary, or investigation. You can easily add a mention to another user or a reference to a timeline record using Posts.  
+Notes allow you to record richly formatted information and images for reference, summary, or investigation. You can easily add a mention to another user or a reference to a timeline record using Posts.  
 
 ### Add a note or post to a record on timeline
 
-When enabled by your system administrator, you can either add a **Note** or a **Post** to a record on timeline. Each note has a maximum size limit of 100,000 characters.
+When enabled by your system administrator, you can either add a note or a post to a record on timeline. Each note has a maximum size limit of 100,000 characters.
 
-You can also enter a **Note** and add it to a record, but you can only add one attachment per note. If **Note** is not enabled by your system administrator, you cannot add an attachment.
+You can also enter a note and add it to a record, but you can only add one attachment per note. If note is not enabled by your system administrator, you cannot add an attachment.
 
 **Note display view**
 
@@ -196,19 +196,19 @@ When enabled by your system administrator, the **Post** field is also displayed 
 ![Add a post to a record on timeline](media\timeline-add-a-post-to-a-record-1.png "Add a post to a record on timeline")
 
 > [!NOTE] 
-> You can not add an attachment in a post.
+> You cannot add an attachment in a post.
 
-### Access command bar to perform actions
+### Access the command bar to perform actions
 
-When you hover your cursor on or expand an activity, post, or note, the command bar appears in the top right corner of the record with the specific options that support that activity, such as assigning it to others, adding it to a queue, converting it to a case, liking or replying to a post, editing a note, or deleting an activity. However, not all records can perform the same actions. 
+When you hover your cursor on or expand an activity, post, or note, the command bar appears in the top-right corner of the record with the specific options that support that activity, such as assigning it to others, adding it to a queue, converting it to a case, liking or replying to a post, editing a note, or deleting an activity. However, not all records can perform the same actions. 
 
 **Command actions by record**
 
 ![Command bar actions in timeline](media\timeline-access-command-bar-actions-1e.png "Command bar actions")
 
 Legend
-1. Only the actions associated with that record are displayed in the top right command bar displayed in the record. 
-2. Each record displays a different set of associated actions. Not all actions work on all record.
+1. Only the actions associated with that record are displayed in the top-right command bar displayed in the record. 
+2. Each record displays a different set of associated actions. Not all actions work on all records.
 
 
 The following is an overview of the command bar icons and the actions they support: 
@@ -273,20 +273,27 @@ Select the paperclip ![](media\timelilne-paperclip-icon.png "paperclip icon") ic
 
 ### Edit Note
 
-Once you attach a file to your note, the **Edit note** screen will display, and attachments display at the bottom of the **Edit note** screen.
+When you attach a file to your note, the **Edit note** screen displays, and attachments show at the bottom of the **Edit note** screen.
+
+> [!IMPORTANT]
+> You can only add one file attachment per note.
 
 ![Edit note screen](media\edit-note-timeline.png "Edit note screen")
 
-> [!IMPORTANT]
-> - You can only add one attachment to a note that is attached to a record. 
-> - Also, you can only add one file per note.
-For more information on the rich text editor feature, the following is a list of functionality:
+## How to use the rich text editor toolbar
+The rich text editor toolbar provides features and functionality that allows you to work with rich text format in notes.
+
+### Formatting options
+The following table describes the different formatting features and functionality options that are available in the rich text editor that you can use in notes. For more information on the rich text configuration, see [customer-service-hub-user-guide-timeline-admin#notes-on-timeline](Configure notes on timeline.md).
+
+> [!NOTE]
+> You can access your browser's context menu by selecting **Ctrl + right-click**. This is useful if you need to use your browser's built-in spellchecker. Otherwise, you can right-click to provide contextual formatting for any element you are using.
   
 |Icon | Name | Shortcut key | Description |
 |----------------------|-------------------------|-----------------------------|-----------------------------|
 |![Format Painter](../customer-service/media/format-painter.png "Format Painter")| Format Painter | Ctrl+Shift+C, Ctrl+Shift+V | Apply the look of a particular section to another section. |
 |![Font](../customer-service/media/format-font.png "Font") | Font | Ctrl+Shift+F | Select a font of your choice. The default font is Segoe UI.<br /><br /> **Note**: When you select any formatted content, the font name for that content displays. If your selection contains multiple fonts, the topmost font name of your selection is displayed. |
-|![Font Size](../customer-service/media/font-size.png "Font Size") | Font size | Ctrl+Shift+P | Change the size of your text. The default size is 12.<br /><br /> **Note**: When you select any formatted content, the font size for that content displays. If your selection contains multiple font sizes, the topmost font name of your selection is displayed.|
+|![Font Size](../customer-service/media/font-size.png "Font Size") | Font size | Ctrl+Shift+P | Change the size of your text. The default size is 9pt.<br /><br /> **Note**: When you select any formatted content, the font size for that content displays. If your selection contains multiple font sizes, the topmost font name of your selection is displayed.|
 |![Bold](../customer-service/media/format-bold.png "Bold")| Bold | Ctrl+B | Make your text bold. |
 |![Italic](../customer-service/media/format-italic.png "Italic")| Italic | Ctrl+I | Italicize your text. |
 |![Underline](../customer-service/media/format-underline.png "Underline")| Underline | Ctrl+U | Underline your text. |
