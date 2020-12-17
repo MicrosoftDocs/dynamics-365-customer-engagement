@@ -58,11 +58,11 @@ Smart assist displays the relevant suggestions as individual cards that are grou
 ## Agent scripts and macros
 
 > [!Important]
-> - In the out-of-box Customer Service workspace application, you must first create a custom profile before you can enable agent scripts. Only the Smart assist and knowledge article search functions are available in the out-of-box experience. For information about creating custom profiles, see [Overview of app profile manager](../app-profile-manager/overview). 
+> - In the out-of-box Customer Service workspace application, you must first create a custom profile before you can enable agent scripts. Only the Smart assist and knowledge article search functions are available in the out-of-box experience. For information about creating custom profiles, see [Overview of app profile manager](../app-profile-manager/overview.md). 
 
-Agent scripts in Customer Service workspace help provide guidance for what you should do when you have a customer issue, and helps ensure that you share only accurate and company-endorsed information. These scripts help you be accurate, effective, and efficient in customer handling. For more information, see [Guide customer interaction with agent scripts](oc-agent-scripts). For administrator information about configuring scripts, see [Guide agents with scripts](../app-profile-manager/agent-scripts).
+Agent scripts in Customer Service workspace help provide guidance for what you should do when you have a customer issue, and helps ensure that you share only accurate and company-endorsed information. These scripts help you be accurate, effective, and efficient in customer handling. For more information, see [Guide customer interaction with agent scripts](oc-agent-scripts.md). For administrator information about configuring scripts, see [Guide agents with scripts](../app-profile-manager/agent-scripts.md).
 
-A macro is a set of instructions that tells the system how to complete a task. When a macro runs, the system performs each instruction. Macros in agent scripts show a title, instruction that system performs, and the macro icon. For administrator information about configuring macros, see [Automate tasks with macros](../app-profile-manager/macros). 
+A macro is a set of instructions that tells the system how to complete a task. When a macro runs, the system performs each instruction. Macros in agent scripts show a title, instruction that system performs, and the macro icon. For administrator information about configuring macros, see [Automate tasks with macros](../app-profile-manager/macros.md). 
 
 ## Knowledge article search
 
@@ -72,6 +72,6 @@ The knowledge base search lets you search for relevant knowledge articles to res
 
 [Customer Service workspace - overview](csw-overview.md) <br>
 [View AI-suggested similar cases and knowledge articles](csw-view-ai-suggested-cases-knowledge-articles.md) <br>
-[Guide customer interaction with agent scripts](oc-agent-scripts) <br>
-[Automate tasks with macros](../app-profile-manager/macros) <br>
+[Guide customer interaction with agent scripts](oc-agent-scripts.md) <br>
+[Automate tasks with macros](../app-profile-manager/macros.md) <br>
 [Search for knowledge articles](search-knowledge-articles-csh.md)
