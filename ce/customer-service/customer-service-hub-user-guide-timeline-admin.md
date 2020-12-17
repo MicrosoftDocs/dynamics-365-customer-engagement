@@ -10,7 +10,7 @@ ms.service: "dynamics-365-customerservice"
 ms.reviewer: lalexms
 ---
 
-# Configure Timeline 
+# Configure timeline 
 
 The timeline control provides an easy and immersive experience to view information related to an entity, such as cases, accounts, or contacts, which gives users a better understanding and helps them deliver more personalized service in an efficient and effective manner.	
 
@@ -18,13 +18,13 @@ This experience gives system administrators the ability to configure the informa
 
 ## How to navigate to timeline configurations
 
-Timelines are located on forms within entities. To access timeline configurations, you must start with the entity list.  You can access the entity list a couple of ways depending on the model-driven app you are using.	
+Timelines are located on forms within entities. To access timeline configurations, you must start with the entity list. You can access the entity list a couple of ways, depending on the model-driven app you are using.	
 
 ### Access entities list via Power Apps
 
 Steps:
 1. Go to **Power Apps** URL: [make.powerapps.com](https://make.powerapps.com "make.powerapps.com")
-2. Go to **Data** section
+2. Go to **Data** section.
 3. Select **Entities**
 
   ![Access entities list via Power Apps](media\timeline-access-option-2a.png "Access entities list via Power Apps")
@@ -69,7 +69,7 @@ Use the following steps to add or remove a timeline from an entity form:
 
 ## Understanding the timeline component on the form
 
-In the body of the entity form located in the center there is an area titled **TIMELINE**. Within this section is another area titled **Timeline**. The following outlines and clarifies the different between these two sections.
+In the body of the entity form located in the center, there is an area titled **TIMELINE**. Within this section is another area titled **Timeline**. The following outlines and clarifies the different between these two sections.
 
 #### Timeline component section resides in the Maker App
 ![Understanding the timeline component on the form](media\timeline-component-1a.png "Understanding the timeline component on the form")
@@ -89,15 +89,15 @@ The timeline component is rich in features and functionality that can be configu
 The following overview provides a detailed breakdown of each timeline feature, what it supports, how it is configured, and how it is displayed in the corresponding timeline section on the entity form:
 
 - **Display options** 
-  - [Timeline component name](https://docs.microsoft.com/dynamics365/customer-service/customer-service-hub-timeline-overview#timeline-component-name.md)
-  - [Records shown on page](https://docs.microsoft.com/dynamics365/customer-service/customer-service-hub-timeline-overview#records-shown-on-page.md)
-  - [Record types shown](https://docs.microsoft.com/dynamics365/customer-service/customer-service-hub-timeline-overview#record-types-shown.md) 
-  - [Advanced](https://docs.microsoft.com/dynamics365/customer-service/customer-service-hub-timeline-overview#advanced.md)
+  - [Timeline component name](customer-service-hub-timeline-overview#timeline-component-name.md)
+  - [Records shown on page](customer-service-hub-timeline-overview#records-shown-on-page.md)
+  - [Record types shown](customer-service-hub-timeline-overview#record-types-shown.md) 
+  - [Advanced](customer-service-hub-timeline-overview#advanced.md)
 
 - **Record settings** 
-  - [Activities](https://docs.microsoft.com/dynamics365/customer-service/customer-service-hub-timeline-overview#advanced)
-  -	[Notes](https://docs.microsoft.com/dynamics365/customer-service/customer-service-hub-timeline-overview#notes)
-  -	[Posts](https://docs.microsoft.com/dynamics365/customer-service/customer-service-hub-timeline-overview#posts)
+  - [Activities](customer-service-hub-timeline-overview#advanced.md)
+  -	[Notes](customer-service-hub-timeline-overview#notes.md)
+  -	[Posts](customer-service-hub-timeline-overview#posts.md)
 
 - **[How to create and add custom activities](https://docs.microsoft.com/powerapps/maker/model-driven-apps/set-up-timeline-control#enable-custom-activity-in-timeline)**
 
