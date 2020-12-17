@@ -689,9 +689,9 @@
           href: oc-customizer/toastnotification-step2-create-hosted-controls.md
         - name: Step 3 Create Omnichannel Toast Notification-related action calls 
           href: oc-customizer/toastnotification-step3-create-action-call-display-notification.md
-        - name: Step 4: Attach Omnichannel Toast Notification-related action calls to events 
+        - name: Step 4 Attach Omnichannel Toast Notification-related action calls to events 
           href: oc-customizer/toastnotification-step4-add-action-calls-events.md
-        - name: Step 5: Add the hosted control, events, forms, and action calls to configurations 
+        - name: Step 5 Add the hosted control, events, forms, and action calls to configurations 
           href: oc-customizer/toastnotification-step5-add-hosted-controls-events-action-callsagent-supervisor-configurations.md
     - name: Configure search
       items:
