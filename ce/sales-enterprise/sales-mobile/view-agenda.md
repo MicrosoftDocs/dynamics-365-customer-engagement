@@ -39,8 +39,8 @@ To see details of a specific meeting, tap the meeting record on either the home 
 
 Meeting details include the following:
 
-- [Meeting information and attendees](#meeting-information-and-attendees)   
-- [Regarding entity, notes, and reminders](#regarding-entity-notes-and-reminders)
+1. [Meeting information and attendees](#meeting-information-and-attendees)   
+2. [Regarding entity, notes, and reminders](#regarding-entity-notes-and-reminders)
 
 ### Meeting information and attendees
 
@@ -69,7 +69,7 @@ In the following screenshot, you can see that the meeting is about an opportunit
 > [!div class="mx-imgBorder"]
 > ![View regarding entity](media/sm-view-regarding-entity.png "View regarding entity")
 
-You can perform the following action on regarding entities: [view and edit](open-record.md) the records along with [Change regarding entity in meetings](#change-regarding-entity) and [Add regarding entity in meetings](#add-regarding-entity).    
+You can perform the following action on regarding entities: [view and edit](open-record.md) the records along with [change regarding entity in meetings](#change-regarding-entity) and [add regarding entity in meetings](#add-regarding-entity).    
 
 > [!NOTE]
 > You'll be able to set the regarding record only if server-side synchronization has been enabled in your environment. Contact your administrator to enable it.
@@ -107,7 +107,7 @@ You can add a regarding entity to a meeting when no regarding entity is attached
     >[!div class="mx-imgBorder"]
     >![Connect a record to a meeting](media/sm-meeting-details-no-record.png "Connect a record to a meeting")
     
-2. On the **Regarding** page, either select a recent record or tap **Search** to look for the record you want.
+2. On the Regarding page, either select a recent record or tap **Search** to look for the record you want.
 
     >[!div class="mx-imgBorder"]
     >![Find a record to connect](media/sm-regarding-record.png "Find for a record to connect")
