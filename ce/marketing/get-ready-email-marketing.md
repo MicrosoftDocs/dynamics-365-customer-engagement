@@ -1,7 +1,7 @@
 ---
 title: "Maximize email deliverability (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to design and send marketing email messages that avoid spam filters and get opened by customers in Dynamics 365 Marketing."
-ms.date: 10/28/2020
+ms.date: 12/16/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -118,20 +118,19 @@ Once you have all of the relevant email-authentication systems in place, we high
 
 ## Microsoft's spam policy for email marketing
 
-Throughout this topic, we've stressed the importance of maintaining clean, opted-in send lists combined with valued content and collaborative sending behavior. These are all important aspects of building a strong sender reputation and thereby achieving high deliverability and in-box placement. Because email sent by Dynamics 365 Marketing is delivered from shared sending domains, Microsoft constantly monitors all delivery results, spam complaints, and deny lists to make sure our sending domains maintain their high reputation for the benefit of all customers.
+Throughout this topic, we've stressed the importance of maintaining clean, opted-in send lists combined with valued content and collaborative sending behavior. These are all important aspects of building a strong sender reputation and thereby achieving high deliverability and inbox placement. Because email sent by Dynamics 365 Marketing is delivered from shared sending domains, Microsoft constantly monitors all delivery results, spam complaints, and block lists to make sure our sending domains maintain their high reputation for the benefit of all customers.
 
 To help protect you, the responsible marketer, against the behavior of bad actors beyond your control, we have implemented an anti-spam policy that protects your sending reputation. Here's how it works:
 
 ### Stage 1: Inform and warn
 
-When we notice that a particular customer is generating a relatively high rate of bounces or spam complaints, we'll let them know right away that something is wrong with the way they are using the system and will offer our assistance to help sort it out.
-When this occurs, we will send a notification directly to the administrator by email. This communication will urge the customer to contact Microsoft Support for assistance as soon as possible.
+When we notice that a Dynamics 365 Marketing environment is generating a high bounce rate or spam complaints, we will send an email to the administrator to inform them of the issue and offer assistance in remedying the problem. If further assistance is needed, the communication will urge the administrator to contact Microsoft Support.
 
-### Stage 2: Move to a higher risk sending pool
+### Stage 2: Move to a high-risk sending pool
 
-If the problem persists for more than a few days and the customer still has not contacted Microsoft Support, then we will move that customer to a higher risk sending pool, which has a lower reputation than the high-deliverability sending pool provided to compliant customers.
+If the bounce rate or spam complaint problem persists for more than a few days, and if the administrator has still not contacted Microsoft Support, we will move the Marketing environment to a high-risk sending pool. The high-risk sending pool has a lower reputation score than the standard high-deliverability sending pool.
 
-When this occurs, we will send email notification to alert the customer that we have moved them to a higher risk sending pool and to urge them to contact Microsoft Support for assistance. It may still be possible for the customer to return to the low-risk email sending pool, but not before contacting Microsoft Support and learning how to address the issue going forward.
+When a Marketing environment is moved to the high-risk sending pool, we will send an email to the administrator to inform them of the sending pool change and to urge them to contact Microsoft Support for assistance. It may still be possible for the Marketing environment to return to the low-risk sending pool, but not before the administrator contacts Microsoft Support to address the issue.
 
 ## Using a dedicated sender IP
 
