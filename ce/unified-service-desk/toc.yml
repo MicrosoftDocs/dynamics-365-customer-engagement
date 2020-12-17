@@ -275,43 +275,7 @@
       - name: 'Walkthrough 7: Configure agent scripting in your agent application'
         href: walkthrough-configure-agent-scripting-agent-application.md
       - name: 'Walkthrough 8: Use knowledge base within your agent application'
-        href: walkthrough-8-use-dynamics-365-knowledge-base-within-agent-application.md
-- name: Omnichannel for Customer Service on Unified Service Desk
-  items:
-  - name: Overview of Unified Service Desk
-    href: oc-usd/omnichannel-customer-service-unified-service-desk.md
-  - name: Deploy Omnichannel for Customer Service package
-    href: oc-usd/omnichannel-customer-service-package.md
-  - name: Configure settings for Unified Service Desk
-    href: oc-usd/configure-settings-unified-service-desk.md
-  - name: Agents using Unified Service Desk
-    href: oc-usd/omnichannel-agent.md
-  - name: Sign in to Omnichannel for Customer Service 
-    href: oc-usd/signin-unified-service-desk-omnichannel.md
-  - name: Introduction to the agent interface 
-    href: oc-usd/introduction-agent-interface.md
-  - name: View agent dashboard and agent work items 
-    href: oc-usd/introduction-agent-dashboard.md
-  - name: View notifications 
-    href: oc-usd/notifications.md
-  - name: View customer summary 
-    href: oc-usd/customer-summary.md
-  - name: Create a record 
-    href: oc-usd/create-record.md
-  - name: Search for records 
-    href: oc-usd/search-record.md
-  - name: Link and unlink a record 
-    href: oc-usd/link-unlink-record.md
-  - name: View communication panel 
-    href: oc-usd/left-control-panel.md
-  - name: View call scripts, take notes, and search knowledge articles 
-    href: oc-usd/right-control-panel.md
-  - name: Understand conversation states 
-    href: oc-usd/conversation-state.md
-  - name: View Omnichannel conversation and Omnichannel session in Model-driven apps 
-    href: oc-usd/view-omnichannel-conversation-session.md
-  - name: View customer summary for an incoming conversation request 
-    href: oc-usd/view-customer-summary-incoming-conversation-request.md                        
+        href: walkthrough-8-use-dynamics-365-knowledge-base-within-agent-application.md                        
 - name: Analyze performance of Unified Service Desk (Preview)
   items:
   - name: Overview of Unified Service Desk Performance Analyzer
@@ -615,6 +579,52 @@
     href: session-timer-custom-hosted-control.md
 - name: Accessibility in Unified Service Desk
   href: admin/accessibility-unified-service-desk-microsoft-dynamics-365.md
+- name: Omnichannel for Customer Service on Unified Service Desk
+  items:
+  - name: Overview of Unified Service Desk
+    href: oc-usd/omnichannel-customer-service-unified-service-desk.md
+  - name: Deploy Omnichannel for Customer Service package
+    href: oc-usd/omnichannel-customer-service-package.md
+  - name: Configure settings for Unified Service Desk
+    href: oc-usd/configure-settings-unified-service-desk.md
+  - name: Agent guide
+    items:
+    - name: Agents using Unified Service Desk
+      href: oc-usd/omnichannel-agent.md
+    - name: Sign in to Omnichannel for Customer Service 
+      href: oc-usd/signin-unified-service-desk-omnichannel.md
+    - name: Introduction to the agent interface 
+      href: oc-usd/introduction-agent-interface.md
+    - name: View agent dashboard and agent work items 
+      href: oc-usd/introduction-agent-dashboard.md
+    - name: View notifications 
+      href: oc-usd/notifications.md
+    - name: View customer summary 
+      href: oc-usd/customer-summary.md
+    - name: Create a record 
+      href: oc-usd/create-record.md
+    - name: Search for records 
+      href: oc-usd/search-record.md
+    - name: Link and unlink a record 
+      href: oc-usd/link-unlink-record.md
+    - name: View communication panel 
+      href: oc-usd/left-control-panel.md
+    - name: View call scripts, take notes, and search knowledge articles 
+      href: oc-usd/right-control-panel.md
+    - name: Understand conversation states 
+      href: oc-usd/conversation-state.md
+    - name: View Omnichannel conversation and Omnichannel session in Model-driven apps 
+      href: oc-usd/view-omnichannel-conversation-session.md
+    - name: View customer summary for an incoming conversation request 
+      href: oc-usd/view-customer-summary-incoming-conversation-request.md  
+  - name: Customize Omnichannel for Customer Service on Unified Service Desk
+    items:
+    - name: Create agent and supervisor configurations in Unified Service Desk
+      href: oc-customizer/create-agent-supervisor-configurations-unified-service-desk.md
+    - name: Configure Omnichannel Agent Dashboard
+      items:
+        - name: Overview
+          href: oc-customizer/configure-agent-dashboard.md
 - name: Known issues and limitations of Unified Service Desk
   href: release-notes.md
 
