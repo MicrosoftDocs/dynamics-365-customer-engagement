@@ -13,7 +13,7 @@ ms.service: "dynamics-365-customerservice"
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-Many customers use social messaging channels like Twitter Direct Message (DM) for their personal communication needs. Many also prefer using these messaging channels to engage with businesses. The asynchronous nature of these channels gives customers the convenience of getting their issues resolved as and when they find time, unlike real-time channels like Chat for Dynamics 365, where the session ends when the chat window is closed.
+Many customers use social messaging channels like Twitter Direct Message for their personal communication needs. Many also prefer using these messaging channels to engage with businesses. The asynchronous nature of these channels gives customers the convenience of getting their issues resolved as and when they find time, unlike real-time channels like Chat for Dynamics 365, where the session ends when the chat window is closed.
 
 The Twitter channel gives you an incredible opportunity to capitalize on the social media trend and engage with your customers in a seamless and personalized experience.
 
@@ -133,7 +133,7 @@ A customer can initiate a conversation in any of the following ways:
 
 If a customer initiates a conversation from the Twitter website and then later switches to the mobile device, the previous conversation persists and the customer can continue the conversation.
 
-The agent receives the notification of the incoming chat request, along with customer details. More information: [View notifications](../agent/agent-oc/oc-notifications.md)
+The agent receives the notification of the incoming chat request, along with customer details. More information: [View notifications](oc-notifications.md)
 
 > [!div class=mx-imgBorder]
 > ![Twitter chat agent notification](media/twitter-chat-agent-notify.png "Twitter chat agent notification")

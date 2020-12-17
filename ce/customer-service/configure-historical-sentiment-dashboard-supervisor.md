@@ -275,5 +275,5 @@ Before customizing the template app, read the following information and perform 
 
 ### See also
 
-[Introduction to Omnichannel Insights dashboard](../supervisor/intro-dynamics-365-omnichannel-insights-dashboard.md)  
-[View and understand Omnichannel Insights dashboards](../supervisor/omnichannel-insights-dashboard.md)  
+[Introduction to Omnichannel Insights dashboard](intro-dynamics-365-omnichannel-insights-dashboard.md)  
+[View and understand Omnichannel Insights dashboards](omnichannel-insights-dashboard.md)  

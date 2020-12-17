@@ -120,7 +120,7 @@ A customer can initiate a conversation in any of the following ways:
 
 If a customer initiates a conversation from the LINE website and then later switches to the mobile device, the previous conversation persists and the customer can continue the conversation.
 
-The agent receives the notification of the incoming chat request, along with customer details. More information: [View notifications](../agent/agent-oc/oc-notifications.md)
+The agent receives the notification of the incoming chat request, along with customer details. More information: [View notifications](oc-notifications.md)
 
 > [!div class=mx-imgBorder]
 > ![LINE chat agent notification](media/line-chat-agent-notify.png "LINE chat agent notification")

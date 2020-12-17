@@ -45,7 +45,7 @@ To enable the preconfigured Power BI workspace:
     > [!div class=mx-imgBorder]
     > ![Select Omnichannel Administration](media/supervisor-admin-select-omnichannel-administration.png "Select Omnichannel Administration")
 
-2.  From the **Site Map** ![Site map icon](media/oc-usd-supervisor-dashboard-site-map.png "Site map icon"), select **Supervisor Experience** > **Intraday Insights**.  
+2.  From the **Site Map** ![Site map icon](../unified-service-desk/media/oc-usd-supervisor-dashboard-site-map.png "Site map icon"), select **Supervisor Experience** > **Intraday Insights**.  
 
     > [!div class=mx-imgBorder]
     > ![Select Overview option](media/supervisor-admin-select-overview-dashboard.png "Select Overview option")
@@ -75,7 +75,7 @@ Review the following prerequisites before configuring the supervisor insights: 
 
 -  As a system administrator, allow the **Omnichannel for Customer Service** app to read and write data on behalf of users in your organization. To learn more, see [Provide data access consent](omnichannel-provision-license.md).
 
--  The Omnichannel supervisor role has been assigned to supervisor users in your organization to access the report and dashboard. To learn more, see [Enable users for Omnichannel for Customer Service](../administrator/add-users-assign-roles.md).
+-  The Omnichannel supervisor role has been assigned to supervisor users in your organization to access the report and dashboard. To learn more, see [Enable users for Omnichannel for Customer Service](add-users-assign-roles.md).
 
 -  As a system administrator, you must create and add a security group for Power BI service. Follow these steps to create and add a security group:
 
@@ -116,7 +116,7 @@ You must configure the Power BI workspace using the **Omnichannel Administration
     > [!div class=mx-imgBorder]
     > ![Select Omnichannel Administration](media/supervisor-admin-select-omnichannel-administration.png "Select Omnichannel Administration")
 
-2.  From the **Site Map** ![Site map icon](media/oc-usd-supervisor-dashboard-site-map.png "Site map icon"), select **Supervisor Experience** > **Intraday Insights**.  
+2.  From the **Site Map** ![Site map icon](../unified-service-desk/media/oc-usd-supervisor-dashboard-site-map.png "Site map icon"), select **Supervisor Experience** > **Intraday Insights**.  
 
     > [!div class=mx-imgBorder]
     > ![Select Overview option](media/supervisor-admin-select-overview-dashboard.png "Select Overview option")
@@ -324,6 +324,6 @@ To learn more, see [Client caching overview](https://docs.microsoft.com/dynamics
 
 ### See also
 
-[Introduction to intraday insights](../supervisor/intro-intraday-insights-dashboard.md)
+[Introduction to intraday insights](intro-intraday-insights-dashboard.md)
 
 [Customize KPIs for intraday insights](customize-kpis-intraday-insights.md)

@@ -182,7 +182,7 @@ To learn more, see [Use the automation dictionary to pass data parameter keys](a
 
 ### See also
 
-[Agent scripts](../agent/agent-oc/oc-agent-scripts.md)<br>
+[Agent scripts](oc-agent-scripts.md)<br>
 [Macros](macros.md)<br>
 [Smart assist](smart-assist.md)<br>
 [Session templates](session-templates.md)
