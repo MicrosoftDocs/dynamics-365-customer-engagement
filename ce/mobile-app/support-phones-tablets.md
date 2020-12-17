@@ -1,7 +1,8 @@
 ---
 title: "Support for Dynamics 365 for phones and Dynamics 365 for tablets | MicrosoftDocs"
+description: About support for Dynamics 365 for phones and tablets
 ms.custom:
-ms.date: 6/2/2020
+ms.date: 12/16/2020
 ms.reviewer:
 ms.service: crm-online
 ms.suite:
@@ -93,88 +94,47 @@ When the application first loads after installation, it will determine the devic
  [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] support the following languages:  
   
 - Basque (Basque) - 1069  
-  
 - Bulgarian (Bulgaria) - 1026  
-  
 - Catalan (Catalan) - 1027  
-  
 - Chinese (Hong Kong S.A.R.) - 3076  
-  
 - Chinese (People's Republic of China) - 2052  
-  
 - Chinese (Simplified) - 2052  
-  
 - Chinese (Taiwan) - 1028  
-  
 - Chinese (Traditional) - 1028  
-  
 - Croatian (Croatia) - 1050  
-  
 - Czech (Czech Republic) - 1029  
-  
 - Danish - 1030  
-  
 - Dutch - 1043  
-  
 - English - 1033  
-  
 - Estonian - 1061  
-  
 - Finnish - 1035  
-  
 - French - 1036  
-  
-- Galician  
-  
+- Galician - 1110
 - German - 1031  
-  
-- Greek - 30  
-  
-- Hindi (India) - 91  
-  
-- Hungarian - 36  
-  
-- Indonesian - 62  
-  
+- Greek - 1032  
+- Hindi (India) - 1081  
+- Hungarian - 1038  
+- Indonesian - 1057  
 - Italian - 1040  
-  
 - Japanese - 1041  
-  
-- Kazakh - 705  
-  
-- Korean - 82  
-  
-- Latvian - 371  
-  
-- Lithuanian - 370  
-  
-- Norwegian - 47  
-  
-- Polish - 48  
-  
-- Portuguese (Brazil) - 55  
-  
+- Kazakh - 1087  
+- Korean - 1042  
+- Latvian - 1062  
+- Lithuanian - 1063  
+- Norwegian - 1044  
+- Polish - 1045  
+- Portuguese (Brazil) - 1046  
 - Portuguese (Portugal) - 2070  
-  
-- Romanian - 40  
-  
-- Russian - 7  
-  
-- Serbian  
-  
-- Slovak - 421  
-  
-- Slovenian - 386  
-  
+- Romanian - 1048  
+- Russian - 1049  
+- Serbian - 2074
+- Slovak - 1051  
+- Slovenian - 1060  
 - Spanish - 3082  
-  
-- Swedish - 46  
-  
-- Thai - 66  
-  
-- Turkish - 90  
-  
-- Ukrainian - 380  
+- Swedish - 1053  
+- Thai - 1054  
+- Turkish - 1055  
+- Ukrainian - 1058  
 
 
 ## Deprecated and unsupported platforms
