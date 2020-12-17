@@ -4,7 +4,7 @@ description: "Timeline Overview for Users"
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 12/07/2020
+ms.date: 12/17/2020
 ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ms.reviewer: lalexms
@@ -97,7 +97,7 @@ Legend
 3. Each record has a list of commands relevant to their record type that displays in the top right corner for ease of use. 
 4. Record backgrounds change to grey when you hover over it and becomes transparent again when you hover away.
 
-## More Commands
+## More commands
 
 The **More commands** option contains refresh, sort, and email functionalities.
 
