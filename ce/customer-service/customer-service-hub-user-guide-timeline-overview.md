@@ -56,16 +56,16 @@ Legend:
 1. The Timeline **Filter** ![](media\timeline-filter-icon.png "Filter") icon is located in the top-right navigation on the timeline.
 2. The filter pane displays when the **Filter** icon is selected.
 3. Use the carats to expand or minimize selections.
-4. When enabled by your system administrator, record and activity types are displayed in the filter pane. Record and activity types can be filtered by checking a box next to the item.
+4. When enabled by your system administrator, record and activity types are displayed in the filter pane. Record and activity types can be filtered by selecting the corresponding box next to the item.
 5. The **Clear all filters** ![](media\timeline-clear-all-filters-icon.png "Clear all filters") icon removes and clears all filter selections from the filter pane.
 
-### How to filter records on timeline <a name="filter-records"></a>
+### Filter records on timeline <a name="filter-records"></a>
 
 Filters are valuable for sorting data. You can easily filter through records and activity types using multiple options to quickly see what matters to you. The filter is available for the activities, notes, posts, and custom entities that are present in timeline.
 
 ### Filter icon display
 
-- When the **Filter** icon displays as transparent ![Clear Filter icon](media\timeline-filter-icon.png "Filter"), it means the filter pane is empty, nothing has been applied. 
+- When the **Filter** icon displays as transparent ![Clear Filter icon](media\timeline-filter-icon.png "Filter"), it means the filter pane is empty and nothing has been applied. 
 - When the **Filter** icon displays as dark ![Dark Filter icon](media\timeline-filter-applied-1.png "Filter icon"), it means filters are applied. 
 
 ### Filter options
@@ -185,6 +185,7 @@ You can also enter a note and add it to a record, but you can only add one attac
 **Note display view**
 
 When enabled by your system administrator, the **Note** field is displayed under the **Search** feature on timeline.
+
 ![Add a note to a record on timeline](media\timeline-add-a-note-to-a-record.png "Add a note to a record on timeline")
 
 > [!NOTE] 
@@ -250,7 +251,7 @@ The **Note** message box has a rich text editor that enables you to use rich tex
 Legend
 1. Note title field for adding headings and subjects.
 2. Notes have a rich text editor so you can format and structure your messages.
-3. The rich text editing tool expands to a full menu for quick access of formatting features.
+3. The rich text editing tool expands to a full menu for quick access to formatting features.
 4. The paperclip is used to attach files to your note.
 5. Attached files are displayed at the bottom of the note.
 
@@ -258,14 +259,14 @@ Legend
 > - Only **Notes** have rich text capability, and it is only available in the timeline. 
 > - You can only format the message body of a note, not the title.
 > - The rich text editor is available only for Unified Interface.
-> - If you create a rich text editor note in Unified Interface and then view the note in the Web Client, it will display in HTML syntax.
+> - If you create a rich text editor note in Unified Interface and then view the note in the web client, it will display in HTML syntax.
 
 ### Add an attachment to a note in timeline
 
 When enabled by your system administrator, you can add an attachment, such as a file, to a note in timeline to share with users.
 
 > [!NOTE]
-> The list of allowed attachments are configured by your system administrator.
+> The list of allowed attachments is configured by your system administrator.
 
 Select the paperclip ![](media\timelilne-paperclip-icon.png "paperclip icon") icon to attach a file to a note. 
 
@@ -280,7 +281,7 @@ When you attach a file to your note, the **Edit note** screen displays, and atta
 
 ![Edit note screen](media\edit-note-timeline.png "Edit note screen")
 
-## How to use the rich text editor toolbar
+## Use the rich text editor toolbar
 The rich text editor toolbar provides features and functionality that allows you to work with rich text format in notes.
 
 ### Formatting options
@@ -327,9 +328,9 @@ For more information, see [Enable rich-text editor for notes in timeline](https:
 
 ## Work with posts
 
-When enabled by your system administrator, you can either add a **Post** to a record or mention to another user or timeline.
+When enabled by your system administrator, you can either add a post to a record or mention to another user or timeline.
 
-### Add a mention or reference a team member in a Post
+### Add a mention or reference a team member in a post
 
 ![Add a mention or reference to a team member in a post on timeline](media\timeline-add-a-mention-1.png "Add a mention or reference to a team member in a post on timeline")
 
@@ -351,9 +352,9 @@ Legend
 1. Links can be added to a record by typing **#** which will display a flyout menu with a list of records recently accessed. Type a keyword after the # tag and the display refreshes in the flyout menu via the **Dynamics 365 Quick Find** search engine that's operating in the background.
 2. Records displayed can be of any record type, such as accounts, contacts or leads.
 3. The icons beside the record names in the flyout menu indicate the record types, which helps you determine which record to select.  
-4. **Advanced** provides an more options when a record can not be located by allowing the user to  switch to a different view or create a new record.  
+4. **Advanced** provides more options when a record cannot be located by allowing the user to  switch to a different view or create a new record.  
 
-### Lookup records in a posts in timeline
+### Look up records in posts in timeline
 
 ![Lookup Records pane](media\timeline-add-links-to-records-1c.png "Lookup Records pane")
 
@@ -362,7 +363,7 @@ Legend
 2. **Change View** to see records from a different view.  
 3. **New Record** allows you to create a new record if you can't find the record you need.
 
-For more information on Notes and Post functionality and configuration, see:
+For more information on notes and post functionality and configuration, see:
 - [Display options](customer-service-hub-user-guide-timeline-admin.md#display-options)
 - [Record Settings](customer-service-hub-user-guide-timeline-admin.md#record-settings)
 - [Notes on timeline](customer-service-hub-user-guide-timeline-admin.md#notes-on-timeline)
