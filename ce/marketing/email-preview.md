@@ -1,17 +1,14 @@
 ---
-title: "Preview and test send an email message design (Dynamics 365 Marketing) | Microsoft Docs "
-description: "Learn how to use in-app previews and test sends to inspect and test your email message design in Dynamics 365 Marketing"
+title: "Preview and test send an email message design (Dynamics 365 Marketing) | Microsoft Docs"
+description: "Learn how to use in-app previews and test sends to inspect and test your email message design in Dynamics 365 Marketing."
 ms.date: 04/03/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-ms.assetid: 40f94345-90c1-4c85-990c-e82017bb23e8
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status:
 search.audienceType: 
   - admin
   - customizer

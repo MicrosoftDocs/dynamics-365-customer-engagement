@@ -1,17 +1,14 @@
 ---
-title: "Email bounce categories (Dynamics 365 Marketing) | Microsoft Docs "
-description: "A comprehensive list of email bounce categories and definitions for Dynamics 365 Marketing"
-ms.date: 07/24/2020
+title: "Email bounce categories (Dynamics 365 Marketing) | Microsoft Docs"
+description: "A comprehensive list of email bounce categories and definitions for Dynamics 365 Marketing."
+ms.date: 12/14/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-ms.assetid: 8ced29cc-48df-4e8b-a4a9-1a850105b2b7
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: 
 search.audienceType: 
   - admin
   - customizer
@@ -32,7 +29,7 @@ To identify the cause of bounced campaign emails, Dynamics 365 Marketing include
 - dmarc-issues  
 - reputation-issues  
 - greylisting-issues  
-- blacklisting-issues  
+- blocklisting-issues  
 - relaying-issues  
 - routing-issues  
 - recipient-server-error  
@@ -55,7 +52,7 @@ The first two categories – **invalid-mailbox** and **invalid-domain** – are 
 
 **greylisting** – This category represents transient errors or so called “greylisting errors.” Such errors result when the recipient’s server gets an email from a new sender domain or IP address. Such errors typically don't result in bounced emails. But, in some cases, email administrators prefer to bounce all emails from new sources to avoid spam and require some manual communications or approvals. In certain cases, delivery is only possible manually. An example of manual delivery might include adding characters to the email subject or adding special email headers that aren't possible using mass mailing or marketing software.
 
-**blacklisting-issues** – This bounce category occurs when a sending domain or IP address is listed on any existing not trusted. This means that either the domain or sending IP address, or any link or image in the email content was marked as not trusted due to one of the following reasons:
+**blocklisting-issues** – This bounce category occurs when a sending domain or IP address is listed on any existing not trusted. This means that either the domain or sending IP address, or any link or image in the email content was marked as not trusted due to one of the following reasons:
 
 - Multiple complaints from recipients.
 - Sending to a spamtrap address. A spamtrap is an email address that is intentionally used to identify spammers. Spamtrap addresses can easily be found by automated email harvesters that are used by spammers. Legitimate senders don’t typically have these addresses in their contact lists except from human errors. Senders that send emails to these addresses are automatically identified as spammers on the recipient server side.
@@ -63,7 +60,7 @@ The first two categories – **invalid-mailbox** and **invalid-domain** – are 
 
 Such errors don't often occur. We monitor cases related to not trusted domains and IP addresses on a daily basis and remove blocks if they appear, as well as analyze the email flow to avoid further issues.
 
-**relaying-issues** – This category represents errors from recipient servers that don't allow incoming email flow from the outside. This category can also can mean that there's a misconfiguration of the DNS records on the recipient side, such as DNS records that point to a server that doesn't host email addresses for that domain. Relaying-issues errors can be transient. Recipients shouldn't immediately be excluded from the contact list. But, if the error results from the same contact multiple times, it is recommended to exclude the contact.
+**relaying-issues** – This category represents errors from recipient servers that don't allow incoming email flow from the outside. This category also can mean that there's a misconfiguration of the DNS records on the recipient side, such as DNS records that point to a server that doesn't host email addresses for that domain. Relaying-issues errors can be transient. Recipients shouldn't immediately be excluded from the contact list. But, if the error results from the same contact multiple times, it is recommended to exclude the contact.
 
 **routing-errors** – This error means that the email can't reach the recipient due to an internal misconfiguration of the recipient’s server. Routing-errors can also be due to an internal forwarding misconfiguration on the recipient’s server, causing the email to transfer between mailboxes and never reach the destination. 
 

@@ -1,18 +1,15 @@
 ---
 title: "Best practices for administration (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn about best practices for Dynamics 365 Marketing administration and management."
-keywords: administration; admin; user administration; system configuration
 ms.date: 12/02/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
+  - dyn365-admin
   - dyn365-marketing
-ms.topic: troubleshooting
-ms.assetid: 1f1a8244-2dc5-4de2-b7f8-719a46c82861
+ms.topic: article
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status:
 search.audienceType: 
   - admin
   - customizer
@@ -117,7 +114,7 @@ environment into an undesired state. If you need to remove the solutions for val
 business reasons (such as also removing the Marketing metadata from the
 environment), you should open a support ticket to resolve the issue.
 
-## CDS vs CE deployment
+## Microsoft Dataverse vs CE deployment
 
 Currently, Dynamics 365 Marketing, like other Dynamics 365 model apps (Sales,
 Service, etc.), can only be deployed on CE environments (also known as orgs).

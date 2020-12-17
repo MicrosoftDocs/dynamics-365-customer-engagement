@@ -1,19 +1,14 @@
 ---
 title: "Run webinars and meetings with Microsoft Teams (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Learn how to create and host live events in Dynamics 365 Marketing using Microsoft Teams as the webinar provider"
-keywords:
-ms.date: 11/06/2020
+description: "Learn how to create and host live events in Dynamics 365 Marketing using Microsoft Teams as the webinar provider."
+ms.date: 12/09/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
-  - dyn365-admin
   - dyn365-marketing
 ms.topic: article
-ms.assetid: 361dea50-9093-4668-910c-50f715fdd572
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status:
 search.audienceType: 
   - admin
   - customizer
@@ -24,6 +19,8 @@ search.app:
 ---
 
 # Set up a Microsoft Teams webinar
+
+<div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/RE4J4cV" frameborder="0" allowfullscreen=""></iframe></div>
 
 This article explains how to use Microsoft Teams as an online meetings provider for Dynamics 365 Marketing events. Teams event functionality is now incorporated directly into Marketing, allowing you to host Teams live events for webinars and Teams meetings for interactive online meetings.
 
@@ -78,7 +75,7 @@ More information on details and settings for Teams live events: [Schedule a Team
 **Notes**:
 
 - Captions configuration options (Teams preview feature) are not available when creating live events from Dynamics 365 Marketing.
-- More about Teams roles: [Get started with Microsoft Teams live events](https://support.office.com/article/get-started-with-microsoft-teams-live-events-d077fec2-a058-483e-9ab5-1494afda578a?ui=en-US&rs=en-US&ad=US#bkmk_roles)
+- More about Teams roles: [Get started with Microsoft Teams live events](https://support.microsoft.com/office/get-started-with-microsoft-teams-live-events-d077fec2-a058-483e-9ab5-1494afda578a?#bkmk_roles)
 
 **How to invite a guest to present in a Live Event**
 
@@ -127,8 +124,6 @@ The **Teams check-in** button generates a unique attendee URL for each registran
 
 4. To preview the button in the **Preview** panel, select a contact that has a registration for the selected Event or Session.
 
-> [!TIP]
-> The email with the Teams check-in button should be shared shortly before the event start time, not days in advance. If the email is shared too far in advance, contacts may click on the button and create automated check-ins, only to receive a notice that the "Live event has not started yet."
 
 ## Keeping Dynamics 365 Marketing and Teams in sync
 

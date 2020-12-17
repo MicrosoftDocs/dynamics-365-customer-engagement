@@ -1,18 +1,14 @@
 ---
 title: "Create a simple customer journey (Dynamics 365 Marketing) | Microsoft Docs"
-description: "A tutorial for how to set up a customer journey that implements a simple email blast in Dynamics 365 Marketing"
-keywords: tutorial; customer journey; send email; email blast
-ms.date: 10/01/2020
+description: "A tutorial for how to set up a customer journey that implements a simple email blast in Dynamics 365 Marketing."
+ms.date: 12/09/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
-ms.topic: get-started-article
-ms.assetid: 45c4c442-2662-41a0-83c9-8e3149ed71ec
+ms.topic: article
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer
@@ -23,6 +19,8 @@ search.app:
 ---
 
 # Create a simple customer journey with email messaging
+
+<div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/RE4IO58" frameborder="0" allowfullscreen=""></iframe></div>
 
 As you engage potential customers, they start by discovering your product, evaluate whether it meets their needs, look for a good offer, and finally make a purchase. We call this process the *customer journey*. Use customer journeys to create a model that helps you guide the members of a selected marketing segment through this process by using automated messaging, activity generation, interactive decision points, and more.
 

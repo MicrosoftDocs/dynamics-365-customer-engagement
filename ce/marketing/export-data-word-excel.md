@@ -1,18 +1,14 @@
 ---
 title: "Export data (Dynamics 365 Marketing) | Microsoft Docs"
-description: "How to export data to a Microsoft Word or Excel document from Dynamics 365 Marketing"
-keywords: Word; Excel; export; template
+description: "How to export data to a Microsoft Word or Excel document from Dynamics 365 Marketing."
 ms.date: 04/01/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-ms.assetid: aac5aed4-0dd6-418f-bcbe-f2380e2ecf03
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer

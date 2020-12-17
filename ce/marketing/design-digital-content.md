@@ -1,17 +1,14 @@
 ---
-title: "Use the designer tool (Dynamics 365 Marketing) | Microsoft Docs "
-description: "Basics of how to use the designer tool to create emails, landing pages, and forms in Dynamics 365 Marketing"
-ms.date: 07/29/2020
+title: "Use the designer tool (Dynamics 365 Marketing) | Microsoft Docs"
+description: "Basics of how to use the designer tool to create emails, landing pages, and forms in Dynamics 365 Marketing."
+ms.date: 12/14/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-ms.assetid: 28762c17-02f7-4883-a9d8-e606858de7bd
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: 
 search.audienceType: 
   - admin
   - customizer
@@ -80,7 +77,7 @@ To edit and configure a section element:
 1. Select the section element on the canvas. It now displays a blue border and tabs showing the element type and buttons for deleting or moving the element.
 1. The **Properties** panel opens to show the settings for your selected section.
 
-    ![Add a section element to your design](media/email-layout-edit.png "Add a section element to your design")
+    ![Screenshot of the Properties panel](media/email-layout-edit.png "Screenshot of the Properties panel")
 
 1. Make settings in the following sections as needed:
 
@@ -142,6 +139,9 @@ If you prefer to work directly with HTML code, open the designer's **HTML** tab.
 Be careful when working here, though, because the graphical editor expects specific types of markup to implement its drag-and-drop elements. Without this markup, you won't be able to edit your design elements any more and might even break them. More information: [Use custom attributes to enable designer features in emails, pages, and forms](custom-template-attributes.md)
 
 The HTML editor provides a few handy code-editing features such as syntax coloring and line numbers. You can also apply formatting to add line breaks and indents to make the code more readable; to do this, right-click anywhere in the editor and select **Format document** from the context menu.
+
+> [!IMPORTANT]
+> When pasting HTML code, ensure you do not have nested sections. Nested sections are not supported in the email designer. For example, you should not paste elements containing "data-section" or "data-container" attributes into elements already containing these attributes. Doing so will result in layout rendering problems.
 
 ### Preview your design
 

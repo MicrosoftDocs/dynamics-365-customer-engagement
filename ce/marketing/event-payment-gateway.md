@@ -1,17 +1,21 @@
 ---
-title: "Add a payment gateway to your event website (Dynamics 365 Marketing) | Microsoft Docs "
-description: "Describes how to set up a payment gateway for the event website, so contacts can pay for a ticket while registering in  Dynamics 365 Marketing"
-keywords: events; payment
+title: "Add a payment gateway to your event website (Dynamics 365 Marketing) | Microsoft Docs"
+description: "Describes how to set up a payment gateway for the event website, so contacts can pay for a ticket while registering in  Dynamics 365 Marketing."
 ms.date: 09/16/2020
 ms.service: dynamics-365-marketing
 ms.custom:
   - dyn365-marketing
 ms.topic: article
-ms.assetid: ed851e33-a2db-4e1c-9420-0dc0bae227db
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Mktg
 ---
 
 # Set up online payment for events
@@ -132,7 +136,7 @@ After a contact submits their registration and payment details, the following ev
 
 You'll probably need assistance from a developer to create the custom back-end service. You (or your developer) can use any implementation technology you like to create it.
 
-Your back-end service must authenticate against your Dynamics 365 Marketing instance to enable the service to execute the custom actions needed to finalize the workflow. More information: [Authenticate to Common Data Service with the Web API](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/authenticate-web-api)
+Your back-end service must authenticate against your Dynamics 365 Marketing instance to enable the service to execute the custom actions needed to finalize the workflow. More information: [Authenticate to Microsoft Dataverse with the Web API](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/authenticate-web-api)
 
 Depending on your payment provider, your back-end service may also be able to apply additional checks to the transaction. This isn't strictly required to finalize the registration, but it is good practice. If you need additional purchase details to verify the transaction, you can get the data by executing the custom action `msevtmgt_GetPurchaseDetailsAction`. It expects the input parameter `PurchaseId`, which is the ID of the temporary event registration. The output result of this custom action returns the event name, purchase amount, currency name, ISO currency code, and currency symbol.
 

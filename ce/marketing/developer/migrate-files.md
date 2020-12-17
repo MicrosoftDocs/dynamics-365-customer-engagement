@@ -1,18 +1,14 @@
 ---
 title: "Limitations on migrating files between environments (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Learn about limitations on migrating files between environments and possible workarounds."
-keywords: developer; dev; developer guide; system configuration
 ms.date: 11/24/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
-ms.topic: developer-guide
-ms.assetid: 1f1a8244-2dc5-4de2-b7f8-719a46c82861
+ms.topic: article
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status:
 search.audienceType: 
   - developer
 search.app: 
@@ -22,7 +18,7 @@ search.app:
 
 # Limitations on migrating files between environments
 
-Out of the box, Dynamics 365 Marketing does not provide tools to migrate files between environments. Any such tool would need to be built by a customer or partner and would revolve around calling CDS APIs.
+Out of the box, Dynamics 365 Marketing does not provide tools to migrate files between environments. Any such tool would need to be built by a customer or partner and would revolve around calling Microsoft Dataverse APIs.
 
 On a high level, the tool would fetch files from the source environment, download the metadata and content for each file, and then create the file in the target environment. On the source environment, metadata for files are stored in the **msdyncrm_file** entity. The **msdyncrm_blobcdnuri** field contains a URL to the file content.
 
