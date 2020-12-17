@@ -17,6 +17,7 @@
 ### [Keep Marketing up to date](apply-updates.md)
 ### [Recurring activity bulk deletion](recurring-activity-bulk-delete.md)
 ### [Uninstall Marketing](uninstall-marketing.md)
+### [Installation and management FAQ](install-manage-faq.md)
 
 ## Administration 
 ### [Administration overview](admin-guide.md)
