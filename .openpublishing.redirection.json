@@ -19077,7 +19077,7 @@
     },
     {
       "source_path": "ce/omnichannel/omnichannel-customer-service-guide.md",
-      "redirect_url": "../customer-service/omnichannel-customer-service-guide",
+      "redirect_url": "../customer-service/introduction-omnichannel",
       "redirect_document_id": false
     },
     {
@@ -19252,7 +19252,7 @@
     },
     {
       "source_path": "ce/omnichannel/administrator/configure-settings-unified-service-desk.md",
-      "redirect_url": "../../customer-service/configure-settings-unified-service-desk",
+      "redirect_url": "../../unified-service-desk/oc-usd/configure-settings-unified-service-desk",
       "redirect_document_id": false
     },
     {
@@ -19422,7 +19422,7 @@
     },
     {
       "source_path": "ce/omnichannel/administrator/omnichannel-customer-service-package.md",
-      "redirect_url": "../../customer-service/omnichannel-customer-service-package",
+      "redirect_url": "../../unified-service-desk/oc-usd/omnichannel-customer-service-package",
       "redirect_document_id": false
     },
     {
@@ -20553,6 +20553,306 @@
     {
       "source_path": "ce/omnichannel/supervisor/supervisor-sentiment-monitoring.md",
       "redirect_url": "../../customer-service/supervisor-sentiment-monitoring.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omnichannel/agent/agent-usd/add-personalization-tab.md",
+      "redirect_url": "../../../unified-service-desk/oc-usd/add-personalization-tab",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omnichannel/agent/agent-usd/conversation-state.md",
+      "redirect_url": "../../../unified-service-desk/oc-usd/conversation-state",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omnichannel/agent/agent-usd/create-record.md",
+      "redirect_url": "../../../unified-service-desk/oc-usd/create-record",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omnichannel/agent/agent-usd/customer-summary.md",
+      "redirect_url": "../../../unified-service-desk/oc-usd/customer-summary",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omnichannel/agent/agent-usd/introduction-agent-dashboard.md",
+      "redirect_url": "../../../unified-service-desk/oc-usd/introduction-agent-dashboard",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omnichannel/agent/agent-usd/introduction-agent-interface.md",
+      "redirect_url": "../../../unified-service-desk/oc-usd/introduction-agent-interface",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omnichannel/agent/agent-usd/left-control-panel.md",
+      "redirect_url": "../../../unified-service-desk/oc-usd/left-control-panel",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omnichannel/agent/agent-usd/link-unlink-record.md",
+      "redirect_url": "../../../unified-service-desk/oc-usd/link-unlink-record",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omnichannel/agent/agent-usd/notifications.md",
+      "redirect_url": "../../../unified-service-desk/oc-usd/notifications",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omnichannel/agent/agent-usd/omnichannel-agent.md",
+      "redirect_url": "../../../unified-service-desk/oc-usd/omnichannel-agent",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omnichannel/agent/agent-usd/right-control-panel.md",
+      "redirect_url": "../../../unified-service-desk/oc-usd/right-control-panel",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omnichannel/agent/agent-usd/search-record.md",
+      "redirect_url": "../../../unified-service-desk/oc-usd/search-record",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omnichannel/agent/agent-usd/signin-unified-service-desk-omnichannel.md",
+      "redirect_url": "../../../unified-service-desk/oc-usd/signin-unified-service-desk-omnichannel",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omnichannel/agent/agent-usd/view-customer-summary-incoming-conversation-request.md",
+      "redirect_url": "../../../unified-service-desk/oc-usd/view-customer-summary-incoming-conversation-request",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omnichannel/agent/agent-usd/view-omnichannel-conversation-session.md",
+      "redirect_url": "../../../unified-service-desk/oc-usd/view-omnichannel-conversation-session",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omnichannel/customizer/agent-dashboard-step1-create-hosted-control.md",
+      "redirect_url": "../../unified-service-desk/oc-customizer/agent-dashboard-step1-create-hosted-control",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omnichannel/customizer/agent-dashboard-step2-create-action-calls.md",
+      "redirect_url": "../../unified-service-desk/oc-customizer/agent-dashboard-step2-create-action-calls",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omnichannel/customizer/agent-dashboard-step3-attach-action-calls-events.md",
+      "redirect_url": "../../unified-service-desk/oc-customizer/agent-dashboard-step3-attach-action-calls-events",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omnichannel/customizer/agent-dashboard-step4-add-hosted-control-action-calls-events-configurations.md",
+      "redirect_url": "../../unified-service-desk/oc-customizer/agent-dashboard-step4-add-hosted-control-action-calls-events-configurations",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omnichannel/customizer/alertnotification-step1-create-forms-define-layout-behavior-notification.md",
+      "redirect_url": "../../unified-service-desk/oc-customizer/alertnotification-step1-create-forms-define-layout-behavior-notification",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omnichannel/customizer/alertnotification-step2-create-hosted-controls.md",
+      "redirect_url": "../../unified-service-desk/oc-customizer/alertnotification-step2-create-hosted-controls",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omnichannel/customizer/alertnotification-step3-create-action-call-display-notification.md",
+      "redirect_url": "../../unified-service-desk/oc-customizer/alertnotification-step3-create-action-call-display-notification",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omnichannel/customizer/alertnotification-step4-add-action-calls-events.md",
+      "redirect_url": "../../unified-service-desk/oc-customizer/alertnotification-step4-add-action-calls-events",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omnichannel/customizer/alertnotification-step5-add-hosted-controls-events-action-callsagent-supervisor-configurations.md",
+      "redirect_url": "../../unified-service-desk/oc-customizer/alertnotification-step5-add-hosted-controls-events-action-callsagent-supervisor-configurations",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omnichannel/customizer/communication-panel-step1-create-entity-searches.md",
+      "redirect_url": "../../unified-service-desk/oc-customizer/communication-panel-step1-create-entity-searches",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omnichannel/customizer/communication-panel-step2-create-hosted-control.md",
+      "redirect_url": "../../unified-service-desk/oc-customizer/communication-panel-step2-create-hosted-control",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omnichannel/customizer/communication-panel-step3-create-action-calls.md",
+      "redirect_url": "../../unified-service-desk/oc-customizer/communication-panel-step3-create-action-calls",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omnichannel/customizer/communication-panel-step4-attach-action-calls-events.md",
+      "redirect_url": "../../unified-service-desk/oc-customizer/communication-panel-step4-attach-action-calls-events",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omnichannel/customizer/communication-panel-step5-configure-window-navigation-rule.md",
+      "redirect_url": "../../unified-service-desk/oc-customizer/communication-panel-step5-configure-window-navigation-rule",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omnichannel/customizer/communication-panel-step6-add-hosted-control-action-calls-events-configurations.md",
+      "redirect_url": "../../unified-service-desk/oc-customizer/communication-panel-step6-add-hosted-control-action-calls-events-configurations",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omnichannel/customizer/configure-agent-dashboard.md",
+      "redirect_url": "../../unified-service-desk/oc-customizer/configure-agent-dashboard",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omnichannel/customizer/configure-alert-notification-unified-service-desk.md",
+      "redirect_url": "../../unified-service-desk/oc-customizer/configure-alert-notification-unified-service-desk",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omnichannel/customizer/configure-communication-panel.md",
+      "redirect_url": "../../unified-service-desk/oc-customizer/configure-communication-panel",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omnichannel/customizer/configure-customer-summary.md",
+      "redirect_url": "../../unified-service-desk/oc-customizer/configure-customer-summary",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omnichannel/customizer/configure-link-to-conversation.md",
+      "redirect_url": "../../unified-service-desk/oc-customizer/configure-link-to-conversation",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omnichannel/customizer/configure-link-to-conversation-model-driven-app-form.md",
+      "redirect_url": "../../unified-service-desk/oc-customizer/configure-link-to-conversation-model-driven-app-form",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omnichannel/customizer/configure-notification-screen-pop-agents.md",
+      "redirect_url": "../../unified-service-desk/oc-customizer/configure-notification-screen-pop-agents",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omnichannel/customizer/configure-scriptlets-define-case-channel-titles.md",
+      "redirect_url": "../../unified-service-desk/oc-customizer/configure-scriptlets-define-case-channel-titles",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omnichannel/customizer/configure-search.md",
+      "redirect_url": "../../unified-service-desk/oc-customizer/configure-search",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omnichannel/customizer/configure-session-name-information.md",
+      "redirect_url": "../../unified-service-desk/oc-customizer/configure-session-name-information",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omnichannel/customizer/configure-toast-notification-unified-service-desk.md",
+      "redirect_url": "../../unified-service-desk/oc-customizer/configure-toast-notification-unified-service-desk",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omnichannel/customizer/create-agent-supervisor-configurations-unified-service-desk.md",
+      "redirect_url": "../../unified-service-desk/oc-customizer/create-agent-supervisor-configurations-unified-service-desk",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omnichannel/customizer/customer-summary-step1-create-hosted-control.md",
+      "redirect_url": "../../unified-service-desk/oc-customizer/customer-summary-step1-create-hosted-control",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omnichannel/customizer/customer-summary-step2-create-action-calls.md",
+      "redirect_url": "../../unified-service-desk/oc-customizer/customer-summary-step2-create-action-calls",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omnichannel/customizer/customer-summary-step3-attach-action-calls-events.md",
+      "redirect_url": "../../unified-service-desk/oc-customizer/customer-summary-step3-attach-action-calls-events",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omnichannel/customizer/customer-summary-step4-add-hosted-control-action-calls-events-configurations.md",
+      "redirect_url": "../../unified-service-desk/oc-customizer/customer-summary-step4-add-hosted-control-action-calls-events-configurations",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omnichannel/customizer/search-step1-create-hosted-control.md",
+      "redirect_url": "../../unified-service-desk/oc-customizer/search-step1-create-hosted-control",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omnichannel/customizer/search-step2-create-action-calls.md",
+      "redirect_url": "../../unified-service-desk/oc-customizer/search-step2-create-action-calls",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omnichannel/customizer/search-step3-attach-sub-action-calls.md",
+      "redirect_url": "../../unified-service-desk/oc-customizer/search-step3-attach-sub-action-calls",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omnichannel/customizer/search-step4-attach-action-calls-events.md",
+      "redirect_url": "../../unified-service-desk/oc-customizer/search-step4-attach-action-calls-events",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omnichannel/customizer/search-step5-configure-window-navigation-rule.md",
+      "redirect_url": "../../unified-service-desk/oc-customizer/search-step5-configure-window-navigation-rule",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omnichannel/customizer/search-step6-create-toolbar-button.md",
+      "redirect_url": "../../unified-service-desk/oc-customizer/search-step6-create-toolbar-button",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omnichannel/customizer/search-step7-add-hosted-control-action-calls-events-configurations.md",
+      "redirect_url": "../../unified-service-desk/oc-customizer/search-step7-add-hosted-control-action-calls-events-configurations",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omnichannel/customizer/toastnotification-step1-create-forms-define-layout-behavior-notification.md",
+      "redirect_url": "../../unified-service-desk/oc-customizer/toastnotification-step1-create-forms-define-layout-behavior-notification",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omnichannel/customizer/toastnotification-step2-create-hosted-controls.md",
+      "redirect_url": "../../unified-service-desk/oc-customizer/toastnotification-step2-create-hosted-controls",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omnichannel/customizer/toastnotification-step3-create-action-call-display-notification.md",
+      "redirect_url": "../../unified-service-desk/oc-customizer/toastnotification-step3-create-action-call-display-notification",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omnichannel/customizer/toastnotification-step4-add-action-calls-events.md",
+      "redirect_url": "../../unified-service-desk/oc-customizer/toastnotification-step4-add-action-calls-events",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omnichannel/customizer/toastnotification-step5-add-hosted-controls-events-action-callsagent-supervisor-configurations.md",
+      "redirect_url": "../../unified-service-desk/oc-customizer/toastnotification-step5-add-hosted-controls-events-action-callsagent-supervisor-configurations",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omnichannel/customizer/configure-link-to-conversation-model-driven-app-form.md",
+      "redirect_url": "../../customer-service/configure-link-to-conversation-model-driven-app-form",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omnichannel/customizer/omnichannel-customizer.md",
+      "redirect_url": "../../customer-service/omnichannel-customizer",
       "redirect_document_id": false
     }
   ]
