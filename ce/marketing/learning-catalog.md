@@ -18,7 +18,7 @@ search.app:
   - D365Mktg
 ---
 
-# Dynamics 365 Marketing learning catalog
+# Learning catalog (Marketing)
 <p> Find the right online training, in person workshops, and events for your role in Customer Service for Dynamics 365.</p>
 
 <!-- ![Universal Windows Platform (UWP)](images/platform-uwp.png)  -->  
