@@ -148,8 +148,10 @@ ms.custom:
 <tr>
 <td><h2>Blogs</h2>
 <ul>
-<li><a href="https://blogs.msdn.microsoft.com/crm/2018/12/21/improve-knowledge-article-search-results-with-dynamics-365-relevance-search/" data-raw-source="[Improve Knowledge Article search results with Dynamics 365 Relevance Search](https://blogs.msdn.microsoft.com/crm/2018/12/21/improve-knowledge-article-search-results-with-dynamics-365-relevance-search/)">Improve Knowledge Article search results with Dynamics 365 Relevance Search</a></li>
-<li><a href="https://blogs.msdn.microsoft.com/crm/2018/11/22/get-started-with-dynamics-365-service-scheduling/" data-raw-source="[Get started with Dynamics 365 Customer Service Service Scheduling](https://blogs.msdn.microsoft.com/crm/2018/11/22/get-started-with-dynamics-365-service-scheduling/)">Get started with Dynamics 365 Customer Service Service Scheduling</a></li>
+<li><a href="https://cloudblogs.microsoft.com/dynamics365/bdm/2020/10/06/innovation-on-the-service-suite-of-dynamics-365-applications/" data-raw-source="[Innovation on the service suite of Dynamics 365 applications](https://cloudblogs.microsoft.com/dynamics365/bdm/2020/10/06/innovation-on-the-service-suite-of-dynamics-365-applications/)">Innovation on the service suite of Dynamics 365 applications</a></li>
+<li><a href="https://cloudblogs.microsoft.com/dynamics365/bdm/2020/11/24/how-omnichannel-enhances-the-customer-experience/" data-raw-source="[How Omnichannel enhances the customer experience](https://cloudblogs.microsoft.com/dynamics365/bdm/2020/11/24/how-omnichannel-enhances-the-customer-experience/)">How Omnichannel enhances the customer experience</a></li>
+  <li><a href="https://cloudblogs.microsoft.com/dynamics365/it/2020/10/13/build-targeted-user-experiences-efficiently-by-using-app-profiles-in-multisession-apps/" data-raw-source="[Build targeted user experiences efficiently by using app profiles in multisession apps](https://cloudblogs.microsoft.com/dynamics365/bdm/2020/11/24/how-omnichannel-enhances-the-customer-experience/)">Build targeted user experiences efficiently by using app profiles in multisession apps</a></li>
+   <li><a href="https://cloudblogs.microsoft.com/dynamics365/bdm/2020/09/23/new-voice-channel-streamlines-omnichannel-customer-experiences/" data-raw-source="[Announcing first-party voice in Dynamics 365 Customer Service](https://cloudblogs.microsoft.com/dynamics365/bdm/2020/09/23/new-voice-channel-streamlines-omnichannel-customer-experiences/)">Announcing first-party voice in Dynamics 365 Customer Service</a></li>
 </ul>
 </td>
 
