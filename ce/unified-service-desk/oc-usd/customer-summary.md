@@ -7,6 +7,7 @@ manager: shujoshi
 ms.date: 02/03/2020
 ms.topic: article
 ms.service: "dynamics-365-customerservice"
+monikerRange: '>= dynamics-usd-4.1'
 ---
 # View a customer summary to get available information about a customer
 

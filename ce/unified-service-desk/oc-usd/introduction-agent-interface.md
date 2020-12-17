@@ -7,6 +7,7 @@ manager: shujoshi
 ms.date: 06/05/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
+monikerRange: '>= dynamics-usd-4.1'
 ---
 
 # Introduction to the agent interface in Omnichannel for Customer Service

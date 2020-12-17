@@ -4,9 +4,10 @@ description: "Learn on how to add the personalization tab on a Unified Service D
 author: v-sailab
 ms.author: v-sailab
 manager: shujoshi
-ms.date: 12/2/2020
+ms.date: 12/02/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
+monikerRange: '>= dynamics-usd-4.1'
 ---
 
 # Add personalization tab

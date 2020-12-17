@@ -7,6 +7,7 @@ manager: shujoshi
 ms.date: 10/25/2019
 ms.topic: article
 ms.service: dynamics-365-customerservice
+monikerRange: '>= dynamics-usd-4.1'
 ---
 
 # Step 7:  Add the hosted control, action calls, window navigation rule, and events to configurations

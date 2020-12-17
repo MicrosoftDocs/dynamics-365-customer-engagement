@@ -7,6 +7,7 @@ manager: shujoshi
 ms.date: 07/01/2019
 ms.topic: article
 ms.service: dynamics-365-customerservice
+monikerRange: '>= dynamics-usd-4.1'
 ---
 # Step 4: Attach Omnichannel Alert Notification-related action calls to the events
 

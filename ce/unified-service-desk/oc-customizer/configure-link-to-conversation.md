@@ -7,6 +7,7 @@ manager: shujoshi
 ms.date: 08/29/2019
 ms.topic: article
 ms.service: dynamics-365-customerservice
+monikerRange: '>= dynamics-usd-4.1'
 ---
 
 # Configure link to conversation button in Unified Service Desk

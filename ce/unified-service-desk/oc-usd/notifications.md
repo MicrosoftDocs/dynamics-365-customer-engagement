@@ -7,6 +7,7 @@ manager: shujoshi
 ms.date: 01/31/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
+monikerRange: '>= dynamics-usd-4.1'
 ---
 # View alert and toast notifications
 
