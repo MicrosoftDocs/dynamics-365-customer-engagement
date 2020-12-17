@@ -138,16 +138,9 @@ Go to **Properties** and add the offline profile you published if it is not alre
 
 While it is recommended to make changes directly to the default offline profile to receive updates, you also have the option to copy the offline profile and make offline filter changes in the copy. The copy is considered unmanaged and will not receive any updates. If you make changes to the default offline profile and want to see the latest unadultered offline profile you can create a new trial of Field Service and view the included profile.
 
-
-#### Get the default offline profile
-
-Make a copy of the **Field Service Mobile - Offline Profile**. 
-
-> [!Note]
-> The **Field Service Mobile - Offline Profile** is often updated when the Field Service app is updated. If you edit the default offline profile, then you will not receive updates. Updates are why we recommmend making a copy of the default offline profile instead. 
-
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Power Platform admin center showing the copy option for the Field Service Mobile - Offline profile.](./media/mobile-2020-offline-profile-copy.png)
+
 
 #### Sync conflicts
 
