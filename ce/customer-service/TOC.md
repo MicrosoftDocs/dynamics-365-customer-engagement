@@ -76,7 +76,7 @@
 ## Case management
 ### Administrator experience
 #### [Define parent and child cases](define-settings-parent-child-cases.md)
-### [Similar records suggestions](suggest-similar-cases-for-a-case.md)
+#### [Similar records suggestions](suggest-similar-cases-for-a-case.md)
 ### Agent experience
 #### [Create cases](customer-service-hub-user-guide-create-a-case.md)
 #### [Resolve, cancel, and reassign cases](customer-service-hub-user-guide-resolve-cancel-reassign-a-case.md)
@@ -111,18 +111,14 @@
 #### [Unable to delete a managed solution](troubleshoot-delete-managed-solution.md)
 
 ## Email
-### Administrator experience
-#### [Configure email](customer-service-hub-user-guide-email-admin.md)
-### Agent experience
-#### [Use email](customer-service-hub-user-guide-email-overview.md)
+### [Configure email](customer-service-hub-user-guide-email-admin.md)
+### [Use email](customer-service-hub-user-guide-email-overview.md)
 ### [Email FAQs](email-faqs.md)
 
 ## Timeline
-### Administrator experience
-#### [Configure timeline](customer-service-hub-user-guide-timeline-admin.md)
-### Agent experience
-#### [Use timeline](customer-service-hub-user-guide-timeline-overview.md)
-#### [Manage activities from timeline](customer-service-hub-user-guide-manage-timeline-activities.md)
+### [Configure timeline](customer-service-hub-user-guide-timeline-admin.md)
+### [Use timeline](customer-service-hub-user-guide-timeline-overview.md)
+### [Manage activities from timeline](customer-service-hub-user-guide-manage-timeline-activities.md)
 ### [Timeline FAQs](timeline-faqs.md)
 
 ## Knowledge management
@@ -541,16 +537,18 @@
 #### [msdyn_ApplyRoutingRuleEntityRecord](developer/reference/actions/msdyn_ApplyRoutingRuleEntityRecord.md)
 
 ## Troubleshoot issues in Customer Service
-
 ### [Known issues](omnichannel-readme.md)
 ### [Troubleshoot issues in Omnichannel for Customer Service](troubleshoot-omnichannel-customer-service.md)
 ### [Troubleshoot with Solution Health Hub](troubleshoot-using-solution-health-hub.md)
+
 ## FAQs on Customer Service
 ### [FAQs on AI suggestions for cases and knowledge articles](csw-faqs-ai-suggestions.md)
 ### [FAQs on Omnichannel for Customer Service](faqs.md)
 
 ## App profile manager for Customer Service
 ### [App profile manager overview](../app-profile-manager/overview.md)
+
+## [Omnichannel for Customer Service on Unified Service Desk](../unified-service-desk/oc-usd/omnichannel-customer-service-unified-service-desk.md)
 
 ## [Unified Service Desk Guide](https://docs.microsoft.com/dynamics365/unified-service-desk/unified-service-desk)
 
