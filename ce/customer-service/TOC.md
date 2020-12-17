@@ -108,6 +108,7 @@
 #### [Add timer control to forms](add-timer-control-case-form-track-time-against-sla.md)
 #### [Add a timer in forms to track time against enhanced SLAs](add-timer-forms-track-time-against-enhanced-sla.md)
 ### Troubleshoot SLAs
+#### [SLA timer does not pause](troubleshoot-sla-timer-issue.md)
 #### [Unable to delete a managed solution](troubleshoot-delete-managed-solution.md)
 
 ## Email

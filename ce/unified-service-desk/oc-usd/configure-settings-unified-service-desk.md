@@ -11,7 +11,7 @@ ms.service: dynamics-365-customerservice
 
 # Configure recommended settings for Unified Service Desk
 
-[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 The topic explains the recommended settings for Unified Service Desk.
 
@@ -24,5 +24,5 @@ The Chrome Process is used to host web applications in the Unified Service Desk 
 
 ### See also
 
-- [Omnichannel for Customer Service on Unified Service Desk](omnichannel-customer-service-unified-service-desk.md)
-- [Deploy Omnichannel for Customer Service package on Unified Service Desk](omnichannel-customer-service-package.md)
+[Omnichannel for Customer Service on Unified Service Desk](omnichannel-customer-service-unified-service-desk.md)  
+[Deploy Omnichannel for Customer Service package on Unified Service Desk](omnichannel-customer-service-package.md)  
