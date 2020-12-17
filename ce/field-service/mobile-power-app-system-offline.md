@@ -68,7 +68,26 @@ Within your offline profile you can:
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Power Platform admin center, showing mobile offline profiles.](./media/mobile-2020-offline-profile-ppac.png)
 
-## Copy the default offline profile
+## Add users to the offline profile
+
+Open the **Field Service Mobile - Offline Profile** offline profile.  
+
+Add the users who need to work offline in the right **People with offline access** panel. Users must be added here in order to download data offline.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the Power Platform admin center, showing the section where to add users to the offline profile.](./media/mobile-2020-offline-profile-add-user.png)
+
+
+## Edit the offline profile
+
+## Sync filters
+
+Define how often the app will automatically attempt to sync changes and download new records for each entity you can. By default the mobile app will attempt to sync changes and download new records every 5 minutes.
+
+mobile-2020-offline-sync-filter
+
+
+### Copy the default offline profile
 
 Make a copy of the **Field Service Mobile - Offline Profile**. 
 
@@ -78,10 +97,7 @@ Make a copy of the **Field Service Mobile - Offline Profile**.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Power Platform admin center showing the copy option for the Field Service Mobile - Offline profile.](./media/mobile-2020-offline-profile-copy.png)
 
-Add the users who need to work offline in the right **People with offline access** panel. Users must be added here in order to download data offline.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the Power Platform admin center, showing the section where to add users to the offline profile.](./media/mobile-2020-offline-profile-add-user.png)
 
 For each entity, you can choose a data download filter:
 
