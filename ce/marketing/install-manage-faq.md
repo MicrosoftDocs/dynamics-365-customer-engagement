@@ -33,7 +33,7 @@ We send Marketing administrators an admin center notification at least five days
 
 ## How can I request to defer an automatic upgrade?
 
-Keeping Marketing up to date ensures that customers enjoy the most recent features and bug fixes. We understand, however, that business needs sometimes require holding off on an upgrade. For a one-off request to defer an upgrade, contact [Dynamics 365 Marketing Update Policy](D365MKTUpdatePolicy@microsoft.com).
+Keeping Marketing up to date ensures that customers enjoy the most recent features and bug fixes. We understand, however, that business needs sometimes require holding off on an upgrade. For a one-off request to defer an upgrade, contact [Dynamics 365 Marketing Update Policy](mailto:D365MKTUpdatePolicy@microsoft.com).
 
 ## How can customers ensure the upgrade order for their organizations?
 
