@@ -39,10 +39,10 @@ When enabled by your system administrator, you can use the icons that are displa
 When enabled by your system administrator, you can use the **Create a timeline record** feature to quickly create appointments, tasks, send emails, as well as make notes and posts and associate them with other records. 
 
 1. Select **Create a timeline record** icon.<BR><BR>
-![](media\timeline-create-a-record-icon1c.png "Create a timeline record") 
+![Create a timeline record](media\timeline-create-a-record-icon1c.png "Create a timeline record") 
 
 2. Select the type of record you want to create from the display options available. <BR><BR>
-![Create a timeline record](media\timeline-create-a-timeline-record-1f.png "Create a timeline record")
+![Select type of timeline record](media\timeline-create-a-timeline-record-1f.png "Select the type of timeline record")
 
 For information on timeline record configuration, see [Configure activity record types](customer-service-hub-user-guide-timeline-admin.md#how-to-configure-activity-record-types). 
 
