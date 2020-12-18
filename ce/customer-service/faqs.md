@@ -39,7 +39,7 @@ Contact [Dynamics support](https://dynamics.microsoft.com/contact-us/) to get he
 
 ### What channels are supported with Omnichannel for Customer Service?
 
-Some of the supported channels are WeChat, LINE, and Facebook. For the complete list of supported channels, see [Overview of channels](administrator/channels.md).
+Some of the supported channels are WeChat, LINE, and Facebook. For the complete list of supported channels, see [Overview of channels](channels.md).
 
 ### Are Chat and the associated Omnichannel for Customer Service capabilities available as part of my Dynamics 365 Customer Service license?
 

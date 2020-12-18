@@ -36,11 +36,11 @@ ms.reviewer: nenellim
 
 🔶: Card is converted to image
 
-🌐: Card is converted to unformatted text - Links may not be clickable, images may not display, and/or media may not be playable. Varies by channel.
+🌐: Card is converted to unformatted text - Links might not be active, images might not be displayed, and/or media might not work. The behavior might vary by channel.
 
-These categories are intentionally broad and do not fully explain how every card feature is supported in each channel due to the many possible combinations of cards, features, and channels. Please use this table as a base reference, but test each of your cards in the desired channel(s).
+These categories are intentionally broad and do not fully explain how every card feature is supported in each channel due to the many possible combinations of cards, features, and channels. Use the information in the table as a base reference, but test each of your cards in the desired channels.
 
-For more information, refer to these external sources:
+For more information, see the following:
   - [Sending and Receiving Media with WhatsApp Messaging on Twilio](https://support.twilio.com/hc/articles/360017961894-Sending-and-Receiving-Media-with-WhatsApp-Messaging-on-Twilio-Beta-)
   - [Upload media, Twitter developer documentation](https://developer.twitter.com/docs/media/upload-media/uploading-media/media-best-practices)
 
@@ -57,6 +57,7 @@ Suggested action is supported fully with the exception that some channels may li
 | Custom messaging (Direct Line) | Yes                 |
 
 ## File attachment support
+
 You can enable file attachments on the **General settings** tab of a channel so that customers and agents can send files as attachments. Inbound attachments refer to attachments that customers send to agents, and outbound attachments refer to attachments that agents send to customers. For more information about file attachments, see [Enable file attachments](enable-file-attachments.md).
 
 | Channel              | Inbound attachments                        | Outbound attachments                  |

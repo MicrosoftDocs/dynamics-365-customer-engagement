@@ -35,7 +35,7 @@ The following table shows the SKUs that correspond with each experience.
 
 
 > [!NOTE]
-> [SMS](../administrator/configure-SMS-channel.md) and [WhatsApp](configure-whatsapp-channel.md) require additional third-party subscriptions. Refer to channel documentation for more information.
+> [SMS](configure-SMS-channel.md) and [WhatsApp](configure-whatsapp-channel.md) require additional third-party subscriptions. Refer to channel documentation for more information.
 
 ## Embedding other tools in Omnichannel for Customer Service
 
