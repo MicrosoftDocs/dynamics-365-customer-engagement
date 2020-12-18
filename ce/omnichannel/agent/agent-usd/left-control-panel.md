@@ -1,6 +1,6 @@
 ---
 title: "Communication panel (conversation control) | MicrosoftDocs"
-description: "The left control panel is a communication panel or conversation control. The communication panel hosts the messages that you exchange with the customers. The communication panel provides various options like quick replies, consult, transfer, internal and public message modes."
+description: "The left control panel is a communication panel or conversation control that hosts the messages that you exchange with customers. The communication panel provides various options like quick replies, consult, transfer, and internal and public message modes."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -8,136 +8,128 @@ ms.date: 11/12/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
-# View communication panel
+# View the communication panel
 
 [!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
-The communication or conversation panel shows the exchange of messages between you and the customer. The communication panel can hosts different channels.
+The communication panel displays messages that you and your customer exchange during your conversation.In the communication panel, you can:
 
-For a conversation channel:
+- Send quick replies.
+- Search for and share knowledge articles with the customer with whom you're interacting.
+- Transfer the conversation (work item) to another agent or queue.
+- Consult with others if you need help to resolve the work item.
+- Switch between internal and public mode to send messages to internal participants (other agents or supervisors).
 
-- You can send quick replies.
-- You can search for and share knowledge articles with the customer with whom you are interacting.
-- You can transfer the conversation (work item) to another agent or queue.
-- You can use the consult option if you need help to resolve the work item.
-- You can switch between internal and public mode to send messages to the internal participants (other agents and/or supervisors).
+## Use keyboard commands
 
-## Enhance agent productivity using keyboard commands
+You can use the communication panel options or keyboard commands to switch between public-facing and internal messages, get quick replies, show your customer a relevant knowledge article, consult with other agents, or transfer work items.
 
-The communication panel has options that, as an agent, you can use to perform certain actions such as see quick replies, consult, and transfer list, launch notes control, and much more.
-
-In addition, as an agent, you can use the keyboard commands in the communication panel to perform the actions that are such as see quick replies, consult, and transfer list, launch notes control, and much more.
-
-The keyboard commands allows you in completing the scenario effectively and efficiently thus increasing your productivity.
-
-In the communication panel, you can see the following options:
-
-In the conversation channel, you can see the following options:
+The following keyboard commands are available in the communication panel.
  
  | Option           | Description                                   |  Command |
  |------------------|-----------------------------------------------|-----------|
- | Public           | Send messages to public | `/p` |
+ | Public           | Send public messages | `/p` |
  | Internal         | Send messages to internal users | `/i` |
- | Quick replies    | Send templatized messages  | `/q` |
- | Knowledge articles | Search for knowledge articles and share | `/kb` |
- | Consult          | View list to consult with other users | `/c` |
- | Transfer         | View list to transfer the request | `/t` and `/tq` |
+ | Quick replies    | Send messages based on templates  | `/q` |
+ | Knowledge articles | Search for and share knowledge articles | `/kb` |
+ | Consult          | View a list of others you can consult with | `/c` |
+ | Transfer         | View a list of agents or queues to transfer the conversation to | `/t` and `/tq` |
 
 > [!div class=mx-imgBorder]
-> ![omnichannel chat panel](../../media/oc-usd-chat-control-left-panel.png "Omnichannel chat panel")   
+> ![Omnichannel communication panel](../../media/oc-usd-chat-control-left-panel.png "Omnichannel communication panel")
 
-> [!Note]
-> You cannot play mp4 video files in the communication panel. We recommend you to download the files to play the videos.
+> [!NOTE]
+> You can't play MP4 video files in the communication panel. To play videos, we recommend that you download the video files.
 
 ## Internal and public messages
 
-The communication panel allows you to send messages in two ways - **Internal** and **Public**. 
+With the communication panel, you can send messages in two ways: **Internal** and **Public**. 
 
-When you want to send messages only to the internal participants like other agents and/or supervisors, then use the **Internal** option. The internal messages are not shown to the customers.
+When you want to send messages only to internal participants, like other agents or supervisors, use the **Internal** option. These internal messages won't be shown to the customers.
 
 > [!div class=mx-imgBorder]
 > ![Send messages to Send messages to internal participants](../../media/oc-usd-cc-internal-message.png "Send messages to internal participants")
 
-When you want to send messages to all the participants in the conversation including the customer, then use the **Public** option.
+When you want to send messages to all participants in the conversation, including the customer, use the **Public** option.
 
 > [!div class=mx-imgBorder]
-> ![Send messages to public](../../media/oc-usd-cc-public-message.png "Send messages to public")
+> ![Send public messages](../../media/oc-usd-cc-public-message.png "Send public messages")
 
-You can use keyboard commands to send internal and public messages:
+You can use keyboard commands to alternate between sending internal and public messages:
 
-- **/i** – Press the Slash (/) key and the letter i to send an internal message to other agents and/or a supervisor.
+- **Internal**: Enter **/i** to send an internal message that only agents or supervisors can see.
 
-- **/p** – Press the Slash (/) key and the letter p to send a public message to all the participants in the interaction.
+- **Public**: Enter **/p** to send a public message to all the participants who are interacting in the conversation.
 
-When you type the keyboard command, the mode changes to as per the command. For example, now, you are on Public mode. Type **/i** to change to **Internal** mode.
+You can change the mode while you're in the conversation. For example, if you're in **Public** mode and you enter **/i**, the mode will change to **Internal**.
 
 ## Send quick replies in the chat
 
-The communication panel provides you with the capability to send templatized messages to the customer with whom you're interacting. These templatized messages are stored as quick replies. Select the **Quick replies** button to retrieve the messages and send it to the customers.
+You can send messages that were created based on templates to the customer with whom you're interacting. These messages are stored as quick replies. Select **Quick replies** ![Quick replies](../../media/oc-usd-chat-control-left-panel-quick-replies.png) to retrieve and send a message to the customers.
 
 > [!div class=mx-imgBorder]
->![Omnichannel quick response](../../media/oc-usd-cc-quick-replies.png "Omnichannel quick response")
+>![Omnichannel quick reply](../../media/oc-usd-cc-quick-replies.png "Omnichannel quick reply")
 
-You can use a keyboard command to see the list of quick replies. Type the forward slash (/) key and the letter q (**/q**). When you type **/q** the Quick replies fly-out is displayed.
+You can also enter the keyboard command **/q** to see the list of quick replies.
 
-### Search for messages
+### Search for specific messages
 
-After you type **/q** in the communication panel messaging area, you can continue typing any keywords and if the **Quick replies** library has at least one message associated with the word, it is filtered and displayed to you.
+After you enter **/q** in the communication panel messaging area, continue by typing any keywords and if the **Quick replies** library has at least one message associated with the words, the message will be displayed.
 
  > [!div class=mx-imgBorder] 
- > ![Type /q and the keyword to filter the replies](../../media/oc-usd-send-quick-replies-filter.png "Filter replies") 
+ > ![Type /q and the keyword to filter the replies](../../media/oc-usd-send-quick-replies-filter.png "Filter replies")
 
 ## Search for and share knowledge articles
 
-From the communication panel, you can launch the knowledge article search control using the knowledge article option. After launching the knowledge article search control, you can search for relevant knowledge articles, based on the context of the session, and then share the articles with the customers.
+From the communication panel, you can open the knowledge article search control by selecting the knowledge articles option ![KB](../../media/oc-usd-chat-control-left-panel-notes.png). You can also enter the keyboard command **/kb** to open knowledge article search.
 
-You can use a keyboard command to launch the knowledge article search control in the right panel. Press the Slash (/) key and the letters K and B (**/kb**). You can search for and share articles with customers through the communication panel. Select the **Send link** button to share the link of a knowledge article with the customer. More information: [Search for knowledge articles](right-control-panel.md#search-for-knowledge-articles)
+After opening knowledge article search, you can search for relevant knowledge articles based on the context of your session and you can share articles with customers through the communication panel. Select the **Send link** button to share the knowledge article link. More information: [Search for knowledge articles](right-control-panel.md#search-for-knowledge-articles)
 
-## Consult with agent or supervisor
+## Consult with an agent or supervisor
 
-The communication panel lets you to consult with other agents and/or supervisor using the consult option. You can invite the agent or supervisor by selecting the **Consult** button in the communication panel.
+You can consult with other agents or your supervisors. Select **Consult** ![Consult](../../media/oc-usd-chat-control-left-panel-consult.png) to invite your colleagues.
 
 > [!div class=mx-imgBorder]
 >![Omnichannel consult](../../media/oc-usd-cc-consult.png "Omnichannel consult")  
 
-You can use a keyboard command to see the list of agents and/or the supervisor who is available for consultation. Press the Slash (/) key and the letter c (**/c**).
+You can also enter the keyboard command **/c** to see the list of the supervisors or agents who are available for consultation. 
 
 > [!Note]
-> We recommend inviting a maximum of five consulting agents when conversing with the customer.
+> We recommend that you invite no more than five consulting agents when conversing with the customer.
 
-### Search for consulting participants
+### Search for a specific agent
 
-After you type **/c** in the communication panel messaging area, you can continue typing the name of the participant and if it is present, the names are filtered and displayed to you.
+After you enter **/c**, you can continue typing the name of a participant you'd like to consult with. If the participant is present, the name is displayed.
 
 ## Transfer the conversation
 
-The communication panel allows you to transfer a conversation request. You can transfer the conversation (work item) either to an agent or a queue.
+You can transfer the conversation (work item) either to an agent or a queue.
 
 > [!div class=mx-imgBorder]
 >![Omnichannel transfer](../../media/oc-usd-cc-transfer.png "Omnichannel transfer")
 
-You can transfer a request only to agents who are configured in the same work stream and queue. If the request belongs to another queue and when you transfer the request, routing rules assign the conversation (work item) to the appropriate agent in the queue.
+You can transfer a conversation only to agents who are configured in the same work stream and queue. If the conversation belongs to another queue, when you transfer the request, routing rules assign the conversation (work item) to the appropriate agent in the queue.
 
-Use a keyboard command to see the list of agents and/or the supervisor who is available for transfer. Press the Slash (/) key and the letters t (**/t**).
+To see the list of agents or supervisors who are available to transfer the conversation to, enter **/t**.
 
-Use a keyboard command to see the list of queues to transfer the conversation request. Press the Slash (/) key and the letters T and Q (**/tq**).
+To see the list of queues you can transfer the conversation to, enter **/tq**.
 
-When skill-based routing is enabled, then during transfer, the **Transfer** flyout shows users sorted in order of matching skills.
+When skill-based routing is enabled, the **Transfer** flyout shows users sorted in order of matching skills.
 
-### Search for agents or queues
+### Search for specific agents or queues
 
-After you type **/t** or **/tq** in the communication panel messaging area, you can continue typing the name of the participant and if it is present, the agent or queues names are filtered and displayed to you.
+Enter **/t** or **/tq** followed by the name of a participant or queue. If the participant or queue is present, the name is displayed.
 
-![Filter transfer queue list](../../media/oc-usd-cc-transfer-queue-filter.png "Filter transfer queue list")
+![Filter the transfer queue list](../../media/oc-usd-cc-transfer-queue-filter.png "Filter transfer queue list")
 
 > [!div class="nextstepaction"]
 > [Next topic: View call scripts, take notes, and search knowledge articles](right-control-panel.md)
 
-## See also
+### See also
 
-- [Introduction to the agent interface in Omnichannel for Customer Service](introduction-agent-interface.md)
-- [View customer summary and know everything about customers](customer-summary.md)
-- [View customer summary for an incoming conversation request](view-customer-summary-incoming-conversation-request.md)
-- [Create a record](create-record.md)
-- [Search for records](search-record.md)
-- [Link and unlink a record](link-unlink-record.md)
+[Introduction to the agent interface in Omnichannel for Customer Service](introduction-agent-interface.md)  
+[View customer summary and know everything about customers](customer-summary.md)  
+[View customer summary for an incoming conversation request](view-customer-summary-incoming-conversation-request.md)  
+[Create a record](create-record.md)  
+[Search for records](search-record.md)  
+[Link and unlink a record](link-unlink-record.md)  
