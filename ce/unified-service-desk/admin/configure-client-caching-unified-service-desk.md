@@ -174,7 +174,7 @@ Client caching enables you to reduce the amount of bandwidth required at the sta
   
 12. Select **Save** and then close the action call.  
   
-    After you have set up the UII action and the action call, you can add a toolbar button, event, or code to directly invoke the action call from the client application. This creates a **RestDesktopCache** setting in the **User Settings** area, which triggers the reset behavior as described earlier in [Using Dataverse server](../../unified-service-desk/admin/configure-client-caching-unified-service-desk.md#using-the-common-data-service-platform-server).  
+    After you have set up the UII action and the action call, you can add a toolbar button, event, or code to directly invoke the action call from the client application. This creates a **RestDesktopCache** setting in the **User Settings** area, which triggers the reset behavior as described earlier in [Using Dataverse server](#using-dataverse-server).  
   
 ## See also  
  [Sample Unified Service Desk applications](../../unified-service-desk/admin/sample-unified-service-desk-applications.md)

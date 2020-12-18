@@ -1,6 +1,6 @@
 ---
-title: Knowledge base search mechanisms in Dynamics 365 Customer Service| MicrosoftDocs
-description: Know how the Knowledge base search mechanisms and methods works in Microsoft Dynamics 365 Customer Service
+title: Knowledge base search options in Dynamics 365 Customer Service| MicrosoftDocs
+description: Know how the Knowledge base search methods work in Microsoft Dynamics 365 Customer Service.
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
@@ -18,16 +18,16 @@ search.app:
   - D365CS
 ---
 
-# Understand knowledge base search mechanisms
+# Understand knowledge base search
 
 Setting up a comprehensive knowledge base is the key to increased customer satisfaction and improved productivity. 
 A knowledge base is created to help the customer service reps with solutions to the most common issues, so that they can assist customers quickly.
 
-Use this topic to understand how various search mechanisms work in a knowledge base, and how a customer service rep can view accurate search results based on the client, application, or keyword they use to search the knowledge base.
+Use this topic to understand how various search methods work in a knowledge base, and how a customer service rep can view accurate search results based on the client, application, or keyword they use to search the knowledge base.
 
 See the following section to learn the types of search mechanisms available:
 
-## Understand search mechanisms 
+## Search options
 
 - **Full-text search**: Lets you run full-text queries against character-based data in SQL Server tables. 
  
@@ -67,7 +67,7 @@ You can search the knowledge base from the following areas in the Customer Servi
 > You can also search the knowledge base using Portals. See [Use faceted search to improve portal search](../portals/improve-portal-search-faceted-search.md).
 
 
-With each of the previous search areas, the search results might vary based on the underlying search mechanism used:
+With each of the previous search areas, the search results might vary based on the underlying search option used:
 
 |Version  |  |Search areas| Search mechanism  |
 |---------|---------|---------|---------|

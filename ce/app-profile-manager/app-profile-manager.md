@@ -106,5 +106,5 @@ More information: [Roles and privileges associated with app profile manager](sec
 ### See also
 
 [Manage session templates](session-templates.md)  
-[Configure channels](../omnichannel/administrator/channels.md)  
+[Configure channels](../customer-service/channels.md)  
 [Manage agent scripts](agent-scripts.md)  

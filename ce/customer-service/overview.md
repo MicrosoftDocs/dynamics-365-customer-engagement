@@ -15,7 +15,7 @@ ms.custom:
 
 Welcome to Dynamics 365 Customer Service! We are delighted to offer you a suite of capabilities to ensure your business can deliver the best customer service experience possible to your customers. We believe that knowing your customers enables you to personalize each experience and optimizes your agents' productivity so you can earn customers for life. 
 
-We offer several app experiences for you to choose from, depending on your support organization’s needs, and the data is all stored in CDS, which makes it seamless for you to switch between apps and still be able to work with a customer's existing data across them. 
+We offer several app experiences for you to choose from, depending on your support organization’s needs, and the data is all stored in Microsoft Dataverse, which makes it seamless for you to switch between apps and still be able to work with a customer's existing data across them.
 
 Use [!INCLUDE[pn-ms-dyn-365-for-customer-service](../includes/pn-ms-dyn-365-for-customer-service.md)] to:
 
@@ -85,7 +85,3 @@ For more details about app accessibility and GDPR compliance, see [Accessibility
  - [Customer Service Workspace](customer-service-workspace-system-requirements.md)
  - [Omnichannel for Customer Service](../omnichannel/introduction-omnichannel.md)
  - [Customer Service Hub](user-guide-customer-service-hub.md)
-
-
-
-

@@ -21,7 +21,7 @@ search.app:
 
 ## Issue
 
-Unable to delete a managed solution that contains an entity with a service level agreement (SLA) enabled on it. This entity has been created as part of a previously imported solution.
+Unable to delete a managed solution that contains an entity with a service-level agreement (SLA) enabled on it. This entity has been created as part of a previously imported solution.
 
 ## Summary
 
