@@ -131,7 +131,7 @@ When the customer responds back to the outbound messages, the customer messages 
 
 [Outbound messaging in Omnichannel for Customer Service](https://go.microsoft.com/fwlink/?linkid=2147614)
 
-To view more videos on Omnichannel for Customer Service, see [Videos](../videos.md).
+To view more videos on Omnichannel for Customer Service, see [Videos](videos.md).
 
 ### See also
 
@@ -139,4 +139,4 @@ To view more videos on Omnichannel for Customer Service, see [Videos](../videos.
 [Channels in Omnichannel for Customer Service](channels.md) <br> 
 [Configure an SMS channel for TeleSign](configure-sms-channel.md)<br>
 [Configure an SMS channel for Twilio](configure-sms-channel-twilio.md)<br>
-[SMS FAQ](../faqs.md#sms)
+[SMS FAQ](faqs.md#sms)

@@ -36,8 +36,8 @@ There are two types of notifications:
 
 ## See also
 
-- [Omnichannel system customizers](omnichannel-customizer.md)
-- [Customize Customer summary form](customize-customer-summary.md)
-- [Customize the conversation form](customize-session-form.md)
+- [Omnichannel system customizers](../../customer-service/omnichannel-customizer.md)
+- [Customize Customer summary form](../../customer-service/customize-customer-summary.md)
+- [Customize the conversation form](../../customer-service/customize-session-form.md)
 - [Configure agent and supervisor configurations in Unified Service Desk](create-agent-supervisor-configurations-unified-service-desk.md)
 - [Configure toast notification in Unified Service Desk](configure-toast-notification-unified-service-desk.md)

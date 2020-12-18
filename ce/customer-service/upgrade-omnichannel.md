@@ -34,7 +34,7 @@ Do the following steps to upgrade Omnichannel for Customer Service:
 
 ## Upgrade Omnichannel for Customer Service package on Unified Service Desk
 
-If you are using Omnichannel for Customer Service on Unified Service Desk, see [Deploy package on Dynamics 365 Customer Service instance](omnichannel-customer-service-package.md#deploy-package-on-dynamics-365-customer-service-app) to upgrade.
+If you are using Omnichannel for Customer Service on Unified Service Desk, see [Deploy package on Dynamics 365 Customer Service instance](../unified-service-desk/oc-usd/omnichannel-customer-service-package.md#deploy-package-on-dynamics-365-customer-service-app) to upgrade.
 
 ### See also
 

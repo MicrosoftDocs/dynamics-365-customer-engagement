@@ -53,7 +53,7 @@ To enable AI-suggested similar cases and knowledge articles, see [Enable AI sugg
 
 Create a bot user in the application to work as a smart assistant to the agent. A bot user is created as an application user and assigned the **Omnichannel agent** role. If your bot needs to search for knowledge base articles, then you need to provide either the **Customer Service Manager** or **Customer Service Representative** role.
 
-You can create an application user only in the web client. Use the bot application ID of the smart assist bot to create the bot user. For information: [Create a bot user](../omnichannel/administrator/configure-bot.md#step-1-create-a-bot-user).
+You can create an application user only in the web client. Use the bot application ID of the smart assist bot to create the bot user. For information: [Create a bot user](../customer-service/configure-bot.md#step-1-create-a-bot-user).
 
 ### Step 2: Add a smart assist bot to a work stream<a name="step-2-add-smart-assist-bot-to-a-workstream"></a>
 

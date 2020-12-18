@@ -17,7 +17,7 @@ Identify and assist customers better by showing their details on the **Customer 
 
 For every incoming conversation request agent receives, a notification appears that includes contextual information for the request and customer details, if available. After the agent accepts the incoming notification, the **Customer summary** page opens, and shows the details of the identified customer and case. 
 
-For more information, see [View Customer summary for an incoming engagement request](../agent/agent-oc/oc-view-customer-summary-incoming-conversation-request.md).
+For more information, see [View Customer summary for an incoming engagement request](oc-view-customer-summary-incoming-conversation-request.md).
 
 > [!NOTE]
 > To know how to create pre-chat questions and use them in a pre-chat survey, see [Configure a pre-chat survey](configure-pre-chat-survey.md). 
@@ -38,10 +38,10 @@ For **Authenticated chat**, the logged in user details will be used to search an
 
 ## Use the setContextProvider API method
 
-You can automatically identify records using custom context set using setContext API apart from pre-chat answers. To programmatically set these values, see [setContextProvider](../developer/reference/methods/setcontextprovider.md).
+You can automatically identify records using custom context set using setContext API apart from pre-chat answers. To programmatically set these values, see [setContextProvider](developer/reference/methods/setcontextprovider.md).
 
 
 ### See also
 
 [Understand and create work streams](work-streams-introduction.md)  
-[setContextProvider](../developer/reference/methods/setcontextprovider.md)  
+[setContextProvider](developer/reference/methods/setcontextprovider.md)  

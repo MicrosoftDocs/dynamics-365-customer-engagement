@@ -42,9 +42,9 @@ The macros in Omnichannel for Customer Service have the following:
 
 - Install Dynamics 365 Productivity Tools solution.
 
-- Ensure that you have the **Productivity tools administrator** security role. To learn more, see [Assign roles and enable users](../omnichannel/administrator/add-users-assign-roles.md).
+- Ensure that you have the **Productivity tools administrator** security role. To learn more, see [Assign roles and enable users](../customer-service/add-users-assign-roles.md).
 
-- Ensure that agents and supervisors are assigned the **Productivity tools user** security role. To learn more, see [Assign roles and enable users](../omnichannel/administrator/add-users-assign-roles.md).
+- Ensure that agents and supervisors are assigned the **Productivity tools user** security role. To learn more, see [Assign roles and enable users](../customer-service/add-users-assign-roles.md).
 
 ## Predefined automation actions
 
@@ -293,9 +293,9 @@ For example, you want to open a new form and save it after entering the fields. 
 
 Macros are a set of configured actions that are executed on demand by users. As an administrator, you need to configure the actions that a macro must perform. To configure the actions, you need to provide certain data parameters keys. When an agent runs the macro, these data parameters keys are replaced by contextual values.
 
-To learn about the slugs for productivity tools, see [Slugs](../omnichannel/administrator/automation-dictionary-keys.md#slugs-for-productivity-tools-macros-and-agent-scripts).
+To learn about the slugs for productivity tools, see [Slugs](automation-dictionary-keys.md#slugs-for-productivity-tools-macros-and-agent-scripts).
 
-To learn more, see [Use automation dictionary to pass data parameter keys](../omnichannel/administrator/automation-dictionary-keys.md#pass-data-parameter-in-macros-and-agent-scripts).
+To learn more, see [Use automation dictionary to pass data parameter keys](automation-dictionary-keys.md#pass-data-parameter-in-macros-and-agent-scripts).
 
 ## Create a macro
 
@@ -389,7 +389,7 @@ To learn more, see [Use automation dictionary to pass data parameter keys](../om
 
 12. Select **Save and close**.
 
-Now, when the agent executes the macro, the actions will be executed by fetching the data parameter keys according to the context available from the sources. To learn more, see [Use automation dictionary to pass data parameters keys](../omnichannel/administrator/automation-dictionary-keys.md).
+Now, when the agent executes the macro, the actions will be executed by fetching the data parameter keys according to the context available from the sources. To learn more, see [Use automation dictionary to pass data parameters keys](automation-dictionary-keys.md).
 
 ## View macro run history
 
@@ -428,5 +428,5 @@ As an administrator, you can view the macro run history, which shows how many ti
 
 ### See also
 
-[Use automation dictionary to pass data parameters keys](../omnichannel/administrator/automation-dictionary-keys.md)  
+[Use automation dictionary to pass data parameters keys](automation-dictionary-keys.md)  
 [Agent scripts](agent-scripts.md)  

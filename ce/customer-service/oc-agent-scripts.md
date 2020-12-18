@@ -40,7 +40,7 @@ Each of the steps can be identified with the actionable icon. When you expand a 
 
 ## Prerequisite 
 
-Ensure you (agent and supervisor) have the **Productivity tools user** security role. To learn more, see [Assign roles and enable users](../../administrator/add-users-assign-roles.md).
+Ensure you (agent and supervisor) have the **Productivity tools user** security role. To learn more, see [Assign roles and enable users](add-users-assign-roles.md).
 
 ## Text instructions
 
@@ -105,7 +105,7 @@ The **Chat session** script has the following steps
 | Agent script | Close conversation | Follow these steps to close a conversation | View | When you select the view icon, the system loads another agent script from the current agent script. In this sample, the another agent script is **Close conversation** script. |
 
 
-Similarly, the administrator can create more agent scripts as per your business scenarios. To learn how to configure, see [Guide agents with scripts](../../administrator/agent-scripts.md).
+Similarly, the administrator can create more agent scripts as per your business scenarios. To learn how to configure, see [Guide agents with scripts](agent-scripts.md).
 
 ## See also
 

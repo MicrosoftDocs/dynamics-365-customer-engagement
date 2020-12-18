@@ -18,7 +18,7 @@ ms.service: "dynamics-365-customerservice"
 The topic explains the known issues and limitations of Omnichannel for Customer Service.
 
 > [!Important]
-> We recommend updating Omnichannel for Customer Service to the latest version for the best experience. More information: [Upgrade Omnichannel for Customer Service](administrator/upgrade-omnichannel.md)
+> We recommend updating Omnichannel for Customer Service to the latest version for the best experience. More information: [Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md)
 
 ## Loss of agent script state
 
@@ -137,7 +137,7 @@ The updates you do to the out-of-the-box **Cases Work Distribution Flow** for un
 
 Authorize Dataverse native connector in the flow before you save it.
 
-More information: [Update cases work distribution flow](administrator/multiple-ws-entity-record-routing.md#update-entity-records-work-distribution-flow)
+More information: [Update cases work distribution flow](multiple-ws-entity-record-routing.md#update-entity-records-work-distribution-flow)
 
 ## Entity records aren't distributed to agents
 

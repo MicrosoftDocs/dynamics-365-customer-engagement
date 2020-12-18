@@ -66,7 +66,7 @@ You can change the mode while you're in the conversation. For example, if you're
 
 ## Send quick replies in the chat
 
-You can send messages that were created based on templates to the customer with whom you're interacting. These messages are stored as quick replies. Select **Quick replies** ![Quick replies](../../media/oc-usd-chat-control-left-panel-quick-replies.png) to retrieve and send a message to the customers.
+You can send messages that were created based on templates to the customer with whom you're interacting. These messages are stored as quick replies. Select **Quick replies** to retrieve and send a message to the customers.
 
 > [!div class=mx-imgBorder]
 >![Omnichannel quick response](../media/oc-usd-cc-quick-replies.png "Omnichannel quick response")
@@ -82,13 +82,13 @@ After you enter **/q** in the communication panel messaging area, continue by ty
 
 ## Search for and share knowledge articles
 
-From the communication panel, you can open the knowledge article search control by selecting the knowledge articles option ![KB](../../media/oc-usd-chat-control-left-panel-notes.png). You can also enter the keyboard command **/kb** to open knowledge article search.
+From the communication panel, you can open the knowledge article search control by selecting the knowledge articles option. You can also enter the keyboard command **/kb** to open knowledge article search.
 
 After opening knowledge article search, you can search for relevant knowledge articles based on the context of your session and you can share articles with customers through the communication panel. Select the **Send link** button to share the knowledge article link. More information: [Search for knowledge articles](right-control-panel.md#search-for-knowledge-articles)
 
 ## Consult with an agent or supervisor
 
-You can consult with other agents or your supervisors. Select **Consult** ![Consult](../../media/oc-usd-chat-control-left-panel-consult.png) to invite your colleagues.
+You can consult with other agents or your supervisors. Select **Consult** to invite your colleagues.
 
 > [!div class=mx-imgBorder]
 >![Omnichannel consult](../media/oc-usd-cc-consult.png "Omnichannel consult")  

@@ -35,7 +35,7 @@ Similar to the Customer Service Hub app, Omnichannel for Customer Service uses t
 
 3. Select **Queues** under **Case Settings**.
 
-4. Select an existing queue from the list or select **+ New** to create a new queue and fill the required details. To learn more, [Create and manage queues](../../customer-service/set-up-queues-manage-activities-cases.md).
+4. Select an existing queue from the list or select **New** to create a new queue and fill the required details. To learn more, [Create and manage queues](set-up-queues-manage-activities-cases.md).
 
 5. Select the checkbox to enable the queue for automatic distribution of work items.
 

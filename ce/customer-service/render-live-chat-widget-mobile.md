@@ -67,7 +67,7 @@ chatWebView.evaluateJavascript(
 )
 ```
 
-The preceding code covers the scenario where the user of the mobile app ends the chat. In another scenario, where an agent ends the conversation, you can listen for the [lcw:threadUpdate](../reference/events/lcw-threadUpdate.md) event and call the [closeChat](developer/reference/methods/closeChat.md) method to end the conversation from the client side.
+The preceding code covers the scenario where the user of the mobile app ends the chat. In another scenario, where an agent ends the conversation, you can listen for the [lcw:threadUpdate](developer/reference/events/lcw-threadUpdate.md) event and call the [closeChat](developer/reference/methods/closeChat.md) method to end the conversation from the client side.
 
 ```javascript
 chatWebView.evaluateJavascript(

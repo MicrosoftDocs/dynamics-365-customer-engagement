@@ -232,8 +232,8 @@ You can filter the information presented in the reports by selecting **Duration*
 
 ### See also
 
-[Introduction to Omnichannel Insights dashboard](../supervisor/intro-dynamics-365-omnichannel-insights-dashboard.md)
+[Introduction to Omnichannel Insights dashboard](intro-dynamics-365-omnichannel-insights-dashboard.md)
 
-[Configure Omnichannel Insights dashboard](../administrator/configure-historical-sentiment-dashboard-supervisor.md)
+[Configure Omnichannel Insights dashboard](configure-historical-sentiment-dashboard-supervisor.md)
 
-[Analyze real-time customer sentiment](../administrator/enable-sentiment-analysis.md)
+[Analyze real-time customer sentiment](enable-sentiment-analysis.md)

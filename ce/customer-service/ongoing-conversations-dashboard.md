@@ -35,7 +35,7 @@ The **Omnichannel Ongoing Conversations** is available in:
 2.	Sign in with your supervisor credentials.
     
     > [!NOTE]
-    > To learn more, see [Sign in to Unified Service Desk – Omnichannel for Customer Service](../agent/agent-usd/signin-unified-service-desk-omnichannel.md).
+    > To learn more, see [Sign in to Unified Service Desk – Omnichannel for Customer Service](../unified-service-desk/oc-usd/signin-unified-service-desk-omnichannel.md).
 
 3.	Select the **Conversations** tab.
 
@@ -58,6 +58,6 @@ The **Omnichannel Ongoing Conversations** is available in:
 
 ### See also
 
-[Provide access to Ongoing Conversations dashboard](../administrator/configure-ongoing-conversations-dashbaord.md)  
+[Provide access to Ongoing Conversations dashboard](configure-ongoing-conversations-dashbaord.md)  
 [Introduction to intraday insights dashboard](intro-intraday-insights-dashboard.md)  
 [View and understand Omnichannel intraday insights dashboard](intraday-insights-dashboard.md)  

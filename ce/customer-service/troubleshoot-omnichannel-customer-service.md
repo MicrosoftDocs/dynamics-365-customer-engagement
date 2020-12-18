@@ -519,7 +519,7 @@ After you sign in to the Unified Service Desk client application, you see the fo
 **An error occurred in the Communication panel. Restart Unified Service Desk and try again. (Error Code - AAD_ID_MISMATCH - Azure ADID mismatched with logged-in user id)**
 
    > [!div class=mx-imgBorder]
-   > ![Unified Service Desk application error](../omnichannel/media/oceh/usd-communication-panel-error.png "Unified Service Desk application error")
+   > ![Unified Service Desk application error](media/usd-communication-panel-error.png "Unified Service Desk application error")
 
 While signing in to Unified Service Desk you must enter the Customer Service app credentials and sign in, and again, you are shown a dialog to enter credentials to connect to Dataverse server.
 When you enter different credentials, this issue occurs. 
@@ -596,7 +596,7 @@ Dynamics 365 Customer Service organization that you create from **demos.microsof
 If you import the Unified Service Desk - Omnichannel for Customer Service package without deleting the existing configuration in the new demo org, you see an error after signing in to Unified Service Desk client application. The reason for the issue is multiple sample Unified Service Desk configurations cannot exist in a Customer Service instance.
 
    > [!div class=mx-imgBorder]
-   > ![The hosted application couldn't be created](../omnichannel/media/oceh/usd-client-error.png "The hosted application couldn't be created")
+   > ![The hosted application couldn't be created](media/usd-client-error.png "The hosted application couldn't be created")
 
 ### Resolution
 
@@ -637,11 +637,11 @@ When you sign in to Unified Service Desk, you see the following error.
 **APPLICATION_HOST_ERR_NO_CONFIGURED_APPS: applications are configured for your use.**
 
    > [!div class=mx-imgBorder]
-   > ![Unified Service Desk application configuration error](../omnichannel/media/oceh/usd-application-host-error.png "Unified Service Desk application configuration error")
+   > ![Unified Service Desk application configuration error](media/usd-application-host-error.png "Unified Service Desk application configuration error")
 
 The issue is due to the package deployment failure.
 
 ### Resolution
 
-You must the deploy the Unified Service Desk - Omnichannel for Customer Service package again. To learn more, see [Deploy Unified Service Desk – Omnichannel for Customer Service package](omnichannel-customer-service-package.md#deploy-unified-service-desk---omnichannel-for-customer-service-package).
+You must the deploy the Unified Service Desk - Omnichannel for Customer Service package again. To learn more, see [Deploy Unified Service Desk – Omnichannel for Customer Service package](../unified-service-desk/oc-usd/omnichannel-customer-service-package.md#deploy-unified-service-desk---omnichannel-for-customer-service-package).
 

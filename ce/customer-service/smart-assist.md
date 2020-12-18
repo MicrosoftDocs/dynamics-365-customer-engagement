@@ -82,7 +82,7 @@ You can add multiple bots to a work stream based on your business requirements.
 
 After you've created the agent script, you need to enable it in the productivity pane to display the scripts to agents in Omnichannel for Customer Service.
 
-To learn more about the productivity pane, see [Productivity pane overview](productivity-pane.md). You can enable agent productivity tools in the [App profile manager](app-profile-manager/overview.md) in the Power Apps portal.
+To learn more about the productivity pane, see [Productivity pane overview](productivity-pane.md). You can enable agent productivity tools in the [App profile manager](../app-profile-manager/overview.md) in the Power Apps portal.
 
 After you've enabled Smart Assist in the App profile manager, agents can see the smart-assist cards in Omnichannel for Customer Service.
 
