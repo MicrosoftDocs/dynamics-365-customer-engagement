@@ -49,7 +49,7 @@ To begin, select the entity and form where you want to add and configure your ti
 1. In this example we selected **Forms** under the **Account** entity, which displayed a list of **Form types**. 
 2. Since timelines can only be used on **Main** form types, we selected **Account for Interactive experiences**. 
 
-### Adding or removing a timeline from an entity form
+### Add or remove a timeline from an entity form
 
 Use the following steps to add or remove a timeline from an entity form:
 
@@ -67,7 +67,7 @@ Use the following steps to add or remove a timeline from an entity form:
 > Since the timeline component relies exclusively on underlying related data, it will always say **Almost there** when added to the timeline section. 
 > Also, as we are in a create and/or edit state on the form, there is no underlying data, so the area is blank.
 
-## Understanding the timeline component on the form
+## Understand the timeline component on the form
 
 In the body of the entity form located in the center, there is an area titled **TIMELINE**. Within this section is another area titled **Timeline**. The following outlines and clarifies the different between these two sections.
 
