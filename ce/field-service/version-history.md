@@ -43,7 +43,7 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 | | <i>Great Britain</i> | [8.8.32.59](https://docs.microsoft.com/dynamics365/field-service/version-history#883259) | TBD | 01/22/2021
 | | <i>Oceana</i> | [8.8.32.59](https://docs.microsoft.com/dynamics365/field-service/version-history#883259) | TBD | 01/22/2021
 |<strong>Station 4</strong> | |  |  | |
-| | <i>Europe</i> | [8.8.31.60](https://docs.microsoft.com/dynamics365/field-service/version-history#883160) | [8.8.32.59](https://docs.microsoft.com/dynamics365/field-service/version-history#883259) | 12/18/2020
+| | <i>Europe</i> | [8.8.32.59](https://docs.microsoft.com/dynamics365/field-service/version-history#883259) | TBD | 01/29/2021
 |<strong>Station 5</strong> | |  |  | |
 | | <i>North America</i> | [8.8.31.60](https://docs.microsoft.com/dynamics365/field-service/version-history#883160) | [8.8.32.59](https://docs.microsoft.com/dynamics365/field-service/version-history#883259) | 01/08/2021
 |<strong>Station 6</strong> | |  |  | |
