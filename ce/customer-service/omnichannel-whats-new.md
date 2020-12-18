@@ -83,7 +83,7 @@ This section contains information about new features and enhancements in Omnicha
     > [!div class=mx-imgBorder]
     > ![Create account, contact, and case](media/customer-summary-create-record.PNG "Create account, contact, and case")
 
-    More information: [Create a new record from the Customer Summary page](oc-create-record.md#create-a-new-record-from-the-customer-summary-page)
+    More information: [Create a new record from the Customer Summary page](oc-create-record.md#create-a-record-from-the-customer-summary-page)
 
 - **View timeline based on the Case, Contact, or Account record:** The Timeline section on the Customer Summary page displays case- and customer-related activities in the form of a timeline. The **Linked records** field is used to switch the timeline based on the Case, Contact, or Account record linked to the conversation.
 
@@ -117,7 +117,7 @@ This section contains information about new features and enhancements in Omnicha
 
     - **Unified Service Desk - Omnichannel for Customer Service**: Use this sample package if you want to start using a new Unified Service Desk environment with Omnichannel. This package installs Unified service desk solutions and Omnichannel supported solutions (Web resources) that are required to work with Unified Service Desk in the specified Customer Service organization. This package provides basic configuration data.
 
-More information: [Deploy Unified Service Desk - Omnichannel for Customer Service package](omnichannel-customer-service-package.md)
+More information: [Deploy Unified Service Desk - Omnichannel for Customer Service package](../unified-service-desk/oc-usd/omnichannel-customer-service-package.md)
 
 ### Agent experience
 
