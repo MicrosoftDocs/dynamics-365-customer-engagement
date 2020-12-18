@@ -111,7 +111,7 @@ The inbound request payload is converted into an activity that the Bot Framework
 |**Channel Data**| Channel data consists of `Channel Type`, `Conversation Context` and `Customer Context`. |
 |**Channel Type**| The Channel name through which the customer is sending messages. For example, MessageBird, KakaoTalk, SnapChat |
 |**Conversation Context**| Conversation context is a dictionary object that holds the context variables defined in the workstream. OmniChannel for Customer Service uses this information to route the conversation to the right agent. For example:<br>"conversationcontext ":{ "ProductName" : "Xbox", "Issue":"Installation" }<br>The above context will route the conversation to the agent who deals with Xbox installation.|
-|**Customer Context**| Customer context is a dictionary object that holds the customer-identifying details such as phone number and email address. OmniChannel for Customer Service uses this information to identify the user's contact record.<br />"customercontext":{ "email":"email@email.com", "phonenumber":"1234567890" }|
+|**Customer Context**| Customer context is a dictionary object that holds the customer-identifying details such as phone number and email address. OmniChannel for Customer Service uses this information to identify the user's contact record.<br>"customercontext":{ "email":"email@email.com", "phonenumber":"1234567890" }|
 
 ```javascript
   /// <summary>
