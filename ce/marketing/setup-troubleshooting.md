@@ -1,19 +1,15 @@
 ---
 title: "Administration and setup frequently asked questions (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Solutions to common questions and issues that can occur during the initial setup and ongoing administration of Dynamics 365 Marketing"
-keywords: troubleshooting;setup
-ms.date: 12/01/2020
+description: "Solutions to common questions and issues that can occur during the initial setup and ongoing administration of Dynamics 365 Marketing."
+ms.date: 12/17/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing
 ms.topic: article
-ms.assetid: 4c2bc52f-595c-4728-9ef5-5e3281ca0cc0
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: 
 search.audienceType: 
   - admin
   - customizer
@@ -84,7 +80,7 @@ One of the requirements for running the [setup wizard](purchase-setup.md) for Dy
 
 ## Why do I get an authorization-failed message when I try to run the setup wizard?
 
-In some cases, when you sign up for a trial of Dynamics 365 or Microsoft 365, you will receive an organization that is in an *unmanaged* state, which means (among other things) that you can't get permission to install third-party solutions&mdash;including Dynamics 365 Marketing. As a result, you'll see the following error message when you run the setup wizard for Marketing.
+In some cases, when you sign up for a trial of Dynamics 365 or Microsoft 365, you will receive an organization that is in an *unmanaged* state, which means (among other things) that you can't get permission to install third-party solutions&mdash;including Dynamics 365 Marketing. As a result, you'll see the following error message when you run the Marketing setup wizard.
 
 ![Unmanaged organization error](media/setup-ts-unmanaged-aad.png "Unmanaged organization error")
 
@@ -99,7 +95,7 @@ To fix this, do one of the following:
 
 If your setup fails for some reason, you'll be notified by email and/or by a status message in your web browser (if you keep it open during the installation). Often, part of the solution will be to rerun the setup wizard after waiting for an hour or so. To rerun the setup wizard, do one of the following:
 
-- If you are setting up a [trial](trial-signup.md), then you should have received a welcome email that included a link to the setup wizard. Find your welcome mail and click that link to launch the wizard.
+- If you are setting up a [trial](trial-signup.md), you should have received a welcome email that included a link to the setup wizard. Find your welcome mail and select the link to launch the wizard.
 - If you are setting up a production instance, then launch the setup wizard by going to **Resources** > **Dynamics 365 apps** in the Power Platform admin center, as described in [Re-run the Marketing setup wizard](re-run-setup.md).
 
 <a name="fix-portal"></a>
@@ -112,7 +108,7 @@ Marketing pages and the event website both run on the Dynamics 365 Portals app. 
 
 ### Clear the portal cache
 
-Many portal issues can be solved by clearing the portal cache. Once you have a portal user set up and configured as an administrator, this is faster and easier than [restarting the portal](#restart-portal), though some problem may still require a restart.
+You can solve many portal issues by clearing the portal cache. Once you have a portal user set up and configured as an administrator, this is faster and easier than [restarting the portal](#restart-portal), though some problem may still require a restart.
 
 The subsections below explain how to set up the required portal user and then run the clear-cache command. If you already have a portal user that's configured as an administrator, just skip ahead to [Step 3: Clear the portal cache](#cache-only).
 
@@ -124,7 +120,7 @@ Start by adding yourself as a portal user, just as your contacts would do when r
 
 1. On the event website, select the **Sign In** button at the top of the page.
 
-1. On the sign-in page, go to the **Register** tab and fill out the fields to create a new account. Note that you must use an email address that doesn&#39;t already belong to a contact in your database. Be sure to make a note of your user name and password.
+1. On the sign-in page, go to the **Register** tab and fill out the fields to create a new account. You must use an email address that doesn&#39;t already belong to a contact in your database. Be sure to make a note of your user name and password.
 
 1. The **Profile** page opens. Enter your first and last names in the fields provided and select **Update**.
 
@@ -136,29 +132,31 @@ Once you have your account and password set up, you must configure that account 
 
 1. Sign into Dynamics 365 Marketing and use the app selector to go to the Dynamics 365&mdash;custom app.
 
-    ![The app-selector menu](media/nav-apps-custom-ill.png "The app-selector menu")
+    > [!div class="mx-imgBorder"]
+    > ![The app-selector menu](./media/nav-apps-custom.png)
 
-1. In the custom app, go to **Portals** > **Security** > **Contacts**.
-
-    ![Open the portal contacts](media/faq-portal-nav.png "Open the portal contacts")
+1. In the custom app, go to the area selector menu in the lower left and select **Portals**. Then, in the left navigation pane, go to **Security** > **Contacts**.
 
 1. The portal contacts page opens. Open the system-view selector menu and choose the **All Contacts** view.
 
-    ![The system-view selector](media/faq-portal-system-views.png "The system-view selector")
+    > [!div class="mx-imgBorder"]
+    > ![The system-view selector](./media/faq-portal-system-views2.png)
 
 1. Find your portal user in the list and open it.
 
 1. Open the form-view selector and switch to the **Portal contact** form view.
 
-    ![Switch to the 'Portal contact' form view](media/faq-portal-form-view.png "Switch to the 'Portal contact' form view")
+    > [!div class="mx-imgBorder"]
+    > ![Switch to the 'Portal contact' form view](./media/faq-portal-form-view2.png)
 
-1. Scroll down to the **Web Roles** section for your contact.
+1. Go to the **Details** tab, then scroll down to the **Web Roles** section.
 
-1. Select the add (**+**) button to add a role, then select the magnifying glass icon to open the role menu, and finally select the **Administrators Event Portal** role to add that role to your contact.
+1. Select **Add Existing Web Role** to add a role, then select the magnifying glass icon to open the role menu, and finally select the **Administrators Event Portal** role to add that role to your contact.
 
-    ![Assign the admin role](media/faq-portal-admin.png "Assign the admin role")
+    > [!div class="mx-imgBorder"]
+    > ![Assign the admin role](./media/faq-portal-admin2.png)
 
-1. Select the **Save** icon in the bottom corner. Your user account is now an administrator for your event website.
+1. Select the **Add** button in the bottom corner. Your user account is now an administrator for your event website.
 
 <a name="cache-only"></a>
 
@@ -185,7 +183,7 @@ Once you have your portal-administration account set up, you can use it to clear
 
 ### Restart the portal
 
-If clearing the cache didn't fix your portal issues, then restarting it may help. This operation takes a bit longer than clearing cache, and your portal will be offline until the process is complete.
+If clearing the cache didn't fix your portal issues, restarting it may help. This operation takes a bit longer than clearing cache, and your portal will be offline until the process is complete.
 
 To restart your portal:
 
@@ -229,7 +227,7 @@ If you don't see the **Survey** tile in the **Toolbox** of your [customer journe
 
 1. [Open the Power Platform admin center](power-platform-admin-center.md).
 
-1. Go **Resources** > **Dynamics 365 apps** on the left navigation pane, select any **Dynamics 365 Customer Voice** application in the applications list, and then select the **Install** button on the top ribbon.
+1. Go to **Resources** > **Dynamics 365 apps** on the left navigation pane, select any **Dynamics 365 Customer Voice** application in the applications list, and then select the **Install** button on the top ribbon.
 
     > [!div class="mx-imgBorder"]
     > ![Install Dynamics 365 Customer Voice](media/admin-cv-manage.png)
@@ -277,10 +275,10 @@ More information: [About Unified Interface for model-driven apps in Power Apps](
 
 ## How can I contact support if I still need help?
 
-For additional support and help resources you can:
+For more support and help resources you can:
 
 - [Contact technical support](https://docs.microsoft.com/power-platform/admin/get-help-support) directly.
 - Get in touch with the community on the [Dynamics 365 Marketing forum](https://community.dynamics.com/365/marketing/f/768).
-- Find additional [online help resources for Dynamics 365](https://docs.microsoft.com/power-platform/admin/get-help-support).
+- Find more [online help resources for Dynamics 365](https://docs.microsoft.com/power-platform/admin/get-help-support).
 
 If you’ve already tried to set up the application several times and are still having trouble, open a support case through your applicable Microsoft Premier channel or MPN partner channel.

@@ -17,17 +17,17 @@ When your agents are working on cases, there may be times when you want them to 
 
 To enable agents to be able to have conversations in Customer Service workspace, do the following: 
 
-1. Obtain Omnichannel for Customer Service add-on [licenses](https://dynamics.microsoft.com/pricing/customer-service/#plans) and set up your Omnichannel environment. More information: [Provision Omnichannel](../omnichannel/administrator/omnichannel-provision-license.md). 
+1. Obtain Omnichannel for Customer Service add-on [licenses](https://dynamics.microsoft.com/pricing/customer-service/#plans) and set up your Omnichannel environment. More information: [Provision Omnichannel](../customer-service/omnichannel-provision-license.md). 
 
 2. Configure the following in the Omnichannel administrator app: 
 
-    a. [Channels](../omnichannel/administrator/channels.md)
+    a. [Channels](../customer-service/channels.md)
     
-    b. [Queues and users](../omnichannel/administrator/queues-omnichannel.md)
+    b. [Queues and users](../customer-service/queues-omnichannel.md)
     
-    c. [Work streams](../omnichannel/administrator/work-streams-introduction.md)
+    c. [Work streams](../customer-service/work-streams-introduction.md)
     
-3. Assign the Omnichannel agent and/or Omnichannel supervisor roles to your users. More information: [Assign roles and enable users for Omnichannel for Customer Service](../omnichannel/administrator/add-users-assign-roles.md).
+3. Assign the Omnichannel agent and/or Omnichannel supervisor roles to your users. More information: [Assign roles and enable users for Omnichannel for Customer Service](../customer-service/add-users-assign-roles.md).
 
 ## Set up profiles in app profile manager
 
@@ -62,26 +62,26 @@ After you have configured the Omnichannel for Customer Service and app profile m
 
 2.	The agent can work on conversations by accepting or selecting a conversation from the dashboard, and all the functionality of Omnichannel for Customer Service is available to them, including:
 
-    a.	Notifications - More information: [View notifications](../omnichannel/agent/agent-oc/oc-notifications.md) <br>
-    b.	Customer summary - More information: [View a customer summary to get information about a customer](../omnichannel/agent/agent-oc/oc-customer-summary.md) <br>
-    c.	Notes – More information: [Take notes specific to a conversation](../omnichannel/agent/agent-oc/oc-take-notes.md) <br>
-    d.	Conversation and session forms – More information: [View conversation and session forms](../omnichannel/agent/agent-oc/oc-view-activity-types.md) <br>
-    e.	Transcripts – More information: [Search transcripts](../omnichannel/agent/agent-oc/oc-search-transcipts.md) <br>
-    f.	Viewing customer summaries for conversation requests – More information: [View customer summaries for incoming conversation requests](../omnichannel/agent/agent-oc/oc-view-customer-summary-incoming-conversation-request.md) <br>
-    g.	Presence status – More information: [Manage presence status](../omnichannel/agent/agent-oc/oc-manage-presence-status.md)
+    a.	Notifications - More information: [View notifications](../customer-service/oc-notifications.md) <br>
+    b.	Customer summary - More information: [View a customer summary to get information about a customer](../customer-service/oc-customer-summary.md) <br>
+    c.	Notes – More information: [Take notes specific to a conversation](../customer-service/oc-take-notes.md) <br>
+    d.	Conversation and session forms – More information: [View conversation and session forms](../customer-service/oc-view-activity-types.md) <br>
+    e.	Transcripts – More information: [Search transcripts](../customer-service/oc-search-transcipts.md) <br>
+    f.	Viewing customer summaries for conversation requests – More information: [View customer summaries for incoming conversation requests](../customer-service/oc-view-customer-summary-incoming-conversation-request.md) <br>
+    g.	Presence status – More information: [Manage presence status](../customer-service/oc-manage-presence-status.md)
 
 ### Supervisor experience
 
 When a supervisor signs in to Customer Service workspace, they can select a dashboard to do the following:
 
-- Monitor agent conversations - More information: [Monitor and assign conversations](../omnichannel/supervisor/monitor-conversations.md)
-- Monitor ongoing conversations - More information: [View and understand Omnichannel Ongoing Conversations conversations dashboard](../omnichannel/supervisor/ongoing-conversations-dashboard.md)
-- View intraday insights - More information: [View and understand Omnichannel intraday insights dashboard](../omnichannel/supervisor/intraday-insights-dashboard.md)
-- View customer satisfaction levels - More information: [Sentiment monitoring](../omnichannel/supervisor/supervisor-sentiment-monitoring.md)
+- Monitor agent conversations - More information: [Monitor and assign conversations](../customer-service/monitor-conversations.md)
+- Monitor ongoing conversations - More information: [View and understand Omnichannel Ongoing Conversations conversations dashboard](../customer-service/ongoing-conversations-dashboard.md)
+- View intraday insights - More information: [View and understand Omnichannel intraday insights dashboard](../customer-service/intraday-insights-dashboard.md)
+- View customer satisfaction levels - More information: [Sentiment monitoring](../customer-service/supervisor-sentiment-monitoring.md)
 
 ### See also
 [App profile manager overview](overview.md)  
 [Roles and privileges associated with app profile manager](security-roles.md)  
 [Customer Service workspace overview](../customer-service/csw-overview.md)  
-[Omnichannel agent overview](../omnichannel/agent/omnichannel-agent-overview.md)  
-[Introduction to intraday supervisor experiences](../omnichannel/supervisor/intro-intraday-insights-dashboard.md)  
+[Omnichannel agent overview](../customer-service/omnichannel-agent-overview.md)  
+[Introduction to intraday supervisor experiences](../customer-service/intro-intraday-insights-dashboard.md)  

@@ -26,12 +26,6 @@ productDirectory:
           text: Documentation
         - url: https://docs.microsoft.com/learn/browse/?products=dynamics-customer-service
           text: Learn Dynamics 365 Customer Service
-    # Card
-    - title: Dynamics 365 Customer Service Insights
-      imageSrc: /dynamics365/images/CustomerServiceInsights_color.svg
-      links:
-        - url: https://docs.microsoft.com/dynamics365/ai/customer-service-insights/overview
-          text: Documentation    
 
 additionalContent:
   # Supports up to 3 sections

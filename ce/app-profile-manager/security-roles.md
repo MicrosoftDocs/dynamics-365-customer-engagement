@@ -32,7 +32,7 @@ Out of the box, for the Omnichannel administrator role, the privileges pertainin
 
 The actions and privileges for the roles in app profile manager are as follows.
 
-### Role: App profile manager administrator
+### Role: App Profile Manager Administrator
 
 The app profile manager administrator has the following privileges.
 
@@ -59,7 +59,7 @@ The app profile manager administrator has the following privileges.
 |Write/Read application module|prvWriteAppModule<br>prvReadAppModule  |
 || |
 
-### Role: App profile user
+### Role: App Profile User
 
 The app profile user has the following privileges.
 
@@ -81,4 +81,4 @@ The app profile user has the following privileges.
 ### See also
 
 [An overview of app profile manager](overview.md)  
-[Users and roles in Omnichannel for Customer Service](../omnichannel/administrator/add-users-assign-roles.md)  
+[Users and roles in Omnichannel for Customer Service](../customer-service/add-users-assign-roles.md)  

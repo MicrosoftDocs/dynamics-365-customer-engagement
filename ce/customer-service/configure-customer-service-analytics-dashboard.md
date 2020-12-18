@@ -25,7 +25,7 @@ You must perform the following steps to configure the historical Customer Servic
 
 [Step 5: Publish application within your organization](#step-5-publish-application-within-your-organization)
 
-[Step 6: Enable Power BI reporting in the Common Data Service platform](#step-6-enable-power-bi-reporting-in-the-common-data-service-platform) 
+[Step 6: Enable Power BI reporting](#step-6-enable-power-bi-reporting) 
 
 [Step 7: Add Power BI Dashboard to Customer Service Hub](#step-7-add-power-bi-dashboards-to-customer-service-hub) 
 
@@ -121,13 +121,13 @@ You must share the configured application with your entire organization for supe
     The app is now available to install for all individuals in your organization.
 
 > [!NOTE]
-> Verify your administrator has allowed users in your organization to have read/write data permissions in Omnichannel Engagement Hub. To learn more, see [Provide data access consent](/dynamics365/omnichannel/administrator/omnichannel-provision-license#provide-data-access-consent).  
+> Verify your administrator has allowed users in your organization to have read/write data permissions in Omnichannel Engagement Hub. To learn more, see [Provide data access consent](omnichannel-provision-license.md#provide-data-access-consent).  
 
-## Step 6: Enable Power BI reporting in the Common Data Service platform
+## Step 6: Enable Power BI reporting
 
-As an administrator, you must enable Power BI reporting in the Common Data Service platform environment for supervisors to view the dashboards.
+As an administrator, you must enable Power BI reporting in the Dynamics 365 environment for supervisors to view the dashboards.
 
-1. Sign in to the Common Data Service platform, and go to **Settings**.
+1. Sign in to Dynamics 365, and go to **Settings**.
 
 2. Select **Administration** > **System Settings**.
 
@@ -151,7 +151,7 @@ Each supervisor must configure their environment to integrate the Customer Servi
     > [!div class=mx-imgBorder]
     > ![Power BI dashboard](media/cs-pbi-dashboard-menu.png "Power BI dashboard")
 
-4. For **Workspace**, select **Customer Service Analytics for Dynamics 365**. For **Dashboard**, select **Customer Service Analytics for Dynamics 365**. 
+4. For **Workspace**, select **Customer Service Analytics for Dynamics 365**. For **Dashboard**, select **Customer Service Analytics for Dynamics 365**.
 
     > [!div class=mx-imgBorder]
     > ![Power BI dashboard properties](media/cs-pbi-dashboard-properties.png "Power BI dashboard properties")
@@ -236,6 +236,5 @@ Before you customize the template app, read the information here and perform eac
 
 ### See also
 
-[Introduction to Customer Service Analytics](introduction-customer-service-analytics.md) 
-
-[View and understand Customer Service Analytics](customer-service-analytics.md) 
+[Introduction to Customer Service Analytics](introduction-customer-service-analytics.md)  
+[View and understand Customer Service Analytics](customer-service-analytics.md)  

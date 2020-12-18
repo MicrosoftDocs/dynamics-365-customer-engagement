@@ -1,19 +1,15 @@
 ---
 title: "Find and apply updates to core and shared solutions (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Find out when an update for one or more Dynamics 365 Marketing solutions is available and apply the update"
-keywords: update;solutions;administration;instances
+description: "Find out when an update for one or more Dynamics 365 Marketing solutions is available and apply the update."
 ms.date: 09/19/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing
 ms.topic: article
-ms.assetid: bbe53dc0-8d10-15f0-b970-8f6f252da6e4
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: 
 search.audienceType: 
   - admin
   - customizer
@@ -37,7 +33,7 @@ When you install Dynamics 365 Marketing, all its solutions are installed by the 
 
 - **Core Marketing solutions**: These are the solutions that provide core features that are unique to Marketing (including the Dynamics 365 Connector for LinkedIn Lead Gen Forms). Though there are several of these, you'll be able to maintain and update them all at once using a setup wizard like the one you used to install Marketing for the first time.
 - **Dynamics 365 Customer Voice**: This solution enables model-driven apps in Dynamics 365 to host surveys and collect responses. It's also available as an add-on or bundle for other apps. You must update this solution separately from the other solutions included with Marketing, using its own update program.
-- **Dynamics 365 Portals**: This solution enables model-driven apps in Dynamics 365 to host interactive portals that display and collect Dynamics 365 data, including the events portal and marketing pages. Like Voice of the Customer, you must update this solution using its own update program.
+- **Dynamics 365 Portals**: This solution enables model-driven apps in Dynamics 365 to host interactive portals that display and collect Dynamics 365 data, including the events portal and marketing pages. Like Customer Voice, you must update this solution using its own update program.
 
 ## Find out when new updates are available
 

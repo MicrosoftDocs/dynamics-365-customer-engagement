@@ -1,18 +1,14 @@
 ---
 title: "Disable auto adjustment of HTML for email providers (Dynamics 365 Marketing) | Microsoft Docs"
-description: "How to disable the out of box HTML adjustment for emails in Dynamics 365 Marketing"
-keywords: Email HTML;Email design;Outlook
+description: "How to disable the out of box HTML adjustment for emails in Dynamics 365 Marketing."
 ms.date: 11/09/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-ms.assetid: 1893c4c9-8bfa-4156-a823-1b836199ea00
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status:
 search.audienceType: 
   - admin
   - customizer

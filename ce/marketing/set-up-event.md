@@ -1,18 +1,14 @@
 ---
-title: "Initial and ongoing event planning (Dynamics 365 Marketing) | Microsoft Docs "
+title: "Initial and ongoing event planning (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to plan an event, register basic info, set up your team, manage sessions and speakers, set the event schedule, issue passes,  and manage venues in Dynamics 365 Marketing."
-keywords: events; event management
 ms.date: 03/02/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-ms.assetid: a3d1dc05-8a69-43dd-94ee-a36ea4de650e
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status:
 search.audienceType: 
   - admin
   - customizer
@@ -126,7 +122,7 @@ Use the **Additional information** tab to set up your event team and record gene
 
 Here you can [view and create online surveys](surveys.md) related to your event. You'd typically use these surveys to collect attendee opinions about how the event went. A second table provides links to individual survey responses.
 
-Surveys are provided by the [Voice of the Customer](../voice-of-customer/help-hub.md) feature.
+Surveys are provided by the [Dynamics 365 Customer Voice](https://docs.microsoft.com/dynamics365/customer-voice/help-hub) feature.
 
 ### The Room reservations tab
 

@@ -1,18 +1,14 @@
 ---
 title: "Metadata reference for your organization (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Know about the installed solutions, entities, and custom actions in your marketing organization."
-keywords: developer; dev; developer guide; system configuration
 ms.date: 04/01/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
-ms.topic: developer-guide
-ms.assetid: 1f1a8244-2dc5-4de2-b7f8-719a46c82861
+ms.topic: reference
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status:
 search.audienceType: 
   - developer
 search.app: 

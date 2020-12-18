@@ -1,19 +1,15 @@
 ---
-title: "Add custom validation rules to Dynamics 365 Marketing | Microsoft Docs "
-description: "How to add more rules for validating records before going live in Dynamics 365 Marketing"
-keywords: customize;workflow;business process;validation
+title: "Add custom validation rules to Dynamics 365 Marketing (Dynamics 365 Marketing) | Microsoft Docs"
+description: "How to add more rules for validating records before going live in Dynamics 365 Marketing."
 ms.date: 10/16/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-cust
   - dyn365-marketing
 ms.topic: article
-ms.assetid: d8fb5ab9-654d-4bf0-9bdd-dc10eff5082b
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer

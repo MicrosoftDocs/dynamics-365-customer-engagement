@@ -32,13 +32,13 @@ You can import the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-
 <a name="ConfigMigration"></a>   
 ## Import configuration data by using the Configuration Migration tool  
   
-1. Make sure that the Common Data Service platform instance where you are migrating the configuration data has the required [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] package deployed. If it doesn’t, deploy a sample [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] package. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Deploy sample Unified Service Desk applications using Package Deployer](../../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md)  
+1. Make sure that the Microsoft Dataverse instance where you are migrating the configuration data has the required [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] package deployed. If it doesn’t, deploy a sample [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] package. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Deploy sample Unified Service Desk applications using Package Deployer](../../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md)  
   
 2. Run the [!INCLUDE[pn_configuration_migration_tool](../../includes/pn-configuration-migration-tool.md)], and click **Import data** in the main screen. For information about downloading the tool, see step 1 in [Export Unified Service Desk configuration data](../../unified-service-desk/admin/export-unified-service-desk-configuration-data.md).  
   
-3. On the **Login** screen, provide authentication details to connect to your Common Data Service platform server from where you want to export data. If you have multiple organizations on the Common Data Service platform server, and want to select the organization from where to export the data, select the **Always display list of available orgs** check box. Click **Login**.  
+3. On the **Login** screen, provide authentication details to connect to your Dataverse server from where you want to export data. If you have multiple organizations on Dataverse server, and want to select the organization from where to export the data, select the **Always display list of available orgs** check box. Click **Login**.  
   
-4. If you have multiple organizations, and you selected the **Always display list of available orgs** check box, the next screen lets you choose the organization that you want to connect to. Select the Common Data Service platform organization to connect to.  
+4. If you have multiple organizations, and you selected the **Always display list of available orgs** check box, the next screen lets you choose the organization that you want to connect to. Select Dataverse organization to connect to.  
   
 5. The next screen prompts you to provide the data file (.zip) to be imported. Browse to the data file, select it, and then click **Import Data**.  
   
@@ -54,11 +54,11 @@ You can import the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-
   
 - [Download the Unified Service Desk package](https://go.microsoft.com/fwlink/?LinkID=854761) (self-extracting executable file), and double-click the file to extract the contents. You will use the files under one of the default packages to create a sample application. In this example, you’ll use the files under the Base package (*\<ExtractedFolder>*\USDPackageDeployer\BasePackage).  
   
-- Ensure that you know the prerequisites and how to create a custom package by using the Common Data Service platform SDK template for [!INCLUDE[pn_Visual_Studio](../../includes/pn-visual-studio.md)]. For detailed information about using template to create a package, see [Create packages for the Package deployer](https://msdn.microsoft.com/library/dn688182.aspx).  
+- Ensure that you know the prerequisites and how to create a custom package by using Dataverse SDK template for [!INCLUDE[pn_Visual_Studio](../../includes/pn-visual-studio.md)]. For detailed information about using template to create a package, see [Create packages for the Package deployer](https://msdn.microsoft.com/library/dn688182.aspx).  
   
 - [Download the CRM SDK package](https://go.microsoft.com/fwlink/?LinkID=627298) (.exe file), and extract it to locate the `PackageDeployer` folder under the *\<ExtractedFolder>*\SDK\Tools\ folder. This folder contains assemblies required for creating a custom project by using [!INCLUDE[pn_Visual_Studio_short](../../includes/pn-visual-studio-short.md)].  
   
-- Install the template (CRMSDKTemplates.vsix) from the Common Data Service platform SDK package that you extracted in the previous step. The file is available under the SDK\Templates folder.  
+- Install the template (CRMSDKTemplates.vsix) from Dataverse SDK package that you extracted in the previous step. The file is available under the SDK\Templates folder.  
   
 ### How to create a custom package  
   
@@ -90,7 +90,7 @@ You can import the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-
   
 6. Double-click the **ImportConfig.xml** file under **PkgFolder** to edit it. Update the value of the `crmmigdataimportfile` parameter to match the name of the exported file (.zip) that you added in step 5.  
   
-7. Double-click the **PackageTemplate.cs** file to update the package name and description. For detailed information about this, see [Create packages for the Package deployer](https://msdn.microsoft.com/library/dn688182.aspx) in the Common Data Service platform SDK help.  
+7. Double-click the **PackageTemplate.cs** file to update the package name and description. For detailed information about this, see [Create packages for the Package deployer](https://msdn.microsoft.com/library/dn688182.aspx) in Dataverse SDK help.  
   
 8. Save your project, and then build it (**Build** > **Build Solution**) to create the package. All the contents in the *\<Project>*\Bin\Debug folder are your package. Note that an assembly file (.dll) is created with the same name as your [!INCLUDE[pn_Visual_Studio_short](../../includes/pn-visual-studio-short.md)] project name; this file contains the custom code that you created in the previous step.  
   
@@ -98,7 +98,7 @@ You can import the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-
   
 10. After the files are copied, run the tool by double-clicking the **PackageDeployer.exe** file.  
   
-11. You will be prompted to specify the credentials of the target the Common Data Service platform server. Specify the details, and proceed.  
+11. You will be prompted to specify the credentials of the target Dataverse server. Specify the details, and proceed.  
   
 12. In the package selection screen, select your custom package to deploy, and follow the wizard screens to deploy the package.  
   

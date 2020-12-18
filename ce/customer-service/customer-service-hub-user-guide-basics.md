@@ -13,23 +13,6 @@ ms.service: "dynamics-365-customerservice"
 
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
-  
-The Customer Service Hub's intuitive interface brings together vital information in one place, so you can focus on the things that matter.  
-
-## Customer Service Hub application requirements  
- Here's a list of browsers and mobile versions that are supported by the Customer Service Hub:  
-  
-- **Browsers** 
-    - Google Chrome
-    - Microsoft Edge (supported on Windows 10)
-    - Apple Safari 11
-    - Internet Explorer 11
-
-- **Mobile**
-    - iOS 10 - Tablet & Phone
-    - Android - Tablet + Phone (Android 6 and 7)
-    - Windows 10
-
 ## Open the Customer Service Hub
 
 The Customer Service Hub app is available to use on a desktop browser and on a mobile device for managing knowledge articles and case management. You can open the Customer Service Hub in one the following ways:  
@@ -39,12 +22,12 @@ The Customer Service Hub app is available to use on a desktop browser and on a m
 
 **Desktop browser**
   
-1. In the Common Data Service platform, go to **Settings** > **Application** > **My Apps** >  **Customer Service Hub**.
+- On the Dynamics 365 page, in the **Published Apps** area, select **Customer Service Hub**.
 
    ![Navigate to the application settings for Customer Service Hub](media/open-csh.png "Open the Customer Service Hub")
  
   
-2. In the Dynamics 365 Customer Service site map, navigate to the app switcher, and then select **Customer Service Hub**.
+- If you are on the Settings page, then in the Dynamics 365 Customer Service site map, navigate to the app switcher, and then select **Customer Service Hub**.
 
   ![Open the Customer Service Hub site map](media/open-csh-sitemap.png "Customer Service Hub site map")
   
@@ -195,7 +178,7 @@ See a complete view of your customer's touch points in the Contact card. This ca
   
 ![Contact card](media/contact-card.png "Contact card")
 
-You can add a picture to the account or contact record in the Common Data Service platform, and it will appear on this card. You can make calls to customers from the Contact card using Skype for Business – IP telephony.
+You can add a picture to the account or contact record in Dataverse, and it will appear on this card. You can make calls to customers from the Contact card using Skype for Business – IP telephony.
   
 For account records, the card shows contact details for the primary contact associated with the account. For contact records, the card appears if the contact is the customer value on the case form.  
 
@@ -204,7 +187,6 @@ For account records, the card shows contact details for the primary contact asso
 Use queues to organize, prioritize, and monitor the progress of your work. In Dynamics 365 Customer Service, queues are containers used to store anything that needs to be completed or requires an action, for example completing a task or closing a case. To know more about creating and managing queues, see [Create and manage queues](set-up-queues-manage-activities-cases.md).
 
 ![Work with queues](media/queues-view.png "Queues view")
-
 
 To know how to add a case to a queue, see [Add a case to a queue](customer-service-hub-user-guide-case-queues-and-routing.md).
 

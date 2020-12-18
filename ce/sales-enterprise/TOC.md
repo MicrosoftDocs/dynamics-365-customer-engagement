@@ -2,6 +2,7 @@
 ## [Set up Dynamics 365 Sales](set-up-dynamics-365-sales.md)
 ## [Overview of Sales and Sales Hub](../sales-enterprise/overview.md)
 ## [What's new](../sales-enterprise/whats-new.md)
+## [Deprecated features](deprecations-sales.md)
 ## [Connect and share feedback](../sales-enterprise/connect-share-feedback.md)
 ## Administrator & Sales Manager Guide
 ### [Help resources for admins and sales managers](../sales-enterprise/admin-guide.md)
@@ -308,3 +309,17 @@
 ## [Help resources for Dynamics 365 Sales (Professional)](../sales-professional/help-hub.md)
 ## [Dynamics 365 Sales Insights](/dynamics365/ai/sales/overview)
 ## [Sales Team Member app for users with Team Member license](sales-team-member.md)
+## Dynamics 365 Sales mobile app
+### [Overview](sales-mobile/dynamics-365-sales-mobile-app.md)
+### Administrator guide
+#### [Enable Dynamics 365 Sales mobile](sales-mobile/enable-sales-mobile.md)
+### User guide
+#### Install the app
+##### [Install the app on iOS](sales-mobile/install-ios-app.md)
+##### [Install the app on Android](sales-mobile/install-android-app.md)
+#### [Use the Dynamics 365 Sales mobile app](sales-mobile/use-sales-mobile-app.md)
+#### [Learn the basics](sales-mobile/learn-basics-mobile-app.md)
+#### [View meetings](sales-mobile/view-agenda.md)
+#### [Manage records](sales-mobile/open-record.md)
+#### [Manage contacts](sales-mobile/create-contact.md)
+#### [Manage notes](sales-mobile/view-edit-add-note.md)

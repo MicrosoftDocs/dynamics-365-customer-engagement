@@ -1,19 +1,15 @@
 ---
-title: "Add dynamic content to marketing emails (Dynamics 365 Marketing) | Microsoft Docs "
-description: "How to add field values, set up content settings information, conditional statements, and while loops to your email designs in Dynamics 365 Marketing"
-keywords: email; marketing email; dynamic content; content settings
+title: "Add dynamic content to marketing emails (Dynamics 365 Marketing) | Microsoft Docs"
+description: "How to add field values, set up content settings information, conditional statements, and while loops to your email designs in Dynamics 365 Marketing."
 ms.date: 07/16/2020
-ms.service:
-  - dynamics-365-marketing
+ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-ms.assetid: 5134e656-31ae-4984-8045-fcd76b98719a
 author: alfergus
 ms.author: alfergus
 manager: shellyha
 ms.reviewer: renwe
-topic-status: 
 search.audienceType: 
   - admin
   - customizer
@@ -90,7 +86,7 @@ To use assist edit:
     - Select **Dynamic content** to place a value that can change based on the context where you use the message, and then choose one of the following from the drop-down list here:
         - **Contact**: Places a field value, such as a first name, from the recipient's contact record. These values vary by recipient.
         - **ContentSettings**: Places a field value from the content settings. Values such as a subscription center URL, forwarding URL, and the sender postal address are available here. These values can vary according to the customer journey where the message is used.
-        - **FormDoiSubmission**: Places a dynamic field for [form double opt-in](form-double-opt-in). This field does not require a relationship value, as discussed below.
+        - **FormDoiSubmission**: Places a dynamic field for [form double opt-in](form-double-opt-in.md). This field does not require a relationship value, as discussed below.
         - **Message**: Places values that relate to the message itself; currently, this includes the open-as-webpage URL and the various dynamic values used in [double opt-in emails](double-opt-in.md).
     - Select **Static content** to place a fixed value from a specific record (such as the name of an upcoming event). This value is the same regardless of where you use the message or who receives it. Then make the following settings to identify the entity and record that contains the value you need:
         - **Select an option** (top combo box): Select the entity (such as event or account). To search for an entity, place your cursor in this box and start to type its name until the entity you want is shown.
@@ -117,7 +113,7 @@ When you are selecting a relationship in assist edit, the options are displayed 
 - ***PrimaryEntity -> FieldName (SecondaryEntity)***  
     When the secondary entity is in parentheses and shows a field name, it’s a *one-to-many* (1:N) relation that can lead to multiple records from the secondary entity. You therefore can’t choose a field (the second drop-down list is disabled) and must instead use this relation as part of a [for/each loop](#for-each) to display values form each available related record.
 - ***PrimaryEntity -> SecondaryEntity***  
-    When neither entity is in parentheses, it’s a *many-to-many* (N:N) relation, which can connect multiple records in both directions. You therefore can’t choose a field (the second drop-down list is disabled) and must instead use this relation as part of a [for/each loop](#for-each) to display values from each available related record.
+    When neither entity is in parentheses, it’s a *many-to-many* (N:N) relation, which can connect multiple records in both directions. You therefore can’t choose a field (the second drop-down list is disabled) and you cannot use this relationship for personalization. This is because the relationship is maintained by an intermediate entity, and you can only traverse to the intermediate entity from the primary entity.
 
 Where:
 

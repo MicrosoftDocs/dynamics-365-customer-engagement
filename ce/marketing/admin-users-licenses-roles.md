@@ -1,19 +1,15 @@
 ---
 title: "Manage user accounts, user licenses, and security roles (Dynamics 365 Marketing) | Microsoft Docs"
-description: "How to manage user accounts, add licenses to users, and assign security roles in Dynamics 365 Marketing"
-keywords: 
+description: "How to manage user accounts, add licenses to users, and assign security roles in Dynamics 365 Marketing."
 ms.date: 01/24/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing
 ms.topic: article
-ms.assetid: 8443c485-10a1-4d3e-a23d-047b75b707db
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: 
 search.audienceType: 
   - admin
   - customizer
@@ -193,7 +189,7 @@ The surveys package adds the following security roles:
 - Survey Feedback Publisher
 - Survey Service
 - Survey User
-- Voice of the Customer app access role
+- Customer Voice app access role
 
 ## Don't modify or remove the Marketing service user
 

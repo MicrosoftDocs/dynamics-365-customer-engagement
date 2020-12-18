@@ -1,18 +1,14 @@
 ---
-title: "Social media posting with Dynamics 365 Marketing | Microsoft Docs"
-description: "Create social media posts for immediate or scheduled publishing in Dynamics 365 Marketing"
-keywords: social media; social posting
-ms.date: 10/01/2020
+title: "Social media posting with Dynamics 365 Marketing (Dynamics 365 Marketing) | Microsoft Docs"
+description: "Create social media posts for immediate or scheduled publishing in Dynamics 365 Marketing."
+ms.date: 12/09/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-ms.assetid: 781000c9-c885-432a-95ae-f15e7eeadf6d
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: 
 search.audienceType: 
   - admin
   - customizer
@@ -23,6 +19,8 @@ search.app:
 ---
 
 # Schedule and post messages on social media
+
+<div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/RE4J4cQ" frameborder="0" allowfullscreen=""></iframe></div>
 
 Dynamics 365 Marketing can schedule and post messages directly to your organization's accounts on social media sites. Marketing's powerful social post designer allows you to create rich content to engage your audience. Use the **Social posts** settings to author and schedule your posts.
 

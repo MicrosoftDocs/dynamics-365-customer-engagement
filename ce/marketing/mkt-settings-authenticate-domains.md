@@ -1,17 +1,14 @@
 ---
-title: "Domain authentication (Dynamics 365 Marketing) | Microsoft Docs "
-description: "Authenticate your domains to maximize email deliverability with DKIM and enable embedding of Dynamics 365 Marketing forms on your own website in Dynamics 365 Marketing"
+title: "Domain authentication (Dynamics 365 Marketing) | Microsoft Docs"
+description: "Authenticate your domains to maximize email deliverability with DKIM and enable embedding of Dynamics 365 Marketing forms on your own website in Dynamics 365 Marketing."
 ms.date: 12/03/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-ms.assetid: 23082938-2567-47c4-b2fe-130444aa6479
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: 
 search.audienceType: 
   - admin
   - customizer

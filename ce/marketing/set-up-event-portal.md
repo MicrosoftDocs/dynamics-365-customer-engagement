@@ -1,18 +1,14 @@
 ---
 title: "Set up an event website (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Set up a Dynamics 365 Marketing event website, where people can read about your event and its speakers, create an account, register for the event, purchase passes, view their session schedule, and more."
-keywords: event;portals;event website
 ms.date: 04/06/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-ms.assetid: b83e8cb2-38a4-462f-87bc-0fc52357f01e
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer
@@ -36,7 +32,7 @@ The event site is preconfigured to fetch all the relevant graphics and informati
 
 The first time you install Dynamics 365 Marketing, the event website is installed onto your Dynamics 365 Portals solution and is ready to use right out of the box. The website is built using the [Angular](https://angular.io/) framework (which makes it easy to customize) and you can choose to host it anywhere (not just on the Dynamics 365 Portals solution). The following table describes the hosting options.
 
-| | Dynamics&nbsp;365<br/>native portal | Angular site hosted by<br/>Dynamics&nbsp;365 portals | Angular site<br>hosted externally |
+| Feature | Dynamics&nbsp;365<br/>native portal | Angular site hosted by<br/>Dynamics&nbsp;365 portals | Angular site<br>hosted externally |
 |--|--|--|--|
 |Availability | Discontinued (no longer available) | Installed out-of-the-box; fully customizable | [Download the project, customize it, and deploy it to your own server](developer/event-management-web-application.md) |
 | Event information and graphics | Fetched directly from Dynamics 365 event records | Fetched directly from Dynamics 365 event records | Fetched directly from Dynamics 365 event records |

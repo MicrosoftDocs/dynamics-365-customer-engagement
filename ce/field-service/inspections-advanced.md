@@ -24,29 +24,33 @@ search.app:
 
 In this article, we'll take a look at more advanced scenarios for using inspections in Dynamics 365 Field Service. For general information about inspections, see [this article on inspections](inspections.md).
 
-## Inspections for customer assets
+For a guided walkthrough, check out the following video.
 
-To relate an inspection to a customer asset and build out service history, enter the customer asset in the **Service Task Relates To** section of the work order service **Task** that holds the inspection.
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4JiMF]
+
+## Branching and conditional logic
+
+The inspection can be configured to look and act differently based on inspection answers in real time as the technician fills it out.
+
+Go to the **Logic** section of the designer form to add branching and conditional logic to the inspection.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the work order service task showing the service task relates to section, highlighting an associated customer asset.](./media/inspections-wost-customer-asset.png)
+> ![Screenshot of the logic designer for Field Service inspections.](./media/inspections-logic1.png)
 
-Associating a customer asset allows the technician to see which customer asset needs the inspection. From the customer asset, they can see all related inspection history.
+Based on the response to an inspection question, options include:
+
+- **Make page visible**: Make the entire page of questions visible when the condition is true. Otherwise keep it hidden.
+
+- **Show the question**: Make the question visible when the condition is true. Otherwise keep it hidden.
+
+- **Change to required**: Question becomes required when the condition is true.
+
+- **Skip to question**: When the condition is true, then the focus shifts to the selected question.
+
+See the following screenshot for an example.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a customer asset on the work order service tasks section, showing the associated inspection.](./media/inspections-custoiner-asset-service-history.png)
-
-> [!Note]
-> If you relate a work order incident type to a customer asset, the related work order service tasks will be related to the customer asset automatically.
-
-### Inspecting X number of assets at a location
-
-Let's say a technician needs to inspect 10 customer assets at a customer's location. To accommodate this scenario, administrators can:
-
-- Create one inspection with 10 questions - one for each asset - and associate the single inspection to a single service task, or
-- Create 10 work order service tasks, each with one inspection.
- 
-When deciding, keep in mind work order service tasks can be associated to customer assets to build service history, viewable on the customer asset record. This means creating 10 service tasks each related to a different customer asset has the advantage of helping you build service history. The advantage of utilizing a single service task with multiple questions has the benefit of being easier to add to a work order and quicker to fill out. 
+> ![Screenshot of a filled out logic designer for a Field Service inspection.](./media/inspections-logic2.png)
 
 ## Copy inspections
 
@@ -147,6 +151,40 @@ Back in Power Apps, on the **Customer Voice survey question response** entity, y
 > Upon publish of an inspection, the deserialized inspection definition JSON data is ingested into the Dynamics 365 Customer Voice entity **msfp_question**. This flow gets triggered on state changed to published and performs the same.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the inspection deserialization flow in Power Automate.](./media/10-Flow-for-published-questions.jpg)
+
+## Parse inspection responses
+
+Inspection parsing allows you to isolate and select specific parts of inspection responses, like taking an inspection attachment or image within a response to use for other business processes. 
+
+[Download guide to understand inspection response parsing](https://aka.ms/inspections-parse)
+
+## Inspections for customer assets
+
+To relate an inspection to a customer asset and build out service history, enter the customer asset in the **Service Task Relates To** section of the work order service **Task** that holds the inspection.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the work order service task showing the service task relates to section, highlighting an associated customer asset.](./media/inspections-wost-customer-asset.png)
+
+Associating a customer asset allows the technician to see which customer asset needs the inspection. From the customer asset, they can see all related inspection history.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of a customer asset on the work order service tasks section, showing the associated inspection.](./media/inspections-custoiner-asset-service-history.png)
+
+> [!Note]
+> If you relate a work order incident type to a customer asset, the related work order service tasks will be related to the customer asset automatically.
+
+### Inspecting X number of assets at a location
+
+Let's say a technician needs to inspect 10 customer assets at a customer's location. To accommodate this scenario, administrators can:
+
+- Create one inspection with 10 questions - one for each asset - and associate the single inspection to a single service task, or
+- Create 10 work order service tasks, each with one inspection.
+ 
+When deciding, keep in mind work order service tasks can be associated to customer assets to build service history, viewable on the customer asset record. This means creating 10 service tasks each related to a different customer asset has the advantage of helping you build service history. The advantage of utilizing a single service task with multiple questions has the benefit of being easier to add to a work order and quicker to fill out. 
+
+
+
+
 
 ## Configuration considerations
 

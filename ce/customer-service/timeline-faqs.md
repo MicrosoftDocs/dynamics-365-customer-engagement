@@ -1,8 +1,8 @@
 ---
 title: "Timeline FAQs | MicrosoftDocs"
 description: "Timeline FAQs"
-author: lerobbin
-ms.author: lerobbin
+author: lalexms
+ms.author: laalexan
 manager: shujoshi
 ms.date: 07/27/2020
 ms.topic: article
@@ -22,9 +22,9 @@ Find answers to common questions regarding the timeline experience features and 
 
   To mitigate the issue, show the buttons in the command bar definitions.	
 
-## Why do my users see different activities and records in their My activities stream in the dashboard?	
+## Why do my users see different activities and records in My activities stream or other dashboard timelines?	
 
-- The **My activities** stream in the dashboard shows the records and activities that are owned by a particular user. For example, user **A** sees records and activities that are owned by **A**, and user **B** sees records and activities that are owned by **B**.	
+- The **My activities** stream in the dashboard shows the records and activities that are owned by a particular user. For example, user "A" sees records and activities that are owned by "A", and user "B" sees records and activities that are owned by "B".	
 
 ### See also	
 

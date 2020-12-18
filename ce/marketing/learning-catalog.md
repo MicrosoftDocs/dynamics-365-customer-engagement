@@ -1,14 +1,24 @@
 ---
-title: Marketing learning catalog
-description: Find all the training options for marketing.
-author: MargoC
-ms.topic: article
-ms.service: dynamics-365-marketing
+title: "Marketing learning catalog (Dynamics 365 Marketing) | Microsoft Docs"
+description: "Find all the training options for Dynamics 365 Marketing."
 ms.date: 01/08/2020
-ms.author: margoc
+ms.service: dynamics-365-marketing
+ms.custom: 
+  - dyn365-marketing
+ms.topic: hub-page
+author: alfergus
+ms.author: alfergus
+manager: margoc
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Mktg
 ---
 
-# Marketing Learning Catalog
+# Learning catalog (Marketing)
 <p> Find the right online training, in person workshops, and events for your role in Customer Service for Dynamics 365.</p>
 
 <!-- ![Universal Windows Platform (UWP)](images/platform-uwp.png)  -->  

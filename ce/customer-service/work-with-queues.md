@@ -119,7 +119,7 @@ If you want another person in your organization to work on an activity, you can 
   
 1. In the left pane, go to **Activities**.  
   
-2. In the list of activities, select the activity you want, and on the command bar, select **More Commands** ![More commands button](../customer-service/media/crm-ua-not-available.gif "More commands button"), and then select **Assign**.    
+2. In the list of activities, select the activity you want, and on the command bar, select **More Commands** ![More commands button](media/crm-ua-not-available.gif "More commands button"), and then select **Assign**.    
   
 3. In the **Assign to another user or team** field, select **Lookup**, and select the user or team you want to assign the activity to.  
   
@@ -131,7 +131,7 @@ If you want another person in your organization to work on an activity, you can 
   
 1. In the left pane, go to **Activities**.  
   
-2. In the list of activities, select the activity you want, select **More Commands** ![More commands button](../customer-service/media/crm-ua-not-available.gif "More commands button") on the command bar, and then select **Add to Queue**.
+2. In the list of activities, select the activity you want, select **More Commands** ![More commands button](media/crm-ua-not-available.gif "More commands button") on the command bar, and then select **Add to Queue**.
   
 3. In the **Queue** field, select **Lookup**, select the queue you want to route the activity to, and then select **Add**.
 

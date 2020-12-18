@@ -1,17 +1,14 @@
 ---
-title: "Lead scoring options (Dynamics 365 Marketing) | Microsoft Docs "
-description: "Use the Lead scoring page in the Settings work area to configure a few basic options that control how automatic lead scoring works on your instance in Dynamics 365 Marketing"
+title: "Lead scoring options (Dynamics 365 Marketing) | Microsoft Docs"
+description: "Use the Lead scoring page in the Settings work area to configure a few basic options that control how automatic lead scoring works on your instance in Dynamics 365 Marketing."
 ms.date: 10/04/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-ms.assetid: 59d672b5-1e0b-45e8-88c5-548df07db5d3
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer

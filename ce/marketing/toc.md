@@ -17,6 +17,7 @@
 ### [Keep Marketing up to date](apply-updates.md)
 ### [Recurring activity bulk deletion](recurring-activity-bulk-delete.md)
 ### [Uninstall Marketing](uninstall-marketing.md)
+### [Installation and management FAQ](install-manage-faq.md)
 
 ## Administration 
 ### [Administration overview](admin-guide.md)
@@ -263,7 +264,8 @@
 ### [Retrieve interactions for a contact](developer/retrieve-interactions-contact.md)
 ### [Extend Marketing forms using client side scripting](developer/marketing-form-client-side-extensibility.md)
 
-## [Learning catalog](learning-catalog.md)
+## Learning catalog
+### [Learning catalog overview](learning-catalog.md)
 ### [Business Decision Maker](learning-bdm.md)
 ### [Business User](learning-bus-user.md)
 ### [Implementation Project Manager](learning-project-manager.md)

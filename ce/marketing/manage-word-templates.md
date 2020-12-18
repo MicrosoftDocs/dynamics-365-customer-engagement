@@ -1,19 +1,15 @@
 ---
 title: "Create and deploy Word templates (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Create Word templates that you can use to export, format, and share detailed data from single records in Dynamics 365 Marketing"
-keywords: administration; organization settings; Word; templates; export
+description: "Create Word templates that you can use to export, format, and share detailed data from single records in Dynamics 365 Marketing."
 ms.date: 04/01/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing
 ms.topic: article
-ms.assetid: 9db7c881-4ba5-4b8d-a241-1f6ff3f5de73
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer

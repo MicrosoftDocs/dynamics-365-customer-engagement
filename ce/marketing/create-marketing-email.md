@@ -1,18 +1,14 @@
 ---
 title: "Create a marketing email (Dynamics 365 Marketing) | Microsoft Docs"
-description: "A tutorial for how to create a marketing email in Dynamics 365 Marketing"
-keywords: tutorial; email; marketing email; assist edit; dynamic content
-ms.date: 05/07/2020
+description: "A tutorial for how to create a marketing email in Dynamics 365 Marketing."
+ms.date: 12/14/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
-ms.topic: get-started-article
-ms.assetid: f19d8015-50ab-4286-af03-dd24ced39308
+ms.topic: article
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer
@@ -83,8 +79,6 @@ To create a marketing email and go live:
 
     1. On the pop-up toolbar, select the **Assist edit** button ![The assist-edit button](media/button-assist-edit.png "The assist-edit button"). This opens the assist-edit dialog.
 
-        ![Assist edit, page 1](media/assist-edit-p1.png "Assist edit, page 1")
-
     1. Select the **Contextual** radio button, and then select **Contact** from the combo box here. The **Contextual** setting means that you will place a dynamic value related to the context where you use the message, while the **Contact** setting means that the context relates to the individual recipient (contact) of the message.
 
     1. Select **Next** to continue to the next page of the assit-edit tool.
@@ -92,6 +86,9 @@ To create a marketing email and go live:
         ![Assist edit, page 2](media/assist-edit-email-tutorial-p2.png "Assist edit, page 2")
 
     1. On the previous page, you choose the contact entity (in context). On this page, you must choose which field from that entity you want to place. We're building the salutation, so we'd like to show the recipient's first name here. Select the **Property** radio button and then start to type "first" into the combo box here. This searches the available fields for those that include the text "first," which greatly reduces the number of fields you need to look through. Select **First Name** from the list as soon as you can see it.
+    
+        > [!NOTE]
+        > [Calculated and rollup fields](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/calculated-rollup-attributes) cannot be used in Marketing emails.
 
     1. Select OK to place the expression you've built and close the assist-edit tool. The full salutation now looks like this: **Dear {{contact.firstname}},**. (If you prefer, you can enter that code directly without using assist edit.)
 

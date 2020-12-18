@@ -1,18 +1,14 @@
 ---
 title: "Register contacts' engagement with your website and internet marketing initiatives (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Set up your website to record visits from known and unknown contacts, and create redirect links that register clicks from anywhere in Dynamics 365 Marketing"
-keywords: website;redirect URL;behavioral analysis;behavior;tracking
+description: "Set up your website to record visits from known and unknown contacts, and create redirect links that register clicks from anywhere in Dynamics 365 Marketing."
 ms.date: 04/01/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-ms.assetid: bde3efc9-6ef1-4705-a925-34670c823f40
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer
