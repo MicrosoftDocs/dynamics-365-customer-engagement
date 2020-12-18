@@ -20,10 +20,10 @@ search.app:
 
 # Availability of Customer Service Hub
 
-The Customer Service Hub solution is automatically installed in the environments that have out-of-the-box, Dynamics 365 model-driven apps, such as Customer Service and Sales Hub.
+The Customer Service Hub solution is automatically installed in the environments that have customer engagement apps, such as Customer Service and Sales Hub.
 
 The salient features of the integrated solution are as follows:
 
 - Existing customers can access **Customer Service Hub** in their environment. To learn more: [Introduction to Customer Service Hub](user-guide-customer-service-hub.md).
-- Users with the **Customer service app access** security role will be able to view and use the app. To learn about granting or revoking the role, see [Assign a security role to a user](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user).
+- Users with the **Customer service app access** security role can view and use the app. To learn about granting or revoking the role, see [Assign a security role to a user](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user).
 - If you delete the app manually, it will be installed automatically during the next update cycle.

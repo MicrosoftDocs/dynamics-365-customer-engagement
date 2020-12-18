@@ -16,7 +16,7 @@ ms.reviewer: nenellim
 
 ## Card support
 
-| Channel              | Adaptive card | Hero card | Receipt card | Thumbnail card | Signin card | Audio card |
+| Channel              | Adaptive card | Hero card | Receipt card | Thumbnail card | Sign in card | Audio card |
 |----------------------|---------------|-----------|--------------|----------------|-------------|------------|
 | Microsoft Teams      | ✔             | ✔         | ✔            | ✔              | ✔           | ❌          | 
 | Facebook             | ⚠🔶           | ✔         | ✔            | ✔              | ✔           | 🌐         | 
@@ -28,25 +28,26 @@ ms.reviewer: nenellim
 > The Direct Line channel supports all the above mentioned cards, but it's up to the client to implement them.<br />
 > Video card support can be achieved by adding the video URL in the adaptive card. 
 
-✔: Supported - Card is supported fully with the exception that some channels only support a subset of Card Actions and/or may limit the number of actions allowed on each card. Varies by channel.
+✔: Supported: Card is supported fully with the exception that some channels support a subset of Card Actions. They might limit the number of actions allowed on each card. Varies by channel.
 
-⚠: Partial support - Card may not be displayed at all if it contains inputs and/or buttons. Varies by channel.
+⚠: Partial support: Card might not be displayed at all if it contains inputs or buttons. Varies by channel.
 
 ❌: No support
 
 🔶: Card is converted to image
 
-🌐: Card is converted to unformatted text - Links might not be active, images might not be displayed, and/or media might not work. The behavior might vary by channel.
+🌐: Card is converted to unformatted text:  Links might not be active, images might not be displayed, or media might not work. The behavior might vary by channel.
 
-These categories are intentionally broad and do not fully explain how every card feature is supported in each channel due to the many possible combinations of cards, features, and channels. Use the information in the table as a base reference, but test each of your cards in the desired channels.
+The support categories are intentionally broad and do not fully explain how every card feature is supported in each channel due to the many possible combinations of cards, features, and channels. Use the information in the table as a base reference, but test each of your cards in the desired channels.
 
 For more information, see the following:
+
   - [Sending and Receiving Media with WhatsApp Messaging on Twilio](https://support.twilio.com/hc/articles/360017961894-Sending-and-Receiving-Media-with-WhatsApp-Messaging-on-Twilio-Beta-)
   - [Upload media, Twitter developer documentation](https://developer.twitter.com/docs/media/upload-media/uploading-media/media-best-practices)
 
 ## Suggested actions support
 
-Suggested action is supported fully with the exception that some channels may limit the number of actions allowed. The number of actions supported varies by channel.
+Suggested actions are supported fully with the exception that some channels might limit the number of actions allowed. The number of actions supported varies by channel.
 
 | Channel            | Suggested actions support       |
 |--------------------|---------------------------------|
@@ -62,14 +63,14 @@ You can enable file attachments on the **General settings** tab of a channel so 
 
 | Channel              | Inbound attachments                        | Outbound attachments                  |
 |----------------------|--------------------------------------------|---------------------------------------|
-| Facebook             | Image, Audio, Video, Documents, Gif, Emoji | Image, Audio, Video, Document, Gif    |
-| Twitter              | Image, Video, Gif, Emoji                   | Image, Video, Gif                     |
-| Microsoft Teams      | Image, Audio, Video, Documents, Gif, Emoji | Image, Audio, Video, Documents, Gif   |
-| LINE                 | Image, Audio, Video, Gif                   | Image, Audio, Video, Documents, Gif   |
+| Facebook             | Image, Audio, Video, Documents, GIF, Emoji | Image, Audio, Video, Document, GIF    |
+| Twitter              | Image, Video, GIF, Emoji                   | Image, Video, GIF                     |
+| Microsoft Teams      | Image, Audio, Video, Documents, GIF, Emoji | Image, Audio, Video, Documents, GIF   |
+| LINE                 | Image, Audio, Video, GIF                   | Image, Audio, Video, Documents, GIF   |
 | WeChat               | Image, Audio, Video                        | Image, Audio, Video                   |
 | WhatsApp             | Image, Audio, Video, PDF                   | Image, Audio, Video, PDF              |
-| SMS (Twilio)         | Image, Video, Gif, Emoji                   | Image, Audio, Video, Gif              |
-| Custom (Telegram)    | Image, Audio, Video, Documents, Gif, Emoji | Image, Audio, Video, Documents, Gif   |
+| SMS (Twilio)         | Image, Video, GIF, Emoji                   | Image, Audio, Video, GIF              |
+| Custom (Telegram)    | Image, Audio, Video, Documents, GIF, Emoji | Image, Audio, Video, Documents, GIF   |
 | Custom (Direct Line) | All types except blocked types in org      | All types except blocked types in org |
 
 > [!Note]

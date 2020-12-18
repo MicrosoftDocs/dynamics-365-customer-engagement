@@ -16,9 +16,9 @@ ms.service: dynamics-365-customerservice
 
 ## Overview
 
-As an administrator, you can turn on the feature that displays a customer's average wait time in the queue when they're waiting to chat with an agent. This feature can help to set customer expectations when wait times are longer due to higher volumes of customers needing support, understaffing, or longer-than-expected call-handling times (when all agents in the specific queue are unavailable). Displaying the average wait time can help the customer decide whether to wait in the queue or come back later when the wait time is shorter.
+As an administrator, you can enable the feature that displays a customer's average wait time in the queue when they're waiting to chat with an agent. It helps set customer expectations when wait times are long because of a high volume of customers needing support, understaffing, or long call-handling times. When you display the average wait time to the customer, the customer can decide whether to wait in the queue or return to the chat later.
 
-When this feature is turned on, a customer who submits a request when other customers are already waiting is placed in the queue and notified with the following message: **Average wait time \<n\> mins.** The average wait time is displayed only if the wait is one minute or longer.
+With this feature turned on, when a new customer is placed in the queue, they are notified with the following message: **Average wait time \<n\> mins.** The average wait time is displayed only if the wait is one minute or longer.
 
 The average wait time is calculated based on wait times from the previous 48 hours and a minimum of 50 conversations for the specific queue. This is an estimated time, and doesn't change for the customer. When there is no wait, the average wait time isn't displayed.
 
@@ -39,7 +39,7 @@ The average wait time is calculated based on wait times from the previous 48 hou
 
 6.  Select **Save**.
 
-## See also
+### See also
 
 [Show customers their position in a queue](show-queue.md) <br>
 [Overview of skill-based routing](overview-skill-work-distribution.md) <br>
