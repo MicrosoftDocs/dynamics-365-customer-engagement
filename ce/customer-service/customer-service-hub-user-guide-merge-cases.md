@@ -1,6 +1,6 @@
 ---
-title: Merge a Cases in Customer Service Hub | Microsoft Docs
-description: Understand Cases in Customer Service Hub for Dynamics 365 Customer Service.
+title: Merge cases | MicrosoftDocs
+description: Merge cases when multiple cases are created about same issue in different channels.
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -18,7 +18,7 @@ search.app:
   - D365CS
 ---
 
-# Merge cases  
+# Merge cases
  When a customer opens multiple cases about the same issue (through different support channels), or when multiple customers from the same account call in about the same issue, you can merge those cases into one case to eliminate redundancy.  
 
  When a case is merged, the state of the case is changed to canceled, and the status is changed to merged. This is because it is merged into another case and all of the open case activities, emails, and attachments are now associated with the case it was merged into. By default you can merge up to 10 cases at a time.  

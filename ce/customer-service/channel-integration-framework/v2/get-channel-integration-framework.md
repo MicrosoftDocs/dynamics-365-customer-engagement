@@ -20,7 +20,7 @@ More information on:
 
 - [Customer Service workspace](../../csw-overview.md)
 
-- [Provision Omnichannel for Customer Service](../../../omnichannel/administrator/omnichannel-provision-license.md).
+- [Provision Omnichannel for Customer Service](../../../customer-service/omnichannel-provision-license.md).
 
 ## Prerequisites
 
@@ -29,6 +29,6 @@ More information on:
 ## See also
 
 [Softphone integration sample code for Dynamics 365 Channel Integration Framework version 2.0](sample-softphone-integration-v2.md)<br />
-[Prerequisites and system requirements for Omnichannel for Customer Service](../../../omnichannel/system-requirements-omnichannel.md)<br />
+[Prerequisites and system requirements for Omnichannel for Customer Service](../../../customer-service/system-requirements-omnichannel.md)<br />
 [Known issues](../known-issues.md)<br />
 [FAQs for Channel Integration Framework](../faq-channel-integration-framework.md)
