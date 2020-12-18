@@ -13,11 +13,11 @@ ms.service: dynamics-365-customerservice
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-When no records are linked to the conversation in Omnichannel for Customer Service, you can create a record. You can create a new record in two ways:
+When no records are linked to the conversation in Omnichannel for Customer Service, you can create a record. You can create a record in one of the following ways:
 
-- [Create a new record from the Customer Summary page](oc-create-record.md#create-a-new-record-from-the-customer-summary-page)
-- [Create a new record using the quick create option](oc-create-record.md#create-a-new-record-using-the-quick-create-option)
-- [Create a new record using the + New option](oc-create-record.md#create-a-new-record-using-the-new-option)
+- Create a record from the Customer Summary page
+- Create a record using the quick create option
+- Create a record using the New option
 
 ## Create a record from the Customer Summary page
 
@@ -68,7 +68,7 @@ To create a new record, follow the steps:
  - Account
 
    > [!div class=mx-imgBorder]
-   > ![Quick create record](media/oc-oceh-create-quick-create.png "Quick create record")
+   > ![Create record quickly](media/oc-oceh-create-quick-create.png "Create record quickly")
 
 3. In the left pane, you can see a new record page. Specify the details in the form.
 
@@ -96,7 +96,7 @@ In the Customer Summary page, when you are trying to search a record in customer
     > [!div class=mx-imgBorder]
     > ![Auto-link record](media/customer-summary-search-section-auto-link-case.png "Auto-link record")
 
-## See also
+### See also
 
 - [Search, link, and unlink a record](oc-search-link-unlink-record.md)
 - [View customer summary and know everything about customers](oc-customer-summary.md)

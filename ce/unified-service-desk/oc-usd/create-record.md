@@ -1,5 +1,5 @@
 ---
-title: "Create a record in Omnichannel for Customer Service | MicrosoftDocs"
+title: "Create a record in Omnichannel for Customer Service on Unified Service Desk | MicrosoftDocs"
 description: "Learn how to create a record in Omnichannel for Customer Service from within Unified Service Desk client application"
 author: neeranelli
 ms.author: nenellim

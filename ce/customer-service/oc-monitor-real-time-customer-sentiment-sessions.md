@@ -35,7 +35,7 @@ The sentiment icons displayed on the communication panel are as follows:
 | Sentiment | Icon |
 |--------------------------|---------------------------------------------------|
 | Very positive | ![Very positive sentiment](media/sentiment-very-positive.png "Very positive sentiment") |
-| Positive | ![Positive sentiment](media//oceh/sentiment-positive.png "Positive sentiment") |
+| Positive | ![Positive sentiment](media/sentiment-positive.png "Positive sentiment") |
 | Slightly positive | ![Slightly positive sentiment](media/sentiment-slightly-positive.png "Slightly positive sentiment") |
 | Neutral | ![Neutral sentiment](media/sentiment-neutral.png "Neutral sentiment") |
 | Slightly negative | ![Slightly negative sentiment](media/sentiment-slightly-negative.png "Slightly negative sentiment") |

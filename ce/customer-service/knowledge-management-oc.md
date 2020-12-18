@@ -38,5 +38,5 @@ To know more about how to configure the external portal in the **Customer Servic
 
 ### See also
 
-[Search and share knowledge articles](../agent/agent-oc/oc-search-knowledge-articles.md)  
+[Search and share knowledge articles](oc-search-knowledge-articles.md)  
 [Search and share knowledge articles in Customer Service workspace](csw-search-knowledge-articles.md)  

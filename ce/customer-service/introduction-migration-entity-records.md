@@ -26,7 +26,7 @@ To learn more, see [Understand the new scheduling experience](basics-service-ser
 
 Consider the following scenarios before you begin migration:
 
-- If you haven’t been using the legacy scheduling experience and you are setting it up for the first time in the Customer Service Hub app, see [Set up the new scheduling experience](basics-service-service-scheduling.md#set-up-the-new-service-scheduling-experience).
+- If you haven’t been using the legacy scheduling experience and you are setting it up for the first time in the Customer Service Hub app, see [Set up the new scheduling experience](basics-service-service-scheduling.md#set-up-the-service-scheduling-experience).
 
     > [!Note]
     > As an admin, you should configure all your entity records in the new experience manually from the user interface. You must follow the order as given in the [Scheduling scenario](basics-service-service-scheduling.md#scheduling-scenario) while configuring entity records in the new scheduling experience.

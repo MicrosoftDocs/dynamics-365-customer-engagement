@@ -58,7 +58,7 @@ This section contains information about new features and enhancements in Omnicha
     - Capacity of the agent is unblocked.
     - Conversations achieve a closure and agents can focus on important conversations thus enhancing productivity.
 
-    More information: [Automatic closure of conversation (Agents using Omnichannel for Customer Service app)](agent/agent-oc/oc-conversation-state.md#automatic-closure-of-a-conversation) and [Automatic closure of conversation (Agents using Omnichannel for Customer Service on Unified Service Desk)](agent/agent-usd/conversation-state.md#automatic-closure-of-a-conversation)
+    More information: [Automatic closure of conversation (Agents using Omnichannel for Customer Service app)](oc-conversation-state.md#automatic-closure-of-a-conversation) and [Automatic closure of conversation (Agents using Omnichannel for Customer Service on Unified Service Desk)](../unified-service-desk/oc-usd/conversation-state.md#automatic-closure-of-a-conversation)
 
 ### Administrator experience
 
@@ -170,12 +170,12 @@ The Omnichannel for Customer Service app for Dynamics is a cloud-based service t
 
 - **Configure Omnichannel experience with the Add-On package**: When you deploy the Omnichannel for Customer Service – Preview – Add-on package, you can configure the basic components for agents to use Omnichannel for Customer Service. Learn how to configure the following components:
 
-    - [Omnichannel agent dashboard](configure-agent-dashboard.md)
-    - [Communication panel](configure-communication-panel.md)
-    - [Customer summary](configure-customer-summary.md)
-    - [Notifications](configure-notification-screen-pop-agents.md)
-    - [Session name information](configure-session-name-information.md)
-    - [Scriptlets to define the case and channel titles](configure-Scriptlets-define-case-channel-titles.md)
+    - [Omnichannel agent dashboard](../unified-service-desk/oc-customizer/configure-agent-dashboard.md)
+    - [Communication panel](../unified-service-desk/oc-customizer/configure-communication-panel.md)
+    - [Customer summary](../unified-service-desk/oc-customizer/configure-customer-summary.md)
+    - [Notifications](../unified-service-desk/oc-customizer/configure-notification-screen-pop-agents.md)
+    - [Session name information](../unified-service-desk/oc-customizer/configure-session-name-information.md)
+    - [Scriptlets to define the case and channel titles](../unified-service-desk/oc-customizer/configure-Scriptlets-define-case-channel-titles.md)
 
 ### Developer experience
 
@@ -201,7 +201,7 @@ This topic contains information about updates in Omnichannel for Customer Servic
 
 ### Agent experience
 
-- **Unlink a record (case, contact, and account) from a conversation**: You can unlink a record (case, contact, and account) from a conversation while you are interacting with the customer. You can unlink inline on the **Customer profile** and **Issue snapshot** form and link any other required record. More information: [Unlink a record from the conversation](link-unlink-record.md#unlink-a-record-from-the-conversation) and [Unlink a record from the conversation](oc-search-link-unlink-record.md)
+- **Unlink a record (case, contact, and account) from a conversation**: You can unlink a record (case, contact, and account) from a conversation while you are interacting with the customer. You can unlink inline on the **Customer profile** and **Issue snapshot** form and link any other required record. More information: [Unlink a record from the conversation](../unified-service-desk/oc-usd/link-unlink-record.md#unlink-a-record-from-the-conversation) and [Unlink a record from the conversation](oc-search-link-unlink-record.md)
 
 
 ### Developer experience

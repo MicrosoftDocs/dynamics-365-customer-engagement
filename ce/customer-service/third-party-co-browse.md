@@ -242,17 +242,17 @@ The following are links for publishing the application to AppSource:
 
 [Onboarding guide](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/business-applications-isv-program) 
 
-[ISV Studio](http://Aka.ms/isvstudio)
+[ISV Studio](https://aka.ms/isvstudio)
 
 [Overview Guide PDF](https://aka.ms/bizappsisvprogram) 
 
-[Agreement PDF](http://aka.ms/bizappsisvaddendum) 
+[Agreement PDF](https://aka.ms/bizappsisvaddendum) 
 
-[Policies PDF (Includes benefit table)](http://aka.ms/bizappsisvpolicies)
+[Policies PDF (Includes benefit table)](https://aka.ms/bizappsisvpolicies)
 
-[Program page on partner.microsoft.com site with links to certificate info](http://aka.ms/bizappsisvweb)
+[Program page on partner.microsoft.com site with links to certificate info](https://aka.ms/bizappsisvweb)
 
-[Customer/partner support](http://aka.ms/marketplacepublishersupport)
+[Customer/partner support](https://aka.ms/marketplacepublishersupport)
  
 ## Third-party providers responsibility and data disclaimer 
 

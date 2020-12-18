@@ -7,6 +7,7 @@ manager: shujoshi
 ms.date: 05/15/2020
 search.audienceType: 
   - developer
+ms.service: "dynamics-365-customerservice"
 ---
 
 # Work with knowledge articles
