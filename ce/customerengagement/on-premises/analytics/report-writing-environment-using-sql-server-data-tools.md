@@ -15,12 +15,11 @@ ms.assetid: 4c31abe1-7c07-4498-b69a-ddfed2686d08
 caps.latest.revision: 23
 author: Mattp123
 ms.author: matp
-manager: amyla
+manager: kvivek
 tags: 
   - MigrationHO
 search.audienceType: 
   - customizer
-
 ---
 # Report writing environment using SQL Server Data Tools
 
