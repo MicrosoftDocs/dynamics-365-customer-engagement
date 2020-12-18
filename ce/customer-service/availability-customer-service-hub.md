@@ -20,7 +20,7 @@ search.app:
 
 # Availability of Customer Service Hub
 
-The Customer Service Hub solution, built on the Unified Interface framework, is automatically installed in the environments that have out-of-the-box, Dynamics 365 model-driven apps, such as Customer Service and Sales Hub.
+The Customer Service Hub solution is automatically installed in the environments that have out-of-the-box, Dynamics 365 model-driven apps, such as Customer Service and Sales Hub.
 
 The salient features of the integrated solution are as follows:
 
