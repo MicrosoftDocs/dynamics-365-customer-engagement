@@ -64,4 +64,4 @@ window.Microsoft.Omnichannel.TranslationFramework.getTranslationProvider = funct
 
 ### See also
 
-[Add a web resource for real-time translation](../../how-to/add-web-resource-real-time-translation.md)  
+[Add a web resource for real-time translation](../../../add-web-resource-real-time-translation.md)  

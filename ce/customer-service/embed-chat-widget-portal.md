@@ -83,7 +83,7 @@ After the chat widget is configured, it has the following capabilities:
 - **End chat**: A customer can end the chat by selecting the **Close chat** button. A confirmation message is displayed before ending the chat.
 
 > [!NOTE]
-> For advanced configuration like embedding chat widget on specific web pages, see [Manage portal content](../../portals/manage-portal-content.md). 
+> For advanced configuration like embedding chat widget on specific web pages, see [Manage portal content](/portals/manage-portal-content.md). 
 
 ### See also
 

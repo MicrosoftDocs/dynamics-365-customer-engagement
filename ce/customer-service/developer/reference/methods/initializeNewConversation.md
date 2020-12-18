@@ -160,4 +160,4 @@ The `c1Language` parameter in resolved Javascript object represents a Locale ID 
 
 ### See also
 
-[Add a web resource for real-time translation](../../how-to/add-web-resource-real-time-translation.md)  
+[Add a web resource for real-time translation](../../../add-web-resource-real-time-translation.md)  
