@@ -203,6 +203,10 @@ Perform the following steps in Power Automate to manually map a contact:
 
 5. Save and close.
 
+### Troubleshoot cases
+
+[Issue converting an email to a case](troubleshoot-case-email-issue.md)
+
 ### See also
 
 [Create and manage queues](set-up-queues-manage-activities-cases.md)  

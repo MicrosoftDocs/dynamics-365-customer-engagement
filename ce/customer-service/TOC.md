@@ -85,11 +85,10 @@
 #### [View AI suggested similar cases and knowledge articles](csw-view-ai-suggested-cases-knowledge-articles.md)
 ### Customize case management
 #### [Modify case resolution dialog box](customer-service-hub-user-guide-modify-case-resolution-dialog.md)
-### Troubleshoot cases
-#### [Issue converting an email to a case](troubleshoot-case-email-issue.md)
+
 
 ## Automatically create or update records
-### [Create or update records in Customer Service Hub](automatically-create-update-records.md)
+### [Automatically create or update records in Customer Service Hub](automatically-create-update-records.md)
 ### [Set up rules to create or update records in legacy app](set-up-rules-to-automatically-create-or-update-records.md)
 ### [Create records from emails in legacy app](automatically-create-case-from-email.md)
 
@@ -107,9 +106,7 @@
 ### Customize SLAs
 #### [Add timer control to forms](add-timer-control-case-form-track-time-against-sla.md)
 #### [Add a timer in forms to track time against enhanced SLAs](add-timer-forms-track-time-against-enhanced-sla.md)
-### Troubleshoot SLAs
-#### [SLA timer does not pause](troubleshoot-sla-timer-issue.md)
-#### [Unable to delete a managed solution](troubleshoot-delete-managed-solution.md)
+
 
 ## Email
 ### [Configure email](customer-service-hub-user-guide-email-admin.md)
@@ -215,8 +212,7 @@
 #### Set up entity records channel
 ##### [Route entity records](entity-channel.md)
 ##### [Route trigger for entity records](routing-trigger.md)
-### Troubleshoot channel issues
-#### [Troubleshoot channel issues](troubleshoot-omnichannel-customer-service.md)
+
 
 ## Agent productivity tools
 ### Administrator experience

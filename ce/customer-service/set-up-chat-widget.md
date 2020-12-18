@@ -46,7 +46,7 @@ If your organization is concerned about the data collected by this service, you 
 
 `"data-enable-telemetry" = "false"`
 
-## Videos
+### Videos
 
 [Overview of Chat for Dynamics 365 Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2097416)
 
