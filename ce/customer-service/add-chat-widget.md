@@ -123,6 +123,10 @@ ms.service: dynamics-365-customerservice
 
 After you configure, agents can get the capabilities while they are in a conversation. To learn more, see [Call options and visual engagement in live chat](call-options-visual-engagement.md).
 
+### Troubleshooting
+
+[Errors in creating a chat widget](troubleshoot-omnichannel-customer-service.md#chat-widget)
+
 ### See also
 
 [Configure a pre-conversation survey](configure-pre-chat-survey.md)  

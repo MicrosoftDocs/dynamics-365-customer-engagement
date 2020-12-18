@@ -16,7 +16,7 @@ ms.service: dynamics-365-customerservice
 
 Use the following list of troubleshooting topics to quickly find information to solve your issue.
 
-## The instance is not available to select on the provisioning application
+## The instance is not available to select on the provisioning application <a name="provision"></a>
 
 ### Issue
 
@@ -94,7 +94,7 @@ This establishes a connection with the tenant's Azure Active Directory, so you c
 
 The Microsoft Teams Service and Skype Teams Calling API Service are removed from your organization. You can try to provision Omnichannel for Customer Service again.
 
-## Errors occur when I try to open Omnichannel for Customer Service or Customer Service workspace with Omnichannel enabled
+## Errors occur when I try to open Omnichannel for Customer Service or Customer Service workspace with Omnichannel enabled <a name="oc-csw-errors></a> 
 
 ### Issue
 
@@ -122,7 +122,7 @@ If you get any of the errors listed in the table below, work with your administr
 
   - We couldn't get your authentication token — Your Teams subscription has expired, please contact your admin to renew it. If this continues, have your admin contact Microsoft Support with the Client Session ID:{0}. To resolve the issue, follow the steps in [Omnichannel provisioning fails due to expired Teams Service Principal](#omnichannel-provisioning-fails-due-to-expired-teams-service-principal).
 
-## Error occurs when I try to create a chat widget or social channel
+## Error occurs when I try to create a chat widget or social channel <a name="chat-widget"></a>
 
 ### Issue
 
@@ -225,7 +225,7 @@ Review and resolve the error that is due to your customizations. For more inform
 
 Conversations for Power Virtual Agents bot cannot be ended in Omnichannel for Customer Service and therefore will be seen as active on the supervisor dashboard even after they have been closed.
 
-### Resolution
+### Resolution 
 
 You can configure a context variable that will explicitly end the bot conversation in Omnichannel for Customer Service after customers close the chat window. In Power Virtual Agents, create a standalone topic for CloseOmnichannelConversation context variable with the variable property set to global. Invoke the topic in another topic that you've configured for the bot.
 
@@ -566,7 +566,7 @@ Communication panel doesn't load in Omnichannel for Customer Service app:
    8. Select **Save** to save the record.
    9. Sign in to Omnichannel for Customer Service app and check if the communication panel loads.
 
-## User presence isn’t loading or it’s showing Unknown
+## User presence isn’t loading or it’s showing unknown <a name="troubleshoot-presence"></a>
 
 ### Issue
 

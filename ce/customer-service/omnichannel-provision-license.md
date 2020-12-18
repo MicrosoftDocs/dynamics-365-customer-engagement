@@ -135,6 +135,10 @@ After Omnichannel for Customer Service application is successfully provisioned, 
     > [!NOTE]
     > If you disable all channels, Omnichannel for Customer Service will be removed from your organization.
 
+### Troubleshoot provisioning
+
+[Instance is not available to select on the provisioning application](troubleshoot-omnichannel-customer-service.md#provision)
+
 ### See also
 
 [Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md)  

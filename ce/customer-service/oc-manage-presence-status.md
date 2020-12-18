@@ -59,7 +59,11 @@ Presence status is updated in two ways:
   - When your capacity is not utilized, the presence is set to **Available**.
   - When you miss a notification and missed notifications is enabled, the presence is set to **Inactive**.
 
-## See also
+### Troubleshoot display of presence
+
+[Why doesn't my presence load?](troubleshoot-omnichannel-customer-service.md#troubleshoot-presence)
+
+### See also
 
 - [View notifications](oc-notifications.md)
 - [Introduction to the agent interface](oc-introduction-agent-interface.md)

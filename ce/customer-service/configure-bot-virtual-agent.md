@@ -181,6 +181,10 @@ At run time, the required information is captured in the context variable that c
 
 You understand that your data may be transmitted and shared with external systems and that your data may flow outside of your organization's compliance boundary (even if your organization is in a Government Cloud environment). For example, your messages will be shared with the bot which could be interacting with a third-party system based on the integration done by you. For more information on how we process your data, see [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement).
 
+### Troubleshoot issues for bots
+
+[How to end a bot conversation in Omnichannel for Customer Service](troubleshoot-omnichannel-customer-service.md#pvaendconv) 
+
 ### Videos
 
 [Power Virtual Agents integration with Omnichannel for Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2114716)
@@ -194,5 +198,4 @@ To view more videos on Omnichannel for Customer Service, see [Videos](videos.md)
 [Create and manage routing rules](routing-rules.md)  
 [Add a chat widget](add-chat-widget.md)  
 [Enable a bot to escalate and end conversation](bot-escalate-end-conversation.md)  
-[Create and edit topics in Power Virtual Agents bot](https://docs.microsoft.com/power-virtual-agents/authoring-create-edit-topics)  
-[Troubleshoot how to end a conversation in Omnichannel for Customer Service](troubleshoot-omnichannel-customer-service.md#pvaendconv)  
+[Create and edit topics in Power Virtual Agents bot](https://docs.microsoft.com/power-virtual-agents/authoring-create-edit-topics)   
