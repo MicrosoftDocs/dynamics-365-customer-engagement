@@ -7,6 +7,7 @@ manager: shujoshi
 ms.date: 05/15/2020
 search.audienceType: 
   - developer
+ms.service: "dynamics-365-customerservice"
 ---
 
 # Work with knowledge articles
@@ -42,7 +43,7 @@ Console.WriteLine("Created {0}", newKnowledgeArticle.Title);
 
 ## Create major and minor versions of a knowledge article  
 
-When you create a knowledge article record, the major version is automatically set to 1 and minor version to 0. Use the `CreateKnowledgeArticleVersion` message (<xref href="Microsoft.Dynamics.CRM.CreateKnowledgeArticleVersion ?text=CreateKnowledgeArticleVersion Action" /> or <xref:Microsoft.Crm.Sdk.Messages.CreateKnowledgeArticleVersionRequest>) to create a major or minor version of a knowledge article. In the request message, set `IsMajor` to `true` to create a major version; set it to `false` to create a minor version. The new version record that is created uses the:  
+When you create a knowledge article record, the major version is automatically set to 1 and minor version to 0. Use the `CreateKnowledgeArticleVersion` message (<xref href="Microsoft.Dynamics.CRM.CreateKnowledgeArticleVersion?text=CreateKnowledgeArticleVersion Action" /> or <xref:Microsoft.Crm.Sdk.Messages.CreateKnowledgeArticleVersionRequest>) to create a major or minor version of a knowledge article. In the request message, set `IsMajor` to `true` to create a major version; set it to `false` to create a minor version. The new version record that is created uses the:  
   
 - `KnowledgeArticle`.`RootArticleId` attribute to maintain the association with the root knowledge article record.  
   

@@ -451,6 +451,11 @@ We recommend that you perform the following steps to upgrade a solution:
 2. Upgrade your solution.
 3. After the solution has been successfully upgraded, activate the SLAs as required.
 
+### Troubleshoot SLAs
+
+- [SLA timer does not pause](troubleshoot-sla-timer-issue.md) 
+- [Unable to delete a managed solution](troubleshoot-delete-managed-solution.md)
+
 ### See also  
 
 [Enable entities for service-level agreements](enable-entities-service-level-agreements.md)  
