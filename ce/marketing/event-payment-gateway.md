@@ -1,7 +1,7 @@
 ---
 title: "Add a payment gateway to your event website (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Describes how to set up a payment gateway for the event website, so contacts can pay for a ticket while registering in  Dynamics 365 Marketing."
-ms.date: 09/16/2020
+ms.date: 12/17/2020
 ms.service: dynamics-365-marketing
 ms.custom:
   - dyn365-marketing
@@ -45,11 +45,13 @@ To add a new payment page to your event website:
 
 1. Sign in to Dynamics 365 Marketing and go to the custom app by choosing **Dynamics 365—custom** from the app selector.  
 
-    ![The app-selector menu](media/nav-apps-custom-ill.png "The app-selector menu")
+    > [!div class="mx-imgBorder"]
+    > ![The app-selector menu](./media/nav-apps-custom.png)
 
-1. In the custom app, use the horizontal navigator at the top of the page to open **Portals** > **Content** > **Web Templates**.  
+1. In the custom app, use the area switcher at the bottom left of the page to open **Portals**. Then go to **Content** > **Web Templates**
 
-    ![Go to your web templates](media/payment-template-nav.png "Go to your web templates")
+    > [!div class="mx-imgBorder"]
+    > ![Go to your web templates](./media/payment-template-nav2.png)
 
 1. Select **+ New** on the control bar to create a new web template.
 
@@ -59,7 +61,7 @@ To add a new payment page to your event website:
 
 1. Save your template by selecting the **Save** button at the bottom-right corner of the window.
 
-1. Go to **Portals** > **Website** > **Page Template** and select **+ New** on the command bar to create a new page template.  
+1. Go to **Portals** > **Website** > **Page Templates** and select **+ New** on the command bar to create a new page template.
 
     ![An example page template setup](media/payment-page-template-setup.png "An example page template setup")
 
