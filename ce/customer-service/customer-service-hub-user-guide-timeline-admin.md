@@ -126,15 +126,20 @@ This section allows you to control the number records that appear before display
 
 ### Record types shown
 
-There are three (3) primary record types which include: activities, notes, and posts.  All record types are enabled by default.
+There are three primary record types: activities, notes, and posts. All record types are enabled by default.
 
-- **Activities** can have a large number of customizable sub-activity record types to support business needs. Depending on what you have installed, Admin can create, add, and display a number of different customized sub-activity record types under the Activity section of the drop-down menu on the timeline.    
-- **Notes** allow you to capture notes related to the entity record. For example, you can use notes to grab thoughts, summarize information, and provide feedback on a case and make edits whenever you want. 
-- **Posts.**  There are two types of posts, Auto Posts and User Posts. 
+#### Activities
+Activities can have a large number of customizable sub-activity record types to support business needs. Depending on what you have installed, Admin can create, add, and display a number of different customized sub-activity record types under the Activity section of the drop-down menu on the timeline. 
+
+#### Notes
+Notes allow you to capture notes related to the entity record. For example, you can use notes to grab thoughts, summarize information, and provide feedback on a case and make edits whenever you want. 
+
+#### Posts
+There are two types of posts: auto and user. 
     - **Auto Posts** are system generated posts that notify you of account activity that has occurred. 
     - **User Posts** allows you leave a message for another user on a record.
 
-This section allows you to enable these record types to be displayed in the timeline.
+#### Enable these record types to be displayed in the timeline
 
 |Configuration View | | Display View  |
 |-------------------|-|---------------|
