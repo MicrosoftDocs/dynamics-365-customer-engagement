@@ -95,7 +95,7 @@ The following overview provides a detailed breakdown of each timeline feature, w
   - [Advanced](#advanced)
 
 - **Record settings** 
-  - [Activities](#advanced)
+  - [Activities](#activities)
   -	[Notes](#notes)
   -	[Posts](#posts)
 
@@ -135,9 +135,11 @@ Activities can have a large number of customizable sub-activity record types to 
 Notes allow you to capture notes related to the entity record. For example, you can use notes to grab thoughts, summarize information, and provide feedback on a case and make edits whenever you want. 
 
 #### Posts
-There are two types of posts: auto and user. 
-    - **Auto Posts** are system generated posts that notify you of account activity that has occurred. 
-    - **User Posts** allows you leave a message for another user on a record.
+There are two types of posts: auto and user.
+
+   - **Auto Posts** are system generated posts that notify you of account activity that has occurred.
+   
+   - **User Posts** allows you leave a message for another user on a record.
 
 #### Enable these record types to be displayed in the timeline
 
