@@ -264,7 +264,7 @@
 ### [Retrieve interactions for a contact](developer/retrieve-interactions-contact.md)
 ### [Extend Marketing forms using client side scripting](developer/marketing-form-client-side-extensibility.md)
 
-## [Learning catalog]
+## Learning catalog
 ### [Learning catalog overview](learning-catalog.md)
 ### [Business Decision Maker](learning-bdm.md)
 ### [Business User](learning-bus-user.md)
