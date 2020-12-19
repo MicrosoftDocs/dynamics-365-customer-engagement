@@ -214,6 +214,21 @@
 ##### [Route trigger for entity records](routing-trigger.md)
 
 
+## Advanced settings for chat and channels
+### [Configure business hours](create-operating-hours.md)
+### [Enable file attachments](enable-file-attachments.md)
+### [Configure pre-conversation surveys](configure-pre-chat-survey.md)
+### [Configure post-conversation surveys](configure-post-conversation-survey.md)
+### [Automatically identify customers](record-identification-rule.md)
+### [Configure chat authentication settings](create-chat-auth-settings.md)
+### [Enable real-time translation of conversations](enable-real-time-translation.md)
+### [Set up customer location detection](geo-location-provider.md)
+### [Configure self-service settings for customer actions](enable-self-service-settings.md)
+### [Configure automated messages](configure-automated-message.md)
+### [Create message templates](create-message-templates.md)
+### [Configure outbound messages](outbound-messaging.md)
+### [Configure data masking](data-masking-settings.md)
+
 ## Agent productivity tools
 ### Administrator experience
 #### [Productivity pane in Customer Service workspace](csw-productivity-pane.md)
@@ -236,20 +251,6 @@
 #### [Build a smart assist bot](smart-assist-bot.md)
 #### [Implement custom scenario](smart-assist-scenario.md)
 
-## Advanced settings for chat and channels
-### [Configure business hours](create-operating-hours.md)
-### [Enable file attachments](enable-file-attachments.md)
-### [Configure pre-conversation surveys](configure-pre-chat-survey.md)
-### [Configure post-conversation surveys](configure-post-conversation-survey.md)
-### [Automatically identify customers](record-identification-rule.md)
-### [Configure chat authentication settings](create-chat-auth-settings.md)
-### [Enable real-time translation of conversations](enable-real-time-translation.md)
-### [Set up customer location detection](geo-location-provider.md)
-### [Configure self-service settings for customer actions](enable-self-service-settings.md)
-### [Configure automated messages](configure-automated-message.md)
-### [Create message templates](create-message-templates.md)
-### [Configure outbound messages](outbound-messaging.md)
-### [Configure data masking](data-masking-settings.md)
 
 ## Templates
 ### [Overview](../app-profile-manager/templates-overview.md)
@@ -258,7 +259,7 @@
 ### [Manage notification templates](../app-profile-manager/notification-templates.md)
 ### [Associate templates with workstreams](associate-templates.md)
 
-## Power Virtual Agents bots
+## Power Virtual Agents
 ### [Integrate a Power Virtual Agents bot](configure-bot-virtual-agent.md)
 
 ## Bots
