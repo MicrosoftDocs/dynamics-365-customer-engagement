@@ -72,7 +72,6 @@
 #### [Manage case queues and route cases](customer-service-hub-user-guide-case-queues-and-routing.md)
 #### [Work with queues](work-with-queues.md)
 
-
 ## Case management
 ### Administrator experience
 #### [Define parent and child cases](define-settings-parent-child-cases.md)
@@ -85,7 +84,6 @@
 #### [View AI suggested similar cases and knowledge articles](csw-view-ai-suggested-cases-knowledge-articles.md)
 ### Customize case management
 #### [Modify case resolution dialog box](customer-service-hub-user-guide-modify-case-resolution-dialog.md)
-
 
 ## Automatically create or update records
 ### [Automatically create or update records in Customer Service Hub](automatically-create-update-records.md)
@@ -106,7 +104,6 @@
 ### Customize SLAs
 #### [Add timer control to forms](add-timer-control-case-form-track-time-against-sla.md)
 #### [Add a timer in forms to track time against enhanced SLAs](add-timer-forms-track-time-against-enhanced-sla.md)
-
 
 ## Email
 ### [Configure email](customer-service-hub-user-guide-email-admin.md)
@@ -213,6 +210,20 @@
 ##### [Route entity records](entity-channel.md)
 ##### [Route trigger for entity records](routing-trigger.md)
 
+## Advanced settings for chat and channels
+### [Configure operating hours](create-operating-hours.md)
+### [Enable file attachments](enable-file-attachments.md)
+### [Configure pre-conversation surveys](configure-pre-chat-survey.md)
+### [Configure post-conversation surveys](configure-post-conversation-survey.md)
+### [Automatically identify customers](record-identification-rule.md)
+### [Configure chat authentication settings](create-chat-auth-settings.md)
+### [Enable real-time translation of conversations](enable-real-time-translation.md)
+### [Set up customer location detection](geo-location-provider.md)
+### [Configure self-service settings for customer actions](enable-self-service-settings.md)
+### [Configure automated messages](configure-automated-message.md)
+### [Create message templates](create-message-templates.md)
+### [Configure outbound messages](outbound-messaging.md)
+### [Configure data masking](data-masking-settings.md)
 
 ## Agent productivity tools
 ### Administrator experience
@@ -236,21 +247,6 @@
 #### [Build a smart assist bot](smart-assist-bot.md)
 #### [Implement custom scenario](smart-assist-scenario.md)
 
-## Advanced settings for chat and channels
-### [Configure business hours](create-operating-hours.md)
-### [Enable file attachments](enable-file-attachments.md)
-### [Configure pre-conversation surveys](configure-pre-chat-survey.md)
-### [Configure post-conversation surveys](configure-post-conversation-survey.md)
-### [Automatically identify customers](record-identification-rule.md)
-### [Configure chat authentication settings](create-chat-auth-settings.md)
-### [Enable real-time translation of conversations](enable-real-time-translation.md)
-### [Set up customer location detection](geo-location-provider.md)
-### [Configure self-service settings for customer actions](enable-self-service-settings.md)
-### [Configure automated messages](configure-automated-message.md)
-### [Create message templates](create-message-templates.md)
-### [Configure outbound messages](outbound-messaging.md)
-### [Configure data masking](data-masking-settings.md)
-
 ## Templates
 ### [Overview](../app-profile-manager/templates-overview.md)
 ### [Manage session templates](../app-profile-manager/session-templates.md)
@@ -258,7 +254,7 @@
 ### [Manage notification templates](../app-profile-manager/notification-templates.md)
 ### [Associate templates with workstreams](associate-templates.md)
 
-## Power Virtual Agents bots
+## Power Virtual Agents
 ### [Integrate a Power Virtual Agents bot](configure-bot-virtual-agent.md)
 
 ## Bots
@@ -306,7 +302,6 @@
 ##### [Monitor and analyze sentiment](supervisor-sentiment-monitoring.md)
 ### Customize insights
 #### [Configure interactive dashboards](configure-interactive-dashboards-customer-service-hub.md)
-
 
 ## Service scheduling
 ### [Overview of Service scheduling](basics-service-service-scheduling.md)
@@ -544,7 +539,6 @@
 ### [Troubleshoot issues in Omnichannel for Customer Service](troubleshoot-omnichannel-customer-service.md)
 ### [Troubleshoot with Solution Health Hub](troubleshoot-using-solution-health-hub.md)
 ### [Troubleshoot channel issues](troubleshoot-omnichannel-customer-service.md)
-
 
 ## FAQs on Customer Service
 ### [FAQs on AI suggestions for cases and knowledge articles](csw-faqs-ai-suggestions.md)
