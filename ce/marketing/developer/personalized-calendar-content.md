@@ -18,7 +18,7 @@ search.app:
 
 # Use an API call to generate an .ics file with personalized calendar content for events and sessions
 
-Using API calls, you can create a button for registration confirmation emails that generates a personalized .ics (iCalendar) file containing details about the event or session.
+Using an API call, you can create a button for registration confirmation emails that generates a personalized .ics (iCalendar) file containing details about the event or session.
 
 ## Prerequisites
 
@@ -26,12 +26,15 @@ To create the .ics file, you will first need to create an [event management web 
 
 ## Add event information in the calendar content field
 
-To begin the process of generating an .ics file, you will create a message that you want to include in your calendar invite. You will enter the message in the **Calendar content** field in your event under the **Additional information** tab.
+To begin the process of generating an .ics file, you will create a message that you want to include in your calendar invite. You will enter the message in the **Calendar content** field under the **Additional information** tab in your event.
 
 You can create a short message to welcome registrants to your event, such as:
 
-``Hi {{firstname}}``<br>
+``Hi {{firstname}},``<br>
 ``Welcome to my event.``
+
+> [!div class="mx-imgBorder"]
+> ![Entering the calendar content message](../media/ics-calendar-content2.png)
 
 {{firstname}} is a wildcard that pulls the registrant's first name from the contact information. You can add any wildcards that you want to be replaced during calendar file creation. Wildcards are marked between double brackets {{my_example}} and are replaced with values provided in the parameters of the data fields.
 
@@ -46,13 +49,40 @@ You can create a short message to welcome registrants to your event, such as:
 If you do not see the calendar content field, you may have to activate it. To activate the field:
 
 1. Go to the top ribbon in Dynamics 365 Marketing, then select the **Settings** gear. Next, select **Advanced Settings**.
-1. Select the chevron next to **Settings** in the top ribbon, then select **Customizations**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Accessing the Advanced Settings](../media/ics-advanced-settings2.png)
+
+1. A new window will open, showing the Advanced Settings. In the new window, select the chevron next to **Settings** in the top ribbon, then select **Customizations**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Accessing Customizations](../media/ics-customizations.png)
+
 1. On the next screen, select **Customize the System**. A new window will pop up containing component customization options.
-1. In the left navigation of the new window, go to **Components** > **Entities** > **Event** > **Forms**. The right pane will display **Active Forms** for events. To open the main event form, select **Event** from the list. A new window titled Solution: Default Solution, Form: Event will open.
-1. Scroll down to the section titled **Additional information**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Select Customize the System image](../media/ics-customize-the-system.png)
+
+1. In the left navigation of the new window, go to **Components** > **Entities** > **Event** > **Forms**. The right pane will display **Active Forms** for events. To open the main event form, select **Event** from the list.
+
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of opening the main event form](../media/ics-forms-event.png)
+
+1. A new window titled Solution: Default Solution, Form: Event will open. Scroll down to the section titled **Additional information**.
 1. Select the **Calendar content** field, then select **Change properties** in the top ribbon. A new properties overlay will open.
-1. The properties enable you to make the calendar content field visible on events pages. To make the calendar content field visible, select the checkbox next to **Visible by default**. Select **OK** to close the pane and save your changes.
+
+    > [!div class="mx-imgBorder"]
+    > ![Changing the properties of the Calendar content field](../media/ics-change-properties.png)
+
+1. To make the calendar content field visible, select the checkbox next to **Visible by default**. Select **OK** to close the pane.
+
+    > [!div class="mx-imgBorder"]
+    > ![Make the Calendar content field visible](../media/ics-make-field-visible.png)
+
 1. To save the changes you've made, select **Save** in the top ribbon. Then, to publish your updates, select **Publish**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Save and publish changes](../media/ics-save-publish.png)
 
 > [!NOTE]
 > To see the **Calendar content** field under **Events** > **Additional information**, you will have to log out of, then log back into your Dynamics 365 Marketing app.
