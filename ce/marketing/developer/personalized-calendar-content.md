@@ -24,6 +24,27 @@ Using an API call, you can create a button for registration confirmation emails 
 
 To create the .ics file, you will first need to create an [event management web application](event-management-web-application.md). The web application enables you to access the REST API backend. You will need to know the [events API endpoint](using-events-api.md#endpoint), as it will be used to make the API call.
 
+## API structure
+
+``https://service_endpoint/EvtMgmt/api/v2.0/calendar/personal/ics?data=jsonarray``<br>
+
+where 'data' is an array consisting of objects with JSON structure:
+
+``{'readableEventId':'example','sessionId':'example','data':{'custom_data':'custom_value'}}``
+
+## API call example
+
+To make the API call, your email button should link to a URL with the following format:
+
+``https://{service-public-endpoint}/EvtMgmt/api/v2.0/calendar/personal/ics?api-version=2016-06-30&data=[{"readableEventId":"your-readable-event-id","data":{"registrationId":"{{this.msevtmgt_name}}","firstname":"{{contact.firstname}}"}}]``
+
+### Required fields
+
+- **service-public-endpoint**: The data for this field is located under **Event Website** > **General** > **Endpoint**
+- **readableEventId**: Located under **Event management** > **Events** > (your event) > **Website and form** > **Readable event ID**
+- **registrationId**: {{this.msevtmgt_name}} automatically populates this field using the method described in the next section
+- **firstname**: {{contact.firstname}} automatically populates this field from the contact information associated with the email
+
 ## Add event information in the calendar content field
 
 To begin the process of generating an .ics file, you will create a message that you want to include in your calendar invite. You will enter the message in the **Calendar content** field under the **Additional information** tab in your event.
@@ -90,29 +111,6 @@ If you do not see the calendar content field, you may have to activate it. To ac
 ## Create the event registration email
 
 After you have created your calendar content, you will create an email that welcomes registrants to the event or session and has a button to download the .ics file. The button will link to the API call, which will generate the .ics file with personalized information.
-
-### API structure
-
-``https://service_endpoint/EvtMgmt/api/v2.0/calendar/personal/ics?data=jsonarray``<br>
-
-where 'data' is an array consisting of objects with JSON structure:
-
-``{'readableEventId':'example','sessionId':'example','data':{'custom_data':'custom_value'}}``
-
-### API call example
-
-To make the API call, your email button should link to a URL with the following format:
-
-``https://{service-public-endpoint}/EvtMgmt/api/v2.0/calendar/personal/ics?api-version=2016-06-30&data=[{"readableEventId":"your-readable-event-id","data":{"registrationId":"{{this.msevtmgt_name}}","firstname":"{{contact.firstname}}"}}]``
-
-#### Required fields
-
-- **service-public-endpoint**: The data for this field is located under **Event Website** > **General** > **Endpoint**
-- **readableEventId**: Located under **Event management** > **Events** > (your event) > **Website and form** > **Readable event ID**
-- **registrationId**: {{this.msevtmgt_name}} automatically populates this field using the method described in the next section
-- **firstname**: {{contact.firstname}} automatically populates this field from the contact information associated with the email
-
-### Construct the registration email in the email designer
 
 Your registration email can be as simple or as complex as you'd like. In this example, we'll create an email that welcomes the contact, automatically combs the registration database for the registration ID, and provides a button to download the .ics file.
 
