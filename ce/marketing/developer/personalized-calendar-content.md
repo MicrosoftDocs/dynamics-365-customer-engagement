@@ -116,15 +116,21 @@ Your registration email can be as simple or as complex as you'd like. In this ex
 
 #### 1. Create the greeting
 
-Create a new email in the email designer using the template of your choosing. Enter a name for the email. At the top, add a greeting using dynamic data to add the registrant's first name:
+Go to **Marketing execution** > **Marketing emails** > **+ New**. Choose a template. In this example, we'll select **1 column newsletter**. At the top, add a greeting using dynamic data to add the registrant's first name:
 
 ``Hey {{contact.firstname}}, thank you for registering!``
+
+> [!div class="mx-imgBorder"]
+> ![Add a greeting message](../media/ics-thanks-for-registering.png)
 
 #### 2. Add a calendar invite button
 
 Next, add a button to the email to download the calendar invite. Title the button:
 
 ``📅 Add to calendar``
+
+> [!div class="mx-imgBorder"]
+> ![Add to calendar button](../media/ics-add-to-calendar.png)
 
 #### 3. Add a QR code to match the contact with the event registration
 
@@ -137,10 +143,17 @@ Add a QR code to the email, below the greeting. In the **Properties** tab for th
           ``<img id="base64image" src="{{this.msevtmgt_qrcode}}" alt="Event registration QR code">``<br>
           ``<!-- {{/if}} -->``<br>
           ``<!-- {{/each}} -->``
+
+    > [!div class="mx-imgBorder"]
+    > ![Copy the QR code](../media/ics-qr-code.png)
+
 - Paste the QR code HTML into the ``<div>`` from the button that you created in the previous step. The correct location is in the line below ``<div data-editorblocktype="Button">``.
 - Remove the QR code image from the QR code block by deleting the <img> tag and the content within it.
 - Replace the image tag with the link (``<a>``) HTML from the button.
 - Remove the original QR code **using the HTML editor**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Pasted if/else condition with button image tag](../media/ics-pasted-if-else.png)
 
 > [!IMPORTANT]
 > You must remove the original QR code using the HTML editor, not the visual editor. If you use the visual editor to remove the original QR code, it will remove both instances of the QR code, including the instance that you created with your button link.
@@ -151,7 +164,13 @@ Using the HTML editor, add the API call as the href link that the button opens:
 
 ``https://{service-public-endpoint}/EvtMgmt/api/v2.0/calendar/personal/ics?api-version=2016-06-30&data=[{%22readableEventId%22:%22your-readable-event-id%22,%22data%22:{%22registrationId%22:%22{{this.msevtmgt_name}}%22,%22firstname%22:%22{{contact.firstname}}%22}}]``
 
-Make sure to enter your unique **service public endpoint** and **readable event ID**. Select **Save** before you exit the HTML editor.
+Make sure to enter your unique **service public endpoint** and **readable event ID**. Select **Save** *before* you exit the HTML editor.
+
+> [!div class="mx-imgBorder"]
+> ![HTML with API call added](../media/ics-add-api-call.png)
+
+> [!IMPORTANT]
+> If you do not save *before* exiting the HTML editor, the if/else condition will not be saved.
 
 > [!NOTE]
 > To pass the JSON parameters, you must substitute URL encoding (%22) for the quotation marks in the JSON structure. The above example already includes URL encoding.
@@ -193,3 +212,8 @@ You may want to provide a note in your email that alerts the recipient that he o
 ``END:VEVENT``<br>
 ``END:VCALENDAR``<br>
 ``“``
+
+## See also
+
+[Using Events API](using-events-api.md)   
+[Event management web application overview](event-management-web-application.md)
