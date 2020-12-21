@@ -102,7 +102,7 @@ To create a WhatsApp channel, follow these steps:
 
 9. Select the back button on the browser to go to the WhatsApp channel page. You can see that the WhatsApp phone number is added in the **WhatsApp phone numbers** section.
 
-10. Select **Save** to save the configuration details.
+10. Select **Save**.
 
 11. In the **Validation** section, select **Validate** to validate the Account SID, Auth token, and phone numbers.  After you validate, a toast notification displays with the success or error.
 
@@ -160,7 +160,7 @@ When you create conditions for routing rules, the **WhatsApp Engagement Context 
     > [!div class=mx-imgBorder]
     > ![Create WhatsApp message template](media/whatsapp-message-template-new-message.png "Create WhatsApp message template")
     
-    Click **Save** and the **Localization Data (Message template)** panel appears. Click **New localization** and complete the following fields:
+    Click **Save** and the **Localization Data (Message template)** panel appears. Select **New localization** and complete the following fields:
     
     - **Language code**: Select the language for the message.
     
