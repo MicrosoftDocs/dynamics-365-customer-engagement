@@ -15,11 +15,11 @@ ms.service: "dynamics-365-customerservice"
 
 ## Overview of WhatsApp channel through Twilio
 
-Many customers use social messaging channels like WhatsApp for their personal communication needs. Customer expectations are rising, and many prefer using the WhatsApp channel to engage with businesses. Expectations of customer service via social channels such as WhatsApp are rising to the point that customers now expect the same level of service from WhatsApp that they’re used to from call and live chat.
+Many customers use social messaging channels like WhatsApp for their personal communication needs and prefer to use the WhatsApp channel to engage with businesses also.
 
 The success of social media customer service, like all other customer service, depends on the quality of care provided. Communications from agents should be timely, accurate, sensitive, brief, and friendly, which ultimately improves the customer satisfaction and brand loyalty.
 
-The WhatsApp channel feature lets you integrate WhatsApp through Twilio with Omnichannel for Customer Service so as to engage with customers who prefer the WhatsApp channel.
+The WhatsApp channel feature lets you integrate WhatsApp through Twilio with Omnichannel for Customer Service to engage with customers who prefer the WhatsApp channel.
 
 ## Prerequisites
 
@@ -58,15 +58,15 @@ Go to your **Twilio Console Dashboard** > **Settings** > **General** to fetch th
 
 ## Create a WhatsApp channel
 
-After you create a work stream for the WhatsApp channel through Twilio, you need to create a WhatsApp channel in the Omnichannel Administrator app.
+After you create a work stream for the WhatsApp channel through Twilio, create a WhatsApp channel in the Omnichannel Administrator app.
 
 To create a WhatsApp channel, follow these steps:
 
-1. Sign in to Omnichannel Administrator.
+1. Sign in to the Omnichannel Administration app.
 
 2. Select **WhatsApp** under **Channels**.
 
-3. In the **New WhatsApp** page, specify the values for the following fields:
+3. In the **New WhatsApp** page, do the following.
 
     | Section | Field | Description | Example  value |
     |-------------|-------------------|---------------------------|--------------------------------------|
@@ -75,21 +75,18 @@ To create a WhatsApp channel, follow these steps:
     | Twilio account details |Auth Token | Get the value from your Twilio account and paste it here. | dd40ed7df8376b1fa959be99c45fbfce |
 
     > [!div class=mx-imgBorder]
-    > ![Create a WhatsApp channel](media/whatsapp-channel-1.png "Create a WhatsApp channel")     
+    > ![Create a WhatsApp channel](media/whatsapp-channel-1.png "Create a WhatsApp channel")
 
-4. Select **Save**. After you save, in the **Callback information** section, the **Twilio inbound URL** field is generated with a URL. Copy the URL from the field, and paste it in your Twilio console. 
+4. Select **Save**. In the **Callback information** section, the **Twilio inbound URL** field is generated with a link. Copy the link from the field.
 
    > [!div class=mx-imgBorder]
-   > ![Copy the Twilio inbound URL](media/whatsapp-channel-2.png "Copy the Twilio inbound URL") 
+   > ![Copy the Twilio inbound URL](media/whatsapp-channel-2.png "Copy the Twilio inbound URL")
 
-5. Go to your Twilio console, and select **Senders** and then select the WhatsApp phone number. Under **Messaging**, paste the URL you copied from step 4 in the **Twilio inbound URL** field.
-
-    > [!div class=mx-imgBorder]
-    > ![Paste the Twilio inbound URL](media/whatsapp-channel-6.png "Paste the Twilio inbound URL") 
+5. Go to your Twilio console, select **Senders** and then select the WhatsApp phone number. Under **Messaging**, paste the link that you copied in step 4 in the **Twilio inbound URL** field.
 
 6. In the **WhatsApp phone numbers** section, select **New WhatsApp Number**. The **New WhatsApp Number** page is displayed.
 
-7. Specify the values for the following fields:
+7. Do the following.
 
     | Section | Field | Description | Example  value |
     |-------------|-------------------|---------------------------|--------------------------------------|  
@@ -101,11 +98,11 @@ To create a WhatsApp channel, follow these steps:
     > [!div class=mx-imgBorder]
     > ![Create a WhatsApp channel phone number](media/whatsapp-channel-3.png "Create a WhatsApp channel phone number")
 
-8. Select **Save** to save the WhatsApp phone number.
+8. Select **Save**. The WhatsApp phone number is saved.
 
 9. Select the back button on the browser to go to the WhatsApp channel page. You can see that the WhatsApp phone number is added in the **WhatsApp phone numbers** section.
 
-10. Select **Save** to save the configurations.
+10. Select **Save**.
 
 11. In the **Validation** section, select **Validate** to validate the Account SID, Auth token, and phone numbers.  After you validate, a toast notification displays with the success or error.
 
@@ -146,7 +143,7 @@ When you create conditions for routing rules, the **WhatsApp Engagement Context 
     
 3. On the **Automated messages** tab, [configure automated messages](configure-automated-message.md). 
 
-4. On the **Message templates** tab, you can configure agents' ability to send WhatsApp-approved messages. If 24 hours pass after a customer's last message, agents will only be able to send messages from WhatsApp approved templates until the customer responds.      
+4. On the **Message templates** tab, you can configure agents' ability to send WhatsApp-approved messages. If 24 hours pass after a customer's last message, agents will only be able to send messages from WhatsApp approved templates until the customer responds.
 
     > [!NOTE]
     >
@@ -163,7 +160,7 @@ When you create conditions for routing rules, the **WhatsApp Engagement Context 
     > [!div class=mx-imgBorder]
     > ![Create WhatsApp message template](media/whatsapp-message-template-new-message.png "Create WhatsApp message template")
     
-    Click **Save** and the **Localization Data (Message template)** panel appears. Click **New localization** and complete the following fields:
+    Click **Save** and the **Localization Data (Message template)** panel appears. Select **New localization** and complete the following fields:
     
     - **Language code**: Select the language for the message.
     
