@@ -1,7 +1,7 @@
 ---
 title: "API-generated calendar invites for events and sessions (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Learn how to use an API call to generate an .ics file with personalized calendar content for events and sessions."
-ms.date: 12/18/2020
+ms.date: 12/21/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
