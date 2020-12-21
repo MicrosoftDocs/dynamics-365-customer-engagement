@@ -62,7 +62,7 @@ The conversation (work item) transitions from **Active** to **Closed**, **Open**
 
 This is an intermediate state after you end the conversation, when you can do post-conversation activities, such as, taking notes and update the customer information before moving the conversation to **Closed**. In **Wrap-up**, your (agent) capacity is consumed.
 
-The conversation (work item) transitions from **Wrap-up** to **Closed** under the following scenario. 
+The conversation (work item) transitions from **Wrap-up** to **Closed** under the following scenario.
 
 | From status reason | To status reason | Scenario  | Type  |
 |---------------|------------------|---------------------------------------------------------|------------|
@@ -95,6 +95,9 @@ Omnichannel for Customer Service has a default time set for the conversation to 
 ### Understand working of auto-close of conversations
 
 The Omnichannel for Customer Service application checks the conversations every 24 hours to identify the conversations that do not transition for more than the default configured time. These conversations become eligible for automatic-closure, and next time, when the scheduler runs, these conversations are moved from the existing status reason to the **Closed** state.
+
+> [!IMPORTANT]
+> To avoid inaccurate statuses, we recommend that you don't change the conversation state and status reason by manually updating the records in Microsoft Dataverse.
 
 ### Default time for automatic closure of conversation
 
