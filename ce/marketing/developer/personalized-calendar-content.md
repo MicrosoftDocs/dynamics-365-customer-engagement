@@ -156,7 +156,7 @@ Using the HTML editor, add the API call as the href link that the button opens:
 Make sure to enter your unique **service public endpoint** and **readable event ID**. Select **Save** before you exit the HTML editor.
 
 > [!NOTE]
-> To properly pass the JSON parameters, you must substitute URL encoding (%22) for the quotation marks in the JSON structure.
+> To pass the JSON parameters, you must substitute URL encoding (%22) for the quotation marks in the JSON structure. The above example already includes URL encoding.
 
 #### 5. Customize, save, and go live with the event registration email
 
