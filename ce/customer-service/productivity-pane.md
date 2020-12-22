@@ -1,5 +1,5 @@
 ---
-title: "Productivity pane in the Omnichannel for Customer Service app | MicrosoftDocs"
+title: "Productivity pane in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Use the productivity pane settings in Power Apps to display agent scripts and smart-assist cards for your agents in Omnichannel for Customer Service ."
 author: neeranelli
 ms.author: nenellim
@@ -19,14 +19,14 @@ If you have recently updated the Omnichannel Administration app, you will no lon
 
 - [Knowledge search](knowledge-management-oc.md)
 - [Smart assist](smart-assist.md)
-- [Agent scripts](agent-scripts.md)
+- [Agent scripts](../app-profile-manager/agent-scripts.md)
 
 You can set the productivity pane in collapsed mode or expanded mode, as shown in the following illustrations.
 
 **Collapsed mode**
 
 > [!div class='mx-imgBorder']
-> ![Productivity pane](media/productivity-pane-collapsed.PNG "Productivity pane in collapsed mode")
+> ![Productivity pane in collapsed mode](media/productivity-pane-collapsed.PNG "Productivity pane in collapsed mode")
 
 **Expanded mode**
 
@@ -35,5 +35,4 @@ You can set the productivity pane in collapsed mode or expanded mode, as shown i
 
 ### See also
 
-[Agent scripts](agent-scripts.md)<br>
-[Smart assist](smart-assist.md)
+[App profile manager](../app-profile-manager/overview.md)  

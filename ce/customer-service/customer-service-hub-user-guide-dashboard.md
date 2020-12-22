@@ -31,7 +31,7 @@ Watch this video to learn more about dashboards in the Customer Service Hub:
 
 
 ## Interactive experience dashboards overview  
-The interactive dashboards come in two flavors: 
+The interactive dashboards come in two flavors:
 
 - Multi-stream dashboards 
 - Single-stream dashboards  
