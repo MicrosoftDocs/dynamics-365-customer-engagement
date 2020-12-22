@@ -23,7 +23,7 @@ Agent scripts in Omnichannel for Customer Service provide guidance about what yo
 ## Components in agent script
 
 > [!div class='mx-imgBorder']
-> ![Agent script](media/agent-script-section.PNG "Agent script")
+> ![Components in agent script](media/agent-script-section.PNG "Components in agent script")
 
 1. Agent script menu
 2. Text instructions
@@ -79,9 +79,9 @@ The step is used to load another agent script from the current agent script. Whe
 
 ## Sample agent script
 
-When you get an incoming conversation (chat) notification, you accept the conversation request and then a chat session starts. Now, the agent script is available in a form based on the administrator configuration. 
+When you get an incoming conversation notification, you accept the conversation request and then a chat session starts. Now, the agent script is available in a form based on the administrator configuration. 
 
-For example, if the administrator has configured in the Customer Summary form, then you can see view the agent script in the Customer Summary form.
+For example, if the administrator has configured in the Customer Summary form, then you can view the agent script in the Customer Summary form.
 
 Let's see the sample agent script:
 
@@ -107,6 +107,6 @@ The **Chat session** script has the following steps
 
 Similarly, the administrator can create more agent scripts as per your business scenarios. To learn how to configure, see [Guide agents with scripts](agent-scripts.md).
 
-## See also
+### See also
 
-[Guide agents with scripts](agent-scripts.md)
+[Guide agents with scripts](../app-profile-manager/agent-scripts.md)

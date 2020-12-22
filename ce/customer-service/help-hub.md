@@ -42,7 +42,7 @@ ms.custom:
   <ul>
   
   <li><a href="whats-new-customer-service.md" data-raw-source="[What's new in Dynamics 365 Customer Service]whats-new-customer-service.md">What's new in Dynamics 365 Customer Service</a></li>
-<li><a href="service-manager-guide.md" data-raw-source="[Configure Customer Service]service-manager-guide.md">Configure Customer Service</a></li>
+<li><a href="Configure-cs.md.md" data-raw-source="[Configure Customer Service]Configure-cs.md">Configure Customer Service</a></li>
 <li><a href="csw-overview.md" data-raw-source="[Use Customer Service workspace]csw-overview.md">Use Customer Service workspace</a></li>
 
       
@@ -97,7 +97,7 @@ ms.custom:
    <ul>
   <li><a href="csw-productivity-pane.md" data-raw-source="[Productivity pane in Customer Service workspace](csw-productivity-pane.md)">Productivity pane in Customer Service workspace</a></li>
    <li><a href="productivity-pane.md" data-raw-source="[Productivity pane in Omnichannel for Customer Service](productivity-pane.md)">Productivity pane in Omnichannel for Customer Service</a></li>
-   <li><a href="macros.md" data-raw-source="[Automate tasks with macros](macros.md)">Automate tasks with macros</a></li>
+   <li><a href="../app-profile-manager0/macros.md" data-raw-source="[Automate tasks with macros](../app-profile-manager/macros.md)">Automate tasks with macros</a></li>
      
   </li> 
   </ul>

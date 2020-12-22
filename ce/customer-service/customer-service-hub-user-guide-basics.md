@@ -84,7 +84,7 @@ Here is what each entity record type is used for:
 
 3. You can also access **Service Management** from the site map. Service Management lets you define all the customer service admin settings from the Customer Service Hub site map.  Select **...** to go to **Service Management**.
 
-   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Service Manager Guide (Customer Service Hub and Customer Service app)](service-manager-guide.md).
+   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure Customer Service](configure-cs.md).
 4. Select **Favorites and Recent** button ![recent-button](media/fav-and-recent.png)  to see recently viewed records, or to see views that have been pinned as favorites.
 
    For a mobile device, the site map is displayed as illustrated in the following image:

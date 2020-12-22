@@ -35,7 +35,7 @@
 
 ## Get started
 ### [Get started with Customer Service](https://docs.microsoft.com/learn/modules/get-started-with-dynamics-365-for-customer-service/)
-### [Configure Customer Service](service-manager-guide.md)
+### [Configure Customer Service](configure-cs.md)
 ### [Customer Service Hub](customer-service-hub-user-guide-basics.md)
 ### [Use Customer Service Team Member](customer-service-team-member.md)
 ### [Customer Service workspace](csw-overview.md)
@@ -232,7 +232,7 @@
 #### [Enable productivity pane and smart assist](../app-profile-manager/app-profile-manager.md#enable-prod-pane)
 #### [Create macros](../app-profile-manager/macros.md)
 #### [Guide agents with scripts](../app-profile-manager/agent-scripts.md)
-#### [Use automation dictionary](automation-dictionary-keys.md)
+#### [Use automation dictionary](../app-profile-manager/automation-dictionary-keys.md)
 #### [Create quick replies](create-quick-replies.md)
 #### [Enable personal quick replies](enable-personal-quick-replies.md)
 #### [Enable sound notifications](enable-sound-notifications.md)

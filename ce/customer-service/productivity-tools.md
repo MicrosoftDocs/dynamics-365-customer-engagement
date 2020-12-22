@@ -67,5 +67,5 @@ To learn more, see [Enable the productivity pane to provide guidance to agents](
 
 ### See also
 
-[Macros](macros.md)  
-[Agent scripts](agent-scripts.md)  
+[Macros](../app-profile-manager/macros.md)  
+[Agent scripts](../app-profile-manager/agent-scripts.md)  

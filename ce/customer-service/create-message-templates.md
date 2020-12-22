@@ -55,7 +55,7 @@ To create a message template:
     | {LastName{Agent}}| The last name of the agent.|
     | {Nickname{Agent}}| The nickname for the agent.|
 
-      For more information, see [Slugs](automation-dictionary-keys.md#slugs).
+      For more information, see [Slugs](../app-profile-manager/automation-dictionary-keys.md#slugs).
     
 9. Click **Save & Close** to see your localized message appear in the list of message templates.
 
