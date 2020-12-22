@@ -92,5 +92,5 @@ After you've enabled Smart Assist in the App profile manager, agents can see the
 
 ### See also
 
-[Macros](macros.md)  
-[Agent scripts](agent-scripts.md)
+[Macros](../app-profile-manager/macros.md)  
+[Agent scripts](../app-profile-manager/agent-scripts.md)

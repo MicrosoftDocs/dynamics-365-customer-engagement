@@ -33,7 +33,7 @@ Quick replies are predefined messages that can be created for agents to quickly 
 
      The **Message** field supports the following slugs.  
 
-    | Slug | Description | 
+    | Slug | Description |
     |-----------------|-----------------------------|
     | {FullName{Customer}}  | The full name of the customer who initiated the conversation. |
     | {LastName{Customer}}| The last name of the customer.|
@@ -42,7 +42,7 @@ Quick replies are predefined messages that can be created for agents to quickly 
     | {LastName{Agent}}| The last name of the agent.|
     | {Nickname{Agent}}| The nickname for the agent.|
 
-      For more information, see [Slugs](automation-dictionary-keys.md#slugs).
+      For more information, see [Slugs](../app-profile-manager/automation-dictionary-keys.md#slugs).
 
 5. Select **Save**.
 
