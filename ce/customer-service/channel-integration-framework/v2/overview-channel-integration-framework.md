@@ -42,7 +42,7 @@ Key new features in Dynamics 365 Channel Integration Framework version 2.0 inclu
 
 - **Integration with the multisession experiences**
 
-  Dynamics 365 Channel Integration Framework version 2.0 provides APIs to integrate your telephony channel with multisession web experiences (Omnichannel for Customer Service and Customer Service Workspace. These APIs allow the telephony channel to show notifications on incoming conversations with relevant information, start new sessions for conversations, and open application tabs as needed.
+  Dynamics 365 Channel Integration Framework version 2.0 provides APIs to integrate your telephony channel with multisession web experiences (Omnichannel for Customer Service and Customer Service workspace. These APIs allow the telephony channel to show notifications on incoming conversations with relevant information, start new sessions for conversations, and open application tabs as needed.
 
   More information: [Integration with multisession experiences](integration-multi-session-experiences.md)
 
