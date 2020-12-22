@@ -16,7 +16,7 @@ ms.custom:
 
 The app profile manager is an out-of-the-box solution that lets you create targeted app experiences for agents and supervisors. More information: [App profile manager](../../../app-profile-manager/overview.md).
 
-Channel Integration Framework version 2.0 is for multi-session applications such as Omnichannel for Customer Service and Customer Service workspace. Given below are the steps to configure a new channel provider using the app profile manager. To configure a third-party voice channel provider with the multi-session application, perform the following steps.
+Channel Integration Framework version 2.0 is for multi-session applications such as Omnichannel for Customer Service and Customer Service workspace, that allows customers to integrate third party voice channels with Customer Service Workspace. Given below are the steps to configure a new channel provider using the app profile manager. To configure a third-party voice channel provider with the multi-session application, perform the following steps.
 
 1. Log in to your Power Apps portal.
 
