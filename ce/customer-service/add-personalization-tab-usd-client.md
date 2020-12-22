@@ -21,15 +21,15 @@ You can enable personal quick replies by adding a personalization tab to your Un
 
 2. To create an action call record, select **New** and then provide the following information:
 
-    * Name: OpenPersonalizationPage
+    * **Name**: OpenPersonalizationPage
     
-    * Order: 4
+    * **Order**: 4
     
-    * Hosted Control: Search Page HC
+    * **Hosted Control**: Search Page HC
     
-    * Action: Navigate
+    * **Action**: Navigate
 
-    * Data: 'url=/main.aspx?pagetype=entityrecord&etn=msdyn_usersetting&id=b5c6b1bb-47ad-ea11-a812-000d3a8c9c8c <br> HideNavigationBar=True'
+    * **Data**: `url=/main.aspx?pagetype=entityrecord&etn=msdyn_usersetting&id=b5c6b1bb-47ad-ea11-a812-000d3a8c9c8c <br> HideNavigationBar=True`
 
 3. Select **Save**.
 
