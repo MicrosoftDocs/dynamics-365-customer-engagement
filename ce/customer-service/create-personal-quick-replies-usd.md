@@ -57,4 +57,4 @@ The quick replies you created are available on the **Personal** tab, and those c
 
 ### See also
 
-[Send quick replies in the chat](left-control-panel.md#send-quick-replies-in-the-chat)  
+[Send quick replies in the chat](../unified-service-desk/oc-usd/left-control-panel.md#send-quick-replies-in-the-chat)  

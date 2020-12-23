@@ -212,6 +212,8 @@
         href: create-action-call-uii-action.md
       - name: Add action calls to an event
         href: add-action-calls-event.md
+      - name: Enable personal quick replies
+        href: add-personalization-tab-usd-client.md
       - name: Create a user-defined event
         href: create-user-defined-event.md
     - name: Configure toolbars in your application
@@ -609,6 +611,8 @@
       href: oc-usd/link-unlink-record.md
     - name: View communication panel 
       href: oc-usd/left-control-panel.md
+    - name: Create personal quick replies in Omnichannel for Customer Service in Unified Service Desk
+      href: oc-usd/create-personal-quick-replies-usd.md
     - name: View call scripts, take notes, and search knowledge articles 
       href: oc-usd/right-control-panel.md
     - name: Understand conversation states 
