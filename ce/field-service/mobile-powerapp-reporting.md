@@ -65,7 +65,7 @@ In the bottom select **More > Report**.
 
 ## Generate reports from web
 
-Administrators and dispatchers can also generate reports when viewing a Booking in a web browser.
+Administrators and dispatchers can also generate reports when viewing a Booking in the web browser.
 
 
 > [!div class="mx-imgBorder"]
