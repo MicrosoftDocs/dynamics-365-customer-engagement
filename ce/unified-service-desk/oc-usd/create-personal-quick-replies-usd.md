@@ -25,7 +25,7 @@ You can create, edit, and delete the personal quick replies you own. The quick r
 1. Sign in to Omnichannel for Customer Service through Unified Service Desk. On the home page, select the plus sign (**+**) on the Omnichannel toolbar.
 
    > [!div class=mx-imgBorder]
-   > ![Personalization menu](media/personalization-menu-usd.png "Personalization menu")
+   > ![Personalization menu](../media/personalization-menu-usd.png "Personalization menu")
 
 2. Select **Personalization**.
 
@@ -39,7 +39,7 @@ You can create, edit, and delete the personal quick replies you own. The quick r
         > Personal quick replies aren't localized in Omnichannel for Customer Service. To provide quick responses in multiple languages, create a separate quick response record for each language and select its corresponding locale.
 
     > [!div class=mx-imgBorder]
-    > ![Create a personal quick reply](media/create-personal-quick-reply-usd.png "Create a personal quick reply")
+    > ![Create a personal quick reply](../media/create-personal-quick-reply-usd.png "Create a personal quick reply")
 
 4. In the **Tags** area, enter the keyword you want to associate with the quick reply, and then select the plus sign (**+**).
 
@@ -51,10 +51,10 @@ It can take up to 15 minutes for the quick replies to be available for your use.
 
 The quick replies you created are available on the **Personal** tab, and those created by the administrator are available on the **All** tab. Use personal quick replies when you are in a conversation with a customer by doing the following:
 
-1. Select the quick responses icon ![quick responses icon](media/personal-quick-reply-icon.png) at the bottom of your conversation window. The **Quick replies** panel displays the available predefined messages on the **All** and **Personal** tabs.
+1. Select the quick responses icon ![quick responses icon](../media/personal-quick-reply-icon.png) at the bottom of your conversation window. The **Quick replies** panel displays the available predefined messages on the **All** and **Personal** tabs.
 2. Select the **Personal** tab, and then type the number sign (**#**) in the compose box to list the tags and search for the personal quick replies that are available for your use.
 3. Use the **more** option to view the complete text of the quick reply.
 
 ### See also
 
-[Send quick replies in the chat](../unified-service-desk/oc-usd/left-control-panel.md#send-quick-replies-in-the-chat)  
+[Send quick replies in the chat](left-control-panel.md#send-quick-replies-in-the-chat)  
