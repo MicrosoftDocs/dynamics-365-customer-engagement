@@ -13,7 +13,7 @@ ms.service: "dynamics-365-customerservice"
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-You can configure the idle time threshold for the [average handle time](../../supervisor/intraday-insights-dashboard.md#average-handle-time) of an agent to pause the handle time computation of an ongoing session.
+You can configure the idle time threshold for the [average handle time](../intraday-insights-dashboard.md#average-handle-time) of an agent to pause the handle time computation of an ongoing session.
 
 
 ## How to set the idle time threshold
