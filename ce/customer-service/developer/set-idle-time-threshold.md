@@ -1,0 +1,54 @@
+---
+title: "Set the idle time threshold for average handle time| Microsoft Docs"
+description: "Read how you can set the idle time threshold for the average handle time of an agent"
+author: v-sailab
+ms.author: v-sailab
+manager: shujoshi
+ms.date: 12/22/2020
+ms.topic: reference
+ms.service: "dynamics-365-customerservice"
+---
+
+# Set the idle time threshold for average handle time
+
+[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+
+You can configure the idle time threshold for the [average handle time](../../supervisor/intraday-insights-dashboard.md#average-handle-time) of an agent to pause the handle time computation of an ongoing session.
+
+
+## How to set the idle time threshold
+
+In Omnichannel for Customer Service app, use F12 key to open the command prompt, and then run the following:
+
+```JavaScript
+let entityName = "msdyn_channelprovider"
+let attributeName = "msdyn_channelurl"
+let primaryAttributeName = "msdyn_channelproviderid"
+let threshold = "60"
+
+Xrm.WebApi.retrieveMultipleRecords(entityName, "").then((result) => {
+	result.entities.forEach ((entity) => {
+		console.log(entity);
+		if(entity[attributeName].toString().indexOf("&idleTimeThreshold") == -1) {
+			console.log("modify data");
+		var data = {};
+		data[attributeName] = entity[attributeName] + "&idleTimeThreshold=" + threshold;
+			Xrm.WebApi.updateRecord(entityName, entity[primaryAttributeName], data).then((result) => {
+			console.log(result);
+				return Promise.resolve();
+			}, (error) => {
+			console.log(error);
+				return Promise.reject();
+			});
+		}
+	});
+	return Promise.resolve(result.entities);
+}, (error) => {
+			console.log(error);
+	return Promise.reject();
+});
+```
+
+
+> [!NOTE]
+> If a new provider is added as a default provider, then add `&idleTimeThreshold=<thresholdValue>` as a parameter to the link.
