@@ -4,7 +4,7 @@ description: Create personal quick replies in Omnichannel for Customer Service
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/12/2020
+ms.date: 12/22/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 search.audienceType: 
@@ -38,7 +38,8 @@ You can create, edit, and delete the personal quick replies you own. The quick r
     - **Locale:** Select the language in which you want to create the quick reply.
 
         > [!NOTE]
-        > Personal quick replies aren't localized in Omnichannel for Customer Service. To provide quick responses in multiple languages, create a separate quick response record for each language and select its corresponding locale.
+        > - To avoid duplicated quick replies, check the predefined messages before creating a personal quick reply.
+        > - Personal quick replies aren't localized in Omnichannel for Customer Service. To provide quick responses in multiple languages, create a separate quick response record for each language and select its corresponding locale.
 
    > ![Create a personal quick reply](media/create-personal-quick-reply.png "Create a personal quick reply")
 4. In the **Tags** area, enter the keyword you want to associate with the quick reply, and then select ![plus sign](media/plus-sign.png). If you want to use the number sign (#), don't use it anywhere else in the keyword except at the beginning.
