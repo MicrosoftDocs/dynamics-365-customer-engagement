@@ -17,7 +17,7 @@ The Dynamics 365 Sales mobile app can be installed on Android devices with or wi
 
 ## Install the app on Android without a work profile
 
-1.	On your Android device, go to the [preview version of the Android app](https://install.appcenter.ms/orgs/appmagic-player-x6ys/apps/d365-sales-converged-preview-1/distribution_groups/a.%20public%20preview%20-%20public%20link)
+1.	On your Android device, go to the [preview version of the Android app](https://go.microsoft.com/fwlink/?linkid=2152008)
 
 2.	On the **App Center** page, tap **Download**.
 
