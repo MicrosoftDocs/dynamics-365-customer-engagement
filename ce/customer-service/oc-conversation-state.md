@@ -4,7 +4,7 @@ description: "Learn what the conversation states are in Omnichannel."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/12/2020
+ms.date: 12/23/2020
 ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ---
@@ -55,6 +55,9 @@ The conversation (work item) transitions from **Active** to **Closed**, **Open**
 | Active        | Open             | When you disconnect the conversation and don't reconnect within a specified timeout period. <br><br> When you release the conversation to the queue. <br><br> When you transfer the conversation to another queue. <br><br> | Channel  |
 | Active        | Waiting          | When you close the session (not ending the conversation by selecting the **End** button) while the conversation is active.<br><br> When the customer is disconnected from the conversation, and you're no longer getting reply, you can close the session without ending the conversation (applicable only for SMS and social channels). This will keep conversation in waiting state. |  Channel  |
 | Active | Closed | When you resolve the case (or get an entity record to non-active state) and close the session. | Entity Record |
+
+> [!NOTE]
+> If you decline a conversation for more than 10 times within a time span of 5 minutes, then that conversation will be moved to **Closed** state.
 
 ![Transition from active to closed, open, waiting, wrap-up, or in-progress state](media/oc-conversation-active1.png "Active state")
 
