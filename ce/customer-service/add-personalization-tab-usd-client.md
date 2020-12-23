@@ -1,6 +1,6 @@
 ---
-title: "Add personalization tab in Omnichannel for Customer Service | MicrosoftDocs"
-description: "Learn how to add personalization tab in Omnichannel for Customer Service from within Unified Service Desk client application"
+title: "Add the personalization tab to enable personal quick replies | MicrosoftDocs"
+description: "Learn how to add the personalization tab to enable quick replies on a Unified Service Desk client in Omnichannel for Customer Service."
 author: v-sailab
 ms.author: v-sailab
 manager: shujoshi
