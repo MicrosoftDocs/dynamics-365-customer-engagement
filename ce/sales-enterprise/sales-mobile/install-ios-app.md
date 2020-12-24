@@ -15,7 +15,7 @@ manager: shujoshi
 
 1. Go to the Apple App Store and install the **TestFlight** app.
 
-2. On your iOS device, go to the [preview version of the iOS app](https://testflight.apple.com/join/kmbb9J11).
+2. On your iOS device, go to the [preview version of the iOS app](https://go.microsoft.com/fwlink/p/?linkid=2151689).
 
 3. In the TestFlight app, tap **Accept**.
 

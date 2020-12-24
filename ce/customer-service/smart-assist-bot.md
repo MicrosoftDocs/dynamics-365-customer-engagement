@@ -16,7 +16,7 @@ To quickly get started, follow the instructions mentioned in this topic for buil
 
 ## Prerequisites
 
-You need to have an understanding on how to create a bot using [Azure Bot Service](https://docs.microsoft.com/azure/bot-service/abs-quickstart?view=azure-bot-service-4.0).
+You need to have an understanding on how to create a bot using [Azure Bot Service](https://docs.microsoft.com/azure/bot-service/abs-quickstart?view=azure-bot-service-4.0&preserve-view=true).
 
 ## Sample bot that displays knowledge article recommendations
 
@@ -39,7 +39,7 @@ After setting up a sample bot using above steps, you can configure your bot to s
 [Sample code: Build a smart assist bot](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/omnichannel/smart-assist-bot)<br />
 [Smart assist for agents](smart-assist.md)<br />
 [Create a bot with Azure bot service](/azure/bot-service/abs-quickstart)<br />
-[Automate tasks with macros](macros.md)<br />
+[Automate tasks with macros](../app-profile-manager/macros.md)<br />
 [Integrate an Azure bot](configure-bot.md)<br />
 [Create knowledge article template](create-templates-knowledge-article.md)<br />
 [Client API reference for model driven apps](/powerapps/developer/model-driven-apps/clientapi/reference)
