@@ -4,7 +4,7 @@ description: "Read how you can set the idle time threshold for the average handl
 author: v-sailab
 ms.author: v-sailab
 manager: shujoshi
-ms.date: 12/22/2020
+ms.date: 12/28/2020
 ms.topic: reference
 ms.service: "dynamics-365-customerservice"
 ---
@@ -18,7 +18,7 @@ You can configure the idle time threshold for the [average handle time](../intra
 
 ## How to set the idle time threshold
 
-In Omnichannel for Customer Service app, use F12 key to open the command prompt, and then run the following:
+In Omnichannel Administration app, use F12 key to open the command prompt, and then run the following:
 
 ```JavaScript
 let entityName = "msdyn_channelprovider"
