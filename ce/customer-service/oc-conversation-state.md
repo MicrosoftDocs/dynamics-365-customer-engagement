@@ -4,7 +4,7 @@ description: "Learn what the conversation states are in Omnichannel."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 12/23/2020
+ms.date: 12/28/2020
 ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ---
