@@ -13,7 +13,7 @@ manager: shujoshi
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-The Dynamics 365 Sales mobile app can be installed on Android devices with or without a work profile.
+The Dynamics 365 Sales mobile app can be installed on Android devices without a work profile.
 
 ## Install the app on Android without a work profile
 
