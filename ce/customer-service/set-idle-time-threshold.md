@@ -13,7 +13,7 @@ ms.service: "dynamics-365-customerservice"
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-You can configure the idle time threshold for the [average handle time](intraday-insights-dashboard.md#average-handle-time) of an agent to pause the handle time computation of an ongoing session.
+You can configure idle time threshold to pause the handle time computation of an agent for an ongoing session when the agent is idle. More information: [Average handle time](intraday-insights-dashboard.md#average-handle-time).
 
 
 ## How to set the idle time threshold
@@ -48,10 +48,6 @@ Xrm.WebApi.retrieveMultipleRecords(entityName, "").then((result) => {
 	return Promise.reject();
 });
 ```
-
-
-> [!NOTE]
-> If a new provider is added as a default provider, then add `&idleTimeThreshold=<thresholdValue>` as a parameter to the link.
 
 ## See also
 
