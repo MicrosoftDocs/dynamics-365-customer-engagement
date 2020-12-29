@@ -103,7 +103,7 @@ After you add a Facebook page, values for **Callback Uri** and **Verify Token** 
 
 3.	On the **Routing rules items** tab, create a routing rule to transfer the message to an appropriate agent. Select the entity as **Facebook Engagement Context**.
 
-    For example, you can create a rule to transfer Facebook chat from a customer named Gilda to the default queue. 
+    For example, you can create a rule to transfer Facebook chat from a customer named Lesa to the default queue. 
 
     > [!div class=mx-imgBorder]
     > ![Facebook channel routing rule](media/fb-routing-rule.png "Facebook channel routing rule")
