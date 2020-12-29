@@ -1,5 +1,5 @@
 ---
-title: "Configure a Facebook channel | MicrosoftDocs"
+title: "Configure Facebook channel | MicrosoftDocs"
 description: "Instructions on how to configure a Facebook channel in Omnichannel for Customer Service."
 author: lalexms
 ms.author: laalexan

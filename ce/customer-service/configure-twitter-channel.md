@@ -1,10 +1,10 @@
 ---
-title: "Configure a Twitter Direct Message channel | MicrosoftDocs"
+title: "Configure Twitter Direct Message channel | MicrosoftDocs"
 description: "Instructions to configure a Twitter Direct Message channel in Omnichannel for Customer Service."
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 10/15/2020
+ms.date: 12/29/2020
 ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ---
@@ -38,11 +38,9 @@ After completing the prerequisites, you can add the Twitter channel for your org
 > [!NOTE]
 > Before starting this procedure, you must meet the [prerequisites](#prerequisites) described earlier in this topic.
 
-1.	Go to **Channels** > **Twitter**.
+1.	Go to **Channels** > **Twitter** and select **New** to create a Twitter channel.
 
-2.	Select **New** to create a Twitter channel.
-
-3.	On the **New Twitter Application** page, provide the following account details:
+2.	On the **New Twitter Application** page, provide the following account details:
 
     - **Name**: Name of the Twitter application. 
 
@@ -60,24 +58,25 @@ After completing the prerequisites, you can add the Twitter channel for your org
     > [!div class=mx-imgBorder]
     > ![Register a Twitter application](media/twitter-register-app.png "Register a Twitter application")
 
-4.	Select **Save**. After you save the record, the **Twitter** channel is enabled. The Callback URL has been generated. The next step is to save it.
+3.	Select **Save**. After you save the record, the **Twitter** channel is enabled. The Callback URL has been generated. The next step is to save it.
 
-5. To save the Callback URL in the Twitter app dashboard of the developer portal, go to the Twitter developer portal > Twitter app dashboard > **Details** > **App details** > **Edit**. Copy the **Callback URL** from Omnichannel for Customer Service, and then paste it into the **Callback URLs** field.
+4. To save the Callback URL in the Twitter app dashboard of the developer portal, go to the Twitter developer portal > Twitter app dashboard > **Details** > **App details** > **Edit**. Copy the **Callback URL** from Omnichannel for Customer Service, and then paste it into the **Callback URLs** field.
  
-> [!div class=mx-imgBorder]
-> ![Twitter Callback information](media/twitter-callback-information.png "Twitter Callback URL")
+  > [!div class=mx-imgBorder]
+  > ![Twitter Callback information](media/twitter-callback-information.png "Twitter Callback URL")
 
-6. Add a Twitter handle: In the **Twitter app** section, select **+ New Twitter handle** to add Twitter handle(s).
+5. Add a Twitter handle: In the **Twitter app** section, select **+ New Twitter handle** to add Twitter handle(s).
 
-7.	On the **New Twitter handle** page, provide the following information:
+6.	On the **New Twitter handle** page, provide the following information:
 
     - **Name**: Not the Twitter handle, but a name that you can reference. 
 
-8.	Select **Sign on to Twitter**. A pop-up window appears. Sign in by using the Twitter handle and password that will be added here.
+7.	Select **Sign on to Twitter**. A pop-up window appears. Sign in by using the Twitter handle and password that will be added here.
+
     > [!NOTE]
     > If you receive a message that says pop-up windows are blocked, select to always allow them.
 
-9.  On the **General settings** tab, provide the following information:
+8.  On the **General settings** tab, provide the following information:
     
     - **Language**: Select the preferred language for your Facebook page.
     
@@ -94,14 +93,14 @@ After completing the prerequisites, you can add the Twitter channel for your org
        > [!div class=mx-imgBorder]
        > ![Twitter work stream](media/twitter-create-handle.png "Twitter work stream")
 
-10. On the **Automated messages** tab, [configure automated messages](configure-automated-message.md). 
+9. On the **Automated messages** tab, [configure automated messages](configure-automated-message.md). 
     
-11. On the **Surveys** tab, [configure a post-conversation survey](configure-post-conversation-survey.md).
+10. On the **Surveys** tab, [configure a post-conversation survey](configure-post-conversation-survey.md).
 
-12. Select **Save** to save the record. The Twitter channel setup is complete.
+11. Select **Save** to save the record. The Twitter channel setup is complete.
  
-> [!div class=mx-imgBorder]
-> ![Twitter channel enabled](media/twitter-account-complete.png "Twitter channel enabled")
+  > [!div class=mx-imgBorder]
+  > ![Twitter channel enabled](media/twitter-account-complete.png "Twitter channel enabled")
 
   > [!NOTE]
   > You can add multiple handles to a Twitter Application channel.
@@ -112,8 +111,8 @@ After completing the prerequisites, you can add the Twitter channel for your org
 2.	Open the out-of-the-box work stream or the one you created.
 3.	On the **Routing rules items** tab, create a routing rule to transfer the message to an appropriate agent. Select the entity as **Twitter Engagement Context**. For example, you can create a rule to transfer Twitter chat from a customer named Twitter to the default queue.
  
-> [!div class=mx-imgBorder]
-> ![Twitter routing rule creation](media/twitter-create-routing-rule.png "Create Twitter routing rule")
+  > [!div class=mx-imgBorder]
+  > ![Twitter routing rule creation](media/twitter-create-routing-rule.png "Create Twitter routing rule")
 
 When you create conditions for routing rules, the **Twitter Engagement Context (Conversation)** entity enables you to set the following attributes:
 
