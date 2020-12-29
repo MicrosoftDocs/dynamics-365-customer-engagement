@@ -293,6 +293,7 @@
 #### Intraday supervisor experiences
 ##### [Introduction to intraday supervisor experiences](intro-intraday-insights-dashboard.md)
 ##### [View and understand Omnichannel intraday insights](intraday-insights-dashboard.md)
+##### [Set the idle time threshold for average handle time](set-idle-time-threshold.md)
 ##### [View and understand Omnichannel Ongoing Conversations dashboard](ongoing-conversations-dashboard.md)
 #### Omnichannel Insights
 ##### [Introduction to Omnichannel Insights](intro-dynamics-365-omnichannel-insights-dashboard.md)
