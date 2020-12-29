@@ -5,7 +5,7 @@ author: lalexms
 feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ms.author: laalexan
 manager: shujoshi
-ms.date: 11/24/2020
+ms.date: 12/29/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -170,7 +170,7 @@ The average handle time will be accurately calculated if you ensure the followin
 - Agents do not change the computer time.
 - Agents do not use incognito mode in Google Chrome or private browsing in Microsoft Edge.
 
-When the agent steps away from the desk during the ongoing session and does not interact with the customer, the system takes into account this time as active and subsequently computes a higher value handle time. For a realistic reporting on the active time that agents spend in the session, you can configure the idle time threshold. If no agent activity is detected after the idle time threshold is reached, the handle time computation is paused. The computation resumes if any mouse, touch, or keyboard activity is detected. By default, idle time is not enabled out of the box. To set up the idle time threshold, see [Set the idle time threshold for average handle time](developer/set-idle-time-threshold.md).
+When the agent steps away from the desk during the ongoing session and does not interact with the customer, the system takes into account this time as active and subsequently computes a higher value handle time. For a realistic reporting on the active time that agents spend in the session, you can configure the idle time threshold. If no agent activity is detected after the idle time threshold is reached, the handle time computation is paused. The computation resumes if any mouse, touch, or keyboard activity is detected. By default, idle time is not enabled out of the box. To set up the idle time threshold, see [Set the idle time threshold for average handle time](set-idle-time-threshold.md).
 
 ### See also
 
