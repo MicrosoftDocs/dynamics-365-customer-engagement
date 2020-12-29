@@ -1,10 +1,10 @@
 ---
-title: "Configure SMS channel for Twilio | MicrosoftDocs"
+title: "Configure an SMS channel for Twilio | MicrosoftDocs"
 description: "Instructions for configuring an SMS channel for Twilio in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/05/2020
+ms.date: 12/29/2020
 ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ---
@@ -45,35 +45,31 @@ An SMS channel is enabled within Omnichannel for Customer Service by integrating
 
 Perform the following steps to create a work stream for the SMS channel for Twilio:
 
-1. Sign in to Omnichannel Administration.
+1. Sign in to Omnichannel Administration and go to **Work Distribution Management** > **Work Streams**.
 
-2. Under **Work Distribution Management**, select **Work Streams**.
-
-3. Select **New**. The **New Work Stream** page appears.
-
-4. In the **General information** area, enter the following details:
+2. Select **New**. The **New Work Stream** page appears. In the **General information** area, enter the following details:
 
     - **Channel**: Select **SMS**.
     - **Auto-close after inactivity**: Select a value that indicates a duration of eight hours or more.
     - **Allow automated messages**: Specify **Yes** to be able to define the business hours.
 
-5. In **Work distribution**, specify the necessary details. More information: [Create a work stream](work-streams-introduction.md#create-a-work-stream)
+3. In **Work distribution**, specify the necessary details. More information: [Create a work stream](work-streams-introduction.md#create-a-work-stream)
 
    > [!div class=mx-imgBorder]
    > ![Works stream settings for Twilio](media/sms-twilio.png "Work stream settings for Twilio")
 
-6. On the **SMS Settings** tab, enter the following details:
+4. On the **SMS Settings** tab, enter the following details:
 
     - **SMS Provider**: Select **Twilio**.
     - **Account SID**: Enter the Twilio ACCOUNT SID.
     - **Auth Token**: Enter the Twilio AUTH TOKEN.
 
-7. Select **Save**. The **Twilio inbound URL** is generated and displayed.
+5. Select **Save**. The **Twilio inbound URL** is generated and displayed.
 
    > [!div class=mx-imgBorder]
    > ![SMS settings for Twilio](media/sms-settings-twilio.png "SMS settings for Twilio")
 
-8. On the **SMS Numbers** tab, select **New SMS Number**, and then enter the following details:
+6. On the **SMS Numbers** tab, select **New SMS Number**, and then enter the following details:
 
     - **Number**: Specify the support phone number that you purchased from Twilio in the *<country_code><phone_number>* format, such as 14252306549. Make sure that you don't enter blank spaces or special characters.
     - **SMS number language**: This is the preferred language that will be used when you configure automated messages on the **Automated messages** tab. 
@@ -84,15 +80,13 @@ Perform the following steps to create a work stream for the SMS channel for Twil
     > [!NOTE]
     > You can configure only one phone number per work stream.
 
-9. Select **Save**.
+7. Select **Save**.
 
-10. Optionally, on the **Automated messages** tab, [configure automated messages](configure-automated-message.md).
+8. Optionally, on the **Automated messages** tab, [configure automated messages](configure-automated-message.md) and on the **Surveys** tab, [configure a post-conversation survey](configure-post-conversation-survey.md).
 
-11. Optionally, on the **Surveys** tab, [configure a post-conversation survey](configure-post-conversation-survey.md).
+9. On the command bar, select **Validate API Key**. The Twilio account and phone number are validated.
 
-12. On the command bar, select **Validate API Key**. The Twilio account and phone number are validated.
-
-13. Configure the routing rules on the **Routing rule items** tab. The routing rule for SMS works on **Mobile Phone** of the **Contact** entity. The customer is identified based on **Mobile Phone**, and the conversation is automatically linked to the contact record.
+10. Configure the routing rules on the **Routing rule items** tab. The routing rule for SMS works on **Mobile Phone** of the **Contact** entity. The customer is identified based on **Mobile Phone**, and the conversation is automatically linked to the contact record.
 
     > [!NOTE]
     > To configure routing rules and other options in the work stream for Twilio, see the following:

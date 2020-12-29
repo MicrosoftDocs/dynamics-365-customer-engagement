@@ -4,7 +4,7 @@ description: "Instructions for configuring an SMS channel in Omnichannel for Cus
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 10/05/2020
+ms.date: 12/29/2020
 ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ---
