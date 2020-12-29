@@ -91,7 +91,7 @@ Mozilla FireFox:<a name='mozilla-firefox'></a>
     > ![Configure track prevention section in firefox](media/firefox-select-browser-settings.png "Configure track prevention section in firefox")    
 4. Refresh the page and the display widgets start loading as expected.
 
-Google Chrome:<a name='mozilla-firefox'></a>    
+Google Chrome:<a name='google-chrome'></a>    
 In the Chrome browser, the display widgets loading issue could occur in Incognito/Private mode.   
 While browsing the org in Incognito/Private mode, disable the **Block third-party cookies** option. The display widgets load as expected.   
 > [!div class="mx-imgBorder"]  
