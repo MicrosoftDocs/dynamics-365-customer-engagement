@@ -4,16 +4,16 @@ description: "Read how you can set the idle time threshold for the average handl
 author: v-sailab
 ms.author: v-sailab
 manager: shujoshi
-ms.date: 12/28/2020
+ms.date: 12/29/2020
 ms.topic: reference
 ms.service: "dynamics-365-customerservice"
 ---
 
 # Set the idle time threshold for average handle time
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-You can configure the idle time threshold for the [average handle time](../intraday-insights-dashboard.md#average-handle-time) of an agent to pause the handle time computation of an ongoing session.
+You can configure the idle time threshold for the [average handle time](intraday-insights-dashboard.md#average-handle-time) of an agent to pause the handle time computation of an ongoing session.
 
 
 ## How to set the idle time threshold
@@ -52,3 +52,7 @@ Xrm.WebApi.retrieveMultipleRecords(entityName, "").then((result) => {
 
 > [!NOTE]
 > If a new provider is added as a default provider, then add `&idleTimeThreshold=<thresholdValue>` as a parameter to the link.
+
+## See also
+
+[View and understand Ongoing Conversations dashboard](ongoing-conversations-dashboard.md)
