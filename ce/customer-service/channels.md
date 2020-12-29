@@ -1,10 +1,10 @@
 ---
-title: "Overview of channel in Omnichannel for Customer Service | MicrosoftDocs"
+title: "Overview of channels in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about channels in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/12/2020
+ms.date: 11/29/2020
 ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ---
@@ -20,7 +20,7 @@ Adding support channels to your businesses support offering is a powerful way to
 - Establish your account and respective requirements (such as a page, and app) with the Channel provider. This ensures you have an entry point with the channel provider through which customers will engage.
 - Configure the work stream in Omnichannel Administration.
 - Configure the Channel in Administration and attach it to the workstream.
-- Populate the exchange of handshake data (token and secrets) required between Omnichannel and the channel provider.  This is usually done in both place, the Omnichannel Administration app and the channel provider experience. 
+- Populate the exchange of handshake data (token and secrets) required between Omnichannel and the channel provider.  This is usually done in both places, the Omnichannel Administration app and the channel provider experience. 
 
 The following channels are currently available in Omnichannel for Customer Service: 
 
