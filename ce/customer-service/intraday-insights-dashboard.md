@@ -5,7 +5,7 @@ author: lalexms
 feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ms.author: laalexan
 manager: shujoshi
-ms.date: 11/24/2020
+ms.date: 12/29/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -167,10 +167,10 @@ In a transfer scenario, the active time spent by all agents who are involved is 
 The average handle time will be accurately calculated if you ensure the following:
 
 - Agents close the sessions by selecting the close button at the end of their shift. More information: [Conversation in waiting status](oc-conversation-state.md).
-- Agents do not change the computer time.
-- Agents do not use incognito mode in Google Chrome or private browsing in Microsoft Edge.
+- Agents don't change the computer time.
+- Agents don't use incognito mode in Google Chrome or private browsing in Microsoft Edge.
 
-When the agent steps away from the desk during the ongoing session and does not interact with the customer, the system takes into account this time as active and subsequently computes a higher value handle time. For a realistic reporting on the active time that agents spend in the session, you can configure the idle time threshold. If no agent activity is detected after the idle time threshold is reached, the handle time computation is paused. The computation resumes if any mouse, touch, or keyboard activity is detected. By default, idle time is not enabled out of the box. To set up the idle time threshold, contact Microsoft support.
+When the agent steps away from the desk during the ongoing session and does not interact with the customer, the system takes into account this time as active and subsequently computes a higher value handle time. For a realistic reporting on the active time that agents spend in the session, you can configure the idle time threshold. If no agent activity is detected after the idle time threshold is reached, the handle time computation is paused. The computation resumes if any mouse, touch, or keyboard activity is detected. By default, idle time is not enabled out of the box. To set up the idle time threshold, see [Set the idle time threshold](set-idle-time-threshold.md).
 
 ### See also
 
