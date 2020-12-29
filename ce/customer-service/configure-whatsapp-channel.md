@@ -4,7 +4,7 @@ description: "Learn about the WhatsApp channel through Twilio and how to configu
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/13/2020
+ms.date: 12/29/2020
 ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ---
@@ -62,11 +62,9 @@ After you create a work stream for the WhatsApp channel through Twilio, create a
 
 To create a WhatsApp channel, follow these steps:
 
-1. Sign in to the Omnichannel Administration app.
+1. Sign in to the Omnichannel Administration app. Select **WhatsApp** under **Channels**.
 
-2. Select **WhatsApp** under **Channels**.
-
-3. In the **New WhatsApp** page, do the following.
+2. In the **New WhatsApp** page, do the following.
 
     | Section | Field | Description | Example  value |
     |-------------|-------------------|---------------------------|--------------------------------------|
@@ -77,16 +75,16 @@ To create a WhatsApp channel, follow these steps:
     > [!div class=mx-imgBorder]
     > ![Create a WhatsApp channel](media/whatsapp-channel-1.png "Create a WhatsApp channel")
 
-4. Select **Save**. In the **Callback information** section, the **Twilio inbound URL** field is generated with a link. Copy the link from the field.
+3. Select **Save**. In the **Callback information** section, the **Twilio inbound URL** field is generated with a link. Copy the link from the field.
 
    > [!div class=mx-imgBorder]
    > ![Copy the Twilio inbound URL](media/whatsapp-channel-2.png "Copy the Twilio inbound URL")
 
-5. Go to your Twilio console, select **Senders** and then select the WhatsApp phone number. Under **Messaging**, paste the link that you copied in step 4 in the **Twilio inbound URL** field.
+4. Go to your Twilio console, select **Senders** and then select the WhatsApp phone number. Under **Messaging**, paste the link that you copied in step 4 in the **Twilio inbound URL** field.
 
-6. In the **WhatsApp phone numbers** section, select **New WhatsApp Number**. The **New WhatsApp Number** page is displayed.
+5. In the **WhatsApp phone numbers** section, select **New WhatsApp Number**. The **New WhatsApp Number** page is displayed.
 
-7. Do the following.
+6. Do the following.
 
     | Section | Field | Description | Example  value |
     |-------------|-------------------|---------------------------|--------------------------------------|  
@@ -98,13 +96,13 @@ To create a WhatsApp channel, follow these steps:
     > [!div class=mx-imgBorder]
     > ![Create a WhatsApp channel phone number](media/whatsapp-channel-3.png "Create a WhatsApp channel phone number")
 
-8. Select **Save**. The WhatsApp phone number is saved.
+7. Select **Save**. The WhatsApp phone number is saved.
 
-9. Select the back button on the browser to go to the WhatsApp channel page. You can see that the WhatsApp phone number is added in the **WhatsApp phone numbers** section.
+8. Select the back button on the browser to go to the WhatsApp channel page. You can see that the WhatsApp phone number is added in the **WhatsApp phone numbers** section.
 
-10. Select **Save**.
+9. Select **Save**.
 
-11. In the **Validation** section, select **Validate** to validate the Account SID, Auth token, and phone numbers.  After you validate, a toast notification displays with the success or error.
+10. In the **Validation** section, select **Validate** to validate the Account SID, Auth token, and phone numbers.  After you validate, a toast notification displays with the success or error.
 
     > [!div class=mx-imgBorder]
     > ![Validate Account SID, Auth token, and phone number](media/whatsapp-channel-5.png "Validate Account SID, Auth token, and phone number")
