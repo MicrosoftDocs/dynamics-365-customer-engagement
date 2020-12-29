@@ -22,12 +22,16 @@ Field sellers spend a lot of time on the road, traveling to meet customers. "On-
 Before field sellers can use the Dynamics 365 Sales mobile app, you must enable it.
 
 > [!IMPORTANT]
-> - For the Dynamics 365 Sales mobile app to work, you must enable relevance search for the environment in which you enable the mobile app. More information: [Configure relevance search to improve search results and performance](https://docs.microsoft.com/power-platform/admin/configure-relevance-search-organization)
-> - To set a regarding record for a meeting, you must enable server-side synchronization in your environment. More information: [Server-side synchronization](https://docs.microsoft.com/power-platform/admin/server-side-synchronization)
+>- For the Dynamics 365 Sales mobile app to work, you must enable relevance search for the environment in which you enable the mobile app. More information: [Configure relevance search to improve search results and performance](https://docs.microsoft.com/power-platform/admin/configure-relevance-search-organization)
+>- To set a regarding record for a meeting, you must enable server-side synchronization in your environment. More information: [Server-side synchronization](https://docs.microsoft.com/power-platform/admin/server-side-synchronization).
+>-	Users must have the following permissions:   
+>       -	Read permission for [Organization Entity](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/organization).
+>       -	Read permission for [Mailbox Entity](https://docs.microsoft.com/dynamics365/customer-engagement/web-api/mailbox?view=dynamics-ce-odata-9).
+>       -	**Dynamics 365 for mobile** privilege.
 
 **To enable the Dynamics 365 Sales mobile app**
 
-1. In the Dynamics 365 Sales Hub app, select **Settings** ![Settings icon](../media/settings--button-the-nav-bar.png), and then select **Advanced Settings**.
+1. In Dynamics 365 Sales, select **Settings** ![Settings icon](../media/settings--button-the-nav-bar.png), and then select **Advanced Settings**.
 
     ![Advanced settings](media/advanced-settings-option.png "Advanced settings")
 

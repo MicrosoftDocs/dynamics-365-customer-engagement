@@ -55,6 +55,48 @@ To resolve this issue, you must remove the existing dependencies for the **Linke
 
 3. After the solutions are successfully deleted, install them again. More information: [Install and enable LinkedIn Sales Navigator](install-sales-navigator.md)
 
+## LinkedIn Sales Navigator display widgets are not loading properly on different web browsers.
+
+**Reason**
+
+When I try to log in to LinkedIn Sales Navigator, errors are displayed. These errors occur due to the enablement of track protection in the browser. The following are the errors:
+
+- Display widgets are showing the error&mdash;*LinkedIn Sales Navigator subscription not found. You need a LinkedIn Sales Navigator Team contract in order to gain access*.   
+    > [!div class="mx-imgBorder"]  
+    > ![Display widgets show subscription not found error](media/display-widget-subscription-not-found-error.png "Display widgets show subscription not found error")    
+
+-OR-    
+
+- Display widgets are not loading on different browsers. The error is displayed as shown in the following sample image:   
+    > [!div class="mx-imgBorder"]  
+    > ![Display widgets are not loading](media/display-widget-not-loading-error.png "Display widgets are not loading")    
+
+**Resolution**
+
+To resolve this issue, you must disable the track protection in the browser ([Microsoft Edge](#microsoft-edge), [Mozilla FireFox](#mozilla-firefox), and [Google Chrome](#google-chrome)). 
+
+Microsoft Edge:<a name='microsoft-edge'></a>    
+1. Open the Microsoft Edge browser.   
+2. Select the **More options** icon on the top-right and go to **Settings**.    
+3. From the site map, go to **Privacy, search, and services**.    
+4. In the **Tracking Prevention** section, select **Balanced** and disable the **Always use “Strict” tracking prevention when browsing InPrivate** option.    
+    > [!div class="mx-imgBorder"]  
+    > ![Configure track prevention section in edge](media/edge-select-browser-settings.png "Configure track prevention section in edge")
+
+Mozilla FireFox:<a name='mozilla-firefox'></a>    
+1. Open the Mozilla FireFox browse and open your organization.  
+2. Before the address bar, select the shield icon and the Enhanced tracking protection details appears.   
+3. Disable the **Enhanced tracking protection is ON for the site** option and refresh the browser.    
+    > [!div class="mx-imgBorder"]  
+    > ![Configure track prevention section in firefox](media/firefox-select-browser-settings.png "Configure track prevention section in firefox")    
+4. Refresh the page and the display widgets start loading as expected.
+
+Google Chrome:<a name='google-chrome'></a>    
+In the Chrome browser, the display widgets loading issue could occur in Incognito/Private mode.   
+While browsing the org in Incognito/Private mode, disable the **Block third-party cookies** option. The display widgets load as expected.   
+> [!div class="mx-imgBorder"]  
+> ![Configure track prevention section in chrome](media/chrome-select-browser-settings.png "Configure track prevention section in chrome")
+
 ### See also
 
 [Dynamics 365 Sales troubleshooting guide](../sales-enterprise/troubleshooting.md)
