@@ -1,6 +1,6 @@
 ---
-title: "Set the idle time threshold for average handle time| Microsoft Docs"
-description: "Read how you can set the idle time threshold for the average handle time of an agent"
+title: "Set the idle time threshold| Microsoft Docs"
+description: "Read how you can set the idle time threshold "
 author: v-sailab
 ms.author: v-sailab
 manager: shujoshi
