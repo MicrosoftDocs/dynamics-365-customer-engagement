@@ -4,7 +4,7 @@ description: "Instructions on how to configure a Facebook channel in Omnichannel
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 08/07/2020
+ms.date: 12/29/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -125,9 +125,9 @@ When you create conditions for routing rules, the **Facebook Engagement Context 
     
     - **Work stream**: Select an existing work stream or create a new one.
 
-    - **Enable file attachments for customers**: Set to **Yes** to allow customers to send file attachments to agents. Otherwise, set **No**. 
+    - **Enable file attachments for customers**: Set to **Yes** to allow customers to send file attachments to agents. Otherwise, set to **No**. 
 
-    - **Enable file attachments for agents**: Set to **Yes** to allow agents to send file attachments to customers. Otherwise, set **No**. 
+    - **Enable file attachments for agents**: Set to **Yes** to allow agents to send file attachments to customers. Otherwise, set to **No**. 
     
        To learn more about attachments, see [Enable file attachments](enable-file-attachments.md). 
        
