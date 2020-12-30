@@ -61,7 +61,7 @@ To enable automatic trigger to route the entity records, create a custom Flow.
 
 3. Select **My Flows** in the sitemap.
 
-4. Select **+ New** and select the **Automated-from blank** option. Select **Skip** in the **Build an automated flow** dialog.
+4. Select **New** and select the **Automated from blank** option. Select **Skip** in the **Build an automated flow** dialog.
 
 5. Type **Common Data Service**, and select it from the list. The Common Data Service connector enables you to connect to the Microsoft Dataverse environment.
 
@@ -81,7 +81,7 @@ To enable automatic trigger to route the entity records, create a custom Flow.
     > [!div class=mx-imgBorder] 
     > ![Specify the trigger condition](media/route-trigger2.png "Specify the trigger condition")
 
-8. Select **+ New step**. The **Choose an action** step appears.
+8. Select **New step**. The **Choose an action** step appears.
 
 9. Type **Perform an unbound action** in the search box, and select the action from the list. The **Perform an unbound action** step appears.
 
@@ -108,7 +108,7 @@ To enable automatic trigger to route the entity records, create a custom Flow.
 
 12. Select **Save** to save the Flow.
 
-Now, based the Flow that is defined, whenever an entity record, say lead, is created, the Flow applies the **ApplyRoutingRuleRecord** action on the entity record. Similarly, you can create a custom Flow based on your business scenarios.
+Now, based on the Flow that is defined, whenever an entity record, say lead, is created, the Flow applies the **ApplyRoutingRuleRecord** action on the entity record. Similarly, you can create a custom Flow based on your business scenarios.
 
 > [!Note]
 > - For case entity record, an out-of-the-box trigger is shipped to route the cases automatically. The routing is based on the **Route Case** field value in the case entity record. 

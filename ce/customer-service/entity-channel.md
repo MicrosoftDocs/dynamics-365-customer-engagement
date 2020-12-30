@@ -4,7 +4,7 @@ description: Learn how you can route cases automatically using entity records ch
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 11/11/2019
+ms.date: 12/30/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
