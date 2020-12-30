@@ -64,6 +64,9 @@ When you update the target record such that “applicable when” condition is n
 - Applicable when: status equals active
 - Success condition: case type equals problem
 
+- Applicable when: status equals active
+- Success condition: case type equals problem
+
 
   1. Create a new case. Case status is set to active by default and SLA is applied.
   2. Timer starts running. Set case type to problem.
