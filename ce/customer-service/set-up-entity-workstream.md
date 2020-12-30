@@ -23,7 +23,7 @@ This topic describes how to create a workstream for an entity that has been enab
 
 2. Select **Work Streams** under **Channels** in the sitemap.
 
-3. Select **+ New** in the **Active Work Streams** page.
+3. Select **New** in the **Active Work Streams** page.
 
 4. Specify the following in the **New Work Stream** page.
 
