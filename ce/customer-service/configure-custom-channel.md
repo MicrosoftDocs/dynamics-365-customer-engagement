@@ -1,10 +1,10 @@
 ---
-title: "Configure a custom channel, or bring your own channel | MicrosoftDocs"
+title: "Configure custom channel, or bring your own channel | MicrosoftDocs"
 description: "Learn what a custom channel is and how to configure the channel, or bring your own channel, in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 08/06/2020
+ms.date: 12/30/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -64,7 +64,7 @@ After you add the messaging channel to the Bot Channel registration in Azure Bot
 
 2. Select **Work Streams** under **Work Distribution Management**.
 
-3. Select **+ New** to create a new work stream.
+3. Select **+ New** to create a work stream.
 
 4. Specify the values for the fields.
 
