@@ -41,10 +41,10 @@ With the SLA feature in Customer Service Hub, you can:
 
 Perform the following steps to configure SLAs in Customer Service Hub:
 
-- [Review prerequisites](#prerequisites).
-- [Create SLA KPIs](#create-sla-kpis).
-- [Create SLAs](#create-slas).
-- Learn [how the SLA is applied](#how-is-the-sla-applied).
+1. [Review prerequisites](#prerequisites).
+2. [Create SLA KPIs](#create-sla-kpis).
+3. [Create SLAs](#create-slas).
+4. Learn [how the SLA is applied](#how-is-the-sla-applied).
 
 ## Prerequisites
 
@@ -64,13 +64,16 @@ Review the following requirements before configuring SLAs for your organization:
    2. Use the lookup field to configure a timer to help users estimate the amount of time they have to complete a task—typically as specified in an SLA.<br>
    To configure a timer, add the timer control to an entity form. The timer control initially displays a countdown timer to show the time remaining to complete the task. To learn more, see [Add a timer control to the Case form to track time against an SLA](add-timer-control-case-form-track-time-against-sla.md).
 
+> [!NOTE]
+> In Unified Interface, the Elapsed Time and Paused On attributes of an SLAKPI Instance contain the values that are equivalent to the values in the Last Onhold Time and Onhold Time attributes of the target record such as the case and account in the web client.
+
 ## Create SLA KPIs in Customer Service Hub<a name="create-sla-kpis"></a>
 
 SLA KPIs are performance indicators, such as First Response or Resolve by, that you'd like to track.
 
 1. Sign in to Customer Service, and open the **Customer Service Hub** app.
 
-2. Select **Change area** > **Service Management** > **SLA KPIs**. A list of active SLA KPIs is displayed.
+2. Select **Change area** > **Service Management** > **SLA KPIs**.
 
 3. Select **New**. The **New SLA KPI** page appears.
 
@@ -91,6 +94,9 @@ SLA KPIs are performance indicators, such as First Response or Resolve by, that 
 6. To define the pause criteria at the KPI level, in the **Pause Conditions** section that appears, do the following:
    1. Set the toggle to **Yes** for **Override Criteria**. If any pause settings are applied at the entity level for your org, they will be overridden by the criteria define at the KPI level. For the other KPIs, the entity level pause settings will continue to function if no pause criteria is defined at the KPI level.
    2. Select **Add** to define the conditions in which the SLA KPI can be paused.
+
+    > [!NOTE]
+    > At runtime, when you pause an SLA KPI instance and resume it, the SLA KPI instance is canceled and a new SLA KPI instance is recreated.
 
 7. Select **Activate**. The SLA KPI is saved and activated.
 
@@ -130,17 +136,19 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
    - **Allow Pause and Resume:** (Optional.) Enable this option if you want the SLA to be paused during the time the record is on hold. For each entity that's enabled for the SLA, you can set each status that will be considered "on hold" in the **Service Management** > **Service Configuration Settings** page.
    - **Business Hours:** (Optional.) Select a value to assign business hours. The SLA is calculated based on the business hours and business closure that you define. More information: [Create customer service schedule and define the work hours](create-customer-service-schedule-define-work-hours.md).
   
-4. In the **Applicable When** section, define the conditions for the entity when the SLA can be applied.
+4. In the **Applicable When** section, define the conditions for the entity when the SLA can be applied. We recommend that you do not use case fields that are updated too frequently, because any change to the field value might lead to the SLA item being canceled.
 
-5. In the **Success Conditions** section, define the conditions that specify the success criteria of the SLA.
+6. In the **Success Conditions** section, define the conditions that specify the success criteria of the SLA.
 
-6. In the **Pause Configurations** section that appears only when **Allow Pause and Resume** is enabled, do the following:
+7. In the **Pause Configurations** section that appears only when **Allow Pause and Resume** is enabled, do the following:
    1. Set the toggle to **Yes** for **Override Criteria** to pause the SLA item. This setting overrides the pause settings defined at the entity level, if any, in Service Configuration or at the SLA KPI level.
    2. Select **Add** to define the conditions for pausing the SLA item.
     > ![Pause settings at SLA item level](media/csh-sla-item-pause.png "Pause settings at SLA item level")
 
 
-7. In the **Warn and Fail Duration** section, specify the values to trigger notifications when an SLA is missed.
+8. In the **Warn and Fail Duration** section, specify the values to trigger notifications when an SLA is missed.
+  > [!NOTE]
+  >  The time for failure and warning is calculated after considering the business hours selected in the SLA record. If you don't set the business hours record (customer service schedule), the work hours are considered to be all day, every day.
 
 8. Select **Save**.
 
@@ -287,7 +295,7 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
     > [!IMPORTANT]
     > - Failure and warning actions run asynchronously, and might not be triggered exactly at the failure or warning time.
     > - If failure or warning times are set to less than one hour, processing of the failure or warning actions might be delayed.
-    > - Make sure you author SLAs in a way that best suits your company's needs. For example, in the SLA **Applicable When** conditions, avoid using case fields that are updated too frequently, because that might lead to the SLA being computed so frequently that performance is negatively affected.
+    > - Make sure you author SLAs in a way that best suits your company's needs. For example, in the SLA **Applicable When** conditions, we recommend that you do not use case fields that are updated too frequently, because any change to the field value might lead to the SLA item being canceled.
 
 ## Create an enhanced SLA (Customer Service app) 
 
@@ -450,11 +458,6 @@ We recommend that you perform the following steps to upgrade a solution:
 1. Deactivate the SLAs that have been brought through the previous version of the solution. The status of these SLAs will change to Draft.
 2. Upgrade your solution.
 3. After the solution has been successfully upgraded, activate the SLAs as required.
-
-### Troubleshoot SLAs
-
-- [SLA timer does not pause](troubleshoot-sla-timer-issue.md) 
-- [Unable to delete a managed solution](troubleshoot-delete-managed-solution.md)
 
 ### See also  
 
