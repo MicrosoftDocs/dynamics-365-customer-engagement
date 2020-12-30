@@ -1,5 +1,5 @@
 ---
-title: "Configure a WhatsApp channel through Twilio | MicrosoftDocs"
+title: "Configure WhatsApp channel through Twilio | MicrosoftDocs"
 description: "Learn about the WhatsApp channel through Twilio and how to configure the channel in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
@@ -147,7 +147,7 @@ When you create conditions for routing rules, the **WhatsApp Engagement Context 
     >
     > Create your message templates in your Twilio account and have them approved by WhatsApp before you add them in Omnichannel for Customer Service.
 
-    Click **New** to create a new template and complete the following fields:
+    Click **New** to create a template and complete the following fields:
 
     - **Name**: Label the group of messages that will go in this template.
     
@@ -162,7 +162,7 @@ When you create conditions for routing rules, the **WhatsApp Engagement Context 
     
     - **Language code**: Select the language for the message.
     
-    - **Localized text**: Write the message in the language specified. You must create a new localization for each translation of the message.
+    - **Localized text**: Write the message in the language specified. You must create a localization for each translation of the message.
     
     > [!div class=mx-imgBorder]
     > ![Create WhatsApp message template localized message](media/whatsapp-message-template-new-message-locale.png "Create WhatsApp message template localized message")
