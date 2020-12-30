@@ -507,7 +507,7 @@
 ##### [startChat](developer/reference/methods/startChat.md)
 ##### [startProactiveChat](developer/reference/methods/startProactiveChat.md)
 ##### [closeChat](developer/reference/methods/closeChat.md)
-### Real time translation JavaScript API Reference
+### Real-time translation JavaScript API Reference
 #### [translationprovider](developer/reference/properties/getTranslationProvider.md)
 #### [initializeNewConversation](developer/reference/methods/initializeNewConversation.md)
 #### [translateMessage](developer/reference/methods/translateMessage.md)
