@@ -55,7 +55,7 @@ See the following scenarios to understand how the SLA *Warn* and *Failure* time 
 - Create a case during working hours. Pause the case during non-working hours and resume it during working hours. *Warn* time and *Fail* time will be recalculated.
 
 
-## SLA KPI status shows as 
+## SLA KPI status shows as canceled
 
 ### Scenario
 
