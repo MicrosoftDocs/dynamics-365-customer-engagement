@@ -1,6 +1,6 @@
 ---
-title: Create a customer service schedule and define the work hours (Dynamics 365 Customer Service) | MicrosoftDocs
-description: See how to create a customer service schedule and define the work hours for Dynamics 365 Customer Service
+title: Create customer service schedule and define work hours (Dynamics 365 Customer Service) | MicrosoftDocs
+description: Learn how to create a customer service schedule and define the work hours for Dynamics 365 Customer Service
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
@@ -20,7 +20,7 @@ search.app:
 
 # Create customer service schedule and define the work hours
 
-To define when your service or support team is available for providing support to customers, create a customer service schedule in Dynamics 365 Customer Service. A customer service schedule determines the business hours for each day in a week and also the weekly off. Customer Service uses these details for time tracking of service level agreements (SLAs).  
+To define when your service or support team is available for providing support to customers, create a customer service schedule in Dynamics 365 Customer Service. A customer service schedule determines the business hours for each day in a week and also the weekly off. Customer Service uses these details for time tracking of service-level agreements (SLAs).  
   
  For SLA time tracking, make sure you add a holiday schedule to the customer service schedule, and associate this customer service schedule to the SLA record.  
 
@@ -72,9 +72,10 @@ To define when your service or support team is available for providing support t
   
 7. Select **Save**.  
 
-   ![customer-service-schedule](media/customer-service-schedule.png)
+   ![customer service schedule](media/customer-service-schedule.png "customer service schedule")
  
-## Define the work hours for the schedule  
+## Define the work hours for the schedule
+
  In the **Set Work Hours** dialog box, complete the following fields, and then select **OK**:  
   
 - **Start**  
@@ -87,5 +88,6 @@ To define when your service or support team is available for providing support t
   
   To add a break in the work hours, like a lunch break, select **Add Break**, and then select the start and end time of the break.  
   
-### See also  
+### See also
+
  [Set up a holiday schedule](../customer-service/set-up-holiday-schedule.md)  
