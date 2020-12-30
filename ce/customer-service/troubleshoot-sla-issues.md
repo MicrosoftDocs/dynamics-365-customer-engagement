@@ -4,7 +4,8 @@ description: Know about the SLA issues and how to troubleshoot them.
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 11/27/2020
+ms.date: 12/30
+/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -54,28 +55,28 @@ See the following scenarios to understand how the SLA *Warn* and *Failure* time 
 - Create a case during working hours. Pause the case during non-working hours and resume it during working hours. *Warn* time and *Fail* time will be recalculated.
 
 
-## SLA KPI status shows as canceled
+## SLA KPI status shows as 
 
-When an update is made to the target record such that applicable when condition is no more applicable, and the status has moved from active to resolved, the SLA KPI status moves from the existing state (Inprogress/Succeeded/Expired) to cancelled state.
+### Scenario
 
-### Reason
+When you update the target record such that “applicable when” condition is no more applicable, the status moves from active to resolved, and the SLA KPI status moves from the existing state (Inprogress/Succeeded/Expired) to the canceled state. Consider the following scenario in which you create an SLA with the following conditions and set it as the default SLA.
 
-Applicable when condition is no longer applicable.
+- Applicable when: status equals active
+- Success condition: case type equals problem
 
-### Resolution
-
-Do not define applicable when condition on fields whose values change frequently.
-
-Consider the following scenario where you create an SLA with the following conditions and set it as the default SLA.
-  - Applicable when: status equals active
-  - Success condition: case type equals problem
 
   1. Create a new case. Case status is set to active by default and SLA is applied.
   2. Timer starts running. Set case type to problem.
   3. SLA KPI instance status gets succeeded.
   4. Resolve the case. Case status is set to resolved.
 
-Applicable when condition is no more applicable and SLA KPI instance status moves from succeeded to canceled. This is the expected behavior in both Unified Interface and webclient SLA.
+### Reason
+
+The "applicable when" condition is no longer applicable.
+
+### Workaround
+
+Try not to define the "applicable when" condition on fields whose values change frequently.
 
 ## Executing success, warning, and failure actions multiple times
 
