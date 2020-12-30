@@ -41,7 +41,7 @@ To setup the **Entity Record** channel for cases, follow the steps:
 
 ## Step 1: Create queues and add agents
 
-Create a new omnichannel queue or use an existing omnichannel queue, and then add agents to these queues. To learn more, see [Create a queue](queues-omnichannel.md#create-a-queue).
+Create an omnichannel queue or use an existing omnichannel queue, and then add agents to these queues. To learn more, see [Create a queue](queues-omnichannel.md#create-a-queue).
 
 ## Step 2: Enable entity for activities and queues
 
@@ -75,7 +75,7 @@ Create entity record configuration to enable an entity for routing.
 
 2. Select **Entity Records** under **Channels** in the sitemap.
 
-3. Select **+ New** in the **Active Entities** page.
+3. Select **New** in the **Active Entities** page.
 
 4. Specify the following in the **New Entity** page.
 
@@ -113,7 +113,7 @@ Let's see how to create routing rule set and rule items for entity records. In t
 
 ### Create routing rule set
 
-   Routing rule set is a collection of rule items, and you can have multiple routing rule sets defined for an entity. However, only one routing rule set can be active at any point in time. The rules items in active routing rule set are used to route the records. To create a new routing rule set, follow steps 5-7.
+   Routing rule set is a collection of rule items, and you can have multiple routing rule sets defined for an entity. However, only one routing rule set can be active at any point in time. The rules items in active routing rule set are used to route the records. To create a routing rule set, follow steps 5-7.
 
    > [!Note]
    > You can’t edit an active routing rule set. Therefore, if you’re importing a solution that includes an active routing rule set into an organization where the rule set already exists with the same ID, the solution import will fail.
@@ -135,9 +135,9 @@ Let's see how to create routing rule set and rule items for entity records. In t
 
 ### Create rule item
     
-   You can define multiple routing rule items in a routing rule set. A rule item consists of a condition and destination to route the entity records. Let's see how to define the rule items. To create a new rule item, follow steps 8-13.
+   You can define multiple routing rule items in a routing rule set. A rule item consists of a condition and destination to route the entity records. Let's see how to define the rule items. To create a rule item, follow steps 8-13.
 
-8. Select **+ New Rule Item** in the **Rule Items** section. A **New Rule Item** page appears. 
+8. Select **New Rule Item** in the **Rule Items** section. A **New Rule Item** page appears. 
 
     > [!div class=mx-imgBorder] 
     > ![Add New Rule Item](media/case-ws-rr2.png "Add New Rule Item")
@@ -149,7 +149,7 @@ Let's see how to create routing rule set and rule items for entity records. In t
     | General | Name | Product - Credit card | Specify a name to the rule item. |
     | General | Description | This rule item is used for routing credit card cases. | Specify a description for you to identify the purpose of the rule item. |
 
-10. Select **+ Add** in the **Rule Criteria** section, and then select **+ Add row**.
+10. Select **Add** in the **Rule Criteria** section, and then select **Add row**.
 
     a. Select a rule from the list for the first box. For example, **Subject**.
 

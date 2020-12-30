@@ -1,10 +1,10 @@
 ---
-title: "Bring your own custom messaging channel  Direct Line Bot | Microsoft Docs"
+title: "Bring your own custom messaging channel Direct Line Bot | Microsoft Docs"
 description: "This topic provides information on how you can integrate custom messaging channels using Direct Line Bot."
 author: ramana-hyd
 ms.author: v-rmurthy
 manager: shujoshi
-ms.date: 10/12/2020
+ms.date: 12/30/2020
 ms.topic: reference
 ms.service: dynamics-365-customerservice
 ---
@@ -186,7 +186,7 @@ After building the activity payload, it calls the Message Relay Processor's Post
 
 #### II. Process Outbound Activities
 
-The relay processor invokes the event handler to send outbound activities to the respective channel adapter, and the adapter then processes the outbound activities. The channel adapter does following steps:
+The relay processor invokes the event handler to send outbound activities to the respective channel adapter, and the adapter then processes the outbound activities. The channel adapter does the following steps:
 
 1. Convert outbound activities to the channel response model.
 
@@ -282,7 +282,7 @@ public class DirectLineConversation
 }
 ```
 
-I. If conversation is not active for the activity received by the relay processor, it does following steps:
+I. If conversation is not active for the activity received by the relay processor, it does the following steps:
 
 Initiate a conversation with direct line and store the conversation object sent by direct line against the user ID in the dictionary.
 
