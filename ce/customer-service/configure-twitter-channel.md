@@ -4,7 +4,7 @@ description: "Instructions to configure a Twitter Direct Message channel in Omni
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 12/29/2020
+ms.date: 12/30/2020
 ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ---
