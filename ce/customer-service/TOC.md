@@ -152,6 +152,7 @@
 #### [View agent dashboard and work items](oc-agent-dashboard.md)
 #### [View agent notifications](oc-notifications.md)
 #### [View communication panel](oc-conversation-control.md)
+#### [View customer summary](oc-customer-summary.md)
 #### [Create a record](oc-create-record.md)
 #### [Search, link, and unlink a record](oc-search-link-unlink-record.md)
 #### [Take notes for conversation](oc-take-notes.md)
@@ -176,6 +177,11 @@
 #### [Live chat widget telemetry](live-chat-telemetry.md)
 #### [Configure relevance search for transcripts](relevance-search-chat-transcript.md)
 #### [Configure link to conversation button](configure-link-to-conversation-model-driven-app-form.md)
+### Customizer experience
+#### [Overview](omnichannel-customizer.md)
+#### [Customize customer summary form](customize-customer-summary.md)
+#### [Customize quick view forms](customize-quick-view-form.md)
+#### [Customize session forms](customize-session-form.md)
 
 ## Portals
 ### [Embed a chat widget in a portal](embed-chat-widget-portal.md)
@@ -501,7 +507,7 @@
 ##### [startChat](developer/reference/methods/startChat.md)
 ##### [startProactiveChat](developer/reference/methods/startProactiveChat.md)
 ##### [closeChat](developer/reference/methods/closeChat.md)
-### Real time translation JavaScript API Reference
+### Real-time translation JavaScript API Reference
 #### [translationprovider](developer/reference/properties/getTranslationProvider.md)
 #### [initializeNewConversation](developer/reference/methods/initializeNewConversation.md)
 #### [translateMessage](developer/reference/methods/translateMessage.md)
