@@ -60,10 +60,13 @@ See the following scenarios to understand how the SLA *Warn* and *Failure* time 
 ### Scenario
 
 When you update the target record such that “applicable when” condition is no more applicable, the status moves from active to resolved, and the SLA KPI status moves from the existing state (Inprogress/Succeeded/Expired) to the canceled state. Consider the following scenario in which you create an SLA with the following conditions and set it as the default SLA.
-  1. Create a new case. Case status is set to active by default and SLA is applied.
-  2. Timer starts running. Set case type to problem.
-  3. SLA KPI instance status gets succeeded.
-  4. Resolve the case. Case status is set to resolved.
+- asfalkfalsf
+- flakflakfsl
+
+1. Create a new case. Case status is set to active by default and SLA is applied.
+2. Timer starts running. Set case type to problem.
+3. SLA KPI instance status gets succeeded.
+4. Resolve the case. Case status is set to resolved.
 
 ### Reason
 
