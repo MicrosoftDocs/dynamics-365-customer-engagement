@@ -1,5 +1,5 @@
 ---
-title: "Customize the Add Products dialog box (Dynamics 365 Sales) | MicrosoftDocs"
+title: "Preview: Customize the Add Products dialog box (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Customize the Add Products dialog box so salespeople can see important product details while adding products to opportunity, quote, order, or invoice records in Dynamics 365 Sales."
 ms.date: 12/31/2020
 ms.service:
@@ -17,7 +17,7 @@ searchScope:
   - Sales
 ---
 
-# Customize the Add Products dialog box (Dynamics 365 Sales)
+# Preview: Customize the Add Products dialog box (Dynamics 365 Sales)
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -69,3 +69,4 @@ For more information on configuring columns, see [Choose and configure columns i
 ### See also
 
 [Preview: Enable the enhanced experience of adding products](enable-enhanced-add-product-experience.md)  
+[Customize the Add Products dialog box](customize-add-products-dialog-box.md)  
