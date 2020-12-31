@@ -64,16 +64,16 @@ The process for adding a product to a quote record is the same as adding a produ
 
     -   **Products**. This tab lists all the products and product bundles that are in the **Active** or **Revised** state. Along with entering the product name, it's also possible for you to enter the price per unit and quantity. By default, 25 products are shown. Select **Load more** to see more products. On this tab, you can search and filter the list of products and select the one you want to add.
 
-        If you've selected a price list for the opportunity, the product list is filtered to show only those product records that have the same price list associated.
+        If you've selected a price list for the quote, the product list is filtered to show only those product records that have the same price list associated.
 
         > [!IMPORTANT]
         > The columns that you see in the dialog box are based on the columns defined in the 'Opportunity products - Enhanced Experience' view. You system administrator can customize this view to add the columns that are most useful for your business. 
     
-    -   **Recently Used**. This tab lists the last 15 products that the currently logged-in user has recently added to any opportunity.
+    -   **Recently Used**. This tab lists the last 15 products that the currently logged-in user has recently added to the quote.
     
     -   **Write-In**. This tab lets you create and add a write-in product.
     
-    -   **Selected**. This tab shows the count of the products selected to be added to the opportunity. Use this tab to verify or modify the final list of the items you've selected.
+    -   **Selected**. This tab shows the count of the products selected to be added to the quote. Use this tab to verify or modify the final list of the items you've selected.
 
 3.  Search for and select the products you want to add, and then select **Add to Quote**.
     
@@ -126,12 +126,12 @@ The additional details of the product like the product name and ID are shown inl
 -  To select an existing product to add, go to the **Products** tab or the **Recently used** tab. Select the check box next to the product that you want to add, and then enter the quantity of product. 
 
     > [!div class="mx-imgBorder"]  
-    > ![Select the product to add](media/select-products-to-add-enh.png "Select the product to add")
+    > ![Select the product to add](media/select-products-to-add-qoi-enh.png "Select the product to add")
 
     -   If a product has a default price list associated with it, the **Price per unit** is populated in accordance with the associated price list. Enter the quantity. By default, the quantity is set to 1.
 
         > [!NOTE]
-        > If you want to override the default price of a product, in the **Price Overridden** column, select **Override Price** toggle.
+        > If you want to override the default price of a product, in the **Price Overridden** column, select **Override Price**.
 
     -   If the product doesn't have an associated price list, enter the price per unit and quantity.
 

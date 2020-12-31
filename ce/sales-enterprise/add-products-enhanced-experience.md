@@ -135,7 +135,7 @@ The additional details of the product like the product name and ID are shown inl
     -   If a product has a default price list associated with it, the **Price per unit** is populated in accordance with the associated price list. Enter the quantity. By default, the quantity is set to 1.
 
         > [!NOTE]
-        > If you want to override the default price of a product, in the **Price Overridden** column, select **Override Price** toggle.
+        > If you want to override the default price of a product, in the **Price Overridden** column, select **Override Price**.
 
     -   If the product doesn't have an associated price list, enter the price per unit and quantity.
 
