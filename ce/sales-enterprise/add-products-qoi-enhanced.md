@@ -1,7 +1,7 @@
 ---
-title: "Preview: Add products to an opportunity by using the enhanced experience | MicrosoftDocs"
-description: "Use the enhanced experience to quickly find and add multiple products to opportunities in Dynamics 365 Sales."
-ms.date: 04/03/2020
+title: "Add products to quotes, orders, or invoices (Dynamics 365 Sales) | MicrosoftDocs"
+description: "Use the enhanced experience to quickly find and add multiple products that your customer is interested in purchasing to your quote, order, or invoice in Dynamics 365 Sales."
+ms.date: 12/30/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
@@ -10,19 +10,23 @@ ms.author: shujoshi
 manager: annbe
 searchScope:
   - D365-App-msdynce_saleshub
-  - D365-Entity-opportunity
+  - D365-Entity-quote
+  - D365-Entity-salesorder
+  - D365-Entity-invoice
+  - D365-Entity-quotedetail
+  - D365-Entity-salesorderdetail
+  - D365-Entity-invoicedetail
   - D365-UI-*
   - Customer Engagement
   - Dynamics 365
   - Sales
 ---
 
-# Preview: Add products to an opportunity by using the enhanced experience
+# Add products to quotes, orders, or invoices (Sales Hub)
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-
-For salespeople, it's important to be able to quickly update opportunities by adding products that their customers are interested in.
+You can add products or product bundles to a quote, order, or invoice record. The product can be an existing product in the [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] product catalog or an ad hoc product that you add as a write-in product. 
 
 With the enhanced experience of adding products, salespeople can:
 
@@ -34,35 +38,27 @@ With the enhanced experience of adding products, salespeople can:
 
 -  Select and add multiple products in one go.
 
--  Add write-in products by using as few clicks as possible.
+-  Add write-in products in just a few clicks.
 
 -  Quickly specify the price and quantity of the products.
-
 
 > [!IMPORTANT]
 > - The enhanced "add product" experience is a preview feature. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 > - [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
 > - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 
-**To add a product by using the enhanced experience**
+If you’ve created a quote from an opportunity, the products added to the opportunity are automatically added to the quote. You can add more products or remove the existing ones.
 
-1.  From the list of opportunities, open the opportunity to which you want to add products.
+The process for adding a product to a quote record is the same as adding a product to an order or an invoice. This topic explains how to add products to a quote record.
 
-2.  Go to the **Product Line Items** tab.
+1. From the list of quotes, open the record you want to add the product to. 
 
-3.  Select a **Price List**. The price list determines the cost of the product.
-
-    > [!NOTE]
-    > By default, you must select a price list to be able to add products to an opportunity; however, your administrator can change your organization settings to make the **Price List** field optional.
-
-4.  If you want the estimated revenue of the opportunity to be calculated based on all the products added to the opportunity, set **Revenue** to **System Calculated**. If you want to use a custom estimated revenue, set it to **User Provided**.
-
-5.  In the **Product Line Items** grid, select **Add products**.
+2. On the **Summary** tab, in the **Products** section, select the **More Commands** icon ![More Commands button](media/more-commands-icon.png "More Commands button"), and then select **Add products**.
 
     The **Add Products** dialog box opens.
 
     > [!div class="mx-imgBorder"]  
-    > ![Add Opportunity Product pane](media/add-products-dialob-box.png "Add Opportunity Product pane")
+    > ![Add Product dialog box](media/add-products-qoi-dialog-box.png "Add Product dialog box")
 
     The dialog box lets you edit line item details (product details) inline and also select multiple products at once. It has four tabs:
 
@@ -79,7 +75,7 @@ With the enhanced experience of adding products, salespeople can:
     
     -   **Selected**. This tab shows the count of the products selected to be added to the opportunity. Use this tab to verify or modify the final list of the items you've selected.
 
-6.  Search for and select the products you want to add, and then select **Add to Opportunity**.
+3.  Search for and select the products you want to add, and then select **Add to Quote**.
     
     More information:
     
@@ -112,7 +108,7 @@ The following filters are available:
 -  Views. Use this filter to see products in a specific saved view or user view. 
 
 > [!div class="mx-imgBorder"]  
-> ![Use product filters](media/filter-products-enhanced.png "Use product filters")
+> ![Use product filters](media/filter-products-qoi-enhanced.png "Use product filters")
 
 
 > [!NOTE]
@@ -142,14 +138,14 @@ The additional details of the product like the product name and ID are shown inl
 -  To add a write-in product, on the **Write-in** tab, select **Write-in product**, and then fill in the details in the **Product Name**, **Price Per Unit**, and **Quantity** columns.
 
     > [!div class="mx-imgBorder"]  
-    > ![Add write-in product](media/add-write-in-product-enh.png "Add a write-in product")
+    > ![Add write-in product](media/add-write-in-product-qoi-enh.png "Add a write-in product")
     
 ## Review selected products
 
 When you select a product to add, a count is added to the **Selected** tab at the top of the screen. The count represents the number of products selected. In the **Products** tab or the **Recently used** tab, a check mark is shown for all the products that you've selected.
 
 > [!div class="mx-imgBorder"]  
-> ![Review selected products](media/review-selected-products-enh.png "Review selected products")
+> ![Review selected products](media/review-selected-products-qoi-enh.png "Review selected products")
 
 ## Remove selected products
 
@@ -158,11 +154,10 @@ You can easily remove products that you selected earlier but don't need anymore.
 To remove a product from the selection, go to the **Selected** tab. For the product that you want to remove, select the **Delete product** icon.
 
 > [!div class="mx-imgBorder"]  
-> ![Remove selected products](media/remove-selected-products-enh.png "Remove selected products")
-
+> ![Remove selected products](media/remove-selected-products-qoi-enh.png "Remove selected products")
 
 ### See also
 
-[Add products to an opportunity](add-products-opportunity.md)  
+[Add products to quotes, orders, or invoices](add-product-quote-order-invoice.md)  
 [Enable the enhanced experience of adding products](enable-enhanced-add-product-experience.md)  
 [Customize the Add Products dialog box](customize-add-products-dialog-box.md)

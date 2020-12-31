@@ -14,7 +14,7 @@ manager: annbe
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Increase seller productivity by enabling the enhanced experience for searching and adding products to opportunities. With the enhanced experience, salespeople can:
+Increase seller productivity by enabling the enhanced experience for searching and adding products to opportunities, quotes, orders, and invoices. With the enhanced experience, salespeople can:
 
 -  Quickly search for products.
 -  View product details inline.
