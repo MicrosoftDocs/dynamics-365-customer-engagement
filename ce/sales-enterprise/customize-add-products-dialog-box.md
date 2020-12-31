@@ -67,4 +67,5 @@ For more information on configuring columns, see [Choose and configure columns i
 
 
 ### See also
+
 [Preview: Enable the enhanced experience of adding products](enable-enhanced-add-product-experience.md)  

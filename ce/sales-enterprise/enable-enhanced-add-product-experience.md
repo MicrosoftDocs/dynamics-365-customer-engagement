@@ -62,6 +62,11 @@ If you are a custom app, you can enable the enhanced experience from System Sett
 4. Select **OK**.
 
 
+> [!IMPORTANT]
+> The enhanced 'Add Products' experience lets you define the columns to show in the **Add Products** dialog box. For more information, see [Customize the Add Products dialog box](customize-add-products-dialog-box.md).
+
+
 ### See also
 
 [Add products to an opportunity by using the enhanced experience](add-products-enhanced-experience.md)  
+[Add products to a quote, order, or invoice by using the enhanced experience](add-products-qoi-enhanced.md)
