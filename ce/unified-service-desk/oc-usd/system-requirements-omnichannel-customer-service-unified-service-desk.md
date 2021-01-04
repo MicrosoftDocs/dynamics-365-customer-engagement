@@ -1,7 +1,7 @@
 ---
 title: "System and hardware requirements of Omnichannel for Customer Service with Unified Service Desk | MicrosoftDocs"
 description: "This topic provides information about the system requirements for deploying Omnichannel for Customer Service with Unified Desk."
-author: v-mlanka
+author: MeghanaLanka
 ms.author: v-mlanka
 manager: shujoshi
 ms.date: 01/04/2020
@@ -20,7 +20,7 @@ You will need the following to use Omnichannel for Customer Service with Unified
 |------------|----------|
 | Desktop application | 64-bit version of Unified Service Desk 4.1.1.1253 or later <br>More information: [Download Unified Service Desk](omnichannel-customer-service-unified-service-desk.md#download-unified-service-desk-client-application)|
 | Model-driven app |Dynamics 365 Customer Service app version 9.1.0000.3653 or higher <br> **Note:** We recommend you use a new production Dynamics 365 Customer Service instance to use Omnichannel for Customer Service on Unified Service Desk. |
-| Hosting type |Chrome Process <br> To learn more about hosting types, see [Configure recommended settings for Unified Service Desk](unified-service-desk/oc-usd/configure-settings-unified-service-desk.md). |
+| Hosting type |Chrome Process <br> To learn more about hosting types, see [Configure recommended settings for Unified Service Desk](../oc-usd/configure-settings-unified-service-desk.md). |
 | Operating system | Windows 10, version released in October 2018 or later|
 | Memory (Hardware) | ^8-GB RAM or more |
 
