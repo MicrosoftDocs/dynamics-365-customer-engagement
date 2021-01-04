@@ -35,7 +35,7 @@
 
 ## Get started
 ### [Get started with Customer Service](https://docs.microsoft.com/learn/modules/get-started-with-dynamics-365-for-customer-service/)
-### [Configure Customer Service](service-manager-guide.md)
+### [Configure Customer Service](configure-cs.md)
 ### [Customer Service Hub](customer-service-hub-user-guide-basics.md)
 ### [Use Customer Service Team Member](customer-service-team-member.md)
 ### [Customer Service workspace](csw-overview.md)
@@ -152,6 +152,7 @@
 #### [View agent dashboard and work items](oc-agent-dashboard.md)
 #### [View agent notifications](oc-notifications.md)
 #### [View communication panel](oc-conversation-control.md)
+#### [View customer summary](oc-customer-summary.md)
 #### [Create a record](oc-create-record.md)
 #### [Search, link, and unlink a record](oc-search-link-unlink-record.md)
 #### [Take notes for conversation](oc-take-notes.md)
@@ -176,6 +177,11 @@
 #### [Live chat widget telemetry](live-chat-telemetry.md)
 #### [Configure relevance search for transcripts](relevance-search-chat-transcript.md)
 #### [Configure link to conversation button](configure-link-to-conversation-model-driven-app-form.md)
+### Customizer experience
+#### [Overview](omnichannel-customizer.md)
+#### [Customize customer summary form](customize-customer-summary.md)
+#### [Customize quick view forms](customize-quick-view-form.md)
+#### [Customize session forms](customize-session-form.md)
 
 ## Portals
 ### [Embed a chat widget in a portal](embed-chat-widget-portal.md)
@@ -232,7 +238,7 @@
 #### [Enable productivity pane and smart assist](../app-profile-manager/app-profile-manager.md#enable-prod-pane)
 #### [Create macros](../app-profile-manager/macros.md)
 #### [Guide agents with scripts](../app-profile-manager/agent-scripts.md)
-#### [Use automation dictionary](automation-dictionary-keys.md)
+#### [Use automation dictionary](../app-profile-manager/automation-dictionary-keys.md)
 #### [Create quick replies](create-quick-replies.md)
 #### [Enable personal quick replies](enable-personal-quick-replies.md)
 #### [Enable sound notifications](enable-sound-notifications.md)
@@ -293,12 +299,13 @@
 #### Intraday supervisor experiences
 ##### [Introduction to intraday supervisor experiences](intro-intraday-insights-dashboard.md)
 ##### [View and understand Omnichannel intraday insights](intraday-insights-dashboard.md)
+##### [Set idle time threshold](set-idle-time-threshold.md)
 ##### [View and understand Omnichannel Ongoing Conversations dashboard](ongoing-conversations-dashboard.md)
 #### Omnichannel Insights
 ##### [Introduction to Omnichannel Insights](intro-dynamics-365-omnichannel-insights-dashboard.md)
 ##### [View and understand Omnichannel Insights dashboard](omnichannel-insights-dashboard.md)
 #### Monitor conversations
-##### [Monitor and assign converations](monitor-conversations.md)
+##### [Monitor and assign conversations](monitor-conversations.md)
 ##### [Monitor and analyze sentiment](supervisor-sentiment-monitoring.md)
 ### Customize insights
 #### [Configure interactive dashboards](configure-interactive-dashboards-customer-service-hub.md)
@@ -500,7 +507,7 @@
 ##### [startChat](developer/reference/methods/startChat.md)
 ##### [startProactiveChat](developer/reference/methods/startProactiveChat.md)
 ##### [closeChat](developer/reference/methods/closeChat.md)
-### Real time translation JavaScript API Reference
+### Real-time translation JavaScript API Reference
 #### [translationprovider](developer/reference/properties/getTranslationProvider.md)
 #### [initializeNewConversation](developer/reference/methods/initializeNewConversation.md)
 #### [translateMessage](developer/reference/methods/translateMessage.md)

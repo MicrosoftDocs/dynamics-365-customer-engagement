@@ -20869,6 +20869,26 @@
       "source_path": "ce/customer-service/notification-templates.md",
       "redirect_url": "../app-profile-manager/notification-templates",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/macros.md",
+      "redirect_url": "../app-profile-manager/macros",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/agent-scripts.md",
+      "redirect_url": "../app-profile-manager/agent-scripts",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/automation-dictionary-keys.md",
+      "redirect_url": "../app-profile-manager/automation-dictionary-keys",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/service-manager-guide.md",
+      "redirect_url": "../app-profile-manager/configure-cs",
+      "redirect_document_id": false
     }
   ]
 }
