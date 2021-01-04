@@ -1,7 +1,7 @@
 ---
 title: "Preview: Customize the Add Products dialog box (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Customize the Add Products dialog box so salespeople can see important product details while adding products to opportunity, quote, order, or invoice records in Dynamics 365 Sales."
-ms.date: 12/31/2020
+ms.date: 01/04/2021
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
@@ -31,12 +31,24 @@ A system customizer or system administrator can customize the **Add Products** d
 
 ## Add or remove columns of the grid
 
-The **Add Products** dialog box uses the **Opportunity Products - Enhanced Experience** view, which defines the columns that appear in the grid. By default, the following columns are added to the view:
+The **Add Products** dialog box uses the following views that define the columns that appear in the grid. 
+
+
+| Table (entity)         | View name         |
+|------------------------|-------------------|
+| Opportunity product    | Opportunity products Add Products   |
+| Quote product          | Quote products Add Products         |
+| Order product          | Order products Add Products         |
+| Invoice product        | Opportunity products Add Products   |
+|                        |                   |
+
+
+By default, the following columns are added to the view:
 
 - Product name
+- Unit
 - Price per unit
 - Quantity 
-- Discount
 
 > [!div class="mx-imgBorder"]  
 > ![Default columns in the Products grid of the Add Products dialog box](media/default-columns-add-products-dialog.png "Default columns in the Products grid of the Add Products dialog box")
@@ -50,18 +62,14 @@ In the products grid of the **Add Products** dialog box, the **Products** column
 > [!div class="mx-imgBorder"]  
 > ![Additional product details](media/add-products-product-details.png "Additional product details")
 
-For Opportunity Products, these details are shown from the columns (fields) that are added in the **Product Lookup View** of the Product table (entity). 
-For Quote, Order, and Invoice products, the details are shown from the columns added to the **All Product Price Lists** view.
+For opportunity products as well as the quote, order or invoice products, these details are captured from the columns (fields) that are added in the **Product Lookup View** of the **Product** table (entity). 
+
 By default, the views show data from two columns (fields): 
 
-
-|  View        | Columns (Fields)         |
-|--------------|--------------------------|
-| Product Lookup View         |  Product name, Product ID        |
-| All Product Price Lists view  |  Product name, Unit         |
-|              |                          |
-
-You can customize these views to add or edit columns, as required. You can add up to three columns to these views. 
+- For opportunity products: Product name, Product ID
+- For quote, order, or invoice products: Product name, Unit
+ 
+You can customize this views to add or edit columns, as required. You can add up to three columns to these views. 
 
 For more information on configuring columns, see [Choose and configure columns in model-driven app views](/powerapps/maker/model-driven-apps/choose-and-configure-columns).
 

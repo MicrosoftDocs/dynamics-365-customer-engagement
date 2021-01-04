@@ -1,7 +1,7 @@
 ---
 title: "Preview: Add products to an opportunity by using the enhanced experience | MicrosoftDocs"
 description: "Use the enhanced experience to quickly find and add multiple products to opportunities in Dynamics 365 Sales."
-ms.date: 04/03/2020
+ms.date: 01/04/2021
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
@@ -36,7 +36,7 @@ With the enhanced experience of adding products, salespeople can:
 
 -  Add write-in products by using as few clicks as possible.
 
--  Quickly specify the price and quantity of the products.
+-  Specify price, quantity, and any other information required as configured by your system administrator.
 
 
 > [!IMPORTANT]
@@ -62,16 +62,16 @@ With the enhanced experience of adding products, salespeople can:
     The **Add Products** dialog box opens.
 
     > [!div class="mx-imgBorder"]  
-    > ![Add Opportunity Product pane](media/add-products-dialob-box.png "Add Opportunity Product pane")
+    > ![Add Opportunity Product pane](media/add-products-dialog-box.png "Add Opportunity Product pane")
 
     The dialog box lets you edit line item details (product details) inline and also select multiple products at once. It has four tabs:
 
-    -   **Products**. This tab lists all the products and product bundles that are in the **Active** or **Revised** state. Along with entering the product name, it's also possible for you to enter the price per unit and quantity. By default, 25 products are shown. Select **Load more** to see more products. On this tab, you can search and filter the list of products and select the one you want to add.
+    -   **Products**. This tab lists all the products and product bundles that are in the **Active** or **Revised** state. Along with entering the product name, it's also possible for you to enter the price per unit and quantity. By default, 25 products are shown. On this tab, you can search and filter the list of products and select the one you want to add.
 
         If you've selected a price list for the opportunity, the product list is filtered to show only those product records that have the same price list associated.
 
         > [!IMPORTANT]
-        > The columns that you see in the dialog box are based on the columns defined in the 'Opportunity products - Enhanced Experience' view. You system administrator can customize this view to add the columns that are most useful for your business. 
+        > The columns that you see in the dialog box are based on the columns defined in the 'Opportunity products Add Products' view. You system administrator can customize this view to add the columns that are most useful for your business. 
     
     -   **Recently Used**. This tab lists the last 15 products that the currently logged-in user has recently added to any opportunity.
     
@@ -94,6 +94,10 @@ With the enhanced experience of adding products, salespeople can:
 
 To search for a specific product from the list, on the **Products** tab, enter the keyword in the **Search** field, and then select the **Search** icon or select the Enter key. The products matching the search criteria are shown.
 
+> [!div class="mx-imgBorder"]  
+> ![Use product filters](media/search-for-products.png "Use product filters")
+
+
 The Search capability searches for the keyword in the product names or the fields of Single Line of Text or Multiple Line of Text in the Quick Find View of the Product entity. The search is performed by using the 'Contain' search operator. This means that search results show all the products that contain the keyword in one of the supported fields.
 
 Here's how the search results are ranked/ordered:
@@ -108,8 +112,8 @@ Filters are available to enable you to further narrow down your search.
 
 The following filters are available:
 
--  Product family. Use this filter to see products in a specific product family
--  Views. Use this filter to see products in a specific saved view or user view. 
+-  Product family. Use this filter to see products in a specific product family. All Product families in the Active and Under revision state are shown.
+-  Views. Use this filter to see products in a specific saved view or user view. You can create a new view for the product entity.
 
 > [!div class="mx-imgBorder"]  
 > ![Use product filters](media/filter-products-enhanced.png "Use product filters")
@@ -122,20 +126,20 @@ The following filters are available:
 
 The additional details of the product like the product name and ID are shown inline below the product name. These additional details help salespeople in identifying the correct product. The data shown here is based on the fields/column added in the **Product Lookup view** of the product entity/table. Your system administrator or system customizer can customize this view to add other fields that are relevant for your business. 
 
-   > [!div class="mx-imgBorder"]  
-   > ![Product details](media/add-products-product-details.png "Product details")
+> [!div class="mx-imgBorder"]  
+> ![Product details](media/add-products-product-details.png "Product details")
 
 ## Select products to add
 
--  To select an existing product to add, go to the **Products** tab or the **Recently used** tab. Select the check box next to the product that you want to add, and then enter the quantity of product. 
+-  To select an existing product to add, go to the **Products** tab or the **Recently used** tab. Select the check box next to the product that you want to add, and then enter the quantity of product. If you edit a row, for example, enter a quantity for a product, then that product is automatically selected.
 
     > [!div class="mx-imgBorder"]  
     > ![Select the product to add](media/select-products-to-add-enh.png "Select the product to add")
 
-    -   If a product has a default price list associated with it, the **Price per unit** is populated in accordance with the associated price list. Enter the quantity. By default, the quantity is set to 1.
+    -   If a product has a default price list associated with it, the **Price per unit** is populated in accordance with the associated price list. Enter the quantity. 
 
         > [!NOTE]
-        > If you want to override the default price of a product, in the **Price Overridden** column, select **Override Price**.
+        > To be able to override the default price of a product, the administrator must add the 'Price Overridden' column (field) to the grid. Once added, in the **Price Overridden** column, select **Override Price**.
 
     -   If the product doesn't have an associated price list, enter the price per unit and quantity.
 
@@ -150,6 +154,9 @@ When you select a product to add, a count is added to the **Selected** tab at th
 
 > [!div class="mx-imgBorder"]  
 > ![Review selected products](media/review-selected-products-enh.png "Review selected products")
+
+> [!NOTE]
+> You can add a new product from this tab, too. 
 
 ## Remove selected products
 
