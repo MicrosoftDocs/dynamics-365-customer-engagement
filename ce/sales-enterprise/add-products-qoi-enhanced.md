@@ -69,7 +69,7 @@ If you’ve created a quote from an opportunity, the products added to the oppor
         If you've selected a price list for the quote, the product list is filtered to show only those product records that have the same price list associated.
 
         > [!IMPORTANT]
-        > The columns that you see in the dialog box are based on the columns defined in the 'Opportunity products - Enhanced Experience' view. You system administrator can customize this view to add the columns that are most useful for your business. 
+        > The columns that you see in the dialog box are based on the columns defined in the 'Quote products Add Products' view. You system administrator can customize this view to add the columns that are most useful for your business. For order products or invoice products, the columns are defined in the 'Order products Add Products' or 'Invoice products Add Products' views respectively.
     
     -   **Recently Used**. This tab lists the last 15 products that the currently logged-in user has recently added to the quote.
     
