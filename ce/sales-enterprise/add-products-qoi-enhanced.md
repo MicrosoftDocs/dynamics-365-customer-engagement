@@ -60,7 +60,7 @@ If you’ve created a quote from an opportunity, the products added to the oppor
     The **Add Products** dialog box opens.
 
     > [!div class="mx-imgBorder"]  
-    > ![Add Product dialog box](media/add-products-qoi-dialog-box.png "Add Product dialog box")
+    > ![Add Opportunity Product pane](media/add-products-dialog-box.png "Add Opportunity Product pane")
 
     The dialog box lets you edit line item details (product details) inline and also select multiple products at once. It has four tabs:
 
