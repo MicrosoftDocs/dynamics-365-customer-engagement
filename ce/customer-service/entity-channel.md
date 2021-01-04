@@ -128,7 +128,6 @@ Let's see how to create routing rule set and rule items for entity records. In t
     | General | Entity | Case | Select the entity for which you are creating the rule set. |
     | General | Description | This routing rule set is used for routing high priority cases to agents. | Specify a description for you to identify the purpose of the routing rule set. |
 
-    > [!div class=mx-imgBorder] 
     > ![Add New Rule Item](media/case-ws-rr-entity.png "Add New Rule Item")
 
 7. Select **Save** to save the rule set. Once you save the record, you can see the **Rule Items** section in the page.
