@@ -4,7 +4,7 @@ description: "Learn about Facebook channel through Twilio agent experience in Om
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/06/2020
+ms.date: 01/04/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
