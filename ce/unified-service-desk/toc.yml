@@ -213,7 +213,7 @@
       - name: Add action calls to an event
         href: add-action-calls-event.md
       - name: Enable personal quick replies
-        href: add-personalization-tab-usd-client.md
+        href: add-personalization-tab.md
       - name: Create a user-defined event
         href: create-user-defined-event.md
     - name: Configure toolbars in your application

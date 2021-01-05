@@ -1,6 +1,6 @@
 ---
 title: "Add the personalization tab to enable personal quick replies | MicrosoftDocs"
-description: "Learn how to add the personalization tab to enable quick replies on a Unified Service Desk client in Omnichannel for Customer Service."
+description: "Learn how to add the personalization tab to enable quick replies in Omnichannel for Customer Service on Unified Service Desk."
 author: v-sailab
 ms.author: v-sailab
 manager: shujoshi
@@ -53,25 +53,25 @@ You can enable personal quick replies by adding a personalization tab to your Un
 
 7. Select **Save**.
 
-8. Select **Add Existing Action Call**, and add the following action calls in this order:
+8. Select **Add Existing Action Call**, and add the following action calls:
 
-    i. Switch to Agent Home Page
+    a. Switch to Agent Home Page
     
-    ii. OpenPersonalizationPage
+    b. OpenPersonalizationPage
     
-    iii. ToggleGlobalSearchControl
+    c. ToggleGlobalSearchControl
     
-    iv. Focus on Search Grid
+    d. Focus on Search Grid
 
     > [!div class=mx-imgBorder]
     > ![Add action calls from the lookup records](media/add-action-calls-from-lookup-records.png "Add action calls from the lookup records")
 
 9. Under **Advanced Settings** in the left pane, go to **Configurations** > **Agent Configuration** > **Hosted Controls, Events and Action Calls** tab.
 
-10. In the **Action Calls** area, go to **Add Existing Action Call**, and then add the created Action Call **OpenPersonalizationPage**.
+10. In the **Action Calls** area, go to **Add Existing Action Call**, and then add the **OpenPersonalizationPage** action call.
 
     > [!div class=mx-imgBorder]
-    > ![Add the newly created action call](media/add-newly-created-action-call.png "Add the newly created action call")
+    > ![Add the action call](media/add-action-call.png "Add the action call")
 
 
 
