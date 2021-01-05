@@ -17,7 +17,7 @@ You can enable personal quick replies by adding a personalization tab to your Un
 
 **To add the personalization tab**
 
-1. Open the **Unified Service Desk Administrator** app. In the left pane, go to **Basic Settings** > **Action Calls**.
+1. Open the **Unified Service Desk Administrator** app. Inthe left pane, go to **Basic Settings** > **Action Calls**.
 
 2. To create an action call record, select **New** and then provide the following information:
 
