@@ -55,7 +55,7 @@ The following capabilities are available in the different app experiences, depen
 | LICENSING: Digital Messaging  | ✔  | ✔ |  |  |  |
 |||||||
 
-✔: Supported for general use and availability
+✔: Supported for general use and availability.
 
 ## Available anywhere, on any device
 
