@@ -20,6 +20,37 @@ search.app:
 
 # Resource scheduling optimization version history
 
+## 3.2.2.18 
+
+- Fixed bug error where optimization request fails with “an item with the same key has already been added.” The scenario occurred when there was more than one booking with the same resource requirement. 
+- Fixed bug where version 3.0.190941 would not upgrade to version 3.2.1.96 due to plugin name issues.  
+- Fixed bug error where Schedule Assist would fail with “The remote name could not be resolved: 'website20200924t163642zzvulvehb5hdn4.azurewebsites.net'”. The scenario occurred when Schedule Assist was unable to correctly provide options for the resource name, travel time, and arrival time for a suggested booking.  
+- Fixed bug where running Reset All/ Reset Selected on a schedule associated with heavy effort optimizations would time out.  
+- Fixed bug in operation requests booking details tab where the operation reason was showing “---” for all records. 
+
+## 3.2.1.71 
+
+- RSO intelligence used to help dispatcher schedule multiple requirements in the schedule board. [Read about this update.] (https://docs.microsoft.com/en-us/dynamics365/field-service/preview-schedule-board)
+- Increased end to end overall optimization performance by 3-5%.  
+
+## 3.2.1.6 
+
+- Fixed bug scenario where installing the RSO Analytics solution would remove the RSO app module icon. 
+- Allow resources to travel outside of working hours [Read about this update.] (https://docs.microsoft.com/en-us/dynamics365/field-service/rso-travel-outside-working-hours)
+- Improved predictive travel time accuracy [Read about this update.] (https://docs.microsoft.com/en-us/dynamics365/field-service/rso-predictive-travel) 
+
+## 3.1.5.24 
+
+- Fixed bug scenario where the MoveUp button was hidden on the RSO goal objective. 
+- Made performance enhancements for Single Resource Optimization scenarios.  
+
+## 3.1.4.1 
+
+- Fixed bug scenario where the RSO package was imported regardless of minimum URS version required, resulting in an import failure. The fix ensures that the user cannot import the RSO package if the minimum URS version is not met.  
+- Fixed bug scenario where Single Resource Optimization deleted valid bookings. This scenario occurred when the user attempted to trigger SRO for a resource. The single resource optimization would then delete most of the valid and eligible bookings.  
+
+
+
 ## 3.1.3.17
 
 - Fixed bug where 'Created On' field in optimization panel of resource scheduling optimization schedule board does not respect date format of user setting. 
