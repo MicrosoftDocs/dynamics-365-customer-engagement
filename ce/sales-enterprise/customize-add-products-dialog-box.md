@@ -1,7 +1,7 @@
 ---
 title: "Preview: Customize the Add Products dialog box (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Customize the Add Products dialog box so salespeople can see important product details while adding products to opportunity, quote, order, or invoice records in Dynamics 365 Sales."
-ms.date: 01/04/2021
+ms.date: 01/08/2021
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
@@ -53,7 +53,7 @@ By default, the following columns are added to the view:
 > [!div class="mx-imgBorder"]  
 > ![Default columns in the Products grid of the Add Products dialog box](media/default-columns-add-products-dialog.png "Default columns in the Products grid of the Add Products dialog box")
 
-You can edit the **Opportunity Products - Enhanced Experience** to add or edit columns of the grid. For more information on configuring columns, see [Choose and configure columns in model-driven app views](/powerapps/maker/model-driven-apps/choose-and-configure-columns).
+You can edit the respective views to add or edit columns of the grid in the **Add Products** dialog box. For more information on configuring columns, see [Choose and configure columns in model-driven app views](/powerapps/maker/model-driven-apps/choose-and-configure-columns).
 
 ## Add or edit product attributes in the Product column
 
@@ -64,11 +64,8 @@ In the products grid of the **Add Products** dialog box, the **Products** column
 
 For opportunity products as well as the quote, order or invoice products, these details are captured from the columns (fields) that are added in the **Product Lookup View** of the **Product** table (entity). 
 
-By default, the views show data from two columns (fields): 
+By default, the views show data from two columns (fields): Product name, Product ID
 
-- For opportunity products: Product name, Product ID
-- For quote, order, or invoice products: Product name, Unit
- 
 You can customize this views to add or edit columns, as required. You can add up to three columns to these views. 
 
 For more information on configuring columns, see [Choose and configure columns in model-driven app views](/powerapps/maker/model-driven-apps/choose-and-configure-columns).

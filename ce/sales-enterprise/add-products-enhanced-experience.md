@@ -1,7 +1,7 @@
 ---
 title: "Preview: Add products to an opportunity by using the enhanced experience | MicrosoftDocs"
 description: "Use the enhanced experience to quickly find and add multiple products to opportunities in Dynamics 365 Sales."
-ms.date: 01/04/2021
+ms.date: 01/08/2021
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
@@ -156,7 +156,7 @@ When you select a product to add, a count is added to the **Selected** tab at th
 > ![Review selected products](media/review-selected-products-enh.png "Review selected products")
 
 > [!NOTE]
-> You can add a new product from this tab, too. 
+> On the **Selected** tab, you can also change the details of the selected products. 
 
 ## Remove selected products
 

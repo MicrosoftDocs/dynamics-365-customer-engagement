@@ -1,7 +1,7 @@
 ---
 title: "Preview: Add products to quotes, orders, or invoices (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Use the enhanced experience to quickly find and add multiple products that your customer is interested in purchasing to your quote, order, or invoice in Dynamics 365 Sales."
-ms.date: 01/04/2021
+ms.date: 01/08/2021
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
@@ -60,7 +60,7 @@ If you’ve created a quote from an opportunity, the products added to the oppor
     The **Add Products** dialog box opens.
 
     > [!div class="mx-imgBorder"]  
-    > ![Add Opportunity Product pane](media/add-products-dialog-box.png "Add Opportunity Product pane")
+    > ![Add Opportunity Product pane](media/add-products-qoi-dialog-box.png "Add Opportunity Product pane")
 
     The dialog box lets you edit line item details (product details) inline and also select multiple products at once. It has four tabs:
 
@@ -93,7 +93,7 @@ If you’ve created a quote from an opportunity, the products added to the oppor
 To search for a specific product from the list, on the **Products** tab, enter the keyword in the **Search** field, and then select the **Search** icon or select the Enter key. The products matching the search criteria are shown.
 
 > [!div class="mx-imgBorder"]  
-> ![Use product filters](media/search-for-products.png "Use product filters")
+> ![Use product filters](media/search-for-products-qoi.png "Use product filters")
 
 The Search capability searches for the keyword in the product names or the fields of Single Line of Text or Multiple Line of Text in the Quick Find View of the Product entity. The search is performed by using the 'Contain' search operator. This means that search results show all the products that contain the keyword in one of the supported fields.
 
@@ -113,7 +113,7 @@ The following filters are available:
 -  Views. Use this filter to see products in a specific saved view or user view. You can create a new view for the product entity.
 
 > [!div class="mx-imgBorder"]  
-> ![Use product filters](media/filter-products-enhanced.png "Use product filters")
+> ![Use product filters](media/filter-products-qoi-enhanced.png "Use product filters")
 
 
 > [!NOTE]
@@ -153,7 +153,7 @@ When you select a product to add, a count is added to the **Selected** tab at th
 > ![Review selected products](media/review-selected-products-enh.png "Review selected products")
 
 > [!NOTE]
-> You can add a new product from this tab, too. 
+> On the **Selected** tab, you can also change the details of the selected products.  
 
 ## Remove selected products
 
