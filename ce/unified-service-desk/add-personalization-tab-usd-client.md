@@ -11,9 +11,9 @@ ms.service: dynamics-365-customerservice
 
 # Enable personal quick replies
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-You can enable personal quick replies by adding a personalization tab to your Unified Service Desk configuration. After you add the personalization tab, you can view the tab depending on where it was added. More information on quick replies: [Create a record in Ominchannel for Customer Service](create-record.md) and [Create personal quick replies in Omnichannel for Customer Service in Unified Service Desk](create-personal-quick-replies-usd.md).
+You can enable personal quick replies by adding a personalization tab to your Unified Service Desk configuration. After you add the personalization tab, you can view the tab depending on where it was added. More information on quick replies: [Create a record in Ominchannel for Customer Service](oc-usd/create-record.md) and [Create personal quick replies in Omnichannel for Customer Service in Unified Service Desk](oc-usd/create-personal-quick-replies-usd.md).
 
 **To add the personalization tab**
 
@@ -34,14 +34,14 @@ You can enable personal quick replies by adding a personalization tab to your Un
 3. Select **Save**.
 
     > [!div class=mx-imgBorder]
-    > ![Create new action call record](../media/create-new-action-call-record.png "Create new action call record")
+    > ![Create new action call record](media/create-new-action-call-record.png "Create new action call record")
 
 4. In the left pane, under **Basic Settings**, go to **Toolbars** > **Omnichannel ToolbarStrip**.
 
 5. In the **Buttons** area, select the button under which you want the personalization button to appear, and then in the **Related** tab, select **Toolbar Buttons**.
 
     > [!div class=mx-imgBorder]
-    > ![Select Toolbar Buttons in the Related section](../media/select-toolbar-buttons-related-section.png "Select Toolbar Buttons in the Related section")
+    > ![Select Toolbar Buttons in the Related section](media/select-toolbar-buttons-related-section.png "Select Toolbar Buttons in the Related section")
 
 6. Select **New Toolbar Button** and create a toolbar button record with the following parameters:
 
@@ -64,14 +64,14 @@ You can enable personal quick replies by adding a personalization tab to your Un
     iv. Focus on Search Grid
 
     > [!div class=mx-imgBorder]
-    > ![Add action calls from the lookup records](../media/add-action-calls-from-lookup-records.png "Add action calls from the lookup records")
+    > ![Add action calls from the lookup records](media/add-action-calls-from-lookup-records.png "Add action calls from the lookup records")
 
 9. Under **Advanced Settings** in the left pane, go to **Configurations** > **Agent Configuration** > **Hosted Controls, Events and Action Calls** tab.
 
 10. In the **Action Calls** area, go to **Add Existing Action Call**, and then add the created Action Call **OpenPersonalizationPage**.
 
     > [!div class=mx-imgBorder]
-    > ![Add the newly created action call](../media/add-newly-created-action-call.png "Add the newly created action call")
+    > ![Add the newly created action call](media/add-newly-created-action-call.png "Add the newly created action call")
 
 
 
