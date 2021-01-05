@@ -4,7 +4,7 @@ description: "Learn how to add the personalization tab to enable quick replies o
 author: v-sailab
 ms.author: v-sailab
 manager: shujoshi
-ms.date: 12/22/2020
+ms.date: 01/05/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---

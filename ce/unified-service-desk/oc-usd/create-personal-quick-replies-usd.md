@@ -4,7 +4,7 @@ description: "Learn how to create personal quick replies or predefined messages 
 author: v-sailab
 ms.author: v-sailab
 manager: shujoshi
-ms.date: 12/22/2020
+ms.date: 01/05/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -22,14 +22,16 @@ In Unified Service Desk, you can use the personalization menu that is accessible
 
 You can create, edit, and delete the personal quick replies you own. The quick replies that you create are available on the **Personal** tab in the **Quick replies** panel of the conversation window.
 
-1. Sign in to Omnichannel for Customer Service through Unified Service Desk. On the home page, select the plus sign (**+**) on the Omnichannel toolbar.
+1. Sign in to Omnichannel for Customer Service through Unified Service Desk. 
+
+2. On the home page, select the icon on the Omnichannel toolbar under which the personalization tab was created. More information: [Add the personalization tab in Omnichannel for Customer Service](add-personalization-tab-usd-client.md).
 
    > [!div class=mx-imgBorder]
    > ![Personalization menu](../media/personalization-menu-usd.png "Personalization menu")
 
-2. Select **Personalization**.
+3. Select **Personalization**.
 
-3. On the **Personal quick replies** tab, select **New Personal quick reply**, and do the following:
+4. On the **Personal quick replies** tab, select **New Personal quick reply**, and do the following:
 
     - **Message:** Enter the text you want to use for your reply.
 
@@ -41,9 +43,9 @@ You can create, edit, and delete the personal quick replies you own. The quick r
     > [!div class=mx-imgBorder]
     > ![Create a personal quick reply](../media/create-personal-quick-reply-usd.png "Create a personal quick reply")
 
-4. In the **Tags** area, enter the keyword you want to associate with the quick reply, and then select the plus sign (**+**).
+5. In the **Tags** area, enter the keyword you want to associate with the quick reply, and then select the plus sign (**+**).
 
-5. Select **Save**.
+6. Select **Save**.
 
 It can take up to 15 minutes for the quick replies to be available for your use.
 
