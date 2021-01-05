@@ -24,7 +24,7 @@ You can create, edit, and delete the personal quick replies you own. The quick r
 
 1. Sign in to Omnichannel for Customer Service through Unified Service Desk. 
 
-2. On the home page, select the icon on the Omnichannel toolbar under which the personalization tab was created. More information: [Add the personalization tab in Omnichannel for Customer Service](add-personalization-tab-usd-client.md).
+2. On the home page, select the icon on the Omnichannel toolbar under which the personalization tab was created. More information: [Add the personalization tab in Omnichannel for Customer Service](../add-personalization-tab-usd-client.md).
 
    > [!div class=mx-imgBorder] 
    > ![Personalization menu](../media/personalization-menu-usd.png "Personalization menu")
