@@ -35,25 +35,27 @@ The following capabilities are available in the different app experiences, depen
 
 |   | [Customer Service workspace](csw-overview.md) | [Omnichannel for Customer Service](../omnichannel/introduction-omnichannel.md) | [Customer Service Hub](user-guide-customer-service-hub.md) | [Customer Service Team Member](customer-service-team-member.md) | [Customer Service app (Deprecated)](user-guide-customer-service.md) |
 |---------------------------------------------------------------------|------------|------------|------------|------------|------------|
-| Multisession          | X | X |  |  |  |
-| Conversations (with Chat or Digital Messaging Offers)  | (Preview: 09/01/2020) | X |  |  |  |
-| Channels (with Digital Messaging Offer)  | (Preview: 09/01/2020) | X |  |  |  |
-| Case Management  | X |  X  |  X  |  X  |  X  |
-| Knowledge  |  X  |  X  |  X  | Read Only | X |
-| Insights  | (Preview: 10/01/2020) | X | X |  |  |
-| Service Scheduling  |  | N/A | X |  | X |
-| Connected Service with IoT  |  |  | X  |  |  |
+| Multisession          | ✔ | ✔ |  |  |  |
+| Conversations (with Chat or Digital Messaging Offers)  | ✔ | ✔ |  |  |  |
+| Channels (with Digital Messaging Offer)  | ✔ | ✔ |  |  |  |
+| Case Management  | ✔ |  ✔  |  ✔  |  ✔  |  ✔  |
+| Knowledge  |  ✔  |  ✔  |✔| Read Only | ✔ |
+| Insights  | ✔ | ✔| ✔ |  |  |
+| Service Scheduling  |  | N/A | ✔ |  | ✔ |
+| Connected Service with IoT  |  |  | ✔  |  |  |
 | Extensibility  | Channel Integration Framework version 2.0, BYOC | Channel Integration Framework version 2.0, BYOC, Mobile SDK | Channel Integration Framework version 1.0 |  |  |
-| Unified Interface compliant  | X | X | X | X |  |
+| Unified Interface compliant  | ✔ | ✔ | ✔ | ✔ |  |
 | Basic Administration  | Customer Service Hub -> Service Management | Omnichannel Administration |  |  | Settings -> Service Management |
 | Case Routing & Queue Configuration  | Customer Service Hub -> Service Management | Omnichannel Administration |  |  | Settings -> Service Management |
 | Add & Configure Channels  | Omnichannel Administration  | Omnichannel Administration |  |  |  |
-| Control User Experience for Agent & Supervisor | App profile manager (Preview: 09/01/2020) | App profile manager (Preview: 09/01/2020) |  |  |  |
-| LICENSING: Customer Service Pro  |   |  | X |  |  |
-| LICENSING: Customer Service Enterprise  | X  | X | X  | X | N/A |
-| LICENSING: Chat  | X  | X |  |  |  |
-| LICENSING: Digital Messaging  | X  | X |  |  |  |
+| Control User Experience for Agent & Supervisor | ✔ | ✔ |  |  |  |
+| LICENSING: Customer Service Pro  |   |  | ✔ |  |  |
+| LICENSING: Customer Service Enterprise  | ✔  | ✔ | ✔  | ✔ | N/A |
+| LICENSING: Chat  | ✔  | ✔ |  |  |  |
+| LICENSING: Digital Messaging  | ✔  | ✔ |  |  |  |
 |||||||
+
+✔: Supported for general use and availability
 
 ## Available anywhere, on any device
 
