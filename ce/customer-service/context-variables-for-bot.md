@@ -67,7 +67,7 @@ Make sure that you have the following details:
             }
         }
 
-The PrimaryDisplayValue will contain the value from attribute in the Dataverse entities. The mapping for entity attributes are as follows:
+"PrimaryDisplayValue" will contain the value from the attribute in the Dataverse entities. The mapping for the entity attributes is as follows:
 
 - **Cases:** Case title
 - **Contacts:** Full name
