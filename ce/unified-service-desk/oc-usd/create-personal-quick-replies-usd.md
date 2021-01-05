@@ -20,7 +20,7 @@ In Unified Service Desk, you can use the personalization menu that is accessible
 
 ## Prerequisite
 
-Make sure that you have added a personalization tab. More information: [Add the personalization tab in Omnichannel for Customer Service](../add-personalization-tab-usd-client.md). 
+Make sure that you have added a personalization tab. More information: [Add the personalization tab in Omnichannel for Customer Service](../add-personalization-tab.md). 
 
 ## Create personal quick replies
 
