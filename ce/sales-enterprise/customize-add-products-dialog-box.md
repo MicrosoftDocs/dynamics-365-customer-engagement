@@ -21,7 +21,7 @@ searchScope:
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-A system customizer or system administrator can customize the **Add Products** dialog box to add or edit columns or to add or edit fields that show additional details of the products inline. 
+A system customizer or system administrator can customize the **Add Products** dialog box to add or edit columns or to add or edit fields that show additional details of the products in the grid. These additional details help salespeople in correctly identifying the product that they want to add.  
 
 > [!IMPORTANT]
 > - The enhanced "add product" experience is a preview feature. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
