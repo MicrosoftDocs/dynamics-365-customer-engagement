@@ -33,26 +33,26 @@ Use [!INCLUDE[pn-ms-dyn-365-for-customer-service](../includes/pn-ms-dyn-365-for-
 The following capabilities are available in the different app experiences, depending on your needs. Select the app of your choice to read more about the details of the user experience in each app: 
 
 
-|   | [Customer Service workspace](csw-overview.md) | [Omnichannel for Customer Service](../omnichannel/introduction-omnichannel.md) | [Customer Service Hub](user-guide-customer-service-hub.md) | [Customer Service Team Member](customer-service-team-member.md) | [Customer Service app (Deprecated)](user-guide-customer-service.md) |
+|  Features | [Customer Service workspace](csw-overview.md) | [Omnichannel for Customer Service](../omnichannel/introduction-omnichannel.md) | [Customer Service Hub](user-guide-customer-service-hub.md) | [Customer Service Team Member](customer-service-team-member.md) | [Customer Service app (Deprecated)](user-guide-customer-service.md) |
 |---------------------------------------------------------------------|------------|------------|------------|------------|------------|
 | Multisession          | ✔ | ✔ |  |  |  |
-| Conversations (with Chat or Digital Messaging Offers)  | ✔ | ✔ |  |  |  |
-| Channels (with Digital Messaging Offer)  | ✔ | ✔ |  |  |  |
+| Conversations (with Chat or Digital Messaging Offers)  |  | ✔ |  |  |  |
+| Channels (with Digital Messaging Offer)  |  | ✔ |  |  |  |
 | Case Management  | ✔ |  ✔  |  ✔  |  ✔  |  ✔  |
-| Knowledge  |  ✔  |  ✔  |✔| Read Only | ✔ |
-| Insights  | ✔ | ✔| ✔ |  |  |
-| Service Scheduling  |  | N/A | ✔ |  | ✔ |
+| Knowledge  |  ✔  |  ✔  |✔| Read only | ✔ |
+| Insights  |  | ✔| ✔ |  |  |
+| Service Scheduling  |  | Not applicable | ✔ |  | ✔ |
 | Connected Service with IoT  |  |  | ✔  |  |  |
 | Extensibility  | Channel Integration Framework version 2.0, BYOC | Channel Integration Framework version 2.0, BYOC, Mobile SDK | Channel Integration Framework version 1.0 |  |  |
 | Unified Interface compliant  | ✔ | ✔ | ✔ | ✔ |  |
-| Basic Administration  | Customer Service Hub -> Service Management | Omnichannel Administration |  |  | Settings -> Service Management |
-| Case Routing & Queue Configuration  | Customer Service Hub -> Service Management | Omnichannel Administration |  |  | Settings -> Service Management |
+| Basic Administration  |  | Omnichannel Administration |Customer Service Hub -> Service Management  |  | Settings -> Service Management |
+| Case Routing & Queue Configuration  |  | Omnichannel Administration |Customer Service Hub -> Service Management  |  | Settings -> Service Management |
 | Add & Configure Channels  | Omnichannel Administration  | Omnichannel Administration |  |  |  |
-| Control User Experience for Agent & Supervisor | ✔ | ✔ |  |  |  |
-| LICENSING: Customer Service Pro  |   |  | ✔ |  |  |
-| LICENSING: Customer Service Enterprise  | ✔  | ✔ | ✔  | ✔ | N/A |
-| LICENSING: Chat  | ✔  | ✔ |  |  |  |
-| LICENSING: Digital Messaging  | ✔  | ✔ |  |  |  |
+| Control User Experience for Agent & Supervisor |  |  |  |  |  |
+| Licensing: Customer Service Pro  |   |  | ✔ |  |  |
+| Licensing: Customer Service Enterprise  | ✔  | ✔ | ✔  | ✔ | N/A |
+| Licensing: Chat  | ✔  | ✔ |  |  |  |
+| Licensing: Digital Messaging  | ✔  | ✔ |  |  |  |
 |||||||
 
 ✔: Supported for general use and availability.
