@@ -1,7 +1,7 @@
 ---
 title: "API-generated calendar invites for events and sessions (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Learn how to use an API call to generate an .ics file with personalized calendar content for events and sessions."
-ms.date: 12/21/2020
+ms.date: 01/05/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -134,7 +134,9 @@ Next, add a button to the email to download the calendar invite. Title the butto
 
 #### 3. Add a QR code to match the contact with the event registration
 
-Add a QR code to the email, below the greeting. In the **Properties** tab for the QR code, choose the event that you are creating the event registration email for. You will use the if/else condition that the QR code generates to find the email recipient's registration for the event. To use the condition, complete the following steps:
+Next, you will create an #each loop to automatically find the email recipient's registration. To simplify the process, you can reuse the loop from the QR button code.
+
+To generate the code for the #each loop, add a QR code to the email below the greeting. In the **Properties** tab for the QR code, choose the event that you are creating the event registration email for. You will use the if/else condition that the QR code generates to find the email recipient's registration for the event. To use the condition, complete the following steps:
 
 - Go to the **HTML** tab in the email designer. Find locate the QR code in the HTML by searching for ``<div data-editorblocktype="ERQRCode">``.
 - Copy the HTML within the QR code ``<div>``. The HTML will look like the following, but will contain your unique event ID:
@@ -164,6 +166,8 @@ Using the HTML editor, add the API call as the href link that the button opens:
 
 ``https://{service-public-endpoint}/EvtMgmt/api/v2.0/calendar/personal/ics?api-version=2016-06-30&data=[{%22readableEventId%22:%22your-readable-event-id%22,%22data%22:{%22registrationId%22:%22{{this.msevtmgt_name}}%22,%22firstname%22:%22{{contact.firstname}}%22}}]``
 
+The API call pulls the event and contact information and personalizes the .ics file. In this example, dynamic text passes the value of the contact first name ({{contact.firstname}}) to the {{firstname}} placeholder.
+
 Make sure to enter your unique **service public endpoint** and **readable event ID**. Select **Save** *before* you exit the HTML editor.
 
 > [!div class="mx-imgBorder"]
@@ -183,7 +187,7 @@ You can finish adding any further customizations you want to the registration em
 
 The above-detailed method creates an .ics file that downloads from a web browser when the recipient selects the button. If the recipient uses Outlook, this file will create a new calendar when he or she opens the file. It will not add the event to the recipient's default calendar.
 
-You may want to provide a note in your email that alerts the recipient that he or she can add the event to the default calendar in Outlook by going to **File** > **Import/Export**, selecting the .ics file, and importing to the fault calendar.
+You may want to provide a note in your email that alerts the recipient that he or she can add the event to the default calendar in Outlook by going to **File** > **Import/Export**, selecting the .ics file, and importing to the default calendar.
 
 ## Example HTML for the API call button for an event
 
