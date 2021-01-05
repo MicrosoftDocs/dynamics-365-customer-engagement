@@ -13,7 +13,7 @@ ms.service: dynamics-365-customerservice
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-You can enable personal quick replies by adding a personalization tab to your Unified Service Desk configuration. After you add the personalization tab, you can view the tab depending on where it was added. More information on quick replies: [Create a record in Ominchannel for Customer Service](oc-usd/create-record.md) and [Create personal quick replies in Omnichannel for Customer Service in Unified Service Desk](oc-usd/create-personal-quick-replies-usd.md).
+You can enable personal quick replies by adding a personalization tab to your Unified Service Desk configuration. After you add the personalization tab, you can view the tab depending on where it was added. More information on quick replies: [Create a record in Ominichannel for Customer Service](oc-usd/create-record.md) and [Create personal quick replies in Omnichannel for Customer Service in Unified Service Desk](oc-usd/create-personal-quick-replies-usd.md).
 
 **To add the personalization tab**
 
