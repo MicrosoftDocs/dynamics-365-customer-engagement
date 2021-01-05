@@ -212,7 +212,7 @@
         href: create-action-call-uii-action.md
       - name: Add action calls to an event
         href: add-action-calls-event.md
-      - name: Enable personal quick replies
+      - name: Add personalization tab
         href: add-personalization-tab.md
       - name: Create a user-defined event
         href: create-user-defined-event.md
