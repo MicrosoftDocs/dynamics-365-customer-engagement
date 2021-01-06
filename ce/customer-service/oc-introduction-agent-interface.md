@@ -1,5 +1,5 @@
 ---
-title: "Introduction to the agent interface of Omnichannel for Customer Service app | MicrosoftDocs"
+title: "Introduction to agent interface of Omnichannel for Customer Service app | MicrosoftDocs"
 description: "Learn about agent interface of Omnichannel for Customer Service app"
 author: neeranelli
 ms.author: nenellim
