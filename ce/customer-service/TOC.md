@@ -313,19 +313,41 @@
 ## Service scheduling
 ### [Overview of Service scheduling](basics-service-service-scheduling.md)
 ### [Upcoming changes](scheduling-overview.md)
-### Administrator experience
+### Customer Service Scheduling
 #### [Manage security roles](manage-security-roles.md)
 #### [Create and manage organizational units](create-org-units-cs-scheduling.md)
 #### [Schedule business closure](set-when-business-closed-csh.md)
-### Scheduling experience
-#### [Create bookable resources](resources-service-scheduling.md)  
+#### Schedule entities
+##### [Create bookable resources](resources-service-scheduling.md)
+##### [Add facilities and equipment](add-facilities-equipment-ss-csh.md)
+##### [Create and manage resource categories](resource-categories-service-scheduling.md)
+##### [Create or edit services](create-edit-service-csh.md)
+##### [Schedule a service activity](schedule-service-activity-csh.md)
+##### [Manage fulfillment preferences](../common-scheduler/fulfillment-preferences.md)
+
+#### [Configure service activity using schedule board](use-schedule-board-configure-service-activity.md) 
+
+#### Work with settings
+##### [Create and manage organizational units](create-org-units-cs-scheduling.md)
+##### [Schedule business closure](set-when-business-closed-csh.md)
+
+### [Service Scheduling in Unified Interface](uci-scheduling-overview.md)
 #### [Create or edit a service](uci-create-edit-service.md)
 #### [Add facilities and equipment](uci-add-facilities-equipment.md)
 #### [Schedule a service activity](uci-schedule-service-activity.md)
 #### [Create resource groups](uci-create-resource-groups.md)
 #### [Use sites to manage your service locations](uci-create-sites.md)
 #### [Navigate the service calendar](uci-navigate-service-calendar.md)
-#### [Configure service activity using schedule board](use-schedule-board-configure-service-activity.md) 
+
+### [Legacy Service Scheduling](../customer-service/legacy-scheduling.md)
+#### [Set up business closure](set-when-business-closed-cs-app.md)
+#### [Set work hours to define availability](set-work-hours-resource.md)
+#### [Create or change a service](create-edit-service-cs-app.md)
+#### [Schedule a service activity](schedule-service-activity-cs-app.md)
+#### [Set up facilities/equipment](add-facilities-equipment-cs-app.md)
+#### [Create resource groups](create-edit-resource-group.md)
+#### [Manage sites](use-sites-manage-service-locations.md)
+
 ### Developer experience
 #### [Search resource availability and create bookings](universal-resource-scheduling.md)
 
