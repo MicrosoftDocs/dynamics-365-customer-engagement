@@ -4,7 +4,7 @@ description: "Learn how to create a record in Omnichannel for Customer Service a
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 12/27/2019
+ms.date: 01/06/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---

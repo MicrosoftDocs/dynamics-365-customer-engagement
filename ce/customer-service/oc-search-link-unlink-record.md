@@ -4,7 +4,7 @@ description: "Learn how to search, link, and unlink a record in Omnichannel for 
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 02/03/2020
+ms.date: 01/06/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
