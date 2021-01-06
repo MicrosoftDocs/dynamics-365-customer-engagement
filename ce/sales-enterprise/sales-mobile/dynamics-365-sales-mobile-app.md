@@ -13,12 +13,12 @@ manager: shujoshi
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
+Mobile apps help sellers build great customer relationships, stay up-to-date with important information, and respond to their customers faster. The new Microsoft Dynamics 365 Sales mobile app (preview) is optimized for core field seller scenarios to help sellers make use of the time that they spend on the road while traveling to meet customers. It helps sellers with the right data anywhere, anytime, and lets them log and share information quickly.
+
 > [!IMPORTANT]
 > - [!INCLUDE[cc_preview_features_definition](../../includes/cc-preview-features-definition.md)]  
 > - [!INCLUDE[cc_preview_features_expect_changes](../../includes/cc-preview-features-expect-changes.md)]
 > - [!INCLUDE[cc-preview-features-no-ms-support](../../includes/cc-preview-features-no-ms-support.md)]
-
-Mobile apps help sellers build great customer relationships, stay up-to-date with important information, and respond to their customers faster. The new Microsoft Dynamics 365 Sales mobile app (preview) is optimized for core field seller scenarios to help sellers make use of the time that they spend on the road while traveling to meet customers. It helps sellers with the right data anywhere, anytime, and lets them log and share information quickly.
 
 In contrast to the Dynamics 365 for phones and tablets app, which is a model-driven app that you use to open any customer engagement app like Sales Hub or Customer Service Hub on mobile, the Dynamics 365 Sales mobile app is specifically designed for core sales scenarios.
 
