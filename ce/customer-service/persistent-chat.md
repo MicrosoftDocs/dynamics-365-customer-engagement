@@ -4,7 +4,7 @@ description: "Overview of Persistent chat in Omnichannel for Customer Service."
 author: Meghanalanka
 ms.author: v-mlanka
 manager: shujoshi
-ms.date: 12/02/2020
+ms.date: 01/06/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
