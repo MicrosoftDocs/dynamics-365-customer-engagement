@@ -1,7 +1,7 @@
 ---
 title: "Security enhancements: User session and access management | MicrosoftDocs"
 ms.custom: 
-ms.date: 02/11/2020
+ms.date: 01/06/2021
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
