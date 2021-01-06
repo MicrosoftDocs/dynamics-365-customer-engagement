@@ -21,17 +21,17 @@ When no records are linked to the conversation in Omnichannel for Customer Servi
 
 ## Create a record from the Customer Summary page
 
-In the Customer Summary page and on the customer and case form, you see an option to create a new record. When you select the **New** option, a corresponding form opens in a new tab. You can fill in the details and save the record and the record is auto-linked to the conversation. 
+In the Customer Summary page and on the customer and case form, you see an option to create a record. When you select the **New** option, a corresponding form opens in a new tab. You can fill in the details and save the record and the record is auto-linked to the conversation. 
 
-To create a new record:
+To create a record:
 
 1. Select one option in the Customer or Case section based on the record you want to create. After you select the option, a form opens in an application tab panel.
     
     | Option | Section | Description |
     |---------------------|------------------------|------------------------------------------------|
-    | + New Account | Customer | Select this option to create a new account record |
-    | + New Contact | Customer | Select this option to create a new contact record |
-    | + New Case | Case | Select this option to create a new case record |
+    | New Account | Customer | Select this option to create a new account record |
+    | New Contact | Customer | Select this option to create a new contact record |
+    | New Case | Case | Select this option to create a new case record |
 
     > [!div class=mx-imgBorder]
     > ![Create account, contact, and case](media/customer-summary-create-record.PNG "Create account, contact, and case")
@@ -54,13 +54,13 @@ If you create the account or contact first and then start to create a case recor
    > [!div class=mx-imgBorder]
    > ![Case form automatically links the customer who is already linked to conversation](media/customer-summary-create-case-customer-linked.png "Case forms shows the customer")
 
-## Create a new record using the quick create option
+## Create a record using the quick create option
 
-Use the quick create (**+**) option in the nav bar to create a new record. After creating the record, you must manually search and link the record to the conversation.
+Use the quick create (**+**) option in the nav bar to create a record. After creating the record, you must manually search and link the record to the conversation.
 
-To create a new record, follow the steps:
+To create a record, follow the steps:
 
-1.  Select the **+** icon to create a new record.
+1.  Select the **+** icon to create a record.
 
 2.  Select a record type from the list. <br>
  - Case
@@ -80,13 +80,13 @@ To create a new record, follow the steps:
 
 After you save the changes, you can link the record to the conversation. To learn more, see [Search and link a record to the conversation](oc-search-link-unlink-record.md#search-for-records-by-using-the-inline-search-option) 
 
-## Create a new record using the new option
+## Create a record using the new option
 
-In the Customer Summary page, when you are trying to search a record in customer or case section, after you type few characters to search, you can use the inline **+ New** button to create a record. After you select the button, the quick create pane of the entity appears.
+In the Customer Summary page, when you are trying to search a record in customer or case section, after you type few characters to search, you can use the inline **New** button to create a record. After you select the button, the quick create pane of the entity appears.
 
 1. Type to search in the search box. The records appear as a list that matches your search criteria.
 
-2. Select **+ New** below the list of records. The Quick create pane appears.
+2. Select **New** below the list of records. The Quick create pane appears.
 
     > [!div class=mx-imgBorder]
     > ![Quick create record](media/customer-summary-search-section-create-case.png "Quick create record")

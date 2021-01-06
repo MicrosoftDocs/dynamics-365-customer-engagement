@@ -1,6 +1,6 @@
 ---
 title: "Search, link, and unlink a record in Omnichannel for Customer Service | MicrosoftDocs"
-description: "Learn on how to search, link, and unlink a record in Omnichannel for Customer Service, and link the record to a conversation."
+description: "Learn how to search, link, and unlink a record in Omnichannel for Customer Service, and link the record to a conversation."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -74,7 +74,7 @@ After you search for a record by using relevance search, you can link the record
 
 1. Select the record from the list of search results. The record opens in the application tab.
 
-2. Select **More options** (...) in the communication panel, and then select **Link to conversation**.
+2. Select **More options** in the communication panel, and then select **Link to conversation**.
 
 > [!div class=mx-imgBorder]
 > ![Select a record to link](media/oceh-oc-select-record-link.png "Select a record to link")
