@@ -1,6 +1,6 @@
 ---
 title: "Download and email chat transcripts | MicrosoftDocs"
-description: "Learn how to download or email chat transcripts"
+description: "Learn how to download and email chat transcripts"
 author: platkat
 ms.author: ktaylor
 manager: autumna
