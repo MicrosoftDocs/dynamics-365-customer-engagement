@@ -116,6 +116,7 @@ Because the conversation assignment takes place using the notification alert, th
 
 ### See also
 
-[Automatically identify customers using pre-chat responses](record-identification-rule.md)  
+[Manage users in Omnichannel for Customer Service] (users-user-profiles.md)
 [Create workstream for entity record routing](set-up-entity-workstream.md)  
 [Work with queues](queues-omnichannel.md)
+[Automatically identify customers using pre-chat responses](record-identification-rule.md)
