@@ -1,10 +1,10 @@
 ---
-title: "Add a chat widget | MicrosoftDocs"
+title: "Add chat widget | MicrosoftDocs"
 description: "Instructions to add a chat widget in Omnichannel for Customer Service."
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 10/12/2020
+ms.date: 01/06/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -13,13 +13,9 @@ ms.service: dynamics-365-customerservice
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-1. Sign in to Omnichannel Administration.
+1. Sign in to Omnichannel Administration, and go to **Channels** > **Chat**.
 
-2. Go to **Channels** > **Chat**.
-
-3. Select **New**. The **New Chat Widget** page is displayed.
-
-4. On the **General settings** tab, specify the information for the following fields.
+2. Select **New**. The **New Chat Widget** page is displayed. On the **General settings** tab, specify the information for the following fields.
 
     | Section | Field | Description | Example value |
     |---------------|------------------------|-----------------------------------|---------------------|
@@ -59,7 +55,7 @@ ms.service: dynamics-365-customerservice
     | | **Show average wait time**| Select whether to show customers average wait time in the queue when they're waiting to interact with an agent. <br> More information: [Show customers their average wait time in a queue](average-wait-time.md) | Yes |
     |||
 
-5. Select **Save**. The following sections are displayed:
+3. Select **Save**. The following sections are displayed:
     - **Code snippet:** The code snippet that you need to embed in the HTML source of your website to display the chat widget is displayed in the **Widget snippet** box.
     - **Chat Reconnect:** The toggle to configure options for providing a reconnect link to the chat user is displayed. More information: [Configure reconnection to a previous chat session](configure-reconnect-chat.md)
 
@@ -67,9 +63,9 @@ ms.service: dynamics-365-customerservice
     > [!div class=mx-imgBorder]
     > ![Configure the basic details of a chat widget](media/oc-chat-widget-basic-details-tab.png "Configure the basic details of a chat widget")
 
-6. On the **Automated messages** tab, set up automated messages for your chat widget. More information: [Configure automated messages](configure-automated-message.md)
+4. On the **Automated messages** tab, set up automated messages for your chat widget. More information: [Configure automated messages](configure-automated-message.md)
 
-7. On the **Surveys** tab, specify the information for the following fields.
+5. On the **Surveys** tab, specify the information for the following fields.
 
     | Section | Field | Description | Example value |
     |---------------|------------------------|-----------------------------------|---------------------|
@@ -80,7 +76,7 @@ ms.service: dynamics-365-customerservice
     > [!div class=mx-imgBorder]
     > ![Configure a pre-conversation survey in a chat widget](media/oc-chat-widget-survey-tab.png "Configure a pre-conversation survey in a chat widget")
 
-8. On the **Conversation options** tab, specify the information for the following fields.
+6. On the **Conversation options** tab, specify the information for the following fields.
 
     | Section | Field | Description | Example value |
     |---------------|------------------------|-----------------------------------|---------------------|
@@ -93,7 +89,7 @@ ms.service: dynamics-365-customerservice
    > [!NOTE]
    > You can select one co-browse provider and/or one screen sharing provider for each chat widget. Only co-browse and screen sharing providers that have published a solution on AppSource will appear in the drop-down lists. 
    
-9. On the **Design** tab, specify the information for the following fields. The offline settings are available only when the operating hours are set.
+7. On the **Design** tab, specify the information for the following fields. The offline settings are available only when the operating hours are set.
 
     | Section | Field | Description | Example value |
     |---------------|------------------------|-----------------------------------|---------------------|
@@ -109,7 +105,7 @@ ms.service: dynamics-365-customerservice
     | Offline | Subtitle | Optionally, specify a subtitle. | No agents are available. |
     |||||
     
-10. On the **Location** tab, do the following:
+8. On the **Location** tab, do the following:
 
     1. In the **Widget location** section, select **Add** to specify the website domain where the chat widget must be shown. The domain format should not include the protocol (for example, **http** or **https**).
     2. In the **Visitor location** section, specify whether you need to detect the visitor's location, and then select a **Geo Location Provider**. More information: [Set up location detection](geo-location-provider.md)
@@ -117,9 +113,9 @@ ms.service: dynamics-365-customerservice
     > [!NOTE]
     > If no domains are specified, the chat widget can be embedded on any website without restrictions. If you specify a domain, the chat widget can be hosted only on the specified domain.
 
-11. On the **Related** tab, view activity associated with your chat widget, such as survey responses, chat widget locations, and system messages. 
+9. On the **Related** tab, view activity associated with your chat widget, such as survey responses, chat widget locations, and system messages. 
 
-12. Select **Save** to save the configurations.
+10. Select **Save** to save the configurations.
 
 After you configure, agents can get the capabilities while they are in a conversation. To learn more, see [Call options and visual engagement in live chat](call-options-visual-engagement.md).
 

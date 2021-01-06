@@ -1,5 +1,5 @@
 ---
-title: "Configure a chat channel | MicrosoftDocs"
+title: "Configure chat channel | MicrosoftDocs"
 description: "Instructions to configure a chat channel in Omnichannel for Customer Service."
 author: lalexms
 ms.author: laalexan
