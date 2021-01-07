@@ -3,7 +3,7 @@ title: "Location auditing for the Dynamics 365 Field Service mobile app | Micros
 description: Learn how to enable and set up location auditing for the Dynamics 365 Field Service mobile app
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 11/19/2020
+ms.date: 01/07/2021
 ms.reviewer: krbjoran
 ms.topic: article
 ms.service: dynamics-365-customerservice
@@ -53,10 +53,10 @@ These settings allow a technician's location data to be sent to Dynamics 365 Fie
 
 After enabling location tracking on the scheduler's side, make sure it's enabled and working on the mobile device side.
 
-On a mobile device, sign into the Dynamics 365 Field Service mobile app. When prompted, allow the Field Service app to access your location while using the app.
+On a mobile device, sign into the Dynamics 365 Field Service mobile app. When prompted, allow the Field Service app to access your location while using the app. You may need to launch and sign into the app again to be prompted for location
 
 > [!div class="mx-imgBorder"]
-> ![Simulated device showing Field Service mobile app, with the "Allow Field Service to use your location" prompt.](./media/mobile-location-allow-location-access-fsm.png)
+> ![Simulated device showing Field Service mobile app, with the "Allow Field Service to use your location" prompt.](./media/mobile-2020-location-auditing-enable.png)
 
 ## Step 3. Verify location tracking
 
