@@ -43,7 +43,7 @@ The following capabilities are available in the different app experiences, depen
 | Insights  | ✔ | ✔| ✔ | ✖ | ✖ |
 | Service Scheduling  |  | Not applicable | ✔ |  | ✔ |
 | Connected Service with IoT  |  |  | ✔  |  |  |
-| Extensibility  | ✔ with Channel Integration Framework version 2.0, BYOC | ✔ with Channel Integration Framework version 2.0, Bring Your Own Carrier, Mobile SDK | ✔ with Channel Integration Framework version 1.0 | ✖ | ✖ |
+| Extensibility  | ✔ with Channel Integration Framework version 2.0, BYOC | ✔ with Channel Integration Framework version 2.0, Custom messaging channel, Mobile SDK | ✔ with Channel Integration Framework version 1.0 | ✖ | ✖ |
 | Unified Interface compliant  | ✔ | ✔ | ✔ | ✔ |✖  |
 | Basic Administration  |Customer Service Hub -> Service Management  | Omnichannel Administration application |Customer Service Hub -> Service Management  | ✖ | Settings -> Service Management |
 | Case Routing & Queue Configuration  | Customer Service Hub -> Service Management | Omnichannel Administration application |Customer Service Hub -> Service Management  | ✖ | Settings -> Service Management |
