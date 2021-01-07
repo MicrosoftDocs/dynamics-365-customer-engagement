@@ -65,9 +65,9 @@ Perform the following steps to create a work stream in Omnichannel for Customer 
 
       1. Select whether the **Work distribution mode** should be **Push** or **Pick** for agents to take up a conversation.
 
-      - In **Push** mode, a conversation is dispatched to agents automatically using a message alert. You can configure a push conversation to be explicitly picked up.
+         - In **Push** mode, a conversation is dispatched to agents automatically using a message alert. You can configure a push conversation to be explicitly picked up.
 
-      - In **Pick** mode, a conversation is dispatched to agents when they explicitly pick a conversation from the **Open work items** in the agent dashboard.
+         - In **Pick** mode, a conversation is dispatched to agents when they explicitly pick a conversation from the **Open work items** in the agent dashboard.
 
       2. In **Allowed Presences**, select a base presence, such as "Available" and "Busy" from the list. You can select all options also. Agents will be allocated work items if the agent presence is set to one of the statuses specified here. If you have enabled [missed notifications](manage-missed-notifications.md), do not select "Away" as an allowed presence. For information, see [Configure and manage custom presence](presence-custom-presence.md).
 
@@ -105,12 +105,11 @@ To learn more about how to set up channels and associate work streams, see the f
 
 ### Agent affinity
 
-When a conversation becomes active from the waiting status, it might not be assigned to the same agent who had previously handled it. Set the agent affinity option to reassign the conversation to the agent who worked on it earlier and set the context of the issue details without the need for orientation. The agent affinity works as follows:
+When a conversation becomes active from the waiting status, it might not be assigned to the same agent who had previously handled it. You can set the agent affinity option to reassign the conversation to the agent who worked on it earlier that helps provide the context of the issue details without the need for orientation. The agent affinity works as follows:
 
 - Is enabled by default for SMS and social channels.
 - Is available only for push type of work distribution.
-- Reassigns conversations to the same agent, irrespective of agent's capacity.
-- Reassigns conversations to the same agent, irrespective of agent presence.
+- Reassigns conversations to the same agent, irrespective of the agent's capacity and presence.
 
 Because the conversation assignment takes place using the notification alert, the agent has the option to reject the assignment.
 
