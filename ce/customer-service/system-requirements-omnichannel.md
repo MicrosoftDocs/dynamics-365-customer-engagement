@@ -25,9 +25,9 @@ You can deploy Omnichannel for Customer Service over a Customer Service applicat
 
 This section lists the prerequisites for using Omnichannel for Customer Service.
 
-### Availability
+### International availability
 
-To find out if Omnichannel for Customer Service is available in your region, see [International availability](international-availability.md).
+Make sure that Omnichannel for Customer Service is available in your region. For more information, see [International availability](international-availability.md).
 
 ### Licensing
 
@@ -35,7 +35,9 @@ To find out if Omnichannel for Customer Service is available in your region, see
 - You must have an active subscription to the Dynamics 365 Customer Service Digital Messaging add-on for each Digital Messaging user or Chat for Dynamics 365 Customer Service for each Chat user.
 - Use of historical Supervisor reporting through **Omnichannel Intraday Insights**, **Omnichannel Chat Insights**, and **Omnichannel Sentiment Insights Dashboards** also requires Power BI Pro license or higher for each individual in a Supervisor role.
 
-## System and hardware requirements of Omnichannel for Customer Service with web experience
+## System requirements of Omnichannel for Customer Service
+
+The system requirements to use Omnichannel for Customer Service are as follows.
 
 | Area | Requirements |
 |----------|----------|
@@ -54,15 +56,11 @@ To upgrade Omnichannel, see [Upgrade Omnichannel for Customer Service](upgrade-o
 >
 > - Omnichannel for Customer Service is not supported with Dynamics 365 Customer Engagement (on-premises).
 > - Omnichannel for Customer Service is supported only on desktops, and not on phones and tablets.
-> - Omnichannel for Customer Service for other regions will be available in the future.
 
-## Allow access to websites or URLs
+## Allow access to websites
 
-If your organization is using a URL filter to block a category of websites or URLs, you might have to allow a specific website as an exception.
+If your organization is using a URL filter to block a category of websites, you need to allow specific websites as an exception for your users to access the Omnichannel for Customer Service app and live chat widget in the business portal:
 
-Add the following URLs for your users to access the Omnichannel for Customer Service app and live chat widget in the portal:
-
--
 - `https://login.microsoft.net`
 - `https://login.microsoftonline.com`
 - `https://login.windows.net`
@@ -102,9 +100,11 @@ Customers must be able to access the following URLs from their browsers to use t
 - `https://*.asm.skype.com`
 - `https://*.ng.msg.teams.microsoft.com/*`
 
-### Geo-specific URLs
+### Geo-specific links
 
-| Geographic location | URL |
+Geographic specific links that should be accessible are as follows.
+
+| Geographic location | Links |
 |-------------------------------|----------------------------------|
 | North America | `oc-cdn-ocprod.azureedge.net/*`|
 | Europe | `oc-cdn-public-eur.azureedge.net/*`|
@@ -119,6 +119,8 @@ Customers must be able to access the following URLs from their browsers to use t
 | France | `oc-cdn-public-fra.azureedge.net/*`|
 
 ### Government Community Cloud (GCC)
+
+Government community cloud links that should be accessible are as follows.
 
 - `https://ocprodocprodnamgs.blob.core.usgovcloudapi.net`
 - `https://*.omnichannelengagementhub.us/*`
