@@ -86,7 +86,7 @@ One of the reasons for the failure of entity record migration is a dependency be
 
 For example, 
 
-Kenny Smith, a customer, has scheduled a service activity with Contoso Bike Center. To do this service activity, the **Bike technicians** resource group and **Bike overhaul** service  are required. 
+Henry Ross, a customer, has scheduled a service activity with Contoso Bike Center. To do this service activity, the **Bike technicians** resource group and **Bike overhaul** service  are required. 
 
 See the matrix for the dependency.
 

@@ -48,9 +48,9 @@ This topic explains the considerations and best practices that you need to be aw
 
     | Migration End date | Activity scheduled date | Activity end date | Entity record migration | Reason |
     |----------|----------|----------|---------|------------------------------------|
-    | **07/22/2019** | **07/23/2019** | **07/23/2019**| No | The service activity won’t be migrated as the scheduled date is beyond the end date. |
-    | **07/22/2019** | **07/22/2019** at **2300** hours | **07/23/2019** at **0500** hours | No | The service activity won’t be migrated as the scheduled activity ends at a date later than the specified migration end date. |
-    | **07/22/2019** | **07/22/2019** at **2359** hours | **07/22/2019** at **0500** hours | Yes | The service activity will be migrated as the activity ends before the specified migration end date. |
+    | 07/22/2019 | 07/23/2019 | 07/23/2019| No | The service activity won’t be migrated as the scheduled date is beyond the end date. |
+    | 07/22/2019 | 07/22/2019 at 2300 hours | 07/23/2019 at 0500 hours | No | The service activity won’t be migrated as the scheduled activity ends at a date later than the specified migration end date. |
+    | 07/22/2019 | 07/22/2019 at 2359 hours | 07/22/2019 at 0500 hours | Yes | The service activity will be migrated as the activity ends before the specified migration end date. |
 
 - **Recommendation:** For best migration experience, it is recommended not to use Service Scheduling until the migration is completed.
 
