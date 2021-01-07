@@ -19,11 +19,9 @@ ms.service: "dynamics-365-customerservice"
 
 Supervisors have a dual responsibility with respect to agents and customers. They monitor and manage agents and make sure they remain highly productive. At the same time, they help provide a superior experience for customers. To help supervisors carry out this dual responsibility, the insights consist of intraday health tracking of agent productivity and performance.
 
-You can use intraday insights in the following ways: 
+Intraday insights can only be customized if you use Power BI or Power BI Premium licenses for supervisors and administrators. Insights can't be customized in a pre-configured Power BI workspace that doesn't have a Power BI license.
 
-- As a preconfigured Power BI workspace that doesn't require a Power BI license; intraday insights can’t be customized. **Note**: The preconfigured Power BI workspace version of intraday insights is only available for organizations that are provisioned in a public cloud and isn't available in Unified Service Desk (USD). 
-
-- Using a Power BI Pro or Power BI Premium license for supervisors and administrators; intraday insights can be customized. 
+ **Note**: The pre-configured Power BI workspace version of intraday insights is only available for organizations that are provisioned in a public cloud and isn't available in Unified Service Desk. 
 
 As an administrator, you must configure intraday insights before supervisors can use it. To configure intraday insights for your organization, follow the scenario that is applicable for your environment: 
 
@@ -34,6 +32,7 @@ As an administrator, you must configure intraday insights before supervisors can
 | Existing organization with customized reports wanting to switch to preconfigured Power BI workspace version | No | Convert your reports to a non-customized version of intraday insights by following the steps in [Intraday insights in a preconfigured Power BI workspace](#intraday-insights-in-a-preconfigured-power-bi-workspace). |
 | Existing or new organization with need for customized intraday insights | Yes | Follow the steps in [Configure customized intraday insights reports](#configure-customized-intraday-insights-reports). | 
 
+Note: While creating workspaces for Analytics Power BI, ensure to configure separate workspaces for the test and production environments. 
 
 ## Intraday insights in a preconfigured Power BI workspace
 
