@@ -43,13 +43,13 @@ The following capabilities are available in the different app experiences, depen
 | Insights  | ✔ | ✔| ✔ | ✖ | ✖ |
 | Service Scheduling  |  | Not applicable | ✔ |  | ✔ |
 | Connected Service with IoT  |  |  | ✔  |  |  |
-| Extensibility  | Channel Integration Framework version 2.0, BYOC | Channel Integration Framework version 2.0, BYOC, Mobile SDK | Channel Integration Framework version 1.0 |  |  |
-| Unified Interface compliant  | ✔ | ✔ | ✔ | ✔ |  |
-| Basic Administration  |Customer Service Hub -> Service Management  | Omnichannel Administration application |Customer Service Hub -> Service Management  |  | Settings -> Service Management |
-| Case Routing & Queue Configuration  | Customer Service Hub -> Service Management | Omnichannel Administration application |Customer Service Hub -> Service Management  |  | Settings -> Service Management |
-| Add & Configure Channels  | Omnichannel Administration  | Omnichannel Administration |  |  |  |
-| Control User Experience for Agent & Supervisor | In app profile manager | In app profile manager |  |  |  |
-| Licensing: Customer Service Pro  | ✖  |✖  | ✔ | ✖ |  ✖|
+| Extensibility  | ✔ with Channel Integration Framework version 2.0, BYOC | ✔ with Channel Integration Framework version 2.0, Bring Your Own Carrier, Mobile SDK | ✔ with Channel Integration Framework version 1.0 | ✖ | ✖ |
+| Unified Interface compliant  | ✔ | ✔ | ✔ | ✔ |✖  |
+| Basic Administration  |Customer Service Hub -> Service Management  | Omnichannel Administration application |Customer Service Hub -> Service Management  | ✖ | Settings -> Service Management |
+| Case Routing & Queue Configuration  | Customer Service Hub -> Service Management | Omnichannel Administration application |Customer Service Hub -> Service Management  | ✖ | Settings -> Service Management |
+| Add & Configure Channels  | Omnichannel Administration  | Omnichannel Administration | ✖ | ✖ | ✖ |
+| Control User Experience for Agent & Supervisor | In app profile manager | In app profile manager | ✖ |  ✖| ✖ |
+| Licensing: Customer Service Professional  | ✖  |✖  | ✔ | ✖ |  ✖|
 | Licensing: Customer Service Enterprise  | ✔  | ✔ | ✔  | ✔ | Not applicable |
 | Licensing: Chat  | ✔  | ✔ | ✖ | ✖ |✖  |
 | Licensing: Digital Messaging  | ✔  | ✔ | ✖ | ✖ |✖  |
