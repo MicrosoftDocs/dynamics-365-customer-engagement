@@ -53,14 +53,14 @@ These settings allow a technician's location data to be sent to Dynamics 365 Fie
 
 After enabling location tracking on the scheduler's side, make sure it's enabled and working on the mobile device side.
 
-On a mobile device, sign into the Dynamics 365 Field Service mobile app. When prompted, allow the Field Service app to access your location while using the app. You may need to launch and sign into the app again to be prompted for location
+On a mobile device, sign into the Dynamics 365 Field Service mobile app. When prompted, allow the Field Service app to access your location while using the app. You may need to launch and sign into the app again to be prompted for location. Ensure Location is toggled to Yes in Settings in the mobile app.
 
 > [!div class="mx-imgBorder"]
 > ![Simulated device showing Field Service mobile app, with the "Allow Field Service to use your location" prompt.](./media/mobile-2020-location-auditing-enable.png)
 
 ## Step 3. Verify location tracking
 
-Back in Dynamics 365 Field Service, the bookable resource's current location appears on the schedule board map. Select the map pin icon next to the bookable resource's name, and the map will display the location with a different icon.
+Back in Dynamics 365 Field Service, the bookable resource's current location appears on the schedule board map. Select the map pin icon next to the bookable resource's name, and the map will display the location with a Truck icon instead of a pin icon.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of current location on schedule board map](./media/mobile-geofence-map-location.png)
@@ -79,3 +79,8 @@ Here you see a list of locations throughout the day, listed by user.
 
 > [!Note]
 > If you want to correlate technician location with other Field Service entity updates, such as booking resource bookings, see this [auditing overview](https://docs.microsoft.com/power-platform/admin/audit-data-user-activity) to find instructions.  
+
+
+### See also
+
+[Geofencing](mobile-powerapp-geofence.md)
