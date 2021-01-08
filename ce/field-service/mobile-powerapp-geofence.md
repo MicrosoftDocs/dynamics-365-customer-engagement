@@ -21,57 +21,35 @@ search.app:
 
 # Geofencing for the Field Service mobile app
 
-
-## Prerequisites
-
-- **Field Service v8.3+**. Geofence solutions are included as part of the Field Service v8.3 upgrade.
-
-- [Connect to Bing Maps](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-1-resource-scheduling) in order to connect your Dynamics 365 environment to Bing Maps in order to locate service accounts and work orders to later place geofences around them.
-   
-- [Set auto geo code addresses to **yes**](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-2-field-service-settings) in order to automatically geo code accounts and work orders when addresses are entered. Geo coding an account or work order record populates latitude and longitude values, which are required to place geofences around them.
-
-- Location auditing
-- this applies to the Field Service mobile app, 
-- Geofecing is also available for the Field Service Mobile (Xamarin) see more details in this article 
-> [!Note]
->
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
-
-For a guided walkthrough, check out the following video.
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4GEjn]
-
-See the video on![Video symbol](../field-service/media/video-icon.png "Video symbol") [Field Service (Dynamics 365) mobile app: Offline JavaScript](https://youtu.be/tUdL5YZA29A) for more details.
-
-
-# Geofencing for Field Service Mobile (Xamarin)
-
 A geofence is a virtual perimeter around a specific location. Geofencing allows users to draw zones around places of work, customer sites, and secure areas. You can configure the system to trigger various actions when geofences are crossed by a person or an equipped vehicle.
 
-In Dynamics 365 Field Service, the default use case for geofencing is to create a circular geofence around a work order's location and compare this to the changing location of field technicians as measured by their mobile devices running the Field Service Mobile app. When a work order geofence is crossed or "broken" by a field technician, a **geofence event** record is created and the geofence status is changed from **outside** to **inside**, indicating the field technician is inside the geofence. Another geofence event is created as the field technician leaves the geofenced area. Based on entering or leaving a geofenced area, a mobile push notification or custom workflow can be triggered.
+In Dynamics 365 Field Service, the default use case for geofencing is to create a circular geofence around a work order's location and compare this to the changing location of field technicians as measured by their mobile devices running the Field Service mobile app. When a work order geofence is crossed or "broken" by a field technician, a **geofence event** record is created and the geofence status is changed from **outside** to **inside**, indicating the field technician is inside the geofence. Another geofence event is created as the field technician leaves the geofenced area. Based on entering or leaving a geofenced area, a mobile push notification or custom workflow can be triggered.
 
 In this article, we will look at how to configure and use geofences by exploring:
 
 - setting distance radius
-- enabling and testing field technician location tracking 
 - booking a work order to automatically create a geofence around it 
-- testing crossing the geofence, and triggering push notifications as field technicians enter and leave geofenced areas 
+- testing geofence events, as field technicians enter and leave geofenced areas 
 
 
 ## Prerequisites
 
-- **Field Service v8.3+**. Geofence solutions are included as part of the Field Service v8.3 upgrade. In order to use mobile push notifications with geofencing, ensure the [Mobile Configuration Tool (Woodford solution)](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/install-field-service#install-the-field-service-mobile-configuration-tool) is installed in your environment before upgrading to v8.3.
-
-- **Field Service Mobile v11.2+**
+- **Field Service v8.8.32+**. 
 
 - [Connect to Bing Maps](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-1-resource-scheduling) in order to connect your Dynamics 365 environment to Bing Maps in order to locate service accounts and work orders to later place geofences around them.
    
 - [Set auto geo code addresses to **yes**](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-2-field-service-settings) in order to automatically geo code accounts and work orders when addresses are entered. Geo coding an account or work order record populates latitude and longitude values, which are required to place geofences around them.
 
+- [Enable location tracking, sharing, and auditing](mobile-powerapp-location-auditing.md) and test location tracking to ensure the technicians 
 
-## Step 1. Verify geofence solutions are installed
+- This article applies to geofencing for the [Field Service mobile app built on the Power Platform](mobile-power-app-overview.md). 
+
+
+## Step 1. Enable and test location tracking, sharing, and auditing
+
+First [enable location tracking, sharing, and auditing](mobile-powerapp-location-auditing.md) and verify each technician's location is being tracked in Field Service. You will know location tracking is working if the technician's location is appearing on the schedule board map and in the Geolocation Tracking entity.
+
+## Step 2. Verify geofence solutions are installed
 
 Go to **Settings > Solutions** and make sure the three following geofence solutions are there:
 
@@ -181,25 +159,25 @@ The **Geotracked Record Status** is set to **Outside**, meaning the bookable res
 > ![Screenshot of geofence details](./media/mobile-geofence-created-record.png)
 
 
-geofence-created
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
 
-geofence-exited
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+> ![Screenshot of ](./media/geofence-created.png)
 
-geofence-entered
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
 
-geofence-settings
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+> ![Screenshot of ](./media/geofence-exited.png)
 
-geofence-configuration
+
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+> ![Screenshot of ](./media/geofence-entered.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/geofence-settings.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/geofence-configuration.png)
 
 ## Step 9. Test a geofence event
 
@@ -262,3 +240,8 @@ Next, go to **Settings > Processes** and activate the following processes:
 
 ## Configuration considerations
 ## Additional Notes
+
+
+### See also
+
+- [Geofencing for Field Service Mobile (Xamarin) app](field-service-mobile-overview.md)
