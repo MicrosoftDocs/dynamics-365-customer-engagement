@@ -48,26 +48,22 @@ First, we need to make sure location tracking is enabled in Field Service. These
 In Field Service, go to **Geolocation Settings**.
 
 1. Set **Enable Location Tracking**  to **Yes**.
-2. Enter a Refresh Interval (seconds)
+2. Enter a **Refresh Interval (seconds)** - indicates how frequently the system checks the user’s location, however it doesn’t indicate that “Geolocation Tracking” records will be created. 60 to 300 seconds is recommended based on your business needs.
 3. Configure tracking times to meet your business needs. In the screenshot example, we have it configured so that tracking happens 24 hours a day, every day.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service, showing the geolocation settings.](./media/mobile-location-geolocation-settings.png)
 
-
-On the Geolocation Settings we configure two values:
-1.	The Refresh Interval
-2.	The tracking time Start and End
-The Refresh Interval will indicate how frequent the system checks the user’s location, however it doesn’t indicate that “Geolocation Tracking” records will be created.
-
+### Location tracking events
 
 The Geolocation Tracking records will be created in the following scenarios:
-1.	When a user logs-in to the Field Service Power Apps App, few records are created as it figures out where the user is, and then it stops as the user hasn’t moved.
-2.	If the user moves away from his location more than 800 meters, it will create tracking records every 60 seconds until he stops moving.
-3.	When the user comes in a still position after moving, it will create a few more tracking records as it settles and then it stops.
-4.	It won’t create records till the location is changed again
-All of this is withing the track start and End time, and the frequency of checking the location is per the “Refresh Interval”.
 
+1.	**On log in** - When a user logs-in to the Field Service Power Apps App, few records are created as it figures out where the user is, and then it stops as the user hasn’t moved.
+2.	**On move** - If the user moves away from his location more than 800 meters, it will create tracking records every 60 seconds until he stops moving.
+3.	**On stop after moving** - When the user comes in a still position after moving, it will create a few more tracking records as it settles and then it stops.
+4.	It won’t create records till the location is changed again
+
+The above events only apply within the tracking start and end times and the location checking frequency is per the “Refresh Interval”.
 
 
 
@@ -87,7 +83,7 @@ Back in Dynamics 365 Field Service, the bookable resource's current location app
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-location-auditing-schedule-board.png)
 
-## Step 4. Location audit
+## Step 4. Location audit records
 
 By using the **Geolocation Tracking** entity and advanced find in Field Service, you can query to run audits on technician locations.
 
