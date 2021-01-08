@@ -74,12 +74,23 @@ Go to **Settings > Processes** and **Activate** the following processes. These p
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-geofence-processes.png)
 
-If you have **Enhanced Background Processing** set to _Yes_ in [Field Service Settings](https://docs.microsoft.com/dynamics365/field-service/configure-default-settings#other-settings)
+If you have **Enhanced Background Processing** set to _Yes_ in [Field Service Settings](https://docs.microsoft.com/dynamics365/field-service/configure-default-settings#other-settings), enable the Geofence Power Automate flows.
+
+1. Go to https://make.powerapps.com/ and select your environment.
+2. Go to **Solutions** > **Geofencing for Field Service**.
+3. Enable the following flows:
+   - **Flow – DeleteGeofenceWhenBookingIsCompletedOrClosed**
+   - **Flow – GenerateGeofenceWhenBookingIsCreated**
+   - **Flow – UpdateGeofenceInstanceCoordinates**
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-geofence-flows.png)
 
+> [!Note]
+> If you choose to use enhanced background process Power Automate flows instead of Processes, you do not need to deactivate the processes.
 
-## Step 5. Test location auditing
+
+## Step 4. Test location auditing
 
 Back in Dynamics 365, go to the mobile audit table (**Settings > Mobile Auditing > Mobile Auditing Records**) to confirm the synchronization event, along with the user and the **latitude** and **longitude** values of the event are recorded.
 
@@ -90,11 +101,7 @@ Additionally, the bookable resource's current location will appear on the schedu
 > ![Screenshot of current location on schedule board map](./media/mobile-geofence-map-location.png)
 
 
-> [!Note]
-> Dispatchers can use current locations for schedule assistant travel time calculations by selecting **Real time mode** in the schedule assistant filter pane. 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of real time mode schedule assistant setting](./media/mobile-geofence-real-time-location-filter.png)
 
 ## Step 6. Configure geofencing settings
 

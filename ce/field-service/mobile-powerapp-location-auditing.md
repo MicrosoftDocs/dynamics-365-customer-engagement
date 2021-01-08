@@ -80,6 +80,13 @@ Here you see a list of locations throughout the day, listed by user.
 > [!Note]
 > If you want to correlate technician location with other Field Service entity updates, such as booking resource bookings, see this [auditing overview](https://docs.microsoft.com/power-platform/admin/audit-data-user-activity) to find instructions.  
 
+## Additional notes
+
+> [!Note]
+> Dispatchers can use current locations for schedule assistant travel time calculations by selecting **Real time mode** in the schedule assistant filter pane. See more details in the topic on [Advanced filters for the schedule assistant](schedule-assistant-advanced-filters.md).
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of real time mode schedule assistant setting](./media/mobile-geofence-real-time-location-filter.png)
 
 ### See also
 
