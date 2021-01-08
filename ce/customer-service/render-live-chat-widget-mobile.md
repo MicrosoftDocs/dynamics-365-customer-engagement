@@ -1,6 +1,6 @@
 ---
-title: "Render a live chat widget on the mobile app| Microsoft Docs"
-description: "Render a live chat widget on your mobile app using a code snippet or SDK"
+title: "Render live chat widget on the mobile app| Microsoft Docs"
+description: "Learn to render a live chat widget on your mobile app using a code snippet or SDK."
 author: ramana-hyd
 ms.author: v-rmurthy
 manager: shujoshi
@@ -58,7 +58,7 @@ chatWebView.evaluateJavascript("window.addEventListener(\"lcw:ready\", function 
     });", null)
 ```
 
-You use the `data-render-mobile` attribute to optimize the rendering of the live chat widget on mobile. For example, it hides the header of the chat widget. Along with the header, the **Close** (X) button also goes away. To close the chat, you have to create an "end chat" button in the mobile app and call the [closeChat](developer/reference/methods/closeChat.md) method on the click event. 
+You use the `data-render-mobile` attribute to optimize the rendering of the live chat widget on mobile. For example, it hides the header of the chat widget. Along with the header, the **Close** button also goes away. To close the chat, you have to create an "end chat" button in the mobile app and call the [closeChat](developer/reference/methods/closeChat.md) method on the click event. 
 
 ```javascript
 chatWebView.evaluateJavascript(

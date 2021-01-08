@@ -1,6 +1,6 @@
 ---
-title: "Add a web resource for real-time translation| Microsoft Docs"
-description: "Read how you can add a web resource for real-time translation"
+title: "Add web resource for real-time translation| Microsoft Docs"
+description: "Learn how you can add a web resource for real-time translation."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
