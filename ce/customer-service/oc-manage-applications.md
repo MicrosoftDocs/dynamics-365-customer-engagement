@@ -1,6 +1,6 @@
 ---
 title: "Manage applications in Omnichannel for Customer Service app | MicrosoftDocs"
-description: "Learn how to manage applications using the application tab panel in Omnichannel for Customer Service app"
+description: "Learn how to manage applications using the application tab panel in Omnichannel for Customer Service app."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -44,7 +44,7 @@ Every session has an application tab that is called the Anchor tab. A session ca
 
 When you switch sessions or between applications in the current session, your unsaved changes are not lost and you can continue to work on them.
 
-For example, you are working on a case by entering the title of the case. Before saving the form, you open an account record in a new application tab. Now, the application focus changes to the account record. However, the unsaved changes are preserved for you to continue working on the form.
+For example, you are working on a case by entering the title of the case. Before saving the form, you can open an account record in a new application tab. Now, the application focus changes to the account record. However, the unsaved changes are preserved for you to continue working on the form.
 
 You can close an application tab manually by selecting the close icon on the application tab. After closing the application tab, the focus moves to the next available application tab on the left.
 

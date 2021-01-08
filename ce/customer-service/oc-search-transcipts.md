@@ -15,7 +15,7 @@ ms.service: dynamics-365-customerservice
 
 ## Overview
 
-As an agent, you communicate with customers to resolve issues. All those conversations are stored as transcripts in Omnichannel for Customer Service app. When you want to find any details from the transcript, you can search for them.
+As an agent, you can communicate with customers to resolve issues. All those conversations are stored as transcripts in Omnichannel for Customer Service app. When you want to find any details from the transcripts, you can search for them.
 
 ## Search details in transcripts
 

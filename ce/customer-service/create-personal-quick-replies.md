@@ -1,10 +1,10 @@
 ---
-title: Create personal quick replies in Omnichannel for Customer Service | MicrosoftDocs
-description: Create personal quick replies in Omnichannel for Customer Service
+title: "Create personal quick replies in Omnichannel for Customer Service | MicrosoftDocs"
+description: "Learn to create personal quick replies in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/12/2020
+ms.date: 01/08/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 search.audienceType: 
@@ -34,8 +34,8 @@ You can create, edit, and delete the personal quick replies you own. The quick r
 2. Select **Personalization**.
 
 3. On the **Personal quick replies** tab, select **New Personal quick reply**, and do the following:
-    - **Message:** Enter the text you want to use for your reply.
-    - **Locale:** Select the language in which you want to create the quick reply.
+    - **Message** Enter the text you want to use for your reply.
+    - **Locale** Select the language in which you want to create the quick reply.
 
         > [!NOTE]
         > Personal quick replies aren't localized in Omnichannel for Customer Service. To provide quick responses in multiple languages, create a separate quick response record for each language and select its corresponding locale.
