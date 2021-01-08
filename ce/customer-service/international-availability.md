@@ -22,9 +22,6 @@ The purpose of this document is to provide information about availability of Omn
 
 Your Dynamics 365 tenant must be co-located in one of the following geographic locations where Omnichannel for Customer Service is available. These geographic locations refer to your Dynamics 365 tenant only and not the data center where your Dynamics 365 environment or org instance resides.
 
-> [!NOTE]
-> Omnichannel for Customer Service is unavailable in China.
-
 ### October 2020 update
 
 Omnichannel for Customer Service October 2020 update is available in the following regions:
