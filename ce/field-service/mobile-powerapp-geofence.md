@@ -49,6 +49,9 @@ In this article, we will look at how to configure and use geofences by exploring
 
 First [enable location tracking, sharing, and auditing](mobile-powerapp-location-auditing.md) and verify each technician's location is being tracked in Field Service. You will know location tracking is working if the technician's location is appearing on the schedule board map and in location records in the Geolocation Tracking entity.
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-location-auditing-schedule-board.png)
+
 ## Step 2. Verify geofence solutions are installed
 
 Go to **Settings > Solutions** and make sure the three following geofence solutions are there:
@@ -97,8 +100,7 @@ Back in Dynamics 365, go to the mobile audit table (**Settings > Mobile Auditing
 
 Additionally, the bookable resource's current location will appear on the schedule board map. Select the map pin icon next to the bookable resource's name and the map will display the location with a different icon. 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of current location on schedule board map](./media/mobile-geofence-map-location.png)
+
 
 
 
