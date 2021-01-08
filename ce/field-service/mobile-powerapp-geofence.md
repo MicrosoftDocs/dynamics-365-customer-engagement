@@ -54,7 +54,7 @@ First [enable location tracking, sharing, and auditing](mobile-powerapp-location
 
 ## Step 2. Verify geofence solutions are installed
 
-Go to **Settings > Solutions** and make sure the three following geofence solutions are there:
+Go to **Settings > Solutions** and make sure the following geofence solutions are there:
 
 - **Geofence Alerts**
 - **Geofence Management**
@@ -90,38 +90,31 @@ If you have **Enhanced Background Processing** set to _Yes_ in [Field Service Se
 > ![Screenshot of ](./media/mobile-2020-geofence-flows.png)
 
 > [!Note]
-> If you choose to use enhanced background process Power Automate flows instead of Processes, you do not need to deactivate the processes.
-
-
-## Step 4. Test location auditing
-
-Back in Dynamics 365, go to the mobile audit table (**Settings > Mobile Auditing > Mobile Auditing Records**) to confirm the synchronization event, along with the user and the **latitude** and **longitude** values of the event are recorded.
-
-
-Additionally, the bookable resource's current location will appear on the schedule board map. Select the map pin icon next to the bookable resource's name and the map will display the location with a different icon. 
+> If you choose to use enhanced background process Power Automate flows instead of Processes, you do not need to deactivate the Processes.
 
 
 
-
-
-
-## Step 6. Configure geofencing settings
+## Step 4. Configure geofencing settings
 
 Go to **Field Service > Settings > Geofencing Settings**.
 
+
 Enter a **unit of measure** and **minimum radius**. As demonstrated in the following screenshot, the smallest geofence we can create is a circle around a service account, with a radius of 25.59 feet.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of geofencing settings](./media/mobile-geofence-minimum-radius.png)
 
-## Step 7. Configure geofence entities
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/geofence-settings.png)
+
+## Step 5. Configure geofence entities
 
 Go to **Field Service > Settings > Entity Configurations**.
 
 Then select the account configuration, included by default with the geofence solutions.
 
+
 > [!div class="mx-imgBorder"]
-> ![Screenshot of entity configurations](./media/mobile-geofence-entities.png)
+> ![Screenshot of ](./media/geofence-configuration.png)
+
 
 Enter the following information:
 
@@ -147,53 +140,39 @@ Next, go to the bookable resource configuration and enter the following:
 > [!div class="mx-imgBorder"]
 > ![Screenshot of bookable resource geofence configurations](./media/mobile-geofence-bookable-resource.png)
 
-## Step 8. Book a work order 
+## Step 6. Book a work order 
 
 Next, book a work order using your preferred method. In this example, a work order is manually dragged and dropped to a field technician bookable resource. As a reminder, this resource has been designated as a **User** type, and has access to the Field Service Mobile app. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of scheduling a work order from the schedule board](./media/mobile-geofence-book.png)
+> ![Screenshot of ](./media/mobile-2020-location-auditing-schedule-board.png)
 
 Booking a work order will trigger an asynchronous workflow that creates a geofence as long as the appropriate process was activated in earlier steps.
 
 Go to **Field Service > Settings > Geofences** to view the newly created geofence.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a geofence automatically created](./media/mobile-geofence-created.png)
+> ![Screenshot of ](./media/geofence-created.png)
 
 The **Geotracked Record Status** is set to **Outside**, meaning the bookable resource is outside of the geofence area.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of geofence details](./media/mobile-geofence-created-record.png)
 
+## Step 7. Test a geofence event
 
+Finally, we can test "breaking" a geofence, meaning a bookable resource travels inside the geofenced area.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/geofence-created.png)
-
+Before traveling to the work order location, the technician is outside the geofence and an "exit" geofence event is created.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/geofence-exited.png)
 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/geofence-entered.png)
 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/geofence-settings.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/geofence-configuration.png)
-
-## Step 9. Test a geofence event
-
-Finally, we can test "breaking" a geofence, meaning a bookable resource travels inside the geofenced area.  
 
 This is typically done two ways.   
 
-The first way is to travel within the geofenced area and sign in and synchronize the Field Service Mobile application. 
+The first way is to travel within the geofenced area and sign in and synchronize the Field Service mobile application. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of current location overlapping work order location](./media/mobile-geofence-arrive.png)
@@ -211,27 +190,15 @@ Confirm the latitude and longitude on the bookable resource record is updated as
 Either way, the synchronized coordinates will be within the geofenced area and trigger a **Geofence Event**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of geofence event showing a bookable resource has entered a geofenced area](./media/mobile-geofence-event.png)
+> ![Screenshot of ](./media/geofence-entered.png)
+
+
 
 Additionally, this will change the related geofence **Geotracked Record Status** to **Inside**.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of geotracked record status changed to 'inside'](./media/mobile-geofence-status-inside.png)
 
 
-## Use push notifications with geofencing
 
-If you would like the bookable resource to receive push notifications to change the booking status as they enter and leaves a geofence (in other words, when a geofence event record is created), configure push notifications and activate the processes included in the Geofence Alerts solution.
-
-First, configure push notifications for Field Service Mobile by going to the article on [push notifications](./mobile-push-notifications.md).
-
-Next, go to **Settings > Processes** and activate the following processes: 
-
-1. *Remind to change status upon arrival*
-2. *Remind to change status upon leaving*
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of geofence and push notification processes](./media/mobile-geofence-activate-reminders.png)
 
 
 ## Configuration considerations

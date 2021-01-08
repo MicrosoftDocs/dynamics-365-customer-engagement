@@ -58,10 +58,10 @@ In Field Service, go to **Geolocation Settings**.
 
 The Geolocation Tracking records will be created in the following scenarios:
 
-1.	**On log in** - When a user logs-in to the Field Service Power Apps App, few records are created as it figures out where the user is, and then it stops as the user hasn’t moved.
-2.	**On move** - If the user moves away from his location more than 800 meters, it will create tracking records every 60 seconds until he stops moving.
-3.	**On stop after moving** - When the user comes in a still position after moving, it will create a few more tracking records as it settles and then it stops.
-4.	It won’t create records till the location is changed again
+1.	**On log in** - When a user logs in to the Field Service mobile app, geolocation tracking records are created as the system figures out where the user is, and then it stops when the user stops moving. 
+2.	**On move** - If the user moves away from his or her location more than 800 meters, it will create tracking records every 60 seconds (or your custom refresh internal) until he or she stops moving.
+3.	**On stop after moving** - When the user comes in a still position after moving, it will create a few more tracking records as it settles and then it stops, before creating new records when location changes again.
+
 
 The above events only apply within the tracking start and end times and the location checking frequency is per the “Refresh Interval”.
 
