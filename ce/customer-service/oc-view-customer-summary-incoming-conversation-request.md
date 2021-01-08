@@ -1,6 +1,6 @@
 ---
 title: "View customer summary for an incoming conversation request | MicrosoftDocs"
-description: "Learn about the Customer Summary and its behavior when the agent gets and incoming conversation request."
+description: "Learn about the Customer Summary and its behavior when the agent gets an incoming conversation request."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
