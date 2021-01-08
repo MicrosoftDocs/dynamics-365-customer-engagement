@@ -26,7 +26,7 @@ searchScope:
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-You can add products or product bundles to a quote, order, or invoice record. The product can be an existing product in the [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] product catalog or one that you add as a write-in product.<!--note from editor: Via Writing Style Guide, ""Avoid non-English words or phrases, such as *de facto* or *ad hoc*."-->
+You can add products or product bundles to a quote, order, or invoice record. The product can be an existing product in the [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] product catalog or one that you add as a write-in product.
 
 With the enhanced experience of adding products, salespeople can:
 
@@ -56,7 +56,7 @@ If you've created a quote from an opportunity, the products added to the opportu
 
 2. On the **Summary** tab, in the **Products** section, select the **More commands** icon ![More commands button](media/more-commands-icon.png "More Commands button"), and then select **Add products**.
 
-    The **Add products** dialog box opens.<!--note from editor: Edit okay, here and throughout to other UI strings? The UI seems to use sentence case, based on the screenshots.-->
+    The **Add products** dialog box opens.
 
     > [!div class="mx-imgBorder"]  
     > ![Add products dialog box](media/add-products-qoi-dialog-box.png "Add products dialog box")
@@ -77,16 +77,16 @@ If you've created a quote from an opportunity, the products added to the opportu
     - **Selected**: This tab shows the count of the products selected to be added to the quote. Use this tab to verify or modify the final list of the items you've selected.
 
 3.  Search for and select the products you want to add, and then select **Add to quote**. When adding a product to an order or invoice, the button is named **Add to order** or **Add to invoice**, respectively.
-<!--note from editor: "More information" links aren't meant for intra-topic navigation.-->
+
 
 ## Search for products
 
-On the **Products** tab, enter the keyword in the **Search** field, and then select the **Search** icon or the **Enter** key. The products matching the search criteria are shown.<!--note from editor: Please note the edits to alt text in the next sections; it needs to be unique within an article.-->
+On the **Products** tab, enter the keyword in the **Search** field, and then select the **Search** icon or the **Enter** key. The products matching the search criteria are shown.
 
 > [!div class="mx-imgBorder"]  
 > ![Search box on the Products tab](media/search-for-products-qoi.png "Search box on the Products tab")
 
-The search capability searches for the keyword in the product names or the fields of **Single Line of Text** or **Multiple Lines of Text** in the **Quick Find View** of the product table (entity). The search is performed by using the **Contain**<!--note from editor: Should this be **Contains**?--> search operator. This means that search results will show all the products that contain the keyword in one of the supported fields.
+The search capability searches for the keyword in the product names or the fields of **Single Line of Text** or **Multiple Lines of Text** in the **Quick Find View** of the product table (entity). The search is performed by using the **Contains** search operator. This means that search results will show all the products that contain the keyword in one of the supported fields.
 
 Here's how the search results are ranked:
 

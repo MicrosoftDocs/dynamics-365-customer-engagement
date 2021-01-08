@@ -76,16 +76,15 @@ For salespeople, it's important to be able to quickly update opportunities by ad
     - **Selected**: This tab shows the count of the products selected to be added to the opportunity. Use this tab to verify or modify the final list of the items you've selected.
 
 6. Search for and select the products you want to add, and then select **Add to opportunity**.
-<!--note from editor: "More information" links aren't meant for intra-topic navigation.-->
 
 ## Search for products
 
-On the **Products** tab, enter the keyword in the **Search** field, and then select the **Search** icon or the **Enter** key. The products matching the search criteria are shown.<!--note from editor: Please note the edits to alt text in the next sections; it needs to be unique within an article.-->
+On the **Products** tab, enter the keyword in the **Search** field, and then select the **Search** icon or the **Enter** key. The products matching the search criteria are shown.
 
 > [!div class="mx-imgBorder"]  
 > ![Search box on the Products tab](media/search-for-products.png "Search box on the Products tab")
 
-The search capability searches for the keyword in the product names or the fields of **Single Line of Text** or **Multiple Lines of Text** in the **Quick Find View** of the product table (entity). The search is performed by using the **Contain**<!--note from editor: Should this be **Contains**?--> search operator. This means that search results will show all the products that contain the keyword in one of the supported fields.
+The search capability searches for the keyword in the product names or the fields of **Single Line of Text** or **Multiple Lines of Text** in the **Quick Find View** of the product table (entity). The search is performed by using the **Contains** search operator. This means that search results will show all the products that contain the keyword in one of the supported fields.
 
 Here's how the search results are ranked:
 
@@ -114,7 +113,7 @@ The additional details of the product&mdash;like product name and ID&mdash;are s
 > ![Product details](media/add-products-product-details.png "Product details")
 
 ## Select products to add
-<!--note from editor: Adding procedure headings to emphasize that these bullets describe two different ways to select products.-->
+
 **To select an existing product**
 
 1. Go to the **Products** tab or the **Recently used** tab.
@@ -135,7 +134,8 @@ The additional details of the product&mdash;like product name and ID&mdash;are s
 **To add a write-in product**
 <!--markdownlint-enable MD036-->
 1. Go to the **Write-in** tab.
-1. Select **Write-in product**, and then enter the details in the **Product Name**, **Price Per Unit**, and **Quantity** columns.
+
+2. Select **Write-in product**, and then enter the details in the **Product Name**, **Price Per Unit**, and **Quantity** columns.
 
     > [!div class="mx-imgBorder"]  
     > ![Add a write-in product](media/add-write-in-product-enh.png "Add a write-in product")

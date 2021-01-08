@@ -61,7 +61,7 @@ In the products grid of the **Add products** dialog box, the **Products** column
 
 For opportunity products&mdash;in addition to quote, order, or invoice products&mdash;these details are captured from the columns (fields) that are added in the **Product Lookup View** of the **Product** table (entity).
 
-By default, the views show data from two columns (fields): **Product name** and **Product ID**. You can customize these views to add or edit columns, in accordance with your business requirements. You can add up to three columns to these views.<!--note from editor: You've already made a "more information"-type link to the choose-and-configure-columns topic, so in case you do want to link to it twice, I moved the link to the See also block.-->
+By default, the views show data from two columns (fields): **Product name** and **Product ID**. You can customize these views to add or edit columns, in accordance with your business requirements. You can add up to three columns to these views.
 
 ### See also
 
