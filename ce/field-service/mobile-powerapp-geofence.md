@@ -157,9 +157,7 @@ Go to **Field Service > Settings > Geofences** to view the newly created geofenc
 The **Geotracked Record Status** is set to **Outside**, meaning the bookable resource is outside of the geofence area.
 
 
-## Step 7. Test a geofence event
-
-Finally, we can test "breaking" a geofence, meaning a bookable resource travels inside the geofenced area.
+## Step 7. Enter and exit a geofence
 
 Before traveling to the work order location, the technician is outside the geofence and an "exit" geofence event is created.
 
@@ -168,36 +166,23 @@ Before traveling to the work order location, the technician is outside the geofe
 
 
 
+When a technician arrives at the work order location and interacts with the Field Service mobile application, an "enter" geofence event is created. 
 
 
-This is typically done two ways.   
-
-The first way is to travel within the geofenced area and sign in and synchronize the Field Service mobile application. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of current location overlapping work order location](./media/mobile-geofence-arrive.png)
-
-The second way is for testing and development purposes; it simulates traveling within the geofenced area by using administrator security to manually enter latitude and longitude values in the mobile audit table and the bookable resource record.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of mobile audit table](./media/mobile-geofence-mobile-audit-table.png)
-
-> [!Note]
-> You can enable editable grids for the mobile audit entity to override the latitude and longitude values. You can access the mobile audit table by going to a list view for another entity in the Unified Client Interface (UCI) and manually entering **resco_mobileaudit** in the URL.
-
-Confirm the latitude and longitude on the bookable resource record is updated as well, and if not, manually adjust them with administrator security.
-
-Either way, the synchronized coordinates will be within the geofenced area and trigger a **Geofence Event**.
+> ![Screenshot of ](./media/mobile-2020-location-auditing-schedule-board-EDIT.png)
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/geofence-entered.png)
 
-
-
 Additionally, this will change the related geofence **Geotracked Record Status** to **Inside**.
 
+When the technician leaves the geofence, another "exit" event will be created
 
 
+> [!Note]
+> If you want to test entering a geofence but cannot physically travel to the location, you can expand the geofence radius to include your current location. 
 
 
 
@@ -209,12 +194,7 @@ Additionally, this will change the related geofence **Geotracked Record Status**
 > ![Screenshot of location expiration configuration field](./media/mobile-geofence-location-expiration.png)
   
 ## Additional notes
-- Currently only circular-shaped geofences are supported.
-
-
-
-## Configuration considerations
-## Additional Notes
+- Only circular-shaped geofences are currently supported.
 
 
 ### See also
