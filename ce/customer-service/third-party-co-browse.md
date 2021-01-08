@@ -1,6 +1,6 @@
 ---
 title: "Enable third-party co-browse and screen sharing | Microsoft Docs"
-description: ""
+description: "Learn how to enable third-party co-browse and screen sharing."
 author: ramana-hyd
 ms.author: v-rmurthy
 manager: shujoshi
