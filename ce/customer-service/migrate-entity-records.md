@@ -94,15 +94,15 @@ See the matrix for the dependency.
    |------------------|--------------------|
    | Resource Group | Bike technicians |
    | Service | Bike overhaul |
-   | Service Activity | Kenny Smith (customer) |
+   | Service Activity | Henry Ross (customer) |
 
-The **Service Activity** for Kenny Smith has a dependency on the **Service**, Bike overhaul and **Resource Group**, Bike technicians.
+The **Service Activity** for Henry Ross has a dependency on the **Service**, Bike overhaul and **Resource Group**, Bike technicians.
 
 Let us take the above mentioned example to learn how to resolve the error.
 
 1. Select **View Errors** against the **Service Activities** record in the **Data Migration Wizard** tab. 
 
-   The **Service Activities - Migration Status** page opens in a new browser tab. <br> You can view the migration error message for the **Kenny Smith** customer stating service has failed due to the **Dependent ResourceGroup is not migrated**, which has the GUID as `3979D7DB-F5DA-E911-A81F-000D3A6D4947`.
+   The **Service Activities - Migration Status** page opens in a new browser tab. <br> You can view the migration error message for the **Henry Ross** customer stating service has failed due to the **Dependent ResourceGroup is not migrated**, which has the GUID as `3979D7DB-F5DA-E911-A81F-000D3A6D4947`.
 
 2. Open a new browser window and go to `https://<dynamics org url>api/data/v9.0/services(<Guid>)`. For example, `https://<dynamics org url>api/data/v9.0/services(3979D7DB-F5DA-E911-A81F-000D3A6D4947)`.
 
