@@ -32,7 +32,6 @@ As an administrator, you must configure intraday insights before supervisors can
 | Existing organization with customized reports wanting to switch to preconfigured Power BI workspace version | No | Convert your reports to a non-customized version of intraday insights by following the steps in [Intraday insights in a preconfigured Power BI workspace](#intraday-insights-in-a-preconfigured-power-bi-workspace). |
 | Existing or new organization with need for customized intraday insights | Yes | Follow the steps in [Configure customized intraday insights reports](#configure-customized-intraday-insights-reports). | 
 
-Note: We recommend that you configure separate workspaces for your test and production environments. 
 
 ## Intraday insights in a preconfigured Power BI workspace
 
@@ -145,7 +144,9 @@ You must configure the Power BI workspace using the **Omnichannel Administration
     If you want to add an existing Power BI workspace, select **Add existing workspace** and the existing workspaces are listed. Select the workspace that you want to add.
 
     > [!div class=mx-imgBorder]
-    > ![Add existing Power BI workspace](media/supervisor-admin-add-existing-workspace.png "Add existing Power BI workspace")  
+    > ![Add existing Power BI workspace](media/supervisor-admin-add-existing-workspace.png "Add existing Power BI workspace") 
+
+**Note**: We recommend that you configure separate workspaces for your test and production environments.  
         
 6.  Select **Configure**. The workspace creation takes a few seconds and then a confirmation message is displayed with the generated workspace ID.
 
