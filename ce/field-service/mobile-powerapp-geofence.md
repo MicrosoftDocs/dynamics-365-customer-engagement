@@ -47,7 +47,7 @@ In this article, we will look at how to configure and use geofences by exploring
 
 ## Step 1. Enable and test location tracking, sharing, and auditing
 
-First [enable location tracking, sharing, and auditing](mobile-powerapp-location-auditing.md) and verify each technician's location is being tracked in Field Service. You will know location tracking is working if the technician's location is appearing on the schedule board map and in the Geolocation Tracking entity.
+First [enable location tracking, sharing, and auditing](mobile-powerapp-location-auditing.md) and verify each technician's location is being tracked in Field Service. You will know location tracking is working if the technician's location is appearing on the schedule board map and in location records in the Geolocation Tracking entity.
 
 ## Step 2. Verify geofence solutions are installed
 
@@ -60,7 +60,9 @@ Go to **Settings > Solutions** and make sure the three following geofence soluti
 > [!div class="mx-imgBorder"]
 > ![Screenshot of geofence solutions](./media/mobile-geofence-solutions.png)
 
-## Step 2. Activate geofence processes
+Upgrade to Field Service 8.8.32+ if these solutions are not present. 
+
+## Step 3. Activate geofence processes
 
 Go to **Settings > Processes** and **Activate** the following processes. These processes are installed in a draft state with the geofence solutions:
 
@@ -68,14 +70,11 @@ Go to **Settings > Processes** and **Activate** the following processes. These p
 - GenerateGeofenceWhenBookingIsCreated
 - Update Resource Location from Resco Audit
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of geofence processes](./media/mobile-geofence-activate-processes.png)
-
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-geofence-processes.png)
 
-
+If you have **Enhanced Background Processing** set to _Yes_ in [Field Service Settings](https://docs.microsoft.com/dynamics365/field-service/configure-default-settings#other-settings)
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-geofence-flows.png)
 
