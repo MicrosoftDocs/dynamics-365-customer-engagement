@@ -36,6 +36,17 @@ In this article, we will look at how to configure and use geofences by exploring
 
 - **Field Service v8.8.32+**. 
 
+- Verify geofence solutions are installed
+Go to **Settings > Solutions** and make sure the following geofence solutions are there. Upgrade to Field Service 8.8.32+ if these solutions are not present.
+
+    - **Geofence Alerts**
+    - **Geofence Management**
+    - **Geofence for Field Service**
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of geofence solutions](./media/mobile-geofence-solutions.png)
+
+
 - [Connect to Bing Maps](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-1-resource-scheduling) in order to connect your Dynamics 365 environment to Bing Maps in order to locate service accounts and work orders to later place geofences around them.
    
 - [Set auto geo code addresses to **yes**](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-2-field-service-settings) in order to automatically geo code accounts and work orders when addresses are entered. Geo coding an account or work order record populates latitude and longitude values, which are required to place geofences around them.
@@ -52,20 +63,8 @@ First [enable location tracking, sharing, and auditing](mobile-powerapp-location
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-location-auditing-schedule-board.png)
 
-## Step 2. Verify geofence solutions are installed
 
-Go to **Settings > Solutions** and make sure the following geofence solutions are there:
-
-- **Geofence Alerts**
-- **Geofence Management**
-- **Geofence for Field Service**
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of geofence solutions](./media/mobile-geofence-solutions.png)
-
-Upgrade to Field Service 8.8.32+ if these solutions are not present. 
-
-## Step 3. Activate geofence processes
+## Step 2. Activate geofence processes
 
 Go to **Settings > Processes** and **Activate** the following processes. These processes are installed in a draft state with the geofence solutions:
 
@@ -94,7 +93,7 @@ If you have **Enhanced Background Processing** set to _Yes_ in [Field Service Se
 
 
 
-## Step 4. Configure geofencing settings
+## Step 3. Configure geofencing settings
 
 Go to **Field Service > Settings > Geofencing Settings**.
 
@@ -105,7 +104,7 @@ Enter a **unit of measure** and **minimum radius**. As demonstrated in the follo
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/geofence-settings.png)
 
-## Step 5. Configure geofence entities
+## Step 4. Configure geofence entities
 
 Go to **Field Service > Settings > Entity Configurations**.
 
@@ -140,7 +139,7 @@ Next, go to the bookable resource configuration and enter the following:
 > [!div class="mx-imgBorder"]
 > ![Screenshot of bookable resource geofence configurations](./media/mobile-geofence-bookable-resource.png)
 
-## Step 6. Book a work order 
+## Step 5. Book a work order 
 
 Next, book a work order using your preferred method. In this example, a work order is manually dragged and dropped to a field technician bookable resource. As a reminder, this resource has been designated as a **User** type, and has access to the Field Service Mobile app. 
 
@@ -157,7 +156,7 @@ Go to **Field Service > Settings > Geofences** to view the newly created geofenc
 The **Geotracked Record Status** is set to **Outside**, meaning the bookable resource is outside of the geofence area.
 
 
-## Step 7. Enter and exit a geofence
+## Step 6. Enter and exit a geofence
 
 Before traveling to the work order location, the technician is outside the geofence and an "exit" geofence event is created.
 
