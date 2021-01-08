@@ -40,7 +40,7 @@ Increase seller productivity by enabling the enhanced experience for searching a
 4. Select **Apply**.
 
 **To enable the enhanced experience from System Settings**
-<!--markdownlint-enable MD036-->
+
 If you're using a custom app, you can enable the enhanced experience from **System Settings** in the legacy web client.
 
 1. In your app, select the **Settings** icon, and then select **Advanced Settings**.

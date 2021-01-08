@@ -115,7 +115,7 @@ Additional details of the product&mdash;like product name and ID&mdash;are shown
 > ![Product details](media/add-products-product-details.png "Product details")
 
 ## Select products to add
-<!--markdownlint-disable MD036-->
+
 **To select an existing product**
 
 1. Go to the **Products** tab or the **Recently used** tab.
@@ -134,9 +134,10 @@ Additional details of the product&mdash;like product name and ID&mdash;are shown
     - If the product doesn't have an associated price list, enter the price per unit and quantity.
 
 **To add a write-in product**
-<!--markdownlint-enable MD036-->
+
 1. Go to the **Write-in** tab.
-1. Select **Write-in product**, and then enter the details in the **Product Name**, **Price Per Unit**, and **Quantity** columns.
+
+2. Select **Write-in product**, and then enter the details in the **Product Name**, **Price Per Unit**, and **Quantity** columns.
 
    > [!div class="mx-imgBorder"]  
    > ![Add a write-in product](media/add-write-in-product-enh.png "Add a write-in product")

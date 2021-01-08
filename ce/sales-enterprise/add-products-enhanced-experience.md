@@ -39,7 +39,7 @@ For salespeople, it's important to be able to quickly update opportunities by ad
 > - The enhanced experience for adding products is a preview feature. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 > - [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
 > - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
-<!--markdownlint-disable MD036-->
+
 **To add a product by using the enhanced experience**
 
 1.  From the list of opportunities, open the opportunity to which you want to add products.
@@ -132,7 +132,7 @@ The additional details of the product&mdash;like product name and ID&mdash;are s
    - If the product doesn't have an associated price list, enter the price per unit and quantity.
 
 **To add a write-in product**
-<!--markdownlint-enable MD036-->
+
 1. Go to the **Write-in** tab.
 
 2. Select **Write-in product**, and then enter the details in the **Product Name**, **Price Per Unit**, and **Quantity** columns.
