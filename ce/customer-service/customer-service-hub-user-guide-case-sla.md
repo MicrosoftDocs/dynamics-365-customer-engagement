@@ -1,6 +1,6 @@
 ---
-title: Cases SLAs in Customer Service Hub | Microsoft Docs
-description: Understand Cases and SLA in Customer Service Hub for Dynamics 365 Customer Service.
+title: "Cases SLAs in Customer Service Hub | Microsoft Docs"
+description: "Learn about Cases and SLA in Customer Service Hub for Dynamics 365 Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -24,7 +24,7 @@ The Customer Service Hub provides the ability to track and manage case SLAs.
 
 ## Track SLA details with Timer Control
 
-You or the agent working on the case can see the SLA details right on the case form. See the next section to know what happens when an  SLA is applied to a case form.
+You or the agent working on the case can see the SLA details right on the case form. See the next section to know what happens when an SLA is applied to a case form.
 
 ### Case form with SLA applied  
 

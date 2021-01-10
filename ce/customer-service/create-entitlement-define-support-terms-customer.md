@@ -1,6 +1,6 @@
 ---
-title: Create entitlements to define the support terms for a customer (Dynamics 365 Customer Service) | MicrosoftDocs
-description: See how to create entitlements to define the support terms for a customer in Dynamics 365 Customer Service
+title: "Create entitlements to define the support terms for a customer (Dynamics 365 Customer Service) | MicrosoftDocs"
+description: "Learn how to create entitlements to define the support terms for a customer in Dynamics 365 Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -42,25 +42,25 @@ Define what kind of support your customers are eligible for by creating entitlem
 
    - In the **Information** section, specify the basic details:
   
-     - **Name**. Give the entitlement a meaningful name.  
+     - **Name**: Give the entitlement a meaningful name.  
   
-     - **Primary Customer**. Choose the customer you’re creating this entitlement for.  
+     - **Primary Customer**: Choose the customer you’re creating this entitlement for.  
   
-     - **Start Date**. Choose the date from which the customer will be entitled for support.  
+     - **Start Date**: Choose the date from which the customer will be entitled for support.  
   
-     - **End Date**. Choose the date after which the customer will no longer be entitled for support.  
+     - **End Date**: Choose the date after which the customer will no longer be entitled for support.  
   
-     - **Restrict based on entitlement terms**. To make sure no cases are created when the entitlement term is over, select **Yes**. When you choose **Yes**, a customer service agent won’t be able to create a case when **Remaining Terms** is less than zero OR when the term remaining for a channel is less than zero.  
+     - **Restrict based on entitlement terms**: To make sure no cases are created when the entitlement term is over, select **Yes**. When you choose **Yes**, a customer service agent won’t be able to create a case when **Remaining Terms** is less than zero OR when the term remaining for a channel is less than zero.  
   
-     - **SLA**. Choose a service level agreement (SLA) record to associate the service levels or key performance indicators for the support you’re providing with this entitlement.  
-     - **Owner**. Specify the owner of the entitlement.
-     - **Description**. Write a brief description of the entitlement.
+     - **SLA**: Choose a service level agreement (SLA) record to associate the service levels or key performance indicators for the support you’re providing with this entitlement.  
+     - **Owner**: Specify the owner of the entitlement.
+     - **Description**: Write a brief description of the entitlement.
   
    - In the **Entitlement Terms** section, specify the term details for the entitlement:  
   
-     - **Allocation Type**. Choose whether the entitlement is for number of hours or number of cases.  
+     - **Allocation Type**: Choose whether the entitlement is for number of hours or number of cases.  
   
-     - **Decrease Remaining On**. Choose whether to decrease the remaining term on case creation or resolution.  
+     - **Decrease Remaining On**: Choose whether to decrease the remaining term on case creation or resolution.  
   
         If you decrease the remaining term based on case creation:  
   
@@ -76,7 +76,7 @@ Define what kind of support your customers are eligible for by creating entitlem
   
        - Reactivating a resolved case with the associated entitlement increases the entitlement terms.  
   
-     - **Total Term**. Specify the total amount of support the customer is entitled to with respect to the allocation type. For example, if the allocation type is number of cases and you specify 100 in **Total Term**, the customer is entitled to support up to 100 cases.  
+     - **Total Term**: Specify the total amount of support the customer is entitled to with respect to the allocation type. For example, if the allocation type is number of cases and you specify 100 in **Total Term**, the customer is entitled to support up to 100 cases.  
   
      - The **Remaining Term** shows the total number of hours or cases remaining for the customer’s entitlement. The value decreases every time a case is created or resolved (depending on what you select in **Decrease Remaining On**) against the entitlement.  
   

@@ -1,6 +1,6 @@
 ---
-title: Timer control in the Case form to track time against an SLA | Microsoft Docs
-description: Know how to add timer control in the case form to track time against an SLA in Dynamics 365 Customer Service
+title: "Timer control in the Case form to track time against an SLA | Microsoft Docs"
+description: "Learn how to add timer control in the case form to track time against an SLA in Dynamics 365 Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -22,7 +22,7 @@ search.app:
 
 Add a timer control to an entity form to help users gauge the amount of time they have to complete a task—typically as specified in a service level agreement (SLA). The timer control initially displays a count-down timer to show the time remaining to complete the task.  
   
- On a case  form, the timer control can show any of the following, depending on the actions of the customer service representative (CSR) and what you specify when you set up the timer control:  
+ On a case form, the timer control can show any of the following, depending on the actions of the customer service representative (CSR) and what you specify when you set up the timer control:  
   
 -   If the CSR completes the task within the time remaining, the control shows the word **Succeeded**.  
   
@@ -39,7 +39,7 @@ Add a timer control to an entity form to help users gauge the amount of time the
     ![Timer control expired in Customer Service Hub](media/timer-sla-csh-expired.png "Timer control expired in Customer Service Hub")
   
 > [!IMPORTANT]
-> - The instructions in this topic apply  if you're adding a timer to track time for  the date/time field of any entity, or for tracking time against standard  SLAs on case records. If you are using enhanced SLAs and want to add a timer to your forms, see [Add a timer to forms to track time against enhanced SLAs](../customer-service/add-timer-forms-track-time-against-enhanced-sla.md).  
+> - The instructions in this topic apply if you're adding a timer to track time for the date/time field of any entity, or for tracking time against standard SLAs on case records. If you are using enhanced SLAs and want to add a timer to your forms, see [Add a timer to forms to track time against enhanced SLAs](../customer-service/add-timer-forms-track-time-against-enhanced-sla.md).  
 > - The timer control is designed to visually show the current state or show the remaining or elapsed time relative to the date and time as specified in the **Failure Time** field of the SLA KPI Instance. It doesn’t calculate or keep track of the time for which the Pause condition is true.  
  
 > [!NOTE]
