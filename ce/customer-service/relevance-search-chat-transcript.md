@@ -38,7 +38,7 @@ Ensure that relevance search is enabled in your environment. To learn more, see 
 
 4. Select **Configure Relevance Search**. The **Select Entities** dialog box appears.
 
-5. In the **Available Entities** box, select **Note**, select **Add >**, and then select **OK**.
+5. In the **Available Entities** box, select **Note**, select **Add**, and then select **OK**.
 
     > [!div class=mx-imgBorder]
     > ![Add the Note entity](media/add-note-entity.png "Add the Note entity")  

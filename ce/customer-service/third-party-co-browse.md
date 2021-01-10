@@ -144,7 +144,7 @@ These records (Conversation Action records, Conversation Action Locale records, 
 
 ## Omnichannel administration experience for third-party co-browse and screen sharing  
 
-We have created a new tab in Chat Widget called **Conversation Options**. Inside of this option is a section called **Remote assistance**.  The Omnichannel administrator will have the right to choose whether to enable or disable the third-party co-browse and screen-sharing options per chat widget. If there are no co-browse and screen-sharing providers installed in this organization, these two options are disabled as shown here.
+We have created a tab in Chat Widget called **Conversation Options**. Inside of this option is a section called **Remote assistance**.  The Omnichannel administrator will have the right to choose whether to enable or disable the third-party co-browse and screen-sharing options per chat widget. If there are no co-browse and screen-sharing providers installed in this organization, these two options are disabled as shown here.
 
 
 > [!div class="mx-imgBorder"]
