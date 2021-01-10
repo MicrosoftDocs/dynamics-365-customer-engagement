@@ -23,9 +23,9 @@ When you remove Omnichannel for Customer Service from your organization, the Omn
 
 2. Select **Settings** > **Advanced Settings** on the command bar. The **Settings** page is displayed in a new browser tab.
 
-3.	Go to Dynamics 365 **Settings** > **Solutions**.
+3. Go to Dynamics 365 **Settings** > **Solutions**.
 
-2.	On the **Solutions** page, select each solution from the list below, one at a time, in sequence, and then select **Delete**.
+2. On the **Solutions** page, select each solution from the list below, one at a time, in sequence, and then select **Delete**.
 
     1.  `ProductivityToolsAnchor`
     2.  `msdyn_OmnichannelProductivityToolsSettings`
