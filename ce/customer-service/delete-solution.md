@@ -64,7 +64,7 @@ When you remove Omnichannel for Customer Service from your organization, the Omn
     35. `msdyn_CIFrameworkPatch`
     36. `ChannelAPIIntegrationFramework`
 
-3.	A confirmation message appears that prompts you to uninstall the managed solution. Select **OK**.
+3. A confirmation message appears that prompts you to uninstall the managed solution. Select **OK**.
 
 After all the solutions are deleted, Omnichannel for Customer Service solutions are completely deleted from your organization.
 
