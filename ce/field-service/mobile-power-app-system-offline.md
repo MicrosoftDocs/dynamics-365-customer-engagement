@@ -98,23 +98,18 @@ For example, the **Bookable Resource Booking** (in other words, the booking) ent
 **Save and Publish** the offline profile.
 
 > [!Note]
-> The default offline profile is updated periodically as part of Field Service updates. If you edited the offline sync filter of an entity, the entity's sync filter will not receive updates; but other entity sync filters that have not been edited will receive updates in an unpublished state. Administrators can review the updates and decide if they want to take the update or continue with the previous sync filters. This only applies to sync filters and Relationships will receive updates while keeping your specific changes. 
+> The default offline profile is updated periodically as part of Field Service updates. If you edited the offline sync filter of an entity, the entity's sync filter will not receive updates; other entity sync filters that have not been edited will receive updates in an unpublished state. Administrators can review the updates and decide if they want to take the update or continue with the previous sync filters. This only applies to sync filters and relationships will receive updates while keeping your specific changes.
 
 
 For more information on offline profiles, see the article on [setting up mobile offline synchronization](https://docs.microsoft.com/dynamics365/mobile-app/preview-setup-mobile-offline).
 
 ## Sync filters
 
-Define how often the app will automatically attempt to sync changes and download new records for each entity you can. By default the mobile app will attempt to sync changes and download new records every 5 minutes.
+Define how often the app will automatically attempt to sync changes and download new records for each entity. By default, the mobile app will attempt to sync changes and download new records every five minutes.
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-2020-offline-sync-filter.png)
-
-
-
-
-
+> ![Screenshot of the Power Platform admin center, showing the option to customize the records you want to make available offline.](./media/mobile-2020-offline-sync-filter.png)
 
 
 ## Add the offline profile to the app
@@ -136,7 +131,7 @@ Go to **Properties** and add the offline profile you published if it is not alre
 
 #### Copy the offline profile 
 
-While it is recommended to make changes directly to the default offline profile to receive updates, you also have the option to copy the offline profile and make offline filter changes in the copy. The copy is considered unmanaged and will not receive any updates. If you make changes to the default offline profile and want to see the latest unadultered offline profile you can create a new trial of Field Service and view the included profile.
+While we recommend making changes directly to the default offline profile to receive updates, you can also copy the offline profile and make offline filter changes in the copy. The copy is considered unmanaged and will not receive any updates. If you make changes to the default offline profile and want to see the latest unadulterated offline profile, you can create a new trial of Field Service and view the included profile.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Power Platform admin center showing the copy option for the Field Service Mobile - Offline profile.](./media/mobile-2020-offline-profile-copy.png)
