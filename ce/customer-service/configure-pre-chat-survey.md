@@ -28,7 +28,7 @@ You can configure your chat widget to show users a survey that they must respond
 
     - **Question name**: Enter a name for the question.
     - **Question text**: Enter the text of the question.
-    - **Question type**: Select the type of answer that is required from users:
+    - **Answer type**: Select the type of answer that is required from users:
 
         - **Single line**: The user can enter a single line of text.
         - **Multiple lines**: The user can enter multiple lines of text.
