@@ -23,11 +23,9 @@ search.app:
   - D365Sales
 ---
 
-# Basic navigation in Dynamics 365 for phones and tablets 
-
+# Basic navigation on Dynamics 365 for phones and tablets 
 
 Use the Dynamics 365 for phones and tablets app to run your customer engagement apps in Dynamics 365 (such as Dynamics 365 Sales, Dynamics 365 Customer Service, and Dynamics 365 Marketing) on your mobile device. To install the app, see [Install Dynamics 365 for phones and tablets](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets).
-
 
 > [!NOTE]
 > There are separate mobile apps for:
