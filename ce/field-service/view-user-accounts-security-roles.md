@@ -19,7 +19,7 @@ search.app:
 
 In today's workforce, field service management requires several individuals with different roles to execute a work order, including administrators, dispatchers, and frontline workers. This document will provide you the steps to set up each role to successfully use Dynamics 365 Field Service. 
 
-## Dynamics 365 Field Service roles
+## Dynamics 365 Field Service roles & definitions
 First, let's define the roles that are within of your workforce and understand how they are referred to in Dynamics 365 Field Service.  
 
 **Field Service—Resource** are designed for **frontline workers** who carry out work orders for customers on-site primarily via the Dynamics 365 Field Service mobile application. This role only has read and update abilities on work orders. For example, frontline workers can only view and update information on work orders that are assigned to them.
@@ -49,19 +49,38 @@ After the admin has purchased trial or paid Dynamics 365 Field Service licenses 
 
 4. If adding individual users, fill out your user's basic information, including first name, last name, and password. If adding multiple users, you will fill out this information in a CSV file and you must upload it. 
 
-5. Assign your user a product license. Specifically, select the Dynamics 365 Field Service to assign your user this license. 
+5. Assign your users a product license. Specifically, select the Dynamics 365 Field Service to assign your users this license. 
 
-6. Fill out the settings of your user, such as job title, mobile phone number, and address. While this may be optional, it is highly recommended! You may give administrator access to this user in this section, too. 
+6. Fill out the settings of your users, such as job title, mobile phone number, and address. While this may be optional, it is highly recommended! Additionally, you may give administrator access ability to certains users in this section, too. 
 
-7. Review and select **Finish adding** to add and assign this user a Dynamics 365 Field Service license. 
+7. Review and select **Finish adding** to add and assign this users a Dynamics 365 Field Service license. 
 
 Woohoo, your users in your organization are now added and assigned Field Service licenses!
 
-## Step 2: Assign security roles 
-By setting security roles for users, you control the types of data and entities a user can access and edit.
+## Step 2a: Assign security roles 
+After adding and assigning Dynamics 365 Field Service licenses to your users, you can now assign them specific Field Service security roles and field security profiles. By setting **security roles** for users, you control the types of data and entities a user can access and edit. By setting **field security profiles**, you control which fields a user sees for an entity. For example, a user may have permission to see accounts, but not to see specific fields for an account. Make sure you understand which role to assign your users; view the roles and definitions.  
 
-## Step 3: Assign field security profiles 
-By setting field security profiles, you control which fields a user sees for an entity. For example, a user may have permission to see accounts but not to see specific fields for an account. 
+1. Log in to the [Power Platform Admin Center](https://admin.powerplatform.microsoft.com/environments).
+
+2. Select your environment. 
+
+3. Select **Settings**. 
+
+4. Select **Users + permissions** > **User**. 
+
+5. Find and select your user's name. This should take you to a new page. 
+
+6. Select **Manage roles**. 
+
+7. Select the appropriate role for your user > **OK**. View the roles and definitions to learn which one to choose. 
+
+8. Select the **>** next to your user's name and then select **Field Security Profiles**. 
+
+9. Select **Add**. 
+
+10. Select the appropriate role for your user > **Select** > **Add**. View the roles and definitions to learn which one to choose. 
+
+Woohoo! You have now assigned a security role and field security profile to a user. Repeat the steps above starting from Step 5 to provision another user. 
 
 ## Other configurations (optional)
 
