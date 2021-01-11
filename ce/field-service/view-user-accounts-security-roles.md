@@ -57,8 +57,11 @@ After the admin has purchased trial or paid Dynamics 365 Field Service licenses 
 
 Woohoo, your users in your organization are now added and assigned Field Service licenses!
 
-## Step 2a: Assign security roles 
+## Step 2: Assign security roles and field security profiles
 After adding and assigning Dynamics 365 Field Service licenses to your users, you can now assign them specific Field Service security roles and field security profiles. By setting **security roles** for users, you control the types of data and entities a user can access and edit. By setting **field security profiles**, you control which fields a user sees for an entity. For example, a user may have permission to see accounts, but not to see specific fields for an account. Make sure you understand which role to assign your users; view the roles and definitions.  
+
+> ![NOTE]
+> These steps allow you to assign security roles and field security profiles to individual users rather than multiple users at once. 
 
 1. Log in to the [Power Platform Admin Center](https://admin.powerplatform.microsoft.com/environments).
 
@@ -82,13 +85,28 @@ After adding and assigning Dynamics 365 Field Service licenses to your users, yo
 
 Woohoo! You have now assigned a security role and field security profile to a user. Repeat the steps above starting from Step 5 to provision another user. 
 
+## Q&A 
+1. 
+
+2. Can I make a copy of security roles? 
+
+Yes. Here's an example of copying the **Field Service - Dispatcher** role:
+
+1. Go to **Settings** > **Security** > **Security Roles** and copy the **Field Service - Dispatcher** role.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of copying a security role.](media/admin-security-role-copy.png)
+
+2. Select a user, and then choose **Manage Roles**.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of adding a security role to a User](media/users-3.png) 
+
+3. Assign the copied **Field Service—Dispatcher** role to allow schedule, dispatch, and work order editing capabilities to the user. Or, if the user is responsible for more than schedule and dispatch, make a copy of the **Field Service – Administrator** role and assign it to the user.
 ## Other configurations (optional)
 
 > [!Note]
-> New product releases may update field service security roles. You can either make custom roles or copies of existing roles to mitigate the risks. If you intend to *add* additional privileges, we recommend creating a custom security role with the added privileges, and assigning both the Field Service security role and the add-on role. If you intend to *remove* or lower privileges, then we recommend that you make a copy of the Field Service security role, make your changes, and assign the copied security role to the user. To copy a security role, go to **Settings** > **Security** > **Security Roles**, then select a security role record and choose **Actions** > **Copy Role**. See the following screenshot for reference.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of copying a security role](media/admin-security-role-copy.png) 
+> New product releases may update field service security roles. You can either make custom roles or copies of existing roles to mitigate the risks. If you intend to *add* additional privileges, we recommend creating a custom security role with the added privileges, and assigning both the Field Service security role and the add-on role. If you intend to *remove* or lower privileges, then we recommend that 
 
 ## Create users for Field Service
 
@@ -134,17 +152,7 @@ Select **Manage users in Dynamics 365**.
 
 Follow these steps to set up a dispatcher who schedules work orders for field technicians.
 
-1. Go to **Settings** > **Security** > **Security Roles** and copy the **Field Service - Dispatcher** role.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of copying a security role.](media/admin-security-role-copy.png)
-
-2. Select a user, and then choose **Manage Roles**.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of adding a security role to a User](media/users-3.png) 
-
-3. Assign the copied **Field Service—Dispatcher** role to allow schedule, dispatch, and work order editing capabilities to the user. Or, if the user is responsible for more than schedule and dispatch, make a copy of the **Field Service – Administrator** role and assign it to the user.
 
 After assigning a user a security role, you must assign the user the corresponding field security profile.
 
