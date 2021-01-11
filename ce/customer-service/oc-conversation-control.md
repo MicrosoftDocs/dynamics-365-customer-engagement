@@ -78,7 +78,7 @@ The quick replies can be created either by the administrator or by you. You can 
 
     > ![Use personal quick reply](media/use-personal-quick-replies.png "Use personal quick reply")
 
-For more information about personal quick replies, see [Create personal quick replies](create-personal-quick-replies.md).
+
 
 ### Search for messages
 
