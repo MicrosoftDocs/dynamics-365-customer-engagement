@@ -4,7 +4,7 @@ description: "Learn how to add the personalization tab to enable quick replies i
 author: v-sailab
 ms.author: v-sailab
 manager: shujoshi
-ms.date: 01/05/2021
+ms.date: 01/11/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -15,7 +15,15 @@ ms.service: dynamics-365-customerservice
 
 You can use personalization tab to enable personal quick replies in Unified Service Desk client application. After you add the personalization tab, you can view the tab in a conversation panel depending on where it was added. More information on quick replies: [Create a record in Ominichannel for Customer Service](oc-usd/create-record.md).
 
-**To add the personalization tab**
+## To add the personalization tab
+
+[Step 1: Create an action call record](#step-1-create-an-action-call-record)
+
+[Step 2: Add a toolbar button](#step-2-add-a-toolbar-button)
+
+[Step 3: Add artefacts to the configuration of agent](#step-3-add-artefacts-to-the-configuration-of-agent)
+
+### Step 1: Create an action call record
 
 1. Open the **Unified Service Desk Administrator** app. In the left pane, go to **Basic Settings** > **Action Calls**.
 
@@ -36,14 +44,16 @@ You can use personalization tab to enable personal quick replies in Unified Serv
     > [!div class=mx-imgBorder]
     > ![Create new action call record](media/create-new-action-call-record.png "Create new action call record")
 
-4. In the left pane, under **Basic Settings**, go to **Toolbars** > **Omnichannel ToolbarStrip**.
+### Step 2: Add a toolbar button
 
-5. In the **Buttons** area, select the button under which you want the personalization button to appear, and then in the **Related** tab, select **Toolbar Buttons**.
+1. In the left pane, under **Basic Settings**, go to **Toolbars** > **Omnichannel ToolbarStrip**.
+
+2. In the **Buttons** area, select the button under which you want the personalization button to appear, and then in the **Related** tab, select **Toolbar Buttons**.
 
     > [!div class=mx-imgBorder]
     > ![Select Toolbar Buttons in the Related section](media/select-toolbar-buttons-related-section.png "Select Toolbar Buttons in the Related section")
 
-6. Select **New Toolbar Button** and create a toolbar button record with the following parameters:
+3. Select **New Toolbar Button** and create a toolbar button record with the following parameters:
 
     * **Name**: Personalization
     
@@ -51,9 +61,11 @@ You can use personalization tab to enable personal quick replies in Unified Serv
     
     * **Tooltip**: Personalization
 
-7. Select **Save**.
+4. Select **Save**.
 
-8. Select **Add Existing Action Call**, and add the following action calls:
+### Step 3: Add artefacts to the configuration of agent
+
+1. Select **Add Existing Action Call**, and add the following action calls:
 
     a. Switch to Agent Home Page
     
@@ -66,9 +78,9 @@ You can use personalization tab to enable personal quick replies in Unified Serv
     > [!div class=mx-imgBorder]
     > ![Add action calls from the lookup records](media/add-action-calls-from-lookup-records.png "Add action calls from the lookup records")
 
-9. Under **Advanced Settings** in the left pane, go to **Configurations** > **Agent Configuration** > **Hosted Controls, Events and Action Calls** tab.
+2. Under **Advanced Settings** in the left pane, go to **Configurations** > **Agent Configuration** > **Hosted Controls, Events and Action Calls** tab.
 
-10. In the **Action Calls** area, go to **Add Existing Action Call**, and then add the **OpenPersonalizationPage** action call.
+3. In the **Action Calls** area, go to **Add Existing Action Call**, and then add the **OpenPersonalizationPage** action call.
 
     > [!div class=mx-imgBorder]
     > ![Add the action call](media/add-action-call.png "Add the action call")
