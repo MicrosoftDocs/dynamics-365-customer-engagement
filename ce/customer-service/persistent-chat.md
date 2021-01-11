@@ -31,9 +31,9 @@ The primary differences between live chat and persistent chat are as follows:
 
 ## How persistent chat works
 
-From the start of a conversation until the agent explicitly ends it, agents and customers will be able to see the history of the conversation in the chat widget. Customers can close the chat widget and come back over longer time periods, and still see their history, picking up where they left off. Agents can release their capacity while waiting for a customer reply by putting the chat into waiting state. Once the issue is resolved, agents will end the conversation. The next time that a customer engages with chat, they will start a fresh session.
+From the start of a conversation until the agent explicitly ends it, agents and customers will be able to see the history of the conversation in the chat widget. Customers can close the chat widget and come back over longer time periods, and still see their history, picking up where they left off. Agents can release their capacity while waiting for a customer reply by putting the chat into waiting state. After the issue is resolved, agents will end the conversation. The next time that a customer engages with chat, they will start a fresh session.
 
-## Admin setup for persistent chat
+## Set up persistent chat
 
 Persistent chat can be enabled in the chat widget settings for a chat channel. When persistent chat is chosen as the conversation mode, some fields in the settings will update to reflect this conversation mode. Admins will need to add authentication settings, which are required for persistent chat. 
 
@@ -51,7 +51,7 @@ If your organization has chosen persistent chat as the mode of conversation, you
 
 - Agents should not end the conversation; instead, they should close the conversation so that it is moved into a waiting state, which is typically 28 days or the value that is configured in the work stream.
 
-- Agents need to confirm if the customer's issues is resolved and then end the session by selecting **End**. Once the agent ends the chat, the chat history will not be shown when the customer comes back. A fresh chat session will be initiated.
+- Agents need to confirm if the customer's issues is resolved and then end the session by selecting **End**. After the agent ends the chat, the chat history will not be shown when the customer comes back. A fresh chat session will be initiated.
 
 **Note**: Agents should be trained to verify with customers that issues are resolved before taking this step.
 
