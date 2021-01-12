@@ -212,8 +212,6 @@
         href: create-action-call-uii-action.md
       - name: Add action calls to an event
         href: add-action-calls-event.md
-      - name: Add personalization tab
-        href: add-personalization-tab.md
       - name: Create a user-defined event
         href: create-user-defined-event.md
     - name: Configure toolbars in your application
@@ -718,7 +716,7 @@
     - name: Configure session name information 
       href: oc-customizer/configure-session-name-information.md
     - name: Add personalization tab
-    - href: oc-customizer/add-personalization-tab.md
+      href: oc-customizer/add-personalization-tab.md
     - name: Configure Scriptlets to define case and channel titles 
       href: oc-customizer/configure-Scriptlets-define-case-channel-titles.md
     - name: Configure link to conversation button in Unified Service Desk 
