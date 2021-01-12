@@ -23,9 +23,9 @@ search.app:
   - D365Sales
 ---
 
-# User Guide (Dynamics 365 for phones and tablets)
+# Use Dynamics 365 for phones and tablets to run Dynamics 365 Customer Engagement (on-premises) apps
 
-Use the [!INCLUDE[pn_dyn-365_phones](../includes/pn-dyn-365-phones.md)] and [!INCLUDE[pn_dyn-365_tablets](../includes/pn-dyn-365-tablets.md)] apps for your sales, customer service, field service, and other tasks when you're on the go. With one download from your app store, you’ll automatically have access to all the apps you need for your role. You will see apps with the new Unified Interface on your mobile device.  
+Use the Dynamics 365 for phones and Dynamics 365 for tablets to run Dynamics 365 Customer Engagement (on-premises), apps when you're on the go. With one download from your app store, you’ll automatically have access to all the apps you need for your role. 
 
 > [!NOTE]
 > - On February 21, 2018, we announced the deprecation of the [!INCLUDE[pn_dyn-365_phones](../includes/pn-dyn-365-phones.md)] Windows Phone app. Effective May 22, 2018, the Windows Phone app is no longer supported. Support for the  app on Windows tablets and PCs remains unchanged. The Windows Phone app will continue to be available in the store and will be supported for Dynamics 365 apps, (version 8.2) and earlier supported versions. If you want to continue to use the Windows Phone app, you should not update to Dynamics 365 apps, version 9.0 as the Windows Phone app will not be supported with version 9.x. 
