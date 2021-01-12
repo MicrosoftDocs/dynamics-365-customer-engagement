@@ -2,11 +2,10 @@
 title: "Troubleshooting LinkedIn integration errors (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Learn how to troubleshoot issues with LinkedIn integrations in Dynamics 365 Sales."
 ms.date: 05/26/2020
-ms.service:
-  - "dynamics-365-sales"
+ms.service: dynamics-365-sales
 ms.topic: article
-author: sbmjais
-ms.author: shjais
+author: udaykirang
+ms.author: udag
 manager: shujoshi
 ---
 

@@ -2,10 +2,8 @@
 title: "See LinkedIn profile pictures for matched leads and contacts in Dynamics 365 | Microsoft Docs"
 description: "How to see LinkedIn profile pictures for matched leads and contacts in Dynamics 365."
 ms.date: 06/25/2020
-ms.service: 
-  - "dynamics-365-sales"
-ms.custom: 
-  - "dyn365-sales"
+ms.service:  dynamics-365-sales
+ms.custom: dyn365-sales
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -28,7 +26,7 @@ For leads and contacts that are matched to a LinkedIn member profile, the system
 4. Select **Ok** to enable the display of profile pictures.
 
 To enable the display of profile image in the contact or lead form, you must enable **Sales Navigator CRM sync** in the LinkedIn Sales Navigator settings. For more information how to enable CRM sync, see [Integration between Sales Navigator and your CRM](https://www.linkedin.com/help/sales-navigator/answer/82207/integration-between-sales-navigator-and-your-crm-overview).    
-If you are unable to see the profile picture in custom forms, perform the steps as defined in the [Unable to view photos on custom contact and lead forms](ts-linkedin-integration.md#unable-to-view-photos-on-custom-contact-and-lead-forms) section.    
+If you are unable to see the profile picture in custom forms, perform the steps as defined in the [Unable to view photos on custom contact and lead forms](ts-linkedin-integration.md#unable-to-view-photos-on-custom-contact-and-lead-forms-in-unified-interface) section.    
 
 
 > [!NOTE]
