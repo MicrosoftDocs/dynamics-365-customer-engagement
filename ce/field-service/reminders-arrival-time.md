@@ -48,53 +48,23 @@ Key Features:
 -- Navigate to  http://make.powerapps.com > Create
 -- Select the Customer Experiences 
 
-![Field Service Portal Template](./media/01_PAPortal_FSTemplate.jpg "Field Service Portal Template")
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/02_PAFlow_Flows.jpg)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/03_PAFlow_Solution.jpg)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/05_FSSettings_landing.jpg)
+> ![Screenshot of ](./media/01_PAPortal_FSTemplate.jpg)
 
 
 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/10_email-reminder.jpg)
 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/11_email-reschedule.jpg)
 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/12-portal-desktop-reminder.jpg)
 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/13-email-traveling.jpg)
 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/13-portal-traveling.jpg)
 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/14-portal-completed.jpg)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/15-email-cancel.jpg)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/15-email-completed.jpg)
 
 -- Enter your Portal name and desired subdomain.
 -- This portal will include required packages for Field Service and Power Automate. 
@@ -116,6 +86,12 @@ Key Features:
 -- Turn On
 - Create notification items for bookings
 -- By default, this Flow is “On”; no further action is needed.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/03_PAFlow_Solution.jpg)
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/02_PAFlow_Flows.jpg)
 
 *By default, Twilio is used as a popular SMS provider. You can substitute an alternate connector by cloning the Flow and modifying.
 
@@ -139,6 +115,23 @@ Messages are sent via SMS and/or Email.  Messages are sent to Primary Contact of
 
 ![Traveling Email Example](./media/ABC.png "Traveling Email Example")
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/10_email-reminder.jpg)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/11_email-reschedule.jpg)
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/13-email-traveling.jpg)
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/15-email-cancel.jpg)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/15-email-completed.jpg)
+
 ## Power Apps Portal Experience
 Customers primary means of interacting with the experience is via Power Apps Portals. Your portal will have different states depending on the Field Service booking lifecycle.
 
@@ -146,6 +139,25 @@ Customers primary means of interacting with the experience is via Power Apps Por
 - Responsive design makes this portal accessible from mobile, tablet, or desktop. 
 - This online customer portal renders different states depending on state of the associated Booking.
 - When Booking is in “Traveling” state, the experience includes details of the Technician as well as the Technicians current location on an Azure map. The map will show near real-time location of technician based on signal from the Field Service Mobile application.
+
+
+
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/12-portal-desktop-reminder.jpg)
+
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/13-portal-traveling.jpg)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/14-portal-completed.jpg)
+
+
+
 
 ![Reminder State from Desktop](./media/ABC.png "Reminder State from Desktop")
 
@@ -169,7 +181,11 @@ Configuration options include:
 -- Service Accounts
 -- Service Types
 
-![Field Service Customer Portal Settings](./media/ABC.png "Field Service Customer Portal Settings")
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/05_FSSettings_landing.jpg)
+
+
 
 ## Add branding & Content to the portal
 Branding & Content updates are done via Field Service Settings > Customer Portal > Customer Portal Settings > Display
@@ -197,13 +213,13 @@ Notification settings area provides a real-only view of all messages which have 
 > ![Screenshot of ](./media/07a_FSSettings_notifications-details.jpg)
 
 
+### Booking Notifications
+The Booking Notification settings area provides visibility the Field Service Admin a way to extend, expire, or block access to a portal link which has been shared with a customer. 
+
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/08_FSSettings_BookingNotifications.jpg)
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/09_FSSettings_BookingNotifications-details.jpg)
-
-
-### Booking Notifications
-The Booking Notification settings area provides visibility the Field Service Admin a way to extend, expire, or block access to a portal link which has been shared with a customer. 
