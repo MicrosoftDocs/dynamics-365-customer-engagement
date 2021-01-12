@@ -39,7 +39,7 @@ When enabled by your system administrator, you can use the icons that are displa
 When enabled by your system administrator, you can use the **Create a timeline record** feature to quickly create appointments, tasks, send emails, as well as make notes and posts and associate them with other records. 
 
 1. Select **Create a timeline record** icon.<BR><BR>
-![Create a timeline record](media\timeline-create-a-record-icon1c.png "Create a timeline record") 
+![Create a timeline record](media\timeline-create-a-record-icon1c.png "Use the Create a timeline record feature") 
 
 2. Select the type of record you want to create from the display options available. <BR><BR>
 ![Select type of timeline record](media\timeline-create-a-timeline-record-1f.png "Select the type of timeline record")
@@ -53,8 +53,8 @@ When enabled by your system administrator, the timeline **Filter** further strea
 ![Timeline filter functionality](media\timeline-filter-12b.png "Timeline filter functionality")
 
 Legend:
-1. The timeline ![Filter](media\timeline-filter-icon.png "Filter") icon is located in the top-right navigation on the timeline.
-2. The filter pane displays when the **Filter** icon is selected.
+1. The timeline **Filter** ![Filter](media\timeline-filter-icon.png "Filter") icon is located in the top-right navigation on the timeline.
+2. The filter pane displays when the filter icon is selected.
 3. Use the carats to expand or minimize selections.
 4. When enabled by your system administrator, record and activity types are displayed in the filter pane. Record and activity types can be filtered by selecting the corresponding box next to the item.
 5. The ![Clear all filters](media\timeline-clear-all-filters-icon.png "Clear all filters") icon removes and clears all filter selections from the filter pane.
@@ -83,7 +83,7 @@ The following category and sub-category options are available on the filer menu:
 
 ## Work with records  
 
-When working with records, you can view key information at a glance or expand records to view more details. When you hover over a record, actions display you can use.
+When working with records, you can view key information at a glance or expand records to view more details. When you hover over a record, actions display that you can use.
 
 ### Expand all records
 
@@ -92,7 +92,7 @@ When enabled by your system administrator, you can view timeline records quickly
 ![Expand all records functionality](media\timeline-expand-all-records-1d.png "Expand all records functionality")
 
 Legend
-1. The ![Expand all records](media\timeline-expand-icon.png "Expand all records") icon is used to expand all records listed on the timeline.
+1. The **Expand all records** ![Expand all records](media\timeline-expand-icon.png "Expand all records") icon is used to expand all records listed on the timeline.
 2. The carats in the bottom-right corner of records allow you to expand (^) or minimize (v) display views.
 3. Each record has a list of commands relevant to their record type that displays in the top right corner for ease of use. 
 4. Record backgrounds change to grey when you hover over it, and it becomes transparent again when you move the mouse away.
@@ -104,7 +104,7 @@ The **More commands** option contains refresh, sort, and email functionalities.
 ![More commands timeline functionality](media\timeline-more-commands-1.png "More commands timeline functionality")
 
 Legend
-1. The ![More commands](media\timeline-more-commands-icon.png "More commands") icon when expand provides additional functionality options.
+1. The **More commands** ![More commands](media\timeline-more-commands-icon.png "More commands") icon, when expanded, provides additional functionality options.
 2. The **Refresh timeline** command updates record details in the timeline.
 3. The **Sort newer to older** or **Sort older to newer** command is used to sort records.
 4. The **Always show email as conversations** or **Always show email as individual messages** command is used to enable or disables threaded email views.
@@ -117,7 +117,7 @@ Use the threaded email view option to save valuable space when you have emails w
 ![Collapsed threaded email view](media\timeline-threaded-email-views-1a.png "Collapsed threaded email view")
 
 Legend
-1. When enabled via the **Always show email as conversations** option under **More commands** ![](media\timeline-more-commands-icon.png "More commands icon"), emails with multiple responses are grouped together into threaded emails.
+1. When enabled via the **Always show email as conversations** option under **More commands** ![More Commands](media\timeline-more-commands-icon.png "More commands icon"), emails with multiple responses are grouped together into threaded emails.
 2. The **Show more** link appears in the bottom left corner of the last visible email in the thread to view the complete string of email responses. 
 
 **Expanded threaded email view**
@@ -125,7 +125,7 @@ Legend
 ![Expanded threaded email view](media\timeline-threaded-email-views-2a.png "Expanded threaded email view")
 
 Legend
-1. When expanded, the most recent 10 email responses in the thread will display.  To display more, select **Show more** to expand the view again.
+1. When expanded, the most recent 10 email responses in the thread will display. To display more, select **Show more** to expand the view again.
 2. Emails in the same thread are displayed as being linked together.
 
 ### Enable threaded email views in timeline
@@ -141,7 +141,7 @@ You can enable the threaded email view using the ![More Commands](media\timeline
 **Enable threaded email through the More Commands option**
 
 Steps:
-1. Use the ![More commands](media\timeline-more-commands-icon.png "More commands") icon on timeline which displays a flyout menu.
+1. Use the **More commands** ![More commands](media\timeline-more-commands-icon.png "More commands") icon on timeline which displays a flyout menu.
 2. Select **Always show email as conversations** to thread and group all emails in that specific timeline. 
 
 ![Enable threaded email view - option 1](media\timeline-threaded-email-views-4a.PNG "Enable threaded email view - option 1")
@@ -268,7 +268,7 @@ When enabled by your system administrator, you can add an attachment, such as a 
 > [!NOTE]
 > The list of allowed attachments is configured by your system administrator.
 
-Select the ![paperclip](media\timelilne-paperclip-icon.png "paperclip icon") icon to attach a file to a note. 
+Select the paperclip ![paperclip](media\timelilne-paperclip-icon.png "paperclip icon") icon to attach a file to a note. 
 
 ![Attachment icon](media\timeline-add-a-note-to-a-record.png "Attachment icon")
 
