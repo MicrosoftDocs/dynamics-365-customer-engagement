@@ -56,7 +56,7 @@ Sign in to the Dynamics 365 mobile app quickly using your work email address or 
 2. From the list of apps that you have access to, select the app that you want to use.
 
    > [!div class="mx-imgBorder"] 
-   > ![Select an app to use](media/openanapp.png "Select an app to use"). 
+   > ![Select an app](media/openanapp.png "Select an app to use"). 
 
 
 ### Sign in with your web address 
@@ -73,7 +73,7 @@ You can also sign in using your web address for the Dynamics 365 app and user na
 4. From the list of apps that you have access to, select the app that you want to use.
 
    > [!div class="mx-imgBorder"] 
-   > ![Select an app to use](media/navwebsignin.png "Select an app to use"). 
+   > ![Select an app that you want to use](media/navwebsignin.png "Select an app to use"). 
 
 ### Sign out 
 
@@ -162,12 +162,12 @@ The **Quick create Menu** makes it fast and easy to add data into the system.
 2.  Select **Quick Create Menu**.
 
     > [!div class="mx-imgBorder"] 
-    > ![Quick create menu](media/quickcreate.png "Quick create menu")
+    > ![Select the Quick create menu](media/quickcreate.png "Quick create menu")
 
 3. Select the type of activity or record you want to create. 
 
     > [!div class="mx-imgBorder"] 
-    > ![Quick create menu](media/quickcreate3.png "Quick create menu")
+    > ![Select the type of record that you want to create](media/quickcreate3.png "Quick create menu")
     
 4. Enter the required information for the record and then select **Save and Close**.
 
