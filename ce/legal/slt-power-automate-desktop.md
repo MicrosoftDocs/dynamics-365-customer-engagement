@@ -74,7 +74,7 @@ limitation, you will not (and have no right to):
 export laws and regulations that apply to the software, which include
 restrictions on destinations, end users, and end use. For further information on
 export restrictions, [visit
-https://go.microsoft.com/fwlink/?LinkId=2147444](../../../../aaTest/2100500/visit%20https:/aka.ms/exporting).
+https://go.microsoft.com/fwlink/?LinkId=2147444](https://go.microsoft.com/fwlink/?LinkId=2147444).
 
 **5. SUPPORT SERVICES**. Microsoft is not obligated under this agreement to
 provide any support services for the software. Any support provided is “as is”,
