@@ -86,9 +86,15 @@ After adding and assigning Dynamics 365 Field Service licenses to your users, yo
 Woohoo! You have now assigned a security role and field security profile to a user. Repeat the steps above starting from Step 5 to provision another user. 
 
 ## Q&A 
-1. 
+1. After adding and assigning security profiles, what should I do next? 
 
-2. Can I make a copy of security roles? 
+As an admin, you can start configuring the rest of Dynamics 365 Field Service. Specifically, to fully provision your frontline workers, you will need to assign them to an [offline data profile](https://docs.microsoft.com/dynamics365/field-service/mobile-power-app-system-offline).
+
+2. Can I add multiple people to a security role and/or a field security profile? 
+
+Yes. Use the [Teams feature](https://docs.microsoft.com/power-platform/admin/manage-teams) to help you group multiple users and then assign them to a security role and/or profile. 
+
+3. Can I make a copy of security roles? 
 
 Yes. Here's an example of copying the **Field Service - Dispatcher** role:
 
@@ -103,145 +109,3 @@ Yes. Here's an example of copying the **Field Service - Dispatcher** role:
 > ![Screenshot of adding a security role to a User](media/users-3.png) 
 
 3. Assign the copied **Field Service—Dispatcher** role to allow schedule, dispatch, and work order editing capabilities to the user. Or, if the user is responsible for more than schedule and dispatch, make a copy of the **Field Service – Administrator** role and assign it to the user.
-## Other configurations (optional)
-
-> [!Note]
-> New product releases may update field service security roles. You can either make custom roles or copies of existing roles to mitigate the risks. If you intend to *add* additional privileges, we recommend creating a custom security role with the added privileges, and assigning both the Field Service security role and the add-on role. If you intend to *remove* or lower privileges, then we recommend that 
-
-## Create users for Field Service
-
-Once you have a Dynamics 365 environment with Field Service, you need to create users to use the application. Many different roles interact with Field Service like system administrators, technicians, dispatchers, service managers, inventory managers, customer service representatives and more.
-
-Sign into [https://admin.microsoft.com/](https://admin.microsoft.com/) as a system administrator.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the Microsoft 365 apps list.](./media/quickstart-o365-admin.png)
-
-Go to **Users** and create new users as needed. Some will represent back-office administrators and others will represent dispatchers or technicians.
-
-Assign each user a license or trial license that includes Dynamics 365 Field Service.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the Microsoft 365 admin center showing active users.](./media/quickstart-o365-admin-users.png)
-
-Go to the [Power Apps admin center](https://admin.powerplatform.microsoft.com/).
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the Power Apps admin center.](./media/quickstart-o365-admin-powerapp.png)
-
-Select your environment that has Field Service installed. Select **Settings** > **Users + permissions** > **Users**.
-
-Add the users you created that have Field Service licenses or trial licenses to the environment.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the Power Platform admin center showing a list of users.](./media/quickstart-ppac-users-add.png)
-
-## 2. Assign appropriate security roles to your users 
-
-Next we need to assign each user the correct Field Service security role.
-
-Select **Manage users in Dynamics 365**.
-
-> [!NOTE]
-> Make sure you're seeing the "Enabled Users" view.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the Power Platform admin center showing the settings.](./media/quickstart-ppac-users.png)
-
-## Set up a dispatcher user
-
-Follow these steps to set up a dispatcher who schedules work orders for field technicians.
-
-
-
-After assigning a user a security role, you must assign the user the corresponding field security profile.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Field Security profiles](media/users-2.png) 
-
-4. Open the dispatcher's user record, and then select **Field Security Profiles**.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of field security profiles in Dynamics 365 dropdown](media/users-4.png) 
-
-1.  Assign the **Field Service – Dispatcher** field security role.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Field Security profile for dispatchers](media/users-5.png) 
-
-## Set up a technician user
-
-1. Go to **Settings** > **Security** > **Users**.
-
-2. Select a user other than your dispatcher/administrator user to be a field technician, and then assign the **Field Service – Resource** and **Field Service—App Access** security roles.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of adding secuirty roles for resources (field technicians)](media/users-6.png) 
-
-3. For the same user, select **Field Security Profiles**.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of accessing field security profiles from the dynamics 365 dropdown menu](media/users-8.png) 
-
-5. Assign the field technician user the **Field Service – Resource** field security profile. 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of adding the resource field security profiles to a user record](media/users-9.png) 
-
-> [!Note]
-> Field technicians aren't able to edit fields on the mobile work order form untl you complete this step.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of field security profile](media/users-10.png) 
-
-## Set up geocoding for a field technician user
-To set up geocoding to enable location awareness for scheduling and routing, define where each resource starts and/or ends the day. 
-
-1.  Go to **Settings** > **Users**, and then select the field technician's record.
-
-2.  Verify that the record includes an address. 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Dynamics 365 user record address](media/users-14.png) 
-
-If there isn't already an address for the user, navigate to the Microsoft 365 admin center and enter one. To display the address in the Dynamics 365 organization, refresh the page.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of office 365 user](media/users-15.png) 
-
-3.  To enable geocoding in the Dynamics 365 organization, go to **Resource Scheduling** > **Administration** > **Scheduling Parameters**.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Resource Scheduling Administration in Dynamics 365 dropdown menu](media/users-17.png) 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of how to access scheduling parameters](media/users-18.png) 
-
-4.  To tag a latitude and longitude for the address on the user record, set **Connect to Maps** to **Yes**. The API key is filled out automatically to use Bing Maps API.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of connecting to maps and Bing Maps API in Dynamics](media/users-19.png) 
-
-5. Go to the user record, and then select **Geo Code**.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of geocoding user record](media/users-20.png) 
-
-6. On the **Found Places** dialog, choose the address.
-> [!div class="mx-imgBorder"]
-> ![Screenshot of system finding address](media/users-21.png) 
-
-7.  Select **Change**.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of latitiude and longitude from geocoding process](media/users-22.png)
-
-8. Verify that the latitude and longitude display in the **Scheduling** section.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of latitiude and longitude being populated on user record](media/users-23.png) 
-
-> [!Note]
-> If you are having trouble populating an address or geocoding an address, manually enter a latitude and longitude into the fields.
-
-
