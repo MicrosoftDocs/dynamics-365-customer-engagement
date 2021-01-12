@@ -717,7 +717,7 @@
       href: oc-customizer/configure-session-name-information.md
     - name: Add personalization tab
       href: oc-customizer/add-personalization-tab.md
-    - name: Configure Scriptlets to define case and channel titles 
+    - name: Configure scriptlets to define case and channel titles 
       href: oc-customizer/configure-Scriptlets-define-case-channel-titles.md
     - name: Configure link to conversation button in Unified Service Desk 
       href: oc-customizer/configure-link-to-conversation.md
