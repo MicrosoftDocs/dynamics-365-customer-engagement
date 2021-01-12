@@ -1,5 +1,5 @@
 ---
-title: "Dynamics 365 for phones and tablets user's guide for Dynamics 365 Customer Engagement (on-premises) apps | MicrosoftDocs"
+title: "Dynamics 365 for phones and tablets user's guide for Dynamics 365 Customer Engagement (on-premises) apps| MicrosoftDocs"
 ms.custom: 
 description: How to use the Dynamics 365 for phones and tablets app with Dynamics 365 Customer Engagement (on-premises) 
 ms.date: 1/11/2021
