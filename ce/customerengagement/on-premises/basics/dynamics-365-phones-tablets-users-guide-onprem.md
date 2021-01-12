@@ -86,7 +86,7 @@ You can also sign in using your web address for the Dynamics 365 app and user na
 
 If you used the mobile app on a phone or tablet temporarily and want to remove all your cached data before giving the device to someone else, you need to reconfigure the app.
 
-- From the nav bar, select ![Dynamics 365 apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 apps ellipsis")  > **User Information** > **Reconfigure**. 
+- From the nav bar, select ![Dynamics 365 apps ellipsis](media/mobile-ellipsis.png "Dynamics 365 apps ellipsis")  > **User Information** > **Reconfigure**. 
 
      > [!div class="mx-imgBorder"] 
      > ![Reconfigure the mobile app](media/reconfigure.png "Reconfigure the mobile app")
@@ -131,7 +131,7 @@ Dashboards give you an overview of valuable information. Select on the Home butt
    > [!div class="mx-imgBorder"] 
    > ![Chart in full screen view](media/expandchart.png "Chart in full screen view")
    
-- To view records in chart or refresh the chart view, select ![Dynamics 365 apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 apps ellipsis") and then choose an  action: **Refresh** or **View Records**. 
+- To view records in chart or refresh the chart view, select ![Dynamics 365 apps ellipsis](media/mobile-ellipsis.png "Dynamics 365 apps ellipsis") and then choose an  action: **Refresh** or **View Records**. 
 
    > [!div class="mx-imgBorder"] 
    > ![Refresh or view charts](media/charts_01.png "Refresh or view a chart")
@@ -157,7 +157,7 @@ Charts give you a quick view of how you’re tracking to your goals. They’re i
 
 The **Quick create Menu** makes it fast and easy to add data into the system. 
     
-1.  To create a new record, on the navigation bar select, the More button ![Dynamics 365 apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 apps ellipsis").
+1.  To create a new record, on the navigation bar select, the More button ![Dynamics 365 apps ellipsis](media/mobile-ellipsis.png "Dynamics 365 apps ellipsis").
 
 2.  Select **Quick Create Menu**.
 
@@ -180,7 +180,7 @@ Take action on a record without opening the record.
     > [!div class="mx-imgBorder"] 
     > ![Choose record](media/actionmenu1.png "Choose record").
 
-2. From the list of records, select ![Dynamics 365 apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 apps ellipsis") on the record you want to update and then select an action such as **Assign**, **Deactivate** or **Delete**. 
+2. From the list of records, select ![Dynamics 365 apps ellipsis](media/mobile-ellipsis.png "Dynamics 365 apps ellipsis") on the record you want to update and then select an action such as **Assign**, **Deactivate** or **Delete**. 
 
     > [!div class="mx-imgBorder"] 
     > ![Action menu](media/actionmenu.png "Take action on a record").
@@ -200,7 +200,7 @@ Activities are details that you add to a record which include things like notes,
     > [!div class="mx-imgBorder"] 
     > ![Choose record](media/actionmenu1.png "Choose record").
 
-2. On the open record, next to **Summary** select ![Dynamics 365 apps ellipsis](../mobile-app/media/mobile-ellipsis.png) > **Timeline**.
+2. On the open record, next to **Summary** select ![Dynamics 365 apps ellipsis](media/mobile-ellipsis.png) > **Timeline**.
 
     > [!div class="mx-imgBorder"] 
     > ![Choose the timeline](media/timeline3.png "Choose the timeline").
@@ -219,9 +219,9 @@ Activities are details that you add to a record which include things like notes,
 
 ### Sort and filter the Timeline view
 
-- Select ![Dynamics 365 apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 apps ellipsis") and select **Open Filter Pane** to filter the records in the timeline by record type or to refresh the Timeline.
+- Select ![Dynamics 365 apps ellipsis](media/mobile-ellipsis.png "Dynamics 365 apps ellipsis") and select **Open Filter Pane** to filter the records in the timeline by record type or to refresh the Timeline.
 
-- Select ![Sort timeline view](../mobile-app/media/sortbutton.png "Sort timeline view") to change the sort order for the records from ascending to descending and vice versa.
+- Select ![Sort timeline view](media/sortbutton.png "Sort timeline view") to change the sort order for the records from ascending to descending and vice versa.
 
 
 ## Send an email or make a call
@@ -307,7 +307,7 @@ The assistant reminds you of upcoming activities; it evaluates your communicatio
 
 The assistant draws your attention to your most important items and tasks, drawn from all areas of the app.
 
-- To access the assistant, on the nav bar, select the More button  ![Dynamics 365 apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 apps ellipsis") > **Relationship Assistant**.
+- To access the assistant, on the nav bar, select the More button  ![Dynamics 365 apps ellipsis](media/mobile-ellipsis.png "Dynamics 365 apps ellipsis") > **Relationship Assistant**.
 
     > [!div class="mx-imgBorder"] 
     > ![Dynamics 365 for phones and tablets Relationship Assistant](media/RelationshipAssistant.png "Dynamics 365 for phones and tablets Relationship Assistant")
@@ -317,12 +317,8 @@ The assistant draws your attention to your most important items and tasks, drawn
 ## Privacy notices  
 [!INCLUDE[cc_privacy_crm_for_tablets](../includes/cc-privacy-crm-for-tablets.md)]
   
-<!-- [!INCLUDE[cc_privacy_crm_cortana](../includes/cc-privacy-crm-cortana.md)] -->
+
   
 [!INCLUDE[cc_privacy_moca_user_content_and_location](../includes/cc-privacy-moca-user-content-and-location.md)]
 
-### See Also  
- [What's supported](support-phones-tablets.md) </br>
- [Troubleshooting](troubleshooting-things-know-about-phones-tablets.md)<br/>
- [Microsoft Dataverse Help](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)<br/>
- [Microsoft Dynamics 365 Customer Engagement (on-premises) Help](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/overview)
+
