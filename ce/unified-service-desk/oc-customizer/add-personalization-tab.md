@@ -8,7 +8,6 @@ ms.date: 01/12/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
-::: moniker range=">=dynamics-usd-4.1"
 
 # Add personalization tab
 
@@ -90,6 +89,6 @@ You can can add the personalization tab by doing the following:
 
  After the personalization tab is added, you can create your personal quick replies. More information: [Create personal quick replies in Omnichannel for Customer Service in Unified Service Desk](../oc-usd/create-personal-quick-replies-usd.md).
 
-::: moniker-end
+
 
 
