@@ -144,7 +144,7 @@ Charts give you a quick view of how you’re tracking to your goals. They’re i
 - Select again on the same section to see a grid view with more details about the data in the chart.
   
    > [!div class="mx-imgBorder"] 
-   > ![Record view of chart](../mobile-app/media/Recordview-1.png "Record view of chart") 
+   > ![Record view of chart](media/Recordview-1.png "Record view of chart") 
       
  
 - To change the chart view to show a different breakdown of your data, select the down arrow next to the name of the chart, and then select the chart that you want to view.
