@@ -14,7 +14,7 @@
 ## [Migrate to the Power Apps mobile app](migration.md)
 
 # User Guides
-## [Basic navigation in Dynamics 365 for phones and tablets (Preview)](user-guide-mobile-app.md)
+## [Basic navigation in Dynamics 365 for phones and tablets](user-guide-mobile-app.md)
 ## [User Guide for Dynamics 365 for phones and tablets](dynamics-365-phones-tablets-users-guide.md)
 ## [Send email from the mobile app](send-email.md)
 ## [Work offline on your mobile device](work-in-offline-mode.md)
