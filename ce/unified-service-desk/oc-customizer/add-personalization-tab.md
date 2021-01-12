@@ -25,6 +25,7 @@ You can can add the personalization tab by doing the following:
 
 3. Add artefacts to the configuration of agent.
 
+
 ### Create an action call record
 
 1. Open the **Unified Service Desk Administrator** app. In the left pane, go to **Basic Settings** > **Action Calls**.
@@ -46,6 +47,7 @@ You can can add the personalization tab by doing the following:
     > [!div class=mx-imgBorder]
     > ![Create new action call record](../media/create-new-action-call-record.png "Create new action call record")
 
+
 ### Add a toolbar button
 
 1. In the left pane, under **Basic Settings**, go to **Toolbars** > **Omnichannel ToolbarStrip**.
@@ -64,6 +66,7 @@ You can can add the personalization tab by doing the following:
     * **Tooltip**: Personalization
 
 4. Select **Save**.
+
 
 ### Add artefacts to the configuration of agent
 
