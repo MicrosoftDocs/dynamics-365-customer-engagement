@@ -68,20 +68,17 @@ Within your offline profile you can:
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Power Platform admin center, showing mobile offline profiles.](./media/mobile-2020-offline-profile-ppac.png)
 
-## Copy the default offline profile
+## Add users to the offline profile
 
-Make a copy of the **Field Service Mobile - Offline Profile**. 
-
-> [!Note]
-> The **Field Service Mobile - Offline Profile** is often updated when the Field Service app is updated. If you edit the default offline profile, then you will not receive updates. Updates are why we recommmend making a copy of the default offline profile instead. 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the Power Platform admin center showing the copy option for the Field Service Mobile - Offline profile.](./media/mobile-2020-offline-profile-copy.png)
+Open the **Field Service Mobile - Offline Profile**.  
 
 Add the users who need to work offline in the right **People with offline access** panel. Users must be added here in order to download data offline.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Power Platform admin center, showing the section where to add users to the offline profile.](./media/mobile-2020-offline-profile-add-user.png)
+
+
+## Edit the offline profile
 
 For each entity, you can choose a data download filter:
 
@@ -100,6 +97,21 @@ For example, the **Bookable Resource Booking** (in other words, the booking) ent
 
 **Save and Publish** the offline profile.
 
+> [!Note]
+> The default offline profile is updated periodically as part of Field Service updates. If you edited the offline sync filter of an entity, the entity's sync filter will not receive updates; other entity sync filters that have not been edited will receive updates in an unpublished state. Administrators can review the updates and decide if they want to take the update or continue with the previous sync filters. This only applies to sync filters and relationships will receive updates while keeping your specific changes.
+
+
+For more information on offline profiles, see the article on [setting up mobile offline synchronization](https://docs.microsoft.com/dynamics365/mobile-app/preview-setup-mobile-offline).
+
+## Sync filters
+
+Define how often the app will automatically attempt to sync changes and download new records for each entity. By default, the mobile app will attempt to sync changes and download new records every five minutes.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the Power Platform admin center, showing the option to customize the records you want to make available offline.](./media/mobile-2020-offline-sync-filter.png)
+
+
 ## Add the offline profile to the app
 
 Go to your Dynamics 365 apps by going to ```yourenvironment.crm.dynamics.com/apps```, then go to the app designer for Field Service Mobile.
@@ -117,16 +129,22 @@ Go to **Properties** and add the offline profile you published if it is not alre
 
 ## Configuration considerations
 
-### Offline sync filters
+#### Copy the offline profile 
 
-- **Offline profiles get updated**. The default offline profile may receive updates over time, but updates will come in an unpublished state. This method allows organizations to review the updates and decide if they want to take the update or continue with previous version. If entities in the default offline profile are modified, those entities will be considered unmanaged and won't receive future updates while unmodified entities are still eligible for update.
+While we recommend making changes directly to the default offline profile to receive updates, you can also copy the offline profile and make offline filter changes in the copy. The copy is considered unmanaged and will not receive any updates. If you make changes to the default offline profile and want to see the latest unadulterated offline profile, you can create a new trial of Field Service and view the included profile.
 
-- **Sync conflicts.**  Sync conflicts can happen if there is a mismatch between data on the device and data on the server. A conflict is raised at the entity level and not per field. Conflict errors can be resolved based on the settings set by the administrator. If your administrator has set the conflict resolution to "No," then the data value on your client device wins and there will be no sync errors. "No" is the default value for Field Service Mobile. If your administrator has set the conflict resolution to "Yes," then the data value on the server wins. In this case, while syncing changes to the server, you might see some errors that are automatically resolved. Client changes are overwritten by server values.
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the Power Platform admin center showing the copy option for the Field Service Mobile - Offline profile.](./media/mobile-2020-offline-profile-copy.png)
 
-### Known limitations
+
+#### Sync conflicts
+
+Sync conflicts can happen if there is a mismatch between data on the device and data on the server. A conflict is raised at the entity level and not per field. Conflict errors can be resolved based on the settings set by the administrator. If your administrator has set the conflict resolution to "No," then the data value on your client device wins and there will be no sync errors. "No" is the default value for Field Service Mobile. If your administrator has set the conflict resolution to "Yes," then the data value on the server wins. In this case, while syncing changes to the server, you might see some errors that are automatically resolved. Client changes are overwritten by server values.
+
+#### Known limitations
 
 - Offline sync filters: If a record is created from the device while in offline mode, and that record does not meet filter conditions, then the record does not get resynchronized from the service until conditions are met.
-- Offline sync filters: If commands or capabilities are set up to work with internet connectivity but not in offline mode, those capabilities should be reviewed to confirm they are calling correct APIs: ```xml.webapi.online```.
+- Offline sync filters: If commands or capabilities are set up to work with internet connectivity but not in offline mode, those capabilities should be reviewed to confirm they are calling correct APIs: ``` Xrm.WebApi.online```.
 
 
 ### See also
