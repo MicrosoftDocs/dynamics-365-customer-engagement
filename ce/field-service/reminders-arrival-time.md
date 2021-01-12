@@ -1,5 +1,5 @@
 ---
-title: "Send customers the technician's arrival time | MicrosoftDocs"
+title: "Send customers the technicians' arrival times | MicrosoftDocs"
 description: description
 ms.custom:
 - dyn365-fieldservice
@@ -19,7 +19,7 @@ search.app:
 - D365FS
 ---
 
-# Send customers the technician's arrival time
+# Send technician arrival times to customers
 
 
 > [!Note]
