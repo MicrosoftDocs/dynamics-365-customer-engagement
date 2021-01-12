@@ -4,7 +4,7 @@ description: "Timeline Overview for Users"
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 12/17/2020
+ms.date: 01/12/2020
 ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ms.reviewer: lalexms
