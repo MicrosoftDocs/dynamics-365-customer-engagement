@@ -55,6 +55,8 @@ The following capabilities are available in the different app experiences, depen
 | Licensing: Digital Messaging  | ✔  | ✔ | ✖ | ✖ |✖  |
 |||||||
 
+**Legend**
+
 ✔: Generally available.
 
 ✖: Not available
