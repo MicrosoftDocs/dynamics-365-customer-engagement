@@ -717,6 +717,8 @@
         href: oc-customizer/search-step7-add-hosted-control-action-calls-events-configurations.md
     - name: Configure session name information 
       href: oc-customizer/configure-session-name-information.md
+    - name: Add personalization tab
+    - href: oc-customizer/add-personalization-tab.md
     - name: Configure Scriptlets to define case and channel titles 
       href: oc-customizer/configure-Scriptlets-define-case-channel-titles.md
     - name: Configure link to conversation button in Unified Service Desk 
