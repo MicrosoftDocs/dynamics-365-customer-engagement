@@ -28,6 +28,9 @@ search.app:
 
 Improve your customers Field Service experience by providing visibility into upcoming service visits. Automated service reminders will ensure customers are ready and available when the technician arrives, eliminating wasted trips.  Real-time location tracking while the technician is in route will help your customers better plan their time around a service visit. 
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/technician-locator-hero.jpg)
+
 Key Features:
 - Send automated service schedule reminders and updates to your customers via Email and/or SMS.  
 - Responsive online destination providing additional details on a service visit allows your customer to access via Mobile, Tablet, or Desktop.
@@ -52,18 +55,6 @@ Key Features:
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/01_PAPortal_FSTemplate.jpg)
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 -- Enter your Portal name and desired subdomain.
@@ -103,49 +94,49 @@ Key Features:
 Messages are sent via SMS and/or Email.  Messages are sent to Primary Contact of the Service Account. Messages are automatically generated with the following events:
 
 - Service Reminder: Sent when a Booking is scheduled. This reminder message is sent within 7 days of the scheduled service time. 
-- By default Service Reminders will send daily at X:XX UTC. This time can be adjusted in the Power Automate Flow.
-- Technician Traveling: Sent when Booking status is “Traveling”. This message communicates estimated time of arrival while considering traffic on expected route.
-- Service Complete: Sent when Booking status is “Complete”.
-- *Service Rescheduled: Sent when a scheduled service appointment changes by >10 minutes from previously scheduled start time.
-- *Service Canceled: When a scheduled service appointment is canceled.
-
-*Service Reschedule & Service Cancel messages are only sent if a Reminder message had previously been sent.
-
-![Reminder Email Example](./media/ABC.png "Reminder Email Example")
-
-![Traveling Email Example](./media/ABC.png "Traveling Email Example")
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/10_email-reminder.jpg)
 
+- By default Service Reminders will send daily at X:XX UTC. This time can be adjusted in the Power Automate Flow.
+- Technician Traveling: Sent when Booking status is “Traveling”. This message communicates estimated time of arrival while considering traffic on expected route.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/11_email-reschedule.jpg)
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/13-email-traveling.jpg)
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/15-email-cancel.jpg)
 
+- Service Complete: Sent when Booking status is “Complete”.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/15-email-completed.jpg)
+
+- *Service Rescheduled: Sent when a scheduled service appointment changes by >10 minutes from previously scheduled start time.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/11_email-reschedule.jpg)
+
+
+- *Service Canceled: When a scheduled service appointment is canceled.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/15-email-cancel.jpg)
+
+*Service Reschedule & Service Cancel messages are only sent if a Reminder message had previously been sent.
+
 
 ## Power Apps Portal Experience
 Customers primary means of interacting with the experience is via Power Apps Portals. Your portal will have different states depending on the Field Service booking lifecycle.
 
 - Remind, Traveling, and Completion messages include a link to an online web experience hosted on Power Portals.
-- Responsive design makes this portal accessible from mobile, tablet, or desktop. 
-- This online customer portal renders different states depending on state of the associated Booking.
-- When Booking is in “Traveling” state, the experience includes details of the Technician as well as the Technicians current location on an Azure map. The map will show near real-time location of technician based on signal from the Field Service Mobile application.
-
-
-
-
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/12-portal-desktop-reminder.jpg)
+
+
+- Responsive design makes this portal accessible from mobile, tablet, or desktop. 
+- This online customer portal renders different states depending on state of the associated Booking.
+- When Booking is in “Traveling” state, the experience includes details of the Technician as well as the Technicians current location on an Azure map. The map will show near real-time location of technician based on signal from the Field Service Mobile application.
 
 
 
@@ -158,16 +149,7 @@ Customers primary means of interacting with the experience is via Power Apps Por
 
 
 
-
-![Reminder State from Desktop](./media/ABC.png "Reminder State from Desktop")
-
-![Reminder State from Mobile](./media/ABC.png "Reminder State from Mobile")
-
-![Traveling State from Desktop](./media/ABC.png "Traveling State from Desktop")
-
-![Traveling State from Mobile](./media/ABC.png "Traveling State from Mobile")
-
-## Configure the portal
+## Customize the portal
 Configuration is done via Field Service Settings > Customer Portal > Customer Portal Settings 
 
 Configuration options include:
@@ -187,7 +169,7 @@ Configuration options include:
 
 
 
-## Add branding & Content to the portal
+## Add branding & content to the portal
 Branding & Content updates are done via Field Service Settings > Customer Portal > Customer Portal Settings > Display
 Branding Options:
 - Font Type & Color of the online portal experience.
