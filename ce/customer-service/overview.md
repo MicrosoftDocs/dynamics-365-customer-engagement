@@ -15,7 +15,7 @@ ms.custom:
 
 Welcome to Dynamics 365 Customer Service! We are delighted to offer you a suite of capabilities to ensure your business can deliver the best customer service experience possible to your customers. We believe that knowing your customers enables you to personalize each experience and optimizes your agents' productivity so you can earn customers for life. 
 
-We offer several app experiences for you to choose from, depending on your support organization’s needs, and the data is all stored in Microsoft Dataverse, which makes it seamless for you to switch between apps and still be able to work with a customer's existing data across them.
+We offer several app experiences for you to choose from, depending on your support organization’s needs.
 
 Use [!INCLUDE[pn-ms-dyn-365-for-customer-service](../includes/pn-ms-dyn-365-for-customer-service.md)] to:
 
@@ -23,7 +23,7 @@ Use [!INCLUDE[pn-ms-dyn-365-for-customer-service](../includes/pn-ms-dyn-365-for-
 - Record all interactions related to a case
 - Share information in the knowledge base
 - Create queues and route cases to the right channels
-- Create and track service levels through service level agreements (SLAs) 
+- Create and track service levels through service-level agreements (SLAs) 
 - Define service terms through entitlements
 - Manage performance and productivity through reports and dashboards
 - Create and schedule services
@@ -43,7 +43,7 @@ The following capabilities are available in the different app experiences, depen
 | Insights  | ✔ | ✔| ✔ | ✖ | ✖ |
 | Service Scheduling  | ✖ | Not applicable | ✔ | ✖ | ✔ |
 | Connected Service with IoT  |✖  | ✖ | ✔  | ✖ |✖  |
-| Extensibility  | ✔ with Channel Integration Framework version 2.0, BYOC | ✔ with Channel Integration Framework version 2.0, Custom messaging channel, Mobile SDK | ✔ with Channel Integration Framework version 1.0 | ✖ | ✖ |
+| Extensibility  | ✔ with Channel Integration Framework version 2.0, custom messaging channel | ✔ with Channel Integration Framework version 2.0, custom messaging channel, Mobile SDK | ✔ with Channel Integration Framework version 1.0 | ✖ | ✖ |
 | Unified Interface compliant  | ✔ | ✔ | ✔ | ✔ |✖  |
 | Basic Administration  |Customer Service Hub -> Service Management  | Omnichannel Administration application |Customer Service Hub -> Service Management  | ✖ | Settings -> Service Management |
 | Case Routing & Queue Configuration  | Customer Service Hub -> Service Management | Omnichannel Administration application |Customer Service Hub -> Service Management  | ✖ | Settings -> Service Management |
@@ -55,7 +55,8 @@ The following capabilities are available in the different app experiences, depen
 | Licensing: Digital Messaging  | ✔  | ✔ | ✖ | ✖ |✖  |
 |||||||
 
-✔: Supported for general availability.
+✔: Generally available.
+
 ✖: Not available
 
 ## Available anywhere, on any device
