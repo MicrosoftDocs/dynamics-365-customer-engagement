@@ -29,6 +29,10 @@ ms.service: dynamics-365-customerservice
     |  | **Authentication settings** |Select an authentication setting from the list. This is an optional field. More information: [Create chat authentication settings](create-chat-auth-settings.md) | Chat authentication |
     |||
 
+    |Section | Field | Description | Example value |
+    |--------|-------|-------------|-------------------------------|
+    |**Conversation Mode** | **Persistent chat** | Select the conversation mode from the list. For more information, see: [Persistent chat](persistent-chat.md) | Persistent chat|
+
     | Section | Field | Description | Example value |
     |---------------|------------------------|-----------------------------------|---------------------|
     | **Work distribution** | **Work stream** | Select a work stream from the list. Initially, a default a work stream is selected. <br>More information: [Understand and create work streams](work-streams-introduction.md) <br> **Note:** <br> If you save the chat widget, you can't edit the **Work stream** field. If you want to edit the field, you must delete the chat widget and create a new one. | Live work stream |

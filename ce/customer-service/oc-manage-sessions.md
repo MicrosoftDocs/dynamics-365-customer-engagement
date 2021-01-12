@@ -61,6 +61,16 @@ When you switch sessions, unsaved changes are not lost and you can continue to w
 
 For example, you are working on a case by entering the title of the case and not yet saved the form. Now, you get a notification about the incoming conversation and you accept the request, which leads to starting of a new session. Again, you can switch back to case session and the data entered is present for you to continue.
 
+## Persistent chat for agents
+
+If your organization has chosen persistent chat as the mode of conversation, you should train your agents on the following aspects: 
+
+- Agents should not end the conversation; instead, they should close the conversation so that it is moved into a waiting state, which is typically 28 days or the value that is configured in the work stream.
+
+- Agents need to confirm if the customer's issues is resolved and then end the session by selecting **End**. After the agent ends the chat, the chat history will not be shown when the customer comes back. A fresh chat session will be initiated.
+
+**Note**: Agents should be trained to verify with customers that issues are resolved before taking this step.
+
 ## Close a session
 
 You can close any session manually by selecting the **X** button next to the session title. When you hover the cursor on a session, you see the **X** button, and if you select the button, a confirmation dialog is shown to you.
