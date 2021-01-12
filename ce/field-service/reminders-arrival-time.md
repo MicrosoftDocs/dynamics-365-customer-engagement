@@ -63,20 +63,6 @@ Key Features:
 > ![Screenshot of ](./media/05_FSSettings_landing.jpg)
 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/07_FSSettings_notifications.jpg)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/07a_FSSettings_notifications-details.jpg)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/08_FSSettings_BookingNotifications.jpg)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/09_FSSettings_BookingNotifications-details.jpg)
 
 
 > [!div class="mx-imgBorder"]
@@ -169,7 +155,7 @@ Customers primary means of interacting with the experience is via Power Apps Por
 
 ![Traveling State from Mobile](./media/ABC.png "Traveling State from Mobile")
 
-## Configuration
+## Configure the portal
 Configuration is done via Field Service Settings > Customer Portal > Customer Portal Settings 
 
 Configuration options include:
@@ -185,7 +171,7 @@ Configuration options include:
 
 ![Field Service Customer Portal Settings](./media/ABC.png "Field Service Customer Portal Settings")
 
-## Branding & Content
+## Add branding & Content to the portal
 Branding & Content updates are done via Field Service Settings > Customer Portal > Customer Portal Settings > Display
 Branding Options:
 - Font Type & Color of the online portal experience.
@@ -199,9 +185,25 @@ Branding Options:
 ## Additional Settings
 Two additional sections under Customer Portal in Field Service settings provide a way to review all past messages and overwrite messaging settings for the portal.
 
-### Notifications
-Notifications settings area provides a real-only view of all messages which have been sent to customers. Here you can view which customers have received a message, which type of message, and which state of the message.
-![Booking Notification Settings](./media/ABC.png "Booking Notification Settings")
+### Notification settings
+Notification settings area provides a real-only view of all messages which have been sent to customers. Here you can view which customers have received a message, which type of message, and which state of the message.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/07_FSSettings_notifications.jpg)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/07a_FSSettings_notifications-details.jpg)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/08_FSSettings_BookingNotifications.jpg)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/09_FSSettings_BookingNotifications-details.jpg)
+
 
 ### Booking Notifications
-The Booking Notifications settings area provides visibility the Field Service Admin a way to extend, expire, or block access to a portal link which has been shared with a customer. 
+The Booking Notification settings area provides visibility the Field Service Admin a way to extend, expire, or block access to a portal link which has been shared with a customer. 
