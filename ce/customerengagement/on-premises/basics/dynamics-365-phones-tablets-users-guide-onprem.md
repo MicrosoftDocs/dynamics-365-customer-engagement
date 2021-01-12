@@ -126,7 +126,7 @@ Dashboards give you an overview of valuable information. Select on the Home butt
   > [!div class="mx-imgBorder"] 
   > ![Dynamics 365 apps phones and tablets dashboards](media/DashboardsOnHomePage_4.png "Dynamics 365 apps phones and tables dashboards")
   
-- To view a chart in the dashboard in full screen mode, select the Expand button ![Full screen button](media/expandviewbutton.png "Full screen button").
+- To view a chart in the dashboard in full screen mode, select the Expand button ![Full screen button](media/expandviewbutton-1.png "Full screen button").
 
    > [!div class="mx-imgBorder"] 
    > ![Chart in full screen view](media/expandchart.png "Chart in full screen view")
@@ -144,7 +144,7 @@ Charts give you a quick view of how you’re tracking to your goals. They’re i
 - Select again on the same section to see a grid view with more details about the data in the chart.
   
    > [!div class="mx-imgBorder"] 
-   > ![Record view of chart](../mobile-app/media/Recordview.png "Record view of chart") 
+   > ![Record view of chart](../mobile-app/media/Recordview-1.png "Record view of chart") 
       
  
 - To change the chart view to show a different breakdown of your data, select the down arrow next to the name of the chart, and then select the chart that you want to view.
