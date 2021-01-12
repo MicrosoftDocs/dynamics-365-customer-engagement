@@ -6,7 +6,7 @@
 ## [Manage and secure devices](secure-manage-phones-tablets.md)
 
 # Set-up mobile offline
-## [Configure mobile offline](preview-setup-mobile-offline.md)
+## [Configure mobile offline](setup-mobile-offline.md)
 ## [Mobile offline capabilities and limitations](mobile-offline-capabilities.md)
 
 # Install the mobile app
