@@ -24,7 +24,7 @@ None
 
 ## Return Value
 
-A string resolved with currently ongoing conversation id.
+A promise resolved with currently ongoing conversation id.
 
 ## Example
 
