@@ -34,7 +34,7 @@ Use the Dynamics 365 for phones and Dynamics 365 for tablets to run Dynamics 365
 > - You can use web browsers on your tablet to run your model-driven apps, but for full functionality and optimized experience we strongly recommend that you use the Dynamics 365 for tablets app. Using the web browser on your phone to run your model-driven apps isn't supported; you must use the Dynamics 365 for phones app. More information: [What's supported](https://docs.microsoft.com/dynamics365/mobile-app/support-phones-tablets).
     
 ## Install the app from your device’s app store  
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install Dynamics 365 for phones and tablets](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets.md)    
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install Dynamics 365 for phones and tablets](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets)    
 
 ## Sign in and sign out 
 
