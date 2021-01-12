@@ -104,7 +104,7 @@ Apple Safari:<a name='apple-safari'></a>
     - Your Dynamics 365 organization allows pop-up windows.     
     - In **Privacy** tab, the **Prevent cross-site tracking** and **Block all Cookies** options are not selected. 
 
-## Unable to view photos on custom contact and lead forms   
+## Unable to view photos on custom contact and lead forms in Unified Interface   
 **Reason**    
 By default, the photos from LinkedIn are displayed on the out-of-the-box Contact and Lead forms. For custom forms, you can't have the photos displayed by default. 
 
