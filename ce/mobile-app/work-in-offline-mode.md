@@ -137,19 +137,7 @@ With intermittent connectivity, it is recommended to switch to offline mode. As 
 
    > [!div class="mx-imgBorder"] 
    > ![Work in offline mode](media/set_offline_toggle.png "Set toggle to work in offline mode") 
-### Check offline status from the main menu (applies to only the current version of the Dynamics 365 mobile app)
-
-You can also see which entities are available in offline mode from the main menu.
-
-- From the nav bar, select ![Menu button](media/MenuButton.png "Menu button").
-
-  -  A green Wi-Fi icon next to the entity name indicates that it is available in offline mode.
-  -  A red Wi-Fi icon indicates that this entity is enabled for offline use but is not available to work in offline mode due to an error or missing updates.
-  -  If no Wi-Fi icon is visible, it means your admin has not enabled the entity to use in offline mode.
-
-     > [!div class="mx-imgBorder"] 
-     > ![Available entities for mobile offline](media/available_entites.png "Available entities for mobile offline")
-     
+   
 
 ## Sync conflict resolution
 
