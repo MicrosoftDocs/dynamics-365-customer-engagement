@@ -40,8 +40,8 @@ Features of the technician reporting PCF control:
 
 ## Set up mobile reporting
 
-1. Download the [reporting solution](http://aka.ms/fsmreporting-solution).
-2. Download sample [reporting PCF control](http://aka.ms/fsmreporting-pcf) source code.
+1. Download the [reporting solution](https://aka.ms/fsmreporting-solution).
+2. Download sample [reporting PCF control](https://aka.ms/fsmreporting-pcf) source code.
 3. Import the reporting solution into your environment. The import will install a reporting form, ribbon command, and includes a sample report so you can execute functionality within your environment.
 4. After importing the reporting solution, open your Field Service mobile app module in the app designer and enable the reporting form for the bookable resource booking entity.
 5. Use your favorite IDE to edit the sample reporting PCF control. Modify this control to change layout, add more branding, updated data, or other updates necessary to meet your reporting requirements.
