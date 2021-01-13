@@ -3,7 +3,7 @@ title: "Configure offline data for the Field Service (Dynamics 365) mobile app |
 description: Learn how to configure offline data for the Field Service (Dynamics 365) mobile app.
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 10/30/2020
+ms.date: 01/13/2021
 ms.reviewer: krbjoran
 ms.topic: article
 ms.service: dynamics-365-customerservice
@@ -127,6 +127,27 @@ Go to **Properties** and add the offline profile you published if it is not alre
 > [!Note]
 > Field Service customers can create additional offline profiles to enable scenarios where different user roles have different sync settings or entities available to them. For example, a Field Service manager may require seeing a broader scope of work orders that may not be assigned to the current operator of the mobile app. If you create a new offline profile, you'll need to add it to the Field Service Mobile app in the app designer as well.
 
+## Sync conflicts 
+
+Sync conflicts can happen if there is a mismatch between data on the device and data on the server. An example is when a frontline worker edits a work order on his or her mobile app and a back office dispatcher edits the same work order on his or her computer, but neither of these modifications have yet been synchronized between them. Thus a conflict occurs: Which modification should be applied to the record, both in the app and on the server, after the next synchronization takes place?
+
+Conflict errors can be resolved based on the settings set by the administrator. A conflict is raised at the entity level and not per field.
+
+To set conflict detection navigate to Settings > Mobile Offline > Mobile Offline Settings and the “Mobile Client” tab.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-powerapp-sync-conflict-navigate.png)
+
+**Set conflict detection for mobile offline synchronization:**
+
+- **No**:  Data on the client device (mobile app) wins and there will be no sync errors. This is the default.
+
+- **Yes**: Data on the server wins. The technician using the application may see errors informing them of conflict.In this case, while syncing changes to the server, you might see some errors that are automatically resolved. Client changes are overwritten by server values.Data on the device may be overwritten by data from the server. In this case, while syncing changes to the server,
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-powerapp-sync-conflict.png)
+
+
 ## Configuration considerations
 
 #### Copy the offline profile 
@@ -137,9 +158,7 @@ While we recommend making changes directly to the default offline profile to rec
 > ![Screenshot of the Power Platform admin center showing the copy option for the Field Service Mobile - Offline profile.](./media/mobile-2020-offline-profile-copy.png)
 
 
-#### Sync conflicts
 
-Sync conflicts can happen if there is a mismatch between data on the device and data on the server. A conflict is raised at the entity level and not per field. Conflict errors can be resolved based on the settings set by the administrator. If your administrator has set the conflict resolution to "No," then the data value on your client device wins and there will be no sync errors. "No" is the default value for Field Service Mobile. If your administrator has set the conflict resolution to "Yes," then the data value on the server wins. In this case, while syncing changes to the server, you might see some errors that are automatically resolved. Client changes are overwritten by server values.
 
 #### Known limitations
 
