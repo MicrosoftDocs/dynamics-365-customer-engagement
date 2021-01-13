@@ -34,7 +34,7 @@ Having this information ready can help support agents reduce the hold time that 
 > ![Customer summary page](../media/oc-usd-customer360-page.png "Customer summary page")
 
 > [!NOTE]
-> We recommend you not to use **Advanced Find** ![Advanced find icon](../media/advanced-find-icon.png "Advanced find icon") to navigate to the **Customer Summary** form.
+> We recommend you not to use **Advanced Find** to navigate to the **Customer Summary** form.
 
 ## Customer
 
