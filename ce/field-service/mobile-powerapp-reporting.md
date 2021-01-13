@@ -21,7 +21,7 @@ search.app:
 
 # Field Service technician service reports
 
-Field Service technicians often will create service reports summarizing work done during a customer visit. These reports can carry details such as tasks completed, and products or parts used during the service. Service reports must often be delivered to the customer in the form of a PDF.
+Field Service technicians often create service reports summarizing work done during a customer visit. These reports can carry details such as tasks completed, and products or parts used during the service. Service reports must often be delivered to the customer in the form of a PDF.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service Mobile application reporting experience](./media/mobile-2020-reporting-app.png)
