@@ -27,9 +27,9 @@ search.app:
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Use the Microsoft Dynamics 365 (Preview) app to run your customer engagement apps in Dynamics 365 (such as Dynamics 365 Sales, Dynamics 365 Customer Service, and Dynamics 365 Marketing), on your mobile device.  
+Use the Microsoft Dynamics 365 app for Windows to run your customer engagement apps in Dynamics 365 (such as Dynamics 365 Sales, Dynamics 365 Customer Service, and Dynamics 365 Marketing), on your mobile device.  
 
-With this preview, the mobile offline feature is also available for Windows users.
+With early access, you can also use Dynamics 365 app for Windows in offline mode. For more information, see [Set up mobile offline](windows-mobile-app.md#set-up-mobile-offline-for-admins).
    
 ## Sign in
 
