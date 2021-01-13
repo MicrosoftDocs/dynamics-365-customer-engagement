@@ -4,7 +4,7 @@ description: "Learn how to configure proactive chat in Omnichannel for Customer 
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 01/11/2021
+ms.date: 01/13/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -41,10 +41,8 @@ When proactive chat is enabled, the chat invitation is displayed to customers ba
 > [!div class=mx-imgBorder]
 > ![Proactive chat notification](media/proactive-chat-invite.png "Proactive chat notification")
 
-A customer can choose to accept the chat invitation or close it. The chat invitation closes automatically after one minute if the customer does not accept it.
+The customer can accept the chat invitation or close it. If the customer doesn't accept, the chat invitation is closed automatically after a minute. The one-minute timer for automatic closure can't be configured.
 
-> [!NOTE]
-> The timer of one minute is not configurable.
 
 ## Agent experience of proactive chat
 
