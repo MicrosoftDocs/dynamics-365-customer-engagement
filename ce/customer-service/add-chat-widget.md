@@ -19,7 +19,7 @@ ms.service: dynamics-365-customerservice
 
 3. Select **New**. The **New Chat Widget** page is displayed.
 
-4. On the **General settings** tab, specify the information for the following fields.
+4. On the **General settings** tab, specify the information for the following fields. Enter the settings in the fields depending on the type of chat you want to configure.
 
     | Section | Field | Description | Example value |
     |---------------|------------------------|-----------------------------------|---------------------|
@@ -31,7 +31,7 @@ ms.service: dynamics-365-customerservice
 
     |Section | Field | Description | Example value |
     |--------|-------|-------------|-------------------------------|
-    |**Conversation Mode** | **Persistent chat** | Select the conversation mode from the list. For more information, see: [Persistent chat](persistent-chat.md) | Persistent chat|
+    |**Conversation Mode** | **Persistent chat** | Select the conversation mode from the list. For more information, see: [Persistent chat](persistent-chat.md) | Persistent chat or Live chat|
 
     | Section | Field | Description | Example value |
     |---------------|------------------------|-----------------------------------|---------------------|

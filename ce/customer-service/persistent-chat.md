@@ -31,25 +31,31 @@ The primary differences between live chat and persistent chat are as follows:
 
 ## How persistent chat works
 
-From the start of a conversation until the agent explicitly ends it, agents and customers will be able to see the history of the conversation in the chat widget. Customers can close the chat widget and come back over longer time periods, and still see their history, picking up where they left off. Agents can release their capacity while waiting for a customer reply by putting the chat into waiting state. After the issue is resolved, agents will end the conversation. The next time that a customer engages with chat, they will start a fresh session.
+From the start of a conversation until the agent explicitly ends it, agents and customers will be able to see the history of the conversation in the chat widget. Customers can close the chat widget and come back over longer time periods, and still see their history, picking up where they left off. When a customer is unresponsive for a long time, agents can attend to other conversations by moving their current conversation into a waiting stage. When the customer comes back to the chat, the agent is notified and the conversation can be picked up and resolved. 
 
 ## Set up persistent chat
 
-You can enable persistent chat in the chat widget settings for a chat channel. When persistent chat is chosen as the conversation mode, some fields in the settings will update to reflect this conversation mode. You will need to add authentication settings, which are required for persistent chat. 
+You can enable persistent chat in the chat widget settings for a chat channel.You will need to add authentication settings on, which are required to configure persistent chat. For more information on adding authentication settings, see : [Create chat authentication settings](create-chat-auth-settings.md)
 
 1. Sign into Omnichannel Administration.
 
 2. Go to **Channels** > **Chat**.
 
-3. Select **New chat widget**.
+3. Select **New chat widget**. For more information, see [Add a chat widget](add-chat-widget.md)
 
 4. In the **Conversation Mode** tab, select persistent chat.
 
-- The **auto-close after inactivity** field should be changed from 5 minutes to 28 days, allowing conversations to stay open longer.
+5. Select **Save**.
 
-- The **agent affinity** field should be set to true. When a customer returns to a persistent chat, this will ensure that the system first ties to connect them to the same agent. The default for live chat sets this to **false**, but for persistent chat it should be **true**.  
+6. Go to **Work Distribution Management** > **Work Streams**.
 
-- If an organization wants both a live chat widget and a persistent chat widget, create two separate work streams so the admin settings make sense for that conversation mode.   
+7. Change the **auto-close after inactivity** field from the default value to 28 days, allowing conversations to stay open longer.
+
+8. Set **agent affinity** to true. When a customer returns to the chat, this will ensure that the system first ties to connect them to the same agent. 
+
+**Note** : If you want to have both live and persistent chat widgets, ensure to create two separate work streams and update the settings accordingly.  
+
+9. Select **Save and close**.
 
 ### See also
 
