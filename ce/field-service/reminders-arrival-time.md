@@ -46,129 +46,11 @@ Key Features:
 
 
 
-## Setup & Deployment
-1.	Provision Field Service Customer Experience portal for your org.
--- Navigate to  http://make.powerapps.com > Create
--- Select the Customer Experiences 
+## Deploy the Field Service Portal (Preview) 
 
+Customers primary means of interacting with the experience is via a Power Apps Portals that they will open via an SMS or email on their phone, tablet, or desktop computer. 
 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/01_PAPortal_FSTemplate.jpg)
-
-
--- Enter your Portal name and desired subdomain.
--- This portal will include required packages for Field Service and Power Automate. 
--- You will receive an email notifying you when the portal is provisioned.
-
-2. Turn on Power Automate Flows. 
-
-Navigate to https://make.powerapps.com > Solutions 
-
-Click to access solution named Dynamics 365 Field Service PowerApps Portal – Flow 
-
-There are three Power Automate Flows under this solution. By default, email and SMS flows will be shipped “off” and will need to be turned on to enabled. 
-
- 
-
-Field Service PowerApps Power Flow Email Notification (required if using Email) 
-
-Click into the Flow 
-
-Click Edit 
-
-Configure your Twilio account details* 
-
-Turn on 
-
-Field Service PowerApps Portal Flow SMS Notifications (required if using SMS) 
-
-Click into the Flow 
-
-Click Edit 
-
-Configure your Exchange service account** 
-
-Turn On 
-
-Create notification items for bookings 
-
-By default, this Flow is “On”; no further action is needed. 
-
-This Flow creates notifications that will be sent for reminder messages. 
-
-This flow runs daily at 10:00 AM UTC. The run time can be configured by editing the Flow Recurrence. 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/03_PAFlow_Solution.jpg)
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/02_PAFlow_Flows.jpg)
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/recurrance-flow.jpg)
-
-*By default, Twilio is used as a popular SMS provider. You can substitute an alternate connector by cloning the Flow and modifying.
-
-**By default, Exchange is used as a common Email provider. You can substitute an alternate email connector by cloning the Flow and modifying.
-
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/technician-locator-mobile-scheduled.jpg)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/technician-locator-mobile-en-route.jpg)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/technician-locator-mobile-complete.jpg)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/technician-locator-mobile-cancel.jpg)
-
-
-## Messaging
-> [!Note] Please be aware that when configuring Email & SMS communication, reminder emails will be sent to Primary Contacts of the Account associated with bookings. When testing in non-production orgs, please ensure your test data does not have real customer email or phone numbers. If your org contains real data you can evaluate preventing unnecessary communication by adding all accounts to Exclusion Lists.
-
-Messages are sent via SMS and/or Email.  Messages are sent to Primary Contact of the Service Account. Messages are automatically generated with the following events:
-
-- Service Reminder: Sent when a Booking is scheduled. This reminder message is sent within 7 days of the scheduled service time. 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/10_email-reminder.jpg)
-
-- By default Service Reminders will send daily at X:XX UTC. This time can be adjusted in the Power Automate Flow.
-- Technician Traveling: Sent when Booking status is “Traveling”. This message communicates estimated time of arrival while considering traffic on expected route.
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/13-email-traveling.jpg)
-
-
-- Service Complete: Sent when Booking status is “Complete”.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/15-email-completed.jpg)
-
-- *Service Rescheduled: Sent when a scheduled service appointment changes by >10 minutes from previously scheduled start time.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/11_email-reschedule.jpg)
-
-
-- *Service Canceled: When a scheduled service appointment is canceled.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/15-email-cancel.jpg)
-
-*Service Reschedule & Service Cancel messages are only sent if a Reminder message had previously been sent.
-
-
-## Power Apps Portal Experience
-Customers primary means of interacting with the experience is via Power Apps Portals. Your portal will have different states depending on the Field Service booking lifecycle.
+Your portal will have different states depending on the Field Service booking lifecycle.
 
 - Remind, Traveling, and Completion messages include a link to an online web experience hosted on Power Portals.
 
@@ -188,6 +70,143 @@ Customers primary means of interacting with the experience is via Power Apps Por
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/14-portal-completed.jpg)
+
+### Provision the portal
+
+1.	Provision Field Service Customer Experience portal for your org.
+-- Navigate to  http://make.powerapps.com > Create
+-- Select the Customer Experiences 
+
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/01_PAPortal_FSTemplate.jpg)
+
+
+-- Enter your Portal name and desired subdomain.
+-- This portal will include required packages for Field Service and Power Automate. 
+-- You will receive an email notifying you when the portal is provisioned.
+
+
+## Set up email and SMS communication
+2. Turn on Power Automate Flows. 
+
+Navigate to https://make.powerapps.com > Solutions 
+
+Click to access solution named Dynamics 365 Field Service PowerApps Portal – Flow 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/03_PAFlow_Solution.jpg)
+
+
+
+There are three Power Automate Flows under this solution. By default, email and SMS flows will be shipped “off” and will need to be turned on to enabled. 
+
+ > [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/02_PAFlow_Flows.jpg)
+
+1. Field Service PowerApps Power Flow Email Notification (required if using Email) 
+
+Click into the Flow 
+
+Click Edit 
+
+Configure your Twilio account details* 
+
+Turn on 
+
+2. Field Service PowerApps Portal Flow SMS Notifications (required if using SMS) 
+
+Click into the Flow 
+
+Click Edit 
+
+Configure your Exchange service account** 
+
+Turn On 
+
+3. Create notification items for bookings 
+
+By default, this Flow is “On”; no further action is needed. 
+
+This Flow creates notifications that will be sent for reminder messages. 
+
+This flow runs daily at 10:00 AM UTC. The run time can be configured by editing the Flow Recurrence. 
+
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/recurrance-flow.jpg)
+
+*By default, Twilio is used as a popular SMS provider. You can substitute an alternate connector by cloning the Flow and modifying.
+
+**By default, Exchange is used as a common Email provider. You can substitute an alternate email connector by cloning the Flow and modifying.
+
+
+
+
+
+
+## Messages and messahe triggers
+
+
+After deploying the portal and setting up email and SMS communication, messages are sent to the Primary Contact of the Work Order Service Account. 
+
+> [!Note] Please be aware that when configuring Email & SMS communication, reminder emails will be sent to Primary Contacts of the Account associated with bookings. When testing in non-production orgs, please ensure your test data does not have real customer email or phone numbers. If your org contains real data you can evaluate preventing unnecessary communication by adding all accounts to Exclusion Lists.
+
+Messages are automatically generated with the following events:
+
+- Service Reminder: Sent when a Booking is scheduled. This reminder message is sent within 7 days of the scheduled service time. 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/technician-locator-mobile-scheduled.jpg)
+
+
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/10_email-reminder.jpg)
+
+- By default Service Reminders will send daily at X:XX UTC. This time can be adjusted in the Power Automate Flow.
+- Technician Traveling: Sent when Booking status is “Traveling”. This message communicates estimated time of arrival while considering traffic on expected route.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/technician-locator-mobile-en-route.jpg)
+
+
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/13-email-traveling.jpg)
+
+
+- Service Complete: Sent when Booking status is “Complete”.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/technician-locator-mobile-complete.jpg)
+
+
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/15-email-completed.jpg)
+
+- *Service Rescheduled: Sent when a scheduled service appointment changes by >10 minutes from previously scheduled start time.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/technician-locator-mobile-cancel.jpg)
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/11_email-reschedule.jpg)
+
+
+- *Service Canceled: When a scheduled service appointment is canceled.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/15-email-cancel.jpg)
+
+*Service Reschedule & Service Cancel messages are only sent if a Reminder message had previously been sent.
+
 
 
 
@@ -213,7 +232,7 @@ Configuration options include:
 
 
 
-## Add branding & content to the portal
+## Add portal branding & content
 Branding & Content updates are done via Field Service Settings > Customer Portal > Customer Portal Settings > Display
 Branding Options:
 - Font Type & Color of the online portal experience.
