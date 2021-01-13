@@ -76,7 +76,7 @@ The settings that you enable for the app profile will be available for agents an
 
    > [!NOTE]
    > - Only telephony or voice channels are supported.
-   > - Multiple voice channels can be configured at a time.
+   > - Multiple voice channel providers can be configured at a time.
   
 ### Assign profiles to users
 
