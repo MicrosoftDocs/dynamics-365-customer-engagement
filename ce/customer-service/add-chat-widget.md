@@ -28,10 +28,12 @@ ms.service: dynamics-365-customerservice
     |  | **Agent display name** | Select an agent display name type from the list: **Full name**, **First name**, **Last name**, and **Nick name**. <br> More information: [Configure agent display name](agent-display-name.md) | Full name |
     |  | **Authentication settings** |Select an authentication setting from the list. This is an optional field. More information: [Create chat authentication settings](create-chat-auth-settings.md) | Chat authentication |
     |||
+    <!-- Neeraja:  The topic is generic and caters to live chat as well. The field name is incorrect; check the UI. The options are Persistent Chat and Live Chat. The capitalization of the example values is incorrect.   -->
 
     |Section | Field | Description | Example value |
     |--------|-------|-------------|-------------------------------|
     |**Conversation Mode** | **Persistent chat** | Select the conversation mode from the list. For more information, see: [Persistent chat](persistent-chat.md) | Persistent chat or Live chat|
+    ||||
 
     | Section | Field | Description | Example value |
     |---------------|------------------------|-----------------------------------|---------------------|

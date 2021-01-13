@@ -17,6 +17,7 @@ ms.service: dynamics-365-customerservice
 
 Persistent chat is an asynchronous mode for the chat channel that allows conversations to happen over multiple sessions. Unlike in live chat, where customers and agents need to be available simultaneously, persistent chat allows users to leave the conversation between sessions and pick it up later. 
 
+<!-- Neeraja: Any reason why the following sentence has been retained? We discussed that it is redundant. The second statement is also not required because it states the obvious. -->
 Persistent chat allows authenticated users to leave the conversation between sessions and pick it up later. This gives customers the flexibility to reply at their convenience.
 
 Live chat and persistent chat share the same channel. 
@@ -25,13 +26,13 @@ The primary differences between live chat and persistent chat are as follows:
 
 | Feature                       | Persistent chat                   | Live chat
 |------------------------------------------|-----------------------------------|------------------------------|
-|Agent availability outside of operation hours|Allows customers to reach out to agents outside of working hours. If no agents are available, the conversation will remain open and the agent will receive the customer's messages during the operating hours.|Outside of operating hours, customers may not be able to chat with live agents. 
+|Agent availability outside of operation hours|Allows customers to reach out to agents outside of working hours. If no agents are available, the conversation will remain open and the agent will receive the customer's messages during the operating hours.|Outside of operating hours, customers mightn't be able to chat with live agents.
 |Ending conversations|Customers can't end conversations from their side. Only agents can do it. |Both customers and agents can end the conversation by closing the chat.|
-|Default system messages|Persistent chat doesn't display default messages about average wait time and queue positions, because a customer does not wait for an agent to start describing their issue. |Live chat sends the customer system messages about wait time. These messages can be overwritten in the settings tab. 
+|Default system messages|Persistent chat doesn't display default messages about average wait time and queue positions, because a customer doesn't need to wait for an agent. |Live chat sends the customer system messages about wait time. These messages can be overwritten in the settings tab.
 
 ## How persistent chat works
 
-From the start of a conversation until the agent explicitly ends it, agents and customers will be able to see the history of the conversation in the chat widget. Customers can close the chat widget and come back over longer time periods, and still see their history, picking up where they left off. When a customer is unresponsive for a long time, agents can attend to other conversations by moving their current conversation into a waiting stage. When the customer comes back to the chat, the agent is notified and the conversation can be picked up and resolved. 
+From the start of a conversation until the agent explicitly ends it, agents and customers will be able to see the history of the conversation in the chat widget. Customers can close the chat widget and come back after a long time, and still see their history, with the ability to pick up where they left. When a customer is unresponsive for a long time, agents can attend to other conversations by moving their current conversation into a waiting stage. When the customer comes back to the chat, the agent is notified and the conversation can be picked up and resolved.
 
 ## Set up persistent chat
 
@@ -43,22 +44,24 @@ You can enable persistent chat in the chat widget settings for a chat channel.Yo
 
 3. Select **New chat widget**. For more information, see [Add a chat widget](add-chat-widget.md).
 
-4. In the **Conversation Mode** tab, select persistent chat.
+4. In the **Conversation Mode** area, select persistent chat.
 
 5. Select **Save**.
 
 6. Go to **Work Distribution Management** > **Work Streams**.
 
-7. Change the **auto-close after inactivity** field from the default value to 28 days, allowing conversations to stay open longer.
+7. Change the **auto-close after inactivity** field from the default value to 28 days, that will allow conversations to stay open longer.
 
-8. Set **agent affinity** to true. When a customer returns to the chat, this will ensure that the system first ties to connect them to the same agent. 
+8. Set **agent affinity** to true. When a customer returns to the chat, this setting will ensure that the system first tries to connect them to the same agent.
 
-**Note** : If you want to have both live and persistent chat widgets, ensure to create two separate work streams and update the settings accordingly.  
+<!-- Neeraja: Correct the formatting for the note: -->
+**Note** : If you need to configure both live and persistent chat widgets, ensure to create two separate work streams and update the settings accordingly.  
 
 9. Select **Save and close**.
 
 ### See also
 
+<!-- Neeraja: Why do we need a forward link for topics in the same repo or folder? Replace with relative links to the topics. -->
 [Configure a chat widget](https://go.microsoft.com/fwlink/p/?linkid=2152613)
 
 [Create work streams](https://go.microsoft.com/fwlink/p/?linkid=2152613)
