@@ -33,16 +33,20 @@ With this preview, the mobile offline feature is also available for Windows user
 
 Sign into the Microsoft Dynamics 365 Windows app quickly using your work email address for the Dynamics 365 app that you use. If you need help with your sign-in information, contact your Dynamics 365 administrator.
 
-1.  On the Welcome screen, select **Sign in**.
+1. On the Welcome screen, select **Sign in**.
 
-   > [!div class="mx-imgBorder"] 
-   > ![Select sign in](media/wpsignin-1.png "Select sign in").
+    > [!div class="mx-imgBorder"] 
+    > ![Select sign in](media/wpsignin-1.png "Select sign in").
 
-2.  Enter your email address, and then select **Next**. Then enter your
-    password and then select **Sign in**.
+2. Enter your email address, and then select **Next**. Then enter your password and then select **Sign in**.
+    
+    > [!div class="mx-imgBorder"] 
+    > ![Enter email address](media/enter-email-address-2.png "Enter email address")
 
-3.  From the list of apps that you have access to, select the app that
-    you want to use.
+3. From the list of apps that you have access to, select the app that you want to use.
+    
+    > [!div class="mx-imgBorder"] 
+    > ![Choose an app](media/choose-your-app-3.png "Choose an app")
 
 
 ## Show non-production apps
@@ -50,24 +54,41 @@ Sign into the Microsoft Dynamics 365 Windows app quickly using your work email a
 By default, only production model-driven apps are shown in the list of
 apps.
 
-1.  To see apps from non-production environments, on the **Apps** page,
-    select **More**.
+1. To see apps from non-production environments, on the **Apps** page, select **More**.
+        
+    > [!div class="mx-imgBorder"] 
+    > ![Find non-production apps](media/nonprod-4.png "Find non-production apps")
 
-2.  Select **Settings**.
+2. Select **Settings**.
 
-3.  Under **Model apps**, set the **Show non-production apps** toggle to
-    On.
+   > [!div class="mx-imgBorder"] 
+   > ![Find non-production apps](media/show-nonprod-apps-5.png "Find non-production apps")
 
-4.  Select the back arrow to go back to the **Apps** screen.
+3. Under **Model apps**, set the **Show non-production apps** toggle to
+    On. 
+    
+    > [!div class="mx-imgBorder"] 
+    > ![Show non-production apps toggle](mediatoggle-on-6.png "Show non-production apps toggle")
+
+4. Select the back arrow to go back to the **Apps** screen.
+
+   > [!div class="mx-imgBorder"] 
+   > ![Go back to list of apps](media/go-back-to-appspage-7.png "Go back to list of apps")
 
 ## Sign out
 
 To sign out select profile button and then select **Sign out**.
 
+> [!div class="mx-imgBorder"] 
+> ![Sign out](media/sign-out-8.png "Sign out")
+
 ## Home screen
 
 Use the navigation to get to your work area, create a new record,
 search, switch app, and more.
+
+> [!div class="mx-imgBorder"] 
+> ![Home screen on Windows mobile app](media/d365winodsapp-9.png "Home screen on Windows mobile app")
 
 Legend:
 
@@ -118,26 +139,32 @@ Legend:
 From the navigation pane, select **Site Map** to expand or minimize the
 site map.
 
+> [!div class="mx-imgBorder"] 
+> ![Expand or minimize the site map](media/wp_sitemap-10.png "Expand or minimize the site map")
+
 ## Pin favorite records
 
 The **Pinned** and **Recent** lists provide quick access to records that
 you've recently used or pinned to favorites. Use the **Recent** list to
 pin favorite records.
 
-1.  From the menu on the left, select **Recent items**.
+1. From the menu on the left, select **Recent items** ![Recent items icon](media/recent-items-icon.png).
 
-2.  From the list of records, select **Add to Pinned** next to the
-    record that you want to add to favorites.
+2. From the list of records, select **Add to Pinned** ![Add to pinned items icon](media/add-to-pinned-button.png) next to the record that you want to add to favorites.
 
-3.  When the record is pinned, you will see a pin next to the record.
+3. When the record is pinned, you will see a pin next to the record.
+
+  > [!div class="mx-imgBorder"] 
+  > ![Shows pinned records](media/wp-pinned-records-11.png "Shows pinned records").
 
 ## Remove records from pinned items
 
-1.  To unpin a record from favorites, from the left select **Pinned
-    items**.
+1. To unpin a record from favorites, from the left select **Pinned items** ![Pinned items icon](media/pinned-button.png).
 
-2.  Select **Remove from Pinned** next to the record that you want to
-    remove from the favorites list.
+2. Select **Remove from Pinned** next to the record that you want to remove from the favorites list.
+
+   > [!div class="mx-imgBorder"] 
+   > ![Remove from pinned items](media/remove-from-pinned-12.png "Remove from pinned items")
 
 ## Change views
 
@@ -146,27 +173,40 @@ default views already set in the system or they are created by your
 system customizer. Personal views are views that you create, or they are
 created by another user and shared with you.
 
-1.  To change view, select a record type. For example, contacts.
+1. To change view, select a record type. For example, contacts.
 
-2.  Select the drop-down menu and then select the desired view.
+   > [!div class="mx-imgBorder"] 
+   > ![Select a record](media/select-view-13.png "Select a record")
 
-##   
-Add a record quickly
+2. Select the drop-down menu and then select the desired view.
 
-1.  To create a new record, on the command bar select add.
+   > [!div class="mx-imgBorder"] 
+   > ![Select the drop-down menu to change your view](media/select-view-14.png "Select the drop-down menu to change your view").
 
-2.  Select the type of record that you want to create.
+## Add a record quickly
 
-3.  Fill in the required fields, and then select **Save and Close** or
-    select the drop-down menu and select **Save & Create New**.
+1. To create a new record, on the command bar select add ![Select the add button](media/add-record-button.png).
 
-##  Edit a record
+2. Select the type of record that you want to create.
 
-1.  To edit a record, select a record type. For example, contacts.
+   > [!div class="mx-imgBorder"] 
+   > ![Select the type of record to add](media/add-new-record-15.png "Select the type of record to add")
 
-2.  From the list of records, select the record that you want to edit.
+3. Fill in the required fields, and then select **Save and Close** or select the drop-down menu and select **Save & Create New**.
 
-3.  Edit the record and when you're done the record is automatically
+   > [!div class="mx-imgBorder"] 
+   > ![Save the record](media/save-new-record-16.png "Save the record")
+
+## Edit a record
+
+1. To edit a record, select a record type. For example, contacts.
+
+   > [!div class="mx-imgBorder"] 
+   > ![Select a record](media/select-view-13.png "Select a record")
+
+2. From the list of records, select the record that you want to edit.
+
+3. Edit the record and when you're done the record is automatically
     saved.
 
 ## Set up mobile offline (for admins)
@@ -174,8 +214,7 @@ Add a record quickly
 To allows users to use the Dynamics 365 for Windows mobile app in
 offline mode, a Dynamics 365 administrator will need to set up mobile
 offline for their organization. For more information, see [Set up mobile
-offline
-synchronization](https://docs.microsoft.com/dynamics365/mobile-app/preview-setup-mobile-offline).
+offlinesynchronization](https://docs.microsoft.com/dynamics365/mobile-app/preview-setup-mobile-offline).
 
 ## Work in offline mode (for end-users)
 
