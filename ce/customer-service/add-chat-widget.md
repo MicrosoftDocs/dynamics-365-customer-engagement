@@ -88,10 +88,10 @@ ms.service: dynamics-365-customerservice
     | Visual engagement | Screen sharing | Select whether to enable third-party screen sharing. You must install a third-party provider from AppSource to use the feature. | Enabled |
     | Visual engagement | Screen sharing provider | Select the provider from the list.| *Screen sharing provider* |
     | Visual engagement | Co-browse | Select whether to enable third-party co-browse. You must install a third-party provider from AppSource to use the feature. | Enabled |
-    | Visual engagement | Co-browse provider | Select the provider from the list. | *Co-browse provider* |   
+    | Visual engagement | Co-browse provider | Select the provider from the list. | *Co-browse provider* |
        
    > [!NOTE]
-   > You can select one co-browse provider and/or one screen sharing provider for each chat widget. Only co-browse and screen sharing providers that have published a solution on AppSource will appear in the drop-down lists. 
+   > You can select one co-browse provider and/or one screen sharing provider for each chat widget. Only co-browse and screen sharing providers that have published a solution on AppSource will appear in the lists.
    
 9. On the **Design** tab, specify the information for the following fields. The offline settings are available only when the operating hours are set.
 

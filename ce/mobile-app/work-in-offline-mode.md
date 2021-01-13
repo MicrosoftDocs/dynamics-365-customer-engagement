@@ -58,7 +58,7 @@ For information on supported devices for Power Apps mobile app, see [Supported d
 
 ## Download updates to work in offline mode
 
-Once you have the mobile app installed and your admin has [enabled mobile offline](preview-setup-mobile-offline.md), the next time you access the mobile app, you will be prompted to download offline updates. Once you download the updates, you can start using the mobile app in offline mode.
+Once you have the mobile app installed and your admin has [enabled mobile offline](setup-mobile-offline.md), the next time you access the mobile app, you will be prompted to download offline updates. Once you download the updates, you can start using the mobile app in offline mode.
 
 1. When you see the dialog box that asks you to download updates to work offline, choose **Download**. 
 
