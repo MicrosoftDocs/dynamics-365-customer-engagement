@@ -21,12 +21,12 @@ search.app:
 
 # Field Service technician service reports
 
-Field Service technicians often will create service reports summarizing work done during a customer visit. These reports can carry details such as tasks completed, and products or parts used during the service. Service reports often need to be delivered to the customer in the form of a PDF.
+Field Service technicians often will create service reports summarizing work done during a customer visit. These reports can carry details such as tasks completed, and products or parts used during the service. Service reports must often be delivered to the customer in the form of a PDF.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service Mobile application reporting experience](./media/mobile-2020-reporting-app.png)
 
-This article outlines how to leverage the Power Apps Component Framework (PCF) to build a service report for the Field Service mobile application. This article also provides a sample report and PCF control that will serve as a guide for developers to design and import the control for their environments.
+This article outlines how to use the Power Apps Component Framework (PCF) to build a service report for the Field Service mobile application. This article also provides a sample report and PCF control that will serve as a guide for developers to design and import the control for their environments.
 
 Features of the technician reporting PCF control:
 
@@ -35,7 +35,7 @@ Features of the technician reporting PCF control:
 - Sample report layout with API calls to fetch offline data.
 - In-app report preview and signature experience.
 - Save the report back to service timeline as a note.
-- Accessibility compliant preview and output report.
+- Accessibility-compliant preview and output report.
 
 
 ## Set up mobile reporting
@@ -44,7 +44,7 @@ Features of the technician reporting PCF control:
 2. Download sample [reporting PCF control](http://aka.ms/fsmreporting-pcf) source code.
 3. Import the reporting solution into your environment. The import will install a reporting form, ribbon command, and includes a sample report so you can execute functionality within your environment.
 4. After importing the reporting solution, open your Field Service mobile app module in the app designer and enable the reporting form for the bookable resource booking entity.
-5. Leverage your favorite IDE to edit the sample reporting PCF control. Modify this control to change layout, add additional branding, updated data, or other updates necessary to meet your reporting requirements.
+5. Use your favorite IDE to edit the sample reporting PCF control. Modify this control to change layout, add more branding, updated data, or other updates necessary to meet your reporting requirements.
 6. Import the modified PCF control back into your environment, replacing the sample report. For more information, see this article: [Steps to import a PCF control](https://docs.microsoft.com/powerapps/developer/component-framework/import-custom-controls)
 
 ## Generate reports from mobile
