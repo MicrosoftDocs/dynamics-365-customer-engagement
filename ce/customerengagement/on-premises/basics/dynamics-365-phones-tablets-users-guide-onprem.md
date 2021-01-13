@@ -1,8 +1,8 @@
 ---
-title: "Dynamics 365 for phones and tablets User's Guide (Dynamics 365 apps)| MicrosoftDocs"
+title: "Dynamics 365 for phones and tablets user's guide for Dynamics 365 Customer Engagement (on-premises) apps| MicrosoftDocs"
 ms.custom: 
-description: How to use the Dynamics 365 for phones and tablets app
-ms.date: 10/7/2020
+description: How to use the Dynamics 365 for phones and tablets app with Dynamics 365 Customer Engagement (on-premises) 
+ms.date: 1/11/2021
 ms.reviewer: kvivek
 ms.service: crm-online
 ms.suite: 
@@ -23,18 +23,18 @@ search.app:
   - D365Sales
 ---
 
-# User Guide (Dynamics 365 for phones and tablets)
+# Use Dynamics 365 for phones and tablets to run Dynamics 365 Customer Engagement (on-premises) apps
 
-Use the [!INCLUDE[pn_dyn-365_phones](../includes/pn-dyn-365-phones.md)] and [!INCLUDE[pn_dyn-365_tablets](../includes/pn-dyn-365-tablets.md)] apps for your sales, customer service, field service, and other tasks when you're on the go. With one download from your app store, you’ll automatically have access to all the apps you need for your role. You will see apps with the new Unified Interface on your mobile device.  
+Use the Dynamics 365 for phones and Dynamics 365 for tablets mobile app to run Dynamics 365 Customer Engagement (on-premises) apps when you're on the go. With one download from your app store, you’ll automatically have access to all the apps you need for your role. 
 
 > [!NOTE]
 > - On February 21, 2018, we announced the deprecation of the [!INCLUDE[pn_dyn-365_phones](../includes/pn-dyn-365-phones.md)] Windows Phone app. Effective May 22, 2018, the Windows Phone app is no longer supported. Support for the  app on Windows tablets and PCs remains unchanged. The Windows Phone app will continue to be available in the store and will be supported for Dynamics 365 apps, (version 8.2) and earlier supported versions. If you want to continue to use the Windows Phone app, you should not update to Dynamics 365 apps, version 9.0 as the Windows Phone app will not be supported with version 9.x. 
 > - There are separate mobile apps for [!INCLUDE[pn_field_service](../includes/pn-field-service.md)] and Operations. More information: [Field Service mobile app](https://go.microsoft.com/fwlink/?linkid=846157) and [Finance and Operations mobile app](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-app-home-page).  
 > - Mobile offline feature is now available for iOS and Android users.
-> - You can use web browsers on your tablet to run your model-driven apps, but for full functionality and optimized experience we strongly recommend that you use the Dynamics 365 for tablets app. Using the web browser on your phone to run your model-driven apps isn't supported; you must use the Dynamics 365 for phones app. More information: [What's supported](support-phones-tablets.md).
+> - You can use web browsers on your tablet to run your model-driven apps, but for full functionality and optimized experience we strongly recommend that you use the Dynamics 365 for tablets app. Using the web browser on your phone to run your model-driven apps isn't supported; you must use the Dynamics 365 for phones app. More information: [What's supported](https://docs.microsoft.com/dynamics365/mobile-app/support-phones-tablets).
     
 ## Install the app from your device’s app store  
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install Dynamics 365 for phones and tablets](../mobile-app/install-dynamics-365-for-phones-and-tablets.md)    
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install Dynamics 365 for phones and tablets](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets)    
 
 ## Sign in and sign out 
 
@@ -56,7 +56,7 @@ Sign in to the Dynamics 365 mobile app quickly using your work email address or 
 2. From the list of apps that you have access to, select the app that you want to use.
 
    > [!div class="mx-imgBorder"] 
-   > ![Select an app to use](media/openanapp.png "Select an app to use"). 
+   > ![Select an app](media/openanapp.png "Select an app to use"). 
 
 
 ### Sign in with your web address 
@@ -73,7 +73,7 @@ You can also sign in using your web address for the Dynamics 365 app and user na
 4. From the list of apps that you have access to, select the app that you want to use.
 
    > [!div class="mx-imgBorder"] 
-   > ![Select an app to use](media/navwebsignin.png "Select an app to use"). 
+   > ![Select an app that you want to use](media/navwebsignin.png "Select an app to use"). 
 
 ### Sign out 
 
@@ -86,7 +86,7 @@ You can also sign in using your web address for the Dynamics 365 app and user na
 
 If you used the mobile app on a phone or tablet temporarily and want to remove all your cached data before giving the device to someone else, you need to reconfigure the app.
 
-- From the nav bar, select ![Dynamics 365 apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 apps ellipsis")  > **User Information** > **Reconfigure**. 
+- From the nav bar, select ![Dynamics 365 apps ellipsis](media/mobile-ellipsis.png "Dynamics 365 apps ellipsis")  > **User Information** > **Reconfigure**. 
 
      > [!div class="mx-imgBorder"] 
      > ![Reconfigure the mobile app](media/reconfigure.png "Reconfigure the mobile app")
@@ -126,12 +126,12 @@ Dashboards give you an overview of valuable information. Select on the Home butt
   > [!div class="mx-imgBorder"] 
   > ![Dynamics 365 apps phones and tablets dashboards](media/DashboardsOnHomePage_4.png "Dynamics 365 apps phones and tables dashboards")
   
-- To view a chart in the dashboard in full screen mode, select the Expand button ![Full screen button](media/expandviewbutton.png "Full screen button").
+- To view a chart in the dashboard in full screen mode, select the Expand button ![Full screen button](media/expandviewbutton-1.png "Full screen button").
 
    > [!div class="mx-imgBorder"] 
    > ![Chart in full screen view](media/expandchart.png "Chart in full screen view")
    
-- To view records in chart or refresh the chart view, select ![Dynamics 365 apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 apps ellipsis") and then choose an  action: **Refresh** or **View Records**. 
+- To view records in chart or refresh the chart view, select ![Dynamics 365 apps ellipsis](media/mobile-ellipsis.png "Dynamics 365 apps ellipsis") and then choose an  action: **Refresh** or **View Records**. 
 
    > [!div class="mx-imgBorder"] 
    > ![Refresh or view charts](media/charts_01.png "Refresh or view a chart")
@@ -144,7 +144,7 @@ Charts give you a quick view of how you’re tracking to your goals. They’re i
 - Select again on the same section to see a grid view with more details about the data in the chart.
   
    > [!div class="mx-imgBorder"] 
-   > ![Record view of chart](../mobile-app/media/Recordview.png "Record view of chart") 
+   > ![Record view of chart](media/Recordview-1.png "Record view of chart") 
       
  
 - To change the chart view to show a different breakdown of your data, select the down arrow next to the name of the chart, and then select the chart that you want to view.
@@ -157,17 +157,17 @@ Charts give you a quick view of how you’re tracking to your goals. They’re i
 
 The **Quick create Menu** makes it fast and easy to add data into the system. 
     
-1.  To create a new record, on the navigation bar select, the More button ![Dynamics 365 apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 apps ellipsis").
+1.  To create a new record, on the navigation bar select, the More button ![Dynamics 365 apps ellipsis](media/mobile-ellipsis.png "Dynamics 365 apps ellipsis").
 
 2.  Select **Quick Create Menu**.
 
     > [!div class="mx-imgBorder"] 
-    > ![Quick create menu](media/quickcreate.png "Quick create menu")
+    > ![Select the Quick create menu](media/quickcreate.png "Quick create menu")
 
 3. Select the type of activity or record you want to create. 
 
     > [!div class="mx-imgBorder"] 
-    > ![Quick create menu](media/quickcreate3.png "Quick create menu")
+    > ![Select the type of record that you want to create](media/quickcreate3.png "Quick create menu")
     
 4. Enter the required information for the record and then select **Save and Close**.
 
@@ -180,7 +180,7 @@ Take action on a record without opening the record.
     > [!div class="mx-imgBorder"] 
     > ![Choose record](media/actionmenu1.png "Choose record").
 
-2. From the list of records, select ![Dynamics 365 apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 apps ellipsis") on the record you want to update and then select an action such as **Assign**, **Deactivate** or **Delete**. 
+2. From the list of records, select ![Dynamics 365 apps ellipsis](media/mobile-ellipsis.png "Dynamics 365 apps ellipsis") on the record you want to update and then select an action such as **Assign**, **Deactivate** or **Delete**. 
 
     > [!div class="mx-imgBorder"] 
     > ![Action menu](media/actionmenu.png "Take action on a record").
@@ -200,7 +200,7 @@ Activities are details that you add to a record which include things like notes,
     > [!div class="mx-imgBorder"] 
     > ![Choose record](media/actionmenu1.png "Choose record").
 
-2. On the open record, next to **Summary** select ![Dynamics 365 apps ellipsis](../mobile-app/media/mobile-ellipsis.png) > **Timeline**.
+2. On the open record, next to **Summary** select ![Dynamics 365 apps ellipsis](media/mobile-ellipsis.png) > **Timeline**.
 
     > [!div class="mx-imgBorder"] 
     > ![Choose the timeline](media/timeline3.png "Choose the timeline").
@@ -219,9 +219,9 @@ Activities are details that you add to a record which include things like notes,
 
 ### Sort and filter the Timeline view
 
-- Select ![Dynamics 365 apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 apps ellipsis") and select **Open Filter Pane** to filter the records in the timeline by record type or to refresh the Timeline.
+- Select ![Dynamics 365 apps ellipsis](media/mobile-ellipsis.png "Dynamics 365 apps ellipsis") and select **Open Filter Pane** to filter the records in the timeline by record type or to refresh the Timeline.
 
-- Select ![Sort timeline view](../mobile-app/media/sortbutton.png "Sort timeline view") to change the sort order for the records from ascending to descending and vice versa.
+- Select ![Sort timeline view](media/sortbutton.png "Sort timeline view") to change the sort order for the records from ascending to descending and vice versa.
 
 
 ## Send an email or make a call
@@ -307,7 +307,7 @@ The assistant reminds you of upcoming activities; it evaluates your communicatio
 
 The assistant draws your attention to your most important items and tasks, drawn from all areas of the app.
 
-- To access the assistant, on the nav bar, select the More button  ![Dynamics 365 apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 apps ellipsis") > **Relationship Assistant**.
+- To access the assistant, on the nav bar, select the More button  ![Dynamics 365 apps ellipsis](media/mobile-ellipsis.png "Dynamics 365 apps ellipsis") > **Relationship Assistant**.
 
     > [!div class="mx-imgBorder"] 
     > ![Dynamics 365 for phones and tablets Relationship Assistant](media/RelationshipAssistant.png "Dynamics 365 for phones and tablets Relationship Assistant")
@@ -317,12 +317,8 @@ The assistant draws your attention to your most important items and tasks, drawn
 ## Privacy notices  
 [!INCLUDE[cc_privacy_crm_for_tablets](../includes/cc-privacy-crm-for-tablets.md)]
   
-<!-- [!INCLUDE[cc_privacy_crm_cortana](../includes/cc-privacy-crm-cortana.md)] -->
+
   
 [!INCLUDE[cc_privacy_moca_user_content_and_location](../includes/cc-privacy-moca-user-content-and-location.md)]
 
-### See Also  
- [What's supported](support-phones-tablets.md) </br>
- [Troubleshooting](troubleshooting-things-know-about-phones-tablets.md)<br/>
- [Microsoft Dataverse Help](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)<br/>
- [Microsoft Dynamics 365 Customer Engagement (on-premises) Help](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/overview)
+
