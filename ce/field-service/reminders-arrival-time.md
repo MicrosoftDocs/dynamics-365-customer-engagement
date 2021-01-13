@@ -61,22 +61,43 @@ Key Features:
 -- This portal will include required packages for Field Service and Power Automate. 
 -- You will receive an email notifying you when the portal is provisioned.
 
-2. Turn on Power Automate Flows.
--- Navigate to https://make.powerapps.com > Solutions
--- Click to access solution named Dynamics 365 Field Service PowerApps Portal – Flow
--- There are three Power Automate Flows under this solution. By default, these flows are off and will need to be turned on to enabled.
-- Field Service PowerApps Power Flow Email Notification (required if using Email)
--- Click into the Flow
--- Click Edit
--- Configure your Twilio account details*
--- Turn on
-- Field Service PowerApps Portal Flow SMS Notifications (required if using SMS)
--- Click into the Flow
--- Click Edit
--- Configure your Exchange service account**
--- Turn On
-- Create notification items for bookings
--- By default, this Flow is “On”; no further action is needed.
+2. Turn on Power Automate Flows. 
+
+Navigate to https://make.powerapps.com > Solutions 
+
+Click to access solution named Dynamics 365 Field Service PowerApps Portal – Flow 
+
+There are three Power Automate Flows under this solution. By default, email and SMS flows will be shipped “off” and will need to be turned on to enabled. 
+
+ 
+
+Field Service PowerApps Power Flow Email Notification (required if using Email) 
+
+Click into the Flow 
+
+Click Edit 
+
+Configure your Twilio account details* 
+
+Turn on 
+
+Field Service PowerApps Portal Flow SMS Notifications (required if using SMS) 
+
+Click into the Flow 
+
+Click Edit 
+
+Configure your Exchange service account** 
+
+Turn On 
+
+Create notification items for bookings 
+
+By default, this Flow is “On”; no further action is needed. 
+
+This Flow creates notifications that will be sent for reminder messages. 
+
+This flow runs daily at 10:00 AM UTC. The run time can be configured by editing the Flow Recurrence. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/03_PAFlow_Solution.jpg)
@@ -84,9 +105,16 @@ Key Features:
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/02_PAFlow_Flows.jpg)
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/recurrance-flow.jpg)
+
 *By default, Twilio is used as a popular SMS provider. You can substitute an alternate connector by cloning the Flow and modifying.
 
 **By default, Exchange is used as a common Email provider. You can substitute an alternate email connector by cloning the Flow and modifying.
+
+
+technician-locator-mobile-scheduled
+
 
 ## Messaging
 > [!Note] Please be aware that when configuring Email & SMS communication, reminder emails will be sent to Primary Contacts of the Account associated with bookings. When testing in non-production orgs, please ensure your test data does not have real customer email or phone numbers. If your org contains real data you can evaluate preventing unnecessary communication by adding all accounts to Exclusion Lists.
@@ -156,8 +184,10 @@ Configuration options include:
 - Name: Name of your customer portal
 - Enable Notifications: Toggles if notifications are sent with access to the portal
 - Reminder Timing: Option to send messages between 0 and 7 days before scheduled booking time. 
+    - Default is 7 days in advance of the booking. 
+    - Setting to 0 will disable reminder notifications, but other notifications will be sent. 
 - Communication Type: Define if your customer will receive Email, SMS or both message types.
-- Show/Hide Resource information: When in traveling state the customer can be informed of Technician name and image if available in CRM. 
+- Show/Hide Resource Details: information: When in traveling state the customer can be informed of Technician name and image if available in CRM. 
 - Show/Hide Map: Toggles the Portal map experience on or off.
 - Exclusion lists where messages/experience will not be offered.
 -- Service Accounts
@@ -180,6 +210,24 @@ Branding Options:
 
 > [!Note] As an alternative you can also update branding and styles via Power Apps Portal Admin interface.
 
+## Portal Designer
+As an alternative to using Content Snippets, you can update content and some more advanced configuration as part of the Portal Designer experience. 
+
+- Navigate to https://make.powerapps.com
+- Select “Apps”
+- Select “Edit” on the portal you created.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/new-edit-portal.jpg)
+
+In the Portal Designer experience, selected content can be updated and will be reflected in the Portal experience offered to your customers. 
+
+Note that updating Content Snippets here can influence content in the messages. 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/portaleditor_exp.jpg)
+
+
 ## Additional Settings
 Two additional sections under Customer Portal in Field Service settings provide a way to review all past messages and overwrite messaging settings for the portal.
 
@@ -195,7 +243,7 @@ Notification settings area provides a real-only view of all messages which have 
 > ![Screenshot of ](./media/07a_FSSettings_notifications-details.jpg)
 
 
-### Booking Notifications
+### Booking Notification Codes
 The Booking Notification settings area provides visibility the Field Service Admin a way to extend, expire, or block access to a portal link which has been shared with a customer. 
 
 
