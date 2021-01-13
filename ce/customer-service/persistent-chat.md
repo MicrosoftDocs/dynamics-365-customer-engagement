@@ -35,13 +35,13 @@ From the start of a conversation until the agent explicitly ends it, agents and 
 
 ## Set up persistent chat
 
-You can enable persistent chat in the chat widget settings for a chat channel.You will need to add authentication settings on, which are required to configure persistent chat. For more information on adding authentication settings, see : [Create chat authentication settings](create-chat-auth-settings.md)
+You can enable persistent chat in the chat widget settings for a chat channel.You will need to add authentication settings to configure persistent chat. For more information on adding authentication settings, see : [Create chat authentication settings](create-chat-auth-settings.md)
 
 1. Sign into Omnichannel Administration.
 
 2. Go to **Channels** > **Chat**.
 
-3. Select **New chat widget**. For more information, see [Add a chat widget](add-chat-widget.md)
+3. Select **New chat widget**. For more information, see [Add a chat widget](add-chat-widget.md).
 
 4. In the **Conversation Mode** tab, select persistent chat.
 
