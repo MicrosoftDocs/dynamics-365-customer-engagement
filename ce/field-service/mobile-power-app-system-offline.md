@@ -129,23 +129,23 @@ Go to **Properties** and add the offline profile you published if it is not alre
 
 ## Sync conflicts 
 
-Sync conflicts can happen if there is a mismatch between data on the device and data on the server. An example is when a frontline worker edits a work order on his or her mobile app and a back office dispatcher edits the same work order on his or her computer, but neither of these modifications have yet been synchronized between them. Thus a conflict occurs: Which modification should be applied to the record, both in the app and on the server, after the next synchronization takes place?
+Sync conflicts can happen if there is a mismatch between data on the device and data on the server. For example, when a frontline worker edits a work order on their mobile app and a back-office dispatcher edits the same work order on their computer, neither of these modifications have yet been synchronized between them. Which modification should be applied to the record, both in the app and on the server, after the next synchronization takes place?
 
 Conflict errors can be resolved based on the settings set by the administrator. A conflict is raised at the entity level and not per field.
 
-To set conflict detection navigate to Settings > Mobile Offline > Mobile Offline Settings and the “Mobile Client” tab.
+To set conflict detection, go to **Settings** > **Mobile Offline** > **Mobile Offline Settings** and the **Mobile Client** tab.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-powerapp-sync-conflict-navigate.png)
+> ![Screenshot of Field Service settings showing the mobile offline menu option.](./media/mobile-powerapp-sync-conflict-navigate.png)
 
-**Set conflict detection for mobile offline synchronization:**
+### Set conflict detection for mobile offline synchronization
 
-- **No**:  Data on the client device (mobile app) wins and there will be no sync errors. This is the default.
+- **No**: Data on the client device (mobile app) wins and there will be no sync errors. This setting is the default.
 
-- **Yes**: Data on the server wins. The technician using the application may see errors informing them of conflict.In this case, while syncing changes to the server, you might see some errors that are automatically resolved. Client changes are overwritten by server values.Data on the device may be overwritten by data from the server. In this case, while syncing changes to the server,
+- **Yes**: Data on the server wins. The technician using the app may see errors informing them of conflict. In this case, while syncing changes to the server, you might see some errors that are automatically resolved. Client changes are overwritten by server values. Data on the device may be overwritten by data from the server. In this case, while syncing changes to the server,
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-powerapp-sync-conflict.png)
+> ![Screenshot of system settings for Dynamics 365 showing the conflict detection setting.](./media/mobile-powerapp-sync-conflict.png)
 
 
 ## Configuration considerations
