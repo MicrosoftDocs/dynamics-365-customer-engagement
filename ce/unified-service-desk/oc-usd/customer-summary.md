@@ -4,7 +4,7 @@ description: "Customer summary is a page where you can get all available informa
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 02/03/2020
+ms.date: 01/13/2021
 ms.topic: article
 ms.service: "dynamics-365-customerservice"
 monikerRange: '>= dynamics-usd-4.1'
@@ -32,6 +32,9 @@ Having this information ready can help support agents reduce the hold time that 
 
 > [!div class=mx-imgBorder]
 > ![Customer summary page](../media/oc-usd-customer360-page.png "Customer summary page")
+
+> [!NOTE]
+> We recommend you not to use **Advanced Find** ![Advanced find icon](../media/advanced-find-icon.png "Advanced find icon") to navigate to the **Customer Summary** form.
 
 ## Customer
 
