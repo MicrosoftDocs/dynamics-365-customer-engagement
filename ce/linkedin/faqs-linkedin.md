@@ -12,6 +12,10 @@ manager: shujoshi
 
 # Frequently asked questions
 
+**Is the LinkedIn Sales Navigator solution available for Dynamics 365 Sales Professional?**   
+**Answer:**   
+Yes, the LinkedIn Sales Navigator solution is available for Dynamics 365 Sales Professional. Administrator must [integrate the solution](integrate-sales-navigator.md) with your sales professional app and and [add the controls to forms](add-sales-navigator-controls-forms.md).   
+
 <a name="sync-load-photos-linkedin"> </a>
 **Why am I unable to sync or load photos of my contacts from LinkedIn to the org chart?**     
 **Answer:**    

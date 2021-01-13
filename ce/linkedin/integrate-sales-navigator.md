@@ -23,6 +23,9 @@ search.app:
 
 Digital transformation is real. Across every industry vertical, companies are rethinking their business processes and entire segments are reorganizing. Enhance key application scenarios by connecting the system of record with the [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] data graph and insights. Build custom applications powered by [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator intelligence, enhancing business processes with data about people, organizations, and relationships. 
 
+>[!NOTE]
+>The LinkedIn Sales Navigator solution is also available for Dynamics 365 Sales Professional.
+
 ## Unified Interface apps: Sales Navigator Controls for the unified interface 
 
 Two flavors of [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator controls are available and [can be placed on any desktop Unified Interface application form](add-sales-navigator-controls-forms.md). You can configure your forms to show more than one control at the same time.  
