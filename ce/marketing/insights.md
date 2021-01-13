@@ -1,7 +1,7 @@
 ---
 title: "Analyze marketing results and gain insights (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to find and interpret marketing results, KPIs, and analytics in Dynamics 365 Marketing."
-ms.date: 08/19/2020
+ms.date: 01/12/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -38,6 +38,9 @@ Dynamics 365 Marketing keeps track of the way your contacts react to your variou
 For nearly all entity types, you can view related results and analytics by opening a record and then switching to the **Insights** tab.
 
 ![Open the insights tab](media/insights-tab-selector.png "Open the insights tab")
+
+> [!IMPORTANT]
+> Marketing analytics are processed in less than 10 minutes per 100,000 items (emails sent, contacts, etc.). Processing, however, can take up to 1 hour, especially when processing a large number of items. For example, 1,000,000 items may take up 6 hours to process. The processing speed decreases when the number of items exceeds the maximum limit listed in the [fair use policy](fair-use-policy.md).
 
 <a name="categories"></a>
 

@@ -71,3 +71,5 @@
 ## [Export to Excel dynamic worksheet](../basics/export-excel-dynamic-worksheet.md)
 ## [Export to Excel static worksheet](../basics/export-excel-static-worksheet.md)
 ## [Export to Excel PivotTable](../basics/export-excel-pivottable.md)
+
+# [Use Dynamics 365 mobile app](dynamics-365-phones-tablets-users-guide-onprem.md)
