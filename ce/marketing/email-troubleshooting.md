@@ -1,7 +1,7 @@
 ---
 title: "Troubleshoot email issues (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Describes how to troubleshoot issues with email in Dynamics 365 Marketing."
-ms.date: 12/15/2020
+ms.date: 01/12/2021
 ms.service: dynamics-365-marketing
 ms.custom:
   - dyn365-admin
@@ -38,6 +38,9 @@ Below are direct links with instructions on how to change allow list settings on
 - [Proofpoint - Creating a filter to allow messages from your own domain](https://help.proofpoint.com/Proofpoint_Essentials/Creating_a_filter_to_allow_messages_from_your_own_domain)
 - [Sophos - Allow/block lists](https://sea.sophos.com/webhelp/sea/tasks/ConfigPolAllowBlockLists.html)
 - [Symantec.Cloud/MessageLabs - About approved and blocked senders lists](https://help.symantec.com/cs/EMAIL_WEB.CLOUD/EMAILSECURITYCLOUD/Toc216427001_v116575109/About-approved-and-blocked-senders-lists)
+
+> [!NOTE]
+The above-listed URLs, as well as the Google URL below, link to external pages that are not associated with Microsoft. The URLs may change or be deactivated without notice.
 
 If you are not using any of the above-listed email security software, use the following links to set the default options for allowing Marketing services in Office365/Exchange and GSuite/Google Apps:
 
