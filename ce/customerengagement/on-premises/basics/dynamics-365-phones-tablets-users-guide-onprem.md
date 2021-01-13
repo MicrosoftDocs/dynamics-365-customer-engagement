@@ -36,32 +36,9 @@ Use the Dynamics 365 for phones and Dynamics 365 for tablets mobile app to run D
 ## Install the app from your device’s app store  
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install Dynamics 365 for phones and tablets](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets)    
 
-## Sign in and sign out 
+## Sign in 
 
-Sign in to the Dynamics 365 mobile app quickly using your work email address or web address for the Dynamics 365 app that you use. If you need help with your sign-in information, contact your Dynamics 365 administrator. 
-
-> [!IMPORTANT]
-> - The option to sign in on the mobile app using your email address is only supported for version 9.x (Microsoft Dataverse) for iOS and Android devices. 
-> - For Dynamics 365 Customer Engagement (on-premises) sign in using the web address option. 
-> - If you are a [Dynamics 365 US Government](https://docs.microsoft.com/dynamics365/customer-engagement/admin/government/microsoft-dynamics-365-government) (GCC and GCC High) user, you are required to sign in using the web address option.
-
-
-### Sign in with your email address
-
-1. Enter your email address, and then select ![Sign in](media/signinarrow.png "Dynamics 365  for phones and tablets Preview sign-in").
-
-   > [!div class="mx-imgBorder"] 
-   > ![Enter email address](media/previewsignin.png "Enter email address to sign-in in").
-
-2. From the list of apps that you have access to, select the app that you want to use.
-
-   > [!div class="mx-imgBorder"] 
-   > ![Select an app](media/openanapp.png "Select an app to use"). 
-
-
-### Sign in with your web address 
-
-You can also sign in using your web address for the Dynamics 365 app and user name and password. 
+Sign in using your web address for the Dynamics 365 app and user name and password. If you need help with your sign-in information, contact your Dynamics 365 administrator. 
 
 1. On the sign-in screen, select **Sign in with a web address instead**.
 
