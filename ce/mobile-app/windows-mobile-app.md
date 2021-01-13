@@ -144,7 +144,7 @@ The **Pinned** and **Recent** lists provide quick access to records that
 you've recently used or pinned to favorites. Use the **Recent** list to
 pin favorite records.
 
-1. From the menu on the left, select **Recent items** ![Recent items icon](media/recent-items-icon.png).
+1. From the menu on the left, select **Recent** ![Recent items icon](media/recent-items-icon.png).
 
 2. From the list of records, select **Add to Pinned** ![Add to pinned items icon](media/add-to-pinned-button.png) next to the record that you want to add to favorites.
 
@@ -155,7 +155,7 @@ pin favorite records.
 
 ## Remove records from pinned items
 
-1. To unpin a record from favorites, from the left select **Pinned items** ![Pinned items icon](media/pinned-button.png).
+1. To unpin a record from favorites, from the left select **Pinned** ![Pinned items icon](media/pinned-button.png).
 
 2. Select **Remove from Pinned** next to the record that you want to remove from the favorites list.
 
