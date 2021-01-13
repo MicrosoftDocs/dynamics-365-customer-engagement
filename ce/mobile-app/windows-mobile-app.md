@@ -25,6 +25,8 @@ search.app:
 
 # Basic navigation for Dynamics 365 mobile app for Windows
 
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 Use the Microsoft Dynamics 365 (Preview) app to run your customer engagement apps in Dynamics 365 (such as Dynamics 365 Sales, Dynamics 365 Customer Service, and Dynamics 365 Marketing), on your mobile device.  
 
 With this preview, the mobile offline feature is also available for Windows users.
@@ -68,7 +70,7 @@ apps.
     On. 
     
     > [!div class="mx-imgBorder"] 
-    > ![Show non-production apps toggle](mediatoggle-on-6.png "Show non-production apps toggle")
+    > ![Show non-production apps toggle](media/toggle-on-6.png "Show non-production apps toggle")
 
 4. Select the back arrow to go back to the **Apps** screen.
 
@@ -92,25 +94,25 @@ search, switch app, and more.
 
 Legend:
 
-1. **Site map:** Select to expand or minimize the site map.
+1. **Site map**: Select to expand or minimize the site map.
 
 2. **Recent items**: View a list of records you recently used.
 
-3. **Pinned items:** View and open your favorite (pinned) records.
+3. **Pinned items**: View and open your favorite (pinned) records.
 
-4. **Entity navigator:** This area lists the entity available in the
+4. **Entity navigator**: This area lists the entity available in the
     app.
 
-5. **Area switcher:** Open this menu to move to another work area. The
+5. **Area switcher**: Open this menu to move to another work area. The
     current work area is named here.
 
-6. **Click to change app**:  Select the current app name to go to the
+6. **Click to change app**: Select the current app name to go to the
  **Apps** page and select a different app.
 
 7. **Go back**: Use this button to go back to the previous page. This
     work on the form, view, and dashboard pages.
 
-8. **Search:** Search for records in your app.
+8. **Search**: Search for records in your app.
 
 9. **Task flow**: Start automated task flows for common tasks.
 
@@ -154,8 +156,8 @@ pin favorite records.
 
 3. When the record is pinned, you will see a pin next to the record.
 
-  > [!div class="mx-imgBorder"] 
-  > ![Shows pinned records](media/wp-pinned-records-11.png "Shows pinned records").
+   > [!div class="mx-imgBorder"] 
+   > ![Shows pinned records](media/wp-pinned-records-11.png "Shows pinned records").
 
 ## Remove records from pinned items
 
@@ -249,26 +251,19 @@ If didn't want to download offline data and selected **Skip for Now** then you c
 
 When updates are downloaded, you can check to see if mobile offline is available. Open your app and on the nav bar select the Wi-Fi button.
 
-   > [!div class="mx-imgBorder"] 
-   > ![Select the Wi-Fi button](media/offline-updates-wifibutton-20.png "Select the Wi-Fi button")
+> [!div class="mx-imgBorder"] 
+> ![Select the Wi-Fi button](media/offline-updates-wifibutton-20.png "Select the Wi-Fi button")
    
 The **Offline Status** page provide information on your offline status.
 
-   > [!div class="mx-imgBorder"] 
-   > ![Offline status page](media/workoffline-legend-22.png "Offline status page")
+> [!div class="mx-imgBorder"] 
+> ![Offline status page](media/workoffline-legend-22.png "Offline status page")
 
 **Legend**
 
-1. **Status**: Tracks the offline status of the whole app, and the
-    status of each entity individually. When the status shows
-    as **Available**, it indicates offline is available and data has
-    synced successfully.
+1. **Status**: Tracks the offline status of the whole app, and the status of each entity individually. When the status shows as **Available**, it indicates offline is available and data has synced successfully.
 
-2. **Entity**: Provides the offline status of each entity individually.
-    For the available entities, you can also track the last time the
-    entity synced. Data is synced periodically in the background to
-    ensure that you have access to the latest data whenever you go
-    offline.
+2. **Entity**: Provides the offline status of each entity individually. For the available entities, you can also track the last time the entity synced. Data is synced periodically in the background to ensure that you have access to the latest data whenever you go offline.
 
 3. **Last Sync Date**: Indicates the last time your data was synced
     with the server.
@@ -279,9 +274,9 @@ The **Offline Status** page provide information on your offline status.
 ## Work in offline mode
 
 When you set the **Work in offline mode** toggle to on, you will this notification: **You are now working in offline mode**.
-
-   > [!div class="mx-imgBorder"] 
-   > ![Notification tells you that you're working in offline mode](media/offlinemode-notification-23.png "Notification tells you that you're working in offline mode")
+ 
+> [!div class="mx-imgBorder"] 
+> ![Notification tells you that you're working in offline mode](media/offlinemode-notification-23.png "Notification tells you that you're working in offline mode")
 
 ## Get back online and sync your changes
 
@@ -304,8 +299,8 @@ app.
 
 If you run into issue, you can always reconfigure the app. Select the profile button and then select **Reconfigure**.
 
-   > [!div class="mx-imgBorder"] 
-   > ![Reconfigure the app](media/reconfigure-25.png "Reconfigure the app")
+> [!div class="mx-imgBorder"] 
+> ![Reconfigure the app](media/reconfigure-25.png "Reconfigure the app")
 
 ## Known issues and unsupported features
 
@@ -315,8 +310,7 @@ You can add notes, but cannot attach photos, videos, and attachments. Also you c
 
 **Cannot use the barcode scanner**
 
-At multiple location in the experience (Search, Forms, ...) you can see the Barcode Scanner button ![Bar code scanner button](media/scannerbutton.png).
-This is not supported in the Private Preview.
+At multiple forms you can see the Barcode Scanner button ![Bar code scanner button](media/scannerbutton.png). This is not supported in the early access.
 
 **Embedded Power BI and canvas will not render**
 
