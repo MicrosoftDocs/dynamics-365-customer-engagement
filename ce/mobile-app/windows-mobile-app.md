@@ -31,7 +31,7 @@ Use the Microsoft Dynamics 365 (Preview) app to run your customer engagement app
 
 With this preview, the mobile offline feature is also available for Windows users.
    
-# Sign in
+## Sign in
 
 Sign into the Microsoft Dynamics 365 Windows app quickly using your work email address for the Dynamics 365 app that you use. If you need help with your sign-in information, contact your Dynamics 365 administrator.
 
@@ -51,7 +51,7 @@ Sign into the Microsoft Dynamics 365 Windows app quickly using your work email a
     > ![Choose an app](media/choose-your-app-3.png "Choose an app")
 
 
-## Show non-production apps
+### Show non-production apps
 
 By default, only production model-driven apps are shown in the list of
 apps.
@@ -77,12 +77,6 @@ apps.
    > [!div class="mx-imgBorder"] 
    > ![Go back to list of apps](media/go-back-to-appspage-7.png "Go back to list of apps")
 
-## Sign out
-
-To sign out select profile button and then select **Sign out**.
-
-> [!div class="mx-imgBorder"] 
-> ![Sign out](media/sign-out-8.png "Sign out")
 
 ## Home screen
 
@@ -213,6 +207,14 @@ created by another user and shared with you.
 
 3. Edit the record and when you're done the record is automatically saved.
 
+## Sign out
+
+To sign out select profile button and then select **Sign out**.
+
+> [!div class="mx-imgBorder"] 
+> ![Sign out](media/sign-out-8.png "Sign out")
+
+
 ## Set up mobile offline (for admins)
 
 To allows users to use the Dynamics 365 for Windows mobile app in offline mode, a Dynamics 365 administrator will need to set up mobile offline for their organization. For more information, see [Set up mobile offlinesynchronization](https://docs.microsoft.com/dynamics365/mobile-app/preview-setup-mobile-offline).
@@ -302,17 +304,24 @@ If you run into issue, you can always reconfigure the app. Select the profile bu
 > [!div class="mx-imgBorder"] 
 > ![Reconfigure the app](media/reconfigure-25.png "Reconfigure the app")
 
+## Send feedback
+
+To send feedback about the app, go back to the **Apps** page, select **More** > **Send feedback**.
+
+> [!div class="mx-imgBorder"] 
+> ![More button](media/more-settings-button.png "More button")
+
 ## Known issues and unsupported features
 
-**Attachments are not supported**
+### Media capture is not supported
 
-You can add notes, but cannot attach photos, videos, and attachments. Also you cannot view the attachments that are already in the timeline.
+You can add notes, but cannot capture and attach photos, videos or audio. However, you can attach local files of any types including photo, video or audio types.  
 
-**Cannot use the barcode scanner**
+### Cannot use the barcode scanner
 
 At multiple forms you can see the Barcode Scanner button ![Bar code scanner button](media/scannerbutton.png). This is not supported in the early access.
 
-**Embedded Power BI and canvas will not render**
+### Embedded Power BI and canvas will not render
 
 Any embedded Power BI dashboard that requires authentication to access the report will not render.
 
