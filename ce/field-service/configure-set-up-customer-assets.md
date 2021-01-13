@@ -23,7 +23,7 @@ In this article, let's explore creating customer assets and noting them on work 
 
 For a guided walkthrough, check out the following video.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4Ly0y]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Ly0y]
 
 ## Prerequisites
 
