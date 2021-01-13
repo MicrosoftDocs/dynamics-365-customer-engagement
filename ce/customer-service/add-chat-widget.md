@@ -98,7 +98,7 @@ ms.service: dynamics-365-customerservice
     | Section | Field | Description | Example value |
     |---------------|------------------------|-----------------------------------|---------------------|
     | Online | Theme color | Select a color from the list for the chat widget. | Blue |
-    | Online | Logo | Logo for the chat widget. | https://oc-cdn-ocprod.azureedge.net/livechatwidget/images/chat.svg |
+    | Online | Logo | Use a public-facing image URL for the chat widget. | https://oc-cdn-ocprod.azureedge.net/livechatwidget/images/chat.svg |
     | Online | Title | Specify the name for the widget that's displayed for customers in the chat widget. | Let's Chat! |        
     | Online | Subtitle | Specify the name for the widget that's displayed for customers in the chat widget. | We're Online |
     | Online | Position | Specify the position of the widget. | Bottom right |
