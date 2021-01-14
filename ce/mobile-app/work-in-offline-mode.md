@@ -2,7 +2,7 @@
 title: "Work offline on your mobile device (Dynamics 365 apps)| MicrosoftDocs"
 description: How to work on your mobile device in offline mode using the Dynamics 365 for phones and tablets app and Power Apps mobile
 ms.custom: 
-ms.date: 10/23/2020
+ms.date: 01/14/2021
 ms.reviewer: kvivek
 ms.service: crm-online
 ms.suite: 
@@ -87,11 +87,9 @@ If did not want to download offline data and choose **Skip for now**, you will n
    > ![Start download updates.](media/mobile_offline_download_updates_complete.png "Start download updates.")
    
 3. When Offline download is completed, you will get a notification indicating that you can start working in offline mode.
-
-
-   |Current  |Early access  |
-   |---------|---------|
-   | ![Download updates complete](media/mobile_offline_download_updates_complete_1.png "Download updates complete")    |     ![Download updates complete](media/mobile_offline_download_updates_complete_updated.png "Download updates complete")     |
+ 
+   > [!div class="mx-imgBorder"] 
+   > [Download updates complete](media/mobile_offline_download_updates_complete_updated.png "Download updates complete") 
 
 
 ## See if offline mode is available
