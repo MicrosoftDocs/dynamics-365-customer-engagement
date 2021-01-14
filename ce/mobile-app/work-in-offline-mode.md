@@ -96,11 +96,7 @@ If did not want to download offline data and choose **Skip for now**, you will n
 
 When offline updates are complete, you can check to see if mobile offline is available. 
 
-- To check the offline status, do one of the following:   
-
-    - **Current**: From the nav bar, select ![Mobile app ellipsis](../mobile-app/media/mobile-ellipsis.png "Mobile app ellipsis") > **Offline Status**. 
-    - **Early access**: From the Home screen, select the site map ![Site map icon](media/d365_mobile_sitemap_icon.png "Site map icon") > Offline ![Offline button.](media/offline_button.png "Offline button").
-    
+- From the Home screen, select the site map ![Site map icon](media/d365_mobile_sitemap_icon.png "Site map icon") > Offline ![Offline button.](media/offline_button.png "Offline button").
   
     > [!div class="mx-imgBorder"] 
     > ![Mobile offline status](media/OfflineStatus.png "Mobile offline status")
