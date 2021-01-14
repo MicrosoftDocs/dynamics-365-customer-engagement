@@ -48,7 +48,7 @@ These are the supported devices to use mobile offline:
 - for Android, version 4.3.19043.33 or later supported.
 
 > [!NOTE]
-> - The offline feature isn't supported for Dynamics 365 Customer Engagement (on-premises). For more informantion see, [Use Dynamics 365 for phones and tablets to run Dynamics 365 Customer Engagement (on-premises) apps](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/dynamics-365-phones-tablets-users-guide-onprem). 
+> - The offline feature isn't supported for Dynamics 365 Customer Engagement (on-premises). To run your on-premises apps on the mobile app see, [Use Dynamics 365 for phones and tablets to run Dynamics 365 Customer Engagement (on-premises) apps](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/dynamics-365-phones-tablets-users-guide-onprem). 
 
 ### Install Power Apps mobile app (for Power Apps)
 
