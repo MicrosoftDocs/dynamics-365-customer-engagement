@@ -2,7 +2,7 @@
 title: "Dynamics 365 for phones and tablets user's guide for Dynamics 365 Customer Engagement (on-premises) apps| MicrosoftDocs"
 ms.custom: 
 description: How to use the Dynamics 365 for phones and tablets app with Dynamics 365 Customer Engagement (on-premises) 
-ms.date: 1/11/2021
+ms.date: 1/14/2021
 ms.reviewer: kvivek
 ms.service: crm-online
 ms.suite: 
@@ -23,7 +23,7 @@ search.app:
   - D365Sales
 ---
 
-# Use Dynamics 365 for phones and tablets to run Dynamics 365 Customer Engagement (on-premises) apps. For 
+# Use Dynamics 365 for phones and tablets to run Dynamics 365 Customer Engagement (on-premises) apps.
 
 
 Use the Dynamics 365 for phones and Dynamics 365 for tablets mobile app to run Dynamics 365 Customer Engagement (on-premises) apps when you're on the go. With one download from your app store, you’ll automatically have access to all the apps you need for your role. 
@@ -31,7 +31,7 @@ Use the Dynamics 365 for phones and Dynamics 365 for tablets mobile app to run D
 
 > [!NOTE]
 > There are separate mobile apps for:
->   - Dynamics 365 for phones and tablets app to run your customer engagement apps in Dynamics 365 (such as Dynamics 365 Sales, Dynamics 365 Customer Service, and Dynamics 365 Marketing): [Basic navigation on Dynamics 365 for phones and tablets](https://docs.microsoft.com/dynamics365/mobile-app/user-guide-mobile-app)
+>   - Dynamics 365 for phones and tablets app to run your customer engagement apps in Dynamics 365 (such as Dynamics 365 Sales, Dynamics 365 Customer Service, and Dynamics 365 Marketing): [Dynamics 365 for phones and tablets](https://docs.microsoft.com/dynamics365/mobile-app/user-guide-mobile-app)
 >   - Power Apps mobile: [Run model-driven apps and canvas apps on Power Apps mobile](https://docs.microsoft.com/powerapps/mobile/run-powerapps-on-mobile)
 >   - Dynamics 365 Field Service: [Field Service mobile app](https://go.microsoft.com/fwlink/?linkid=846157)
 >   - Finance and Operations applications: [Finance and Operations mobile app](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-app-home-page) 
