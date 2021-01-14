@@ -112,12 +112,12 @@ Schedule the work order to the bookable resource that represents the technician 
 > ![Screenshot of Abraham McCormick's booked work order on the Field Service schedule board, in a desktop window.](./media/remote-assist-field-service-work-order-schedule.png)
 
 
-## View work orders on Field Service Mobile
+## View work orders and trigger Remote Assist from the Field Service mobile app
 
 Like any typical day, the technician logs in to Field Service Mobile and sees their assigned work orders for that day. If they need guidance from a remote collaborator who better knows the product, service, equipment, or account being serviced, they can launch the Dynamics 365 Remote Assist mobile app from the work order.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of four mobile devices showing Field Service Mobile, and the workflow that brings up the Dynamics 365 Remote Assist launching option.](./media/remote-assist-field-service-mobile.png)
+> ![Screenshot of four mobile devices showing Field Service Mobile, and the workflow that brings up the Dynamics 365 Remote Assist launching option.](./media/remote-assist-booking-deeplink.png)
 
 > [!Note]
 > The deep link from Field Service Mobile to the Dynamics 365 Remote Assist mobile app is available on iOS and Android devices. For Field Service Mobile on iOS, your system administrator must import the [mobile project v1.0.4847 or later](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-mobile#104847). For Android devices, you must import the [mobile project v1.0.1322 or later](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-mobile#103482).
