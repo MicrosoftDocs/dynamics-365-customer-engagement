@@ -142,7 +142,7 @@ To set conflict detection, go to **Settings** > **Mobile Offline** > **Mobile Of
 
 - **No**: Data on the client device (mobile app) wins and there will be no sync errors. This setting is the default.
 
-- **Yes**: Data on the server wins. The technician using the app may see errors informing them of conflict. In this case, while syncing changes to the server, you might see some errors that are automatically resolved. Client changes are overwritten by server values. Data on the device may be overwritten by data from the server. In this case, while syncing changes to the server,
+- **Yes**: Data on the server wins. The technician using the app may see errors informing them of conflict. In this case, while syncing changes to the server, you might see some errors that are automatically resolved. Client changes are overwritten by server values. Data on the device may be overwritten by data from the server. In this case, while syncing changes to the server, the technician using the application may see errors informing them of conflict.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of system settings for Dynamics 365 showing the conflict detection setting.](./media/mobile-powerapp-sync-conflict.png)
