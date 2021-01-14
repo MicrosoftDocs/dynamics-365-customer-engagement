@@ -71,10 +71,7 @@ Once you have the mobile app installed and your admin has [enabled mobile offlin
 
 If did not want to download offline data and choose **Skip for now**, you will not be able to use the app in offline mode until you manually download the updates. 
 
-1. To manually download updates, do one of the following:
-
-    - **Current**: From the nav bar, select ![Moble app ellipsis](../mobile-app/media/mobile-ellipsis.png "Mobile app ellipsis") > **Offline Status**. 
-    - **Early access**: From the Home screen, select the site map ![Site map icon](media/d365_mobile_sitemap_icon.png "Site map icon") > Offline ![Offline button.](media/offline_button.png "Offline button").
+1. From the Home screen, select the site map ![Site map icon](media/d365_mobile_sitemap_icon.png "Site map icon") > Offline ![Offline button.](media/offline_button.png "Offline button").
 
 2. On the **Offline Status** screen, select **Download offline updates**.
 
@@ -86,10 +83,10 @@ If did not want to download offline data and choose **Skip for now**, you will n
    > [!div class="mx-imgBorder"] 
    > ![Start download updates.](media/mobile_offline_download_updates_complete.png "Start download updates.")
    
-3. When Offline download is completed, you will get a notification indicating that you can start working in offline mode.
+4. When Offline download is completed, you will get a notification indicating that you can start working in offline mode.
  
    > [!div class="mx-imgBorder"] 
-   > [Download updates complete](media/mobile_offline_download_updates_complete_updated.png "Download updates complete") 
+   > ![Download updates complete](media/mobile_offline_download_updates_complete_updated.png "Download updates complete") 
 
 
 ## See if offline mode is available
