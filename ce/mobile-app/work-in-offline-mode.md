@@ -119,10 +119,7 @@ With no connectivity, you'll automatically have access to the downloaded data so
 With intermittent connectivity, it is recommended to switch to offline mode. As long as the offline mode is turned on, the updates that you make on your device will not be synced with the server and you can continue to work with the local data on your device. To push the changes you've made to the server and refresh your local data, set the **Work in offline mode** toggle to Off.
 
 
-1. To start working in offline mode, do one of the following:
-
-    - **Current**: From the nav bar, select ![Mobile app ellipsis](../mobile-app/media/mobile-ellipsis.png "Mobile app  ellipsis") > **Offline Status**. 
-    - **Early access**: From the Home screen, select the site map ![Site map icon](media/d365_mobile_sitemap_icon.png "Site map icon") > Offline ![Offline button.](media/offline_button.png "Offline button").
+1. To start working in offline mode, from the Home screen, select the site map ![Site map icon](media/d365_mobile_sitemap_icon.png "Site map icon") > Offline ![Offline button.](media/offline_button.png "Offline button").
 
 2. Set the **Work in offline mode** toggle to On.
 
