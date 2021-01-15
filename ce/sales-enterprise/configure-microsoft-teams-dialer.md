@@ -14,8 +14,8 @@ manager: shujoshi
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Microsoft Teams dialer helps sellers to be more productive and get work done more effectively by calling customers directly within Dynamics 365 Sales.   
-As an administrator, you must configure the Teams dialer  for sellers to use. When configured the Teams dialer are available in your Dynamics 365 app for phone activity.     
+Microsoft Teams dialer helps sellers to be more productive and get work done more effectively by calling customers directly within Dynamics 365 apps.   
+As an administrator, you must configure the Teams dialer for sellers to use. When configured the Teams dialer are available in your Dynamics 365 app for phone activity.     
 Perform the following steps to configure Teams dialer for your organization:    
 1.	[Review the prerequisites](#review-the-prerequisites).   
 2.	[Configure the dialer](#configure-the-dialer).    
