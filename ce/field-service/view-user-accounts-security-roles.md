@@ -41,6 +41,8 @@ First, let's define the roles that are within of your workforce and understand h
 ## Step 1: Add users & assign Dynamics 365 Field Service licenses
 After the admin has purchased trial or paid Dynamics 365 Field Service licenses for their users, they can now add and assign them licenses.
 
+See the topic on [Creating users and assigning security roles in the Power Platform](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles) for more details. 
+
 1. Log into the [Microsoft 365 administrator portal](https://www.microsoft.com/microsoft-365/business/office-365-administration?rtc=1) using your organization’s admin account. 
 
 2. In the left navigation bar, select **Users** > **Active Users**.
