@@ -10,16 +10,16 @@ ms.reviewer: nenellim
 ---
 
 # Use email
-Having the ability to communicate effectively with customers can lead to increased sales and customer satisfaction. The email capability in customer engagement apps empowers users with the ability to respond and provide timely customer interaction effortlessly through quick email access with enhanced features and functionality. Users can compose, reply, and review emails, as well as quickly attach and send images that add value and support to customer communication using streamlined functionality. You can also ensure interactions between users and customers are consistent and professional by using email templates with rich text and images. 
+Having the ability to communicate effectively with customers can lead to increased sales and customer satisfaction. The email capability in customer engagement apps empowers users with the ability to respond and provide timely customer interaction effortlessly through quick email access with enhanced features and functionality. Users can compose, reply, and review email, as well as quickly attach and send images that add value and support to customer communication using streamlined functionality. You can also ensure interactions between users and customers are consistent and professional by using email templates with rich text and images. 
 
 The following is an overview of email features and functionality that shows you: 
 - [Understand the email experience](customer-service-hub-user-guide-email-overview.md#understand-the-email-experience)
-- [How to view, compose, and respond to emails](customer-service-hub-user-guide-email-overview.md#how-to-view-compose-and-respond-to-emails)
-- [How to use rich text editor toolbar in email](customer-service-hub-user-guide-email-overview.md#how-to-use-the-rich-text-editor-toolbar-in-email)
-- [How to use email templates](customer-service-hub-user-guide-email-overview.md#how-to-use-email-templates)
-- [How to attach a file in email](customer-service-hub-user-guide-email-overview.md#how-to-attach-a-file-to-email)
-- [How to view and insert images in email](customer-service-hub-user-guide-email-overview.md#how-to-view-and-insert-images-in-email) 
-- [How to create a signature for emails and queues](customer-service-hub-user-guide-email-overview.md#how-to-create-a-signature-for-emails-and-queues)
+- [View, compose, and respond to emails](customer-service-hub-user-guide-email-overview.md#view-compose-and-respond-to-emails)
+- [Use rich text editor toolbar in email](customer-service-hub-user-guide-email-overview.md#use-the-rich-text-editor-toolbar-in-email)
+- [Use email templates](customer-service-hub-user-guide-email-overview.md#use-email-templates)
+- [Attach a file in email](customer-service-hub-user-guide-email-overview.md#attach-a-file-to-email)
+- [View and insert images in email](customer-service-hub-user-guide-email-overview.md#view-and-insert-images-in-email) 
+- [Create a signature for emails and queues](customer-service-hub-user-guide-email-overview.md#create-a-signature-for-emails-and-queues)
 
 ## Understand the email experience
 You can work in either the **navigate-to** email or the **contextual** email experience. The difference between the navigate-to vs. contextual email experience is where the email displays on your screen. Both experiences use the same **Enhanced Email** form, which is enabled by default out-of-the-box (OOTB).
@@ -61,11 +61,11 @@ The following highlights the difference between the **navigate-to** and **contex
 
 For more information, see [Enable the enhanced email experience](customer-service-hub-user-guide-email-admin.md#how-to-enable-the-enhanced-email-experience).
 
-## View, compose and respond to emails
-Users can view, create, and send emails faster with streamlined access that helps users compose, reply, and send emails using rich text editing and drag-and-drop attachment features and functionalities.
+## View, compose and respond to email
+Users can view, create, and send email faster with streamlined access that helps users compose, reply, and send emails using rich text editing and drag-and-drop attachment features and functionalities.
 
 ### View an email
-You can view and respond to emails across your Dynamics 365 app. 
+You can view and respond to email across your Dynamics 365 app. 
 
 #### Access and view emails
    ![Access and view email](media\email-how-to-view-an-email-11a.png "Access and view email.")
