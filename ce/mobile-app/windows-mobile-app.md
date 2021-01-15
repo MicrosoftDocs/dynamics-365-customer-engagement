@@ -23,7 +23,7 @@ search.app:
   - D365Sales
 ---
 
-# Basic navigation for Dynamics 365 mobile app for Windows
+# Basic navigation for Dynamics 365 app for Windows
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -164,6 +164,19 @@ pin favorite records.
 
    > [!div class="mx-imgBorder"] 
    > ![Remove from pinned items](media/remove-from-pinned-12.png "Remove from pinned items")
+
+## Record set navigation
+
+Navigate through multiple records by using record set navigation. The record-focused navigation improves productivity by allowing users to jump from record to record in the list and easily navigate back without losing their working list.
+
+The number of records that you see in the record set navigation pane is based on the number of record that your system administrator has defined for the subgrid.
+
+1. To use row set navigation, open a page with a list of rows.
+2. Open a row and then select **Open Record Set** ![Pinned items icon](media/wp-record-set-nav-button.png) to select a record from the list.
+
+   > [!div class="mx-imgBorder"] 
+   > ![Open record set navigation](media/wp-recordset-nav.png "Open record set navigation")
+
 
 ## Change views
 
