@@ -138,7 +138,7 @@ When accessing email, there are a couple of options you can use.
    1. From the navigation bar, select the plus ![](media\email-plus-icon.png "email icon") icon.
    2. Select **Email** from the drop-down menu.
 
-### Resply to email in timeline
+### Reply to email in timeline
 When replying to emails in Timeline, the command bar in the top-right corner provides you with reply options. When you select an option, your email automatically is set and opens in that state ready for you to begin your message.  
 
 You can use the following command options when working with emails in the timeline.
