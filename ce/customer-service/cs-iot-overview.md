@@ -53,7 +53,7 @@ All Azure IoT services run in your own Azure cloud subscription. Additionally, w
 
 ## Privacy details for Connected Customer Service
 
-By installing Connected Customer Service for Dynamics 365, when you provide your Azure subscription information, the required Azure resources (listed below) are deployed and your Dynamics 365 for Customer Engagement instance will send data (such as commands) to Azure to enable IoT–enabled scenarios that register devices and then send and receive commands to the registered devices. An administrator can uninstall Connected Customer Service to remove the functionality and then navigate to the Azure portal to manage any related Azure services that are no longer needed.
+By installing Connected Customer Service for Dynamics 365, when you provide your Azure subscription information, the required Azure resources (listed below) are deployed and your Dynamics 365 for Customer Engagement instance will send data (such as commands) to Azure to enable IoT–enabled scenarios that register devices and then send and receive commands to the registered devices. An administrator can navigate to the Azure portal to manage any related Azure services that are no longer needed.
 
 Azure components and services that are involved with Connected Customer Service functionality are detailed in the following sections.
 
