@@ -96,6 +96,9 @@ Yes. Use the [Teams feature](https://docs.microsoft.com/power-platform/admin/man
 
 3. Can I make a copy of security roles? 
 
+> [!Note]
+> New product releases may update field service security roles. You can either make custom roles or copies of existing roles to mitigate the risks. If you intend to add additional privileges, we recommend creating a custom security role with the added privileges, and assigning both the Field Service security role and the add-on role. If you intend to remove or lower privileges, then we recommend that you make a copy of the Field Service security role, make your changes, and assign the copied security role to the user. To copy a security role, go to Settings > Security > Security Roles, then select a security role record and choose Actions > Copy Role. See the following screenshot for reference.
+
 Yes. Here's an example of copying the **Field Service - Dispatcher** role:
 
 1. Go to **Settings** > **Security** > **Security Roles** and copy the **Field Service - Dispatcher** role.
