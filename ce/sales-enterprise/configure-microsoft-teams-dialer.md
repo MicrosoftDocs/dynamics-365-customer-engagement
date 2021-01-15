@@ -28,16 +28,16 @@ Review the following requirements before you configure the Microsoft Teams diale
 
 ## Configure the dialer     
 1.	Sign in to your sales app.     
-2.	Go to **App settings** and under **General settings** select **Teams calls (preview)**.    
+2.	Go to **App settings** and under **General settings**, select **Teams calls (preview)**.    
     > [!div class="mx-imgBorder"]
     > ![Teams dialer configuration page](media/teams-dialer-configuration-page.png "Teams dialer configuration page")     
 3.	In the **What you need to set up Microsoft Teams calls** section, the application validates that your organization has sufficient privileges to use the **Phone system** and **Microsoft Teams**.     
-    - Up on successful validation, the status corresponding to **Phone system license** and **Teams license** display **Status: Successfully set up**. Proceed to step 4. 
-    select **Check status**.   
+    - Up on successful validation, the status corresponding to **Phone system license** and **Teams license** display **Status: Successfully set up**. Proceed to step 4.    
         > [!div class="mx-imgBorder"]
         > ![Phone system and teams licenses successful validation](media/teams-dialer-systems-validation-successful.png "Phone system and teams licenses successful validation")      
     - <a name='tenant-admin-contact'></a> If any of the validations fails, you can’t proceed with the configure and you must contact your tenant administrator to set up the phone system and Microsoft Teams for your organization.   
-    When the tenant administrator completes the configuration of [phone system](https://docs.microsoft.com/MicrosoftTeams/setting-up-your-phone-system) and [Teams licenses](https://docs.microsoft.com/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing?tabs=small-business), you can continue with the configuration.       
+    When the tenant administrator completes the configuration of [phone system](https://docs.microsoft.com/MicrosoftTeams/setting-up-your-phone-system) and [Teams licenses](https://docs.microsoft.com/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing?tabs=small-business), you can continue with the configuration. 
+    Select **Check status**.      
         > [!div class="mx-imgBorder"]
         > ![Phone system and teams licenses failed validation](media/teams-dialer-systems-validation-failed.png "Phone system and teams licenses failed validation")      
 4.	Select **Enable preview** and the Microsoft Teams call preview is enabled.   
