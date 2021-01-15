@@ -58,24 +58,25 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 ## 8.8.33.61
 (Includes Universal Resource Scheduling version [3.12.34.4](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling#312344))
 - Allow technicians using the mobile app to quickly create follow up work orders.
-- Optimize unwanted calls for IoT entities during Form Loads of work order and case.
+- Optimize unwanted calls for IoT entities during form loads of work order and case.
 - Corrected an issue with connected IoT device not showing up in connected device subgrid of the asset. 
-- Performance improvements in CFS and IoT asset.
+- Performance improvements in Connected Field Service and IoT asset.
 - Removed deadlock errors on product inventory in the work order generation.
-- Corrected an issue with Resource Requirement Preferences to show up with Requirements.  	- Corrected batch size related error in work order sharing/unsharing. 
+- Corrected an issue with resource requirement preferences to show up with requirements.  	
+- Corrected batch size related error in work order sharing and unsharing. 
 - Fixed an issue in work order creation when rating value is null for a characteristic associated with agreement booking incident.
-- Corrected privilege errors when trying to save work order and child records if there is no read privilege to FS Settings.
+- Corrected privilege errors when trying to save work order and child records if there is no read privilege to Field Service settings.
 - Improved the error handling when work order closure and the unit cost field of work order product is not filled. 
-- Fixed the behavior to set custom default view for Customer Asset lookup control on the Agreement Booking Incident form.
-- Corrected an issue of missing New button on time entry form in IE11.
+- Fixed the behavior to set custom default view for customer asset lookup control on the agreement booking incident form.
+- Corrected an issue of missing "New" button on time entry form in IE 11.
 - Fixed an error when saving work order resulting from an issue in the deletion of requirement resource preferences.
-- For the error that service tasks get reactivated even when tasks are completed and work order is completed, a new flag workorderincidentitem.statecodeupdate.optout=true can be added in the field service settings page in the "Advanced Settings" field, under the "Other" tab. The new flag can be added to any flags already present and delineated by a new line. 
-- Corrected an issue in Geo Code command button not being visible in offline sometimes.
+- For the error that service tasks get reactivated even when tasks are completed and work order is completed, a new flag ```workorderincidentitem.statecodeupdate.optout=true``` can be added in the Field Service settings page in the "Advanced Settings" field, under the "Other" tab. The new flag can be added to any flags already present and delineated by a new line. 
+- Corrected an issue in geocode command button not being visible in offline sometimes.
 - Excluded a sales related deprecated web resource.
 - Corrected an issue with  service tasks not showing up on mobile while offline.
 - Fixed an issue with add and edit options being hidden for assets and functional locations.
 - Corrected an issue in billing account population when creating a work order from account.
-- Improved the usability of the matrix control in Inspections. 
+- Improved the usability of the matrix control in inspections. 
 
 ## 8.8.32.61 
 This release is a hotfix on Field Service version 8.8.32.59
