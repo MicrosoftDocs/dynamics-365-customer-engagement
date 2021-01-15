@@ -14,9 +14,9 @@ manager: shujoshi
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-Microsoft Teams dailer helps sellers to be more productive and get work done more effectively by calling customers directly within Dynamics 365 Sales.   
-As an administrator, you must configure the Teams dialer  for sellers to use. When configured the Teams dailer are available in your Dynamics 365 app for phone activity.     
-You must perform the following steps to configure Teams dialer for your organization:    
+Microsoft Teams dialer helps sellers to be more productive and get work done more effectively by calling customers directly within Dynamics 365 Sales.   
+As an administrator, you must configure the Teams dialer  for sellers to use. When configured the Teams dialer are available in your Dynamics 365 app for phone activity.     
+Perform the following steps to configure Teams dialer for your organization:    
 1.	[Review the prerequisites](#review-the-prerequisites).   
 2.	[Configure the dialer](#configure-the-dialer).    
 
@@ -35,12 +35,12 @@ Review the following requirements before you configure the Microsoft Teams diale
     > [!div class="mx-imgBorder"]
     > ![](media/ "")      
 
-    The application validates that your organization have sufficient privileges to use the **Phone system** and **Microsoft Teams**.    
+    The application validates that your organization has sufficient privileges to use the **Phone system** and **Microsoft Teams**.    
     Up on successful validation, the status corresponding to **Phone system license** and **Teams license** display **Status: Successfully set up**. 
     > [!div class="mx-imgBorder"]
     > ![](media/ "")      
 
-    If any of the validation fails, you can’t proceed with the configure and you must contact your tenant administrator to setup the phone system and Microsoft Teams for your organization.      
+    If any of the validations fails, you can’t proceed with the configure and you must contact your tenant administrator to set up the phone system and Microsoft Teams for your organization.      
     When the tenant administrator completes the configuration of [phone system](https://docs.microsoft.com/MicrosoftTeams/setting-up-your-phone-system) and [Teams licenses](https://docs.microsoft.com/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing?tabs=small-business), you can continue with the configuration.       
 4.	Select **Enable preview** and the Teams call preview is enabled.   
     > [!div class="mx-imgBorder"]
@@ -59,7 +59,7 @@ Review the following requirements before you configure the Microsoft Teams diale
     > ![](media/ "")      
 
     >[!NOTE]
-    >When Teams call is enabled in your organization for an app, other telephony systems that are connected to app through Channel Integration Framework (CIF) will stop working . Administrator can deactivate or delete the CIF phone system. Follow these steps:
+    >When Teams dialer is enabled in your organization for an app, other telephony systems that are connected to app through Channel Integration Framework (CIF) will stop working . Administrator can deactivate or delete the CIF phone system. Follow these steps:
     >1.	Go to your **Channel Integration Framework** app.
     >2.	From the **Active Channel Providers** view, choose the phone system.
     >3.	From the **Tool** bar, select **Deactivate** or **Delete** according to your requirement.   
