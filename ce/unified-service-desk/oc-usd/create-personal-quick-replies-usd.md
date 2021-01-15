@@ -1,5 +1,5 @@
 ---
-title: "Create personal quick replies in Omnichannel for Customer Service | MicrosoftDocs"
+title: "Create personal quick replies in Omnichannel for Customer Service in Unified Service Desk | MicrosoftDocs"
 description: "Learn how to create personal quick replies or predefined messages in Omnichannel for Customer Service from within Unified Service Desk client application."
 author: v-sailab
 ms.author: v-sailab
