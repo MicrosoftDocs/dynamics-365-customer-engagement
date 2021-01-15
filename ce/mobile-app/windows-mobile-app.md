@@ -2,7 +2,7 @@
 title: "Micrsoft Dynamics 365 mobile app for Windows (Dynamics 365 apps)| MicrosoftDocs"
 ms.custom: 
 description: How to use the Dynamics 365 mobile app for Windows
-ms.date: 01/13/2020
+ms.date: 01/29/2021
 ms.reviewer: kvivek
 ms.service: crm-online
 ms.suite: 
@@ -167,12 +167,12 @@ pin favorite records.
 
 ## Record set navigation
 
-Navigate through multiple records by using record set navigation. The record-focused navigation improves productivity by allowing users to jump from record to record in the list and easily navigate back without losing their working list.
+Navigate through multiple records by using record set navigation. The record focused navigation improves productivity by letting you to jump from record to record in the list and easily navigate back without losing your working list.
 
-The number of records that you see in the record set navigation pane is based on the number of record that your system administrator has defined for the subgrid.
+The number of records that you see in the record set navigation pane is based on the number of records that your system administrator has defined for the subgrid (record type).
 
-1. To use row set navigation, open a page with a list of rows.
-2. Open a row and then select **Open Record Set** ![Pinned items icon](media/wp-record-set-nav-button.png) to select a record from the list.
+1. To use record set navigation, on the left select the type of record that you want to open. For example select, **Contacts**.
+2. Open a contact record and then select **Open Record Set** ![Pinned items icon](media/wp-record-set-nav-button.png) to open all records in the list and easily move from one record to another.
 
    > [!div class="mx-imgBorder"] 
    > ![Open record set navigation](media/wp-recordset-nav.png "Open record set navigation")
