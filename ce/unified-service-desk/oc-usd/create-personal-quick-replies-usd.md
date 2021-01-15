@@ -7,6 +7,7 @@ manager: shujoshi
 ms.date: 01/05/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
+monikerRange: '>= dynamics-usd-4.1'
 ---
 
 # Create personal quick replies in Omnichannel for Customer Service in Unified Service Desk

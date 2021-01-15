@@ -7,6 +7,7 @@ manager: shujoshi
 ms.date: 01/12/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
+monikerRange: '>= dynamics-usd-4.1'
 ---
 
 # Add personalization tab
