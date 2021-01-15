@@ -20899,6 +20899,11 @@
       "source_path": "ce/customer-service/service-manager-guide.md",
       "redirect_url": "../app-profile-manager/configure-cs",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/unified-service-desk/oc-usd/add-personalization-tab.md",
+      "redirect_url": "../oc-customizer/add-personalization-tab",
+      "redirect_document_id": false
     }
   ]
 }
