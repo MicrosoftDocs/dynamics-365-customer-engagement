@@ -1,8 +1,8 @@
 ---
 title: "Basic navigation in Dynamics 365 for phones and tablets (Dynamics 365 apps)| MicrosoftDocs"
-description: How to use the Dynamics 365 for phones and tablets app
+description: How to use the Dynamics 365 mobile app
 ms.custom: 
-ms.date: 9/29/2020
+ms.date: 1/11/2021
 ms.reviewer: kvivek
 ms.service: crm-online
 ms.suite: 
@@ -23,16 +23,13 @@ search.app:
   - D365Sales
 ---
 
-# Preview: Basic navigation in Dynamics 365 for phones and tablets 
-
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+# Basic navigation on Dynamics 365 for phones and tablets 
 
 Use the Dynamics 365 for phones and tablets app to run your customer engagement apps in Dynamics 365 (such as Dynamics 365 Sales, Dynamics 365 Customer Service, and Dynamics 365 Marketing) on your mobile device. To install the app, see [Install Dynamics 365 for phones and tablets](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets).
 
-
 > [!NOTE]
 > There are separate mobile apps for:
+>   - Dynamics 365 for phones and tablets for Dynamics 365 Customer Engagement (on-premises): [Dynamics 365 mobile app to run Dynamics 365 Customer Engagement (on-premises) apps.](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/dynamics-365-phones-tablets-users-guide-onprem)
 >   - Dynamics 365 Field Service: [Field Service mobile app](https://go.microsoft.com/fwlink/?linkid=846157)
 >   - Finance and Operations applications: [Finance and Operations mobile app](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-app-home-page) 
 >   - Canvas and model-driven apps in Power Apps: [Power Apps mobile app](https://docs.microsoft.com/powerapps/user/run-canvas-and-model-apps-on-mobile)

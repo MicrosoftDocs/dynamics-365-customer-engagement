@@ -1,7 +1,7 @@
 ---
 title: "Supported web browsers and mobile devices | MicrosoftDocs"
 ms.custom: 
-ms.date: 02/19/2020
+ms.date: 01/07/2021
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -29,8 +29,8 @@ Users can access the model-driven apps with the most recent versions of these po
 - Safari
 - Internet Explorer (not recommended)
 
-> [!TIP]
-> For optimal performance and experience, we recommend you use the latest version of a modern browser. 
+> [!NOTE]
+> For optimal performance and experience, we recommend you use the latest version of a modern browser. Microsoft Internet Explorer 11 support is deprecated. We recommend that you use Microsoft Edge. More information: [Deprecation announcement](https://docs.microsoft.com/power-platform/important-changes-coming#internet-explorer-11-support-for-dynamics-365-and-microsoft-power-platform-is-deprecated)
   
 For more detailed information about supported browsers, see [Web application requirements](web-application-requirements.md).  
   

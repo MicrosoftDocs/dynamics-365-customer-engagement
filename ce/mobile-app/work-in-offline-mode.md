@@ -2,7 +2,7 @@
 title: "Work offline on your mobile device (Dynamics 365 apps)| MicrosoftDocs"
 description: How to work on your mobile device in offline mode using the Dynamics 365 for phones and tablets app and Power Apps mobile
 ms.custom: 
-ms.date: 10/23/2020
+ms.date: 01/14/2021
 ms.reviewer: kvivek
 ms.service: crm-online
 ms.suite: 
@@ -58,7 +58,7 @@ For information on supported devices for Power Apps mobile app, see [Supported d
 
 ## Download updates to work in offline mode
 
-Once you have the mobile app installed and your admin has [enabled mobile offline](preview-setup-mobile-offline.md), the next time you access the mobile app, you will be prompted to download offline updates. Once you download the updates, you can start using the mobile app in offline mode.
+Once you have the mobile app installed and your admin has [enabled mobile offline](setup-mobile-offline.md), the next time you access the mobile app, you will be prompted to download offline updates. Once you download the updates, you can start using the mobile app in offline mode.
 
 1. When you see the dialog box that asks you to download updates to work offline, choose **Download**. 
 
@@ -71,10 +71,7 @@ Once you have the mobile app installed and your admin has [enabled mobile offlin
 
 If did not want to download offline data and choose **Skip for now**, you will not be able to use the app in offline mode until you manually download the updates. 
 
-1. To manually download updates, do one of the following:
-
-    - **Current**: From the nav bar, select ![Moble app ellipsis](../mobile-app/media/mobile-ellipsis.png "Mobile app ellipsis") > **Offline Status**. 
-    - **Early access**: From the Home screen, select the site map ![Site map icon](media/d365_mobile_sitemap_icon.png "Site map icon") > Offline ![Offline button.](media/offline_button.png "Offline button").
+1. From the Home screen, select the site map ![Site map icon](media/d365_mobile_sitemap_icon.png "Site map icon") > Offline ![Offline button.](media/offline_button.png "Offline button").
 
 2. On the **Offline Status** screen, select **Download offline updates**.
 
@@ -86,23 +83,17 @@ If did not want to download offline data and choose **Skip for now**, you will n
    > [!div class="mx-imgBorder"] 
    > ![Start download updates.](media/mobile_offline_download_updates_complete.png "Start download updates.")
    
-3. When Offline download is completed, you will get a notification indicating that you can start working in offline mode.
-
-
-   |Current  |Early access  |
-   |---------|---------|
-   | ![Download updates complete](media/mobile_offline_download_updates_complete_1.png "Download updates complete")    |     ![Download updates complete](media/mobile_offline_download_updates_complete_updated.png "Download updates complete")     |
+4. When Offline download is completed, you will get a notification indicating that you can start working in offline mode.
+ 
+   > [!div class="mx-imgBorder"] 
+   > ![Download updates complete](media/mobile_offline_download_updates_complete_updated.png "Download updates complete") 
 
 
 ## See if offline mode is available
 
 When offline updates are complete, you can check to see if mobile offline is available. 
 
-- To check the offline status, do one of the following:   
-
-    - **Current**: From the nav bar, select ![Mobile app ellipsis](../mobile-app/media/mobile-ellipsis.png "Mobile app ellipsis") > **Offline Status**. 
-    - **Early access**: From the Home screen, select the site map ![Site map icon](media/d365_mobile_sitemap_icon.png "Site map icon") > Offline ![Offline button.](media/offline_button.png "Offline button").
-    
+- From the Home screen, select the site map ![Site map icon](media/d365_mobile_sitemap_icon.png "Site map icon") > Offline ![Offline button.](media/offline_button.png "Offline button").
   
     > [!div class="mx-imgBorder"] 
     > ![Mobile offline status](media/OfflineStatus.png "Mobile offline status")
@@ -128,28 +119,13 @@ With no connectivity, you'll automatically have access to the downloaded data so
 With intermittent connectivity, it is recommended to switch to offline mode. As long as the offline mode is turned on, the updates that you make on your device will not be synced with the server and you can continue to work with the local data on your device. To push the changes you've made to the server and refresh your local data, set the **Work in offline mode** toggle to Off.
 
 
-1. To start working in offline mode, do one of the following:
-
-    - **Current**: From the nav bar, select ![Mobile app ellipsis](../mobile-app/media/mobile-ellipsis.png "Mobile app  ellipsis") > **Offline Status**. 
-    - **Early access**: From the Home screen, select the site map ![Site map icon](media/d365_mobile_sitemap_icon.png "Site map icon") > Offline ![Offline button.](media/offline_button.png "Offline button").
+1. To start working in offline mode, from the Home screen, select the site map ![Site map icon](media/d365_mobile_sitemap_icon.png "Site map icon") > Offline ![Offline button.](media/offline_button.png "Offline button").
 
 2. Set the **Work in offline mode** toggle to On.
 
    > [!div class="mx-imgBorder"] 
    > ![Work in offline mode](media/set_offline_toggle.png "Set toggle to work in offline mode") 
-### Check offline status from the main menu (applies to only the current version of the Dynamics 365 mobile app)
-
-You can also see which entities are available in offline mode from the main menu.
-
-- From the nav bar, select ![Menu button](media/MenuButton.png "Menu button").
-
-  -  A green Wi-Fi icon next to the entity name indicates that it is available in offline mode.
-  -  A red Wi-Fi icon indicates that this entity is enabled for offline use but is not available to work in offline mode due to an error or missing updates.
-  -  If no Wi-Fi icon is visible, it means your admin has not enabled the entity to use in offline mode.
-
-     > [!div class="mx-imgBorder"] 
-     > ![Available entities for mobile offline](media/available_entites.png "Available entities for mobile offline")
-     
+   
 
 ## Sync conflict resolution
 

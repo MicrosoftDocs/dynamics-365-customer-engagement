@@ -568,6 +568,7 @@
 ### [Troubleshoot issues in Omnichannel for Customer Service](troubleshoot-omnichannel-customer-service.md)
 ### [Troubleshoot with Solution Health Hub](troubleshoot-using-solution-health-hub.md)
 ### [Troubleshoot channel issues](troubleshoot-omnichannel-customer-service.md)
+### [Report issues in Omnichannel for Customer Service](report-issues.md)
 
 ## FAQs on Customer Service
 ### [FAQs on AI suggestions for cases and knowledge articles](csw-faqs-ai-suggestions.md)

@@ -1,7 +1,7 @@
 ---
 title: "Security enhancements: User session and access management | MicrosoftDocs"
 ms.custom: 
-ms.date: 01/06/2021
+ms.date: 01/07/2021
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -16,7 +16,6 @@ ms.author: jimholtz
 manager: kvivek
 search.audienceType: 
   - admin
-
 ---
 # Security enhancements: User session and access management 
 
@@ -49,6 +48,8 @@ By default, Customer Engagement (on-premises) does not enforce an inactivity ses
 > 2. [!INCLUDE [pn-dyn-365-phones](../includes/pn-dyn-365-phones.md)] and [!INCLUDE [pn-dyn-365-tablets](../includes/pn-dyn-365-tablets.md)]
 > 3. [!INCLUDE [pn-unified-service-desk](../includes/pn-unified-service-desk.md)] client using [WPF](https://docs.microsoft.com/dotnet/framework/wpf/) browser (Internet Explorer is supported)
 > 4. Live Assist (Chat)
+
+Microsoft Internet Explorer 11 support is deprecated. We recommend that you use Microsoft Edge. More information: [Deprecation announcement](https://docs.microsoft.com/power-platform/important-changes-coming#internet-explorer-11-support-for-dynamics-365-and-microsoft-power-platform-is-deprecated)
 
 To enforce the inactivity session timeout for Web Resources, Web Resources need to include the ClientGlobalContext.js.aspx file in their solution.
 
