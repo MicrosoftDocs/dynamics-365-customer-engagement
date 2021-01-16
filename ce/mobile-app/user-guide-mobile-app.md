@@ -27,17 +27,18 @@ search.app:
 
 Use the Dynamics 365 for phones and tablets app to run your customer engagement apps in Dynamics 365 (such as Dynamics 365 Sales, Dynamics 365 Customer Service, and Dynamics 365 Marketing) on your mobile device. To install the app, see [Install Dynamics 365 for phones and tablets](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets).
 
-For detailed documentation on how to use Dynamics 365 for phones and tablets app with the Sale Hub app, Customer Service Hub app, and Dynamics 365 Customer Engagement (on-premises) apps: 
+You can run your Sales Hub app, Customer Service Hub app, and Dynamics 365 Customer Engagement (on-premises) apps on the Dynamics 365 mobile app. For documentation on how to run these app on mobile, see:
 
-- [Use the Sales Hub app on mobile devices](https://docs.microsoft.com/dynamics365/sales-enterprise/use-sales-hub-on-dynamics-365-mobile)
-- [Use Customer Service Hub on mobile devices](https://docs.microsoft.com/dynamics365/customer-service/use-customer-service-hub-on-dynamics-365-mobile)
-- [Dynamics 365 mobile app to run Dynamics 365 Customer Engagement (on-premises) apps](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/dynamics-365-phones-tablets-users-guide-onprem)
+- [Sales Hub app on mobile devices](https://docs.microsoft.com/dynamics365/sales-enterprise/use-sales-hub-on-dynamics-365-mobile)
+- [Customer Service Hub on mobile devices](https://docs.microsoft.com/dynamics365/customer-service/use-customer-service-hub-on-dynamics-365-mobile)
+- [Dynamics 365 Customer Engagement (on-premises) apps on mobile](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/dynamics-365-phones-tablets-users-guide-onprem)
 
 > [!NOTE]
 > There are separate mobile apps for:
+>   - Canvas and model-driven apps in Power Apps: [Power Apps mobile app](https://docs.microsoft.com/powerapps/user/run-canvas-and-model-apps-on-mobile)
 >   - Dynamics 365 Field Service: [Field Service mobile app](https://go.microsoft.com/fwlink/?linkid=846157)
 >   - Finance and Operations applications: [Finance and Operations mobile app](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-app-home-page) 
->   - Canvas and model-driven apps in Power Apps: [Power Apps mobile app](https://docs.microsoft.com/powerapps/user/run-canvas-and-model-apps-on-mobile)
+
 
 
 ## Home screen 
