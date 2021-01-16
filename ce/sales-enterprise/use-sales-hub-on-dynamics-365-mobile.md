@@ -64,6 +64,8 @@ Here are a few tasks that you can perform during your day-to-day activities by u
 
 - [Attend meetings with information at your fingertips](#attend-meetings-with-information-at-your-fingertips)
 
+- [Send email](#send-email)
+
 - [Take notes in a meeting](#take-notes-in-a-meeting)
 
 - [Update deals and customer information after a meeting](#update-deals-and-customer-information-after-a-meeting)
