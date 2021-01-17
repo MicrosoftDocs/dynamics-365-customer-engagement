@@ -117,8 +117,8 @@ Use the threaded email view option to save valuable space when you have emails w
 ![Collapsed threaded email view](media\timeline-threaded-email-views-1a.png "Collapsed threaded email view")
 
 Legend
-1. When enabled via the **Always show email as conversations** option under **More commands** ![More Commands](media\timeline-more-commands-icon.png "More commands icon"), emails with multiple responses are grouped together into threaded emails.
-2. The **Show more** link appears in the bottom left corner of the last visible email in the thread to view the complete string of email responses. 
+1. When enabled using the **Always show email as conversations** option under **More commands** ![More Commands](media\timeline-more-commands-icon.png "More commands icon"), emails with multiple responses are grouped together into threaded emails.
+2. The **Show more** link appears in the bottom-left corner of the last visible email in the thread to view the complete string of email responses. 
 
 **Expanded threaded email view**
 
