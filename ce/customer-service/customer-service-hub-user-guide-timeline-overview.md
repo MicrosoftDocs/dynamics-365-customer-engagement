@@ -4,7 +4,7 @@ description: "Timeline Overview for Users"
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 01/12/2020
+ms.date: 01/16/2021
 ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ms.reviewer: lalexms
@@ -15,9 +15,9 @@ ms.reviewer: lalexms
 Timeline is a control that allows you to view information that is connected to an entity record and occurs over time in a single stream. Some information that can be logged into the timeline are notes and posts in addition to displaying activities such as emails, appointments, phone calls, and tasks.
 
 Timeline allows you to:
-- Access the command bar to perform common actions quickly.
-- Filter and view important notes, posts, and activities using multiple filter options.
-- View and manage email conversation threads with ease.
+- Access the command bar to perform common actions quickly
+- Filter and view important notes, posts, and activities using multiple filter options
+- View and manage email conversation threads with ease
 
 ![Timeline Browser Overview](media\timeline-browser-view.png "Timeline Browser Overview")
 
@@ -136,7 +136,7 @@ Threaded email views can be enabled in timeline via two options:
 
 **Option 1:**
 
-You can enable the threaded email view using the ![More Commands](media\timeline-more-commands-icon.png "More commands") feature, located on the right-hand side of the timeline.
+You can enable the threaded email view using the **More Commands** ![More Commands](media\timeline-more-commands-icon.png "More commands") feature, located on the right-hand side of the timeline.
 
 **Enable threaded email through the More Commands option**
 
@@ -148,7 +148,7 @@ Steps:
 
 **Option 2:**
 
-**Enable treaded email through Personal Options setting**
+**Enable threaded email through Personal Options setting**
 
 To enable threaded email via this option, go to the command bar and select **Settings**, then **Personalization Settings**. This will display the **Set Personal Options** dialog box so you can use  the following steps to enable threaded email view on timeline.
 
@@ -160,7 +160,7 @@ Steps:
 ![Enable threaded email view - option 2](media\timeline-threaded-email-views-3a.PNG "Enable threaded email view - option 2")
 
 > [!Note]
-> The **emails as conversation view** is based on the user's preference. Personal setting are tied to the user and not the form, which means once you enable the threaded email view, the setting is applied to all your timeline views. 
+> The **emails as conversation** view is based on the user's preference. Personal settings are tied to the user, not the form, which means when you enable the threaded email view, the setting is applied to all of your timeline views. 
 
 ## Search records on timeline
 
