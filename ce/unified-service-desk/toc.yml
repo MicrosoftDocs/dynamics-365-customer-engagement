@@ -611,6 +611,8 @@
       href: oc-usd/link-unlink-record.md
     - name: View communication panel 
       href: oc-usd/left-control-panel.md
+    - name: Create personal quick replies in Omnichannel for Customer Service in Unified Service Desk
+      href: oc-usd/create-personal-quick-replies-usd.md
     - name: View call scripts, take notes, and search knowledge articles 
       href: oc-usd/right-control-panel.md
     - name: Understand conversation states 
@@ -715,7 +717,9 @@
         href: oc-customizer/search-step7-add-hosted-control-action-calls-events-configurations.md
     - name: Configure session name information 
       href: oc-customizer/configure-session-name-information.md
-    - name: Configure Scriptlets to define case and channel titles 
+    - name: Add personalization tab
+      href: oc-customizer/add-personalization-tab.md
+    - name: Configure scriptlets to define case and channel titles 
       href: oc-customizer/configure-Scriptlets-define-case-channel-titles.md
     - name: Configure link to conversation button in Unified Service Desk 
       href: oc-customizer/configure-link-to-conversation.md
