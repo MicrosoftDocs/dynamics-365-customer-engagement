@@ -53,12 +53,10 @@ All Azure IoT services run in your own Azure cloud subscription. Additionally, w
 
 ## Privacy details for Connected Customer Service
 
-After you install Connected Customer Service for Dynamics 365 and provide your Azure subscription information, the following Azure resources are deployed. Your Dynamics 365 for Customer Engagement instance will send data such as commands, to Azure to enable IoT–enabled scenarios that register devices. Subsequently, commands will be sent to and received from the registered devices.
+After you install Connected Customer Service for Dynamics 365 and provide your Azure subscription information, the Azure resources are deployed. Your Dynamics 365 for Customer Engagement instance will send data such as commands, to Azure to enable IoT–enabled scenarios that register devices. Subsequently, commands will be sent to and received from the registered devices.
 
-Azure components and services that are involved with Connected Customer Service functionality are detailed in the following sections.
+The Azure components and services that are involved with Connected Customer Service functionality are described in the following sections.
 
-> [!NOTE]
-> For more information about additional Azure service offerings, see the [Microsoft Azure Trust Center](https://azure.microsoft.com/support/trust-center/).
 
 [Service bus queue](https://azure.microsoft.com/documentation/articles/service-bus-dotnet-get-started-with-queues/)
 
@@ -89,6 +87,9 @@ Connected Customer Service uses SQL Azure to store device heartbeat messages for
 Queries that Stream Analytics uses are stored to Azure Blob storage.
 
 - [Connected Customer Service Device Readings (Preview)](https://docs.microsoft.com/dynamics365/customer-service/cs-iot-visualize-device-readings) uses [Azure Time Series Insight (Preview)](https://docs.microsoft.com/azure/time-series-insights/) to store, process, and query IoT devices measurements from IoT Hub.
+
+> [!NOTE]
+> For more information about additional Azure service offerings, see the [Microsoft Azure Trust Center](https://azure.microsoft.com/support/trust-center/).
 
 ## User experience for Connected Customer Service
 
