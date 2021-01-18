@@ -4,7 +4,7 @@ description: ""
 author: ramana-hyd
 ms.author: v-rmurthy
 manager: shujoshi
-ms.date: 11/02/2020
+ms.date: 01/18/2021
 ms.topic: reference
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -30,9 +30,40 @@ Displays a notification that can be used to inform agent about an incoming conve
 | successCallback | Function | No           | On success callback, response object will have the information about whether customer selected Accept or Reject. |
 | errorCallback   | Function | No           | A function to call when the operation fails.                                                                     |
 
-## Return value
+## Callback functions details
 
-None
+The following objects are passed into successCallback and errorCallback functions.
+
+### successCallback function
+
+Sample JSON object:
+
+```json
+{
+	"value": {"actionName" : "Accept",
+
+     "responseReason" : "Accept"}
+}
+```
+
+**Parameters**
+
+| **Name**    |  **Response**                                                  |
+|--------------|----------------------------------------------------------------|
+|actionName    | Accept, Reject, or Timeout|
+|responseReason | Accept, AutoAccept, Cancelled, DeclinedByAgent, DisplayTimeout, NotificationQueueLimitExceeded, NotificationQueueTimeLimitExceeded, NotificationTemplateNotFoundError, NotificationTemplateResolverNotFoundError, RejectAfterClientError, RejectAfterTimeoutNonPlatformTimer    |
+
+### errorCallback function
+
+Sample JSON object:
+
+```json
+{
+	"message" : "<error details>",
+
+	"msdyn_name" : "NotifyEvent"
+}
+```
 
 ## Example
 
