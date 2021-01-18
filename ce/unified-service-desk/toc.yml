@@ -583,6 +583,8 @@
   items:
   - name: Overview of Unified Service Desk
     href: oc-usd/omnichannel-customer-service-unified-service-desk.md
+  - name: System requirements of Omnichannel for Customer service with Unified Service Desk
+    href: oc-usd/omnichannel-usd-system-requirements.md
   - name: Deploy Omnichannel for Customer Service package
     href: oc-usd/omnichannel-customer-service-package.md
   - name: Configure settings for Unified Service Desk
