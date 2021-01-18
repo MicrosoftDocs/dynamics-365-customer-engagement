@@ -14,7 +14,7 @@ monikerRange: '>= dynamics-usd-4.1'
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-The table shows the system requirements that you to need to use Omnichannel for Customer Service with Unified Service Desk.
+The table shows the system requirements to use Omnichannel for Customer Service with Unified Service Desk.
 
 | Area | Requirements |
 |------------|----------|
