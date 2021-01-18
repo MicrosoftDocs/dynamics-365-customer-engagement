@@ -42,7 +42,7 @@ The below end-to-end integration processes can be easily implemented based on a 
 
 Azure IoT Central requires no extensive cloud development or coding skills to get an IoT solution up and running.  
 
-With [Power Automate templates](https://preview.flow.microsoft.com/templates/), users can connect their accounts, take advantage of our pre-built templates, and customize their own flows in an easy visual designer without the need for coding experience.
+With [Power Automate templates](https://preview.flow.microsoft.com/templates/), users can connect their accounts, take advantage of our pre-built templates, and customize their own flows.
 
 Check out our [Connected Customer Service for IoT Central tutorial](https://docs.microsoft.com/dynamics365/customer-service/cs-iot-receive-alerts) to get started.
 
@@ -53,7 +53,7 @@ All Azure IoT services run in your own Azure cloud subscription. Additionally, w
 
 ## Privacy details for Connected Customer Service
 
-After you install Connected Customer Service for Dynamics 365 and provide your Azure subscription information, the Azure resources are deployed. Your Dynamics 365 for Customer Engagement instance will send data such as commands, to Azure to enable IoT–enabled scenarios that register devices. Subsequently, commands will be sent to and received from the registered devices.
+After you install Connected Customer Service for Dynamics 365 and provide your Azure subscription information, the Azure resources are deployed. Your Customer Engagement instance will send data such as commands, to Azure to enable IoT–enabled scenarios that register devices. Then, commands will be sent to and received from the registered devices.
 
 The Azure components and services that are involved with Connected Customer Service functionality are described in the following sections.
 
@@ -64,7 +64,7 @@ This provides a queue for both inbound and outbound messages (commands) flowing 
 
 [Logic Apps](https://azure.microsoft.com/services/logic-apps/)
 
-This provides an orchestration service that uses a Dynamics 365 for Customer Engagement connector and a Queue connector. Dynamics 365 for Customer Engagement connectors are used to construct entities that are specific to Dynamics 365 for Customer Engagement and Queue connectors are used for polling the queue.
+This provides an orchestration service that uses a Customer Engagement connector and a Queue connector. Dynamics 365 for Customer Engagement connectors are used to construct entities that are specific to Customer Engagement and Queue connectors are used for polling the queue.
 
 [Stream analytics](https://azure.microsoft.com/services/stream-analytics/)
 
@@ -93,7 +93,7 @@ Queries that Stream Analytics uses are stored to Azure Blob storage.
 
 ## User experience for Connected Customer Service
 
-The following is a list of Connected Customer Service actions that agents can take:
+A list of Connected Customer Service actions that agents can take is as follows:
 
 1. **Convert an IoT alert to a case**: Agents can convert an IoT alert to a case that includes pre-populated IoT alert details.
 
