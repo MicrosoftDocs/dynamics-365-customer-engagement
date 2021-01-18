@@ -29,7 +29,7 @@ The operating hours schedules cater to the following scenarios:
 
 After you define the business hours for your organization and set up [Automated messages](configure-automated-message.md) to be displayed to customers, when customers interact through a channel during non-business hours, they will see the messages that you have set. For example, customers can be shown an offline message on the chat widget as "Our agents are not available. Our business hours are between 8:00 am to 5:00 pm." Similarly, for social channels, you can configure the operating hours at the queue level. When customers contact your agents through any of the social channels outside the business hours, they will receive responses that you have set.
 
-After you create an operating hour record, you must add it to the **Design** tab of the appropriate chat widget to control the display of the widget. For social channels and queues, the operating hour will be available for selection on the **General** and **Summary** tabs respectively.
+After you create an operating hour record, you must add it to the **Design** tab of the appropriate chat widget to control the display of the widget. For social channels, SMS, and queues, the operating hour will be available for selection on the **General** and **Summary** tabs respectively.
 
 ## Create a record to define operating hours
 
@@ -44,8 +44,11 @@ After you create an operating hour record, you must add it to the **Design** tab
     - **Name**: Enter a name for the operating hour record.
     - **Owner:** Accept the default value or search to specify a different owner.
     - **Description:** Enter an optional description of the operating hour record.
+
 5. Select **Save**. The **Working Hours** tab is displayed. By default, the calendar displays the work hours defined as 8:00 am to 5:00 pm.
+
 6. On the **Working Hours** tab, select **New** > **Working hours** in the calendar.
+
 7. In the **Working hours** panel, set the following options to define the working hours schedule.
    - **All Day:** Specify Yes, if the chat widget should be available 24/7.
    - **Calendar:** Specify the period for the schedule. The option to choose dates is available only when **All Day** is Yes.
@@ -53,7 +56,7 @@ After you create an operating hour record, you must add it to the **Design** tab
    - **Repeat:** Select a recurrence option.
    - **choose an end date:** Optionally, specify an end date.
    -  **Time zone:** Select an applicable time zone. The daylight saving timings are taken into account, if applicable for the selected time zone.
-    
+
         > ![Create an operating hour schedule](media/oc-create-operating-hour.png "Create a operating hour schedule")
 
 8. Select **Save**. You are returned to the **Working Hours** tab.
