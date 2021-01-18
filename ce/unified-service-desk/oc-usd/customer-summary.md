@@ -1,6 +1,6 @@
 ---
 title: "View a customer summary in Omnichannel for Dynamics 365 | MicrosoftDocs"
-description: "Customer summary is a page where you can get all available information about the customer with whom you're going to interact."
+description: "Customer summary is a page where you can get all available information about the customer with who you're going to interact."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -142,7 +142,7 @@ Based on the type of agent script your system administrator has configured, you 
 
 ### Text instructions
 
-Text instructions provides guidance for the action you must perform. A text instruction step in the agent script shows a title, instructions, and the **Text instruction** icon. After you perform the the instruction, you can select the **Mark as done** icon to indicate that you've executed the step.
+Text instructions provides guidance for the action you must perform. A text instruction step in the agent script shows a title, instructions, and the **Text instruction** icon. After you perform the instruction, you can select the **Mark as done** icon to indicate that you've executed the step.
 
 **Example**
 | Title | Instruction that you perform |
