@@ -120,7 +120,7 @@ Geographic specific links that should be accessible are as follows.
 
 ### Government Community Cloud (GCC)
 
-Government community cloud links that should be accessible are as follows.
+The Government community cloud links that should be accessible are as follows.
 
 - `https://ocprodocprodnamgs.blob.core.usgovcloudapi.net`
 - `https://*.omnichannelengagementhub.us/*`
