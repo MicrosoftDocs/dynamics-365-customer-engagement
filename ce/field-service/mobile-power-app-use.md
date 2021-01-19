@@ -126,7 +126,7 @@ To create a follow up work order the technician must select the **Follow up** bu
 
 After selecting the **Follow up** button the technician is guided through the new work order creation flow.
 
-The following coulmns are pre-populated based on the parent work order: 
+The following columns are pre-populated based on the current work order: 
 
 - Address - including msdyn_addressName, msdyn_address1, msdyn_address2, msdyn_address3, msdyn_city, msdyn_country, msdyn_latitude, msdyn_longitude, msdyn_postalCode, msdyn_stateOrProvince
 - Billing Account
