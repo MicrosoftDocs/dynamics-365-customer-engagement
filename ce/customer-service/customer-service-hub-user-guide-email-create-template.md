@@ -78,6 +78,5 @@ When you select an existing template, the following display appears:
 [Create an email template](customer-service-hub-user-guide-email-create-template.md)<br>
 [Insert an email template](customer-service-hub-user-guide-email-insert-template.md)<br>
 [Convert an email to a template](customer-service-hub-user-guide-email-convert-template.md)<br>
-[Attach a file to email](customer-service-hub-user-guide-email-attachments.md)<br>
 [Use a signature in email](customer-service-hub-user-guide-email-create-signature.md)<br>
 [Email FAQs](email-faqs.md)  
