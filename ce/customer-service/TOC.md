@@ -106,9 +106,16 @@
 #### [Add a timer in forms to track time against enhanced SLAs](add-timer-forms-track-time-against-enhanced-sla.md)
 
 ## Email
-### [Configure email](customer-service-hub-user-guide-email-admin.md)
 ### [Use email](customer-service-hub-user-guide-email-overview.md)
-### [Email FAQs](email-faqs.md)
+### Email templates
+#### [Create an email template](customer-service-hub-user-guide-email-create-template.md)
+#### [Insert an email template](customer-service-hub-user-guide-email-insert-template.md)
+#### [Convert an email to a template](customer-service-hub-user-guide-email-convert-template.md)
+#### [Use a signature in email](customer-service-hub-user-guide-email-create-signature.md)
+### [Email FAQs and known issues](email-faqs.md)
+### Administrator experience
+#### [Configure the email form order](customer-service-hub-user-guide-email-admin.md)
+#### [Configure the default email font](customer-service-hub-user-guide-email-font-admin.md)
 
 ## Timeline
 ### [Configure timeline](customer-service-hub-user-guide-timeline-admin.md)
