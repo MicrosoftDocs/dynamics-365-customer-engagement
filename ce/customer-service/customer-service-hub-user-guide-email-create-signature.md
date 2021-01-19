@@ -27,7 +27,7 @@ You can quickly create an email signature at any point while you are composing a
 
 You can add a new email signature by:
 
-   ![Manage email signature lists](media\email-how-to-create-an-email-signature-1b.png "Manage email signature lists")
+   ![Add a new email signature](media\email-how-to-create-an-email-signature-1b.png "Add a new email signature")
 
    1. **Details** in this section, enter the name of the email signature.
    2. **Signature editor**. This allows you to create your email signature and **Save** when finished. 
