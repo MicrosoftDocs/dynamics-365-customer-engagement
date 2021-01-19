@@ -15,7 +15,7 @@ When you've composed an email that you'd like to reuse with other customers, you
 
 ## Convert an email into a template 
 
-   ![How to convert an email to a template](media\email-how-to-insert-an-email-template-1c.png "How to convert an email to a template")
+   ![Convert an email to a template](media\email-how-to-insert-an-email-template-1c.png "Convert an email to a template")
 
    To save an email you've composed and formatted an email message as a template, select the downward-facing caret (v) next to **Insert Template**, and then select **Convert to an email template** from the drop-down list.
 
@@ -63,7 +63,7 @@ To view a complete list of all the email templates you've created:
 ### See also
 
 [Configure email](https://go.microsoft.com/fwlink/p/?linkid=2142941)<br>
-[Create an email template](customer-service-hub-user-guide-create-template.md)<br>
+[Create an email template](customer-service-hub-user-guide-email-create-template.md)<br>
 [Insert an email template](customer-service-hub-user-guide-email-insert-template.md)<br>
 [Convert an email to a template](customer-service-hub-user-guide-email-convert-template.md)<br>
 [Attach a file to email](customer-service-hub-user-guide-email-attachments.md)<br>
