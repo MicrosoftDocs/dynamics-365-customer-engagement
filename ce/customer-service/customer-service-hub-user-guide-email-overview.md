@@ -19,8 +19,8 @@ You can work in either the **navigate-to** email or the **contextual** email exp
 > - **Contextual** email is also referred to as **Enhanced** email. Please be aware that there isn't any special functionality associated with the **Contextual / Enhanced** email experience, other than it is a pop-up experience. 
 
 <ul>
-<li><b>Navigate-to email experience</b>: always displays in a new screen. </li>
-<li><b>Contextual email experience</b>: can only be initiated from the timeline, and displays email in a pop-up screen.
+<li><b>Navigate-to email experience</b>: Always displays in a new screen. </li>
+<li><b>Contextual email experience</b>: Can only be initiated from the timeline, and displays email in a pop-up screen.
 <ul>
 <li>Allows you to move to different pages without losing email content.</li>
 <li>Minimize the email window to return to the records you were working on.</li>
