@@ -111,7 +111,6 @@
 #### [Create an email template](customer-service-hub-user-guide-email-create-template.md)
 #### [Insert an email template](customer-service-hub-user-guide-email-insert-template.md)
 #### [Convert an email to a template](customer-service-hub-user-guide-email-convert-template.md)
-#### [Attach a file to email](customer-service-hub-user-guide-email-attachments.md)
 #### [Use a signature in email](customer-service-hub-user-guide-email-create-signature.md)
 ### [Email FAQs and known issues](email-faqs.md)
 ### Administrator experience
