@@ -12,7 +12,10 @@ manager: shujoshi
 
 # Configure Microsoft Teams dialer
 
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+> [!IMPORTANT]
+> - The enhanced experience for adding products is a preview feature. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+> - [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
+> - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 
 Microsoft Teams dialer helps sellers to be more productive and get work done more effectively by calling customers directly within Dynamics 365 apps.   
 As an administrator, you must configure the Teams dialer for sellers to use. When configured the Teams dialer are available in your Dynamics 365 app for phone activity.     
