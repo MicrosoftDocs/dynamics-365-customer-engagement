@@ -16,7 +16,7 @@ Having the ability to attach file(s) to a message is one of the most useful feat
    ![How to attach a file to email](media\email-how-to-attach-file-to-email-1a.png "How to attach a file to email")
 
    1. **Attach file**. Located in the top nav bar, **Attach file** allows you to do file attachments.
-   2. **New Attachments**. Located above the rich text editor, the **New Attachments** ![](media\email-new-attachment-icon.png "new attachment") icon allows you to use drag-and-drop or copy-and-paste functionality. 
+   2. **New Attachments**. Located above the rich text editor, the **New Attachments** ![New Attachments](media\email-new-attachment-icon.png "new attachment") icon allows you to use drag-and-drop or copy-and-paste functionality. 
 
       > [!Note] 
       > Once you save your email, you can use **Attach file** and **New Attachments** interchangeably.
@@ -39,7 +39,7 @@ File attachments display differently, depending on the email form you are workin
 
 ## Email form file attachment
 
-   ![Work with attachments](media\email-work-with-attachments-2a.png "Work with attachments")
+   ![Email form file attachment](media\email-work-with-attachments-2a.png "Email form file attachment")
 
    1. **Email**. This display confirms which email form you are working in. 
    2. **Attachment**. This section displays a list of file attachments in a vertical view and only displays the first three attachments.
@@ -60,7 +60,7 @@ When you’ve attached one or more files to a message, you can manage them using
 
 Select commands allow you to select individual files or multiple files at once.
 
-   ![Working with the attachment command bar](media\email-working-with-the-attachment-command-bar-11a.png "Working with the attachment command bar")
+   ![Attachment command bar](media\email-working-with-the-attachment-command-bar-11a.png "Work with the attachment command bar")
 
    Legend
    1. **Select All**. This command is located on the right, above your attached files and allows you to select all file attachments at once. 
@@ -73,7 +73,7 @@ Select commands allow you to select individual files or multiple files at once.
 
 Formatting of file attachments in email can be realign based on the device being used and format it is being worked in.
 
-  ![Working with the attachment command bar](media\email-working-with-the-attachment-command-bar-12a.png "Working with the attachment command bar")
+  ![Format file attachments](media\email-working-with-the-attachment-command-bar-12a.png "Format file attachments")
 
    1. **Format Display** Regardless of format display, file attachments will only display the number of files that are enabled by your system administrator.
    2. **Page view**. The page view displays the total number of email attachments and always is displayed under the file attachments. 
@@ -81,7 +81,7 @@ Formatting of file attachments in email can be realign based on the device being
 ### Delete and download commands
 These are two of the most important commands when working with images. 
 
-   ![Working with the attachment command bar](media\email-working-with-the-attachment-command-bar-13a.png "Working with the attachment command bar")
+   ![Delete and download commands](media\email-working-with-the-attachment-command-bar-13a.png "Delete and download commands")
 
    1. **Delete**. This command works with the **Select** commands. You must first select a file before you can delete it. A confirmation request appears, requiring you to confirm you want to delete the file(s) you’ve selected.
    2. **Download**. This command also works with the **Select** commands and your browser download settings, allowing you to download an individual file or multiple files at once.  
