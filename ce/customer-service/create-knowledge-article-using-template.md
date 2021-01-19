@@ -17,8 +17,6 @@ search.app:
 ---
 # Create a knowledge article using a template
 
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 Use the **msdyn_GetKAObjectFromTemplate** action to create a knowledge article from an existing knowledge article template programmatically.
 
 ## Action parameters
@@ -75,7 +73,7 @@ OData-Version: 4.0
 }
 ```
 
-## See also
+### See also
 
-[Search for knowledge articles in the Customer Service Hub](search-knowledge-articles-csh.md)<br />
-[Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)
+[Search for knowledge articles in the Customer Service Hub](search-knowledge-articles-csh.md)  
+[Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)  

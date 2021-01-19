@@ -64,7 +64,7 @@
 ##### [Create work streams for entity records](set-up-entity-workstream.md)
 ##### [Create multiple work streams for entity records](multiple-ws-entity-record-routing.md)
 ##### [Set up routing and assignment rules](routing-rules.md)
-##### [Associate templates with work streams](associate-templates.md)
+##### [Associate templates with work streams](../app-profile-manager/associate-templates.md)
 #### [Set up routing for Omnichannel for Customer Service Conversations](understand-omnichannel-customer-service-hub.md)
 #### [Show customers their position in a queue](show-queue.md)
 #### [Show customers their average wait time in a queue](average-wait-time.md)
@@ -568,6 +568,7 @@
 ### [Troubleshoot issues in Omnichannel for Customer Service](troubleshoot-omnichannel-customer-service.md)
 ### [Troubleshoot with Solution Health Hub](troubleshoot-using-solution-health-hub.md)
 ### [Troubleshoot channel issues](troubleshoot-omnichannel-customer-service.md)
+### [Report issues in Omnichannel for Customer Service](report-issues.md)
 
 ## FAQs on Customer Service
 ### [FAQs on AI suggestions for cases and knowledge articles](csw-faqs-ai-suggestions.md)

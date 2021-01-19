@@ -52,7 +52,7 @@ Effective from October 01, 2020, the service-level agreements (SLAs) are depreca
 
 ## Service scheduling in Dynamics 365 Customer Service is deprecated
 
-The existing service scheduling functionality is deprecated, and will no longer be available on December 1, 2020. The new scheduling experience, built on Universal Resource Scheduling (URS), is now available in the Unified Interface.
+The existing service scheduling functionality is deprecated, and will no longer be available on December 1, 2020. The new scheduling experience, built on Universal Resource Scheduling, is now available in Unified Interface.
 
 Existing service scheduling users will be provided advance notice for a time bound migration to the new scheduling capabilities.
 
