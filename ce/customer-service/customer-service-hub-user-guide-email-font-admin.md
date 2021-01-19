@@ -22,9 +22,9 @@ Currently, email only recognizes changes in the following configuration values. 
 |Configuration value  |Description  |
 |---------|---------|
 |font_defaultLabel     |  Sets the value that is displayed on the toolbar font name selector. This is a non-functional value, see ```stickyStyle:font-family``` for setting the functional default.    |
-|font_names      | A list of semi-colon (;) delimited fonts that will display in the toolbar font name selector. There is a display name followed by the fallback set of fonts which should be used. The format is: display_name/font_name,'font_name with spaces',font_name.      |
+|font_names      | A list of semi-colon (;) delimited fonts that will display in the toolbar font name selector. There is a display name followed by the fallback set of fonts that should be used. The format is: display_name/font_name,'font_name with spaces',font_name.      |
 |fontSize_defaultLabel     | Sets the value that is displayed on the toolbar font size selector. This is a non-functional value, see ```stickyStyle:font-size``` for setting the functional default. |
-|fontSize_sizes      | A list of semi-colon (;) delimited font sizes that will display in the toolbar font size selector. There is a display name followed by the fallback set of fonts which should be used. The format is:display_name/font_name,'font_name with spaces',font_name. |
+|fontSize_sizes      | A list of semi-colon (;) delimited font sizes that will display in the toolbar font size selector. There is a display name followed by the fallback set of fonts that should be used. The format is:display_name/font_name,'font_name with spaces',font_name. |
 |stickyStyle    | Functionally sets the default font and size on a wrapper around the entire contents. Values can be set for both ```font_size``` and ```font_family```. |
 
 **Code sample**:
