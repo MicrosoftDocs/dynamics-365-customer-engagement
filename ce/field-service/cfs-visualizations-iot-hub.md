@@ -124,6 +124,10 @@ A summary of the device readings such as average measurements and number of work
 > [!Note]
 > The device summaries use the device data history information on the device record, which updates with a slight delay (30-60min); however, you can use the **Pull Device Data** option to get the latest data from AzureIoT. The device summary is only displayed on customer assets if there is one related device, even though multiple devices can be related to one customer asset. Device summary calculations respect security roles, so will change based on the nuber of alerts, work orders, and so on that the logged-in user has access to.
 
+## View device readings on the mobile app
+
+Device readings and summary tiles are viewable on the mobile app when connected to the internet. See the topic on [Connected Field Service on Field Service (Dynamics 365) mobile app](https://docs.microsoft.com/dynamics365/field-service/cfs-mobile-powerapp#view-summary-tiles-and-device-readings) for more details. 
+
 ## Error codes
 
 Use the following table to troubleshoot error codes related to device readings. 
