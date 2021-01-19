@@ -20,7 +20,7 @@ search.app:
 
 # Visualizing device readings
 
-To help you understand the current state of a device, its repair history, and the effect of performed work orders, the Connected Field Service add-in displays near real time device readings and historical sensor measurements in a chart alongside work order details.
+To help you understand the current state of a device, its repair history, and the effect of performed work orders, Connected Field Service displays near realtime device readings and historical sensor measurements in a chart alongside work order details.
 
 The device readings chart is available on the IoT alert, work order, case, device, and asset forms.
 
@@ -42,6 +42,7 @@ To enable the device readings chart, administrators need to deploy Azure Time Se
 > - If you are only sending the data type “doubles,” there will be no impact. If you are sending other data types, these other data types will not appear in your device readings chart until you upgrade to Field Service version 8.8.24.
 > For more information about the Azure changes, [see this article](https://docs.microsoft.com/azure/time-series-insights/time-series-insights-long-data-type).
 
+- The device readings chart is available for Connected Field Service with either Azure IoT Hub or using a [custom IoT provider](cfs-custom-iot-provider.md).
 
 ## Enable the device readings chart
 
@@ -103,7 +104,7 @@ To view device readings, the following data must be in place:
 > ![Screenshot of an IoT alert device reading, showing information on hover.](./media/cfs-device-readings-select.png)
 
 
-5. Select a work order on the device readings chart to open service history with a link directly to the work order. 
+5. Cases and work orders related to the IoT alert are displayed as pins on the device readings chart. Select a pin to open service history with a link directly to the work order or case. 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of an IoT alert showing service history.](./media/cfs-device-readings-click-history.png)
 

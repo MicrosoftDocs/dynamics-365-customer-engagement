@@ -22,6 +22,10 @@ search.app:
 # Summary tiles in Connected Field Service
 
 
+		○ Asset
+		○ Alert
+Device 
+
 ## Prerequisites
 > [!Note]
 >
@@ -31,14 +35,28 @@ search.app:
 
 ## View summary tiles
 
+		○ Asset
+		○ Alert
+Device 
+
 ## Default summary tiles
 
+		○ New iot alerts
+		○ New cases
+New work orders
+
+	- Pull device data
+First 2 properties become summary tiles
+
 ## Edit summary tiles
+
+Save to device
 
 ## Add summary tiles via Device Categories
 
 
-
+		○ Configure ones based on category otherwise use default 
+New IoT device visualization configuration 
 
 ## View summary tiles on the mobile app
 
