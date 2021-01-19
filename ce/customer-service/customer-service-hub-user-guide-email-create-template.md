@@ -70,7 +70,7 @@ When you select an existing template, the following display appears:
    ![Creating email template copies](media\email-template-copy-1a.png "Creating email template copies")
 
    - **Name**. The new template you created from the existing template will display **– Copy** at the end of the template name to identify it is a copy of an existing template.
-   - **Template Editor**. All of the data is carried over from the existing template which can be edited and modify.
+   - **Template Editor**. All of the data is carried over from the existing template which can be edited and modified.
 
 
 ### See also
