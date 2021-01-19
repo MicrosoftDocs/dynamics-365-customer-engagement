@@ -33,7 +33,7 @@ Legend
    4. **Language**. You can display your installed language packs in this field. **Language** also helps to categorize your templates. 
    5. **Create**. Once an email is formatted, you can create it into a template.
    
-### New customer template overview
+### New Customer Template overview
 
 If you select **New Customer Template**, the following example page displays, where you can make edits. 
 
