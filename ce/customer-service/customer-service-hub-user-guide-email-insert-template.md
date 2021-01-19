@@ -12,15 +12,25 @@ ms.reviewer: nenellim
 
 # Insert an email template
 
+If you previously created an email template, you can easily use it as the basis for your email by inserting it into the email.
+
    ![Insert an email template](media\email-how-to-insert-an-email-template-1a.png "How to insert an email template")
 
-   - If you have created an email template, it can be accessed from the command bar by selecting **Insert Template**. <BR><BR>
+   - You can access the email template you created from the command bar by selecting **Insert Template**. <BR><BR>
 
 **Insert an email template overview**  
 
 Once you select **Insert Template**, the following window appears displaying a list of existing **Email templates** that are available to use.
 
-Add note - intermediary window
+> [!Note]
+> There is an intermediary window that may display if:
+> 1. You don't have either a Recipient or Regarding field for your email.
+> [Message window for no recipient or regarding field](email-template-recipient.png "Message when missing recipient or regarding field")
+> 2. When you have both a Recipient and Regarding field. You must select one.
+> [Message when both recipient and regarding field are present](email-template-select-record.png "Message when both recipient and regarding fields are present)
+> The selection of one of these fields determines which template types are shown to a user in the template selection window:
+> - Recipient (TO): user (global) and contact templates are displayed.
+> - Regarding: user (global) and templates for the regarding entity are shown.
 
 #### Email template selection window
 
@@ -84,3 +94,11 @@ You can view a complete list of all the email templates you have created by:
 
    For more information on creating email templates and configurations, see [Create templates for email](https://docs.microsoft.com/power-platform/admin/create-templates-email).
 
+### See also
+[Configure email](https://go.microsoft.com/fwlink/p/?linkid=2142941)<br>
+[Create an email template](customer-service-hub-user-guide-create-template.md)<br>
+[Create an email template](customer-service-hub-user-guide-email-create-template.md)<br>
+[Convert an email to a template](customer-service-hub-user-guide-email-convert-template.md)<br>
+[Attach a file to email](customer-service-hub-user-guide-email-attachments.md)<br>
+[Use a signature in email](customer-service-hub-user-guide-email-create-signature.md)<br>
+[Email FAQs](email-faqs.md)  
