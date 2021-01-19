@@ -16,7 +16,7 @@ Having the ability to communicate effectively with customers can lead to increas
 You can work in either the **navigate-to** email or the **contextual** email experience. The difference between the navigate-to vs. contextual email experience is where the email displays on your screen. Both experiences use the same **Enhanced Email** form, which is enabled by default out-of-the-box (OOTB).
 
 > [!Important]
-> - **Contextual** email is also referred to as **Enhanced** email. Please be aware that there isn't any special functionality associated with the **Contextual / Enhanced** email experience, other than it is a pop-up experience. 
+> - **Contextual** email is also referred to as enhanced email. Please be aware that there isn't any special functionality associated with the contextual email experience, other than it is a pop-up experience. 
 
 <ul>
 <li><b>Navigate-to email experience</b>: Always displays in a new screen. </li>
@@ -26,7 +26,7 @@ You can work in either the **navigate-to** email or the **contextual** email exp
 <li>Minimize the email window to return to the records you were working on.</li>
 <li>Simultaneously view, compose, and reply to five emails in pop-up windows when enabled. </li></ul></ul>
 
-The following highlights the difference between the **navigate-to** and **contextual** email experience in the timeline based on how your system administrator has configured your email:
+The following highlights the difference between the "navigate-to" and contextual email experience in the timeline based on how your system administrator has configured your email:
 
 1.	Select **Create a timeline record**.
 
@@ -38,19 +38,19 @@ The following highlights the difference between the **navigate-to** and **contex
 
    Depending on the experience you are using, your email will display as follows:
 
-   |Navigate-to Email Experience | | Contextual Email Experience|
+   |Navigate-to email experience | | Contextual email experience|
    |-----------------------------|-|----------------|
    | ![Navigate-to email experience](media\navigate-to-email-view-1c.png "View of the navigate-to email experience") ||  ![Contextual email experience](media\contextual-email-view-1c.png "View of the contextual email experience.")|
-   |The **Navigate-to** email will display in a new screen.||The **Contextual** email will display in a pop-up window on your current screen.|
+   |The "navigate-to" email will display in a new screen.||The contextual email will display in a pop-up window on your current screen.|
 
    > [!Important]
-   > - The pop-up window only opens when the height and width of your screen size is at least 400 x 650 pixels or greater. If lower, **navigate-to** email will be the default experience.
-   > - The **Contextual** email experience is available only for Timeline.
+   > - The pop-up window only opens when the height and width of your screen size is at least 400 x 650 pixels or greater. If lower, "navigate-to" email will be the default experience.
+   > - The contextual email experience is available only for timeline.
 
    >[!Note]
-   > - If you use customized forms in email, you will still be able to see and use them. The **Enhanced Email** form showcases various email capabilities and functionality and just a standard form. 
+   > - If you use customized forms in email, you will still be able to see and use them. The **Enhanced Email** form showcases various email capabilities and functionality. 
 
-For more information, see [Enable the enhanced email experience](customer-service-hub-user-guide-email-admin.md#how-to-enable-the-enhanced-email-experience).
+For more information, see [Enable the enhanced email experience](customer-service-hub-user-guide-email-admin.md#enable-the-enhanced-email-experience).
 
 ## View, compose and respond to email
 Users can view, create, and send email faster with streamlined access that helps users compose, reply, and send emails using rich text editing and drag-and-drop attachment features and functionalities.
