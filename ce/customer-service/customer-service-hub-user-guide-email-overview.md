@@ -89,7 +89,7 @@ Legend
 4. **Body**. The body is where you compose and/or reply to an email.
 5. **Insert Signature**. Use this command to personalize your message.  
 6. **Insert Template**. This is used to apply an email template. <BR>
-For more information, see [Insert an email template](customer-service-hub-user-guide-email-overview.md#how-to-insert-an-email-template).
+For more information, see [Insert an email template](customer-service-hub-user-guide-email-insert-template.md).
 
    > [!Note]
    > The **To** box must contain a recipient to select a template.
@@ -105,7 +105,7 @@ For more information, see [Insert an email template](customer-service-hub-user-g
     >[!Important]
     > - The **From** and **To** fields are automatically populated based on the user and the account and contact of the original record.
 
-For more information on enhanced email and configurations, see [Enable the enhanced email experience](customer-service-hub-user-guide-email-admin.md#how-to-enable-the-enhanced-email-experience).
+For more information on enhanced email and configurations, see [Enable the enhanced email experience](customer-service-hub-user-guide-email-admin.md#enable-the-enhanced-email-experience).
 
 ### Reply to an email
 The way you can reply to an email depends on where you are in your app. 
@@ -116,7 +116,7 @@ When enabled by your system administrator, the email option displays in the top 
 When accessing email, there are a couple of options you can use. 
 
 -  **Option 1:**<BR>
-   ![How to respond to an email](media\email-how-to-respond-to-an-email-1c.png "How to respond to an email")
+   ![Respond to an email](media\email-how-to-respond-to-an-email-1c.png "Respond to an email")
 
     - Select **Email** on the command bar.
 
@@ -126,7 +126,7 @@ When accessing email, there are a couple of options you can use.
 -  **Option 2:**<BR>
    ![How to respond to an email](media\email-how-to-respond-to-an-email-1d.png "How to respond to an email")
 
-   1. From the navigation bar, select the plus ![](media\email-plus-icon.png "email icon") icon.
+   1. From the navigation bar, select the plus ![Plus icon](media\email-plus-icon.png "email icon") icon.
    2. Select **Email** from the drop-down menu.
 
 ### Reply to email in timeline
