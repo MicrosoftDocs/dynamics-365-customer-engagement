@@ -50,10 +50,15 @@ If you've enabled an email form but it is doesn't display, you'll need to enable
 ![Select Open](media\email-faq-enabled-email-4.png "Select Open on the App Designer menu")
 
 9. Add the email template and signature link to the site navigation by going to the site map and doing the following:
+
     a. Go to **Settings** > **Advanced Settings**.
+    
     b. Select **Settings**.
+    
     c. In **Application settings**, select **App*.
+    
     d. Select **More Options** on the **Customer Service Hub** tile.
+    
     e. Select **OPEN IN APP DESIGNER**.
     
     ![Select OPEN IN APP DESIGNER](media\email-open-app-designer.png "Select OPEN IN APP DESIGNER")
@@ -67,7 +72,9 @@ If you've enabled an email form but it is doesn't display, you'll need to enable
     ![Select New subarea](media\email-select-new-subarea.png "Select New subarea")
     
     h. Select **email templates** or **email signature**.
+    
     i. Add a title. (This is the name that will show instead of **New subarea** when saved.)
+    
     j. Save and publish. A link is added to the site map.
     
     ![Site map link](media\email-site-map-link.png "New site map link")
