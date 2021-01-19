@@ -75,7 +75,7 @@ When you select an existing template, the following display appears:
 
 ### See also
 [Configure email](https://go.microsoft.com/fwlink/p/?linkid=2142941)<br>
-[Create an email template](customer-service-hub-user-guide-create-template.md)<br>
+[Create an email template](customer-service-hub-user-guide-email-create-template.md)<br>
 [Insert an email template](customer-service-hub-user-guide-email-insert-template.md)<br>
 [Convert an email to a template](customer-service-hub-user-guide-email-convert-template.md)<br>
 [Attach a file to email](customer-service-hub-user-guide-email-attachments.md)<br>
