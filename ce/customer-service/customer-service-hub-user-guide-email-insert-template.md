@@ -25,9 +25,13 @@ Once you select **Insert Template**, the following window appears displaying a l
 > [!Note]
 > There is an intermediary window that may display if:
 > 1. You don't have either a Recipient or Regarding field for your email.
+>
 > ![Message window for no recipient or regarding field](email-template-recipient.png "Message when missing recipient or regarding field")
+>
 > 2. When you have both a Recipient and Regarding field. You must select one.
+>
 > ![Message when both recipient and regarding field are present](email-template-select-record.png "Message when both recipient and regarding fields are present)
+>
 > The selection of one of these fields determines which template types are shown to a user in the template selection window:
 > - Recipient (TO): user (global) and contact templates are displayed.
 > - Regarding: user (global) and templates for the regarding entity are shown.
