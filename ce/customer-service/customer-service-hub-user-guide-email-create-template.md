@@ -10,19 +10,19 @@ ms.reviewer: nenellim
 ---
 
 # Create email templates
-Email templates provide multiple benefits. Using email templates saves users time and allows you to create consistent, professional, preformatted email messages you can use when communicating to customers. They are a fast and easy way to send repetitive and recurring email to multiple customers. You can view, create, and edit any email templates you have created.
+Email templates are a fast and easy way to send repetitive and recurring email to multiple customers. They can help save you time and give you a way to create consistent, professional, preformatted email messages that you can use when communicating with your customers. You can view, create, and edit any email templates you've created.
 
-When creating a template, you have the option to work with a blank or existing template:
+When creating a template, you have the option to work with a blank or existing template.
 
    ![Create an email template](media\email-how-to-create-an-email-template-1a.png "Create an email template")
 
-When you select **New** from the  **Email Templates** command bar, a drop-down list appears with the option to **Start with a blank template** or **Start with existing templates**.
+When you select **New** from the **Email Templates** command bar, a drop-down list appears with options to either **Start with a blank template** or **Start with existing templates**.
 
 ## Start with a blank template
 
 Starting with a blank template means that you build and add all the data to the template.
 
-The following screen appears when you **Create an email template**:
+If you select **Create an email template**, the following is displayed:
 
    ![Start with a blank template option](media\email-create-an-email-template-1a.png "Start  with a blank template option")
 
@@ -33,9 +33,9 @@ Legend
    4. **Language**. You can display your installed language packs in this field. **Language** also helps to categorize your templates. 
    5. **Create**. Once an email is formatted, you can create it into a template.
    
-   ### New customer template overview
+### New customer template overview
 
-When you create a **New Customer Template**, the following example page displays that allows you to make edits. 
+If you select **New Customer Template**, the following example page displays, where you can make edits. 
 
    ![New Customer Template](media\email-new-customer-template-1c.png "New Customer Template")
 
@@ -46,7 +46,7 @@ Legend
 
 ## Start with existing templates
 
-**Start with existing templates** will automatically be populated with the pre-established meta-data from the existing template that you can customize. 
+Starting with an existing template means the template is automatically pre-populated with the pre-established data that you can customize. 
 
 #### Create a new email template overview
 
@@ -72,3 +72,12 @@ When you select an existing template, the following display appears:
    - **Name**. The new template you created from the existing template will display **– Copy** at the end of the template name to identify it is a copy of an existing template.
    - **Template Editor**. All of the data is carried over from the existing template which can be edited and modify.
 
+
+### See also
+[Configure email](https://go.microsoft.com/fwlink/p/?linkid=2142941)<br>
+[Create an email template](customer-service-hub-user-guide-create-template.md)<br>
+[Insert an email template](customer-service-hub-user-guide-email-insert-template.md)<br>
+[Convert an email to a template](customer-service-hub-user-guide-email-convert-template.md)<br>
+[Attach a file to email](customer-service-hub-user-guide-email-attachments.md)<br>
+[Use a signature in email](customer-service-hub-user-guide-email-create-signature.md)<br>
+[Email FAQs](email-faqs.md)  
