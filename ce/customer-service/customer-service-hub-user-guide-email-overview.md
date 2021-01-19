@@ -20,9 +20,9 @@ You can work in either the **navigate-to** email or the **contextual** email exp
 
 <ul>
 <li><b>Navigate-to email experience</b>: Always displays in a new screen. </li>
-<li><b>Contextual email experience</b>: Can only be initiated from the timeline, and displays email in a pop-up screen.
+<li><b>Contextual email experience</b>: Can only be initiated from the timeline, displays email in a pop-up screen, and allows you to:
 <ul>
-<li>Allows you to move to different pages without losing email content.</li>
+<li>Move to different pages without losing email content.</li>
 <li>Minimize the email window to return to the records you were working on.</li>
 <li>Simultaneously view, compose, and reply to five emails in pop-up windows when enabled. </li></ul></ul>
 
