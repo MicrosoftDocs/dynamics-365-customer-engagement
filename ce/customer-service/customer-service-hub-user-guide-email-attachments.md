@@ -30,7 +30,7 @@ You can attach an unlimited number of files to an email; however, there are file
 
 **Enhanced email** is the default email form, however you can switch forms by doing the following:
 
-   ![Work with attachments](media\email-work-with-attachments-1a.png "Work with attachments")
+   ![Switch forms](media\email-work-with-attachments-1a.png "Switch forms")
    
    1. Under the email subject name, click on the caret (v) next to **Email**
    2.	A drop-down appears with a list of email form options you can choose from.<BR><BR>
