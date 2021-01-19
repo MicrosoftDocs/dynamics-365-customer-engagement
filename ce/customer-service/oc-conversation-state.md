@@ -20,7 +20,7 @@ The conversation can be in an open or closed state and can have the following st
 - [Open](#open)
 - [Active](#active)
 - [Waiting](#waiting)
-- [Wrapup](#wrap-up)
+- [Wrap-up](#wrap-up)
 - [Closed](#closed)
 
 > [!NOTE]
