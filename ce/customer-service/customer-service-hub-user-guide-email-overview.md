@@ -12,22 +12,30 @@ ms.reviewer: nenellim
 # Use email
 Having the ability to communicate effectively with customers can lead to increased sales and customer satisfaction. The email capability in customer engagement apps empowers users with the ability to respond and provide timely customer interaction effortlessly through quick email access with enhanced features and functionality. Users can compose, reply, and review email, as well as quickly attach and send images that add value and support to customer communication using streamlined functionality. You can also ensure interactions between users and customers are consistent and professional by using email templates with rich text and images. 
 
+The following is an overview of email features and functionality that shows you: 
+- [Understand the email experience](customer-service-hub-user-guide-email-overview.md#understand-the-email-experience)
+- [View, compose, and respond to emails](customer-service-hub-user-guide-email-overview.md#view-compose-and-respond-to-emails)
+- [Use rich text editor toolbar in email](customer-service-hub-user-guide-email-overview.md#use-the-rich-text-editor-toolbar-in-email)
+- [Use email templates](customer-service-hub-user-guide-email-overview.md#use-email-templates)
+- [Attach a file in email](customer-service-hub-user-guide-email-overview.md#attach-a-file-to-email)
+- [View and insert images in email](customer-service-hub-user-guide-email-overview.md#view-and-insert-images-in-email) 
+- [Create a signature for emails and queues](customer-service-hub-user-guide-email-overview.md#create-a-signature-for-emails-and-queues)
 
 ## Understand the email experience
-You can work in either the **navigate-to** email or the **contextual** email experience. The difference between the navigate-to versus contextual email experience is where the email displays on your screen. Both experiences use the same **Enhanced Email** form, which is enabled by default.
+You can work in either the **navigate-to** email or the **contextual** email experience. The difference between the navigate-to vs. contextual email experience is where the email displays on your screen. Both experiences use the same **Enhanced Email** form, which is enabled by default out-of-the-box (OOTB).
 
 > [!Important]
-> - **Contextual** email is also referred to as **Enhanced** email. There isn't any special functionality associated with the **Contextual / Enhanced** email experience, other than it is a pop-up experience. 
+> - **Contextual** email is also referred to as **Enhanced** email. Please be aware that there isn't any special functionality associated with the **Contextual / Enhanced** email experience, other than it is a pop-up experience. 
 
 <ul>
-<li><b>Navigate-to email experience</b>: Always displays in a new screen. </li>
-<li><b>Contextual email experience</b>: Can only be initiated from the timeline, and displays email in a pop-up screen.
+<li><b>Navigate-to email experience</b>: always displays in a new screen. </li>
+<li><b>Contextual email experience</b>: can only be initiated from the timeline, and displays email in a pop-up screen.
 <ul>
 <li>Allows you to move to different pages without losing email content.</li>
 <li>Minimize the email window to return to the records you were working on.</li>
 <li>Simultaneously view, compose, and reply to five emails in pop-up windows when enabled. </li></ul></ul>
 
-The following highlights the difference between the **navigate-to** and **contextual** email experience in the timeline, based on how your system administrator has configured your email:
+The following highlights the difference between the **navigate-to** and **contextual** email experience in the timeline based on how your system administrator has configured your email:
 
 1.	Select **Create a timeline record**.
 
@@ -57,30 +65,25 @@ For more information, see [Enable the enhanced email experience](customer-servic
 Users can view, create, and send email faster with streamlined access that helps users compose, reply, and send emails using rich text editing and drag-and-drop attachment features and functionalities.
 
 ### View an email
+You can view and respond to email across your Dynamics 365 app. 
 
-To access and view email:
-
-1. Select **Activities**.
-2. Select **All Activities**.
-3. Under **Activity Type, select **Email**.
-4. The email list is displayed.
-
+#### Access and view emails
    ![Access and view email](media\email-how-to-view-an-email-11a.png "Access and view email.")
    Legend
-  
+   1. Select **Activities**
+   2. Select **All Activities** 
+   3. Under **Activity Type** select **Email**
+   4. Email list appears in the screen below
 
 ### Compose an email
 Email capabilities, like rich-text editing and drag-and-drop or copy-and-paste images enriches customer interactions when composing email. 
 
 When enabled by your system administrator, you can access email from the top navigation bar.
 
-To compose an email:
-   
-   1. Select **Activities**
-   2. On the command bar, select **Email**. 
-   A blank email opens, where you can begin typing
-   
+#### Compose an email
    ![Compose an email](media\email-how-to-compose-an-email-11b.png "Compose an email")
+   1. Select **Activities**
+   2. On the command bar, select **Email**. An email then opens in a new window where you can begin composing. 
 
 #### Anatomy of an email form
 
@@ -88,13 +91,13 @@ To compose an email:
 
 Legend
 
-1. **Form**: The name displayed in the **From** field is automatically populated based on the user who is currently signed in.
-2. **Expand**: The **Expand** ![Expand icon](media\email-expand-icon.png "xpand email") icon allows you to compose your email in a full-screen view and minimize when done.
-3. **Rich text editor**: This tool bar helps you  format emails. The editor is displayed as a single line that can be expanded to view the full list of editing features by default.<BR>
+1. **Form**. The name displayed in the **From** field is automatically populated based on the user who is currently signed in.
+2. **Expand**. The **Expand** ![Expand icon](media\email-expand-icon.png "xpand email") icon allows you to compose your email in a full-screen view and minimize when done.
+3. **Rich text editor**. This tool bar helps you  format emails. The editor is displayed as a single line that can be expanded to view the full list of editing features by default.<BR>
   For more information, see [Editor functionality](customer-service-hub-user-guide-email-overview.md#formatting-options) and [Accessibility shortcuts](customer-service-hub-user-guide-email-overview.md#accessibility-shortcuts). 
-4. **Body**: The body is where you compose and/or reply to an email.
-5. **Insert Signature**: Use this command to personalize your message.  
-6. **Insert Template**: This is used to apply an email template. <BR>
+4. **Body**. The body is where you compose and/or reply to an email.
+5. **Insert Signature**. Use this command to personalize your message.  
+6. **Insert Template**. This is used to apply an email template. <BR>
 For more information, see [Insert an email template](customer-service-hub-user-guide-email-overview.md#how-to-insert-an-email-template).
 
    > [!Note]
@@ -153,7 +156,7 @@ The rich text editor toolbar provides features and functionality that allows you
 The following table describes the different formatting features and functionality options available in the rich text editor that you can use in the email form.
 
    >[!Note]
-   > You can access your browser's context menu by pressing **Ctrl** + right-click. This is useful if you need to use your browser's built-in spell checker. Otherwise, you can use the right-click to provide contextual formatting for any element you might be using.  
+   > You can access your browser's context menu by pressing **Ctrl** + right-click. his is useful if you need to use your browser's built-in spell checker. Otherwise, you can use the right-click to provide contextual formatting for any element you might be using.  
 
 |Icon | Name | Shortcut key | Description |
 |----------------------|-------------------------|-----------------------------|-----------------------------|
@@ -213,12 +216,13 @@ The following table outlines a list of accessibility shortcuts available when us
 | Base commands | Esc | Cancel operation. |
 
 
+
 ### See Also
 
-[Configure email](https://go.microsoft.com/fwlink/p/?linkid=2142941)<br>
-[Create an email template](customer-service-hub-user-guide-email-create-template.md)<br>
-[Insert an email template](customer-service-hub-user-guide-email-insert-template.md)<br>
-[Convert an email to a template](customer-service-hub-user-guide-email-convert-template.md)<br>
-[Attach a file to email](customer-service-hub-user-guide-email-attachments.md)<br>
-[Use a signature in email](customer-service-hub-user-guide-email-create-signature.md)<br>
+[Configure email](https://go.microsoft.com/fwlink/p/?linkid=2142941)
+[Create an email template](customer-service-hub-user-guide-email-create-template.md)
+[Insert an email template](customer-service-hub-user-guide-email-insert-template.md)
+[Convert an email to a template](customer-service-hub-user-guide-email-convert-template.md)
+[Attach a file to email](customer-service-hub-user-guide-email-attachments.md)
+[Use a signature in email](customer-service-hub-user-guide-email-create-signature.md)
 [Email FAQs](email-faqs.md)  
