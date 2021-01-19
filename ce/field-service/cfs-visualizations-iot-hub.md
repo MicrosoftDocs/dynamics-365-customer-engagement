@@ -3,7 +3,7 @@ title: "Visualizing device readings with Connected Field Service| MicrosoftDocs"
 description: Learn how to better understand the state of a device and its repair history with visualized device readings in Connected Field Service.
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 09/10/2020
+ms.date: 01/19/2021
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.topic: article
