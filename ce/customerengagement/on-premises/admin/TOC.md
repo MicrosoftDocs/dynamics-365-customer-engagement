@@ -151,7 +151,7 @@
 ## Extend with integration and solutions
 ### Manage your documents using SharePoint 
 #### [Overview](manage-documents-using-sharepoint.md)
-<!-- #### [Software requirements](sharepoint-document-management-software-requirements.md) -->
+#### [Software requirements](sharepoint-document-management-software-requirements.md)
 #### Set up
 <!-- ##### [Overview](set-up-sharepoint-integration.md)
 ##### [Set up Dynamics 365 (online) and SharePoint Online](set-up-dynamics-365-online-to-use-sharepoint-online.md)
