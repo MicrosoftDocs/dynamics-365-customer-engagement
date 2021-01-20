@@ -31,9 +31,7 @@ Summary tiles give a numeric overview of important metrics related to IoT device
 
 ## Prerequisites
 
-
-> [!Note]
->
+- Field Service version 8.8.2+
 
 
 ## Default summary tiles
@@ -47,13 +45,11 @@ Summary tiles give a numeric overview of important metrics related to IoT device
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/cfs-summary-tiles-default.png)
 
-If an IoT device is registered with Azure IoT (or a custom IoT provider) and has successfully pulled device data into Field Service, summary tiles for the first 2 device properties are automatically created. In the example image below this refers to average temperature and average humidity for the last 7 days. Temperature and humidity
+If an IoT device is registered with Azure IoT (or a custom IoT provider) and has successfully pulled device data into Field Service, summary tiles for the first 2 device properties are automatically created. In the example image below this refers to average temperature and average humidity for the last 7 days. Temperature and humidity are the first 2 device properties in the first device data pull. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of device readings on an IoT device, with attention to work orders](./media/cfs-device-readings-history-edited.png)
 
-	- Pull device data
-First 2 properties become summary tiles
 
 ## Edit summary tiles
 
