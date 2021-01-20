@@ -164,6 +164,11 @@ In Power Virtual Agents, do the following:
 
 At run time, the required information is captured in the context variable that can then be used for further actions based on the workflow you configure. For more information, see [Context variables for a bot](context-variables-for-bot.md).
 
+### Global variables in Power Virtual Agents
+
+The global variables that are created in Power Virtual Agents can be passed to Omnichannel for Customer Service when a conversation is escalated. The following 
+
+
 ### Known limitations
 
 | Description     | Limitation     |

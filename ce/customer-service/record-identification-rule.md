@@ -38,7 +38,7 @@ For **Authenticated chat**, the logged in user details will be used to search an
 
 ## Use the setContextProvider API method
 
-You can automatically identify records using custom context set using setContext API apart from pre-chat answers. To programmatically set these values, see [setContextProvider](developer/reference/methods/setcontextprovider.md).
+You can automatically identify records using custom context set using setContext API apart from pre-chat answers. To programmatically set these values, see [Manage custom context](send-context-starting-chat.md).
 
 
 ### See also
