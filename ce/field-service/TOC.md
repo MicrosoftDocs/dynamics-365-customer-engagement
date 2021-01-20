@@ -187,6 +187,7 @@
 ## Analyze
 ### [Receive IoT alerts from Azure IoT Central](cfs-iot-central-alerts.md)
 ### [Associate devices with customer accounts](cfs-iot-central-associate-devices.md)
+### [Summary tiles](cfs-summary-tiles.md)
 ### [Visualizing device readings](cfs-visualizations-iot-hub.md)
 ### [AI for IoT alerts](iot-alerts-ai-based-suggestions.md)
 ### [Pull device data](cfs-pull-device-data.md)

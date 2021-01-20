@@ -117,13 +117,6 @@ To view device readings, the following data must be in place:
 > [!Note]
 > If there are no work orders in the selected time period, work order selection will not be displayed.
 
-A summary of the device readings such as average measurements and number of work orders is calculated and displayed on the device, customer asset, and alert as seen in the following screenshot.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of device readings on an IoT device, with attention to work orders](./media/cfs-device-readings-history.png)
-
-> [!Note]
-> The device summaries use the device data history information on the device record, which updates with a slight delay (30-60min); however, you can use the **Pull Device Data** option to get the latest data from AzureIoT. The device summary is only displayed on customer assets if there is one related device, even though multiple devices can be related to one customer asset. Device summary calculations respect security roles, so will change based on the nuber of alerts, work orders, and so on that the logged-in user has access to.
 
 ## View device readings on the mobile app
 
