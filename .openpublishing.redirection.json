@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "ce/mobile-app/send-email.md",
+      "redirect_url": "/dynamics365/sales-enterprise/use-sales-hub-on-dynamics-365-mobile#send-email",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/mobile-app/dynamics-365-phones-tablets-users-guide.md",
       "redirect_url": "/dynamics365/customerengagement/on-premises/basics/dynamics-365-phones-tablets-users-guide-onprem",
       "redirect_document_id": "false"
