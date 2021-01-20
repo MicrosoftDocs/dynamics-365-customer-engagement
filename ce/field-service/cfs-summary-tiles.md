@@ -36,7 +36,7 @@ Summary tiles give a numeric overview of important metrics related to IoT device
 
 ## Default summary tiles
 
-3 summary tiles exist by default after a new IoT device is created
+3 summary tiles exist by default after a new IoT device is created: 
 
 - New IoT alerts related to the IoT device in the last day
 - New cases related to the IoT device in the Last 30 days
@@ -52,6 +52,14 @@ If an IoT device is registered with Azure IoT (or a custom IoT provider) and has
 
 
 ## Edit summary tiles
+
+Edit existing summary tiles or create new ones.
+
+cfs-summary-tiles-edit
+
+When creating new summary tiles choose if it should relate to a device property (like temperature or humidity as examples) or 
+
+cfs-summary-tiles-edit2
 
 Save to device
 
