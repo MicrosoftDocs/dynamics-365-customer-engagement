@@ -66,8 +66,6 @@ Also, you can observe the following changes in the **Sales Hub** app:
 
     Currently, the **Forecast category** field in the **Opportunity** form can't be hidden through the **Visible by default** option in the form customization. If you don't want to use the **Forecast category** field in opportunity form, remove the field through form customization. To learn more, see [Unable to hide forecast category field in Opportunity forms](ts-forecasts.md#hide_forecast_category_field).    
 
-
-
 ## Configure a forecast     
 To configure a forecast in your organization, follow these steps:    
 1.	[Review the prerequisite tasks](#prerequisite-tasks)    
