@@ -50,20 +50,32 @@ If an IoT device is registered with Azure IoT (or a custom IoT provider) and has
 > [!div class="mx-imgBorder"]
 > ![Screenshot of device readings on an IoT device, with attention to work orders](./media/cfs-device-readings-history-edited.png)
 
+> [!Note]
+> The device summaries use the device data history information on the device record, which updates with a slight delay (30-60min); however, you can use the **Pull Device Data** option to get the latest data from AzureIoT. 
+
 
 ## Edit summary tiles
 
 Edit existing summary tiles or create new ones.
 
-cfs-summary-tiles-edit
 
-When creating new summary tiles choose if it should relate to a device property (like temperature or humidity as examples) or 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/cfs-summary-tiles-edit.png)
 
-cfs-summary-tiles-edit2
+When creating new summary tiles choose if it should relate to a **Device Measurement** (like temperature or humidity as examples) or a **Device Event** (like the creation of a work order).
 
-Save to device
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/cfs-summary-tiles-edit2.png)
+
+Edits to summary tiles are saved to the related IoT device. When that IoT device is related to IoT alerts or customer assets the changes to the summary tiles will follow.
+
+The maximmum number of summary tiles that can be displayed is 6. 
 
 ## Add summary tiles via Device Categories
+
+Oftentimes organizations want to apply summary tiles to a group of IoT devices rather than edit the summary tiles of each IoT device. This is achieved by associating summary tiles to Device Categories.
+
 
 
 		○ Configure ones based on category otherwise use default 
@@ -73,7 +85,10 @@ New IoT device visualization configuration
 
 Summary tiles and device readings are viewable on the mobile app when connected to the internet. See the topic on [Connected Field Service on Field Service (Dynamics 365) mobile app](https://docs.microsoft.com/dynamics365/field-service/cfs-mobile-powerapp#view-summary-tiles-and-device-readings) for more details. 
 
+## Configuration considerations
+
+- The device summary is only displayed on customer assets if there is one related device, even though multiple devices can be related to one customer asset. 
+
 ## Additional notes
 
-> [!Note]
-> The device summaries use the device data history information on the device record, which updates with a slight delay (30-60min); however, you can use the **Pull Device Data** option to get the latest data from AzureIoT. The device summary is only displayed on customer assets if there is one related device, even though multiple devices can be related to one customer asset. Device summary calculations respect security roles, so will change based on the nuber of alerts, work orders, and so on that the logged-in user has access to.
+- Summary tile calculations respect security roles and will change based on the nuber of alerts, work orders, etc that the logged-in user has access to.
