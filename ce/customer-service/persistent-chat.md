@@ -17,9 +17,6 @@ ms.service: dynamics-365-customerservice
 
 Persistent chat is an asynchronous mode for the chat channel that allows conversations to happen over multiple sessions. Unlike in live chat, where customers and agents need to be available simultaneously, persistent chat allows users to leave the conversation between sessions and pick it up later. 
 
-<!-- Neeraja: Any reason why the following sentence has been retained? We discussed that it is redundant. The second statement is also not required because it states the obvious. -->
-Persistent chat allows authenticated users to leave the conversation between sessions and pick it up later. This gives customers the flexibility to reply at their convenience.
-
 Live chat and persistent chat share the same channel. 
 
 The primary differences between live chat and persistent chat are as follows:
@@ -32,7 +29,7 @@ The primary differences between live chat and persistent chat are as follows:
 
 ## How persistent chat works
 
-From the start of a conversation until the agent explicitly ends it, agents and customers will be able to see the history of the conversation in the chat widget. Customers can close the chat widget and come back after a long time, and still see their history, with the ability to pick up where they left. When a customer is unresponsive for a long time, agents can attend to other conversations by moving their current conversation into a waiting stage. When the customer comes back to the chat, the agent is notified and the conversation can be picked up and resolved.
+From the start of a conversation until the agent explicitly ends it, agents and customers will be able to see the history of the conversation in the chat widget. Customers can close the chat widget and come back after a long time, and still see their history, with the ability to pick up where they left. When a customer is unresponsive for a long time, agents can attend to other conversations by moving their current conversation into a waiting stage, by clicking on the ✖ button. When the customer comes back to the chat, the agent is notified and the conversation can be picked up and resolved.
 
 ## Set up persistent chat
 
@@ -54,14 +51,12 @@ You can enable persistent chat in the chat widget settings for a chat channel.Yo
 
 8. Set **agent affinity** to true. When a customer returns to the chat, this setting will ensure that the system first tries to connect them to the same agent.
 
-<!-- Neeraja: Correct the formatting for the note: -->
-**Note** : If you need to configure both live and persistent chat widgets, ensure to create two separate work streams and update the settings accordingly.  
+  **Note** : If you need to configure both live and persistent chat widgets, ensure to create two separate work streams and update the settings accordingly.  
 
 9. Select **Save and close**.
 
 ### See also
 
-<!-- Neeraja: Why do we need a forward link for topics in the same repo or folder? Replace with relative links to the topics. -->
-[Configure a chat widget](https://go.microsoft.com/fwlink/p/?linkid=2152613)
+[Configure a chat widget](add-chat-widget.md)
 
-[Create work streams](https://go.microsoft.com/fwlink/p/?linkid=2152613)
+[Create work streams](work-streams-introduction.md)
