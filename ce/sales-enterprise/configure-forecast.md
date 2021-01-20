@@ -48,6 +48,7 @@ By default, forecasting is available in your organization and the following page
 2.  In the site map, select the Change area icon ![Icon to change the work area](media/change-area-icon.png "Icon to change the work area"), and then select **App Settings**.    
 3.  Under **Performance management**, select **Forecast configuration**.     
     The forecast configuration page opens.     
+    
 Also, you can observe the following changes in the **Sales Hub** app:    
 -	**Forecasts** appears under **Performance** in the **Sales** site map.    
     > [!div class="mx-imgBorder"]
