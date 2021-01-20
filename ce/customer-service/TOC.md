@@ -64,7 +64,7 @@
 ##### [Create work streams for entity records](set-up-entity-workstream.md)
 ##### [Create multiple work streams for entity records](multiple-ws-entity-record-routing.md)
 ##### [Set up routing and assignment rules](routing-rules.md)
-##### [Associate templates with work streams](associate-templates.md)
+##### [Associate templates with work streams](../app-profile-manager/associate-templates.md)
 #### [Set up routing for Omnichannel for Customer Service Conversations](understand-omnichannel-customer-service-hub.md)
 #### [Show customers their position in a queue](show-queue.md)
 #### [Show customers their average wait time in a queue](average-wait-time.md)
@@ -106,9 +106,16 @@
 #### [Add a timer in forms to track time against enhanced SLAs](add-timer-forms-track-time-against-enhanced-sla.md)
 
 ## Email
-### [Configure email](customer-service-hub-user-guide-email-admin.md)
 ### [Use email](customer-service-hub-user-guide-email-overview.md)
-### [Email FAQs](email-faqs.md)
+### Email templates
+#### [Create an email template](customer-service-hub-user-guide-email-create-template.md)
+#### [Insert an email template](customer-service-hub-user-guide-email-insert-template.md)
+#### [Convert an email to a template](customer-service-hub-user-guide-email-convert-template.md)
+#### [Use a signature in email](customer-service-hub-user-guide-email-create-signature.md)
+### [Email FAQs and known issues](email-faqs.md)
+### Administrator experience
+#### [Configure the email form order](customer-service-hub-user-guide-email-admin.md)
+#### [Configure the default email font](customer-service-hub-user-guide-email-font-admin.md)
 
 ## Timeline
 ### [Configure timeline](customer-service-hub-user-guide-timeline-admin.md)

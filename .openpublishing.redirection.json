@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "ce/mobile-app/send-email.md",
+      "redirect_url": "/dynamics365/sales-enterprise/use-sales-hub-on-dynamics-365-mobile#send-email",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/mobile-app/dynamics-365-phones-tablets-users-guide.md",
       "redirect_url": "/dynamics365/customerengagement/on-premises/basics/dynamics-365-phones-tablets-users-guide-onprem",
       "redirect_document_id": "false"
@@ -20898,6 +20903,16 @@
     {
       "source_path": "ce/customer-service/service-manager-guide.md",
       "redirect_url": "../app-profile-manager/configure-cs",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/unified-service-desk/oc-usd/add-personalization-tab.md",
+      "redirect_url": "../oc-customizer/add-personalization-tab",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/associate-templates.md",
+      "redirect_url": "../app-profile-manager/associate-templates",
       "redirect_document_id": false
     }
   ]
