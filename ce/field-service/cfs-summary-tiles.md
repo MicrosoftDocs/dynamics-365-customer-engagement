@@ -76,10 +76,19 @@ The maximmum number of summary tiles that can be displayed is 6.
 
 Oftentimes organizations want to apply summary tiles to a group of IoT devices rather than edit the summary tiles of each IoT device. This is achieved by associating summary tiles to Device Categories.
 
+GO to Settings > Device Categories.
 
+Select or create a new device category.
 
-		○ Configure ones based on category otherwise use default 
-New IoT device visualization configuration 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/cfs-summary-tiles-device-categories.png)
+
+From the device cateorgy record create a new IoT Device Visualization Configuration. Each configuration corresponds to a summary tile.
+
+Ensure your IoT devices are related to the device category. You can add all IoT devices that belong to the cateogry from the device category. Alternatively there is a field on each IoT device to associate a category.
+
+> [!Note]
+> Manually editing summary tiles for an IoT device will override the summary tiles applied through device categories.
 
 ## View summary tiles on the mobile app
 
