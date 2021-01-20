@@ -1,3 +1,13 @@
+## 3.12.34.4
+
+- Fixed a bug where Schedule Assistant and Schedule board ignore start and end time inputs when duration is more than 24 hours when scheduling an opportunity record. 
+- Fixed a bug where the search button remains disabled when Time To Promised is initially greater than Search End, even if parameters are adjusted.
+- Fixed a bug where a validation error occurred for bookableresourcebooking.msdyn_milestraveled. The value -0.999999690624 of type System.Double is outside the valid range(0 to 1000000000). 
+- Booking tooltip on multiday views now show in the correct booking length on the current schedule board and the next-generation Schedule Board.
+- Fixed a bug where the booking is created with an incorrect duration when a user tries to create a booking using the quick book option.
+
+
+
 ## Version 3.12.33.8
 
 - When quick book is enabled on a schedulable entity and the requirement record is generated post booking record creation, the from date, to date, and duration attributes on booking setup metadata record were not correctly mapped to the from date, to date, and duration fields of the resource requirement generated. This bug is now fixed.
