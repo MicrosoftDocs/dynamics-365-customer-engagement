@@ -19,15 +19,6 @@ searchScope:
 
 # Configure forecasts in your organization
 
-## Before you begin      
-View the minimum required versions, user permissions, and license:     
-
-| Requirements | Description |
-|--------------|-------------|
-| Versions | Sales enterprise |
-| User permissions | Administrator or Forecast Manager |
-| License | Dynamics 365 Sales Enterprise, Dynamics 365 Sales Premium, or Microsoft Relationship Sales |   
-
 A forecast helps your organization predict how much revenue your sales team will generate in a given timeframe. When done correctly, forecasting can play a significant role in your company's success. By using a forecast:    
 - Sellers can track performance against their targets and identify pipeline risks that might jeopardize their ability to hit their targets.   
 - Managers can track individual sales performance against quotas to proactively provide coaching.    
@@ -37,6 +28,16 @@ A forecast helps your organization predict how much revenue your sales team will
 >[!IMPORTANT]
 >Forecasting is not available on Government Community Cloud (GCC).  
 
+## Prerequisite   
+View the minimum required application, user permissions, and license:     
+
+| Requirements | Description |
+|--------------|-------------|
+| Application | Sales Hub |
+| User permissions | Administrator, Forecast manager, or equivalent permissions.<br> More information: [Security roles and privileges](/power-platform/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user). |
+| License | Dynamics 365 Sales Enterprise, Dynamics 365 Sales Premium, or Microsoft Relationship Sales | 
+
+## Enable forecasting    
 You can configure forecasts in your organization that are based on revenue or quantity. You can define the type of forecast, its hierarchy, permissions for accessing it, and the details you want to appear on the forecast grid. After a forecast is activated, your sales team can view the revenue or quantity, and pipeline projections.   
 By default, forecasting is available in your organization and the following page is displayed when you select **Forecast configuration**:   
 
@@ -48,7 +49,7 @@ By default, forecasting is available in your organization and the following page
 2.  In the site map, select the Change area icon ![Icon to change the work area](media/change-area-icon.png "Icon to change the work area"), and then select **App Settings**.    
 3.  Under **Performance management**, select **Forecast configuration**.     
     The forecast configuration page opens.     
-    
+
 Also, you can observe the following changes in the **Sales Hub** app:    
 -	**Forecasts** appears under **Performance** in the **Sales** site map.    
     > [!div class="mx-imgBorder"]
@@ -65,16 +66,9 @@ Also, you can observe the following changes in the **Sales Hub** app:
 
     Currently, the **Forecast category** field in the **Opportunity** form can't be hidden through the **Visible by default** option in the form customization. If you don't want to use the **Forecast category** field in opportunity form, remove the field through form customization. To learn more, see [Unable to hide forecast category field in Opportunity forms](ts-forecasts.md#hide_forecast_category_field).    
 
-## Prerequisite tasks    
-Perform the following prerequisite task:    
-- Assign the **Administrator** or **Forecast manager** role that will allow you to perform the following tasks:     
-    -	Create, assign, and edit forecast configurations for your organization.     
-    -	Delete, activate, and deactivate forecast configurations that have been defined for your organization.    
 
-    > [!NOTE]
-    > To learn more about assigning a role, see [Assign a security role to a user](/power-platform/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user).
 
-## How do I configure a forecast?     
+## Configure a forecast     
 To configure a forecast in your organization, follow these steps:    
 1.	[Review the prerequisite tasks](#prerequisite-tasks)    
 2.	[Select a template](select-template-forecast.md)     
