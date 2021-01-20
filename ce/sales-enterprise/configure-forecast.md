@@ -29,13 +29,13 @@ A forecast helps your organization predict how much revenue your sales team will
 >Forecasting is not available on Government Community Cloud (GCC).  
 
 ## Prerequisite   
-View the minimum required application, user permissions, and license:     
+View the minimum required applications, user permissions, and license:     
 
 | Requirements | Description |
 |--------------|-------------|
 | Application | Sales Hub |
 | User permissions | Administrator, Forecast manager, or equivalent permissions.<br> More information: [Security roles and privileges](/power-platform/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user). |
-| License | Dynamics 365 Sales Enterprise, Dynamics 365 Sales Premium, or Microsoft Relationship Sales | 
+| License | Dynamics 365 Sales Enterprise or Microsoft Relationship Sales | 
 
 ## Enable forecasting    
 You can configure forecasts in your organization that are based on revenue or quantity. You can define the type of forecast, its hierarchy, permissions for accessing it, and the details you want to appear on the forecast grid. After a forecast is activated, your sales team can view the revenue or quantity, and pipeline projections.   
