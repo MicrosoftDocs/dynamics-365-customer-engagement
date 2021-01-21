@@ -21,11 +21,9 @@ search.audienceType:
 ---
 # SharePoint Document Management software requirements
 
-If you want to use [!INCLUDE[pn_ms_SharePoint_long](../includes/pn-ms-sharepoint-long.md)] document management functionality with Dynamics 365 Customer Engagement (on-premises), you must meet the requirements listed in this topic.  
+If you want to use [!INCLUDE[pn_ms_SharePoint_long](../includes/pn-ms-sharepoint-long.md)] document management functionality with Dynamics 365 Customer Engagement (on-premises), you must meet the requirements listed here:  
 
-## Use document management in Customer Engagement (on-premises)
-
-- If you are using server-based integration with SharePoint, you can use Microsoft SharePoint Online or Microsoft SharePoint 2013 SP1 on-premises (or a later version).
+- To use server-based integration with SharePoint, you can use Microsoft SharePoint Online or Microsoft SharePoint 2013 SP1 on-premises (or a later version).
      > [!IMPORTANT]
      > SharePoint Foundation versions aren’t supported for use with Customer Engagement (on-premises) document management.
 - A SharePoint site collection. You also need at least one site collection configured and available for Customer Engagement (on-premises).
