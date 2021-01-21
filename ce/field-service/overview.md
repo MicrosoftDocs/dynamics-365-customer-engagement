@@ -130,5 +130,5 @@ Work orders describe the work that a technician needs to perform at a customer l
 
 ## Watch an overview video
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWs4Cu]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWs4Cu]
 
