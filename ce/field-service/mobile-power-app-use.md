@@ -35,16 +35,33 @@ Available natively for Apple iOS and Google Android phones and tablets, the Fiel
 
 
 ## Download
+
+Go to the app store on your iOS or Android device and search for **Dynamics 365 Field Service**.
+
+Download the app called **Field Service (Dynamics 365)**, as seen in the following screenshot.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of a mobile device app store, showing two Field Service Mobiles in the list, and highlighting the Field Service (Dynamics 365) app.](./media/mobile-2020-download-signin.jpg)
+
+
 ## Sign in
 
-Upon sign-in, the app will download important Field Service information as defined by system administrators. 
+Launch the app and sign in with your username and password.  
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of sign in](./media/quickstart-mobile-signin.png)
+
+Administrators should view the articles on [setting up users and security roles](../field-service/view-user-accounts-security-roles.md) and [creating a Bookable Resource](set-up-bookable-resources.md) for help.
+
+
+Upon sign-in, the app will download important Field Service information as defined by administrators. 
 
 > [!div class="mx-imgBorder"]
 > ![Device renders showing the Field Service (Dynamics 365) mobile app, showing the offline status.](./media/mobile-2020-offline-downloading2.png)
 
 ## Home
 
-To get to the sitemap, select the menu icon from the calendar view. From here, you can find other important information like accounts, contacts, customer assets, or to record time off.
+To get to the sitemap, select the menu icon from the calendar view. From here, you can find other important information like accounts, contacts, customer assets, or to submit time entries. 
 
 > [!div class="mx-imgBorder"]
 > ![Simulated image showing two mobile devices with screenshots of Field Service (Dynamics 365). The device on the left shows the full menu for Field Service (Dynamics 365). The device on the right shows an account detail page.](./media/mobile-2020-sitemap-account.jpg)
@@ -53,10 +70,11 @@ To get to the sitemap, select the menu icon from the calendar view. From here, y
 
 The first screen you'll see is a calendar view of your scheduled work orders.
 
-Select **More** > **Show as** > **Read-only Grid** to see the bookings as a list as shown on the right side of the following screenshot.
 
 > [!div class="mx-imgBorder"]
 > ![Simulated image showing two mobile devices with Field Service (Dynamics 365). The screen on the left has a list of My Open Resource Bookings by date. The screen on the right has a list of My Open Resource Bookings in a flat list.](./media/mobile-2020-booking-view.jpg)
+
+Select **More** > **Show as** > **Read-only Grid** to see the bookings as a list as shown on the right side of the screenshot.
 
 
 ## Travel to job location 
@@ -79,7 +97,28 @@ On the **Service tab**, you'll see work order details like work order service ta
 
 On the **Notes tab**, you can add note text, pictures, and videos, as well as customer signature capture.
 
+> [!div class="mx-imgBorder"]
+> ![Simulated image showing three mobile devices with Field Service (Dynamics 365) open. First screenshot on the left shows the service tab on the bookable resource booking. Middle screenshot shows the service tab. Right screenshot shows the notes tab.](./media/mobile-2020-work-order-service-notes-new.jpg)
+
 ## Service assets
+
+Technicians can see the functional location of a work order on the Dynamics 365 Field Service mobile app.
+
+> [!div class="mx-imgBorder"]
+> ![Device render with the Field Service mobile app, showing a booking and a location on a map.](./media/mobile-2020-functional-location-work-order.png)
+
+Technicians can also view and interact with functional location and customer asset hierarchies on the mobile app.
+
+> [!div class="mx-imgBorder"]
+> ![Device renders with the Field Service mobile app, showing asset hierarchies and functional locations.](./media/mobile-2020-functional-location-hierarchy-combined.png)
+
+> [!Note]
+> Internet connectivity is required to view and interact with functional location and customer asset hierarchy trees on the Field Service mobile app.
+
+For a guided walkthrough of functional locations on the Field Service mobile app, check out the following video.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4I2pU]
+
 ## Barcode scanning
 
 Select the global search icon to search for records across accounts, contacts, work orders, customer assets, or any other entity. Technicians can also search by scanning a barcode with their phone's camera. The barcode scan will find records that have a matching barcode field.
