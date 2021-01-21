@@ -34,7 +34,8 @@ If you want to use [!INCLUDE[pn_ms_SharePoint_long](../includes/pn-ms-sharepoint
 
 <a name="BKMK_enable_servertoserver"></a>   
 
-## About server-based SharePoint integration  
+## About server-based SharePoint integration
+
  Earlier versions of Customer Engagement (on-premises) document management use a client-to-server strategy to authenticate and transmit data from Customer Engagement (on-premises) to [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)]. Server-based (using server-to-server authentication) [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration provides the following benefits:  
 
 - User interface that is consistent with the newly-updated Customer Engagement (on-premises) user interface.  
@@ -78,5 +79,6 @@ If you want to use [!INCLUDE[pn_ms_SharePoint_long](../includes/pn-ms-sharepoint
 >   - **[!INCLUDE[pn_crm_2016_list_component_sharepoint_server_2010](../includes/pn-crm-2016-list-component-sharepoint-server-2010.md)]** . This version doesn’t work with [!INCLUDE[pn_sharepoint_2013](../includes/pn-sharepoint-2013.md)].  
 >   - **[!INCLUDE[pn_crm_2016_list_component_sharepoint_server_2013](../includes/pn-crm-2016-list-component-sharepoint-server-2013.md)]** . This version doesn’t work with [!INCLUDE[pn_ms_SharePoint_2010_short](../includes/pn-ms-sharepoint-2010-short.md)].  -->
 
-### See also  
+### See also
+
 [Set up SharePoint integration](set-up-sharepoint-integration.md)
