@@ -147,7 +147,8 @@ You must configure the Power BI workspace using the **Omnichannel Administration
     > [!div class=mx-imgBorder]
     > ![Add existing Power BI workspace](media/supervisor-admin-add-existing-workspace.png "Add existing Power BI workspace") 
 
-**Note**: We recommend that you configure separate workspaces for your test and production environments.  
+ > [!NOTE]
+ >  We recommend that you configure separate workspaces for your test and production environments.  
         
 6.  Select **Configure**. The workspace creation takes a few seconds and then a confirmation message is displayed with the generated workspace ID.
 
@@ -160,8 +161,8 @@ You must configure the Power BI workspace using the **Omnichannel Administration
 
     After you save the configuration, it might take up to 15 minutes for the datasets, dashboard, and reports to appear in your created workspace.
 
-    > [!NOTE]
-    > You can also see the status of different configuration stages such as workspace, dashboard, and datasets. When a workspace is created successfully, all the statuses will have a green check. If failed, the respective configuration stage check will be red, and an error message is displayed. Resolve the error and create the workspace again.
+ > [!NOTE]
+ > You can also see the status of different configuration stages such as workspace, dashboard, and datasets. When a workspace is created successfully, all the statuses will have a green check. If failed, the respective configuration stage check will be red, and an error message is displayed. Resolve the error and create the workspace again.
 
 8. In [Power BI Service](https://app.powerbi.com), share the reports with supervisor users to access the report in the **Omnichannel for Customer Service** app on the web. To learn more, see [Share Power BI dashboards and reports with coworkers and others](https://docs.microsoft.com/power-bi/service-share-dashboards).
 
@@ -203,22 +204,6 @@ You must configure the Power BI workspace using the **Omnichannel Administration
 ### Configure customized intraday insights for Unified Service Desk 
 
 Before you configure the Intraday insights for Unified Service Desk, you must [configure Intraday insights for the Omnichannel for Customer Service app on the web](#configure-intraday-insights-for-the-omnichannel-for-customer-service-app-on-the-web). This configures the Power BI datasets, reports, and dashboards for Omnichannel for Customer Service and enables you to configure the insights for Unified Service Desk. 
-
-You must perform the following tasks to configure the Intraday insights for **Unified Service Desk**:
-
-- [Configure intraday insights for supervisors](#configure-intraday-insights-for-supervisors)
-  - [Intraday insights in a preconfigured Power BI workspace](#intraday-insights-in-a-preconfigured-power-bi-workspace)
-  - [Configure customized intraday insights reports](#configure-customized-intraday-insights-reports)
-    - [Prerequisites](#prerequisites)
-    - [Configure intraday insights for the Omnichannel for Customer Service app on the web](#configure-intraday-insights-for-the-omnichannel-for-customer-service-app-on-the-web)
-      - [Configure the Power BI workspace in the Omnichannel Administration app](#configure-the-power-bi-workspace-in-the-omnichannel-administration-app)
-      - [Share workspace and reports with supervisors](#share-workspace-and-reports-with-supervisors)
-    - [Configure customized intraday insights for Unified Service Desk](#configure-customized-intraday-insights-for-unified-service-desk)
-      - [Configure dashboard in Power BI](#configure-dashboard-in-power-bi)
-      - [Configure Unified Service Desk to display Intraday insights](#configure-unified-service-desk-to-display-intraday-insights)
-      - [Add users to supervisor configuration](#add-users-to-supervisor-configuration)
-      - [Update client cache version](#update-client-cache-version)
-    - [See also](#see-also)
 
 > [!NOTE]
 > Supervisor and agent sentiment notifications are not available in Omnichannel for Customer Service on Unified Service Desk.
