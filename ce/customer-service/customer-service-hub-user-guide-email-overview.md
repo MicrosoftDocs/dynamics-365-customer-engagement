@@ -112,6 +112,9 @@ The way you can reply to an email depends on where you are in your app.
 
 When enabled by your system administrator, the email option displays in the top navigation bar and in the activities command bar.
 
+>[!Note]
+> The best performance is achieved when the HTML content size is 1 MB or less. When your HTML content size exceeds 1 MB, you might notice slower response times for loading and editing content. By default, image content is referenced from the content HTML but isn't stored as part of the HTML content, so in the default configuration, images don't negatively impact performance.
+
 #### Access email
 When accessing email, there are a couple of options you can use. 
 
