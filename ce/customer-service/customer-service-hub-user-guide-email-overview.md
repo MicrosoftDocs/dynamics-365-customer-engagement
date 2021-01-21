@@ -3,7 +3,7 @@ title: "Use email in customer engagement apps | MicrosoftDocs"
 description: "Learn how to use email in customer engagement apps."
 author: lalexms
 ms.author: laalexan
-ms.date: 01/18/2021
+ms.date: 01/21/2021
 ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ms.reviewer: nenellim
