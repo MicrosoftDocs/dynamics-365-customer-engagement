@@ -3,7 +3,7 @@ title: "Use email in customer engagement apps | MicrosoftDocs"
 description: "Learn how to use email in customer engagement apps."
 author: lalexms
 ms.author: laalexan
-ms.date: 01/18/2021
+ms.date: 01/21/2021
 ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ms.reviewer: nenellim
@@ -38,7 +38,7 @@ The following highlights the difference between the "navigate-to" and contextual
 
    Depending on the experience you are using, your email will display as follows:
 
-   |Navigate-to email experience | | Contextual email experience|
+   |Navigate-to email experience |-| Contextual email experience|
    |-----------------------------|-|----------------|
    | ![Navigate-to email experience](media\navigate-to-email-view-1c.png "View of the navigate-to email experience") ||  ![Contextual email experience](media\contextual-email-view-1c.png "View of the contextual email experience.")|
    |The "navigate-to" email will display in a new screen.||The contextual email will display in a pop-up window on your current screen.|
@@ -111,6 +111,9 @@ For more information on enhanced email and configurations, see [Enable the enhan
 The way you can reply to an email depends on where you are in your app. 
 
 When enabled by your system administrator, the email option displays in the top navigation bar and in the activities command bar.
+
+>[!Note]
+> The best performance is achieved when the HTML content size is 1 MB or less. When your HTML content size exceeds 1 MB, you might notice slower response times for loading and editing content. By default, image content is referenced from the content HTML but isn't stored as part of the HTML content, so in the default configuration, images don't negatively impact performance.
 
 #### Access email
 When accessing email, there are a couple of options you can use. 
