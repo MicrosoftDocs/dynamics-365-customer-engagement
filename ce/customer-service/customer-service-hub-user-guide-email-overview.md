@@ -38,7 +38,7 @@ The following highlights the difference between the "navigate-to" and contextual
 
    Depending on the experience you are using, your email will display as follows:
 
-   |Navigate-to email experience | | Contextual email experience|
+   |Navigate-to email experience |-| Contextual email experience|
    |-----------------------------|-|----------------|
    | ![Navigate-to email experience](media\navigate-to-email-view-1c.png "View of the navigate-to email experience") ||  ![Contextual email experience](media\contextual-email-view-1c.png "View of the contextual email experience.")|
    |The "navigate-to" email will display in a new screen.||The contextual email will display in a pop-up window on your current screen.|
