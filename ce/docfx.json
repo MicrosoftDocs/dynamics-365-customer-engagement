@@ -2,6 +2,20 @@
   "build": {
     "content": [
       {
+        "group": "op-all",
+        "files": [
+          "customerengagement/on-premises/**/*.md",
+          "customerengagement/on-premises/**/*.yml"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "**/shared/**",
+          "**/_themes/**",
+          "**/_themes.pdf/**"
+        ]
+      },
+      {
         "group": "usd-all",
         "files": [
           "unified-service-desk/**/*.md",
@@ -24,6 +38,7 @@
           "**/obj/**",
           "**/includes/**",
           "**/shared/**",
+          "customerengagement/on-premises/**",
           "unified-service-desk/**",
           "**/_themes/**",
           "**/_themes.pdf/**",
@@ -35,6 +50,24 @@
       }
     ],
     "resource": [
+      {
+        "group": "op-all",
+        "files": [
+          "customerengagement/on-premises/**/*.png",
+          "customerengagement/on-premises/**/*.jpg",
+          "customerengagement/on-premises/**/*.gif",
+          "customerengagement/on-premises/**/*.html",
+          "customerengagement/on-premises/**/*.htm",
+          "customerengagement/on-premises/**/*.txt"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "**/shared/**",
+          "**/_themes/**",
+          "**/_themes.pdf/**"
+        ]
+      },
       {
         "group": "usd-all",
         "files": [
@@ -67,6 +100,7 @@
           "**/includes/**",
           "**/shared/**",
           "unified-service-desk/**",
+          "customerengagement/on-premises/**",
           "**/_themes/**",
           "**/_themes.pdf/**"
         ]
@@ -229,6 +263,10 @@
       "usd-all": {
         "dest": "usd-all",
         "moniker_range": ">= dynamics-usd-3"
+      },
+      "op-all":{
+        "dest": "op-all",
+        "moniker_range":">= op-9-0"
       }
     },
     "markdownEngineName": "markdig"
