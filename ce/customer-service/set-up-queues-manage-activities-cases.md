@@ -1,10 +1,10 @@
 ---
 title: Set up queues to manage activities and cases (Dynamics 365 Customer Service) | MicrosoftDocs
-description: Learn how to set up queues to manage activities and cases in Dynamics 365 Customer Service
+description: Learn how to set up queues to manage activities and cases in Dynamics 365 Customer Service.
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 11/27/2019
+ms.date: 01/22/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -166,7 +166,8 @@ To assign items in the queue to agents, select **Assign** after selecting one or
 
 > [!Note]
 > - When two agents simultaneously add cases to the queue, then the system creates two queue items instead of a single queue item.
-> - If you've created workflows or used custom API to assign cases to agents and if a same case is assigned to two agents at the same time, then the system creates two queue items instead of a single queue item. 
+> - If you've created workflows or used custom API to assign cases to agents and if a same case is assigned to two agents at the same time, then the system creates two queue items instead of a single queue item.
+> - When an agent picks a case from a queue created by another agent and releases it, then the case gets assigned to the [queue owner](#create-a-queue-(customer-service-app)) instead of the agent who created it.
 
 ### See also  
 
