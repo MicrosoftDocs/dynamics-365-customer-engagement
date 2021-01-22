@@ -199,7 +199,7 @@ This action is used for cloning an existing record. The action only copies the f
 As an administrator, you can use the actions any number of times across different macros to automate and perform operations related to a session in Omnichannel for Customer Service.
 
 > [!NOTE]
-> Macro actions for the session connector will not be used in Customer Service workspace.
+> Macro actions for the session connector can't be used in Customer Service workspace.
 
    > [!div class=mx-imgBorder] 
    > ![Macro actions for session connector](../customer-service/media/macro-session-connector.png "Macro actions for session connector")
@@ -243,7 +243,7 @@ This action is used to get the details of the current tab in Omnichannel for Cus
 As an administrator, you can use the actions any number of times across different macros to automate and perform operations related to Omnichannel for Customer Service.
 
 > [!NOTE]
-> Macro actions for the Omnichannel connector will not be used in Customer Service workspace.
+> Macro actions for the Omnichannel connector can't be used in Customer Service workspace.
 
    > [!div class=mx-imgBorder] 
    > ![Macro actions for Omnichannel connector](../customer-service/media/macro-omnichannel-connector.png "Macro actions Omnichannel connector")
@@ -284,7 +284,7 @@ This action is used to unlink a record from the conversation when the customer i
 As an administrator, you can use the actions any number of times across different macros to automate and perform operations related to Omnichannel for Customer Service.
 
 > [!NOTE]
-> Macro actions for the flow connector will not be used in Customer Service workspace.
+> Macro actions for the flow connector can't be used in Customer Service workspace.
 
    > [!div class=mx-imgBorder]
    > ![Macro actions for flow connector](../customer-service/media/macro-flow-connector.png "Macro actions for flow connector")
