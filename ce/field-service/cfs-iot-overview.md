@@ -204,7 +204,7 @@ Make Connected Field Service send service information to Azure IoT Central when 
 Note: Alternatively, you can navigate directly to [the Power Automate templates page](https://preview.flow.microsoft.com/templates/) and search "CFS" to find this template, as seen below.
   
 > [!div class="mx-imgBorder"]
-> ![Screenshot of CFS templates in Power Automate](media/iot-central-work-orders-2.png)
+> ![Screenshot of CFS templates in Power Automate, with attention to the sample Contoso flow.](media/iot-central-work-orders-2.png)
 
 5. Sign into Power Automate with your Dynamics 365 organization, along with your associated IoT Central account.
 
