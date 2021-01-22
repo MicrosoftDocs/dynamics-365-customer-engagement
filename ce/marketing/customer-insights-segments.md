@@ -1,7 +1,7 @@
 ---
 title: "Use segments from Dynamics 365 Customer Insights (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to integrate Dynamics 365 Marketing with Dynamics 365 Customer Insights so you can share data and segments between the two systems."
-ms.date: 10/04/2019
+ms.date: 01/21/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -42,7 +42,7 @@ Read this section for an overview of how to work with segments shared between Cu
 
 Customer Insights has its own database for holding contact records and other information, and its own tools for working with that information, including tools for creating segments. That means that Customer Insights requires access to your Marketing database to enable it to work with your marketing contacts. You set this up by adding your Marketing instance as a data source in Customer Insights.
 
-For complete instructions, see [Ingest data from Dynamics 365](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-common-connectors#ingest-data-from-dynamics-365) in the Customer Insights documentation.
+For complete instructions, see [Add a data source](https://docs.microsoft.com/dynamics365/customer-insights/audience-insights/data-sources#add-a-data-source) in the Customer Insights documentation.
 
 ### Export Customer Insights segments to get them into Marketing
 
@@ -54,7 +54,7 @@ See the later sections of this topic for details about how to set this up.
 
 ### Customer Insights segments in Marketing are mirrored and refreshed periodically
 
-By default, Customer Insights segments are automatically re-exported twice a day, but you can increase this frequency by changing your system preferences in Customer Insights. For more information, see the [System](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-settings) topic in the Customer Insights documentation. You can also re-export manually at any time.
+You can configure the frequency of automatic refreshes for Customer Insights segments by changing your system preferences in Customer Insights. For more information, see the [Schedule tab](https://docs.microsoft.com/dynamics365/customer-insights/audience-insights/system#schedule-tab) topic in the Customer Insights documentation. You can also re-export manually at any time.
 
 Each time a segment in Marketing is refreshed by Customer Insights, it completely replaces that segment on the Marketing side. It doesn't do an incremental update, so any customization you have made to the segment using the Marketing tools will be overwritten.
 
@@ -97,7 +97,7 @@ To make your Marketing contacts available in Customer Insights, you must set Cus
 
 ![The Common Data Service connector in Customer Insights](media/ci-data-source-cds.png "The Common Data Service connector in Customer Insights")
 
-For complete instructions, see [Ingest data from Dynamics 365](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-common-connectors#ingest-data-from-dynamics-365) in the Customer Insights documentation.
+For complete instructions, see [Add a data source](https://docs.microsoft.com/dynamics365/customer-insights/audience-insights/data-sources#add-a-data-source) in the Customer Insights documentation.
 
 Once your Marketing instance is connected as a data source, you'll probably also need to _unify_ the data with your Customer Insights customers. For details about this, see the [Unify](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-configure-data) topic in the Customer Insights documentation.
 
@@ -132,7 +132,7 @@ To configure your Dynamics 365 Marketing instance as an export destination in Cu
 
 ## Configure a Customer Insights segment to export to Marketing
 
-Any time you create a new segment for export, or decide you want to start exporting an existing segment, add that segment to the appropriate export destination to make it available in the Marketing Instance it connects to. Once you have enabled export for a segment, it will continue to [refresh periodically](#refresh) (usually twice per day) until you [remove it](#edit-remove) from that export destination.
+Any time you create a new segment for export, or decide you want to start exporting an existing segment, add that segment to the appropriate export destination to make it available in the Marketing Instance it connects to. Once you have enabled export for a segment, it will continue to [refresh periodically](#refresh) until you [remove it](#edit-remove) from that export destination.
 
 To export a new Customer Insights segment to a Marketing instance:
 
@@ -158,7 +158,7 @@ You can edit the list of Customer Insights segments being exported to any destin
 1. Go to **Admin** > **Export destinations**.
 1. Find the destination you want to edit, select the **Actions** button (which looks like three vertical dots) to open the actions menu, and then select **Edit** from the actions menu.
 1. The **Edit destination** dialog opens, showing your destination setup.
-1. Select **Next** to continue to the **Select segments to export** page. All of the segments currently available in Customer Insights are listed here. Select the check box for each segment you'd like to export and clear the check box for each segment you want stop exporting.
+1. Select **Next** to continue to the **Select segments to export** page. All of the segments currently available in Customer Insights are listed here. Select the check box for each segment you'd like to export and clear the check box for each segment you want to stop exporting.
 1. Select **Save** to save your changes.
 
 > [!NOTE]
