@@ -49,7 +49,7 @@ Sign into the Microsoft Dynamics 365 Windows app quickly using your work email a
     > [!div class="mx-imgBorder"] 
     > ![Select sign in](media/wpsignin-1.png "Select sign in").
 
-2. Enter your email address, and then select **Next**. Then enter your password and then select **Sign in**.
+2. Enter your email address, and then select **Continue**. Then enter your password and then select **Sign in**.
     
     > [!div class="mx-imgBorder"] 
     > ![Enter email address](media/enter-email-address-2.png "Enter email address")
