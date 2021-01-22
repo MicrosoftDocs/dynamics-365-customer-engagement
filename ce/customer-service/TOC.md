@@ -152,6 +152,7 @@
 #### [Configure proactive chat](proactive-chat.md)
 #### [Configure reconnection to a previous chat session](configure-reconnect-chat.md)
 #### [Delete a channel instance](delete-channel.md)
+
 ### Agent experience
 #### [Omnichannel for Customer Service for agents](omnichannel-customer-service-app-agent.md)
 #### [Sign into the agent app](oc-sign-in-omnichannel.md)
@@ -175,6 +176,7 @@
 #### [View conversation and session forms](oc-view-activity-types.md)
 #### [View customer summary for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)
 #### [Real-time language translation of conversations](oc-real-time-translation.md)
+
 ### Developer experience
 #### [Customize a chat widget](customize-chat-widget.md)
 #### [Render live chat widget on mobile app](render-live-chat-widget-mobile.md)
@@ -184,6 +186,10 @@
 #### [Live chat widget telemetry](live-chat-telemetry.md)
 #### [Configure relevance search for transcripts](relevance-search-chat-transcript.md)
 #### [Configure link to conversation button](configure-link-to-conversation-model-driven-app-form.md)
+#### [Initiate a chat](initiate-chat-wait-time.md)
+#### [Start chat proactively](start-proactive-chat.md)
+#### [Configure automatic closure of conversations](auto-close-conversation.md)
+
 ### Customizer experience
 #### [Overview](omnichannel-customizer.md)
 #### [Customize customer summary form](customize-customer-summary.md)
@@ -271,17 +277,23 @@
 ### [Integrate a Power Virtual Agents bot](configure-bot-virtual-agent.md)
 
 ## Bots
+
 ### Administrator experience
 #### Configure bots
 ##### [Integrate an Azure bot](configure-bot.md)
 #### [Configure context variables for bots](context-variables-for-bot.md)
+
 ### Developer experience
 #### [Enable bot context NuGet package](enable-bot-context.md)
 #### [Enable a bot to escalate and end conversation](bot-escalate-end-conversation.md)
 #### [Download attachments from Azure bot](download-attachments-bot.md)
+#### [Manage custom context](send-context-starting-chat.md)
+#### [Display custom context](display-custom-context.md)
+#### [Send authenticaion token](send-auth-token-starting-chat.md)
 
 ## Insights
 ### [Introduction to Customer Service Insights](introduction-customer-service-analytics.md)
+
 ### Administrator experience
 #### [Configure Customer Service Insights](configure-customer-service-analytics-insights-csh.md)
 #### [Configure historical analytics](configure-historical-analytics-csh.md)

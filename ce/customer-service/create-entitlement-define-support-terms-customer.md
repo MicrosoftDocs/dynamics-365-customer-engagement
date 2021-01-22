@@ -164,7 +164,7 @@ If the entitlement is no longer valid, you can cancel it. To cancel an active or
   
 ## Renew an entitlement
 
-To renew a canceled or expired entitlement, open the entitlement, and then on the command bar, select **Renew**. A new entitlement will be created and its status is set to "Draft", while the canceled or expired entitlement will remain as is. The start date of the new entitlement will be set to the current date and the end date will be set to the current date plus the number of days between the end date and start date. The data in other fields is copied as is from the old entitlement.
+To renew a canceled or expired entitlement, open the entitlement, and then on the command bar, select **Renew**. A new entitlement will be created, and its status is set to "Draft", while the canceled or expired entitlement will remain as is. The start date of the new entitlement will be set to the current date and the end date will be set to the current date plus the number of days between the end date and start date. The data in other fields is copied as is from the old entitlement.
 
 ### See also  
 
