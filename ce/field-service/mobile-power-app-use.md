@@ -3,7 +3,7 @@ title: "Use the Field Service (Dynamics 365) mobile app | MicrosoftDocs"
 description: Learn how to use the Field Service (Dynamics 365) mobile app.
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 11/17/2020
+ms.date: 01/19/2021
 ms.reviewer: krbjoran
 ms.topic: article
 ms.service: dynamics-365-customerservice
@@ -114,6 +114,30 @@ To sync specific views, select **Refresh** from the app's bottom menu. For examp
 > [!div class="mx-imgBorder"]
 > ![Device render showing Field Service (Dynamics 365), with attention to the refresh option.](./media/mobile-2020-offline-refresh.png)
 
+
+## Create follow-up work orders
+
+While working on site, frontline workers may need to note additional work that needs to be performed at a later time. The Field Service (Dynamics 365) mobile app makes it easy to create follow-up work orders after completing the current work order. This feature prepopulates several columns from the current work order, making it easier for the technician to quickly create the new work order.
+
+To create a follow-up work order, the technician must select the **Follow up** option in the bottom app menu. This option is only available if the booking status is set to **Completed** and the user has **create** permissions for the work order table. For more information on the security roles, see [users and security roles](./view-user-accounts-security-roles.md).
+
+> [!div class="mx-imgBorder"]
+> ![Device render showing the Field Service (Dynamics 365) mobile app, showing the follow up work order option](./media/mobile-2020-follow-up.png)
+
+After selecting **Follow up**, the technician is guided through the new work order creation flow.
+
+The following columns are prepopulated based on the current work order: 
+
+- Address - including msdyn_addressName, msdyn_address1, msdyn_address2, msdyn_address3, msdyn_city, msdyn_country, msdyn_latitude, msdyn_longitude, msdyn_postalCode, msdyn_stateOrProvince
+- Billing Account
+- Service Account
+- Service Territory
+- Exchange Rate
+- Tax Code
+- Taxable
+- Transaction Currency ID
+
+Once the technician saves the work order, it gets uploaded and available to be booked by the dispatcher.
 
 ## Delete data and clear cache from device
 

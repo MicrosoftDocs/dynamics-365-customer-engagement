@@ -3,7 +3,7 @@ title: "Dynamics 365 Field Service version history | MicrosoftDocs"
 description: Version history for Dynamics 365 Field Service
 ms.custom:
   - dyn365-fieldservice
-ms.date: 10/05/2020
+ms.date: 01/20/2021
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.topic: article
@@ -445,7 +445,7 @@ For more information about early access features, visit the [opt-in instructions
 
 | Version | Status | Details |
 | --- | --- | --- |
-| 7.x | Latest available | [Link](https://mbs.microsoft.com/customersource/Global/365Enterprise/downloads/product-releases/365fieldservice7) |
+| 7.x | Latest available. Minimum platform version 9.0 for install. | [Link](https://mbs.microsoft.com/customersource/Global/365Enterprise/downloads/product-releases/365fieldservice7) |
 | 6.x | Not supported | |
 
 ## Important notes
