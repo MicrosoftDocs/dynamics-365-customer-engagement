@@ -43,3 +43,14 @@ Use the information in failed logic apps to diagnose the issue and to provide to
 
 > [!Note]
 > We don't recommend editing the logic apps that are deployed by the solution.
+
+## Why can't I pull device data?
+
+Sometimes after pulling device data, you may see there are no records in a device's data history, or no data in the device reported properties.  
+
+One reason pull device data may fail (especially if you've successfully registered the device) is because the Azure IoT Hub tier is not set to **S1-Standard**. 
+
+Go to the Azure portal, find your IoT Hub resource, then set pricing and scale tier to **S1-Standard**
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the pricing and scale tier settings in IoT Hub](./media/cfs-pricing-tier.png)

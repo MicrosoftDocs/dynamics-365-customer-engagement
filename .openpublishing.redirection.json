@@ -1462,6 +1462,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/field-service/cfs-faq.md",
+      "redirect_url": "cfs-troubleshoot",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/field-service/create-inventory-transfer.md",
       "redirect_url": "inventory-purchasing-returns-overview",
       "redirect_document_id": "false"
