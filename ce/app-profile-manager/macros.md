@@ -198,6 +198,9 @@ This action is used for cloning an existing record. The action only copies the f
 
 As an administrator, you can use the actions any number of times across different macros to automate and perform operations related to a session in Omnichannel for Customer Service.
 
+> [!NOTE]
+> Macro actions for the session connector will not be used in Customer Service workspace.
+
    > [!div class=mx-imgBorder] 
    > ![Macro actions for session connector](../customer-service/media/macro-session-connector.png "Macro actions for session connector")
 
@@ -239,6 +242,9 @@ This action is used to get the details of the current tab in Omnichannel for Cus
 
 As an administrator, you can use the actions any number of times across different macros to automate and perform operations related to Omnichannel for Customer Service.
 
+> [!NOTE]
+> Macro actions for the Omnichannel connector will not be used in Customer Service workspace.
+
    > [!div class=mx-imgBorder] 
    > ![Macro actions for Omnichannel connector](../customer-service/media/macro-omnichannel-connector.png "Macro actions Omnichannel connector")
 
@@ -272,6 +278,39 @@ This action is used to unlink a record from the conversation when the customer i
    | Entity record id| Specify the entity record ID of the entity that you want to unlink. <br>This is a mandatory field.| |
    | Entity primary Name | Specify the primary name of the entity that you want to unlink. <br>This is a mandatory field.| |
    |||
+
+### Flow connector
+
+As an administrator, you can use the actions any number of times across different macros to automate and perform operations related to Omnichannel for Customer Service.
+
+> [!NOTE]
+> Macro actions for the flow connector will not be used in Customer Service workspace.
+
+   > [!div class=mx-imgBorder]
+   > ![Macro actions for flow connector](../customer-service/media/macro-flow-connector.png "Macro actions for flow connector")
+
+#### Run Flow
+
+This action is used to trigger Power Automate flows using macros in agent scripts. This action contains the following fields.
+
+| Field                | Description                             | Parameter  |
+|----------------------|-----------------------------------------|------------|
+| Entity logical name	 | Specify the logical name of the entity that you want to link. This is a mandatory field. Any CDS entity, e.g. Account, can be used based on business needs. | Account   |
+| Entity record id     | Specify the entity record ID of the entity that you want to link. This is a mandatory field. Ids or slugs, e.g. {customerRecordId}, can be used. While this field is labeled as entity record id, any value to be processed can be passed. While the field is required, values do not have to be functional unless required for the flow logic. | {customerRecordId}   |
+| Select flow	         | Specify or select the Power Automate flow to be run by this action. Requires instant cloud flows with *When a record is selected* flow triggers. Existing flows with proper permissions will be detected and displayed in the drop-down list. |    |
+
+#### Power Automate flow permissions
+
+Referenced flows require valid connection and run permissions for the Omnichannel for Customer Service tenant and agents that run the flow from within agent scripts.
+
+   > [!div class=mx-imgBorder] 
+   > ![Flow permissions](../customer-service/media/flow-permissions.png "Flow permissions")
+
+On **Run flow** action execute, flows are run within the embedded flow widget on Omnichannel for Customer Service.
+
+   > [!div class=mx-imgBorder] 
+   > ![Run Flow](../customer-service/media/run-flow.png "Run Flow")
+
 
 ## Built-in
 
@@ -429,4 +468,5 @@ As an administrator, you can view the macro run history, which shows how many ti
 ### See also
 
 [Use automation dictionary to pass data parameters keys](automation-dictionary-keys.md)  
-[Agent scripts](agent-scripts.md)  
+[Agent scripts](agent-scripts.md)
+[Smart Assist](smart-assist.md)
