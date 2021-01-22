@@ -1,8 +1,8 @@
 ---
 title: "Get started with building a simple communication widget with Dynamics 365 Channel Integration Framework version 1.0 | MicrosoftDocs"
 description: "Read how to develop and host a simple communication widget in Microsoft Dynamics 365 Channel Integration Framework version 1.0."
-author: ramana-hyd
-ms.author: v-rmurthy
+author: v-sailab
+ms.author: v-sailab
 manager: shujoshi
 ms.date: 12/31/2019
 ms.topic: reference

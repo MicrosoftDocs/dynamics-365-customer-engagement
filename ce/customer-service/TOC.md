@@ -150,6 +150,7 @@
 #### [Enable download, email of chat transcripts](download-email-chat-transcripts.md)
 #### [Configure agent display name](agent-display-name.md)
 #### [Configure proactive chat](proactive-chat.md)
+#### [Configure persistent chat](persistent-chat.md)
 #### [Configure reconnection to a previous chat session](configure-reconnect-chat.md)
 #### [Delete a channel instance](delete-channel.md)
 
