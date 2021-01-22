@@ -134,23 +134,20 @@ Select the global search icon to search for records across accounts, contacts, w
 
 For more information, see the article on [configuring global search](https://docs.microsoft.com/dynamics365/field-service/mobile-power-app-configure#customize-global-search-and-enable-scan-to-search).
 
-## Update offline data
+## Work offline and update offline data
 
 If you expect to be performing work in areas without internet access, you can download important information to your device to keep working.
 
-The Field Service mobile app runs in **offline by default**. Offline by default is a mode where the app runs offline first and performs consistently with or without internet connectivity. Technicians no longer need to decide to go offline or manually switch between online and offline modes.
-
 Consider a scenario where a technician needs to work in the basement of an industrial complex. They will often have limited or no internet connectivity. Working offline will download their work orders, notes, service tasks, and pictures for use without connectivity; once connectivity is restored, new data is automatically synced back to the server. This process happens without interruption to the technician's experience.
 
-Upon sign-in, the app will download important Field Service information as defined by system administrators. For more information, see the article on [configuring offline sync filters](mobile-power-app-system-offline.md).
+Upon sign-in, the app will download important Field Service information as defined by system administrators. 
 
 > [!div class="mx-imgBorder"]
 > ![Device renders showing the Field Service (Dynamics 365) mobile app, showing the offline status.](./media/mobile-2020-offline-downloading2.png)
 
 When the **Status** is set to **Available**, you'll have all the data you need to work offline.
 
-> [!div class="mx-imgBorder"]
-> ![Device renders showing the Field Service (Dynamics 365) mobile app, showing an option to update offline data.](./media/mobile-2020-offline-refresh2.png)
+
 
 > [!Note]
 > When the technician has internet connectivity, data on the device is automatically refreshed every five minutes.
@@ -171,14 +168,40 @@ To sync specific views, select **Refresh** from the app's bottom menu. For examp
 > [!div class="mx-imgBorder"]
 > ![Device render showing Field Service (Dynamics 365), with attention to the refresh option.](./media/mobile-2020-offline-refresh.png)
 
+System administrators can find more information in the topic on [configuring offline sync filters](mobile-power-app-system-offline.md).
+
 ## Time entry
+
+Time entry capabilities help field service organizations better track the time that technicians spend during work orders and other scenarios. 
+
+Time entries are useful for: 
+
+- reporting 
+- understanding utilization
+- billing and invoicing for service 
+
+Technicians can view and create time entries on the mobile app. 
+
+From the main menu go to Time Entry then create a new one. In the Type field select whether the time entry relates to work, vacation, absence, break, etc.  
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of time entry on the Field Service (Dynamics 365) mobile app.](./media/mobile-2020-time-entry-all.png)
+
+For a guided walkthrough, check out the following video.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4J6mQ]
 
 ## IoT
 
-For organizations using Connected Field Service, technicians can view and interact with IoT data and actions in the Field Service (Dynamics 365) mobile app.
+Technicians can view and interact with IoT data and IoT actions like pulling live device data or registering new devices in the mobile app.
  
 > [!div class="mx-imgBorder"]
 > ![Simulated image showing three phones with Field Service mobile app and IoT device readings.](./media/mobile-2020-cfs.png)
+
+As seen in the image below technicians can also view a chart of live IoT data from an IoT device, customer asset, or IoT alert record. 
+
+> [!div class="mx-imgBorder"]
+> ![Simulated image showing live device readings.](./media/cfs-device-readings-mobile.png)
 
 For more information, see the article on [Connected Field Service for the Field Service (Dynamics 365) mobile app](cfs-mobile-powerapp.md).
 
@@ -186,6 +209,9 @@ For more information, see the article on [Connected Field Service for the Field 
 ## Trigger Remote Assist for remote collaboration
 
 Organizations using Dynamics 365 Remote Assist will see technicians can trigger a deep link from the work order to open the Dynamics 365 Remote Assist mobile app.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of four mobile devices showing Field Service Mobile, and the workflow that brings up the Dynamics 365 Remote Assist launching option.](./media/remote-assist-booking-deeplink.png)
 
 > [!div class="mx-imgBorder"]
 > ![Simulated image showing a phone with Field Service mobile and a menu option to launch Dynamics 365 Remote Assist.](./media/mobile-2020-remote-assist.png)
