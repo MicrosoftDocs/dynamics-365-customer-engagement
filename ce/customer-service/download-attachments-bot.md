@@ -1,8 +1,8 @@
 ---
 title: "Download attachments from your Azure bot| Microsoft Docs"
 description: "Read about the various cards and attachments supported by various channels."
-author: ramana-hyd
-ms.author: v-rmurthy
+author: v-sailab
+ms.author: v-sailab
 manager: shujoshi
 ms.date: 07/21/2020
 ms.topic: reference

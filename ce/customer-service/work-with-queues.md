@@ -4,8 +4,8 @@ description: "Pick an item from a queue in Customer Service Hub to work on it."
 ms.date: 11/02/2020
 ms.service:  dynamics-365-customerservice
 ms.topic: article
-author: ramana-hyd
-ms.author: v-rmurthy
+author: v-sailab
+ms.author: v-sailab
 manager: shujoshi
 ---
 

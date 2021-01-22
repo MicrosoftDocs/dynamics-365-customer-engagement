@@ -1,9 +1,9 @@
 ---
-title: "Configure the schedule board (Dynamics 365 Field Service and Dynamics 365 Project Service Automation) | MicrosoftDocs"
+title: "Use and configure the schedule board in Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn about how to configure the schedule board in Dynamics 365 Field Service
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 07/07/2020
+ms.date: 01/12/2021
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.topic: article
@@ -14,7 +14,7 @@ search.app:
   - D365CE
   - D365FS
 ---
-# Configure the schedule board for resource availability (Field Service)
+# Use and configure the schedule board in Dynamics 365 Field Service
 
 The [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)] schedule board provides an overview of resource availability and bookings you can make.  Before you use the schedule board, it is important to set up the views and filters to your preference.  
   
