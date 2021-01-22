@@ -8,7 +8,7 @@ ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.topic: article
 author: FieldServiceDave
-ms.author: xonatia
+ms.author: xolee
 manager: hegate
 search.app: 
   - D365CE
