@@ -109,7 +109,7 @@ On the **Notes tab**, you can add note text, pictures, and videos, as well as cu
 
 
 > [!div class="mx-imgBorder"]
-> ![](./media/mobile-2020-asset-properties.png)
+> ![](./media/mobile-2020-customer-asset-navigate.png)
 
 
 
