@@ -4,7 +4,7 @@ description: "Learn about macros and how to configure in the Customer Service wo
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/20/2020
+ms.date: 01/22/2021
 ms.service: "dynamics-365-customerservice"
 ms.topic: article
 ---
