@@ -2,7 +2,7 @@
 title: "Micrsoft Dynamics 365 mobile app for Windows (Dynamics 365 apps)| MicrosoftDocs"
 ms.custom: 
 description: How to use the Dynamics 365 mobile app for Windows
-ms.date: 01/29/2021
+ms.date: 02/01/2021
 ms.reviewer: kvivek
 ms.service: crm-online
 ms.suite: 
@@ -30,6 +30,13 @@ search.app:
 Use the Microsoft Dynamics 365 app for Windows to run your customer engagement apps in Dynamics 365 (such as Dynamics 365 Sales, Dynamics 365 Customer Service, and Dynamics 365 Marketing), on your mobile device.  
 
 With early access, you can also use Dynamics 365 app for Windows in offline mode. For more information, see [Set up mobile offline](windows-mobile-app.md#set-up-mobile-offline-for-admins).
+
+## Install Dynamics 365 app for Windows (Preview)
+
+Once you install the app and sign-in, you’ll automatically have access to all the apps you need for your role.
+
+- Install the app from the Windows app store: [Install Dynamics 365 app for Windows (Preview)](ms-windows-store://pdp/?productid=9N0RWZ9KZZT8)
+- For Admin, use Microsoft Store for Business and Education to find, acquire, distribute, and manage apps for your organization or school. Configuration Manager supports managing Microsoft Store for Business apps on both Windows 10 devices with the Configuration Manager client and Windows 10 devices enrolled with Microsoft Intune. For more information: [Manage apps from the Microsoft Store for Business and Education with Configuration Manager](https://docs.microsoft.com/en-us/mem/configmgr/apps/deploy-use/manage-apps-from-the-windows-store-for-business)
    
 ## Sign in
 
