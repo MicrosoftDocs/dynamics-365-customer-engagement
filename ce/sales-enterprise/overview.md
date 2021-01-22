@@ -2,8 +2,7 @@
 title: "Sales Overview (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Get an overview of the sales offerings from Dynamics 365 Sales."
 ms.date: 07/16/2020
-ms.service:
-  - "dynamics-365-sales"
+ms.service: dynamics-365-sales
 ms.topic: get-started-article
 author: shubhadaj
 ms.author: shujoshi
@@ -22,14 +21,33 @@ Welcome to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]!
 
 Here are the flavors [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] is available in: 
 
-- The Sales Hub app is built on the Unified Interface framework. The Unified Interface framework uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation. The Sales Hub app is optimized to work on mobile devices as well as desktops.
+- Sales (Enterprise)
+- Sales premium
+- Sales Professional
 
-- The Sales app is designed for the legacy web client and is the full-featured, desktop-optimized web client app for sales scenarios. 
+### Sales (Enterprise) 
+
+The Sales Hub app is built on the Unified Interface framework. The Unified Interface framework uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation. The Sales Hub app is optimized to work on mobile devices as well as desktops.  
+
+The Sales app is designed for the legacy web client and is the full-featured, desktop-optimized web client app for sales scenarios. 
 
     > [!IMPORTANT]
     > With the April 2019 release, any new subscription to Dynamics 365 Sales will not have the Sales app (web client). The existing organizations where the Sales app was available will show a notification prompting users to update their legacy web client apps to Unified Interface. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Update your apps to Unified Interface](../admin/update-apps-to-unified-interface.md), [Enable Unified Interface Only mode](../admin/enable-unified-interface-only.md)
 
-- The Sales Professional app is similar to the Sales Hub app, but the entities included in the Sales Professional app are a subset of the entities included in the Sales Enterprise. More information: [Overview of Dynamics 365 Sales Professional](../sales-professional/sales-professional-overview.md)
+### Sales premium 
+
+Sales premium continuously analyzes the vast collection of customer-interaction data already stored in your Dynamics 365 Sales and Microsoft 365 databases. This helps you to better understand your business relationships, evaluate your activities in relation to previous successes, and choose the best path forward. Also, it enables you to build strong relationships with customers, take actions based on insights, and close opportunities faster.
+
+Sales premium helps organizations in the following four areas:    
+- **Guided selling**: Guide sellers on their next course of action with timely and actionable insights.
+- **Productivity intelligence**: Free up sellers' time by minimizing manual data entry with contextual, real-time suggestions for updating existing records and creating new records, making sure your data is always up to date.
+- **Connection insights**: Build stronger relationships with customers and move relationships forward with AI-guided selling. Take preemptive steps to mitigate risks with a relationship health score.
+- **Predictive models**: Increase conversion and win rates by using AI to prioritize leads and opportunities with the highest likelihood to convert and buy.
+
+
+### Sales Professional
+
+The Sales Professional app is similar to the Sales Hub app, but the entities included in the Sales Professional app are a subset of the entities included in the Sales Enterprise. More information: [Overview of Dynamics 365 Sales Professional](../sales-professional/sales-professional-overview.md)
 
   > [!NOTE]
   > 
@@ -64,6 +82,13 @@ Here are the flavors [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md
 
 - Use immersive [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] and prebuilt templates to do quick analysis without leaving [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)].
 
+## Integrations
+
+Integrate Dynamics 365 Sales with helps to digitally transformation your business across every industry vertical, companies are rethinking their business processes and entire segments are reorganizing. You can integrate Dynamics 365 Sales with the following solutions: 
+
+- [Integrate LinkedIn Sales Navigator solutions](../linkedin/integrate-sales-navigator.md)    
+- [Microsoft Teams integration](../teams-integration/teams-integration.md)    
+- [Integrate a sample softphone with Dynamics 365 Sales](sample-softphone-integration.md)   
 
 ### See also
 [Learn the basics of Dynamics 365 Sales](user-guide-learn-basics.md)  
