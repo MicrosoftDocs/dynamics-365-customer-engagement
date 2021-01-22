@@ -1,8 +1,8 @@
 ---
 title: "msdyn_occustommessagingchannel Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_occustommessagingchannel entity."
-author: "ramana-hyd"
-ms.author: "v-rmurthy"
+author: "v-sailab"
+ms.author: "v-sailab"
 manager: "shujoshi"
 ms.date: 09/14/2020
 ms.topic: "reference"

@@ -1,8 +1,8 @@
 ---
 title: "Download Omnichannel for Customer Service transcripts in bulk | Microsoft Docs"
 description: "Read how you can send display custom context on the UI"
-author: ramana-hyd
-ms.author: v-rmurthy
+author: v-sailab
+ms.author: v-sailab
 manager: shujoshi
 ms.date: 08/20/2020
 ms.topic: reference
