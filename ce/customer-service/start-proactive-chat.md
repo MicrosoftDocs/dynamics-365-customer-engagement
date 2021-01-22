@@ -1,8 +1,8 @@
 ---
 title: "Start chat proactively | Microsoft Docs"
 description: "Read how you can start chat proactively to see if customers need help and thereby improve customer experience"
-author: ramana-hyd
-ms.author: v-rmurthy
+author: v-sailab
+ms.author: v-sailab
 manager: shujoshi
 ms.date: 04/06/2020
 ms.topic: reference

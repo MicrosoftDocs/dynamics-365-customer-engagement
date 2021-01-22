@@ -171,33 +171,35 @@
 
 # Connected Field Service (IoT)
 ## [Overview](connected-field-service.md)
+
 ## Administration
 ### [Architecture](developer/connected-field-service-architecture.md)
 ### [Security roles for Connected Field Service](cfs-security-roles.md)
 ### [Authorize API app connection](cfs-authorize-api-connection.md)
+### [Device categories](cfs-device-categories.md)
+
 ## Connect your IoT data
-### [Azure IoT Central](cfs-iot-overview.md)
-#### [Prerequisites](cfs-iot-central-setup.md)
 ### [Azure IoT Hub](developer/connected-field-service-developer-guide.md)
 #### [Prerequisites for Azure subscription](cfs-azure-subscription.md)
-#### [Installation and setup](installation-setup-iothub.md)
+#### [Installation](installation-setup-iothub.md)
 #### [Register IoT devices](cfs-register-devices.md)
 #### [Quickstart: Build your own IoT solution](connected-field-service-overview.md)
+### [Azure IoT Central](cfs-iot-overview.md)
 ### [Use custom IoT providers](cfs-custom-iot-provider.md)
+
 ## Analyze
-### [Receive IoT alerts from Azure IoT Central](cfs-iot-central-alerts.md)
-### [Associate devices with customer accounts](cfs-iot-central-associate-devices.md)
-### [Visualizing device readings](cfs-visualizations-iot-hub.md)
-### [AI for IoT alerts](iot-alerts-ai-based-suggestions.md)
 ### [Pull device data](cfs-pull-device-data.md)
+### [Visualizing device readings](cfs-visualizations-iot-hub.md)
+### [Reports](cfs-powerbi.md)
+### [AI for IoT alerts](iot-alerts-ai-based-suggestions.md)
+
 ## Take action
 ### [Connected Field Service on mobile](cfs-mobile-powerapp.md)
-### [Send work order updates to Azure IoT Central](cfs-iot-central-work-orders.md)
-### [Send booking updates to Azure IoT Central](cfs-iot-central-bookings.md)
+### [Send commands](cfs-commands.md)
 ### [Receive IoT alerts from real MXChip device](cfs-iotcentral-mxchip.md)
 ### [IoT - Parent IoT Alerts workflow](developer/iot-parent-iot-alerts-workflow.md)
 ### [Extend standard components or add Azure services](developer/extend-connected-field-service-solutions.md)
-## [FAQs](cfs-faq.md)
+## [Troubleshoot + FAQs](cfs-troubleshoot.md) 
 
 # Integrations
 ## [Dynamics 365 Supply Chain Management](supply-chain-field-service-integration.md)

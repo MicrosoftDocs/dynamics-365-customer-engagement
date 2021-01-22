@@ -1,8 +1,8 @@
 ---
 title: "lcw threadUpdate | MicrosoftDocs"
 description: 
-author: ramana-hyd
-ms.author: v-rmurthy
+author: v-sailab
+ms.author: v-sailab
 manager: shujoshi
 ms.date: 07/16/2020
 ms.topic: article
