@@ -52,7 +52,7 @@ If you create or edit an entity record workstream, you must update **Entity rec
 | \<Entity Record\> | Select to view the components under the Entity record. |
 | Work Stream Initialization - \<Entity Record\> | Do not modify. |
 | Entity record - \<Entity Record\> | Do not modify. |
-| Work Stream Selection for Routing (\<Entity Record\> ) | Update the condition and workstreams Id. |
+| Work Stream Selection for Routing (\<Entity Record\> ) | Update the condition and work streams ID. |
 | Invoke Omnichannel | Do not modify. |
 
 > [!Warning]
@@ -93,7 +93,7 @@ If you create or edit an entity record workstream, you must update **Entity rec
 
     ![Resolve flow warning](media/flow-error1.png "Resolve flow warning")
 
-#### Update the workstream Id
+#### Update the work stream ID
 
 10. Select the **Omnichannel Work Distribution** section. 
 
