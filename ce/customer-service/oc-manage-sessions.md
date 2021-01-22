@@ -68,7 +68,7 @@ If your organization has chosen persistent chat as the mode of conversation, you
 
 - You shouldn't end the conversation; instead, you should close the conversation so that it is moved into a waiting state, which is typically 28 days or the value that is configured in the work stream.
 
-- You must confirm with the customer that their issues is resolved and then end the session by selecting **End**. After you the chat, the chat history will not be shown when the customer comes back. A fresh chat session will be initiated.
+- You must confirm with the customer that their issue is resolved and then end the session by selecting **End**. After you the chat, the chat history will not be shown when the customer comes back. A fresh chat session will be initiated.
 
 
 ## Close a session
