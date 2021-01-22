@@ -39,7 +39,9 @@ For a guided walkthrough, see the following video.
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ynS4]
 
 ## Tutorial - Get integration scenarios ready in minutes
-Connect Azure IoT Central to Connected Field Service using Power Automate in just a matter of minutes with these tutorials. Be sure to [check out the prerequisites](cfs-iot-central-setup.md) before getting started. 
+
+Connect Azure IoT Central to Connected Field Service using Power Automate in just a matter of minutes with these tutorials. Be sure to [check out the prerequisites](cfs-iot-central-setup.md) before getting started.
+
 1. [Receive Azure IoT alerts from Azure IoT Central](cfs-iot-central-alerts.md)
 2. [Associate devices with customer accounts](cfs-iot-central-associate-devices.md)
 3. [Send work order updates to Azure IoT Central](cfs-iot-central-work-orders.md)
@@ -122,14 +124,14 @@ From here, the workflow will trigger based on the alert type. While you may have
 
 - If alert type is set to Printer offline or Paper jam, the workflow will create a case
 
-- If alert type is Cash box almost full, the workflow will create a new work order in Field Service to issue IoT-predictive maintenance, as well as a new booking in the bookable resource bookings.
+- If alert type is Cash box almost full, the workflow will create a new work order in Field Service to issue IoT-predictive maintenance, and a new booking in the bookable resource bookings.
 
 ### See the results
 
 Once you've saved your flow, sign in to Dynamics 365 Field Service, and select Connected Field Service. You may see a window that offers a few links to learn more about Connected Field Service and Azure IoT offerings. You can choose to learn more, or just dismiss this window. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the IoT alerts in Connected Field Service](media/iot-central-alerts-14.png)
+> ![Screenshot of "Welcome to Connected Field Service" window.](media/iot-central-alerts-14.png)
 
 In Connected Field Service, you should now see incoming alerts from Azure IoT Central on the dashboard. You can select one of these alerts to see more details, including device information, threshold, and the violated rules. You can also select the IoT Central alert URL that will take you back to IoT Central.
 
@@ -227,9 +229,9 @@ Note: Alternatively, you can navigate directly to [the Power Automate templates 
 > ![Screenshot of the Flow template, with letters as reference points to correspond to the instructions](media/iot-central-work-orders-5.png)
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Flow template, with letters as reference points to correspond to the instructions](media/iot-central-work-orders-6.png)
+> ![Screenshot of the Flow template, with letters as reference points to correspond to the instructions, showing additional steps](media/iot-central-work-orders-6.png)
 
-1. Save the Flow to make it run.
+1. Save the flow to make it run.
 
 
 ### See the results
@@ -264,10 +266,10 @@ Make Connected Field Service send booking updates to Azure IoT Central when a re
     b. Add your IoT Central application name in the field for **Application**.
     
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Power Automate template, with letters for reference to correspond with the instructions](media/iot-central-bookings-2.png)
+> ![Screenshot of the Power Automate template, with letters for reference to correspond with the instructions.](media/iot-central-bookings-2.png)
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Power Automate template, with letters for reference to correspond with the instructions](media/iot-central-bookings-3.png)
+> ![Screenshot of the Power Automate template, with letters for reference to correspond with the instructions, showing additional steps.](media/iot-central-bookings-3.png)
 
 4. Save the flow.
 
