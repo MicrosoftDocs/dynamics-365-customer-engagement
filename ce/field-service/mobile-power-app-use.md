@@ -150,7 +150,7 @@ Upon sign-in, the app will download important Field Service information as defin
 When the **Status** is set to **Available**, you'll have all the data you need to work offline.
 
 > [!div class="mx-imgBorder"]
-> ![Device renders showing the Field Service (Dynamics 365) mobile app, showing an option to update offline data.](./media/mobile-2020-offline-complete.png)
+> ![Device renders showing the Field Service (Dynamics 365) mobile app, showing an option to update offline data.](./media/mobile-2020-offline-refresh2.png)
 
 > [!Note]
 > When the technician has internet connectivity, data on the device is automatically refreshed every five minutes.
