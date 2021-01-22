@@ -19,7 +19,7 @@ ms.service: dynamics-365-customerservice
 
 3. Select **New**. The **New Chat Widget** page is displayed.
 
-4. On the **General settings** tab, specify the information for the following fields. Enter the settings in the fields depending on the type of chat you want to configure.
+4. On the **General settings** tab, specify the information for the following fields. The **Customer waiting** and **Chat Reconnect** options are available only for Live chat. Enter the settings in the fields depending on the type of chat you want to configure.
 
     | Section | Field | Description | Example value |
     |---------------|------------------------|-----------------------------------|---------------------|

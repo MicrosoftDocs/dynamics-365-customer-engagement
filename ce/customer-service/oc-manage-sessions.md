@@ -63,17 +63,13 @@ When you switch sessions, unsaved changes are not lost and you can continue to w
 For example, you are working on a case by entering the title of the case and not yet saved the form. Now, you get a notification about the incoming conversation and you accept the request, which leads to starting of a new session. Again, you can switch back to case session and the data entered is present for you to continue.
 
 ## Persistent chat for agents
-<!-- Neeraja: Write as follows: "If your..., you should make sure of the following:" -->
 
-If your organization has chosen persistent chat as the mode of conversation, you should train your agents on the following aspects: 
+If your organization has chosen persistent chat as the mode of conversation, you should make sure of the following: 
 
-<!-- Neeraja: We had discussed that the following points should be in first person narrative, can you please change them as "You shouldn't end the conversation..." -->
-- Agents should not end the conversation; instead, they should close the conversation so that it is moved into a waiting state, which is typically 28 days or the value that is configured in the work stream.
+- You shouldn't end the conversation; instead, you should close the conversation so that it is moved into a waiting state, which is typically 28 days or the value that is configured in the work stream.
 
-- Agents need to confirm if the customer's issues is resolved and then end the session by selecting **End**. After the agent ends the chat, the chat history will not be shown when the customer comes back. A fresh chat session will be initiated.
+- You must confirm with the customer that their issues is resolved and then end the session by selecting **End**. After you the chat, the chat history will not be shown when the customer comes back. A fresh chat session will be initiated.
 
-<!-- Neeraja: The formatting for "Note" is incorrect. The information in the note pertains to only the second point and contains redundant text. Therefore, remove the note and combine the information with the preceding point as "You must confirm with the customers that their issue is resolved, and then..."-->
-**Note**: Agents should be trained to verify with customers that issues are resolved before taking this step.
 
 ## Close a session
 
