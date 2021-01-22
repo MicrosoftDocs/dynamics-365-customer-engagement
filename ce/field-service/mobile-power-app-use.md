@@ -84,6 +84,11 @@ Select a booking to see more details about the booking time and the work order. 
 > [!div class="mx-imgBorder"]
 > ![Simulated image showing two mobile devices side by side, both with screenshots of Field Service (Dynamics 365). Screenshot on the left shows a bookable resource booking on the general tab. Screenshot on the right shows a map.](./media/mobile-2020-work-order-navigate-directions-map.jpg)
 
+The functional location field above the address tells the technician exactly where to go within an address. 
+
+> [!div class="mx-imgBorder"]
+> ![Device render with the Field Service mobile app, showing a booking and a location on a map.](./media/mobile-2020-functional-location-work-order.png)
+
 
 ## Perform and record work
 
@@ -102,10 +107,11 @@ On the **Notes tab**, you can add note text, pictures, and videos, as well as cu
 
 ## Service assets
 
-Technicians can see the functional location of a work order on the Dynamics 365 Field Service mobile app.
 
 > [!div class="mx-imgBorder"]
-> ![Device render with the Field Service mobile app, showing a booking and a location on a map.](./media/mobile-2020-functional-location-work-order.png)
+> ![](./media/mobile-2020-asset-properties.png)
+
+
 
 Technicians can also view and interact with functional location and customer asset hierarchies on the mobile app.
 
