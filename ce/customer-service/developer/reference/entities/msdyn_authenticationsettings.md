@@ -1,8 +1,8 @@
 ---
 title: "msdyn_authenticationsettings Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_authenticationsettings entity."
-author: "ramana-hyd"
-ms.author: "v-rmurthy"
+author: "v-sailab"
+ms.author: "v-sailab"
 manager: "shujoshi"
 ms.date: 08/31/2020
 ms.topic: "reference"

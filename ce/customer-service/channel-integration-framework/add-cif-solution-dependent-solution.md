@@ -1,8 +1,8 @@
 ---
 title: "Add a Dynamics 365 Channel Integration Framework (CIF) solution version 1.0 as a dependent solution| Microsoft Docs"
 description: "Read how you can add a Dynamics 365 Channel Integration Framework (CIF) solution version 1.0 as a dependent solution and use the solution's capabilities in your own solution."
-author: ramana-hyd
-ms.author: v-rmurthy
+author: v-sailab
+ms.author: v-sailab
 manager: shujoshi
 ms.date: 12/31/2019
 ms.topic: get-started-article
