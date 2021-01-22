@@ -31,8 +31,8 @@ The Sales Hub app is built on the Unified Interface framework. The Unified Inter
 
 The Sales app is designed for the legacy web client and is the full-featured, desktop-optimized web client app for sales scenarios. 
 
-    > [!IMPORTANT]
-    > With the April 2019 release, any new subscription to Dynamics 365 Sales will not have the Sales app (web client). The existing organizations where the Sales app was available will show a notification prompting users to update their legacy web client apps to Unified Interface. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Update your apps to Unified Interface](../admin/update-apps-to-unified-interface.md), [Enable Unified Interface Only mode](../admin/enable-unified-interface-only.md)
+> [!IMPORTANT]
+> With the April 2019 release, any new subscription to Dynamics 365 Sales will not have the Sales app (web client). The existing organizations where the Sales app was available will show a notification prompting users to update their legacy web client apps to Unified Interface. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Update your apps to Unified Interface](../admin/update-apps-to-unified-interface.md), [Enable Unified Interface Only mode](../admin/enable-unified-interface-only.md)
 
 ### Sales premium 
 
