@@ -135,7 +135,7 @@
 #### [Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)
 #### [Search for knowledge articles](search-knowledge-articles-csh.md)
 #### [Search for knowledge articles on smart assist](oc-search-knowledge-articles.md)
-#### [Create knowledge article templates in Power Apps](/power-platform/admin/create-templates-articles.md)
+#### [Create knowledge article templates in Power Apps](/power-platform/admin/create-templates-articles)
 #### [Create knowledge article templates in Customer Service](create-templates-knowledge-article.md)
 #### [Configure knowledge management](set-up-knowledge-management-embedded-knowledge-search.md)
 #### [Create and manage knowledge categories](create-manage-categories.md)
