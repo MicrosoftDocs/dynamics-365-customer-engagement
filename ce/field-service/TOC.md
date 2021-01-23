@@ -100,11 +100,13 @@
 ## [Barcode scanning and global search](mobile-power-app-system-barcode-scanning.md)
 ## [Push notifications](mobile-power-app-push-notifications.md)
 ## [Location tracking, sharing, and auditing](mobile-powerapp-location-auditing.md)
+## [Geofencing](mobile-powerapp-geofence.md)
 ## [Technician service reports](mobile-powerapp-reporting.md)
 ## [Workflows and scripts](mobile-power-app-workflows.md)
 ## [Intune mobile app management](mobile-power-app-intune.md)
 ## [Use Microsoft Power Platform](mobile-power-utilize-platform.md)
 ## [FAQs](mobile-power-app-faq.md)
+
 ## Field Service Mobile (Xamarin app)
 ### [Overview](field-service-mobile-overview.md)
 ### [Install and Setup](field-service-mobile-app-user-guide.md)
