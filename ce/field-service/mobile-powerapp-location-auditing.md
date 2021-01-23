@@ -23,10 +23,8 @@ search.app:
 
 Field technicians often travel to various locations throughout their work day, and it's helpful for schedulers to know where technicians are at any given time.
 
-
-
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-2020-location-auditing-schedule-board.png)
+> ![Screenshot of the schedule board in Field Service, showing a resource on the map.](./media/mobile-2020-location-auditing-schedule-board.png)
 
 Technicians using the Field Service (Dynamics 365) mobile app can enable location sharing from the app, allowing schedulers to visualize their location on the schedule board, and also audit a list showing a technician's location history.
 
@@ -38,8 +36,8 @@ For a guided walkthrough, check out the following video.
 
 ## Prerequisites
 
-- Administrator access to Dynamics 365 Field Service
-- Field Service mobile app
+- Administrator access to Dynamics 365 Field Service.
+- Field Service mobile app.
 
 ## Step 1. Enable location tracking
 
@@ -47,7 +45,7 @@ First, we need to make sure location tracking is enabled in Field Service. These
 
 In Field Service, go to **Geolocation Settings**.
 
-1. Set **Enable Location Tracking**  to **Yes**.
+1. Set **Enable Location Tracking**  to *Yes*.
 2. Enter a **Refresh Interval (seconds)** - indicates how frequently the system checks the user’s location; however, it doesn’t indicate that “Geolocation Tracking” records will be created. 60 to 300 seconds is recommended based on your business needs.
 3. Configure tracking times to meet your business needs. In the screenshot example, we have it configured so that tracking happens 24 hours a day, every day.
 
