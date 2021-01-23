@@ -18,7 +18,6 @@
 #### [Customize the Opportunity Close form](customize-opportunity-close-experience.md)
 #### [Define lead qualification experience](define-lead-qualification-experience.md)
 #### [Allow adding products without associated price list](make-price-list-optional.md)
-#### [Enable the enhanced experience of adding products](enable-enhanced-add-product-experience.md)
 #### [Enable or disable saving of business card image](retain-business-card-image-after-scanning.md)
 #### [Customize the business card scanner control](customize-business-card-scan-control.md)
 #### [Add the Kanban control to Opportunity or Activity entities](add-kanban-control.md)
@@ -44,6 +43,8 @@
 #### [Delete a family, product, or bundle](../sales-enterprise/delete-family-product-bundle.md)
 #### [See relationships in a hierarchical view](../basics/hierarchical-relationship.md)
 #### [Add editable products grid on forms](../sales-enterprise/editable-product-grid-forms.md) 
+#### [Enable the enhanced experience of adding products](enable-enhanced-add-product-experience.md)
+#### [Customize the Add Products dialog box](customize-add-products-dialog-box.md)
 
 ### Goal management
 #### [Goal settings](../admin/system-settings-dialog-box-goals-tab.md)
@@ -129,6 +130,8 @@
 #### [Create or edit orders](../sales-enterprise/create-edit-order-sales.md)
 #### [Create or edit invoices](../sales-enterprise/create-edit-invoice-sales.md)
 #### [Add products to quotes, orders, or invoices](../sales-enterprise/add-product-quote-order-invoice.md)
+#### [Add products to a quote, order, or invoice by using the enhanced experience](add-products-qoi-enhanced.md)
+
 
 ### Sales forecasting
 #### [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)  
@@ -166,6 +169,7 @@
 ### [Troubleshooting forecasts](ts-forecasts.md)
 ### [Troubleshooting the Unified Interface](ts-unified-interface.md)
 ### [Troubleshooting the sales pipeline chart](ts-sales-pipeline.md)
+### [Troubleshooting email](ts-email.md)
 ### [FAQs](faqs-sales.md)
 
 ## Integrations
@@ -320,6 +324,7 @@
 #### [Use the Dynamics 365 Sales mobile app](sales-mobile/use-sales-mobile-app.md)
 #### [Learn the basics](sales-mobile/learn-basics-mobile-app.md)
 #### [View meetings](sales-mobile/view-agenda.md)
+#### [Search records](sales-mobile/search-records.md)
 #### [Manage records](sales-mobile/open-record.md)
 #### [Manage contacts](sales-mobile/create-contact.md)
 #### [Manage notes](sales-mobile/view-edit-add-note.md)
