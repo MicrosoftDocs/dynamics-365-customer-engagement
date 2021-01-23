@@ -48,7 +48,7 @@ First, we need to make sure location tracking is enabled in Field Service. These
 In Field Service, go to **Geolocation Settings**.
 
 1. Set **Enable Location Tracking**  to **Yes**.
-2. Enter a **Refresh Interval (seconds)** - indicates how frequently the system checks the user’s location, however it doesn’t indicate that “Geolocation Tracking” records will be created. 60 to 300 seconds is recommended based on your business needs.
+2. Enter a **Refresh Interval (seconds)** - indicates how frequently the system checks the user’s location; however, it doesn’t indicate that “Geolocation Tracking” records will be created. 60 to 300 seconds is recommended based on your business needs.
 3. Configure tracking times to meet your business needs. In the screenshot example, we have it configured so that tracking happens 24 hours a day, every day.
 
 > [!div class="mx-imgBorder"]
@@ -56,22 +56,19 @@ In Field Service, go to **Geolocation Settings**.
 
 ### Location tracking events
 
-The Geolocation Tracking records will be created in the following scenarios:
+The geolocation tracking records will be created in the following scenarios:
 
-1.	**On log in** - When a user logs in to the Field Service mobile app, geolocation tracking records are created as the system figures out where the user is, and then it stops when the user stops moving. 
-2.	**On move** - If the user moves away from his or her location more than 800 meters, it will create tracking records every 60 seconds (or your custom refresh internal) until he or she stops moving.
-3.	**On stop after moving** - When the user comes in a still position after moving, it will create a few more tracking records as it settles and then it stops, before creating new records when location changes again.
+1. **On sign-in** - When a user signs in to the Field Service mobile app, geolocation tracking records are created as the system figures out where the user is, and then it stops when the user stops moving. 
+2. **On move** - If the user moves away from their location more than 800 meters, it will create tracking records every 60 seconds (or your custom refresh interval) until they stop moving.
+3. **On stop after moving** - When the user comes to a still position after moving, it will create a few more tracking records as it settles and then it stops, before creating new records when location changes again.
 
-
-The above events only apply within the tracking start and end times and the location checking frequency is per the “Refresh Interval”.
-
-
+The above events only apply within the tracking start and end times and the location checking frequency is per the “Refresh Interval.”
 
 ## Step 2. Allow Field Service mobile to access your location
 
 After enabling location tracking on the scheduler's side, make sure it's enabled and working on the mobile device side.
 
-On a mobile device, sign into the Dynamics 365 Field Service mobile app. When prompted, allow the Field Service app to access your location while using the app. You may need to launch and sign into the app again to be prompted for location. Ensure Location is toggled to Yes in Settings in the mobile app.
+On a mobile device, sign into the Dynamics 365 Field Service mobile app. When prompted, allow the Field Service app to access your location while using the app. You may need to launch and sign into the app again to be prompted for location. Ensure Location is toggled to *Yes* in the mobile app settings.
 
 > [!div class="mx-imgBorder"]
 > ![Simulated device showing Field Service mobile app, with the "Allow Field Service to use your location" prompt.](./media/mobile-2020-location-auditing-enable.png)
@@ -81,11 +78,11 @@ On a mobile device, sign into the Dynamics 365 Field Service mobile app. When pr
 Back in Dynamics 365 Field Service, the bookable resource's current location appears on the schedule board map. Select the map pin icon next to the bookable resource's name, and the map will display the location with a Truck icon instead of a pin icon.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-2020-location-auditing-schedule-board.png)
+> ![Screenshot of the schedule board in Field Service.](./media/mobile-2020-location-auditing-schedule-board.png)
 
 ## Step 4. Location audit records
 
-By using the **Geolocation Tracking** entity and advanced find in Field Service, you can query to run audits on technician locations.
+By using the **Geolocation Tracking** record type and advanced find in Field Service, you can query to run audits on technician locations.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of advanced find in Field Service](./media/mobile-location-geolocation-tracking-entity-advance-find.png)
@@ -96,7 +93,7 @@ Here you see a list of locations throughout the day, listed by user.
 > ![Screenshot of advanced find in Field Service, showing a location audit for one user.](./media/mobile-location-geolocation-tracking-results.png)
 
 > [!Note]
-> If you want to correlate technician location with other Field Service entity updates, such as booking resource bookings, see this [auditing overview](https://docs.microsoft.com/power-platform/admin/audit-data-user-activity) to find instructions.  
+> If you want to correlate technician location with other Field Service record type updates, such as booking resource bookings, go to this [auditing overview](https://docs.microsoft.com/power-platform/admin/audit-data-user-activity).  
 
 ## Additional notes
 
