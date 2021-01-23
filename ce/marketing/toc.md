@@ -7,7 +7,7 @@
 ## Installation and environment management
 ### [Sign up for a free trial](trial-signup.md)
 ### [Purchase and set up Dynamics 365 Marketing](purchase-setup.md)
-### [Integrate Marketing with a CMS system or Dynamics 365 Portal](portal-optional.md)
+### [Integrate Marketing with a CMS system or Power Apps portal](portal-optional.md)
 ### [Open the Power Platform admin center](power-platform-admin-center.md)
 ### [Re-run the Marketing setup wizard](re-run-setup.md)
 ### [Manage Marketing environments](manage-marketing-environments.md)
@@ -243,7 +243,7 @@
 #### Self-hosted
 ##### [Overview](developer/self-hosted.md)
 ##### [Host your custom event website on Azure](developer/host-custom-event-website-on-azure.md)
-#### Dynamics 365 Portal hosted
+#### Power Apps portal hosted
 ##### [Overview](developer/portal-hosted.md)
 ##### [Manually overwriting sample website](developer/manually-overwriting-sample-website.md)
 #### Events API

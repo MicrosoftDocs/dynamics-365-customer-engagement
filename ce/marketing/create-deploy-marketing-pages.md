@@ -25,7 +25,7 @@ A marketing page is a webpage that includes a form where people can register for
 Marketing pages integrate with&mdash;and provide expanded functionality for&mdash;many other Dynamics 365 Marketing features, including email marketing, customer journeys, behavior analysis, lead scoring, and result analytics.
 
 > [!IMPORTANT]
-> The marketing-page feature described in this topic requires that you have a Dynamics 365 Portal associated with your Dynamics 365 Marketing instance. If your admin chose to install Marketing without a portal, then the features described in this topic won't be available to you. If you attempt to go live with a marketing page without having a portal available, you'll be alerted to the issue and offered a chance to install a portal if you like (admin privileges required). For details about how to create landing pages without using a portal (or in addition to the portal), see [Integrate with landing pages on external websites](embed-forms.md).
+> The marketing-page feature described in this topic requires that you have a Power Apps portal associated with your Dynamics 365 Marketing instance. If your admin chose to install Marketing without a portal, then the features described in this topic won't be available to you. If you attempt to go live with a marketing page without having a portal available, you'll be alerted to the issue and offered a chance to install a portal if you like (admin privileges required). For details about how to create landing pages without using a portal (or in addition to the portal), see [Integrate with landing pages on external websites](embed-forms.md).
 > 
 > Note, however, that a simple default subscription center *is* available even if you don't have a portal. This page is hosted by your Dynamics 365 Marketing server and can be customized using the features described in this topic. More information: [The default subscription center](set-up-subscription-center.md#default-center).
 
@@ -41,7 +41,7 @@ The overall process of creating a new marketing page and making it available on 
 
 4. When you are satisfied with the design, check it for required content and technical errors by selecting **Check for Errors** in the command bar. If a problem is found, read the description, address the issue, and try again until the page passes the error check.
 
-5. Select **Save** in the command bar. Your page is now verified and saved in your system, but is still not available on the web. Select **Go Live** to publish it to your Dynamics 365 Portal, where it will be made available at a public URL. You are now ready to start promoting it by including links to it in your marketing email messages, banners, social-media posts, and other marketing initiatives.
+5. Select **Save** in the command bar. Your page is now verified and saved in your system, but is still not available on the web. Select **Go Live** to publish it to your Power Apps portal, where it will be made available at a public URL. You are now ready to start promoting it by including links to it in your marketing email messages, banners, social-media posts, and other marketing initiatives.
 
 More information: [Design your digital content](design-digital-content.md)
 
@@ -78,7 +78,7 @@ Every time you create a new marketing page, you must fill out the required field
 
 - **Name**: Enter a name for the page that you can easily recognize later. This name is internal-only.
 - **Type**: Choose the [type of page](#page-types) you are making. Each type has different requirements and options.
-- **Partial URL**: When you publish the page, this value becomes part of its URL. The page will be published on your Dynamics 365 Portal, so the final URL for the page will have the form: **https://*&lt;YourOrg&gt;*.microsoftcrmportals.com/*&lt;PartialURL&gt;***. Enter a suitable partial URL (note that contacts might notice this text when they load your page).
+- **Partial URL**: When you publish the page, this value becomes part of its URL. The page will be published on your Power Apps portal, so the final URL for the page will have the form: **https://*&lt;YourOrg&gt;*.microsoftcrmportals.com/*&lt;PartialURL&gt;***. Enter a suitable partial URL (note that contacts might notice this text when they load your page).
 
 (These settings are also available on the **Summary** tab.)
 
