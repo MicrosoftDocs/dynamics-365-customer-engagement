@@ -71,7 +71,7 @@ You can use portal features in parallel with website/CMS features provided you h
 > 1. Navigate to the [Power Apps portals admin center](https://docs.microsoft.com/powerapps/maker/portals/admin/admin-overview).
 > 2. Go to the [Portal Details](https://docs.microsoft.com/powerapps/maker/portals/admin/admin-overview#add-yourself-as-an-owner-of-the-azure-ad-application) section and check if the portals license is in an expired state.
 >
-> If the portals integration is expired, you will need to [purchase a paid license](https://docs.microsoft.com/powerapps/maker/portals/admin/admin-overview#add-yourself-as-an-owner-of-the-azure-ad-application). You will then need to [reset the portals integration](uninstall-marketing.md#reset-any-dynamics-365-portals-connected-to-the-uninstalled-marketing-app) on the Marketing instance and re-provision.
+> If the portals integration is expired, you will need to [purchase a paid license](https://docs.microsoft.com/powerapps/maker/portals/admin/admin-overview#add-yourself-as-an-owner-of-the-azure-ad-application). You will then need to [reset the portals integration](uninstall-marketing.md#reset-any-power-apps-portals-connected-to-the-uninstalled-marketing-app) on the Marketing instance and re-provision.
 
 ## Remove portal integration from an existing Marketing instance
 

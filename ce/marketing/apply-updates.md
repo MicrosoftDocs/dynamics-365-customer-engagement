@@ -80,7 +80,8 @@ To find and apply available updates to all core Marketing solutions, including t
 
 1. The Marketing setup wizard opens. It shows the name of the Dynamics 365 Marketing instance you are about to update. Make sure you have chosen the right one. Look at the top of the page to see if any updates are available. If no message is shown, no updates are available for the current organization and you can quit the wizard.
 
-    ![Setup wizard running on an existing Marketing instance](media/fre-re-run2.png "Setup wizard running on an existing Marketing instance")
+    > [!div class="mx-imgBorder"]
+    > ![Setup wizard running on an existing Marketing instance](media/fre-re-run3.png)
 
 1. If an **Install** button is shown next to the **Update available** message, select it to start the update. The update starts right away, and a page opens to track the progress of the update and will tell you when it's finished.
 
