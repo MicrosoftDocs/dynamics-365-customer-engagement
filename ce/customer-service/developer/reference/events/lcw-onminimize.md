@@ -1,6 +1,6 @@
 ---
 title: "lcw onMinimize | MicrosoftDocs"
-description: 
+description: lcw onMinimize (Omnichannel for Customer Service JavaScript API reference)
 author: platkat
 ms.author: ktaylor
 manager: shujoshi
