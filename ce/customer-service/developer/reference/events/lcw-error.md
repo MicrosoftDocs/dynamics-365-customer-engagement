@@ -1,6 +1,6 @@
 ---
 title: "lcw error | MicrosoftDocs"
-description: 
+description: lcw error (Omnichannel for Customer Service JavaScript API reference)
 author: v-sailab
 ms.author: v-sailab
 manager: shujoshi
