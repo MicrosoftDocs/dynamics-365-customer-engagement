@@ -306,7 +306,7 @@ Referenced flows require valid connection and run permissions for the Omnichanne
    > [!div class=mx-imgBorder] 
    > ![Flow permissions](../customer-service/media/flow-permissions.png "Flow permissions")
 
-On **Run flow** action execute, flows are run within the embedded flow widget on Omnichannel for Customer Service.
+When you run the **Run flow** action, flows are run within the embedded flow widget on Omnichannel for Customer Service.
 
    > [!div class=mx-imgBorder] 
    > ![Run Flow](../customer-service/media/run-flow.png "Run Flow")
@@ -314,14 +314,14 @@ On **Run flow** action execute, flows are run within the embedded flow widget on
 
 ## Built-in
 
-The Built-in control allows you to execute a macro action step based on the conditions. The **Built-in** category connector has a **Condition** action.
+The Built-in control allows you to run a macro action step based on the conditions. The **Built-in** category connector has a **Condition** action.
 
    > [!div class=mx-imgBorder] 
    > ![Condition connector](../customer-service/media/built-in.png "Condition connector")
 
 To use the **Built-in** category, you first need to have a trigger (predefined automation actions). That is, select a predefined automation action first, and before or after a step, you can define the condition. You can also create nested conditions as per your requirements.
 
-Using the **View run history** option for a particular macro, you can see the condition that was executed and whether it succeeded.
+Using the **View run history** option for a particular macro, you can see the condition that was run and whether it succeeded.
 
 For example, you want to open a new form and save it after entering the fields. If the **Product** field in the form has **Surface** as the value, evaluate it as true and then perform the knowledge base article search with the search phrase as **Surface**. If it is evaluated as false, don't perform any further actions.
 
@@ -330,7 +330,7 @@ For example, you want to open a new form and save it after entering the fields. 
 
 ## Use the automation dictionary to pass macro context data parameters
 
-Macros are a set of configured actions that are executed on demand by users. As an administrator, you need to configure the actions that a macro must perform. To configure the actions, you need to provide certain data parameters keys. When an agent runs the macro, these data parameters keys are replaced by contextual values.
+Macros are a set of configured actions that are run on demand by users. As an administrator, you need to configure the actions that a macro must perform. To configure the actions, you need to provide certain data parameters keys. When an agent runs the macro, these data parameters keys are replaced by contextual values.
 
 To learn about the slugs for productivity tools, see [Slugs](automation-dictionary-keys.md#slugs-for-productivity-tools-macros-and-agent-scripts).
 
@@ -428,7 +428,7 @@ To learn more, see [Use automation dictionary to pass data parameter keys](autom
 
 12. Select **Save and close**.
 
-Now, when the agent executes the macro, the actions will be executed by fetching the data parameter keys according to the context available from the sources. To learn more, see [Use automation dictionary to pass data parameters keys](automation-dictionary-keys.md).
+Now, when the agent runss the macro, the actions will be run by fetching the data parameter keys according to the context available from the sources. To learn more, see [Use automation dictionary to pass data parameters keys](automation-dictionary-keys.md).
 
 ## View macro run history
 
