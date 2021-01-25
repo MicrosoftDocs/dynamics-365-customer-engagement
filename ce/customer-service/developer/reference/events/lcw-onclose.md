@@ -1,6 +1,6 @@
 ---
 title: "lcw onClose | MicrosoftDocs"
-description: 
+description: lcw onClose (Omnichannel for Customer Service JavaScript API reference)
 author: platkat
 ms.author: ktaylor
 manager: shujoshi
