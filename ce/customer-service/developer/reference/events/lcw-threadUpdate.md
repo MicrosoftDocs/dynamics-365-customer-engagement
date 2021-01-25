@@ -1,6 +1,6 @@
 ---
 title: "lcw threadUpdate | MicrosoftDocs"
-description: 
+description: lcw threadUpdate (Omnichannel for Customer Service JavaScript API reference)
 author: v-sailab
 ms.author: v-sailab
 manager: shujoshi
