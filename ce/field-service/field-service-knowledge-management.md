@@ -52,18 +52,48 @@ See the video on![Video symbol](../field-service/media/video-icon.png "Video sym
 
 https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-user-guide-knowledge-article
 
-## Associate knowledge article to cases, work orders, assets, incident types, products
+## Associate knowledge article to cases, customer assets, incident types, products
+
+
+### Incident type
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-2020-knowledge-mgmt.png)
+> ![Screenshot of ](./media/knowledge-article-associate-incident-type.jpg)
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/knowledge-article-associate-incident-type2.jpg)
+
+### Customer asset 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/knowledge-article-associate-asset.jpg)
+
 
 if work order is associated to any of those records the knowledge gets linked to the work order
 
 ## Create a work order
 
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/knowledge-article-associate-work-order-linked.jpg)
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/knowledge-article-associate-work-order-read.jpg)
+
+
+
+
+## View work order and knowledge articles on the mobile app
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-knowledge-mgmt.png)
+
+- available offline (currently without images)
+
 ## Configuration considerations
+
+- can unlink article
 
 
 
@@ -72,21 +102,9 @@ if work order is associated to any of those records the knowledge gets linked to
 - if a case has knowledge articles realted to it, and a work order is created from the case, are the article auto associated to work order?
 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/knowledge-article-associate-incident-type2.jpg)
 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/knowledge-article-associate-incident-type.jpg)
 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/knowledge-article-associate-asset.jpg)
 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/knowledge-article-associate-work-order-read.jpg)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/knowledge-article-associate-work-order-linked.jpg)
