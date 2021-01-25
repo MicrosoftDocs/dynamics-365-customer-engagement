@@ -50,7 +50,7 @@ Create a knowledge article and add text, pictures, and videos as needed.
 
 Then save and publish the article.
 
-For the following topics for details:
+See the following topics for details:
 
 - [Create and manage knowledge articles](https://docs.microsoft.com/dynamics365/customer-service/customer-service-hub-user-guide-knowledge-article)
 
@@ -59,17 +59,27 @@ For the following topics for details:
 
 ## Associate knowledge article to cases, customer assets, incident types, products
 
+Next associate knowledge articles to various work order records like incident types, products, or customer assets based on your business needs. When any of these records are added to a work order the related knowledgte articles will get linked to the work order. Below are two examples of relating knowledge articles to incident types and customer assets.
 
-### Incident type
+### Associate knowledge articles to incident types
+
+From the Field Service app go to Settings > Incident types > select an incident type.
 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/knowledge-article-associate-incident-type.jpg)
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/knowledge-article-associate-incident-type2.jpg)
 
-### Customer asset 
+In the Details section relate the knowledge article(s) to the incident type. 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/knowledge-article-associate-incident-type.jpg)
+
+
+
+### Associate knowledge articles to Customer assets
+
+From the Field Service app go to Settings > Knowledge articles. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/knowledge-article-associate-asset.jpg)
