@@ -102,7 +102,7 @@ If your setup fails for some reason, you'll be notified by email and/or by a sta
 
 ## How can I fix occasional portal issues?
 
-Marketing pages and the event website both run on the Dynamics 365 Portals app. Sometimes, you may notice that settings you make in Dynamics 365 Marketing aren't reflected on the portal right away, such as (for the event website): updates to banner images, speaker images, or payment gateway assignments&mdash;or, your portal may become unresponsive or otherwise unreliable. You can often solve all of these issues either by [clearing the portal cache](#portal-cache), or [restarting it](#restart-portal). It's faster to clear the cache, but restarting it will sometimes solve more or other issues.
+Marketing pages and the event website both run on Power Apps portals. Sometimes, you may notice that settings you make in Dynamics 365 Marketing aren't reflected on the portal right away, such as (for the event website): updates to banner images, speaker images, or payment gateway assignments&mdash;or, your portal may become unresponsive or otherwise unreliable. You can often solve all of these issues either by [clearing the portal cache](#portal-cache), or [restarting it](#restart-portal). It's faster to clear the cache, but restarting it will sometimes solve more or other issues.
 
 <a name="portal-cache"></a>
 
