@@ -4,8 +4,7 @@ description: Know about the SLA issues and how to troubleshoot them.
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 12/30
-/2020
+ms.date: 12/30/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -19,11 +18,11 @@ search.app:
   - D365CS
 ---
 
-# Troubleshoot service-Level agreement (SLA) issues in Customer Service
+# Troubleshoot issues in service-Level agreements in Customer Service
 
 ## Warn and fail duration times are incorrect for the SLA
 
-Why do I see that some SLAs do not take into account daylight saving time for warn and fail duration?
+Why do I see that some service-level agreements (SLAs) don't take into account daylight saving time for warn and fail duration?
 
 ### Reason
 
@@ -39,13 +38,13 @@ Once triggered, the SLA timer continues to run even when its state is changed fr
 
 ### Reason
 
-When a holiday is configured, the status of the case is updated to *OnHold* to pause the case service level agreement (SLA). However, the pause functionality associated with the *OnHold* status doesn't function correctly. Therefore, the timer continues to run even on a holiday when it should be paused.
+If a holiday is configured, the status of the case is updated to *OnHold* to pause the case SLA. However, the pause functionality associated with the *OnHold* status doesn't appear to function correctly. Therefore, the timer continues to run even on a holiday when it should be paused.
 
-Due to this, it includes the holiday hours, non-working hours, and pause time (only business hours) while projecting the SLA warning time or failure time. 
+So, it includes the holiday hours, non-working hours, and pause time (only business hours) while projecting the SLA warning time or failure time.
 
 ### Resolution
 
-This is an intended functionality. Your organization defines business hours while scheduling working days and holidays. SLA warning time and failure time adhere to those settings and are calculated based on the defined hours.
+The functionality is intended. Your organization defines business hours while scheduling working days and holidays. SLA warning time and failure time adhere to those settings and are calculated based on the defined hours.
 
 See the following scenarios to understand how the SLA *Warn* and *Failure* time is calculated:
 
@@ -54,69 +53,80 @@ See the following scenarios to understand how the SLA *Warn* and *Failure* time 
 - Create a case during working hours. Pause the case during working hours. Resume the case during non-working hours. Hold time will not be considered for *Warn* and *Failure* time.
 - Create a case during working hours. Pause the case during non-working hours and resume it during working hours. *Warn* time and *Fail* time will be recalculated.
 
+## SLA KPI instance status shows as canceled
 
-## SLA KPI status shows as canceled
+When you update the target record such that “applicable when” condition is no more applicable, the status moves from "active" to "resolved", and the SLA KPI status moves from one of the existing states of "in progress", "succeeded", or "expired" to the "canceled" state. The SLA KPI instance is canceled on the second evaluation because the “Applicable when” condition is no longer met. Consider the following scenario in which you create an SLA with the following conditions and set it as the default SLA.
 
-### Scenario
+- **Applicable when:** Case status equals active
+- **Success condition:** Case type equals problem
 
-When you update the target record such that “applicable when” condition is no more applicable, the status moves from active to resolved, and the SLA KPI status moves from the existing state (Inprogress/Succeeded/Expired) to the canceled state. Consider the following scenario in which you create an SLA with the following conditions and set it as the default SLA.
-- Applicable when: status equals active
-- Success condition: case type equals problem
-
-1. Create a new case. Case status is set to active by default and SLA is applied.
-2. Timer starts running. Set case type to problem.
-3. SLA KPI instance status gets succeeded.
-4. Resolve the case. Case status is set to resolved.
+1. Create a case. The case status is set to active by default, the SLA is applied, and the SLA timer starts.
+2. Set case type to problem. The success condition is met, and therefore, the SLA KPI instance status changes to succeeded.
+3. Resolve the case. The case status is set to resolved, and the SLA is reevaluated for the "Applicable when" condition.
 
 ### Reason
 
-The "applicable when" condition is no longer applicable.
+The "Applicable when" condition is no longer met.
 
 ### Workaround
 
-Try not to define the "applicable when" condition on fields whose values change frequently.
+We recommend that you don't define the "applicable when" and "success conditions" on the same attribute.
 
-## Executing success, warning, and failure actions multiple times
+## Success, warning, and failure actions are being run multiple times
 
-Updates are made to the target record such that those attributes are modified that are present in the applicable when of an SLA item in the applied SLA.
+When updates are made to the target record, the attributes present in the "Applicable When" conditions of the SLA item are modified in the applied SLA.
+
+Consider the scenario where you've created a legacy SLA in which an SLA item has the following "Applicable When" and "Success Condition", and is set as the default.
+> ![Scenario for troubleshooting SLAs](media/troubleshoot-sla.png "Scenario for troubleshooting SLAs")
+
+1. Create a case with case type set as question. The SLA timer starts.
+
+2. Add "resolved" to case title. The success condition is met and the following events occur:
+
+   - SLA KPI instance status is updated to succeeded.
+   - A success action, such as send mail, is run, if configured.
+
+3. Update the case type to request.
+
+  - The SLA KPI instance that is in the succeeded status is reevaluated because the "applicable when" condition for the case type is changed.
+  - The SLA KPI instance moves from succeeded to in progress. Because the case title contains resolved and the success condition is true, the SLA KPI instance changes from "in progress" to "succeeded", again, and runs the success action again.
+
+  When SLA KPI instance is nearing noncompliance:
+  - Warning time arrives and SLA KPI instance status nears noncompliance. - The warning action, if configured, is run.
+
+4. Update the case type to request.
+
+  - The SLA KPI instance that is nearing noncompliance status is reevaluated because the "applicable when" condition for the case type has changed.
+  - SLA KPI instance moves from nearing "noncompliance" to "in progress", and because the warning time is already crossed, it goes back from "in progress" to nearing noncompliance, thus running the warning action again.
+
+  When SLA KPI instance is noncompliant:
+  - Failure time is reached and SLA KPI instance status is noncompliant.
+  - If any failure is action configured, it is run.
+
+6. Update the case type to request.
+  - The SLA KPI instance, which is in noncompliant status is reevaluated, because the "applicable when" condition for the case type has changed.
+  - The SLA KPI instance moves from "noncompliant" to "in progress". 
+  
+  Because the warning and failure time has already crossed, it goes back from "in progress" to "nearing noncompliance" and then to "noncompliance", thus running the warning and failure actions again.
+
+  When the SLA KPI instance status changes from a terminal state (succeeded, expired, canceled) to active state (in progress, nearing non-compliance):
+
+  - SLA KPI instance is in succeeded status.
+
+7. Update the case title to remove "resolved", and change the case type from question to request or from request to question.
+
+  - The SLA KPI instance that is in the succeeded status is reevaluated, because the "applicable when" condition for the case type has changed.
+  - The SLA KPI instance moves from "succeeded" to "in progress". Because the case title does not contain "resolved", it stays in "in progress" or moves to "nearing noncompliance" or "noncompliance" depending on the calculated warning and failure times.
 
 ### Reason
 
-Changing an attribute in a record that is in applicable when condition in the legacy SLA.
+The attributes used in the "Applicable when" condition in a legacy SLA are updated, which results in multiple iterations of the actions.
 
 ### Resolution
 
-We recommend using those attributes in applicable when which are not changed frequently by customers.
-
-Consider a scenario where you want to create a legacy SLA in which an SLA item has applicable when and success conditions, and set it as default.
-  
-1. Create a case with case type = question.
-2. SLA timer gets started. Add *resolved* to case title to make the success condition true.
-3. When SLA KPI instance is succeeded:
-    * SLA KPI instance status is updated to succeeded and if there is any success action, that would be executed, for example, send email.
-    * Update the case type to request.
-    * SLA KPI Instance which is in succeeded status is reevaluated, since the  applicable when attribute (case type) is changed.
-    * SLA KPI instance moves from succeeded to in progress. Since case title contains resolved and the success condition is true, it goes back from in progress to succeeded, thus executing the success action again.
-4. When SLA KPI instance is nearing noncompliance:
-    * Warning time has arrived and SLA KPI instance status is nearing noncompliance. If there is any warning action configured it is executed.
-    * Update the case type to request.
-    * The SLA KPI instance that is nearing noncompliance status is reevaluated since the applicable when attribute (case type) is changed.
-    * SLA KPI instance moves from nearing noncompliance to in progress, and since warning time has already crossed, it goes back from in progress to nearing noncompliance, thus executing the warning action again.
-5. When SLA KPI instance is noncompliant:
-    * Failure time has arrived and SLA KPI instance status is noncompliant. If there is any failure action configured, it is executed.
-    * Update the case type to request.
-    * SLA KPI instance which is in noncompliant status is reevaluated, since the applicable when attribute (case type) is changed.
-    * SLA KPI instance moves from noncompliant to in progress. Since warning and failure time has already crossed, it goes back from in progress to nearing noncompliance and then to noncompliance, thus executing the warning and failure actions again.
-6. When SLA KPI instance status changes from terminal state (succeeded, expired, canceled) to active state (in progress, nearing non-compliance):
-    * SLA KPI instance is in succeeded status.
-    * Update case type: remove *resolved* from case title and change the case type from question to request (or from request to question).
-    * The SLA KPI instance which is in succeeded status is reevaluated, since the applicable when attribute (case type) is changed.
-    * SLA KPI instance moves from succeeded to in progress. Since case title does not contain resolved, it stays in in progress or moves to nearing noncomplince or noncompliance depending on the calculated warning and failure times.
+This is expected behavior for SLAs in both Unified Interface and legacy web client. We recommend that you define the "Applicable when" condition on only those attributes whose values don't change frequently.
       
-## More help
+### See also
 
-[Track SLA details with Timer Control](customer-service-hub-user-guide-case-sla.md#track-sla-details-with-timer-control)
-
-[Define Service Level Agreements (SLAs)](define-service-level-agreements.md)
-
-
+[Track SLA details with Timer Control](customer-service-hub-user-guide-case-sla.md#track-sla-details-with-timer-control)  
+[Define service-level agreements](define-service-level-agreements.md)  

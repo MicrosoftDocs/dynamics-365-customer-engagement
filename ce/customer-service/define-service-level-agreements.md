@@ -96,7 +96,7 @@ SLA KPIs are performance indicators, such as First Response or Resolve by, that 
    2. Select **Add** to define the conditions in which the SLA KPI can be paused.
 
     > [!NOTE]
-    > At runtime, when you pause an SLA KPI instance and resume it, the SLA KPI instance is canceled and a new SLA KPI instance is recreated.
+    > At runtime, when you pause an SLA KPI instance and resume it, the SLA KPI instance is canceled and a new SLA KPI instance is created.
 
 7. Select **Activate**. The SLA KPI is saved and activated.
 
@@ -136,7 +136,7 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
    - **Allow Pause and Resume:** (Optional.) Enable this option if you want the SLA to be paused during the time the record is on hold. For each entity that's enabled for the SLA, you can set each status that will be considered "on hold" in the **Service Management** > **Service Configuration Settings** page.
    - **Business Hours:** (Optional.) Select a value to assign business hours. The SLA is calculated based on the business hours and business closure that you define. More information: [Create customer service schedule and define the work hours](create-customer-service-schedule-define-work-hours.md).
   
-4. In the **Applicable When** section, define the conditions for the entity when the SLA can be applied. We recommend that you do not use case fields that are updated too frequently, because any change to the field value might lead to the SLA item being canceled.
+4. In the **Applicable When** section, define the conditions for the entity when the SLA can be applied. We recommend that you don't use case fields that are updated too frequently, because any change to the field value might lead to the SLA item being canceled.
 
 6. In the **Success Conditions** section, define the conditions that specify the success criteria of the SLA.
 
@@ -295,7 +295,7 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
     > [!IMPORTANT]
     > - Failure and warning actions run asynchronously, and might not be triggered exactly at the failure or warning time.
     > - If failure or warning times are set to less than one hour, processing of the failure or warning actions might be delayed.
-    > - Make sure you author SLAs in a way that best suits your company's needs. For example, in the SLA **Applicable When** conditions, we recommend that you do not use case fields that are updated too frequently, because any change to the field value might lead to the SLA item being canceled.
+    > - Make sure you author SLAs in a way that best suits your company's needs. For example, in the SLA **Applicable When** conditions, we recommend that you don't use case fields that are updated too frequently, because any change to the field value might lead to the SLA item being canceled.
 
 ## Create an enhanced SLA (Customer Service app) 
 
@@ -450,6 +450,10 @@ The service rep who is working on a case can see the SLA details right on the ca
 
 > [!IMPORTANT]
 >  To track SLAs for entities other than the Case entity, ask your system administrator or customizer to add an enhanced SLA timer on the entity forms. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add a timer to forms to track time against enhanced SLAs](add-timer-forms-track-time-against-enhanced-sla.md)  
+
+## Export and import a solution with SLAs
+
+After configuring SLAs in your environment, you can replicate the SLA settings in another environment by using the export tool to export and import the solution. During the export and import of the solution with SLAs, all the related dependencies for the SLAs are listed on the UI and selected by default. While you can explicitly choose the dependencies, we recommend that you select all the related dependencies for the SLAs to function correctly.
 
 ## Recommended procedure for upgrading a solution
 
