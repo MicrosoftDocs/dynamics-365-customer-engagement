@@ -25,9 +25,9 @@ search.app:
 // https://msit.microsoftstream.com/video/595ba1ff-0400-9887-23d4-f1eb5a0959f3?channelId=0bf6f71a-b361-4d7b-9668-62ff5207b60d
 
 features:
-- same knowledge management as customer service. dont need customer service
+- same knowledge management as customer service. dont need customer service its included with FS but if you have customer service you can use the same knowledge articles for both apps.
 - available on mobile offline
-- link to work orders, incidents, and assets
+- link to cases, work orders, incidents, products and assets
 
 business value:
 - improve first time fix rate
@@ -39,18 +39,23 @@ business value:
 
 
 
-For a guided walkthrough, check out the following video.
-
-> [!VIDEO 
-https://www.microsoft.com/en-us/videoplayer/embed/RWs4Cu]
-
-See the video on![Video symbol](../field-service/media/video-icon.png "Video symbol") [Field Service (Dynamics 365) mobile app: Offline JavaScript](https://youtu.be/tUdL5YZA29A) for more details.
-
 
 ## Create a knowledge article
 
+First create a knowledge article. 
 
-https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-user-guide-knowledge-article
+From the Field Service app go to Settings > Knowledge articles. 
+
+Create a knowledge article and add text, pictures, and videos as needed.
+
+Then save and publish the article.
+
+For the following topics for details:
+
+- [Create and manage knowledge articles](https://docs.microsoft.com/dynamics365/customer-service/customer-service-hub-user-guide-knowledge-article)
+
+- [Set up a search provider](https://docs.microsoft.com/dynamics365/customer-service/set-up-search-providers)
+
 
 ## Associate knowledge article to cases, customer assets, incident types, products
 
