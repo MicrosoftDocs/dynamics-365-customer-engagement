@@ -1,5 +1,5 @@
 ---
-title: "Geofencing for Field Service Mobile | MicrosoftDocs"
+title: "Geofencing for Field Service Mobile (Xamarin) | MicrosoftDocs"
 description: Learn about how to setup and use geofencing for Field Service Mobile
 ms.custom: 
   - dyn365-fieldservice
@@ -17,7 +17,7 @@ search.app:
   - D365FS
 ---
 
-# Geofencing for Field Service Mobile 
+# Geofencing for Field Service Mobile (Xamarin)
 
 A geofence is a virtual perimeter around a specific location. Geofencing allows users to draw zones around places of work, customer sites, and secure areas. You can configure the system to trigger various actions when geofences are crossed by a person or an equipped vehicle.
 

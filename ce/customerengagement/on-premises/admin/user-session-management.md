@@ -70,7 +70,7 @@ The Customer Engagement (on-premises) portal has its own settings to manage its 
 These security enhancements are shipped disabled by default.  Administrators can enable these enhancements when using one of the supported Dynamics 365 for Customer Engagement apps (on-premises) builds listed below.
 
  ### Requirement
- These security enhancement features require claims-based authentication for user authentication. You can configure claims-based authentication in one of two ways:
+ These security enhancement features require the Feature Control Bit FCB.UCIInactivityTimeout to be enabled and claims-based authentication for user authentication. You can configure claims-based authentication in one of two ways:
  - With an Internet-facing deployment (IFD). See [Configure IFD for Microsoft Dynamics 365 for Customer Engagement](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/deployment-administrators-guide/dn609803(v=crm.8)).
  - With claims-based authentication alone if Microsoft Dynamics 365 for Customer Engagement apps is deployed in the same domain where all Microsoft Dynamics 365 for Customer Engagement apps users are located, or users are in a trusted domain. See [Configure claims-based authentication](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/deployment-administrators-guide/dn920270(v=crm.8)).
 

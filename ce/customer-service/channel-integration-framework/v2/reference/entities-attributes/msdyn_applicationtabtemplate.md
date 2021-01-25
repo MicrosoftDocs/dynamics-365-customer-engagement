@@ -1,8 +1,8 @@
 ---
 title: "msdyn_applicationtabtemplate Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_applicationtabtemplate entity."
-author: "ramana-hyd"
-ms.author: "v-rmurthy"
+author: "v-sailab"
+ms.author: "v-sailab"
 manager: "jdaly"
 ms.date: 10/21/2020
 ms.topic: "reference"

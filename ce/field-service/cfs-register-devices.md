@@ -111,3 +111,9 @@ Once the IoT device has been associated with the asset, a new section will appea
 
 > [!Note]
 > Multiple IoT devices can be associated with a single customer asset. On the asset, go to **Related** > **Connections** to associate additional IoT devices.
+
+## Registration error
+
+When a device does not register, you'll see an error in the **Registration Status** field of the asset record. For assets with multiple devices, device status will show the error message for each device.  
+  
+This error may occur if Dynamics 365 is not connected to Azure or if Azure is offline.
