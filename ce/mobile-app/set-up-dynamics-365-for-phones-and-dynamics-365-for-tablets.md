@@ -36,7 +36,8 @@ Your users can access their data stored in Microsoft Dataverse or Dynamics 365 C
  For hardware and software requirements for [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)], see [Support for Dynamics 365 for phones and Dynamics 365 for tablets](support-phones-tablets.md).  
   
 ### Required privileges  
- Both Microsoft Dataverse and Dynamics 365 Customer Engagement (on-premises) uses a security privilege, **Dynamics 365 for mobile**, to provide access to [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]. The privilege is pre-configured for Sales roles, but not other security roles, so you may want to add to other roles for your teams.  
+
+Both Microsoft Dataverse and Dynamics 365 Customer Engagement (on-premises) uses security privileges to provide access to Dynamics 365 for phones and tablets app and Power Apps moible. The privilege is pre-configured for Sales roles, but not other security roles, so you may want to add to other roles for your teams.
  
  The app should be shared for the security role that user has been assigned.
   
