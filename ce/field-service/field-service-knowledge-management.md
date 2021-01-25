@@ -56,20 +56,20 @@ See the video on![Video symbol](../field-service/media/video-icon.png "Video sym
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/knowledge-article-associate-incident-type2.png)
+> ![Screenshot of ](./media/knowledge-article-associate-incident-type2.jpg)
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/knowledge-article-associate-incident-type.png)
+> ![Screenshot of ](./media/knowledge-article-associate-incident-type.jpg)
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/knowledge-article-associate-asset.png)
+> ![Screenshot of ](./media/knowledge-article-associate-asset.jpg)
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/knowledge-article-associate-work-order-read.png)
+> ![Screenshot of ](./media/knowledge-article-associate-work-order-read.jpg)
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/knowledge-article-associate-work-order-linked.png)
+> ![Screenshot of ](./media/knowledge-article-associate-work-order-linked.jpg)
