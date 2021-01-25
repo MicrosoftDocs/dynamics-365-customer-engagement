@@ -1,8 +1,8 @@
 ---
 title: "createTab (JavaScript API Reference) for Dynamics Channel Integration Framework (CIF) version 2.0 | MicrosoftDocs"
 description: ""
-author: ramana-hyd
-ms.author: v-rmurthy
+author: v-sailab
+ms.author: v-sailab
 manager: shujoshi
 ms.date: 11/19/2020
 ms.topic: reference

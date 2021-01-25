@@ -64,7 +64,7 @@
 ##### [Create work streams for entity records](set-up-entity-workstream.md)
 ##### [Create multiple work streams for entity records](multiple-ws-entity-record-routing.md)
 ##### [Set up routing and assignment rules](routing-rules.md)
-##### [Associate templates with work streams](associate-templates.md)
+##### [Associate templates with work streams](../app-profile-manager/associate-templates.md)
 #### [Set up routing for Omnichannel for Customer Service Conversations](understand-omnichannel-customer-service-hub.md)
 #### [Show customers their position in a queue](show-queue.md)
 #### [Show customers their average wait time in a queue](average-wait-time.md)
@@ -106,9 +106,16 @@
 #### [Add a timer in forms to track time against enhanced SLAs](add-timer-forms-track-time-against-enhanced-sla.md)
 
 ## Email
-### [Configure email](customer-service-hub-user-guide-email-admin.md)
 ### [Use email](customer-service-hub-user-guide-email-overview.md)
-### [Email FAQs](email-faqs.md)
+### Email templates
+#### [Create an email template](customer-service-hub-user-guide-email-create-template.md)
+#### [Insert an email template](customer-service-hub-user-guide-email-insert-template.md)
+#### [Convert an email to a template](customer-service-hub-user-guide-email-convert-template.md)
+#### [Use a signature in email](customer-service-hub-user-guide-email-create-signature.md)
+### [Email FAQs and known issues](email-faqs.md)
+### Administrator experience
+#### [Configure the email form order](customer-service-hub-user-guide-email-admin.md)
+#### [Configure the default email font](customer-service-hub-user-guide-email-font-admin.md)
 
 ## Timeline
 ### [Configure timeline](customer-service-hub-user-guide-timeline-admin.md)
@@ -128,7 +135,7 @@
 #### [Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)
 #### [Search for knowledge articles](search-knowledge-articles-csh.md)
 #### [Search for knowledge articles on smart assist](oc-search-knowledge-articles.md)
-#### [Create knowledge article templates in Power Apps](/power-platform/admin/create-templates-articles.md)
+#### [Create knowledge article templates in Power Apps](/power-platform/admin/create-templates-articles)
 #### [Create knowledge article templates in Customer Service](create-templates-knowledge-article.md)
 #### [Configure knowledge management](set-up-knowledge-management-embedded-knowledge-search.md)
 #### [Create and manage knowledge categories](create-manage-categories.md)
@@ -143,8 +150,10 @@
 #### [Enable download, email of chat transcripts](download-email-chat-transcripts.md)
 #### [Configure agent display name](agent-display-name.md)
 #### [Configure proactive chat](proactive-chat.md)
+#### [Configure persistent chat](persistent-chat.md)
 #### [Configure reconnection to a previous chat session](configure-reconnect-chat.md)
 #### [Delete a channel instance](delete-channel.md)
+
 ### Agent experience
 #### [Omnichannel for Customer Service for agents](omnichannel-customer-service-app-agent.md)
 #### [Sign into the agent app](oc-sign-in-omnichannel.md)
@@ -168,6 +177,7 @@
 #### [View conversation and session forms](oc-view-activity-types.md)
 #### [View customer summary for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)
 #### [Real-time language translation of conversations](oc-real-time-translation.md)
+
 ### Developer experience
 #### [Customize a chat widget](customize-chat-widget.md)
 #### [Render live chat widget on mobile app](render-live-chat-widget-mobile.md)
@@ -177,6 +187,10 @@
 #### [Live chat widget telemetry](live-chat-telemetry.md)
 #### [Configure relevance search for transcripts](relevance-search-chat-transcript.md)
 #### [Configure link to conversation button](configure-link-to-conversation-model-driven-app-form.md)
+#### [Initiate a chat](initiate-chat-wait-time.md)
+#### [Start chat proactively](start-proactive-chat.md)
+#### [Configure automatic closure of conversations](auto-close-conversation.md)
+
 ### Customizer experience
 #### [Overview](omnichannel-customizer.md)
 #### [Customize customer summary form](customize-customer-summary.md)
@@ -264,17 +278,23 @@
 ### [Integrate a Power Virtual Agents bot](configure-bot-virtual-agent.md)
 
 ## Bots
+
 ### Administrator experience
 #### Configure bots
 ##### [Integrate an Azure bot](configure-bot.md)
 #### [Configure context variables for bots](context-variables-for-bot.md)
+
 ### Developer experience
 #### [Enable bot context NuGet package](enable-bot-context.md)
 #### [Enable a bot to escalate and end conversation](bot-escalate-end-conversation.md)
 #### [Download attachments from Azure bot](download-attachments-bot.md)
+#### [Manage custom context](send-context-starting-chat.md)
+#### [Display custom context](display-custom-context.md)
+#### [Send authenticaion token](send-auth-token-starting-chat.md)
 
 ## Insights
 ### [Introduction to Customer Service Insights](introduction-customer-service-analytics.md)
+
 ### Administrator experience
 #### [Configure Customer Service Insights](configure-customer-service-analytics-insights-csh.md)
 #### [Configure historical analytics](configure-historical-analytics-csh.md)
@@ -313,19 +333,41 @@
 ## Service scheduling
 ### [Overview of Service scheduling](basics-service-service-scheduling.md)
 ### [Upcoming changes](scheduling-overview.md)
-### Administrator experience
+### Customer Service Scheduling
 #### [Manage security roles](manage-security-roles.md)
 #### [Create and manage organizational units](create-org-units-cs-scheduling.md)
 #### [Schedule business closure](set-when-business-closed-csh.md)
-### Scheduling experience
-#### [Create bookable resources](resources-service-scheduling.md)  
+#### Schedule entities
+##### [Create bookable resources](resources-service-scheduling.md)
+##### [Add facilities and equipment](add-facilities-equipment-ss-csh.md)
+##### [Create and manage resource categories](resource-categories-service-scheduling.md)
+##### [Create or edit services](create-edit-service-csh.md)
+##### [Schedule a service activity](schedule-service-activity-csh.md)
+##### [Manage fulfillment preferences](../common-scheduler/fulfillment-preferences.md)
+
+#### [Configure service activity using schedule board](use-schedule-board-configure-service-activity.md) 
+
+#### Work with settings
+##### [Create and manage organizational units](create-org-units-cs-scheduling.md)
+##### [Schedule business closure](set-when-business-closed-csh.md)
+
+### [Service Scheduling in Unified Interface](uci-scheduling-overview.md)
 #### [Create or edit a service](uci-create-edit-service.md)
 #### [Add facilities and equipment](uci-add-facilities-equipment.md)
 #### [Schedule a service activity](uci-schedule-service-activity.md)
 #### [Create resource groups](uci-create-resource-groups.md)
 #### [Use sites to manage your service locations](uci-create-sites.md)
 #### [Navigate the service calendar](uci-navigate-service-calendar.md)
-#### [Configure service activity using schedule board](use-schedule-board-configure-service-activity.md) 
+
+### [Legacy Service Scheduling](../customer-service/legacy-scheduling.md)
+#### [Set up business closure](set-when-business-closed-cs-app.md)
+#### [Set work hours to define availability](set-work-hours-resource.md)
+#### [Create or change a service](create-edit-service-cs-app.md)
+#### [Schedule a service activity](schedule-service-activity-cs-app.md)
+#### [Set up facilities/equipment](add-facilities-equipment-cs-app.md)
+#### [Create resource groups](create-edit-resource-group.md)
+#### [Manage sites](use-sites-manage-service-locations.md)
+
 ### Developer experience
 #### [Search resource availability and create bookings](universal-resource-scheduling.md)
 
@@ -546,6 +588,7 @@
 ### [Troubleshoot issues in Omnichannel for Customer Service](troubleshoot-omnichannel-customer-service.md)
 ### [Troubleshoot with Solution Health Hub](troubleshoot-using-solution-health-hub.md)
 ### [Troubleshoot channel issues](troubleshoot-omnichannel-customer-service.md)
+### [Report issues in Omnichannel for Customer Service](report-issues.md)
 
 ## FAQs on Customer Service
 ### [FAQs on AI suggestions for cases and knowledge articles](csw-faqs-ai-suggestions.md)

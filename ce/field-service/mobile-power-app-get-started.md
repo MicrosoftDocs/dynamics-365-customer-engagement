@@ -88,4 +88,5 @@ Launch the app and sign in with your username and password, which should be the 
 
 ## Next steps
 
+- [Set up offline data and sync filters](mobile-power-app-system-offline.md)
 - [Quickstart: Schedule a work order and view it on the mobile application](quickstart-schedule-work-order.md)

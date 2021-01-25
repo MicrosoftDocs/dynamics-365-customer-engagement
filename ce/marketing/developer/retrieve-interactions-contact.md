@@ -1,7 +1,7 @@
 ---
 title: "Retrieve interactions for a contact using code (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Learn how to programmatically retrieve interactions for a contact using an action."
-ms.date: 08/07/2018
+ms.date: 01/06/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -178,4 +178,5 @@ OData-Version: 4.0
 
 ### See also
 
-[Data protection and the GDPR](../gdpr.md)
+[Data protection and the GDPR](../gdpr.md)   
+[Preview: Prepare for analytic reporting with Power BI](../custom-analytics.md)
