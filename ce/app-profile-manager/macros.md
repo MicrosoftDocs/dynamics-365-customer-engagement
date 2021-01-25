@@ -428,7 +428,7 @@ To learn more, see [Use automation dictionary to pass data parameter keys](autom
 
 12. Select **Save and close**.
 
-Now, when the agent runss the macro, the actions will be run by fetching the data parameter keys according to the context available from the sources. To learn more, see [Use automation dictionary to pass data parameters keys](automation-dictionary-keys.md).
+Now, when the agent runs the macro, the actions will be run by fetching the data parameter keys according to the context available from the sources. To learn more, see [Use automation dictionary to pass data parameters keys](automation-dictionary-keys.md).
 
 ## View macro run history
 
