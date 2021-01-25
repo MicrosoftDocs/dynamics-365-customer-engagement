@@ -32,7 +32,7 @@ The following screenshot is an example of Omnichannel Ongoing Conversations:
 
 Before you start using the **Omnichannel Ongoing Conversations** dashboard, here are a few things you must be aware of:
 
-- Monitor is supported for work streams configured for all channels except for Entity Records.
+- The monitor feature is supported for work streams configured for all channels except Entity Records.
 
 - You can monitor only conversations that are in the **Active** and **Wrap-up** states.
 
