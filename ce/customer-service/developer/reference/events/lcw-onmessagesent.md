@@ -1,6 +1,6 @@
 ---
 title: "lcw onMessageSent | MicrosoftDocs"
-description: 
+description: lcw onMessageSent  (Omnichannel for Customer Service JavaScript API reference)
 author: platkat
 ms.author: ktaylor
 manager: shujoshi
