@@ -1,6 +1,6 @@
 ---
 title: "lcw closeChat | MicrosoftDocs"
-description: 
+description: lcw closeChat (Omnichannel for Customer Service JavaScript API reference)
 author: v-sailab
 ms.author: v-sailab
 manager: shujoshi
