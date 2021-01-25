@@ -19,7 +19,18 @@ search.app:
 - D365FS
 ---
 
-# title
+# Knowledge management in Field Service
+
+
+features:
+- same knowledge management as customer service. dont need customer service
+- available on mobile offline
+- link to work orders, incidents, and assets
+
+business value:
+- improve first time fix rate
+- guide technicians through procedures and help
+
 ## Prerequisites
 > [!Note]
 >
