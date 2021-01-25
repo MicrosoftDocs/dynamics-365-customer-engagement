@@ -20,8 +20,8 @@ Further, you can filter the conversations using the **Filter by queues** or **Fi
 
 > [!NOTE]
 >
-> - The **Ongoing Conversations dashboard** is view only and you cannot perform any actions such as open, edit, or delete on this dashboard.
-> - The status icon in the **Active Agent** column of the dashboard does not pertain to an agent's online presence in Omnichannel. The status is displayed based on your Microsoft Teams or Skype for Business integration settings with Microsoft Dynamics 365.
+> - The **Ongoing Conversations dashboard** is view only and you can't perform any actions such as open, edit, or delete on this dashboard.
+> - The status icon in the **Active Agent** column of the dashboard does not pertain to an agent's online presence in Omnichannel. The status is displayed based on your Microsoft Teams or Skype for Business integration settings with Microsoft Dynamics 365. The administrator can turn off the presence in the system settings for Dynamics 365.
 
 ## View Omnichannel Ongoing Conversations dashboard
 
@@ -35,7 +35,7 @@ The **Omnichannel Ongoing Conversations** is available in:
 1.	Open the **Unified Service Desk** client application.
 
 2.	Sign in with your supervisor credentials.
-    
+
     > [!NOTE]
     > To learn more, see [Sign in to Unified Service Desk – Omnichannel for Customer Service](../unified-service-desk/oc-usd/signin-unified-service-desk-omnichannel.md).
 
@@ -46,7 +46,6 @@ The **Omnichannel Ongoing Conversations** is available in:
     > [!div class=mx-imgBorder]
     > ![Ongoing Conversations dashboard in Unified service desk](media/supervisor-usd-ongoing-conversations-dashboard.png "Ongoing Conversations dashboard in Unified service desk")
   
-
 ### Omnichannel for Customer Service
 
 1.	Go to *https://**YourOrganization**.dynamics.com/apps* and select **Omnichannel for Customer Service**.

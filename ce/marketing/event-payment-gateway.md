@@ -30,12 +30,12 @@ Once your new payment gateway is in place on your event website, you can configu
 
 The procedure for building and enabling a payment gateway depends on [how you host your event website](set-up-event-portal.md):
 
-- If you are hosting the event website on a Dynamics 365 Portal, then see  [Create a payment gateway when hosting on the Dynamics 365 Portal](#portal) for instructions.
+- If you are hosting the event website on a Power Apps portal, then see  [Create a payment gateway when hosting on the Power Apps portal](#portal) for instructions.
 - If you are hosting the event website on an external server, then see [Create a payment gateway when hosting on an external site](#external) for instructions.
 
 <a name="portal"></a>
 
-## Create a payment gateway when hosting on the Dynamics 365 Portal
+## Create a payment gateway when hosting on the Power Apps portal
 
 ### Add a new payment gateway to your event website
 
@@ -118,7 +118,7 @@ For details about how to develop the system for receiving payment and finalizing
 
 If you are hosting the event website on your own web server, then you must download and customize the event website to include the payment option as needed. Your payment provider will give you the instructions you need to interact with their system.
 
-For more information about how to download the latest version of the event website, customize it, build it, and then deploy it on a Dynamics 365 Portal or external website, see [Build and host a custom event website](developer/event-management-web-application.md).
+For more information about how to download the latest version of the event website, customize it, build it, and then deploy it on a Power Apps portal or external website, see [Build and host a custom event website](developer/event-management-web-application.md).
 
 For details about how to develop the system for receiving payment and finalizing registrations, see [Develop a system to finalize event registration](#finalize-registration) later in this topic.
 
