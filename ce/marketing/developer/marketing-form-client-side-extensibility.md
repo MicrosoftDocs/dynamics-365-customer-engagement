@@ -152,3 +152,56 @@ To add the code snippet, you need to follow the steps below:
       }
     });
     ```
+    
+3. Localize the form (picklist)
+We're looking to introduce a first-class support for localizing the forms in some future version of marketing forms. In the meantime you can use the client extensibility to do the localization yourselves. Localization needs to happen after form is loaded (`afterFormLoad` event). Inside marketing page (or in CMS where you host the form) add script for the localization:
+
+    ```JS
+        <script>
+        function translatePicklists(lcid) {
+            var picklists = document.querySelectorAll("select");
+            for(var i = 0; i < picklists.length; i++) {
+                var picklist = picklists[i];
+                var relatedDatalist = document.getElementById("localize-" + picklist.name + "-" + lcid.toString());
+                if (relatedDatalist) {
+                    for(var j = 0; j < picklist.options.length; j++) {
+                        if (j >= relatedDatalist.options.length) {
+                            break;
+                        }
+                        picklist.options[j].text = relatedDatalist.options[j].text;
+                    }
+
+                }
+            }
+        }
+
+        MsCrmMkt.MsCrmFormLoader.on("afterFormLoad", function(event) { translatePicklists(1029); });
+    </script>
+    ```
+    
+Now in marketing form you need to make sure to have translations ready. Edit the marketing form in html designer, format it (right-click in designer -> format) and add necessary translations.
+```HTML
+    <div data-editorblocktype="Field-dropdown">
+	  <div class="marketing-field">
+	      <div class="lp-form-field" data-required-field="false">
+	        <label for="f7ae1a98-0d83-4592-afe0-272c85ce607d" class="lp-ellipsis" title="">Marital status</label>
+	        <select id="f7ae1a98-0d83-4592-afe0-272c85ce607d" name="f7ae1a98-0d83-4592-afe0-272c85ce607d" class="lp-form-fieldInput" title="" style="width: 100%; box-sizing: border-box;">
+                <option value=""></option>
+                <option value="1">Single</option>
+                <option value="2">Married</option>
+                <option value="3">Divorced</option>
+                <option value="4">Widowed</option>
+            </select>
+        </div>
+	</div>
+</div>
+<!-- format is localize-fieldid-lcid -->
+<datalist id="localize-f7ae1a98-0d83-4592-afe0-272c85ce607d-1029">
+    <option></option>
+    <option>Svobodny(a)</option>
+    <option>Zenaty(a)</option>
+    <option>Rozvedeny(a)</option>
+    <option>Vdovec(vdova)</option>
+</datalist>
+```
+
