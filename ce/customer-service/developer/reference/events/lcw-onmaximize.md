@@ -1,6 +1,6 @@
 ---
 title: "lcw onMaximize | MicrosoftDocs"
-description: 
+description: lcw onMaximize (Omnichannel for Customer Service JavaScript API reference)
 author: platkat
 ms.author: ktaylor
 manager: shujoshi
