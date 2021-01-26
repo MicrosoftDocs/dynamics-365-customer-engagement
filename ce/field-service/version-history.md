@@ -58,14 +58,14 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 
 ## 8.8.34.16
 (Includes Universal Resource Scheduling version [3.12.35.2](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling#312352))
-- Fixed an issue regarding Register Devices command showing up in an asset form even though the environment is not configured to use IoT.
+- Fixed an issue regarding register devices command showing up in an asset form even though the environment is not configured to use IoT.
 -	Fixed an issue with Device id field getting cleared when the asset form is refreshed.
 -	Fixed an issue in response generation after clicking on "Send Command" for an IoT device.  
--	Added date time support in Inspections matrix control.
--	Fixed an error opening Remote Assist if the support contact contains a user in Japanese.
+-	Added date time support in inspections matrix control.
+-	Fixed an error opening Dynamics 365 Remote Assist if the support contact contains a user in Japanese.
 -	Fixed a console error when opening a customer asset quick create form from work order form due to absence of functional location.
--	Corrected an issue in the population of Time To Promised and Time From Promised fields when the work order is created with an SLA.
--	Fixed an issue with taxable while creating agreement from account entity. 
+-	Corrected an issue in the population of *Time To Promised* and *Time From Promised* fields when the work order is created with an SLA.
+-	Fixed an issue with taxable while creating agreement from account record type. 
 -	Fixed an issue in the creation of time entry from a bookable resource booking wherein a resource or work order was not getting populated.
 
 
