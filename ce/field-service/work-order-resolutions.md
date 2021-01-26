@@ -20,18 +20,27 @@ search.app:
 ---
 
 # Capture Work Order resolution details
+
+
+// https://msit.microsoftstream.com/video/8930a1ff-0400-9887-cc7d-f1eb56bda718?channelId=0bf6f71a-b361-4d7b-9668-62ff5207b60d
+
+record how work order was resolved
+
+features details
+- tag resolutions to work orders
+- relate resolutions to specific work order incident types
+
+business value
+- improve first time fix rate
+- manage resolutions better
+- good for training
+
 ## Prerequisites
 > [!Note]
 >
 
 
 
-For a guided walkthrough, check out the following video.
-
-> [!VIDEO 
-https://www.microsoft.com/en-us/videoplayer/embed/RWs4Cu]
-
-See the video on![Video symbol](../field-service/media/video-icon.png "Video symbol") [Field Service (Dynamics 365) mobile app: Offline JavaScript](https://youtu.be/tUdL5YZA29A) for more details.
 
 
 ## Configuration considerations
