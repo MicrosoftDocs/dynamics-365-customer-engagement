@@ -104,25 +104,29 @@ Associated knowledge articles will be added to the work order in **Linked Articl
 Users have the ability to link specific knowledge articles to a work order "ad-hoc" to link articles that are not associated to incidents, assets, or products, but may still be needed to complete the work order. From the Linked Articles section select +New Linked Article.
 
 > [!Note]
-> Adding multiple work order incident types, customer assets, work order products will add all associated knowledge articles to the work order. 
+> Adding multiple work order incident types, customer assets, work order products will link all associated knowledge articles to the work order. 
 
 
 ## View work order and knowledge articles on the mobile app
 
+After the work order is saved and scheduled to a technician, the technician can view the knowledge articles from the Field Service mobile app. 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-knowledge-mgmt.png)
 
-- available offline (currently without images)
+Knowledge articles are downloaded and available offline however images and videos in knowledge articles will only be available when the mobile device is connected to the internet. Ensure your system administrator publishes the latest [mobile offline profile](mobile-power-app-system-offline.md) so knowledge articles are downloaded to the device in the next synchronization.
 
 ## Configuration considerations
 
-- can unlink article
+- Unlink articles that need to be removed from a work order or are not relevant by selecting the unlink icon.
 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/knowledge-article-unlink.png)
 
 
 ## Additional Notes
 
-- if a case has knowledge articles realted to it, and a work order is created from the case, are the article auto associated to work order?
+- If a work order if a case has knowledge articles realted to it, and a work order is created from the case, are the article auto associated to work order?
 
 
 
