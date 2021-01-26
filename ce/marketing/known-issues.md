@@ -1,7 +1,7 @@
 ---
 title: "Known issues and workarounds (Dynamics 365 Marketing) | Microsoft Docs"
 description: "This article documents known issues and workarounds for Dynamics 365 Marketing."
-ms.date: 12/16/2020
+ms.date: 01/25/2021
 ms.service: dynamics-365-marketing
 ms.custom:
   - dyn365-admin
@@ -30,6 +30,7 @@ This document provides important, late-breaking information about known issues a
 - Some language strings in the email designer and customer journey designer are not available in all languages. <!--- 1912019 --> <!--- 1843911 -->
 - When an entitlement is changed, the updated working entitlement will sometimes display as "NotConfigured" and the broken entitlement will display as "Configured" in the Admin UI. You may get this fixed by raising a support request. <!--- 1884488 -->
 - When a portal is expired, the **Configure your portal** item under **Other actions** links to the old portal. <!--- 1804106 -->
+- When a setting from the Marketing application settings overview page is selected, users who do not have admin privileges to adjust the setting are redirected to a blank page. <!--- 2157534 -->
 
 ## Customer journeys
 
