@@ -101,6 +101,8 @@ Associated knowledge articles will be added to the work order in **Linked Articl
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/knowledge-article-associate-work-order-read.jpg)
 
+Users have the ability to link specific knowledge articles to a work order "ad-hoc" to link articles that are not associated to incidents, assets, or products, but may still be needed to complete the work order. From the Linked Articles section select +New Linked Article.
+
 > [!Note]
 > Adding multiple work order incident types, customer assets, work order products will add all associated knowledge articles to the work order. 
 
