@@ -28,12 +28,14 @@ record how work order was resolved
 
 features details
 - tag resolutions to work orders
-- relate resolutions to specific work order incident types
+- relate resolutions to specific work order incident types to correlate isses with resolutions
+- more organized than note fields
 
 business value
 - improve first time fix rate
 - manage resolutions better
 - good for training
+
 
 ## Prerequisites
 > [!Note]
