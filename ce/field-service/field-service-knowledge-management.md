@@ -34,8 +34,7 @@ business value:
 - guide technicians through procedures and help
 
 ## Prerequisites
-> [!Note]
->
+
 
 
 
@@ -50,10 +49,9 @@ Create a knowledge article and add text, pictures, and videos as needed.
 
 Then save and publish the article.
 
-See the following topics for details:
+See the following topics for more details:
 
 - [Create and manage knowledge articles](https://docs.microsoft.com/dynamics365/customer-service/customer-service-hub-user-guide-knowledge-article)
-
 - [Set up a search provider](https://docs.microsoft.com/dynamics365/customer-service/set-up-search-providers)
 
 
@@ -81,14 +79,21 @@ In the Details section relate the knowledge article(s) to the incident type.
 
 From the Field Service app go to Settings > Knowledge articles. 
 
+Select an article and in Related Information select **Add Existing Customer Asset**.
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/knowledge-article-associate-asset.jpg)
 
+This will relate the knowledge article and the customer asset. 
 
-if work order is associated to any of those records the knowledge gets linked to the work order
 
 ## Create a work order
 
+Create a Work Order by going to the main service section > Work Orders > +New.
+
+Add desired work order incidents, customer assets, and work order products to the work order.
+
+Associated knowledge articles will be added to the work order in **Linked Articles** section of the work order form.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/knowledge-article-associate-work-order-linked.jpg)
@@ -96,7 +101,8 @@ if work order is associated to any of those records the knowledge gets linked to
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/knowledge-article-associate-work-order-read.jpg)
 
-
+> [!Note]
+> Adding multiple work order incident types, customer assets, work order products will add all associated knowledge articles to the work order. 
 
 
 ## View work order and knowledge articles on the mobile app
