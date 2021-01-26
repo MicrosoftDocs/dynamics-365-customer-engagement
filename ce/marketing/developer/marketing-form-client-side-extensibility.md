@@ -1,7 +1,7 @@
 ---
 title: "Extend marketing forms using code (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Extend marketing forms with JavaScript to apply custom business logic in Dynamics 365 Marketing."
-ms.date: 11/05/2020
+ms.date: 01/26/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -63,7 +63,7 @@ The form capturing is directed by the configuration element that looks like `<di
 
 |Attribute name|Description|
 |------|-------|
-|`data-ignore-prevent-default="true"`|When specified, form will be submitted regardless of the fact that `.preventDefault()` was invoked on the event.|
+|`data-ignore-prevent-default="true"`|When specified, the form will be submitted regardless of the fact that `.preventDefault()` was invoked on the event.|
 |`data-no-submit="true"`|When specified, the form capturing script won't capture the form submit event, you should trigger the `MsCrmMkt.MsCrmFormLoader.sendFormCaptureToCrm(form)` explicitly. This is useful for cases when you want to do your form submission first and sync to Dynamics 365 Marketing later.
 
 > [!NOTE]
@@ -151,4 +151,54 @@ To add the code snippet, you need to follow the steps below:
      }
       }
     });
+    ```
+
+3. Localize the form (picklist) - You can use client-side extensibility to localize marketing forms. Localization must occur after the form is loaded (`afterFormLoad` event). Inside the marketing page (or in the CMS where you host the form), add the following localization script:
+
+    ```JS
+    <script>
+    function translatePicklists(lcid) {
+        var picklists = document.querySelectorAll("select");
+        for(var i = 0; i < picklists.length; i++) {
+            var picklist = picklists[i];
+            var relatedDatalist = document.getElementById("localize-" + picklist.name + "-" + lcid.toString());
+            if (relatedDatalist) {
+                for(var j = 0; j < picklist.options.length; j++) {
+                    if (j >= relatedDatalist.options.length) {
+                        break;
+                    }
+                    picklist.options[j].text = relatedDatalist.options[j].text;
+                }
+            }
+        }
+    }
+    MsCrmMkt.MsCrmFormLoader.on("afterFormLoad", function(event) { translatePicklists(1029); });
+    </script>
+    ```
+    
+    In the marketing form, make sure that you have prepared the translations. Edit the marketing form in the HTML designer, format it (right-click in the designer, then choose **format**), and add the necessary translations.
+
+    ```HTML
+    <div data-editorblocktype="Field-dropdown">
+	  <div class="marketing-field">
+	      <div class="lp-form-field" data-required-field="false">
+	        <label for="f7ae1a98-0d83-4592-afe0-272c85ce607d" class="lp-ellipsis" title="">Marital status</label>
+	        <select id="f7ae1a98-0d83-4592-afe0-272c85ce607d" name="f7ae1a98-0d83-4592-afe0-272c85ce607d" class="lp-form-fieldInput" title="" style="width: 100%; box-sizing: border-box;">
+                <option value=""></option>
+                <option value="1">Single</option>
+                <option value="2">Married</option>
+                <option value="3">Divorced</option>
+                <option value="4">Widowed</option>
+            </select>
+        </div>
+	    </div>
+    </div>
+    <!-- format is localize-fieldid-lcid -->
+    <datalist id="localize-f7ae1a98-0d83-4592-afe0-272c85ce607d-1029">
+        <option></option>
+        <option>Svobodny(a)</option>
+        <option>Zenaty(a)</option>
+        <option>Rozvedeny(a)</option>
+        <option>Vdovec(vdova)</option>
+    </datalist>
     ```
