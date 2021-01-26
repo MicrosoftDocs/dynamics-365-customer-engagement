@@ -34,9 +34,6 @@ features:
 - articles added to work order based on related case, incidents, products and customer assets
 
 
-
-
-
 ## Create a knowledge article
 
 First create a knowledge article. 
