@@ -46,7 +46,7 @@ Follow these steps to create a new holiday schedule:
 
    ![holiday-schedule-csh](media/holiday-schedule-csh.png)
  
-To resolve any issues with the SLA during holidays, see [SLA timer does not pause when its state is changed from InProgress to OnHold on a holiday](troubleshoot-sla-timer-issue.md).
+To resolve any issues with the SLA during holidays, see [SLA timer does not pause when its state is changed from InProgress to OnHold on a holiday](troubleshoot-sla-issues.md).
 
 
 ## Create a holiday schedule  (Customer Service app)

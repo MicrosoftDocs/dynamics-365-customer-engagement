@@ -578,11 +578,9 @@
 #### [msdyn_ApplyRoutingRuleEntityRecord](developer/reference/actions/msdyn_ApplyRoutingRuleEntityRecord.md)
 
 ## Troubleshoot issues in Customer Service
-### Troubleshoot cases
-#### [Issue converting an email to a case](troubleshoot-case-email-issue.md)
-### Troubleshoot SLA issues
-#### [SLA timer does not pause](troubleshoot-sla-timer-issue.md)
-#### [Unable to delete a managed solution](troubleshoot-delete-managed-solution.md)
+### [Issue converting an email to a case](troubleshoot-case-email-issue.md)
+### [Troubleshoot SLA issues](troubleshoot-sla-issues.md)
+### [Unable to delete a managed solution](troubleshoot-delete-managed-solution.md)
 
 ### [Known issues](omnichannel-readme.md)
 ### [Troubleshoot issues in Omnichannel for Customer Service](troubleshoot-omnichannel-customer-service.md)
