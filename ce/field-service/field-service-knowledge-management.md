@@ -24,16 +24,14 @@ search.app:
 
 // https://msit.microsoftstream.com/video/595ba1ff-0400-9887-23d4-f1eb5a0959f3?channelId=0bf6f71a-b361-4d7b-9668-62ff5207b60d
 
-features:
-- same knowledge management as customer service. dont need customer service its included with FS but if you have customer service you can use the same knowledge articles for both apps.
-- available on mobile offline
-- link to cases, work orders, incidents, products and assets
-
 business value:
 - improve first time fix rate
 - guide technicians through procedures and help
 
-## Prerequisites
+features:
+- same knowledge management as customer service. dont need customer service its included with FS but if you have customer service you can use the same knowledge articles for both apps.
+- available on mobile offline
+- articles added to work order based on related case, incidents, products and customer assets
 
 
 
