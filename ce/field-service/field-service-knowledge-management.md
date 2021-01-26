@@ -126,7 +126,7 @@ Knowledge articles are downloaded and available offline however images and video
 
 ## Additional Notes
 
-- If a work order if a case has knowledge articles realted to it, and a work order is created from the case, are the article auto associated to work order?
+- If a work order is created from a case via the "Convert to Work Order" button on the case, knowledge articles linked to the case will automatically be linked to the work order. 
 
 
 
