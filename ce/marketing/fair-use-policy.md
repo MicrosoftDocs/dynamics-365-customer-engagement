@@ -1,7 +1,7 @@
 ---
 title: "Fair use policy (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn about usage limits and quotas in Dynamics 365 Marketing."
-ms.date: 01/12/2021
+ms.date: 01/26/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -34,7 +34,7 @@ The following table shows the current usage limits for Marketing features.
 | Email personalization | Number of [entity relationships connected](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-entity-relationships) in personalization                                         | 1 entity relationship (for example, contact.account, contact.events)               |
 | Custom channel        | Interactions per second                                | 50 interactions per second                                  |
 | Event registrations   | Number of event registrations processed simultaneously | 60 event registrations per second<br>40 concurrent requests |
-| Data synchronization  | Overall total volume of entities [synchronized to Marketing](https://docs.microsoft.com/en-us/dynamics365/marketing/mkt-settings-sync)| 100,000,000 entities                                        |
-| Data synchronization  | Volume of one entity type [synchronized to Marketing](https://docs.microsoft.com/en-us/dynamics365/marketing/mkt-settings-sync)| 20,000,000 entities                                        |
+| Data synchronization  | Overall total volume of entities [synchronized to Marketing](https://docs.microsoft.com/dynamics365/marketing/mkt-settings-sync)| 100,000,000 entities                                        |
+| Data synchronization  | Volume of one entity type [synchronized to Marketing](https://docs.microsoft.com/dynamics365/marketing/mkt-settings-sync)| 20,000,000 entities                                        |
 
 If you have questions or concerns about how to optimize your resources, contact [Microsoft support](https://docs.microsoft.com/power-platform/admin/get-help-support).
