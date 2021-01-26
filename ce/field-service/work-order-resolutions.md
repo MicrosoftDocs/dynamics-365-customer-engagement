@@ -46,6 +46,12 @@ business value
 
 
 ## Configuration considerations
+
+- primary resolution gets related to primary work order incident 
+- can add reoslutions even without incidents
+- can add multiple resolutions to work order
+
+
 ## Additional Notes
 
 > [!div class="mx-imgBorder"]
