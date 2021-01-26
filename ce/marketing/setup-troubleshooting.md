@@ -1,7 +1,7 @@
 ---
 title: "Administration and setup frequently asked questions (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Solutions to common questions and issues that can occur during the initial setup and ongoing administration of Dynamics 365 Marketing."
-ms.date: 12/17/2020
+ms.date: 01/26/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -48,7 +48,7 @@ Dynamics 365 Marketing is licensed per instance, with each instance priced accor
     Your monthly email quota is equal to 10 times the number of marketing contacts you have purchased.
 
 - **If I use a contact only once in a month and don’t use it next month, does it count?**  
-    Marketing contacts are cumulative throughout your license period. Once you've engaged a contact in any marketing activity, that contact counts against your quota from that point forward. You can "true down" the number of marketing contacts you've purchased on the anniversary of your contract.
+    Marketing contacts are not reset on monthly basis. Contacts are cumulative throughout your license period. Once you've engaged a contact in any marketing activity, that contact counts against your quota from that point forward. You can "true down" the number of marketing contacts you've purchased on the anniversary of your contract. Reductions to the total number of marketable contacts are not reflected in the [contact meter in the quota management view](https://docs.microsoft.com/dynamics365/marketing/quota-management) until the contacts are deleted.
 
 - **How can I learn more about Dynamics 365 Marketing licensing?**
   - For an overview, see [Purchase and set up Dynamics 365 Marketing](purchase-setup.md) 
