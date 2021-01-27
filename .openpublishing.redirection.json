@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "ce/mobile-app/send-email.md",
+      "redirect_url": "/dynamics365/sales-enterprise/use-sales-hub-on-dynamics-365-mobile#send-email",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/mobile-app/dynamics-365-phones-tablets-users-guide.md",
       "redirect_url": "/dynamics365/customerengagement/on-premises/basics/dynamics-365-phones-tablets-users-guide-onprem",
       "redirect_document_id": "false"
@@ -1479,6 +1484,11 @@
     {
       "source_path": "ce/field-service/create-inventory-adjustment.md",
       "redirect_url": "inventory-purchasing-returns-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/cfs-faq.md",
+      "redirect_url": "cfs-troubleshoot",
       "redirect_document_id": "false"
     },
     {

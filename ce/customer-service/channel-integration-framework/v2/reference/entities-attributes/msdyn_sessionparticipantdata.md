@@ -1,8 +1,8 @@
 ---
 title: "msdyn_SessionParticipantData Entity Reference for Microsoft Dynamics 365 Channel Integration Framework version 2.0| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_SessionParticipantData entity in Microsoft Dynamics 365 Channel Integration Framework version 2.0."
-author: "ramana-hyd"
-ms.author: "v-rmurthy"
+author: "v-sailab"
+ms.author: "v-sailab"
 manager: "shujoshi"
 ms.date: 11/03/2020
 ms.topic: "reference"

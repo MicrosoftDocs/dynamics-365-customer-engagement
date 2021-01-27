@@ -78,7 +78,7 @@ Make sure that the following requirements are met:
 Perform the following steps to enable the AI suggestions for similar cases:
 
 1. Sign in to the Customer Service Hub app.
-2. In the **Change area**, select **Service Management** > **Settings**. The **Analytics and insights settings** page appears.
+2. In the **Change area**, select **Service Management**, and then under **Analytics and Insights**, select **Settings**.
 3. In the **Premium AI capabilities** section, select** **Manage** under **Suggestions**. The **Suggestions** page appears.
 4. In the **Settings** > **Summary** area, set the toggle to **Yes** for **Enable similar case suggestions**.
 5. In the **Data mapping** > **Case entity data fields** area, select values for the **Case summary** and **Case details** boxes respectively if you do not want to use **Case Title** and **Description** that are set by default. The AI model uses the data corresponding to the selected boxes to understand the case context to provide similar case suggestions. By default, Case Title and Description fields are selected.
@@ -95,7 +95,7 @@ Perform the following steps to enable the AI suggestions for similar cases:
 Perform the following steps to enable the AI suggestions for related knowledge articles:
 
 1. Sign in to the Customer Service Hub app.
-2. In the **Change area**, select **Service Management** > **Settings (Preview)**. The **Analytics and insights settings** page appears.
+2. In the **Change area**, select **Service Management**, and then under **Analytics and Insights**, select **Settings**.
 3. Select **Manage** under **Suggestions**. The **Suggestions** page appears.
 4. In the **Settings** > **Summary** area, set the toggle to **Yes** for **Enable knowledge article suggestions**.
 5. In the **Data mapping** > **Knowledge article data fields** area, make sure that **Title** and **Content** are selected in **Article title** and **Article content** boxes, respectively. The selected options are used by the AI model to understand and find a good match for a case or conversation. Article content is used by the AI model to generate a brief article summary that is displayed to the agent at runtime.
