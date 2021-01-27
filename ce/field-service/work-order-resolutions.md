@@ -37,17 +37,26 @@ business value
 - good for training
 
 
-## Prerequisites
-> [!Note]
->
+
 
 ## Create resolutions
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/resolutions-list-settings.jpg)
+
 ## Specify resolutions to work orders
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/primary-resolution-wo.jpg)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/wo-resolutions-associated-wo.jpg)
 
 ## Associate resolutions to incident types (optional)
 
-
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/wo-resolution-form.jpg)
 
 ## Configuration considerations
 
@@ -58,20 +67,16 @@ business value
 
 ## Additional Notes
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/resolutions-list-settings.jpg)
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/primary-resolution-wo.jpg)
 
 
 
 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/wo-resolutions-associated-wo.jpg)
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/wo-resolution-form.jpg)
+
+
+
+
+
 
 
