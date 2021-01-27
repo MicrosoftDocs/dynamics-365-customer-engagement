@@ -35,7 +35,7 @@ With early access, you can also use Dynamics 365 app for Windows in offline mode
 
 Install the app from the Windows app store: [Install Dynamics 365 app for Windows (Preview)](https://www.microsoft.com/store/apps/9N0RWZ9KZZT8)
 
-(For admins) To distribute the app automatically you can use this use the Microsoft Store for Business and Education to find, acquire, distribute, and manage apps for your organization or school. Configuration Manager supports managing Microsoft Store for Business apps on both Windows 10 devices with the Configuration Manager client and Windows 10 devices enrolled with Microsoft Intune. For more information: [Manage apps from the Microsoft Store for Business and Education with Configuration Manager](https://docs.microsoft.com/en-us/mem/configmgr/apps/deploy-use/manage-apps-from-the-windows-store-for-business)
+(For admins) To distribute the app automatically you can use this use the Microsoft Store for Business and Education to find, acquire, distribute, and manage apps for your organization or school. Configuration Manager supports managing Microsoft Store for Business apps on both Windows 10 devices with the Configuration Manager client and Windows 10 devices enrolled with Microsoft Intune. For more information: [Manage apps from the Microsoft Store for Business and Education with Configuration Manager](https://docs.microsoft.com/mem/configmgr/apps/deploy-use/manage-apps-from-the-windows-store-for-business)
    
 ## Sign in
 
@@ -67,12 +67,12 @@ apps.
 1. To see apps from non-production environments, on the **Apps** page, select **More**.
         
     > [!div class="mx-imgBorder"] 
-    > ![Find non-production apps](media/nonprod-4.png "Find non-production apps")
+    > ![See non-production apps](media/nonprod-4.png "See non-production apps")
 
 2. Select **Settings**.
 
    > [!div class="mx-imgBorder"] 
-   > ![Find non-production apps](media/show-nonprod-apps-5.png "Find non-production apps")
+   > ![Select setting to see non-production apps](media/show-nonprod-apps-5.png "Select setting to see non-production apps")
 
 3. Under **Model apps**, set the **Show non-production apps** toggle to
     On. 
@@ -163,7 +163,7 @@ pin favorite records.
 
 ## Remove records from pinned items
 
-1. To unpin a record from favorites, from the left select **Pinned** ![Pinned items icon](media/pinned-button.png).
+1. To unpin a record from favorites, from the left select **Pinned** ![Pinned items button](media/pinned-button.png).
 
 2. Select **Remove from Pinned** next to the record that you want to remove from the favorites list.
 
@@ -177,7 +177,7 @@ Navigate through multiple records by using record set navigation. The record foc
 The number of records that you see in the record set navigation pane is based on the number of records that your system administrator has defined for the subgrid (record type).
 
 1. To use record set navigation, on the left select the type of record that you want to open. For example select, **Contacts**.
-2. Open a contact record and then select **Open Record Set** ![Pinned items icon](media/wp-record-set-nav-button.png) to open all records in the list and easily move from one record to another.
+2. Open a contact record and then select **Open Record Set** ![Open Record set button](media/wp-record-set-nav-button.png) to open all records in the list and easily move from one record to another.
 
    > [!div class="mx-imgBorder"] 
    > ![Open record set navigation](media/wp-recordset-nav.png "Open record set navigation")
