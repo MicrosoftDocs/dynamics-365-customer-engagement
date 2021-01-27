@@ -21,7 +21,7 @@ search.audienceType:
 ---
 # Virtual entity walkthrough using the OData v4 Data Provider
 
-[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Virtual table walkthrough](https://docs.microsoft.com/en-us/powerapps/maker/data-platform/virtual-entity-walkthrough-using-odata-provider)
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Virtual table walkthrough](/powerapps/maker/data-platform/virtual-entity-walkthrough-using-odata-provider)
 
 ## About this virtual entity walkthrough
 
