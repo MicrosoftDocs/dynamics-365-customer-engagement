@@ -6,6 +6,7 @@ ms.author: v-sailab
 manager: shujoshi
 ms.date: 07/01/2019
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ---
 # lcw:ready (Omnichannel for Customer Service JavaScript API reference)
 
