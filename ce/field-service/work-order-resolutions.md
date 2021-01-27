@@ -41,7 +41,11 @@ business value
 > [!Note]
 >
 
+## Create resolutions
 
+## Specify resolutions to work orders
+
+## Associate resolutions to incident types (optional)
 
 
 
