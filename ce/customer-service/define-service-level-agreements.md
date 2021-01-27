@@ -453,7 +453,7 @@ The service rep who is working on a case can see the SLA details right on the ca
 
 ## Export and import a solution with SLAs
 
-After configuring SLAs in your environment, you can replicate the SLA settings in another environment by using the export tool to export and import the solution. During the export and import of the solution with SLAs, all the related dependencies for the SLAs are listed on the UI and selected by default. While you can explicitly choose the dependencies, we recommend that you select all the related dependencies for the SLAs to function correctly.
+After configuring SLAs in your environment, you can replicate the SLA settings in another environment by using the export tool to export and import the solution. During the export of the solution with SLAs, all the related dependencies for the SLAs are listed on the UI and selected by default. While you can explicitly choose the dependencies, we recommend that you select all the related dependencies for the SLAs to function correctly.
 
 ## Recommended procedure for upgrading a solution
 
