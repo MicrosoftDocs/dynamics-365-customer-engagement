@@ -46,8 +46,7 @@ Sign into the Microsoft Dynamics 365 Windows app quickly using your work email a
    > [!NOTE]
    > To change your region settings, select the gear icon ![Gear button](media/gear-icon-1.png "Gear button"). The default setting is **Global**. Only change this setting if instructed by your administrator.   
 
-    > [!div class="mx-imgBorder"] 
-    > ![Select sign in](media/wpsignin-1.png "Select sign in").
+     ![Select sign in](media/wpsignin-1.png "Select sign in").
 
 2. Enter your email address, and then select **Continue**. Then enter your password and then select **Sign in**.
     
