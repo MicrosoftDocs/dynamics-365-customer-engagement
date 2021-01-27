@@ -57,16 +57,16 @@ These entities and corresponding commands are available in offline mode.
 ## Supported  capabilities 
 - **Business rules**: Business rules are supported in mobile offline. For more information, see Create business rules and recommendations to apply logic in a model-driven app form.
 
--**Business Process Flows**You can use business process flows in offline mode if the following conditions are met:
+- **Business Process Flows**You can use business process flows in offline mode if the following conditions are met:
 
-- The business process flow is used in a app that that you can run on Power Apps mobile.
-- The Power Apps mobile app is enabled for offline use.
-- The business process flow has a single entity.
-
-There are three commands that are available for a business process flow when you run an app in offline mode on the Power Apps mobille app.
-- Next stage
-- Previous stage
-- Set Active stage
+    - The business process flow is used in a app that that you can run on Power Apps mobile.
+    - The Power Apps mobile app is enabled for offline use.
+    - The business process flow has a single entity.
+    
+    There are three commands that are available for a business process flow when you run an app in offline mode on the Power Apps mobille app.
+    - Next stage
+    - Previous stage
+    - Set Active stage
 
 For more information, see [Run business process flows offline](https://docs.microsoft.com/power-automate/business-process-flows-overview#run-business-process-flows-offline).
 
