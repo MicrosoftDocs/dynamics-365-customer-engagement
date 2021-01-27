@@ -243,12 +243,32 @@ Mobile projects hold configurations and customizations of the Field Service Mobi
 
 To learn more about mobile projects, see our topic on [installing the Field Service Mobile Configuration Tool](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/install-field-service#install-the-field-service-mobile-configuration-tool).
 
+## 1.0.7289
+
+| Download link | Release date | Relates to Field Service Mobile version | Publish to Woodford version | Minimum Field Service version |
+| --- | --- | --- | --- | --- |
+| [1.0.7289](https://aka.ms/fsmobile-project)  |  January 2021  |  12.1+ | 12.1+ | 8.8.30 | 
+
+Features:
+- Inspections: Added support for Matrix control in Mobile.
+- Inspections: Data returned in entity lookup can be based on related entity lookup to improve filtering.
+
+Bug Fixes:
+- Error will be thrown when saving Time Entry if End Time is prior to Start Time.
+- Warehouse is set to the user who is logged into the application by default.
+- Windows App: Map Icon in shortcut header is not visible. 
+- Inspections: WOST form not closing on "Mark Complete" button click if form is not filled. 
+- Inspections: Unable to put response in different language than English in Inspections Form. 
+- Inspections: Bar Control text input updates to look like a single line text box.
+- Inspections: Windows: An error appears on Work Order Service Task if Work Order Service Task has an Inspection.
+
+
 
 ## 1.0.5912
 
 | Download link | Release date | Relates to Field Service Mobile version | Publish to Woodford version | Minimum Field Service version |
 | --- | --- | --- | --- | --- |
-| [1.0.5912](https://aka.ms/fsmobile-project)  |  October 2020  |  12.1+ | 12.1+ | 8.8.30 | 
+| [1.0.5912](https://aka.ms/fsmobile-project-5912)  |  October 2020  |  12.1+ | 12.1+ | 8.8.30 | 
 
 Features
 - Inspections support on Field Service Mobile
