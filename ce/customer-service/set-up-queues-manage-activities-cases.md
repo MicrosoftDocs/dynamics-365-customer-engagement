@@ -95,7 +95,7 @@ Follow the steps given below to create or edit a queue:
 
 6. Select **Save**.
 
-   ![queues-csh](media/queues-csh.png)
+   ![queues in Customer Service hub](media/queues-csh.png)
 
 ## Create a queue (Customer Service app) 
 
@@ -167,7 +167,7 @@ To assign items in the queue to agents, select **Assign** after selecting one or
 > [!Note]
 > - When two agents simultaneously add cases to the queue, then the system creates two queue items instead of a single queue item.
 > - If you've created workflows or used custom API to assign cases to agents and if a same case is assigned to two agents at the same time, then the system creates two queue items instead of a single queue item.
-> - From a queue, when an agent picks a case created by another agent and releases it, then the case gets assigned to the [queue owner](#create-a-queue-customer-service-app) and not the agent who created the case.
+> - From a queue, when an agent picks a case created by another agent and releases it, then the case gets assigned to the queue owner and not the agent who created the case.
 
 ### See also  
 
