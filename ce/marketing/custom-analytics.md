@@ -24,10 +24,6 @@ search.app:
 
 Dynamics 365 Marketing provides a wide selection of built-in analytics throughout the application. But you can also create your own custom analytics and reports from your Dynamics 365 Marketing data by using Power BI. We provide endpoints that you can use to connect Power BI to Dynamics 365 Marketing, plus a downloadable Power BI template that you can open in Power BI Desktop, connect to your Dynamics 365 data sources and then customize as needed. When you're done setting it up, you can publish and share your Power BI report using the standard Power BI online tools.
 
-> [!IMPORTANT]
-> [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]
-> [!INCLUDE[cc_preview_features_no_MS_support](../includes/cc-preview-features-no-ms-support.md)]  
-
 <a name="data-sources"></a>
 
 ## Data sources for custom analytics
@@ -82,17 +78,20 @@ for a quick overview of all the data that is available for your marketing analyt
 
 1. The **Marketing analytics configuration** page opens.
 
-    ![Marketing analytics configuration](media/custom-analytics-configuration.png "Marketing analytics configuration")
+    ![New marketing analytics configuration](media/custom-analytics-configuration-new.png "New marketing analytics configuration")
 
     Make the following settings:
 
     - **Name**: Enter a name to identify this configuration record.
-    - **Export to blob storage URL**: Paste the URL you copied earlier in this procedure.
-
-    > [!NOTE]
-    > The URL you pasted here includes a connection string to connect to your blob storage. Dynamics 365 Marketing will use this to set up a connection to the blob storage but will then discard it to prevent other people from being able to find it. For this same reason, the connection string will be hidden on the form after submit. This  URL _won't_ be stored in the Dynamics 365 database. That means that if you later copy your instance to a sandbox or restore from a backup, then you'll need to re-enter this URL to reestablish the connection to your blob storage in Azure.
+    - **Export to blob storage sas token**: Paste the URL you copied earlier in this procedure.
+    - **Export from date**: Optional. Export interactions created after the specified date. Leave empty to export all interactions.
 
 1. Save your settings.
+
+    ![Saved marketing analytics configuration](media/custom-analytics-configuration-running.png "Saved marketing analytics configuration")
+
+    > [!NOTE]
+    > The URL you pasted here has two parts, storage URL identifying your storage account and container name, and SAS token which allows Dynamics 365 Marketing to connect to your blob storage. To prevent other people from being able to connect to your blob storage only storage URL will be saved in the Dynamics 365 database and the full URL including SAS token will be stored securely in Dynamics 365 Marketing. This is why you can never see the full URL in this form.
 
 1. After a short time, Dynamics 365 Marketing will begin to export interaction data as individual files to your blob storage container, where you'll be able to pick it up using Power BI. You'll also be able to see these files and an associated JSON file in the Azure Storage Explorer.
 
