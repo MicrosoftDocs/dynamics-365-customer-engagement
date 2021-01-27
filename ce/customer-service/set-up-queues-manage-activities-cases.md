@@ -75,7 +75,7 @@ Follow the steps given below to create or edit a queue:
   
 5. Type or change information in the text boxes.  
   
-    Hovertips provide hints about what to enter.  
+    Hover tips provide hints about what to enter.  
   
    - In the **Summary** section, complete the required fields.  
   
@@ -121,7 +121,7 @@ Follow the steps given below to create or edit a queue:
   
 5. Type or change information in the text boxes.  
   
-    Hovertips provide hints about what to enter.  
+    Hover tips provide hints about what to enter.  
   
    - In the **Summary** section, complete the required fields.  
   
