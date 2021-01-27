@@ -216,6 +216,7 @@
 ##### [Configure a Microsoft Teams channel](configure-microsoft-teams.md)
 #### Set up a custom messaging channel
 ##### [Configure a custom messaging channel](configure-custom-channel.md)
+#### [Asynchronous channel support](asynchronous-channels.md)
 ### Agent experience
 #### [Use SMS channel](sms-telesign-twilio.md)
 #### [Use Facebook channel](facebook.md)
