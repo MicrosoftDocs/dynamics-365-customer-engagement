@@ -60,11 +60,11 @@ These entities and corresponding commands are available in offline mode.
 
 - **Business Process Flows**: You can use business process flows in offline mode if the following conditions are met:
 
-    - The business process flow is used in a app that that you can run on Power Apps mobile.
+    - The business process flow is used in an app that you can run on Power Apps mobile.
     - The Power Apps mobile app is enabled for offline use.
     - The business process flow has a single entity.
     
-    There are three commands that are available for a business process flow when you run an app in offline mode on the Power Apps mobille app.
+    There are three commands that are available for a business process flow when you run an app in offline mode on the Power Apps mobile app.
     
     - Next stage
     - Previous stage
@@ -78,7 +78,7 @@ For more information, see [Run business process flows offline](https://docs.micr
 
 - **Offline search**: Available only for offline entities. User can only search one entity at a time. Only categorized search is supported in offline mode and not relevant search.
 
-- **Notes on the Timeline control**: Notes on the Timeline control is available in offline mode. You can take pictures, read notes, and add/remove attachments in offline mode.
+- **Notes on the Timeline control**: Notes on the Timeline control are available in offline mode. You can take pictures, read notes, and add/remove attachments in offline mode.
   > [!NOTE]
   > The **Date** field is not available for mobile offline search.
   
@@ -157,7 +157,7 @@ Ensure that you have configured at least one of the Profile rules for each entit
 |-------------|---------|  
 |All Records|	If you are selecting this filter, you cannot define any other filter rule.|
 |Download Related Data only|If you are selecting this filter, you cannot define any other filter rule. Ensure that the entity has been defined as a Profile Item Association entity also.|
-|Other Data Filter - if selected, then select at least one of these options: **Download my Records**, **Download my team records**, or **Download my business unit**  |	If you want to define this filter you have to pick at least one of the given options. It is highly recommended to not have Business Unit level filter for an entity unless there is a strong justification. It is recommended for a master data scenario with a small data set like Country codes. |
+|Other Data Filter - if selected, then select at least one of these options: **Download my Records**, **Download my team records**, or **Download my business unit**  |	If you want to define this filter, then you have to pick at least one of the given options. It is highly recommended to not have Business Unit level filter for an entity unless there is a strong justification. It is recommended for a master data scenario with a small data set like Country codes. |
 |Custom Data Filter |<=3 filters can be defined in the custom data filter. |
 
 
