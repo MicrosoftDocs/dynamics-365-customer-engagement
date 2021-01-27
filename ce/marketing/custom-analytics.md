@@ -18,7 +18,7 @@ search.app:
   - D365Mktg
 ---
 
-# Preview: Prepare for analytic reporting with Power BI
+# Prepare for analytic reporting with Power BI
 
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
