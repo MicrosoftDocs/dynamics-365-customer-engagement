@@ -35,7 +35,7 @@ With early access, you can also use Dynamics 365 app for Windows in offline mode
 
 Install the app from the Windows app store: [Install Dynamics 365 app for Windows (Preview)](https://www.microsoft.com/store/apps/9N0RWZ9KZZT8)
 
-(For admins) To distribute automatically you can use this use the Microsoft Store for Business and Education to find, acquire, distribute, and manage apps for your organization or school. Configuration Manager supports managing Microsoft Store for Business apps on both Windows 10 devices with the Configuration Manager client and Windows 10 devices enrolled with Microsoft Intune. For more information: [Manage apps from the Microsoft Store for Business and Education with Configuration Manager](https://docs.microsoft.com/en-us/mem/configmgr/apps/deploy-use/manage-apps-from-the-windows-store-for-business)
+(For admins) To distribute the app automatically you can use this use the Microsoft Store for Business and Education to find, acquire, distribute, and manage apps for your organization or school. Configuration Manager supports managing Microsoft Store for Business apps on both Windows 10 devices with the Configuration Manager client and Windows 10 devices enrolled with Microsoft Intune. For more information: [Manage apps from the Microsoft Store for Business and Education with Configuration Manager](https://docs.microsoft.com/en-us/mem/configmgr/apps/deploy-use/manage-apps-from-the-windows-store-for-business)
    
 ## Sign in
 
@@ -230,7 +230,7 @@ created by another user and shared with you.
 
 ## Sign out
 
-To sign out select profile button and then select **Sign out**.
+To sign out, select the profile button and then select **Sign out**.
 
 > [!div class="mx-imgBorder"] 
 > ![Sign out](media/sign-out-8.png "Sign out")
@@ -238,7 +238,7 @@ To sign out select profile button and then select **Sign out**.
 
 ## Set up mobile offline (for admins)
 
-To allows users to use the Dynamics 365 for Windows mobile app in offline mode, a Dynamics 365 administrator will need to set up mobile offline for their organization. For more information, see [Set up mobile offline synchronization](https://docs.microsoft.com/dynamics365/mobile-app/setup-mobile-offline).
+To allow users to use the Dynamics 365 for Windows mobile app in offline mode, a Dynamics 365 administrator will need to set up mobile offline for your organization. For more information, see [Set up mobile offline synchronization](https://docs.microsoft.com/dynamics365/mobile-app/setup-mobile-offline).
 
 ## Work in offline mode (for end-users)
 
@@ -256,7 +256,7 @@ When your admin has enabled mobile offline, the next time you access the mobile
 
 ## Download offline data later
 
-If didn't want to download offline data and selected **Skip for Now** then you can still download offline data.
+If you didn't download offline data and selected **Skip for Now** then you can still download offline data.
 
 1. Open your app and on the nav bar select the Wi-Fi button.
 
@@ -277,7 +277,7 @@ When updates are downloaded, you can check to see if mobile offline is available
 > [!div class="mx-imgBorder"] 
 > ![Select the Wi-Fi button](media/offline-updates-wifibutton-20.png "Select the Wi-Fi button")
    
-The **Offline Status** page provide information on your offline status.
+The **Offline Status** page provides information on your offline status.
 
 > [!div class="mx-imgBorder"] 
 > ![Offline status page](media/workoffline-legend-22.png "Offline status page")
@@ -286,7 +286,7 @@ The **Offline Status** page provide information on your offline status.
 
 1. **Status**: Tracks the offline status of the whole app, and the status of each entity individually. When the status shows as **Available**, it indicates offline is available and data has synced successfully.
 
-2. **Entity**: Provides the offline status of each entity individually. For the available entities, you can also track the last time the entity synced. Data is synced periodically in the background to ensure that you have access to the latest data whenever you go offline.
+2. **Entity**: Provides the offline status of each entity individually. For the available entities, you can also track the last time the entity synced. Data is synced periodically in the background to ensure that you have access to the latest data when you go offline.
 
 3. **Last Sync Date**: Indicates the last time your data was synced
     with the server.
@@ -296,7 +296,7 @@ The **Offline Status** page provide information on your offline status.
 
 ## Work in offline mode
 
-When you set the **Work in offline mode** toggle to on, you will this notification: **You are now working in offline mode**.
+When you set the **Work in offline mode** toggle to on, then you will see this notification: **You are now working in offline mode**
  
 > [!div class="mx-imgBorder"] 
 > ![Notification tells you that you're working in offline mode](media/offlinemode-notification-23.png "Notification tells you that you're working in offline mode")
@@ -313,7 +313,7 @@ app.
 
 2. Set the **Work in offline mode** toggle to off.
 
-3. When you back online, you will see a notification stating that, **The connection was successfully restored**. Your changes are automatically synchronized with your app.
+3. When you're back online, you will get a notification stating that, **The connection was successfully restored**. Thus, your changes are automatically synchronized with your app.
 
    > [!div class="mx-imgBorder"] 
    > ![Notification when you're back online](media/offline-mode-turn-off-24.png "Notification when you're back online")
@@ -336,11 +336,11 @@ To send feedback about the app, go back to the **Apps** page, select **More** > 
 
 ### Media capture is not supported
 
-You can add notes, but cannot capture and attach photos, videos or audio. However, you can attach local files of any types including photo, video or audio types.  
+You can add notes, but cannot capture and attach photos, videos, or audio. However, you can attach local files of any types including photo, video, or audio types.  
 
 ### Cannot use the barcode scanner
 
-At multiple forms you can see the Barcode Scanner button ![Bar code scanner button](media/scannerbutton.png). This is not supported in the early access.
+You will see the Barcode Scanner button ![Bar code scanner button](media/scannerbutton.png) on multiple forms however, it is not supported in early access.
 
 ### Embedded Power BI and canvas will not render
 
