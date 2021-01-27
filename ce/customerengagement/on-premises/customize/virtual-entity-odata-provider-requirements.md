@@ -23,7 +23,7 @@ search.audienceType:
 
 # OData v4 Data Provider configuration, requirements, and best practices
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [OData v4 Data Provider configuration](/powerapps/maker/data-platform/virtual-entity-odata-provider-requirements)
 
 This topic describes how to configure the OData v4 data provider as well as the requirements and recommended best practices for using the OData v4 data provider to connect with an OData v4 web service. 
 
