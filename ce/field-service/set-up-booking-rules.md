@@ -24,7 +24,8 @@ Booking rules are custom JavaScript methods that will be executed prior to the b
 Set up booking rules to validate a booking when it is created or modified.  
  
 > [!Note]
-> Booking rules are only available for the hourly view, and not daily, weekly, or monthly views.
+> - Booking rules are only available for the hourly view, and not daily, weekly, or monthly views.
+> - Booking rules are not available on the reassign functionality on the schedule board.
 
 ## Create a solution
 

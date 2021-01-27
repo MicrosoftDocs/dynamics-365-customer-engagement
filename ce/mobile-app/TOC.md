@@ -15,7 +15,6 @@
 
 # User Guides
 ## [Basic navigation in Dynamics 365 for phones and tablets](user-guide-mobile-app.md)
-## [Send email from the mobile app](send-email.md)
 ## [Work offline on your mobile device](work-in-offline-mode.md)
 
 # [Troubleshooting](troubleshooting-things-know-about-phones-tablets.md)
