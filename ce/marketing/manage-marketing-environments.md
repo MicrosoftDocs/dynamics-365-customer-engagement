@@ -54,7 +54,7 @@ After copying or restoring an environment, as described later in this article, y
 - After any copy or restore operation, you must [run the setup wizard](purchase-setup.md#run-wizard) on the target environment. This will create a new set of Marketing services (including a new marketing-insights service) and link them to the target environment. If you don't run the wizard, all features that require services (such as insights and email sending) won't work, and you'll still see information about images in the files library for which the source files aren't available.
 - Because a new set of Marketing services is created on the target environment, interaction data from your source environment (such as email clicks or website visits) won't be available to the target environment. Most insights data will be initialized. You can freely generate new interaction data on the target environment without affecting your source environment.
 - Files uploaded to your source environment (such as images used in emails and landing pages) won't be available to the target environment. If you go live with an email or page that was previously published on the source environment, the published design will continue to use the previous image URLs from the source environment&mdash;these images will still appear in the republished designs provided they are still available on the source environment, but to avoid confusion, we strongly recommend that you upload all the images you need to the new environment and edit your emails and pages to use those images before going live with them again.
-- If the Marketing app on your source environment used a Dynamics 365 Portal, then you might choose to also set up a new portal on the target environment to host its marketing pages and event websites (requires an unconfigured Dynamics 365 Portals license to be available on your tenant). [Portals are optional](portal-optional.md), so you can choose not to use a portal with the copied environment if you prefer, even if the source environment was using one.
+- If the Marketing app on your source environment used a Power Apps portal, then you might choose to also set up a new portal on the target environment to host its marketing pages and event websites (requires an unconfigured Power Apps portals license to be available on your tenant). [Portals are optional](portal-optional.md), so you can choose not to use a portal with the copied environment if you prefer, even if the source environment was using one.
 
 <a name="copy-to-sandbox"></a>
 
@@ -92,7 +92,7 @@ The _target environment_ is the environment you are copying _to_. As with the so
 
 To prepare your target environment, do the following _before_ starting the copy:
 
-1. If the Marketing environment was [integrated with a Dynamics 365 Portal](portal-optional.md), reset the portal as described in [Reset a portal](../portals/reset-portal.md). This is important because it will free your portal license to be used elsewhere.
+1. If the Marketing environment was [integrated with a Power Apps portal](portal-optional.md), reset the portal as described in [Reset a portal](../portals/reset-portal.md). This is important because it will free your portal license to be used elsewhere.
 1. After the reset, the portal will still be shown as "configured" in the Power Platform admin center, but you will now be able to select it when you run the Marketing setup wizard to set up a new, copied, or restored environment.
 
 ### Step 3: Copy the environment
@@ -148,7 +148,7 @@ You can easily restore any on-demand or automatic system backup to any available
 
 To restore a backup onto a sandbox environment:
 
-1. If your target environment includes a [Dynamics 365 Portal](portal-optional.md), then reset the portal as described in [Reset a portal](../portals/reset-portal.md). This is important because it will free your portal license to be used elsewhere. After the reset, the portal will still be shown as "Configured" in the Power Platform admin center, but you will now be able to select it when you run the Marketing setup wizard to set up a new, copied, or restored environment.
+1. If your target environment includes a [Power Apps portal](portal-optional.md), then reset the portal as described in [Reset a portal](../portals/reset-portal.md). This is important because it will free your portal license to be used elsewhere. After the reset, the portal will still be shown as "Configured" in the Power Platform admin center, but you will now be able to select it when you run the Marketing setup wizard to set up a new, copied, or restored environment.
 
 1. Restore the backup onto the newly prepared sandbox as usual, as described in [Backup and restore environments](https://docs.microsoft.com/power-platform/admin/backup-restore-environments).
 
@@ -203,7 +203,7 @@ To copy a production environment to a support environment:
 
 For standard Dynamics 365 environments (without Marketing installed), you can use the Power Platform admin center to delete or reset an environment. However, if you do have Marketing installed, you should also do the following:
 
-1. If the Marketing environment was [integrated with a Dynamics 365 Portal](portal-optional.md), reset the portal as described in [Reset a portal](../portals/reset-portal.md). This is important because it will free your portal license to be used elsewhere. After the reset, the portal will still be shown as "Configured" in the Power Platform admin center, but you will now be able to select it when you run the Marketing setup wizard to set up a new, copied, or restored environment.
+1. If the Marketing environment was [integrated with a Power Apps portal](portal-optional.md), reset the portal as described in [Reset a portal](../portals/reset-portal.md). This is important because it will free your portal license to be used elsewhere. After the reset, the portal will still be shown as "Configured" in the Power Platform admin center, but you will now be able to select it when you run the Marketing setup wizard to set up a new, copied, or restored environment.
 1. Delete or reset the environment as usual. More information: [Delete environment](https://docs.microsoft.com/power-platform/admin/delete-environment)
 
 > [!NOTE]

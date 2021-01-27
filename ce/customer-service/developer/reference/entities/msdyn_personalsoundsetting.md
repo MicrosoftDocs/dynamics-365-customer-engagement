@@ -1,8 +1,8 @@
 ---
 title: "msdyn_Personalsoundsetting Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_Personalsoundsetting entity."
-author: "ramana-hyd"
-ms.author: "v-rmurthy"
+author: "v-sailab"
+ms.author: "v-sailab"
 manager: "shujoshi"
 ms.date: 07/15/2020
 ms.topic: "reference"

@@ -1,8 +1,8 @@
 ---
 title: "Architecture overview of Dynamics 365 Channel Integration Framework version 1.0 | Microsoft Docs"
 description: "Learn the architecture overview of Dynamics 365 Channel Integration Framework version 1.0."
-author: ramana-hyd
-ms.author: v-rmurthy
+author: v-sailab
+ms.author: v-sailab
 manager: shujoshi
 ms.date: 12/31/2019
 ms.topic: get-started-article

@@ -19,7 +19,7 @@ ms.service: dynamics-365-customerservice
 
 3. Select **New**. The **New Chat Widget** page is displayed.
 
-4. On the **General settings** tab, specify the information for the following fields.
+4. On the **General settings** tab, specify the information for the following fields. The **Customer waiting** and **Chat Reconnect** options are available only for Live chat. Enter the settings in the fields depending on the type of chat you want to configure.
 
     | Section | Field | Description | Example value |
     |---------------|------------------------|-----------------------------------|---------------------|
@@ -28,6 +28,12 @@ ms.service: dynamics-365-customerservice
     |  | **Agent display name** | Select an agent display name type from the list: **Full name**, **First name**, **Last name**, and **Nick name**. <br> More information: [Configure agent display name](agent-display-name.md) | Full name |
     |  | **Authentication settings** |Select an authentication setting from the list. This is an optional field. More information: [Create chat authentication settings](create-chat-auth-settings.md) | Chat authentication |
     |||
+    
+
+    |Section | Field | Description | Example value |
+    |--------|-------|-------------|-------------------------------|
+    |**Conversation Mode** | **Select mode** | Select the conversation mode from the list. For more information, see: [Persistent chat](persistent-chat.md) | Persistent chat or Live Chat|
+    ||||
 
     | Section | Field | Description | Example value |
     |---------------|------------------------|-----------------------------------|---------------------|
@@ -65,7 +71,7 @@ ms.service: dynamics-365-customerservice
 
 
     > [!div class=mx-imgBorder]
-    > ![Configure the basic details of a chat widget](media/oc-chat-widget-basic-details-tab.png "Configure the basic details of a chat widget")
+    > ![Configure the basic details of a chat widget](media/chat-widget.png "Configure the basic details of a chat widget")
 
 6. On the **Automated messages** tab, set up automated messages for your chat widget. More information: [Configure automated messages](configure-automated-message.md)
 
