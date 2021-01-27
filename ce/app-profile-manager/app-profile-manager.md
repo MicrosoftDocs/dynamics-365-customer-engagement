@@ -4,7 +4,7 @@ description: "Using app profile manager to create and manage app profiles."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 01/13/2021
+ms.date: 01/27/2021
 ms.service: "dynamics-365-customerservice"
 ms.topic: article
 ---
@@ -19,6 +19,7 @@ By default, the following app profiles are available out of the box for Customer
 
 - Omnichannel for Customer Service - default profile
 - Customer Service workspace - default profile
+- Customer Service workspace + channels - default profile
 
 The app profile manager is available in Power Apps where you'll create the app profiles.
 
