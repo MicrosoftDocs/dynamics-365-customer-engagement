@@ -112,7 +112,7 @@ Legend:
  **Apps** page and select a different app.
 
 7. **Go back**: Use this button to go back to the previous page. This
-    work on the form, view, and dashboard pages.
+    works on the form, view, and dashboard pages.
 
 8. **Search**: Search for records in your app.
 
@@ -135,7 +135,7 @@ Legend:
 
 16. **Help**: Access online help.
 
-17. **User info and sign out**: Access your use information, sign out,
+17. **User info and sign out**: Access your user information, sign out,
     and reconfigure the app.
 
 ## Site map
@@ -156,7 +156,7 @@ pin favorite records.
 
 2. From the list of records, select **Add to Pinned** ![Add to pinned items icon](media/add-to-pinned-button.png) next to the record that you want to add to favorites.
 
-3. When the record is pinned, you will see a pin next to the record.
+3. When the record is pinned, you will see a pin next to the record name.
 
    > [!div class="mx-imgBorder"] 
    > ![Shows pinned records](media/wp-pinned-records-11.png "Shows pinned records").
@@ -226,7 +226,7 @@ created by another user and shared with you.
    > [!div class="mx-imgBorder"] 
    > ![Select a record to edit](media/wp-edit-record-17.png "Select a record to edit")
 
-3. Edit the record and when you're done the record is automatically saved.
+3. When you're done editing the record, it is automatically saved.
 
 ## Sign out
 
@@ -256,7 +256,7 @@ When your admin has enabled mobile offline, the next time you access the mobile
 
 ## Download offline data later
 
-If you didn't download offline data and selected **Skip for Now** then you can still download offline data.
+If you didn't download offline data and selected **Skip for Now** then you can still download offline data when you're ready.
 
 1. Open your app and on the nav bar select the Wi-Fi button.
 
