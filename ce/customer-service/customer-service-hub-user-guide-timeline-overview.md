@@ -122,7 +122,7 @@ Legend
 
 **Expanded threaded email view**
 
-![Expanded threaded email view](media\timeline-threaded-email-views-2a.png "Expanded threaded email view")
+![Expanded threaded email view](media\timeline-threaded-email-views-2a.PNG "Expanded threaded email view")
 
 Legend
 1. When expanded, the most recent 10 email responses in the thread will display.  To display more, select **Show more** to expand the view again.
