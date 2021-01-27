@@ -1,5 +1,5 @@
 ---
-title: "Micrsoft Dynamics 365 mobile app for Windows (Dynamics 365 apps)| MicrosoftDocs"
+title: "Microsoft Dynamics 365 mobile app for Windows (Dynamics 365 apps)| MicrosoftDocs"
 ms.custom: 
 description: How to use the Dynamics 365 mobile app for Windows
 ms.date: 02/01/2021
@@ -33,7 +33,7 @@ With early access, you can also use Dynamics 365 app for Windows in offline mode
 
 ## Install Dynamics 365 app for Windows (Preview)
 
-Install the app from the Windows app store: [Install Dynamics 365 app for Windows (Preview)](https://go.microsoft.com/fwlink/?linkid=2153522)
+Install the app from the Windows app store: [Install Dynamics 365 app for Windows (Preview)](https://www.microsoft.com/store/apps/9N0RWZ9KZZT8)
 
 (For admins) To distribute automatically you can use this use the Microsoft Store for Business and Education to find, acquire, distribute, and manage apps for your organization or school. Configuration Manager supports managing Microsoft Store for Business apps on both Windows 10 devices with the Configuration Manager client and Windows 10 devices enrolled with Microsoft Intune. For more information: [Manage apps from the Microsoft Store for Business and Education with Configuration Manager](https://docs.microsoft.com/en-us/mem/configmgr/apps/deploy-use/manage-apps-from-the-windows-store-for-business)
    
