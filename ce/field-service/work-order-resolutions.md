@@ -41,8 +41,14 @@ business value
 
 ## Create resolutions
 
+From the Field Service app go to Settings > Resolutions.
+
+Create resolution records based on your business needs. As an example, if "reinstall firmware" is a common way to resolve a work order issue then create a resolution record with "reinstall firmware" as the title. The description should be additional information on why or how to reinstall firmware. 
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/resolutions-list-settings.jpg)
+
+At this time a resolution is simply a name and a text description. 
 
 ## Specify resolutions to work orders
 
