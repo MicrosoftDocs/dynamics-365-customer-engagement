@@ -68,6 +68,13 @@ During asset installations, technicians may want to connect new IoT devices to A
 
 This will create the IoT device in Azure IoT.
 
+1.  On your mobile device, open the mobile app.
+
+2.  Tap **Customer Assets**, and then tap the **Add** button.
+
+3.  Fill in the asset information and, then tap **Register Device**.
+
+
 ## Troubleshoot by sending commands
 
 After an administrator has configured commands in Azure IoT, technicians can run the commands from the Field Service (Dynamics 365) mobile app.

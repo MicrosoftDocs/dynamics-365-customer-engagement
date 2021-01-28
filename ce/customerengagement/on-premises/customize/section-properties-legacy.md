@@ -14,11 +14,10 @@ ms.topic: article
 ms.assetid: 2d3af6e9-e8a4-4129-b708-383b2740c015
 search.audienceType: 
   - customizer
-
 ---
 # Section properties
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Add, configure, move, or delete sections on a form](/powerapps/maker/model-driven-apps/add-move-or-delete-sections-on-form)
 
  A section in a form occupies the space available in a tab column. Sections have a label that can be displayed and a line may be shown below the label.  
   
