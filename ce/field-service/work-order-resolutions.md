@@ -54,6 +54,11 @@ At this time a resolution is simply a name and a text description.
 
 Technicians in the field will then update the work order with the resolution by selecting a resolution from the lookup in the **Primary Resolution** field. Techncicians will do this on the mobile app. 
 
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/capture-resolution-mobile.jpg)
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/primary-resolution-wo.jpg)
 
@@ -71,7 +76,7 @@ A work order can have many resolutions. From the work order go to the resolution
 
 Organizations using Incident types to organize and track common work order issues will find that incident types and resolutions work well together.
 
-For each work order incident type, technicians and dipsatchers can tag a resolution and vice versa.
+For each work order incident type, technicians and dipsatchers can tag a Work Order resolution and vice versa.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/wo-resolution-form.jpg)
@@ -79,14 +84,11 @@ For each work order incident type, technicians and dipsatchers can tag a resolut
 > [!Note]
 > The Primary Resolution is associated to the Primary work order incident type by default. 
 
+When setting up Incident types in Settings, administrators can preemptively assoiate
+
 ## Configuration considerations
 
--  
-- can add reoslutions even without incidents
-- can add multiple resolutions to work order
-
-
-## Additional Notes
+-  Using incident types is not required to use resolutions. You can tag resolutions to work order that do not have incident types. 
 
 
 
