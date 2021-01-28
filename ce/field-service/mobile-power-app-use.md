@@ -175,7 +175,6 @@ To sync specific views, select **Refresh** from the app's bottom menu. For examp
 System administrators can find more information in the topic on [configuring offline sync filters](mobile-power-app-system-offline.md).
 
 ## Time entry
-
 Time entry capabilities help field service organizations better track the time that technicians spend during work orders and other scenarios. 
 
 Time entries are useful for: 

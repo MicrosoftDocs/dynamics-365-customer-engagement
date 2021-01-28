@@ -81,7 +81,7 @@ The content that your customer journey delivers to contacts as they traverse the
     
   With the new designer, this is no longer needed as the audience can be defined using a form, by selecting the form submitted as a source. Alternatively, an audience can be defined by using a segment of all the people who submitted a given form. 
 
-- **Marketing page**: The marketing page tile represents a native marketing page designed in Dynamics 365 Marketing and running on a Dynamics 365 portal. In the old designer, this tile could be used as a nested tile under email tiles to represent a marketing page link that is included in the email message’s content. It could also be used to enable trigger tiles placed later in the pipeline to “know” about the marketing link and to react to contact interactions with it. 
+- **Marketing page**: The marketing page tile represents a native marketing page designed in Dynamics 365 Marketing and running on a Power Apps portal. In the old designer, this tile could be used as a nested tile under email tiles to represent a marketing page link that is included in the email message’s content. It could also be used to enable trigger tiles placed later in the pipeline to “know” about the marketing link and to react to contact interactions with it. 
 
   In the new designer, the same can be achieved by adding a Marketing page entity as a dependency to an email (in the properties of the email tile). 
 
