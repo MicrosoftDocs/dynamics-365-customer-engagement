@@ -57,6 +57,32 @@ Legend:
 6. **Task**: Create a new task record.
 7. **More**: Access more commands such as add activities, start a task flow, use the assistant, and more.
 
+## Early access feature
+
+If you have enabled early access then you will have a different navigation experience. This section calls the improved experience on forms including form tabs, and sub-grids.
+
+Your administrator has to opt in to early access updates for your environment and then install the updates to get this feature. More information: [Opt in to early access updates](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates)
+
+
+### From page with tabs
+
+When you're on a form page with tabs, you can scroll and span horizontally across the screen. When you select a tab, it adjusts the header just enough to reveal the next few tabs. 
+
+![Form pages with tabs](media/form-tab.png "Form pages with tabs")
+
+### Subgrids
+
+Empty subgrids display the option to add a new record inline, reducing the number of taps needed to add a record.
+
+### More commands
+
+Commands on the subgrid show in a drawer from the bottom of the screen.
+
+### Search this view
+
+When you're on a view, you hve the option to **Search this View** at the top of the grid instead of a command.
+
+
 ## Site map 
 
 From the Home screen, select the site map ![Site map icon](media/d365_mobile_sitemap_icon.png "Site map icon") to access entities, favorite or most-used records, other apps, and settings.
@@ -82,6 +108,8 @@ Legend
 7. **Help**: Access help content for more information about how to use the app.
 8. **Offline status**: Work with your data in offline mode, even when you don't have internet access. More information: [Work offline on your mobile device](https://docs.microsoft.com/dynamics365/mobile-app/work-in-offline-mode)
 9. **Settings**: Access settings.
+
+
 
 ## Pin favorite records
 
@@ -181,34 +209,6 @@ Make sure you use the **Reconfigure** option before you sign out. If you sign in
 
 To reconfigure the app, from the site map ![Site map icon](media/d365_mobile_sitemap_icon.png "Site map icon"), select the profile icon ![Profile icon](media/d365_profile_icon.png "Site map icon"), and then select **Reconfigure**.
 
-
-## Early access feature
-
-If you have enabled early access then you will have a different navigation experience. This section calls the improved experience on forms including form tabs, and sub-grids.
-
-Your administrator has to opt in to early access updates for your environment and then install the updates to get this feature. More information: [Opt in to early access updates](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates)
-
-
-### From page with tabs
-
-When you're on a form page with tabs, you can scroll and span horizontally across the screen. When you select a tab, it adjusts the header just enough to reveal the next few tabs. 
-
-
-|**Current**  |**Early access** |
-|---------|---------|
-| ![Power Apps mobile user interface.](media/powerappsmobile.png "Power Apps mobile user interface")     |     ![Power Apps mobile user interface with model-driven and canvas apps.](media/powerappsmobile-1.png "Power Apps mobile user interface with model-driven and canvas apps")  |
-
-### Subgrids
-
-Empty subgrids display the option to add a new record inline, reducing the number of taps needed to add a record.
-
-### More commands
-
-Commands on the subgrid show in a drawer from the bottom of the screen.
-
-### Search this view
-
-When you're on a view, you hve the option to **Search this View** at the top of the grid instead of a command.
 
 
 
