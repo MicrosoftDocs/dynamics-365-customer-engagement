@@ -250,17 +250,17 @@ To learn more about mobile projects, see our topic on [installing the Field Serv
 | [1.0.7289](https://aka.ms/fsmobile-project)  |  January 2021  |  12.1+ | 12.1+ | 8.8.30 | 
 
 Features:
-- Inspections: Added support for Matrix control in Mobile.
+- Inspections: Added support for matrix control in Mobile.
 - Inspections: Data returned in entity lookup can be based on related entity lookup to improve filtering.
 
-Bug Fixes:
-- Error will be thrown when saving Time Entry if End Time is prior to Start Time.
+Bug fixes:
+- Error will be thrown when saving time entry if end time is prior to start time.
 - Warehouse is set to the user who is logged into the application by default.
-- Windows App: Map Icon in shortcut header is not visible. 
+- Windows app: Map icon in shortcut header is not visible. 
 - Inspections: WOST form not closing on "Mark Complete" button click if form is not filled. 
-- Inspections: Unable to put response in different language than English in Inspections Form. 
-- Inspections: Bar Control text input updates to look like a single line text box.
-- Inspections: Windows: An error appears on Work Order Service Task if Work Order Service Task has an Inspection.
+- Inspections: Unable to put response in different language than English in inspections form. 
+- Inspections: Bar control text input updates to look like a single line text box.
+- Inspections: Windows: An error appears on work order service task if work order service task has an inspection.
 
 
 
