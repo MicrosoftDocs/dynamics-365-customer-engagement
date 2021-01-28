@@ -2,7 +2,7 @@ In this article, we'll take a look at what's new, and how to switch to the new s
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the new schedule board in Dynamics 365](../../field-service/media/schedule-board-new-rso-1920-final.png)
+> ![Screenshot of the new schedule board in Dynamics 365](../../field-service/media/schedule-board-new-map9.png)
 
 The new schedule board is faster, with better usability, and it lays the foundation for new capabilities for multi-day scheduling and intelligent interactions.
 
@@ -67,6 +67,10 @@ schedule-board-new-resource-card
 
 ## Map view of requirements and resources
 
+schedule-board-new-map9
+
+schedule-board-new-map3
+
 ## Daily view
 
 The new schedule board supports a daily view of scheduled jobs and supports dragging and dropping to the schedule.
@@ -106,6 +110,8 @@ Selecting **Book resources** will find the most optimal resources and book them 
 ## Optimization goals
 
 ## Edit multi-day bookings
+
+schedule-board-new-edit-multiday-bookings
 
 ## Configuration considerations
 
