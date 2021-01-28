@@ -83,7 +83,7 @@ After adding and assigning Dynamics 365 Field Service licenses to your users, yo
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/user-field-security-navigate.png)
+> ![Screenshot of the Field Security profiles in Field Service.](./media/user-field-security-navigate.png)
 
 9. Select **Add**. 
 
