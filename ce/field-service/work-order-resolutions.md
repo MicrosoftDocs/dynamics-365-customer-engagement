@@ -52,8 +52,14 @@ At this time a resolution is simply a name and a text description.
 
 ## Specify resolutions to work orders
 
+Technicians in the field will then update the work order with the resolution by selecting a resolution from the lookup in the **Primary Resolution** field. Techncicians will do this on the mobile app. 
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/primary-resolution-wo.jpg)
+
+Dispatchers in the back office can also update the primary resolution on the work order from the web browser. 
+
+Regardless of who adds a resolution, doing so creates a new Work Order Resolution record.  
 
 
 > [!div class="mx-imgBorder"]
