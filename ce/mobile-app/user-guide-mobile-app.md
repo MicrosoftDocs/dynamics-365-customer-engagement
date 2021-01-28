@@ -58,7 +58,7 @@ Legend:
 
 ## Early access features
 
-If you have enabled early access then you will have a different navigation experience. This section calls the improved experience on forms including form tabs, and sub-grids.
+If you have enabled early access then you will have a different navigation experience. This section calls out the improved experience on form pages including form tabs, and sub-grids.
 
 Your administrator has to opt in to early access updates for your environment and then install the updates to get this feature. More information: [Opt in to early access updates](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates)
 
