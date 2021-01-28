@@ -1,4 +1,4 @@
-A fully redesigned schedule board was made available as a public preview in the April 2020 release of Dynamics 365 Field Service. This new schedule board is now generally available in the October 2020 release of Dynamics 365 Field Service. In this article, we'll take a look at what's new, and how to switch to the new schedule board in your environment. 
+In this article, we'll take a look at what's new, and how to switch to the new schedule board in your environment. 
 
 
 > [!div class="mx-imgBorder"]
@@ -11,6 +11,8 @@ The new schedule board is faster, with better usability, and it lays the foundat
 
 
 ### Performance
+
+- The next generation schedule board is generally available. 
 
 The new schedule board is faster and more responsive when: 
 
