@@ -30,7 +30,7 @@ You can implement the frontend using any of the available frameworks. The fronte
 You can host a custom event website in two ways:
 
 1. [Self-hosted](self-hosted.md)
-2. [Dynamics 365 Portal hosted](portal-hosted.md)
+2. [Power Apps portal hosted](portal-hosted.md)
 
 ## Prerequisites
 
@@ -113,7 +113,7 @@ Some of the parameters that you need to understand before you start configuring 
 |**useRestStack** | This setting specifies which API is used. If set to true, then the new event management public API is used. If set to false, then the deprecated event management Portal API is used. This API can only be used if you host the custom event website on Portals. To use the new event management public API, you need to register the web application.|
 |**emApplicationtoken**| This token authenticates your web application against the event management public API. You can retrieve the application token by registering a new web application in Dynamics 365 Marketing instance. This token is not required if you're using the deprecated event management Portal API.
 |**isAuthenticationEnabled** | This flag specifies whether the user authentication is supported or not (that is, the user can register or sign in). If set to false, then the application doesn't display a way to sign in or register.|
-|**useAadB2C** | Specifies whether you want to use **Azure Active Directory B2C identity management** for authentication. If you want to use **Dynamics 365 Portals identity management** then this flag needs to be set to false. If AAD B2C is enabled, then you need to configure the `aadB2CConfig` variable.|
+|**useAadB2C** | Specifies whether you want to use **Azure Active Directory B2C identity management** for authentication. If you want to use **Power Apps portals identity management** then this flag needs to be set to false. If AAD B2C is enabled, then you need to configure the `aadB2CConfig` variable.|
 |**aadB2CConfig** | Configuration object used by event management application when **AAD B2C identity management** is enabled. |
 |**useMockData** | This setting can be used to return mock objects instead of making real API calls.|
 |**dateSettings** | This setting can be used to configure how the dates will be formatted in the website. If `convertToLocalDate` flag is set to true, all dates will be automatically converted to the end users local time. |
@@ -136,6 +136,6 @@ To expose the new field to be visible in the API, follow the steps below:
 ### See also
 
 [Self-hosted](self-hosted.md)<br />
-[Dynamics 365 Portal hosted](portal-hosted.md)<br/>
+[Power Apps portal hosted](portal-hosted.md)<br/>
 [Localization](event-portal-localization.md)<br />
 [Host your custom event website on Azure](host-custom-event-website-on-azure.md)

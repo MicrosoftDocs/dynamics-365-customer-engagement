@@ -1,4 +1,5 @@
 # [App profile manager](overview.md)
+
 ## [Roles and permissions](security-roles.md)
 ## [Use app profile manager](app-profile-manager.md)
 ## [Settings](settings.md)
@@ -7,7 +8,8 @@
 ### [Manage session templates](session-templates.md)
 ### [Manage application tab templates](application-tab-templates.md)
 ### [Manage notification templates](notification-templates.md)
-### [Use automation dictionary to pass data parameter keys](automation-dictionary-keys.md)
+### [Associate templates with work streams](associate-templates.md)
+
 ## Productivity tools
 ### [Manage smart assist](smart-assist.md)
 ### [Manage agent scripts](agent-scripts.md)
