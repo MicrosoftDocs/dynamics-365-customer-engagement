@@ -35,16 +35,19 @@ To send messages to Omnichannel for Customer Service, you need to add the follow
 OmnichannelBotClient.BridgeBotMessage(turnContext.Activity);
 ```
 
-## Link customer or case to a conversation by bot when escalating to a human agent
+## Escalate a conversation to a human agent
 
 In Omnichannel for Customer Service, a bot can escalate the current conversation to a human agent. The routing to the new agent depends on the routing rule that is configured for the work stream. During the transfer of the conversation from the bot to human agent, the bot can set context items that can be used by skill identification rules to identify new skills and append them to the existing skills list for the conversation.
 
-Make sure that the following aspects are taken care of:
-
-- Skill-based routing is enabled.
-- Customer and case can be linked to the conversation by bot at the time of escalation so that the human agents can see the related customer and case in customer summary section when they start interacting with the customers. To link the customer or case, set the values for associated attributes, such as the name and phone number. The bot can set context parameters that were set in [automatic customer identification](record-identification-rule.md).
+> [!Note]
+> Skill-based routing should be enabled 
 
 The primary way a bot can dictate how the conversation will be routed is by using Omnichannel for Customer Service context variables that are associated with the chat. A bot can send out a list of context variables and the values to which they need to be updated along with the escalation request. Omnichannel for Customer Service will update the context variables to the specified values and then rerun the routing engine. This ensures that an escalated chat is routed to the right queue. After the agent accepts the request, the chat transcript with the bot is visible on the agent’s conversation widget. The agent can then continue the chat with the customer.
+
+### Link customer and case to a conversation by bot when escalating to a human agent
+
+Customer and case can be linked to the conversation by the bot at the time of escalation so that the human agents can see the related customer and case in customer summary section when they start interacting with the customers. To link the customer or case, set the values for associated attributes, such as the name and phone number. The bot can set context parameters that are set in [automatic customer identification](record-identification-rule.md).
+
 
 ## End a conversation
 
