@@ -2,7 +2,7 @@
 title: "Basic navigation in Dynamics 365 for phones and tablets (Dynamics 365 apps)| MicrosoftDocs"
 description: How to use the Dynamics 365 mobile app
 ms.custom: 
-ms.date: 1/11/2021
+ms.date: 1/27/2021
 ms.reviewer: kvivek
 ms.service: crm-online
 ms.suite: 
