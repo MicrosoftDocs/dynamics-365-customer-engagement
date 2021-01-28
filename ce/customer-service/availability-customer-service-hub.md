@@ -1,6 +1,6 @@
 ---
-title: Availability of Customer Service Hub (Dynamics 365 Customer Service) | Microsoft Docs
-description: 
+title: "Availability of Customer Service Hub (Dynamics 365 Customer Service) | MicrosoftDocs"
+description: "Contains information on availability of Customer Service Hub."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
