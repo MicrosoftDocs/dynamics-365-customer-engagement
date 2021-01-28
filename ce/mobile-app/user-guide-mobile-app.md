@@ -79,10 +79,14 @@ When there is an subgrids with no records, now you will have an option to add a 
 
 Commands on the subgrid show in a drawer from the bottom of the screen.
 
+![More commands on subgrids](media/more-command-drawer.png "More commands on subgrids")
+
+
 ### Search this view
 
 When you're on a view, you hve the option to **Search this View** at the top of the grid instead of a command.
 
+![Search this view](media/search-view.png "Search this view")
 
 ## Site map 
 
