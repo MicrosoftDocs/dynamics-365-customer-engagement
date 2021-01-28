@@ -120,7 +120,7 @@ To view device readings, the following data must be in place:
 
 ## View device readings on the mobile app
 
-Device readings and summary tiles are viewable on the mobile app when connected to the internet. See the topic on [Connected Field Service on Field Service (Dynamics 365) mobile app](https://docs.microsoft.com/dynamics365/field-service/cfs-mobile-powerapp#view-summary-tiles-and-device-readings) for more details. 
+Device readings and summary tiles are viewable on the mobile app when connected to the internet. For more information, see the article: [Connected Field Service on Field Service (Dynamics 365) mobile app](https://docs.microsoft.com/dynamics365/field-service/cfs-mobile-powerapp#view-summary-tiles-and-device-readings)  
 
 ## Error codes
 
