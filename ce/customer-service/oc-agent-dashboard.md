@@ -37,7 +37,7 @@ The work item that you picked is moved from the **Open work items** stream to th
 
 In the **Closed work items** stream, you see all the conversations that you've closed on the same day. To view a closed work item, select the ellipsis button (**...**) for it, and then select **Open** to view the details.
 
-When you open a record from the **Closed work items** stream, you can view all the attributes of the conversation record. This re-opens or re-activates the conversation.
+When you open a record from the **Closed work items** stream, you can view the attributes of the conversation record. This will not re-open or re-activate the conversation.
 
 ## Sort work items
 
