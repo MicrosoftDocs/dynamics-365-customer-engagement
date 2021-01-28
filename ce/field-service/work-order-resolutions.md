@@ -59,7 +59,9 @@ Technicians in the field will then update the work order with the resolution by 
 
 Dispatchers in the back office can also update the primary resolution on the work order from the web browser. 
 
-Regardless of who adds a resolution, doing so creates a new Work Order Resolution record.  
+Regardless of who adds a resolution, doing so creates a new Work Order Resolution record. 
+
+A work order can have many resolutions. From the work order go to the resolution tabs and add as many resolutions as needed. The primary resolution is added automatically. 
 
 
 > [!div class="mx-imgBorder"]
@@ -67,12 +69,19 @@ Regardless of who adds a resolution, doing so creates a new Work Order Resolutio
 
 ## Associate resolutions to incident types (optional)
 
+Organizations using Incident types to organize and track common work order issues will find that incident types and resolutions work well together.
+
+For each work order incident type, technicians and dipsatchers can tag a resolution and vice versa.
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/wo-resolution-form.jpg)
 
+> [!Note]
+> The Primary Resolution is associated to the Primary work order incident type by default. 
+
 ## Configuration considerations
 
-- primary resolution gets related to primary work order incident 
+-  
 - can add reoslutions even without incidents
 - can add multiple resolutions to work order
 
