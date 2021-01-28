@@ -53,6 +53,20 @@ Go to the schedule board and use the toggle button in the top right of the sched
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the schedule board showing the preview toggle in the top right set to "On."](../../field-service/media/schedule-board-new-enable-preview.png)
 
+
+
+## Select and filter resources
+
+schedule-board-new-select-resources1
+
+schedule-board-new-select-resources2
+
+## Resource cards
+
+schedule-board-new-resource-card
+
+## Map view of requirements and resources
+
 ## Daily view
 
 The new schedule board supports a daily view of scheduled jobs and supports dragging and dropping to the schedule.
@@ -64,6 +78,9 @@ Scheduled requirements with a short duration will display across the entire day 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the new schedule board showing another daily view detail.](../../field-service/media/scheduling-new-daily-view.png)
+
+## Weekly and monthly views
+
 
 ## Schedule resources
 
@@ -86,7 +103,9 @@ Selecting **Book resources** will find the most optimal resources and book them 
 
 **Suggest resources** and **Book resource** capabilities on the new schedule board are currently only available for organizations using resource scheduling optimization.
 
+## Optimization goals
 
+## Edit multi-day bookings
 
 ## Configuration considerations
 
