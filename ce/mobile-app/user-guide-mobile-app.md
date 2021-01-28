@@ -63,28 +63,28 @@ If you have enabled early access then you will have a different navigation exper
 Your administrator has to opt in to early access updates for your environment and then install the updates to get this feature. More information: [Opt in to early access updates](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates)
 
 
-### From page with tabs
+#### From page with tabs
 
-When you're on a form page with tabs, you can scroll and span horizontally across the screen. When you select a tab, it adjusts the header just enough to reveal the next few tabs. 
+When you're on a form page with tabs, you can scroll and span horizontally across the screen. When you select a tab, it adjusts the header so you can easily view next few tabs. 
 
 ![Form pages with tabs](media/form-tabs.png "Form pages with tabs")
 
-### Add new record on subgrids
+#### Add new record on subgrids
 
-When there is an subgrids with no records, now you will have an option to add a new record quickly.
+When there is an subgrids with no records, you can add a new record quickly.
 
 ![Add a new record on subgrid](media/subgrid-add-record.png "Add a new record on subgrid")
 
-### More commands
+#### More commands
 
-Commands on the subgrid show in a drawer from the bottom of the screen.
+Commands on the subgrid show from the bottom of the screen.
 
 ![More commands on subgrids](media/more-command-drawer.png "More commands on subgrids")
 
 
-### Search this view
+#### Search this view
 
-When you're on a view, you hve the option to **Search this View** at the top of the grid instead of a command.
+When you're on a view, you hve the option to **Search this View** at the top of the grid instead of a command. This will search in the current view.
 
 ![Search this view](media/search-view.png "Search this view")
 
