@@ -45,7 +45,7 @@ Follow these steps to migrate entity records from legacy scheduling experience t
     > [!Note]
     > - The migration tool doesn’t consider the records whose status is marked as Ignore. To learn more, see [Understand migration status](#understand-migration-summary-and-troubleshoot).
     >
-    > - If you create any records after you start the migration, the newly created entity records will not be fetched and migrated.
+    > - If you create any records after you start the migration, the new entity records will not be fetched and migrated.
 
 6. Review the information in the confirmation dialog and select **Migrate**. Once you migrate, the action cannot be undone.
 
@@ -77,7 +77,7 @@ To learn more, see [Troubleshoot using migration information](#troubleshoot-to-r
 
 ### Troubleshoot to resolve migration errors
 
-One of the reasons for the failure of entity record migration is a dependency between the entity records. That is, a **Service Activity** entity record has a dependency on the **Service** entity record, which in turn has a dependency on the **Resource Group** entity record. If the migration of **Resource Group** fails, then migration of **Service** and **Service Activity** also fails.
+One of the reasons for the failure of entity record migration is a dependency among the entity records. That is, a **Service Activity** entity record has a dependency on the **Service** entity record, which in turn has a dependency on the **Resource Group** entity record. If the migration of **Resource Group** fails, then migration of **Service** and **Service Activity** also fails.
 
    ![Migration record failure](media/migration-record-failure.png "Migration record failure")
 
@@ -98,7 +98,7 @@ See the matrix for the dependency.
 
 The **Service Activity** for Henry Ross has a dependency on the **Service**, Bike overhaul and **Resource Group**, Bike technicians.
 
-Let us take the above mentioned example to learn how to resolve the error.
+Let us take the preceding example to learn how to resolve the error.
 
 1. Select **View Errors** against the **Service Activities** record in the **Data Migration Wizard** tab. 
 
