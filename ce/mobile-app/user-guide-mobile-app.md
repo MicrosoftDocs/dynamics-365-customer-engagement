@@ -71,20 +71,20 @@ When you're on a form page with tabs, you can scroll and span horizontally acros
 
 #### Add new record on subgrids
 
-When there is an subgrids with no records, you can add a new record quickly.
+On a subgrid with no records, you can now add a new record quickly.
 
 ![Add a new record on subgrid](media/subgrid-add-record.png "Add a new record on subgrid")
 
 #### More commands
 
-Commands on the subgrid show from the bottom of the screen.
+You can easily see the commands on a subgrid that show from the bottom of the screen.
 
 ![More commands on subgrids](media/more-command-drawer.png "More commands on subgrids")
 
 
 #### Search this view
 
-When you're on a view, you hve the option to **Search this View** at the top of the grid instead of a command. This will search in the current view.
+When you're on a view, use the **Search this View** option to search the current view.
 
 ![Search this view](media/search-view.png "Search this view")
 
