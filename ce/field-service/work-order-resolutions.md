@@ -56,7 +56,7 @@ Technicians in the field will then update the work order with the resolution by 
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/capture-resolution-mobile.jpg)
+> ![Screenshot of ](./media/capture-resolution-mobile.png)
 
 
 Dispatchers in the back office can also update the primary resolution on the work order from the web browser. 
