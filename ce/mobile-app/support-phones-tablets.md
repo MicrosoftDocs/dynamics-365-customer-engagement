@@ -30,8 +30,8 @@ You can access customer engagement apps (such as Dynamics 365 Sales, Dynamics 36
   
 |                              Platform                              |   Versions    | RAM (minimum)  | 
 |--------------------------------------------------------------------|---------------|---------------|
-|       [iOS](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets#install-the-app-from-your-devices-app-store)       | 11.4.1 or later  |     1 GB (2 GB recommended)     
-|     [Android](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets#install-the-app-from-your-devices-app-store)     | 6.0.1 or later |     2 GB (3 GB recommended)    |                                  |
+|       [iOS](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets#install-the-app-from-your-devices-app-store)       | 12.4.9 or later  |     1 GB (2 GB recommended)     
+|     [Android](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets#install-the-app-from-your-devices-app-store)     | 7.1.1 or later |     2 GB (3 GB recommended)    |                                  |
 | [Windows](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets#install-the-app-from-your-devices-app-store) |      10       |     2 GB (4 GB recommended)                     
  
  
@@ -57,8 +57,8 @@ For full functionality and optimized experience, we strongly recommend that you 
   
 |                              Platform                             |   Versions  | Minimum Resolution or Screen Size  | 
 |--------------------------------------------------------------------|---------------|---------------|
-|       Apple iPad      | iOS 11.4.1 or later  |     9-inch screen (diagonal) or larger or iPad Mini with 7.9 inch screen      |                                     | 
-|     Android tablet  | 6.0.1 or later |     1366 x 768 resolution (720p)    |                                  |
+|       Apple iPad      | iOS 12.4.9 or later  |     9-inch screen (diagonal) or larger or iPad Mini with 7.9 inch screen      |                                     | 
+|     Android tablet  | 7.1.1 or later |     1366 x 768 resolution (720p)    |                                  |
 | Windows tablet or PC |      10       |     1366 x 768 resolution (720p)
         
 
@@ -139,7 +139,9 @@ When the application first loads after installation, it will determine the devic
 
 ## Deprecated and unsupported platforms
 
-- On December 1, 2019, the mobile app will no longer support iOS 10, Android 4.4, and Android 5. The minimum Android version will be 6.0.1 and the minimum iOS version will be 11.4.1.
+- As of April 1, 2021, the mobile app will no longer support iOS 11, Android 6 and Android 7.0. The minimum Android version will be 7.1.1 and the minimum iOS version will be 12.4.9.
+
+- As of December 1, 2019, the mobile app will no longer support iOS 10, Android 4.4, and Android 5. The minimum Android version will be 6.0.1 and the minimum iOS version will be 11.4.1.
 
 - As of December 3, 2018, Microsoft Dynamics 365 for Blackberry App is deprecated and will be removed from the iOS App Store on October 31, 2019. For more information, [Dynamics 365 for Blackberry is deprecated
 ](https://docs.microsoft.com/power-platform/important-changes-coming#dynamics-365-for-blackberry-is-deprecated).

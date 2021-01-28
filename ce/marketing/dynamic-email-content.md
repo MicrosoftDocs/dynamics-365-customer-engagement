@@ -1,7 +1,7 @@
 ---
 title: "Add dynamic content to marketing emails (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to add field values, set up content settings information, conditional statements, and while loops to your email designs in Dynamics 365 Marketing."
-ms.date: 07/16/2020
+ms.date: 01/20/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -100,7 +100,7 @@ To use assist edit:
    ![Assist edit, page 2](media/assist-edit3.png "Assist edit, page 2")
 
 > [!IMPORTANT]
-> Field values from lookups and related tables aren't shown in the **Preview** tab of the designer, or in test sends. Likewise, [for-each loops](#for-each) aren't rendered in previews or test sends. To test your related-field expressions and/or loop functionality, set up a simple customer journey to deliver the message to yourself.
+> Lists created using for-each loops are not rendered in a particular order and are not sortable by any field.
 
 <a name="assist-edit-relations"></a>
 
@@ -212,7 +212,7 @@ You can likewise use assist edit to help construct a dynamic expression for sett
 
 ## Find record IDs
 
-Non-contextual field expressions (which use the form  `{{EntityName(RecordID).FieldName}}`) require a record ID to identify the specific record the value must come from. Usually, assist edit will help you find these IDs, but sometimes you might need to find an ID manually while you are designing dynamic features for a message. To do find the ID for any record:
+Non-contextual field expressions (which use the form  `{{EntityName(RecordID).FieldName}}`) require a record ID to identify the specific record the value must come from. Usually, assist edit will help you find these IDs, but sometimes you might need to find an ID manually while you are designing dynamic features for a message. To find the ID for any record:
 
 1. Open the record you want to reference.
 2. Look at the URL shown in your browser's address bar, which should show a URL such as:  

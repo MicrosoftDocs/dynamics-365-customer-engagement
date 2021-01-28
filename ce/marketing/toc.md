@@ -7,7 +7,7 @@
 ## Installation and environment management
 ### [Sign up for a free trial](trial-signup.md)
 ### [Purchase and set up Dynamics 365 Marketing](purchase-setup.md)
-### [Integrate Marketing with a CMS system or Dynamics 365 Portal](portal-optional.md)
+### [Integrate Marketing with a CMS system or Power Apps portal](portal-optional.md)
 ### [Open the Power Platform admin center](power-platform-admin-center.md)
 ### [Re-run the Marketing setup wizard](re-run-setup.md)
 ### [Manage Marketing environments](manage-marketing-environments.md)
@@ -58,11 +58,12 @@
 #### [Control access to designer features](designer-feature-protection.md)
 
 ### Email administration
-#### [Best practices for email marketing](get-ready-email-marketing.md)
 #### [Email bounce categories](email-bounce-categories.md)
 #### [Create an SPF TXT record](create-spf-record.md)
 #### [Dedicated vs shared IPs for email delivery](dedicated-vs-shared-ip.md)
 #### [Email policies and suspension standards](email-policies.md)
+#### [Best practices for email marketing](get-ready-email-marketing.md)
+#### [Email troubleshooting](email-troubleshooting.md)
 
 ### Customization
 #### [Customizing Marketing](customize.md)
@@ -242,7 +243,7 @@
 #### Self-hosted
 ##### [Overview](developer/self-hosted.md)
 ##### [Host your custom event website on Azure](developer/host-custom-event-website-on-azure.md)
-#### Dynamics 365 Portal hosted
+#### Power Apps portal hosted
 ##### [Overview](developer/portal-hosted.md)
 ##### [Manually overwriting sample website](developer/manually-overwriting-sample-website.md)
 #### Events API
