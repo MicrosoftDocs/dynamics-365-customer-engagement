@@ -53,7 +53,7 @@ The advantages or value proposition of the Unified Service Desk performance anal
 > ![Performance analyzer value propositions](../media/performance-analyzer-value-propositions.PNG "Performance analyzer value propositions")
 
 ## Support matrix
-The Unified Service Desk Performance Analyzer supports Unified Service Desk 3.2 and higher.
+The Unified Service Desk Performance Analyzer supports Unified Service Desk 4.0 and later.
 
 > [!div class="nextstepaction"]
 > [Download Unified Service Desk Performance Analyzer](download-performance-analyzer.md)
