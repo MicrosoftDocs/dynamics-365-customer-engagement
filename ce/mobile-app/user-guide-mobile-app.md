@@ -40,7 +40,6 @@ You can run your Sales Hub app, Customer Service Hub app, and Dynamics 365 Custo
 >   - Finance and Operations applications: [Finance and Operations mobile app](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-app-home-page) 
 
 
-
 ## Home screen 
 
 It's easy to get around in the Dynamics 365 mobile app. The following illustration shows the primary navigation elements on the Home screen. 
@@ -57,7 +56,7 @@ Legend:
 6. **Task**: Create a new task record.
 7. **More**: Access more commands such as add activities, start a task flow, use the assistant, and more.
 
-## Early access feature
+## Early access features
 
 If you have enabled early access then you will have a different navigation experience. This section calls the improved experience on forms including form tabs, and sub-grids.
 
@@ -68,11 +67,13 @@ Your administrator has to opt in to early access updates for your environment an
 
 When you're on a form page with tabs, you can scroll and span horizontally across the screen. When you select a tab, it adjusts the header just enough to reveal the next few tabs. 
 
-![Form pages with tabs](media/form-tab.png "Form pages with tabs")
+![Form pages with tabs](media/form-tabs.png "Form pages with tabs")
 
-### Subgrids
+### Add new record on subgrids
 
-Empty subgrids display the option to add a new record inline, reducing the number of taps needed to add a record.
+When there is an subgrids with no records, now you will have an option to add a new record quickly.
+
+![Add a new record on subgrid](media/subgrid-add-record.png "Add a new record on subgrid")
 
 ### More commands
 
