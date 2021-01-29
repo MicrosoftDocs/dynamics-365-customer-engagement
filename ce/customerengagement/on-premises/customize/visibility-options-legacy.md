@@ -18,11 +18,10 @@ ms.author: matp
 manager: kvivek
 search.audienceType: 
   - customizer
-
 ---
 # Show or hide form elements
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Show or hide model-driven app form elements](/powerapps/maker/model-driven-apps/visibility-options-legacy)
 
  Several types of form elements have the option to be shown or hidden by default. Tabs, sections, fields, iFrames, and web resources all provide this option. Using form scripts or business rules the visibility of these elements can be controlled to create a dynamic form to provide a user interface that adapts to conditions in the form.  
   
