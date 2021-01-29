@@ -57,9 +57,15 @@ Go to the schedule board and use the toggle button in the top right of the sched
 
 ## Select and filter resources
 
+Choose which resources should display on each schedule board tab. 
+
+Expand the filter pane and choose **Select Resources**.
+
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/schedule-board-new-select-resources1.png)
+
+From the list of available resources on the left, moves the ones you want to display on the schedule board to the right. Then Apply changes. 
 
 
 > [!div class="mx-imgBorder"]
@@ -67,15 +73,19 @@ Go to the schedule board and use the toggle button in the top right of the sched
 
 ## Resource cards
 
+Right click a resource's name and then choose View Resource Card to see more information like the resource's skillset (characteristics) and roles as well as initiate a message, email, or phone call. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/schedule-board-new-resource-card.png)
 
 ## Map view of requirements and resources
 
+Select the map icon in the upper right of the schedule board to display the resources and requirements on a map.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/schedule-board-new-map9.png)
+
+After exapnding the map view, select a resources name to see his or her route. The numbers indicate the order the resource is scheduled to arrive at each job (requirement) location. 
 
 
 > [!div class="mx-imgBorder"]
@@ -95,9 +105,12 @@ Scheduled requirements with a short duration will display across the entire day 
 
 ## Weekly and monthly views
 
+Switch to the weekly or monthly views to see scheduled jobs at a higher level. Select a resource's time slot and a requirement below to trigger the booking panel.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/schedule-board-new-weekly.png)
+
+The booking panel will help you schedule a work order across multiple days and choose how the work should be divided each day.
 
 
 ## Schedule resources
