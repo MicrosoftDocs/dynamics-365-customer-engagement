@@ -1,7 +1,7 @@
 ---
 title: "Prepare for analytic reporting with Power BI (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Describes how to set up data sources in Dynamics 365 Marketing to make them available to Power BI, and how to download and connect a Power BI template to them."
-ms.date: 07/24/2020
+ms.date: 01/28/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -84,7 +84,7 @@ for a quick overview of all the data that is available for your marketing analyt
 
     - **Name**: Enter a name to identify this configuration record.
     - **Export to blob storage sas token**: Paste the URL you copied earlier in this procedure.
-    - **Export from date**: Optional. Export interactions created after the specified date. Leave empty to export all interactions.
+    - **Export from date**: Optional. When left empty, all interactions available in the Marketing application will be exported. If a date value is specified, then only the interactions that happened after this date will be exported. This is useful for reducing the amount of data exported if you are not interested in creating reports for older interactions.
 
     > [!NOTE]
     > Parallel exports are not supported, only one export configuration is allowed.
@@ -94,12 +94,12 @@ for a quick overview of all the data that is available for your marketing analyt
     ![Saved marketing analytics configuration](media/custom-analytics-configuration-running.png "Saved marketing analytics configuration")
 
     > [!NOTE]
-    > The URL you pasted here has two parts: storage URL identifying your storage account and container name, and SAS token which allows Dynamics 365 Marketing to connect to your blob storage. To prevent other people from being able to connect to your blob storage only storage URL will be saved in the Dynamics 365 database and the full URL including SAS token will be stored securely in Dynamics 365 Marketing. This is why you can never see the full URL in this form.
+    > The URL you pasted here has two parts: a storage URL identifying your storage account and container name, and an SAS token that allows Dynamics 365 Marketing to connect to your blob storage. To prevent other people from being able to connect to your blob storage, only the storage URL will be saved in the Dynamics 365 database. The full URL, including the SAS token, will be stored securely in Dynamics 365 Marketing. This is why you can never see the full URL in this form.
 
 1. After a short time, Dynamics 365 Marketing will begin to export interaction data as individual files to your blob storage container, where you'll be able to pick it up using Power BI. You'll also be able to see these files and an associated JSON file in the Azure Storage Explorer.
 
     > [!NOTE]
-    > Interactions are exported on the fly but only until the provided SAS token expires. You can update SAS token at any time by pasting new URL in the **Export to blob storage sas token** field and saving the configuration. Already stopped export will be automatically restarted. This is only possible for the same storage account or container. If you need to start exporting to a different storage account and container please stop the current export, delete the configuration and create a new one.
+    > Interactions are exported on the fly, but only until the provided SAS token expires. You can update the SAS token at any time by pasting a new URL in the **Export to blob storage sas token** field and saving the configuration. The already stopped export will be automatically restarted. This is only possible for the same storage account or container. If you need to export to a different storage account and container, stop the current export, delete the configuration, and create a new one.
 
 ## Get Power BI templates and connect them your Marketing data
 
