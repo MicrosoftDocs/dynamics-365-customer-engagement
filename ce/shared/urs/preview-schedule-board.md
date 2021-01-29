@@ -85,6 +85,8 @@ Scheduled requirements with a short duration will display across the entire day 
 
 ## Weekly and monthly views
 
+schedule-board-new-weekly
+
 
 ## Schedule resources
 
@@ -108,6 +110,8 @@ Selecting **Book resources** will find the most optimal resources and book them 
 **Suggest resources** and **Book resource** capabilities on the new schedule board are currently only available for organizations using resource scheduling optimization.
 
 ## Optimization goals
+
+schedule-board-new-optimization-goals-edit
 
 ## Edit multi-day bookings
 
