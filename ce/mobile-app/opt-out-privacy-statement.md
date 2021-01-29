@@ -1,7 +1,7 @@
 ---
 title: "How to opt out of data collection  (Dynamics 365 apps)| MicrosoftDocs"
 ms.custom: 
-ms.date: 01/23/2019
+ms.date: 01/29/2021
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
