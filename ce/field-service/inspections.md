@@ -3,7 +3,7 @@ title: "Dynamics 365 Field Service inspections | MicrosoftDocs"
 description: Learn about how to use inspections in Dynamics 365 Field Service.
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 11/19/2020
+ms.date: 02/01/2021
 ms.reviewer: krbjoran
 ms.topic: article
 ms.service: dynamics-365-customerservice
