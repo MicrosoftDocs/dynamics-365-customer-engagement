@@ -44,7 +44,7 @@ When you open a record from the **Closed work items** stream, you can view the a
 On the dashboard, you can sort the work items by the following categories:
 
 - Modified On
-- Work distribution mode
+- Work distribution mode (For open work items only)
 - Customer
 - Work stream
 - Created On
