@@ -57,19 +57,29 @@ Go to the schedule board and use the toggle button in the top right of the sched
 
 ## Select and filter resources
 
-schedule-board-new-select-resources1
 
-schedule-board-new-select-resources2
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/schedule-board-new-select-resources1.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/schedule-board-new-select-resources2.png)
 
 ## Resource cards
 
-schedule-board-new-resource-card
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/schedule-board-new-resource-card.png)
 
 ## Map view of requirements and resources
 
-schedule-board-new-map9
 
-schedule-board-new-map3
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/schedule-board-new-map9.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/schedule-board-new-map3.png)
 
 ## Daily view
 
@@ -85,7 +95,9 @@ Scheduled requirements with a short duration will display across the entire day 
 
 ## Weekly and monthly views
 
-schedule-board-new-weekly
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/schedule-board-new-weekly.png)
 
 
 ## Schedule resources
@@ -112,10 +124,14 @@ Selecting **Book resources** will find the most optimal resources and book them 
 ## Optimization goals
 
 schedule-board-new-optimization-goals-edit
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
 
 ## Edit multi-day bookings
 
 schedule-board-new-edit-multiday-bookings
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
 
 ## Configuration considerations
 
