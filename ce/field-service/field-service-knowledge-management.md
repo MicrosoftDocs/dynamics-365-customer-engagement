@@ -1,6 +1,6 @@
 ---
-title: "Knowledge management in Field Service | MicrosoftDocs"
-description: description
+title: "Knowledge management in Dynamics 365 Field Service | MicrosoftDocs"
+description: Learn about knowledge management in Dynamics 365 Field Service
 ms.custom:
 - dyn365-fieldservice
 ms.date: 02/01/2021
@@ -19,109 +19,107 @@ search.app:
 - D365FS
 ---
 
-# Knowledge management in Field Service
+# Knowledge management in Dynamics 365 Field Service
 
+When field service technicians are onsite performing work, they need to be able to access information to help them solve the problems they encounter.
 
-// https://msit.microsoftstream.com/video/595ba1ff-0400-9887-23d4-f1eb5a0959f3?channelId=0bf6f71a-b361-4d7b-9668-62ff5207b60d
+With knowledge management in Dynamics 365 Field Service, relevant knowledge articles can be associated directly to work orders so that technicians can easily troubleshoot while on the go. Articles added to work orders can also be based on related cases, incidents, products, and customer assets.
 
-business value:
-- improve first time fix rate
-- guide technicians through procedures and help
+Access to these articles can:
 
-features:
-- same knowledge management as customer service. dont need customer service its included with FS but if you have customer service you can use the same knowledge articles for both apps.
-- available on mobile offline
-- articles added to work order based on related case, incidents, products and customer assets
+- Improve first-time fix rate.
+- Guide technicians through procedures and help.
 
+> [!Note]
+> Previously, knowledge management was only available for Field Service through Dynamics 365 Customer Service; it's now built-in to Field Service and no longer requires Dynamics 365  Service. If you're already using Dynamics 365 Customer Service knowledge articles in Field Service, you can still use knowledge management for both. 
+
+In this article, we'll walk through how to: 
+
+- Create a knowledge article
+- Associate articles to cases, assets, incident types, or products
+- Associate articles to work orders
+- View knowledge articles from the mobile app
 
 ## Create a knowledge article
 
-First create a knowledge article. 
-
-From the Field Service app go to Settings > Knowledge articles. 
+In Field Service, go to **Settings** > **Knowledge Articles**.
 
 Create a knowledge article and add text, pictures, and videos as needed.
 
 Then save and publish the article.
 
-See the following topics for more details:
+For more information on knowledge articles, visit the following Customer Service documentation:
 
 - [Create and manage knowledge articles](https://docs.microsoft.com/dynamics365/customer-service/customer-service-hub-user-guide-knowledge-article)
 - [Set up a search provider](https://docs.microsoft.com/dynamics365/customer-service/set-up-search-providers)
 
-
 ## Associate knowledge article to cases, customer assets, incident types, products
 
-Next associate knowledge articles to various work order records like incident types, products, or customer assets based on your business needs. When any of these records are added to a work order the related knowledgte articles will get linked to the work order. Below are two examples of relating knowledge articles to incident types and customer assets.
+Next, associate knowledge articles to various work order records like incident types, products, or customer assets based on your business needs. When any of these records are added to a work order, the related knowledge articles will be linked to the work order. 
+
+Let's look at two examples: relating knowledge articles to incident types, and relating them to customer assets.
 
 ### Associate knowledge articles to incident types
 
-From the Field Service app go to Settings > Incident types > select an incident type.
-
-
+In Field Service, go to **Settings** > **Incident Types** and select an incident type.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/knowledge-article-associate-incident-type2.jpg)
+> ![Screenshot of a Field Service incident type.](./media/knowledge-article-associate-incident-type2.jpg)
 
-In the Details section relate the knowledge article(s) to the incident type. 
+In the **Details** section, relate the relevant knowledge article or articles to the incident type.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/knowledge-article-associate-incident-type.jpg)
-
-
+> ![Screenshot of the "Add Knowledge Articles" dialog on the incident type.](./media/knowledge-article-associate-incident-type.jpg)
 
 ### Associate knowledge articles to Customer assets
 
-From the Field Service app go to Settings > Knowledge articles. 
+In Field Service, go to **Settings** > **Knowledge articles**. 
 
-Select an article and in Related Information select **Add Existing Customer Asset**.
+Select an article. In the **Related Information** section, select **Add Existing Customer Asset**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/knowledge-article-associate-asset.jpg)
+> ![Screenshot of a Field Sercive knowledge article, showing the related information.](./media/knowledge-article-associate-asset.jpg)
 
-This will relate the knowledge article and the customer asset. 
-
+Selecting a customer asset will relate the knowledge article to that asset. 
 
 ## Create a work order
 
-Create a Work Order by going to the main service section > Work Orders > +New.
+In Field Service, go to **Work Orders** > **+New**.
 
-Add desired work order incidents, customer assets, and work order products to the work order.
+Add work order incidents, customer assets, and work order products to the work order.
 
 Associated knowledge articles will be added to the work order in **Linked Articles** section of the work order form.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/knowledge-article-associate-work-order-linked.jpg)
+> ![Screenshot of a Field Service work order, showing the linked articles.](./media/knowledge-article-associate-work-order-linked.jpg)
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/knowledge-article-associate-work-order-read.jpg)
+> ![Screenshot of the opened related knowledge article in the Field Service work order](./media/knowledge-article-associate-work-order-read.jpg)
 
-Users have the ability to link specific knowledge articles to a work order "ad-hoc" to link articles that are not associated to incidents, assets, or products, but may still be needed to complete the work order. From the Linked Articles section select +New Linked Article.
+You can also link specific knowledge articles that are *not* associated to incidents, assets, or products. From the **Linked Articles** section, select **+New Linked Article**.
 
 > [!Note]
-> Adding multiple work order incident types, customer assets, work order products will link all associated knowledge articles to the work order. 
-
+> Adding multiple work order incident types, customer assets, and work order products will link all associated knowledge articles to the work order. 
 
 ## View work order and knowledge articles on the mobile app
 
-After the work order is saved and scheduled to a technician, the technician can view the knowledge articles from the Field Service mobile app. 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-2020-knowledge-mgmt.png)
+After the work order is saved and scheduled to a technician, the technician can see the knowledge articles in the Field Service mobile app.
 
-Knowledge articles are downloaded and available offline however images and videos in knowledge articles will only be available when the mobile device is connected to the internet. Ensure your system administrator publishes the latest [mobile offline profile](mobile-power-app-system-offline.md) so knowledge articles are downloaded to the device in the next synchronization.
+> [!div class="mx-imgBorder"]
+> ![Device renders of the Field Service mobile app, showing the relevant knowledge articles being viewable from a work order.](./media/mobile-2020-knowledge-mgmt.png)
+
+Knowledge articles are downloaded and available offline; however, images and videos in knowledge articles will only be available when the mobile device is online. Ensure your system administrator publishes the latest [mobile offline profile](mobile-power-app-system-offline.md) so knowledge articles are downloaded to the device in the next sync.
 
 ## Configuration considerations
 
-- Unlink articles that need to be removed from a work order or are not relevant by selecting the unlink icon.
-
+- To remove an article from a work order, select the unlink icon, as seen in the following screenshot.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/knowledge-article-unlink.png)
+> ![Screenshot of of Field Service, showing the unlink icon on the "Add existing knowledge articles" dialog.](./media/knowledge-article-unlink.png)
 
+## Additional notes
 
-## Additional Notes
-
-- If a work order is created from a case via the "Convert to Work Order" button on the case, knowledge articles linked to the case will automatically be linked to the work order. 
+- If a work order is created from a case via the **Convert to Work Order** button on the case, knowledge articles linked to the case will automatically be linked to the work order.
 
 
 
