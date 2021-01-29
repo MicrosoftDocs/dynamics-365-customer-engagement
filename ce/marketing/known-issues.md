@@ -1,7 +1,7 @@
 ---
 title: "Known issues and workarounds (Dynamics 365 Marketing) | Microsoft Docs"
 description: "This article documents known issues and workarounds for Dynamics 365 Marketing."
-ms.date: 12/16/2020
+ms.date: 01/25/2021
 ms.service: dynamics-365-marketing
 ms.custom:
   - dyn365-admin
@@ -30,6 +30,7 @@ This document provides important, late-breaking information about known issues a
 - Some language strings in the email designer and customer journey designer are not available in all languages. <!--- 1912019 --> <!--- 1843911 -->
 - When an entitlement is changed, the updated working entitlement will sometimes display as "NotConfigured" and the broken entitlement will display as "Configured" in the Admin UI. You may get this fixed by raising a support request. <!--- 1884488 -->
 - When a portal is expired, the **Configure your portal** item under **Other actions** links to the old portal. <!--- 1804106 -->
+- When a setting from the Marketing application settings overview page is selected, users who do not have admin privileges to adjust the setting are redirected to a blank page. <!--- 2157534 -->
 
 ## Customer journeys
 
@@ -96,6 +97,7 @@ This document provides important, late-breaking information about known issues a
 - When trying to estimate the size of a segment where the query doesn't end in a contact, the system displays a server communication error. To correct this error, make sure your segment definition ends with a clause that links to the contact entity as described in [Design dynamic demographic or firmographic segments](segments-profile.md). <!-- 1226384 -->
 - Segments that are created, activated, and exported from Customer Insights, then published in Marketing will not always display the segment members in Marketing. <!-- 1874598 -->
 - If you create a new static segment and then refresh the page before saving the segment at least once, it will revert to a dynamic segment and you'll need to start over to create a new static one. <!--- 1666195 -->
+- In the Members view, you can sort by "Full name" and "Email" columns. Sorting by related entities or custom columns or views is not supported. <!--- 215415458 -->
 
 ## Social posting
 

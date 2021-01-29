@@ -20,16 +20,16 @@ caps.latest.revision: 25
 topic-status: Drafting
 search.audienceType: 
   - customizer
-
 ---
-
 # Types of fields and field data types
 
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Types of columns](/powerapps/maker/data-platform/types-of-fields)
 
+<a name="BKMK_TypesOfFields"></a>
 
-<a name="BKMK_TypesOfFields"></a>   
-## Types of fields  
- The following table contains information about the field types available.  
+## Types of fields
+
+The following table contains information about the field types available.  
 
 |Field type|Description|Available field data type|  
 |----------------|-----------------|-------------------------------|  
