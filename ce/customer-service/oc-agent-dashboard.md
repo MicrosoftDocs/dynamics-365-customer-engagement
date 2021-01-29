@@ -42,7 +42,7 @@ In the **Closed work items** stream, you see all the conversations that you've c
 On the dashboard, you can sort the work items by the following categories:
 
 - Modified On
-- Work distribution mode
+- Work distribution mode (only for open work items)
 - Customer
 - Work stream
 - Created On
