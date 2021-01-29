@@ -3,7 +3,7 @@ title: "Advanced options for inspections in Dynamics 365 Field Service | Microso
 description: Learn how to configure more advanced scenarios for inspections in Dynamics 365 Field Service.
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 09/19/2020
+ms.date: 02/01/2021
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.topic: article
