@@ -56,7 +56,7 @@ To upgrade Omnichannel, see [Upgrade Omnichannel for Customer Service](upgrade-o
 >
 > - Omnichannel for Customer Service is not supported with Dynamics 365 Customer Engagement (on-premises).
 > - Omnichannel for Customer Service is supported only on desktops, and not on phones and tablets.
-> - Incognito or private browsing is not recommended when using Omnichannel for Customer Service. For best user experience, use normal browser mode.
+> - Microsoft recommends that you don't use the browser in incognito or private mode to access Omnichannel for Customer Service.
 
 ## Allow access to websites
 
