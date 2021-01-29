@@ -29,23 +29,23 @@ If you encounter a problem with the mobile app, you can help Microsoft troublesh
 
 ### Get the session ID from the Setting menu
 
-1. From the navigation bar, select ![Sign out button](media/settingsmorebutton.png "Sign out button") > **Settings**.
+1. From the navigation bar, select ![Sitemap toggle button](media/sitemap-button.png "Sitemap toggle button") and then the gear icon (**Settings**).
 
    > [!div class="mx-imgBorder"]
-   > ![Get a session ID](media/sessionID1.png)
-    
-2. Select **About** and then you will see the **Session ID**.
+   > ![Sitemap expanded screenshot, gear icon is at the bottom left](media/sessionid-uci-step-1.png)
+
+2. Select **Session details** (at the bottom of the menu) and then you will see the **Session ID**.
 
    > [!div class="mx-imgBorder"]
-   > ![Get a session ID](media/sessionID2.png)
-   
+   > ![Settings menu screenshot, session details is under the general category](media/sessionid-uci-step-2.png)
+   > ![Session details screenshot, session id is in the middle of the page](media/sessionid-uci-step-3.png)
+
 ### Get the session ID from the sign in screen
 
 - On the sign in screen, select the clipboard icon and then select **Copy session ID**.
 
    > [!div class="mx-imgBorder"]
-   > ![Get a session ID ](media/mobile_session_id.jpg)
-
+   > ![Login screen screenshot, the clipboard menu is expected, copy session id is the second item](media/sessionid-login-step.jpg)
 
 ## Error: Contact your administrator for access to your organizations mobile apps
 
@@ -82,7 +82,7 @@ For **Vivo** device, do the following:
 1. Go to **Settings** > **More Settings** > **Applications** > **Autostart**.
 2. Set the toggle switch to **ON** for the authenticator app.
 
-For other device manufacturers, please email Dynamics 365 Mobile Support dynmobisup@microsoft.com and include your device make and model, session ID ([learn how to find this information above](https://docs.microsoft.com/en-us/dynamics365/mobile-app/troubleshooting-things-know-about-phones-tablets#get-the-session-id-from-the-sign-in-screen) and quote the error message above.
+For other device manufacturers, please email Dynamics 365 Mobile Support dynmobisup@microsoft.com and include your device make and model, session ID ([learn how to find this information above](https://docs.microsoft.com/dynamics365/mobile-app/troubleshooting-things-know-about-phones-tablets#get-the-session-id-from-the-sign-in-screen) and quote the error message above.
 
 
 ## Error message: This record is unavailable
