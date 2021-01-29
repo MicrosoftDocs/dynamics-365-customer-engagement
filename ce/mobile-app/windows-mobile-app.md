@@ -2,7 +2,7 @@
 title: "Microsoft Dynamics 365 mobile app for Windows (Dynamics 365 apps)| MicrosoftDocs"
 ms.custom: 
 description: How to use the Dynamics 365 mobile app for Windows
-ms.date: 02/01/2021
+ms.date: 01/29/2021
 ms.reviewer: kvivek
 ms.service: crm-online
 ms.suite: 
