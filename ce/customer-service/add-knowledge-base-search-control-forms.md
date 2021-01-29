@@ -67,6 +67,8 @@ Make sure that you have the System Administrator or System Customizer security r
 2.	In the top-right part of the window, change **Default** to **All**.
 
 3.	Select the entity for which Knowledge is enabled. To search for the entity, in the **Search** field, type the entity name.
+   
+    ![Search for entity]{media\knowledge-entity.png "Search for entity")
     
 4.	Select the entity name, select the **Forms** tab, and then open the form where you want to add the knowledge control. To add the control, create a section and then and then add a knowledge search control within it.
 
@@ -74,11 +76,11 @@ Make sure that you have the System Administrator or System Customizer security r
 
 5. Once you have added your new section, select **Save and Publish**. You may need to refresh the screen to see the new section.
 
-   ![Choose form type](media/choose-form-type-km.png "Choose form type")
+   ![View new section](media/knowledge-control-settings.png "Knowledge control settings")
 
 6.	On the left-hand side, in the **Tree view**, under **Summary**, expand **Related**, and then select **Knowledge**.
             
-    image - knowledge-control-form.png
+    ![Select Knowledge]{media/knowledge-control-tree-view.png "Select Knowledge from the tree view"}
  
  The knowledge properties are displayed in the pane on the right side of the page. 
  
@@ -105,7 +107,7 @@ Improve knowledge article suggestions and search results by enabling automatic f
 
 For example, if you set up automatic filtering of knowledge articles on the subject of the case, the knowledge articles that have the same subject as the case will be filtered in and will be shown to the agents. Other articles will be filtered out automatically. 
 
-This feature can be extended to automatically filter knowledge articles on any lookup field that is present on both Case and Knowledge Article entity. **Note** Polymorphic lookups aren't supported. Agents also have an option to turn off automatic filtering and search the entire knowledge base. Administrators can configure this option in the Knowledge Base Search control.
+This feature can be extended to automatically filter knowledge articles on any lookup field that is present on both Case and Knowledge Article entity. **Note**: Polymorphic lookups aren't supported. Agents also have an option to turn off automatic filtering and search the entire knowledge base. Administrators can configure this option in the Knowledge Base Search control.
 
 Open the **Knowledge Base Search** control and edit its properties to configure automatic filtering. In the **Set Properties** dialog box, on the **Display** tab, specify the following fields in the **Configure Automatic Filtering** section.
 
