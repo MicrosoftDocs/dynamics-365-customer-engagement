@@ -15,6 +15,7 @@
 
 # User Guides
 ## [Basic navigation in Dynamics 365 for phones and tablets](user-guide-mobile-app.md)
+## [Basic navigation for Dynamics 365 app for Windows (Preview)](windows-mobile-app.md)
 ## [Work offline on your mobile device](work-in-offline-mode.md)
 
 # [Troubleshooting](troubleshooting-things-know-about-phones-tablets.md)
