@@ -2,12 +2,12 @@ In this article, we'll take a look at what's new, and how to switch to the new s
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the new schedule board in Dynamics 365](../../field-service/media/schedule-board-new-map9.png)
+> ![Screenshot of the new schedule board in Dynamics 365, showing resources and the map.](../../field-service/media/schedule-board-new-map9.png)
 
 The new schedule board is faster, with better usability, and it lays the foundation for new capabilities for multi-day scheduling and intelligent interactions.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the new schedule board in Dynamics 365](../../field-service/media/schedule-board-new.png)
+> ![Screenshot of the new schedule board in Dynamics 365, showing the resources.](../../field-service/media/schedule-board-new.png)
 
 
 ### Performance
