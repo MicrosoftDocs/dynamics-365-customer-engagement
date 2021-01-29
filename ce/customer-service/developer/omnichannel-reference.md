@@ -1,8 +1,8 @@
 ---
 title: "Live chat SDK JavaScript API Reference| Microsoft Docs"
 description: ""
-author: ramana-hyd
-ms.author: v-rmurthy
+author: v-sailab
+ms.author: v-sailab
 manager: shujoshi
 ms.date: 07/01/2019
 ms.topic: reference

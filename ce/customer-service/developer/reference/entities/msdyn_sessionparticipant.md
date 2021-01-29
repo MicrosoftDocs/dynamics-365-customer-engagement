@@ -1,8 +1,8 @@
 ---
 title: "msdyn_sessionparticipant Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_sessionparticipant entity."
-author: "ramana-hyd"
-ms.author: "v-rmurthy"
+author: "v-sailab"
+ms.author: "v-sailab"
 manager: "shujoshi"
 ms.date: 03/23/2020
 ms.topic: "reference"
