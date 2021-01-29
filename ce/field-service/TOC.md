@@ -190,6 +190,9 @@
 ### [Use custom IoT providers](cfs-custom-iot-provider.md)
 
 ## Analyze
+### [Receive IoT alerts from Azure IoT Central](cfs-iot-central-alerts.md)
+### [Associate devices with customer accounts](cfs-iot-central-associate-devices.md)
+### [Summary tiles](cfs-summary-tiles.md)
 ### [Pull device data](cfs-pull-device-data.md)
 ### [Visualizing device readings](cfs-visualizations-iot-hub.md)
 ### [Reports](cfs-powerbi.md)
