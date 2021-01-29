@@ -4,7 +4,7 @@ description: Know how to add the Knowledge Base Search control to Dynamics 365 C
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 07/09/2020
+ms.date: 02/01/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -51,7 +51,75 @@ Microsoft Dynamics 365 Customer Service supports the native knowledge management
 > [!NOTE]
 > All customization tasks for the Customer Service Hub must be done in Microsoft Dataverse.
   
-## Add the Knowledge Base Search control to Main forms  
+## Add the Knowledge Base Search control to main forms 
+
+Depending on which experience you are using, you can add the knowledge base search control to main forms using one of the following methods:
+
+- [Power Apps experience](#prevew-power-apps-experience)
+- [Web client experience](#Web-client-experience)
+
+### Preview: Power Apps experience
+
+Make sure that you have the System Administrator or System Customizer security role or equivalent before you begin.
+
+1.  In Power Apps, in the left pane, select **Data** > **Tables**.
+
+2.	In the top-right part of the window, change **Default** to **All**.
+
+3.	Select the entity for which Knowledge is enabled. To search for the entity, in the **Search** field, type the entity name.
+    
+4.	Select the entity name, select the **Forms** tab, and then open the form where you want to add the knowledge control. To add the control, create a section and then and then add a knowledge search control within it.
+
+    **Note:** If the option to add Knowledge Base Search is disabled, it could be because knowledge management isn’t set up, isn’t enabled for the entity for which you’re adding the search control. Also this control won't be enabled for reference panels until a later date.
+
+5. Once you have added your new section, select **Save and Publish**. You may need to refresh the screen to see the new section.
+
+   ![Choose form type](media/choose-form-type-km.png "Choose form type")
+
+6.	On the left-hand side, in the **Tree view**, under **Summary**, expand **Related**, and then select **Knowledge**.
+            
+    image - knowledge-control-form.png
+ 
+ The knowledge properties are displayed in the pane on the right side of the page. 
+ 
+ 
+ The following table describes the properties you can configure.
+    
+|Property  |Description|
+|---------|---------|
+|Reference name     |**Required**: The unique name for the tab that is used when referencing it in scripts. The name can contain only alphanumeric characters and underscores.   |
+|Label        |**Required**: The localizable label for the tab visible to users.    |
+|Results shown on page       |Select how many articles to show in the search results at first. <br> </br> **Note**: If Relevance Search is enabled, the number of results that are displayed may differ from what you set due to the default Relevant Search setting. Your system administrator must disable Relevance Search or enable Simple Relevance Search for this property to work correctly. (Simple Relevance Search queries only articles, excluding attachments and notes.) For more information, see [Understand knowledge base search mechanisms](https://docs.microsoft.com/dynamics365/customer-service/knowledge-base-search-methods). |
+|Automatic search > Provide search results using     |Once you open the entity form, automatic search is performed using the field you specify in the field below.<br><br> If you’ve enabled automatic suggestions, select the field for the entity that Dynamics 365 Customer Service will use to suggest article results in the Give knowledge base (KB) suggestions using drop-down list.<br><br> For example, if you’re adding the search control to the Account entity and want Dynamics 365 Customer Service to automatically show search results that contain the account name, select Account Name in the drop-down list. **Note**: This drop-down list can include all fields that are text, multi-line text, or lookup type fields.<br><br>If you are a Dynamics 365 Customer Service user and your organization is using native Dynamics 365 Customer Service knowledge management as the knowledge solution, you can also use text analytics to show suggested articles. To do this, select Text Analytics from the Give knowledge base (KB) suggestions using the drop-down list. |
+|Actions   |**Link article**: Lets users link a knowledge article Lets users link a knowledge article to the record they're viewing the knowledge article search results in.<br><br>**Unlink article**: Lets users unlink a knowledge article from a primary record.<br><br>**Copy URL**: Lets users copy the exernal URL of the article so they can share it over channels like chat or email. In the native Dynamics 365 customer engagement knowledge management solution, the Copy URL option is available only for published articles.<br><br>**Open in new tab**: Opens a knowledge article in a new tab within the same browser window.<br><br>**Link article and email URL**: Lets users associate an article with the primary record and share the article URL with the customer through email.<br><br>**Link article and send article content**: Lets users associate an article with a primary record and share the contents of the article with the customer through email. |
+|Select default email recipient    |Select who the email will be sent to when an agent sends the article link in email. This drop-down list includes all fields for the entity that are enabled for email (for example Customer, Contact, or Responsible contact).<br></br> When the agent chooses to send a link to the article to the customer, the To field is automatically populated with the value of the field that you select here. If you leave it blank, in the email recipient display, it will show as blank and you need to fill it in manually.|
+|Show article rating   | Shows the rating on an article. |
+|Show status filter   | Allows the user to filter knowledge articles based on article status: Draft, Approved, or Published.   |
+|Show article language filter    |Allows the user to filter knowledge article search results based on the language they choose. <br><br>If you want users to see search results only for articles in a specific language, in the **Set Default Language** drop-down list, select a language. By default, User’s Default Language is selected: <br><ul><li>If you select User's Default Language, search results will be filtered based on the signed-in user's default language. </li> <li> If the language you select isn't an active language, the search results will be filtered using the signed in user's default language. </li> <li> If you select User's Default Language, and if the user's default language isn't an active language, the first active language available alphabetically is used as the default filter. </li> <li>	To let user’s select a different language filter on search results so they can see other articles in other languages, select the **Users can change Language Filter** check box. Only when you enable this option will users see an option to change the filter in the Search pane in a record. </li> </ul> |
+| Edit default filter selection   | Allows you to change the default display for filtered articles, whether you want to show Draft, Approved, or Published articles. |
+| Add refinement rules | Opens a window where you can define more precise search results. |
+
+#### Configure automatic filtering in Power Apps
+
+Improve knowledge article suggestions and search results by enabling automatic filtering. Automatic filtering ensures your customer service agents receive only the most relevant knowledge articles. As an administrator, you can configure Knowledge Base Search control to automatically filter knowledge articles based on case data without any manual input from the agents.
+
+For example, if you set up automatic filtering of knowledge articles on the subject of the case, the knowledge articles that have the same subject as the case will be filtered in and will be shown to the agents. Other articles will be filtered out automatically. 
+
+This feature can be extended to automatically filter knowledge articles on any lookup field that is present on both Case and Knowledge Article entity. **Note** Polymorphic lookups aren't supported. Agents also have an option to turn off automatic filtering and search the entire knowledge base. Administrators can configure this option in the Knowledge Base Search control.
+
+Open the **Knowledge Base Search** control and edit its properties to configure automatic filtering. In the **Set Properties** dialog box, on the **Display** tab, specify the following fields in the **Configure Automatic Filtering** section.
+
+1. Select **Enable Automatic Filtering** check box to enable automatic filtering.
+2. Select **Users can turn off automatic filtering** check box if you want to provide your agents the option to turn off automatic filtering and search the entire knowledge base. This enables **Auto filter results** option for agents on knowledge search control.
+3. Select **Add Filter** to define filtering of knowledge articles on case subject or any other lookup field.
+4. Select **Set** to save the properties.
+
+    > [!NOTE]
+    > Ensure that Relevance search is enabled for automatic filtering to work. The Knowledge Article attribute must be added to the Knowledge Article Quick Find View. Ensure Source Entity Attribute is present on the form.
+
+
+
+### Web client experience
   
 1. [!INCLUDE[proc_permissions_system_admin_and_customizer](../includes/proc-permissions-system-admin-and-customizer.md)]  
   
@@ -95,7 +163,7 @@ Microsoft Dynamics 365 Customer Service supports the native knowledge management
 |    |    Row Layout  |  Select the maximum number of rows per page.|
 
 
-## Configure automatic filtering
+#### Configure automatic filtering for the web client
 
 Improve knowledge article suggestions and search results by enabling automatic filtering. Automatic filtering ensures your customer service agents receive only the most relevant knowledge articles. As an administrator, you can configure Knowledge Base Search control to automatically filter knowledge articles based on case data without any manual input from the agents.
 
