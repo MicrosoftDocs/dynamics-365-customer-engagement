@@ -136,15 +136,19 @@ Selecting **Book resources** will find the most optimal resources and book them 
 
 ## Optimization goals
 
-schedule-board-new-optimization-goals-edit
+The schedule board supports optimization goals. After selecting suggest resources, dispatchers can edit the optimizaiton goal which dictates how resources are recommended. See the topic on  
+
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+> ![Screenshot of ](./media/schedule-board-new-optimization-goals-edit.png)
+
+There is a default optimization goal which applies to the entire system and serves as the default for optimization requests. Additionally, dispatchers can edit the default optimization goal for each schedule board. Finally, dispatchers can edit the optimizaiton goal for a single optimization request (selecting Suggest Resources). 
 
 ## Edit multi-day bookings
 
-schedule-board-new-edit-multiday-bookings
+After a multi-day booking is created across multiple days, weeks, or months, dispatchers can right click a booking, select edit, and change how many hours are assigned for each day, week, or month via a booking panel on the right. 
+
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+> ![Screenshot of ](./media/schedule-board-new-edit-multiday-bookings.png)
 
 ## Configuration considerations
 
