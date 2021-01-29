@@ -36,11 +36,13 @@ To opt out of data collection, you will need to sign out and then sign back in u
 
 2. On the sign-in screen, select **Sign in with a web address instead**.
 
-![Sign in using web address](media/sign-in-screen-web-address.jpg "Sign in using web address")
+   > [!div class="mx-imgBorder"]
+   > ![Sign in using web address](media/sign-in-screen-web-address.jpg "Sign in using web address")
 
 
 2. In the **Usage data collection** dialog box, clear the **Help improve Dynamics 365 by sharing usage data** check box.
 
- ![Opt out of data collection](media/optoutdata.png "Opt out of data collection"). 
+   > [!div class="mx-imgBorder"]
+   > ![Opt out of data collection](media/optoutdata.png "Opt out of data collection"). 
 
 
