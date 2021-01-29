@@ -81,6 +81,16 @@ When the draft version is published, the existing published inspection version w
 
 Existing work orders will display and reference the previous version of the inspection, whereas new work orders will display and reference the new revised version.
 
+## Import and export inspection templates
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/ExportJsonFile.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/importJsonFile.png)
+
+
 ## Understand, view, and report inspection responses
 
 All the responses entered by technicians are stored in Common Data Service. They can configure analytics settings in **Field Service settings**, which lets them parse the inspection responses into individual question responses.
@@ -157,6 +167,16 @@ Back in Power Apps, on the **Customer Voice survey question response** entity, y
 Inspection parsing allows you to isolate and select specific parts of inspection responses, like taking an inspection attachment or image within a response to use for other business processes. 
 
 [Download guide to understand inspection response parsing](https://aka.ms/inspections-parse)
+
+## Language translations
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/Translationimage3.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/inspections-language-pack.png)
 
 ## Inspections for customer assets
 

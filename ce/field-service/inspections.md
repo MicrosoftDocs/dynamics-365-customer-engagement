@@ -86,6 +86,15 @@ Add a question to the inspection by double-clicking or dragging-and-dropping a q
 
 - **Entity lookup:** Allows technicians to choose a Dynamics 365 record. In the inspection designer interface, admins must select an entity and a field to display. For a chosen entity, the **Name** field and mandatory fields are the entity attributes that can be displayed in the lookup. Entity lookup respects security roles of signed-in user, meaning some entities and records may not be displayed.
 
+Add filters
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/Lookupfilter1.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/Lookupfilter2.png)
+
 - **Number:** Restricts input to numeric value or returns an error. Typically represents a measurement or numeric rating value.
 
 - **Date Time:** Allows technicians to enter a date and time.
@@ -95,6 +104,8 @@ Add a question to the inspection by double-clicking or dragging-and-dropping a q
 - **Barcode scan:** Allows technicians to populate the field with the barcode number by scanning a barcode with their device's camera. Choose "Textbox" question type, then select **Barcode** for input type in the **Advanced** section.
 
 - **Matrix (Dynamic):** Adds a grid of questions. More rows can be added dynamically while performing the inspection. See the following screenshot for an example.
+
+
 
 > [!div class="mx-imgBorder"]
 > ![Device render showing an inspection form allowing adding more rows.](./media/inspections-matrix-barcode.png)
