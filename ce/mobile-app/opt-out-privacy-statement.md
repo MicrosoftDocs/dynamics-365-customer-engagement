@@ -30,7 +30,7 @@ To opt out of data collection, you will need to sign out and then sign back in u
  
 1. Depending on which screen you're one, do one of the following to sign out of the mobile app:
 
-   - If your signed in and using an app, select the site map ![Site map icon](media/d365_mobile_sitemap_icon.png "Site map icon"), the profile icon ![Profile icon](media/d365_profile_icon.png "Site map icon"), then **Sign out**.
+   - If your signed in and using an app, select the site map ![Site map icon](media/d365_mobile_sitemap_icon.png "Site map icon"), select the profile icon ![Profile icon](media/d365_profile_icon.png "Site map icon"), then **Sign out**.
    
    - If you're on the apps screen, select the gear icon ![Gear icon button](media/gear-settings-icon.png) and then **Sign out**.
 
@@ -49,7 +49,7 @@ To opt out of data collection, you will need to sign out and then sign back in u
    > [!div class="mx-imgBorder"]
    > ![Opt out of data collection](media/optoutdata.png "Opt out of data collection"). 
    
-   
+  
    
 
 
