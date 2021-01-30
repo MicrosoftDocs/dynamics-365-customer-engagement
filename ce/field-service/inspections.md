@@ -117,6 +117,24 @@ Use the **Required** toggle to make the inspection question mandatory.
 
 By selecting the **Gear** icon, you can add more details for an inspection question.
 
+### Compact question view
+
+Before selecting an individual question, go to the advanced pane in the right to edit the look and feel of the inspection.
+
+Inspection creators have the option to Show or Hide the title and description of the inspection when inspection performers are viewing it.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/compactness1.png)
+
+Choose Layout density.
+
+**Comfortable** layout displays answer areas underneath questions.
+
+**Compact** layout displays answer areas to the right of questions as seen in the image below. Use the preview pane to see the layout from an end user's perspective. 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/compactness3.png)
+
 ### Pages
 
 Add pages to your inspection in order to:
@@ -143,24 +161,6 @@ Use the **Preview** section to see the inspection from a technician's perspectiv
 
 When finished creating the inspection, select **Publish** at the top.
 
-### Export as PDF
-
-Export an inspection as a PDF. Exporting as a PDF is helpful for situations where you need to send the inspection questions via email ahead of time.
-
-From an inspection, select **Export to PDF** in the top ribbon.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the export as PDF option.](./media/inspections-export1.png)
-
-A PDF with the blank inspection questions will be downloaded automatically.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the generated inspection PDF.](./media/inspections-export2.png)
-
-The PDF will be interactive, where you can enter answers and save them to the PDF; the answers will *not* be saved to Dynamics 365 Field Service or Common Data Model. In addition, some question types are limited. For example, the entity lookup question type will not reference the Dynamics 365 database records.
-
-> [!Note]
-> The export to PDF function only exports blank inspections without responses.
 
 ## Associate inspection to service task type
 

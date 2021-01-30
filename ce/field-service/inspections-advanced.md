@@ -81,6 +81,26 @@ When the draft version is published, the existing published inspection version w
 
 Existing work orders will display and reference the previous version of the inspection, whereas new work orders will display and reference the new revised version.
 
+## Export as PDF
+
+Export an inspection as a PDF. Exporting as a PDF is helpful for situations where you need to send the inspection questions via email ahead of time.
+
+From an inspection, select **Export to PDF** in the top ribbon.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the export as PDF option.](./media/inspections-export1.png)
+
+A PDF with the blank inspection questions will be downloaded automatically.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the generated inspection PDF.](./media/inspections-export2.png)
+
+The PDF will be interactive, where you can enter answers and save them to the PDF; the answers will *not* be saved to Dynamics 365 Field Service or Common Data Model. In addition, some question types are limited. For example, the entity lookup question type will not reference the Dynamics 365 database records.
+
+> [!Note]
+> The export to PDF function only exports blank inspections without responses.
+
+
 ## Import and export inspection templates
 
 Administrators can export inspection templates to then import into another environment. This is valuable in scenarios where an inspection was created in a test environment but now needs to be imported into a live production environment to use. This saves time of having to re-create the inspection from scratch in the production environment.
@@ -181,6 +201,11 @@ From an inspection, go to the Translation section of the form, select a language
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/Translationimage3.png)
 
+Save and publish the inspection.
+
+Next, in order for technicians to view translated inspections on the Dynamics 365 mobile app, you must have language packs installed for each language the inspection is translated to.
+
+Go to **Settings > Administration > Language Settings** then select each language. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/inspections-language-pack.png)
