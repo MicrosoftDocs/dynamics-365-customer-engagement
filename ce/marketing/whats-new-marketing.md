@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 12/08/2020
+ms.date: 02/01/2021
 ms.service: dynamics-365-marketing
 ms.custom:
   - dyn365-marketing
@@ -29,13 +29,13 @@ Marketing updates are [pushed to all customers automatically](https://cloudblogs
 
 ## February 2021 update
 
-The Dynamics 365 Marketing February 2021 update includes improvements to event registrations, email designer enhancements, additional social posting features, and monthly bug fixes.
+The Dynamics 365 Marketing February 2021 update includes a Recovery Items tab for customer journeys and event management, customization options for cookies and **send now** functionality, a simplified **settings** layout, and monthly bug fixes. The early access release includes new email editor features.
 
 ### Version number
 
 | App              | GA release      | Early access    |
 |------------------|-----------------|-----------------|
-| Marketing        | 1.35.10065.1064 | 1.35.10065.2064 |
+| Marketing        | 1.35.10069.1058 | 1.35.10069.2058 |
 
 > [!Tip]
 > To check your current version number, refer to [Find out which version of Dynamics 365 Marketing you are running](https://docs.microsoft.com/dynamics365/marketing/apply-updates#find-out-which-version-of-dynamics-365-marketing-you-are-running).
@@ -55,16 +55,16 @@ The Dynamics 365 Marketing February 2021 update includes improvements to event r
 ### Monthly enhancements
 
 - **Customer journeys**
-    - Access recovery items.
+    - The new **Recovery Items** tab in customer journeys allows developers to track customization errors, improving the workflow creation process.
 - **Data services**
-    - Cookies now employ a hybrid 3pty/1pty approach.
+    - Cookies employ a new hybrid first-party/third-party approach.
 - **Event management**
-    - Access recovery items.
+    - The **Recovery Items** tab is also available for error tracking in event workflows.
     - Teams event recordings are now available to owners and producers.
 - **Marketing emails**
-    - You can now customize the lookup default view for quicksend (Send Now) functionality.
+    - You can now customize the lookup default view for the **send now** functionality.
 - **Shared UX**
-    - The apps settings have been moved to the left navigation pane, reducing the effort required to access the setting you need.
+    - Marketing settings are revamped, making settings more accessible from the left navigation pane and simplifying the **Settings overview** page.
 
 ### Bug fixes
 
