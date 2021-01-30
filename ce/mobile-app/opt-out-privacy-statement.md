@@ -24,13 +24,13 @@ search.app:
 
 # How to opt out of data collection on Dynamics 365 phones and tables
  
-At Microsoft, we work hard to protect your privacy while delivering products that bring you the performance, power, and convenience you want. Microsoft collects certain information about your usage of Dynamics 365 for phones to help diagnose problems and improve the product. For more details about Microsoft’s privacy practices, please review the [Microsoft Privacy Statement](https://go.microsoft.com/fwlink/p/?LinkId=123161). It applies to the data we collect from your use of Dynamics 365 for phones. 
+At Microsoft, we work hard to protect your privacy while delivering products that bring you the performance, power, and convenience you want. Microsoft collects certain information about your usage of Dynamics 365 for phones to help diagnose problems and improve the product. For more details about Microsoft’s privacy practices, review the [Microsoft Privacy Statement](https://go.microsoft.com/fwlink/p/?LinkId=123161). It applies to the data we collect from your use of Dynamics 365 for phones. 
 
-To opt out of data collection, you will need to sign out and then sign back in using your web address. This is the same web address you use when you sign in on the web browser.
+To opt out of data collection, sign out and then sign back in using your web address. The web address is the same URL that you use when you sign in on the web browser.
  
 1. Depending on which screen you're one, do one of the following to sign out of the mobile app:
 
-   - If your signed in and using an app, select the site map ![Site map icon](media/d365_mobile_sitemap_icon.png "Site map icon"), select the profile icon ![Profile icon](media/d365_profile_icon.png "Site map icon"), then **Sign out**.
+   - If you're signed in and using an app, select the site map ![Site map icon](media/d365_mobile_sitemap_icon.png "Site map icon"), select the profile icon ![Profile icon](media/d365_profile_icon.png "Site map icon"), then **Sign out**.
    
    - If you're on the apps screen, select the gear icon ![Gear icon button](media/gear-settings-icon.png) and then **Sign out**.
 
@@ -39,7 +39,7 @@ To opt out of data collection, you will need to sign out and then sign back in u
    > [!div class="mx-imgBorder"]
    > ![Sign in using web address](media/sign-in-screen-web-address.jpg "Sign in using web address")
 
-3. Enter the web address and then selct the arrow button or select the enter key on your keyboard.
+3. Enter the web address and then select the arrow button or select the enter key on your keyboard.
 
    > [!div class="mx-imgBorder"]
    > ![Enter web address](media/enter-web-address-mobile.png "Enter web address")
