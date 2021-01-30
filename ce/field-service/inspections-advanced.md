@@ -175,13 +175,18 @@ Inspection parsing allows you to isolate and select specific parts of inspection
 
 ## Language translations
 
+Inspection creators can add language variations for each inspection.
 
+From an inspection, go to the Translation section of the form, select a language from the dropdown, and translate each questions.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/Translationimage3.png)
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/inspections-language-pack.png)
+
+
+The maker who adds the strings does not need to install the language packs. The technician who wants to see inspection in his language needs the desired language's language pack to be installed.
 
 ## Inspections for customer assets
 
