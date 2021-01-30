@@ -1,6 +1,7 @@
 ---
 title: "How to opt out of data collection  (Dynamics 365 apps)| MicrosoftDocs"
 ms.custom: 
+description: How to opt out of data collection on Dynamics 365 mobile app
 ms.date: 01/29/2021
 ms.reviewer: 
 ms.service: crm-online
@@ -22,7 +23,7 @@ search.app:
   - D365Sales
 ---
 
-# How to opt out of data collection on Dynamics 365 phones and tables
+# How to opt out of data collection on Dynamics 365 mobile app
  
 At Microsoft, we work hard to protect your privacy while delivering products that bring you the performance, power, and convenience you want. Microsoft collects certain information about your usage of Dynamics 365 for phones to help diagnose problems and improve the product. For more details about Microsoft’s privacy practices, review the [Microsoft Privacy Statement](https://go.microsoft.com/fwlink/p/?LinkId=123161). It applies to the data we collect from your use of Dynamics 365 for phones. 
 
