@@ -23,7 +23,7 @@ search.app:
 
 When field service technicians are onsite performing work, they need to be able to access information to help them solve the problems they encounter.
 
-With knowledge management in Dynamics 365 Field Service, relevant knowledge articles can be associated directly to work orders so that technicians can easily troubleshoot while on the go. Articles added to work orders can also be based on related cases, incidents, products, and customer assets.
+With knowledge management in Dynamics 365 Field Service, relevant knowledge articles can be associated directly to work orders so that technicians can easily troubleshoot while on the go. Articles added to work orders can also be based on related incidents, products, and customer assets.
 
 Access to these articles can:
 
@@ -36,7 +36,7 @@ Access to these articles can:
 In this article, we'll walk through how to: 
 
 - Create a knowledge article
-- Associate articles to cases, assets, incident types, or products
+- Associate articles to assets, incident types, or products
 - Associate articles to work orders
 - View knowledge articles from the mobile app
 
@@ -53,13 +53,13 @@ For more information on knowledge articles, visit the following Customer Service
 - [Create and manage knowledge articles](https://docs.microsoft.com/dynamics365/customer-service/customer-service-hub-user-guide-knowledge-article)
 - [Set up a search provider](https://docs.microsoft.com/dynamics365/customer-service/set-up-search-providers)
 
-## Associate knowledge article to cases, customer assets, incident types, products
+## Associate knowledge article to customer assets, incident types, products
 
 Next, associate knowledge articles to various work order records like incident types, products, or customer assets based on your business needs. When any of these records are added to a work order, the related knowledge articles will be linked to the work order. 
 
 Let's look at two examples: relating knowledge articles to incident types, and relating them to customer assets.
 
-### Associate knowledge articles to incident types
+### Associate knowledge articles to incident types 
 
 In Field Service, go to **Settings** > **Incident Types** and select an incident type.
 
@@ -86,7 +86,7 @@ Selecting a customer asset will relate the knowledge article to that asset.
 
 In Field Service, go to **Work Orders** > **+New**.
 
-Add work order incidents, customer assets, and work order products to the work order.
+Add work order incidents, customer assets, and work order products to the work order as needed.
 
 Associated knowledge articles will be added to the work order in **Linked Articles** section of the work order form.
 
