@@ -83,37 +83,38 @@ Existing work orders will display and reference the previous version of the insp
 
 ## Export as PDF
 
-Export an inspection as a PDF. Exporting as a PDF is helpful for situations where you need to send the inspection questions via email ahead of time.
+Exporting and inspection as a PDF is helpful for situations where you need to send the inspection questions via email ahead of time.
 
 From an inspection, select **Export to PDF** in the top ribbon.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the export as PDF option.](./media/inspections-export1.png)
 
-A PDF with the blank inspection questions will be downloaded automatically.
+A PDF with the blank inspection questions will download automatically.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the generated inspection PDF.](./media/inspections-export2.png)
 
-The PDF will be interactive, where you can enter answers and save them to the PDF; the answers will *not* be saved to Dynamics 365 Field Service or Common Data Model. In addition, some question types are limited. For example, the entity lookup question type will not reference the Dynamics 365 database records.
+The PDF will be interactive, where you can enter answers and save them to the PDF; the answers will *not* be saved to Dynamics 365 Field Service or Common Data Model. 
+
+Some question types are limited. For example, the entity lookup question type will not reference the Dynamics 365 database records.
 
 > [!Note]
 > The export to PDF function only exports blank inspections without responses.
 
-
 ## Import and export inspection templates
 
-Administrators can export inspection templates to then import into another environment. This is valuable in scenarios where an inspection was created in a test environment but now needs to be imported into a live production environment to use. This saves time of having to re-create the inspection from scratch in the production environment.
+Administrators can export inspection templates to then import into another environment. This is valuable in scenarios where an inspection was created in a test environment but now needs to be imported into a live production environment to use. Importing saves you having to re-create the inspection from scratch in the production environment.
 
-From the inspection select **Export > Export to JSON** in the top ribbon. 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/ExportJsonFile.png)
-
-In the list of inspections in another environment, select **Import from JSON** in the top ribbon.
+From the inspection, select **Export** > **Export to json** in the top ribbon. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/importJsonFile.png)
+> ![Screenshot of the option to export to JSON in the insepction.](./media/ExportJsonFile.png)
+
+In the list of inspections in another environment, select **Import from json** in the top ribbon.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the option to import from json.](./media/importJsonFile.png)
 
 
 ## Understand, view, and report inspection responses
@@ -197,21 +198,21 @@ Inspection parsing allows you to isolate and select specific parts of inspection
 
 Inspection creators can add language variations for each inspection.
 
-From an inspection, go to the Translation section of the form, select a language from the dropdown, and translate each questions.
+From an inspection, go to the **Translation** section of the form, select a language from the dropdown, and translate each question.
+
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/Translationimage3.png)
+> ![Screenshot of the translation tab on an inspection.](./media/Translationimage3.png)
 
 Save and publish the inspection.
 
 Next, in order for technicians to view translated inspections on the Dynamics 365 mobile app, you must have language packs installed for each language the inspection is translated to.
 
-Go to **Settings > Administration > Language Settings** then select each language. 
+Go to **Settings** > **Administration** > **Language Settings**, then select each language. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/inspections-language-pack.png)
+> ![Screenshot of the language settings the Field Service.](./media/inspections-language-pack.png)
 
-
-The maker who adds the strings does not need to install the language packs. The technician who wants to see inspection in his language needs the desired language's language pack to be installed.
+The maker who adds the strings does not need to install the language packs. The technician who wants to see inspections in their language needs the desired language's pack to be installed.
 
 ## Inspections for customer assets
 

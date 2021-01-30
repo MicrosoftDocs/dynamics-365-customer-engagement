@@ -86,14 +86,14 @@ Add a question to the inspection by double-clicking or dragging-and-dropping a q
 
 - **Entity lookup:** Allows technicians to choose a Dynamics 365 record. In the inspection designer interface, admins must select an entity and a field to display. For a chosen entity, the **Name** field and mandatory fields are the entity attributes that can be displayed in the lookup. Entity lookup respects security roles of signed-in user, meaning some entities and records may not be displayed.
 
-  - Add filters to filter the records displayed in the entity lookup options. As an example, if an entity lookup inspection question was created for the Bookable Resource entity, you can further filter the list of bookabel resources to ones with Resource Type = User to remove subcontractos and machines from the list. 
+  - Add filters to filter the records displayed in the entity-lookup options. For example, if an entity-lookup inspection question was created for the bookable resource record type, you can further filter the list of bookable resources to ones with resource type set to *User* to remove subcontractors and machines from the list.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/Lookupfilter1.png)
+> ![Screenshot of an inspection version, showing filter conditions.](./media/Lookupfilter1.png)
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/Lookupfilter2.png)
+> ![Screenshot of an inspection version in Field Service.](./media/Lookupfilter2.png)
 
 - **Number:** Restricts input to numeric value or returns an error. Typically represents a measurement or numeric rating value.
 
@@ -119,21 +119,21 @@ By selecting the **Gear** icon, you can add more details for an inspection quest
 
 ### Compact question view
 
-Before selecting an individual question, go to the advanced pane in the right to edit the look and feel of the inspection.
+Before selecting an individual question, go to the advanced pane to edit the look and feel of the inspection.
 
-Inspection creators have the option to Show or Hide the title and description of the inspection when inspection performers are viewing it.
+Inspection creators can show or hide the title and description of the inspection when inspection performers are viewing it.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/compactness1.png)
+> ![Screenshot of an inspection version showing the toggle for hiding the title.](./media/compactness1.png)
 
-Choose Layout density.
+Choose layout density.
 
 **Comfortable** layout displays answer areas underneath questions.
 
-**Compact** layout displays answer areas to the right of questions as seen in the image below. Use the preview pane to see the layout from an end user's perspective. 
+**Compact** layout displays answer areas to the right of questions as seen in the following screenshot. Use the preview pane to see the layout from an end user's perspective. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/compactness3.png)
+> ![Screenshot of a compact layout on an inspection.](./media/compactness3.png)
 
 ### Pages
 
@@ -207,7 +207,7 @@ An inspection completed by a technician will be visible on the bottom of the wor
 
 ## Perform inspections on mobile
 
-You can view and complete inspections on the [Field Service (Dynamics 365) mobile app](mobile-2020-power-platform.md). This requires no mobile project or any additional setup other than upgrading to Field Service v8.8.22+.
+You can view and complete inspections on the [Field Service (Dynamics 365) mobile app](mobile-2020-power-platform.md). This requires no mobile project or any further setup other than upgrading to Field Service v8.8.22+.
 
 Sign in with your Dynamics 365 URL, username, and password, and go to the assigned work order.
 
@@ -341,14 +341,14 @@ Here are a few reasons customers choose to use Field Service inspections.
 
 1. **Offline support**: Technicians can view and fill out inspections on their mobile phones or tablets without internet access. Inspections and answers are stored locally on the mobile device and then synced to the server when connectivity is restored (cellular or WiFi). 
 2. **Version management**: Administrators can easily republish or change inspections to accommodate changing processes and evolving business needs.
-3. **Easier to create and use**: Field Service inspections require no additional training to use and are designed to be easy for business users. For example, if you can create a survey with Microsoft Customer Voice, you can create an inspection. This is different from Power Apps inspections, which require extensive knowledge of the Power Apps platform and may require coding. 
+3. **Easier to create and use**: Field Service inspections require no further training to use and are designed to be easy for business users. For example, if you can create a survey with Microsoft Customer Voice, you can create an inspection. This is different from Power Apps inspections, which require extensive knowledge of the Power Apps platform and may require coding. 
 - **More scalable**: If your organization has many different inspections, it's easier to create Field Service inspections with a drag-and-drop interface and with dynamic branching. Power Apps inspections require creating new entities and forms for each inspection, which is more time consuming. 
 - **Better integrated with Dynamics 365**: Field Service inspections are built into the work order and asset servicing capabilities. 
 
 
 ### Field Service inspections or work order service tasks
 
-Compared to work order incident types and service tasks, inspections have additional benefits:
+Compared to work order incident types and service tasks, inspections have more benefits:
 
 - **Easier to create**: Administrators can quickly create an inspection with a drag-and-drop interface without needing to create new entities and fields.
 - **Easier to fill out**: Technicians can quickly enter responses for each inspection question and save all of them at once, rather than having to open and close multiple work order service task records.
