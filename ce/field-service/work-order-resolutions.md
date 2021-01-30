@@ -43,7 +43,7 @@ Create resolution records based on your business needs. For example, if "reinsta
 >[!Note]
 > At this time, a resolution only includes a name and a text description.
 
-## Specify resolutions to work orders
+## Note resolutions on work orders
 
 Once resolutions are defined, field technicians can update work orders with resolutions on their Field Service mobile app. Add a resolution to a work order by selecting a resolution from the lookup in the **Primary Resolution** field.
 
