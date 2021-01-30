@@ -34,6 +34,7 @@
 ## [Price list](create-price-list.md)
 ## [Products and services](create-product-or-service.md)
 ## [Service task types](set-up-service-task-types.md)
+## [Knowledge articles](field-service-knowledge-management.md)
 ## [Work order summary reports](reports.md)
 ## Inspections
 ### [Create and view inspections](inspections.md)
