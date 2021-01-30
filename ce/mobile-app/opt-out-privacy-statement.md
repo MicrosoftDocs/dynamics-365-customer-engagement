@@ -39,7 +39,7 @@ To opt out of data collection, you will need to sign out and then sign back in u
    > [!div class="mx-imgBorder"]
    > ![Sign in using web address](media/sign-in-screen-web-address.jpg "Sign in using web address")
 
-3. Enter the web address and then 
+3. Enter the web address and then selct the arrow button or select the enter key on your keyboard.
 
    > [!div class="mx-imgBorder"]
    > ![Enter web address](media/enter-web-address-mobile.png "Enter web address")
@@ -48,5 +48,8 @@ To opt out of data collection, you will need to sign out and then sign back in u
 
    > [!div class="mx-imgBorder"]
    > ![Opt out of data collection](media/optoutdata.png "Opt out of data collection"). 
+   
+   
+   
 
 
