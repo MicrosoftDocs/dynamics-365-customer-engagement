@@ -86,7 +86,7 @@ Add a question to the inspection by double-clicking or dragging-and-dropping a q
 
 - **Entity lookup:** Allows technicians to choose a Dynamics 365 record. In the inspection designer interface, admins must select an entity and a field to display. For a chosen entity, the **Name** field and mandatory fields are the entity attributes that can be displayed in the lookup. Entity lookup respects security roles of signed-in user, meaning some entities and records may not be displayed.
 
-Add filters
+  - Add filters to filter the records displayed in the entity lookup options. As an example, if an entity lookup inspection question was created for the Bookable Resource entity, you can further filter the list of bookabel resources to ones with Resource Type = User to remove subcontractos and machines from the list. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/Lookupfilter1.png)

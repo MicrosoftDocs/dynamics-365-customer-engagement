@@ -83,9 +83,14 @@ Existing work orders will display and reference the previous version of the insp
 
 ## Import and export inspection templates
 
+Administrators can export inspection templates to then import into another environment. This is valuable in scenarios where an inspection was created in a test environment but now needs to be imported into a live production environment to use. This saves time of having to re-create the inspection from scratch in the production environment.
+
+From the inspection select **Export > Export to JSON** in the top ribbon. 
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/ExportJsonFile.png)
 
+In the list of inspections in another environment, select **Import from JSON** in the top ribbon.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/importJsonFile.png)
