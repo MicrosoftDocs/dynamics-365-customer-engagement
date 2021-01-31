@@ -69,21 +69,43 @@ The Dynamics 365 Marketing February 2021 update includes a Recovery Items tab fo
 ### Bug fixes
 
 - **Customer journeys**
-
-- **Data services**
-
+    - Removed the deprecated Social insights tab from customer journeys.
+    - Fixed an error that disabled auto scheduling if the days and hours were left in the default setting.
 - **Event management**
-
+    - Fixed an error that caused the Teams integration section to be visible in event forms after visibility by default was disabled.
+    - Removed the deprecated Social insights tab from event forms.
 - **First run experience**
-
+    - Fixed an issue that prevented existing security roles from being removed when adding new users and assigning licenses.
+- **Lead management**
+    - Fixed an error that sometimes caused the description field to be missing in a lead scoring model after a lead entity was selected.
 - **Marketing emails**
-
+    - Fixed an error that caused plain text fields in templates to be empty when auto generate was on.
+    - Removed the Email Editor V2 feature switch.
+    - Fixed an error that caused live emails to sometimes open with unsaved changes and then autosave.
+    - Resolved an error that caused an email text element to lose focus after creating an A/B test.
+    - Improved consistency in saving email template fields.
+    - All HTML processing is now prevented when postprocessing is disabled.
+    - Improved handling of elements in the email designer in the Firefox browser.
+- **Marketing insights**
+    - Enabled uploads of images above 4 MB.
+    - Fixed an error that caused content in the **Links** area under the **Insights** tab on a Marketing email form to not be visible to users who inherited privileges to relevant entities through "owner" team membership.
 - **Marketing pages**
-
+    - Fixed an issue that occasionally caused the cursor to appear in a lookup form at the bottom of a marketing page when the page loaded.
+    - Resolved an issue that caused padding preferences to not be saved in marketing forms.
+    - Resolved an issue that sometimes caused a form double opt-in email to set global double opt-in settings.
+    - Removed inaccurate references to submission behavior capture in form capture scenarios.
+    - Fixed an issue that caused matching behavior to update the topic (subject) field.
+    - Resolved an error that caused default matching strategies to not pre-populate when changing the setting to update contacts and leads.
+    - Resolved an issue that caused the lead matching strategy to show email attributes, but the contact matching strategy to not have any attributes.
+    - Improved prevention of matching strategy attribute duplication.
+    - Fixed an error that caused live marketing pages to show unsaved changes and then autosave them.
+    - Improved privilege validation when saving forms with lookup fields.
+    - Made the **Website** field in **New Form Page** editable.
+    - Fixed an error that caused the **Update contacts/leads** parameter to lock when switching the marketing form type.
+    - Form submissions now show subscription list names.
 - **Segmentation**
-
-- **Shared UX**
-
+    - Fixed the privilege check for the process stage entity in LoadProfileLookupPlugin.
+    - Resolved an issue that prevented the segment validation context from getting cleaned correctly.
 
 ## January 2021 update
 
