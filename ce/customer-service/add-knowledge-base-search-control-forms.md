@@ -61,6 +61,14 @@ Depending on which experience you are using, you can add the knowledge base sear
 
 ### Preview: Power Apps experience
 
+[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
+> [!IMPORTANT]
+>
+> - A preview is a feature that is not complete, as it may employ reduced privacy, security, and/or compliance commitments, but is made available before it is officially released for general availability so customers can get early access and provide feedback. Previews are provided "as-is," "with all faults," "as available," and without warranty.
+> - This preview feature does not come with technical support and Microsoft Dynamics 365 Technical Support won't be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.
+> - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk. All previews are subject to separate [Terms and Conditions](../legal/supp-dynamics365-preview.md).
+
 Make sure that you have the System Administrator or System Customizer security role or equivalent before you begin.
 
 1.  In Power Apps, in the left pane, select **Data** > **Tables**.
@@ -79,9 +87,6 @@ Make sure that you have the System Administrator or System Customizer security r
 
    ![View new section](media/knowledge-control-settings.png "Knowledge control settings")
 
-6.	On the left-hand side, in the **Tree view**, under **Summary**, expand **Related**, and then select **Knowledge**.
-            
-    ![Select Knowledge]{media/knowledge-control-tree-view.png "Select Knowledge from the tree view"}
  
  The knowledge properties are displayed in the pane on the right side of the page. 
  
