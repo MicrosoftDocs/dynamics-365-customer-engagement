@@ -8,6 +8,15 @@ ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
+searchScope:
+  - D365-App-msdyn_salespro
+  - D365-Entity-activitypointer
+  - D365-Entity-contact
+  - D365-Entity-account
+  - D365-UI-*
+  - Dynamics 365
+  - Sales
+
 ---
 
 # Manage tasks, appointments, email, or phone calls in Dynamics 365 Sales Professional

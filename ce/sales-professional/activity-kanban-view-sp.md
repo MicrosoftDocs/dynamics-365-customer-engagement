@@ -8,6 +8,12 @@ ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
+searchScope:
+  - D365-App-msdyn_salespro
+  - D365-Entity-activitypointer
+  - D365-UI-*
+  - Dynamics 365
+  - Sales
 ---
 
 # Work with activities in the Kanban view (Sales Professional)

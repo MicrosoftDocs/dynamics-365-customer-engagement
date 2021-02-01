@@ -10,6 +10,13 @@ ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
+searchScope:
+  - D365-App-msdyn_salespro
+  - D365-Entity-pricelevel
+  - D365-UI-*
+  - Dynamics 365
+  - Sales
+
 ---
 
 # Allow adding products without associated price list (Sales Professional)
