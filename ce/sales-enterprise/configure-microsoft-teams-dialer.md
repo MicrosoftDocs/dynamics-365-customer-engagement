@@ -25,14 +25,14 @@ As an administrator, you must configure Microsoft Teams dialer for sellers to us
 
 ## Review the prerequisites
 
-Review the following requirements before you configure Microsoft Teams dialer in your Dynamics 365 Sales or Sales Hub:     
--	You must have an administrator or equivalent security role. More information: [Assign a security role to a user](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user)     
+Review the following requirements before you configure Microsoft Teams dialer in your Dynamics 365 Sales Hub app:     
+-	You must have a Dynamics 365 system administrator or equivalent security role. More information: [Assign a security role to a user](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user)     
 -	Your organization has a phone system installed, with a valid license to use it. More information: [Set up Phone System in your organization](https://docs.microsoft.com/MicrosoftTeams/setting-up-your-phone-system)     
 -	You have a license for using Microsoft Teams. More information: [Microsoft Teams add-on licenses](https://docs.microsoft.com/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing?tabs=small-business)
 
 ## Configure the dialer
 
-1.	Sign in to your Dynamics 365 Sales or Sales Hub.          
+1.	Sign in to your Dynamics 365 Sales Hub app.          
 2.	Go to **App settings**, and under **General settings**, select **Teams calls (preview)**.    
     > [!div class="mx-imgBorder"]
     > ![Microsoft Teams dialer configuration page](media/teams-dialer-configuration-page.png "Microsoft Teams dialer configuration page")     
@@ -64,7 +64,7 @@ Review the following requirements before you configure Microsoft Teams dialer in
     > ![Select apps to use Microsoft Teams dialer](media/teams-dialer-select-apps.png "Select apps to use Microsoft Teams dialer")
 
     >[!NOTE]
-    >When Microsoft Teams dialer is enabled in your organization for an app, other telephony systems that are connected to the app through Dynamics 365 Channel Integration Framework will stop working. As an administrator, you can deactivate or delete the Dynamics 365 Channel Integration Framework phone system. Follow these steps:
+    >When Microsoft Teams dialer is enabled in your organization for Sales Hub app, other telephony systems that are connected to the Sales Hub app through Dynamics 365 Channel Integration Framework will stop working. As an administrator, you can deactivate or delete the Dynamics 365 Channel Integration Framework phone system. Follow these steps:
     >1.	Go to your **Channel Integration Framework** app.
     >2.	From the **Active Channel Providers** view, select the phone system.
     >3.	From the toolbar, select **Deactivate** or **Delete** according to your requirements.
