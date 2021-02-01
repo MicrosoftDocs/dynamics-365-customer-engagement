@@ -597,7 +597,7 @@ Sign in to the Dynamics 365 instance.
 7. For the **Value** field, enter the locale code. More information: [Languages Codes](https://go.microsoft.com/fwlink/p/?linkid=2153933).
 
   > [!NOTE]
-  > The locales available in the path `Program
+  > Only the locales available in the path `C:\Program
 Files\Microsoft Dynamics CRM USD\USD\locales` are supported.
 
 8. Select **Save**.
