@@ -578,7 +578,7 @@ Chrome Process supports the ability to edit a PDF file inline if the PDF has edi
 
 ## Use spell checker functionality in Chrome Process
 
-Chrome Process supports the ability to check the spelling and grammar of the content of the webpages within Unified Unified Service Desk. To enable the spell checker, you must add the **SetSpellCheckLanguage** UII option.
+Chrome Process supports the ability to check the spellings of the content of the webpages within Unified Unified Service Desk. To enable the spell checker, you must add the **SetSpellCheckLanguage** UII option.
 
 **To add the SetSpellCheckLanguage UII option**
 
@@ -594,10 +594,11 @@ Sign in to the Dynamics 365 instance.
 
 6. For the **Name** field, enter **SetSpellCheckLanguage**.
 
-7. For the **Value** field, enter the language code. For example: English (UK) - en-GB.
+7. For the **Value** field, enter the locale code. More information: [Languages Codes](https://go.microsoft.com/fwlink/p/?linkid=2153933).
 
   > [!NOTE]
-  > 
+  > The locales available in the path `Program
+Files\Microsoft Dynamics CRM USD\USD\locales` are supported.
 
 8. Select **Save**.
 
