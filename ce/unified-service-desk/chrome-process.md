@@ -576,9 +576,9 @@ Chrome Process prompts you to save the file to a local folder:
 
 Chrome Process supports the ability to edit a PDF file inline if the PDF has editable fields.
 
-## Use spell checker functionality in Chrome Process
+## Spell check a webpage in Chrome Process
 
-Chrome Process supports the ability to check the spellings of the content of the webpages within Unified Unified Service Desk. To enable the spell checker, you must add the **SetSpellCheckLanguage** UII option.
+Chrome Process supports the ability to spell check the webpages within Unified Unified Service Desk. To enable the spell checker, you must add the **SetSpellCheckLanguage** UII option.
 
 **To add the SetSpellCheckLanguage UII option**
 
