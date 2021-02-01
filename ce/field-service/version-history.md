@@ -93,7 +93,7 @@ In addition, this release also includes the following changes:
 
 
 ## 8.8.34.16
-(Includes Universal Resource Scheduling version [3.12.35.2](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling#312352))
+(Includes Universal Resource Scheduling version [3.12.35.5](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling#312352))
 - Fixed an issue regarding register devices command showing up in an asset form even though the environment is not configured to use IoT.
 -	Fixed an issue with device ID field getting cleared when the asset form is refreshed.
 -	Fixed an issue in response generation after clicking on "Send Command" for an IoT device.  
@@ -106,7 +106,7 @@ In addition, this release also includes the following changes:
 
 
 ## 8.8.33.61
-(Includes Universal Resource Scheduling version [3.12.34.4](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling#312344))
+(Includes Universal Resource Scheduling version [3.12.34.60](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling#312344))
 - Allow technicians using the mobile app to quickly create follow up work orders.
 - Optimize unwanted calls for IoT entities during form loads of work order and case.
 - Corrected an issue with connected IoT device not showing up in connected device subgrid of the asset. 
