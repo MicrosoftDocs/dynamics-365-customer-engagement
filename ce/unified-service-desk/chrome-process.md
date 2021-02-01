@@ -465,7 +465,7 @@ When using Chrome Process, you might want to block the protocol navigation insid
 
 Add the URL in **Window Navigation Rules** and set the **Action** to **None** to block the navigation, and set **Show Outside** to show the application outside of Unified Service Desk client application.
 
-For example, say you've integrated a softphone with Unified Service Desk and are using the Chrome Process hosting type to host web applications. When an agent selects the phone number in the contact or account page, you want to initiate the call by using the softphone instead of Skype<!--note from editor: Is this still valid, or do we want to talk about making calls with Microsoft Teams?-->. You create the window navigation rule and set the **Action** to **None** to block the Skype protocol. You can create specific action calls as sub-action calls of this window navigation rule to initiate the call using the softphone.
+For example, say you've integrated a softphone with Unified Service Desk and are using the Chrome Process hosting type to host web applications. When an agent selects the phone number in the contact or account page, you want to initiate the call by using the softphone instead of Skype. You create the window navigation rule and set the **Action** to **None** to block the Skype protocol. You can create specific action calls as sub-action calls of this window navigation rule to initiate the call using the softphone.
 
 **To create a window navigation rule**
 
@@ -594,7 +594,10 @@ Sign in to the Dynamics 365 instance.
 
 6. For the **Name** field, enter **SetSpellCheckLanguage**.
 
-7. For the **Value** field, enter **True**.
+7. For the **Value** field, enter the language code. For example: English (UK) - en-GB.
+
+  > [!NOTE]
+  > 
 
 8. Select **Save**.
 
