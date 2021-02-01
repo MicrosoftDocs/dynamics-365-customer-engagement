@@ -49,7 +49,7 @@ Currently, email only recognizes changes in the following configuration values. 
 The following sample email configuration code sample data can be used to enable specific fonts by editing the rich text editor control global default webresource configuration.
 
 > [!IMPORTANT]
-> Changes to this file are global for your entire organization and will affect every instance where the Rich Text Editor (RTE) control is used. This includes the RTE used in timeline rich text notes, knowledge management, and single and multi-line fields configured to use the RTE control..
+> Changes to this file are global for your entire organization and will affect every instance where the Rich Text Editor (RTE) control is used. This includes the RTE used in timeline rich text notes, knowledge management, and single and multi-line fields configured to use the RTE control.
 
 Add a new font list and set "Brush Script MT" as the default font with a default size of 20 pt.
 
