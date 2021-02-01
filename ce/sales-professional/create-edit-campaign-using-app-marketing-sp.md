@@ -10,6 +10,14 @@ ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
+searchScope:
+  - D365-App-msdyn_salespro
+  - D365-Entity-list
+  - D365-Entity-campaign
+  - D365-Entity-bulkoperation
+  - D365-UI-*
+  - Dynamics 365
+  - Sales
 ---
 
 # Create or edit a campaign using in-app marketing (Sales Professional)

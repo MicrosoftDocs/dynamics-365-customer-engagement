@@ -10,6 +10,13 @@ ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
+searchScope:
+  - D365-App-msdyn_salespro
+  - D365-Entity-product
+  - D365-UI-*
+  - Dynamics 365
+  - Sales
+
 ---
 
 # Create products in Dynamics 365 Sales Professional

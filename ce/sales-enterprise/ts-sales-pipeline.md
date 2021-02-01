@@ -8,6 +8,13 @@ ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
+searchScope:
+  - D365-App-msdynce_saleshub
+  - D365-Entity-*
+  - D365-UI-Dashboard
+  - Dynamics 365
+  - Sales
+  - Customer Engagement
 ---
 
 # Troubleshooting the Sales Pipeline chart and its phases in Dynamics 365 Sales

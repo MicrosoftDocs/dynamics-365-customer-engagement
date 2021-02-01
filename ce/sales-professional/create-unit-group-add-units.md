@@ -10,6 +10,16 @@ ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
+searchScope:
+  - D365-App-msdyn_salespro
+  - D365-Entity-product
+  - D365-Entity-pricelevel
+  - D365-Entity-productpricelevel
+  - D365-Entity-uom
+  - D365-Entity-uomschedule
+  - D365-UI-*
+  - Dynamics 365
+  - Sales
 ---
 
 # Create a unit group and add units
