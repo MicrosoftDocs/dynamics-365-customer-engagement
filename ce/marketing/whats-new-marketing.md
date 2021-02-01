@@ -29,7 +29,7 @@ Marketing updates are [pushed to all customers automatically](https://cloudblogs
 
 ## February 2021 update
 
-The Dynamics 365 Marketing February 2021 update includes a Recovery Items tab for customer journeys and event management, customization options for cookies and **send now** functionality, a simplified **settings** layout, and monthly bug fixes. The early access release includes new email editor features.
+Dynamics 365 2021 release wave 1 early access includes rich text functionality in the email editor. February GA features include simplified Marketing settings, a Recovery Items tab for customer journeys and event management, more customization for send now functionality, improved delivery reliability for forms, and monthly bug fixes.
 
 ### Version number
 
@@ -45,7 +45,7 @@ The Dynamics 365 Marketing February 2021 update includes a Recovery Items tab fo
 > [!IMPORTANT]
 > Early access features are currently available only on opted-in instances. You can opt in for early access on any instance, but we recommend that you do so only on trial, test, or sandbox instances, which will give you a chance to learn the new functionality before it shows up on your production instances later this year.
 >
-> For instructions on how to opt in and enable early access, see [Opt in to early access updates](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates). For more information about the 2020 release wave 2 schedule, and for answers to frequently asked questions about the early access program, see [2020 release wave 2 features available for early access](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/features-ready-early-access).
+> For instructions on how to opt in and enable early access, see [Opt in to early access updates](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates). For more information about the 2021 release wave 1 schedule, and for answers to frequently asked questions about the early access program, see [2021 release wave 1 features available for early access](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/features-ready-early-access).
 >
 > We encourage all customers to provide feedback related to early access features on the [Dynamics 365 Marketing Forum](https://community.dynamics.com/365/marketing/f/dynamics-365-for-marketing-forum), your Microsoft contact or partner, and/or through [Microsoft Support](https://docs.microsoft.com/power-platform/admin/get-help-support).
 
@@ -55,16 +55,17 @@ The Dynamics 365 Marketing February 2021 update includes a Recovery Items tab fo
 ### Monthly enhancements
 
 - **Customer journeys**
-    - The new **Recovery Items** tab in customer journeys allows developers to track customization errors, improving the workflow creation process.
-- **Data services**
-    - Cookies employ a new hybrid first-party/third-party approach.
+    - The new **Recovery Items** tab in customer journeys allows system admins to track customization errors, improving the workflow creation process.
 - **Event management**
     - The **Recovery Items** tab is also available for error tracking in event workflows.
     - Teams event recordings are now available to owners and producers.
 - **Marketing emails**
     - You can now customize the lookup default view for the **send now** functionality.
+- **Marketing pages**
+    - Cookies employ a new hybrid first-party/third-party approach, improving delivery reliability for customers who block third party cookies.
 - **Shared UX**
     - Marketing settings are revamped, making settings more accessible from the left navigation pane and simplifying the **Settings overview** page.
+    - You can now access the Marketing version number directly from the **Settings overview** page.
 
 ### Bug fixes
 
