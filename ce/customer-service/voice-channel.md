@@ -11,3 +11,17 @@ ms.service: dynamics-365-customerservice
 
 # Introduction to the Voice channel 
 
+## Watch an overview video
+
+## Example organizations
+
+## Key features
+
+## Common use cases
+
+## A day in the life of an agent using the Voice channel
+
+## Roles
+
+## Next steps
+
