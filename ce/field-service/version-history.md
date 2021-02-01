@@ -80,7 +80,7 @@ In addition, this release also includes the following changes:
 -	Recently a new flag for ```workorderincidentitem.statecodeupdate.optout``` had been introduced. The dependency on this flag has now been removed. The ```workorderincident``` items state code would be updated only when new statecode is different from old state code.
 -	Fixed and issue with work order product that estimate discount % is cleared on the form when using a decimal.
 -	Corrected an error with work order product that discount % is cleared on the form when line status is changed from estimated to used.
--	Fixed an issue of missing details tab in the saleshub order.
+-	Fixed an issue of missing details tab in the sales hub order.
 -	Corrected a behavior in time entry form that on save end date gets auto populated even if both end date and duration fields are made optional and null.
 -	Updated view name 'Purchase Order Lookup View' to 'Purchase Order.'
 -	A change has been made with work order incident duration to be read only when it has child service tasks with estimated durations so it matches the total durations of its child service tasks.
@@ -95,7 +95,7 @@ In addition, this release also includes the following changes:
 ## 8.8.34.16
 (Includes Universal Resource Scheduling version [3.12.35.2](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling#312352))
 - Fixed an issue regarding register devices command showing up in an asset form even though the environment is not configured to use IoT.
--	Fixed an issue with Device id field getting cleared when the asset form is refreshed.
+-	Fixed an issue with device ID field getting cleared when the asset form is refreshed.
 -	Fixed an issue in response generation after clicking on "Send Command" for an IoT device.  
 -	Added date time support in inspections matrix control.
 -	Fixed an error opening Dynamics 365 Remote Assist if the support contact contains a user in Japanese.
