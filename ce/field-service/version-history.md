@@ -56,10 +56,46 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 > - Dates in all regions except Government Community Cloud (GCC) and China indicate the timing of the next automatic update. Dates in GCC and China indicate version availability; at this time, there is no automatic update for the GCC and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
 
+## 8.8.39.37 (2021 Wave 1 early access)
+(Includes Universal Resource Scheduling version [3.12.40.15](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling#3124015))
+
+The release is only applied when an environment is opted into Early Access and introduces the [Field Service 2021 Wave 1](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/service/dynamics365-field-service/planned-features) new and updated features as outlined below for availability in early access:
+ 
+-	Work order resolution information capture 
+-	Improved Field Service usability with major enhancements for the  work order form, the account form, and changed a number of other customer-facing behaviors across a number of interaction points within the solution. 
+-Replaced address suggestion experience with the new address control.
+-	Embedded knowledge management.
+-	For inspections:
+    -	Multilingual support for an inspection with a new tab 'Translation' in inspection designer.
+    -	Added filter condition support in entity lookup to reduce the lookup results.
+    -	Added compact layout option to show more questions in screen.
+    -	Added dependent entity lookup to improve filtering of results using another question in same inspection.
+    -	Export an inspection as json and import an inspection json in another environment which is useful for moving long inspections.
+    -	Rename of 'Inspections' sitemap entry to 'Inspection Templates.'
+    -	Added a new button to publish an inspection template and create a service task type in one go.
+    -	Added a new setting to enable online only scenarios to attach files and images larger than the current 3 mb limit. For this a setting has been added to Field Service             Settings under the 'Advanced Settings' field as ```inspection.allowuploadlargefilesonline=false```. To enable files more than 3 mb in size to be added when online, false can be changed to true.
+
+In addition, this release also includes the following changes:
+-	Tax code has been made optional so that user is not forced to enter data that is not capable of supporting the complexity of the tax scenarios.
+-	Recently a new flag for ```workorderincidentitem.statecodeupdate.optout``` had been introduced. The dependency on this flag has now been removed. The ```workorderincident``` items state code would be updated only when new statecode is different from old state code.
+-	Fixed and issue with work order product that estimate discount % is cleared on the form when using a decimal.
+-	Corrected an error with work order product that discount % is cleared on the form when line status is changed from estimated to used.
+-	Fixed an issue of missing details tab in the sales hub order.
+-	Corrected a behavior in time entry form that on save end date gets auto populated even if both end date and duration fields are made optional and null.
+-	Updated view name 'Purchase Order Lookup View' to 'Purchase Order.'
+-	A change has been made with work order incident duration to be read only when it has child service tasks with estimated durations so it matches the total durations of its child service tasks.
+-	Fixed an error while saving product and service based lines to quote.
+-	Updated the error string to be more descriptive of the issue when trying to save a user, account, contact, or work order if geocode action is disabled. 
+-	Fixed an error of missing dialog to reparent pop-up in work order service task on adding non related customer asset when customer asset validation state and suggest reparenting customer asset are enabled 
+-	Optimized sync filters for entities like account, contact, and product to improve performance in model driven mobile app. 
+-	Improved error message when a knowledge article is opened in offline mode on mobile.
+-	Fixed an issue of missing "Assets and Locations" and "Properties" tabs in an asset form.
+
+
 ## 8.8.34.16
 (Includes Universal Resource Scheduling version [3.12.35.2](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling#312352))
 - Fixed an issue regarding register devices command showing up in an asset form even though the environment is not configured to use IoT.
--	Fixed an issue with Device id field getting cleared when the asset form is refreshed.
+-	Fixed an issue with device ID field getting cleared when the asset form is refreshed.
 -	Fixed an issue in response generation after clicking on "Send Command" for an IoT device.  
 -	Added date time support in inspections matrix control.
 -	Fixed an error opening Dynamics 365 Remote Assist if the support contact contains a user in Japanese.
