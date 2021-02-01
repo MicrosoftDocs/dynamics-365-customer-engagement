@@ -3,7 +3,7 @@ title: "Configure the default email font in customer engagement apps | Microsoft
 description: "Learn how to configure the default email font in customer engagement apps."
 author: lalexms
 ms.author: laalexan
-ms.date: 01/19/2021
+ms.date: 02/01/2021
 ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ms.reviewer: nenellim
@@ -14,7 +14,7 @@ ms.reviewer: nenellim
 
 Specific font information can be configured by editing the [Rich Text Editor control global default webresource configuration](https://docs.microsoft.com/powerapps/maker/model-driven-apps/rich-text-editor-control#use-the-webresource-for-organization-wide-changes). 
 
-> ![Note]
+> ![IMPORTANT]
 > Changes to this file are global for your entire organization, and will affect every instance where the Rich Text Editor (RTE) control is used. This includes the RTE used in timeline rich text notes, knowledge management, and single and multi-line fields configured to use the RTE control.
 
 Currently, email only recognizes changes in the following configuration values. This configuration will extend in future releases.
