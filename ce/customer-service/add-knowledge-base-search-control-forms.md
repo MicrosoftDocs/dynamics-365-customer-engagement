@@ -55,9 +55,9 @@ Microsoft Dynamics 365 Customer Service supports the native knowledge management
 
 Depending on which experience you are using, you can add the knowledge base search control to main forms using one of the following methods:
 
-[Power Apps experience](#prevew-power-apps-experience)
+   - [Power Apps experience](#prevew-power-apps-experience)
 
-[Web client experience](#Web-client-experience)
+   - [Web client experience](#web-client-experience)
 
 ### Preview: Power Apps experience
 
