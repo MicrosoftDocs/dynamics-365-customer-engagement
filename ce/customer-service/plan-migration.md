@@ -66,8 +66,6 @@ The following conditions need to be considered to perform migration.
     | Migrated | The entity records that are migrated in the migration process. |
     | Not Started | The entity records that are not yet started for migration. |
 
-    To learn more, see [Ignore entity records from migration](#ignore-entity-records-from-migration).
-
 - **Failed Migration for certain records:** When the migration of an entity record fails, then you can retry migration. For the retry scenario, the number of records that are displayed in the screen are the records that didn’t migrate in the first run of the migration and also, those entity records that were created after the first run.
 
 - **New entity record:** If you create any records after you start the migration, the new entity records might not be reflected in the migration summary.
@@ -94,7 +92,7 @@ To ignore an entity record during migration, perform the following steps.
 
 7. Select **Publish** to publish the customizations.
 
-## See also
+### See also
 
 [Introduction to migration of entity records](introduction-migration-entity-records.md)
 
