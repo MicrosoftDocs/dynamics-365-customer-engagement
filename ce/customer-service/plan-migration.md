@@ -76,21 +76,21 @@ The following conditions need to be considered to perform migration.
 
 - **Updating records during migration:** After you’ve migrated an entity record, if you update the record in the legacy service scheduling, the difference of update can’t be migrated using the tool. You must manually update the changes in the new service scheduling experience.
 
-## Ignore entity records from migration
+## Ignore entity records during migration
 
-To ignore an entity record from migration, perform the following steps.
+To ignore an entity record during migration, perform the following steps.
 
 1. Sign in to Dynamics 365.
 
 2. Go to **Settings** > **Customizations** > **Customize the System**.
 
-3. Expand the entity you want to ignore from migration, and select **Forms**. For example: **Facility/Equipment**.
+3. Expand the entity you want to ignore, and select **Forms**. For example: **Facility/Equipment**.
 
 4. Select the section to which you want to add the field.
 
-5. Drag the **Migration Status** field from the **Field Explorer** pane and drop the field to the section where you want to add.
+5. Drag the **Migration Status** field from the **Field Explorer** pane and drop the field in the section where you want to add.
 
-6. Select **Save** to save the changes.
+6. Select **Save**.
 
 7. Select **Publish** to publish the customizations.
 
