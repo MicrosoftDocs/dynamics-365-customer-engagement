@@ -12,9 +12,9 @@ ms.reviewer: nenellim
 
 # Configure the default email font
 
-Specific font information can be configured by editing the Rich Text Editor control global default webresource configuration. 
+Specific font information can be configured by editing the [Rich Text Editor control global default webresource configuration](https://docs.microsoft.com/powerapps/maker/model-driven-apps/rich-text-editor-control#use-the-webresource-for-organization-wide-changes). 
 
-> ![IMPORTANT]
+> ![Note]
 > Changes to this file are global for your entire organization, and will affect every instance where the Rich Text Editor (RTE) control is used. This includes the RTE used in timeline rich text notes, knowledge management, and single and multi-line fields configured to use the RTE control.
 
 Currently, email only recognizes changes in the following configuration values. This configuration will extend in future releases.
