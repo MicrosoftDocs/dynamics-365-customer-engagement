@@ -35,14 +35,16 @@ The work item that you picked is moved from the **Open work items** stream to th
 
 ## Closed work items
 
-In the **Closed work items** stream, you see all the conversations that you've closed in the past 24 hours. To view a closed work item, select the ellipsis button (**...**) for it, and then select **Open** to view the details.
+In the **Closed work items** stream, you see all the conversations that you've closed on the same day. To view a closed work item, select the ellipsis button (**...**) for it, and then select **Open** to view the details.
+
+When you open a record from the **Closed work items** stream, you can view the attributes of the conversation record. This will not re-open or re-activate the conversation.
 
 ## Sort work items
 
 On the dashboard, you can sort the work items by the following categories:
 
 - Modified On
-- Work distribution mode
+- Work distribution mode (For open work items only)
 - Customer
 - Work stream
 - Created On

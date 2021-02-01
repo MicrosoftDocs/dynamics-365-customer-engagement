@@ -1,10 +1,11 @@
 ---
 title: "lcw startChat | MicrosoftDocs"
-description: 
+description: lcw startChat (Omnichannel for Customer Service JavaScript API reference)
 author: v-sailab
 ms.author: v-sailab
 manager: shujoshi
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ---
 # lcw:startChat (Omnichannel for Customer Service JavaScript API reference)
 

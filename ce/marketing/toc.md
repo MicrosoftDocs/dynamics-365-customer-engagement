@@ -258,7 +258,6 @@
 ### [Metadata reference for your organization](developer/marketing-organization-metadata.md)
 #### [Dynamics 365 Marketing solutions](developer/marketing-solutions.md)
 #### [Dynamics 365 Marketing entity reference](developer/marketing-entity-reference.md)
-### [API-generated calendar invites for events and sessions](developer/personalized-calendar-content.md)
 ### [Work with segments using code](developer/extend-segments.md)
 ### [Attach names and emails to Dynamics 365 Customer Voice surveys sent from customer journeys](developer/customer-voice-populate-name.md)
 ### [Entity mapping with custom workflows](entity-mapping.md)
