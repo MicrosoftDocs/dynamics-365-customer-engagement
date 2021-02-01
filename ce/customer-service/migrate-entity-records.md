@@ -1,6 +1,6 @@
 ---
 title: "Migrate data from legacy Service Scheduling using migration tool (Dynamics 365 Customer Service) | MicrosoftDocs"
-description: "Learn how to migrate entity records from the legacy Service Scheduling to the Unified Interface Service Scheduling in Dynamics 365 Customer Service"
+description: "Migrate entity records from legacy Service scheduling using migration tool to the Unified Interface Service Scheduling in Dynamics 365 Customer Service and learn to troubleshoot errors."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
