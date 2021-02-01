@@ -8,6 +8,13 @@ ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
+searchScope:
+  - D365-App-msdyn_salespro
+  - D365-Entity-*
+  - D365-UI-dashboard
+  - Dynamics 365
+  - Sales
+
 ---
 
 # Gain insights with dashboards in Dynamics 365 Sales Professional
