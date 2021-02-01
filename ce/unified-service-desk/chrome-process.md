@@ -4,7 +4,7 @@ description: "Learn about the Chrome Process hosting method for your controls in
 author: v-sailab
 ms.author: v-sailab
 manager: shujoshi
-ms.date: 11/16/2020
+ms.date: 02/01/2021
 ms.topic: "article"
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -574,11 +574,34 @@ Chrome Process prompts you to save the file to a local folder:
 
 ## Edit a PDF in Chrome Process
 
-Chrome Process supports the ability to edit a PDF file inline if the PDF has editable fields.  
+Chrome Process supports the ability to edit a PDF file inline if the PDF has editable fields.
+
+## Use spell checker functionality in Chrome Process
+
+Chrome Process supports the ability to check the spelling and grammar of the content of the webpages within Unified Unified Service Desk. To enable the spell checker, you must add the **SetSpellCheckLanguage** UII option.
+
+**To add the SetSpellCheckLanguage UII option**
+
+Sign in to the Dynamics 365 instance.
+
+2. Go to **Settings** > **Unified Service Desk**.
+
+3. Select **Options**.
+
+4. On the **Active UII Options** page, select **New**.
+
+5. For the **Global Option** field, select **Others**.
+
+6. For the **Name** field, enter **SetSpellCheckLanguage**.
+
+7. For the **Value** field, enter **True**.
+
+8. Select **Save**.
 
 ## Limitations
 
 To learn about the limitations of Chrome Process, go to [Chrome Process limitations](release-notes.md).
+
 
 ### See also
 
