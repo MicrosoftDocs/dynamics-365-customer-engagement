@@ -55,9 +55,9 @@ Microsoft Dynamics 365 Customer Service supports the native knowledge management
 
 Depending on which experience you are using, you can add the knowledge base search control to main forms using one of the following methods:
 
-- [Power Apps experience](#prevew-power-apps-experience)
+[Power Apps experience](#prevew-power-apps-experience)
 
-- [Web client experience](#Web-client-experience)
+[Web client experience](#Web-client-experience)
 
 ### Preview: Power Apps experience
 
@@ -77,7 +77,7 @@ Make sure that you have the System Administrator or System Customizer security r
 
 3.	Select the entity for which Knowledge is enabled. To search for the entity, in the **Search** field, type the entity name.
    
-    ![Search for entity]{media\knowledge-entity.png "Search for entity")
+    ![Search for entity](media\knowledge-entity.png "Search for entity")
     
 4.	Select the entity name, select the **Forms** tab, and then open the form where you want to add the knowledge control. To add the control, create a section and then and then add a knowledge search control within it.
 
