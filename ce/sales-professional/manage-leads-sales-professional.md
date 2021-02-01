@@ -10,6 +10,12 @@ ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
+searchScope:
+  - D365-App-msdyn_salespro
+  - D365-Entity-lead
+  - D365-UI-*
+  - Dynamics 365
+  - Sales
 ---
 
 # Create and manage leads in Dynamics 365 Sales Professional
