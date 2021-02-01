@@ -34,7 +34,7 @@ To use the daylight saving time functionality and many other new features, migra
 
 ## SLA timer does not pause when its state is changed from InProgress to OnHold on a holiday
 
-Once triggered, the SLA timer continues to run even when its state is changed from *InProgress* to *OnHold*. 
+Once triggered, the SLA timer continues to run even when its state is changed from *InProgress* to *OnHold*.
 
 ### Reason
 
@@ -55,28 +55,28 @@ See the following scenarios to understand how the SLA *Warn* and *Failure* time 
 
 ## SLA KPI instance status shows as canceled
 
-When you update the target record such that “applicable when” condition is no more applicable, the status moves from "active" to "resolved", and the SLA KPI status moves from one of the existing states of "in progress", "succeeded", or "expired" to the "canceled" state. The SLA KPI instance is canceled on the second evaluation because the “Applicable when” condition is no longer met. Consider the following scenario in which you create an SLA with the following conditions and set it as the default SLA.
+When you update the target record such that “Applicable when” condition is no more applicable, the SLA KPI status moves from one of the existing states of "in progress", "succeeded", "nearing non compliance", or "expired" to the "canceled" state. The SLA KPI instance is canceled on the second evaluation because the “Applicable when” condition is no longer met. Consider the following scenario in which you create an SLA with the following conditions and set it as the default SLA.
 
 - **Applicable when:** Case status equals active
-- **Success condition:** Case type equals problem
+- **Success condition:** Case status equals resolved
 
 1. Create a case. The case status is set to active by default, the SLA is applied, and the SLA timer starts.
-2. Set case type to problem. The success condition is met, and therefore, the SLA KPI instance status changes to succeeded.
-3. Resolve the case. The case status is set to resolved, and the SLA is reevaluated for the "Applicable when" condition.
+
+2. Resolve the case. The case status is set to resolved, and the SLA is reevaluated for the "Applicable when" condition. The SLA KPI instance status will be set to "canceled."
 
 ### Reason
 
-The "Applicable when" condition is no longer met.
+When you define the Applicable When" and "Success Conditions" on the same attribute, such as "case status", one of the criteria might not be met, and the SLA KPI instance status will be canceled.
 
 ### Workaround
 
-We recommend that you don't define the "applicable when" and "success conditions" on the same attribute.
+In such scenarios, we recommend that you don't define the "Applicable When" and "Success Conditions" on the same attribute.
 
-## Success, warning, and failure actions are being run multiple times
+## Success, warning, and failure actions are being run multiple times in web client
 
 When updates are made to the target record, the attributes present in the "Applicable When" conditions of the SLA item are modified in the applied SLA.
 
-Consider a scenario where you've created a legacy SLA with an SLA item that has the following "Applicable When" and "Success Condition", and is set as the default.
+Consider a scenario in which you've created an SLA in the web client with an SLA item that has the following "Applicable When" and "Success Conditions", and is set as the default.
 > ![Scenario for troubleshooting SLAs](media/troubleshoot-sla.png "Scenario for troubleshooting SLAs")
 
 1. Create a case with case type set as question. The SLA timer starts.
@@ -88,44 +88,19 @@ Consider a scenario where you've created a legacy SLA with an SLA item that has 
 
 3. Update the case type to request.
 
-  - The SLA KPI instance that is in the succeeded status is reevaluated because the "applicable when" condition for the case type is changed.
-  - The SLA KPI instance moves from succeeded to in progress. Because the case title contains resolved and the success condition is true, the SLA KPI instance changes from "in progress" to "succeeded", again, and runs the success action again.
+  - The SLA KPI instance that is in the succeeded status is reevaluated because the "applicable when" attribute is changed.
+  - The SLA KPI instance moves from succeeded to "in progress".
+  - Because the case title contains resolved and the success condition is true, the SLA KPI instance status changes from "in progress" to "succeeded", again, and runs the success action again.
 
-    When SLA KPI instance is nearing noncompliance:
-    - Warning time arrives and SLA KPI instance status nears noncompliance. - The warning action, if configured, is run.
-
-4. Update the case type to request.
-
-  - The SLA KPI instance that is nearing noncompliance status is reevaluated because the "applicable when" condition for the case type has changed.
-  - SLA KPI instance moves from nearing "noncompliance" to "in progress", and because the warning time is already crossed, it goes back from "in progress" to nearing noncompliance, thus running the warning action again.
-
-    When SLA KPI instance is noncompliant:
-    - Failure time is reached and SLA KPI instance status is noncompliant.
-    - If any failure is action configured, it is run.
-
-6. Update the case type to request.
-
-  - The SLA KPI instance, which is in noncompliant status is reevaluated, because the "applicable when" condition for the case type has changed.
-  - The SLA KPI instance moves from "noncompliant" to "in progress". 
-  
-    Because the warning and failure time has already crossed, it goes back from "in progress" to "nearing noncompliance" and then to "noncompliance", thus running the warning and failure actions again.
-
-    When the SLA KPI instance status changes from a terminal state (succeeded, expired, canceled) to active state (in progress, nearing non-compliance):
-
-    - SLA KPI instance is in "succeeded" status.
-
-7. Update the case title to remove "resolved", and change the case type from question to request or from request to question.
-
-  - The SLA KPI instance that is in the succeeded status is reevaluated, because the "applicable when" condition for the case type has changed.
-  - The SLA KPI instance moves from "succeeded" to "in progress". Because the case title does not contain "resolved", it stays in "in progress" or moves to "nearing noncompliance" or "noncompliance" depending on the calculated warning and failure times.
+Based on the SLA KPI instance status, if any actions are configured, those actions will be run multiple times.
 
 ### Reason
 
-The attributes used in the "Applicable when" condition in a legacy SLA are updated, which results in multiple iterations of the actions.
+When the "Applicable when" attribute is  updated, the SLA is reevaluated that results in multiple iterations of the actions.
 
 ### Resolution
 
-This is expected behavior for SLAs in both Unified Interface and legacy web client. We recommend that you define the "Applicable when" condition on only those attributes whose values don't change frequently.
+This is expected behavior for SLAs in the web client. We recommend that you define the "Applicable when" condition on only those attributes whose values don't change frequently.
 
 ### See also
 

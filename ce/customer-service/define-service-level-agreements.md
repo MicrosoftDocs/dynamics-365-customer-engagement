@@ -65,7 +65,7 @@ Review the following requirements before configuring SLAs for your organization:
    To configure a timer, add the timer control to an entity form. The timer control initially displays a countdown timer to show the time remaining to complete the task. To learn more, see [Add a timer control to the Case form to track time against an SLA](add-timer-control-case-form-track-time-against-sla.md).
 
 > [!NOTE]
-> In Unified Interface, the Elapsed Time and Paused On attributes of an SLAKPI Instance contain the values that are equivalent to the values in the Last Onhold Time and Onhold Time attributes of the target record such as the case and account in the web client.
+> In Unified Interface, the Elapsed Time and Paused On attributes of an SLA KPI Instance contain the values that are equivalent to the values in the Last Onhold Time and Onhold Time attributes of the target record, such as the case and account, in the web client.
 
 ## Create SLA KPIs in Customer Service Hub<a name="create-sla-kpis"></a>
 
@@ -453,7 +453,10 @@ The service rep who is working on a case can see the SLA details right on the ca
 
 ## Export and import a solution with SLAs
 
-After configuring SLAs in your environment, you can replicate the SLA settings in another environment by using the export tool to export and import the solution. During the export of the solution with SLAs, all the related dependencies for the SLAs are listed on the UI and selected by default. While you can explicitly choose the dependencies, we recommend that you select all the related dependencies for the SLAs to function correctly.
+You can replicate the SLA settings in another environment by exporting the solution containing the SLAs. During the export, all the related components and their dependencies will also be exported.
+
+
+<!--During the export of the solution with SLAs, all the related dependencies for the SLAs are listed on the UI and selected by default. While you can explicitly choose the dependencies, we recommend that you select all the related dependencies for the SLAs to function correctly. -->
 
 ## Recommended procedure for upgrading a solution
 
