@@ -20911,6 +20911,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "ce/customer-service/troubleshoot-sla-timer-issue.md",
+      "redirect_url": "troubleshoot-sla-issues",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "ce/unified-service-desk/oc-usd/add-personalization-tab.md",
       "redirect_url": "../oc-customizer/add-personalization-tab",
       "redirect_document_id": false

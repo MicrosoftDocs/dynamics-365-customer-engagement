@@ -20,11 +20,12 @@ monikerRange: '>= dynamics-usd-3'
 
 # Use IE Process to host web applications
 
- The `IE Process` browser control hosts your controls in individual [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)] process instances, and displays them in tabs in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application. It facilitates predictable page rendering by making sure that if your web application works in [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)], it will work in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. You can select **IE Process** as the hosting method for the **CRM Dialog**, **CRM Page**, **KM Control**, **Unified Interface Page**, **Unified Interface KM Control** and **Standard Web Application** type of hosted controls.
-
 > [!Note]
 >
 > Because support for Internet Explorer 11 is deprecated, support for IE Process has also been deprecated in Unified Service Desk. For information: [Deprecation announcement](../customer-service/deprecations-customer-service.md#internetexplorer11).
+
+The `IE Process` browser control hosts your controls in individual [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)] process instances, and displays them in tabs in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application. It facilitates predictable page rendering by making sure that if your web application works in [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)], it will work in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. You can select **IE Process** as the hosting method for the **CRM Dialog**, **CRM Page**, **KM Control**, **Unified Interface Page**, **Unified Interface KM Control** and **Standard Web Application** type of hosted controls.
+
 
  ![Hosting type in Unified Service Desk](../unified-service-desk/media/crm-itpro-usd-samplehostedcontrol.PNG "Hosting type in Unified Service Desk")
 
@@ -58,9 +59,8 @@ Use the `ProcessTerminationThreshold` option in [!INCLUDE[pn_unified_service_des
 > [!NOTE]
 >  When you create an instance of a **CRM Dialog**, **CRM Page**, **KM Control**, or **Standard Web Application** type of hosted control, the **Hosting Type** field in the `New Hosted Control` form is set to `IE Process` as the default option. Previously,  `Internal WPF` used to be the default hosting type option. You can select **Internal WPF** instead for your hosted control, if required.
 
-## See also
- [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md)
+### See also
 
- [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)
-
- [Manage hosted controls, actions, and events](../unified-service-desk/manage-hosted-controls-actions-events.md)
+[Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md)  
+[Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)  
+[Manage hosted controls, actions, and events](../unified-service-desk/manage-hosted-controls-actions-events.md)  

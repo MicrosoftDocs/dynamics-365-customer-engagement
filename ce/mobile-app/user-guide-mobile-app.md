@@ -2,7 +2,7 @@
 title: "Basic navigation in Dynamics 365 for phones and tablets (Dynamics 365 apps)| MicrosoftDocs"
 description: How to use the Dynamics 365 mobile app
 ms.custom: 
-ms.date: 1/11/2021
+ms.date: 1/27/2021
 ms.reviewer: kvivek
 ms.service: crm-online
 ms.suite: 
@@ -40,7 +40,6 @@ You can run your Sales Hub app, Customer Service Hub app, and Dynamics 365 Custo
 >   - Finance and Operations applications: [Finance and Operations mobile app](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-app-home-page) 
 
 
-
 ## Home screen 
 
 It's easy to get around in the Dynamics 365 mobile app. The following illustration shows the primary navigation elements on the Home screen. 
@@ -56,6 +55,38 @@ Legend:
 5. **Show Chart**: Show the list of records in a chart view.
 6. **Task**: Create a new task record.
 7. **More**: Access more commands such as add activities, start a task flow, use the assistant, and more.
+
+## Early access features
+
+If you have enabled early access then you will have a different navigation experience. This section calls out the improved experience on form pages including form tabs, and sub-grids.
+
+Your administrator has to opt in to early access updates for your environment and then install the updates to get this feature. More information: [Opt in to early access updates](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates)
+
+
+#### From page with tabs
+
+When you're on a form page with tabs, you can scroll and span horizontally across the screen. When you select a tab, it adjusts the header so you can easily view next few tabs. 
+
+![Form pages with tabs](media/form-tabs.png "Form pages with tabs")
+
+#### Add new record on subgrids
+
+On a subgrid with no records, you can now add a new record quickly.
+
+![Add a new record on subgrid](media/subgrid-add-record.png "Add a new record on subgrid")
+
+#### More commands
+
+You can easily see the commands on a subgrid that show from the bottom of the screen.
+
+![More commands on subgrids](media/more-command-drawer.png "More commands on subgrids")
+
+
+#### Search this view
+
+When you're on a view, use the **Search this View** option to search the current view.
+
+![Search this view](media/search-view.png "Search this view")
 
 ## Site map 
 
@@ -82,6 +113,8 @@ Legend
 7. **Help**: Access help content for more information about how to use the app.
 8. **Offline status**: Work with your data in offline mode, even when you don't have internet access. More information: [Work offline on your mobile device](https://docs.microsoft.com/dynamics365/mobile-app/work-in-offline-mode)
 9. **Settings**: Access settings.
+
+
 
 ## Pin favorite records
 
@@ -180,3 +213,8 @@ Reconfiguring deletes data and metadata for the current organization from the ca
 Make sure you use the **Reconfigure** option before you sign out. If you sign in to another organization but you wanted to delete data for the previous organization that you were logged into, then you will need to sign back into that organization and use the **Reconfigure** option to delete data and metadata for that organization from the cache. 
 
 To reconfigure the app, from the site map ![Site map icon](media/d365_mobile_sitemap_icon.png "Site map icon"), select the profile icon ![Profile icon](media/d365_profile_icon.png "Site map icon"), and then select **Reconfigure**.
+
+
+
+
+
