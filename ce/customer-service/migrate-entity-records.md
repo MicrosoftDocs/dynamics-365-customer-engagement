@@ -58,7 +58,7 @@ Follow these steps to migrate entity records from legacy scheduling experience t
 
 ## Understand migration summary and troubleshoot
 
-The status column displays two types migration status for the entity records:
+The status column displays two types of migration statuses for the entity records:
 
 - **Done:** When the migration of the entity records is completed successfully, the tool displays the status as Done. 
 - **View Errors:** When the migration of the entity records is failed, the tool displays the status as View Errors.

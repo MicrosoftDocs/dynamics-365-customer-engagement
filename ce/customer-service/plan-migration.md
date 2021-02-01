@@ -54,7 +54,7 @@ The following conditions need to be considered to perform migration.
     | 07/22/2019 | 07/22/2019 at 2300 hours | 07/23/2019 at 0500 hours | No | The service activity won’t be migrated as the scheduled activity ends at a date later than the specified migration end date. |
     | 07/22/2019 | 07/22/2019 at 2359 hours | 07/22/2019 at 0500 hours | Yes | The service activity will be migrated as the activity ends before the specified migration end date. |
 
-- **Recommendation:** For best migration experience, we recommend not to use Service Scheduling until the migration is completed.
+- **Recommendation:** For best migration experience, we recommend that you don't use Service Scheduling until the migration is completed.
 
 - **Ignore entity records:** If you don't want to migrate certain entity records from legacy Service Scheduling to Unified Interface based Service Scheduling, then you need to add **Migration Status** attribute and set the value as **Ignore**. The records that are marked as **Ignore** won’t be migrated by the tool. The field displays the following statuses:
 
