@@ -5,7 +5,7 @@ author: lalexms
 feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ms.author: laalexan
 manager: shujoshi
-ms.date: 11/10/2020
+ms.date: 02/02/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -47,20 +47,23 @@ Agents that rank high or low across specific indicators to make it easier for cu
 The reports summarize the key performance indicators for the specified time period and the percent change over the period. You can filter these areas by duration, channel, queue, and agent.
 
 KPIs for the following areas are displayed:
-
-- Active cases
-- Resolved cases
-- Escalated cases
-- Average resolve time
-- Average CSAT
-- Average survey sentiment
+| KPI      | Description    |
+|----------------|----------------|
+| Active cases   |  The number of cases that are currently open.   |
+| Resolved cases   | The number of cases that have been closed by an agent.     |
+| Escalated cases   | The percentage of cases that have been escalated.     |
+| Average resolve time | The average length of time taken by an agent to resolve the case.   |
+| Average CSAT   | The average customer satisfaction score, based on Customer Voice survey submitted by the customer.    |
+| Average survey sentiment | The average sentiment score, based on Customer Voice survey written feedback submitted by the customer.  |
 
 Charts are displayed as follows:
+| KPI      | Description    |
+|----------------|----------------|
+| Case volume over duration   |  Day-over-day trend of case volume.   |
+| Average resolve time  | Month-over-month trend of case resolution time in minutes.     |
+| CSAT and survey sentiment by agent   | Agent-focused view comparing CSAT and sentiment from Customer Voice survey responses.     |
+| Agent metrics | Overview of core agent metrics in relation to other metrics and date.   |
 
-- Case volume over duration
-- Average resolve time
-- CSAT and survey sentiment by agent
-- Agent metrics
 
 ### See also
 - [Dashboard overview](customer-service-analytics-insights-csh.md) <br>
