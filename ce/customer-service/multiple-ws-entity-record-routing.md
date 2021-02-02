@@ -148,7 +148,7 @@ If you create or edit an entity record work stream, you must update **Entity re
 24. Select the **Value** field search box to add a variable. A flyout control appears. Type the name of the work stream you created in the search box. For example, **Low Priority Cases** is one of the case work stream that you created to route low priority cases. The value appears in the list, and when you select the value, it is added to the field.
 
     > [!Note]
-    > - If you update the name of the works tream in Omnichannel Administration app, then you must perform step 24. Otherwise, the cases won't be automatically distributed to the agents.
+    > - If you update the name of the work stream in Omnichannel Administration app, then you must perform step 24. Otherwise, the cases won't be automatically distributed to the agents.
     >
     > - Adding multiple work streams in the conditions are optional. If your business process requires multiple work stream conditions, you can create it.
 
