@@ -1,11 +1,12 @@
 ---
 title: "lcw threadUpdate | MicrosoftDocs"
-description: 
+description: lcw threadUpdate (Omnichannel for Customer Service JavaScript API reference)
 author: v-sailab
 ms.author: v-sailab
 manager: shujoshi
 ms.date: 07/16/2020
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ---
 # lcw:threadUpdate (Omnichannel for Customer Service JavaScript API reference)
 

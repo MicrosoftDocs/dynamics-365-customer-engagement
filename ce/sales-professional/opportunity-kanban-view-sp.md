@@ -8,6 +8,13 @@ ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
+searchScope:
+  - D365-App-msdyn_salespro
+  - D365-Entity-opportunity
+  - D365-UI-*
+  - Dynamics 365
+  - Sales
+
 ---
 
 # Work with opportunities in the Kanban view (Sales Professional)

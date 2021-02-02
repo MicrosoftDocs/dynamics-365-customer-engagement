@@ -1,1 +1,1 @@
-Omnichannel for Customer Service uses cookies for authentication. Make sure that cookies are not blocked in your browser in any mode so that certain services, such as agent or supervisor presence, can work properly.
+Omnichannel for Customer Service uses third-party cookies for authentication. Make sure that the cookies are not blocked in your browser in any mode so that certain services, such as agent or supervisor presence, can work properly.
