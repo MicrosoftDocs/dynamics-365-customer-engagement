@@ -5,7 +5,7 @@ author: lalexms
 feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ms.author: laalexan
 manager: shujoshi
-ms.date: 10/22/2020
+ms.date: 02/02/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -51,22 +51,27 @@ The KPI summary charts summarize the key performance indicators for the specifie
 
 KPIs for the following areas are displayed:
 
-- Total cases
-- Active cases
-- Escalated cases
-- Average handle time
-- Average CSAT
-- Average sentiment
+| KPI     | Description     |
+|------------|--------------|
+| Total cases   |  The number of cases created to support customers.     |
+| Active cases  |  The number of cases that are currently opened.      |
+| Escalated cases   | The percentage of cases that have been escalated.     |
+| Average handle time   | The average length of time taken by an agent to resolve the case.   |
+| Average CSAT     | The average customer satisfaction score, based on Customer Voice survey submitted by the customer.   |
+| Average sentiment    |  The average sentiment score, based on Customer Voice survey written feedback submitted by the customer.    |
+
 
 Charts are displayed as follows:
 
-- Total cases
-- Occurrence by topic
-- Average resolution time
-- Average CSAT
-- CSAT impact
-- Average sentiment
-- Sentiment impact
+| Chart     | Description     |
+|------------|--------------|
+| Total cases |  The number of cases created to support customers.    |
+| Occurrence by topic   | Percentage of cases classified to each given topic.   |
+| Average resolution time  | Month over month trend of case resolution time in minutes.   |
+| Average CSAT    | The average customer satisfaction score, based on Customer Voice survey submitted by the customer.   |
+| CSAT impact     |       |
+| Average sentiment   | The average sentiment score, based on Customer Voice survey written feedback submitted by the customer.      |
+| Sentiment impact    |       |
 
 ### See also
 - [Dashboard overview](customer-service-analytics-insights-csh.md) <br>
