@@ -73,7 +73,7 @@ Make sure that you have the System Administrator or System Customizer security r
 
 1. Go to [Power Apps](https://https://make.powerapps.com/), and then on the left pane, select **Data** > **Tables**.
 
-2. In the top-right part of the window, change **Default** to **All**.
+2. Ensure you have the Customer Service App installed, and then in the top-right part of the window, change **Default** to **All**.
 
 3. Select the entity for which Knowledge is enabled. To search for the entity, in the **Search** field, type the entity name.
    
