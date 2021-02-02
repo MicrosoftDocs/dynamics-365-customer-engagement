@@ -35,7 +35,7 @@ When you integrate an Azure bot with Omnichannel for Customer Service, you get t
 
 ## Integrate a bot with Omnichannel for Customer Service
 
-**Prerequisites**: You must have a bot that is built using Microsoft Bot Framework and registered with Azure Bot Service. For more information on how to build a bot, see [Azure Bot Service Documentation](https://docs.microsoft.com/azure/bot-service/?view=azure-bot-service-4.0).
+**Prerequisites**: You must have a bot that is built using Microsoft Bot Framework and registered with Azure Bot Service. For more information on how to build a bot, see [Azure Bot Service Documentation](https://docs.microsoft.com/azure/bot-service/?view=azure-bot-service).
 
 > [!NOTE]
 > Bots can escalate conversations to agents only if they are a part of push-based work streams.
@@ -160,7 +160,7 @@ This sample provides exact steps and configuration values to integrate a bot and
         > ![Create a rule to send customer query to bot](media/bot-rule.png "Create a rule to send customer query to bot")
     - **CreditCardRule**: Specify the work stream and queue as **ChatWorkStream** and **CreditCardQueue**, respectively. Add the condition as follows:
         > [!div class=mx-imgBorder]
-        > ![Create a rule to send customer query from bot to an agent](media/credit-card-rule.png "Create a rule to send a customer query from a bot to an agent")
+        > ![Create a rule to send customer query from bot to an agent](media/credit-card-rule.png "Send customer queries from a bot to an agent, by creating a rule.")
     - **HomeLoanRule**: Specify the work stream and queue as **ChatWorkStream** and **HomeLoanQueue**, respectively. Add the condition as follows:
         > [!div class=mx-imgBorder]
         > ![Create a rule to send customer query from bot to an agent](media/home-loan-rule.png "Create a rule to send a customer query from a bot to an agent")
