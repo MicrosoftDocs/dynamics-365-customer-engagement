@@ -17,11 +17,10 @@ ms.author: matp
 manager: kvivek
 search.audienceType: 
   - customizer
-
 ---
 # Privileges required for customization
 
- 
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Privileges required for Dataverse customization](/powerapps/maker/model-driven-apps/privileges-required-customization)
 
 App users can personalize the system and even share some of their customizations with others, but only users with the correct privileges can apply changes for everyone.  
   

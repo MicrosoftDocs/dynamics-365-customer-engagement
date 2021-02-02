@@ -1,8 +1,8 @@
 ---
 title: "Basic navigation in Dynamics 365 for phones and tablets (Dynamics 365 apps)| MicrosoftDocs"
-description: How to use the Dynamics 365 for phones and tablets app
+description: How to use the Dynamics 365 mobile app
 ms.custom: 
-ms.date: 9/29/2020
+ms.date: 1/27/2021
 ms.reviewer: kvivek
 ms.service: crm-online
 ms.suite: 
@@ -23,19 +23,22 @@ search.app:
   - D365Sales
 ---
 
-# Preview: Basic navigation in Dynamics 365 for phones and tablets 
-
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+# Basic navigation on Dynamics 365 for phones and tablets 
 
 Use the Dynamics 365 for phones and tablets app to run your customer engagement apps in Dynamics 365 (such as Dynamics 365 Sales, Dynamics 365 Customer Service, and Dynamics 365 Marketing) on your mobile device. To install the app, see [Install Dynamics 365 for phones and tablets](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets).
 
+You can run your Sales Hub app, Customer Service Hub app, and Dynamics 365 Customer Engagement (on-premises) apps on the Dynamics 365 mobile app. For documentation on how to run these app on mobile, see:
+
+- [Sales Hub app on mobile devices](https://docs.microsoft.com/dynamics365/sales-enterprise/use-sales-hub-on-dynamics-365-mobile)
+- [Customer Service Hub on mobile devices](https://docs.microsoft.com/dynamics365/customer-service/use-customer-service-hub-on-dynamics-365-mobile)
+- [Dynamics 365 Customer Engagement (on-premises) apps on mobile](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/dynamics-365-phones-tablets-users-guide-onprem)
 
 > [!NOTE]
 > There are separate mobile apps for:
+>   - Canvas and model-driven apps in Power Apps: [Power Apps mobile app](https://docs.microsoft.com/powerapps/user/run-canvas-and-model-apps-on-mobile)
 >   - Dynamics 365 Field Service: [Field Service mobile app](https://go.microsoft.com/fwlink/?linkid=846157)
 >   - Finance and Operations applications: [Finance and Operations mobile app](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-app-home-page) 
->   - Canvas and model-driven apps in Power Apps: [Power Apps mobile app](https://docs.microsoft.com/powerapps/user/run-canvas-and-model-apps-on-mobile)
+
 
 ## Home screen 
 
@@ -52,6 +55,38 @@ Legend:
 5. **Show Chart**: Show the list of records in a chart view.
 6. **Task**: Create a new task record.
 7. **More**: Access more commands such as add activities, start a task flow, use the assistant, and more.
+
+## Early access features
+
+If you have enabled early access then you will have a different navigation experience. This section calls out the improved experience on form pages including form tabs, and sub-grids.
+
+Your administrator has to opt in to early access updates for your environment and then install the updates to get this feature. More information: [Opt in to early access updates](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates)
+
+
+#### From page with tabs
+
+When you're on a form page with tabs, you can scroll and span horizontally across the screen. When you select a tab, it adjusts the header so you can easily view next few tabs. 
+
+![Form pages with tabs](media/form-tabs.png "Form pages with tabs")
+
+#### Add new record on subgrids
+
+On a subgrid with no records, you can now add a new record quickly.
+
+![Add a new record on subgrid](media/subgrid-add-record.png "Add a new record on subgrid")
+
+#### More commands
+
+You can easily see the commands on a subgrid that show from the bottom of the screen.
+
+![More commands on subgrids](media/more-command-drawer.png "More commands on subgrids")
+
+
+#### Search this view
+
+When you're on a view, use the **Search this View** option to search the current view.
+
+![Search this view](media/search-view.png "Search this view")
 
 ## Site map 
 
@@ -78,6 +113,8 @@ Legend
 7. **Help**: Access help content for more information about how to use the app.
 8. **Offline status**: Work with your data in offline mode, even when you don't have internet access. More information: [Work offline on your mobile device](https://docs.microsoft.com/dynamics365/mobile-app/work-in-offline-mode)
 9. **Settings**: Access settings.
+
+
 
 ## Pin favorite records
 
@@ -176,3 +213,8 @@ Reconfiguring deletes data and metadata for the current organization from the ca
 Make sure you use the **Reconfigure** option before you sign out. If you sign in to another organization but you wanted to delete data for the previous organization that you were logged into, then you will need to sign back into that organization and use the **Reconfigure** option to delete data and metadata for that organization from the cache. 
 
 To reconfigure the app, from the site map ![Site map icon](media/d365_mobile_sitemap_icon.png "Site map icon"), select the profile icon ![Profile icon](media/d365_profile_icon.png "Site map icon"), and then select **Reconfigure**.
+
+
+
+
+

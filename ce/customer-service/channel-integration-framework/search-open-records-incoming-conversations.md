@@ -1,8 +1,8 @@
 ---
 title: "Search and open records on an incoming conversation in Dynamics 365 Channel Integration Framework (CIF) version 1.0 | MicrosoftDocs"
 description: "Read how you can use the Dynamics 365 Channel Integration Framework (CIF) version 1.0 APIs to search and open records on an incoming conversation."
-author: ramana-hyd
-ms.author: v-rmurthy
+author: v-sailab
+ms.author: v-sailab
 manager: shujoshi
 ms.date: 12/31/2019
 ms.topic: reference

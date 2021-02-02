@@ -52,7 +52,7 @@ IFRAME and web resource controls embed content from another location in pages by
 ### Enabling IFrame communication across domains  
  There are times when you want to enable communication for an IFRAME that contains content on a different domain. `Window.postMessage` is a browser method that provides this capability for versions of [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)] no earlier than [!INCLUDE[pn_IE_8](../includes/pn-ie-8.md)]. [!INCLUDE[tn_Google_Chrome](../includes/tn-google-chrome.md)], [!INCLUDE[tn_Mozilla_Firefox](../includes/tn-mozilla-firefox.md)], and [!INCLUDE[tn_Apple_Safari](../includes/tn-apple-safari.md)] also support it. For more information about using `postMessage`, see the following blog posts:  
 
--   [Cross domain calls to the parent CRM 2011 form](https://blogs.msdn.com/b/devkeydet/archive/2012/02/14/cross-domain-calls-to-the-parent-crm-2011-form.aspx)  
+-   [Cross domain calls to the parent CRM 2011 form](https://devkeydet.blog/2012/02/14/cross-domain-calls-to-the-parent-crm-2011-form/)  
 
 -   [Cross-Document Messaging and RPC](https://msdn.microsoft.com/magazine/ff800814.aspx)  
 

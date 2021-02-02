@@ -8,6 +8,14 @@ ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
+searchScope:
+  - D365-App-msdyn_salespro
+  - D365-Entity-quote
+  - D365-Entity-salesorder
+  - D365-UI-*
+  - Dynamics 365
+  - Sales
+
 ---
 
 # Create and manage quotes in Dynamics 365 Sales Professional

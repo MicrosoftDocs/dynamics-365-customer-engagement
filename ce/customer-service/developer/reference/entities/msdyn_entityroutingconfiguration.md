@@ -1,8 +1,8 @@
 ---
 title: "msdyn_entityroutingconfiguration Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_entityroutingconfiguration entity."
-author: "ramana-hyd"
-ms.author: "v-rmurthy"
+author: "v-sailab"
+ms.author: "v-sailab"
 manager: "shujoshi"
 ms.date: 08/18/2020
 ms.topic: "reference"
