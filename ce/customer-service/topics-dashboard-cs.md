@@ -61,7 +61,7 @@ KPIs for the following areas are displayed:
 | Average sentiment    |  The average sentiment score, based on Customer Voice survey written feedback submitted by the customer.    |
 
 
-Charts are displayed as follows:
+The topic metrics chart has the following metrics displayed:
 
 | Chart     | Description     |
 |------------|--------------|
