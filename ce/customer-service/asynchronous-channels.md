@@ -21,6 +21,10 @@ ms.reviewer: nenellim
 | Microsoft Teams      | ✔             | ✔         | ✔            | ✔              | ✔           | ❌          | 
 | Facebook             | ⚠🔶           | ✔         | ✔            | ✔              | ✔           | 🌐         | 
 | LINE                 | ⚠🔶           | ✔         | ✔            | ✔              | ✔           | 🌐         | 
+| Twitter              | ❌            | ❌        | ❌           | ❌             | ❌          | ❌         |
+| WeChat               | ❌            | ❌        | ❌           | ❌             | ❌          | ❌         |
+| WhatsApp             | ❌            | ❌        | ❌           | ❌             | ❌          | ❌         |
+| SMS                  | ❌            | ❌        | ❌           | ❌             | ❌          | ❌         |
 | Custom (Telegram)    | ⚠🔶           | ✔         | ✔            | ✔              | ✔           | 🌐         | 
 | Custom (Direct Line) | ✔             | ✔         | ✔            | ✔              | ✔           | ✔          | 
 
@@ -54,6 +58,10 @@ Suggested actions are supported fully with the exception that some channels migh
 | Microsoft Teams    | No                              |
 | Facebook           | Yes                             |
 | LINE               | Yes                             |
+| Twitter            | No                              |
+| WeChat             | No                              |
+| WhatsApp           | No                              |
+| SMS                | No                              |
 | Custom messaging (Telegram) | Yes                    |
 | Custom messaging (Direct Line) | Yes                 |
 
@@ -63,10 +71,10 @@ You can enable file attachments on the **General settings** tab of a channel so 
 
 | Channel              | Inbound attachments                        | Outbound attachments                  |
 |----------------------|--------------------------------------------|---------------------------------------|
-| Facebook             | Image, Audio, Video, Documents, GIF, Emoji | Image, Audio, Video, Document, GIF    |
-| Twitter              | Image, Video, GIF, Emoji                   | Image, Video, GIF                     |
 | Microsoft Teams      | Image, Audio, Video, Documents, GIF, Emoji | Image, Audio, Video, Documents, GIF   |
+| Facebook             | Image, Audio, Video, Documents, GIF, Emoji | Image, Audio, Video, Document, GIF    |
 | LINE                 | Image, Audio, Video, GIF                   | Image, Audio, Video, Documents, GIF   |
+| Twitter              | Image, Video, GIF, Emoji                   | Image, Video, GIF                     |
 | WeChat               | Image, Audio, Video                        | Image, Audio, Video                   |
 | WhatsApp             | Image, Audio, Video, PDF                   | Image, Audio, Video, PDF              |
 | SMS (Twilio)         | Image, Video, GIF, Emoji                   | Image, Audio, Video, GIF              |
@@ -83,10 +91,10 @@ You can enable file attachments on the **General settings** tab of a channel so 
 
 | Channel            | Emoji behavior                                                      |
 |--------------------|---------------------------------------------------------------------|
-| Facebook           | Yes. Emoji in text, like “😀”                                       |
-| Twitter            | Yes. Emoji in text, like “😀”                                       |
 | Microsoft Teams    | Yes. Emoji in .PNG image                                            |
+| Facebook           | Yes. Emoji in text, like “😀”                                       |
 | LINE               | Yes. When an emoji is sent, the recipient sees a sticker.           |
+| Twitter            | Yes. Emoji in text, like “😀”                                       |
 | WeChat             | Yes. When an emoji is sent, the recipient sees characters, like :-) |
 | WhatsApp           | Not supported.                                                      |
 | SMS (Twilio)       | Yes. Emoji in text, like “😀”                                       | 
@@ -100,10 +108,10 @@ You can enable file attachments on the **General settings** tab of a channel so 
 
 | Channel            | Sticker behavior                                                    |
 |--------------------|---------------------------------------------------------------------|
-| Facebook           | Yes, as .png image                                                  |
-| Twitter            | Not supported.                                                      |
 | Microsoft Teams    | Not supported.                                                      |
+| Facebook           | Yes, as .png image                                                  |
 | LINE               | Not supported. Recipient sees "Sticker" text.                       |
+| Twitter            | Not supported.                                                      |
 | WeChat             | Not supported. Recipient sees "Unsupported message" text.           |
 | WhatsApp           | Not supported.                                                      |
 | Custom messaging (Telegram) | Not supported.                                             |
@@ -125,8 +133,8 @@ With social profiles, you can do the following:
 | Channel            | Social profile support                                              |
 |--------------------|---------------------------------------------------------------------|
 | Facebook           | Yes                                                                 |
-| Twitter            | Yes                                                                 |
 | LINE               | Yes                                                                 |
+| Twitter            | Yes                                                                 |
 | WeChat             | Yes                                                                 |
 | WhatsApp           | Yes                                                                 |
 | Custom messaging (Telegram) | Yes                                                        |
