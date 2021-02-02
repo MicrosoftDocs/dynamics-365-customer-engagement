@@ -10,6 +10,14 @@ ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
+searchScope:
+  - D365-App-msdyn_salespro
+  - D365-Entity-account
+  - D365-Entity-contact
+  - D365-Entity-lead
+  - D365-UI-*
+  - Dynamics 365
+  - Sales
 ---
 
 # Export data or template in Dynamics 365 Sales Professional

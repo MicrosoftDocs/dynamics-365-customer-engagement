@@ -1,8 +1,8 @@
 ---
 title: "Initiate a chat | Microsoft Docs"
 description: "Read how you can start a chat using the startChat API"
-author: ramana-hyd
-ms.author: v-rmurthy
+author: v-sailab
+ms.author: v-sailab
 manager: shujoshi
 ms.date: 07/15/2019
 ms.topic: reference

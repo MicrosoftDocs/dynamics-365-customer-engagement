@@ -1,6 +1,6 @@
 ---
 title: "Migrate data from legacy Service Scheduling using migration tool (Dynamics 365 Customer Service) | MicrosoftDocs"
-description: "Learn how to migrate entity records from the legacy Service Scheduling to the Unified Interface Service Scheduling in Dynamics 365 Customer Service"
+description: "Migrate entity records from legacy Service scheduling using migration tool to the Unified Interface Service Scheduling in Dynamics 365 Customer Service and learn to troubleshoot errors."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -45,7 +45,7 @@ Follow these steps to migrate entity records from legacy scheduling experience t
     > [!Note]
     > - The migration tool doesn’t consider the records whose status is marked as Ignore. To learn more, see [Understand migration status](#understand-migration-summary-and-troubleshoot).
     >
-    > - If you create any records after you start the migration, the newly created entity records will not be fetched and migrated.
+    > - If you create any records after you start the migration, the new entity records will not be fetched and migrated.
 
 6. Review the information in the confirmation dialog and select **Migrate**. Once you migrate, the action cannot be undone.
 
@@ -58,7 +58,7 @@ Follow these steps to migrate entity records from legacy scheduling experience t
 
 ## Understand migration summary and troubleshoot
 
-The status column displays two types migration status for the entity records:
+The status column displays two types of migration statuses for the entity records:
 
 - **Done:** When the migration of the entity records is completed successfully, the tool displays the status as Done. 
 - **View Errors:** When the migration of the entity records is failed, the tool displays the status as View Errors.
@@ -77,7 +77,7 @@ To learn more, see [Troubleshoot using migration information](#troubleshoot-to-r
 
 ### Troubleshoot to resolve migration errors
 
-One of the reasons for the failure of entity record migration is a dependency between the entity records. That is, a **Service Activity** entity record has a dependency on the **Service** entity record, which in turn has a dependency on the **Resource Group** entity record. If the migration of **Resource Group** fails, then migration of **Service** and **Service Activity** also fails.
+One of the reasons for the failure of entity record migration is a dependency among the entity records. That is, a **Service Activity** entity record has a dependency on the **Service** entity record, which in turn has a dependency on the **Resource Group** entity record. If the migration of **Resource Group** fails, then migration of **Service** and **Service Activity** also fails.
 
    ![Migration record failure](media/migration-record-failure.png "Migration record failure")
 
@@ -86,7 +86,7 @@ One of the reasons for the failure of entity record migration is a dependency be
 
 For example, 
 
-Kenny Smith, a customer, has scheduled a service activity with Contoso Bike Center. To do this service activity, the **Bike technicians** resource group and **Bike overhaul** service  are required. 
+Henry Ross, a customer, has scheduled a service activity with Contoso Bike Center. To do this service activity, the **Bike technicians** resource group and **Bike overhaul** service  are required. 
 
 See the matrix for the dependency.
 
@@ -94,15 +94,15 @@ See the matrix for the dependency.
    |------------------|--------------------|
    | Resource Group | Bike technicians |
    | Service | Bike overhaul |
-   | Service Activity | Kenny Smith (customer) |
+   | Service Activity | Henry Ross (customer) |
 
-The **Service Activity** for Kenny Smith has a dependency on the **Service**, Bike overhaul and **Resource Group**, Bike technicians.
+The **Service Activity** for Henry Ross has a dependency on the **Service**, Bike overhaul and **Resource Group**, Bike technicians.
 
-Let us take the above mentioned example to learn how to resolve the error.
+Let us take the preceding example to learn how to resolve the error.
 
 1. Select **View Errors** against the **Service Activities** record in the **Data Migration Wizard** tab. 
 
-   The **Service Activities - Migration Status** page opens in a new browser tab. <br> You can view the migration error message for the **Kenny Smith** customer stating service has failed due to the **Dependent ResourceGroup is not migrated**, which has the GUID as `3979D7DB-F5DA-E911-A81F-000D3A6D4947`.
+   The **Service Activities - Migration Status** page opens in a new browser tab. <br> You can view the migration error message for the **Henry Ross** customer stating service has failed due to the **Dependent ResourceGroup is not migrated**, which has the GUID as `3979D7DB-F5DA-E911-A81F-000D3A6D4947`.
 
 2. Open a new browser window and go to `https://<dynamics org url>api/data/v9.0/services(<Guid>)`. For example, `https://<dynamics org url>api/data/v9.0/services(3979D7DB-F5DA-E911-A81F-000D3A6D4947)`.
 

@@ -1,8 +1,8 @@
 ---
 title: "translateMessage (Omnichannel for Customer Service JavaScript API reference) | MicrosoftDocs"
 description: "translateMessage method in Omnichannel for Customer Service"
-author: ramana-hyd
-ms.author: v-rmurthy
+author: v-sailab
+ms.author: v-sailab
 manager: shujoshi
 ms.date: 10/12/2020
 ms.topic: article

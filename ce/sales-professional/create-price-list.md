@@ -10,6 +10,14 @@ ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
+searchScope:
+  - D365-App-msdyn_salespro
+  - D365-Entity-product
+  - D365-Entity-pricelevel
+  - D365-Entity-productpricelevel
+  - D365-UI-*
+  - Dynamics 365
+  - Sales
 ---
 
 # Create price lists
