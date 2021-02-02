@@ -23,6 +23,9 @@ Microsoft said native voice support, which plugs into the same calling platform 
  
 
 We see a major strategic opportunity to bring a differentiated CCaaS offering to the market through Dynamics 365 Omnichannel. By integrating with Azure Communications Service (aka Spool aka ACS), and extending our current assets, such as Power Virtual Agent, Intelligent Routing and conversation canvas, we can offer a telephony solution directly within Dynamics OC.  
+### Benefits
+
+The voice channel in Dynamics is built on the same secure, planet-scale platform used by Microsoft Teams
 
 Native voice 
 
@@ -51,9 +54,21 @@ https://www.youtube.com/watch?v=c6t1Yz-60ic&feature=youtu.be
 
 ## Example organizations
 
-
+## Common use cases
 
 ## Key features
+
+Call controls: Mute, Hold, End
+Consulting and transferring
+Monitoring and barging
+Integrated customer and case history lookup
+Notes and knowledge search
+Live Transcription
+Sentiment Analysis
+Outbound calling (at GA)
+Transfer to external phone number (at GA)
+Call recording (at GA)
+
 
 We will enable audio stream from the telephony channel to be directly into the Dynamics 365 Omnichannel data pipeline that exists for digital channels (see diagram below). This will allow us to achieve the following: 
 
@@ -93,8 +108,11 @@ Call insights
 
 Number Management
 
+Get visibility into trends across all channels with native voice integration 
+Leverage built-in AI to resolve issues faster with tools like call transcriptions and sentiment analysis 
+Create true omnichannel experiences by providing agents will full customer interaction context no matter where the conversation is initiated
 
-## Common use cases
+
 
 ## Roles
 
