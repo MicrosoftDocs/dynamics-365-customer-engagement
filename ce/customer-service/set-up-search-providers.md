@@ -73,7 +73,7 @@ To set up a search provider, do the following:
 
 ## Post-configuration agent experience
 
-After you have configured the search providers, an agent who uses the search functionality can view links in their search results for each search provider included in their current org. Org search results display the first three articles. Agents can select **Show more** to view additional results.
+After you have configured the search providers, an agent who uses the search functionality can view links in their search results for each search provider included in their current org. Search results display the first three articles for each search provider. Agents can select **Show more** to view additional results.
 
    > [!div class=mx-imgBorder]
    > ![Agent view of search providers](media/search-provider-agent.png "Agent view of available search providers")
