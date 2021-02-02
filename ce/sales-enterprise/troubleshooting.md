@@ -61,6 +61,7 @@ manager: annbe
 <li><a href="ts-forecasts.md#unable_view_forecasts" data-raw-source="[Unable to view forecasts](ts-forecasts.md#unable_view_forecasts)">Unable to view forecasts</a></li>
 <li><a href="ts-forecasts.md#unable_load_forecast_grid" data-raw-source="[Unable to load forecast grid and an error is displayed](ts-forecasts.md#unable_load_forecast_grid)">Unable to load forecast grid and an error is displayed</a></li>
 <li><a href="ts-forecasts.md#unable_view_drilldown_forecast_grid" data-raw-source="[Unable to view drill down data in a forecast grid](ts-forecasts.md#unable_view_drilldown_forecast_grid)">Unable to view drill down data in a forecast grid</a></li>
+<li><a href="ts-forecasts.md#forecast-category-not-updated" data-raw-source="[Forecast category fields are not getting updated](ts-forecasts.md#forecast-category-not-updated)">Forecast category fields are not getting updated</a></li>
 
 </td><td>
 
