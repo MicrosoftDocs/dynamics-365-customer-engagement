@@ -26,6 +26,8 @@ This topic explains the considerations and best practices that you need to be aw
 
 ## Considerations for migration
 
+The following conditions need to be considered to perform migration.
+
 - **Role privileges:** To perform the migration, you must have administrator or system customizer roles. The list of privileges that are required if you want to assign to any other roles are as follows:
     - msdyn_ursmigrationlogs
     - msdyn_ursmigrationinfo
@@ -48,11 +50,11 @@ This topic explains the considerations and best practices that you need to be aw
 
     | Migration End date | Activity scheduled date | Activity end date | Entity record migration | Reason |
     |----------|----------|----------|---------|------------------------------------|
-    | **07/22/2019** | **07/23/2019** | **07/23/2019**| No | The service activity won’t be migrated as the scheduled date is beyond the end date. |
-    | **07/22/2019** | **07/22/2019** at **2300** hours | **07/23/2019** at **0500** hours | No | The service activity won’t be migrated as the scheduled activity ends at a date later than the specified migration end date. |
-    | **07/22/2019** | **07/22/2019** at **2359** hours | **07/22/2019** at **0500** hours | Yes | The service activity will be migrated as the activity ends before the specified migration end date. |
+    | 07/22/2019 | 07/23/2019 | 07/23/2019| No | The service activity won’t be migrated as the scheduled date is beyond the end date. |
+    | 07/22/2019 | 07/22/2019 at 2300 hours | 07/23/2019 at 0500 hours | No | The service activity won’t be migrated as the scheduled activity ends at a date later than the specified migration end date. |
+    | 07/22/2019 | 07/22/2019 at 2359 hours | 07/22/2019 at 0500 hours | Yes | The service activity will be migrated as the activity ends before the specified migration end date. |
 
-- **Recommendation:** For best migration experience, it is recommended not to use Service Scheduling until the migration is completed.
+- **Recommendation:** For best migration experience, we recommend that you don't use Service Scheduling until the migration is completed.
 
 - **Ignore entity records:** If you don't want to migrate certain entity records from legacy Service Scheduling to Unified Interface based Service Scheduling, then you need to add **Migration Status** attribute and set the value as **Ignore**. The records that are marked as **Ignore** won’t be migrated by the tool. The field displays the following statuses:
 
@@ -68,25 +70,27 @@ This topic explains the considerations and best practices that you need to be aw
 
 - **Failed Migration for certain records:** When the migration of an entity record fails, then you can retry migration. For the retry scenario, the number of records that are displayed in the screen are the records that didn’t migrate in the first run of the migration and also, those entity records that were created after the first run.
 
-- **New entity record:** If you create any records after you start the migration, the newly created entity records might not be reflected in the migration summary.
+- **New entity record:** If you create any records after you start the migration, the new entity records might not be reflected in the migration summary.
 
 - **Custom plugins and workflows:** After the migration, if you’ve custom plugins and workflows, examine them for compatibility with the new scheduling experience.
 
 - **Updating records during migration:** After you’ve migrated an entity record, if you update the record in the legacy service scheduling, the difference of update can’t be migrated using the tool. You must manually update the changes in the new service scheduling experience.
 
-## Ignore entity records from migration
+## Ignore entity records during migration
+
+To ignore an entity record during migration, perform the following steps.
 
 1. Sign in to Dynamics 365.
 
 2. Go to **Settings** > **Customizations** > **Customize the System**.
 
-3. Expand the entity you want to ignore from migration, and select **Forms**. For example: **Facility/Equipment**.
+3. Expand the entity you want to ignore, and select **Forms**. For example: **Facility/Equipment**.
 
 4. Select the section to which you want to add the field.
 
-5. Drag the **Migration Status** field from the **Field Explorer** pane and drop the field to the section where you want to add.
+5. Drag the **Migration Status** field from the **Field Explorer** pane and drop the field in the section where you want to add.
 
-6. Select **Save** to save the changes.
+6. Select **Save**.
 
 7. Select **Publish** to publish the customizations.
 

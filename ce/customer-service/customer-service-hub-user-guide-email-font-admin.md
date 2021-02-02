@@ -3,7 +3,7 @@ title: "Configure the default email font in customer engagement apps | Microsoft
 description: "Learn how to configure the default email font in customer engagement apps."
 author: lalexms
 ms.author: laalexan
-ms.date: 01/19/2021
+ms.date: 02/01/2021
 ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ms.reviewer: nenellim
@@ -12,10 +12,10 @@ ms.reviewer: nenellim
 
 # Configure the default email font
 
-Specific font information can be configured by editing the Rich Text Editor control global default webresource configuration. 
+Specific font information can be configured by editing the [Rich Text Editor control global default webresource configuration](https://docs.microsoft.com/powerapps/maker/model-driven-apps/rich-text-editor-control#use-the-webresource-for-organization-wide-changes).
 
-> ![IMPORTANT]
-> Changes to this file are global for your entire organization, and will affect every instance where the Rich Text Editor (RTE) control is used. This includes the RTE used in timeline rich text notes, knowledge management, and single and multi-line fields configured to use the RTE control.
+> [!IMPORTANT]
+> Changes to this file are global for your entire organization, and will affect every instance where the Rich Text Editor (RTE) control is used. This includes the RTE used in timeline rich text notes, knowledge management, and single and multi-line fields configured to use the RTE control. 
 
 Currently, email only recognizes changes in the following configuration values. This configuration will extend in future releases.
 
@@ -48,7 +48,7 @@ Currently, email only recognizes changes in the following configuration values. 
 
 The following sample email configuration code sample data can be used to enable specific fonts by editing the rich text editor control global default webresource configuration.
 
-> ![IMPORTANT]
+> [!IMPORTANT]
 > Changes to this file are global for your entire organization and will affect every instance where the Rich Text Editor (RTE) control is used. This includes the RTE used in timeline rich text notes, knowledge management, and single and multi-line fields configured to use the RTE control.
 
 Add a new font list and set "Brush Script MT" as the default font with a default size of 20 pt.
