@@ -15,25 +15,34 @@ ms.service: dynamics-365-customerservice
 
 
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/oc-voice-agent-dashboard.png)
 
+For a guided walkthrough, check out the following video.
 
+> [!VIDEO 
+https://microsoft.sharepoint.com/:v:/t/CRMHOME/ua/EcxIBAEagJdKtkFer7rhItYBZJl_iNg-vtinvyAtaPeq3Q?e=W1tbR7]
+
+See the video on![Video symbol](../field-service/media/video-icon.png "Video symbol") [Agent experience using the voice channel in Dynamics 365 Customer Service](https://microsoft.sharepoint.com/:v:/t/CRMHOME/ua/EcxIBAEagJdKtkFer7rhItYBZJl_iNg-vtinvyAtaPeq3Q?e=W1tbR7) for more details.
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/IMAGE-FILE-NAME.png)
 
+## Accept a call
+
+## View call transcript
+
+## Put customer on hold
+
+## View customer information
+
+# Markdown syntax reference
+
 ## Prerequisites
 > [!Note]
 >
 
-
-
-For a guided walkthrough, check out the following video.
-
-> [!VIDEO 
-https://www.microsoft.com/en-us/videoplayer/embed/RWs4Cu]
-
-See the video on![Video symbol](../field-service/media/video-icon.png "Video symbol") [Field Service (Dynamics 365) mobile app: Offline JavaScript](https://youtu.be/tUdL5YZA29A) for more details.
 
 ## Step 1
 
@@ -46,9 +55,6 @@ See the video on![Video symbol](../field-service/media/video-icon.png "Video sym
 
 
 ## Step 2
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/IMAGE-FILE-NAME.png)
 
 
 ## Configuration considerations
