@@ -17,11 +17,11 @@ ms.service: dynamics-365-customerservice
 
 ## Key features
 
+## Roles
+
 ## Common use cases
 
 ## A day in the life of an agent using the Voice channel
-
-## Roles
 
 ## Next steps
 
