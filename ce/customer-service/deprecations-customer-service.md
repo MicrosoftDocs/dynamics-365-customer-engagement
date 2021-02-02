@@ -1,8 +1,8 @@
 ---
 title: Deprecations in Dynamics 365 Customer Service | MicrosoftDocs
 description: Visit this page to see what's recently deprecated in Dynamics 365 Customer Service
-author: neeranelli
-ms.author: nenellim
+author: lalexms
+ms.author: laalexan
 manager: shujoshi
 ms.date: 02/02/2021
 ms.topic: article
@@ -72,7 +72,7 @@ Standard service level agreements (SLA Type field is set to Standard) are deprec
 
 ## Customer Service Insights standalone app is deprecated
 
-The Customer Service Insights standalone app is deprecated. If you are a customer who uses the Customer Service Insights standalone web application, your current working environment(s) will be terminated and inaccessible by December 8, 2021. You will no longer be able to use the standalone service after this date. The embedded Customer Service Insights features in the core applications will continue to be available and supported. For users who hold Customer Service Enterprise licenses, you will no longer be able to create new workspaces, but you'll retain access to existing ones. If you have a Customer Service Enterprise license, you will no longer be able to create new workspaces. Instead, consider migrating to the [embedded experience](introduction-customer-service-analytics.md) within the core Dynamics 365 Customer Service applications. In the interim, the [standalone app guide](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/quickstart) contains documentation for the web application.
+The Customer Service Insights standalone app is deprecated. If you are a customer who uses this app, your current working environment(s) will be terminated and inaccessible by December 8, 2021. You won't be able to use the standalone service after this date, but the embedded Customer Service Insights features in the core applications will continue to be available and supported. For users with Customer Service Enterprise licenses, you won't be able to create new workspaces, but you'll retain access to existing ones. We recommend that you migrate to the [embedded experience](introduction-customer-service-analytics.md) within the core Dynamics 365 Customer Service applications. In the interim, the [standalone app guide](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/quickstart) contains documentation for the standalone web application.
 
 
 ### See also
