@@ -199,12 +199,13 @@
 
 ## Voice & telephony
 ### Administrator experience
-#### [Introduction](voice) 
+#### [Introduction](voice)
+#### [Requirements]() 
 #### [Install and set up]()
 #### [Make and receive your first phone call]()
 #### [Set up workstream and queue for voice]()
 #### [Add conversational IVR bots]()
-#### [Call insigh]ts(voice-channel-call-insights.md)
+#### [Call insights](voice-channel-call-insights.md)
 #### [FAQs]()
 ### Agent experience
 #### [Using the agent dashboard for voice]()
