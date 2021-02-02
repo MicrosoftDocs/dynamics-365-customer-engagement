@@ -4,7 +4,7 @@ description: "Provision Omnichannel for Customer Service to add or remove channe
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 10/29/2020
+ms.date: 02/02/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -29,7 +29,7 @@ To provision the Omnichannel for Customer Service application, make sure the fol
 
 ## Provide data access consent
 
-To allow Omnichannel for Customer Service to read and write data on behalf of users, follow the steps:
+Use the following steps to allow Omnichannel for Customer Service to read and write data on behalf of users:
 
 1. Go to [Data access consent URL](https://go.microsoft.com/fwlink/p/?linkid=2070932). For Government Community Cloud (GCC), use the [GCC data access consent URL](https://go.microsoft.com/fwlink/p/?linkid=2128838).
 2. Sign in using **Global Tenant Admin** credentials.
