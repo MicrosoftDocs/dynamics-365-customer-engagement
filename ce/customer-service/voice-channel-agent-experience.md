@@ -13,8 +13,6 @@ ms.service: dynamics-365-customerservice
 # Use the voice channel in the agent dashboard 
 
 
-
-
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/oc-voice-agent-dashboard.png)
 
@@ -26,18 +24,32 @@ https://microsoft.sharepoint.com/:v:/t/CRMHOME/ua/EcxIBAEagJdKtkFer7rhItYBZJl_iN
 See the video on![Video symbol](../field-service/media/video-icon.png "Video symbol") [Agent experience using the voice channel in Dynamics 365 Customer Service](https://microsoft.sharepoint.com/:v:/t/CRMHOME/ua/EcxIBAEagJdKtkFer7rhItYBZJl_iNg-vtinvyAtaPeq3Q?e=W1tbR7) for more details.
 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/IMAGE-FILE-NAME.png)
+
 
 ## Accept a call
 
 ## View call transcript
 
-## Put customer on hold
+## Call controls 
+
+- Mute: 
+- Hold: 
+- End: 
 
 ## View customer information
 
-# Markdown syntax reference
+## Sentiment analysis
+
+## Knowledge article suggestions
+
+## Topic discovery
+
+
+
+
+
+
+# Markdown syntax reference (WILL BE DELETED BEFORE PUBLISH)
 
 ## Prerequisites
 > [!Note]
