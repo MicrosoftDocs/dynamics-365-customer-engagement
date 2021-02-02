@@ -4,7 +4,7 @@ description: Visit this page to see what's recently deprecated in Dynamics 365 C
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/21/2020
+ms.date: 02/02/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -69,6 +69,11 @@ The Contracts, Contract Line Items, and Contract Templates entities are deprecat
 ## Standard SLAs in Dynamics 365 Customer Service are deprecated
 
 Standard service level agreements (SLA Type field is set to Standard) are deprecated and will be removed in a future major release. Standard SLAs are replaced by enhanced SLAs. More information: [Enhanced service level agreements](https://technet.microsoft.com/library/dn887187.aspx).
+
+## Customer Service Insights standalone app is deprecated
+
+The Customer Service Insights standalone app is deprecated. If you are a customer who uses the Customer Service Insights standalone web application, your current working environment(s) will be terminated and inaccessible by December 8, 2021. You will no longer be able to use the standalone service after this date. The embedded Customer Service Insights features in the core applications will continue to be available and supported. For users who hold Customer Service Enterprise licenses, you will no longer be able to create new workspaces, but you'll retain access to existing ones. If you have a Customer Service Enterprise license, you will no longer be able to create new workspaces. Instead, consider migrating to the [embedded experience](introduction-customer-service-analytics.md) within the core Dynamics 365 Customer Service applications. In the interim, the [standalone app guide](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/quickstart) contains documentation for the web application.
+
 
 ### See also
 
