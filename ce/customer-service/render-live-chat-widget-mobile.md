@@ -1,8 +1,8 @@
 ---
 title: "Render a live chat widget on the mobile app| Microsoft Docs"
 description: "Render a live chat widget on your mobile app using a code snippet or SDK"
-author: ramana-hyd
-ms.author: v-rmurthy
+author: v-sailab
+ms.author: v-sailab
 manager: shujoshi
 ms.date: 10/12/2020
 ms.topic: reference

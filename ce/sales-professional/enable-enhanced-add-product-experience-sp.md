@@ -8,6 +8,15 @@ ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
+searchScope:
+  - D365-App-msdyn_salespro
+  - D365-Entity-opportunityproduct
+  - D365-Entity-quotedetail
+  - D365-Entity-salesorderdetail
+  - D365-Entity-invoicedetail
+  - D365-UI-*
+  - Dynamics 365
+  - Sales
 ---
 
 # Enable the enhanced experience of adding products (Sales Professional)

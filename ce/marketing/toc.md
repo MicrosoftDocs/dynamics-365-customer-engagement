@@ -7,7 +7,7 @@
 ## Installation and environment management
 ### [Sign up for a free trial](trial-signup.md)
 ### [Purchase and set up Dynamics 365 Marketing](purchase-setup.md)
-### [Integrate Marketing with a CMS system or Dynamics 365 Portal](portal-optional.md)
+### [Integrate Marketing with a CMS system or Power Apps portal](portal-optional.md)
 ### [Open the Power Platform admin center](power-platform-admin-center.md)
 ### [Re-run the Marketing setup wizard](re-run-setup.md)
 ### [Manage Marketing environments](manage-marketing-environments.md)
@@ -243,7 +243,7 @@
 #### Self-hosted
 ##### [Overview](developer/self-hosted.md)
 ##### [Host your custom event website on Azure](developer/host-custom-event-website-on-azure.md)
-#### Dynamics 365 Portal hosted
+#### Power Apps portal hosted
 ##### [Overview](developer/portal-hosted.md)
 ##### [Manually overwriting sample website](developer/manually-overwriting-sample-website.md)
 #### Events API
@@ -258,7 +258,6 @@
 ### [Metadata reference for your organization](developer/marketing-organization-metadata.md)
 #### [Dynamics 365 Marketing solutions](developer/marketing-solutions.md)
 #### [Dynamics 365 Marketing entity reference](developer/marketing-entity-reference.md)
-### [API-generated calendar invites for events and sessions](developer/personalized-calendar-content.md)
 ### [Work with segments using code](developer/extend-segments.md)
 ### [Attach names and emails to Dynamics 365 Customer Voice surveys sent from customer journeys](developer/customer-voice-populate-name.md)
 ### [Entity mapping with custom workflows](entity-mapping.md)

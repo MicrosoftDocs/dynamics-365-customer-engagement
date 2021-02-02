@@ -1,7 +1,7 @@
 ---
 title: "Work with data protection and GDPR (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Protect customer privacy and remain compliant with GDPR regulations with Dynamics 365 Marketing."
-ms.date: 12/16/2020
+ms.date: 01/29/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -155,7 +155,7 @@ A subscription center is the best place to enable contacts to confirm and modify
 You can now create a marketing email message that includes a link to your subscription-center page. Make sure your page explains why granting consent is important and how it offers value to the individual.
 
 > [!IMPORTANT]
-> Subscription lists are managed at the *contact* level. If multiple contacts share the same email address, only the specific contact who opted out will stop receiving communications. Other contacts using the same email address will continue to receive communications. If you require opt-outs to be processed at the email level, you will need to create custom processes.
+> Subscription lists are managed at the *contact* level. If multiple contacts share the same email address, only the specific contact who opted out will stop receiving communications. Other contacts using the same email address will continue to receive communications. If you require opt-outs to be processed at the email level, you will need to create custom processes. More information: [Manage subscriptions at an email level](set-up-subscription-center.md#manage-subscriptions-at-an-email-level).
 
 ## Set up double opt-in to confirm changes in consent level and subscriptions
 

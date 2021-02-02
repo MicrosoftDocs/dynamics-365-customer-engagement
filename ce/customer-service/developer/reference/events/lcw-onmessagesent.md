@@ -1,11 +1,12 @@
 ---
 title: "lcw onMessageSent | MicrosoftDocs"
-description: 
+description: lcw onMessageSent  (Omnichannel for Customer Service JavaScript API reference)
 author: platkat
 ms.author: ktaylor
 manager: shujoshi
 ms.topic: article
 ms.reviewer: nenellim
+ms.service: dynamics-365-customerservice
 ---
 # lcw:onMessageSent  (Omnichannel for Customer Service JavaScript API reference)
 
