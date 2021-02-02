@@ -84,10 +84,10 @@ Create entity record configuration to enable an entity for routing.
     | Basic Details | Name | Specify a name to the entity record channel. | Case entity channel  <br> **Note:** This is an example value.|
     | Basic Details | Entity | Select an entity from the list. | Case (Incident) |
 
-5. Select **Save** to save the entity record channel. After you save, in the **Work distribution** section, a default workstream is automatically created to distribute these entity records.
+5. Select **Save** to save the entity record channel. After you save, in the **Work distribution** section, a default work stream is automatically created to distribute these entity records.
 
 > [!Note]
-> When you create an entity record channel configuration, a default work stream will be created to distribute these entity records. You can edit the default workstream or create more workstreams as per your business scenarios. To learn more, see [Create workstream for entity record routing](set-up-entity-workstream.md).
+> When you create an entity record channel configuration, a default work stream will be created to distribute these entity records. You can edit the default work stream or create more work streams as per your business scenarios. To learn more, see [Create work stream for entity record routing](set-up-entity-workstream.md).
 
 ## Step 4: Create routing rules
 
@@ -104,7 +104,7 @@ Let's see how to create routing rule set and rule items for entity records. In t
 3. Select an entity records channel that you created for routing the records from the **Active Entities** view.
 
     > [!div class=mx-imgBorder] 
-    > ![Select a case workstream](media/case-entity-channel1.png "Case workstream")
+    > ![Select a case work stream](media/case-entity-channel1.png "Case workstream")
 
 4. Select the **Routing Rules** tab in the entity records channel.
 
@@ -178,7 +178,7 @@ You've successfully created queues, enabled entity for routing, and created rout
 
 ## Upgrade path for preview users
 
-If you are upgrading from preview release to the latest version, then earlier configured workstreams will be obsolete. You need to create a new entity records channel and then redefine the workstreams. To learn more, see [Create workstream for entity record routing](set-up-entity-workstream.md).
+If you are upgrading from preview release to the latest version, then earlier configured work streams will be obsolete. You need to create a new entity records channel and then redefine the work streams. To learn more, see [Create workstream for entity record routing](set-up-entity-workstream.md).
 
 
 ## See also

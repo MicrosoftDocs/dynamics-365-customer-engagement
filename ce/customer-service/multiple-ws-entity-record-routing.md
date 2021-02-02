@@ -1,5 +1,5 @@
 ---
-title: "Create multiple workstreams for entity records routing | MicrosoftDocs"
+title: "Create multiple work streams for entity records routing | MicrosoftDocs"
 description: "This walkthrough demonstrates how you can route entity record automatically using Entity Records channel in the Omnichannel Administration app."
 author: neeranelli
 ms.author: nenellim
@@ -9,38 +9,38 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
 
-# Create multiple workstreams for entity records routing
+# Create multiple work streams for entity records routing
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 ## Overview
 
-You can setup multiple workstreams for same entity records if you want to distribute the entity records using different workstreams based on certain conditions. 
+You can setup multiple work streams for same entity records if you want to distribute the entity records using different work streams based on certain conditions. 
 
-For example, you want high priority cases to be pushed to agents and demand more capacity than low priority cases, which can be picked by agents. You can achieve it by configuring multiple workstreams.
+For example, you want high priority cases to be pushed to agents and demand more capacity than low priority cases, which can be picked by agents. You can achieve it by configuring multiple work streams.
 
-This walkthrough demonstrates how to set up two workstreams, one each for high priority cases and low priority cases and to distribute the cases appropriately.
+This walkthrough demonstrates how to set up two work streams, one each for high priority cases and low priority cases and to distribute the cases appropriately.
 
 
 ### In this section
 
-[Step 1: Create workstream](#step-1-create-workstream)
+[Step 1: Create work stream](#step-1-create-work stream)
 
 [Step 2: Update Entity Record Distribution Flow](#step-2-update-entity-records-distribution-flow)
 
-## Step 1: Create workstream
+## Step 1: Create work stream
 
-Create entity records workstream to define how the records will be distributed. In this walkthrough, let us create two workstreams - **High Priority Cases** and **Low Priority Cases**.
+Create entity records work stream to define how the records will be distributed. In this walkthrough, let us create two work streams - **High Priority Cases** and **Low Priority Cases**.
 
-High priority cases workstream is set up to distribute the cases using automatic push, and the capacity required in 60 units.
+High priority cases work stream is set up to distribute the cases using automatic push, and the capacity required in 60 units.
 
-Low priority cases workstream is set up to distribute the cases for manual pick up, and capacity required is 30 units.
+Low priority cases work stream is set up to distribute the cases for manual pick up, and capacity required is 30 units.
 
 To learn more, see [Create workstream for entity record routing](set-up-entity-workstream.md).
 
 ## Step 2: Update entity records distribution flow
 
-If you create or edit an entity record workstream, you must update **Entity records Distribution Flow**. The Omnichannel Administration app automatically creates this flow out-of-the-box for distributing entity records.
+If you create or edit an entity record work stream, you must update **Entity records Distribution Flow**. The Omnichannel Administration app automatically creates this flow out-of-the-box for distributing entity records.
 
 **Entity records Distribution Flow** contains the following components.
 
@@ -52,7 +52,7 @@ If you create or edit an entity record workstream, you must update **Entity rec
 | \<Entity Record\> | Select to view the components under the Entity record. |
 | Work Stream Initialization - \<Entity Record\> | Do not modify. |
 | Entity record - \<Entity Record\> | Do not modify. |
-| Work Stream Selection for Routing (\<Entity Record\> ) | Update the condition and workstreams Id. |
+| Work Stream Selection for Routing (\<Entity Record\> ) | Update the condition and work stream ID. |
 | Invoke Omnichannel | Do not modify. |
 
 > [!Warning]
@@ -66,7 +66,7 @@ If you create or edit an entity record workstream, you must update **Entity rec
 
 2. Select **Work Streams** under **Work Distribution Management**.
 
-3. Select the workstream for which you want to update the flow.
+3. Select the work stream for which you want to update the flow.
 
 4. Select **Flow** menu in the command bar, and then select **See your flows**. Power Automate opens in a new browser window.
 
@@ -93,7 +93,7 @@ If you create or edit an entity record workstream, you must update **Entity rec
 
     ![Resolve flow warning](media/flow-error1.png "Resolve flow warning")
 
-#### Update the workstream Id
+#### Update the work stream ID
 
 10. Select the **Omnichannel Work Distribution** section. 
 
@@ -102,13 +102,13 @@ If you create or edit an entity record workstream, you must update **Entity rec
 12. Select the **Work Stream Selection for Routing** section.
 
     > [!div class=mx-imgBorder] 
-    > ![Select workstream](media/case-work-distribution-flow5.png "Select workstream")
+    > ![Select work stream](media/case-work-distribution-flow5.png "Select work stream")
 
 13. Remove the **Select Default Work Stream - \<Entity Record\>** section by selecting the ellipses, and then by selecting **Delete**.
 
     For example, **Select Default Work Stream - Case** 
 
-    Remove the default workstream so you can update the workstream with the one you created earlier.
+    Remove the default work stream so you can update the work stream with the one you created earlier.
 
 14. Select **Add an action** in the  **Work Stream Selection for routing entity- (\<Entity Record\>)** section.
 
@@ -133,10 +133,10 @@ If you create or edit an entity record workstream, you must update **Entity rec
 
 20. Select the **LiveWorkStreamId** from the Name drop-down list.
 
-21. Select the **Value** field search box to add a variable. A flyout control appears. Type the name of the workstream you created in the search box. For example, **High Priority Cases** is one of the case workstream that you created to route high priority cases. The value appears in the list, and when you select the value, it is added to the field. 
+21. Select the **Value** field search box to add a variable. A flyout control appears. Type the name of the work stream that you created in the search box. For example, **High Priority Cases** is one of the case work stream that you created to route high priority cases. The value appears in the list, and when you select the value, it is added to the field. 
 
     > [!Note]
-    > If you update the name of the workstream in Omnichannel Administration app, then you must perform step 21. Otherwise, the cases won't be automatically distributed to the agents.
+    > If you update the name of the work stream in Omnichannel Administration app, then you must perform step 21. Otherwise, the cases won't be automatically distributed to the agents.
 
     > [!div class=mx-imgBorder] 
     > ![Set the If yes variable value](media/case-work-distribution-flow9.png "Set variable value")
@@ -145,12 +145,12 @@ If you create or edit an entity record workstream, you must update **Entity rec
 
 23. Select the **LiveWorkStreamId** from the Name drop-down list.
 
-24. Select the **Value** field search box to add a variable. A flyout control appears. Type the name of the workstream you created in the search box. For example, **Low Priority Cases** is one of the case workstream that you created to route low priority cases. The value appears in the list, and when you select the value, it is added to the field.
+24. Select the **Value** field search box to add a variable. A flyout control appears. Type the name of the work stream you created in the search box. For example, **Low Priority Cases** is one of the case work stream that you created to route low priority cases. The value appears in the list, and when you select the value, it is added to the field.
 
     > [!Note]
-    > - If you update the name of the workstream in Omnichannel Administration app, then you must perform step 24. Otherwise, the cases won't be automatically distributed to the agents.
+    > - If you update the name of the work stream in Omnichannel Administration app, then you must perform step 24. Otherwise, the cases won't be automatically distributed to the agents.
     >
-    > - Adding multiple workstreams in the conditions are optional. If your business process requires multiple workstream conditions, you can create it.
+    > - Adding multiple work streams in the conditions are optional. If your business process requires multiple work stream conditions, you can create it.
 
     > [!div class=mx-imgBorder] 
     > ![Set the If no variable value](media/case-work-distribution-flow10.png "Set variable value")
@@ -160,11 +160,11 @@ If you create or edit an entity record workstream, you must update **Entity rec
     > [!div class=mx-imgBorder] 
     > ![Workstream selection](media/case-work-distribution-flow11.png "Workstream selection")
 
-Now, you've defined **Entity Record Distribution Flow** such that any case whose priority is 1 (high) is distributed using high priority workstream, and other cases will be distributed using low priority workstream. Similarly, you can extend the conditions such that the Flow supports your business scenario requirements.
+Now, you've defined **Entity Record Distribution Flow** such that any case whose priority is 1 (high) is distributed using high priority work stream, and other cases will be distributed using low priority work stream. Similarly, you can extend the conditions such that the Flow supports your business scenario requirements.
 
 > [!Important]
-> Whenever you want to update the entity record workstream ensure that **Entity Records Distribution Flow** is closed. 
-> Assume, you've made certain updates to the Flow. Now, while the Flow is still in the open in the browser, you go to Omnichannel Administration app and update the workstream. In this case, after you save the workstream, the Flow will be reset to its earlier state and you will loose the changes you did to the Flow.
+> Whenever you want to update the entity record work stream ensure that **Entity Records Distribution Flow** is closed. 
+> Assume, you've made certain updates to the Flow. Now, while the Flow is still in the open in the browser, you go to Omnichannel Administration app and update the work stream. In this case, after you save the work stream, the Flow will be reset to its earlier state and you will loose the changes you did to the Flow.
 
 ## Troubleshoot
 
