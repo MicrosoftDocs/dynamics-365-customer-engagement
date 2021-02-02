@@ -83,7 +83,7 @@ Make sure that you have the System Administrator or System Customizer security r
 
     **Note:** If the option to add Knowledge Base Search is disabled, it could be because knowledge management isn’t set up, isn’t enabled for the entity for which you’re adding the search control. Also, this control won't be enabled for reference panels until a later date.
 
-5. Once you have added your new section, select **Save and Publish**. You may need to refresh the screen to see the new section.
+5. Once you've added your new section, select **Save and Publish**. You may need to refresh the screen to see the new section.
 
    ![View new section](media/knowledge-control-settings.png "Knowledge control settings")
 
