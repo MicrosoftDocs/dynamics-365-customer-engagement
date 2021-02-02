@@ -4,7 +4,7 @@ description: Learn how to set up a search provider for knowledge management in D
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 11/18/2020
+ms.date: 02/1/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -57,9 +57,6 @@ To set up a search provider, do the following:
     The **New Search provider** page is displayed.
 
 3.	Under **General**, enter the name and owner information for the search provider. You can optionally also enter a description.
-
-    > [!div class=mx-imgBorder]
-    > ![Enter general information for a new search provider](media/new-search-provider.png "Enter the general information for the new search provider")
     
 4. If you want this search provider to be your default provider, toggle **Set as default** to **Yes**.
     
