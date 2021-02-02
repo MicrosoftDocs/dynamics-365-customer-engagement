@@ -20,8 +20,8 @@ This feature is intended to help customer service managers or supervisors enhanc
 
 The Omnichannel historical analytics dashboard provides KPIs and trends for supervisors to understand the overall state of the Omnichannel for Customer Service support experience at a glance. It also provides insights on the customer sentiments derived using support-specific machine learning algorithms with an ability to slice through different levels in the organizational hierarchy, which supervisors can rely on to improve the overall customer support experience. Omnichannel historical analytics is currently in private preview as an embedded experience within Omnichannel for customer service app which helps supervisors to view the reports without leaving the Omnichannel app.
 This section covers the following topics:
-•	Admin experience: Opt-in to analytics and insights
-•	Supervisor experience: Dashboard and metrics
+- Admin experience: Opt-in to analytics and insights
+- Supervisor experience: Dashboard and metrics
  
 Admin experience: Opt-in to analytics and insights
 To view the rich analytics and insights for your organization, you must opt-in to this feature from the Omnichannel admin center.
@@ -49,9 +49,9 @@ Conversation:
 
 The Conversation report provides a summary of top KPIs that an organization will be interested in, along with key insights which a supervisor can investigate to immediately to take action on. The following are the metrics covered in this section:
  
-Metric	Definition (historical)
-
-Incoming conversation	The number of conversations initiated by the customer and can be presented to a human agent.
+| Metric | Definition (historical) |
+| --- | --- | 
+| Incoming conversation |	The number of conversations initiated by the customer and can be presented to a human agent. |
 
 
 Conversations engaged	

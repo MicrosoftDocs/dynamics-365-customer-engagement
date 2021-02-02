@@ -199,7 +199,7 @@
 
 ## Voice & telephony
 ### Administrator experience
-#### [Introduction](voice)
+#### [Overview](voice-channel.md)
 #### [Requirements]() 
 #### [Install and set up]()
 #### [Make and receive your first phone call]()
