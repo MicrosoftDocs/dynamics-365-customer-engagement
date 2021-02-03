@@ -200,7 +200,7 @@
 ## Voice & telephony
 ### Administrator experience
 #### [Overview](voice-channel.md)
-#### [Requirements]() 
+#### [Requirements](voice-channel-requirements.md) 
 #### [Install and set up]()
 #### [Make and receive your first phone call]()
 #### [Set up workstream and queue for voice]()
