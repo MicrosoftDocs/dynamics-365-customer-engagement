@@ -4,7 +4,7 @@ description: Overview of the Customer Service Workspace application for Dynamics
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 10/21/2020
+ms.date: 02/03/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -38,7 +38,7 @@ As an agent with the Customer Service Representative security role, when you ope
 
 Let's explore the elements of the Customer Service workspace and how to navigate between them:
 
-![Overview of Customer Service workspace](media/csw-overview.png)
+
 :::image type="content" source="media/csw-overview.png" alt-text="Customer Service workspace overview" border="false":::
 
 
@@ -56,7 +56,7 @@ Let's explore the elements of the Customer Service workspace and how to navigate
 
 ### View and edit records
 
-There are new navigation behaviors to be aware of in Customer Service workspace. All other basic model-driven app functionality behaves the same way as it does in the Customer Service Hub and Omnichannel for Customer Service apps.
+You need to be aware of new navigation behaviors in Customer Service workspace. All other basic model-driven app functionality behaves the same way as it does in the Customer Service Hub and Omnichannel for Customer Service apps.
 
 - Select Shift + mouse click to open a new session tab for the record you want to open.
 - Selecting the record replaces your view with the form for the record you opened.
@@ -88,7 +88,7 @@ Let's explore the fields you can edit on the **Case Summary** tab:
 
 | Label | Description |
 | ------------ | ------------- |
-| 1 | In the Case Details, you can update the Case Title, Customer, Subject, Priority, Case Status, Product, and Description.
+| 1 | In Case Details, you can update the Case Title, Customer, Subject, Priority, Case Status, Product, and Description.
 | 2 | These are attributes that are set when the case is created by the system including Case Number, Origin, and Created On Date that won't change. You can change the case owner here.
 | 3 | Select the plus sign (+) on the timeline to expand the menu of timeline actions. 
 
@@ -134,7 +134,7 @@ From the Customer Service Agent Dashboard in Customer Service workspace, you can
 | 2 | Select Knowledge Article or Knowledge Search. You can also create and manage knowledge articles in other ways. For more information, see [Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md).|
 
 
-Intelligent knowledge suggestions are displayed in the productivity pane while working on a case. 
+Intelligent knowledge suggestions are displayed in the productivity pane while you are working on a case.
 
 ### Use email templates and signatures
 
