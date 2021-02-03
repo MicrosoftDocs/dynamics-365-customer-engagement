@@ -123,7 +123,7 @@ Type a keyword in the search box to search for knowledge articles.
 
 ## Link knowledge articles to an entity
 
-You can link or unlink a knowledge article to an account, case, or a record in the **Linked Knowledge Articles** section in the **Summary** tab. You can also edit a knowledge article by double-clicking the linked entity.
+You can link or unlink a knowledge article to an account, case, or a record in the **Linked Knowledge Articles** section on the **Summary** tab. You can also edit a knowledge article by double-clicking the linked entity.
 
 Perform the following steps to link the knowledge article.
 
