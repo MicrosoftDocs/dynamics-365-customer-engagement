@@ -138,6 +138,9 @@ Tenant Admin
 
 ## Next steps
 
+- [Install and provision the voice channel]()
+- [Make and receive your first call]()
+
 ### See also
 
 [Blog: New voice channel streamlines omnichannel customer experiences](https://cloudblogs.microsoft.com/dynamics365/bdm/2020/09/23/new-voice-channel-streamlines-omnichannel-customer-experiences/)
