@@ -38,19 +38,19 @@ As an agent with the Customer Service Representative security role, when you ope
 
 Let's explore the elements of the Customer Service workspace and how to navigate between them:
 
-
+![Overview of Customer Service workspace](media/csw-overview.png)
 :::image type="content" source="media/csw-overview.png" alt-text="Customer Service workspace overview" border="false":::
 
 
 | Label | Description|
 | ------------ | ------------- |
-| 1 | The session pane lists all of the sessions you are actively working on. Select the tabs to navigate between sessions.  |
+| 1 | The session pane lists all the sessions that you are actively working on. Select the tabs to navigate among sessions.  |
 | 2 | The Home session returns you to the Customer Service Agent Dashboard view.|
 | 3 | Each session has a tab in the session panel. Select a tab to navigate to the session you want to work on. |
-| 4 | Select Shift + mouse click to open a new session for a case. A single click on a case replaces your view with the case form. Select the back arrow in the upper-left corner of the form to get back to your previous view.|
-| 5 | Select the drop-down selector to filter cases in queues you can choose to work on. |
+| 4 | Select a case to open a new session. A single click on a case replaces your view with the case form. Select the back arrow in the upper-left corner of the form to get back to your previous view.|
+| 5 | Select the + icon to expand the menu to view a list of forms, views, and activities. Select the one you want to open in a new tab. |
 | 6 | Select the tabs to navigate to your open activities, cases, forms and views. |
-| 7 | Select the + icon to expand the menu to view a list of forms, views, and activities. Select the one you want to open in a new tab. |
+| 7 | Select the drop-down selector to filter cases in queues you can choose to work on. |
 | 8 | Select Shift + mouse click to open a new session for an activity. A single click replaces your view with the activity form. Select the back arrow in the upper-left corner of the form to go back to your previous view. |
 |||
 
@@ -58,9 +58,9 @@ Let's explore the elements of the Customer Service workspace and how to navigate
 
 There are new navigation behaviors to be aware of in Customer Service workspace. All other basic model-driven app functionality behaves the same way as it does in the Customer Service Hub and Omnichannel for Customer Service apps.
 
-- Select Shift + mouse click to open a new session tab for the record you want to open. 
-- Selecting the record replaces your view with the form for the record you opened. 
-- Select the back arrow in the upper-left corner of the form to get back to your previous view. 
+- Select Shift + mouse click to open a new session tab for the record you want to open.
+- Selecting the record replaces your view with the form for the record you opened.
+- Select the back arrow in the upper-left corner of the form to get back to your previous view.
 - Select Ctrl + mouse click to open items in a new tab. 
 
 ### Work with cases
@@ -136,16 +136,15 @@ From the Customer Service Agent Dashboard in Customer Service workspace, you can
 
 Intelligent knowledge suggestions are displayed in the productivity pane while working on a case. 
 
-### Create email templates and signatures
+### Use email templates and signatures
 
-From the Customer Service Agent Dashboard in Customer Service workspace, you can access email templates and signatures:
+From the Customer Service Agent Dashboard in Customer Service workspace, you can access email templates and signatures as follows:
+
+1. Select the plus sign (+) to expand the tab menu.
+2. Select Email Templates or Email Signatures.
 
 :::image type="content" source="media/email-csw.png" alt-text="Customer Service workspace email" border="false":::
 
-| Label | Description
-| ------------ | -------------
-| 1 | Select the plus sign (+) to expand the tab menu. 
-| 2 | Select Email Templates and Email Signatures.
 
 ### Productivity pane with Smart Assist
 
