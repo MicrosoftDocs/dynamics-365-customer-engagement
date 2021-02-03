@@ -47,7 +47,8 @@ Agents that rank high or low across specific indicators to make it easier for cu
 The reports summarize the key performance indicators for the specified time period and the percent change over the period. You can filter these areas by duration, channel, queue, and agent.
 
 KPIs for the following areas are displayed:
-| KPI      | Description    |
+
+| KPI            | Description    |
 |----------------|----------------|
 | Active cases   |  The number of cases that are currently open.   |
 | Resolved cases   | The number of cases that have been closed by an agent.     |
@@ -57,7 +58,8 @@ KPIs for the following areas are displayed:
 | Average survey sentiment | The average sentiment score, based on Customer Voice survey written feedback submitted by the customer.  |
 
 Charts are displayed as follows:
-| KPI      | Description    |
+
+| KPI            | Description    |
 |----------------|----------------|
 | Case volume over duration   |  Day-over-day trend of case volume.   |
 | Average resolve time  | Month-over-month trend of case resolution time in minutes.     |
