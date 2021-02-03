@@ -69,9 +69,9 @@ The topic metrics chart has the following metrics displayed:
 | Occurrence by topic   | Percentage of cases classified to each given topic.   |
 | Average resolution time  | Month over month trend of case resolution time in minutes.   |
 | Average CSAT    | The average customer satisfaction score, based on Customer Voice survey submitted by the customer.   |
-| CSAT impact     |       |
+| CSAT impact     | The amount that the given topic is driving the overall CSAT trend for the organization.     |
 | Average sentiment   | The average sentiment score, based on Customer Voice survey written feedback submitted by the customer.      |
-| Sentiment impact    |       |
+| Sentiment impact    | The amount that the given topic is driving the overall sentiment trend for the organization.     |
 
 ### See also
 - [Dashboard overview](customer-service-analytics-insights-csh.md) <br>
