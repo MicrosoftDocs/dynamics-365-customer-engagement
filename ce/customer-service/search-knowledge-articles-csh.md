@@ -121,29 +121,29 @@ Type a keyword in the search box to search for knowledge articles.
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add the Knowledge Base Search control to Main forms](add-knowledge-base-search-control-forms.md#add-the-knowledge-base-search-control-to-main-forms)
 
-## Link or unlink existing knowledge articles to an entity
+## Link knowledge articles to an entity
 
-You can link or unlink a knowledge article to an account, case or a record in the **Linked Knowledge Articles** section in the **Summary** tab of an account. You can also edit a knowledge article by double-clicking the linked entity.
+You can link or unlink a knowledge article to an account, case, or a record in the **Linked Knowledge Articles** section in the **Summary** tab. You can also edit a knowledge article by double-clicking the linked entity.
 
-To link an entity, you need to do the following:
+Perform the following steps to link the knowledge article.
 
 1. In the Customer Service Hub sitemap, go to **Customers** > **Accounts**.
 
 2. Select any active account from the list of accounts.
 
-3. In the **Summary** tab, scroll down to the **Linked Knowledge Articles** section.
+3. On the **Summary** tab, scroll down to the **Linked Knowledge Articles** section.
 
-4. Select the ellipsis button (⁝) and choose **Add Existing Knowledge Article**.
+4. Select the ellipsis button (⁝), and choose **Add Existing Knowledge Article**.
 
    > [!div class=mx-imgBorder]
    > ![Add existing knowledge article](media/add-existing-knowledge-article.PNG "Add an existing knowledge article to an entity.")
 
-5. Search for the related knowledge article you want to link and select **Link.**
+5. Search for the related knowledge article you want to link, and select **Link.**
 
    > [!div class=mx-imgBorder]
    > ![Search for an existing knowledge article](media/search-related-article.png "Search for a related knowledge article to link it.")
 
-6. Select **Done.** The article will appear in the **Linked Knowledge Articles** area.
+6. Select **Done.** The article will appear in the **Linked Knowledge Articles** section.
 
 ## Independent knowledge base search
 
