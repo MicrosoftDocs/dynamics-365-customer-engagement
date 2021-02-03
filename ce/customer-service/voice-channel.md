@@ -23,6 +23,7 @@ Microsoft said native voice support, which plugs into the same calling platform 
  
 
 We see a major strategic opportunity to bring a differentiated CCaaS offering to the market through Dynamics 365 Omnichannel. By integrating with Azure Communications Service (aka Spool aka ACS), and extending our current assets, such as Power Virtual Agent, Intelligent Routing and conversation canvas, we can offer a telephony solution directly within Dynamics OC.  
+
 ### Benefits
 
 The voice channel in Dynamics is built on the same secure, planet-scale platform used by Microsoft Teams
@@ -50,7 +51,10 @@ In this post I will explain how to setup the video calling feature. I will also 
 
 ## Watch an overview video
 
-https://www.youtube.com/watch?v=c6t1Yz-60ic&feature=youtu.be
+> [!VIDEO 
+https://www.microsoft.com/en-us/videoplayer/embed/RE4G43k]
+
+
 
 ## Example organizations
 
