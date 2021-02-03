@@ -5,7 +5,7 @@ author: lalexms
 feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ms.author: laalexan
 manager: shujoshi
-ms.date: 10/22/2020
+ms.date: 02/02/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -62,26 +62,30 @@ The KPI summary charts summarize the key performance indicators for the specifie
 
 KPIs for the following areas are displayed:
 
-- Incoming cases
-- Active cases
-- Escalated cases
-- Average resolve time
-- Average CSAT
-- Average survey sentiment
+| KPI    | Description     |
+|----------|------------|
+| Incoming cases    | The number of cases created to support customers.   |
+| Active cases      | The number of cases that are currently open.        |
+| Escalated cases   | The percentage of cases that have been escalated.   |
+| Average resolve time    |   The average length of time taken by an agent to resolve the case.   |
+| Average CSAT        | The average customer satisfaction score, based on Customer Voice survey submitted by the customer.   |
+| Average survey sentiment   | The average sentiment score, based on Customer Voice survey written feedback submitted by the customer.   |
+
 
 Charts are displayed as follows:
 
-- Case volume by status
-- Open cases by priority
-- Incoming cases by channel
-- Open cases by age
-- Case volume trend
-- Average CSAT trend
-- Average survey sentiment trend
-- Top 10 volume topics
-- Emerging case volume by topic
-- Case metrics by channel
-- Case metrics
+| Chart    | Description     |
+|----------|------------|
+| Case volume by status    | A breakdown of case volume by status.   |
+| Open cases by priority      | A case breakdown by priority level.        |
+| Incoming cases by channel   | A case breakdown by channel.   |
+| Open cases by age    |   A breakdown of cases by the amount of time in an open state.   |
+| Average CSAT trend      | The year-over-year trend of case volume.   |
+| Average survey sentiment trend   | The year-over-year trend of CSAT from Customer Voice survey responses.   |
+| Top 10 volume topics      | The top 10 AI-discovered topics by case volume.   |
+| Emerging case volume by topic      | The top emerging AI discovered topics based on increase in case volume .   |
+| Case metrics by channel      | An overview of the core case metrics by channel.    |
+| Case metrics    | Overview of core case metrics in relation to other metrics and date.   |
 
 
 A blue up-and-down indicator next to the value indicates the percent change in a positive direction. A red indicator indicates the percent change in a negative direction.
