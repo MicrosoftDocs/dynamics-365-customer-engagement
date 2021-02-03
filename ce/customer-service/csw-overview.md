@@ -56,7 +56,7 @@ Let's explore the elements of the Customer Service workspace and how to navigate
 
 ### View and edit records
 
-You need to be aware of new navigation behaviors in Customer Service workspace. All other basic model-driven app functionality behaves the same way as it does in the Customer Service Hub and Omnichannel for Customer Service apps.
+You need to be aware of the new navigation behaviors in Customer Service workspace. All other basic model-driven app functionality behaves the same way as it does in the Customer Service Hub and Omnichannel for Customer Service apps.
 
 - Select Shift + mouse click to open a new session tab for the record you want to open.
 - Selecting the record replaces your view with the form for the record you opened.
@@ -77,7 +77,8 @@ From the Customer Service Agent Dashboard in Customer Service workspace, you can
 | 4 | Edit selected cases. 
 | 5 | Delete selected cases. 
 | 6 | Apply a routing rule to route cases to a queue. 
-| 7 | Open the menu for additional actions including Assign, Add to Queue, Run Report, Email a Link, Share, Follow, or Unfollow cases. 
+| 7 | Open the menu for additional actions including Assign, Add to Queue, Run Report, Email a Link, Share, Follow, or Unfollow cases.
+|||
 
 
 #### Edit case data
@@ -91,7 +92,7 @@ Let's explore the fields you can edit on the **Case Summary** tab:
 | 1 | In Case Details, you can update the Case Title, Customer, Subject, Priority, Case Status, Product, and Description.
 | 2 | These are attributes that are set when the case is created by the system including Case Number, Origin, and Created On Date that won't change. You can change the case owner here.
 | 3 | Select the plus sign (+) on the timeline to expand the menu of timeline actions. 
-
+|||
 
 Let's explore the fields you can edit on the **Case Additional Details** tab:
 
@@ -105,7 +106,7 @@ Let's explore the fields you can edit on the **Case Additional Details** tab:
 | 4 | View and export the list of Similar Cases.
 | 5 | View, add associations, and export Child Cases. 
 | 6 | View and export the list of Merged Cases.
-
+|||
 
 ### Work with activities
 
@@ -119,7 +120,7 @@ From the Customer Service Agent Dashboard in Customer Service workspace, you can
 | 2 | Edit selected activities. 
 | 3 | Delete selected cases. 
 | 4 | Open the menu for additional actions including Mark Complete, Cancel, Set Regarding, Assign, Email a Link, Add to Queue, Run Report. 
-|
+|||
 
 ### Create and search knowledge articles
 
@@ -132,7 +133,7 @@ From the Customer Service Agent Dashboard in Customer Service workspace, you can
 |------------ | -------------|
 | 1 | Select the plus sign (+) to expand the tab menu.|
 | 2 | Select Knowledge Article or Knowledge Search. You can also create and manage knowledge articles in other ways. For more information, see [Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md).|
-
+|||
 
 Intelligent knowledge suggestions are displayed in the productivity pane while you are working on a case.
 
@@ -145,10 +146,9 @@ From the Customer Service Agent Dashboard in Customer Service workspace, you can
 
 :::image type="content" source="media/email-csw.png" alt-text="Customer Service workspace email" border="false":::
 
-
 ### Productivity pane with Smart Assist
 
-While working on a case, the productivity pane on the right side of the Customer Service workspace displays intelligence-driven suggestions to help agents better help customers. The productivity pane hosts Smart assist, which suggests related cases and knowledge articles that could be relevant to the current case, as well as agent scripts to guide agents through a consistent series of steps with potentially automated actions through macros. 
+While you are working on a case, the productivity pane on the right side of the Customer Service workspace displays intelligence-driven suggestions to help agents better help customers. The productivity pane hosts Smart assist, which suggests related cases and knowledge articles that could be relevant to the current case, and agent scripts to guide agents through a consistent series of steps with potentially automated actions through macros. 
 
 For more information, see [Productivity pane](csw-productivity-pane.md).
 
