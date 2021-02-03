@@ -70,9 +70,9 @@ The Contracts, Contract Line Items, and Contract Templates entities are deprecat
 
 Standard service level agreements (SLA Type field is set to Standard) are deprecated and will be removed in a future major release. Standard SLAs are replaced by enhanced SLAs. More information: [Enhanced service level agreements](https://technet.microsoft.com/library/dn887187.aspx).
 
-## Customer Service Insights standalone app is deprecated
+## Customer Service Insights standalone app to be deprecated
 
-The Customer Service Insights standalone app is deprecated. If you are a customer who uses this app, your current working environment(s) will be terminated and inaccessible by December 8, 2021. You won't be able to use the standalone service after this date, but the embedded Customer Service Insights features in the core applications will continue to be available and supported. For users with Customer Service Enterprise licenses, you won't be able to create new workspaces, but you'll retain access to existing ones. We recommend that you migrate to the [embedded experience](introduction-customer-service-analytics.md) within the core Dynamics 365 Customer Service applications. In the interim, the [standalone app guide](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/quickstart) contains documentation for the standalone web application.
+The Customer Service Insights standalone app is planned for deprecation later this year. If you are a customer who uses this app, your current working environments will be terminated and inaccessible by December 8, 2021. You won't be able to use the standalone service after this date, but the embedded Customer Service Insights features in the core applications will continue to be available and supported. For users with Customer Service Enterprise licenses, you won't be able to create new workspaces, but you'll retain access to existing ones. We recommend that you migrate to the [embedded experience](introduction-customer-service-analytics.md) within the core Dynamics 365 Customer Service applications. In the interim, the [standalone app guide](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/quickstart) contains documentation for the standalone web application.
 
 
 ### See also
