@@ -54,7 +54,7 @@ KPIs for the following areas are displayed:
 | Resolved cases   | The number of cases that have been closed by an agent.     |
 | Escalated cases   | The percentage of cases that have been escalated.     |
 | Average resolve time | The average time taken by an agent to resolve the case.   |
-| Average CSAT   | The average customer satisfaction score, based on written feedback submitted by the customer in the Customer Voice survey    |
+| Average CSAT   | The average customer satisfaction score, based on written feedback submitted by the customer in the Customer Voice survey.    |
 | Average survey sentiment | The average sentiment score, based on written feedback submitted by the customer in the Customer Voice survey.  |
 
 Charts are displayed as follows:
