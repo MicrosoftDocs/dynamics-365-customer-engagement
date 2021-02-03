@@ -125,7 +125,7 @@ Type a keyword in the search box to search for knowledge articles.
 
 You can link or unlink a knowledge article to an account, case, or a record in the **Linked Knowledge Articles** section on the **Summary** tab. You can also edit a knowledge article by double-clicking the linked entity.
 
-Perform the following steps to link the knowledge article.
+To link the knowledge article, do the following:
 
 1. In the Customer Service Hub sitemap, go to **Customers** > **Accounts**.
 
