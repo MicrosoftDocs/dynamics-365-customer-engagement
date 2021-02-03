@@ -145,6 +145,9 @@ To link the knowledge article, do the following:
 
 6. Select **Done.** The article will appear in the **Linked Knowledge Articles** section.
 
+> [!NOTE]
+> Contact your administrator if you don't find the **Linked Knowledge Articles** area on your dashboard.
+
 ## Independent knowledge base search
 
 Agents can do knowledge base searches outside of cases using the **Knowledge Search** option in the sitemap under **Knowledge**.  This functionality performs like a knowledge search hub. 
