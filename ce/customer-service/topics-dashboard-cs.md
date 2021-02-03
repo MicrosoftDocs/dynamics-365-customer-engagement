@@ -56,9 +56,9 @@ KPIs for the following areas are displayed:
 | Total cases   |  The number of cases created to support customers.     |
 | Active cases  |  The number of cases that are currently opened.      |
 | Escalated cases   | The percentage of cases that have been escalated.     |
-| Average handle time   | The average length of time taken by an agent to resolve the case.   |
-| Average CSAT     | The average customer satisfaction score, based on Customer Voice survey submitted by the customer.   |
-| Average sentiment    |  The average sentiment score, based on Customer Voice survey written feedback submitted by the customer.    |
+| Average handle time   | The average time taken by an agent to resolve the case.   |
+| Average CSAT     | The average customer satisfaction score, based on written feedback submitted by the customer in the Customer Voice survey.   |
+| Average sentiment    |  The average sentiment score, based on written feedback submitted by the customer in the Customer Voice survey.    |
 
 
 The topic metrics chart has the following metrics displayed:
