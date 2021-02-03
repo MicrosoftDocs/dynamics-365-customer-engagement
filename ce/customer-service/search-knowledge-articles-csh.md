@@ -136,12 +136,12 @@ To link the knowledge article, do the following:
 4. Select the ellipsis button (⁝), and choose **Add Existing Knowledge Article**.
 
    > [!div class=mx-imgBorder]
-   > ![Add existing knowledge article](media/add-existing-knowledge-article.PNG "Add an existing knowledge article to an entity.")
+   > ![Add existing knowledge article](media/add-existing-knowledge-article.PNG "Add an existing knowledge article to an entity")
 
 5. Search for the related knowledge article you want to link, and select **Link.**
 
    > [!div class=mx-imgBorder]
-   > ![Search for an existing knowledge article](media/search-related-article.png "Search for a related knowledge article to link it.")
+   > ![Search for an existing knowledge article](media/search-related-article.png "Search for a related knowledge article to link it")
 
 6. Select **Done.** The article will appear in the **Linked Knowledge Articles** section.
 
