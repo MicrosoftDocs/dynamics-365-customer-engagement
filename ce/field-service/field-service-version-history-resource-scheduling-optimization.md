@@ -21,23 +21,23 @@ search.app:
 # Resource scheduling optimization version history
 
 ## 3.2.3.3
--	Fixed bug where a hard and virtually locked booking that was out of scope would show up as a create operation in the optimization request booking tab. Optimization request bookings are created for virtually locked if resource scheduling optimization has something to change. If there is nothing to change, the record should not be created. 
--	Fixed bug where reset would cause error: “Value cannot be null.” When a reset does happen, the confusing error is no longer provided. Instead, it errors by either defaulting the effort level or raising a ```RSODataNotFound``` exception.  
--	Fixed bug where reset all in resource scheduling optimization **Schedules** tab was not properly deleting data within database.  
+-	Fixed bug: a hard and virtually locked booking that was out of scope would show up as a create operation in the optimization request booking tab. Optimization request bookings are created for virtually locked if resource scheduling optimization has something to change. If there is nothing to change, the record should not be created. 
+-	Fixed bug: reset would cause error: “Value cannot be null.” When a reset does happen, the confusing error is no longer provided. Instead, it errors by either defaulting the effort level or raising a ```RSODataNotFound``` exception.  
+-	Fixed bug: reset all in resource scheduling optimization **Schedules** tab was not properly deleting data within database.  
 -	Fixed bug with "System.OutOfMemoryException: Array dimensions exceeded supported range.” This scenario would occur when a large number of resource requirements ~50k would be attempted to be optimized for. 
 -	Fixed “Keyset does not exist” errors. This is a transient issue that would fail the authentication from Azure to CRM.
 -	Fixed bug within ineligibility graph in which an entire resource was incorrectly removed if other shifts associated with the resource were still eligible to be scheduled. 
--	Fixed bug where optimization would run for more than one day without completing. This scenario would occur when 5000 resource requirements and 500 resources were scheduled to be optimized over 21 days. 
--	Fixed bug where the settings panel within resource scheduling optimization app displayed "properties" instead of "priorities." 
--	Fixed bug where optimization goal was not saving when the travel time calculation was updated. 
+-	Fixed bug: optimization would run for more than one day without completing. This scenario would occur when 5000 resource requirements and 500 resources were scheduled to be optimized over 21 days. 
+-	Fixed bug: the settings panel within resource scheduling optimization app displayed "properties" instead of "priorities." 
+-	Fixed bug: optimization goal was not saving when the travel time calculation was updated. 
 
 ## 3.2.2.18 
 
-- Fixed bug where optimization request fails with the message: “an item with the same key has already been added.” The scenario occurred when there was more than one booking with the same resource requirement. 
-- Fixed bug where version 3.0.190941 would not upgrade to version 3.2.1.96 due to plugin name issues.  
-- Fixed bug error where schedule assist would fail with the message: “The remote name could not be resolved: 'website20200924t163642zzvulvehb5hdn4.azurewebsites.net'”. The scenario occurred when schedule assist was unable to correctly provide options for the resource name, travel time, and arrival time for a suggested booking.  
-- Fixed bug where running reset all or reset selected on a schedule associated with heavy effort optimizations would time out.  
-- Fixed bug in operation requests booking details tab where the operation reason was showing “---” for all records. 
+- Fixed bug: optimization request fails with the message: “an item with the same key has already been added.” The scenario occurred when there was more than one booking with the same resource requirement. 
+- Fixed bug: version 3.0.190941 would not upgrade to version 3.2.1.96 due to plugin name issues.  
+- Fixed bug: schedule assist would fail with the message: “The remote name could not be resolved: 'website20200924t163642zzvulvehb5hdn4.azurewebsites.net'”. The scenario occurred when schedule assist was unable to correctly provide options for the resource name, travel time, and arrival time for a suggested booking.  
+- Fixed bug: running reset all or reset selected on a schedule associated with heavy effort optimizations would time out.  
+- Fixed bug: in operation requests booking details tab where the operation reason was showing “---” for all records. 
 
 ## 3.2.1.71 
 
@@ -46,7 +46,7 @@ search.app:
 
 ## 3.2.1.6 
 
-- Fixed bug scenario where installing the resource scheduling optimization analytics solution would remove the resource scheduling optimization app module icon. 
+- Fixed bug: scenario installing the resource scheduling optimization analytics solution would remove the resource scheduling optimization app module icon. 
 - Allow resources to travel outside of working hours [Read about this update.] (https://docs.microsoft.com/dynamics365/field-service/rso-travel-outside-working-hours)
 - Improved predictive travel time accuracy [Read about this update.] (https://docs.microsoft.com/dynamics365/field-service/rso-predictive-travel) 
 
