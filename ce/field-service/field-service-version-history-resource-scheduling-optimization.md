@@ -24,8 +24,8 @@ search.app:
 -	Fixed bug: a hard and virtually locked booking that was out of scope would show up as a create operation in the optimization request booking tab. Optimization request bookings are created for virtually locked if resource scheduling optimization has something to change. If there is nothing to change, the record should not be created. 
 -	Fixed bug: reset would cause error: “Value cannot be null.” When a reset does happen, the confusing error is no longer provided. Instead, it errors by either defaulting the effort level or raising a ```RSODataNotFound``` exception.  
 -	Fixed bug: reset all in resource scheduling optimization **Schedules** tab was not properly deleting data within database.  
--	Fixed bug with "System.OutOfMemoryException: Array dimensions exceeded supported range.” This scenario would occur when a large number of resource requirements ~50k would be attempted to be optimized for. 
--	Fixed “Keyset does not exist” errors. This is a transient issue that would fail the authentication from Azure to CRM.
+-	Fixed bug with "System.OutOfMemoryException: Array dimensions exceeded supported range.” This scenario would occur when a trying to optimize a large number of resource requirements (~50k). 
+-	Fixed “Keyset does not exist” errors. This error was a transient issue that would fail the authentication from Azure to CRM.
 -	Fixed bug within ineligibility graph in which an entire resource was incorrectly removed if other shifts associated with the resource were still eligible to be scheduled. 
 -	Fixed bug: optimization would run for more than one day without completing. This scenario would occur when 5000 resource requirements and 500 resources were scheduled to be optimized over 21 days. 
 -	Fixed bug: the settings panel within resource scheduling optimization app displayed "properties" instead of "priorities." 
