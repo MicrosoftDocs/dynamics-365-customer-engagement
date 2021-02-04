@@ -16,7 +16,7 @@ Enable customer service representatives to communicate with customers on the pho
 > [!VIDEO 
 https://www.microsoft.com/en-us/videoplayer/embed/RE4G43k]
 
-Customer service organizations will find that voice and telphony communica
+Customer service organizations will find that voice and telphony communication works well with 
 
 Microsoft announces native Voice channel for Microsoft Dynamics 365 Customer Service. This is to complement Dynamics 365 Omni Channel which now has Voice, Chat, SMS, Whats App and more.
 
