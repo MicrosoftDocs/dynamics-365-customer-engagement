@@ -45,24 +45,24 @@ You can download tools used in development from NuGet using the PowerShell scrip
     Remove-Item .\Tools -Force -Recurse -ErrorAction Ignore
     Invoke-WebRequest $sourceNugetExe -OutFile $targetNugetExe
     Set-Alias nuget $targetNugetExe -Scope Global -Verbose
-        
+
     ##
     ##Download Plugin Registration Tool
     ##
     ./nuget install Microsoft.CrmSdk.XrmTooling.PluginRegistrationTool -O .\Tools
     md .\Tools\PluginRegistration
     $prtFolder = Get-ChildItem ./Tools | Where-Object {$_.Name -match 'Microsoft.CrmSdk.XrmTooling.PluginRegistrationTool.'}
-    move .\Tools\$prtFolder\tools\*.* .\Tools\PluginRegistration
-    Remove-Item .\Tools\$prtFolder -Force -Recurse
-    
+    move $prtFolder\tools\*.* .\Tools\PluginRegistration
+    Remove-Item $prtFolder -Force -Recurse
+
     ##
     ##Download CoreTools
     ##
     ./nuget install  Microsoft.CrmSdk.CoreTools -O .\Tools
     md .\Tools\CoreTools
     $coreToolsFolder = Get-ChildItem ./Tools | Where-Object {$_.Name -match 'Microsoft.CrmSdk.CoreTools.'}
-    move .\Tools\$coreToolsFolder\content\bin\coretools\*.* .\Tools\CoreTools
-    Remove-Item .\Tools\$coreToolsFolder -Force -Recurse
+    move $coreToolsFolder\content\bin\coretools\*.* .\Tools\CoreTools
+    Remove-Item $coreToolsFolder -Force -Recurse
 
     ##
     ##Download Configuration Migration
@@ -70,30 +70,30 @@ You can download tools used in development from NuGet using the PowerShell scrip
     ./nuget install  Microsoft.CrmSdk.XrmTooling.ConfigurationMigration.Wpf -O .\Tools
     md .\Tools\ConfigurationMigration
     $configMigFolder = Get-ChildItem ./Tools | Where-Object {$_.Name -match 'Microsoft.CrmSdk.XrmTooling.ConfigurationMigration.Wpf.'}
-    move .\Tools\$configMigFolder\tools\*.* .\Tools\ConfigurationMigration
-    Remove-Item .\Tools\$configMigFolder -Force -Recurse
-    
+    move $configMigFolder\tools\*.* .\Tools\ConfigurationMigration
+    Remove-Item $configMigFolder -Force -Recurse
+
     ##
     ##Download Package Deployer 
     ##
     ./nuget install  Microsoft.CrmSdk.XrmTooling.PackageDeployment.WPF -O .\Tools
     md .\Tools\PackageDeployment
     $pdFolder = Get-ChildItem ./Tools | Where-Object {$_.Name -match 'Microsoft.CrmSdk.XrmTooling.PackageDeployment.Wpf.'}
-    move .\Tools\$pdFolder\tools\*.* .\Tools\PackageDeployment
-    Remove-Item .\Tools\$pdFolder -Force -Recurse
+    move $pdFolder\tools\*.* .\Tools\PackageDeployment
+    Remove-Item $pdFolder -Force -Recurse
 
     ##
     ##Download Package Deployer PowerShell module
     ##
     ./nuget install Microsoft.CrmSdk.XrmTooling.PackageDeployment.PowerShell -O .\Tools
     $pdPoshFolder = Get-ChildItem ./Tools | Where-Object {$_.Name -match 'Microsoft.CrmSdk.XrmTooling.PackageDeployment.PowerShell.'}
-    move .\Tools\$pdPoshFolder\tools\*.* .\Tools\PackageDeployment.PowerShell
-    Remove-Item .\Tools\$pdPoshFolder -Force -Recurse
+    move $pdPoshFolder\tools\*.* .\Tools\PackageDeployment.PowerShell
+    Remove-Item $pdPoshFolder -Force -Recurse
 
     ##
     ##Remove NuGet.exe
     ##
-    Remove-Item nuget.exe    
+    Remove-Item nuget.exe   
     ```
 
 1. You will find the tools in the following folders:
