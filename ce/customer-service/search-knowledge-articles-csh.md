@@ -121,9 +121,9 @@ Type a keyword in the search box to search for knowledge articles.
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add the Knowledge Base Search control to Main forms](add-knowledge-base-search-control-forms.md#add-the-knowledge-base-search-control-to-main-forms)
 
-## Link knowledge articles to an entity
+## Linked knowledge article subgrid
 
-After your system administrator has added the related Knowledge Article subgrid into an entity form, you can link or unlink a knowledge article from the customized subgrid.You can also edit a knowledge article by double-clicking it in the linked articles list.
+After your system administrator has added the related knowledge article subgrid into an entity form, you can link or unlink a knowledge article from the customized subgrid. You can also edit a knowledge article by double-clicking it in the linked articles list.
 
 To link the knowledge article to an entity, you need to do the following steps. For the sake of this example, let us consider the entity as Accounts.
 
@@ -134,9 +134,9 @@ To link the knowledge article to an entity, you need to do the following steps. 
 3. On the **Summary** tab, scroll down to the **Linked Knowledge Articles** subgrid.
 
 > [!NOTE]
-> The name of the subgrid can vary depending on the customization followed in your organization.
+> The name of the subgrid may vary depending on the customization followed in your organization.
 
-4. Select **More commands**(⁝), and then select **Add Existing Knowledge Article**.
+4. Select **More commands** (⁝), and then select **Add Existing Knowledge Article**.
 
    > [!div class=mx-imgBorder]
    > ![Add an existing knowledge article](media/add-existing-knowledge-article.PNG "Add an existing knowledge article")
