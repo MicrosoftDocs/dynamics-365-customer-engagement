@@ -80,6 +80,7 @@
 #### [Create cases](customer-service-hub-user-guide-create-a-case.md)
 #### [Resolve, cancel, and reassign cases](customer-service-hub-user-guide-resolve-cancel-reassign-a-case.md)
 #### [Merge cases](customer-service-hub-user-guide-merge-cases.md)
+#### [View, block, or deactivate a social profile](view-block-deactivate-social-profile.md)
 #### [Convert a case to a knowledge article](customer-service-hub-user-guide-convert-case-to-knowledge-article.md)
 #### [View AI suggested similar cases and knowledge articles](csw-view-ai-suggested-cases-knowledge-articles.md)
 ### Customize case management
