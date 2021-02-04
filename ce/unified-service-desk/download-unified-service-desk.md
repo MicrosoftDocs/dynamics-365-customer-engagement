@@ -4,7 +4,7 @@ description: "This topic provides information about how to download Unified Serv
 author: v-sailab
 ms.author: v-sailab
 manager: shujoshi
-ms.date: 08/17/2018
+ms.date: 02/04/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -34,7 +34,10 @@ This topic provides information about the location from where you can download v
 
 > [!NOTE]
 
-> To download older versions of Unified Service Desk, use the version selector and choose a version to see the download links.
+> - If your organization is using a previously released version of the Unified Service Desk 4.1 client application, you must uninstall the application and then install version 4.1.1.1433, instead of upgrading to version 4.1.1.1433.
+> - If your organization is using a previous version other than the Unified Service Desk 4.1 client application, you can upgrade to the version 4.1.1.1433.
+>
+> - To download older versions of Unified Service Desk, use the version selector and choose a version to see the download links.
 >
 > ![Select a version using the version selector](media/usd-version-selector.PNG "Unified Service Desk version selector")
 
