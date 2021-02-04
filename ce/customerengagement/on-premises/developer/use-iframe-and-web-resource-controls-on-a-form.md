@@ -1,7 +1,7 @@
 ---
 title: "Use IFRAME and web resource controls on a form | MicrosoftDocs"
 ms.custom: 
-ms.date: 04/18/2018
+ms.date: 02/03/2021
 ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
@@ -20,7 +20,10 @@ search.audienceType:
 IFRAME and web resource controls embed content from another location in pages by using an HTML IFRAME element.  
 
 > [!NOTE]
->  The designs you choose for the form are also used for the [!INCLUDE[pn_crm_for_outlook_full](../includes/pn-crm-for-outlook-full.md)] reading pane and forms used by [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)]. Web resources and IFRAMEs aren’t displayed using the [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] reading pane, however, they are supported in [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]. If your IFRAME depends on access to the `Xrm` object of the page or any form event handlers, you should configure the IFRAME so that it's not visible by default.  
+>  The designs you choose for the form are also used for the [!INCLUDE[pn_crm_for_outlook_full](../includes/pn-crm-for-outlook-full.md)] reading pane and forms used by [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)]. Web resources and IFRAMEs aren’t displayed using the [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] reading pane, however, they are supported in [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]. If your IFRAME depends on access to the `Xrm` object of the page or any form event handlers, you should configure the IFRAME so that it's not visible by default.<p/>
+> IFRAMEing content that is behind an authentication boundary is not supported through web resources or Power Apps component framework. Some embedded IFRAMEs might work in a browser client if the user directly logs into the external service, but this is not supported in mobile or tablet applications.
+The specific scenario of embedding an entity form within an IFRAME, embedded in another entity form, is not supported.
+
 
  You can use an IFRAME to display the contents from another website in a form, for example, in an [!INCLUDE[pn_ASP.NET_short](../includes/pn-asp-net-short.md)] page. Displaying an entity form within an IFrame embedded in another entity form is not supported.  
 
