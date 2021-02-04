@@ -25,6 +25,12 @@ This is the release history page for the [!INCLUDE[pn_unified_service_desk](../i
 
 ::: moniker range="dynamics-usd-4.1"
 
+<a name="Release_4_1_1433"></a>
+
+## Release history for Unified Service Desk 4.1.1.1433, December 2020
+
+This release supports the Dynamics 365 model-driven apps deployed in Switzerland region. There are no content-specific changes in this release.
+
 <a name="Release_4_1_2"></a>
 
 ## Release history for Unified Service Desk 4.1.1.1429, November 2020
