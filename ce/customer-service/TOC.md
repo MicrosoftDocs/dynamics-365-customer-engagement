@@ -197,9 +197,9 @@
 #### [Customize quick view forms](customize-quick-view-form.md)
 #### [Customize session forms](customize-session-form.md)
 
-## Voice & telephony
+## Voice
+### [Overview](voice-channel.md)
 ### Administrator experience
-#### [Overview](voice-channel.md)
 #### [Requirements](voice-channel-requirements.md) 
 #### [Install and set up](voice-channel-install.md)
 #### [Make and receive your first phone call]()
