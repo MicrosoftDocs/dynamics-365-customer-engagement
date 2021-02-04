@@ -20,6 +20,7 @@ manager: shujoshi
 The **LinkedIn Sales Insights** tab in the **Account** records provides information about the company and personas that are defined for the company within LinkedIn Sales Insights product. When the solution is installed, two new entities are created in Dynamics 365 Sales.   
 -	LinkedIn Sales Insights Company Profile (One Company profile record related to each Account).    
 -	LinkedIn Sales Insights Personas (Three Personas records related to each Account).   
+
 When CRM sync for LinkedIn Sales Insights is established, LinkedIn Sales Insights for Dynamics 365 brings data from all matched accounts in LSI into Dynamics’ Account record. While configuring the data pipeline from LinkedIn, customers have the option to automatically update the data every 24 hours.     
 
 | Entities | Parameter information |
