@@ -39,7 +39,7 @@ Make sure that the following prerequisites are met:
 
 ### Initiate voice and video call
 
-When you're chatting with the customer, you can initiate a voice or video call. In the communication panel, beside the **End** button, select the ellipsis button ![Ellipsis](media/ellipsis.png "Ellipsis"). The **Voice Call** and **Video Call** options are displayed. (Depending on your system configuration, you might see **Voice Call** and **Video Call**, or just **Voice call**.)
+When you're chatting with the customer, you can initiate a voice or video call. In the communication panel, beside the **End** button, select More commands ![More commands](media/ellipsis.png "More commands"). The **Voice Call** and **Video Call** options are displayed. (Depending on your system configuration, you might see **Voice Call** and **Video Call**, or just **Voice call**.)
 
 > [!div class=mx-imgBorder]
 > ![Voice and video call](media/chat-voice-video-call.png "Voice and video call")
