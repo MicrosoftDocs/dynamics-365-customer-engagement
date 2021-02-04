@@ -89,8 +89,7 @@ Using the general properties and scheduling options of the forecast configuratio
 
 6.	Choose a **Default underlying records view**. This is the default view used when users select a row or a cell of the forecast to view its underlying opportunities. To learn more, see [View and manage underlying opportunities](view-and-manage-underlying-opportunities.md).
 
-<a name="basic-scheduling"> </a>
-7.	In the **Scheduling** section, specify the following information. 
+7.	In the **Scheduling** section, specify the following information. <a name="basic-scheduling"> </a>  
 
     >[!NOTE]
     >You can use the advanced scheduling to configure the forecast scheduling based on the calendar used by your organization. More information: [Advanced scheduling](#advanced-scheduling).
@@ -151,6 +150,7 @@ Using the advanced scheduling, you can configure the forecast scheduling based o
 Forecasting now supports the selection of different calendar patterns to match your organizational requirements. Under the **Scheduling** section, enable the preview for advanced scheduling.     
 > [!div class="mx-imgBorder"]
 > ![Enable advanced scheduling preview](media/forecast-adv-scheduling-enable-preview.png "Enable advanced scheduling preview")     
+
 The following options are available for you to configure along with [basic scheduling settings](#basic-scheduling):
 -	**Fiscal Year Start Date**: Select the date depending on your organization’s fiscal year start date. In general, the fiscal year start date starts at the beginning of a quarter, such as January 1, April 1, July 1, or October 1.      
 -	**Calendar Template**: Select the calendar template in which your organization manages accounting periods. The 4-4-5 or similar calendar templates are common calendar structure for industries such as retail and manufacturing. The following calendar patterns are supported in forecasting:    
