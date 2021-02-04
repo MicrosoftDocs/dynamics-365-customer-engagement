@@ -4,7 +4,7 @@ description: "Adaptive card, emojis, and other support in asynchronous channels 
 author: platkat
 ms.author: ktaylor
 manager: shujoshi
-ms.date: 10/22/2020
+ms.date: 02/03/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: nenellim
@@ -18,17 +18,14 @@ ms.reviewer: nenellim
 
 | Channel              | Adaptive card | Hero card | Receipt card | Thumbnail card | Sign in card | Audio card |
 |----------------------|---------------|-----------|--------------|----------------|-------------|------------|
-| Microsoft Teams      | ✔             | ✔         | ✔            | ✔              | ✔           | ❌          | 
-| Facebook             | ⚠🔶           | ✔         | ✔            | ✔              | ✔           | 🌐         | 
-| LINE                 | ⚠🔶           | ✔         | ✔            | ✔              | ✔           | 🌐         | 
-| Twitter              | ❌            | ❌        | ❌           | ❌             | ❌          | ❌         |
-| WeChat               | ❌            | ❌        | ❌           | ❌             | ❌          | ❌         |
-| WhatsApp             | ❌            | ❌        | ❌           | ❌             | ❌          | ❌         |
-| SMS                  | ❌            | ❌        | ❌           | ❌             | ❌          | ❌         |
-| Custom (Telegram)    | ⚠🔶           | ✔         | ✔            | ✔              | ✔           | 🌐         | 
+| Microsoft Teams      | ✔             | ✔        | ✔            | ✔              | ✔           | ❌          | 
+| Facebook             | ⚠🔶          | ✔         | ✔            | ✔              | ✔           | 🌐         | 
+| LINE                 | ⚠🔶          | ✔         | ✔            | ✔              | ✔           | 🌐         | 
+| Custom (Telegram)    | ⚠🔶          | ✔         | ✔            | ✔              | ✔           | 🌐         | 
 | Custom (Direct Line) | ✔             | ✔         | ✔            | ✔              | ✔           | ✔          | 
 
 > [!Note]
+> The Twitter, WeChat, WhatsApp, and SMS channels do not support cards.
 > The Direct Line channel supports all the above mentioned cards, but it's up to the client to implement them.<br />
 > Video card support can be achieved by adding the video URL in the adaptive card. 
 
