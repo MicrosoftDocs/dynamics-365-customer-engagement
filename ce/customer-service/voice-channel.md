@@ -11,20 +11,22 @@ ms.service: dynamics-365-customerservice
 
 # Introduction to the Voice channel 
 
-We are announcing the expansion of Microsoft Dynamics 365 Customer Service omnichannel capabilities to include a new voice channel, built on Microsoft Azure Communication Services. The addition of this channel gives businesses the scale and reliability of the calling platform that powers Microsoft Teams worldwide today. With native voice, businesses receive seamless, end-to-end omnichannel experiences within a single solution, ensuring consistent, personalized, and connected support across all channels of engagement. This end-to-end solution unifies all points of customer interaction data, enabling businesses to simplify and streamline their processes, gain instant insights into trends, and deliver faster resolution from AI-driven assistance—all while ensuring your data remains secure and compliant, backed by the trusted Microsoft cloud.
 
-Even with the rise of digital channels and self-service, telephony remains a critical channel for contact centers to provide customer support. Most CRM players lack native telephony and only support integrations with telephony providers, also known as CCaaS (Contact Center as a Service) players, through “at the glass” CTI (softphones) widgets. As telephony follows CRM to the cloud, customers are looking to simplify their combined solution. 
 
 Microsoft announces native Voice channel for Microsoft Dynamics 365 Customer Service. This is to complement Dynamics 365 Omni Channel which now has Voice, Chat, SMS, Whats App and more.
 
-This is a significant move forward by Microsoft as competitors are way behind when it comes to native voice channel in their Customer Services solution offerings. The new Voice channel is built on Microsoft Azure Communication Services and I expect this to be a fantastic feature for all Dynamics 365 customers.
 
-Microsoft said native voice support, which plugs into the same calling platform used by Microsoft Teams, will better connect contact centre agents to customers and also more easily integrate natural language processing and transcription with existing Microsoft AI tools that already can handle channels such as chat, SMS texting and social media messaging.
- 
 
-We see a major strategic opportunity to bring a differentiated CCaaS offering to the market through Dynamics 365 Omnichannel. By integrating with Azure Communications Service (aka Spool aka ACS), and extending our current assets, such as Power Virtual Agent, Intelligent Routing and conversation canvas, we can offer a telephony solution directly within Dynamics OC.  
+
+
+## Feature details
+- Built on Microsoft Azure Communication Services 
+- Even with the rise of digital channels and self-service, telephony remains a critical channel for contact centers to provide customer support. Most CRM players lack native telephony and only support integrations with telephony providers, also known as CCaaS (Contact Center as a Service) players, through “at the glass” CTI (softphones) widgets. As telephony follows CRM to the cloud, customers are looking to simplify their combined solution. 
+extending our current assets, such as Power Virtual Agent, Intelligent Routing and conversation canvas, we can offer a telephony solution directly within Dynamics OC.  
 
 ### Benefits
+
+- With native voice, businesses receive seamless, end-to-end omnichannel experiences within a single solution, ensuring consistent, personalized, and connected support across all channels of engagement. This end-to-end solution unifies all points of customer interaction data, enabling businesses to simplify and streamline their processes, gain instant insights into trends, and deliver faster resolution from AI-driven assistance—all while ensuring your data remains secure and compliant, backed by the trusted Microsoft cloud.
 
 The voice channel in Dynamics is built on the same secure, planet-scale platform used by Microsoft Teams
 
