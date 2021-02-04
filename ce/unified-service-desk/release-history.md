@@ -31,6 +31,10 @@ This is the release history page for the [!INCLUDE[pn_unified_service_desk](../i
 
 This release supports the Dynamics 365 model-driven apps deployed in Switzerland region. There are no content-specific changes in this release.
 
+> [!NOTE]
+> - If your organization is using a previously released version of the Unified Service Desk 4.1 client application, you must uninstall the application and then install version 4.1.1.1433, instead of upgrading to version 4.1.1.1433.
+> - If your organization is using a previous version other than the Unified Service Desk 4.1 client application, you can upgrade to the version 4.1.1.1433.
+
 <a name="Release_4_1_2"></a>
 
 ## Release history for Unified Service Desk 4.1.1.1429, November 2020
