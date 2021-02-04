@@ -134,7 +134,7 @@ To link the knowledge article to an entity, you need to do the following steps. 
 3. On the **Summary** tab, scroll down to the **Linked Knowledge Articles** subgrid.
 
   > [!NOTE]
-  > The name of the subgrid may vary depending on the customization followed in your organization.
+  > The name of the subgrid can vary depending on the customizations your organization has made.
 
 4. Select **More commands** (⁝), and then select **Add Existing Knowledge Article**.
 
@@ -149,7 +149,7 @@ To link the knowledge article to an entity, you need to do the following steps. 
 6. Select **Done**. The article will appear in the **Linked Knowledge Articles** subgrid.
 
 > [!NOTE]
-> The sugrid for the knowledge articles isn't available by default. Contact your system administrator to get the subgrid added to the forms.  
+> The subgrid for the knowledge articles isn't available by default. Contact your system administrator to get the subgrid added to the forms.  
 
 ## Independent knowledge base search
 
