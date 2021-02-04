@@ -25,9 +25,10 @@ ms.reviewer: nenellim
 | Custom (Direct Line) | ✔             | ✔         | ✔            | ✔              | ✔           | ✔          | 
 
 > [!Note]
-> The Twitter, WeChat, WhatsApp, and SMS channels do not support cards.
-> The Direct Line channel supports all the above mentioned cards, but it's up to the client to implement them.<br />
-> Video card support can be achieved by adding the video URL in the adaptive card. 
+>
+> - The Twitter, WeChat, WhatsApp, and SMS channels do not support cards.
+> - The Direct Line channel supports all the above mentioned cards, but it's up to the client to implement them.
+> - Video card support can be achieved by adding the video URL in the adaptive card. 
 
 ✔: Supported: Card is supported fully with the exception that some channels support a subset of Card Actions. They might limit the number of actions allowed on each card. Varies by channel.
 
