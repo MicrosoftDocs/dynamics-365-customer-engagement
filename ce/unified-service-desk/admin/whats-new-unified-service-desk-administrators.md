@@ -23,6 +23,12 @@ search.app:
 
 ::: moniker range="dynamics-usd-4.1"
 
+## What's new in Unified Service Desk 4.1.1.1433
+
+This topic contains information about changes in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] for system administrators available in this version.
+
+This release supports the Dynamics 365 model-driven apps deployed in Switzerland region.
+
 ## What's new in Unified Service Desk 4.1.1.1429
 
 This topic contains information about changes in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] for system administrators available in this version.
