@@ -4,7 +4,7 @@ description: ""
 author: v-sailab
 ms.author: v-sailab
 manager: shujoshi
-ms.date: 01/18/2021
+ms.date: 02/04/2021
 ms.topic: reference
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -48,10 +48,14 @@ Sample JSON object:
 
 **Parameters**
 
-| **Name**    |  **Response**                                                  |
-|--------------|----------------------------------------------------------------|
-|actionName    | Accept, Reject, or Timeout|
-|responseReason | Accept, AutoAccept, Cancelled, DeclinedByAgent, DisplayTimeout, NotificationQueueLimitExceeded, NotificationQueueTimeLimitExceeded, NotificationTemplateNotFoundError, NotificationTemplateResolverNotFoundError, RejectAfterClientError, RejectAfterTimeoutNonPlatformTimer    |
+| **actionName**    |  **responseResponse value**         |     **Description**        |
+|--------------|------------------------------------|--------------------------------------------|
+| Accept   |Accept    |User accepts the notification  |
+| Accept   |AutoAccept|The notification template is set for auto-acceptance, and the auto-acceptance successful|
+|Reject    |DeclinedByAgent|The user rejected the notification|
+|Timeout   |DisplayTimeout|The user did not respond to the notification within the timeout period|
+|Reject    |NotificationQueueLimitExceeded|There is a limit of 10? notifications that can be queued at one time. If a notification is raised when the queue is already full, the notification is rejected with this reason|
+|Timeout   |NotificationQueueTimeLimitExceeded|The notification was queued up and the configured timeout value for the notification template has been reached|
 
 ### errorCallback function
 
@@ -64,6 +68,14 @@ Sample JSON object:
 	"msdyn_name" : "NotifyEvent"
 }
 ```
+
+**Parameters**
+
+| **message**    |  **Description**         |
+|-------------------------------|-----------------------------------------|
+|NotificationTemplateNotFoundError|The templateName specified could not be found|
+|NotificationTemplateResolverNotFoundError|The notification has some slugs (or other items) that failed to resolve|
+|RejectAfterClientError|An unknown exception occurred |
 
 ## Example
 
