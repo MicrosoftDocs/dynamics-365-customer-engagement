@@ -121,23 +121,20 @@ In this post I will explain how to setup the video calling feature. I will also 
 
 ## Example organizations
 
+
+
+
+
 ## Common use cases
 
+- 1. need 10 different systems 
+- disconnected channels
+- disconnected data
 
-
-## Roles
-
-Call-only Customer Service Agent 
-
-Blended Customer Service Agent (Call, Digital, Case) 
-
-Agent Supervisor 
-
-Queue Administrator 
-
-Omnichannel System Administrator 
-
-Tenant Admin 
+- chat to agent
+- calls in, greeted by chat bot and chat bot resolves issue
+- calls in, greeted by chat bot and esclated 
+- calls in and selects 
 
 ## Agent experience using the Voice channel
 
