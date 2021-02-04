@@ -4,6 +4,7 @@
 ## [What's new](../sales-enterprise/whats-new.md)
 ## [Deprecated features](deprecations-sales.md)
 ## [Connect and share feedback](../sales-enterprise/connect-share-feedback.md)
+
 ## Administrator & Sales Manager Guide
 ### [Help resources for admins and sales managers](../sales-enterprise/admin-guide.md)
 
@@ -79,11 +80,15 @@
 #### [Configure Power BI template apps to work with Dynamics 365 Sales](configure-sales-template-apps.md)
 #### [Customize Power BI template apps for Dynamics 365 Sales](customize-template-apps.md)
 
+### Integrate LinkedIn Sales Insights
+#### [Install or delete LinkedIn Sales Insights solution](install-lsi-solution.md)
+
 ### Reporting
 #### [Add reporting features to your app](/powerapps/maker/model-driven-apps/add-reporting-to-app)
 
 ### General Data Protection Regulation (GDPR)
-#### [Dynamics 365 Sales & GDPR](../sales-enterprise/dynamics-365-sales-gdpr.md)
+#### [Dynamics 365 Sales & GDPR](../sales-enterprise/dynamics-365-sales-gdpr.md)   
+
 ### Upgrade or downgrade
 #### [Upgrade from Dynamics 365 Sales Professional](upgrade-sales-professional-sales-enterprise.md)
 #### [Move from Dynamics 365 Sales Enterprise to Professional](move-sales-enterprise-sales-professional.md)
@@ -103,6 +108,7 @@
 
 ### Manage customers
 #### [Work with accounts and contacts](../basics/accounts-contacts.md)
+#### [Understand the LinkedIn Sales Insights tab](understand-lsi-accounts-form.md)
 #### [Organize contacts in live org charts for accounts](live-org-chart.md)
 #### [Scan business cards](scan-business-cards.md)
 
