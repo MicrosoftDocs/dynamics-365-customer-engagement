@@ -4,7 +4,7 @@ description: "Learn about the system requirements of Omnichannel for Customer Se
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 08/20/2020
+ms.date: 02/02/2021
 ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ---
@@ -45,6 +45,19 @@ The system requirements to use Omnichannel for Customer Service are as follows.
 | Web browsers | Supported browsers:<li> Microsoft Edge ([Chromium based](https://support.microsoft.com/help/4501095/download-the-new-microsoft-edge-based-on-chromium) is recommended); version 79.0.309.65 or later is required for the desktop notifications feature </li> <li> Google Chrome </li> **Important**<br> [!INCLUDE[cc-cookies-in-omnichannel](../includes/cc-cookies-in-omnichannel.md)] |
 
 For hardware and other requirements, see [Model-driven app requirements](../admin/online-requirements.md).
+
+### Supported browsers for live chat widget<a name="browsers-for-chat"></a>
+
+The following browsers are supported by the live chat widget in Omnichannel for Customer Service:
+
+- **Windows:** Chromium-based Microsoft Edge, Google Chrome, Mozilla Firefox, and Internet Explorer 11
+- **macOS and iOS:** Safari
+- **Android:** Chromium-based Microsoft Edge and Google Chrome
+
+> [!NOTE]
+>
+> - Only Chromium-based Microsoft Edge and Google Chrome are supported for voice and video in live chat.
+> - Support for Internet Explorer 11 is deprecated. We recommend that you use Microsoft Edge. More information: [Deprecation announcement](deprecations-customer-service.md#internetexplorer11).
 
 ## Provision Omnichannel
 
