@@ -11,15 +11,17 @@ ms.service: dynamics-365-customerservice
 
 # Introduction to the Voice channel 
 
-Enable customer service representatives to help customers by speaking to them on the phone with the native voice channel in Dynamics 365 Customer Service. 
+Enable customer service representatives to communicate with customers on the phone to resolve issues with the native voice channel in Dynamics 365 Customer Service. 
 
-Dynamics 365 Customer Service includes native voice and telephpony capabilities as a channel for customer service represenatives to help customers
+> [!VIDEO 
+https://www.microsoft.com/en-us/videoplayer/embed/RE4G43k]
+
+Customer service organizations will find that voice and telphony communica
 
 Microsoft announces native Voice channel for Microsoft Dynamics 365 Customer Service. This is to complement Dynamics 365 Omni Channel which now has Voice, Chat, SMS, Whats App and more.
 
 
-> [!VIDEO 
-https://www.microsoft.com/en-us/videoplayer/embed/RE4G43k]
+
 
 
 
