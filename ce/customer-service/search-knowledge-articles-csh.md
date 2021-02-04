@@ -146,7 +146,7 @@ To link the knowledge article, do the following:
 6. Select **Done.** The article will appear in the **Linked Knowledge Articles** section.
 
 > [!NOTE]
-> The **Linked Knowledge Articles** section isn't available by default. Contact your system administrator to get the subgrid added. 
+> The **Linked Knowledge Articles** section isn't available by default. Contact your system administrator to get the subgrid added to the forms. 
 
 ## Independent knowledge base search
 
