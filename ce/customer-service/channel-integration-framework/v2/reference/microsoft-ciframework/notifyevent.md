@@ -50,12 +50,12 @@ Sample JSON object:
 
 | **actionName**    |  **responseResponse value**         |     **Description**        |
 |--------------|------------------------------------|--------------------------------------------|
-| Accept   |Accept    |User accepts the notification  |
-| Accept   |AutoAccept|The notification template is set for auto-acceptance, and the auto-acceptance successful|
-|Reject    |DeclinedByAgent|The user rejected the notification|
-|Timeout   |DisplayTimeout|The user did not respond to the notification within the timeout period|
-|Reject    |NotificationQueueLimitExceeded|There is a limit of 10? notifications that can be queued at one time. If a notification is raised when the queue is already full, the notification is rejected with this reason|
-|Timeout   |NotificationQueueTimeLimitExceeded|The notification was queued up and the configured timeout value for the notification template has been reached|
+| Accept   |Accept    |When user accepts the notification  |
+| Accept   |AutoAccept|The notification is accepted by default via a notification template|
+|Reject    |DeclinedByAgent|when user rejects the notification|
+|Reject    |NotificationQueueLimitExceeded|The notification is rejected when there are more than ten notifications in the queue|
+|Reject   |NotificationQueueTimeLimitExceeded|When a notification in the queue exceeds the configured timeout period|
+|Timeout   |DisplayTimeout|When user did'nt respond to the notification within the timeout period|
 
 ### errorCallback function
 
@@ -73,9 +73,8 @@ Sample JSON object:
 
 | **message**    |  **Description**         |
 |-------------------------------|-----------------------------------------|
-|NotificationTemplateNotFoundError|The templateName specified could not be found|
-|NotificationTemplateResolverNotFoundError|The notification has some slugs (or other items) that failed to resolve|
-|RejectAfterClientError|An unknown exception occurred |
+|NotificationTemplateNotFoundError|When the specified templateName is not found|
+|RejectAfterClientError|An unknown exception occurred (occurs when the Platform API call fails or some input parameter is missing)|
 
 ## Example
 
