@@ -123,7 +123,7 @@ Type a keyword in the search box to search for knowledge articles.
 
 ## Linked knowledge article subgrid
 
-After your system administrator has added the related knowledge article subgrid into an entity form, you can link or unlink a knowledge article from the customized subgrid. You can also edit a knowledge article by double-clicking it in the linked articles list.
+After your system administrator has added the knowledge article subgrid into an entity form, you can link or unlink a knowledge article from the customized subgrid. You can also edit a knowledge article by double-clicking it in the linked articles list.
 
 To link the knowledge article to an entity, you need to do the following steps. For the sake of this example, let us consider the entity as Accounts.
 
@@ -133,23 +133,23 @@ To link the knowledge article to an entity, you need to do the following steps. 
 
 3. On the **Summary** tab, scroll down to the **Linked Knowledge Articles** subgrid.
 
-> [!NOTE]
-> The name of the subgrid may vary depending on the customization followed in your organization.
+  > [!NOTE]
+  > The name of the subgrid may vary depending on the customization followed in your organization.
 
 4. Select **More commands** (⁝), and then select **Add Existing Knowledge Article**.
 
    > [!div class=mx-imgBorder]
    > ![Add an existing knowledge article](media/add-existing-knowledge-article.PNG "Add an existing knowledge article")
 
-5. Search for the related knowledge article you want to link, and select **Link.**
+5. Search for the knowledge article that you want to link, and select **Link.**
 
    > [!div class=mx-imgBorder]
-   > ![Search for a related knowledge article to link to it](media/search-related-article.png "Search for a related knowledge article to link it")
+   > ![Search for a knowledge article to link to an entity](media/search-related-article.png "Search for a related knowledge article to link to an entity")
 
 6. Select **Done**. The article will appear in the **Linked Knowledge Articles** subgrid.
 
 > [!NOTE]
-> The sugrid for related knowledge articles isn't available by default. Contact your system administrator to get the subgrid added to the forms.  
+> The sugrid for the knowledge articles isn't available by default. Contact your system administrator to get the subgrid added to the forms.  
 
 ## Independent knowledge base search
 
