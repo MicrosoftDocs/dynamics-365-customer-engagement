@@ -11,11 +11,13 @@ ms.service: dynamics-365-customerservice
 
 # Introduction to the Voice channel 
 
-
+Dynamics 365 Customer Service
 
 Microsoft announces native Voice channel for Microsoft Dynamics 365 Customer Service. This is to complement Dynamics 365 Omni Channel which now has Voice, Chat, SMS, Whats App and more.
 
 
+> [!VIDEO 
+https://www.microsoft.com/en-us/videoplayer/embed/RE4G43k]
 
 
 
@@ -23,44 +25,6 @@ Microsoft announces native Voice channel for Microsoft Dynamics 365 Customer Ser
 - Built on Microsoft Azure Communication Services 
 - Even with the rise of digital channels and self-service, telephony remains a critical channel for contact centers to provide customer support. Most CRM players lack native telephony and only support integrations with telephony providers, also known as CCaaS (Contact Center as a Service) players, through “at the glass” CTI (softphones) widgets. As telephony follows CRM to the cloud, customers are looking to simplify their combined solution. 
 extending our current assets, such as Power Virtual Agent, Intelligent Routing and conversation canvas, we can offer a telephony solution directly within Dynamics OC.  
-
-### Benefits
-
-- With native voice, businesses receive seamless, end-to-end omnichannel experiences within a single solution, ensuring consistent, personalized, and connected support across all channels of engagement. This end-to-end solution unifies all points of customer interaction data, enabling businesses to simplify and streamline their processes, gain instant insights into trends, and deliver faster resolution from AI-driven assistance—all while ensuring your data remains secure and compliant, backed by the trusted Microsoft cloud.
-
-The voice channel in Dynamics is built on the same secure, planet-scale platform used by Microsoft Teams
-
-Native voice 
-
-Voice should be just another channel in Omnichannel that participates throughout the stack, i.e. Power Virtual Agent for IVR, Unified Routing for ACD, connected agent and supervisor experiences, connected reporting. 
-
-Differentiating AI 
-
-We should bring to bear the best demonstrations of real-time and historical voice intelligence from Microsoft. As more CRM companies follow this trend to integrate channels and voice, the use of the data to create insights will be a big differentiator. 
-
-Seamless setup 
-
-Our main differentiator is that all parts of our CCaaS solution come directly from Microsoft. However, as it’s so often the case, our internal organizational boundaries end up dictating the user experience. We need to be able to provide a seamless setup of telephony directly within Dynamics that masks the different services (e.g. Azure Communication Services) that we’re using to provide the solution. 
-
-Elastic billing 
-
-Most modern CCaaS competitors have a pay-as-you-go model. Amazon Connect has a no cost sign-up and consumption-based billing model that is disrupting the market. We should aim to follow this trend by moving away from license-based billing for Omnichannel. As contact centers need to rapidly scale up or down (especially for call-only agents), manually procuring and releasing licenses to manage expenses can be a blocker for seamless operations.  
-
-
-Microsoft’s Omnichannel for Customer Service allows us to escalate web chat conversations to voice and video calls, this is a great feature when conversations become complex and a chat conversation is simply more long winded than a voice call.
-
-In this post I will explain how to setup the video calling feature. I will also give details about the agent and customer experiences.
-
-## Watch an overview video
-
-> [!VIDEO 
-https://www.microsoft.com/en-us/videoplayer/embed/RE4G43k]
-
-
-
-## Example organizations
-
-## Common use cases
 
 ## Key features
 
@@ -117,6 +81,43 @@ Number Management
 Get visibility into trends across all channels with native voice integration 
 Leverage built-in AI to resolve issues faster with tools like call transcriptions and sentiment analysis 
 Create true omnichannel experiences by providing agents will full customer interaction context no matter where the conversation is initiated
+
+
+
+### Benefits
+
+- With native voice, businesses receive seamless, end-to-end omnichannel experiences within a single solution, ensuring consistent, personalized, and connected support across all channels of engagement. This end-to-end solution unifies all points of customer interaction data, enabling businesses to simplify and streamline their processes, gain instant insights into trends, and deliver faster resolution from AI-driven assistance—all while ensuring your data remains secure and compliant, backed by the trusted Microsoft cloud.
+
+The voice channel in Dynamics is built on the same secure, planet-scale platform used by Microsoft Teams
+
+Native voice 
+
+Voice should be just another channel in Omnichannel that participates throughout the stack, i.e. Power Virtual Agent for IVR, Unified Routing for ACD, connected agent and supervisor experiences, connected reporting. 
+
+Differentiating AI 
+
+We should bring to bear the best demonstrations of real-time and historical voice intelligence from Microsoft. As more CRM companies follow this trend to integrate channels and voice, the use of the data to create insights will be a big differentiator. 
+
+Seamless setup 
+
+Our main differentiator is that all parts of our CCaaS solution come directly from Microsoft. However, as it’s so often the case, our internal organizational boundaries end up dictating the user experience. We need to be able to provide a seamless setup of telephony directly within Dynamics that masks the different services (e.g. Azure Communication Services) that we’re using to provide the solution. 
+
+Elastic billing 
+
+Most modern CCaaS competitors have a pay-as-you-go model. Amazon Connect has a no cost sign-up and consumption-based billing model that is disrupting the market. We should aim to follow this trend by moving away from license-based billing for Omnichannel. As contact centers need to rapidly scale up or down (especially for call-only agents), manually procuring and releasing licenses to manage expenses can be a blocker for seamless operations.  
+
+
+Microsoft’s Omnichannel for Customer Service allows us to escalate web chat conversations to voice and video calls, this is a great feature when conversations become complex and a chat conversation is simply more long winded than a voice call.
+
+In this post I will explain how to setup the video calling feature. I will also give details about the agent and customer experiences.
+
+
+
+
+
+## Example organizations
+
+## Common use cases
 
 
 
