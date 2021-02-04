@@ -4,7 +4,7 @@ description:
 author: v-sailab
 ms.author: v-sailab
 manager: shujoshi
-ms.date: 08/29/2019
+ms.date: 02/04/2021
 ms.topic: article
 ---
 # setContextProvider
@@ -56,7 +56,7 @@ In the sample code given above, the `value` attribute contains the value of the 
 The `isDisplayable` attribute, if set to `true`, will display the passed items within a third tab on the Conversation Summary Control for a given Conversation. This is an optional parameter and its default value is `false`.
 
 > [!NOTE]
-> If no context variables have been created under live work stream with a matching logical name, variables are created at runtime assuming the type as String.
+> If no context variables have been created under live work stream with a matching logical name, variables are created at runtime assuming the type as String. More information: [Context variables](../../../context-variables-for-bot#context-variables)
 
 ![Display context keys](../../../media/context-variable-display.png "Display context keys")
 
