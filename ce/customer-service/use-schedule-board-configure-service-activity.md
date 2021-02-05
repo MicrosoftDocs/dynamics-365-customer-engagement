@@ -70,12 +70,12 @@ You can now view schedules by week or month on the schedule board for easier acc
 
 **Monthly view**
 
-![Monthy view](media/resource-scheduling-monthly-view.png.png "Schedule board monthly view")
+![Monthy view](media/resource-scheduling-monthly-view.png "Schedule board monthly view")
 
 
 **Weekly view**
 
-![Weekly view](media/resource-scheduling-weekly-view.png.png "Schedule board weekly view")
+![Weekly view](media/resource-scheduling-weekly-view.png "Schedule board weekly view")
 
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure the schedule board for resource availability](../field-service/configure-schedule-board.md)
