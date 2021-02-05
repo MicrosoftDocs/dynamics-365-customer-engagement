@@ -219,6 +219,16 @@ Go to **Entity Records Distribution Flow** and review your customization made to
 
 Review and resolve the error that is due to your customizations. For more information, see [Update entity records work distribution flow](multiple-ws-entity-record-routing.md#update-entity-records-work-distribution-flow).
 
+## Unable to deploy custom solution containing deprecated agent scripts solution
+
+### Issue
+
+When you try to deploy a custom solution, it fails on account of a dependency on the Agentscript solution, which is part of Omnichannel for Customer Service.
+
+### Resolution
+
+The Agentscript solution has been deprecated and therefore was not present in the target environment. It has been replaced by the msdyn_Agentscripts solution. We recommend that you remove all references of the Agentscript solution from the custom solution, and then reimport the solution.
+
 ## Power Virtual Agents bot conversations appear as active on dashboard even after customer has ended chat<a name="pvaendconv"></a>
 
 ### Issue
