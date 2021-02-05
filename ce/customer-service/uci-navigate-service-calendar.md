@@ -84,7 +84,7 @@ Administrators can configure the number of records that display in the resources
 
 2. Select **Options**, and then on the **General** tab, set **Records per page** to the maximum value you want to display on the page. The value can be set from 50 to 250 records displayed.
 
-  ![Set record display](media/configure-record-results.png "Set the number of records to display")
+   ![Set record display](media/configure-record-results.png "Set the number of records to display")
   
 3. When you're done, select **OK**.
 
