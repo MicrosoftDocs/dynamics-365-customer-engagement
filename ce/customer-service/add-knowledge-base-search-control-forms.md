@@ -174,6 +174,44 @@ Open the **Knowledge Base Search** control and edit its properties to configure 
 
 To learn more about how to use the automatic filtering option, see [View filtered articles in the Related section](search-knowledge-articles-csh.md#view-auto-filtered-results)
 
+## Add a Knowledge Article sub-grid to a form
+
+You can add a customized knowledge article sub-grid to a form. To learn more about the components of a sub-grid form, see [Add and configure a sub-grid component on a form](https://go.microsoft.com/fwlink/p/?linkid=2154326)
+
+To add a sub-grid, you can perform the following steps.
+
+1. Sign in to the Customer Service Hub application and make sure you're in the **Service** work area.
+
+2. Select **Customers** > **Accounts** and open an active account from the list.
+
+3. Select the **Settings** icon near the user profile and select **Advanced Settings**.
+
+4. In the new tab that opens, click on **Settings**, and then choose **Customizations** from the drop-down.
+
+   ![Customizations to add a subgrid](media/add-subgrid-settings.png "Select customizations to add a subgrid")
+
+5. Select **Customize the System**.
+
+6. In the **Solution Default Solution** list, select **Entities** > **Account** > **Forms**.
+
+7. Select an existing active form to which you want to add a knowledge article sub-grid.
+
+8. In the form designer, select **Insert** > **Sub-Grid**.
+
+   ![Select subgrid](media/insert-subgrid.png "Insert a subgrid in an active form")
+
+9. In the **Set Properties** dialog box, provide a unique name for your subgrid.
+
+10. Ensure that the **Entity** value is set to **Knowledge Articles**.
+
+11. Retain the default values for all the other fields and click **OK**.
+
+    ![Set properties for subgrid](media/set-properties-for-subgrid.png "Enter the properties for the knowledge article subgrid")
+
+12. Save your knowledge sub-grid and select **Publish**.
+
+
+
 ### See also  
 
 [Reduce call handling times with Knowledge articles in the Customer Service Hub](customer-service-hub-user-guide-knowledge-article.md)
