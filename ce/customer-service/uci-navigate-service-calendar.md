@@ -80,7 +80,7 @@ You can view the number of records in a list by selecting **Grid view**.
 
 Administrators can configure the number of records that display in the resources view as follows:
 
-1. In Dynamics 365 Customer Service, select the **Settings** icon ![Settings icon](record-settings-icon.png "Settings icon for Dynamics 365 Customer Service") in the upper-right corner of the page.
+1. In Dynamics 365 Customer Service, select the **Settings** icon ![Settings icon](media/record-settings-icon.png "Settings icon for Dynamics 365 Customer Service") in the upper-right corner of the page.
 
 2. Select **Options**, and then on the **General** tab, set **Records per page** to the maximum value you want to display on the page. The value can be set from 50 to 250 records displayed.
 
