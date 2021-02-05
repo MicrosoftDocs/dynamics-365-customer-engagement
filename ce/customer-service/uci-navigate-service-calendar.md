@@ -86,11 +86,11 @@ Administrators can configure the number of records that display in the resources
 
   ![Set record display](media/configure-record-results.png "Set the number of records to display")
   
-3. When you're done, select **OK** 
+3. When you're done, select **OK**.
 
    The selected number of records is displayed for the user.
   
-  ![Record display](media/records-display.png "Records displayed")
+   ![Record display](media/records-display.png "Records displayed")
     
 ### See also  
 
