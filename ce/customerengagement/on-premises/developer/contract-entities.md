@@ -4,7 +4,7 @@ description: "Learn about contract entity that is used to track customer service
 ms.custom: 
 ms.date: 02/05/2021
 ms.reviewer: pehecke
-ms.service: 
+ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
