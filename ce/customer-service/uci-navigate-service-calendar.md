@@ -66,7 +66,7 @@ You can’t customize the service calendar or change the default view with the a
 
 You can view the number of records in a list by selecting **Grid view**.
 
-  ![View resources in a list](media/resources-list-view.png "View resources in a list")
+   ![View resources in a list](media/resources-list-view.png "View resources in a list")
 
 ## Preview: Configure the number of records displayed
 
