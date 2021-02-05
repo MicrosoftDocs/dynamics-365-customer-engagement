@@ -4,7 +4,7 @@ description: Know how to schedule a service activity using the schedule board in
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 11/20/2018
+ms.date: 02/04/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -18,9 +18,9 @@ search.app:
   - D365CS
 ---
 
-# Use the schedule board to configure service activity
+# Use the schedule board to configure service activities
 
-Schedule board in service scheduling lets you view resource availability before you book them for service activities. Set up views and filters as per your preference and book service activities for each of your resources.
+The schedule board in service scheduling lets you view resource availability before you book them for service activities. Set up views and filters the way you prefer, and book service activities for each of your resources.
 
 In the schedule board, you can do the following tasks and activities:  
   
@@ -38,11 +38,11 @@ In the schedule board, you can do the following tasks and activities:
 > You can’t customize the schedule board or change the default view with the application. However, you can ask your system administrator to change the colors of the time blocks.  
  
 ## Navigate the schedule board
-In the Customer Service Hub sitemap, navigate to **Scheduling** > **Tools** and select **Schedule Board**.
+In the Customer Service Hub sitemap, navigate to **Scheduling** > **Tools**, and select **Schedule Board**.
 
 Here’s what you’ll see when you open the schedule board:
 
-![schedule-board](media/schedule-board.png)
+![Schedule board](media/schedule-board.png "Open the schedule board")
 
 
 |Label  |Field  |Description  |
@@ -56,6 +56,28 @@ Here’s what you’ll see when you open the schedule board:
 |7     |   Service Activities view      |    To view the details of any resource, or service activity, select the record in the list to the left of the calendar, and then at the bottom of the calendar, under the **Zoom** scale, select the **Expand** button to expand the preview pane. You can also double-click a record to open it.  |
 | |         |         |
 
+### Preview: View schedules by week or month
+
+[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
+> [!IMPORTANT]
+>
+> - A preview is a feature that is not complete, as it may employ reduced privacy, security, and/or compliance commitments, but is made available before it is officially released for general availability so customers can get early access and provide feedback. Previews are provided "as-is," "with all faults," "as available," and without warranty.
+> - This preview feature does not come with technical support and Microsoft Dynamics 365 Technical Support won't be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.
+> - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk. All previews are subject to separate [Terms and Conditions](../legal/supp-dynamics365-preview.md).
+
+You can now view schedules by week or month on the schedule board for easier access to the schedule you want to look at.
+
+**Monthly view**
+
+![Monthy view](media/resource-scheduling-monthly-view.png "Schedule board monthly view")
+
+
+**Weekly view**
+
+![Weekly view](media/resource-scheduling-weekly-view.png "Schedule board weekly view")
+
+
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure the schedule board for resource availability](../field-service/configure-schedule-board.md)
 
 ## Schedule a booking for a service activity
@@ -66,13 +88,13 @@ You can select unscheduled service activities and schedule a booking using the *
 
    The **Find Availability** button is displayed. 
 
-     ![find-availability](media/find-availability.png)
+     ![Find Availability button](media/find-availability.png "Find Availability button")
  
 2. Select the **Find Availability** button to view the resources or resource groups that are available for booking.
 
    The **Schedule Assistant** filter lets you filter resources based on **Available Duration**, **Organizational Units**, and many other parameters.
 
-   ![select-resources](media/select-resources.png)
+   ![Schedule Assistant filter](media/select-resources.png "Filter resources with the Schedule Assistant")
 
 3. Select a resource group from the **Teams** list.
 4. In the **Create Resource Booking** tab: 
@@ -81,7 +103,7 @@ You can select unscheduled service activities and schedule a booking using the *
    - Select the start and end date and time using the calendars in **Start Date** and **End Date**.
    - Select **Booking Status** from the drop-down list.
    - Select **Book & Exit** to create a resource booking and exit the tab.
-     ![booking-from schedule-board](media/sb-booking.png)
+     ![booking-from schedule-board](media/sb-booking.png "Book from schedule board")
 
 ### See also
 
