@@ -88,13 +88,13 @@ You can select unscheduled service activities and schedule a booking using the *
 
    The **Find Availability** button is displayed. 
 
-     ![find-availability](media/find-availability.png "Find Availability")
+     ![Find Availability button](media/find-availability.png "Find Availability button")
  
 2. Select the **Find Availability** button to view the resources or resource groups that are available for booking.
 
    The **Schedule Assistant** filter lets you filter resources based on **Available Duration**, **Organizational Units**, and many other parameters.
 
-   ![select-resources](media/select-resources.png "Select resources")
+   ![Schedule Assistant filter](media/select-resources.png "Filter resources with the Schedule Assistant")
 
 3. Select a resource group from the **Teams** list.
 4. In the **Create Resource Booking** tab: 
