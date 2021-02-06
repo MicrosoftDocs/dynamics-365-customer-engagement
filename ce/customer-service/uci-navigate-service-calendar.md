@@ -64,7 +64,7 @@ You can’t customize the service calendar or change the default view with the a
 > - This preview feature does not come with technical support and Microsoft Dynamics 365 Technical Support won't be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.
 > - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk. All previews are subject to separate [Terms and Conditions](../legal/supp-dynamics365-preview.md).
 
-You can view the number of records in a list by selecting **Grid view**.
+You can view the number of records in a list by selecting **List view**.
 
   ![View resources in a list](media/resources-list-view.png "View resources in a list")
 
