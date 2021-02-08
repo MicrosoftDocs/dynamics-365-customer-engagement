@@ -104,6 +104,9 @@ Some question types are limited. For example, the entity lookup question type wi
 
 ## Import and export inspection templates
 
+> [!Note]
+> The feature in this section is currently available as early access. See the topic on [how to opt in to early access updates](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates). 
+
 Administrators can export inspection templates to then import into another environment. This is valuable in scenarios where an inspection was created in a test environment but now needs to be imported into a live production environment to use. Importing saves you having to re-create the inspection from scratch in the production environment.
 
 From the inspection, select **Export** > **Export to json** in the top ribbon. 
@@ -195,6 +198,9 @@ Inspection parsing allows you to isolate and select specific parts of inspection
 [Download guide to understand inspection response parsing](https://aka.ms/inspections-parse)
 
 ## Language translations
+
+> [!Note]
+> The feature in this section is currently available as early access. See the topic on [how to opt in to early access updates](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates). 
 
 Inspection creators can add language variations for each inspection.
 
