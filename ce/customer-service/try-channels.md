@@ -28,8 +28,8 @@ With this option, you can get a free 30-day trial of Omnichannel for Customer Se
 
 ### Prerequisites
 
-- You must have an existing tenant and not sign up for creating a new trial tenant.
-- You must have an existing organizational account with the global administrator role to enable the trial. If you do not use global administrator credentials, you can join an existing trial organization with approval of the organization owner.
+- You must have an existing tenant and not sign up for creating a trial tenant.
+- You must have an existing organizational account with the global administrator role to enable the trial. If you do not use global administrator credentials, you can join as an existing trial organization with approval of the organization owner.
 
 > [!NOTE]
 > To know the geographic location availability, see [International availability](international-availability.md).
@@ -45,7 +45,7 @@ With this option, you can get a free 30-day trial of Omnichannel for Customer Se
     > [!div class=mx-imgBorder]
     > ![Create a Customer Service trial](media/cs-trial.png "Create a Customer Service trial")
 
-4. Sign in with your global administrator credentials and accept the terms and privacy policy. If you already have trial instances (Dynamics 365 instances with Instance Type set to Trial), you'll be asked create your own trial.
+4. Sign in with your global administrator credentials and accept the terms and privacy policy. If you already have trial instances (Dynamics 365 instances with Instance Type set to Trial), you'll be asked to create your own trial.
 
 5. Select **Create your own trial**, and then select **Create New Trial**.
 6. Select **Customer service** and then select **Complete Setup**.

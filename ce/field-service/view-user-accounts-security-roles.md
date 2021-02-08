@@ -3,7 +3,7 @@ title: "Set up Dynamics 365 Field Service users and security roles | MicrosoftDo
 description: Learn how to set up Field Service users and security roles in Dynamics 365 Field Service
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 01/11/2021
+ms.date: 01/27/2021
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.topic: article
@@ -80,6 +80,10 @@ After adding and assigning Dynamics 365 Field Service licenses to your users, yo
 7. Select the appropriate role for your user > **OK**. View the roles and definitions to learn which one to choose. 
 
 8. Select the **>** next to your user's name and then select **Field Security Profiles**. 
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the Field Security profiles in Field Service.](./media/user-field-security-navigate.png)
 
 9. Select **Add**. 
 

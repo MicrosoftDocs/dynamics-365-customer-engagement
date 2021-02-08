@@ -10,6 +10,12 @@ ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
+searchScope:
+  - D365-App-msdyn_salespro
+  - D365-Entity-list
+  - D365-UI-*
+  - Dynamics 365
+  - Sales
 ---
 
 # Add a marketing list, sales literature, or product to a campaign using in-app marketing (Sales Professional)
