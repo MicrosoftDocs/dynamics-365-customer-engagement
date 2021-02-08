@@ -52,10 +52,10 @@ Sample JSON object:
 |--------------|------------------------------------|--------------------------------------------|
 | Accept   |Accept    |When user accepts the notification  |
 | Accept   |AutoAccept|The notification is accepted by default via a notification template|
-|Reject    |DeclinedByAgent|when user rejects the notification|
+|Reject    |DeclinedByAgent|When user rejects the notification|
 |Reject    |NotificationQueueLimitExceeded|The notification is rejected when there are more than ten notifications in the queue|
 |Reject   |NotificationQueueTimeLimitExceeded|When a notification in the queue exceeds the configured timeout period|
-|Timeout   |DisplayTimeout|When user did'nt respond to the notification within the timeout period|
+|Timeout   |DisplayTimeout|When user didn't respond to the notification within the timeout period|
 
 ### errorCallback function
 
