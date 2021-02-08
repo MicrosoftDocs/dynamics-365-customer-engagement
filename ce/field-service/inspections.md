@@ -104,7 +104,7 @@ Add a question to the inspection by double-clicking or dragging-and-dropping a q
 - **Barcode scan:** Allows technicians to populate the field with the barcode number by scanning a barcode with their device's camera. Choose "Textbox" question type, then select **Barcode** for input type in the **Advanced** section.
 
 - **Matrix (Dynamic):** Adds a grid of questions. More rows can be added dynamically while performing the inspection. See the following screenshot for an example.
-The Matrix question type is currently available as **early access**. See the topic on [how to opt in to early access updates](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates). 
+The matrix question type is currently available as **early access**. For more information, see the article on [how to opt in to early access updates](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates). 
 
 > [!div class="mx-imgBorder"]
 > ![Device render showing an inspection form allowing adding more rows.](./media/inspections-matrix-barcode.png)
@@ -119,7 +119,7 @@ By selecting the **Gear** icon, you can add more details for an inspection quest
 ### Compact question view
 
 > [!Note]
-> The compact question view feature is currently available as early access. See the topic on [how to opt in to early access updates](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates). 
+> The compact question view feature is currently available as early access. For more information, see the article on [how to opt in to early access updates](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates). 
 
 Before selecting an individual question, go to the advanced pane to edit the look and feel of the inspection.
 
