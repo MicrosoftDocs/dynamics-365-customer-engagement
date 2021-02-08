@@ -92,7 +92,7 @@ To ignore an entity record during migration, perform the following steps.
 
 7. Select **Publish** to publish the customizations.
 
-## See also
+### See also
 
 [Introduction to migration of entity records](introduction-migration-entity-records.md)
 
