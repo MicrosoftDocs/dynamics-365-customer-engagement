@@ -40,7 +40,7 @@ Review the following requirements before you configure Microsoft Teams dialer in
     - Upon successful validation, the status corresponding to **Phone system license** and **Teams license** displays **Status: Successfully set up**. Proceed to step 4.   
         > [!div class="mx-imgBorder"]
         > ![Phone system and Microsoft Teams licenses successful validation](media/teams-dialer-systems-validation-successful.png "Phone system and Microsoft Teams licenses successful validation")      
-    - <a name="tenant-admin-contact"></a> If any of the validations fails, you can't proceed with the configuration. You must contact your tenant administrator to set up the phone system and Microsoft Teams for your organization.    
+    - <a name="tenant-admin-contact"></a> If any of the validations fails, you can't proceed with the configuration. Contact your tenant administrator to set up the phone system and Microsoft Teams for your organization.    
     When the tenant administrator completes the configuration of [phone system](https://docs.microsoft.com/MicrosoftTeams/setting-up-your-phone-system) and [Teams licenses](https://docs.microsoft.com/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing?tabs=small-business), you can continue with the configuration. Select **Check status**.
         > [!div class="mx-imgBorder"]
         > ![Phone system and Microsoft Teams licenses failed validation](media/teams-dialer-systems-validation-failed.png "Phone system and Microsoft Teams licenses failed validation")
@@ -59,7 +59,7 @@ Review the following requirements before you configure Microsoft Teams dialer in
 
     > [!div class="mx-imgBorder"]
     > ![Select security roles](media/teams-dialer-select-security-roles.png "Select security roles")
-6.	Select **Advanced options**, and in the **Select app** drop-down list, select and add apps such as your custom apps. By default, **Sales Hub** is selected.     
+6.	Select **Advanced options**, and in the **Select app** drop-down list, select, and add apps such as your custom apps. By default, **Sales Hub** is selected.     
     > [!div class="mx-imgBorder"]
     > ![Select apps to use Microsoft Teams dialer](media/teams-dialer-select-apps.png "Select apps to use Microsoft Teams dialer")
 
