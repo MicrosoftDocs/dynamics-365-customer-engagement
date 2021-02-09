@@ -90,7 +90,7 @@ For organizations with diverse lines of businesses, agents will send a variety o
 
    If you select the work stream in the list, you can view the work stream record, and select the **Quick Replies** tab to view all the quick replies associated with that work stream.
 
-## Availability of quick replies and their language settings
+## Availability of quick replies and language settings
 
 The quick replies that the agents will see is determined by the following parameters:
 
