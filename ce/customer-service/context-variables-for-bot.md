@@ -21,12 +21,12 @@ This topic lists the context variables that you can configure for a bot in Power
 
 The following table contains the list of variables in Omnichannel for Customer Service that can help you configure some of the context variables for a bot in [Power Virtual Agents](configure-bot-virtual-agent.md) or [Azure](configure-bot.md).
 
-> [!IMPORTANT]
-> Make sure of the following:
->
-> - The context variable names are used as is and not changed when you author flows in Power Virtual Agents or Azure bots.
-> - The length of the context variable names must be 200 characters or less.
-> - Use exact match to pass the value to the context variable because it is case sensitive. Also,the value must be 4,000 characters or less so that the conversation can be successfully escalated to agents.
+Make sure of the following:
+
+- The context variable names are used as is and not changed when you author flows in Power Virtual Agents or Azure bots.
+- The length of the context variable names must be 200 characters or less.
+- Use exact match to pass the value to the context variable because it is case sensitive. Also,the value must be 4,000 characters or less so that the conversation can be successfully escalated to agents.
+- If you edit any variable, the updated values will be passed to Omnichannel for Customer Service. We recommend that you do not edit or update certain variables, such as conversation ID, because they are used throughout the conversation lifecycle.
 
 | Context variable type | Context variable name | Description | How to map in Power Virtual Agents | How to map in Azure |
 |-----|-----|-------|-------|-----|
