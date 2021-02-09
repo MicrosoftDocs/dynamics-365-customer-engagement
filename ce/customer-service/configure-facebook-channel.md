@@ -130,13 +130,7 @@ When you create conditions for routing rules, the **Facebook Engagement Context 
     
        To learn more about attachments, see [Enable file attachments](enable-file-attachments.md). 
        
-       To learn more about uploading media in Facebook, see [Facebook developer documentation](https://developers.facebook.com/docs/messenger-platform/send-messages). The availability and support of media is dependent on the third-party application, in this case, Facebook.
-
-    <!--
-    > [!Note]
-    > In Europe, Facebook does not support video, audio, and file attachments. Only image files will appear in the conversation. To send a non-image file, Facebook recommends that users upload the file to a public repository and send the URL via Facebook.
-    
-    -->
+       To learn about uploading media in Facebook, see the Facebook developer documentation. The availability and support of media is dependent on the Facebook application settings. More information: [Facebook updates](https://developers.facebook.com/docs/messenger-platform/europe-updates)
 
     - **Turn on your Facebook human agent message tag**: Set to **Yes** to enable your agents to message customers after 24 hours have passed. When set to **No**, agents will be unable to respond to customers after 24 hours unless the customer sends another message. 
     
