@@ -1,7 +1,7 @@
 ---
 title: "Create or edit leads (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Use leads to track business prospects that you haven't yet qualified."
-ms.date: 10/01/2019
+ms.date: 02/08/2021
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
@@ -93,11 +93,7 @@ In [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], you use leads 
   
 
 ## Tips and tricks  
- Need a faster way to enter leads? Try one of these:  
-  
--   [Quick create: Enter new contacts--fast!](../basics/quick-create-enter-data-fast.md)  
-  
--   [Import accounts, leads, or other data](../basics/import-accounts-leads-other-data.md)  
+ Need a faster way to enter leads? Try [Import accounts, leads, or other data](/powerapps/user/import-data)  
   
 ## Typical next steps  
  ![Right arrow button](../sales-enterprise/media/orange-right-arrow-button.png "Right arrow button") [Qualify a lead and convert it to an opportunity](../sales-enterprise/qualify-lead-convert-opportunity-sales.md)  
