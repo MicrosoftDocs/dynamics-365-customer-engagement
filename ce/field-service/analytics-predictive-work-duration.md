@@ -3,7 +3,7 @@ title: "Predictive work duration and resource proficiency suggestions in Dynamic
 description: Learn about using predictive work duration reports in Dynamics 365 Field Service.
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 10/20/2020
+ms.date: 01/20/2021
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.topic: article
@@ -78,7 +78,7 @@ At the top of the report, you'll find a few ways to filter or slice the data.
 
 ### Key performance indicators (KPIs)
 
-Below the filters are key performance indicators.
+Find key performance indicators below the filters.
 
 | Label  |  Description  |  
 |---------|--------------|
@@ -196,6 +196,30 @@ You'll find the following charts on the resource duration reports.
 | **Confidence**  | How likely the proficiency score calculated from the samples is close to the true proficiency score. A higher score indicates the proficiency score being closer to the truth and a lower score indicates the proficiency score being farther away from the truth.   |
 | **Proficiency factors** | Summary of factors such as incident types, service accounts, day of week, and skills and rating match that contribute to the efficiency score. |
 
+## Provide access to a security role
+
+By default, only administrators have access to the resource duration report; administrators can provide access to others through security roles.
+
+In Field Service, go to **Advanced Settings**.
+
+Go to **Settings** > **Security**.
+
+Go to **Security Roles**.
+
+Select the security role that needs access to the reports (for instance, **Field Service – Dispatcher**). 
+
+Go to the **Customer Entities**. 
+
+Select an entity. For example, "Resource duration (preview)."  
+
+**Save and Close**. Now the **Field Service - Dispatcher** will see the resource analytics (preview) report. 
+
+Follow these steps for any role that needs access. The three record types we have enabled as part of predictive work duration are:
+
+- Resource analytics (preview)
+- Predictive duration (preview)
+- Field Service historical analytics
+
 ## Configuration considerations
 
 - The setting **Minimum number of resources in a territory** lets you set restrictions on analyses and reports. If the value is set to 10, territories that have 10 or fewer resources will be excluded from territory analyses and reports; the limitation can help protect technician privacy.
@@ -206,7 +230,7 @@ You'll find the following charts on the resource duration reports.
 
 - **Estimated duration**: How much time your organization expects a job to take. In the system, the value comes from the duration (msdyn_duration) of the resource requirement. The duration of the resource requirement is derived from the total duration of all work order incident types.
 
-- **Actual duration**: How much time was actually spent working on a requirement. This value is calculated by _End time_ of booking minus the _actual arrival time_ of booking minus the *On break* duration of the booking journal related to the booking (formally called the **Bookable** Resource Booking).
+- **Actual duration**: How much time was spent working on a requirement. This value is calculated by _End time_ of booking minus the _actual arrival time_ of booking minus the *On break* duration of the booking journal related to the booking (formally called the **Bookable** Resource Booking).
 
 - **Predicted duration**: How much time the AI model "thinks" the job will take based on historical information.
 

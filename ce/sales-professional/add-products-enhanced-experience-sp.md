@@ -8,6 +8,12 @@ ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
+searchScope:
+  - D365-App-msdyn_salespro
+  - D365-Entity-opportunityproduct
+  - D365-UI-*
+  - Dynamics 365
+  - Sales
 ---
 
 # Add products to an opportunity by using the enhanced experience (Sales Professional)

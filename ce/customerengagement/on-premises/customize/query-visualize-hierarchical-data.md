@@ -18,11 +18,10 @@ ms.author: matp
 manager: kvivek
 search.audienceType: 
   - customizer
-
 ---
 # Query and visualize hierarchically related data
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Query and visualize hierarchically related data](/powerapps/maker/data-platform/query-visualize-hierarchical-data)
 
 You can get valuable business insights by visualizing hierarchically related data. The hierarchical modelling and visualization capabilities give you a number of benefits:  
   

@@ -8,6 +8,13 @@ ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
+searchScope:
+  - D365-App-msdynce_saleshub
+  - D365-Entity-*
+  - D365-UI-Dashboard
+  - Dynamics 365
+  - Sales
+  - Customer Engagement
 ---
 
 # Understand the sales pipeline chart and its phases
