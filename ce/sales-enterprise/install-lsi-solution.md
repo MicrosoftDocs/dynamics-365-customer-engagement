@@ -40,11 +40,18 @@ Before you install LinkedIn Sales Insights review the following requirements:
 ## Install the solution     
 
 1.	Go to the [LinkedIn Sales Insights for Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2154471) page, and then select **Get it now**.    
-2.	Read the terms and conditions, and then select **Continue**.    
-3.	The Dynamics 365 marketplace opens.    
-4.	Choose the organization from the **Organization to add the application to** list, select the check boxes for Microsoft and Dynamics 365 legal terms and privacy statements, and then select **Agree**.    
-5.	On the **Manage your solutions** page, verify the status of the installation.    
-6.	Verify that the installation is complete by following the steps in Validate the installation.     
+    > [!div class="mx-imgBorder"]
+    > ![LinkedIn Sales Insights for Dynamics 365 app source page](media/lsi-appsource-page.png "LinkedIn Sales Insights for Dynamics 365 app source page")     
+2.	Read the terms and conditions, and then select **Continue**.     
+    > [!div class="mx-imgBorder"]
+    > ![Select continue to proceed with installation](media/lsi-installation-continue.png "Select continue to proceed with installation")         
+    
+    The Power Platform admin center page opens with a pane to select your organization to install LinkedIn Sales Insights for Dynamics 365.      
+
+    > [!div class="mx-imgBorder"]
+    > ![Select your organization to install LinkedIn Sales Insights](media/lsi-select-organization.png "Select your organization to install LinkedIn Sales Insights")        
+3.	Choose the organization from the **Select an environment** list, select the check boxes for Microsoft and Dynamics 365 legal terms and privacy statements, and then select **Install**.    
+    On the **Manage your solutions** page, you can see the status of the installation. To verify that the installation is complete, follow the steps in [Validate the installation](#validate-the-installation).     
 
 ## Validate the installation    
 
