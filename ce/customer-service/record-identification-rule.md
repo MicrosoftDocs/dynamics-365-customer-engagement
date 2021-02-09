@@ -24,7 +24,7 @@ For more information, see [View Customer summary for an incoming engagement requ
 
 Use the below question names to create pre-chat questions for an **Unauthenticated chat**.
 
-|Entity   |     Mapping    | Answer type |
+| Entity   |     Mapping    | Answer type |
 |---------|----------------|-------------|
 | Account |	Question context key: **Name** <br> Attribute Logical Name: **name** <br><br> Question context key: **Email** <br> Attribute logical name: **emailaddress1** <br><br> Question context key: Phone <br> Attribute logical name: **telephone1** | Single line | 
 | Contact | Question context key: **Name** <br> Attribute logical name: **fullname** <br><br> Question context key: Email <br> Attribute logical name: **emailaddress1** <br><br> Question context key: Phone <br> Attribute logical name: **telephone1** |Single line | 

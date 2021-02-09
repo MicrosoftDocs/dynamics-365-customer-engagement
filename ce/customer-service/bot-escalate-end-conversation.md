@@ -44,18 +44,20 @@ In Omnichannel for Customer Service, a bot can escalate the current conversation
 
 The primary way a bot can dictate how the conversation will be routed is by using Omnichannel for Customer Service context variables that are associated with the chat. A bot can send out a list of context variables and the values to which they need to be updated along with the escalation request. Omnichannel for Customer Service will update the context variables to the specified values and then rerun the routing engine. This ensures that an escalated chat is routed to the right queue. After the agent accepts the request, the chat transcript with the bot is visible on the agent’s conversation widget. The agent can then continue the chat with the customer.
 
-### Link customer and case to a conversation by bot when escalating to a human agent
+### How to link customer and case to a conversation during bot escalation to a human agent<a name="link-customer-case-conversation"> </a>
 
-Customer and case can be linked to the conversation by the bot at the time of escalation so that the human agents can see the related customer and case in customer summary section when they start interacting with the customers. To link the customer or case, set the values for associated attributes, such as the name and phone number. The bot can set context parameters that are set in [automatic customer identification](record-identification-rule.md).
+Customer and case can be linked to the conversation by the bot at the time of escalation so that the human agents can see the related customer and case in the customer summary section when they start interacting with the customers. To link the customer or case, set the values for associated attributes, such as the name and phone number. The bot can set context parameters that are set in [automatically identify a customer](record-identification-rule.md).
+
+To create the context variables in PVA, perform the steps mentioned in [Configure context variables for the bot](configure-bot-virtual-agent.md#configure-context-variables-for-the-bot).
 
 
 ## End a conversation
 
-An Omnichannel for Customer Service bot can choose to end the conversation if it determines that the customer’s queries have been answered or if the customer is no longer responding. The bot can do so by sending an `EndConversation` request to Omnichannel for Customer Service.
+An Omnichannel for Customer Service bot can choose to end the conversation if it determines that the customer’s queries have been answered or if the customer is no longer responding. The bot can send an `EndConversation` request to Omnichannel for Customer Service.
 
 ## Sample code for escalation management and ending conversation
 
-Follow the procedure given below to configure a bot that is capable of escalating a conversation to a human agent.
+Perform the following steps to configure a bot that is capable of escalating a conversation to a human agent.
 
 1. Implement a command class to model escalate and end conversation. The sample code is as follows.
 
@@ -99,7 +101,7 @@ namespace EchoBot.OmniChannel
 }
 ```
 
-2. Implement an Omnichannel for Customer Service  client class to set the command context. The sample code is as follows.
+2. Implement an Omnichannel for Customer Service client class to set the command context. The sample code is as follows.
 
 ```csharp
 using Microsoft.Bot.Schema;
@@ -288,6 +290,8 @@ You understand that your data may be transmitted and shared with external system
 
 ### See also
 
-[Integrate a bot](configure-bot.md)<br />
-[Azure Bot Service](https://docs.microsoft.com/azure/bot-service/?view=azure-bot-service-4.0)<br />
-[Connect a bot to channels](https://docs.microsoft.com/azure/bot-service/bot-service-manage-channels?view=azure-bot-service-4.0)
+[Integrate a bot](configure-bot.md)  
+[Create context variables](work-streams-introduction.md)  
+[Azure Bot Service](https://docs.microsoft.com/azure/bot-service/?view=azure-bot-service-4.0)  
+[Connect a bot to channels](https://docs.microsoft.com/azure/bot-service/bot-service-manage-channels?view=azure-bot-service-4.0)  
+

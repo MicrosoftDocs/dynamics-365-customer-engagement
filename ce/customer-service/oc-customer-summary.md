@@ -30,6 +30,8 @@ Having this information ready can help support agents reduce the hold time that 
 > [!div class='mx-imgBorder']
 > ![View Customer summary](media/customer-summary.png "View the Customer summary page")
 
+However, if you want to view customer summary for closed conversations, you will not be able to view those sections that are not supported for closed conversation.
+
 ## Customer (Contact or Account)
 
 This section provides details like the contact name or account name. For a contact, you can view the location, email, and other details of the contact. For an account, you can view location, telephone number, and primary contact person for the account.
