@@ -47,6 +47,7 @@ Make sure that you have the following details:
 - The Omnichannel context variable, such as msdyn_contact_msdyn_ocliveworkitem_Customer.
 - The schema details. A copy of the sample schema details is as follows.
 
+```
         Schema: 
         {
             "type": "array",
@@ -66,6 +67,7 @@ Make sure that you have the following details:
                 ]
             }
         }
+```
 
 "PrimaryDisplayValue" will contain the value from the attribute in the Dataverse entities. The mapping for the entity attributes is as follows:
 

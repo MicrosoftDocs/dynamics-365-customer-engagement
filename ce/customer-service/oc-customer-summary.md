@@ -1,5 +1,5 @@
 ---
-title: "View a customer summary in Omnichannel for Dynamics 365 | MicrosoftDocs"
+title: "View customer summary in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Customer summary is a page where you can get all available information about the customer with whom you're going to interact."
 author: neeranelli
 ms.author: nenellim
@@ -9,7 +9,7 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
 
-# View a customer summary to get available information about a customer
+# View customer summary to get available information about customers
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -30,7 +30,7 @@ Having this information ready can help support agents reduce the hold time that 
 > [!div class='mx-imgBorder']
 > ![View Customer summary](media/customer-summary.png "View the Customer summary page")
 
-However, for closed conversations, you will be able to view only those sections that are supported for closed conversation.
+However, for closed conversations, you will be able to view only those sections that are supported.
 
 ## Customer (Contact or Account)
 
