@@ -26,9 +26,9 @@ As an administrator, you must configure Microsoft Teams dialer for sellers to us
 ## Review the prerequisites
 
 Review the following requirements before you configure Microsoft Teams dialer in your Dynamics 365 Sales Hub app:     
--	You must have a Dynamics 365 system administrator or equivalent security role. More information: [Assign a security role to a user](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user)     
--	Your organization has a phone system installed, with a valid license to use it. More information: [Set up Phone System in your organization](https://docs.microsoft.com/MicrosoftTeams/setting-up-your-phone-system)     
--	You have a license for using Microsoft Teams. More information: [Microsoft Teams add-on licenses](https://docs.microsoft.com/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing?tabs=small-business)
+-	You have a license for using Microsoft Teams. Any Microsoft Teams license will work. More information: [Microsoft Teams add-on licenses](https://docs.microsoft.com/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing?tabs=small-business).      
+-	Your organization has a phone system installed, with a valid license to use it. More information: [Set up Phone System in your organization](https://docs.microsoft.com/MicrosoftTeams/setting-up-your-phone-system).          
+-	You must have a Dynamics 365 system administrator or equivalent security role. More information: [Assign a security role to a user](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user).    
 
 ## Configure the dialer
 
