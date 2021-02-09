@@ -134,7 +134,7 @@ After successful installation, you can access scheduling in the Customer Service
 
 ## Access scheduling in the Customer Service Hub
 
-With the latest release of Dynamics 365 Customer Service, Scheduling is powered by Universal Resource Scheduling (URS), and is available from the Customer Service Hub sitemap.
+With the latest release of Dynamics 365 Customer Service, Scheduling is powered by Universal Resource Scheduling, and is available from the Customer Service Hub sitemap.
 
 - Select ![change area](media/change-area-icon.png) to go to **Scheduling** and access the entity record types.
 
