@@ -89,22 +89,16 @@ For organizations with diverse lines of businesses, agents will send a variety o
 7. Select **Save** to save your quick reply.
 
    If you select the work stream in the list, you can view the work stream record, and select the **Quick Replies** tab to view all the quick replies associated with that work stream.
-   
-## Understand quick reply filtering
 
-The quick replies that agents will see is determined by the following parameters:
+## Availability of quick replies and their language settings
+
+The quick replies that the agents will see is determined by the following parameters:
 
 - The language mapped to the channel instance
 - The language configured in the agent's personal settings
 - The workstream the quick reply is mapped to
 
-For example, when you set up live chat (the channel instance), you select the language used for conversations taking place on that chat widget. Then, you associate that chat widget with a queue containing a number of agents. Each agent in the queue has a user interface language associated with him or her. You also set up a workstream with routing rules to send conversations to agents in the queue. Then, to provide quick replies for the agents to use in conversations, you associate them with that workstream.
-
-For live chat, the first filter used to determine which quick replies the agent will see is the chat widget's language. If no language is configured, the next filter is the agent's language. The agent will only see quick replies in his or her configured language. The last filter is based on the quick replies mapped to the current workstream. The agent will see all the quick replies mapped to the workstream in his or her language, plus any quick replies that aren't mapped to a workstream.
-
-For social channels, language is not configured at the channel level, so the system filters the list of quick replies based on the agent's language. As with chat, the agent will only see quick replies that are in his or her configured language and mapped to the current workstream, plus any quick replies that aren't mapped to a workstream.
-
-For more information about language settings for agents, see [Set personal options](https://docs.microsoft.com/en-us/powerapps/user/set-personal-options).
+For example, when you set up a live chat widget or Facebook page, the quick replies will be available in the language that is configured for the chat widget or Facebook page. Then, when you associate the chat widget with a queue containing agents, the agent-specific language setting, if configured, will determine the language in which the quick replies will be available to the agents. The agents will see the quick replies mapped to the workstream that is associated with the channel with other quick replies.
 
 ### See also
 
@@ -113,3 +107,4 @@ For more information about language settings for agents, see [Set personal optio
 [Create and manage operating hours](create-operating-hours.md)  
 [Create chat authentication settings](create-chat-auth-settings.md)  
 [Embed chat widget in Power Apps portals](embed-chat-widget-portal.md)  
+[Language settings for agents](https://docs.microsoft.com/powerapps/user/set-personal-options)
