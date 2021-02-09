@@ -4,7 +4,9 @@
 ## [What's new](../sales-enterprise/whats-new.md)
 ## [Deprecated features](deprecations-sales.md)
 ## [Connect and share feedback](../sales-enterprise/connect-share-feedback.md)
+
 ## Administrator & Sales Manager Guide
+
 ### [Help resources for admins and sales managers](../sales-enterprise/admin-guide.md)
 
 ### Sales management
@@ -41,7 +43,7 @@
 #### [Clone products](../sales-enterprise/clone-product.md)  
 #### [Retire products](../sales-enterprise/retire-product.md)
 #### [Delete a family, product, or bundle](../sales-enterprise/delete-family-product-bundle.md)
-#### [See relationships in a hierarchical view](../basics/hierarchical-relationship.md)
+#### [See relationships in a hierarchical view](/powerapps/maker/data-platform/visualize-hierarchical-data)
 #### [Add editable products grid on forms](../sales-enterprise/editable-product-grid-forms.md) 
 #### [Enable the enhanced experience of adding products](enable-enhanced-add-product-experience.md)
 #### [Customize the Add Products dialog box](customize-add-products-dialog-box.md)
@@ -51,7 +53,6 @@
 #### [Create or edit goals](../sales-enterprise/create-edit-goal-sales.md)
 #### [Define a goal metric](../sales-enterprise/create-edit-goal-metric.md)
 #### [Define a goal rollup query](../sales-enterprise/create-edit-goal-rollup-query-sales.md)
-
 
 ### Forecast management
 #### [Configure forecasts in your organization](configure-forecast.md)
@@ -79,11 +80,14 @@
 #### [Configure Power BI template apps to work with Dynamics 365 Sales](configure-sales-template-apps.md)
 #### [Customize Power BI template apps for Dynamics 365 Sales](customize-template-apps.md)
 
+### [Configure Microsoft Teams dialer](configure-microsoft-teams-dialer.md)
+
 ### Reporting
 #### [Add reporting features to your app](/powerapps/maker/model-driven-apps/add-reporting-to-app)
 
 ### General Data Protection Regulation (GDPR)
 #### [Dynamics 365 Sales & GDPR](../sales-enterprise/dynamics-365-sales-gdpr.md)
+
 ### Upgrade or downgrade
 #### [Upgrade from Dynamics 365 Sales Professional](upgrade-sales-professional-sales-enterprise.md)
 #### [Move from Dynamics 365 Sales Enterprise to Professional](move-sales-enterprise-sales-professional.md)
