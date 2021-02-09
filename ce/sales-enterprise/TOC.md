@@ -41,7 +41,7 @@
 #### [Clone products](../sales-enterprise/clone-product.md)  
 #### [Retire products](../sales-enterprise/retire-product.md)
 #### [Delete a family, product, or bundle](../sales-enterprise/delete-family-product-bundle.md)
-#### [See relationships in a hierarchical view](../basics/hierarchical-relationship.md)
+#### [See relationships in a hierarchical view](/powerapps/maker/data-platform/visualize-hierarchical-data)
 #### [Add editable products grid on forms](../sales-enterprise/editable-product-grid-forms.md) 
 #### [Enable the enhanced experience of adding products](enable-enhanced-add-product-experience.md)
 #### [Customize the Add Products dialog box](customize-add-products-dialog-box.md)
