@@ -30,7 +30,7 @@ Having this information ready can help support agents reduce the hold time that 
 > [!div class='mx-imgBorder']
 > ![View Customer summary](media/customer-summary.png "View the Customer summary page")
 
-However, if you want to view customer summary for closed conversations, you will not be able to view those sections that are not supported for closed conversation.
+However, for closed conversations, you will be able to view only those sections that are supported for closed conversation.
 
 ## Customer (Contact or Account)
 

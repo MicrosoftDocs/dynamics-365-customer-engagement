@@ -48,7 +48,7 @@ The primary way a bot can dictate how the conversation will be routed is by usin
 
 Customer and case can be linked to the conversation by the bot at the time of escalation so that the human agents can see the related customer and case in the customer summary section when they start interacting with the customers. To link the customer or case, set the values for associated attributes, such as the name and phone number. The bot can set context parameters that are set in [automatically identify a customer](record-identification-rule.md).
 
-To create the context variables in PVA, perform the steps mentioned in [Configure context variables for the bot](configure-bot-virtual-agent.md#configure-context-variables-for-the-bot).
+To create the context variables for a bot in Power Virtual Agents, perform the steps mentioned in [Configure context variables for the bot](configure-bot-virtual-agent.md#configure-context-variables-for-the-bot).
 
 
 ## End a conversation
