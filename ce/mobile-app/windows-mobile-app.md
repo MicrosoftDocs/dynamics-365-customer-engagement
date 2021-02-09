@@ -238,7 +238,7 @@ To sign out, select the profile button and then select **Sign out**.
 
 ## Set up mobile offline (for admins)
 
-To allow users to use the Dynamics 365 (Preview) app for Windows in offline mode, a Dynamics 365 administrator will need to set up mobile offline for your organization. For more information, see [Set up mobile offline synchronization](https://docs.microsoft.com/dynamics365/mobile-app/setup-mobile-offline).
+To allow users to use the Microsoft Dynamics 365 (Preview) app for Windows in offline mode, a Dynamics 365 administrator will need to set up mobile offline for your organization. For more information, see [Set up mobile offline synchronization](https://docs.microsoft.com/dynamics365/mobile-app/setup-mobile-offline).
 
 ## Work in offline mode (for end-users)
 
