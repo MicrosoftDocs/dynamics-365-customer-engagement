@@ -21,7 +21,7 @@ searchScope:
   - Sales
 ---
 
-# Create or edit a campaign using in-app marketing (Sales)
+# Create or edit a campaign using in-app marketing (Sales Hub)
 
 Promote your business, expand your reach to new customers, and improve sales by using campaigns in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]. Use campaigns to store all your marketing information and activities, and to measure the success of your efforts. Campaigns contain planning tasks and campaign activities you need to manage for the marketing campaigns.  
   

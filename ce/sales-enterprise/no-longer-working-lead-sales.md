@@ -1,7 +1,7 @@
 ---
 title: "What if you're no longer working a lead? (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Learn more how and when to disqualify a lead."
-ms.date: 10/01/2019
+ms.date: 02/10/2021
 ms.service: 
   - "dynamics-365-sales"
 ms.topic: article
@@ -10,7 +10,7 @@ ms.author: shujoshi
 manager: annbe
 ---
 
-# What if you're no longer working a lead? (Sales and Sales Hub)
+# What if you're no longer working a lead? (Sales Hub)
 
 Let's say you've been talking to a lead and you determine that continuing to work the lead won't be worth your time, at least not right now. Not great news, but it happens.  
   

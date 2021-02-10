@@ -21,7 +21,7 @@ searchScope:
   - Sales
 ---
 
-# Track a marketing campaign response using in-app marketing (Sales)
+# Track a marketing campaign response using in-app marketing (Sales Hub)
 
 Record the replies you get from potential customers in response to a specific marketing campaign to make sure your team can act on the responses. Measure the success of specific campaign activities based on their response rates. You can manually create campaign responses or have [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] generate them automatically.  
   
