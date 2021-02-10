@@ -48,9 +48,9 @@ The transcripts you see in the link can contain different kinds of messages:
 - Text message (for example, Hi, Hello, How are you, etc)
 - File Attachment metadata
 
-On each of these types of messages you can see a `createdDateTime` field that denotes the exact time at which this message was posted/created.
+On each of these types of messages you can see a `createdDateTime` field that denotes the exact time at which this message was posted or created.
 
-A control message is of no visual value and indicates an event like Agent joined or left conversation. It usually has a flag called `isControlMessage` set to `true`.
+A control message is of no visual value and indicates an event like agent joined or left conversation. It usually has a flag called `isControlMessage` set to `true`.
 
 ```
 {
@@ -139,9 +139,9 @@ Text messages exchanged during the chat between agent and customer appear as fol
 },
 ```
 
-As seen in the preceding code, messages sent by the customer have a display name of either ‘customer’ in case of an unidentified customer or their actual name if they are known to Omnichannel for Customer Service.
+As seen in the preceding code, messages sent by the customer have a display name "Customer" in case of an unidentified customer or their actual name if they are known to Omnichannel for Customer Service.
 
-For the message that is sent by an agent to a customer, there are tags denoting that it is a “public” message sent by the agent. If the tags contain “private”, then its an internal message exchanged between 2 agents and are not exposed to the customer.
+For the message that is sent by an agent to a customer, there are tags denoting that it is a “public” message sent by the agent. If the tags contain “private”, then they are internal messages exchanged between two agents and are not exposed to the customer.
 
 ```
 {
@@ -175,7 +175,7 @@ For the message that is sent by an agent to a customer, there are tags denoting 
 	"deliveryMode": "unbridged"
 },
 ```
-A `FileAttachment` message looks like this in the JSON.
+A `FileAttachment` message looks like the following snippet in the JSON.
 
 ```
 {
@@ -218,7 +218,7 @@ A `FileAttachment` message looks like this in the JSON.
     "deliveryMode": "bridged"
   },
 ```
-It usually has metadata related to the attachments exchanged during the chat. The highlighted `annotationid` is the key to the base64 encoded record in Annotations table for that file attachment. You can retrieve that record using this Web API request. The Web API request will give you the base64 encoded Attachment which you can decode and use the way you want.
+It usually has metadata related to the attachments exchanged during the chat. The `annotationid` is the key to the base64 encoded record in Annotations table for that file attachment. You can retrieve the record using the following Web API request. The Web API request will give you the base64 encoded Attachment that you can decode and use the way you want.
 
 ```http
 GET [Organization URI]/api/data/v9.1/annotations(<annotationid>)
