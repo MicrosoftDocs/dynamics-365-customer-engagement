@@ -246,7 +246,7 @@
 
 ### Guided selling
 #### Assistant
-##### [Guide customer communications with assistant](sales/assistant.md)
+##### [Guide customer communications with assistant](assistant.md)
 ##### [Stay updated with cards in assistant](action-cards-reference.md)
 #### Playbook management
 ##### [Associate documents with playbook activities](associate-documents-playbook-activities.md)
