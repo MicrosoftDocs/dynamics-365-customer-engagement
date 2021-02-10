@@ -32,7 +32,7 @@ In the **Permissions** step of the forecast configuration, you define which team
     |----------------------------------|-------------|
     | No additional security roles | This option provides access only to the selected hierarchy users. When you select this option, users who have other security roles in the organization can't view the forecast. By default, this option is selected. |
     | All security roles (everyone can access the forecast) | This option provides access to view the forecast to all the security roles of users in your organization. |
-	  | Specific security roles | This option allows you to specify security roles when you want to give access to view the forecast to a few external users. |
+	| Specific security roles | This option allows you to specify security roles when you want to give access to a few external users to view only data or to adjust the data in the forecast.<br> |
 
     > [!div class="mx-imgBorder"]
     > ![Forecast permissions step](media/forecast-permissions.png "Forecast permissions step")
