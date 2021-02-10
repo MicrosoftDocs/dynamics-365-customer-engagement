@@ -35,106 +35,62 @@
 ### [Create PDF files from sales records](../sales-enterprise/create-quote-pdf.md)
 ### [Create PDF documents](create-quote-pdf.md)
 
-## Use dashboard
-### [Gain insights with dashboards](../sales-enterprise/dashboards.md)
-### [Understand the sales pipeline chart and its phases](../sales-enterprise/sales-pipeline-chart.md)
+## Administrator & Sales Manager Guide
 
-## Account and contact management
-### [Work with accounts and contacts](../basics/accounts-contacts.md)
-### [Organize contacts in live org charts for accounts](../sales-enterprise/live-org-chart.md)
-### [Scan business cards](../sales-enterprise/scan-business-cards.md)
+### [Help resources for admins and sales managers](../sales-enterprise/admin-guide.md)
+
+### Account and contact management
 #### [Enable or disable saving of business card image](../sales-enterprise/retain-business-card-image-after-scanning.md)
 #### [Customize the business card scanner control](../sales-enterprise/customize-business-card-scan-control.md)
 
-## Product management
-### [Set up a product catalog](../sales-enterprise/set-up-product-catalog-walkthrough.md)
-### [Set up products](../sales-enterprise/create-product-sales.md)
-### [Set up product families](../sales-enterprise/create-product-family.md) 
-### [Set up product bundles to sell multiple items together](../sales-enterprise/create-product-bundles-sell-multiple-items-together.md)
-### [How are prices calculated for product bundles?](pricing-product-bundles.md)
-### [Change parent of a product (reparenting)](change-product-parent.md)
-### [Publish a product, bundle, or family](../sales-enterprise/publish-product-bundle-make-available-selling.md)
-### [Define product pricing with price lists](../sales-enterprise/create-price-lists-price-list-items-define-pricing-products.md)
-### [Decimal precision in currency and pricing](decimal-precision-currency-pricing.md)
-### [Allow adding products without associated price list](make-price-list-optional.md)
-### [Create a unit group and add units](../sales-enterprise/create-unit-group-add-units-that-group.md)
-### [Set up discount lists](../sales-enterprise/set-up-discount-list.md)
-### [Define related products to increase sales](../sales-enterprise/define-related-products-increase-chances-sales.md)
-### [Translate product names into multiple languages](../sales-enterprise/translate-product-names-properties-into-multiple-languages.md)
-### [Use properties to describe a product](../sales-enterprise/use-properties-describe-product.md)
-### [Revise products](../sales-enterprise/revise-product.md)
-### [Clone products](../sales-enterprise/clone-product.md)  
-### [Retire products](../sales-enterprise/retire-product.md)
-### [Delete a family, product, or bundle](../sales-enterprise/delete-family-product-bundle.md)
-### [See relationships in a hierarchical view](../basics/hierarchical-relationship.md)
-### [Add editable products grid on forms](../sales-enterprise/editable-product-grid-forms.md) 
-### [Enable the enhanced experience of adding products](enable-enhanced-add-product-experience.md)
-### [Customize the Add Products dialog box](customize-add-products-dialog-box.md)
+### Product management
+#### [Set up a product catalog](../sales-enterprise/set-up-product-catalog-walkthrough.md)
+#### [Set up products](../sales-enterprise/create-product-sales.md)
+#### [Set up product families](../sales-enterprise/create-product-family.md) 
+#### [Set up product bundles to sell multiple items together](../sales-enterprise/create-product-bundles-sell-multiple-items-together.md)
+#### [How are prices calculated for product bundles?](pricing-product-bundles.md)
+#### [Change parent of a product (reparenting)](change-product-parent.md)
+#### [Publish a product, bundle, or family](../sales-enterprise/publish-product-bundle-make-available-selling.md)
+#### [Define product pricing with price lists](../sales-enterprise/create-price-lists-price-list-items-define-pricing-products.md)
+#### [Decimal precision in currency and pricing](decimal-precision-currency-pricing.md)
+#### [Allow adding products without associated price list](make-price-list-optional.md)
+#### [Create a unit group and add units](../sales-enterprise/create-unit-group-add-units-that-group.md)
+#### [Set up discount lists](../sales-enterprise/set-up-discount-list.md)
+#### [Define related products to increase sales](../sales-enterprise/define-related-products-increase-chances-sales.md)
+#### [Translate product names into multiple languages](../sales-enterprise/translate-product-names-properties-into-multiple-languages.md)
+#### [Use properties to describe a product](../sales-enterprise/use-properties-describe-product.md)
+#### [Revise products](../sales-enterprise/revise-product.md)
+#### [Clone products](../sales-enterprise/clone-product.md)  
+#### [Retire products](../sales-enterprise/retire-product.md)
+#### [Delete a family, product, or bundle](../sales-enterprise/delete-family-product-bundle.md)
+#### [See relationships in a hierarchical view](../basics/hierarchical-relationship.md)
+#### [Add editable products grid on forms](../sales-enterprise/editable-product-grid-forms.md) 
+#### [Enable the enhanced experience of adding products](enable-enhanced-add-product-experience.md)
+#### [Customize the Add Products dialog box](customize-add-products-dialog-box.md)
 
-## Collaboration
-### Activity management
-#### [Add activities to the timeline](/powerapps/user/add-activities)
-#### [Track and manage activities](../sales-enterprise/manage-activities.md) 
-#### [Set up enhanced email](set-up-enhanced-email.md)
-#### [Send email using the enhanced email experience](enhanced-email.md)
+### Collaboration
+#### Activity management
+##### [Set up enhanced email](set-up-enhanced-email.md)
 #### Activities in Kanban view
 ##### [Add the Kanban control to Opportunity or Activity entities](../sales-enterprise/add-kanban-control.md)
-##### [Work with activities in the Kanban view](../sales-enterprise/activity-kanban-view.md) 
-### Email insights 
-#### [Configure email engagement](https://docs.microsoft.com/dynamics365/ai/sales/configure-email-engagement)
-#### [View message interactions with email engagement](https://docs.microsoft.com/dynamics365/ai/sales/email-engagement)
-### Auto capture activities
-#### [Enable basic auto capture](https://docs.microsoft.com/dynamics365/ai/sales/configure-auto-capture#how-to-enable-basic-auto-capture)
-#### [Use basic auto capture](https://docs.microsoft.com/dynamics365/ai/sales/free-auto-capture)
-### Collaborate using Microsoft Teams
-#### [Microsoft Teams integration](https://docs.microsoft.com/dynamics365/teams-integration/teams-integration)
-#### Microsoft Teams call integration
-### [Integrate a sample softphone](../sales-enterprise/sample-softphone-integration.md)
+#### Email insights 
+##### [Configure email engagement](../sales-enterprise/configure-email-engagement.md)
+#### Auto capture activities
+##### [Enable basic auto capture](../sales-enterprise/configure-auto-capture.md#how-to-enable-basic-auto-capture)
+#### Collaborate using Microsoft Teams
+##### [Microsoft Teams integration](https://docs.microsoft.com/dynamics365/teams-integration/teams-integration)
+#### [Integrate a sample softphone](../sales-enterprise/sample-softphone-integration.md)
 
-## Campaign management
-### [Get started with in-app marketing](../sales-enterprise/get-started-app-marketing-sales.md)
-### [Create a marketing list](../sales-enterprise/create-marketing-list-using-app-marketing-sales.md)  
-### [Create a quick campaign](../sales-enterprise/create-quick-campaign-using-app-marketing-sales.md)
-### [Add assets to a campaign](../sales-enterprise/add-marketing-list-sales-literature-product-campaign-using-app-marketing-sales.md)
-### [Create or edit a campaign](../sales-enterprise/create-edit-campaign-using-app-marketing-sales.md)
-### [Add an activity to a campaign](../sales-enterprise/add-activity-campaign-using-app-marketing-sales.md)
-### [Track a marketing campaign response](../sales-enterprise/track-marketing-campaign-response-using-app-marketing-sales.md)
+### Lead management
+#### [Define lead qualification experience](../sales-enterprise/define-lead-qualification-experience.md)
+#### [Integrate LinkedIn Sales Navigator solutions](../linkedin/integrate-sales-navigator.md)
 
-## Lead management
-### [Define lead qualification experience](../sales-enterprise/define-lead-qualification-experience.md)
-### [Create or edit leads](../sales-enterprise/create-edit-lead-sales.md)
-### [Qualify or convert leads](../sales-enterprise/qualify-lead-convert-opportunity-sales.md)
-### [Reopen leads](../sales-enterprise/re-open-lead-sales.md)
-### [Nurture sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md)
-### [Integrate LinkedIn Sales Navigator solutions](../linkedin/integrate-sales-navigator.md)
+### Opportunity management
+#### [Enable customization of the Opportunity Close form](enable-opportunity-close-customization.md)
+#### [Customize the Opportunity Close form](customize-opportunity-close-experience.md)
+#### [Add the Kanban control to Opportunity or Activity entities](add-kanban-control.md)
 
-## Opportunity management
-### [Enable customization of the Opportunity Close form](enable-opportunity-close-customization.md)
-### [Customize the Opportunity Close form](customize-opportunity-close-experience.md)
-### [Add the Kanban control to Opportunity or Activity entities](add-kanban-control.md)
-### [Create or edit opportunities](../sales-enterprise/create-edit-opportunity-sales.md)  
-### [Work with opportunities in the Kanban view](opportunity-kanban-view.md)
-### [Add products to an opportunity](add-products-opportunity.md)  
-### [Add products to an opportunity by using the enhanced experience](add-products-enhanced-experience.md)
-### [Price calculation for opportunity, quote, order, and invoice records](price-calculation-opportunity-quote-order-invoice-records.md)
-### [How are stakeholders and sales team members tracked for opportunities?](stakeholders-sales-team-members.md)
-### [Recalculate an opportunity](recalculate-opportunity.md)
-### [Close opportunities as won or lost](../sales-enterprise/close-opportunity-won-lost-sales.md)
-### [Collaborate using SharePoint](collaborate-using-sharepoint-sales.md)
-### [Create or edit competitor records](../sales-enterprise/create-edit-competitor-record-sales.md)
-### [Manage sales literature](../sales-enterprise/create-sales-literature.md)
-
-## Quote and order management
-### [Sales transactions in Dynamics 365 Sales](../sales-enterprise/sales-transactions.md)
-### [Lock or unlock prices for an order or invoice](lock-unlock-price-order-invoice.md)
-### [Create or edit quotes](../sales-enterprise/create-edit-quote-sales.md)
-### [Create or edit orders](../sales-enterprise/create-edit-order-sales.md)
-### [Create or edit invoices](../sales-enterprise/create-edit-invoice-sales.md)
-### [Add products to quotes, orders, or invoices](../sales-enterprise/add-product-quote-order-invoice.md)
-### [Add products to a quote, order, or invoice by using the enhanced experience](add-products-qoi-enhanced.md)
-
-## Forecast management
-### Administrator experience
+### Forecast management
 #### [Configure forecasts in your organization](configure-forecast.md)
 #### [Select a template](select-template-forecast.md)
 #### [Define general properties and scheduling](define-general-properties-scheduling-forecast.md)
@@ -149,7 +105,138 @@
 #### [Configure forecast using custom rollup entity](configure-forecast-using-custom-rollup-entity.md)
 #### [Capture forecast category for opportunity](capture-forecast-category-opportunity.md)
 #### [Add forecast grid and configuration options in site map](add-forecast-site-map.md)
-### User experience
+
+### Goal management
+#### [Goal settings](../admin/system-settings-dialog-box-goals-tab.md)
+#### [Create or edit goals](../sales-enterprise/create-edit-goal-sales.md)
+#### [Define a goal metric](../sales-enterprise/create-edit-goal-metric.md)
+#### [Define a goal rollup query](../sales-enterprise/create-edit-goal-rollup-query-sales.md)
+
+### Guided selling
+#### Assistant
+##### [Configure the assistant](../sales-enterprise/configure-assistant.md)
+#### Playbook management
+##### [Define playbook categories](define-playbook-categories.md)  
+##### [Manage playbook templates](manage-playbook-templates.md) 
+
+### Reporting
+#### PowerBI Templates
+##### [Analyze your sales data using Power BI template apps](introduction-sales-template-apps.md)
+##### [Configure Power BI template apps to work with Dynamics 365 Sales](configure-sales-template-apps.md)
+##### [Customize Power BI template apps for Dynamics 365 Sales](customize-template-apps.md)
+#### Enable default reporting
+##### [Add reporting features to your app](/powerapps/maker/model-driven-apps/add-reporting-to-app)
+
+### Sales premium
+
+#### [Manage sample data](manage-sample-data.md)
+
+#### Configure assistant
+##### [Configure the assistant](configure-assistant.md)
+##### [Create insight cards](create-insight-cards-flow.md)
+##### [Edit insight cards](edit-insight-cards.md)
+##### [Optimize ranking of insight cards](optimize-ranking-insight-cards.md)
+##### [Create insight cards using solution](extend-relationship-assistant-card.md)
+###### [Sample: Extend assistant card type (custom card)](sample-extend-relationship-assistant-card-type.md)
+
+#### Configure relationship insights
+##### [Configure relationship analytics and health](configure-relationship-analytics.md)
+##### [Configure talking points](configure-talking-points.md)
+##### [Configure who knows whom](configure-who-knows-whom.md)
+
+#### Configure predictive models
+##### [Predictive lead scoring](configure-predictive-lead-scoring.md)
+##### [Predictive opportunity scoring](configure-predictive-opportunity-scoring.md)
+
+#### [Configure premium forecasting](configure-premium-forecasting.md)
+##### [View prediction model status](view-prediction-model-status.md)
+##### [Take snapshots automatically](manage-snapshots-forecast.md)
+
+#### Configure sales accelerator
+##### [Configure sales accelerator](enable-configure-sales-accelerator.md)
+##### [Manage sequences](create-manage-sequences.md)
+###### [Create and activate a sequence](create-and-activate-a-sequence.md)
+###### [Connect a sequence to records](connect-a-sequence-to-records.md)
+###### [View details of a sequence and its connected records](view-sequence-details-connected-records.md)
+###### [Clone a sequence](clone-a-sequence.md)
+###### [Edit a sequence](edit-a-sequence.md)
+###### [Delete a sequence](delete-a-sequence.md)
+##### [Integrate a sample softphone dialer with Dynamics 365 Sales](integrate-sample-softphone.md)
+
+#### Configure conversation intelligence
+##### [Prerequisites to use Conversation Intelligence](prereq-sales-insights-app.md)
+##### [First-run set up experience](fre-setup-sales-insight-app.md)
+##### [Configure conversation intelligence to connect call data](configure-conversation-intelligence-call-data.md)
+##### [Configure and view your team page](configure-view-your-team-page.md)
+##### [Configure conversation content](configure-keywords-competitors.md)
+##### [Connect to Dynamics 365 Sales environment](connect-dynamics365-sales-environment.md)
+##### [Data retention and deletion through Privacy](data-retention-deletion-policy.md)
+##### [Enable coming soon features](enable-preview-features-sales-insights-app.md)
+
+#### [Uninstall sales premium](/uninstall-sales-insights.md)
+
+### Sales on mobile
+#### [Enable Dynamics 365 Sales mobile](sales-mobile/enable-sales-mobile.md)
+
+### Upgrade or downgrade
+#### [Upgrade from Dynamics 365 Sales Professional](upgrade-sales-professional-sales-enterprise.md)
+#### [Move from Dynamics 365 Sales Enterprise to Professional](move-sales-enterprise-sales-professional.md)
+
+
+## Seller or Sales Personal Guide
+
+### [Help resources for salespeople](../sales-enterprise/user-guide.md)
+
+### Use dashboard
+#### [Gain insights with dashboards](../sales-enterprise/dashboards.md)
+#### [Understand the sales pipeline chart and its phases](../sales-enterprise/sales-pipeline-chart.md)
+
+### Account and contact management
+#### [Work with accounts and contacts](../basics/accounts-contacts.md)
+#### [Organize contacts in live org charts for accounts](../sales-enterprise/live-org-chart.md)
+#### [Scan business cards](../sales-enterprise/scan-business-cards.md)
+
+### Collaboration
+#### Activity management
+##### [Add activities to the timeline](/powerapps/user/add-activities)
+##### [Track and manage activities](../sales-enterprise/manage-activities.md) 
+##### [Send email using the enhanced email experience](enhanced-email.md)
+##### Activities in Kanban view
+###### [Work with activities in the Kanban view](../sales-enterprise/activity-kanban-view.md) 
+#### Email insights 
+##### [View message interactions with email engagement](email-engagement.md)
+#### Auto capture activities
+##### [Use basic auto capture](free-auto-capture.md)
+
+### Lead management
+#### [Create or edit leads](../sales-enterprise/create-edit-lead-sales.md)
+#### [Qualify or convert leads](../sales-enterprise/qualify-lead-convert-opportunity-sales.md)
+#### [Reopen leads](../sales-enterprise/re-open-lead-sales.md)
+#### [Nurture sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md)
+
+### Opportunity management
+#### [Create or edit opportunities](../sales-enterprise/create-edit-opportunity-sales.md)  
+#### [Work with opportunities in the Kanban view](opportunity-kanban-view.md)
+#### [Add products to an opportunity](add-products-opportunity.md)  
+#### [Add products to an opportunity by using the enhanced experience](add-products-enhanced-experience.md)
+#### [Price calculation for opportunity, quote, order, and invoice records](price-calculation-opportunity-quote-order-invoice-records.md)
+#### [How are stakeholders and sales team members tracked for opportunities?](stakeholders-sales-team-members.md)
+#### [Recalculate an opportunity](recalculate-opportunity.md)
+#### [Close opportunities as won or lost](../sales-enterprise/close-opportunity-won-lost-sales.md)
+#### [Collaborate using SharePoint](collaborate-using-sharepoint-sales.md)
+#### [Create or edit competitor records](../sales-enterprise/create-edit-competitor-record-sales.md)
+#### [Manage sales literature](../sales-enterprise/create-sales-literature.md)
+
+### Quote and order management
+#### [Sales transactions in Dynamics 365 Sales](../sales-enterprise/sales-transactions.md)
+#### [Lock or unlock prices for an order or invoice](lock-unlock-price-order-invoice.md)
+#### [Create or edit quotes](../sales-enterprise/create-edit-quote-sales.md)
+#### [Create or edit orders](../sales-enterprise/create-edit-order-sales.md)
+#### [Create or edit invoices](../sales-enterprise/create-edit-invoice-sales.md)
+#### [Add products to quotes, orders, or invoices](../sales-enterprise/add-product-quote-order-invoice.md)
+#### [Add products to a quote, order, or invoice by using the enhanced experience](add-products-qoi-enhanced.md)
+
+### Forecast management
 #### [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)  
 #### [View a forecast](view-forecasts.md)
 #### [View and understand data through drill-down entities](view-understand-data-through-drill-down.md)
@@ -157,53 +244,88 @@
 #### [Adjust values in a forecast](adjust-values-in-forecast.md)
 #### [Maintain up to date forecast data](keep-forecast-data-up-to-date.md)
 
-## Goal management
-### [Goal settings](../admin/system-settings-dialog-box-goals-tab.md)
-### [Create or edit goals](../sales-enterprise/create-edit-goal-sales.md)
-### [Define a goal metric](../sales-enterprise/create-edit-goal-metric.md)
-### [Define a goal rollup query](../sales-enterprise/create-edit-goal-rollup-query-sales.md)
+### Guided selling
+#### Assistant
+##### [Guide customer communications with assistant](sales/assistant.md)
+##### [Stay updated with cards in assistant](action-cards-reference.md)
+#### Playbook management
+##### [Associate documents with playbook activities](associate-documents-playbook-activities.md)
+##### [Enforce best practices with playbooks](enforce-best-practices-playbooks.md)
+##### [Launch a playbook to carry out activities consistently](launch-playbook.md)  
+##### [Mark playbook as completed](mark-playbook-completed.md)  
+##### [Track playbook activities](track-playbook-activities.md)
 
-## Guided selling
-### Assistant
-#### [Configure the assistant](https://docs.microsoft.com/dynamics365/ai/sales/configure-assistant)
-#### [Guide customer communications with assistant](https://docs.microsoft.com/dynamics365/ai/sales/assistant)
-#### [Stay updated with cards in assistant](https://docs.microsoft.com/dynamics365/ai/sales/action-cards-reference)
-### Playbook management
-#### [Define playbook categories](define-playbook-categories.md)  
-#### [Manage playbook templates](manage-playbook-templates.md) 
-#### [Associate documents with playbook activities](associate-documents-playbook-activities.md)
-#### [Enforce best practices with playbooks](enforce-best-practices-playbooks.md)
-#### [Launch a playbook to carry out activities consistently](launch-playbook.md)  
-#### [Mark playbook as completed](mark-playbook-completed.md)  
-#### [Track playbook activities](track-playbook-activities.md)
+### Campaign management
+#### [Get started with in-app marketing](../sales-enterprise/get-started-app-marketing-sales.md)
+#### [Create a marketing list](../sales-enterprise/create-marketing-list-using-app-marketing-sales.md)  
+#### [Create a quick campaign](../sales-enterprise/create-quick-campaign-using-app-marketing-sales.md)
+#### [Add assets to a campaign](../sales-enterprise/add-marketing-list-sales-literature-product-campaign-using-app-marketing-sales.md)
+#### [Create or edit a campaign](../sales-enterprise/create-edit-campaign-using-app-marketing-sales.md)
+#### [Add an activity to a campaign](../sales-enterprise/add-activity-campaign-using-app-marketing-sales.md)
+#### [Track a marketing campaign response](../sales-enterprise/track-marketing-campaign-response-using-app-marketing-sales.md)
 
-## Reporting
-### PowerBI Templates
-#### [Analyze your sales data using Power BI template apps](introduction-sales-template-apps.md)
-#### [Configure Power BI template apps to work with Dynamics 365 Sales](configure-sales-template-apps.md)
-#### [Customize Power BI template apps for Dynamics 365 Sales](customize-template-apps.md)
-### Enable default reporting
-#### [Add reporting features to your app](/powerapps/maker/model-driven-apps/add-reporting-to-app)
+### Sales premium
 
-## Sales on mobile
-### [Overview](sales-mobile/dynamics-365-sales-mobile-app.md)
-### Administrator guide
-#### [Enable Dynamics 365 Sales mobile](sales-mobile/enable-sales-mobile.md)
-### User guide
-#### Install the app
-##### [Install the app on iOS](sales-mobile/install-ios-app.md)
-##### [Install the app on Android](sales-mobile/install-android-app.md)
-#### [Use the Dynamics 365 Sales mobile app](sales-mobile/use-sales-mobile-app.md)
-#### [Learn the basics](sales-mobile/learn-basics-mobile-app.md)
-#### [View meetings](sales-mobile/view-agenda.md)
-#### [Search records](sales-mobile/search-records.md)
-#### [Manage records](sales-mobile/open-record.md)
-#### [Manage contacts](sales-mobile/create-contact.md)
-#### [Manage notes](sales-mobile/view-edit-add-note.md)
-### [Use Sales Hub on the mobile app](../sales-enterprise/use-sales-hub-on-dynamics-365-mobile.md)
+#### Assistant
+##### [Guide customer communications with assistant](assistant.md)
+##### [Stay updated with cards in assistant](action-cards-reference.md)
 
-### General Data Protection Regulation (GDPR)
-#### [Dynamics 365 Sales & GDPR](../sales-enterprise/dynamics-365-sales-gdpr.md)
+#### Productivity intelligence
+##### [Capture customer related activities with auto capture](auto-capture.md)
+###### [Premium auto capture](premium-auto-capture.md)
+##### [How notes analysis assists you with suggestion](notes-analysis.md)
+	
+#### Relationship insights
+##### [View customer activity history](relationship-analytics.md)
+##### [Know conversation starters for your customers](talking-points.md)
+##### [Get introduced to lead](who-knows-whom.md)
+
+#### Predictive models
+##### [Prioritize leads using predictive scores](work-predictive-lead-scoring.md)
+##### [Prioritize opportunities using predictive scores](work-predictive-opportunity-scoring.md)
+
+#### Premium forecasting
+##### [Analyze revenue outcome using predictive forecasting](analyze-revenue-outcome-using-predictive-forecasting.md)
+##### [Understand forecast projection through trend chart](understand-forecast-projection-through-trend-chart.md)
+##### [Analyze deals flow between snapshots](analyze-deals-flow-between-snapshots.md)
+##### [View snapshots](view-snapshots.md)
+
+#### Sales accelerator
+##### [What is sales accelerator](sales-accelerator-intro.md)
+##### [Prioritize sales pipeline through work list](prioritize-sales-pipeline-through-work-list.md)
+##### [Connect with customers through a record or the up next widget ](connect-with-customers.md)
+
+#### Conversation Intelligence
+##### [Overview of Conversation Intelligence](../sales/dynamics365-sales-insights-app.md)
+##### [View home page](../sales/dynamics365-sales-insights-app-home-page.md)
+##### [View team information](../sales/conversation-intelligence-team-overview.md)
+##### [View seller information](../sales/conversation-intelligence-seller-details.md)
+##### [View and understand call summary](../sales/view-and-understand-call-summary.md)
+##### [Monitor call and insight processing](../sales/monitor-call-insight-processing.md)
+
+### Sales on mobile
+#### [Overview](sales-mobile/dynamics-365-sales-mobile-app.md)
+##### Install the app
+###### [Install the app on iOS](sales-mobile/install-ios-app.md)
+###### [Install the app on Android](sales-mobile/install-android-app.md)
+##### [Use the Dynamics 365 Sales mobile app](sales-mobile/use-sales-mobile-app.md)
+##### [Learn the basics](sales-mobile/learn-basics-mobile-app.md)
+##### [View meetings](sales-mobile/view-agenda.md)
+##### [Search records](sales-mobile/search-records.md)
+##### [Manage records](sales-mobile/open-record.md)
+##### [Manage contacts](sales-mobile/create-contact.md)
+##### [Manage notes](sales-mobile/view-edit-add-note.md)
+#### [Use Sales Hub on the mobile app](../sales-enterprise/use-sales-hub-on-dynamics-365-mobile.md)
+
+
+
+
+## General Data Protection Regulation (GDPR)
+### [Dynamics 365 Sales & GDPR](../sales-enterprise/dynamics-365-sales-gdpr.md)
+### [GDPR for sales premium](../sales/embedded-intelligence-gdpr.md)
+#### [Opt out of relationship analytics (GDPR)](../sales/optout-relationship-analytics-gdpr.md)
+#### [View and export KPI data (GDPR)](../sales/view-export-KPI-data-gdpr.md)
+#### [Retrieve insights data using msdyn_RetrieveKPIValuesForGDPR action](../sales/retrieve-insights-data-msdyn-RetrieveTypeValuesFromDCI.md)
 
 ## Troubleshooting and FAQs
 ### [Dynamics 365 Sales Troubleshooting guide](troubleshooting.md)
@@ -218,18 +340,18 @@
 ### [Troubleshooting the Unified Interface](ts-unified-interface.md)
 ### [Troubleshooting the sales pipeline chart](ts-sales-pipeline.md)
 ### [Troubleshooting email](ts-email.md)
-### [FAQs](faqs-sales.md)
 
-## Integrations
-
-### [Microsoft Teams integration](../teams-integration/teams-integration.md)
-### [Integrate a sample softphone with Dynamics 365 Sales](sample-softphone-integration.md)
+### [Sales FAQs](faqs-sales.md)
+### [Sales premium FAQs](faqs-sales-insights.md)
 
 ## Developer Guide
 
 ### [Resources for developers](../sales-enterprise/developer/developer-guide.md)
+
 ### Sales entities
+
 #### [Sales entities (lead, opportunity, competitor, quote, order, invoice)](../customerengagement/on-premises/developer/sales-entities-lead-opportunity-competitor-quote-order-invoice.md)
+
 #### [Competitor entity](../customerengagement/on-premises/developer/competitor-entity.md)
 #### Lead entity
 ##### [About Lead entity](../customerengagement/on-premises/developer/lead-entity.md)
@@ -351,10 +473,17 @@
 ### Action Reference
 #### [RecalculatePrice Action](../sales-enterprise/developer/reference/recalculateprice-action.md)
 
+### Sales premium
+#### Action Reference
+##### [msdyn_ConnectSequence](developer-sp/msdyn-ConnectSequence-action.md)
+#### Entity Reference
+##### [Entity reference](entity-reference.md)
+##### [msdyn_PredictiveScore](developer-sp/msdyn_predictivescore.md)
+##### [msdyn_PredictiveModelScore](developer-sp/msdyn_predictivemodelscore.md)
+
 ### Troubleshooting
 #### [Custom plugin handling through shared variable](../sales-enterprise/developer/custom-plugin-handling-shared-variable.md)
 
 # Resources for other Sales apps
 ## [Help resources for Dynamics 365 Sales (Professional)](../sales-professional/help-hub.md)
-## [Dynamics 365 Sales Insights](/dynamics365/ai/sales/overview)
 ## [Sales Team Member app for users with Team Member license](sales-team-member.md)
