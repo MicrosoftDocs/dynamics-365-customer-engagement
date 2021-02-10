@@ -4,7 +4,7 @@ description: "Learn about transcripts and how to download them in bulk"
 author: v-sailab
 ms.author: v-sailab
 manager: shujoshi
-ms.date: 02/11/2021
+ms.date: 02/10/2021
 ms.topic: reference
 ms.service: dynamics-365-customerservice
 ---
