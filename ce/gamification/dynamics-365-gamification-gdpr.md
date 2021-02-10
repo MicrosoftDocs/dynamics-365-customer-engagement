@@ -17,6 +17,6 @@ search.app:
   - D365Gamification
 ---
 # Dynamics 365 - Gamification and GDPR
-To access the information or manage data in accordance with GDPR requirements, please open a [support ticket](https://mbs.microsoft.com/customersource/northamerica/CRM/support/support-lifecycle/CRMSupport) with your tenant admin.
+To access the information or manage data in accordance with GDPR requirements, please open a [support ticket](https://docs.microsoft.com/dynamics/s-e/) with your tenant admin.
 
 To know more about GDPR compliance, see [Microsoft Dynamics 365 and GDPR](https://docs.microsoft.com/dynamics365/get-started/gdpr/index).
