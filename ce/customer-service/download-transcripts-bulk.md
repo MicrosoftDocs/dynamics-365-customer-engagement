@@ -45,7 +45,7 @@ You can call the APIs using C# code and then iterate over each of the returned r
 The transcripts you see in the link can contain different kinds of messages:
 - Control Messages
 - System Messages
-- Text message (for example, Hi, Hello, How are you, etc)
+- Text message (for example, Hi, Hello, and How are you)
 - File Attachment metadata
 
 On each of these types of messages you can see a `createdDateTime` field that denotes the exact time at which this message was posted or created.
