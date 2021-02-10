@@ -4,7 +4,7 @@ description: "Instructions on how to configure a Facebook channel in Omnichannel
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 08/07/2020
+ms.date: 02/08/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -61,7 +61,6 @@ After completing the prerequisites, you can add the Facebook channel for your or
 
     - **Application Secret**: Application secret of the Facebook application. To get the application secret, go to your Facebook application, select **Settings** > **Basic**, and copy the value in the **App Secret** field.
 
-    More information about Facebook app: [Setting up your Facebook app](https://developers.facebook.com/docs/messenger-platform/getting-started/app-setup)
 
     > [!div class=mx-imgBorder]
     > ![Register a Facebook application](media/fb-new-app.png "Register a Facebook application")
@@ -111,11 +110,11 @@ After you add a Facebook page, values for **Callback Uri** and **Verify Token** 
 When you create conditions for routing rules, the **Facebook Engagement Context (Conversation)** entity enables you to set the following attributes:
 
   - **Customer name**: The customer name is shown in the format "first name, last name".
-  - **Locale**: For a list of locales, see [Facebook developer documentation](https://developers.facebook.com/docs/messenger-platform/messenger-profile/supported-locales).
+  - **Locale**: For a list of locales, see Facebook developer documentation.
   - **Timezone**: Timezone is shown as a number relative to GMT, for example, “5.5”
   - **User Page Scoped Id**: This is shown as a number string. 
 
-## Step 4: Modify settings for a specific Facebook page 
+## Step 4: Modify settings for a specific Facebook page
 
 1. In the Omnichannel Administration app, go to your Facebook application and select the Facebook page you want to modify. 
 
@@ -129,10 +128,11 @@ When you create conditions for routing rules, the **Facebook Engagement Context 
 
     - **Enable file attachments for agents**: Set to **Yes** to allow agents to send file attachments to customers. Otherwise, set **No**. 
     
-       To learn more about attachments, see [Enable file attachments](enable-file-attachments.md). 
-       
-       To learn more about uploading media in Facebook, see [Facebook developer documentation](https://developers.facebook.com/docs/messenger-platform/send-messages/#sending_attachments).
-    
+    > [!NOTE]
+    >
+    > - To learn more about attachments, see [Enable file attachments](enable-file-attachments.md).
+    > - To learn about uploading media in Facebook, see the Facebook developer documentation. The availability and support of media is dependent on the Facebook application settings. More information: [Facebook updates](https://developers.facebook.com/docs/messenger-platform/europe-updates)
+
     - **Turn on your Facebook human agent message tag**: Set to **Yes** to enable your agents to message customers after 24 hours have passed. When set to **No**, agents will be unable to respond to customers after 24 hours unless the customer sends another message. 
     
       If you enable the Facebook human agent message tag during an active conversation between the agent and customer, the agent must close the conversation and reopen it in order to communicate with customers after 24 hours of inactivity. Agents can initiate conversations with customers for up to 7 days.

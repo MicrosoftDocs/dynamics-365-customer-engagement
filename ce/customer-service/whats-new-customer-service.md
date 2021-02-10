@@ -197,7 +197,7 @@ Using Relevance search mechanism, you can leverage keywords or key phrases in a 
 
 
 ### Service scheduling powered by Universal Resource Scheduling 
-Service scheduling, now built atop Universal Resource Scheduling (URS), provides an efficient way to schedule resources for service activity. It considers the availability of employees, facilities, and equipment to plan schedules accordingly. It also helps to improve service quality by preventing over-scheduling.
+Service scheduling, now built atop Universal Resource Scheduling, provides an efficient way to schedule resources for service activity. It considers the availability of employees, facilities, and equipment to plan schedules accordingly. It also helps to improve service quality by preventing over-scheduling.
 
 To learn more about the new scheduling in Customer Service, see [Service scheduling overview](basics-service-service-scheduling.md).
 
