@@ -1,7 +1,7 @@
 ---
 title: "Qualify or convert leads (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Qualify the lead after you've identified the timeframe, budget, and purchase process of the lead."
-ms.date: 11/09/2020
+ms.date: 02/10/2021
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
@@ -17,7 +17,7 @@ searchScope:
   - Sales
 ---
 
-# Qualify or convert leads (Sales and Sales Hub)
+# Qualify or convert leads (Sales Hub)
 
 Does your lead have what you're looking for and vice versa? After you've identified the timeframe, budget, purchase process, and decision makers for the sale, it's time to qualify your lead. 
 
@@ -52,32 +52,6 @@ You are moved to the next stage in the business process based on the organizatio
 > [!TIP]
 > To qualify multiple leads at once, go to the list of leads, select the leads that you want to qualify, and on the command bar, select **Qualify**.
 
-
-## Qualify a lead (Sales)  
-  
-1. [!INCLUDE[proc_sales_leads](../includes/proc-sales-leads.md)]  
-  
-2. Select the lead you want to qualify.  
-  
-3. In the **Qualify** section of the sales process bar, enter all applicable information.  
-  
-4. Select **Qualify** at the top of the **Lead** form.
-
-5. If you see a prompt to select which records to create when the lead is qualified, select **Yes** for the records that you want to create, and select **OK**.
-
-    ![Select which records to create in the Qualify lead dialog box](media/qualify-lead-dialog-box.png "Select which records to create in the Qualify lead dialog box")
-
-    If you don't see a prompt, qualifying a lead will automatically create an account, contact, and opportunity record. 
-
-    You are moved to the next stage in the business process based on the organization-level setting configured by your system administrator.  
-
-
-    > [!NOTE]
-    > If an opportunity isn't created when qualifying a lead, the business process flow doesn't progress to the next stage although the lead status becomes qualified.
-
-
-> [!TIP]
-> To qualify multiple leads, go to the list of leads, select the leads you want to qualify, and on the command bar, select **Qualify**.
 
 For information on how to resolve the common errors that you may get while you qualify a lead, see the [troubleshooting guide](troubleshooting.md).
 
