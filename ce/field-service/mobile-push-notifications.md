@@ -32,7 +32,7 @@ In this article, we'll show you how to create and customize push notifications t
 
 To use Field Service Mobile push notifications, you'll need:
 
-- Field Service legacy web app v 7.5+ and unified interface framework app v8.3+. 
+- Field Service legacy web app v 7.5+ and Unified Interface framework app v8.3+. 
 - The [mobile configuration tool (Woodford solution)](https://aka.ms/fsmobile-configurator) must be downloaded and imported as a solution in your environment (minimum version 11.1).
 - Field Service Mobile v11.1+ for Windows, iOS, or Android devices. Visit the app's **About** section to check which version you have.
 - Consent for notifications in your device's settings for the **Field Service Mobile** app.
