@@ -70,5 +70,5 @@ Email engagement is enabled and ready to use in your organization.
 
 ### See also
 
-[Introduction to administer Sales Insights](../sales/intro-admin-guide-sales-insights.md)  
+[Introduction to administer Sales Insights](intro-admin-guide-sales-insights.md)  
 [View message interactions with email engagement](email-engagement.md)

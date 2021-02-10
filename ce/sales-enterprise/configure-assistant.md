@@ -141,7 +141,7 @@ Teasers will be disabled in your organization.
 
 ### See also
 
-[Introduction to administer Sales Insights](../sales/intro-admin-guide-sales-insights.md)  
+[Introduction to administer Sales Insights](intro-admin-guide-sales-insights.md)  
 [Create insight cards](create-insight-cards-flow.md)  
 [Edit insight cards](edit-insight-cards.md)  
 [Optimize ranking of insight cards](optimize-ranking-insight-cards.md)  

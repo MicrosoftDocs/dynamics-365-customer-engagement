@@ -296,12 +296,12 @@
 ##### [Connect with customers through a record or the up next widget ](connect-with-customers.md)
 
 #### Conversation Intelligence
-##### [Overview of Conversation Intelligence](../sales/dynamics365-sales-insights-app.md)
-##### [View home page](../sales/dynamics365-sales-insights-app-home-page.md)
-##### [View team information](../sales/conversation-intelligence-team-overview.md)
-##### [View seller information](../sales/conversation-intelligence-seller-details.md)
-##### [View and understand call summary](../sales/view-and-understand-call-summary.md)
-##### [Monitor call and insight processing](../sales/monitor-call-insight-processing.md)
+##### [Overview of Conversation Intelligence](dynamics365-sales-insights-app.md)
+##### [View home page](dynamics365-sales-insights-app-home-page.md)
+##### [View team information](conversation-intelligence-team-overview.md)
+##### [View seller information](conversation-intelligence-seller-details.md)
+##### [View and understand call summary](view-and-understand-call-summary.md)
+##### [Monitor call and insight processing](monitor-call-insight-processing.md)
 
 ### Sales on mobile
 #### [Overview](sales-mobile/dynamics-365-sales-mobile-app.md)
@@ -318,14 +318,12 @@
 #### [Use Sales Hub on the mobile app](../sales-enterprise/use-sales-hub-on-dynamics-365-mobile.md)
 
 
-
-
 ## General Data Protection Regulation (GDPR)
 ### [Dynamics 365 Sales & GDPR](../sales-enterprise/dynamics-365-sales-gdpr.md)
-### [GDPR for sales premium](../sales/embedded-intelligence-gdpr.md)
-#### [Opt out of relationship analytics (GDPR)](../sales/optout-relationship-analytics-gdpr.md)
-#### [View and export KPI data (GDPR)](../sales/view-export-KPI-data-gdpr.md)
-#### [Retrieve insights data using msdyn_RetrieveKPIValuesForGDPR action](../sales/retrieve-insights-data-msdyn-RetrieveTypeValuesFromDCI.md)
+### [GDPR for sales premium](embedded-intelligence-gdpr.md)
+#### [Opt out of relationship analytics (GDPR)]optout-relationship-analytics-gdpr.md)
+#### [View and export KPI data (GDPR)](view-export-KPI-data-gdpr.md)
+#### [Retrieve insights data using msdyn_RetrieveKPIValuesForGDPR action](retrieve-insights-data-msdyn-RetrieveTypeValuesFromDCI.md)
 
 ## Troubleshooting and FAQs
 ### [Dynamics 365 Sales Troubleshooting guide](troubleshooting.md)
