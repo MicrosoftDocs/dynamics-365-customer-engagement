@@ -1,6 +1,31 @@
 {
   "redirections": [
     {
+      "source_path": "ce/portals/walkthrough-get-data-on-portal.md",
+      "redirect_url": "/powerapps/maker/portals/configure/walkthrough-get-data-on-portal",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/portals/create-expose-portal-content.md",
+      "redirect_url": "/powerapps/maker/portals/configure/create-show-portal-content",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/portals/get-started-portal-content-editor.md",
+      "redirect_url": "/powerapps/maker/portals/portal-content-editor",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/portals/publish-content-editing-engine.md",
+      "redirect_url": "/powerapps/maker/portals/use-content-editor",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/portals/create-theme.md",
+      "redirect_url": "/powerapps/maker/portals/edit-css",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/mobile-app/send-email.md",
       "redirect_url": "/dynamics365/sales-enterprise/use-sales-hub-on-dynamics-365-mobile#send-email",
       "redirect_document_id": "false"

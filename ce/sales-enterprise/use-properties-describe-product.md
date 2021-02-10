@@ -1,7 +1,7 @@
 ---
 title: "Use properties to describe a product (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Simplify product management and classification by adding product properties in Dynamics 365 Sales."
-ms.date: 10/01/2019
+ms.date: 02/08/2021
 ms.service: 
   - "dynamics-365-sales"
 ms.custom: 
@@ -27,7 +27,7 @@ A property of a product could be its size, color, component, and so on. You can 
 
 2. Select the site map ![Site Map icon](media/site-map-icon.png "Site map icon"), then select **App Settings**, and then select **Families and Products**.
 
-3. Open the product, bundle, or family you want to add the products for.
+3. Open the product, bundle, or family you want to add the properties for.
 
 3. On the **Product Properties** tab, select **Add New Property**.
 
