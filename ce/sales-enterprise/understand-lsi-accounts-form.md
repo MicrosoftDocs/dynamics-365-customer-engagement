@@ -27,7 +27,7 @@ The **LinkedIn Sales Insights** tab in **Account** records provides information 
   > [!div class="mx-imgBorder"]
   > ![LinkedIn Sales Insights tab persona records](media/lsi-tab-account-personas-records.png "LinkedIn Sales Insights tab persona records")
 
-When CRM sync for LinkedIn Sales Insights is enabled<!--note from editor: You used "enabled" in install-lsi-solution.md-->, LinkedIn Sales Insights for Dynamics 365 brings data from all accounts that are matched in LinkedIn Sales Insights into account records in Dynamics 365.<!--note from editor: Edit okay? Just plain "Dynamics" is off-brand.--> While configuring the data pipeline from LinkedIn, customers have the option to automatically update the data every 24 hours.
+When CRM sync for LinkedIn Sales Insights is enabled, LinkedIn Sales Insights for Dynamics 365 brings data from all accounts that are matched in LinkedIn Sales Insights into account records in Dynamics 365. While configuring the data pipeline from LinkedIn, customers have the option to automatically update the data every 24 hours.
 
 | Entities | Parameter information |
 |----------|-----------------------|
