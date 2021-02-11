@@ -11,18 +11,7 @@ ms.service: dynamics-365-customerservice
 
 # Requirements to use the Voice Channel in Dynamics 365 Customer Service
 
-Dynamics 365 Customer Service vx.x.x
-Omnichannel vx.x.x
 
-ACS vx.x.x
-
-System requirements
-The software and hardware requirements for trying the voice channel in preview are as follows:
-
-Area	Requirement
-Software	Microsoft Edge (Chromium-based is recommended)
-Google Chrome
-Hardware	Microphone and speakers for voice experience
 
 
 

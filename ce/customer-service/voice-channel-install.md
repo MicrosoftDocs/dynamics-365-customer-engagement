@@ -52,17 +52,20 @@ Note: If you choose an environment other than the one you identified for the pri
 8.	Confirm your selections, and then select Finish. The installation begins.
 
 Get the required security roles
+
 After the installation is complete, perform the tasks in Assign roles and enable users for Omnichannel for Customer Service to assign yourself the following security roles:
-•	Common Data Service User
-•	Customer Service Representative
-•	Omnichannel administrator
-•	Omnichannel supervisor
-•	Omnichannel agent
-•	Productivity tools user
-•	Productivity tools administrator
+
+- Common Data Service User
+- Customer Service Representative
+- Omnichannel administrator
+- Omnichannel supervisor
+- Omnichannel agent
+- Productivity tools user
+- Productivity tools administrator
  
 Sign in to Omnichannel admin center (preview) app
 As an administrator, you will perform all configuration and setting up tasks in the Omnichannel admin center (preview) app as follows.
+
 1.	Sign in to Dynamics 365.
 2.	On the Apps page, select Omnichannel admin center (preview) app. The following page appears.
 

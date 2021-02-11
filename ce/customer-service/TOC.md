@@ -202,11 +202,11 @@
 ### Administrator experience
 #### [Requirements](voice-channel-requirements.md) 
 #### [Install and set up](voice-channel-install.md)
-#### [Make and receive your first phone call]()
-#### [Set up workstream and queue for voice]()
-#### [Add conversational IVR bots]()
+#### [Make and receive your first phone call](voice-channel-first-call.md)
+#### [Set up workstream and queue for voice](voice-channel-route-queues.md)
+#### [Add conversational IVR bots](voice-channel-ivr-bots.md)
 #### [Call insights](voice-channel-call-insights.md)
-#### [FAQs]()
+#### [FAQs](voice-channel-faq.md)
 ### Agent experience
 #### [Using the agent dashboard for voice]()
 
