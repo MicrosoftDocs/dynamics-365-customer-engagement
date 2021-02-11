@@ -1,5 +1,5 @@
 ---
-title: Understand and create work streams
+title: Understand and create work streams | MicrosoftDocs
 description: Understand and create work streams in the Omnichannel for Customer Service
 author: neeranelli
 ms.author: nenellim

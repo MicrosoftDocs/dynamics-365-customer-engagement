@@ -60,8 +60,16 @@
 #### [Create and manage queues for conversations](queues-omnichannel.md)
 
 #### Unified routing for cases and conversations
-##### Overview of unified routing
+##### [Overview of unified routing](overview-unified-routing.md)
 ##### Configure work distribution model
+###### [Routing rules for workstreams](routing-workstream-queues.md)
+###### [Set up entity routing]
+###### [Set up routing for converations](set-up-routing-process.md)
+###### [Create workstreams](create-workstreams.md)
+###### [Create queues](create-queues-ur.md)
+
+
+
 
 #### Set up skill-based routing for conversations
 ##### [Overview of skill-based routing](overview-skill-work-distribution.md)
