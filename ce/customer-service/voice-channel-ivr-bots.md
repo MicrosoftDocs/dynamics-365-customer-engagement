@@ -13,6 +13,7 @@ ms.service: dynamics-365-customerservice
 
 
 Step 4: Add conversational IVR with Power Virtual Agents
+
 Conversational IVR bots speak to customers when they call in to route their call to the best department, diagnose issues, collect information, and give recommendations. Using Power Virtual Agents makes it easy to author IVR bots and you can use the same bots for other channels, like chat, for voice too!
 Prerequisites
 A bot is configured in Power Virtual Agents, published, and with the Transfer to Agent configured. More information: Appendix C.
@@ -32,7 +33,7 @@ Perform the following steps to add and configure a bot in Omnichannel for Custom
 3.	Select Save and close. The bot is added to the work stream.
 
 More information:
-•	https://docs.microsoft.com/power-virtual-agents/authoring-template-topics
-•	Create topics and test your bot
-•	Configure hand-off to Omnichannel for Customer Service - Power Virtual Agents | Microsoft Docs (See Appendix C).
-•	See Appendix B for known limitations and workarounds with using Power Virtual Agents as IVR.
+-	https://docs.microsoft.com/power-virtual-agents/authoring-template-topics
+-	Create topics and test your bot
+-	Configure hand-off to Omnichannel for Customer Service - Power Virtual Agents | Microsoft Docs (See Appendix C).
+-	See Appendix B for known limitations and workarounds with using Power Virtual Agents as IVR.
