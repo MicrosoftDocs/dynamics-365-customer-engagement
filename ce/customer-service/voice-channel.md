@@ -18,28 +18,24 @@ https://www.microsoft.com/en-us/videoplayer/embed/RE4G43k]
 
 Customer service organizations will find that voice and telphony communication works well with 
 
-Microsoft announces native Voice channel for Microsoft Dynamics 365 Customer Service. This is to complement Dynamics 365 Omni Channel which now has Voice, Chat, SMS, Whats App and more.
-
-
+This new voice channel for Customer Service enables an all-in-one customer service solution without fragmentation or manual data integration required, and a faster time to value. Our solution provides a single view of the customer that empowers agents to provide personalized service across all channels, and true omnichannel analytics and insights for agents and supervisors alike. Providing organizations with a choice of telephony delivered directly by Microsoft enables quick and easy deployment of a voice channel for their business.
 
 
 
 We are announcing the expansion of Microsoft Dynamics 365 Customer Service omnichannel capabilities to include a new voice channel, built on Microsoft Azure Communication Services. The addition of this channel gives businesses the scale and reliability of the calling platform that powers Microsoft Teams worldwide today. With native voice, businesses receive seamless, end-to-end omnichannel experiences within a single solution, ensuring consistent, personalized, and connected support across all channels of engagement. This end-to-end solution unifies all points of customer interaction data, enabling businesses to simplify and streamline their processes, gain instant insights into trends, and deliver faster resolution from AI-driven assistance—all while ensuring your data remains secure and compliant, backed by the trusted Microsoft cloud.
 
-Typically, customer service organizations must manually integrate standalone telephony and CRM solutions, which result in fragmented experiences for agents and customers across engagement channels. Ultimately, these stitched-together solutions from multiple providers are not only complex to roll out and maintain but create data silos with disconnected insights of customer interactions and agent performance across channels. The addition of the voice channel enables Customer Service to offer businesses a solution that minimizes failure points caused by custom-built, complex integrations, and maximizes the ability to create better customer and agent experiences. This single, holistic solution also makes it easier to scale to meet changing business needs.
+
 
 This new voice channel for Customer Service enables an all-in-one customer service solution without fragmentation or manual data integration required, and a faster time to value. Our solution provides a single view of the customer that empowers agents to provide personalized service across all channels, and true omnichannel analytics and insights for agents and supervisors alike.
 
 This feature enables organizations to adopt Azure Communication Services as a voice provider natively in Omnichannel, and facilitates the following features:
 
 
-
-## Feature details
 - Built on Microsoft Azure Communication Services 
 - Even with the rise of digital channels and self-service, telephony remains a critical channel for contact centers to provide customer support. Most CRM players lack native telephony and only support integrations with telephony providers, also known as CCaaS (Contact Center as a Service) players, through “at the glass” CTI (softphones) widgets. As telephony follows CRM to the cloud, customers are looking to simplify their combined solution. 
 extending our current assets, such as Power Virtual Agent, Intelligent Routing and conversation canvas, we can offer a telephony solution directly within Dynamics OC.  
 
-## Key features
+## Key capabilities
 
 Phone number procurement and management
 Ability to handle and distribute incoming calls
@@ -52,17 +48,13 @@ Real-time translation
 Real-time smart assist suggestions
 Operations management thought supervisor dashboards
 Ability to record and manage phone calls
-
 Call controls: Mute, Hold, End
 Consulting and transferring
 Monitoring and barging
 Integrated customer and case history lookup
 Notes and knowledge search
-Live Transcription
-Sentiment Analysis
-Outbound calling (at GA)
-Transfer to external phone number (at GA)
-Call recording (at GA)
+Transfer to external phone number
+
 
 
 We will enable audio stream from the telephony channel to be directly into the Dynamics 365 Omnichannel data pipeline that exists for digital channels (see diagram below). This will allow us to achieve the following: 
@@ -111,19 +103,40 @@ Create true omnichannel experiences by providing agents will full customer inter
 
 ### Benefits
 
-This new voice channel for Customer Service enables an all-in-one customer service solution without fragmentation or manual data integration required, and a faster time to value. Our solution provides a single view of the customer that empowers agents to provide personalized service across all channels, and true omnichannel analytics and insights for agents and supervisors alike. Providing organizations with a choice of telephony delivered directly by Microsoft enables quick and easy deployment of a voice channel for their business.
-
-- With native voice, businesses receive seamless, end-to-end omnichannel experiences within a single solution, ensuring consistent, personalized, and connected support across all channels of engagement. This end-to-end solution unifies all points of customer interaction data, enabling businesses to simplify and streamline their processes, gain instant insights into trends, and deliver faster resolution from AI-driven assistance—all while ensuring your data remains secure and compliant, backed by the trusted Microsoft cloud.
-
-The voice channel in Dynamics is built on the same secure, planet-scale platform used by Microsoft Teams
-
-Native voice 
+**Native**
 
 Voice should be just another channel in Omnichannel that participates throughout the stack, i.e. Power Virtual Agent for IVR, Unified Routing for ACD, connected agent and supervisor experiences, connected reporting. 
 
-Differentiating AI 
+built along other channels
+
+**Together with all channels**
+
+Typically, customer service organizations must manually integrate standalone telephony and CRM solutions, which result in fragmented experiences for agents and customers across engagement channels. Ultimately, these stitched-together solutions from multiple providers are not only complex to roll out and maintain but create data silos with disconnected insights of customer interactions and agent performance across channels. The addition of the voice channel enables Customer Service to offer businesses a solution that minimizes failure points caused by custom-built, complex integrations, and maximizes the ability to create better customer and agent experiences. This single, holistic solution also makes it easier to scale to meet changing business needs.
+
+**Common data framework**
+
+- need 10 different systems 
+- disconnected channels
+- disconnected data
+
+**Differentiating AI**
 
 We should bring to bear the best demonstrations of real-time and historical voice intelligence from Microsoft. As more CRM companies follow this trend to integrate channels and voice, the use of the data to create insights will be a big differentiator. 
+
+**Reliability**
+reliability of the calling platform that powers Microsoft Teams worldwide today
+The voice channel in Dynamics is built on the same secure, planet-scale platform used by Microsoft Teams
+
+
+
+- With native voice, businesses receive seamless, end-to-end omnichannel experiences within a single solution, ensuring consistent, personalized, and connected support across all channels of engagement. This end-to-end solution unifies all points of customer interaction data, enabling businesses to simplify and streamline their processes, gain instant insights into trends, and deliver faster resolution from AI-driven assistance—all while ensuring your data remains secure and compliant, backed by the trusted Microsoft cloud.
+
+
+
+
+
+
+
 
 Seamless setup 
 
@@ -150,14 +163,9 @@ In this post I will explain how to setup the video calling feature. I will also 
 
 ## Common use cases
 
-- 1. need 10 different systems 
-- disconnected channels
-- disconnected data
 
-- chat to agent
-- calls in, greeted by chat bot and chat bot resolves issue
-- calls in, greeted by chat bot and esclated 
-- calls in and selects 
+
+
 
 ## Agent experience using the Voice channel
 
