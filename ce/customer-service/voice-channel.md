@@ -135,21 +135,10 @@ In this post I will explain how to setup the video calling feature. I will also 
 
 
 
-
-
-## Example organizations
-
-
-
-
-
-## Common use cases
-
-
-
-
-
 ## Agent experience using the Voice channel
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/oc-voice-agent-dashboard.png)
 
 [Agent experience using the voice channel in Dynamics 365 Customer Service](https://microsoft.sharepoint.com/:v:/t/CRMHOME/ua/EcxIBAEagJdKtkFer7rhItYBZJl_iNg-vtinvyAtaPeq3Q?e=W1tbR7)
 
