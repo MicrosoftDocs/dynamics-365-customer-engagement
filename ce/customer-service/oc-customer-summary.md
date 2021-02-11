@@ -36,7 +36,7 @@ The customer summary form contains details specific to an active conversation an
 
 This section provides details like the contact name or account name. For a contact, you can view the location, email, and other details of the contact. For an account, you can view location, telephone number, and primary contact person for the account.
 
-Use the customer section to search for an existing contact or account record in Omnichannel for Customer Service, and select the record to link it to the conversation. If the record doesn't exist, you can create a new contact or account record by using the **+ Add Contact** or **+ Add Account** button, respectively. After you create it, search for the record and then select it to link it to the conversation.
+Use the customer section to search for an existing contact or account record in Omnichannel for Customer Service, and select the record to link it to the conversation. If the record doesn't exist, you can create a new contact or account record by using the **Add Contact** or **Add Account** button, respectively. After you create it, search for the record and then select it to link it to the conversation.
 
 > [!div class='mx-imgBorder']
 > ![Customer profile section in the customer summary form](media/customer-summary-customer-form.PNG "Customer profile section of the Customer summary page")
@@ -50,7 +50,6 @@ The **Conversation summary** section provides detailed information about the con
 - Skills
 - Queue
 - Start time
-
 
   > [!div class='mx-imgBorder']
   > ![Conversation details](media/conversation-details.png "Conversation-details")
@@ -67,7 +66,6 @@ These tabs are described in the following sections.
 ### Pre-chat survey
 
 The **Pre-chat survey** tab displays the customer's answers to the survey questions that were posed by your organization, which helps your interaction with the customer.
-
 
 ### Self service
 

@@ -13,7 +13,7 @@ ms.service: dynamics-365-customerservice
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-Your organization might have a classification where certain agents work in the contact center, which uses Omnichannel for Customer Service on the web and certain agents work in another contact center, which uses model-driven app such as Customer Service Hub. In this case, if you are an agent who works on the model-driven app, and you need to analyze the conversation request from Omnichannel for Customer Service, you can find the information through **Activities** in the model-driven app.
+Your organization might have a classification where certain agents work in the contact center, which uses Omnichannel for Customer Service on the web and certain agents work in another contact center, which uses model-driven app such as Customer Service Hub. In this case, if you are an agent who works on the model-driven app, and you need to analyze the conversation request from Omnichannel for Customer Service, you can find the information through **Activities** in the model-driven app.*
 
 Select the plus icon in the application tab to view the sitemap and select **Activities**.
 
@@ -27,7 +27,7 @@ There will be many activity types, and you need to look for **Conversation** and
 
 ### Conversation activity type
 
-The Conversation activity type displays information about an conversation request.
+The Conversation activity type displays information about a conversation request.
 
 ![Omnichannel conversation form](media/oceh-oc-conversation-form.png "Omnichannel conversation form")  
 

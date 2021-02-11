@@ -4,7 +4,7 @@ description: "Read how you can send custom context to a chat session which can h
 author: v-sailab
 ms.author: v-sailab
 manager: shujoshi 
-ms.date: 11/06/2020
+ms.date: 02/11/2021
 ms.topic: reference
 ms.service: dynamics-365-customerservice
 ---
