@@ -26,6 +26,7 @@
 
 ### Product management
 #### [Set up a product catalog](../sales-enterprise/set-up-product-catalog-walkthrough.md)
+#### [Configure product catalog settings](/sales-enterprise/product-catalog-settings.md)
 #### [Set up products](../sales-enterprise/create-product-sales.md)
 #### [Set up product families](../sales-enterprise/create-product-family.md) 
 #### [Set up product bundles to sell multiple items together](../sales-enterprise/create-product-bundles-sell-multiple-items-together.md)
