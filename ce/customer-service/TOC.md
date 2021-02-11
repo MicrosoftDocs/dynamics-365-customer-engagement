@@ -36,6 +36,7 @@
 ## Get started
 ### [Get started with Customer Service](https://docs.microsoft.com/learn/modules/get-started-with-dynamics-365-for-customer-service/)
 ### [Configure Customer Service](configure-cs.md)
+### [Customer Service admin center](cs-admin-center.md)
 ### [Customer Service Hub](customer-service-hub-user-guide-basics.md)
 ### [Use Customer Service Team Member](customer-service-team-member.md)
 ### [Customer Service workspace](csw-overview.md)
@@ -59,11 +60,11 @@
 
 #### [Create and manage queues for conversations](queues-omnichannel.md)
 
-#### Unified routing for cases and conversations
+#### Unified routing for conversations
 ##### [Overview of unified routing](overview-unified-routing.md)
 ##### Configure work distribution model
 ###### [Routing rules for workstreams](routing-workstream-queues.md)
-###### [Set up entity routing]
+###### Set up entity routing
 ###### [Set up routing for converations](set-up-routing-process.md)
 ###### [Create workstreams](create-workstreams.md)
 ###### [Create queues](create-queues-ur.md)
