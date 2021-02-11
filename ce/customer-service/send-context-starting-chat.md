@@ -1,6 +1,6 @@
 ---
 title: "Manage custom context | Microsoft Docs"
-description: "Read how you can send custom context to a chat session which can help decide which queue to route the chat to."
+description: "Learn how you can send custom context to a chat session that can help decide the queue to route the chat to."
 author: v-sailab
 ms.author: v-sailab
 manager: shujoshi 
@@ -12,9 +12,9 @@ ms.service: dynamics-365-customerservice
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-When a customer initiates a chat from the portal, you can pass custom context to Omnichannel for Customer Service. This custom context can be used for displaying information on the user interface and for creating routing rules, which eventually determine which queue to route the chat to.
+When a customer initiates a chat from your portal, you can pass custom context to Omnichannel for Customer Service. This custom context can be used for displaying information on the user interface and for creating routing rules, which eventually determine which queue to route the chat to.
 
-The custom context is a collection of key or value pairs. Only primitive values are allowed for any key. The keys of custom context must correspond to context variables that are created for the associated work stream in Omnichannel for Customer Service. If no context variables have been created under live work stream with a matching logical name, variables are created at runtime assuming the type as String. The custom context provider would be invoked by live chat widget when starting a new chat. Because the values are case sensitive, use exact match to pass them to the context variables.
+The custom context is a collection of key or value pairs. Only primitive values are allowed for any key. The keys of custom context must correspond to context variables that are created for the associated work stream in Omnichannel for Customer Service. If no context variables have been created under live workstream with a matching logical name, variables are created at runtime assuming the type as String. The custom context provider would be invoked by live chat widget when a new chat is started. Because the values are case sensitive, use exact match to pass them to the context variables.
 
 For information on context variables that can be configured, see [Context variables](context-variables-for-bot.md).
 
@@ -59,8 +59,8 @@ To display the context variables in the Conversation Summary Control for a conve
 
 ### See also
 
-[setContextProvider](developer/reference/methods/setContextProvider.md)<br />
-[getContextProvider](developer/reference/methods/getContextProvider.md)<br />
-[removeContextProvider](developer/reference/methods/removeContextProvider.md)<br />
+[setContextProvider](developer/reference/methods/setContextProvider.md)  
+[getContextProvider](developer/reference/methods/getContextProvider.md)  
+[removeContextProvider](developer/reference/methods/removeContextProvider.md)  
 [JavaScript API reference](developer/omnichannel-reference.md)  
 [Configure context variables for a bot](context-variables-for-bot.md)  
