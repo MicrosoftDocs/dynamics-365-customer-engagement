@@ -16,28 +16,26 @@ ms.service: dynamics-365-customerservice
 The Omnichannel Agent Dashboard is a default view when you sign in to the application. The dashboard displays the following streams:
 
 - My work items
-
 - Open work items
-
 - Closed work items
 
  ![Agent dashboard of Omnichannel for Customer Service app](media/oceh-oc-mydashboard.png "Agent dashboard of Omnichannel for Customer Service app")
 
 ## My work items
 
-In this stream, you see the conversations (work items) that you are actively working on. Select the ellipses and select the **Open** option to open the work item in a session.
+In the **My work items** section, you can see the conversations (work items) that you are actively working on. Select the ellipses and select the **Open** option to open the work item in a session.
 
 ## Open work items
 
-In this stream, you see the conversations (work items) in a open state from all queues in which you are added as a member. Select the ellipses and select the **Assign to me** option to assign the work item to yourself. When you select a work item, you get a notification, and when you accept it, a session starts and customer summary or case page loads. 
+In the **Open work items** section, you can see the conversations (work items) that are in an open state from all queues in which you are added as a member. Select the ellipses and select the **Assign to me** option to assign the work item to yourself. When you select a work item, you get a notification, and when you accept it, a session starts and customer summary or case page loads.
 
-The work item that you picked is moved from the **Open work items** stream to the **My work items** stream. If you reject the request, then the work item remains in the **Open work items** stream.
+The work item that you pick is moved from the **Open work items** section to the **My work items** section. If you reject the request, then the work item remains in the **Open work items** section.
 
 ## Closed work items
 
-In the **Closed work items** stream, you see all the conversations that you've closed on the same day. To view a closed work item, select the ellipsis button (**...**) for it, and then select **Open** to view the details.
+In the **Closed work items** section, you can see all the conversations that you've closed on the same day. To view a closed work item, select the ellipsis button (**...**) for it, and then select **Open** to view the details.
 
-When you open a record from the **Closed work items** stream, you can view the attributes of the conversation record. This will not re-open or re-activate the conversation.
+When you open a record from the **Closed work items** section, you can view the attributes of the closed conversation record. This will not re-open or re-activate the conversation.
 
 ## Sort work items
 

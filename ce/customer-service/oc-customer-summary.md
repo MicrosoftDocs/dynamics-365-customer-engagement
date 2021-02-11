@@ -4,7 +4,7 @@ description: "Customer summary is a page where you can get all available informa
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/22/2020
+ms.date: 02/11/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -29,6 +29,8 @@ Having this information ready can help support agents reduce the hold time that 
 
 > [!div class='mx-imgBorder']
 > ![View Customer summary](media/customer-summary.png "View the Customer summary page")
+
+The customer summary form contains details specific to an active conversation and cannot be viewed for closed conversations. For a closed conversation, you can view details on the closed conversation form that can be accessed from the **Closed work items** section of the agent dashboard.
 
 ## Customer (Contact or Account)
 
