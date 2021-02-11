@@ -1,6 +1,21 @@
 {
   "redirections": [
     {
+      "source_path": "ce/portals/manage-portal.md",
+      "redirect_url": "/powerapps/maker/portals/admin/power-platform-admin-center",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/portals/manage-portal-content.md",
+      "redirect_url": "/powerapps/maker/portals/portal-designer-anatomy",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/portals/configure-portal.md",
+      "redirect_url": "/powerapps/maker/portals/configure/configure-portal",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/portals/walkthrough-get-data-on-portal.md",
       "redirect_url": "/powerapps/maker/portals/configure/walkthrough-get-data-on-portal",
       "redirect_document_id": "false"
