@@ -29,7 +29,7 @@ Marketing updates are [pushed to all customers automatically](https://cloudblogs
 
 ## February 2021 update
 
-Dynamics 365 2021 release wave 1 early access includes rich text functionality in the email editor. February GA features include simplified Marketing settings, a Recovery Items tab for customer journeys and event management, more customization for send now functionality, improved delivery reliability for forms, and monthly bug fixes.
+Dynamics 365 Marketing 2021 release wave 1 early access includes rich text functionality in the email editor. February GA features include simplified Marketing settings, a Recovery Items tab for customer journeys and event management, more customization for send now functionality, improved delivery reliability for forms, and monthly bug fixes.
 
 ### Version number
 
