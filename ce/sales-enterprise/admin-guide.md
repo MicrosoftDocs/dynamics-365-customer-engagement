@@ -2,8 +2,7 @@
 title: "Help resources for admins and sales managers (Dynamics 365 Sales) | MicrosoftDocs"
 description: "A starting point for browsing admin and sales manager content for Dynamics 365 Sales."
 ms.date: 04/22/2020
-ms.service:
-  - "dynamics-365-sales"
+ms.service: dynamics-365-sales
 ms.topic: get-started-article
 author: shubhadaj
 ms.author: shujoshi

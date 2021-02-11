@@ -1,7 +1,7 @@
 ---
 title: "Close opportunities as won or lost (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Close the opportunity to indicate whether it was won or lost."
-ms.date: 10/01/2019
+ms.date: 02/10/2021
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
@@ -10,16 +10,12 @@ ms.author: shujoshi
 manager: annbe
 ---
 
-# Close opportunities as won or lost (Sales and Sales Hub)
+# Close opportunities as won or lost (Sales Hub)
 
 If your customer has accepted your proposal, congratulations! However, whether your customer accepted or declined your proposal, it's now time to close that opportunity.  
   
 1. If you're using the Sales Hub app, in the site map, select **Opportunities**. 
-   
-   OR
-
-   In the Sales module, go to **Sales** > **Opportunities**.
-  
+    
 2. Open the opportunity you want to edit.  
   
 3. At the top of the **Opportunity** form, do one of the following:  
@@ -62,10 +58,6 @@ If you've closed an opportunity as lost, but would like to start discussions abo
 
 1. If you're using the Sales Hub app, in the site map, select **Opportunities**. 
    
-   OR
-
-    In the Sales module, go to **Sales** > **Opportunities**.
-
 2. To see all the closed opportunities, in the view selector, select the **Closed Opportunities** view.  
 
     > [!div class="mx-imgBorder"]  
