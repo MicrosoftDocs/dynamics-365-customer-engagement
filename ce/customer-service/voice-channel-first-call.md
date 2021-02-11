@@ -36,7 +36,6 @@ Try out voice
 4.	Use a phone to initiate a call to the number listed on the Voice call demo page.
 5.	IMPORTANT: In the Omnichannel for Customer Service app, when the call comes in, you may be prompted for microphone permissions. Select Allow on the pop-up window.
 
- 
 6.	Select Accept on the incoming phone call to receive the call as an agent, and try the following through the call controls:
 •	Mute and hold
 •	See live call transcription and sentiment
