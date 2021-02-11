@@ -46,14 +46,22 @@ Real-time sentiment analysis
 Real-time transcription
 Real-time translation
 Real-time smart assist suggestions
+Phone Number Management
 Operations management thought supervisor dashboards
 Ability to record and manage phone calls
 Call controls: Mute, Hold, End
+Music on hold
 Consulting and transferring
 Monitoring and barging
 Integrated customer and case history lookup
 Notes and knowledge search
 Transfer to external phone number
+Post-call Survey
+Automatic Call Distribution (Routing)
+Skills-based Assignment
+Scheduled Callbacks
+Calling controls
+No-code Virtual Agent as IVR
 
 
 
@@ -61,43 +69,13 @@ We will enable audio stream from the telephony channel to be directly into the D
 
 Real-time intelligence for voice: Enriched audio streams from the telephony channel with real-time intelligence powered by Azure Cognitive Services for transcription, sentiment analysis, and agent suggestions. 
 
-Speech-based self-service: NLU-powered IVRs and speech-enabled virtual agents by connecting the telephony channel to Power Virtual Agent for intuitive self-service and seamless elevation to agent-service. PVA bots will be built once and deployed across messaging and voice channels alike. 
+
 
 Intelligent routing for voice: Improve the efficiency of automatic call distribution by directly routing calls to the right agent based on their individual skills, proficiencies, and capacity across all channels. 
 
 Unified insights across channels: Customer insights and conversation intelligence that connect customer interactions over all digital and voice channel by leveraging the digital transcripts and call recordings that are stored in the Common Data Service. 
 
-ACS will bring PSTN Calling
-Bot Framework will bring underlying orchestration framework
-Speech Services will bring Speech-to-Text, Text-to-Speech, and Telephony Channel
-PVA will bring low code IVR authoring
-Omnichannel will bring CCaaS solution
 
-Outbound Calling
-SMS
-No-code Virtual Agent as IVR
-
-Automatic Call Distribution (Routing)
-Skills-based Assignment
-Scheduled Callbacks
-Calling controls
-Music on hold
-Native CRM
-Agent-Assist AI Services
-Call Transfer and Conferencing
-
-Post-call Survey
-Call Recordings
-Conversation dashboards
-Unified channel reporting
-Call insights
-
-
-Number Management
-
-Get visibility into trends across all channels with native voice integration 
-Leverage built-in AI to resolve issues faster with tools like call transcriptions and sentiment analysis 
-Create true omnichannel experiences by providing agents will full customer interaction context no matter where the conversation is initiated
 
 
 
@@ -122,6 +100,10 @@ Typically, customer service organizations must manually integrate standalone tel
 **Differentiating AI**
 
 We should bring to bear the best demonstrations of real-time and historical voice intelligence from Microsoft. As more CRM companies follow this trend to integrate channels and voice, the use of the data to create insights will be a big differentiator. 
+
+Leverage built-in AI to resolve issues faster with tools like call transcriptions and sentiment analysis 
+
+Speech-based self-service: NLU-powered IVRs and speech-enabled virtual agents by connecting the telephony channel to Power Virtual Agent for intuitive self-service and seamless elevation to agent-service. PVA bots will be built once and deployed across messaging and voice channels alike. 
 
 **Reliability**
 reliability of the calling platform that powers Microsoft Teams worldwide today
