@@ -173,7 +173,7 @@ In addition to the [basic scheduling settings described earlier in this article]
 </td><td>
 
 > [!div class="nextstepaction"] 
-> [Next step: Provide viewing permissions](provide-permissions-forecast.md)
+> [Next step: Provide viewing and adjustment privileges](provide-permissions-forecast.md)
 </td></tr>
 </table>
 
