@@ -117,6 +117,8 @@ all while ensuring your data remains secure and compliant, backed by the trusted
 
 Agents receive incoming voice calls the same way they receive other customer requests from channels like SMS and social media. 
 
+A new support session is created when the voice call is accepted. 
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/oc-voice-agent-dashboard.png)
 
