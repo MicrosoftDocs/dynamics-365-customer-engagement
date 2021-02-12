@@ -1,5 +1,5 @@
 ---
-title: "Dashbaord for call insights | MicrosoftDocs"
+title: "Set up workstreams and queues for the voice channel | MicrosoftDocs"
 description: "Introduction to using Omnichannel for Customer Service."
 author: neeranelli
 ms.author: daclar
@@ -9,6 +9,7 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
 
+# Set up workstreams and queues for the voice channel
 
 Step 3: Set up work stream and queue for voice
 A work stream is a collection of routing and work distribution settings. Routing settings define how conversations should be routed to queues. Work distribution settings define how conversations should be allocated to agents within a queue.

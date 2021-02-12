@@ -1,5 +1,5 @@
 ---
-title: "Voice channel in Omnichannel for Customer Service | MicrosoftDocs"
+title: "Add conversational IVR to the voice channel with Power Virtual Agents | MicrosoftDocs"
 description: "Introduction to using Omnichannel for Customer Service."
 author: neeranelli
 ms.author: daclar
@@ -12,7 +12,7 @@ ms.service: dynamics-365-customerservice
 
 
 
-Step 4: Add conversational IVR with Power Virtual Agents
+Step 4: add conversational IVR to the voice channel with Power Virtual Agents
 
 Conversational IVR bots speak to customers when they call in to route their call to the best department, diagnose issues, collect information, and give recommendations. Using Power Virtual Agents makes it easy to author IVR bots and you can use the same bots for other channels, like chat, for voice too!
 Prerequisites

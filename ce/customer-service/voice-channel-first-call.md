@@ -1,5 +1,5 @@
 ---
-title: "Voice channel in Omnichannel for Customer Service | MicrosoftDocs"
+title: "Make and receive your first phone call in the Voice channel | MicrosoftDocs"
 description: "Introduction to using Omnichannel for Customer Service."
 author: neeranelli
 ms.author: daclar
@@ -11,7 +11,7 @@ ms.service: dynamics-365-customerservice
 
 
 
-Step 2: Get your first phone call
+Step 2: Make and receive your first phone call in the Voice channel
 
 When you want to try the voice channel for the first time in your org, the system sets it up for you to have the first-run experience. The tasks in this section take you through the automatic setup steps.
 Note: If you want to run the first phone call with a bot experience, the bot must be configured in Power Virtual Agents, published, and registered in Azure. The bot must be enabled for the environment in which you try the phone call. You might need to sign into Power Virtual Agents and select the right environment. More information: Working with environments in Power Virtual Agents.
