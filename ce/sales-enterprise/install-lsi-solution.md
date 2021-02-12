@@ -12,11 +12,6 @@ manager: shujoshi
 
 # Install or delete the LinkedIn Sales Insights solution
 
-> [!IMPORTANT]
-> - The enhanced experience for the LinkedIn Sales Insights solution is a preview feature. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
-> - [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
-> - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
-
 LinkedIn Sales Insights integration imports the latest company profile data&mdash;such as personas, number of employees, and company URL&mdash;from LinkedIn Sales Insights into a matched account in Dynamics 365 automatically, to help keep your data up to date. Importing this data reduces the manual effort required to match company profiles between the two products, enter the details in Dynamics 365 Sales and frequently update data as LSI updates them.
 
 As an administrator, you can install LinkedIn Sales Insights and make it available for your sales teams to use. When installed, all the accounts that are available in your organization will display the **LinkedIn Sales Insights** tab in **Account** forms. Those accounts that have a matching LinkedIn Sales Insights company profile will show data from LinkedIn Sales Insights.
@@ -31,7 +26,7 @@ Before you install LinkedIn Sales Insights, be sure you meet the following requi
 - You have a **System Administrator** security role in Dynamics 365.
 - You have a [Microsoft Relationship Sales](https://dynamics.microsoft.com/sales/relationship-sales/) subscription for Dynamics 365.    
     or     
-    You've signed up your team for **LinkedIn Sales Navigator Team** or **LinkedIn Sales Navigator Enterprise**. More information: [LinkedIn Sales Solutions](https://business.linkedin.com/sales-solutions)
+    You've signed up your team for **LinkedIn Sales Insights**, **LinkedIn Sales Navigator Team** or **LinkedIn Sales Navigator Enterprise** license. More information: [LinkedIn Sales Solutions](https://business.linkedin.com/sales-solutions)
 
     >[!NOTE]
     >We recommend having a Microsoft Relationship Sales solution Plus license. To learn more, see the Dynamics 365 Sales section in the [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544).

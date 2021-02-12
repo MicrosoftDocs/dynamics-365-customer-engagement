@@ -12,11 +12,6 @@ manager: shujoshi
 
 # Understand the LinkedIn Sales Insights tab
 
-> [!IMPORTANT]
-> - The enhanced experience for the LinkedIn Sales Insights solution is a preview feature. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
-> - [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
-> - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
-
 The **LinkedIn Sales Insights** tab in **Account** records provides information about the company and personas that are defined for the company within LinkedIn Sales Insights. When the solution is installed, two new entities are created in Dynamics 365 Sales:
 
 - LinkedIn Sales Insights Company Profile (one company profile record related to each account)
