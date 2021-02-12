@@ -22,7 +22,7 @@ If the session title is in the format of a telephone number, it isn't possible t
 
 ## Sample softphone widget
 
-In the sample softphone widget, you won't be able to use the Hold, Mute, Dialer pad, and More options buttons. 
+You won't be able to use the Hold, Mute, Dialer pad, and More options buttons in the sample softphone widget.
 
 ## Default sessions for providers
 
