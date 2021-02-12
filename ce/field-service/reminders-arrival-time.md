@@ -109,7 +109,8 @@ To Configure SMS:
 
 ## Step 3: Configure details of the experience
 
-> [!Note] When enabling this experience messages can be sent to Contacts of the Account associated with bookings. If testing in non-production orgs, please ensure your test data does not have real customer email or phone numbers. If your org contains real data you can preventing unnecessary communication by adding accounts to Exclusion Lists.
+> [!Note]
+> When enabling this experience messages can be sent to Contacts of the Account associated with bookings. If testing in non-production orgs, please ensure your test data does not have real customer email or phone numbers. If your org contains real data you can preventing unnecessary communication by adding accounts to Exclusion Lists.
 
 
 Configuration is primarily done from within Field Service Settings > Customer Portal > Customer Portal Settings.
@@ -145,7 +146,9 @@ Branding Options:
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/Settings-Display.jpg)
 
-> [!Note] To upload and update the Portal header image you will need to access the Power Portal Makers website. See [Portal Designer](#portal-designer).
+
+> [!Note]
+> To upload and update the Portal header image you will need to access the Power Portal Makers website. See [Portal Designer](#portal-designer).
 
 
 
@@ -204,6 +207,8 @@ Messages are automatically generated with the following events:
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/15-email-cancel.jpg)
 
+
+> 
 > [!Note] Service Reschedule & Service Cancel messages are only sent if a Reminder message had previously been sent.
 
 
