@@ -116,7 +116,7 @@ To Configure SMS:
 Configuration is primarily done from within Field Service Settings > Customer Portal > Customer Portal Settings.
 
 Key Configuration areas to review include:
-* Enable Notifications: Toggles notifications on or off. See [Notifications](#Notifications).
+* Enable Notifications: Toggles notifications on or off. See [Notifications](#notifications).
 * Reminder Timing: Send Reminder notifications between 0 and 7 days before scheduled booking time.  
     * Setting to 0 will disable reminder notifications, but other notifications will be sent. 
 * Communication Type: Define if your customer will receive Email, SMS or both message types.
@@ -162,7 +162,7 @@ After configuring your portal and enabling notifications, Email and or SMS messa
 Messages are automatically generated with the following events:
 
 - Service Reminder: Reminder messages are sent within 7 days of the scheduled service time. This message will carry the scheduled service time and a link to your portal with basic details including confirmation of service account location shown on a map.
-    * By default Service Reminders will be scheduled to send daily at 10:00 AM UTC for any bookings within your configured time period. This time can be adjusted in Power Automate. See [update reminder timing](#FAQ)
+    * By default Service Reminders will be scheduled to send daily at 10:00 AM UTC for any bookings within your configured time period. This time can be adjusted in Power Automate. See [update reminder timing](#faq)
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/technician-locator-mobile-scheduled.jpg)
 
@@ -316,5 +316,5 @@ A: Yes, we may continue to add new features and enhancements to the Portal. Upda
 
 Q: I don't have a Twilio or O365 Exchange account! Are there other services I can use for messaging?
 
-A: Yes - you can use alterative SMS or Email providers as long as they have connectors supported by D365 Power Automate.  Simply clone the existing [Email and SMS flows](#Step-2:-Configure-Email-&-SMS-connectors-within-Power-Automate), remove the current connectors and add desired connectors.
+A: Yes - you can use alterative SMS or Email providers as long as they have connectors supported by D365 Power Automate.  Simply clone the existing [Email and SMS flows](#step-2-configure-email--sms-connectors-within-power-automate), remove the current connectors and add desired connectors.
 
