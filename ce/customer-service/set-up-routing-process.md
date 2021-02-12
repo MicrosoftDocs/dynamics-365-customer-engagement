@@ -19,7 +19,12 @@ The high-level process to set up unified routing for a channel is as follows:
 2. Set up channels
    - Set up in channels Customer Service admin center
    - Set up channels in Omnichannel Administration
-3. Create a queue for the channel
-4. Choose the assignment method for the queue
+3. Create queues
+4. Choose assignment method for queues
+   -  Set up prioritization method
+   -  Set up assignment rulesets
 5. Create a route-to-queues rule for the work stream
 6. Configure work classification rules and custom assignment methods
+   - Set up work classification rules manually
+   - Set up skill-identification rules manually
+   - Machine learning-based skill idenfitication rules
