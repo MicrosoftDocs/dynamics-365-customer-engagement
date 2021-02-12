@@ -3,7 +3,7 @@ title: "Send customers the technicians' arrival times | MicrosoftDocs"
 description: description
 ms.custom:
 - dyn365-fieldservice
-ms.date: 01/05/2021
+ms.date: 02/12/2021
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.topic: article
