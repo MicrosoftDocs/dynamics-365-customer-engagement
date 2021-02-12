@@ -24,7 +24,7 @@ search.app:
 ---
 # Setup overview for mobile apps
 
-Your users can access their data stored in Microsoft Dataverse or Dynamics 365 Customer Engagement (on-premises) while they're out in the field by using either of the following apps:  
+Your users can access their data stored in Microsoft Dataverse while they're out in the field by using either of the following apps:  
   
 - **[!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)]**: With [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)], you can design your information architecture once and the customizations will automatically flow to all form factors. Much is shared with [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)].  
   
