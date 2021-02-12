@@ -16,7 +16,7 @@ Enable customer service representatives to communicate with customers on the pho
 > [!VIDEO 
 https://www.microsoft.com/en-us/videoplayer/embed/RE4G43k]
 
-While many customers increasingly use chat, SMS text messages, and social media to engage and request support from organizations, phone calls continue to be an important communication channel. The voice channel in Dynamics 365 Customer Service offers a way for customers to speak to service agents and conversational bots to quickly find answers and receive support. The voice channel is a native Microsoft solution built on Microsoft Azure Communication Services with the scale and reliability of the calling platform that powers Microsoft Teams worldwide today; and it's built alongside other channels (Chat, SMS, social media) and requires no additional integrations.
+While many customers increasingly use chat, SMS text messages, and social media to engage and request support from organizations, phone calls continue to be an important communication channel. The voice channel in Dynamics 365 Customer Service offers a way for customers to speak to service agents and conversational bots to quickly find answers and receive support. The voice channel is a native Microsoft solution built on Microsoft Azure Communication Services with the scale and reliability of the calling platform that powers Microsoft Teams worldwide today; and it's built alongside other channels (Chat, SMS, social media) and requires no additional set up or integration outside of Dynamics 365.
 
 
 
