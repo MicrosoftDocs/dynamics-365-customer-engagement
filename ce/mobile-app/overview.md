@@ -25,7 +25,7 @@ search.app:
 
 # Overview of Dynamics 365 for phones and tablets 
 
-Use the Dynamics 365 for phones or Dynamics 365 for tablets app to run customer engagement apps (such as [Dynamics 365 Sales](https://docs.microsoft.com/dynamics365/sales-professional/help-hub), [Dynamics 365 Customer Service](https://docs.microsoft.com/dynamics365/customer-service/help-hub), and [Dynamics 365 Marketing](https://docs.microsoft.com/dynamics365/marketing/help-hub)), on your mobile device. Download the Dynamics 365 mobile app and sign-in to run the same apps that you use in a web browser also work on your mobile device.
+Use the Dynamics 365 for phones or Dynamics 365 for tablets app to run customer engagement apps (such as [Dynamics 365 Sales](https://docs.microsoft.com/dynamics365/sales-professional/help-hub), [Dynamics 365 Customer Service](https://docs.microsoft.com/dynamics365/customer-service/help-hub), and [Dynamics 365 Marketing](https://docs.microsoft.com/dynamics365/marketing/help-hub)), built on Microsoft Dataverse on your mobile device. Download the Dynamics 365 mobile app and sign-in to run the same apps that you use in a web browser also work on your mobile device.
 
 To learn more about Dynamics 365: [What is Dynamics 365?](https://dynamics.microsoft.com/what-is-dynamics365/)
 
