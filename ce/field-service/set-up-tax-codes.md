@@ -14,6 +14,29 @@ search.app:
   - D365CE
   - D365FS
 ---
+# Enabling tax calculation (Field Service)
+
+Starting in Field Service v8.8.39.37, Field Services added a new **Calculate Tax** field in Field Service Settings. By default, for all new installations of Field Service v8.8.39.37 or higher, this field will be set to "No." For many Field Service organizations, the concept of tax calculation is not in important factor because:
+  - The services are not being provided to an external customer.
+  - The tax calculation and application rules are sufficiently complex that they are handled in a related ERP system.
+  
+When an organization needs to calculate tax and the Field Service tax logic is sufficient, set the **Calculate Tax** field to "Yes" for all tax fields to be visible and all calculation logic to be enabled.
+
+When toggled this will hide/show and disable/enable logic for the following tables and fields:
+|Table|	Fields Impacted|
+|------|-------|
+|Work Order|*Taxable, Tax Code, Tax Amount, Subtotal Amount*|
+|Work Order Type|*Taxable*|
+|Work Order Product|*Taxable*|
+|Work Order Service|*Taxable*|
+|Account|*Tax Exempt, Tax Exempt Number, Sales Tax Code*|
+|Agreement|*Taxable, Tax Code*|
+|Purchase Order Bill|*Tax Amount, Tax Code*|
+|Product|*Taxable*|
+|RMA|*Taxable, Tax Code*|
+|RMA Product|*Taxable*|
+|Quote Detail|*Taxable, Tax Code*|
+
 # Set up tax codes (Field Service)
 
 Set up tax codes in Dynamics 365 Field Service and specify how much tax will be applied to your products, agreements, and services.  
