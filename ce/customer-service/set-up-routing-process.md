@@ -14,10 +14,18 @@ ms.service: "dynamics-365-customerservice"
 The high-level process to set up unified routing for a channel is as follows:
 
 1. Create a workstream
-   - Create workstreams in Customer Service admin center
+   - Create workstream
+   - You could access this from CSH or CSAC
+     - entity <user in csh, admin center>
+     - messaging
+       - 
+     - voice
+   
    - Create workstreams in Omnichannel Administration
+   
 2. Set up channels
    - Set up in channels Customer Service admin center
+   
    - Set up channels in Omnichannel Administration
 3. Create queues
 4. Choose assignment method for queues
@@ -28,3 +36,4 @@ The high-level process to set up unified routing for a channel is as follows:
    - Set up work classification rules manually
    - Set up skill-identification rules manually
    - Machine learning-based skill idenfitication rules
+7.
