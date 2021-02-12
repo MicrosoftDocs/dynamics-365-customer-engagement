@@ -43,7 +43,7 @@ There are separate mobile apps for:
 
 
 ## Related topics
-
+[Install Dynamics 365 for phones and tablets](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets)<br/>
 [Dynamics 365 Documentation](https://docs.microsoft.com/dynamics365/)<br/>
 [Microsoft Dataverse Help](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)<br/>
  
