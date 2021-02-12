@@ -4,7 +4,7 @@ description: "Learn how to troubleshoot the issues you may face while working on
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/30/2020
+ms.date: 02/12/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -633,7 +633,7 @@ To delete the solutions, follow these steps:
    - DynamicsUnifiedServiceDesk
    - UiiForMicrosoftDynamicsCRM
       > [!NOTE]
-      > You must the delete the solutions in the following order:
+      > You must delete the solutions in the following order:
       > 1. USDISHCustomization or USDWebClientCustomization
       > 2. USDUnifiedInterfaceCustomization
       > 3. DynamicsUnifiedServiceDesk
@@ -657,5 +657,15 @@ The issue is due to the package deployment failure.
 
 ### Resolution
 
-You must the deploy the Unified Service Desk - Omnichannel for Customer Service package again. To learn more, see [Deploy Unified Service Desk – Omnichannel for Customer Service package](../unified-service-desk/oc-usd/omnichannel-customer-service-package.md#deploy-unified-service-desk---omnichannel-for-customer-service-package).
+You must deploy the Unified Service Desk - Omnichannel for Customer Service package again. To learn more, see [Deploy Unified Service Desk – Omnichannel for Customer Service package](../unified-service-desk/oc-usd/omnichannel-customer-service-package.md#deploy-unified-service-desk---omnichannel-for-customer-service-package).
+
+## Conversation control becomes blank
+
+### Issue
+
+Conversation widget goes blank while swapping between browser tabs in Google Chrome or Chromium-based Microsoft Edge.
+
+### Resolution
+
+Upgrade your browser version as per the system requirements of Dynamics 365 Channel Integration Framework version 2.0. To learn more, see [System requirements](channel-integration-framework/v2/system-requirements-channel-integration-framework-v2.md).
 
