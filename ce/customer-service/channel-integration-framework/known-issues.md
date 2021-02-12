@@ -36,13 +36,13 @@ The framework does not support the capability to synchronize presence across pro
 
 If you have a form open when you expand the communication widget, you will observe that the form flickers. The flickering will be observed only if any of the following conditions apply.
 
--	The form section layout is 4 columns.
--	The form has a web resource which defines the row size to 40 or greater, and also sets the form section layout to 4 columns.
+-	The form section layout is four columns.
+-	The form has a web resource that defines the row size to 40 or greater, and also sets the form section layout to four columns.
 -	Screen size is 23.6 inch or higher.
 
 You will not observe flickering if the form has just one row and if all cells in the row are filled. Also, you will not observe this if there are 4 columns and 4 rows with non-empty cells. Flickering of forms is observed when there are 2 or more rows, with or without empty cells.
 
-The resolution for this is to adjust the screen size.
+The resolution is to adjust the screen size.
 
 
 ## See also

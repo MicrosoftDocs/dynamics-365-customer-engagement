@@ -663,7 +663,7 @@ You must deploy the Unified Service Desk - Omnichannel for Customer Service pack
 
 ### Issue
 
-Conversation widget goes blank while swapping between browser tabs in Google Chrome or Chromium-based Microsoft Edge.
+Conversation widget becomes blank while swapping between browser tabs in Google Chrome or Chromium-based Microsoft Edge.
 
 ### Resolution
 
