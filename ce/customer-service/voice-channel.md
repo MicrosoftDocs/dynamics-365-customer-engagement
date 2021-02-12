@@ -16,23 +16,14 @@ Enable customer service representatives to communicate with customers on the pho
 > [!VIDEO 
 https://www.microsoft.com/en-us/videoplayer/embed/RE4G43k]
 
-Customer service organizations will find that voice and telphony communication works well with 
-
-This new voice channel for Customer Service enables an all-in-one customer service solution without fragmentation or manual data integration required, and a faster time to value. Our solution provides a single view of the customer that empowers agents to provide personalized service across all channels, and true omnichannel analytics and insights for agents and supervisors alike. Providing organizations with a choice of telephony delivered directly by Microsoft enables quick and easy deployment of a voice channel for their business.
 
 
-
-We are announcing the expansion of Microsoft Dynamics 365 Customer Service omnichannel capabilities to include a new voice channel, built on Microsoft Azure Communication Services. The addition of this channel gives businesses the scale and reliability of the calling platform that powers Microsoft Teams worldwide today. With native voice, businesses receive seamless, end-to-end omnichannel experiences within a single solution, ensuring consistent, personalized, and connected support across all channels of engagement. This end-to-end solution unifies all points of customer interaction data, enabling businesses to simplify and streamline their processes, gain instant insights into trends, and deliver faster resolution from AI-driven assistance—all while ensuring your data remains secure and compliant, backed by the trusted Microsoft cloud.
+The voice channel is built on Microsoft Azure Communication Services. The addition of this channel gives businesses the scale and reliability of the calling platform that powers Microsoft Teams worldwide today. With native voice, businesses receive seamless, end-to-end omnichannel experiences within a single solution, ensuring consistent, personalized, and connected support across all channels of engagement. This end-to-end solution unifies all points of customer interaction data, enabling businesses to simplify and streamline their processes, gain instant insights into trends, and deliver faster resolution from AI-driven assistance—all while ensuring your data remains secure and compliant, backed by the trusted Microsoft cloud.
 
 
 
 This new voice channel for Customer Service enables an all-in-one customer service solution without fragmentation or manual data integration required, and a faster time to value. Our solution provides a single view of the customer that empowers agents to provide personalized service across all channels, and true omnichannel analytics and insights for agents and supervisors alike.
 
-
-
-
-
-  
 
 ## Key capabilities
 
@@ -45,7 +36,6 @@ Real-time sentiment analysis
 Real-time transcription
 Real-time translation
 Real-time smart assist suggestions
-Phone Number Management
 Operations management thought supervisor dashboards
 Ability to record and manage phone calls
 Call controls: Mute, Hold, End
@@ -74,6 +64,11 @@ This new voice channel for Customer Service enables an all-in-one customer servi
 
 
 **Together with all channels**
+
+
+The voice channel in Customer Service enables an all-in-one customer service solution without fragmentation or manual data integration required, and a faster time to value. Our solution provides a single view of the customer that empowers agents to provide personalized service across all channels, and true omnichannel analytics and insights for agents and supervisors alike. Providing organizations with a choice of telephony delivered directly by Microsoft enables quick and easy deployment of a voice channel for their business.
+
+Customer service organizations will find that voice communication works well with 
 
 Typically, customer service organizations must manually integrate standalone telephony and CRM solutions, which result in fragmented experiences for agents and customers across engagement channels. Ultimately, these stitched-together solutions from multiple providers are not only complex to roll out and maintain but create data silos with disconnected insights of customer interactions and agent performance across channels. The addition of the voice channel enables Customer Service to offer businesses a solution that minimizes failure points caused by custom-built, complex integrations, and maximizes the ability to create better customer and agent experiences. This single, holistic solution also makes it easier to scale to meet changing business needs.
 
