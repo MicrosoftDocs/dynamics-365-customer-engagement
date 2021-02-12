@@ -60,21 +60,24 @@
 
 #### [Create and manage queues for conversations](queues-omnichannel.md)
 
-#### Unified routing for conversations
-##### [Overview of unified routing](overview-unified-routing.md)
-##### Configure work distribution model
-###### [Routing rules for workstreams](routing-workstream-queues.md)
-###### Set up entity routing
+### Unified routing for conversations
+#### [Overview of unified routing](overview-unified-routing.md)
+#### Configure work distribution model
+##### Set up entity routing
+##### [Routing rules for workstreams](routing-workstream-queues.md)
 ###### [Set up routing for converations](set-up-routing-process.md)
 ###### [Create workstreams](create-workstreams.md)
 ###### [Create queues](create-queues-ur.md)
+###### Configure work classification rules
+####### [Create work classification rulesets](create-rulesets.md)
 
 
 
 
 #### Set up skill-based routing for conversations
 ##### [Overview of skill-based routing](overview-skill-work-distribution.md)
-##### [Enable skill-based routing, rating model](enable-skill-routing-create-rating-model.md)
+##### [Enable skill-based routing, rating model in Omnichannel Administration](enable-skill-routing-create-rating-model.md)
+##### [Enable skill-based routing, rating model in Customer Service admin center](enable-skill-routing-create-rating-model.md)
 ##### [Set up skills, assign agents](setup-skills-assign-agents.md)
 ##### [Attach skills to conversations](attach-skills.md)
 
