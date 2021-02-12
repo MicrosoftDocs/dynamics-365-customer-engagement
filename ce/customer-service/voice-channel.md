@@ -22,6 +22,8 @@ While many customers increasingly use chat, SMS text messages, and social media 
 
 ## Key capabilities
 
+Take a look at some of the key capabilties that makes the voice channel another great way of interacting with customers.
+
 - Phone number procurement and management
 - Ability to handle and distribute incoming calls
 - Ability to make outbound calls
