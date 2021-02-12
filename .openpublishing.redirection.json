@@ -20964,6 +20964,11 @@
       "source_path": "ce/customer-service/associate-templates.md",
       "redirect_url": "../app-profile-manager/associate-templates",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/developer/personalized-calendar-content.md",
+      "redirect_url": "marketing-developer-guide",
+      "redirect_document_id": false
     }
   ]
 }
