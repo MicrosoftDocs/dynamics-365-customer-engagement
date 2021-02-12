@@ -82,7 +82,11 @@ extending our current assets, such as Power Virtual Agent, Intelligent Routing a
 
 Microsoft’s Omnichannel for Customer Service allows us to escalate web chat conversations to voice and video calls, this is a great feature when conversations become complex and a chat conversation is simply more long winded than a voice call.
 
+ensuring consistent, personalized, and connected support across all channels of engagement
+
 **Common data framework**
+
+This end-to-end solution unifies all points of customer interaction data, enabling businesses to simplify and streamline their processes, gain instant insights into trends, and deliver faster resolution from AI-driven assistance
 
 need 10 different systems 
 - disconnected channels
@@ -102,12 +106,16 @@ The voice channel in Dynamics is built on the same secure, planet-scale platform
 
 - Built on Microsoft Azure Communication Services 
 
-- With native voice, businesses receive seamless, end-to-end omnichannel experiences within a single solution, ensuring consistent, personalized, and connected support across all channels of engagement. This end-to-end solution unifies all points of customer interaction data, enabling businesses to simplify and streamline their processes, gain instant insights into trends, and deliver faster resolution from AI-driven assistance—all while ensuring your data remains secure and compliant, backed by the trusted Microsoft cloud.
+all while ensuring your data remains secure and compliant, backed by the trusted Microsoft cloud.
+
+
 
 
 
 
 ## Agent experience using the Voice channel
+
+Agents receive incoming voice calls the same way they receive other customer requests from channels like SMS and social media. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/oc-voice-agent-dashboard.png)
