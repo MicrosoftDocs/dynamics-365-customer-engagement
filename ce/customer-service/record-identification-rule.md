@@ -22,7 +22,7 @@ For more information, see [View Customer summary for an incoming engagement requ
 > [!NOTE]
 > To know how to create pre-chat questions and use them in a pre-chat survey, see [Configure a pre-chat survey](configure-pre-chat-survey.md). 
 
-Use the below question names to create pre-chat questions for an **Unauthenticated chat**.
+Use the below question names to create pre-chat questions for an unauthenticated chat.
 
 |Entity   |     Mapping    | Answer type |
 |---------|----------------|-------------|
@@ -30,7 +30,7 @@ Use the below question names to create pre-chat questions for an **Unauthenticat
 | Contact | Question context key: **Name** <br> Attribute logical name: **fullname** <br><br> Question context key: Email <br> Attribute logical name: **emailaddress1** <br><br> Question context key: Phone <br> Attribute logical name: **telephone1** |Single line | 
 | Incident | 	Question context key: **CaseNumber** <br> Attribute logical name: **ticketnumber** |Single line | 
 
-For **Authenticated chat**, the logged in user details will be used to search and load contact information in the **Customer summary** page. You can add pre-chat question for **Case Number** to allow identification of the relevant case for the current conversation.
+For authenticated chat, the logged in user details will be used to search and load contact information in the **Customer summary** page. You can add pre-chat question for **Case Number** to allow identification of the relevant case for the current conversation. The pre-chat questions pertaining to contact or account, such as the name, email, and phone number will not be considered for identification.
 
 |Entity   |     Mapping    | Answer type |
 |---------|----------------|-------------|
