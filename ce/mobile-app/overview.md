@@ -36,7 +36,8 @@ There are separate mobile apps for:
 - Power Apps mobile: [Run model-driven apps and canvas apps on Power Apps mobile](https://docs.microsoft.com/powerapps/mobile/run-powerapps-on-mobile)
 - Dynamics 365 Field Service: [Field Service mobile app](https://go.microsoft.com/fwlink/?linkid=846157)
 - [Field Service (Dynamics 365) mobile app](https://docs.microsoft.com/dynamics365/field-service/mobile-power-app-overview) 
-- [Dynamics 365 for phones and tablets app for Dynamics 365 Customer Engagement (on-premises) apps](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/dynamics-365-phones-tablets-users-guide-onprem)
+- Finance and Operations applications: [Finance and Operations mobile app](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-app-home-page) 
+- Dynamics 365 Customer Engagement (on-premises) apps: [Dynamics 365 for phones and tablets app for Dynamics 365 Customer Engagement (on-premises) apps](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/dynamics-365-phones-tablets-users-guide-onprem)
 
 > [!NOTE]
 > Users on the Dynamics 365 phones and tablets app can now migrate the Power Apps mobile app: [Migrate from Dynamics 365 phones and tablets app to the Power Apps mobile app](https://docs.microsoft.com/dynamics365/mobile-app/migration).
