@@ -201,6 +201,7 @@
 ### [AI for IoT alerts](iot-alerts-ai-based-suggestions.md)
 
 ## Take action
+### [IoT Alerts](cfs-iot-alerts.md)
 ### [Connected Field Service on mobile](cfs-mobile-powerapp.md)
 ### [Send commands](cfs-commands.md)
 ### [Receive IoT alerts from real MXChip device](cfs-iotcentral-mxchip.md)
