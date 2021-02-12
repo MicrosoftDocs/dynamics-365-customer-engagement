@@ -43,13 +43,12 @@ To do this, install the Dynamics 365 for phones or tablets mobile app on your iO
 To install the app see, [Install the app from your device’s app store](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets#install-the-app-from-your-devices-app-store).
 
 > [!IMPORTANT]
-> Effective April 2021, the [Microsoft Dynamics 365 app for Windows](https://go.microsoft.com/fwlink/?linkid=838618) that lets you run customer engagement apps (such as Dynamics 365 Sales, Dynamics 365 Customer Service, and Dynamics 365 Marketing) is deprecated. Microsoft will continue to provide security and other critical updates for the [Microsoft Dynamics 365 app for Windows](https://go.microsoft.com/fwlink/?linkid=838618) until January 29, 2021, but will not release any additional features or functionalities for the app. After April 1, 2021, the app will be removed from the Microsoft Store, and it will not be supported. For more information see, [The Microsoft Dynamics 365 application for Windows is deprecated](https://docs.microsoft.com/power-platform/important-changes-coming#the-microsoft-dynamics-365-application-for-windows-is-deprecated).
+> Effective April 2021, the [Microsoft Dynamics 365 app for Windows](https://go.microsoft.com/fwlink/?linkid=838618) that lets you run customer engagement apps (such as Dynamics 365 Sales, Dynamics 365 Customer Service, and Dynamics 365 Marketing) is deprecated. For more information see, [The Microsoft Dynamics 365 application for Windows is deprecated](https://docs.microsoft.com/power-platform/important-changes-coming#the-microsoft-dynamics-365-application-for-windows-is-deprecated).
 
-   
 
 ## Supported tablets to run customer engagement apps in your web browser 
 
-For full functionality and optimized experience, we strongly recommend that you use the Dynamics 365 for phones and tablets mobile app. If you don't have the Dynamics 365 for phones and tablets app installed, you can still use the web browser on your tablet to run your apps. 
+For full functionality and optimized experience, we strongly recommend that you use the Dynamics 365 mobile app. If you don't have the Dynamics 365 mobile app installed, you can still use the web browser on your tablet to run your apps. 
 
 > [!NOTE]
 > Using the web browser on your phone to run your customer engagement apps is not supported; you must use the Dynamics 365 for phones app. 
