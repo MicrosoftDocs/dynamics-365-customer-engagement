@@ -92,7 +92,7 @@ In the Dynamics 365 LinkedIn 3.x solution, only the PointDrive label is changed 
    > [!div class="mx-imgBorder"]
    > ![Smart Links Content Viewed confirmation on the timeline](media/faq-smart-links-content-viewed-confirmation.png "Smart links Content Viewed confirmation on the timeline")     
 
-<a name="smart-links-activity-labelled-pointdrive"> </a>
+<a name="show-smart-links-activity-on-timeline"> </a>
 **How can I show a Smart Links activity on the timeline?**    
 
 **Answer:**    
