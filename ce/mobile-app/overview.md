@@ -32,7 +32,6 @@ Use the Dynamics 365 for phones or Dynamics 365 for tablets app to run customer 
 ## Other mobile apps
 
 There are separate mobile apps for:
-- Use Dynamics 365 for phones and tablets to run Dynamics 365 Customer Engagement (on-premises) apps(such as Dynamics 365 Sales, Dynamics 365 Customer Service, and Dynamics 365 Marketing): [Dynamics 365 for phones and tablets](https://docs.microsoft.com/dynamics365/mobile-app/user-guide-mobile-app)
 - Power Apps mobile: [Run model-driven apps and canvas apps on Power Apps mobile](https://docs.microsoft.com/powerapps/mobile/run-powerapps-on-mobile)
 - Dynamics 365 Field Service: [Field Service mobile app](https://go.microsoft.com/fwlink/?linkid=846157)
 - [Field Service (Dynamics 365) mobile app](https://docs.microsoft.com/dynamics365/field-service/mobile-power-app-overview) 
