@@ -46,7 +46,7 @@ To install the app see, [Install the app from your device’s app store](https:/
 
 For full functionality and optimized experience, we strongly recommend that you use the Dynamics 365 mobile app. If you don't have the Dynamics 365 mobile app installed, you can  use the web browser on your tablet to run your apps as long as your device has sufficiently high screen resolution
 
-> [!NOTE]
+> [!IMPORTANT]
 > You can't use the browser on your moible phone to run your customer engagement apps is not supported on phones; you must use the Dynamics 365 for mobile app.
 
 
@@ -136,7 +136,9 @@ When the application first loads after installation, it will determine the devic
 
 ## Deprecated and unsupported platforms
 
-- Effective April 2021, the [Microsoft Dynamics 365 app for Windows](https://go.microsoft.com/fwlink/?linkid=838618) that lets you run customer engagement apps (such as Dynamics 365 Sales, Dynamics 365 Customer Service, and Dynamics 365 Marketing) is deprecated. For more information see, [The Microsoft Dynamics 365 application for Windows is deprecated](https://docs.microsoft.com/power-platform/important-changes-coming#the-microsoft-dynamics-365-application-for-windows-is-deprecated).
+- Effective April 2021, the old [Microsoft Dynamics 365 app for Windows](https://go.microsoft.com/fwlink/?linkid=838618) that lets you run customer engagement apps (such as Dynamics 365 Sales, Dynamics 365 Customer Service, and Dynamics 365 Marketing) is deprecated. For more information see, [The Microsoft Dynamics 365 application for Windows is deprecated](https://docs.microsoft.com/power-platform/important-changes-coming#the-microsoft-dynamics-365-application-for-windows-is-deprecated).
+  > [!NOTE]
+  > There is a new app for Windows: [Basic navigation for Dynamics 365 (Preview) app for Windows](https://docs.microsoft.com/en-us/dynamics365/mobile-app/windows-mobile-app). 
 
 - As of April 1, 2021, the mobile app will no longer support iOS 11, Android 6 and Android 7.0. The minimum Android version will be 7.1.1 and the minimum iOS version will be 12.4.9.
 
