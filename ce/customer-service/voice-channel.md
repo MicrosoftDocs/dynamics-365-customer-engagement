@@ -128,6 +128,7 @@ A new support session is created when the voice call is accepted.
 
 1. [Install and set up](voice-channel-install.md)
 2. [Make and receive your first phone call](voice-channel-first-call.md)
+3. [Using the agent dashboard for voice](voice-channel-agent-experience.md)
 
 ### See also
 
