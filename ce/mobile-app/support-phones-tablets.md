@@ -47,7 +47,7 @@ To install the app see, [Install the app from your device’s app store](https:/
 For full functionality and optimized experience, we strongly recommend that you use the Dynamics 365 mobile app. If you don't have the Dynamics 365 mobile app installed, you can  use the web browser on your tablet to run your apps as long as your device has sufficiently high screen resolution
 
 > [!NOTE]
-> You can't use the browser on your moible phone to run your customer engagement apps is not supported; you must use the Dynamics 365 for mobile app.
+> You can't use the browser on your moible phone to run your customer engagement apps is not supported on phones; you must use the Dynamics 365 for mobile app.
 
 
 ## Supported tablets to use the web browser
