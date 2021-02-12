@@ -116,12 +116,12 @@ To Configure SMS:
 Configuration is primarily done from within Field Service Settings > Customer Portal > Customer Portal Settings.
 
 Key Configuration areas to review include:
-* Enable Notifications: Toggles notifications on or off. See [Notifications](#notifications).
-* Reminder Timing: Send Reminder notifications between 0 and 7 days before scheduled booking time.  
+* **Enable Notifications**: Toggles notifications on or off. See [Notifications](#notifications).
+* **Reminder Timing**: Send Reminder notifications between 0 and 7 days before scheduled booking time.  
     * Setting to 0 will disable reminder notifications, but other notifications will be sent. 
-* Communication Type: Define if your customer will receive Email, SMS or both message types.
-* Show Resource Details: When in traveling state the customer will see the resource name and photo as configured in CRM. 
-* Exclusion lists: These lists allow you to exclude specific Service Accounts or Service Types from all messaging.
+* **Communication Type**: Define if your customer will receive Email, SMS or both message types.
+* **Show Resource Details**: When in traveling state the customer will see the resource name and photo as configured in CRM. 
+* **Exclusion lists**: These lists allow you to exclude specific Service Accounts or Service Types from all messaging.
     * Service Accounts
     * Service Types
 
