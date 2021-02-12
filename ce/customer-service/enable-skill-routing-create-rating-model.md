@@ -21,7 +21,7 @@ Procedure to create ruleset manually
 
 ### ML-based skill identification ruleset
 
-Procedure to create ruleset using ML
+*Procedure to create ruleset using ML*
 
 
 
