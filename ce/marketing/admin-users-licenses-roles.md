@@ -19,7 +19,7 @@ search.app:
   - D365Mktg
 ---
 
-# Manage user accounts, licenses, and roles
+# Manage user accounts, user licenses, and security roles
 
 Read this topic to learn how to work with user accounts, user licenses, and security roles in Dynamics 365 Marketing.
 
