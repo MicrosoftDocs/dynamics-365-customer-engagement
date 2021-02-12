@@ -343,7 +343,7 @@ By default, the keyboard shortcuts for zoom in, zoom out, and zoom reset are as 
 | Function | Keyboard shortcut | Example |
 |----------|------------|-----------|
 | Zoom in |`Ctrl` + `Oemplus`| **Ctrl**+**Plus sign (+)** |
-| Zoom out |`Ctrl` + `OemMinus`| **Ctrl**+**Hyphen (-)**`|
+| Zoom out |`Ctrl` + `OemMinus`| **Ctrl**+**Hyphen (-)**|
 | Zoom reset |`Ctrl` + `0`| **Ctrl**+**0**|
 
 To add keyboard shortcuts, you must add the UII options and provide the character as the value. To learn about the allowed set of character values, go to [Keys](https://docs.microsoft.com/dotnet/api/system.windows.forms.keys?view=netframework-4.7.2#fields).
