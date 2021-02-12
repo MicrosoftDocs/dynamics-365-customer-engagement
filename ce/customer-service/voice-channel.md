@@ -11,18 +11,13 @@ ms.service: dynamics-365-customerservice
 
 # Introduction to the Voice channel 
 
-Enable customer service representatives to communicate with customers on the phone to resolve issues with the native voice channel in Dynamics 365 Customer Service. 
+Enable customer service representatives to communicate with customers on the phone to resolve issues with the voice channel in Dynamics 365 Customer Service. 
 
 > [!VIDEO 
 https://www.microsoft.com/en-us/videoplayer/embed/RE4G43k]
 
+While many customers increasingly use chat, SMS text messages, and social media to engage and request support from organizations, phone calls continue to be an important communication channel. The voice channel in Dynamics 365 Customer Service offers a way for customers to speak to service agents and conversational bots to quickly find answers and receive support. The voice channel is a native Microsoft solution built on Microsoft Azure Communication Services with the scale and reliability of the calling platform that powers Microsoft Teams worldwide today; and it's built alongside other channels (Chat, SMS, social media) and requires no additional integrations.
 
-
-The voice channel is built on Microsoft Azure Communication Services. The addition of this channel gives businesses the scale and reliability of the calling platform that powers Microsoft Teams worldwide today. With native voice, businesses receive seamless, end-to-end omnichannel experiences within a single solution, ensuring consistent, personalized, and connected support across all channels of engagement. This end-to-end solution unifies all points of customer interaction data, enabling businesses to simplify and streamline their processes, gain instant insights into trends, and deliver faster resolution from AI-driven assistance—all while ensuring your data remains secure and compliant, backed by the trusted Microsoft cloud.
-
-
-
-This new voice channel for Customer Service enables an all-in-one customer service solution without fragmentation or manual data integration required, and a faster time to value. Our solution provides a single view of the customer that empowers agents to provide personalized service across all channels, and true omnichannel analytics and insights for agents and supervisors alike.
 
 
 ## Key capabilities
@@ -88,6 +83,8 @@ need 10 different systems
 - disconnected data
 
 **Differentiating AI**
+
+This end-to-end solution unifies all points of customer interaction data, enabling businesses to simplify and streamline their processes, gain instant insights into trends, and deliver faster resolution from AI-driven assistance—all while ensuring your data remains secure and compliant, backed by the trusted Microsoft cloud.
 
 We should bring to bear the best demonstrations of real-time and historical voice intelligence from Microsoft. As more CRM companies follow this trend to integrate channels and voice, the use of the data to create insights will be a big differentiator. 
 
