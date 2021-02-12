@@ -1,10 +1,10 @@
 ---
-title: Automatically identify customers using pre-chat responses and setContext API method | MicrosoftDocs
-description: See how you can Automatically identify customers using pre-chat responses in the Omnichannel for Customer Service
+title: "Automatically identify customers using pre-chat responses and setContext API method | MicrosoftDocs"
+description: "How you can automatically identify customers using pre-chat responses in Omnichannel for Customer Service"
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 02/14/2020
+ms.date: 02/12/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -28,13 +28,15 @@ Use the below question names to create pre-chat questions for an unauthenticated
 |---------|----------------|-------------|
 | Account |	Question context key: **Name** <br> Attribute Logical Name: **name** <br><br> Question context key: **Email** <br> Attribute logical name: **emailaddress1** <br><br> Question context key: Phone <br> Attribute logical name: **telephone1** | Single line | 
 | Contact | Question context key: **Name** <br> Attribute logical name: **fullname** <br><br> Question context key: Email <br> Attribute logical name: **emailaddress1** <br><br> Question context key: Phone <br> Attribute logical name: **telephone1** |Single line | 
-| Incident | 	Question context key: **CaseNumber** <br> Attribute logical name: **ticketnumber** |Single line | 
+| Incident | 	Question context key: **CaseNumber** <br> Attribute logical name: **ticketnumber** |Single line |
+||||
 
 For authenticated chat, the logged in user details will be used to search and load contact information in the **Customer summary** page. You can add pre-chat question for **Case Number** to allow identification of the relevant case for the current conversation. The pre-chat questions pertaining to contact or account, such as the name, email, and phone number will not be considered for identification.
 
 |Entity   |     Mapping    | Answer type |
 |---------|----------------|-------------|
-| Incident | 	Question context key: **CaseNumber** <br> Attribute logical name: **ticketnumber** |Single line | 
+| Incident | 	Question context key: **CaseNumber** <br> Attribute logical name: **ticketnumber** |Single line |
+|||
 
 ## Use the setContextProvider API method
 
