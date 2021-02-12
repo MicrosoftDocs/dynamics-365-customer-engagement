@@ -84,7 +84,7 @@ Microsoft’s Omnichannel for Customer Service allows us to escalate web chat co
 
 **Common data framework**
 
-- need 10 different systems 
+need 10 different systems 
 - disconnected channels
 - disconnected data
 
