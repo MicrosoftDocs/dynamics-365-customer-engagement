@@ -14,7 +14,11 @@ search.app:
   - D365CE
   - D365FS
 ---
-# Enabling tax calculation in Dynamics 365 Field Service
+# Tax codes in Dynamics 365 Field Service
+
+Set up tax codes in Dynamics 365 Field Service and specify how much tax will be applied to your products, agreements, and services.  
+  
+## Enabling tax calculation in Dynamics 365 Field Service
 
 Field Service v8.8.39.37 introduced the **Calculate Tax** field in **Field Service Settings**. By default, for all new installations of Field Service v8.8.39.37 or higher, this field will be set to **No**. For many Field Service organizations, tax calculation is not an important factor because:
 
@@ -39,10 +43,8 @@ When toggled, this will hide/show and disable/enable logic for the following tab
 |RMA Product|*Taxable*|
 |Quote Detail|*Taxable*, *Tax Code*|
 
-# Set up tax codes (Field Service)
+## Set up tax codes
 
-Set up tax codes in Dynamics 365 Field Service and specify how much tax will be applied to your products, agreements, and services.  
-  
 Each tax code may contain multiple child tax codes; in that case, the tax rate will be determined by the total of all children.  
   
 If an area has more than one type of tax, for example, state and county tax, then use the **Tax Group** option to combine several tax codes into one group.  
