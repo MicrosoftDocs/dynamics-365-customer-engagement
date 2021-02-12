@@ -21,4 +21,10 @@ During the assignment phase, the service requests are prioritized and then assig
 
 For instance, an organization receiving an incoming chat will add information on the work item, like skills required, urgency level, category of customer, and importance level in the classification stage, based on certain conditions that are met as part of the configured rules. In assignment stage, an organization might want to first prioritize the incoming chats based on highest urgency level and importance, and then assign them to the agents by matching the skills required, current workload status, and availability.
 
+## Common business scenarios
+
+## How routing works in unified routing compared to basic routing
+
+## Routing for all channels
+
 ### See also

@@ -13,7 +13,7 @@ ms.service: dynamics-365-customerservice
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-## Enable skill-based routing in Customer Service admin center
+## Enable skill-based routing in Customer Service admin center<a name="sbr-cs-admin"></a>
 
 ### Manual skill identification ruleset
 
@@ -23,7 +23,9 @@ Procedure to create ruleset manually
 
 Procedure to create ruleset using ML
 
-## Enable skill-based routing in Omnichannel Administration
+
+
+## Enable skill-based routing in Omnichannel Administration<a name="sbr-oc-admin"></a>
 
 To use skill-based routing, as an administrator, you must enable skill-based routing in the Omnichannel Administration app.
 
