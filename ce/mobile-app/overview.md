@@ -31,10 +31,12 @@ Use the Dynamics 365 for phones app or Dynamics 365 for tablets to run customer 
 
 ## Other mobile apps
 
-Depending on the app that you're using there is other mobile apps for the sepecif Dynamic 365 app that you're using.
+Depending on the app that you're using there are other app specific mobile apps
 
 - [Field Service (Dynamics 365) mobile app](https://docs.microsoft.com/dynamics365/field-service/mobile-power-app-overview) 
-- Users on the Dynamics 365 phones and tablets app can now use the Power Apps mobile app: [Migrate from Dynamics 365 phones and tablets app to the Power Apps mobile app](https://docs.microsoft.com/dynamics365/mobile-app/migration).
+- [Power Apps moible](https://docs.microsoft.com/powerapps/mobile/run-powerapps-on-mobile)
+
+Users on the Dynamics 365 phones and tablets app can migrate the Power Apps mobile app: [Migrate from Dynamics 365 phones and tablets app to the Power Apps mobile app](https://docs.microsoft.com/dynamics365/mobile-app/migration).
 
 
 
