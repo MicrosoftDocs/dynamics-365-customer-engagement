@@ -22,30 +22,30 @@ While many customers increasingly use chat, SMS text messages, and social media 
 
 ## Key capabilities
 
-Phone number procurement and management
-Ability to handle and distribute incoming calls
-Ability to make outbound calls
-Ability to manage SMS (inbound and outbound)
-Deep integration of voice into core Omnichannel functionality
-Real-time sentiment analysis
-Real-time transcription
-Real-time translation
-Real-time smart assist suggestions
-Operations management thought supervisor dashboards
-Ability to record and manage phone calls
-Call controls: Mute, Hold, End
-Music on hold
-Consulting and transferring
-Monitoring and barging
-Integrated customer and case history lookup
-Notes and knowledge search
-Transfer to external phone number
-Post-call Survey
-Automatic Call Distribution (Routing)
-Skills-based Assignment
-Scheduled Callbacks
-Calling controls
-No-code Virtual Agent as IVR
+- Phone number procurement and management
+- Ability to handle and distribute incoming calls
+- Ability to make outbound calls
+- Ability to manage SMS (inbound and outbound)
+- Deep integration of voice into core Omnichannel functionality
+- Real-time sentiment analysis
+- Real-time transcription
+- Real-time translation
+- Real-time smart assist suggestions
+- Operations management thought supervisor dashboards
+- Ability to record and manage phone calls
+- Call controls: Mute, Hold, End
+- Music on hold
+- Consulting and transferring
+- Monitoring and barging
+- Integrated customer and case history lookup
+- Notes and knowledge search
+- Transfer to external phone number
+- Post-call Survey
+- Automatic Call Distribution (Routing)
+- Skills-based Assignment
+- Scheduled Callbacks
+- Calling controls
+- No-code Virtual Agent as IVR
 
 
 ### Benefits
