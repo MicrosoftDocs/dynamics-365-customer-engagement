@@ -107,7 +107,7 @@ If you've properly configured CRM sync and activity writeback, the Smart Links a
 5. In the **Activities Tab Properties** window, under **Unified Interface Properties (New)** tab, select the **Activities** tab.     
 6. In the **Filter By** section, select the following options:    
    - From the **Show these activities** list, select **Show selected**.
-   - From the options<!--note from editor: What does "from the options" mean here? Will the reader know? (Note that the style guide wants us to use "select" even for keyboard keys like the Ctrl key.)-->, select **Ctrl**, and then select the **Smart Links Content Viewed** activity.    
+   - From the options, select the **Ctrl** key, and then select the **Smart Links Content Viewed** activity.    
    > [!div class="mx-imgBorder"]
    > ![Select options to show Smart Links activities](media/faq-select-options-filter-by-section.png "Select options to show Smart Links activities")         
 7. Select **OK**, and then save and publish the customizations.
