@@ -1,7 +1,7 @@
 ---
-title: "Add dynamic content to marketing emails (Dynamics 365 Marketing) | Microsoft Docs"
+title: "Add dynamic content to email messages (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to add field values, set up content settings information, conditional statements, and while loops to your email designs in Dynamics 365 Marketing."
-ms.date: 02/08/2021
+ms.date: 02/12/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
