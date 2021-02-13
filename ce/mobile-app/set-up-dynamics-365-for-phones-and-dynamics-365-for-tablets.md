@@ -37,7 +37,7 @@ Your users can access their data stored in Microsoft Dataverse while they're out
   
 ### Required privileges  
 
-Both Microsoft Dataverse and Dynamics 365 Customer Engagement (on-premises) uses security privileges to provide access to Dynamics 365 for phones and tablets app and [Power Apps mobile](https://docs.microsoft.com/powerapps/mobile/run-powerapps-on-mobile). The privilege is pre-configured for Sales roles, but not other security roles, so you may want to add to other roles for your teams.
+Microsoft Dataverse uses security privileges to provide access to Dynamics 365 for phones and tablets app and [Power Apps mobile](https://docs.microsoft.com/powerapps/mobile/run-powerapps-on-mobile). The privilege is pre-configured for Sales roles, but not other security roles, so you may want to add to other roles for your teams.
  
  The app should be shared for the security role that user has been assigned.
   
