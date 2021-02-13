@@ -138,7 +138,7 @@ When the application first loads after installation, it will determine the devic
 
 - Effective April 2021, the old [Microsoft Dynamics 365 app for Windows](https://go.microsoft.com/fwlink/?linkid=838618) that lets you run customer engagement apps (such as Dynamics 365 Sales, Dynamics 365 Customer Service, and Dynamics 365 Marketing) is deprecated. For more information see, [The Microsoft Dynamics 365 application for Windows is deprecated](https://docs.microsoft.com/power-platform/important-changes-coming#the-microsoft-dynamics-365-application-for-windows-is-deprecated).
   > [!NOTE]
-  > There is a new app for Windows: [Basic navigation for Dynamics 365 (Preview) app for Windows](https://docs.microsoft.com/en-us/dynamics365/mobile-app/windows-mobile-app). 
+  > There is a new app for Windows: [Basic navigation for Dynamics 365 (Preview) app for Windows](https://docs.microsoft.com/dynamics365/mobile-app/windows-mobile-app). 
 
 - As of April 1, 2021, the mobile app will no longer support iOS 11, Android 6 and Android 7.0. The minimum Android version will be 7.1.1 and the minimum iOS version will be 12.4.9.
 
