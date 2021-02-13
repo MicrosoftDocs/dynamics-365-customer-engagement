@@ -20,39 +20,62 @@ search.app:
 ---
 
 # Create IoT Alerts and convert IoT Alerts into work orders
-## Prerequisites
-> [!Note]
->
 
 
-
-For a guided walkthrough, check out the following video.
-
+// https://msit.microsoftstream.com/video/7a11a1ff-0400-b564-2c53-f1eb658dc97a
 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/cfs-iot-alert-high-priority.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/cfs-iot-alert-prioritized-list.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/cfs-iot-alert-parent-diagram.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/cfs-iot-alert-form.png)
-
+## Create and view IoT Alerts
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/cfs-iot-alert-stream-analytics.png)
 
 
 
+
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/cfs-iot-alert-work-order.png)
+> ![Screenshot of ](./media/cfs-iot-alert-form.png)
+
+
+
+## Convert an IoT Alert to a work order
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/cfs-iot-alert-list.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/cfs-iot-alert-create-work-order.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/cfs-iot-alert-next-stage.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/cfs-iot-alert-work-order2.png)
+
+
+
+## Organize IoT Alerts
+
+
+Group IoT alerts
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/cfs-iot-alert-parent1.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/cfs-iot-alert-parent-diagram.png)
+
+
+[IoT alert AI suggestions](iot-alerts-ai-based-suggestions)
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/cfs-iot-alert-high-priority.png)
+
 
 ## Configuration considerations
 ## Additional Notes
