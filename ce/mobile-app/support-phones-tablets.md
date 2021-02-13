@@ -2,7 +2,7 @@
 title: "Support for Dynamics 365 for phones and Dynamics 365 for tablets | MicrosoftDocs"
 description: About support for Dynamics 365 for phones and tablets
 ms.custom:
-ms.date: 12/16/2020
+ms.date: 2/12/2021
 ms.reviewer:
 ms.service: crm-online
 ms.suite:
@@ -44,10 +44,10 @@ To install the app see, [Install the app from your device’s app store](https:/
 
 ## Supported tablets to run customer engagement apps in a web browser 
 
-For full functionality and optimized experience, we strongly recommend that you use the Dynamics 365 mobile app. If you don't have the Dynamics 365 mobile app installed, you can  use the web browser on your tablet to run your apps as long as your device has sufficiently high screen resolution
+For full functionality and optimized experience, we strongly recommend that you use the Dynamics 365 mobile app. If you don't have the Dynamics 365 mobile app installed, you can  use the web browser on your tablet to run your apps as long as your device has sufficiently high screen resolution.
 
 > [!IMPORTANT]
-> You can't use the browser on your moible phone to run your customer engagement apps is not supported on phones; you must use the Dynamics 365 for mobile app.
+> You can't use the browser on your mobile phone to run your customer engagement apps is not supported on phones; you must use the Dynamics 365 for mobile app.
 
 
 ## Supported tablets to use the web browser
