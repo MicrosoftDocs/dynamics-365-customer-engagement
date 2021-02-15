@@ -48,7 +48,7 @@ If you want to set Chrome Process only for some agents in your organization, in 
 
 ### Order of precedence
 
-- Setting the **GlobalBrowserMode** Global UII option value as **Chrome** takes precedence over the individual hosted control settings. <br><br>For example, some hosted controls have a hosting type of **IE Process**, **Chrome Process**, or **Internal WPF**. At the organization level, you set the **GlobalBrowserMode** Global UII option value as **Chrome**. In this scenario, the Global UII option takes precedence and the configuration uses Chrome Process to host the applications. 
+- Setting the **GlobalBrowserMode** Global UII option value as **Chrome** takes precedence over the individual hosted control settings. <br><br>For example, some hosted controls have a hosting type of **IE Process**, **Chrome Process**, or **Internal WPF**. At the organization level, you set the **GlobalBrowserMode** Global UII option value as **Chrome**. In this scenario, the Global UII option takes precedence and the configuration will use Chrome Process to host the applications. 
 
 - Setting the **GlobalBrowser** mode key to **Chrome** in the **UnifiedServiceDesk.exe.config** file for a particular client desktop takes precedence over the individual hosted control settings.<br><br>For example, some hosted controls have a hosting type of **IE Process** or **Internal WPF**. In the client desktops for a few agents, you've set the **GlobalBrowser** mode key to **Chrome** in the **UnifiedServiceDesk.exe.config** file. The value set in the **UnifiedServiceDesk.exe.config** file will take precedence, and the configuration will use Chrome Process to host the applications.
 
@@ -86,7 +86,7 @@ When you're creating a new hosted control, you can select **Chrome Process** as 
 Example path: C:\Program Files\Microsoft Dynamics CRM USD\USD
   
   > [!NOTE] 
-  > To edit the UnifiedServiceDesk.exe.config file, you must have the administrator access permissions.
+  > To edit the UnifiedServiceDesk.exe.config file, you must have administrator access permissions.
 
 2. In the `<appSettings>` section, add the following new key.<br>
 `<add key="GlobalBrowserMode" value="Chrome"/>`
@@ -343,7 +343,7 @@ By default, the keyboard shortcuts for zoom in, zoom out, and zoom reset are as 
 | Function | Keyboard shortcut | Example |
 |----------|------------|-----------|
 | Zoom in |`Ctrl` + `Oemplus`| **Ctrl**+**Plus sign (+)** |
-| Zoom out |`Ctrl` + `OemMinus`| **Ctrl**+**Hyphen (-)**`|
+| Zoom out |`Ctrl` + `OemMinus`| **Ctrl**+**Hyphen (-)**|
 | Zoom reset |`Ctrl` + `0`| **Ctrl**+**0**|
 
 To add keyboard shortcuts, you must add the UII options and provide the character as the value. To learn about the allowed set of character values, go to [Keys](https://docs.microsoft.com/dotnet/api/system.windows.forms.keys?view=netframework-4.7.2#fields).
@@ -544,9 +544,9 @@ When you use the property on the Unified Service Desk predefined events, the pro
 
 ## Download attachments in Chrome Process
 
-When you use Chrome Process to host web applications in Unified Service Desk and select a file attachment, by design, Chrome Process prompts you to save the file to a local folder. After saving the file, you can open it to view it.
+When you use Chrome Process to host web applications in Unified Service Desk and select a file attachment, by design Chrome Process prompts you to save the file to a local folder. After saving the file, you can open it to view it.
 
-As an admin, the **ChromeProcessDownloadPath** UII option enables you to set the default folder to save attachments in while using Chrome Process pages, for example, C:\Users\\<user_name\>\Desktop\USD patch docs.
+As an admin, you can use the **ChromeProcessDownloadPath** UII option to set the default folder to save attachments in while using Chrome Process pages, for example C:\Users\\<user_name\>\Desktop\USD patch docs.
 
 Chrome Process prompts you to save the file to a local folder:
 
@@ -576,13 +576,13 @@ Chrome Process prompts you to save the file to a local folder:
 
 Chrome Process supports the ability to edit a PDF file inline if the PDF has editable fields.
 
-## Spell check a webpage in Chrome Process
+## Check spelling on a webpage in Chrome Process
 
-Chrome Process supports the ability to spell check the webpages within Unified Unified Service Desk. To enable the spell checker, you must add the **SetSpellCheckLanguage** UII option.
+Chrome Process supports the ability to check spelling on webpages within Unified Service Desk. To enable the spell checker, you must add the **SetSpellCheckLanguage** UII option.
 
 **To add the SetSpellCheckLanguage UII option**
 
-Sign in to the Dynamics 365 instance.
+1. Sign in to the Dynamics 365 instance.
 
 2. Go to **Settings** > **Unified Service Desk**.
 
@@ -594,11 +594,10 @@ Sign in to the Dynamics 365 instance.
 
 6. For the **Name** field, enter **SetSpellCheckLanguage**.
 
-7. For the **Value** field, enter the locale code. More information: [Languages Codes](https://go.microsoft.com/fwlink/p/?linkid=2153933).
+7. For the **Value** field, enter the locale code. More information: [Languages Codes](https://go.microsoft.com/fwlink/p/?linkid=2153933)
 
     > [!NOTE]
-    > Only the locales available in the path `C:\Program
-Files\Microsoft Dynamics CRM USD\USD\locales` are supported.
+    > Only the locales available in the path C:\Program Files\Microsoft Dynamics CRM USD\USD\locales are supported.
 
 8. Select **Save**.
 
