@@ -1,4 +1,4 @@
-# [Help resources for Dynamics 365 Sales](help-hub.md)
+# [Help resources for Dynamics 365 Sales Enterprise](help-hub.md)
 ## [Set up Dynamics 365 Sales](set-up-dynamics-365-sales.md)
 ## [Overview of Sales and Sales Hub](../sales-enterprise/overview.md)
 ## [What's new](../sales-enterprise/whats-new.md)
@@ -315,7 +315,7 @@
 
 # Resources for other Sales apps
 ## [Help resources for Dynamics 365 Sales (Professional)](../sales-professional/help-hub.md)
-## [Dynamics 365 Sales Insights](/dynamics365/ai/sales/overview)
+## [Sales Insights Add-in for Dynamics 365 Sales](/dynamics365/ai/sales/overview)
 ## [Sales Team Member app for users with Team Member license](sales-team-member.md)
 ## Dynamics 365 Sales mobile app
 ### [Overview](sales-mobile/dynamics-365-sales-mobile-app.md)
