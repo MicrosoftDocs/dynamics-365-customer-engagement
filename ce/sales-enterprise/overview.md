@@ -18,7 +18,7 @@ Welcome to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]!
 
 [!INCLUDE[cc-app-definition-sales](../includes/cc-app-definition-sales.md)]
 
-## Different sales solutions for different business size
+## Different sales solutions for different size of businesses
 
 Dynamics 365 Sales is available in the following flavors [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] to suit the different business needs: 
 
@@ -62,4 +62,4 @@ Dynamics 365 Sales is available in the following flavors [!INCLUDE[pn-dyn-365-sa
 
 ### See also
 [Learn the basics of Dynamics 365 Sales](user-guide-learn-basics.md)  
-[User Guide (Sales and Sales Hub)](../sales-enterprise/user-guide.md)  
+[User Guide](../sales-enterprise/user-guide.md)  
