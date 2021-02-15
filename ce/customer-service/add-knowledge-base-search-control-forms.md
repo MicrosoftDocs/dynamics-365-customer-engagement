@@ -116,15 +116,19 @@ Make sure that you have the System Administrator or System Customizer security r
   
 3. Choose **Customize the System**.  
   
-4. In the solution explorer, choose the entity you want to add the search control to, and under **Communication & Collaboration**, make sure the **Knowledge Management** check box is selected.  
+4. In the solution explorer, choose the entity you want to add the search control to, and under **Communication & Collaboration**, make sure the **Knowledge Management** check box is selected. 
+
+[!div class="mx-imgBorder"] 
   
    ![Setting to enable knowledge management](media/check-knowledge-management.png "Setting to enable knowledge management")
 
-   Selectthe  **Save** icon to save the setting for the entity.
+   Select the  **Save** icon to save the setting for the entity.
   
 5. Expand the entity you're adding the search control to, and select **Forms**.  
   
 6. Choose the entity form of type **Main**.  
+
+[!div class="mx-imgBorder"] 
   
    ![Choose form type](media/choose-form-type-km.png "Choose form type")
   
@@ -133,6 +137,8 @@ Make sure that you have the System Administrator or System Customizer security r
     If the option to add Knowledge Base Search is disabled, it could be because knowledge management isn't set up or isn't enabled for the entity you're adding the search control to.  
   
 8. In the **Set Properties** dialog box, on the **Display** tab, specify fields as described in the following table, and then select **Set** to apply the settings.
+
+[!div class="mx-imgBorder"] 
   
    ![Set properties for Knowledge Base Search control](media/km-search-control-tab.png "Set properties for Knowledge Base Search control") 
 
@@ -168,6 +174,8 @@ Open the **Knowledge Base Search** control and edit its properties to configure 
     > [!NOTE]
     > Ensure that Relevance search is enabled for automatic filtering to work. The Knowledge Article attribute must be added to the Knowledge Article Quick Find View. Ensure that the Source Entity Attribute is present on the form.
 
+[!div class="mx-imgBorder"] 
+
    ![Configure auto filtering](media/ka-config-auto-filtering.png "Configure auto filtering")
 
 To learn more about how to use the automatic filtering option, go to [View filtered articles in the Related section](search-knowledge-articles-csh.md#view-auto-filtered-results)
@@ -186,6 +194,8 @@ You can add a customized knowledge article subgrid to a form. To learn more abou
 
 4. In the form designer, select **Insert** > **Sub-Grid**.
 
+[!div class="mx-imgBorder"] 
+
    ![Insert a subgrid in an active form](media/insert-subgrid.png "Insert a subgrid in an active form")
 
 5. In the **Set Properties** dialog box, provide a unique name for your subgrid.
@@ -194,7 +204,9 @@ You can add a customized knowledge article subgrid to a form. To learn more abou
 
 7. Retain the default values for all the other fields, and then select **OK**.
 
-    ![Set properties for subgrid](media/set-properties-for-subgrid.png "Enter the properties for the knowledge article subgrid")
+[!div class="mx-imgBorder"]
+
+   ![Set properties for subgrid](media/set-properties-for-subgrid.png "Enter the properties for the knowledge article subgrid")
 
 8. Save your knowledge subgrid, and then select **Publish**.
 
@@ -205,4 +217,4 @@ The linked knowledge article subgrid that you just added will be visible to the 
 [Reduce call handling times with Knowledge articles in the Customer Service Hub](customer-service-hub-user-guide-knowledge-article.md)  
 [Set up knowledge management using embedded knowledge search](set-up-knowledge-management-embedded-knowledge-search.md)  
 [Understand knowledge base search mechanisms](knowledge-base-search-methods.md)  
-[Linked Knowledge article subgrid](search-knowledge-articles-csh.md)
+[Linked Knowledge Article subgrid](search-knowledge-articles-csh.md)

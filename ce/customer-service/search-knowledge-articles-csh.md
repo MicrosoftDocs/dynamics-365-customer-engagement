@@ -123,7 +123,13 @@ Type a keyword in the search box to search for knowledge articles.
 
 ## Linked knowledge article subgrid
 
-After your system administrator has added the knowledge article subgrid into an entity form, you can link or unlink a knowledge article from the customized subgrid. You can also edit a knowledge article by double-clicking it in the linked articles list.
+The linked knowledge article subgrid is available for an entity, such as a case or account, only if your system administrator has added the subgrid to the entity form. The knowledge article subgrid displays the knowledge articles that have been linked with the entity. Some of the options available are as follows:
+
+- Add a knowledge article
+- Select and edit an article's content
+- Sort
+- Bulk operations
+ You can also edit a knowledge article by double-clicking it in the linked articles list.
 
 To link the knowledge article to an entity, you need to do the following steps. For the sake of this example, let us consider the entity as Accounts.
 
@@ -147,9 +153,6 @@ To link the knowledge article to an entity, you need to do the following steps. 
    > ![Search for a knowledge article to link to an entity](media/search-related-article.png "Search for a related knowledge article to link to an entity")
 
 6. Select **Done**. The article will appear in the **Linked Knowledge Articles** subgrid.
-
-> [!NOTE]
-> The subgrid for the knowledge articles isn't available by default. Contact your system administrator to get the subgrid added to the forms.  
 
 ## Independent knowledge base search
 
