@@ -1,7 +1,7 @@
 ---
 title: "Dynamics 365 Sales Overview (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Get an overview of the sales offerings from Dynamics 365 Sales."
-ms.date: 07/16/2020
+ms.date: 02/15/2021
 ms.service:
   - "dynamics-365-sales"
 ms.topic: get-started-article
