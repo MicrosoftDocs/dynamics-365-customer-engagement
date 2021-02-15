@@ -239,7 +239,7 @@ To workaround this issue, wrap the URL in a handmade HTML file and send it to yo
    <title>Wrapping my Dynamics URL</title>
       <head></head>
       <body>
-        <a href="ms-dynamicsxrm:///?pagetype=entity&etn=account&id=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx">My Dynamics url</a>
+        <a href="ms-dynamicsxrm://?pagetype=entity&etn=account&id=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx">My Dynamics url</a>
       </body>
  </html>
 ```
