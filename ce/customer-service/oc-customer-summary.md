@@ -4,7 +4,7 @@ description: "Customer summary is a page where you can get all available informa
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/22/2020
+ms.date: 02/11/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -30,11 +30,13 @@ Having this information ready can help support agents reduce the hold time that 
 > [!div class='mx-imgBorder']
 > ![View Customer summary](media/customer-summary.png "View the Customer summary page")
 
+The customer summary form contains details specific to an active conversation and cannot be viewed for closed conversations. For a closed conversation, you can view details on the closed conversation form that can be accessed from the **Closed work items** section of the agent dashboard.
+
 ## Customer (Contact or Account)
 
 This section provides details like the contact name or account name. For a contact, you can view the location, email, and other details of the contact. For an account, you can view location, telephone number, and primary contact person for the account.
 
-Use the customer section to search for an existing contact or account record in Omnichannel for Customer Service, and select the record to link it to the conversation. If the record doesn't exist, you can create a new contact or account record by using the **+ Add Contact** or **+ Add Account** button, respectively. After you create it, search for the record and then select it to link it to the conversation.
+Use the customer section to search for an existing contact or account record in Omnichannel for Customer Service, and select the record to link it to the conversation. If the record doesn't exist, you can create a new contact or account record by using the **Add Contact** or **Add Account** button, respectively. After you create it, search for the record and then select it to link it to the conversation.
 
 > [!div class='mx-imgBorder']
 > ![Customer profile section in the customer summary form](media/customer-summary-customer-form.PNG "Customer profile section of the Customer summary page")
@@ -48,7 +50,6 @@ The **Conversation summary** section provides detailed information about the con
 - Skills
 - Queue
 - Start time
-
 
   > [!div class='mx-imgBorder']
   > ![Conversation details](media/conversation-details.png "Conversation-details")
@@ -65,7 +66,6 @@ These tabs are described in the following sections.
 ### Pre-chat survey
 
 The **Pre-chat survey** tab displays the customer's answers to the survey questions that were posed by your organization, which helps your interaction with the customer.
-
 
 ### Self service
 

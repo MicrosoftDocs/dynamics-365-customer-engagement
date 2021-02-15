@@ -1,4 +1,4 @@
-## 3.12.34.4
+## 3.12.34.60
 
 - Fixed a bug where schedule assistant and schedule board ignore start and end time inputs when duration is more than 24 hours when scheduling an opportunity record. 
 - Fixed a bug where the search button remains disabled when **Time To Promised** is initially greater than search end, even if parameters are adjusted.

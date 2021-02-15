@@ -32,7 +32,7 @@ In this article, we'll show you how to create and customize push notifications t
 
 To use Field Service Mobile push notifications, you'll need:
 
-- Field Service legacy web app v 7.5+ and unified interface framework app v8.3+. 
+- Field Service legacy web app v 7.5+ and Unified Interface framework app v8.3+. 
 - The [mobile configuration tool (Woodford solution)](https://aka.ms/fsmobile-configurator) must be downloaded and imported as a solution in your environment (minimum version 11.1).
 - Field Service Mobile v11.1+ for Windows, iOS, or Android devices. Visit the app's **About** section to check which version you have.
 - Consent for notifications in your device's settings for the **Field Service Mobile** app.
@@ -139,6 +139,7 @@ To send these push notifications, the customer data detailed below must flow to 
 - Field technicians do not need to be in the app or using their device to receive push notifications.
 - The title of a push notification is the **Name** field of the entity. In our previous example, the title of the push notification was 0222, which corresponds to the **Name** field of the assigned bookable resource booking.
 - Any workflow that sends a push notification can be deactivated by going to **Settings > Processes** and selecting the workflow that you want to deactivate. The status of an active workflow will read **Activated**. Select a workflow and then select **Deactivate** from the command bar. This will deactivate the workflow and, in turn, the push notification action, meaning that there will be no flow of data to the aforementioned external services. 
+- Push notifications require an online environment and will not work with on-premises deployments.
 
 ### See also
 

@@ -1,10 +1,10 @@
 ---
-title: Automatically identify customers using pre-chat responses and setContext API method | MicrosoftDocs
-description: See how you can Automatically identify customers using pre-chat responses in the Omnichannel for Customer Service
+title: "Automatically identify customers using pre-chat responses and setContext API method | MicrosoftDocs"
+description: "How you can automatically identify customers using pre-chat responses in Omnichannel for Customer Service"
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 02/14/2020
+ms.date: 02/12/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -22,24 +22,25 @@ For more information, see [View Customer summary for an incoming engagement requ
 > [!NOTE]
 > To know how to create pre-chat questions and use them in a pre-chat survey, see [Configure a pre-chat survey](configure-pre-chat-survey.md). 
 
-Use the below question names to create pre-chat questions for an **Unauthenticated chat**.
+Use the below question names to create pre-chat questions for an unauthenticated chat.
 
 |Entity   |     Mapping    | Answer type |
 |---------|----------------|-------------|
 | Account |	Question context key: **Name** <br> Attribute Logical Name: **name** <br><br> Question context key: **Email** <br> Attribute logical name: **emailaddress1** <br><br> Question context key: Phone <br> Attribute logical name: **telephone1** | Single line | 
 | Contact | Question context key: **Name** <br> Attribute logical name: **fullname** <br><br> Question context key: Email <br> Attribute logical name: **emailaddress1** <br><br> Question context key: Phone <br> Attribute logical name: **telephone1** |Single line | 
-| Incident | 	Question context key: **CaseNumber** <br> Attribute logical name: **ticketnumber** |Single line | 
+| Incident | 	Question context key: **CaseNumber** <br> Attribute logical name: **ticketnumber** |Single line |
+||||
 
-For **Authenticated chat**, the logged in user details will be used to search and load contact information in the **Customer summary** page. You can add pre-chat question for **Case Number** to allow identification of the relevant case for the current conversation.
+For authenticated chat, the logged in user details will be used to search and load contact information in the **Customer summary** page. You can add pre-chat question for **Case Number** to allow identification of the relevant case for the current conversation. The pre-chat questions pertaining to contact or account, such as the name, email, and phone number will not be considered for identification.
 
 |Entity   |     Mapping    | Answer type |
 |---------|----------------|-------------|
-| Incident | 	Question context key: **CaseNumber** <br> Attribute logical name: **ticketnumber** |Single line | 
+| Incident | 	Question context key: **CaseNumber** <br> Attribute logical name: **ticketnumber** |Single line |
+|||
 
 ## Use the setContextProvider API method
 
-You can automatically identify records using custom context set using setContext API apart from pre-chat answers. To programmatically set these values, see [setContextProvider](developer/reference/methods/setcontextprovider.md).
-
+You can automatically identify records using custom context set using setContext API apart from pre-chat answers. To programmatically set these values, see [Manage custom context](send-context-starting-chat.md).
 
 ### See also
 
