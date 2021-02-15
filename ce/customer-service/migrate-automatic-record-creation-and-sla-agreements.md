@@ -303,3 +303,6 @@ In the **Premigration checkup** state, the tool reviews only those rules that we
 [Automatically create or update records in Customer Service Hub](automatically-create-update-records.md)  
 [Define service-level agreements](define-service-level-agreements.md)  
 [Important changes (deprecations) coming](https://docs.microsoft.com/power-platform/important-changes-coming)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

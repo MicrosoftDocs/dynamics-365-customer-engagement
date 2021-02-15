@@ -36,3 +36,6 @@ search.audienceType:
 [formContext.ui.tabs (Client API reference)](../developer/clientapi/reference/formContext-ui-tabs.md) <br />
 [formContext.ui.sections (Client API reference)](../developer/clientapi/reference/formContext-ui-sections.md) <br />
 [setVisible (Client API reference)](../developer/clientapi/reference/controls/setVisible.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

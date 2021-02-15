@@ -47,3 +47,6 @@ Looking for help on the **Synchronization Settings for Outlook or Exchange**  di
 ### See also  
  [Choose records to work with offline in Dynamics 365 for Outlook](choose-records-work-offline.md)   
  [Work offline with Dynamics 365 for Outlook](work-offline-dynamics-365-outlook.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

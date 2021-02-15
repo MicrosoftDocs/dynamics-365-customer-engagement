@@ -159,3 +159,6 @@ For more information, see [Productivity pane](csw-productivity-pane.md).
 [Work with cases in Customer Service Hub](customer-service-hub-user-guide-create-a-case.md) <br>
 [Work with activities in Customer Service Hub](customer-service-hub-user-guide-manage-timeline-activities.md) <br>
 [Overview of the productivity pane](csw-productivity-pane.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

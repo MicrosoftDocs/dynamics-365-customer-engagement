@@ -93,3 +93,6 @@ You can navigate through the controls by using the **Tab** key. The cursor will 
 
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

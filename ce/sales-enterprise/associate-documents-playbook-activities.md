@@ -54,3 +54,6 @@ So that you can add documents, make sure that document management for the playbo
 ### See also
 [Manage playbook templates](manage-playbook-templates.md)  
 [Enforce best practices with playbooks](enforce-best-practices-playbooks.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

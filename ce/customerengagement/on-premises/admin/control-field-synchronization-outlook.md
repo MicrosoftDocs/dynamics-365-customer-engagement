@@ -64,3 +64,6 @@ With field synchronization, admins can set the sync direction between Dynamics 3
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [How field security affects synchronization between Customer Engagement (on-premises) and Outlook](../admin/how-field-security-affects-synchronization-between-outlook.md) and [Security concepts](../admin/security-concepts.md)  
   
 ### See also  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

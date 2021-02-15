@@ -171,3 +171,6 @@ There are a few steps to follow to add a timer to track time against enhanced SL
 
 
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -32,3 +32,6 @@ search.audienceType:
  ### See also
 
  [Delete custom entities](delete-custom-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

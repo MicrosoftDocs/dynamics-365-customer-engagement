@@ -53,3 +53,6 @@ App properties define important details about the app, like its title or URL. Yo
 
 ### See also  
  [Create or edit an app](../customize/create-edit-app.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

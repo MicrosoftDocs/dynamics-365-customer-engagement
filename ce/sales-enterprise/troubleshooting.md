@@ -129,3 +129,6 @@ Unable to upgrade the LinkedInSalesNavigatorForUnifiedClient solution
 </td></tr>
 
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

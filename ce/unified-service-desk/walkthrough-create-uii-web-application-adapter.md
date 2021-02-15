@@ -233,3 +233,6 @@ You can create a web application adapter if you want to enhance and modify web a
 
 ### See also
  [Use UII adapters to interact with external and web applications](../unified-service-desk/use-uii-adapters-interact-external-web-applications.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

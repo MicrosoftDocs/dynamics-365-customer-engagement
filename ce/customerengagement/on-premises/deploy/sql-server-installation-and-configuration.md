@@ -43,3 +43,6 @@ To plan your use of [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)
  <!--  
  [Planning requirements for Microsoft SQL Server Reporting Services](planning-requirements-for-sql-server-reporting-services.md) -->
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -27,3 +27,6 @@ For information about new features releasing over the next few months that you c
 > Releases are rolled out to different regions over several days. New or updated functionality might not appear immediately.
 
 To submit and vote on **feature requests** and **product suggestions**, go to the [Dynamics 365 Application Ideas portal](https://experience.dynamics.com/ideas/categories/?forum=5f82c7ac-92b0-e811-a96a-000d3a1bece3&forumName=Dynamics%20365%20Sales).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

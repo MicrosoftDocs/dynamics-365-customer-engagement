@@ -36,3 +36,6 @@ To change the estimated revenue or total amount of an opportunity based on any c
 [Dynamics 365 Sales troubleshooting guide](troubleshooting.md)  
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1518,3 +1518,5 @@ IntersectEntityName: msdyn_callablecontext_msdyn_playbooktemplate<br />
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_callablecontext?text=msdyn_callablecontext EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

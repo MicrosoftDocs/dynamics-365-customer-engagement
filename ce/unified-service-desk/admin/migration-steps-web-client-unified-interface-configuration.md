@@ -129,3 +129,6 @@ For more information, see [Import, update, and export solutions](/dynamics365/cu
 [Download the tools from NuGet](/dynamics365/customer-engagement/developer/download-tools-nuget)
 
 [Import configuration data](/dynamics365/customer-engagement/admin/import-configuration-data)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

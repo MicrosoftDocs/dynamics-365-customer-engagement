@@ -96,3 +96,6 @@ You can can add the personalization tab by doing the following:
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

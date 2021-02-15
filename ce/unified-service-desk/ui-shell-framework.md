@@ -32,3 +32,6 @@ The UI Shell Framework is the part of [UII Application Integration Framework](..
 ### See also  
  [UII Application Integration Framework](../unified-service-desk/uii-application-integration-framework.md)   
  [UII Computer Telephony Integration (CTI) framework](../unified-service-desk/uii-computer-telephony-integration-cti-framework.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

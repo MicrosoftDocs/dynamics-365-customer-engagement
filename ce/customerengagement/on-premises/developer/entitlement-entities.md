@@ -53,3 +53,6 @@ Entitlements specify the support term based on number of hours or number of case
   
 ## Related Sections  
  [Incident (Case) Entities](incident-case-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

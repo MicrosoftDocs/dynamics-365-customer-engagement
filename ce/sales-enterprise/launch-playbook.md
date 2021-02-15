@@ -49,3 +49,6 @@ To ensure consistency in your business process or to know what steps to follow i
 [Track playbook activities](track-playbook-activities.md)  
 [Enforce best practices with playbooks](enforce-best-practices-playbooks.md)  
 [Mark playbook as completed](mark-playbook-completed.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

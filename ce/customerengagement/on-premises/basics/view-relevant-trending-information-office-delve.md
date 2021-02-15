@@ -31,3 +31,6 @@ To disable Office Graph:
 
 For more information, see the blog: [Office Graph integration removal](https://blogs.msdn.microsoft.com/crm/2017/07/31/office-graph-integration-removal/).
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

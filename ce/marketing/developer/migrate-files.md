@@ -50,3 +50,5 @@ The flow should start with a call to the **msdyncrm_UpsertFile** custom action u
 
 > [!NOTE]
 > If you copy Marketing emails from one environment to another and have images from the old environment in the emails, the images will be point to old environment CDN. This means that if you decide to uninstall Marketing from the old environment or remove files, the emails in the new environment will have broken images.
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ ms.author: matp
   
  We strongly recommend that you specify an account that is not also the user who is running Setup.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

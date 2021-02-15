@@ -294,3 +294,6 @@ You've now completed the tutorials. Nice work.
 - [Create a new application in Azure IoT Central - tutorial](https://docs.microsoft.com/azure/iot-central/quick-deploy-iot-central)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -193,3 +193,6 @@ The 3D model will now be viewable on the Field Service Mobile App by going to **
 ## Additional notes
 - You can view 3D files on Field Service Mobile for Windows, iOS, and Android devices.
 - 3D models are viewable on Field Service Mobile in online and offline modes.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

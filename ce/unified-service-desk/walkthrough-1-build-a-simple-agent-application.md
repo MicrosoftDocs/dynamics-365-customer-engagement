@@ -167,3 +167,6 @@ This walkthrough demonstrates how to set up a basic agent application from scrat
  [Walkthrough 7: Configure agent scripting in your agent application](../unified-service-desk/walkthrough-configure-agent-scripting-agent-application.md)   
  [Unified Service Desk Configuration Walkthroughs](../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)   
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

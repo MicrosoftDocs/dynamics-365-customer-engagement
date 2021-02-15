@@ -186,3 +186,5 @@ To set up and enable the global double opt-in system:
 
 ### See also
 [Form double opt-in](form-double-opt-in.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

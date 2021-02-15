@@ -93,3 +93,6 @@ Rest of the strings that is rendered by default on Unified Service Desk client a
   
 ### See also  
  [Global Manager (Hosted Control)](../unified-service-desk/global-manager-hosted-control.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

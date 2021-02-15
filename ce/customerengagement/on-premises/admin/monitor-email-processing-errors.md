@@ -53,3 +53,6 @@ Dynamics 365 Customer Engagement (on-premises) generates alerts if errors occur 
 >  If you don’t wish to get alerts, you can disable them from the [System Settings dialog box – Email tab](system-settings-dialog-box-email-tab.md) by clearing the check boxes for alerts.  
 
 ### See also  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

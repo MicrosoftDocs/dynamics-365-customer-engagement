@@ -65,3 +65,6 @@ More information on scheduling a resource for business closure or holiday: *Set 
   
 ### See also  
  [Set work hours for a resource](../customer-service/set-work-hours-resource.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

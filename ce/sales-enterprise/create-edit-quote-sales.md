@@ -96,3 +96,6 @@ One way that can help you increase your sales is to add all products that your c
  [Create a PDF file](create-quote-pdf.md)  
  [Track and manage activities](manage-activities.md)   
  [Print quote, invoice, or other records](print-records.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

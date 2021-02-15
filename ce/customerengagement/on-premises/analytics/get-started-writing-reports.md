@@ -116,3 +116,6 @@ Customer Engagement (on-premises) uses [!INCLUDE[pn_SQL_Server_Reporting](../inc
  [Reporting and Analytics Guide](../analytics/reporting-analytics-with-dynamics-365.md) 
   
  [Publish reports](../analytics/publish-reports.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

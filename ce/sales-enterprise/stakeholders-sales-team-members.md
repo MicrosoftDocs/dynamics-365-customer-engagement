@@ -35,3 +35,6 @@ Dynamics 365 Sales uses the Opportunity Sales Access Team template to provide ac
 ### See also
 
 [Create or edit opportunities](create-edit-opportunity-sales.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

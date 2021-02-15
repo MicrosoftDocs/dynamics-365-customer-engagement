@@ -69,3 +69,6 @@ For complete details about how to work with the portals solution, see [its onlin
 
 [Deliver web engagement experience with portal capabilities for Dynamics 365](../portals/administer-manage-portal-dynamics-365.md)  
 [Find your way around](navigation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -146,3 +146,6 @@ With internal claims authentication access enabled on [!INCLUDE[pn_microsoftcrm_
 ## See Also  
  [Implement claims-based authentication: external access](implement-claims-based-authentication-external-access.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

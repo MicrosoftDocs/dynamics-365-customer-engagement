@@ -49,3 +49,6 @@ The Surveys app provides the same settings and options as the Customer Voice app
 
 [Create a survey](https://docs.microsoft.com/dynamics365/customer-voice/create-survey)<br>
 [Find your way around](navigation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

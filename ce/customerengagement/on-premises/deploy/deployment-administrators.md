@@ -35,3 +35,6 @@ To run [!INCLUDE[pn_deploymentmanager](../includes/pn-deploymentmanager.md)], yo
  [Add a new Deployment Administrator](add-a-new-deployment-administrator.md)   
  [Remove a Deployment Administrator](remove-a-deployment-administrator.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -38,3 +38,6 @@ For information about creating a customer journey, see the following topics in t
 ### See also
 
 [Remove custom channel](remove-custom-channel.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

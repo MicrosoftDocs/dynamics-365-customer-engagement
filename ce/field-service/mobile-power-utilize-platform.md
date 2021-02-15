@@ -34,3 +34,6 @@ Because the Dynamics 365 Field Service mobile app is built on Microsoft Power Pl
 | Client Scripting | 	[Apply business logic using client scripting in model-driven apps using JavaScript](https://docs.microsoft.com/powerapps/developer/model-driven-apps/client-scripting) | 
 | Supported capabilities and limitations|  [Platform supported capabilities and limitations for offline](https://docs.microsoft.com/dynamics365/mobile-app/mobile-offline-capabilities)|
 | Custom controls |  [Additional custom controls for model-driven apps](https://docs.microsoft.com/powerapps/maker/model-driven-apps/additional-controls-for-dynamics-365-for-phones-and-tablets)|
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

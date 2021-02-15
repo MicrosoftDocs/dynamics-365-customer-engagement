@@ -47,3 +47,6 @@ descriptions:
  [Get started with configuring your agent application](../unified-service-desk/get-started-configuring-agent-application.md)  
   
  [Unified Service Desk Configuration Walkthroughs](../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

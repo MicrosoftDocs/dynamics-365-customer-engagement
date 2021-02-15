@@ -82,3 +82,6 @@ $wellKnownApp.Update()
  [Use OneDrive for Business to manage your private documents](../basics/use-onedrive-business-manage-private-documents.md)   
  [What is OneDrive for Business?](https://support.office.com/article/What-is-OneDrive-for-Business-187f90af-056f-47c0-9656-cc0ddca7fdc2)   
  [SharePoint Online and OneDrive for Business: software boundaries and limits](https://support.office.com/article/SharePoint-Online-and-OneDrive-for-Business-software-boundaries-and-limits-8F34FF47-B749-408B-ABC0-B605E1F6D498)   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

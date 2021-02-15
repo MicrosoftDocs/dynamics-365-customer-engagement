@@ -57,3 +57,6 @@ The following example installs only the [!INCLUDE[pn_Web_Application_Server](../
  [Install Microsoft Dynamics 365 roles](install-using-command-prompt.md)  </br> 
  [Sample XML configuration file that installs only the HelpServer role](sample-xml-configuration-file-helpserver.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -51,3 +51,6 @@ Use this report to find accounts that haven't been contacted recently so that yo
  [Run a report](../basics/run-report.md)   
  [Troubleshoot problems with data not displaying in a report](../basics/troubleshoot-reports.md)   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

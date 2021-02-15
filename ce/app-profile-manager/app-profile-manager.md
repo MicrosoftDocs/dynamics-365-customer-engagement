@@ -110,3 +110,6 @@ More information: [Roles and privileges associated with app profile manager](sec
 [Manage session templates](session-templates.md)  
 [Configure channels](../customer-service/channels.md)  
 [Manage agent scripts](agent-scripts.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -79,3 +79,6 @@ For example, if the state of California has a state and county tax, then you mig
 - [Set up customer agreements](../field-service/set-up-customer-agreements.md)   
 - [Set up agreement substatuses](../field-service/set-up-agreement-sub-statuses.md)   
 - [User's guide](../field-service/user-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

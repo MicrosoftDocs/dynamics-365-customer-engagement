@@ -95,3 +95,6 @@ There are three levels where auditing can be configured: organization, entity, a
  [Retrieve and delete the history of audited data changes](retrieve-and-delete-the-history-of-audited-data-changes.md)   
  [Sample: Audit Entity Data Changes](sample-audit-entity-data-changes.md)   
  [Auditing Data Changes in Dynamics 365 Customer Engagement (on-premises)](audit-entity-data-changes.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

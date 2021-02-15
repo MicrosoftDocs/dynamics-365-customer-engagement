@@ -882,3 +882,6 @@ See msdyn_ocwhatsappchannelaccount Entity [msdyn_ocwhatsappchannelaccount_msdyn_
 
 [Introduction to Omnichannel for Customer Service](../../../introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

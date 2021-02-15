@@ -209,3 +209,6 @@ Technicians can:
 ### Use the Field Service mobile Power App
 
 Technicians can deep link from the [Field Service (Dynamics 365) mobile app](mobile-2020-power-platform.md) to the Dynamics 365 Remote Assist mobile app. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

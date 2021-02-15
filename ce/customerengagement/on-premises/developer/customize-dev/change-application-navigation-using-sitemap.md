@@ -138,3 +138,6 @@ The      site map enables you to control the application navigation (menus) and 
  [Service Calendar Appearance Configuration](service-calendar-appearance-configuration.md)   
  [Publish Customizations](publish-customizations.md)   
  [When to Edit the Customizations File](when-edit-customization-file.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -46,3 +46,6 @@ You can automatically identify records using custom context set using setContext
 
 [Understand and create work streams](work-streams-introduction.md)  
 [setContextProvider](developer/reference/methods/setcontextprovider.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

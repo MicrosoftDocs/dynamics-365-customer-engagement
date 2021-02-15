@@ -132,3 +132,6 @@ If you don't want the system to auto geocode addresses, select the geocode butto
 > ![Screenshot of mass Geocoding multiple account records](media/Perform-Initial-Configurations-image17.png)  
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

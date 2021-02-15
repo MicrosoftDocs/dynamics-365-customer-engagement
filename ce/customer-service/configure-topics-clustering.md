@@ -82,3 +82,6 @@ The topics capability in the Customer Service historical analytics reports comes
 [Dashboard overview](customer-service-analytics-insights-csh.md)  <br> 
 
   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

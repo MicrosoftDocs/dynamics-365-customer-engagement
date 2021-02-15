@@ -102,3 +102,6 @@ KnowledgeManagement.CommandBarActions.Instance.knowledgeArticle_onload
 ## See also
 
 [Create knowledge articles using templates](customer-service-hub-user-guide-knowledge-article.md#create-knowledge-articles-using-templates)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

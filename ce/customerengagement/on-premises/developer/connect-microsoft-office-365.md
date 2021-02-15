@@ -41,3 +41,6 @@ search.audienceType:
  [Connect to the Dynamics 365 Customer Engagement Web Services](authenticate-office-365-users-customer-engagement-web-services.md)  
   
  [Access the Web Services (Authentication) in Dynamics 365 Customer Engagement (on-premises)](authenticate-users.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

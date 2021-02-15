@@ -61,3 +61,6 @@ After Setup completes the upgrade, perform the following tasks.
  [Upgrade Dynamics 365 Server](upgrade-from-microsoft-dynamics-365-server.md)  
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

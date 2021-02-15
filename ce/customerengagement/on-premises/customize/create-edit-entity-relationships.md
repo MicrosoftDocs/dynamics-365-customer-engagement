@@ -59,3 +59,6 @@ Entity relationships define how records can be related to each other in the data
  [Create and edit fields](../customize/create-edit-fields.md)   <br/>
  [Create and edit global option sets](../customize/create-edit-global-option-sets.md)   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

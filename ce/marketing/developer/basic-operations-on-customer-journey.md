@@ -192,3 +192,6 @@ The following table shows the schema of objects contained within the `ActivityVa
 [Customer journey workflow definition](customer-journey-workflow-definition.md)<br/>
 [Use Customer Journey to create automated campaigns](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/customer-journeys-create-automated-campaigns)<br/>
 [Create Custom Journeys](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/create-simple-customer-journey)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

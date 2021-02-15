@@ -110,3 +110,6 @@ Organization-owned dashboards can be created by using the [!INCLUDE[cc-dyn365-ce
  [Sample dashboards](sample-dashboards.md)   
  [Sample: Create, Retrieve, Update and Delete (CRUD) a Dashboard](sample-create-retrieve-update-delete-dashboard.md)   
  [Customize Entity Forms in Microsoft Dynamics 365 Customer Engagement](customize-entity-forms.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

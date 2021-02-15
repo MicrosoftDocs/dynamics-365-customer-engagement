@@ -41,3 +41,6 @@ The legacy web client displays the chart by using the value of the associated ca
 ### See also
 
 [Dynamics 365 Sales troubleshooting guide](troubleshooting.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

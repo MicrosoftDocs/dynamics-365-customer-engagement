@@ -103,3 +103,6 @@ while (hasMoreRecords)
 ### See also  
  [Search data using entity searches in Unified Service Desk](../unified-service-desk/search-data-entity-searches.md)   
  [DoSearch](../unified-service-desk/global-manager-hosted-control.md#DoSearch)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

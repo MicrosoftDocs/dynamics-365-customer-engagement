@@ -51,3 +51,6 @@ This topic contains links to all the schemas needed for features described in th
 ## Related Sections
 
  [Programming Reference](programming-reference.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

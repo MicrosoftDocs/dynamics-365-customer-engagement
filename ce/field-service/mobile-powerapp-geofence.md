@@ -184,3 +184,5 @@ When the technician leaves the geofence, another "exit" event will be created.
 ### See also
 
 - [Geofencing for Field Service Mobile (Xamarin) app](field-service-mobile-overview.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

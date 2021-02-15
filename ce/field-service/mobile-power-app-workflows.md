@@ -73,3 +73,5 @@ Enter in the following code snippet:
 Ensure the web resource triggers on save of the form.
   
 Save and publish customizations.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -227,3 +227,6 @@ To learn more about entity relationships, go to [Entity relationships](https://d
 [View and understand data through drill-down entities](view-understand-data-through-drill-down.md)
 
 [Configure forecasts in your organization](configure-forecast.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

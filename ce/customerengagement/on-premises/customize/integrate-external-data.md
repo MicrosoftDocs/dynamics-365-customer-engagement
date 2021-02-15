@@ -25,3 +25,6 @@ search.audienceType:
 
 The topics in this section explain how you can integrate data from sources outside of [!INCLUDE [pn-microsoftcrm](../includes/pn-microsoftcrm.md)].
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
 [setAuthTokenProvider](setAuthTokenProvider.md)<br />
 [setContextProvider](setContextProvider.md)<br />
 [JavaScript API reference for live chat SDK](../../omnichannel-reference.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

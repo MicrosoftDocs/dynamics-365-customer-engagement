@@ -70,3 +70,6 @@ You can schedule lock options. There are four types:
     arrival time and assigned resource. The booking’s start time and estimated
     travel duration may be changed if resource scheduling optimization schedules a booking in a new location
     before this is a locked booking.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

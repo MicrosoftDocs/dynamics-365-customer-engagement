@@ -4441,3 +4441,6 @@ See queue Entity [queuemembership_association](queue.md#BKMK_queuemembership_ass
 
 [Introduction to Omnichannel for Customer Service](../../../introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

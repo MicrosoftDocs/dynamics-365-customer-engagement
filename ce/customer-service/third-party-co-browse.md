@@ -257,3 +257,6 @@ The following are links for publishing the application to AppSource:
 ## Third-party providers responsibility and data disclaimer 
 
 Be sure to publish the privacy policy link to AppSource for security and privacy protection of the personal information that would be processed, and provide a compliant approach to data protection. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

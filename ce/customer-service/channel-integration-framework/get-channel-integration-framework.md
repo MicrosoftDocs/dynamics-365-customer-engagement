@@ -33,3 +33,6 @@ You can get the solution from within Dynamics 365 or directly from Microsoft App
 ## See also
 
 [Softphone integration sample code for Dynamics 365 Channel Integration Framework version 1.0](sample-softphone-integration.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

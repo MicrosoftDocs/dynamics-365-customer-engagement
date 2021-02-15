@@ -138,3 +138,6 @@ Entity relationships define the ways that entity records can be associated with 
  [Sample: Dump Entity Relationship Information to a File](org-service/sample-dump-entity-relationship-information-file.md)   
  [Entity and Attribute Mappings](customize-entity-attribute-mappings.md)   
  [Retrieve Records for Many-To-Many Relationships using Intersect Entities](org-service/retrieve-records-many-to-many-relationships-intersect-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

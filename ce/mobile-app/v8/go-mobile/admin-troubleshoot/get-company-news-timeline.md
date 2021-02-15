@@ -52,3 +52,6 @@ Gain valuable insights from the latest news about your customers on your phone o
   
 ## Privacy notice  
  [!INCLUDE[cc_privacy_crm_compnews_socialtimeline](../../../../includes/cc-privacy-crm-compnews-socialtimeline.md)]
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

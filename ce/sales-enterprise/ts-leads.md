@@ -255,3 +255,6 @@ This is by design. In the lead form, after selecting the existing account, only 
 ### See also
 
 [Dynamics 365 Sales troubleshooting guide](troubleshooting.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

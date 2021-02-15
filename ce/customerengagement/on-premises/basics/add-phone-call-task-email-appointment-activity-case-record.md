@@ -128,3 +128,6 @@ All activities that you add from within a record appear in the **Activities** ar
   
 
  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

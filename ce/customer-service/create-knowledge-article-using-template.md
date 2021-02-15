@@ -77,3 +77,5 @@ OData-Version: 4.0
 
 [Search for knowledge articles in the Customer Service Hub](search-knowledge-articles-csh.md)  
 [Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)  
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

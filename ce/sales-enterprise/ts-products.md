@@ -98,3 +98,6 @@ To fix this, go to **Settings** &gt; **Customizations** &gt; **Entities** &gt; *
 ### See also
 
 [Dynamics 365 Sales troubleshooting guide](troubleshooting.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

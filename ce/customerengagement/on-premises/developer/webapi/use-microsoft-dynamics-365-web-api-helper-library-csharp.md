@@ -39,3 +39,6 @@ Most of the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Web A
  [Get Started with the Web API (C#)](get-started-dynamics-365-web-api-csharp.md)   
  [Start a Web API project in Visual Studio (C#)](start-web-api-project-visual-studio-csharp.md)   
  [Perform operations using the Web API](perform-operations-web-api.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

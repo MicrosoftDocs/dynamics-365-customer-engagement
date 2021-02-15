@@ -29,3 +29,5 @@ When you select settings from Omnichannel Administration in the left pane, the *
 [Create and manage queues](../customer-service/set-up-queues-manage-activities-cases.md)  
 [Understand and create work streams](../customer-service/work-streams-introduction.md)  
 [Overview of channels](../customer-service/channels.md)  
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

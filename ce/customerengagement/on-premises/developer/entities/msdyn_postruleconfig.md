@@ -806,3 +806,5 @@ See msdyn_postconfig Entity [msdyn_postconfig_msdyn_postruleconfig](msdyn_postco
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_postruleconfig?text=msdyn_postruleconfig EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

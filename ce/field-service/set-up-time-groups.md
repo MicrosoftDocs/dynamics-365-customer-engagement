@@ -28,3 +28,6 @@ search.app:
  [Configure incident types](../field-service/configure-incident-types.md)   
  [Set priorities](../field-service/set-priorities.md)<br>
  [User's Guide](../field-service/user-guide.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

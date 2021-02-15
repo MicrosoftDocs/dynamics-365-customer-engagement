@@ -40,3 +40,6 @@ Or, if sample data isn’t installed on your system, you might want to add it fo
 
 [Admin settings overview](admin-settings-overview.md)    
 [Overview of Dynamics 365 Sales Professional](sales-professional-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

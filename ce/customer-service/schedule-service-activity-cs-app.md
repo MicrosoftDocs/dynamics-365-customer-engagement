@@ -38,3 +38,6 @@ Use the following links to learn more about service scheduling using service act
 [Find the next available time before creating a service activity](../customer-service/find-next-available-time-before-create-service-activity-cs-app.md)<br/>
 [Force an activity into a time slot](../customer-service/create-service-activity-without-checking-conflicts-cs-app.md) <br/>
 [Create a selection rule to determine how resources are selected for service activities (Customer Service app)](create-simple-selection-rule.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

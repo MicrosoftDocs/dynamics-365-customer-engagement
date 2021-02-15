@@ -155,3 +155,6 @@ Using the general properties and scheduling options of the forecast configuratio
 [Configure forecast using custom rollup entity](configure-forecast-using-custom-rollup-entity.md)
 
 [Troubleshooting forecasts](ts-forecasts.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -71,3 +71,6 @@ Report Parameter:
  [Sample Reports](../analytics/example-reports.md)   
  [Sample: Display the Top X Values](../analytics/example-display-top-x-values.md)   
  [Reporting and Analytics Guide](../analytics/reporting-analytics-with-dynamics-365.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

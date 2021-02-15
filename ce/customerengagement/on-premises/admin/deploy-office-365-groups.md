@@ -165,3 +165,6 @@ search.audienceType:
  [Set up Dynamics 365 for Customer Engagement apps (online) to use Exchange Online](connect-exchange-online.md)   
  [Blog: It's here - Office 365 Groups in CRM Online](https://blogs.technet.com/b/lystavlen/archive/2015/05/08/office-groups.aspx)   
  [Office 365 Groups in Dynamics 365 for Customer Engagement apps FAQs](../basics/office-365-groups-dynamics-365-faqs.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

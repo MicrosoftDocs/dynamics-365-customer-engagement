@@ -268,3 +268,6 @@ For more information, see this [blog](https://blogs.msdn.microsoft.com/crm/2017/
 
 ### See Also  
  [Overview of Field Service](../field-service/overview.md)   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

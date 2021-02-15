@@ -43,3 +43,6 @@ After setting up a sample bot using above steps, you can configure your bot to s
 [Integrate an Azure bot](configure-bot.md)<br />
 [Create knowledge article template](create-templates-knowledge-article.md)<br />
 [Client API reference for model driven apps](/powerapps/developer/model-driven-apps/clientapi/reference)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

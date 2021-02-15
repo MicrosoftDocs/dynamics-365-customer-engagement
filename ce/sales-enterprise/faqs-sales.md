@@ -181,3 +181,6 @@ These tables define the behavior of **PricePerUnit** in the **Products** subgrid
 |Editable|No|Default|Yes|
 |Editable|No|Override|No|
 |ReadOnly|Yes or No|Default or Override|No|
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

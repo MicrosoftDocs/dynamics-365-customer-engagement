@@ -43,3 +43,6 @@ To select a template, go to the **Forecast configurations** page and select one 
 [Configure forecasts in your organization](configure-forecast.md)
 
 [Configure forecast using custom rollup entity](configure-forecast-using-custom-rollup-entity.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

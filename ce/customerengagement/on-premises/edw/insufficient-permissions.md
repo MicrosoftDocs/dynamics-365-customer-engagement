@@ -34,3 +34,6 @@ ms.author: matp
   
 -   A member of the database owner (db_owner) fixed database role on both the configuration (MSCRM_Config) and the specified organization database.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -122,3 +122,6 @@ Grant-AdfsApplicationPermission -ClientRoleIdentifier "<ClientRoleIdentifier>" -
 ## See Also  
  [Implement claims-based authentication: external access](implement-claims-based-authentication-external-access.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

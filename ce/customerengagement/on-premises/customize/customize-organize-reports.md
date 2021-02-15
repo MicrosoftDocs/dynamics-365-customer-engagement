@@ -103,3 +103,6 @@ The other reports can be:
 ### See also  
  [Create or edit a report using the Report Wizard](../basics/create-edit-copy-report-wizard.md)   
  [Introduction to reporting and analytics with Dynamics 365 Customer Engagement (on-premises)](../analytics/reporting-analytics-with-dynamics-365.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

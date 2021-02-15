@@ -243,3 +243,6 @@ Content for earlier version of Unified Service Desk continues to be available on
 | Version 3.2, February 2018 | [!INCLUDE[pn-unified-service-desk-3-2](../includes/pn-unified-service-desk-3-2.md)] update |
 | Version 3.1, November 2017 | [!INCLUDE[pn-unified-service-desk-3-1](../includes/pn-unified-service-desk-3-1.md)] update |
 | Version 3.0, August 2017   | [!INCLUDE[pn-unified-service-desk-3-0](../includes/pn-unified-service-desk-3-0.md)] update | -->
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

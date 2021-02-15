@@ -22,3 +22,6 @@ ms.author: matp
   
  Performing this operation, such as importing an organization, by using a different base language than that of the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] deployment is not supported. Additionally, you cannot change the base language of a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] deployment or an organization once it is created. To complete the operation, you must use a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] deployment that has the same base language as the organization.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

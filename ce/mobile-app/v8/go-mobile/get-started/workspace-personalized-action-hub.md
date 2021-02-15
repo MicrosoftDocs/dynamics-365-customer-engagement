@@ -30,3 +30,6 @@ When you first sign in to Dynamics 365 for phones and tablets, a pane slides in.
   
  ![Workspace for mobile](../../../media/workspace-mobile.png "Workspace for mobile")  
   
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

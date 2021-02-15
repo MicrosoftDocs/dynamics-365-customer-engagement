@@ -55,3 +55,6 @@ search.audienceType:
  [Create a Recurring Appointment Series, Instance or Exception](create-recurring-appointment-series-instance-exception.md)   
  [Delete or End a Recurring Appointment Series or Instance](delete-or-end-a-recurring-appointment-series-or-instance.md)   
  [Update a Recurring Appointment](update-recurring-appointment.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

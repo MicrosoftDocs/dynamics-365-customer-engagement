@@ -197,3 +197,6 @@ for any losses; or**
 
 **• Distributor knew or should have known about the possibility of the
 damages.**
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -138,3 +138,6 @@ The customer experience will vary depending upon the co-browse or screen share p
 ## See also
 
 [Add a chat widget](add-chat-widget.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

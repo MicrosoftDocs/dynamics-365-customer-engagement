@@ -88,3 +88,6 @@ This leaderboard displays various types of conversions from your marketing forms
 ![Conversion leaderboard from marketing-form submissions](media/MarketingForm/SubmissionConversionLeaderboard.png "Conversion leaderboard from marketing-form submissions")
 
 ***Happy analytics reporting with Dynamics 365 Marketing!***
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

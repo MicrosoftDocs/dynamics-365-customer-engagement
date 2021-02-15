@@ -324,3 +324,6 @@ On the booking rule record, the **Method Name** must be: *MSFSAENG.ScheduleBoard
  [Schedule within time constraints](../field-service/schedule-time-constraints.md)   
  [Set up booking statuses](../field-service/set-up-booking-statuses.md)   
  [Create and edit web resources](../customize/create-edit-web-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

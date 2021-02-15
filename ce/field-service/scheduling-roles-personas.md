@@ -43,3 +43,6 @@ In practice, there are typically people performing or overseeing the scheduling 
 The scheduling analyst is an emerging role as organizations adopt advanced scheduling functions like optimization, automated scheduling, and analytics. The ideal scheduling analyst has a healthy mix of scheduling, analytics, and optimization knowledge.
 
 This role owns optimization schedules, along with accompanying scope, goals, and parameters.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
