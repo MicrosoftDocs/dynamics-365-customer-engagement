@@ -10,7 +10,7 @@ ms.author: shujoshi
 manager: annbe
 ---
 
-# Help resources for Dynamics 365 Sales (Enterprise)
+# Help resources for Dynamics 365 Sales Enterprise
 
 <table>
 
