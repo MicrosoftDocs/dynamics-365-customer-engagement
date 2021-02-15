@@ -315,7 +315,7 @@
 
 # Resources for other Sales apps
 ## [Help resources for Dynamics 365 Sales (Professional)](../sales-professional/help-hub.md)
-## [Dynamics 365 Sales Insights](/dynamics365/ai/sales/overview)
+## [Sales Insights Add-in for Dynamics 365 Sales](/dynamics365/ai/sales/overview)
 ## [Sales Team Member app for users with Team Member license](sales-team-member.md)
 ## Dynamics 365 Sales mobile app
 ### [Overview](sales-mobile/dynamics-365-sales-mobile-app.md)
