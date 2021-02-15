@@ -15,7 +15,7 @@ The widget provider has to add the following attributes to the script tag that l
 ### Example
 
 ```html
-<script type="text/javascript" src="https://crmorg.crm.dynamics.com/webresources/Widget/msdyn_ciLibrary.js" onload="ciLoadDone();" data-crmurl="https://crmorg.crm.dynamics.com" data-cifid="CIFMainLibrary">
+<script type="text/javascript" src="https://crmorg.crm.dynamics.com/webresources/Widget/msdyn_ciLibrary.js" data-crmurl="https://crmorg.crm.dynamics.com" data-cifid="CIFMainLibrary">
 </script>
 ```
 
