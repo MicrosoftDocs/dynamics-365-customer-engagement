@@ -4,13 +4,11 @@ description: "Learn how to deploy Unified Service Desk - Omnichannel for Custome
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 11/03/2020
+ms.date: 02/15/2021
 ms.topic: article
 ms.service: "dynamics-365-customerservice"
 monikerRange: '>= dynamics-usd-4.1'
 ---
-
-
 
 # Deploy Unified Service Desk - Omnichannel for Customer Service package
 
@@ -22,13 +20,14 @@ Microsoft Dynamics 365 Package Deployer enables you to deploy the **Unified Serv
 
 ## Download Unified Service Desk - Omnichannel for Customer Service packages
 
-Download:
+Download one of the following versions of the **OmnichannelUnifiedServiceDeskPackage.zip**, and save it on your computer.
 
+- [Unified Service Desk - Omnichannel for Customer Service package 3.2](https://go.microsoft.com/fwlink/p/?linkid=2154961)
 - [Unified Service Desk - Omnichannel for Customer Service package 3.1](https://go.microsoft.com/fwlink/p/?linkid=2147551)
 - [Unified Service Desk - Omnichannel for Customer Service package 3.0](https://go.microsoft.com/fwlink/p/?linkid=2143446)
 - [Unified Service Desk - Omnichannel for Customer Service package 2.3](https://go.microsoft.com/fwlink/p/?linkid=2141358)
 
-Download the **OmnichannelUnifiedServiceDeskPackage.zip**, and save it on your computer. When you extract the contents into a folder, the following are listed:
+When you extract the contents of the compressed file into a folder, the following items are listed:
 
 - PackageDeployer.exe
 
