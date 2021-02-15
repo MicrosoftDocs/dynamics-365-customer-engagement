@@ -16,7 +16,7 @@ manager: annbe
 
 [!INCLUDE[pn_dyn_365_sales](../includes/pn-dyn-365-sales.md)] helps you zero in on the right leads, contacts, and opportunities as you build out your team's sales pipeline. Built-in processes guide you from one stage of the sales process to the next, and  easy-to-use dashboards help you set goals and provide actionable insights to help you close more deals.  
 
-Use links in this article to familiarize with Dynamics 365 Sales.
+Use links in this article to familiarize with Dynamics 365 Sales Enterprise.
   
 <table>
 
