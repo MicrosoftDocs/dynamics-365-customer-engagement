@@ -114,3 +114,6 @@ Using the forecast grid, you can do the following tasks:
 [Configure a forecast](configure-forecast.md)<br>
 [Analyze revenue outcome by using predictive forecasting](https://docs.microsoft.com/dynamics365/ai/sales/analyze-revenue-outcome-using-predictive-forecasting)<br>
 [Retrieve forecast and snapshot data using msdyn_ForecastInstanceActions for GDPR](developer/reference/entities/export-forecast-data.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

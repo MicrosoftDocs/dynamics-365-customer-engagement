@@ -117,3 +117,6 @@ The following example shows a [web template](https://docs.microsoft.com/powerapp
 ### See also
 [Get started with the portal content editor](get-started-portal-content-editor.md)  
 [Add dynamic content and create custom templates](custom-templates-dynamic-content.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

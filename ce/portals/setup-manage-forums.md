@@ -83,3 +83,6 @@ The table below explains many of the Forum attributes used by portals. It is imp
 [Create forum posts on the portal](create-forum-posts.md)  
 [Moderate forums](moderate-forums.md)  
 [Subscribe to alerts](subscribe-alerts.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

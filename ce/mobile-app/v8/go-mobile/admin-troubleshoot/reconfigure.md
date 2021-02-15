@@ -41,3 +41,6 @@ search.app:
   
    You can now sign in to a different server or organization.  
   
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

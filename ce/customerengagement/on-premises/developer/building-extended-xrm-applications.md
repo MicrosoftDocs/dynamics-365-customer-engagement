@@ -162,3 +162,6 @@ Dynamics 365 Customer Engagement (on-premises) offers customers, partners, indep
  [Extend Dynamics 365 Customer Engagement (on-premises) for Outlook](extend-customer-engagement-outlook.md)   
  [Integrate Dynamics 365 Customer Engagement (on-premises) with SharePoint](integration-dev/integrate-sharepoint.md)   
  [Integrate Dynamics 365 Customer Engagement (on-premises) with OneNote](integration-dev/integrate-onenote.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

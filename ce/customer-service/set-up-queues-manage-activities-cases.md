@@ -172,3 +172,6 @@ To assign items in the queue to agents, select **Assign** after selecting one or
 ### See also  
 
 [Work with Queues in the Customer Service Hub](customer-service-hub-user-guide-basics.md#work-with-queues)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

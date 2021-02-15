@@ -52,3 +52,6 @@ You can view the entities in the **Omnichannel Administration** site map.
 - [Create and manage operating hours](create-operating-hours.md)<br>
 - [Create chat authentication settings](create-chat-auth-settings.md)<br>
 - [Embed chat widget in Power Apps portals](embed-chat-widget-portal.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -134,3 +134,6 @@ You can secure and manage [!INCLUDE[pn_Mobile_Express_long](../../../includes/pn
   
 - Contact [Good Technology](https://www1.good.com/) regarding the specific support that can be provided with your suite/pricing, as well as the correct server setup for your needs and situation.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

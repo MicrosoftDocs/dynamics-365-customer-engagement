@@ -36,3 +36,6 @@ To start, a team member with a **Playbook manager** role or equivalent permissio
 [Track playbook activities](track-playbook-activities.md)  <br>
 [What's new in Dynamics 365 Sales](whats-new.md)<br />
 [Entity reference for playbooks](developer/reference/playbook-entity-reference.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

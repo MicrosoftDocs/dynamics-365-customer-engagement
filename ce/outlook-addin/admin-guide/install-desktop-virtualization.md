@@ -105,3 +105,6 @@ This topic describes how to install [!INCLUDE[pn_crm_for_outlook_short](../../in
 ### See Also  
  [Install or upgrade language packs for Microsoft Dynamics 365 apps](https://technet.microsoft.com/library/hh699674.aspx)   
  [Planning and installing Dynamics 365 for Outlook for Microsoft Dynamics 365 apps and Dynamics 365 apps Online](planning-installing.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -128,3 +128,6 @@ For a new custom entity, you will need to enable the proper Security Role permis
 [Design your digital content](design-digital-content.md)  
 [Design elements reference](content-blocks-reference.md)  
 [Create, view, and manage marketing forms](marketing-forms.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

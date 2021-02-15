@@ -549,3 +549,6 @@ Because a webhook is a kind of service endpoint you can also invoke it without r
 [AsynchronousOperations Entity](entities/asyncoperation.md)<br />
 <xref:Microsoft.Xrm.Sdk.RemoteExecutionContext><br />
 <xref:Microsoft.Xrm.Sdk.IServiceEndpointNotificationService><br />
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

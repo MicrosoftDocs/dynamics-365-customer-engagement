@@ -58,3 +58,6 @@ You can perform actions such as create, retrieve, update, or delete, on organiza
  [Dashboard Entities](dashboard-entities.md)   
  [Sample: Create, Retrieve, Update and Delete (CRUD) a Dashboard](sample-create-retrieve-update-delete-dashboard.md)   
  [Sample: Assign a User-Owned Dashboard to Another User](sample-assign-user-owned-dashboard-another-user.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

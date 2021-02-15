@@ -396,3 +396,5 @@ A list of `UpdateSimpleColumnByEntityResponse` records consisting of `ForecastIn
 ## See also
 
 [Custom actions for forecasting](../custom-actions-manual-forecasting.md)
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -112,3 +112,6 @@ The following requirements and recommendations apply to new and existing install
 ## See also  
 [Microsoft SQL Server hardware requirements for Microsoft Dynamics 365 Server](sql-server-hardware-requirements-dynamics-365-server.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

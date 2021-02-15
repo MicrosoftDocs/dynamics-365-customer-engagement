@@ -160,3 +160,6 @@ It is important to note that the way in which many of the content/display-orient
 [Get started with the portal content editor](get-started-portal-content-editor.md)  
 [Add dynamic content and create custom templates](custom-templates-dynamic-content.md)  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

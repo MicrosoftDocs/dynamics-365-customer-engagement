@@ -70,3 +70,6 @@ Existing Outlook COM add-in users will experience the following behavior:
  [!INCLUDE[cc_privacy_crm_go_offline_in_outlook](../../includes/cc-privacy-crm-go-offline-in-outlook.md)]  
   
  [!INCLUDE[cc_privacy_crm_sync_to_outlook](../../includes/cc-privacy-crm-sync-to-outlook.md)]  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

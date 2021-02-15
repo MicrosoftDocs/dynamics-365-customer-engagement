@@ -90,3 +90,6 @@ Custom controls let you transform fields that traditionally contain text into vi
  [Create and edit views](../customize/create-edit-views.md)</br>
  [Customize Dynamics 365 for phones and tablets](../customize/customize-phones-tablets.md)</br>
  [Make grids (lists) editable in Dynamics 365 Customer Engagement (on-premises) using the Editable Grid custom control](../customize/make-grids-lists-editable-custom-control.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

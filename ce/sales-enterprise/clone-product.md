@@ -46,3 +46,6 @@ When you're creating a new product, family or bundle, save time by cloning an ex
 ### See Also  
  [Create a product](create-product-sales.md)   
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

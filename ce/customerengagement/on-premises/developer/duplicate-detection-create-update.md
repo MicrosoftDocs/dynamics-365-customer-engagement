@@ -52,3 +52,6 @@ For more information and example on how to prohibit creation of duplicate record
 [Sample: Use duplicate detection when creating and updating records](org-service/sample-use-duplicate-detection-when-creating-and-updating-records.md)  
 [Sample: Detect multiple duplicate records](org-service/sample-detect-multiple-duplicate-records.md)  
 [Run duplicate detection](run-duplicate-detection.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

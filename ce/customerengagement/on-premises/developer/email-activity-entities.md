@@ -139,3 +139,6 @@ ObjectId = new EntityReference(Template.EntityLogicalName, _templateId), ObjectT
  [Sample code for activity entities](sample-code-activity-entities.md)   
  [Email Entity](entities/email.md)   
  [ActivityMimeAttachment Entity](entities/activitymimeattachment.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

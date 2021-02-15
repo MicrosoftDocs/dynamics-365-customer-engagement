@@ -27,3 +27,6 @@ ms.custom:
 [Add Dynamics 365 Channel Integration Framework solution as a dependent solution](add-cif-solution-dependent-solution.md)
 
 [Pass Dynamics 365 URL to widget library](pass-url-widget-library.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

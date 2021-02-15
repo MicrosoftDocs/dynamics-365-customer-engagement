@@ -59,3 +59,6 @@ For more information about using each item on the developer resources page, see 
 [Get started with app making and customization](getting-started-customization.md)
   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

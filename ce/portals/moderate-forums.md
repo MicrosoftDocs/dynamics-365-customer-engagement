@@ -80,3 +80,6 @@ For portal users with moderation permission, moderation controls will automatica
 [Subscribe to alerts](subscribe-alerts.md)<br>
 [Manage forum access permissions](forum-access-permission.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -51,3 +51,6 @@ Compose an email using the enhanced experience:
 ### See also
 
 [Set up enhanced email](set-up-enhanced-email-sp.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

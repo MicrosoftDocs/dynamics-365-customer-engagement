@@ -189,3 +189,6 @@ search.audienceType:
  [Introduction to entity attributes](introduction-to-entity-attributes.md)   
  [Define calculated fields](https://technet.microsoft.com/library/dn832103.aspx)   
  [Define rollup fields](https://docs.microsoft.com/dynamics365/customer-engagement/customize/define-rollup-fields)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

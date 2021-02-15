@@ -5813,3 +5813,5 @@ See quote Entity [contactquotes_association](quote.md#BKMK_contactquotes_associa
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.contact?text=contact EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

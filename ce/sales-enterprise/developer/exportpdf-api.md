@@ -54,3 +54,5 @@ This method returns a byte array of contents of the PDF document file which is e
 ## See also
 
 [Developer guide for Dynamics 365 Sales](developer-guide.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

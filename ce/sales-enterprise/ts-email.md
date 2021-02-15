@@ -49,3 +49,6 @@ To resolve this issue, you must add the `onload` and `onchange` events to the cu
 ### See also
 
 [Dynamics 365 Sales troubleshooting guide](troubleshooting.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

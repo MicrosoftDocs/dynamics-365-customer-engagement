@@ -50,3 +50,5 @@ XRM tooling provides the following capabilities:
 
 [Sample: Quick start for XRM Tooling API](/powerapps/developer/common-data-service/xrm-tooling/sample-quick-start-xrm-tooling-api)<br />
 [Simplified connection quick start](/powerapps/developer/common-data-service/xrm-tooling/sample-simplified-connection-quick-start)
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

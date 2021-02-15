@@ -34,3 +34,6 @@ The following catalog is organized from core knowledge to specific domains, and 
 |-------|------|
 | [Exam MB-400: Microsoft Power Apps + Dynamics 365 Developer](https://docs.microsoft.com/learn/certifications/exams/mb-400) | Take this exam if you are a developer who works with Microsoft Power Apps model-driven apps in Dynamics 365 to design, develop, secure, and extend a Dynamics 365 implementation.  | Exam, cost varies by region |  |
 |||
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

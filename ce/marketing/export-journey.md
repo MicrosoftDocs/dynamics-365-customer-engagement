@@ -35,3 +35,5 @@ You can now export all customer journey interactions into a .CSV file for furthe
 
 > [!IMPORTANT]
 > You cannot download different categories of interactions (e.g., **Sent** + **Delivered** + **Blocked** + **Delivery failed**) all at once into a single file. You must export each category individually.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

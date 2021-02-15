@@ -105,3 +105,6 @@ Administrators can configure the number of records that are listed in the resour
 [Create resource groups](uci-create-resource-groups.md)
 
 [Use sites to manage your service locations](uci-create-sites.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

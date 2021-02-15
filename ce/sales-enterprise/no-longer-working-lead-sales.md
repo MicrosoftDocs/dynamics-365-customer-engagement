@@ -29,3 +29,6 @@ You'll need to disqualify the lead and give the reason.
 ### See also  
  [Create or edit a lead](../sales-enterprise/create-edit-lead-sales.md)   
  [Reopen a lead](../sales-enterprise/re-open-lead-sales.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

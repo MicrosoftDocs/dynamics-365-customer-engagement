@@ -71,3 +71,5 @@ Before beginning to create a service activity, make sure you have the Scheduler 
 [Create resource groups](uci-create-resource-groups.md)  
 [Use sites to manage your service locations](uci-create-sites.md)  
 [Navigate the service calendar](uci-navigate-service-calendar.md)  
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

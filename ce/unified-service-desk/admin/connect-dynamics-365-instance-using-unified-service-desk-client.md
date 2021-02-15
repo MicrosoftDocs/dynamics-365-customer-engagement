@@ -196,3 +196,6 @@ If you need to modify the default sign-in information, you must repeat steps 1 t
  [Learn to use Unified Service Desk](../../unified-service-desk/learn-to-use-unified-service-desk.md)   
  [Unified Service Desk configuration walkthroughs](../../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)   
  [Administer and manage overview](../../unified-service-desk/admin/administer-manage-unified-service-desk.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -65,3 +65,6 @@ When you customize system entity or system attribute display names, some message
  [Customize Labels to Support Multiple Languages](customize-labels-support-multiple-languages.md)   
  <xref:Microsoft.Crm.Sdk.Messages.ExportTranslationRequest>   
  <xref:Microsoft.Crm.Sdk.Messages.ImportTranslationRequest>
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

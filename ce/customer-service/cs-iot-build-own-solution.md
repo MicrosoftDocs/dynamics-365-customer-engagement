@@ -45,3 +45,6 @@ Here are the 3 things you need to get started building your own IoT solution:
  
 [Check out more Azure documentation resources](https://docs.microsoft.com/azure/iot-hub/)  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

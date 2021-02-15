@@ -103,3 +103,6 @@ Use goals to keep track of your progress on achieving target revenue.
   
 ### See also  
  [Create or edit a goal rollup query](../sales-enterprise/create-edit-goal-rollup-query-sales.md)   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

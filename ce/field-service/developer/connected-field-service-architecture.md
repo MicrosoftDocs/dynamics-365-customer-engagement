@@ -76,3 +76,6 @@ For this topic, the words **data** and **telemetry** refer to information sent f
 ### See also
 
 [Connected Field Service with Azure IotHub Overview](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/developer/connected-field-service-developer-guide)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

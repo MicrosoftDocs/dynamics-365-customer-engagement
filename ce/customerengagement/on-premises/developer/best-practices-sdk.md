@@ -361,3 +361,6 @@ Create a new website for your code when any of the following applies:
  [Write Code for Dynamics 365 Customer Engagement (on-premises) Forms](clientapi/client-scripting.md)   
  [Plug-ins for Extending Dynamics 365 Customer Engagement (on-premises)](write-plugin-extend-business-processes.md)   
  [Custom Workflow Activities (Workflow Assemblies)](custom-workflow-activities-workflow-assemblies.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

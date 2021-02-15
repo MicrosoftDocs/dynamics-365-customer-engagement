@@ -55,3 +55,6 @@ If you are upgrading from preview release to the latest version, then earlier co
 [Understand and create work streams](work-streams-introduction.md)
 
 [Create multiple work streams for entity records routing](multiple-ws-entity-record-routing.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

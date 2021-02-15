@@ -53,3 +53,6 @@ To go to this setting:
 ### See also
 [Qualify or convert leads](qualify-lead-convert-opportunity-sales.md)  
 [Create or edit leads](create-edit-lead-sales.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

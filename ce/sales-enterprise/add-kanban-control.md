@@ -72,3 +72,6 @@ There are a few customization restrictions that you should be aware of:
 [Work with opportunities in the Kanban view](opportunity-kanban-view.md)  
 
 [Work with activities in the Kanban view](activity-kanban-view.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

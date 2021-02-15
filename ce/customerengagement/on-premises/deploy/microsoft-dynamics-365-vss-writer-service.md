@@ -70,3 +70,6 @@ Set-DPMGlobalproperty -dpmservername DPM_SRVR_NAME -registeredwriters APPS_VSS_W
  [Microsoft Dynamics 365 Customer Engagement (on-premises) data protection and recovery](microsoft-dynamics-365-data-protection-and-recovery.md)   </br>
  [Back up the Microsoft Dynamics 365 Customer Engagement (on-premises) System](back-up-the-microsoft-dynamics-365-system.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

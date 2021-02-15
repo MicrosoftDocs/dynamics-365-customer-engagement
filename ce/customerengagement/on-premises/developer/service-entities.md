@@ -64,3 +64,6 @@ The entities described in this section are targeted at the customer service depa
  [Product Catalog Entities](product-catalog-entities.md)  
   
  [Sales Literature Entities](sales-literature-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

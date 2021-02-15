@@ -145,3 +145,6 @@ For more information, see [Discover the URL for your organization using the Orga
 
  [Write Code for Dynamics 365 Customer Engagement Web Services](extend-dynamics-365-server.md)   
  [Use the IOrganizationService web service to read and write data or metadata](org-service/use-organization-service-read-write-data-metadata.md)   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

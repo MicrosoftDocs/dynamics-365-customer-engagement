@@ -44,3 +44,6 @@ First things first—you need to sign in to your [!INCLUDE[pn_gamification](../i
 [Concepts to learn before you get started using Gamification](get-started.md)   
 [Draft and manage your fantasy teams in Gamification](manage-fantasy-team.md)   
 [Ask game-specific questions or report issues to the commissioner](contact-commissioner.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

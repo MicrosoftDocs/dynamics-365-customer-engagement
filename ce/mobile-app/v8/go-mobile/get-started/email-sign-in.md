@@ -63,3 +63,6 @@ This list identifies all services to which Dynamics 365 for Phones and Tablets t
 
 
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

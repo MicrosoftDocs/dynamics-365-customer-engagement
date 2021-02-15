@@ -66,3 +66,6 @@ Each role in the scheduling experience is expected to perform a set of actions. 
 ### See also  
 
 [Create or edit a security role to manage access](../admin/create-edit-security-role.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

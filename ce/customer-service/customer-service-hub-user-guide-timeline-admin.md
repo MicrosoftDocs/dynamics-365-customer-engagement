@@ -472,3 +472,6 @@ You can configure the file types that are blocked from being added as file attac
 [Use timeline](customer-service-hub-user-guide-timeline-overview.md)<BR>
 [Timeline FAQs](timeline-faqs.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -174,3 +174,6 @@ The Field Service Settings page allows system administrators to set default sett
  [Installation](../field-service/install-field-service.md)   
  [View user accounts and security roles](../field-service/view-user-accounts-security-roles.md)   
  [Turn on auto geocoding](../field-service/turn-on-auto-geocoding.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

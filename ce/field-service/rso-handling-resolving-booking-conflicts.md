@@ -44,3 +44,6 @@ After selecting **Apply with Overwrite** or **Discard**, the optimization status
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of requirement group with 2 requirements](./media/scheduling-rso-3-0-booking-conflict2.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

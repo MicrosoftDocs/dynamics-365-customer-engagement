@@ -150,3 +150,6 @@ You’re now ready to use the PowerShell cmdlet. To list the cmdlets that you re
 [Use XRM Tooling API to connect to Dataverse](/powerapps/developer/common-data-service/xrm-tooling/use-crmserviceclient-constructors-connect)<br />
 [Build Windows client applications using the XRM tools](/powerapps/developer/common-data-service/xrm-tooling/build-windows-client-applications-xrm-tools)<br /> 
 [Blog: PowerShell module for performing data operations and manipulating user and system settings in Dynamics 365 Customer Engagement (on-premises)](https://blogs.msdn.com/b/crm/archive/2015/09/25/powershell-module-for-performing-data-operations-and-manipulating-user-and-system-settings-in-crm.aspx)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

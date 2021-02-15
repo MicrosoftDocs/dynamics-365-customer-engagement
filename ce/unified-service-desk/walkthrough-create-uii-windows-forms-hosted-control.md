@@ -223,3 +223,6 @@ This walkthrough demonstrates how you can build a [Windows Forms](https://msdn.m
 ### See also  
  [Work with UII Hosted Controls](../unified-service-desk/use-uii-hosted-controls-unified-service-desk.md)   
  [Walkthrough: Create a WPF UII Hosted Control](../unified-service-desk/walkthrough-create-uii-wpf-hosted-control.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

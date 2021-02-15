@@ -118,3 +118,6 @@ aadB2CConfig: {
     redirectUri: 'https://localhost:4200'
 }
 ```
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

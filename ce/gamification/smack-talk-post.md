@@ -42,3 +42,6 @@ A [!INCLUDE[pn_gamification](../includes/pn-gamification.md)] competition includ
  [Overview for players and fans in Gamification](for-players-fans.md)  
  [Draft and manage your fantasy teams in Gamification](manage-fantasy-team.md)  
  [See how you rank against other players on a Gamification leaderboard](view-leaderboard.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

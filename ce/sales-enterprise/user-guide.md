@@ -122,3 +122,6 @@ Use links in this article to familiarize with Dynamics 365 Sales Enterprise.
 </tr>
 
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -157,3 +157,6 @@ When you import the solution, it creates the **min prv apps use** role which you
  [Security concepts for Dynamics 365 for Customer Engagement](../admin/security-concepts.md)   
  [Manage security, users and teams](../admin/manage-security-users-and-teams.md)   
  [Copy a security role](../admin/copy-security-role.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

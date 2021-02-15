@@ -48,3 +48,6 @@ You can create and design dashboards to show the information that you want exact
   
 ### See also  
 [create or customize dashboards](create-edit-dashboards.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

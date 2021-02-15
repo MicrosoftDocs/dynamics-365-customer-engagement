@@ -25,3 +25,6 @@ Implementers and administrators for Dynamics 365 Customer Engagement (on-premise
 [Developer Guide](../developer/overview.md)<br />
 [Dynamics 365 Customer Engagement (on-premises) Help](../overview.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

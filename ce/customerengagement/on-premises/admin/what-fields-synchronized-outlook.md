@@ -228,3 +228,6 @@ Dynamics 365 Customer Engagement (on-premises) administrators can set whether a 
 3. **Start Date:** When a task is created and tracked in [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)], the system assigns the task a reminder time. Reminder information is not synced from [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] to Customer Engagement (on-premises). However, when a task has Due Time set in Customer Engagement (on-premises), it will be synchronized to Reminder Time in [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)].  
   
 ### See also  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

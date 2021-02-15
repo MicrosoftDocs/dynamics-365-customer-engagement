@@ -60,3 +60,6 @@ To view more videos on Omnichannel for Customer Service, see [Videos](videos.md)
 [Agents using Omnichannel for Customer Service app](omnichannel-customer-service-app-agent.md)  
 [System customizers guide](omnichannel-customizer.md)  
 [Developer guide](developer/omnichannel-developer.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

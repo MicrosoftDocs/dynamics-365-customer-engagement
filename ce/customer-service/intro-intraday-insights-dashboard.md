@@ -59,3 +59,6 @@ To view more videos on Omnichannel for Customer Service, see [Videos](videos.md)
 [View and understand Omnichannel intraday insights dashboard](intraday-insights-dashboard.md)  
 [View and understand Ongoing Conversations dashboard](ongoing-conversations-dashboard.md)  
 [Monitor conversations](monitor-conversations.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

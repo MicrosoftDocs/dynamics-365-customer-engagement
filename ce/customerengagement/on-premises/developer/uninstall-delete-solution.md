@@ -77,3 +77,5 @@ You delete managed and unmanaged solutions in the same way, but the resulting ac
  [Create Solutions that Support Multiple Languages](create-solutions-support-multiple-languages.md)   
  [Install a Managed Solution](create-install-update-managed-solution.md#BKMK_InstallManagedSolution)
  
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

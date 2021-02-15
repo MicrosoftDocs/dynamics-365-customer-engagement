@@ -124,3 +124,6 @@ Let us take the preceding example to learn how to resolve the error.
 [Introduction to migration of entity records](introduction-migration-entity-records.md)
 
 [Plan your migration](plan-migration.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

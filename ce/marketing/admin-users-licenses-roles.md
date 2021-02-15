@@ -209,3 +209,6 @@ The system uses this account when performing important internal tasks, and Marke
 [Manage teams](manage-teams.md)  
 [Add users individually or in bulk to Microsoft 365](https://docs.microsoft.com/office365/admin/add-users/add-users)  
 [Assign licenses to users in Microsoft 365 for business](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

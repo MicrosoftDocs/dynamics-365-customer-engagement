@@ -150,3 +150,6 @@ As mentioned in the introduction to this topic, page personalization requires th
 1. Fill out all the fields on the registration form and be sure to mark the "remember me" check box. When you submit the form, Dynamics 365 Marketing will set a cookie in your browser, which enables the system to identify you the next time you open a marketing page.
 1. Allow about 30 seconds for the system to process the submission and create a new contact record.
 1. Open your personalized marketing page and confirm the personalization features work as expected.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

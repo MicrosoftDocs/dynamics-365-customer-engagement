@@ -59,3 +59,6 @@ Track the high influencers and the customers for your business, and save them as
 ### See also
 
 [Sample application using Microsoft Dynamics CRM Social Care Framework](https://msdn.microsoft.com/library/dn744885(v=crm.6).aspx)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

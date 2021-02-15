@@ -65,3 +65,6 @@ search.audienceType:
   
 ### See also  
  [Administration Guide: Data encryption](https://technet.microsoft.com/library/dn531199\(v=crm.7\).aspx)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

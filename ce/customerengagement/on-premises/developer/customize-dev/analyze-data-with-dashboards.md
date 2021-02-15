@@ -54,3 +54,6 @@ A user-owned dashboard is represented by the `UserForm` entity, can be assigned 
  [Sample: Assign a User-Owned Dashboard to Another User](sample-assign-user-owned-dashboard-another-user.md)   
  [Visualization data description schema](visualization-data-description-schema.md)     
  [Customize visualizations and dashboards](customize-visualizations-dashboards.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

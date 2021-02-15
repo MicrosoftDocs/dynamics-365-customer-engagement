@@ -80,3 +80,6 @@ Users who migrate to universal resource scheduling will have enabled the Appoint
 - The potential exists that you might create endless loops if you also have universal resource scheduling configured to automatically create Appointment records for bookable resources after a booking record has been created.
 
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

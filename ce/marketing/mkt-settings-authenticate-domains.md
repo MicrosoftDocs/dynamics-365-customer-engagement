@@ -137,3 +137,6 @@ To benefit from DKIM, the from-address for each message you send must show a dom
 [Best practices for email marketing](get-ready-email-marketing.md)  
 [Integrate with landing pages on external websites](embed-forms.md)  
 [page personalization](personalized-page-content.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

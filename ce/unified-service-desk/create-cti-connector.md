@@ -98,3 +98,6 @@ The [!INCLUDE[pn_cti_connector](../includes/pn-cti-connector.md)] component in y
  [Create a CTI Control](../unified-service-desk/create-cti-control.md)
  [UII Computer Telephony Integration (CTI) framework](../unified-service-desk/uii-computer-telephony-integration-cti-framework.md)
  [Walkthrough: Use generic listener adapter for CTI events](../unified-service-desk/walkthrough-use-the-generic-listener-adapter-for-cti-event-routing.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

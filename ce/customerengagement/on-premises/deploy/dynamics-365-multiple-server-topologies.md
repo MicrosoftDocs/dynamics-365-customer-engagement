@@ -115,3 +115,6 @@ This section provides examples of various multiple-server topologies.
  [Microsoft Dynamics 365 multiple-server deployment](microsoft-dynamics-365-multiple-server-deployment.md)   </br>
  [Upgrading from Microsoft Dynamics CRM](plan-your-upgrade-to-microsoft-dynamics-365-server.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

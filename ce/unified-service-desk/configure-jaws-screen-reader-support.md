@@ -146,3 +146,6 @@ The XAML example for Session Overview control displays you the **UserControl** w
     </controlStyles:USDTab>
 </TabControl>
 ```
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

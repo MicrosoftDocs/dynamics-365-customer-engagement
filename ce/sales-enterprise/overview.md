@@ -63,3 +63,6 @@ Dynamics 365 Sales is available in the following flavors [!INCLUDE[pn-dyn-365-sa
 ### See also
 [Learn the basics of Dynamics 365 Sales](user-guide-learn-basics.md)  
 [User Guide](../sales-enterprise/user-guide.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -112,3 +112,6 @@ To change the keyboard shortcut:
 [Manage Options for Unified Service Desk](../../unified-service-desk/admin/manage-options-unified-service-desk.md)
 
 [Use Chrome Process to host web application](../chrome-process.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

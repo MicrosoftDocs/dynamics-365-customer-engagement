@@ -73,3 +73,6 @@ You can maximize the chat widget by selecting it.
 [Embed chat widget in your website or Power Apps portal](embed-chat-widget-portal.md)  
 [Supported browsers for live chat widget](system-requirements-omnichannel.md#browsers-for-chat)  
 [Render a live chat widget on the mobile app](render-live-chat-widget-mobile.md)   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

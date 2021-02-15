@@ -64,3 +64,5 @@ To display the context variables in the Conversation Summary Control for a conve
 [removeContextProvider](developer/reference/methods/removeContextProvider.md)  
 [JavaScript API reference](developer/omnichannel-reference.md)  
 [Configure context variables for a bot](context-variables-for-bot.md)  
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

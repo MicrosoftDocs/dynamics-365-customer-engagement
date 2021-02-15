@@ -82,3 +82,6 @@ This section provides information about the various types of hosted controls in 
  [Extend Unified Service Desk](../unified-service-desk/extend-unified-service-desk.md)  
   
  [Unified Service Desk Developer Overview](../unified-service-desk/admin/overview-unified-service-desk.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

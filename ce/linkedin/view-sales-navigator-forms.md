@@ -76,3 +76,6 @@ If no company account is associated with a person's profile, there's no company 
 [Overview for LinkedIn Sales Navigator solutions](integrate-sales-navigator.md)     
 [Install and configure LinkedIn Sales Navigator Controls](install-sales-navigator.md)   
 [Customize forms to show Sales Navigator controls](add-sales-navigator-controls-forms.md)    
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

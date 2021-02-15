@@ -50,3 +50,6 @@ search.app:
 [Configure a matching strategy to update leads from LinkedIn Lead Gen ads](configure-matching-strategy.md)
 [Analyze leads and lead performance](review-leads.md)
 [Microsoft Online Services Privacy Statement](https://go.microsoft.com/fwlink/p/?LinkId=512132)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -230,3 +230,6 @@ OData-Version: 4.0
 ### See also
 
 [Omnichannel for Customer Service for developers](developer/omnichannel-developer.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -51,3 +51,5 @@ Developers who extend Dynamics 365 Customer Engagement (on-premises) have a resp
 
 ### See also
 [App making and customization overview for Dynamics 365 for Customer Engagement, version 9 (on-premises)](overview.md)
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

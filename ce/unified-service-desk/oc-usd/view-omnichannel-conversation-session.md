@@ -53,3 +53,6 @@ The omnichannel session displays information about a conversation request.
 ## See also
 
 - [View customer summary and know everything about customers](customer-summary.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

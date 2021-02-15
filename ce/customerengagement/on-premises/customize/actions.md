@@ -60,3 +60,6 @@ Developers can learn more in this topic: [Create your own actions](../developer/
  [Invoke custom actions from a workflow or dialog](../customize/invoke-custom-actions-workflow-dialog.md) <br />
  [Workflow processes overview](../customize/workflow-processes.md)   
  [Business process flows overview](../customize/business-process-flows-overview.md)   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

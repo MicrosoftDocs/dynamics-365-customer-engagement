@@ -228,3 +228,6 @@ For standard Dynamics 365 environments (without Marketing installed), you can us
 [Move configuration data across environments and organizations](https://docs.microsoft.com/power-platform/admin/manage-configuration-data)  
 [Solutions overview](https://docs.microsoft.com/powerapps/maker/common-data-service/solutions-overview)  
 [Import, update, and export solutions](https://docs.microsoft.com/powerapps/maker/common-data-service/import-update-export-solutions)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

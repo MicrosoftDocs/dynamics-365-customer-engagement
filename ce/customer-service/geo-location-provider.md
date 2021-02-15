@@ -58,3 +58,6 @@ To enable location detection, you must first get your Bing Maps API key and crea
 
 NOTE: Bing Maps is not provisioned in a dedicated data center for exclusive use by you and does not provide data segregation, such as for the Government Community Cloud. Your use of Bing Maps shall not be subject to any product-specific terms and conditions applicable to Dynamics 365 online for Government. If you do not wish to use the Visitor Location feature, then you must ensure that your administrator keeps the feature off.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

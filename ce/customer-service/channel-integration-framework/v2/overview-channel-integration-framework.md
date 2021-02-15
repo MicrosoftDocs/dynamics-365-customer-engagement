@@ -113,3 +113,6 @@ Additional capabilities offered by Dynamics 365 Channel Integration Framework in
 [Support multiple providers](support-multiple-providers.md)
 
 [Bring your own channel](../../../omnichannel/developer/how-to/bring-your-own-channel.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

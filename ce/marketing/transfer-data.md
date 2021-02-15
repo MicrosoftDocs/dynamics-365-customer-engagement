@@ -172,3 +172,6 @@ To import data to your destination environment:
 [Environments overview](https://docs.microsoft.com/power-platform/admin/environments-overview)  
 [Move configuration data across environments and organizations](https://docs.microsoft.com/power-platform/admin/manage-configuration-data)  
 [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

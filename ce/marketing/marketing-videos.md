@@ -72,3 +72,6 @@ More information:
 ## Browse all Dynamics 365 videos on YouTube
 
 You can always find the latest videos for all Dynamics 365 products by going to our [YouTube channel](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

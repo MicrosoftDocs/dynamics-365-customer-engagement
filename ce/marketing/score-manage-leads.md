@@ -193,3 +193,6 @@ To find all the leads that a selected model has scored:
 [Manage customer information](manage-customer-information.md)  
 [Accessibility and keyboard shortcuts](designer-shortcuts.md)  
 [Go live with publishable entities and track their status](go-live.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

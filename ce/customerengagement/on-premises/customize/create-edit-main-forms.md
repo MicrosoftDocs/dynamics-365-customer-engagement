@@ -73,3 +73,6 @@ Make sure that you have the System Administrator or System Customizer security r
 ### See also  
 [Create and design forms](../customize/create-design-forms.md)</br>
  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

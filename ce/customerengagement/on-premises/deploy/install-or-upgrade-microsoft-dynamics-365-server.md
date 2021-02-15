@@ -115,3 +115,6 @@ This section explains how to install [!INCLUDE[pn_microsoftcrm_server](../includ
  [Microsoft Dynamics 365 Customer Engagement (on-premises) Installation Guide](installing-on-premises-dynamics-365.md) </br>   
  [Install and enable a Language Pack](install-and-enable-a-language-pack.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

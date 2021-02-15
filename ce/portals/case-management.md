@@ -75,3 +75,6 @@ This list includes (can be configured): blog posts, web content (web pages), for
 ### Turn off case deflection
 
 To turn off case deflection, you must [create a site setting](configure-site-settings.md) named HelpDesk/CaseDeflection/Enabled and set its value to false.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

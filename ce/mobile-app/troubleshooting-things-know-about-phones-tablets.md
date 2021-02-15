@@ -273,3 +273,6 @@ If the information provided previously doesn’t resolve your issue, either [Pos
  [Set up Dynamics 365 for phones and tablets](set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

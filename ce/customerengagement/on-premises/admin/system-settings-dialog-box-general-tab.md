@@ -84,3 +84,6 @@ Use the settings on this page to change general system-level settings like prefe
 ### See also  
  [Manage auto-save](../customize/manage-auto-save.md)   
  [Customize the Help experience](../customize/manage-auto-save.md)   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

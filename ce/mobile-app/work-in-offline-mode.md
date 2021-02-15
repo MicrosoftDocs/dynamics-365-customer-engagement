@@ -140,3 +140,6 @@ For information on capabilities and limitations of mobile offline, see [Mobile o
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

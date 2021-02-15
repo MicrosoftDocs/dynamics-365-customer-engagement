@@ -55,3 +55,6 @@ Display an option to delete the sample data created. The deletion is optional in
 [Tutorials for Learning About Dynamics 365 Customer Engagement Development apps](tutorials-resources-sdk.md)<br />
 [Sample: Simplified Connection Quick Start using Dynamics 365 Customer Engagement (on-premises)](xrm-tooling/sample-simplified-connection-quick-start.md)<br />
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

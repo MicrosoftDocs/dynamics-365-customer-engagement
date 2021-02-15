@@ -38,3 +38,6 @@ Get started with setting up your first game. [!INCLUDE[proc_more_information](..
  [Keep your employees engaged and productive by using Gamification](increase-employee-productivity.md)   
  [Install and configure the Gamification solution in Dynamics 365 apps](manage-gamification-in-dynamics-365-online.md)   
  [Set up and run games in Gamification](run-games.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

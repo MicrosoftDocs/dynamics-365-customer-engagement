@@ -22,3 +22,6 @@ search.audienceType:
 # Support for devices
 
 For information about Customer Engagement (on-premises) support for mobile devices, see [What's supported](../../../mobile-app/support-phones-tablets.md) in the Phones and Tablets Administrator Guide.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

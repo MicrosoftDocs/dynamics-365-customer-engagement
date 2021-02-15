@@ -71,3 +71,6 @@ Motivate customers to buy more by offering them discounts on bulk purchases. To 
   
 ### See also  
  [System Settings dialog box - Sales tab](../admin/system-settings-dialog-box-sales-tab.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

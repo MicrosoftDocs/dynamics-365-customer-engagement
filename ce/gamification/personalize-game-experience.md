@@ -151,3 +151,6 @@ You can opt in for early access to newly developed features to evaluate them for
  [Overview for commissioners and game managers in Gamification](for-commissioners-game-managers.md)   
  [Set up and run games in Gamification](run-games.md)   
  [Manage Stream TV games in Gamification](configure-view-tvs.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
