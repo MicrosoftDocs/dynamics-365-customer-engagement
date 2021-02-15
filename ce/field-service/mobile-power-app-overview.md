@@ -35,3 +35,6 @@ Available natively for Apple iOS and Google Android phones and tablets, the Fiel
 For a guided walkthrough, check out the following video.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HKRL]
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

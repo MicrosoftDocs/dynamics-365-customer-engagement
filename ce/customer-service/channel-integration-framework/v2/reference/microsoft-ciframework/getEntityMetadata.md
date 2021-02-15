@@ -19,3 +19,6 @@ applies_to:
 [!INCLUDE[getEntityMetadata-description](includes/getEntityMetadata-description.md)] 
 
 [!INCLUDE[token-getEntityMetadata](../../../shared/token-getEntityMetadata.md)]
+
+
+[!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]

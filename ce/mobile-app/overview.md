@@ -48,3 +48,6 @@ There are separate mobile apps for:
 [Dynamics 365 Documentation](https://docs.microsoft.com/dynamics365/)<br/>
 [Microsoft Dataverse Help](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)<br/>
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

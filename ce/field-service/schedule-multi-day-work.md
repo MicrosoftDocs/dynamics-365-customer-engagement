@@ -21,3 +21,5 @@ search.app:
 # Schedule work over multiple days in Dynamics 365 Field Service
 
 [!INCLUDE[schedule-multi-day-work.md](../shared/urs/schedule-multi-day-work.md)]
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

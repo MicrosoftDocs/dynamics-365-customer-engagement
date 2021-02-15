@@ -89,3 +89,6 @@ Use the specific class for each attribute type with the `CreateAttribute` messag
  [Sample: Dump Attribute Metadata to a File](org-service/sample-dump-attribute-metadata-file.md)   
  [Sample: Dump Attribute Picklist Metadata to a File](org-service/sample-dump-attribute-picklist-metadata-file.md)   
  [Sample: Convert date and time behavior](org-service/sample-convert-date-time-behavior.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

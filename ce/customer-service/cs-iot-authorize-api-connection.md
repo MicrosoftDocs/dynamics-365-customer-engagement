@@ -46,3 +46,6 @@ Finally, select **Authorize**, **Save**, and use your Dynamics 365 credentials t
 > ![Screenshot of authorizing the subscription](media/cs-iot-hub-api-connection-authorize.png)
 
 Congratulations! You are now ready to pass data between Azure IoTHub and Dynamics 365 to use Connected Customer Service.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

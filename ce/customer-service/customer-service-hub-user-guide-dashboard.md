@@ -200,3 +200,6 @@ In the streams, the color is depicted using the thin vertical line to the left o
   
 
   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

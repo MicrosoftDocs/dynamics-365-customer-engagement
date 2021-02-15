@@ -167,3 +167,6 @@ More information: [Sample code for softphone integration using Dynamics 365 Chan
 [Frequently asked questions](../faq-channel-integration-framework.md)<br />
 [updateConversation API](reference/microsoft-ciframework/updateConversation.md)<br />
 [logAnalyticsEvent](reference/microsoft-ciframework/logAnalyticsEvent.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

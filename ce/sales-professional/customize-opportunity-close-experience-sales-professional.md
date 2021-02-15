@@ -136,3 +136,6 @@ either from the Opportunity timeline or from the **Related Activities** grid, wh
 ### See also
 [Create or edit opportunities](manage-opportunities-sales-professional.md#close-an-opportunity)  
 [Enable customization of the Opportunity Close form](enable-opportunity-close-customization-sales-professional.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

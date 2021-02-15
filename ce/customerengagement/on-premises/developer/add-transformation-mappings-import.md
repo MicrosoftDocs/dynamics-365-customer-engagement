@@ -209,3 +209,6 @@ Use transformation mapping to modify data before importing it. For example, spli
  [Import Data in Dynamics 365 Customer Engagement (on-premises)](import-data.md)   
  [Create data maps for import](create-data-maps-for-import.md)   
  [Configure Data Import](configure-data-import.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -213,3 +213,6 @@ If you're running [!include[pn-windows-7](../../includes/pn-windows-7.md)] or ea
 [System configurations](../admin/system-configurations-bpa.md)
 
 [Unified Service Desk configurations](../admin/unified-service-desk-configurations-bpa.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

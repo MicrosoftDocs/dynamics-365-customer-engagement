@@ -59,3 +59,5 @@ Increase seller productivity by enabling the enhanced experience for searching a
 ### See also
 
 [Add products to an opportunity by using the enhanced experience](add-products-enhanced-experience-sp.md)  
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

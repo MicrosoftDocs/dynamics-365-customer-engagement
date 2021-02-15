@@ -1023,3 +1023,5 @@ See organization Entity [organization_msdyn_schedulingparameter](organization.md
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_schedulingparameter?text=msdyn_schedulingparameter EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

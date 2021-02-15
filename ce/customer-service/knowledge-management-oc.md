@@ -40,3 +40,6 @@ To know more about how to configure the external portal in the **Customer Servic
 
 [Search and share knowledge articles](oc-search-knowledge-articles.md)  
 [Search and share knowledge articles in Customer Service workspace](csw-search-knowledge-articles.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

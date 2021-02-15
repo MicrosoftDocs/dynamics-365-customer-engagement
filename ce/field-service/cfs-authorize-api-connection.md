@@ -60,3 +60,6 @@ Congratulations! You are now ready to pass data between Azure IoT Hub and Dynami
 ### See also
 
 [Azure subscription prerequisites for Connected Field Service with IoT Hub](cfs-azure-subscription.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

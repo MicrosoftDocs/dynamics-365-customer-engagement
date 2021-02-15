@@ -34,3 +34,6 @@ The [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] services are des
   
  You use the setspn.exe command-line tool to read, modify, and delete the Service Principal Names (SPN) directory property for an [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] service account. Setspn is included with [!INCLUDE[pn_ms_Windows_Server_long](../includes/pn-ms-windows-server-long.md)]. Notice that you must have **Validated write to service principal name** permissions to complete operations using setspn. For more information about setspn, see [Setspn](https://go.microsoft.com/fwlink/p/?LinkID=194151).
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

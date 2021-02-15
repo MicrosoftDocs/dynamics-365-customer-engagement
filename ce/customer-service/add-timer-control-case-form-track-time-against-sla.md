@@ -107,3 +107,6 @@ For more information, see: [Track SLA details with Timer Control](customer-servi
 
 [Track SLA details with Timer Control](customer-service-hub-user-guide-case-sla.md#track-sla-details-with-timer-control)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

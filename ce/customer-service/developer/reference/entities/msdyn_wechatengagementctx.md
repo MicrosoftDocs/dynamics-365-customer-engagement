@@ -824,3 +824,6 @@ See systemuser Entity [user_msdyn_wechatengagementctx](systemuser.md#BKMK_user_m
 
 [Introduction to Omnichannel for Customer Service](../../../introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

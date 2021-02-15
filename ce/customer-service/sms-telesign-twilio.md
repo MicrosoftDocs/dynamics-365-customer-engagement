@@ -54,3 +54,6 @@ As an agent in Omnichannel for Customer Service, you can:
 ### See also
 
 [Configure SMS channel for Twilio](configure-sms-channel-twilio.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

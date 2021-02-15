@@ -44,3 +44,6 @@ Use the settings on this page to configure calendar settings Dynamics 365 Custom
   
 ### See also  
  [Create or edit an appointment](../basics/create-edit-appointment.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

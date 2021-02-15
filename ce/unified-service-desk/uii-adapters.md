@@ -31,3 +31,6 @@ A [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-inte
  [Hosted Application Toolkit (HAT)](../unified-service-desk/uii-hosted-application-toolkit-hat.md)   
  [Walkthrough: Create a UII Application Adapter](../unified-service-desk/walkthrough-create-uii-application-adapter.md)   
  [Walkthrough: Create a UII Web Application Adapter](../unified-service-desk/walkthrough-create-uii-web-application-adapter.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

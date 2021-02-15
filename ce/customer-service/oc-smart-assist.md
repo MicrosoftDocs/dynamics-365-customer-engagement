@@ -36,3 +36,6 @@ When a conversation is escalated from a bot, the agent needs to accept the reque
 
 [Smart assist for agents (admin)](smart-assist.md)  
 [View smart assist suggestions using AI](oc-view-ai-suggested-cases-articles.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

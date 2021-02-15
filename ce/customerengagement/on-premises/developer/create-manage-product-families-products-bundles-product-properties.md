@@ -326,3 +326,6 @@ Console.WriteLine("\nCreated clone product: {0}", retrievedProduct.Name);
  [Sample: Clone product records](sample-clone-product-records.md)   
  [Sample: Add products to a bundle](sample-add-products-bundle.md)   
  [Product catalog entities](product-catalog-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

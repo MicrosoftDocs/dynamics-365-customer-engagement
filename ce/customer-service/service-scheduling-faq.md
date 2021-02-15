@@ -48,3 +48,6 @@ While creating a service activity, manual selection of resources is not supporte
 [Service Scheduling Guide](basics-service-service-scheduling.md)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

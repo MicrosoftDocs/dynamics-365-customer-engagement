@@ -142,3 +142,6 @@ You can run Microsoft Dynamics 365 apps in the default web browser on any of the
   
 -   Entities that use classic forms such as Goal and Order Product see, [Entities using classic forms](https://technet.microsoft.com/library/dn531143.aspx#BKMK_ClassicFormEntities).  
   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

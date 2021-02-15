@@ -76,3 +76,6 @@ Partners can register deals for opportunities that they have made on the portal 
 ## Approve opportunities registered by a partner
 
 After an opportunity has been made by a partner through the portal, the opportunity will appear as an open opportunity. Navigate to the opportunity through **Sales** &gt; **Opportunities** and it will function like any other opportunity. To approve the opportunity, change its status to **Accepted**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

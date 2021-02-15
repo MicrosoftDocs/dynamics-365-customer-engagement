@@ -467,3 +467,6 @@ We recommend that you perform the following steps to upgrade a solution:
 
 [Enable entities for service-level agreements](enable-entities-service-level-agreements.md)  
 [Troubleshoot issues in SLAs](troubleshoot-sla-issues.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

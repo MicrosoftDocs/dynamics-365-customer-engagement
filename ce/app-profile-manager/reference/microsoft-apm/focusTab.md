@@ -41,3 +41,5 @@ function(error) {
 return Promise.reject(error)
 };
 ```
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

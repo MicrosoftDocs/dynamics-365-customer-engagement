@@ -299,3 +299,6 @@ Set the **ProcessTerminationThreshold** value between the range **0** and **3000
 [System configurations](../admin/system-configurations-bpa.md)
 
 [Internet Explorer settings](../admin/internet-explorer-settings-bpa.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

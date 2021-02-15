@@ -300,3 +300,6 @@ Similarly, if you go to the **Priority** field to modify the colors of the case 
 [Use interactive dashboards to effectively manage service cases in the Customer Service Hub](customer-service-hub-user-guide-dashboard.md) <br>
  [Create and edit dashboards](../customerengagement/on-premises/customize/create-edit-dashboards.md)   <br>
  [Create or edit a chart](../basics/create-edit-chart.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -86,3 +86,6 @@ To deactivate messages at the channel instance level, select one or more message
 
 [Add a chat widget](add-chat-widget.md)  
 [Channels](channels.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

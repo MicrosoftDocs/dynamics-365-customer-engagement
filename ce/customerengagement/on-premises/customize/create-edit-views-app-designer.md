@@ -180,3 +180,6 @@ When you edit a public or system  view, you must save and publish your changes b
 
 ### See also
 [Create or edit views](create-edit-views.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -22,3 +22,6 @@ ms.author: matp
   
  Verify that the [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] instance name is correct and that [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] is configured to allow remote connections.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

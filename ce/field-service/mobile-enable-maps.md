@@ -131,3 +131,6 @@ Back in Woodford, copy and paste the API key in the **Google API Key** field in 
  
  
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

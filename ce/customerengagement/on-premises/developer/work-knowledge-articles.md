@@ -207,3 +207,6 @@ Use the following for help with migration:
  - [KnowledgeBaseRecord Entity](entities/knowledgebaserecord.md)
  - [LanguageLocale Entity](entities/languagelocale.md)
  - [Important changes coming in future releases of Microsoft Dynamics 365](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/developers-guide/dn281891(v=crm.8)?redirectedfrom=MSDN#bkmk_CrmKMEntities) 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -35,3 +35,6 @@ You can develop custom [!INCLUDE[pn_unified_service_desk](../includes/pn-unified
  [Unified Service Desk Hosted Controls](../unified-service-desk/unified-service-desk-hosted-controls.md)   
  [Hosted control types, actions, and events](../unified-service-desk/hosted-control-types-actions-events.md)   
  [Extend Unified Service Desk](../unified-service-desk/extend-unified-service-desk.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

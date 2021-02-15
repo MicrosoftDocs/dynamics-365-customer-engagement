@@ -44,3 +44,6 @@ To create a new website entity configuration:
 ## See also
 [Using Events API](using-events-api.md)<br />
 [User authentication using Events API](user-authentication-events-api.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -64,3 +64,6 @@ Main forms are the primary user interface where people view and interact with th
  [Main form presentations](../customize/main-form-presentations.md)   
  [Optimize form performance](../customize/optimize-form-performance.md)   
  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -102,3 +102,6 @@ This walkthrough demonstrates how to register a service endpoint step using the 
 ### See also  
  [Azure Extensions for Dynamics 365 Customer Engagement (on-premises)](azure-extensions.md)   
  [Introduction to Microsoft Azure Integration with Dynamics 365 Customer Engagement (on-premises)](azure-integration.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

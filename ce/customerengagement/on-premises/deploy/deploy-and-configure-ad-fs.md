@@ -70,3 +70,6 @@ A variety of identity providers can be used with [!INCLUDE[pn_microsoftcrm_serve
 ## See Also  
  [Implement claims-based authentication: internal access](implement-claims-based-authentication-internal-access.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

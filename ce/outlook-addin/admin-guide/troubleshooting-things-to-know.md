@@ -161,3 +161,6 @@ Microsoft Dynamics 365 for Outlook is not enabled on Common Data Service 2.0.
 ### See Also  
  [Blog: Microsoft Dynamics CRM for Outlook Configuration Diagnostic](https://go.microsoft.com/fwlink/p/?LinkID=717230)   
  [Troubleshooting and monitoring server-side synchronization](https://technet.microsoft.com/library/dn850386.aspx)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

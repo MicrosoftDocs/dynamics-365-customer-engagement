@@ -34,3 +34,6 @@ For more information about the email functionality, see [Use email](../customer-
 
 [Set up enhanced email](set-up-enhanced-email.md)<br>
 [Troubleshooting issues with email](ts-email.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

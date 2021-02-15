@@ -22,3 +22,6 @@ search.app:
 
 [!INCLUDE[preview-schedule-board.md](../shared/urs/preview-schedule-board.md)]
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

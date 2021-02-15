@@ -172,3 +172,6 @@ You can define territories based on postal codes (zip codes). When creating a te
 - [Set up bookable resources](set-up-bookable-resources.md)
 
   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

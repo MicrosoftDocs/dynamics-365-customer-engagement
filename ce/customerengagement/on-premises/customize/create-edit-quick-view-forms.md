@@ -78,3 +78,6 @@ A quick view form can be added to another form as a quick view control. It provi
 ### See also   
  [Create and design forms](../customize/create-design-forms.md)   
  [Create or edit quick create forms](../customize/create-edit-quick-create-forms.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

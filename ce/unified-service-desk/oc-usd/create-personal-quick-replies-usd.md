@@ -66,3 +66,6 @@ The quick replies you created are available on the **Personal** tab, and those c
 
 [Send quick replies in the chat](left-control-panel.md#send-quick-replies-in-the-chat)  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

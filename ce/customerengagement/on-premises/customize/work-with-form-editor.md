@@ -29,3 +29,6 @@ This section describes how to use the form editor. The form editor is your inter
 [Open the form editor](open-form-editor.md)
 [Overview of the form editor user interface](form-editor-user-interface-legacy.md)
 [Type of forms](create-design-forms.md#type-of-forms)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

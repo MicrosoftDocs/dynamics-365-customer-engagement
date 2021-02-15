@@ -250,3 +250,6 @@ If a user's email is synchronized through [!INCLUDE[cc_server_side_synch](../inc
 
    ![App for Outlook settings not configured](media/app-outlook-settings-not-configured.png)
 -->
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

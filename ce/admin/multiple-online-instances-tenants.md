@@ -21,3 +21,6 @@ search.app:
 # About multiple online instances or tenants
 
 This content has moved to the Admin Power Platform documentation: [About multiple online environments or tenants](https://docs.microsoft.com/power-platform/admin/multiple-online-environments-tenants). 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

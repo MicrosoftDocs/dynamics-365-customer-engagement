@@ -81,3 +81,6 @@ Hover the cursor on any method name to see the time consumed.
 [Overview of performance report user interface](overview-performance-report-user-interface.md)
 
 [Terminologies in the performance report](terminologies-performance-report.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

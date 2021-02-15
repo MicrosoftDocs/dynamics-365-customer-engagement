@@ -40,3 +40,6 @@ After a game is activated, players can create their profiles and sign in to the 
 
 [Overview for players and fans in Gamification](for-players-fans.md)  
 [Draft and manage your fantasy teams in Gamification](manage-fantasy-team.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

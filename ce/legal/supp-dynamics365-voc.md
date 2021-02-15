@@ -25,3 +25,6 @@ which product-specific terms and conditions may be included in the Enrollment or
 Agreement (including Amendments thereto, the Use Rights, or the Product Terms).
 This supplement is also not subject to any references or statements made on the
 Microsoft Trust Center.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

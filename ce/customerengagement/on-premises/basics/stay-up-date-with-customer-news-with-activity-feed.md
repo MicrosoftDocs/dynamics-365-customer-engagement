@@ -104,3 +104,6 @@ Monitor real-time updates in the activity feed to stay current with fast-moving 
 |Follow or unfollow|Alt + L|  
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

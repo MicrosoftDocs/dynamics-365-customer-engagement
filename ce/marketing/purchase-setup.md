@@ -164,3 +164,6 @@ To set up a new Marketing environment:
 
 [How Dynamics 365 Marketing uses cookies](cookies.md)  
 [Engage with customers online with portals](portals.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

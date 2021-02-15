@@ -2501,3 +2501,5 @@ See systemuser Entity [user_activity](systemuser.md#BKMK_user_activity) One-To-M
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.activitypointer?text=activitypointer EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -188,3 +188,6 @@ The following supported tasks require this procedure:
  [Choose your development style for managed code](choose-development-style.md)   
  [Write Code for Dynamics 365 Customer Engagement (on-premises)(Web Services)](extend-dynamics-365-server.md)   
  [Client scripting in Customer Engagement (on-premises) using JavaScript](clientapi/client-scripting.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

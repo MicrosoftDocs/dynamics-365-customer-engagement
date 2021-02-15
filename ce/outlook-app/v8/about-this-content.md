@@ -24,3 +24,6 @@ search.app:
 # About this content
 
 The topics in this folder apply to Dynamics 365 App for Outlook, version 8.x. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

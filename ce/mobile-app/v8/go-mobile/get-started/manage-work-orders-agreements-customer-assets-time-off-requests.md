@@ -74,3 +74,6 @@ Field agents can use the mobile app to review work orders and get all the inform
   
 ### See also  
  [Dynamics 365 apps for Field Service - User's Guide](../../../../field-service/user-guide.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

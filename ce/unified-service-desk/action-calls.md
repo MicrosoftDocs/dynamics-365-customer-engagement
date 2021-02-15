@@ -38,3 +38,6 @@ An action call represents a call to a UII action associated with a hosted contro
  [Add action calls to an event](../unified-service-desk/add-action-calls-event.md)   
  [UII actions](../unified-service-desk/uii-actions.md)   
  [Manage hosted controls, actions, and events](../unified-service-desk/manage-hosted-controls-actions-events.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

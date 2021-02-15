@@ -95,3 +95,6 @@ When administrators set up incident types in **Settings** > **Incident types**, 
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

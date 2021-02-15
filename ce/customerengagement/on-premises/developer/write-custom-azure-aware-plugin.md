@@ -73,3 +73,6 @@ For a plug-in registered to execute asynchronously, the <xref:Microsoft.Xrm.Sdk.
 [Write a plug-in](/powerapps/developer/common-data-service/write-plug-in)<br />
 [Event execution pipeline](/powerapps/developer/common-data-service/event-framework#event-execution-pipeline)<br />
 [Register and Deploy Plug-Ins](register-deploy-plugins.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

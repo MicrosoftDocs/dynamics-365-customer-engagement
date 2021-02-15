@@ -70,3 +70,6 @@ Now, agents and customers can share file attachments during their conversation.
 [Configure a WhatsApp channel](configure-whatsapp-channel.md)<br>
 [Configure a WeChat channel](configure-wechat-channel.md)<br>
 [Configure a LINE channel](configure-line-channel.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

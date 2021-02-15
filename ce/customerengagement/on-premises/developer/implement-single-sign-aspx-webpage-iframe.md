@@ -66,3 +66,6 @@ This topic describes how to develop a custom webpage that can make SDK calls to 
  [Sample: Impersonate Using the ActOnBehalfOf Privilege](org-service/sample-impersonate-actonbehalfof-privilege.md)   
  [Impersonate Another User](org-service/impersonate-another-user.md)   
  [Web Resources for Dynamics 365 Customer Engagement (on-premises)](web-resources.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -47,3 +47,6 @@ You’ll be taken to the Dynamics 365 Sales Ideas page.
 ### See also
 
 [Sales Overview (Dynamics 365 Sales)](overview.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

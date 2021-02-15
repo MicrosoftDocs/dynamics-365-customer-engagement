@@ -43,3 +43,6 @@ A *Ribbon* command creates a reusable definition that can be referenced by ribbo
  [Customize commands and the ribbon](customize-commands-ribbon.md)   
  [Use Localized Labels with Ribbons](use-localized-labels-ribbons.md)   
  [Define Ribbon Enable Rules](define-ribbon-enable-rules.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

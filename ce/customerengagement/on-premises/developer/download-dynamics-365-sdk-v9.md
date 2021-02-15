@@ -57,3 +57,6 @@ For the complete list of developer code samples, see [Sample code directory for 
 
 [Choose your development style for Dynamics 365 Customer Engagement (on-premises)](choose-development-style.md)
   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

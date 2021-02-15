@@ -20,3 +20,6 @@ applies_to:
 [!INCLUDE[setClickToAct](includes/setClickToAct-description.md)]
 
 [!INCLUDE[token-setClickToAct.md](../../shared/token-setClickToAct.md)]
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

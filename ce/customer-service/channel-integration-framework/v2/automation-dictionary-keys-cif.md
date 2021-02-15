@@ -125,3 +125,6 @@ Session title = `Chat conversation`
 [Manage notification templates](notification-templates-cif.md)
 
 [Associate templates with workstreams](associate-templates-cif.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

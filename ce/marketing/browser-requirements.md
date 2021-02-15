@@ -66,3 +66,6 @@ If you are using Microsoft Edge on a touch device, such as a tablet, then you mu
 ## Supported email clients
 
 Marketing emails created and delivered using Dynamics 365 Marketing, including all templates included with Dynamics 365 Marketing, will render correctly on a wide range of recipient email clients, though older clients typically support fewer formatting options. For a complete list of tested email clients, see [Tested email clients](email-templates.md#tested-clients)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

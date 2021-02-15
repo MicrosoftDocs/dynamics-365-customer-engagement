@@ -51,3 +51,6 @@ Review the following prerequisites before using forecasts:
 
 [Configure a forecast](configure-forecast.md)<br>
 [View a forecast](view-forecasts.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

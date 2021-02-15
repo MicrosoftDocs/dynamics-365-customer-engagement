@@ -27,3 +27,6 @@ search.audienceType:
 Use the **Properties** dialog box to view the date the record was created and last modified and by whom, and the permissions that you have on the record.  
   
  If the current record is integrated with back office systems, information about the relationship is also displayed on this dialog box.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

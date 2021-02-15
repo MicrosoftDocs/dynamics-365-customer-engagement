@@ -37,3 +37,5 @@ To find the event management work area:
     ![Open the work area menu](media/events-nav.png "Open the work area menu")
 
 For more information about how to get around in Dynamics 365 Marketing and work with its common features, see [Find your way around Marketing](navigation.md).
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

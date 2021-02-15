@@ -35,3 +35,6 @@ You can continue to use the legacy behavior of prefixing the notes description w
 > - Notes are grouped under a knowledge article. A maximum of three notes matching the search result for a knowledge article are displayed as part of the search results.
 > - If the search term matches with a knowledge article and an attachment, all the text from the note and the file attachment name are highlighted.
 > - If the search term matches only with an attachment, the corresponding article is also displayed.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

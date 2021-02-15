@@ -44,3 +44,6 @@ Microsoft.Omnichannel.unlinkFromConversation("incident", "6b726d86-d37c-43b8-b3a
 ## See also
 
 [JavaScript API reference for live chat SDK](../../omnichannel-reference.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

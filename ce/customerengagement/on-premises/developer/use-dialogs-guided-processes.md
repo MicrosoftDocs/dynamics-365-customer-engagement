@@ -36,3 +36,6 @@ Dialogs are the synchronous or interactive processes in [!INCLUDE[pn_dynamics_cr
 ### See also  
  [Processes, Workflows, and Dialogs](process-categories.md)   
  [Processes in Dynamics 365 Customer Engagement (on-premises)](automate-business-processes-customer-engagement.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

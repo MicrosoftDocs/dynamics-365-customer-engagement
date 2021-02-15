@@ -48,3 +48,6 @@ When you enable auditing, Dynamics 365 Customer Engagement (on-premises) stores 
 ### See also  
 [Audit data and user activity](audit-data-user-activity.md)<br />
 [Retrieve and delete the history of audited data changes](../developer/retrieve-and-delete-the-history-of-audited-data-changes.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

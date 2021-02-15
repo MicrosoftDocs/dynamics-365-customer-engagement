@@ -31,3 +31,5 @@ tags:
 ### See also
 
 [Create and edit relationships between entities](create-edit-entity-relationships.md)
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

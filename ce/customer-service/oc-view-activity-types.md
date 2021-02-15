@@ -58,3 +58,6 @@ The Session Participants section lets you add a participant related to the sessi
 - [View customer summary](oc-customer-summary.md)
 - [Create a record](oc-create-record.md)
 - [Search, link, and unlink a record](oc-search-link-unlink-record.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

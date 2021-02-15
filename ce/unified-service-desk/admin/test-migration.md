@@ -589,3 +589,6 @@ After you make these updates, when you sign in to the Unified Service Desk clien
 [Create custom panel layout](../create-custom-panel-layout.md)  
 [Customize themes in Unified Service Desk](../customize-themes-in-unified-service-desk.md)  
 [Configure toolbars in your application](../configure-toolbars-application.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

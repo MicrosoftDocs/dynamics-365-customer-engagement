@@ -139,3 +139,6 @@ The following special messages can also be used:
 
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

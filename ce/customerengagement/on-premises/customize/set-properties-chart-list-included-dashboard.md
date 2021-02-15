@@ -67,3 +67,6 @@ You can set the following list properties from the **Set Properties** dialog box
   
 ### See also  
  [Create or customize dashboards](../customize/create-edit-dashboards.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

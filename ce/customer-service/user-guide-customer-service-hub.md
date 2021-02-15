@@ -68,3 +68,6 @@ Refer below to know how the Customer Service Hub app complies to accessibility a
   
 [Overview of Customer Service and Customer Service Hub ](overview.md)  
 [Upgrade to the Customer Service Hub](upgrade-ish-csh.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

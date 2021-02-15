@@ -87,3 +87,6 @@ For detailed information on customizing and configuring the Field Service mobile
 [Install Field Service with mobile](../field-service/install-field-service.md)
 
 [Resco support guides](https://www.resco.net/support/guides/)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

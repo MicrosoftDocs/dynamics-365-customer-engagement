@@ -81,3 +81,6 @@ Knowledge base management plays an important part in the customer service proces
  [Set up knowledge base management](https://go.microsoft.com/fwlink/p/?LinkId=691083)
 
  [Learn to use Unified Service Desk](../unified-service-desk/learn-to-use-unified-service-desk.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

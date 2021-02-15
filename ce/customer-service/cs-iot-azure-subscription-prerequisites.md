@@ -38,3 +38,6 @@ When deploying and administering Connected Customer Service (CCS) with IoTHub, t
 > [!div class="mx-imgBorder"]
 > ![Screenshot of CRM API access](./media/cs-iot-azure-api-management.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

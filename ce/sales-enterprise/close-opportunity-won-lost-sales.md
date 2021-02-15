@@ -69,3 +69,6 @@ If you've closed an opportunity as lost, but would like to start discussions abo
  [Nurture sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md)   
  [Print leads, quotes, and other records](../basics/print-leads-quotes-other-records.md)  
  [Dynamics 365 Sales troubleshooting guide](troubleshooting.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -35,3 +35,6 @@ Make it easier for your sales reps to increase their sales by creating a product
 ### See Also
  [Create a product family](../sales-enterprise/create-product-family.md)  
  [Overview of Sales](../sales-enterprise/user-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

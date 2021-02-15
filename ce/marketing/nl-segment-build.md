@@ -117,3 +117,5 @@ Contacts in this segment might be more receptive to an email marketing campaign 
 
 [Working with segments](segmentation-lists-subscriptions.md)  
 [Design dynamic demographic or firmographic segments](segments-profile.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

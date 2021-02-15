@@ -51,3 +51,6 @@ monikerRange: '>= dynamics-usd-3'
 [Download Unified Service Desk Performance Analyzer](download-performance-analyzer.md)
 
 [Generate (collect) performance data log](performance-data-collection-using-keyboard-shortcut.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -157,3 +157,6 @@ Schedule anything in Dynamics 365 using Universal Resource Scheduling. You can e
 ### See also  
  [Install Dynamics 365 Field Service](../field-service/install-field-service.md)    
  [Install Dynamics 365 Project Service Automation](../project-service/install-customize.md)    
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

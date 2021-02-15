@@ -156,3 +156,6 @@ A defining characteristic of overnight scheduling is that dispatchers have prior
 - [Booking lock options](./booking-lock-options.md)
 - [Resource scheduling optimization configuration](./rso-configuration.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

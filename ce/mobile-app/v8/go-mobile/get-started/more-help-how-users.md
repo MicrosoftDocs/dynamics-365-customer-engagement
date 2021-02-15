@@ -49,3 +49,6 @@ search.app:
   
 ### See also  
  [Use Cortana voice commands in Dynamics 365 for phones](use-cortana-voice-commands.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

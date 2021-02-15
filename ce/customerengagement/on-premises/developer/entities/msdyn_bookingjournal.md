@@ -1145,3 +1145,5 @@ See msdyn_resourcepaytype Entity [msdyn_msdyn_resourcepaytype_msdyn_bookingjourn
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_bookingjournal?text=msdyn_bookingjournal EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

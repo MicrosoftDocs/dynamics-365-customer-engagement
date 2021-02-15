@@ -210,3 +210,6 @@ This topic contains sample dashboards along with the respective FormXML strings.
 ### See also  
  [Dashboards for Microsoft Dynamics 365 Customer Engagement](analyze-data-with-dashboards.md)   
  [Dashboard Entities](dashboard-entities.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

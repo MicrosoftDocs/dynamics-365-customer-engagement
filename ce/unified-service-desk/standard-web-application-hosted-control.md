@@ -193,3 +193,6 @@ Occurs when the page has finished loading. On a CRM Page type of hosted control,
  [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md)   
  [Walkthrough 2: Display an external webpage in your agent application](../unified-service-desk/walkthrough-2-display-an-external-webpage-in-your-agent-application.md)   
  [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

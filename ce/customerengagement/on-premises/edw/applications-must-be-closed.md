@@ -22,3 +22,6 @@ ms.author: matp
   
  Close all applications that are running before you continue installing [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)].
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

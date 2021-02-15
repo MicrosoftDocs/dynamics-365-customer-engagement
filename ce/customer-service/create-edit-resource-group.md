@@ -79,3 +79,6 @@ Use resource groups to group users, facilities, and equipment as part of the sel
 >  To remove a resource, select the resource you want to remove from the resource group. On the Actions toolbar, select **More Actions**, and then select **Remove Resources**.  
 >   
 > [!INCLUDE[cc_solution_recommendation](../includes/cc-solution-recommendation.md)]
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

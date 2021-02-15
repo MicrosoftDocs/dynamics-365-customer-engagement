@@ -86,3 +86,6 @@ Microsoft Dynamics 365 Customer Engagement (on-premises) have a number of capabi
  [Dynamics 365 for Customer Engagement OData Feeds and Power Query: What’s the &#91;Record&#93;?](https://community.dynamics.com/crm/b/survivingcrm/archive/2014/02/16/dynamics-crm-odata-feeds-and-power-query-what-s-the-record.aspx)   <br />
  [Using Power View in Excel 2013 to Analyze CRM Data](https://blogs.msdn.com/b/crm/archive/2013/04/17/using-power-view-in-excel-2013-to-analyze-crm-data.aspx)   <br />
  [Reporting and Analytics Guide](../analytics/reporting-analytics-with-dynamics-365.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

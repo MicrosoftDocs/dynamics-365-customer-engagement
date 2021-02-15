@@ -21,3 +21,5 @@ search.app:
 # Manage Support instances
 
 Managing support instances (environments) has transitioned to the [Power Platform Admin center](https://admin.powerplatform.microsoft.com). For more information, see [Manage support environments](https://docs.microsoft.com/power-platform/admin/support-environment).
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

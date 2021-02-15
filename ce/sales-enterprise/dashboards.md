@@ -51,3 +51,6 @@ To see a specific dashboard every time you sign in to Sales Professional, set it
 
 [Understand the sales pipeline chart and its phases](sales-pipeline-chart.md)  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

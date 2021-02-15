@@ -1057,3 +1057,5 @@ See transactioncurrency Entity [TransactionCurrency_InteractionForEmail](transac
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.interactionforemail?text=interactionforemail EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -200,3 +200,6 @@ If you're in a record—for example, a lead—this section shows you the keyboar
 
  [Accessibility for people with disabilities](../basics/accessibility-people-with-disabilities.md)<br/>
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

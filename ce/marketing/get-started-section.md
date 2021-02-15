@@ -27,3 +27,6 @@ Learn how to get around in the system, and how to work with basic records, how t
 - [Organize your work](organize-daily-work.md)
 - [Manage customer information](manage-customer-information.md)
 - [Best practices for email marketing](get-ready-email-marketing.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

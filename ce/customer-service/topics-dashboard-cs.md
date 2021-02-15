@@ -77,3 +77,6 @@ The topic metrics chart has the following metrics displayed:
 - [Dashboard overview](customer-service-analytics-insights-csh.md) <br>
 - [Summary dashboard](summary-dashboard-cs.md) <br>
 - [Agent dashboard](agent-dashboard-cs.md) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -100,3 +100,6 @@ When salespeople work on a lead, they use notes to store key information on the 
 [Dynamics 365 Sales troubleshooting guide](troubleshooting.md)  
 [Boost sales with Versium Predict](../versium-predict/versium-predict.md)  
 [Get sales Insights, powered by InsideView](../insights-insideview/insights-powered-by-insideview.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

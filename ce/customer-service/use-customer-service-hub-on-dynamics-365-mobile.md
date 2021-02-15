@@ -64,3 +64,6 @@ For more information on how to use the Dynamics 365 Customer Service mobile app,
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

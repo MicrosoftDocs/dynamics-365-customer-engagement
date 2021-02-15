@@ -55,3 +55,6 @@ To scan a business card:
 
 [Customize the business card scanner control](customize-business-card-scan-control.md)  
 [Enable or disable saving of business card image](retain-business-card-image-after-scanning.md) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

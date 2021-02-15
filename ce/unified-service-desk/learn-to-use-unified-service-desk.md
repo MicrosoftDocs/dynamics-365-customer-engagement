@@ -53,3 +53,6 @@ This section provides information about the features and capabilities of [!INCLU
  [Get started with configuring your agent application](../unified-service-desk/get-started-configuring-agent-application.md)  
   
  [Unified Service Desk configuration walkthroughs](../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

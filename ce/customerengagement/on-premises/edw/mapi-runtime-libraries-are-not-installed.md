@@ -22,3 +22,6 @@ ms.author: matp
   
  For download information and installation instructions, see [MAPI client runtime libraries](https://go.microsoft.com/fwlink/p/?linkid=78805).
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

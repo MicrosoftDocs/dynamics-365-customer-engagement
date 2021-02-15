@@ -142,3 +142,6 @@ The SolutionPackager tool can be used with any source control system. After a so
  [Solution Tools for Team Development](solution-tools-team-development.md)   
  [Solution Component File Reference (SolutionPackager)](solution-component-file-reference-solutionpackager.md)   
  [Use the SolutionPackager Tool to Compress and Extract a Solution File](compress-extract-solution-file-solutionpackager.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

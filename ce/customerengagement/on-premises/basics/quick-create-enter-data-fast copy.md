@@ -41,3 +41,6 @@ The Quick Create command makes it fast and easy to enter almost any type of info
   
 
   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

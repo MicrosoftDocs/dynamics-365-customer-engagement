@@ -42,3 +42,5 @@ To prevent the database size from increasing indefinitely, we have created recur
 The Marketing activity table varies in size, depending on your Marketing usage. If you are creating a large number of Marketing activities, you may want to clear the table more frequently than every seven days.
 
 To clear the table more frequently, you can create additional recurring bulk deletion jobs. The table is safe to be truncated at any time. All data can be cleared, regardless of the age of the data. Data processing is synchronous; only successfully executed activities are stored.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

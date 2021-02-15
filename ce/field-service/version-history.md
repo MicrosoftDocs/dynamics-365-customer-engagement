@@ -519,3 +519,6 @@ All customers should upgrade all legacy versions of Field Service and Project Se
 ### See also
 
 - [New and upcoming features](new-upcoming.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

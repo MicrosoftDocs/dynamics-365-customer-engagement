@@ -49,3 +49,5 @@ As a sales enablement manager, use this template app to perform the following ta
 
 [Configure Power BI template apps to work with Dynamics 365 Sales](configure-sales-template-apps.md)<br>
 [Customize Power BI template apps for Dynamics 365 Sales](customize-template-apps.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

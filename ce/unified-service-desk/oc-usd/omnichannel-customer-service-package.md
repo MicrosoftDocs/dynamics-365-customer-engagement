@@ -146,3 +146,6 @@ When you deploy an Omnichannel for Customer Service package in an organization, 
 
 [Omnichannel for Customer Service on Unified Service Desk](omnichannel-customer-service-unified-service-desk.md)  
 [Configure recommended settings for Unified Service Desk](configure-settings-unified-service-desk.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

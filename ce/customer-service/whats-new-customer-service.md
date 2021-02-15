@@ -223,3 +223,6 @@ See the [Configure Customer Service](configure-cs.md) to learn more about Custom
 ### See also
 
 [User Guide (Customer Service Hub)](user-guide-customer-service-hub.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
