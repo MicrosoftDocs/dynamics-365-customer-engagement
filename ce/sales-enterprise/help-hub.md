@@ -92,7 +92,7 @@ manager: annbe
 <h2>Resources for other Sales apps</h2>
 <li><a href="../sales-enterprise/dynamics365-ai-sales.md" data-raw-source="[Dynamics 365 Sales Insights](../sales-enterprise/dynamics365-ai-sales.md)">Dynamics 365 Sales Insights</a></li>
 <li> <a href="../sales-professional/help-hub.md" data-raw-source="[Help resources for Dynamics 365 Sales Professional](../sales-professional/help-hub.md)">Help resources for Dynamics 365 Sales Professional</a></li>
-<li> <a href="../sales-professional/sales-professional-overview.md" data-raw-source="[Overview](../sales-professional/sales-professional-overview.md)">Overview</a></li>
+<li> <a href="../sales-professional/sales-professional-overview.md" data-raw-source="[Dynamics 365 Sales Professional Overview](../sales-professional/sales-professional-overview.md)">Dynamics 365 Sales Professional Overview</a></li>
 <li><a href="sales-team-member.md" data-raw-source="[Sales Team Member app for users with Team Member license](sales-team-member.md)">Sales Team Member app for users with Team Member license</a></li>
 </td>
 </tr>
