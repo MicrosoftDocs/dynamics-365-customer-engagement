@@ -3,7 +3,7 @@ title: "Configure default settings (Dynamics 365 Field Service) | MicrosoftDocs"
 description: Learn how to set defaults for work orders, bookings, the schedule board, and agreements in Dynamics 365 Field Service.
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 09/24/2020
+ms.date: 02/12/2021
 ms.service: dynamics-365-customerservice
 ms.topic: article
 author: FieldServiceDave
@@ -49,7 +49,8 @@ The Field Service Settings page allows system administrators to set default sett
 |        **Schedule assistant**         |                                                                                                                                                                                                                  Choose default options for the schedule assistant.                                                                                                                                                                                                                  |
 |     Auto filter service territory     |                                                                                                              Select whether the schedule assistant   should automatically filter search results based on the work order territory. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up territories](../field-service/set-up-territories.md)                                                                                                              |
 |         Default radius value          |                                                                                                               Select a default radius the schedule assistant will use when searching for resources for  work orders. For example, if you choose a 20 mile radius, then the schedule assistant will find resources within 20 miles of the work order  booking location.                                                                                                               |
-|          Default radius unit          |                                                                                                                                                                                                                             Select miles or kilometers.                                                                                                                                                                                                                              |
+|          Default radius unit          |    Select miles or kilometers.        |
+| Calculate tax | Tax codes calculate and add taxes to used products and services. Set to **No** to remove the tax code field and calculations from all related forms. New environments created with Field Service v8.8.39.37+ will have this setting set to **No** by default. |
   
 ## Schedule board settings  
   
