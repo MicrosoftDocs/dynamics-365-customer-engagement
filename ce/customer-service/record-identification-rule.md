@@ -26,16 +26,16 @@ Use the below question names to create pre-chat questions for an unauthenticated
 
 | Entity   |     Mapping    | Answer type |
 |---------|----------------|-------------|
-| Account |	Question context key: **Name** <br> Attribute Logical Name: **name** <br><br> Question context key: **Email** <br> Attribute logical name: **emailaddress1** <br><br> Question context key: Phone <br> Attribute logical name: **telephone1** | Single line | 
-| Contact | Question context key: **Name** <br> Attribute logical name: **fullname** <br><br> Question context key: Email <br> Attribute logical name: **emailaddress1** <br><br> Question context key: Phone <br> Attribute logical name: **telephone1** |Single line | 
-| Incident | 	Question context key: **CaseNumber** <br> Attribute logical name: **ticketnumber** |Single line |
+| Account |	Question context key: **Name** <br> Attribute Logical Name: **name** <br><br> Question context key: **Email** <br> Attribute logical name: **emailaddress1** <br><br> Question context key: Phone <br> Attribute logical name: **telephone1** | Single line |
+| Contact | Question context key: **Name** <br> Attribute logical name: **fullname** <br><br> Question context key: Email <br> Attribute logical name: **emailaddress1** <br><br> Question context key: Phone <br> Attribute logical name: **telephone1** |Single line |
+| Incident | Question context key: **CaseNumber** <br> Attribute logical name: **ticketnumber** |Single line |
 ||||
 
 For authenticated chat, the logged in user details will be used to search and load contact information in the **Customer summary** page. You can add pre-chat question for **Case Number** to allow identification of the relevant case for the current conversation. The pre-chat questions pertaining to contact or account, such as the name, email, and phone number will not be considered for identification.
 
 |Entity   |     Mapping    | Answer type |
 |---------|----------------|-------------|
-| Incident | 	Question context key: **CaseNumber** <br> Attribute logical name: **ticketnumber** |Single line |
+| Incident | Question context key: **CaseNumber** <br> Attribute logical name: **ticketnumber** |Single line |
 |||
 
 ## Use the setContextProvider API method
