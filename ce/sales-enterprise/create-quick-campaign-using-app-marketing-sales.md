@@ -57,3 +57,6 @@ Send an e-mail blast to customers who fit a specific demographic, a mail campaig
  [Add a marketing list, sales literature, or product to a campaign using in-app marketing](../sales-enterprise/add-marketing-list-sales-literature-product-campaign-using-app-marketing-sales.md)   
  [Track a marketing campaign response using in-app marketing](../sales-enterprise/track-marketing-campaign-response-using-app-marketing-sales.md)   
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

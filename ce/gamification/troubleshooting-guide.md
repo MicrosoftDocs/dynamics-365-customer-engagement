@@ -33,3 +33,6 @@ You should be able to install and activate Gamification if the pre-requisites in
 - The signed in user has Read-Write license assigned in Dynamics 365. For more information, see [Manage User License in Dynamics 365](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles#create-a-read-write-user-account).
 
 If you continue to face issues while activating Gamification, raise a Support request from the Dynamics 365 Admin Center and provide the error details and the timestamp of the error occurrence. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

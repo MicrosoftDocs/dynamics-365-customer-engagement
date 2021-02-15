@@ -1,4 +1,4 @@
-﻿---
+---
 title: View, edit, or add a note in the Dynamics 365 Sales mobile app
 description: Instructions to view, edit, or add a note in the Dynamics 365 Sales mobile app
 ms.date: 11/30/2020
@@ -81,3 +81,5 @@ You can perform the following actions in the **Notes** section.
 
 [Learn the basics](learn-basics-mobile-app.md)    
 [View meetings](view-agenda.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

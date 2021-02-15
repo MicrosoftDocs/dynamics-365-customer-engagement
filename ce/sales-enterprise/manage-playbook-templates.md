@@ -121,3 +121,6 @@ To publish a playbook:
 [Associate documents with playbook activities](associate-documents-playbook-activities.md)  
 [Enforce best practices with playbooks](enforce-best-practices-playbooks.md)  
 [Define playbook categories](define-playbook-categories.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

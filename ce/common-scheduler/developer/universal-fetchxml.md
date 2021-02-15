@@ -307,3 +307,6 @@ $current | Reference to the current bag being processed by the UFX Query
 [Understanding and customizing resource matching in Universal Resource Scheduling](understanding-and-customizing-resource-matching-in-urs.md)
 
 [Universal Resource Scheduling extensibility release notes](extensibility-release-notes.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

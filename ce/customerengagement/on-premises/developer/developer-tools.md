@@ -62,3 +62,5 @@ This section provides a single location for you to learn about the developer too
   
 [Developer Guide for Dynamics 365 Customer Engagement (on-premises)](overview.md)
  
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

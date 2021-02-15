@@ -139,3 +139,6 @@ This field is found in the following entities:
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -37,3 +37,5 @@ With Dynamics 365 Customer Engagement (on-premises), you can use the document ma
 
 [Set up Dynamics 365 on-premises and SharePoint Online](on-prem-server-based-sharepoint-online.md) <br />
 [Configure server-based authentication with Customer Engagement (on-premises) and SharePoint on-premises](on-prem-server-based-sharepoint-on-prem.md)
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

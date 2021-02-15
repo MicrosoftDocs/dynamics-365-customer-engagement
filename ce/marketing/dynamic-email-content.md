@@ -408,3 +408,6 @@ The following example (also shown previously) shows how to use comments to enclo
 [Set the sender, receiver, and legal designation](email-properties.md)  
 [Check your work using previews and test sends](email-preview.md)  
 [Check for errors, go live, and deliver](email-check-golive.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

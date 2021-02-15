@@ -51,3 +51,6 @@ The steps for configuring a communication panel in Unified Service Desk are as f
 - [Step 4: Attach communication panel-related action calls to events](communication-panel-step4-attach-action-calls-events.md)
 - [Step 5: Configure window navigation rule for communication panel](communication-panel-step5-configure-window-navigation-rule.md) 
 - [Step 6: Add the hosted control, action calls, window navigation rule, and events to configurations](communication-panel-step6-add-hosted-control-action-calls-events-configurations.md) 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

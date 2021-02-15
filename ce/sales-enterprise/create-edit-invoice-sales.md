@@ -103,3 +103,6 @@ Typically, you convert an order into an invoice; however, you can also create an
 ### See also  
 [Nurture sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md)  
 [Print quote, invoice, or other records](print-records.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

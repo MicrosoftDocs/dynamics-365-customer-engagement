@@ -182,3 +182,6 @@ When you select one or more documents in the Documents list, you can take these 
 [Configure Dynamics 365 Sales Professional to integrate with SharePoint](connect-with-sharepoint.md)  
 [Manage your customers](manage-accounts-contacts.md)   
 [Overview of Dynamics 365 Sales Professional](sales-professional-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

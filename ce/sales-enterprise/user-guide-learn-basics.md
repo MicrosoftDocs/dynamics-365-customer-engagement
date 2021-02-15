@@ -63,3 +63,6 @@ With Quick Create, you need to complete only a few fields. Later, when you have 
    > On a mobile device, from the nav bar, tap ![Ellipsis icon](media/ellipsis.png "Ellipsis icon") and then tap **Quick Create Menu**.
 
 2. Fill in the fields, and then select **Save**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

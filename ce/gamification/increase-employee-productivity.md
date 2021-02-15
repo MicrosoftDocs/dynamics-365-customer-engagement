@@ -96,3 +96,6 @@ Have a look at [What's new in Gamification](release-notes.md) for release notes,
  [Overview for commissioners and game managers in Gamification](for-commissioners-game-managers.md)   
  [Overview for players and fans in Gamification](for-players-fans.md)
  [What's new in Gamification](release-notes.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

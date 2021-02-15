@@ -50,3 +50,6 @@ If you are using [self-hosted](self-hosted.md), then you need to choose a place 
 
 [Custom Event Portal](event-management-web-application.md)<br />
 [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

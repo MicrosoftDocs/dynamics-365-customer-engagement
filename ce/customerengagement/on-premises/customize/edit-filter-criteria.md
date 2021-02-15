@@ -38,3 +38,6 @@ Along with the columns displayed in a view, the filter criteria applied to a vie
  
 ### See also
 [Create or edit a views](create-edit-views.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

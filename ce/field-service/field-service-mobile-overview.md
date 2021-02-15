@@ -165,3 +165,6 @@ For accessing Dynamics 365 Field Service entities and fields, the Field Service 
 
 - [Mobile configurations and customizations](mobile-app-configuration-customization.md)
 - [Push notifications](mobile-push-notifications.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

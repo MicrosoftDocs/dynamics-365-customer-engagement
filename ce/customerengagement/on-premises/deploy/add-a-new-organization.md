@@ -69,3 +69,6 @@ You can add a new organization in the [!INCLUDE[pn_microsoftcrm](../includes/pn-
  [Manage organizations](manage-organizations.md)   
  [Import an organization](import-an-organization.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

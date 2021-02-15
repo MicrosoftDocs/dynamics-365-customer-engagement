@@ -149,3 +149,5 @@ Most importantly, inventory journals are sometimes used to integrate Field Servi
 
 - [Products and services](./create-product-or-service.md)
 - [Manual inventory journals](./manual-inventory-journals.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ Depending on how you plan to deploy the system, as a single-server solution, a m
  [User Guide (Dynamics 365 for phones and tablets)](../../../mobile-app/dynamics-365-phones-tablets-users-guide.md) </br>
  [Software requirements for Microsoft Dynamics 365 Server](software-requirements-for-microsoft-dynamics-365-server.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

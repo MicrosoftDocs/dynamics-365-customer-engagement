@@ -127,3 +127,6 @@ To resolve this issue, add the **msdyn_linkedinintegrationcommon.js** library an
 ### See also
 
 [Dynamics 365 Sales troubleshooting guide](../sales-enterprise/troubleshooting.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

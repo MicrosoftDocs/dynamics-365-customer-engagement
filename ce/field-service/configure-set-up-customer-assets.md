@@ -242,3 +242,6 @@ Set **Suggest Reparenting Customer Assets** to _Yes_ to give work order creators
 - [Adding 3D models to customer assets](../field-service/3D-viewer.md) 
 - [Asset properties](asset-properties.md)
 - [Define asset locations with functional location](assets-functional-location.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

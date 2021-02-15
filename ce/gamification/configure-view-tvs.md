@@ -110,3 +110,6 @@ Stream leaderboards from multiple active games to screens around your office to 
  [Privacy information and license terms for Gamification](legal-information.md)   
  [Overview for commissioners and game managers in Gamification](for-commissioners-game-managers.md)   
  [Set up and run games in Gamification](run-games.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

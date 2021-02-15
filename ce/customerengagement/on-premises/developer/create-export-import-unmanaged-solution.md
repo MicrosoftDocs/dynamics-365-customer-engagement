@@ -140,3 +140,6 @@ In addition to being a prerequisite to creating a managed solution, an unmanaged
  [Customization Solutions File Schema](customize-dev/customization-solutions-file-schema.md)   
  [Create, Install, and Update a Managed Solution](create-install-update-managed-solution.md)   
  [Uninstall or Delete a solution](uninstall-delete-solution.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

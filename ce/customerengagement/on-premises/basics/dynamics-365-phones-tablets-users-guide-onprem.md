@@ -304,3 +304,6 @@ The assistant draws your attention to your most important items and tasks, drawn
 [!INCLUDE[cc_privacy_moca_user_content_and_location](../includes/cc-privacy-moca-user-content-and-location.md)]
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -344,3 +344,6 @@ These are ways to reduce the amount of storage space used by removing or deletin
  [Manage your data](../admin/manage-your-data.md)   
  [Data Encryption](../admin/data-encryption.md)   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

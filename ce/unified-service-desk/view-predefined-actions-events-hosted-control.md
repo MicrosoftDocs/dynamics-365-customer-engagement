@@ -36,3 +36,6 @@ Each predefined hosted control type in [!INCLUDE[pn_unified_service_desk](../inc
  [Manage hosted controls, actions, and events](../unified-service-desk/manage-hosted-controls-actions-events.md)   
  [Unified Service Desk Configuration Walkthroughs](../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)   
  [Learn to use Unified Service Desk](../unified-service-desk/learn-to-use-unified-service-desk.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

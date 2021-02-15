@@ -182,3 +182,6 @@ See [Change application navigation using the SiteMap](../developer/customize-dev
  [Create or edit processes](../customize/create-business-process-flow.md) <br/>
  [Create business rules and recommendations](../customize/create-business-rules-recommendations-apply-logic-form.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

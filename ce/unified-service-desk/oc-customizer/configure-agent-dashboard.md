@@ -46,3 +46,6 @@ The steps for configuring an Omnichannel Agent Dashboard in Unified Service Desk
 - [Step 2: Create Omnichannel Agent Dashboard-related action calls](agent-dashboard-step2-create-action-calls.md)
 - [Step 3: Attach Omnichannel Agent Dashboard-related action calls to events](agent-dashboard-step3-attach-action-calls-events.md)
 - [Step 4: Add hosted control, action calls, and events to configurations](agent-dashboard-step4-add-hosted-control-action-calls-events-configurations.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

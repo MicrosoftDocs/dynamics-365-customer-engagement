@@ -79,3 +79,6 @@ You can perform different actions such as sort, delete, and refresh on items in 
 ### See also
 
 [Overview of Dynamics 365 Sales Professional](sales-professional-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

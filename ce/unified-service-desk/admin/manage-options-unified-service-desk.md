@@ -164,3 +164,6 @@ Use the **Options** setting in [!INCLUDE[pn_unified_service_desk](../../includes
  [Configure client caching in Unified Service Desk](../../unified-service-desk/admin/configure-client-caching-unified-service-desk.md)  
  [Improve Unified Service Desk by sending usage data](../../unified-service-desk/admin/help-improve-unified-service-desk.md)  
  [Understand Unified Service Desk](../../unified-service-desk/understand-unified-service-desk-concepts.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

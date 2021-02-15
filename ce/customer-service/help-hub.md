@@ -168,3 +168,6 @@ ms.custom:
 
 </tr>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

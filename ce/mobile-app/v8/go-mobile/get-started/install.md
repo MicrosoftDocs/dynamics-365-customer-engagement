@@ -67,3 +67,6 @@ search.app:
 ### See also
  [Signing in and signing out on Dynamics 365 for phones and tablets](sign-in-out.md)
  [TechNet: Phone and tablet support](https://technet.microsoft.com/library/dn531131.aspx)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

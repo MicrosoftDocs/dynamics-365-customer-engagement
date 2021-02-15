@@ -22,3 +22,6 @@ ms.author: matp
   
  Verify that the database that is referenced in the error message is not being used while you are performing the operation, and then try the operation again.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

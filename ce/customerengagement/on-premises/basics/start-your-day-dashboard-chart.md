@@ -83,3 +83,6 @@ Each time you sign in to the system you'll see a dashboard, which gives you easy
      > [!div class="mx-imgBorder"] 
      > ![Personal dashboard](media/my-dashboard.png "Personal dashboard") 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

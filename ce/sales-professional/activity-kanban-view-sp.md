@@ -75,3 +75,6 @@ Here are some important things to know about your Kanban view:
 
 [Add the Kanban control to Opportunity or Activity entities](add-kanban-control-sp.md)  
 [Manage tasks, appointments, email, or phone calls in Dynamics 365 Sales Professional](manage-activities.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

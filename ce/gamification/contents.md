@@ -21,3 +21,6 @@ search.app:
 # Table of contents
 
 [!INCLUDE[TOC](TOC.md)]
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

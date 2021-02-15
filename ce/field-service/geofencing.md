@@ -262,3 +262,6 @@ Next, go to **Settings > Processes** and activate the following processes:
 - In order to synchronize location data with the server, Field Service Mobile app users (field technicians) will need to consent to sharing GPS data. A message will appear after a geofence is active. 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

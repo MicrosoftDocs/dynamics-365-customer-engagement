@@ -182,3 +182,5 @@ When you select column **Type** as **Hierarchy related**, the column helps you p
 [View a forecast](view-forecasts.md)<br>
 [About premium forecasting](https://docs.microsoft.com/dynamics365/ai/sales/configure-premium-forecasting)<br>
 [Configure forecast using custom rollup entity](configure-forecast-using-custom-rollup-entity.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

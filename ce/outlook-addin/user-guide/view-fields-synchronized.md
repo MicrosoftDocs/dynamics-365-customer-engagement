@@ -70,3 +70,6 @@ In [!INCLUDE[pn_crm_2015_outlook](../../includes/pn-crm-2015-outlook.md)] or lat
  [Which fields can be synchronized between Dynamics 365 apps and Outlook?](../admin-guide/which-fields-synchronized.md)
  [Control field synchronization between Dynamics 365 apps and Dynamics 365 for Outlook](../admin-guide/control-field-synchronization.md)
  [How field security affects synchronization with Outlook](../../admin/how-field-security-affects-synchronization-between-outlook.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

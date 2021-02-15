@@ -297,3 +297,6 @@ As we are checking for maximum number of sessions on the creation of a new sessi
  [Add action calls to an event](../unified-service-desk/add-action-calls-event.md)
   
  [Get started with configuring your agent application](../unified-service-desk/get-started-configuring-agent-application.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

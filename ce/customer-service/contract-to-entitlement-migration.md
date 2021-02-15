@@ -158,3 +158,6 @@ For business requirements, if a resolved case needs to be updated, perform the f
 
 [Important changes (deprecations) coming](/power-platform/important-changes-coming)  
 [SDK code samples in basic update](/powerapps/developer/common-data-service/org-service/entity-operations-update-delete#basic-update)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

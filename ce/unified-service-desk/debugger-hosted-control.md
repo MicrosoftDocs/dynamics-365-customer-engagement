@@ -117,3 +117,6 @@ Use **Debugger** hosted control type in Unified Service Desk to configure a debu
  [Walkthrough 6: Configure the Debugger hosted control in your agent application](../unified-service-desk/walkthrough-configure-debugger-hosted-control-agent-application.md)
  [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)
  [Administration Guide for Unified Service Desk for Microsoft Dynamics CRM](https://go.microsoft.com/fwlink/p/?LinkID=394402)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -612,3 +612,6 @@ To learn about the limitations of Chrome Process, go to [Chrome Process limitati
 [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)  
 [Manage hosted controls, actions, and events](../unified-service-desk/manage-hosted-controls-actions-events.md)  
 [Recover a Chrome Process instance](admin/recover-chrome-process-instance.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

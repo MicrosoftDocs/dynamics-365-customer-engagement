@@ -59,3 +59,6 @@ The following topics contain information about legacy Service Scheduling feature
 
 
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

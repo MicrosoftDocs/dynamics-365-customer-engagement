@@ -108,3 +108,6 @@ You can select unscheduled service activities and schedule a booking using the *
 ### See also
 
 [Schedule a service activity](schedule-service-activity-csh.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

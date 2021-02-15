@@ -41,3 +41,6 @@ Make sure that all the quotes and invoices that your sales team sends out to cus
 
 [Overview of Dynamics 365 Sales Professional](sales-professional-overview.md)  
 [Admin settings overview](admin-settings-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

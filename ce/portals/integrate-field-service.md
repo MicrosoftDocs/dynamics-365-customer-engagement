@@ -138,3 +138,6 @@ The range of accepted values for each metric's site setting is as follows.
 
 ### See also
 [Create a partner account on a PRM portal](configure-web-roles-partner-portal.md#create-a-partner-account-on-a-prm-portal)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

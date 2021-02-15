@@ -206,3 +206,6 @@ See more on how to detect duplicates during Create and Update operation in [Mana
  [Enable and disable duplicate detection](enable-disable-duplicate-detection.md)   
  [Use Messages (Request and Response Classes) with the Execute Method](org-service/use-messages-request-response-classes-execute-method.md)   
  [Duplicate Detection Messages](duplicate-detection-messages.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

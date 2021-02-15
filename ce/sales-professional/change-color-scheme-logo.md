@@ -62,3 +62,6 @@ The theme that you are currently using is shown with the text “currently appli
 
 [Admin settings overview](admin-settings-overview.md)  
 [Overview of Dynamics 365 Sales Professional](sales-professional-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -21,3 +21,6 @@ Invoked by the client when a session is closed. This handler will pass the `sess
 [setClickToAct](../microsoft-ciframework/setClickToAct.md)<br />
 [addHandler](../microsoft-ciframework/addHandler.md)<br />
 [removeHandler](../microsoft-ciframework/removeHandler.md)
+
+
+[!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]

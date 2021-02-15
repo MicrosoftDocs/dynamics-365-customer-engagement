@@ -211,3 +211,6 @@ This topic contains information about updates in Omnichannel for Customer Servic
 ### See also
 
 [Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

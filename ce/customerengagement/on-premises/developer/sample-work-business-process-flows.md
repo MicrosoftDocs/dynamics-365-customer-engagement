@@ -90,3 +90,6 @@ This sample is available to download from [Sample: Work with business process fl
 
 ### See also  
  [Model business process flows](model-business-process-flows.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

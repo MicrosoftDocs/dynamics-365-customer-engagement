@@ -58,3 +58,6 @@ Debugging your custom code for [!INCLUDE[pn_unified_service_desk](../includes/pn
 
  [Extend Unified Service Desk](../unified-service-desk/extend-unified-service-desk.md)   
  [Unified Service Desk and the UII framework](../unified-service-desk/unified-service-desk-uii-framework.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

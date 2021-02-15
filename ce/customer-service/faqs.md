@@ -253,3 +253,6 @@ All channels integrated into Omnichannel have the same routing capabilities, inc
 ### Can a third-party bot be integrated with Omnichannel through this feature?
 
 Only bots created through [Microsoft Bot Framework](https://dev.botframework.com/) can be integrated at this time.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -37,3 +37,6 @@ Quotes have important data about the customers and the products they're interest
 [Overview of Dynamics 365 Sales Professional](sales-professional-overview.md)  
 [Admin settings overview](admin-settings-overview.md)  
 [Create and manage orders in Dynamics 365 Sales Professional](create-orders-sp.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

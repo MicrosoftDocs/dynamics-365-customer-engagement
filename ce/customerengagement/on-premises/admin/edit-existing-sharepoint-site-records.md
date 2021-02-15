@@ -75,3 +75,6 @@ Store documents related to your Dynamics 365 Customer Engagement (on-premises) r
 ### See also  
  [Set up SharePoint integration](set-up-sharepoint-integration.md)   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

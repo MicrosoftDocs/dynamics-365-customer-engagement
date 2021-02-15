@@ -167,3 +167,6 @@ xmlns:Converters="clr-namespace:USDConverters;assembly=USDConverters" xmlns:loca
 - [Step 4: Attach Omnichannel Toast Notification-related action calls to events](toastnotification-step4-add-action-calls-events.md)
 - [Step 5: Add the hosted control, events, and action calls to configurations](toastnotification-step5-add-hosted-controls-events-action-callsagent-supervisor-configurations.md)
 - [Configure alert notification in Unified Service Desk](configure-alert-notification-unified-service-desk.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

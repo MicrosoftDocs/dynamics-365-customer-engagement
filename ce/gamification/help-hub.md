@@ -83,3 +83,6 @@ search.app:
 </td>
 </tr>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

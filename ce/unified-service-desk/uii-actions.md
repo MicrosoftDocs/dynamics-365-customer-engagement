@@ -26,3 +26,6 @@ UII action is a concept inherited from [!INCLUDE[pn_user_interface_integration](
  [Action calls](../unified-service-desk/action-calls.md)   
  [Create an action call for a UII action](../unified-service-desk/create-action-call-uii-action.md)   
  [Components of Unified Service Desk](../unified-service-desk/core-concepts-for-configuring-unified-service-desk.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

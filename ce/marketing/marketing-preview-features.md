@@ -80,3 +80,6 @@ If you wish to report an issue with a preview feature, please [open a support ti
 
 - For marketing-contacts monitoring, please include: [PREVIEW][MCM]
 - For social posting, please include: [PREVIEW][SOCIAL]
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

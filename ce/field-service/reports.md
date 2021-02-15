@@ -172,3 +172,6 @@ Do not disable this custom action because insights and analytics features in Dyn
 ### Known issues
 
 - Reports don't render in Internet Explorer 11.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ To unlink a record, select the **X** button next to the customer name in the **C
 - [View customer summary for an incoming conversation request](view-customer-summary-incoming-conversation-request.md)
 - [Create a record](create-record.md)
 - [Search for records](search-record.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

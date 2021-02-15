@@ -60,3 +60,6 @@ The example below uses the Account Number field in the alternate key definition.
  [Create and edit web resources](../customize/create-edit-web-resources.md)   
  [Define alternate keys for an entity (Developer Guide)](../developer/define-alternate-keys-entity.md)
  [Use an alternate key to create a record (Developer Guide)](../developer/use-alternate-key-create-record.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -31,3 +31,6 @@ This section describes the customization features available to you for language 
 [Enable additional languages](enable-additional-languages.md) <br />
 [Translate customized entity and field text into other languages](export-customized-entity-field-text-translation.md) <br />
 [Import translated entity and field text back into an app](import-translated-entity-field-text.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

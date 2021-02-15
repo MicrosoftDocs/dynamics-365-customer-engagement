@@ -69,3 +69,6 @@ With Dynamics 365 for [!INCLUDE[pn_field_service](../includes/pn-field-service.m
  [View user accounts and security roles](../field-service/view-user-accounts-security-roles.md)<br>
  [User's Guide](../field-service/user-guide.md)<br>
  [Extend Universal Resource Scheduling actions to use your preferred geospatial data provider](../common-scheduler/developer/use-preferred-geospatial-data-provider.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

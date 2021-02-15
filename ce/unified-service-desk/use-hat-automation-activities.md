@@ -40,3 +40,6 @@ The [!INCLUDE[pn_hosted_application_toolkit_hat](../includes/pn-hosted-applicati
 ### See also  
  [Automate hosted applications using HAT automation activities](../unified-service-desk/automate-hosted-applications-using-hat-automation-activities.md)   
  [Types of HAT automation activities](../unified-service-desk/types-of-hat-automation-activities.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

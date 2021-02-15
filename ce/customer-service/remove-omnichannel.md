@@ -52,3 +52,6 @@ After Omnichannel is removed, you can enable it again from the **Manage environm
 [Provision Omnichannel for Customer Service](omnichannel-provision-license.md)  
 [Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md)  
 [Delete Omnichannel solutions](delete-solution.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Using the Dynamics 365 Sales mobile app
 description: Instructions for using the Dynamics 365 Sales mobile app
 ms.date: 11/30/2020
@@ -59,3 +59,6 @@ The home page is displayed as shown in the following example screen:
 ### See also
 
 [Learn the basics](learn-basics-mobile-app.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

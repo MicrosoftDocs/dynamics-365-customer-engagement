@@ -73,3 +73,6 @@ Before you begin, make sure you have the **System Administrator** security role 
 [Use sites to manage your service locations](uci-create-sites.md)
 
 [Navigate the service calendar](uci-navigate-service-calendar.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

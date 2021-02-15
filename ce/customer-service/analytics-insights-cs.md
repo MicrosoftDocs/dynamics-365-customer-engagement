@@ -120,3 +120,6 @@ Topics that rank high across the following three key areas are shown under Top
 
 When you select the light bulb icon, a short inline explanation of the reason for showing these topics is displayed with recommendations of possible actions to take. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

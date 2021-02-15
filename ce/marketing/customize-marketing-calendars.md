@@ -247,3 +247,5 @@ Users can choose any of the available HTML standards when entering color values,
 1. [Configure your calendar](#config-calendar) to identify the color field for the target entity.
 
 1. Publish your customizations.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

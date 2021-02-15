@@ -126,3 +126,5 @@ The process of launching the new product begins with a broad email campaign, whi
 1. The salesperson reviews the lead's interaction history and that of its related contact. The salesperson might also use [LinkedIn Sales Navigator](../linkedin/integrate-sales-navigator.md) to learn even more about the contact. The salesperson can now be very well prepared when they finally engage with the contact.
 1. Salespeople and marketers can collaborate over an especially promising or valuable lead, either while working in Dynamics 365 or [while working on Microsoft Teams](../teams-integration/teams-integration.md), which can also show contact and lead records directly from Dynamics 365.
 1. The salesperson follows the sales-to-opportunity process and eventually closes some sales. Based on this experience, the salesperson can [add more contacts](manage-segments-from-contacts.md) to the segments targeted by the awareness and/or nurturing campaigns.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

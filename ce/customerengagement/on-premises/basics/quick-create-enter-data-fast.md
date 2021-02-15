@@ -50,3 +50,6 @@ The Quick Create command makes it fast and easy to enter almost any type of info
 ### See also  
  [Work with accounts and contacts](../basics/accounts-contacts.md)   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

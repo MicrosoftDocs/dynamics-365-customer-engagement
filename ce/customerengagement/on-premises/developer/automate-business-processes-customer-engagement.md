@@ -68,3 +68,6 @@ shutdown and restart.
  [Write Plug-Ins for Dynamics 365 Customer Engagement (on-premises)](write-plugin-extend-business-processes.md)  
   
  [Understanding the Asynchronous Service](asynchronous-service.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

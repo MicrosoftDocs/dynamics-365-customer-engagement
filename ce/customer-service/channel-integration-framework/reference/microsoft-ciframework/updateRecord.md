@@ -19,3 +19,6 @@ applies_to:
 [!INCLUDE[updateRecord](includes/updateRecord-description.md)] 
 
 [!INCLUDE[token-updateRecord](../../shared/token-updateRecord.md)]
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

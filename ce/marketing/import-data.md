@@ -200,3 +200,6 @@ You must wait for an import job to be completed before you can repair failures.
 
 [Business management settings](business-management-settings.md) 
 [Export data](export-data-Word-Excel.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

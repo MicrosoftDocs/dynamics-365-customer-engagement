@@ -20,3 +20,6 @@ applies_to:
 [!INCLUDE[searchAndOpenRecords](includes/searchAndOpenRecords-description.md)]
 
 [!INCLUDE[token-searchAndOpenRecords](../../shared/token-searchAndOpenRecords.md)]
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

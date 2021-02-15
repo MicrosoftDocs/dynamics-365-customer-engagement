@@ -238,3 +238,6 @@ Whenever a member leaves the team where an entity record was pinned, the **Files
 
 To disable the user from accessing to the documents in the record from the customer engagement app, an admin can remove the access of the record to the user or control the permission using the SharePoint site permissions.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

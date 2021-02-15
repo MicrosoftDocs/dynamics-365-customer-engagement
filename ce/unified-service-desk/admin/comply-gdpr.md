@@ -49,3 +49,6 @@ The GDPR makes clear that the concept of personal data includes online identifie
 ## See also
 
 [Unified Service Desk data compliance under GDPR](comply-unified-service-desk-data-gdpr.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

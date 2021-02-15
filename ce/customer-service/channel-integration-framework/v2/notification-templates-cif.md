@@ -123,3 +123,6 @@ As an administrator, you can edit the value of a notification field header in th
 [Use automation dictionary to pass data parameter keys](automation-dictionary-keys-cif.md)
 
 [Associate templates with workstreams](associate-templates-cif.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

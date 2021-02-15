@@ -142,3 +142,6 @@ Recommended time for this stage: 1-2 weeks
 ## See also
 
 - [Resource scheduling optimization Overview](rso-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

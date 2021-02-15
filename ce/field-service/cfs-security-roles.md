@@ -99,3 +99,6 @@ Because business process flows are not displayed on the Field Service Mobile app
 ## Additional notes
 
 - Any user who needs to work with device registration and device data pulls (IoT Hub operations) should be given the **IoT Administrator** and **IoT Endpoint User** security roles.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

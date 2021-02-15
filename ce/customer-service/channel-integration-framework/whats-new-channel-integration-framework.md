@@ -99,3 +99,6 @@ More information: [Configure channel provider in Dynamics 365 Channel Integratio
 ## See also
 
 [Download Dynamics 365 Channel Integration Framework](https://go.microsoft.com/fwlink/p/?linkid=2050102)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

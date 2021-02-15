@@ -34,3 +34,6 @@ If your organization doesn't sell a product anymore, retire it so that the produ
   
 ### See also  
  [Set up a product catalog: Walkthrough](../sales-enterprise/set-up-product-catalog-walkthrough.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

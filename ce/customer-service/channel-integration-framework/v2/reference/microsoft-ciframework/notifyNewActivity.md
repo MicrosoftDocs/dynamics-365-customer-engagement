@@ -57,3 +57,6 @@ Microsoft.CIFramework.notifyNewActivity(sessionId, count).then(
 ### See also
 
 [notifyKpiBreach API](notifyKPIBreach.md)
+
+
+[!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]

@@ -54,3 +54,6 @@ In Omnichannel for Customer Service, you can:
 ### See also
 
 [Configure a WeChat channel](configure-wechat-channel.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

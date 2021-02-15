@@ -39,3 +39,6 @@ This topic describes how you can upgrade to Dynamics 365 for Customer Enagagemen
  [Upgrading from Microsoft Dynamics 365](plan-your-upgrade-to-microsoft-dynamics-365-server.md)   
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

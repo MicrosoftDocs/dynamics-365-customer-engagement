@@ -63,3 +63,6 @@ Incident entities can be related hierarchically. An administrator can use the **
  [Incident Entity](entities/incident.md)   
  [IncidentResolution Entity](entities/incidentresolution.md)   
  [Sample: Close an Incident](sample-close-incident.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

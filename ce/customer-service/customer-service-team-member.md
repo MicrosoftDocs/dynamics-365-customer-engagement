@@ -89,3 +89,6 @@ In the Customer Service Team Member app, you can perform the following tasks:
 ### See also
 
 [Dynamics 365 Team Members license](https://docs.microsoft.com/dynamics365/get-started/team-members-license)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

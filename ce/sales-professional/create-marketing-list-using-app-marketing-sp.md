@@ -149,3 +149,6 @@ In any marketing list record, select the **Members** tab, and on the command bar
   
 ### See also  
  [Get started with in-app marketing](get-started-app-marketing-sp.md)   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

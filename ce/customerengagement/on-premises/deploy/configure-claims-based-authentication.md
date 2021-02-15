@@ -111,3 +111,6 @@ Claims data sent from [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)
  [Disable claims-based authentication](disable-claims-based-authentication.md)   
  [Configure an Internet-facing deployment](configure-an-internet-facing-deployment.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

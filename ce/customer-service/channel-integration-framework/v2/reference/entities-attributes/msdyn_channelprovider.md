@@ -930,3 +930,6 @@ See msdyn_appconfiguration Entity [msdyn_appconfig_msdyn_channelprovider](msdyn_
 - [Microsoft.CIFramework](../microsoft-ciframework-v2.md)
 
 - [Client-side events](../client-side-events.md)
+
+
+[!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]

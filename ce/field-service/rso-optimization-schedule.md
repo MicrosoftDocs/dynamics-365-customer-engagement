@@ -57,3 +57,5 @@ If you configure your timer and filter as shown here, resource scheduling optimi
 > ![Screenshot showing the schedule details](media/6006fd53284a7c51c4cfe8712be658bd.png)
 > [!div class="mx-imgBorder"]
 >![Screenshot showing the pertinent days of the week](media/3fca5eb9becad2a8a08ae76057a03cf1.png)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -166,3 +166,6 @@ To remove a product from the selection, go to the **Selected** tab. For the prod
 [Add products to quotes, orders, or invoices](add-product-quote-order-invoice.md)  
 [Enable the enhanced experience of adding products](enable-enhanced-add-product-experience.md)  
 [Customize the Add Products dialog box](customize-add-products-dialog-box.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

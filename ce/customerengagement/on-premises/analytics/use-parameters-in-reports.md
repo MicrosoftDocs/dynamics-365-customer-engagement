@@ -162,3 +162,6 @@ You use parameters in reports to control the data retrieved by prompting the use
 ### See also  
  [Reporting and Analytics Guide](../analytics/reporting-analytics-with-dynamics-365.md)   
  [Publish reports](../analytics/publish-reports.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

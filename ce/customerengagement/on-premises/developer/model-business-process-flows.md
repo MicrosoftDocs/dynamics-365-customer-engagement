@@ -397,3 +397,6 @@ The only exception to this is programmatically modifying the **ProcessId** attri
 ### See also    
    
  - [Business process flows](../customize/business-process-flows-overview.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

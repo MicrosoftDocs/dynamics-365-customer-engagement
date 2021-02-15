@@ -66,3 +66,6 @@ Promise with value as string
 
 [initLogAnalytics method](initLogAnalytics.md)<br />
 [Channel Analytics](../../channel-analytics.md)
+
+
+[!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]

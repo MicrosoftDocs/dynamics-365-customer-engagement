@@ -140,3 +140,6 @@ To view more videos on Omnichannel for Customer Service, see [Videos](videos.md)
 [Configure an SMS channel for TeleSign](configure-sms-channel.md)<br>
 [Configure an SMS channel for Twilio](configure-sms-channel-twilio.md)<br>
 [SMS FAQ](faqs.md#sms)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

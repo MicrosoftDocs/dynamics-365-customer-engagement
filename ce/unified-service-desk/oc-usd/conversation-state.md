@@ -150,3 +150,6 @@ Programmatically, you can change the default time and set it as per your organiz
 [View communication panel](left-control-panel.md)
 
 [Automatic closure of a conversation](../../customer-service/auto-close-conversation.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

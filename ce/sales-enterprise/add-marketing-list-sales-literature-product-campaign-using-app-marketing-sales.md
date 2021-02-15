@@ -56,3 +56,6 @@ Add all items to your campaign that your need in this marketing context. Usually
  [Create a quick campaign using in-app marketing](../sales-enterprise/create-quick-campaign-using-app-marketing-sales.md)   
  [Add an activity to a campaign using in-app marketing](../sales-enterprise/add-activity-campaign-using-app-marketing-sales.md)   
  [Track a marketing campaign response using in-app marketing](../sales-enterprise/track-marketing-campaign-response-using-app-marketing-sales.md)   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

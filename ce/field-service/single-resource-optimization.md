@@ -155,3 +155,6 @@ Finally, go to the **Optimization Request** to **Apply** or **Discard** simulati
 - This capability appears on the schedule board for all resources as long as optimization is deployed in the environment. However, single resource optimization only works if **Optimize Schedules** is set to **Yes** for the bookable resource. The single resource optimization capability can't be disabled or hidden.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

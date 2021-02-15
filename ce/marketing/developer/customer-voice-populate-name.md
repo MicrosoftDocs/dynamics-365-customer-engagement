@@ -45,3 +45,5 @@ To export survey response data to Excel:
 ### See also
 
 [Use Dynamics 365 Customer Voice surveys with Dynamics 365 Marketing](../customer-voice.md)  
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -85,3 +85,6 @@ Task flows can use multi-entity forms and logic, and can have form logic that ru
  [Create a business process flow](../customize/create-business-process-flow.md)   
  [Create business rules and recommendations to apply logic in a form](../customize/create-business-rules-recommendations-apply-logic-form.md) <br/>
  [Create custom business logic with processes](../customize/guide-staff-through-common-tasks-processes.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

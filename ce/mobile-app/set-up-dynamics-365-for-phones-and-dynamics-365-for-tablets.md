@@ -287,3 +287,6 @@ Things to note:
  [Install Dynamics 365 for tablets and phones](dynamics-365-phones-tablets-users-guide.md) </br>
  [Dynamics 365 for phones and tablets User's Guide](dynamics-365-phones-tablets-users-guide.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

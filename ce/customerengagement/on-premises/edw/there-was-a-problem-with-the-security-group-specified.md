@@ -54,3 +54,6 @@ Predefined security groups have been defined in the Setup XML file. However, one
 
  All groups used by [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] must be security groups. For mixed-mode domains, the group scope must be global.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

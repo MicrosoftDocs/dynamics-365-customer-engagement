@@ -111,3 +111,5 @@ If you want to opt out from automatically executing the Marketing rule set, comp
 
 1. A confirmation window will appear. Confirm that you want to deactivate the rule set by clicking the **Deactivate** button.
 1. Inactive rule sets are visible in "Inactive Solution Health Rule Sets" section in the **Solution Health Rule Sets**. You can reactivate inactive rule sets anytime.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
