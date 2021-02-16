@@ -32,9 +32,8 @@ search.app:
 
    > [!div class="mx-imgBorder"]
    >![Select a Customize the System](media/Settings_Custom.png "Customize the System")
-2. 
-3. In your Dynamics 365 app, go to **Settings** > **Customizations** > **Customize the System**.
-4. Choose the custom entity. Under **Communication & Collaboration**, enable **Activities**, and then choose **Save** > **Publish** on the **Home** tab.
+
+3. Choose the custom entity. Under **Communication & Collaboration**, enable **Activities**, and then choose **Save** > **Publish** on the **Home** tab.
 
    ![Communication and collaboration activity enabled](media/communication-collaboration-activities.png "Communication and collaboration activity enabled")
    
