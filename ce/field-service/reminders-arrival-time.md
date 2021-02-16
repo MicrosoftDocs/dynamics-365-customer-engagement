@@ -151,6 +151,24 @@ Branding Options:
 > To upload and update the Portal header image you will need to access the Power Portal Makers website. See [Portal Designer](#portal-designer).
 
 
+## Step 4: Testing the experience as an end user.
+To review and test changes you will want to setup an account and contact as if you are an end customer.  Before testing please ensure initial configuration steps are complete and notifications are enabled.  
+
+Steps:
+1. Create a Account in CRM with an address local to your area.
+2. Create a Contact in CRM with test email and mobile phone number.
+3. Assign the Contact as the Primary Contact of the Account you created.
+4. Create a Work Order and assign the Service Account you had created.
+5. Create a Booking for the Work Order with a status of "Scheduled". Set the Start Date within the range of your "Booking Reminder" notifications. Assign a Resource to the booking.
+    - The resource assigned to the booking should have access to the Field Service Mobile application with Location Sharing enabled. See [FAQ to manually enter a resource location](#).
+6. After saving the booking, you will receive a email and/or SMS notification to your test email and mobile phone number assosiated with that test CRM Contact.  Click through the notificiation to review the Portal, you will see a map showing the location of the Service Account.
+7. Change the Booking status to "Traveling". You will receieve a second email and/or SMS notification. This will include a map showing the current location of the Resource and their estimated arrival time to the service account location.
+8. Change the booking status to "Complete", this will span the booking complete message.
+
+To test Reschedule notification and Cancel notification, follow steps 1-6, then after scheduled booking is in place, reschedule time slot of the booking or cancel the booking.
+
+
+
 
 # Additional Details & FAQ
 
@@ -286,7 +304,7 @@ Booking Notification provides visibility the Field Service Admin a way to extend
 
 ## FAQ
 
-Q: How do I change the timing of Reminder message?
+#### Q: How do I change the timing of Reminder message?
 
 A: Reminder messages are triggered by a flow which runs daily at 10:00 AM UTC. Any Bookings which fall into your remider message time period which are not part of exclusion lists will receive a reminder message.
 
@@ -300,21 +318,24 @@ To edit the reminder message:
 > ![Screenshot of ](./media/recurrance-flow.jpg)
 
 
-Q: I have an existing Power App Portal, can I still provision this Field Service Customer Experience Portal?
+#### Q: I have an existing Power App Portal, can I still provision this Field Service Customer Experience Portal?
 
 A: Yes, you can have multiple portals, however you can only have one copy of the Field service Customer Experience Portal per environment.
 
 
-Q: I have an an existing Power Apps Portal, can i integrate this experience within it?
+#### Q: I have an an existing Power Apps Portal, can i integrate this experience within it?
 
 A: Not at this time - check back for future updates.
 
 
-Q: Does my Field Service Customer Experiences Portal receive updates?
+#### Q: Does my Field Service Customer Experiences Portal receive updates?
 
 A: Yes, we may continue to add new features and enhancements to the Portal. Updates will come un-published and require the Org Admin to publish the update before they reflect on the live experience.
 
-Q: I don't have a Twilio or O365 Exchange account! Are there other services I can use for messaging?
+#### Q: I don't have a Twilio or O365 Exchange account! Are there other services I can use for messaging?
 
 A: Yes - you can use alterative SMS or Email providers as long as they have connectors supported by D365 Power Automate.  Simply clone the existing [Email and SMS flows](#step-2-configure-email--sms-connectors-within-power-automate), remove the current connectors and add desired connectors.
 
+#### Q: How can I manually enter a Resource Location without sharing location from Field Service Mobile?
+
+A: To inject a new location use Advanced Find in CRM -> Search for Geolocation Tracking. Use command to add "New Geolocation Tracking". On resulting screen enter the resource and the desired lat & long values.
