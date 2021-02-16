@@ -23,8 +23,18 @@ search.app:
 ---
 # Customize the Regarding lookup to add or remove entities
 
-1. In your Dynamics 365 app, go to **Settings** > **Customizations** > **Customize the System**.
-2. Choose the custom entity. Under **Communication & Collaboration**, enable **Activities**, and then choose **Save** > **Publish** on the **Home** tab.
+1. To open settings for apps that use Unified Interface, look in the upper-right corner and select the Gear icon. Then select **Advanced Settings**.
+
+   > [!div class="mx-imgBorder"]
+   >![Setting Customizations](media/settings-advanced-1.png "Settings Customizations")
+  
+2. Select **Settings** > **Customizations** and then select **Customize the System**.  
+
+   > [!div class="mx-imgBorder"]
+   >![Select a Customize the System](media/Settings_Custom.png "Customize the System")
+2. 
+3. In your Dynamics 365 app, go to **Settings** > **Customizations** > **Customize the System**.
+4. Choose the custom entity. Under **Communication & Collaboration**, enable **Activities**, and then choose **Save** > **Publish** on the **Home** tab.
 
    ![Communication and collaboration activity enabled](media/communication-collaboration-activities.png "Communication and collaboration activity enabled")
    
