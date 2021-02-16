@@ -277,3 +277,6 @@ When the **Modify List Value** dialog box opens, choose the color as shown here:
 ### Next steps  
  [Create and edit dashboards](../customize/create-edit-dashboards.md)   
  [Create or edit a chart](../basics/create-edit-chart.md)  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -91,3 +91,6 @@ The categories under which the operations you perform are classified. The follow
 [Overview of performance report user interface](overview-performance-report-user-interface.md)
 
 [View, read, and compare performance report](view-read-compare-performance-report.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

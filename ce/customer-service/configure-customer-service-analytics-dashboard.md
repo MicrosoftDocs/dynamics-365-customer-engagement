@@ -239,3 +239,6 @@ Before you customize the template app, read the information here and perform eac
 
 [Introduction to Customer Service Analytics](introduction-customer-service-analytics.md)  
 [View and understand Customer Service Analytics](customer-service-analytics.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

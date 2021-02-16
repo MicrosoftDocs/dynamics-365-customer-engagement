@@ -141,3 +141,6 @@ Whether your data is stored in spreadsheets, databases, or other systems, you'll
 15. If needed, learn about removing duplicates: [Merge duplicate records for accounts, contacts, or leads](merge-duplicate-records-accounts-contacts-leads.md)
   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

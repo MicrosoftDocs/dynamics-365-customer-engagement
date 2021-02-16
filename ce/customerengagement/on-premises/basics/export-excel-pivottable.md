@@ -96,3 +96,6 @@ You can export Dynamics 365 Customer Engagement (on-premises) data to a [!INCLUD
 ### See also  
  [Export data to Excel](../basics/export-data-excel.md)   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

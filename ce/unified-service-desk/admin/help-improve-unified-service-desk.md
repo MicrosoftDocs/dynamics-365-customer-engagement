@@ -104,3 +104,6 @@ Configuring and setting the value of the **HelpImproveUSD** global option to **F
 
 [Manage options for Unified Service Desk](../../unified-service-desk/admin/manage-options-unified-service-desk.md)  
 [Provide feedback about Unified Service Desk](../admin/provide-feedback.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -53,3 +53,6 @@ When you create a new report, share it with other people on your team or in your
 3.  On the **Actions**![action](../basics/media/action-button.gif "action") menu, select **Make Report Available to Organization**.  
  
 ize/customize-organize-reports.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

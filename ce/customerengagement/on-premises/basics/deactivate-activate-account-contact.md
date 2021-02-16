@@ -47,3 +47,6 @@ In Customer Engagement (on-premises), you deactivate an account or contact rathe
   
 3.  Select the inactive accounts or contacts you want to activate, select **Activate**, and then confirm the activation.  
   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

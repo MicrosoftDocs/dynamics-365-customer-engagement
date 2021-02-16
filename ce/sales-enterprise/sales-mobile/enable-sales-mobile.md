@@ -55,3 +55,6 @@ After you enable the Dynamics 365 Sales mobile app, field sellers can install it
 
 [Use the Dynamics 365 Sales mobile app](use-sales-mobile-app.md)    
 [Learn the basics](learn-basics-mobile-app.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

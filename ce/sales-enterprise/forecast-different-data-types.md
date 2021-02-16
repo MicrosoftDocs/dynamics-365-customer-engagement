@@ -131,3 +131,6 @@ You can view the details of the primary data type and selected column (among dup
 
 [Activate and upload simple columns data](activate-upload-simple-columns-data-forecast.md)  
 [Choose layout and columns](choose-layout-and-columns-forecast.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

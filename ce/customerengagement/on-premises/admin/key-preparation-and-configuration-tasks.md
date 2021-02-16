@@ -192,3 +192,6 @@ Every time you visit a website, [!INCLUDE[pn_Internet_Explorer](../includes/pn-i
   
 ### See also  
  [Set up an organization](../admin/set-up-a-dynamics-365-organization.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -25,3 +25,6 @@ The [!INCLUDE[pn_hosted_application_toolkit_hat](../includes/pn-hosted-applicati
  [Using the HAT Software Factory](../unified-service-desk/work-with-hat-software-factory.md)  
   
  [Using Data Driven Adapters](../unified-service-desk/use-data-driven-adapters-ddas.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

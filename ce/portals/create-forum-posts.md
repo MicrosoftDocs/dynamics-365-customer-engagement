@@ -59,3 +59,6 @@ The table below explains many of the Forum Post attributes used by portals. It i
 [Moderate forums](moderate-forums.md)  
 [Subscribe to alerts](subscribe-alerts.md)  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

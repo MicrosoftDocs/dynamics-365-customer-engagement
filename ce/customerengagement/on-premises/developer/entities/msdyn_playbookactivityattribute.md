@@ -898,3 +898,5 @@ See msdyn_playbookactivity Entity [msdyn_playbookactivity_msdyn_playbookactivity
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_playbookactivityattribute?text=msdyn_playbookactivityattribute EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

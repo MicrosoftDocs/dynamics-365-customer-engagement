@@ -55,3 +55,6 @@ The [!INCLUDE[pn_CRM_Reporting_Extensions_server_side](../includes/pn-crm-report
 ## See Also  
  [SQL Server installation and configuration](sql-server-installation-and-configuration.md)   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

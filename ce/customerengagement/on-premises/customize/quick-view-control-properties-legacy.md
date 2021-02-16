@@ -40,3 +40,6 @@ You can access **Quick view control properties** in solution explorer. Under **C
 
 [Use the Main form and its components](../customize/use-main-form-and-components.md)
  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

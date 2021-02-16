@@ -177,3 +177,6 @@ Although your segments will automatically refresh a few times a day based on you
 ### See also
 
 [Working with segments](segmentation-lists-subscriptions.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

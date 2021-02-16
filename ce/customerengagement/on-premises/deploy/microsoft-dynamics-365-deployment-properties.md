@@ -153,3 +153,6 @@ The [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] **Properties** d
  [Configure an Internet-facing deployment](configure-an-internet-facing-deployment.md)   
  [Change the product key](change-the-product-key.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

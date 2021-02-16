@@ -51,3 +51,6 @@ You can set up knowledge management for your Customer Engagement (on-premises) i
  [Incident (case) entities](incident-case-entities.md)  
   
  [Service Entities (Contract, Incident, Knowledge Base)](service-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

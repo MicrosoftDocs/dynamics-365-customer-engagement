@@ -46,3 +46,6 @@ An entity attribute is a container for a piece of data in an entity. In this dev
  [Create auto-number attribute](create-auto-number-attributes.md)   
  [Work with Attributes](org-service/work-attribute-metadata.md)   
  [Sample: Work with Attributes](org-service/sample-work-attribute-metadata.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

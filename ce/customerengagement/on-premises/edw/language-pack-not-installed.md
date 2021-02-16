@@ -22,3 +22,6 @@ ms.author: matp
   
  Install the language pack that is referenced in the details of this check. This language matches the base language of the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] deployment.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

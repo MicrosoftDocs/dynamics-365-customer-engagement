@@ -143,3 +143,6 @@ A data-driven adapter uses data, named the bindings, to define the way that it i
 ### See also  
  [UIADDA](../unified-service-desk/uiadda.md)   
  [Use Data Driven Adapters (DDAs)](../unified-service-desk/use-data-driven-adapters-ddas.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

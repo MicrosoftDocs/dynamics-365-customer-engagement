@@ -63,3 +63,6 @@ All details regarding the call such as duration, phone number, and notes are aut
 [Get Dynamics 365 Channel Integration Framework](../customer-service/channel-integration-framework/get-channel-integration-framework.md)  
 [Sample softphone integration using Channel Integration Framework](../customer-service/channel-integration-framework/sample-softphone-integration.md)  
 [How to configure a channel provider for your Dynamics 365 organization](../customer-service/channel-integration-framework/configure-channel-provider-channel-integration-framework.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

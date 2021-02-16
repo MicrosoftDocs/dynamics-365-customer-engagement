@@ -44,3 +44,5 @@ Upgrades are delivered by our system automatically. We cannot guarantee the orde
 [Open the Power Platform admin center](power-platform-admin-center.md)  
 [Manage Marketing environments](manage-marketing-environments.md)  
 [Uninstall Marketing](uninstall-marketing.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

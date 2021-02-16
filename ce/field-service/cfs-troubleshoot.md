@@ -54,3 +54,5 @@ Go to the Azure portal, find your IoT Hub resource, then set pricing and scale t
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the pricing and scale tier settings in IoT Hub](./media/cfs-pricing-tier.png)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

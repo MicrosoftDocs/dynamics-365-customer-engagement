@@ -73,3 +73,6 @@ search.app:
  [Dynamics 365 for Outlook User's Guide](dynamics-365-outlook-user-s-guide.md)   
  [Track Outlook email by moving it to a tracked Exchange folder](track-outlook-email-by-moving-it-tracked-exchange-folder.md)   
  [Set personal options that affect tracking and synchronization between Dynamics 365 apps and Outlook or Exchange](set-personal-options-affect-tracking-synchronization-exchange.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -190,3 +190,5 @@ incidental, consequential, or other damages.**
 **15. CONTACT INFORMATION.** If you have questions, complaints or claims with
 respect to the software, please contact the Microsoft affiliate serving your
 country (see <https://aka.ms/msoffices>).
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

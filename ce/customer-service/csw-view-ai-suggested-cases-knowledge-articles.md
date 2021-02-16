@@ -110,3 +110,5 @@ Perform the following steps to view the similar cases and related articles for t
 [Knowledge base search control powered by Relevance search](search-knowledge-articles-csh.md)  
 [Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)  
 [See similar case suggestions in Customer Service Hub](suggest-similar-cases-for-a-case.md#see-similar-case-suggestions-in-the-customer-service-hub)  
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

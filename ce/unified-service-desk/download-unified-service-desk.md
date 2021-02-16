@@ -66,3 +66,6 @@ This section provides information about the tools that help you efficiently admi
 | Best Practices Analyzer 1.0 |  [Download](https://go.microsoft.com/fwlink/p/?linkid=872089) |
 | Unified Service Desk Performance Analyzer 1.0 |[Download](https://go.microsoft.com/fwlink/p/?linkid=2034281) |
 |||
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

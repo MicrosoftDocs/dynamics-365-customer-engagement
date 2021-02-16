@@ -81,3 +81,6 @@ You can permanently delete a forecast that is in the active, inactive, or draft 
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

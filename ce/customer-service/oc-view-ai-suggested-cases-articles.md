@@ -71,3 +71,6 @@ If no cases match, then the card displays an appropriate message, such as "No su
 
 [Enable AI-suggested cases and knowledge articles](csw-enable-ai-suggested-cases-knowledge-articles.md)  
 [Smart assist suggestions using bot user](oc-smart-assist.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

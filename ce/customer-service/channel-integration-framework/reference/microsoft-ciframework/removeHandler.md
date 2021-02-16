@@ -32,3 +32,6 @@ applies_to:
 [onsendkbarticle](../events/onsendkbarticle.md)
 
 [onsizechanged](../events/onsizechanged.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

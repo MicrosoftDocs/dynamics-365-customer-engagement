@@ -175,3 +175,6 @@ The out-of-the-box **Stakeholders** subgrid only shows connections that have a c
 ### See also
 
 [Dynamics 365 Sales troubleshooting guide](troubleshooting.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

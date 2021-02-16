@@ -53,3 +53,6 @@ You can't undo this action.
 
  [Overview for commissioners and game managers in Gamification](for-commissioners-game-managers.md)   
  [Set up and run games in Gamification](run-games.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

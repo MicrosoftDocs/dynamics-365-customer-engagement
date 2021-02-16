@@ -24,3 +24,6 @@ search.app:
 
 Copying an instance (environment) is now done in the [Power Platform admin center](https://admin.powerplatform.microsoft.com/). See [Copy an environment](https://docs.microsoft.com/power-platform/admin/copy-environment).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

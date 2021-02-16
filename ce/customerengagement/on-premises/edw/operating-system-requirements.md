@@ -28,3 +28,6 @@ ms.author: matp
   [Microsoft Dynamics 365 for Outlook software requirements](../../../outlook-addin/admin-guide/software-requirements.md)
  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

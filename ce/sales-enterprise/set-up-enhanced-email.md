@@ -58,3 +58,6 @@ Before sales reps can use enhanced email, you must enable it.
 ### See also
 
 [Send email using the enhanced email experience](enhanced-email.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

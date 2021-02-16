@@ -41,3 +41,6 @@ When adding products to opportunities, quotes, orders, or invoices, at times, sa
 ### See also
 [Add products to an opportunity](add-products-opportunity-sp.md)  
 [Add products to a quote, order, or invoice](add-product-quote-order-invoice-sp.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

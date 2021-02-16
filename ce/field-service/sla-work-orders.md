@@ -146,3 +146,6 @@ Additionally, scheduling tools like the schedule assistant and Resource Schedule
 - Multiple SLAs and multiple business hours or calendars can be created and utilized for different customers; however, a work order can only have one SLA assigned to it.
 - SLAs on work orders will overwrite existing values for **Time From Promised** and **Time To Promised**.
 - Pausing an SLA timer on the work order will update **Time From Promised** and **Time To Promised** fields when resumed.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

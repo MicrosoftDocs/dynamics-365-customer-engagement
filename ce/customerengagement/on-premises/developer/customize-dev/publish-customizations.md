@@ -88,3 +88,6 @@ Publishing customizations makes the Web application aware of changes to the data
  [Open Forms, Views, and Dialogs with a URL](../open-forms-views-dialogs-reports-url.md)   
  [Client scripting in Customer Engagement using JavaScript](../clientapi/client-scripting.md)   
  [Web Resources for Microsoft Dynamics 365 Customer Engagement](../web-resources.md)   
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

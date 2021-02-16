@@ -71,3 +71,6 @@ As an app maker or customizer, you can create and edit entities by using solutio
 [Create and edit fields (attributes)](create-edit-fields.md) <br />
 [Create or edit a main form for an entity](create-edit-main-forms.md) <br />
 [Understand views (lists)](create-edit-views.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

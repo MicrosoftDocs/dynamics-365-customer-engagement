@@ -262,3 +262,6 @@ You can use the `Microsoft.Crm.PowerShell.Get-CrmSetting` and `Microsoft.Crm.Pow
  [Administer the deployment using Windows PowerShell](administer-the-deployment-using-windows-powershell.md) </br>
  [Microsoft Dynamics 365 (on-premises) PowerShell Reference](/powershell/module/microsoft.crm.powershell/?view=dynamics365ce-ps)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

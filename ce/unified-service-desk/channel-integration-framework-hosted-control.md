@@ -219,3 +219,6 @@ The event occurs when the corresponding Channel Integration Framework JavaScript
 - [Integrate channel using Channel Integration Framework](integrate-channel-provider-channel-integration-framework.md)
 - [Create a Channel Integration Framework hosted control](create-channel-integration-framework-hosted-control.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

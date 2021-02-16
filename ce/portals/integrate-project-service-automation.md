@@ -54,3 +54,6 @@ Both customers and partners can view bookable resources on the partner portal by
 
 ![View customer resources in a partner portal](media/view-customer-resources-partner-portal.png "View customer resources in a partner portal")
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

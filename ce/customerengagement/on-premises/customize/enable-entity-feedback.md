@@ -89,3 +89,6 @@ Let customers write feedback for any entity record, or rate entity records withi
   
 ### See also  
  [Submit feedback or ratings for Dynamics 365 for Customer Engagement records](../basics/submit-feedback-ratings.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

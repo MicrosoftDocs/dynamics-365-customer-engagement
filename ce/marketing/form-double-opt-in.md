@@ -94,3 +94,5 @@ More information: [Email marketing overview](prepare-marketing-emails.md), [Set 
 
 ### See also
 [Global double opt-in](double-opt-in.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

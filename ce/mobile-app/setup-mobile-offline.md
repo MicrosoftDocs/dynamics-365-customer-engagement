@@ -272,3 +272,6 @@ Enable mobile offline for a specific app from MyApps page.
 ## Mobile offline capabilities and limitations
 
 For information on capabilities and limitations of mobile offline, see [Mobile offline capabilities and limitations](mobile-offline-capabilities.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

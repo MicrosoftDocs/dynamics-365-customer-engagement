@@ -85,3 +85,6 @@ In the broadest sense, security involves planning and considering tradeoffs betw
  [Setup overview for mobile apps](../../../mobile-app/set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md)  </br>
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -109,3 +109,5 @@ Check your security role:
  [Security concepts for Microsoft Dynamics 365 for Customer Engagement](../admin/security-concepts.md)   
  [Manage security, users, and teams](../admin/manage-security-users-and-teams.md)   
  [Create or edit a security role](../admin/create-edit-security-role.md)
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

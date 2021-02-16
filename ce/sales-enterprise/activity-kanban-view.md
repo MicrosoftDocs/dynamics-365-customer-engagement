@@ -76,3 +76,6 @@ Here are some important things to know about your Kanban view:
 ### See also
 
 [Add the Kanban control to Opportunity or Activity entities](add-kanban-control.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

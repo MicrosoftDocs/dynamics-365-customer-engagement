@@ -89,3 +89,6 @@ When a portal user flags an idea on the portal by using a reason, the idea is hi
 
 [Manage idea forums](crowdsource-ideas.md#manage-idea-forums)<br>
 [Manage ideas](crowdsource-ideas.md#manage-ideas-in-a-portal)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

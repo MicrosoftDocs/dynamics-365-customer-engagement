@@ -271,3 +271,6 @@ Another client-side extensibility point made available in the July 2017 update i
 [Universal Fetch XML](universal-fetchxml.md)
 
 [Universal Resource Scheduling extensibility release notes](extensibility-release-notes.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

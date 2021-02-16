@@ -55,3 +55,6 @@ App users can personalize the system and even share some of their customizations
  [Customization overview](../customize/overview.md)<br/> 
  [Getting started with customization](../customize/getting-started-customization.md)<br/>
  [Solutions overview](../customize/solutions-overview.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

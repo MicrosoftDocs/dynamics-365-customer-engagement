@@ -62,3 +62,6 @@ To delete a managed solution with an SLA-enabled entity, you need to first delet
 [Define Service Level Agreements (SLAs)](define-service-level-agreements.md)
 
 [Entities in the Customer Service Hub](customer-service-hub-user-guide-basics.md#work-with-case-management-record-types-dashboards-and-tools)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

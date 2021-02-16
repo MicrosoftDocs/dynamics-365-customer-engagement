@@ -31,3 +31,6 @@ The `<NextRole>` tag functions like the `<Next>` tag, but it applies to the acce
 ### See also  
  [JavaDDA](../unified-service-desk/javadda.md)   
  [Use Data Driven Adapters (DDAs)](../unified-service-desk/use-data-driven-adapters-ddas.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

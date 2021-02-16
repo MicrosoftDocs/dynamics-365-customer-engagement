@@ -60,3 +60,6 @@ To assign resources to a resource category:
 
 ### See also 
 [Service Scheduling overview](basics-service-service-scheduling.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

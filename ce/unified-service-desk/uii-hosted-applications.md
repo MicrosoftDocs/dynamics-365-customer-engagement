@@ -49,3 +49,6 @@ A [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-inte
  [Application Integration Framework](../unified-service-desk/uii-application-integration-framework.md)   
  [UII application adapters](../unified-service-desk/uii-adapters.md)   
  [Create and manage UII hosted applications](../unified-service-desk/create-manage-uii-hosted-applications.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -21,3 +21,6 @@ search.app:
 # Edit properties of an instance
 
 Editing properties of an instance (environment) is now done in the [Power Platform admin center](https://admin.powerplatform.microsoft.com/). See [Editing environment properties](https://docs.microsoft.com/power-platform/admin/edit-properties-environment).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

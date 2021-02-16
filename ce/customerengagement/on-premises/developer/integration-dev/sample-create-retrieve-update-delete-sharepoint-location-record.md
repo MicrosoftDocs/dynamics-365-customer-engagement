@@ -42,3 +42,6 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dyna
  [Actions on SharePoint Location Records](actions-on-sharepoint-location-records.md)   
  [Integrate SharePoint with Microsoft Dynamics 365 Customer Engagement (on-premises)](integrate-sharepoint.md)   
  [Sample: Retrieve Absolute URL and Site Collection URL of a Location Record](sample-retrieve-absolute-url-and-site-collection-url-of-a-location-record.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

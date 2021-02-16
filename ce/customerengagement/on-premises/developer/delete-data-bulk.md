@@ -70,3 +70,6 @@ To delete data in bulk, you have to submit a bulk delete job by using the BulkDe
  [Data Management](manage-data.md)  
   
  [Import data](import-data.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

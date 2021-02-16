@@ -1290,3 +1290,5 @@ See uom Entity [msdyn_uom_msdyn_incidenttypeproduct_Unit](uom.md#BKMK_msdyn_uom_
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_incidenttypeproduct?text=msdyn_incidenttypeproduct EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

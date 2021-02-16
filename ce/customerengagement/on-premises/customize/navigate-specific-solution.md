@@ -38,3 +38,6 @@ If your organization already has a specific solution you should work in, this is
 
    ### See also
    [Solutions overview](solutions-overview.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

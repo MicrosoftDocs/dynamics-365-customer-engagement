@@ -71,3 +71,6 @@ Dynamics 365 Customer Engagement (on-premises) supports robust *quote*, *sales o
  [Opportunity Entities](opportunity-entities.md)   
  [Sales Entities](sales-entities-lead-opportunity-competitor-quote-order-invoice.md)   
  [Set default price level for opportunity, quote, order, invoice](set-default-price-level-for-opportunity-quote-order-invoice.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

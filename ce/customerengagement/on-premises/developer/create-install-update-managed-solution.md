@@ -86,3 +86,5 @@ You create a managed solution by exporting an unmanaged solution as a managed so
  [Uninstall or Delete a solution](uninstall-delete-solution.md)   
  [Customization Solutions File Schema](customize-dev/customization-solutions-file-schema.md)
  
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

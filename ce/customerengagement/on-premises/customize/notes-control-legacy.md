@@ -50,3 +50,6 @@ search.audienceType:
 ||**Number of Rows**|Control the height of the notes control by selecting the number of rows the control occupies.|  
 ||**Automatically expand to use available space**|Instead of setting the height by a number of rows, you can allow the notes control height to expand to available space.|  
   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

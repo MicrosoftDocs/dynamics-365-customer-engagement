@@ -38,3 +38,6 @@ The following table shows the current usage limits for Marketing features.
 | Data synchronization  | Volume of one entity type [synchronized to Marketing](https://docs.microsoft.com/dynamics365/marketing/mkt-settings-sync)| 20,000,000 entities                                        |
 
 If you have questions or concerns about how to optimize your resources, contact [Microsoft support](https://docs.microsoft.com/power-platform/admin/get-help-support).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

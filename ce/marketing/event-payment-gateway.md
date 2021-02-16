@@ -155,3 +155,6 @@ For more information about how to execute custom actions, see [Use Web API actio
 ### See also
 
 [Set up the event website](set-up-event-portal.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

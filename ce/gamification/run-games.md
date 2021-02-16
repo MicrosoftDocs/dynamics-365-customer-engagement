@@ -157,3 +157,6 @@ After you activate the game, and before the game start date, you can change KPIs
  [Overview for commissioners and game managers in Gamification](for-commissioners-game-managers.md)   
  [Install and configure the Gamification solution](manage-gamification-in-dynamics-365-online.md)   
  [Import players and fans from Dynamics 365 apps and manage their security roles](manage-players-fans.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

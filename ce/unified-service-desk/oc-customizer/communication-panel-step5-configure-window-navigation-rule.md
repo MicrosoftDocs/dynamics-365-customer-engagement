@@ -86,3 +86,6 @@ The topic describes how to create window navigation rule for communication panel
 - [Step 2: Create communication panel hosted control](communication-panel-step2-create-hosted-control.md)
 - [Step 3: Create communication panel-related action calls](communication-panel-step3-create-action-calls.md)
 - [Step 4: Attach communication panel-related action calls to events](communication-panel-step4-attach-action-calls-events.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

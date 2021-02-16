@@ -72,3 +72,6 @@ We recommend that you do not change the default App for Outlook dashboard as tha
 > [!Note]
 > Business process flows are not supported in Dynamics 365 App for Outlook. When customizing the app, you should not explicitly select any business process flows.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

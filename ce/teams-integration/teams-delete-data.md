@@ -46,3 +46,6 @@ For more information on how to install Windows PowerShell, see [Azure ActiveDire
 |``` (Get-MsolCompanyInformation).ObjectId ```        |         |
 
 Record this information to provide to the support team.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

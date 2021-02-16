@@ -78,3 +78,6 @@ Forms provide the user interface (UI) that people use to create, view, or edit e
  [SystemForm Entity](../entities/systemform.md)   
  [Create or edit how business rules are initiated](create-edit-how-business-rules-initiated.md)   
  [Form XML Schema](form-xml-schema.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

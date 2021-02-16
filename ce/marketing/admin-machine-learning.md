@@ -63,3 +63,5 @@ Each user who needs access to the Marketing AI features needs to be granted the 
 
     > [!div class="mx-imgBorder"]
     > ![Marketing Machine Learning Feature Configuration Reader role](./media/admin-ai-role.png)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

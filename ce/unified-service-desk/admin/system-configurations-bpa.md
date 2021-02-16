@@ -119,3 +119,6 @@ Install the [!include[pn-ms-windows-short](../../includes/pn-ms-windows-short.md
 [Internet Explorer settings](../admin/internet-explorer-settings-bpa.md)
 
 [Unified Service Desk configurations](../admin/unified-service-desk-configurations-bpa.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

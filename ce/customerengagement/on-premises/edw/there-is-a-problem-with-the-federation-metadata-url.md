@@ -37,3 +37,6 @@ There is a problem with the federation metadata. Either it could not be accessed
   
 For more information about the certificate requirements for claims-based authentication, see [Certificate selection and requirements](https://go.microsoft.com/fwlink/p/?LinkId=306059).
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

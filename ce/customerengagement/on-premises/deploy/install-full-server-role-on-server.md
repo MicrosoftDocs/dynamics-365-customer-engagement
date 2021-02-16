@@ -148,3 +148,6 @@ manager: kvivek
  [Microsoft Dynamics 365 Server installation](microsoft-dynamics-365-server-installation.md)   
  [Install Microsoft Dynamics 365 Customer Engagement (on-premises) Reporting Extensions](install-microsoft-dynamics-365-reporting-extensions.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

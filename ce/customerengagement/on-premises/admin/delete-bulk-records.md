@@ -60,3 +60,6 @@ For information about how to implement bulk delete in code, see [Delete data in 
 ### See also  
  [Manage your data](../admin/manage-your-data.md)   
  [Data Encryption](../admin/data-encryption.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

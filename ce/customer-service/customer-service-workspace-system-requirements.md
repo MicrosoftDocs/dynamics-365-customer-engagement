@@ -34,3 +34,6 @@ For hardware and other requirements, see [Model-driven app requirements](../admi
 ### See also
 
 [Introduction to Customer Service workspace](csw-overview.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

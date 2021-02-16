@@ -1204,3 +1204,5 @@ See ratingvalue Entity [msdyn_ratingvalue_msdyn_incidenttypecharacteristic_Ratin
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_incidenttypecharacteristic?text=msdyn_incidenttypecharacteristic EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

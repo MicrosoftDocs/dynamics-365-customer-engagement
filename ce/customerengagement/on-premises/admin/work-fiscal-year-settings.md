@@ -56,3 +56,6 @@ You can set the fiscal year period, and how it’s displayed, for your organizat
   
 ### See also  
  [Set up sales territories to organize business markets by geographical area](../admin/set-up-sales-territories-organize-business-markets-geographical-area.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

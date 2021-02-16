@@ -94,3 +94,6 @@ We also provide a reference app using the popular UI Gifted Chat.
 [startChat](developer/reference/methods/startchat.md)<br />
 [lcw:closeChat](developer/reference/events/lcw-closechat.md)<br />
 [lcw:threadUpdate](developer/reference/events/lcw-threadUpdate.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

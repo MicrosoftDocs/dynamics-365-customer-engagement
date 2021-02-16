@@ -79,3 +79,6 @@ https://myserver/mypage.aspx?orgname=AdventureWorksCycle&userlcid=1033&orglcid=1
  [Open Forms And Views with a URL](../open-forms-views-dialogs-reports-url.md)    
  [Define Ribbon Tab Display Rules](define-ribbon-tab-display-rules.md)   
  [Sample: Export Ribbon Definitions](sample-export-ribbon-definitions.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

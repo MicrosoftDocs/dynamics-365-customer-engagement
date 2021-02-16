@@ -74,3 +74,6 @@ To make reports available to users, publish the reports.
 ### See also  
  [Reporting and Analytics Guide](reporting-analytics-with-dynamics-365.md)   <br />
 [Best practices for reports](best-practices-reports.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

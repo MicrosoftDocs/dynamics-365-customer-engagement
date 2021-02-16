@@ -51,3 +51,6 @@ The Configuration Migration tool enables you to move configuration data across D
 The first step is to download the Configuration Migration tool: [Download tools from NuGet](../developer/download-tools-nuget.md).
 
 Detailed documentation about using the tool is available in the Power Platform Admin Guide as the same tool can be used by Customer Engagement (on-premises) users: [Move configuration data](/power-platform/admin/manage-configuration-data)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

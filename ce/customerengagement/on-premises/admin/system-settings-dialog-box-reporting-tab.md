@@ -46,3 +46,6 @@ Use the settings on this page to configure reporting settings for Dynamics 365 C
 
 ### See also  
  [System Settings dialog box - General tab](../admin/system-settings-dialog-box-general-tab.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -77,3 +77,6 @@ If you need to create a contact that doesn't already exist in your Dynamics 365 
 
 [Learn the basics](learn-basics-mobile-app.md)   
 [View meetings](view-agenda.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

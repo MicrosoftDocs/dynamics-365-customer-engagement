@@ -161,3 +161,6 @@ To learn more, see [Use the automation dictionary to pass data parameter keys](a
 [Macros](macros.md)  
 [Smart assist](smart-assist.md)  
 [Session templates](session-templates.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

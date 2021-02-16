@@ -164,3 +164,6 @@ To remove a product from the selection, go to the **Selected** tab. For the prod
 [Add products to an opportunity](add-products-opportunity.md)  
 [Enable the enhanced experience of adding products](enable-enhanced-add-product-experience.md)  
 [Customize the Add products dialog box](customize-add-products-dialog-box.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

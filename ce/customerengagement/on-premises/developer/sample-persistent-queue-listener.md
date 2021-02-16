@@ -37,3 +37,6 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
 ### See also  
  [Write a Listener for a Microsoft Azure Solution](write-listener-application-azure-solution.md)   
  [Sample Code for Dynamics 365 Customer Engagement (on-premises) and Microsoft Azure Integration](sample-code-azure-integration.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

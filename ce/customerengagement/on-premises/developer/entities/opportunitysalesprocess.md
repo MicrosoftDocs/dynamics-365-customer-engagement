@@ -1058,3 +1058,5 @@ See salesorder Entity [bpf_salesorder_OpportunitySalesProcess](salesorder.md#BKM
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.opportunitysalesprocess?text=opportunitysalesprocess EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -122,3 +122,6 @@ Each event record provides an **Additional information** tab that includes a **F
 - **Total cost of external members**. Records the total cost of external members. This field is not calculated, so you can enter any value you want.
 - **Total cost of event activities**. Records the total cost of event activities. This field is not calculated, so you can enter any value you want.
 - **Revenue from sponsorship**. Initially tracks and adds together the revenue specified for each sponsorship associated with this event. You can edit this value if needed, but once edited it will stop automatically tracking revenues from associated sponsorship records. Delete the value to reset.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ Download the complete sample from [Sample: Query data using LINQ](https://github
  [Build Queries with LINQ (.NET Language-Integrated Query)](build-queries-with-linq-net-language-integrated-query.md)   
  [Sample: Complex LINQ Queries](sample-complex-linq-queries.md)   
  <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceContext>
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -28,3 +28,5 @@ Dynamics 365 Customer Engagement (on-premises) offers a number of tools for coll
 
 > [!NOTE]
 > [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] integration is not supported in Dynamics 365 Customer Engagement (on-premises). For information about OneNote integration with customer engagement apps in Dynamics 365 (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Marketing, Dynamics 365 Field Service, and Dynamics 365 Project Service Automation) and model-driven Power Apps, see [Set up OneNote integration](/power-platform/admin/set-up-onenote-integration-in-dynamics-365).
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

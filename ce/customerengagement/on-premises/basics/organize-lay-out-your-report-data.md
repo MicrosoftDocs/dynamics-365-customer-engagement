@@ -101,3 +101,6 @@ You can display columns that show data from a record, or columns that show summa
 4. Select **Next**.  
   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

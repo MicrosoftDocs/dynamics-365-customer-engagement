@@ -49,3 +49,6 @@ The Dynamics 365 Customer Engagement (on-premises) platform applies an additiona
  [Plug-in Development](plugin-development.md)   
  [Sample: Create a basic plug-in](/powerapps/developer/common-data-service/org-service/samples/basic-followup-plugin)   
  [Register and Deploy Plug-ins](register-deploy-plugins.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

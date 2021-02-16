@@ -37,3 +37,6 @@ Keep your customer engagement strong by growing a community, publishing articles
 
 [Create a theme for your portal](create-theme.md)  
 [Configure a portal](configure-portal.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
