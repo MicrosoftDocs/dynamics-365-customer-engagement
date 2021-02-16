@@ -49,10 +49,10 @@ Key Features:
 # Setup & Configuration
 This document will show you how to deploy and configure this experience for your organization with the following steps.
 
-1. Provision the Field Service Customer Experiences Portal.
-2. Configure Email & SMS connectors within Power Automate.
-3. Configure details of the experience.
-4. Testing the experience as an end user.
+1. [Provision the Field Service Customer Experiences Portal.](#step-1-provision-the-field-service-customer-experiences-portal-preview)
+2. [Configure Email & SMS connectors within Power Automate.](#step-2-configure-email--sms-connectors-within-power-automate)
+3. [Configure details of the experience.](#step-3-configure-details-of-the-experience)
+4. [Testing the experience as an end user.](#step-4-testing-the-experience-as-an-end-user)
 
 
 
@@ -160,7 +160,7 @@ Steps:
 3. Assign the Contact as the Primary Contact of the Account you created.
 4. Create a Work Order and assign the Service Account you had created.
 5. Create a Booking for the Work Order with a status of "Scheduled". Set the Start Date within the range of your "Booking Reminder" notifications. Assign a Resource to the booking.
-    - The resource assigned to the booking should have access to the Field Service Mobile application with Location Sharing enabled. See [FAQ to manually enter a resource location](#).
+    - The resource assigned to the booking should have access to the Field Service Mobile application with Location Sharing enabled. See [FAQ to manually enter a resource location](#q-how-can-i-manually-enter-a-resource-location-without-sharing-location-from-field-service-mobile).
 6. After saving the booking, you will receive a email and/or SMS notification to your test email and mobile phone number assosiated with that test CRM Contact.  Click through the notificiation to review the Portal, you will see a map showing the location of the Service Account.
 7. Change the Booking status to "Traveling". You will receieve a second email and/or SMS notification. This will include a map showing the current location of the Resource and their estimated arrival time to the service account location.
 8. Change the booking status to "Complete", this will span the booking complete message.
@@ -323,19 +323,23 @@ To edit the reminder message:
 A: Yes, you can have multiple portals, however you can only have one copy of the Field service Customer Experience Portal per environment.
 
 
-#### Q: I have an an existing Power Apps Portal, can i integrate this experience within it?
+#### Q: I have an an existing Power Apps Portal, can I integrate this experience within it?
 
-A: Not at this time - check back for future updates.
+A: Currently the Field Service Customer Portal is deployed as an stand-alone experience and cannot be interated into an existing Power Apps Portal.
 
 
 #### Q: Does my Field Service Customer Experiences Portal receive updates?
 
 A: Yes, we may continue to add new features and enhancements to the Portal. Updates will come un-published and require the Org Admin to publish the update before they reflect on the live experience.
 
-#### Q: I don't have a Twilio or O365 Exchange account! Are there other services I can use for messaging?
+#### Q: I don't have a Twilio or O365 Exchange account. Are there other services I can use for messaging?
 
 A: Yes - you can use alterative SMS or Email providers as long as they have connectors supported by D365 Power Automate.  Simply clone the existing [Email and SMS flows](#step-2-configure-email--sms-connectors-within-power-automate), remove the current connectors and add desired connectors.
 
 #### Q: How can I manually enter a Resource Location without sharing location from Field Service Mobile?
 
 A: To inject a new location use Advanced Find in CRM -> Search for Geolocation Tracking. Use command to add "New Geolocation Tracking". On resulting screen enter the resource and the desired lat & long values.
+
+#### Q: How do I edit email and SMS content?
+
+A: General content and format of the notifications are following a fixed template and cannot be changed. You can update individual words within the Email and SMS content via Content Snippets found in Field Service Settings. 
