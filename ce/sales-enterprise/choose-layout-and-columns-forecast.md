@@ -168,7 +168,7 @@ When you select column **Type** as **Hierarchy related**, the column helps you p
 <tr><td>
 
 > [!div class="nextstepaction"] 
-> [Previous step: Provide viewing permissions](provide-permissions-forecast.md)
+> [Previous step: Provide viewing and adjustment privileges](provide-permissions-forecast.md)
 </td><td>
 
 > [!div class="nextstepaction"] 
