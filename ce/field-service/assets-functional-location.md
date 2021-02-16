@@ -161,3 +161,6 @@ To use functional locations on an agreement, select an agreement. Go to **Agreem
 
 - Multiple accounts can be associated to a functional location tree.
 - Field Service technicians can see functional locations from their Field Service mobile apps, but cannot see or manage the larger location and asset hierarchies.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

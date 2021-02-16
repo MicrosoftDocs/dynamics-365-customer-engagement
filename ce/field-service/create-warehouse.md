@@ -57,3 +57,6 @@ Track your product inventory using a warehouse record in [!INCLUDE[pn_crm_shorte
 ### See also  
 
 - [Create a product or service](../field-service/create-product-or-service.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

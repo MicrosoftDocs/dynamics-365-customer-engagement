@@ -84,3 +84,6 @@ Here are the capabilities offered by Dynamics 365 Channel Integration Framework 
 [FAQs](faq-channel-integration-framework.md)
 
 [Get Dynamics 365 Channel Integration Framework](get-channel-integration-framework.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

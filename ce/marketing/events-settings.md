@@ -141,3 +141,6 @@ For more information about how to use the events API, including how to use the *
 [Set up and manage an event waitlist](event-waitlist.md)  
 [Create and manage recurring events](event-recurring.md)  
 [Create and use event templates](event-templates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

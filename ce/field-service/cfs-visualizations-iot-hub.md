@@ -159,3 +159,6 @@ Use the following table to troubleshoot error codes related to device readings.
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

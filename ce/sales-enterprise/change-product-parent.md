@@ -35,3 +35,6 @@ For example, think of a TV that was previously classified as "Plasma." The organ
 
 [Set up products (Sales and Sales Hub)](create-product-sales.md)  
 [Set up a product family (Sales and Sales Hub)](create-product-family.md) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

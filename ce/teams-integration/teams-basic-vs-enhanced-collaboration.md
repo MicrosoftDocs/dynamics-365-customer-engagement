@@ -31,3 +31,6 @@ Before you can start using the collaboration experience, it needs to be turned o
 |---------|---------|
 |**Basic Collaboration Experience**     |  <ul><li>You need system admin permissions to enable this feature.</li><br/>  <li>When you choose the **Collaborate** option in a customer engagement apps (such as Dynamics 365 Sales and Dynamics 365 Customer Service) record page, the connection set-up process between the app record and Microsoft Teams collaboration channel happens in Microsoft Teams.</li><br/> <li>You can manually pin a app record or view from Microsoft Teams. <br/> <br/>**Note:** The option to add recommended members during the manual set-up process from Microsoft Teams is not supported.</li></ul>       |
 |**Enhanced Collaboration Experience**    | <ul><li>You need Microsoft 365 tenant admin permissions to enable this feature. </li><br/>  <li>When you choose the **Collaborate** option on in app record or view page, a set-up wizard will guide you through the connection set-up process between the app record or view page in customer engagement apps and Microsoft Teams collaboration.</li><br/> <li>You can manually pin a app record or view from the Microsoft Teams app and have the option to add recommended members if you are the team channel owner.</li><br/>  </ul>  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

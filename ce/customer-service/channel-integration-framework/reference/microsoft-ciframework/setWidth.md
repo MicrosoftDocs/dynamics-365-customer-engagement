@@ -19,3 +19,6 @@ applies_to:
 [!INCLUDE[setWidth](includes/setWidth-description.md)]
 
 [!INCLUDE[token-setWidth](../../shared/token-setWidth.md)]
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

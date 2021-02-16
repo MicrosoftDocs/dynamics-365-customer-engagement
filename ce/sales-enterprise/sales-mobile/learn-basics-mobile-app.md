@@ -110,3 +110,6 @@ Select the bidirectional arrows in the upper-right corner to switch to other men
 
 [View meetings](view-agenda.md)    
 [Open a record](open-record.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

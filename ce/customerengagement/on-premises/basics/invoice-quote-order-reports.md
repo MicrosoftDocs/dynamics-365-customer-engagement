@@ -39,3 +39,6 @@ Use this report see an order and its line items. You can also use this report to
   
  If you run this report from a list without selecting any records, the report generates a customer-ready order for each active order record in the system. If you run this report from within a specific record, the report generates a customer-ready order only for the record you were working with.  
   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

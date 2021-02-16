@@ -83,3 +83,6 @@ To import data into [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)],
  [Import Data in Dynamics 365 Customer Engagement (on-premises)](import-data.md)   
  [Add Transformation Mapping](add-transformation-mappings-import.md)   
  [Add Transformation Mappings for Import](add-transformation-mappings-import.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

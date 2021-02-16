@@ -55,3 +55,6 @@ For this topic, the words **data** and **telemetry** refer to information sent f
 
 ## Component data flow diagram
 A data flow between the Azure IoT Hub and Connected Customer Services components is detailed in this [downloadable diagram](https://download.microsoft.com/download/3/A/7/3A744B76-3E04-49F5-A30B-938400CEB73E/AzureIoTCfsDataFlowDiagram.jpg). It details each information flow, its flow direction and relative order for a standard installation of Connected Customer Service for Dynamics 365.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

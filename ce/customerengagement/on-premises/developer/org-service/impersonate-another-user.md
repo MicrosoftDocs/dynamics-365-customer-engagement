@@ -46,3 +46,6 @@ More information can be found in the Dataverse topic [Impersonate another user](
  [Implement Single Sign-on from an ASPX Webpage or IFRAME](../implement-single-sign-aspx-webpage-iframe.md)     
  [How Role-Based Security Can Be Used to Control Access to Entities In Dynamics 365 Customer Engagement (on-premises)](../security-dev/how-role-based-security-control-access-entities.md)   
  [Sample: Impersonation using the ActOnBehalfOf privilege](sample-impersonate-actonbehalfof-privilege.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -122,3 +122,5 @@ If you add an entity to a solution and export the solution, the entity and all o
  [Maintain Managed Solutions](maintain-managed-solutions.md)   
  [Publish your app on AppSource](publish-app-appsource.md)
  
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

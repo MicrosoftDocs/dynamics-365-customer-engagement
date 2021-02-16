@@ -123,3 +123,6 @@ In Dynamics 365 Customer Engagement (on-premises), a business unit is a logical 
  [Set up an organization](../admin/set-up-a-dynamics-365-organization.md)   
  [Delete a business unit](../admin/delete-business-unit.md)   
  [Assign a business unit a different parent business](../admin/assign-business-unit-different-parent.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

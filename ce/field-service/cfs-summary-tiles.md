@@ -95,3 +95,5 @@ Summary tiles and device readings are viewable on the mobile app when connected 
 ## Additional notes
 
 - Summary tile calculations respect security roles and will change based on the number of alerts, work orders, and so on, that the signed-in user has access to.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

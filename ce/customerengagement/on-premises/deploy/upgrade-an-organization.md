@@ -49,3 +49,6 @@ You can upgrade organizations from earlier versions of [!INCLUDE[pn_microsoftcrm
  [Update an organization](update-an-organization.md)   
  [Troubleshoot organization import and upgrade issues](troubleshoot-organization-import-and-upgrade-issues.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -821,3 +821,6 @@ See msdyn_notificationtemplate Entity [msdyn_notificationtemplate](msdyn_notific
 
 [Microsoft.CIFramework APIs](../microsoft-ciframework-v2.md)<br />
 [Client-side events](../client-side-events.md)
+
+
+[!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]

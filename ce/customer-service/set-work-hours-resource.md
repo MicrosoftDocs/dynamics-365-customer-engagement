@@ -113,3 +113,6 @@ Make sure that you have the required security role or equivalent permissions.
  
 [Set when your business is closed (Customer Service app)](set-when-business-closed-cs-app.md)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ Omnichannel Supervisor Configuration
 - [Customize Customer summary form](../../customer-service/customize-customer-summary.md)
 - [Add or remove the fields in the form](../../customer-service/customize-quick-view-form.md)
 - [Customize the conversation form](../../customer-service/customize-session-form.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

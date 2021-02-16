@@ -47,3 +47,6 @@ By default, a report is a personal report and can be used only by the author unl
 6. Select **Save** or **Save and Close**.  
   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

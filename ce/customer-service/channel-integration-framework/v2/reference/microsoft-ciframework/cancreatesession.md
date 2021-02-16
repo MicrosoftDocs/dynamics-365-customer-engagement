@@ -49,3 +49,6 @@ Microsoft.CIFramework.canCreateSession(correlationId).then(
         return Promise.reject(error);
     });
 ```
+
+
+[!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]

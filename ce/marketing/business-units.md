@@ -110,3 +110,6 @@ To enable or disable this feature:
 [Create or edit business units](https://docs.microsoft.com/power-platform/admin/create-edit-business-units)  
 [Working with segments](segmentation-lists-subscriptions.md)  
 [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

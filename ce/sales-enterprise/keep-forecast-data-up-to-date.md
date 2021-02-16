@@ -69,3 +69,6 @@ After recalculation, the data in the forecast reflects the latest opportunity an
 [Analyze revenue outcome by using predictive forecasting](https://docs.microsoft.com/dynamics365/ai/sales/analyze-revenue-outcome-using-predictive-forecasting)
 
 [Troubleshooting forecasts](ts-forecasts.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

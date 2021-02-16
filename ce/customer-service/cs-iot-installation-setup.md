@@ -291,3 +291,6 @@ Connected Customer Service uses SQL Azure to store device heartbeat messages for
 Queries that Stream Analytics will use are stored to Azure Blob storage. 
 
 [Azure Time Series Insight (Preview)](https://docs.microsoft.com/azure/time-series-insights/) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -111,3 +111,6 @@ Dashboards are one of the different types of forms in [!INCLUDE[pn_dynamics_crm]
  [Dashboards for Microsoft Dynamics 365 Customer Engagement](analyze-data-with-dashboards.md)   
  [Actions on Dashboards](actions-dashboards.md)   
  [Create a Dashboard](create-dashboard.md)   
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

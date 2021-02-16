@@ -139,3 +139,6 @@ This feature is intended to help customer service managers or supervisors enhanc
 [Enable sentiment analysis](enable-sentiment-analysis.md)<br>
 [Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md)<br>
 [Monitor conversations](monitor-conversations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -142,3 +142,5 @@ To add a portal to an existing Marketing installation that doesn't have one:
 [Set up subscription lists and subscription centers](set-up-subscription-center.md)  
 [Set up the event website](set-up-event-portal.md)  
 [Build and host a custom event website](developer/event-management-web-application.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

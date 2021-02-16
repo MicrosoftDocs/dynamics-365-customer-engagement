@@ -180,3 +180,6 @@ When you select one or more documents in the Documents list, you can take the fo
 -   Edit properties
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

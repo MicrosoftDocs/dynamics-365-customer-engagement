@@ -96,3 +96,6 @@ The following error codes can occur with this method.
 ## See also
 
 [JavaScript API reference for live chat SDK](../../omnichannel-reference.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

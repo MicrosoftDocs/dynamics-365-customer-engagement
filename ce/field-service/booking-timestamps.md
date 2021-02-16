@@ -137,3 +137,6 @@ In our example, this means both "Arrived on site" and "Wrench time" are recorded
 ## Additional notes 
 
 - Booking timestamps are used to calculate **Booking Journals** that calculate total travel time and working time for a specific booking. From the booking, go to **Related** > **Booking Journals** to see them. The **Timestamp Frequency** setting _does not_ affect how booking journals are created or calculated.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

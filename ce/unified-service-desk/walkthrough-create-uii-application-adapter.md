@@ -243,3 +243,6 @@ You can create an application adapter if you want to integrate an external appli
 
 ### See also
  [Use UII adapters to interact with external and web applications](../unified-service-desk/use-uii-adapters-interact-external-web-applications.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

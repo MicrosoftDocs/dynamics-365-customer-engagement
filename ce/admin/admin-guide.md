@@ -35,3 +35,6 @@ Administration for customer engagement apps has transitioned to the [Power Platf
 ### See also
 [Power Apps documentation](https://docs.microsoft.com/powerapps/)<br/>
 [Dynamics 365 Customer Engagement (on-premises) documentation](../customerengagement/on-premises/overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

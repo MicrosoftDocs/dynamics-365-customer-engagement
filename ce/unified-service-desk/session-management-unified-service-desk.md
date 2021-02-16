@@ -69,3 +69,6 @@ Whenever you search for customer information in [!INCLUDE[pn_unified_service_des
  [Debugger (Hosted Control)](../unified-service-desk/debugger-hosted-control.md)   
  [Walkthrough 4: Display a record in a session in your agent application](../unified-service-desk/walkthrough-display-dynamics-365-record-session-agent-application.md)   
  [Walkthrough 5: Display enhanced session information by displaying session name and overview data](../unified-service-desk/walkthrough-5-display-enhanced-session-information-displaying-session-name-overview-data.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

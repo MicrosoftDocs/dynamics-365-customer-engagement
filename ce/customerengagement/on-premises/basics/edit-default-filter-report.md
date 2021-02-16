@@ -71,3 +71,6 @@ When a report is a [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-
     
 4.  To save the filter click **Save Default Filter**.  
   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

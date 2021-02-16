@@ -36,3 +36,6 @@ You must install the specified certificate to the local certificate store or sel
 
 Grant the CRMAppPool account of each Microsoft Dynamics CRM web application read permission to the private key of the encryption certificate. The claims signing certificate must be located in the local certificate store.  For more information, see *The CRMAppPool account and the Microsoft Dynamics CRM encryption certificate* in the [Configure the Microsoft Dynamics CRM Server for claims-based authentication](https://go.microsoft.com/fwlink/p/?LinkId=296783) topic.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

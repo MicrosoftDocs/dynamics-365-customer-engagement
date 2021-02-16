@@ -128,3 +128,5 @@ If your event website is [self-hosted](./developer/self-hosted.md), you must [in
 [Open the Power Platform admin center](power-platform-admin-center.md)  
 [Manage Marketing environments](manage-marketing-environments.md)  
 [Uninstall Marketing](uninstall-marketing.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

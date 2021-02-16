@@ -116,3 +116,5 @@ This document provides important, late-breaking information about known issues a
 ## Websites
 
 - The *websites* feature records all visits to any web page that has a Dynamics 365 Marketing tracking script on it. Each log entry includes a timestamp and, if possible, links to a known contact. If the visitor isn't a known contact, then that visit is logged as anonymous. The website tracking script sets a cookie, so the system can group visits into sessions, even for anonymous visits. When a contact submits a landing-page form, the system sets the same cookie (if not present already) and can thereafter match the cookie ID to a contact ID because the landing-page submission will either create or match a contact. Once a visitor is known, all future website visits will be logged with that user's ID. However, previous visits will remain anonymous (the system doesn't back-fill the contact ID to the existing visitor log).
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -78,3 +78,6 @@ My_Global_Application.CallExternalWebService(“[[account.accountnumber]$]”);
 ### See also  
  [Replacement parameters](../unified-service-desk/replacement-parameters.md)   
  [Global and session-based Unified Service Desk hosted controls](../unified-service-desk/unified-service-desk-hosted-controls.md#Global)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

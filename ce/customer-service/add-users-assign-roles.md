@@ -100,3 +100,6 @@ Each role in Omnichannel for Customer Service can perform a set of actions based
 [Manage users in Omnichannel for Customer Service](users-user-profiles.md)  
 [Guide agents with scripts](../app-profile-manager/agent-scripts.md)  
 [Automate tasks with macros](../app-profile-manager/macros.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -67,3 +67,6 @@ The following are specific metrics represented in this dashboard:
 [Search for knowledge articles](search-knowledge-articles-csh.md) <br>
 [Understand knowledge base search mechanisms](knowledge-base-search-methods.md) <br>
 [Use embedded knowledge search to set up knowledge management](set-up-knowledge-management-embedded-knowledge-search.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

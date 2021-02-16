@@ -97,3 +97,6 @@ search.app:
 ## 2.6
 
 [Read a blog post about this update.](https://cloudblogs.microsoft.com/dynamics365/it/2018/05/09/whats-new-for-dynamics-365-resource-scheduling-optimization-v2-6-release/)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -838,3 +838,5 @@ See msdyn_expense Entity [msdyn_msdyn_expense_msdyn_expensereceipt_ExpenseId](ms
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_expensereceipt?text=msdyn_expensereceipt EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

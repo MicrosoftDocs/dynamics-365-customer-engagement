@@ -32,3 +32,6 @@ The following catalog is organized from core knowledge to specific domains, and 
 | [Exam MB-200: Microsoft Power Platform + Dynamics 365 Core](https://docs.microsoft.com/learn/certifications/exams/mb-200?wt.mc_id=learningredirect_certs-web-wwl)	|This exam measures your ability to accomplish the following technical tasks: perform discovery, planning, and analysis; manage user experience design; manage entities and data; implement security; implement integration; and perform solutions deployment and testing.	|Exam, cost varies by region |
 | [Exam MB-210: Microsoft Dynamics 365 Sales](https://docs.microsoft.com/learn/certifications/exams/mb-210?wt.mc_id=learningredirect_certs-web-wwl)|	This exam measures your ability to accomplish the following technical tasks perform configuration, manage core sales entities, and manage sales entities.	|Exam, cost varies by region                                                                                                                |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

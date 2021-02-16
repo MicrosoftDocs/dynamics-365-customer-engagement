@@ -40,3 +40,6 @@ To change the default language as configured by the commissioner, select your pr
  [Draft and manage your fantasy teams in Gamification](manage-fantasy-team.md)  
  [Sign in to Gamification](sign-in.md)  
  [See how you rank against other players on a Gamification leaderboard](view-leaderboard.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

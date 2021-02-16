@@ -40,3 +40,6 @@ Here are some guidelines that can help you improve the performance of the report
 ### See also  
  [Reporting and Analytics Guide](../analytics/reporting-analytics-with-dynamics-365.md)   
  [Improve report performance by using filters](../analytics/improve-report-performance-by-using-filters.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

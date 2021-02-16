@@ -1,7 +1,7 @@
 ---
 title: "Set up product bundles to sell multiple items together (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Combine products in a bundle in Dynamics 365 Sales to sell multiple items together."
-ms.date: 04/17/2020
+ms.date: 02/10/2021
 ms.service:
   - "dynamics-365-sales"
 ms.topic: get-started-article
@@ -17,7 +17,7 @@ searchScope:
   - Customer Engagement
 ---
 
-# Set up product bundles to sell multiple items together (Sales and Sales Hub)
+# Set up product bundles to sell multiple items together (Sales Hub)
 
 Encourage customers to buy more products instead of a single product by combining products in a bundle.  
 
@@ -102,66 +102,6 @@ If you've added this bundle to a family, the bundle will inherit the properties 
 > [!TIP]
 > To create a new product bundle based on an existing one, on the command bar, select **Clone**. This opens a new product bundle record with the same information as the original product bundle record, except for **Name** and **Product ID**.  
 
-   
-## Create a product bundle (Sales)
-  
-1. [!INCLUDE[proc_permissions_mgr_vp_ceo_busmgr_sysadmin_syscust](../includes/proc-permissions-mgr-vp-ceo-busmgr-sysadmin-syscust.md)]  
-  
-    #### Check your security role  
-  
-   - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
-  
-   - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
-  
-2. [!INCLUDE[proc_settings_prod_catalog](../includes/proc-settings-prod-catalog.md)]  
-  
-3. Select **Families & Products**.  
-  
-4. To add a standalone product bundle, select **Add Bundle**.  
-  
-    -OR-  
-  
-    To add product to an existing family, select the family in the list, and then select **Add Bundle**.  
-  
-5. Enter information, noting any restrictions or requirements, as needed.  
-  
-6. Select **Save**.  
-  
-7. In the **Bundle Products** section, select ![Add a record button](../sales-enterprise/media/add-recordbutton.gif "Add a record button"), and select products that you want to add to the bundle.  
-  
-    The **Product Association** page opens.  
-  
-8. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)]  
-  
-   - **Bundle**: The bundle you're adding the products to is selected by default.  
-  
-   - **Product**: Select the **Lookup** button, and select a product you want to add to the bundle.  
-  
-   - **Quantity**: Specify the quantity of product you want to add to the bundle.  
-  
-   - **Required**: Specify whether this product is required or optional. If you select a product as optional, you can sell the bundle without the product.  
-  
-   - **Unit**: Select the unit in which you want to sell the product.  
-  
-     > [!NOTE]
-     > The **Valid From** and **Valid To** fields define the duration for which a product is valid. There's no business logic associated with these fields except that the **Valid To** date must be later than the **Valid From** date. If required, you can implement your own business logic in these fields with a workflow, plug-in, or [!INCLUDE[pn_sdk](../includes/pn-sdk.md)]. For example, run a scheduled job to automatically retire last season's products using the date selected in the **Valid To** field.  
-  
-9. Select **Save and Close**.  
-  
-10. To change properties of an individual product in the bundle, select **Customize** corresponding to the product, and change the values, as required.  
-
-    If you've added this bundle to a family, the bundle will inherit the properties from its parent family. 
-
-11. To change the bundle's property, open the property, and select **Override**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use properties to describe a product](../sales-enterprise/use-properties-describe-product.md)  
-  
-12. In the **Additional Details** section, select ![Add a record button](../sales-enterprise/media/add-recordbutton.gif "Add a record button"), and add a price list item. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create price lists and price list items to define pricing of products](../sales-enterprise/create-price-lists-price-list-items-define-pricing-products.md)  
-  
-13. In the **Product Relationships** section, select ![Add a record button](../sales-enterprise/media/add-recordbutton.gif "Add a record button"), and select a related product. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Define related products to increase chances of sales](../sales-enterprise/define-related-products-increase-chances-sales.md)  
-  
- 
-> [!TIP]
->  -   After you're done adding all the details, select **Preview** on the command bar to look through the properties of the product bundle.  
->  -   To create a new product bundle based on an existing one, on the command bar, select **Clone**. This opens a new product bundle record with the same information as the original product bundle record, except for the **Name** and **Product ID**.  
   
 ## Typical next steps  
  ![Right arrow button](../sales-enterprise/media/walkthrough-orange-right-arrow.png "Right arrow button") [Create price lists and price list items to define pricing of products](../sales-enterprise/create-price-lists-price-list-items-define-pricing-products.md)  
@@ -172,3 +112,6 @@ If you've added this bundle to a family, the bundle will inherit the properties 
 [How prices are calculated for product bundles?](pricing-product-bundles.md)
 [Set up a product catalog: Walkthrough](../sales-enterprise/set-up-product-catalog-walkthrough.md)   
 [System Settings dialog box - Sales tab](../admin/system-settings-dialog-box-sales-tab.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -71,3 +71,6 @@ Charts are displayed as follows:
 - [Dashboard overview](customer-service-analytics-insights-csh.md) <br>
 - [Summary dashboard](summary-dashboard-cs.md) <br>
 - [Topics dashboard](topics-dashboard-cs.md) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

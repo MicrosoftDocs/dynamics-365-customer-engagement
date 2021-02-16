@@ -36,3 +36,6 @@ For more information, see the blog: [Office Graph integration removal](https://b
 
 ### See also  
  [View relevant and trending information on a dashboard with Office Delve](../basics/view-relevant-trending-information-office-delve.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

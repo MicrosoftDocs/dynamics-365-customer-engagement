@@ -188,3 +188,6 @@ Microsoft.Crm.Application.Outlook.ConfigWizard.exe /Q /i c:\config_client.xml /x
 ### See Also
  [Install Dynamics 365 for Outlook](install.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -110,3 +110,5 @@ The following steps detail the actions required to create the credit card applic
 ### See also
 
 [Create, view, and manage marketing forms](marketing-forms.md)  
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

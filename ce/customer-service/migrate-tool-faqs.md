@@ -215,3 +215,6 @@ In legacy workflows, a lookup field can be mapped with multiple expressions wher
 ### See also
 
 [Migrate automatic record creation rules and SLAs](migrate-automatic-record-creation-and-sla-agreements.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

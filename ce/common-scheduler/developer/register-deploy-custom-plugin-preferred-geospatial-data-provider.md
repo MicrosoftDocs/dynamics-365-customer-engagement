@@ -102,3 +102,6 @@ If you view any of the Universal Resource Scheduling geospatial actions in the P
 ### See also  
 
 [Sample: Custom plug-in to use Google Maps API as geospatial data provider](sample-custom-plugin-google-geospatial-data-provider.md)    
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

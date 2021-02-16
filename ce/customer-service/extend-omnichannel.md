@@ -58,3 +58,5 @@ For more information, see [Configure a custom messaging channel](configure-custo
 [Bring your own custom messaging channel: Direct Line bot](bring-your-own-channel.md)  
 [Connect a bot to Direct Line](https://docs.microsoft.com/azure/bot-service/bot-service-channel-connect-directline)  
 [Dynamics 365 Channel Integration Framework version 2.0](https://docs.microsoft.com/dynamics365/customer-service/channel-integration-framework/v2/overview-channel-integration-framework)  
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

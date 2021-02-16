@@ -4,7 +4,7 @@ description: "Learn how to troubleshoot issues in Omnichannel for Customer Servi
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 09/14/2020
+ms.date: 02/08/2021
 ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ---
@@ -87,7 +87,7 @@ When you run the analysis job, the following out-of-the-box rules are run. These
 |Live chat channel configuration should have work stream | Verifies that Live Chat has an active work stream. More information:[Configure a chat channel](add-chat-widget.md) |
 | Omnichannel service endpoint should be configured | Verifies that the underlying services needed for the functioning of Omnichannel for Customer Service are configured correctly. More information: [Provisioning Omnichannel for Customer Service](omnichannel-provision-license.md) |
 | Queues should have agents | Verifies that the queues that are assigned to the work streams have agents assigned. More information: [Manage queues](queues-omnichannel.md) |
-| SDK message/plugins should be active | Verifies that the SDK messages or plug-ins are active. More information: [Workaround for repeated messages](omnichannel-readme.md#messages-repeated-in-the-quick-replies-menu) |
+| SDK message/plugins should be active | Verifies that the SDK messages or plug-ins are active. More information: [Remove deactivated or disabled customizations](https://docs.microsoft.com/powerapps/developer/model-driven-apps/best-practices/business-logic/remove-deactivated-disabled-configurations) |
 |SMS channel configuration should have work stream | Verifies that SMS channel has an active work stream. More information: [Configure an SMS channel for TeleSign](configure-sms-channel.md) and [Configure an SMS channel for Twilio](Configure-sms-channel-twilio.md) |
 | SMS settings should have all required fields | Verifies that SMS settings don't have empty customer ID and API key fields. |
 |Teams channel configuration should have work stream | Verifies that the Microsoft Teams channel configuration has an active work stream. More information: [Configure a Microsoft Teams channel](configure-microsoft-teams.md) |
@@ -109,3 +109,6 @@ When you run the analysis job, the following out-of-the-box rules are run. These
 
 [Troubleshoot issues in Omnichannel for Customer Service](troubleshoot-omnichannel-customer-service.md)  
 [Frequently asked questions](faqs.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

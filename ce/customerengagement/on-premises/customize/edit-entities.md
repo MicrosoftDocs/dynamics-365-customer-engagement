@@ -97,3 +97,6 @@ You can edit any custom entity that you create. System entities or managed custo
 
 ### See also
 [Create or edit an entity (overview)](create-edit-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

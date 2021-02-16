@@ -22,3 +22,6 @@ ms.author: matp
   
  Make sure that the computer you are trying to connect to (the one that is running [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)]) is in the same [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] domain as the [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)].
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

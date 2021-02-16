@@ -97,3 +97,6 @@ To ignore an entity record during migration, perform the following steps.
 [Introduction to migration of entity records](introduction-migration-entity-records.md)
 
 [Migrate entity records](migrate-entity-records.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -100,3 +100,6 @@ Typically, you convert a quote that you have won into an order. Start with an ac
 [Overview of Dynamics 365 Sales Professional](sales-professional-overview.md)
 [Sales transactions in Dynamics 365 Sales Professional](understanding-sales-transactions-sales-professional.md)  
 [Enable creation of orders from quotes](enable-creation-of-orders-from-quotes.md) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

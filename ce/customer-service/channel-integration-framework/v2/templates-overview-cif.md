@@ -30,3 +30,6 @@ To choose the applications you want to open for every session, according to your
 ## See also
 
 [Associate templates with scenarios](associate-templates-cif.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

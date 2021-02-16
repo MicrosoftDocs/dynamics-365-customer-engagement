@@ -56,3 +56,6 @@ In the **Permissions** step of the forecast configuration, you define which team
 ### See also
 
 [Configure forecasts in your organization](configure-forecast.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

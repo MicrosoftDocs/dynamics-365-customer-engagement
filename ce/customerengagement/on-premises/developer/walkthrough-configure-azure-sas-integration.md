@@ -72,3 +72,6 @@ This walkthrough guides you through configuring the [!INCLUDE[windows_azure_serv
 ### See also  
  [Azure extensions for Dynamics 365 Customer Engagement (on-premises)](azure-extensions.md)   
  [Azure Service Bus](/azure/service-bus-messaging/service-bus-fundamentals-hybrid-solutions)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

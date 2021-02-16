@@ -40,3 +40,6 @@ If you are using Omnichannel for Customer Service on Unified Service Desk, see [
 
 [Omnichannel for Customer Service system requirements](system-requirements-omnichannel.md)  
 [Provision Omnichannel for Customer Service](omnichannel-provision-license.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -900,3 +900,5 @@ See salesorderdetail Entity [msdyn_salesorderdetail_msdyn_contractlineinvoic](sa
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_contractlineinvoiceschedule?text=msdyn_contractlineinvoiceschedule EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

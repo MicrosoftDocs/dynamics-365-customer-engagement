@@ -26,3 +26,6 @@ ms.author: matp
   
 -   Remove the .mdf or .ldf file from the folder, and then run Setup again and choose to create a new database.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

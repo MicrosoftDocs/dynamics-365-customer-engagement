@@ -42,3 +42,5 @@ See also:
 
 - [Microsoft Consulting Services GitHub repo](https://github.com/microsoft/MCSBusinessApplicationsDynamicsFSUtilityIndustry)
 - [Logic Apps SAP connector](https://docs.microsoft.com/connectors/sap/)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

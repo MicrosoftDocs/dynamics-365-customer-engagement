@@ -110,3 +110,6 @@ Dialogs contain pages, and each page can contain multiple sets of prompts and re
 ### See also  
  [Work with Dialogs](use-dialogs-guided-processes.md)   
  [Actions on Dialogs and Dialog Sessions](actions-dialogs.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

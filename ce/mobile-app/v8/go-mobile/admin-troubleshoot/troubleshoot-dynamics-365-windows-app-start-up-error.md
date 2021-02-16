@@ -48,3 +48,6 @@ Did you receive this error?
  [TechNet: Support for Dynamics 365 for phones and tablets](https://technet.microsoft.com/library/dn531131.aspx)   
  [TechNet: Set up Dynamics 365 for phones and tablets](https://technet.microsoft.com/library/dn531128.aspx)   
  [Troubleshooting and things to know about Dynamics 365 for phones and tablets](https://technet.microsoft.com/library/dn660982.aspx)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

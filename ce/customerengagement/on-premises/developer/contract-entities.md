@@ -2,9 +2,9 @@
 title: "Contract entities (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Learn about contract entity that is used to track customer service agreements. You can create contracts for existing customers that specify the type of service and terms that apply to each customer."
 ms.custom: 
-ms.date: 10/01/2019
+ms.date: 02/05/2021
 ms.reviewer: pehecke
-ms.service: 
+ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -31,10 +31,10 @@ search.audienceType:
 ---
 # Contract entities
 
-In the Dynamics 365 Customer Engagement (on-premises) platform, a *contract* is an agreement to provide support during specified coverage dates or for a specified number of cases or length of time. When customers contact customer service, the level of support they receive is determined by their contract. 
+In the Dynamics 365 Customer Engagement (on-premises) platform, a *contract* is an agreement to provide support during specified coverage dates or for a specified number of cases or length of time. When customers contact customer service, the level of support they receive is determined by their contract.
 
-> [!NOTE]
-> The Contract, Contract Line, and Contract Template entities are deprecated and will be removed in a future major release of Dynamics 365. This functionality has been replaced by [entitlements](https://docs.microsoft.com/dynamics365/customer-engagement/customer-service/create-entitlement-define-support-terms-customer) in the Dynamics 365 Customer Engagement (on-premises) platform.
+> [!IMPORTANT]
+> The Contract, Contract Line, and Contract Template entities are deprecated and and will not be supported from April 1, 2022. They will be removed in a future major release of Dynamics 365. This functionality has been replaced by [entitlements](../../../customer-service/create-entitlement-define-support-terms-customer.md) in Unified Interface. We recommend that you migrate your contracts to entitlements at the earliest to avoid any loss in functionality. For information on the migration strategy, see [Strategy for migrating from contracts to entitlements](../../../customer-service/contract-to-entitlement-migration.md).
   
  The contract entity is used to track customer service agreements. You can create contracts for existing customers that specify the type of service and terms that apply to each customer. New contracts are created based on the contract template. You can create contracts only for existing accounts and contacts.  
   
@@ -53,3 +53,6 @@ In the Dynamics 365 Customer Engagement (on-premises) platform, a *contract* is 
  [Incident (case) entities](incident-case-entities.md)  
   
  [Knowledge base entities](knowledge-management-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

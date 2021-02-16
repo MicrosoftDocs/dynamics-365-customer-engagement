@@ -208,3 +208,6 @@ To make sure that devices can connect to your deployment, follow the instruction
  [Installing on-premises Dynamics 365](installing-on-premises-dynamics-365.md)   
  [Operating Microsoft Dynamics 365](operating-microsoft-dynamics-365.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

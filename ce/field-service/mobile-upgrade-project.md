@@ -103,3 +103,6 @@ If you make changes to a mobile entity, it will show as **Overridden**.
 - [Version history](https://docs.microsoft.com/dynamics365/field-service/version-history#mobile-project-file-library)
 - [Set up Field Service Mobile](https://docs.microsoft.com/dynamics365/field-service/install-field-service#download-the-field-service-mobile-app-on-a-phone-or-tablet)
 - [Common Field Service Mobile customizations](./mobile-app-configuration-customization.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

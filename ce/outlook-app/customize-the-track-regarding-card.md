@@ -53,3 +53,6 @@ After completing the above, right-click in the track regarding card, and then ch
 
 ![After customizing card](media/after-customizing-card.png "After customizing card")</br>
 The company name now appears after the contact name in the Contact card.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

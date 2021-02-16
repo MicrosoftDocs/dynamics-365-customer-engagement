@@ -3,7 +3,7 @@ title: "User guide for Dynamics 365 Field Service | MicrosoftDocs"
 description: Use this guide to get a high-level view of Dynamics 365 Field Service and see a collection of resources to learn more.
 ms.custom:
   - dyn365-fieldservice
-ms.date: 11/11/2020
+ms.date: 02/11/2021
 ms.reviewer: krbjoran
 ms.topic: overview
 ms.service: dynamics-365-customerservice
@@ -135,10 +135,20 @@ The purpose of this section is to help you explore all the features of Field Ser
 
 <td><h2>Connected Field Service (IoT)</h2>
 <ul>
+ 
  <li> <a href="connected-field-service.md" data-raw-source="[Overview of Connected Field Service](connected-field-service.md)">Overview of Connected Field Service</a> </li> 
+ 
  <li><a href="https://docs.microsoft.com/dynamics365/field-service/developer/connected-field-service-architecture" data-raw-source="[CFS with IoTHub architecture](https://docs.microsoft.com/dynamics365/field-service/developer/connected-field-service-architecture)">CFS with IoTHub architecture</a></li>
- <li><a href="installation-setup-iothub.md" data-raw-source="[Installation and setup - Connected Field Service for Azure IoT Hub](installation-setup-iothub.md)">Installation and setup - Connected Field Service for Azure IoT Hub</a></li>
-  <li><a href="cfs-register-devices.md" data-raw-source="[Register IoT devices](cfs-register-devices.md)">Register IoT devices</a></li>
+ 
+ <li><a href="installation-setup-iothub.md" data-raw-source="[Step 1: Installation and setup - Connected Field Service for Azure IoT Hub](installation-setup-iothub.md)">Step 1: Installation and setup - Connected Field Service for Azure IoT Hub</a></li>
+  
+  <li><a href="cfs-register-devices.md" data-raw-source="[Step 2: Register IoT devices](cfs-register-devices.md)">Step 2: Register IoT devices</a></li>
+  
+  <li> <a href="cfs-summary-tiles.md" data-raw-source="[Step 3: Set up summary tiles](cfs-summary-tiles.md)">Step 3: Set up summary tiles</a> </li>
+  
+  <li> <a href="cfs-visualizations-iot-hub.md" data-raw-source="[Step 4: View device readings](cfs-visualizations-iot-hub.md)">Step 4: View device readings</a> </li>
+  
+  <li> <a href="cfs-mobile-powerapp.md" data-raw-source="[Step 5: Connected Field Service on the mobile app](cfs-mobile-powerapp.md)">Step 5: Connected Field Service on the mobile app</a> </li>
 </ul>
 </td>
 </tr>
@@ -199,3 +209,6 @@ Looking for training outside of documentation? Here are some of our training res
 - [Microsoft Certified: Dynamics 365 Field Service Functional Consultant Associate](https://docs.microsoft.com/learn/certifications/d365-functional-consultant-field-service): Get this certification to prove that you know how to configure the Field Service application, implement solutions that manage the field service lifecycle, and deploy the Connected Field Service solution. This certification requires passing two exams.
   
 - [Microsoft Certified: Dynamics 365 Fundamentals](https://docs.microsoft.com/learn/certifications/d365-fundamentals): Get this certification to prove that you understand all of the Microsoft Dynamics 365 products, including; artificial intelligence (AI); mixed reality (MR); the Power Platform; cloud concepts; cloud security; Dynamics 365 security; Common Data Service; Dynamics 365 reporting; Dynamics 365 integrations; and cloud deployment.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

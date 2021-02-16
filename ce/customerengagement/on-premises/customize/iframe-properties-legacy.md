@@ -62,3 +62,6 @@ You can access **Form properties** in solution explorer. Under **Components**, e
 ## See also
 
 [Use the Main form and its components](../customize/use-main-form-and-components.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

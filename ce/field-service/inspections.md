@@ -104,8 +104,7 @@ Add a question to the inspection by double-clicking or dragging-and-dropping a q
 - **Barcode scan:** Allows technicians to populate the field with the barcode number by scanning a barcode with their device's camera. Choose "Textbox" question type, then select **Barcode** for input type in the **Advanced** section.
 
 - **Matrix (Dynamic):** Adds a grid of questions. More rows can be added dynamically while performing the inspection. See the following screenshot for an example.
-
-
+The matrix question type is currently available as **early access**. For more information, see the article on [how to opt in to early access updates](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates). 
 
 > [!div class="mx-imgBorder"]
 > ![Device render showing an inspection form allowing adding more rows.](./media/inspections-matrix-barcode.png)
@@ -118,6 +117,9 @@ Use the **Required** toggle to make the inspection question mandatory.
 By selecting the **Gear** icon, you can add more details for an inspection question.
 
 ### Compact question view
+
+> [!Note]
+> The compact question view feature is currently available as early access. For more information, see the article on [how to opt in to early access updates](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates). 
 
 Before selecting an individual question, go to the advanced pane to edit the look and feel of the inspection.
 
@@ -353,3 +355,6 @@ Compared to work order incident types and service tasks, inspections have more b
 - **Easier to create**: Administrators can quickly create an inspection with a drag-and-drop interface without needing to create new entities and fields.
 - **Easier to fill out**: Technicians can quickly enter responses for each inspection question and save all of them at once, rather than having to open and close multiple work order service task records.
 - **More flexible and robust**: Field Service inspections have many question formats and validation options, such as multi-option select, mandatory fields, images, attachments, and more.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -30,3 +30,6 @@ If you encounter any issues during organization import and upgrade, here are som
  [Import an organization](import-an-organization.md)   
  [Upgrade an organization](upgrade-an-organization.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

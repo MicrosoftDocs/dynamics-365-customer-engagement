@@ -97,3 +97,6 @@ As with other types of templates in Dynamics 365 Marketing, segment templates su
 [Design static segments](segments-static.md)  
 [Combine segments into a compound segment (combined audiences)](segments-compound.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

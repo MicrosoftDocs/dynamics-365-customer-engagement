@@ -137,3 +137,6 @@ For more information on FAQs, see [Frequently Asked Questions about Dynamics 365
 
 
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

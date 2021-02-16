@@ -133,3 +133,6 @@ The two core components of [!INCLUDE[pn_gamification_shortest](../includes/pn-ga
 - Improved the reliability of sending KPI data to [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)].
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

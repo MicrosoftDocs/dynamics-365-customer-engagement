@@ -1,7 +1,7 @@
 ---
 title: "Microsoft Dynamics 365 mobile app for Windows (Dynamics 365 apps)| MicrosoftDocs"
 ms.custom: 
-description: How to use the Dynamics 365 mobile app for Windows
+description: How to use the Microsoft Dynamics 365 (Preview) app for Windows
 ms.date: 01/29/2021
 ms.reviewer: kvivek
 ms.service: crm-online
@@ -23,23 +23,23 @@ search.app:
   - D365Sales
 ---
 
-# Basic navigation for Dynamics 365 app for Windows
+# Basic navigation for Dynamics 365 (Preview) app for Windows 
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Use the Microsoft Dynamics 365 app for Windows to run your customer engagement apps in Dynamics 365 (such as Dynamics 365 Sales, Dynamics 365 Customer Service, and Dynamics 365 Marketing), on your mobile device.  
+Use the Microsoft Dynamics 365 (Preview) app for Windows to run your customer engagement apps in Dynamics 365 (such as Dynamics 365 Sales, Dynamics 365 Customer Service, and Dynamics 365 Marketing), on your mobile device.  
 
-With early access, you can also use Dynamics 365 app for Windows in offline mode. For more information, see [Set up mobile offline](windows-mobile-app.md#set-up-mobile-offline-for-admins).
+With early access, you can also use Microsoft Dynamics 365 (Preview) app for Windows in offline mode. For more information, see [Set up mobile offline](windows-mobile-app.md#set-up-mobile-offline-for-admins).
 
-## Install Dynamics 365 app for Windows (Preview)
+## Install Dynamics 365 (Preview) app for Windows
 
-Install the app from the Windows app store: [Install Dynamics 365 app for Windows (Preview)](https://www.microsoft.com/store/apps/9N0RWZ9KZZT8)
+Install the app from the Windows app store: [Install Microsoft Dynamics 365 (Preview) app for Windows](https://www.microsoft.com/store/apps/9N0RWZ9KZZT8)
 
-(For admins) To distribute the app automatically you can use this use the Microsoft Store for Business and Education to find, acquire, distribute, and manage apps for your organization or school. Configuration Manager supports managing Microsoft Store for Business apps on both Windows 10 devices with the Configuration Manager client and Windows 10 devices enrolled with Microsoft Intune. For more information: [Manage apps from the Microsoft Store for Business and Education with Configuration Manager](https://docs.microsoft.com/mem/configmgr/apps/deploy-use/manage-apps-from-the-windows-store-for-business)
+(For admins) To distribute the app automatically use the Microsoft Store for Business and Education to find, acquire, distribute, and manage apps for your organization or school. Configuration Manager supports managing Microsoft Store for Business apps on both Windows 10 devices with the Configuration Manager client and Windows 10 devices enrolled with Microsoft Intune. For more information: [Manage apps from the Microsoft Store for Business and Education with Configuration Manager](https://docs.microsoft.com/mem/configmgr/apps/deploy-use/manage-apps-from-the-windows-store-for-business)
    
 ## Sign in
 
-Sign into the Microsoft Dynamics 365 Windows app quickly using your work email address for the Dynamics 365 app that you use. If you need help with your sign-in information, contact your Dynamics 365 administrator.
+Sign into the Microsoft Dynamics 365 (Preview) app for Windows quickly using your work email address for the Dynamics 365 app that you use. If you need help with your sign in information, contact your Dynamics 365 administrator.
 
 1. On the Welcome screen, select **Sign in**.
 
@@ -111,8 +111,7 @@ Legend:
 6. **Click to change app**: Select the current app name to go to the
  **Apps** page and select a different app.
 
-7. **Go back**: Use this button to go back to the previous page. This
-    works on the form, view, and dashboard pages.
+7. **Go back**: Use this button to go back to the previous page. **Go back** is available on the form, view, and dashboard pages.
 
 8. **Search**: Search for records in your app.
 
@@ -238,9 +237,9 @@ To sign out, select the profile button and then select **Sign out**.
 
 ## Set up mobile offline (for admins)
 
-To allow users to use the Dynamics 365 for Windows mobile app in offline mode, a Dynamics 365 administrator will need to set up mobile offline for your organization. For more information, see [Set up mobile offline synchronization](https://docs.microsoft.com/dynamics365/mobile-app/setup-mobile-offline).
+To allow users to use the Microsoft Dynamics 365 (Preview) app for Windows in offline mode, a Dynamics 365 administrator will need to set up mobile offline for your organization. For more information, see [Set up mobile offline synchronization](https://docs.microsoft.com/dynamics365/mobile-app/setup-mobile-offline).
 
-## Work in offline mode (for end-users)
+## Work in offline mode (for users)
 
 When your admin has enabled mobile offline, the next time you access the mobile app, you will be prompted to download offline updates. Once you download the updates, you can start using the mobile app in offline mode.
 
@@ -346,3 +345,6 @@ You will see the Barcode Scanner button ![Bar code scanner button](media/scanne
 
 Any embedded Power BI dashboard that requires authentication to access the report will not render.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

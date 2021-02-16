@@ -108,3 +108,6 @@ To set up an approval workflow in Power Automate:
 
 ## See also
 [Build an approvals feature](marketing-approvals-feature.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

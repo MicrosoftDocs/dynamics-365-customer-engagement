@@ -2183,3 +2183,5 @@ See uomschedule Entity [msdyn_uomschedule_msdyn_journalline_UnitSchedule](uomsch
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_journalline?text=msdyn_journalline EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

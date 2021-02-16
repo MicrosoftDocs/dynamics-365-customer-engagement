@@ -24,3 +24,6 @@ applies_to:
 
 [removeHandler](../microsoft-ciframework/removeHandler.md)
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

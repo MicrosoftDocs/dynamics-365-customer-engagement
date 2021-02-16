@@ -46,3 +46,6 @@ You can also manually configure your columns for a fully customized forecast. Fo
 [Configure a forecast in your organization](configure-forecast.md)
 
 [View forecasts](view-forecasts.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

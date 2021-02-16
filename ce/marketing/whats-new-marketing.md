@@ -29,7 +29,7 @@ Marketing updates are [pushed to all customers automatically](https://cloudblogs
 
 ## February 2021 update
 
-Dynamics 365 2021 release wave 1 early access includes rich text functionality in the email editor. February GA features include simplified Marketing settings, a Recovery Items tab for customer journeys and event management, more customization for send now functionality, improved delivery reliability for forms, and monthly bug fixes.
+Dynamics 365 Marketing 2021 release wave 1 early access includes rich text functionality in the email editor. February GA features include simplified Marketing settings, a Recovery Items tab for customer journeys and event management, more customization for send now functionality, improved delivery reliability for forms, and monthly bug fixes.
 
 ### Version number
 
@@ -1047,3 +1047,6 @@ The Dynamics 365 Marketing November 2019 update includes the following bug fixes
 - Customer journeys: Individual marketing lists can now be reused across multiple customer journeys.
 - Websites: For website insights, the **Timeline** display has been renamed to **Visits**.
 - Customer Insights: Deleted contacts now sync correctly and more quickly.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

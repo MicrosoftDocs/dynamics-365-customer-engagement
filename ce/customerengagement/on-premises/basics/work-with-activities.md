@@ -152,3 +152,6 @@ To attach a document:
   
 
  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -132,3 +132,6 @@ A list of Connected Customer Service actions that agents can take is as follows:
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

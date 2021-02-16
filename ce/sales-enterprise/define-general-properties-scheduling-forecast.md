@@ -182,3 +182,6 @@ In addition to the [basic scheduling settings described earlier in this article]
 [Configure forecasts in your organization](configure-forecast.md)  
 [Configure forecasts by using a custom rollup entity](configure-forecast-using-custom-rollup-entity.md)  
 [Troubleshooting forecasts](ts-forecasts.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -47,3 +47,6 @@ By using a forward mailbox, you shift the administrative effort to the task of d
 3. Customer Engagement (on-premises) (by using server-side synchronization or Email Router) retrieves the message from the forward mailbox and creates the appropriate records.  
   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

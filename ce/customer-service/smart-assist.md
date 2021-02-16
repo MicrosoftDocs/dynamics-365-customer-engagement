@@ -94,3 +94,6 @@ After you've enabled Smart Assist in the App profile manager, agents can see the
 
 [Macros](../app-profile-manager/macros.md)  
 [Agent scripts](../app-profile-manager/agent-scripts.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

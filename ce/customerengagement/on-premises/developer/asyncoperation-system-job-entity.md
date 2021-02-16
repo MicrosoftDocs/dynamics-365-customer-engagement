@@ -31,3 +31,6 @@ develop custom tools to manage or report on asynchronous operations in Dynamics 
 ### See also  
  [Asynchronous Service in Dynamics 365 Customer Engagement (on-premises)](asynchronous-service.md)   
  [AsyncOperation Entity](entities/asyncoperation.md) 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

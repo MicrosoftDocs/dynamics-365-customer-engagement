@@ -178,3 +178,6 @@ This functionality isn't available with the web client. However, this functional
  [Create a business rule or business recommendation](../customize/create-business-rules-recommendations-apply-logic-form.md)<br/> 
  [Customize Dynamics 365 for phones and tablets](../customize/customize-phones-tablets.md)<br/>
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

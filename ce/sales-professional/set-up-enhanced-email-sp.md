@@ -38,3 +38,6 @@ To enable enhanced email:
 ### See also
 
 [Send email using the enhanced email experience](enhanced-email-sp.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

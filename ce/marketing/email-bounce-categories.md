@@ -80,3 +80,5 @@ Policy-related errors may also indicate that the recipient’s server can't iden
 
 [Best practices for email marketing](get-ready-email-marketing.md)  
 [Email policies and suspension standards](email-policies.md)  
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

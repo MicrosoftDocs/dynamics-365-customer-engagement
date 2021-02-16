@@ -165,3 +165,6 @@ In the XML, you can define the start time and end time with the hexadecimal colo
  [Session Lines (Hosted Control)](../unified-service-desk/session-lines-hosted-control.md)   
  [Walkthrough 5: Display enhanced session information by displaying session name and overview data](../unified-service-desk/walkthrough-5-display-enhanced-session-information-displaying-session-name-overview-data.md)   
  [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

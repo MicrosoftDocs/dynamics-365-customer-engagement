@@ -48,3 +48,6 @@ window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
 ## See also
 
 [JavaScript API reference for live chat SDK](../../omnichannel-reference.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

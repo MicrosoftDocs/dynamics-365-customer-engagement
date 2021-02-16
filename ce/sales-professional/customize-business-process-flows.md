@@ -272,3 +272,6 @@ To create the image:
 
 [Customize forms](customize-forms.md)  
 [Customize views](customize-views.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

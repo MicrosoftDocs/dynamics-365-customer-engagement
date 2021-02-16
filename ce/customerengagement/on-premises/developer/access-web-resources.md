@@ -27,3 +27,5 @@ For sandboxed plug-ins to be able to access external Web services from an on-pre
 
 [On-premise plug-in development](plugin-development.md)  
 [Sample: Web Access from a plug-in](/powerapps/developer/common-data-service/org-service/samples/web-access-plugin)
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

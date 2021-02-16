@@ -135,3 +135,6 @@ For more information for developers, see the Developer Guide topic [Automate you
  [Create a mobile task flow](../customize/create-mobile-task-flow.md)   
  [Workflow processes](../customize/workflow-processes.md)   
  [Actions](../customize/actions.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

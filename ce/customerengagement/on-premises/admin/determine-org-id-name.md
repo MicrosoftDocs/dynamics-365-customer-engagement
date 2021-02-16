@@ -28,3 +28,6 @@ Follow these steps to determine your organization name and ID.
 
 > [!div class="mx-imgBorder"] 
 > ![Determine org ID and name](media/org-id-name.png "Determine org ID and name")
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -65,3 +65,6 @@ To use Dynamics 365 Field Service on a mobile device, use the Field Service Mobi
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
