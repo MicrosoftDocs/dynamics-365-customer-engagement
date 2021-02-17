@@ -48,7 +48,7 @@ After the Power Virtual Agents bot is created and configured to work with Omnich
 
 1. Connect the bot to Omnichannel for Customer Service and go to the Omnichannel Administration app. For more information, see [Configure seamless and contextual hand-off to Omnichannel for Customer Service](https://docs.microsoft.com/dynamics365/ai/customer-service-virtual-agent/configuration-hand-off-omnichannel).
 
-    ![Virtual Agent bot settings](media/virtual-agent-bot-settings.png)
+    ![Power Virtual Agents bot settings](media/virtual-agent-bot-settings.png "Power Virtual Agents bot settings")
 
     The bot will appear in Omnichannel for Customer Service.
 
@@ -170,7 +170,7 @@ At run time, the required information is captured in the context variable that c
 ### Global variables in Power Virtual Agents
 
 The global variables that are created in Power Virtual Agents can be passed to Omnichannel for Customer Service when a conversation is escalated. The following types of variables can be passed:
-- Local variables. <!-- Hari Thangavel to confirm>
+- Local variables. <!-- Hari Thangavel to confirm from PVA team.>
 - System variables. For the complete list, see [Contextual variables available upon hand off](https://docs.microsoft.com/power-virtual-agents/advanced-hand-off#contextual-variables-available-upon-hand-off) <!-- Hari Thangavel to give info on supported system variables>
 - Pre-conversation survey variables.
 - Custom context

@@ -57,7 +57,13 @@ Customer and case can be linked to the conversation by the bot at the time of es
 
 For bots in Power Virtual Agents, you will set the values for the context variables to "User's entire response". To set the values for the bot in Power Virtual Agents, perform the steps mentioned in [Configure context variables for the bot](configure-bot-virtual-agent.md#configure-context-variables-for-the-bot).
 
-To create context variables for Azure bot and set the values to "string", see [Create context variables](work-streams-introduction.md).
+A sample screenshot is as follows that outlines how the variables need to be set in Power Virtual Agents.
+
+You do not need to select the **External sources can set values** check box in the variable properties.
+
+![Set context variables for Power Virtual Agents bot](media/set-context-variables-pva.png "Set context variables for Power Virtual Agents bot")
+
+To create context variables for Azure bot and set the values to "string", see [Create context variables](work-streams-introduction.md). <!-- Hari Thangavel to provide the information as per the conversation in the meeting held on 1/5/2021>
 
 ## End a conversation
 
