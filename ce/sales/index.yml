@@ -22,7 +22,7 @@ productDirectory:
       # imageSrc should be square in ratio with no whitespace
       imageSrc: /dynamics365/images/Sales_color.svg
       links:
-        - url: /dynamics365/customer-engagement/sales-enterprise/help-hub
+        - url: https://docs.microsoft.com/dynamics365/customer-engagement/sales-enterprise/help-hub
           text: Documentation
         - url: https://docs.microsoft.com/learn/browse/?resource_type=learning%20path&products=dynamics-sales
           text: Learn Dynamics 365 Sales
@@ -30,17 +30,15 @@ productDirectory:
       # imageSrc should be square in ratio with no whitespace
       imageSrc: /dynamics365/images/Sales_color.svg
       links:
-        - url: /dynamics365/customer-engagement/sales-professional/help-hub
+        - url: https://docs.microsoft.com/dynamics365/customer-engagement/sales-professional/help-hub
           text: Documentation
         - url: https://docs.microsoft.com/learn/browse/?resource_type=learning%20path&products=dynamics-sales&term=sales%20professional
           text: Learn Dynamics 365 Sales Professional
-
-additionalContent:
-  # Supports up to 3 sections
-  sections:
-    - title: Add-in solutions and apps
-      items:
-        # Card
-        - title: Sales Insights Add-in for Microsoft Dynamics 365 Sales
-          summary: Understand your business relationships, evaluate your activities in relation to previous successes, and choose the best path forward with Sales Insights Add-in for Dynamics 365 Sales.
-          url: /dynamics365/ai/sales/overview
+    # Card
+    - title: Sales Insights Add-in for Microsoft Dynamics 365 Sales
+      imageSrc: /dynamics365/images/SalesInsights_color.svg
+      links:
+        - url: https://docs.microsoft.com/dynamics365/ai/sales/overview
+          text: Documentation
+        - url: https://docs.microsoft.com/en-us/learn/browse/?resource_type=learning%20path&products=dynamics-sales-insights
+          text: Learn Sales Insights Add-in for Microsoft Dynamics 365 Sales
