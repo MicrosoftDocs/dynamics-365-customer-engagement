@@ -1,6 +1,7 @@
 ---
 title: "Enable a custom entity to appear in the Regarding lookup in Dynamics 365 App for Outlook  (Dynamics 365 apps) | MicrosoftDocs"
-ms.custom: 
+ms.custom: Enable activities to use Set Regarding lookup in App for Outlook.
+description: 
 ms.date: 02/16/2020
 ms.reviewer: 
 ms.service: crm-online
@@ -21,15 +22,16 @@ search.app:
   - D365CE
   - D365Outlook
 ---
-# Use Set Regarding lookup for an entity (table) 
+# Enable activities to use Set Regarding lookup in App for Outlook
 
-In App for Outlook **Set Regarding** lets you link an email message, appointment, or task to a specific app record. To use **Set Regarding**, you need to enable activities for the entity (table).
+In App for Outlook **Set Regarding** lets you link an email message, appointment, or task to a specific app record. To use **Set Regarding**, you need to enable activities for the table. 
 
    > [!div class="mx-imgBorder"]
    >![Set regaring lookup](media/set-regarding-lookup.png "Set regarding lookup")
 
+Most out of the box tables have activities enabled by default, which cannot be disabled. For custom tables that you create, make sure to enable activities to use **Set Regarding** in App for Outlook. Once activities is enabled activities it cannot be disabled for any table.
 
-## Enable activities
+## Enable activities for a table
 
 1. To enable activities, Sign in to [Power Apps](https://make.powerapps.com).
 
@@ -52,7 +54,7 @@ In App for Outlook **Set Regarding** lets you link an email message, appointment
    > [!div class="mx-imgBorder"]
    >![Communication and collaboration activity enabled](media/enable-activity-for-table.png "Communication and collaboration activity enabled")
    
-> [!NOTE]
+> [!IMPORTANT]
 > Once enabled this setting can't be disabled. If prompted, select **Okay** to confirm.
    
 6.  Select **Save Table** > and then publish the entity (table).
