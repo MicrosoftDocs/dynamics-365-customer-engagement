@@ -26,7 +26,7 @@ search.app:
 
 In App for Outlook **Set Regarding** lets you link an email message, appointment, or task to a specific app record. To use **Set Regarding**, you need to enable activities for the table. 
 
-Most out of the box tables have activities enabled by default, which cannot be disabled. For custom tables that you create, make sure to enable activities to use **Set Regarding** in App for Outlook. Once activities is enabled it cannot be disabled for any table.
+Most out-of-box (OOB) tables have activities enabled by default, which cannot be disabled. For custom tables that you create, make sure to enable activities to use **Set Regarding** in App for Outlook. Once activities is enabled it cannot be disabled for any table.
 
 
    > [!div class="mx-imgBorder"]
