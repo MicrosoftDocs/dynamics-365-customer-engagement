@@ -53,7 +53,7 @@ In App for Outlook **Set Regarding** lets you link an email message, appointment
    > [!NOTE]
    > Once enabled this setting can't be disabled. If prompted, select **Okay** to confirm.
    
-6.  Select **Save Table** > and then publsih the entity (table).
+6.  Select **Save Table** > and then publish the entity (table).
 
 
 
