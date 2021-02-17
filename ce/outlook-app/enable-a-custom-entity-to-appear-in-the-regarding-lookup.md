@@ -37,7 +37,7 @@ In App for Outlook **Set Regarding** lets you link an email message, appointment
 2. On the left nav select **Data** to expand it and then select **Tables**.  
 
    > [!div class="mx-imgBorder"]
-   >![Go to Tables in maker portal](media/maker-data-table.png "Go to Tables in maker portal")
+   >![Go to Tables in maker portal](media/maker-data-tables.png "Go to Tables in maker portal")
    
   
 3. Choose an entity (table).
@@ -45,7 +45,7 @@ In App for Outlook **Set Regarding** lets you link an email message, appointment
 4. On the command bar, select **Settings**. 
 
    > [!div class="mx-imgBorder"]
-   >![Select settings](media/select_settings.png "Select setting")
+   >![Select settings](media/maker-row-settings.png "Select setting")
 
 5. Expand **Collaboration**, and select **Enable for activities**. and then choose **Done**. 
 
