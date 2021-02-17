@@ -162,7 +162,7 @@ Improve knowledge article suggestions and search results by enabling automatic f
 
 For example, if you set up automatic filtering of knowledge articles on the subject of the case, the knowledge articles that have the same subject as the case will be filtered in and will be shown to the agents. Other articles will be filtered out automatically. 
 
-This feature can be extended to automatically filter knowledge articles on any lookup field that's present on both Case and Knowledge Article entitjies. Agents also have an option to turn off automatic filtering and search the entire knowledge base. Administrators can configure this option in the Knowledge Base Search control.
+This feature can be extended to automatically filter knowledge articles on any lookup field that's present on both Case and Knowledge Article entities. Agents also have an option to turn off automatic filtering and search the entire knowledge base. Administrators can configure this option in the Knowledge Base Search control.
 
 Open the **Knowledge Base Search** control and edit its properties to configure automatic filtering. In the **Set Properties** dialog box, on the **Display** tab, specify the following fields in the **Configure Automatic Filtering** section.
 
@@ -174,7 +174,7 @@ Open the **Knowledge Base Search** control and edit its properties to configure 
     > [!NOTE]
     > Ensure that Relevance search is enabled for automatic filtering to work. The Knowledge Article attribute must be added to the Knowledge Article Quick Find View. Ensure that the Source Entity Attribute is present on the form.
 
-[!div class="mx-imgBorder"] 
+[!div class="mx-imgBorder"]
 
    ![Configure auto filtering](media/ka-config-auto-filtering.png "Configure auto filtering")
 
@@ -193,10 +193,6 @@ You can add a customized knowledge article subgrid to a form. To learn more abou
 3. In the **Solution Default Solution** list, select the entity to which you want to add a subgrid, and then select **Forms**.
 
 4. In the form designer, select **Insert** > **Sub-Grid**.
-
-[!div class="mx-imgBorder"] 
-
-   ![Insert a subgrid in an active form](media/insert-subgrid.png "Insert a subgrid in an active form")
 
 5. In the **Set Properties** dialog box, provide a unique name for your subgrid.
 
