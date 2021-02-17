@@ -4,7 +4,7 @@ description: "How a bot in Omnichannel for Customer Service can be used to escal
 author: v-sailab
 ms.author: v-sailab
 manager: shujoshi
-ms.date: 06/09/2020
+ms.date: 02/19/2021
 ms.topic: reference
 ms.service: dynamics-365-customerservice
 ---
@@ -46,7 +46,14 @@ The primary way a bot can dictate how the conversation will be routed is by usin
 
 ### How to link customer and case to a conversation for bot to escalate to a human agent<a name="link-customer-case-conversation"> </a>
 
-Customer and case can be linked to the conversation by the bot at the time of escalation so that the human agents can see the related customer and case in the customer summary section when they start interacting with the customers. To link the customer or case, set the values for associated attributes, such as the name and phone number. The bot can set context parameters that are set in [automatically identify a customer](record-identification-rule.md).
+Customer and case can be linked to the conversation by the bot at the time of escalation so that the human agents can see the related customer and case information in the customer summary section when they start interacting with the customers. To link the customer or case, set the values for associated attributes, such as the name and phone number. The bot can set context parameters for the following that are set in [automatically identify a customer](record-identification-rule.md).
+
+|Entity to be linked|Variable to use in bot|Attribute|
+|------------|----------------|----------------------|
+|Account|Name|name|
+|Contact|Email|emailaddress1|
+|Case|CaseNumber|ticketnumber|
+||||
 
 To create the context variables for a bot in Power Virtual Agents, perform the steps mentioned in [Configure context variables for the bot](configure-bot-virtual-agent.md#configure-context-variables-for-the-bot).
 

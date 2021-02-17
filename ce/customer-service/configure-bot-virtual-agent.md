@@ -170,9 +170,9 @@ At run time, the required information is captured in the context variable that c
 ### Global variables in Power Virtual Agents
 
 The global variables that are created in Power Virtual Agents can be passed to Omnichannel for Customer Service when a conversation is escalated. The following types of variables can be passed:
-- Local variables
-- System variables. For the complete list, see [Contextual variables available upon hand off](https://docs.microsoft.com/power-virtual-agents/advanced-hand-off#contextual-variables-available-upon-hand-off)
-- Pre-conversation survey variables
+- Local variables. <!-- Hari Thangavel to confirm>
+- System variables. For the complete list, see [Contextual variables available upon hand off](https://docs.microsoft.com/power-virtual-agents/advanced-hand-off#contextual-variables-available-upon-hand-off) <!-- Hari Thangavel to give info on supported system variables>
+- Pre-conversation survey variables.
 - Custom context
 
 ### Known limitations
