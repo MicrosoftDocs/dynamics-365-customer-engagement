@@ -28,7 +28,7 @@ Use the Outlook Checker to run a diagnostic check and scan for potential issues 
 
 
    > [!div class="mx-imgBorder"] 
-   > ![Outlook Checker pane nav.](../media/outlook-checker1.png "Outlook Checker pane nav")
+   > ![Outlook Checker pane nav.](media/outlook-checker1.png "Outlook Checker pane nav")
    
  Legend:
  
@@ -43,30 +43,30 @@ Use the Outlook Checker to run a diagnostic check and scan for potential issues 
 1. In Microsoft Outlook, select **Dynamics 365** to open the Dynamics 365 pane.
 
     > [!div class="mx-imgBorder"] 
-    > ![Open Outlook pane.](../media/outlook-pane.png "Open Outlook pane")
+    > ![Open Outlook pane.](media/outlook-pane.png "Open Outlook pane")
     
     
 2. Select the **Dynamics 365** pane and then press **ALT**+**CTRL**+**Y** on your keyboard to bring up the **Outlook Checker**.
 3. Use the **Show** or **Hide** toggle to show or hide the checker icon in the command bar.
   
     > [!div class="mx-imgBorder"] 
-    > ![Outlook Checker pane.](../media/outloook-checker-pane.png "Outlook Checker pane") 
+    > ![Outlook Checker pane.](media/outloook-checker-pane.png "Outlook Checker pane") 
 
     When you set the toggle to **Show**, the checker icon is added to the command bar and the **Search** button ![Search button in Outlook pane](../media/seachicon_outlook.png "Search button in Outlook pane") will move under **More commands** ![More commands button in Outlook pane](../media/morecommends_outlook.png "More commands in Outlook pane").
    
     > [!div class="mx-imgBorder"] 
-    > ![Outlook Checker on the command bar.](../media/checker-commandbar.png "Outlook Checker on the command bar")
+    > ![Outlook Checker on the command bar.](media/checker-commandbar.png "Outlook Checker on the command bar")
      
     
 4. Select **Run diagnostics** to run the checker.
 
     > [!div class="mx-imgBorder"] 
-    > ![Run the diagnostics checker.](../media/run-checker.png "Run the diagnostics checker")
+    > ![Run the diagnostics checker.](media/run-checker.png "Run the diagnostics checker")
     
 5. The checker will show a detailed status of all the components. If you run into issues, select the **Export logs** icon to export the log files and send them to your administrator.
 
     > [!div class="mx-imgBorder"] 
-    > ![Export logs.](../media/send-logs.png "Export logs")
+    > ![Export logs.](media/send-logs.png "Export logs")
     
 ## Common issues
 
