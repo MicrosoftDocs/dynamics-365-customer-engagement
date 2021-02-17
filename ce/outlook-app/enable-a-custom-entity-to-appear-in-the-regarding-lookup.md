@@ -23,12 +23,11 @@ search.app:
 ---
 # Use Set Regarding lookup for an entity (table) 
 
-To use the **Set Regarding** lookup for an entity (table), you need to enable activities for the entity (table).
+In App for Outlook **Set Regarding** lets you link an email message, appointment, or task to a specific app record. To use the **Set Regarding**, you need to enable activities for the entity (table).
 
    > [!div class="mx-imgBorder"]
    >![Set regaring lookup](media/set-regarding-lookup.png "Set regarding lookup")
 
-In App for Outlook **Set Regarding** lets your link an email message, appointment, or task to a specific app record. To use **Track regarding** for a custom entity (table). Some organizations also use the Set Regarding button to track projects.
 
 To add a custom entity, see [Filter entities and views that appear in Dynamics 365 App for Outlook](https://docs.microsoft.com/dynamics365/customer-engagement/outlook-app/filter-entities-and-views).
 
@@ -42,7 +41,7 @@ To add a custom entity, see [Filter entities and views that appear in Dynamics 3
    >![Go to Tables](media/signin_make_site.png "Go to Tables")
    
   
-3. Choose the custom entity (table).
+3. Choose an entity (table).
 
 4. On the command bar, select **Settings**. 
 
