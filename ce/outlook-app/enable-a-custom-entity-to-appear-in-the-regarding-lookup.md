@@ -1,7 +1,7 @@
 ---
 title: "Enable a custom entity to appear in the Regarding lookup in Dynamics 365 App for Outlook  (Dynamics 365 apps) | MicrosoftDocs"
 ms.custom: 
-ms.date: 07/22/2019
+ms.date: 02/16/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -21,9 +21,9 @@ search.app:
   - D365CE
   - D365Outlook
 ---
-# Customize the Regarding lookup to add or remove entities
+# Enable regarding lookup
 
-To have an entity to appear in the Set Regarding lookup, you need to enable activities for the entity.
+To have an entity to appear in the Set Regarding lookup, you need to enable activities for the entity (table).
 
 
 1. Sign in to [Power Apps](https://make.powerapps.com).
@@ -35,23 +35,28 @@ To have an entity to appear in the Set Regarding lookup, you need to enable acti
    >![Go to Tables](media/signin_make_site.png "Go to Tables")
    
   
-3. Choose the custom table.
+3. Choose the custom entity (table).
 
 4. On the command bar, select **Settings**. 
 
    > [!div class="mx-imgBorder"]
    >![Select settings](media/select_settings.png "Select setting")
 
-5. Expand **Collaboration**, and select **Enable for activities**. and then choose **Done**. **Publish** on the **Home** tab.
+5. Expand **Collaboration**, and select **Enable for activities**. and then choose **Done**. 
 
    > [!div class="mx-imgBorder"]
    >![Communication and collaboration activity enabled](media/enable-activity-for-table.png "Communication and collaboration activity enabled")
    
-6. If prompted, select **Okay** to confirm your changes > **Save Table** > and publsih the table.
-
-
    > [!NOTE]
-   > To add a custom entity, see [Filter entities and views that appear in Dynamics 365 App for Outlook](https://docs.microsoft.com/dynamics365/customer-engagement/outlook-app/filter-entities-and-views).
+   > Once enabled this setting can't be disabled. If prompted, select **Okay** to confirm.
+   
+6.  Select **Save Table** > and then publsih the entity (table).
+
+
+To add a custom entity, see [Filter entities and views that appear in Dynamics 365 App for Outlook](https://docs.microsoft.com/dynamics365/customer-engagement/outlook-app/filter-entities-and-views).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+
+
+
