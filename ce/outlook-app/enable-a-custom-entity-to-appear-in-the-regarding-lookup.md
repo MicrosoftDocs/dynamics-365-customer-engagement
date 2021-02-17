@@ -23,21 +23,34 @@ search.app:
 ---
 # Customize the Regarding lookup to add or remove entities
 
-1. To open settings for apps that use Unified Interface, look in the upper-right corner and select the Gear icon. Then select **Advanced Settings**.
+To have an entity to appear in the Set Regarding lookup, you need to enable activities for the entity.
 
-   > [!div class="mx-imgBorder"]
-   >![Setting Customizations](media/settings-advanced-1.png "Settings Customizations")
+
+1. Sign in to [Power Apps](https://make.powerapps.com).
+
   
-2. Select **Settings** > **Customizations** and then select **Customize the System**.  
+2. On the left nav select **Data** to expand it and then select **Tables**.  
 
    > [!div class="mx-imgBorder"]
-   >![Select a Customize the System](media/Settings_Custom.png "Customize the System")
-
-3. Choose the custom entity. Under **Communication & Collaboration**, enable **Activities**, and then choose **Save** > **Publish** on the **Home** tab.
-
-   ![Communication and collaboration activity enabled](media/communication-collaboration-activities.png "Communication and collaboration activity enabled")
+   >![Go to Tables](media/signin_make_site.png "Go to Tables")
    
-    > [!NOTE]
+  
+3. Choose the custom table.
+
+4. On the command bar, select **Settings**. 
+
+   > [!div class="mx-imgBorder"]
+   >![Select settings](media/select_settings.png "Select setting")
+
+5. Expand **Collaboration**, and select **Enable for activities**. and then choose **Done**. **Publish** on the **Home** tab.
+
+   > [!div class="mx-imgBorder"]
+   >![Communication and collaboration activity enabled](media/enable-activity-for-table.png "Communication and collaboration activity enabled")
+   
+6. If prompted, select **Okay** to confirm your changes > **Save Table** > and publsih the table.
+
+
+   > [!NOTE]
    > To add a custom entity, see [Filter entities and views that appear in Dynamics 365 App for Outlook](https://docs.microsoft.com/dynamics365/customer-engagement/outlook-app/filter-entities-and-views).
 
 
