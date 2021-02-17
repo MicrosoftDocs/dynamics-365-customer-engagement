@@ -12,7 +12,11 @@
 ## [Limitations when customizing the app](limitations-when-customizing-app-for-outlook.md)   
 
 # [Using the app](dynamics-365-app-outlook-user-s-guide.md)
-# [Troubleshoot issues with App for Outlook Checker](diagnostic-checker.md)
+## [Add a phone call, appointment, or task activity](add-activities.md)
+## [Add an email template](email-template.md)
+## [Add sales literature or a knowledge base article to a email](add-literature-or-kb.md)
+
+# [Run the checker to troubleshoot issues](diagnostic-checker.md)
 # [FAQs](faq.md)
 
 # Version 8.x
