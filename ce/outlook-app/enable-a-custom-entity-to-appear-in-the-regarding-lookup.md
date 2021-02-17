@@ -63,7 +63,7 @@ Most out-of-box (OOB) tables have activities enabled by default, which cannot be
 
 
 
-See also
+## See also
 
 [Filter entities and views that appear in Dynamics 365 App for Outlook](https://docs.microsoft.com/dynamics365/customer-engagement/outlook-app/filter-entities-and-views).
 
