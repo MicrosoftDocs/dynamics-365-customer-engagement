@@ -29,9 +29,6 @@ In App for Outlook **Set Regarding** lets you link an email message, appointment
    >![Set regaring lookup](media/set-regarding-lookup.png "Set regarding lookup")
 
 
-To add a custom entity, see [Filter entities and views that appear in Dynamics 365 App for Outlook](https://docs.microsoft.com/dynamics365/customer-engagement/outlook-app/filter-entities-and-views).
-
-
 1. Sign in to [Power Apps](https://make.powerapps.com).
 
   
@@ -61,6 +58,10 @@ To add a custom entity, see [Filter entities and views that appear in Dynamics 3
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+
+See also
+
+[Filter entities and views that appear in Dynamics 365 App for Outlook](https://docs.microsoft.com/dynamics365/customer-engagement/outlook-app/filter-entities-and-views).
 
 
 
