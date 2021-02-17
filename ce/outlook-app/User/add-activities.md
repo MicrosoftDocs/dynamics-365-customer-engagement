@@ -24,7 +24,7 @@ search.app:
 
 # Add an activity to a tracked row 
 
-Use Dynamics 365 App for Outlook to track a row and add activities such as a phone call, appointment, or task to the row.
+When a row is tracked using Dynamics 365 App for Outlook, you can add activities such as a phone call, appointment, or task to the row.
 
 
 1. Open the Dynamics 365 pane, and select an item in your email that you're tracking using App for Outlook.
