@@ -23,7 +23,7 @@ search.app:
 ---
 # Use Set Regarding lookup for an entity (table) 
 
-In App for Outlook **Set Regarding** lets you link an email message, appointment, or task to a specific app record. To use the **Set Regarding**, you need to enable activities for the entity (table).
+In App for Outlook **Set Regarding** lets you link an email message, appointment, or task to a specific app record. To use **Set Regarding**, you need to enable activities for the entity (table).
 
    > [!div class="mx-imgBorder"]
    >![Set regaring lookup](media/set-regarding-lookup.png "Set regarding lookup")
