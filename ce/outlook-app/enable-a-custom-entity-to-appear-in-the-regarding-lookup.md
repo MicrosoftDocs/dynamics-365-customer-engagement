@@ -1,7 +1,7 @@
 ---
 title: "Enable a custom entity to appear in the Regarding lookup in Dynamics 365 App for Outlook  (Dynamics 365 apps) | MicrosoftDocs"
-ms.custom: Enable activities to use Set Regarding lookup in App for Outlook.
-description: 
+ms.custom: 
+description: Enable activities to use Set Regarding lookup in App for Outlook.
 ms.date: 02/16/2020
 ms.reviewer: 
 ms.service: crm-online
