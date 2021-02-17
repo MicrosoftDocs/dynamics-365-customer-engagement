@@ -35,8 +35,10 @@ productDirectory:
         - url: https://docs.microsoft.com/learn/browse/?resource_type=learning%20path&products=dynamics-sales&term=sales%20professional
           text: Learn Dynamics 365 Sales Professional
     # Card
-    - title: Dynamics 365 Sales Insights
+    - title: Sales Insights Add-in for Dynamics 365 Sales
       imageSrc: /dynamics365/images/SalesInsights_color.svg
       links:
         - url: https://docs.microsoft.com/dynamics365/ai/sales/overview
           text: Documentation
+        - url: https://docs.microsoft.com/en-us/learn/browse/?resource_type=learning%20path&products=dynamics-sales-insights
+          text: Learn Sales Insights Add-in for Dynamics 365 Sales
