@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "ce/marketing/get-started-section.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/portals/manage-portal.md",
       "redirect_url": "/powerapps/maker/portals/admin/power-platform-admin-center",
       "redirect_document_id": "false"
