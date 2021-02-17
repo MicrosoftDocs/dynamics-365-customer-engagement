@@ -129,7 +129,8 @@ The linked knowledge article subgrid is available for an entity, such as a case 
 - Select and edit an article's content
 - Sort
 - Bulk operations
- You can also edit a knowledge article by double-clicking it in the linked articles list.
+ 
+You can also edit a knowledge article by double-clicking it in the linked articles list.
 
 To link the knowledge article to an entity, you need to do the following steps. For the sake of this example, let us consider the entity as Accounts.
 
@@ -335,3 +336,5 @@ To set up the feedback control, see [Enable feedback control](set-up-knowledge-m
 [Understand knowledge base search mechanisms](knowledge-base-search-methods.md)
 
 [Set up a search provider in Customer Service Hub](set-up-search-providers.md)
+
+[Add a Knowledge Article Subgrid to a form](add-knowledge-base-search-control-forms.md)
