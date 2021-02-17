@@ -30,8 +30,8 @@ For example, you could use a **Thank you** template to save time whenever you wa
 
 For information on creating email templates: [Create templates for email](https://docs.microsoft.com/power-platform/admin/create-templates-email).  
 
-> [!div class="mx-imgBorder"] 
-> ![Sample email template](../media/email-template-appforoutlook.png)
+  > [!div class="mx-imgBorder"] 
+  > ![Sample email template](../media/email-template-appforoutlook.png)
 
 You must have the appropriate permissions to add email templates.
 
