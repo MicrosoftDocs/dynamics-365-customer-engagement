@@ -21,9 +21,16 @@ search.app:
   - D365CE
   - D365Outlook
 ---
-# Enable regarding lookup
+# Use Set Regarding lookup for an entity (table) 
 
-To have an entity to appear in the Set Regarding lookup, you need to enable activities for the entity (table).
+To use the **Set Regarding** lookup for an entity (table), you need to enable activities for the entity (table).
+
+   > [!div class="mx-imgBorder"]
+   >![Set regaring lookup](media/set-regarding-lookup.png "Set regarding lookup")
+
+In App for Outlook **Set Regarding** lets your link an email message, appointment, or task to a specific app record. To use **Track regarding** for a custom entity (table). Some organizations also use the Set Regarding button to track projects.
+
+To add a custom entity, see [Filter entities and views that appear in Dynamics 365 App for Outlook](https://docs.microsoft.com/dynamics365/customer-engagement/outlook-app/filter-entities-and-views).
 
 
 1. Sign in to [Power Apps](https://make.powerapps.com).
@@ -52,8 +59,6 @@ To have an entity to appear in the Set Regarding lookup, you need to enable acti
    
 6.  Select **Save Table** > and then publsih the entity (table).
 
-
-To add a custom entity, see [Filter entities and views that appear in Dynamics 365 App for Outlook](https://docs.microsoft.com/dynamics365/customer-engagement/outlook-app/filter-entities-and-views).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
