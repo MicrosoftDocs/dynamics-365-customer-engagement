@@ -24,9 +24,9 @@ search.app:
 ---
 # Enable activities to use Set Regarding lookup in App for Outlook
 
-In App for Outlook **Set Regarding** lets you link an email message, appointment, or task to a specific app record. To use **Set Regarding** activities needs to be enabled for the table. 
+In App for Outlook the **Set Regarding** lookup lets you link an email message, appointment, or task to a specific app record. To use the **Set Regarding** lookup, activities needs to be enabled for the table. 
 
-Most out-of-box (OOB) tables have activities enabled by default, which cannot be disabled. For custom tables that you create, make sure to enable activities to use **Set Regarding** in App for Outlook. Once activities is enabled it cannot be disabled for any table.
+Most out-of-box (OOB) tables have activities enabled by default, which cannot be disabled. For custom tables that you create, make sure to enable activities to use  the **Set Regarding** lookup in App for Outlook. Once activities are enabled it cannot be disabled for any table.
 
 
    > [!div class="mx-imgBorder"]
