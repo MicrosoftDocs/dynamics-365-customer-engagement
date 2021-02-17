@@ -37,7 +37,7 @@ In App for Outlook **Set Regarding** lets you link an email message, appointment
 2. On the left nav select **Data** to expand it and then select **Tables**.  
 
    > [!div class="mx-imgBorder"]
-   >![Go to Tables](media/signin_make_site.png "Go to Tables")
+   >![Go to Tables in maker portal](media/maker-data-table.png "Go to Tables in maker portal")
    
   
 3. Choose an entity (table).
@@ -52,8 +52,8 @@ In App for Outlook **Set Regarding** lets you link an email message, appointment
    > [!div class="mx-imgBorder"]
    >![Communication and collaboration activity enabled](media/enable-activity-for-table.png "Communication and collaboration activity enabled")
    
-   > [!NOTE]
-   > Once enabled this setting can't be disabled. If prompted, select **Okay** to confirm.
+> [!NOTE]
+> Once enabled this setting can't be disabled. If prompted, select **Okay** to confirm.
    
 6.  Select **Save Table** > and then publish the entity (table).
 
