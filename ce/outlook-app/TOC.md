@@ -5,7 +5,7 @@
 ## [Set up delegate access](enable-delegate-access.md)
 ## [Customize the track regarding card](customize-the-track-regarding-card.md)
 ## [Customize which entities appear in Quick create ](add-a-custom-entity-to-quick-create.md)
-## [Customize the Regarding lookup to add or remove entities](enable-a-custom-entity-to-appear-in-the-regarding-lookup.md)
+## [Enable activities to use Set Regarding lookup](enable-a-custom-entity-to-appear-in-the-regarding-lookup.md)
 ## [Customize the app to auto populate data from an Outlook item to a Quick Create form](auto-populate-data-into-quickcreate.md)
 ## [Expand the fields search on in Regarding lookup](search-on-custom-field-regarding-lookup.md)
 ## [Filter entities and views that appear in Dynamics 365 App for Outlook](filter-entities-and-views.md)
