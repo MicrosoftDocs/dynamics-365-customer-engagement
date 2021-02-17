@@ -80,6 +80,9 @@
 #### [Configure Power BI template apps to work with Dynamics 365 Sales](configure-sales-template-apps.md)
 #### [Customize Power BI template apps for Dynamics 365 Sales](customize-template-apps.md)
 
+### Integrate LinkedIn Sales Insights
+#### [Install or delete LinkedIn Sales Insights solution](install-lsi-solution.md)     
+
 ### [Configure Microsoft Teams dialer](configure-microsoft-teams-dialer.md)
 
 ### Reporting
@@ -107,6 +110,7 @@
 
 ### Manage customers
 #### [Work with accounts and contacts](../basics/accounts-contacts.md)
+#### [Understand the LinkedIn Sales Insights tab](understand-lsi-accounts-form.md)
 #### [Organize contacts in live org charts for accounts](live-org-chart.md)
 #### [Scan business cards](scan-business-cards.md)
 
