@@ -12,9 +12,9 @@
 ## [Limitations when customizing the app](limitations-when-customizing-app-for-outlook.md)   
 
 # [Using the app](dynamics-365-app-outlook-user-s-guide.md)
-## [Add a phone call, appointment, or task activity](user/add-activities.md)
-## [Add an email template](user/email-template.md)
-## [Add sales literature or a knowledge base article to a email](user/add-literature-or-kb.md)
+## [Add a phone call, appointment, or task activity](/user/add-activities.md)
+## [Add an email template](../user/email-template.md)
+## [Add sales literature or a knowledge base article to a email](./user/add-literature-or-kb.md)
 
 # [Run the checker to troubleshoot issues](diagnostic-checker.md)
 # [FAQs](faq.md)
