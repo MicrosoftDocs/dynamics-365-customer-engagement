@@ -29,7 +29,9 @@ In App for Outlook **Set Regarding** lets you link an email message, appointment
    >![Set regaring lookup](media/set-regarding-lookup.png "Set regarding lookup")
 
 
-1. Sign in to [Power Apps](https://make.powerapps.com).
+## Enable activities
+
+1. To enable activities, Sign in to [Power Apps](https://make.powerapps.com).
 
   
 2. On the left nav select **Data** to expand it and then select **Tables**.  
