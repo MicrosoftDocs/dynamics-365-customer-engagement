@@ -4,7 +4,7 @@ description: "How a bot in Omnichannel for Customer Service can be used to escal
 author: v-sailab
 ms.author: v-sailab
 manager: shujoshi
-ms.date: 02/19/2021
+ms.date: 02/17/2021
 ms.topic: reference
 ms.service: dynamics-365-customerservice
 ---
@@ -50,14 +50,14 @@ Customer and case can be linked to the conversation by the bot at the time of es
 
 |Entity to be linked|Variable to use in bot|Attribute|
 |------------|----------------|----------------------|
-|Account|Name|name|
-|Contact|Email|emailaddress1|
+|Account|<ul><li> Name</li><li> Email </li><li> Phone</li></ul> |<ul><li> name</li><li>emailaddress1</li><li>telephone1</li></ul> |
+|Contact|<ul><li> Name</li><li> Email </li><li> Phone</li></ul>|<ul><li> name</li><li>emailaddress1</li><li>telephone1</li></ul>|
 |Case|CaseNumber|ticketnumber|
 ||||
 
-To create the context variables for a bot in Power Virtual Agents, perform the steps mentioned in [Configure context variables for the bot](configure-bot-virtual-agent.md#configure-context-variables-for-the-bot).
+For bots in Power Virtual Agents, you will set the values for the context variables to "User's entire response". To set the values for the bot in Power Virtual Agents, perform the steps mentioned in [Configure context variables for the bot](configure-bot-virtual-agent.md#configure-context-variables-for-the-bot).
 
-To create context variables for Azure bot, see [Create context variables](work-streams-introduction.md).
+To create context variables for Azure bot and set the values to "string", see [Create context variables](work-streams-introduction.md).
 
 ## End a conversation
 
