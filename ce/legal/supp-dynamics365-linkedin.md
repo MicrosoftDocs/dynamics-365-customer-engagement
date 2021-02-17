@@ -39,4 +39,3 @@ information.
 Third Party Notices: <https://go.microsoft.com/fwlink/?LinkId=828060>
 
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

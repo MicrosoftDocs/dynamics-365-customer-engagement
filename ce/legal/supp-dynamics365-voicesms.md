@@ -246,4 +246,3 @@ the purchase price); and (ii) for services, to supplying (or paying a third
 party to supply) the services again or refunding the purchase price.**
 
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

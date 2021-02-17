@@ -104,4 +104,3 @@ The parties agree as follows:
 **(h)	Modification.** Microsoft may modify this Agreement, solely with prospective effect. By continuing to access or use the Insider Program website or any Preview after notice of such modification, Participant is deemed to have agreed to such modified Agreement. If Participant does not agree, it must immediately terminate this Agreement under Section 9(a).
 
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
