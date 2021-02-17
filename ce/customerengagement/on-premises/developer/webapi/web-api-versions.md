@@ -48,3 +48,5 @@ Beginning with the [!INCLUDE[pn_crm_9_0_0_online](../../includes/pn-crm-9-0-0-on
  [Use the Dynamics 365 Customer Engagement Web API](../use-microsoft-dynamics-365-web-api.md)   
  [Authenticate to Dynamics 365 Customer Engagement (on-premises) with the Web API](authenticate-web-api.md)   
  
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -113,3 +113,6 @@ You can also define weekly awards: [Create weekly awards to keep players and fan
  [Keep your employees engaged and productive by using Gamification](increase-employee-productivity.md)   
  [Set up and run games in Gamification](run-games.md)   
  [Install and configure the Gamification solution in Dynamics 365 apps](manage-gamification-in-dynamics-365-online.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

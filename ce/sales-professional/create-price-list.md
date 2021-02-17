@@ -77,3 +77,6 @@ Price lists tie the unit, product, and pricing details together, so before you c
 
 [Create unit groups and add units](create-unit-group-add-units.md)
 [Create a product](create-products.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

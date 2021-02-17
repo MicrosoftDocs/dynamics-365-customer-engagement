@@ -62,3 +62,5 @@ The **Omnichannel Ongoing Conversations** is available in:
 [Provide access to Ongoing Conversations dashboard](configure-ongoing-conversations-dashbaord.md)  
 [Introduction to intraday insights dashboard](intro-intraday-insights-dashboard.md)  
 [View and understand Omnichannel intraday insights dashboard](intraday-insights-dashboard.md)  
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

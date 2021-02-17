@@ -71,3 +71,6 @@ All Azure IoT services run in your own Azure cloud subscription. Additionally, w
  [Field Service User Guide](../field-service/user-guide.md) 
   
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

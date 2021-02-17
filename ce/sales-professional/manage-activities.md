@@ -150,3 +150,6 @@ you can mark the activity for that action as completed.
 [Overview of Dynamics 365 Sales Professional](sales-professional-overview.md)<br/>
 [Manage your customers](manage-accounts-contacts.md)  
 [Work with activities in the Kanban view](activity-kanban-view-sp.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

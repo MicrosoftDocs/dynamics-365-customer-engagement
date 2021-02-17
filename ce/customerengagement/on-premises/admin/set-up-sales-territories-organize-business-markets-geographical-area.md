@@ -114,3 +114,6 @@ Organizations can create a model and visualize their sales territories in a hier
 ### See also  
  [Administrator and sales manager guide](../../../sales-enterprise/admin-guide.md)   
  [Nurture sales from lead to order (Sales)](../../../sales-enterprise/nurture-sales-from-lead-order-sales.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -65,3 +65,6 @@ Promote your business, expand your reach to new customers, and improve sales by 
 
 ### See Also  
 [Create a marketing list using in-app marketing](create-marketing-list-using-app-marketing-sp.md)   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

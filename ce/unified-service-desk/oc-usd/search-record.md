@@ -96,3 +96,6 @@ To learn on how to link a record, see [Link a record to the conversation](link-u
 - [View conversation and session forms in the model-driven apps](view-omnichannel-conversation-session.md)
 - [View customer summary for an incoming conversation request](view-customer-summary-incoming-conversation-request.md)
 - [Create a record](create-record.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

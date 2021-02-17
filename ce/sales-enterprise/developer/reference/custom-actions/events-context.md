@@ -325,3 +325,6 @@ function OnSave(executionContext){
 ### See also
 
 [Customize underlying records](https://docs.microsoft.com/dynamics365/sales-enterprise/forecast-configure-advanced-settings#customize-underlying-records)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

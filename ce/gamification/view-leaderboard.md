@@ -52,3 +52,6 @@ There's no real competition without a leaderboard. [!INCLUDE[pn_gamification](..
 
  [Overview for players and fans in Gamification](for-players-fans.md)   
  [Set up and run games in Gamification](run-games.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

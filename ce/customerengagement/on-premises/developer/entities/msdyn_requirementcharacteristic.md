@@ -1079,3 +1079,5 @@ See msdyn_workorderincident Entity [msdyn_msdyn_workorderincident_msdyn_requirem
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_requirementcharacteristic?text=msdyn_requirementcharacteristic EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -143,3 +143,6 @@ Price lists tie the unit, product, and pricing details together, so before you c
  [System Settings dialog box - Sales tab](../admin/system-settings-dialog-box-sales-tab.md)   
  [Classify products and bundles into product families](../sales-enterprise/create-product-bundles-sell-multiple-items-together.md)  
 [Price calculation for opportunity, quote, order, and invoice records](price-calculation-opportunity-quote-order-invoice-records.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

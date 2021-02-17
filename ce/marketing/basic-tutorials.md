@@ -33,3 +33,6 @@ The tutorials in this section provide exercises that illustrate the core functio
 - [Create an automated customer journey](create-simple-customer-journey.md) that combines email messaging, landing pages, and multiple paths managed by interactive triggers.
 
 The exercises in this chapter build on one another, so we recommend that new users do them all, in order.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

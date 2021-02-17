@@ -35,3 +35,6 @@ After you upgrade [!INCLUDE[pn_crm_2015_server](../includes/pn-crm-2015-server.m
 ## See Also    
  [Uninstall or repair a Dynamics 365 language pack](uninstall-repair-dynamics-365-language-pack.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

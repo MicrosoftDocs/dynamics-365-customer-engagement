@@ -55,3 +55,6 @@ Dynamics 365 Customer Engagement (on-premises) uses the `ProductPriceLevel.Prici
  [ProductPriceLevel Entity](entities/productpricelevel.md)   
  [Product Entity](entities/product.md)   
  [Product Catalog Entities](product-catalog-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

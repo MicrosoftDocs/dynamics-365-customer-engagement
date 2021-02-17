@@ -65,3 +65,6 @@ By default, when users and queues are created in Dynamics 365 Customer Engagemen
 5. Click or tap **Save** or **Save & Close**.  
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

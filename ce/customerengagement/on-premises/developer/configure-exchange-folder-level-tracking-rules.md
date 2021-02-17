@@ -92,3 +92,6 @@ foreach (var folderMapping in resp.MailboxTrackingFolderMappings)
  [Mailbox Entity](entities/mailbox.md)<br />
  [Configure folder-level tracking](../admin/configure-outlook-exchange-folder-level-tracking.md)<br />
  [Server-side Synchronization Entities](server-side-synchronization-entities.md)<br />
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

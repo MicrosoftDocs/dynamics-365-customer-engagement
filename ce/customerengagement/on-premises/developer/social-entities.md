@@ -50,3 +50,6 @@ Use [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] social care gene
  [Model Your Business Data](model-business-data.md)  
   
  [Sample Application Using Microsoft Dynamics CRM Social Care Framework](https://msdn.microsoft.com/library/dn744885.aspx)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

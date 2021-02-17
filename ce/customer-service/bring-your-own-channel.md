@@ -412,3 +412,6 @@ For information about how to configure a custom messaging channel, see [Configur
 [Configure custom messaging channel](configure-custom-channel.md)  
 [Key concepts in Direct Line API 3.0](https://docs.microsoft.com/azure/bot-service/rest-api/bot-framework-rest-direct-line-3-0-concepts?view=azure-bot-service-4.0)  
 [MessageBird API reference](https://developers.messagebird.com/api)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

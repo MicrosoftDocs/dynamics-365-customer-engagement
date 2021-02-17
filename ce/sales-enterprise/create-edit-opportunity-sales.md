@@ -156,3 +156,6 @@ The next step is to create a quote and send it to your customer. [!INCLUDE[proc-
 [Boost sales with Versium Predict](../versium-predict/versium-predict.md)   
 [Insights, powered by InsideView](../insights-insideview/insights-powered-by-insideview.md)   
 [Print quote, invoice, or other records](print-records.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

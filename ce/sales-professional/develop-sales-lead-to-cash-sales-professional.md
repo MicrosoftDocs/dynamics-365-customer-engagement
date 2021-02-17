@@ -37,3 +37,6 @@ Your sales process begins with a lead—someone who is interested in the product
 [Create and manage quotes](create-quotes-sales-professional.md)  
 [Create and manage invoices](create-invoices.md)  
 [Overview of Dynamics 365 Sales Professional](sales-professional-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

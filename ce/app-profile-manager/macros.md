@@ -470,3 +470,6 @@ As an administrator, you can view the macro run history, which shows how many ti
 [Use automation dictionary to pass data parameters keys](automation-dictionary-keys.md)  
 [Agent scripts](agent-scripts.md)
 [Smart Assist](smart-assist.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

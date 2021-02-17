@@ -86,3 +86,6 @@ The category of telemetry that [!INCLUDE[pn_unified_service_desk](../../includes
 ## See also
 
 [Comply with General Data Protection Regulation (GDPR)](comply-gdpr.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

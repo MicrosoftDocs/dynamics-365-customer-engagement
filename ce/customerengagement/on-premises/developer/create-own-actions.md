@@ -244,3 +244,6 @@ An action can be executed using the Web API just like any system action. [!INCLU
  [Event execution pipeline](/powerapps/developer/common-data-service/event-framework#event-execution-pipeline)   
  [Write Workflows to Automate Business Processes](automate-business-processes-customer-engagement.md)   
  [Customize your system](https://technet.microsoft.com/library/dn531158.aspx)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

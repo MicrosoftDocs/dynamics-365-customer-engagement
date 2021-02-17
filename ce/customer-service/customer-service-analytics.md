@@ -128,3 +128,6 @@ Select the subject you're interested in, and information is filtered according t
 [Configure Customer Service analytics and insights in Customer Service Hub](configure-customer-service-analytics-insights-csh.md)  
 [View and understand Customer Service analytics and insights in Customer Service Hub](customer-service-analytics-insights-csh.md)  
 [Configure Customer Service Analytics in Power BI](configure-customer-service-analytics-dashboard.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

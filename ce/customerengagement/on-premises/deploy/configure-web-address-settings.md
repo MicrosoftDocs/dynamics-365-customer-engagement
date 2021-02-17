@@ -88,3 +88,6 @@ if($RemoveSnapInWhenDone)
  [Administer the deployment using Windows PowerShell](administer-the-deployment-using-windows-powershell.md)  </br> 
  [Get and set deployment configuration settings](update-deployment-configuration-settings.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

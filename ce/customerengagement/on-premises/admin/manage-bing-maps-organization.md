@@ -83,3 +83,6 @@ Go to the [Bing Maps licensing page](https://go.microsoft.com/fwlink/p/?linkid=3
 [!INCLUDE[cc_privacy_crm_bing_maps](../includes/cc-privacy-crm-bing-maps.md)]
   
 ### See also  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

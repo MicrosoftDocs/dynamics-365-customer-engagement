@@ -47,3 +47,5 @@ After tenant to tenant migration, the Marketing environment will be in the follo
 [Environments overview](https://docs.microsoft.com/power-platform/admin/environments-overview)<br>
 [Move configuration data across environments and organizations](https://docs.microsoft.com/power-platform/admin/manage-configuration-data)<br>
 [Import, update, and export solutions](https://docs.microsoft.com/powerapps/maker/common-data-service/import-update-export-solutions)<br>
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

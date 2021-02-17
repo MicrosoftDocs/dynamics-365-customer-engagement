@@ -61,3 +61,6 @@ After installing Field Service and the Field Service mobile app, see the followi
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

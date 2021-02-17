@@ -99,3 +99,6 @@ The content that your customer journey delivers to contacts as they traverse the
 [Create an interactive customer journey](create-interactive-customer-journey.md)  
 [Create an inbound customer journey](create-inbound-customer-journey.md)  
 [Generate activities from a customer journey](generate-activities-from-customer-journey.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

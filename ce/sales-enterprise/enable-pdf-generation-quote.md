@@ -62,3 +62,6 @@ If you're using Dynamics 365 for phones on a mobile device, you can enable the c
 ### See also
 
 [Create PDF files from sales records](create-quote-pdf.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -175,3 +175,6 @@ If ([[$Debug]]!= true) CRMGlobalManager.GetApp(“Account”);
  [Learn to use Unified Service Desk](../unified-service-desk/learn-to-use-unified-service-desk.md)   
  
  [Global Manager (Hosted Control)](../unified-service-desk/global-manager-hosted-control.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

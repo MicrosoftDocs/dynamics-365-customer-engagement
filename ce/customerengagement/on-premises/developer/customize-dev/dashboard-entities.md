@@ -29,3 +29,6 @@ The dashboard entities enable you to simultaneously present data from up to six 
  [SystemForm Entity](../entities/systemform.md)  
   
  [UserForm Entity](../entities/userform.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

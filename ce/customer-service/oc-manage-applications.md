@@ -64,3 +64,6 @@ The title of the application tab is the name of the entity. For example, dashboa
 [Manage sessions](oc-manage-sessions.md)  
 [Understand conversation states](oc-conversation-state.md)  
 [View communication panel](oc-conversation-control.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

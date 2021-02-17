@@ -85,3 +85,6 @@ Go to **Marketing** > **LinkedIn Lead Gen** > **Sync Status**, to find
 [Configure LinkedIn Lead Gen](linkedin-configuration.md)  
 [Manage customer information](manage-customer-information.md)  
 [Market to Dynamics 365 Marketing segments on LinkedIn](linkedin-matched-audience.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

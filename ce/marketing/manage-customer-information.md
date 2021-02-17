@@ -80,3 +80,6 @@ More information: [The lead lifecycle](lead-lifecycle.md)
 ## Gain insights into how contacts, accounts, and leads are interacting with your marketing initiatives
 
 Once you have Dynamics 365 Marketing installed, your instance will be begin to collect information about how each of these entities interacts with your marketing activities. The system provides a wealth of information, including analytics, KPIs, graphs, and more, to help you gain insights from your marketing results. More information: [Analyze results to gain insights from your marketing activities](insights.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -83,3 +83,6 @@ Here are the actions you can take on the products in the Products grid:
  [Create or edit an order](../sales-enterprise/create-edit-order-sales.md)  
  [Create or edit an invoice](../sales-enterprise/create-edit-invoice-sales.md)  
  [Price calculation for opportunity, quote, order, and invoice records](price-calculation-opportunity-quote-order-invoice-records.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ If you no longer want to receive messages on a Facebook page that you've configu
 
 [Channels in Omnichannel for Customer Service](channels.md)  
 [Delete solutions](delete-solution.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

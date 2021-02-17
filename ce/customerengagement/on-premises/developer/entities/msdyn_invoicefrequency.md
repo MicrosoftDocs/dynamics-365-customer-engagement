@@ -846,3 +846,5 @@ See organization Entity [organization_msdyn_invoicefrequency](organization.md#BK
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_invoicefrequency?text=msdyn_invoicefrequency EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

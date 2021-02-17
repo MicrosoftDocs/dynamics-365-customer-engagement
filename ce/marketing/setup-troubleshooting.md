@@ -282,3 +282,6 @@ For more support and help resources you can:
 - Find more [online help resources for Dynamics 365](https://docs.microsoft.com/power-platform/admin/get-help-support).
 
 If you’ve already tried to set up the application several times and are still having trouble, open a support case through your applicable Microsoft Premier channel or MPN partner channel.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

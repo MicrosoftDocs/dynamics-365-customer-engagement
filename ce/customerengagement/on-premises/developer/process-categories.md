@@ -85,3 +85,6 @@ You can include workflows and custom workflow activities in a solution that is i
 ### See also
 
 [Automate your business processes in Customer Engagement](automate-business-processes-customer-engagement.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -114,3 +114,6 @@ This section shows you how to run the actual in-place upgrade on Dynamics 365 Se
  [Administer the deployment using Windows PowerShell](administer-the-deployment-using-windows-powershell.md)   </br>
  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

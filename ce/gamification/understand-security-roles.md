@@ -65,3 +65,6 @@ To learn more about the permissions of the available security roles, refer to th
  [Overview for commissioners and game managers in Gamification](for-commissioners-game-managers.md)   
  [Overview for players and fans in Gamification](for-players-fans.md)   
  [Import players and fans and manage their security roles](manage-players-fans.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

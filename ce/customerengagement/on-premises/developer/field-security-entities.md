@@ -109,3 +109,6 @@ You use field security entities to apply field-level security, which restricts f
  [Sample: Retrieve Field Permissions](sample-retrieve-field-permissions.md)   
  [Sample: Enable Field Security For An Entity](sample-enable-field-security-entity.md)   
  [Sample: Retrieve Field Sharing Records](sample-retrieve-field-sharing-records.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

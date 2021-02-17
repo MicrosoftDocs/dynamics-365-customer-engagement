@@ -29,3 +29,6 @@ Write application code to administer your deployment and import sample data into
   
 ## Related Sections  
  [Add and Remove Sample Data](../admin/add-remove-sample-data.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

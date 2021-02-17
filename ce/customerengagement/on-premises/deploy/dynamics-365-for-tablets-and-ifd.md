@@ -30,3 +30,6 @@ manager: kvivek
  [Setup overview for mobile apps](/dynamics365/customer-engagement/mobile-app/set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets)   
  [Configure IFD for Microsoft Dynamics 365](configure-ifd-for-dynamics-365.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

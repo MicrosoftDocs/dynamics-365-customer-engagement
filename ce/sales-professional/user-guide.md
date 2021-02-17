@@ -64,3 +64,6 @@ Microsoft Learn resources</h2>
 </table>
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

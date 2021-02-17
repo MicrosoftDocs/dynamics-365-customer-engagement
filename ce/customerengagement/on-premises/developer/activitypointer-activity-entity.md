@@ -46,3 +46,6 @@ The activity pointer (activity) entity represents any activity or task that is p
 ### See also  
  [Activity Entities](activity-entities.md)   
  [ActivityPointer Entity](entities/activitypointer.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

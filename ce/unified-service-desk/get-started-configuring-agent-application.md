@@ -36,3 +36,6 @@ This section provides information on how to perform various tasks in [!INCLUDE[p
  [Learn to use Unified Service Desk](../unified-service-desk/learn-to-use-unified-service-desk.md)  
   
  [Unified Service Desk Configuration Walkthroughs](../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -164,3 +164,6 @@ An administrator can use the **Advanced Settings** page to upload the Word templ
 
 [Use document templates to create standardized documents](use-document-templates-sales-professional.md)  
 [Admin settings overview](admin-settings-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -102,3 +102,6 @@ The SDK assemblies provides you with classes that you can use to connect to Dyna
  [Tutorials for Learning About Development for Dynamics 365 Customer Engagement (on-premises)](tutorials-resources-sdk.md)   
  [Write Code for Dynamics 365 Customer Engagement 2011 and Dynamics 365 Customer Engagement (Web Services, JavaScript)](extend-dynamics-365-server.md)   
  [Introduction to Programming Models for Dynamics 365 Customer Engagement (on-premises)](programming-models.md)   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

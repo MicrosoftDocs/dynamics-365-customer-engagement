@@ -152,3 +152,6 @@ The Government community cloud links that should be accessible are as follows.
 [Agents using Unified Service Desk](../unified-service-desk/oc-usd/omnichannel-agent.md)  
 [Agents using Omnichannel for Customer Service app](omnichannel-customer-service-app-agent.md)  
 [System customizers guide](omnichannel-customizer.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

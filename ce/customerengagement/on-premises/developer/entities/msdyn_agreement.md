@@ -1902,3 +1902,5 @@ See territory Entity [msdyn_territory_msdyn_agreement_ServiceTerritory](territor
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_agreement?text=msdyn_agreement EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

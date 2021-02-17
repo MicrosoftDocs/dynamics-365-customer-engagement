@@ -29,3 +29,6 @@ Great news! A lead that you thought wasn't interested has contacted you, and it 
 ### See also  
  [Create or edit a lead](../sales-enterprise/create-edit-lead-sales.md)   
  [What if you're no longer working a lead?](../sales-enterprise/no-longer-working-lead-sales.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

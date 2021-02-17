@@ -111,3 +111,6 @@ Session indicator APIs indicate a KPI breach and can be used to update the numbe
 [What's new in Channel Integration Framework](../../whats-new-channel-integration-framework.md)
 
 [System requirements for Channel Integration Framework](../../system-requirements-channel-integration-framework.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

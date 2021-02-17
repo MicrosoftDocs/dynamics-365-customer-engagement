@@ -71,3 +71,6 @@ This topic lists explanations for each XML element and a sample XML file for ins
  [Install Microsoft Dynamics 365 Reporting Extensions](install-dynamics-365-reporting-extensions-command.md)   </br>
  [Sample Microsoft Dynamics 365 Reporting Extensions XML configuration file](sample-dynamics-365-reporting-extensions-xml-config-file.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

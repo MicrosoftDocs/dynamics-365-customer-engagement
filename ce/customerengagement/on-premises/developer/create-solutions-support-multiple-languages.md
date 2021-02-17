@@ -343,3 +343,5 @@ protected void ExecutePreValidateAccountDelete(LocalPluginContext localContext)
  [Solution entities](solution-entities.md)   
  [Localize product property values](localize-product-property-values.md)
  
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

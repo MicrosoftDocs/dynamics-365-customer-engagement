@@ -84,3 +84,6 @@ Use the Outlook Checker to run a diagnostic check and scan for potential issues 
 3. If  **Track** and **Set Regarding** options are missing, see [Track and Set Regarding options are missing in Dynamics 365 App for Outlook](https://go.microsoft.com/fwlink/p/?linkid=2137902).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -23,3 +23,6 @@ search.app:
 
 The Data Loader service has been retired. Thanks for participating in the preview.
   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

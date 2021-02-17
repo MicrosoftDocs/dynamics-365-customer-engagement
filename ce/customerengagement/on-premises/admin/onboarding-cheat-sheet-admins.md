@@ -56,3 +56,6 @@ Here are the seven steps to getting your organization on board with Dynamics 365
   
 ### See also 
  [Get detailed information about onboarding your organization and users](https://docs.microsoft.com/power-platform/admin/try-powerapps-dynamics-365)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

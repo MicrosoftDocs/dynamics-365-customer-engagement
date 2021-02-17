@@ -108,3 +108,6 @@ For example, when you set up a live chat widget or Facebook page, the quick repl
 [Create chat authentication settings](create-chat-auth-settings.md)  
 [Embed chat widget in Power Apps portals](embed-chat-widget-portal.md)  
 [Language settings for agents](https://docs.microsoft.com/powerapps/user/set-personal-options)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

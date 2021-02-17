@@ -62,3 +62,5 @@ public void Execute(IServiceProvider serviceProvider)
 [Organization entity reference](../../customerengagement/on-premises/developer/entities/organization.md)<br />
 [System user entity reference](../../customerengagement/on-premises/developer/entities/systemuser.md)<br />
 [Quote, order, and invoice entities](../../customerengagement/on-premises/developer/quote-order-invoice-entities.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

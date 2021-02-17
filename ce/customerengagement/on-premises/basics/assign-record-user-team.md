@@ -46,3 +46,6 @@ If you would like another person in your organization to handle an account or co
 4. Select **OK**
  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

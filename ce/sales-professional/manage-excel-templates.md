@@ -172,3 +172,6 @@ Here are some things you need to be aware of to create and make the best use of 
 
 [Use document templates in Dynamics 365 Sales Professional](use-document-templates-sales-professional.md)  
 [Admin settings overview](admin-settings-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

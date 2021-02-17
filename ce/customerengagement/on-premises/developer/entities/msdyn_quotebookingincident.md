@@ -1362,3 +1362,5 @@ See quote Entity [msdyn_quote_msdyn_quotebookingincident_Quote](quote.md#BKMK_ms
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_quotebookingincident?text=msdyn_quotebookingincident EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

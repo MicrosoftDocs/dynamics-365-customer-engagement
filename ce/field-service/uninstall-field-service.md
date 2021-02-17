@@ -53,3 +53,6 @@ To uninstall Field Service, administrators can go to **Settings** > **Solutions*
 | 24    | MicrosoftDynamicsScheduling_Patch_xx | Required for Project Service Automation                   |
 | 25    | MicrosoftDynamicsScheduling          | Required for Project Service Automation                   |
 | 26    | msdynce_3DViewer                     |                                                           |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

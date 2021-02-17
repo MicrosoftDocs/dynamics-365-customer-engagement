@@ -52,3 +52,6 @@ The following command will install Dynamics 365 Server:
  [Use the Command Prompt to Install Microsoft Dynamics 365](use-command-prompt-install-dynamics-365-server.md)   </br>
  [Microsoft Dynamics 365 Server XML configuration file](microsoft-dynamics-365-server-xml-configuration-file.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

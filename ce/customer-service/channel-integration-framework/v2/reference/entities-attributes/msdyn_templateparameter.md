@@ -820,3 +820,6 @@ See msdyn_applicationtabtemplate Entity [msdyn_applicationtabtemplate_templatepa
 
 [Microsoft.CIFramework APIs](../microsoft-ciframework-v2.md)<br />
 [Client-side events](../client-side-events.md)
+
+
+[!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]

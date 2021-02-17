@@ -104,3 +104,6 @@ Goal metrics let you clearly define how a goal will be measured. For example, a 
 
 [Create or edit goals](../sales-enterprise/create-edit-goal-sales.md)   
 [Define a goal rollup queries](create-edit-goal-rollup-query-sales.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

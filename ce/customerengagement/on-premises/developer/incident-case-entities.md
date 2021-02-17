@@ -61,3 +61,6 @@ In the Dynamics 365 Customer Engagement (on-premises) platform, *incident manage
  [Contract Entities](contract-entities.md)  
   
  [Knowledge Base Entities](knowledge-management-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -39,3 +39,6 @@ The [!INCLUDE[pn_field_service](../../includes/pn-field-service.md)] and Project
 
 [Universal Resource Scheduling](../schedule-anything-with-universal-resource-scheduling.md)  
     
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -82,3 +82,5 @@ You can also view the history of the adjustments that are made on a forecast, an
 
 [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)<br>
 [View a forecast](view-forecasts.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -61,3 +61,6 @@ As a Customer Service Manager or Customer Service Rep, use the [!INCLUDE[pn_crm_
 ### See also  
  [Manage activities in Dynamics 365 for phones and tablets](manage-activities.md)   
  [Use Cortana voice commands in Dynamics 365 for phones](use-cortana-voice-commands.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -105,3 +105,6 @@ What opportunities should have priority? When was the customer last contacted? W
 [!INCLUDE[cc_privacy_relationship_insights_auto_capture](../includes/cc-privacy-relationship-insights-auto-capture.md)]
 
 ### See also
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

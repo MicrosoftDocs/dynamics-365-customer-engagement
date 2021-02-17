@@ -53,3 +53,6 @@ On the dashboard, you can sort the work items by the following categories:
 - [Create a record](oc-create-record.md)
 - [Introduction to the agent interface](oc-introduction-agent-interface.md)
 - [View communication panel](oc-conversation-control.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

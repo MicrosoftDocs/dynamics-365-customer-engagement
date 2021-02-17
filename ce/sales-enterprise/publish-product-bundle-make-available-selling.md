@@ -53,3 +53,6 @@ When you're ready to sell a product or bundle, publish it to make it available t
   
 ### See also  
  [Set up a product catalog: Walkthrough](../sales-enterprise/set-up-product-catalog-walkthrough.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -136,3 +136,6 @@ Charts display data visually by mapping textual values on two axes: horizontal (
  [Visualization Data Description Schema](visualization-data-description-schema.md)   
  [Sample Charts](sample-charts.md)   
  [Chart Class (Microsoft Chart Controls)](https://msdn.microsoft.com/library/system.web.ui.datavisualization.charting.chart.aspx)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

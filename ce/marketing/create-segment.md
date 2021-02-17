@@ -85,3 +85,6 @@ In this exercise, you'll create a couple of fictional contacts with email addres
 
 [Working with segments](segmentation-lists-subscriptions.md)  
 [Design dynamic demographic or firmographic segments](segments-profile.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

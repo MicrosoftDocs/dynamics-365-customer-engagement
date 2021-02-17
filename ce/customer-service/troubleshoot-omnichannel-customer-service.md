@@ -669,3 +669,6 @@ Conversation widget becomes blank while swapping between browser tabs in Google 
 
 Upgrade your browser version as per the system requirements of Dynamics 365 Channel Integration Framework version 2.0. To learn more, see [System requirements](channel-integration-framework/v2/system-requirements-channel-integration-framework-v2.md).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

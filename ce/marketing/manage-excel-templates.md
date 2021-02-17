@@ -146,3 +146,6 @@ If you attempt to view Dynamics 365 Marketing data by using an Excel template th
 
 [Export data to Word or Excel docs](export-data-word-excel.md)  
 [Business management settings](business-management-settings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

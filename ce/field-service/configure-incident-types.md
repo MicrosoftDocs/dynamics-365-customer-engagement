@@ -402,3 +402,6 @@ Only one work order incident can be the primary incident and this is either the 
 - [Add account details to work orders](../field-service/work-order-customer-account.md)   
 - [Work order life cycle and statuses](../field-service/work-order-status-booking-status.md)  
 - [Set up service task types](../field-service/set-up-service-task-types.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

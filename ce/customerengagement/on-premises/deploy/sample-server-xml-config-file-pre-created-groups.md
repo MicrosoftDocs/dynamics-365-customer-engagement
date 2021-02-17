@@ -46,3 +46,6 @@ By default, Setup creates four [!INCLUDE[pn_Active_Directory](../includes/pn-act
  [Microsoft Dynamics 365 Server XML configuration file](microsoft-dynamics-365-server-xml-configuration-file.md)   </br>
  [Install Microsoft Dynamics 365 Server roles using the command prompt](install-using-command-prompt.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

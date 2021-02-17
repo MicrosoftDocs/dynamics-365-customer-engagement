@@ -31,3 +31,6 @@ This guide shows you how to write application code that connects to the Dynamics
  [Programming models for Dynamics 365 Customer Engagement (on-premises)](programming-models.md)  
  [Quick Start: Organization service sample (C#)](/powerapps/developer/common-data-service/org-service/quick-start-org-service-console-app)  
  [PowerApps-Samples](https://github.com/Microsoft/PowerApps-Samples)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

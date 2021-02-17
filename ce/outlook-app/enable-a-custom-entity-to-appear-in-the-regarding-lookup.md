@@ -30,3 +30,6 @@ search.app:
    
     > [!NOTE]
    > To add a custom entity, see [Filter entities and views that appear in Dynamics 365 App for Outlook](https://docs.microsoft.com/dynamics365/customer-engagement/outlook-app/filter-entities-and-views).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

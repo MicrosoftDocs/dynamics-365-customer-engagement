@@ -41,3 +41,6 @@ ms.author: matp
   
  Remove the customization or update the customization to use a supported endpoint, such as the REST endpoint. For more information about updating the [!INCLUDE[pn_Microsoft_Dynamics_CRM_4.0](../includes/pn-microsoft-dynamics-crm-4-0.md)] (2007) endpoint, see the [topic in the Microsoft Dynamics 365 Customer Engagement (on-premises) SDK](https://go.microsoft.com/fwlink/p/?LinkId=309237).
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

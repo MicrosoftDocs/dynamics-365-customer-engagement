@@ -48,3 +48,6 @@ When you update the organizations in your deployment, disabled organizations can
  [Upgrade an organization](upgrade-an-organization.md)   
  [Troubleshoot organization import and upgrade issues](troubleshoot-organization-import-and-upgrade-issues.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

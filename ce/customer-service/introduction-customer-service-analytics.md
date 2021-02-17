@@ -44,3 +44,5 @@ For more information on enabling knowledge search analytics, see Knowledge searc
 [Configure Customer Service analytics and insights](configure-customer-service-analytics-insights-csh.md) <br>
 [Configure Customer Service Analytics dashboards in Power BI](configure-customer-service-analytics-dashboard.md) <br>
 [Send a survey automatically when case is resolved](https://go.microsoft.com/fwlink/p/?linkid=2153819)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

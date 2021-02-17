@@ -104,3 +104,6 @@ To create a landing page and go live:
 [Create and deploy marketing pages](create-deploy-marketing-pages.md)  
 [How Dynamics 365 Marketing uses cookies](cookies.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

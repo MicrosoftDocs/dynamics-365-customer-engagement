@@ -62,3 +62,6 @@ With field synchronization, admins can set the sync direction between Dynamics 3
 -   Securing fields: [Enable or disable security for a field](https://technet.microsoft.com/library/mt812240.aspx)  
   
 [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Security concepts](../../admin/security-concepts.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -121,3 +121,6 @@ To configure a forecast in your organization, follow these steps:
 [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)   
 [View forecasts](view-forecasts.md)   
 [About premium forecasting](https://docs.microsoft.com/dynamics365/ai/sales/configure-premium-forecasting)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

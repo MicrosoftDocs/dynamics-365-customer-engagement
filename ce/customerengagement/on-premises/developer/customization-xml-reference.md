@@ -45,3 +45,6 @@ The customizations.xml file is one of the files included in an exported unmanage
  [Edit the Customizations file with Schema Validation](customize-dev/edit-customizations-xml-file-schema-validation.md)  
  [Customize the Ribbon for Dynamics 365 Customer Engagement (on-premises)](customize-dev/customize-commands-ribbon.md)  
  [Change Application Navigation using the SiteMap](customize-dev/change-application-navigation-using-sitemap.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

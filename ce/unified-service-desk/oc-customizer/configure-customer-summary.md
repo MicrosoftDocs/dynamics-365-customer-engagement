@@ -48,3 +48,6 @@ The steps for configuring customer summary pages in Unified Service Desk are as 
 - [Step 2: Create customer summary-related action calls](customer-summary-step2-create-action-calls.md)
 - [Step 3: Attach customer summary-related action calls to events](customer-summary-step3-attach-action-calls-events.md)
 - [Step 4: Add the hosted control, action calls, and events to configurations](customer-summary-step4-add-hosted-control-action-calls-events-configurations.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

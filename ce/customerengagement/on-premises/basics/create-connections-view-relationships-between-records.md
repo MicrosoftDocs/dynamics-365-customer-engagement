@@ -61,3 +61,6 @@ In Dynamics 365 Customer Engagement (on-premises), you can create and view the r
 3.  Select the connection you want to deactivate or delete, and then select **Deactivate** or **Delete**.  
   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

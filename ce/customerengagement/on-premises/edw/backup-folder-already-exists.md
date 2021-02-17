@@ -28,3 +28,6 @@ ms.author: matp
   
 3.  Run Setup again.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

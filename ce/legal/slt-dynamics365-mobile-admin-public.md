@@ -1137,3 +1137,6 @@ controls, and information security routines intended to protect Customer Data,
 as defined in the Security Practices and Policies section of the Agreement,
 against accidental loss, destruction, or alteration; unauthorized disclosure or
 access; or unlawful destruction.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

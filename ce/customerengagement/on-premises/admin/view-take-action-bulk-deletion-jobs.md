@@ -44,3 +44,6 @@ You can view the status of, pause, postpone, and resume a system job that you cr
 ### See also  
  [Manage your data (for admins)](../admin/manage-your-data.md)   
  [Delete bulk records](delete-bulk-records.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

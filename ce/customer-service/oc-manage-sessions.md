@@ -151,3 +151,6 @@ At all times, the **Home** session is anchored and you can't close it. The Home 
 - [Understand conversation states](oc-conversation-state.md)
 - [View communication panel](oc-conversation-control.md)
 - [View agent dashboard and conversations (work items)](oc-agent-dashboard.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

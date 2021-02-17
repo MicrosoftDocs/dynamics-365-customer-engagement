@@ -112,3 +112,6 @@ This report assumes all customer journeys to be outbound. However, you can exten
 ![Marketing to opportunity ROI report](media/Automation/Automation-OpportunityROIreport.png "Marketing to opportunity ROI report")
 
 ***Happy analytics reporting with Dynamics 365 Marketing!***
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ You can use the following [!INCLUDE[pn_crm_shortest](../../../../includes/pn-crm
 
 ### See also
  [Meet Cortana](https://go.microsoft.com/fwlink/p/?LinkID=401573)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

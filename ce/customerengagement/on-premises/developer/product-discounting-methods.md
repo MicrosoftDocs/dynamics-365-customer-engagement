@@ -49,3 +49,6 @@ Discounts can be applied either at the line item level or at per unit level. Use
  [Discount Entity](entities/discount.md)   
  [DiscountType Entity](entities/discounttype.md)   
  [Product catalog entities](product-catalog-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

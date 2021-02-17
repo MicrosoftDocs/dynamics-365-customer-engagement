@@ -276,3 +276,6 @@ Captcha elements are only available when you are working with a landing-page for
 [Create and deploy marketing pages](create-deploy-marketing-pages.md)  
 [Create, view, and manage marketing forms](marketing-forms.md)  
 [Create and manage input fields for use in forms](marketing-fields.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

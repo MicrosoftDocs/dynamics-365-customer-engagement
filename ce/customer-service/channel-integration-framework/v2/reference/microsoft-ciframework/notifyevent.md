@@ -96,3 +96,6 @@ Microsoft.CIFramework.notifyEvent(input).then(
 	}
 );
 ```
+
+
+[!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]

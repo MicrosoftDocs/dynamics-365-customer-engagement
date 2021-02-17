@@ -95,3 +95,6 @@ Entity records that include image data provide a unique experience within the ap
  [Introduction to Entities in Dynamics 365 Customer Engagement (on-premises)](introduction-entities.md)   
  [Introduction to entity attributes in Dynamics 365 Customer Engagement (on-premises)](introduction-entity-attributes.md)   
  [Sample: Set and retrieve entity images](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

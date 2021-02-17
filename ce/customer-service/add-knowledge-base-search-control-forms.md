@@ -181,3 +181,6 @@ To learn more about how to use the automatic filtering option, see [View filtere
 [Set up knowledge management using embedded knowledge search](set-up-knowledge-management-embedded-knowledge-search.md)
 
 [Understand knowledge base search mechanisms](knowledge-base-search-methods.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

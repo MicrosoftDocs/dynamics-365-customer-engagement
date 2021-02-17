@@ -65,3 +65,6 @@ This topic describes how to create Omnichannel Toast Notification hosted control
 - [Step 4: Attach Omnichannel Toast Notification-related action calls to the events](toastnotification-step4-add-action-calls-events.md)
 - [Step 5: Add the hosted control, events, and action calls to the agent and supervisor configurations](toastnotification-step5-add-hosted-controls-events-action-callsagent-supervisor-configurations.md)
 - [Configure alert notification in Unified Service Desk](configure-alert-notification-unified-service-desk.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

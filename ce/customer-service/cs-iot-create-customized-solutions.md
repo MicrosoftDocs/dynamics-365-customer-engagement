@@ -30,3 +30,6 @@ To enable the first scenario, the following capabilities are supported:
 - Send remote commands to IoT devices, for example after diagnosing a problem to correct a malfunctioning device 
 
 - Analyze incoming device data, and displaying aggregate, trend and other metrics in custom dashboards 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

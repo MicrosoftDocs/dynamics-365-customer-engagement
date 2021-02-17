@@ -175,3 +175,6 @@ Now, you've defined **Entity Record Distribution Flow** such that any case whose
 [Entity records routing](entity-channel.md)  
 [Understand and create workstreams](work-streams-introduction.md)  
 [Create workstreams for entity record routing](set-up-entity-workstream.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

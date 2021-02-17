@@ -109,3 +109,6 @@ When you run the analysis job, the following out-of-the-box rules are run. These
 
 [Troubleshoot issues in Omnichannel for Customer Service](troubleshoot-omnichannel-customer-service.md)  
 [Frequently asked questions](faqs.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

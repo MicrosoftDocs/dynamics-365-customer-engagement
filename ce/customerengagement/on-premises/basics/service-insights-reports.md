@@ -67,3 +67,6 @@ To provide better service to your customers, get a quick view of all the activit
   
  ![Exmple of an Activities Report in Dynamics 365 Customer Engagement (on-premises)](../basics/media/activities-report.png "Exmple of an Activities Report in Dynamics 365 Customer Engagement (on-premises)")  
  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

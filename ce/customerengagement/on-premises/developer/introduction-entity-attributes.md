@@ -175,3 +175,6 @@ Entities include a set of attributes that represent the data that can be include
  [Calculated and Rollup Attributes](calculated-rollup-attributes.md)   
  [Sample: Retrieve Valid Status Transitions](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/RetrieveValidTransitions)   
  [Sample: Set and retrieve entity images](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/SetRetrieveImages)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

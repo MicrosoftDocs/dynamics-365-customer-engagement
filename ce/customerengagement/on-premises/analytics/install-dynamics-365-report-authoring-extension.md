@@ -61,3 +61,6 @@ caps.latest.revision: 37
 ## See Also  
  [Create a new report using SQL Server Data Tools](create-a-new-report-using-sql-server-data-tools.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

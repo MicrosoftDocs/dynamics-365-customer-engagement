@@ -211,3 +211,6 @@ Perform the following steps in Power Automate to manually map a contact:
 
 [Create and manage queues](set-up-queues-manage-activities-cases.md)  
 [Create rules to automatically route cases](create-rules-automatically-route-cases.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

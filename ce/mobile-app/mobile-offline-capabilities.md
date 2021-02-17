@@ -161,3 +161,6 @@ Ensure that you have configured at least one of the Profile rules for each entit
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -50,3 +50,6 @@ You can link the custom attributes created for the `RecurringAppointmentMaster` 
  [RecurringAppointmentMaster Entity](entities/recurringappointmentmaster.md)   
  [Sample: Link Custom Attributes between Series and Instances](sample-link-custom-attributes-between-series-instances.md)   
  [Customize Entity Attribute Metadata](customize-entity-attribute-metadata.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

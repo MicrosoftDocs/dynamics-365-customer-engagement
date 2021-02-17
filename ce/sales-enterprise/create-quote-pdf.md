@@ -193,3 +193,6 @@ You can also generate a PDF file and directly email it to a customer.
 ### See also
 
 [Enable or disable PDF generation from sales records](enable-pdf-generation-quote.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

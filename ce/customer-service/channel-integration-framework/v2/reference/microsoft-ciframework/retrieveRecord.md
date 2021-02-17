@@ -19,3 +19,6 @@ applies_to:
 [!INCLUDE[retrieveRecord](includes/retrieveRecord-description.md)] 
 
 [!INCLUDE[token-retrieveRecord](../../../shared/token-retrieveRecord.md)]
+
+
+[!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]

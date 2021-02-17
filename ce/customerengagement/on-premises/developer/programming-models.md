@@ -78,3 +78,6 @@ The following diagram illustrates the key programmability scenarios for Dynamics
 [Tutorials and resources](tutorials-resources-sdk.md)<br />
 [Best practices](best-practices-sdk.md)<br />
 [Developer tools](developer-tools.md)<br/>
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
