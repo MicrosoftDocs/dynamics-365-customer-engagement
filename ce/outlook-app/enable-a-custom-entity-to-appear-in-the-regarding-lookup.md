@@ -56,8 +56,8 @@ Most out-of-box (OOB) tables have activities enabled by default, which cannot be
    > [!div class="mx-imgBorder"]
    >![Communication and collaboration activity enabled](media/enable-activity-for-table.png "Communication and collaboration activity enabled")
    
-> [!IMPORTANT]
-> Once enabled this setting can't be disabled. If prompted, select **Okay** to confirm.
+  > [!IMPORTANT]
+  > Once enabled this setting can't be disabled. If prompted, select **Okay** to confirm.
    
 6.  Select **Save Table** > and then publish the table.
 
