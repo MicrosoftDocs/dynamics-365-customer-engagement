@@ -214,14 +214,9 @@ The linked knowledge article subgrid that you just added will be visible to the 
 
 ### See also  
 
-<<<<<<< HEAD
 [Reduce call handling times with Knowledge articles in the Customer Service Hub](customer-service-hub-user-guide-knowledge-article.md)  
 [Set up knowledge management using embedded knowledge search](set-up-knowledge-management-embedded-knowledge-search.md)  
 [Understand knowledge base search mechanisms](knowledge-base-search-methods.md)  
-[Linked Knowledge Article subgrid](search-knowledge-articles-csh.md)
-=======
-[Understand knowledge base search mechanisms](knowledge-base-search-methods.md)
-
+[Linked knowledge article subgrid](search-knowledge-articles-csh.md#linked-knowledge-article-subgrid)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
->>>>>>> 9f53cfb607cfc231689be867ea6d271e0c97a333
