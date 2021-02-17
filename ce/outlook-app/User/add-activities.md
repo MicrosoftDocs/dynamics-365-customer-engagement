@@ -1,6 +1,6 @@
 ---
-title: "Add a phone call, appointment, or task activity in your app using App for Outook (Dynamics 365 apps) | MicrosoftDocs"
-description: How to add a phone call, appointment, or task activity in your app using App for Outlook
+title: "Add a phone call, appointment, or task activity for a row using App for Outlook (Dynamics 365 apps) | MicrosoftDocs"
+description: How to add a phone call, appointment, or task activity for a row using App for Outlook
 ms.custom: 
 ms.date: 02/17/2021
 ms.reviewer: 
@@ -22,11 +22,11 @@ search.app:
   - D365Outlook
 ---
 
-# Add a phone call, appointment, or task activity to a tracked row in App for Outlook
+# Add a phone call, appointment, or task activity to a tracked row in Dynamics 365 App for Outlook
 
-When a row is tracked it's easy to add activities to the record.
+Use Dynamics 365 App for Outlook to track a row and add add activities such as a phone call, appointment, task, and more.
 
-1. Open the Dynamics 365 pane, and select an item in your email that you are tracking in your customer engagement apps (such as Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing, and Dynamics 365 Project Service Automation) using Dynamics 365 App for Outlook.
+1. Open the Dynamics 365 pane, and select an item in your email which you're tracking using App for Outlook.
 
 2. Select **More commands** ![Select more commands button](../media/more-command-button-appforoutlook.png) and then select **Add Activity**.
 
