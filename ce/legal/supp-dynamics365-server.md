@@ -44,4 +44,3 @@ of the Online Services Terms to all customers effective May 25, 2018, at
 <https://go.microsoft.com/?linkid=9840733>.
 
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

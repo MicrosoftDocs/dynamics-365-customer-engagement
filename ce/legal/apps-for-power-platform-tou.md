@@ -193,4 +193,3 @@ for any losses; or**
 damages.**
 
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
