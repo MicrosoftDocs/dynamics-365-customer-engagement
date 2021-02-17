@@ -46,3 +46,6 @@ If this is an **error**, the following information applies.
   
  We strongly recommend that you specify a user account that is not also used for another service, is not a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] user, or is not the user who is running Setup.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -67,3 +67,6 @@ Report navigation enables a dynamic and interactive reporting experience. By usi
 ### See also  
  [Reporting and Analytics Guide](../analytics/reporting-analytics-with-dynamics-365.md)   
  [Categorize and Display Reports in Different Languages](../analytics/categorize-display-reports-different-languages.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

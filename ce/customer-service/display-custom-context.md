@@ -22,3 +22,6 @@ For more information, see [setContextProvider method](developer/reference/method
 
 [Manage custom context](send-context-starting-chat.md)<br />
 [setContextProvider](developer/reference/methods/setContextProvider.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

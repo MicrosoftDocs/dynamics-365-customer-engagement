@@ -347,3 +347,6 @@ Bug Fixes:
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service mobile 2017 app download example](media/mobile-field-service-mobile-2017-windows-app-store.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

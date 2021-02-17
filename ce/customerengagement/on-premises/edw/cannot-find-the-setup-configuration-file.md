@@ -22,3 +22,6 @@ ms.author: matp
   
  Make sure the Setup configuration file exists and is in the location specified. <!-- For information about the Setup configuration file, see [Microsoft Dynamics 365 Server XML configuration file](../on-premises/microsoft-dynamics-365-server-xml-configuration-file.md). -->
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

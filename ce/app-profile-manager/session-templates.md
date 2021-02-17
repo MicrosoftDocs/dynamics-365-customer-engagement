@@ -90,3 +90,6 @@ The session template is configured. Now, you must associate the session template
 [Manage application tab templates](application-tab-templates.md)  
 [Manage notification templates](notification-templates.md)  
 [Associate templates with work streams](associate-templates.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

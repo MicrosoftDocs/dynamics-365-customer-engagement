@@ -32,3 +32,6 @@ Most types of customizations require you to work in the **Power Apps** customiza
     ![The Power Apps customization window](media/calendar-powerapps.png "The Power Apps customization window")
 
 For complete details about how to customize model-driven apps in Dynamics 365, see the [Power Apps documentation](https://docs.microsoft.com/powerapps/#pivot=home&panel=getstarted).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

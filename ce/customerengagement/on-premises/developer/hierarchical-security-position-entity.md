@@ -27,3 +27,6 @@ In [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)], hi
  [Administration and security entities](administration-security-entities.md)   
  [Position Entity](entities/position.md)   
  [How hierarchical security can be used to control access to entities in Dynamics 365 Customer Engagement (on-premises)](security-dev/hierarchical-security-control-access-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

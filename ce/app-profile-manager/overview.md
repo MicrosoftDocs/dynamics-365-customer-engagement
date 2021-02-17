@@ -96,3 +96,6 @@ When you upgrade your existing environments, the settings for templates, product
 
 [Create app profiles](app-profile-manager.md)  
 [System requirements](../customer-service/customer-service-workspace-system-requirements.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

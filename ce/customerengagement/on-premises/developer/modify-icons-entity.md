@@ -52,3 +52,6 @@ When you create a new entity, default icons are provided. You can change the ico
 ### See also  
  [Customize Entity Metadata](customize-entity-metadata.md)   
  [Modify Entity Messages](modify-messages-entity.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

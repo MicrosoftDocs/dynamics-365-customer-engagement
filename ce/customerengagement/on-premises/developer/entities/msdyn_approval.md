@@ -2642,3 +2642,5 @@ See msdyn_workorderservicetask Entity [msdyn_workorderservicetask_msdyn_approval
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_approval?text=msdyn_approval EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

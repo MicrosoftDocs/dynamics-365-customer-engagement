@@ -31,3 +31,6 @@ Creating a new panel type is considered an advanced topic, and only those intima
  [Panels, panel types, and panel layouts in Unified Service Desk](../unified-service-desk/panels-panel-types-panel-layouts.md)   
  [Move hosted controls between panels at runtime](../unified-service-desk/move-hosted-controls-between-panels-runtime.md)   
  [Create custom panel layout in Unified Service Desk](../unified-service-desk/create-custom-panel-layout.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

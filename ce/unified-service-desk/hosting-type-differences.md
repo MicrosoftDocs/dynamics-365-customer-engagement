@@ -36,3 +36,6 @@ This topic demonstrates the differences between the Chrome Process and IE Proces
 
 [Use IE Process to host web applications](ie-process.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

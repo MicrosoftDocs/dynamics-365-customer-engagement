@@ -818,3 +818,6 @@ Same as msdyn_macroactiontemplate entity [msdyn_msdyn_macroconnector_msdyn_macro
 
 [Introduction to Omnichannel for Customer Service](../../../introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

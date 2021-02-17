@@ -74,3 +74,6 @@ In [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], you use leads 
   
 ### See also  
 [Print quote, invoice, or other records](print-records.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

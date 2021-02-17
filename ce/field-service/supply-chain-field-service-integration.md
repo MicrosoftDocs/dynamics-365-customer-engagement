@@ -107,3 +107,6 @@ As the last part of the process, a purchase order is created in Field Service wi
 - [Pricing in Dynamics 365 Field Service](https://docs.microsoft.com/dynamics365/field-service/create-price-list) 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

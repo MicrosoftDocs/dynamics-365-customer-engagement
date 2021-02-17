@@ -35,3 +35,6 @@ ms.author: matp
   
  If this is a warning, you can ignore this message and installation of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] should complete successfully. However, all data in the existing database that has the specified name will be lost.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

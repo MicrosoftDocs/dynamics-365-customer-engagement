@@ -292,3 +292,6 @@ Yes, custom fields of all types are available to use offline. For lookup fields,
 [Basic navigation on Dynamics 365 for phones and tablets](../mobile-app/user-guide-mobile-app.md)
 
 [Help resources for salespeople](user-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

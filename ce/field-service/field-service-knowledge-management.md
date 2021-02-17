@@ -128,3 +128,6 @@ Knowledge articles are downloaded and available offline; however, images and vid
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

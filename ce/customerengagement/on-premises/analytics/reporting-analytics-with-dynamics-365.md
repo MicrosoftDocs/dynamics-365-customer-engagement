@@ -59,3 +59,6 @@ Customer Engagement (on-premises) includes a Report Wizard that can be used to e
 - Use [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] and [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)] together.  
   
 -->
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

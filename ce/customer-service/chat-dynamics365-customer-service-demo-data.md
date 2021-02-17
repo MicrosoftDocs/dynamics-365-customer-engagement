@@ -230,3 +230,6 @@ A high-level overview of the Chat for Dynamics 365 Customer Service demo data is
 ### See also
 
 [Try channels in Omnichannel for Customer Service](https://docs.microsoft.com/dynamics365/omnichannel/try-channels)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

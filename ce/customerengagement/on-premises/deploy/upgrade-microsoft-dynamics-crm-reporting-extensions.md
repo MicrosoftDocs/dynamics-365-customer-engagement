@@ -40,3 +40,6 @@ Dynamics 365 Reporting Extensions aren’t supported for in-place upgrade. To up
  [After the upgrade](after-the-upgrade.md)   
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

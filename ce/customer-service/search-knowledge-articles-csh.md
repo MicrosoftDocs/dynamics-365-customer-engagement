@@ -337,4 +337,9 @@ To set up the feedback control, see [Enable feedback control](set-up-knowledge-m
 
 [Set up a search provider in Customer Service Hub](set-up-search-providers.md)
 
+<<<<<<< HEAD
 [Add a Knowledge Article Subgrid to a form](add-knowledge-base-search-control-forms.md)
+=======
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
+>>>>>>> 9f53cfb607cfc231689be867ea6d271e0c97a333

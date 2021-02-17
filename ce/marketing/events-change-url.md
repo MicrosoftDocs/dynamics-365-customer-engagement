@@ -90,3 +90,5 @@ You can update the URLs for many events at the same time, but you'll still need 
 ### See also
 
 [Set up the event website](set-up-event-portal.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -24,3 +24,6 @@ ms.author: matp
   
  This is a warning message and the import operation can continue. However, after the import of the organization is complete, we recommend that you reapply the updates, which might have been applied to the deployment. Doing this makes sure that the organization has the same level of update as the deployment.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

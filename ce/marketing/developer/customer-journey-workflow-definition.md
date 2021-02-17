@@ -203,3 +203,6 @@ The following shows how the preceding example is represented in a customer journ
 
 [Extend customer journey using API](basic-operations-on-customer-journey.md)<br />
 [Extend customer journey using code](extend-customer-journey-using-code.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

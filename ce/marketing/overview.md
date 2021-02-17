@@ -252,3 +252,5 @@ Use the Microsoft Dynamics 365 Connector for LinkedIn Lead Gen Forms to automati
 LinkedIn integration relies on the Lead Gen Forms capability of LinkedIn to capture leads. This is a paid LinkedIn service, which you must subscribe to enable the integration.
 
 More information: [LinkedIn Lead Gen integration](linkedin-lead-gen-integration.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

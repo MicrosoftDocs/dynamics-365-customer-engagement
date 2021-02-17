@@ -43,3 +43,6 @@ You can also choose the view that will be used for exporting. If you don’t cho
 
 [Import data](import-data.md)   
 [Admin settings overview](admin-settings-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

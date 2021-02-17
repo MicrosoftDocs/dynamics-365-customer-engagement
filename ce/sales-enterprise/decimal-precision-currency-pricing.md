@@ -91,3 +91,6 @@ To apply this precision setting to any of the currency field in the system, go t
 [Define product pricing with price lists and price list items](create-price-lists-price-list-items-define-pricing-products.md)  
 [Manage transactions with multiple currencies](/power-platform/admin/manage-transactions-with-multiple-currencies)  
 [Troubleshooting the Product entity](ts-products.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -81,3 +81,6 @@ To resolve any issues with the SLA during holidays, see [SLA timer does not paus
 
  [Create a customer service schedule and define the work hours](../customer-service/create-customer-service-schedule-define-work-hours.md)  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

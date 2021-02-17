@@ -46,3 +46,6 @@ manager: kvivek
  [Install Microsoft Dynamics 365 for Outlook using a command prompt](../../../outlook-addin/admin-guide/install-using-command-prompt.md) </br>
  [Microsoft Dynamics 365 Reporting Extensions XML configuration file](dynamics-365-reporting-extensions-xml-config-file.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

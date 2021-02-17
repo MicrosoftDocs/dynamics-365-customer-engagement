@@ -42,3 +42,6 @@ Saved queries are business entities that define the parameters and criteria of a
  [UserQuery Entity](entities/userquery.md)
  [Building Queries with QueryExpression](org-service/build-queries-with-queryexpression.md)   
  [Fetch XML Schema](org-service/fetchxml-schema.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

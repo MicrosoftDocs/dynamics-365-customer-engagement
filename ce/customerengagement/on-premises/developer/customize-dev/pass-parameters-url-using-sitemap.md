@@ -55,3 +55,6 @@ https://myserver/mypage.aspx?orgname=AdventureWorksCycle&userlcid=1033&orglcid=1
 ### See also  
  [Change Application Navigation using the SiteMap](change-application-navigation-using-sitemap.md)    
  [SiteMap schema](sitemap-schema.md)  
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

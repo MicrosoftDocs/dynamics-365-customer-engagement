@@ -37,3 +37,6 @@ To view more videos on Omnichannel for Customer Service, see [Videos](videos.md)
 
 [Agents using Unified Service Desk](../unified-service-desk/oc-usd/omnichannel-agent.md)  
 [Agents using Omnichannel for Customer Service app](omnichannel-customer-service-app-agent.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -314,3 +314,6 @@ To learn more, see [Client caching overview](https://docs.microsoft.com/dynamics
 [Introduction to intraday insights](intro-intraday-insights-dashboard.md)
 
 [Customize KPIs for intraday insights](customize-kpis-intraday-insights.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

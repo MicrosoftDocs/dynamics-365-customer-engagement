@@ -191,3 +191,6 @@ The configuration layout defines the behavior of the element that you open to pe
 [Overview of configuring agent application](../../unified-service-desk/configure-agent-application-unified-service-desk.md)  
   
 [Extend Unified Service Desk](../../unified-service-desk/extend-unified-service-desk.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

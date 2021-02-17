@@ -33,3 +33,6 @@ The following illustration provides a high-level overview of the operation flow 
 [Workflows overview](../../customize/workflow-processes.md)  
 [Write plug-ins to extend business processes](/powerapps/developer/common-data-service/plug-ins)  
 [Web resources in model-driven apps](/powerapps/developer/model-driven-apps/web-resources)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

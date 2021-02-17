@@ -132,3 +132,6 @@ Any reminders and insights related to the meeting are displayed in the Reminders
 [Use the Dynamics 365 Sales mobile app](use-sales-mobile-app.md)    
 [Manage contacts](create-contact.md)   
 [Manage records](open-record.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

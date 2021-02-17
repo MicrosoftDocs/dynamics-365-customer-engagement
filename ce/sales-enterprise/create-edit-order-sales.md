@@ -109,3 +109,6 @@ meaningful and unique. By default, these records are sorted by Name in the recor
 ### See also  
 [Print quote, invoice, or other records](print-records.md)  
 [Sales transactions in Dynamics 365 Sales](sales-transactions.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

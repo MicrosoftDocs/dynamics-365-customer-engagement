@@ -25,3 +25,6 @@ To associate the templates in your scenarios, you must use the `templateName` pa
 [Manage notification templates](notification-templates-cif.md)
 
 [Use automation dictionary to pass data parameter keys](automation-dictionary-keys-cif.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

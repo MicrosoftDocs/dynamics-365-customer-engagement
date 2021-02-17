@@ -108,3 +108,6 @@ The following are entities that are currently read-only in Unified Interface:
 - Case Resolution
 - Service
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

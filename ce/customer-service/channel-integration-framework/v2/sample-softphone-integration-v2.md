@@ -106,3 +106,6 @@ ms.custom:
 ## See also
 
 [Get Dynamics 365 Channel Integration Framework](get-channel-integration-framework.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

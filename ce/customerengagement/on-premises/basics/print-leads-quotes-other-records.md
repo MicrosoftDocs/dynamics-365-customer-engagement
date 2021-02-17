@@ -55,3 +55,6 @@ When you need a paper copy of a record such as a contact, lead, quote, or invoic
   
 
  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

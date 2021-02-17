@@ -115,3 +115,6 @@ If you've properly configured CRM sync and activity writeback, the Smart Links a
 ### See also
 
 [Troubleshooting LinkedIn integration errors](ts-linkedin-integration.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

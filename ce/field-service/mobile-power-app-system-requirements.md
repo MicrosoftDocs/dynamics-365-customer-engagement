@@ -42,3 +42,5 @@ Currently, the Field Service (Dynamics 365) mobile app is supported on the follo
 
 > [!NOTE]
 > An important consideration before deploying the Field Service (Dynamics 365) mobile app is the hardware specification of the  device used, such as memory and processor. Modifying the app with enhancements such as custom configurations and offline javascript may place additional requirements on system memory and processor. Other factors, such as the amount of applications running on the device may also affect app performance.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

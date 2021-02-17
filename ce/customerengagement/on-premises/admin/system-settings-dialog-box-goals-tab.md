@@ -46,3 +46,6 @@ Set the duration and frequency of the automatic rollup of goals. These settings 
 ### See also  
  [Administrator and Sales Manager Guide](../../../sales-enterprise/admin-guide.md)  
  [Progress Against Goals report](../basics/sales-insights-reports.md#BKMK_ProgressGoals)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

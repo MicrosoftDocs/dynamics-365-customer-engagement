@@ -918,3 +918,5 @@ See product Entity [msdyn_product_msdyn_fieldcomputation_ProductId](product.md#B
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_fieldcomputation?text=msdyn_fieldcomputation EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

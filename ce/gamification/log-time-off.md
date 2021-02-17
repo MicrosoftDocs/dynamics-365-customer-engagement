@@ -48,3 +48,6 @@ Select each game period where you believe that your absence will impact your per
 
  [Overview for players and fans in Gamification](for-players-fans.md)   
  [Draft and manage your fantasy teams in Gamification](manage-fantasy-team.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

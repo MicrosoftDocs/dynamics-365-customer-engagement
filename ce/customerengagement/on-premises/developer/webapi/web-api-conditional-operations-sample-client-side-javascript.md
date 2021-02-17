@@ -437,3 +437,6 @@ Sdk.startSample = function () {
  [Web API Basic Operations Sample (Client-side JavaScript)](web-api-basic-operations-sample-client-side-javascript.md)   
  [Web API Query Data Sample (Client-side JavaScript)](web-api-query-data-sample-client-side-javascript.md)   
  [Web API Functions and Actions Sample (Client-side JavaScript)](web-api-functions-actions-sample-client-side-javascript.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

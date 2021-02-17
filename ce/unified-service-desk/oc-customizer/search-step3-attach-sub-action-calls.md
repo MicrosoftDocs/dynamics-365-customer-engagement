@@ -75,3 +75,6 @@ This topic describes how to attach a action call as sub-action call to another a
 - [Step 5: Configure window navigation rule for search](search-step5-configure-window-navigation-rule.md)
 - [Step 6: Create toolbar buttons for search](search-step6-create-toolbar-button.md)
 - [Step 7: Add hosted control, action calls, window navigation rule, and events to configurations](search-step7-add-hosted-control-action-calls-events-configurations.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

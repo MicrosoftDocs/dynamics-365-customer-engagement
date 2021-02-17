@@ -40,3 +40,6 @@ search.app:
 ### See also  
  [Pin your favorites in Dynamics 365 for phones and tablets](pin-favorites.md)   
  [Search and sort in Dynamics 365 for phones and tablets](search-sort.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

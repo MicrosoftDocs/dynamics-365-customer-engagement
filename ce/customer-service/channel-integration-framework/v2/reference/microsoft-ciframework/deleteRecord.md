@@ -19,3 +19,6 @@ applies_to:
 [!INCLUDE[deleteRecord](includes/deleteRecord-description.md)]
 
 [!INCLUDE[token-deleteRecord](../../../shared/token-deleteRecord.md)]
+
+
+[!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]

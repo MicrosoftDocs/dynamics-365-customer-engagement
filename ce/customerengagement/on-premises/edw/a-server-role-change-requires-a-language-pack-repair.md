@@ -21,3 +21,6 @@ ms.author: matp
   
  In **Settings** > **Apps and Features**, run a repair of the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] Language Packs that are installed. <!-- For steps, see [Uninstall or repair a Dynamics 365 for Customer Engagement Language Pack](../on-premises/uninstall-repair-dynamics-365-language-pack.md). -->
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

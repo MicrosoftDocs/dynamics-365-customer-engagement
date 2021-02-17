@@ -87,3 +87,6 @@ As a system administrator and system customizer, you can customize the views thr
 ### See also  
 [Get started with customization](../customize/getting-started-customization.md)     
 [Create and design forms](../customize/create-design-forms.md)   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

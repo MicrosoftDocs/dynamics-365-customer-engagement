@@ -133,3 +133,6 @@ entitytypename=incident
  [Unified Interface KM Control (Hosted Control)](../unified-service-desk/unified-interface-km-control-hosted-control.md)
 
  [Walkthrough 8: Use knowledge within your agent application](../unified-service-desk/walkthrough-8-use-dynamics-365-knowledge-base-within-agent-application.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

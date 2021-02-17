@@ -263,3 +263,6 @@ Background sync will be disabled if:
 
  Note that offline synchronization is not supported by on-premises deployments.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

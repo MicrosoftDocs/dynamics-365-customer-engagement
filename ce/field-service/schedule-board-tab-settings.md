@@ -21,3 +21,6 @@ search.app:
 # Schedule board tab settings in Dynamics 365 Field Service
 
 [!INCLUDE[topic-urs-schedule-board-tab-settings.md](../shared/urs/schedule-board-tab-settings.md)]
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

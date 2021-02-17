@@ -28,3 +28,6 @@ search.app:
 > The event website typically lists the sponsors of each event, where they are shown using a name and logo. For details about how to add logos to your event sponsors, see [Configure website graphics and registration options](set-up-event-portal.md#website-graphics-options).
 
 You can also set up *Sponsorable articles*, which are items that are visibly present at the event, and feature a sponsor's logo or message. These typically include small freebies given away to event attendees, but could also be some type of infrastructure or facility provided to event-goers. Go to **Events** > **Sponsorship Management** > **Sponsorable articles** to view, edit, and create these records. Each sponsorable article record must relate to a parent sponsorship record (which identifies the sponsoring company and the event) and include price and quantity information.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

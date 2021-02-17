@@ -65,3 +65,6 @@ The Unified Service Desk Performance Analyzer supports Unified Service Desk 4.0 
 [Generate performance report](generate-performance-report.md)
 
 [Overview of performance report user interface](overview-performance-report-user-interface.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

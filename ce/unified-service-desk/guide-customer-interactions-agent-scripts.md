@@ -46,3 +46,6 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
  [Replacement parameters](../unified-service-desk/replacement-parameters.md)   
  [UII Computer Telephony Integration (CTI) framework](../unified-service-desk/uii-computer-telephony-integration-cti-framework.md)   
  [Walkthrough 7: Configure agent scripting in your agent application](../unified-service-desk/walkthrough-configure-agent-scripting-agent-application.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

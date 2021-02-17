@@ -74,3 +74,6 @@ Perform the following steps to create a presence record:
 [Manage a user in Omnichannel for Customer Service](users-user-profiles.md#manage-a-user-in-omnichannel-for-customer-service)  
 [Understand and create work streams](work-streams-introduction.md)  
 [Understand unified routing and work distribution](unified-routing-work-distribution.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

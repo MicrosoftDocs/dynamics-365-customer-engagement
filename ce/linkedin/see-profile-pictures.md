@@ -36,3 +36,6 @@ If you are unable to see the profile picture in custom forms, perform the steps 
 ### See also
 
 [Install and enable LinkedIn Sales Navigator](install-sales-navigator.md)    
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

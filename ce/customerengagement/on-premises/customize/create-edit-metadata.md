@@ -141,3 +141,6 @@ You can perform the following actions:
  [Create and edit entity relationships](../customize/create-edit-entity-relationships.md)   
  [Create and edit fields](../customize/create-edit-fields.md) <br/>      
  [Create and design forms](../customize/create-design-forms.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

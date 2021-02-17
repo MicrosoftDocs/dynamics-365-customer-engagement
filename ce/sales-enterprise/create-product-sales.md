@@ -84,3 +84,6 @@ Products are the backbone of your business. They can be physical products or ser
  [Set up a product catalog](../sales-enterprise/set-up-product-catalog-walkthrough.md)  
  [Manage sales literature](create-sales-literature.md)<br>
  [Change the parent of a product (reparenting)](change-product-parent.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

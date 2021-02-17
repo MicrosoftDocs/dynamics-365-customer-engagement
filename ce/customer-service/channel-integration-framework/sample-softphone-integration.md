@@ -106,3 +106,6 @@ A valid Azure subscription is required to publish the sample app to Azure.
 [Client-side events](reference/client-side-events.md)
 
 [Entity reference](reference/entities-attributes/msdyn-ciprovider.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

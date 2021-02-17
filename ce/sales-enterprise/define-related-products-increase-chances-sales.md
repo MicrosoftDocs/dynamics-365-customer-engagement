@@ -68,3 +68,6 @@ Improve your opportunities to increase sales by adding related products as sugge
   
 ### See also  
  [Create a product family](../sales-enterprise/create-product-family.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

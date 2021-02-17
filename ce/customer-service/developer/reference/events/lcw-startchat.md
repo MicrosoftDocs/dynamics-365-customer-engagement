@@ -30,3 +30,6 @@ window.addEventListener("lcw:startChat", function handleLivechatStartedEvent(){
 [lcw:ready](lcw-ready.md)<br />
 [lcw:error](lcw-error.md)<br />
 [Live chat SDK JavaScript API reference](../../omnichannel-reference.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

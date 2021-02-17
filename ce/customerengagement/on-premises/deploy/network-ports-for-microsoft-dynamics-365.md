@@ -80,3 +80,6 @@ This section describes the ports that are used for [!INCLUDE[pn_microsoftcrm](..
 [Security considerations for Microsoft Dynamics 365](security-considerations-for-microsoft-dynamics-365.md) 
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

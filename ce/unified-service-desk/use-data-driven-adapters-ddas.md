@@ -162,3 +162,6 @@ if (action.Name == "AddToHistory")
   
 ### See also  
  [Work with HAT Software Factory](../unified-service-desk/work-with-hat-software-factory.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

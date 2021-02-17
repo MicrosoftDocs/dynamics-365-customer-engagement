@@ -68,3 +68,5 @@ By default, the views show data from two columns (fields): **Product name** and 
 [Choose and configure columns in model-driven app views](/powerapps/maker/model-driven-apps/choose-and-configure-columns)  
 [Preview: Enable the enhanced experience of adding products](enable-enhanced-add-product-experience.md)  
 [Customize the Add Products dialog box](customize-add-products-dialog-box.md)  
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

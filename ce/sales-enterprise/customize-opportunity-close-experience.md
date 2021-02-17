@@ -132,3 +132,6 @@ After completing the steps in this section, follow the steps in the sections [Cr
 ### See also
 [Close opportunity as won or lost](close-opportunity-won-lost-sales.md)  
 [Enable customization of the Opportunity Close form](enable-opportunity-close-customization.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

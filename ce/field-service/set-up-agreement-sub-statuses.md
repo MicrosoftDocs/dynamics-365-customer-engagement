@@ -29,3 +29,6 @@ Set up agreement substatuses in [!INCLUDE[pn_dyn_365_field_service](../includes/
  [Set up customer agreements](../field-service/set-up-customer-agreements.md)   
  [Set up tax codes](../field-service/set-up-tax-codes.md)   
  [User's Guide](../field-service/user-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

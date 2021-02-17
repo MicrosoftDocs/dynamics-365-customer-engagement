@@ -1892,3 +1892,5 @@ See systemuser Entity [workflow_modifiedonbehalfby](systemuser.md#BKMK_workflow_
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.workflow?text=workflow EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

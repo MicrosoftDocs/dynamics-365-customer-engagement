@@ -75,3 +75,6 @@ Solution publishers may ask you to export your existing unmanaged customizations
 ### See also
 
 [Distribute solutions and patches](use-segmented-solutions-patches-simplify-updates.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

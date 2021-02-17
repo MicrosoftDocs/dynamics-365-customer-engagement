@@ -42,3 +42,6 @@ ms.author: matp
   
 5.  As a best practice, save the text file that contains the encryption key on a computer in a secure location on an encrypted hard disk.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

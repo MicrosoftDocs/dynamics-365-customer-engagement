@@ -64,3 +64,6 @@ search.audienceType:
  [Sample code directory](sample-code-directory.md)  
   
  [Programming Reference](programming-reference.md)  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

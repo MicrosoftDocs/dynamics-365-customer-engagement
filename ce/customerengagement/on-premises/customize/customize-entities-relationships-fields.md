@@ -31,3 +31,6 @@ This section describes how to create and customize entities, entity relationship
 ### See also
 [Create or edit entities (record types)](create-edit-entities.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

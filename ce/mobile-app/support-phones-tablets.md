@@ -153,3 +153,6 @@ When the application first loads after installation, it will determine the devic
 ### See also  
  [Set up and manage tablets and phones](set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md)   
  [Web application requirements for Dynamics 365 apps](../admin/web-application-requirements.md)   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

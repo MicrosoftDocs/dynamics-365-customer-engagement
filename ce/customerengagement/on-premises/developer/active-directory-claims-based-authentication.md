@@ -150,3 +150,6 @@ _serviceProxy.EnableProxyTypes()
  [Connect with Microsoft Office 365 and Dynamics 365 Customer Engagement (on-premises)](connect-microsoft-office-365.md)   
  [Implement Single Sign-on from an ASPX Webpage or IFRAME](implement-single-sign-aspx-webpage-iframe.md)   
  [Sample: Authenticate Users with Dynamics 365 Customer Engagement Web Services](sample-authenticate-users-web-services.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

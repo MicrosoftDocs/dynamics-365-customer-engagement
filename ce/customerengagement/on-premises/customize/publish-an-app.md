@@ -39,3 +39,6 @@ Publish an app to make it available to users.
   
 ### See also  
  [Validate an app](../customize/validate-app.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -153,3 +153,6 @@ The out-of-the-box application tab templates are as follows:
 [Manage session templates](session-templates.md)  
 [Manage notification templates](notification-templates.md)  
 [Associate templates with workstreams](associate-templates.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

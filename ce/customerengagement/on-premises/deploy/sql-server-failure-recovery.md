@@ -44,3 +44,6 @@ If the computer that is running [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sq
  [Failure Recovery](microsoft-dynamics-365-failure-recovery.md)  </br> 
  [Microsoft Dynamics 365 Server failure](microsoft-dynamics-365-server-failure-recovery.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

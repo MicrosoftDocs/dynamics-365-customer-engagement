@@ -205,3 +205,6 @@ You can use keyboard shortcuts when viewing the schedule board in the list view,
 [Create a work order](../field-service/create-work-order.md)   
 [Submit and approve time-off requests](../field-service/submit-approve-time-off-requests.md)   
 [Schedule a work order](../field-service/schedule-work-order.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

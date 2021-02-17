@@ -101,3 +101,6 @@ If you add a composite field to a quick create form, it will be displayed as sep
 ### See also  
  [Create and design forms](../customize/create-design-forms.md)</br>
  [Create and edit quick view forms](../customize/create-edit-quick-view-forms.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

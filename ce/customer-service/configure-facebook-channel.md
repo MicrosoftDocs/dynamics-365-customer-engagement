@@ -179,3 +179,6 @@ Customers are solely responsible for using Dynamics 365, this feature, and any a
 [Configure a pre-chat survey](configure-pre-chat-survey.md)<br>
 [Configure a post-conversation survey](configure-post-conversation-survey.md)<br>
 [Delete a configured channel](delete-channel.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -305,3 +305,6 @@ To be able to import from Exchange:
 
 [Export data or template](export-data.md)  
 [Admin settings overview](admin-settings-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

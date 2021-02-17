@@ -48,3 +48,6 @@ If you need to perform more than one activity for your campaign, such as an emai
   
 ### See also  
 [Get started with in-app marketing](get-started-app-marketing-sp.md)   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -67,3 +67,6 @@ To reset a portal:
 [Open the Power Platform admin center](power-platform-admin-center.md)  
 [Keep Marketing up to date](apply-updates.md)  
 [Manage Marketing environments](manage-marketing-environments.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

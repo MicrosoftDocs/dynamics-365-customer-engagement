@@ -45,3 +45,6 @@ For information about how to create a team template, enable an entity for system
  [Create a team template and add to an entity form](create-team-template-add-entity-form.md)   
  [Manage teams](manage-teams.md)    
  [Access teams in Microsoft Dynamics CRM](https://download.microsoft.com/download/E/9/0/E9009308-CA01-4B37-B03C-435B8ACB49B4/Access%20Teams%20with%20Microsoft%20Dynamics%20CRM%202013.pdf)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

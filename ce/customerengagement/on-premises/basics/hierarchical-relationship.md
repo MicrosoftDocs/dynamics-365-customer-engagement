@@ -67,3 +67,6 @@ You can take the following actions from the hierarchical view:
 
 -	 Use command bar options to take action on selected records. You can select a record by selecting the check box in the top-right corner of a tile in the Tile view. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

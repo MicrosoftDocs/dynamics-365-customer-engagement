@@ -98,3 +98,6 @@ Select the **Save** button the bottom of the flyout panel to send the message to
 [Add dynamic content to email messages](dynamic-email-content.md)  
 [Set the sender, receiver, language, and legal designation](email-properties.md) 
 [Check for errors, go live, and deliver](email-check-golive.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

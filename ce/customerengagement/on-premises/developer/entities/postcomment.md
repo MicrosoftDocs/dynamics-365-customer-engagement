@@ -336,3 +336,5 @@ See post Entity [Post_Comments](post.md#BKMK_Post_Comments) One-To-Many relation
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.postcomment?text=postcomment EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

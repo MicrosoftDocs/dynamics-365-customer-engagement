@@ -72,3 +72,6 @@ monikerRange: '>= dynamics-usd-4.1'
 - [Step 2: Create Omnichannel Alert Notification hosted controls](alertnotification-step2-create-hosted-controls.md)
 - [Step 3: Create Omnichannel Alert Notification-related action call](alertnotification-step3-create-action-call-display-notification.md)
 - [Step 4: Add Omnichannel Alert Notification-related action calls to events](alertnotification-step4-add-action-calls-events.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -39,3 +39,6 @@ Tracking your competitors and their strengths and weaknesses can help you win sa
 ### See also  
 
 [Help resources for Dynamics 365 Sales](help-hub.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

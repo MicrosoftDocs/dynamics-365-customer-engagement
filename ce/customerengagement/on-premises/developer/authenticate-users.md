@@ -41,3 +41,6 @@ Dynamics 365 Customer Engagement (on-premises) support three security models for
  [Use connection strings in XRM tooling to connect to Dynamics 365 Customer Engagement (on-premises)](xrm-tooling/use-connection-strings-xrm-tooling-connect.md)  
  [Use the Dynamics 365 Customer Engagement Web API](use-microsoft-dynamics-365-web-api.md)  
  [Use the Dynamics 365 Customer Engagement Organization Service](use-microsoft-dynamics-365-organization-service.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

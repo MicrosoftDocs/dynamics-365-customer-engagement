@@ -50,3 +50,6 @@ It is also possible to update the read-only records programmatically with the SD
 - In case of Dynamics 365 Sales integration with any third-party system, there is a chance of GDPR requested changes to be overwritten if correct sequence of updates is not followed. It is the responsibility of the system administrator of Dynamics 365 Sales to follow the correct order. 
 
 To know more about GDPR compliance, see [Microsoft Dynamics 365 and GDPR](https://docs.microsoft.com/dynamics365/get-started/gdpr/index).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

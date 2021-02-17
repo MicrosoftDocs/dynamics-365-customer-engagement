@@ -104,3 +104,6 @@ The Discovery service RESTful API supports the CORS standard for cross-origin ac
 ## See also
 
 [Web API Global Discovery Service sample (C#)](/powerapps/developer/common-data-service/webapi/samples/global-discovery-service-csharp)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

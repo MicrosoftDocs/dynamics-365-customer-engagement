@@ -364,3 +364,6 @@ Perform the following steps before you upgrade a solution:
  [Create rules to automatically route cases](../customer-service/create-rules-automatically-route-cases.md)   <br>
 
 [Create or change a queue](set-up-queues-manage-activities-cases.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

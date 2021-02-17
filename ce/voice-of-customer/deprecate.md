@@ -28,3 +28,6 @@ We encourage all customers to use Forms Pro for new surveys implementation. Form
 
 For questions about Voice of the Customer and guidance on how to move to Forms Pro, please contact [vocsupport@microsoft.com](mailto:vocsupport@microsoft.com).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

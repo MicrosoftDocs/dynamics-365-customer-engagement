@@ -49,3 +49,5 @@ After your event, session, track, speaker, and pass records are all in place for
 > If you have created a [Portal hosted event website](./developer/portal-hosted.md), you must [manually overwrite your sample website with the latest version](./developer/manually-overwriting-sample-website.md) to maintain functionality after applying any Dynamics 365 Marketing update.
 >
 > If your event website is [self-hosted](./developer/self-hosted.md), you must [install the latest self-hosted sample website](./developer/event-management-web-application.md) to maintain functionality after applying any Marketing update.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

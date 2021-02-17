@@ -43,3 +43,6 @@ Entity relationships define how entities are related to each other. This include
  [Customize Entity Relationship Metadata](customize-entity-relationship-metadata.md)   
  [Entity Relationship Eligibility](entity-relationship-eligibility.md)   
  [Entity Relationship Behavior](entity-relationship-behavior.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

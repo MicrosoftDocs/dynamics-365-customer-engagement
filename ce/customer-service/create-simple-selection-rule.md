@@ -87,3 +87,6 @@ You can also add resources to existing selection rules.
 ### See also     
  [Schedule a service activity](schedule-service-activity-csh.md)   
  [Create or change a resource group](create-edit-resource-group.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

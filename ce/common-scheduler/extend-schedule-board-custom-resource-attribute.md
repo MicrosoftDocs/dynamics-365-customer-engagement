@@ -21,3 +21,6 @@ search.app:
 # Customize the schedule board with a custom resource attribute
 
 [!INCLUDE[topic-urs-extend-schedule-board-custom-resource-attribute.md](../shared/urs/extend-schedule-board-custom-resource-attribute.md)]
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

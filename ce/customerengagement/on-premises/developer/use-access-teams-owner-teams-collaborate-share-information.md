@@ -141,3 +141,6 @@ Do access teams affect search by showing or hiding the record results? There is 
  [Use record-based security to control access to records](security-dev/use-record-based-security-control-access-records.md)   
  [How Role-Based Security Can Be Used to Control Access to Entities In Dynamics 365 Customer Engagement (on-premises)](security-dev/how-role-based-security-control-access-entities.md)   
  [Cascading Behavior](entity-relationship-behavior.md#BKMK_CascadingBehavior)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

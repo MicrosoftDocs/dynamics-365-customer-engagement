@@ -184,3 +184,6 @@ search.audienceType:
 ### See also
 
 [Create N:N (many-to-many) relationships](../customize/create-and-edit-nn-many-to-many-relationships.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

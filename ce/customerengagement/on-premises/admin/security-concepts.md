@@ -97,3 +97,6 @@ You combine business units, role-based security, record-based security, and fiel
  [Add teams or users to a field security profile](../admin/add-teams-users-field-security-profile.md)   
  [Manage security, users and teams](../admin/manage-security-users-and-teams.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

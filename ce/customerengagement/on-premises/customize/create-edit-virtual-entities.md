@@ -149,3 +149,6 @@ You create fields for a Data Source in the same way as any other entity. For dat
 [OData v4 Data Provider requirements and best practices](virtual-entity-odata-provider-requirements.md)</br> 
 [Create and edit entities](../customize/create-edit-entities.md)</br>
 [Create and edit fields](../customize/create-edit-fields.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

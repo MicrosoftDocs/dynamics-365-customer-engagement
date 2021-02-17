@@ -129,3 +129,6 @@ Welcome to the Dynamics 365 Customer Engagement (on-premises) Developer Guide.
 [Unified Service Desk Guide](/dynamics365/customer-engagement/unified-service-desk/unified-service-desk)
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

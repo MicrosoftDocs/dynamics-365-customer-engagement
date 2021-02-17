@@ -150,3 +150,6 @@ The Sales Analytics for Dynamics 365 Sales dashboard is now available in Dynamic
 
 [Analyze your sales data by using Power BI template apps](introduction-sales-template-apps.md)<br>
 [Customize Power BI template apps for Dynamics 365 Sales](customize-template-apps.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -306,3 +306,6 @@ System administrators can find more information in the topic on [configuring off
 
 [Install and set up the Field Service (Dynamics 365) mobile app](mobile-power-app-get-started.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

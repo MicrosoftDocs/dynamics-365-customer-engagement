@@ -92,3 +92,6 @@ Make sure that the following prerequisites are met:
 [Configure automated messages](configure-automated-message.md)  
 [Use a Microsoft Teams channel](teams-channel.md)  
 [Delete a configured channel](delete-channel.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

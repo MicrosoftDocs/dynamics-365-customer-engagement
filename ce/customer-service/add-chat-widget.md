@@ -145,3 +145,5 @@ After you configure, agents can get the capabilities while they are in a convers
 [Embed chat widget in your website or portal](embed-chat-widget-portal.md)  
 [Embed chat widget in mobile experiences](render-live-chat-widget-mobile.md)  
 [Supported browsers for live chat widget](system-requirements-omnichannel.md#browsers-for-chat)  
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

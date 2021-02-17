@@ -859,3 +859,6 @@ See msdyn_agentscript Entity [msdyn_msdyn_agentscript_msdyn_sessiontemplate](msd
 
 [Introduction to Omnichannel for Customer Service](../../../introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

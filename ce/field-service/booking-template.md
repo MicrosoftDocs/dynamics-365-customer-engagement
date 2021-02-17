@@ -21,3 +21,6 @@ search.app:
 # Edit schedule board booking template in Dynamics 365 Field Service
 
 [!INCLUDE[topic-urs-booking-template.md](../shared/urs/booking-template.md)]
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

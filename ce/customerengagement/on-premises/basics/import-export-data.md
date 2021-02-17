@@ -43,3 +43,6 @@ If you want to do additional calculations or run your own reports, you can expor
 
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -29,3 +29,6 @@ You can use the following templates in the Omnichannel Administration app.
 
 [Associate templates with workstreams](associate-templates.md)  
 [Understand and create workstream](../customer-service/work-streams-introduction.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

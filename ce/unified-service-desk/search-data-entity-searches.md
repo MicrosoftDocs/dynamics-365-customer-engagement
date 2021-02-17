@@ -62,3 +62,6 @@ Entity searches are FetchXML definitions that query Microsoft Dataverse web serv
  [Action calls](../unified-service-desk/action-calls.md)   
  [Learn to configure Unified Service Desk](../unified-service-desk/learn-to-use-unified-service-desk.md)   
  [Walkthrough: Use the generic listener adapter for CTI event routing](../unified-service-desk/walkthrough-use-the-generic-listener-adapter-for-cti-event-routing.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -144,3 +144,6 @@ After Omnichannel for Customer Service application is successfully provisioned, 
 [Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md)  
 [Understand and create work streams](work-streams-introduction.md)  
 [Manage users](users-user-profiles.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -186,3 +186,6 @@ protected override void SafeDispatcherUnhandledExceptionHandler(object sender, S
  [Create custom Unified Service Desk hosted control](../unified-service-desk/walkthrough-create-custom-hosted-control-for-unified-service-desk.md)
  [Extend Unified Service Desk](../unified-service-desk/extend-unified-service-desk.md)
  [Configure client diagnostic logging in Unified Service Desk](admin/configure-client-diagnostic-logging-unified-service-desk.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
