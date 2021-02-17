@@ -44,7 +44,7 @@ Most out of the box tables have activities enabled by default, which cannot be d
    >![Go to Tables in maker portal](media/maker-data-tables.png "Go to Tables in maker portal")
    
   
-3. Choose an entity (table).
+3. Select a table.
 
 4. On the command bar, select **Settings**. 
 
@@ -59,7 +59,7 @@ Most out of the box tables have activities enabled by default, which cannot be d
 > [!IMPORTANT]
 > Once enabled this setting can't be disabled. If prompted, select **Okay** to confirm.
    
-6.  Select **Save Table** > and then publish the entity (table).
+6.  Select **Save Table** > and then publish the table.
 
 
 
