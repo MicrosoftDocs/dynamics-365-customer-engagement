@@ -2,7 +2,7 @@
 title: "Enable a custom entity to appear in the Regarding lookup in Dynamics 365 App for Outlook  (Dynamics 365 apps) | MicrosoftDocs"
 ms.custom: 
 description: Enable activities to use Set Regarding lookup in App for Outlook.
-ms.date: 02/16/2020
+ms.date: 02/17/2021
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -24,7 +24,7 @@ search.app:
 ---
 # Enable activities to use Set Regarding lookup in App for Outlook
 
-In App for Outlook the **Set Regarding** lookup lets you link an email message, appointment, or task to a specific app row. To use the **Set Regarding** lookup, activities needs to be enabled for the table. 
+In App for Outlook the **Set Regarding** lookup lets you link an email message, appointment, or task to a specific app row. To use the **Set Regarding** lookup, activities need to be enabled for the table. 
 
 Most out-of-box (OOB) tables have activities enabled by default, which cannot be disabled. For custom tables that you create, make sure to enable activities to use  the **Set Regarding** lookup in App for Outlook. Once activities are enabled, it cannot be disabled for any table.
 
