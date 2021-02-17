@@ -1,6 +1,7 @@
 ---
-title: "Deploy Dynamics 365 App for Outlook | MicrosoftDocs"
+title: "How to deploy Dynamics 365 App for Outlook | MicrosoftDocs"
 ms.custom: 
+description: How to deploy Dynamics 365 App for Outlook
 ms.date: 02/16/2021
 ms.reviewer: 
 ms.service: crm-online
@@ -100,10 +101,7 @@ This will ensure that the users have the basic privileges needed to access App f
 |        [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)]        | [!INCLUDE[pn_Exchange_Server_short](../includes/pn-exchange-server-short.md)] (on-premises), version 15.0.1236.3.32 (Cumulative Update 14 for Exchange Server 2013) or greater |
 |        [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)]        |                                                       [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)]                                                        |
 
-<!--
-> [!NOTE]
->  If you use [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)], you'll need to authenticate with IFD authentication as described below.  
--->
+
 
 ### Feature support per client
 
@@ -116,8 +114,8 @@ This will ensure that the users have the basic privileges needed to access App f
 |             [!INCLUDE [pn-outlook-web-app](../includes/pn-outlook-web-app.md)] (OWA)<sup>4</sup>             |                     O and M                      |                                                       O and M<sup>1</sup>                                                        |                     O and M<sup>1</sup>                      |                                            |
 |                                  Mobile Outlook app<sup>5</sup>                                  |                        O                         |                                                                                                                                  |                                                              |                                            |
 
-(O)nline: [!INCLUDE [pn-crm-online](../includes/pn-crm-online.md)], [!INCLUDE [pn-exchange-online](../includes/pn-exchange-online.md)]  with both in the **same** tenant (Multi-tenant configuration of [!INCLUDE [pn-crm-online](../includes/pn-crm-online.md)] and [!INCLUDE [pn-exchange-online](../includes/pn-exchange-online.md)] being in different tenants is not supported) <br />
-(M)ixed: [!INCLUDE [pn-crm-online](../includes/pn-crm-online.md)], Exchange Server 2013/2016
+(O)Online: [!INCLUDE [pn-crm-online](../includes/pn-crm-online.md)], [!INCLUDE [pn-exchange-online](../includes/pn-exchange-online.md)]  with both in the **same** tenant (Multi-tenant configuration of [!INCLUDE [pn-crm-online](../includes/pn-crm-online.md)] and [!INCLUDE [pn-exchange-online](../includes/pn-exchange-online.md)] being in different tenants is not supported) <br />
+(M)Mixed: [!INCLUDE [pn-crm-online](../includes/pn-crm-online.md)], Exchange Server 2013/2016
 
 
 (1) Tracking email and tracking appointments in compose mode requires Exchange Server 2013 CU14 (not supported in OWA) or [!INCLUDE [pn-exchange-server-2016-short](../includes/pn-exchange-server-2016-short.md)]. <br />
