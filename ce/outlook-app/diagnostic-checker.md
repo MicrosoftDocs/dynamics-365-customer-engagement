@@ -33,9 +33,9 @@ Use the Outlook Checker to run a diagnostic check and scan for potential issues 
  Legend:
  
  1. **Export logs**: After you run the checker, export the error logs and send the log files to your support team or admin for further troubleshooting.
- 2. **Clear cache**: This will clear any errors in the App for Outlook cache. Cache will rebuild the next time you sign in. 
+ 2. **Clear cache**: Clears any errors in the App for Outlook cache. Cache will rebuild the next time you sign in. 
  3. **Hide or Show**: Move the toggle to **Show** to add the **Outlook Checker** on the command bar. If the toggle is set to **Hide**, press **ALT**+**CTRL**+**Y** on your keyboard to bring up the **Outlook Checker**.
- 4. **Run diagnostics**: This will run the diagnostics checker and scan for potential issues. 
+ 4. **Run diagnostics**: Runs the diagnostics checker and scans for potential issues. 
  
  
 ## Run the access checker
