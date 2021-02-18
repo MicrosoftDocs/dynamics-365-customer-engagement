@@ -53,7 +53,7 @@ Customer service organizations will find that voice communication works well wit
 
 Typically, customer service organizations must manually integrate standalone telephony and CRM solutions, which result in fragmented experiences for agents and customers across engagement channels. Ultimately, these stitched-together solutions from multiple providers are not only complex to roll out and maintain but create data silos with disconnected insights of customer interactions and agent performance across channels. The addition of the voice channel enables Customer Service to offer businesses a solution that minimizes failure points caused by custom-built, complex integrations, and maximizes the ability to create better customer and agent experiences. This single, holistic solution also makes it easier to scale to meet changing business needs.
 
-- Even with the rise of digital channels and self-service, telephony remains a critical channel for contact centers to provide customer support. Most CRM players lack native telephony and only support integrations with telephony providers, also known as CCaaS (Contact Center as a Service) players, through “at the glass” CTI (softphones) widgets. As telephony follows CRM to the cloud, customers are looking to simplify their combined solution. 
+Even with the rise of digital channels and self-service, telephony remains a critical channel for contact centers to provide customer support. Most CRM players lack native telephony and only support integrations with telephony providers, also known as CCaaS (Contact Center as a Service) players, through “at the glass” CTI (softphones) widgets. As telephony follows CRM to the cloud, customers are looking to simplify their combined solution. 
 extending our current assets, such as Power Virtual Agent, Intelligent Routing and conversation canvas, we can offer a telephony solution directly within Dynamics OC.
 
 Microsoft’s Omnichannel for Customer Service allows us to escalate web chat conversations to voice and video calls, this is a great feature when conversations become complex and a chat conversation is simply more long winded than a voice call.
@@ -78,7 +78,7 @@ Leverage built-in AI to resolve issues faster with tools like call transcription
 
 Speech-based self-service: NLU-powered IVRs and speech-enabled virtual agents by connecting the telephony channel to Power Virtual Agent for intuitive self-service and seamless elevation to agent-service. PVA bots will be built once and deployed across messaging and voice channels alike. 
 
-**Reliability**
+**Reliability and scalability**
 reliability of the calling platform that powers Microsoft Teams worldwide today
 The voice channel in Dynamics is built on the same secure, planet-scale platform used by Microsoft Teams
 
