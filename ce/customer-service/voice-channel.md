@@ -22,32 +22,58 @@ While many customers increasingly use chat, SMS text messages, and social media 
 
 ## Key capabilities
 
-Take a look at some of the key capabilties that makes the voice channel another great way of interacting with customers.
+Take a look at some of the key capabilties that makes the voice channel great for customer service representatives and customers receiving help. 
 
-- Phone number procurement and management
+| Solution | Capability |
+| --- | --- |
+| Agent experience |  <ul><li>Call controls: Mute, Hold, End</li><li>Music on hold</li></ul>  |
+| Calling and routing  |  |
+| AI |  |
+| Supervisor experience | <ul><li>Consulting and transferring</li><li>Monitoring and barging</li><li>Ability to record and manage phone calls</li><li>Operations management thought supervisor dashboards</li></ul> |
+| Customer experience  | <ul><li>Post-call Survey</li><li>Scheduled Callbacks</li><li>Music on hold</li></ul> |
+
+
+
+Agent experience
+- Operations management thought supervisor dashboards
+- Integrated customer and case history lookup
+- Notes and knowledge search
+
+Calling & routing
+
 - Ability to handle and distribute incoming calls
 - Ability to make outbound calls
-- Ability to manage SMS (inbound and outbound)
-- Deep integration of voice into core Omnichannel functionality
+- Automatic Call Distribution (Routing)
+- Transfer to external phone number
+- Phone number procurement and management
+- Skills-based Assignment
+
+AI
+
 - Real-time sentiment analysis
 - Real-time transcription
 - Real-time translation
 - Real-time smart assist suggestions
-- Operations management thought supervisor dashboards
-- Ability to record and manage phone calls
-- Call controls: Mute, Hold, End
-- Music on hold
-- Consulting and transferring
-- Monitoring and barging
-- Integrated customer and case history lookup
-- Notes and knowledge search
-- Transfer to external phone number
-- Post-call Survey
-- Automatic Call Distribution (Routing)
-- Skills-based Assignment
-- Scheduled Callbacks
-- Calling controls
 - No-code Virtual Agent as IVR
+
+
+Dashboards and supervisors and quality control
+- 
+- 
+- 
+- 
+
+Customer experience
+- 
+- 
+
+
+
+
+
+
+
+
 
 
 ### Benefits
