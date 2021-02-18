@@ -202,13 +202,14 @@
 ### Administrator experience
 #### [Install and set up](voice-channel-install.md)
 #### [Make and receive your first phone call](voice-channel-first-call.md)
-#### [Set up workstream and queue for voice](voice-channel-route-queues.md)
-#### [Add conversational IVR bots](voice-channel-ivr-bots.md)
+#### [How to route voice calls to agents](voice-channel-route-queues.md)
+#### [Add an Intelligent Voicebot for IVR](voice-channel-ivr-bots.md)
+#### [Manage voice channel]()
 #### [Number management](voice-channel-number-management.md)
 #### [Call insights](voice-channel-call-insights.md)
-#### [FAQs](voice-channel-faq.md)
 ### Agent experience
-#### [Using the agent dashboard for voice](voice-channel-agent-experience.md)
+#### [Using the agent desktop for voice](voice-channel-agent-experience.md)
+### [FAQs](voice-channel-faq.md)
 
 ## Portals
 ### [Embed a chat widget in a portal](embed-chat-widget-portal.md)
