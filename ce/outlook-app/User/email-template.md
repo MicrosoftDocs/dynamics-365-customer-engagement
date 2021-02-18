@@ -37,7 +37,7 @@ You must have the appropriate permissions to add email templates.
 
 1. Compose an email message as you normally would in Outlook.  
 
-2. At the top select **Dynamics 365** to open the **Dynamics 365** pane.  
+2. Select **Dynamics 365** to open the **Dynamics 365** pane.  
 
    > [!div class="mx-imgBorder"] 
    > ![Open App for Outlook pane](../media/open-pane-appforoutlook.png)  
