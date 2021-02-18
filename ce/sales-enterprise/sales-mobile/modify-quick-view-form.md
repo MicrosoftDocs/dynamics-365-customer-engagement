@@ -22,7 +22,7 @@ If you have created multiple quick view forms, the mobile app uses the first for
 |3|Contact quick view form three|
 |||
 
-The mobile app displays information as per the fields defined in the Contact quick view form one.
+The mobile app displays information as per the fields defined in Contact quick view form one.
 
 If you want to change the fields to be displayed in the mobile app, modify the first quick view form in the form order. If you want a different quick view form to be used for displaying information, move the form to the top of the form order. More information on setting form order: [Set the form order](https://docs.microsoft.com/powerapps/maker/model-driven-apps/control-access-forms#set-the-form-order)
 
