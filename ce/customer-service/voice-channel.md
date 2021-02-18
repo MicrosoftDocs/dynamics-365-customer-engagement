@@ -26,53 +26,11 @@ Take a look at some of the key capabilties that makes the voice channel great fo
 
 | Solution | Capability |
 | --- | --- |
-| Agent experience |  <ul><li>Call controls: Mute, Hold, End</li><li>Music on hold</li></ul>  |
-| Calling and routing  |  |
-| AI |  |
-| Supervisor experience | <ul><li>Consulting and transferring</li><li>Monitoring and barging</li><li>Ability to record and manage phone calls</li><li>Operations management thought supervisor dashboards</li></ul> |
+| Agent experience |  <ul><li>Call controls: Mute, Hold, End</li><li>Music on hold</li><li>Integrated customer and case history lookup</li><li>Notes and knowledge search</li></ul>  |
+| Calling and routing  | <ul><li>Ability to handle and distribute incoming calls, Automatic Call Distribution (Routing)</li><li>Ability to make outbound calls</li><li>Transfer to external phone number</li><li>Phone number procurement and management</li><li>Skills-based Assignment</li></ul> |
+| AI | <ul><li>Real-time sentiment analysis</li><li>Real-time transcription</li><li>Real-time translation</li><li>Real-time smart assist suggestions</li><li>No-code Virtual Agent as IVR</li></ul> |
+| Supervisor experience | <ul><li>Consulting and transferring</li><li>Monitoring and barging</li><li>Ability to record and manage phone calls</li><li>Operations management through supervisor dashboards</li></ul> |
 | Customer experience  | <ul><li>Post-call Survey</li><li>Scheduled Callbacks</li><li>Music on hold</li></ul> |
-
-
-
-Agent experience
-- Operations management thought supervisor dashboards
-- Integrated customer and case history lookup
-- Notes and knowledge search
-
-Calling & routing
-
-- Ability to handle and distribute incoming calls
-- Ability to make outbound calls
-- Automatic Call Distribution (Routing)
-- Transfer to external phone number
-- Phone number procurement and management
-- Skills-based Assignment
-
-AI
-
-- Real-time sentiment analysis
-- Real-time transcription
-- Real-time translation
-- Real-time smart assist suggestions
-- No-code Virtual Agent as IVR
-
-
-Dashboards and supervisors and quality control
-- 
-- 
-- 
-- 
-
-Customer experience
-- 
-- 
-
-
-
-
-
-
-
 
 
 
