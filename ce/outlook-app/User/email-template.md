@@ -1,6 +1,6 @@
 ---
 title: "Add an email template when you create an email message (Dynamics 365 apps) | MicrosoftDocs"
-description: How to add a email template using Dynamics 365 App for Outlook
+description: How to add an email template using Dynamics 365 App for Outlook
 ms.custom: 
 ms.date: 02/17/2021
 ms.reviewer: 
@@ -42,7 +42,7 @@ You must have the appropriate permissions to add email templates.
    > [!div class="mx-imgBorder"] 
    > ![Open App for Outlook pane](../media/open-pane-appforoutlook.png)  
   
-3. Selet **More commands** ![Main more commnands button](../media/main-more-commands-button-appforoutlook.png) and then select **Insert**.
+3. Select **More commands** ![Main more commnands button](../media/main-more-commands-button-appforoutlook.png) and then select **Insert**.
 
    > [!div class="mx-imgBorder"] 
    > ![Select more commands and then insert](../media/insert-appforoutlook.png)
@@ -52,7 +52,7 @@ You must have the appropriate permissions to add email templates.
    > [!div class="mx-imgBorder"] 
    > ![Select add template](../media/add-template-appforoutlook.png)
    
-5. Select the record type. The default is the set regarding record and then selexct **Select**.
+5. Select the record type. The default is the set regarding record and then select **Select**.
 
    > [!div class="mx-imgBorder"] 
    > ![Select record type](../media/email-template-1-appforoutlook.png)
@@ -62,7 +62,7 @@ You must have the appropriate permissions to add email templates.
     > [!div class="mx-imgBorder"] 
     > ![Select to enter data in the search box](../media/email-template-2-appforoutlook.png)
    
- 7. Use the search to find a tempalte and then select it. 
+ 7. Use the search to find a template and then select it. 
  
     > [!div class="mx-imgBorder"] 
     > ![Select an email template that you want to use](../media/email-template-3-appforoutlook.png)
