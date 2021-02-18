@@ -321,7 +321,7 @@
 ### [Overview](sales-mobile/dynamics-365-sales-mobile-app.md)
 ### Administrator guide
 #### [Enable Dynamics 365 Sales mobile](sales-mobile/enable-sales-mobile.md)
-#### [Modify quick view forms](modify-quick-view-form.md)
+#### [Modify quick view forms](sales-mobile/modify-quick-view-form.md)
 ### User guide
 #### Install the app
 ##### [Install the app on iOS](sales-mobile/install-ios-app.md)
