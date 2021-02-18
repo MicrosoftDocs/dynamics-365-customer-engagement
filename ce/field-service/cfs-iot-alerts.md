@@ -25,13 +25,14 @@ search.app:
 // https://msit.microsoftstream.com/video/7a11a1ff-0400-b564-2c53-f1eb658dc97a
 
 
-## Create and view IoT Alerts
+## Trigger IoT Alerts
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/cfs-iot-alert-stream-analytics.png)
 
+### Trigger IoT Alerts with the simulator
 
-
+## View IoT Alerts in Field Service
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/cfs-iot-alert-form.png)
