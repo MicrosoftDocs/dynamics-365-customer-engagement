@@ -24,7 +24,10 @@ search.app:
 # Difference between the Basic and Enhanced Collaboration Experience with Microsoft Teams 
 
 
-Before you can start using the collaboration experience, it needs to be turned on in your customer engagement apps in Dynamics 365 (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing, and Dynamics 365 Project Service Automation). For more information, see [Install and setup Microsoft Teams integration](teams-install-app.md).
+Before you can start using the collaboration experience, it needs to be turned on in your customer engagement apps in Dynamics 365 (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing, and Dynamics 365 Project Service Automation). 
+
+
+To learn how to turn on Basic or Enhanced collaboration, see [Install and setup Microsoft Teams integration](teams-install-app.md).
 
  
  |  |  |
