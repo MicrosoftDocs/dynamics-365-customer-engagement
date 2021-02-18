@@ -64,7 +64,8 @@ A user’s access to files in Microsoft Teams or Dynamics 365 apps depends on th
 | Yes   | No        | No       | Yes       | No       |No       | No       |
 
 > [!NOTE]
-> Guest users in Microsoft Teams will get error message when they try to access a pinned Dynamics 365 app record.
+> - Guest users in Microsoft Teams will get error message when they try to access a pinned Dynamics 365 app record.
+> - A user who is part of the Microsft Teams team or channel without access to Dynamics 365 app won't be able to see the record in Microsft Teams.
 
 ## Questions and feedback
 
