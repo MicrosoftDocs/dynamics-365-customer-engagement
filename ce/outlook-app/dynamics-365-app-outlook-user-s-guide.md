@@ -1,6 +1,7 @@
 ---
 title: "Dynamics 365 App for Outlook User Guide (Dynamics 365 apps) | MicrosoftDocs"
 ms.custom: 
+description: How to use Dynamics 365 App for Outlook.
 ms.date: 02/26/2020
 ms.reviewer: 
 ms.service: crm-online
@@ -143,7 +144,7 @@ Let's go over the individual elements in the menu bar.
 |![Menu - Quick Create](media/navbar-add-btn.png)|Choose **Quick Create** to create a new record such as an account or contact.<br />See <a href="https://docs.microsoft.com/dynamics365/outlook-app/dynamics-365-app-outlook-user-s-guide#CreateRecord">Create a new record</a>|
 |![Menu - Search](media/navbar-search-btn.png)|Choose **Search** to search any Dynamics 365 apps records. |
 |![Menu - Insights](media/navbar-insights-btn.png)|Choose **Insights** to view the most important and relevant information in relation to what you are doing right now. <br />See [Gain insights into your activities with relationship assistant](#gain-insights-into-your-activities-with-relationship-assistant)|
-|![Menu - Documents](media/navbar-add-template-btn.png)|Choose **Documents** to add email templates, sales literature, or knowledge base articles. <br />See [Add an email template when you create an email message](email-template.md) and [Add sales literature or a knowledge base article when you create an email message](#add-sales-literature-or-a-knowledge-base-article-when-you-create-an-email-message)|
+|![Menu - Documents](media/navbar-add-template-btn.png)|Choose **Documents** to add email templates, sales literature, or knowledge base articles. <br />See [Add an email template when you create an email message](user/email-template.md) and [Add sales literature or a knowledge base article when you create an email message](user/add-literature-or-kb.md)|
 
 ## Use delegate access 
 
