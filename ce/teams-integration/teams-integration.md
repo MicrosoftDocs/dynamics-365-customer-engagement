@@ -37,7 +37,8 @@ If you're familiar with [Microsoft Teams](https://products.office.com/microsoft-
 Dynamics 365 for Microsoft Teams integration enables users to easily work with customer information in customer engagement apps (such as Dynamics 365 Sales and Dynamics 365 Customer Service) and share files directly from Microsoft Teams. This helps them to be more productive and get work done more effectively. 
 
 - **Collaboration hub**: Access a shared workspace for Office apps that most of us already use to work sales opportunities.  
-- **File integration**: Co-author documents using Microsoft 365 and automatically sync with customer engagement apps in Dynamics 365. 
+- **File integration**: Co-author documents using Microsoft 365 and automatically sync with customer engagement apps in Dynamics 365. Files uploaded to a channel are available for the record that is pinned to the channel. Files are saved to Sharepoint are accessiable in Micrsoft Teams and  in your customer engagement app.
+ 
 
 > [!div class="mx-imgBorder"] 
 > ![Features of Microsoft Teams app](media/teams-intro.png "Features of Microsoft Teams app")
