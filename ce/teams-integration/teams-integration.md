@@ -40,18 +40,6 @@ Dynamics 365 for Microsoft Teams integration enables users to easily work with c
 - **File integration**: Co-author documents using Microsoft 365 and automatically sync with customer engagement apps in Dynamics 365. Files uploaded to a channel are available for the record that is pinned to the channel. Files are saved to Sharepoint are accessiable in Micrsoft Teams and  in your customer engagement app.
  
  
- 
-| Member of organization      | Member of Teams channel | View record in Teams | View record in Dynamics 365  | Access document in  Dynamics 365  | Access document in Teams | Access document in SharePoin|    
-| ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | -----------
-| Yes      | Yes       | Yes       | Yes       | Yes (read, write, delete)       |Yes (read, write, delete)       |Yes       |
-| No   | Yes        | Yes (read only)       | Yes       | Yes (read, write, delete)       |Yes (read, write, delete)       |Yes       |
-| No      | No       | No       | Yes (read only)       | No       | No       | No       |
-| Yes   | No        | No       | Yes       | No       |No       | No       |
-
- 
- 
- 
- 
 > [!div class="mx-imgBorder"] 
 > ![Features of Microsoft Teams app](media/teams-intro.png "Features of Microsoft Teams app")
 
@@ -62,6 +50,18 @@ With the Dynamics 365 for Microsoft Teams integration, add app features that you
 - Collaborate on a set of records, such as *active opportunity* using Microsoft Teams conversation and easily access records on the go using the Dynamics 365 bot for Microsoft Teams mobile app. 
 
 > [!VIDEO https://www.youtube.com/embed/u0DaRzZDAPc]
+> 
+
+## Access to files
+
+A user’s access to files in Microsoft Teams or Dynamics 365 apps depends on their access to the SharePoint site the file is stored in.
+ 
+| Member of organization      | Member of Teams channel | View record in Teams | View record in Dynamics 365  | Access document in  Dynamics 365  | Access document in Teams | Access document in SharePoin|    
+| ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | -----------
+| Yes      | Yes       | Yes       | Yes       | Yes (read, write, delete)       |Yes (read, write, delete)       |Yes       |
+| No   | Yes        | Yes (read only)       | Yes       | Yes (read, write, delete)       |Yes (read, write, delete)       |Yes       |
+| No      | No       | No       | Yes (read only)       | No       | No       | No       |
+| Yes   | No        | No       | Yes       | No       |No       | No       |
 
 ## Questions and feedback
 
