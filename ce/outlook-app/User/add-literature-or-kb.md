@@ -1,6 +1,6 @@
 ---
 title: "Insert sales literature or a knowledge base article to email message using Dynamics 365 App for Outlook (Dynamics 365 apps) | MicrosoftDocs"
-description: How to add sales literature or a knowledge base article in a email
+description: How to insert sales literature or a knowledge base article in an email
 ms.custom: 
 ms.date: 02/17/2021
 ms.reviewer: 
@@ -21,20 +21,20 @@ search.app:
   - D365CE
   - D365Outlook
 ---
-# Add sales literature or a knowledge base article to a email 
+# Insert sales literature or a knowledge base article in an email 
 
-When you compose a new email you can add sales literature or a knowledge base article to the email and send the information to your customer.
+When you create a new email, you can add sales literature or a knowledge base article and send the information to your customer.
 
-To do this, you also must have the appropriate permissions and use [Dynamics 365 Sales](https://docs.microsoft.com/dynamics365/sales-enterprise/help-hub) to send sales literature or [Dynamics 365 Customer Service](https://docs.microsoft.com/dynamics365/customer-service/overview) to send knowledge base articles. 
+You must have the appropriate permissions and use [Dynamics 365 Sales](https://docs.microsoft.com/dynamics365/sales-enterprise/help-hub) to send sales literature or [Dynamics 365 Customer Service](https://docs.microsoft.com/dynamics365/customer-service/overview) to send knowledge base articles. 
 
 1. Compose an email message as you normally would in Outlook.  
 
-2. At the top select **Dynamics 365** to open the **Dynamics 365** pane.  
+2. At the top select, **Dynamics 365** to open the **Dynamics 365** pane.  
 
    > [!div class="mx-imgBorder"] 
    > ![Open App for Outlook pane](../media/open-pane-appforoutlook.png)  
   
-3. Selet **More commands** ![Main more commnands button](../media/main-more-commands-button-appforoutlook.png) and then select **Insert**.
+3. Select **More commands** ![Main more commnands button](../media/main-more-commands-button-appforoutlook.png) and then select **Insert**.
 
    > [!div class="mx-imgBorder"] 
    > ![Select more commands and then insert](../media/insert-appforoutlook.png)
