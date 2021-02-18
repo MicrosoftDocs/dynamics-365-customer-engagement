@@ -147,3 +147,6 @@ The service protection limits for AI suggestions are defined as below. The total
 [View smart assist suggestions for knowledge articles and similar cases using AI for ongoing conversations](../omnichannel/agent/agent-oc/oc-view-ai-suggested-cases-articles.md)  
 [FAQs on AI-suggested cases and knowledge articles](csw-faqs-ai-suggestions.md)  
 [Create a new similarity rule to view similar cases](suggest-similar-cases-for-a-case.md#create-a-new-similarity-rule-to-view-similar-cases)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

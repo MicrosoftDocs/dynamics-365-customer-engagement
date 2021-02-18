@@ -952,3 +952,5 @@ See msdyn_taxcode Entity [msdyn_msdyn_taxcode_msdyn_taxcodedetail_TaxCode](msdyn
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_taxcodedetail?text=msdyn_taxcodedetail EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

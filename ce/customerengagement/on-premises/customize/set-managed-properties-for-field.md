@@ -41,3 +41,5 @@ tags:
   ### See also
 
   [Create and edit fields](../customize/create-edit-fields.md)
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

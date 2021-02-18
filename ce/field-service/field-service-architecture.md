@@ -74,3 +74,6 @@ The following diagram references the same work order process diagram in the begi
 
 - [Work order life cycle and statuses](work-order-status-booking-status.md)
 - [Connected Field Service architecture](../field-service/developer/connected-field-service-architecture.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

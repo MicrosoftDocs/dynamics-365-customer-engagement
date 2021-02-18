@@ -35,3 +35,6 @@ The following videos help you get started with Omnichannel for Customer Service:
 - [Real-time sentiment analysis in Omnichannel for Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2114615)
 
 - [Historical Insights Report](https://go.microsoft.com/fwlink/p/?linkid=2097418)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

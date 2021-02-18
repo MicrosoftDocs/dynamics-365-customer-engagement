@@ -37,3 +37,6 @@ Data-driven adapters are used by the [!INCLUDE[pn_hosted_application_toolkit_hat
  [UII Hosted Application Toolkit (HAT)](../unified-service-desk/uii-hosted-application-toolkit-hat.md)   
  [Use UII automation adapter to interact with external and web applications](../unified-service-desk/use-uii-automation-adapter-interact-external-web-applications.md)   
  [Extend Unified Service Desk](../unified-service-desk/extend-unified-service-desk.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

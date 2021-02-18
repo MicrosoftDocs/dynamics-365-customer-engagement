@@ -211,3 +211,6 @@ When the feature is enabled, the collaboration feature is enabled only for a sel
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

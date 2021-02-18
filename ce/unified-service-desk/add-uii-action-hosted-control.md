@@ -44,3 +44,6 @@ As new versions of [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
  [Create an action call for a UII action](../unified-service-desk/create-action-call-uii-action.md)
  
  [Manage hosted controls, actions, and events](../unified-service-desk/manage-hosted-controls-actions-events.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

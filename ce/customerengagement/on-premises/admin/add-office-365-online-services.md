@@ -29,3 +29,6 @@ Integrating [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] with [
 > [!NOTE]
 > [!INCLUDE[cc_Office365PlanRequirement](../includes/cc-office365planrequirement.md)]  
  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

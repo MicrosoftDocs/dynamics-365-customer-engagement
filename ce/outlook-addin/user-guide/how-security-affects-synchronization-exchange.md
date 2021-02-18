@@ -32,3 +32,6 @@ Synchronization of data between [!INCLUDE[pn_microsoftcrm](../../includes/pn-mic
 
 ### See Also  
  [Which fields can be synchronized between Dynamics 365 apps and Outlook?](../admin-guide/which-fields-synchronized.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

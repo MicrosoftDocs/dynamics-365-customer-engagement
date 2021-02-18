@@ -75,3 +75,5 @@ By default, you can view the last 20 readings. You can change the default settin
 2. Select an IoT device record to open it.  
   
 3. In the category field, use the search button to find and to add the device to a category.  
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -332,3 +332,6 @@ For more information, see [Mapping form data to entities with custom Workflows](
 [Customer journey tiles reference](customer-journey-tiles-reference.md)  
 [Working with segments](segmentation-lists-subscriptions.md)  
 [How Dynamics 365 Marketing uses cookies](cookies.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

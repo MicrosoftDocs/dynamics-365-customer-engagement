@@ -290,3 +290,6 @@ The classes in the <xref:Microsoft.Xrm.Sdk.Metadata.Query> namespace and the <xr
  [Customize Entity Attribute Metadata](customize-entity-attribute-metadata.md)   
  [Customize Entity Relationship Metadata](customize-entity-relationship-metadata.md)   
  [Query Metadata Using JavaScript](https://msdn.microsoft.com/library/jj919080.aspx)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

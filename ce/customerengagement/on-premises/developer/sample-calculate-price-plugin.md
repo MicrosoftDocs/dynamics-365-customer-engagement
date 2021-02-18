@@ -52,3 +52,6 @@ This sample code is for Dynamics 365 Customer Engagement(on-premises). Download 
  [Use custom pricing for products](use-custom-pricing-products.md)   
  [Create and manage product families, products and bundles](create-manage-product-families-products-bundles-product-properties.md)   
  [Product catalog entities](product-catalog-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -274,3 +274,6 @@ Once you've enabled auditing for contacts, you'll be able to view a record of ch
 [Manage customer information](manage-customer-information.md)  
 [Create and deploy marketing pages](create-deploy-marketing-pages.md)  
 [Set up a subscription center](set-up-subscription-center.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

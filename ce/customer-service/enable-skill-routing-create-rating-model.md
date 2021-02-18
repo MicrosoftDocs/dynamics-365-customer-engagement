@@ -116,3 +116,6 @@ For example:
 [Overview of skill-based routing](overview-skill-work-distribution.md)  
 [Set up skills and assign agents](setup-skills-assign-agents.md)  
 [Attach skills to conversation](attach-skills.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

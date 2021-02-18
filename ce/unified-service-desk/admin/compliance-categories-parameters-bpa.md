@@ -71,3 +71,6 @@ The list shows the parameters under each category that [!INCLUDE[pn-best-practic
 [Walkthrough: Configure Best Practices Analyzer](../admin/walkthrough-configure-best-practices-analyzer.md)
 
 [Read Best Practices Analyzer report](../admin/read-best-practices-analyzer-report.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

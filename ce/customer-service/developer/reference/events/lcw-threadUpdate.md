@@ -30,3 +30,6 @@ window.addEventListener("lcw:threadUpdate", function handleLivechatThreadUpdateE
 
 [lcw:error](lcw-error.md)<br />
 [Live chat SDK JavaScript API reference](../../omnichannel-reference.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

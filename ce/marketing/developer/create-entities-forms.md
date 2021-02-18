@@ -30,3 +30,6 @@ More information:
 
 > [!div class="nextstepaction"]
 > [Step 2: Configure the tile for custom channel](configure-tile-custom-channel.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

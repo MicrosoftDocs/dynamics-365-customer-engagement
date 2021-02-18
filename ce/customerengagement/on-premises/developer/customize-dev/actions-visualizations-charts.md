@@ -73,3 +73,6 @@ Using the [!INCLUDE[cc-dyn365-ce-web-services](../../includes/cc-dyn365-ce-web-s
  [Sample: Assign a Chart to Another User](sample-assign-chart-another-user.md)   
  [SavedQueryVisualization Entity](../entities/savedqueryvisualization.md)   
  [UserQueryVisualization Entity](../entities/userqueryvisualization.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

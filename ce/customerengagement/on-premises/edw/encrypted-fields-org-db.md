@@ -42,3 +42,6 @@ ms.author: matp
   
  For more information, see [Enhance security by encrypting your data](../admin/data-encryption.md).
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

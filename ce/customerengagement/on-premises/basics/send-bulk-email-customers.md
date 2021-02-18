@@ -37,3 +37,6 @@ You can send the same message to multiple recipients using email templates. This
   
 6.  Click **Send**.  
   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

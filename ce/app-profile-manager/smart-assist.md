@@ -78,3 +78,5 @@ You can add multiple bots to a work stream based on your business requirements.
 
 [Macros](macros.md)  
 [Agent scripts](agent-scripts.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

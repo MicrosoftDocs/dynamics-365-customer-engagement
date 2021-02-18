@@ -41,3 +41,6 @@ Follow these steps to enable a custom entity to appear in Quick create. Note, th
 
    ![Custom entity in app designer](media/custom-entity-app-designer.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -34,3 +34,6 @@ The topics in this folder apply to Dynamics 365 apps or Dynamics 365 Customer En
 ### See also
 [Microsoft Dynamics 365 apps Online releases](https://support.microsoft.com/help/2925359/microsoft-dynamics-crm-online-releases) 
  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -51,3 +51,6 @@ Microsoft.CIFramework.setTabTitle("tab-id-2", input).then(
     }
 );
 ```
+
+
+[!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]

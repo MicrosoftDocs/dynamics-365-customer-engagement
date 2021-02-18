@@ -129,3 +129,6 @@ The file is added to the forecast.
 
 [Configure forecasts in your organization](configure-forecast.md)  
 [Events and context objects for underlying records grid](../sales-enterprise/developer/reference/custom-actions/events-context.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

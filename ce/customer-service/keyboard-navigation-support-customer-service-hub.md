@@ -48,3 +48,6 @@ The Customer Service Hub app is based in Unified Interface. To see the list of k
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

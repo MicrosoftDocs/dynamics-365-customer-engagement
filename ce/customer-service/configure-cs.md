@@ -70,3 +70,6 @@ In the Customer Service app, navigate to **Settings > Service Management**.
 ### See also
 
 [What's new in Dynamics 365 Customer Service](whats-new-customer-service.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

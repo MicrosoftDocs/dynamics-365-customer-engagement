@@ -44,3 +44,6 @@ The `JAccTree` associates a named control to the Java accessibility tree element
 ### See also  
  [JavaDDA](../unified-service-desk/javadda.md)   
  [Use Data Driven Adapters (DDAs)](../unified-service-desk/use-data-driven-adapters-ddas.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

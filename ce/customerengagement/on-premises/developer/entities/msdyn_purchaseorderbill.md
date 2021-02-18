@@ -1546,3 +1546,5 @@ See msdyn_taxcode Entity [msdyn_msdyn_taxcode_msdyn_purchaseorderbill_TaxCode](m
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_purchaseorderbill?text=msdyn_purchaseorderbill EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

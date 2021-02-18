@@ -889,3 +889,5 @@ See invoice Entity [bpf_invoice_msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d](invo
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d?text=msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

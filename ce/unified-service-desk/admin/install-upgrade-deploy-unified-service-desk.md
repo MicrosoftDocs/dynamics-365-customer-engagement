@@ -61,3 +61,6 @@ Before you can install and deploy [!INCLUDE[pn_unified_service_desk_for_crm](../
   
  [Connect to a instance using the Unified Service Desk client](../../unified-service-desk/admin/connect-dynamics-365-instance-using-unified-service-desk-client.md)   
  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

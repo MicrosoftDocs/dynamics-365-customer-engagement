@@ -50,3 +50,6 @@ Microsoft.CIFramework.getSession("session-id-1").then(
     }
 );
 ```
+
+
+[!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]

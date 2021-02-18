@@ -74,3 +74,5 @@ Session-level waitlist differ from event-level waitlists as follows:
 [Event planning and management](event-management.md)  
 [Set up an event](set-up-event.md)  
 [Set up and manage an event waitlist](event-waitlist.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

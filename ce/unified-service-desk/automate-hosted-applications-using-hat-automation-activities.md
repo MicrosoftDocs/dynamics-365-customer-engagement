@@ -32,3 +32,6 @@ search.app:
 
 ## Related Sections
  [Work with HAT Software Factory](../unified-service-desk/work-with-hat-software-factory.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

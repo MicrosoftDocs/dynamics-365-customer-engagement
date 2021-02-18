@@ -109,3 +109,6 @@ Find the resource related to the user you are attempting to log into the mobile 
 Under the Field Service section on the resource detail page, set enable drip scheduling to **No**, or leave it as yes and adjust the parameters.
 
 Finally, log into the mobile application and check if your bookings are now showing.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

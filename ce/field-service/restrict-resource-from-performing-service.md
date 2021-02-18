@@ -81,3 +81,6 @@ You can restrict a resource from performing a service and define the service cap
   
 ### See also  
  [Set work hours for a resource](../field-service/set-work-hours-resource.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

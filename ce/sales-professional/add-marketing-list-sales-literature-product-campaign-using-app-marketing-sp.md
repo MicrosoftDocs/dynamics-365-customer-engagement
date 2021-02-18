@@ -50,3 +50,6 @@ Add all items to your campaign that your need in this marketing context. Usually
 
 ### See Also  
 [Get started with in-app marketing](get-started-app-marketing-sp.md)   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

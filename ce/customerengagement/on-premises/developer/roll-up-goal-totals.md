@@ -60,3 +60,6 @@ To roll up data in the goal hierarchy, use the <xref:Microsoft.Crm.Sdk.Messages.
  [Sample: Roll Up Goal Data for a Custom Period Against the Target Revenue](sample-rollup-goal-data-custom-period-target-revenue.md)   
  [Sample: Roll Up Goal Data for a Fiscal Period Against the Stretch Target Count](sample-rollup-goal-data-fiscal-period-stretch-target-count.md)   
  [Goal Entity](entities/goal.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

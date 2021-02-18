@@ -133,3 +133,6 @@ If working with Organization Service, use <xref:Microsoft.Xrm.Sdk.Messages.Retri
  [Sample: Create and Update an Emailable Entity](org-service/sample-create-update-emailable-entity.md)   
  [Sample: Dump Entity Metadata to a File](org-service/sample-dump-entity-metadata-file.md)   
  [Sample: Dump Entity Privlege Information to a File](org-service/sample-dump-entity-privilege-information-file.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

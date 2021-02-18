@@ -68,3 +68,6 @@ In Omnichannel for Customer Service, you can:
 ### See also
 
 [Configure a WhatsApp channel](configure-whatsapp-channel.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

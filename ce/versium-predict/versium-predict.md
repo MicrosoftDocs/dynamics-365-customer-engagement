@@ -36,3 +36,6 @@ ms.reviewer:
  [![Reader button](../versium-predict/media/reader-button.png "Reader button")](https://go.microsoft.com/fwlink/p/?LinkId=328957) [Versium Predict Setup Guide](https://predict-help.versium.com/wp-content/uploads/Versium-Predict-Setup-Guide-Microsoft-Dynamics-365.pdf)
 
  [![Reader button](../versium-predict/media/reader-button.png "Reader button")](https://go.microsoft.com/fwlink/p/?LinkId=328957) [Versium Predict User Guide](https://predict-help.versium.com/predict-for-dynamics-365-user-guide)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

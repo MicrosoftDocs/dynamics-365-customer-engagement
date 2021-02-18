@@ -107,3 +107,6 @@ Flows that are shipped out-of-the-box are managed and cannot be changed. If you 
 ## Additional notes
 
 - Creating custom Power Automate flows will require appropriate licensing for Power Automate. For more information, see [Power Automate pricing](https://preview.flow.microsoft.com/en-us/pricing/).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

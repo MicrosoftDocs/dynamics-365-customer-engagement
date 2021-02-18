@@ -2333,3 +2333,5 @@ See list Entity [List_BulkOperations](list.md#BKMK_List_BulkOperations) One-To-M
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.bulkoperation?text=bulkoperation EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

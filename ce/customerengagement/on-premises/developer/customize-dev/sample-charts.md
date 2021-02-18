@@ -589,3 +589,6 @@ This topic contains sample charts along with the respective data description and
  [Create a Chart](create-visualization-chart.md)   
  [View Data with Visualizations (Charts)](view-data-with-visualizations-charts.md)   
  [Sample Code for Charts (Visualizations)](sample-code-charts-visualizations.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

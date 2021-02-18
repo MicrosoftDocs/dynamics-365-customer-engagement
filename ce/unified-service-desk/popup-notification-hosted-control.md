@@ -101,3 +101,6 @@ Use the **Popup Notification** hosted control type to display notifications in [
 ### See also  
  [How to configure notifications in Unified Service Desk](../unified-service-desk/configure-notifications-unified-service-desk.md)   
  [Create a user-defined event](../unified-service-desk/create-user-defined-event.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

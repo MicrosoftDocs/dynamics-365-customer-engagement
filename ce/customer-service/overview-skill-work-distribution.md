@@ -76,3 +76,6 @@ To view more videos on Omnichannel for Customer Service, see [Videos](videos.md)
 [Enable skill-based routing and create rating model](enable-skill-routing-create-rating-model.md)  
 [Set up skills and assign agents](setup-skills-assign-agents.md)  
 [Attach skills to conversation](attach-skills.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

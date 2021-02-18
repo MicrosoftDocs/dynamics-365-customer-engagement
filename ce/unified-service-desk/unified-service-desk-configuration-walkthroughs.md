@@ -46,3 +46,6 @@ Each walkthrough in this section covers an area or a combination of areas in [!I
  [Walkthrough: Create a UII WPF Hosted Control](../unified-service-desk/walkthrough-create-uii-wpf-hosted-control.md)  
   
  [Walkthrough: Use the generic listener adapter for CTI event routing](../unified-service-desk/walkthrough-use-the-generic-listener-adapter-for-cti-event-routing.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

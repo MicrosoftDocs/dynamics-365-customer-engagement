@@ -27,3 +27,6 @@ applies_to:
 
 - [Client-side events](../client-side-events.md)
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

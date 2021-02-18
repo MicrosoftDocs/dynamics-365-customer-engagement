@@ -50,3 +50,6 @@ Create sites to define the locations where you provide service to your customers
 ### See also  
 
 [Schedule a service activity (Customer Service app)](../customer-service/schedule-service-activity-cs-app.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

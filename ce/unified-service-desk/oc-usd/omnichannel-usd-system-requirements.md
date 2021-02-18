@@ -32,3 +32,5 @@ For other hardware requirements of the Unified Service Desk client application, 
 
 [Deploy Unified Service Desk- Omnichannel for Customer Service package](omnichannel-customer-service-package.md)
 [Configure settings for Unified Desk](configure-settings-unified-service-desk.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

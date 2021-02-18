@@ -1162,3 +1162,5 @@ See systemuser Entity [msdyn_systemuser_msdyn_systemuserschedulersetting_User](s
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_systemuserschedulersetting?text=msdyn_systemuserschedulersetting EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

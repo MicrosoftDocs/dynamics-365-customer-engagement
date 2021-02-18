@@ -52,3 +52,6 @@ Use the [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interfac
  [Unified Service Desk Hosted Controls](../unified-service-desk/unified-service-desk-hosted-controls.md)  
   
  [Programming reference](../unified-service-desk/programming-reference.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

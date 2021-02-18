@@ -25,3 +25,6 @@ ms.custom:
 [Add a Channel Integration Framework solution as a dependent solution](add-cif-solution-dependent-solution.md)
 
 [Authenticate channel users to the channel (widget)](authenticate-channel-users.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

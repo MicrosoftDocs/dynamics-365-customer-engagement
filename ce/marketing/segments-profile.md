@@ -216,3 +216,6 @@ To find, view, and edit the query, scroll to the bottom of the page and open the
 ### See also
 
 [Working with segments](segmentation-lists-subscriptions.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

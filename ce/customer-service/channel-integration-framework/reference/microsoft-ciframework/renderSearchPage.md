@@ -19,3 +19,6 @@ applies_to:
 [!INCLUDE[renderSearchPage-description](includes/renderSearchPage-description.md)] 
 
 [!INCLUDE[token-renderSearchPage](../../shared/token-renderSearchPage.md)]
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

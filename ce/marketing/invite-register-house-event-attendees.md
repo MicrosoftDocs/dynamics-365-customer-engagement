@@ -67,3 +67,6 @@ More information: [Manage attendee logistics and accommodation availability](man
 [Customer journey tiles reference](customer-journey-tiles-reference.md)  
 [Set up the event website](set-up-event-portal.md)  
 [Create an interactive customer journey with conditions and signup](create-interactive-customer-journey.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

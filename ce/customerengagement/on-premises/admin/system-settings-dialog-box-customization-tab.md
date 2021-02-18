@@ -48,3 +48,6 @@ Use the Customization tab in System Settings to set preferences for plug-in and 
   
 ### See also  
  [Debug a plug-in](../developer/debug-plugin.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

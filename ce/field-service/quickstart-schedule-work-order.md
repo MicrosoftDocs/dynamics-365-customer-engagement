@@ -231,3 +231,6 @@ In the **Booking** tab, see the work order you scheduled to your technician book
 
  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

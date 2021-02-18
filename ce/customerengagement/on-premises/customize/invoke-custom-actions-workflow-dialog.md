@@ -68,3 +68,6 @@ Workflows have numerous capabilities supporting business scenarios. Calling basi
  [Configure custom actions from a workflow](../customize/configure-actions.md)</br>
  [Workflow processes overview](../customize/workflow-processes.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

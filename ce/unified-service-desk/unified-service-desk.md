@@ -102,3 +102,6 @@ See the video to know [What's New in Unified Service Desk 3.3](https://go.micros
 ### See also
 
  <a href="https://blogs.msdn.com/b/usd/" data-raw-source="[Unified Service Desk Team Blog](https://blogs.msdn.com/b/usd/)">Unified Service Desk Team Blog</a>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

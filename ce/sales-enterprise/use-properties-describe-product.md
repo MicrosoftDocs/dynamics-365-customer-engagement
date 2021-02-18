@@ -91,3 +91,6 @@ When you revise a product and change the properties, [!INCLUDE[pn-dyn-365-sales]
  [Set up a product catalog](set-up-product-catalog-walkthrough.md)   
  [System Settings dialog box - Sales tab](../admin/system-settings-dialog-box-sales-tab.md)   
  [Create a product family](../sales-enterprise/create-product-family.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

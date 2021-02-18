@@ -152,3 +152,6 @@ To add the code snippet, you need to follow the steps below:
       }
     });
     ```
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

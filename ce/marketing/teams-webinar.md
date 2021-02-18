@@ -145,3 +145,6 @@ Once the live event is over, the attendees can view the recording of the event b
 
 [Event management settings](events-settings.md)  
 [Set up a webinar](set-up-webinar.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

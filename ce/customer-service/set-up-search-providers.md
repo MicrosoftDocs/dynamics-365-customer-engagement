@@ -95,3 +95,6 @@ For more information about the agent search experience, see [Search for knowledg
 [Understand knowledge base search mechanisms](knowledge-base-search-methods.md)
 
 [Search for knowledge articles in the Customer Service Hub](search-knowledge-articles-csh.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

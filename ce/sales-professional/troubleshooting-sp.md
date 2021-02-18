@@ -63,3 +63,5 @@ Try the following steps to resolve this issue:
 ### See also
 
 [Sign up for a free trial of Dynamics 365 Sales Professional](try-dynamics365-sales-professional.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

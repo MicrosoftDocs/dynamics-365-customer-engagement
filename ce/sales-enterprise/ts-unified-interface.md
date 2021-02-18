@@ -58,3 +58,6 @@ All the out-of-the-box actions will be available and entities will be editable.
 ### See also
 
 [Dynamics 365 Sales troubleshooting guide](troubleshooting.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

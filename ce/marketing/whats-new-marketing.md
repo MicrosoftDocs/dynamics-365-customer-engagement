@@ -1047,3 +1047,6 @@ The Dynamics 365 Marketing November 2019 update includes the following bug fixes
 - Customer journeys: Individual marketing lists can now be reused across multiple customer journeys.
 - Websites: For website insights, the **Timeline** display has been renamed to **Visits**.
 - Customer Insights: Deleted contacts now sync correctly and more quickly.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

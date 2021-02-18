@@ -19,3 +19,6 @@ applies_to:
 [!INCLUDE[getWidth](includes/getWidth-description.md)]
 
 [!INCLUDE[token-getWidth](../../../shared/token-getWidth.md)]
+
+
+[!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]

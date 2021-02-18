@@ -208,3 +208,6 @@ After you have written your custom plug-in code, build the project to generate a
 > [!div class="nextstepaction"]
 > [Register and deploy custom plug-in to use your preferred geospatial data provider](register-deploy-custom-plugin-preferred-geospatial-data-provider.md)
     
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

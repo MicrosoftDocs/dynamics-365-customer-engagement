@@ -19,3 +19,6 @@ applies_to:
 [!INCLUDE[getClickToAct](includes/getClickToAct-description.md)]
 
 [!INCLUDE[token-getClickToAct](../../../shared/token-getClickToAct.md)]
+
+
+[!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]

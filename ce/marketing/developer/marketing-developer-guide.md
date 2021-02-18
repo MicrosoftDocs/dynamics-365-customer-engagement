@@ -46,3 +46,6 @@ search.app:
 [Administrator Guide (Marketing)](../admin-guide.md)  
 [User Guide (Marketing)](../../marketing/user-guide.md)  
 [Developer Guide for Dynamics 365](../../developer/developer-guide.md) 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

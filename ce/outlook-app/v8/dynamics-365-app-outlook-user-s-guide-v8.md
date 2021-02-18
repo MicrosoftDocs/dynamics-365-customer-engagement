@@ -768,3 +768,6 @@ With Dynamics 365 App for Outlook in pinned mode, you can select an email messag
   
 -   Any record or activity tile  
   
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -50,3 +50,6 @@ The following table lists the minimum recommended hardware requirements when you
 > [!NOTE]
 >  Successful network installation of [!INCLUDE[pn-crm-for-outlook-short](../../includes/pn-crm-for-outlook-short.md)] requires a reliable and high-throughput network. Otherwise, installation might fail. The recommended minimum available bandwidth of the network connection is 300 Kbps.  
   
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

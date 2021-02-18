@@ -23,3 +23,5 @@ Use the resources in the following sections to learn how to use Omnichannel for 
 - [Customize Customer summary form](customize-customer-summary.md)
 - [Customize the session form](customize-session-form.md)
 - [Customize quick view forms](customize-quick-view-form.md)  
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

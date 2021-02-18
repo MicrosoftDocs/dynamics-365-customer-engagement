@@ -146,3 +146,6 @@ Auto-save helps people focus on their work without having to manage saving data 
  [How main forms appear in different clients](../customize/main-form-presentations.md)   
  [Optimize form performance](../customize/optimize-form-performance.md)   
  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

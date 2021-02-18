@@ -562,3 +562,5 @@ See site Entity [site_resources](site.md#BKMK_site_resources) One-To-Many relati
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.resource?text=resource EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

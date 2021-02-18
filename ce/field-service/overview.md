@@ -135,3 +135,6 @@ Work orders describe the work that a technician needs to perform at a customer l
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWs4Cu]
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

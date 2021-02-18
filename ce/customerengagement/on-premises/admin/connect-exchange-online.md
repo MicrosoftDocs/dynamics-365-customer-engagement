@@ -286,3 +286,6 @@ Admins, as described in the Permission model table, can change the settings so m
 ### See also  
  [Troubleshooting and monitoring server-side synchronization](../admin/troubleshooting-monitoring-server-side-synchronization.md)   
  [Test mail flow with the Remote Connectivity Analyzer](https://technet.microsoft.com/library/dn305950\(v=exchg.150\).aspx)   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

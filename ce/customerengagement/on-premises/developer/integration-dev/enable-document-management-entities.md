@@ -46,3 +46,6 @@ Document management can be enabled for those entities in [!INCLUDE[pn_dynamics_c
  [SharePoint Extensions for Dynamics 365 Customer Engagement (on-premises)](integrate-sharepoint.md)   
  [Actions on SharePoint Location Records](actions-on-sharepoint-location-records.md)   
  [Sample: Enable SharePoint Integration](sample-enable-document-management-entities.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

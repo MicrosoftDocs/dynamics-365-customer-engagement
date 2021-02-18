@@ -87,3 +87,6 @@ Now, proceed to the next section of this walkthrough that shows how you can sear
 [Create an ASP.NET Framework web app in Azure](https://docs.microsoft.com/azure/app-service/app-service-web-get-started-dotnet-framework)
 
 [Frequently asked questions](faq-channel-integration-framework.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -119,3 +119,6 @@ search.audienceType:
 ### See also  
  [Troubleshoot SharePoint Online integration](troubleshoot-set-up-sharepoint-online.md) <br />
  [Permissions required for document management tasks](../admin/permissions-required-document-management-tasks.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

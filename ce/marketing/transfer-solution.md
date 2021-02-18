@@ -161,3 +161,5 @@ To import a solution:
 [Environments overview](https://docs.microsoft.com/power-platform/admin/environments-overview)  
 [Move configuration data across environments and organizations](https://docs.microsoft.com/power-platform/admin/manage-configuration-data)  
 [Import, update, and export solutions](https://docs.microsoft.com/powerapps/maker/common-data-service/import-update-export-solutions)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

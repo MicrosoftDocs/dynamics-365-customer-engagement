@@ -46,3 +46,5 @@ You can attach only generic type of templates to work streams. By default, the o
 [Manage session templates](session-templates.md)  
 [Manage application tab templates](application-tab-templates.md)  
 [Manage notification templates](notification-templates.md)  
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -47,3 +47,6 @@ Use the resources in the following sections to learn how to use Omnichannel for 
 - [Search, link, and unlink a record](oc-search-link-unlink-record.md)
 - [Manage presence status](oc-manage-presence-status.md)
 - [Take notes specific to conversation](oc-take-notes.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

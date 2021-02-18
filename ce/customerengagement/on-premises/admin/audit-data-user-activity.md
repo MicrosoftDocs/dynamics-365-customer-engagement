@@ -140,3 +140,6 @@ System administrators and customizers can start or stop auditing for an organiza
 ### See also  
  [Manage security, users and teams](../admin/manage-security-users-and-teams.md)   
  [Getting started with customization](../customize/getting-started-customization.md)   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -87,3 +87,6 @@ Each event registration record includes the values that the registrant entered f
     ![Custom field values submitted for a single registration](media/event-reg-field-single-registration-responses.png "Custom field values submitted for a single registration")
 
 1. The **Registration responses** table here shows each custom-field value that was submitted together with this event registration.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

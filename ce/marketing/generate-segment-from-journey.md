@@ -79,3 +79,6 @@ To generate segments based on incomplete journeys:
 [Design behavioral segments](segments-interaction.md)  
 [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)  
 [Analyze results to gain insights from your marketing activities](insights.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

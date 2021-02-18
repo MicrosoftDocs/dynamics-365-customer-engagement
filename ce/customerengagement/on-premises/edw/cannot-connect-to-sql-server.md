@@ -45,3 +45,6 @@ ms.author: matp
   
 -   Contact your [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] administrator to verify that you can connect to the instance of [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] that is used for [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] and that a firewall is not blocking access to that port. By default, the port to connect to a [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] is TCP 1433.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

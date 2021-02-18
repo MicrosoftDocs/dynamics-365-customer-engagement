@@ -30,3 +30,6 @@ When you get an incoming conversation request, you see a notification and accept
 - [View conversation and session forms in the model-driven apps](view-omnichannel-conversation-session.md)
 - [Search for records](search-record.md)
 - [Link and unlink a record](link-unlink-record.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

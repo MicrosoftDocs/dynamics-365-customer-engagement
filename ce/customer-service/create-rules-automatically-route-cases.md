@@ -202,3 +202,6 @@ Perform the following steps before you upgrade a solution:
 ### See also
 
 [Create and manage queues](set-up-queues-manage-activities-cases.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

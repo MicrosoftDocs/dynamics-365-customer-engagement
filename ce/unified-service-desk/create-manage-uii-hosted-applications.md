@@ -131,3 +131,6 @@ A [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-inte
 ### See also  
  [Integrate with external applications and web applications](../unified-service-desk/integrate-external-applications-web-applications.md)   
  [Integrate with Citrix applications](../unified-service-desk/integrate-citrix-applications.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

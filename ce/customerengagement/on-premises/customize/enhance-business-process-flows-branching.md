@@ -118,3 +118,6 @@ Business process flows guide you through various stages of sales, marketing, or 
  [Create a business process flow](../customize/create-business-process-flow.md)   
  [Create custom business logic with processes](../customize/guide-staff-through-common-tasks-processes.md)   
  [Understand security roles](../admin/security-roles-privileges.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

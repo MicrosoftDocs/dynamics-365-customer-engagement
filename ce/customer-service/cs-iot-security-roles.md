@@ -31,3 +31,6 @@ In general, access to IoT entities should mimic access to the customer asset ent
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

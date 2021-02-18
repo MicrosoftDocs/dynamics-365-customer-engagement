@@ -173,3 +173,6 @@ If you have users and offices around the world, it is important to properly repr
  [Customize Entity Attribute Metadata](customize-entity-attribute-metadata.md)          
  <xref:Microsoft.Xrm.Sdk.Messages.ConvertDateAndTimeBehaviorRequest>      
  <xref:Microsoft.Xrm.Sdk.Metadata.DateTimeAttributeMetadata>  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

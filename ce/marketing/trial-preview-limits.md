@@ -34,3 +34,6 @@ Trials of Dynamics 365 Marketing are subject to the following limits and restric
 The above limits are applicable to all users of the Dynamics 365 Marketing trial and are subject to change. Final limits may be materially different for production versions of Dynamics 365 Marketing.
 
 More information: [Sign up for a free trial of Dynamics 365 Marketing](trial-signup.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

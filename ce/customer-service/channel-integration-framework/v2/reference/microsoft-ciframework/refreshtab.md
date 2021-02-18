@@ -46,3 +46,6 @@ Microsoft.CIFramework.refreshTab(tabId, correlationId).then(
         return Promise.reject(error)
 });
 ```
+
+
+[!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]

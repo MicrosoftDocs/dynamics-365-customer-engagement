@@ -74,3 +74,6 @@ Two [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator widgets 
 [Install and enable LinkedIn Sales Navigator](install-sales-navigator.md)     
 [Customize forms to show Sales Navigator controls](add-sales-navigator-controls-forms.md)    
 [Work with Sales Navigator controls on forms](view-sales-navigator-forms.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -29,3 +29,6 @@ search.app:
  [Hosted control types and action/event reference](../../unified-service-desk/hosted-control-types-actions-events.md)  
 
  [Walkthrough 6: Configure the Debugger hosted control in your agent application](../../unified-service-desk/walkthrough-configure-debugger-hosted-control-agent-application.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

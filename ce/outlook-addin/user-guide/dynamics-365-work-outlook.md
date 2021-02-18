@@ -95,3 +95,6 @@ If you’re like many people, you use [!INCLUDE[pn_MS_Outlook_Short](../../inclu
  [Create a Microsoft Word mail-merge document with Dynamics 365 for Outlook](create-word-mail-merge-document.md)   
  [Customize the Reading Pane in Dynamics 365 for Outlook](customize-reading-pane.md)   
  [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 apps and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)   
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

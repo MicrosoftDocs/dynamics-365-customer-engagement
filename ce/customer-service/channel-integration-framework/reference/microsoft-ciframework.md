@@ -62,3 +62,6 @@ These APIs enable you to perform CRUD operations on entity records.
 [What's new in Channel Integration Framework](../whats-new-channel-integration-framework.md)
 
 [System requirements for Channel Integration Framework](../system-requirements-channel-integration-framework.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -218,3 +218,6 @@ To reconfigure the app, from the site map ![Site map icon](media/d365_mobile_sit
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -115,3 +115,6 @@ Do the following to specify operating hours for a queue:
 [Create quick replies](create-quick-replies.md) <br>
 [Create chat authentication settings](create-chat-auth-settings.md) <br>
 [Embed chat widget in Power Apps portals](embed-chat-widget-portal.md) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -47,3 +47,6 @@ This sample code is for Dynamics 365 Customer Engagement (on-premises). See the 
  [Sample Code for Processes](sample-code-processes.md)   
 <xref:Microsoft.Xrm.Sdk.IOrganizationService>   
  <xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

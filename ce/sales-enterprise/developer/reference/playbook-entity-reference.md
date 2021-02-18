@@ -32,3 +32,6 @@ Use this reference to understand the available operations that can be performed 
 
 [Developer Guide for Sales](../developer-guide.md)<br />
 [Enforce best practices with playbooks](../../enforce-best-practices-playbooks.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -84,3 +84,6 @@ This article describes what’s needed to author [!INCLUDE[pn_dynamics_crm](../i
  
 
  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

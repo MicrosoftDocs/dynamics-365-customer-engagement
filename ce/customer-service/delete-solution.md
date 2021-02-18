@@ -108,3 +108,6 @@ The following steps describe how to delete the solution from your organization.
 [Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md)  
 [Omnichannel for Customer Service on Unified Service Desk](../unified-service-desk/oc-usd/omnichannel-customer-service-unified-service-desk.md)  
 [Deploy Unified Service Desk - Omnichannel for Customer Service package](../unified-service-desk/oc-usd/omnichannel-customer-service-package.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

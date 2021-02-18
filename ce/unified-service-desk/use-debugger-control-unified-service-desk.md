@@ -66,3 +66,6 @@ To use debugger control in one of your sample [!INCLUDE[pn_unified_service_desk]
 ### See also  
  [Walkthrough 6: Configure the Debugger hosted control in your agent application](../unified-service-desk/walkthrough-configure-debugger-hosted-control-agent-application.md)   
  [Debug your custom code for Unified Service Desk](../unified-service-desk/debug-custom-code-unified-service-desk.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
