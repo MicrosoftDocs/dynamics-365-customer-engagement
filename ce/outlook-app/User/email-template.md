@@ -24,7 +24,7 @@ search.app:
 
 # Add an email template 
 
-If you frequently send the same type of email, you can save time by using an email template. When you use an email template, Dynamics 365 App for Outlook automatically inserts the information such as contacts or set regarding information in the email message.
+If you frequently send the same type of email, save time by using an email template. When you use an email template, Dynamics 365 App for Outlook automatically inserts the information in the email message.
 
 For example, you could use a **Thank you** template to save time whenever you want to send a thank you message to a customer.
 
