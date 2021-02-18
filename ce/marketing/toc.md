@@ -276,3 +276,5 @@
 ### [Partner Sales and Marketing](learning-sales.md)
 
 ## [Troubleshoot with Solution Health Hub](troubleshoot-marketing-solution-health.md)
+
+## [General FAQs](troubleshoot-faq.md)
