@@ -22,3 +22,6 @@ ms.author: matp
   
  To ensure these applications work correctly, if [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] and [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] are installed on the same computer, the program files must be installed in different folders. By default, the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] program files are installed in the C:\Program Files\Microsoft Dynamics 365 for Customer Engagement folder. To install [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)], do not use the default folder as shown on the Install Location screen during Setup. Instead, manually change the install location to a different folder and then complete Setup.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

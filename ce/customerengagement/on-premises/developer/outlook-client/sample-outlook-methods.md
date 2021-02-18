@@ -56,3 +56,6 @@ Display an option to delete the sample data that is created in [Setup](#setup). 
  <xref:Microsoft.Crm.Outlook.Sdk.CrmOutlookService>   
  <xref:Microsoft.Crm.Outlook.Sdk.CrmOutlookService.GoOnline>   
  <xref:Microsoft.Crm.Outlook.Sdk.CrmOutlookService.GoOffline>
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

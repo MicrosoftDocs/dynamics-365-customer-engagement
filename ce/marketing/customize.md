@@ -55,3 +55,6 @@ More information: [Design model-driven apps by using the app designer](https://d
 ## Advanced customization through coding
 
 Advanced customization and integration with external systems is possible through code-based interactions with the system's various APIs. For details about writing code and developing for Dynamics 365 Marketing and other model-driven apps in Dynamics 365, see the [developer documentation for Power Apps](https://docs.microsoft.com/powerapps/#pivot=home&panel=developer).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

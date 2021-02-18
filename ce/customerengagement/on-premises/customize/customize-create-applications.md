@@ -29,3 +29,6 @@ This section describes how to create apps and the components that you include in
 
 ### See also
 [Design custom business apps by using the app designer](design-custom-business-apps-using-app-designer.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

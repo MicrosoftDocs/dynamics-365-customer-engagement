@@ -46,3 +46,6 @@ Refer to the following documents and web pages for legal information about [!INC
  [Overview for commissioners and game managers in Gamification](for-commissioners-game-managers.md)   
  [Install and configure the Gamification solution](manage-gamification-in-dynamics-365-online.md)   
  [Manage Stream TV games in Gamification](configure-view-tvs.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

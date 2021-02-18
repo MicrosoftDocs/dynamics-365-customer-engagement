@@ -42,3 +42,6 @@ You can find the published version number by going to **Mobile projects**, as se
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the latest version information under mobile projects](./media/mobile-project-publish-version.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -59,3 +59,6 @@ Properties represent fields of data stored in the entity. Some properties are re
 ### See also
 
 [Entity reference for playbooks](../playbook-entity-reference.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

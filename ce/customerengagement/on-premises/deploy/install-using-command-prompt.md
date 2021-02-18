@@ -94,3 +94,6 @@ By default, Setup installs all Dynamics 365 Server roles on the local computer. 
  [Microsoft Dynamics 365 Server XML configuration file](microsoft-dynamics-365-server-xml-configuration-file.md)  </br> 
  [Sample XML configuration file that installs only the WebApplicationServer role](sample-xml-config-webapp-organizationweb.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

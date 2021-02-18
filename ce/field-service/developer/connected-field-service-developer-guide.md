@@ -49,3 +49,6 @@ search.app:
  [Connected Field Service architecture](connected-field-service-architecture.md)   
  [Extend Connected Field Service solutions](extend-connected-field-service-solutions.md)<br>
  [Developer Guide for Dynamics 365](../../developer/developer-guide.md)   
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

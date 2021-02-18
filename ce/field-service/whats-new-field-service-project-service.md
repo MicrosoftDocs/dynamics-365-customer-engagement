@@ -193,3 +193,6 @@ These updates apply to Dynamics 365 (online), version 8.x.
 ### See also  
  [Dynamics 365 Field Service - User's Guide](../field-service/user-guide.md)   
  [Dynamics 365 Project Service Automation - User's Guide](../project-service/admin-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

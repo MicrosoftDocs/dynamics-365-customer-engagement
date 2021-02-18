@@ -40,3 +40,6 @@ This behavior is applicable on all the leads that are qualified after this setti
 
 ### See also
 [Create or manage leads](manage-leads-sales-professional.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

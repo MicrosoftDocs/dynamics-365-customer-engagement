@@ -39,3 +39,6 @@ kaobject["content"] = "Hello World";
 
 [Create a knowledge article using template](create-knowledge-article-using-template.md)<br />
 [Tutorial: Write and register a plug-in](/powerapps/developer/common-data-service/tutorial-write-plug-in)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

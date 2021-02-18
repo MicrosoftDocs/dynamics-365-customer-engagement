@@ -21,3 +21,6 @@ ms.author: matp
   
  After Setup is complete, run Windows Update to download and install the Microsoft .NET Framework update. Or see [Microsoft .NET Framework 4 (Web Installer)](https://go.microsoft.com/fwlink/p/?LinkID=204758) to download the Microsoft .NET Framework update and see a description of the update.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

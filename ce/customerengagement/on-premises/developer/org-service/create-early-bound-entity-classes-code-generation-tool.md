@@ -116,3 +116,6 @@ The following sample shows how to configure the output file and the domain name 
  [Late-bound and Early-bound programming using the Organization service](/powerapps/developer/common-data-service/org-service/early-bound-programming)<br />
  [Troubleshooting Tips](troubleshooting-tips.md)<br />
  [Run a simple program using Customer Engagement web services](../simple-program-web-services.md)<br />
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

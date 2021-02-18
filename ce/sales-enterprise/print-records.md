@@ -27,3 +27,6 @@ If you need a paper copy of a record such as a contact, lead, quote, or invoice,
 ### See also
 
 [Create PDF files from sales records](create-quote-pdf.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

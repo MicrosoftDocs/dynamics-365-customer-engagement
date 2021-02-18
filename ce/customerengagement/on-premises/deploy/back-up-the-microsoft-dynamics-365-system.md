@@ -126,3 +126,6 @@ To recover from any scenario, you must back up all needed information and store 
  [Microsoft Dynamics 365 data protection and recovery](microsoft-dynamics-365-data-protection-and-recovery.md) </br>
  [Exporting and importing customizations and solutions](exporting-and-importing-customizations-and-solutions.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

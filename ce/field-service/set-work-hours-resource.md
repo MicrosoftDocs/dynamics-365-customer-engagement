@@ -206,3 +206,6 @@ You can set the hours a user works or set the operating hours for a facility or 
  [Set the capacity required for a service or resource](../field-service/set-capacity-required-service-resource.md)   
  [Set when your business is closed](../field-service/set-when-business-closed.md)   
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

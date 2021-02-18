@@ -96,3 +96,6 @@ After the chat widget is configured, it has the following capabilities:
 [Create and manage operating hours](create-operating-hours.md) <br>
 [Create chat authentication settings](create-chat-auth-settings.md) <br>
 [Render a live chat widget on the mobile app](render-live-chat-widget-mobile.md) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

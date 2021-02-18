@@ -946,3 +946,5 @@ See pricelevel Entity [msdyn_pricelevel_msdyn_resourcecategorymarkuppricelevel_P
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_resourcecategorymarkuppricelevel?text=msdyn_resourcecategorymarkuppricelevel EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

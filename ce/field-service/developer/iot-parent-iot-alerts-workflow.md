@@ -40,3 +40,6 @@ The **IoT - Parent IoT Alerts** workflow links potential redundant alerts to an 
 |----------|----------|--------------|-------------|-----------------|  
 |TimespanSeconds|Edm.Int32|false||Determines the time window to consider when parenting (or suppressing) an alert, from 60 to 180 seconds.|
 | | | | | |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

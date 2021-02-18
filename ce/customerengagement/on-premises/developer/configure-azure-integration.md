@@ -80,3 +80,6 @@ For [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] on-premises and 
 [Using the Provided Azure Plug-in](work-data-azure-solution.md)<br />
 [Writing a Listener for a Azure Solution](write-listener-application-azure-solution.md)<br />
 [Azure Platform – Getting Started](https://www.microsoft.com/windowsazure/learn/get-started/)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -67,3 +67,6 @@ To delete data in bulk, you have to submit a bulk delete job by using the <xref:
  [Sample: Bulk Delete Exported Records](sample-bulk-delete-exported-records.md)   
  [Sample: Bulk Delete Records That Match Common Criteria](sample-bulk-delete-records-match-common-criteria.md)   
  [BulkDeleteOperation Entity](entities/bulkdeleteoperation.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

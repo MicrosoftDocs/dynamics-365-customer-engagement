@@ -26,3 +26,6 @@ ms.author: matp
   
 -   Obtain a [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] Edition license. This version of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] supports installing server roles on separate computers.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

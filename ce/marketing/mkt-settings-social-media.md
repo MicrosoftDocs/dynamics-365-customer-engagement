@@ -48,3 +48,6 @@ You can delete a social configuration at any time to prevent Dynamics 365 Market
 
 [Open the advanced settings](open-advanced-settings.md)  
 [Schedule and post messages on social media](social-posting.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

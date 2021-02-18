@@ -601,3 +601,6 @@ Dynamics 365 for tablets connections to Microsoft Dynamics CRM 2015 or later req
 ## Privacy notice  
  [!INCLUDE[cc_privacy_crm_for_tablets](../../../includes/cc-privacy-crm-for-tablets.md)]  
   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

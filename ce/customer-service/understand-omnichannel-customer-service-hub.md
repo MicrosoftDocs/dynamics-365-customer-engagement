@@ -75,3 +75,6 @@ This allows organizations to tightly define the work profile that their agents a
 [Entity routing](entity-channel.md)
 
 [Assign roles and enable users](add-users-assign-roles.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

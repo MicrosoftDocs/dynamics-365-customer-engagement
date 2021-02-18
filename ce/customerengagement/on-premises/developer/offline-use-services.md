@@ -33,3 +33,6 @@ search.audienceType:
  <xref:Microsoft.Xrm.Sdk.IOrganizationService>   
  <xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>   
  <xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

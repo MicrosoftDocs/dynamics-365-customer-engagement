@@ -37,3 +37,6 @@ Depending on your environment, there are several Dynamics 365 for Customer Engag
 
 Administrators set up document management, specify permissions for managing tasks, and ensure that the [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] site URLs are correct.  
   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

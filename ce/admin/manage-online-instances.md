@@ -21,3 +21,6 @@ search.app:
 # Manage instances
 
 Management of instances (now called environments) has transitioned to the [Power Platform Admin center](https://admin.powerplatform.microsoft.com). For more information, see [Environments overview](https://docs.microsoft.com/power-platform/admin/environments-overview).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

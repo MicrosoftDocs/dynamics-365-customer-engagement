@@ -37,3 +37,6 @@ As you administer [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], y
 [Administer the deployment using Windows PowerShell](administer-the-deployment-using-windows-powershell.md) <br/>
 [Use Deployment Manager to manage the deployment](use-deployment-manager-to-manage-the-deployment.md) <br/> 
 [Microsoft Dynamics 365 Customer Engagement (on-premises) database maintenance](microsoft-dynamics-365-database-maintenance.md) -->
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

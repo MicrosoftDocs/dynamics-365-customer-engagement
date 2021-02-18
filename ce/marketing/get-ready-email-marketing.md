@@ -190,3 +190,6 @@ The follow code snippet is an example section from the IP ranges document. The s
 
 [Create a marketing email and go live](create-marketing-email.md)  
 [Email marketing overview](prepare-marketing-emails.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

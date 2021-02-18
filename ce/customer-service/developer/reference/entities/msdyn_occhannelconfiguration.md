@@ -689,3 +689,6 @@ Same as msdyn_occhannelstateconfiguration entity [msdyn_msdyn_occhannelconfigura
 
 [Introduction to Omnichannel for Customer Service](../../../introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

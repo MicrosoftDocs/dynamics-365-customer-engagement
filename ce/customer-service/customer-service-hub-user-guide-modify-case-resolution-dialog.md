@@ -228,3 +228,6 @@ You will know if a case has been successfully resolved per the status bar at the
 [Learn the basics of the Customer Service Hub](customer-service-hub-user-guide-basics.md)
 
 [Use the main form and its components](../customerengagement/on-premises/customize/use-main-form-and-components.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

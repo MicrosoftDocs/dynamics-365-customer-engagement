@@ -41,3 +41,6 @@ In Dynamics 365 Customer Engagement (on-premises), *list management* and the *li
  <xref:Microsoft.Crm.Sdk.Messages.CopyDynamicListToStaticRequest>   
  [Marketing Entities (Campaign, List)](marketing-entities-campaign-list.md)   
  [Sample: Distribute a Quick Campaign](sample-distribute-a-quick-campaign.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

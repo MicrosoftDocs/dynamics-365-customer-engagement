@@ -238,3 +238,6 @@ You can filter the information presented in the reports by selecting **Duration*
 [Configure Omnichannel Insights dashboard](configure-historical-sentiment-dashboard-supervisor.md)
 
 [Analyze real-time customer sentiment](enable-sentiment-analysis.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

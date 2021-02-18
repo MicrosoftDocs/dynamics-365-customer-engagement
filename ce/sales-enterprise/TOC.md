@@ -1,4 +1,4 @@
-# [Help resources for Dynamics 365 Sales](help-hub.md)
+# [Help resources for Dynamics 365 Sales Enterprise](help-hub.md)
 ## [Set up Dynamics 365 Sales](set-up-dynamics-365-sales.md)
 ## [Overview of Sales and Sales Hub](../sales-enterprise/overview.md)
 ## [What's new](../sales-enterprise/whats-new.md)
@@ -59,7 +59,7 @@
 #### [Configure forecasts in your organization](configure-forecast.md)
 #### [Select a template](select-template-forecast.md)
 #### [Define general properties and scheduling](define-general-properties-scheduling-forecast.md)
-#### [Provide viewing permissions](provide-permissions-forecast.md)
+#### [Provide viewing and adjustment privileges](provide-permissions-forecast.md)
 #### [Choose layout and columns](choose-layout-and-columns-forecast.md)
 #### [Apply additional filter](add-additional-filters.md)
 #### [Configure and manage drill-down entities](configure-manage-drill-downs.md)
@@ -80,6 +80,9 @@
 #### [Analyze your sales data using Power BI template apps](introduction-sales-template-apps.md)
 #### [Configure Power BI template apps to work with Dynamics 365 Sales](configure-sales-template-apps.md)
 #### [Customize Power BI template apps for Dynamics 365 Sales](customize-template-apps.md)
+
+### Integrate LinkedIn Sales Insights
+#### [Install or delete LinkedIn Sales Insights solution](install-lsi-solution.md)     
 
 ### [Configure Microsoft Teams dialer](configure-microsoft-teams-dialer.md)
 
@@ -108,6 +111,7 @@
 
 ### Manage customers
 #### [Work with accounts and contacts](../basics/accounts-contacts.md)
+#### [Understand the LinkedIn Sales Insights tab](understand-lsi-accounts-form.md)
 #### [Organize contacts in live org charts for accounts](live-org-chart.md)
 #### [Scan business cards](scan-business-cards.md)
 
@@ -316,7 +320,7 @@
 
 # Resources for other Sales apps
 ## [Help resources for Dynamics 365 Sales (Professional)](../sales-professional/help-hub.md)
-## [Dynamics 365 Sales Insights](/dynamics365/ai/sales/overview)
+## [Sales Insights Add-in for Dynamics 365 Sales](/dynamics365/ai/sales/overview)
 ## [Sales Team Member app for users with Team Member license](sales-team-member.md)
 ## Dynamics 365 Sales mobile app
 ### [Overview](sales-mobile/dynamics-365-sales-mobile-app.md)

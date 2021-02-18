@@ -51,3 +51,6 @@ Before you begin, make sure you have the System Administrator or System Customiz
 [Create resource groups](uci-create-resource-groups.md)
 
 [Navigate the service calendar](uci-navigate-service-calendar.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

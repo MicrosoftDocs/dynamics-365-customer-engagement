@@ -113,3 +113,6 @@ For entity routing, follow the instructions to [Export and import your flows acr
 [Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md)  
 [Enable third-party co-browse and screen sharing](third-party-co-browse.md)  
 [Overview of channels](channels.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

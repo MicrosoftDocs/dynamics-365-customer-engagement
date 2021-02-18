@@ -4,7 +4,7 @@ description: "Learn about the skill-based routing in Omnichannel for Customer Se
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 05/20/2020
+ms.date: 02/10/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -13,9 +13,11 @@ ms.service: dynamics-365-customerservice
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 > [!Note]
-> The data such as but not limited to skills, rating model, and rating value that is created, updated, and used in Omnichannel are shared between other model-driven apps (Field Service and Project Service Automation) installed in your environment. Similarly, the data that are created, updated, and used in other model-driven apps are available for use in Omnichannel.
+> The data such as but not limited to skills, rating model, and rating value that is created, updated, and used in Omnichannel for Customer Service is shared with other model-driven apps (Field Service and Project Service Automation) installed in your environment. Similarly, the data that are created, updated, and used in other model-driven apps are available for use in Omnichannel for Customer Service.
 
 In the customer service center, your agents have different skillsets and abilities. The customers who reach out to the contact center might have different needs. Skill-based routing lets your customer service center distribute the work item (conversation) to the agent who is best-qualified to solve the issue. Skill-based routing improves the quality of customer service by automatically distributing the work items to the agent who has the skills necessary to do the work.
+
+You can associate skills to bots also and route work items using skill-based routing.
 
 For example, for an incoming conversation related to **Xbox** from Spain, the skill required is knowledge of the **Xbox** product and **Spanish** language. Now, with skill-based routing, the system identifies the agents with those specific skills and distributes the conversation to one of them.
 
@@ -74,3 +76,6 @@ To view more videos on Omnichannel for Customer Service, see [Videos](videos.md)
 [Enable skill-based routing and create rating model](enable-skill-routing-create-rating-model.md)  
 [Set up skills and assign agents](setup-skills-assign-agents.md)  
 [Attach skills to conversation](attach-skills.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

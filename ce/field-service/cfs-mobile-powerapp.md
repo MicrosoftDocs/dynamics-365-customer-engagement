@@ -82,3 +82,6 @@ After an administrator has configured commands in Azure IoT, technicians can run
 Common commands include restart and shutdown, among other custom commands that are device-specific.
 
 From the IoT device record, go to **More ...** > **Send command** then choose a specific command.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

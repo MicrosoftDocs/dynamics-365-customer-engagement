@@ -66,3 +66,6 @@ This topic describes how to attach the customer summary-related action calls to 
 
 - [Step 1: Create customer summary hosted control](customer-summary-step1-create-hosted-control.md)
 - [Step 2: Create customer summary-related action calls](customer-summary-step2-create-action-calls.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

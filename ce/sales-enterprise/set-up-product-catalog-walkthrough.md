@@ -1,7 +1,7 @@
 ---
 title: "Set up a product catalog  Walkthrough (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Make it easier for your sales reps to increase their sales by creating a product catalog in Dynamics 365 Sales."
-ms.date: 10/01/2019
+ms.date: 02/10/2021
 ms.service: 
   - dynamics-365-sales
 ms.custom: 
@@ -35,3 +35,6 @@ Make it easier for your sales reps to increase their sales by creating a product
 ### See Also
  [Create a product family](../sales-enterprise/create-product-family.md)  
  [Overview of Sales](../sales-enterprise/user-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

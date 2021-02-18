@@ -4,7 +4,7 @@ description: "This topic provides release history information for the Unified Se
 author: v-sailab
 ms.author: v-sailab
 manager: shujoshi
-ms.date: 11/19/2020
+ms.date: 02/04/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -24,6 +24,16 @@ search.app:
 This is the release history page for the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] Guide.  
 
 ::: moniker range="dynamics-usd-4.1"
+
+<a name="Release_4_1_1433"></a>
+
+## Release history for Unified Service Desk 4.1.1.1433, December 2020
+
+This release supports the Dynamics 365 model-driven apps deployed in Switzerland region. There are no content-specific changes in this release.
+
+> [!NOTE]
+> - If your organization is using a previously released version of the Unified Service Desk 4.1 client application, you must uninstall the application and then install version 4.1.1.1433, instead of upgrading to version 4.1.1.1433.
+> - If your organization is using a previous version other than the Unified Service Desk 4.1 client application, you can upgrade to the version 4.1.1.1433.
 
 <a name="Release_4_1_2"></a>
 
@@ -233,3 +243,6 @@ Content for earlier version of Unified Service Desk continues to be available on
 | Version 3.2, February 2018 | [!INCLUDE[pn-unified-service-desk-3-2](../includes/pn-unified-service-desk-3-2.md)] update |
 | Version 3.1, November 2017 | [!INCLUDE[pn-unified-service-desk-3-1](../includes/pn-unified-service-desk-3-1.md)] update |
 | Version 3.0, August 2017   | [!INCLUDE[pn-unified-service-desk-3-0](../includes/pn-unified-service-desk-3-0.md)] update | -->
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

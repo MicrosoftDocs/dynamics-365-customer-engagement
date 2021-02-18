@@ -345,3 +345,6 @@ You will see the Barcode Scanner button ![Bar code scanner button](media/scanne
 
 Any embedded Power BI dashboard that requires authentication to access the report will not render.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

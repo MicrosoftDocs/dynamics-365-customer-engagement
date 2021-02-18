@@ -20,10 +20,13 @@ manager: kvivek
 
 
 The following Dynamics 365 Customer Engagement (on-premises) that are based on the Unified Interface framework are available and can be downloaded from Dynamics CustomerSource.
-- [Dynamics 365 for Sales](https://mbs.microsoft.com/customersource/northamerica/365Enterprise/downloads/product-releases/365salesappdownloads) 
-- [Dynamics 365 for Field Service](https://mbs.microsoft.com/customersource/northamerica/365Enterprise/downloads/product-releases/365fieldservice7) 
+- [Dynamics 365 for Sales](https://docs.microsoft.com/dynamics/s-e/) 
+- [Dynamics 365 for Field Service](https://docs.microsoft.com/dynamics/s-e/365enterprise/365fieldservice7_delta) 
  
  
 ## See also
 [About Unified Interface](../admin/about-unified-interface.md) <br/>
 [Post-installation and configuration guidelines for Dynamics 365 Customer Engagement (on-premises)](post-installation-configuration-guidelines-dynamics-365.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

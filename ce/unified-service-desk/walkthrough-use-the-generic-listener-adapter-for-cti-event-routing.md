@@ -193,3 +193,6 @@ This walkthrough demonstrates how you can use the CTI Desktop Manager and generi
 ### See also  
  [Integrate with CTI systems](../unified-service-desk/integrate-cti-systems-cti-adapters.md)   
  [UII Computer Telephony Integration (CTI) framework](../unified-service-desk/uii-computer-telephony-integration-cti-framework.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

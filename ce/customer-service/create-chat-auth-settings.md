@@ -234,3 +234,6 @@ If you are adding an authenticated chat experience to a custom website, your web
 [Create quick replies](create-quick-replies.md) <br>
 [Create and manage operating hours](create-operating-hours.md) <br>
 [Embed chat widget in Power Apps portals](embed-chat-widget-portal.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

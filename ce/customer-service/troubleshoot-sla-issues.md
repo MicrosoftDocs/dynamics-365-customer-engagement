@@ -106,3 +106,5 @@ This is expected behavior for SLAs in the web client. We recommend that you defi
 
 [Track SLA details with Timer Control](customer-service-hub-user-guide-case-sla.md#track-sla-details-with-timer-control)  
 [Define service-level agreements](define-service-level-agreements.md)  
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

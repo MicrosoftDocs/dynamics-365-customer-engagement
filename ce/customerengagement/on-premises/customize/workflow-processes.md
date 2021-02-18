@@ -153,3 +153,6 @@ Choose this option if you want to allow users to run this workflow manually. You
  [Configuring workflow processes](../customize/configure-workflow-steps.md)   
  [Monitor and manage workflow processes](../customize/monitor-manage-processes.md)   
  [Best practices for workflow processes](../customize/best-practices-workflow-processes.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

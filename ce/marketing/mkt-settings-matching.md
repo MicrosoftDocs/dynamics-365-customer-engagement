@@ -50,3 +50,5 @@ Use the buttons in the toolbar for the **Attributes** section to add, edit, and 
 [Open the advanced settings](open-advanced-settings.md)  
 [Configure landing pages](mkt-settings-landing-pages.md)  
 [Create, view, and manage marketing forms](marketing-forms.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

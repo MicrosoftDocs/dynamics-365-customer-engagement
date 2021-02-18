@@ -49,3 +49,6 @@ You can uninstall LinkedIn Sales Navigator if you don't want to use it in your o
 
 [Install and enable LinkedIn Sales Navigator](install-sales-navigator.md)  
 [Disable LinkedIn Sales Navigator](disable-sales-navigator.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

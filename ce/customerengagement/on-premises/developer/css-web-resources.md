@@ -52,3 +52,6 @@ Use cascading style sheet (CSS) web resources to create style sheets for use in 
  [Using Silverlight (XAP) Web Resources](silverlight-xap-web-resources.md)   
  [Using Stylesheet (XSL) Web Resources](stylesheet-xsl-web-resources.md)   
  [WebResource Entity](entities/webresource.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

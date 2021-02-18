@@ -92,3 +92,6 @@ search.audienceType:
 ### See also  
  [Report Writing Environment](../analytics/report-writing-environment-using-sql-server-data-tools.md)   <br />
  [Blog: Getting Started With Custom Reports In The Cloud](https://community.dynamics.com/product/crm/crmtechnical/b/crmteamblog/archive/2010/10/19/getting-started-with-custom-reports-in-the-cloud.aspx)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

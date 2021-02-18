@@ -53,3 +53,6 @@ DocumentType = new OptionSetValue(2); // For uploading a Word template.
  [DocumentTemplate Entity](entities/documenttemplate.md)   
  [PersonalDocumentTemplate Entity](entities/personaldocumenttemplate.md)   
  [Work with templates](https://go.microsoft.com/fwlink/p/?LinkID=624118)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

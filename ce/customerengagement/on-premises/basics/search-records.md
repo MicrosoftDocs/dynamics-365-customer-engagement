@@ -53,3 +53,6 @@ To find your records quickly in Dynamics 365 Customer Engagement (on-premises), 
   
 -   To search against all record types, choose **None** in the **Filter with:** drop-down box  
   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -63,3 +63,6 @@ Facilities and equipment are resources you’d use to perform services for your 
   
 ### See also  
  [Basics of service and service scheduling](../field-service/basics-service-service-scheduling.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

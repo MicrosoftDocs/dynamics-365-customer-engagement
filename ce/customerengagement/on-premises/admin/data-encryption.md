@@ -64,3 +64,6 @@ Dynamics 365 Customer Engagement (on-premises) uses standard [!INCLUDE[pn_MS_SQL
  [FIPS 140 Evaluation](https://technet.microsoft.com/library/cc750357.aspx)   
  [Manage Your Data](../admin/manage-your-data.md)   
  [Manage configuration data](manage-configuration-data.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -38,3 +38,6 @@ You can enable the enhanced experience through the App Settings page or through 
 
 [Add products to an opportunity by using the enhanced experience](add-products-enhanced-experience.md)  
 [Add products to a quote, order, or invoice by using the enhanced experience](add-products-qoi-enhanced.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

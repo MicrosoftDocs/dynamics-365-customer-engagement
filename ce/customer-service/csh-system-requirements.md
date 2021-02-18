@@ -31,3 +31,6 @@ The following mobile devices and operating systems are supported:
 - **iOS 10:** Tablet and phone
 - **Android:** Tablet and phone (Android 6 and 7)
 - Windows 10
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

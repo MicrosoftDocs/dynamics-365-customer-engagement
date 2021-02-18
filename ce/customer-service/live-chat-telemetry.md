@@ -36,3 +36,6 @@ data-enable-telemetry = "false"
 ### See also
 
 [Customize a chat widget](customize-chat-widget.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

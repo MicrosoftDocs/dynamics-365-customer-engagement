@@ -84,3 +84,6 @@ Read this topic only if you have an existing installation of [!INCLUDE[pn_unifie
 
 [Connect to Dataverse instance using the Unified Service Desk client](../../unified-service-desk/admin/connect-dynamics-365-instance-using-unified-service-desk-client.md)  
 [Install and Deploy Unified Service Desk](../../unified-service-desk/admin/install-upgrade-deploy-unified-service-desk.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

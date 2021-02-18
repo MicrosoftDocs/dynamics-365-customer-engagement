@@ -299,3 +299,6 @@ Another Field Service setting for inventory is **Use Of Products out of Stock**.
 
  - [Create a price list](../field-service/create-price-list.md)
  - [Create a warehouse](../field-service/create-warehouse.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

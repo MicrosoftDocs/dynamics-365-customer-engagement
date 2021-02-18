@@ -225,3 +225,6 @@ Select one of the public views of the entity as default. This ensures the views 
 
 [Frequently asked questions](faqs-sales.md) </br>
 [Dynamics 365 Sales troubleshooting guide](troubleshooting.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -40,3 +40,6 @@ The telephony channel is the service that you want to integrate and interact wit
 [System requirements of Dynamics 365 Channel Integration Framework](../system-requirements-channel-integration-framework.md)
 
 [Overview of Dynamics 365 Channel Integration Framework](overview-channel-integration-framework.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

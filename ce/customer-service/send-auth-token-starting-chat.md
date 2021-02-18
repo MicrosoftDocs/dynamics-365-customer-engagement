@@ -83,3 +83,6 @@ window.addEventListener("lcw:error", function handleLivechatErrorEvent(errorEven
 [removeAuthTokenProvider](developer/reference/methods/removeAuthTokenProvider.md)<br />
 [JavaScript API reference](developer/omnichannel-reference.md)<br />
 [Manage custom context](send-context-starting-chat.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

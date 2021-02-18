@@ -105,3 +105,6 @@ By default, Dynamics 365 Sales maps fields from [!include[LinkedIn](../includes/
 
 [How to sync LinkedIn leads by using Dynamics 365 Connector for LinkedIn Lead Gen Forms](sync-linkedin-leads.md)  
 [Analyze leads and lead performance](review-leads.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

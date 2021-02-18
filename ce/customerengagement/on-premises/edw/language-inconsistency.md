@@ -24,3 +24,6 @@ ms.author: matp
   
  The exception is upgrading from an International English edition of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] to a US English edition of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. This upgrade is supported and recommended.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

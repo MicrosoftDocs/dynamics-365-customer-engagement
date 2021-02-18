@@ -44,13 +44,13 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 | | <i>Great Britain</i> | [8.8.34.18](https://docs.microsoft.com/dynamics365/field-service/version-history#883418) | TBD | 03/05/2021
 | | <i>Oceana</i> | [8.8.34.18](https://docs.microsoft.com/dynamics365/field-service/version-history#883418) | TBD | 03/05/2021
 |<strong>Station 4</strong> | |  |  | |
-| | <i>Europe</i> | [8.8.33.98](https://docs.microsoft.com/dynamics365/field-service/version-history#883398)| [8.8.34.18](https://docs.microsoft.com/dynamics365/field-service/version-history#883418) | 02/19/2021
+| | <i>Europe</i> | [8.8.33.98](https://docs.microsoft.com/dynamics365/field-service/version-history#883398)| [8.8.34.63](https://docs.microsoft.com/dynamics365/field-service/version-history#883463) | 02/19/2021
 |<strong>Station 5</strong> | |  |  | |
-| | <i>North America</i> | [8.8.32.61](https://docs.microsoft.com/dynamics365/field-service/version-history#883261) | [8.8.33.98](https://docs.microsoft.com/dynamics365/field-service/version-history#883398)  | 02/12/2021
+| | <i>North America</i> | [8.8.33.99](https://docs.microsoft.com/dynamics365/field-service/version-history#883399) | [8.8.34.63](https://docs.microsoft.com/dynamics365/field-service/version-history#883463) | 02/26/2021
 |<strong>Station 6</strong> | |  |  | |
-| | <i>Government Community Cloud</i> | [8.8.32.61](https://docs.microsoft.com/dynamics365/field-service/version-history#883261) | [8.8.33.98](https://docs.microsoft.com/dynamics365/field-service/version-history#883398) |    02/12/2021
-| | <i>China</i> | [8.8.32.61](https://docs.microsoft.com/dynamics365/field-service/version-history#883261) | [8.8.33.98](https://docs.microsoft.com/dynamics365/field-service/version-history#883398)  |   02/12/2021
-| | <i>Dedicated Scale Groups</i> | [8.8.32.61](https://docs.microsoft.com/dynamics365/field-service/version-history#883261) | [8.8.33.98](https://docs.microsoft.com/dynamics365/field-service/version-history#883398) |  02/19/2021
+| | <i>Government Community Cloud</i> | [8.8.33.99](https://docs.microsoft.com/dynamics365/field-service/version-history#883399) |[8.8.34.63](https://docs.microsoft.com/dynamics365/field-service/version-history#883463) | 02/26/2021
+| | <i>China</i> | [8.8.33.99](https://docs.microsoft.com/dynamics365/field-service/version-history#883399) | [8.8.34.63](https://docs.microsoft.com/dynamics365/field-service/version-history#883463) | 02/26/2021
+| | <i>Dedicated Scale Groups</i> | [8.8.32.61](https://docs.microsoft.com/dynamics365/field-service/version-history#883261) | [8.8.33.99](https://docs.microsoft.com/dynamics365/field-service/version-history#883399) |  02/19/2021
 
 >[!Note]
 > - Dates in all regions except Government Community Cloud (GCC) and China indicate the timing of the next automatic update. Dates in GCC and China indicate version availability; at this time, there is no automatic update for the GCC and China regions.
@@ -91,6 +91,10 @@ In addition, this release also includes the following changes:
 -	Improved error message when a knowledge article is opened in offline mode on mobile.
 -	Fixed an issue of missing "Assets and Locations" and "Properties" tabs in an asset form.
 
+## 8.8.34.63
+(Includes Universal Resource Scheduling version [3.12.35.6](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling#312356))
+
+Includes all content from Field Service version 8.8.34.18
 
 ## 8.8.34.18
 (Includes Universal Resource Scheduling version [3.12.35.5](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling#312355))
@@ -105,13 +109,18 @@ In addition, this release also includes the following changes:
 -	Fixed an issue in the creation of time entry from a bookable resource booking wherein a resource or work order was not getting populated.
 -	Fixed an issue in the Field Service model-driven app regarding icons for some entities not showing up in the sitemap.
 
+## 8.8.33.99
+(Includes Universal Resource Scheduling version [3.12.34.92](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling#3123492))
+
+Includes all content from Field Service version 8.8.33.61
+
 ## 8.8.33.98
 (Includes Universal Resource Scheduling version [3.12.34.60](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling#3123460))
 
 Includes all content from Field Service version 8.8.33.61
 
 ## 8.8.33.61
-(Includes Universal Resource Scheduling version [3.12.34.60](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling#312344))
+(Includes Universal Resource Scheduling version [3.12.34.4](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling#312344))
 - Allow technicians using the mobile app to quickly create follow up work orders.
 - Optimize unwanted calls for IoT entities during form loads of work order and case.
 - Corrected an issue with connected IoT device not showing up in connected device subgrid of the asset. 
@@ -499,7 +508,7 @@ For more information about early access features, visit the [opt-in instructions
 
 | Version | Status | Details |
 | --- | --- | --- |
-| 7.x | Latest available. Minimum platform version 9.0 for install. | [Link](https://mbs.microsoft.com/customersource/Global/365Enterprise/downloads/product-releases/365fieldservice7) |
+| 7.x | Latest available. Minimum platform version 9.0 for install. | [Link](https://docs.microsoft.com/dynamics/s-e/) |
 | 6.x | Not supported | |
 
 ## Important notes
@@ -519,3 +528,6 @@ All customers should upgrade all legacy versions of Field Service and Project Se
 ### See also
 
 - [New and upcoming features](new-upcoming.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

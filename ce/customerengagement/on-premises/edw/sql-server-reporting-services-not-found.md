@@ -37,3 +37,6 @@ ms.author: matp
   
 -   Verify that you have at least local administrator group membership on the [!INCLUDE[pn_reporting_services_short](../includes/pn-reporting-services-short.md)] server.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

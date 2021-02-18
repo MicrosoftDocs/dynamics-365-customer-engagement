@@ -48,3 +48,6 @@ The [!INCLUDE[pn_Java](../includes/pn-java.md)] data-driven adapter (JavaDDA) us
  [WinDDA](../unified-service-desk/windda.md)   
  [WebDDA](../unified-service-desk/web-dda.md)   
  [UIADDA](../unified-service-desk/uiadda.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

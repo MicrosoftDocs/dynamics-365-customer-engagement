@@ -1690,3 +1690,5 @@ See organization Entity [organization_sites](organization.md#BKMK_organization_s
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.site?text=site EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

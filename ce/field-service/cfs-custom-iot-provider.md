@@ -473,3 +473,6 @@ Here is some sample code.
   }
 }
 ```
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

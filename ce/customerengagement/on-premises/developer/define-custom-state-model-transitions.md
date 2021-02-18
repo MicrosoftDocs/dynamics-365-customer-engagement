@@ -85,3 +85,6 @@ You can specify custom state transitions for the `Incident` (**Case**) entity or
  [Record state and status](introduction-entities.md#bkmk_RecordStateandStatus)   
  [Retrieve and Detect Changes to Metadata](retrieve-detect-changes-metadata.md)   
  <!--[Define status reason transitions](https://go.microsoft.com/fwlink/p/?LinkId=393657)-->
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

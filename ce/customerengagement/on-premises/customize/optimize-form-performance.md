@@ -68,3 +68,6 @@ Forms that load slowly can reduce productivity and user adoption. Follow these r
  [Design considerations for main forms](../customize/design-considerations-main-forms.md)   
  [How main forms appear in different clients](../customize/main-form-presentations.md)     
  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

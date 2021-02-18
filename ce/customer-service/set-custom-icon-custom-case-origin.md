@@ -66,3 +66,6 @@ In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] you can set a cus
 ### See also  
  [Create and edit global option sets](../customerengagement/on-premises/customize/create-edit-global-option-sets.md)   
  [Create and edit web resources](../customerengagement/on-premises/customize/create-edit-web-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

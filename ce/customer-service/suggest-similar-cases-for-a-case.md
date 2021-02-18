@@ -169,3 +169,6 @@ You can view the similar case suggestions in the Related section of the Customer
 [Enable AI suggestions for similar cases and knowledge articles](csw-enable-ai-suggested-cases-knowledge-articles.md)  
 [Related section in the Customer Service Hub](customer-service-hub-user-guide-basics.md#related-section)  
 [Configure Customer Service](configure-cs.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

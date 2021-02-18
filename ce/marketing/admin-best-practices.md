@@ -152,3 +152,5 @@ If your tenant is in a non-supported geo, you cannot deploy Marketing in that
 geo. The tenant must be enabled for multi-geo before deploying Marketing in a
 supported geo. In this scenario, open a support request to check for
 feasibility.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

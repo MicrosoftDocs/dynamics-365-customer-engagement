@@ -46,3 +46,6 @@ After you create customized entity and field text, you may want to translate it 
 
 ### See also  
  [Import translated entity and field text](../customize/import-translated-entity-field-text.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -224,3 +224,6 @@ The audit and diagnostics record is activated.
  [Global Manager (Hosted Control)](../../unified-service-desk/global-manager-hosted-control.md)   
  [Administer and manage overview](../../unified-service-desk/admin/administer-manage-unified-service-desk.md)
  [Performance data collection using keyboard shortcut](../../unified-service-desk/admin/performance-data-collection-using-keyboard-shortcut.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -96,3 +96,6 @@ By default, some synchronization between Dynamics 365 and Outlook for Dynamics 3
 
 -   Tasks cannot be synchronized to multiple email addresses.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

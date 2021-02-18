@@ -2102,3 +2102,5 @@ See salesorder Entity [SalesOrder_OrderClose](salesorder.md#BKMK_SalesOrder_Orde
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.orderclose?text=orderclose EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

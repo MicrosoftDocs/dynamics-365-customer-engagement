@@ -53,3 +53,6 @@ In the Dynamics 365 Customer Engagement (on-premises) platform, a *contract* is 
  [Incident (case) entities](incident-case-entities.md)  
   
  [Knowledge base entities](knowledge-management-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

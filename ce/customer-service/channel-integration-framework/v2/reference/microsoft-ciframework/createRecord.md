@@ -19,3 +19,6 @@ applies_to:
 [!INCLUDE[createRecord](includes/createRecord-description.md)] 
 
 [!INCLUDE[token-createRecord](../../../shared/token-createRecord.md)]
+
+
+[!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]

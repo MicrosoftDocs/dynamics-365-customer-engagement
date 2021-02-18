@@ -64,3 +64,6 @@ The following best practices can help you produce reports that are easier to wri
 ### See also  
  [Reporting and Analytics Guide](../analytics/reporting-analytics-with-dynamics-365.md)   
  [Improve performance of reports](../analytics/improve-performance-reports.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

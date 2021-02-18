@@ -74,3 +74,6 @@ Microsoft.CIFramework.createSession(input).then(function success(sessionId) {
     // handle error conditions
 });
 ```
+
+
+[!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]

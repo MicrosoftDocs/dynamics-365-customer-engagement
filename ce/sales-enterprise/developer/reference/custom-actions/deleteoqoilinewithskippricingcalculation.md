@@ -50,3 +50,5 @@ var deleteOQOILineWithSkipPricingCalculationRequest= new ODataContract.DeleteOQO
 ### See also
 
 [msdyn_ForecastApi](msdyn_ForecastApi.md)
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

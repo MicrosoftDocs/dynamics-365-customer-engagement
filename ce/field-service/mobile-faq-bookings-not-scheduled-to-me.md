@@ -27,3 +27,6 @@ Ensure your mobile user has only the **Field Service resource** security role in
 
 >[!Note]
 > Bookings are scheduled to resources, but user records are used to sign into the mobile app. Resources can be tied to user records.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

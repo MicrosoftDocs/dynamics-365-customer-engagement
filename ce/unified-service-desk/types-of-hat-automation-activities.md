@@ -219,3 +219,6 @@ There are various types of [!INCLUDE[pn_hosted_application_toolkit_hat](../inclu
  [Create a HAT automation](../unified-service-desk/create-hat-automation.md)   
  [UII Application Integration Framework](../unified-service-desk/uii-application-integration-framework.md)   
  [Use Data Driven Adapters](../unified-service-desk/use-data-driven-adapters-ddas.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

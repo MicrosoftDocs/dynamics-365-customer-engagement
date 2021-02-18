@@ -248,3 +248,6 @@ search.audienceType:
  [Sample: Work With Solutions](sample-work-solutions.md)   
  [Sample: Detect Solution Dependencies](sample-detect-solution-dependencies.md)   
  [Solution Entities](solution-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,7 +1,7 @@
 ---
 title: "Delete a family, product, or bundle (Dynamics 365 Sales) | MicrosoftDocs"
 description: "If you're no longer selling a product, delete it from Dynamics 365 Sales."
-ms.date: 08/26/2020
+ms.date: 02/10/2021
 ms.service: 
   - "dynamics-365-sales"
 ms.custom: 
@@ -19,14 +19,12 @@ searchScope:
   - Customer Engagement
 ---
 
-# Delete a family, product, or bundle (Sales and Sales Hub)
+# Delete a family, product, or bundle (Sales Hub)
 
 To stop selling a product, delete it. If you delete a parent family, its child products, families, and bundles are also deleted.  
   
 > [!IMPORTANT]
 >  You can't recover a deleted record.  
-
-## Delete a family, product, or bundle (Sales Hub)
 
 1. [!INCLUDE[proc_permissions_admin_cust_mgr_vp_sales_ceo](../includes/proc-permissions-admin-cust-mgr-vp-sales-ceo.md)]  
   
@@ -43,23 +41,10 @@ To stop selling a product, delete it. If you delete a parent family, its child p
    
 >[!NOTE]
 >Products or bundles can't be deleted if they are associated with an existing quote, order, or invoice.  
-
-## Delete a family, product, or bundle (Sales)
-
-1. [!INCLUDE[proc_permissions_admin_cust_mgr_vp_sales_ceo](../includes/proc-permissions-admin-cust-mgr-vp-sales-ceo.md)]  
-  
-    #### Check your security role  
-  
-   - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
-  
-   - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
-  
-2. [!INCLUDE[proc_settings_prod_catalog](../includes/proc-settings-prod-catalog.md)]  
-  
-3. In the **Product Catalog** area, select **Families & Products**.  
-  
-4. Select a product family, product, or bundle record you want to delete, and on the command bar, select **Delete**.  
   
 ### See also  
  [Set up a product catalog: Walkthrough](../sales-enterprise/set-up-product-catalog-walkthrough.md)   
  [Create a product family](../sales-enterprise/create-product-family.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -65,3 +65,6 @@ privileges associated with that role.
 
 [Add or manage users in Dynamics 365 Sales Professional](manage-users.md)  
 [Admin settings overview](admin-settings-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

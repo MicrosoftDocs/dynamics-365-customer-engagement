@@ -80,3 +80,6 @@ If you, as an agent or supervisor, are in a session with a customer, and capture
 ### See also
 
 [Best practices to use Omnichannel for Customer Service](best-practices.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

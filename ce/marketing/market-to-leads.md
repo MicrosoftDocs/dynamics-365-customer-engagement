@@ -106,3 +106,6 @@ In the current version of Dynamics 365 Marketing, the techniques described here 
 - A built-in feature that creates and associates contacts when you import large numbers of leads at once.
 
 Going forward, we will continue to gather market feedback to identify solutions for business scenarios that still are not supported by this marketing model.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

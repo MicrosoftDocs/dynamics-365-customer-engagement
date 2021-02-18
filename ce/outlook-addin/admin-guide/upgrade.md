@@ -144,3 +144,6 @@ Follow these steps for a smooth upgrade to [!INCLUDE[pn_crm_2016_outlook](../../
   
   For more information about installing [!INCLUDE[pn_crm_2016_outlook_shortest](../../includes/pn-crm-2016-outlook-shortest.md)], see [Install Dynamics 365 for Outlook](install.md).  
   
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

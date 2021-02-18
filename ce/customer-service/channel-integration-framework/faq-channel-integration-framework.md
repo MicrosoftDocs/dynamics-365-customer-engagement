@@ -142,3 +142,6 @@ No, you will have to navigate to Channel Integration Framework version 2.0 from 
 [What's new in Dynamics 365 Channel Integration Framework](whats-new-channel-integration-framework.md)<br />
 [System requirements of Dynamics 365 Channel Integration Framework](system-requirements-channel-integration-framework.md)<br />
 [Known issues of Dynamics 365 Channel Integration Framework](known-issues.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -47,3 +47,6 @@ search.audienceType:
   
 ### See also  
  [Set up server-side synchronization of email, appointments, contacts, and tasks](set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

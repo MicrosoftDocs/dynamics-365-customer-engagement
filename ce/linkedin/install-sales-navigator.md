@@ -170,3 +170,6 @@ In the [April 19 release](https://docs.microsoft.com/power-platform/admin/previe
 [Customize forms to show Sales Navigator controls](add-sales-navigator-controls-forms.md)  
 [Work with Sales Navigator controls on forms](view-sales-navigator-forms.md)<br>
 [See profile pictures](see-profile-pictures.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

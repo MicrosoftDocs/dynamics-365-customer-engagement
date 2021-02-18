@@ -23,3 +23,6 @@ Use the `Listener Hosted Control` type of hosted control, introduced in [!INCLUD
   
 ### See also  
  [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

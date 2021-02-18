@@ -22,3 +22,6 @@ ms.author: matp
   
  To resolve this requirement, install SQL Server Data Tools. More information: [Report writing environment using SQL Server Data Tools](../analytics/report-writing-environment-using-sql-server-data-tools.md).
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -50,3 +50,6 @@ The [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-in
   
 ### See also  
  [Integrate with CTI systems](../unified-service-desk/integrate-cti-systems-cti-adapters.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

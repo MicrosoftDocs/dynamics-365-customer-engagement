@@ -1,4 +1,4 @@
-﻿---
+---
 title: Configure server-based authentication with Customer Engagement (on-premises) and SharePoint Online
 ms:assetid: 24245deb-48cb-4c13-adfe-efa2fe94b3cd
 ms.date: 04/16/2020
@@ -179,3 +179,6 @@ The following software features are required to run the Windows PowerShell cmdle
 Failed Authentication. This error can be returned when the certificate used for server-to-server authentication is missing or invalid.
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

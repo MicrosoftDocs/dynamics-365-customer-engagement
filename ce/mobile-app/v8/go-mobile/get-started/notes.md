@@ -30,3 +30,6 @@ Taking a cue from easy-to-use social media apps, the mobile app now lets you sta
   
 ### See also  
  [Dynamics 365 for phones and tablets User's Guide](../../../dynamics-365-phones-tablets-users-guide.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

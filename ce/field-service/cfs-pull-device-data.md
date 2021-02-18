@@ -57,3 +57,6 @@ Go to **IoT Settings** > **Device Data Pulls** tab. Set **Scheduled Data Pull** 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the IoT settings, on the Device Data Pulls tab.](./media/cfs-device-pulls-schedule.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
