@@ -41,7 +41,17 @@ Dynamics 365 for Microsoft Teams integration enables users to easily work with c
  
  
  
+| Member of organization      | Member of Teams channel | View record in Teams | View record in Dynamics 365  | Access document in  Dynamics 365  | Access document in Teams | Access document in SharePoin|    
+| ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | -----------
+| Yes      | Yes       | Yes       | Yes       | Yes (read, write, delete)       |Yes (read, write, delete)       |Yes       |
+| No   | Yes        | Yes (read only)       | Yes       | Yes (read, write, delete)       |Yes (read, write, delete)       |Yes       |
+| No      | No       | No       | Yes (read only)       | No       | No       | No       |
+| Yes   | No        | No       | Yes       | No       |No       | No       |
 
+ 
+ 
+ 
+ 
 > [!div class="mx-imgBorder"] 
 > ![Features of Microsoft Teams app](media/teams-intro.png "Features of Microsoft Teams app")
 
