@@ -10,7 +10,7 @@ ms.author: shujoshi
 manager: annbe
 ---
 
-# Preview: Enable the enhanced experience of adding products (Sales Hub)
+# Preview: Enable the enhanced experience of adding products
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -25,41 +25,11 @@ Increase seller productivity by enabling the enhanced experience for searching a
 > - The enhanced experience for adding products is a preview feature. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 > - [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
 > - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
-<!--markdownlint-disable MD036-->
-**To enable the enhanced experience from the Sales Hub app**
 
-1. At the bottom of the site map, select **Change area** ![Icon to change the work area](media/change-area-icon.png "Icon to change the work area"), and then select **App Settings**.
+You can enable the enhanced experience through the App Settings page or through System Settings. 
 
-2. Under **Product Catalog**, select **Product Catalog Settings**.
-
-3. Set **Adding Products** > **Enhanced Add product experience** to **Yes**.
-
-    > [!div class="mx-imgBorder"]
-    > ![Enhanced Add product experience setting](media/enhanced-add-product-experience-setting.png "Enhanced Add product experience setting")
-
-4. Select **Apply**.
-
-**To enable the enhanced experience from System Settings**
-
-If you're using a custom app, you can enable the enhanced experience from **System Settings** in the legacy web client.
-
-1. In your app, select the **Settings** icon, and then select **Advanced Settings**.
-
-    > [!div class="mx-imgBorder"]  
-    > ![Advanced Settings link in the site map](../sales-enterprise/media/advanced-settings-option.png "Advanced Settings link in the site map")
-
-    The **Business Management settings** page opens in a new browser tab.
-
-2. On the navigation bar, select **Settings**, and then select **Administration**.
-
-3. Select **System Settings**.
-
-4. In the **System Settings** dialog box on the **Sales** tab, set **Enhanced add product experience** to **Yes**.
-
-    > [!div class="mx-imgBorder"]
-    > ![Enhanced add product experience setting](../sales-professional/media/system-settings-sales-tab-enhanced-add-products.png "Enhanced add product experience setting")
-
-4. Select **OK**.
+- To enable via App Settings, see [Configure product catalog settings](product-catalog-settings.md).
+- To enable via System Settings, see [System Settings dialog box - Sales tab](system-settings-sales-tab.md)
 
 > [!IMPORTANT]
 > The enhanced experience for adding products lets you define the columns to show in the **Add products** dialog box. More information: [Customize the Add products dialog box](customize-add-products-dialog-box.md)
