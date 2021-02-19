@@ -37,7 +37,7 @@ A user’s access to files in Microsoft Teams or Dynamics 365 apps depends on th
 > - A guest user in Microsoft Teams will get error message when they try to access a pinned customer engagemnt app record. 
 > - A user who is part of Microsoft Teams channel or team that does have access to customer engagementapps won't have access to the record in Microsoft Teams.
  
-| Member of organization      | Member of Teams channel | View record in Teams | View record in Dynamics 365  | Access document in  Dynamics 365  | Access document in Teams | Access document in SharePoin|    
+| Member of organization      | Member of Teams channel | View record in Teams | View record in Dynamics 365  | Access document in  Dynamics 365  | Access document in Teams | Access document in SharePoint|    
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | -----------
 | Yes      | Yes       | Yes       | Yes       | Yes (read, write, delete)       |Yes (read, write, delete)       |Yes       |
 | No   | Yes        | Yes (read only)       | Yes       | Yes (read, write, delete)       |Yes (read, write, delete)       |Yes       |
