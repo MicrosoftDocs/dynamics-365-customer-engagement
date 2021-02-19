@@ -23,11 +23,19 @@ search.app:
 ---
 # Document management in Microsoft Teams integration
 
-There is no automatic relationship between SharePoint permissions and Dynamics permissions. It means even if a user has Sales manager permissions in the D365 org, but doesn’t have permissions on the SharePoint site, they will not be able to use document management capabilities. Permissions have to be granted explicitly from Dynamics as well as from the SharePoint side to make SharePoint integration work for all the users.
+Document management with SharePoint lets users manage common document types, such as Word, Excel, PowerPoint, OneNote, and create folders to save and manage those documents in customer engagement apps in Dynamics 365 (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing, and Dynamics 365 Project Service Automation), that are seamlessly stored in SharePoint. 
+
+To access documents between Microsoft Teams and customer engagement apps, you need explicit permission to use document management in your customer engagement app and SharePoint. For information: [Permissions required for document management tasks](Permissions required for document management tasks)
+
+
 
 ## Access to files
 
 A user’s access to files in Microsoft Teams or Dynamics 365 apps depends on their access to the SharePoint site the file is stored in.
+
+> [!NOTE]
+> - A guest user in Microsoft Teams will get error message when they try to access a pinned customer engagemnt app record. 
+> - A user who is part of Microsoft Teams channel or team that does have access to customer engagementapps won't have access to the record in Microsoft Teams.
  
 | Member of organization      | Member of Teams channel | View record in Teams | View record in Dynamics 365  | Access document in  Dynamics 365  | Access document in Teams | Access document in SharePoin|    
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | -----------
@@ -36,6 +44,4 @@ A user’s access to files in Microsoft Teams or Dynamics 365 apps depends on th
 | No      | No       | No       | Yes (read only)       | No       | No       | No       |
 | Yes   | No        | No       | Yes       | No       |No       | No       |
 
-> [!NOTE]
-> - A guest user in Microsoft Teams will get error message when they try to access a pinned Dynamics 365 app record. You need a Mic
-> - A user who is part of Microsoft Teams channel or team that does have access to Dynamics 365 apps won't be able to see the record in Microsoft Teams
+
