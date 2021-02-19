@@ -31,13 +31,13 @@ If you're familiar with [Microsoft Teams](https://products.office.com/microsoft-
    >  - Dynamics 365 Customer Engagement (on-premises)
    >  - Microsoft Dataverse environment
    >  - Legacy web client or legacy apps
-   >  - D365 app and Microsoft Teams are in different tenants
+   >  -  and Microsoft Teams are in different tenants
 
 
 Dynamics 365 for Microsoft Teams integration enables users to easily work with customer information in customer engagement apps (such as Dynamics 365 Sales and Dynamics 365 Customer Service) and share files directly from Microsoft Teams. This helps them to be more productive and get work done more effectively. 
 
 - **Collaboration hub**: Access a shared workspace for Office apps that most of us already use to work sales opportunities.  
-- **File integration**: Co-author documents using Microsoft 365 and automatically sync with customer engagement apps in Dynamics 365. Files uploaded to a channel are available for the record that is pinned to the channel. Files are saved to Sharepoint are accessiable in Micrsoft Teams and  in your customer engagement app.
+- **File integration**: Co-author documents using Microsoft 365 and automatically sync with customer engagement apps in Dynamics 365. Files uploaded to a channel are available for the record that is pinned to the channel. Files are saved to Sharepoint are accessiable in Micrsoft Teams and  in your customer engagement app. For more information: [Document management in Microsoft Teams integration](teams-doc-management.md)
  
  
 > [!div class="mx-imgBorder"] 
@@ -52,20 +52,6 @@ With the Dynamics 365 for Microsoft Teams integration, add app features that you
 > [!VIDEO https://www.youtube.com/embed/u0DaRzZDAPc]
 > 
 
-## Access to files
-
-A user’s access to files in Microsoft Teams or Dynamics 365 apps depends on their access to the SharePoint site the file is stored in.
- 
-| Member of organization      | Member of Teams channel | View record in Teams | View record in Dynamics 365  | Access document in  Dynamics 365  | Access document in Teams | Access document in SharePoin|    
-| ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | -----------
-| Yes      | Yes       | Yes       | Yes       | Yes (read, write, delete)       |Yes (read, write, delete)       |Yes       |
-| No   | Yes        | Yes (read only)       | Yes       | Yes (read, write, delete)       |Yes (read, write, delete)       |Yes       |
-| No      | No       | No       | Yes (read only)       | No       | No       | No       |
-| Yes   | No        | No       | Yes       | No       |No       | No       |
-
-> [!NOTE]
-> - A guest user in Microsoft Teams will get error message when they try to access a pinned Dynamics 365 app record. You need a Mic
-> - A user who is part of Microsoft Teams channel or team that does have access to Dynamics 365 apps won't be able to see the record in Microsoft Teams
 
 ## Questions and feedback
 
