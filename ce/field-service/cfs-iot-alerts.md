@@ -3,7 +3,7 @@ title: "Create IoT Alerts and convert IoT Alerts into work orders | MicrosoftDoc
 description: description
 ms.custom:
 - dyn365-fieldservice
-ms.date: 01/05/2021
+ms.date: 02/20/2021
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.topic: article
@@ -25,14 +25,26 @@ search.app:
 // https://msit.microsoftstream.com/video/7a11a1ff-0400-b564-2c53-f1eb658dc97a
 
 
-## Trigger IoT Alerts
+## Trigger IoT Alerts with rules
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/cfs-iot-alert-stream-analytics.png)
 
 ### Trigger IoT Alerts with the simulator
 
+
+cfs-iot-alert-simulator1
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
+
+cfs-iot-alert-simulator2
+
+cfs-iot-alert-simulator3
+
 ## View IoT Alerts in Field Service
+
+
+cfs-iot-alert-from-simulator
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/cfs-iot-alert-form.png)
